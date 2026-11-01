@@ -31,14 +31,16 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.2
-  scored_at: '2026-10-17'
+  score: 42.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.car-cutter.com
@@ -61,24 +63,24 @@ apis:
   description: Vehicle API
   name: Meero Vehicle API
   slug: meero-vehicle-api
-artifact_total: 10
+artifact_total: 14
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.carcutter.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/overlays/meero-carcutter-overlay.yaml
+  href: https://artifacts.apis.io/meero/overlays/meero-carcutter-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/meero-carcutter-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/security/meero-domain-security.yml
+  href: https://artifacts.apis.io/meero/security/meero-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meero-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/authentication/meero-authentication.yml
+  href: https://artifacts.apis.io/meero/authentication/meero-authentication.yml
   title: ''
   type: Authentication
   url: authentication/meero-authentication.yml
@@ -135,92 +137,100 @@ common:
   type: StatusPage
   url: https://carcutter.statuspage.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/llms/meero-llms.txt
+  href: https://artifacts.apis.io/meero/llms/meero-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meero-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/well-known/meero-well-known.yml
+  href: https://artifacts.apis.io/meero/well-known/meero-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/meero-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/mcp/meero-mcp.yml
+  href: https://artifacts.apis.io/meero/mcp/meero-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/meero-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/mcp/meero-tool-crosswalk.yml
+  href: https://artifacts.apis.io/meero/mcp/meero-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/meero-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/scopes/meero-scopes.yml
+  href: https://artifacts.apis.io/meero/scopes/meero-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/meero-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/conformance/meero-conformance.yml
+  href: https://artifacts.apis.io/meero/conformance/meero-conformance.yml
   title: ''
   type: Conformance
   url: conformance/meero-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/errors/meero-problem-types.yml
+  href: https://artifacts.apis.io/meero/errors/meero-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/meero-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/lifecycle/meero-lifecycle.yml
+  href: https://artifacts.apis.io/meero/lifecycle/meero-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/meero-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/conventions/meero-conventions.yml
+  href: https://artifacts.apis.io/meero/conventions/meero-conventions.yml
   title: ''
   type: Conventions
   url: conventions/meero-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/data-model/meero-data-model.yml
+  href: https://artifacts.apis.io/meero/data-model/meero-data-model.yml
   title: ''
   type: DataModel
   url: data-model/meero-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/packages/meero-packages.yml
+  href: https://artifacts.apis.io/meero/packages/meero-packages.yml
   title: ''
   type: Packages
   url: packages/meero-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/components/meero-components.yml
+  href: https://artifacts.apis.io/meero/components/meero-components.yml
   title: ''
   type: Components
   url: components/meero-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/sandbox/meero-sandbox.yml
+  href: https://artifacts.apis.io/meero/sandbox/meero-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/meero-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/changelog/meero-changelog.yml
+  href: https://artifacts.apis.io/meero/changelog/meero-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/meero-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/plans/meero-plans-pricing.yml
+  href: https://artifacts.apis.io/meero/plans/meero-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/meero-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/rate-limits/meero-rate-limits.yml
+  href: https://artifacts.apis.io/meero/rate-limits/meero-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/meero-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/meero/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-25'
 description: 'Meero is the Paris-founded AI visual-content company that rebranded to Diffusely in December 2024 after pivoting away from on-demand photography marketplaces toward vertical AI imaging software. Its surviving operating brand is CarCutter (DIFFUSELY Austria GmbH, whose API host still returns the copyright line "(c) 2026 Meero Austria GmbH"), a B2B vehicle merchandising platform used by dealership groups, OEMs and used-vehicle marketplaces for guided capture, AI backgrounding, 360 spins, feature hotspots and automated publishing. The public developer surface is the Car-Cutter API (OpenAPI 3.1, bearer token, api.car-cutter.com), a keyless public demo endpoint, an OAuth-gated remote MCP server, a WebPlayer web-component family on npm, and a Statuspage. Two former Diffusely verticals have since left the group: autoRetouch merged into Grand Shooting (February 2026) and ProperShot joined Nodalview, so neither of their APIs is attributed here.'
+finops:
+- has_sources: true
+  method: derived
+  name: Meero Finops
+  primary_unit: ''
+  service_category: ''
+  slug: meero-finops
+  template: true
 image: https://www.carcutter.com/wp-content/themes/carcutter/img/car-cutter-logo-25.svg
 layout: provider
 mcp_servers:
@@ -251,23 +261,23 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 42.5
+  composite: 47.3
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 51.5
-    developer_ergonomics: 58.9
-    discoverability: 75.0
-    operational_transparency: 34.2
-  previous_composite: 42.4
+    developer_ergonomics: 66.1
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 47.3
   provenance:
     conformance: derived
     contracts:
@@ -282,14 +292,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 31.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/screenshots/meero-2026-09-02T150502.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/meero/meero-2026-09-02T150502.png
 security:
 - kind: authentication
   name: Meero Authentication
@@ -299,6 +310,14 @@ security:
   name: Meero Domain Security
   slug: meero-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: carcutter-async-image-processing
+  slug: meero-async-image-processing
+- name: carcutter-vehicle-feature-hotspots
+  slug: meero-vehicle-feature-hotspots
+- name: carcutter-vehicle-inventory-sync
+  slug: meero-vehicle-inventory-sync
 slug: meero
 tags:
 - Automotive

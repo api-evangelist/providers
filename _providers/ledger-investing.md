@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -74,11 +76,8 @@ apis:
   description: Upload, list, retrieve and delete insurance loss triangles.
   name: Ledger Investing Triangles API
   slug: ledger-investing-triangles-api
-artifact_total: 18
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ledger Analytics Cashflow Models API
   slug: open-ledger-investing-cashflow-models-api
@@ -98,13 +97,22 @@ collections:
   name: Ledger Analytics Cashflow Models Triangles API
   slug: open-ledger-investing-triangles-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/ledger-investing/plans/ledger-investing-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ledger-investing-plans-pricing.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ledger-investing/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/capabilities/ledger-investing-capability-edges.yml
+  href: https://artifacts.apis.io/ledger-investing/capabilities/ledger-investing-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ledger-investing-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/overlays/ledger-investing-analytics-overlay.yaml
+  href: https://artifacts.apis.io/ledger-investing/overlays/ledger-investing-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ledger-investing-analytics-overlay.yaml
@@ -121,7 +129,7 @@ common:
   type: License
   url: https://github.com/LedgerInvesting/ledger-analytics/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/agentic-access/ledger-investing-agentic-access.yml
+  href: https://artifacts.apis.io/ledger-investing/agentic-access/ledger-investing-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ledger-investing-agentic-access.yml
@@ -194,83 +202,91 @@ common:
   type: Twitter
   url: https://x.com/LedgerInvesting
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/packages/ledger-investing-packages.yml
+  href: https://artifacts.apis.io/ledger-investing/packages/ledger-investing-packages.yml
   title: ''
   type: Packages
   url: packages/ledger-investing-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/packages/ledger-investing-packages.yml
+  href: https://artifacts.apis.io/ledger-investing/packages/ledger-investing-packages.yml
   title: ''
   type: SDKs
   url: packages/ledger-investing-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/authentication/ledger-investing-authentication.yml
+  href: https://artifacts.apis.io/ledger-investing/authentication/ledger-investing-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ledger-investing-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/conventions/ledger-investing-conventions.yml
+  href: https://artifacts.apis.io/ledger-investing/conventions/ledger-investing-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ledger-investing-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/errors/ledger-investing-problem-types.yml
+  href: https://artifacts.apis.io/ledger-investing/errors/ledger-investing-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ledger-investing-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/lifecycle/ledger-investing-lifecycle.yml
+  href: https://artifacts.apis.io/ledger-investing/lifecycle/ledger-investing-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ledger-investing-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/conformance/ledger-investing-conformance.yml
+  href: https://artifacts.apis.io/ledger-investing/conformance/ledger-investing-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ledger-investing-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/well-known/ledger-investing-well-known.yml
+  href: https://artifacts.apis.io/ledger-investing/well-known/ledger-investing-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ledger-investing-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/security/ledger-investing-domain-security.yml
+  href: https://artifacts.apis.io/ledger-investing/security/ledger-investing-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ledger-investing-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/security/ledger-investing-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ledger-investing/security/ledger-investing-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ledger-investing-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/security/ledger-investing-trust-center.yml
+  href: https://artifacts.apis.io/ledger-investing/security/ledger-investing-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ledger-investing-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/mcp/ledger-investing-mcp.yml
+  href: https://artifacts.apis.io/ledger-investing/mcp/ledger-investing-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ledger-investing-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/llms/ledger-investing-llms.txt
+  href: https://artifacts.apis.io/ledger-investing/llms/ledger-investing-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ledger-investing-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ledger-investing/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/changelog/ledger-investing-changelog.yml
+  href: https://artifacts.apis.io/ledger-investing/changelog/ledger-investing-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ledger-investing-changelog.yml
 created: '2026-07-17'
 description: Ledger Investing is a New York-based specialist broking and advisory firm for casualty insurance-linked securities (ILS), connecting insurers, reinsurers and fronting carriers to institutional capital markets investors. The firm originates casualty risk, structures off-balance-sheet solutions, brokes and distributes the resulting securities, and supports secondary trading, having securitized more than $2.5 billion of casualty premium across 170+ transactions since graduating Y Combinator in 2017. Its wholly owned SaaS subsidiary Korra Tech, LLC operates the Korra open data and analytics platform for the reinsurance and ILS market, whose Ledger Analytics API gives actuaries programmatic remote-compute access to Bayesian loss development, tail and forecasting models over insurance loss triangles, alongside the open-source Bermuda (loss triangle manipulation) and BayesBlend (Bayesian model stacking) Python libraries. Other subsidiaries include Ledger Capital Markets, LLC (SEC-registered
   broker-dealer, FINRA/SIPC member) and Ledger Risk Markets, LLC (licensed reinsurance intermediary).
+finops:
+- has_sources: true
+  method: derived
+  name: Ledger Investing Finops
+  primary_unit: ''
+  service_category: ''
+  slug: ledger-investing-finops
+  template: true
 image: https://www.ledgerinvesting.com/apple-touch-icon.png
 layout: provider
 modified: '2026-07-19'
@@ -280,26 +296,30 @@ network: true
 overview: 'Ledger Investing publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cashflow Models API, Development Models API, Forecast Models API, and 3 more. Tagged areas include Company, Insurance Tech, Insurance, Reinsurance, and Insurance-Linked Securities.
 
 
-  Ledger Investing''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 31 more developer resources.'
-random_paper: 5
+  Ledger Investing''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 33 more developer resources.'
+plans:
+- name: Ledger Investing Plans Pricing
+  plan_count: 1
+  slug: ledger-investing-plans-pricing
+random_paper: 23
 score:
-  band: developing
-  composite: 50.3
+  band: strong
+  composite: 57.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 49.1
-    developer_ergonomics: 66.1
+    developer_ergonomics: 67.3
     discoverability: 66.1
-    operational_transparency: 28.9
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -307,10 +327,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 50.3
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -327,13 +344,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 31.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/screenshots/ledger-investing-2026-07-25T224810.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ledger-investing/ledger-investing-2026-07-25T224810.png
 security:
 - kind: authentication
   name: Ledger Investing Authentication
@@ -351,6 +369,14 @@ security:
   name: Ledger Investing Trust Center
   slug: ledger-investing-trust-center
   summary_line: SOC 2 Type 1, SOC 2 Type 2
+skill_count: 3
+skills:
+- name: Build a Ledger Analytics cashflow model from a development and tail model
+  slug: ledger-investing-build-cashflow-model
+- name: Fit a loss development model on a Ledger Analytics triangle
+  slug: ledger-investing-fit-loss-development-model
+- name: Predict from a fitted Ledger Analytics model and retrieve the result triangle
+  slug: ledger-investing-predict-and-retrieve-triangle
 slug: ledger-investing
 tags:
 - Company

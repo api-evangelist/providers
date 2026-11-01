@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-17'
+  score: 32.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 22
   slug: tickitto-agentic-access
   summary_line: 22 operations · 12 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://tickitto.tech/api
   baseurl_source: declared
@@ -96,9 +98,6 @@ asyncapis:
   slug: tickitto-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Authentication API
   slug: open-tickitto-authentication-api
 - collection_type: open
@@ -124,7 +123,7 @@ collections:
   slug: open-tickitto-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/overlays/tickitto-openapi-overlay.yaml
+  href: https://artifacts.apis.io/tickitto/overlays/tickitto-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tickitto-openapi-overlay.yaml
@@ -141,82 +140,82 @@ common:
   type: APIReference
   url: https://docs.tickitto.com/key-principles/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/authentication/tickitto-authentication.yml
+  href: https://artifacts.apis.io/tickitto/authentication/tickitto-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tickitto-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/agentic-access/tickitto-agentic-access.yml
+  href: https://artifacts.apis.io/tickitto/agentic-access/tickitto-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tickitto-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/errors/tickitto-problem-types.yml
+  href: https://artifacts.apis.io/tickitto/errors/tickitto-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tickitto-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/conventions/tickitto-conventions.yml
+  href: https://artifacts.apis.io/tickitto/conventions/tickitto-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tickitto-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/data-model/tickitto-data-model.yml
+  href: https://artifacts.apis.io/tickitto/data-model/tickitto-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tickitto-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/lifecycle/tickitto-lifecycle.yml
+  href: https://artifacts.apis.io/tickitto/lifecycle/tickitto-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tickitto-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/conformance/tickitto-conformance.yml
+  href: https://artifacts.apis.io/tickitto/conformance/tickitto-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tickitto-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/components/tickitto-components.yml
+  href: https://artifacts.apis.io/tickitto/components/tickitto-components.yml
   title: ''
   type: Components
   url: components/tickitto-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/sandbox/tickitto-sandbox.yml
+  href: https://artifacts.apis.io/tickitto/sandbox/tickitto-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tickitto-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/mcp/tickitto-mcp.yml
+  href: https://artifacts.apis.io/tickitto/mcp/tickitto-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tickitto-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/llms/tickitto-llms.txt
+  href: https://artifacts.apis.io/tickitto/llms/tickitto-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tickitto-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/well-known/tickitto-well-known.yml
+  href: https://artifacts.apis.io/tickitto/well-known/tickitto-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tickitto-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/security/tickitto-domain-security.yml
+  href: https://artifacts.apis.io/tickitto/security/tickitto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tickitto-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/asyncapi/tickitto-webhooks.yml
+  href: https://artifacts.apis.io/tickitto/asyncapi/tickitto-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tickitto-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tickitto/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/arazzo/tickitto-search-to-checkout.yml
+  href: https://artifacts.apis.io/tickitto/arazzo/tickitto-search-to-checkout.yml
   title: ''
   type: Arazzo
   url: arazzo/tickitto-search-to-checkout.yml
@@ -251,7 +250,7 @@ overview: 'Tickitto publishes 8 API contracts indexed on the [APIs.io](https://a
 
 
   Tickitto''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, and 19 more developer resources.'
-random_paper: 17
+random_paper: 11
 score:
   band: thin
   composite: 36.2
@@ -262,13 +261,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 53.9
     developer_ergonomics: 49.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -278,7 +277,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 36.1
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,13 +294,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/screenshots/tickitto-2026-09-02T163709.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tickitto/tickitto-2026-09-02T163709.png
 security:
 - kind: authentication
   name: Tickitto Authentication
@@ -311,6 +311,10 @@ security:
   name: Tickitto Domain Security
   slug: tickitto-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Sell an event ticket with Tickitto
+  slug: tickitto-sell-a-ticket
 slug: tickitto
 tags:
 - Company

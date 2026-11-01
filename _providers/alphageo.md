@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,21 +37,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Public REST API for programmatically accessing AlphaGeo climate risk scoring data for global locations and portfolios. Location-Level Data APIs (Scores/CRRI, Physical Risk, Resilience-adjusted Risk, G
   name: AlphaGeo Data API
   slug: alphageo-data-api
-artifact_total: 6
+artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alphageo/refs/heads/main/plans/alphageo-plans-pricing.yml
+  href: https://artifacts.apis.io/alphageo/plans/alphageo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/alphageo-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alphageo/refs/heads/main/security/alphageo-trust-center.yml
+  href: https://artifacts.apis.io/alphageo/security/alphageo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/alphageo-trust-center.yml
@@ -110,52 +112,60 @@ common:
   type: Website
   url: https://alphageo.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alphageo/refs/heads/main/authentication/alphageo-authentication.yml
+  href: https://artifacts.apis.io/alphageo/authentication/alphageo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alphageo-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/alphageo/refs/heads/main/rate-limits/alphageo-rate-limits.yml
+  href: https://artifacts.apis.io/alphageo/rate-limits/alphageo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/alphageo-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alphageo/refs/heads/main/errors/alphageo-problem-types.yml
+  href: https://artifacts.apis.io/alphageo/errors/alphageo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/alphageo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alphageo/refs/heads/main/conventions/alphageo-conventions.yml
+  href: https://artifacts.apis.io/alphageo/conventions/alphageo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alphageo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alphageo/refs/heads/main/lifecycle/alphageo-lifecycle.yml
+  href: https://artifacts.apis.io/alphageo/lifecycle/alphageo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alphageo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alphageo/refs/heads/main/data-model/alphageo-data-model.yml
+  href: https://artifacts.apis.io/alphageo/data-model/alphageo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/alphageo-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alphageo/refs/heads/main/mcp/alphageo-mcp.yml
+  href: https://artifacts.apis.io/alphageo/mcp/alphageo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/alphageo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alphageo/refs/heads/main/llms/alphageo-llms.txt
+  href: https://artifacts.apis.io/alphageo/llms/alphageo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alphageo-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alphageo/refs/heads/main/security/alphageo-domain-security.yml
+  href: https://artifacts.apis.io/alphageo/security/alphageo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alphageo-domain-security.yml
 created: '2026-07-17'
 description: AlphaGeo is an AI-powered geospatial predictive analytics company that quantifies climate risk and adaptation for real assets to guide resilient, future-proof investing. Its enterprise SaaS platform (AlphaGeo Explorer) and public REST Data API deliver location-level and portfolio-level climate risk scores, resilience-adjusted risk, physical hazard layers (heat stress, inland and coastal flooding, hurricanes, drought, wildfire), and financial impact metrics across CMIP6 emission scenarios (SSP245, SSP370, SSP585) and time horizons (2025, 2035, 2050, 2100). The Data API returns per-location scores by address, coordinates, or uploaded asset ID, and portfolio aggregates across an institution's assets. Backed by DCVC, AlphaGeo also ships a Snowflake Native App and an agentic AI co-pilot, "Darwin."
+finops:
+- has_sources: true
+  method: derived
+  name: Alphageo Finops
+  primary_unit: ''
+  service_category: ''
+  slug: alphageo-finops
+  template: true
 image: https://app.alphageo.ai/assets/img/svg/alphaGeo-logo.svg
 layout: provider
 modified: '2026-07-17'
@@ -170,30 +180,30 @@ plans:
 - name: Alphageo Plans Pricing
   plan_count: 2
   slug: alphageo-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 6
   name: Alphageo Rate Limits
   slug: alphageo-rate-limits
 score:
   band: developing
-  composite: 40.4
+  composite: 41.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 16
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 0.0
   facets:
-    access_clarity: 75.0
+    access_clarity: 81.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 42.1
-  previous_composite: 36.1
+  previous_composite: 41.0
   provenance:
     mcp: derived
   regulatory:
@@ -202,14 +212,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alphageo/refs/heads/main/screenshots/alphageo-2026-07-25T195759.png
+screenshot: https://apis.io/screenshots/alphageo/alphageo-2026-07-25T195759.png
 security:
 - kind: authentication
   name: Alphageo Authentication

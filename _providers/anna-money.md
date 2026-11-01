@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anna-money/refs/heads/main/security/anna-money-domain-security.yml
+  href: https://artifacts.apis.io/anna-money/security/anna-money-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anna-money-domain-security.yml
@@ -79,7 +81,7 @@ common:
   type: SignUp
   url: https://anna.money/sign-up/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anna-money/refs/heads/main/llms/anna-money-llms.txt
+  href: https://artifacts.apis.io/anna-money/llms/anna-money-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anna-money-llms.txt
@@ -96,10 +98,10 @@ overview: 'ANNA Money is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ANNA Money''s developer surface includes engineering blog, pricing, support, signup flow, and 7 more developer resources.'
-random_paper: 21
+random_paper: 3
 score:
   band: emerging
-  composite: 14.8
+  composite: 14.5
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -113,8 +115,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -123,21 +125,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 14.8
+  previous_composite: 14.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/anna-money/refs/heads/main/screenshots/anna-money-2026-07-25T200301.png
+screenshot: https://apis.io/screenshots/anna-money/anna-money-2026-07-25T200301.png
 security:
 - kind: domain-security
   name: Anna Money Domain Security

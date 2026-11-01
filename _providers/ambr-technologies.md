@@ -14,36 +14,38 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.7
-  scored_at: '2026-10-17'
+  score: 21.8
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ambr-technologies/refs/heads/main/conformance/ambr-technologies-conformance.yml
+  href: https://artifacts.apis.io/ambr-technologies/conformance/ambr-technologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ambr-technologies-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ambr-technologies/refs/heads/main/well-known/ambr-technologies-well-known.yml
+  href: https://artifacts.apis.io/ambr-technologies/well-known/ambr-technologies-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ambr-technologies-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ambr-technologies/refs/heads/main/hosts/ambr-technologies-hosts.yml
+  href: https://artifacts.apis.io/ambr-technologies/hosts/ambr-technologies-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ambr-technologies-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ambr-technologies/refs/heads/main/vendors/ambr-technologies-vendors.yml
+  href: https://artifacts.apis.io/ambr-technologies/vendors/ambr-technologies-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ambr-technologies-vendors.yml
@@ -72,7 +74,7 @@ common:
   type: GettingStarted
   url: https://ambr.ai/resources/frameworks/90-day-manager-onboarding-blueprint
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ambr-technologies/refs/heads/main/security/ambr-technologies-domain-security.yml
+  href: https://artifacts.apis.io/ambr-technologies/security/ambr-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ambr-technologies-domain-security.yml
@@ -100,12 +102,12 @@ overview: 'Ambr Technologies is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Ambr Technologies'' developer surface includes pricing, documentation, engineering blog, getting-started guide, and 8 more developer resources.'
-random_paper: 9
+random_paper: 19
 score:
   band: emerging
   composite: 17.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -133,14 +135,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ambr-technologies/refs/heads/main/screenshots/ambr-technologies-2026-10-11T093825.png
+screenshot: https://apis.io/screenshots/ambr-technologies/ambr-technologies-2026-10-11T093825.png
 security:
 - kind: domain-security
   name: Ambr Technologies Domain Security

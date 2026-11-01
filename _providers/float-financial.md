@@ -30,15 +30,17 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 32.5
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.floatfinancial.com
   baseurl_source: declared
@@ -155,24 +157,24 @@ apis:
   description: The Webhooks API from Float Financial — 1 operation(s) for webhooks.
   name: Float Financial Webhooks API
   slug: float-financial-webhooks-api
-artifact_total: 30
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Float Financial Webhooks
   slug: float-financial-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/capabilities/float-financial-capability-edges.yml
+  href: https://artifacts.apis.io/float-financial/capabilities/float-financial-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/float-financial-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/security/float-financial-domain-security.yml
+  href: https://artifacts.apis.io/float-financial/security/float-financial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/float-financial-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/authentication/float-financial-authentication.yml
+  href: https://artifacts.apis.io/float-financial/authentication/float-financial-authentication.yml
   title: ''
   type: Authentication
   url: authentication/float-financial-authentication.yml
@@ -229,97 +231,105 @@ common:
   type: PrivacyPolicy
   url: https://floatfinancial.com/legal#float-financial-solutions-privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/security/float-financial-trust-center.yml
+  href: https://artifacts.apis.io/float-financial/security/float-financial-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/float-financial-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/conformance/float-financial-conformance.yml
+  href: https://artifacts.apis.io/float-financial/conformance/float-financial-conformance.yml
   title: ''
   type: Compliance
   url: conformance/float-financial-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/conformance/float-financial-conformance.yml
+  href: https://artifacts.apis.io/float-financial/conformance/float-financial-conformance.yml
   title: ''
   type: Conformance
   url: conformance/float-financial-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/security/float-financial-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/float-financial/security/float-financial-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/float-financial-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/security/float-financial-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/float-financial/security/float-financial-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/float-financial-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/llms/float-financial-llms.txt
+  href: https://artifacts.apis.io/float-financial/llms/float-financial-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/float-financial-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/packages/float-financial-packages.yml
+  href: https://artifacts.apis.io/float-financial/packages/float-financial-packages.yml
   title: ''
   type: Packages
   url: packages/float-financial-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/conventions/float-financial-conventions.yml
+  href: https://artifacts.apis.io/float-financial/conventions/float-financial-conventions.yml
   title: ''
   type: Conventions
   url: conventions/float-financial-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/conventions/float-financial-conventions.yml
+  href: https://artifacts.apis.io/float-financial/conventions/float-financial-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/float-financial-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/errors/float-financial-problem-types.yml
+  href: https://artifacts.apis.io/float-financial/errors/float-financial-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/float-financial-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/lifecycle/float-financial-lifecycle.yml
+  href: https://artifacts.apis.io/float-financial/lifecycle/float-financial-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/float-financial-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/changelog/float-financial-changelog.yml
+  href: https://artifacts.apis.io/float-financial/changelog/float-financial-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/float-financial-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/data-model/float-financial-data-model.yml
+  href: https://artifacts.apis.io/float-financial/data-model/float-financial-data-model.yml
   title: ''
   type: DataModel
   url: data-model/float-financial-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/asyncapi/float-financial-webhooks.yml
+  href: https://artifacts.apis.io/float-financial/asyncapi/float-financial-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/float-financial-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/float-financial/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/overlays/float-financial-openapi-overlay.yaml
+  href: https://artifacts.apis.io/float-financial/overlays/float-financial-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/float-financial-openapi-overlay.yaml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/plans/float-financial-plans-pricing.yml
+  href: https://artifacts.apis.io/float-financial/plans/float-financial-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/float-financial-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/rate-limits/float-financial-rate-limits.yml
+  href: https://artifacts.apis.io/float-financial/rate-limits/float-financial-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/float-financial-rate-limits.yml
 created: '2026-08-16'
 description: Float Financial Solutions Inc. is a Toronto-based Canadian business finance platform combining corporate charge cards, high-yield business accounts, expense management, accounts payable / bill pay, employee reimbursements and multi-currency FX into one spend management product for Canadian companies. Founded in 2019 and used by thousands of Canadian businesses, Float publishes a REST "Float Public API" at api.floatfinancial.com that exposes card and account transactions, cards and card limits, bills and bill attachments, payments, reimbursements, receipts, vendors, GL codes, tax codes and components, custom fields, subsidiaries, teams, users, approval and submission policies, accounting connections and webhook subscriptions — designed primarily for finance teams building custom accounting/ERP integrations where Float's packaged QuickBooks Online, Xero and NetSuite connectors do not fit.
+finops:
+- has_sources: true
+  method: derived
+  name: Float Financial Finops
+  primary_unit: user
+  service_category: ''
+  slug: float-financial-finops
+  template: false
 image: https://floatfinancial.com/favicon.ico
 layout: provider
 modified: '2026-08-16'
@@ -337,29 +347,32 @@ plans:
 - name: Float Financial Plans Pricing
   plan_count: 3
   slug: float-financial-plans-pricing
-random_paper: 16
+- name: Float Financial Price Estimates
+  plan_count: 0
+  slug: float-financial-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Float Financial Rate Limits
   slug: float-financial-rate-limits
 score:
   band: strong
-  composite: 59.9
+  composite: 61.0
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 57.2
-    developer_ergonomics: 45.8
-    discoverability: 73.2
-    operational_transparency: 36.8
+    contract_quality: 53.8
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -367,7 +380,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 59.9
+  previous_composite: 59.5
   provenance:
     conformance: first-party
     contracts:
@@ -383,13 +396,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/screenshots/float-financial-2026-08-17T080932.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/float-financial/float-financial-2026-08-17T080932.png
 security:
 - kind: authentication
   name: Float Financial Authentication
@@ -407,6 +421,14 @@ security:
   name: Float Financial Trust Center
   slug: float-financial-trust-center
   summary_line: SOC 2 Type 2, PCI DSS
+skill_count: 3
+skills:
+- name: float-financial-accounting-sync
+  slug: float-financial-accounting-sync
+- name: float-financial-spend-reporting
+  slug: float-financial-spend-reporting
+- name: float-financial-webhook-consumer
+  slug: float-financial-webhook-consumer
 slug: float-financial
 tags:
 - Spend Management

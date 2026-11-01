@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,25 +37,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The DevRev public REST API for managing works (issues/tickets), parts, accounts, articles, conversations, timeline entries, webhooks, and more. Resource-oriented URLs, JSON request/response bodies, PA
   name: DevRev REST API
   slug: devrev-rest-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Devrev Webhooks
   slug: devrev-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/plans/devrev-plans-pricing.yml
+  href: https://artifacts.apis.io/devrev/plans/devrev-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/devrev-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/security/devrev-domain-security.yml
+  href: https://artifacts.apis.io/devrev/security/devrev-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/devrev-domain-security.yml
@@ -106,67 +108,67 @@ common:
   type: StatusPage
   url: https://status.devrev.ai/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/changelog/devrev-changelog.yml
+  href: https://artifacts.apis.io/devrev/changelog/devrev-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/devrev-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/llms/devrev-llms.txt
+  href: https://artifacts.apis.io/devrev/llms/devrev-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/devrev-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/authentication/devrev-authentication.yml
+  href: https://artifacts.apis.io/devrev/authentication/devrev-authentication.yml
   title: ''
   type: Authentication
   url: authentication/devrev-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/packages/devrev-packages.yml
+  href: https://artifacts.apis.io/devrev/packages/devrev-packages.yml
   title: ''
   type: Packages
   url: packages/devrev-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/packages/devrev-packages.yml
+  href: https://artifacts.apis.io/devrev/packages/devrev-packages.yml
   title: ''
   type: SDKs
   url: packages/devrev-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/cli/devrev-cli.yml
+  href: https://artifacts.apis.io/devrev/cli/devrev-cli.yml
   title: ''
   type: CLI
   url: cli/devrev-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/mcp/devrev-mcp.yml
+  href: https://artifacts.apis.io/devrev/mcp/devrev-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/devrev-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/components/devrev-components.yml
+  href: https://artifacts.apis.io/devrev/components/devrev-components.yml
   title: ''
   type: Components
   url: components/devrev-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/conventions/devrev-conventions.yml
+  href: https://artifacts.apis.io/devrev/conventions/devrev-conventions.yml
   title: ''
   type: Conventions
   url: conventions/devrev-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/rate-limits/devrev-rate-limits.yml
+  href: https://artifacts.apis.io/devrev/rate-limits/devrev-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/devrev-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/errors/devrev-error-codes.yml
+  href: https://artifacts.apis.io/devrev/errors/devrev-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/devrev-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/lifecycle/devrev-lifecycle.yml
+  href: https://artifacts.apis.io/devrev/lifecycle/devrev-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/devrev-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/conformance/devrev-conformance.yml
+  href: https://artifacts.apis.io/devrev/conformance/devrev-conformance.yml
   title: ''
   type: Conformance
   url: conformance/devrev-conformance.yml
@@ -175,17 +177,25 @@ common:
   type: Compliance
   url: https://security.devrev.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/security/devrev-trust-center.yml
+  href: https://artifacts.apis.io/devrev/security/devrev-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/devrev-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/asyncapi/devrev-webhooks.yml
+  href: https://artifacts.apis.io/devrev/asyncapi/devrev-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/devrev-webhooks.yml
 created: '2026-07-17'
 description: DevRev is an AI-native platform that unifies customer support, product development, and analytics on a single knowledge graph connecting end users (Rev), builders (Dev), and their work. Its REST API is organized around resource-oriented URLs, accepts and returns JSON, and uses standard HTTP verbs and status codes. Endpoints cover works (issues and tickets), parts (the product hierarchy), accounts, articles and the knowledge base, conversations and timeline entries, tags, schedules, SLAs, surveys, webhooks, and snap-ins (custom automations and apps that extend the platform). Authentication uses Personal Access Tokens (PATs) passed as a Bearer token, and both a stable Public API and an early-access Beta API are published. DevRev also ships first-party SDKs, a Go-based CLI, the embeddable PLuG support widget, and Airdrop (ADaaS) data-sync tooling.
+finops:
+- has_sources: true
+  method: derived
+  name: Devrev Finops
+  primary_unit: ''
+  service_category: ''
+  slug: devrev-finops
+  template: true
 image: https://cdn.sanity.io/images/umrbtih2/production/c7a33aa73687dea1ff37c39c2f8a4f0fc350e0d6-2880x1620.png
 layout: provider
 mcp_servers:
@@ -207,30 +217,30 @@ plans:
 - name: Devrev Plans Pricing
   plan_count: 3
   slug: devrev-plans-pricing
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Devrev Rate Limits
   slug: devrev-rate-limits
 score:
-  band: developing
-  composite: 50.6
+  band: strong
+  composite: 57.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
-    access_clarity: 63.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 65.5
-    discoverability: 71.7
-    operational_transparency: 34.2
-  previous_composite: 44.2
+    developer_ergonomics: 66.7
+    discoverability: 65.0
+    operational_transparency: 44.7
+  previous_composite: 57.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -239,15 +249,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/screenshots/devrev-2026-07-25T211828.png
+screenshot: https://apis.io/screenshots/devrev/devrev-2026-07-25T211828.png
 security:
 - kind: authentication
   name: Devrev Authentication

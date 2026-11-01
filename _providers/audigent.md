@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Public, anonymous identity-resolution endpoint that returns Audigent's cookieless Hadron ID (plus hadronIdv2 and the legacy haloId) for the calling browser. Called by the Prebid.js hadronIdSystem user
@@ -117,62 +119,62 @@ common:
   type: PrivacyCenter
   url: https://audigent.com/privacy-center/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/authentication/audigent-authentication.yml
+  href: https://artifacts.apis.io/audigent/authentication/audigent-authentication.yml
   title: ''
   type: Authentication
   url: authentication/audigent-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/conventions/audigent-conventions.yml
+  href: https://artifacts.apis.io/audigent/conventions/audigent-conventions.yml
   title: ''
   type: Conventions
   url: conventions/audigent-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/lifecycle/audigent-lifecycle.yml
+  href: https://artifacts.apis.io/audigent/lifecycle/audigent-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/audigent-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/lifecycle/audigent-lifecycle.yml
+  href: https://artifacts.apis.io/audigent/lifecycle/audigent-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/audigent-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/conformance/audigent-conformance.yml
+  href: https://artifacts.apis.io/audigent/conformance/audigent-conformance.yml
   title: ''
   type: Conformance
   url: conformance/audigent-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/conformance/audigent-conformance.yml
+  href: https://artifacts.apis.io/audigent/conformance/audigent-conformance.yml
   title: ''
   type: Compliance
   url: conformance/audigent-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/components/audigent-components.yml
+  href: https://artifacts.apis.io/audigent/components/audigent-components.yml
   title: ''
   type: Components
   url: components/audigent-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/security/audigent-domain-security.yml
+  href: https://artifacts.apis.io/audigent/security/audigent-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/audigent-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/packages/audigent-packages.yml
+  href: https://artifacts.apis.io/audigent/packages/audigent-packages.yml
   title: ''
   type: Packages
   url: packages/audigent-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/plans/audigent-plans-pricing.yml
+  href: https://artifacts.apis.io/audigent/plans/audigent-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/audigent-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/rate-limits/audigent-rate-limits.yml
+  href: https://artifacts.apis.io/audigent/rate-limits/audigent-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/audigent-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/llms/audigent-llms.txt
+  href: https://artifacts.apis.io/audigent/llms/audigent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/audigent-llms.txt
@@ -196,14 +198,14 @@ plans:
 - name: Audigent Plans Pricing
   plan_count: 0
   slug: audigent-plans-pricing
-random_paper: 13
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Audigent Rate Limits
   slug: audigent-rate-limits
 score:
   band: thin
-  composite: 29.8
+  composite: 30.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 40.0
@@ -211,18 +213,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 14.5
+    access_clarity: 31.6
     contract_governance: 18.2
-    contract_quality: 5.3
+    contract_quality: 0.0
     developer_ergonomics: 47.6
     discoverability: 71.4
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 29.7
+    operational_transparency: 28.9
+  previous_composite: 30.5
   provenance:
     conformance: first-party
   regulatory:
@@ -230,15 +229,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 25.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/screenshots/audigent-2026-08-07T161917.png
+screenshot: https://apis.io/screenshots/audigent/audigent-2026-08-07T161917.png
 security:
 - kind: authentication
   name: Audigent Authentication

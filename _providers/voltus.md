@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 32.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 2
@@ -79,7 +81,7 @@ arazzos:
 - description: Submit interval telemetry and controllable load for an enrolled site, then read interval kW back within Voltus's documented limits (10 sites, 90 days, 10,000 points per site).
   name: Report Voltus telemetry and read it back
   slug: voltus-report-and-read-telemetry
-artifact_total: 18
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Voltus Webhooks
@@ -90,42 +92,42 @@ collections:
   slug: open-voltus
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/capabilities/voltus-capability-edges.yml
+  href: https://artifacts.apis.io/voltus/capabilities/voltus-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/voltus-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/skills/voltus-dispatch-integration.md
+  href: https://artifacts.apis.io/voltus/skills/voltus-dispatch-integration.md
   title: ''
   type: AgentSkill
   url: skills/voltus-dispatch-integration.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/skills/voltus-telemetry-reporting.md
+  href: https://artifacts.apis.io/voltus/skills/voltus-telemetry-reporting.md
   title: ''
   type: AgentSkill
   url: skills/voltus-telemetry-reporting.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/skills/voltus-webhook-dispatch-listener.md
+  href: https://artifacts.apis.io/voltus/skills/voltus-webhook-dispatch-listener.md
   title: ''
   type: AgentSkill
   url: skills/voltus-webhook-dispatch-listener.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/mcp/voltus-mcp.yml
+  href: https://artifacts.apis.io/voltus/mcp/voltus-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/voltus-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/agentic-access/voltus-agentic-access.yml
+  href: https://artifacts.apis.io/voltus/agentic-access/voltus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/voltus-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/security/voltus-domain-security.yml
+  href: https://artifacts.apis.io/voltus/security/voltus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voltus-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/authentication/voltus-authentication.yml
+  href: https://artifacts.apis.io/voltus/authentication/voltus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/voltus-authentication.yml
@@ -190,42 +192,42 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/voltus-inc./
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/openapi/_original/voltus-openapi.yml
+  href: https://artifacts.apis.io/voltus/openapi/_original/voltus-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/voltus-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/overlays/voltus-openapi-overlay.yaml
+  href: https://artifacts.apis.io/voltus/overlays/voltus-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/voltus-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/examples/voltus-examples.yml
+  href: https://artifacts.apis.io/voltus/examples/voltus-examples.yml
   title: ''
   type: Examples
   url: examples/voltus-examples.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/conventions/voltus-conventions.yml
+  href: https://artifacts.apis.io/voltus/conventions/voltus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/voltus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/errors/voltus-problem-types.yml
+  href: https://artifacts.apis.io/voltus/errors/voltus-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/voltus-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/rate-limits/voltus-rate-limits.yml
+  href: https://artifacts.apis.io/voltus/rate-limits/voltus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/voltus-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/sandbox/voltus-sandbox.yml
+  href: https://artifacts.apis.io/voltus/sandbox/voltus-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/voltus-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/lifecycle/voltus-lifecycle.yml
+  href: https://artifacts.apis.io/voltus/lifecycle/voltus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/voltus-lifecycle.yml
@@ -234,42 +236,42 @@ common:
   type: Deprecation
   url: https://api.voltus.co/docs/changelog/deprecated-field-drop-by
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/changelog/voltus-changelog.yml
+  href: https://artifacts.apis.io/voltus/changelog/voltus-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/voltus-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/conformance/voltus-conformance.yml
+  href: https://artifacts.apis.io/voltus/conformance/voltus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/voltus-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/asyncapi/voltus-webhooks.yml
+  href: https://artifacts.apis.io/voltus/asyncapi/voltus-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/voltus-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/data-model/voltus-data-model.yml
+  href: https://artifacts.apis.io/voltus/data-model/voltus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/voltus-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/packages/voltus-packages.yml
+  href: https://artifacts.apis.io/voltus/packages/voltus-packages.yml
   title: ''
   type: Packages
   url: packages/voltus-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/llms/voltus-llms.txt
+  href: https://artifacts.apis.io/voltus/llms/voltus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/voltus-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/voltus/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/arazzo/_index.yml
+  href: https://artifacts.apis.io/voltus/arazzo/_index.yml
   title: ''
   type: Arazzo
   url: arazzo/_index.yml
@@ -318,14 +320,14 @@ overview: 'Voltus publishes 5 API contracts indexed on the [APIs.io](https://api
 
 
   Voltus'' developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, support, and 37 more developer resources.'
-random_paper: 3
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Voltus Rate Limits
   slug: voltus-rate-limits
 score:
   band: developing
-  composite: 51.2
+  composite: 53.5
   coverage:
     artifact_dirs: 26
     catalog_earned: 45.0
@@ -333,14 +335,14 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 60.3
     developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 55.3
+    operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -348,7 +350,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 51.1
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -365,13 +367,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 27.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/screenshots/voltus-2026-08-17T082820.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/voltus/voltus-2026-08-17T082820.png
 security:
 - kind: authentication
   name: Voltus Authentication
@@ -381,6 +384,16 @@ security:
   name: Voltus Domain Security
   slug: voltus-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Receive and act on Voltus grid dispatches
+  slug: voltus-dispatch-integration
+- name: Certify a Voltus integration through the sandbox
+  slug: voltus-sandbox-certification
+- name: Report and read Voltus site telemetry
+  slug: voltus-telemetry-reporting
+- name: Register a Voltus webhook and handle dispatch callbacks
+  slug: voltus-webhook-dispatch-listener
 slug: voltus
 tags:
 - Energy

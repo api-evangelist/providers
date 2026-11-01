@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The BioCloud data-as-a-service platform API that ingests continuous vital-signs telemetry from BioButton / BioSticker wearables via BioHub gateways and the BioMobile app, and serves it to BioDashboard
@@ -43,7 +45,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/security/biointellisense-domain-security.yml
+  href: https://artifacts.apis.io/biointellisense/security/biointellisense-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/biointellisense-domain-security.yml
@@ -100,42 +102,42 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/biointellisense_stock/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/lifecycle/biointellisense-lifecycle.yml
+  href: https://artifacts.apis.io/biointellisense/lifecycle/biointellisense-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/biointellisense-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/packages/biointellisense-packages.yml
+  href: https://artifacts.apis.io/biointellisense/packages/biointellisense-packages.yml
   title: ''
   type: Packages
   url: packages/biointellisense-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/well-known/biointellisense-well-known.yml
+  href: https://artifacts.apis.io/biointellisense/well-known/biointellisense-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/biointellisense-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/conformance/biointellisense-conformance.yml
+  href: https://artifacts.apis.io/biointellisense/conformance/biointellisense-conformance.yml
   title: ''
   type: Conformance
   url: conformance/biointellisense-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/conventions/biointellisense-conventions.yml
+  href: https://artifacts.apis.io/biointellisense/conventions/biointellisense-conventions.yml
   title: ''
   type: Conventions
   url: conventions/biointellisense-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/authentication/biointellisense-authentication.yml
+  href: https://artifacts.apis.io/biointellisense/authentication/biointellisense-authentication.yml
   title: ''
   type: Authentication
   url: authentication/biointellisense-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/errors/biointellisense-problem-types.yml
+  href: https://artifacts.apis.io/biointellisense/errors/biointellisense-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/biointellisense-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/llms/biointellisense-llms.txt
+  href: https://artifacts.apis.io/biointellisense/llms/biointellisense-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/biointellisense-llms.txt
@@ -151,12 +153,12 @@ overview: 'BioIntelliSense is listed with 1 API on the [APIs.io](https://apis.io
 
 
   BioIntelliSense''s developer surface includes documentation, support, engineering blog, legal docs, authentication, and 17 more developer resources.'
-random_paper: 3
+random_paper: 1
 score:
   band: emerging
   composite: 25.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -187,14 +189,14 @@ score:
     regime: Health
     regime_id: health
     score: 35.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/biointellisense/refs/heads/main/screenshots/biointellisense-2026-08-07T162500.png
+screenshot: https://apis.io/screenshots/biointellisense/biointellisense-2026-08-07T162500.png
 security:
 - kind: authentication
   name: Biointellisense Authentication

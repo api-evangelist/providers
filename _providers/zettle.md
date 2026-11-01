@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.4
-  scored_at: '2026-10-17'
+  score: 31.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,11 +75,8 @@ apis:
   description: The payout API from Zettle — 1 operation(s) for payout.
   name: Zettle Payout API
   slug: zettle-payout-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Finance accounts API
   slug: open-zettle-accounts-api
@@ -86,22 +85,22 @@ collections:
   slug: open-zettle-payout-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/agentic-access/zettle-agentic-access.yml
+  href: https://artifacts.apis.io/zettle/agentic-access/zettle-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zettle-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/security/zettle-domain-security.yml
+  href: https://artifacts.apis.io/zettle/security/zettle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zettle-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/authentication/zettle-authentication.yml
+  href: https://artifacts.apis.io/zettle/authentication/zettle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zettle-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/scopes/zettle-scopes.yml
+  href: https://artifacts.apis.io/zettle/scopes/zettle-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zettle-scopes.yml
@@ -138,17 +137,17 @@ common:
   type: X
   url: https://x.com/Zettle
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/plans/zettle-plans-pricing.yml
+  href: https://artifacts.apis.io/zettle/plans/zettle-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zettle-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/rate-limits/zettle-rate-limits.yml
+  href: https://artifacts.apis.io/zettle/rate-limits/zettle-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zettle-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/finops/zettle-finops.yml
+  href: https://artifacts.apis.io/zettle/finops/zettle-finops.yml
   title: ''
   type: FinOps
   url: finops/zettle-finops.yml
@@ -204,7 +203,7 @@ plans:
 - name: Zettle Plans Pricing
   plan_count: 1
   slug: zettle-plans-pricing
-random_paper: 4
+random_paper: 16
 rate_limits:
 - limit_count: 6
   name: Zettle Rate Limits
@@ -228,23 +227,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 35.0
+  composite: 35.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 53.3
     catalog_earned_first_party: 0.0
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 55.6
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 42.0
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -258,14 +257,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/screenshots/zettle-2026-06-20T201853.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zettle/zettle-2026-06-20T201853.png
 security:
 - kind: authentication
   name: Zettle Authentication

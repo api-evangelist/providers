@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,29 +38,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Fiddler REST API (v3) is organized around resource-oriented URLs with JSON request/response bodies, Bearer-token authentication, and standard HTTP verbs and status codes. Resource groups include P
   name: Fiddler REST API
   slug: fiddler-rest-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Fiddler Labs Webhooks
   slug: fiddler-labs-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/fiddler-labs/plans/fiddler-labs-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/fiddler-labs-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.fiddler.ai/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/security/fiddler-labs-trust-center.yml
+  href: https://artifacts.apis.io/fiddler-labs/security/fiddler-labs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fiddler-labs-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/security/fiddler-labs-domain-security.yml
+  href: https://artifacts.apis.io/fiddler-labs/security/fiddler-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fiddler-labs-domain-security.yml
@@ -115,22 +122,22 @@ common:
   type: Compliance
   url: https://www.fiddler.ai/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/authentication/fiddler-labs-authentication.yml
+  href: https://artifacts.apis.io/fiddler-labs/authentication/fiddler-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fiddler-labs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/conventions/fiddler-labs-conventions.yml
+  href: https://artifacts.apis.io/fiddler-labs/conventions/fiddler-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fiddler-labs-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/rate-limits/fiddler-labs-rate-limits.yml
+  href: https://artifacts.apis.io/fiddler-labs/rate-limits/fiddler-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fiddler-labs-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/lifecycle/fiddler-labs-lifecycle.yml
+  href: https://artifacts.apis.io/fiddler-labs/lifecycle/fiddler-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fiddler-labs-lifecycle.yml
@@ -139,52 +146,60 @@ common:
   type: Deprecation
   url: https://docs.fiddler.ai/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/changelog/fiddler-labs-changelog.yml
+  href: https://artifacts.apis.io/fiddler-labs/changelog/fiddler-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fiddler-labs-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/errors/fiddler-labs-error-codes.yml
+  href: https://artifacts.apis.io/fiddler-labs/errors/fiddler-labs-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/fiddler-labs-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/conformance/fiddler-labs-conformance.yml
+  href: https://artifacts.apis.io/fiddler-labs/conformance/fiddler-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fiddler-labs-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/packages/fiddler-labs-packages.yml
+  href: https://artifacts.apis.io/fiddler-labs/packages/fiddler-labs-packages.yml
   title: ''
   type: Packages
   url: packages/fiddler-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/packages/fiddler-labs-packages.yml
+  href: https://artifacts.apis.io/fiddler-labs/packages/fiddler-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/fiddler-labs-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/mcp/fiddler-labs-mcp.yml
+  href: https://artifacts.apis.io/fiddler-labs/mcp/fiddler-labs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/fiddler-labs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/llms/fiddler-labs-llms.txt
+  href: https://artifacts.apis.io/fiddler-labs/llms/fiddler-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fiddler-labs-llms.txt
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/sandbox/fiddler-labs-sandbox.yml
+  href: https://artifacts.apis.io/fiddler-labs/sandbox/fiddler-labs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fiddler-labs-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/asyncapi/fiddler-labs-webhooks.yml
+  href: https://artifacts.apis.io/fiddler-labs/asyncapi/fiddler-labs-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fiddler-labs-webhooks.yml
 created: '2026-07-17'
 description: Fiddler Labs (Fiddler AI) is an enterprise AI Observability and Security platform that provides unified visibility, context, and control across AI agents, LLM and GenAI applications, and traditional ML models. The Fiddler platform delivers standardized telemetry, evaluation, continuous monitoring, real-time guardrails, and auditable governance from development through production. Developers integrate through a REST API (v3), an official Python client (fiddler-client), framework SDKs (LangChain, LangGraph, OpenTelemetry, Google ADK, Strands, Evals), and a hosted Model Context Protocol (MCP) server that exposes GenAI observability data to AI assistants. Capabilities include model and application onboarding, production event ingestion, drift and integrity detection, custom metrics, segments, alerting, explainability, LLM gateway routing, and trace/span-level agentic observability.
+finops:
+- has_sources: true
+  method: derived
+  name: Fiddler Labs Finops
+  primary_unit: trace
+  service_category: ''
+  slug: fiddler-labs-finops
+  template: false
 layout: provider
 mcp_servers:
 - description: Remote MCP server over HTTP.
@@ -200,31 +215,35 @@ overview: 'Fiddler Labs is listed with 1 API on the [APIs.io](https://apis.io/) 
   The Fiddler Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fiddler Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
-random_paper: 5
+  Fiddler Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 24 more developer resources.'
+plans:
+- name: Fiddler Labs Plans Pricing
+  plan_count: 3
+  slug: fiddler-labs-plans-pricing
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Fiddler Labs Rate Limits
   slug: fiddler-labs-rate-limits
 score:
   band: strong
-  composite: 54.9
+  composite: 62.5
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 43.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 72.0
+    artifact_dirs: 19
+    catalog_earned: 58.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 66.7
-    discoverability: 68.3
-    operational_transparency: 65.8
-  previous_composite: 54.8
+    discoverability: 61.7
+    operational_transparency: 68.4
+  previous_composite: 54.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -238,14 +257,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/screenshots/fiddler-labs-2026-07-25T214410.png
+screenshot: https://apis.io/screenshots/fiddler-labs/fiddler-labs-2026-07-25T214410.png
 security:
 - kind: authentication
   name: Fiddler Labs Authentication

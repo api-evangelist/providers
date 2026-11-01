@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The RegScale REST API is the primary programmable surface of the RegScale platform. It is served from each customer's own RegScale tenant under the /api path, authenticated with a JSON Web Token obtai
@@ -47,7 +49,7 @@ apis:
 - description: 'RegScale publishes a gRPC contract library, rs-data, covering three high-volume ingestion services: AssetIngestionService, IssueIngestionService and VulnIngestionService. Each service exposes a unary '
   name: RegScale gRPC Ingestion Services
   slug: regscale-grpc-ingestion
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Regscale Webhooks
@@ -58,7 +60,7 @@ common:
   type: BlogRSS
   url: https://regscale.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/security/regscale-domain-security.yml
+  href: https://artifacts.apis.io/regscale/security/regscale-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/regscale-domain-security.yml
@@ -119,82 +121,82 @@ common:
   type: ChangeLog
   url: https://regscale.readme.io/changelog
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/packages/regscale-packages.yml
+  href: https://artifacts.apis.io/regscale/packages/regscale-packages.yml
   title: ''
   type: Packages
   url: packages/regscale-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/packages/regscale-packages.yml
+  href: https://artifacts.apis.io/regscale/packages/regscale-packages.yml
   title: ''
   type: SDKs
   url: packages/regscale-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/cli/regscale-cli.yml
+  href: https://artifacts.apis.io/regscale/cli/regscale-cli.yml
   title: ''
   type: CLI
   url: cli/regscale-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/llms/regscale-llms.txt
+  href: https://artifacts.apis.io/regscale/llms/regscale-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/regscale-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/conformance/regscale-conformance.yml
+  href: https://artifacts.apis.io/regscale/conformance/regscale-conformance.yml
   title: ''
   type: Conformance
   url: conformance/regscale-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/authentication/regscale-authentication.yml
+  href: https://artifacts.apis.io/regscale/authentication/regscale-authentication.yml
   title: ''
   type: Authentication
   url: authentication/regscale-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/conventions/regscale-conventions.yml
+  href: https://artifacts.apis.io/regscale/conventions/regscale-conventions.yml
   title: ''
   type: Conventions
   url: conventions/regscale-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/data-model/regscale-data-model.yml
+  href: https://artifacts.apis.io/regscale/data-model/regscale-data-model.yml
   title: ''
   type: DataModel
   url: data-model/regscale-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/lifecycle/regscale-lifecycle.yml
+  href: https://artifacts.apis.io/regscale/lifecycle/regscale-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/regscale-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/changelog/regscale-changelog.yml
+  href: https://artifacts.apis.io/regscale/changelog/regscale-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/regscale-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/rate-limits/regscale-rate-limits.yml
+  href: https://artifacts.apis.io/regscale/rate-limits/regscale-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/regscale-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/plans/regscale-plans-pricing.yml
+  href: https://artifacts.apis.io/regscale/plans/regscale-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/regscale-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/security/regscale-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/regscale/security/regscale-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/regscale-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/security/regscale-trust-center.yml
+  href: https://artifacts.apis.io/regscale/security/regscale-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/regscale-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/conventions/regscale-conventions.yml
+  href: https://artifacts.apis.io/regscale/conventions/regscale-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/regscale-conventions.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/grpc/regscale-asset-service.proto
+  href: https://artifacts.apis.io/regscale/grpc/regscale-asset-service.proto
   title: ''
   type: Protobuf
   url: grpc/regscale-asset-service.proto
@@ -204,6 +206,14 @@ common:
   url: https://regscale.readme.io/docs/webhooks
 created: '2026-08-26'
 description: 'RegScale is a Continuous Controls Monitoring (CCM) and compliance-automation company whose cloud-native, OSCAL-native GRC platform keeps organizations continuously audit-ready by turning compliance documentation into living, machine-readable data. The platform ships as a customer-tenanted deployment (SaaS, hybrid, or on-premises) and exposes its data through three programmable surfaces: a JWT-authenticated REST API under /api, a HotChocolate-style GraphQL endpoint at /graphql, and a published gRPC contract library (rs-data) covering asset, issue and vulnerability ingestion. RegScale also publishes a first-party Python CLI/SDK (regscale-cli) that doubles as an integration framework for 70+ scanners, cloud providers and ITSM tools, and holds FedRAMP High, SOC 2 Type 2, ISO 27001:2022, TX-RAMP Level 2 and CSA STAR credentials.'
+finops:
+- has_sources: true
+  method: derived
+  name: Regscale Finops
+  primary_unit: ''
+  service_category: ''
+  slug: regscale-finops
+  template: true
 image: https://regscale.com/wp-content/uploads/2024/04/cropped-Regscale-Favicon-192x192.png
 layout: provider
 modified: '2026-10-06'
@@ -221,16 +231,16 @@ plans:
 - name: Regscale Plans Pricing
   plan_count: 0
   slug: regscale-plans-pricing
-random_paper: 2
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Regscale Rate Limits
   slug: regscale-rate-limits
 score:
   band: developing
-  composite: 46.5
+  composite: 49.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -238,13 +248,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 64.3
-    discoverability: 78.6
-    operational_transparency: 36.8
-  previous_composite: 46.5
+    developer_ergonomics: 71.4
+    discoverability: 71.4
+    operational_transparency: 39.5
+  previous_composite: 49.1
   provenance:
     conformance: first-party
   regulatory:
@@ -253,14 +263,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/screenshots/regscale-2026-09-02T153250.png
+screenshot: https://apis.io/screenshots/regscale/regscale-2026-09-02T153250.png
 security:
 - kind: authentication
   name: Regscale Authentication

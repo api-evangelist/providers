@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the Tecton feature platform - the Feature Service (low-latency online feature retrieval, e.g. POST /api/v1/feature-service/get-features), the Ingest API, the Metadata API, and SCIM 2.0 pr
@@ -91,67 +93,67 @@ common:
   type: Compliance
   url: https://docs.tecton.ai/docs/security
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/packages/tecton-databricks-packages.yml
+  href: https://artifacts.apis.io/tecton-databricks/packages/tecton-databricks-packages.yml
   title: ''
   type: Packages
   url: packages/tecton-databricks-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/packages/tecton-databricks-packages.yml
+  href: https://artifacts.apis.io/tecton-databricks/packages/tecton-databricks-packages.yml
   title: ''
   type: SDKs
   url: packages/tecton-databricks-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/cli/tecton-databricks-cli.yml
+  href: https://artifacts.apis.io/tecton-databricks/cli/tecton-databricks-cli.yml
   title: ''
   type: CLI
   url: cli/tecton-databricks-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/mcp/tecton-databricks-mcp.yml
+  href: https://artifacts.apis.io/tecton-databricks/mcp/tecton-databricks-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tecton-databricks-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/llms/tecton-databricks-llms.txt
+  href: https://artifacts.apis.io/tecton-databricks/llms/tecton-databricks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tecton-databricks-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/authentication/tecton-databricks-authentication.yml
+  href: https://artifacts.apis.io/tecton-databricks/authentication/tecton-databricks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tecton-databricks-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/conventions/tecton-databricks-conventions.yml
+  href: https://artifacts.apis.io/tecton-databricks/conventions/tecton-databricks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tecton-databricks-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/errors/tecton-databricks-problem-types.yml
+  href: https://artifacts.apis.io/tecton-databricks/errors/tecton-databricks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tecton-databricks-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/lifecycle/tecton-databricks-lifecycle.yml
+  href: https://artifacts.apis.io/tecton-databricks/lifecycle/tecton-databricks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tecton-databricks-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/changelog/tecton-databricks-changelog.yml
+  href: https://artifacts.apis.io/tecton-databricks/changelog/tecton-databricks-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tecton-databricks-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/conformance/tecton-databricks-conformance.yml
+  href: https://artifacts.apis.io/tecton-databricks/conformance/tecton-databricks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tecton-databricks-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/security/tecton-databricks-trust-center.yml
+  href: https://artifacts.apis.io/tecton-databricks/security/tecton-databricks-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tecton-databricks-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/security/tecton-databricks-domain-security.yml
+  href: https://artifacts.apis.io/tecton-databricks/security/tecton-databricks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tecton-databricks-domain-security.yml
@@ -171,10 +173,10 @@ overview: 'Tecton (Databricks) is listed with 1 API on the [APIs.io](https://api
 
 
   Tecton (Databricks)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, CLI, and 18 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: thin
-  composite: 35.2
+  composite: 34.9
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -182,15 +184,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 71.7
-    operational_transparency: 18.4
-  previous_composite: 35.1
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 34.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -200,14 +202,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/screenshots/tecton-databricks-2026-09-02T162713.png
+screenshot: https://apis.io/screenshots/tecton-databricks/tecton-databricks-2026-09-02T162713.png
 security:
 - kind: authentication
   name: Tecton Databricks Authentication

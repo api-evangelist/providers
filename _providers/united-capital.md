@@ -12,7 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/united-capital/refs/heads/main/security/united-capital-domain-security.yml
+  href: https://artifacts.apis.io/united-capital/security/united-capital-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/united-capital-domain-security.yml
@@ -33,8 +33,8 @@ name: United Capital
 nav: Providers
 network: true
 overview: United Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Wealth Management, Financial Advisors, and Financial Planning.
-random_paper: 20
-screenshot: https://raw.githubusercontent.com/api-evangelist/united-capital/refs/heads/main/screenshots/united-capital-2026-09-02T164918.png
+random_paper: 12
+screenshot: https://apis.io/screenshots/united-capital/united-capital-2026-09-02T164918.png
 security:
 - kind: domain-security
   name: United Capital Domain Security

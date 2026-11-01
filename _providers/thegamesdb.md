@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 19.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,11 +70,8 @@ apis:
   description: The Publishers API from TheGamesDB — 1 operation(s) for publishers.
   name: TheGamesDB Publishers API
   slug: thegamesdb-publishers-api
-artifact_total: 57
+artifact_total: 56
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TheGamesDB Developers API
   slug: open-thegamesdb-developers-api
@@ -93,22 +92,22 @@ collections:
   slug: open-thegamesdb
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/plans/thegamesdb-plans-pricing.yml
+  href: https://artifacts.apis.io/thegamesdb/plans/thegamesdb-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/thegamesdb-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/finops/thegamesdb-finops.yml
+  href: https://artifacts.apis.io/thegamesdb/finops/thegamesdb-finops.yml
   title: ''
   type: FinOps
   url: finops/thegamesdb-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/agentic-access/thegamesdb-agentic-access.yml
+  href: https://artifacts.apis.io/thegamesdb/agentic-access/thegamesdb-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/thegamesdb-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/security/thegamesdb-domain-security.yml
+  href: https://artifacts.apis.io/thegamesdb/security/thegamesdb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thegamesdb-domain-security.yml
@@ -129,12 +128,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/TheGamesDB
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/rules/thegamesdb-spectral-rules.yml
+  href: https://artifacts.apis.io/thegamesdb/rules/thegamesdb-spectral-rules.yml
   title: TheGamesDB Spectral Rules
   type: SpectralRules
   url: rules/thegamesdb-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/vocabulary/thegamesdb-vocabulary.yml
+  href: https://artifacts.apis.io/thegamesdb/vocabulary/thegamesdb-vocabulary.yml
   title: TheGamesDB Vocabulary
   type: Vocabulary
   url: vocabulary/thegamesdb-vocabulary.yml
@@ -192,7 +191,7 @@ finops:
 - has_sources: false
   method: generated
   name: Thegamesdb Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: thegamesdb-finops
   template: true
@@ -273,7 +272,7 @@ plans:
 - name: Thegamesdb Plans Pricing
   plan_count: 3
   slug: thegamesdb-plans-pricing
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Thegamesdb Rate Limits
@@ -304,7 +303,7 @@ rules:
   slug: thegamesdb-spectral-rules
 score:
   band: thin
-  composite: 32.2
+  composite: 32.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 63.4
@@ -312,15 +311,15 @@ score:
     catalog_gap: 51.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 52.4
     developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 33.7
+    operational_transparency: 13.2
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -334,14 +333,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/screenshots/thegamesdb-2026-06-20T195247.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/thegamesdb/thegamesdb-2026-06-20T195247.png
 security:
 - kind: domain-security
   name: Thegamesdb Domain Security

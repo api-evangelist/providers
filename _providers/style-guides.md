@@ -4,6 +4,6 @@ layout: provider
 name: style-guides
 nav: Providers
 network: true
-random_paper: 15
+random_paper: 23
 slug: style-guides
 ---

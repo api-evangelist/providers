@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -41,7 +43,7 @@ asyncapis:
   slug: lumana-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lumana/refs/heads/main/plans/lumana-plans-pricing.yml
+  href: https://artifacts.apis.io/lumana/plans/lumana-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lumana-plans-pricing.yml
@@ -82,27 +84,27 @@ common:
   type: Compliance
   url: https://www.lumana.ai/trust
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lumana/refs/heads/main/changelog/lumana-changelog.yml
+  href: https://artifacts.apis.io/lumana/changelog/lumana-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lumana-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lumana/refs/heads/main/asyncapi/lumana-webhooks.yml
+  href: https://artifacts.apis.io/lumana/asyncapi/lumana-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lumana-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lumana/refs/heads/main/conformance/lumana-conformance.yml
+  href: https://artifacts.apis.io/lumana/conformance/lumana-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lumana-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lumana/refs/heads/main/security/lumana-trust-center.yml
+  href: https://artifacts.apis.io/lumana/security/lumana-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lumana-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lumana/refs/heads/main/security/lumana-domain-security.yml
+  href: https://artifacts.apis.io/lumana/security/lumana-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lumana-domain-security.yml
@@ -125,10 +127,10 @@ plans:
 - name: Lumana Plans Pricing
   plan_count: 0
   slug: lumana-plans-pricing
-random_paper: 0
+random_paper: 14
 score:
   band: thin
-  composite: 35.0
+  composite: 36.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -136,15 +138,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 16.7
     discoverability: 48.2
     operational_transparency: 23.7
-  previous_composite: 34.9
+  previous_composite: 36.3
   provenance:
     conformance: first-party
   regulatory:
@@ -159,14 +161,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lumana/refs/heads/main/screenshots/lumana-2026-07-25T225655.png
+screenshot: https://apis.io/screenshots/lumana/lumana-2026-07-25T225655.png
 security:
 - kind: domain-security
   name: Lumana Domain Security

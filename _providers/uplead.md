@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -86,11 +88,8 @@ apis:
   description: General search operations.
   name: UpLead Search API
   slug: uplead-search-api
-artifact_total: 33
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: UpLead Account API
   slug: open-uplead-account-api
@@ -116,18 +115,23 @@ collections:
   name: UpLead Account Search API
   slug: open-uplead-search-api
 common:
+- group: other
+  href: https://artifacts.apis.io/uplead/capabilities/uplead-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/uplead-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/agentic-access/uplead-agentic-access.yml
+  href: https://artifacts.apis.io/uplead/agentic-access/uplead-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/uplead-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/security/uplead-domain-security.yml
+  href: https://artifacts.apis.io/uplead/security/uplead-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uplead-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/authentication/uplead-authentication.yml
+  href: https://artifacts.apis.io/uplead/authentication/uplead-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uplead-authentication.yml
@@ -160,52 +164,52 @@ common:
   type: X
   url: https://x.com/UpLeadHQ
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/plans/uplead-plans-pricing.yml
+  href: https://artifacts.apis.io/uplead/plans/uplead-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/uplead-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/rate-limits/uplead-rate-limits.yml
+  href: https://artifacts.apis.io/uplead/rate-limits/uplead-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/uplead-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/finops/uplead-finops.yml
+  href: https://artifacts.apis.io/uplead/finops/uplead-finops.yml
   title: ''
   type: FinOps
   url: finops/uplead-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/packages/uplead-packages.yml
+  href: https://artifacts.apis.io/uplead/packages/uplead-packages.yml
   title: ''
   type: Packages
   url: packages/uplead-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/conventions/uplead-conventions.yml
+  href: https://artifacts.apis.io/uplead/conventions/uplead-conventions.yml
   title: ''
   type: Conventions
   url: conventions/uplead-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/errors/uplead-problem-types.yml
+  href: https://artifacts.apis.io/uplead/errors/uplead-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/uplead-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/data-model/uplead-data-model.yml
+  href: https://artifacts.apis.io/uplead/data-model/uplead-data-model.yml
   title: ''
   type: DataModel
   url: data-model/uplead-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/conformance/uplead-conformance.yml
+  href: https://artifacts.apis.io/uplead/conformance/uplead-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uplead-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/lifecycle/uplead-lifecycle.yml
+  href: https://artifacts.apis.io/uplead/lifecycle/uplead-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uplead-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/changelog/uplead-changelog.yml
+  href: https://artifacts.apis.io/uplead/changelog/uplead-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/uplead-changelog.yml
@@ -214,12 +218,12 @@ common:
   type: ChangeLog
   url: https://support.uplead.com/en/collections/19646601-release-notes
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/llms/uplead-llms.txt
+  href: https://artifacts.apis.io/uplead/llms/uplead-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uplead-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/uplead/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -270,13 +274,13 @@ examples:
   name: Prospector Search Response
   slug: prospector-search-response
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Uplead Finops
-  primary_unit: ''
+  primary_unit: account
   service_category: ''
   slug: uplead-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uplead.png
 json_schemas:
 - name: UpLead Company
@@ -304,12 +308,15 @@ overview: 'UpLead publishes 8 API contracts indexed on the [APIs.io](https://api
   The UpLead catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  UpLead''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 23 more developer resources.'
+  UpLead''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 24 more developer resources.'
 plans:
 - name: Uplead Plans Pricing
   plan_count: 6
   slug: uplead-plans-pricing
-random_paper: 19
+- name: Uplead Price Estimates
+  plan_count: 0
+  slug: uplead-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Uplead Rate Limits
@@ -328,23 +335,28 @@ rules:
   slug: uplead-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 54.5
+  composite: 59.4
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 71.3
+    artifact_dirs: 30
+    catalog_earned: 74.3
     catalog_earned_first_party: 20.0
-    catalog_gap: 43.8
+    catalog_gap: 40.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 84.2
     contract_governance: 14.4
     contract_quality: 56.6
     developer_ergonomics: 58.9
     discoverability: 66.1
     operational_transparency: 52.6
-  previous_composite: 56.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -361,13 +373,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/screenshots/uplead-2026-06-20T200445.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/uplead/uplead-2026-06-20T200445.png
 security:
 - kind: authentication
   name: Uplead Authentication
@@ -377,6 +390,16 @@ security:
   name: Uplead Domain Security
   slug: uplead-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Build and maintain a contact list
+  slug: uplead-build-and-maintain-a-contact-list
+- name: Enrich a business email into a contact and company
+  slug: uplead-enrich-a-business-email
+- name: Resolve a company from a name, then enrich it
+  slug: uplead-resolve-a-company-from-a-name
+- name: Size a prospect segment before paying for it
+  slug: uplead-size-then-run-a-prospector-search
 slug: uplead
 tags:
 - B2B

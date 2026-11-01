@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.7
-  scored_at: '2026-10-17'
+  score: 38.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -215,14 +216,14 @@ apis:
   description: The Transactions API from Shawbrook Bank — 2 operation(s) for transactions.
   name: Shawbrook Bank Transactions API
   slug: shawbrook-bank-transactions-api
-artifact_total: 39
+artifact_total: 41
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-opendata-swagger
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/capabilities/shawbrook-bank-capability-edges.yml
+  href: https://artifacts.apis.io/shawbrook-bank/capabilities/shawbrook-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shawbrook-bank-capability-edges.yml
@@ -231,72 +232,72 @@ common:
   type: IssueTracker
   url: https://github.com/OpenBankingUK/opendata-api-spec-compiled/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/agentic-access/shawbrook-bank-agentic-access.yml
+  href: https://artifacts.apis.io/shawbrook-bank/agentic-access/shawbrook-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shawbrook-bank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/security/shawbrook-bank-domain-security.yml
+  href: https://artifacts.apis.io/shawbrook-bank/security/shawbrook-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shawbrook-bank-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/scopes/shawbrook-bank-scopes.yml
+  href: https://artifacts.apis.io/shawbrook-bank/scopes/shawbrook-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/shawbrook-bank-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/authentication/shawbrook-bank-authentication.yml
+  href: https://artifacts.apis.io/shawbrook-bank/authentication/shawbrook-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shawbrook-bank-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/well-known/shawbrook-bank-well-known.yml
+  href: https://artifacts.apis.io/shawbrook-bank/well-known/shawbrook-bank-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/shawbrook-bank-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/conformance/shawbrook-bank-conformance.yml
+  href: https://artifacts.apis.io/shawbrook-bank/conformance/shawbrook-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shawbrook-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/conventions/shawbrook-bank-conventions.yml
+  href: https://artifacts.apis.io/shawbrook-bank/conventions/shawbrook-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shawbrook-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/conventions/shawbrook-bank-conventions.yml
+  href: https://artifacts.apis.io/shawbrook-bank/conventions/shawbrook-bank-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/shawbrook-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/errors/shawbrook-bank-problem-types.yml
+  href: https://artifacts.apis.io/shawbrook-bank/errors/shawbrook-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shawbrook-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/lifecycle/shawbrook-bank-lifecycle.yml
+  href: https://artifacts.apis.io/shawbrook-bank/lifecycle/shawbrook-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shawbrook-bank-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/data-model/shawbrook-bank-data-model.yml
+  href: https://artifacts.apis.io/shawbrook-bank/data-model/shawbrook-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shawbrook-bank-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/llms/shawbrook-bank-llms.txt
+  href: https://artifacts.apis.io/shawbrook-bank/llms/shawbrook-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shawbrook-bank-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/overlays/shawbrook-bank-account-info-overlay.yaml
+  href: https://artifacts.apis.io/shawbrook-bank/overlays/shawbrook-bank-account-info-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shawbrook-bank-account-info-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/shawbrook-bank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -341,7 +342,7 @@ overview: 'Shawbrook Bank publishes 34 API contracts indexed on the [APIs.io](ht
 
 
   Shawbrook Bank''s developer surface includes authentication, engineering blog, support, and 20 more developer resources.'
-random_paper: 3
+random_paper: 17
 scopes:
 - name: Shawbrook Bank Scopes
   scope_count: 3
@@ -357,13 +358,13 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 46.9
     developer_ergonomics: 30.4
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -373,7 +374,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 30.4
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -393,13 +394,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 40.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/screenshots/shawbrook-bank-2026-09-02T155119.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/shawbrook-bank/shawbrook-bank-2026-09-02T155119.png
 security:
 - kind: authentication
   name: Shawbrook Bank Authentication
@@ -409,6 +411,12 @@ security:
   name: Shawbrook Bank Domain Security
   slug: shawbrook-bank-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Retrieve account information with OBIE AIS
+  slug: shawbrook-bank-account-information
+- name: Initiate a domestic payment with OBIE PIS
+  slug: shawbrook-bank-domestic-payment
 slug: shawbrook-bank
 tags:
 - Financial Services

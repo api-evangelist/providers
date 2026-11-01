@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'LLMBoost is MangoBoost''s enterprise LLM inference server. It serves the OpenAI REST API on /v1 so an existing OpenAI client migrates with a base-URL change: POST /v1/chat/completions, POST /v1/complet'
@@ -61,52 +63,52 @@ common:
   type: License
   url: https://github.com/opiproject/opi-mangoboost-bridge/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mangoboost/refs/heads/main/security/mangoboost-domain-security.yml
+  href: https://artifacts.apis.io/mangoboost/security/mangoboost-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mangoboost-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mangoboost/refs/heads/main/packages/mangoboost-packages.yml
+  href: https://artifacts.apis.io/mangoboost/packages/mangoboost-packages.yml
   title: ''
   type: Packages
   url: packages/mangoboost-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mangoboost/refs/heads/main/packages/mangoboost-packages.yml
+  href: https://artifacts.apis.io/mangoboost/packages/mangoboost-packages.yml
   title: ''
   type: SDKs
   url: packages/mangoboost-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mangoboost/refs/heads/main/cli/mangoboost-cli.yml
+  href: https://artifacts.apis.io/mangoboost/cli/mangoboost-cli.yml
   title: ''
   type: CLI
   url: cli/mangoboost-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mangoboost/refs/heads/main/authentication/mangoboost-authentication.yml
+  href: https://artifacts.apis.io/mangoboost/authentication/mangoboost-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mangoboost-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mangoboost/refs/heads/main/conventions/mangoboost-conventions.yml
+  href: https://artifacts.apis.io/mangoboost/conventions/mangoboost-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mangoboost-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mangoboost/refs/heads/main/errors/mangoboost-error-codes.yml
+  href: https://artifacts.apis.io/mangoboost/errors/mangoboost-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/mangoboost-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mangoboost/refs/heads/main/lifecycle/mangoboost-lifecycle.yml
+  href: https://artifacts.apis.io/mangoboost/lifecycle/mangoboost-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mangoboost-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mangoboost/refs/heads/main/conformance/mangoboost-conformance.yml
+  href: https://artifacts.apis.io/mangoboost/conformance/mangoboost-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mangoboost-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mangoboost/refs/heads/main/llms/mangoboost-llms.txt
+  href: https://artifacts.apis.io/mangoboost/llms/mangoboost-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mangoboost-llms.txt
@@ -182,10 +184,10 @@ overview: 'MangoBoost is listed with 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   MangoBoost''s developer surface includes CLI, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
-random_paper: 3
+random_paper: 1
 score:
   band: thin
-  composite: 30.8
+  composite: 31.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 35.0
@@ -193,14 +195,14 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 70.5
-    operational_transparency: 18.4
+    discoverability: 64.3
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -208,10 +210,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 30.7
+  previous_composite: 31.0
   provenance:
     conformance: first-party
   regulatory:
@@ -220,14 +219,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mangoboost/refs/heads/main/screenshots/mangoboost-2026-08-07T171949.png
+screenshot: https://apis.io/screenshots/mangoboost/mangoboost-2026-08-07T171949.png
 security:
 - kind: authentication
   name: Mangoboost Authentication

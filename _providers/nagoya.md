@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Institution-operated Shibboleth SAML 2.0 identity provider on the university's own host, published as machine-readable metadata in the GakuNin (学術認証フェデレーション) aggregate. EntityDescriptor ID PI0136JP, e
@@ -102,37 +104,37 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/nagoya-university/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nagoya/refs/heads/main/conformance/nagoya-conformance.yml
+  href: https://artifacts.apis.io/nagoya/conformance/nagoya-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nagoya-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nagoya/refs/heads/main/security/nagoya-domain-security.yml
+  href: https://artifacts.apis.io/nagoya/security/nagoya-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nagoya-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nagoya/refs/heads/main/plans/nagoya-plans-pricing.yml
+  href: https://artifacts.apis.io/nagoya/plans/nagoya-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nagoya-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nagoya/refs/heads/main/rate-limits/nagoya-rate-limits.yml
+  href: https://artifacts.apis.io/nagoya/rate-limits/nagoya-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nagoya-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nagoya/refs/heads/main/finops/nagoya-finops.yml
+  href: https://artifacts.apis.io/nagoya/finops/nagoya-finops.yml
   title: ''
   type: FinOps
   url: finops/nagoya-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nagoya/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/nagoya/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nagoya/refs/heads/main/json-ld/nagoya-context.jsonld
+  href: https://artifacts.apis.io/nagoya/json-ld/nagoya-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/nagoya-context.jsonld
@@ -169,7 +171,7 @@ plans:
 - name: Nagoya Plans Pricing
   plan_count: 2
   slug: nagoya-plans-pricing
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Nagoya Rate Limits
@@ -184,7 +186,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
@@ -199,7 +201,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 33.3
+  previous_composite: 27.3
   provenance:
     conformance: first-party
   regulatory:
@@ -208,14 +210,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 28.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nagoya/refs/heads/main/screenshots/nagoya-2026-06-20T185937.png
+screenshot: https://apis.io/screenshots/nagoya/nagoya-2026-06-20T185937.png
 security:
 - kind: authentication
   name: Nagoya Authentication

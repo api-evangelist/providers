@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Provider-centric, backend and bulk FHIR R4 APIs for integrating with the eClinicalWorks EHR. Supports SMART on FHIR EHR Launch, Standalone Launch, Backend Services (private_key_jwt, RS384) and CDS Hoo
@@ -46,24 +48,24 @@ apis:
 - description: Bidirectional FHIR R4 API for remote-patient-monitoring device vendors. healow sends signed device orders to a vendor-hosted endpoint (POST create, DELETE cancel within a 60-minute window, authenticat
   name: healow RPM Vendor (Tracker) API
   slug: healow-rpm-vendor-api
-artifact_total: 13
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Eclinicalworks Healow Rpm Webhooks
   slug: eclinicalworks-healow-rpm-webhooks
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/json-ld/eclinicalworks-context.jsonld
+  href: https://artifacts.apis.io/eclinicalworks/json-ld/eclinicalworks-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/eclinicalworks-context.jsonld
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/hosts/eclinicalworks-hosts.yml
+  href: https://artifacts.apis.io/eclinicalworks/hosts/eclinicalworks-hosts.yml
   title: ''
   type: Hosts
   url: hosts/eclinicalworks-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/security/eclinicalworks-domain-security.yml
+  href: https://artifacts.apis.io/eclinicalworks/security/eclinicalworks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eclinicalworks-domain-security.yml
@@ -100,17 +102,17 @@ common:
   type: X
   url: https://x.com/eClinicalWorks
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/plans/eclinicalworks-plans-pricing.yml
+  href: https://artifacts.apis.io/eclinicalworks/plans/eclinicalworks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eclinicalworks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/rate-limits/eclinicalworks-rate-limits.yml
+  href: https://artifacts.apis.io/eclinicalworks/rate-limits/eclinicalworks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eclinicalworks-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/finops/eclinicalworks-finops.yml
+  href: https://artifacts.apis.io/eclinicalworks/finops/eclinicalworks-finops.yml
   title: ''
   type: FinOps
   url: finops/eclinicalworks-finops.yml
@@ -147,22 +149,22 @@ common:
   type: PrivacyPolicy
   url: https://www.eclinicalworks.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/authentication/eclinicalworks-authentication.yml
+  href: https://artifacts.apis.io/eclinicalworks/authentication/eclinicalworks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eclinicalworks-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/scopes/eclinicalworks-scopes.yml
+  href: https://artifacts.apis.io/eclinicalworks/scopes/eclinicalworks-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/eclinicalworks-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/well-known/eclinicalworks-well-known.yml
+  href: https://artifacts.apis.io/eclinicalworks/well-known/eclinicalworks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/eclinicalworks-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/conformance/eclinicalworks-conformance.yml
+  href: https://artifacts.apis.io/eclinicalworks/conformance/eclinicalworks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eclinicalworks-conformance.yml
@@ -171,37 +173,37 @@ common:
   type: Compliance
   url: https://www.eclinicalworks.com/products-services/the-eclinicalworks-cloud/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/errors/eclinicalworks-error-codes.yml
+  href: https://artifacts.apis.io/eclinicalworks/errors/eclinicalworks-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/eclinicalworks-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/lifecycle/eclinicalworks-lifecycle.yml
+  href: https://artifacts.apis.io/eclinicalworks/lifecycle/eclinicalworks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eclinicalworks-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/conventions/eclinicalworks-conventions.yml
+  href: https://artifacts.apis.io/eclinicalworks/conventions/eclinicalworks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eclinicalworks-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/data-model/eclinicalworks-data-model.yml
+  href: https://artifacts.apis.io/eclinicalworks/data-model/eclinicalworks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eclinicalworks-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/sandbox/eclinicalworks-sandbox.yml
+  href: https://artifacts.apis.io/eclinicalworks/sandbox/eclinicalworks-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/eclinicalworks-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/mcp/eclinicalworks-mcp.yml
+  href: https://artifacts.apis.io/eclinicalworks/mcp/eclinicalworks-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/eclinicalworks-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/security/eclinicalworks-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/eclinicalworks/security/eclinicalworks-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/eclinicalworks-vulnerability-disclosure.yml
@@ -210,17 +212,17 @@ common:
   type: Security
   url: https://www.eclinicalworks.com/responsible-disclosure-policy/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/asyncapi/eclinicalworks-healow-rpm-webhooks.yml
+  href: https://artifacts.apis.io/eclinicalworks/asyncapi/eclinicalworks-healow-rpm-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/eclinicalworks-healow-rpm-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/eclinicalworks/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/conformance/eclinicalworks-fhir-capabilitystatement.json
+  href: https://artifacts.apis.io/eclinicalworks/conformance/eclinicalworks-fhir-capabilitystatement.json
   title: ''
   type: CapabilityStatement
   url: conformance/eclinicalworks-fhir-capabilitystatement.json
@@ -228,13 +230,13 @@ created: '2026-06-13'
 description: 'eClinicalWorks is a cloud-based EHR and practice-management platform serving more than 180,000 physicians and 850,000 medical professionals. Its API surface is standards-based rather than proprietary: FHIR R4 served by the eCW FHIR Facade behind SMART on FHIR and OAuth 2.0, split across a provider-facing facade (fhir4.eclinicalworks.com) and a patient-facing healow facade (fhir4.healow.com), each tenant-scoped by a six-character practice code. eClinicalWorks publishes no OpenAPI; the machine-readable contract is the FHIR CapabilityStatement at each tenant''s /metadata plus the SMART configuration at /.well-known/smart-configuration, which advertises 486 scopes. Capabilities include SMART EHR Launch and Standalone Launch, Backend Services with Group/$export bulk data, CDS Hooks, a documented writeback catalogue, patient-facing healow Clinical and Scheduling APIs, and a bidirectional healow RPM Vendor (Tracker) API for remote-monitoring device orders and observations. APIs are
   certified to the ONC 45 CFR 170.315(g)(10) Standardized API for Patient and Population Services criterion.'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Eclinicalworks Finops
-  primary_unit: ''
+  primary_unit: provider/month
   service_category: ''
   slug: eclinicalworks-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eclinicalworks.png
 jsonld:
 - class_count: 21
@@ -261,7 +263,10 @@ plans:
 - name: Eclinicalworks Plans Pricing
   plan_count: 4
   slug: eclinicalworks-plans-pricing
-random_paper: 2
+- name: Eclinicalworks Price Estimates
+  plan_count: 0
+  slug: eclinicalworks-price-estimates
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Eclinicalworks Rate Limits
@@ -273,23 +278,23 @@ scopes:
   summary_line: 486 scopes
 score:
   band: exemplar
-  composite: 67.5
+  composite: 68.8
   coverage:
     artifact_dirs: 24
-    catalog_earned: 68.0
+    catalog_earned: 71.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 47.0
+    catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.2
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 58.9
     developer_ergonomics: 66.1
-    discoverability: 73.3
+    discoverability: 70.0
     operational_transparency: 55.3
-  previous_composite: 69.7
+  previous_composite: 67.2
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -300,14 +305,14 @@ score:
     regime: Health
     regime_id: health
     score: 52.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/screenshots/eclinicalworks-2026-06-20T180425.png
+screenshot: https://apis.io/screenshots/eclinicalworks/eclinicalworks-2026-06-20T180425.png
 security:
 - kind: authentication
   name: Eclinicalworks Authentication
@@ -321,6 +326,14 @@ security:
   name: Eclinicalworks Vulnerability Disclosure
   slug: eclinicalworks-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 3
+skills:
+- name: eclinicalworks-bulk-group-export
+  slug: eclinicalworks-bulk-group-export
+- name: eclinicalworks-healow-rpm-vendor-integration
+  slug: eclinicalworks-healow-rpm-vendor-integration
+- name: eclinicalworks-smart-standalone-patient-read
+  slug: eclinicalworks-smart-standalone-patient-read
 slug: eclinicalworks
 tags:
 - Electronic Health Records

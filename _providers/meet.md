@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-17'
+  score: 23.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,11 +70,8 @@ apis:
   description: The Transcripts API from Google Meet — 4 operation(s) for transcripts.
   name: Google Meet Transcripts API
   slug: meet-transcripts-api
-artifact_total: 17
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Meet REST Conference Records API
   slug: open-meet-conference-records-api
@@ -93,27 +92,27 @@ collections:
   slug: open-meet
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/agentic-access/meet-agentic-access.yml
+  href: https://artifacts.apis.io/meet/agentic-access/meet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/meet-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/security/meet-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/meet/security/meet-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/meet-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/security/meet-domain-security.yml
+  href: https://artifacts.apis.io/meet/security/meet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meet-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/authentication/meet-authentication.yml
+  href: https://artifacts.apis.io/meet/authentication/meet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/meet-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/scopes/meet-scopes.yml
+  href: https://artifacts.apis.io/meet/scopes/meet-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/meet-scopes.yml
@@ -145,7 +144,7 @@ overview: 'Google Meet publishes 5 API contracts indexed on the [APIs.io](https:
 
 
   Google Meet''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 9
+random_paper: 19
 scopes:
 - name: Meet Scopes
   scope_count: 3
@@ -153,7 +152,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.5
+  composite: 31.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -168,8 +167,8 @@ score:
     contract_quality: 45.3
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 0.0
-  previous_composite: 29.5
+    operational_transparency: 10.5
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -183,13 +182,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/screenshots/meet-2026-06-20T185127.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/meet/meet-2026-06-20T185127.png
 security:
 - kind: authentication
   name: Meet Authentication

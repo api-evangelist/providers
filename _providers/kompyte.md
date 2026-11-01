@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -87,37 +89,37 @@ common:
   type: SLA
   url: https://www.kompyte.com/sla/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kompyte/refs/heads/main/llms/kompyte-llms.txt
+  href: https://artifacts.apis.io/kompyte/llms/kompyte-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kompyte-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kompyte/refs/heads/main/security/kompyte-domain-security.yml
+  href: https://artifacts.apis.io/kompyte/security/kompyte-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kompyte-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kompyte/refs/heads/main/plans/kompyte-plans-pricing.yml
+  href: https://artifacts.apis.io/kompyte/plans/kompyte-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kompyte-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kompyte/refs/heads/main/rate-limits/kompyte-rate-limits.yml
+  href: https://artifacts.apis.io/kompyte/rate-limits/kompyte-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kompyte-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kompyte/refs/heads/main/lifecycle/kompyte-lifecycle.yml
+  href: https://artifacts.apis.io/kompyte/lifecycle/kompyte-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kompyte-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kompyte/refs/heads/main/conformance/kompyte-conformance.yml
+  href: https://artifacts.apis.io/kompyte/conformance/kompyte-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kompyte-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kompyte/refs/heads/main/components/kompyte-components.yml
+  href: https://artifacts.apis.io/kompyte/components/kompyte-components.yml
   title: ''
   type: Components
   url: components/kompyte-components.yml
@@ -156,16 +158,16 @@ plans:
 - name: Kompyte Plans Pricing
   plan_count: 3
   slug: kompyte-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Kompyte Rate Limits
   slug: kompyte-rate-limits
 score:
   band: emerging
-  composite: 24.9
+  composite: 24.2
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
@@ -177,9 +179,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 24.9
+  previous_composite: 24.2
   provenance:
     conformance: first-party
   regulatory:
@@ -188,14 +190,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kompyte/refs/heads/main/screenshots/kompyte-2026-07-25T224143.png
+screenshot: https://apis.io/screenshots/kompyte/kompyte-2026-07-25T224143.png
 security:
 - kind: domain-security
   name: Kompyte Domain Security

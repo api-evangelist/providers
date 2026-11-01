@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Bitbrand digital marketplace API
@@ -32,12 +34,12 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitbrand/refs/heads/main/hosts/bitbrand-hosts.yml
+  href: https://artifacts.apis.io/bitbrand/hosts/bitbrand-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bitbrand-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitbrand/refs/heads/main/vendors/bitbrand-vendors.yml
+  href: https://artifacts.apis.io/bitbrand/vendors/bitbrand-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bitbrand-vendors.yml
@@ -54,7 +56,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/Bitbrand
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitbrand/refs/heads/main/security/bitbrand-domain-security.yml
+  href: https://artifacts.apis.io/bitbrand/security/bitbrand-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitbrand-domain-security.yml
@@ -78,7 +80,7 @@ name: Bitbrand
 nav: Providers
 network: true
 overview: Bitbrand is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 2
+random_paper: 22
 score:
   band: minimal
   composite: 9.2
@@ -89,7 +91,7 @@ score:
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -97,7 +99,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 44.6
     operational_transparency: 5.3
-  previous_composite: 9.1
+  previous_composite: 9.2
   provenance:
     mcp: derived
   regulatory:
@@ -106,14 +108,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bitbrand/refs/heads/main/screenshots/bitbrand-2026-10-11T102401.png
+screenshot: https://apis.io/screenshots/bitbrand/bitbrand-2026-10-11T102401.png
 security:
 - kind: domain-security
   name: Bitbrand Domain Security

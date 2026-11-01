@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.1
-  scored_at: '2026-10-17'
+  score: 34.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 157
   slug: gridx-ai-agentic-access
   summary_line: 157 operations · 78 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.gridx.de
   baseurl_source: declared
@@ -203,64 +205,69 @@ apis:
   description: The Webhook API from gridX — 4 operation(s) for webhook.
   name: gridX Webhook API
   slug: gridx-ai-webhook-api
-artifact_total: 44
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Gridx Ai Webhooks
   slug: gridx-ai-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/gridx-ai/capabilities/gridx-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gridx-ai-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/well-known/gridx-ai-status-security.txt
+  href: https://artifacts.apis.io/gridx-ai/well-known/gridx-ai-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/gridx-ai-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/agentic-access/gridx-ai-agentic-access.yml
+  href: https://artifacts.apis.io/gridx-ai/agentic-access/gridx-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gridx-ai-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/rules/gridx-ai-rules.yml
+  href: https://artifacts.apis.io/gridx-ai/rules/gridx-ai-rules.yml
   title: ''
   type: Spectral
   url: rules/gridx-ai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/rules/gridx-ai-api-spectral-rules.yml
+  href: https://artifacts.apis.io/gridx-ai/rules/gridx-ai-api-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/gridx-ai-api-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/json-ld/gridx-ai-context.jsonld
+  href: https://artifacts.apis.io/gridx-ai/json-ld/gridx-ai-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/gridx-ai-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/vocabulary/gridx-ai-vocabulary.yml
+  href: https://artifacts.apis.io/gridx-ai/vocabulary/gridx-ai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/gridx-ai-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/gridx-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/asyncapi/gridx-ai-webhooks.yml
+  href: https://artifacts.apis.io/gridx-ai/asyncapi/gridx-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/gridx-ai-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/data-model/gridx-ai-data-model.yml
+  href: https://artifacts.apis.io/gridx-ai/data-model/gridx-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gridx-ai-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/changelog/gridx-ai-changelog.yml
+  href: https://artifacts.apis.io/gridx-ai/changelog/gridx-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gridx-ai-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/conventions/gridx-ai-conventions.yml
+  href: https://artifacts.apis.io/gridx-ai/conventions/gridx-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gridx-ai-conventions.yml
@@ -277,67 +284,67 @@ common:
   type: StatusPage
   url: https://status.gridx.de/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/lifecycle/gridx-ai-lifecycle.yml
+  href: https://artifacts.apis.io/gridx-ai/lifecycle/gridx-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gridx-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/errors/gridx-ai-problem-types.yml
+  href: https://artifacts.apis.io/gridx-ai/errors/gridx-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gridx-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/conformance/gridx-ai-conformance.yml
+  href: https://artifacts.apis.io/gridx-ai/conformance/gridx-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gridx-ai-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/overlays/gridx-ai-gridx-api-overlay.yaml
+  href: https://artifacts.apis.io/gridx-ai/overlays/gridx-ai-gridx-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gridx-ai-gridx-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/llms/gridx-ai-llms.txt
+  href: https://artifacts.apis.io/gridx-ai/llms/gridx-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gridx-ai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/well-known/gridx-ai-support-security.txt
+  href: https://artifacts.apis.io/gridx-ai/well-known/gridx-ai-support-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/gridx-ai-support-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/well-known/gridx-ai-security.txt
+  href: https://artifacts.apis.io/gridx-ai/well-known/gridx-ai-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/gridx-ai-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/well-known/gridx-ai-well-known.yml
+  href: https://artifacts.apis.io/gridx-ai/well-known/gridx-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gridx-ai-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/hosts/gridx-ai-hosts.yml
+  href: https://artifacts.apis.io/gridx-ai/hosts/gridx-ai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/gridx-ai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/vendors/gridx-ai-vendors.yml
+  href: https://artifacts.apis.io/gridx-ai/vendors/gridx-ai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/gridx-ai-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/authentication/gridx-ai-authentication.yml
+  href: https://artifacts.apis.io/gridx-ai/authentication/gridx-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gridx-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/security/gridx-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gridx-ai/security/gridx-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gridx-ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/security/gridx-ai-domain-security.yml
+  href: https://artifacts.apis.io/gridx-ai/security/gridx-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gridx-ai-domain-security.yml
@@ -424,12 +431,12 @@ overview: 'gridX publishes 34 API contracts indexed on the [APIs.io](https://api
   The gridX catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  gridX''s developer surface includes changelog, authentication, documentation, getting-started guide, support, engineering blog, and 37 more developer resources.'
+  gridX''s developer surface includes changelog, authentication, documentation, getting-started guide, support, engineering blog, and 38 more developer resources.'
 plans:
 - name: Gridx Ai Plans Pricing
   plan_count: 0
   slug: gridx-ai-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Gridx Ai Rate Limits
@@ -461,22 +468,27 @@ rules:
   slug: gridx-ai-rules
 score:
   band: strong
-  composite: 59.7
+  composite: 55.6
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 67.3
     catalog_earned_first_party: 18.0
     catalog_gap: 47.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 62.9
-    contract_quality: 69.8
+    contract_quality: 66.5
     developer_ergonomics: 51.8
-    discoverability: 75.0
+    discoverability: 67.9
     operational_transparency: 63.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   previous_composite: 55.6
   provenance:
     agentic_access: derived
@@ -494,13 +506,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 25.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/gridx-ai/refs/heads/main/screenshots/gridx-ai-2026-10-11T105027.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gridx-ai/gridx-ai-2026-10-11T105027.png
 security:
 - kind: authentication
   name: Gridx Ai Authentication
@@ -514,6 +527,18 @@ security:
   name: Gridx Ai Vulnerability Disclosure
   slug: gridx-ai-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 5
+skills:
+- name: gridx-ai-configure-dynamic-tariff
+  slug: gridx-ai-configure-dynamic-tariff
+- name: gridx-ai-limit-grid-power
+  slug: gridx-ai-limit-grid-power
+- name: gridx-ai-manage-ev-charging
+  slug: gridx-ai-manage-ev-charging
+- name: gridx-ai-monitor-system-energy
+  slug: gridx-ai-monitor-system-energy
+- name: gridx-ai-subscribe-webhooks
+  slug: gridx-ai-subscribe-webhooks
 slug: gridx-ai
 tags:
 - Company

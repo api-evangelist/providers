@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 4
   slug: apiaddicts-agentic-access
   summary_line: 4 operations · 4 acting
-api_count: 4
+api_count: 3
 apis:
 - description: The Configuration API from apIAddicts — 1 operation(s) for configuration.
   name: apIAddicts Configuration API
@@ -44,90 +46,90 @@ apis:
   description: Swagger to SoapUI conversion
   name: apIAddicts Soap UI API
   slug: apiaddicts-soapui-api
-artifact_total: 13
+artifact_total: 14
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/agentic-access/apiaddicts-agentic-access.yml
+  href: https://artifacts.apis.io/apiaddicts/agentic-access/apiaddicts-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apiaddicts-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/rules/apiaddicts-rules.yml
+  href: https://artifacts.apis.io/apiaddicts/rules/apiaddicts-rules.yml
   title: ''
   type: Spectral
   url: rules/apiaddicts-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/rules/apiaddicts-asyncapi-spectral-rules-spectral-rules.yml
+  href: https://artifacts.apis.io/apiaddicts/rules/apiaddicts-asyncapi-spectral-rules-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/apiaddicts-asyncapi-spectral-rules-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/rules/apiaddicts-apiaddicts-style-guide-spectral-spectral-rules.yml
+  href: https://artifacts.apis.io/apiaddicts/rules/apiaddicts-apiaddicts-style-guide-spectral-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/apiaddicts-apiaddicts-style-guide-spectral-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/json-ld/apiaddicts-context.jsonld
+  href: https://artifacts.apis.io/apiaddicts/json-ld/apiaddicts-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/apiaddicts-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/vocabulary/apiaddicts-vocabulary.yml
+  href: https://artifacts.apis.io/apiaddicts/vocabulary/apiaddicts-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/apiaddicts-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/apiaddicts/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/data-model/apiaddicts-data-model.yml
+  href: https://artifacts.apis.io/apiaddicts/data-model/apiaddicts-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apiaddicts-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/conventions/apiaddicts-conventions.yml
+  href: https://artifacts.apis.io/apiaddicts/conventions/apiaddicts-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apiaddicts-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/errors/apiaddicts-problem-types.yml
+  href: https://artifacts.apis.io/apiaddicts/errors/apiaddicts-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apiaddicts-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/conformance/apiaddicts-conformance.yml
+  href: https://artifacts.apis.io/apiaddicts/conformance/apiaddicts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apiaddicts-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/overlays/apiaddicts-apigen-overlay.yaml
+  href: https://artifacts.apis.io/apiaddicts/overlays/apiaddicts-apigen-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/apiaddicts-apigen-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/hosts/apiaddicts-hosts.yml
+  href: https://artifacts.apis.io/apiaddicts/hosts/apiaddicts-hosts.yml
   title: ''
   type: Hosts
   url: hosts/apiaddicts-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/vendors/apiaddicts-vendors.yml
+  href: https://artifacts.apis.io/apiaddicts/vendors/apiaddicts-vendors.yml
   title: ''
   type: Vendors
   url: vendors/apiaddicts-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/packages/apiaddicts-packages.yml
+  href: https://artifacts.apis.io/apiaddicts/packages/apiaddicts-packages.yml
   title: ''
   type: SDKs
   url: packages/apiaddicts-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/packages/apiaddicts-packages.yml
+  href: https://artifacts.apis.io/apiaddicts/packages/apiaddicts-packages.yml
   title: ''
   type: Packages
   url: packages/apiaddicts-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/security/apiaddicts-domain-security.yml
+  href: https://artifacts.apis.io/apiaddicts/security/apiaddicts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apiaddicts-domain-security.yml
@@ -226,7 +228,7 @@ plans:
 - name: Apiaddicts Plans Pricing
   plan_count: 0
   slug: apiaddicts-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Apiaddicts Rate Limits
@@ -269,15 +271,15 @@ rules:
   slug: apiaddicts-rules
 score:
   band: thin
-  composite: 29.9
+  composite: 30.6
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 60.8
     catalog_earned_first_party: 0.0
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 22.0
@@ -290,7 +292,7 @@ score:
     countries:
     - spain
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 34.7
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,18 +309,23 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apiaddicts/refs/heads/main/screenshots/apiaddicts-2026-10-11T095922.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apiaddicts/apiaddicts-2026-10-11T095922.png
 security:
 - kind: domain-security
   name: Apiaddicts Domain Security
   slug: apiaddicts-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: apiaddicts-generate-springboot-project
+  slug: apiaddicts-generate-springboot-project
 slug: apiaddicts
 tags:
 - Company

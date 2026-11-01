@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'REST interface of the Transwarp Hippo distributed vector database. The published reference covers database and table operations, data writes, import/export (standalone mode), index operations, vector '
@@ -41,32 +43,32 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/transwarp/refs/heads/main/security/transwarp-domain-security.yml
+  href: https://artifacts.apis.io/transwarp/security/transwarp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/transwarp-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/transwarp/refs/heads/main/packages/transwarp-packages.yml
+  href: https://artifacts.apis.io/transwarp/packages/transwarp-packages.yml
   title: ''
   type: Packages
   url: packages/transwarp-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/transwarp/refs/heads/main/packages/transwarp-packages.yml
+  href: https://artifacts.apis.io/transwarp/packages/transwarp-packages.yml
   title: ''
   type: SDKs
   url: packages/transwarp-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/transwarp/refs/heads/main/well-known/transwarp-well-known.yml
+  href: https://artifacts.apis.io/transwarp/well-known/transwarp-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/transwarp-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/transwarp/refs/heads/main/llms/transwarp-llms.txt
+  href: https://artifacts.apis.io/transwarp/llms/transwarp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/transwarp-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/transwarp/refs/heads/main/changelog/transwarp-changelog.yml
+  href: https://artifacts.apis.io/transwarp/changelog/transwarp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/transwarp-changelog.yml
@@ -110,28 +112,28 @@ modified: '2026-07-21'
 name: Transwarp
 nav: Providers
 network: true
-overview: 'Transwarp is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Database, Vector Database, and Artificial Intelligence.
+overview: 'Transwarp is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Database, Vector Search, and Artificial Intelligence.
 
 
   Transwarp''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, support, and 8 more developer resources.'
-random_paper: 4
+random_paper: 10
 score:
   band: emerging
-  composite: 20.9
+  composite: 20.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -140,21 +142,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 20.8
+  previous_composite: 20.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/transwarp/refs/heads/main/screenshots/transwarp-2026-09-02T164138.png
+screenshot: https://apis.io/screenshots/transwarp/transwarp-2026-09-02T164138.png
 security:
 - kind: domain-security
   name: Transwarp Domain Security
@@ -165,7 +167,7 @@ tags:
 - Company
 - Big Data
 - Database
-- Vector Database
+- Vector Search
 - Artificial Intelligence
 - Data Analytics
 - Graph Databases

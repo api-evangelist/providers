@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,11 +65,8 @@ apis:
   description: Manage Streamlit Community Cloud workspaces and their settings.
   name: Streamlit Workspaces API
   slug: streamlit-workspaces-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Streamlit Community Cloud Apps API
   slug: open-streamlit-apps-api
@@ -81,43 +80,47 @@ collections:
   name: Streamlit Community Cloud Apps Workspaces API
   slug: open-streamlit-workspaces-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/streamlit/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/plans/streamlit-plans-pricing.yml
+  href: https://artifacts.apis.io/streamlit/plans/streamlit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/streamlit-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/rate-limits/streamlit-rate-limits.yml
+  href: https://artifacts.apis.io/streamlit/rate-limits/streamlit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/streamlit-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/finops/streamlit-finops.yml
+  href: https://artifacts.apis.io/streamlit/finops/streamlit-finops.yml
   title: ''
   type: FinOps
   url: finops/streamlit-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/capabilities/streamlit-capability-edges.yml
+  href: https://artifacts.apis.io/streamlit/capabilities/streamlit-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/streamlit-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/agentic-access/streamlit-agentic-access.yml
+  href: https://artifacts.apis.io/streamlit/agentic-access/streamlit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/streamlit-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/security/streamlit-trust-center.yml
+  href: https://artifacts.apis.io/streamlit/security/streamlit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/streamlit-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/security/streamlit-domain-security.yml
+  href: https://artifacts.apis.io/streamlit/security/streamlit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/streamlit-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/authentication/streamlit-authentication.yml
+  href: https://artifacts.apis.io/streamlit/authentication/streamlit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/streamlit-authentication.yml
@@ -198,7 +201,7 @@ finops:
 - has_sources: false
   method: generated
   name: Streamlit Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: streamlit-finops
   template: true
@@ -227,12 +230,12 @@ overview: 'Streamlit publishes 4 API contracts indexed on the [APIs.io](https://
   The Streamlit catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Streamlit''s developer surface includes authentication, documentation, GitHub presence, engineering blog, changelog, signup flow, and 18 more developer resources.'
+  Streamlit''s developer surface includes authentication, documentation, GitHub presence, engineering blog, changelog, signup flow, and 19 more developer resources.'
 plans:
 - name: Streamlit Plans Pricing
   plan_count: 3
   slug: streamlit-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Streamlit Rate Limits
@@ -263,7 +266,7 @@ rules:
   slug: streamlit-rules
 score:
   band: developing
-  composite: 41.6
+  composite: 42.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 47.5
@@ -271,15 +274,15 @@ score:
     catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.3
   facets:
     access_clarity: 50.0
     contract_governance: 13.6
     contract_quality: 51.8
-    developer_ergonomics: 28.6
+    developer_ergonomics: 29.8
     discoverability: 64.3
     operational_transparency: 28.9
-  previous_composite: 43.1
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -293,13 +296,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/screenshots/streamlit-2026-06-20T194618.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/streamlit/streamlit-2026-06-20T194618.png
 security:
 - kind: authentication
   name: Streamlit Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Labstep REST API exposes the same generic entity surface the Labstep application uses — experiments, protocols, resources, resource items, locations, devices, device data, orders, metadata, files,
@@ -111,62 +113,62 @@ common:
   type: ChangeLog
   url: https://help.labstep.com/en/collections/945011-release-notes
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/labstep/refs/heads/main/packages/labstep-packages.yml
+  href: https://artifacts.apis.io/labstep/packages/labstep-packages.yml
   title: ''
   type: Packages
   url: packages/labstep-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/labstep/refs/heads/main/packages/labstep-packages.yml
+  href: https://artifacts.apis.io/labstep/packages/labstep-packages.yml
   title: ''
   type: SDKs
   url: packages/labstep-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/labstep/refs/heads/main/well-known/labstep-well-known.yml
+  href: https://artifacts.apis.io/labstep/well-known/labstep-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/labstep-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/labstep/refs/heads/main/llms/labstep-llms.txt
+  href: https://artifacts.apis.io/labstep/llms/labstep-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/labstep-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/labstep/refs/heads/main/conformance/labstep-conformance.yml
+  href: https://artifacts.apis.io/labstep/conformance/labstep-conformance.yml
   title: ''
   type: Conformance
   url: conformance/labstep-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/labstep/refs/heads/main/authentication/labstep-authentication.yml
+  href: https://artifacts.apis.io/labstep/authentication/labstep-authentication.yml
   title: ''
   type: Authentication
   url: authentication/labstep-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/labstep/refs/heads/main/conventions/labstep-conventions.yml
+  href: https://artifacts.apis.io/labstep/conventions/labstep-conventions.yml
   title: ''
   type: Conventions
   url: conventions/labstep-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/labstep/refs/heads/main/errors/labstep-error-codes.yml
+  href: https://artifacts.apis.io/labstep/errors/labstep-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/labstep-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/labstep/refs/heads/main/lifecycle/labstep-lifecycle.yml
+  href: https://artifacts.apis.io/labstep/lifecycle/labstep-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/labstep-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/labstep/refs/heads/main/changelog/labstep-changelog.yml
+  href: https://artifacts.apis.io/labstep/changelog/labstep-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/labstep-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/labstep/refs/heads/main/data-model/labstep-data-model.yml
+  href: https://artifacts.apis.io/labstep/data-model/labstep-data-model.yml
   title: ''
   type: DataModel
   url: data-model/labstep-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/labstep/refs/heads/main/security/labstep-domain-security.yml
+  href: https://artifacts.apis.io/labstep/security/labstep-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/labstep-domain-security.yml
@@ -182,12 +184,12 @@ overview: 'Labstep is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Labstep''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 21
+random_paper: 3
 score:
   band: thin
-  composite: 37.0
+  composite: 38.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -195,13 +197,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 37.0
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 38.0
   provenance:
     conformance: first-party
   regulatory:
@@ -210,14 +212,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/labstep/refs/heads/main/screenshots/labstep-2026-07-25T224425.png
+screenshot: https://apis.io/screenshots/labstep/labstep-2026-07-25T224425.png
 security:
 - kind: authentication
   name: Labstep Authentication

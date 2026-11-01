@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +63,7 @@ common:
   type: PrivacyPolicy
   url: https://www.theladders.com/theladders-privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-ladders/refs/heads/main/security/the-ladders-domain-security.yml
+  href: https://artifacts.apis.io/the-ladders/security/the-ladders-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-ladders-domain-security.yml
@@ -77,7 +79,7 @@ overview: 'The Ladders is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   The Ladders'' developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
-random_paper: 1
+random_paper: 21
 score:
   band: emerging
   composite: 11.8
@@ -103,14 +105,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-ladders/refs/heads/main/screenshots/the-ladders-2026-09-02T163351.png
+screenshot: https://apis.io/screenshots/the-ladders/the-ladders-2026-09-02T163351.png
 security:
 - kind: domain-security
   name: The Ladders Domain Security

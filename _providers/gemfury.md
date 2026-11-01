@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Manage package versions
   name: Gemfury Versions API
   slug: gemfury-versions-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Gemfury Developer Accounts API
   slug: open-gemfury-accounts-api
@@ -91,6 +90,10 @@ collections:
   name: Gemfury Developer Accounts Versions API
   slug: open-gemfury-versions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/gemfury/overview
 - group: operate
   title: ''
   type: IssueTracker
@@ -104,17 +107,17 @@ common:
   type: License
   url: https://github.com/gemfury/gemfury/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/agentic-access/gemfury-agentic-access.yml
+  href: https://artifacts.apis.io/gemfury/agentic-access/gemfury-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gemfury-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/security/gemfury-domain-security.yml
+  href: https://artifacts.apis.io/gemfury/security/gemfury-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gemfury-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/authentication/gemfury-authentication.yml
+  href: https://artifacts.apis.io/gemfury/authentication/gemfury-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gemfury-authentication.yml
@@ -163,17 +166,17 @@ common:
   type: GitHubRepository
   url: https://github.com/gemfury/cli
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/plans/gemfury-plans-pricing.yml
+  href: https://artifacts.apis.io/gemfury/plans/gemfury-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gemfury-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/rate-limits/gemfury-rate-limits.yml
+  href: https://artifacts.apis.io/gemfury/rate-limits/gemfury-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gemfury-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/finops/gemfury-finops.yml
+  href: https://artifacts.apis.io/gemfury/finops/gemfury-finops.yml
   title: ''
   type: FinOps
   url: finops/gemfury-finops.yml
@@ -236,12 +239,12 @@ overview: 'Gemfury publishes 5 API contracts indexed on the [APIs.io](https://ap
   The Gemfury catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Gemfury''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, CLI, and 14 more developer resources.'
+  Gemfury''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, CLI, and 15 more developer resources.'
 plans:
 - name: Gemfury Plans Pricing
   plan_count: 14
   slug: gemfury-plans-pricing
-random_paper: 19
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Gemfury Rate Limits
@@ -259,8 +262,8 @@ rules:
     warn: 4
   slug: gemfury-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 37.9
+  band: developing
+  composite: 40.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 53.3
@@ -268,18 +271,15 @@ score:
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.7
+  delta: 0.2
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 57.4
-    developer_ergonomics: 42.9
+    developer_ergonomics: 44.0
     discoverability: 66.1
     operational_transparency: 42.1
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 44.6
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -293,13 +293,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/screenshots/gemfury-2026-06-20T181711.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gemfury/gemfury-2026-06-20T181711.png
 security:
 - kind: authentication
   name: Gemfury Authentication

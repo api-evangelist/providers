@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.5
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Ring Partner API (Amazon Vision API / AVA) lets certified Ring Appstore partners access Ring device data and media on behalf of consenting users: list and inspect devices, read status/capabilities'
@@ -70,37 +72,37 @@ common:
   type: GettingStarted
   url: https://developer.amazon.com/docs/ring/get-started.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/mcp/ring-mcp.yml
+  href: https://artifacts.apis.io/ring/mcp/ring-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ring-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/authentication/ring-authentication.yml
+  href: https://artifacts.apis.io/ring/authentication/ring-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ring-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/asyncapi/ring-webhooks.yml
+  href: https://artifacts.apis.io/ring/asyncapi/ring-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ring-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/errors/ring-problem-types.yml
+  href: https://artifacts.apis.io/ring/errors/ring-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ring-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/conventions/ring-conventions.yml
+  href: https://artifacts.apis.io/ring/conventions/ring-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ring-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/conventions/ring-conventions.yml
+  href: https://artifacts.apis.io/ring/conventions/ring-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ring-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/lifecycle/ring-lifecycle.yml
+  href: https://artifacts.apis.io/ring/lifecycle/ring-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ring-lifecycle.yml
@@ -109,42 +111,42 @@ common:
   type: StatusPage
   url: https://status.ring.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/conformance/ring-conformance.yml
+  href: https://artifacts.apis.io/ring/conformance/ring-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ring-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/data-model/ring-data-model.yml
+  href: https://artifacts.apis.io/ring/data-model/ring-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ring-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/packages/ring-packages.yml
+  href: https://artifacts.apis.io/ring/packages/ring-packages.yml
   title: ''
   type: Packages
   url: packages/ring-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/llms/ring-llms.txt
+  href: https://artifacts.apis.io/ring/llms/ring-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ring-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/well-known/ring-well-known.yml
+  href: https://artifacts.apis.io/ring/well-known/ring-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ring-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/well-known/ring-security.txt
+  href: https://artifacts.apis.io/ring/well-known/ring-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ring-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/security/ring-domain-security.yml
+  href: https://artifacts.apis.io/ring/security/ring-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ring-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/security/ring-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ring/security/ring-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ring-vulnerability-disclosure.yml
@@ -199,10 +201,10 @@ overview: 'Ring is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Ring''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 23 more developer resources.'
-random_paper: 14
+random_paper: 0
 score:
   band: developing
-  composite: 43.9
+  composite: 45.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -210,15 +212,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 50.0
-    discoverability: 75.0
-    operational_transparency: 44.7
-  previous_composite: 43.8
+    developer_ergonomics: 57.1
+    discoverability: 65.0
+    operational_transparency: 50.0
+  previous_composite: 45.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -228,14 +230,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/screenshots/ring-2026-08-17T081710.png
+screenshot: https://apis.io/screenshots/ring/ring-2026-08-17T081710.png
 security:
 - kind: authentication
   name: Ring Authentication

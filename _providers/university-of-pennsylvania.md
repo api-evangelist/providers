@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 20.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -79,11 +81,8 @@ apis:
   description: The Request API from University of Pennsylvania — 1 operation(s) for request.
   name: University of Pennsylvania Request API
   slug: university-of-pennsylvania-request-api
-artifact_total: 52
+artifact_total: 51
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Penn Courses API Documentation [Accounts] User [Accounts] User [Accounts] User API
   slug: open-university-of-pennsylvania-accounts-user-api
@@ -225,52 +224,52 @@ common:
   type: About
   url: https://www.library.upenn.edu/about/policies/open-metadata
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/agentic-access/university-of-pennsylvania-agentic-access.yml
+  href: https://artifacts.apis.io/university-of-pennsylvania/agentic-access/university-of-pennsylvania-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-pennsylvania-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/security/university-of-pennsylvania-domain-security.yml
+  href: https://artifacts.apis.io/university-of-pennsylvania/security/university-of-pennsylvania-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-pennsylvania-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/plans/university-of-pennsylvania-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-pennsylvania/plans/university-of-pennsylvania-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-pennsylvania-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/rate-limits/university-of-pennsylvania-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-pennsylvania/rate-limits/university-of-pennsylvania-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-pennsylvania-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/finops/university-of-pennsylvania-finops.yml
+  href: https://artifacts.apis.io/university-of-pennsylvania/finops/university-of-pennsylvania-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-pennsylvania-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-pennsylvania/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/conformance/university-of-pennsylvania-conformance.yml
+  href: https://artifacts.apis.io/university-of-pennsylvania/conformance/university-of-pennsylvania-conformance.yml
   title: ''
   type: x-conformance
   url: conformance/university-of-pennsylvania-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/authentication/university-of-pennsylvania-authentication.yml
+  href: https://artifacts.apis.io/university-of-pennsylvania/authentication/university-of-pennsylvania-authentication.yml
   title: ''
   type: x-authentication
   url: authentication/university-of-pennsylvania-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/errors/university-of-pennsylvania-errors.yml
+  href: https://artifacts.apis.io/university-of-pennsylvania/errors/university-of-pennsylvania-errors.yml
   title: ''
   type: x-errors
   url: errors/university-of-pennsylvania-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/lifecycle/university-of-pennsylvania-lifecycle.yml
+  href: https://artifacts.apis.io/university-of-pennsylvania/lifecycle/university-of-pennsylvania-lifecycle.yml
   title: ''
   type: x-lifecycle
   url: lifecycle/university-of-pennsylvania-lifecycle.yml
@@ -331,7 +330,7 @@ plans:
 - name: University Of Pennsylvania Plans Pricing
   plan_count: 2
   slug: university-of-pennsylvania-plans-pricing
-random_paper: 1
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: University Of Pennsylvania Rate Limits
@@ -362,7 +361,7 @@ rules:
   slug: university-of-pennsylvania-rules
 score:
   band: thin
-  composite: 31.0
+  composite: 30.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 51.5
@@ -370,14 +369,14 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
-    contract_quality: 50.3
+    contract_quality: 47.0
     developer_ergonomics: 19.0
     discoverability: 62.5
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -385,7 +384,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 37.0
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -400,13 +399,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/screenshots/university-of-pennsylvania-2026-06-20T200220.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/university-of-pennsylvania/university-of-pennsylvania-2026-06-20T200220.png
 security:
 - kind: authentication
   name: University Of Pennsylvania Authentication

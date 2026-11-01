@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nsknox/refs/heads/main/security/nsknox-domain-security.yml
+  href: https://artifacts.apis.io/nsknox/security/nsknox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nsknox-domain-security.yml
@@ -108,32 +110,32 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/7972484/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nsknox/refs/heads/main/llms/nsknox-llms.txt
+  href: https://artifacts.apis.io/nsknox/llms/nsknox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nsknox-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nsknox/refs/heads/main/packages/nsknox-packages.yml
+  href: https://artifacts.apis.io/nsknox/packages/nsknox-packages.yml
   title: ''
   type: Packages
   url: packages/nsknox-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nsknox/refs/heads/main/plans/nsknox-plans-pricing.yml
+  href: https://artifacts.apis.io/nsknox/plans/nsknox-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nsknox-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nsknox/refs/heads/main/rate-limits/nsknox-rate-limits.yml
+  href: https://artifacts.apis.io/nsknox/rate-limits/nsknox-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nsknox-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nsknox/refs/heads/main/conformance/nsknox-conformance.yml
+  href: https://artifacts.apis.io/nsknox/conformance/nsknox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nsknox-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nsknox/refs/heads/main/well-known/nsknox-well-known.yml
+  href: https://artifacts.apis.io/nsknox/well-known/nsknox-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/nsknox-well-known.yml
@@ -168,14 +170,14 @@ plans:
 - name: Nsknox Plans Pricing
   plan_count: 0
   slug: nsknox-plans-pricing
-random_paper: 13
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Nsknox Rate Limits
   slug: nsknox-rate-limits
 score:
   band: emerging
-  composite: 13.6
+  composite: 15.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -183,14 +185,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 49.1
-    operational_transparency: 2.6
+    discoverability: 50.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -199,7 +201,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 13.5
+  previous_composite: 15.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -213,14 +215,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nsknox/refs/heads/main/screenshots/nsknox-2026-09-02T150808.png
+screenshot: https://apis.io/screenshots/nsknox/nsknox-2026-09-02T150808.png
 security:
 - kind: domain-security
   name: Nsknox Domain Security

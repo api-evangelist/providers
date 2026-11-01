@@ -9,21 +9,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.1
-  scored_at: '2026-10-17'
+  score: 18.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,63 +52,68 @@ apis:
   slug: robottraining-jobs-roles-json-api
 artifact_total: 10
 common:
+- group: other
+  href: https://artifacts.apis.io/robottraining-jobs/capabilities/robottraining-jobs-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/robottraining-jobs-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/robottraining-jobs/refs/heads/main/agentic-access/robottraining-jobs-agentic-access.yml
+  href: https://artifacts.apis.io/robottraining-jobs/agentic-access/robottraining-jobs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/robottraining-jobs-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/robottraining-jobs/refs/heads/main/rules/robottraining-jobs-rules.yml
+  href: https://artifacts.apis.io/robottraining-jobs/rules/robottraining-jobs-rules.yml
   title: ''
   type: Spectral
   url: rules/robottraining-jobs-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/robottraining-jobs/refs/heads/main/json-ld/robottraining-jobs-context.jsonld
+  href: https://artifacts.apis.io/robottraining-jobs/json-ld/robottraining-jobs-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/robottraining-jobs-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/robottraining-jobs/refs/heads/main/vocabulary/robottraining-jobs-vocabulary.yml
+  href: https://artifacts.apis.io/robottraining-jobs/vocabulary/robottraining-jobs-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/robottraining-jobs-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/robottraining-jobs/refs/heads/main/data-model/robottraining-jobs-data-model.yml
+  href: https://artifacts.apis.io/robottraining-jobs/data-model/robottraining-jobs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/robottraining-jobs-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/robottraining-jobs/refs/heads/main/conformance/robottraining-jobs-conformance.yml
+  href: https://artifacts.apis.io/robottraining-jobs/conformance/robottraining-jobs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/robottraining-jobs-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/robottraining-jobs/refs/heads/main/overlays/robottraining-jobs-openapi-overlay.yaml
+  href: https://artifacts.apis.io/robottraining-jobs/overlays/robottraining-jobs-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/robottraining-jobs-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/robottraining-jobs/refs/heads/main/llms/robottraining-jobs-llms.txt
+  href: https://artifacts.apis.io/robottraining-jobs/llms/robottraining-jobs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/robottraining-jobs-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/robottraining-jobs/refs/heads/main/mcp/robottraining-jobs-mcp.yml
+  href: https://artifacts.apis.io/robottraining-jobs/mcp/robottraining-jobs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/robottraining-jobs-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/robottraining-jobs/refs/heads/main/hosts/robottraining-jobs-hosts.yml
+  href: https://artifacts.apis.io/robottraining-jobs/hosts/robottraining-jobs-hosts.yml
   title: ''
   type: Hosts
   url: hosts/robottraining-jobs-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/robottraining-jobs/refs/heads/main/vendors/robottraining-jobs-vendors.yml
+  href: https://artifacts.apis.io/robottraining-jobs/vendors/robottraining-jobs-vendors.yml
   title: ''
   type: Vendors
   url: vendors/robottraining-jobs-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/robottraining-jobs/refs/heads/main/security/robottraining-jobs-domain-security.yml
+  href: https://artifacts.apis.io/robottraining-jobs/security/robottraining-jobs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/robottraining-jobs-domain-security.yml
@@ -170,14 +177,14 @@ modified: '2026-10-15'
 name: RobotTraining.jobs
 nav: Providers
 network: true
-overview: 'RobotTraining.jobs publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Pay.csv API, Pay.json API, and Roles.json API. Tagged areas include Company, JobBoard, Robotics, Employment, and Artificial Intelligence.
+overview: 'RobotTraining.jobs publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Pay.csv API, Pay.json API, and Roles.json API. Tagged areas include Company, Job Board, Robotics, Employment, and Artificial Intelligence.
 
 
   The RobotTraining.jobs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  RobotTraining.jobs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 15 more developer resources.'
-random_paper: 15
+  RobotTraining.jobs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 16 more developer resources.'
+random_paper: 13
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -193,21 +200,23 @@ rules:
   slug: robottraining-jobs-rules
 score:
   band: thin
-  composite: 37.1
+  composite: 36.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 54.8
     catalog_earned_first_party: 0.0
     catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 22.0
     contract_quality: 56.3
     developer_ergonomics: 35.7
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,12 +232,13 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Robottraining Jobs Domain Security
@@ -237,7 +247,7 @@ security:
 slug: robottraining-jobs
 tags:
 - Company
-- JobBoard
+- Job Board
 - Robotics
 - Employment
 - Artificial Intelligence

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-17'
+  score: 26.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -142,15 +144,12 @@ arazzos:
 - description: Create an account, initiate KYC/KYB, and confirm the account reaches a verified state.
   name: Due — Onboard a customer account with KYC/KYB
   slug: due-onboard-account
-artifact_total: 43
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Due Webhooks
   slug: due-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Due Account API
   slug: open-due-account-api
@@ -206,88 +205,93 @@ collections:
   name: Due Account Webhooks API
   slug: open-due-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/due/plans/due-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/due-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/capabilities/due-capability-edges.yml
+  href: https://artifacts.apis.io/due/capabilities/due-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/due-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/overlays/due-openapi-overlay.yaml
+  href: https://artifacts.apis.io/due/overlays/due-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/due-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/agentic-access/due-agentic-access.yml
+  href: https://artifacts.apis.io/due/agentic-access/due-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/due-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/security/due-domain-security.yml
+  href: https://artifacts.apis.io/due/security/due-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/due-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/authentication/due-authentication.yml
+  href: https://artifacts.apis.io/due/authentication/due-authentication.yml
   title: ''
   type: Authentication
   url: authentication/due-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/errors/due-error-codes.yml
+  href: https://artifacts.apis.io/due/errors/due-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/due-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/conventions/due-conventions.yml
+  href: https://artifacts.apis.io/due/conventions/due-conventions.yml
   title: ''
   type: Conventions
   url: conventions/due-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/asyncapi/due-webhooks.yml
+  href: https://artifacts.apis.io/due/asyncapi/due-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/due-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/sandbox/due-sandbox.yml
+  href: https://artifacts.apis.io/due/sandbox/due-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/due-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/lifecycle/due-lifecycle.yml
+  href: https://artifacts.apis.io/due/lifecycle/due-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/due-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/data-model/due-data-model.yml
+  href: https://artifacts.apis.io/due/data-model/due-data-model.yml
   title: ''
   type: DataModel
   url: data-model/due-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/conformance/due-conformance.yml
+  href: https://artifacts.apis.io/due/conformance/due-conformance.yml
   title: ''
   type: Conformance
   url: conformance/due-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/mcp/due-mcp.yml
+  href: https://artifacts.apis.io/due/mcp/due-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/due-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/llms/due-llms.txt
+  href: https://artifacts.apis.io/due/llms/due-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/due-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/due/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/arazzo/due-onboard-account.yml
+  href: https://artifacts.apis.io/due/arazzo/due-onboard-account.yml
   title: ''
   type: Arazzo
   url: arazzo/due-onboard-account.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/arazzo/due-cross-border-transfer.yml
+  href: https://artifacts.apis.io/due/arazzo/due-cross-border-transfer.yml
   title: ''
   type: Arazzo
   url: arazzo/due-cross-border-transfer.yml
@@ -349,6 +353,14 @@ common:
   url: https://twitter.com/due_network
 created: '2026-07-17'
 description: 'Due (Due Network, opendue.com) is a London-founded payments infrastructure company (backed by Speedinvest) that provides a single API for borderless money movement. Its platform bridges traditional banking rails with blockchain networks: cross-border transfers and fiat<->stablecoin on/off-ramps (USDC, EURC, USDT) across 80+ countries plus SWIFT in 150+, programmable virtual accounts for fund collection, a public FX rate engine, automated KYC/KYB onboarding, non-custodial MPC wallets (Vault), and signed webhooks. The REST API is documented on due.readme.io and served from api.due.network.'
+finops:
+- has_sources: true
+  method: derived
+  name: Due Finops
+  primary_unit: ''
+  service_category: ''
+  slug: due-finops
+  template: true
 image: https://cdn.prod.website-files.com/65035c417fe69396bd8c0d5c/6551dcd7729040d7cd0b9c38_Open%20Graph%20Image%20(1).jpg
 layout: provider
 modified: '2026-07-18'
@@ -361,27 +373,31 @@ overview: 'Due publishes 18 API contracts indexed on the [APIs.io](https://apis.
   The Due catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Due''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
-random_paper: 10
+  Due''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 25 more developer resources.'
+plans:
+- name: Due Plans Pricing
+  plan_count: 2
+  slug: due-plans-pricing
+random_paper: 6
 score:
   band: developing
-  composite: 42.5
+  composite: 49.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 32.9
+    access_clarity: 65.8
     contract_governance: 4.5
-    contract_quality: 54.7
-    developer_ergonomics: 54.2
-    discoverability: 73.2
+    contract_quality: 54.3
+    developer_ergonomics: 70.8
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 42.4
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -398,13 +414,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/screenshots/due-2026-07-25T212452.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/due/due-2026-07-25T212452.png
 security:
 - kind: authentication
   name: Due Authentication
@@ -414,6 +431,14 @@ security:
   name: Due Domain Security
   slug: due-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Quote and send a cross-border transfer
+  slug: due-cross-border-transfer
+- name: Onboard a customer account with KYC/KYB
+  slug: due-onboard-account
+- name: Collect funds with a virtual account
+  slug: due-virtual-account-collection
 slug: due
 tags:
 - Payments

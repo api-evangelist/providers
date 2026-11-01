@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Free public remote Model Context Protocol server (Streamable HTTP, protocol 2025-06-18, stateless, no authentication) exposing one read-only tool, answer_money_question, which takes a plain-language c
@@ -32,7 +34,7 @@ apis:
 - description: A2A 1.0 agent ("Money You're Owed catalog agent", version 1.0.0) with a JSONRPC binding at https://agent.moneyyoureowed.com and one read-only skill, answer-money-questions, answering consumer question
   name: Money You're Owed Catalog Agent (A2A)
   slug: catalog-a2a-agent
-artifact_total: 7
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -55,72 +57,72 @@ common:
   type: Contact
   url: mailto:hello@moneyyoureowed.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/mcp/moneyyoureowed-com-mcp.yml
+  href: https://artifacts.apis.io/moneyyoureowed-com/mcp/moneyyoureowed-com-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/moneyyoureowed-com-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/a2a/moneyyoureowed-com-a2a.yml
+  href: https://artifacts.apis.io/moneyyoureowed-com/a2a/moneyyoureowed-com-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/moneyyoureowed-com-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/well-known/moneyyoureowed-com-well-known.yml
+  href: https://artifacts.apis.io/moneyyoureowed-com/well-known/moneyyoureowed-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/moneyyoureowed-com-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/llms/moneyyoureowed-com-llms.txt
+  href: https://artifacts.apis.io/moneyyoureowed-com/llms/moneyyoureowed-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moneyyoureowed-com-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/moneyyoureowed-com/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/authentication/moneyyoureowed-com-authentication.yml
+  href: https://artifacts.apis.io/moneyyoureowed-com/authentication/moneyyoureowed-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moneyyoureowed-com-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/conformance/moneyyoureowed-com-conformance.yml
+  href: https://artifacts.apis.io/moneyyoureowed-com/conformance/moneyyoureowed-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moneyyoureowed-com-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/conventions/moneyyoureowed-com-conventions.yml
+  href: https://artifacts.apis.io/moneyyoureowed-com/conventions/moneyyoureowed-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moneyyoureowed-com-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/errors/moneyyoureowed-com-problem-types.yml
+  href: https://artifacts.apis.io/moneyyoureowed-com/errors/moneyyoureowed-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moneyyoureowed-com-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/lifecycle/moneyyoureowed-com-lifecycle.yml
+  href: https://artifacts.apis.io/moneyyoureowed-com/lifecycle/moneyyoureowed-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moneyyoureowed-com-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/rate-limits/moneyyoureowed-com-rate-limits.yml
+  href: https://artifacts.apis.io/moneyyoureowed-com/rate-limits/moneyyoureowed-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/moneyyoureowed-com-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/plans/moneyyoureowed-com-plans-pricing.yml
+  href: https://artifacts.apis.io/moneyyoureowed-com/plans/moneyyoureowed-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moneyyoureowed-com-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/data-model/moneyyoureowed-com-data-model.yml
+  href: https://artifacts.apis.io/moneyyoureowed-com/data-model/moneyyoureowed-com-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moneyyoureowed-com-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/regulatory/moneyyoureowed-com-regulatory-posture.yml
+  href: https://artifacts.apis.io/moneyyoureowed-com/regulatory/moneyyoureowed-com-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/moneyyoureowed-com-regulatory-posture.yml
@@ -133,7 +135,7 @@ common:
   type: Subprocessors
   url: https://moneyyoureowed.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/security/moneyyoureowed-com-domain-security.yml
+  href: https://artifacts.apis.io/moneyyoureowed-com/security/moneyyoureowed-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moneyyoureowed-com-domain-security.yml
@@ -157,14 +159,14 @@ plans:
 - name: Moneyyoureowed Com Plans Pricing
   plan_count: 0
   slug: moneyyoureowed-com-plans-pricing
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Moneyyoureowed Com Rate Limits
   slug: moneyyoureowed-com-rate-limits
 score:
   band: emerging
-  composite: 20.0
+  composite: 19.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -172,15 +174,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 23.2
-    discoverability: 68.3
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 19.9
+  previous_composite: 19.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -191,14 +193,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/moneyyoureowed-com/refs/heads/main/screenshots/moneyyoureowed-com-2026-10-11T111230.png
+screenshot: https://apis.io/screenshots/moneyyoureowed-com/moneyyoureowed-com-2026-10-11T111230.png
 security:
 - kind: authentication
   name: Moneyyoureowed Com Authentication
@@ -208,6 +210,10 @@ security:
   name: Moneyyoureowed Com Domain Security
   slug: moneyyoureowed-com-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: answer-money-recovery-question
+  slug: moneyyoureowed-com-answer-money-recovery-question
 slug: moneyyoureowed-com
 tags:
 - Company

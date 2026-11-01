@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Educative API is a platform that provides developers with access to a wide range of educational materials and resources through an easy-to-use interface. With Educative API, developers can access tuto
@@ -42,17 +44,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/educative/refs/heads/main/plans/educative-plans-pricing.yml
+  href: https://artifacts.apis.io/educative/plans/educative-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/educative-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/educative/refs/heads/main/rate-limits/educative-rate-limits.yml
+  href: https://artifacts.apis.io/educative/rate-limits/educative-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/educative-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/educative/refs/heads/main/finops/educative-finops.yml
+  href: https://artifacts.apis.io/educative/finops/educative-finops.yml
   title: ''
   type: FinOps
   url: finops/educative-finops.yml
@@ -61,7 +63,7 @@ common:
   type: Website
   url: https://www.educative.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/educative/refs/heads/main/security/educative-domain-security.yml
+  href: https://artifacts.apis.io/educative/security/educative-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/educative-domain-security.yml
@@ -123,7 +125,7 @@ finops:
 - has_sources: false
   method: generated
   name: Educative Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: educative-finops
   template: true
@@ -141,14 +143,14 @@ plans:
 - name: Educative Plans Pricing
   plan_count: 0
   slug: educative-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Educative Rate Limits
   slug: educative-rate-limits
 score:
   band: emerging
-  composite: 16.4
+  composite: 16.8
   coverage:
     artifact_dirs: 10
     catalog_earned: 32.0
@@ -156,29 +158,29 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 64.3
-    operational_transparency: 2.6
-  previous_composite: 18.0
+    operational_transparency: 5.3
+  previous_composite: 16.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/educative/refs/heads/main/screenshots/educative-2026-06-20T180500.png
+screenshot: https://apis.io/screenshots/educative/educative-2026-06-20T180500.png
 security:
 - kind: domain-security
   name: Educative Domain Security

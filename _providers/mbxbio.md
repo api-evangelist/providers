@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mbxbio/refs/heads/main/security/mbxbio-domain-security.yml
+  href: https://artifacts.apis.io/mbxbio/security/mbxbio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mbxbio-domain-security.yml
@@ -54,7 +56,7 @@ name: MBX Biosciences
 nav: Providers
 network: true
 overview: MBX Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Biopharmaceutical, Healthcare, and Life Sciences.
-random_paper: 3
+random_paper: 17
 score:
   band: minimal
   composite: 3.7
@@ -80,14 +82,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mbxbio/refs/heads/main/screenshots/mbxbio-2026-08-07T172209.png
+screenshot: https://apis.io/screenshots/mbxbio/mbxbio-2026-08-07T172209.png
 security:
 - kind: domain-security
   name: Mbxbio Domain Security

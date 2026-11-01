@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +59,7 @@ apis:
   description: Bundled by Xoserve as the Supply Point Enquiry service, part of the Gas Enquiry Service (GES). Exposes detailed supply meter point information, filtered by MPRN, address_id or postcode combined with o
   name: Xoserve Supplier API
   slug: xoserve-supplier-api
-artifact_total: 19
+artifact_total: 23
 collections:
 - collection_type: open
   name: Meter Asset
@@ -72,13 +74,17 @@ collections:
   name: Supplier
   slug: open-xoserve-supplier-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/xoserve/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/security/xoserve-domain-security.yml
+  href: https://artifacts.apis.io/xoserve/security/xoserve-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xoserve-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/authentication/xoserve-authentication.yml
+  href: https://artifacts.apis.io/xoserve/authentication/xoserve-authentication.yml
   title: ''
   type: Authentication
   url: authentication/xoserve-authentication.yml
@@ -147,72 +153,72 @@ common:
   type: ChangeLog
   url: https://www.xoserve.com/change/uk-link-releases/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/changelog/xoserve-changelog.yml
+  href: https://artifacts.apis.io/xoserve/changelog/xoserve-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/xoserve-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/lifecycle/xoserve-lifecycle.yml
+  href: https://artifacts.apis.io/xoserve/lifecycle/xoserve-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/xoserve-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/conventions/xoserve-conventions.yml
+  href: https://artifacts.apis.io/xoserve/conventions/xoserve-conventions.yml
   title: ''
   type: Conventions
   url: conventions/xoserve-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/conformance/xoserve-conformance.yml
+  href: https://artifacts.apis.io/xoserve/conformance/xoserve-conformance.yml
   title: ''
   type: Conformance
   url: conformance/xoserve-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/errors/xoserve-problem-types.yml
+  href: https://artifacts.apis.io/xoserve/errors/xoserve-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/xoserve-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/data-model/xoserve-data-model.yml
+  href: https://artifacts.apis.io/xoserve/data-model/xoserve-data-model.yml
   title: ''
   type: DataModel
   url: data-model/xoserve-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/sandbox/xoserve-sandbox.yml
+  href: https://artifacts.apis.io/xoserve/sandbox/xoserve-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/xoserve-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/plans/xoserve-plans.yml
+  href: https://artifacts.apis.io/xoserve/plans/xoserve-plans.yml
   title: ''
   type: Plans
   url: plans/xoserve-plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/rate-limits/xoserve-rate-limits.yml
+  href: https://artifacts.apis.io/xoserve/rate-limits/xoserve-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/xoserve-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/mcp/xoserve-mcp.yml
+  href: https://artifacts.apis.io/xoserve/mcp/xoserve-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/xoserve-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/mcp/xoserve-tool-crosswalk.yml
+  href: https://artifacts.apis.io/xoserve/mcp/xoserve-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/xoserve-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/agentic-access/xoserve-agentic-access.yml
+  href: https://artifacts.apis.io/xoserve/agentic-access/xoserve-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/xoserve-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/xoserve/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/llms/xoserve-llms.txt
+  href: https://artifacts.apis.io/xoserve/llms/xoserve-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xoserve-llms.txt
@@ -241,6 +247,14 @@ examples:
 - key_count: 1
   name: Xoserve Supplier Api Response Example
   slug: xoserve-supplier-api-response-example
+finops:
+- has_sources: true
+  method: derived
+  name: Xoserve Finops
+  primary_unit: ''
+  service_category: ''
+  slug: xoserve-finops
+  template: true
 image: https://www.xoserve.com/assets/images/Favicons/favicon-96x96.png
 json_schemas:
 - name: Xoserve Meter Asset Api V1 Components
@@ -263,32 +277,32 @@ network: true
 overview: 'Xoserve is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Shipper API and Supplier API. Tagged areas include Energy, United Kingdom, Gas, Utilities, and Energy Markets.
 
 
-  Xoserve''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, pricing, getting-started guide, and 27 more developer resources.'
+  Xoserve''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, pricing, getting-started guide, and 28 more developer resources.'
 plans:
 - name: Xoserve Plans
   plan_count: 4
   slug: xoserve-plans
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 6
   name: Xoserve Rate Limits
   slug: xoserve-rate-limits
 score:
   band: strong
-  composite: 60.0
+  composite: 62.1
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 66.4
     catalog_earned_first_party: 24.0
     catalog_gap: 48.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 35.2
-    developer_ergonomics: 66.1
+    contract_quality: 42.6
+    developer_ergonomics: 67.3
     discoverability: 66.1
     operational_transparency: 63.2
   jurisdiction:
@@ -299,7 +313,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 60.0
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -316,14 +330,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/screenshots/xoserve-2026-08-17T083012.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/xoserve/xoserve-2026-08-17T083012.png
 security:
 - kind: authentication
   name: Xoserve Authentication
@@ -333,6 +347,14 @@ security:
   name: Xoserve Domain Security
   slug: xoserve-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Enquire on a gas meter asset (v1 and v2)
+  slug: xoserve-enquire-meter-asset
+- name: Look up Formula Year AQ and SOQ for a gas supply point
+  slug: xoserve-lookup-supply-point-quantities
+- name: Resolve a gas supply meter point from an address
+  slug: xoserve-resolve-supply-point-from-address
 slug: xoserve
 tags:
 - Energy

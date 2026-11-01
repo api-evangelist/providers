@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -32,12 +34,12 @@ common:
   type: BlogRSS
   url: https://bluecurrent.com/news/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blue-current/refs/heads/main/llms/blue-current-llms.txt
+  href: https://artifacts.apis.io/blue-current/llms/blue-current-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blue-current-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blue-current/refs/heads/main/hosts/blue-current-hosts.yml
+  href: https://artifacts.apis.io/blue-current/hosts/blue-current-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blue-current-hosts.yml
@@ -46,7 +48,7 @@ common:
   type: Newsroom
   url: https://bluecurrent.com/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blue-current/refs/heads/main/security/blue-current-domain-security.yml
+  href: https://artifacts.apis.io/blue-current/security/blue-current-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blue-current-domain-security.yml
@@ -69,10 +71,10 @@ name: Blue Current
 nav: Providers
 network: true
 overview: Blue Current is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Battery, Energy, Silicon, and Startups.
-random_paper: 8
+random_paper: 16
 score:
   band: minimal
-  composite: 4.1
+  composite: 3.4
   coverage:
     artifact_dirs: 7
     catalog_earned: 25.0
@@ -86,23 +88,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 53.6
+    discoverability: 46.4
     operational_transparency: 0.0
-  previous_composite: 4.1
+  previous_composite: 3.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/blue-current/refs/heads/main/screenshots/blue-current-2026-10-11T102456.png
+screenshot: https://apis.io/screenshots/blue-current/blue-current-2026-10-11T102456.png
 security:
 - kind: domain-security
   name: Blue Current Domain Security

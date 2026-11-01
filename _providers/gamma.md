@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,35 +24,37 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Programmatic creation and management of gammas (presentations, documents, websites, and social posts). Asynchronous generate-and-poll workflow plus template, export, management, and analytics endpoint
   name: Gamma Generate API
   slug: gamma-generate-api
-artifact_total: 7
+artifact_total: 8
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gamma/refs/heads/main/rate-limits/gamma-rate-limits.yml
+  href: https://artifacts.apis.io/gamma/rate-limits/gamma-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gamma-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gamma/refs/heads/main/plans/gamma-plans-pricing.yml
+  href: https://artifacts.apis.io/gamma/plans/gamma-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gamma-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gamma/refs/heads/main/security/gamma-domain-security.yml
+  href: https://artifacts.apis.io/gamma/security/gamma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gamma-domain-security.yml
@@ -118,6 +120,14 @@ common:
   url: https://mcp.gamma.app/mcp
 created: '2026-07-17'
 description: 'Gamma (Gamma Tech, Inc.) is an AI-native productivity platform for creating presentations, documents, websites, and social posts from a prompt or from existing content. Its public Generate API lets developers programmatically produce and manage gammas: generate from scratch or from a template, poll the asynchronous generation job, list workspace themes and folders, export to PDF, PPTX, or PNG, read and manage gammas, and pull document- and card-level engagement analytics. Authentication is via an X-API-KEY header (keys begin sk-gamma-) on Pro, Ultra, Teams, and Business plans, with credit-based billing. Gamma also ships an official remote MCP server (OAuth 2.0 with Dynamic Client Registration) and native integrations for Zapier, Make, n8n, Claude, and ChatGPT.'
+finops:
+- has_sources: true
+  method: derived
+  name: Gamma Finops
+  primary_unit: ''
+  service_category: ''
+  slug: gamma-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gamma.png
 layout: provider
 mcp_servers:
@@ -136,7 +146,7 @@ plans:
 - name: Gamma Plans Pricing
   plan_count: 4
   slug: gamma-plans-pricing
-random_paper: 9
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Gamma Rate Limits
@@ -148,23 +158,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.8
+  composite: 43.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.9
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 75.0
-    operational_transparency: 26.3
-  previous_composite: 36.9
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 43.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -174,14 +184,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/gamma/refs/heads/main/screenshots/gamma-2026-07-25T215428.png
+screenshot: https://apis.io/screenshots/gamma/gamma-2026-07-25T215428.png
 security:
 - kind: authentication
   name: Gamma Authentication

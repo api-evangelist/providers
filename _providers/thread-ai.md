@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -65,7 +67,7 @@ common:
   type: PrivacyPolicy
   url: https://www.threadai.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thread-ai/refs/heads/main/security/thread-ai-trust-center.yml
+  href: https://artifacts.apis.io/thread-ai/security/thread-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/thread-ai-trust-center.yml
@@ -74,17 +76,17 @@ common:
   type: Compliance
   url: https://www.threadai.com/trust-center
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thread-ai/refs/heads/main/security/thread-ai-domain-security.yml
+  href: https://artifacts.apis.io/thread-ai/security/thread-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thread-ai-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thread-ai/refs/heads/main/conformance/thread-ai-conformance.yml
+  href: https://artifacts.apis.io/thread-ai/conformance/thread-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/thread-ai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thread-ai/refs/heads/main/llms/thread-ai-llms.txt
+  href: https://artifacts.apis.io/thread-ai/llms/thread-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thread-ai-llms.txt
@@ -100,10 +102,10 @@ overview: 'Thread AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Thread AI''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 21
+random_paper: 15
 score:
   band: emerging
-  composite: 20.1
+  composite: 19.4
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -117,9 +119,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 20.1
+  previous_composite: 19.4
   provenance:
     conformance: first-party
   regulatory:
@@ -134,14 +136,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/thread-ai/refs/heads/main/screenshots/thread-ai-2026-09-02T163606.png
+screenshot: https://apis.io/screenshots/thread-ai/thread-ai-2026-09-02T163606.png
 security:
 - kind: domain-security
   name: Thread Ai Domain Security

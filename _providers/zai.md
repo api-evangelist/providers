@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.1
-  scored_at: '2026-10-17'
+  score: 43.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -176,7 +178,7 @@ apis:
   description: The Wallet Accounts API from Zai — 6 operation(s) for wallet accounts.
   name: Zai Wallet Accounts API
   slug: zai-wallet-accounts-api
-artifact_total: 42
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Zai Webhooks
@@ -216,37 +218,37 @@ common:
   type: BlogRSS
   url: https://www.hellozai.com/blog/rss.xml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/rate-limits/zai-rate-limits.yml
+  href: https://artifacts.apis.io/zai/rate-limits/zai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/plans/zai-plans-pricing.yml
+  href: https://artifacts.apis.io/zai/plans/zai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zai-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/capabilities/zai-capability-edges.yml
+  href: https://artifacts.apis.io/zai/capabilities/zai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/overlays/zai-assembly-api-overlay.yaml
+  href: https://artifacts.apis.io/zai/overlays/zai-assembly-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zai-assembly-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/overlays/zai-virtual-accounts-payid-overlay.yaml
+  href: https://artifacts.apis.io/zai/overlays/zai-virtual-accounts-payid-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zai-virtual-accounts-payid-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/overlays/zai-payto-overlay.yaml
+  href: https://artifacts.apis.io/zai/overlays/zai-payto-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zai-payto-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/overlays/zai-async-api-overlay.yaml
+  href: https://artifacts.apis.io/zai/overlays/zai-async-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zai-async-api-overlay.yaml
@@ -255,22 +257,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/zai/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/agentic-access/zai-agentic-access.yml
+  href: https://artifacts.apis.io/zai/agentic-access/zai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/security/zai-domain-security.yml
+  href: https://artifacts.apis.io/zai/security/zai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/scopes/zai-scopes.yml
+  href: https://artifacts.apis.io/zai/scopes/zai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zai-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/authentication/zai-authentication.yml
+  href: https://artifacts.apis.io/zai/authentication/zai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zai-authentication.yml
@@ -339,72 +341,72 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/hellozai/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/packages/zai-packages.yml
+  href: https://artifacts.apis.io/zai/packages/zai-packages.yml
   title: ''
   type: Packages
   url: packages/zai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/packages/zai-packages.yml
+  href: https://artifacts.apis.io/zai/packages/zai-packages.yml
   title: ''
   type: SDKs
   url: packages/zai-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/well-known/zai-well-known.yml
+  href: https://artifacts.apis.io/zai/well-known/zai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/mcp/zai-mcp.yml
+  href: https://artifacts.apis.io/zai/mcp/zai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zai-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/mcp/zai-tool-crosswalk.yml
+  href: https://artifacts.apis.io/zai/mcp/zai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/zai-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/llms/zai-llms.txt
+  href: https://artifacts.apis.io/zai/llms/zai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zai-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/conformance/zai-conformance.yml
+  href: https://artifacts.apis.io/zai/conformance/zai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/errors/zai-error-codes.yml
+  href: https://artifacts.apis.io/zai/errors/zai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/zai-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/lifecycle/zai-lifecycle.yml
+  href: https://artifacts.apis.io/zai/lifecycle/zai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/conventions/zai-conventions.yml
+  href: https://artifacts.apis.io/zai/conventions/zai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/asyncapi/zai-webhooks.yml
+  href: https://artifacts.apis.io/zai/asyncapi/zai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zai-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/sandbox/zai-sandbox.yml
+  href: https://artifacts.apis.io/zai/sandbox/zai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zai-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/data-model/zai-data-model.yml
+  href: https://artifacts.apis.io/zai/data-model/zai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zai-data-model.yml
@@ -415,6 +417,14 @@ common:
 created: '2026-07-24'
 description: 'Zai (hellozai.com, formerly Assembly Payments / Assembly) is an Australian payments and Payments-as-a-Service provider headquartered in Melbourne. Zai gives platforms, marketplaces and vertical software companies a programmable way to onboard users, hold funds in managed wallet accounts, collect pay-ins (card, direct debit, BPAY, PayID), and disburse pay-outs across many parties in a single transaction flow. It is API-first: the Assembly API exposes wallet accounts, users, items, transactions, bank accounts, card accounts, fees, callbacks and batch disbursements, layered with Australia''s New Payments Platform rails through dedicated Virtual Accounts / PayID and PayTo APIs, plus an Asynchronous API for long-running operations. Authentication is OAuth2 client-credentials (bearer tokens on PayTo), with a Live and Pre-live (sandbox) environment, webhooks with signature verification, and a developer dashboard. Positioned as the embedded-payments and marketplace-money-movement layer
   for the Australian market and platforms operating there.'
+finops:
+- has_sources: true
+  method: derived
+  name: Zai Finops
+  primary_unit: card transaction
+  service_category: ''
+  slug: zai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-10-06'
@@ -435,7 +445,7 @@ plans:
 - name: Zai Price Estimates
   plan_count: 0
   slug: zai-price-estimates
-random_paper: 16
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Zai Rate Limits
@@ -447,22 +457,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.4
+  composite: 64.7
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 52.0
+    artifact_dirs: 29
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 71.1
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 59.2
-    developer_ergonomics: 55.4
-    discoverability: 78.6
-    operational_transparency: 22.4
+    contract_quality: 57.0
+    developer_ergonomics: 74.4
+    discoverability: 71.4
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -470,7 +480,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 56.4
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -487,13 +497,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/screenshots/zai-2026-08-17T083031.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zai/zai-2026-08-17T083031.png
 security:
 - kind: authentication
   name: Zai Authentication
@@ -503,6 +514,14 @@ security:
   name: Zai Domain Security
   slug: zai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Create a PayTo agreement and collect a payment
+  slug: zai-create-payto-agreement-and-collect
+- name: Issue a Virtual Account and register a PayID
+  slug: zai-issue-virtual-account-and-payid
+- name: Onboard a user and collect a marketplace payment
+  slug: zai-onboard-user-and-collect-payment
 slug: zai
 tags:
 - Payments
@@ -516,7 +535,7 @@ tags:
 - Open Banking
 - PayTo
 - PayID
-- NPP
+- New Payments Platform
 - Direct Debit
 - Digital Wallet
 - Payouts

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.4
-  scored_at: '2026-10-17'
+  score: 36.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -73,7 +75,7 @@ apis:
   description: Use this API to implement and customize role functionality. Roles represent the broadest level of access and group one or more access profiles. When you create a role and configure it with role criter
   name: SailPoint Roles API
   slug: sailpoint-roles-api
-artifact_total: 76
+artifact_total: 75
 collections:
 - collection_type: postman
   name: Identity Security Cloud V3 Access Profiles API
@@ -87,9 +89,6 @@ collections:
 - collection_type: postman
   name: Identity Security Cloud V3 Access Profiles Roles API
   slug: postman-sailpoint-roles-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Identity Security Cloud V3 API
   slug: open-identity-security-cloud-v3
@@ -107,22 +106,22 @@ collections:
   slug: open-sailpoint-roles-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/plans/sailpoint-plans-pricing.yml
+  href: https://artifacts.apis.io/sailpoint/plans/sailpoint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sailpoint-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/rate-limits/sailpoint-rate-limits.yml
+  href: https://artifacts.apis.io/sailpoint/rate-limits/sailpoint-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sailpoint-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/finops/sailpoint-finops.yml
+  href: https://artifacts.apis.io/sailpoint/finops/sailpoint-finops.yml
   title: ''
   type: FinOps
   url: finops/sailpoint-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/capabilities/sailpoint-capability-edges.yml
+  href: https://artifacts.apis.io/sailpoint/capabilities/sailpoint-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sailpoint-capability-edges.yml
@@ -135,22 +134,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/sailpoint/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/agentic-access/sailpoint-agentic-access.yml
+  href: https://artifacts.apis.io/sailpoint/agentic-access/sailpoint-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sailpoint-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/security/sailpoint-domain-security.yml
+  href: https://artifacts.apis.io/sailpoint/security/sailpoint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sailpoint-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/authentication/sailpoint-authentication.yml
+  href: https://artifacts.apis.io/sailpoint/authentication/sailpoint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sailpoint-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/scopes/sailpoint-scopes.yml
+  href: https://artifacts.apis.io/sailpoint/scopes/sailpoint-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sailpoint-scopes.yml
@@ -504,7 +503,7 @@ plans:
 - name: Sailpoint Plans Pricing
   plan_count: 1
   slug: sailpoint-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Sailpoint Rate Limits
@@ -540,7 +539,7 @@ scopes:
   summary_line: 11 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 54.6
+  composite: 54.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 58.4
@@ -548,15 +547,20 @@ score:
     catalog_gap: 56.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 27.3
-    contract_quality: 67.8
+    contract_quality: 64.4
     developer_ergonomics: 78.6
     discoverability: 57.1
     operational_transparency: 42.1
-  previous_composite: 56.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     contracts:
@@ -570,13 +574,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/screenshots/sailpoint-2026-06-20T193336.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sailpoint/sailpoint-2026-06-20T193336.png
 security:
 - kind: authentication
   name: Sailpoint Authentication

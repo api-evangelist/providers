@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.1
-  scored_at: '2026-10-17'
+  score: 36.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -108,44 +110,44 @@ apis:
   description: The Brandfolder Webhooks service allows you to subscribe to event-based notifications (callbacks) when a qualifying event is triggered within Brandfolder. Asset data will then be sent to the user-prov
   name: Brandfolder Webhooks API
   slug: brandfolder-webhooks-api
-artifact_total: 24
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Brandfolder Webhooks
   slug: brandfolder-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/capabilities/brandfolder-capability-edges.yml
+  href: https://artifacts.apis.io/brandfolder/capabilities/brandfolder-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/brandfolder-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/overlays/brandfolder-openapi-original-overlay.yaml
+  href: https://artifacts.apis.io/brandfolder/overlays/brandfolder-openapi-original-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brandfolder-openapi-original-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/mcp/brandfolder-mcp.yml
+  href: https://artifacts.apis.io/brandfolder/mcp/brandfolder-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/brandfolder-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/agentic-access/brandfolder-agentic-access.yml
+  href: https://artifacts.apis.io/brandfolder/agentic-access/brandfolder-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/brandfolder-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/authentication/brandfolder-authentication.yml
+  href: https://artifacts.apis.io/brandfolder/authentication/brandfolder-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brandfolder-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/security/brandfolder-trust-center.yml
+  href: https://artifacts.apis.io/brandfolder/security/brandfolder-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/brandfolder-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/security/brandfolder-domain-security.yml
+  href: https://artifacts.apis.io/brandfolder/security/brandfolder-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brandfolder-domain-security.yml
@@ -214,7 +216,7 @@ common:
   type: Security
   url: https://www.smartsheet.com/legal/bugbounty
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/security/brandfolder-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/brandfolder/security/brandfolder-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/brandfolder-vulnerability-disclosure.yml
@@ -223,70 +225,70 @@ common:
   type: Compliance
   url: https://www.smartsheet.com/legal/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/conformance/brandfolder-conformance.yml
+  href: https://artifacts.apis.io/brandfolder/conformance/brandfolder-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brandfolder-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/packages/brandfolder-packages.yml
+  href: https://artifacts.apis.io/brandfolder/packages/brandfolder-packages.yml
   title: ''
   type: Packages
   url: packages/brandfolder-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/packages/brandfolder-packages.yml
+  href: https://artifacts.apis.io/brandfolder/packages/brandfolder-packages.yml
   title: ''
   type: SDKs
   url: packages/brandfolder-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/components/brandfolder-components.yml
+  href: https://artifacts.apis.io/brandfolder/components/brandfolder-components.yml
   title: ''
   type: Components
   url: components/brandfolder-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/conventions/brandfolder-conventions.yml
+  href: https://artifacts.apis.io/brandfolder/conventions/brandfolder-conventions.yml
   title: ''
   type: Conventions
   url: conventions/brandfolder-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/lifecycle/brandfolder-lifecycle.yml
+  href: https://artifacts.apis.io/brandfolder/lifecycle/brandfolder-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brandfolder-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/changelog/brandfolder-changelog.yml
+  href: https://artifacts.apis.io/brandfolder/changelog/brandfolder-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/brandfolder-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/llms/brandfolder-llms.txt
+  href: https://artifacts.apis.io/brandfolder/llms/brandfolder-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brandfolder-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/brandfolder/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/plans/brandfolder-plans-pricing.yml
+  href: https://artifacts.apis.io/brandfolder/plans/brandfolder-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/brandfolder-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/rate-limits/brandfolder-rate-limits.yml
+  href: https://artifacts.apis.io/brandfolder/rate-limits/brandfolder-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/brandfolder-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/finops/brandfolder-finops.yml
+  href: https://artifacts.apis.io/brandfolder/finops/brandfolder-finops.yml
   title: ''
   type: FinOps
   url: finops/brandfolder-finops.yml
 created: 2026-06-13
 description: Brandfolder is a digital asset management (DAM) platform and Smartsheet company that provides a RESTful API for managing brand assets, collections, sections, tags, share links, webhooks, and asset distribution permissions. The API enables organizations to push Brandfolder content to other applications, pull data from external sources, and synchronize Brandfolder with other platforms.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Brandfolder Finops
   primary_unit: ''
   service_category: ''
@@ -318,14 +320,14 @@ plans:
 - name: Brandfolder Plans Pricing
   plan_count: 2
   slug: brandfolder-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Brandfolder Rate Limits
   slug: brandfolder-rate-limits
 score:
   band: strong
-  composite: 55.9
+  composite: 62.1
   coverage:
     artifact_dirs: 27
     catalog_earned: 53.0
@@ -333,15 +335,20 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 75.0
+    access_clarity: 81.6
     contract_governance: 4.5
     contract_quality: 61.2
-    developer_ergonomics: 47.0
-    discoverability: 75.0
-    operational_transparency: 44.7
-  previous_composite: 57.4
+    developer_ergonomics: 66.1
+    discoverability: 65.0
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -358,13 +365,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/screenshots/brandfolder-2026-06-20T173633.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/brandfolder/brandfolder-2026-06-20T173633.png
 security:
 - kind: authentication
   name: Brandfolder Authentication
@@ -382,6 +390,18 @@ security:
   name: Brandfolder Trust Center
   slug: brandfolder-trust-center
   summary_line: SOC 2, HIPAA
+skill_count: 5
+skills:
+- name: Find assets in Brandfolder
+  slug: brandfolder-find-assets
+- name: Grant and audit Brandfolder access
+  slug: brandfolder-manage-access
+- name: Subscribe to Brandfolder asset events
+  slug: brandfolder-subscribe-to-asset-events
+- name: Tag and classify Brandfolder assets
+  slug: brandfolder-tag-and-classify
+- name: Upload a file into Brandfolder
+  slug: brandfolder-upload-asset
 slug: brandfolder
 tags:
 - Digital Asset Management

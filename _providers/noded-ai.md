@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,16 +39,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Noded (Apollo) GraphQL API behind the Customer Context Graph. One POST endpoint serving people and accounts (both modelled as tags), the unified activity timeline (blocks: notes, emails, tasks, me'
   name: Noded GraphQL API
   slug: noded-graphql-api
-artifact_total: 8
+artifact_total: 10
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/security/noded-ai-trust-center.yml
+  href: https://artifacts.apis.io/noded-ai/security/noded-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/noded-ai-trust-center.yml
@@ -55,7 +57,7 @@ common:
   type: Compliance
   url: https://www.getnoded.ai/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/security/noded-ai-domain-security.yml
+  href: https://artifacts.apis.io/noded-ai/security/noded-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/noded-ai-domain-security.yml
@@ -124,83 +126,91 @@ common:
   type: StatusPage
   url: https://status.getnoded.ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/llms/noded-ai-llms.txt
+  href: https://artifacts.apis.io/noded-ai/llms/noded-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/noded-ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/noded-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/packages/noded-ai-packages.yml
+  href: https://artifacts.apis.io/noded-ai/packages/noded-ai-packages.yml
   title: ''
   type: Packages
   url: packages/noded-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/packages/noded-ai-packages.yml
+  href: https://artifacts.apis.io/noded-ai/packages/noded-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/noded-ai-packages.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/graphql/noded-ai-graphql-operations.yml
+  href: https://artifacts.apis.io/noded-ai/graphql/noded-ai-graphql-operations.yml
   title: ''
   type: GraphQL
   url: graphql/noded-ai-graphql-operations.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/authentication/noded-ai-authentication.yml
+  href: https://artifacts.apis.io/noded-ai/authentication/noded-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/noded-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/scopes/noded-ai-scopes.yml
+  href: https://artifacts.apis.io/noded-ai/scopes/noded-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/noded-ai-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/mcp/noded-ai-mcp.yml
+  href: https://artifacts.apis.io/noded-ai/mcp/noded-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/noded-ai-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/conventions/noded-ai-conventions.yml
+  href: https://artifacts.apis.io/noded-ai/conventions/noded-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/noded-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/errors/noded-ai-problem-types.yml
+  href: https://artifacts.apis.io/noded-ai/errors/noded-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/noded-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/data-model/noded-ai-data-model.yml
+  href: https://artifacts.apis.io/noded-ai/data-model/noded-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/noded-ai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/lifecycle/noded-ai-lifecycle.yml
+  href: https://artifacts.apis.io/noded-ai/lifecycle/noded-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/noded-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/conformance/noded-ai-conformance.yml
+  href: https://artifacts.apis.io/noded-ai/conformance/noded-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/noded-ai-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/plans/noded-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/noded-ai/plans/noded-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/noded-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/rate-limits/noded-ai-rate-limits.yml
+  href: https://artifacts.apis.io/noded-ai/rate-limits/noded-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/noded-ai-rate-limits.yml
 created: '2026-07-17'
 description: 'Noded AI is a customer context graph for customer success, retention, and growth teams. It consumes customer data scattered across 20+ tools — call recordings (Gong, Zoom, Meet, Fathom, Fireflies, Granola), email, notes, support tickets (Zendesk), CRM (Salesforce, HubSpot), and product/engineering signals (Linear, Jira) — and weaves every account into one living story, then surfaces a no-nonsense assessment of renewal or churn in minutes rather than months. Noded turns mentions of new teams, integrations, or initiatives across the customer ecosystem into qualified plays, and acts wherever teams already work: answering @noded questions in Slack, drafting QBR decks from the live account story, updating Salesforce fields, and filing Linear tickets. Since mid-2026 Noded also ships a developer surface: a first-party browser SDK (@bigfootai/noded-sdk on npm) over an Apollo GraphQL API at api.getnoded.ai/api/v1/graph, OIDC auth against a Noded-hosted Auth0 tenant, a provider-published
   AGENTS.md for coding agents, an llms.txt, and a single hosted MCP layer that exposes the whole customer stack to Claude, ChatGPT, and Gemini with per-agent tool scoping and one identity per agent workload. Developer credentials (issuer, client ID, API audience) and the MCP endpoint are provisioned by the Noded team on request rather than self-serve, and no OpenAPI, GraphQL SDL, or public API reference is published.'
+finops:
+- has_sources: true
+  method: derived
+  name: Noded Ai Finops
+  primary_unit: platform license
+  service_category: ''
+  slug: noded-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noded-ai.png
 layout: provider
 mcp_servers:
@@ -217,9 +227,12 @@ overview: 'Noded AI is listed with 1 API on the [APIs.io](https://apis.io/) netw
   Noded AI''s developer surface includes engineering blog, pricing, signup flow, documentation, API reference, getting-started guide, support, and 27 more developer resources.'
 plans:
 - name: Noded Ai Plans Pricing
-  plan_count: 4
+  plan_count: 5
   slug: noded-ai-plans-pricing
-random_paper: 21
+- name: Noded Ai Price Estimates
+  plan_count: 0
+  slug: noded-ai-price-estimates
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Noded Ai Rate Limits
@@ -231,23 +244,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 43.4
+  composite: 47.3
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 49.0
+    artifact_dirs: 21
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 1.6
   facets:
-    access_clarity: 78.9
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 71.7
-    operational_transparency: 18.4
-  previous_composite: 43.7
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 45.7
   provenance:
     conformance: derived
     mcp: first-party
@@ -258,14 +271,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/screenshots/noded-ai-2026-08-07T185418.png
+screenshot: https://apis.io/screenshots/noded-ai/noded-ai-2026-08-07T185418.png
 security:
 - kind: authentication
   name: Noded Ai Authentication

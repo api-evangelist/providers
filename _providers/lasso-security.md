@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-17'
+  score: 26.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,11 +52,8 @@ apis:
   description: The Classify API from Lasso Security — 2 operation(s) for classify.
   name: Lasso Security Classify API
   slug: lasso-security-classify-api
-artifact_total: 12
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Lasso Security / Threat Detection Classify API
   slug: open-lasso-security-classify-api
@@ -66,22 +65,22 @@ collections:
   slug: open-lasso-security
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/capabilities/lasso-security-capability-edges.yml
+  href: https://artifacts.apis.io/lasso-security/capabilities/lasso-security-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lasso-security-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/agentic-access/lasso-security-agentic-access.yml
+  href: https://artifacts.apis.io/lasso-security/agentic-access/lasso-security-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lasso-security-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/security/lasso-security-domain-security.yml
+  href: https://artifacts.apis.io/lasso-security/security/lasso-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lasso-security-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/authentication/lasso-security-authentication.yml
+  href: https://artifacts.apis.io/lasso-security/authentication/lasso-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lasso-security-authentication.yml
@@ -102,17 +101,17 @@ common:
   type: Documentation
   url: https://www.lasso.security/platform/lasso-for-applications
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/plans/lasso-security-plans-pricing.yml
+  href: https://artifacts.apis.io/lasso-security/plans/lasso-security-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lasso-security-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/rate-limits/lasso-security-rate-limits.yml
+  href: https://artifacts.apis.io/lasso-security/rate-limits/lasso-security-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lasso-security-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/finops/lasso-security-finops.yml
+  href: https://artifacts.apis.io/lasso-security/finops/lasso-security-finops.yml
   title: ''
   type: FinOps
   url: finops/lasso-security-finops.yml
@@ -148,14 +147,14 @@ plans:
 - name: Lasso Security Plans Pricing
   plan_count: 3
   slug: lasso-security-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Lasso Security Rate Limits
   slug: lasso-security-rate-limits
 score:
   band: thin
-  composite: 27.3
+  composite: 28.7
   coverage:
     artifact_dirs: 14
     catalog_earned: 43.0
@@ -163,15 +162,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: -0.6
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 49.6
-    developer_ergonomics: 32.1
-    discoverability: 68.3
-    operational_transparency: 10.5
-  previous_composite: 35.5
+    developer_ergonomics: 35.2
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 29.3
   provenance:
     agentic_access: derived
     contracts:
@@ -186,13 +185,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/screenshots/lasso-security-2026-06-20T184320.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lasso-security/lasso-security-2026-06-20T184320.png
 security:
 - kind: authentication
   name: Lasso Security Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/long-term-stock-exchange/refs/heads/main/security/long-term-stock-exchange-domain-security.yml
+  href: https://artifacts.apis.io/long-term-stock-exchange/security/long-term-stock-exchange-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/long-term-stock-exchange-domain-security.yml
@@ -86,7 +88,7 @@ score:
   band: emerging
   composite: 13.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -114,14 +116,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/long-term-stock-exchange/refs/heads/main/screenshots/long-term-stock-exchange-2026-07-25T225513.png
+screenshot: https://apis.io/screenshots/long-term-stock-exchange/long-term-stock-exchange-2026-07-25T225513.png
 security:
 - kind: domain-security
   name: Long Term Stock Exchange Domain Security

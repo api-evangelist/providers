@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 45.4
-  scored_at: '2026-10-17'
+  score: 44.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 36
   slug: offendersearch-api-agentic-access
   summary_line: 36 operations · 18 acting · 1 human-in-the-loop
-api_count: 4
+api_count: 1
 apis:
 - baseURL: https://api.offendersearch.app
   baseurl_source: declared
@@ -126,7 +128,7 @@ apis:
   description: The Usage API from Offendersearch API — 1 operation(s) for usage.
   name: Offendersearch API Usage API
   slug: offendersearch-api-usage-api
-artifact_total: 23
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Offendersearch Api Webhooks
@@ -141,92 +143,92 @@ common:
   type: Website
   url: https://www.offendersearch.app/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/overlays/offendersearch-api-openapi-overlay.yaml
+  href: https://artifacts.apis.io/offendersearch-api/overlays/offendersearch-api-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/offendersearch-api-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/agentic-access/offendersearch-api-agentic-access.yml
+  href: https://artifacts.apis.io/offendersearch-api/agentic-access/offendersearch-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/offendersearch-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/security/offendersearch-api-trust-center.yml
+  href: https://artifacts.apis.io/offendersearch-api/security/offendersearch-api-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/offendersearch-api-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/security/offendersearch-api-domain-security.yml
+  href: https://artifacts.apis.io/offendersearch-api/security/offendersearch-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/offendersearch-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/authentication/offendersearch-api-authentication.yml
+  href: https://artifacts.apis.io/offendersearch-api/authentication/offendersearch-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/offendersearch-api-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/well-known/offendersearch-api-well-known.yml
+  href: https://artifacts.apis.io/offendersearch-api/well-known/offendersearch-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/offendersearch-api-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/well-known/offendersearch-api-api-catalog.json
+  href: https://artifacts.apis.io/offendersearch-api/well-known/offendersearch-api-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/offendersearch-api-api-catalog.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/llms/offendersearch-api-llms.txt
+  href: https://artifacts.apis.io/offendersearch-api/llms/offendersearch-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/offendersearch-api-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/conventions/offendersearch-api-conventions.yml
+  href: https://artifacts.apis.io/offendersearch-api/conventions/offendersearch-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/offendersearch-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/conventions/offendersearch-api-conventions.yml
+  href: https://artifacts.apis.io/offendersearch-api/conventions/offendersearch-api-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/offendersearch-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/errors/offendersearch-api-problem-types.yml
+  href: https://artifacts.apis.io/offendersearch-api/errors/offendersearch-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/offendersearch-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/lifecycle/offendersearch-api-lifecycle.yml
+  href: https://artifacts.apis.io/offendersearch-api/lifecycle/offendersearch-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/offendersearch-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/conformance/offendersearch-api-conformance.yml
+  href: https://artifacts.apis.io/offendersearch-api/conformance/offendersearch-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/offendersearch-api-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/data-model/offendersearch-api-data-model.yml
+  href: https://artifacts.apis.io/offendersearch-api/data-model/offendersearch-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/offendersearch-api-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/packages/offendersearch-api-packages.yml
+  href: https://artifacts.apis.io/offendersearch-api/packages/offendersearch-api-packages.yml
   title: ''
   type: Packages
   url: packages/offendersearch-api-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/plans/offendersearch-api-plans-pricing.yml
+  href: https://artifacts.apis.io/offendersearch-api/plans/offendersearch-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/offendersearch-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/rate-limits/offendersearch-api-rate-limits.yml
+  href: https://artifacts.apis.io/offendersearch-api/rate-limits/offendersearch-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/offendersearch-api-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/offendersearch-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -257,6 +259,14 @@ common:
 created: '2026-08-18'
 description: 'Offendersearch, Inc. operates a REST API that unifies US sex-offender registry data — all 50 states, the District of Columbia, the US territories and NSOPW, 58 registries in all — behind a single authenticated endpoint. One call searches every jurisdiction and returns scored, de-duplicated records in one normalized 76-field schema, each carrying per-source provenance, a deep link back to the originating registry, and its own lastCheckedAt timestamp. Its defining contract is completeness labelling: an incomplete search is reported as partial with per-source status and a closed incompleteReason enum rather than returned as a silently empty result, so a zero from a registry that did not finish reads as UNKNOWN rather than NO MATCH. The API offers synchronous, asynchronous (with signed webhooks and Idempotency-Key retries) and 1,000-row batch/CSV modes, per-request freshness tiers, consolidated timestamped verification-report PDFs with a citation on every record, and a drop-in
   offenders.io compatibility endpoint. It publishes an OpenAPI 3.1 contract in JSON and YAML, an RFC 9727 api-catalog, an llms.txt, a markdown twin of every documentation page, and a documented (private-beta) MCP server. Pricing is purely metered at $0.15 per call, $0.11 above 2,000 a month. Offendersearch is expressly not a consumer reporting agency and its results are not a consumer report.'
+finops:
+- has_sources: true
+  method: derived
+  name: Offendersearch Api Finops
+  primary_unit: search
+  service_category: ''
+  slug: offendersearch-api-finops
+  template: false
 image: https://offendersearch.app/opengraph-image.png
 layout: provider
 modified: '2026-10-06'
@@ -272,32 +282,32 @@ overview: 'Offendersearch API publishes 16 API contracts indexed on the [APIs.io
   Offendersearch API''s developer surface includes engineering blog, authentication, pricing, signup flow, support, and 21 more developer resources.'
 plans:
 - name: Offendersearch Api Plans Pricing
-  plan_count: 2
+  plan_count: 12
   slug: offendersearch-api-plans-pricing
-random_paper: 4
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Offendersearch Api Rate Limits
   slug: offendersearch-api-rate-limits
 score:
   band: developing
-  composite: 50.6
+  composite: 53.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 48.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 3.1
   facets:
-    access_clarity: 73.7
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 53.9
     developer_ergonomics: 58.9
-    discoverability: 80.0
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 49.5
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,13 +324,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/screenshots/offendersearch-api-2026-09-02T150826.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/offendersearch-api/offendersearch-api-2026-09-02T150826.png
 security:
 - kind: authentication
   name: Offendersearch Api Authentication
@@ -334,6 +345,16 @@ security:
   name: Offendersearch Api Trust Center
   slug: offendersearch-api-trust-center
   summary_line: trust center published
+skill_count: 4
+skills:
+- name: offendersearch-bulk-screening
+  slug: offendersearch-api-bulk-screening
+- name: offendersearch-coverage-check
+  slug: offendersearch-api-coverage-check
+- name: offendersearch-nationwide-search
+  slug: offendersearch-api-nationwide-search
+- name: offendersearch-verification-report
+  slug: offendersearch-api-verification-report
 slug: offendersearch-api
 tags:
 - Background Checks

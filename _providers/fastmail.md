@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Fastmail email service API documented at the developer portal.
@@ -32,57 +34,57 @@ apis:
 artifact_total: 5
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fastmail/refs/heads/main/rate-limits/fastmail-rate-limits.yml
+  href: https://artifacts.apis.io/fastmail/rate-limits/fastmail-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fastmail-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fastmail/refs/heads/main/plans/fastmail-plans-pricing.yml
+  href: https://artifacts.apis.io/fastmail/plans/fastmail-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fastmail-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fastmail/refs/heads/main/conformance/fastmail-conformance.yml
+  href: https://artifacts.apis.io/fastmail/conformance/fastmail-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fastmail-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fastmail/refs/heads/main/well-known/fastmail-security.txt
+  href: https://artifacts.apis.io/fastmail/well-known/fastmail-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/fastmail-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fastmail/refs/heads/main/well-known/fastmail-app-security.txt
+  href: https://artifacts.apis.io/fastmail/well-known/fastmail-app-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/fastmail-app-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fastmail/refs/heads/main/well-known/fastmail-api-security.txt
+  href: https://artifacts.apis.io/fastmail/well-known/fastmail-api-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/fastmail-api-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fastmail/refs/heads/main/well-known/fastmail-well-known.yml
+  href: https://artifacts.apis.io/fastmail/well-known/fastmail-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fastmail-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fastmail/refs/heads/main/hosts/fastmail-hosts.yml
+  href: https://artifacts.apis.io/fastmail/hosts/fastmail-hosts.yml
   title: ''
   type: Hosts
   url: hosts/fastmail-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fastmail/refs/heads/main/vendors/fastmail-vendors.yml
+  href: https://artifacts.apis.io/fastmail/vendors/fastmail-vendors.yml
   title: ''
   type: Vendors
   url: vendors/fastmail-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fastmail/refs/heads/main/packages/fastmail-packages.yml
+  href: https://artifacts.apis.io/fastmail/packages/fastmail-packages.yml
   title: ''
   type: SDKs
   url: packages/fastmail-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fastmail/refs/heads/main/packages/fastmail-packages.yml
+  href: https://artifacts.apis.io/fastmail/packages/fastmail-packages.yml
   title: ''
   type: Packages
   url: packages/fastmail-packages.yml
@@ -99,12 +101,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/fastmail
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fastmail/refs/heads/main/security/fastmail-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fastmail/security/fastmail-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fastmail-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fastmail/refs/heads/main/security/fastmail-domain-security.yml
+  href: https://artifacts.apis.io/fastmail/security/fastmail-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fastmail-domain-security.yml
@@ -168,7 +170,7 @@ plans:
 - name: Fastmail Plans Pricing
   plan_count: 3
   slug: fastmail-plans-pricing
-random_paper: 13
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Fastmail Rate Limits
@@ -183,6 +185,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 18.2
@@ -190,6 +193,7 @@ score:
     developer_ergonomics: 52.4
     discoverability: 57.1
     operational_transparency: 36.8
+  previous_composite: 38.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -203,8 +207,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

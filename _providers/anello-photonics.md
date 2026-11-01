@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The ANELLO device interface: an ASCII sentence protocol (#APIMU, #APIM1, #APGPS, #APHDG, #APINS, #APAHRS output; #APCFG, #APVEH, #APODO, #APPNG, #APECH, #APRST input) plus an RTCM 10403 binary framing'
@@ -46,7 +48,7 @@ common:
   type: BlogRSS
   url: https://www.anellophotonics.com/blog?format=rss
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anello-photonics/refs/heads/main/security/anello-photonics-domain-security.yml
+  href: https://artifacts.apis.io/anello-photonics/security/anello-photonics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anello-photonics-domain-security.yml
@@ -91,57 +93,57 @@ common:
   type: Downloads
   url: https://www.anellophotonics.com/downloads
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anello-photonics/refs/heads/main/llms/anello-photonics-llms.txt
+  href: https://artifacts.apis.io/anello-photonics/llms/anello-photonics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anello-photonics-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/anello-photonics/refs/heads/main/packages/anello-photonics-packages.yml
+  href: https://artifacts.apis.io/anello-photonics/packages/anello-photonics-packages.yml
   title: ''
   type: Packages
   url: packages/anello-photonics-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/anello-photonics/refs/heads/main/packages/anello-photonics-packages.yml
+  href: https://artifacts.apis.io/anello-photonics/packages/anello-photonics-packages.yml
   title: ''
   type: SDKs
   url: packages/anello-photonics-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/anello-photonics/refs/heads/main/cli/anello-photonics-cli.yml
+  href: https://artifacts.apis.io/anello-photonics/cli/anello-photonics-cli.yml
   title: ''
   type: CLI
   url: cli/anello-photonics-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anello-photonics/refs/heads/main/conventions/anello-photonics-conventions.yml
+  href: https://artifacts.apis.io/anello-photonics/conventions/anello-photonics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/anello-photonics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anello-photonics/refs/heads/main/errors/anello-photonics-error-codes.yml
+  href: https://artifacts.apis.io/anello-photonics/errors/anello-photonics-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/anello-photonics-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anello-photonics/refs/heads/main/data-model/anello-photonics-data-model.yml
+  href: https://artifacts.apis.io/anello-photonics/data-model/anello-photonics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/anello-photonics-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anello-photonics/refs/heads/main/conformance/anello-photonics-conformance.yml
+  href: https://artifacts.apis.io/anello-photonics/conformance/anello-photonics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/anello-photonics-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anello-photonics/refs/heads/main/lifecycle/anello-photonics-lifecycle.yml
+  href: https://artifacts.apis.io/anello-photonics/lifecycle/anello-photonics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/anello-photonics-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/anello-photonics/refs/heads/main/changelog/anello-photonics-changelog.yml
+  href: https://artifacts.apis.io/anello-photonics/changelog/anello-photonics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/anello-photonics-changelog.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/anello-photonics/refs/heads/main/ros/anello-photonics-ros-interfaces.yml
+  href: https://artifacts.apis.io/anello-photonics/ros/anello-photonics-ros-interfaces.yml
   title: ''
   type: ROSInterface
   url: ros/anello-photonics-ros-interfaces.yml
@@ -157,12 +159,12 @@ overview: 'ANELLO Photonics is listed with 1 API on the [APIs.io](https://apis.i
 
 
   ANELLO Photonics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, changelog, and 16 more developer resources.'
-random_paper: 13
+random_paper: 7
 score:
   band: emerging
-  composite: 24.9
+  composite: 24.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -174,9 +176,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 64.3
-    operational_transparency: 18.4
-  previous_composite: 24.9
+    discoverability: 57.1
+    operational_transparency: 21.1
+  previous_composite: 24.6
   provenance:
     conformance: first-party
   regulatory:
@@ -185,14 +187,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/anello-photonics/refs/heads/main/screenshots/anello-photonics-2026-08-07T161404.png
+screenshot: https://apis.io/screenshots/anello-photonics/anello-photonics-2026-08-07T161404.png
 security:
 - kind: domain-security
   name: Anello Photonics Domain Security

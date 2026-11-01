@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,20 +37,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The SharpSpring (Constant Contact Lead Gen & CRM) Open API — a single HTTPS POST endpoint that accepts a JSON envelope of method, params and id, very similar to JSON-RPC. Version v1 resolves timestamp
   name: SharpSpring Open API
   slug: open-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Sharpspring Postbacks Webhooks
   slug: sharpspring-postbacks-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/security/sharpspring-domain-security.yml
+  href: https://artifacts.apis.io/sharpspring/security/sharpspring-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sharpspring-domain-security.yml
@@ -117,77 +119,85 @@ common:
   type: Security
   url: https://www.constantcontact.com/disclosure
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/well-known/sharpspring-well-known.yml
+  href: https://artifacts.apis.io/sharpspring/well-known/sharpspring-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sharpspring-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/well-known/sharpspring-security.txt
+  href: https://artifacts.apis.io/sharpspring/well-known/sharpspring-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sharpspring-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/llms/sharpspring-llms.txt
+  href: https://artifacts.apis.io/sharpspring/llms/sharpspring-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sharpspring-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/authentication/sharpspring-authentication.yml
+  href: https://artifacts.apis.io/sharpspring/authentication/sharpspring-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sharpspring-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/conventions/sharpspring-conventions.yml
+  href: https://artifacts.apis.io/sharpspring/conventions/sharpspring-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sharpspring-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/errors/sharpspring-problem-types.yml
+  href: https://artifacts.apis.io/sharpspring/errors/sharpspring-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sharpspring-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/rate-limits/sharpspring-rate-limits.yml
+  href: https://artifacts.apis.io/sharpspring/rate-limits/sharpspring-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sharpspring-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/plans/sharpspring-plans-pricing.yml
+  href: https://artifacts.apis.io/sharpspring/plans/sharpspring-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sharpspring-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/lifecycle/sharpspring-lifecycle.yml
+  href: https://artifacts.apis.io/sharpspring/lifecycle/sharpspring-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sharpspring-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/conformance/sharpspring-conformance.yml
+  href: https://artifacts.apis.io/sharpspring/conformance/sharpspring-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sharpspring-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/data-model/sharpspring-data-model.yml
+  href: https://artifacts.apis.io/sharpspring/data-model/sharpspring-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sharpspring-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/packages/sharpspring-packages.yml
+  href: https://artifacts.apis.io/sharpspring/packages/sharpspring-packages.yml
   title: ''
   type: Packages
   url: packages/sharpspring-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/asyncapi/sharpspring-postbacks-webhooks.yml
+  href: https://artifacts.apis.io/sharpspring/asyncapi/sharpspring-postbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sharpspring-postbacks-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/security/sharpspring-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sharpspring/security/sharpspring-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sharpspring-vulnerability-disclosure.yml
 created: '2026-08-12'
 description: SharpSpring — now sold as Constant Contact Lead Gen & CRM after Constant Contact acquired the company in 2021 — is a marketing automation and CRM platform for small businesses and digital marketing agencies, covering email marketing, landing pages, forms, visual automation workflows, social management, campaign tracking, lead scoring and a built-in sales CRM. Its developer surface is the SharpSpring Open API, a JSON-RPC-style HTTPS POST endpoint at api.sharpspring.com/pubapi/ that exposes roughly 120 published methods over leads, accounts, opportunities, campaigns, deal stages, emails, email jobs, lists and list members, fields, folders, notes, products and tasks. Authentication is a static account ID plus secret key generated in the application; there is no OAuth, no scopes and no OpenAPI description. Event delivery is handled by workflow and form Postback URLs rather than a webhook subscription API.
+finops:
+- has_sources: true
+  method: derived
+  name: Sharpspring Finops
+  primary_unit: ''
+  service_category: ''
+  slug: sharpspring-finops
+  template: true
 image: https://sharpspring.com/wp-content/uploads/2021/10/SharpSpring-From-CTCT-Logo-RGB-Color-1200.png
 layout: provider
 modified: '2026-08-12'
@@ -205,16 +215,16 @@ plans:
 - name: Sharpspring Plans Pricing
   plan_count: 0
   slug: sharpspring-plans-pricing
-random_paper: 13
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Sharpspring Rate Limits
   slug: sharpspring-rate-limits
 score:
   band: developing
-  composite: 48.4
+  composite: 48.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -227,8 +237,8 @@ score:
     contract_quality: 39.0
     developer_ergonomics: 57.1
     discoverability: 66.1
-    operational_transparency: 68.4
-  previous_composite: 48.4
+    operational_transparency: 71.1
+  previous_composite: 48.8
   provenance:
     conformance: derived
   regulatory:
@@ -237,14 +247,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sharpspring/refs/heads/main/screenshots/sharpspring-2026-08-17T081825.png
+screenshot: https://apis.io/screenshots/sharpspring/sharpspring-2026-08-17T081825.png
 security:
 - kind: authentication
   name: Sharpspring Authentication

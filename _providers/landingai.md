@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
-api_count: 6
+  score: 33.7
+  scored_at: '2026-10-31'
+api_count: 4
 apis:
 - baseURL: https://api.ade.landing.ai
   baseurl_source: declared
@@ -102,7 +104,7 @@ apis:
   description: The Training API from Landing.ai — 6 operation(s) for training.
   name: Landing.ai Training API
   slug: landingai-training-api
-artifact_total: 47
+artifact_total: 50
 collections:
 - collection_type: postman
   name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes API'
@@ -144,9 +146,6 @@ collections:
   name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Training API'
   slug: postman-landingai-training-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes API'
   slug: open-landingai-classes-api
 - collection_type: open
@@ -187,12 +186,12 @@ collections:
   slug: open-landingai-training-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/capabilities/landingai-capability-edges.yml
+  href: https://artifacts.apis.io/landingai/capabilities/landingai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/landingai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/overlays/landingai-ade-v1-overlay.yaml
+  href: https://artifacts.apis.io/landingai/overlays/landingai-ade-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/landingai-ade-v1-overlay.yaml
@@ -265,52 +264,52 @@ common:
   type: Security
   url: https://www.landing.ai/security-at-landingai
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/sandbox/landingai-sandbox.yml
+  href: https://artifacts.apis.io/landingai/sandbox/landingai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/landingai-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/packages/landingai-packages.yml
+  href: https://artifacts.apis.io/landingai/packages/landingai-packages.yml
   title: ''
   type: Packages
   url: packages/landingai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/packages/landingai-packages.yml
+  href: https://artifacts.apis.io/landingai/packages/landingai-packages.yml
   title: ''
   type: SDKs
   url: packages/landingai-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/mcp/landingai-mcp.yml
+  href: https://artifacts.apis.io/landingai/mcp/landingai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/landingai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/landingai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/llms/landingai-llms.txt
+  href: https://artifacts.apis.io/landingai/llms/landingai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/landingai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/authentication/landingai-authentication.yml
+  href: https://artifacts.apis.io/landingai/authentication/landingai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/landingai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/conventions/landingai-conventions.yml
+  href: https://artifacts.apis.io/landingai/conventions/landingai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/landingai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/errors/landingai-problem-types.yml
+  href: https://artifacts.apis.io/landingai/errors/landingai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/landingai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/lifecycle/landingai-lifecycle.yml
+  href: https://artifacts.apis.io/landingai/lifecycle/landingai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/landingai-lifecycle.yml
@@ -319,43 +318,51 @@ common:
   type: Deprecation
   url: https://docs.landing.ai/ade/ade-overview-legacy
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/changelog/landingai-changelog.yml
+  href: https://artifacts.apis.io/landingai/changelog/landingai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/landingai-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/conformance/landingai-conformance.yml
+  href: https://artifacts.apis.io/landingai/conformance/landingai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/landingai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/data-model/landingai-data-model.yml
+  href: https://artifacts.apis.io/landingai/data-model/landingai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/landingai-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/rate-limits/landingai-rate-limits.yml
+  href: https://artifacts.apis.io/landingai/rate-limits/landingai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/landingai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/plans/landingai-plans.yml
+  href: https://artifacts.apis.io/landingai/plans/landingai-plans.yml
   title: ''
   type: Plans
   url: plans/landingai-plans.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/well-known/landingai-well-known.yml
+  href: https://artifacts.apis.io/landingai/well-known/landingai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/landingai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/security/landingai-domain-security.yml
+  href: https://artifacts.apis.io/landingai/security/landingai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/landingai-domain-security.yml
 created: '2026-07-17'
 description: 'LandingAI, founded by Andrew Ng, builds production AI for visual and document understanding. Its flagship product is Agentic Document Extraction (ADE), which converts real-world documents — PDFs, images, Office files and spreadsheets — into structured, auditable data. ADE exposes a family of REST APIs: Parse (document to reading-order Markdown plus hierarchical blocks with per-block visual grounding), Extract (schema-driven field extraction with character-span grounding back into the source), Build Extract Schema, and the preview Classify, Section and Split APIs, each available synchronously or as asynchronous Jobs for large files. The current generation runs on the DPT-3 document pre-trained transformer. LandingAI also operates LandingLens, a computer-vision platform API for creating projects, uploading images, defining classes, training models and deploying them to LandingAI-hosted cloud endpoints, plus a Vision Tools API surfacing OWLv2, Florence-2, SAM2, CountGD, Depth
   Anything, PaddleOCR and other vision models as HTTP tools. The company ships official Python and TypeScript ADE libraries, a hosted remote MCP server, published Agent Skills, an llms.txt agent surface, US and EU data residency, and SOC 2 Type II, HIPAA and GDPR compliance with a zero data retention option.'
+finops:
+- has_sources: true
+  method: derived
+  name: Landingai Finops
+  primary_unit: credit
+  service_category: ''
+  slug: landingai-finops
+  template: false
 image: https://landing.ai/favicon.ico
 layout: provider
 mcp_servers:
@@ -374,30 +381,33 @@ plans:
 - name: Landingai Plans
   plan_count: 3
   slug: landingai-plans
-random_paper: 11
+- name: Landingai Price Estimates
+  plan_count: 0
+  slug: landingai-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Landingai Rate Limits
   slug: landingai-rate-limits
 score:
-  band: strong
-  composite: 62.0
+  band: exemplar
+  composite: 67.6
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 64.0
+    artifact_dirs: 26
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 78.9
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 43.9
     developer_ergonomics: 79.8
-    discoverability: 76.7
-    operational_transparency: 76.3
-  previous_composite: 61.9
+    discoverability: 70.0
+    operational_transparency: 86.8
+  previous_composite: 66.0
   provenance:
     conformance: derived
     contracts:
@@ -419,13 +429,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/screenshots/landingai-2026-07-25T224504.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/landingai/landingai-2026-07-25T224504.png
 security:
 - kind: authentication
   name: Landingai Authentication
@@ -443,6 +454,12 @@ security:
   name: Landingai Trust Center
   slug: landingai-trust-center
   summary_line: SOC 2 Type II, HIPAA, GDPR
+skill_count: 2
+skills:
+- name: document-extraction
+  slug: landingai-document-extraction
+- name: document-workflows
+  slug: landingai-document-workflows
 slug: landingai
 tags:
 - Company

@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 30.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -161,11 +163,8 @@ apis:
   description: The Watermark API from Picsart — 1 operation(s) for watermark.
   name: Picsart Watermark API
   slug: picsart-watermark-api
-artifact_total: 53
+artifact_total: 57
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Picsart GenAI Ads API
   slug: open-picsart-ads-api
@@ -237,17 +236,17 @@ collections:
   slug: open-picsart-watermark-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/plans/picsart-plans-pricing.yml
+  href: https://artifacts.apis.io/picsart/plans/picsart-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/picsart-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/capabilities/picsart-capability-edges.yml
+  href: https://artifacts.apis.io/picsart/capabilities/picsart-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/picsart-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/overlays/picsart-genai-overlay.yaml
+  href: https://artifacts.apis.io/picsart/overlays/picsart-genai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/picsart-genai-overlay.yaml
@@ -300,67 +299,67 @@ common:
   type: PrivacyPolicy
   url: https://picsart.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/authentication/picsart-authentication.yml
+  href: https://artifacts.apis.io/picsart/authentication/picsart-authentication.yml
   title: ''
   type: Authentication
   url: authentication/picsart-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/packages/picsart-packages.yml
+  href: https://artifacts.apis.io/picsart/packages/picsart-packages.yml
   title: ''
   type: Packages
   url: packages/picsart-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/packages/picsart-packages.yml
+  href: https://artifacts.apis.io/picsart/packages/picsart-packages.yml
   title: ''
   type: SDKs
   url: packages/picsart-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/cli/picsart-cli.yml
+  href: https://artifacts.apis.io/picsart/cli/picsart-cli.yml
   title: ''
   type: CLI
   url: cli/picsart-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/mcp/picsart-mcp.yml
+  href: https://artifacts.apis.io/picsart/mcp/picsart-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/picsart-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/picsart/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/llms/picsart-llms.txt
+  href: https://artifacts.apis.io/picsart/llms/picsart-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/picsart-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/well-known/picsart-well-known.yml
+  href: https://artifacts.apis.io/picsart/well-known/picsart-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/picsart-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/components/picsart-components.yml
+  href: https://artifacts.apis.io/picsart/components/picsart-components.yml
   title: ''
   type: Components
   url: components/picsart-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/errors/picsart-error-codes.yml
+  href: https://artifacts.apis.io/picsart/errors/picsart-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/picsart-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/conventions/picsart-conventions.yml
+  href: https://artifacts.apis.io/picsart/conventions/picsart-conventions.yml
   title: ''
   type: Conventions
   url: conventions/picsart-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/rate-limits/picsart-rate-limits.yml
+  href: https://artifacts.apis.io/picsart/rate-limits/picsart-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/picsart-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/lifecycle/picsart-lifecycle.yml
+  href: https://artifacts.apis.io/picsart/lifecycle/picsart-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/picsart-lifecycle.yml
@@ -373,37 +372,45 @@ common:
   type: Deprecation
   url: https://docs.picsart.io/docs/creative-apis-versioning
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/changelog/picsart-changelog.yml
+  href: https://artifacts.apis.io/picsart/changelog/picsart-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/picsart-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/conformance/picsart-conformance.yml
+  href: https://artifacts.apis.io/picsart/conformance/picsart-conformance.yml
   title: ''
   type: Conformance
   url: conformance/picsart-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/data-model/picsart-data-model.yml
+  href: https://artifacts.apis.io/picsart/data-model/picsart-data-model.yml
   title: ''
   type: DataModel
   url: data-model/picsart-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/sandbox/picsart-sandbox.yml
+  href: https://artifacts.apis.io/picsart/sandbox/picsart-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/picsart-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/security/picsart-domain-security.yml
+  href: https://artifacts.apis.io/picsart/security/picsart-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/picsart-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/agentic-access/picsart-agentic-access.yml
+  href: https://artifacts.apis.io/picsart/agentic-access/picsart-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/picsart-agentic-access.yml
 created: '2026-07-17'
 description: Picsart is a creative-technology company whose Picsart Enterprise / Creative APIs let developers add photo editing, video editing, and generative AI to their own products. The platform spans Programmable Image APIs (remove background, upscale, ultra enhance, face enhance, effects, adjust, blend, vectorize), Programmable Video APIs (FPS upscale, remove background, effects, trim, crop, concat, transcribe), GenAI APIs (text2image, text2sticker, logo, inpaint, outpaint, expand, text2video, image2video, text2speech, text2sound) via an AI Hub of 140+ models across 28 providers, and Variable Data Content APIs. All APIs are REST, authenticated with an X-Picsart-API-Key header, and are also reachable through first-party TypeScript/Python/Java SDKs, a gen-ai CLI, and an official hosted MCP server. Surfaced originally as a portfolio company of DCM Ventures and SoftBank Vision Fund and enriched into the API Evangelist network.
+finops:
+- has_sources: true
+  method: derived
+  name: Picsart Finops
+  primary_unit: credits
+  service_category: ''
+  slug: picsart-finops
+  template: false
 image: https://files.readme.io/cf02155-Enterprise.svg
 layout: provider
 mcp_servers:
@@ -422,30 +429,30 @@ plans:
 - name: Picsart Plans Pricing
   plan_count: 4
   slug: picsart-plans-pricing
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Picsart Rate Limits
   slug: picsart-rate-limits
 score:
   band: strong
-  composite: 58.3
+  composite: 62.8
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 60.0
+    artifact_dirs: 28
+    catalog_earned: 63.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.9
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 52.3
-    developer_ergonomics: 66.1
-    discoverability: 80.0
-    operational_transparency: 63.2
-  previous_composite: 52.4
+    developer_ergonomics: 80.4
+    discoverability: 70.0
+    operational_transparency: 65.8
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -462,13 +469,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/screenshots/picsart-2026-08-17T081220.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/picsart/picsart-2026-08-17T081220.png
 security:
 - kind: authentication
   name: Picsart Authentication
@@ -478,6 +486,16 @@ security:
   name: Picsart Domain Security
   slug: picsart-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: Remove image background with Picsart
+  slug: picsart-remove-background
+- name: Generate an image from text with Picsart GenAI
+  slug: picsart-text2image
+- name: Upscale an image with Picsart
+  slug: picsart-upscale-image
+- name: Remove video background with Picsart
+  slug: picsart-video-remove-background
 slug: picsart
 tags:
 - Company

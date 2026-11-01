@@ -4,6 +4,6 @@ layout: provider
 name: circuit-breaker
 nav: Providers
 network: true
-random_paper: 14
+random_paper: 20
 slug: circuit-breaker
 ---

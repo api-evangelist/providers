@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -95,11 +97,8 @@ apis:
   description: Confirmed. Read-only reporting on donation transactions.
   name: Qgiv Transactions API
   slug: qgiv-transactions-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Qgiv Account Settings API
   slug: open-qgiv-account-settings-api
@@ -135,22 +134,22 @@ collections:
   slug: open-qgiv
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/agentic-access/qgiv-agentic-access.yml
+  href: https://artifacts.apis.io/qgiv/agentic-access/qgiv-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/qgiv-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/security/qgiv-trust-center.yml
+  href: https://artifacts.apis.io/qgiv/security/qgiv-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/qgiv-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/security/qgiv-domain-security.yml
+  href: https://artifacts.apis.io/qgiv/security/qgiv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qgiv-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/authentication/qgiv-authentication.yml
+  href: https://artifacts.apis.io/qgiv/authentication/qgiv-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qgiv-authentication.yml
@@ -167,17 +166,17 @@ common:
   type: Documentation
   url: https://www.qgiv.com/api/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/plans/qgiv-plans-pricing.yml
+  href: https://artifacts.apis.io/qgiv/plans/qgiv-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qgiv-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/rate-limits/qgiv-rate-limits.yml
+  href: https://artifacts.apis.io/qgiv/rate-limits/qgiv-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qgiv-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/finops/qgiv-finops.yml
+  href: https://artifacts.apis.io/qgiv/finops/qgiv-finops.yml
   title: ''
   type: FinOps
   url: finops/qgiv-finops.yml
@@ -209,14 +208,14 @@ plans:
 - name: Qgiv Plans Pricing
   plan_count: 4
   slug: qgiv-plans-pricing
-random_paper: 21
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Qgiv Rate Limits
   slug: qgiv-rate-limits
 score:
-  band: emerging
-  composite: 25.7
+  band: thin
+  composite: 26.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 43.0
@@ -224,7 +223,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
@@ -232,7 +231,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 34.0
+  previous_composite: 26.4
   provenance:
     agentic_access: derived
     contracts:
@@ -246,13 +245,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/screenshots/qgiv-2026-09-02T152432.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/qgiv/qgiv-2026-09-02T152432.png
 security:
 - kind: authentication
   name: Qgiv Authentication

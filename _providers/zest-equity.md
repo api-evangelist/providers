@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.4
-  scored_at: '2026-10-17'
+  score: 36.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 23
   slug: zest-equity-agentic-access
   summary_line: 23 operations · 7 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://public-api.zestequity.com
   baseurl_source: declared
@@ -90,15 +92,12 @@ arazzos:
 - description: Bulk-create investors, subscribe one to an SPV, then upload the signed form and funding receipt in strict order.
   name: Zest — onboard investors and record a subscription
   slug: zest-equity-onboard-and-subscribe
-artifact_total: 23
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Zest Equity Webhooks
   slug: zest-equity-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zest equity public api Authentication API
   slug: open-zest-equity-authentication-api
@@ -124,68 +123,73 @@ collections:
   name: Zest equity public api Authentication System API
   slug: open-zest-equity-system-api
 common:
+- group: other
+  href: https://artifacts.apis.io/zest-equity/capabilities/zest-equity-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zest-equity-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/agentic-access/zest-equity-agentic-access.yml
+  href: https://artifacts.apis.io/zest-equity/agentic-access/zest-equity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zest-equity-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/authentication/zest-equity-authentication.yml
+  href: https://artifacts.apis.io/zest-equity/authentication/zest-equity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zest-equity-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/security/zest-equity-domain-security.yml
+  href: https://artifacts.apis.io/zest-equity/security/zest-equity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zest-equity-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/conventions/zest-equity-conventions.yml
+  href: https://artifacts.apis.io/zest-equity/conventions/zest-equity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zest-equity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/conventions/zest-equity-conventions.yml
+  href: https://artifacts.apis.io/zest-equity/conventions/zest-equity-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/zest-equity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/errors/zest-equity-problem-types.yml
+  href: https://artifacts.apis.io/zest-equity/errors/zest-equity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zest-equity-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/lifecycle/zest-equity-lifecycle.yml
+  href: https://artifacts.apis.io/zest-equity/lifecycle/zest-equity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zest-equity-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/changelog/zest-equity-changelog.yml
+  href: https://artifacts.apis.io/zest-equity/changelog/zest-equity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zest-equity-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/asyncapi/zest-equity-webhooks.yml
+  href: https://artifacts.apis.io/zest-equity/asyncapi/zest-equity-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zest-equity-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/mcp/zest-equity-mcp.yml
+  href: https://artifacts.apis.io/zest-equity/mcp/zest-equity-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zest-equity-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/llms/zest-equity-llms.txt
+  href: https://artifacts.apis.io/zest-equity/llms/zest-equity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zest-equity-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/overlays/zest-equity-openapi-overlay.yaml
+  href: https://artifacts.apis.io/zest-equity/overlays/zest-equity-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zest-equity-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/conformance/zest-equity-conformance.yml
+  href: https://artifacts.apis.io/zest-equity/conformance/zest-equity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zest-equity-conformance.yml
@@ -194,32 +198,32 @@ common:
   type: Compliance
   url: https://zestequity.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/data-model/zest-equity-data-model.yml
+  href: https://artifacts.apis.io/zest-equity/data-model/zest-equity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zest-equity-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/sandbox/zest-equity-sandbox.yml
+  href: https://artifacts.apis.io/zest-equity/sandbox/zest-equity-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zest-equity-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/well-known/zest-equity-well-known.yml
+  href: https://artifacts.apis.io/zest-equity/well-known/zest-equity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zest-equity-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zest-equity/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/arazzo/zest-equity-create-spv-request.yml
+  href: https://artifacts.apis.io/zest-equity/arazzo/zest-equity-create-spv-request.yml
   title: ''
   type: Arazzo
   url: arazzo/zest-equity-create-spv-request.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/arazzo/zest-equity-onboard-and-subscribe.yml
+  href: https://artifacts.apis.io/zest-equity/arazzo/zest-equity-onboard-and-subscribe.yml
   title: ''
   type: Arazzo
   url: arazzo/zest-equity-onboard-and-subscribe.yml
@@ -277,13 +281,13 @@ overview: 'Zest Equity publishes 8 API contracts indexed on the [APIs.io](https:
   The Zest Equity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zest Equity''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 23 more developer resources.'
-random_paper: 6
+  Zest Equity''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 24 more developer resources.'
+random_paper: 20
 score:
   band: developing
-  composite: 47.3
+  composite: 47.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -295,14 +299,14 @@ score:
     contract_governance: 18.2
     contract_quality: 56.1
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - mena
-  previous_composite: 47.3
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -319,13 +323,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zest-equity/refs/heads/main/screenshots/zest-equity-2026-08-17T083105.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zest-equity/zest-equity-2026-08-17T083105.png
 security:
 - kind: authentication
   name: Zest Equity Authentication
@@ -335,6 +340,14 @@ security:
   name: Zest Equity Domain Security
   slug: zest-equity-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Authenticate with the Zest Public API
+  slug: zest-equity-authenticate
+- name: Create and track an SPV request
+  slug: zest-equity-create-spv-request
+- name: Onboard investors and record a subscription
+  slug: zest-equity-onboard-and-subscribe
 slug: zest-equity
 tags:
 - Company

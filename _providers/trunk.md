@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-17'
+  score: 27.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -64,15 +66,12 @@ apis:
   description: Control the Trunk Merge Queue.
   name: Trunk Merge Queue API
   slug: trunk-merge-queue-api
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Trunk Webhooks
   slug: trunk-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Trunk Flaky Tests API
   slug: open-trunk-flaky-tests-api
@@ -84,7 +83,7 @@ collections:
   slug: open-trunk-merge-queue-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/capabilities/trunk-capability-edges.yml
+  href: https://artifacts.apis.io/trunk/capabilities/trunk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/trunk-capability-edges.yml
@@ -113,72 +112,72 @@ common:
   type: TermsOfService
   url: https://trunk.io/legal/terms
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/authentication/trunk-authentication.yml
+  href: https://artifacts.apis.io/trunk/authentication/trunk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trunk-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/agentic-access/trunk-agentic-access.yml
+  href: https://artifacts.apis.io/trunk/agentic-access/trunk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trunk-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/mcp/trunk-mcp.yml
+  href: https://artifacts.apis.io/trunk/mcp/trunk-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/trunk-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/errors/trunk-problem-types.yml
+  href: https://artifacts.apis.io/trunk/errors/trunk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trunk-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/conventions/trunk-conventions.yml
+  href: https://artifacts.apis.io/trunk/conventions/trunk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trunk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/data-model/trunk-data-model.yml
+  href: https://artifacts.apis.io/trunk/data-model/trunk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trunk-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/conformance/trunk-conformance.yml
+  href: https://artifacts.apis.io/trunk/conformance/trunk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trunk-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/lifecycle/trunk-lifecycle.yml
+  href: https://artifacts.apis.io/trunk/lifecycle/trunk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trunk-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/cli/trunk-cli.yml
+  href: https://artifacts.apis.io/trunk/cli/trunk-cli.yml
   title: ''
   type: CLI
   url: cli/trunk-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/asyncapi/trunk-webhooks.yml
+  href: https://artifacts.apis.io/trunk/asyncapi/trunk-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/trunk-webhooks.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/overlays/trunk-openapi-overlay.yaml
+  href: https://artifacts.apis.io/trunk/overlays/trunk-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/trunk-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/trunk/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/security/trunk-domain-security.yml
+  href: https://artifacts.apis.io/trunk/security/trunk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trunk-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/security/trunk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/trunk/security/trunk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/trunk-vulnerability-disclosure.yml
@@ -187,17 +186,17 @@ common:
   type: Security
   url: https://trunk.io/security
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/plans/trunk-plans-pricing.yml
+  href: https://artifacts.apis.io/trunk/plans/trunk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trunk-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/rate-limits/trunk-rate-limits.yml
+  href: https://artifacts.apis.io/trunk/rate-limits/trunk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trunk-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/finops/trunk-finops.yml
+  href: https://artifacts.apis.io/trunk/finops/trunk-finops.yml
   title: ''
   type: FinOps
   url: finops/trunk-finops.yml
@@ -228,14 +227,14 @@ plans:
 - name: Trunk Plans Pricing
   plan_count: 3
   slug: trunk-plans-pricing
-random_paper: 14
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Trunk Rate Limits
   slug: trunk-rate-limits
 score:
-  band: thin
-  composite: 37.8
+  band: developing
+  composite: 41.5
   coverage:
     artifact_dirs: 23
     catalog_earned: 43.0
@@ -243,15 +242,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 4.5
     contract_quality: 58.1
     developer_ergonomics: 51.8
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 46.1
+    operational_transparency: 31.6
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,14 +266,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 26.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/screenshots/trunk-2026-06-20T195810.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/trunk/trunk-2026-06-20T195810.png
 security:
 - kind: authentication
   name: Trunk Authentication
@@ -288,6 +288,12 @@ security:
   name: Trunk Vulnerability Disclosure
   slug: trunk-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 2
+skills:
+- name: Control the merge queue
+  slug: trunk-merge-queue-control
+- name: Triage flaky tests
+  slug: trunk-triage-flaky-tests
 slug: trunk
 tags:
 - Developer Tools

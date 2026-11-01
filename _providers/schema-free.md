@@ -4,6 +4,6 @@ layout: provider
 name: schema-free
 nav: Providers
 network: true
-random_paper: 10
+random_paper: 8
 slug: schema-free
 ---

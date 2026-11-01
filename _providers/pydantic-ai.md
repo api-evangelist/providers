@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.4
-  scored_at: '2026-10-17'
+  score: 40.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 3
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 83
   slug: pydantic-ai-agentic-access
   summary_line: 83 operations · 42 acting · 3 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://logfire-us.pydantic.dev/api
   baseurl_source: declared
@@ -185,9 +187,6 @@ collections:
   name: Pydantic API Discovery Alerts Variables API
   slug: postman-pydantic-ai-variables-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Pydantic API Discovery Alerts API
   slug: open-pydantic-ai-alerts-api
 - collection_type: open
@@ -240,7 +239,7 @@ collections:
   slug: open-pydantic-ai-variables-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/capabilities/pydantic-ai-capability-edges.yml
+  href: https://artifacts.apis.io/pydantic-ai/capabilities/pydantic-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pydantic-ai-capability-edges.yml
@@ -265,37 +264,37 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/pydanticai/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/a2a/pydantic-ai-a2a.yml
+  href: https://artifacts.apis.io/pydantic-ai/a2a/pydantic-ai-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/pydantic-ai-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/agentic-access/pydantic-ai-agentic-access.yml
+  href: https://artifacts.apis.io/pydantic-ai/agentic-access/pydantic-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pydantic-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/security/pydantic-ai-trust-center.yml
+  href: https://artifacts.apis.io/pydantic-ai/security/pydantic-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pydantic-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/security/pydantic-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pydantic-ai/security/pydantic-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pydantic-ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/security/pydantic-ai-domain-security.yml
+  href: https://artifacts.apis.io/pydantic-ai/security/pydantic-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pydantic-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/authentication/pydantic-ai-authentication.yml
+  href: https://artifacts.apis.io/pydantic-ai/authentication/pydantic-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pydantic-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/scopes/pydantic-ai-scopes.yml
+  href: https://artifacts.apis.io/pydantic-ai/scopes/pydantic-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pydantic-ai-scopes.yml
@@ -366,13 +365,13 @@ common:
 created: '2026-06-12'
 description: PydanticAI is an open-source, model-agnostic Python agent framework built by the Pydantic team, designed to bring the ergonomic, type-safe design philosophy of FastAPI to production-grade generative AI application development. It provides structured outputs, dependency injection, and first-class support for leading model providers including OpenAI, Anthropic, Google Gemini, xAI, AWS Bedrock, Cohere, Mistral, Groq, and many more. The framework integrates seamlessly with Pydantic Logfire for OpenTelemetry-based observability, and includes pydantic-graph for complex agentic workflows, pydantic-evals for systematic agent evaluation, and clai for a CLI chat interface. PydanticAI is maintained by Pydantic, a London-based developer tooling company backed by Sequoia Capital, and forms a core part of their end-to-end AI engineering stack.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Pydantic Ai Finops
-  primary_unit: ''
+  primary_unit: subscription
   service_category: ''
   slug: pydantic-ai-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 json_schemas:
 - name: AlertRead
@@ -417,7 +416,10 @@ plans:
 - name: Pydantic Ai Plans Pricing
   plan_count: 4
   slug: pydantic-ai-plans-pricing
-random_paper: 7
+- name: Pydantic Ai Price Estimates
+  plan_count: 0
+  slug: pydantic-ai-price-estimates
+random_paper: 3
 rate_limits:
 - limit_count: 6
   name: Pydantic Ai Rate Limits
@@ -440,33 +442,30 @@ scopes:
   slug: pydantic-ai-scopes
   summary_line: 38 scopes · authorizationCode
 score:
-  band: developing
-  composite: 47.6
+  band: strong
+  composite: 54.4
   coverage:
     artifact_dirs: 20
-    catalog_earned: 62.2
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.9
+    catalog_earned: 71.2
+    catalog_earned_first_party: 12.0
+    catalog_gap: 43.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 1.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 57.9
     contract_governance: 23.5
-    contract_quality: 61.1
+    contract_quality: 57.7
     developer_ergonomics: 48.8
-    discoverability: 62.5
-    operational_transparency: 42.1
+    discoverability: 57.1
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
     - united-kingdom-ireland
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 54.5
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -480,13 +479,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/screenshots/pydantic-ai-2026-06-20T192356.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pydantic-ai/pydantic-ai-2026-06-20T192356.png
 security:
 - kind: authentication
   name: Pydantic Ai Authentication

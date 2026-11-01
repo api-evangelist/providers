@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Universal Commerce Protocol shopping service exposed over MCP by the tnuck.com Shopify storefront - catalog search, cart, checkout, fulfillment, discounts, and orders, with buyer-approved payment. Dis
   name: Storefront Agent Commerce (UCP over MCP)
   slug: storefront-agent-commerce-ucp-over-mcp
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -50,42 +52,42 @@ common:
   type: Documentation
   url: https://tnuck.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uscoop/refs/heads/main/mcp/uscoop-mcp.yml
+  href: https://artifacts.apis.io/uscoop/mcp/uscoop-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/uscoop-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uscoop/refs/heads/main/llms/uscoop-llms.txt
+  href: https://artifacts.apis.io/uscoop/llms/uscoop-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uscoop-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uscoop/refs/heads/main/well-known/uscoop-well-known.yml
+  href: https://artifacts.apis.io/uscoop/well-known/uscoop-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/uscoop-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uscoop/refs/heads/main/authentication/uscoop-authentication.yml
+  href: https://artifacts.apis.io/uscoop/authentication/uscoop-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uscoop-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uscoop/refs/heads/main/scopes/uscoop-scopes.yml
+  href: https://artifacts.apis.io/uscoop/scopes/uscoop-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/uscoop-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uscoop/refs/heads/main/conformance/uscoop-conformance.yml
+  href: https://artifacts.apis.io/uscoop/conformance/uscoop-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uscoop-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uscoop/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/uscoop/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uscoop/refs/heads/main/security/uscoop-domain-security.yml
+  href: https://artifacts.apis.io/uscoop/security/uscoop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uscoop-domain-security.yml
@@ -125,7 +127,7 @@ overview: 'uScoop is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   uScoop''s developer surface includes documentation, authentication, support, engineering blog, and 11 more developer resources.'
-random_paper: 5
+random_paper: 17
 scopes:
 - name: Uscoop Scopes
   scope_count: 4
@@ -133,7 +135,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.2
+  composite: 24.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -141,15 +143,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 24.1
+  previous_composite: 24.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -160,14 +162,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/uscoop/refs/heads/main/screenshots/uscoop-2026-09-02T165232.png
+screenshot: https://apis.io/screenshots/uscoop/uscoop-2026-09-02T165232.png
 security:
 - kind: authentication
   name: Uscoop Authentication
@@ -177,6 +179,10 @@ security:
   name: Uscoop Domain Security
   slug: uscoop-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Shop the tnuck.com storefront as an agent (UCP/MCP)
+  slug: uscoop-agent-shopping
 slug: uscoop
 tags:
 - Company

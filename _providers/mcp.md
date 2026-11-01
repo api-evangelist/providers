@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 17
 apis:
 - description: The authoritative protocol definition for the Model Context Protocol, maintained at modelcontextprotocol.io and in the modelcontextprotocol/ specification GitHub repository. The TypeScript schema (sch
@@ -114,17 +116,17 @@ common:
   type: ContributionGuide
   url: https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/CONTRIBUTING.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mcp/refs/heads/main/a2a/mcp-a2a.yml
+  href: https://artifacts.apis.io/mcp/a2a/mcp-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/mcp-a2a.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mcp/refs/heads/main/security/mcp-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mcp/security/mcp-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mcp-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mcp/refs/heads/main/security/mcp-domain-security.yml
+  href: https://artifacts.apis.io/mcp/security/mcp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mcp-domain-security.yml
@@ -149,12 +151,12 @@ common:
   type: GitHubRepository
   url: https://github.com/modelcontextprotocol/specification
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mcp/refs/heads/main/vocabulary/mcp-vocabulary.yml
+  href: https://artifacts.apis.io/mcp/vocabulary/mcp-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/mcp-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mcp/refs/heads/main/json-ld/mcp-context.jsonld
+  href: https://artifacts.apis.io/mcp/json-ld/mcp-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/mcp-context.jsonld
@@ -272,7 +274,7 @@ overview: 'Model Context Protocol (MCP) is listed with 17 APIs on the [APIs.io](
 
 
   Model Context Protocol (MCP)''s developer surface includes engineering blog, developer portal, documentation, and 13 more developer resources.'
-random_paper: 12
+random_paper: 8
 rules:
 - authorship: generated
   effective_rule_count: 6
@@ -287,7 +289,7 @@ rules:
   slug: mcp-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 26.8
+  composite: 27.1
   coverage:
     artifact_dirs: 14
     catalog_earned: 57.2
@@ -295,29 +297,29 @@ score:
     catalog_gap: 57.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 23.5
     contract_quality: 21.9
     developer_ergonomics: 42.9
     discoverability: 58.9
-    operational_transparency: 28.9
-  previous_composite: 26.7
+    operational_transparency: 31.6
+  previous_composite: 27.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mcp/refs/heads/main/screenshots/mcp-2026-06-20T185104.png
+screenshot: https://apis.io/screenshots/mcp/mcp-2026-06-20T185104.png
 security:
 - kind: domain-security
   name: Mcp Domain Security

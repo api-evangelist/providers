@@ -1,8 +1,9 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -14,16 +15,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-10-17'
+  score: 50.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 3
@@ -31,7 +34,7 @@ agentic_access:
   operation_count: 15
   slug: adscrawl-agentic-access
   summary_line: 15 operations · 10 acting · 3 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.adscrawl.net
   baseurl_source: declared
@@ -48,95 +51,109 @@ apis:
   description: Temporary browser sessions and scoped connection tokens.
   name: AdsCrawl Remote CDP API
   slug: adscrawl-remote-cdp-api
-artifact_total: 15
+artifact_total: 19
 common:
+- group: commercial
+  href: https://artifacts.apis.io/adscrawl/finops/adscrawl-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/adscrawl-finops.yml
+- group: build
+  href: https://artifacts.apis.io/adscrawl/integrations/adscrawl-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/adscrawl-integration-edges.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.adscrawl.net/support/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/agentic-access/adscrawl-agentic-access.yml
+  href: https://artifacts.apis.io/adscrawl/agentic-access/adscrawl-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adscrawl-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/plans/adscrawl-plans-pricing.yml
+  href: https://artifacts.apis.io/adscrawl/plans/adscrawl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adscrawl-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/rules/adscrawl-rules.yml
+  href: https://artifacts.apis.io/adscrawl/rules/adscrawl-rules.yml
   title: ''
   type: Spectral
   url: rules/adscrawl-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/json-ld/adscrawl-context.jsonld
+  href: https://artifacts.apis.io/adscrawl/json-ld/adscrawl-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adscrawl-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/vocabulary/adscrawl-vocabulary.yml
+  href: https://artifacts.apis.io/adscrawl/vocabulary/adscrawl-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/adscrawl-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/adscrawl/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/data-model/adscrawl-data-model.yml
+  href: https://artifacts.apis.io/adscrawl/data-model/adscrawl-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adscrawl-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/conventions/adscrawl-conventions.yml
+  href: https://artifacts.apis.io/adscrawl/conventions/adscrawl-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adscrawl-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/authentication/adscrawl-authentication.yml
+  href: https://artifacts.apis.io/adscrawl/authentication/adscrawl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adscrawl-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/errors/adscrawl-problem-types.yml
+  href: https://artifacts.apis.io/adscrawl/errors/adscrawl-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adscrawl-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/conformance/adscrawl-conformance.yml
+  href: https://artifacts.apis.io/adscrawl/conformance/adscrawl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adscrawl-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/llms/adscrawl-llms.txt
+  href: https://artifacts.apis.io/adscrawl/llms/adscrawl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adscrawl-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/a2a/adscrawl-a2a.yml
+  href: https://artifacts.apis.io/adscrawl/a2a/adscrawl-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/adscrawl-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/well-known/adscrawl-well-known.yml
+  href: https://artifacts.apis.io/adscrawl/well-known/adscrawl-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adscrawl-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/hosts/adscrawl-hosts.yml
+  href: https://artifacts.apis.io/adscrawl/hosts/adscrawl-hosts.yml
   title: ''
   type: Hosts
   url: hosts/adscrawl-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/vendors/adscrawl-vendors.yml
+  href: https://artifacts.apis.io/adscrawl/vendors/adscrawl-vendors.yml
   title: ''
   type: Vendors
   url: vendors/adscrawl-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/packages/adscrawl-packages.yml
+  href: https://artifacts.apis.io/adscrawl/packages/adscrawl-packages.yml
   title: ''
   type: SDKs
   url: packages/adscrawl-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/packages/adscrawl-packages.yml
+  href: https://artifacts.apis.io/adscrawl/packages/adscrawl-packages.yml
   title: ''
   type: Packages
   url: packages/adscrawl-packages.yml
@@ -177,7 +194,7 @@ common:
   type: DeveloperPortal
   url: https://api.adscrawl.net`
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/security/adscrawl-domain-security.yml
+  href: https://artifacts.apis.io/adscrawl/security/adscrawl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adscrawl-domain-security.yml
@@ -190,7 +207,15 @@ common:
   type: Documentation
   url: https://docs.adscrawl.net
 created: '2026-10-02'
-description: AdsCrawl provides a Browser Automation API that lets developers run full browsers (Playwright, Puppeteer, or Chrome DevTools Protocol) with residential proxy routing to handle dynamic pages, authenticated sessions, and structured web data extraction. The platform offers endpoints for page rendering, screenshot capture, HTML extraction, and data scraping, targeting use cases like e‑commerce monitoring, SEO analysis, and content aggregation. It emphasizes real‑browser fidelity and scalable proxy infrastructure for reliable web data collection.
+description: AdsCrawl offers a comprehensive Browser Automation API enabling developers to run full browsers such as Playwright, Puppeteer, or Chrome DevTools Protocol with residential proxy routing. It supports dynamic page rendering, screenshot capture, HTML extraction, and structured data scraping, catering to e‑commerce monitoring, SEO analysis, content aggregation, and other web‑data use cases. The service emphasizes real‑browser fidelity, scalable proxy infrastructure, and reliable data collection across authenticated sessions and complex sites.
+finops:
+- has_sources: true
+  method: derived
+  name: Adscrawl Finops
+  primary_unit: seat
+  service_category: ''
+  slug: adscrawl-finops
+  template: false
 image: https://www.adscrawl.net/logo.svg
 json_schemas:
 - name: BrowserSettings
@@ -227,12 +252,15 @@ overview: 'AdsCrawl publishes 3 API contracts indexed on the [APIs.io](https://a
   The AdsCrawl catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  AdsCrawl''s developer surface includes authentication, pricing, engineering blog, API reference, getting-started guide, documentation, and 24 more developer resources.'
+  AdsCrawl''s developer surface includes support, authentication, pricing, engineering blog, API reference, getting-started guide, documentation, and 26 more developer resources.'
 plans:
 - name: Adscrawl Plans Pricing
   plan_count: 4
   slug: adscrawl-plans-pricing
-random_paper: 13
+- name: Adscrawl Price Estimates
+  plan_count: 0
+  slug: adscrawl-price-estimates
+random_paper: 9
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -247,32 +275,32 @@ rules:
     warn: 1
   slug: adscrawl-rules
 score:
-  band: developing
-  composite: 53.6
+  band: strong
+  composite: 56.6
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 74.8
+    artifact_dirs: 26
+    catalog_earned: 77.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.3
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 2.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 22.0
-    contract_quality: 58.9
-    developer_ergonomics: 61.3
-    discoverability: 73.2
+    contract_quality: 60.6
+    developer_ergonomics: 66.1
+    discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 53.5
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 75.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 4
     mcp: unknown
     skills: derived
   regulatory:
@@ -281,13 +309,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/adscrawl/refs/heads/main/screenshots/adscrawl-2026-10-11T092842.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/adscrawl/adscrawl-2026-10-11T092842.png
 security:
 - kind: authentication
   name: Adscrawl Authentication
@@ -297,6 +326,12 @@ security:
   name: Adscrawl Domain Security
   slug: adscrawl-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 2
+skills:
+- name: adscrawl-create-and-launch-cloud-browser
+  slug: adscrawl-create-and-launch-cloud-browser
+- name: adscrawl-remote-cdp-session-workflow
+  slug: adscrawl-remote-cdp-session-workflow
 slug: adscrawl
 tags:
 - Company

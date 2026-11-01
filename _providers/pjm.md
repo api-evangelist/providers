@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: 'PJM''s public wholesale market and system data catalogue, exposed as a REST API behind Azure API Management. Feeds include day-ahead and real-time hourly and five-minute LMPs, ancillary service prices '
@@ -57,19 +59,19 @@ apis:
 - description: The browserless XML-over-HTTP interface to eDART, PJM's Dispatcher Applications and Reporting Tool, used by transmission owners and generation owners to file and query transmission and generator outag
   name: PJM eDART Browserless API
   slug: pjm-edart-api
-artifact_total: 12
+artifact_total: 15
 common:
 - group: company
   title: ''
   type: Blog
   url: https://www.pjm.com/about-pjm/newsroom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/security/pjm-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pjm/security/pjm-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pjm-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/security/pjm-domain-security.yml
+  href: https://artifacts.apis.io/pjm/security/pjm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pjm-domain-security.yml
@@ -138,7 +140,7 @@ common:
   type: ChangeLog
   url: https://www.pjm.com/markets-and-operations/etools/data-miner-2/data-miner-2-release-notes.aspx
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/changelog/pjm-changelog.yml
+  href: https://artifacts.apis.io/pjm/changelog/pjm-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pjm-changelog.yml
@@ -155,87 +157,87 @@ common:
   type: Roadmap
   url: https://www.pjm.com/committees-and-groups/forums/tech-change-forum.aspx
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/lifecycle/pjm-lifecycle.yml
+  href: https://artifacts.apis.io/pjm/lifecycle/pjm-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pjm-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/authentication/pjm-authentication.yml
+  href: https://artifacts.apis.io/pjm/authentication/pjm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pjm-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/conventions/pjm-conventions.yml
+  href: https://artifacts.apis.io/pjm/conventions/pjm-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pjm-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/errors/pjm-error-catalog.yml
+  href: https://artifacts.apis.io/pjm/errors/pjm-error-catalog.yml
   title: ''
   type: ErrorCatalog
   url: errors/pjm-error-catalog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/rate-limits/pjm-rate-limits.yml
+  href: https://artifacts.apis.io/pjm/rate-limits/pjm-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pjm-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/sandbox/pjm-sandbox.yml
+  href: https://artifacts.apis.io/pjm/sandbox/pjm-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pjm-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/cli/pjm-cli.yml
+  href: https://artifacts.apis.io/pjm/cli/pjm-cli.yml
   title: ''
   type: CLI
   url: cli/pjm-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/packages/pjm-packages.yml
+  href: https://artifacts.apis.io/pjm/packages/pjm-packages.yml
   title: ''
   type: Packages
   url: packages/pjm-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/conformance/pjm-conformance.yml
+  href: https://artifacts.apis.io/pjm/conformance/pjm-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pjm-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/data-model/pjm-data-model.yml
+  href: https://artifacts.apis.io/pjm/data-model/pjm-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pjm-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/vocabulary/pjm-vocabulary.yml
+  href: https://artifacts.apis.io/pjm/vocabulary/pjm-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/pjm-vocabulary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/pjm/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/json-schema/pjm-message.json
+  href: https://artifacts.apis.io/pjm/json-schema/pjm-message.json
   title: ''
   type: JSONSchema
   url: json-schema/pjm-message.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/well-known/pjm-well-known.yml
+  href: https://artifacts.apis.io/pjm/well-known/pjm-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pjm-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/well-known/pjm-security.txt
+  href: https://artifacts.apis.io/pjm/well-known/pjm-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/pjm-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/llms/pjm-llms.txt
+  href: https://artifacts.apis.io/pjm/llms/pjm-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pjm-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pjm/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -276,14 +278,14 @@ overview: 'PJM Interconnection is listed with 6 APIs on the [APIs.io](https://ap
 
 
   PJM Interconnection''s developer surface includes engineering blog, documentation, signup flow, authentication, support, legal docs, API reference, and 37 more developer resources.'
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Pjm Rate Limits
   slug: pjm-rate-limits
 score:
   band: developing
-  composite: 47.8
+  composite: 48.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 54.5
@@ -291,12 +293,12 @@ score:
     catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 33.3
     contract_quality: 8.5
-    developer_ergonomics: 70.8
+    developer_ergonomics: 73.2
     discoverability: 71.4
     operational_transparency: 76.3
   jurisdiction:
@@ -306,7 +308,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 49.1
+  previous_composite: 48.6
   provenance:
     conformance: first-party
     skills: derived
@@ -315,15 +317,15 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 25.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pjm/refs/heads/main/screenshots/pjm-2026-08-17T081252.png
+screenshot: https://apis.io/screenshots/pjm/pjm-2026-08-17T081252.png
 security:
 - kind: authentication
   name: Pjm Authentication
@@ -337,6 +339,14 @@ security:
   name: Pjm Vulnerability Disclosure
   slug: pjm-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Authenticate a browserless client to PJM eTools
+  slug: pjm-authenticate-browserless-etools
+- name: Query a PJM Data Miner 2 feed with paging
+  slug: pjm-query-data-miner-feed
+- name: Watch PJM tool change and outage notices
+  slug: pjm-watch-tool-change-notices
 slug: pjm
 tags:
 - Energy

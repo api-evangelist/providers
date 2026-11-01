@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 12
 apis:
 - description: 'Trinity''s own Shibboleth IdP, self-hosted on its own registrable domain: idp.tcd.ie resolves through idpha.tcd.ie to 134.226.14.232, inside Trinity''s 134.226.0.0/16 allocation. The metadata endpoint s'
@@ -140,71 +142,45 @@ common:
   type: AITooling
   url: https://www.tcd.ie/itservices/keeping-it-secure/artificial-intelligence-ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/authentication/trinity-college-dublin-authentication.yml
+  href: https://artifacts.apis.io/trinity-college-dublin/authentication/trinity-college-dublin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trinity-college-dublin-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/conformance/trinity-college-dublin-domain-standards.yml
+  href: https://artifacts.apis.io/trinity-college-dublin/conformance/trinity-college-dublin-domain-standards.yml
   title: ''
   type: Conformance
   url: conformance/trinity-college-dublin-domain-standards.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/security/trinity-college-dublin-domain-security.yml
+  href: https://artifacts.apis.io/trinity-college-dublin/security/trinity-college-dublin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trinity-college-dublin-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/plans/trinity-college-dublin-plans-pricing.yml
+  href: https://artifacts.apis.io/trinity-college-dublin/plans/trinity-college-dublin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trinity-college-dublin-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/rate-limits/trinity-college-dublin-rate-limits.yml
+  href: https://artifacts.apis.io/trinity-college-dublin/rate-limits/trinity-college-dublin-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trinity-college-dublin-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/finops/trinity-college-dublin-finops.yml
+  href: https://artifacts.apis.io/trinity-college-dublin/finops/trinity-college-dublin-finops.yml
   title: ''
   type: FinOps
   url: finops/trinity-college-dublin-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/trinity-college-dublin/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/json-ld/trinity-college-dublin-context.jsonld
+  href: https://artifacts.apis.io/trinity-college-dublin/json-ld/trinity-college-dublin-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/trinity-college-dublin-context.jsonld
-coverage:
-  detail: 'Trinity''s two institution-operated repository surfaces — TARA at www.tara.tcd.ie and Digital Collections at digitalcollections.tcd.ie — are both reachable in a browser and both refuse unattended clients. TARA returns a Cloudflare 403 interstitial on every path, including /oai/request and /server/oai/request. Digital Collections returns a soft-200 reCAPTCHA page from an F5 Distributed Cloud edge on every path, including /robots.txt and IIIF manifest URLs, so the 200 is not evidence of a readable surface. Neither is dead and neither is an authentication wall; both are bot mitigation. Everything reachable WAS read: the Shibboleth IdP metadata, the Entra ID OIDC and SAML metadata, the OpenSearch descriptor, the eDeposit Ireland OAI-PMH Identify/ListMetadataFormats/ListSets responses and the DSpace REST root, and the DataCite, Crossref and ROR registry records. Beyond that there is simply nothing to find: api.tcd.ie, data.tcd.ie and developer.tcd.ie do not resolve, and www.tcd.ie/llms.txt
-    returns 404.'
-  evidence:
-  - status: 403
-    url: https://www.tara.tcd.ie/oai/request?verb=Identify
-  - status: 403
-    url: https://www.tara.tcd.ie/server/oai/request?verb=Identify
-  - status: 200
-    url: https://digitalcollections.tcd.ie/
-  - status: 200
-    url: https://digitalcollections.tcd.ie/concern/works/kh04dp74f/manifest
-  - status: 200
-    url: https://idp.tcd.ie/idp/shibboleth
-  - status: 200
-    url: https://www.edepositireland.ie/server/oai/request?verb=Identify
-  - status: 200
-    url: https://www.tcd.ie/assets/xml/tcd-opensearch/tcd-opensearch.xml
-  - status: 200
-    url: https://api.datacite.org/providers/tcd
-  - status: 404
-    url: https://www.tcd.ie/llms.txt
-  - status: 0
-    url: https://api.tcd.ie/
-  reason: bot_blocked
-  state: gated
 created: '2026-06-03'
 description: 'Trinity College Dublin, the University of Dublin, founded in 1592, is Ireland''s oldest university and a legal deposit library for Ireland and the United Kingdom since 1801. Trinity operates no public developer portal, publishes no OpenAPI, issues no API keys and runs no documented open-API programme — and this profile says so rather than padding the gap. What Trinity does operate, and what is recorded here, is standards-based scholarly and identity infrastructure: a self-hosted Shibboleth Identity Provider on its own domain (idp.tcd.ie, scope tcd.ie) registered in HEAnet''s Edugate federation and exported to eduGAIN; a Microsoft Entra ID tenant with live OIDC discovery; an OpenSearch 1.1 description document authored by Trinity''s own Digital and Web team; DataCite consortium membership with five prefixes and 16,031 DOIs across five registered repositories; and Crossref membership. Its two flagship repositories — TARA (DSpace) and Digital Collections (Hyrax/Samvera, home of
   the Book of Kells) — sit on Trinity''s own hosts but are fronted by Cloudflare and F5 bot-mitigation that returns a challenge to every unattended client, so they are live but not machine-callable. eDeposit Ireland, the national legal-deposit repository Trinity Library administers, is the one repository that answers a harvester, and it does so as a tenant on Atmire''s Open Repository platform rather than as Trinity''s own engineering.'
@@ -238,14 +214,14 @@ plans:
 - name: Trinity College Dublin Plans Pricing
   plan_count: 2
   slug: trinity-college-dublin-plans-pricing
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Trinity College Dublin Rate Limits
   slug: trinity-college-dublin-rate-limits
 score:
   band: emerging
-  composite: 23.2
+  composite: 23.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 52.0
@@ -253,14 +229,14 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 26.2
     discoverability: 71.4
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -269,7 +245,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 29.2
+  previous_composite: 23.5
   provenance:
     conformance: first-party
   regulatory:
@@ -278,14 +254,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/screenshots/trinity-college-dublin-2026-06-20T195720.png
+screenshot: https://apis.io/screenshots/trinity-college-dublin/trinity-college-dublin-2026-06-20T195720.png
 security:
 - kind: authentication
   name: Trinity College Dublin Authentication

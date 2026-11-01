@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: TDS Telecom provides high-speed broadband, video, and voice services to residential and business customers across more than 900 rural and suburban communities in 30 states. TDS Telecom delivers fiber-
@@ -45,22 +47,22 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/telephone-and-data-systems/refs/heads/main/plans/telephone-and-data-systems-plans-pricing.yml
+  href: https://artifacts.apis.io/telephone-and-data-systems/plans/telephone-and-data-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/telephone-and-data-systems-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/telephone-and-data-systems/refs/heads/main/rate-limits/telephone-and-data-systems-rate-limits.yml
+  href: https://artifacts.apis.io/telephone-and-data-systems/rate-limits/telephone-and-data-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/telephone-and-data-systems-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/telephone-and-data-systems/refs/heads/main/finops/telephone-and-data-systems-finops.yml
+  href: https://artifacts.apis.io/telephone-and-data-systems/finops/telephone-and-data-systems-finops.yml
   title: ''
   type: FinOps
   url: finops/telephone-and-data-systems-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telephone-and-data-systems/refs/heads/main/security/telephone-and-data-systems-domain-security.yml
+  href: https://artifacts.apis.io/telephone-and-data-systems/security/telephone-and-data-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/telephone-and-data-systems-domain-security.yml
@@ -135,14 +137,14 @@ press:
 - date: ''
   title: Telephone & Data Systems (TDS) on Track to Boost Fiber Suite
   url: https://finance.yahoo.com/news/telephone-data-systems-tds-track-122312251.html
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Telephone And Data Systems Rate Limits
   slug: telephone-and-data-systems-rate-limits
 score:
   band: emerging
-  composite: 11.3
+  composite: 11.4
   coverage:
     artifact_dirs: 11
     catalog_earned: 46.0
@@ -150,29 +152,29 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 14.3
-    discoverability: 67.0
+    discoverability: 67.9
     operational_transparency: 5.3
-  previous_composite: 12.9
+  previous_composite: 11.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 9.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/telephone-and-data-systems/refs/heads/main/screenshots/telephone-and-data-systems-2026-06-20T195038.png
+screenshot: https://apis.io/screenshots/telephone-and-data-systems/telephone-and-data-systems-2026-06-20T195038.png
 security:
 - kind: domain-security
   name: Telephone And Data Systems Domain Security

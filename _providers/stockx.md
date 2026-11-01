@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.5
-  scored_at: '2026-10-17'
+  score: 41.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 32
   slug: stockx-agentic-access
   summary_line: 32 operations · 9 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.stockx.com/v2
   baseurl_source: declared
@@ -64,11 +66,8 @@ apis:
   description: Order APIs enable a user to view all their active orders / sales as well as details for a single order.
   name: StockX Order API
   slug: stockx-order-api
-artifact_total: 14
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: StockX Public Batch API
   slug: open-stockx-batch-api
@@ -83,7 +82,12 @@ collections:
   slug: open-stockx-order-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/overlays/stockx-public-overlay.yaml
+  href: https://artifacts.apis.io/stockx/capabilities/stockx-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/stockx-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/stockx/overlays/stockx-public-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stockx-public-overlay.yaml
@@ -104,82 +108,82 @@ common:
   type: GettingStarted
   url: https://developer.stockx.com/portal/api-introduction
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/authentication/stockx-authentication.yml
+  href: https://artifacts.apis.io/stockx/authentication/stockx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stockx-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/scopes/stockx-scopes.yml
+  href: https://artifacts.apis.io/stockx/scopes/stockx-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/stockx-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/conventions/stockx-conventions.yml
+  href: https://artifacts.apis.io/stockx/conventions/stockx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stockx-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/errors/stockx-problem-types.yml
+  href: https://artifacts.apis.io/stockx/errors/stockx-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/stockx-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/lifecycle/stockx-lifecycle.yml
+  href: https://artifacts.apis.io/stockx/lifecycle/stockx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stockx-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/changelog/stockx-changelog.yml
+  href: https://artifacts.apis.io/stockx/changelog/stockx-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/stockx-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/conformance/stockx-conformance.yml
+  href: https://artifacts.apis.io/stockx/conformance/stockx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stockx-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/data-model/stockx-data-model.yml
+  href: https://artifacts.apis.io/stockx/data-model/stockx-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stockx-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/mcp/stockx-mcp.yml
+  href: https://artifacts.apis.io/stockx/mcp/stockx-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/stockx-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/agentic-access/stockx-agentic-access.yml
+  href: https://artifacts.apis.io/stockx/agentic-access/stockx-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stockx-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/stockx/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/llms/stockx-llms.txt
+  href: https://artifacts.apis.io/stockx/llms/stockx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stockx-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/packages/stockx-packages.yml
+  href: https://artifacts.apis.io/stockx/packages/stockx-packages.yml
   title: ''
   type: Packages
   url: packages/stockx-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/well-known/stockx-well-known.yml
+  href: https://artifacts.apis.io/stockx/well-known/stockx-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stockx-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/security/stockx-domain-security.yml
+  href: https://artifacts.apis.io/stockx/security/stockx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stockx-domain-security.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/rate-limits/stockx-rate-limits.yml
+  href: https://artifacts.apis.io/stockx/rate-limits/stockx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stockx-rate-limits.yml
@@ -222,8 +226,8 @@ network: true
 overview: 'StockX publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Batch API, Catalog API, Listings API, and 1 more. Tagged areas include Company, Marketplace, E-Commerce, Sneakers, and Streetwear.
 
 
-  StockX''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 21 more developer resources.'
-random_paper: 8
+  StockX''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 22 more developer resources.'
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Stockx Rate Limits
@@ -235,23 +239,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.9
+  composite: 48.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 53.8
+    contract_quality: 51.7
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 39.5
-  previous_composite: 48.8
+    discoverability: 66.1
+    operational_transparency: 42.1
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -268,13 +272,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/screenshots/stockx-2026-08-17T082124.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stockx/stockx-2026-08-17T082124.png
 security:
 - kind: authentication
   name: Stockx Authentication
@@ -284,6 +289,16 @@ security:
   name: Stockx Domain Security
   slug: stockx-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: Bulk-list inventory on StockX with batch operations
+  slug: stockx-batch-list-inventory
+- name: Create and manage a StockX seller listing
+  slug: stockx-create-and-manage-listing
+- name: Search the StockX catalog and read market data
+  slug: stockx-search-and-price
+- name: Track StockX sales orders and shipping documents
+  slug: stockx-track-orders
 slug: stockx
 tags:
 - Company

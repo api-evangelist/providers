@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.5
-  scored_at: '2026-10-17'
+  score: 21.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Property detail operations
   name: Starwood Hotels and Resorts Properties API
   slug: starwood-hotels-and-resorts-properties-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Starwood Hotel Search API
   slug: open-starwood-hotel-search
@@ -83,27 +82,27 @@ collections:
   slug: open-starwood-hotels-and-resorts-properties-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/plans/starwood-hotels-and-resorts-plans-pricing.yml
+  href: https://artifacts.apis.io/starwood-hotels-and-resorts/plans/starwood-hotels-and-resorts-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/starwood-hotels-and-resorts-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/rate-limits/starwood-hotels-and-resorts-rate-limits.yml
+  href: https://artifacts.apis.io/starwood-hotels-and-resorts/rate-limits/starwood-hotels-and-resorts-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/starwood-hotels-and-resorts-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/finops/starwood-hotels-and-resorts-finops.yml
+  href: https://artifacts.apis.io/starwood-hotels-and-resorts/finops/starwood-hotels-and-resorts-finops.yml
   title: ''
   type: FinOps
   url: finops/starwood-hotels-and-resorts-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/agentic-access/starwood-hotels-and-resorts-agentic-access.yml
+  href: https://artifacts.apis.io/starwood-hotels-and-resorts/agentic-access/starwood-hotels-and-resorts-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/starwood-hotels-and-resorts-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/security/starwood-hotels-and-resorts-domain-security.yml
+  href: https://artifacts.apis.io/starwood-hotels-and-resorts/security/starwood-hotels-and-resorts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/starwood-hotels-and-resorts-domain-security.yml
@@ -140,32 +139,32 @@ common:
   type: PrivacyPolicy
   url: https://www.starwoodhotels.com/corporate/privacy.html
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/_original/starwood-hotel-search-openapi.yml
+  href: https://artifacts.apis.io/starwood-hotels-and-resorts/openapi/_original/starwood-hotel-search-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/starwood-hotel-search-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/json-schema/starwood-hotel-search-schema.json
+  href: https://artifacts.apis.io/starwood-hotels-and-resorts/json-schema/starwood-hotel-search-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/starwood-hotel-search-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/json-structure/starwood-hotel-structure.json
+  href: https://artifacts.apis.io/starwood-hotels-and-resorts/json-structure/starwood-hotel-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/starwood-hotel-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/json-ld/starwood-hotels-and-resorts-context.jsonld
+  href: https://artifacts.apis.io/starwood-hotels-and-resorts/json-ld/starwood-hotels-and-resorts-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/starwood-hotels-and-resorts-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/vocabulary/starwood-hotels-and-resorts-vocabulary.yml
+  href: https://artifacts.apis.io/starwood-hotels-and-resorts/vocabulary/starwood-hotels-and-resorts-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/starwood-hotels-and-resorts-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/rules/starwood-hotels-and-resorts-rules.yml
+  href: https://artifacts.apis.io/starwood-hotels-and-resorts/rules/starwood-hotels-and-resorts-rules.yml
   title: ''
   type: SpectralRules
   url: rules/starwood-hotels-and-resorts-rules.yml
@@ -228,7 +227,7 @@ press:
 - date: ''
   title: CT-STARWOOD-HOTELS | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/3177140/ct-starwood-hotels?publisherId=90456
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Starwood Hotels And Resorts Rate Limits
@@ -259,7 +258,7 @@ rules:
   slug: starwood-hotels-and-resorts-rules
 score:
   band: thin
-  composite: 27.1
+  composite: 33.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 55.0
@@ -267,12 +266,12 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 51.4
-    developer_ergonomics: 19.0
+    developer_ergonomics: 21.4
     discoverability: 60.7
     operational_transparency: 5.3
   jurisdiction:
@@ -280,7 +279,7 @@ score:
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 26.0
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -293,15 +292,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/screenshots/starwood-hotels-and-resorts-2026-06-20T194521.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/starwood-hotels-and-resorts/starwood-hotels-and-resorts-2026-06-20T194521.png
 security:
 - kind: domain-security
   name: Starwood Hotels And Resorts Domain Security

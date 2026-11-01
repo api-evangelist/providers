@@ -4,6 +4,6 @@ layout: provider
 name: openchain
 nav: Providers
 network: true
-random_paper: 3
+random_paper: 13
 slug: openchain
 ---

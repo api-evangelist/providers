@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -104,11 +106,8 @@ apis:
   description: User API
   name: PRIMIS User API
   slug: primis-user-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: REST Auth API
   slug: open-primis-auth-api
@@ -151,32 +150,32 @@ common:
   type: BlogRSS
   url: https://primis.cx/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/capabilities/primis-capability-edges.yml
+  href: https://artifacts.apis.io/primis/capabilities/primis-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/primis-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/mcp/primis-mcp.yml
+  href: https://artifacts.apis.io/primis/mcp/primis-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/primis-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/overlays/primis-openapi-overlay.yaml
+  href: https://artifacts.apis.io/primis/overlays/primis-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/primis-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/agentic-access/primis-agentic-access.yml
+  href: https://artifacts.apis.io/primis/agentic-access/primis-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/primis-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/security/primis-domain-security.yml
+  href: https://artifacts.apis.io/primis/security/primis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/primis-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/authentication/primis-authentication.yml
+  href: https://artifacts.apis.io/primis/authentication/primis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/primis-authentication.yml
@@ -217,7 +216,7 @@ common:
   type: PrivacyPolicy
   url: https://primis.cx/privacy-centre/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/llms/primis-llms.txt
+  href: https://artifacts.apis.io/primis/llms/primis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/primis-llms.txt
@@ -233,10 +232,10 @@ overview: 'PRIMIS publishes 12 API contracts indexed on the [APIs.io](https://ap
 
 
   PRIMIS''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: thin
-  composite: 35.1
+  composite: 34.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -248,11 +247,11 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 41.3
+    contract_quality: 40.4
     developer_ergonomics: 50.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 35.1
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,13 +267,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/screenshots/primis-2026-09-02T152023.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/primis/primis-2026-09-02T152023.png
 security:
 - kind: authentication
   name: Primis Authentication

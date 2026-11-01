@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,22 +67,22 @@ common:
   type: SourceCode
   url: https://github.com/cega-fi/cega-sdk-evm
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cega/refs/heads/main/packages/cega-packages.yml
+  href: https://artifacts.apis.io/cega/packages/cega-packages.yml
   title: ''
   type: Packages
   url: packages/cega-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cega/refs/heads/main/packages/cega-packages.yml
+  href: https://artifacts.apis.io/cega/packages/cega-packages.yml
   title: ''
   type: SDKs
   url: packages/cega-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cega/refs/heads/main/llms/cega-llms.txt
+  href: https://artifacts.apis.io/cega/llms/cega-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cega-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cega/refs/heads/main/security/cega-domain-security.yml
+  href: https://artifacts.apis.io/cega/security/cega-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cega-domain-security.yml
@@ -96,12 +98,12 @@ overview: 'Cega is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Cega''s developer surface includes documentation and 10 more developer resources.'
-random_paper: 4
+random_paper: 16
 score:
   band: minimal
-  composite: 7.9
+  composite: 8.5
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -112,18 +114,18 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 7.9
+    developer_ergonomics: 26.2
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 8.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 5.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

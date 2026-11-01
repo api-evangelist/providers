@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/streamloan/refs/heads/main/security/streamloan-domain-security.yml
+  href: https://artifacts.apis.io/streamloan/security/streamloan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/streamloan-domain-security.yml
@@ -54,7 +56,7 @@ name: StreamLoan
 nav: Providers
 network: true
 overview: StreamLoan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mortgage, Lending, Loan Origination, and Point-of-Sale.
-random_paper: 0
+random_paper: 22
 score:
   band: minimal
   composite: 0.0
@@ -81,8 +83,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

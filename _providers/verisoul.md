@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.6
-  scored_at: '2026-10-17'
+  score: 34.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 26
   slug: verisoul-agentic-access
   summary_line: 26 operations · 16 acting
-api_count: 16
+api_count: 8
 apis:
 - baseURL: https://api.prod.verisoul.ai
   baseurl_source: declared
@@ -86,15 +88,12 @@ apis:
   description: The Verification API from Verisoul — 3 operation(s) for verification.
   name: Verisoul Verification API
   slug: verisoul-verification-api
-artifact_total: 23
+artifact_total: 27
 asyncapis:
 - description: Asynchronous results for the Verisoul Email Intelligence API are delivered to your configured endpoint as signed webhooks. When an email submitted via POST /email (or the batch endpoint) finishes anal
   name: Verisoul Email Intelligence Webhooks
   slug: verisoul-email-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Verisoul Account API
   slug: open-verisoul-account-api
@@ -121,12 +120,17 @@ collections:
   slug: open-verisoul-verification-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/overlays/verisoul-account-overlay.yaml
+  href: https://artifacts.apis.io/verisoul/capabilities/verisoul-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/verisoul-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/verisoul/overlays/verisoul-account-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/verisoul-account-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/security/verisoul-domain-security.yml
+  href: https://artifacts.apis.io/verisoul/security/verisoul-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/verisoul-domain-security.yml
@@ -187,37 +191,37 @@ common:
   type: StatusPage
   url: https://status.verisoul.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/authentication/verisoul-authentication.yml
+  href: https://artifacts.apis.io/verisoul/authentication/verisoul-authentication.yml
   title: ''
   type: Authentication
   url: authentication/verisoul-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/conventions/verisoul-conventions.yml
+  href: https://artifacts.apis.io/verisoul/conventions/verisoul-conventions.yml
   title: ''
   type: Conventions
   url: conventions/verisoul-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/errors/verisoul-problem-types.yml
+  href: https://artifacts.apis.io/verisoul/errors/verisoul-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/verisoul-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/rate-limits/verisoul-rate-limits.yml
+  href: https://artifacts.apis.io/verisoul/rate-limits/verisoul-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/verisoul-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/lifecycle/verisoul-lifecycle.yml
+  href: https://artifacts.apis.io/verisoul/lifecycle/verisoul-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/verisoul-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/sandbox/verisoul-sandbox.yml
+  href: https://artifacts.apis.io/verisoul/sandbox/verisoul-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/verisoul-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/conformance/verisoul-conformance.yml
+  href: https://artifacts.apis.io/verisoul/conformance/verisoul-conformance.yml
   title: ''
   type: Conformance
   url: conformance/verisoul-conformance.yml
@@ -226,62 +230,62 @@ common:
   type: Compliance
   url: https://trust.verisoul.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/security/verisoul-trust-center.yml
+  href: https://artifacts.apis.io/verisoul/security/verisoul-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/verisoul-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/data-model/verisoul-data-model.yml
+  href: https://artifacts.apis.io/verisoul/data-model/verisoul-data-model.yml
   title: ''
   type: DataModel
   url: data-model/verisoul-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/components/verisoul-components.yml
+  href: https://artifacts.apis.io/verisoul/components/verisoul-components.yml
   title: ''
   type: Components
   url: components/verisoul-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/mcp/verisoul-mcp.yml
+  href: https://artifacts.apis.io/verisoul/mcp/verisoul-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/verisoul-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/llms/verisoul-llms.txt
+  href: https://artifacts.apis.io/verisoul/llms/verisoul-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/verisoul-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/well-known/verisoul-well-known.yml
+  href: https://artifacts.apis.io/verisoul/well-known/verisoul-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/verisoul-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/packages/verisoul-packages.yml
+  href: https://artifacts.apis.io/verisoul/packages/verisoul-packages.yml
   title: ''
   type: Packages
   url: packages/verisoul-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/packages/verisoul-packages.yml
+  href: https://artifacts.apis.io/verisoul/packages/verisoul-packages.yml
   title: ''
   type: SDKs
   url: packages/verisoul-packages.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/asyncapi/verisoul-email-asyncapi.yml
+  href: https://artifacts.apis.io/verisoul/asyncapi/verisoul-email-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/verisoul-email-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/asyncapi/verisoul-email-asyncapi.yml
+  href: https://artifacts.apis.io/verisoul/asyncapi/verisoul-email-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/verisoul-email-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/agentic-access/verisoul-agentic-access.yml
+  href: https://artifacts.apis.io/verisoul/agentic-access/verisoul-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/verisoul-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/verisoul/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -299,31 +303,31 @@ overview: 'Verisoul publishes 8 API contracts indexed on the [APIs.io](https://a
   The Verisoul catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Verisoul''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 9
+  Verisoul''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Verisoul Rate Limits
   slug: verisoul-rate-limits
 score:
-  band: developing
-  composite: 51.2
+  band: strong
+  composite: 55.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 59.2
     developer_ergonomics: 73.2
-    discoverability: 78.6
-    operational_transparency: 18.4
-  previous_composite: 51.1
+    discoverability: 71.4
+    operational_transparency: 28.9
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -340,13 +344,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/screenshots/verisoul-2026-08-17T082730.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/verisoul/verisoul-2026-08-17T082730.png
 security:
 - kind: authentication
   name: Verisoul Authentication
@@ -360,6 +365,18 @@ security:
   name: Verisoul Trust Center
   slug: verisoul-trust-center
   summary_line: trust center published
+skill_count: 5
+skills:
+- name: Submit an email for intelligence and process the webhook
+  slug: verisoul-email-intelligence
+- name: Run a Face Match liveness verification
+  slug: verisoul-face-match
+- name: Run an ID Check document verification
+  slug: verisoul-id-check
+- name: Manage account lists for the rules engine
+  slug: verisoul-manage-lists
+- name: Verify a session and get an account risk decision
+  slug: verisoul-verify-session-risk
 slug: verisoul
 tags:
 - Company

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'mConsole is CODE24''s modern EPD (electronic health record). CODE24 states that the record has a software interface (API) with which other care systems can read and write care data back into mConsole, '
@@ -42,7 +44,7 @@ common:
   type: BlogRSS
   url: https://blog.code24.nl/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/code24/refs/heads/main/security/code24-domain-security.yml
+  href: https://artifacts.apis.io/code24/security/code24-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/code24-domain-security.yml
@@ -95,37 +97,37 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/code24/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/code24/refs/heads/main/lifecycle/code24-lifecycle.yml
+  href: https://artifacts.apis.io/code24/lifecycle/code24-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/code24-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/code24/refs/heads/main/conformance/code24-conformance.yml
+  href: https://artifacts.apis.io/code24/conformance/code24-conformance.yml
   title: ''
   type: Conformance
   url: conformance/code24-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/code24/refs/heads/main/conformance/code24-conformance.yml
+  href: https://artifacts.apis.io/code24/conformance/code24-conformance.yml
   title: ''
   type: Compliance
   url: conformance/code24-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/code24/refs/heads/main/security/code24-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/code24/security/code24-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/code24-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/code24/refs/heads/main/llms/code24-llms.txt
+  href: https://artifacts.apis.io/code24/llms/code24-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/code24-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/code24/refs/heads/main/plans/code24-plans-pricing.yml
+  href: https://artifacts.apis.io/code24/plans/code24-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/code24-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/code24/refs/heads/main/rate-limits/code24-rate-limits.yml
+  href: https://artifacts.apis.io/code24/rate-limits/code24-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/code24-rate-limits.yml
@@ -160,14 +162,14 @@ plans:
 - name: Code24 Plans Pricing
   plan_count: 0
   slug: code24-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Code24 Rate Limits
   slug: code24-rate-limits
 score:
   band: emerging
-  composite: 21.4
+  composite: 22.3
   coverage:
     artifact_dirs: 11
     catalog_earned: 35.0
@@ -175,14 +177,14 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 69.6
-    operational_transparency: 13.2
+    discoverability: 62.5
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -191,7 +193,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 21.3
+  previous_composite: 22.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -201,14 +203,14 @@ score:
     regime: Health
     regime_id: health
     score: 26.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/code24/refs/heads/main/screenshots/code24-2026-10-11T103112.png
+screenshot: https://apis.io/screenshots/code24/code24-2026-10-11T103112.png
 security:
 - kind: domain-security
   name: Code24 Domain Security

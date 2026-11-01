@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,12 +55,12 @@ common:
   type: TermsOfService
   url: https://fig-1.co/policies/terms-of-service
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fig-1/refs/heads/main/well-known/fig-1-well-known.yml
+  href: https://artifacts.apis.io/fig-1/well-known/fig-1-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fig-1-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fig-1/refs/heads/main/security/fig-1-domain-security.yml
+  href: https://artifacts.apis.io/fig-1/security/fig-1-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fig-1-domain-security.yml
@@ -74,7 +76,7 @@ overview: 'Fig 1 is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Fig 1''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 8
+random_paper: 20
 score:
   band: emerging
   composite: 12.3
@@ -100,14 +102,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fig-1/refs/heads/main/screenshots/fig-1-2026-08-07T165251.png
+screenshot: https://apis.io/screenshots/fig-1/fig-1-2026-08-07T165251.png
 security:
 - kind: domain-security
   name: Fig 1 Domain Security

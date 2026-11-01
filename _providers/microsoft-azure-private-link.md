@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: derived
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 29
   slug: microsoft-azure-private-link-agentic-access
   summary_line: 29 operations · 13 acting
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://management.azure.com/
   baseurl_source: declared
@@ -74,11 +76,8 @@ apis:
   description: The Subscriptions API from Microsoft Azure Private Link — 2 operation(s) for subscriptions.
   name: Microsoft Azure Private Link Subscriptions API
   slug: microsoft-azure-private-link-subscriptions-api
-artifact_total: 19
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Private Link REST Operations API
   slug: open-microsoft-azure-private-link-operations-api
@@ -90,12 +89,12 @@ collections:
   slug: open-microsoft-azure-private-link
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/finops/microsoft-azure-private-link-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/finops/microsoft-azure-private-link-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-azure-private-link-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/capabilities/microsoft-azure-private-link-capability-edges.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/capabilities/microsoft-azure-private-link-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-azure-private-link-capability-edges.yml
@@ -144,7 +143,7 @@ common:
   type: Pricing
   url: https://azure.microsoft.com/en-us/pricing/details/private-link/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/plans/microsoft-azure-private-link-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/plans/microsoft-azure-private-link-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-azure-private-link-plans-pricing.yml
@@ -165,47 +164,47 @@ common:
   type: Support
   url: https://azure.microsoft.com/en-us/support/options/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/agentic-access/microsoft-azure-private-link-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/agentic-access/microsoft-azure-private-link-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-private-link-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/authentication/microsoft-azure-private-link-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/authentication/microsoft-azure-private-link-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-private-link-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/scopes/microsoft-azure-private-link-scopes.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/scopes/microsoft-azure-private-link-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-private-link-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/conventions/microsoft-azure-private-link-conventions.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/conventions/microsoft-azure-private-link-conventions.yml
   title: ''
   type: Conventions
   url: conventions/microsoft-azure-private-link-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/conventions/microsoft-azure-private-link-conventions.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/conventions/microsoft-azure-private-link-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/microsoft-azure-private-link-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/errors/microsoft-azure-private-link-problem-types.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/errors/microsoft-azure-private-link-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/microsoft-azure-private-link-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/rate-limits/microsoft-azure-private-link-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/rate-limits/microsoft-azure-private-link-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-azure-private-link-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/data-model/microsoft-azure-private-link-data-model.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/data-model/microsoft-azure-private-link-data-model.yml
   title: ''
   type: DataModel
   url: data-model/microsoft-azure-private-link-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/lifecycle/microsoft-azure-private-link-lifecycle.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/lifecycle/microsoft-azure-private-link-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/microsoft-azure-private-link-lifecycle.yml
@@ -218,37 +217,37 @@ common:
   type: Deprecation
   url: https://azure.microsoft.com/en-us/updates/?updateType=retirements
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/changelog/microsoft-azure-private-link-changelog.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/changelog/microsoft-azure-private-link-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/microsoft-azure-private-link-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/packages/microsoft-azure-private-link-packages.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/packages/microsoft-azure-private-link-packages.yml
   title: ''
   type: Packages
   url: packages/microsoft-azure-private-link-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/packages/microsoft-azure-private-link-packages.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/packages/microsoft-azure-private-link-packages.yml
   title: ''
   type: SDKs
   url: packages/microsoft-azure-private-link-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/cli/microsoft-azure-private-link-cli.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/cli/microsoft-azure-private-link-cli.yml
   title: ''
   type: CLI
   url: cli/microsoft-azure-private-link-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/llms/microsoft-azure-private-link-llms.txt
+  href: https://artifacts.apis.io/microsoft-azure-private-link/llms/microsoft-azure-private-link-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/microsoft-azure-private-link-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/conformance/microsoft-azure-private-link-conformance.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/conformance/microsoft-azure-private-link-conformance.yml
   title: ''
   type: Conformance
   url: conformance/microsoft-azure-private-link-conformance.yml
@@ -257,7 +256,7 @@ common:
   type: Compliance
   url: https://learn.microsoft.com/en-us/azure/compliance/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/security/microsoft-azure-private-link-trust-center.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/security/microsoft-azure-private-link-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/microsoft-azure-private-link-trust-center.yml
@@ -266,33 +265,33 @@ common:
   type: Security
   url: https://www.microsoft.com/en-us/msrc/cvd
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/security/microsoft-azure-private-link-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/security/microsoft-azure-private-link-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-azure-private-link-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/well-known/microsoft-azure-private-link-security.txt
+  href: https://artifacts.apis.io/microsoft-azure-private-link/well-known/microsoft-azure-private-link-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/microsoft-azure-private-link-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/well-known/microsoft-azure-private-link-well-known.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/well-known/microsoft-azure-private-link-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/microsoft-azure-private-link-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/security/microsoft-azure-private-link-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-private-link/security/microsoft-azure-private-link-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-private-link-domain-security.yml
 created: '2026-05-04'
 description: 'Microsoft Azure Private Link gives a virtual network a private IP address onto an Azure PaaS service, a partner service, or a service the customer publishes themselves, so traffic reaches it across the Microsoft backbone and never traverses the public internet. It has two sides. A consumer creates a private endpoint pointing at a target resource id and attaches a private DNS zone group so the service''s own hostname resolves to that private address. A producer publishes a private link service in front of a Standard Load Balancer, hands out an opaque alias, and approves or rejects the connections that arrive — including connections from other tenants. Both sides are managed through the Azure Resource Manager REST API at management.azure.com, which Microsoft publishes as Swagger 2.0 in its azure-rest-api-specs repository: 24 operations at api-version 2025-03-01, OAuth2 bearer only, with no API key and no anonymous surface.'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Microsoft Azure Private Link Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: microsoft-azure-private-link-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-private-link.png
@@ -309,7 +308,7 @@ plans:
 - name: Microsoft Azure Private Link Plans Pricing
   plan_count: 0
   slug: microsoft-azure-private-link-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 6
   name: Microsoft Azure Private Link Rate Limits
@@ -321,23 +320,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 63.3
+  composite: 60.9
   coverage:
     artifact_dirs: 26
-    catalog_earned: 52.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: -0.5
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 42.2
     developer_ergonomics: 73.2
-    discoverability: 78.6
-    operational_transparency: 89.5
-  previous_composite: 64.3
+    discoverability: 66.1
+    operational_transparency: 92.1
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -354,13 +353,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/screenshots/microsoft-azure-private-link-2026-06-20T185432.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-private-link/microsoft-azure-private-link-2026-06-20T185432.png
 security:
 - kind: authentication
   name: Microsoft Azure Private Link Authentication
@@ -378,6 +378,12 @@ security:
   name: Microsoft Azure Private Link Trust Center
   slug: microsoft-azure-private-link-trust-center
   summary_line: GDPR
+skill_count: 2
+skills:
+- name: approve-endpoint-connections
+  slug: microsoft-azure-private-link-approve-endpoint-connections
+- name: connect-to-paas-service
+  slug: microsoft-azure-private-link-connect-to-paas-service
 slug: microsoft-azure-private-link
 tags:
 - Networking

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'SAP NS2 is an independent US subsidiary of SAP SE that operates SAP cloud and software workloads for the US federal government, the Department of Defense, the Intelligence Community, and commercially '
@@ -41,12 +43,12 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-america/refs/heads/main/security/sap-america-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sap-america/security/sap-america-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sap-america-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-america/refs/heads/main/security/sap-america-domain-security.yml
+  href: https://artifacts.apis.io/sap-america/security/sap-america-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sap-america-domain-security.yml
@@ -130,10 +132,10 @@ overview: 'SAP America is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   SAP America''s developer surface includes privacy policy, legal docs, engineering blog, and 16 more developer resources.'
-random_paper: 13
+random_paper: 11
 score:
   band: emerging
-  composite: 13.1
+  composite: 14.6
   coverage:
     artifact_dirs: 4
     catalog_earned: 25.0
@@ -147,8 +149,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 52.7
-    operational_transparency: 5.3
+    discoverability: 53.6
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -156,21 +158,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 13.1
+  previous_composite: 14.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sap-america/refs/heads/main/screenshots/sap-america-2026-06-20T193418.png
+screenshot: https://apis.io/screenshots/sap-america/sap-america-2026-06-20T193418.png
 security:
 - kind: domain-security
   name: Sap America Domain Security

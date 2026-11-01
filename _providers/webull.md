@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.5
-  scored_at: '2026-10-17'
+  score: 32.9
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'Order management across stocks, options, futures, crypto, and event contracts — place, preview, replace, cancel, batch (combo OTO/OCO/OTOCO), and algo (TWAP/VWAP/POV) orders, plus accounts, balances, '
@@ -45,7 +47,7 @@ apis:
 - description: OAuth 2.0 third-party integration for authorizing access to a Webull user's account.
   name: Webull Connect API
   slug: webull-connect-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Webull Events Webhooks
@@ -56,7 +58,7 @@ common:
   type: Blog
   url: https://www.webull.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/security/webull-domain-security.yml
+  href: https://artifacts.apis.io/webull/security/webull-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/webull-domain-security.yml
@@ -89,82 +91,82 @@ common:
   type: GitHubOrganization
   url: https://github.com/webull-inc
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/authentication/webull-authentication.yml
+  href: https://artifacts.apis.io/webull/authentication/webull-authentication.yml
   title: ''
   type: Authentication
   url: authentication/webull-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/packages/webull-packages.yml
+  href: https://artifacts.apis.io/webull/packages/webull-packages.yml
   title: ''
   type: SDKs
   url: packages/webull-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/packages/webull-packages.yml
+  href: https://artifacts.apis.io/webull/packages/webull-packages.yml
   title: ''
   type: Packages
   url: packages/webull-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/cli/webull-cli.yml
+  href: https://artifacts.apis.io/webull/cli/webull-cli.yml
   title: ''
   type: CLI
   url: cli/webull-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/mcp/webull-mcp.yml
+  href: https://artifacts.apis.io/webull/mcp/webull-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/webull-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/webull/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/llms/webull-llms.txt
+  href: https://artifacts.apis.io/webull/llms/webull-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/webull-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/grpc/webull-events.proto
+  href: https://artifacts.apis.io/webull/grpc/webull-events.proto
   title: ''
   type: Protobuf
   url: grpc/webull-events.proto
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/asyncapi/webull-events-webhooks.yml
+  href: https://artifacts.apis.io/webull/asyncapi/webull-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/webull-events-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/conventions/webull-conventions.yml
+  href: https://artifacts.apis.io/webull/conventions/webull-conventions.yml
   title: ''
   type: Conventions
   url: conventions/webull-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/conventions/webull-conventions.yml
+  href: https://artifacts.apis.io/webull/conventions/webull-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/webull-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/conformance/webull-conformance.yml
+  href: https://artifacts.apis.io/webull/conformance/webull-conformance.yml
   title: ''
   type: Conformance
   url: conformance/webull-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/errors/webull-error-codes.yml
+  href: https://artifacts.apis.io/webull/errors/webull-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/webull-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/lifecycle/webull-lifecycle.yml
+  href: https://artifacts.apis.io/webull/lifecycle/webull-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/webull-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/sandbox/webull-sandbox.yml
+  href: https://artifacts.apis.io/webull/sandbox/webull-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/webull-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/well-known/webull-well-known.yml
+  href: https://artifacts.apis.io/webull/well-known/webull-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/webull-well-known.yml
@@ -187,25 +189,25 @@ overview: 'Webull is listed with 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Webull''s developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, authentication, CLI, and 18 more developer resources.'
-random_paper: 13
+random_paper: 3
 score:
   band: thin
-  composite: 37.0
+  composite: 36.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 81.0
-    discoverability: 78.6
-    operational_transparency: 26.3
+    discoverability: 70.0
+    operational_transparency: 28.9
   previous_composite: 36.5
   provenance:
     conformance: derived
@@ -217,14 +219,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/screenshots/webull-2026-09-02T170543.png
+screenshot: https://apis.io/screenshots/webull/webull-2026-09-02T170543.png
 security:
 - kind: authentication
   name: Webull Authentication
@@ -234,6 +236,10 @@ security:
   name: Webull Domain Security
   slug: webull-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: webull-openapi
+  slug: webull-openapi
 slug: webull
 tags:
 - Company

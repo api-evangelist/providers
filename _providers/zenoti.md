@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,18 +36,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the Zenoti beauty/wellness/fitness platform covering centers, appointments, guests, invoices and payments, memberships, packages, gift cards, classes, opportunities, employees, and webhoo
   name: Zenoti API
   slug: zenoti-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Zenoti Webhooks
   slug: zenoti-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/zenoti/plans/zenoti-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/zenoti-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -87,82 +94,90 @@ common:
   type: StatusPage
   url: https://status.zenoti.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/lifecycle/zenoti-lifecycle.yml
+  href: https://artifacts.apis.io/zenoti/lifecycle/zenoti-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zenoti-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/authentication/zenoti-authentication.yml
+  href: https://artifacts.apis.io/zenoti/authentication/zenoti-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zenoti-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/conventions/zenoti-conventions.yml
+  href: https://artifacts.apis.io/zenoti/conventions/zenoti-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zenoti-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/errors/zenoti-problem-types.yml
+  href: https://artifacts.apis.io/zenoti/errors/zenoti-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zenoti-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/asyncapi/zenoti-webhooks.yml
+  href: https://artifacts.apis.io/zenoti/asyncapi/zenoti-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zenoti-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/conformance/zenoti-conformance.yml
+  href: https://artifacts.apis.io/zenoti/conformance/zenoti-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zenoti-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/security/zenoti-trust-center.yml
+  href: https://artifacts.apis.io/zenoti/security/zenoti-trust-center.yml
   title: ''
   type: Compliance
   url: security/zenoti-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/mcp/zenoti-mcp.yml
+  href: https://artifacts.apis.io/zenoti/mcp/zenoti-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zenoti-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/llms/zenoti-llms.txt
+  href: https://artifacts.apis.io/zenoti/llms/zenoti-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zenoti-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/well-known/zenoti-well-known.yml
+  href: https://artifacts.apis.io/zenoti/well-known/zenoti-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zenoti-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/well-known/zenoti-security.txt
+  href: https://artifacts.apis.io/zenoti/well-known/zenoti-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/zenoti-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/security/zenoti-domain-security.yml
+  href: https://artifacts.apis.io/zenoti/security/zenoti-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zenoti-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/security/zenoti-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zenoti/security/zenoti-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zenoti-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/security/zenoti-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zenoti/security/zenoti-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/zenoti-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/security/zenoti-trust-center.yml
+  href: https://artifacts.apis.io/zenoti/security/zenoti-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zenoti-trust-center.yml
 created: '2026-07-17'
 description: Zenoti is an AI-powered, all-in-one cloud management platform for the beauty, wellness, and fitness industries, serving 30,000+ salons, spas, medspas, barbershops, and fitness centers across 50+ countries. It covers online booking, point of sale and payments, memberships, packages, gift cards, loyalty, marketing, staff scheduling, and business intelligence. Zenoti exposes a large REST API (~283 documented operations) with API-key and bearer-token authentication, signed webhooks, page-number pagination, and per-organization rate limiting, letting partners build custom booking, membership-sale, product-sale, gift-card, and CRM/opportunity workflows on top of the platform.
+finops:
+- has_sources: true
+  method: derived
+  name: Zenoti Finops
+  primary_unit: ''
+  service_category: ''
+  slug: zenoti-finops
+  template: true
 image: https://www.zenoti.com/favicon.ico
 layout: provider
 modified: '2026-07-21'
@@ -175,27 +190,31 @@ overview: 'Zenoti is listed with 1 API on the [APIs.io](https://apis.io/) networ
   The Zenoti catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zenoti''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 5
+  Zenoti''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
+plans:
+- name: Zenoti Plans Pricing
+  plan_count: 2
+  slug: zenoti-plans-pricing
+random_paper: 17
 score:
   band: developing
-  composite: 40.1
+  composite: 47.7
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 17
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 39.5
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 41.7
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 40.1
+    developer_ergonomics: 57.1
+    discoverability: 66.1
+    operational_transparency: 50.0
+  previous_composite: 43.5
   provenance:
     conformance: derived
     mcp: derived
@@ -205,14 +224,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zenoti/refs/heads/main/screenshots/zenoti-2026-08-17T083047.png
+screenshot: https://apis.io/screenshots/zenoti/zenoti-2026-08-17T083047.png
 security:
 - kind: authentication
   name: Zenoti Authentication

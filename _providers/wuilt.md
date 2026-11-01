@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Public GraphQL endpoint powering the Wuilt website/e-commerce builder. Introspection is enabled; the schema exposes read queries across sites, pages, sections, menus, forms, form submissions, plans, p
@@ -85,7 +87,7 @@ common:
   type: About
   url: https://wuilt.com/about-us
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/wuilt/refs/heads/main/graphql/wuilt-graphql.graphql
+  href: https://artifacts.apis.io/wuilt/graphql/wuilt-graphql.graphql
   title: ''
   type: GraphQL
   url: graphql/wuilt-graphql.graphql
@@ -121,10 +123,10 @@ overview: 'Wuilt is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Wuilt''s developer surface includes signup flow, pricing, engineering blog, support, FAQ, YouTube channel, and 11 more developer resources.'
-random_paper: 15
+random_paper: 13
 score:
   band: emerging
-  composite: 23.4
+  composite: 24.7
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -132,9 +134,9 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 35.1
     developer_ergonomics: 7.1
@@ -149,27 +151,21 @@ score:
     - africa
     - mena
     - north-africa
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
-  previous_composite: 23.3
+  previous_composite: 24.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wuilt/refs/heads/main/screenshots/wuilt-2026-09-02T171015.png
+screenshot: https://apis.io/screenshots/wuilt/wuilt-2026-09-02T171015.png
 slug: wuilt
 tags:
 - Company

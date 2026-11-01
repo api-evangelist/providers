@@ -10,30 +10,32 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 31.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,7 +65,22 @@ apis:
   description: Operations for writing time series data.
   name: Amazon Timestream Write API
   slug: amazon-timestream-write-api
-artifact_total: 30
+- baseURL: https://ingest.timestream.amazonaws.com
+  baseurl_source: declared
+  description: The Timestream Batch Load Task API from Amazon Timestream — 3 operation(s) for timestream batch load task.
+  name: Amazon Timestream Timestream Batch Load Task API
+  slug: amazon-timestream-batch-load-task-api
+- baseURL: https://ingest.timestream.amazonaws.com
+  baseurl_source: declared
+  description: The Timestream Operations API from Amazon Timestream — 8 operation(s) for timestream operations.
+  name: Amazon Timestream Timestream Operations API
+  slug: amazon-timestream-operations-api
+- baseURL: https://ingest.timestream.amazonaws.com
+  baseurl_source: declared
+  description: The Timestream Scheduled Query API from Amazon Timestream — 6 operation(s) for timestream scheduled query.
+  name: Amazon Timestream Timestream Scheduled Query API
+  slug: amazon-timestream-scheduled-query-api
+artifact_total: 32
 collections:
 - collection_type: postman
   name: Amazon Timestream Databases API
@@ -77,9 +94,6 @@ collections:
 - collection_type: postman
   name: Amazon Timestream Databases Write API
   slug: postman-amazon-timestream-write-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Timestream Databases API
   slug: open-amazon-timestream-databases-api
@@ -97,17 +111,17 @@ collections:
   slug: open-amazon-timestream
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/plans/amazon-timestream-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-timestream/plans/amazon-timestream-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-timestream-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/rate-limits/amazon-timestream-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-timestream/rate-limits/amazon-timestream-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-timestream-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/finops/amazon-timestream-finops.yml
+  href: https://artifacts.apis.io/amazon-timestream/finops/amazon-timestream-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-timestream-finops.yml
@@ -116,22 +130,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-timestream/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/agentic-access/amazon-timestream-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-timestream/agentic-access/amazon-timestream-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-timestream-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/security/amazon-timestream-trust-center.yml
+  href: https://artifacts.apis.io/amazon-timestream/security/amazon-timestream-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-timestream-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/security/amazon-timestream-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-timestream/security/amazon-timestream-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-timestream-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/security/amazon-timestream-domain-security.yml
+  href: https://artifacts.apis.io/amazon-timestream/security/amazon-timestream-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-timestream-domain-security.yml
@@ -203,13 +217,13 @@ features:
 - description: Programmatic access to Amazon Timestream resources.
   name: API Access
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Timestream Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: gb-month
+  service_category: ''
   slug: amazon-timestream-finops
-  template: true
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: Database
@@ -229,7 +243,7 @@ modified: '2026-05-19'
 name: Amazon Timestream
 nav: Providers
 network: true
-overview: 'Amazon Timestream publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Databases API, Query API, Tables API, and 1 more. Tagged areas include Database, IoT, and Time Series.
+overview: 'Amazon Timestream publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Databases API, Query API, Tables API, and 4 more. Tagged areas include Database, IoT, and Time Series.
 
 
   The Amazon Timestream catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -238,9 +252,9 @@ overview: 'Amazon Timestream publishes 4 API contracts indexed on the [APIs.io](
   Amazon Timestream''s developer surface includes developer portal, documentation, support, developer console, signup flow, and 17 more developer resources.'
 plans:
 - name: Amazon Timestream Plans Pricing
-  plan_count: 3
+  plan_count: 15
   slug: amazon-timestream-plans-pricing
-random_paper: 14
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Amazon Timestream Rate Limits
@@ -270,44 +284,45 @@ rules:
     warn: 8
   slug: amazon-timestream-spectral-rules
 score:
-  band: developing
-  composite: 45.1
+  band: strong
+  composite: 58.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 52.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
+    artifact_dirs: 19
+    catalog_earned: 64.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 2.6
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 43.8
+    contract_quality: 55.0
     developer_ergonomics: 44.0
     discoverability: 64.3
-    operational_transparency: 26.3
-  previous_composite: 46.6
+    operational_transparency: 39.5
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 85.7
       derived: 0
-      marker_coverage: 0.0
-      total: 4
+      marker_coverage: 42.9
+      total: 7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/screenshots/amazon-timestream-2026-06-20T171834.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-timestream/amazon-timestream-2026-06-20T171834.png
 security:
 - kind: domain-security
   name: Amazon Timestream Domain Security

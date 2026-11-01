@@ -27,17 +27,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 31.0
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: 'Hosted, zero-install MCP server (Streamable HTTP, protocol 2025-06-18) exposing the attestation service to MCP-capable agents. The eight tools were read live from tools/list on 2026-08-11: service_sta'
   name: imgauth Remote MCP Server
@@ -112,12 +114,17 @@ apis:
   description: The Verify API from imgauth — API di attestazione opere digitali — 1 operation(s) for verify.
   name: imgauth — API di attestazione opere digitali Verify API
   slug: imgauth-api-di-attestazione-opere-digitali-verify-api
-artifact_total: 23
+artifact_total: 27
 collections:
 - collection_type: open
   name: imgauth — API di attestazione opere digitali
   slug: open-imgauth-api-di-attestazione-opere-digitali-openapi-original
 common:
+- group: other
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/capabilities/imgauth-api-di-attestazione-opere-digitali-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/imgauth-api-di-attestazione-opere-digitali-capability-edges.yml
 - group: company
   title: ''
   type: Blog
@@ -135,27 +142,27 @@ common:
   type: License
   url: https://github.com/SPAZIO-GENESI/imgauth/blob/main/LICENSE
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/overlays/imgauth-api-di-attestazione-opere-digitali-openapi-overlay.yaml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/overlays/imgauth-api-di-attestazione-opere-digitali-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/imgauth-api-di-attestazione-opere-digitali-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/security/imgauth-api-di-attestazione-opere-digitali-trust-center.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/security/imgauth-api-di-attestazione-opere-digitali-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/imgauth-api-di-attestazione-opere-digitali-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/security/imgauth-api-di-attestazione-opere-digitali-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/security/imgauth-api-di-attestazione-opere-digitali-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/imgauth-api-di-attestazione-opere-digitali-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/security/imgauth-api-di-attestazione-opere-digitali-domain-security.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/security/imgauth-api-di-attestazione-opere-digitali-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/imgauth-api-di-attestazione-opere-digitali-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/authentication/imgauth-api-di-attestazione-opere-digitali-authentication.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/authentication/imgauth-api-di-attestazione-opere-digitali-authentication.yml
   title: ''
   type: Authentication
   url: authentication/imgauth-api-di-attestazione-opere-digitali-authentication.yml
@@ -204,12 +211,12 @@ common:
   type: SourceCode
   url: https://github.com/SPAZIO-GENESI/imgauth
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/well-known/imgauth-api-di-attestazione-opere-digitali-well-known.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/well-known/imgauth-api-di-attestazione-opere-digitali-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/imgauth-api-di-attestazione-opere-digitali-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/well-known/imgauth-api-di-attestazione-opere-digitali-security.txt
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/well-known/imgauth-api-di-attestazione-opere-digitali-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/imgauth-api-di-attestazione-opere-digitali-security.txt
@@ -222,42 +229,42 @@ common:
   type: Compliance
   url: https://trust.spaziogenesi.org/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/packages/imgauth-api-di-attestazione-opere-digitali-packages.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/packages/imgauth-api-di-attestazione-opere-digitali-packages.yml
   title: ''
   type: Packages
   url: packages/imgauth-api-di-attestazione-opere-digitali-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/packages/imgauth-api-di-attestazione-opere-digitali-packages.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/packages/imgauth-api-di-attestazione-opere-digitali-packages.yml
   title: ''
   type: SDKs
   url: packages/imgauth-api-di-attestazione-opere-digitali-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/cli/imgauth-api-di-attestazione-opere-digitali-cli.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/cli/imgauth-api-di-attestazione-opere-digitali-cli.yml
   title: ''
   type: CLI
   url: cli/imgauth-api-di-attestazione-opere-digitali-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/components/imgauth-api-di-attestazione-opere-digitali-components.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/components/imgauth-api-di-attestazione-opere-digitali-components.yml
   title: ''
   type: Components
   url: components/imgauth-api-di-attestazione-opere-digitali-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/llms/imgauth-api-di-attestazione-opere-digitali-llms.txt
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/llms/imgauth-api-di-attestazione-opere-digitali-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/imgauth-api-di-attestazione-opere-digitali-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/conformance/imgauth-api-di-attestazione-opere-digitali-conformance.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/conformance/imgauth-api-di-attestazione-opere-digitali-conformance.yml
   title: ''
   type: Conformance
   url: conformance/imgauth-api-di-attestazione-opere-digitali-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/errors/imgauth-api-di-attestazione-opere-digitali-problem-types.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/errors/imgauth-api-di-attestazione-opere-digitali-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/imgauth-api-di-attestazione-opere-digitali-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/lifecycle/imgauth-api-di-attestazione-opere-digitali-lifecycle.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/lifecycle/imgauth-api-di-attestazione-opere-digitali-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/imgauth-api-di-attestazione-opere-digitali-lifecycle.yml
@@ -266,7 +273,7 @@ common:
   type: StatusPage
   url: https://attestazione.spaziogenesi.org/status/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/changelog/imgauth-api-di-attestazione-opere-digitali-changelog.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/changelog/imgauth-api-di-attestazione-opere-digitali-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/imgauth-api-di-attestazione-opere-digitali-changelog.yml
@@ -275,33 +282,41 @@ common:
   type: ChangeLog
   url: https://attestazione.spaziogenesi.org/changelog/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/conventions/imgauth-api-di-attestazione-opere-digitali-conventions.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/conventions/imgauth-api-di-attestazione-opere-digitali-conventions.yml
   title: ''
   type: Conventions
   url: conventions/imgauth-api-di-attestazione-opere-digitali-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/data-model/imgauth-api-di-attestazione-opere-digitali-data-model.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/data-model/imgauth-api-di-attestazione-opere-digitali-data-model.yml
   title: ''
   type: DataModel
   url: data-model/imgauth-api-di-attestazione-opere-digitali-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/plans/imgauth-api-di-attestazione-opere-digitali-plans-pricing.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/plans/imgauth-api-di-attestazione-opere-digitali-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/imgauth-api-di-attestazione-opere-digitali-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/rate-limits/imgauth-api-di-attestazione-opere-digitali-rate-limits.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/rate-limits/imgauth-api-di-attestazione-opere-digitali-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/imgauth-api-di-attestazione-opere-digitali-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/imgauth-api-di-attestazione-opere-digitali/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-19'
 description: Digital-work attestation and proof-of-existence service operated by Spazio Genesi ETS, an Italian non-profit (third-sector entity). The client computes a SHA-256 fingerprint locally and sends only the 64-hex hash — file bytes never leave the device. The service binds that fingerprint to a signed server-side timestamp (HMAC), issues a PAdES B-LT signed PDF certificate carrying an RFC 3161 timestamp from an Adobe AATL-recognised TSA, and anchors the fingerprint in Bitcoin through OpenTimestamps across four independent calendars. Verification is free and unlimited for anyone, and the proof of existence never expires. Exposes an 18-operation public REST API (OpenAPI 3.0.3, served at the API host root), a hosted zero-install remote MCP server whose eight tools answer tools/list anonymously, an sg-attest CLI, a GitHub Action, embeddable SVG badges and three CORS-open public status endpoints. The API contract is in Italian by design. Positioned explicitly as a NON-QUALIFIED attestation
   under eIDAS 2.0.
+finops:
+- has_sources: true
+  method: derived
+  name: Imgauth Api Di Attestazione Opere Digitali Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: imgauth-api-di-attestazione-opere-digitali-finops
+  template: false
 image: https://attestazione.spaziogenesi.org/og.png
 layout: provider
 mcp_servers:
@@ -315,35 +330,38 @@ network: true
 overview: 'imgauth — API di attestazione opere digitali publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Badge API, C API, and 12 more. Tagged areas include digital notarization, Timestamping, proof-of-existence, Content Authenticity, and Provenance.
 
 
-  imgauth — API di attestazione opere digitali''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, signup flow, pricing, and 33 more developer resources.'
+  imgauth — API di attestazione opere digitali''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, signup flow, pricing, and 34 more developer resources.'
 plans:
 - name: Imgauth Api Di Attestazione Opere Digitali Plans Pricing
   plan_count: 4
   slug: imgauth-api-di-attestazione-opere-digitali-plans-pricing
-random_paper: 0
+- name: Imgauth Api Di Attestazione Opere Digitali Price Estimates
+  plan_count: 0
+  slug: imgauth-api-di-attestazione-opere-digitali-price-estimates
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Imgauth Api Di Attestazione Opere Digitali Rate Limits
   slug: imgauth-api-di-attestazione-opere-digitali-rate-limits
 score:
-  band: strong
-  composite: 66.3
+  band: exemplar
+  composite: 68.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 61.0
+    artifact_dirs: 26
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 47.9
     developer_ergonomics: 73.2
-    discoverability: 68.3
-    operational_transparency: 76.3
-  previous_composite: 65.7
+    discoverability: 65.0
+    operational_transparency: 78.9
+  previous_composite: 67.0
   provenance:
     conformance: first-party
     contracts:
@@ -363,13 +381,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/screenshots/imgauth-api-di-attestazione-opere-digitali-2026-08-17T080953.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/imgauth-api-di-attestazione-opere-digitali/imgauth-api-di-attestazione-opere-digitali-2026-08-17T080953.png
 security:
 - kind: authentication
   name: Imgauth Api Di Attestazione Opere Digitali Authentication
@@ -387,6 +406,12 @@ security:
   name: Imgauth Api Di Attestazione Opere Digitali Trust Center
   slug: imgauth-api-di-attestazione-opere-digitali-trust-center
   summary_line: trust center published
+skill_count: 2
+skills:
+- name: Attest a digital work and issue its certificate
+  slug: imgauth-api-di-attestazione-opere-digitali-attest-a-work
+- name: Verify an attested work and its Bitcoin anchor
+  slug: imgauth-api-di-attestazione-opere-digitali-verify-a-work
 slug: imgauth-api-di-attestazione-opere-digitali
 tags:
 - digital notarization

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'The agent-to-agent surface named in the company''s A2A agent card: a JSON-RPC 2.0 endpoint exposing 16 methods — ping, discover, agent/register, agent/search-agent, agent/email, agent/probe, chat/send,'
@@ -35,7 +37,7 @@ apis:
 - description: A hosted Model Context Protocol server on the company's own domain over the HTTP+SSE transport ("Kunlun v3.0", server version 1.28.1, protocol 2025-06-18). An anonymous handshake returned 8 tools with
   name: Kunlun MCP Server
   slug: kunlun-mcp-server
-artifact_total: 9
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -78,92 +80,92 @@ common:
   type: BlogRSS
   url: https://kunlunyaochi.com/feed.xml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/llms/kunlunyaochi-com-llms.txt
+  href: https://artifacts.apis.io/kunlunyaochi-com/llms/kunlunyaochi-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kunlunyaochi-com-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/a2a/kunlunyaochi-com-a2a.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/a2a/kunlunyaochi-com-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/kunlunyaochi-com-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/mcp/kunlunyaochi-com-mcp.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/mcp/kunlunyaochi-com-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kunlunyaochi-com-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/well-known/kunlunyaochi-com-well-known.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/well-known/kunlunyaochi-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kunlunyaochi-com-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/well-known/kunlunyaochi-com-security.txt
+  href: https://artifacts.apis.io/kunlunyaochi-com/well-known/kunlunyaochi-com-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/kunlunyaochi-com-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/security/kunlunyaochi-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/security/kunlunyaochi-com-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/kunlunyaochi-com-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/security/kunlunyaochi-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/security/kunlunyaochi-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kunlunyaochi-com-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/security/kunlunyaochi-com-domain-security.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/security/kunlunyaochi-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kunlunyaochi-com-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/packages/kunlunyaochi-com-packages.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/packages/kunlunyaochi-com-packages.yml
   title: ''
   type: Packages
   url: packages/kunlunyaochi-com-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/conformance/kunlunyaochi-com-conformance.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/conformance/kunlunyaochi-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kunlunyaochi-com-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/authentication/kunlunyaochi-com-authentication.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/authentication/kunlunyaochi-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kunlunyaochi-com-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/lifecycle/kunlunyaochi-com-lifecycle.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/lifecycle/kunlunyaochi-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kunlunyaochi-com-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/plans/kunlunyaochi-com-plans-pricing.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/plans/kunlunyaochi-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kunlunyaochi-com-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/rate-limits/kunlunyaochi-com-rate-limits.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/rate-limits/kunlunyaochi-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kunlunyaochi-com-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/conventions/kunlunyaochi-com-conventions.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/conventions/kunlunyaochi-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kunlunyaochi-com-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/errors/kunlunyaochi-com-problem-types.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/errors/kunlunyaochi-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kunlunyaochi-com-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/regulatory/kunlunyaochi-com-regulatory-posture.yml
+  href: https://artifacts.apis.io/kunlunyaochi-com/regulatory/kunlunyaochi-com-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/kunlunyaochi-com-regulatory-posture.yml
@@ -191,14 +193,14 @@ plans:
 - name: Kunlunyaochi Com Plans Pricing
   plan_count: 3
   slug: kunlunyaochi-com-plans-pricing
-random_paper: 20
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Kunlunyaochi Com Rate Limits
   slug: kunlunyaochi-com-rate-limits
 score:
   band: thin
-  composite: 39.1
+  composite: 38.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 60.0
@@ -206,13 +208,13 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 55.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -221,7 +223,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 39.0
+  previous_composite: 38.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -232,14 +234,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kunlunyaochi-com/refs/heads/main/screenshots/kunlunyaochi-com-2026-10-11T110250.png
+screenshot: https://apis.io/screenshots/kunlunyaochi-com/kunlunyaochi-com-2026-10-11T110250.png
 security:
 - kind: authentication
   name: Kunlunyaochi Com Authentication
@@ -253,6 +255,10 @@ security:
   name: Kunlunyaochi Com Vulnerability Disclosure
   slug: kunlunyaochi-com-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 1
+skills:
+- name: klyc-pmm
+  slug: kunlunyaochi-com-klyc-pmm
 slug: kunlunyaochi-com
 tags:
 - Company

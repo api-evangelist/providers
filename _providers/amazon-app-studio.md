@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 19.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,42 +51,44 @@ apis:
   description: The Apps API from Amazon App Studio — 2 operation(s) for apps.
   name: Amazon App Studio Apps API
   slug: amazon-app-studio-apps-api
-artifact_total: 33
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon App Studio Apps API
   slug: open-amazon-app-studio-apps-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/amazon-app-studio/plans/amazon-app-studio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-app-studio-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/overlays/amazon-app-studio-openapi-overlay.yaml
+  href: https://artifacts.apis.io/amazon-app-studio/overlays/amazon-app-studio-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-app-studio-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/agentic-access/amazon-app-studio-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-app-studio/agentic-access/amazon-app-studio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-app-studio-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/security/amazon-app-studio-trust-center.yml
+  href: https://artifacts.apis.io/amazon-app-studio/security/amazon-app-studio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-app-studio-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/security/amazon-app-studio-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-app-studio/security/amazon-app-studio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-app-studio-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/security/amazon-app-studio-domain-security.yml
+  href: https://artifacts.apis.io/amazon-app-studio/security/amazon-app-studio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-app-studio-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/authentication/amazon-app-studio-authentication.yml
+  href: https://artifacts.apis.io/amazon-app-studio/authentication/amazon-app-studio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-app-studio-authentication.yml
@@ -133,47 +137,47 @@ common:
   type: Status
   url: https://health.aws.amazon.com/health/status
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/rules/amazon-app-studio-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-app-studio/rules/amazon-app-studio-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-app-studio-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/vocabulary/amazon-app-studio-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-app-studio/vocabulary/amazon-app-studio-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-app-studio-vocabulary.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/llms/amazon-app-studio-llms.txt
+  href: https://artifacts.apis.io/amazon-app-studio/llms/amazon-app-studio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-app-studio-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/well-known/amazon-app-studio-well-known.yml
+  href: https://artifacts.apis.io/amazon-app-studio/well-known/amazon-app-studio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-app-studio-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/well-known/amazon-app-studio-security.txt
+  href: https://artifacts.apis.io/amazon-app-studio/well-known/amazon-app-studio-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-app-studio-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/mcp/amazon-app-studio-mcp.yml
+  href: https://artifacts.apis.io/amazon-app-studio/mcp/amazon-app-studio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-app-studio-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/conformance/amazon-app-studio-conformance.yml
+  href: https://artifacts.apis.io/amazon-app-studio/conformance/amazon-app-studio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-app-studio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/errors/amazon-app-studio-problem-types.yml
+  href: https://artifacts.apis.io/amazon-app-studio/errors/amazon-app-studio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-app-studio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/lifecycle/amazon-app-studio-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-app-studio/lifecycle/amazon-app-studio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-app-studio-lifecycle.yml
@@ -200,6 +204,14 @@ features:
   name: Role-Based Access Control
 - description: Deploy internal applications with a single click and share with team members using AWS access controls.
   name: One-Click Deployment
+finops:
+- has_sources: true
+  method: derived
+  name: Amazon App Studio Finops
+  primary_unit: user hour
+  service_category: ''
+  slug: amazon-app-studio-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-app-studio.png
 integrations:
 - description: Connect App Studio applications to DynamoDB for serverless NoSQL data storage and retrieval.
@@ -246,8 +258,15 @@ overview: 'Amazon App Studio publishes 1 API contract indexed on the [APIs.io](h
   The Amazon App Studio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon App Studio''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
-random_paper: 5
+  Amazon App Studio''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 20 more developer resources.'
+plans:
+- name: Amazon App Studio Plans Pricing
+  plan_count: 2
+  slug: amazon-app-studio-plans-pricing
+- name: Amazon App Studio Price Estimates
+  plan_count: 0
+  slug: amazon-app-studio-price-estimates
+random_paper: 17
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -274,23 +293,23 @@ rules:
   slug: amazon-app-studio-spectral-rules
 score:
   band: developing
-  composite: 45.4
+  composite: 54.1
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 55.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    artifact_dirs: 24
+    catalog_earned: 66.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 5.8
   facets:
-    access_clarity: 52.6
+    access_clarity: 81.6
     contract_governance: 31.8
     contract_quality: 59.7
-    developer_ergonomics: 35.7
-    discoverability: 64.3
-    operational_transparency: 2.6
-  previous_composite: 45.7
+    developer_ergonomics: 45.2
+    discoverability: 57.1
+    operational_transparency: 15.8
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,14 +325,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/screenshots/amazon-app-studio-2026-07-25T195916.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-app-studio/amazon-app-studio-2026-07-25T195916.png
 security:
 - kind: authentication
   name: Amazon App Studio Authentication

@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.1
-  scored_at: '2026-10-17'
+  score: 52.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 0
   slug: drillr-agentic-access
   summary_line: 0 operations
-api_count: 2
+api_count: 1
 apis:
 - description: Hosted Streamable HTTP MCP server (drillr-data) exposing the same financial data as ~10 agent-callable tools covering discovery, filings, signals and arbitrary SQL. Browser OAuth auth, no API key need
   name: drillr Data MCP Server
@@ -92,8 +94,13 @@ apis:
   description: Industry inflections, enterprise AI adoption and cross-source news search
   name: drillr Public Data API Signal API
   slug: drillr-signal-api
-artifact_total: 18
+artifact_total: 22
 common:
+- group: other
+  href: https://artifacts.apis.io/drillr/capabilities/drillr-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/drillr-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -135,92 +142,100 @@ common:
   type: ChangeLog
   url: https://drillr.ai/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/llms/drillr-llms.txt
+  href: https://artifacts.apis.io/drillr/llms/drillr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/drillr-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/authentication/drillr-authentication.yml
+  href: https://artifacts.apis.io/drillr/authentication/drillr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/drillr-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/well-known/drillr-well-known.yml
+  href: https://artifacts.apis.io/drillr/well-known/drillr-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/drillr-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/conformance/drillr-conformance.yml
+  href: https://artifacts.apis.io/drillr/conformance/drillr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/drillr-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/errors/drillr-problem-types.yml
+  href: https://artifacts.apis.io/drillr/errors/drillr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/drillr-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/rate-limits/drillr-rate-limits.yml
+  href: https://artifacts.apis.io/drillr/rate-limits/drillr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/drillr-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/plans/drillr-plans-pricing.yml
+  href: https://artifacts.apis.io/drillr/plans/drillr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/drillr-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/conventions/drillr-conventions.yml
+  href: https://artifacts.apis.io/drillr/conventions/drillr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/drillr-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/lifecycle/drillr-lifecycle.yml
+  href: https://artifacts.apis.io/drillr/lifecycle/drillr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/drillr-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/changelog/drillr-changelog.yml
+  href: https://artifacts.apis.io/drillr/changelog/drillr-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/drillr-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/data-model/drillr-data-model.yml
+  href: https://artifacts.apis.io/drillr/data-model/drillr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/drillr-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/packages/drillr-packages.yml
+  href: https://artifacts.apis.io/drillr/packages/drillr-packages.yml
   title: ''
   type: Packages
   url: packages/drillr-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/cli/drillr-cli.yml
+  href: https://artifacts.apis.io/drillr/cli/drillr-cli.yml
   title: ''
   type: CLI
   url: cli/drillr-cli.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/overlays/drillr-openapi-overlay.yaml
+  href: https://artifacts.apis.io/drillr/overlays/drillr-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/drillr-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/drillr/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/agentic-access/drillr-agentic-access.yml
+  href: https://artifacts.apis.io/drillr/agentic-access/drillr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/drillr-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/security/drillr-domain-security.yml
+  href: https://artifacts.apis.io/drillr/security/drillr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/drillr-domain-security.yml
 created: '2026-09-13'
 description: 'drillr is a financial data and research API for the US, China and Japan. It provides financial statements, full-text filing search, natural-language company discovery, and research signals extracted from filings, news and earnings calls. The same data is served two ways: a REST API for scripts and pipelines, and a hosted MCP server for AI agents, with every reported figure linking back to its source document.'
+finops:
+- has_sources: true
+  method: derived
+  name: Drillr Finops
+  primary_unit: 100 credits
+  service_category: ''
+  slug: drillr-finops
+  template: false
 layout: provider
 mcp_servers:
 - description: ''
@@ -233,35 +248,38 @@ network: true
 overview: 'drillr publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Public Data API Analyst API, Public Data API Company API, Public Data API Contract API, and 9 more. Tagged areas include Financial Data, Stocks, SEC Filings, Fundamentals, and Earnings.
 
 
-  drillr''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, changelog, authentication, and 20 more developer resources.'
+  drillr''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, changelog, authentication, and 21 more developer resources.'
 plans:
 - name: Drillr Plans Pricing
-  plan_count: 4
+  plan_count: 7
   slug: drillr-plans-pricing
-random_paper: 11
+- name: Drillr Price Estimates
+  plan_count: 0
+  slug: drillr-price-estimates
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Drillr Rate Limits
   slug: drillr-rate-limits
 score:
-  band: developing
-  composite: 52.5
+  band: strong
+  composite: 56.4
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 55.0
+    artifact_dirs: 27
+    catalog_earned: 58.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 60.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 53.8
     developer_ergonomics: 58.9
-    discoverability: 71.7
+    discoverability: 61.7
     operational_transparency: 36.8
-  previous_composite: 52.5
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -278,13 +296,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/drillr/refs/heads/main/screenshots/drillr-2026-10-11T103916.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/drillr/drillr-2026-10-11T103916.png
 security:
 - kind: authentication
   name: Drillr Authentication
@@ -294,6 +313,12 @@ security:
   name: Drillr Domain Security
   slug: drillr-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: drillr-company-financials-lookup
+  slug: drillr-company-financials-lookup
+- name: drillr-filing-research
+  slug: drillr-filing-research
 slug: drillr
 tags:
 - Financial Data

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The Ace Hardware Affiliate Program allows digital publishers, bloggers, and content creators to earn commissions by referring customers to acehardware.com. The program is managed through Impact's affi
@@ -48,22 +50,22 @@ apis:
 artifact_total: 30
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/plans/ace-hardware-plans-pricing.yml
+  href: https://artifacts.apis.io/ace-hardware/plans/ace-hardware-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ace-hardware-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/rate-limits/ace-hardware-rate-limits.yml
+  href: https://artifacts.apis.io/ace-hardware/rate-limits/ace-hardware-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ace-hardware-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/finops/ace-hardware-finops.yml
+  href: https://artifacts.apis.io/ace-hardware/finops/ace-hardware-finops.yml
   title: ''
   type: FinOps
   url: finops/ace-hardware-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/security/ace-hardware-domain-security.yml
+  href: https://artifacts.apis.io/ace-hardware/security/ace-hardware-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ace-hardware-domain-security.yml
@@ -72,27 +74,27 @@ common:
   type: LLMsTxt
   url: https://www.acehardware.com/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/authentication/ace-hardware-authentication.yml
+  href: https://artifacts.apis.io/ace-hardware/authentication/ace-hardware-authentication.yml
   title: Ace Hardware Authentication Profile (AS2 certificate, vendor portal, Impact affiliate account)
   type: Authentication
   url: authentication/ace-hardware-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/conformance/ace-hardware-conformance.yml
+  href: https://artifacts.apis.io/ace-hardware/conformance/ace-hardware-conformance.yml
   title: Ace Hardware Conformance — X12 EDI 4010 over AS2, and the web-API standards it does not implement
   type: Conformance
   url: conformance/ace-hardware-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/conventions/ace-hardware-conventions.yml
+  href: https://artifacts.apis.io/ace-hardware/conventions/ace-hardware-conventions.yml
   title: Ace Hardware Integration Conventions — acknowledgement, document matching, reversibility
   type: Conventions
   url: conventions/ace-hardware-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/lifecycle/ace-hardware-lifecycle.yml
+  href: https://artifacts.apis.io/ace-hardware/lifecycle/ace-hardware-lifecycle.yml
   title: Ace Hardware Lifecycle — X12 4010 versioning, no deprecation policy, no status page
   type: Lifecycle
   url: lifecycle/ace-hardware-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/packages/ace-hardware-packages.yml
+  href: https://artifacts.apis.io/ace-hardware/packages/ace-hardware-packages.yml
   title: Ace Hardware Packages — measured zero, no first-party SDK on any registry
   type: Packages
   url: packages/ace-hardware-packages.yml
@@ -156,7 +158,7 @@ finops:
 - has_sources: false
   method: generated
   name: Ace Hardware Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: ace-hardware-finops
   template: true
@@ -207,7 +209,7 @@ plans:
 - name: Ace Hardware Plans Pricing
   plan_count: 0
   slug: ace-hardware-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Ace Hardware Rate Limits
@@ -226,7 +228,7 @@ rules:
   slug: ace-hardware-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.8
+  composite: 30.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 50.8
@@ -234,15 +236,15 @@ score:
     catalog_gap: 64.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 41.7
     contract_quality: 10.7
     developer_ergonomics: 35.7
-    discoverability: 70.5
+    discoverability: 71.4
     operational_transparency: 0.0
-  previous_composite: 30.3
+  previous_composite: 30.2
   provenance:
     conformance: first-party
   regulatory:
@@ -251,14 +253,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/screenshots/ace-hardware-2026-06-20T163718.png
+screenshot: https://apis.io/screenshots/ace-hardware/ace-hardware-2026-06-20T163718.png
 security:
 - kind: authentication
   name: Ace Hardware Authentication

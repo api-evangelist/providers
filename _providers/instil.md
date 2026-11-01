@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instil/refs/heads/main/security/instil-domain-security.yml
+  href: https://artifacts.apis.io/instil/security/instil-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/instil-domain-security.yml
@@ -86,22 +88,22 @@ common:
   type: Facebook
   url: https://www.facebook.com/weareinstil
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instil/refs/heads/main/llms/instil-llms.txt
+  href: https://artifacts.apis.io/instil/llms/instil-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/instil-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instil/refs/heads/main/packages/instil-packages.yml
+  href: https://artifacts.apis.io/instil/packages/instil-packages.yml
   title: ''
   type: Packages
   url: packages/instil-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/instil/refs/heads/main/plans/instil-plans-pricing.yml
+  href: https://artifacts.apis.io/instil/plans/instil-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/instil-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instil/refs/heads/main/lifecycle/instil-lifecycle.yml
+  href: https://artifacts.apis.io/instil/lifecycle/instil-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/instil-lifecycle.yml
@@ -139,7 +141,7 @@ plans:
 - name: Instil Plans Pricing
   plan_count: 0
   slug: instil-plans-pricing
-random_paper: 21
+random_paper: 11
 score:
   band: emerging
   composite: 11.9
@@ -165,14 +167,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/instil/refs/heads/main/screenshots/instil-2026-07-25T222615.png
+screenshot: https://apis.io/screenshots/instil/instil-2026-07-25T222615.png
 security:
 - kind: domain-security
   name: Instil Domain Security

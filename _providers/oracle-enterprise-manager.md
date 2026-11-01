@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 24.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -154,14 +156,11 @@ arazzos:
 - description: Find the most severe open incident, inspect its events, and clear it.
   name: Oracle Enterprise Manager Triage and Clear Incident
   slug: oracle-enterprise-manager-triage-clear-incident-workflow
-artifact_total: 241
+artifact_total: 240
 collections:
 - collection_type: postman
   name: Oracle Enterprise Manager Cloud Control REST API
   slug: postman-oracle-enterprise-manager-cloud-control
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Oracle Enterprise Manager Cloud Control REST Blackouts API
   slug: open-oracle-enterprise-manager-blackouts-api
@@ -185,17 +184,17 @@ collections:
   slug: open-oracle-enterprise-manager-targets-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/plans/oracle-enterprise-manager-plans-pricing.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/plans/oracle-enterprise-manager-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/oracle-enterprise-manager-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/rate-limits/oracle-enterprise-manager-rate-limits.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/rate-limits/oracle-enterprise-manager-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/oracle-enterprise-manager-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/finops/oracle-enterprise-manager-finops.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/finops/oracle-enterprise-manager-finops.yml
   title: ''
   type: FinOps
   url: finops/oracle-enterprise-manager-finops.yml
@@ -204,72 +203,72 @@ common:
   type: Website
   url: https://oracle.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/capabilities/oracle-enterprise-manager-capability-edges.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/capabilities/oracle-enterprise-manager-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/oracle-enterprise-manager-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/agentic-access/oracle-enterprise-manager-agentic-access.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/agentic-access/oracle-enterprise-manager-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/oracle-enterprise-manager-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/security/oracle-enterprise-manager-domain-security.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/security/oracle-enterprise-manager-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oracle-enterprise-manager-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/authentication/oracle-enterprise-manager-authentication.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/authentication/oracle-enterprise-manager-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oracle-enterprise-manager-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/conventions/oracle-enterprise-manager-conventions.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/conventions/oracle-enterprise-manager-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oracle-enterprise-manager-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/errors/oracle-enterprise-manager-problem-types.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/errors/oracle-enterprise-manager-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/oracle-enterprise-manager-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/conformance/oracle-enterprise-manager-conformance.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/conformance/oracle-enterprise-manager-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oracle-enterprise-manager-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/data-model/oracle-enterprise-manager-data-model.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/data-model/oracle-enterprise-manager-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oracle-enterprise-manager-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/lifecycle/oracle-enterprise-manager-lifecycle.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/lifecycle/oracle-enterprise-manager-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oracle-enterprise-manager-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/changelog/oracle-enterprise-manager-changelog.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/changelog/oracle-enterprise-manager-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/oracle-enterprise-manager-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/mcp/oracle-enterprise-manager-mcp.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/mcp/oracle-enterprise-manager-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/oracle-enterprise-manager-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/llms/oracle-enterprise-manager-llms.txt
+  href: https://artifacts.apis.io/oracle-enterprise-manager/llms/oracle-enterprise-manager-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oracle-enterprise-manager-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/overlays/oracle-enterprise-manager-cloud-control-overlay.yaml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/overlays/oracle-enterprise-manager-cloud-control-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oracle-enterprise-manager-cloud-control-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/cli/oracle-enterprise-manager-cli.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/cli/oracle-enterprise-manager-cli.yml
   title: ''
   type: CLI
   url: cli/oracle-enterprise-manager-cli.yml
@@ -278,52 +277,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/oracle-enterprise-manager/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/arazzo/oracle-enterprise-manager-bulk-configure-target-workflow.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/arazzo/oracle-enterprise-manager-bulk-configure-target-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-enterprise-manager-bulk-configure-target-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/arazzo/oracle-enterprise-manager-define-global-property-workflow.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/arazzo/oracle-enterprise-manager-define-global-property-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-enterprise-manager-define-global-property-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/arazzo/oracle-enterprise-manager-end-active-blackout-workflow.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/arazzo/oracle-enterprise-manager-end-active-blackout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-enterprise-manager-end-active-blackout-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/arazzo/oracle-enterprise-manager-inspect-target-workflow.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/arazzo/oracle-enterprise-manager-inspect-target-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-enterprise-manager-inspect-target-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/arazzo/oracle-enterprise-manager-investigate-suppress-incident-workflow.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/arazzo/oracle-enterprise-manager-investigate-suppress-incident-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-enterprise-manager-investigate-suppress-incident-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/arazzo/oracle-enterprise-manager-read-metric-snapshot-workflow.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/arazzo/oracle-enterprise-manager-read-metric-snapshot-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-enterprise-manager-read-metric-snapshot-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/arazzo/oracle-enterprise-manager-schedule-blackout-workflow.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/arazzo/oracle-enterprise-manager-schedule-blackout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-enterprise-manager-schedule-blackout-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/arazzo/oracle-enterprise-manager-target-metric-trend-workflow.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/arazzo/oracle-enterprise-manager-target-metric-trend-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-enterprise-manager-target-metric-trend-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/arazzo/oracle-enterprise-manager-trace-incident-event-workflow.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/arazzo/oracle-enterprise-manager-trace-incident-event-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-enterprise-manager-trace-incident-event-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/arazzo/oracle-enterprise-manager-triage-clear-incident-workflow.yml
+  href: https://artifacts.apis.io/oracle-enterprise-manager/arazzo/oracle-enterprise-manager-triage-clear-incident-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-enterprise-manager-triage-clear-incident-workflow.yml
@@ -973,7 +972,7 @@ plans:
 - name: Oracle Enterprise Manager Plans Pricing
   plan_count: 6
   slug: oracle-enterprise-manager-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Oracle Enterprise Manager Rate Limits
@@ -1004,7 +1003,7 @@ rules:
   slug: oracle-enterprise-manager-spectral-rules
 score:
   band: developing
-  composite: 50.6
+  composite: 52.2
   coverage:
     artifact_dirs: 30
     catalog_earned: 63.9
@@ -1012,15 +1011,15 @@ score:
     catalog_gap: 51.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 39.5
     contract_governance: 18.2
-    contract_quality: 66.8
+    contract_quality: 63.4
     developer_ergonomics: 65.5
-    discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 52.1
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1036,13 +1035,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/screenshots/oracle-enterprise-manager-2026-06-20T191128.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/oracle-enterprise-manager/oracle-enterprise-manager-2026-06-20T191128.png
 security:
 - kind: authentication
   name: Oracle Enterprise Manager Authentication

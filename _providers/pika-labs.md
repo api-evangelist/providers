@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -68,11 +70,8 @@ apis:
   description: Submit inference requests.
   name: Pika Labs Submission API
   slug: pika-labs-submission-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Pika Labs via fal.ai Queue Cancel API
   slug: open-pika-labs-cancel-api
@@ -102,27 +101,27 @@ common:
   type: X
   url: https://x.com/pika_labs
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/vocabulary/pika-labs-vocabulary.yml
+  href: https://artifacts.apis.io/pika-labs/vocabulary/pika-labs-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/pika-labs-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/json-ld/pika-labs-context.jsonld
+  href: https://artifacts.apis.io/pika-labs/json-ld/pika-labs-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/pika-labs-context.jsonld
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/agentic-access/pika-labs-agentic-access.yml
+  href: https://artifacts.apis.io/pika-labs/agentic-access/pika-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pika-labs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/security/pika-labs-domain-security.yml
+  href: https://artifacts.apis.io/pika-labs/security/pika-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pika-labs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/authentication/pika-labs-authentication.yml
+  href: https://artifacts.apis.io/pika-labs/authentication/pika-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pika-labs-authentication.yml
@@ -143,17 +142,17 @@ common:
   type: Documentation
   url: https://fal.ai/models?keywords=pika
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/plans/pika-labs-plans-pricing.yml
+  href: https://artifacts.apis.io/pika-labs/plans/pika-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pika-labs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/rate-limits/pika-labs-rate-limits.yml
+  href: https://artifacts.apis.io/pika-labs/rate-limits/pika-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pika-labs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/finops/pika-labs-finops.yml
+  href: https://artifacts.apis.io/pika-labs/finops/pika-labs-finops.yml
   title: ''
   type: FinOps
   url: finops/pika-labs-finops.yml
@@ -189,14 +188,14 @@ plans:
 - name: Pika Labs Plans Pricing
   plan_count: 2
   slug: pika-labs-plans-pricing
-random_paper: 4
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Pika Labs Rate Limits
   slug: pika-labs-rate-limits
 score:
   band: thin
-  composite: 29.1
+  composite: 30.1
   coverage:
     artifact_dirs: 13
     catalog_earned: 51.5
@@ -204,15 +203,15 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 55.5
     developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 7.9
-  previous_composite: 31.9
+    operational_transparency: 10.5
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     contracts:
@@ -226,13 +225,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/screenshots/pika-labs-2026-06-20T191707.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pika-labs/pika-labs-2026-06-20T191707.png
 security:
 - kind: authentication
   name: Pika Labs Authentication

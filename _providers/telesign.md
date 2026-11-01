@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 42.1
-  scored_at: '2026-10-17'
+  score: 40.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -200,78 +202,74 @@ apis:
   description: The Voice API from Telesign — 1 operation(s) for voice.
   name: Telesign Voice API
   slug: telesign-voice-api
-artifact_total: 89
+artifact_total: 92
 asyncapis:
 - description: ''
   name: Telesign Webhooks
   slug: telesign-webhooks
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/capabilities/telesign-capability-edges.yml
+  href: https://artifacts.apis.io/telesign/capabilities/telesign-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/telesign-capability-edges.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/asyncapi/telesign-webhooks.yml
+  href: https://artifacts.apis.io/telesign/asyncapi/telesign-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/telesign-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/finops/telesign-finops.yml
+  href: https://artifacts.apis.io/telesign/finops/telesign-finops.yml
   title: ''
   type: FinOps
   url: finops/telesign-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/rate-limits/telesign-rate-limits.yml
+  href: https://artifacts.apis.io/telesign/rate-limits/telesign-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/telesign-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/plans/telesign-plans-pricing.yml
+  href: https://artifacts.apis.io/telesign/plans/telesign-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/telesign-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/rules/telesign-rules.yml
+  href: https://artifacts.apis.io/telesign/rules/telesign-rules.yml
   title: ''
   type: Spectral
   url: rules/telesign-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/rules/telesign-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/telesign/rules/telesign-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/telesign-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/json-ld/telesign-context.jsonld
+  href: https://artifacts.apis.io/telesign/json-ld/telesign-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/telesign-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/vocabulary/telesign-vocabulary.yml
+  href: https://artifacts.apis.io/telesign/vocabulary/telesign-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/telesign-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/telesign/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/data-model/telesign-data-model.yml
+  href: https://artifacts.apis.io/telesign/data-model/telesign-data-model.yml
   title: ''
   type: DataModel
   url: data-model/telesign-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/changelog/telesign-changelog.yml
+  href: https://artifacts.apis.io/telesign/changelog/telesign-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/telesign-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/conventions/telesign-conventions.yml
+  href: https://artifacts.apis.io/telesign/conventions/telesign-conventions.yml
   title: ''
   type: Conventions
   url: conventions/telesign-conventions.yml
@@ -280,82 +278,82 @@ common:
   type: Compliance
   url: https://www.telesign.com/security
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/lifecycle/telesign-lifecycle.yml
+  href: https://artifacts.apis.io/telesign/lifecycle/telesign-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/telesign-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/lifecycle/telesign-lifecycle.yml
+  href: https://artifacts.apis.io/telesign/lifecycle/telesign-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/telesign-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/errors/telesign-error-codes.yml
+  href: https://artifacts.apis.io/telesign/errors/telesign-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/telesign-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/errors/telesign-problem-types.yml
+  href: https://artifacts.apis.io/telesign/errors/telesign-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/telesign-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/conformance/telesign-conformance.yml
+  href: https://artifacts.apis.io/telesign/conformance/telesign-conformance.yml
   title: ''
   type: Conformance
   url: conformance/telesign-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/overlays/telesign-accounts-api-overlay.yaml
+  href: https://artifacts.apis.io/telesign/overlays/telesign-accounts-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/telesign-accounts-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/well-known/telesign-status-security.txt
+  href: https://artifacts.apis.io/telesign/well-known/telesign-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/telesign-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/well-known/telesign-well-known.yml
+  href: https://artifacts.apis.io/telesign/well-known/telesign-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/telesign-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/hosts/telesign-hosts.yml
+  href: https://artifacts.apis.io/telesign/hosts/telesign-hosts.yml
   title: ''
   type: Hosts
   url: hosts/telesign-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/vendors/telesign-vendors.yml
+  href: https://artifacts.apis.io/telesign/vendors/telesign-vendors.yml
   title: ''
   type: Vendors
   url: vendors/telesign-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/packages/telesign-packages.yml
+  href: https://artifacts.apis.io/telesign/packages/telesign-packages.yml
   title: ''
   type: SDKs
   url: packages/telesign-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/packages/telesign-packages.yml
+  href: https://artifacts.apis.io/telesign/packages/telesign-packages.yml
   title: ''
   type: Packages
   url: packages/telesign-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/agentic-access/telesign-agentic-access.yml
+  href: https://artifacts.apis.io/telesign/agentic-access/telesign-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/telesign-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/security/telesign-trust-center.yml
+  href: https://artifacts.apis.io/telesign/security/telesign-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/telesign-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/security/telesign-domain-security.yml
+  href: https://artifacts.apis.io/telesign/security/telesign-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/telesign-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/authentication/telesign-authentication.yml
+  href: https://artifacts.apis.io/telesign/authentication/telesign-authentication.yml
   title: ''
   type: Authentication
   url: authentication/telesign-authentication.yml
@@ -444,12 +442,12 @@ examples:
   slug: telesign-send-sms-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Telesign Finops
   primary_unit: ''
-  service_category: Communications
+  service_category: ''
   slug: telesign-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/telesign.png
 json_schemas:
 - name: 200-av-response
@@ -604,7 +602,7 @@ plans:
 - name: Telesign Plans Pricing
   plan_count: 3
   slug: telesign-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 16
   name: Telesign Rate Limits
@@ -634,7 +632,7 @@ rules:
   slug: telesign-rules
 score:
   band: exemplar
-  composite: 72.0
+  composite: 72.2
   coverage:
     artifact_dirs: 34
     catalog_earned: 82.5
@@ -642,15 +640,20 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.2
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 72.4
-    developer_ergonomics: 55.4
-    discoverability: 75.0
-    operational_transparency: 92.1
-  previous_composite: 73.4
+    contract_quality: 72.1
+    developer_ergonomics: 66.1
+    discoverability: 73.2
+    operational_transparency: 94.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 72.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -658,7 +661,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 31
+      total: 30
     mcp: first-party
     skills: derived
   regulatory:
@@ -667,13 +670,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/screenshots/telesign-2026-06-20T195043.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/telesign/telesign-2026-06-20T195043.png
 security:
 - kind: authentication
   name: Telesign Authentication
@@ -687,6 +691,16 @@ security:
   name: Telesign Trust Center
   slug: telesign-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+skill_count: 4
+skills:
+- name: telesign-phone-risk-check
+  slug: telesign-phone-risk-check
+- name: telesign-send-sms-message
+  slug: telesign-send-sms-message
+- name: telesign-send-sms-otp
+  slug: telesign-send-sms-otp
+- name: telesign-silent-verify
+  slug: telesign-silent-verify
 slug: telesign
 tags:
 - Authentication

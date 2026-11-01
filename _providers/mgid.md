@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: REST API for advertisers and agencies to manage campaigns, teasers, targeting, conversion tracking, and access detailed statistics and reporting for native advertising campaigns.
@@ -48,7 +50,7 @@ apis:
 artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/security/mgid-domain-security.yml
+  href: https://artifacts.apis.io/mgid/security/mgid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mgid-domain-security.yml
@@ -85,17 +87,17 @@ common:
   type: X
   url: https://twitter.com/MGID
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/plans/mgid-plans-pricing.yml
+  href: https://artifacts.apis.io/mgid/plans/mgid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mgid-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/rate-limits/mgid-rate-limits.yml
+  href: https://artifacts.apis.io/mgid/rate-limits/mgid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mgid-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/finops/mgid-finops.yml
+  href: https://artifacts.apis.io/mgid/finops/mgid-finops.yml
   title: ''
   type: FinOps
   url: finops/mgid-finops.yml
@@ -132,47 +134,47 @@ common:
   type: PrivacyPolicy
   url: https://www.mgid.com/services/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/authentication/mgid-authentication.yml
+  href: https://artifacts.apis.io/mgid/authentication/mgid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mgid-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/conventions/mgid-conventions.yml
+  href: https://artifacts.apis.io/mgid/conventions/mgid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mgid-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/errors/mgid-error-codes.yml
+  href: https://artifacts.apis.io/mgid/errors/mgid-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/mgid-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/lifecycle/mgid-lifecycle.yml
+  href: https://artifacts.apis.io/mgid/lifecycle/mgid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mgid-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/packages/mgid-packages.yml
+  href: https://artifacts.apis.io/mgid/packages/mgid-packages.yml
   title: ''
   type: Packages
   url: packages/mgid-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/components/mgid-components.yml
+  href: https://artifacts.apis.io/mgid/components/mgid-components.yml
   title: ''
   type: Components
   url: components/mgid-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/conformance/mgid-conformance.yml
+  href: https://artifacts.apis.io/mgid/conformance/mgid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mgid-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/data-model/mgid-data-model.yml
+  href: https://artifacts.apis.io/mgid/data-model/mgid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mgid-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/llms/mgid-llms.txt
+  href: https://artifacts.apis.io/mgid/llms/mgid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mgid-llms.txt
@@ -208,14 +210,14 @@ plans:
 - name: Mgid Plans Pricing
   plan_count: 3
   slug: mgid-plans-pricing
-random_paper: 21
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Mgid Rate Limits
   slug: mgid-rate-limits
 score:
-  band: thin
-  composite: 37.3
+  band: developing
+  composite: 45.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 72.0
@@ -223,15 +225,15 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 48.7
+    access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 10.7
-    developer_ergonomics: 40.5
-    discoverability: 78.6
-    operational_transparency: 50.0
-  previous_composite: 38.8
+    developer_ergonomics: 47.6
+    discoverability: 71.4
+    operational_transparency: 52.6
+  previous_composite: 45.0
   provenance:
     conformance: first-party
   regulatory:
@@ -239,15 +241,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/screenshots/mgid-2026-06-20T185319.png
+screenshot: https://apis.io/screenshots/mgid/mgid-2026-06-20T185319.png
 security:
 - kind: authentication
   name: Mgid Authentication

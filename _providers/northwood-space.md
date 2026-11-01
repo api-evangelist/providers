@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-17'
+  score: 9.6
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -53,37 +55,37 @@ common:
   type: SecondaryMarket
   url: https://www.hiive.com/securities/northwood-stock
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/northwood-space/refs/heads/main/well-known/northwood-space-well-known.yml
+  href: https://artifacts.apis.io/northwood-space/well-known/northwood-space-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/northwood-space-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/northwood-space/refs/heads/main/a2a/northwood-space-a2a.yml
+  href: https://artifacts.apis.io/northwood-space/a2a/northwood-space-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/northwood-space-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/northwood-space/refs/heads/main/mcp/northwood-space-mcp.yml
+  href: https://artifacts.apis.io/northwood-space/mcp/northwood-space-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/northwood-space-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/northwood-space/refs/heads/main/llms/northwood-space-llms.txt
+  href: https://artifacts.apis.io/northwood-space/llms/northwood-space-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/northwood-space-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/northwood-space/refs/heads/main/plans/northwood-space-plans-pricing.yml
+  href: https://artifacts.apis.io/northwood-space/plans/northwood-space-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/northwood-space-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/northwood-space/refs/heads/main/rate-limits/northwood-space-rate-limits.yml
+  href: https://artifacts.apis.io/northwood-space/rate-limits/northwood-space-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/northwood-space-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/northwood-space/refs/heads/main/security/northwood-space-domain-security.yml
+  href: https://artifacts.apis.io/northwood-space/security/northwood-space-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/northwood-space-domain-security.yml
@@ -120,30 +122,30 @@ plans:
 - name: Northwood Space Plans Pricing
   plan_count: 0
   slug: northwood-space-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Northwood Space Rate Limits
   slug: northwood-space-rate-limits
 score:
   band: minimal
-  composite: 9.9
+  composite: 9.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 58.3
-    operational_transparency: 2.6
-  previous_composite: 9.8
+    discoverability: 48.3
+    operational_transparency: 5.3
+  previous_composite: 9.2
   provenance:
     mcp: first-party
   regulatory:
@@ -152,14 +154,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/northwood-space/refs/heads/main/screenshots/northwood-space-2026-10-11T111839.png
+screenshot: https://apis.io/screenshots/northwood-space/northwood-space-2026-10-11T111839.png
 security:
 - kind: domain-security
   name: Northwood Space Domain Security

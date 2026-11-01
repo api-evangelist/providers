@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/joint-fire-science-program/refs/heads/main/security/joint-fire-science-program-domain-security.yml
+  href: https://artifacts.apis.io/joint-fire-science-program/security/joint-fire-science-program-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/joint-fire-science-program-domain-security.yml
@@ -65,10 +67,10 @@ overview: 'Joint Fire Science Program is profiled on the [APIs.io](https://apis.
 
 
   Joint Fire Science Program''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 21
+random_paper: 3
 score:
   band: minimal
-  composite: 4.7
+  composite: 5.6
   coverage:
     artifact_dirs: 3
     catalog_earned: 27.0
@@ -81,7 +83,7 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 9.5
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -89,21 +91,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 4.7
+  previous_composite: 5.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/joint-fire-science-program/refs/heads/main/screenshots/joint-fire-science-program-2026-06-20T183755.png
+screenshot: https://apis.io/screenshots/joint-fire-science-program/joint-fire-science-program-2026-06-20T183755.png
 security:
 - kind: domain-security
   name: Joint Fire Science Program Domain Security

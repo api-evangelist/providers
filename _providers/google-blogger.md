@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 25.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: The Users API from Google Blogger — 2 operation(s) for users.
   name: Google Blogger Users API
   slug: google-blogger-users-api
-artifact_total: 17
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Blogger API
   slug: open-blogger
@@ -70,17 +69,17 @@ collections:
   slug: open-google-blogger-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/plans/google-blogger-plans-pricing.yml
+  href: https://artifacts.apis.io/google-blogger/plans/google-blogger-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-blogger-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/rate-limits/google-blogger-rate-limits.yml
+  href: https://artifacts.apis.io/google-blogger/rate-limits/google-blogger-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-blogger-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/finops/google-blogger-finops.yml
+  href: https://artifacts.apis.io/google-blogger/finops/google-blogger-finops.yml
   title: ''
   type: FinOps
   url: finops/google-blogger-finops.yml
@@ -89,27 +88,27 @@ common:
   type: Website
   url: https://www.google.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/agentic-access/google-blogger-agentic-access.yml
+  href: https://artifacts.apis.io/google-blogger/agentic-access/google-blogger-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-blogger-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/security/google-blogger-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-blogger/security/google-blogger-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-blogger-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/security/google-blogger-domain-security.yml
+  href: https://artifacts.apis.io/google-blogger/security/google-blogger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-blogger-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/authentication/google-blogger-authentication.yml
+  href: https://artifacts.apis.io/google-blogger/authentication/google-blogger-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-blogger-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/scopes/google-blogger-scopes.yml
+  href: https://artifacts.apis.io/google-blogger/scopes/google-blogger-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-blogger-scopes.yml
@@ -126,7 +125,7 @@ common:
   type: Pricing
   url: https://developers.google.com/blogger/docs/3.0/using
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/json-ld/blogger.jsonld
+  href: https://artifacts.apis.io/google-blogger/json-ld/blogger.jsonld
   title: ''
   type: JSONLD
   url: json-ld/blogger.jsonld
@@ -136,7 +135,7 @@ finops:
 - has_sources: false
   method: generated
   name: Google Blogger Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: google-blogger-finops
   template: true
@@ -166,7 +165,7 @@ plans:
 - name: Google Blogger Plans Pricing
   plan_count: 3
   slug: google-blogger-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Google Blogger Rate Limits
@@ -190,7 +189,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.4
+  composite: 35.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 59.7
@@ -198,15 +197,15 @@ score:
     catalog_gap: 55.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 57.2
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 34.9
+    operational_transparency: 18.4
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -220,13 +219,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/screenshots/google-blogger-2026-06-20T182025.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-blogger/google-blogger-2026-06-20T182025.png
 security:
 - kind: authentication
   name: Google Blogger Authentication

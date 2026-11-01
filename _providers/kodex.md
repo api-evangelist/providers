@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Real-time verification of law enforcement requesters. Pass a requester email address to the lookup endpoint and receive the agent's standing, their agency's status, and the domain's risk level, checke
@@ -109,72 +111,72 @@ common:
   type: Compliance
   url: https://www.kodexglobal.com/security-compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/authentication/kodex-authentication.yml
+  href: https://artifacts.apis.io/kodex/authentication/kodex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kodex-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/conventions/kodex-conventions.yml
+  href: https://artifacts.apis.io/kodex/conventions/kodex-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kodex-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/lifecycle/kodex-lifecycle.yml
+  href: https://artifacts.apis.io/kodex/lifecycle/kodex-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kodex-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/changelog/kodex-changelog.yml
+  href: https://artifacts.apis.io/kodex/changelog/kodex-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kodex-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/conformance/kodex-conformance.yml
+  href: https://artifacts.apis.io/kodex/conformance/kodex-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kodex-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/well-known/kodex-well-known.yml
+  href: https://artifacts.apis.io/kodex/well-known/kodex-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kodex-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/well-known/kodex-security.txt
+  href: https://artifacts.apis.io/kodex/well-known/kodex-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/kodex-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/security/kodex-domain-security.yml
+  href: https://artifacts.apis.io/kodex/security/kodex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kodex-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/security/kodex-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kodex/security/kodex-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kodex-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/asyncapi/kodex-webhooks.yml
+  href: https://artifacts.apis.io/kodex/asyncapi/kodex-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kodex-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/sandbox/kodex-sandbox.yml
+  href: https://artifacts.apis.io/kodex/sandbox/kodex-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kodex-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/components/kodex-components.yml
+  href: https://artifacts.apis.io/kodex/components/kodex-components.yml
   title: ''
   type: Components
   url: components/kodex-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/mcp/kodex-mcp.yml
+  href: https://artifacts.apis.io/kodex/mcp/kodex-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kodex-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/llms/kodex-llms.txt
+  href: https://artifacts.apis.io/kodex/llms/kodex-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kodex-llms.txt
@@ -196,7 +198,7 @@ overview: 'Kodex is listed with 2 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 11
 score:
   band: developing
-  composite: 45.0
+  composite: 47.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -209,10 +211,10 @@ score:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 39.3
-    discoverability: 73.2
-    operational_transparency: 47.4
-  previous_composite: 45.0
+    developer_ergonomics: 52.4
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 47.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -226,14 +228,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/screenshots/kodex-2026-07-25T224044.png
+screenshot: https://apis.io/screenshots/kodex/kodex-2026-07-25T224044.png
 security:
 - kind: authentication
   name: Kodex Authentication

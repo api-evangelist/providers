@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -41,7 +43,7 @@ common:
   type: Pricing
   url: https://www.digitalowl.com/use-cases/mass-tort
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/digitalowl/refs/heads/main/plans/digitalowl-plans-pricing.yml
+  href: https://artifacts.apis.io/digitalowl/plans/digitalowl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/digitalowl-plans-pricing.yml
@@ -78,7 +80,7 @@ common:
   type: PrivacyPolicy
   url: https://www.digitalowl.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digitalowl/refs/heads/main/security/digitalowl-trust-center.yml
+  href: https://artifacts.apis.io/digitalowl/security/digitalowl-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/digitalowl-trust-center.yml
@@ -87,12 +89,12 @@ common:
   type: Compliance
   url: https://www.digitalowl.com/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digitalowl/refs/heads/main/security/digitalowl-domain-security.yml
+  href: https://artifacts.apis.io/digitalowl/security/digitalowl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/digitalowl-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/digitalowl/refs/heads/main/llms/digitalowl-llms.txt
+  href: https://artifacts.apis.io/digitalowl/llms/digitalowl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/digitalowl-llms.txt
@@ -115,7 +117,7 @@ plans:
 random_paper: 16
 score:
   band: emerging
-  composite: 18.9
+  composite: 18.2
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -123,29 +125,29 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 16.8
+  previous_composite: 18.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 15.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/digitalowl/refs/heads/main/screenshots/digitalowl-2026-07-25T212028.png
+screenshot: https://apis.io/screenshots/digitalowl/digitalowl-2026-07-25T212028.png
 security:
 - kind: domain-security
   name: Digitalowl Domain Security

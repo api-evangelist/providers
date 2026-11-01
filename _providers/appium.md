@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
+  score: 28.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -102,11 +104,8 @@ apis:
   description: WebDriver session lifecycle management
   name: Appium Sessions API
   slug: appium-sessions-api
-artifact_total: 80
+artifact_total: 79
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Appium Server Actions API
   slug: open-appium-actions-api
@@ -138,18 +137,22 @@ collections:
   name: Appium Server Actions Sessions API
   slug: open-appium-sessions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/appium/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/plans/appium-plans-pricing.yml
+  href: https://artifacts.apis.io/appium/plans/appium-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/appium-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/rate-limits/appium-rate-limits.yml
+  href: https://artifacts.apis.io/appium/rate-limits/appium-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/appium-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/finops/appium-finops.yml
+  href: https://artifacts.apis.io/appium/finops/appium-finops.yml
   title: ''
   type: FinOps
   url: finops/appium-finops.yml
@@ -174,12 +177,12 @@ common:
   type: License
   url: https://github.com/appium/appium-inspector/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/agentic-access/appium-agentic-access.yml
+  href: https://artifacts.apis.io/appium/agentic-access/appium-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/appium-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/security/appium-domain-security.yml
+  href: https://artifacts.apis.io/appium/security/appium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/appium-domain-security.yml
@@ -240,12 +243,12 @@ common:
   type: Tools
   url: https://github.com/appium/appium-mcp
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/rules/appium-spectral-rules.yml
+  href: https://artifacts.apis.io/appium/rules/appium-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/appium-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/vocabulary/appium-vocabulary.yaml
+  href: https://artifacts.apis.io/appium/vocabulary/appium-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/appium-vocabulary.yaml
@@ -375,12 +378,12 @@ overview: 'Appium is listed with 13 APIs on the [APIs.io](https://apis.io/) netw
   The Appium catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Appium''s developer surface includes getting-started guide, documentation, support, Stack Overflow tag, YouTube channel, changelog, tooling, and 21 more developer resources.'
+  Appium''s developer surface includes getting-started guide, documentation, support, Stack Overflow tag, YouTube channel, changelog, tooling, and 22 more developer resources.'
 plans:
 - name: Appium Plans Pricing
   plan_count: 1
   slug: appium-plans-pricing
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Appium Rate Limits
@@ -411,7 +414,7 @@ rules:
   slug: appium-spectral-rules
 score:
   band: thin
-  composite: 33.8
+  composite: 31.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 68.0
@@ -419,18 +422,15 @@ score:
     catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.2
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 25.4
-    developer_ergonomics: 56.4
+    developer_ergonomics: 57.6
     discoverability: 68.3
-    operational_transparency: 23.7
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 35.2
+    operational_transparency: 26.3
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -444,13 +444,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/screenshots/appium-2026-06-20T172316.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/appium/appium-2026-06-20T172316.png
 security:
 - kind: domain-security
   name: Appium Domain Security

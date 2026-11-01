@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -95,11 +97,8 @@ apis:
   description: Manage and download workbooks.
   name: Tableau Desktop Workbooks API
   slug: tableau-desktop-workbooks-api
-artifact_total: 45
+artifact_total: 44
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tableau REST Authentication API
   slug: open-tableau-desktop-authentication-api
@@ -126,17 +125,17 @@ collections:
   slug: open-tableau-desktop
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/plans/tableau-desktop-plans-pricing.yml
+  href: https://artifacts.apis.io/tableau-desktop/plans/tableau-desktop-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tableau-desktop-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/rate-limits/tableau-desktop-rate-limits.yml
+  href: https://artifacts.apis.io/tableau-desktop/rate-limits/tableau-desktop-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tableau-desktop-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/finops/tableau-desktop-finops.yml
+  href: https://artifacts.apis.io/tableau-desktop/finops/tableau-desktop-finops.yml
   title: ''
   type: FinOps
   url: finops/tableau-desktop-finops.yml
@@ -145,7 +144,7 @@ common:
   type: Website
   url: https://tableau.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/capabilities/tableau-desktop-capability-edges.yml
+  href: https://artifacts.apis.io/tableau-desktop/capabilities/tableau-desktop-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tableau-desktop-capability-edges.yml
@@ -162,17 +161,17 @@ common:
   type: License
   url: https://github.com/tableau/extensions-api/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/agentic-access/tableau-desktop-agentic-access.yml
+  href: https://artifacts.apis.io/tableau-desktop/agentic-access/tableau-desktop-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tableau-desktop-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/security/tableau-desktop-domain-security.yml
+  href: https://artifacts.apis.io/tableau-desktop/security/tableau-desktop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tableau-desktop-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/authentication/tableau-desktop-authentication.yml
+  href: https://artifacts.apis.io/tableau-desktop/authentication/tableau-desktop-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tableau-desktop-authentication.yml
@@ -231,7 +230,7 @@ finops:
 - has_sources: false
   method: generated
   name: Tableau Desktop Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: tableau-desktop-finops
   template: true
@@ -266,14 +265,14 @@ plans:
 - name: Tableau Desktop Plans Pricing
   plan_count: 3
   slug: tableau-desktop-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Tableau Desktop Rate Limits
   slug: tableau-desktop-rate-limits
 score:
-  band: thin
-  composite: 37.7
+  band: developing
+  composite: 39.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 41.0
@@ -281,18 +280,15 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 49.3
+    contract_quality: 45.9
     developer_ergonomics: 57.1
     discoverability: 62.5
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 39.1
+    operational_transparency: 28.9
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -306,13 +302,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/screenshots/tableau-desktop-2026-06-20T194845.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tableau-desktop/tableau-desktop-2026-06-20T194845.png
 security:
 - kind: authentication
   name: Tableau Desktop Authentication

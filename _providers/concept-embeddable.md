@@ -23,7 +23,7 @@ modified: '2026-07-19'
 name: Embeddable
 nav: Providers
 network: true
-random_paper: 2
+random_paper: 6
 slug: concept-embeddable
 tags:
 - Company

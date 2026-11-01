@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Partner/reseller REST API to embed Lovys insurance products — real-time quotes, plans/pricing/coverage, customer data, policy purchase and activation, and policy lifecycle/renewals across home, smartp
@@ -82,17 +84,17 @@ common:
   type: Login
   url: https://docs.lovys.com/signin
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lovys/refs/heads/main/authentication/lovys-authentication.yml
+  href: https://artifacts.apis.io/lovys/authentication/lovys-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lovys-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lovys/refs/heads/main/security/lovys-domain-security.yml
+  href: https://artifacts.apis.io/lovys/security/lovys-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lovys-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lovys/refs/heads/main/llms/lovys-llms.txt
+  href: https://artifacts.apis.io/lovys/llms/lovys-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lovys-llms.txt
@@ -109,10 +111,10 @@ overview: 'Lovys is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Lovys'' developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, support, signup flow, and 6 more developer resources.'
-random_paper: 1
+random_paper: 21
 score:
   band: emerging
-  composite: 16.8
+  composite: 20.9
   coverage:
     artifact_dirs: 6
     catalog_earned: 32.0
@@ -120,29 +122,29 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 50.0
-    discoverability: 64.3
-    operational_transparency: 0.0
-  previous_composite: 16.3
+    developer_ergonomics: 57.1
+    discoverability: 57.1
+    operational_transparency: 15.8
+  previous_composite: 20.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 10.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lovys/refs/heads/main/screenshots/lovys-2026-07-25T225619.png
+screenshot: https://apis.io/screenshots/lovys/lovys-2026-07-25T225619.png
 security:
 - kind: authentication
   name: Lovys Authentication

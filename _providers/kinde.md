@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: unknown
     idempotency: documented
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 48.1
-  scored_at: '2026-10-17'
+  score: 49.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 13
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 179
   slug: kinde-agentic-access
   summary_line: 179 operations · 111 acting · 13 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - description: The Kinde Management MCP server bridges AI agents and a Kinde account. It is TENANT-SCOPED — the endpoint is https://{subdomain}.kinde.com/mcp, one per Kinde business — and is authenticated with an En
   name: Kinde MCP Server
@@ -665,7 +667,7 @@ arazzos:
 - description: Create an org-overridable feature flag and set its value for one organization.
   name: Kinde Roll Out Feature Flag to Organization
   slug: kinde-rollout-feature-flag-workflow
-artifact_total: 103
+artifact_total: 112
 collections:
 - collection_type: postman
   name: Kinde Account API
@@ -673,9 +675,6 @@ collections:
 - collection_type: postman
   name: Kinde Management API
   slug: postman-kinde-management-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kinde Account API Keys API
   slug: open-kinde-api-keys-api
@@ -774,7 +773,7 @@ collections:
   slug: open-kinde-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/capabilities/kinde-capability-edges.yml
+  href: https://artifacts.apis.io/kinde/capabilities/kinde-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kinde-capability-edges.yml
@@ -783,27 +782,27 @@ common:
   type: Website
   url: https://www.kinde.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/agentic-access/kinde-agentic-access.yml
+  href: https://artifacts.apis.io/kinde/agentic-access/kinde-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kinde-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/security/kinde-trust-center.yml
+  href: https://artifacts.apis.io/kinde/security/kinde-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kinde-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/security/kinde-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kinde/security/kinde-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kinde-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/security/kinde-domain-security.yml
+  href: https://artifacts.apis.io/kinde/security/kinde-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kinde-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/authentication/kinde-authentication.yml
+  href: https://artifacts.apis.io/kinde/authentication/kinde-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kinde-authentication.yml
@@ -812,47 +811,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/kinde/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/arazzo/kinde-assign-org-user-role-workflow.yml
+  href: https://artifacts.apis.io/kinde/arazzo/kinde-assign-org-user-role-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kinde-assign-org-user-role-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/arazzo/kinde-create-organization-with-users-workflow.yml
+  href: https://artifacts.apis.io/kinde/arazzo/kinde-create-organization-with-users-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kinde-create-organization-with-users-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/arazzo/kinde-create-role-with-permission-workflow.yml
+  href: https://artifacts.apis.io/kinde/arazzo/kinde-create-role-with-permission-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kinde-create-role-with-permission-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/arazzo/kinde-end-user-self-serve-portal-workflow.yml
+  href: https://artifacts.apis.io/kinde/arazzo/kinde-end-user-self-serve-portal-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kinde-end-user-self-serve-portal-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/arazzo/kinde-invite-user-to-organization-workflow.yml
+  href: https://artifacts.apis.io/kinde/arazzo/kinde-invite-user-to-organization-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kinde-invite-user-to-organization-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/arazzo/kinde-migrate-user-with-password-workflow.yml
+  href: https://artifacts.apis.io/kinde/arazzo/kinde-migrate-user-with-password-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kinde-migrate-user-with-password-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/arazzo/kinde-provision-user-workflow.yml
+  href: https://artifacts.apis.io/kinde/arazzo/kinde-provision-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kinde-provision-user-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/arazzo/kinde-register-application-with-connection-workflow.yml
+  href: https://artifacts.apis.io/kinde/arazzo/kinde-register-application-with-connection-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kinde-register-application-with-connection-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/arazzo/kinde-rollout-feature-flag-workflow.yml
+  href: https://artifacts.apis.io/kinde/arazzo/kinde-rollout-feature-flag-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kinde-rollout-feature-flag-workflow.yml
@@ -913,27 +912,27 @@ common:
   type: Support
   url: mailto:support@kinde.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/plans/kinde-plans-pricing.yml
+  href: https://artifacts.apis.io/kinde/plans/kinde-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kinde-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/rate-limits/kinde-rate-limits.yml
+  href: https://artifacts.apis.io/kinde/rate-limits/kinde-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kinde-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/finops/kinde-finops.yml
+  href: https://artifacts.apis.io/kinde/finops/kinde-finops.yml
   title: ''
   type: FinOps
   url: finops/kinde-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/vocabulary/kinde-vocabulary.yml
+  href: https://artifacts.apis.io/kinde/vocabulary/kinde-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/kinde-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/json-ld/kinde-context.jsonld
+  href: https://artifacts.apis.io/kinde/json-ld/kinde-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/kinde-context.jsonld
@@ -1102,107 +1101,107 @@ common:
   type: LlmsText
   url: https://docs.kinde.com/llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/packages/kinde-packages.yml
+  href: https://artifacts.apis.io/kinde/packages/kinde-packages.yml
   title: ''
   type: Packages
   url: packages/kinde-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/packages/kinde-packages.yml
+  href: https://artifacts.apis.io/kinde/packages/kinde-packages.yml
   title: ''
   type: SDKs
   url: packages/kinde-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/well-known/kinde-well-known.yml
+  href: https://artifacts.apis.io/kinde/well-known/kinde-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kinde-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/well-known/kinde-security.txt
+  href: https://artifacts.apis.io/kinde/well-known/kinde-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/kinde-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/security/kinde-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kinde/security/kinde-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/kinde-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/conformance/kinde-conformance.yml
+  href: https://artifacts.apis.io/kinde/conformance/kinde-conformance.yml
   title: ''
   type: Compliance
   url: conformance/kinde-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/conformance/kinde-conformance.yml
+  href: https://artifacts.apis.io/kinde/conformance/kinde-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kinde-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/conventions/kinde-conventions.yml
+  href: https://artifacts.apis.io/kinde/conventions/kinde-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kinde-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/conventions/kinde-conventions.yml
+  href: https://artifacts.apis.io/kinde/conventions/kinde-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/kinde-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/errors/kinde-problem-types.yml
+  href: https://artifacts.apis.io/kinde/errors/kinde-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kinde-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/lifecycle/kinde-lifecycle.yml
+  href: https://artifacts.apis.io/kinde/lifecycle/kinde-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kinde-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/lifecycle/kinde-lifecycle.yml
+  href: https://artifacts.apis.io/kinde/lifecycle/kinde-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/kinde-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/scopes/kinde-scopes.yml
+  href: https://artifacts.apis.io/kinde/scopes/kinde-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kinde-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/data-model/kinde-data-model.yml
+  href: https://artifacts.apis.io/kinde/data-model/kinde-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kinde-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/sandbox/kinde-sandbox.yml
+  href: https://artifacts.apis.io/kinde/sandbox/kinde-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kinde-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/changelog/kinde-changelog.yml
+  href: https://artifacts.apis.io/kinde/changelog/kinde-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kinde-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/cli/kinde-cli.yml
+  href: https://artifacts.apis.io/kinde/cli/kinde-cli.yml
   title: ''
   type: CLI
   url: cli/kinde-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/components/kinde-components.yml
+  href: https://artifacts.apis.io/kinde/components/kinde-components.yml
   title: ''
   type: Components
   url: components/kinde-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/webhooks/kinde-webhooks.yml
+  href: https://artifacts.apis.io/kinde/webhooks/kinde-webhooks.yml
   title: ''
   type: Webhooks
   url: webhooks/kinde-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kinde/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/llms/kinde-www-llms.txt
+  href: https://artifacts.apis.io/kinde/llms/kinde-www-llms.txt
   title: ''
   type: LlmsText
   url: llms/kinde-www-llms.txt
@@ -1223,12 +1222,12 @@ common:
   type: Compliance
   url: https://docs.kinde.com/trust-center/privacy-and-compliance/compliance/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/overlays/kinde-management-api-overlay.yaml
+  href: https://artifacts.apis.io/kinde/overlays/kinde-management-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kinde-management-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/overlays/kinde-account-api-overlay.yaml
+  href: https://artifacts.apis.io/kinde/overlays/kinde-account-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kinde-account-api-overlay.yaml
@@ -1255,10 +1254,10 @@ examples:
   slug: kinde-create-webhook-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Kinde Finops
-  primary_unit: ''
-  service_category: Identity
+  primary_unit: add-on to any plan
+  service_category: ''
   slug: kinde-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kinde.png
@@ -1314,9 +1313,12 @@ overview: 'Kinde publishes 31 API contracts indexed on the [APIs.io](https://api
   Kinde''s developer surface includes authentication, developer portal, signup flow, pricing, engineering blog, changelog, GitHub presence, and 97 more developer resources.'
 plans:
 - name: Kinde Plans Pricing
-  plan_count: 5
+  plan_count: 6
   slug: kinde-plans-pricing
-random_paper: 17
+- name: Kinde Price Estimates
+  plan_count: 0
+  slug: kinde-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 6
   name: Kinde Rate Limits
@@ -1352,23 +1354,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 82.9
+  composite: 84.5
   coverage:
     artifact_dirs: 39
-    catalog_earned: 81.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 34.0
+    catalog_earned: 90.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 25.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.1
+  delta: 1.0
   facets:
-    access_clarity: 61.8
+    access_clarity: 100.0
     contract_governance: 45.5
-    contract_quality: 68.2
+    contract_quality: 64.8
     developer_ergonomics: 91.1
-    discoverability: 73.3
-    operational_transparency: 92.1
-  previous_composite: 88.0
+    discoverability: 71.7
+    operational_transparency: 100.0
+  previous_composite: 83.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1385,13 +1387,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 66.7
-screenshot: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/screenshots/kinde-2026-06-20T184038.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kinde/kinde-2026-06-20T184038.png
 security:
 - kind: authentication
   name: Kinde Authentication
@@ -1409,6 +1412,26 @@ security:
   name: Kinde Trust Center
   slug: kinde-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+skill_count: 9
+skills:
+- name: kinde-assign-org-user-role
+  slug: kinde-assign-org-user-role
+- name: kinde-create-organization-with-users
+  slug: kinde-create-organization-with-users
+- name: kinde-create-role-with-permission
+  slug: kinde-create-role-with-permission
+- name: kinde-end-user-self-serve-portal
+  slug: kinde-end-user-self-serve-portal
+- name: kinde-invite-user-to-organization
+  slug: kinde-invite-user-to-organization
+- name: kinde-migrate-user-with-password
+  slug: kinde-migrate-user-with-password
+- name: kinde-provision-user
+  slug: kinde-provision-user
+- name: kinde-register-application-with-connection
+  slug: kinde-register-application-with-connection
+- name: kinde-rollout-feature-flag
+  slug: kinde-rollout-feature-flag
 slug: kinde
 tags:
 - Authentication

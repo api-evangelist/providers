@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-17'
+  score: 28.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Cast and manage votes on cat images.
   name: The Cat API Votes API
   slug: the-cat-api-votes-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: The Cat Breeds API
   slug: open-the-cat-api-breeds-api
@@ -95,32 +94,32 @@ collections:
   slug: open-the-cat-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/plans/the-cat-api-plans-pricing.yml
+  href: https://artifacts.apis.io/the-cat-api/plans/the-cat-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/the-cat-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/rate-limits/the-cat-api-rate-limits.yml
+  href: https://artifacts.apis.io/the-cat-api/rate-limits/the-cat-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/the-cat-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/finops/the-cat-api-finops.yml
+  href: https://artifacts.apis.io/the-cat-api/finops/the-cat-api-finops.yml
   title: ''
   type: FinOps
   url: finops/the-cat-api-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/agentic-access/the-cat-api-agentic-access.yml
+  href: https://artifacts.apis.io/the-cat-api/agentic-access/the-cat-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/the-cat-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/security/the-cat-api-domain-security.yml
+  href: https://artifacts.apis.io/the-cat-api/security/the-cat-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-cat-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/authentication/the-cat-api-authentication.yml
+  href: https://artifacts.apis.io/the-cat-api/authentication/the-cat-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-cat-api-authentication.yml
@@ -164,7 +163,7 @@ finops:
 - has_sources: false
   method: generated
   name: The Cat Api Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: the-cat-api-finops
   template: true
@@ -201,7 +200,7 @@ plans:
 - name: The Cat Api Plans Pricing
   plan_count: 3
   slug: the-cat-api-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: The Cat Api Rate Limits
@@ -232,7 +231,7 @@ rules:
   slug: the-cat-api-rules
 score:
   band: thin
-  composite: 29.9
+  composite: 35.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 45.5
@@ -240,15 +239,15 @@ score:
     catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 31.6
     contract_governance: 13.6
     contract_quality: 54.4
-    developer_ergonomics: 23.8
+    developer_ergonomics: 33.3
     discoverability: 48.2
-    operational_transparency: 10.5
-  previous_composite: 31.4
+    operational_transparency: 13.2
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -262,13 +261,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/screenshots/the-cat-api-2026-06-20T195216.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/the-cat-api/the-cat-api-2026-06-20T195216.png
 security:
 - kind: authentication
   name: The Cat Api Authentication

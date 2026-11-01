@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -65,17 +67,17 @@ common:
   type: PrivacyPolicy
   url: https://symmetrical.ai/polityka-prywatnosci
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/symmetrical/refs/heads/main/security/symmetrical-domain-security.yml
+  href: https://artifacts.apis.io/symmetrical/security/symmetrical-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/symmetrical-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/symmetrical/refs/heads/main/conformance/symmetrical-conformance.yml
+  href: https://artifacts.apis.io/symmetrical/conformance/symmetrical-conformance.yml
   title: ''
   type: Conformance
   url: conformance/symmetrical-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/symmetrical/refs/heads/main/conformance/symmetrical-conformance.yml
+  href: https://artifacts.apis.io/symmetrical/conformance/symmetrical-conformance.yml
   title: ''
   type: Compliance
   url: conformance/symmetrical-conformance.yml
@@ -95,10 +97,10 @@ overview: 'Symmetrical is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Symmetrical''s developer surface includes engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 6
+random_paper: 18
 score:
   band: emerging
-  composite: 19.1
+  composite: 20.6
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -111,8 +113,8 @@ score:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 51.7
+    developer_ergonomics: 11.9
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -122,7 +124,7 @@ score:
     regions:
     - cee
     - europe
-  previous_composite: 19.1
+  previous_composite: 20.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -132,14 +134,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/symmetrical/refs/heads/main/screenshots/symmetrical-2026-09-02T161447.png
+screenshot: https://apis.io/screenshots/symmetrical/symmetrical-2026-09-02T161447.png
 security:
 - kind: domain-security
   name: Symmetrical Domain Security

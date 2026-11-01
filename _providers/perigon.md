@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 54.0
-  scored_at: '2026-10-17'
+  score: 53.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 45
   slug: perigon-agentic-access
   summary_line: 45 operations · 18 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Hosted remote Model Context Protocol server (Streamable HTTP, with an SSE variant) exposing Perigon news search, analytics and monitor tools to AI clients. Authenticates with a Perigon API key as a be
   name: Perigon MCP Server
@@ -229,54 +231,59 @@ apis:
     question: How do I keyword-search Wikipedia pages by title or text?
   phrasing_ops: 2
   slug: perigon-wikipedia-api
-artifact_total: 17
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Perigon Webhooks
   slug: perigon-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/perigon/capabilities/perigon-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/perigon-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/agentic-access/perigon-agentic-access.yml
+  href: https://artifacts.apis.io/perigon/agentic-access/perigon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/perigon-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/rate-limits/perigon-rate-limits.yml
+  href: https://artifacts.apis.io/perigon/rate-limits/perigon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/perigon-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/plans/perigon-plans-pricing.yml
+  href: https://artifacts.apis.io/perigon/plans/perigon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/perigon-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/perigon/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/asyncapi/perigon-webhooks.yml
+  href: https://artifacts.apis.io/perigon/asyncapi/perigon-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/perigon-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/data-model/perigon-data-model.yml
+  href: https://artifacts.apis.io/perigon/data-model/perigon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/perigon-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/changelog/perigon-changelog.yml
+  href: https://artifacts.apis.io/perigon/changelog/perigon-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/perigon-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/conventions/perigon-conventions.yml
+  href: https://artifacts.apis.io/perigon/conventions/perigon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/perigon-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/authentication/perigon-authentication.yml
+  href: https://artifacts.apis.io/perigon/authentication/perigon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/perigon-authentication.yml
@@ -289,57 +296,57 @@ common:
   type: StatusPage
   url: https://status.perigon.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/lifecycle/perigon-lifecycle.yml
+  href: https://artifacts.apis.io/perigon/lifecycle/perigon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/perigon-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/errors/perigon-problem-types.yml
+  href: https://artifacts.apis.io/perigon/errors/perigon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/perigon-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/conformance/perigon-conformance.yml
+  href: https://artifacts.apis.io/perigon/conformance/perigon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/perigon-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/overlays/perigon-openapi-overlay.yaml
+  href: https://artifacts.apis.io/perigon/overlays/perigon-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/perigon-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/llms/perigon-llms.txt
+  href: https://artifacts.apis.io/perigon/llms/perigon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/perigon-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/mcp/perigon-tool-crosswalk.yml
+  href: https://artifacts.apis.io/perigon/mcp/perigon-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/perigon-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/mcp/perigon-mcp.yml
+  href: https://artifacts.apis.io/perigon/mcp/perigon-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/perigon-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/well-known/perigon-well-known.yml
+  href: https://artifacts.apis.io/perigon/well-known/perigon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/perigon-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/packages/perigon-packages.yml
+  href: https://artifacts.apis.io/perigon/packages/perigon-packages.yml
   title: ''
   type: SDKs
   url: packages/perigon-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/packages/perigon-packages.yml
+  href: https://artifacts.apis.io/perigon/packages/perigon-packages.yml
   title: ''
   type: Packages
   url: packages/perigon-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/security/perigon-domain-security.yml
+  href: https://artifacts.apis.io/perigon/security/perigon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/perigon-domain-security.yml
@@ -409,6 +416,14 @@ common:
   url: https://perigon.io/sandbox
 created: '2026-09-20'
 description: Perigon is a real-time global news data and intelligence platform. It provides structured, enriched news data from 200,000+ sources worldwide through REST APIs — articles, clustered stories, AI search summaries, semantic vector search, sources, companies, people, journalists, topics and Wikipedia — plus Signals, an AI-driven monitoring product with monitors, watchlists, contact points and signed webhooks. Perigon publishes an OpenAPI description, a hosted remote MCP server, official TypeScript, Python and Go SDKs, Agent Skills, and an API versioning and deprecation policy.
+finops:
+- has_sources: true
+  method: derived
+  name: Perigon Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: perigon-finops
+  template: false
 image: https://perigon.io/apple-touch-icon.png
 layout: provider
 mcp_servers:
@@ -425,12 +440,15 @@ overview: 'Perigon publishes 10 API contracts indexed on the [APIs.io](https://a
   The Perigon catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Perigon''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, FAQ, and 31 more developer resources.'
+  Perigon''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, FAQ, and 32 more developer resources.'
 plans:
 - name: Perigon Plans Pricing
   plan_count: 4
   slug: perigon-plans-pricing
-random_paper: 8
+- name: Perigon Price Estimates
+  plan_count: 0
+  slug: perigon-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 6
   name: Perigon Rate Limits
@@ -439,21 +457,21 @@ score:
   band: exemplar
   composite: 67.7
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 27
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 1.1
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 65.0
+    contract_quality: 61.6
     developer_ergonomics: 73.2
-    discoverability: 80.0
+    discoverability: 65.0
     operational_transparency: 84.2
-  previous_composite: 67.1
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -470,13 +488,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/perigon/refs/heads/main/screenshots/perigon-2026-10-11T112505.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/perigon/perigon-2026-10-11T112505.png
 security:
 - kind: authentication
   name: Perigon Authentication
@@ -486,6 +505,18 @@ security:
   name: Perigon Domain Security
   slug: perigon-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 5
+skills:
+- name: perigon-build-watchlist-and-source-group
+  slug: perigon-build-watchlist-and-source-group
+- name: perigon-check-usage-and-keys
+  slug: perigon-check-usage-and-keys
+- name: perigon-create-monitor-with-webhook
+  slug: perigon-create-monitor-with-webhook
+- name: perigon-search-news-and-stories
+  slug: perigon-search-news-and-stories
+- name: perigon-semantic-search-and-summarize
+  slug: perigon-semantic-search-and-summarize
 slug: perigon
 tags:
 - Company

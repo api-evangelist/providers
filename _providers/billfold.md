@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for Billfold point‑of‑sale platform
@@ -32,32 +34,32 @@ apis:
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/billfold/refs/heads/main/plans/billfold-plans-pricing.yml
+  href: https://artifacts.apis.io/billfold/plans/billfold-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/billfold-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/billfold/refs/heads/main/llms/billfold-llms.txt
+  href: https://artifacts.apis.io/billfold/llms/billfold-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/billfold-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/billfold/refs/heads/main/well-known/billfold-help-security.txt
+  href: https://artifacts.apis.io/billfold/well-known/billfold-help-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/billfold-help-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/billfold/refs/heads/main/well-known/billfold-well-known.yml
+  href: https://artifacts.apis.io/billfold/well-known/billfold-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/billfold-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/billfold/refs/heads/main/hosts/billfold-hosts.yml
+  href: https://artifacts.apis.io/billfold/hosts/billfold-hosts.yml
   title: ''
   type: Hosts
   url: hosts/billfold-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/billfold/refs/heads/main/vendors/billfold-vendors.yml
+  href: https://artifacts.apis.io/billfold/vendors/billfold-vendors.yml
   title: ''
   type: Vendors
   url: vendors/billfold-vendors.yml
@@ -74,7 +76,7 @@ common:
   type: DeveloperPortal
   url: https://portal.billfold.tech/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/billfold/refs/heads/main/security/billfold-domain-security.yml
+  href: https://artifacts.apis.io/billfold/security/billfold-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/billfold-domain-security.yml
@@ -123,10 +125,10 @@ plans:
 - name: Billfold Plans Pricing
   plan_count: 17
   slug: billfold-plans-pricing
-random_paper: 4
+random_paper: 0
 score:
   band: emerging
-  composite: 23.3
+  composite: 23.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 44.0
@@ -134,15 +136,15 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 64.3
-    operational_transparency: 0.0
-  previous_composite: 23.2
+    discoverability: 57.1
+    operational_transparency: 10.5
+  previous_composite: 23.9
   provenance:
     mcp: derived
   regulatory:
@@ -151,14 +153,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/billfold/refs/heads/main/screenshots/billfold-2026-10-11T102209.png
+screenshot: https://apis.io/screenshots/billfold/billfold-2026-10-11T102209.png
 security:
 - kind: domain-security
   name: Billfold Domain Security

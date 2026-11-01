@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Business Intelligence Services API
@@ -32,17 +34,17 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blackcube/refs/heads/main/hosts/blackcube-hosts.yml
+  href: https://artifacts.apis.io/blackcube/hosts/blackcube-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blackcube-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blackcube/refs/heads/main/vendors/blackcube-vendors.yml
+  href: https://artifacts.apis.io/blackcube/vendors/blackcube-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blackcube-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackcube/refs/heads/main/security/blackcube-domain-security.yml
+  href: https://artifacts.apis.io/blackcube/security/blackcube-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blackcube-domain-security.yml
@@ -87,7 +89,7 @@ overview: 'Blackcube is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Blackcube''s developer surface includes documentation, support, and 6 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: minimal
   composite: 6.8
@@ -115,8 +117,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

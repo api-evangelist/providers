@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.6
-  scored_at: '2026-10-17'
+  score: 34.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Nursa's OpenID Connect / OAuth 2.0 authorization server. Issues the JWT access tokens the Nursa Public API requires, supports the authorization code (with and without PKCE), resource owner password, i
@@ -108,15 +110,12 @@ apis:
   description: The Webhook logs API from Nursa — 1 operation(s) for webhook logs.
   name: Nursa Webhook logs API
   slug: nursa-webhook-logs-api
-artifact_total: 34
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Nursa Public Api V2 Webhooks
   slug: nursa-public-api-v2-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nursa Public API V2 Clinicians API
   slug: open-nursa-clinicians-api
@@ -157,22 +156,32 @@ collections:
   name: Nursa Public API V2 Webhook logs API
   slug: open-nursa-webhook-logs-api
 common:
+- group: other
+  href: https://artifacts.apis.io/nursa/capabilities/nursa-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nursa-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/nursa/plans/nursa-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nursa-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://nursa.com/blog/rss.xml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/mcp/nursa-mcp.yml
+  href: https://artifacts.apis.io/nursa/mcp/nursa-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nursa-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/security/nursa-trust-center.yml
+  href: https://artifacts.apis.io/nursa/security/nursa-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nursa-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/security/nursa-domain-security.yml
+  href: https://artifacts.apis.io/nursa/security/nursa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nursa-domain-security.yml
@@ -245,88 +254,96 @@ common:
   type: Compliance
   url: https://trust.nursa.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/llms/nursa-llms.txt
+  href: https://artifacts.apis.io/nursa/llms/nursa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nursa-llms.txt
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/sandbox/nursa-sandbox.yml
+  href: https://artifacts.apis.io/nursa/sandbox/nursa-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nursa-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/conventions/nursa-conventions.yml
+  href: https://artifacts.apis.io/nursa/conventions/nursa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nursa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/conformance/nursa-conformance.yml
+  href: https://artifacts.apis.io/nursa/conformance/nursa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nursa-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/lifecycle/nursa-lifecycle.yml
+  href: https://artifacts.apis.io/nursa/lifecycle/nursa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nursa-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/well-known/nursa-well-known.yml
+  href: https://artifacts.apis.io/nursa/well-known/nursa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nursa-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/scopes/nursa-scopes.yml
+  href: https://artifacts.apis.io/nursa/scopes/nursa-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nursa-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nursa/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/packages/nursa-packages.yml
+  href: https://artifacts.apis.io/nursa/packages/nursa-packages.yml
   title: ''
   type: Packages
   url: packages/nursa-packages.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/_original/nursa-public-api-v2-openapi.yml
+  href: https://artifacts.apis.io/nursa/openapi/_original/nursa-public-api-v2-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/nursa-public-api-v2-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/authentication/nursa-authentication.yml
+  href: https://artifacts.apis.io/nursa/authentication/nursa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nursa-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/asyncapi/nursa-public-api-v2-webhooks.yml
+  href: https://artifacts.apis.io/nursa/asyncapi/nursa-public-api-v2-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nursa-public-api-v2-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/errors/nursa-problem-types.yml
+  href: https://artifacts.apis.io/nursa/errors/nursa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nursa-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/rate-limits/nursa-rate-limits.yml
+  href: https://artifacts.apis.io/nursa/rate-limits/nursa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nursa-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/data-model/nursa-data-model.yml
+  href: https://artifacts.apis.io/nursa/data-model/nursa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nursa-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/overlays/nursa-public-api-v2-overlay.yaml
+  href: https://artifacts.apis.io/nursa/overlays/nursa-public-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nursa-public-api-v2-overlay.yaml
 created: '2026-08-04'
 description: Nursa is a healthcare staffing marketplace, founded in Salt Lake City in 2019, that connects credentialed per diem (PRN) clinicians — registered nurses, licensed practical nurses, certified nursing assistants, certified medication aides and allied professionals — directly with hospitals, skilled nursing facilities, long-term and post-acute care providers, removing the traditional staffing agency from the middle. Facilities post open shifts and set their own rates, clinicians browse and request shifts, and both sides settle through Nursa's shift-report flow. Nursa publishes a Public API V2 (REST, JWT bearer, with an OpenID Connect / OAuth 2.0 authorization server) so workforce-management and scheduling platforms can post shifts, review requests, schedule clinicians, read clinician credentials and subscribe to webhooks — the integration surface behind its Covr, StaffLion, Dropstat, Maple and UKG partnerships. The company is accredited by The Joint Commission and reports more than
   4,500 facilities and 500,000 clinicians nationwide.
+finops:
+- has_sources: true
+  method: derived
+  name: Nursa Finops
+  primary_unit: ''
+  service_category: ''
+  slug: nursa-finops
+  template: true
 image: https://cdn.prod.website-files.com/636e7f8063d6538dea5ca1e4/63e3d5253bcbd6e2b35efeee_logo-horizontal-color.svg
 layout: provider
 modified: '2026-10-06'
@@ -339,8 +356,12 @@ overview: 'Nursa publishes 14 API contracts indexed on the [APIs.io](https://api
   The Nursa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nursa''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, pricing, support, and 30 more developer resources.'
-random_paper: 3
+  Nursa''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, pricing, support, and 32 more developer resources.'
+plans:
+- name: Nursa Plans Pricing
+  plan_count: 0
+  slug: nursa-plans-pricing
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Nursa Rate Limits
@@ -352,9 +373,9 @@ scopes:
   summary_line: 26 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 55.7
+  composite: 55.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 25
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -364,11 +385,11 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 61.7
+    contract_quality: 59.6
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 31.6
-  previous_composite: 55.7
+    discoverability: 66.1
+    operational_transparency: 34.2
+  previous_composite: 55.5
   provenance:
     conformance: derived
     contracts:
@@ -384,13 +405,14 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/screenshots/nursa-2026-08-07T185748.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nursa/nursa-2026-08-07T185748.png
 security:
 - kind: authentication
   name: Nursa Authentication
@@ -404,6 +426,16 @@ security:
   name: Nursa Trust Center
   slug: nursa-trust-center
   summary_line: SOC 2
+skill_count: 4
+skills:
+- name: Onboard a facility onto the Nursa API
+  slug: nursa-onboard-a-facility
+- name: Post and fill a per diem shift on Nursa
+  slug: nursa-post-and-fill-a-shift
+- name: Reconcile a Nursa shift report
+  slug: nursa-reconcile-shift-reports
+- name: Subscribe to and verify Nursa webhooks
+  slug: nursa-subscribe-to-webhooks
 slug: nursa
 tags:
 - Company

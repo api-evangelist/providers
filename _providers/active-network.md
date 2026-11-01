@@ -16,26 +16,35 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-17'
+  score: 24.1
+  scored_at: '2026-10-31'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Active Network Agentic Access
+  operation_count: 2
+  slug: active-network-agentic-access
+  summary_line: 2 operations
 api_count: 2
 apis:
 - baseURL: http://api.amp.active.com
@@ -48,11 +57,8 @@ apis:
   description: The Camping API from Active Network — 1 operation(s) for camping.
   name: Active Network Camping API
   slug: active-network-camping-api
-artifact_total: 8
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ACTIVE Network Activity Search API v2 Activities API
   slug: open-active-network-activities-api
@@ -60,12 +66,66 @@ collections:
   name: ACTIVE Network Activity Search API v2 Activities Camping API
   slug: open-active-network-camping-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/active-network/plans/active-network-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/active-network-plans-pricing.yml
+- group: agent
+  href: https://artifacts.apis.io/active-network/agentic-access/active-network-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/active-network-agentic-access.yml
+- group: design
+  href: https://artifacts.apis.io/active-network/rules/active-network-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/active-network-rules.yml
+- group: design
+  href: https://artifacts.apis.io/active-network/json-ld/active-network-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/active-network-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/active-network/vocabulary/active-network-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/active-network-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/active-network/data-model/active-network-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/active-network-data-model.yml
+- group: operate
+  href: https://artifacts.apis.io/active-network/changelog/active-network-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/active-network-changelog.yml
+- group: other
+  href: https://artifacts.apis.io/active-network/hosts/active-network-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/active-network-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/active-network/integrations/active-network-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/active-network-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/active-network/vendors/active-network-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/active-network-vendors.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.activenetwork.com/activeworks-endurance/plans-pricing
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.activenetwork.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/security/active-network-domain-security.yml
+  href: https://artifacts.apis.io/active-network/security/active-network-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/active-network-domain-security.yml
@@ -114,63 +174,85 @@ common:
   type: PrivacyPolicy
   url: https://www.activenetwork.com/information/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/authentication/active-network-authentication.yml
+  href: https://artifacts.apis.io/active-network/authentication/active-network-authentication.yml
   title: ''
   type: Authentication
   url: authentication/active-network-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/rate-limits/active-network-rate-limits.yml
+  href: https://artifacts.apis.io/active-network/rate-limits/active-network-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/active-network-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/conventions/active-network-conventions.yml
+  href: https://artifacts.apis.io/active-network/conventions/active-network-conventions.yml
   title: ''
   type: Conventions
   url: conventions/active-network-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/errors/active-network-problem-types.yml
+  href: https://artifacts.apis.io/active-network/errors/active-network-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/active-network-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/lifecycle/active-network-lifecycle.yml
+  href: https://artifacts.apis.io/active-network/lifecycle/active-network-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/active-network-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/conformance/active-network-conformance.yml
+  href: https://artifacts.apis.io/active-network/conformance/active-network-conformance.yml
   title: ''
   type: Conformance
   url: conformance/active-network-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/well-known/active-network-well-known.yml
+  href: https://artifacts.apis.io/active-network/well-known/active-network-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/active-network-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/mcp/active-network-mcp.yml
+  href: https://artifacts.apis.io/active-network/mcp/active-network-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/active-network-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/llms/active-network-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/active-network-llms.txt
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/active-network/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/overlays/active-network-activity-search-overlay.yaml
+  href: https://artifacts.apis.io/active-network/overlays/active-network-activity-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/active-network-activity-search-overlay.yaml
+coverage:
+  checked: '2026-10-27'
+  detail: No OpenAPI/AsyncAPI/GraphQL spec found; API documentation is HTML only.
+  evidence:
+  - status: 200
+    url: https://developer.active.com/docs
+  - status: 596
+    url: https://api.amp.active.com/openapi.json
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-07-17'
 description: 'ACTIVE Network provides intelligent activity and event management software for communities and organizations, powering registration, payments, marketing, and attendance for recreation departments, YMCAs, camps, schools, event organizers, and municipalities, and is trusted by over 6,300 organizations worldwide. For developers, ACTIVE Network publishes a set of read-only public data APIs on its AMP platform (api.amp.active.com): the Activity Search API v2 surfaces searchable activities and events from ACTIVE.com and ACTIVEkids.com, and the Campground / Campsite Search APIs surface campgrounds and campsites. All APIs are authenticated with a simple api_key query parameter and are rate limited.'
+finops:
+- has_sources: true
+  method: derived
+  name: Active Network Finops
+  primary_unit: ''
+  service_category: ''
+  slug: active-network-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/active-network.png
+json_schemas:
+- name: SearchResponse
+  property_count: 6
+  slug: active-network-search-response
+jsonld:
+- class_count: 2
+  name: Active Network Context
+  property_count: 10
+  slug: active-network-context
 layout: provider
 modified: '2026-10-06'
 name: Active Network
@@ -179,32 +261,53 @@ network: true
 overview: 'Active Network publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Activities API and Camping API. Tagged areas include Company, Event, Registration, Recreation, and Activities.
 
 
-  Active Network''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 7
+  The Active Network catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Active Network''s developer surface includes changelog, pricing, documentation, API reference, getting-started guide, signup flow, support, and 27 more developer resources.'
+plans:
+- name: Active Network Plans Pricing
+  plan_count: 3
+  slug: active-network-plans-pricing
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Active Network Rate Limits
   slug: active-network-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Active Network API Rules
+  rule_count: 14
+  severity_counts:
+    error: 12
+    hint: 0
+    info: 1
+    warn: 1
+  slug: active-network-rules
 score:
-  band: developing
-  composite: 43.0
+  band: strong
+  composite: 57.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 30
+    catalog_earned: 76.2
+    catalog_earned_first_party: 20.0
+    catalog_gap: 38.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 14.9
   facets:
-    access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 49.6
+    access_clarity: 76.3
+    contract_governance: 22.0
+    contract_quality: 58.7
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 43.0
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 42.3
   provenance:
+    agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
@@ -219,14 +322,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/screenshots/active-network-2026-07-25T181526.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/active-network/active-network-2026-07-25T181526.png
 security:
 - kind: authentication
   name: Active Network Authentication
@@ -236,6 +339,12 @@ security:
   name: Active Network Domain Security
   slug: active-network-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: activity-search
+  slug: active-network-activity-search
+- name: camping-search
+  slug: active-network-camping-search
 slug: active-network
 tags:
 - Company

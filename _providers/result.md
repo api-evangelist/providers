@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Remote Model Context Protocol server exposing 74 tools across six categories (plan and operate, build and ship, Company Brain, audience growth, sell and support, run the company) — the same tools Resu
@@ -46,7 +48,7 @@ apis:
 - description: Embeddable customer-support launcher, loaded either as a plain script tag from https://result.dev/widget.js with a data-support handle or via @resultdev/sdk support.mount(). It opens the business's ow
   name: Result Support Widget
   slug: result-support-widget
-artifact_total: 9
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -89,98 +91,106 @@ common:
   type: RefundPolicy
   url: https://result.dev/refund
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/llms/result-llms.txt
+  href: https://artifacts.apis.io/result/llms/result-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/result-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/mcp/result-mcp.yml
+  href: https://artifacts.apis.io/result/mcp/result-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/result-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/packages/result-packages.yml
+  href: https://artifacts.apis.io/result/packages/result-packages.yml
   title: ''
   type: Packages
   url: packages/result-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/packages/result-packages.yml
+  href: https://artifacts.apis.io/result/packages/result-packages.yml
   title: ''
   type: SDKs
   url: packages/result-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/cli/result-cli.yml
+  href: https://artifacts.apis.io/result/cli/result-cli.yml
   title: ''
   type: CLI
   url: cli/result-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/components/result-components.yml
+  href: https://artifacts.apis.io/result/components/result-components.yml
   title: ''
   type: Components
   url: components/result-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/authentication/result-authentication.yml
+  href: https://artifacts.apis.io/result/authentication/result-authentication.yml
   title: ''
   type: Authentication
   url: authentication/result-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/scopes/result-scopes.yml
+  href: https://artifacts.apis.io/result/scopes/result-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/result-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/conventions/result-conventions.yml
+  href: https://artifacts.apis.io/result/conventions/result-conventions.yml
   title: ''
   type: Conventions
   url: conventions/result-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/errors/result-error-codes.yml
+  href: https://artifacts.apis.io/result/errors/result-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/result-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/data-model/result-data-model.yml
+  href: https://artifacts.apis.io/result/data-model/result-data-model.yml
   title: ''
   type: DataModel
   url: data-model/result-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/sandbox/result-sandbox.yml
+  href: https://artifacts.apis.io/result/sandbox/result-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/result-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/plans/result-plans-pricing.yml
+  href: https://artifacts.apis.io/result/plans/result-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/result-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/rate-limits/result-rate-limits.yml
+  href: https://artifacts.apis.io/result/rate-limits/result-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/result-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/lifecycle/result-lifecycle.yml
+  href: https://artifacts.apis.io/result/lifecycle/result-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/result-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/conformance/result-conformance.yml
+  href: https://artifacts.apis.io/result/conformance/result-conformance.yml
   title: ''
   type: Conformance
   url: conformance/result-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/well-known/result-well-known.yml
+  href: https://artifacts.apis.io/result/well-known/result-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/result-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/security/result-domain-security.yml
+  href: https://artifacts.apis.io/result/security/result-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/result-domain-security.yml
 created: '2026-07-17'
 description: 'Result is a Y Combinator (Spring 2026) all-in-one business operating system, operated by Foundative Inc. (a Delaware corporation), that lets internet entrepreneurs start and run companies end-to-end. The platform unifies app development with built-in payments, AI-powered marketing and content creation, automated customer support, financial analytics, branding and design tools, market research, SEO optimization, legal incorporation, and investor fundraising into a single surface, tied together by a "Company Brain" that retains business context from day one. Result ships a real developer surface on top of that product: Result Backend is a hosted app backend (Postgres with row-level security, Google/GitHub and email-password auth, file storage, WebSocket realtime channels with presence, serverless Deno functions, hosted AI chat/embeddings/ image models, transactional email, cookieless web analytics, embedded customer support and Paddle-backed payments) consumed through the first-party
   @resultdev/sdk client and the @resultdev/cli admin CLI. Result also operates a remote, OAuth-protected Model Context Protocol server at https://api.result.dev/mcp exposing 74 tools across six categories, so coding agents and MCP clients can plan, build, publish, sell and support a business through the same validated tool surface the product uses internally. Founded by Aaryan Kushwah (CEO) and Savio Martin (CTO).'
+finops:
+- has_sources: true
+  method: derived
+  name: Result Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: result-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/result.png
 layout: provider
 mcp_servers:
@@ -199,7 +209,10 @@ plans:
 - name: Result Plans Pricing
   plan_count: 3
   slug: result-plans-pricing
-random_paper: 11
+- name: Result Price Estimates
+  plan_count: 0
+  slug: result-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Result Rate Limits
@@ -211,23 +224,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 43.9
+  composite: 44.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 60.0
+    artifact_dirs: 20
+    catalog_earned: 63.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 21.1
-  previous_composite: 43.9
+  previous_composite: 42.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -237,14 +250,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/result/refs/heads/main/screenshots/result-2026-08-17T081542.png
+screenshot: https://apis.io/screenshots/result/result-2026-08-17T081542.png
 security:
 - kind: authentication
   name: Result Authentication

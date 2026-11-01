@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Anonymous JSON-RPC 2.0 / Model Context Protocol endpoint implementing the Universal Commerce Protocol shopping service (version 2026-04-08). A tools/list call returns 13 tools with JSON Schema input c
@@ -45,10 +47,10 @@ apis:
 - description: 'Unauthenticated read-only storefront JSON the merchant documents for agents that only need to read store data: product and collection JSON, product search, and the sitemap. Documented in the merchant'''
   name: Flying Embers Storefront Product JSON
   slug: flying-embers-storefront-json
-artifact_total: 8
+artifact_total: 11
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/security/flying-embers-domain-security.yml
+  href: https://artifacts.apis.io/flying-embers/security/flying-embers-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flying-embers-domain-security.yml
@@ -85,77 +87,77 @@ common:
   type: PrivacyPolicy
   url: https://www.flyingembers.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/mcp/flying-embers-mcp.yml
+  href: https://artifacts.apis.io/flying-embers/mcp/flying-embers-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/flying-embers-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/llms/flying-embers-llms.txt
+  href: https://artifacts.apis.io/flying-embers/llms/flying-embers-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flying-embers-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/well-known/flying-embers-well-known.yml
+  href: https://artifacts.apis.io/flying-embers/well-known/flying-embers-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/flying-embers-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/authentication/flying-embers-authentication.yml
+  href: https://artifacts.apis.io/flying-embers/authentication/flying-embers-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flying-embers-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/scopes/flying-embers-scopes.yml
+  href: https://artifacts.apis.io/flying-embers/scopes/flying-embers-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/flying-embers-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/conventions/flying-embers-conventions.yml
+  href: https://artifacts.apis.io/flying-embers/conventions/flying-embers-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flying-embers-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/conventions/flying-embers-conventions.yml
+  href: https://artifacts.apis.io/flying-embers/conventions/flying-embers-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/flying-embers-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/conformance/flying-embers-conformance.yml
+  href: https://artifacts.apis.io/flying-embers/conformance/flying-embers-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flying-embers-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/errors/flying-embers-problem-types.yml
+  href: https://artifacts.apis.io/flying-embers/errors/flying-embers-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flying-embers-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/lifecycle/flying-embers-lifecycle.yml
+  href: https://artifacts.apis.io/flying-embers/lifecycle/flying-embers-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flying-embers-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/data-model/flying-embers-data-model.yml
+  href: https://artifacts.apis.io/flying-embers/data-model/flying-embers-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flying-embers-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/rate-limits/flying-embers-rate-limits.yml
+  href: https://artifacts.apis.io/flying-embers/rate-limits/flying-embers-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flying-embers-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/plans/flying-embers-plans-pricing.yml
+  href: https://artifacts.apis.io/flying-embers/plans/flying-embers-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/flying-embers-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/packages/flying-embers-packages.yml
+  href: https://artifacts.apis.io/flying-embers/packages/flying-embers-packages.yml
   title: ''
   type: Packages
   url: packages/flying-embers-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/flying-embers/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -194,8 +196,8 @@ scopes:
   slug: flying-embers-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 27.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -203,15 +205,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 66.7
+    discoverability: 63.3
     operational_transparency: 21.1
-  previous_composite: 26.0
+  previous_composite: 27.1
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -222,14 +224,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/flying-embers/refs/heads/main/screenshots/flying-embers-2026-09-02T145532.png
+screenshot: https://apis.io/screenshots/flying-embers/flying-embers-2026-09-02T145532.png
 security:
 - kind: authentication
   name: Flying Embers Authentication
@@ -239,6 +241,14 @@ security:
   name: Flying Embers Domain Security
   slug: flying-embers-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Browse and look up the Flying Embers catalog
+  slug: flying-embers-browse-catalog
+- name: Build and manage a Flying Embers cart
+  slug: flying-embers-build-a-cart
+- name: Complete a Flying Embers checkout with human approval
+  slug: flying-embers-checkout-with-human-approval
 slug: flying-embers
 tags:
 - Company

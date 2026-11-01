@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The MediaRadar Client API delivers MediaRadar brand, contacts and advertising data to existing clients over REST. It is fronted by Azure API Management and documented through the MediaRadar Client API
@@ -72,17 +74,17 @@ common:
   type: PrivacyPolicy
   url: https://www.mediaradar.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/media-radar/refs/heads/main/authentication/media-radar-authentication.yml
+  href: https://artifacts.apis.io/media-radar/authentication/media-radar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/media-radar-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/media-radar/refs/heads/main/security/media-radar-domain-security.yml
+  href: https://artifacts.apis.io/media-radar/security/media-radar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/media-radar-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/media-radar/refs/heads/main/security/media-radar-trust-center.yml
+  href: https://artifacts.apis.io/media-radar/security/media-radar-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/media-radar-trust-center.yml
@@ -95,27 +97,27 @@ common:
   type: Support
   url: https://www.mediaradar.com/customer-support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/media-radar/refs/heads/main/conformance/media-radar-conformance.yml
+  href: https://artifacts.apis.io/media-radar/conformance/media-radar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/media-radar-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/media-radar/refs/heads/main/packages/media-radar-packages.yml
+  href: https://artifacts.apis.io/media-radar/packages/media-radar-packages.yml
   title: ''
   type: Packages
   url: packages/media-radar-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/media-radar/refs/heads/main/llms/media-radar-llms.txt
+  href: https://artifacts.apis.io/media-radar/llms/media-radar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/media-radar-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/media-radar/refs/heads/main/plans/media-radar-plans-pricing.yml
+  href: https://artifacts.apis.io/media-radar/plans/media-radar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/media-radar-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/media-radar/refs/heads/main/rate-limits/media-radar-rate-limits.yml
+  href: https://artifacts.apis.io/media-radar/rate-limits/media-radar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/media-radar-rate-limits.yml
@@ -151,14 +153,14 @@ plans:
 - name: Media Radar Plans Pricing
   plan_count: 0
   slug: media-radar-plans-pricing
-random_paper: 1
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Media Radar Rate Limits
   slug: media-radar-rate-limits
 score:
-  band: emerging
-  composite: 25.1
+  band: thin
+  composite: 26.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -166,15 +168,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 25.0
+  previous_composite: 26.7
   provenance:
     conformance: first-party
   regulatory:
@@ -182,15 +184,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/media-radar/refs/heads/main/screenshots/media-radar-2026-08-07T172326.png
+screenshot: https://apis.io/screenshots/media-radar/media-radar-2026-08-07T172326.png
 security:
 - kind: authentication
   name: Media Radar Authentication

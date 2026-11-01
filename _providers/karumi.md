@@ -11,7 +11,8 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,21 +21,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 59.4
-  scored_at: '2026-10-17'
+  score: 47.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,10 +65,15 @@ apis:
   description: The Targets API from Karumi — 2 operation(s) for targets.
   name: Karumi Targets API
   slug: karumi-targets-api
-artifact_total: 12
+- baseURL: https://api.karumi.ai/mcp/
+  baseurl_source: declared
+  description: The Chat onboarding API from Karumi — 2 operation(s) for chat onboarding.
+  name: Karumi Chat onboarding API
+  slug: karumi-chat-onboarding-api
+artifact_total: 19
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/agentic-access/karumi-agentic-access.yml
+  href: https://artifacts.apis.io/karumi/agentic-access/karumi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/karumi-agentic-access.yml
@@ -82,92 +90,92 @@ common:
   type: APIReference
   url: https://api.karumi.ai/api/v1/redoc
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/mcp/karumi-mcp.yml
+  href: https://artifacts.apis.io/karumi/mcp/karumi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/karumi-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/mcp/karumi-tool-crosswalk.yml
+  href: https://artifacts.apis.io/karumi/mcp/karumi-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/karumi-tool-crosswalk.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/_original/karumi-public-api-openapi.json
+  href: https://artifacts.apis.io/karumi/openapi/_original/karumi-public-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/karumi-public-api-openapi.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/overlays/karumi-public-api-overlay.yaml
+  href: https://artifacts.apis.io/karumi/overlays/karumi-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/karumi-public-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/authentication/karumi-authentication.yml
+  href: https://artifacts.apis.io/karumi/authentication/karumi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/karumi-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/scopes/karumi-scopes.yml
+  href: https://artifacts.apis.io/karumi/scopes/karumi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/karumi-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/conventions/karumi-conventions.yml
+  href: https://artifacts.apis.io/karumi/conventions/karumi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/karumi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/data-model/karumi-data-model.yml
+  href: https://artifacts.apis.io/karumi/data-model/karumi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/karumi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/errors/karumi-problem-types.yml
+  href: https://artifacts.apis.io/karumi/errors/karumi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/karumi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/lifecycle/karumi-lifecycle.yml
+  href: https://artifacts.apis.io/karumi/lifecycle/karumi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/karumi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/conformance/karumi-conformance.yml
+  href: https://artifacts.apis.io/karumi/conformance/karumi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/karumi-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/well-known/karumi-well-known.yml
+  href: https://artifacts.apis.io/karumi/well-known/karumi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/karumi-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/llms/karumi-llms.txt
+  href: https://artifacts.apis.io/karumi/llms/karumi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/karumi-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/karumi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/components/karumi-components.yml
+  href: https://artifacts.apis.io/karumi/components/karumi-components.yml
   title: ''
   type: Components
   url: components/karumi-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/packages/karumi-packages.yml
+  href: https://artifacts.apis.io/karumi/packages/karumi-packages.yml
   title: ''
   type: Packages
   url: packages/karumi-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/plans/karumi-plans-pricing.yml
+  href: https://artifacts.apis.io/karumi/plans/karumi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/karumi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/rate-limits/karumi-rate-limits.yml
+  href: https://artifacts.apis.io/karumi/rate-limits/karumi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/karumi-rate-limits.yml
@@ -196,12 +204,12 @@ common:
   type: PrivacyPolicy
   url: https://www.karumi.ai/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/security/karumi-domain-security.yml
+  href: https://artifacts.apis.io/karumi/security/karumi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/karumi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/security/karumi-trust-center.yml
+  href: https://artifacts.apis.io/karumi/security/karumi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/karumi-trust-center.yml
@@ -211,6 +219,14 @@ common:
   url: https://trust.delve.co/karumi
 created: '2026-07-17'
 description: Karumi is an agentic demo platform that delivers personalized, AI-powered product demonstrations during live video calls. Its AI agent runs live, interactive demos 24/7 across landing pages, in-app surfaces, and outbound email, adapting each demonstration to the prospect and navigating the product in-browser in real time. It supports multiple languages, logs transcripts, analysis, and next steps into the CRM, and targets B2B SaaS go-to-market teams looking to engage high-intent leads at peak interest instead of waiting days for a human demo. Karumi publishes a read-only Public API over session, transcript, insight, target and analytics data (OpenAPI 3.1.0, X-Api-Key auth) and a hosted, OAuth-protected MCP server exposing 37 tools for operating the platform from an MCP client. Karumi is a Y Combinator (Fall 2025) company founded by Pablo Omenaca (CEO) and Toni Lopez (CTO), both formerly of StackAI (YC W23).
+finops:
+- has_sources: true
+  method: derived
+  name: Karumi Finops
+  primary_unit: ''
+  service_category: ''
+  slug: karumi-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/karumi.png
 layout: provider
 mcp_servers:
@@ -221,7 +237,7 @@ modified: '2026-09-16'
 name: Karumi
 nav: Providers
 network: true
-overview: 'Karumi publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Sessions API, Targets API, and 1 more. Tagged areas include Company, AI Agents, Product Demos, Sales Enablement, and Go-To-Market.
+overview: 'Karumi publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Sessions API, Targets API, and 2 more. Tagged areas include Company, AI Agents, Product Demos, Sales Enablement, and Go-To-Market.
 
 
   Karumi''s developer surface includes documentation, API reference, authentication, engineering blog, pricing, signup flow, and 25 more developer resources.'
@@ -229,7 +245,10 @@ plans:
 - name: Karumi Plans Pricing
   plan_count: 2
   slug: karumi-plans-pricing
-random_paper: 11
+- name: Karumi Price Estimates
+  plan_count: 0
+  slug: karumi-price-estimates
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Karumi Rate Limits
@@ -241,23 +260,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.1
+  composite: 44.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
-    access_clarity: 77.6
+    access_clarity: 81.6
     contract_governance: 4.5
     contract_quality: 43.5
     developer_ergonomics: 32.7
-    discoverability: 68.3
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 43.5
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,7 +284,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 7
     mcp: first-party
     skills: derived
   regulatory:
@@ -273,15 +292,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 36.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 39.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/screenshots/karumi-2026-07-25T223528.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/karumi/karumi-2026-07-25T223528.png
 security:
 - kind: authentication
   name: Karumi Authentication
@@ -295,6 +314,16 @@ security:
   name: Karumi Trust Center
   slug: karumi-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 4
+skills:
+- name: Pull session insights, events and recordings
+  slug: karumi-analyze-session-outcomes
+- name: Operate a Karumi workspace over MCP
+  slug: karumi-operate-workspace-over-mcp
+- name: Report demo engagement analytics by target
+  slug: karumi-report-demo-analytics
+- name: Review demo sessions and read a transcript
+  slug: karumi-review-demo-sessions
 slug: karumi
 tags:
 - Company

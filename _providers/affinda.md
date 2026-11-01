@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.4
-  scored_at: '2026-10-17'
+  score: 46.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 141
   slug: affinda-agentic-access
   summary_line: 141 operations · 81 acting
-api_count: 5
+api_count: 4
 apis:
 - baseURL_template: https://{region}.affinda.com
   baseurl_source: spec_template
@@ -208,7 +210,7 @@ arazzos:
 - description: List an organization's workspaces, then pull a daily credit-consumption report scoped to the first workspace.
   name: Affinda Workspace Usage Report
   slug: affinda-workspace-usage-report-workflow
-artifact_total: 124
+artifact_total: 123
 collections:
 - collection_type: postman
   name: Affinda Annotations API
@@ -252,9 +254,6 @@ collections:
 - collection_type: postman
   name: Affinda Workspaces API
   slug: postman-affinda-workspaces-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Affinda Annotations Add x-hidden to endpoints API
   slug: open-affinda-add-x-hidden-to-endpoints-api
@@ -321,27 +320,27 @@ common:
   type: Website
   url: https://www.affinda.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/capabilities/affinda-capability-edges.yml
+  href: https://artifacts.apis.io/affinda/capabilities/affinda-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/affinda-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/agentic-access/affinda-agentic-access.yml
+  href: https://artifacts.apis.io/affinda/agentic-access/affinda-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/affinda-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/security/affinda-trust-center.yml
+  href: https://artifacts.apis.io/affinda/security/affinda-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/affinda-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/security/affinda-domain-security.yml
+  href: https://artifacts.apis.io/affinda/security/affinda-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/affinda-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/authentication/affinda-authentication.yml
+  href: https://artifacts.apis.io/affinda/authentication/affinda-authentication.yml
   title: ''
   type: Authentication
   url: authentication/affinda-authentication.yml
@@ -350,137 +349,137 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/affinda/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-add-collection-data-field-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-add-collection-data-field-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-add-collection-data-field-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-add-workspace-member-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-add-workspace-member-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-add-workspace-member-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-bootstrap-organization-workspace-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-bootstrap-organization-workspace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-bootstrap-organization-workspace-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-configure-resume-search-embed-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-configure-resume-search-embed-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-configure-resume-search-embed-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-create-data-point-with-choices-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-create-data-point-with-choices-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-create-data-point-with-choices-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-create-data-source-and-add-value-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-create-data-source-and-add-value-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-create-data-source-and-add-value-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-create-document-from-data-and-index-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-create-document-from-data-and-index-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-create-document-from-data-and-index-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-create-extractor-with-data-point-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-create-extractor-with-data-point-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-create-extractor-with-data-point-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-create-index-and-add-document-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-create-index-and-add-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-create-index-and-add-document-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-create-tag-and-tag-documents-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-create-tag-and-tag-documents-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-create-tag-and-tag-documents-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-document-type-to-json-schema-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-document-type-to-json-schema-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-document-type-to-json-schema-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-find-and-move-document-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-find-and-move-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-find-and-move-document-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-invite-member-and-respond-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-invite-member-and-respond-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-invite-member-and-respond-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-job-description-search-and-detail-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-job-description-search-and-detail-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-job-description-search-and-detail-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-parse-and-correct-annotations-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-parse-and-correct-annotations-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-parse-and-correct-annotations-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-parse-and-reject-document-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-parse-and-reject-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-parse-and-reject-document-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-parse-and-validate-rule-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-parse-and-validate-rule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-parse-and-validate-rule-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-provision-and-ingest-document-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-provision-and-ingest-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-provision-and-ingest-document-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-provision-workspace-collection-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-provision-workspace-collection-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-provision-workspace-collection-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-rename-document-type-and-refresh-schema-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-rename-document-type-and-refresh-schema-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-rename-document-type-and-refresh-schema-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-resume-search-and-detail-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-resume-search-and-detail-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-resume-search-and-detail-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-split-document-and-reparse-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-split-document-and-reparse-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-split-document-and-reparse-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-update-resume-data-and-reindex-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-update-resume-data-and-reindex-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-update-resume-data-and-reindex-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-upload-and-parse-document-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-upload-and-parse-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-upload-and-parse-document-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-upload-from-url-and-validate-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-upload-from-url-and-validate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-upload-from-url-and-validate-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-webhook-subscribe-and-activate-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-webhook-subscribe-and-activate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-webhook-subscribe-and-activate-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/arazzo/affinda-workspace-usage-report-workflow.yml
+  href: https://artifacts.apis.io/affinda/arazzo/affinda-workspace-usage-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/affinda-workspace-usage-report-workflow.yml
@@ -613,17 +612,17 @@ common:
   type: Compliance
   url: ''
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/plans/affinda-plans-pricing.yml
+  href: https://artifacts.apis.io/affinda/plans/affinda-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/affinda-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/rate-limits/affinda-rate-limits.yml
+  href: https://artifacts.apis.io/affinda/rate-limits/affinda-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/affinda-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/finops/affinda-finops.yml
+  href: https://artifacts.apis.io/affinda/finops/affinda-finops.yml
   title: ''
   type: FinOps
   url: finops/affinda-finops.yml
@@ -672,12 +671,12 @@ features:
 - skill.md file for AI agents (Claude Code, Cursor) describing the full API surface
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Affinda Finops
-  primary_unit: credit
-  service_category: AI and Machine Learning
+  primary_unit: ''
+  service_category: ''
   slug: affinda-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/affinda.png
 json_schemas:
 - name: Affinda Annotation
@@ -717,7 +716,7 @@ plans:
 - name: Affinda Plans Pricing
   plan_count: 3
   slug: affinda-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Affinda Rate Limits
@@ -748,23 +747,23 @@ rules:
   slug: affinda-rules
 score:
   band: strong
-  composite: 54.5
+  composite: 64.6
   coverage:
     artifact_dirs: 22
-    catalog_earned: 60.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 54.1
+    catalog_earned: 66.9
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.9
+  delta: -1.6
   facets:
-    access_clarity: 48.7
+    access_clarity: 92.1
     contract_governance: 13.6
-    contract_quality: 63.5
-    developer_ergonomics: 79.0
-    discoverability: 65.0
-    operational_transparency: 42.1
-  previous_composite: 60.4
+    contract_quality: 60.1
+    developer_ergonomics: 81.4
+    discoverability: 62.5
+    operational_transparency: 44.7
+  previous_composite: 66.2
   provenance:
     agentic_access: derived
     contracts:
@@ -778,14 +777,15 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 18.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 24.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/screenshots/affinda-2026-06-20T165616.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/affinda/affinda-2026-06-20T165616.png
 security:
 - kind: authentication
   name: Affinda Authentication

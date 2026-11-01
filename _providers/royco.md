@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,27 +79,27 @@ common:
   type: PrivacyPolicy
   url: https://docs.google.com/document/d/1WhR0K9MNIoEP90WhV7XOcvM9h6nbj-7yDviwJYKuaCU/edit?usp=sharing
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/royco/refs/heads/main/packages/royco-packages.yml
+  href: https://artifacts.apis.io/royco/packages/royco-packages.yml
   title: ''
   type: Packages
   url: packages/royco-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/royco/refs/heads/main/packages/royco-packages.yml
+  href: https://artifacts.apis.io/royco/packages/royco-packages.yml
   title: ''
   type: SDKs
   url: packages/royco-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/royco/refs/heads/main/llms/royco-llms.txt
+  href: https://artifacts.apis.io/royco/llms/royco-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/royco-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/royco/refs/heads/main/well-known/royco-well-known.yml
+  href: https://artifacts.apis.io/royco/well-known/royco-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/royco-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/royco/refs/heads/main/security/royco-domain-security.yml
+  href: https://artifacts.apis.io/royco/security/royco-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/royco-domain-security.yml
@@ -113,10 +115,10 @@ overview: 'Royco is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Royco''s developer surface includes documentation, support, and 13 more developer resources.'
-random_paper: 6
+random_paper: 4
 score:
   band: emerging
-  composite: 18.1
+  composite: 17.8
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -130,23 +132,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 31.0
-    discoverability: 55.4
-    operational_transparency: 18.4
-  previous_composite: 18.1
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 17.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/royco/refs/heads/main/screenshots/royco-2026-09-02T154148.png
+screenshot: https://apis.io/screenshots/royco/royco-2026-09-02T154148.png
 security:
 - kind: domain-security
   name: Royco Domain Security

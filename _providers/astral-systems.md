@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +59,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/astralsystems/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/astral-systems/refs/heads/main/security/astral-systems-domain-security.yml
+  href: https://artifacts.apis.io/astral-systems/security/astral-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/astral-systems-domain-security.yml
@@ -73,7 +75,7 @@ overview: 'Astral Systems is profiled on the [APIs.io](https://apis.io/) network
 
 
   Astral Systems'' developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 10
+random_paper: 20
 score:
   band: minimal
   composite: 5.0
@@ -107,14 +109,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/astral-systems/refs/heads/main/screenshots/astral-systems-2026-07-25T201459.png
+screenshot: https://apis.io/screenshots/astral-systems/astral-systems-2026-07-25T201459.png
 security:
 - kind: domain-security
   name: Astral Systems Domain Security

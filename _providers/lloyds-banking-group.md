@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.7
-  scored_at: '2026-10-17'
+  score: 39.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -228,7 +230,7 @@ apis:
   description: The Transactions API from Lloyds Banking Group — 2 operation(s) for transactions.
   name: Lloyds Banking Group Transactions API
   slug: lloyds-banking-group-transactions-api
-artifact_total: 43
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Lloyds Banking Group Event Notifications Webhooks
@@ -239,92 +241,92 @@ collections:
   slug: open-obie-opendata-swagger
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/capabilities/lloyds-banking-group-capability-edges.yml
+  href: https://artifacts.apis.io/lloyds-banking-group/capabilities/lloyds-banking-group-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lloyds-banking-group-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/overlays/lloyds-banking-group-opendata-overlay.yaml
+  href: https://artifacts.apis.io/lloyds-banking-group/overlays/lloyds-banking-group-opendata-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lloyds-banking-group-opendata-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/overlays/lloyds-banking-group-account-info-overlay.yaml
+  href: https://artifacts.apis.io/lloyds-banking-group/overlays/lloyds-banking-group-account-info-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lloyds-banking-group-account-info-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/overlays/lloyds-banking-group-payment-initiation-overlay.yaml
+  href: https://artifacts.apis.io/lloyds-banking-group/overlays/lloyds-banking-group-payment-initiation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lloyds-banking-group-payment-initiation-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/overlays/lloyds-banking-group-confirmation-funds-overlay.yaml
+  href: https://artifacts.apis.io/lloyds-banking-group/overlays/lloyds-banking-group-confirmation-funds-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lloyds-banking-group-confirmation-funds-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/overlays/lloyds-banking-group-vrp-overlay.yaml
+  href: https://artifacts.apis.io/lloyds-banking-group/overlays/lloyds-banking-group-vrp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lloyds-banking-group-vrp-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/security/lloyds-banking-group-domain-security.yml
+  href: https://artifacts.apis.io/lloyds-banking-group/security/lloyds-banking-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lloyds-banking-group-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/agentic-access/lloyds-banking-group-agentic-access.yml
+  href: https://artifacts.apis.io/lloyds-banking-group/agentic-access/lloyds-banking-group-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lloyds-banking-group-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/scopes/lloyds-banking-group-scopes.yml
+  href: https://artifacts.apis.io/lloyds-banking-group/scopes/lloyds-banking-group-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lloyds-banking-group-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/authentication/lloyds-banking-group-authentication.yml
+  href: https://artifacts.apis.io/lloyds-banking-group/authentication/lloyds-banking-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lloyds-banking-group-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/conventions/lloyds-banking-group-conventions.yml
+  href: https://artifacts.apis.io/lloyds-banking-group/conventions/lloyds-banking-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lloyds-banking-group-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/conventions/lloyds-banking-group-conventions.yml
+  href: https://artifacts.apis.io/lloyds-banking-group/conventions/lloyds-banking-group-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/lloyds-banking-group-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/errors/lloyds-banking-group-problem-types.yml
+  href: https://artifacts.apis.io/lloyds-banking-group/errors/lloyds-banking-group-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lloyds-banking-group-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/conformance/lloyds-banking-group-conformance.yml
+  href: https://artifacts.apis.io/lloyds-banking-group/conformance/lloyds-banking-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lloyds-banking-group-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/lifecycle/lloyds-banking-group-lifecycle.yml
+  href: https://artifacts.apis.io/lloyds-banking-group/lifecycle/lloyds-banking-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lloyds-banking-group-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/data-model/lloyds-banking-group-data-model.yml
+  href: https://artifacts.apis.io/lloyds-banking-group/data-model/lloyds-banking-group-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lloyds-banking-group-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/llms/lloyds-banking-group-llms.txt
+  href: https://artifacts.apis.io/lloyds-banking-group/llms/lloyds-banking-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lloyds-banking-group-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lloyds-banking-group/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -384,15 +386,15 @@ overview: 'Lloyds Banking Group publishes 37 API contracts indexed on the [APIs.
 
 
   Lloyds Banking Group''s developer surface includes authentication, getting-started guide, documentation, API reference, engineering blog, support, and 22 more developer resources.'
-random_paper: 16
+random_paper: 0
 scopes:
 - name: Lloyds Banking Group Scopes
   scope_count: 3
   slug: lloyds-banking-group-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 36.2
+  band: developing
+  composite: 39.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -402,12 +404,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 55.0
-    developer_ergonomics: 56.5
-    discoverability: 78.6
-    operational_transparency: 10.5
+    contract_quality: 54.5
+    developer_ergonomics: 58.9
+    discoverability: 71.4
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -416,7 +418,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 36.2
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -435,14 +437,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 34.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 37.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/screenshots/lloyds-banking-group-2026-07-25T225413.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lloyds-banking-group/lloyds-banking-group-2026-07-25T225413.png
 security:
 - kind: authentication
   name: Lloyds Banking Group Authentication
@@ -452,6 +455,12 @@ security:
   name: Lloyds Banking Group Domain Security
   slug: lloyds-banking-group-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Access account and transaction information (AIS)
+  slug: lloyds-banking-group-account-information-access
+- name: Initiate a domestic payment (PIS)
+  slug: lloyds-banking-group-domestic-payment
 slug: lloyds-banking-group
 tags:
 - Financial Services

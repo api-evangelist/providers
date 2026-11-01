@@ -17,22 +17,24 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.0
-  scored_at: '2026-10-17'
-api_count: 1
+  score: 45.6
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - baseURL: https://platform.aignostics.com/api/v1
   baseurl_source: declared
   description: The Public API from Aignostics — 21 operation(s) for public.
   name: Aignostics Public API
   slug: aignostics-public-api
-artifact_total: 9
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Aignostics Event Surface
@@ -91,113 +93,121 @@ common:
   type: StatusPage
   url: https://status.aignostics.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/lifecycle/aignostics-lifecycle.yml
+  href: https://artifacts.apis.io/aignostics/lifecycle/aignostics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aignostics-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/changelog/aignostics-changelog.yml
+  href: https://artifacts.apis.io/aignostics/changelog/aignostics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aignostics-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/packages/aignostics-packages.yml
+  href: https://artifacts.apis.io/aignostics/packages/aignostics-packages.yml
   title: ''
   type: Packages
   url: packages/aignostics-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/packages/aignostics-packages.yml
+  href: https://artifacts.apis.io/aignostics/packages/aignostics-packages.yml
   title: ''
   type: SDKs
   url: packages/aignostics-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/cli/aignostics-cli.yml
+  href: https://artifacts.apis.io/aignostics/cli/aignostics-cli.yml
   title: ''
   type: CLI
   url: cli/aignostics-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/authentication/aignostics-authentication.yml
+  href: https://artifacts.apis.io/aignostics/authentication/aignostics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aignostics-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/scopes/aignostics-scopes.yml
+  href: https://artifacts.apis.io/aignostics/scopes/aignostics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aignostics-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/conventions/aignostics-conventions.yml
+  href: https://artifacts.apis.io/aignostics/conventions/aignostics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aignostics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/errors/aignostics-problem-types.yml
+  href: https://artifacts.apis.io/aignostics/errors/aignostics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aignostics-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/data-model/aignostics-data-model.yml
+  href: https://artifacts.apis.io/aignostics/data-model/aignostics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aignostics-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/conformance/aignostics-conformance.yml
+  href: https://artifacts.apis.io/aignostics/conformance/aignostics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aignostics-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/rate-limits/aignostics-rate-limits.yml
+  href: https://artifacts.apis.io/aignostics/rate-limits/aignostics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aignostics-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/plans/aignostics-plans-pricing.yml
+  href: https://artifacts.apis.io/aignostics/plans/aignostics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aignostics-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/security/aignostics-domain-security.yml
+  href: https://artifacts.apis.io/aignostics/security/aignostics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aignostics-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/security/aignostics-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aignostics/security/aignostics-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aignostics-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/security/aignostics-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aignostics/security/aignostics-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/aignostics-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/mcp/aignostics-mcp.yml
+  href: https://artifacts.apis.io/aignostics/mcp/aignostics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aignostics-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/mcp/aignostics-tool-crosswalk.yml
+  href: https://artifacts.apis.io/aignostics/mcp/aignostics-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/aignostics-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aignostics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/llms/aignostics-llms.txt
+  href: https://artifacts.apis.io/aignostics/llms/aignostics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aignostics-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/overlays/aignostics-platform-api-overlay.yaml
+  href: https://artifacts.apis.io/aignostics/overlays/aignostics-platform-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aignostics-platform-api-overlay.yaml
 created: '2026-09-14'
 description: 'Aignostics GmbH is a Berlin-based computational pathology company, spun out of Charite Universitaetsmedizin Berlin, that builds AI foundation models and analysis applications for whole slide images (WSI). Its commercial surface is the Aignostics Platform, a cloud service that runs computational pathology applications - Atlas H&E-TME tumor-microenvironment profiling is the flagship - on dedicated NVIDIA GPU infrastructure, with a per-organization Google Cloud Storage bucket and Auth0-backed enterprise SSO. The Platform is reachable three ways: a browser Console, an open-source Python SDK (Launchpad desktop app, CLI, client library and an in-development MCP server), and a public REST contract - the Aignostics Platform API, an OpenAPI 3.1.0 document with 26 operations served unauthenticated at https://platform.aignostics.com/api/v1/openapi.json. The API covers application and version discovery, run submission and cancellation, per-item result and artifact retrieval, custom metadata
   with checksum-guarded writes, and an access-grant / share-token sharing model. Access is organization-scoped: there is no anonymous access and no organization-wide API key.'
+finops:
+- has_sources: true
+  method: derived
+  name: Aignostics Finops
+  primary_unit: ''
+  service_category: ''
+  slug: aignostics-finops
+  template: true
 image: https://cdn.prod.website-files.com/67adb01f31489469b513304a/67eec0230902714317f91424_ag-logo.svg
 layout: provider
 mcp_servers:
@@ -231,22 +241,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.1
+  composite: 49.6
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 50.1
     developer_ergonomics: 80.4
     discoverability: 65.0
-    operational_transparency: 36.8
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -255,14 +265,14 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 50.0
+  previous_composite: 49.6
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 2
     mcp: first-party
     skills: derived
   regulatory:
@@ -271,13 +281,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/screenshots/aignostics-2026-10-11T093258.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aignostics/aignostics-2026-10-11T093258.png
 security:
 - kind: authentication
   name: Aignostics Authentication
@@ -291,6 +302,14 @@ security:
   name: Aignostics Vulnerability Disclosure
   slug: aignostics-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 3
+skills:
+- name: aignostics-collect-run-results
+  slug: aignostics-collect-run-results
+- name: aignostics-share-run-results
+  slug: aignostics-share-run-results
+- name: aignostics-submit-slide-analysis-run
+  slug: aignostics-submit-slide-analysis-run
 slug: aignostics
 tags:
 - Company

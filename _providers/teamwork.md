@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,11 +61,8 @@ apis:
   description: The Tasks API from Teamwork.com — 1 operation(s) for tasks.
   name: Teamwork.com Tasks API
   slug: teamwork-tasks-api
-artifact_total: 11
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Teamwork.com Projects API v3 Activity API
   slug: open-teamwork-activity-api
@@ -78,27 +77,27 @@ collections:
   slug: open-teamwork
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/capabilities/teamwork-capability-edges.yml
+  href: https://artifacts.apis.io/teamwork/capabilities/teamwork-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/teamwork-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/a2a/teamwork-a2a.yml
+  href: https://artifacts.apis.io/teamwork/a2a/teamwork-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/teamwork-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/agentic-access/teamwork-agentic-access.yml
+  href: https://artifacts.apis.io/teamwork/agentic-access/teamwork-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/teamwork-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/security/teamwork-domain-security.yml
+  href: https://artifacts.apis.io/teamwork/security/teamwork-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teamwork-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/authentication/teamwork-authentication.yml
+  href: https://artifacts.apis.io/teamwork/authentication/teamwork-authentication.yml
   title: ''
   type: Authentication
   url: authentication/teamwork-authentication.yml
@@ -154,10 +153,10 @@ overview: 'Teamwork.com publishes 3 API contracts indexed on the [APIs.io](https
 
 
   Teamwork.com''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 16
+random_paper: 10
 score:
   band: thin
-  composite: 33.9
+  composite: 34.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -165,15 +164,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 50.2
     developer_ergonomics: 40.5
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 33.8
+    operational_transparency: 21.1
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -187,14 +186,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/screenshots/teamwork-2026-06-20T195100.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/teamwork/teamwork-2026-06-20T195100.png
 security:
 - kind: authentication
   name: Teamwork Authentication

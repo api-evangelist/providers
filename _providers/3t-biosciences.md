@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,10 +34,24 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
+- group: other
+  href: https://artifacts.apis.io/3t-biosciences/hosts/3t-biosciences-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/3t-biosciences-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/3t-biosciences/vendors/3t-biosciences-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/3t-biosciences-vendors.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://3tbiosciences.com/team/
 - group: company
   title: ''
   type: Website
@@ -76,13 +92,8 @@ common:
   title: ''
   type: Twitter
   url: https://twitter.com/3tbio
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/3t-biosciences/refs/heads/main/llms/3t-biosciences-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/3t-biosciences-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/3t-biosciences/refs/heads/main/security/3t-biosciences-domain-security.yml
+  href: https://artifacts.apis.io/3t-biosciences/security/3t-biosciences-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/3t-biosciences-domain-security.yml
@@ -97,42 +108,54 @@ network: true
 overview: '3T Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Immunotherapy, Oncology, and TCR Therapeutics.
 
 
-  3T Biosciences'' developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 7
+  3T Biosciences'' developer surface includes engineering blog, support, and 12 more developer resources.'
+random_paper: 3
+scopes:
+- name: 3T Biosciences Scopes
+  scope_count: 0
+  slug: 3t-biosciences-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: minimal
-  composite: 10.8
+  band: emerging
+  composite: 11.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 18
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 10.7
+  previous_composite: 10.1
+  provenance:
+    conformance: unknown
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 21.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/3t-biosciences/refs/heads/main/screenshots/3t-biosciences-2026-07-25T181157.png
+screenshot: https://apis.io/screenshots/3t-biosciences/3t-biosciences-2026-07-25T181157.png
 security:
+- kind: authentication
+  name: 3T Biosciences Authentication
+  slug: 3t-biosciences-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: 3T Biosciences Domain Security
   slug: 3t-biosciences-domain-security

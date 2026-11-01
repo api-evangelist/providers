@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -93,14 +95,11 @@ arazzos:
 - description: Find a user's high-severity alerts, pull the top alert's events, and annotate it.
   name: Varonis User High-Severity Investigation
   slug: varonis-user-high-severity-investigation-workflow
-artifact_total: 90
+artifact_total: 89
 collections:
 - collection_type: postman
   name: Varonis DatAlert API
   slug: postman-varonis-datalert
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Varonis DatAlert Alerts API
   slug: open-varonis-alerts-api
@@ -115,47 +114,47 @@ collections:
   slug: open-varonis-threat-models-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/plans/varonis-plans-pricing.yml
+  href: https://artifacts.apis.io/varonis/plans/varonis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/varonis-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/rate-limits/varonis-rate-limits.yml
+  href: https://artifacts.apis.io/varonis/rate-limits/varonis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/varonis-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/finops/varonis-finops.yml
+  href: https://artifacts.apis.io/varonis/finops/varonis-finops.yml
   title: ''
   type: FinOps
   url: finops/varonis-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/capabilities/varonis-capability-edges.yml
+  href: https://artifacts.apis.io/varonis/capabilities/varonis-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/varonis-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/agentic-access/varonis-agentic-access.yml
+  href: https://artifacts.apis.io/varonis/agentic-access/varonis-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/varonis-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/security/varonis-trust-center.yml
+  href: https://artifacts.apis.io/varonis/security/varonis-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/varonis-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/security/varonis-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/varonis/security/varonis-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/varonis-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/security/varonis-domain-security.yml
+  href: https://artifacts.apis.io/varonis/security/varonis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/varonis-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/authentication/varonis-authentication.yml
+  href: https://artifacts.apis.io/varonis/authentication/varonis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/varonis-authentication.yml
@@ -164,42 +163,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/varonis/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/arazzo/varonis-close-low-severity-noise-workflow.yml
+  href: https://artifacts.apis.io/varonis/arazzo/varonis-close-low-severity-noise-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/varonis-close-low-severity-noise-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/arazzo/varonis-device-malicious-ip-response-workflow.yml
+  href: https://artifacts.apis.io/varonis/arazzo/varonis-device-malicious-ip-response-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/varonis-device-malicious-ip-response-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/arazzo/varonis-high-severity-model-coverage-workflow.yml
+  href: https://artifacts.apis.io/varonis/arazzo/varonis-high-severity-model-coverage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/varonis-high-severity-model-coverage-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/arazzo/varonis-investigate-and-close-alert-workflow.yml
+  href: https://artifacts.apis.io/varonis/arazzo/varonis-investigate-and-close-alert-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/varonis-investigate-and-close-alert-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/arazzo/varonis-sensitive-data-alert-escalation-workflow.yml
+  href: https://artifacts.apis.io/varonis/arazzo/varonis-sensitive-data-alert-escalation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/varonis-sensitive-data-alert-escalation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/arazzo/varonis-threat-model-hunt-workflow.yml
+  href: https://artifacts.apis.io/varonis/arazzo/varonis-threat-model-hunt-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/varonis-threat-model-hunt-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/arazzo/varonis-triage-alert-workflow.yml
+  href: https://artifacts.apis.io/varonis/arazzo/varonis-triage-alert-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/varonis-triage-alert-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/arazzo/varonis-user-high-severity-investigation-workflow.yml
+  href: https://artifacts.apis.io/varonis/arazzo/varonis-user-high-severity-investigation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/varonis-user-high-severity-investigation-workflow.yml
@@ -276,17 +275,17 @@ common:
   type: PartnerPortal
   url: https://partners.varonis.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/rules/varonis-spectral-rules.yml
+  href: https://artifacts.apis.io/varonis/rules/varonis-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/varonis-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/vocabulary/varonis-vocabulary.yaml
+  href: https://artifacts.apis.io/varonis/vocabulary/varonis-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/varonis-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/json-ld/varonis-datalert-context.jsonld
+  href: https://artifacts.apis.io/varonis/json-ld/varonis-datalert-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/varonis-datalert-context.jsonld
@@ -467,7 +466,7 @@ plans:
 - name: Varonis Plans Pricing
   plan_count: 1
   slug: varonis-plans-pricing
-random_paper: 0
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Varonis Rate Limits
@@ -497,8 +496,8 @@ rules:
     warn: 22
   slug: varonis-spectral-rules
 score:
-  band: thin
-  composite: 37.8
+  band: strong
+  composite: 55.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 66.8
@@ -506,15 +505,15 @@ score:
     catalog_gap: 48.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 11.8
+    access_clarity: 47.4
     contract_governance: 17.4
     contract_quality: 67.8
-    developer_ergonomics: 33.3
+    developer_ergonomics: 46.4
     discoverability: 73.2
-    operational_transparency: 15.8
-  previous_composite: 39.3
+    operational_transparency: 52.6
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     contracts:
@@ -527,14 +526,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/screenshots/varonis-2026-06-20T200821.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/varonis/varonis-2026-06-20T200821.png
 security:
 - kind: authentication
   name: Varonis Authentication

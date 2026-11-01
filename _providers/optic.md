@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Optic CLI provides OpenAPI diffing, linting and breaking-change detection from the command line, comparing two versions of an OpenAPI specification with behaviour-aware diffing and applying style-
@@ -42,17 +44,17 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/plans/optic-plans-pricing.yml
+  href: https://artifacts.apis.io/optic/plans/optic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/optic-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/rate-limits/optic-rate-limits.yml
+  href: https://artifacts.apis.io/optic/rate-limits/optic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/optic-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/finops/optic-finops.yml
+  href: https://artifacts.apis.io/optic/finops/optic-finops.yml
   title: ''
   type: FinOps
   url: finops/optic-finops.yml
@@ -97,67 +99,67 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/useoptic
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/changelog/optic-changelog.yml
+  href: https://artifacts.apis.io/optic/changelog/optic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/optic-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/lifecycle/optic-lifecycle.yml
+  href: https://artifacts.apis.io/optic/lifecycle/optic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/optic-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/cli/optic-cli.yml
+  href: https://artifacts.apis.io/optic/cli/optic-cli.yml
   title: ''
   type: CLI
   url: cli/optic-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/packages/optic-packages.yml
+  href: https://artifacts.apis.io/optic/packages/optic-packages.yml
   title: ''
   type: Packages
   url: packages/optic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/packages/optic-packages.yml
+  href: https://artifacts.apis.io/optic/packages/optic-packages.yml
   title: ''
   type: SDKs
   url: packages/optic-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/conventions/optic-conventions.yml
+  href: https://artifacts.apis.io/optic/conventions/optic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/optic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/conformance/optic-conformance.yml
+  href: https://artifacts.apis.io/optic/conformance/optic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/optic-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/well-known/optic-well-known.yml
+  href: https://artifacts.apis.io/optic/well-known/optic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/optic-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/well-known/optic-security.txt
+  href: https://artifacts.apis.io/optic/well-known/optic-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/optic-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/security/optic-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/optic/security/optic-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/optic-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/security/optic-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/optic/security/optic-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/optic-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/security/optic-domain-security.yml
+  href: https://artifacts.apis.io/optic/security/optic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/optic-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/llms/optic-llms.txt
+  href: https://artifacts.apis.io/optic/llms/optic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/optic-llms.txt
@@ -183,7 +185,7 @@ finops:
 - has_sources: false
   method: generated
   name: Optic Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: optic-finops
   template: true
@@ -208,7 +210,7 @@ rate_limits:
   slug: optic-rate-limits
 score:
   band: emerging
-  composite: 19.7
+  composite: 18.7
   coverage:
     artifact_dirs: 14
     catalog_earned: 32.0
@@ -216,18 +218,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 64.3
-    operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 21.0
+    discoverability: 57.1
+    operational_transparency: 31.6
+  previous_composite: 18.7
   provenance:
     conformance: derived
   regulatory:
@@ -236,14 +235,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/optic/refs/heads/main/screenshots/optic-2026-08-07T190759.png
+screenshot: https://apis.io/screenshots/optic/optic-2026-08-07T190759.png
 security:
 - kind: domain-security
   name: Optic Domain Security

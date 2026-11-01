@@ -2,7 +2,7 @@
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
@@ -14,22 +14,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-17'
+  score: 38.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: OpenAI-compatible REST API covering chat/completions, image generation, video generation, and model listing (plus Anthropic Messages and OpenAI Responses formats). Key-authenticated via Bearer token.
   name: ToAPIs API
   slug: toapis-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Toapis Webhooks
@@ -40,67 +42,67 @@ common:
   type: Website
   url: https://toapis.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/toapis/refs/heads/main/security/toapis-domain-security.yml
+  href: https://artifacts.apis.io/toapis/security/toapis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/toapis-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toapis/refs/heads/main/mcp/toapis-mcp.yml
+  href: https://artifacts.apis.io/toapis/mcp/toapis-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/toapis-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/toapis/refs/heads/main/a2a/toapis-a2a.yml
+  href: https://artifacts.apis.io/toapis/a2a/toapis-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/toapis-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toapis/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/toapis/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toapis/refs/heads/main/llms/toapis-llms.txt
+  href: https://artifacts.apis.io/toapis/llms/toapis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/toapis-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toapis/refs/heads/main/well-known/toapis-well-known.yml
+  href: https://artifacts.apis.io/toapis/well-known/toapis-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/toapis-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toapis/refs/heads/main/asyncapi/toapis-webhooks.yml
+  href: https://artifacts.apis.io/toapis/asyncapi/toapis-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/toapis-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/toapis/refs/heads/main/rate-limits/toapis-rate-limits.yml
+  href: https://artifacts.apis.io/toapis/rate-limits/toapis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/toapis-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/toapis/refs/heads/main/plans/toapis-plans-pricing.yml
+  href: https://artifacts.apis.io/toapis/plans/toapis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/toapis-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toapis/refs/heads/main/errors/toapis-problem-types.yml
+  href: https://artifacts.apis.io/toapis/errors/toapis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/toapis-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/toapis/refs/heads/main/authentication/toapis-authentication.yml
+  href: https://artifacts.apis.io/toapis/authentication/toapis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/toapis-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toapis/refs/heads/main/conventions/toapis-conventions.yml
+  href: https://artifacts.apis.io/toapis/conventions/toapis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/toapis-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/toapis/refs/heads/main/conformance/toapis-conformance.yml
+  href: https://artifacts.apis.io/toapis/conformance/toapis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/toapis-conformance.yml
@@ -134,6 +136,14 @@ common:
   url: https://discord.gg/hvnszCrJ73
 created: '2026-09-07'
 description: An OpenAI-compatible AI API gateway/aggregator fronting 50+ text, image, and video models (GPT, Claude, Gemini, DeepSeek, Qwen, Sora/Veo/Kling, etc.) behind a single integration, with model routing, provider failover, unified usage tracking, and consolidated billing.
+finops:
+- has_sources: true
+  method: derived
+  name: Toapis Finops
+  primary_unit: second
+  service_category: ''
+  slug: toapis-finops
+  template: false
 image: https://docs.toapis.com/logo/light.svg
 layout: provider
 mcp_servers:
@@ -153,32 +163,32 @@ overview: 'ToAPIs is listed with 1 API on the [APIs.io](https://apis.io/) networ
   ToAPIs'' developer surface includes authentication, pricing, developer portal, support, and 17 more developer resources.'
 plans:
 - name: Toapis Plans Pricing
-  plan_count: 0
+  plan_count: 3
   slug: toapis-plans-pricing
-random_paper: 18
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Toapis Rate Limits
   slug: toapis-rate-limits
 score:
   band: developing
-  composite: 44.0
+  composite: 53.2
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 46.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 69.0
+    artifact_dirs: 17
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 7.9
   facets:
-    access_clarity: 38.2
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 54.8
-    discoverability: 70.0
-    operational_transparency: 42.1
-  previous_composite: 44.3
+    discoverability: 66.7
+    operational_transparency: 44.7
+  previous_composite: 45.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -189,14 +199,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/toapis/refs/heads/main/screenshots/toapis-2026-10-11T130955.png
+screenshot: https://apis.io/screenshots/toapis/toapis-2026-10-11T130955.png
 security:
 - kind: authentication
   name: Toapis Authentication
@@ -206,6 +216,10 @@ security:
   name: Toapis Domain Security
   slug: toapis-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Apis
+  slug: toapis-apis
 slug: toapis
 tags:
 - AI API

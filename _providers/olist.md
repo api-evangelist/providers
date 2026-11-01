@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,12 +67,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/olist
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/olist/refs/heads/main/well-known/olist-well-known.yml
+  href: https://artifacts.apis.io/olist/well-known/olist-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/olist-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/olist/refs/heads/main/security/olist-domain-security.yml
+  href: https://artifacts.apis.io/olist/security/olist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/olist-domain-security.yml
@@ -86,10 +88,10 @@ overview: 'Olist is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Olist''s developer surface includes signup flow, support, engineering blog, pricing, and 5 more developer resources.'
-random_paper: 5
+random_paper: 3
 score:
   band: emerging
-  composite: 11.1
+  composite: 11.5
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -104,7 +106,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -112,21 +114,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 11.1
+  previous_composite: 11.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/olist/refs/heads/main/screenshots/olist-2026-08-07T190120.png
+screenshot: https://apis.io/screenshots/olist/olist-2026-08-07T190120.png
 security:
 - kind: domain-security
   name: Olist Domain Security

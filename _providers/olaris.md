@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Unauthenticated remote Model Context Protocol endpoint served from Olaris' own host at https://www.myolaris.com/_api/mcp. It is the Wix platform Site MCP — provisioned by the website platform, not a f
@@ -48,17 +50,17 @@ common:
   type: Website
   url: https://www.myolaris.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/olaris/refs/heads/main/mcp/olaris-mcp.yml
+  href: https://artifacts.apis.io/olaris/mcp/olaris-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/olaris-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/olaris/refs/heads/main/llms/olaris-llms.txt
+  href: https://artifacts.apis.io/olaris/llms/olaris-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/olaris-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/olaris/refs/heads/main/authentication/olaris-authentication.yml
+  href: https://artifacts.apis.io/olaris/authentication/olaris-authentication.yml
   title: ''
   type: Authentication
   url: authentication/olaris-authentication.yml
@@ -71,17 +73,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/olarisbor
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/olaris/refs/heads/main/security/olaris-domain-security.yml
+  href: https://artifacts.apis.io/olaris/security/olaris-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/olaris-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/olaris/refs/heads/main/plans/olaris-plans-pricing.yml
+  href: https://artifacts.apis.io/olaris/plans/olaris-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/olaris-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/olaris/refs/heads/main/rate-limits/olaris-rate-limits.yml
+  href: https://artifacts.apis.io/olaris/rate-limits/olaris-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/olaris-rate-limits.yml
@@ -91,7 +93,7 @@ description: Olaris, Inc. is a precision-medicine diagnostics company in Framing
 image: https://static.wixstatic.com/media/e0d525_f21b71a783bf417e951f6808527da944~mv2.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at www.myolaris.com over HTTP; 9 tools listed.
+- description: Remote MCP server at www.myolaris.com over HTTP; 10 tools listed.
   name: Olaris Site MCP
   slug: olaris-site-mcp
 modified: '2026-08-26'
@@ -106,14 +108,14 @@ plans:
 - name: Olaris Plans Pricing
   plan_count: 0
   slug: olaris-plans-pricing
-random_paper: 12
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Olaris Rate Limits
   slug: olaris-rate-limits
 score:
   band: minimal
-  composite: 10.3
+  composite: 9.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -127,9 +129,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 10.3
+  previous_composite: 9.3
   provenance:
     mcp: platform-generated
   regulatory:
@@ -138,14 +140,14 @@ score:
     regime: Health
     regime_id: health
     score: 8.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/olaris/refs/heads/main/screenshots/olaris-2026-09-02T150837.png
+screenshot: https://apis.io/screenshots/olaris/olaris-2026-09-02T150837.png
 security:
 - kind: authentication
   name: Olaris Authentication

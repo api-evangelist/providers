@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.6
-  scored_at: '2026-10-17'
+  score: 31.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -98,11 +100,8 @@ apis:
   description: The Results API from SAP Fieldglass — 1 operation(s) for results.
   name: SAP Fieldglass Results API
   slug: sap-fieldglass-results-api
-artifact_total: 63
+artifact_total: 62
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Approval API
   slug: open-sap-fieldglass-approval-api
@@ -132,7 +131,7 @@ collections:
   slug: open-sap-fieldglass-results-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/capabilities/sap-fieldglass-capability-edges.yml
+  href: https://artifacts.apis.io/sap-fieldglass/capabilities/sap-fieldglass-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sap-fieldglass-capability-edges.yml
@@ -141,27 +140,27 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/sap/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/agentic-access/sap-fieldglass-agentic-access.yml
+  href: https://artifacts.apis.io/sap-fieldglass/agentic-access/sap-fieldglass-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sap-fieldglass-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/security/sap-fieldglass-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sap-fieldglass/security/sap-fieldglass-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sap-fieldglass-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/security/sap-fieldglass-domain-security.yml
+  href: https://artifacts.apis.io/sap-fieldglass/security/sap-fieldglass-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sap-fieldglass-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/authentication/sap-fieldglass-authentication.yml
+  href: https://artifacts.apis.io/sap-fieldglass/authentication/sap-fieldglass-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sap-fieldglass-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/scopes/sap-fieldglass-scopes.yml
+  href: https://artifacts.apis.io/sap-fieldglass/scopes/sap-fieldglass-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sap-fieldglass-scopes.yml
@@ -198,17 +197,17 @@ common:
   type: X
   url: https://x.com/sapfieldglass
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/plans/sap-fieldglass-plans-pricing.yml
+  href: https://artifacts.apis.io/sap-fieldglass/plans/sap-fieldglass-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sap-fieldglass-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/rate-limits/sap-fieldglass-rate-limits.yml
+  href: https://artifacts.apis.io/sap-fieldglass/rate-limits/sap-fieldglass-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sap-fieldglass-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/finops/sap-fieldglass-finops.yml
+  href: https://artifacts.apis.io/sap-fieldglass/finops/sap-fieldglass-finops.yml
   title: ''
   type: FinOps
   url: finops/sap-fieldglass-finops.yml
@@ -347,7 +346,7 @@ plans:
 - name: Sap Fieldglass Plans Pricing
   plan_count: 1
   slug: sap-fieldglass-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Sap Fieldglass Rate Limits
@@ -370,24 +369,24 @@ scopes:
   slug: sap-fieldglass-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: thin
-  composite: 36.4
+  band: developing
+  composite: 41.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 47.3
     catalog_earned_first_party: 0.0
     catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 9.8
     contract_quality: 50.7
-    developer_ergonomics: 14.3
+    developer_ergonomics: 28.6
     discoverability: 71.4
-    operational_transparency: 26.3
-  previous_composite: 42.5
+    operational_transparency: 36.8
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -401,13 +400,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/screenshots/sap-fieldglass-2026-06-20T193426.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sap-fieldglass/sap-fieldglass-2026-06-20T193426.png
 security:
 - kind: authentication
   name: Sap Fieldglass Authentication

@@ -1,0 +1,117 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-10-31'
+api_count: 0
+artifact_total: 1
+common:
+- group: other
+  href: https://artifacts.apis.io/xapihub/hosts/xapihub-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/xapihub-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/xapihub/vendors/xapihub-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/xapihub-vendors.yml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://xapihub.io/privacy-policy/
+- group: auth
+  href: https://artifacts.apis.io/xapihub/security/xapihub-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/xapihub-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://xapihub.io/
+coverage:
+  detail: the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - status: 403
+    url: https://editor.xapihub.io/mcp
+  - status: 200
+    url: https://xapihub.io/
+  reason: no-developer-program
+  state: none
+created: '2026-10-21'
+description: X-Venture is a technology venture firm that provides a platform for developers to discover, test, and integrate a wide range of APIs across multiple industries. The company focuses on curating high‑quality API offerings, offering comprehensive documentation, sandbox environments, and support resources to accelerate integration projects. X‑Venture aims to foster innovation by simplifying API consumption, providing tools for monitoring, analytics, and lifecycle management, and maintaining a community‑driven marketplace where API providers can showcase their services to a global developer audience.
+image: https://xapihub.io/media/header/OG_Thumbnail.png
+layout: provider
+modified: '2026-10-21'
+name: X-Venture
+nav: Providers
+network: true
+overview: X-Venture is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Platform, Marketplace, and Developers.
+random_paper: 9
+score:
+  band: minimal
+  composite: 5.2
+  coverage:
+    artifact_dirs: 6
+    catalog_earned: 22.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 93.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 10.5
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 39.3
+    operational_transparency: 0.0
+  provenance:
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 9.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Xapihub Domain Security
+  slug: xapihub-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: xapihub
+tags:
+- Company
+- Platform
+- Marketplace
+- Developers
+website: https://xapihub.io/
+---

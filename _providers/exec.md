@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.2
-  scored_at: '2026-10-17'
+  score: 45.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 32
   slug: exec-agentic-access
   summary_line: 32 operations · 11 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.exec.com/rest/v1
   baseurl_source: declared
@@ -91,15 +93,12 @@ apis:
   description: The Workspace API from Exec — 3 operation(s) for workspace.
   name: Exec Workspace API
   slug: exec-workspace-api
-artifact_total: 26
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Exec Webhooks
   slug: exec-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Exec Collections API
   slug: open-exec-collections-api
@@ -128,53 +127,57 @@ collections:
   name: Exec Collections Workspace API
   slug: open-exec-workspace-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/exec/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/capabilities/exec-capability-edges.yml
+  href: https://artifacts.apis.io/exec/capabilities/exec-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/exec-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/openapi/_original/exec-openapi-original.yml
+  href: https://artifacts.apis.io/exec/openapi/_original/exec-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/exec-openapi-original.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/agentic-access/exec-agentic-access.yml
+  href: https://artifacts.apis.io/exec/agentic-access/exec-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/exec-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/security/exec-domain-security.yml
+  href: https://artifacts.apis.io/exec/security/exec-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/exec-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/authentication/exec-authentication.yml
+  href: https://artifacts.apis.io/exec/authentication/exec-authentication.yml
   title: ''
   type: Authentication
   url: authentication/exec-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/conventions/exec-conventions.yml
+  href: https://artifacts.apis.io/exec/conventions/exec-conventions.yml
   title: ''
   type: Conventions
   url: conventions/exec-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/conventions/exec-conventions.yml
+  href: https://artifacts.apis.io/exec/conventions/exec-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/exec-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/rate-limits/exec-rate-limits.yml
+  href: https://artifacts.apis.io/exec/rate-limits/exec-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/exec-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/errors/exec-error-codes.yml
+  href: https://artifacts.apis.io/exec/errors/exec-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/exec-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/lifecycle/exec-lifecycle.yml
+  href: https://artifacts.apis.io/exec/lifecycle/exec-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/exec-lifecycle.yml
@@ -183,7 +186,7 @@ common:
   type: StatusPage
   url: https://status.exec.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/conformance/exec-conformance.yml
+  href: https://artifacts.apis.io/exec/conformance/exec-conformance.yml
   title: ''
   type: Conformance
   url: conformance/exec-conformance.yml
@@ -196,47 +199,47 @@ common:
   type: TrustCenter
   url: https://app.vanta.com/exec.com/trust/j0xkhh5zesxvojinovqlpm
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/data-model/exec-data-model.yml
+  href: https://artifacts.apis.io/exec/data-model/exec-data-model.yml
   title: ''
   type: DataModel
   url: data-model/exec-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/overlays/exec-openapi-overlay.yaml
+  href: https://artifacts.apis.io/exec/overlays/exec-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/exec-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/asyncapi/exec-webhooks.yml
+  href: https://artifacts.apis.io/exec/asyncapi/exec-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/exec-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/mcp/exec-mcp.yml
+  href: https://artifacts.apis.io/exec/mcp/exec-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/exec-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/mcp/exec-tool-crosswalk.yml
+  href: https://artifacts.apis.io/exec/mcp/exec-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/exec-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/exec/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/components/exec-components.yml
+  href: https://artifacts.apis.io/exec/components/exec-components.yml
   title: ''
   type: Components
   url: components/exec-components.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/plans/exec-plans-pricing.yml
+  href: https://artifacts.apis.io/exec/plans/exec-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/exec-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/llms/exec-llms.txt
+  href: https://artifacts.apis.io/exec/llms/exec-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/exec-llms.txt
@@ -290,6 +293,14 @@ common:
   url: https://www.exec.com
 created: '2026-07-17'
 description: 'Exec is an AI-powered roleplay and sales-training platform (exec.com) for practicing high-stakes conversations. Teams run voice-based AI roleplays, automatically score real calls, build structured programs and certifications, coach one-on-one, and manage training content in a Knowledge Hub. The Exec REST API gives programmatic access to a workspace: members and groups, scenarios and collections, roleplay sessions and analytics, skills and proficiency, Scenario Studio job creation, and Knowledge Hub pages and sources. Backed by a16z.'
+finops:
+- has_sources: true
+  method: derived
+  name: Exec Finops
+  primary_unit: seat
+  service_category: ''
+  slug: exec-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exec.png
 layout: provider
 modified: '2026-08-14'
@@ -302,35 +313,38 @@ overview: 'Exec publishes 9 API contracts indexed on the [APIs.io](https://apis.
   The Exec catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Exec''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
+  Exec''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
 plans:
 - name: Exec Plans Pricing
   plan_count: 4
   slug: exec-plans-pricing
-random_paper: 3
+- name: Exec Price Estimates
+  plan_count: 0
+  slug: exec-price-estimates
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Exec Rate Limits
   slug: exec-rate-limits
 score:
   band: strong
-  composite: 65.2
+  composite: 65.1
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 61.0
+    artifact_dirs: 25
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
-    access_clarity: 84.2
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 61.3
-    developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 47.4
-  previous_composite: 65.2
+    contract_quality: 58.8
+    developer_ergonomics: 65.5
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -347,13 +361,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/screenshots/exec-2026-07-25T213855.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/exec/exec-2026-07-25T213855.png
 security:
 - kind: authentication
   name: Exec Authentication
@@ -367,6 +382,16 @@ security:
   name: Exec Trust Center
   slug: exec-trust-center
   summary_line: SOC 2 Type II, SOC 3
+skill_count: 4
+skills:
+- name: Assign a scenario and track team performance
+  slug: exec-assign-and-track
+- name: Create an AI roleplay scenario with Exec Scenario Studio
+  slug: exec-create-scenario
+- name: Manage Knowledge Hub pages and sources
+  slug: exec-knowledge-hub
+- name: Exec
+  slug: exec-provider-skill
 slug: exec
 tags:
 - Company

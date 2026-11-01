@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -202,7 +204,7 @@ arazzos:
 - description: Detect whether a lookup exists, then update it if present or create it if missing, and read the result back.
   name: Oracle Integration Upsert a Lookup Table
   slug: oracle-integration-upsert-lookup-workflow
-artifact_total: 130
+artifact_total: 129
 collections:
 - collection_type: postman
   name: Oracle Integration Developer API
@@ -210,9 +212,6 @@ collections:
 - collection_type: postman
   name: Oracle Integration Process Automation API
   slug: postman-oracle-integration-process-automation-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Oracle Integration Developer Adapters API
   slug: open-oracle-integration-adapters-api
@@ -284,17 +283,17 @@ collections:
   slug: open-oracle-integration-trading-partners-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/plans/oracle-integration-plans-pricing.yml
+  href: https://artifacts.apis.io/oracle-integration/plans/oracle-integration-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/oracle-integration-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/rate-limits/oracle-integration-rate-limits.yml
+  href: https://artifacts.apis.io/oracle-integration/rate-limits/oracle-integration-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/oracle-integration-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/finops/oracle-integration-finops.yml
+  href: https://artifacts.apis.io/oracle-integration/finops/oracle-integration-finops.yml
   title: ''
   type: FinOps
   url: finops/oracle-integration-finops.yml
@@ -323,22 +322,22 @@ common:
   type: ContributionGuide
   url: https://github.com/oracle/oci-cli/blob/master/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/agentic-access/oracle-integration-agentic-access.yml
+  href: https://artifacts.apis.io/oracle-integration/agentic-access/oracle-integration-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/oracle-integration-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/security/oracle-integration-domain-security.yml
+  href: https://artifacts.apis.io/oracle-integration/security/oracle-integration-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oracle-integration-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/authentication/oracle-integration-authentication.yml
+  href: https://artifacts.apis.io/oracle-integration/authentication/oracle-integration-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oracle-integration-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/scopes/oracle-integration-scopes.yml
+  href: https://artifacts.apis.io/oracle-integration/scopes/oracle-integration-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/oracle-integration-scopes.yml
@@ -347,62 +346,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/oracle-integration/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/arazzo/oracle-integration-abort-process-with-comment-workflow.yml
+  href: https://artifacts.apis.io/oracle-integration/arazzo/oracle-integration-abort-process-with-comment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-integration-abort-process-with-comment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/arazzo/oracle-integration-abort-running-instance-workflow.yml
+  href: https://artifacts.apis.io/oracle-integration/arazzo/oracle-integration-abort-running-instance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-integration-abort-running-instance-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/arazzo/oracle-integration-activate-integration-workflow.yml
+  href: https://artifacts.apis.io/oracle-integration/arazzo/oracle-integration-activate-integration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-integration-activate-integration-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/arazzo/oracle-integration-clone-and-activate-integration-workflow.yml
+  href: https://artifacts.apis.io/oracle-integration/arazzo/oracle-integration-clone-and-activate-integration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-integration-clone-and-activate-integration-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/arazzo/oracle-integration-deactivate-integration-workflow.yml
+  href: https://artifacts.apis.io/oracle-integration/arazzo/oracle-integration-deactivate-integration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-integration-deactivate-integration-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/arazzo/oracle-integration-provision-connection-workflow.yml
+  href: https://artifacts.apis.io/oracle-integration/arazzo/oracle-integration-provision-connection-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-integration-provision-connection-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/arazzo/oracle-integration-provision-decision-model-workflow.yml
+  href: https://artifacts.apis.io/oracle-integration/arazzo/oracle-integration-provision-decision-model-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-integration-provision-decision-model-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/arazzo/oracle-integration-resubmit-errored-instance-workflow.yml
+  href: https://artifacts.apis.io/oracle-integration/arazzo/oracle-integration-resubmit-errored-instance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-integration-resubmit-errored-instance-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/arazzo/oracle-integration-review-and-action-task-workflow.yml
+  href: https://artifacts.apis.io/oracle-integration/arazzo/oracle-integration-review-and-action-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-integration-review-and-action-task-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/arazzo/oracle-integration-run-scheduled-integration-workflow.yml
+  href: https://artifacts.apis.io/oracle-integration/arazzo/oracle-integration-run-scheduled-integration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-integration-run-scheduled-integration-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/arazzo/oracle-integration-start-process-and-handle-task-workflow.yml
+  href: https://artifacts.apis.io/oracle-integration/arazzo/oracle-integration-start-process-and-handle-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-integration-start-process-and-handle-task-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/arazzo/oracle-integration-upsert-lookup-workflow.yml
+  href: https://artifacts.apis.io/oracle-integration/arazzo/oracle-integration-upsert-lookup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-integration-upsert-lookup-workflow.yml
@@ -487,12 +486,12 @@ common:
   type: Marketplace
   url: https://cloudmarketplace.oracle.com/marketplace/en_US/homeLinkPage
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/rules/oracle-integration-spectral-rules.yml
+  href: https://artifacts.apis.io/oracle-integration/rules/oracle-integration-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/oracle-integration-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/vocabulary/oracle-integration-vocabulary.yaml
+  href: https://artifacts.apis.io/oracle-integration/vocabulary/oracle-integration-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/oracle-integration-vocabulary.yaml
@@ -548,10 +547,10 @@ features:
   name: FHIR Support
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Oracle Integration Finops
-  primary_unit: ''
-  service_category: Integration / iPaaS
+  primary_unit: function invocation
+  service_category: ''
   slug: oracle-integration-finops
   template: false
 image: /assets/icons/oracle-integration.png
@@ -645,7 +644,7 @@ overview: 'Oracle Integration is listed with 25 APIs on the [APIs.io](https://ap
   Oracle Integration''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, changelog, support, and 41 more developer resources.'
 plans:
 - name: Oracle Integration Plans Pricing
-  plan_count: 4
+  plan_count: 7
   slug: oracle-integration-plans-pricing
 random_paper: 15
 rate_limits:
@@ -682,24 +681,24 @@ scopes:
   slug: oracle-integration-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 51.9
+  band: strong
+  composite: 57.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 75.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    artifact_dirs: 21
+    catalog_earned: 87.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 28.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 27.3
-    contract_quality: 31.2
-    developer_ergonomics: 72.6
+    contract_quality: 28.1
+    developer_ergonomics: 79.8
     discoverability: 71.4
-    operational_transparency: 52.6
-  previous_composite: 53.4
+    operational_transparency: 55.3
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     contracts:
@@ -713,13 +712,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/screenshots/oracle-integration-2026-08-07T190823.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/oracle-integration/oracle-integration-2026-08-07T190823.png
 security:
 - kind: authentication
   name: Oracle Integration Authentication

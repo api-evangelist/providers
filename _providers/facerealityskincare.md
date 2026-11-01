@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,60 +35,60 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Shopify-hosted commerce surface for the Face Reality Skincare store. Exposes a hosted Storefront MCP server for catalog search, product lookup, and cart building, a UCP merchant profile for agent-driv
   name: Face Reality Skincare Commerce (Shopify Storefront MCP)
   slug: face-reality-skincare-commerce-shopify-storefront-mcp
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
   type: Website
   url: https://facerealityskincare.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facerealityskincare/refs/heads/main/mcp/facerealityskincare-mcp.yml
+  href: https://artifacts.apis.io/facerealityskincare/mcp/facerealityskincare-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/facerealityskincare-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facerealityskincare/refs/heads/main/llms/facerealityskincare-llms.txt
+  href: https://artifacts.apis.io/facerealityskincare/llms/facerealityskincare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/facerealityskincare-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facerealityskincare/refs/heads/main/well-known/facerealityskincare-well-known.yml
+  href: https://artifacts.apis.io/facerealityskincare/well-known/facerealityskincare-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/facerealityskincare-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facerealityskincare/refs/heads/main/authentication/facerealityskincare-authentication.yml
+  href: https://artifacts.apis.io/facerealityskincare/authentication/facerealityskincare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/facerealityskincare-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facerealityskincare/refs/heads/main/scopes/facerealityskincare-scopes.yml
+  href: https://artifacts.apis.io/facerealityskincare/scopes/facerealityskincare-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/facerealityskincare-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facerealityskincare/refs/heads/main/conformance/facerealityskincare-conformance.yml
+  href: https://artifacts.apis.io/facerealityskincare/conformance/facerealityskincare-conformance.yml
   title: ''
   type: Conformance
   url: conformance/facerealityskincare-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facerealityskincare/refs/heads/main/conventions/facerealityskincare-conventions.yml
+  href: https://artifacts.apis.io/facerealityskincare/conventions/facerealityskincare-conventions.yml
   title: ''
   type: Conventions
   url: conventions/facerealityskincare-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facerealityskincare/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/facerealityskincare/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facerealityskincare/refs/heads/main/security/facerealityskincare-domain-security.yml
+  href: https://artifacts.apis.io/facerealityskincare/security/facerealityskincare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/facerealityskincare-domain-security.yml
@@ -114,7 +116,7 @@ overview: 'Face Reality Skincare is listed with 1 API on the [APIs.io](https://a
 
 
   Face Reality Skincare''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 7
+random_paper: 17
 scopes:
 - name: Facerealityskincare Scopes
   scope_count: 4
@@ -122,7 +124,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 19.5
+  composite: 18.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -130,15 +132,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 13.7
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 19.4
+  previous_composite: 18.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -149,14 +151,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/facerealityskincare/refs/heads/main/screenshots/facerealityskincare-2026-08-07T165212.png
+screenshot: https://apis.io/screenshots/facerealityskincare/facerealityskincare-2026-08-07T165212.png
 security:
 - kind: authentication
   name: Facerealityskincare Authentication
@@ -166,6 +168,10 @@ security:
   name: Facerealityskincare Domain Security
   slug: facerealityskincare-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Shop the Face Reality Skincare catalog
+  slug: facerealityskincare-shop-catalog
 slug: facerealityskincare
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 24.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 40
   slug: shiftmove-agentic-access
   summary_line: 40 operations · 20 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.avrios.com
   baseurl_source: declared
@@ -95,11 +97,8 @@ apis:
   description: The Vehicles API from Shiftmove — 7 operation(s) for vehicles.
   name: Shiftmove Vehicles API
   slug: shiftmove-vehicles-api
-artifact_total: 26
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Fleet API Specifications Custom fields API
   slug: open-shiftmove-custom-fields-api
@@ -160,52 +159,52 @@ common:
   type: SignUp
   url: https://www.avrios.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/authentication/shiftmove-authentication.yml
+  href: https://artifacts.apis.io/shiftmove/authentication/shiftmove-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shiftmove-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/conventions/shiftmove-conventions.yml
+  href: https://artifacts.apis.io/shiftmove/conventions/shiftmove-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shiftmove-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/rate-limits/shiftmove-rate-limits.yml
+  href: https://artifacts.apis.io/shiftmove/rate-limits/shiftmove-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shiftmove-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/errors/shiftmove-problem-types.yml
+  href: https://artifacts.apis.io/shiftmove/errors/shiftmove-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shiftmove-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/data-model/shiftmove-data-model.yml
+  href: https://artifacts.apis.io/shiftmove/data-model/shiftmove-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shiftmove-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/lifecycle/shiftmove-lifecycle.yml
+  href: https://artifacts.apis.io/shiftmove/lifecycle/shiftmove-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shiftmove-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/lifecycle/shiftmove-lifecycle.yml
+  href: https://artifacts.apis.io/shiftmove/lifecycle/shiftmove-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/shiftmove-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/changelog/shiftmove-changelog.yml
+  href: https://artifacts.apis.io/shiftmove/changelog/shiftmove-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/shiftmove-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/conformance/shiftmove-conformance.yml
+  href: https://artifacts.apis.io/shiftmove/conformance/shiftmove-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shiftmove-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/security/shiftmove-trust-center.yml
+  href: https://artifacts.apis.io/shiftmove/security/shiftmove-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/shiftmove-trust-center.yml
@@ -214,32 +213,32 @@ common:
   type: Compliance
   url: https://www.shiftmove.com/legal/legal-overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/mcp/shiftmove-mcp.yml
+  href: https://artifacts.apis.io/shiftmove/mcp/shiftmove-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/shiftmove-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/llms/shiftmove-llms.txt
+  href: https://artifacts.apis.io/shiftmove/llms/shiftmove-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shiftmove-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/overlays/shiftmove-fleet-overlay.yaml
+  href: https://artifacts.apis.io/shiftmove/overlays/shiftmove-fleet-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shiftmove-fleet-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/security/shiftmove-domain-security.yml
+  href: https://artifacts.apis.io/shiftmove/security/shiftmove-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shiftmove-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/agentic-access/shiftmove-agentic-access.yml
+  href: https://artifacts.apis.io/shiftmove/agentic-access/shiftmove-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shiftmove-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/shiftmove/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -255,7 +254,7 @@ overview: 'Shiftmove publishes 10 API contracts indexed on the [APIs.io](https:/
 
 
   Shiftmove''s developer surface includes documentation, API reference, support, signup flow, authentication, changelog, and 18 more developer resources.'
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Shiftmove Rate Limits
@@ -270,13 +269,13 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 42.3
     developer_ergonomics: 44.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -286,7 +285,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 44.5
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,13 +306,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/screenshots/shiftmove-2026-08-17T081831.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/shiftmove/shiftmove-2026-08-17T081831.png
 security:
 - kind: authentication
   name: Shiftmove Authentication
@@ -327,6 +327,12 @@ security:
   name: Shiftmove Trust Center
   slug: shiftmove-trust-center
   summary_line: GDPR, TÜV data-protection certification (Vimcar digital logbook)
+skill_count: 2
+skills:
+- name: Query fleet vehicles, drivers and invoices
+  slug: shiftmove-query-fleet-and-invoices
+- name: Sync a vehicle and assign a driver
+  slug: shiftmove-sync-vehicle-and-assign-driver
 slug: shiftmove
 tags:
 - Company

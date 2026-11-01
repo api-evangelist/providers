@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -69,12 +71,12 @@ common:
   type: Subprocessors
   url: https://vanillasteel.com/software/subprocessors
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vanilla-steel/refs/heads/main/security/vanilla-steel-domain-security.yml
+  href: https://artifacts.apis.io/vanilla-steel/security/vanilla-steel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vanilla-steel-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vanilla-steel/refs/heads/main/security/vanilla-steel-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/vanilla-steel/security/vanilla-steel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vanilla-steel-vulnerability-disclosure.yml
@@ -83,12 +85,12 @@ common:
   type: Security
   url: https://vanillasteel.com/software/terms
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vanilla-steel/refs/heads/main/conformance/vanilla-steel-conformance.yml
+  href: https://artifacts.apis.io/vanilla-steel/conformance/vanilla-steel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vanilla-steel-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vanilla-steel/refs/heads/main/llms/vanilla-steel-llms.txt
+  href: https://artifacts.apis.io/vanilla-steel/llms/vanilla-steel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vanilla-steel-llms.txt
@@ -104,7 +106,7 @@ overview: Vanilla Steel is profiled on the [APIs.io](https://apis.io/) network. 
 random_paper: 9
 score:
   band: emerging
-  composite: 15.9
+  composite: 16.8
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -114,12 +116,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.4
-    operational_transparency: 13.2
+    discoverability: 48.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -128,7 +130,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 15.9
+  previous_composite: 16.8
   provenance:
     conformance: first-party
   regulatory:
@@ -141,14 +143,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 26.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vanilla-steel/refs/heads/main/screenshots/vanilla-steel-2026-09-02T165410.png
+screenshot: https://apis.io/screenshots/vanilla-steel/vanilla-steel-2026-09-02T165410.png
 security:
 - kind: domain-security
   name: Vanilla Steel Domain Security

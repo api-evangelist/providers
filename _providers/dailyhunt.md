@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 24.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -85,14 +87,11 @@ apis:
   description: Partner callback reporting which cards a user actually saw.
   name: Dailyhunt Tracking API
   slug: dailyhunt-tracking-api
-artifact_total: 21
+artifact_total: 23
 collections:
 - collection_type: postman
   name: Dailyhunt Content Syndication
   slug: postman-dailyhunt-content-syndication
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Dailyhunt E-Commerce Shopping Catalog API
   slug: open-dailyhunt-catalog-api
@@ -119,7 +118,7 @@ collections:
   slug: open-dailyhunt-tracking-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/overlays/dailyhunt-content-syndication-overlay.yaml
+  href: https://artifacts.apis.io/dailyhunt/overlays/dailyhunt-content-syndication-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dailyhunt-content-syndication-overlay.yaml
@@ -172,92 +171,92 @@ common:
   type: Postman
   url: https://documenter.getpostman.com/view/8670292/SVmzsvnm
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/authentication/dailyhunt-authentication.yml
+  href: https://artifacts.apis.io/dailyhunt/authentication/dailyhunt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dailyhunt-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/conventions/dailyhunt-conventions.yml
+  href: https://artifacts.apis.io/dailyhunt/conventions/dailyhunt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dailyhunt-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/errors/dailyhunt-error-codes.yml
+  href: https://artifacts.apis.io/dailyhunt/errors/dailyhunt-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/dailyhunt-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/lifecycle/dailyhunt-lifecycle.yml
+  href: https://artifacts.apis.io/dailyhunt/lifecycle/dailyhunt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dailyhunt-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/changelog/dailyhunt-changelog.yml
+  href: https://artifacts.apis.io/dailyhunt/changelog/dailyhunt-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dailyhunt-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/conformance/dailyhunt-conformance.yml
+  href: https://artifacts.apis.io/dailyhunt/conformance/dailyhunt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dailyhunt-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/sandbox/dailyhunt-sandbox.yml
+  href: https://artifacts.apis.io/dailyhunt/sandbox/dailyhunt-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dailyhunt-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/data-model/dailyhunt-data-model.yml
+  href: https://artifacts.apis.io/dailyhunt/data-model/dailyhunt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dailyhunt-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/components/dailyhunt-components.yml
+  href: https://artifacts.apis.io/dailyhunt/components/dailyhunt-components.yml
   title: ''
   type: Components
   url: components/dailyhunt-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/packages/dailyhunt-packages.yml
+  href: https://artifacts.apis.io/dailyhunt/packages/dailyhunt-packages.yml
   title: ''
   type: Packages
   url: packages/dailyhunt-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/well-known/dailyhunt-well-known.yml
+  href: https://artifacts.apis.io/dailyhunt/well-known/dailyhunt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dailyhunt-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/grpc/dailyhunt-unified-metrics.proto
+  href: https://artifacts.apis.io/dailyhunt/grpc/dailyhunt-unified-metrics.proto
   title: ''
   type: Protobuf
   url: grpc/dailyhunt-unified-metrics.proto
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/mcp/dailyhunt-mcp.yml
+  href: https://artifacts.apis.io/dailyhunt/mcp/dailyhunt-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dailyhunt-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/mcp/dailyhunt-tool-crosswalk.yml
+  href: https://artifacts.apis.io/dailyhunt/mcp/dailyhunt-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/dailyhunt-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/llms/dailyhunt-llms.txt
+  href: https://artifacts.apis.io/dailyhunt/llms/dailyhunt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dailyhunt-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dailyhunt/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/agentic-access/dailyhunt-agentic-access.yml
+  href: https://artifacts.apis.io/dailyhunt/agentic-access/dailyhunt-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dailyhunt-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/security/dailyhunt-domain-security.yml
+  href: https://artifacts.apis.io/dailyhunt/security/dailyhunt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dailyhunt-domain-security.yml
@@ -274,10 +273,10 @@ overview: 'Dailyhunt publishes 8 API contracts indexed on the [APIs.io](https://
 
 
   Dailyhunt''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 24 more developer resources.'
-random_paper: 10
+random_paper: 18
 score:
   band: thin
-  composite: 34.7
+  composite: 35.8
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -285,14 +284,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 13.9
     developer_ergonomics: 70.8
     discoverability: 66.1
-    operational_transparency: 18.4
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -300,7 +299,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 34.6
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -317,13 +316,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/screenshots/dailyhunt-2026-08-07T164025.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dailyhunt/dailyhunt-2026-08-07T164025.png
 security:
 - kind: authentication
   name: Dailyhunt Authentication
@@ -333,6 +333,14 @@ security:
   name: Dailyhunt Domain Security
   slug: dailyhunt-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Search Dailyhunt content and capture user feedback
+  slug: dailyhunt-search-and-track-content
+- name: Syndicate a Dailyhunt channel feed
+  slug: dailyhunt-syndicate-a-channel-feed
+- name: Upload a product catalog to Dailyhunt
+  slug: dailyhunt-upload-a-product-catalog
 slug: dailyhunt
 tags:
 - Company

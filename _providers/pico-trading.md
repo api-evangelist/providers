@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -42,37 +44,37 @@ common:
   type: BlogRSS
   url: https://www.pico.net/blog/feed.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pico-trading/refs/heads/main/security/pico-trading-domain-security.yml
+  href: https://artifacts.apis.io/pico-trading/security/pico-trading-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pico-trading-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pico-trading/refs/heads/main/llms/pico-trading-llms.txt
+  href: https://artifacts.apis.io/pico-trading/llms/pico-trading-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pico-trading-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pico-trading/refs/heads/main/well-known/pico-trading-well-known.yml
+  href: https://artifacts.apis.io/pico-trading/well-known/pico-trading-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pico-trading-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pico-trading/refs/heads/main/conformance/pico-trading-conformance.yml
+  href: https://artifacts.apis.io/pico-trading/conformance/pico-trading-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pico-trading-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pico-trading/refs/heads/main/authentication/pico-trading-authentication.yml
+  href: https://artifacts.apis.io/pico-trading/authentication/pico-trading-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pico-trading-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pico-trading/refs/heads/main/scopes/pico-trading-scopes.yml
+  href: https://artifacts.apis.io/pico-trading/scopes/pico-trading-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pico-trading-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pico-trading/refs/heads/main/changelog/pico-trading-changelog.yml
+  href: https://artifacts.apis.io/pico-trading/changelog/pico-trading-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pico-trading-changelog.yml
@@ -124,7 +126,7 @@ overview: 'Pico is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Pico''s developer surface includes authentication, changelog, documentation, developer portal, engineering blog, support, and 11 more developer resources.'
-random_paper: 7
+random_paper: 17
 scopes:
 - name: Pico Trading Scopes
   scope_count: 36
@@ -132,7 +134,7 @@ scopes:
   summary_line: 36 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.7
+  composite: 23.4
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -146,9 +148,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 55.4
-    operational_transparency: 18.4
-  previous_composite: 23.7
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 23.4
   provenance:
     conformance: first-party
   regulatory:
@@ -157,14 +159,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pico-trading/refs/heads/main/screenshots/pico-trading-2026-07-22T202550.png
+screenshot: https://apis.io/screenshots/pico-trading/pico-trading-2026-07-22T202550.png
 security:
 - kind: authentication
   name: Pico Trading Authentication

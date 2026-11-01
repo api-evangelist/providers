@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Customer API is for Jiko customers integrating Jiko directly into their own internal systems. It uses OAuth 2.0 (authorization code and client credentials flows) with Private Key JWT client authen
@@ -42,7 +44,7 @@ apis:
 - description: The Partner API is for applications that embed Jiko's services and offer Jiko products to their own customers. It authenticates with a bearer token obtained via Login, and requires an x-jiko-idempoten
   name: Jiko Partner API
   slug: jiko-partner-api
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Jiko Webhooks
@@ -101,87 +103,87 @@ common:
   type: Compliance
   url: https://jiko.com/trust-and-safety
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/authentication/jiko-authentication.yml
+  href: https://artifacts.apis.io/jiko/authentication/jiko-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jiko-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/scopes/jiko-scopes.yml
+  href: https://artifacts.apis.io/jiko/scopes/jiko-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/jiko-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/conventions/jiko-conventions.yml
+  href: https://artifacts.apis.io/jiko/conventions/jiko-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jiko-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/conventions/jiko-conventions.yml
+  href: https://artifacts.apis.io/jiko/conventions/jiko-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/jiko-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/rate-limits/jiko-rate-limits.yml
+  href: https://artifacts.apis.io/jiko/rate-limits/jiko-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jiko-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/changelog/jiko-changelog.yml
+  href: https://artifacts.apis.io/jiko/changelog/jiko-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/jiko-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/sandbox/jiko-sandbox.yml
+  href: https://artifacts.apis.io/jiko/sandbox/jiko-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/jiko-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/lifecycle/jiko-lifecycle.yml
+  href: https://artifacts.apis.io/jiko/lifecycle/jiko-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jiko-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/asyncapi/jiko-webhooks.yml
+  href: https://artifacts.apis.io/jiko/asyncapi/jiko-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/jiko-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/well-known/jiko-well-known.yml
+  href: https://artifacts.apis.io/jiko/well-known/jiko-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jiko-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/mcp/jiko-mcp.yml
+  href: https://artifacts.apis.io/jiko/mcp/jiko-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/jiko-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/llms/jiko-llms.txt
+  href: https://artifacts.apis.io/jiko/llms/jiko-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jiko-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/conformance/jiko-conformance.yml
+  href: https://artifacts.apis.io/jiko/conformance/jiko-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jiko-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/security/jiko-trust-center.yml
+  href: https://artifacts.apis.io/jiko/security/jiko-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/jiko-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/security/jiko-domain-security.yml
+  href: https://artifacts.apis.io/jiko/security/jiko-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jiko-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/data-model/jiko-data-model.yml
+  href: https://artifacts.apis.io/jiko/data-model/jiko-data-model.yml
   title: ''
   type: DataModel
   url: data-model/jiko-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/jiko/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -200,7 +202,7 @@ overview: 'Jiko is listed with 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Jiko''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, developer portal, and 23 more developer resources.'
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 16
   name: Jiko Rate Limits
@@ -212,7 +214,7 @@ scopes:
   summary_line: 25 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 52.1
+  composite: 51.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 49.0
@@ -226,9 +228,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 66.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 55.3
-  previous_composite: 52.1
+  previous_composite: 51.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -239,14 +241,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/screenshots/jiko-2026-08-17T123926.png
+screenshot: https://apis.io/screenshots/jiko/jiko-2026-08-17T123926.png
 security:
 - kind: authentication
   name: Jiko Authentication
@@ -260,6 +262,12 @@ security:
   name: Jiko Trust Center
   slug: jiko-trust-center
   summary_line: SOC 2, PCI DSS
+skill_count: 2
+skills:
+- name: Authenticate to the Jiko Partner API and monitor customer cards
+  slug: jiko-partner-monitor-cards
+- name: Subscribe to Jiko transfer events and reconcile
+  slug: jiko-subscribe-to-transfer-events
 slug: jiko
 tags:
 - Company

@@ -26,24 +26,41 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 2.5
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 2
+artifact_total: 4
 common:
+- group: other
+  href: https://artifacts.apis.io/healthengine/hosts/healthengine-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/healthengine-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/healthengine/integrations/healthengine-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/healthengine-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/healthengine/vendors/healthengine-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/healthengine-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthengine/refs/heads/main/security/healthengine-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/healthengine/security/healthengine-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/healthengine-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthengine/refs/heads/main/security/healthengine-domain-security.yml
+  href: https://artifacts.apis.io/healthengine/security/healthengine-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/healthengine-domain-security.yml
@@ -63,6 +80,22 @@ common:
   title: ''
   type: Blog
   url: https://practices.healthengine.com.au/blog/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.healthengine.com.au/en-au/help-centre-practice
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://healthengine.com.au/press/
+- group: company
+  title: ''
+  type: Careers
+  url: https://careers.healthengine.com.au/
+- group: company
+  title: ''
+  type: Partners
+  url: https://partnerservices.healthengine.com.au/
 - group: company
   title: ''
   type: LinkedIn
@@ -76,39 +109,47 @@ common:
   type: TermsOfService
   url: https://healthengine.com.au/terms
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthengine/refs/heads/main/well-known/healthengine-security.txt
+  href: https://artifacts.apis.io/healthengine/well-known/healthengine-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/healthengine-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthengine/refs/heads/main/well-known/healthengine-well-known.yml
+  href: https://artifacts.apis.io/healthengine/well-known/healthengine-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/healthengine-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthengine/refs/heads/main/security/healthengine-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/healthengine/security/healthengine-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/healthengine-vulnerability-disclosure.yml
 created: '2026-07-24'
 description: HealthEngine is Australia's largest consumer healthcare marketplace and patient-engagement platform, founded in 2006 and headquartered in Perth, Western Australia. Its consumer app and website let millions of Australians search a national directory of primary-care providers and book, manage, and attend appointments (including telehealth) across GP, dental, allied-health, and specialist practices. For practices, HealthEngine sells a SaaS suite - GP Complete, Patient Connect, Online Booking, Appointment Reminders and Recalls, Featured Listings, online payments, patient reviews, and Scripts - that plugs into the practice's existing software. It maintains private, real-time integrations into 25+ Australian practice management systems (Best Practice / Bp Premier, MedicalDirector Pracsoft, Zedmed, Cliniko, Genie, Gentu, Medtech, Nookal, PracSuite, Dental4Windows, and others) so appointment availability and bookings sync directly with the front desk. Home market is Australia. HealthEngine
   does NOT publish a public developer portal, REST OpenAPI, or HL7 FHIR endpoint - its API surface is a set of gated, partner-only PMS integrations rather than a self-serve developer program, so this profile is an honest identity stub with no public machine-readable contract to harvest.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://practices.healthengine.com.au/wp-content/uploads/Hero-Desktop.png
 layout: provider
-modified: '2026-07-24'
+modified: '2026-10-21'
 name: HealthEngine
 nav: Providers
 network: true
 overview: 'HealthEngine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Australia, Patient Engagement, and Appointment Booking.
 
 
-  HealthEngine''s developer surface includes developer portal, engineering blog, and 10 more developer resources.'
-random_paper: 6
+  HealthEngine''s developer surface includes developer portal, engineering blog, support, and 16 more developer resources.'
+plans:
+- name: Healthengine Plans Pricing
+  plan_count: 0
+  slug: healthengine-plans-pricing
+random_paper: 12
+rate_limits:
+- limit_count: 0
+  name: Healthengine Rate Limits
+  slug: healthengine-rate-limits
 score:
   band: emerging
-  composite: 13.3
+  composite: 14.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 13
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -119,8 +160,8 @@ score:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 48.2
+    developer_ergonomics: 16.7
+    discoverability: 50.0
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -129,21 +170,23 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 13.3
+  previous_composite: 14.5
+  provenance:
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/healthengine/refs/heads/main/screenshots/healthengine-2026-07-25T220836.png
+screenshot: https://apis.io/screenshots/healthengine/healthengine-2026-07-25T220836.png
 security:
 - kind: domain-security
   name: Healthengine Domain Security

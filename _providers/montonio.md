@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: JWT-authenticated REST API for collecting payments (bank payment initiation, cards, MobilePay, BLIK, BNPL / Hire-Purchase), creating and validating Orders, issuing Refunds, generating Payment Links, o
@@ -44,12 +46,17 @@ apis:
 - description: 'JWT-authenticated REST API for multi-carrier shipping: list carriers and shipping methods, fetch pickup points and courier services, calculate rates, create and update Shipments, generate and fetch La'
   name: Montonio Shipping API (v2)
   slug: montonio-shipping-api-v2
-artifact_total: 5
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Montonio Webhooks
   slug: montonio-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/montonio/plans/montonio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/montonio-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -71,7 +78,7 @@ common:
   type: GettingStarted
   url: https://docs.montonio.com/api/stargate/checklist
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/authentication/montonio-authentication.yml
+  href: https://artifacts.apis.io/montonio/authentication/montonio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/montonio-authentication.yml
@@ -116,92 +123,100 @@ common:
   type: PrivacyPolicy
   url: https://www.montonio.com/legal
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/packages/montonio-packages.yml
+  href: https://artifacts.apis.io/montonio/packages/montonio-packages.yml
   title: ''
   type: Packages
   url: packages/montonio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/packages/montonio-packages.yml
+  href: https://artifacts.apis.io/montonio/packages/montonio-packages.yml
   title: ''
   type: SDKs
   url: packages/montonio-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/components/montonio-components.yml
+  href: https://artifacts.apis.io/montonio/components/montonio-components.yml
   title: ''
   type: Components
   url: components/montonio-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/well-known/montonio-well-known.yml
+  href: https://artifacts.apis.io/montonio/well-known/montonio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/montonio-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/mcp/montonio-mcp.yml
+  href: https://artifacts.apis.io/montonio/mcp/montonio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/montonio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/llms/montonio-llms.txt
+  href: https://artifacts.apis.io/montonio/llms/montonio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/montonio-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/conformance/montonio-conformance.yml
+  href: https://artifacts.apis.io/montonio/conformance/montonio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/montonio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/errors/montonio-problem-types.yml
+  href: https://artifacts.apis.io/montonio/errors/montonio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/montonio-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/errors/montonio-decline-codes.yml
+  href: https://artifacts.apis.io/montonio/errors/montonio-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/montonio-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/lifecycle/montonio-lifecycle.yml
+  href: https://artifacts.apis.io/montonio/lifecycle/montonio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/montonio-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/security/montonio-domain-security.yml
+  href: https://artifacts.apis.io/montonio/security/montonio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/montonio-domain-security.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/sandbox/montonio-sandbox.yml
+  href: https://artifacts.apis.io/montonio/sandbox/montonio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/montonio-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/conventions/montonio-conventions.yml
+  href: https://artifacts.apis.io/montonio/conventions/montonio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/montonio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/conventions/montonio-conventions.yml
+  href: https://artifacts.apis.io/montonio/conventions/montonio-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/montonio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/data-model/montonio-data-model.yml
+  href: https://artifacts.apis.io/montonio/data-model/montonio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/montonio-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/asyncapi/montonio-webhooks.yml
+  href: https://artifacts.apis.io/montonio/asyncapi/montonio-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/montonio-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/montonio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'Montonio is an Estonian fintech providing a unified payments and shipping platform for e-commerce merchants across the Baltics, Poland, and Finland. Its developer platform exposes two JWT-authenticated REST APIs: the Payments API (Stargate) for bank payment initiation, card payments, MobilePay, BLIK, and Buy-Now-Pay-Later / Hire-Purchase financing, together with orders, refunds, payment links, checkout sessions and payout reporting; and the Shipping API (v2) for multi-carrier label printing, parcel tracking, pickup points, and shipment management. Montonio serves over 8,000 businesses, ships ready-made plugins for WooCommerce, Magento and PrestaShop, and publishes a first-party JavaScript SDK with embeddable checkout UI components.'
+finops:
+- has_sources: true
+  method: derived
+  name: Montonio Finops
+  primary_unit: monthly fee
+  service_category: ''
+  slug: montonio-finops
+  template: false
 image: https://cdn.prod.website-files.com/6745c818f143d246f266b299/68b9ab2dc787d1c75659148a_Frame%201%20(3).png
 layout: provider
 modified: '2026-07-20'
@@ -214,32 +229,39 @@ overview: 'Montonio is listed with 2 APIs on the [APIs.io](https://apis.io/) net
   The Montonio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Montonio''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 3
+  Montonio''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 27 more developer resources.'
+plans:
+- name: Montonio Plans Pricing
+  plan_count: 8
+  slug: montonio-plans-pricing
+- name: Montonio Price Estimates
+  plan_count: 0
+  slug: montonio-price-estimates
+random_paper: 19
 score:
   band: developing
-  composite: 43.2
+  composite: 52.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 21
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 38.2
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - estonia
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 43.2
+  previous_composite: 44.1
   provenance:
     conformance: derived
     mcp: derived
@@ -250,14 +272,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/montonio/refs/heads/main/screenshots/montonio-2026-08-07T184221.png
+screenshot: https://apis.io/screenshots/montonio/montonio-2026-08-07T184221.png
 security:
 - kind: authentication
   name: Montonio Authentication
@@ -267,6 +289,14 @@ security:
   name: Montonio Domain Security
   slug: montonio-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Create and validate a Montonio Order
+  slug: montonio-create-and-validate-order
+- name: Create a shipment and print a label
+  slug: montonio-create-shipment-and-label
+- name: Refund a Montonio Order idempotently
+  slug: montonio-refund-order
 slug: montonio
 tags:
 - Company

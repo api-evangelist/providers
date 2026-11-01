@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,75 +38,75 @@ apis:
 - description: Provides private Solana RPC nodes, gRPC streams, Shredstream, and Geyser plugin hosting for high‑frequency traders and indexers.
   name: Solana RPC API
   slug: solana-rpc-api
-artifact_total: 8
+artifact_total: 11
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/agentic-access/nolimitnodes-agentic-access.yml
+  href: https://artifacts.apis.io/nolimitnodes/agentic-access/nolimitnodes-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nolimitnodes-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/plans/nolimitnodes-plans-pricing.yml
+  href: https://artifacts.apis.io/nolimitnodes/plans/nolimitnodes-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nolimitnodes-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/rules/nolimitnodes-rules.yml
+  href: https://artifacts.apis.io/nolimitnodes/rules/nolimitnodes-rules.yml
   title: ''
   type: Spectral
   url: rules/nolimitnodes-rules.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nolimitnodes/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/changelog/nolimitnodes-changelog.yml
+  href: https://artifacts.apis.io/nolimitnodes/changelog/nolimitnodes-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nolimitnodes-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/security/nolimitnodes-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nolimitnodes/security/nolimitnodes-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/nolimitnodes-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/authentication/nolimitnodes-authentication.yml
+  href: https://artifacts.apis.io/nolimitnodes/authentication/nolimitnodes-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nolimitnodes-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/conformance/nolimitnodes-conformance.yml
+  href: https://artifacts.apis.io/nolimitnodes/conformance/nolimitnodes-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nolimitnodes-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/llms/nolimitnodes-llms.txt
+  href: https://artifacts.apis.io/nolimitnodes/llms/nolimitnodes-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nolimitnodes-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/mcp/nolimitnodes-mcp.yml
+  href: https://artifacts.apis.io/nolimitnodes/mcp/nolimitnodes-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nolimitnodes-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/well-known/nolimitnodes-security.txt
+  href: https://artifacts.apis.io/nolimitnodes/well-known/nolimitnodes-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/nolimitnodes-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/well-known/nolimitnodes-well-known.yml
+  href: https://artifacts.apis.io/nolimitnodes/well-known/nolimitnodes-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nolimitnodes-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/hosts/nolimitnodes-hosts.yml
+  href: https://artifacts.apis.io/nolimitnodes/hosts/nolimitnodes-hosts.yml
   title: ''
   type: Hosts
   url: hosts/nolimitnodes-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/vendors/nolimitnodes-vendors.yml
+  href: https://artifacts.apis.io/nolimitnodes/vendors/nolimitnodes-vendors.yml
   title: ''
   type: Vendors
   url: vendors/nolimitnodes-vendors.yml
@@ -125,12 +127,12 @@ common:
   type: ChangeLog
   url: https://nolimitnodes.com/docs/changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/security/nolimitnodes-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nolimitnodes/security/nolimitnodes-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nolimitnodes-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nolimitnodes/refs/heads/main/security/nolimitnodes-domain-security.yml
+  href: https://artifacts.apis.io/nolimitnodes/security/nolimitnodes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nolimitnodes-domain-security.yml
@@ -176,6 +178,14 @@ coverage:
   state: gated
 created: '2026-10-08'
 description: NoLimitNodes provides private Solana RPC nodes, Yellowstone gRPC streams, Shredstream, and Geyser plugin hosting, along with a comprehensive catalog of pre‑parsed on‑chain events. Targeted at high‑frequency traders, MEV searchers, and indexers, the service offers schema‑stable data without the need for custom parsers, guaranteeing uptime and flat‑rate pricing. The platform includes extensive documentation, pricing details, a blog, and support channels, enabling developers to integrate Solana infrastructure quickly and reliably.
+finops:
+- has_sources: true
+  method: derived
+  name: Nolimitnodes Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: nolimitnodes-finops
+  template: false
 layout: provider
 mcp_servers:
 - description: Remote MCP server at nolimitnodes.com.
@@ -185,7 +195,7 @@ modified: '2026-10-08'
 name: NoLimitNodes
 nav: Providers
 network: true
-overview: 'NoLimitNodes is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solana, RPC, Data-Streams, and MEV.
+overview: 'NoLimitNodes is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solana, RPC, Data Streams, and MEV.
 
 
   The NoLimitNodes catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -196,7 +206,10 @@ plans:
 - name: Nolimitnodes Plans Pricing
   plan_count: 3
   slug: nolimitnodes-plans-pricing
-random_paper: 3
+- name: Nolimitnodes Price Estimates
+  plan_count: 0
+  slug: nolimitnodes-price-estimates
+random_paper: 5
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -212,21 +225,23 @@ rules:
   slug: nolimitnodes-rules
 score:
   band: developing
-  composite: 41.4
+  composite: 42.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 46.5
+    artifact_dirs: 15
+    catalog_earned: 49.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.5
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 49.4
-    discoverability: 63.3
+    discoverability: 53.3
     operational_transparency: 42.1
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,8 +253,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -257,12 +273,16 @@ security:
   name: Nolimitnodes Vulnerability Disclosure
   slug: nolimitnodes-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 1
+skills:
+- name: health-check
+  slug: nolimitnodes-health
 slug: nolimitnodes
 tags:
 - Company
 - Solana
 - RPC
-- Data-Streams
+- Data Streams
 - MEV
 - Infrastructure
 website: https://nolimitnodes.com/

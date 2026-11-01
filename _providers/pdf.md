@@ -4,6 +4,6 @@ layout: provider
 name: pdf
 nav: Providers
 network: true
-random_paper: 6
+random_paper: 2
 slug: pdf
 ---

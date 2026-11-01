@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -58,22 +60,22 @@ common:
   type: Support
   url: https://deephealth.com/contact/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kheiron-medical-technologies/refs/heads/main/well-known/kheiron-medical-technologies-well-known.yml
+  href: https://artifacts.apis.io/kheiron-medical-technologies/well-known/kheiron-medical-technologies-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kheiron-medical-technologies-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kheiron-medical-technologies/refs/heads/main/well-known/kheiron-medical-technologies-security.txt
+  href: https://artifacts.apis.io/kheiron-medical-technologies/well-known/kheiron-medical-technologies-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/kheiron-medical-technologies-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kheiron-medical-technologies/refs/heads/main/security/kheiron-medical-technologies-domain-security.yml
+  href: https://artifacts.apis.io/kheiron-medical-technologies/security/kheiron-medical-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kheiron-medical-technologies-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kheiron-medical-technologies/refs/heads/main/security/kheiron-medical-technologies-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kheiron-medical-technologies/security/kheiron-medical-technologies-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kheiron-medical-technologies-vulnerability-disclosure.yml
@@ -93,7 +95,7 @@ overview: 'Kheiron Medical Technologies is profiled on the [APIs.io](https://api
 
 
   Kheiron Medical Technologies'' developer surface includes support and 9 more developer resources.'
-random_paper: 7
+random_paper: 13
 score:
   band: emerging
   composite: 11.8
@@ -104,7 +106,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -112,21 +114,21 @@ score:
     developer_ergonomics: 4.8
     discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 11.7
+  previous_composite: 11.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kheiron-medical-technologies/refs/heads/main/screenshots/kheiron-medical-technologies-2026-07-25T223710.png
+screenshot: https://apis.io/screenshots/kheiron-medical-technologies/kheiron-medical-technologies-2026-07-25T223710.png
 security:
 - kind: domain-security
   name: Kheiron Medical Technologies Domain Security

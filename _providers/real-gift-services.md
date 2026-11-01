@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'RealGifts full REST API for embedding a gift shop, reward store, and wishlist into a platform: browse a 1M+ gift catalog, create and send gifts, handle privacy-preserving recipient redemption, and tra'
@@ -47,17 +49,17 @@ asyncapis:
   slug: real-gift-services-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/real-gift-services/refs/heads/main/security/real-gift-services-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/real-gift-services/security/real-gift-services-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/real-gift-services-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/real-gift-services/refs/heads/main/security/real-gift-services-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/real-gift-services/security/real-gift-services-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/real-gift-services-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/real-gift-services/refs/heads/main/security/real-gift-services-domain-security.yml
+  href: https://artifacts.apis.io/real-gift-services/security/real-gift-services-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/real-gift-services-domain-security.yml
@@ -106,47 +108,47 @@ common:
   type: License
   url: https://www.getrealgifts.com/license
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/real-gift-services/refs/heads/main/authentication/real-gift-services-authentication.yml
+  href: https://artifacts.apis.io/real-gift-services/authentication/real-gift-services-authentication.yml
   title: ''
   type: Authentication
   url: authentication/real-gift-services-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/real-gift-services/refs/heads/main/packages/real-gift-services-packages.yml
+  href: https://artifacts.apis.io/real-gift-services/packages/real-gift-services-packages.yml
   title: ''
   type: Packages
   url: packages/real-gift-services-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/real-gift-services/refs/heads/main/packages/real-gift-services-packages.yml
+  href: https://artifacts.apis.io/real-gift-services/packages/real-gift-services-packages.yml
   title: ''
   type: SDKs
   url: packages/real-gift-services-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/real-gift-services/refs/heads/main/conventions/real-gift-services-conventions.yml
+  href: https://artifacts.apis.io/real-gift-services/conventions/real-gift-services-conventions.yml
   title: ''
   type: Conventions
   url: conventions/real-gift-services-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/real-gift-services/refs/heads/main/components/real-gift-services-components.yml
+  href: https://artifacts.apis.io/real-gift-services/components/real-gift-services-components.yml
   title: ''
   type: Components
   url: components/real-gift-services-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/real-gift-services/refs/heads/main/asyncapi/real-gift-services-webhooks.yml
+  href: https://artifacts.apis.io/real-gift-services/asyncapi/real-gift-services-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/real-gift-services-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/real-gift-services/refs/heads/main/well-known/real-gift-services-well-known.yml
+  href: https://artifacts.apis.io/real-gift-services/well-known/real-gift-services-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/real-gift-services-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/real-gift-services/refs/heads/main/well-known/real-gift-services-security.txt
+  href: https://artifacts.apis.io/real-gift-services/well-known/real-gift-services-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/real-gift-services-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/real-gift-services/refs/heads/main/llms/real-gift-services-llms.txt
+  href: https://artifacts.apis.io/real-gift-services/llms/real-gift-services-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/real-gift-services-llms.txt
@@ -165,10 +167,10 @@ overview: 'Real Gift Services is listed with 1 API on the [APIs.io](https://apis
 
 
   Real Gift Services'' developer surface includes documentation, API reference, pricing, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 0
+random_paper: 4
 score:
   band: thin
-  composite: 36.2
+  composite: 37.3
   coverage:
     artifact_dirs: 11
     catalog_earned: 32.0
@@ -176,29 +178,29 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 40.5
-    discoverability: 64.3
+    developer_ergonomics: 50.0
+    discoverability: 57.1
     operational_transparency: 18.4
-  previous_composite: 36.1
+  previous_composite: 37.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 23.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/real-gift-services/refs/heads/main/screenshots/real-gift-services-2026-09-02T152957.png
+screenshot: https://apis.io/screenshots/real-gift-services/real-gift-services-2026-09-02T152957.png
 security:
 - kind: authentication
   name: Real Gift Services Authentication

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-17'
+  score: 25.6
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: VS Code, JetBrains (IntelliJ, PhpStorm, etc.), and Eclipse plugins surfacing autocomplete, chat, and agentic workflows. Communicates with Tabnine's hosted or self-hosted backend over a proprietary pro
@@ -61,42 +63,42 @@ asyncapis:
   slug: tabnine-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/llms/tabnine-llms.txt
+  href: https://artifacts.apis.io/tabnine/llms/tabnine-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tabnine-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/well-known/tabnine-status-security.txt
+  href: https://artifacts.apis.io/tabnine/well-known/tabnine-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/tabnine-status-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/rules/tabnine-rules.yml
+  href: https://artifacts.apis.io/tabnine/rules/tabnine-rules.yml
   title: ''
   type: Spectral
   url: rules/tabnine-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/json-ld/tabnine-context.jsonld
+  href: https://artifacts.apis.io/tabnine/json-ld/tabnine-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tabnine-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/vocabulary/tabnine-vocabulary.yml
+  href: https://artifacts.apis.io/tabnine/vocabulary/tabnine-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tabnine-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/asyncapi/tabnine-webhooks.yml
+  href: https://artifacts.apis.io/tabnine/asyncapi/tabnine-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tabnine-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/data-model/tabnine-data-model.yml
+  href: https://artifacts.apis.io/tabnine/data-model/tabnine-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tabnine-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/changelog/tabnine-changelog.yml
+  href: https://artifacts.apis.io/tabnine/changelog/tabnine-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tabnine-changelog.yml
@@ -105,27 +107,27 @@ common:
   type: Compliance
   url: https://trust.tabnine.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/authentication/tabnine-authentication.yml
+  href: https://artifacts.apis.io/tabnine/authentication/tabnine-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tabnine-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/conformance/tabnine-conformance.yml
+  href: https://artifacts.apis.io/tabnine/conformance/tabnine-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tabnine-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/well-known/tabnine-well-known.yml
+  href: https://artifacts.apis.io/tabnine/well-known/tabnine-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tabnine-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/hosts/tabnine-hosts.yml
+  href: https://artifacts.apis.io/tabnine/hosts/tabnine-hosts.yml
   title: ''
   type: Hosts
   url: hosts/tabnine-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/vendors/tabnine-vendors.yml
+  href: https://artifacts.apis.io/tabnine/vendors/tabnine-vendors.yml
   title: ''
   type: Vendors
   url: vendors/tabnine-vendors.yml
@@ -162,12 +164,12 @@ common:
   type: GettingStarted
   url: https://docs.tabnine.com/main/getting-started/install
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/security/tabnine-trust-center.yml
+  href: https://artifacts.apis.io/tabnine/security/tabnine-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tabnine-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/security/tabnine-domain-security.yml
+  href: https://artifacts.apis.io/tabnine/security/tabnine-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tabnine-domain-security.yml
@@ -184,17 +186,17 @@ common:
   type: Documentation
   url: https://docs.tabnine.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/plans/tabnine-plans-pricing.yml
+  href: https://artifacts.apis.io/tabnine/plans/tabnine-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tabnine-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/rate-limits/tabnine-rate-limits.yml
+  href: https://artifacts.apis.io/tabnine/rate-limits/tabnine-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tabnine-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/finops/tabnine-finops.yml
+  href: https://artifacts.apis.io/tabnine/finops/tabnine-finops.yml
   title: ''
   type: FinOps
   url: finops/tabnine-finops.yml
@@ -265,7 +267,7 @@ plans:
 - name: Tabnine Plans Pricing
   plan_count: 1
   slug: tabnine-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Tabnine Rate Limits
@@ -285,7 +287,7 @@ rules:
   slug: tabnine-rules
 score:
   band: developing
-  composite: 41.3
+  composite: 43.0
   coverage:
     artifact_dirs: 23
     catalog_earned: 61.8
@@ -293,15 +295,15 @@ score:
     catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -15.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 22.0
     contract_quality: 30.0
     developer_ergonomics: 40.5
-    discoverability: 73.2
-    operational_transparency: 47.4
-  previous_composite: 56.5
+    discoverability: 66.1
+    operational_transparency: 60.5
+  previous_composite: 43.0
   provenance:
     conformance: derived
     contracts:
@@ -316,13 +318,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tabnine/refs/heads/main/screenshots/tabnine-2026-06-20T194849.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tabnine/tabnine-2026-06-20T194849.png
 security:
 - kind: authentication
   name: Tabnine Authentication

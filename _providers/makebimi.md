@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Single unauthenticated endpoint that validates a remotely hosted SVG for BIMI suitability (SVG Tiny P/S). Described by the provider's own llms.txt as "the unauthenticated SVG validation endpoint", con
@@ -45,37 +47,37 @@ common:
   type: Pricing
   url: https://makebimi.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/makebimi/refs/heads/main/well-known/makebimi-well-known.yml
+  href: https://artifacts.apis.io/makebimi/well-known/makebimi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/makebimi-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/makebimi/refs/heads/main/security/makebimi-security.txt
+  href: https://artifacts.apis.io/makebimi/security/makebimi-security.txt
   title: ''
   type: SecurityTxt
   url: security/makebimi-security.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/makebimi/refs/heads/main/plans/makebimi-plans-pricing.yml
+  href: https://artifacts.apis.io/makebimi/plans/makebimi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/makebimi-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/makebimi/refs/heads/main/security/makebimi-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/makebimi/security/makebimi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/makebimi-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/makebimi/refs/heads/main/security/makebimi-domain-security.yml
+  href: https://artifacts.apis.io/makebimi/security/makebimi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/makebimi-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/makebimi/refs/heads/main/llms/makebimi-llms.txt
+  href: https://artifacts.apis.io/makebimi/llms/makebimi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/makebimi-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/makebimi/refs/heads/main/security/makebimi-security.txt
+  href: https://artifacts.apis.io/makebimi/security/makebimi-security.txt
   title: ''
   type: SecurityPolicy
   url: security/makebimi-security.txt
@@ -110,10 +112,10 @@ plans:
 - name: Makebimi Plans Pricing
   plan_count: 1
   slug: makebimi-plans-pricing
-random_paper: 17
+random_paper: 15
 score:
   band: emerging
-  composite: 23.0
+  composite: 24.1
   coverage:
     artifact_dirs: 6
     catalog_earned: 38.0
@@ -121,29 +123,29 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 24.0
-    developer_ergonomics: 11.9
-    discoverability: 60.7
+    developer_ergonomics: 14.3
+    discoverability: 53.6
     operational_transparency: 10.5
-  previous_composite: 20.8
+  previous_composite: 24.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 15.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/makebimi/refs/heads/main/screenshots/makebimi-2026-09-02T150427.png
+screenshot: https://apis.io/screenshots/makebimi/makebimi-2026-09-02T150427.png
 security:
 - kind: domain-security
   name: Makebimi Domain Security

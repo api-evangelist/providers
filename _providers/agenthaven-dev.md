@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -36,7 +38,7 @@ apis:
 - description: 'Seller agent for flight search and travel checkout, exposed on one host through two protocol doors: A2A JSON-RPC 0.3 at https://travel.agenthaven.dev/a2a (message/send with a DataPart {action, input} '
   name: Agent Bench Travel Merchant
   slug: agent-bench-travel-merchant
-artifact_total: 7
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -47,87 +49,87 @@ common:
   type: Documentation
   url: https://travel.agenthaven.dev/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/a2a/agenthaven-dev-a2a.yml
+  href: https://artifacts.apis.io/agenthaven-dev/a2a/agenthaven-dev-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/agenthaven-dev-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/mcp/agenthaven-dev-mcp.yml
+  href: https://artifacts.apis.io/agenthaven-dev/mcp/agenthaven-dev-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agenthaven-dev-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/agentic-access/agenthaven-dev-agentic-access.yml
+  href: https://artifacts.apis.io/agenthaven-dev/agentic-access/agenthaven-dev-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/agenthaven-dev-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/well-known/agenthaven-dev-well-known.yml
+  href: https://artifacts.apis.io/agenthaven-dev/well-known/agenthaven-dev-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agenthaven-dev-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/llms/agenthaven-dev-llms.txt
+  href: https://artifacts.apis.io/agenthaven-dev/llms/agenthaven-dev-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agenthaven-dev-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/authentication/agenthaven-dev-authentication.yml
+  href: https://artifacts.apis.io/agenthaven-dev/authentication/agenthaven-dev-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agenthaven-dev-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/conventions/agenthaven-dev-conventions.yml
+  href: https://artifacts.apis.io/agenthaven-dev/conventions/agenthaven-dev-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agenthaven-dev-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/conventions/agenthaven-dev-conventions.yml
+  href: https://artifacts.apis.io/agenthaven-dev/conventions/agenthaven-dev-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/agenthaven-dev-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/errors/agenthaven-dev-problem-types.yml
+  href: https://artifacts.apis.io/agenthaven-dev/errors/agenthaven-dev-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agenthaven-dev-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/data-model/agenthaven-dev-data-model.yml
+  href: https://artifacts.apis.io/agenthaven-dev/data-model/agenthaven-dev-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agenthaven-dev-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/rate-limits/agenthaven-dev-rate-limits.yml
+  href: https://artifacts.apis.io/agenthaven-dev/rate-limits/agenthaven-dev-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agenthaven-dev-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/plans/agenthaven-dev-plans-pricing.yml
+  href: https://artifacts.apis.io/agenthaven-dev/plans/agenthaven-dev-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agenthaven-dev-plans-pricing.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/sandbox/agenthaven-dev-sandbox.yml
+  href: https://artifacts.apis.io/agenthaven-dev/sandbox/agenthaven-dev-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/agenthaven-dev-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/conformance/agenthaven-dev-conformance.yml
+  href: https://artifacts.apis.io/agenthaven-dev/conformance/agenthaven-dev-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agenthaven-dev-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/lifecycle/agenthaven-dev-lifecycle.yml
+  href: https://artifacts.apis.io/agenthaven-dev/lifecycle/agenthaven-dev-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agenthaven-dev-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/agenthaven-dev/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/security/agenthaven-dev-domain-security.yml
+  href: https://artifacts.apis.io/agenthaven-dev/security/agenthaven-dev-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agenthaven-dev-domain-security.yml
@@ -150,14 +152,14 @@ plans:
 - name: Agenthaven Dev Plans Pricing
   plan_count: 0
   slug: agenthaven-dev-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Agenthaven Dev Rate Limits
   slug: agenthaven-dev-rate-limits
 score:
   band: emerging
-  composite: 18.2
+  composite: 17.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 47.0
@@ -171,9 +173,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 65.0
+    discoverability: 61.7
     operational_transparency: 31.6
-  previous_composite: 18.2
+  previous_composite: 17.9
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -185,14 +187,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/agenthaven-dev/refs/heads/main/screenshots/agenthaven-dev-2026-10-11T093047.png
+screenshot: https://apis.io/screenshots/agenthaven-dev/agenthaven-dev-2026-10-11T093047.png
 security:
 - kind: authentication
   name: Agenthaven Dev Authentication
@@ -202,6 +204,10 @@ security:
   name: Agenthaven Dev Domain Security
   slug: agenthaven-dev-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: agenthaven-dev-search-and-checkout
+  slug: agenthaven-dev-search-and-checkout
 slug: agenthaven-dev
 tags:
 - Agents

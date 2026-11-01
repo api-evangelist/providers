@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'ProgrammableWeb maintained the world''s largest directory of open web APIs, mashups, and developer tools. The directory documented over 19,000 APIs and served as the primary resource for API discovery '
@@ -42,17 +44,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/programmableweb/refs/heads/main/plans/programmableweb-plans-pricing.yml
+  href: https://artifacts.apis.io/programmableweb/plans/programmableweb-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/programmableweb-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/programmableweb/refs/heads/main/rate-limits/programmableweb-rate-limits.yml
+  href: https://artifacts.apis.io/programmableweb/rate-limits/programmableweb-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/programmableweb-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/programmableweb/refs/heads/main/finops/programmableweb-finops.yml
+  href: https://artifacts.apis.io/programmableweb/finops/programmableweb-finops.yml
   title: ''
   type: FinOps
   url: finops/programmableweb-finops.yml
@@ -61,7 +63,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/alcatel-lucent/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/programmableweb/refs/heads/main/security/programmableweb-domain-security.yml
+  href: https://artifacts.apis.io/programmableweb/security/programmableweb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/programmableweb-domain-security.yml
@@ -103,7 +105,7 @@ finops:
 - has_sources: false
   method: generated
   name: Programmableweb Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: programmableweb-finops
   template: true
@@ -149,14 +151,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/programmableweb/refs/heads/main/screenshots/programmableweb-2026-06-20T192145.png
+screenshot: https://apis.io/screenshots/programmableweb/programmableweb-2026-06-20T192145.png
 security:
 - kind: domain-security
   name: Programmableweb Domain Security

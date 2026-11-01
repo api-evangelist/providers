@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: ModusToolbox is Infineon's modern embedded development ecosystem and the successor to Cypress' PSoC Creator. It is a collection of GUI and non-GUI tools, libraries, configurators, board support packag
@@ -61,12 +63,12 @@ common:
   type: Website
   url: https://www.infineon.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/security/cypress-semiconductor-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cypress-semiconductor/security/cypress-semiconductor-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cypress-semiconductor-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/security/cypress-semiconductor-domain-security.yml
+  href: https://artifacts.apis.io/cypress-semiconductor/security/cypress-semiconductor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cypress-semiconductor-domain-security.yml
@@ -107,47 +109,47 @@ common:
   type: TrustCenter
   url: https://www.infineon.com/cms/en/about-infineon/company/acquisitions/cypress/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/json-schema/cypress-semiconductor-modustoolbox-application-schema.json
+  href: https://artifacts.apis.io/cypress-semiconductor/json-schema/cypress-semiconductor-modustoolbox-application-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cypress-semiconductor-modustoolbox-application-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/json-schema/cypress-semiconductor-board-support-package-schema.json
+  href: https://artifacts.apis.io/cypress-semiconductor/json-schema/cypress-semiconductor-board-support-package-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cypress-semiconductor-board-support-package-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/json-schema/cypress-semiconductor-capsense-configuration-schema.json
+  href: https://artifacts.apis.io/cypress-semiconductor/json-schema/cypress-semiconductor-capsense-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cypress-semiconductor-capsense-configuration-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/json-ld/cypress-semiconductor-context.jsonld
+  href: https://artifacts.apis.io/cypress-semiconductor/json-ld/cypress-semiconductor-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cypress-semiconductor-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/vocabulary/cypress-semiconductor-vocabulary.yml
+  href: https://artifacts.apis.io/cypress-semiconductor/vocabulary/cypress-semiconductor-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cypress-semiconductor-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/rules/cypress-semiconductor-rules.yml
+  href: https://artifacts.apis.io/cypress-semiconductor/rules/cypress-semiconductor-rules.yml
   title: ''
   type: SpectralRules
   url: rules/cypress-semiconductor-rules.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/plans/cypress-semiconductor-plans-pricing.yml
+  href: https://artifacts.apis.io/cypress-semiconductor/plans/cypress-semiconductor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cypress-semiconductor-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/rate-limits/cypress-semiconductor-rate-limits.yml
+  href: https://artifacts.apis.io/cypress-semiconductor/rate-limits/cypress-semiconductor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cypress-semiconductor-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/finops/cypress-semiconductor-finops.yml
+  href: https://artifacts.apis.io/cypress-semiconductor/finops/cypress-semiconductor-finops.yml
   title: ''
   type: FinOps
   url: finops/cypress-semiconductor-finops.yml
@@ -229,7 +231,7 @@ plans:
 - name: Cypress Semiconductor Plans Pricing
   plan_count: 1
   slug: cypress-semiconductor-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Cypress Semiconductor Rate Limits
@@ -259,8 +261,8 @@ rules:
     warn: 7
   slug: cypress-semiconductor-rules
 score:
-  band: emerging
-  composite: 23.8
+  band: thin
+  composite: 29.8
   coverage:
     artifact_dirs: 11
     catalog_earned: 60.0
@@ -268,29 +270,29 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 13.2
     contract_governance: 27.3
     contract_quality: 21.2
-    developer_ergonomics: 31.0
-    discoverability: 63.4
-    operational_transparency: 10.5
-  previous_composite: 30.7
+    developer_ergonomics: 40.5
+    discoverability: 64.3
+    operational_transparency: 23.7
+  previous_composite: 29.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 21.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/screenshots/cypress-semiconductor-2026-06-20T175414.png
+screenshot: https://apis.io/screenshots/cypress-semiconductor/cypress-semiconductor-2026-06-20T175414.png
 security:
 - kind: domain-security
   name: Cypress Semiconductor Domain Security

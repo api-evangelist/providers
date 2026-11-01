@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Developer portal for Logitech APIs and integrations.
@@ -32,7 +34,7 @@ apis:
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/logitech/refs/heads/main/plans/logitech-plans-pricing.yml
+  href: https://artifacts.apis.io/logitech/plans/logitech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/logitech-plans-pricing.yml
@@ -41,52 +43,52 @@ common:
   type: Security
   url: https://hackerone.com/logitech
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/logitech/refs/heads/main/llms/logitech-llms.txt
+  href: https://artifacts.apis.io/logitech/llms/logitech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/logitech-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logitech/refs/heads/main/well-known/logitech-status-security.txt
+  href: https://artifacts.apis.io/logitech/well-known/logitech-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/logitech-status-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logitech/refs/heads/main/well-known/logitech-security.txt
+  href: https://artifacts.apis.io/logitech/well-known/logitech-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/logitech-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logitech/refs/heads/main/well-known/logitech-logitech-security.txt
+  href: https://artifacts.apis.io/logitech/well-known/logitech-logitech-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/logitech-logitech-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logitech/refs/heads/main/well-known/logitech-corp-security.txt
+  href: https://artifacts.apis.io/logitech/well-known/logitech-corp-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/logitech-corp-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/logitech/refs/heads/main/well-known/logitech-well-known.yml
+  href: https://artifacts.apis.io/logitech/well-known/logitech-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/logitech-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/logitech/refs/heads/main/hosts/logitech-hosts.yml
+  href: https://artifacts.apis.io/logitech/hosts/logitech-hosts.yml
   title: ''
   type: Hosts
   url: hosts/logitech-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/logitech/refs/heads/main/vendors/logitech-vendors.yml
+  href: https://artifacts.apis.io/logitech/vendors/logitech-vendors.yml
   title: ''
   type: Vendors
   url: vendors/logitech-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/logitech/refs/heads/main/packages/logitech-packages.yml
+  href: https://artifacts.apis.io/logitech/packages/logitech-packages.yml
   title: ''
   type: SDKs
   url: packages/logitech-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/logitech/refs/heads/main/packages/logitech-packages.yml
+  href: https://artifacts.apis.io/logitech/packages/logitech-packages.yml
   title: ''
   type: Packages
   url: packages/logitech-packages.yml
@@ -123,12 +125,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/Logitech
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logitech/refs/heads/main/security/logitech-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/logitech/security/logitech-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/logitech-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logitech/refs/heads/main/security/logitech-domain-security.yml
+  href: https://artifacts.apis.io/logitech/security/logitech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/logitech-domain-security.yml
@@ -160,10 +162,10 @@ plans:
 - name: Logitech Plans Pricing
   plan_count: 3
   slug: logitech-plans-pricing
-random_paper: 11
+random_paper: 7
 score:
   band: thin
-  composite: 28.7
+  composite: 28.0
   coverage:
     artifact_dirs: 9
     catalog_earned: 44.0
@@ -171,13 +173,15 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 67.9
+    discoverability: 60.7
     operational_transparency: 31.6
+  previous_composite: 28.0
   provenance:
     mcp: derived
   regulatory:
@@ -186,8 +190,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

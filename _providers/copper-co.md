@@ -15,7 +15,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: false
+    agent_card: near-conformant
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.9
-  scored_at: '2026-10-17'
+  score: 45.1
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - baseURL: https://api.copper.co/platform
@@ -136,9 +138,6 @@ asyncapis:
   slug: copper-co-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Copper Platform Deprecated Accounts API
   slug: open-copper-co-accounts-api
 - collection_type: open
@@ -194,12 +193,12 @@ collections:
   slug: open-copper-co-wallets-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/capabilities/copper-co-capability-edges.yml
+  href: https://artifacts.apis.io/copper-co/capabilities/copper-co-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/copper-co-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/overlays/copper-co-platform-overlay.yaml
+  href: https://artifacts.apis.io/copper-co/overlays/copper-co-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/copper-co-platform-overlay.yaml
@@ -224,7 +223,7 @@ common:
   type: GettingStarted
   url: https://developer.copper.co/api-reference/getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/authentication/copper-co-authentication.yml
+  href: https://artifacts.apis.io/copper-co/authentication/copper-co-authentication.yml
   title: ''
   type: Authentication
   url: authentication/copper-co-authentication.yml
@@ -253,12 +252,12 @@ common:
   type: Postman
   url: https://developer.copper.co/api-reference/try-it-out#postman-collection
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/changelog/copper-co-changelog.yml
+  href: https://artifacts.apis.io/copper-co/changelog/copper-co-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/copper-co-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/lifecycle/copper-co-lifecycle.yml
+  href: https://artifacts.apis.io/copper-co/lifecycle/copper-co-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/copper-co-lifecycle.yml
@@ -267,67 +266,67 @@ common:
   type: StatusPage
   url: https://copper.co/en/status
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/lifecycle/copper-co-lifecycle.yml
+  href: https://artifacts.apis.io/copper-co/lifecycle/copper-co-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/copper-co-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/conventions/copper-co-conventions.yml
+  href: https://artifacts.apis.io/copper-co/conventions/copper-co-conventions.yml
   title: ''
   type: Conventions
   url: conventions/copper-co-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/conventions/copper-co-conventions.yml
+  href: https://artifacts.apis.io/copper-co/conventions/copper-co-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/copper-co-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/errors/copper-co-problem-types.yml
+  href: https://artifacts.apis.io/copper-co/errors/copper-co-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/copper-co-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/rate-limits/copper-co-rate-limits.yml
+  href: https://artifacts.apis.io/copper-co/rate-limits/copper-co-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/copper-co-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/sandbox/copper-co-sandbox.yml
+  href: https://artifacts.apis.io/copper-co/sandbox/copper-co-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/copper-co-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/asyncapi/copper-co-webhooks.yml
+  href: https://artifacts.apis.io/copper-co/asyncapi/copper-co-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/copper-co-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/mcp/copper-co-mcp.yml
+  href: https://artifacts.apis.io/copper-co/mcp/copper-co-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/copper-co-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/copper-co/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/a2a/copper-co-a2a.yml
+  href: https://artifacts.apis.io/copper-co/a2a/copper-co-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/copper-co-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/llms/copper-co-llms.txt
+  href: https://artifacts.apis.io/copper-co/llms/copper-co-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/copper-co-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/well-known/copper-co-well-known.yml
+  href: https://artifacts.apis.io/copper-co/well-known/copper-co-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/copper-co-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/conformance/copper-co-conformance.yml
+  href: https://artifacts.apis.io/copper-co/conformance/copper-co-conformance.yml
   title: ''
   type: Conformance
   url: conformance/copper-co-conformance.yml
@@ -336,17 +335,17 @@ common:
   type: Compliance
   url: https://copper.co/en/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/security/copper-co-trust-center.yml
+  href: https://artifacts.apis.io/copper-co/security/copper-co-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/copper-co-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/security/copper-co-domain-security.yml
+  href: https://artifacts.apis.io/copper-co/security/copper-co-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/copper-co-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/packages/copper-co-packages.yml
+  href: https://artifacts.apis.io/copper-co/packages/copper-co-packages.yml
   title: ''
   type: Packages
   url: packages/copper-co-packages.yml
@@ -369,14 +368,14 @@ overview: 'Copper.co publishes 18 API contracts indexed on the [APIs.io](https:/
 
 
   Copper.co''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 27 more developer resources.'
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Copper Co Rate Limits
   slug: copper-co-rate-limits
 score:
   band: strong
-  composite: 54.8
+  composite: 56.8
   coverage:
     artifact_dirs: 24
     catalog_earned: 52.0
@@ -386,12 +385,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 47.4
     contract_governance: 4.5
     contract_quality: 53.0
-    developer_ergonomics: 71.4
-    discoverability: 80.0
-    operational_transparency: 63.2
+    developer_ergonomics: 76.2
+    discoverability: 70.0
+    operational_transparency: 78.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -400,7 +399,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 54.8
+  previous_composite: 56.8
   provenance:
     conformance: derived
     contracts:
@@ -416,13 +415,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 27.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/screenshots/copper-co-2026-08-07T163810.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/copper-co/copper-co-2026-08-07T163810.png
 security:
 - kind: authentication
   name: Copper Co Authentication
@@ -440,6 +440,10 @@ security:
   name: Copper Co Trust Center
   slug: copper-co-trust-center
   summary_line: SOC 2, ISO 27001, NIST Cybersecurity Framework
+skill_count: 1
+skills:
+- name: Copperco
+  slug: copper-co-copperco
 slug: copper-co
 tags:
 - Company

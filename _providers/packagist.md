@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 23.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Download and registry statistics.
   name: Packagist Statistics API
   slug: packagist-statistics-api
-artifact_total: 38
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Packagist API
   slug: open-packagist-api
@@ -94,8 +93,12 @@ collections:
   name: Packagist Metadata Statistics API
   slug: open-packagist-statistics-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/packagist/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/capabilities/packagist-capability-edges.yml
+  href: https://artifacts.apis.io/packagist/capabilities/packagist-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/packagist-capability-edges.yml
@@ -104,17 +107,17 @@ common:
   type: Website
   url: https://packagist.org
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/agentic-access/packagist-agentic-access.yml
+  href: https://artifacts.apis.io/packagist/agentic-access/packagist-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/packagist-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/security/packagist-domain-security.yml
+  href: https://artifacts.apis.io/packagist/security/packagist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/packagist-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/authentication/packagist-authentication.yml
+  href: https://artifacts.apis.io/packagist/authentication/packagist-authentication.yml
   title: ''
   type: Authentication
   url: authentication/packagist-authentication.yml
@@ -259,12 +262,12 @@ common:
   type: Issues
   url: https://github.com/composer/packagist/issues
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/plans/packagist-plans-pricing.yml
+  href: https://artifacts.apis.io/packagist/plans/packagist-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/packagist-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/rate-limits/packagist-rate-limits.yml
+  href: https://artifacts.apis.io/packagist/rate-limits/packagist-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/packagist-rate-limits.yml
@@ -321,12 +324,12 @@ overview: 'Packagist publishes 5 API contracts indexed on the [APIs.io](https://
   The Packagist catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Packagist''s developer surface includes authentication, developer portal, documentation, tooling, signup flow, sandbox, engineering blog, and 35 more developer resources.'
+  Packagist''s developer surface includes authentication, developer portal, documentation, tooling, signup flow, sandbox, engineering blog, and 36 more developer resources.'
 plans:
 - name: Packagist Plans Pricing
   plan_count: 3
   slug: packagist-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Packagist Rate Limits
@@ -356,24 +359,24 @@ rules:
     warn: 3
   slug: packagist-rules
 score:
-  band: thin
-  composite: 37.7
+  band: developing
+  composite: 45.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 68.0
     catalog_earned_first_party: 0.0
     catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.8
+  delta: 0.3
   facets:
-    access_clarity: 14.5
+    access_clarity: 42.1
     contract_governance: 27.3
     contract_quality: 61.2
-    developer_ergonomics: 45.2
+    developer_ergonomics: 46.4
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 43.5
+    operational_transparency: 10.5
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -386,14 +389,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/screenshots/packagist-2026-06-20T191311.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/packagist/packagist-2026-06-20T191311.png
 security:
 - kind: authentication
   name: Packagist Authentication

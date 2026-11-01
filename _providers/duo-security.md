@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: WebAuthn credential management
   name: Duo Security WebAuthn API
   slug: duo-security-webauthn-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Duo Admin API
   slug: open-duo-admin-api
@@ -111,22 +110,22 @@ collections:
   slug: open-duo-security-webauthn-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/plans/duo-security-plans-pricing.yml
+  href: https://artifacts.apis.io/duo-security/plans/duo-security-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/duo-security-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/rate-limits/duo-security-rate-limits.yml
+  href: https://artifacts.apis.io/duo-security/rate-limits/duo-security-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/duo-security-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/finops/duo-security-finops.yml
+  href: https://artifacts.apis.io/duo-security/finops/duo-security-finops.yml
   title: ''
   type: FinOps
   url: finops/duo-security-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/capabilities/duo-security-capability-edges.yml
+  href: https://artifacts.apis.io/duo-security/capabilities/duo-security-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/duo-security-capability-edges.yml
@@ -135,27 +134,27 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/cisco/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/agentic-access/duo-security-agentic-access.yml
+  href: https://artifacts.apis.io/duo-security/agentic-access/duo-security-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/duo-security-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/security/duo-security-trust-center.yml
+  href: https://artifacts.apis.io/duo-security/security/duo-security-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/duo-security-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/security/duo-security-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/duo-security/security/duo-security-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/duo-security-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/security/duo-security-domain-security.yml
+  href: https://artifacts.apis.io/duo-security/security/duo-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/duo-security-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/authentication/duo-security-authentication.yml
+  href: https://artifacts.apis.io/duo-security/authentication/duo-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/duo-security-authentication.yml
@@ -185,7 +184,7 @@ finops:
 - has_sources: false
   method: generated
   name: Duo Security Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: duo-security-finops
   template: true
@@ -203,14 +202,14 @@ plans:
 - name: Duo Security Plans Pricing
   plan_count: 3
   slug: duo-security-plans-pricing
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Duo Security Rate Limits
   slug: duo-security-rate-limits
 score:
   band: thin
-  composite: 27.3
+  composite: 29.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 38.0
@@ -218,15 +217,15 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 47.8
+    contract_quality: 46.4
     developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 28.9
+    operational_transparency: 23.7
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     contracts:
@@ -240,13 +239,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/screenshots/duo-security-2026-06-20T180323.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/duo-security/duo-security-2026-06-20T180323.png
 security:
 - kind: authentication
   name: Duo Security Authentication

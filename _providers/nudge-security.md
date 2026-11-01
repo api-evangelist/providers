@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -100,11 +102,8 @@ apis:
   description: Search and retrieve user records.
   name: Nudge Security Users API
   slug: nudge-security-users-api
-artifact_total: 31
+artifact_total: 30
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nudge Security Accounts API
   slug: open-nudge-security-accounts-api
@@ -143,42 +142,42 @@ collections:
   slug: open-nudge-security
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/plans/nudge-security-plans-pricing.yml
+  href: https://artifacts.apis.io/nudge-security/plans/nudge-security-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nudge-security-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/rate-limits/nudge-security-rate-limits.yml
+  href: https://artifacts.apis.io/nudge-security/rate-limits/nudge-security-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nudge-security-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/finops/nudge-security-finops.yml
+  href: https://artifacts.apis.io/nudge-security/finops/nudge-security-finops.yml
   title: ''
   type: FinOps
   url: finops/nudge-security-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/capabilities/nudge-security-capability-edges.yml
+  href: https://artifacts.apis.io/nudge-security/capabilities/nudge-security-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nudge-security-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/agentic-access/nudge-security-agentic-access.yml
+  href: https://artifacts.apis.io/nudge-security/agentic-access/nudge-security-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nudge-security-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/security/nudge-security-trust-center.yml
+  href: https://artifacts.apis.io/nudge-security/security/nudge-security-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nudge-security-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/security/nudge-security-domain-security.yml
+  href: https://artifacts.apis.io/nudge-security/security/nudge-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nudge-security-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/authentication/nudge-security-authentication.yml
+  href: https://artifacts.apis.io/nudge-security/authentication/nudge-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nudge-security-authentication.yml
@@ -224,7 +223,7 @@ finops:
 - has_sources: false
   method: generated
   name: Nudge Security Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: nudge-security-finops
   template: true
@@ -242,22 +241,22 @@ plans:
 - name: Nudge Security Plans Pricing
   plan_count: 3
   slug: nudge-security-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Nudge Security Rate Limits
   slug: nudge-security-rate-limits
 score:
   band: thin
-  composite: 37.2
+  composite: 37.9
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
@@ -265,7 +264,7 @@ score:
     developer_ergonomics: 42.9
     discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 38.7
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -279,13 +278,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/screenshots/nudge-security-2026-06-20T190516.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nudge-security/nudge-security-2026-06-20T190516.png
 security:
 - kind: authentication
   name: Nudge Security Authentication

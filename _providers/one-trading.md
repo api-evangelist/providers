@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 27.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: wss://streams.fast.onetrading.com
@@ -62,15 +64,12 @@ apis:
   description: Account order and trade endpoints (Bearer token, TRADE/READ scope)
   name: One Trading API
   slug: one-trading-trading-api
-artifact_total: 13
+artifact_total: 15
 asyncapis:
 - description: Real-time WebSocket (WSS) API for the One Trading exchange. Clients receive market data feeds (order book, price ticks, book ticker) and, after authenticating, private trading event streams (order lif
   name: One Trading WebSocket Streams API
   slug: one-trading-streams-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: One Trading Fast Funding API
   slug: open-one-trading-funding-api
@@ -85,12 +84,12 @@ collections:
   slug: open-one-trading-trading-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/overlays/one-trading-fast-overlay.yaml
+  href: https://artifacts.apis.io/one-trading/overlays/one-trading-fast-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/one-trading-fast-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/security/one-trading-domain-security.yml
+  href: https://artifacts.apis.io/one-trading/security/one-trading-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/one-trading-domain-security.yml
@@ -139,67 +138,67 @@ common:
   type: PrivacyPolicy
   url: https://onetrading.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/llms/one-trading-llms.txt
+  href: https://artifacts.apis.io/one-trading/llms/one-trading-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/one-trading-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/authentication/one-trading-authentication.yml
+  href: https://artifacts.apis.io/one-trading/authentication/one-trading-authentication.yml
   title: ''
   type: Authentication
   url: authentication/one-trading-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/conventions/one-trading-conventions.yml
+  href: https://artifacts.apis.io/one-trading/conventions/one-trading-conventions.yml
   title: ''
   type: Conventions
   url: conventions/one-trading-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/conventions/one-trading-conventions.yml
+  href: https://artifacts.apis.io/one-trading/conventions/one-trading-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/one-trading-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/errors/one-trading-problem-types.yml
+  href: https://artifacts.apis.io/one-trading/errors/one-trading-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/one-trading-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/lifecycle/one-trading-lifecycle.yml
+  href: https://artifacts.apis.io/one-trading/lifecycle/one-trading-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/one-trading-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/data-model/one-trading-data-model.yml
+  href: https://artifacts.apis.io/one-trading/data-model/one-trading-data-model.yml
   title: ''
   type: DataModel
   url: data-model/one-trading-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/conformance/one-trading-conformance.yml
+  href: https://artifacts.apis.io/one-trading/conformance/one-trading-conformance.yml
   title: ''
   type: Conformance
   url: conformance/one-trading-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/packages/one-trading-packages.yml
+  href: https://artifacts.apis.io/one-trading/packages/one-trading-packages.yml
   title: ''
   type: Packages
   url: packages/one-trading-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/mcp/one-trading-mcp.yml
+  href: https://artifacts.apis.io/one-trading/mcp/one-trading-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/one-trading-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/one-trading/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/asyncapi/one-trading-streams-asyncapi.yml
+  href: https://artifacts.apis.io/one-trading/asyncapi/one-trading-streams-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/one-trading-streams-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/asyncapi/one-trading-streams-asyncapi.yml
+  href: https://artifacts.apis.io/one-trading/asyncapi/one-trading-streams-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/one-trading-streams-asyncapi.yml
@@ -218,10 +217,10 @@ overview: 'One Trading publishes 5 API contracts indexed on the [APIs.io](https:
 
 
   One Trading''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 19 more developer resources.'
-random_paper: 12
+random_paper: 8
 score:
   band: thin
-  composite: 32.4
+  composite: 31.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -229,21 +228,21 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 23.9
+    contract_quality: 12.5
     developer_ergonomics: 49.4
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 32.3
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 31.2
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 4
-      marker_coverage: 100.0
+      derived: 0
+      marker_coverage: 0.0
       total: 4
     mcp: derived
     skills: derived
@@ -253,13 +252,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/screenshots/one-trading-2026-08-07T190256.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/one-trading/one-trading-2026-08-07T190256.png
 security:
 - kind: authentication
   name: One Trading Authentication
@@ -269,6 +269,14 @@ security:
   name: One Trading Domain Security
   slug: one-trading-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Monitor and manage a futures portfolio
+  slug: one-trading-manage-futures
+- name: Place and manage a limit order
+  slug: one-trading-place-limit-order
+- name: Stream real-time market data
+  slug: one-trading-stream-market-data
 slug: one-trading
 tags:
 - Company

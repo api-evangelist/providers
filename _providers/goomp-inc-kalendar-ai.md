@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The API host behind the Cockpit AI (formerly Kalendar AI) product. The root of https://api.oncockpit.ai returns HTTP 200 with {"name":"Cockpit AI API","status":"active"} and /health returns OK, and th
@@ -45,7 +47,7 @@ common:
   type: Blog
   url: https://oncockpit.ai/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goomp-inc-kalendar-ai/refs/heads/main/security/goomp-inc-kalendar-ai-domain-security.yml
+  href: https://artifacts.apis.io/goomp-inc-kalendar-ai/security/goomp-inc-kalendar-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/goomp-inc-kalendar-ai-domain-security.yml
@@ -66,42 +68,42 @@ common:
   type: PrivacyPolicy
   url: https://oncockpit.ai/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goomp-inc-kalendar-ai/refs/heads/main/well-known/goomp-inc-kalendar-ai-well-known.yml
+  href: https://artifacts.apis.io/goomp-inc-kalendar-ai/well-known/goomp-inc-kalendar-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/goomp-inc-kalendar-ai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goomp-inc-kalendar-ai/refs/heads/main/authentication/goomp-inc-kalendar-ai-authentication.yml
+  href: https://artifacts.apis.io/goomp-inc-kalendar-ai/authentication/goomp-inc-kalendar-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/goomp-inc-kalendar-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goomp-inc-kalendar-ai/refs/heads/main/scopes/goomp-inc-kalendar-ai-scopes.yml
+  href: https://artifacts.apis.io/goomp-inc-kalendar-ai/scopes/goomp-inc-kalendar-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/goomp-inc-kalendar-ai-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goomp-inc-kalendar-ai/refs/heads/main/conformance/goomp-inc-kalendar-ai-conformance.yml
+  href: https://artifacts.apis.io/goomp-inc-kalendar-ai/conformance/goomp-inc-kalendar-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/goomp-inc-kalendar-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goomp-inc-kalendar-ai/refs/heads/main/lifecycle/goomp-inc-kalendar-ai-lifecycle.yml
+  href: https://artifacts.apis.io/goomp-inc-kalendar-ai/lifecycle/goomp-inc-kalendar-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/goomp-inc-kalendar-ai-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/goomp-inc-kalendar-ai/refs/heads/main/plans/goomp-inc-kalendar-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/goomp-inc-kalendar-ai/plans/goomp-inc-kalendar-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/goomp-inc-kalendar-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/goomp-inc-kalendar-ai/refs/heads/main/rate-limits/goomp-inc-kalendar-ai-rate-limits.yml
+  href: https://artifacts.apis.io/goomp-inc-kalendar-ai/rate-limits/goomp-inc-kalendar-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/goomp-inc-kalendar-ai-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goomp-inc-kalendar-ai/refs/heads/main/llms/goomp-inc-kalendar-ai-llms.txt
+  href: https://artifacts.apis.io/goomp-inc-kalendar-ai/llms/goomp-inc-kalendar-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/goomp-inc-kalendar-ai-llms.txt
@@ -122,7 +124,7 @@ plans:
 - name: Goomp Inc Kalendar Ai Plans Pricing
   plan_count: 0
   slug: goomp-inc-kalendar-ai-plans-pricing
-random_paper: 7
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Goomp Inc Kalendar Ai Rate Limits
@@ -134,7 +136,7 @@ scopes:
   summary_line: 2 scopes
 score:
   band: emerging
-  composite: 11.4
+  composite: 19.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -142,15 +144,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 14.3
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 10.9
+  previous_composite: 19.4
   provenance:
     conformance: derived
   regulatory:
@@ -158,15 +160,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 31.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/goomp-inc-kalendar-ai/refs/heads/main/screenshots/goomp-inc-kalendar-ai-2026-07-25T220105.png
+screenshot: https://apis.io/screenshots/goomp-inc-kalendar-ai/goomp-inc-kalendar-ai-2026-07-25T220105.png
 security:
 - kind: authentication
   name: Goomp Inc Kalendar Ai Authentication

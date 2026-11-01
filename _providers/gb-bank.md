@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.5
-  scored_at: '2026-10-17'
+  score: 34.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -225,57 +227,57 @@ common:
   type: BlogRSS
   url: https://www.gbbank.co.uk/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/capabilities/gb-bank-capability-edges.yml
+  href: https://artifacts.apis.io/gb-bank/capabilities/gb-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gb-bank-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/security/gb-bank-domain-security.yml
+  href: https://artifacts.apis.io/gb-bank/security/gb-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gb-bank-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/agentic-access/gb-bank-agentic-access.yml
+  href: https://artifacts.apis.io/gb-bank/agentic-access/gb-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gb-bank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/scopes/gb-bank-scopes.yml
+  href: https://artifacts.apis.io/gb-bank/scopes/gb-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gb-bank-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/authentication/gb-bank-authentication.yml
+  href: https://artifacts.apis.io/gb-bank/authentication/gb-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gb-bank-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/conventions/gb-bank-conventions.yml
+  href: https://artifacts.apis.io/gb-bank/conventions/gb-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gb-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/conventions/gb-bank-conventions.yml
+  href: https://artifacts.apis.io/gb-bank/conventions/gb-bank-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/gb-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/errors/gb-bank-problem-types.yml
+  href: https://artifacts.apis.io/gb-bank/errors/gb-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gb-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/conformance/gb-bank-conformance.yml
+  href: https://artifacts.apis.io/gb-bank/conformance/gb-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gb-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/data-model/gb-bank-data-model.yml
+  href: https://artifacts.apis.io/gb-bank/data-model/gb-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gb-bank-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/llms/gb-bank-llms.txt
+  href: https://artifacts.apis.io/gb-bank/llms/gb-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gb-bank-llms.txt
@@ -332,7 +334,7 @@ overview: 'GB Bank publishes 34 API contracts indexed on the [APIs.io](https://a
 
 
   GB Bank''s developer surface includes authentication, support, engineering blog, and 19 more developer resources.'
-random_paper: 20
+random_paper: 10
 scopes:
 - name: Gb Bank Scopes
   scope_count: 3
@@ -354,7 +356,7 @@ score:
     contract_governance: 4.5
     contract_quality: 46.9
     developer_ergonomics: 35.7
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -383,13 +385,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/screenshots/gb-bank-2026-07-25T215509.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gb-bank/gb-bank-2026-07-25T215509.png
 security:
 - kind: authentication
   name: Gb Bank Authentication

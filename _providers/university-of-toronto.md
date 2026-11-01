@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The University of Toronto's Shibboleth identity provider, entityID https://idpz.utorauth.utoronto.ca/shibboleth, serving signed SAML 2.0 metadata from the University's own utorauth.utoronto.ca host. R
@@ -137,67 +139,67 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-toronto/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/security/university-of-toronto-domain-security.yml
+  href: https://artifacts.apis.io/university-of-toronto/security/university-of-toronto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-toronto-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/plans/university-of-toronto-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-toronto/plans/university-of-toronto-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-toronto-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/rate-limits/university-of-toronto-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-toronto/rate-limits/university-of-toronto-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-toronto-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/finops/university-of-toronto-finops.yml
+  href: https://artifacts.apis.io/university-of-toronto/finops/university-of-toronto-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-toronto-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-toronto/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/conformance/university-of-toronto-conformance.yml
+  href: https://artifacts.apis.io/university-of-toronto/conformance/university-of-toronto-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-toronto-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/lifecycle/university-of-toronto-lifecycle.yml
+  href: https://artifacts.apis.io/university-of-toronto/lifecycle/university-of-toronto-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/university-of-toronto-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/vocabulary/university-of-toronto-vocabulary.yml
+  href: https://artifacts.apis.io/university-of-toronto/vocabulary/university-of-toronto-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/university-of-toronto-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/rules/university-of-toronto-rules.yml
+  href: https://artifacts.apis.io/university-of-toronto/rules/university-of-toronto-rules.yml
   title: ''
   type: Rules
   url: rules/university-of-toronto-rules.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/scopes/university-of-toronto-scopes.yml
+  href: https://artifacts.apis.io/university-of-toronto/scopes/university-of-toronto-scopes.yml
   title: ''
   type: Scopes
   url: scopes/university-of-toronto-scopes.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/json-schema/ttb-course.json
+  href: https://artifacts.apis.io/university-of-toronto/json-schema/ttb-course.json
   title: ''
   type: JSONSchema
   url: json-schema/ttb-course.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/json-ld/university-of-toronto-timetable-context.jsonld
+  href: https://artifacts.apis.io/university-of-toronto/json-ld/university-of-toronto-timetable-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/university-of-toronto-timetable-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/examples/index.yml
+  href: https://artifacts.apis.io/university-of-toronto/examples/index.yml
   title: ''
   type: Examples
   url: examples/index.yml
@@ -273,7 +275,7 @@ plans:
 - name: University Of Toronto Plans Pricing
   plan_count: 2
   slug: university-of-toronto-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: University Of Toronto Rate Limits
@@ -297,7 +299,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 30.0
+  composite: 31.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 59.8
@@ -305,14 +307,14 @@ score:
     catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 11.4
     contract_quality: 23.8
     developer_ergonomics: 28.6
     discoverability: 64.3
-    operational_transparency: 23.7
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -320,7 +322,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 31.5
+  previous_composite: 31.0
   provenance:
     conformance: first-party
     contracts:
@@ -334,13 +336,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/screenshots/university-of-toronto-2026-06-20T200245.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/university-of-toronto/university-of-toronto-2026-06-20T200245.png
 security:
 - kind: authentication
   name: University Of Toronto Authentication

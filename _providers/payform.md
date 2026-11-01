@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,12 +79,12 @@ common:
   type: Webhooks
   url: https://payform.me/integrations/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payform/refs/heads/main/security/payform-domain-security.yml
+  href: https://artifacts.apis.io/payform/security/payform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/payform-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/payform/refs/heads/main/llms/payform-llms.txt
+  href: https://artifacts.apis.io/payform/llms/payform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/payform-llms.txt
@@ -98,10 +100,10 @@ overview: 'Payform is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Payform''s developer surface includes signup flow, pricing, documentation, engineering blog, support, and 7 more developer resources.'
-random_paper: 18
+random_paper: 22
 score:
   band: emerging
-  composite: 17.8
+  composite: 17.1
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -115,23 +117,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 7.9
-  previous_composite: 17.8
+  previous_composite: 17.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/payform/refs/heads/main/screenshots/payform-2026-08-07T191633.png
+screenshot: https://apis.io/screenshots/payform/payform-2026-08-07T191633.png
 security:
 - kind: domain-security
   name: Payform Domain Security

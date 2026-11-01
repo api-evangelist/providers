@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,18 +36,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The FOSSA REST API lets you build integrations and automate open source management workflows — manage projects, revisions, issues, users and teams, release groups, and reports; initiate binary scans; '
   name: FOSSA REST API
   slug: fossa-rest-api
-artifact_total: 5
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Fossa Webhooks
   slug: fossa-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/fossa/plans/fossa-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/fossa-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -55,7 +62,7 @@ common:
   type: BlogRSS
   url: https://fossa.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/security/fossa-trust-center.yml
+  href: https://artifacts.apis.io/fossa/security/fossa-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fossa-trust-center.yml
@@ -116,77 +123,85 @@ common:
   type: Compliance
   url: https://fossa.com/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/authentication/fossa-authentication.yml
+  href: https://artifacts.apis.io/fossa/authentication/fossa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fossa-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/llms/fossa-llms.txt
+  href: https://artifacts.apis.io/fossa/llms/fossa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fossa-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/packages/fossa-packages.yml
+  href: https://artifacts.apis.io/fossa/packages/fossa-packages.yml
   title: ''
   type: Packages
   url: packages/fossa-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/packages/fossa-packages.yml
+  href: https://artifacts.apis.io/fossa/packages/fossa-packages.yml
   title: ''
   type: SDKs
   url: packages/fossa-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/cli/fossa-cli.yml
+  href: https://artifacts.apis.io/fossa/cli/fossa-cli.yml
   title: ''
   type: CLI
   url: cli/fossa-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/errors/fossa-problem-types.yml
+  href: https://artifacts.apis.io/fossa/errors/fossa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fossa-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/lifecycle/fossa-lifecycle.yml
+  href: https://artifacts.apis.io/fossa/lifecycle/fossa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fossa-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/changelog/fossa-changelog.yml
+  href: https://artifacts.apis.io/fossa/changelog/fossa-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fossa-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/conventions/fossa-conventions.yml
+  href: https://artifacts.apis.io/fossa/conventions/fossa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fossa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/conformance/fossa-conformance.yml
+  href: https://artifacts.apis.io/fossa/conformance/fossa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fossa-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/data-model/fossa-data-model.yml
+  href: https://artifacts.apis.io/fossa/data-model/fossa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fossa-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/asyncapi/fossa-webhooks.yml
+  href: https://artifacts.apis.io/fossa/asyncapi/fossa-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fossa-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/mcp/fossa-mcp.yml
+  href: https://artifacts.apis.io/fossa/mcp/fossa-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fossa-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/security/fossa-domain-security.yml
+  href: https://artifacts.apis.io/fossa/security/fossa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fossa-domain-security.yml
 created: '2026-07-17'
 description: FOSSA is a software supply chain security and open source management platform that scans codebases, containers, and binaries to detect open source dependencies, then enforces open source license compliance, vulnerability management, and SBOM (CycloneDX/SPDX) obligations across the software development lifecycle. FOSSA exposes a REST API at app.fossa.com/api plus the language-agnostic FOSSA CLI, integrating with 20+ build systems and CI/CD to surface licensing, security, and quality issues, generate attribution and audit reports, and gate pull requests on policy violations. Backed by Bain Capital Ventures and Norwest Venture Partners.
+finops:
+- has_sources: true
+  method: derived
+  name: Fossa Finops
+  primary_unit: project
+  service_category: ''
+  slug: fossa-finops
+  template: false
 image: https://fossa.com/favicon.png
 layout: provider
 modified: '2026-10-06'
@@ -199,27 +214,31 @@ overview: 'Fossa is listed with 1 API on the [APIs.io](https://apis.io/) network
   The Fossa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fossa''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 24 more developer resources.'
+  Fossa''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 25 more developer resources.'
+plans:
+- name: Fossa Plans Pricing
+  plan_count: 5
+  slug: fossa-plans-pricing
 random_paper: 12
 score:
-  band: developing
-  composite: 49.7
+  band: strong
+  composite: 60.8
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 47.4
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 66.7
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 49.6
+    developer_ergonomics: 71.4
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 52.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -229,14 +248,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fossa/refs/heads/main/screenshots/fossa-2026-07-25T215032.png
+screenshot: https://apis.io/screenshots/fossa/fossa-2026-07-25T215032.png
 security:
 - kind: authentication
   name: Fossa Authentication

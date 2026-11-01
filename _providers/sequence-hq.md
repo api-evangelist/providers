@@ -13,7 +13,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 37.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -76,11 +77,8 @@ apis:
   description: Usage event ingestion, usage metrics, and seats.
   name: Sequence Usage API
   slug: sequence-hq-usage-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sequence Billing Schedules API
   slug: open-sequence-hq-billing-schedules-api
@@ -104,22 +102,22 @@ collections:
   slug: open-sequence-hq
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/capabilities/sequence-hq-capability-edges.yml
+  href: https://artifacts.apis.io/sequence-hq/capabilities/sequence-hq-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sequence-hq-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/agentic-access/sequence-hq-agentic-access.yml
+  href: https://artifacts.apis.io/sequence-hq/agentic-access/sequence-hq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sequence-hq-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/security/sequence-hq-domain-security.yml
+  href: https://artifacts.apis.io/sequence-hq/security/sequence-hq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sequence-hq-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/authentication/sequence-hq-authentication.yml
+  href: https://artifacts.apis.io/sequence-hq/authentication/sequence-hq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sequence-hq-authentication.yml
@@ -140,17 +138,17 @@ common:
   type: Documentation
   url: https://docs.sequencehq.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/plans/sequence-hq-plans-pricing.yml
+  href: https://artifacts.apis.io/sequence-hq/plans/sequence-hq-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sequence-hq-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/rate-limits/sequence-hq-rate-limits.yml
+  href: https://artifacts.apis.io/sequence-hq/rate-limits/sequence-hq-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sequence-hq-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/finops/sequence-hq-finops.yml
+  href: https://artifacts.apis.io/sequence-hq/finops/sequence-hq-finops.yml
   title: ''
   type: FinOps
   url: finops/sequence-hq-finops.yml
@@ -186,30 +184,30 @@ plans:
 - name: Sequence Hq Plans Pricing
   plan_count: 3
   slug: sequence-hq-plans-pricing
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Sequence Hq Rate Limits
   slug: sequence-hq-rate-limits
 score:
   band: emerging
-  composite: 14.7
+  composite: 15.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 32.1
-    discoverability: 68.3
-    operational_transparency: 7.9
-  previous_composite: 22.0
+    discoverability: 66.1
+    operational_transparency: 10.5
+  previous_composite: 15.5
   provenance:
     agentic_access: derived
     contracts:
@@ -224,13 +222,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/screenshots/sequence-hq-2026-09-02T154939.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sequence-hq/sequence-hq-2026-09-02T154939.png
 security:
 - kind: authentication
   name: Sequence Hq Authentication

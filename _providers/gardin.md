@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'Asynchronous bulk data API for downloading chlorophyll-fluorescence (ChF) and Gardin-indices data. Submit a query, poll its status, then download the result set as CSV. Supports control-area, device, '
@@ -96,72 +98,72 @@ common:
   type: PrivacyPolicy
   url: https://gardin.ag/documents/GardinPrivacyNotice.pdf
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/authentication/gardin-authentication.yml
+  href: https://artifacts.apis.io/gardin/authentication/gardin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gardin-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/scopes/gardin-scopes.yml
+  href: https://artifacts.apis.io/gardin/scopes/gardin-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gardin-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/conventions/gardin-conventions.yml
+  href: https://artifacts.apis.io/gardin/conventions/gardin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gardin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/errors/gardin-problem-types.yml
+  href: https://artifacts.apis.io/gardin/errors/gardin-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gardin-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/lifecycle/gardin-lifecycle.yml
+  href: https://artifacts.apis.io/gardin/lifecycle/gardin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gardin-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/changelog/gardin-changelog.yml
+  href: https://artifacts.apis.io/gardin/changelog/gardin-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gardin-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/asyncapi/gardin-notification-webhooks.yml
+  href: https://artifacts.apis.io/gardin/asyncapi/gardin-notification-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/gardin-notification-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/packages/gardin-packages.yml
+  href: https://artifacts.apis.io/gardin/packages/gardin-packages.yml
   title: ''
   type: Packages
   url: packages/gardin-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/mcp/gardin-mcp.yml
+  href: https://artifacts.apis.io/gardin/mcp/gardin-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gardin-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/llms/gardin-llms.txt
+  href: https://artifacts.apis.io/gardin/llms/gardin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gardin-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/well-known/gardin-well-known.yml
+  href: https://artifacts.apis.io/gardin/well-known/gardin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gardin-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/security/gardin-domain-security.yml
+  href: https://artifacts.apis.io/gardin/security/gardin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gardin-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/conformance/gardin-conformance.yml
+  href: https://artifacts.apis.io/gardin/conformance/gardin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gardin-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/data-model/gardin-data-model.yml
+  href: https://artifacts.apis.io/gardin/data-model/gardin-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gardin-data-model.yml
@@ -180,7 +182,7 @@ overview: 'Gardin is listed with 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Gardin''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 13
+random_paper: 5
 scopes:
 - name: Gardin Scopes
   scope_count: 11
@@ -188,7 +190,7 @@ scopes:
   summary_line: 11 scopes
 score:
   band: developing
-  composite: 40.4
+  composite: 41.0
   coverage:
     artifact_dirs: 17
     catalog_earned: 40.0
@@ -202,14 +204,14 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 78.6
-    operational_transparency: 34.2
+    discoverability: 71.4
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 40.4
+  previous_composite: 41.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -219,14 +221,14 @@ score:
     regime: Health
     regime_id: health
     score: 29.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/gardin/refs/heads/main/screenshots/gardin-2026-07-25T215444.png
+screenshot: https://apis.io/screenshots/gardin/gardin-2026-07-25T215444.png
 security:
 - kind: authentication
   name: Gardin Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,19 +34,33 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  href: https://artifacts.apis.io/raytheon/hosts/raytheon-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/raytheon-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/raytheon/vendors/raytheon-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/raytheon-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.rtx.com/news
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.rtx.com/raytheon/who-we-are/leadership
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/raytheon/refs/heads/main/security/raytheon-domain-security.yml
+  href: https://artifacts.apis.io/raytheon/security/raytheon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/raytheon-domain-security.yml
-- group: build
-  title: ''
-  type: GitHubOrganization
-  url: https://github.com/Raytheon
 - group: company
   title: ''
   type: LinkedIn
@@ -53,6 +69,14 @@ common:
   title: ''
   type: Website
   url: https://www.rtx.com/raytheon
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.rtx.com/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.rtx.com/terms-of-use
 - group: other
   title: ''
   type: ParentOrganization
@@ -65,6 +89,18 @@ common:
   title: ''
   type: Blog
   url: https://www.rtx.com/raytheon/rss-feeds/news
+coverage:
+  checked: '2026-10-20'
+  detail: Raytheon's site on www.rtx.com/raytheon serves only corporate pages (leadership, news, privacy, terms); api.rtx.com does not resolve, no contract, MCP or agent card answered on any RTX host, and the github.com/Raytheon org has zero public repos and no ownership evidence.
+  evidence:
+  - status: 200
+    url: https://www.rtx.com/raytheon
+  - status: 0
+    url: https://api.rtx.com/openapi.json
+  - status: 404
+    url: https://www.rtx.com/.well-known/security.txt
+  reason: no-developer-program
+  state: none
 created: '2026-04-28'
 description: Raytheon is an American aerospace and defense manufacturer operating as a business of RTX Corporation, the world's largest aerospace and defense company. Raytheon designs, develops, and produces advanced defense systems including precision weapons, air and missile defense systems, sensors, radar, electronic warfare, command-and-control solutions, and cyber capabilities for the U.S. military and allied governments worldwide. Key products include the Patriot missile defense system, StormBreaker smart weapons, RAIVEN electro-optical/infrared sensor suites, and advanced electronic attack systems. Raytheon also develops world-class logistics software through the EAGLE team supporting production management, technical manual development, and product support data. No public developer API or machine-readable specification is available at this time; Raytheon's software solutions are deployed within government program contracts.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raytheon.png
@@ -76,7 +112,7 @@ network: true
 overview: 'Raytheon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Command and Control, Cybersecurity, Defense, and Electronic Warfare.
 
 
-  Raytheon''s developer surface includes engineering blog and 6 more developer resources.'
+  Raytheon''s developer surface includes engineering blog and 11 more developer resources.'
 press:
 - date: ''
   title: Raytheon Intelligence & Space and C3.ai Form Alliance to ...
@@ -93,45 +129,45 @@ press:
 - date: ''
   title: RTX's Raytheon demonstrates first-ever AI/ML-powered ...
   url: https://www.rtx.com/news/news-center/2025/02/24/rtxs-raytheon-demonstrates-first-ever-ai-ml-powered-radar-warning-receiver-for-4
-random_paper: 16
+random_paper: 10
 score:
   band: minimal
-  composite: 4.5
+  composite: 9.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 48.2
-    operational_transparency: 2.6
+    discoverability: 51.8
+    operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 4.6
+  previous_composite: 9.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 13.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/raytheon/refs/heads/main/screenshots/raytheon-2026-06-20T192618.png
+screenshot: https://apis.io/screenshots/raytheon/raytheon-2026-06-20T192618.png
 security:
 - kind: domain-security
   name: Raytheon Domain Security

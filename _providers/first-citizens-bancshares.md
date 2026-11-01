@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - description: The Authorization API issues OAuth2 access tokens for the SVB commercial banking platform (now part of First Citizens). Partners exchange client credentials at /v1/security/oauth/token for a bearer to
@@ -82,7 +84,7 @@ common:
   type: Signup
   url: https://digitalbanking.firstcitizens.com/FCBTC_AutoEnroll/SignUp.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/security/first-citizens-bancshares-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/first-citizens-bancshares/security/first-citizens-bancshares-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/first-citizens-bancshares-vulnerability-disclosure.yml
@@ -91,22 +93,22 @@ common:
   type: Security
   url: https://firstcitizensbank.responsibledisclosure.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/security/first-citizens-bancshares-domain-security.yml
+  href: https://artifacts.apis.io/first-citizens-bancshares/security/first-citizens-bancshares-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/first-citizens-bancshares-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/authentication/first-citizens-bancshares-authentication.yml
+  href: https://artifacts.apis.io/first-citizens-bancshares/authentication/first-citizens-bancshares-authentication.yml
   title: ''
   type: Authentication
   url: authentication/first-citizens-bancshares-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/asyncapi/first-citizens-bancshares-webhooks.yml
+  href: https://artifacts.apis.io/first-citizens-bancshares/asyncapi/first-citizens-bancshares-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/first-citizens-bancshares-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/lifecycle/first-citizens-bancshares-lifecycle.yml
+  href: https://artifacts.apis.io/first-citizens-bancshares/lifecycle/first-citizens-bancshares-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/first-citizens-bancshares-lifecycle.yml
@@ -115,32 +117,32 @@ common:
   type: DeprecationPolicy
   url: https://developer.svb.com/apis/commercial-banking-apis/ach-transfers/2.1/ach-transfers-v2-migration-guide
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/sandbox/first-citizens-bancshares-sandbox.yml
+  href: https://artifacts.apis.io/first-citizens-bancshares/sandbox/first-citizens-bancshares-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/first-citizens-bancshares-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/conventions/first-citizens-bancshares-conventions.yml
+  href: https://artifacts.apis.io/first-citizens-bancshares/conventions/first-citizens-bancshares-conventions.yml
   title: ''
   type: Conventions
   url: conventions/first-citizens-bancshares-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/conformance/first-citizens-bancshares-conformance.yml
+  href: https://artifacts.apis.io/first-citizens-bancshares/conformance/first-citizens-bancshares-conformance.yml
   title: ''
   type: Conformance
   url: conformance/first-citizens-bancshares-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/well-known/first-citizens-bancshares-well-known.yml
+  href: https://artifacts.apis.io/first-citizens-bancshares/well-known/first-citizens-bancshares-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/first-citizens-bancshares-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/well-known/first-citizens-bancshares-security.txt
+  href: https://artifacts.apis.io/first-citizens-bancshares/well-known/first-citizens-bancshares-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/first-citizens-bancshares-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/llms/first-citizens-bancshares-llms.txt
+  href: https://artifacts.apis.io/first-citizens-bancshares/llms/first-citizens-bancshares-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/first-citizens-bancshares-llms.txt
@@ -191,10 +193,10 @@ overview: 'First Citizens BancShares is listed with 10 APIs on the [APIs.io](htt
 
 
   First Citizens BancShares'' developer surface includes engineering blog, signup flow, authentication, sandbox, documentation, support, and 17 more developer resources.'
-random_paper: 13
+random_paper: 21
 score:
-  band: thin
-  composite: 33.6
+  band: developing
+  composite: 39.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 40.0
@@ -207,9 +209,9 @@ score:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 21.4
-    discoverability: 78.6
-    operational_transparency: 28.9
+    developer_ergonomics: 52.4
+    discoverability: 71.4
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -217,7 +219,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 33.6
+  previous_composite: 39.5
   provenance:
     conformance: derived
   regulatory:
@@ -226,14 +228,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/screenshots/first-citizens-bancshares-2026-06-20T181238.png
+screenshot: https://apis.io/screenshots/first-citizens-bancshares/first-citizens-bancshares-2026-06-20T181238.png
 security:
 - kind: authentication
   name: First Citizens Bancshares Authentication

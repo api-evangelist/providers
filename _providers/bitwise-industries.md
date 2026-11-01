@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,22 +25,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitwise-industries/refs/heads/main/hosts/bitwise-industries-hosts.yml
+  href: https://artifacts.apis.io/bitwise-industries/hosts/bitwise-industries-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bitwise-industries-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitwise-industries/refs/heads/main/vendors/bitwise-industries-vendors.yml
+  href: https://artifacts.apis.io/bitwise-industries/vendors/bitwise-industries-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bitwise-industries-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitwise-industries/refs/heads/main/security/bitwise-industries-domain-security.yml
+  href: https://artifacts.apis.io/bitwise-industries/security/bitwise-industries-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitwise-industries-domain-security.yml
@@ -54,7 +56,7 @@ name: Bitwise Industries
 nav: Providers
 network: true
 overview: Bitwise Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Technology, Education, Real Estate, Fresno, and Startups.
-random_paper: 10
+random_paper: 6
 score:
   band: minimal
   composite: 2.6
@@ -78,12 +80,6 @@ score:
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
   previous_composite: 2.6
   regulatory:
     applies: true
@@ -91,8 +87,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

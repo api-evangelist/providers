@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Manage charging stations and charge points (EVSE) - registration, status, health, and availability - within the EV Connect charge point management platform. Endpoints and base URL are not publicly doc
@@ -54,22 +56,19 @@ apis:
 - description: Event notifications for charging lifecycle changes (e.g., session start, stop, and station status). EV Connect markets event-driven integrations, but no public webhook event catalog or payloads are do
   name: EV Connect Webhooks
   slug: webhooks
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: EV Connect API Platform
   slug: open-ev-connect
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/security/ev-connect-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ev-connect/security/ev-connect-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ev-connect-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/security/ev-connect-domain-security.yml
+  href: https://artifacts.apis.io/ev-connect/security/ev-connect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ev-connect-domain-security.yml
@@ -90,17 +89,17 @@ common:
   type: Documentation
   url: https://www.evconnect.com/platform/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/plans/ev-connect-plans-pricing.yml
+  href: https://artifacts.apis.io/ev-connect/plans/ev-connect-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ev-connect-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/rate-limits/ev-connect-rate-limits.yml
+  href: https://artifacts.apis.io/ev-connect/rate-limits/ev-connect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ev-connect-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/finops/ev-connect-finops.yml
+  href: https://artifacts.apis.io/ev-connect/finops/ev-connect-finops.yml
   title: ''
   type: FinOps
   url: finops/ev-connect-finops.yml
@@ -132,14 +131,14 @@ plans:
 - name: Ev Connect Plans Pricing
   plan_count: 1
   slug: ev-connect-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Ev Connect Rate Limits
   slug: ev-connect-rate-limits
 score:
   band: emerging
-  composite: 16.4
+  composite: 19.7
   coverage:
     artifact_dirs: 10
     catalog_earned: 36.0
@@ -147,29 +146,29 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
-    contract_quality: 23.3
+    contract_quality: 29.7
     developer_ergonomics: 16.2
     discoverability: 57.1
-    operational_transparency: 7.9
-  previous_composite: 22.4
+    operational_transparency: 21.1
+  previous_composite: 19.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/screenshots/ev-connect-2026-07-25T213703.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ev-connect/ev-connect-2026-07-25T213703.png
 security:
 - kind: domain-security
   name: Ev Connect Domain Security

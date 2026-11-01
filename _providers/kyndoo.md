@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,12 +43,12 @@ common:
   type: Website
   url: https://kyndoo.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kyndoo/refs/heads/main/lifecycle/kyndoo-lifecycle.yml
+  href: https://artifacts.apis.io/kyndoo/lifecycle/kyndoo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kyndoo-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kyndoo/refs/heads/main/security/kyndoo-domain-security.yml
+  href: https://artifacts.apis.io/kyndoo/security/kyndoo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kyndoo-domain-security.yml
@@ -90,12 +92,12 @@ overview: 'Kyndoo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kyndoo''s developer surface includes YouTube channel and 9 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: minimal
   composite: 3.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -116,8 +118,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

@@ -16,7 +16,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 51.9
-  scored_at: '2026-10-17'
+  score: 45.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 8
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 168
   slug: talend-agentic-access
   summary_line: 168 operations · 92 acting · 8 human-in-the-loop
-api_count: 17
+api_count: 16
 apis:
 - description: Manages user, group, and role identity information for Talend Cloud accounts. Supports SCIM v2 for automated provisioning from enterprise identity providers.
   name: Talend Cloud Identities Management API
@@ -259,11 +261,8 @@ apis:
   description: 'The workspaces :: permissions API from Talend — 3 operation(s) for workspaces :: permissions.'
   name: 'Talend workspaces :: permissions API'
   slug: talend-workspaces-permissions-api
-artifact_total: 108
+artifact_total: 110
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Talend Cloud Orchestration Artifacts API
   slug: open-talend-artifacts-api
@@ -314,107 +313,107 @@ collections:
   slug: open-talend-workspaces-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/capabilities/talend-capability-edges.yml
+  href: https://artifacts.apis.io/talend/capabilities/talend-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/talend-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/finops/talend-finops.yml
+  href: https://artifacts.apis.io/talend/finops/talend-finops.yml
   title: ''
   type: FinOps
   url: finops/talend-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/rate-limits/talend-rate-limits.yml
+  href: https://artifacts.apis.io/talend/rate-limits/talend-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/talend-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/plans/talend-plans-pricing.yml
+  href: https://artifacts.apis.io/talend/plans/talend-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/talend-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/rules/talend-rules.yml
+  href: https://artifacts.apis.io/talend/rules/talend-rules.yml
   title: ''
   type: Spectral
   url: rules/talend-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/rules/talend-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/talend/rules/talend-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/talend-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/rules/talend-api-rules.yml
+  href: https://artifacts.apis.io/talend/rules/talend-api-rules.yml
   title: ''
   type: Spectral
   url: rules/talend-api-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/json-ld/talend-context.jsonld
+  href: https://artifacts.apis.io/talend/json-ld/talend-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/talend-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/vocabulary/talend-vocabulary.yml
+  href: https://artifacts.apis.io/talend/vocabulary/talend-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/talend-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/talend/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/data-model/talend-data-model.yml
+  href: https://artifacts.apis.io/talend/data-model/talend-data-model.yml
   title: ''
   type: DataModel
   url: data-model/talend-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/errors/talend-problem-types.yml
+  href: https://artifacts.apis.io/talend/errors/talend-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/talend-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/conformance/talend-conformance.yml
+  href: https://artifacts.apis.io/talend/conformance/talend-conformance.yml
   title: ''
   type: Conformance
   url: conformance/talend-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/llms/talend-llms.txt
+  href: https://artifacts.apis.io/talend/llms/talend-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/talend-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/a2a/talend-a2a.yml
+  href: https://artifacts.apis.io/talend/a2a/talend-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/talend-a2a.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/well-known/talend-apis-security.txt
+  href: https://artifacts.apis.io/talend/well-known/talend-apis-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/talend-apis-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/well-known/talend-well-known.yml
+  href: https://artifacts.apis.io/talend/well-known/talend-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/talend-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/hosts/talend-hosts.yml
+  href: https://artifacts.apis.io/talend/hosts/talend-hosts.yml
   title: ''
   type: Hosts
   url: hosts/talend-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/vendors/talend-vendors.yml
+  href: https://artifacts.apis.io/talend/vendors/talend-vendors.yml
   title: ''
   type: Vendors
   url: vendors/talend-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/packages/talend-packages.yml
+  href: https://artifacts.apis.io/talend/packages/talend-packages.yml
   title: ''
   type: SDKs
   url: packages/talend-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/packages/talend-packages.yml
+  href: https://artifacts.apis.io/talend/packages/talend-packages.yml
   title: ''
   type: Packages
   url: packages/talend-packages.yml
@@ -459,17 +458,17 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/qlik/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/agentic-access/talend-agentic-access.yml
+  href: https://artifacts.apis.io/talend/agentic-access/talend-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/talend-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/security/talend-domain-security.yml
+  href: https://artifacts.apis.io/talend/security/talend-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/talend-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/authentication/talend-authentication.yml
+  href: https://artifacts.apis.io/talend/authentication/talend-authentication.yml
   title: ''
   type: Authentication
   url: authentication/talend-authentication.yml
@@ -525,12 +524,12 @@ examples:
   slug: talend-execute-task-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Talend Finops
   primary_unit: ''
-  service_category: Data Integration
+  service_category: ''
   slug: talend-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/talend.png
 json_schemas:
 - name: Artifact
@@ -661,9 +660,9 @@ overview: 'Talend publishes 44 API contracts indexed on the [APIs.io](https://ap
   Talend''s developer surface includes support, pricing, engineering blog, authentication, developer portal, documentation, getting-started guide, and 38 more developer resources.'
 plans:
 - name: Talend Plans Pricing
-  plan_count: 1
+  plan_count: 4
   slug: talend-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Talend Rate Limits
@@ -706,23 +705,28 @@ rules:
   slug: talend-rules
 score:
   band: strong
-  composite: 57.2
+  composite: 56.6
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 69.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 45.3
+    artifact_dirs: 31
+    catalog_earned: 79.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 35.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 2.1
   facets:
-    access_clarity: 44.7
+    access_clarity: 71.1
     contract_governance: 22.0
-    contract_quality: 65.8
+    contract_quality: 62.4
     developer_ergonomics: 58.9
-    discoverability: 82.1
+    discoverability: 75.0
     operational_transparency: 21.1
-  previous_composite: 64.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -739,13 +743,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/screenshots/talend-2026-06-20T194901.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/talend/talend-2026-06-20T194901.png
 security:
 - kind: authentication
   name: Talend Authentication
@@ -755,6 +760,14 @@ security:
   name: Talend Domain Security
   slug: talend-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: talend-execute-and-monitor-task
+  slug: talend-execute-and-monitor-task
+- name: talend-list-and-get-task
+  slug: talend-list-and-get-task
+- name: talend-manage-plan-lifecycle
+  slug: talend-manage-plan-lifecycle
 slug: talend
 tags:
 - API Management

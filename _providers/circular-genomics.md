@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,17 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/circular-genomics/refs/heads/main/security/circular-genomics-domain-security.yml
+  href: https://artifacts.apis.io/circular-genomics/security/circular-genomics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/circular-genomics-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/circular-genomics/refs/heads/main/llms/circular-genomics-llms.txt
+  href: https://artifacts.apis.io/circular-genomics/llms/circular-genomics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/circular-genomics-llms.txt
@@ -142,7 +144,7 @@ overview: 'Circular Genomics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Circular Genomics'' developer surface includes engineering blog and 17 more developer resources.'
-random_paper: 13
+random_paper: 23
 score:
   band: minimal
   composite: 9.3
@@ -168,14 +170,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/circular-genomics/refs/heads/main/screenshots/circular-genomics-2026-09-02T145040.png
+screenshot: https://apis.io/screenshots/circular-genomics/circular-genomics-2026-09-02T145040.png
 security:
 - kind: domain-security
   name: Circular Genomics Domain Security

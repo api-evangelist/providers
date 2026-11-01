@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.5
-  scored_at: '2026-10-17'
+  score: 39.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'First-party hosted Model Context Protocol server that exposes the same ad index to AI assistants (Claude, Codex, Cursor, Gemini). Streamable HTTP at https://api.adsmom.com/mcp, protected by OAuth 2.0 '
@@ -110,10 +112,10 @@ apis:
   description: The Insights · TikTok Organic API from Adsmom Inc. — 4 operation(s) for insights · tiktok organic.
   name: Adsmom Inc. Insights · TikTok Organic API
   slug: adsmom-inc-insights-tiktok-organic-api
-artifact_total: 21
+artifact_total: 27
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/capabilities/adsmom-inc-capability-edges.yml
+  href: https://artifacts.apis.io/adsmom-inc/capabilities/adsmom-inc-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/adsmom-inc-capability-edges.yml
@@ -130,82 +132,82 @@ common:
   type: APIReference
   url: https://adsmom.com/product/api
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/_original/adsmom-inc-openapi.json
+  href: https://artifacts.apis.io/adsmom-inc/openapi/_original/adsmom-inc-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/adsmom-inc-openapi.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/mcp/adsmom-inc-mcp.yml
+  href: https://artifacts.apis.io/adsmom-inc/mcp/adsmom-inc-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/adsmom-inc-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/mcp/adsmom-inc-tool-crosswalk.yml
+  href: https://artifacts.apis.io/adsmom-inc/mcp/adsmom-inc-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/adsmom-inc-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/well-known/adsmom-inc-well-known.yml
+  href: https://artifacts.apis.io/adsmom-inc/well-known/adsmom-inc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adsmom-inc-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/authentication/adsmom-inc-authentication.yml
+  href: https://artifacts.apis.io/adsmom-inc/authentication/adsmom-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adsmom-inc-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/scopes/adsmom-inc-scopes.yml
+  href: https://artifacts.apis.io/adsmom-inc/scopes/adsmom-inc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/adsmom-inc-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/errors/adsmom-inc-problem-types.yml
+  href: https://artifacts.apis.io/adsmom-inc/errors/adsmom-inc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adsmom-inc-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/conventions/adsmom-inc-conventions.yml
+  href: https://artifacts.apis.io/adsmom-inc/conventions/adsmom-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adsmom-inc-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/data-model/adsmom-inc-data-model.yml
+  href: https://artifacts.apis.io/adsmom-inc/data-model/adsmom-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adsmom-inc-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/rate-limits/adsmom-inc-rate-limits.yml
+  href: https://artifacts.apis.io/adsmom-inc/rate-limits/adsmom-inc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adsmom-inc-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/lifecycle/adsmom-inc-lifecycle.yml
+  href: https://artifacts.apis.io/adsmom-inc/lifecycle/adsmom-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adsmom-inc-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/conformance/adsmom-inc-conformance.yml
+  href: https://artifacts.apis.io/adsmom-inc/conformance/adsmom-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adsmom-inc-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/overlays/adsmom-inc-openapi-overlay.yaml
+  href: https://artifacts.apis.io/adsmom-inc/overlays/adsmom-inc-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/adsmom-inc-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/adsmom-inc/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/llms/adsmom-inc-llms.txt
+  href: https://artifacts.apis.io/adsmom-inc/llms/adsmom-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adsmom-inc-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/security/adsmom-inc-domain-security.yml
+  href: https://artifacts.apis.io/adsmom-inc/security/adsmom-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adsmom-inc-domain-security.yml
@@ -218,7 +220,7 @@ common:
   type: Pricing
   url: https://adsmom.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/plans/adsmom-inc-plans.yml
+  href: https://artifacts.apis.io/adsmom-inc/plans/adsmom-inc-plans.yml
   title: ''
   type: Plans
   url: plans/adsmom-inc-plans.yml
@@ -245,6 +247,14 @@ common:
 created: '2026-07-17'
 description: Adsmom (SIA Adsmom) is a Latvia-based AI-powered ad intelligence platform that indexes 200M+ ads from Meta, TikTok and Google, decodes them with AI, and gives brands, agencies and research teams a clear read on what competitors are running and what is actually working. The platform covers ad search across a competitor library, spend and creative-strategy insights, an AI chat analyst ("Sense"), real-time competitor alerts, and branded reporting. Adsmom exposes its ad index programmatically via both a hosted Model Context Protocol (MCP) server — for connecting AI assistants such as Claude, Codex, Cursor and Gemini — and a REST API for server-to-server pipelines, internal tools and scheduled jobs. API and MCP access are included on all paid tiers. The REST API publishes a public OpenAPI 3.0.0 description at api.adsmom.com covering 78 operations across four paid-ad platforms (Meta, TikTok, Google, LinkedIn) plus TikTok and Instagram organic accounts, grouped into Explore (ad search
   and hydration), Insights (tracked-advertiser management, AI summaries, weekly reports) and Analytics (reach, activity, share of voice, runtime, creative mix, targeting). Adsmom is a 500 Global portfolio company and raised ~$610K in early 2025.
+finops:
+- has_sources: true
+  method: derived
+  name: Adsmom Inc Finops
+  primary_unit: ''
+  service_category: ''
+  slug: adsmom-inc-finops
+  template: true
 image: https://adsmom.com/og-default.png
 layout: provider
 mcp_servers:
@@ -263,7 +273,10 @@ plans:
 - name: Adsmom Inc Plans
   plan_count: 3
   slug: adsmom-inc-plans
-random_paper: 10
+- name: Adsmom Inc Price Estimates
+  plan_count: 0
+  slug: adsmom-inc-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Adsmom Inc Rate Limits
@@ -275,23 +288,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 41.7
+  composite: 44.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 51.0
     catalog_earned_first_party: 12.0
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 63.2
+    access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 40.1
     developer_ergonomics: 32.7
-    discoverability: 75.0
-    operational_transparency: 7.9
-  previous_composite: 41.6
+    discoverability: 65.0
+    operational_transparency: 10.5
+  previous_composite: 44.4
   provenance:
     conformance: first-party
     contracts:
@@ -307,13 +320,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/screenshots/adsmom-inc-2026-07-25T181702.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/adsmom-inc/adsmom-inc-2026-07-25T181702.png
 security:
 - kind: authentication
   name: Adsmom Inc Authentication
@@ -323,6 +337,16 @@ security:
   name: Adsmom Inc Domain Security
   slug: adsmom-inc-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: Analyze TikTok creative strategy
+  slug: adsmom-inc-analyze-tiktok-creative-strategy
+- name: Pull a competitor's ads and their reach
+  slug: adsmom-inc-pull-a-competitors-ads-and-reach
+- name: Start tracking a competitor
+  slug: adsmom-inc-start-tracking-a-competitor
+- name: Build a weekly competitive briefing
+  slug: adsmom-inc-weekly-competitive-briefing
 slug: adsmom-inc
 tags:
 - Company

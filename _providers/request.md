@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,30 +36,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Accounts Payable and Receivable REST API for issuing invoices, accepting crypto and fiat payments, running payroll, and managing organizations and clients. JSON request and response bodies, Bearer
   name: Request Finance AP and AR API
   slug: request-finance-ap-and-ar-api
-artifact_total: 7
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Request Webhooks
   slug: request-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/request/plans/request-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/request-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/mcp/request-mcp.yml
+  href: https://artifacts.apis.io/request/mcp/request-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/request-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/security/request-trust-center.yml
+  href: https://artifacts.apis.io/request/security/request-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/request-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/security/request-domain-security.yml
+  href: https://artifacts.apis.io/request/security/request-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/request-domain-security.yml
@@ -82,7 +89,7 @@ common:
   type: GettingStarted
   url: https://docs.request.finance/getting-started
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/llms/request-llms.txt
+  href: https://artifacts.apis.io/request/llms/request-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/request-llms.txt
@@ -111,67 +118,75 @@ common:
   type: SignUp
   url: https://app.request.finance/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/request/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/asyncapi/request-webhooks.yml
+  href: https://artifacts.apis.io/request/asyncapi/request-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/request-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/authentication/request-authentication.yml
+  href: https://artifacts.apis.io/request/authentication/request-authentication.yml
   title: ''
   type: Authentication
   url: authentication/request-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/scopes/request-scopes.yml
+  href: https://artifacts.apis.io/request/scopes/request-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/request-scopes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/sandbox/request-sandbox.yml
+  href: https://artifacts.apis.io/request/sandbox/request-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/request-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/conventions/request-conventions.yml
+  href: https://artifacts.apis.io/request/conventions/request-conventions.yml
   title: ''
   type: Conventions
   url: conventions/request-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/lifecycle/request-lifecycle.yml
+  href: https://artifacts.apis.io/request/lifecycle/request-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/request-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/lifecycle/request-lifecycle.yml
+  href: https://artifacts.apis.io/request/lifecycle/request-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/request-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/conformance/request-conformance.yml
+  href: https://artifacts.apis.io/request/conformance/request-conformance.yml
   title: ''
   type: Conformance
   url: conformance/request-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/security/request-trust-center.yml
+  href: https://artifacts.apis.io/request/security/request-trust-center.yml
   title: ''
   type: Compliance
   url: security/request-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/data-model/request-data-model.yml
+  href: https://artifacts.apis.io/request/data-model/request-data-model.yml
   title: ''
   type: DataModel
   url: data-model/request-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/rate-limits/request-rate-limits.yml
+  href: https://artifacts.apis.io/request/rate-limits/request-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/request-rate-limits.yml
 created: '2026-07-17'
 description: Request Finance is a crypto and fiat invoicing, payments, and payroll platform that lets businesses issue invoices, accept payments in crypto and fiat, pay contractors and employees, and manage accounts payable and receivable. Its Accounts Payable and Receivable (AP/AR) REST API lets developers programmatically create and send invoices, run off-chain and on-chain payroll payments, track invoice status without polling blockchains or bank accounts, manage organizations and clients, and download invoice PDFs. Invoices are settled through the Request Network protocol across many EVM chains and stablecoins, with crypto-to-fiat settlement via banking partners. The API uses Bearer authentication (API keys for quick starts, OAuth 2.0 / OIDC via Auth0 for production), real-time webhooks with HMAC-signed payloads, and a Sepolia testnet sandbox. Request Finance is backed by Balderton Capital.
+finops:
+- has_sources: true
+  method: derived
+  name: Request Finops
+  primary_unit: top-up
+  service_category: ''
+  slug: request-finops
+  template: false
 image: https://www.request.finance/
 layout: provider
 modified: '2026-07-20'
@@ -184,8 +199,15 @@ overview: 'Request Finance is listed with 1 API on the [APIs.io](https://apis.io
   The Request Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Request Finance''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 20 more developer resources.'
-random_paper: 7
+  Request Finance''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 21 more developer resources.'
+plans:
+- name: Request Plans Pricing
+  plan_count: 8
+  slug: request-plans-pricing
+- name: Request Price Estimates
+  plan_count: 0
+  slug: request-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Request Rate Limits
@@ -196,24 +218,24 @@ scopes:
   slug: request-scopes
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 43.6
+  band: strong
+  composite: 56.2
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 18
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 15.8
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 56.5
-    discoverability: 73.2
-    operational_transparency: 65.8
-  previous_composite: 43.6
+    developer_ergonomics: 68.5
+    discoverability: 66.1
+    operational_transparency: 68.4
+  previous_composite: 48.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -224,14 +246,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/request/refs/heads/main/screenshots/request-2026-08-17T081526.png
+screenshot: https://apis.io/screenshots/request/request-2026-08-17T081526.png
 security:
 - kind: authentication
   name: Request Authentication
@@ -245,6 +267,12 @@ security:
   name: Request Trust Center
   slug: request-trust-center
   summary_line: SOC 2
+skill_count: 2
+skills:
+- name: Create and send a crypto/fiat invoice
+  slug: request-create-and-send-invoice
+- name: Run a payroll payment
+  slug: request-run-payroll-payment
 slug: request
 tags:
 - Company

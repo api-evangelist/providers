@@ -28,29 +28,31 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.1
-  scored_at: '2026-10-17'
+  score: 41.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API for open-source, frontier, and custom language models — chat completions, batch/async inference, function calling, structured outputs, and vision — authenticated with a
   name: Inference.net API
   slug: inferencenet-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Inference Webhooks
   slug: inference-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/security/inference-domain-security.yml
+  href: https://artifacts.apis.io/inference/security/inference-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inference-domain-security.yml
@@ -107,62 +109,70 @@ common:
   type: TrustCenter
   url: https://trust.inference.net
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/authentication/inference-authentication.yml
+  href: https://artifacts.apis.io/inference/authentication/inference-authentication.yml
   title: ''
   type: Authentication
   url: authentication/inference-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/rate-limits/inference-rate-limits.yml
+  href: https://artifacts.apis.io/inference/rate-limits/inference-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/inference-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/plans/inference-plans.yml
+  href: https://artifacts.apis.io/inference/plans/inference-plans.yml
   title: ''
   type: Plans
   url: plans/inference-plans.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/mcp/inference-mcp.yml
+  href: https://artifacts.apis.io/inference/mcp/inference-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/inference-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/cli/inference-cli.yml
+  href: https://artifacts.apis.io/inference/cli/inference-cli.yml
   title: ''
   type: CLI
   url: cli/inference-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/packages/inference-packages.yml
+  href: https://artifacts.apis.io/inference/packages/inference-packages.yml
   title: ''
   type: Packages
   url: packages/inference-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/conventions/inference-conventions.yml
+  href: https://artifacts.apis.io/inference/conventions/inference-conventions.yml
   title: ''
   type: Conventions
   url: conventions/inference-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/lifecycle/inference-lifecycle.yml
+  href: https://artifacts.apis.io/inference/lifecycle/inference-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/inference-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/asyncapi/inference-webhooks.yml
+  href: https://artifacts.apis.io/inference/asyncapi/inference-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/inference-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/conformance/inference-conformance.yml
+  href: https://artifacts.apis.io/inference/conformance/inference-conformance.yml
   title: ''
   type: Conformance
   url: conformance/inference-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/llms/inference-llms.txt
+  href: https://artifacts.apis.io/inference/llms/inference-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/inference-llms.txt
 created: '2026-07-17'
 description: Inference (inference.net) is an AI infrastructure platform for AI-native teams. It offers an OpenAI-compatible inference API for open-source, frontier, and custom fine-tuned language models, alongside Catalyst — its observability, tracing, evaluation, training, and deployment platform. Developers call chat completions, batch/async inference, function calling, structured outputs, and vision endpoints at https://api.inference.net/v1 using a Bearer API key; route and monitor traffic through the Catalyst Gateway; fine-tune and deploy custom models; and optimize agents end to end with HALO. The platform ships a first-party CLI (inf), a hosted MCP server, and webhooks for asynchronous inference. Backed by Multicoin Capital.
+finops:
+- has_sources: true
+  method: derived
+  name: Inference Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: inference-finops
+  template: false
 image: https://inference.net/og/home.png
 layout: provider
 mcp_servers:
@@ -184,30 +194,33 @@ plans:
 - name: Inference Plans
   plan_count: 3
   slug: inference-plans
-random_paper: 19
+- name: Inference Price Estimates
+  plan_count: 0
+  slug: inference-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Inference Rate Limits
   slug: inference-rate-limits
 score:
   band: strong
-  composite: 54.4
+  composite: 56.4
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 61.0
+    artifact_dirs: 18
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 80.3
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 59.5
-    discoverability: 75.0
-    operational_transparency: 42.1
-  previous_composite: 54.3
+    discoverability: 65.0
+    operational_transparency: 44.7
+  previous_composite: 54.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -216,15 +229,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/inference/refs/heads/main/screenshots/inference-2026-07-25T222358.png
+screenshot: https://apis.io/screenshots/inference/inference-2026-07-25T222358.png
 security:
 - kind: authentication
   name: Inference Authentication

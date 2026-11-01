@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 10.8
-  scored_at: '2026-10-17'
+  score: 14.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the Bakuraku (バクラク) back-office suite. Publicly documented capabilities are retrieval and list-search of applications/requests (申請), download of attached files, creation of applications f
@@ -109,67 +111,67 @@ common:
   type: TrustCenter
   url: https://bakuraku.jp/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/layerx/refs/heads/main/conformance/layerx-conformance.yml
+  href: https://artifacts.apis.io/layerx/conformance/layerx-conformance.yml
   title: ''
   type: Compliance
   url: conformance/layerx-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/layerx/refs/heads/main/conformance/layerx-conformance.yml
+  href: https://artifacts.apis.io/layerx/conformance/layerx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/layerx-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/layerx/refs/heads/main/security/layerx-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/layerx/security/layerx-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/layerx-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/layerx/refs/heads/main/security/layerx-domain-security.yml
+  href: https://artifacts.apis.io/layerx/security/layerx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/layerx-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/layerx/refs/heads/main/authentication/layerx-authentication.yml
+  href: https://artifacts.apis.io/layerx/authentication/layerx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/layerx-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/layerx/refs/heads/main/conventions/layerx-conventions.yml
+  href: https://artifacts.apis.io/layerx/conventions/layerx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/layerx-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/layerx/refs/heads/main/errors/layerx-error-codes.yml
+  href: https://artifacts.apis.io/layerx/errors/layerx-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/layerx-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/layerx/refs/heads/main/lifecycle/layerx-lifecycle.yml
+  href: https://artifacts.apis.io/layerx/lifecycle/layerx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/layerx-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/layerx/refs/heads/main/rate-limits/layerx-rate-limits.yml
+  href: https://artifacts.apis.io/layerx/rate-limits/layerx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/layerx-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/layerx/refs/heads/main/plans/layerx-plans-pricing.yml
+  href: https://artifacts.apis.io/layerx/plans/layerx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/layerx-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/layerx/refs/heads/main/changelog/layerx-changelog.yml
+  href: https://artifacts.apis.io/layerx/changelog/layerx-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/layerx-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/layerx/refs/heads/main/packages/layerx-packages.yml
+  href: https://artifacts.apis.io/layerx/packages/layerx-packages.yml
   title: ''
   type: Packages
   url: packages/layerx-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/layerx/refs/heads/main/llms/layerx-llms.txt
+  href: https://artifacts.apis.io/layerx/llms/layerx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/layerx-llms.txt
@@ -204,14 +206,14 @@ plans:
 - name: Layerx Plans Pricing
   plan_count: 0
   slug: layerx-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Layerx Rate Limits
   slug: layerx-rate-limits
 score:
   band: thin
-  composite: 35.2
+  composite: 38.2
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -221,12 +223,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 41.7
-    discoverability: 73.2
-    operational_transparency: 44.7
+    developer_ergonomics: 45.2
+    discoverability: 66.1
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -234,7 +236,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 35.2
+  previous_composite: 38.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -244,14 +246,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/layerx/refs/heads/main/screenshots/layerx-2026-09-02T150224.png
+screenshot: https://apis.io/screenshots/layerx/layerx-2026-09-02T150224.png
 security:
 - kind: authentication
   name: Layerx Authentication

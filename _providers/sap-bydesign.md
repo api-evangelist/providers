@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -93,11 +95,8 @@ apis:
   description: Manage inbound and outbound deliveries, goods receipts, goods issues, and production orders.
   name: SAP Business ByDesign Supply Chain API
   slug: sap-bydesign-supply-chain-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SAP Business ByDesign OData Analytics API
   slug: open-sap-bydesign-analytics-api
@@ -124,7 +123,7 @@ collections:
   slug: open-sap-bydesign-supply-chain-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/capabilities/sap-bydesign-capability-edges.yml
+  href: https://artifacts.apis.io/sap-bydesign/capabilities/sap-bydesign-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sap-bydesign-capability-edges.yml
@@ -133,27 +132,27 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/sap/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/agentic-access/sap-bydesign-agentic-access.yml
+  href: https://artifacts.apis.io/sap-bydesign/agentic-access/sap-bydesign-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sap-bydesign-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/security/sap-bydesign-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sap-bydesign/security/sap-bydesign-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sap-bydesign-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/security/sap-bydesign-domain-security.yml
+  href: https://artifacts.apis.io/sap-bydesign/security/sap-bydesign-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sap-bydesign-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/authentication/sap-bydesign-authentication.yml
+  href: https://artifacts.apis.io/sap-bydesign/authentication/sap-bydesign-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sap-bydesign-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/scopes/sap-bydesign-scopes.yml
+  href: https://artifacts.apis.io/sap-bydesign/scopes/sap-bydesign-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sap-bydesign-scopes.yml
@@ -190,17 +189,17 @@ common:
   type: X
   url: https://x.com/SAP
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/plans/sap-bydesign-plans-pricing.yml
+  href: https://artifacts.apis.io/sap-bydesign/plans/sap-bydesign-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sap-bydesign-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/rate-limits/sap-bydesign-rate-limits.yml
+  href: https://artifacts.apis.io/sap-bydesign/rate-limits/sap-bydesign-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sap-bydesign-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/finops/sap-bydesign-finops.yml
+  href: https://artifacts.apis.io/sap-bydesign/finops/sap-bydesign-finops.yml
   title: ''
   type: FinOps
   url: finops/sap-bydesign-finops.yml
@@ -236,7 +235,7 @@ plans:
 - name: Sap Bydesign Plans Pricing
   plan_count: 4
   slug: sap-bydesign-plans-pricing
-random_paper: 12
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Sap Bydesign Rate Limits
@@ -248,7 +247,7 @@ scopes:
   summary_line: 1 scope · clientCredentials/saml2Bearer
 score:
   band: thin
-  composite: 33.5
+  composite: 35.6
   coverage:
     artifact_dirs: 15
     catalog_earned: 48.0
@@ -256,15 +255,15 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 51.4
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 41.8
+    operational_transparency: 39.5
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -278,13 +277,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/screenshots/sap-bydesign-2026-06-20T193421.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sap-bydesign/sap-bydesign-2026-06-20T193421.png
 security:
 - kind: authentication
   name: Sap Bydesign Authentication

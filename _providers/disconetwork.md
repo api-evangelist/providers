@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 37.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -65,7 +67,7 @@ apis:
   description: The Recommendations API from Disconetwork — 1 operation(s) for recommendations.
   name: Disconetwork Recommendations API
   slug: disconetwork-recommendations-api
-artifact_total: 16
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Disconetwork Event Surface
@@ -88,22 +90,27 @@ collections:
   slug: open-disconetwork-reporting-api-v2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/overlays/disconetwork-partner-api-overlay.yaml
+  href: https://artifacts.apis.io/disconetwork/capabilities/disconetwork-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/disconetwork-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/disconetwork/overlays/disconetwork-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/disconetwork-partner-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/overlays/disconetwork-reporting-api-v1-overlay.yaml
+  href: https://artifacts.apis.io/disconetwork/overlays/disconetwork-reporting-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/disconetwork-reporting-api-v1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/overlays/disconetwork-reporting-api-v2-overlay.yaml
+  href: https://artifacts.apis.io/disconetwork/overlays/disconetwork-reporting-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/disconetwork-reporting-api-v2-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/agentic-access/disconetwork-agentic-access.yml
+  href: https://artifacts.apis.io/disconetwork/agentic-access/disconetwork-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/disconetwork-agentic-access.yml
@@ -128,7 +135,7 @@ common:
   type: GettingStarted
   url: https://docs.disconetwork.com/docs/publish-discofeed
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/postman/disconetwork-reporting-v2.postman_collection.json
+  href: https://artifacts.apis.io/disconetwork/postman/disconetwork-reporting-v2.postman_collection.json
   title: ''
   type: Postman
   url: postman/disconetwork-reporting-v2.postman_collection.json
@@ -141,12 +148,12 @@ common:
   type: Pricing
   url: https://support.disconetwork.com/hc/en-us/articles/15854633791003-Disco-Pricing-Billing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/plans/disconetwork-plans-pricing.yml
+  href: https://artifacts.apis.io/disconetwork/plans/disconetwork-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/disconetwork-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/rate-limits/disconetwork-rate-limits.yml
+  href: https://artifacts.apis.io/disconetwork/rate-limits/disconetwork-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/disconetwork-rate-limits.yml
@@ -159,77 +166,77 @@ common:
   type: StatusPage
   url: https://status.disconetwork.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/lifecycle/disconetwork-lifecycle.yml
+  href: https://artifacts.apis.io/disconetwork/lifecycle/disconetwork-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/disconetwork-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/changelog/disconetwork-changelog.yml
+  href: https://artifacts.apis.io/disconetwork/changelog/disconetwork-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/disconetwork-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/authentication/disconetwork-authentication.yml
+  href: https://artifacts.apis.io/disconetwork/authentication/disconetwork-authentication.yml
   title: ''
   type: Authentication
   url: authentication/disconetwork-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/conventions/disconetwork-conventions.yml
+  href: https://artifacts.apis.io/disconetwork/conventions/disconetwork-conventions.yml
   title: ''
   type: Conventions
   url: conventions/disconetwork-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/conformance/disconetwork-conformance.yml
+  href: https://artifacts.apis.io/disconetwork/conformance/disconetwork-conformance.yml
   title: ''
   type: Conformance
   url: conformance/disconetwork-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/errors/disconetwork-problem-types.yml
+  href: https://artifacts.apis.io/disconetwork/errors/disconetwork-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/disconetwork-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/data-model/disconetwork-data-model.yml
+  href: https://artifacts.apis.io/disconetwork/data-model/disconetwork-data-model.yml
   title: ''
   type: DataModel
   url: data-model/disconetwork-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/sandbox/disconetwork-sandbox.yml
+  href: https://artifacts.apis.io/disconetwork/sandbox/disconetwork-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/disconetwork-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/packages/disconetwork-packages.yml
+  href: https://artifacts.apis.io/disconetwork/packages/disconetwork-packages.yml
   title: ''
   type: Packages
   url: packages/disconetwork-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/packages/disconetwork-packages.yml
+  href: https://artifacts.apis.io/disconetwork/packages/disconetwork-packages.yml
   title: ''
   type: SDKs
   url: packages/disconetwork-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/components/disconetwork-components.yml
+  href: https://artifacts.apis.io/disconetwork/components/disconetwork-components.yml
   title: ''
   type: Components
   url: components/disconetwork-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/llms/disconetwork-llms.txt
+  href: https://artifacts.apis.io/disconetwork/llms/disconetwork-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/disconetwork-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/disconetwork/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/mcp/disconetwork-tool-crosswalk.yml
+  href: https://artifacts.apis.io/disconetwork/mcp/disconetwork-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/disconetwork-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/security/disconetwork-domain-security.yml
+  href: https://artifacts.apis.io/disconetwork/security/disconetwork-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/disconetwork-domain-security.yml
@@ -247,6 +254,14 @@ common:
   url: https://disconetwork.com/press
 created: '2026-07-17'
 description: 'Disco (disconetwork.com, Disco Technology Inc.) is a commerce media network focused on the post-purchase moment. It helps ecommerce brands and platforms monetize order-confirmation, order-tracking, checkout, email and app surfaces by placing relevant partner offers in front of shoppers, and gives advertisers a performance channel to reach buyers at the point of purchase. Its product suite spans DiscoOffers (publisher monetization), DiscoBeat (a headless, white-labeled commerce media API for SaaS platforms), DiscoMix (non-endemic demand for retail media networks) and OffersAI (the ranking and personalization engine). Disco publishes a real developer surface: a partner-integration OpenAPI at docs.disconetwork.com, two versions of a Reporting API with downloadable OpenAPI 3.0.3 specs and Postman collections, a documented DiscoBeat Channel API, a JavaScript Web SDK, and an llms.txt. Backed by Felicis.'
+finops:
+- has_sources: true
+  method: derived
+  name: Disconetwork Finops
+  primary_unit: ''
+  service_category: ''
+  slug: disconetwork-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/disconetwork.png
 layout: provider
 modified: '2026-08-12'
@@ -259,35 +274,35 @@ overview: 'Disconetwork publishes 5 API contracts indexed on the [APIs.io](https
   The Disconetwork catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Disconetwork''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, changelog, authentication, and 27 more developer resources.'
+  Disconetwork''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, changelog, authentication, and 28 more developer resources.'
 plans:
 - name: Disconetwork Plans Pricing
   plan_count: 0
   slug: disconetwork-plans-pricing
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Disconetwork Rate Limits
   slug: disconetwork-rate-limits
 score:
-  band: developing
-  composite: 44.2
+  band: strong
+  composite: 54.6
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 29
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 56.8
-    developer_ergonomics: 65.6
-    discoverability: 78.6
+    developer_ergonomics: 77.5
+    discoverability: 71.4
     operational_transparency: 52.6
-  previous_composite: 44.1
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -303,14 +318,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/screenshots/disconetwork-2026-07-25T212103.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/disconetwork/disconetwork-2026-07-25T212103.png
 security:
 - kind: authentication
   name: Disconetwork Authentication
@@ -320,6 +336,12 @@ security:
   name: Disconetwork Domain Security
   slug: disconetwork-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Pull DiscoBeat channel reporting
+  slug: disconetwork-pull-channel-reporting
+- name: Serve post-purchase offers and record the resulting events
+  slug: disconetwork-serve-post-purchase-offers
 slug: disconetwork
 tags:
 - Company

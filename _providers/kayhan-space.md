@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.5
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 151
   slug: kayhan-space-agentic-access
   summary_line: 151 operations · 73 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.satcat.com/api/satcat
   baseurl_source: declared
@@ -150,11 +152,8 @@ arazzos:
 - description: Upload an operator ephemeris to Satcat, make it operational, run a conjunction screening, and pull the resulting CDMs and plot.
   name: Screen an ephemeris and review conjunctions
   slug: kayhan-space-screen-ephemeris
-artifact_total: 47
+artifact_total: 48
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Satcat Service Authentication API
   slug: open-kayhan-space-authentication-api
@@ -261,87 +260,87 @@ common:
   type: PrivacyPolicy
   url: https://kayhan.space/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/authentication/kayhan-space-authentication.yml
+  href: https://artifacts.apis.io/kayhan-space/authentication/kayhan-space-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kayhan-space-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/scopes/kayhan-space-scopes.yml
+  href: https://artifacts.apis.io/kayhan-space/scopes/kayhan-space-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kayhan-space-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/agentic-access/kayhan-space-agentic-access.yml
+  href: https://artifacts.apis.io/kayhan-space/agentic-access/kayhan-space-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kayhan-space-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/security/kayhan-space-domain-security.yml
+  href: https://artifacts.apis.io/kayhan-space/security/kayhan-space-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kayhan-space-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/packages/kayhan-space-packages.yml
+  href: https://artifacts.apis.io/kayhan-space/packages/kayhan-space-packages.yml
   title: ''
   type: Packages
   url: packages/kayhan-space-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/packages/kayhan-space-packages.yml
+  href: https://artifacts.apis.io/kayhan-space/packages/kayhan-space-packages.yml
   title: ''
   type: SDKs
   url: packages/kayhan-space-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/mcp/kayhan-space-mcp.yml
+  href: https://artifacts.apis.io/kayhan-space/mcp/kayhan-space-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kayhan-space-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/llms/kayhan-space-llms.txt
+  href: https://artifacts.apis.io/kayhan-space/llms/kayhan-space-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kayhan-space-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/overlays/kayhan-space-satcat-overlay.yaml
+  href: https://artifacts.apis.io/kayhan-space/overlays/kayhan-space-satcat-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kayhan-space-satcat-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/conformance/kayhan-space-conformance.yml
+  href: https://artifacts.apis.io/kayhan-space/conformance/kayhan-space-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kayhan-space-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/errors/kayhan-space-problem-types.yml
+  href: https://artifacts.apis.io/kayhan-space/errors/kayhan-space-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kayhan-space-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/lifecycle/kayhan-space-lifecycle.yml
+  href: https://artifacts.apis.io/kayhan-space/lifecycle/kayhan-space-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kayhan-space-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/conventions/kayhan-space-conventions.yml
+  href: https://artifacts.apis.io/kayhan-space/conventions/kayhan-space-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kayhan-space-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/data-model/kayhan-space-data-model.yml
+  href: https://artifacts.apis.io/kayhan-space/data-model/kayhan-space-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kayhan-space-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kayhan-space/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/arazzo/kayhan-space-screen-ephemeris.yml
+  href: https://artifacts.apis.io/kayhan-space/arazzo/kayhan-space-screen-ephemeris.yml
   title: ''
   type: Arazzo
   url: arazzo/kayhan-space-screen-ephemeris.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/arazzo/kayhan-space-cdm-event-review.yml
+  href: https://artifacts.apis.io/kayhan-space/arazzo/kayhan-space-cdm-event-review.yml
   title: ''
   type: Arazzo
   url: arazzo/kayhan-space-cdm-event-review.yml
@@ -361,7 +360,7 @@ overview: 'Kayhan Space publishes 20 API contracts indexed on the [APIs.io](http
 
 
   Kayhan Space''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 17
+random_paper: 5
 scopes:
 - name: Kayhan Space Scopes
   scope_count: 1
@@ -369,7 +368,7 @@ scopes:
   summary_line: 1 scope · password/clientCredentials
 score:
   band: developing
-  composite: 43.8
+  composite: 45.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -379,13 +378,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 48.2
+    contract_quality: 45.3
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 43.8
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -402,13 +401,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/screenshots/kayhan-space-2026-07-25T223529.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kayhan-space/kayhan-space-2026-07-25T223529.png
 security:
 - kind: authentication
   name: Kayhan Space Authentication
@@ -418,6 +418,12 @@ security:
   name: Kayhan Space Domain Security
   slug: kayhan-space-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Ingest CDMs and review a conjunction event
+  slug: kayhan-space-cdm-event-review
+- name: Screen an ephemeris for conjunctions
+  slug: kayhan-space-screen-ephemeris
 slug: kayhan-space
 tags:
 - Company

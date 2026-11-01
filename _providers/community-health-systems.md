@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 22.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,11 +69,8 @@ apis:
   description: Provider information
   name: Community Health Systems Practitioner API
   slug: community-health-systems-practitioner-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Community Health Systems Patient Access API
   slug: open-chs-patient-access-api
@@ -89,42 +88,42 @@ collections:
   slug: open-community-health-systems-practitioner-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/plans/community-health-systems-plans-pricing.yml
+  href: https://artifacts.apis.io/community-health-systems/plans/community-health-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/community-health-systems-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/rate-limits/community-health-systems-rate-limits.yml
+  href: https://artifacts.apis.io/community-health-systems/rate-limits/community-health-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/community-health-systems-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/finops/community-health-systems-finops.yml
+  href: https://artifacts.apis.io/community-health-systems/finops/community-health-systems-finops.yml
   title: ''
   type: FinOps
   url: finops/community-health-systems-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/capabilities/community-health-systems-capability-edges.yml
+  href: https://artifacts.apis.io/community-health-systems/capabilities/community-health-systems-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/community-health-systems-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/agentic-access/community-health-systems-agentic-access.yml
+  href: https://artifacts.apis.io/community-health-systems/agentic-access/community-health-systems-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/community-health-systems-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/security/community-health-systems-domain-security.yml
+  href: https://artifacts.apis.io/community-health-systems/security/community-health-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/community-health-systems-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/authentication/community-health-systems-authentication.yml
+  href: https://artifacts.apis.io/community-health-systems/authentication/community-health-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/community-health-systems-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/scopes/community-health-systems-scopes.yml
+  href: https://artifacts.apis.io/community-health-systems/scopes/community-health-systems-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/community-health-systems-scopes.yml
@@ -157,17 +156,17 @@ common:
   type: HL7FHIRR4
   url: https://hl7.org/fhir/R4/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/json-ld/community-health-systems-context.jsonld
+  href: https://artifacts.apis.io/community-health-systems/json-ld/community-health-systems-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/community-health-systems-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/json-schema/chs-fhir-bundle-schema.json
+  href: https://artifacts.apis.io/community-health-systems/json-schema/chs-fhir-bundle-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/chs-fhir-bundle-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/rules/community-health-systems-rules.yml
+  href: https://artifacts.apis.io/community-health-systems/rules/community-health-systems-rules.yml
   title: ''
   type: Spectral
   url: rules/community-health-systems-rules.yml
@@ -223,7 +222,7 @@ press:
 - date: ''
   title: Community Health Systems Completes Data Migration and ...
   url: https://www.prnewswire.com/news-releases/community-health-systems-completes-data-migration-and-implements-new-generative-ai-innovations-with-google-cloud-302048799.html
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Community Health Systems Rate Limits
@@ -259,7 +258,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 27.0
+  composite: 31.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 50.5
@@ -267,15 +266,15 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 49.9
-    developer_ergonomics: 11.9
+    developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 28.6
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     contracts:
@@ -288,15 +287,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 26.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/screenshots/community-health-systems-2026-06-20T174823.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/community-health-systems/community-health-systems-2026-06-20T174823.png
 security:
 - kind: authentication
   name: Community Health Systems Authentication

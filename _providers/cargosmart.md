@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-17'
+  score: 20.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -69,15 +71,12 @@ apis:
   description: Vessel position and schedule
   name: CargoSmart Vessels API
   slug: cargosmart-vessels-api
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: 'The CargoSmart Shipment Events API delivers real-time event notifications for container movements, shipment milestones, and vessel arrivals/departures via webhooks or server-sent events. Subscribe to '
   name: CargoSmart Shipment Events API
   slug: cargosmart-events-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CargoSmart Shipment Tracking Bookings API
   slug: open-cargosmart-bookings-api
@@ -98,42 +97,42 @@ collections:
   slug: open-cargosmart-vessels-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/plans/cargosmart-plans-pricing.yml
+  href: https://artifacts.apis.io/cargosmart/plans/cargosmart-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cargosmart-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/rate-limits/cargosmart-rate-limits.yml
+  href: https://artifacts.apis.io/cargosmart/rate-limits/cargosmart-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cargosmart-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/finops/cargosmart-finops.yml
+  href: https://artifacts.apis.io/cargosmart/finops/cargosmart-finops.yml
   title: ''
   type: FinOps
   url: finops/cargosmart-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/capabilities/cargosmart-capability-edges.yml
+  href: https://artifacts.apis.io/cargosmart/capabilities/cargosmart-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cargosmart-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/agentic-access/cargosmart-agentic-access.yml
+  href: https://artifacts.apis.io/cargosmart/agentic-access/cargosmart-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cargosmart-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/security/cargosmart-domain-security.yml
+  href: https://artifacts.apis.io/cargosmart/security/cargosmart-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cargosmart-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/authentication/cargosmart-authentication.yml
+  href: https://artifacts.apis.io/cargosmart/authentication/cargosmart-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cargosmart-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/scopes/cargosmart-scopes.yml
+  href: https://artifacts.apis.io/cargosmart/scopes/cargosmart-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cargosmart-scopes.yml
@@ -255,7 +254,7 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: thin
-  composite: 32.4
+  composite: 33.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 48.5
@@ -263,7 +262,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 13.6
@@ -271,7 +270,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 62.5
     operational_transparency: 5.3
-  previous_composite: 33.9
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -285,13 +284,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/screenshots/cargosmart-2026-06-20T174010.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cargosmart/cargosmart-2026-06-20T174010.png
 security:
 - kind: authentication
   name: Cargosmart Authentication

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/afuninteractive/refs/heads/main/security/afuninteractive-domain-security.yml
+  href: https://artifacts.apis.io/afuninteractive/security/afuninteractive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/afuninteractive-domain-security.yml
@@ -88,10 +90,10 @@ overview: 'AFUN Interactive is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   AFUN Interactive''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 2
+random_paper: 0
 score:
   band: minimal
-  composite: 3.4
+  composite: 3.9
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -104,7 +106,7 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -114,21 +116,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 3.4
+  previous_composite: 3.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/afuninteractive/refs/heads/main/screenshots/afuninteractive-2026-10-11T093040.png
+screenshot: https://apis.io/screenshots/afuninteractive/afuninteractive-2026-10-11T093040.png
 security:
 - kind: domain-security
   name: Afuninteractive Domain Security

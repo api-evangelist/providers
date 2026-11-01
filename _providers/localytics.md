@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.2
-  scored_at: '2026-10-17'
+  score: 32.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -89,11 +91,8 @@ apis:
   description: Transactional push send endpoints
   name: Localytics Push API
   slug: localytics-push-api
-artifact_total: 22
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Localytics Campaigns And Audience Audiences API
   slug: open-localytics-audiences-api
@@ -105,12 +104,12 @@ collections:
   slug: open-localytics-push-campaigns-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/capabilities/localytics-capability-edges.yml
+  href: https://artifacts.apis.io/localytics/capabilities/localytics-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/localytics-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/skills/localytics-send-transactional-push.md
+  href: https://artifacts.apis.io/localytics/skills/localytics-send-transactional-push.md
   title: ''
   type: AgentSkill
   url: skills/localytics-send-transactional-push.md
@@ -147,87 +146,87 @@ common:
   type: TermsOfService
   url: https://www.localytics.com/terms
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/_original/localytics-campaigns-audiences-openapi.yml
+  href: https://artifacts.apis.io/localytics/openapi/_original/localytics-campaigns-audiences-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/localytics-campaigns-audiences-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/overlays/localytics-campaigns-audiences-overlay.yaml
+  href: https://artifacts.apis.io/localytics/overlays/localytics-campaigns-audiences-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/localytics-campaigns-audiences-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/authentication/localytics-authentication.yml
+  href: https://artifacts.apis.io/localytics/authentication/localytics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/localytics-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/conventions/localytics-conventions.yml
+  href: https://artifacts.apis.io/localytics/conventions/localytics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/localytics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/conventions/localytics-conventions.yml
+  href: https://artifacts.apis.io/localytics/conventions/localytics-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/localytics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/errors/localytics-problem-types.yml
+  href: https://artifacts.apis.io/localytics/errors/localytics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/localytics-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/lifecycle/localytics-lifecycle.yml
+  href: https://artifacts.apis.io/localytics/lifecycle/localytics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/localytics-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/rate-limits/localytics-rate-limits.yml
+  href: https://artifacts.apis.io/localytics/rate-limits/localytics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/localytics-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/conformance/localytics-conformance.yml
+  href: https://artifacts.apis.io/localytics/conformance/localytics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/localytics-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/data-model/localytics-data-model.yml
+  href: https://artifacts.apis.io/localytics/data-model/localytics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/localytics-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/packages/localytics-packages.yml
+  href: https://artifacts.apis.io/localytics/packages/localytics-packages.yml
   title: ''
   type: Packages
   url: packages/localytics-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/packages/localytics-packages.yml
+  href: https://artifacts.apis.io/localytics/packages/localytics-packages.yml
   title: ''
   type: SDKs
   url: packages/localytics-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/llms/localytics-llms.txt
+  href: https://artifacts.apis.io/localytics/llms/localytics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/localytics-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/mcp/localytics-mcp.yml
+  href: https://artifacts.apis.io/localytics/mcp/localytics-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/localytics-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/localytics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/agentic-access/localytics-agentic-access.yml
+  href: https://artifacts.apis.io/localytics/agentic-access/localytics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/localytics-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/security/localytics-domain-security.yml
+  href: https://artifacts.apis.io/localytics/security/localytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/localytics-domain-security.yml
@@ -236,42 +235,42 @@ common:
   type: Website
   url: https://www.localytics.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/openapi/_original/localytics-transactional-push-openapi.json
+  href: https://artifacts.apis.io/localytics/openapi/_original/localytics-transactional-push-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/localytics-transactional-push-openapi.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/overlays/localytics-transactional-push-overlay.yaml
+  href: https://artifacts.apis.io/localytics/overlays/localytics-transactional-push-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/localytics-transactional-push-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/grpc/localytics-push.proto
+  href: https://artifacts.apis.io/localytics/grpc/localytics-push.proto
   title: ''
   type: Protobuf
   url: grpc/localytics-push.proto
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/json-schema/localytics-events-api-v1-schema.json
+  href: https://artifacts.apis.io/localytics/json-schema/localytics-events-api-v1-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/localytics-events-api-v1-schema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/mcp/localytics-tool-crosswalk.yml
+  href: https://artifacts.apis.io/localytics/mcp/localytics-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/localytics-tool-crosswalk.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/changelog/localytics-changelog.yml
+  href: https://artifacts.apis.io/localytics/changelog/localytics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/localytics-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/sandbox/localytics-sandbox.yml
+  href: https://artifacts.apis.io/localytics/sandbox/localytics-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/localytics-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/plans/localytics-plans-pricing.yml
+  href: https://artifacts.apis.io/localytics/plans/localytics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/localytics-plans-pricing.yml
@@ -280,7 +279,7 @@ common:
   type: StatusPage
   url: https://status.localytics.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/security/localytics-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/localytics/security/localytics-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/localytics-vulnerability-disclosure.yml
@@ -299,6 +298,14 @@ common:
 created: '2026-07-17'
 description: 'Localytics is a mobile analytics and customer-engagement platform that turns the behavioral signals a mobile app already produces into real-time analytics and personalized, data-driven campaigns across push notifications, in-app messages, and inbox messaging. It serves product, marketing, and engineering teams with segmentation, audience building, and campaign management. Its developer surface is broad but unevenly specified: two real OpenAPI 3.0.3 documents (a Campaigns & Audience API and a Transactional Push API served live at messaging.localytics.com/swagger.json), an MIT-licensed proto3 definition for a bidirectional streaming gRPC push service, and a published JSON Schema for Events API requests — alongside six further production REST APIs (Query/Reporting in HAL+JSON, Profile, Events, Exports, Imports, Places) that are documented only in prose. Everything authenticates with one organization-level API key and secret over HTTP Basic; there is no OAuth, no scopes and no
   rate-limit response headers anywhere. First-party SDKs cover iOS, Android, Web, Maui, Flutter, React Native, tvOS, Xamarin, Unity, Cordova and Windows. Localytics is an Upland Software product.'
+finops:
+- has_sources: true
+  method: derived
+  name: Localytics Finops
+  primary_unit: ''
+  service_category: ''
+  slug: localytics-finops
+  template: true
 image: https://localytics.com/og-image.png
 json_schemas:
 - name: Events API Request V1
@@ -317,30 +324,30 @@ plans:
 - name: Localytics Plans Pricing
   plan_count: 0
   slug: localytics-plans-pricing
-random_paper: 1
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Localytics Rate Limits
   slug: localytics-rate-limits
 score:
   band: developing
-  composite: 47.7
+  composite: 49.4
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 42.4
     catalog_earned_first_party: 0.0
     catalog_gap: 72.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 49.2
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 44.7
-  previous_composite: 47.6
+    discoverability: 66.1
+    operational_transparency: 47.4
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -357,13 +364,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/screenshots/localytics-2026-07-25T225426.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/localytics/localytics-2026-07-25T225426.png
 security:
 - kind: authentication
   name: Localytics Authentication
@@ -377,6 +385,14 @@ security:
   name: Localytics Vulnerability Disclosure
   slug: localytics-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 3
+skills:
+- name: Build a Localytics audience and size it
+  slug: localytics-build-audience
+- name: Create and manage a Localytics push campaign
+  slug: localytics-create-push-campaign
+- name: Send a Localytics transactional push
+  slug: localytics-send-transactional-push
 slug: localytics
 tags:
 - Company

@@ -1,0 +1,190 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: derived
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 20.7
+  scored_at: '2026-10-31'
+api_count: 1
+apis:
+- description: Full-depth, key-gated access to Horizon's aggregated AI-industry corpus — LLM-scored news, semantic search, a cited RAG answer endpoint, an incremental delta feed, regional lenses (china, korea, japan
+  name: Horizon API
+  slug: horizon-api
+- baseURL: https://horizon.alchemylab.sh
+  baseurl_source: declared
+  description: Full-depth, key-gated access to Horizon's aggregated AI-industry corpus — LLM-scored news, semantic search, a cited RAG answer endpoint, an incremental delta feed, regional lenses (china, korea, japan
+  name: Horizon API API
+  slug: horizon-api-api
+artifact_total: 6
+common:
+- group: design
+  href: https://artifacts.apis.io/alchemylab-sh/rules/alchemylab-sh-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/alchemylab-sh-rules.yml
+- group: design
+  href: https://artifacts.apis.io/alchemylab-sh/json-ld/alchemylab-sh-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/alchemylab-sh-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/alchemylab-sh/vocabulary/alchemylab-sh-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/alchemylab-sh-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/alchemylab-sh/conformance/alchemylab-sh-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/alchemylab-sh-conformance.yml
+- group: design
+  href: https://artifacts.apis.io/alchemylab-sh/data-model/alchemylab-sh-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/alchemylab-sh-data-model.yml
+- group: design
+  href: https://artifacts.apis.io/alchemylab-sh/errors/alchemylab-sh-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/alchemylab-sh-problem-types.yml
+- group: agent
+  href: https://artifacts.apis.io/alchemylab-sh/llms/alchemylab-sh-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/alchemylab-sh-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/alchemylab-sh/well-known/alchemylab-sh-horizon-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/alchemylab-sh-horizon-security.txt
+- group: agent
+  href: https://artifacts.apis.io/alchemylab-sh/well-known/alchemylab-sh-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/alchemylab-sh-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/alchemylab-sh/hosts/alchemylab-sh-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/alchemylab-sh-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/alchemylab-sh/vendors/alchemylab-sh-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/alchemylab-sh-vendors.yml
+- group: auth
+  href: https://artifacts.apis.io/alchemylab-sh/security/alchemylab-sh-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/alchemylab-sh-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://alchemylab.sh/
+created: '2026-10-29'
+description: Alchemy Lab is a software studio that builds a portfolio of AI‑enhanced products. Their offerings include GM Grimoire, an AI narrator for Foundry VTT; Horizon, a daily AI landscape briefing service; ArtistAlly, a convention‑organizing tool; JMD, an automated job‑search tracker; and upcoming projects like Stitchbook and SCP Researcher. The studio emphasizes human‑crafted content, refusing AI‑generated art, and operates with a small, collaborative team of developers and AI agents.
+image: https://alchemylab.sh/og.png
+json_schemas:
+- name: ContentItem
+  property_count: 12
+  slug: alchemylab-sh-content-item
+jsonld:
+- class_count: 1
+  name: Alchemylab Sh Context
+  property_count: 12
+  slug: alchemylab-sh-context
+layout: provider
+modified: '2026-10-29'
+name: alchemylab-sh
+nav: Providers
+network: true
+overview: 'alchemylab-sh publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Horizon API API, and 1 more. Tagged areas include Company, AI, Software, Studio, and Products.
+
+
+  The alchemylab-sh catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
+random_paper: 10
+rules:
+- authorship: generated
+  effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: alchemylab-sh API Rules
+  rule_count: 16
+  severity_counts:
+    error: 14
+    hint: 0
+    info: 1
+    warn: 1
+  slug: alchemylab-sh-rules
+score:
+  band: emerging
+  composite: 24.1
+  coverage:
+    artifact_dirs: 15
+    catalog_earned: 56.2
+    catalog_earned_first_party: 0.0
+    catalog_gap: 58.9
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 0.0
+    contract_governance: 22.0
+    contract_quality: 56.9
+    developer_ergonomics: 0.0
+    discoverability: 66.1
+    operational_transparency: 10.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 10.0
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Alchemylab Sh Domain Security
+  slug: alchemylab-sh-domain-security
+  summary_line: TLSv1.3
+slug: alchemylab-sh
+tags:
+- Company
+- AI
+- Software
+- Studio
+- Products
+website: https://alchemylab.sh/
+---

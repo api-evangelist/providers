@@ -39,8 +39,8 @@ name: Digiflex
 nav: Providers
 network: true
 overview: Digiflex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Battery Ventures, Acquired, Digital Printing, and Manufacturing.
-random_paper: 8
-screenshot: https://raw.githubusercontent.com/api-evangelist/digiflex/refs/heads/main/screenshots/digiflex-2026-07-25T212005.png
+random_paper: 4
+screenshot: https://apis.io/screenshots/digiflex/digiflex-2026-07-25T212005.png
 slug: digiflex
 tags:
 - Company

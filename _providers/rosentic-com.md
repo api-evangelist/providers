@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'Hosted Model Context Protocol endpoint at https://api.rosentic.com/mcp (Streamable HTTP, POST), live since 2026-07-23, exposing three read tools over stored scan snapshots — run_status (every lane in '
@@ -35,10 +37,10 @@ apis:
 - description: 'The Bearer-key REST surface documented on the orchestrator-integration page for wiring Conductor, Claude Squad, LangGraph and other agent orchestrators to a Rosentic workspace: GET /v1/feed/rules retu'
   name: Rosentic Dashboard Feed API
   slug: rosentic-dashboard-feed-api
-artifact_total: 9
+artifact_total: 11
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/security/rosentic-com-domain-security.yml
+  href: https://artifacts.apis.io/rosentic-com/security/rosentic-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rosentic-com-domain-security.yml
@@ -63,7 +65,7 @@ common:
   type: Pricing
   url: https://rosentic.com/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/plans/rosentic-com-plans-pricing.yml
+  href: https://artifacts.apis.io/rosentic-com/plans/rosentic-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rosentic-com-plans-pricing.yml
@@ -76,7 +78,7 @@ common:
   type: ChangeLog
   url: https://rosentic.com/changelog/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/changelog/rosentic-com-changelog.yml
+  href: https://artifacts.apis.io/rosentic-com/changelog/rosentic-com-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rosentic-com-changelog.yml
@@ -101,7 +103,7 @@ common:
   type: Twitter
   url: https://x.com/RosenticHQ
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/llms/rosentic-com-llms.txt
+  href: https://artifacts.apis.io/rosentic-com/llms/rosentic-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rosentic-com-llms.txt
@@ -110,77 +112,85 @@ common:
   type: LLMsTxt
   url: https://rosentic.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/well-known/rosentic-com-well-known.yml
+  href: https://artifacts.apis.io/rosentic-com/well-known/rosentic-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rosentic-com-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/a2a/rosentic-com-a2a.yml
+  href: https://artifacts.apis.io/rosentic-com/a2a/rosentic-com-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/rosentic-com-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/mcp/rosentic-com-mcp.yml
+  href: https://artifacts.apis.io/rosentic-com/mcp/rosentic-com-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/rosentic-com-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/scopes/rosentic-com-scopes.yml
+  href: https://artifacts.apis.io/rosentic-com/scopes/rosentic-com-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/rosentic-com-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/authentication/rosentic-com-authentication.yml
+  href: https://artifacts.apis.io/rosentic-com/authentication/rosentic-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rosentic-com-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/packages/rosentic-com-packages.yml
+  href: https://artifacts.apis.io/rosentic-com/packages/rosentic-com-packages.yml
   title: ''
   type: Packages
   url: packages/rosentic-com-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/cli/rosentic-com-cli.yml
+  href: https://artifacts.apis.io/rosentic-com/cli/rosentic-com-cli.yml
   title: ''
   type: CLI
   url: cli/rosentic-com-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rosentic-com/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/sandbox/rosentic-com-sandbox.yml
+  href: https://artifacts.apis.io/rosentic-com/sandbox/rosentic-com-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/rosentic-com-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/rate-limits/rosentic-com-rate-limits.yml
+  href: https://artifacts.apis.io/rosentic-com/rate-limits/rosentic-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rosentic-com-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/errors/rosentic-com-problem-types.yml
+  href: https://artifacts.apis.io/rosentic-com/errors/rosentic-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rosentic-com-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/lifecycle/rosentic-com-lifecycle.yml
+  href: https://artifacts.apis.io/rosentic-com/lifecycle/rosentic-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rosentic-com-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/conventions/rosentic-com-conventions.yml
+  href: https://artifacts.apis.io/rosentic-com/conventions/rosentic-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rosentic-com-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/conformance/rosentic-com-conformance.yml
+  href: https://artifacts.apis.io/rosentic-com/conformance/rosentic-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rosentic-com-conformance.yml
 created: '2026-09-19'
 description: 'Rosentic is a developer-tools company whose product checks the open branches in a git repository against each other before merge, catching the function-signature mismatches, HTTP route contract breaks, GraphQL/typed-schema conflicts and Protobuf/gRPC changes that pass CI on every branch individually and break main when parallel AI coding agents land together. The engine is deterministic tree-sitter AST analysis across 13 languages with no LLM in the scan path, shipped as a GitHub Action that runs on the consumer''s own runner and as rosentic-mcp on PyPI, a local MCP server and CLI with nine tools. Hosted surfaces on api.rosentic.com: Rosentic Remote, an MCP endpoint behind OAuth 2.1 with PKCE and dynamic client registration; an A2A 0.3.0 agent card with five skills and a live JSON-RPC endpoint; and a Bearer-key REST feed. Detection is free at every tier; paid plans buy stored history and quotas. No OpenAPI is published.'
+finops:
+- has_sources: true
+  method: derived
+  name: Rosentic Com Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: rosentic-com-finops
+  template: false
 image: https://raw.githubusercontent.com/Rosentic/cursor-plugin/main/assets/logo.png
 layout: provider
 mcp_servers:
@@ -191,15 +201,18 @@ modified: '2026-09-19'
 name: Rosentic
 nav: Providers
 network: true
-overview: 'Rosentic is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, CI/CD, Git, Static Analysis, and Merge Safety.
+overview: 'Rosentic is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, CI/CD, Version Control, Static Analysis, and Merge Safety.
 
 
   Rosentic''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, changelog, support, and 24 more developer resources.'
 plans:
 - name: Rosentic Com Plans Pricing
-  plan_count: 6
+  plan_count: 4
   slug: rosentic-com-plans-pricing
-random_paper: 3
+- name: Rosentic Com Price Estimates
+  plan_count: 0
+  slug: rosentic-com-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Rosentic Com Rate Limits
@@ -211,23 +224,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 42.2
+  composite: 43.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 60.0
+    artifact_dirs: 24
+    catalog_earned: 63.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 55.3
+    access_clarity: 63.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 69.0
-    discoverability: 80.0
+    discoverability: 76.7
     operational_transparency: 42.1
-  previous_composite: 42.2
+  previous_composite: 41.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -238,14 +251,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rosentic-com/refs/heads/main/screenshots/rosentic-com-2026-10-11T125419.png
+screenshot: https://apis.io/screenshots/rosentic-com/rosentic-com-2026-10-11T125419.png
 security:
 - kind: authentication
   name: Rosentic Com Authentication
@@ -259,7 +272,7 @@ slug: rosentic-com
 tags:
 - Developer Tools
 - CI/CD
-- Git
+- Version Control
 - Static Analysis
 - Merge Safety
 - AI Coding Agents

@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.0
-  scored_at: '2026-10-17'
+  score: 38.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -180,7 +181,7 @@ apis:
   description: The Users API from Lawmatics — 3 operation(s) for users.
   name: Lawmatics Users API
   slug: lawmatics-users-api
-artifact_total: 37
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Lawmatics Webhooks
@@ -191,42 +192,42 @@ collections:
   slug: postman-lawmatics-oauth-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/agentic-access/lawmatics-agentic-access.yml
+  href: https://artifacts.apis.io/lawmatics/agentic-access/lawmatics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lawmatics-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/scopes/lawmatics-scopes.yml
+  href: https://artifacts.apis.io/lawmatics/scopes/lawmatics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lawmatics-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/authentication/lawmatics-authentication.yml
+  href: https://artifacts.apis.io/lawmatics/authentication/lawmatics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lawmatics-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/security/lawmatics-domain-security.yml
+  href: https://artifacts.apis.io/lawmatics/security/lawmatics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lawmatics-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/packages/lawmatics-packages.yml
+  href: https://artifacts.apis.io/lawmatics/packages/lawmatics-packages.yml
   title: ''
   type: Packages
   url: packages/lawmatics-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/llms/lawmatics-llms.txt
+  href: https://artifacts.apis.io/lawmatics/llms/lawmatics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lawmatics-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/overlays/lawmatics-openapi-overlay.yaml
+  href: https://artifacts.apis.io/lawmatics/overlays/lawmatics-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lawmatics-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/conformance/lawmatics-conformance.yml
+  href: https://artifacts.apis.io/lawmatics/conformance/lawmatics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lawmatics-conformance.yml
@@ -235,47 +236,47 @@ common:
   type: Compliance
   url: https://www.lawmatics.com/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/lifecycle/lawmatics-lifecycle.yml
+  href: https://artifacts.apis.io/lawmatics/lifecycle/lawmatics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lawmatics-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/changelog/lawmatics-changelog.yml
+  href: https://artifacts.apis.io/lawmatics/changelog/lawmatics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lawmatics-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/conventions/lawmatics-conventions.yml
+  href: https://artifacts.apis.io/lawmatics/conventions/lawmatics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lawmatics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/errors/lawmatics-problem-types.yml
+  href: https://artifacts.apis.io/lawmatics/errors/lawmatics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lawmatics-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/data-model/lawmatics-data-model.yml
+  href: https://artifacts.apis.io/lawmatics/data-model/lawmatics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lawmatics-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/asyncapi/lawmatics-webhooks.yml
+  href: https://artifacts.apis.io/lawmatics/asyncapi/lawmatics-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lawmatics-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/components/lawmatics-components.yml
+  href: https://artifacts.apis.io/lawmatics/components/lawmatics-components.yml
   title: ''
   type: Components
   url: components/lawmatics-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lawmatics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/postman/lawmatics-oauth-api.postman_collection.json
+  href: https://artifacts.apis.io/lawmatics/postman/lawmatics-oauth-api.postman_collection.json
   title: ''
   type: Postman
   url: postman/lawmatics-oauth-api.postman_collection.json
@@ -336,25 +337,25 @@ common:
   type: X
   url: https://x.com/lawmatics
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/plans/lawmatics-plans-pricing.yml
+  href: https://artifacts.apis.io/lawmatics/plans/lawmatics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lawmatics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/rate-limits/lawmatics-rate-limits.yml
+  href: https://artifacts.apis.io/lawmatics/rate-limits/lawmatics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lawmatics-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/finops/lawmatics-finops.yml
+  href: https://artifacts.apis.io/lawmatics/finops/lawmatics-finops.yml
   title: ''
   type: FinOps
   url: finops/lawmatics-finops.yml
 created: '2026-06-13'
 description: Lawmatics is a legal CRM, client-intake and marketing-automation platform for law firms, from solo practices to multi-office firms. Its public developer surface is the Lawmatics OAuth API — a REST API of 177 operations across matters (called prospects in the API), contacts, companies, custom intake forms and form entries, custom fields, collections, pipelines, stages, practice areas, marketing sources and campaigns, events, tasks, notes, files, tags, users, time entries, expenses, invoices and transactions — plus a set of signed outbound webhooks. Access is OAuth 2.0 authorization code, gated on a Lawmatics support representative enabling developer settings on the account, and the resulting access token is non-expiring, unscoped and grants full CRUD over the firm.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Lawmatics Finops
   primary_unit: ''
   service_category: ''
@@ -382,7 +383,7 @@ plans:
 - name: Lawmatics Plans Pricing
   plan_count: 3
   slug: lawmatics-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Lawmatics Rate Limits
@@ -394,7 +395,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 54.4
+  composite: 55.8
   coverage:
     artifact_dirs: 28
     catalog_earned: 68.0
@@ -402,15 +403,15 @@ score:
     catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 77.6
+    access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 32.5
+    contract_quality: 29.1
     developer_ergonomics: 53.7
     discoverability: 66.1
-    operational_transparency: 55.3
-  previous_composite: 55.9
+    operational_transparency: 65.8
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -431,13 +432,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/screenshots/lawmatics-2026-06-20T184337.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lawmatics/lawmatics-2026-06-20T184337.png
 security:
 - kind: authentication
   name: Lawmatics Authentication
@@ -447,6 +449,18 @@ security:
   name: Lawmatics Domain Security
   slug: lawmatics-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Consume and verify Lawmatics outbound webhooks
+  slug: lawmatics-consume-webhooks
+- name: Intake a new lead as a Lawmatics matter
+  slug: lawmatics-intake-new-matter
+- name: Query and report on Lawmatics matters
+  slug: lawmatics-search-and-report
+- name: Record time, expenses and read billing on a Lawmatics matter
+  slug: lawmatics-time-and-billing
+- name: Push a website form submission into Lawmatics
+  slug: lawmatics-webform-to-matter
 slug: lawmatics
 tags:
 - Legal

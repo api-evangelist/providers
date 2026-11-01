@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,22 +25,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/activeon8016/refs/heads/main/plans/activeon8016-plans-pricing.yml
+  href: https://artifacts.apis.io/activeon8016/plans/activeon8016-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/activeon8016-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/activeon8016/refs/heads/main/rate-limits/activeon8016-rate-limits.yml
+  href: https://artifacts.apis.io/activeon8016/rate-limits/activeon8016-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/activeon8016-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/activeon8016/refs/heads/main/security/activeon8016-domain-security.yml
+  href: https://artifacts.apis.io/activeon8016/security/activeon8016-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/activeon8016-domain-security.yml
@@ -55,17 +57,17 @@ common:
   type: Blog
   url: https://www.activon-global.com/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/activeon8016/refs/heads/main/llms/activeon8016-llms.txt
+  href: https://artifacts.apis.io/activeon8016/llms/activeon8016-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/activeon8016-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/activeon8016/refs/heads/main/mcp/activeon8016-mcp.yml
+  href: https://artifacts.apis.io/activeon8016/mcp/activeon8016-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/activeon8016-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/activeon8016/refs/heads/main/conformance/activeon8016-conformance.yml
+  href: https://artifacts.apis.io/activeon8016/conformance/activeon8016-conformance.yml
   title: ''
   type: Conformance
   url: conformance/activeon8016-conformance.yml
@@ -96,7 +98,7 @@ rate_limits:
   slug: activeon8016-rate-limits
 score:
   band: minimal
-  composite: 7.8
+  composite: 6.8
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -110,7 +112,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -119,7 +121,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 7.8
+  previous_composite: 6.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -129,14 +131,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/activeon8016/refs/heads/main/screenshots/activeon8016-2026-10-11T092720.png
+screenshot: https://apis.io/screenshots/activeon8016/activeon8016-2026-10-11T092720.png
 security:
 - kind: domain-security
   name: Activeon8016 Domain Security

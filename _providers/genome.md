@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -71,15 +73,12 @@ apis:
 - description: Redirect checkout hosted by Genome, opened with an HS256 JWT signed with the SHA-256 digest of the payment page secret. Keeps card data out of merchant scope. Supports card and Pay by Bank.
   name: Genome Hosted Payment Page
   slug: genome-hosted-payment-page
-artifact_total: 26
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Genome Webhooks
   slug: genome-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Genome Payments Host-to-Host API
   slug: open-genome-host-to-host-api
@@ -91,37 +90,37 @@ collections:
   slug: open-genome
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/rules/genome-rules.yml
+  href: https://artifacts.apis.io/genome/rules/genome-rules.yml
   title: ''
   type: Spectral
   url: rules/genome-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/json-ld/genome-context.jsonld
+  href: https://artifacts.apis.io/genome/json-ld/genome-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/genome-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/vocabulary/genome-vocabulary.yml
+  href: https://artifacts.apis.io/genome/vocabulary/genome-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/genome-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/lifecycle/genome-lifecycle.yml
+  href: https://artifacts.apis.io/genome/lifecycle/genome-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/genome-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/errors/genome-problem-types.yml
+  href: https://artifacts.apis.io/genome/errors/genome-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/genome-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/hosts/genome-hosts.yml
+  href: https://artifacts.apis.io/genome/hosts/genome-hosts.yml
   title: ''
   type: Hosts
   url: hosts/genome-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/vendors/genome-vendors.yml
+  href: https://artifacts.apis.io/genome/vendors/genome-vendors.yml
   title: ''
   type: Vendors
   url: vendors/genome-vendors.yml
@@ -186,125 +185,125 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/genome-europe/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/authentication/genome-authentication.yml
+  href: https://artifacts.apis.io/genome/authentication/genome-authentication.yml
   title: ''
   type: Authentication
   url: authentication/genome-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/conventions/genome-conventions.yml
+  href: https://artifacts.apis.io/genome/conventions/genome-conventions.yml
   title: ''
   type: Conventions
   url: conventions/genome-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/conventions/genome-conventions.yml
+  href: https://artifacts.apis.io/genome/conventions/genome-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/genome-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/errors/genome-error-codes.yml
+  href: https://artifacts.apis.io/genome/errors/genome-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/genome-error-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/errors/genome-decline-codes.yml
+  href: https://artifacts.apis.io/genome/errors/genome-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/genome-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/asyncapi/genome-webhooks.yml
+  href: https://artifacts.apis.io/genome/asyncapi/genome-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/genome-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/lifecycle/genome-lifecycle.yml
+  href: https://artifacts.apis.io/genome/lifecycle/genome-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/genome-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/conformance/genome-conformance.yml
+  href: https://artifacts.apis.io/genome/conformance/genome-conformance.yml
   title: ''
   type: Conformance
   url: conformance/genome-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/conformance/genome-conformance.yml
+  href: https://artifacts.apis.io/genome/conformance/genome-conformance.yml
   title: ''
   type: Compliance
   url: conformance/genome-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/security/genome-trust-center.yml
+  href: https://artifacts.apis.io/genome/security/genome-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/genome-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/security/genome-domain-security.yml
+  href: https://artifacts.apis.io/genome/security/genome-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/genome-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/packages/genome-packages.yml
+  href: https://artifacts.apis.io/genome/packages/genome-packages.yml
   title: ''
   type: Packages
   url: packages/genome-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/packages/genome-packages.yml
+  href: https://artifacts.apis.io/genome/packages/genome-packages.yml
   title: ''
   type: SDKs
   url: packages/genome-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/components/genome-components.yml
+  href: https://artifacts.apis.io/genome/components/genome-components.yml
   title: ''
   type: Components
   url: components/genome-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/data-model/genome-data-model.yml
+  href: https://artifacts.apis.io/genome/data-model/genome-data-model.yml
   title: ''
   type: DataModel
   url: data-model/genome-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/sandbox/genome-sandbox.yml
+  href: https://artifacts.apis.io/genome/sandbox/genome-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/genome-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/plans/genome-plans-pricing.yml
+  href: https://artifacts.apis.io/genome/plans/genome-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/genome-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/rate-limits/genome-rate-limits.yml
+  href: https://artifacts.apis.io/genome/rate-limits/genome-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/genome-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/finops/genome-finops.yml
+  href: https://artifacts.apis.io/genome/finops/genome-finops.yml
   title: ''
   type: FinOps
   url: finops/genome-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/genome/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/agentic-access/genome-agentic-access.yml
+  href: https://artifacts.apis.io/genome/agentic-access/genome-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/genome-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/mcp/genome-mcp.yml
+  href: https://artifacts.apis.io/genome/mcp/genome-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/genome-mcp.yml
 created: '2025-03-01'
 description: 'Genome, operated by UAB "Maneuver LT" of Vilnius, is an Electronic Money Institution licensed and supervised by the Bank of Lithuania. It runs multi-currency personal and business accounts, issues Visa cards, and sells a merchant payments stack that is documented as six public API surfaces: the Host-to-Host API for direct card processing (AUTH, AUTH3D, SALE, SALE3D, SETTLE, REFUND, VOID and CHECK), the Payout API for sending funds to cardholders, the SEPA Payout API, the Query on Demand reporting API, a Verification of Payee API returning the EPC scheme''s match outcomes, and a Berlin Group NextGenPSD2 dedicated interface offered free of charge to registered AISPs and PISPs. Batch transfers are submitted as ISO 20022 pain.001.001.03. Outcomes are carried in a proprietary 137-code response envelope rather than HTTP status codes, and Genome publishes no OpenAPI, AsyncAPI, MCP server or /.well-known/ document on any of its hosts.'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Genome Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: transaction
+  service_category: ''
   slug: genome-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/genome.png
 json_schemas:
 - name: HostToHostRequest
@@ -338,9 +337,12 @@ overview: 'Genome publishes 8 API contracts indexed on the [APIs.io](https://api
   Genome''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
 plans:
 - name: Genome Plans Pricing
-  plan_count: 3
+  plan_count: 22
   slug: genome-plans-pricing
-random_paper: 19
+- name: Genome Price Estimates
+  plan_count: 0
+  slug: genome-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Genome Rate Limits
@@ -359,29 +361,29 @@ rules:
     warn: 1
   slug: genome-rules
 score:
-  band: strong
-  composite: 63.9
+  band: exemplar
+  composite: 69.2
   coverage:
     artifact_dirs: 31
-    catalog_earned: 74.8
+    catalog_earned: 77.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.3
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.5
+  delta: 1.6
   facets:
-    access_clarity: 78.9
+    access_clarity: 100.0
     contract_governance: 35.6
     contract_quality: 68.0
     developer_ergonomics: 73.2
     discoverability: 66.1
-    operational_transparency: 44.7
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 55.4
+  previous_composite: 67.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -398,13 +400,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/screenshots/genome-2026-06-20T181737.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/genome/genome-2026-06-20T181737.png
 security:
 - kind: authentication
   name: Genome Authentication
@@ -418,6 +421,14 @@ security:
   name: Genome Trust Center
   slug: genome-trust-center
   summary_line: ISO/IEC 27001:2022, ISO/IEC 27701:2019, PCI DSS
+skill_count: 3
+skills:
+- name: genome-card-authorize-and-capture
+  slug: genome-card-authorize-and-capture
+- name: genome-card-payout
+  slug: genome-card-payout
+- name: genome-reconcile-transactions
+  slug: genome-reconcile-transactions
 slug: genome
 tags:
 - Finance

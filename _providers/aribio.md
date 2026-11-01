@@ -14,31 +14,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aribio/refs/heads/main/hosts/aribio-hosts.yml
+  href: https://artifacts.apis.io/aribio/hosts/aribio-hosts.yml
   title: ''
   type: Hosts
   url: hosts/aribio-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aribio/refs/heads/main/vendors/aribio-vendors.yml
+  href: https://artifacts.apis.io/aribio/vendors/aribio-vendors.yml
   title: ''
   type: Vendors
   url: vendors/aribio-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aribio/refs/heads/main/security/aribio-domain-security.yml
+  href: https://artifacts.apis.io/aribio/security/aribio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aribio-domain-security.yml
@@ -62,12 +64,12 @@ name: AriBio
 nav: Providers
 network: true
 overview: AriBio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Biotechnology, Artificial Intelligence, Energy, Data Center, and South Korea.
-random_paper: 14
+random_paper: 6
 score:
   band: minimal
   composite: 3.5
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -97,14 +99,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aribio/refs/heads/main/screenshots/aribio-2026-10-11T100257.png
+screenshot: https://apis.io/screenshots/aribio/aribio-2026-10-11T100257.png
 security:
 - kind: domain-security
   name: Aribio Domain Security

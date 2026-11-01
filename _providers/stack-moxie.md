@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 27.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 43
   slug: stack-moxie-agentic-access
   summary_line: 43 operations · 23 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://app.stackmoxie.com/api/
   baseurl_source: declared
@@ -69,20 +71,20 @@ apis:
   description: Use these calls to define test Scenarios, Run them, and retrieve their results.
   name: 'Stack Moxie How To: Test API'
   slug: stack-moxie-how-to-test-api
-artifact_total: 12
+artifact_total: 17
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/capabilities/stack-moxie-capability-edges.yml
+  href: https://artifacts.apis.io/stack-moxie/capabilities/stack-moxie-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/stack-moxie-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/agentic-access/stack-moxie-agentic-access.yml
+  href: https://artifacts.apis.io/stack-moxie/agentic-access/stack-moxie-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stack-moxie-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/authentication/stack-moxie-authentication.yml
+  href: https://artifacts.apis.io/stack-moxie/authentication/stack-moxie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stack-moxie-authentication.yml
@@ -91,57 +93,57 @@ common:
   type: APIReference
   url: https://api.stackmoxie.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/_original/stack-moxie-rest-api-openapi.yml
+  href: https://artifacts.apis.io/stack-moxie/openapi/_original/stack-moxie-rest-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/stack-moxie-rest-api-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/overlays/stack-moxie-rest-api-overlay.yaml
+  href: https://artifacts.apis.io/stack-moxie/overlays/stack-moxie-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stack-moxie-rest-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/errors/stack-moxie-problem-types.yml
+  href: https://artifacts.apis.io/stack-moxie/errors/stack-moxie-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/stack-moxie-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/errors/stack-moxie-outcome-codes.yml
+  href: https://artifacts.apis.io/stack-moxie/errors/stack-moxie-outcome-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/stack-moxie-outcome-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/conventions/stack-moxie-conventions.yml
+  href: https://artifacts.apis.io/stack-moxie/conventions/stack-moxie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stack-moxie-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/data-model/stack-moxie-data-model.yml
+  href: https://artifacts.apis.io/stack-moxie/data-model/stack-moxie-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stack-moxie-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/conformance/stack-moxie-conformance.yml
+  href: https://artifacts.apis.io/stack-moxie/conformance/stack-moxie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stack-moxie-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/rate-limits/stack-moxie-rate-limits.yml
+  href: https://artifacts.apis.io/stack-moxie/rate-limits/stack-moxie-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stack-moxie-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/plans/stack-moxie-plans-pricing.yml
+  href: https://artifacts.apis.io/stack-moxie/plans/stack-moxie-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stack-moxie-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/stack-moxie/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/packages/stack-moxie-packages.yml
+  href: https://artifacts.apis.io/stack-moxie/packages/stack-moxie-packages.yml
   title: ''
   type: SDKs
   url: packages/stack-moxie-packages.yml
@@ -202,32 +204,32 @@ common:
   type: StatusPage
   url: https://www.stackmoxie.com/app-status/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/cli/stack-moxie-cli.yml
+  href: https://artifacts.apis.io/stack-moxie/cli/stack-moxie-cli.yml
   title: ''
   type: CLI
   url: cli/stack-moxie-cli.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/grpc/stack-moxie-cog.proto
+  href: https://artifacts.apis.io/stack-moxie/grpc/stack-moxie-cog.proto
   title: ''
   type: Protobuf
   url: grpc/stack-moxie-cog.proto
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/packages/stack-moxie-packages.yml
+  href: https://artifacts.apis.io/stack-moxie/packages/stack-moxie-packages.yml
   title: ''
   type: Packages
   url: packages/stack-moxie-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/changelog/stack-moxie-changelog.yml
+  href: https://artifacts.apis.io/stack-moxie/changelog/stack-moxie-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/stack-moxie-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/lifecycle/stack-moxie-lifecycle.yml
+  href: https://artifacts.apis.io/stack-moxie/lifecycle/stack-moxie-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stack-moxie-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/llms/stack-moxie-llms.txt
+  href: https://artifacts.apis.io/stack-moxie/llms/stack-moxie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stack-moxie-llms.txt
@@ -240,22 +242,30 @@ common:
   type: Security
   url: https://www.stackmoxie.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/security/stack-moxie-trust-center.yml
+  href: https://artifacts.apis.io/stack-moxie/security/stack-moxie-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/stack-moxie-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/security/stack-moxie-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/stack-moxie/security/stack-moxie-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stack-moxie-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/security/stack-moxie-domain-security.yml
+  href: https://artifacts.apis.io/stack-moxie/security/stack-moxie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stack-moxie-domain-security.yml
 created: '2026-07-17'
 description: 'Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents, and QAs campaign launches so teams ship error-free. It ships two developer surfaces: a hosted REST API (OpenAPI 3.0.1, 43 operations, JWT bearer auth, base https://app.stackmoxie.com/api/) for creating, running, scheduling and monitoring test Scenarios programmatically; and the open-source Crank CLI - a no-code BDD test runner - with its ecosystem of gRPC "Cog" plugins for Salesforce, Marketo, Pardot, Eloqua, HubSpot, Dynamics, OpenAI, web, inbox, DNS and more.'
+finops:
+- has_sources: true
+  method: derived
+  name: Stack Moxie Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: stack-moxie-finops
+  template: false
 image: https://stackmoxie.com/favicon.ico
 layout: provider
 modified: '2026-09-16'
@@ -270,30 +280,33 @@ plans:
 - name: Stack Moxie Plans Pricing
   plan_count: 4
   slug: stack-moxie-plans-pricing
-random_paper: 3
+- name: Stack Moxie Price Estimates
+  plan_count: 0
+  slug: stack-moxie-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Stack Moxie Rate Limits
   slug: stack-moxie-rate-limits
 score:
   band: strong
-  composite: 64.5
+  composite: 63.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 49.2
     developer_ergonomics: 73.2
     discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 64.5
+    operational_transparency: 47.4
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -310,13 +323,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/screenshots/stack-moxie-2026-08-17T082056.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stack-moxie/stack-moxie-2026-08-17T082056.png
 security:
 - kind: authentication
   name: Stack Moxie Authentication
@@ -334,6 +348,14 @@ security:
   name: Stack Moxie Trust Center
   slug: stack-moxie-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 3
+skills:
+- name: Build a Crank Cog for a new platform
+  slug: stack-moxie-build-a-cog
+- name: Run a Crank scenario against a SaaS stack
+  slug: stack-moxie-run-a-crank-scenario
+- name: Run and monitor a Stack Moxie test scenario over the REST API
+  slug: stack-moxie-run-a-scenario-via-rest-api
 slug: stack-moxie
 tags:
 - Company

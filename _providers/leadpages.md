@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.6
-  scored_at: '2026-10-17'
+  score: 45.4
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: RESTful API covering the full Leadpages platform across eight documented endpoint categories — Pages, Sites, Assets, Blogs, Analytics, Forms, Domains and Brand Kits — with JSON responses and bearer-to
@@ -50,7 +52,7 @@ apis:
 - description: Agent2Agent endpoint for a nine-agent marketing team — Otto, Piper, Cash, Iris, Ray, Milo, Penn, Vera and Cam — that watches campaigns, proposes optimizations and, with explicit approval, executes cha
   name: Leadpages A2A Agent
   slug: leadpages-a2a-agent
-artifact_total: 12
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Leadpages Webhooks
@@ -113,77 +115,77 @@ common:
   type: Compliance
   url: https://leadpages.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/security/leadpages-trust-center.yml
+  href: https://artifacts.apis.io/leadpages/security/leadpages-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/leadpages-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/security/leadpages-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/leadpages/security/leadpages-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/leadpages-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/security/leadpages-domain-security.yml
+  href: https://artifacts.apis.io/leadpages/security/leadpages-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leadpages-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/well-known/leadpages-well-known.yml
+  href: https://artifacts.apis.io/leadpages/well-known/leadpages-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/leadpages-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/a2a/leadpages-a2a.yml
+  href: https://artifacts.apis.io/leadpages/a2a/leadpages-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/leadpages-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/mcp/leadpages-mcp.yml
+  href: https://artifacts.apis.io/leadpages/mcp/leadpages-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/leadpages-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/authentication/leadpages-authentication.yml
+  href: https://artifacts.apis.io/leadpages/authentication/leadpages-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leadpages-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/scopes/leadpages-scopes.yml
+  href: https://artifacts.apis.io/leadpages/scopes/leadpages-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/leadpages-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/llms/leadpages-llms.txt
+  href: https://artifacts.apis.io/leadpages/llms/leadpages-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leadpages-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/plans/leadpages-plans-pricing.yml
+  href: https://artifacts.apis.io/leadpages/plans/leadpages-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/leadpages-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/rate-limits/leadpages-rate-limits.yml
+  href: https://artifacts.apis.io/leadpages/rate-limits/leadpages-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/leadpages-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/conformance/leadpages-conformance.yml
+  href: https://artifacts.apis.io/leadpages/conformance/leadpages-conformance.yml
   title: ''
   type: Conformance
   url: conformance/leadpages-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/lifecycle/leadpages-lifecycle.yml
+  href: https://artifacts.apis.io/leadpages/lifecycle/leadpages-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/leadpages-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/conventions/leadpages-conventions.yml
+  href: https://artifacts.apis.io/leadpages/conventions/leadpages-conventions.yml
   title: ''
   type: Conventions
   url: conventions/leadpages-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/asyncapi/leadpages-webhooks.yml
+  href: https://artifacts.apis.io/leadpages/asyncapi/leadpages-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/leadpages-webhooks.yml
@@ -193,6 +195,14 @@ common:
   url: mailto:press@leadpages.com
 created: '2026-08-12'
 description: Leadpages is an AI web platform with built-in conversion optimization, part of the Redbrick family of brands. It builds and hosts landing pages, multi-page sites and blogs that improve themselves through A/B testing, Smart Traffic variant routing, click and scroll heatmaps, dynamic text replacement and auto-personalization, with no traffic caps on any plan. For developers and agents it publishes a REST API covering pages, sites, assets, blogs, analytics, forms, custom domains and brand kits; a hosted Model Context Protocol server exposing 47 tools over OAuth 2.0 with PKCE; webhooks for page-publish, lead-capture and form-submission events; and an A2A agent card describing a nine-agent campaign team. Founded 2012 and rebuilt from scratch in 2026.
+finops:
+- has_sources: true
+  method: derived
+  name: Leadpages Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: leadpages-finops
+  template: false
 image: https://leadpages.com/og-image.png
 layout: provider
 mcp_servers:
@@ -214,7 +224,10 @@ plans:
 - name: Leadpages Plans Pricing
   plan_count: 6
   slug: leadpages-plans-pricing
-random_paper: 10
+- name: Leadpages Price Estimates
+  plan_count: 0
+  slug: leadpages-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Leadpages Rate Limits
@@ -226,23 +239,23 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.0
+  composite: 57.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 52.0
+    artifact_dirs: 19
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 80.0
-    operational_transparency: 21.1
-  previous_composite: 56.9
+    discoverability: 70.0
+    operational_transparency: 23.7
+  previous_composite: 56.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -252,14 +265,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/leadpages/refs/heads/main/screenshots/leadpages-2026-08-17T081052.png
+screenshot: https://apis.io/screenshots/leadpages/leadpages-2026-08-17T081052.png
 security:
 - kind: authentication
   name: Leadpages Authentication

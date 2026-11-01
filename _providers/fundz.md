@@ -14,7 +14,8 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,22 +24,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: na
-    mcp_server: false
+    idempotency: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.4
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 39.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: Company profiles, funding rounds, SEC filings and fund formations, keyed to real-time business events.
   name: Fundz API
@@ -76,7 +79,7 @@ apis:
 - description: 'The agent-facing Fundz surface, served on the same host under /v1/watch/*: AI-scored leads matched to an ICP, a raw business-event feed, a company watchlist, nightly market aggregates, and signed webh'
   name: FundzWatch API
   slug: fundzwatch-api
-artifact_total: 21
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Fundz Webhooks
@@ -102,12 +105,12 @@ collections:
   slug: open-fundz-products-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/capabilities/fundz-capability-edges.yml
+  href: https://artifacts.apis.io/fundz/capabilities/fundz-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fundz-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/security/fundz-domain-security.yml
+  href: https://artifacts.apis.io/fundz/security/fundz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fundz-domain-security.yml
@@ -132,17 +135,17 @@ common:
   type: LlmsText
   url: https://app.fundz.net/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/mcp/fundz-mcp.yml
+  href: https://artifacts.apis.io/fundz/mcp/fundz-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/fundz-mcp.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/plans/fundz-plans-pricing.yml
+  href: https://artifacts.apis.io/fundz/plans/fundz-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fundz-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/authentication/fundz-authentication.yml
+  href: https://artifacts.apis.io/fundz/authentication/fundz-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fundz-authentication.yml
@@ -151,67 +154,67 @@ common:
   type: GitHubRepository
   url: https://github.com/Fund-z/fundzwatch-mcp
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/packages/fundz-packages.yml
+  href: https://artifacts.apis.io/fundz/packages/fundz-packages.yml
   title: ''
   type: Packages
   url: packages/fundz-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/packages/fundz-packages.yml
+  href: https://artifacts.apis.io/fundz/packages/fundz-packages.yml
   title: ''
   type: SDKs
   url: packages/fundz-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/mcp/fundz-tool-crosswalk.yml
+  href: https://artifacts.apis.io/fundz/mcp/fundz-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/fundz-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/conventions/fundz-conventions.yml
+  href: https://artifacts.apis.io/fundz/conventions/fundz-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fundz-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/errors/fundz-problem-types.yml
+  href: https://artifacts.apis.io/fundz/errors/fundz-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fundz-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/rate-limits/fundz-rate-limits.yml
+  href: https://artifacts.apis.io/fundz/rate-limits/fundz-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fundz-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/lifecycle/fundz-lifecycle.yml
+  href: https://artifacts.apis.io/fundz/lifecycle/fundz-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fundz-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/conformance/fundz-conformance.yml
+  href: https://artifacts.apis.io/fundz/conformance/fundz-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fundz-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/data-model/fundz-data-model.yml
+  href: https://artifacts.apis.io/fundz/data-model/fundz-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fundz-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/sandbox/fundz-sandbox.yml
+  href: https://artifacts.apis.io/fundz/sandbox/fundz-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fundz-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/asyncapi/fundz-webhooks.yml
+  href: https://artifacts.apis.io/fundz/asyncapi/fundz-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fundz-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fundz/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/llms/fundz-llms.txt
+  href: https://artifacts.apis.io/fundz/llms/fundz-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fundz-llms.txt
@@ -261,6 +264,14 @@ common:
   url: https://www.fundz.net/fundz-data-licensing
 created: '2026-08-03'
 description: 'Fundz is an event-first business intelligence platform, founded 2015, tracking 200,000+ companies and surfacing funding rounds, executive changes, M&A activity, SEC filings (8-K, 10-K, 10-Q, Form D) and website modifications in real time. Rather than storing millions of static records it focuses on companies showing active signals, and scores them against each user''s criteria. The API exposes company profiles, fundings, SEC filings and fund formations from api.fundz.net with an API key in the Authorization header. It sits in the same category as Harmonic and Crunchbase, and competes explicitly on access: an API key is free and issued instantly with no card and no sales call, and pricing is published rather than quoted. Fundz also ships an MCP server listed on the official Model Context Protocol registry, and publishes an llms.txt.'
+finops:
+- has_sources: true
+  method: derived
+  name: Fundz Finops
+  primary_unit: ''
+  service_category: ''
+  slug: fundz-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fundz.png
 layout: provider
 mcp_servers:
@@ -280,21 +291,24 @@ overview: 'Fundz publishes 8 API contracts indexed on the [APIs.io](https://apis
   Fundz''s developer surface includes documentation, pricing, signup flow, authentication, sandbox, API reference, getting-started guide, and 28 more developer resources.'
 plans:
 - name: Fundz Plans Pricing
-  plan_count: 4
+  plan_count: 12
   slug: fundz-plans-pricing
 - name: Fundz Plans
   plan_count: 0
   slug: fundz-plans
-random_paper: 1
+- name: Fundz Price Estimates
+  plan_count: 0
+  slug: fundz-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Fundz Rate Limits
   slug: fundz-rate-limits
 score:
   band: strong
-  composite: 60.2
+  composite: 60.1
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -306,9 +320,9 @@ score:
     contract_governance: 4.5
     contract_quality: 61.8
     developer_ergonomics: 73.2
-    discoverability: 73.2
+    discoverability: 71.7
     operational_transparency: 44.7
-  previous_composite: 60.2
+  previous_composite: 60.1
   provenance:
     conformance: derived
     contracts:
@@ -324,14 +338,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/screenshots/fundz-2026-08-17T123449.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fundz/fundz-2026-08-17T123449.png
 security:
 - kind: authentication
   name: Fundz Authentication
@@ -341,6 +355,14 @@ security:
   name: Fundz Domain Security
   slug: fundz-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Reach Fundz data from an agent without a paid API key
+  slug: fundz-agent-access-via-mcp
+- name: Sweep every Fundz signal type for a target account list
+  slug: fundz-sweep-account-signals
+- name: Track new funding rounds with Fundz
+  slug: fundz-track-funding-rounds
 slug: fundz
 tags:
 - Business Intelligence

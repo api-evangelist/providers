@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,9 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -65,47 +67,47 @@ common:
   type: Compliance
   url: https://adversa.ai/security-trust/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adversa-ai/refs/heads/main/packages/adversa-ai-packages.yml
+  href: https://artifacts.apis.io/adversa-ai/packages/adversa-ai-packages.yml
   title: ''
   type: Packages
   url: packages/adversa-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adversa-ai/refs/heads/main/cli/adversa-ai-cli.yml
+  href: https://artifacts.apis.io/adversa-ai/cli/adversa-ai-cli.yml
   title: ''
   type: CLI
   url: cli/adversa-ai-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adversa-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/adversa-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adversa-ai/refs/heads/main/llms/adversa-ai-llms.txt
+  href: https://artifacts.apis.io/adversa-ai/llms/adversa-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adversa-ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adversa-ai/refs/heads/main/well-known/adversa-ai-well-known.yml
+  href: https://artifacts.apis.io/adversa-ai/well-known/adversa-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adversa-ai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adversa-ai/refs/heads/main/security/adversa-ai-domain-security.yml
+  href: https://artifacts.apis.io/adversa-ai/security/adversa-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adversa-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adversa-ai/refs/heads/main/security/adversa-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adversa-ai/security/adversa-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adversa-ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adversa-ai/refs/heads/main/security/adversa-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adversa-ai/security/adversa-ai-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/adversa-ai-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adversa-ai/refs/heads/main/conformance/adversa-ai-conformance.yml
+  href: https://artifacts.apis.io/adversa-ai/conformance/adversa-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adversa-ai-conformance.yml
@@ -121,10 +123,10 @@ overview: 'Adversa AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Adversa AI''s developer surface includes engineering blog, signup flow, CLI, and 13 more developer resources.'
-random_paper: 21
+random_paper: 5
 score:
   band: emerging
-  composite: 22.2
+  composite: 21.9
   coverage:
     artifact_dirs: 13
     catalog_earned: 27.0
@@ -138,9 +140,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 55.4
-    operational_transparency: 13.2
-  previous_composite: 22.2
+    discoverability: 48.2
+    operational_transparency: 15.8
+  previous_composite: 21.9
   provenance:
     conformance: first-party
     skills: first-party
@@ -158,14 +160,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/adversa-ai/refs/heads/main/screenshots/adversa-ai-2026-07-25T181710.png
+screenshot: https://apis.io/screenshots/adversa-ai/adversa-ai-2026-07-25T181710.png
 security:
 - kind: domain-security
   name: Adversa Ai Domain Security
@@ -179,6 +181,10 @@ security:
   name: Adversa Ai Trust Center
   slug: adversa-ai-trust-center
   summary_line: SOC 2 Type I, SOC 2 Type II, ISO 27001, GDPR, CCPA
+skill_count: 1
+skills:
+- name: secureclaw
+  slug: adversa-ai-secureclaw
 slug: adversa-ai
 tags:
 - Company

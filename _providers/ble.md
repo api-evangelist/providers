@@ -4,6 +4,6 @@ layout: provider
 name: ble
 nav: Providers
 network: true
-random_paper: 21
+random_paper: 19
 slug: ble
 ---

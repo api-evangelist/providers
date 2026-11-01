@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -76,32 +78,32 @@ apis:
 artifact_total: 21
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/rate-limits/btcmarkets-rate-limits.yml
+  href: https://artifacts.apis.io/btcmarkets/rate-limits/btcmarkets-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/btcmarkets-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/agentic-access/btcmarkets-agentic-access.yml
+  href: https://artifacts.apis.io/btcmarkets/agentic-access/btcmarkets-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/btcmarkets-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/rules/btcmarkets-rules.yml
+  href: https://artifacts.apis.io/btcmarkets/rules/btcmarkets-rules.yml
   title: ''
   type: Spectral
   url: rules/btcmarkets-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/json-ld/btcmarkets-context.jsonld
+  href: https://artifacts.apis.io/btcmarkets/json-ld/btcmarkets-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/btcmarkets-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/vocabulary/btcmarkets-vocabulary.yml
+  href: https://artifacts.apis.io/btcmarkets/vocabulary/btcmarkets-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/btcmarkets-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/data-model/btcmarkets-data-model.yml
+  href: https://artifacts.apis.io/btcmarkets/data-model/btcmarkets-data-model.yml
   title: ''
   type: DataModel
   url: data-model/btcmarkets-data-model.yml
@@ -110,67 +112,67 @@ common:
   type: Compliance
   url: https://trust.btcmarkets.net/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/errors/btcmarkets-problem-types.yml
+  href: https://artifacts.apis.io/btcmarkets/errors/btcmarkets-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/btcmarkets-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/conformance/btcmarkets-conformance.yml
+  href: https://artifacts.apis.io/btcmarkets/conformance/btcmarkets-conformance.yml
   title: ''
   type: Conformance
   url: conformance/btcmarkets-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/well-known/btcmarkets-v3-security.txt
+  href: https://artifacts.apis.io/btcmarkets/well-known/btcmarkets-v3-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/btcmarkets-v3-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/well-known/btcmarkets-status-security.txt
+  href: https://artifacts.apis.io/btcmarkets/well-known/btcmarkets-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/btcmarkets-status-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/well-known/btcmarkets-security.txt
+  href: https://artifacts.apis.io/btcmarkets/well-known/btcmarkets-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/btcmarkets-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/well-known/btcmarkets-docs-security.txt
+  href: https://artifacts.apis.io/btcmarkets/well-known/btcmarkets-docs-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/btcmarkets-docs-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/well-known/btcmarkets-app-security.txt
+  href: https://artifacts.apis.io/btcmarkets/well-known/btcmarkets-app-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/btcmarkets-app-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/well-known/btcmarkets-api-security.txt
+  href: https://artifacts.apis.io/btcmarkets/well-known/btcmarkets-api-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/btcmarkets-api-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/well-known/btcmarkets-well-known.yml
+  href: https://artifacts.apis.io/btcmarkets/well-known/btcmarkets-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/btcmarkets-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/hosts/btcmarkets-hosts.yml
+  href: https://artifacts.apis.io/btcmarkets/hosts/btcmarkets-hosts.yml
   title: ''
   type: Hosts
   url: hosts/btcmarkets-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/vendors/btcmarkets-vendors.yml
+  href: https://artifacts.apis.io/btcmarkets/vendors/btcmarkets-vendors.yml
   title: ''
   type: Vendors
   url: vendors/btcmarkets-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/packages/btcmarkets-packages.yml
+  href: https://artifacts.apis.io/btcmarkets/packages/btcmarkets-packages.yml
   title: ''
   type: SDKs
   url: packages/btcmarkets-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/packages/btcmarkets-packages.yml
+  href: https://artifacts.apis.io/btcmarkets/packages/btcmarkets-packages.yml
   title: ''
   type: Packages
   url: packages/btcmarkets-packages.yml
@@ -199,17 +201,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/BTCMarkets
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/security/btcmarkets-trust-center.yml
+  href: https://artifacts.apis.io/btcmarkets/security/btcmarkets-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/btcmarkets-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/security/btcmarkets-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/btcmarkets/security/btcmarkets-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/btcmarkets-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/btcmarkets/refs/heads/main/security/btcmarkets-domain-security.yml
+  href: https://artifacts.apis.io/btcmarkets/security/btcmarkets-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/btcmarkets-domain-security.yml
@@ -292,18 +294,19 @@ rules:
   slug: btcmarkets-rules
 score:
   band: developing
-  composite: 49.5
+  composite: 49.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.6
   facets:
     access_clarity: 60.5
     contract_governance: 22.0
-    contract_quality: 59.3
+    contract_quality: 56.7
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 63.2
@@ -314,6 +317,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -329,11 +333,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 27.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Btcmarkets Domain Security

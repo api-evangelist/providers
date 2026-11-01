@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Production API host operated by 4G Clinical on AWS API Gateway at api.4gclinical.com. Anonymous requests to every probed path return HTTP 403 ForbiddenException, so no route, contract or discovery doc
@@ -68,47 +70,47 @@ common:
   type: Security
   url: https://www.4gclinical.com/vulnerability-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/4gclinical/refs/heads/main/security/4gclinical-trust-center.yml
+  href: https://artifacts.apis.io/4gclinical/security/4gclinical-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/4gclinical-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/4gclinical/refs/heads/main/security/4gclinical-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/4gclinical/security/4gclinical-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/4gclinical-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/4gclinical/refs/heads/main/security/4gclinical-domain-security.yml
+  href: https://artifacts.apis.io/4gclinical/security/4gclinical-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/4gclinical-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/4gclinical/refs/heads/main/conformance/4gclinical-conformance.yml
+  href: https://artifacts.apis.io/4gclinical/conformance/4gclinical-conformance.yml
   title: ''
   type: Conformance
   url: conformance/4gclinical-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/4gclinical/refs/heads/main/lifecycle/4gclinical-lifecycle.yml
+  href: https://artifacts.apis.io/4gclinical/lifecycle/4gclinical-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/4gclinical-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/4gclinical/refs/heads/main/plans/4gclinical-plans-pricing.yml
+  href: https://artifacts.apis.io/4gclinical/plans/4gclinical-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/4gclinical-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/4gclinical/refs/heads/main/rate-limits/4gclinical-rate-limits.yml
+  href: https://artifacts.apis.io/4gclinical/rate-limits/4gclinical-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/4gclinical-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/4gclinical/refs/heads/main/packages/4gclinical-packages.yml
+  href: https://artifacts.apis.io/4gclinical/packages/4gclinical-packages.yml
   title: ''
   type: Packages
   url: packages/4gclinical-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/4gclinical/refs/heads/main/llms/4gclinical-llms.txt
+  href: https://artifacts.apis.io/4gclinical/llms/4gclinical-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/4gclinical-llms.txt
@@ -142,14 +144,14 @@ plans:
 - name: 4Gclinical Plans Pricing
   plan_count: 0
   slug: 4gclinical-plans-pricing
-random_paper: 18
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: 4Gclinical Rate Limits
   slug: 4gclinical-rate-limits
 score:
   band: emerging
-  composite: 19.7
+  composite: 21.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -159,12 +161,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 66.1
-    operational_transparency: 13.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -172,7 +174,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 19.7
+  previous_composite: 21.4
   provenance:
     conformance: first-party
   regulatory:
@@ -187,14 +189,14 @@ score:
     regime: Health
     regime_id: health
     score: 20.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/4gclinical/refs/heads/main/screenshots/4gclinical-2026-10-11T092122.png
+screenshot: https://apis.io/screenshots/4gclinical/4gclinical-2026-10-11T092122.png
 security:
 - kind: domain-security
   name: 4Gclinical Domain Security

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -44,7 +46,7 @@ name: Tome Bioscience
 nav: Providers
 network: true
 overview: Tome Bioscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Genome Editing, Gene Therapy, and CRISPR.
-random_paper: 8
+random_paper: 14
 score:
   band: minimal
   composite: 3.0
@@ -68,14 +70,6 @@ score:
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 3.0
   regulatory:
     applies: true
@@ -83,8 +77,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

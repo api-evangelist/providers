@@ -1,0 +1,177 @@
+---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 5.4
+  scored_at: '2026-10-31'
+api_count: 1
+apis:
+- description: OpenAI-compatible model-inference API over Infini-AI's catalog of open- and closed-source models. Bearer (API Key) authentication; chat/completions, models, embeddings and image/video generation endpo
+  name: Infini-AI GenStudio Large-Model Service (MaaS)
+  slug: infini-ai-genstudio-large-model-service-maas
+artifact_total: 3
+common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://cloud.infini-ai.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.infini-ai.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://cloud.infini-ai.com/gen-studio/api/reference/maas.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://cloud.infini-ai.com/gen-studio/api/get-started/overview.html
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://cloud.infini-ai.com/gen-studio/api/usage-and-billing/billing.html
+- group: start
+  title: ''
+  type: SignUp
+  url: https://cloud.infini-ai.com
+- group: auth
+  href: https://artifacts.apis.io/infini-ai/authentication/infini-ai-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/infini-ai-authentication.yml
+- group: design
+  href: https://artifacts.apis.io/infini-ai/errors/infini-ai-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/infini-ai-problem-types.yml
+- group: design
+  href: https://artifacts.apis.io/infini-ai/conventions/infini-ai-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/infini-ai-conventions.yml
+- group: design
+  href: https://artifacts.apis.io/infini-ai/lifecycle/infini-ai-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/infini-ai-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/infini-ai/conformance/infini-ai-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/infini-ai-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/infini-ai/llms/infini-ai-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/infini-ai-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/infini-ai/security/infini-ai-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/infini-ai-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://docs.infini-ai.com
+created: '2026-07-17'
+description: Infini-AI (无问芯穹 / Infinigence AI) is a Chinese AGI compute and model-service platform, backed by Qiming, that helps teams optimize model development, fine-tuning, and inference across heterogeneous compute. Its GenStudio large-model service (MaaS) exposes an OpenAI-compatible REST API over a broad catalog of open- and closed-source models (LLM chat/completions plus image and video generation), with LoRA/SFT fine-tuning and multi-LoRA deployment. The platform also offers a fully managed ComfyUI workflow-hosting service (with a WebSocket API) and an Agent Service Platform for building and deploying agent applications and skills. Developers authenticate with a tenant-managed API Key sent as a Bearer token; tenant/IAM, usage analytics, rate limits, billing, and error-code references are documented at docs.infini-ai.com and the cloud console.
+image: https://content.cloud.infini-ai.com/platform-web-prod/logo_small.png
+layout: provider
+modified: '2026-07-18'
+name: Infini-AI (无问芯穹)
+nav: Providers
+network: true
+overview: 'Infini-AI (无问芯穹) is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM, and Model as a Service.
+
+
+  Infini-AI (无问芯穹)''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 8 more developer resources.'
+random_paper: 20
+score:
+  band: emerging
+  composite: 22.0
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 23.7
+    contract_governance: 4.5
+    contract_quality: 0.0
+    developer_ergonomics: 50.0
+    discoverability: 66.1
+    operational_transparency: 0.0
+  provenance:
+    conformance: derived
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 15.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/infini-ai/infini-ai-2026-07-25T212217.png
+security:
+- kind: authentication
+  name: Infini Ai Authentication
+  slug: infini-ai-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Infini Ai Domain Security
+  slug: infini-ai-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: infini-ai
+tags:
+- Company
+- Artificial Intelligence
+- Machine Learning
+- LLM
+- Model as a Service
+- Inference
+- ComfyUI
+- Agents
+- AGI Compute
+- OpenAI-Compatible
+website: https://docs.infini-ai.com
+---

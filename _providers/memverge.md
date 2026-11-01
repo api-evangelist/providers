@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/memverge/refs/heads/main/security/memverge-domain-security.yml
+  href: https://artifacts.apis.io/memverge/security/memverge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/memverge-domain-security.yml
@@ -66,17 +68,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/MemVerge
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/memverge/refs/heads/main/cli/memverge-cli.yml
+  href: https://artifacts.apis.io/memverge/cli/memverge-cli.yml
   title: ''
   type: CLI
   url: cli/memverge-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/memverge/refs/heads/main/packages/memverge-packages.yml
+  href: https://artifacts.apis.io/memverge/packages/memverge-packages.yml
   title: ''
   type: Packages
   url: packages/memverge-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/memverge/refs/heads/main/packages/memverge-packages.yml
+  href: https://artifacts.apis.io/memverge/packages/memverge-packages.yml
   title: ''
   type: SDKs
   url: packages/memverge-packages.yml
@@ -92,10 +94,10 @@ overview: 'MemVerge is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   MemVerge''s developer surface includes developer portal, documentation, API reference, engineering blog, CLI, and 5 more developer resources.'
-random_paper: 20
+random_paper: 16
 score:
   band: emerging
-  composite: 12.6
+  composite: 13.0
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -110,22 +112,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 42.9
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 12.6
+    operational_transparency: 5.3
+  previous_composite: 13.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/memverge/refs/heads/main/screenshots/memverge-2026-08-07T172511.png
+screenshot: https://apis.io/screenshots/memverge/memverge-2026-08-07T172511.png
 security:
 - kind: domain-security
   name: Memverge Domain Security

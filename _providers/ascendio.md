@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API (/api/v1) for managing Ascend workspaces, deployments, environments, projects, profiles, flows, flow runs, and Otto. Service-account Bearer authentication.
   name: Ascend Instance API
   slug: ascend-instance-api
-artifact_total: 4
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -79,67 +81,67 @@ common:
   type: Support
   url: https://docs.ascend.io/support
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/packages/ascendio-packages.yml
+  href: https://artifacts.apis.io/ascendio/packages/ascendio-packages.yml
   title: ''
   type: Packages
   url: packages/ascendio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/packages/ascendio-packages.yml
+  href: https://artifacts.apis.io/ascendio/packages/ascendio-packages.yml
   title: ''
   type: SDKs
   url: packages/ascendio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/cli/ascendio-cli.yml
+  href: https://artifacts.apis.io/ascendio/cli/ascendio-cli.yml
   title: ''
   type: CLI
   url: cli/ascendio-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/mcp/ascendio-mcp.yml
+  href: https://artifacts.apis.io/ascendio/mcp/ascendio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ascendio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ascendio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/authentication/ascendio-authentication.yml
+  href: https://artifacts.apis.io/ascendio/authentication/ascendio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ascendio-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/conventions/ascendio-conventions.yml
+  href: https://artifacts.apis.io/ascendio/conventions/ascendio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ascendio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/errors/ascendio-error-codes.yml
+  href: https://artifacts.apis.io/ascendio/errors/ascendio-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ascendio-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/lifecycle/ascendio-lifecycle.yml
+  href: https://artifacts.apis.io/ascendio/lifecycle/ascendio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ascendio-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/data-model/ascendio-data-model.yml
+  href: https://artifacts.apis.io/ascendio/data-model/ascendio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ascendio-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/conformance/ascendio-conformance.yml
+  href: https://artifacts.apis.io/ascendio/conformance/ascendio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ascendio-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/security/ascendio-domain-security.yml
+  href: https://artifacts.apis.io/ascendio/security/ascendio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ascendio-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/llms/ascendio-llms.txt
+  href: https://artifacts.apis.io/ascendio/llms/ascendio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ascendio-llms.txt
@@ -159,26 +161,26 @@ overview: 'Ascend.io is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Ascend.io''s developer surface includes engineering blog, documentation, API reference, quickstart, signup flow, support, CLI, and 15 more developer resources.'
-random_paper: 2
+random_paper: 22
 score:
-  band: emerging
-  composite: 22.9
+  band: thin
+  composite: 26.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 66.7
-    discoverability: 71.7
-    operational_transparency: 2.6
-  previous_composite: 22.4
+    developer_ergonomics: 78.6
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 26.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -189,14 +191,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ascendio/refs/heads/main/screenshots/ascendio-2026-07-25T201409.png
+screenshot: https://apis.io/screenshots/ascendio/ascendio-2026-07-25T201409.png
 security:
 - kind: authentication
   name: Ascendio Authentication
@@ -206,6 +208,18 @@ security:
   name: Ascendio Domain Security
   slug: ascendio-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 5
+skills:
+- name: ascend-tools-cli
+  slug: ascendio-tools-cli
+- name: ascend-tools-javascript
+  slug: ascendio-tools-javascript
+- name: ascend-tools-mcp
+  slug: ascendio-tools-mcp
+- name: ascend-tools-python
+  slug: ascendio-tools-python
+- name: ascend-tools-rust
+  slug: ascendio-tools-rust
 slug: ascendio
 tags:
 - Company

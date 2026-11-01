@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/resynergi/refs/heads/main/security/resynergi-domain-security.yml
+  href: https://artifacts.apis.io/resynergi/security/resynergi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/resynergi-domain-security.yml
@@ -68,27 +70,27 @@ common:
   type: FAQ
   url: https://resynergi.com/faqs/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resynergi/refs/heads/main/llms/resynergi-llms.txt
+  href: https://artifacts.apis.io/resynergi/llms/resynergi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/resynergi-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/resynergi/refs/heads/main/packages/resynergi-packages.yml
+  href: https://artifacts.apis.io/resynergi/packages/resynergi-packages.yml
   title: ''
   type: Packages
   url: packages/resynergi-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/resynergi/refs/heads/main/plans/resynergi-plans-pricing.yml
+  href: https://artifacts.apis.io/resynergi/plans/resynergi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/resynergi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/resynergi/refs/heads/main/rate-limits/resynergi-rate-limits.yml
+  href: https://artifacts.apis.io/resynergi/rate-limits/resynergi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/resynergi-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resynergi/refs/heads/main/conformance/resynergi-conformance.yml
+  href: https://artifacts.apis.io/resynergi/conformance/resynergi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/resynergi-conformance.yml
@@ -129,14 +131,14 @@ plans:
 - name: Resynergi Plans Pricing
   plan_count: 0
   slug: resynergi-plans-pricing
-random_paper: 16
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Resynergi Rate Limits
   slug: resynergi-rate-limits
 score:
   band: minimal
-  composite: 9.5
+  composite: 8.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -150,9 +152,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 58.3
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 9.5
+  previous_composite: 8.5
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -162,14 +164,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/resynergi/refs/heads/main/screenshots/resynergi-2026-09-02T153612.png
+screenshot: https://apis.io/screenshots/resynergi/resynergi-2026-09-02T153612.png
 security:
 - kind: domain-security
   name: Resynergi Domain Security

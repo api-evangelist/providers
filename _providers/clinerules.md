@@ -40,12 +40,12 @@ common:
   type: License
   url: https://github.com/cline/cline/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clinerules/refs/heads/main/security/clinerules-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/clinerules/security/clinerules-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/clinerules-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clinerules/refs/heads/main/security/clinerules-domain-security.yml
+  href: https://artifacts.apis.io/clinerules/security/clinerules-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clinerules-domain-security.yml
@@ -62,12 +62,12 @@ common:
   type: GitHubRepository
   url: https://github.com/cline/cline
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/clinerules/refs/heads/main/json-schema/clinerules-rule-schema.json
+  href: https://artifacts.apis.io/clinerules/json-schema/clinerules-rule-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/clinerules-rule-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clinerules/refs/heads/main/json-ld/clinerules-context.jsonld
+  href: https://artifacts.apis.io/clinerules/json-ld/clinerules-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/clinerules-context.jsonld
@@ -99,7 +99,7 @@ overview: '.clinerules is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   .clinerules'' developer surface includes engineering blog, documentation, and 13 more developer resources.'
-random_paper: 0
+random_paper: 22
 rules:
 - authorship: generated
   effective_rule_count: 4
@@ -112,7 +112,7 @@ rules:
     info: 1
     warn: 3
   slug: clinerules-jsonschema-spectral-rules
-screenshot: https://raw.githubusercontent.com/api-evangelist/clinerules/refs/heads/main/screenshots/clinerules-2026-06-20T174528.png
+screenshot: https://apis.io/screenshots/clinerules/clinerules-2026-06-20T174528.png
 security:
 - kind: domain-security
   name: Clinerules Domain Security

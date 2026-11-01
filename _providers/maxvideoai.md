@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,36 +25,36 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Remote MCP server (streamable-http, OAuth 2.1) exposing 14 tools to plan, compare and price AI video/image models, prepare an exact quote, approve a single paid generation, and recover results into a '
   name: MaxVideoAI MCP
   slug: maxvideoai-mcp
-artifact_total: 7
+artifact_total: 9
 common:
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/mcp/maxvideoai-tool-crosswalk.yml
+  href: https://artifacts.apis.io/maxvideoai/mcp/maxvideoai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/maxvideoai-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/hosts/maxvideoai-hosts.yml
+  href: https://artifacts.apis.io/maxvideoai/hosts/maxvideoai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/maxvideoai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/vendors/maxvideoai-vendors.yml
+  href: https://artifacts.apis.io/maxvideoai/vendors/maxvideoai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/maxvideoai-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/packages/maxvideoai-packages.yml
+  href: https://artifacts.apis.io/maxvideoai/packages/maxvideoai-packages.yml
   title: ''
   type: SDKs
   url: packages/maxvideoai-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/security/maxvideoai-domain-security.yml
+  href: https://artifacts.apis.io/maxvideoai/security/maxvideoai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/maxvideoai-domain-security.yml
@@ -105,72 +107,72 @@ common:
   type: StatusPage
   url: https://maxvideoai.com/status
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/authentication/maxvideoai-authentication.yml
+  href: https://artifacts.apis.io/maxvideoai/authentication/maxvideoai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/maxvideoai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/scopes/maxvideoai-scopes.yml
+  href: https://artifacts.apis.io/maxvideoai/scopes/maxvideoai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/maxvideoai-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/conventions/maxvideoai-conventions.yml
+  href: https://artifacts.apis.io/maxvideoai/conventions/maxvideoai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/maxvideoai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/conventions/maxvideoai-conventions.yml
+  href: https://artifacts.apis.io/maxvideoai/conventions/maxvideoai-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/maxvideoai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/errors/maxvideoai-problem-types.yml
+  href: https://artifacts.apis.io/maxvideoai/errors/maxvideoai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/maxvideoai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/lifecycle/maxvideoai-lifecycle.yml
+  href: https://artifacts.apis.io/maxvideoai/lifecycle/maxvideoai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/maxvideoai-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/changelog/maxvideoai-changelog.yml
+  href: https://artifacts.apis.io/maxvideoai/changelog/maxvideoai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/maxvideoai-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/conformance/maxvideoai-conformance.yml
+  href: https://artifacts.apis.io/maxvideoai/conformance/maxvideoai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/maxvideoai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/well-known/maxvideoai-well-known.yml
+  href: https://artifacts.apis.io/maxvideoai/well-known/maxvideoai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/maxvideoai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/llms/maxvideoai-llms.txt
+  href: https://artifacts.apis.io/maxvideoai/llms/maxvideoai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/maxvideoai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/maxvideoai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/packages/maxvideoai-packages.yml
+  href: https://artifacts.apis.io/maxvideoai/packages/maxvideoai-packages.yml
   title: ''
   type: Packages
   url: packages/maxvideoai-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/plans/maxvideoai-plans-pricing.yml
+  href: https://artifacts.apis.io/maxvideoai/plans/maxvideoai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/maxvideoai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/rate-limits/maxvideoai-rate-limits.yml
+  href: https://artifacts.apis.io/maxvideoai/rate-limits/maxvideoai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/maxvideoai-rate-limits.yml
@@ -218,7 +220,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.9
+  composite: 37.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 34.0
@@ -226,15 +228,15 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.7
-    discoverability: 70.0
+    discoverability: 60.0
     operational_transparency: 36.8
-  previous_composite: 39.2
+  previous_composite: 37.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -245,14 +247,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 35.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/maxvideoai/refs/heads/main/screenshots/maxvideoai-2026-10-11T110838.png
+screenshot: https://apis.io/screenshots/maxvideoai/maxvideoai-2026-10-11T110838.png
 security:
 - kind: authentication
   name: Maxvideoai Authentication
@@ -262,6 +264,12 @@ security:
   name: Maxvideoai Domain Security
   slug: maxvideoai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: generate
+  slug: maxvideoai-generate
+- name: plan
+  slug: maxvideoai-plan
 slug: maxvideoai
 tags:
 - Artificial Intelligence

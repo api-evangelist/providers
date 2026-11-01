@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -70,11 +72,8 @@ apis:
   description: Read vehicle signals and status data
   name: Smartcar Vehicle Data API
   slug: smartcar-vehicle-data-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Smartcar Vehicles Charging API
   slug: open-smartcar-charging-api
@@ -94,18 +93,22 @@ collections:
   name: Smartcar Vehicles API
   slug: open-smartcar-vehicles
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/smartcar/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/plans/smartcar-plans-pricing.yml
+  href: https://artifacts.apis.io/smartcar/plans/smartcar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/smartcar-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/rate-limits/smartcar-rate-limits.yml
+  href: https://artifacts.apis.io/smartcar/rate-limits/smartcar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/smartcar-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/finops/smartcar-finops.yml
+  href: https://artifacts.apis.io/smartcar/finops/smartcar-finops.yml
   title: ''
   type: FinOps
   url: finops/smartcar-finops.yml
@@ -114,27 +117,27 @@ common:
   type: Blog
   url: https://smartcar.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/capabilities/smartcar-capability-edges.yml
+  href: https://artifacts.apis.io/smartcar/capabilities/smartcar-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/smartcar-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/agentic-access/smartcar-agentic-access.yml
+  href: https://artifacts.apis.io/smartcar/agentic-access/smartcar-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/smartcar-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/security/smartcar-trust-center.yml
+  href: https://artifacts.apis.io/smartcar/security/smartcar-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/smartcar-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/security/smartcar-domain-security.yml
+  href: https://artifacts.apis.io/smartcar/security/smartcar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/smartcar-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/authentication/smartcar-authentication.yml
+  href: https://artifacts.apis.io/smartcar/authentication/smartcar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/smartcar-authentication.yml
@@ -163,37 +166,37 @@ common:
   type: Pricing
   url: https://smartcar.com/pricing/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/_original/smartcar-vehicles-openapi.yml
+  href: https://artifacts.apis.io/smartcar/openapi/_original/smartcar-vehicles-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/smartcar-vehicles-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/rules/smartcar-rules.yml
+  href: https://artifacts.apis.io/smartcar/rules/smartcar-rules.yml
   title: ''
   type: Spectral
   url: rules/smartcar-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/json-schema/smartcar-vehicle-schema.json
+  href: https://artifacts.apis.io/smartcar/json-schema/smartcar-vehicle-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/smartcar-vehicle-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/json-schema/smartcar-battery-schema.json
+  href: https://artifacts.apis.io/smartcar/json-schema/smartcar-battery-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/smartcar-battery-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/json-structure/smartcar-vehicles-structure.json
+  href: https://artifacts.apis.io/smartcar/json-structure/smartcar-vehicles-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/smartcar-vehicles-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/json-ld/smartcar-context.jsonld
+  href: https://artifacts.apis.io/smartcar/json-ld/smartcar-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/smartcar-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/vocabulary/smartcar-vocabulary.yml
+  href: https://artifacts.apis.io/smartcar/vocabulary/smartcar-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/smartcar-vocabulary.yml
@@ -213,7 +216,7 @@ finops:
 - has_sources: false
   method: generated
   name: Smartcar Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: smartcar-finops
   template: true
@@ -245,12 +248,12 @@ overview: 'Smartcar publishes 5 API contracts indexed on the [APIs.io](https://a
   The Smartcar catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Smartcar''s developer surface includes engineering blog, authentication, developer portal, documentation, pricing, and 17 more developer resources.'
+  Smartcar''s developer surface includes engineering blog, authentication, developer portal, documentation, pricing, and 18 more developer resources.'
 plans:
 - name: Smartcar Plans Pricing
   plan_count: 3
   slug: smartcar-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Smartcar Rate Limits
@@ -280,8 +283,8 @@ rules:
     warn: 4
   slug: smartcar-rules
 score:
-  band: thin
-  composite: 38.5
+  band: developing
+  composite: 40.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 58.0
@@ -289,15 +292,15 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 56.1
-    developer_ergonomics: 42.9
+    developer_ergonomics: 45.2
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 39.5
+    operational_transparency: 13.2
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -311,13 +314,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/screenshots/smartcar-2026-06-20T194039.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/smartcar/smartcar-2026-06-20T194039.png
 security:
 - kind: authentication
   name: Smartcar Authentication

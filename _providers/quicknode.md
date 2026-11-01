@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -59,55 +61,52 @@ apis:
 - description: Serverless on-chain logic runtime for executing custom code triggered by Streams or HTTP.
   name: QuickNode Functions
   slug: functions
-- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+- baseURL: https://api.quicknode.com/ipfs/rest
   baseurl_source: declared
   description: Fetch account usage information including bandwidth and storage metrics.
   name: QuickNode Account API
   slug: quicknode-account-api
-- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+- baseURL: https://api.quicknode.com/kv/rest/v1
   baseurl_source: declared
   description: Bulk-load operations against a database.
   name: QuickNode Batch API
   slug: quicknode-batch-api
-- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+- baseURL: https://api.quicknode.com/kv/rest/v1
   baseurl_source: declared
   description: Manage key-value namespaces (databases).
   name: QuickNode Database API
   slug: quicknode-database-api
-- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+- baseURL: https://api.quicknode.com/ipfs/rest
   baseurl_source: declared
   description: Create and manage gateways for retrieving content from the IPFS network.
   name: QuickNode Gateway API
   slug: quicknode-gateway-api
-- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+- baseURL: https://api.quicknode.com/kv/rest/v1
   baseurl_source: declared
   description: Read, write, and delete keys within a database.
   name: QuickNode Keys API
   slug: quicknode-keys-api
-- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+- baseURL: https://api.quicknode.com/streams/rest/v1
   baseurl_source: declared
   description: Inspect Stream execution logs.
   name: QuickNode Logs API
   slug: quicknode-logs-api
-- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+- baseURL: https://api.quicknode.com/ipfs/rest
   baseurl_source: declared
   description: Pin, view, and manage pinned content to ensure its availability on the IPFS network.
   name: QuickNode Pinning API
   slug: quicknode-pinning-api
-- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+- baseURL: https://api.quicknode.com/streams/rest/v1
   baseurl_source: declared
   description: Manage Streams definitions and lifecycle.
   name: QuickNode Streams API
   slug: quicknode-streams-api
-artifact_total: 40
+artifact_total: 39
 asyncapis:
 - description: AsyncAPI definition for QuickNode WebSocket subscription endpoints across Ethereum (and EVM-compatible chains) and Solana. All subscriptions use the JSON-RPC 2.0 envelope. After a successful subscript
   name: QuickNode WebSocket Subscription API
   slug: quicknode-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: QuickNode IPFS REST Account API
   slug: open-quicknode-account-api
@@ -142,37 +141,42 @@ collections:
   name: QuickNode Streams REST API
   slug: open-quicknode-streams
 common:
+- group: other
+  href: https://artifacts.apis.io/quicknode/capabilities/quicknode-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/quicknode-capability-edges.yml
 - group: company
   title: ''
   type: Blog
   url: https://www.quicknode.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/a2a/quicknode-a2a.yml
+  href: https://artifacts.apis.io/quicknode/a2a/quicknode-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/quicknode-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/agentic-access/quicknode-agentic-access.yml
+  href: https://artifacts.apis.io/quicknode/agentic-access/quicknode-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/quicknode-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/security/quicknode-trust-center.yml
+  href: https://artifacts.apis.io/quicknode/security/quicknode-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/quicknode-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/security/quicknode-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/quicknode/security/quicknode-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/quicknode-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/security/quicknode-domain-security.yml
+  href: https://artifacts.apis.io/quicknode/security/quicknode-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quicknode-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/authentication/quicknode-authentication.yml
+  href: https://artifacts.apis.io/quicknode/authentication/quicknode-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quicknode-authentication.yml
@@ -189,17 +193,17 @@ common:
   type: Website
   url: https://www.quicknode.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/plans/quicknode-plans-pricing.yml
+  href: https://artifacts.apis.io/quicknode/plans/quicknode-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/quicknode-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/rate-limits/quicknode-rate-limits.yml
+  href: https://artifacts.apis.io/quicknode/rate-limits/quicknode-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/quicknode-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/finops/quicknode-finops.yml
+  href: https://artifacts.apis.io/quicknode/finops/quicknode-finops.yml
   title: ''
   type: FinOps
   url: finops/quicknode-finops.yml
@@ -248,12 +252,12 @@ overview: 'QuickNode publishes 12 API contracts indexed on the [APIs.io](https:/
   The QuickNode catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  QuickNode''s developer surface includes engineering blog, authentication, support, and 11 more developer resources.'
+  QuickNode''s developer surface includes engineering blog, authentication, support, and 12 more developer resources.'
 plans:
 - name: Quicknode Plans Pricing
   plan_count: 5
   slug: quicknode-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Quicknode Rate Limits
@@ -284,23 +288,23 @@ rules:
   slug: quicknode-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.7
+  composite: 36.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 58.5
     catalog_earned_first_party: 0.0
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 54.3
     developer_ergonomics: 28.6
     discoverability: 71.4
-    operational_transparency: 10.5
-  previous_composite: 34.8
+    operational_transparency: 23.7
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -314,13 +318,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/screenshots/quicknode-2026-06-20T192434.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/quicknode/quicknode-2026-06-20T192434.png
 security:
 - kind: authentication
   name: Quicknode Authentication

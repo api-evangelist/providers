@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Versioned REST access to store data (products, orders, customers, inventory, fulfillment, discounts, and more) for SHOPLINE apps.
@@ -45,12 +47,17 @@ apis:
 - description: GraphQL storefront API for building custom storefront experiences.
   name: SHOPLINE Storefront API
   slug: shopline-storefront-api
-artifact_total: 7
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Shopline Webhooks
   slug: shopline-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/shopline/plans/shopline-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/shopline-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -108,77 +115,85 @@ common:
   type: PrivacyPolicy
   url: https://www.shopline.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/authentication/shopline-authentication.yml
+  href: https://artifacts.apis.io/shopline/authentication/shopline-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shopline-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/scopes/shopline-scopes.yml
+  href: https://artifacts.apis.io/shopline/scopes/shopline-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/shopline-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/conventions/shopline-conventions.yml
+  href: https://artifacts.apis.io/shopline/conventions/shopline-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shopline-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/lifecycle/shopline-lifecycle.yml
+  href: https://artifacts.apis.io/shopline/lifecycle/shopline-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shopline-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/changelog/shopline-changelog.yml
+  href: https://artifacts.apis.io/shopline/changelog/shopline-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/shopline-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/conformance/shopline-conformance.yml
+  href: https://artifacts.apis.io/shopline/conformance/shopline-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shopline-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/asyncapi/shopline-webhooks.yml
+  href: https://artifacts.apis.io/shopline/asyncapi/shopline-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/shopline-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/packages/shopline-packages.yml
+  href: https://artifacts.apis.io/shopline/packages/shopline-packages.yml
   title: ''
   type: Packages
   url: packages/shopline-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/packages/shopline-packages.yml
+  href: https://artifacts.apis.io/shopline/packages/shopline-packages.yml
   title: ''
   type: SDKs
   url: packages/shopline-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/cli/shopline-cli.yml
+  href: https://artifacts.apis.io/shopline/cli/shopline-cli.yml
   title: ''
   type: CLI
   url: cli/shopline-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/sandbox/shopline-sandbox.yml
+  href: https://artifacts.apis.io/shopline/sandbox/shopline-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/shopline-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/components/shopline-components.yml
+  href: https://artifacts.apis.io/shopline/components/shopline-components.yml
   title: ''
   type: Components
   url: components/shopline-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/llms/shopline-llms.txt
+  href: https://artifacts.apis.io/shopline/llms/shopline-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shopline-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/security/shopline-domain-security.yml
+  href: https://artifacts.apis.io/shopline/security/shopline-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shopline-domain-security.yml
 created: '2026-07-17'
 description: SHOPLINE is an all-in-one commerce platform that lets merchants sell across online stores, social channels, and offline point-of-sale, serving businesses from budding entrepreneurs to global brands across Australia, China, Hong Kong, Japan, Malaysia, Singapore, Taiwan, the United Kingdom, and the United States. The SHOPLINE Open Platform gives developers a versioned Admin REST API, an Admin GraphQL API, and a Storefront API for building apps, themes, and integrations. Apps authenticate with OAuth 2.0 (Custom and Public apps) or private-app tokens, request granular read_*/write_* access scopes, receive HMAC-signed webhooks, and are built with the SHOPLINE CLI against free development stores.
+finops:
+- has_sources: true
+  method: derived
+  name: Shopline Finops
+  primary_unit: store
+  service_category: ''
+  slug: shopline-finops
+  template: false
 image: https://s2cdn.myshopline.com/slfs/op-new/170236799353875/SEO_banner.png
 layout: provider
 modified: '2026-07-21'
@@ -191,32 +206,39 @@ overview: 'SHOPLINE is listed with 3 APIs on the [APIs.io](https://apis.io/) net
   The SHOPLINE catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  SHOPLINE''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 8
+  SHOPLINE''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
+plans:
+- name: Shopline Plans Pricing
+  plan_count: 9
+  slug: shopline-plans-pricing
+- name: Shopline Price Estimates
+  plan_count: 0
+  slug: shopline-price-estimates
+random_paper: 2
 scopes:
 - name: Shopline Scopes
   scope_count: 63
   slug: shopline-scopes
   summary_line: 63 scopes · authorizationCode
 score:
-  band: developing
-  composite: 50.6
+  band: strong
+  composite: 58.6
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 19
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 76.2
-    discoverability: 78.6
-    operational_transparency: 50.0
-  previous_composite: 50.6
+    developer_ergonomics: 78.6
+    discoverability: 71.4
+    operational_transparency: 52.6
+  previous_composite: 50.7
   provenance:
     conformance: derived
   regulatory:
@@ -225,14 +247,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/screenshots/shopline-2026-08-17T081839.png
+screenshot: https://apis.io/screenshots/shopline/shopline-2026-08-17T081839.png
 security:
 - kind: authentication
   name: Shopline Authentication

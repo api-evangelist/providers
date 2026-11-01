@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 33.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -69,15 +71,12 @@ arazzos:
 - description: Authenticate, create a signed payment request, and confirm the payment status.
   name: Pay1st - collect a payment
   slug: carry1st-collect-payment
-artifact_total: 14
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Carry1St Pay1St Webhooks
   slug: carry1st-pay1st-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Pay1st Gateway Authentication API
   slug: open-carry1st-authentication-api
@@ -92,7 +91,7 @@ collections:
   slug: open-carry1st-refunds-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/overlays/carry1st-pay1st-gateway-overlay.yaml
+  href: https://artifacts.apis.io/carry1st/overlays/carry1st-pay1st-gateway-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/carry1st-pay1st-gateway-overlay.yaml
@@ -133,37 +132,37 @@ common:
   type: Support
   url: https://www.carry1st.com/contact
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/changelog/carry1st-changelog.yml
+  href: https://artifacts.apis.io/carry1st/changelog/carry1st-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/carry1st-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/authentication/carry1st-authentication.yml
+  href: https://artifacts.apis.io/carry1st/authentication/carry1st-authentication.yml
   title: ''
   type: Authentication
   url: authentication/carry1st-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/conventions/carry1st-conventions.yml
+  href: https://artifacts.apis.io/carry1st/conventions/carry1st-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/carry1st-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/conventions/carry1st-conventions.yml
+  href: https://artifacts.apis.io/carry1st/conventions/carry1st-conventions.yml
   title: ''
   type: Conventions
   url: conventions/carry1st-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/errors/carry1st-problem-types.yml
+  href: https://artifacts.apis.io/carry1st/errors/carry1st-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/carry1st-problem-types.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/sandbox/carry1st-sandbox.yml
+  href: https://artifacts.apis.io/carry1st/sandbox/carry1st-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/carry1st-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/lifecycle/carry1st-lifecycle.yml
+  href: https://artifacts.apis.io/carry1st/lifecycle/carry1st-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/carry1st-lifecycle.yml
@@ -172,57 +171,57 @@ common:
   type: Deprecation
   url: https://pay1st-docs.carry1st.com/reference/gateway-migration-guide
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/security/carry1st-domain-security.yml
+  href: https://artifacts.apis.io/carry1st/security/carry1st-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carry1st-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/conformance/carry1st-conformance.yml
+  href: https://artifacts.apis.io/carry1st/conformance/carry1st-conformance.yml
   title: ''
   type: Conformance
   url: conformance/carry1st-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/well-known/carry1st-well-known.yml
+  href: https://artifacts.apis.io/carry1st/well-known/carry1st-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/carry1st-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/mcp/carry1st-mcp.yml
+  href: https://artifacts.apis.io/carry1st/mcp/carry1st-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/carry1st-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/llms/carry1st-llms.txt
+  href: https://artifacts.apis.io/carry1st/llms/carry1st-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/carry1st-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/packages/carry1st-packages.yml
+  href: https://artifacts.apis.io/carry1st/packages/carry1st-packages.yml
   title: ''
   type: Packages
   url: packages/carry1st-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/data-model/carry1st-data-model.yml
+  href: https://artifacts.apis.io/carry1st/data-model/carry1st-data-model.yml
   title: ''
   type: DataModel
   url: data-model/carry1st-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/asyncapi/carry1st-pay1st-webhooks.yml
+  href: https://artifacts.apis.io/carry1st/asyncapi/carry1st-pay1st-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/carry1st-pay1st-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/carry1st/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/agentic-access/carry1st-agentic-access.yml
+  href: https://artifacts.apis.io/carry1st/agentic-access/carry1st-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/carry1st-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/arazzo/carry1st-collect-payment.yml
+  href: https://artifacts.apis.io/carry1st/arazzo/carry1st-collect-payment.yml
   title: ''
   type: Arazzo
   url: arazzo/carry1st-collect-payment.yml
@@ -241,12 +240,12 @@ overview: 'Carry1st publishes 4 API contracts indexed on the [APIs.io](https://a
 
 
   Carry1st''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 22 more developer resources.'
-random_paper: 11
+random_paper: 9
 score:
   band: thin
-  composite: 30.4
+  composite: 34.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -257,9 +256,9 @@ score:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 22.6
-    developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 27.6
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -267,7 +266,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 30.4
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -284,13 +283,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/screenshots/carry1st-2026-07-25T204645.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/carry1st/carry1st-2026-07-25T204645.png
 security:
 - kind: authentication
   name: Carry1St Authentication
@@ -300,6 +300,12 @@ security:
   name: Carry1St Domain Security
   slug: carry1st-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Collect a payment with Pay1st
+  slug: carry1st-collect-payment
+- name: Refund a Pay1st transaction
+  slug: carry1st-refund-payment
 slug: carry1st
 tags:
 - Company

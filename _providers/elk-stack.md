@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: derived
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.4
-  scored_at: '2026-10-17'
+  score: 40.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1104
   human_in_the_loop: 57
@@ -46,7 +48,7 @@ agentic_access:
   operation_count: 1923
   slug: elk-stack-agentic-access
   summary_line: 1923 operations · 1104 acting · 57 human-in-the-loop
-api_count: 19
+api_count: 11
 apis:
 - baseURL: https://api.elastic-cloud.com/api/v1
   baseurl_source: declared
@@ -3293,15 +3295,12 @@ apis:
     question: Can I change settings like the replica count on an existing index?
   phrasing_ops: 4
   slug: elk-stack-index-api
-artifact_total: 152
+artifact_total: 155
 asyncapis:
 - description: ''
   name: Elk Stack Webhooks
   slug: elk-stack-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Elasticsearch REST Cat API
   slug: open-elk-stack-cat-api
@@ -3332,17 +3331,17 @@ common:
   type: License
   url: https://github.com/elastic/elasticsearch-specification/blob/main/LICENSE
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/capabilities/elk-stack-capability-edges.yml
+  href: https://artifacts.apis.io/elk-stack/capabilities/elk-stack-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/elk-stack-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/overlays/elk-stack-elasticsearch-overlay.yaml
+  href: https://artifacts.apis.io/elk-stack/overlays/elk-stack-elasticsearch-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elk-stack-elasticsearch-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/overlays/elk-stack-kibana-overlay.yaml
+  href: https://artifacts.apis.io/elk-stack/overlays/elk-stack-kibana-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/elk-stack-kibana-overlay.yaml
@@ -3407,165 +3406,165 @@ common:
   type: StatusPage
   url: https://status.elastic.co/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/llms/elk-stack-llms.txt
+  href: https://artifacts.apis.io/elk-stack/llms/elk-stack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/elk-stack-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/packages/elk-stack-packages.yml
+  href: https://artifacts.apis.io/elk-stack/packages/elk-stack-packages.yml
   title: ''
   type: Packages
   url: packages/elk-stack-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/packages/elk-stack-packages.yml
+  href: https://artifacts.apis.io/elk-stack/packages/elk-stack-packages.yml
   title: ''
   type: SDKs
   url: packages/elk-stack-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/cli/elk-stack-cli.yml
+  href: https://artifacts.apis.io/elk-stack/cli/elk-stack-cli.yml
   title: ''
   type: CLI
   url: cli/elk-stack-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/components/elk-stack-components.yml
+  href: https://artifacts.apis.io/elk-stack/components/elk-stack-components.yml
   title: ''
   type: Components
   url: components/elk-stack-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/well-known/elk-stack-well-known.yml
+  href: https://artifacts.apis.io/elk-stack/well-known/elk-stack-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/elk-stack-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/well-known/elk-stack-security.txt
+  href: https://artifacts.apis.io/elk-stack/well-known/elk-stack-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/elk-stack-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/mcp/elk-stack-mcp.yml
+  href: https://artifacts.apis.io/elk-stack/mcp/elk-stack-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/elk-stack-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/mcp/elk-stack-tool-crosswalk.yml
+  href: https://artifacts.apis.io/elk-stack/mcp/elk-stack-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/elk-stack-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/elk-stack/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/asyncapi/elk-stack-webhooks.yml
+  href: https://artifacts.apis.io/elk-stack/asyncapi/elk-stack-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/elk-stack-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/conformance/elk-stack-conformance.yml
+  href: https://artifacts.apis.io/elk-stack/conformance/elk-stack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/elk-stack-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/security/elk-stack-trust-center.yml
+  href: https://artifacts.apis.io/elk-stack/security/elk-stack-trust-center.yml
   title: ''
   type: Compliance
   url: security/elk-stack-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/errors/elk-stack-problem-types.yml
+  href: https://artifacts.apis.io/elk-stack/errors/elk-stack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/elk-stack-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/lifecycle/elk-stack-lifecycle.yml
+  href: https://artifacts.apis.io/elk-stack/lifecycle/elk-stack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/elk-stack-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/lifecycle/elk-stack-lifecycle.yml
+  href: https://artifacts.apis.io/elk-stack/lifecycle/elk-stack-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/elk-stack-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/changelog/elk-stack-changelog.yml
+  href: https://artifacts.apis.io/elk-stack/changelog/elk-stack-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/elk-stack-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/conventions/elk-stack-conventions.yml
+  href: https://artifacts.apis.io/elk-stack/conventions/elk-stack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/elk-stack-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/conventions/elk-stack-conventions.yml
+  href: https://artifacts.apis.io/elk-stack/conventions/elk-stack-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/elk-stack-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/data-model/elk-stack-data-model.yml
+  href: https://artifacts.apis.io/elk-stack/data-model/elk-stack-data-model.yml
   title: ''
   type: DataModel
   url: data-model/elk-stack-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/sandbox/elk-stack-sandbox.yml
+  href: https://artifacts.apis.io/elk-stack/sandbox/elk-stack-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/elk-stack-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/plans/elk-stack-plans-pricing.yml
+  href: https://artifacts.apis.io/elk-stack/plans/elk-stack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/elk-stack-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/rate-limits/elk-stack-rate-limits.yml
+  href: https://artifacts.apis.io/elk-stack/rate-limits/elk-stack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/elk-stack-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/authentication/elk-stack-authentication.yml
+  href: https://artifacts.apis.io/elk-stack/authentication/elk-stack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/elk-stack-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/security/elk-stack-domain-security.yml
+  href: https://artifacts.apis.io/elk-stack/security/elk-stack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/elk-stack-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/security/elk-stack-trust-center.yml
+  href: https://artifacts.apis.io/elk-stack/security/elk-stack-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/elk-stack-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/security/elk-stack-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/elk-stack/security/elk-stack-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/elk-stack-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/security/elk-stack-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/elk-stack/security/elk-stack-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/elk-stack-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/agentic-access/elk-stack-agentic-access.yml
+  href: https://artifacts.apis.io/elk-stack/agentic-access/elk-stack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/elk-stack-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/finops/elk-stack-finops.yml
+  href: https://artifacts.apis.io/elk-stack/finops/elk-stack-finops.yml
   title: ''
   type: FinOps
   url: finops/elk-stack-finops.yml
 created: '2024-01-01'
 description: 'The Elastic Stack (formerly known as the ELK Stack) is the collection of open-source products from Elastic — Elasticsearch, Logstash, Kibana, and Beats/Elastic Agent — designed for taking data from any source, in any format, and searching, analyzing, and visualizing it in real time. It is widely used for log management, observability, security analytics (SIEM), and increasingly as a vector database and retrieval layer for RAG and agentic AI applications. Elastic publishes machine-readable OpenAPI descriptions for all three of its programmable surfaces: the Elasticsearch REST API, the Kibana APIs, and the Elastic Cloud control-plane API. The stack is deployment-hosted — self-managed, Elastic Cloud Hosted, or Elastic Cloud Serverless — so the Elasticsearch and Kibana base URLs are always specific to the customer''s own cluster or project.'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Elk Stack Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: elk-stack-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elk-stack.png
 layout: provider
 mcp_servers:
@@ -3587,30 +3586,35 @@ plans:
 - name: Elk Stack Plans Pricing
   plan_count: 4
   slug: elk-stack-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Elk Stack Rate Limits
   slug: elk-stack-rate-limits
 score:
   band: exemplar
-  composite: 77.0
+  composite: 68.8
   coverage:
     artifact_dirs: 29
-    catalog_earned: 52.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 56.6
+    contract_quality: 54.7
     developer_ergonomics: 80.4
-    discoverability: 80.0
-    operational_transparency: 60.5
-  previous_composite: 78.5
+    discoverability: 76.7
+    operational_transparency: 63.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 67.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3618,7 +3622,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 132
+      total: 156
     mcp: first-party
     skills: derived
   regulatory:
@@ -3627,13 +3631,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 100.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/elk-stack/refs/heads/main/screenshots/elk-stack-2026-06-20T180610.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/elk-stack/elk-stack-2026-06-20T180610.png
 security:
 - kind: authentication
   name: Elk Stack Authentication
@@ -3651,6 +3656,16 @@ security:
   name: Elk Stack Trust Center
   slug: elk-stack-trust-center
   summary_line: FedRAMP High, FedRAMP Moderate, PCI DSS (Level 1 Service Provider), CSA STAR, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, SOC 2, SOC 3, TISAX, HIPAA, Cyber Essentials Plus, IRAP Assessed — Protected B, GDPR
+skill_count: 4
+skills:
+- name: elk-stack-esql-query
+  slug: elk-stack-esql-query
+- name: elk-stack-index-and-search
+  slug: elk-stack-index-and-search
+- name: elk-stack-provision-cloud-deployment
+  slug: elk-stack-provision-cloud-deployment
+- name: elk-stack-snapshot-before-destructive-change
+  slug: elk-stack-snapshot-before-destructive-change
 slug: elk-stack
 tags:
 - Analytics
@@ -3659,9 +3674,8 @@ tags:
 - Observability
 - Search
 - Security
-- Vector Database
+- Vector Search
 - SIEM
 - Machine Learning
-- Vector Search
 website: https://www.elastic.co/elastic-stack/
 ---

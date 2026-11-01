@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-17'
+  score: 26.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -280,7 +282,7 @@ arazzos:
 - description: Search Adobe Stock for video clips and license the top match for download.
   name: Adobe Stock Search and License Video
   slug: adobe-creative-suite-stock-search-and-license-video-workflow
-artifact_total: 359
+artifact_total: 358
 collections:
 - collection_type: postman
   name: Adobe Creative Suite Adobe Firefly API
@@ -294,9 +296,6 @@ collections:
 - collection_type: postman
   name: Adobe Creative Suite Adobe Stock API
   slug: postman-adobe-creative-suite-stock
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Adobe Creative Suite Adobe Firefly Accessibility API
   slug: open-adobe-creative-suite-accessibility-api
@@ -392,17 +391,17 @@ collections:
   slug: open-adobe-creative-suite-video-generation-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/plans/adobe-creative-suite-plans-pricing.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/plans/adobe-creative-suite-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adobe-creative-suite-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/rate-limits/adobe-creative-suite-rate-limits.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/rate-limits/adobe-creative-suite-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adobe-creative-suite-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/finops/adobe-creative-suite-finops.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/finops/adobe-creative-suite-finops.yml
   title: ''
   type: FinOps
   url: finops/adobe-creative-suite-finops.yml
@@ -411,27 +410,27 @@ common:
   type: Website
   url: https://www.adobe.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/capabilities/adobe-creative-suite-capability-edges.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/capabilities/adobe-creative-suite-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/adobe-creative-suite-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/agentic-access/adobe-creative-suite-agentic-access.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/agentic-access/adobe-creative-suite-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adobe-creative-suite-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/security/adobe-creative-suite-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/security/adobe-creative-suite-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adobe-creative-suite-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/security/adobe-creative-suite-domain-security.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/security/adobe-creative-suite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adobe-creative-suite-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/authentication/adobe-creative-suite-authentication.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/authentication/adobe-creative-suite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adobe-creative-suite-authentication.yml
@@ -440,132 +439,132 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adobe-creative-suite/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-firefly-expand-image-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-firefly-expand-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-firefly-expand-image-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-firefly-generate-similar-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-firefly-generate-similar-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-firefly-generate-similar-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-firefly-generative-fill-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-firefly-generative-fill-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-firefly-generative-fill-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-firefly-object-composite-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-firefly-object-composite-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-firefly-object-composite-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-firefly-text-to-image-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-firefly-text-to-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-firefly-text-to-image-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-firefly-text-to-video-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-firefly-text-to-video-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-firefly-text-to-video-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-autotag-accessibility-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-pdf-autotag-accessibility-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-autotag-accessibility-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-combine-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-pdf-combine-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-combine-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-compress-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-pdf-compress-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-compress-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-create-from-office-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-pdf-create-from-office-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-create-from-office-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-export-to-word-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-pdf-export-to-word-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-export-to-word-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-generate-document-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-pdf-generate-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-generate-document-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-linearize-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-pdf-linearize-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-linearize-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-pdf-ocr-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-pdf-ocr-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-pdf-ocr-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-photoshop-create-mask-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-photoshop-create-mask-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-photoshop-create-mask-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-photoshop-create-rendition-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-photoshop-create-rendition-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-photoshop-create-rendition-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-photoshop-edit-text-layers-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-photoshop-edit-text-layers-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-photoshop-edit-text-layers-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-photoshop-product-crop-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-photoshop-product-crop-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-photoshop-product-crop-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-photoshop-remove-background-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-photoshop-remove-background-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-photoshop-remove-background-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-stock-license-with-quota-check-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-stock-license-with-quota-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-stock-license-with-quota-check-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-stock-search-and-license-image-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-stock-search-and-license-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-stock-search-and-license-image-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/arazzo/adobe-creative-suite-stock-search-and-license-video-workflow.yml
+  href: https://artifacts.apis.io/adobe-creative-suite/arazzo/adobe-creative-suite-stock-search-and-license-video-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-creative-suite-stock-search-and-license-video-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/json-ld/adobe-creative-suite-context.jsonld
+  href: https://artifacts.apis.io/adobe-creative-suite/json-ld/adobe-creative-suite-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-creative-suite-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/json-schema/adobe-creative-suite-image-job-schema.json
+  href: https://artifacts.apis.io/adobe-creative-suite/json-schema/adobe-creative-suite-image-job-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/adobe-creative-suite-image-job-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/json-schema/adobe-creative-suite-firefly-generation-schema.json
+  href: https://artifacts.apis.io/adobe-creative-suite/json-schema/adobe-creative-suite-firefly-generation-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/adobe-creative-suite-firefly-generation-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/json-schema/adobe-creative-suite-stock-file-schema.json
+  href: https://artifacts.apis.io/adobe-creative-suite/json-schema/adobe-creative-suite-stock-file-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/adobe-creative-suite-stock-file-schema.json
@@ -1376,7 +1375,7 @@ plans:
 - name: Adobe Creative Suite Plans Pricing
   plan_count: 1
   slug: adobe-creative-suite-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Adobe Creative Suite Rate Limits
@@ -1406,8 +1405,8 @@ rules:
     warn: 7
   slug: adobe-creative-suite-spectral-rules
 score:
-  band: developing
-  composite: 50.2
+  band: strong
+  composite: 54.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 63.5
@@ -1415,15 +1414,15 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 66.4
     developer_ergonomics: 65.5
     discoverability: 62.5
-    operational_transparency: 15.8
-  previous_composite: 51.7
+    operational_transparency: 52.6
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1437,13 +1436,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/screenshots/adobe-creative-suite-2026-06-20T164857.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/adobe-creative-suite/adobe-creative-suite-2026-06-20T164857.png
 security:
 - kind: authentication
   name: Adobe Creative Suite Authentication

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 23.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.auswidebank.com.au/openbanking/cds-au/v1
@@ -74,9 +76,6 @@ apis:
 artifact_total: 18
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-auswide-bank-banking-account-balances-api
 - collection_type: open
@@ -99,72 +98,72 @@ collections:
   slug: open-auswide-bank-banking-products-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/capabilities/auswide-bank-capability-edges.yml
+  href: https://artifacts.apis.io/auswide-bank/capabilities/auswide-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/auswide-bank-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/security/auswide-bank-domain-security.yml
+  href: https://artifacts.apis.io/auswide-bank/security/auswide-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/auswide-bank-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/authentication/auswide-bank-authentication.yml
+  href: https://artifacts.apis.io/auswide-bank/authentication/auswide-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/auswide-bank-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/scopes/auswide-bank-scopes.yml
+  href: https://artifacts.apis.io/auswide-bank/scopes/auswide-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/auswide-bank-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/conformance/auswide-bank-conformance.yml
+  href: https://artifacts.apis.io/auswide-bank/conformance/auswide-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/auswide-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/errors/auswide-bank-problem-types.yml
+  href: https://artifacts.apis.io/auswide-bank/errors/auswide-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/auswide-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/lifecycle/auswide-bank-lifecycle.yml
+  href: https://artifacts.apis.io/auswide-bank/lifecycle/auswide-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/auswide-bank-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/lifecycle/auswide-bank-lifecycle.yml
+  href: https://artifacts.apis.io/auswide-bank/lifecycle/auswide-bank-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/auswide-bank-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/conventions/auswide-bank-conventions.yml
+  href: https://artifacts.apis.io/auswide-bank/conventions/auswide-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/auswide-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/data-model/auswide-bank-data-model.yml
+  href: https://artifacts.apis.io/auswide-bank/data-model/auswide-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/auswide-bank-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/overlays/auswide-bank-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/auswide-bank/overlays/auswide-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/auswide-bank-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/llms/auswide-bank-llms.txt
+  href: https://artifacts.apis.io/auswide-bank/llms/auswide-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/auswide-bank-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/mcp/auswide-bank-mcp.yml
+  href: https://artifacts.apis.io/auswide-bank/mcp/auswide-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/auswide-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/skills/auswide-bank-product-lookup.md
+  href: https://artifacts.apis.io/auswide-bank/skills/auswide-bank-product-lookup.md
   title: ''
   type: AgentSkill
   url: skills/auswide-bank-product-lookup.md
@@ -204,7 +203,7 @@ overview: 'Auswide Bank publishes 7 API contracts indexed on the [APIs.io](https
 
 
   Auswide Bank''s developer surface includes authentication, documentation, support, and 17 more developer resources.'
-random_paper: 1
+random_paper: 11
 scopes:
 - name: Auswide Bank Scopes
   scope_count: 5
@@ -226,7 +225,7 @@ score:
     contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 35.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -255,13 +254,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/screenshots/auswide-bank-2026-07-21T114702.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/auswide-bank/auswide-bank-2026-07-21T114702.png
 security:
 - kind: authentication
   name: Auswide Bank Authentication
@@ -271,6 +271,10 @@ security:
   name: Auswide Bank Domain Security
   slug: auswide-bank-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Look up Auswide Bank banking products
+  slug: auswide-bank-product-lookup
 slug: auswide-bank
 tags:
 - Finance

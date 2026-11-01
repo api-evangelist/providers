@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 20.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Readiness check endpoints that indicate whether CoreDNS plugins have finished initializing and are ready to serve DNS queries.
   name: CoreDNS Ready API
   slug: coredns-ready-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CoreDNS Health API
   slug: open-coredns-health-api
@@ -86,17 +85,17 @@ collections:
   slug: open-coredns-ready-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/plans/coredns-plans-pricing.yml
+  href: https://artifacts.apis.io/coredns/plans/coredns-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/coredns-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/rate-limits/coredns-rate-limits.yml
+  href: https://artifacts.apis.io/coredns/rate-limits/coredns-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/coredns-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/finops/coredns-finops.yml
+  href: https://artifacts.apis.io/coredns/finops/coredns-finops.yml
   title: ''
   type: FinOps
   url: finops/coredns-finops.yml
@@ -117,27 +116,27 @@ common:
   type: ContributionGuide
   url: https://github.com/coredns/coredns/blob/master/.github/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/agentic-access/coredns-agentic-access.yml
+  href: https://artifacts.apis.io/coredns/agentic-access/coredns-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/coredns-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/security/coredns-domain-security.yml
+  href: https://artifacts.apis.io/coredns/security/coredns-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coredns-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/json-schema/coredns-corefile-schema.json
+  href: https://artifacts.apis.io/coredns/json-schema/coredns-corefile-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/coredns-corefile-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/json-ld/coredns-context.jsonld
+  href: https://artifacts.apis.io/coredns/json-ld/coredns-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/coredns-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/vocabulary/coredns-vocabulary.yml
+  href: https://artifacts.apis.io/coredns/vocabulary/coredns-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/coredns-vocabulary.yml
@@ -225,7 +224,7 @@ plans:
 - name: Coredns Plans Pricing
   plan_count: 1
   slug: coredns-plans-pricing
-random_paper: 2
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Coredns Rate Limits
@@ -267,8 +266,8 @@ rules:
     warn: 2
   slug: coredns-metrics-rules
 score:
-  band: developing
-  composite: 39.6
+  band: thin
+  composite: 33.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 51.0
@@ -276,18 +275,15 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 45.6
-    developer_ergonomics: 33.3
+    developer_ergonomics: 35.7
     discoverability: 64.3
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 42.4
+    operational_transparency: 39.5
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -301,14 +297,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/screenshots/coredns-2026-06-20T175025.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/coredns/coredns-2026-06-20T175025.png
 security:
 - kind: domain-security
   name: Coredns Domain Security

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-17'
+  score: 26.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -108,11 +110,18 @@ apis:
   description: Platform-wide usage statistics
   name: BrewPage Stats API
   slug: brewpage-stats-api
-artifact_total: 81
+- baseURL: https://brewpage.app
+  baseurl_source: spec
+  description: Owner-only publication delivery settings
+  name: BrewPage Hosting Management API
+  slug: brewpage-hosting-management-api
+- baseURL: https://brewpage.app
+  baseurl_source: spec
+  description: Mints a fresh owner token client-side; stateless, persists nothing
+  name: BrewPage Owner Token API
+  slug: brewpage-owner-token-api
+artifact_total: 82
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: BrewPage Files API
   slug: open-brewpage-files-api
@@ -153,17 +162,21 @@ collections:
   name: BrewPage API
   slug: open-brewpage
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/brewpage/overview
 - group: company
   title: ''
   type: Website
   url: https://www.brewpage.app/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/agentic-access/brewpage-agentic-access.yml
+  href: https://artifacts.apis.io/brewpage/agentic-access/brewpage-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/brewpage-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/security/brewpage-domain-security.yml
+  href: https://artifacts.apis.io/brewpage/security/brewpage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brewpage-domain-security.yml
@@ -196,32 +209,32 @@ common:
   type: SDKs
   url: https://www.npmjs.com/package/brewpage-mcp
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/plans/brewpage-plans-pricing.yml
+  href: https://artifacts.apis.io/brewpage/plans/brewpage-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/brewpage-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/rate-limits/brewpage-rate-limits.yml
+  href: https://artifacts.apis.io/brewpage/rate-limits/brewpage-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/brewpage-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/finops/brewpage-finops.yml
+  href: https://artifacts.apis.io/brewpage/finops/brewpage-finops.yml
   title: ''
   type: FinOps
   url: finops/brewpage-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/rules/brewpage-rules.yml
+  href: https://artifacts.apis.io/brewpage/rules/brewpage-rules.yml
   title: ''
   type: SpectralRules
   url: rules/brewpage-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/vocabulary/brewpage-vocabulary.yml
+  href: https://artifacts.apis.io/brewpage/vocabulary/brewpage-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/brewpage-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/json-ld/brewpage-context.jsonld
+  href: https://artifacts.apis.io/brewpage/json-ld/brewpage-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/brewpage-context.jsonld
@@ -333,18 +346,18 @@ modified: '2026-05-19'
 name: BrewPage
 nav: Providers
 network: true
-overview: 'BrewPage publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Files API, Gallery API, HTML API, and 10 more. Tagged areas include Hosting, Markdown, HTML, AI Artifacts, and File Hosting.
+overview: 'BrewPage publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Files API, Gallery API, HTML API, and 12 more. Tagged areas include Hosting, Markdown, HTML, AI Artifacts, and File Hosting.
 
 
   The BrewPage catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  BrewPage''s developer surface includes documentation, API reference, developer portal, getting-started guide, authentication, and 11 more developer resources.'
+  BrewPage''s developer surface includes documentation, API reference, developer portal, getting-started guide, authentication, and 12 more developer resources.'
 plans:
 - name: Brewpage Plans Pricing
   plan_count: 1
   slug: brewpage-plans-pricing
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 11
   name: Brewpage Rate Limits
@@ -374,44 +387,45 @@ rules:
     warn: 14
   slug: brewpage-rules
 score:
-  band: developing
-  composite: 39.7
+  band: thin
+  composite: 39.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.2
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
-    contract_quality: 61.9
-    developer_ergonomics: 57.1
+    contract_quality: 64.7
+    developer_ergonomics: 58.3
     discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 46.6
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
+      total: 29
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/screenshots/brewpage-2026-06-20T173653.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/brewpage/brewpage-2026-06-20T173653.png
 security:
 - kind: domain-security
   name: Brewpage Domain Security

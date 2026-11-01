@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forevr/refs/heads/main/security/forevr-domain-security.yml
+  href: https://artifacts.apis.io/forevr/security/forevr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forevr-domain-security.yml
@@ -77,10 +79,10 @@ overview: 'ForeVR is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   ForeVR''s developer surface includes support and 6 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: minimal
-  composite: 10.1
+  composite: 10.5
   coverage:
     artifact_dirs: 3
     catalog_earned: 27.0
@@ -95,22 +97,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 4.8
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 10.1
+    operational_transparency: 5.3
+  previous_composite: 10.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/forevr/refs/heads/main/screenshots/forevr-2026-07-25T214936.png
+screenshot: https://apis.io/screenshots/forevr/forevr-2026-07-25T214936.png
 security:
 - kind: domain-security
   name: Forevr Domain Security

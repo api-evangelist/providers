@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Pod''s Open Charge Point Interface (OCPI) 2.2.1 service in the Charge Point Operator role, used for e-mobility roaming and as the technical vehicle named by the UK Public Charge Point Regulations 2023 '
@@ -43,12 +45,12 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/security/pod-point-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pod-point/security/pod-point-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pod-point-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/security/pod-point-domain-security.yml
+  href: https://artifacts.apis.io/pod-point/security/pod-point-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pod-point-domain-security.yml
@@ -81,67 +83,67 @@ common:
   type: Security
   url: https://podenergy.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/well-known/pod-point-security.txt
+  href: https://artifacts.apis.io/pod-point/well-known/pod-point-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/pod-point-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/well-known/pod-point-well-known.yml
+  href: https://artifacts.apis.io/pod-point/well-known/pod-point-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pod-point-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/authentication/pod-point-authentication.yml
+  href: https://artifacts.apis.io/pod-point/authentication/pod-point-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pod-point-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/conformance/pod-point-conformance.yml
+  href: https://artifacts.apis.io/pod-point/conformance/pod-point-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pod-point-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/conventions/pod-point-conventions.yml
+  href: https://artifacts.apis.io/pod-point/conventions/pod-point-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pod-point-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/errors/pod-point-error-codes.yml
+  href: https://artifacts.apis.io/pod-point/errors/pod-point-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/pod-point-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/lifecycle/pod-point-lifecycle.yml
+  href: https://artifacts.apis.io/pod-point/lifecycle/pod-point-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pod-point-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/data-model/pod-point-data-model.yml
+  href: https://artifacts.apis.io/pod-point/data-model/pod-point-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pod-point-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/examples/pod-point-examples.yml
+  href: https://artifacts.apis.io/pod-point/examples/pod-point-examples.yml
   title: ''
   type: Examples
   url: examples/pod-point-examples.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/packages/pod-point-packages.yml
+  href: https://artifacts.apis.io/pod-point/packages/pod-point-packages.yml
   title: ''
   type: Packages
   url: packages/pod-point-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/packages/pod-point-packages.yml
+  href: https://artifacts.apis.io/pod-point/packages/pod-point-packages.yml
   title: ''
   type: SDKs
   url: packages/pod-point-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/components/pod-point-components.yml
+  href: https://artifacts.apis.io/pod-point/components/pod-point-components.yml
   title: ''
   type: Components
   url: components/pod-point-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/llms/pod-point-llms.txt
+  href: https://artifacts.apis.io/pod-point/llms/pod-point-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pod-point-llms.txt
@@ -179,25 +181,25 @@ overview: 'Pod Point is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Pod Point''s developer surface includes engineering blog, support, authentication, code examples, and 20 more developer resources.'
-random_paper: 20
+random_paper: 10
 score:
   band: thin
-  composite: 26.8
+  composite: 27.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 6.5
-    developer_ergonomics: 39.3
-    discoverability: 73.2
-    operational_transparency: 13.2
+    developer_ergonomics: 42.9
+    discoverability: 66.1
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -206,7 +208,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 26.7
+  previous_composite: 27.1
   provenance:
     conformance: first-party
   regulatory:
@@ -215,14 +217,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 25.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pod-point/refs/heads/main/screenshots/pod-point-2026-09-02T151606.png
+screenshot: https://apis.io/screenshots/pod-point/pod-point-2026-09-02T151606.png
 security:
 - kind: authentication
   name: Pod Point Authentication

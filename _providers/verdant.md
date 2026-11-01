@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verdant/refs/heads/main/security/verdant-domain-security.yml
+  href: https://artifacts.apis.io/verdant/security/verdant-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/verdant-domain-security.yml
@@ -54,7 +56,7 @@ common:
   type: ChangeLog
   url: https://www.verdantapp.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/verdant/refs/heads/main/changelog/verdant-changelog.yml
+  href: https://artifacts.apis.io/verdant/changelog/verdant-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/verdant-changelog.yml
@@ -82,12 +84,12 @@ overview: 'Verdant is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Verdant''s developer surface includes support, changelog, and 6 more developer resources.'
-random_paper: 8
+random_paper: 12
 score:
   band: emerging
   composite: 14.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -108,14 +110,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/verdant/refs/heads/main/screenshots/verdant-2026-09-02T165706.png
+screenshot: https://apis.io/screenshots/verdant/verdant-2026-09-02T165706.png
 security:
 - kind: domain-security
   name: Verdant Domain Security

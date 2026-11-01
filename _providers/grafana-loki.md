@@ -15,7 +15,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.8
-  scored_at: '2026-10-17'
+  score: 31.7
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The Grafana Loki HTTP API — 40 documented endpoints for pushing logs (native and OTLP), querying with LogQL over instants and ranges, discovering labels, series, patterns and detected fields, streamin
@@ -50,7 +52,7 @@ apis:
 - description: Grafana Loki reaches MCP clients through the Grafana Labs MCP servers, which register a Loki tool family (query_loki_logs, list_loki_label_names, list_loki_label_values, query_loki_stats, query_loki_p
   name: Grafana MCP Server — Loki tools
   slug: grafana-mcp-loki-tools
-artifact_total: 11
+artifact_total: 18
 common:
 - group: company
   title: ''
@@ -121,7 +123,7 @@ common:
   type: Compliance
   url: https://grafana.com/legal/security-compliance/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/security/grafana-loki-trust-center.yml
+  href: https://artifacts.apis.io/grafana-loki/security/grafana-loki-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/grafana-loki-trust-center.yml
@@ -130,137 +132,145 @@ common:
   type: StatusPage
   url: https://status.grafana.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/lifecycle/grafana-loki-lifecycle.yml
+  href: https://artifacts.apis.io/grafana-loki/lifecycle/grafana-loki-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/grafana-loki-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/lifecycle/grafana-loki-lifecycle.yml
+  href: https://artifacts.apis.io/grafana-loki/lifecycle/grafana-loki-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/grafana-loki-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/changelog/grafana-loki-changelog.yml
+  href: https://artifacts.apis.io/grafana-loki/changelog/grafana-loki-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/grafana-loki-changelog.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/grpc/grafana-loki-push.proto
+  href: https://artifacts.apis.io/grafana-loki/grpc/grafana-loki-push.proto
   title: ''
   type: Protobuf
   url: grpc/grafana-loki-push.proto
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/authentication/grafana-loki-authentication.yml
+  href: https://artifacts.apis.io/grafana-loki/authentication/grafana-loki-authentication.yml
   title: ''
   type: Authentication
   url: authentication/grafana-loki-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/scopes/grafana-loki-scopes.yml
+  href: https://artifacts.apis.io/grafana-loki/scopes/grafana-loki-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/grafana-loki-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/conventions/grafana-loki-conventions.yml
+  href: https://artifacts.apis.io/grafana-loki/conventions/grafana-loki-conventions.yml
   title: ''
   type: Conventions
   url: conventions/grafana-loki-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/conventions/grafana-loki-conventions.yml
+  href: https://artifacts.apis.io/grafana-loki/conventions/grafana-loki-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/grafana-loki-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/errors/grafana-loki-problem-types.yml
+  href: https://artifacts.apis.io/grafana-loki/errors/grafana-loki-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/grafana-loki-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/rate-limits/grafana-loki-rate-limits.yml
+  href: https://artifacts.apis.io/grafana-loki/rate-limits/grafana-loki-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/grafana-loki-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/plans/grafana-loki-plans-pricing.yml
+  href: https://artifacts.apis.io/grafana-loki/plans/grafana-loki-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/grafana-loki-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/packages/grafana-loki-packages.yml
+  href: https://artifacts.apis.io/grafana-loki/packages/grafana-loki-packages.yml
   title: ''
   type: Packages
   url: packages/grafana-loki-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/packages/grafana-loki-packages.yml
+  href: https://artifacts.apis.io/grafana-loki/packages/grafana-loki-packages.yml
   title: ''
   type: SDKs
   url: packages/grafana-loki-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/cli/grafana-loki-cli.yml
+  href: https://artifacts.apis.io/grafana-loki/cli/grafana-loki-cli.yml
   title: ''
   type: CLI
   url: cli/grafana-loki-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/sandbox/grafana-loki-sandbox.yml
+  href: https://artifacts.apis.io/grafana-loki/sandbox/grafana-loki-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/grafana-loki-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/data-model/grafana-loki-data-model.yml
+  href: https://artifacts.apis.io/grafana-loki/data-model/grafana-loki-data-model.yml
   title: ''
   type: DataModel
   url: data-model/grafana-loki-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/conformance/grafana-loki-conformance.yml
+  href: https://artifacts.apis.io/grafana-loki/conformance/grafana-loki-conformance.yml
   title: ''
   type: Conformance
   url: conformance/grafana-loki-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/security/grafana-loki-domain-security.yml
+  href: https://artifacts.apis.io/grafana-loki/security/grafana-loki-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/grafana-loki-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/security/grafana-loki-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/grafana-loki/security/grafana-loki-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/grafana-loki-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/well-known/grafana-loki-well-known.yml
+  href: https://artifacts.apis.io/grafana-loki/well-known/grafana-loki-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/grafana-loki-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/llms/grafana-loki-llms.txt
+  href: https://artifacts.apis.io/grafana-loki/llms/grafana-loki-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/grafana-loki-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/grafana-loki/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/skills/grafana-loki-query-logs.md
+  href: https://artifacts.apis.io/grafana-loki/skills/grafana-loki-query-logs.md
   title: ''
   type: AgentSkill
   url: skills/grafana-loki-query-logs.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/skills/grafana-loki-push-logs.md
+  href: https://artifacts.apis.io/grafana-loki/skills/grafana-loki-push-logs.md
   title: ''
   type: AgentSkill
   url: skills/grafana-loki-push-logs.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/skills/grafana-loki-delete-logs.md
+  href: https://artifacts.apis.io/grafana-loki/skills/grafana-loki-delete-logs.md
   title: ''
   type: AgentSkill
   url: skills/grafana-loki-delete-logs.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/skills/grafana-loki-manage-alerting-rules.md
+  href: https://artifacts.apis.io/grafana-loki/skills/grafana-loki-manage-alerting-rules.md
   title: ''
   type: AgentSkill
   url: skills/grafana-loki-manage-alerting-rules.md
 created: '2026-08-27'
 description: Grafana Loki is Grafana Labs' open source log aggregation system — "like Prometheus, but for logs." Rather than full-text indexing log contents, Loki indexes only a small set of labels per log stream and stores the compressed lines in object storage, which is what makes it cheap to run at scale. It is queried with LogQL, a Prometheus-inspired query language, over an HTTP API that covers ingestion, querying, label and pattern discovery, live tailing over WebSocket, a Prometheus-compatible ruler for alerting and recording rules, and a cancellable log deletion API. Loki accepts native pushes and OpenTelemetry OTLP/HTTP logs, publishes proto3 gRPC service definitions for its push and query paths, and ships a first-party CLI (LogCLI), Helm charts, a Kubernetes operator, and Docker images. It is licensed AGPL-3.0 and self-hosted; the same engine is sold as the managed Grafana Cloud Logs service and as the self-managed Grafana Enterprise Logs distribution.
+finops:
+- has_sources: true
+  method: derived
+  name: Grafana Loki Finops
+  primary_unit: ''
+  service_category: ''
+  slug: grafana-loki-finops
+  template: true
 image: https://grafana.com/media/docs/loki/logo-grafana-loki.png
 layout: provider
 mcp_servers:
@@ -279,7 +289,10 @@ plans:
 - name: Grafana Loki Plans Pricing
   plan_count: 3
   slug: grafana-loki-plans-pricing
-random_paper: 8
+- name: Grafana Loki Price Estimates
+  plan_count: 0
+  slug: grafana-loki-price-estimates
+random_paper: 20
 rate_limits:
 - limit_count: 14
   name: Grafana Loki Rate Limits
@@ -291,9 +304,9 @@ scopes:
   summary_line: 6 scopes
 score:
   band: strong
-  composite: 66.1
+  composite: 59.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -303,11 +316,11 @@ score:
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 80.4
-    discoverability: 80.0
-    operational_transparency: 84.2
-  previous_composite: 66.1
+    discoverability: 70.0
+    operational_transparency: 86.8
+  previous_composite: 59.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -318,14 +331,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/screenshots/grafana-loki-2026-09-02T145629.png
+screenshot: https://apis.io/screenshots/grafana-loki/grafana-loki-2026-09-02T145629.png
 security:
 - kind: authentication
   name: Grafana Loki Authentication
@@ -343,6 +356,18 @@ security:
   name: Grafana Loki Trust Center
   slug: grafana-loki-trust-center
   summary_line: SOC 2 Type 2, ISO 27001, PCI DSS, FedRAMP High, GDPR, CSA STAR, EU-US / Swiss-US Data Privacy Framework
+skill_count: 5
+skills:
+- name: go
+  slug: grafana-loki-cursor-go-SKILL
+- name: grafana-loki-delete-logs
+  slug: grafana-loki-delete-logs
+- name: grafana-loki-manage-alerting-rules
+  slug: grafana-loki-manage-alerting-rules
+- name: grafana-loki-push-logs
+  slug: grafana-loki-push-logs
+- name: grafana-loki-query-logs
+  slug: grafana-loki-query-logs
 slug: grafana-loki
 tags:
 - Company

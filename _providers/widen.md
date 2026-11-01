@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 3
@@ -130,11 +132,8 @@ apis:
   description: Create, list, and delete workflow webhooks.
   name: Widen Workflow-Webhooks API
   slug: widen-workflow-webhooks-api
-artifact_total: 43
+artifact_total: 42
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Acquia DAM (Widen) Acquia-DAM-Webhooks API
   slug: open-widen-acquia-dam-webhooks-api
@@ -188,32 +187,32 @@ collections:
   slug: open-widen-workflow-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/capabilities/widen-capability-edges.yml
+  href: https://artifacts.apis.io/widen/capabilities/widen-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/widen-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/agentic-access/widen-agentic-access.yml
+  href: https://artifacts.apis.io/widen/agentic-access/widen-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/widen-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/security/widen-trust-center.yml
+  href: https://artifacts.apis.io/widen/security/widen-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/widen-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/security/widen-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/widen/security/widen-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/widen-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/security/widen-domain-security.yml
+  href: https://artifacts.apis.io/widen/security/widen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/widen-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/authentication/widen-authentication.yml
+  href: https://artifacts.apis.io/widen/authentication/widen-authentication.yml
   title: ''
   type: Authentication
   url: authentication/widen-authentication.yml
@@ -250,17 +249,17 @@ common:
   type: X
   url: https://x.com/widencollective
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/plans/widen-plans-pricing.yml
+  href: https://artifacts.apis.io/widen/plans/widen-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/widen-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/rate-limits/widen-rate-limits.yml
+  href: https://artifacts.apis.io/widen/rate-limits/widen-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/widen-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/finops/widen-finops.yml
+  href: https://artifacts.apis.io/widen/finops/widen-finops.yml
   title: ''
   type: FinOps
   url: finops/widen-finops.yml
@@ -295,7 +294,7 @@ rate_limits:
   slug: widen-rate-limits
 score:
   band: thin
-  composite: 30.6
+  composite: 32.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 40.0
@@ -303,15 +302,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
-    contract_quality: 45.5
+    contract_quality: 44.9
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 34.8
+    operational_transparency: 39.5
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -325,13 +324,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/screenshots/widen-2026-06-20T201453.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/widen/widen-2026-06-20T201453.png
 security:
 - kind: authentication
   name: Widen Authentication

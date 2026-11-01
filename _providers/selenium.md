@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -79,15 +81,12 @@ apis:
   description: Remote end readiness
   name: Selenium Status API
   slug: selenium-status-api
-artifact_total: 23
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Selenium Bidi Events
   slug: selenium-bidi-events
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Selenium WebDriver (W3C Wire Protocol) Cookies API
   slug: open-selenium-cookies-api
@@ -111,7 +110,7 @@ collections:
   slug: open-selenium
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/finops/selenium-finops.yml
+  href: https://artifacts.apis.io/selenium/finops/selenium-finops.yml
   title: ''
   type: FinOps
   url: finops/selenium-finops.yml
@@ -120,12 +119,12 @@ common:
   type: Website
   url: https://www.selenium.dev/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/agentic-access/selenium-agentic-access.yml
+  href: https://artifacts.apis.io/selenium/agentic-access/selenium-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/selenium-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/security/selenium-domain-security.yml
+  href: https://artifacts.apis.io/selenium/security/selenium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/selenium-domain-security.yml
@@ -174,97 +173,97 @@ common:
   type: GettingStarted
   url: https://www.selenium.dev/documentation/webdriver/getting_started/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/llms/selenium-llms.txt
+  href: https://artifacts.apis.io/selenium/llms/selenium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/selenium-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/packages/selenium-packages.yml
+  href: https://artifacts.apis.io/selenium/packages/selenium-packages.yml
   title: ''
   type: Packages
   url: packages/selenium-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/packages/selenium-packages.yml
+  href: https://artifacts.apis.io/selenium/packages/selenium-packages.yml
   title: ''
   type: SDKs
   url: packages/selenium-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/cli/selenium-cli.yml
+  href: https://artifacts.apis.io/selenium/cli/selenium-cli.yml
   title: ''
   type: CLI
   url: cli/selenium-cli.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/graphql/selenium-grid.graphql
+  href: https://artifacts.apis.io/selenium/graphql/selenium-grid.graphql
   title: ''
   type: GraphQL
   url: graphql/selenium-grid.graphql
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/authentication/selenium-authentication.yml
+  href: https://artifacts.apis.io/selenium/authentication/selenium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/selenium-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/conventions/selenium-conventions.yml
+  href: https://artifacts.apis.io/selenium/conventions/selenium-conventions.yml
   title: ''
   type: Conventions
   url: conventions/selenium-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/errors/selenium-problem-types.yml
+  href: https://artifacts.apis.io/selenium/errors/selenium-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/selenium-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/data-model/selenium-data-model.yml
+  href: https://artifacts.apis.io/selenium/data-model/selenium-data-model.yml
   title: ''
   type: DataModel
   url: data-model/selenium-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/conformance/selenium-conformance.yml
+  href: https://artifacts.apis.io/selenium/conformance/selenium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/selenium-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/lifecycle/selenium-lifecycle.yml
+  href: https://artifacts.apis.io/selenium/lifecycle/selenium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/selenium-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/lifecycle/selenium-lifecycle.yml
+  href: https://artifacts.apis.io/selenium/lifecycle/selenium-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/selenium-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/changelog/selenium-changelog.yml
+  href: https://artifacts.apis.io/selenium/changelog/selenium-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/selenium-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/mcp/selenium-tool-crosswalk.yml
+  href: https://artifacts.apis.io/selenium/mcp/selenium-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/selenium-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/selenium/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/asyncapi/selenium-bidi-events.yml
+  href: https://artifacts.apis.io/selenium/asyncapi/selenium-bidi-events.yml
   title: ''
   type: EventCatalog
   url: asyncapi/selenium-bidi-events.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/well-known/selenium-well-known.yml
+  href: https://artifacts.apis.io/selenium/well-known/selenium-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/selenium-well-known.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/plans/selenium-plans-pricing.yml
+  href: https://artifacts.apis.io/selenium/plans/selenium-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/selenium-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/rate-limits/selenium-rate-limits.yml
+  href: https://artifacts.apis.io/selenium/rate-limits/selenium-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/selenium-rate-limits.yml
@@ -286,7 +285,7 @@ finops:
 - has_sources: false
   method: generated
   name: Selenium Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: selenium-finops
   template: true
@@ -307,14 +306,14 @@ plans:
 - name: Selenium Plans Pricing
   plan_count: 0
   slug: selenium-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Selenium Rate Limits
   slug: selenium-rate-limits
 score:
   band: thin
-  composite: 38.1
+  composite: 38.4
   coverage:
     artifact_dirs: 27
     catalog_earned: 32.0
@@ -322,15 +321,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 44.7
     developer_ergonomics: 73.2
-    discoverability: 71.4
-    operational_transparency: 26.3
-  previous_composite: 39.6
+    discoverability: 64.3
+    operational_transparency: 28.9
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -347,13 +346,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/screenshots/selenium-2026-06-20T193639.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/selenium/selenium-2026-06-20T193639.png
 security:
 - kind: authentication
   name: Selenium Authentication
@@ -363,6 +363,14 @@ security:
   name: Selenium Domain Security
   slug: selenium-domain-security
   summary_line: TLSv1.3
+skill_count: 3
+skills:
+- name: selenium-check-grid-capacity
+  slug: selenium-check-grid-capacity
+- name: selenium-drive-a-browser-session
+  slug: selenium-drive-a-browser-session
+- name: selenium-read-page-state
+  slug: selenium-read-page-state
 slug: selenium
 tags:
 - Automation

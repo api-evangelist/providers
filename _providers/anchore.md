@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-17'
+  score: 21.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -94,14 +96,11 @@ arazzos:
 - description: Evaluate an analyzed image against policy and, when it fails the gate, subscribe to ongoing policy-evaluation notifications for its tag.
   name: Anchore Subscribe on Policy Failure
   slug: anchore-subscribe-on-policy-fail-workflow
-artifact_total: 51
+artifact_total: 50
 collections:
 - collection_type: postman
   name: Anchore Enterprise API
   slug: postman-anchore-enterprise-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Anchore Enterprise Images API
   slug: open-anchore-images-api
@@ -122,22 +121,22 @@ collections:
   slug: open-anchore-vulnerabilities-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/plans/anchore-plans-pricing.yml
+  href: https://artifacts.apis.io/anchore/plans/anchore-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/anchore-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/rate-limits/anchore-rate-limits.yml
+  href: https://artifacts.apis.io/anchore/rate-limits/anchore-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/anchore-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/finops/anchore-finops.yml
+  href: https://artifacts.apis.io/anchore/finops/anchore-finops.yml
   title: ''
   type: FinOps
   url: finops/anchore-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/capabilities/anchore-capability-edges.yml
+  href: https://artifacts.apis.io/anchore/capabilities/anchore-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/anchore-capability-edges.yml
@@ -146,17 +145,17 @@ common:
   type: Website
   url: https://www.anchore.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/agentic-access/anchore-agentic-access.yml
+  href: https://artifacts.apis.io/anchore/agentic-access/anchore-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/anchore-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/security/anchore-domain-security.yml
+  href: https://artifacts.apis.io/anchore/security/anchore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anchore-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/authentication/anchore-authentication.yml
+  href: https://artifacts.apis.io/anchore/authentication/anchore-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anchore-authentication.yml
@@ -165,32 +164,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/anchore/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/arazzo/anchore-analyze-image-workflow.yml
+  href: https://artifacts.apis.io/anchore/arazzo/anchore-analyze-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anchore-analyze-image-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/arazzo/anchore-create-policy-and-evaluate-workflow.yml
+  href: https://artifacts.apis.io/anchore/arazzo/anchore-create-policy-and-evaluate-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anchore-create-policy-and-evaluate-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/arazzo/anchore-image-sbom-and-vulns-workflow.yml
+  href: https://artifacts.apis.io/anchore/arazzo/anchore-image-sbom-and-vulns-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anchore-image-sbom-and-vulns-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/arazzo/anchore-registry-scan-workflow.yml
+  href: https://artifacts.apis.io/anchore/arazzo/anchore-registry-scan-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anchore-registry-scan-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/arazzo/anchore-rescan-active-images-workflow.yml
+  href: https://artifacts.apis.io/anchore/arazzo/anchore-rescan-active-images-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anchore-rescan-active-images-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/arazzo/anchore-subscribe-on-policy-fail-workflow.yml
+  href: https://artifacts.apis.io/anchore/arazzo/anchore-subscribe-on-policy-fail-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/anchore-subscribe-on-policy-fail-workflow.yml
@@ -243,32 +242,32 @@ common:
   type: PrivacyPolicy
   url: https://anchore.com/privacy-policy/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/json-schema/anchore-image-schema.json
+  href: https://artifacts.apis.io/anchore/json-schema/anchore-image-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/anchore-image-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/json-schema/anchore-vulnerability-schema.json
+  href: https://artifacts.apis.io/anchore/json-schema/anchore-vulnerability-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/anchore-vulnerability-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/json-schema/anchore-sbom-schema.json
+  href: https://artifacts.apis.io/anchore/json-schema/anchore-sbom-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/anchore-sbom-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/rules/anchore-spectral-rules.yml
+  href: https://artifacts.apis.io/anchore/rules/anchore-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/anchore-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/vocabulary/anchore-vocabulary.yaml
+  href: https://artifacts.apis.io/anchore/vocabulary/anchore-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/anchore-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/json-ld/anchore-enterprise-api-context.jsonld
+  href: https://artifacts.apis.io/anchore/json-ld/anchore-enterprise-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/anchore-enterprise-api-context.jsonld
@@ -297,7 +296,7 @@ finops:
 - has_sources: false
   method: generated
   name: Anchore Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: anchore-finops
   template: true
@@ -341,7 +340,7 @@ plans:
 - name: Anchore Plans Pricing
   plan_count: 3
   slug: anchore-plans-pricing
-random_paper: 10
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Anchore Rate Limits
@@ -371,8 +370,8 @@ rules:
     warn: 12
   slug: anchore-spectral-rules
 score:
-  band: thin
-  composite: 37.3
+  band: developing
+  composite: 48.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 69.0
@@ -380,15 +379,15 @@ score:
     catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 39.5
     contract_governance: 27.3
     contract_quality: 57.5
-    developer_ergonomics: 34.5
+    developer_ergonomics: 51.2
     discoverability: 71.7
-    operational_transparency: 18.4
-  previous_composite: 38.8
+    operational_transparency: 28.9
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     contracts:
@@ -401,14 +400,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/screenshots/anchore-2026-07-25T200203.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/anchore/anchore-2026-07-25T200203.png
 security:
 - kind: authentication
   name: Anchore Authentication

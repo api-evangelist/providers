@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The public Ethereum-compatible JSON-RPC endpoint for the GUNZ L1 chain, an Avalanche subnet running Subnet-EVM. It inherits the full EVM API surface of an Ethereum node (eth_*, net_*, web3_*), plus th
@@ -45,7 +47,7 @@ apis:
 - description: 'GUNZScan is the GUNZ chain block explorer, referenced from Gunzilla''s own chain documentation as the official explorer. It runs Blockscout and exposes three anonymous, machine-readable read surfaces: '
   name: GUNZScan Explorer API
   slug: gunzscan-explorer-api
-artifact_total: 7
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Gunzilla Games Gunzscan Events
@@ -88,102 +90,102 @@ common:
   type: TermsOfService
   url: https://gunbygunz.com/gunz-terms/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/well-known/gunzilla-games-well-known.yml
+  href: https://artifacts.apis.io/gunzilla-games/well-known/gunzilla-games-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gunzilla-games-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/well-known/gunzilla-games-security.txt
+  href: https://artifacts.apis.io/gunzilla-games/well-known/gunzilla-games-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/gunzilla-games-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/security/gunzilla-games-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gunzilla-games/security/gunzilla-games-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/gunzilla-games-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/security/gunzilla-games-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gunzilla-games/security/gunzilla-games-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gunzilla-games-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/security/gunzilla-games-domain-security.yml
+  href: https://artifacts.apis.io/gunzilla-games/security/gunzilla-games-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gunzilla-games-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/authentication/gunzilla-games-authentication.yml
+  href: https://artifacts.apis.io/gunzilla-games/authentication/gunzilla-games-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gunzilla-games-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/conventions/gunzilla-games-conventions.yml
+  href: https://artifacts.apis.io/gunzilla-games/conventions/gunzilla-games-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gunzilla-games-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/conventions/gunzilla-games-conventions.yml
+  href: https://artifacts.apis.io/gunzilla-games/conventions/gunzilla-games-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/gunzilla-games-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/errors/gunzilla-games-error-codes.yml
+  href: https://artifacts.apis.io/gunzilla-games/errors/gunzilla-games-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/gunzilla-games-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/lifecycle/gunzilla-games-lifecycle.yml
+  href: https://artifacts.apis.io/gunzilla-games/lifecycle/gunzilla-games-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gunzilla-games-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/conformance/gunzilla-games-conformance.yml
+  href: https://artifacts.apis.io/gunzilla-games/conformance/gunzilla-games-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gunzilla-games-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/data-model/gunzilla-games-data-model.yml
+  href: https://artifacts.apis.io/gunzilla-games/data-model/gunzilla-games-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gunzilla-games-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/rate-limits/gunzilla-games-rate-limits.yml
+  href: https://artifacts.apis.io/gunzilla-games/rate-limits/gunzilla-games-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gunzilla-games-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/sandbox/gunzilla-games-sandbox.yml
+  href: https://artifacts.apis.io/gunzilla-games/sandbox/gunzilla-games-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/gunzilla-games-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/packages/gunzilla-games-packages.yml
+  href: https://artifacts.apis.io/gunzilla-games/packages/gunzilla-games-packages.yml
   title: ''
   type: Packages
   url: packages/gunzilla-games-packages.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/graphql/gunzilla-games-gunzscan.graphql
+  href: https://artifacts.apis.io/gunzilla-games/graphql/gunzilla-games-gunzscan.graphql
   title: ''
   type: GraphQL
   url: graphql/gunzilla-games-gunzscan.graphql
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/asyncapi/gunzilla-games-gunzscan-events.yml
+  href: https://artifacts.apis.io/gunzilla-games/asyncapi/gunzilla-games-gunzscan-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/gunzilla-games-gunzscan-events.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/mcp/gunzilla-games-mcp.yml
+  href: https://artifacts.apis.io/gunzilla-games/mcp/gunzilla-games-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gunzilla-games-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/gunzilla-games/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/llms/gunzilla-games-llms.txt
+  href: https://artifacts.apis.io/gunzilla-games/llms/gunzilla-games-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gunzilla-games-llms.txt
@@ -202,14 +204,14 @@ overview: 'Gunzilla Games is listed with 2 APIs on the [APIs.io](https://apis.io
 
 
   Gunzilla Games'' developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 23 more developer resources.'
-random_paper: 10
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Gunzilla Games Rate Limits
   slug: gunzilla-games-rate-limits
 score:
   band: developing
-  composite: 44.7
+  composite: 44.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 45.0
@@ -223,9 +225,9 @@ score:
     contract_governance: 18.2
     contract_quality: 51.0
     developer_ergonomics: 54.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 44.7
+  previous_composite: 44.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -236,14 +238,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/gunzilla-games/refs/heads/main/screenshots/gunzilla-games-2026-08-07T165902.png
+screenshot: https://apis.io/screenshots/gunzilla-games/gunzilla-games-2026-08-07T165902.png
 security:
 - kind: authentication
   name: Gunzilla Games Authentication
@@ -257,6 +259,14 @@ security:
   name: Gunzilla Games Vulnerability Disclosure
   slug: gunzilla-games-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 3
+skills:
+- name: Query and stream the GUNZScan explorer
+  slug: gunzilla-games-query-gunzscan-explorer
+- name: Read GUNZ chain state
+  slug: gunzilla-games-read-gunz-chain-state
+- name: Submit a GUNZ transaction safely
+  slug: gunzilla-games-submit-gunz-transaction
 slug: gunzilla-games
 tags:
 - Company

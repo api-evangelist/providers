@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Life insurance, annuities, and retirement products offered by Western & Southern Life Insurance Company. Customers can access account information, policy details, and manage their coverage through dig
@@ -51,17 +53,17 @@ apis:
 artifact_total: 13
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/western-and-southern-financial/refs/heads/main/plans/western-and-southern-financial-plans-pricing.yml
+  href: https://artifacts.apis.io/western-and-southern-financial/plans/western-and-southern-financial-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/western-and-southern-financial-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/western-and-southern-financial/refs/heads/main/rate-limits/western-and-southern-financial-rate-limits.yml
+  href: https://artifacts.apis.io/western-and-southern-financial/rate-limits/western-and-southern-financial-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/western-and-southern-financial-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/western-and-southern-financial/refs/heads/main/finops/western-and-southern-financial-finops.yml
+  href: https://artifacts.apis.io/western-and-southern-financial/finops/western-and-southern-financial-finops.yml
   title: ''
   type: FinOps
   url: finops/western-and-southern-financial-finops.yml
@@ -70,7 +72,7 @@ common:
   type: Blog
   url: https://www.westernsouthern.com/about/newsroom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/western-and-southern-financial/refs/heads/main/security/western-and-southern-financial-domain-security.yml
+  href: https://artifacts.apis.io/western-and-southern-financial/security/western-and-southern-financial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/western-and-southern-financial-domain-security.yml
@@ -144,7 +146,7 @@ plans:
 - name: Western And Southern Financial Plans Pricing
   plan_count: 1
   slug: western-and-southern-financial-plans-pricing
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Western And Southern Financial Rate Limits
@@ -163,7 +165,7 @@ rules:
   slug: western-and-southern-financial-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 18.2
+  composite: 20.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 50.3
@@ -171,9 +173,9 @@ score:
     catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 14.7
     developer_ergonomics: 21.4
@@ -186,21 +188,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 19.3
+  previous_composite: 20.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 13.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 16.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/western-and-southern-financial/refs/heads/main/screenshots/western-and-southern-financial-2026-06-20T201402.png
+screenshot: https://apis.io/screenshots/western-and-southern-financial/western-and-southern-financial-2026-06-20T201402.png
 security:
 - kind: domain-security
   name: Western And Southern Financial Domain Security

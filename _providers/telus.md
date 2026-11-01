@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://location-api.insights.telus.com/product/insightsRequest/v1
@@ -48,7 +50,7 @@ apis:
 - description: The TELUS Health Collaborative Health Record (CHR) Enterprise API is a GraphQL interface onto the CHR ambulatory-care platform used by Canadian clinics and allied health professionals. Its published i
   name: TELUS Health CHR Enterprise API
   slug: telus-health-chr-enterprise-api
-artifact_total: 8
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Telus Chr Event Notifications
@@ -107,92 +109,92 @@ common:
   type: Postman
   url: https://docs.insights.telus.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/changelog/telus-changelog.yml
+  href: https://artifacts.apis.io/telus/changelog/telus-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/telus-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/authentication/telus-authentication.yml
+  href: https://artifacts.apis.io/telus/authentication/telus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/telus-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/scopes/telus-scopes.yml
+  href: https://artifacts.apis.io/telus/scopes/telus-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/telus-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/conventions/telus-conventions.yml
+  href: https://artifacts.apis.io/telus/conventions/telus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/telus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/errors/telus-problem-types.yml
+  href: https://artifacts.apis.io/telus/errors/telus-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/telus-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/rate-limits/telus-rate-limits.yml
+  href: https://artifacts.apis.io/telus/rate-limits/telus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/telus-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/lifecycle/telus-lifecycle.yml
+  href: https://artifacts.apis.io/telus/lifecycle/telus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/telus-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/conformance/telus-conformance.yml
+  href: https://artifacts.apis.io/telus/conformance/telus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/telus-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/data-model/telus-data-model.yml
+  href: https://artifacts.apis.io/telus/data-model/telus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/telus-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/packages/telus-packages.yml
+  href: https://artifacts.apis.io/telus/packages/telus-packages.yml
   title: ''
   type: Packages
   url: packages/telus-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/components/telus-components.yml
+  href: https://artifacts.apis.io/telus/components/telus-components.yml
   title: ''
   type: Components
   url: components/telus-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/sandbox/telus-sandbox.yml
+  href: https://artifacts.apis.io/telus/sandbox/telus-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/telus-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/asyncapi/telus-chr-event-notifications.yml
+  href: https://artifacts.apis.io/telus/asyncapi/telus-chr-event-notifications.yml
   title: ''
   type: Webhooks
   url: asyncapi/telus-chr-event-notifications.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/telus/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/llms/telus-llms.txt
+  href: https://artifacts.apis.io/telus/llms/telus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/telus-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/well-known/telus-well-known.yml
+  href: https://artifacts.apis.io/telus/well-known/telus-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/telus-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/security/telus-domain-security.yml
+  href: https://artifacts.apis.io/telus/security/telus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/telus-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telus/refs/heads/main/security/telus-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/telus/security/telus-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/telus-vulnerability-disclosure.yml
@@ -212,7 +214,7 @@ overview: 'TELUS is listed with 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   TELUS''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 24 more developer resources.'
-random_paper: 7
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Telus Rate Limits
@@ -224,7 +226,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.4
+  composite: 51.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 49.0
@@ -237,9 +239,9 @@ score:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 51.0
-    developer_ergonomics: 68.5
+    developer_ergonomics: 70.8
     discoverability: 66.1
-    operational_transparency: 68.4
+    operational_transparency: 71.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -247,7 +249,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 50.4
+  previous_composite: 51.2
   provenance:
     conformance: derived
     skills: derived
@@ -257,8 +259,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 45.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -277,6 +279,14 @@ security:
   name: Telus Vulnerability Disclosure
   slug: telus-vulnerability-disclosure
   summary_line: Hackerone · security.txt
+skill_count: 3
+skills:
+- name: Book a CHR appointment
+  slug: telus-chr-book-appointment
+- name: Consume CHR event notifications
+  slug: telus-chr-event-notifications
+- name: Run a TELUS Insights study-zone analysis
+  slug: telus-insights-study-zone-analysis
 slug: telus
 tags:
 - Telecommunications

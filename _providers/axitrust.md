@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,12 +43,12 @@ common:
   type: BlogRSS
   url: https://www.axitrust.com/blog-feed.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axitrust/refs/heads/main/security/axitrust-domain-security.yml
+  href: https://artifacts.apis.io/axitrust/security/axitrust-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/axitrust-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/axitrust/refs/heads/main/llms/axitrust-llms.txt
+  href: https://artifacts.apis.io/axitrust/llms/axitrust-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/axitrust-llms.txt
@@ -86,14 +88,14 @@ modified: '2026-10-06'
 name: axiTrust
 nav: Providers
 network: true
-overview: 'axiTrust is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Insurance, Insurtech, and Surety Bonds.
+overview: 'axiTrust is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Insurance, Insurtech, and Surety.
 
 
   axiTrust''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: minimal
-  composite: 10.5
+  composite: 9.8
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -107,7 +109,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -116,21 +118,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 10.5
+  previous_composite: 9.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/axitrust/refs/heads/main/screenshots/axitrust-2026-07-25T202058.png
+screenshot: https://apis.io/screenshots/axitrust/axitrust-2026-07-25T202058.png
 security:
 - kind: domain-security
   name: Axitrust Domain Security
@@ -142,7 +144,7 @@ tags:
 - Fintech
 - Insurance
 - Insurtech
-- Surety Bonds
+- Surety
 - MSME
 - India
 - Government Procurement

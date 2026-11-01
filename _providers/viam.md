@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 131
   human_in_the_loop: 8
@@ -337,7 +339,7 @@ arazzos:
 - description: Submit a TFLite training job, poll its status, and branch to logs or cancel.
   name: Viam Train and Monitor an ML Model
   slug: viam-train-and-monitor-model-workflow
-artifact_total: 189
+artifact_total: 188
 collections:
 - collection_type: postman
   name: Viam Billing API
@@ -381,9 +383,6 @@ collections:
 - collection_type: postman
   name: Viam Vision Service API
   slug: postman-viam-vision-service-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Viam Billing Arm API
   slug: open-viam-arm-api
@@ -589,22 +588,22 @@ common:
   type: Website
   url: https://www.viam.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/capabilities/viam-capability-edges.yml
+  href: https://artifacts.apis.io/viam/capabilities/viam-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/viam-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/agentic-access/viam-agentic-access.yml
+  href: https://artifacts.apis.io/viam/agentic-access/viam-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/viam-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/security/viam-domain-security.yml
+  href: https://artifacts.apis.io/viam/security/viam-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/viam-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/authentication/viam-authentication.yml
+  href: https://artifacts.apis.io/viam/authentication/viam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/viam-authentication.yml
@@ -613,62 +612,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/viam/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/arazzo/viam-add-machine-with-part-workflow.yml
+  href: https://artifacts.apis.io/viam/arazzo/viam-add-machine-with-part-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/viam-add-machine-with-part-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/arazzo/viam-arm-move-and-verify-workflow.yml
+  href: https://artifacts.apis.io/viam/arazzo/viam-arm-move-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/viam-arm-move-and-verify-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/arazzo/viam-bill-customer-location-workflow.yml
+  href: https://artifacts.apis.io/viam/arazzo/viam-bill-customer-location-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/viam-bill-customer-location-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/arazzo/viam-curate-dataset-workflow.yml
+  href: https://artifacts.apis.io/viam/arazzo/viam-curate-dataset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/viam-curate-dataset-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/arazzo/viam-data-pipeline-lifecycle-workflow.yml
+  href: https://artifacts.apis.io/viam/arazzo/viam-data-pipeline-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/viam-data-pipeline-lifecycle-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/arazzo/viam-fragment-rollout-workflow.yml
+  href: https://artifacts.apis.io/viam/arazzo/viam-fragment-rollout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/viam-fragment-rollout-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/arazzo/viam-machine-health-check-workflow.yml
+  href: https://artifacts.apis.io/viam/arazzo/viam-machine-health-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/viam-machine-health-check-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/arazzo/viam-onboard-org-member-workflow.yml
+  href: https://artifacts.apis.io/viam/arazzo/viam-onboard-org-member-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/viam-onboard-org-member-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/arazzo/viam-provision-fleet-workflow.yml
+  href: https://artifacts.apis.io/viam/arazzo/viam-provision-fleet-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/viam-provision-fleet-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/arazzo/viam-provision-smart-machine-workflow.yml
+  href: https://artifacts.apis.io/viam/arazzo/viam-provision-smart-machine-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/viam-provision-smart-machine-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/arazzo/viam-saved-query-lifecycle-workflow.yml
+  href: https://artifacts.apis.io/viam/arazzo/viam-saved-query-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/viam-saved-query-lifecycle-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/arazzo/viam-train-and-monitor-model-workflow.yml
+  href: https://artifacts.apis.io/viam/arazzo/viam-train-and-monitor-model-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/viam-train-and-monitor-model-workflow.yml
@@ -849,17 +848,17 @@ common:
   type: YouTube
   url: https://www.youtube.com/@ViamRobotics
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/plans/viam-plans-pricing.yml
+  href: https://artifacts.apis.io/viam/plans/viam-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/viam-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/rate-limits/viam-rate-limits.yml
+  href: https://artifacts.apis.io/viam/rate-limits/viam-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/viam-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/finops/viam-finops.yml
+  href: https://artifacts.apis.io/viam/finops/viam-finops.yml
   title: ''
   type: FinOps
   url: finops/viam-finops.yml
@@ -917,13 +916,13 @@ features:
 - Free tier with $5/month in included cloud usage; usage-based metering for storage, compute, and egress
 - Founded 2020 by Eliot Horowitz (MongoDB co-founder and former CTO)
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Viam Finops
-  primary_unit: ''
+  primary_unit: gb
   service_category: ''
   slug: viam-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/viam.png
 json_schemas:
 - name: Viam Binary Data Item
@@ -965,7 +964,7 @@ plans:
 - name: Viam Price Estimates
   plan_count: 0
   slug: viam-price-estimates
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Viam Rate Limits
@@ -996,23 +995,23 @@ rules:
   slug: viam-rules
 score:
   band: strong
-  composite: 59.2
+  composite: 61.5
   coverage:
     artifact_dirs: 19
-    catalog_earned: 68.5
+    catalog_earned: 71.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 46.5
+    catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 13.6
     contract_quality: 63.9
     developer_ergonomics: 63.1
     discoverability: 62.5
     operational_transparency: 36.8
-  previous_composite: 60.7
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1026,13 +1025,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/screenshots/viam-2026-06-20T201013.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/viam/viam-2026-06-20T201013.png
 security:
 - kind: authentication
   name: Viam Authentication

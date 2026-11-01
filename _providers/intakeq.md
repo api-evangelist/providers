@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: Treatment / clinical notes and PDF export.
   name: IntakeQ Treatment Notes API
   slug: intakeq-treatment-notes-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: IntakeQ Appointments API
   slug: open-intakeq-appointments-api
@@ -106,22 +105,22 @@ common:
   type: Blog
   url: https://forms.intakeq.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/capabilities/intakeq-capability-edges.yml
+  href: https://artifacts.apis.io/intakeq/capabilities/intakeq-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/intakeq-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/agentic-access/intakeq-agentic-access.yml
+  href: https://artifacts.apis.io/intakeq/agentic-access/intakeq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/intakeq-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/security/intakeq-domain-security.yml
+  href: https://artifacts.apis.io/intakeq/security/intakeq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/intakeq-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/authentication/intakeq-authentication.yml
+  href: https://artifacts.apis.io/intakeq/authentication/intakeq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/intakeq-authentication.yml
@@ -138,17 +137,17 @@ common:
   type: Documentation
   url: https://support.intakeq.com/category/560-api
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/plans/intakeq-plans-pricing.yml
+  href: https://artifacts.apis.io/intakeq/plans/intakeq-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/intakeq-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/rate-limits/intakeq-rate-limits.yml
+  href: https://artifacts.apis.io/intakeq/rate-limits/intakeq-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/intakeq-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/finops/intakeq-finops.yml
+  href: https://artifacts.apis.io/intakeq/finops/intakeq-finops.yml
   title: ''
   type: FinOps
   url: finops/intakeq-finops.yml
@@ -176,14 +175,14 @@ plans:
 - name: Intakeq Plans Pricing
   plan_count: 4
   slug: intakeq-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Intakeq Rate Limits
   slug: intakeq-rate-limits
 score:
   band: thin
-  composite: 26.2
+  composite: 26.9
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -191,7 +190,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -199,7 +198,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 34.0
+  previous_composite: 26.9
   provenance:
     agentic_access: derived
     contracts:
@@ -213,13 +212,14 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/screenshots/intakeq-2026-07-25T222634.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/intakeq/intakeq-2026-07-25T222634.png
 security:
 - kind: authentication
   name: Intakeq Authentication

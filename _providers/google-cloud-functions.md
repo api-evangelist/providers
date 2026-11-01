@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -64,7 +66,7 @@ apis:
   description: Operations for listing available runtimes
   name: Google Cloud Functions Runtimes API
   slug: google-cloud-functions-runtimes-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: postman
   name: Google Cloud Functions API
@@ -78,9 +80,6 @@ collections:
 - collection_type: postman
   name: Google Cloud Functions Runtimes API
   slug: postman-google-cloud-functions-runtimes-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud Functions API
   slug: open-google-cloud-functions-functions-api
@@ -97,18 +96,23 @@ collections:
   name: Google Cloud Functions API
   slug: open-google-cloud-functions
 common:
+- group: other
+  href: https://artifacts.apis.io/google-cloud-functions/capabilities/google-cloud-functions-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/google-cloud-functions-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/plans/google-cloud-functions-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-functions/plans/google-cloud-functions-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-functions-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/rate-limits/google-cloud-functions-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-functions/rate-limits/google-cloud-functions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-functions-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/finops/google-cloud-functions-finops.yml
+  href: https://artifacts.apis.io/google-cloud-functions/finops/google-cloud-functions-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-functions-finops.yml
@@ -121,27 +125,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-cloud-functions/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/agentic-access/google-cloud-functions-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-functions/agentic-access/google-cloud-functions-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-functions-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/security/google-cloud-functions-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-functions/security/google-cloud-functions-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-functions-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/security/google-cloud-functions-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-functions/security/google-cloud-functions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-functions-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/authentication/google-cloud-functions-authentication.yml
+  href: https://artifacts.apis.io/google-cloud-functions/authentication/google-cloud-functions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-cloud-functions-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/scopes/google-cloud-functions-scopes.yml
+  href: https://artifacts.apis.io/google-cloud-functions/scopes/google-cloud-functions-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-cloud-functions-scopes.yml
@@ -186,20 +190,20 @@ common:
   type: Support
   url: https://cloud.google.com/functions/docs/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/json-ld/google-cloud-functions-context.jsonld
+  href: https://artifacts.apis.io/google-cloud-functions/json-ld/google-cloud-functions-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-cloud-functions-context.jsonld
 created: '2026-03-13'
 description: Google Cloud Functions is a lightweight, event-driven, serverless compute platform that allows you to create small, single-purpose functions that respond to cloud events without the need to manage a server or runtime environment.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Cloud Functions Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: vcpu-second
+  service_category: ''
   slug: google-cloud-functions-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-functions.png
 json_schemas:
 - name: Google Cloud Function
@@ -221,12 +225,12 @@ overview: 'Google Cloud Functions publishes 4 API contracts indexed on the [APIs
   The Google Cloud Functions catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Functions'' developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 15 more developer resources.'
+  Google Cloud Functions'' developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 16 more developer resources.'
 plans:
 - name: Google Cloud Functions Plans Pricing
-  plan_count: 3
+  plan_count: 16
   slug: google-cloud-functions-plans-pricing
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Google Cloud Functions Rate Limits
@@ -249,24 +253,24 @@ scopes:
   slug: google-cloud-functions-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 45.5
+  band: strong
+  composite: 54.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 54.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.4
+    artifact_dirs: 16
+    catalog_earned: 66.7
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 9.8
     contract_quality: 58.1
     developer_ergonomics: 48.8
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 47.1
+    operational_transparency: 39.5
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -280,13 +284,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/screenshots/google-cloud-functions-2026-06-20T182113.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-functions/google-cloud-functions-2026-06-20T182113.png
 security:
 - kind: authentication
   name: Google Cloud Functions Authentication

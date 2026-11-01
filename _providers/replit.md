@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -72,9 +74,6 @@ collections:
   name: Replit Deployments Users API
   slug: postman-replit-users-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Replit Deployments API
   slug: open-replit-deployments-api
 - collection_type: open
@@ -88,22 +87,22 @@ collections:
   slug: open-replit
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/plans/replit-plans-pricing.yml
+  href: https://artifacts.apis.io/replit/plans/replit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/replit-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/rate-limits/replit-rate-limits.yml
+  href: https://artifacts.apis.io/replit/rate-limits/replit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/replit-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/finops/replit-finops.yml
+  href: https://artifacts.apis.io/replit/finops/replit-finops.yml
   title: ''
   type: FinOps
   url: finops/replit-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/capabilities/replit-capability-edges.yml
+  href: https://artifacts.apis.io/replit/capabilities/replit-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/replit-capability-edges.yml
@@ -112,22 +111,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/replit/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/agentic-access/replit-agentic-access.yml
+  href: https://artifacts.apis.io/replit/agentic-access/replit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/replit-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/security/replit-trust-center.yml
+  href: https://artifacts.apis.io/replit/security/replit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/replit-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/security/replit-domain-security.yml
+  href: https://artifacts.apis.io/replit/security/replit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/replit-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/authentication/replit-authentication.yml
+  href: https://artifacts.apis.io/replit/authentication/replit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/replit-authentication.yml
@@ -198,13 +197,13 @@ examples:
   name: Replit Create Repl Example
   slug: replit-create-repl-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Replit Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: replit-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/replit.png
 json_schemas:
 - name: Replit Repl
@@ -233,9 +232,12 @@ overview: 'Replit publishes 3 API contracts indexed on the [APIs.io](https://api
   Replit''s developer surface includes authentication, documentation, pricing, engineering blog, signup flow, and 19 more developer resources.'
 plans:
 - name: Replit Plans Pricing
-  plan_count: 3
+  plan_count: 9
   slug: replit-plans-pricing
-random_paper: 18
+- name: Replit Price Estimates
+  plan_count: 0
+  slug: replit-price-estimates
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Replit Rate Limits
@@ -265,24 +267,24 @@ rules:
     warn: 5
   slug: replit-rules
 score:
-  band: developing
-  composite: 49.2
+  band: strong
+  composite: 57.1
   coverage:
     artifact_dirs: 21
-    catalog_earned: 55.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    catalog_earned: 67.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 60.3
+    contract_quality: 56.9
     developer_ergonomics: 44.0
     discoverability: 64.3
-    operational_transparency: 26.3
-  previous_composite: 50.7
+    operational_transparency: 28.9
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     contracts:
@@ -296,13 +298,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/replit/refs/heads/main/screenshots/replit-2026-06-20T192905.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/replit/replit-2026-06-20T192905.png
 security:
 - kind: authentication
   name: Replit Authentication

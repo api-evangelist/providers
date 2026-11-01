@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,17 +25,19 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 31.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -185,6 +187,11 @@ apis:
   description: The UpdateChannel API from Amazon Interactive Video Service — 1 operation(s) for updatechannel.
   name: Amazon Interactive Video Service UpdateChannel API
   slug: amazon-interactive-video-service-updatechannel-api
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Interactive Video Service Operations API from Amazon Interactive Video Service — 67 operation(s) for interactive video service operations.
+  name: Amazon Interactive Video Service Interactive Video Service Operations API
+  slug: amazon-interactive-video-service-operations-api
 artifact_total: 419
 collections:
 - collection_type: postman
@@ -272,9 +279,6 @@ collections:
   name: Amazon Interactive Video Service BatchGetChannel UpdateChannel API
   slug: postman-amazon-interactive-video-service-updatechannel-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Amazon Interactive Video Service BatchGetChannel API
   slug: open-amazon-interactive-video-service-batchgetchannel-api
 - collection_type: open
@@ -360,22 +364,22 @@ collections:
   slug: open-amazon-interactive-video-service-updatechannel-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/plans/amazon-interactive-video-service-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-interactive-video-service/plans/amazon-interactive-video-service-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-interactive-video-service-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/rate-limits/amazon-interactive-video-service-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-interactive-video-service/rate-limits/amazon-interactive-video-service-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-interactive-video-service-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/finops/amazon-interactive-video-service-finops.yml
+  href: https://artifacts.apis.io/amazon-interactive-video-service/finops/amazon-interactive-video-service-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-interactive-video-service-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/capabilities/amazon-interactive-video-service-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-interactive-video-service/capabilities/amazon-interactive-video-service-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-interactive-video-service-capability-edges.yml
@@ -384,27 +388,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-interactive-video-service/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/agentic-access/amazon-interactive-video-service-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-interactive-video-service/agentic-access/amazon-interactive-video-service-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-interactive-video-service-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/security/amazon-interactive-video-service-trust-center.yml
+  href: https://artifacts.apis.io/amazon-interactive-video-service/security/amazon-interactive-video-service-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-interactive-video-service-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/security/amazon-interactive-video-service-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-interactive-video-service/security/amazon-interactive-video-service-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-interactive-video-service-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/security/amazon-interactive-video-service-domain-security.yml
+  href: https://artifacts.apis.io/amazon-interactive-video-service/security/amazon-interactive-video-service-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-interactive-video-service-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/authentication/amazon-interactive-video-service-authentication.yml
+  href: https://artifacts.apis.io/amazon-interactive-video-service/authentication/amazon-interactive-video-service-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-interactive-video-service-authentication.yml
@@ -461,17 +465,17 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/rules/amazon-interactive-video-service-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-interactive-video-service/rules/amazon-interactive-video-service-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-interactive-video-service-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/vocabulary/amazon-interactive-video-service-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-interactive-video-service/vocabulary/amazon-interactive-video-service-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-interactive-video-service-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/json-ld/amazon-interactive-video-service-context.jsonld
+  href: https://artifacts.apis.io/amazon-interactive-video-service/json-ld/amazon-interactive-video-service-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-interactive-video-service-context.jsonld
@@ -782,13 +786,13 @@ features:
 - description: Built-in chat messaging for interactive viewer experiences.
   name: Chat Integration
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Interactive Video Service Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: hour
+  service_category: ''
   slug: amazon-interactive-video-service-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-interactive-video-service.png
 json_schemas:
 - name: AudioConfiguration
@@ -1456,7 +1460,7 @@ modified: '2026-05-19'
 name: Amazon Interactive Video Service
 nav: Providers
 network: true
-overview: 'Amazon Interactive Video Service publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including BatchGetChannel API, BatchGetStreamKey API, BatchStartViewerSessionRevocation API, and 25 more. Tagged areas include Live Streaming, Media, Video, and Real-Time.
+overview: 'Amazon Interactive Video Service publishes 29 API contracts indexed on the [APIs.io](https://apis.io/) network, including BatchGetChannel API, BatchGetStreamKey API, BatchStartViewerSessionRevocation API, and 26 more. Tagged areas include Live Streaming, Media, Video, and Real-Time.
 
 
   The Amazon Interactive Video Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1465,9 +1469,9 @@ overview: 'Amazon Interactive Video Service publishes 28 API contracts indexed o
   Amazon Interactive Video Service''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
 plans:
 - name: Amazon Interactive Video Service Plans Pricing
-  plan_count: 3
+  plan_count: 11
   slug: amazon-interactive-video-service-plans-pricing
-random_paper: 17
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Amazon Interactive Video Service Rate Limits
@@ -1497,44 +1501,45 @@ rules:
     warn: 10
   slug: amazon-interactive-video-service-spectral-rules
 score:
-  band: developing
-  composite: 52.0
+  band: strong
+  composite: 62.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 58.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    artifact_dirs: 21
+    catalog_earned: 70.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 59.3
+    contract_quality: 59.5
     developer_ergonomics: 58.3
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 53.5
+    operational_transparency: 39.5
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 28
+      marker_coverage: 3.4
+      total: 29
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/screenshots/amazon-interactive-video-service-2026-06-20T171714.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-interactive-video-service/amazon-interactive-video-service-2026-06-20T171714.png
 security:
 - kind: authentication
   name: Amazon Interactive Video Service Authentication

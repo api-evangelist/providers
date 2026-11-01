@@ -19,7 +19,7 @@ name: LSI
 nav: Providers
 network: true
 overview: LSI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardtech, Semiconductors, Storage, and Chips.
-random_paper: 20
+random_paper: 16
 slug: lsi
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 12
 apis:
 - description: Server-side JSON API for the Learnosity platform. Endpoint families cover Item bank content (Items, Questions, Features, Activities, Tags, Pools, Templates, Workflows), learner sessions and responses,
@@ -72,10 +74,10 @@ apis:
 - description: Embeddable AI scoring and feedback surface for open-response work, exposed through feedbackSession and feedbackSessionUI configuration.
   name: Learnosity Feedback Aide
   slug: feedback-aide
-artifact_total: 18
+artifact_total: 19
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/plans/learnosity-plans-pricing.yml
+  href: https://artifacts.apis.io/learnosity/plans/learnosity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/learnosity-plans-pricing.yml
@@ -168,62 +170,62 @@ common:
   type: ChangeLog
   url: https://help.learnosity.com/hc/en-us/articles/19629981258653-Developer-Release-Logs
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/changelog/learnosity-changelog.yml
+  href: https://artifacts.apis.io/learnosity/changelog/learnosity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/learnosity-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/lifecycle/learnosity-lifecycle.yml
+  href: https://artifacts.apis.io/learnosity/lifecycle/learnosity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/learnosity-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/authentication/learnosity-authentication.yml
+  href: https://artifacts.apis.io/learnosity/authentication/learnosity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/learnosity-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/conventions/learnosity-conventions.yml
+  href: https://artifacts.apis.io/learnosity/conventions/learnosity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/learnosity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/errors/learnosity-error-codes.yml
+  href: https://artifacts.apis.io/learnosity/errors/learnosity-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/learnosity-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/rate-limits/learnosity-rate-limits.yml
+  href: https://artifacts.apis.io/learnosity/rate-limits/learnosity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/learnosity-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/packages/learnosity-packages.yml
+  href: https://artifacts.apis.io/learnosity/packages/learnosity-packages.yml
   title: ''
   type: Packages
   url: packages/learnosity-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/packages/learnosity-packages.yml
+  href: https://artifacts.apis.io/learnosity/packages/learnosity-packages.yml
   title: ''
   type: SDKs
   url: packages/learnosity-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/sandbox/learnosity-sandbox.yml
+  href: https://artifacts.apis.io/learnosity/sandbox/learnosity-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/learnosity-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/components/learnosity-components.yml
+  href: https://artifacts.apis.io/learnosity/components/learnosity-components.yml
   title: ''
   type: Components
   url: components/learnosity-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/data-model/learnosity-data-model.yml
+  href: https://artifacts.apis.io/learnosity/data-model/learnosity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/learnosity-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/conformance/learnosity-conformance.yml
+  href: https://artifacts.apis.io/learnosity/conformance/learnosity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/learnosity-conformance.yml
@@ -232,7 +234,7 @@ common:
   type: Compliance
   url: https://learnosity.com/platform/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/security/learnosity-trust-center.yml
+  href: https://artifacts.apis.io/learnosity/security/learnosity-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/learnosity-trust-center.yml
@@ -241,33 +243,41 @@ common:
   type: Security
   url: https://learnosity.com/product-security-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/security/learnosity-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/learnosity/security/learnosity-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/learnosity-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/security/learnosity-domain-security.yml
+  href: https://artifacts.apis.io/learnosity/security/learnosity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/learnosity-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/well-known/learnosity-well-known.yml
+  href: https://artifacts.apis.io/learnosity/well-known/learnosity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/learnosity-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/llms/learnosity-llms.txt
+  href: https://artifacts.apis.io/learnosity/llms/learnosity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/learnosity-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/mcp/learnosity-mcp.yml
+  href: https://artifacts.apis.io/learnosity/mcp/learnosity-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/learnosity-mcp.yml
 created: '2026-07-17'
 description: 'Learnosity is an Irish-founded assessment infrastructure company whose APIs are embedded into other companies'' learning products rather than sold as a finished platform. The surface is split in two: a family of versioned client-side JavaScript APIs - Items, Assess, Questions, Question Editor, Author, Author Aide, Annotations, Events, Reports, Grading, Rubric Editor and Feedback Aide - that render assessment, authoring, grading and reporting experiences inside a host application, and a server-side Data API for Item bank content, learner sessions, responses, scoring, jobs, reports and consumer administration. Learnosity is explicitly not a REST API: every Data API call is an HTTP POST whose operation is chosen by an `action` parameter, and every request across every API carries an HMAC-SHA256 signed `security` object generated server-side by one of six official SDKs. Versions ship on a dated Long Term Support train (vYYYY.X.LTS) pinned in the URL, with regional endpoints in
   Virginia, Dublin, Sydney, California and Oregon.'
+finops:
+- has_sources: true
+  method: derived
+  name: Learnosity Finops
+  primary_unit: ''
+  service_category: ''
+  slug: learnosity-finops
+  template: true
 image: https://learnosity.com/images/learnosity_logo.svg
 layout: provider
 modified: '2026-10-06'
@@ -282,30 +292,30 @@ plans:
 - name: Learnosity Plans Pricing
   plan_count: 3
   slug: learnosity-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 15
   name: Learnosity Rate Limits
   slug: learnosity-rate-limits
 score:
   band: strong
-  composite: 57.5
+  composite: 57.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 6.5
     developer_ergonomics: 71.4
-    discoverability: 78.6
-    operational_transparency: 84.2
-  previous_composite: 51.1
+    discoverability: 71.4
+    operational_transparency: 86.8
+  previous_composite: 57.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -319,14 +329,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/screenshots/learnosity-2026-07-25T224755.png
+screenshot: https://apis.io/screenshots/learnosity/learnosity-2026-07-25T224755.png
 security:
 - kind: authentication
   name: Learnosity Authentication

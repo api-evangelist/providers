@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Shopify-hosted Universal Commerce Protocol shopping service exposed over MCP for agent-driven catalog search, cart, and buyer-approved checkout on the Pair Eyewear storefront.
@@ -70,47 +72,47 @@ common:
   type: PrivacyPolicy
   url: https://paireyewear.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pair-eyewear/refs/heads/main/mcp/pair-eyewear-mcp.yml
+  href: https://artifacts.apis.io/pair-eyewear/mcp/pair-eyewear-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/pair-eyewear-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pair-eyewear/refs/heads/main/well-known/pair-eyewear-well-known.yml
+  href: https://artifacts.apis.io/pair-eyewear/well-known/pair-eyewear-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pair-eyewear-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pair-eyewear/refs/heads/main/authentication/pair-eyewear-authentication.yml
+  href: https://artifacts.apis.io/pair-eyewear/authentication/pair-eyewear-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pair-eyewear-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pair-eyewear/refs/heads/main/scopes/pair-eyewear-scopes.yml
+  href: https://artifacts.apis.io/pair-eyewear/scopes/pair-eyewear-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pair-eyewear-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pair-eyewear/refs/heads/main/conventions/pair-eyewear-conventions.yml
+  href: https://artifacts.apis.io/pair-eyewear/conventions/pair-eyewear-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pair-eyewear-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pair-eyewear/refs/heads/main/conformance/pair-eyewear-conformance.yml
+  href: https://artifacts.apis.io/pair-eyewear/conformance/pair-eyewear-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pair-eyewear-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pair-eyewear/refs/heads/main/security/pair-eyewear-domain-security.yml
+  href: https://artifacts.apis.io/pair-eyewear/security/pair-eyewear-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pair-eyewear-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pair-eyewear/refs/heads/main/llms/pair-eyewear-llms.txt
+  href: https://artifacts.apis.io/pair-eyewear/llms/pair-eyewear-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pair-eyewear-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pair-eyewear/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pair-eyewear/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -130,15 +132,15 @@ overview: 'Pair Eyewear is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Pair Eyewear''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 11 more developer resources.'
-random_paper: 17
+random_paper: 3
 scopes:
 - name: Pair Eyewear Scopes
   scope_count: 4
   slug: pair-eyewear-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 25.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -152,9 +154,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 26.5
+  previous_composite: 25.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -165,14 +167,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pair-eyewear/refs/heads/main/screenshots/pair-eyewear-2026-08-07T191314.png
+screenshot: https://apis.io/screenshots/pair-eyewear/pair-eyewear-2026-08-07T191314.png
 security:
 - kind: authentication
   name: Pair Eyewear Authentication

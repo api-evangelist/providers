@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API over the Red Canary portal. Documented resources include detections, threats, events, endpoints, endpoint_users, identities, investigations and audit_logs. Requests carry a per-
@@ -103,7 +105,7 @@ common:
   type: Security
   url: https://redcanary.com/responsible-disclosure/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/security/red-canary-trust-center.yml
+  href: https://artifacts.apis.io/red-canary/security/red-canary-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/red-canary-trust-center.yml
@@ -116,42 +118,42 @@ common:
   type: ChangeLog
   url: https://docs.redcanary.com/docs/red-canary-release-notes
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/packages/red-canary-packages.yml
+  href: https://artifacts.apis.io/red-canary/packages/red-canary-packages.yml
   title: ''
   type: Packages
   url: packages/red-canary-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/packages/red-canary-packages.yml
+  href: https://artifacts.apis.io/red-canary/packages/red-canary-packages.yml
   title: ''
   type: SDKs
   url: packages/red-canary-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/well-known/red-canary-well-known.yml
+  href: https://artifacts.apis.io/red-canary/well-known/red-canary-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/red-canary-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/llms/red-canary-llms.txt
+  href: https://artifacts.apis.io/red-canary/llms/red-canary-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/red-canary-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/authentication/red-canary-authentication.yml
+  href: https://artifacts.apis.io/red-canary/authentication/red-canary-authentication.yml
   title: ''
   type: Authentication
   url: authentication/red-canary-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/conventions/red-canary-conventions.yml
+  href: https://artifacts.apis.io/red-canary/conventions/red-canary-conventions.yml
   title: ''
   type: Conventions
   url: conventions/red-canary-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/errors/red-canary-problem-types.yml
+  href: https://artifacts.apis.io/red-canary/errors/red-canary-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/red-canary-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/lifecycle/red-canary-lifecycle.yml
+  href: https://artifacts.apis.io/red-canary/lifecycle/red-canary-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/red-canary-lifecycle.yml
@@ -160,32 +162,32 @@ common:
   type: Deprecation
   url: https://docs.redcanary.com/docs/red-canary-release-stages
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/conformance/red-canary-conformance.yml
+  href: https://artifacts.apis.io/red-canary/conformance/red-canary-conformance.yml
   title: ''
   type: Conformance
   url: conformance/red-canary-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/security/red-canary-domain-security.yml
+  href: https://artifacts.apis.io/red-canary/security/red-canary-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/red-canary-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/security/red-canary-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/red-canary/security/red-canary-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/red-canary-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/data-model/red-canary-data-model.yml
+  href: https://artifacts.apis.io/red-canary/data-model/red-canary-data-model.yml
   title: ''
   type: DataModel
   url: data-model/red-canary-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/cli/red-canary-cli.yml
+  href: https://artifacts.apis.io/red-canary/cli/red-canary-cli.yml
   title: ''
   type: CLI
   url: cli/red-canary-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/changelog/red-canary-changelog.yml
+  href: https://artifacts.apis.io/red-canary/changelog/red-canary-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/red-canary-changelog.yml
@@ -201,10 +203,10 @@ overview: 'Red Canary is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Red Canary''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 26 more developer resources.'
-random_paper: 8
+random_paper: 14
 score:
   band: developing
-  composite: 40.9
+  composite: 43.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -212,15 +214,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 52.6
-  previous_composite: 40.8
+    developer_ergonomics: 71.4
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 43.3
   provenance:
     conformance: first-party
   regulatory:
@@ -229,14 +231,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/red-canary/refs/heads/main/screenshots/red-canary-2026-09-02T153122.png
+screenshot: https://apis.io/screenshots/red-canary/red-canary-2026-09-02T153122.png
 security:
 - kind: authentication
   name: Red Canary Authentication

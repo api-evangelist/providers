@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -85,32 +87,32 @@ common:
   type: ChangeLog
   url: https://docs.privacera.com/resources/releases/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/privacera/refs/heads/main/packages/privacera-packages.yml
+  href: https://artifacts.apis.io/privacera/packages/privacera-packages.yml
   title: ''
   type: Packages
   url: packages/privacera-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/privacera/refs/heads/main/packages/privacera-packages.yml
+  href: https://artifacts.apis.io/privacera/packages/privacera-packages.yml
   title: ''
   type: SDKs
   url: packages/privacera-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/privacera/refs/heads/main/llms/privacera-llms.txt
+  href: https://artifacts.apis.io/privacera/llms/privacera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/privacera-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/privacera/refs/heads/main/well-known/privacera-well-known.yml
+  href: https://artifacts.apis.io/privacera/well-known/privacera-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/privacera-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/privacera/refs/heads/main/security/privacera-domain-security.yml
+  href: https://artifacts.apis.io/privacera/security/privacera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/privacera-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/privacera/refs/heads/main/security/privacera-trust-center.yml
+  href: https://artifacts.apis.io/privacera/security/privacera-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/privacera-trust-center.yml
@@ -119,7 +121,7 @@ common:
   type: Compliance
   url: https://privacera.com/trust-center/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/privacera/refs/heads/main/security/privacera-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/privacera/security/privacera-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/privacera-vulnerability-disclosure.yml
@@ -139,10 +141,10 @@ overview: 'Privacera is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Privacera''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 14 more developer resources.'
-random_paper: 11
+random_paper: 21
 score:
   band: thin
-  composite: 30.4
+  composite: 31.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -155,24 +157,24 @@ score:
     access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 38.1
-    discoverability: 55.4
-    operational_transparency: 28.9
-  previous_composite: 30.4
+    developer_ergonomics: 42.9
+    discoverability: 48.2
+    operational_transparency: 31.6
+  previous_composite: 31.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/privacera/refs/heads/main/screenshots/privacera-2026-09-02T152044.png
+screenshot: https://apis.io/screenshots/privacera/privacera-2026-09-02T152044.png
 security:
 - kind: domain-security
   name: Privacera Domain Security

@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,11 +64,8 @@ apis:
   description: Operations for managing session tokens that prevent duplicate questions.
   name: Open Trivia Database Tokens API
   slug: open-trivia-tokens-api
-artifact_total: 43
+artifact_total: 42
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Open Trivia Database Categories API
   slug: open-open-trivia-categories-api
@@ -84,17 +83,17 @@ collections:
   slug: open-open-trivia
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/rate-limits/open-trivia-rate-limits.yml
+  href: https://artifacts.apis.io/open-trivia/rate-limits/open-trivia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/open-trivia-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/agentic-access/open-trivia-agentic-access.yml
+  href: https://artifacts.apis.io/open-trivia/agentic-access/open-trivia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/open-trivia-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/security/open-trivia-domain-security.yml
+  href: https://artifacts.apis.io/open-trivia/security/open-trivia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/open-trivia-domain-security.yml
@@ -274,7 +273,7 @@ overview: 'Open Trivia Database is listed with 4 APIs on the [APIs.io](https://a
 
 
   Open Trivia Database''s developer surface includes documentation, support, tooling, code examples, and 17 more developer resources.'
-random_paper: 12
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Open Trivia Rate Limits
@@ -304,8 +303,8 @@ rules:
     warn: 18
   slug: open-trivia-rules
 score:
-  band: emerging
-  composite: 25.8
+  band: thin
+  composite: 29.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 66.0
@@ -313,15 +312,15 @@ score:
     catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.8
+  delta: 0.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 23.7
     contract_governance: 27.3
     contract_quality: 29.6
-    developer_ergonomics: 26.2
+    developer_ergonomics: 31.0
     discoverability: 69.6
     operational_transparency: 5.3
-  previous_composite: 27.6
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     contracts:
@@ -334,15 +333,15 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 14.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/screenshots/open-trivia-2026-06-20T190855.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/open-trivia/open-trivia-2026-06-20T190855.png
 security:
 - kind: domain-security
   name: Open Trivia Domain Security

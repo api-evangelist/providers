@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
@@ -71,7 +73,7 @@ common:
   type: TermsOfService
   url: https://www.23andme.org/legal/terms-of-service/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/23andme/refs/heads/main/security/23andme-trust-center.yml
+  href: https://artifacts.apis.io/23andme/security/23andme-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/23andme-trust-center.yml
@@ -80,7 +82,7 @@ common:
   type: Compliance
   url: https://www.23andme.org/trust-center/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/23andme/refs/heads/main/security/23andme-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/23andme/security/23andme-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/23andme-vulnerability-disclosure.yml
@@ -89,37 +91,37 @@ common:
   type: Security
   url: https://hackerone.com/23andme_bbp?type=team
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/23andme/refs/heads/main/security/23andme-domain-security.yml
+  href: https://artifacts.apis.io/23andme/security/23andme-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/23andme-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/23andme/refs/heads/main/conformance/23andme-conformance.yml
+  href: https://artifacts.apis.io/23andme/conformance/23andme-conformance.yml
   title: ''
   type: Conformance
   url: conformance/23andme-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/23andme/refs/heads/main/lifecycle/23andme-lifecycle.yml
+  href: https://artifacts.apis.io/23andme/lifecycle/23andme-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/23andme-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/23andme/refs/heads/main/llms/23andme-llms.txt
+  href: https://artifacts.apis.io/23andme/llms/23andme-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/23andme-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/23andme/refs/heads/main/packages/23andme-packages.yml
+  href: https://artifacts.apis.io/23andme/packages/23andme-packages.yml
   title: ''
   type: Packages
   url: packages/23andme-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/23andme/refs/heads/main/plans/23andme-plans-pricing.yml
+  href: https://artifacts.apis.io/23andme/plans/23andme-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/23andme-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/23andme/refs/heads/main/rate-limits/23andme-rate-limits.yml
+  href: https://artifacts.apis.io/23andme/rate-limits/23andme-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/23andme-rate-limits.yml
@@ -140,14 +142,14 @@ plans:
 - name: 23Andme Plans Pricing
   plan_count: 4
   slug: 23andme-plans-pricing
-random_paper: 2
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: 23Andme Rate Limits
   slug: 23andme-rate-limits
 score:
   band: thin
-  composite: 28.3
+  composite: 28.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 39.0
@@ -161,9 +163,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 13.2
-  previous_composite: 28.3
+    discoverability: 48.2
+    operational_transparency: 15.8
+  previous_composite: 28.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -179,14 +181,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/23andme/refs/heads/main/screenshots/23andme-2026-10-11T134420.png
+screenshot: https://apis.io/screenshots/23andme/23andme-2026-10-11T134420.png
 security:
 - kind: domain-security
   name: 23Andme Domain Security

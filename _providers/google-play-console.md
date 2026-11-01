@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,14 +51,11 @@ apis:
   description: The V1alpha1 API from Google Play Console Developer Reporting — 4 operation(s) for v1alpha1.
   name: Google Play Console Developer Reporting V1alpha1 API
   slug: google-play-console-v1alpha1-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: postman
   name: Google Play Console Developer Reporting Google Play Developer Reporting V1alpha1 API
   slug: postman-google-play-console-v1alpha1-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Play Console Developer Reporting Google Play Developer Reporting V1alpha1 API
   slug: open-google-play-console-v1alpha1-api
@@ -65,17 +64,17 @@ collections:
   slug: open-openapi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/plans/google-play-console-plans-pricing.yml
+  href: https://artifacts.apis.io/google-play-console/plans/google-play-console-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-play-console-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/rate-limits/google-play-console-rate-limits.yml
+  href: https://artifacts.apis.io/google-play-console/rate-limits/google-play-console-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-play-console-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/finops/google-play-console-finops.yml
+  href: https://artifacts.apis.io/google-play-console/finops/google-play-console-finops.yml
   title: ''
   type: FinOps
   url: finops/google-play-console-finops.yml
@@ -88,27 +87,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-play-console-developer-reporting/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/agentic-access/google-play-console-agentic-access.yml
+  href: https://artifacts.apis.io/google-play-console/agentic-access/google-play-console-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-play-console-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/security/google-play-console-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-play-console/security/google-play-console-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-play-console-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/security/google-play-console-domain-security.yml
+  href: https://artifacts.apis.io/google-play-console/security/google-play-console-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-play-console-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/authentication/google-play-console-authentication.yml
+  href: https://artifacts.apis.io/google-play-console/authentication/google-play-console-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-play-console-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/scopes/google-play-console-scopes.yml
+  href: https://artifacts.apis.io/google-play-console/scopes/google-play-console-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-play-console-scopes.yml
@@ -149,7 +148,7 @@ common:
   type: Support
   url: https://developers.google.com/play/developer/reporting/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/json-ld/json-ld.yml
+  href: https://artifacts.apis.io/google-play-console/json-ld/json-ld.yml
   title: ''
   type: JSONLD
   url: json-ld/json-ld.yml
@@ -159,7 +158,7 @@ finops:
 - has_sources: false
   method: generated
   name: Google Play Console Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: google-play-console-finops
   template: true
@@ -180,7 +179,7 @@ plans:
 - name: Google Play Console Plans Pricing
   plan_count: 3
   slug: google-play-console-plans-pricing
-random_paper: 6
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Google Play Console Rate Limits
@@ -203,8 +202,8 @@ scopes:
   slug: google-play-console-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: thin
-  composite: 36.9
+  band: developing
+  composite: 46.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 51.7
@@ -212,15 +211,15 @@ score:
     catalog_gap: 63.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 52.7
-    developer_ergonomics: 20.2
+    developer_ergonomics: 48.8
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 38.4
+    operational_transparency: 34.2
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     contracts:
@@ -234,14 +233,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/screenshots/google-play-console-2026-06-20T182226.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-play-console/google-play-console-2026-06-20T182226.png
 security:
 - kind: authentication
   name: Google Play Console Authentication

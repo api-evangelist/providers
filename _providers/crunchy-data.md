@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.7
-  scored_at: '2026-10-17'
+  score: 37.3
+  scored_at: '2026-10-31'
 api_count: 23
 apis:
 - baseURL: https://api.crunchybridge.com
@@ -141,50 +143,55 @@ apis:
   description: The Team Member API from Crunchy Data — 2 operation(s) for team member.
   name: Crunchy Data Team Member API
   slug: crunchy-data-team-member-api
-artifact_total: 27
+artifact_total: 30
 common:
+- group: commercial
+  href: https://artifacts.apis.io/crunchy-data/plans/crunchy-data-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/crunchy-data-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/packages/crunchy-data-packages.yml
+  href: https://artifacts.apis.io/crunchy-data/packages/crunchy-data-packages.yml
   title: ''
   type: SDKs
   url: packages/crunchy-data-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/packages/crunchy-data-packages.yml
+  href: https://artifacts.apis.io/crunchy-data/packages/crunchy-data-packages.yml
   title: ''
   type: Packages
   url: packages/crunchy-data-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/rate-limits/crunchy-data-rate-limits.yml
+  href: https://artifacts.apis.io/crunchy-data/rate-limits/crunchy-data-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/crunchy-data-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/rules/crunchy-data-rules.yml
+  href: https://artifacts.apis.io/crunchy-data/rules/crunchy-data-rules.yml
   title: ''
   type: Spectral
   url: rules/crunchy-data-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/vocabulary/crunchy-data-vocabulary.yml
+  href: https://artifacts.apis.io/crunchy-data/vocabulary/crunchy-data-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/crunchy-data-vocabulary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/cli/crunchy-data-cli.yml
+  href: https://artifacts.apis.io/crunchy-data/cli/crunchy-data-cli.yml
   title: ''
   type: CLI
   url: cli/crunchy-data-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/changelog/crunchy-data-changelog.yml
+  href: https://artifacts.apis.io/crunchy-data/changelog/crunchy-data-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/crunchy-data-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/conventions/crunchy-data-conventions.yml
+  href: https://artifacts.apis.io/crunchy-data/conventions/crunchy-data-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/crunchy-data-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/conventions/crunchy-data-conventions.yml
+  href: https://artifacts.apis.io/crunchy-data/conventions/crunchy-data-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crunchy-data-conventions.yml
@@ -193,37 +200,37 @@ common:
   type: Deprecation
   url: https://docs.crunchybridge.com/api/changelog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/lifecycle/crunchy-data-lifecycle.yml
+  href: https://artifacts.apis.io/crunchy-data/lifecycle/crunchy-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/crunchy-data-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/errors/crunchy-data-problem-types.yml
+  href: https://artifacts.apis.io/crunchy-data/errors/crunchy-data-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/crunchy-data-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/conformance/crunchy-data-conformance.yml
+  href: https://artifacts.apis.io/crunchy-data/conformance/crunchy-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crunchy-data-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/well-known/crunchy-data-www-security.txt
+  href: https://artifacts.apis.io/crunchy-data/well-known/crunchy-data-www-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/crunchy-data-www-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/well-known/crunchy-data-well-known.yml
+  href: https://artifacts.apis.io/crunchy-data/well-known/crunchy-data-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/crunchy-data-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/hosts/crunchy-data-hosts.yml
+  href: https://artifacts.apis.io/crunchy-data/hosts/crunchy-data-hosts.yml
   title: ''
   type: Hosts
   url: hosts/crunchy-data-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/vendors/crunchy-data-vendors.yml
+  href: https://artifacts.apis.io/crunchy-data/vendors/crunchy-data-vendors.yml
   title: ''
   type: Vendors
   url: vendors/crunchy-data-vendors.yml
@@ -236,12 +243,12 @@ common:
   type: Website
   url: https://www.crunchydata.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/security/crunchy-data-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/crunchy-data/security/crunchy-data-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/crunchy-data-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crunchy-data/refs/heads/main/security/crunchy-data-domain-security.yml
+  href: https://artifacts.apis.io/crunchy-data/security/crunchy-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crunchy-data-domain-security.yml
@@ -326,6 +333,14 @@ coverage:
   state: unreadable
 created: '2026-10-13'
 description: Crunchy Data is a PostgreSQL company offering Crunchy Bridge, a fully managed cloud Postgres service on AWS, Azure and GCP, Crunchy Postgres for Kubernetes (the PGO operator), Crunchy Data Warehouse and supported Postgres distributions. Crunchy Bridge exposes a REST platform API at api.crunchybridge.com for managing clusters, networks, teams, backups, replicas and roles. Crunchy Data was acquired by Snowflake in 2025; crunchydata.com still serves its own site, while its privacy and Bridge terms links now point to snowflake.com.
+finops:
+- has_sources: true
+  method: derived
+  name: Crunchy Data Finops
+  primary_unit: instance (2 cores, .5gb memory)
+  service_category: ''
+  slug: crunchy-data-finops
+  template: false
 image: https://www.crunchydata.com/build/_assets/home-og-KEZ7GSVN.png
 layout: provider
 modified: '2026-10-13'
@@ -338,8 +353,15 @@ overview: 'Crunchy Data is listed with 23 APIs on the [APIs.io](https://apis.io/
   The Crunchy Data catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Crunchy Data''s developer surface includes CLI, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 32 more developer resources.'
-random_paper: 9
+  Crunchy Data''s developer surface includes CLI, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 33 more developer resources.'
+plans:
+- name: Crunchy Data Plans Pricing
+  plan_count: 18
+  slug: crunchy-data-plans-pricing
+- name: Crunchy Data Price Estimates
+  plan_count: 0
+  slug: crunchy-data-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Crunchy Data Rate Limits
@@ -359,21 +381,23 @@ rules:
   slug: crunchy-data-rules
 score:
   band: developing
-  composite: 46.2
+  composite: 53.9
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 53.8
-    catalog_earned_first_party: 8.0
-    catalog_gap: 61.3
+    artifact_dirs: 19
+    catalog_earned: 68.8
+    catalog_earned_first_party: 20.0
+    catalog_gap: 46.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 22.0
-    contract_quality: 15.5
+    contract_quality: 12.1
     developer_ergonomics: 59.5
     discoverability: 73.2
     operational_transparency: 76.3
+  previous_composite: 46.0
   provenance:
     conformance: derived
     contracts:
@@ -388,11 +412,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Crunchy Data Domain Security

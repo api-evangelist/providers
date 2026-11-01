@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-17'
+  score: 18.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 10
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 94
   slug: sematext-agentic-access
   summary_line: 94 operations · 60 acting · 10 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: Elasticsearch-API-compatible endpoint for indexing log events (including _bulk) and searching them, addressed by Logs App token. No standalone contract is published; it follows the Elasticsearch API.
   name: Sematext Logs API (Elasticsearch-compatible)
@@ -114,65 +116,70 @@ apis:
   description: The Tags API from Sematext — 3 operation(s) for tags.
   name: Sematext Tags API
   slug: sematext-tags-api
-artifact_total: 21
+artifact_total: 24
 common:
+- group: commercial
+  href: https://artifacts.apis.io/sematext/plans/sematext-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sematext-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/agentic-access/sematext-agentic-access.yml
+  href: https://artifacts.apis.io/sematext/agentic-access/sematext-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sematext-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/rules/sematext-rules.yml
+  href: https://artifacts.apis.io/sematext/rules/sematext-rules.yml
   title: ''
   type: Spectral
   url: rules/sematext-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/vocabulary/sematext-vocabulary.yml
+  href: https://artifacts.apis.io/sematext/vocabulary/sematext-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sematext-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/data-model/sematext-data-model.yml
+  href: https://artifacts.apis.io/sematext/data-model/sematext-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sematext-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/lifecycle/sematext-lifecycle.yml
+  href: https://artifacts.apis.io/sematext/lifecycle/sematext-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sematext-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/errors/sematext-problem-types.yml
+  href: https://artifacts.apis.io/sematext/errors/sematext-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sematext-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/conformance/sematext-conformance.yml
+  href: https://artifacts.apis.io/sematext/conformance/sematext-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sematext-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/llms/sematext-llms.txt
+  href: https://artifacts.apis.io/sematext/llms/sematext-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sematext-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/hosts/sematext-hosts.yml
+  href: https://artifacts.apis.io/sematext/hosts/sematext-hosts.yml
   title: ''
   type: Hosts
   url: hosts/sematext-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/vendors/sematext-vendors.yml
+  href: https://artifacts.apis.io/sematext/vendors/sematext-vendors.yml
   title: ''
   type: Vendors
   url: vendors/sematext-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/packages/sematext-packages.yml
+  href: https://artifacts.apis.io/sematext/packages/sematext-packages.yml
   title: ''
   type: SDKs
   url: packages/sematext-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/packages/sematext-packages.yml
+  href: https://artifacts.apis.io/sematext/packages/sematext-packages.yml
   title: ''
   type: Packages
   url: packages/sematext-packages.yml
@@ -181,12 +188,12 @@ common:
   type: StatusPage
   url: https://status.sematext.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/authentication/sematext-authentication.yml
+  href: https://artifacts.apis.io/sematext/authentication/sematext-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sematext-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/security/sematext-domain-security.yml
+  href: https://artifacts.apis.io/sematext/security/sematext-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sematext-domain-security.yml
@@ -240,6 +247,14 @@ common:
   url: https://sematext.com/docs/changelog/
 created: '2026-10-13'
 description: Sematext is an observability company offering Sematext Cloud, a SaaS platform for log management, infrastructure and application monitoring, tracing, synthetic monitoring and real user monitoring, with Elasticsearch-API-compatible log ingestion and search and professional Solr / Elasticsearch / OpenSearch support. Its Sematext Cloud REST API (v3) manages apps, tokens, alerts, subscriptions and billing, and is documented in a public Swagger API Explorer in US and EU regions.
+finops:
+- has_sources: true
+  method: derived
+  name: Sematext Finops
+  primary_unit: host
+  service_category: ''
+  slug: sematext-finops
+  template: false
 image: https://sematext.com/wp-content/uploads/2024/10/apps.sematext.com_ui_synthetics_38609_monitors_652_runs_MacBook-Pro-_13-1.webp
 layout: provider
 modified: '2026-10-13'
@@ -252,8 +267,15 @@ overview: 'Sematext publishes 17 API contracts indexed on the [APIs.io](https://
   The Sematext catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Sematext''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 17
+  Sematext''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
+plans:
+- name: Sematext Plans Pricing
+  plan_count: 17
+  slug: sematext-plans-pricing
+- name: Sematext Price Estimates
+  plan_count: 0
+  slug: sematext-price-estimates
+random_paper: 11
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -269,21 +291,23 @@ rules:
   slug: sematext-rules
 score:
   band: developing
-  composite: 45.5
+  composite: 53.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 42.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.3
+    artifact_dirs: 19
+    catalog_earned: 57.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 22.0
-    contract_quality: 40.7
+    contract_quality: 39.2
     developer_ergonomics: 54.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 36.8
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,11 +323,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Sematext Authentication

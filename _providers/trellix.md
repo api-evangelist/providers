@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -88,72 +90,72 @@ apis:
 - description: Interactive API documentation and testing tool for Trellix security products formerly under the FireEye brand. Provides a web-based interface for exploring and testing API endpoints across multiple Tr
   name: Trellix API Explorer
   slug: trellix-api-explorer
-- baseURL: https://your-epo-server:8443/remote
+- baseURL: https://api.manage.trellix.com
   baseurl_source: declared
   description: Retrieve the history of response actions executed on managed endpoints through the EDR platform.
   name: Trellix Action History API
   slug: trellix-action-history-api
-- baseURL: https://your-epo-server:8443/remote
+- baseURL: https://api.manage.trellix.com
   baseurl_source: declared
   description: Query detection counts, severity rankings, and first detection timestamps for systems affected by threats.
   name: Trellix Affected Hosts API
   slug: trellix-affected-hosts-api
-- baseURL: https://your-epo-server:8443/remote
+- baseURL: https://api.manage.trellix.com
   baseurl_source: declared
   description: Access discrete detection alerts containing process, user, and host context with trace identifiers and severity scores.
   name: Trellix Alerts API
   slug: trellix-alerts-api
-- baseURL: https://your-epo-server:8443/remote
+- baseURL: https://api.manage.trellix.com
   baseurl_source: declared
   description: Retrieve individual detection events with process names, command lines, hash identifiers, and domain information.
   name: Trellix Detections API
   slug: trellix-detections-api
-- baseURL: https://your-epo-server:8443/remote
+- baseURL: https://api.manage.trellix.com
   baseurl_source: declared
   description: Manage and query endpoint devices registered in ePO SaaS, including device attributes, agent status, and system information.
   name: Trellix Devices API
   slug: trellix-devices-api
-- baseURL: https://your-epo-server:8443/remote
+- baseURL: https://api.manage.trellix.com
   baseurl_source: declared
   description: The Epo API from Trellix — 2 operation(s) for epo.
   name: Trellix Epo API
   slug: trellix-epo-api
-- baseURL: https://your-epo-server:8443/remote
+- baseURL: https://api.manage.trellix.com
   baseurl_source: declared
   description: Retrieve threat events and security incidents detected across managed endpoints. Events have a 3-day retention period.
   name: Trellix Events API
   slug: trellix-events-api
-- baseURL: https://your-epo-server:8443/remote
+- baseURL: https://api.manage.trellix.com
   baseurl_source: declared
   description: Manage device groups and organizational hierarchy within the ePO SaaS console.
   name: Trellix Groups API
   slug: trellix-groups-api
-- baseURL: https://your-epo-server:8443/remote
+- baseURL: https://api.manage.trellix.com
   baseurl_source: declared
   description: Execute and manage saved queries against the ePO SaaS data store for reporting and analysis.
   name: Trellix Queries API
   slug: trellix-queries-api
-- baseURL: https://your-epo-server:8443/remote
+- baseURL: https://api.manage.trellix.com
   baseurl_source: declared
   description: Execute response actions on endpoints such as killing processes, quarantining files, or isolating hosts.
   name: Trellix Reactions API
   slug: trellix-reactions-api
-- baseURL: https://your-epo-server:8443/remote
+- baseURL: https://api.manage.trellix.com
   baseurl_source: declared
   description: Trigger automated response actions on managed endpoints, including policy enforcement and remediation tasks.
   name: Trellix Response Actions API
   slug: trellix-response-actions-api
-- baseURL: https://your-epo-server:8443/remote
+- baseURL: https://api.manage.trellix.com
   baseurl_source: declared
   description: Execute real-time searches across managed endpoints to hunt for indicators of compromise and suspicious activity.
   name: Trellix Searches API
   slug: trellix-searches-api
-- baseURL: https://your-epo-server:8443/remote
+- baseURL: https://api.manage.trellix.com
   baseurl_source: declared
   description: Query aggregated threat intelligence including threat names, severity rankings, SHA256 hashes, and MITRE ATT&CK mappings.
   name: Trellix Threats API
   slug: trellix-threats-api
-artifact_total: 86
+artifact_total: 85
 collections:
 - collection_type: postman
   name: Trellix EDR Action History API
@@ -194,9 +196,6 @@ collections:
 - collection_type: postman
   name: Trellix EDR Action History Threats API
   slug: postman-trellix-threats-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Trellix EDR Action History API
   slug: open-trellix-action-history-api
@@ -244,22 +243,22 @@ collections:
   slug: open-trellix-threats-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/plans/trellix-plans-pricing.yml
+  href: https://artifacts.apis.io/trellix/plans/trellix-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trellix-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/rate-limits/trellix-rate-limits.yml
+  href: https://artifacts.apis.io/trellix/rate-limits/trellix-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trellix-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/finops/trellix-finops.yml
+  href: https://artifacts.apis.io/trellix/finops/trellix-finops.yml
   title: ''
   type: FinOps
   url: finops/trellix-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/capabilities/trellix-capability-edges.yml
+  href: https://artifacts.apis.io/trellix/capabilities/trellix-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/trellix-capability-edges.yml
@@ -272,17 +271,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/trellix/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/agentic-access/trellix-agentic-access.yml
+  href: https://artifacts.apis.io/trellix/agentic-access/trellix-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trellix-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/security/trellix-domain-security.yml
+  href: https://artifacts.apis.io/trellix/security/trellix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trellix-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/authentication/trellix-authentication.yml
+  href: https://artifacts.apis.io/trellix/authentication/trellix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trellix-authentication.yml
@@ -375,42 +374,42 @@ common:
   type: ReleaseNotes
   url: https://docs.trellix.com/bundle/trellix-developer-portal-and-marketplace-release-notes
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/_original/trellix-edr-openapi.yml
+  href: https://artifacts.apis.io/trellix/openapi/_original/trellix-edr-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/trellix-edr-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/_original/trellix-epo-saas-openapi.yml
+  href: https://artifacts.apis.io/trellix/openapi/_original/trellix-epo-saas-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/trellix-epo-saas-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/json-schema/trellix-threat-schema.json
+  href: https://artifacts.apis.io/trellix/json-schema/trellix-threat-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/trellix-threat-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/json-schema/trellix-device-schema.json
+  href: https://artifacts.apis.io/trellix/json-schema/trellix-device-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/trellix-device-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/json-structure/trellix-threat-structure.json
+  href: https://artifacts.apis.io/trellix/json-structure/trellix-threat-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/trellix-threat-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/json-ld/trellix-context.jsonld
+  href: https://artifacts.apis.io/trellix/json-ld/trellix-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/trellix-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/rules/trellix-spectral-rules.yml
+  href: https://artifacts.apis.io/trellix/rules/trellix-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/trellix-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/vocabulary/trellix-vocabulary.yml
+  href: https://artifacts.apis.io/trellix/vocabulary/trellix-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/trellix-vocabulary.yml
@@ -512,7 +511,7 @@ plans:
 - name: Trellix Plans Pricing
   plan_count: 1
   slug: trellix-plans-pricing
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Trellix Rate Limits
@@ -543,7 +542,7 @@ rules:
   slug: trellix-spectral-rules
 score:
   band: developing
-  composite: 41.8
+  composite: 52.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 54.8
@@ -551,15 +550,15 @@ score:
     catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 17.4
     contract_quality: 56.9
-    developer_ergonomics: 28.6
+    developer_ergonomics: 69.0
     discoverability: 73.2
-    operational_transparency: 39.5
-  previous_composite: 43.3
+    operational_transparency: 42.1
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     contracts:
@@ -573,13 +572,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/screenshots/trellix-2026-06-20T195650.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/trellix/trellix-2026-06-20T195650.png
 security:
 - kind: authentication
   name: Trellix Authentication

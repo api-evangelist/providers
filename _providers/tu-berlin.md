@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH 2.0) endpoint for DepositOnce, TU Berlin's institutional repository for publications and research data, operated by the University Li
@@ -139,7 +141,7 @@ common:
   type: Authentication
   url: https://www.tu.berlin/campusmanagement/angebot/shibboleth
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tu-berlin/refs/heads/main/authentication/tu-berlin-authentication.yml
+  href: https://artifacts.apis.io/tu-berlin/authentication/tu-berlin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tu-berlin-authentication.yml
@@ -160,42 +162,42 @@ common:
   type: ContentSignal
   url: https://www.tu.berlin/robots.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tu-berlin/refs/heads/main/scopes/tu-berlin-scopes.yml
+  href: https://artifacts.apis.io/tu-berlin/scopes/tu-berlin-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tu-berlin-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tu-berlin/refs/heads/main/conformance/tu-berlin-conformance.yml
+  href: https://artifacts.apis.io/tu-berlin/conformance/tu-berlin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tu-berlin-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tu-berlin/refs/heads/main/well-known/tu-berlin-gitlab-openid-configuration.json
+  href: https://artifacts.apis.io/tu-berlin/well-known/tu-berlin-gitlab-openid-configuration.json
   title: ''
   type: WellKnown
   url: well-known/tu-berlin-gitlab-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tu-berlin/refs/heads/main/security/tu-berlin-domain-security.yml
+  href: https://artifacts.apis.io/tu-berlin/security/tu-berlin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tu-berlin-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tu-berlin/refs/heads/main/plans/tu-berlin-plans-pricing.yml
+  href: https://artifacts.apis.io/tu-berlin/plans/tu-berlin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tu-berlin-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tu-berlin/refs/heads/main/rate-limits/tu-berlin-rate-limits.yml
+  href: https://artifacts.apis.io/tu-berlin/rate-limits/tu-berlin-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tu-berlin-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tu-berlin/refs/heads/main/finops/tu-berlin-finops.yml
+  href: https://artifacts.apis.io/tu-berlin/finops/tu-berlin-finops.yml
   title: ''
   type: FinOps
   url: finops/tu-berlin-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tu-berlin/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/tu-berlin/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -232,7 +234,7 @@ plans:
 - name: Tu Berlin Plans Pricing
   plan_count: 2
   slug: tu-berlin-plans-pricing
-random_paper: 12
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Tu Berlin Rate Limits
@@ -244,7 +246,7 @@ scopes:
   summary_line: 26 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: thin
-  composite: 31.9
+  composite: 32.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 52.0
@@ -252,14 +254,14 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 14.3
     developer_ergonomics: 28.6
     discoverability: 71.4
-    operational_transparency: 34.2
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -268,7 +270,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 38.0
+  previous_composite: 32.2
   provenance:
     conformance: first-party
   regulatory:
@@ -277,14 +279,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tu-berlin/refs/heads/main/screenshots/tu-berlin-2026-06-20T195818.png
+screenshot: https://apis.io/screenshots/tu-berlin/tu-berlin-2026-06-20T195818.png
 security:
 - kind: authentication
   name: Tu Berlin Authentication

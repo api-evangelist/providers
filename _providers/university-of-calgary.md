@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.5
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -135,11 +137,8 @@ apis:
 - description: The ucalgary.ca single-sign-on identity provider, run as a Microsoft Entra ID tenant. It publishes signed SAML 2.0 federation metadata and an OpenID Connect discovery document, both keyless and machin
   name: University of Calgary Identity Federation (SAML 2.0 / OpenID Connect)
   slug: identity-federation
-artifact_total: 54
+artifact_total: 53
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AuroraX Application.wadl API
   slug: open-university-of-calgary-application-wadl-api
@@ -252,62 +251,62 @@ common:
   type: AITooling
   url: https://ai.ucalgary.ca/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/agentic-access/university-of-calgary-agentic-access.yml
+  href: https://artifacts.apis.io/university-of-calgary/agentic-access/university-of-calgary-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-calgary-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/conformance/university-of-calgary-conformance.yml
+  href: https://artifacts.apis.io/university-of-calgary/conformance/university-of-calgary-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-calgary-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/security/university-of-calgary-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/university-of-calgary/security/university-of-calgary-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/university-of-calgary-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/security/university-of-calgary-domain-security.yml
+  href: https://artifacts.apis.io/university-of-calgary/security/university-of-calgary-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-calgary-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/authentication/university-of-calgary-authentication.yml
+  href: https://artifacts.apis.io/university-of-calgary/authentication/university-of-calgary-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-calgary-authentication.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/plans/university-of-calgary-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-calgary/plans/university-of-calgary-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-calgary-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/rate-limits/university-of-calgary-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-calgary/rate-limits/university-of-calgary-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-calgary-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/finops/university-of-calgary-finops.yml
+  href: https://artifacts.apis.io/university-of-calgary/finops/university-of-calgary-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-calgary-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-calgary/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/vocabulary/university-of-calgary-vocabulary.yml
+  href: https://artifacts.apis.io/university-of-calgary/vocabulary/university-of-calgary-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/university-of-calgary-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/rules/university-of-calgary-rules.yml
+  href: https://artifacts.apis.io/university-of-calgary/rules/university-of-calgary-rules.yml
   title: ''
   type: Rules
   url: rules/university-of-calgary-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/json-ld/university-of-calgary-context.jsonld
+  href: https://artifacts.apis.io/university-of-calgary/json-ld/university-of-calgary-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/university-of-calgary-context.jsonld
@@ -374,7 +373,7 @@ plans:
 - name: University Of Calgary Plans Pricing
   plan_count: 2
   slug: university-of-calgary-plans-pricing
-random_paper: 8
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: University Of Calgary Rate Limits
@@ -404,7 +403,7 @@ rules:
   slug: university-of-calgary-rules
 score:
   band: thin
-  composite: 33.9
+  composite: 36.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 56.8
@@ -412,14 +411,14 @@ score:
     catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 28.0
-    contract_quality: 54.3
+    contract_quality: 53.8
     developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 7.9
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -427,7 +426,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 39.9
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -442,13 +441,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/screenshots/university-of-calgary-2026-06-20T200144.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/university-of-calgary/university-of-calgary-2026-06-20T200144.png
 security:
 - kind: authentication
   name: University Of Calgary Authentication

@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 20.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.rmaster.com/api
@@ -179,14 +181,14 @@ apis:
   description: The Edocs API from Broadlume — 3 operation(s) for edocs.
   name: Broadlume Edocs API
   slug: broadlume-edocs-api
-artifact_total: 33
+artifact_total: 38
 collections:
 - collection_type: open
   name: Broadlume BMS API
   slug: open-broadlume-bms
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/capabilities/broadlume-capability-edges.yml
+  href: https://artifacts.apis.io/broadlume/capabilities/broadlume-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/broadlume-capability-edges.yml
@@ -235,7 +237,7 @@ common:
   type: Sandbox
   url: https://developer.broadlume.com/api-runner/broadlume/bms
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/changelog/broadlume-changelog.yml
+  href: https://artifacts.apis.io/broadlume/changelog/broadlume-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/broadlume-changelog.yml
@@ -244,82 +246,90 @@ common:
   type: GitHubOrganization
   url: https://github.com/broadlume
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/security/broadlume-domain-security.yml
+  href: https://artifacts.apis.io/broadlume/security/broadlume-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/broadlume-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/llms/broadlume-llms.txt
+  href: https://artifacts.apis.io/broadlume/llms/broadlume-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/broadlume-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/authentication/broadlume-authentication.yml
+  href: https://artifacts.apis.io/broadlume/authentication/broadlume-authentication.yml
   title: ''
   type: Authentication
   url: authentication/broadlume-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/conventions/broadlume-conventions.yml
+  href: https://artifacts.apis.io/broadlume/conventions/broadlume-conventions.yml
   title: ''
   type: Conventions
   url: conventions/broadlume-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/errors/broadlume-problem-types.yml
+  href: https://artifacts.apis.io/broadlume/errors/broadlume-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/broadlume-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/lifecycle/broadlume-lifecycle.yml
+  href: https://artifacts.apis.io/broadlume/lifecycle/broadlume-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/broadlume-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/data-model/broadlume-data-model.yml
+  href: https://artifacts.apis.io/broadlume/data-model/broadlume-data-model.yml
   title: ''
   type: DataModel
   url: data-model/broadlume-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/conformance/broadlume-conformance.yml
+  href: https://artifacts.apis.io/broadlume/conformance/broadlume-conformance.yml
   title: ''
   type: Conformance
   url: conformance/broadlume-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/packages/broadlume-packages.yml
+  href: https://artifacts.apis.io/broadlume/packages/broadlume-packages.yml
   title: ''
   type: Packages
   url: packages/broadlume-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/packages/broadlume-packages.yml
+  href: https://artifacts.apis.io/broadlume/packages/broadlume-packages.yml
   title: ''
   type: SDKs
   url: packages/broadlume-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/mcp/broadlume-mcp.yml
+  href: https://artifacts.apis.io/broadlume/mcp/broadlume-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/broadlume-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/broadlume/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/overlays/broadlume-bms-overlay.yaml
+  href: https://artifacts.apis.io/broadlume/overlays/broadlume-bms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/broadlume-bms-overlay.yaml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/plans/broadlume-plans-pricing.yml
+  href: https://artifacts.apis.io/broadlume/plans/broadlume-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/broadlume-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/rate-limits/broadlume-rate-limits.yml
+  href: https://artifacts.apis.io/broadlume/rate-limits/broadlume-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/broadlume-rate-limits.yml
 created: '2026-07-17'
 description: Broadlume is an all-in-one business platform for the flooring industry, serving more than 4,000 retailers and 300+ manufacturers. Its products span lead-generating websites, digital advertising, SEO and reputation management, product catalogs, and a suite of flooring business software covering accounting, inventory management, job costing, and lead management, plus a retail selling system with in-store visualization and e-commerce sample ordering. Broadlume publishes a public developer portal at developer.broadlume.com documenting the Broadlume BMS API — the REST interface to its flooring ERP, formerly known as RollMaster, which Broadlume acquired in November 2021 — covering orders, quotes, leads, customers, products, inventory, purchase orders, invoicing, accounts receivable, general ledger, installation scheduling and handheld barcode operations. Broadlume is owned by Cyncly.
+finops:
+- has_sources: true
+  method: derived
+  name: Broadlume Finops
+  primary_unit: ''
+  service_category: ''
+  slug: broadlume-finops
+  template: true
 image: https://optimise2.assets-servd.host/broadlume-platform/production/images/Notebooks.png?w=1200&h=630&q=82&auto=format&fit=crop&dm=1663075995&s=fbf90ba9ce3de4a4318d0dd612edb58a
 layout: provider
 modified: '2026-08-13'
@@ -334,30 +344,30 @@ plans:
 - name: Broadlume Plans Pricing
   plan_count: 0
   slug: broadlume-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Broadlume Rate Limits
   slug: broadlume-rate-limits
 score:
   band: developing
-  composite: 43.1
+  composite: 43.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 46.5
     developer_ergonomics: 68.5
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 43.0
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 43.5
   provenance:
     conformance: derived
     contracts:
@@ -373,13 +383,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/screenshots/broadlume-2026-07-25T203941.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/broadlume/broadlume-2026-07-25T203941.png
 security:
 - kind: authentication
   name: Broadlume Authentication
@@ -389,6 +400,16 @@ security:
   name: Broadlume Domain Security
   slug: broadlume-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Authenticate and scope a Broadlume BMS session
+  slug: broadlume-authenticate-and-scope-session
+- name: Take a flooring lead through quote to order
+  slug: broadlume-lead-to-quote-to-order
+- name: Purchase and receive flooring inventory
+  slug: broadlume-purchasing-and-inventory
+- name: Read Broadlume BMS receivables and financial reporting
+  slug: broadlume-receivables-and-reporting
 slug: broadlume
 tags:
 - Company

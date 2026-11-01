@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: NIST Special Publication 800-207 defines zero trust architecture (ZTA) and provides a roadmap for organizations migrating to ZTA. It describes seven ZTA tenets, three logical components (Policy Decisi
@@ -54,27 +56,27 @@ apis:
 artifact_total: 47
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/plans/zero-trust-architecture-plans-pricing.yml
+  href: https://artifacts.apis.io/zero-trust-architecture/plans/zero-trust-architecture-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zero-trust-architecture-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/rate-limits/zero-trust-architecture-rate-limits.yml
+  href: https://artifacts.apis.io/zero-trust-architecture/rate-limits/zero-trust-architecture-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zero-trust-architecture-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/finops/zero-trust-architecture-finops.yml
+  href: https://artifacts.apis.io/zero-trust-architecture/finops/zero-trust-architecture-finops.yml
   title: ''
   type: FinOps
   url: finops/zero-trust-architecture-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/security/zero-trust-architecture-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zero-trust-architecture/security/zero-trust-architecture-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zero-trust-architecture-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/security/zero-trust-architecture-domain-security.yml
+  href: https://artifacts.apis.io/zero-trust-architecture/security/zero-trust-architecture-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zero-trust-architecture-domain-security.yml
@@ -119,47 +121,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/open-policy-agent
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/json-schema/zero-trust-architecture-policy-schema.json
+  href: https://artifacts.apis.io/zero-trust-architecture/json-schema/zero-trust-architecture-policy-schema.json
   title: Zero Trust Policy Schema
   type: JSONSchema
   url: json-schema/zero-trust-architecture-policy-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/json-schema/zero-trust-architecture-identity-schema.json
+  href: https://artifacts.apis.io/zero-trust-architecture/json-schema/zero-trust-architecture-identity-schema.json
   title: Zero Trust Identity Schema
   type: JSONSchema
   url: json-schema/zero-trust-architecture-identity-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/json-schema/zero-trust-architecture-resource-schema.json
+  href: https://artifacts.apis.io/zero-trust-architecture/json-schema/zero-trust-architecture-resource-schema.json
   title: Zero Trust Resource Schema
   type: JSONSchema
   url: json-schema/zero-trust-architecture-resource-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/json-ld/zero-trust-architecture-context.jsonld
+  href: https://artifacts.apis.io/zero-trust-architecture/json-ld/zero-trust-architecture-context.jsonld
   title: Zero Trust Architecture JSON-LD Context
   type: JSONLD
   url: json-ld/zero-trust-architecture-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/json-structure/zero-trust-architecture-policy-structure.json
+  href: https://artifacts.apis.io/zero-trust-architecture/json-structure/zero-trust-architecture-policy-structure.json
   title: Zero Trust Policy Structure
   type: JSONStructure
   url: json-structure/zero-trust-architecture-policy-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/json-structure/zero-trust-architecture-identity-structure.json
+  href: https://artifacts.apis.io/zero-trust-architecture/json-structure/zero-trust-architecture-identity-structure.json
   title: Zero Trust Identity Structure
   type: JSONStructure
   url: json-structure/zero-trust-architecture-identity-structure.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/vocabulary/zero-trust-architecture-vocabulary.yaml
+  href: https://artifacts.apis.io/zero-trust-architecture/vocabulary/zero-trust-architecture-vocabulary.yaml
   title: Zero Trust Architecture Vocabulary
   type: Resources
   url: vocabulary/zero-trust-architecture-vocabulary.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/examples/zero-trust-architecture-policy-example.json
+  href: https://artifacts.apis.io/zero-trust-architecture/examples/zero-trust-architecture-policy-example.json
   title: Zero Trust Policy Example
   type: CodeExamples
   url: examples/zero-trust-architecture-policy-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/examples/zero-trust-architecture-identity-example.json
+  href: https://artifacts.apis.io/zero-trust-architecture/examples/zero-trust-architecture-identity-example.json
   title: Zero Trust Identity Example
   type: CodeExamples
   url: examples/zero-trust-architecture-identity-example.json
@@ -197,7 +199,7 @@ finops:
 - has_sources: false
   method: generated
   name: Zero Trust Architecture Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: zero-trust-architecture-finops
   template: true
@@ -261,7 +263,7 @@ plans:
 - name: Zero Trust Architecture Plans Pricing
   plan_count: 3
   slug: zero-trust-architecture-plans-pricing
-random_paper: 1
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Zero Trust Architecture Rate Limits
@@ -280,7 +282,7 @@ rules:
   slug: zero-trust-architecture-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.7
+  composite: 23.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 52.3
@@ -288,29 +290,29 @@ score:
     catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 17.2
     developer_ergonomics: 19.0
     discoverability: 69.6
-    operational_transparency: 10.5
-  previous_composite: 23.2
+    operational_transparency: 23.7
+  previous_composite: 23.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zero-trust-architecture/refs/heads/main/screenshots/zero-trust-architecture-2026-06-20T201825.png
+screenshot: https://apis.io/screenshots/zero-trust-architecture/zero-trust-architecture-2026-06-20T201825.png
 security:
 - kind: domain-security
   name: Zero Trust Architecture Domain Security

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cimarex-energy/refs/heads/main/security/cimarex-energy-domain-security.yml
+  href: https://artifacts.apis.io/cimarex-energy/security/cimarex-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cimarex-energy-domain-security.yml
@@ -58,7 +60,7 @@ common:
   type: TermsOfService
   url: https://www.coterra.com/legal-notice/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cimarex-energy/refs/heads/main/llms/cimarex-energy-llms.txt
+  href: https://artifacts.apis.io/cimarex-energy/llms/cimarex-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cimarex-energy-llms.txt
@@ -106,7 +108,7 @@ press:
 - date: ''
   title: OAG Analytics Announces Strategic Partnership with Cimarex ...
   url: https://www.prnewswire.com/news-releases/oag-analytics-announces-strategic-partnership-with-cimarex-energy-300890540.html
-random_paper: 10
+random_paper: 0
 score:
   band: minimal
   composite: 0.0
@@ -140,14 +142,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cimarex-energy/refs/heads/main/screenshots/cimarex-energy-2026-06-20T174342.png
+screenshot: https://apis.io/screenshots/cimarex-energy/cimarex-energy-2026-06-20T174342.png
 security:
 - kind: domain-security
   name: Cimarex Energy Domain Security

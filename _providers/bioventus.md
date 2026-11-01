@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bioventus/refs/heads/main/hosts/bioventus-hosts.yml
+  href: https://artifacts.apis.io/bioventus/hosts/bioventus-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bioventus-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bioventus/refs/heads/main/vendors/bioventus-vendors.yml
+  href: https://artifacts.apis.io/bioventus/vendors/bioventus-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bioventus-vendors.yml
@@ -58,7 +60,7 @@ common:
   type: Leadership
   url: https://www.bioventus.com/about-us/leadership/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bioventus/refs/heads/main/security/bioventus-domain-security.yml
+  href: https://artifacts.apis.io/bioventus/security/bioventus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bioventus-domain-security.yml
@@ -83,12 +85,12 @@ name: Bioventus
 nav: Providers
 network: true
 overview: Bioventus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Orthobiologics, Medical Devices, Healthcare, and Innovation.
-random_paper: 1
+random_paper: 7
 score:
   band: emerging
   composite: 11.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -109,14 +111,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bioventus/refs/heads/main/screenshots/bioventus-2026-10-11T102343.png
+screenshot: https://apis.io/screenshots/bioventus/bioventus-2026-10-11T102343.png
 security:
 - kind: domain-security
   name: Bioventus Domain Security

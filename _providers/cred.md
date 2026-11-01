@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,22 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cred/refs/heads/main/security/cred-trust-center.yml
+  href: https://artifacts.apis.io/cred/security/cred-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cred-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cred/refs/heads/main/security/cred-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cred/security/cred-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cred-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cred/refs/heads/main/security/cred-domain-security.yml
+  href: https://artifacts.apis.io/cred/security/cred-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cred-domain-security.yml
@@ -91,12 +93,12 @@ overview: 'CRED is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   CRED''s developer surface includes GitHub presence, engineering blog, and 8 more developer resources.'
-random_paper: 18
+random_paper: 6
 score:
   band: minimal
-  composite: 6.4
+  composite: 7.8
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 24.0
     catalog_earned_first_party: 0.0
     catalog_gap: 91.0
@@ -109,7 +111,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 42.9
-    operational_transparency: 5.3
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -117,21 +119,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 6.4
+  previous_composite: 7.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cred/refs/heads/main/screenshots/cred-2026-06-20T175222.png
+screenshot: https://apis.io/screenshots/cred/cred-2026-06-20T175222.png
 security:
 - kind: domain-security
   name: Cred Domain Security

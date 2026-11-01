@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.1
-  scored_at: '2026-10-17'
+  score: 29.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -170,7 +172,7 @@ arazzos:
 - description: Upload an image to WhatsApp servers and send it to a recipient by media ID.
   name: WhatsApp Upload Media and Send Image Message
   slug: whatsapp-upload-media-send-image-workflow
-artifact_total: 194
+artifact_total: 193
 asyncapis:
 - description: 'WhatsApp Business Platform webhooks deliver real-time notifications for incoming messages, message status updates, template status changes, account updates, phone number quality changes, and security '
   name: WhatsApp Webhooks
@@ -185,9 +187,6 @@ collections:
 - collection_type: postman
   name: WhatsApp Flows API
   slug: postman-whatsapp-flows-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WhatsApp Business Management Analytics API
   slug: open-whatsapp-analytics-api
@@ -243,13 +242,18 @@ collections:
   name: WhatsApp Business Management Analytics Two-Step Verification API
   slug: open-whatsapp-two-step-verification-api
 common:
+- group: other
+  href: https://artifacts.apis.io/whatsapp/capabilities/whatsapp-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/whatsapp-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/plans/whatsapp-plans-pricing.yml
+  href: https://artifacts.apis.io/whatsapp/plans/whatsapp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/whatsapp-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/finops/whatsapp-finops.yml
+  href: https://artifacts.apis.io/whatsapp/finops/whatsapp-finops.yml
   title: ''
   type: FinOps
   url: finops/whatsapp-finops.yml
@@ -274,12 +278,12 @@ common:
   type: License
   url: https://github.com/WhatsApp/WhatsApp-Flows-Tools/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/agentic-access/whatsapp-agentic-access.yml
+  href: https://artifacts.apis.io/whatsapp/agentic-access/whatsapp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/whatsapp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/authentication/whatsapp-authentication.yml
+  href: https://artifacts.apis.io/whatsapp/authentication/whatsapp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/whatsapp-authentication.yml
@@ -288,72 +292,72 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/whatsapp/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-create-qr-code-workflow.yml
+  href: https://artifacts.apis.io/whatsapp/arazzo/whatsapp-create-qr-code-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-create-qr-code-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-create-template-then-send-workflow.yml
+  href: https://artifacts.apis.io/whatsapp/arazzo/whatsapp-create-template-then-send-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-create-template-then-send-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-publish-flow-and-send-workflow.yml
+  href: https://artifacts.apis.io/whatsapp/arazzo/whatsapp-publish-flow-and-send-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-publish-flow-and-send-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-register-phone-number-workflow.yml
+  href: https://artifacts.apis.io/whatsapp/arazzo/whatsapp-register-phone-number-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-register-phone-number-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-send-and-react-workflow.yml
+  href: https://artifacts.apis.io/whatsapp/arazzo/whatsapp-send-and-react-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-send-and-react-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-send-interactive-buttons-workflow.yml
+  href: https://artifacts.apis.io/whatsapp/arazzo/whatsapp-send-interactive-buttons-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-send-interactive-buttons-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-send-location-message-workflow.yml
+  href: https://artifacts.apis.io/whatsapp/arazzo/whatsapp-send-location-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-send-location-message-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-send-template-message-workflow.yml
+  href: https://artifacts.apis.io/whatsapp/arazzo/whatsapp-send-template-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-send-template-message-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-send-text-and-mark-read-workflow.yml
+  href: https://artifacts.apis.io/whatsapp/arazzo/whatsapp-send-text-and-mark-read-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-send-text-and-mark-read-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-subscribe-webhooks-workflow.yml
+  href: https://artifacts.apis.io/whatsapp/arazzo/whatsapp-subscribe-webhooks-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-subscribe-webhooks-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-update-business-profile-workflow.yml
+  href: https://artifacts.apis.io/whatsapp/arazzo/whatsapp-update-business-profile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-update-business-profile-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-update-template-workflow.yml
+  href: https://artifacts.apis.io/whatsapp/arazzo/whatsapp-update-template-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-update-template-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-upload-media-send-document-workflow.yml
+  href: https://artifacts.apis.io/whatsapp/arazzo/whatsapp-upload-media-send-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-upload-media-send-document-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/arazzo/whatsapp-upload-media-send-image-workflow.yml
+  href: https://artifacts.apis.io/whatsapp/arazzo/whatsapp-upload-media-send-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/whatsapp-upload-media-send-image-workflow.yml
@@ -430,12 +434,12 @@ common:
   type: Pricing
   url: https://business.whatsapp.com/products/platform-pricing
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/json-ld/whatsapp-context.jsonld
+  href: https://artifacts.apis.io/whatsapp/json-ld/whatsapp-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/whatsapp-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/json-schema/whatsapp-webhook-payload-schema.json
+  href: https://artifacts.apis.io/whatsapp/json-schema/whatsapp-webhook-payload-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/whatsapp-webhook-payload-schema.json
@@ -610,10 +614,10 @@ features:
   name: Multi-Agent Support
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Whatsapp Finops
-  primary_unit: ''
-  service_category: Business Messaging
+  primary_unit: 1m tokens
+  service_category: ''
   slug: whatsapp-finops
   template: false
 image: /assets/icons/whatsapp.png
@@ -856,12 +860,12 @@ overview: 'WhatsApp publishes 17 API contracts indexed on the [APIs.io](https://
   The WhatsApp catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  WhatsApp''s developer surface includes authentication, getting-started guide, changelog, engineering blog, support, developer console, Stack Overflow tag, and 47 more developer resources.'
+  WhatsApp''s developer surface includes authentication, getting-started guide, changelog, engineering blog, support, developer console, Stack Overflow tag, and 48 more developer resources.'
 plans:
 - name: Whatsapp Plans Pricing
   plan_count: 2
   slug: whatsapp-plans-pricing
-random_paper: 14
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Whatsapp Rate Limits
@@ -903,27 +907,24 @@ rules:
     warn: 8
   slug: whatsapp-spectral-rules
 score:
-  band: developing
-  composite: 51.1
+  band: strong
+  composite: 61.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 56.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    artifact_dirs: 21
+    catalog_earned: 65.5
+    catalog_earned_first_party: 8.0
+    catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 1.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 60.5
     contract_governance: 13.6
     contract_quality: 71.0
     developer_ergonomics: 76.2
     discoverability: 48.2
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 40.0
-  previous_composite: 52.5
+    operational_transparency: 63.2
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     contracts:
@@ -937,13 +938,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/screenshots/whatsapp-2026-06-20T201434.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/whatsapp/whatsapp-2026-06-20T201434.png
 security:
 - kind: authentication
   name: Whatsapp Authentication

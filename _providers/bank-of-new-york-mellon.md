@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: The Transactions API from BNY Mellon — 1 operation(s) for transactions.
   name: BNY Mellon Transactions API
   slug: bank-of-new-york-mellon-transactions-api
-artifact_total: 80
+artifact_total: 79
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: BNY Mellon Treasury Services Accounts API
   slug: open-bank-of-new-york-mellon-accounts-api
@@ -94,43 +93,47 @@ collections:
   name: BNY Mellon Treasury Services API
   slug: open-bny-mellon-treasury-services-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/bny-mellon/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/plans/bank-of-new-york-mellon-plans-pricing.yml
+  href: https://artifacts.apis.io/bank-of-new-york-mellon/plans/bank-of-new-york-mellon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bank-of-new-york-mellon-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/rate-limits/bank-of-new-york-mellon-rate-limits.yml
+  href: https://artifacts.apis.io/bank-of-new-york-mellon/rate-limits/bank-of-new-york-mellon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bank-of-new-york-mellon-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/finops/bank-of-new-york-mellon-finops.yml
+  href: https://artifacts.apis.io/bank-of-new-york-mellon/finops/bank-of-new-york-mellon-finops.yml
   title: ''
   type: FinOps
   url: finops/bank-of-new-york-mellon-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/capabilities/bank-of-new-york-mellon-capability-edges.yml
+  href: https://artifacts.apis.io/bank-of-new-york-mellon/capabilities/bank-of-new-york-mellon-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bank-of-new-york-mellon-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/agentic-access/bank-of-new-york-mellon-agentic-access.yml
+  href: https://artifacts.apis.io/bank-of-new-york-mellon/agentic-access/bank-of-new-york-mellon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bank-of-new-york-mellon-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/security/bank-of-new-york-mellon-domain-security.yml
+  href: https://artifacts.apis.io/bank-of-new-york-mellon/security/bank-of-new-york-mellon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bank-of-new-york-mellon-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/authentication/bank-of-new-york-mellon-authentication.yml
+  href: https://artifacts.apis.io/bank-of-new-york-mellon/authentication/bank-of-new-york-mellon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bank-of-new-york-mellon-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/scopes/bank-of-new-york-mellon-scopes.yml
+  href: https://artifacts.apis.io/bank-of-new-york-mellon/scopes/bank-of-new-york-mellon-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bank-of-new-york-mellon-scopes.yml
@@ -163,17 +166,17 @@ common:
   type: PrivacyPolicy
   url: https://www.bnymellon.com/us/en/disclaimers/privacy-notice.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/rules/bny-mellon-spectral-rules.yml
+  href: https://artifacts.apis.io/bank-of-new-york-mellon/rules/bny-mellon-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/bny-mellon-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/vocabulary/bny-mellon-vocabulary.yaml
+  href: https://artifacts.apis.io/bank-of-new-york-mellon/vocabulary/bny-mellon-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/bny-mellon-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/json-ld/bny-mellon-context.jsonld
+  href: https://artifacts.apis.io/bank-of-new-york-mellon/json-ld/bny-mellon-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bny-mellon-context.jsonld
@@ -237,7 +240,7 @@ finops:
 - has_sources: false
   method: generated
   name: Bank Of New York Mellon Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: bank-of-new-york-mellon-finops
   template: true
@@ -340,7 +343,7 @@ overview: 'BNY Mellon publishes 5 API contracts indexed on the [APIs.io](https:/
   The BNY Mellon catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  BNY Mellon''s developer surface includes authentication, engineering blog, documentation, and 15 more developer resources.'
+  BNY Mellon''s developer surface includes authentication, engineering blog, documentation, and 16 more developer resources.'
 plans:
 - name: Bank Of New York Mellon Plans Pricing
   plan_count: 3
@@ -361,7 +364,7 @@ press:
 - date: ''
   title: BNY Shares Jump 65% As AI Hiring Push Accelerates
   url: https://finance.yahoo.com/sectors/technology/articles/bny-shares-jump-65-ai-115004909.html
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Bank Of New York Mellon Rate Limits
@@ -408,7 +411,7 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: thin
-  composite: 31.5
+  composite: 35.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 60.0
@@ -416,15 +419,15 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.2
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 52.6
-    developer_ergonomics: 23.8
+    developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 33.0
+    operational_transparency: 13.2
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -437,14 +440,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 29.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 33.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/screenshots/bank-of-new-york-mellon-2026-06-20T172950.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bank-of-new-york-mellon/bank-of-new-york-mellon-2026-06-20T172950.png
 security:
 - kind: authentication
   name: Bank Of New York Mellon Authentication

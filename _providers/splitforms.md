@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -36,30 +38,30 @@ apis:
 - description: One HTTPS endpoint that receives HTML, fetch and server‑side form submissions. Provides /api/submit with access_key, rate limits, plans and webhook support.
   name: Form Submission API
   slug: form-submission-api
-artifact_total: 8
+artifact_total: 10
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/splitforms/refs/heads/main/agentic-access/splitforms-agentic-access.yml
+  href: https://artifacts.apis.io/splitforms/agentic-access/splitforms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/splitforms-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/splitforms/refs/heads/main/plans/splitforms-plans-pricing.yml
+  href: https://artifacts.apis.io/splitforms/plans/splitforms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/splitforms-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splitforms/refs/heads/main/rules/splitforms-rules.yml
+  href: https://artifacts.apis.io/splitforms/rules/splitforms-rules.yml
   title: ''
   type: Spectral
   url: rules/splitforms-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splitforms/refs/heads/main/vocabulary/splitforms-vocabulary.yml
+  href: https://artifacts.apis.io/splitforms/vocabulary/splitforms-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/splitforms-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/splitforms/refs/heads/main/changelog/splitforms-changelog.yml
+  href: https://artifacts.apis.io/splitforms/changelog/splitforms-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/splitforms-changelog.yml
@@ -68,32 +70,32 @@ common:
   type: Compliance
   url: https://splitforms.com/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splitforms/refs/heads/main/conformance/splitforms-conformance.yml
+  href: https://artifacts.apis.io/splitforms/conformance/splitforms-conformance.yml
   title: ''
   type: Conformance
   url: conformance/splitforms-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/splitforms/refs/heads/main/llms/splitforms-llms.txt
+  href: https://artifacts.apis.io/splitforms/llms/splitforms-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/splitforms-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/splitforms/refs/heads/main/mcp/splitforms-tool-crosswalk.yml
+  href: https://artifacts.apis.io/splitforms/mcp/splitforms-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/splitforms-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/splitforms/refs/heads/main/mcp/splitforms-mcp.yml
+  href: https://artifacts.apis.io/splitforms/mcp/splitforms-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/splitforms-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/splitforms/refs/heads/main/hosts/splitforms-hosts.yml
+  href: https://artifacts.apis.io/splitforms/hosts/splitforms-hosts.yml
   title: ''
   type: Hosts
   url: hosts/splitforms-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/splitforms/refs/heads/main/vendors/splitforms-vendors.yml
+  href: https://artifacts.apis.io/splitforms/vendors/splitforms-vendors.yml
   title: ''
   type: Vendors
   url: vendors/splitforms-vendors.yml
@@ -122,17 +124,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/splitforms
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splitforms/refs/heads/main/security/splitforms-trust-center.yml
+  href: https://artifacts.apis.io/splitforms/security/splitforms-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/splitforms-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splitforms/refs/heads/main/security/splitforms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/splitforms/security/splitforms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/splitforms-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splitforms/refs/heads/main/security/splitforms-domain-security.yml
+  href: https://artifacts.apis.io/splitforms/security/splitforms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/splitforms-domain-security.yml
@@ -181,6 +183,14 @@ coverage:
   state: gated
 created: '2026-10-12'
 description: Split Forms provides a hosted form backend service that lets developers collect form submissions without building their own server. It supports HTML, React, Next.js, and AI‑generated sites, delivering submissions via email and a dashboard. The free tier offers 500 submissions with no credit‑card requirement, while paid plans add higher limits, webhooks, file uploads, and team seats.
+finops:
+- has_sources: true
+  method: derived
+  name: Splitforms Finops
+  primary_unit: ''
+  service_category: ''
+  slug: splitforms-finops
+  template: true
 image: https://splitforms.com/og/hero-form-to-inbox.webp
 layout: provider
 mcp_servers:
@@ -191,7 +201,7 @@ modified: '2026-10-12'
 name: Split Forms
 nav: Providers
 network: true
-overview: 'Split Forms is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Form Backend, Developer Tools, Free Tier, and Webhook.
+overview: 'Split Forms publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Form Backend, Developer Tools, Free Tier, and Webhook.
 
 
   The Split Forms catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -202,7 +212,10 @@ plans:
 - name: Splitforms Plans Pricing
   plan_count: 3
   slug: splitforms-plans-pricing
-random_paper: 7
+- name: Splitforms Price Estimates
+  plan_count: 0
+  slug: splitforms-price-estimates
+random_paper: 3
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -218,24 +231,31 @@ rules:
   slug: splitforms-rules
 score:
   band: developing
-  composite: 44.0
+  composite: 44.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 15
     catalog_earned: 54.8
     catalog_earned_first_party: 12.0
     catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 35.6
-    contract_quality: 0.0
+    contract_quality: 5.8
     developer_ergonomics: 19.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 60.5
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
     mcp: first-party
   regulatory:
     applies: true
@@ -249,8 +269,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

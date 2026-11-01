@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -59,7 +61,7 @@ apis:
   description: Operations for managing service revisions
   name: Google Cloud Run Revisions API
   slug: google-cloud-run-revisions-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: postman
   name: Google Cloud Run Admin Jobs API
@@ -70,9 +72,6 @@ collections:
 - collection_type: postman
   name: Google Cloud Run Admin Jobs Revisions API
   slug: postman-google-cloud-run-revisions-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud Run Admin Jobs API
   slug: open-google-cloud-run-jobs-api
@@ -87,22 +86,22 @@ collections:
   slug: open-google-cloud-run
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/plans/google-cloud-run-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-run/plans/google-cloud-run-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-run-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/rate-limits/google-cloud-run-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-run/rate-limits/google-cloud-run-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-run-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/finops/google-cloud-run-finops.yml
+  href: https://artifacts.apis.io/google-cloud-run/finops/google-cloud-run-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-run-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/capabilities/google-cloud-run-capability-edges.yml
+  href: https://artifacts.apis.io/google-cloud-run/capabilities/google-cloud-run-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-cloud-run-capability-edges.yml
@@ -115,27 +114,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-cloud-run/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/agentic-access/google-cloud-run-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-run/agentic-access/google-cloud-run-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-run-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/security/google-cloud-run-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-run/security/google-cloud-run-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-run-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/security/google-cloud-run-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-run/security/google-cloud-run-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-run-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/authentication/google-cloud-run-authentication.yml
+  href: https://artifacts.apis.io/google-cloud-run/authentication/google-cloud-run-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-cloud-run-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/scopes/google-cloud-run-scopes.yml
+  href: https://artifacts.apis.io/google-cloud-run/scopes/google-cloud-run-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-cloud-run-scopes.yml
@@ -180,20 +179,20 @@ common:
   type: Support
   url: https://cloud.google.com/run/docs/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/json-ld/google-cloud-run-context.jsonld
+  href: https://artifacts.apis.io/google-cloud-run/json-ld/google-cloud-run-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-cloud-run-context.jsonld
 created: '2026-03-13'
 description: Google Cloud Run is a fully managed serverless platform that enables you to run stateless containers that are invocable via HTTP requests. It abstracts away infrastructure management so you can focus on building applications.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Cloud Run Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: vcpu-second
+  service_category: ''
   slug: google-cloud-run-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-run.png
 json_schemas:
 - name: Google Cloud Run Service
@@ -218,7 +217,7 @@ overview: 'Google Cloud Run publishes 3 API contracts indexed on the [APIs.io](h
   Google Cloud Run''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 16 more developer resources.'
 plans:
 - name: Google Cloud Run Plans Pricing
-  plan_count: 3
+  plan_count: 13
   slug: google-cloud-run-plans-pricing
 random_paper: 19
 rate_limits:
@@ -243,24 +242,24 @@ scopes:
   slug: google-cloud-run-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 45.5
+  band: strong
+  composite: 54.3
   coverage:
     artifact_dirs: 16
-    catalog_earned: 54.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.4
+    catalog_earned: 66.7
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 9.8
     contract_quality: 58.1
     developer_ergonomics: 48.8
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 47.1
+    operational_transparency: 39.5
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -274,13 +273,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/screenshots/google-cloud-run-2026-06-20T182136.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-run/google-cloud-run-2026-06-20T182136.png
 security:
 - kind: authentication
   name: Google Cloud Run Authentication

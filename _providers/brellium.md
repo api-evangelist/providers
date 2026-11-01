@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.2
-  scored_at: '2026-10-17'
+  score: 24.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -89,15 +91,12 @@ apis:
   description: The Users API from Brellium — 2 operation(s) for users.
   name: Brellium Users API
   slug: brellium-users-api
-artifact_total: 24
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Brellium Webhooks
   slug: brellium-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Brellium Audits API
   slug: open-brellium-audits-api
@@ -131,52 +130,52 @@ common:
   type: Website
   url: https://www.brellium.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/capabilities/brellium-capability-edges.yml
+  href: https://artifacts.apis.io/brellium/capabilities/brellium-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/brellium-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/agentic-access/brellium-agentic-access.yml
+  href: https://artifacts.apis.io/brellium/agentic-access/brellium-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/brellium-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/security/brellium-domain-security.yml
+  href: https://artifacts.apis.io/brellium/security/brellium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brellium-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/authentication/brellium-authentication.yml
+  href: https://artifacts.apis.io/brellium/authentication/brellium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brellium-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/mcp/brellium-mcp.yml
+  href: https://artifacts.apis.io/brellium/mcp/brellium-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/brellium-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/llms/brellium-llms.txt
+  href: https://artifacts.apis.io/brellium/llms/brellium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brellium-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/errors/brellium-problem-types.yml
+  href: https://artifacts.apis.io/brellium/errors/brellium-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/brellium-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/conventions/brellium-conventions.yml
+  href: https://artifacts.apis.io/brellium/conventions/brellium-conventions.yml
   title: ''
   type: Conventions
   url: conventions/brellium-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/lifecycle/brellium-lifecycle.yml
+  href: https://artifacts.apis.io/brellium/lifecycle/brellium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brellium-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/conformance/brellium-conformance.yml
+  href: https://artifacts.apis.io/brellium/conformance/brellium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brellium-conformance.yml
@@ -185,32 +184,32 @@ common:
   type: Compliance
   url: https://www.brellium.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/security/brellium-trust-center.yml
+  href: https://artifacts.apis.io/brellium/security/brellium-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/brellium-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/data-model/brellium-data-model.yml
+  href: https://artifacts.apis.io/brellium/data-model/brellium-data-model.yml
   title: ''
   type: DataModel
   url: data-model/brellium-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/changelog/brellium-changelog.yml
+  href: https://artifacts.apis.io/brellium/changelog/brellium-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/brellium-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/asyncapi/brellium-webhooks.yml
+  href: https://artifacts.apis.io/brellium/asyncapi/brellium-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/brellium-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/brellium/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/overlays/brellium-overlay.yaml
+  href: https://artifacts.apis.io/brellium/overlays/brellium-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brellium-overlay.yaml
@@ -261,10 +260,10 @@ overview: 'Brellium publishes 9 API contracts indexed on the [APIs.io](https://a
 
 
   Brellium''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 19 more developer resources.'
-random_paper: 2
+random_paper: 20
 score:
   band: developing
-  composite: 41.5
+  composite: 45.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -272,15 +271,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 50.3
-    developer_ergonomics: 39.9
-    discoverability: 73.2
+    contract_quality: 49.2
+    developer_ergonomics: 58.9
+    discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 41.4
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -301,13 +300,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/screenshots/brellium-2026-07-25T203751.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/brellium/brellium-2026-07-25T203751.png
 security:
 - kind: authentication
   name: Brellium Authentication
@@ -321,6 +321,12 @@ security:
   name: Brellium Trust Center
   slug: brellium-trust-center
   summary_line: SOC 2 Type I, SOC 2 Type II, HIPAA
+skill_count: 2
+skills:
+- name: Review coding (E&M / CPT / ICD) evaluations
+  slug: brellium-coding-review
+- name: Submit a clinical document and retrieve its audit
+  slug: brellium-submit-and-audit
 slug: brellium
 tags:
 - Company

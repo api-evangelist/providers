@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-10-17'
+  score: 35.5
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://prod.api.interchecks.io
@@ -119,24 +121,24 @@ apis:
   description: The Oauth2 API from Interchecks — 1 operation(s) for oauth2.
   name: Interchecks Oauth2 API
   slug: interchecks-oauth2-api
-artifact_total: 21
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Interchecks Webhooks
   slug: interchecks-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/capabilities/interchecks-capability-edges.yml
+  href: https://artifacts.apis.io/interchecks/capabilities/interchecks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/interchecks-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/overlays/interchecks-payments-api-v2-overlay.yaml
+  href: https://artifacts.apis.io/interchecks/overlays/interchecks-payments-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/interchecks-payments-api-v2-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/security/interchecks-domain-security.yml
+  href: https://artifacts.apis.io/interchecks/security/interchecks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/interchecks-domain-security.yml
@@ -177,97 +179,105 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/gointerchecks/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/authentication/interchecks-authentication.yml
+  href: https://artifacts.apis.io/interchecks/authentication/interchecks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/interchecks-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/conventions/interchecks-conventions.yml
+  href: https://artifacts.apis.io/interchecks/conventions/interchecks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/interchecks-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/conventions/interchecks-conventions.yml
+  href: https://artifacts.apis.io/interchecks/conventions/interchecks-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/interchecks-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/errors/interchecks-error-codes.yml
+  href: https://artifacts.apis.io/interchecks/errors/interchecks-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/interchecks-error-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/errors/interchecks-decline-codes.yml
+  href: https://artifacts.apis.io/interchecks/errors/interchecks-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/interchecks-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/lifecycle/interchecks-lifecycle.yml
+  href: https://artifacts.apis.io/interchecks/lifecycle/interchecks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/interchecks-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/changelog/interchecks-changelog.yml
+  href: https://artifacts.apis.io/interchecks/changelog/interchecks-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/interchecks-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/sandbox/interchecks-sandbox.yml
+  href: https://artifacts.apis.io/interchecks/sandbox/interchecks-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/interchecks-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/components/interchecks-components.yml
+  href: https://artifacts.apis.io/interchecks/components/interchecks-components.yml
   title: ''
   type: Components
   url: components/interchecks-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/data-model/interchecks-data-model.yml
+  href: https://artifacts.apis.io/interchecks/data-model/interchecks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/interchecks-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/conformance/interchecks-conformance.yml
+  href: https://artifacts.apis.io/interchecks/conformance/interchecks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/interchecks-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/conformance/interchecks-conformance.yml
+  href: https://artifacts.apis.io/interchecks/conformance/interchecks-conformance.yml
   title: ''
   type: Compliance
   url: conformance/interchecks-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/asyncapi/interchecks-webhooks.yml
+  href: https://artifacts.apis.io/interchecks/asyncapi/interchecks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/interchecks-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/llms/interchecks-llms.txt
+  href: https://artifacts.apis.io/interchecks/llms/interchecks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/interchecks-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/interchecks/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/plans/interchecks-plans-pricing.yml
+  href: https://artifacts.apis.io/interchecks/plans/interchecks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/interchecks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/rate-limits/interchecks-rate-limits.yml
+  href: https://artifacts.apis.io/interchecks/rate-limits/interchecks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/interchecks-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/packages/interchecks-packages.yml
+  href: https://artifacts.apis.io/interchecks/packages/interchecks-packages.yml
   title: ''
   type: Packages
   url: packages/interchecks-packages.yml
 created: '2026-08-23'
 description: Interchecks Technologies, Inc. is a US instant-payments platform that moves money in both directions for payers who need to fund accounts and pay out to consumers at scale. Its Payments API v2 is a REST contract covering recipient onboarding and TIN verification, destination account management across bank (Plaid-linked), debit card, PayPal, Venmo and prepaid rails, immediate disbursement transactions across ACH standard/same-day, ACH Funding Plus, RTP, Instant Deposit (Visa/Mastercard OCT), Instant Funding (AFT), paper check, eCheck and prepaid, plus embeddable widgets, settlement and activity reporting, envelope-encrypted payloads and signed webhooks. The company reports more than $50 billion processed over ten years for online gaming and prediction markets, on-demand payroll, lending and digital banking clients, and publishes PCI DSS Level 1 Service Provider and SOC 2 Type 2 attestations.
+finops:
+- has_sources: true
+  method: derived
+  name: Interchecks Finops
+  primary_unit: ''
+  service_category: ''
+  slug: interchecks-finops
+  template: true
 image: https://home.interchecks.com/images/interchecks-logo-white.svg
 layout: provider
 modified: '2026-08-23'
@@ -285,30 +295,30 @@ plans:
 - name: Interchecks Plans Pricing
   plan_count: 0
   slug: interchecks-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Interchecks Rate Limits
   slug: interchecks-rate-limits
 score:
   band: developing
-  composite: 43.4
+  composite: 43.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 53.4
     developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 43.3
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 43.7
   provenance:
     conformance: first-party
     contracts:
@@ -324,13 +334,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/screenshots/interchecks-2026-09-02T145907.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/interchecks/interchecks-2026-09-02T145907.png
 security:
 - kind: authentication
   name: Interchecks Authentication
@@ -340,6 +351,18 @@ security:
   name: Interchecks Domain Security
   slug: interchecks-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: interchecks-ach-funding-pull
+  slug: interchecks-ach-funding-pull
+- name: interchecks-encrypted-payloads
+  slug: interchecks-encrypted-payloads
+- name: interchecks-instant-card-payout
+  slug: interchecks-instant-card-payout
+- name: interchecks-onboard-recipient-bank-payout
+  slug: interchecks-onboard-recipient-bank-payout
+- name: interchecks-verify-webhook
+  slug: interchecks-verify-webhook
 slug: interchecks
 tags:
 - Payments

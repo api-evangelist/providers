@@ -4,6 +4,6 @@ layout: provider
 name: gherkin
 nav: Providers
 network: true
-random_paper: 18
+random_paper: 0
 slug: gherkin
 ---

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ apis:
 - description: 'Agent2Agent surface: a signed (JWS EdDSA, kid = the register''s did:key) A2A 1.0 agent card at https://deusproof.com/.well-known/agent-card.json declaring JSONRPC at /a2a/jsonrpc and HTTP+JSON at /a2a/'
   name: DEUSPROOF A2A Agent
   slug: deusproof-a2a-agent
-artifact_total: 9
+artifact_total: 12
 common:
 - group: company
   title: ''
@@ -85,7 +87,7 @@ common:
   type: Statistics
   url: https://deusproof.com/numbers
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/llms/deusproof-com-llms.txt
+  href: https://artifacts.apis.io/deusproof-com/llms/deusproof-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/deusproof-com-llms.txt
@@ -94,37 +96,37 @@ common:
   type: LLMsTxt
   url: https://deusproof.com/llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/a2a/deusproof-com-a2a.yml
+  href: https://artifacts.apis.io/deusproof-com/a2a/deusproof-com-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/deusproof-com-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/mcp/deusproof-com-mcp.yml
+  href: https://artifacts.apis.io/deusproof-com/mcp/deusproof-com-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/deusproof-com-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/well-known/deusproof-com-mcp-server-card.json
+  href: https://artifacts.apis.io/deusproof-com/well-known/deusproof-com-mcp-server-card.json
   title: ''
   type: MCPServerCard
   url: well-known/deusproof-com-mcp-server-card.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/well-known/deusproof-com-ai-catalog.json
+  href: https://artifacts.apis.io/deusproof-com/well-known/deusproof-com-ai-catalog.json
   title: ''
   type: AICatalog
   url: well-known/deusproof-com-ai-catalog.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/well-known/deusproof-com-x402.json
+  href: https://artifacts.apis.io/deusproof-com/well-known/deusproof-com-x402.json
   title: ''
   type: X-X402Discovery
   url: well-known/deusproof-com-x402.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/well-known/deusproof-com-well-known.yml
+  href: https://artifacts.apis.io/deusproof-com/well-known/deusproof-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/deusproof-com-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/deusproof-com/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -141,12 +143,12 @@ common:
   type: GitHubActions
   url: https://github.com/Abracadabrastartup/deusproof-notarize
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/packages/deusproof-com-packages.yml
+  href: https://artifacts.apis.io/deusproof-com/packages/deusproof-com-packages.yml
   title: ''
   type: Packages
   url: packages/deusproof-com-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/packages/deusproof-com-packages.yml
+  href: https://artifacts.apis.io/deusproof-com/packages/deusproof-com-packages.yml
   title: ''
   type: SDKs
   url: packages/deusproof-com-packages.yml
@@ -155,62 +157,62 @@ common:
   type: PythonSDK
   url: https://pypi.org/project/deusproof/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/authentication/deusproof-com-authentication.yml
+  href: https://artifacts.apis.io/deusproof-com/authentication/deusproof-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/deusproof-com-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/conventions/deusproof-com-conventions.yml
+  href: https://artifacts.apis.io/deusproof-com/conventions/deusproof-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/deusproof-com-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/rate-limits/deusproof-com-rate-limits.yml
+  href: https://artifacts.apis.io/deusproof-com/rate-limits/deusproof-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/deusproof-com-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/plans/deusproof-com-plans-pricing.yml
+  href: https://artifacts.apis.io/deusproof-com/plans/deusproof-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/deusproof-com-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/lifecycle/deusproof-com-lifecycle.yml
+  href: https://artifacts.apis.io/deusproof-com/lifecycle/deusproof-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/deusproof-com-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/conformance/deusproof-com-conformance.yml
+  href: https://artifacts.apis.io/deusproof-com/conformance/deusproof-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/deusproof-com-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/errors/deusproof-com-problem-types.yml
+  href: https://artifacts.apis.io/deusproof-com/errors/deusproof-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/deusproof-com-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/data-model/deusproof-com-data-model.yml
+  href: https://artifacts.apis.io/deusproof-com/data-model/deusproof-com-data-model.yml
   title: ''
   type: DataModel
   url: data-model/deusproof-com-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/components/deusproof-com-components.yml
+  href: https://artifacts.apis.io/deusproof-com/components/deusproof-com-components.yml
   title: ''
   type: Components
   url: components/deusproof-com-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/agentic-access/deusproof-com-agentic-access.yml
+  href: https://artifacts.apis.io/deusproof-com/agentic-access/deusproof-com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/deusproof-com-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/security/deusproof-com-domain-security.yml
+  href: https://artifacts.apis.io/deusproof-com/security/deusproof-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/deusproof-com-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/regulatory/deusproof-com-regulatory-posture.yml
+  href: https://artifacts.apis.io/deusproof-com/regulatory/deusproof-com-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/deusproof-com-regulatory-posture.yml
@@ -243,14 +245,14 @@ plans:
 - name: Deusproof Com Plans Pricing
   plan_count: 2
   slug: deusproof-com-plans-pricing
-random_paper: 5
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Deusproof Com Rate Limits
   slug: deusproof-com-rate-limits
 score:
   band: thin
-  composite: 37.2
+  composite: 36.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 56.0
@@ -258,13 +260,13 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 80.0
+    discoverability: 76.7
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -273,7 +275,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 37.1
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -285,14 +287,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/deusproof-com/refs/heads/main/screenshots/deusproof-com-2026-10-11T103702.png
+screenshot: https://apis.io/screenshots/deusproof-com/deusproof-com-2026-10-11T103702.png
 security:
 - kind: authentication
   name: Deusproof Com Authentication
@@ -302,6 +304,14 @@ security:
   name: Deusproof Com Domain Security
   slug: deusproof-com-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: deusproof
+  slug: deusproof-com-deusproof-SKILL
+- name: prove-it-first
+  slug: deusproof-com-prove-it-first-SKILL
+- name: deusproof
+  slug: deusproof-com-skill
 slug: deusproof-com
 tags:
 - Agents

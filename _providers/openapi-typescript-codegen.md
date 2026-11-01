@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The openapi CLI and Node.js library. Consumes an OpenAPI 2.0 or 3.0 specification and writes a typed TypeScript client (models, services, and core runtime) for fetch, node-fetch, XHR, Axios, or Angula
@@ -43,12 +45,12 @@ apis:
 artifact_total: 4
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openapi-typescript-codegen/refs/heads/main/rate-limits/openapi-typescript-codegen-rate-limits.yml
+  href: https://artifacts.apis.io/openapi-typescript-codegen/rate-limits/openapi-typescript-codegen-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openapi-typescript-codegen-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openapi-typescript-codegen/refs/heads/main/finops/openapi-typescript-codegen-finops.yml
+  href: https://artifacts.apis.io/openapi-typescript-codegen/finops/openapi-typescript-codegen-finops.yml
   title: ''
   type: FinOps
   url: finops/openapi-typescript-codegen-finops.yml
@@ -101,7 +103,7 @@ common:
   type: License
   url: https://github.com/ferdikoomen/openapi-typescript-codegen/blob/main/LICENSE
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openapi-typescript-codegen/refs/heads/main/changelog/openapi-typescript-codegen-changelog.yml
+  href: https://artifacts.apis.io/openapi-typescript-codegen/changelog/openapi-typescript-codegen-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openapi-typescript-codegen-changelog.yml
@@ -110,32 +112,32 @@ common:
   type: Deprecation
   url: https://github.com/ferdikoomen/openapi-typescript-codegen#important-announcement
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openapi-typescript-codegen/refs/heads/main/lifecycle/openapi-typescript-codegen-lifecycle.yml
+  href: https://artifacts.apis.io/openapi-typescript-codegen/lifecycle/openapi-typescript-codegen-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openapi-typescript-codegen-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openapi-typescript-codegen/refs/heads/main/cli/openapi-typescript-codegen-cli.yml
+  href: https://artifacts.apis.io/openapi-typescript-codegen/cli/openapi-typescript-codegen-cli.yml
   title: ''
   type: CLI
   url: cli/openapi-typescript-codegen-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openapi-typescript-codegen/refs/heads/main/packages/openapi-typescript-codegen-packages.yml
+  href: https://artifacts.apis.io/openapi-typescript-codegen/packages/openapi-typescript-codegen-packages.yml
   title: ''
   type: Packages
   url: packages/openapi-typescript-codegen-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openapi-typescript-codegen/refs/heads/main/conformance/openapi-typescript-codegen-conformance.yml
+  href: https://artifacts.apis.io/openapi-typescript-codegen/conformance/openapi-typescript-codegen-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openapi-typescript-codegen-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openapi-typescript-codegen/refs/heads/main/llms/openapi-typescript-codegen-llms.txt
+  href: https://artifacts.apis.io/openapi-typescript-codegen/llms/openapi-typescript-codegen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openapi-typescript-codegen-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openapi-typescript-codegen/refs/heads/main/plans/openapi-typescript-codegen-plans-pricing.yml
+  href: https://artifacts.apis.io/openapi-typescript-codegen/plans/openapi-typescript-codegen-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openapi-typescript-codegen-plans-pricing.yml
@@ -177,14 +179,14 @@ plans:
 - name: Openapi Typescript Codegen Plans Pricing
   plan_count: 1
   slug: openapi-typescript-codegen-plans-pricing
-random_paper: 12
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Openapi Typescript Codegen Rate Limits
   slug: openapi-typescript-codegen-rate-limits
 score:
-  band: thin
-  composite: 27.5
+  band: emerging
+  composite: 23.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 40.0
@@ -192,18 +194,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 64.3
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 26.9
+    discoverability: 57.1
+    operational_transparency: 28.9
+  previous_composite: 23.1
   provenance:
     conformance: first-party
   regulatory:
@@ -212,14 +211,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/openapi-typescript-codegen/refs/heads/main/screenshots/openapi-typescript-codegen-2026-06-20T190912.png
+screenshot: https://apis.io/screenshots/openapi-typescript-codegen/openapi-typescript-codegen-2026-06-20T190912.png
 slug: openapi-typescript-codegen
 tags:
 - Code Generation

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Universal Commerce Protocol (UCP) agent-commerce surface for the LINSY HOME storefront (www.linsyhome.com, Shopify shop linsy-home.myshopify.com). Agents discover the merchant profile at /.well-kn
@@ -44,10 +46,10 @@ apis:
 - description: The Universal Commerce Protocol (UCP) agent-commerce surface for the Linsy official storefront (linsy.com, Shopify shop linsyofficial.myshopify.com). Same UCP shopping service and capability set as th
   name: Linsy Official Store UCP Commerce API (MCP)
   slug: linsy-official-ucp
-artifact_total: 6
+artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/security/linsy-domain-security.yml
+  href: https://artifacts.apis.io/linsy/security/linsy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/linsy-domain-security.yml
@@ -92,47 +94,47 @@ common:
   type: About
   url: https://www.linsyhome.com/pages/about-us
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/llms/linsy-llms.txt
+  href: https://artifacts.apis.io/linsy/llms/linsy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/linsy-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/mcp/linsy-mcp.yml
+  href: https://artifacts.apis.io/linsy/mcp/linsy-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/linsy-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/well-known/linsy-well-known.yml
+  href: https://artifacts.apis.io/linsy/well-known/linsy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/linsy-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/authentication/linsy-authentication.yml
+  href: https://artifacts.apis.io/linsy/authentication/linsy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/linsy-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/scopes/linsy-scopes.yml
+  href: https://artifacts.apis.io/linsy/scopes/linsy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/linsy-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/conformance/linsy-conformance.yml
+  href: https://artifacts.apis.io/linsy/conformance/linsy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/linsy-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/conventions/linsy-conventions.yml
+  href: https://artifacts.apis.io/linsy/conventions/linsy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/linsy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/lifecycle/linsy-lifecycle.yml
+  href: https://artifacts.apis.io/linsy/lifecycle/linsy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/linsy-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/linsy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -152,7 +154,7 @@ overview: 'Linsy is listed with 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Linsy''s developer surface includes developer portal, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 9
+random_paper: 7
 scopes:
 - name: Linsy Scopes
   scope_count: 4
@@ -160,7 +162,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 23.8
+  composite: 22.8
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -174,9 +176,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 23.8
+  previous_composite: 22.8
   provenance:
     conformance: derived
     mcp: platform-generated
@@ -187,14 +189,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/linsy/refs/heads/main/screenshots/linsy-2026-08-07T171724.png
+screenshot: https://apis.io/screenshots/linsy/linsy-2026-08-07T171724.png
 security:
 - kind: authentication
   name: Linsy Authentication
@@ -204,6 +206,10 @@ security:
   name: Linsy Domain Security
   slug: linsy-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: linsy-buy-modular-sofa
+  slug: linsy-buy-modular-sofa
 slug: linsy
 tags:
 - Company

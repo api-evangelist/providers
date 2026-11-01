@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,22 +35,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/caci-international/refs/heads/main/plans/caci-international-plans-pricing.yml
+  href: https://artifacts.apis.io/caci-international/plans/caci-international-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/caci-international-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/caci-international/refs/heads/main/rate-limits/caci-international-rate-limits.yml
+  href: https://artifacts.apis.io/caci-international/rate-limits/caci-international-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/caci-international-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/caci-international/refs/heads/main/finops/caci-international-finops.yml
+  href: https://artifacts.apis.io/caci-international/finops/caci-international-finops.yml
   title: ''
   type: FinOps
   url: finops/caci-international-finops.yml
@@ -61,7 +63,7 @@ common:
   type: BlogRSS
   url: https://investor.caci.com/news?pagetemplate=rss
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caci-international/refs/heads/main/security/caci-international-domain-security.yml
+  href: https://artifacts.apis.io/caci-international/security/caci-international-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/caci-international-domain-security.yml
@@ -153,14 +155,14 @@ press:
 - date: ''
   title: CACI Awarded $290 Million Contract to Provide AI and ...
   url: https://investor.caci.com/news/news-details/2024/CACI-Awarded-290-Million-Contract-to-Provide-AI-and-Geospatial-Expertise-to-the-National-Geospatial-Intelligence-Agency-NGA/default.aspx
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Caci International Rate Limits
   slug: caci-international-rate-limits
 score:
   band: emerging
-  composite: 14.4
+  composite: 14.9
   coverage:
     artifact_dirs: 11
     catalog_earned: 38.0
@@ -168,29 +170,29 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 14.7
     developer_ergonomics: 2.4
-    discoverability: 49.1
-    operational_transparency: 2.6
-  previous_composite: 15.5
+    discoverability: 50.0
+    operational_transparency: 5.3
+  previous_composite: 14.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/caci-international/refs/heads/main/screenshots/caci-international-2026-06-20T173834.png
+screenshot: https://apis.io/screenshots/caci-international/caci-international-2026-06-20T173834.png
 security:
 - kind: domain-security
   name: Caci International Domain Security

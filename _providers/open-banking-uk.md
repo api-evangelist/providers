@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.8
-  scored_at: '2026-10-17'
+  score: 34.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 101
   slug: open-banking-uk-agentic-access
   summary_line: 101 operations · 31 acting
-api_count: 12
+api_count: 7
 apis:
 - description: Public-facing APIs enabling third-party developers to access standardized open data published by Account Servicing Payment Service Providers, including ATM locations, branch locations, personal curren
   name: UK Open Banking Open Data API
@@ -248,11 +250,8 @@ apis:
   description: The Transactions API from UK Open Banking — 2 operation(s) for transactions.
   name: UK Open Banking Transactions API
   slug: open-banking-uk-transactions-api
-artifact_total: 103
+artifact_total: 102
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Account and Transaction API Specification Account Access Consents API
   slug: open-open-banking-uk-account-access-consents-api
@@ -372,7 +371,7 @@ collections:
   slug: open-open-banking-uk-transactions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/open-banking-uk/refs/heads/main/capabilities/open-banking-uk-capability-edges.yml
+  href: https://artifacts.apis.io/open-banking-uk/capabilities/open-banking-uk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/open-banking-uk-capability-edges.yml
@@ -381,22 +380,22 @@ common:
   type: IssueTracker
   url: https://github.com/OpenBankingUK/opendata-api-spec-compiled/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/open-banking-uk/refs/heads/main/agentic-access/open-banking-uk-agentic-access.yml
+  href: https://artifacts.apis.io/open-banking-uk/agentic-access/open-banking-uk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/open-banking-uk-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/open-banking-uk/refs/heads/main/security/open-banking-uk-domain-security.yml
+  href: https://artifacts.apis.io/open-banking-uk/security/open-banking-uk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/open-banking-uk-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/open-banking-uk/refs/heads/main/authentication/open-banking-uk-authentication.yml
+  href: https://artifacts.apis.io/open-banking-uk/authentication/open-banking-uk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/open-banking-uk-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/open-banking-uk/refs/heads/main/scopes/open-banking-uk-scopes.yml
+  href: https://artifacts.apis.io/open-banking-uk/scopes/open-banking-uk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/open-banking-uk-scopes.yml
@@ -518,7 +517,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 4
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -542,7 +541,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 34.1
+  composite: 38.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 51.3
@@ -550,14 +549,14 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 51.4
-    developer_ergonomics: 38.1
-    discoverability: 72.3
-    operational_transparency: 2.6
+    contract_quality: 50.4
+    developer_ergonomics: 40.5
+    discoverability: 73.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -566,7 +565,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 39.7
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -579,14 +578,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 33.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 36.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/open-banking-uk/refs/heads/main/screenshots/open-banking-uk-2026-06-20T190729.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/open-banking-uk/open-banking-uk-2026-06-20T190729.png
 security:
 - kind: authentication
   name: Open Banking Uk Authentication

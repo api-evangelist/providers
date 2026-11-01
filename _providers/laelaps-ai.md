@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/laelaps-ai/refs/heads/main/security/laelaps-ai-domain-security.yml
+  href: https://artifacts.apis.io/laelaps-ai/security/laelaps-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/laelaps-ai-domain-security.yml
@@ -62,7 +64,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/laelaps-ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/laelaps-ai/refs/heads/main/llms/laelaps-ai-llms.txt
+  href: https://artifacts.apis.io/laelaps-ai/llms/laelaps-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/laelaps-ai-llms.txt
@@ -76,10 +78,10 @@ name: Laelaps AI
 nav: Providers
 network: true
 overview: Laelaps AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Robotics, Autonomous Systems, and Security.
-random_paper: 17
+random_paper: 1
 score:
   band: minimal
-  composite: 9.7
+  composite: 9.4
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -93,28 +95,28 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
-    - united-kingdom
+    - switzerland
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 9.7
+  previous_composite: 9.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/laelaps-ai/refs/heads/main/screenshots/laelaps-ai-2026-07-25T224425.png
+screenshot: https://apis.io/screenshots/laelaps-ai/laelaps-ai-2026-07-25T224425.png
 security:
 - kind: domain-security
   name: Laelaps Ai Domain Security

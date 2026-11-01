@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The GoGift REST API for buying and sending digital gift cards. Five documented operations cover the purchase flow end to end: filter the product catalogue, read a product and its purchasable inventory'
@@ -99,12 +101,12 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/gogift
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/authentication/gogift-authentication.yml
+  href: https://artifacts.apis.io/gogift/authentication/gogift-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gogift-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/scopes/gogift-scopes.yml
+  href: https://artifacts.apis.io/gogift/scopes/gogift-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gogift-scopes.yml
@@ -113,93 +115,93 @@ common:
   type: OpenIDConnect
   url: https://auth.gogift.io/.well-known/openid-configuration
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/well-known/gogift-well-known.yml
+  href: https://artifacts.apis.io/gogift/well-known/gogift-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gogift-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/conventions/gogift-conventions.yml
+  href: https://artifacts.apis.io/gogift/conventions/gogift-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gogift-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/conventions/gogift-conventions.yml
+  href: https://artifacts.apis.io/gogift/conventions/gogift-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/gogift-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/errors/gogift-problem-types.yml
+  href: https://artifacts.apis.io/gogift/errors/gogift-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gogift-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/asyncapi/gogift-webhooks.yml
+  href: https://artifacts.apis.io/gogift/asyncapi/gogift-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/gogift-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/data-model/gogift-data-model.yml
+  href: https://artifacts.apis.io/gogift/data-model/gogift-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gogift-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/conformance/gogift-conformance.yml
+  href: https://artifacts.apis.io/gogift/conformance/gogift-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gogift-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/sandbox/gogift-sandbox.yml
+  href: https://artifacts.apis.io/gogift/sandbox/gogift-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/gogift-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/lifecycle/gogift-lifecycle.yml
+  href: https://artifacts.apis.io/gogift/lifecycle/gogift-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gogift-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/packages/gogift-packages.yml
+  href: https://artifacts.apis.io/gogift/packages/gogift-packages.yml
   title: ''
   type: Packages
   url: packages/gogift-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/mcp/gogift-mcp.yml
+  href: https://artifacts.apis.io/gogift/mcp/gogift-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gogift-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/llms/gogift-llms.txt
+  href: https://artifacts.apis.io/gogift/llms/gogift-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gogift-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/plans/gogift-plans-pricing.yml
+  href: https://artifacts.apis.io/gogift/plans/gogift-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gogift-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/rate-limits/gogift-rate-limits.yml
+  href: https://artifacts.apis.io/gogift/rate-limits/gogift-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gogift-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/finops/gogift-finops.yml
+  href: https://artifacts.apis.io/gogift/finops/gogift-finops.yml
   title: ''
   type: FinOps
   url: finops/gogift-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/security/gogift-domain-security.yml
+  href: https://artifacts.apis.io/gogift/security/gogift-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gogift-domain-security.yml
 created: '2025-02-08'
 description: GoGift is a global digital gift-card and rewards distributor that sells and delivers gift cards from thousands of brands across more than a hundred markets. Its REST API lets a business filter that catalogue by sales channel, delivery method and the countries a reward must be redeemable in, build a basket of gift cards for named recipients, and finalize it into a paid order that GoGift fulfils by email, SMS, CSV, webhook or physical post. The API is HTTPS-only and JSON-only, authenticated with OpenID Connect client credentials against auth.gogift.io, and served unversioned from api.gogift.io with a full sandbox at api-pre.gogift.io. GoGift supports idempotent replay on basket update and finalisation, page -number pagination, ISO 8601 / 3166 / 4217 / 639 data conventions, and one signed outbound webhook that carries the issued gift-card credentials back to the integrator.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Gogift Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: gogift-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gogift.png
@@ -217,9 +219,9 @@ overview: 'GoGift is listed with 1 API on the [APIs.io](https://apis.io/) networ
   GoGift''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
 plans:
 - name: Gogift Plans Pricing
-  plan_count: 0
+  plan_count: 1
   slug: gogift-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Gogift Rate Limits
@@ -231,23 +233,23 @@ scopes:
   summary_line: 11 scopes
 score:
   band: developing
-  composite: 41.8
+  composite: 48.1
   coverage:
     artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 4.3
   facets:
-    access_clarity: 44.7
+    access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 56.0
+    developer_ergonomics: 64.3
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 43.4
+    operational_transparency: 13.2
+  previous_composite: 43.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -257,14 +259,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/screenshots/gogift-2026-06-20T181946.png
+screenshot: https://apis.io/screenshots/gogift/gogift-2026-06-20T181946.png
 security:
 - kind: authentication
   name: Gogift Authentication

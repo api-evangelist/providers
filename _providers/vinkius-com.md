@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.3
-  scored_at: '2026-10-17'
+  score: 14.6
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'REST API behind the AI Connect SDK: application users, connector connections, write-only credentials, connection tokens, catalog and marketplace search, plus the execution plane for capabilities. Auth'
@@ -32,10 +34,10 @@ apis:
 - description: 'The hosted MCP data plane. Every connector is a remote MCP server at https://edge.vinkius.com/{connection_token}/mcp; the host also serves OAuth 2 authorization-server and protected-resource metadata '
   name: Vinkius Edge MCP
   slug: vinkius-edge-mcp
-artifact_total: 9
+artifact_total: 11
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/rate-limits/vinkius-com-rate-limits.yml
+  href: https://artifacts.apis.io/vinkius-com/rate-limits/vinkius-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vinkius-com-rate-limits.yml
@@ -48,7 +50,7 @@ common:
   type: BlogRSS
   url: https://vinkius.com/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/security/vinkius-com-domain-security.yml
+  href: https://artifacts.apis.io/vinkius-com/security/vinkius-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vinkius-com-domain-security.yml
@@ -93,52 +95,52 @@ common:
   type: ServiceLevelAgreement
   url: https://vinkius.com/legal/service-level-agreement
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/llms/vinkius-com-llms.txt
+  href: https://artifacts.apis.io/vinkius-com/llms/vinkius-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vinkius-com-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/packages/vinkius-com-packages.yml
+  href: https://artifacts.apis.io/vinkius-com/packages/vinkius-com-packages.yml
   title: ''
   type: Packages
   url: packages/vinkius-com-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/packages/vinkius-com-packages.yml
+  href: https://artifacts.apis.io/vinkius-com/packages/vinkius-com-packages.yml
   title: ''
   type: SDKs
   url: packages/vinkius-com-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/cli/vinkius-com-cli.yml
+  href: https://artifacts.apis.io/vinkius-com/cli/vinkius-com-cli.yml
   title: ''
   type: CLI
   url: cli/vinkius-com-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/well-known/vinkius-com-well-known.yml
+  href: https://artifacts.apis.io/vinkius-com/well-known/vinkius-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vinkius-com-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/conformance/vinkius-com-conformance.yml
+  href: https://artifacts.apis.io/vinkius-com/conformance/vinkius-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vinkius-com-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/lifecycle/vinkius-com-lifecycle.yml
+  href: https://artifacts.apis.io/vinkius-com/lifecycle/vinkius-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vinkius-com-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/plans/vinkius-com-plans-pricing.yml
+  href: https://artifacts.apis.io/vinkius-com/plans/vinkius-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vinkius-com-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/security/vinkius-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/vinkius-com/security/vinkius-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vinkius-com-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/security/vinkius-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/vinkius-com/security/vinkius-com-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/vinkius-com-vulnerability-disclosure.yml
@@ -159,12 +161,20 @@ common:
   type: DataResidency
   url: https://vinkius.com/legal/subprocessors
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/regulatory/vinkius-com-regulatory-posture.yml
+  href: https://artifacts.apis.io/vinkius-com/regulatory/vinkius-com-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/vinkius-com-regulatory-posture.yml
 created: '2026-09-20'
 description: 'Vinkius is an AI connectivity cloud: a managed catalog of thousands of hosted Model Context Protocol (MCP) Connectors that AI agents call through one URL per connector, working in ChatGPT, Claude, Gemini, Cursor and other MCP clients. Connectors run in a sealed sandbox on the Vinkius Edge (edge.vinkius.com) with credential encryption, governance policies, audit trails, spend controls and log streaming. Developers build on it with the AI Connect SDK (@vinkius/connect) over the Vinkius API (api.vinkius.com), and publish their own connectors with the open source MCP Fusion TypeScript framework.'
+finops:
+- has_sources: true
+  method: derived
+  name: Vinkius Com Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: vinkius-com-finops
+  template: false
 image: https://vinkius.com/og/logo-512.png
 layout: provider
 mcp_servers:
@@ -183,7 +193,10 @@ plans:
 - name: Vinkius Com Plans Pricing
   plan_count: 5
   slug: vinkius-com-plans-pricing
-random_paper: 19
+- name: Vinkius Com Price Estimates
+  plan_count: 0
+  slug: vinkius-com-price-estimates
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Vinkius Com Rate Limits
@@ -195,23 +208,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 48.8
+  composite: 50.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 49.0
+    artifact_dirs: 21
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 1.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 68.3
+    discoverability: 65.0
     operational_transparency: 31.6
-  previous_composite: 48.2
+  previous_composite: 48.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -221,14 +234,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 55.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/screenshots/vinkius-com-2026-10-11T133008.png
+screenshot: https://apis.io/screenshots/vinkius-com/vinkius-com-2026-10-11T133008.png
 security:
 - kind: authentication
   name: Vinkius Com Authentication

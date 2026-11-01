@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,17 +25,19 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 41.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://dev.imprint.co
@@ -113,15 +115,22 @@ apis:
   description: The Webhooks API from Imprint — 0 operation(s) for webhooks.
   name: Imprint Webhooks API
   slug: imprint-webhooks-api
-artifact_total: 34
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Applications API from Imprint — 10 operation(s) for applications.
+  name: Imprint Applications API
+  slug: imprint-applications-api
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Card Designs API from Imprint — 1 operation(s) for card designs.
+  name: Imprint Card Designs API
+  slug: imprint-card-designs-api
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Imprint Webhooks
   slug: imprint-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Public Imprint Customer Links API
   slug: open-imprint-customer-links-api
@@ -166,7 +175,7 @@ collections:
   slug: open-imprint-transactions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/capabilities/imprint-capability-edges.yml
+  href: https://artifacts.apis.io/imprint/capabilities/imprint-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/imprint-capability-edges.yml
@@ -215,7 +224,7 @@ common:
   type: StatusPage
   url: https://status.imprint.co/partners
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/security/imprint-trust-center.yml
+  href: https://artifacts.apis.io/imprint/security/imprint-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/imprint-trust-center.yml
@@ -224,87 +233,87 @@ common:
   type: Compliance
   url: https://trust.imprint.co/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/authentication/imprint-authentication.yml
+  href: https://artifacts.apis.io/imprint/authentication/imprint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/imprint-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/packages/imprint-packages.yml
+  href: https://artifacts.apis.io/imprint/packages/imprint-packages.yml
   title: ''
   type: Packages
   url: packages/imprint-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/packages/imprint-packages.yml
+  href: https://artifacts.apis.io/imprint/packages/imprint-packages.yml
   title: ''
   type: SDKs
   url: packages/imprint-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/components/imprint-components.yml
+  href: https://artifacts.apis.io/imprint/components/imprint-components.yml
   title: ''
   type: Components
   url: components/imprint-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/mcp/imprint-mcp.yml
+  href: https://artifacts.apis.io/imprint/mcp/imprint-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/imprint-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/llms/imprint-llms.txt
+  href: https://artifacts.apis.io/imprint/llms/imprint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/imprint-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/overlays/imprint-openapi-overlay.yaml
+  href: https://artifacts.apis.io/imprint/overlays/imprint-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/imprint-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/conformance/imprint-conformance.yml
+  href: https://artifacts.apis.io/imprint/conformance/imprint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/imprint-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/errors/imprint-problem-types.yml
+  href: https://artifacts.apis.io/imprint/errors/imprint-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/imprint-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/lifecycle/imprint-lifecycle.yml
+  href: https://artifacts.apis.io/imprint/lifecycle/imprint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/imprint-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/conventions/imprint-conventions.yml
+  href: https://artifacts.apis.io/imprint/conventions/imprint-conventions.yml
   title: ''
   type: Conventions
   url: conventions/imprint-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/data-model/imprint-data-model.yml
+  href: https://artifacts.apis.io/imprint/data-model/imprint-data-model.yml
   title: ''
   type: DataModel
   url: data-model/imprint-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/sandbox/imprint-sandbox.yml
+  href: https://artifacts.apis.io/imprint/sandbox/imprint-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/imprint-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/asyncapi/imprint-webhooks.yml
+  href: https://artifacts.apis.io/imprint/asyncapi/imprint-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/imprint-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/well-known/imprint-well-known.yml
+  href: https://artifacts.apis.io/imprint/well-known/imprint-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/imprint-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/security/imprint-domain-security.yml
+  href: https://artifacts.apis.io/imprint/security/imprint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/imprint-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/imprint/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -316,17 +325,17 @@ modified: '2026-07-19'
 name: Imprint
 nav: Providers
 network: true
-overview: 'Imprint publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Customer Links API, Customer Sessions API, Customers API, and 12 more. Tagged areas include Company, Financial Services, Fintech, Credit Cards, and Co-Branded Cards.
+overview: 'Imprint publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Customer Links API, Customer Sessions API, Customers API, and 14 more. Tagged areas include Company, Financial Services, Fintech, Credit Cards, and Co-Branded Cards.
 
 
   The Imprint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Imprint''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 24 more developer resources.'
-random_paper: 1
+random_paper: 3
 score:
   band: developing
-  composite: 46.7
+  composite: 49.5
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -336,20 +345,20 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 57.0
+    contract_quality: 57.7
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 46.7
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 49.5
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 15
+      total: 32
     mcp: derived
     skills: derived
   regulatory:
@@ -357,14 +366,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 29.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 33.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/screenshots/imprint-2026-07-25T222200.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/imprint/imprint-2026-07-25T222200.png
 security:
 - kind: authentication
   name: Imprint Authentication
@@ -378,6 +388,14 @@ security:
   name: Imprint Trust Center
   slug: imprint-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS
+skill_count: 3
+skills:
+- name: Apply for an Imprint card or loan
+  slug: imprint-apply-for-card
+- name: Manage Imprint rewards
+  slug: imprint-manage-rewards
+- name: Reconcile Imprint transactions
+  slug: imprint-reconcile-transactions
 slug: imprint
 tags:
 - Company

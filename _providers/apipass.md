@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 1
@@ -148,45 +150,50 @@ apis:
   description: The Chat Completions API from APIPASS API Marketplace — 1 operation(s) for chat completions.
   name: APIPASS API Marketplace Chat Completions API
   slug: apipass-chat-completions-api
-artifact_total: 35
+artifact_total: 43
 common:
+- group: commercial
+  href: https://artifacts.apis.io/apipass/plans/apipass-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apipass-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apipass/refs/heads/main/agentic-access/apipass-agentic-access.yml
+  href: https://artifacts.apis.io/apipass/agentic-access/apipass-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apipass-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apipass/refs/heads/main/rules/apipass-rules.yml
+  href: https://artifacts.apis.io/apipass/rules/apipass-rules.yml
   title: ''
   type: Spectral
   url: rules/apipass-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apipass/refs/heads/main/json-ld/apipass-context.jsonld
+  href: https://artifacts.apis.io/apipass/json-ld/apipass-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/apipass-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apipass/refs/heads/main/vocabulary/apipass-vocabulary.yml
+  href: https://artifacts.apis.io/apipass/vocabulary/apipass-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/apipass-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apipass/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/apipass/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apipass/refs/heads/main/data-model/apipass-data-model.yml
+  href: https://artifacts.apis.io/apipass/data-model/apipass-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apipass-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apipass/refs/heads/main/conventions/apipass-conventions.yml
+  href: https://artifacts.apis.io/apipass/conventions/apipass-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/apipass-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apipass/refs/heads/main/conventions/apipass-conventions.yml
+  href: https://artifacts.apis.io/apipass/conventions/apipass-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apipass-conventions.yml
@@ -195,17 +202,17 @@ common:
   type: Compliance
   url: https://apipass.dev/trust
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apipass/refs/heads/main/errors/apipass-problem-types.yml
+  href: https://artifacts.apis.io/apipass/errors/apipass-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apipass-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apipass/refs/heads/main/conformance/apipass-conformance.yml
+  href: https://artifacts.apis.io/apipass/conformance/apipass-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apipass-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apipass/refs/heads/main/hosts/apipass-hosts.yml
+  href: https://artifacts.apis.io/apipass/hosts/apipass-hosts.yml
   title: ''
   type: Hosts
   url: hosts/apipass-hosts.yml
@@ -214,17 +221,17 @@ common:
   type: Newsroom
   url: https://apipass.dev/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apipass/refs/heads/main/authentication/apipass-authentication.yml
+  href: https://artifacts.apis.io/apipass/authentication/apipass-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apipass-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apipass/refs/heads/main/security/apipass-trust-center.yml
+  href: https://artifacts.apis.io/apipass/security/apipass-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/apipass-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apipass/refs/heads/main/security/apipass-domain-security.yml
+  href: https://artifacts.apis.io/apipass/security/apipass-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apipass-domain-security.yml
@@ -258,6 +265,14 @@ common:
   url: https://apipass.dev/app/api-logs
 created: '2026-10-15'
 description: APIPASS API Marketplace provides a platform that aggregates and resells access to various AI models at significantly reduced prices, offering developers a single integration point to leverage multiple large language and multimodal models. It features a unified API, transparent pricing, and tools for managing API keys, usage, and billing, targeting startups and enterprises seeking cost‑effective AI capabilities.
+finops:
+- has_sources: true
+  method: derived
+  name: Apipass Finops
+  primary_unit: credits
+  service_category: ''
+  slug: apipass-finops
+  template: false
 image: https://apipass.dev/social-preview.png
 json_schemas:
 - name: CalculateCreditsResponse
@@ -294,8 +309,15 @@ overview: 'APIPASS API Marketplace publishes 23 API contracts indexed on the [AP
   The APIPASS API Marketplace catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  APIPASS API Marketplace''s developer surface includes authentication, documentation, getting-started guide, pricing, support, and 18 more developer resources.'
-random_paper: 5
+  APIPASS API Marketplace''s developer surface includes authentication, documentation, getting-started guide, pricing, support, and 19 more developer resources.'
+plans:
+- name: Apipass Plans Pricing
+  plan_count: 2
+  slug: apipass-plans-pricing
+- name: Apipass Price Estimates
+  plan_count: 0
+  slug: apipass-price-estimates
+random_paper: 9
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -311,21 +333,23 @@ rules:
   slug: apipass-rules
 score:
   band: developing
-  composite: 46.9
+  composite: 47.6
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 57.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.3
+    artifact_dirs: 20
+    catalog_earned: 68.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 46.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 5.8
   facets:
-    access_clarity: 47.4
+    access_clarity: 76.3
     contract_governance: 22.0
-    contract_quality: 59.3
+    contract_quality: 55.9
     developer_ergonomics: 39.9
     discoverability: 58.9
     operational_transparency: 0.0
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -342,11 +366,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 50.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Apipass Authentication
@@ -360,6 +386,18 @@ security:
   name: Apipass Trust Center
   slug: apipass-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 5
+skills:
+- name: apipass-admin-risk-review-user
+  slug: apipass-admin-risk-review-user
+- name: apipass-create-provider
+  slug: apipass-create-provider
+- name: apipass-jobs-create-and-get
+  slug: apipass-jobs-create-and-get
+- name: apipass-manage-codex-accounts
+  slug: apipass-manage-codex-accounts
+- name: apipass-manage-enterprise-users
+  slug: apipass-manage-enterprise-users
 slug: apipass
 tags:
 - Company

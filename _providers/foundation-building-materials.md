@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: Website
   url: https://www.myfbm.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/foundation-building-materials/refs/heads/main/security/foundation-building-materials-domain-security.yml
+  href: https://artifacts.apis.io/foundation-building-materials/security/foundation-building-materials-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/foundation-building-materials-domain-security.yml
@@ -110,10 +112,10 @@ overview: 'Foundation Building Materials is profiled on the [APIs.io](https://ap
 
 
   Foundation Building Materials'' developer surface includes developer portal, documentation, engineering blog, FAQ, support, signup flow, getting-started guide, and 8 more developer resources.'
-random_paper: 7
+random_paper: 1
 score:
-  band: minimal
-  composite: 10.0
+  band: emerging
+  composite: 16.0
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -121,12 +123,12 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 38.1
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -136,21 +138,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 9.9
+  previous_composite: 16.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 10.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/foundation-building-materials/refs/heads/main/screenshots/foundation-building-materials-2026-06-20T181456.png
+screenshot: https://apis.io/screenshots/foundation-building-materials/foundation-building-materials-2026-06-20T181456.png
 security:
 - kind: domain-security
   name: Foundation Building Materials Domain Security

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sixfold/refs/heads/main/security/sixfold-trust-center.yml
+  href: https://artifacts.apis.io/sixfold/security/sixfold-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sixfold-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sixfold/refs/heads/main/security/sixfold-domain-security.yml
+  href: https://artifacts.apis.io/sixfold/security/sixfold-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sixfold-domain-security.yml
@@ -103,10 +105,10 @@ overview: 'Sixfold is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Sixfold''s developer surface includes product news, GitHub presence, engineering blog, and 10 more developer resources.'
-random_paper: 13
+random_paper: 17
 score:
   band: minimal
-  composite: 7.9
+  composite: 8.0
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -120,7 +122,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -129,21 +131,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 7.9
+  previous_composite: 8.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sixfold/refs/heads/main/screenshots/sixfold-2026-06-20T194017.png
+screenshot: https://apis.io/screenshots/sixfold/sixfold-2026-06-20T194017.png
 security:
 - kind: domain-security
   name: Sixfold Domain Security

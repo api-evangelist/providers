@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 25.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Network topology resources including nodes and links
   name: Ciena Topology API
   slug: ciena-topology-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ciena Blue Planet Open Alarms API
   slug: open-ciena-alarms-api
@@ -91,48 +90,52 @@ collections:
   name: Ciena Blue Planet Open Alarms Topology API
   slug: open-ciena-topology-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ciena/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/plans/ciena-plans-pricing.yml
+  href: https://artifacts.apis.io/ciena/plans/ciena-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ciena-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/rate-limits/ciena-rate-limits.yml
+  href: https://artifacts.apis.io/ciena/rate-limits/ciena-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ciena-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/finops/ciena-finops.yml
+  href: https://artifacts.apis.io/ciena/finops/ciena-finops.yml
   title: ''
   type: FinOps
   url: finops/ciena-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/capabilities/ciena-capability-edges.yml
+  href: https://artifacts.apis.io/ciena/capabilities/ciena-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ciena-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/agentic-access/ciena-agentic-access.yml
+  href: https://artifacts.apis.io/ciena/agentic-access/ciena-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ciena-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/security/ciena-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ciena/security/ciena-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ciena-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/security/ciena-domain-security.yml
+  href: https://artifacts.apis.io/ciena/security/ciena-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ciena-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/authentication/ciena-authentication.yml
+  href: https://artifacts.apis.io/ciena/authentication/ciena-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ciena-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/scopes/ciena-scopes.yml
+  href: https://artifacts.apis.io/ciena/scopes/ciena-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ciena-scopes.yml
@@ -185,22 +188,22 @@ common:
   type: GitHubOrg
   url: https://git.blueplanet.com
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/openapi/_original/ciena-blue-planet-openapi.yml
+  href: https://artifacts.apis.io/ciena/openapi/_original/ciena-blue-planet-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/ciena-blue-planet-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/json-ld/ciena-context.jsonld
+  href: https://artifacts.apis.io/ciena/json-ld/ciena-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/ciena-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/json-schema/ciena-network-service-schema.json
+  href: https://artifacts.apis.io/ciena/json-schema/ciena-network-service-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/ciena-network-service-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/spectral/ciena-spectral.yml
+  href: https://artifacts.apis.io/ciena/spectral/ciena-spectral.yml
   title: ''
   type: Spectral
   url: spectral/ciena-spectral.yml
@@ -239,7 +242,7 @@ overview: 'Ciena publishes 6 API contracts indexed on the [APIs.io](https://apis
   The Ciena catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ciena''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 21 more developer resources.'
+  Ciena''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 22 more developer resources.'
 plans:
 - name: Ciena Plans Pricing
   plan_count: 2
@@ -260,7 +263,7 @@ press:
 - date: ''
   title: Ciena Solidifies AI Networking Leadership, Unveils New ...
   url: https://www.ciena.com/about/newsroom/press-releases/ciena-solidifies-ai-networking-leadership-unveils-new-innovations-for-high-speed-connectivity
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Ciena Rate Limits
@@ -283,24 +286,24 @@ scopes:
   slug: ciena-scopes
   summary_line: 5 scopes · clientCredentials
 score:
-  band: thin
-  composite: 36.4
+  band: developing
+  composite: 41.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 53.3
     catalog_earned_first_party: 0.0
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.7
+  delta: 0.2
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 53.5
-    developer_ergonomics: 28.6
+    developer_ergonomics: 39.3
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 38.1
+    operational_transparency: 23.7
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -314,13 +317,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 40.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/screenshots/ciena-2026-08-17T123118.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ciena/ciena-2026-08-17T123118.png
 security:
 - kind: authentication
   name: Ciena Authentication

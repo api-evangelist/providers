@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Programmatic surface behind ManifestOS, gated by the Manifest Law OAuth 2.0 / OpenID Connect authorization server (issuer https://app.manifestlaw.com/api/auth, `api` scope).
@@ -46,32 +48,32 @@ common:
   type: Blog
   url: https://manifestlaw.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manifest-law/refs/heads/main/authentication/manifest-law-authentication.yml
+  href: https://artifacts.apis.io/manifest-law/authentication/manifest-law-authentication.yml
   title: ''
   type: Authentication
   url: authentication/manifest-law-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manifest-law/refs/heads/main/scopes/manifest-law-scopes.yml
+  href: https://artifacts.apis.io/manifest-law/scopes/manifest-law-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/manifest-law-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manifest-law/refs/heads/main/well-known/manifest-law-well-known.yml
+  href: https://artifacts.apis.io/manifest-law/well-known/manifest-law-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/manifest-law-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/manifest-law/refs/heads/main/conformance/manifest-law-conformance.yml
+  href: https://artifacts.apis.io/manifest-law/conformance/manifest-law-conformance.yml
   title: ''
   type: Conformance
   url: conformance/manifest-law-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manifest-law/refs/heads/main/security/manifest-law-domain-security.yml
+  href: https://artifacts.apis.io/manifest-law/security/manifest-law-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/manifest-law-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manifest-law/refs/heads/main/llms/manifest-law-llms.txt
+  href: https://artifacts.apis.io/manifest-law/llms/manifest-law-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/manifest-law-llms.txt
@@ -95,7 +97,7 @@ overview: 'Manifest Law is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Manifest Law''s developer surface includes engineering blog, authentication, and 7 more developer resources.'
-random_paper: 14
+random_paper: 0
 scopes:
 - name: Manifest Law Scopes
   scope_count: 7
@@ -103,7 +105,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: emerging
-  composite: 15.4
+  composite: 16.0
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -111,15 +113,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 14.8
+  previous_composite: 16.0
   provenance:
     conformance: first-party
   regulatory:
@@ -128,14 +130,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/manifest-law/refs/heads/main/screenshots/manifest-law-2026-07-25T230049.png
+screenshot: https://apis.io/screenshots/manifest-law/manifest-law-2026-07-25T230049.png
 security:
 - kind: authentication
   name: Manifest Law Authentication

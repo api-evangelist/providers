@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: OBIE Read/Write Account and Transaction Information (AIS) API for authorised AISPs. FAPI-secured (OAuth2/OIDC, PSD2 SCA, mTLS, OBIE/eIDAS certificates); onboarded via the Lloyds Banking Group Develope
@@ -78,7 +80,7 @@ apis:
   description: Endpoint for getting Unsecured SME Loan data
   name: Halifax SME API
   slug: halifax-sme-api
-artifact_total: 13
+artifact_total: 15
 collections:
 - collection_type: open
   name: Open Data API
@@ -89,12 +91,12 @@ common:
   type: Blog
   url: https://www.halifax.co.uk/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/capabilities/halifax-capability-edges.yml
+  href: https://artifacts.apis.io/halifax/capabilities/halifax-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/halifax-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/security/halifax-domain-security.yml
+  href: https://artifacts.apis.io/halifax/security/halifax-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/halifax-domain-security.yml
@@ -135,67 +137,67 @@ common:
   type: Roadmap
   url: https://developer.lloydsbanking.com/prod01/lbg/home
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/authentication/halifax-authentication.yml
+  href: https://artifacts.apis.io/halifax/authentication/halifax-authentication.yml
   title: ''
   type: Authentication
   url: authentication/halifax-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/scopes/halifax-scopes.yml
+  href: https://artifacts.apis.io/halifax/scopes/halifax-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/halifax-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/conventions/halifax-conventions.yml
+  href: https://artifacts.apis.io/halifax/conventions/halifax-conventions.yml
   title: ''
   type: Conventions
   url: conventions/halifax-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/conventions/halifax-conventions.yml
+  href: https://artifacts.apis.io/halifax/conventions/halifax-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/halifax-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/errors/halifax-problem-types.yml
+  href: https://artifacts.apis.io/halifax/errors/halifax-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/halifax-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/lifecycle/halifax-lifecycle.yml
+  href: https://artifacts.apis.io/halifax/lifecycle/halifax-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/halifax-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/conformance/halifax-conformance.yml
+  href: https://artifacts.apis.io/halifax/conformance/halifax-conformance.yml
   title: ''
   type: Conformance
   url: conformance/halifax-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/conformance/halifax-conformance.yml
+  href: https://artifacts.apis.io/halifax/conformance/halifax-conformance.yml
   title: ''
   type: Compliance
   url: conformance/halifax-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/sandbox/halifax-sandbox.yml
+  href: https://artifacts.apis.io/halifax/sandbox/halifax-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/halifax-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/mcp/halifax-mcp.yml
+  href: https://artifacts.apis.io/halifax/mcp/halifax-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/halifax-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/overlays/halifax-opendata-overlay.yaml
+  href: https://artifacts.apis.io/halifax/overlays/halifax-opendata-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/halifax-opendata-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/llms/halifax-llms.txt
+  href: https://artifacts.apis.io/halifax/llms/halifax-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/halifax-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/halifax/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -212,29 +214,29 @@ overview: 'Halifax publishes 9 API contracts indexed on the [APIs.io](https://ap
 
 
   Halifax''s developer surface includes engineering blog, documentation, support, getting-started guide, authentication, sandbox, and 19 more developer resources.'
-random_paper: 7
+random_paper: 13
 scopes:
 - name: Halifax Scopes
   scope_count: 4
   slug: halifax-scopes
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 37.4
+  band: developing
+  composite: 40.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
-    catalog_max: 100.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 21.4
+    access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 35.5
-    developer_ergonomics: 58.9
-    discoverability: 73.2
+    developer_ergonomics: 66.1
+    discoverability: 66.1
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -244,7 +246,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 36.9
+  previous_composite: 40.6
   provenance:
     conformance: first-party
     contracts:
@@ -265,15 +267,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 35.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 41.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/screenshots/halifax-2026-07-25T220540.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/halifax/halifax-2026-07-25T220540.png
 security:
 - kind: authentication
   name: Halifax Authentication
@@ -283,6 +285,12 @@ security:
   name: Halifax Domain Security
   slug: halifax-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Compare Halifax account and lending products
+  slug: halifax-compare-account-products
+- name: Find the nearest Halifax ATM or branch
+  slug: halifax-find-nearest-atm
 slug: halifax
 tags:
 - Financial Services

@@ -10,7 +10,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.8
-  scored_at: '2026-10-17'
+  score: 37.6
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Native GraphQL API that auto-generates queries, mutations, and real-time subscriptions from the project content schema. Supports content federation, multi-environment delivery, and a high-performance '
@@ -45,7 +46,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hygraph/refs/heads/main/security/hygraph-domain-security.yml
+  href: https://artifacts.apis.io/hygraph/security/hygraph-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hygraph-domain-security.yml
@@ -117,12 +118,12 @@ overview: 'Hygraph is listed with 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Hygraph''s developer surface includes documentation, engineering blog, pricing, changelog, and 9 more developer resources.'
-random_paper: 7
+random_paper: 11
 score:
   band: emerging
-  composite: 22.2
+  composite: 22.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -134,9 +135,9 @@ score:
     contract_governance: 0.0
     contract_quality: 39.4
     developer_ergonomics: 11.9
-    discoverability: 60.0
-    operational_transparency: 18.4
-  previous_composite: 22.2
+    discoverability: 57.1
+    operational_transparency: 21.1
+  previous_composite: 22.3
   provenance:
     mcp: first-party
   regulatory:
@@ -145,14 +146,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hygraph/refs/heads/main/screenshots/hygraph-2026-06-20T183039.png
+screenshot: https://apis.io/screenshots/hygraph/hygraph-2026-06-20T183039.png
 security:
 - kind: domain-security
   name: Hygraph Domain Security

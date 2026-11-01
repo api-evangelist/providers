@@ -13,7 +13,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,21 +21,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.5
-  scored_at: '2026-10-17'
+  score: 36.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,11 +62,8 @@ apis:
   description: Verify whether an EIN is a tax-deductible public charity
   name: CharityAPI Public Charity Check API
   slug: charityapi-public-charity-check-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Charity Autocomplete API
   slug: open-charityapi-autocomplete-api
@@ -79,18 +77,22 @@ collections:
   name: CharityAPI
   slug: open-charityapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/charityapi/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/plans/charityapi-plans-pricing.yml
+  href: https://artifacts.apis.io/charityapi/plans/charityapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/charityapi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/rate-limits/charityapi-rate-limits.yml
+  href: https://artifacts.apis.io/charityapi/rate-limits/charityapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/charityapi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/finops/charityapi-finops.yml
+  href: https://artifacts.apis.io/charityapi/finops/charityapi-finops.yml
   title: ''
   type: FinOps
   url: finops/charityapi-finops.yml
@@ -103,17 +105,17 @@ common:
   type: BlogRSS
   url: https://www.charityapi.org/news/feed.xml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/agentic-access/charityapi-agentic-access.yml
+  href: https://artifacts.apis.io/charityapi/agentic-access/charityapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/charityapi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/security/charityapi-domain-security.yml
+  href: https://artifacts.apis.io/charityapi/security/charityapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/charityapi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/authentication/charityapi-authentication.yml
+  href: https://artifacts.apis.io/charityapi/authentication/charityapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/charityapi-authentication.yml
@@ -150,17 +152,17 @@ common:
   type: PrivacyPolicy
   url: https://www.charityapi.org/privacy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/json-ld/charityapi-context.jsonld
+  href: https://artifacts.apis.io/charityapi/json-ld/charityapi-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/charityapi-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/json-schema/charityapi-organization-schema.json
+  href: https://artifacts.apis.io/charityapi/json-schema/charityapi-organization-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/charityapi-organization-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/json-schema/charityapi-public-charity-check-schema.json
+  href: https://artifacts.apis.io/charityapi/json-schema/charityapi-public-charity-check-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/charityapi-public-charity-check-schema.json
@@ -170,7 +172,7 @@ finops:
 - has_sources: false
   method: generated
   name: Charityapi Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: charityapi-finops
   template: true
@@ -202,7 +204,7 @@ overview: 'CharityAPI publishes 3 API contracts indexed on the [APIs.io](https:/
   The CharityAPI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  CharityAPI''s developer surface includes engineering blog, authentication, documentation, pricing, signup flow, support, and 13 more developer resources.'
+  CharityAPI''s developer surface includes engineering blog, authentication, documentation, pricing, signup flow, support, and 14 more developer resources.'
 plans:
 - name: Charityapi Plans Pricing
   plan_count: 3
@@ -225,8 +227,8 @@ rules:
     warn: 4
   slug: charityapi-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 35.3
+  band: developing
+  composite: 42.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 51.3
@@ -234,15 +236,15 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.3
   facets:
-    access_clarity: 21.1
+    access_clarity: 52.6
     contract_governance: 9.8
     contract_quality: 54.8
-    developer_ergonomics: 40.5
-    discoverability: 68.3
+    developer_ergonomics: 41.7
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 36.8
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -256,15 +258,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/screenshots/charityapi-2026-06-20T174221.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/charityapi/charityapi-2026-06-20T174221.png
 security:
 - kind: authentication
   name: Charityapi Authentication

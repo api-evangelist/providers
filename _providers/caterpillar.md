@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The Cat Digital Marketplace publishes a catalog of Caterpillar APIs spanning asset telematics, fleet management, fuel data, utilization, hours/odometer, and geofencing. Developers subscribe via the Ca
@@ -49,7 +51,7 @@ apis:
 artifact_total: 10
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/finops/caterpillar-finops.yml
+  href: https://artifacts.apis.io/caterpillar/finops/caterpillar-finops.yml
   title: ''
   type: FinOps
   url: finops/caterpillar-finops.yml
@@ -58,12 +60,12 @@ common:
   type: Pricing
   url: https://digital.cat.com/api-catalog-overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/security/caterpillar-domain-security.yml
+  href: https://artifacts.apis.io/caterpillar/security/caterpillar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/caterpillar-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/security/caterpillar-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/caterpillar/security/caterpillar-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/caterpillar-vulnerability-disclosure.yml
@@ -72,77 +74,77 @@ common:
   type: Security
   url: https://hackerone.com/caterpillar
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/authentication/caterpillar-authentication.yml
+  href: https://artifacts.apis.io/caterpillar/authentication/caterpillar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/caterpillar-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/scopes/caterpillar-scopes.yml
+  href: https://artifacts.apis.io/caterpillar/scopes/caterpillar-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/caterpillar-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/conformance/caterpillar-conformance.yml
+  href: https://artifacts.apis.io/caterpillar/conformance/caterpillar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/caterpillar-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/errors/caterpillar-problem-types.yml
+  href: https://artifacts.apis.io/caterpillar/errors/caterpillar-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/caterpillar-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/lifecycle/caterpillar-lifecycle.yml
+  href: https://artifacts.apis.io/caterpillar/lifecycle/caterpillar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/caterpillar-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/lifecycle/caterpillar-lifecycle.yml
+  href: https://artifacts.apis.io/caterpillar/lifecycle/caterpillar-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/caterpillar-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/conventions/caterpillar-conventions.yml
+  href: https://artifacts.apis.io/caterpillar/conventions/caterpillar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/caterpillar-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/rate-limits/caterpillar-rate-limits.yml
+  href: https://artifacts.apis.io/caterpillar/rate-limits/caterpillar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/caterpillar-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/plans/caterpillar-plans-pricing.yml
+  href: https://artifacts.apis.io/caterpillar/plans/caterpillar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/caterpillar-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/packages/caterpillar-packages.yml
+  href: https://artifacts.apis.io/caterpillar/packages/caterpillar-packages.yml
   title: ''
   type: Packages
   url: packages/caterpillar-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/well-known/caterpillar-well-known.yml
+  href: https://artifacts.apis.io/caterpillar/well-known/caterpillar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/caterpillar-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/well-known/caterpillar-openid-configuration.json
+  href: https://artifacts.apis.io/caterpillar/well-known/caterpillar-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/caterpillar-openid-configuration.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/llms/caterpillar-llms.txt
+  href: https://artifacts.apis.io/caterpillar/llms/caterpillar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/caterpillar-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/changelog/caterpillar-changelog.yml
+  href: https://artifacts.apis.io/caterpillar/changelog/caterpillar-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/caterpillar-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/mcp/caterpillar-mcp.yml
+  href: https://artifacts.apis.io/caterpillar/mcp/caterpillar-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/caterpillar-mcp.yml
@@ -234,12 +236,12 @@ created: '2026-03-21'
 description: 'Caterpillar Inc. (NYSE: CAT) is the world''s leading manufacturer of construction and mining equipment, off-highway diesel and natural gas engines, industrial gas turbines, and diesel-electric locomotives. Its digital arm, Cat Digital, publishes developer APIs through the Cat Digital Marketplace (digital.cat.com) covering fleet, asset, fuel, and worksite telematics built on top of the Cat Connect and VisionLink data platforms. The callable surface runs on an Apigee gateway at services.cat.com (mirrored at api.cat.com) and is authorized by a PingFederate OAuth 2.0 / OpenID Connect authorization server at fedlogin.cat.com. Caterpillar implements the ISO 15143-3 (AEMP 2.0) mixed-fleet telematics standard, so a consumer that already speaks AEMP can read Cat machine data with no bespoke connector.'
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Caterpillar Finops
   primary_unit: ''
-  service_category: Equipment Telematics + Fleet Data
+  service_category: ''
   slug: caterpillar-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/caterpillar.png
 layout: provider
 modified: '2026-09-05'
@@ -270,7 +272,7 @@ press:
 - date: ''
   title: Corporate Press Releases
   url: https://www.caterpillar.com/en/news/corporate-press-releases.html
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Caterpillar Rate Limits
@@ -282,23 +284,23 @@ scopes:
   summary_line: 13 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 45.2
+  composite: 44.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 79.5
-    operational_transparency: 68.4
-  previous_composite: 44.6
+    discoverability: 73.2
+    operational_transparency: 71.1
+  previous_composite: 44.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -308,14 +310,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/screenshots/caterpillar-2026-06-20T174051.png
+screenshot: https://apis.io/screenshots/caterpillar/caterpillar-2026-06-20T174051.png
 security:
 - kind: authentication
   name: Caterpillar Authentication

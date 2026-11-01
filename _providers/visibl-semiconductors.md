@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -41,7 +43,7 @@ common:
   type: Blog
   url: https://www.visiblsemi.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/visibl-semiconductors/refs/heads/main/security/visibl-semiconductors-domain-security.yml
+  href: https://artifacts.apis.io/visibl-semiconductors/security/visibl-semiconductors-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/visibl-semiconductors-domain-security.yml
@@ -85,26 +87,26 @@ overview: 'Visibl Semiconductors is profiled on the [APIs.io](https://apis.io/) 
 
 
   Visibl Semiconductors'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: minimal
-  composite: 9.5
+  composite: 9.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 51.7
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 9.0
+  previous_composite: 9.2
   provenance:
     mcp: first-party
   regulatory:
@@ -113,14 +115,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/visibl-semiconductors/refs/heads/main/screenshots/visibl-semiconductors-2026-09-02T170030.png
+screenshot: https://apis.io/screenshots/visibl-semiconductors/visibl-semiconductors-2026-09-02T170030.png
 security:
 - kind: domain-security
   name: Visibl Semiconductors Domain Security

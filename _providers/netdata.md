@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.9
-  scored_at: '2026-10-17'
+  score: 25.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -45,17 +47,17 @@ agentic_access:
   summary_line: 7 operations · 5 acting
 api_count: 1
 apis:
-- baseURL: http://localhost:19999
+- baseURL: https://app.netdata.cloud
   baseurl_source: declared
   description: Everything related to alerts
   name: Netdata Alerts API
   slug: netdata-alerts-api
-- baseURL: http://localhost:19999
+- baseURL: https://app.netdata.cloud
   baseurl_source: declared
   description: Everything related to chart instances - DO NOT USE IN NEW CODE - use contexts instead
   name: Netdata Charts API
   slug: netdata-charts-api
-artifact_total: 59
+artifact_total: 58
 collections:
 - collection_type: postman
   name: Netdata agent API
@@ -118,9 +120,6 @@ collections:
   name: Netdata agent weights API
   slug: postman-netdata-weights-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Netdata agent API
   slug: open-netdata-agent-api
 - collection_type: open
@@ -182,7 +181,7 @@ collections:
   slug: open-netdata-weights-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/capabilities/netdata-capability-edges.yml
+  href: https://artifacts.apis.io/netdata/capabilities/netdata-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/netdata-capability-edges.yml
@@ -191,22 +190,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/netdata/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/agentic-access/netdata-agentic-access.yml
+  href: https://artifacts.apis.io/netdata/agentic-access/netdata-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/netdata-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/security/netdata-trust-center.yml
+  href: https://artifacts.apis.io/netdata/security/netdata-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/netdata-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/security/netdata-domain-security.yml
+  href: https://artifacts.apis.io/netdata/security/netdata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/netdata-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/authentication/netdata-authentication.yml
+  href: https://artifacts.apis.io/netdata/authentication/netdata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/netdata-authentication.yml
@@ -247,27 +246,27 @@ common:
   type: StatusPage
   url: https://status.netdata.cloud/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/vocabulary/netdata-vocabulary.yml
+  href: https://artifacts.apis.io/netdata/vocabulary/netdata-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/netdata-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/json-ld/netdata-context.jsonld
+  href: https://artifacts.apis.io/netdata/json-ld/netdata-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/netdata-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/plans/netdata-plans-pricing.yml
+  href: https://artifacts.apis.io/netdata/plans/netdata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/netdata-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/rate-limits/netdata-rate-limits.yml
+  href: https://artifacts.apis.io/netdata/rate-limits/netdata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/netdata-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/finops/netdata-finops.yml
+  href: https://artifacts.apis.io/netdata/finops/netdata-finops.yml
   title: ''
   type: FinOps
   url: finops/netdata-finops.yml
@@ -326,7 +325,7 @@ plans:
 - name: Netdata Plans Pricing
   plan_count: 3
   slug: netdata-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Netdata Rate Limits
@@ -344,24 +343,24 @@ rules:
     warn: 4
   slug: netdata-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 37.2
+  band: developing
+  composite: 41.2
   coverage:
     artifact_dirs: 19
-    catalog_earned: 55.8
+    catalog_earned: 60.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.3
+    catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.9
   facets:
     access_clarity: 26.3
     contract_governance: 23.5
     contract_quality: 60.4
     developer_ergonomics: 25.0
-    discoverability: 57.1
-    operational_transparency: 23.7
-  previous_composite: 44.6
+    discoverability: 66.1
+    operational_transparency: 42.1
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -375,13 +374,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/screenshots/netdata-2026-06-20T190147.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/netdata/netdata-2026-06-20T190147.png
 security:
 - kind: authentication
   name: Netdata Authentication

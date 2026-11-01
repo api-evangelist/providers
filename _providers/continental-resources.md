@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/continental-resources/refs/heads/main/llms/continental-resources-llms.txt
+  href: https://artifacts.apis.io/continental-resources/llms/continental-resources-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/continental-resources-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/continental-resources/refs/heads/main/security/continental-resources-domain-security.yml
+  href: https://artifacts.apis.io/continental-resources/security/continental-resources-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/continental-resources-domain-security.yml
@@ -129,10 +131,10 @@ press:
 - date: ''
   title: Continental Resources Acquires Vaca Muerta Interests ...
   url: https://www.linkedin.com/posts/continental-resources-2_continental-resources-expands-vaca-muerta-activity-7414019500192268288-3o30
-random_paper: 15
+random_paper: 7
 score:
   band: minimal
-  composite: 6.7
+  composite: 7.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -145,8 +147,8 @@ score:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 49.1
+    developer_ergonomics: 4.8
+    discoverability: 50.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -155,21 +157,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 6.7
+  previous_composite: 7.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/continental-resources/refs/heads/main/screenshots/continental-resources-2026-10-11T103244.png
+screenshot: https://apis.io/screenshots/continental-resources/continental-resources-2026-10-11T103244.png
 security:
 - kind: domain-security
   name: Continental Resources Domain Security

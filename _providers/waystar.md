@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: Real-time and batch insurance eligibility and benefits verification, exchanging X12 270 inquiries and 271 responses to confirm coverage, plan details, copays, deductibles, and service-type benefits be
@@ -128,77 +130,77 @@ common:
   type: Security
   url: https://www.waystar.com/responsible-disclosure/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/security/waystar-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/waystar/security/waystar-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/waystar-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/security/waystar-domain-security.yml
+  href: https://artifacts.apis.io/waystar/security/waystar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/waystar-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/authentication/waystar-authentication.yml
+  href: https://artifacts.apis.io/waystar/authentication/waystar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/waystar-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/conventions/waystar-conventions.yml
+  href: https://artifacts.apis.io/waystar/conventions/waystar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/waystar-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/conventions/waystar-conventions.yml
+  href: https://artifacts.apis.io/waystar/conventions/waystar-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/waystar-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/errors/waystar-problem-types.yml
+  href: https://artifacts.apis.io/waystar/errors/waystar-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/waystar-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/lifecycle/waystar-lifecycle.yml
+  href: https://artifacts.apis.io/waystar/lifecycle/waystar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/waystar-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/conformance/waystar-conformance.yml
+  href: https://artifacts.apis.io/waystar/conformance/waystar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/waystar-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/sandbox/waystar-sandbox.yml
+  href: https://artifacts.apis.io/waystar/sandbox/waystar-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/waystar-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/data-model/waystar-data-model.yml
+  href: https://artifacts.apis.io/waystar/data-model/waystar-data-model.yml
   title: ''
   type: DataModel
   url: data-model/waystar-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/packages/waystar-packages.yml
+  href: https://artifacts.apis.io/waystar/packages/waystar-packages.yml
   title: ''
   type: Packages
   url: packages/waystar-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/llms/waystar-llms.txt
+  href: https://artifacts.apis.io/waystar/llms/waystar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/waystar-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/plans/waystar-plans-pricing.yml
+  href: https://artifacts.apis.io/waystar/plans/waystar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/waystar-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/rate-limits/waystar-rate-limits.yml
+  href: https://artifacts.apis.io/waystar/rate-limits/waystar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/waystar-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/finops/waystar-finops.yml
+  href: https://artifacts.apis.io/waystar/finops/waystar-finops.yml
   title: ''
   type: FinOps
   url: finops/waystar-finops.yml
@@ -207,19 +209,19 @@ description: Waystar is a healthcare payments and revenue cycle management (RCM)
   than one - HMAC-SHA1 body signatures on the classic Developer Suite, HMAC-SHA256 Authorization headers on Patient Estimation, credentials in the POST body on the eligibility gateway, HTTP Basic, WS-Security UsernameToken inside CAQH CORE SOAP envelopes, and X.509 client certificates - with no OAuth 2.0 and no OpenID Connect anywhere. The API surface below is documented from Waystar's public product pages, its developer-portal structure and the underlying X12 standards rather than from a published machine-readable definition.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Waystar Finops
   primary_unit: ''
-  service_category: Healthcare Revenue Cycle Management
+  service_category: ''
   slug: waystar-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/waystar.png
 layout: provider
 modified: '2026-08-15'
 name: Waystar
 nav: Providers
 network: true
-overview: 'Waystar is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Revenue Cycle Management, RCM, Clearinghouse, and Healthcare Payments.
+overview: 'Waystar is listed with 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Revenue Cycle Management, Clearinghouse, Healthcare Payments, and Medical Billing.
 
 
   Waystar''s developer surface includes pricing, documentation, API reference, getting-started guide, support, signup flow, engineering blog, and 25 more developer resources.'
@@ -227,14 +229,14 @@ plans:
 - name: Waystar Plans Pricing
   plan_count: 2
   slug: waystar-plans-pricing
-random_paper: 9
+random_paper: 11
 rate_limits:
 - limit_count: 7
   name: Waystar Rate Limits
   slug: waystar-rate-limits
 score:
   band: developing
-  composite: 43.9
+  composite: 44.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 55.0
@@ -242,15 +244,15 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
     discoverability: 62.5
-    operational_transparency: 60.5
-  previous_composite: 43.4
+    operational_transparency: 63.2
+  previous_composite: 44.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -260,14 +262,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 27.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/screenshots/waystar-2026-09-02T170509.png
+screenshot: https://apis.io/screenshots/waystar/waystar-2026-09-02T170509.png
 security:
 - kind: authentication
   name: Waystar Authentication
@@ -285,7 +287,6 @@ slug: waystar
 tags:
 - Healthcare
 - Revenue Cycle Management
-- RCM
 - Clearinghouse
 - Healthcare Payments
 - Medical Billing

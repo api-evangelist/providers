@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The hila REST APIs provide CRUD operations to deploy, manage, and monitor machine-learning models — drift detection, explainability, model performance, alerts, data profiling, inference tracking, pipe
   name: hila REST API
   slug: hila-rest-api
-artifact_total: 3
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -79,57 +81,57 @@ common:
   type: PrivacyPolicy
   url: https://www.vian.ai/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vianai-systems/refs/heads/main/authentication/vianai-systems-authentication.yml
+  href: https://artifacts.apis.io/vianai-systems/authentication/vianai-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vianai-systems-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vianai-systems/refs/heads/main/cli/vianai-systems-cli.yml
+  href: https://artifacts.apis.io/vianai-systems/cli/vianai-systems-cli.yml
   title: ''
   type: CLI
   url: cli/vianai-systems-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vianai-systems/refs/heads/main/packages/vianai-systems-packages.yml
+  href: https://artifacts.apis.io/vianai-systems/packages/vianai-systems-packages.yml
   title: ''
   type: Packages
   url: packages/vianai-systems-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vianai-systems/refs/heads/main/packages/vianai-systems-packages.yml
+  href: https://artifacts.apis.io/vianai-systems/packages/vianai-systems-packages.yml
   title: ''
   type: SDKs
   url: packages/vianai-systems-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vianai-systems/refs/heads/main/conventions/vianai-systems-conventions.yml
+  href: https://artifacts.apis.io/vianai-systems/conventions/vianai-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vianai-systems-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vianai-systems/refs/heads/main/lifecycle/vianai-systems-lifecycle.yml
+  href: https://artifacts.apis.io/vianai-systems/lifecycle/vianai-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vianai-systems-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vianai-systems/refs/heads/main/conformance/vianai-systems-conformance.yml
+  href: https://artifacts.apis.io/vianai-systems/conformance/vianai-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vianai-systems-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vianai-systems/refs/heads/main/conformance/vianai-systems-conformance.yml
+  href: https://artifacts.apis.io/vianai-systems/conformance/vianai-systems-conformance.yml
   title: ''
   type: Compliance
   url: conformance/vianai-systems-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vianai-systems/refs/heads/main/mcp/vianai-systems-mcp.yml
+  href: https://artifacts.apis.io/vianai-systems/mcp/vianai-systems-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vianai-systems-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vianai-systems/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vianai-systems/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vianai-systems/refs/heads/main/security/vianai-systems-domain-security.yml
+  href: https://artifacts.apis.io/vianai-systems/security/vianai-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vianai-systems-domain-security.yml
@@ -145,10 +147,10 @@ overview: 'Vianai Systems is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Vianai Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, CLI, and 13 more developer resources.'
-random_paper: 17
+random_paper: 5
 score:
-  band: emerging
-  composite: 23.3
+  band: thin
+  composite: 29.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -156,15 +158,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 35.1
+    developer_ergonomics: 63.7
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 23.7
+    operational_transparency: 5.3
+  previous_composite: 29.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -175,14 +177,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vianai-systems/refs/heads/main/screenshots/vianai-systems-2026-09-02T165839.png
+screenshot: https://apis.io/screenshots/vianai-systems/vianai-systems-2026-09-02T165839.png
 security:
 - kind: authentication
   name: Vianai Systems Authentication
@@ -192,6 +194,12 @@ security:
   name: Vianai Systems Domain Security
   slug: vianai-systems-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Authenticate to hila and list projects
+  slug: vianai-systems-authenticate-and-list-projects
+- name: Register, deploy, and monitor a model
+  slug: vianai-systems-deploy-and-monitor-model
 slug: vianai-systems
 tags:
 - Company

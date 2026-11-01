@@ -12,9 +12,9 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.6
-  scored_at: '2026-10-17'
+  score: 30.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 3
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 71
   slug: screenpipe-agentic-access
   summary_line: 71 operations · 42 acting · 3 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: http://localhost:3030
   baseurl_source: declared
@@ -135,11 +137,8 @@ apis:
   description: Manage screen capture monitors
   name: Screenpipe Vision API
   slug: screenpipe-vision-api
-artifact_total: 102
+artifact_total: 106
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Screenpipe Activity API
   slug: open-screenpipe-activity-api
@@ -196,37 +195,37 @@ collections:
   slug: open-screenpipe-vision-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/plans/screenpipe-plans-pricing.yml
+  href: https://artifacts.apis.io/screenpipe/plans/screenpipe-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/screenpipe-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/rules/screenpipe-rules.yml
+  href: https://artifacts.apis.io/screenpipe/rules/screenpipe-rules.yml
   title: ''
   type: Spectral
   url: rules/screenpipe-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/json-ld/screenpipe-context.jsonld
+  href: https://artifacts.apis.io/screenpipe/json-ld/screenpipe-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/screenpipe-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/vocabulary/screenpipe-vocabulary.yml
+  href: https://artifacts.apis.io/screenpipe/vocabulary/screenpipe-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/screenpipe-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/a2a/screenpipe-a2a.yml
+  href: https://artifacts.apis.io/screenpipe/a2a/screenpipe-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/screenpipe-a2a.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/hosts/screenpipe-hosts.yml
+  href: https://artifacts.apis.io/screenpipe/hosts/screenpipe-hosts.yml
   title: ''
   type: Hosts
   url: hosts/screenpipe-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/vendors/screenpipe-vendors.yml
+  href: https://artifacts.apis.io/screenpipe/vendors/screenpipe-vendors.yml
   title: ''
   type: Vendors
   url: vendors/screenpipe-vendors.yml
@@ -247,12 +246,12 @@ common:
   type: Blog
   url: https://screenpipe.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/overlays/screenpipe-openapi-overlay.yaml
+  href: https://artifacts.apis.io/screenpipe/overlays/screenpipe-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/screenpipe-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/security/screenpipe-trust-center.yml
+  href: https://artifacts.apis.io/screenpipe/security/screenpipe-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/screenpipe-trust-center.yml
@@ -261,12 +260,12 @@ common:
   type: Compliance
   url: https://screenpipe.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/security/screenpipe-domain-security.yml
+  href: https://artifacts.apis.io/screenpipe/security/screenpipe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/screenpipe-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/security/screenpipe-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/screenpipe/security/screenpipe-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/screenpipe-vulnerability-disclosure.yml
@@ -275,7 +274,7 @@ common:
   type: Security
   url: https://screenpipe.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/agentic-access/screenpipe-agentic-access.yml
+  href: https://artifacts.apis.io/screenpipe/agentic-access/screenpipe-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/screenpipe-agentic-access.yml
@@ -312,7 +311,7 @@ common:
   type: ChangeLog
   url: https://docs.screenpipe.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/changelog/screenpipe-changelog.yml
+  href: https://artifacts.apis.io/screenpipe/changelog/screenpipe-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/screenpipe-changelog.yml
@@ -329,73 +328,81 @@ common:
   type: FAQ
   url: https://docs.screenpipe.com/faq
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/mcp/screenpipe-mcp.yml
+  href: https://artifacts.apis.io/screenpipe/mcp/screenpipe-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/screenpipe-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/packages/screenpipe-packages.yml
+  href: https://artifacts.apis.io/screenpipe/packages/screenpipe-packages.yml
   title: ''
   type: Packages
   url: packages/screenpipe-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/packages/screenpipe-packages.yml
+  href: https://artifacts.apis.io/screenpipe/packages/screenpipe-packages.yml
   title: ''
   type: SDKs
   url: packages/screenpipe-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/cli/screenpipe-cli.yml
+  href: https://artifacts.apis.io/screenpipe/cli/screenpipe-cli.yml
   title: ''
   type: CLI
   url: cli/screenpipe-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/authentication/screenpipe-authentication.yml
+  href: https://artifacts.apis.io/screenpipe/authentication/screenpipe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/screenpipe-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/conventions/screenpipe-conventions.yml
+  href: https://artifacts.apis.io/screenpipe/conventions/screenpipe-conventions.yml
   title: ''
   type: Conventions
   url: conventions/screenpipe-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/errors/screenpipe-problem-types.yml
+  href: https://artifacts.apis.io/screenpipe/errors/screenpipe-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/screenpipe-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/lifecycle/screenpipe-lifecycle.yml
+  href: https://artifacts.apis.io/screenpipe/lifecycle/screenpipe-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/screenpipe-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/lifecycle/screenpipe-lifecycle.yml
+  href: https://artifacts.apis.io/screenpipe/lifecycle/screenpipe-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/screenpipe-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/conformance/screenpipe-conformance.yml
+  href: https://artifacts.apis.io/screenpipe/conformance/screenpipe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/screenpipe-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/data-model/screenpipe-data-model.yml
+  href: https://artifacts.apis.io/screenpipe/data-model/screenpipe-data-model.yml
   title: ''
   type: DataModel
   url: data-model/screenpipe-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/llms/screenpipe-llms.txt
+  href: https://artifacts.apis.io/screenpipe/llms/screenpipe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/screenpipe-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/screenpipe/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Screenpipe is a local-first, source-available desktop application (by Mediar AI, Y Combinator S26) that continuously captures everything you see, say, and hear on your computer, reads on-screen text through OS accessibility APIs with an OCR fallback, transcribes system and microphone audio with local Whisper by default (or, when the user selects one in settings, with a cloud engine such as Deepgram or screenpipe-cloud, or an OpenAI-compatible transcription endpoint; audio leaves the device only when a remote engine is selected), and stores it all in a local SQLite database as a private, searchable memory. It exposes a full local REST API at http://localhost:3030 (71 operations across search, frames, audio, meetings, memories, speakers, tags, vault, cloud sync, cloud archive, and data retention) and ships as an MCP server so agents like Claude, Cursor, Codex, and Cline can query screen history and meeting transcripts. Automations are built as "pipes" — scheduled AI agents written
   in plain markdown. It is positioned as a local-first alternative to Rewind.ai, Microsoft Recall, and cloud meeting bots.
+finops:
+- has_sources: true
+  method: derived
+  name: Screenpipe Finops
+  primary_unit: seat
+  service_category: ''
+  slug: screenpipe-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/screenpipe.png
 json_schemas:
 - name: ActivitySummaryResponse
@@ -591,6 +598,9 @@ plans:
 - name: Screenpipe Plans Pricing
   plan_count: 3
   slug: screenpipe-plans-pricing
+- name: Screenpipe Price Estimates
+  plan_count: 0
+  slug: screenpipe-price-estimates
 random_paper: 14
 rules:
 - authorship: generated
@@ -607,23 +617,23 @@ rules:
   slug: screenpipe-rules
 score:
   band: strong
-  composite: 60.9
+  composite: 62.7
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 69.8
+    artifact_dirs: 32
+    catalog_earned: 72.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 45.3
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 78.9
+    access_clarity: 86.8
     contract_governance: 35.6
-    contract_quality: 50.0
+    contract_quality: 49.7
     developer_ergonomics: 73.2
-    discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 60.8
+    discoverability: 58.3
+    operational_transparency: 39.5
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -648,13 +658,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/screenshots/screenpipe-2026-08-17T081738.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/screenpipe/screenpipe-2026-08-17T081738.png
 security:
 - kind: authentication
   name: Screenpipe Authentication
@@ -672,6 +683,14 @@ security:
   name: Screenpipe Trust Center
   slug: screenpipe-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
+skill_count: 3
+skills:
+- name: summarize-activity-and-save-a-memory
+  slug: screenpipe-activity-and-memory
+- name: retrieve-and-clean-up-meeting-transcripts
+  slug: screenpipe-meeting-transcripts
+- name: Search screen and audio history
+  slug: screenpipe-search-screen-history
 slug: screenpipe
 tags:
 - Company

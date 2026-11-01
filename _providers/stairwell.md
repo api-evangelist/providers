@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,22 +25,24 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-17'
+  score: 24.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'REST API for the Stairwell threat-intelligence platform: manage assets and forwarders, query object metadata/detonation/sightings/variants, manage and scan YARA rules, upload and correlate threat repo'
   name: Stairwell API
   slug: stairwell-api
-artifact_total: 6
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Stairwell Events Webhooks
@@ -91,62 +93,62 @@ common:
   type: TermsOfService
   url: https://stairwell.com/website-terms-and-conditions/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stairwell/refs/heads/main/llms/stairwell-llms.txt
+  href: https://artifacts.apis.io/stairwell/llms/stairwell-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stairwell-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stairwell/refs/heads/main/mcp/stairwell-mcp.yml
+  href: https://artifacts.apis.io/stairwell/mcp/stairwell-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/stairwell-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stairwell/refs/heads/main/authentication/stairwell-authentication.yml
+  href: https://artifacts.apis.io/stairwell/authentication/stairwell-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stairwell-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stairwell/refs/heads/main/asyncapi/stairwell-events-webhooks.yml
+  href: https://artifacts.apis.io/stairwell/asyncapi/stairwell-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/stairwell-events-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stairwell/refs/heads/main/conventions/stairwell-conventions.yml
+  href: https://artifacts.apis.io/stairwell/conventions/stairwell-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stairwell-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stairwell/refs/heads/main/lifecycle/stairwell-lifecycle.yml
+  href: https://artifacts.apis.io/stairwell/lifecycle/stairwell-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stairwell-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stairwell/refs/heads/main/errors/stairwell-problem-types.yml
+  href: https://artifacts.apis.io/stairwell/errors/stairwell-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/stairwell-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stairwell/refs/heads/main/conformance/stairwell-conformance.yml
+  href: https://artifacts.apis.io/stairwell/conformance/stairwell-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stairwell-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stairwell/refs/heads/main/data-model/stairwell-data-model.yml
+  href: https://artifacts.apis.io/stairwell/data-model/stairwell-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stairwell-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stairwell/refs/heads/main/well-known/stairwell-well-known.yml
+  href: https://artifacts.apis.io/stairwell/well-known/stairwell-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stairwell-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stairwell/refs/heads/main/security/stairwell-domain-security.yml
+  href: https://artifacts.apis.io/stairwell/security/stairwell-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stairwell-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stairwell/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/stairwell/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -169,10 +171,10 @@ overview: 'Stairwell is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Stairwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 17 more developer resources.'
-random_paper: 15
+random_paper: 23
 score:
-  band: thin
-  composite: 36.0
+  band: developing
+  composite: 40.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -182,13 +184,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 39.9
-    discoverability: 75.0
+    developer_ergonomics: 58.9
+    discoverability: 65.0
     operational_transparency: 7.9
-  previous_composite: 36.0
+  previous_composite: 40.2
   provenance:
     conformance: derived
     mcp: first-party
@@ -199,14 +201,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/stairwell/refs/heads/main/screenshots/stairwell-2026-08-17T082059.png
+screenshot: https://apis.io/screenshots/stairwell/stairwell-2026-08-17T082059.png
 security:
 - kind: authentication
   name: Stairwell Authentication
@@ -220,6 +222,14 @@ security:
   name: Stairwell Trust Center
   slug: stairwell-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Sweep your environment for newly disclosed IOCs
+  slug: stairwell-ioc-sweep
+- name: Triage a suspicious file with Stairwell
+  slug: stairwell-triage-a-file
+- name: Hunt the historical corpus with a YARA rule
+  slug: stairwell-yara-hunt
 slug: stairwell
 tags:
 - Company

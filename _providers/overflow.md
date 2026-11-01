@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-17'
+  score: 32.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 38
   slug: overflow-agentic-access
   summary_line: 38 operations · 8 acting · 8 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://server.overflow.co
   baseurl_source: declared
@@ -110,15 +112,12 @@ apis:
   description: The Webhooks API from Overflow — 3 operation(s) for webhooks.
   name: Overflow Webhooks API
   slug: overflow-webhooks-api
-artifact_total: 31
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Overflow Webhooks
   slug: overflow-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Overflow Open Campaigns API
   slug: open-overflow-campaigns-api
@@ -159,8 +158,13 @@ collections:
   name: Overflow Open Campaigns Webhooks API
   slug: open-overflow-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/overflow/plans/overflow-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/overflow-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/capabilities/overflow-capability-edges.yml
+  href: https://artifacts.apis.io/overflow/capabilities/overflow-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/overflow-capability-edges.yml
@@ -185,7 +189,7 @@ common:
   type: GettingStarted
   url: https://docs.overflow.co/api-reference/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/authentication/overflow-authentication.yml
+  href: https://artifacts.apis.io/overflow/authentication/overflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/overflow-authentication.yml
@@ -194,7 +198,7 @@ common:
   type: RateLimits
   url: https://docs.overflow.co/api-reference/rate-limiting
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/asyncapi/overflow-webhooks.yml
+  href: https://artifacts.apis.io/overflow/asyncapi/overflow-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/overflow-webhooks.yml
@@ -227,67 +231,75 @@ common:
   type: PrivacyPolicy
   url: https://www.overflow.co/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/llms/overflow-llms.txt
+  href: https://artifacts.apis.io/overflow/llms/overflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/overflow-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/mcp/overflow-mcp.yml
+  href: https://artifacts.apis.io/overflow/mcp/overflow-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/overflow-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/overlays/overflow-openapi-overlay.yaml
+  href: https://artifacts.apis.io/overflow/overlays/overflow-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/overflow-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/conformance/overflow-conformance.yml
+  href: https://artifacts.apis.io/overflow/conformance/overflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/overflow-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/errors/overflow-problem-types.yml
+  href: https://artifacts.apis.io/overflow/errors/overflow-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/overflow-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/lifecycle/overflow-lifecycle.yml
+  href: https://artifacts.apis.io/overflow/lifecycle/overflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/overflow-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/security/overflow-domain-security.yml
+  href: https://artifacts.apis.io/overflow/security/overflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/overflow-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/conventions/overflow-conventions.yml
+  href: https://artifacts.apis.io/overflow/conventions/overflow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/overflow-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/sandbox/overflow-sandbox.yml
+  href: https://artifacts.apis.io/overflow/sandbox/overflow-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/overflow-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/data-model/overflow-data-model.yml
+  href: https://artifacts.apis.io/overflow/data-model/overflow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/overflow-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/agentic-access/overflow-agentic-access.yml
+  href: https://artifacts.apis.io/overflow/agentic-access/overflow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/overflow-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/overflow/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Overflow is a fintech giving platform for churches and nonprofits that lets organizations accept and reconcile donations across many asset types — card and ACH, Apple Pay and Google Pay, stock, cryptocurrency, RoundUps, and Donor Advised Funds (DAFs) — through a single unified platform. Overflow also offers Overflow Tap (NFC tap-to-give hardware) and Generosity University donor education. Its public Overflow Open API (v3) is a REST interface over contributions, donors, subscriptions (recurring gifts), payments, campaigns, deposits, refunds, chargebacks, locations, tap devices/events, and webhooks, authenticated with header API keys and used to sync giving data into CRMs and accounting/reconciliation workflows. Overflow is backed by Uncork Capital.
+finops:
+- has_sources: true
+  method: derived
+  name: Overflow Finops
+  primary_unit: organization
+  service_category: ''
+  slug: overflow-finops
+  template: false
 image: https://cdn.prod.website-files.com/661982b7ce6b433411c6e0c8/661986ff805671631abc51f8_Open%20Graph%20Image.webp
 layout: provider
 modified: '2026-07-20'
@@ -300,27 +312,34 @@ overview: 'Overflow publishes 13 API contracts indexed on the [APIs.io](https://
   The Overflow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Overflow''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 21 more developer resources.'
-random_paper: 4
+  Overflow''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 22 more developer resources.'
+plans:
+- name: Overflow Plans Pricing
+  plan_count: 3
+  slug: overflow-plans-pricing
+- name: Overflow Price Estimates
+  plan_count: 0
+  slug: overflow-price-estimates
+random_paper: 20
 score:
   band: developing
-  composite: 43.9
+  composite: 52.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 34.2
+    access_clarity: 73.7
     contract_governance: 4.5
     contract_quality: 55.3
     developer_ergonomics: 61.3
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 43.9
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -337,13 +356,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/screenshots/overflow-2026-08-07T191125.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/overflow/overflow-2026-08-07T191125.png
 security:
 - kind: authentication
   name: Overflow Authentication
@@ -353,6 +373,14 @@ security:
   name: Overflow Domain Security
   slug: overflow-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Reconcile Overflow deposits
+  slug: overflow-reconcile-deposits
+- name: Record a donation with Overflow
+  slug: overflow-record-contribution
+- name: Set up a recurring gift with Overflow
+  slug: overflow-recurring-gift
 slug: overflow
 tags:
 - Company

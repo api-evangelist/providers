@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,27 +25,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitsensing/refs/heads/main/hosts/bitsensing-hosts.yml
+  href: https://artifacts.apis.io/bitsensing/hosts/bitsensing-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bitsensing-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitsensing/refs/heads/main/vendors/bitsensing-vendors.yml
+  href: https://artifacts.apis.io/bitsensing/vendors/bitsensing-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bitsensing-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bitsensing/refs/heads/main/packages/bitsensing-packages.yml
+  href: https://artifacts.apis.io/bitsensing/packages/bitsensing-packages.yml
   title: ''
   type: SDKs
   url: packages/bitsensing-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bitsensing/refs/heads/main/packages/bitsensing-packages.yml
+  href: https://artifacts.apis.io/bitsensing/packages/bitsensing-packages.yml
   title: ''
   type: Packages
   url: packages/bitsensing-packages.yml
@@ -56,7 +58,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/bitsensing
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitsensing/refs/heads/main/security/bitsensing-domain-security.yml
+  href: https://artifacts.apis.io/bitsensing/security/bitsensing-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitsensing-domain-security.yml
@@ -100,7 +102,7 @@ overview: 'Bitsensing is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Bitsensing''s developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
-random_paper: 0
+random_paper: 22
 score:
   band: emerging
   composite: 11.8
@@ -128,14 +130,14 @@ score:
     regime: Health
     regime_id: health
     score: 7.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bitsensing/refs/heads/main/screenshots/bitsensing-2026-10-11T102420.png
+screenshot: https://apis.io/screenshots/bitsensing/bitsensing-2026-10-11T102420.png
 security:
 - kind: domain-security
   name: Bitsensing Domain Security

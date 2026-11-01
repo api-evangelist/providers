@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: TTB's open data surface is a set of static, anonymously downloadable files rather than a request/response API. Production and operations reports for beer, wine, distilled spirits and tobacco are publi
@@ -48,7 +50,7 @@ apis:
 artifact_total: 27
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alcohol-and-tobacco-tax-and-trade-bureau/refs/heads/main/finops/alcohol-and-tobacco-tax-and-trade-bureau-finops.yml
+  href: https://artifacts.apis.io/alcohol-and-tobacco-tax-and-trade-bureau/finops/alcohol-and-tobacco-tax-and-trade-bureau-finops.yml
   title: ''
   type: FinOps
   url: finops/alcohol-and-tobacco-tax-and-trade-bureau-finops.yml
@@ -105,47 +107,47 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/alcohol-and-tobacco-tax-and-trade-bureau
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alcohol-and-tobacco-tax-and-trade-bureau/refs/heads/main/llms/alcohol-and-tobacco-tax-and-trade-bureau-llms.txt
+  href: https://artifacts.apis.io/alcohol-and-tobacco-tax-and-trade-bureau/llms/alcohol-and-tobacco-tax-and-trade-bureau-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alcohol-and-tobacco-tax-and-trade-bureau-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alcohol-and-tobacco-tax-and-trade-bureau/refs/heads/main/json-ld/alcohol-and-tobacco-tax-and-trade-bureau-dcat-us.jsonld
+  href: https://artifacts.apis.io/alcohol-and-tobacco-tax-and-trade-bureau/json-ld/alcohol-and-tobacco-tax-and-trade-bureau-dcat-us.jsonld
   title: ''
   type: DataCatalog
   url: json-ld/alcohol-and-tobacco-tax-and-trade-bureau-dcat-us.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alcohol-and-tobacco-tax-and-trade-bureau/refs/heads/main/conformance/alcohol-and-tobacco-tax-and-trade-bureau-conformance.yml
+  href: https://artifacts.apis.io/alcohol-and-tobacco-tax-and-trade-bureau/conformance/alcohol-and-tobacco-tax-and-trade-bureau-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alcohol-and-tobacco-tax-and-trade-bureau-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alcohol-and-tobacco-tax-and-trade-bureau/refs/heads/main/conventions/alcohol-and-tobacco-tax-and-trade-bureau-conventions.yml
+  href: https://artifacts.apis.io/alcohol-and-tobacco-tax-and-trade-bureau/conventions/alcohol-and-tobacco-tax-and-trade-bureau-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alcohol-and-tobacco-tax-and-trade-bureau-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alcohol-and-tobacco-tax-and-trade-bureau/refs/heads/main/authentication/alcohol-and-tobacco-tax-and-trade-bureau-authentication.yml
+  href: https://artifacts.apis.io/alcohol-and-tobacco-tax-and-trade-bureau/authentication/alcohol-and-tobacco-tax-and-trade-bureau-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alcohol-and-tobacco-tax-and-trade-bureau-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alcohol-and-tobacco-tax-and-trade-bureau/refs/heads/main/lifecycle/alcohol-and-tobacco-tax-and-trade-bureau-lifecycle.yml
+  href: https://artifacts.apis.io/alcohol-and-tobacco-tax-and-trade-bureau/lifecycle/alcohol-and-tobacco-tax-and-trade-bureau-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alcohol-and-tobacco-tax-and-trade-bureau-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/alcohol-and-tobacco-tax-and-trade-bureau/refs/heads/main/rate-limits/alcohol-and-tobacco-tax-and-trade-bureau-rate-limits.yml
+  href: https://artifacts.apis.io/alcohol-and-tobacco-tax-and-trade-bureau/rate-limits/alcohol-and-tobacco-tax-and-trade-bureau-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/alcohol-and-tobacco-tax-and-trade-bureau-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alcohol-and-tobacco-tax-and-trade-bureau/refs/heads/main/plans/alcohol-and-tobacco-tax-and-trade-bureau-plans-pricing.yml
+  href: https://artifacts.apis.io/alcohol-and-tobacco-tax-and-trade-bureau/plans/alcohol-and-tobacco-tax-and-trade-bureau-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/alcohol-and-tobacco-tax-and-trade-bureau-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alcohol-and-tobacco-tax-and-trade-bureau/refs/heads/main/security/alcohol-and-tobacco-tax-and-trade-bureau-domain-security.yml
+  href: https://artifacts.apis.io/alcohol-and-tobacco-tax-and-trade-bureau/security/alcohol-and-tobacco-tax-and-trade-bureau-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alcohol-and-tobacco-tax-and-trade-bureau-domain-security.yml
@@ -168,7 +170,7 @@ finops:
 - has_sources: false
   method: generated
   name: Alcohol And Tobacco Tax And Trade Bureau Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: alcohol-and-tobacco-tax-and-trade-bureau-finops
   template: true
@@ -207,14 +209,14 @@ plans:
 - name: Alcohol And Tobacco Tax And Trade Bureau Plans Pricing
   plan_count: 0
   slug: alcohol-and-tobacco-tax-and-trade-bureau-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Alcohol And Tobacco Tax And Trade Bureau Rate Limits
   slug: alcohol-and-tobacco-tax-and-trade-bureau-rate-limits
 score:
   band: emerging
-  composite: 23.5
+  composite: 22.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 40.0
@@ -222,20 +224,20 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 6.7
     developer_ergonomics: 47.6
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 25.1
+  previous_composite: 22.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -245,14 +247,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alcohol-and-tobacco-tax-and-trade-bureau/refs/heads/main/screenshots/alcohol-and-tobacco-tax-and-trade-bureau-2026-06-20T171512.png
+screenshot: https://apis.io/screenshots/alcohol-and-tobacco-tax-and-trade-bureau/alcohol-and-tobacco-tax-and-trade-bureau-2026-06-20T171512.png
 security:
 - kind: authentication
   name: Alcohol And Tobacco Tax And Trade Bureau Authentication

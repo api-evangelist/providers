@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.5
-  scored_at: '2026-10-17'
+  score: 21.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -94,11 +96,8 @@ apis:
   description: Cloud subscription management
   name: TD SYNNEX Subscriptions API
   slug: td-synnex-subscriptions-api
-artifact_total: 37
+artifact_total: 36
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TD SYNNEX StreamOne Ion Partner Authentication API
   slug: open-td-synnex-authentication-api
@@ -134,42 +133,42 @@ collections:
   slug: open-td-synnex-subscriptions-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/plans/td-synnex-plans-pricing.yml
+  href: https://artifacts.apis.io/td-synnex/plans/td-synnex-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/td-synnex-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/rate-limits/td-synnex-rate-limits.yml
+  href: https://artifacts.apis.io/td-synnex/rate-limits/td-synnex-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/td-synnex-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/finops/td-synnex-finops.yml
+  href: https://artifacts.apis.io/td-synnex/finops/td-synnex-finops.yml
   title: ''
   type: FinOps
   url: finops/td-synnex-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/capabilities/td-synnex-capability-edges.yml
+  href: https://artifacts.apis.io/td-synnex/capabilities/td-synnex-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/td-synnex-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/agentic-access/td-synnex-agentic-access.yml
+  href: https://artifacts.apis.io/td-synnex/agentic-access/td-synnex-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/td-synnex-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/security/td-synnex-domain-security.yml
+  href: https://artifacts.apis.io/td-synnex/security/td-synnex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/td-synnex-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/authentication/td-synnex-authentication.yml
+  href: https://artifacts.apis.io/td-synnex/authentication/td-synnex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/td-synnex-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/scopes/td-synnex-scopes.yml
+  href: https://artifacts.apis.io/td-synnex/scopes/td-synnex-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/td-synnex-scopes.yml
@@ -263,7 +262,7 @@ plans:
 - name: Td Synnex Plans Pricing
   plan_count: 1
   slug: td-synnex-plans-pricing
-random_paper: 14
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Td Synnex Rate Limits
@@ -299,15 +298,15 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 32.8
+  composite: 33.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
@@ -315,7 +314,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 34.3
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -329,13 +328,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/screenshots/td-synnex-2026-06-20T194950.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/td-synnex/td-synnex-2026-06-20T194950.png
 security:
 - kind: authentication
   name: Td Synnex Authentication

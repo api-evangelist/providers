@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'CAVATICA is a pediatric-research data analysis platform Seven Bridges operates with the Children''s Hospital of Philadelphia and the NIH Common Fund. It exposes the same v2 REST API surface on its own '
@@ -121,15 +123,20 @@ apis:
   description: The Users API from Seven Bridges — 1 operation(s) for users.
   name: Seven Bridges Users API
   slug: seven-bridges-users-api
-artifact_total: 22
+artifact_total: 27
 common:
+- group: other
+  href: https://artifacts.apis.io/seven-bridges/capabilities/seven-bridges-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/seven-bridges-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/security/seven-bridges-trust-center.yml
+  href: https://artifacts.apis.io/seven-bridges/security/seven-bridges-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/seven-bridges-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/security/seven-bridges-domain-security.yml
+  href: https://artifacts.apis.io/seven-bridges/security/seven-bridges-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/seven-bridges-domain-security.yml
@@ -178,83 +185,91 @@ common:
   type: PrivacyPolicy
   url: https://www.sevenbridges.com/privacy-policy/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/lifecycle/seven-bridges-lifecycle.yml
+  href: https://artifacts.apis.io/seven-bridges/lifecycle/seven-bridges-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/seven-bridges-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/llms/seven-bridges-llms.txt
+  href: https://artifacts.apis.io/seven-bridges/llms/seven-bridges-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/seven-bridges-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/packages/seven-bridges-packages.yml
+  href: https://artifacts.apis.io/seven-bridges/packages/seven-bridges-packages.yml
   title: ''
   type: Packages
   url: packages/seven-bridges-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/packages/seven-bridges-packages.yml
+  href: https://artifacts.apis.io/seven-bridges/packages/seven-bridges-packages.yml
   title: ''
   type: SDKs
   url: packages/seven-bridges-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/cli/seven-bridges-cli.yml
+  href: https://artifacts.apis.io/seven-bridges/cli/seven-bridges-cli.yml
   title: ''
   type: CLI
   url: cli/seven-bridges-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/authentication/seven-bridges-authentication.yml
+  href: https://artifacts.apis.io/seven-bridges/authentication/seven-bridges-authentication.yml
   title: ''
   type: Authentication
   url: authentication/seven-bridges-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/conventions/seven-bridges-conventions.yml
+  href: https://artifacts.apis.io/seven-bridges/conventions/seven-bridges-conventions.yml
   title: ''
   type: Conventions
   url: conventions/seven-bridges-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/errors/seven-bridges-error-codes.yml
+  href: https://artifacts.apis.io/seven-bridges/errors/seven-bridges-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/seven-bridges-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/rate-limits/seven-bridges-rate-limits.yml
+  href: https://artifacts.apis.io/seven-bridges/rate-limits/seven-bridges-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/seven-bridges-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/plans/seven-bridges-plans-pricing.yml
+  href: https://artifacts.apis.io/seven-bridges/plans/seven-bridges-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/seven-bridges-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/data-model/seven-bridges-data-model.yml
+  href: https://artifacts.apis.io/seven-bridges/data-model/seven-bridges-data-model.yml
   title: ''
   type: DataModel
   url: data-model/seven-bridges-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/conformance/seven-bridges-conformance.yml
+  href: https://artifacts.apis.io/seven-bridges/conformance/seven-bridges-conformance.yml
   title: ''
   type: Conformance
   url: conformance/seven-bridges-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/conformance/seven-bridges-conformance.yml
+  href: https://artifacts.apis.io/seven-bridges/conformance/seven-bridges-conformance.yml
   title: ''
   type: Compliance
   url: conformance/seven-bridges-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/seven-bridges/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/overlays/seven-bridges-platform-overlay.yaml
+  href: https://artifacts.apis.io/seven-bridges/overlays/seven-bridges-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seven-bridges-platform-overlay.yaml
 created: '2026-08-27'
 description: Seven Bridges (a Velsera company) is a biomedical data analysis company whose cloud platform lets research organizations store, organize and analyze genomic and multi-omic data at scale. The Seven Bridges Platform exposes a public REST API at api.sbgenomics.com/v2 (AWS US) and eu-api.sbgenomics.com/v2 (AWS EU) covering projects, members and permissions, files and folders, file metadata and tags, multipart uploads, cloud storage volumes with import/export jobs, CWL and Nextflow apps and their revisions, task creation/execution/batching, billing groups, invoices and cost breakdowns, plus rate limit and advanced file search. The same API powers two NIH/NCI-funded deployments Seven Bridges operates - the Cancer Genomics Cloud (cgc-api.sbgenomics.com) and CAVATICA (cavatica-api.sbgenomics.com). Authentication is a per-user X-SBG-Auth-Token header, first-party Python and R client libraries and an `sb` command line interface are published, and the API is documented on a ReadMe developer
   hub that also serves an llms.txt index.
+finops:
+- has_sources: true
+  method: derived
+  name: Seven Bridges Finops
+  primary_unit: ''
+  service_category: ''
+  slug: seven-bridges-finops
+  template: true
 image: https://www.sevenbridges.com/wp-content/uploads/2016/09/fb-image.png
 layout: provider
 modified: '2026-08-27'
@@ -264,7 +279,7 @@ network: true
 overview: 'Seven Bridges publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Action API, API Settings API, Apps API, and 14 more. Tagged areas include Genomics, Bioinformatics, Life Sciences, Healthcare, and Cloud Computing.
 
 
-  Seven Bridges'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 21 more developer resources.'
+  Seven Bridges'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 22 more developer resources.'
 plans:
 - name: Seven Bridges Plans Pricing
   plan_count: 0
@@ -276,9 +291,9 @@ rate_limits:
   slug: seven-bridges-rate-limits
 score:
   band: developing
-  composite: 47.0
+  composite: 50.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -286,13 +301,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 47.5
-    developer_ergonomics: 58.9
+    contract_quality: 44.1
+    developer_ergonomics: 73.2
     discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 47.0
+    operational_transparency: 26.3
+  previous_composite: 50.3
   provenance:
     conformance: first-party
     contracts:
@@ -308,13 +323,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/screenshots/seven-bridges-2026-09-02T155037.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/seven-bridges/seven-bridges-2026-09-02T155037.png
 security:
 - kind: authentication
   name: Seven Bridges Authentication
@@ -328,6 +344,16 @@ security:
   name: Seven Bridges Trust Center
   slug: seven-bridges-trust-center
   summary_line: ISO 27001, HIPAA, GDPR
+skill_count: 4
+skills:
+- name: seven-bridges-attach-volume-and-import
+  slug: seven-bridges-attach-volume-and-import
+- name: seven-bridges-run-analysis-task
+  slug: seven-bridges-run-analysis-task
+- name: seven-bridges-track-project-spend
+  slug: seven-bridges-track-project-spend
+- name: seven-bridges-upload-large-file
+  slug: seven-bridges-upload-large-file
 slug: seven-bridges
 tags:
 - Genomics

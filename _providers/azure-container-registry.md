@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 25
   slug: azure-container-registry-agentic-access
   summary_line: 25 operations · 16 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://management.azure.com
   baseurl_source: spec
@@ -84,11 +86,8 @@ apis:
   description: The Tags API from microsoft-azure-container-registry — 1 operation(s) for tags.
   name: Azure Container Registry Tags API
   slug: microsoft-azure-container-registry-tags-api
-artifact_total: 111
+artifact_total: 110
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ContainerRegistryManagementClient Operation API
   slug: open-azure-container-registry-operation-api
@@ -103,22 +102,22 @@ collections:
   slug: open-azure-container-registry-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/plans/azure-container-registry-plans-pricing.yml
+  href: https://artifacts.apis.io/azure-container-registry/plans/azure-container-registry-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/azure-container-registry-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/rate-limits/azure-container-registry-rate-limits.yml
+  href: https://artifacts.apis.io/azure-container-registry/rate-limits/azure-container-registry-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/azure-container-registry-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/finops/azure-container-registry-finops.yml
+  href: https://artifacts.apis.io/azure-container-registry/finops/azure-container-registry-finops.yml
   title: ''
   type: FinOps
   url: finops/azure-container-registry-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/capabilities/azure-container-registry-capability-edges.yml
+  href: https://artifacts.apis.io/azure-container-registry/capabilities/azure-container-registry-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/azure-container-registry-capability-edges.yml
@@ -139,27 +138,27 @@ common:
   type: Support
   url: https://support.microsoft.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/agentic-access/azure-container-registry-agentic-access.yml
+  href: https://artifacts.apis.io/azure-container-registry/agentic-access/azure-container-registry-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/azure-container-registry-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/security/azure-container-registry-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/azure-container-registry/security/azure-container-registry-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/azure-container-registry-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/security/azure-container-registry-domain-security.yml
+  href: https://artifacts.apis.io/azure-container-registry/security/azure-container-registry-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/azure-container-registry-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/authentication/azure-container-registry-authentication.yml
+  href: https://artifacts.apis.io/azure-container-registry/authentication/azure-container-registry-authentication.yml
   title: ''
   type: Authentication
   url: authentication/azure-container-registry-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/scopes/azure-container-registry-scopes.yml
+  href: https://artifacts.apis.io/azure-container-registry/scopes/azure-container-registry-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/azure-container-registry-scopes.yml
@@ -298,11 +297,11 @@ examples:
   name: Azure Container Registry Registry Name Status Example
   slug: azure-container-registry-registry-name-status-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Azure Container Registry Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: azure-container-registry-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/azure-container-registry.png
@@ -503,7 +502,7 @@ plans:
 - name: Azure Container Registry Plans Pricing
   plan_count: 3
   slug: azure-container-registry-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Azure Container Registry Rate Limits
@@ -538,24 +537,24 @@ scopes:
   slug: azure-container-registry-scopes
   summary_line: 1 scope · implicit
 score:
-  band: developing
-  composite: 49.4
+  band: strong
+  composite: 56.5
   coverage:
     artifact_dirs: 21
-    catalog_earned: 58.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_earned: 67.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 76.3
     contract_governance: 27.3
     contract_quality: 50.6
     developer_ergonomics: 50.0
     discoverability: 64.3
-    operational_transparency: 26.3
-  previous_composite: 50.9
+    operational_transparency: 39.5
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     contracts:
@@ -569,13 +568,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/screenshots/azure-container-registry-2026-06-20T172845.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/azure-container-registry/azure-container-registry-2026-06-20T172845.png
 security:
 - kind: authentication
   name: Azure Container Registry Authentication

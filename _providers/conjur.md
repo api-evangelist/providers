@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,19 +37,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-17'
-api_count: 2
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://cyberark.github.io/conjur
   baseurl_source: declared
   description: REST API for authenticating machine and human identities, retrieving and rotating secrets, loading policy-as-code, and inspecting RBAC roles and resources. Compatible with Conjur OSS and CyberArk Secr
   name: Conjur / CyberArk Secrets Manager API
   slug: conjur-cyberark-secrets-manager-api
-artifact_total: 14
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API Collection
   slug: open-authentication
@@ -121,72 +120,72 @@ common:
   type: SourceCode
   url: https://github.com/cyberark/conjur
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/authentication/conjur-authentication.yml
+  href: https://artifacts.apis.io/conjur/authentication/conjur-authentication.yml
   title: ''
   type: Authentication
   url: authentication/conjur-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/packages/conjur-packages.yml
+  href: https://artifacts.apis.io/conjur/packages/conjur-packages.yml
   title: ''
   type: Packages
   url: packages/conjur-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/packages/conjur-packages.yml
+  href: https://artifacts.apis.io/conjur/packages/conjur-packages.yml
   title: ''
   type: SDKs
   url: packages/conjur-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/cli/conjur-cli.yml
+  href: https://artifacts.apis.io/conjur/cli/conjur-cli.yml
   title: ''
   type: CLI
   url: cli/conjur-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/mcp/conjur-mcp.yml
+  href: https://artifacts.apis.io/conjur/mcp/conjur-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/conjur-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/conjur/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/errors/conjur-problem-types.yml
+  href: https://artifacts.apis.io/conjur/errors/conjur-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/conjur-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/conventions/conjur-conventions.yml
+  href: https://artifacts.apis.io/conjur/conventions/conjur-conventions.yml
   title: ''
   type: Conventions
   url: conventions/conjur-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/conformance/conjur-conformance.yml
+  href: https://artifacts.apis.io/conjur/conformance/conjur-conformance.yml
   title: ''
   type: Conformance
   url: conformance/conjur-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/data-model/conjur-data-model.yml
+  href: https://artifacts.apis.io/conjur/data-model/conjur-data-model.yml
   title: ''
   type: DataModel
   url: data-model/conjur-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/lifecycle/conjur-lifecycle.yml
+  href: https://artifacts.apis.io/conjur/lifecycle/conjur-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/conjur-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/changelog/conjur-changelog.yml
+  href: https://artifacts.apis.io/conjur/changelog/conjur-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/conjur-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/llms/conjur-llms.txt
+  href: https://artifacts.apis.io/conjur/llms/conjur-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/conjur-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/security/conjur-domain-security.yml
+  href: https://artifacts.apis.io/conjur/security/conjur-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/conjur-domain-security.yml
@@ -206,10 +205,10 @@ overview: 'Conjur publishes 1 API contract indexed on the [APIs.io](https://apis
 
 
   Conjur''s developer surface includes documentation, API reference, authentication, CLI, changelog, and 20 more developer resources.'
-random_paper: 19
+random_paper: 9
 score:
   band: thin
-  composite: 29.3
+  composite: 30.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -217,15 +216,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 32.4
+    contract_quality: 39.1
     developer_ergonomics: 54.2
-    discoverability: 71.7
-    operational_transparency: 18.4
-  previous_composite: 29.2
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 30.6
   provenance:
     conformance: derived
     mcp: first-party
@@ -236,14 +235,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/screenshots/conjur-2026-07-25T210258.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/conjur/conjur-2026-07-25T210258.png
 security:
 - kind: authentication
   name: Conjur Authentication
@@ -253,6 +252,14 @@ security:
   name: Conjur Domain Security
   slug: conjur-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Authenticate to Conjur and fetch a secret
+  slug: conjur-authenticate-and-fetch-secret
+- name: Load and update Conjur policy
+  slug: conjur-load-policy
+- name: Store, read, and version secrets
+  slug: conjur-manage-secrets
 slug: conjur
 tags:
 - Company

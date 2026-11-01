@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.3
-  scored_at: '2026-10-17'
+  score: 32.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 2
   slug: zerobounce-agentic-access
   summary_line: 2 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Real-time and batch email validation API including credit balance, API usage, file submission and retrieval, email finder, domain search, activity data and AI scoring endpoints. Authenticated via api_
   name: ZeroBounce Email Validation API
@@ -73,15 +75,12 @@ apis:
 - description: Official ZeroBounce Model Context Protocol server, published by ZeroBounce under Apache-2.0 and distributed on npm as @zerobounce/mcp. Exposes 16 tools covering validation, AI scoring, email finder, d
   name: ZeroBounce MCP Server
   slug: mcp
-artifact_total: 18
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Zerobounce Webhooks
   slug: zerobounce-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ZeroBounce Validate Email plugin Validation API
   slug: open-zerobounce-validation-api
@@ -90,37 +89,37 @@ collections:
   slug: open-zerobounce
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/agentic-access/zerobounce-agentic-access.yml
+  href: https://artifacts.apis.io/zerobounce/agentic-access/zerobounce-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zerobounce-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/security/zerobounce-trust-center.yml
+  href: https://artifacts.apis.io/zerobounce/security/zerobounce-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zerobounce-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/security/zerobounce-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zerobounce/security/zerobounce-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zerobounce-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/security/zerobounce-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zerobounce/security/zerobounce-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/zerobounce-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/security/zerobounce-domain-security.yml
+  href: https://artifacts.apis.io/zerobounce/security/zerobounce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zerobounce-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/conformance/zerobounce-conformance.yml
+  href: https://artifacts.apis.io/zerobounce/conformance/zerobounce-conformance.yml
   title: ''
   type: Compliance
   url: conformance/zerobounce-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/conformance/zerobounce-conformance.yml
+  href: https://artifacts.apis.io/zerobounce/conformance/zerobounce-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zerobounce-conformance.yml
@@ -157,7 +156,7 @@ common:
   type: Pricing
   url: https://www.zerobounce.net/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/plans/zerobounce-plans-pricing.yml
+  href: https://artifacts.apis.io/zerobounce/plans/zerobounce-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zerobounce-plans-pricing.yml
@@ -190,92 +189,100 @@ common:
   type: StatusPage
   url: https://status.zerobounce.net
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/lifecycle/zerobounce-lifecycle.yml
+  href: https://artifacts.apis.io/zerobounce/lifecycle/zerobounce-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zerobounce-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/changelog/zerobounce-changelog.yml
+  href: https://artifacts.apis.io/zerobounce/changelog/zerobounce-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zerobounce-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/packages/zerobounce-packages.yml
+  href: https://artifacts.apis.io/zerobounce/packages/zerobounce-packages.yml
   title: ''
   type: Packages
   url: packages/zerobounce-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/packages/zerobounce-packages.yml
+  href: https://artifacts.apis.io/zerobounce/packages/zerobounce-packages.yml
   title: ''
   type: SDKs
   url: packages/zerobounce-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/mcp/zerobounce-mcp.yml
+  href: https://artifacts.apis.io/zerobounce/mcp/zerobounce-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/zerobounce-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/mcp/zerobounce-tool-crosswalk.yml
+  href: https://artifacts.apis.io/zerobounce/mcp/zerobounce-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/zerobounce-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zerobounce/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/llms/zerobounce-llms.txt
+  href: https://artifacts.apis.io/zerobounce/llms/zerobounce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zerobounce-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/authentication/zerobounce-authentication.yml
+  href: https://artifacts.apis.io/zerobounce/authentication/zerobounce-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zerobounce-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/conventions/zerobounce-conventions.yml
+  href: https://artifacts.apis.io/zerobounce/conventions/zerobounce-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zerobounce-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/errors/zerobounce-error-codes.yml
+  href: https://artifacts.apis.io/zerobounce/errors/zerobounce-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/zerobounce-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/rate-limits/zerobounce-rate-limits.yml
+  href: https://artifacts.apis.io/zerobounce/rate-limits/zerobounce-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zerobounce-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/sandbox/zerobounce-sandbox.yml
+  href: https://artifacts.apis.io/zerobounce/sandbox/zerobounce-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zerobounce-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/data-model/zerobounce-data-model.yml
+  href: https://artifacts.apis.io/zerobounce/data-model/zerobounce-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zerobounce-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/asyncapi/zerobounce-webhooks.yml
+  href: https://artifacts.apis.io/zerobounce/asyncapi/zerobounce-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zerobounce-webhooks.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/overlays/zerobounce-validation-api-overlay.yaml
+  href: https://artifacts.apis.io/zerobounce/overlays/zerobounce-validation-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zerobounce-validation-api-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/collections/zerobounce-api-v2-official.postman_collection.json
+  href: https://artifacts.apis.io/zerobounce/collections/zerobounce-api-v2-official.postman_collection.json
   title: ''
   type: Postman
   url: collections/zerobounce-api-v2-official.postman_collection.json
 created: '2026-05-11'
 description: ZeroBounce is an email validation and deliverability platform that verifies email addresses, detects spam traps and abuse accounts, scores leads, and helps senders reduce bounce rates and protect sender reputation. The platform provides real-time and batch email validation, credit balance checks, file-based validation jobs, email finder, domain search, activity data, list evaluation and AI scoring through a versioned REST API. The ZeroBounce v2 API uses a per-request api_key parameter with no OAuth or scopes, and is served from region-split hosts for US and EU data residency plus a separate bulk host for asynchronous file jobs. ZeroBounce also ships an official MCP server and first-party SDKs across nine languages.
+finops:
+- has_sources: true
+  method: derived
+  name: Zerobounce Finops
+  primary_unit: subscription (minimum 10,000 credits)
+  service_category: ''
+  slug: zerobounce-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zerobounce.png
 layout: provider
 mcp_servers:
@@ -295,32 +302,35 @@ overview: 'ZeroBounce publishes 6 API contracts indexed on the [APIs.io](https:/
   ZeroBounce''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, GitHub presence, and 33 more developer resources.'
 plans:
 - name: Zerobounce Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: zerobounce-plans-pricing
-random_paper: 6
+- name: Zerobounce Price Estimates
+  plan_count: 0
+  slug: zerobounce-price-estimates
+random_paper: 4
 rate_limits:
 - limit_count: 6
   name: Zerobounce Rate Limits
   slug: zerobounce-rate-limits
 score:
   band: exemplar
-  composite: 67.1
+  composite: 69.1
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 61.0
+    artifact_dirs: 26
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 44.9
     developer_ergonomics: 74.4
-    discoverability: 71.7
-    operational_transparency: 84.2
-  previous_composite: 67.1
+    discoverability: 65.0
+    operational_transparency: 86.8
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -343,13 +353,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/screenshots/zerobounce-2026-08-17T083321.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zerobounce/zerobounce-2026-08-17T083321.png
 security:
 - kind: authentication
   name: Zerobounce Authentication
@@ -367,6 +378,14 @@ security:
   name: Zerobounce Trust Center
   slug: zerobounce-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
+skill_count: 3
+skills:
+- name: zerobounce-bulk-validate-file
+  slug: zerobounce-bulk-validate-file
+- name: zerobounce-find-and-verify-contact
+  slug: zerobounce-find-and-verify-contact
+- name: zerobounce-validate-single-email
+  slug: zerobounce-validate-single-email
 slug: zerobounce
 tags:
 - Email Verification

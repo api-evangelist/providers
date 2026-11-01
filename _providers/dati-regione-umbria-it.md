@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: CKAN API for Umbria Region Open Data, ~457 datasets.
@@ -41,7 +43,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dati-regione-umbria-it/refs/heads/main/security/dati-regione-umbria-it-domain-security.yml
+  href: https://artifacts.apis.io/dati-regione-umbria-it/security/dati-regione-umbria-it-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dati-regione-umbria-it-domain-security.yml
@@ -54,22 +56,22 @@ common:
   type: Documentation
   url: https://docs.ckan.org/en/latest/api/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dati-regione-umbria-it/refs/heads/main/plans/dati-regione-umbria-it-plans-pricing.yml
+  href: https://artifacts.apis.io/dati-regione-umbria-it/plans/dati-regione-umbria-it-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dati-regione-umbria-it-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dati-regione-umbria-it/refs/heads/main/rate-limits/dati-regione-umbria-it-rate-limits.yml
+  href: https://artifacts.apis.io/dati-regione-umbria-it/rate-limits/dati-regione-umbria-it-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dati-regione-umbria-it-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dati-regione-umbria-it/refs/heads/main/finops/dati-regione-umbria-it-finops.yml
+  href: https://artifacts.apis.io/dati-regione-umbria-it/finops/dati-regione-umbria-it-finops.yml
   title: ''
   type: FinOps
   url: finops/dati-regione-umbria-it-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dati-regione-umbria-it/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/dati-regione-umbria-it/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -101,7 +103,7 @@ plans:
 - name: Dati Regione Umbria It Plans Pricing
   plan_count: 0
   slug: dati-regione-umbria-it-plans-pricing
-random_paper: 3
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Dati Regione Umbria It Rate Limits
@@ -116,7 +118,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -132,21 +134,21 @@ score:
     regions:
     - europe
     - italy-southern-europe
-  previous_composite: 8.6
+  previous_composite: 7.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dati-regione-umbria-it/refs/heads/main/screenshots/dati-regione-umbria-it-2026-06-20T175707.png
+screenshot: https://apis.io/screenshots/dati-regione-umbria-it/dati-regione-umbria-it-2026-06-20T175707.png
 security:
 - kind: domain-security
   name: Dati Regione Umbria It Domain Security

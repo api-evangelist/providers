@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/glints/refs/heads/main/security/glints-domain-security.yml
+  href: https://artifacts.apis.io/glints/security/glints-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/glints-domain-security.yml
@@ -54,7 +56,7 @@ name: Glints
 nav: Providers
 network: true
 overview: Glints is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Recruiting, Talent, and Job.
-random_paper: 19
+random_paper: 9
 score:
   band: minimal
   composite: 2.9
@@ -87,14 +89,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/glints/refs/heads/main/screenshots/glints-2026-10-11T185450.png
+screenshot: https://apis.io/screenshots/glints/glints-2026-10-11T185450.png
 security:
 - kind: domain-security
   name: Glints Domain Security

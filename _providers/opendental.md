@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -110,11 +112,8 @@ apis:
   description: MODELED. Configurable clinical and administrative forms.
   name: Open Dental Sheets API
   slug: opendental-sheets-api
-artifact_total: 34
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Open Dental Accounts & Ledger API
   slug: open-opendental-accounts-ledger-api
@@ -159,22 +158,22 @@ collections:
   slug: open-opendental
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/capabilities/opendental-capability-edges.yml
+  href: https://artifacts.apis.io/opendental/capabilities/opendental-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/opendental-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/agentic-access/opendental-agentic-access.yml
+  href: https://artifacts.apis.io/opendental/agentic-access/opendental-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/opendental-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/security/opendental-domain-security.yml
+  href: https://artifacts.apis.io/opendental/security/opendental-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opendental-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/authentication/opendental-authentication.yml
+  href: https://artifacts.apis.io/opendental/authentication/opendental-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opendental-authentication.yml
@@ -195,17 +194,17 @@ common:
   type: Documentation
   url: https://www.opendental.com/site/apispecification.html
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/plans/opendental-plans-pricing.yml
+  href: https://artifacts.apis.io/opendental/plans/opendental-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/opendental-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/rate-limits/opendental-rate-limits.yml
+  href: https://artifacts.apis.io/opendental/rate-limits/opendental-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/opendental-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/finops/opendental-finops.yml
+  href: https://artifacts.apis.io/opendental/finops/opendental-finops.yml
   title: ''
   type: FinOps
   url: finops/opendental-finops.yml
@@ -244,7 +243,7 @@ rate_limits:
   slug: opendental-rate-limits
 score:
   band: thin
-  composite: 26.9
+  composite: 27.7
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -252,15 +251,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 49.2
+    contract_quality: 48.1
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 35.3
+    operational_transparency: 13.2
+  previous_composite: 27.7
   provenance:
     agentic_access: derived
     contracts:
@@ -274,13 +273,14 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/screenshots/opendental-2026-08-07T190545.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/opendental/opendental-2026-08-07T190545.png
 security:
 - kind: authentication
   name: Opendental Authentication

@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.2
-  scored_at: '2026-10-17'
+  score: 26.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://{host}:{port}/v3
@@ -359,19 +361,19 @@ apis:
   description: The Workflows Schedules API from Infoworks — 5 operation(s) for workflows schedules.
   name: Infoworks Workflows Schedules API
   slug: infoworks-workflows-schedules-api
-artifact_total: 70
+artifact_total: 74
 common:
 - group: other
   title: ''
   type: ParentCompany
   url: https://apis.io/providers/uniphore/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/capabilities/infoworks-capability-edges.yml
+  href: https://artifacts.apis.io/infoworks/capabilities/infoworks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/infoworks-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/overlays/infoworks-rest-api-v3-overlay.yaml
+  href: https://artifacts.apis.io/infoworks/overlays/infoworks-rest-api-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infoworks-rest-api-v3-overlay.yaml
@@ -420,73 +422,81 @@ common:
   type: Compliance
   url: https://www.uniphore.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/security/infoworks-trust-center.yml
+  href: https://artifacts.apis.io/infoworks/security/infoworks-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/infoworks-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/packages/infoworks-packages.yml
+  href: https://artifacts.apis.io/infoworks/packages/infoworks-packages.yml
   title: ''
   type: Packages
   url: packages/infoworks-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/packages/infoworks-packages.yml
+  href: https://artifacts.apis.io/infoworks/packages/infoworks-packages.yml
   title: ''
   type: SDKs
   url: packages/infoworks-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/changelog/infoworks-changelog.yml
+  href: https://artifacts.apis.io/infoworks/changelog/infoworks-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/infoworks-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/lifecycle/infoworks-lifecycle.yml
+  href: https://artifacts.apis.io/infoworks/lifecycle/infoworks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/infoworks-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/conformance/infoworks-conformance.yml
+  href: https://artifacts.apis.io/infoworks/conformance/infoworks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/infoworks-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/llms/infoworks-llms.txt
+  href: https://artifacts.apis.io/infoworks/llms/infoworks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/infoworks-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/infoworks/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/plans/infoworks-plans-pricing.yml
+  href: https://artifacts.apis.io/infoworks/plans/infoworks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/infoworks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/rate-limits/infoworks-rate-limits.yml
+  href: https://artifacts.apis.io/infoworks/rate-limits/infoworks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/infoworks-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/security/infoworks-domain-security.yml
+  href: https://artifacts.apis.io/infoworks/security/infoworks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/infoworks-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/security/infoworks-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/infoworks/security/infoworks-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/infoworks-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/security/infoworks-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/infoworks/security/infoworks-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/infoworks-vulnerability-disclosure.yml
 created: '2026-08-23'
 description: Infoworks is an Enterprise Data Operations and Orchestration (EDO2) platform that automates data onboarding, preparation and operationalization onto Databricks, Snowflake, BigQuery, Synapse and Apache Spark. Unlike a multi-tenant SaaS, Infoworks is deployed into the customer's own cloud account (Kubernetes on AKS/EKS/GKE, or VM-based), so every deployment answers on its own host and the published contract carries a templated server. The product exposes the Infoworks REST API v3 — 369 paths and 510 operations across 62 tag groupings (41 of them declared) covering sources, tables, table groups, topic and file mappings, domains, pipelines, pipeline groups, workflows, workflow versions, jobs, environments, clusters, secrets, service authentication, users, admin operations and metrics — plus a first-party Python SDK on PyPI. Infoworks was acquired by Uniphore in 2024 and is sold as InfoWorks inside the Uniphore Business AI platform; the corporate site now redirects to uniphore.com
   while the product documentation, support desk and API reference remain on infoworks.io.
+finops:
+- has_sources: true
+  method: derived
+  name: Infoworks Finops
+  primary_unit: ''
+  service_category: ''
+  slug: infoworks-finops
+  template: true
 image: https://uploads.developerhub.io/prod/Bqr9/thfuawsbhl64giqmsect3d7t9soygddj2m5jd6spkfpphxzhyiyr28crjxt3yycf.png
 layout: provider
 modified: '2026-08-23'
@@ -501,30 +511,30 @@ plans:
 - name: Infoworks Plans Pricing
   plan_count: 0
   slug: infoworks-plans-pricing
-random_paper: 4
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Infoworks Rate Limits
   slug: infoworks-rate-limits
 score:
   band: developing
-  composite: 39.3
+  composite: 46.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 47.9
-    developer_ergonomics: 28.0
+    contract_quality: 44.5
+    developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 39.2
+    operational_transparency: 31.6
+  previous_composite: 46.0
   provenance:
     conformance: derived
     contracts:
@@ -540,13 +550,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/screenshots/infoworks-2026-09-02T145852.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/infoworks/infoworks-2026-09-02T145852.png
 security:
 - kind: authentication
   name: Infoworks Authentication
@@ -564,6 +575,14 @@ security:
   name: Infoworks Trust Center
   slug: infoworks-trust-center
   summary_line: ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 27701:2019, SOC 2 Type 2, PCI DSS v4.0.1, NIST CSF, CASA Tier 2, FIPS 140-2, FIPS 140-3
+skill_count: 3
+skills:
+- name: infoworks-authenticate
+  slug: infoworks-authenticate
+- name: infoworks-onboard-source
+  slug: infoworks-onboard-source
+- name: infoworks-run-workflow
+  slug: infoworks-run-workflow
 slug: infoworks
 tags:
 - Data Engineering

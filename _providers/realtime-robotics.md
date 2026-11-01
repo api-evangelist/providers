@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The ASCII API is the primary runtime integration surface for the Realtime Controller. A client opens a TCP socket to the controller and exchanges inline YAML 1.2 command strings (topic / type / id / d
@@ -51,7 +53,7 @@ apis:
 artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/security/realtime-robotics-domain-security.yml
+  href: https://artifacts.apis.io/realtime-robotics/security/realtime-robotics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/realtime-robotics-domain-security.yml
@@ -96,87 +98,87 @@ common:
   type: PrivacyPolicy
   url: https://rtr.ai/privacy-policy/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/json-schema/realtime-robotics-operations-query.schema.json
+  href: https://artifacts.apis.io/realtime-robotics/json-schema/realtime-robotics-operations-query.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/realtime-robotics-operations-query.schema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/packages/realtime-robotics-packages.yml
+  href: https://artifacts.apis.io/realtime-robotics/packages/realtime-robotics-packages.yml
   title: ''
   type: Packages
   url: packages/realtime-robotics-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/packages/realtime-robotics-packages.yml
+  href: https://artifacts.apis.io/realtime-robotics/packages/realtime-robotics-packages.yml
   title: ''
   type: SDKs
   url: packages/realtime-robotics-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/well-known/realtime-robotics-well-known.yml
+  href: https://artifacts.apis.io/realtime-robotics/well-known/realtime-robotics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/realtime-robotics-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/llms/realtime-robotics-llms.txt
+  href: https://artifacts.apis.io/realtime-robotics/llms/realtime-robotics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/realtime-robotics-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/authentication/realtime-robotics-authentication.yml
+  href: https://artifacts.apis.io/realtime-robotics/authentication/realtime-robotics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/realtime-robotics-authentication.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/well-known/realtime-robotics-clerk-openid-configuration.json
+  href: https://artifacts.apis.io/realtime-robotics/well-known/realtime-robotics-clerk-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/realtime-robotics-clerk-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/scopes/realtime-robotics-scopes.yml
+  href: https://artifacts.apis.io/realtime-robotics/scopes/realtime-robotics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/realtime-robotics-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/conventions/realtime-robotics-conventions.yml
+  href: https://artifacts.apis.io/realtime-robotics/conventions/realtime-robotics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/realtime-robotics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/conventions/realtime-robotics-conventions.yml
+  href: https://artifacts.apis.io/realtime-robotics/conventions/realtime-robotics-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/realtime-robotics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/errors/realtime-robotics-error-codes.yml
+  href: https://artifacts.apis.io/realtime-robotics/errors/realtime-robotics-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/realtime-robotics-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/lifecycle/realtime-robotics-lifecycle.yml
+  href: https://artifacts.apis.io/realtime-robotics/lifecycle/realtime-robotics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/realtime-robotics-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/changelog/realtime-robotics-changelog.yml
+  href: https://artifacts.apis.io/realtime-robotics/changelog/realtime-robotics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/realtime-robotics-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/data-model/realtime-robotics-data-model.yml
+  href: https://artifacts.apis.io/realtime-robotics/data-model/realtime-robotics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/realtime-robotics-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/conformance/realtime-robotics-conformance.yml
+  href: https://artifacts.apis.io/realtime-robotics/conformance/realtime-robotics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/realtime-robotics-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/plans/realtime-robotics-plans-pricing.yml
+  href: https://artifacts.apis.io/realtime-robotics/plans/realtime-robotics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/realtime-robotics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/rate-limits/realtime-robotics-rate-limits.yml
+  href: https://artifacts.apis.io/realtime-robotics/rate-limits/realtime-robotics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/realtime-robotics-rate-limits.yml
@@ -201,7 +203,7 @@ plans:
 - name: Realtime Robotics Plans Pricing
   plan_count: 0
   slug: realtime-robotics-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Realtime Robotics Rate Limits
@@ -213,7 +215,7 @@ scopes:
   summary_line: 7 scopes
 score:
   band: thin
-  composite: 27.5
+  composite: 27.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -228,7 +230,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 54.8
     discoverability: 71.4
-    operational_transparency: 18.4
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -236,7 +238,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 27.5
+  previous_composite: 27.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -246,14 +248,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/screenshots/realtime-robotics-2026-09-02T153007.png
+screenshot: https://apis.io/screenshots/realtime-robotics/realtime-robotics-2026-09-02T153007.png
 security:
 - kind: authentication
   name: Realtime Robotics Authentication

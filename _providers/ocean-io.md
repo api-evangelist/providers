@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.3
-  scored_at: '2026-10-17'
+  score: 39.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 26
   slug: ocean-io-agentic-access
   summary_line: 26 operations · 16 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.ocean.io
   baseurl_source: declared
@@ -84,7 +86,7 @@ apis:
   description: The Segmentation API from Ocean.io — 4 operation(s) for segmentation.
   name: Ocean.io Segmentation API
   slug: ocean-io-segmentation-api
-artifact_total: 19
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Ocean Io Webhooks
@@ -95,12 +97,12 @@ collections:
   slug: open-ocean-io-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/capabilities/ocean-io-capability-edges.yml
+  href: https://artifacts.apis.io/ocean-io/capabilities/ocean-io-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ocean-io-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/overlays/ocean-io-api-overlay.yaml
+  href: https://artifacts.apis.io/ocean-io/overlays/ocean-io-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ocean-io-api-overlay.yaml
@@ -133,67 +135,67 @@ common:
   type: StatusPage
   url: https://status.ocean.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/lifecycle/ocean-io-lifecycle.yml
+  href: https://artifacts.apis.io/ocean-io/lifecycle/ocean-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ocean-io-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/authentication/ocean-io-authentication.yml
+  href: https://artifacts.apis.io/ocean-io/authentication/ocean-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ocean-io-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/scopes/ocean-io-scopes.yml
+  href: https://artifacts.apis.io/ocean-io/scopes/ocean-io-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ocean-io-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/conventions/ocean-io-conventions.yml
+  href: https://artifacts.apis.io/ocean-io/conventions/ocean-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ocean-io-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/errors/ocean-io-problem-types.yml
+  href: https://artifacts.apis.io/ocean-io/errors/ocean-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ocean-io-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/asyncapi/ocean-io-webhooks.yml
+  href: https://artifacts.apis.io/ocean-io/asyncapi/ocean-io-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ocean-io-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/data-model/ocean-io-data-model.yml
+  href: https://artifacts.apis.io/ocean-io/data-model/ocean-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ocean-io-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/mcp/ocean-io-mcp.yml
+  href: https://artifacts.apis.io/ocean-io/mcp/ocean-io-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ocean-io-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/mcp/ocean-io-tool-crosswalk.yml
+  href: https://artifacts.apis.io/ocean-io/mcp/ocean-io-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ocean-io-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ocean-io/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/llms/ocean-io-llms.txt
+  href: https://artifacts.apis.io/ocean-io/llms/ocean-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ocean-io-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/well-known/ocean-io-well-known.yml
+  href: https://artifacts.apis.io/ocean-io/well-known/ocean-io-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ocean-io-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/conformance/ocean-io-conformance.yml
+  href: https://artifacts.apis.io/ocean-io/conformance/ocean-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ocean-io-conformance.yml
@@ -202,37 +204,37 @@ common:
   type: Compliance
   url: https://trust.ocean.io/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/packages/ocean-io-packages.yml
+  href: https://artifacts.apis.io/ocean-io/packages/ocean-io-packages.yml
   title: ''
   type: Packages
   url: packages/ocean-io-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/agentic-access/ocean-io-agentic-access.yml
+  href: https://artifacts.apis.io/ocean-io/agentic-access/ocean-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ocean-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/security/ocean-io-trust-center.yml
+  href: https://artifacts.apis.io/ocean-io/security/ocean-io-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ocean-io-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/security/ocean-io-domain-security.yml
+  href: https://artifacts.apis.io/ocean-io/security/ocean-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ocean-io-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/plans/ocean-io-plans-pricing.yml
+  href: https://artifacts.apis.io/ocean-io/plans/ocean-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ocean-io-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/rate-limits/ocean-io-rate-limits.yml
+  href: https://artifacts.apis.io/ocean-io/rate-limits/ocean-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ocean-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/finops/ocean-io-finops.yml
+  href: https://artifacts.apis.io/ocean-io/finops/ocean-io-finops.yml
   title: ''
   type: FinOps
   url: finops/ocean-io-finops.yml
@@ -242,8 +244,8 @@ finops:
 - has_sources: true
   method: derived
   name: Ocean Io Finops
-  primary_unit: ''
-  service_category: Sales Intelligence
+  primary_unit: subscription
+  service_category: ''
   slug: ocean-io-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ocean-io.png
@@ -265,9 +267,12 @@ overview: 'Ocean.io publishes 8 API contracts indexed on the [APIs.io](https://a
   Ocean.io''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, and 25 more developer resources.'
 plans:
 - name: Ocean Io Plans Pricing
-  plan_count: 0
+  plan_count: 3
   slug: ocean-io-plans-pricing
-random_paper: 9
+- name: Ocean Io Price Estimates
+  plan_count: 0
+  slug: ocean-io-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 6
   name: Ocean Io Rate Limits
@@ -279,23 +284,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 39.7
+  composite: 53.6
   coverage:
     artifact_dirs: 25
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 8.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 65.8
     contract_governance: 4.5
-    contract_quality: 51.5
-    developer_ergonomics: 23.2
-    discoverability: 75.0
+    contract_quality: 53.6
+    developer_ergonomics: 51.8
+    discoverability: 65.0
     operational_transparency: 55.3
-  previous_composite: 41.2
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -303,7 +308,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 7
     mcp: first-party
     skills: derived
   regulatory:
@@ -312,13 +317,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/screenshots/ocean-io-2026-06-20T190601.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ocean-io/ocean-io-2026-06-20T190601.png
 security:
 - kind: authentication
   name: Ocean Io Authentication
@@ -332,6 +338,16 @@ security:
   name: Ocean Io Trust Center
   slug: ocean-io-trust-center
   summary_line: SOC 2
+skill_count: 4
+skills:
+- name: Build a lookalike company segment from seed customers
+  slug: ocean-io-build-lookalike-company-segment
+- name: Enrich CRM accounts in batch
+  slug: ocean-io-enrich-crm-accounts
+- name: Find prospects at lookalike companies and reveal their emails
+  slug: ocean-io-find-prospects-and-reveal-emails
+- name: Segment a customer list and score new accounts against it
+  slug: ocean-io-segment-and-attribute-accounts
 slug: ocean-io
 tags:
 - Sales Intelligence

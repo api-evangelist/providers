@@ -15,16 +15,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.4
-  scored_at: '2026-10-17'
+  score: 47.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for BookMyHost cloud services, as described in the developer portal.
@@ -360,14 +362,14 @@ apis:
 - description: The Passthrough API from Blazing Bullet Private Limited — 17 operation(s) for passthrough.
   name: Blazing Bullet Private Limited Passthrough API
   slug: bookmyhost-passthrough-api
-artifact_total: 116
+artifact_total: 119
 asyncapis:
 - description: ''
   name: Bookmyhost Webhooks
   slug: bookmyhost-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/capabilities/bookmyhost-capability-edges.yml
+  href: https://artifacts.apis.io/bookmyhost/capabilities/bookmyhost-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bookmyhost-capability-edges.yml
@@ -376,72 +378,72 @@ common:
   type: Documentation
   url: https://bookmyhost.com/guides
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/plans/bookmyhost-plans-pricing.yml
+  href: https://artifacts.apis.io/bookmyhost/plans/bookmyhost-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bookmyhost-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/rules/bookmyhost-rules.yml
+  href: https://artifacts.apis.io/bookmyhost/rules/bookmyhost-rules.yml
   title: ''
   type: Spectral
   url: rules/bookmyhost-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/json-ld/bookmyhost-context.jsonld
+  href: https://artifacts.apis.io/bookmyhost/json-ld/bookmyhost-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bookmyhost-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/vocabulary/bookmyhost-vocabulary.yml
+  href: https://artifacts.apis.io/bookmyhost/vocabulary/bookmyhost-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bookmyhost-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bookmyhost/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/asyncapi/bookmyhost-webhooks.yml
+  href: https://artifacts.apis.io/bookmyhost/asyncapi/bookmyhost-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bookmyhost-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/data-model/bookmyhost-data-model.yml
+  href: https://artifacts.apis.io/bookmyhost/data-model/bookmyhost-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bookmyhost-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/errors/bookmyhost-problem-types.yml
+  href: https://artifacts.apis.io/bookmyhost/errors/bookmyhost-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bookmyhost-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/conformance/bookmyhost-conformance.yml
+  href: https://artifacts.apis.io/bookmyhost/conformance/bookmyhost-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bookmyhost-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/overlays/bookmyhost-openapi-overlay.yaml
+  href: https://artifacts.apis.io/bookmyhost/overlays/bookmyhost-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bookmyhost-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/llms/bookmyhost-llms.txt
+  href: https://artifacts.apis.io/bookmyhost/llms/bookmyhost-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bookmyhost-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/well-known/bookmyhost-well-known.yml
+  href: https://artifacts.apis.io/bookmyhost/well-known/bookmyhost-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bookmyhost-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/hosts/bookmyhost-hosts.yml
+  href: https://artifacts.apis.io/bookmyhost/hosts/bookmyhost-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bookmyhost-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/vendors/bookmyhost-vendors.yml
+  href: https://artifacts.apis.io/bookmyhost/vendors/bookmyhost-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bookmyhost-vendors.yml
@@ -450,7 +452,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/bookmyhost
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bookmyhost/refs/heads/main/security/bookmyhost-domain-security.yml
+  href: https://artifacts.apis.io/bookmyhost/security/bookmyhost-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bookmyhost-domain-security.yml
@@ -504,6 +506,14 @@ coverage:
   state: unreadable
 created: '2026-10-16'
 description: Blazing Bullet Private Limited operates BookMyHost, an Indian cloud services provider offering VPS, dedicated servers, and AI APIs. Founded in 2005, it runs its own Noida datacentre and network (AS152523), provides hourly billing, GST invoicing, and DDoS‑protected infrastructure across 50+ Indian cities.
+finops:
+- has_sources: true
+  method: derived
+  name: Bookmyhost Finops
+  primary_unit: seat
+  service_category: ''
+  slug: bookmyhost-finops
+  template: false
 image: https://bookmyhost.com/brand-assets/1/og.png
 jsonld:
 - class_count: 120
@@ -526,7 +536,10 @@ plans:
 - name: Bookmyhost Plans Pricing
   plan_count: 11
   slug: bookmyhost-plans-pricing
-random_paper: 3
+- name: Bookmyhost Price Estimates
+  plan_count: 0
+  slug: bookmyhost-price-estimates
+random_paper: 23
 rules:
 - authorship: generated
   effective_rule_count: 54
@@ -541,22 +554,31 @@ rules:
     warn: 5
   slug: bookmyhost-rules
 score:
-  band: strong
-  composite: 56.3
+  band: developing
+  composite: 51.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 60.8
+    artifact_dirs: 20
+    catalog_earned: 63.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 54.3
+    catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 22.0
-    contract_quality: 60.2
+    contract_quality: 59.3
     developer_ergonomics: 42.1
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - india
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - india-south-asia
+  previous_composite: 50.0
   provenance:
     conformance: derived
     contracts:
@@ -572,16 +594,22 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 61.1
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Bookmyhost Domain Security
   slug: bookmyhost-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: model-list
+  slug: bookmyhost-model-list
 slug: bookmyhost
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -95,11 +97,8 @@ apis:
   description: Donations, ticket, and merchandise order transactions.
   name: Classy Transactions API
   slug: classy-org-transactions-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Classy API (GoFundMe Pro) Authentication API
   slug: open-classy-org-authentication-api
@@ -135,17 +134,17 @@ collections:
   slug: open-classy-org
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/agentic-access/classy-org-agentic-access.yml
+  href: https://artifacts.apis.io/classy-org/agentic-access/classy-org-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/classy-org-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/security/classy-org-domain-security.yml
+  href: https://artifacts.apis.io/classy-org/security/classy-org-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/classy-org-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/authentication/classy-org-authentication.yml
+  href: https://artifacts.apis.io/classy-org/authentication/classy-org-authentication.yml
   title: ''
   type: Authentication
   url: authentication/classy-org-authentication.yml
@@ -166,17 +165,17 @@ common:
   type: Documentation
   url: https://developers.gofundme.com/pro/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/plans/classy-org-plans-pricing.yml
+  href: https://artifacts.apis.io/classy-org/plans/classy-org-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/classy-org-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/rate-limits/classy-org-rate-limits.yml
+  href: https://artifacts.apis.io/classy-org/rate-limits/classy-org-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/classy-org-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/finops/classy-org-finops.yml
+  href: https://artifacts.apis.io/classy-org/finops/classy-org-finops.yml
   title: ''
   type: FinOps
   url: finops/classy-org-finops.yml
@@ -208,14 +207,14 @@ plans:
 - name: Classy Org Plans Pricing
   plan_count: 4
   slug: classy-org-plans-pricing
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Classy Org Rate Limits
   slug: classy-org-rate-limits
 score:
-  band: emerging
-  composite: 24.3
+  band: thin
+  composite: 26.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 43.0
@@ -223,15 +222,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 48.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 32.6
+    operational_transparency: 13.2
+  previous_composite: 26.8
   provenance:
     agentic_access: derived
     contracts:
@@ -245,13 +244,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/screenshots/classy-org-2026-07-25T205526.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/classy-org/classy-org-2026-07-25T205526.png
 security:
 - kind: authentication
   name: Classy Org Authentication

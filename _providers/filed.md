@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,25 +24,27 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.1
-  scored_at: '2026-10-17'
+  score: 25.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A single GraphQL endpoint for the Filed platform. Create clients and ingest source documents into a binder, trigger tax prep and tax advisor runs and poll them to completion, read leadsheets and revie
   name: Filed API
   slug: filed-api
-artifact_total: 7
+artifact_total: 12
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/filed/refs/heads/main/plans/filed-plans-pricing.yml
+  href: https://artifacts.apis.io/filed/plans/filed-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/filed-plans-pricing.yml
@@ -83,37 +85,37 @@ common:
   type: Support
   url: https://help.filed.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/filed/refs/heads/main/authentication/filed-authentication.yml
+  href: https://artifacts.apis.io/filed/authentication/filed-authentication.yml
   title: ''
   type: Authentication
   url: authentication/filed-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/filed/refs/heads/main/conventions/filed-conventions.yml
+  href: https://artifacts.apis.io/filed/conventions/filed-conventions.yml
   title: ''
   type: Conventions
   url: conventions/filed-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/filed/refs/heads/main/data-model/filed-data-model.yml
+  href: https://artifacts.apis.io/filed/data-model/filed-data-model.yml
   title: ''
   type: DataModel
   url: data-model/filed-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/filed/refs/heads/main/components/filed-components.yml
+  href: https://artifacts.apis.io/filed/components/filed-components.yml
   title: ''
   type: Components
   url: components/filed-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/filed/refs/heads/main/conformance/filed-conformance.yml
+  href: https://artifacts.apis.io/filed/conformance/filed-conformance.yml
   title: ''
   type: Conformance
   url: conformance/filed-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/filed/refs/heads/main/security/filed-trust-center.yml
+  href: https://artifacts.apis.io/filed/security/filed-trust-center.yml
   title: ''
   type: Compliance
   url: security/filed-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/filed/refs/heads/main/llms/filed-llms.txt
+  href: https://artifacts.apis.io/filed/llms/filed-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/filed-llms.txt
@@ -122,32 +124,40 @@ common:
   type: MCPServer
   url: https://mcp.apps.filed.com/mcp
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/filed/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/filed/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/filed/refs/heads/main/security/filed-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/filed/security/filed-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/filed-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/filed/refs/heads/main/security/filed-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/filed/security/filed-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/filed-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/filed/refs/heads/main/security/filed-trust-center.yml
+  href: https://artifacts.apis.io/filed/security/filed-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/filed-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/filed/refs/heads/main/security/filed-domain-security.yml
+  href: https://artifacts.apis.io/filed/security/filed-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/filed-domain-security.yml
 created: '2026-07-17'
 description: Filed is an AI tax platform for accounting firms and tax professionals. It reads source documents (W-2s, 1099s, K-1s, brokerage statements, prior-year returns), compares them line by line against the draft return to catch errors and find optimizations, performs actual data entry into professional tax software (Drake, ProConnect, UltraTax, CCH Axcess, Lacerte, ProSeries), and evaluates 120+ tax strategies to produce client-ready tax plans with citations. Firms keep the tax software they already use; Filed sits inside the existing workflow via three products — Filed Reviewer, Filed Prep, and Filed Tax Planner. Filed exposes a GraphQL API (router.apps.filed.com/graphql), a remote MCP server, and an embeddable binder UI. Backed by Northzone, Day One Ventures, and Neo.
+finops:
+- has_sources: true
+  method: derived
+  name: Filed Finops
+  primary_unit: ''
+  service_category: ''
+  slug: filed-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/filed.png
 layout: provider
 mcp_servers:
@@ -166,26 +176,26 @@ plans:
 - name: Filed Plans Pricing
   plan_count: 2
   slug: filed-plans-pricing
-random_paper: 10
+random_paper: 12
 score:
-  band: developing
-  composite: 40.1
+  band: thin
+  composite: 39.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.2
+  delta: 0.0
   facets:
     access_clarity: 81.6
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 58.9
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 10.5
-  previous_composite: 35.9
+  previous_composite: 39.1
   provenance:
     conformance: derived
     mcp: first-party
@@ -196,14 +206,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/filed/refs/heads/main/screenshots/filed-2026-07-25T214447.png
+screenshot: https://apis.io/screenshots/filed/filed-2026-07-25T214447.png
 security:
 - kind: authentication
   name: Filed Authentication
@@ -221,6 +231,16 @@ security:
   name: Filed Trust Center
   slug: filed-trust-center
   summary_line: SOC 2 Type 1, SOC 2 Type 2, SOC 3
+skill_count: 4
+skills:
+- name: filed-onboard-client
+  slug: filed-onboard-client
+- name: filed-review-and-sign-off
+  slug: filed-review-and-sign-off
+- name: filed-run-tax-planning
+  slug: filed-run-tax-planning
+- name: filed-run-tax-prep
+  slug: filed-run-tax-prep
 slug: filed
 tags:
 - Company

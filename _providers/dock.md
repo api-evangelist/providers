@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Dock's financial infrastructure API, branded Caradhras, covering card issuing and processing, digital accounts, transfers, Pix, bank slips and acquiring. The gateway is live at api.caradhras.io (AWS A
@@ -48,7 +50,7 @@ common:
   type: BlogRSS
   url: https://dock.tech/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dock/refs/heads/main/security/dock-domain-security.yml
+  href: https://artifacts.apis.io/dock/security/dock-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dock-domain-security.yml
@@ -81,47 +83,47 @@ common:
   type: SecondaryMarket
   url: https://www.hiive.com/securities/dock-stock
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dock/refs/heads/main/llms/dock-llms.txt
+  href: https://artifacts.apis.io/dock/llms/dock-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dock-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dock/refs/heads/main/conformance/dock-conformance.yml
+  href: https://artifacts.apis.io/dock/conformance/dock-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dock-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dock/refs/heads/main/conformance/dock-conformance.yml
+  href: https://artifacts.apis.io/dock/conformance/dock-conformance.yml
   title: ''
   type: Compliance
   url: conformance/dock-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dock/refs/heads/main/lifecycle/dock-lifecycle.yml
+  href: https://artifacts.apis.io/dock/lifecycle/dock-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dock-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dock/refs/heads/main/conventions/dock-conventions.yml
+  href: https://artifacts.apis.io/dock/conventions/dock-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dock-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dock/refs/heads/main/errors/dock-problem-types.yml
+  href: https://artifacts.apis.io/dock/errors/dock-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dock-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dock/refs/heads/main/packages/dock-packages.yml
+  href: https://artifacts.apis.io/dock/packages/dock-packages.yml
   title: ''
   type: Packages
   url: packages/dock-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dock/refs/heads/main/plans/dock-plans-pricing.yml
+  href: https://artifacts.apis.io/dock/plans/dock-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dock-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dock/refs/heads/main/rate-limits/dock-rate-limits.yml
+  href: https://artifacts.apis.io/dock/rate-limits/dock-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dock-rate-limits.yml
@@ -155,14 +157,14 @@ plans:
 - name: Dock Plans Pricing
   plan_count: 0
   slug: dock-plans-pricing
-random_paper: 21
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Dock Rate Limits
   slug: dock-rate-limits
 score:
   band: emerging
-  composite: 13.5
+  composite: 14.1
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -170,14 +172,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 73.2
-    operational_transparency: 2.6
+    developer_ergonomics: 16.7
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -185,7 +187,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 13.4
+  previous_composite: 14.1
   provenance:
     conformance: first-party
   regulatory:
@@ -194,14 +196,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dock/refs/heads/main/screenshots/dock-2026-09-02T145254.png
+screenshot: https://apis.io/screenshots/dock/dock-2026-09-02T145254.png
 security:
 - kind: authentication
   name: Dock Authentication

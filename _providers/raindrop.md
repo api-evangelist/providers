@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Server-to-server ingest/tracking API for sending AI interactions, events, feedback signals, and user identity into Raindrop. Bearer write-key auth; authorized requests return 204. Project targeting vi
@@ -44,7 +46,7 @@ apis:
 - description: Read-only Query API for retrieving events, traces, signals, users, and conversations from Raindrop, including search, count, timeseries, and facets. Bearer query-key auth; rate limited (200 RPM, searc
   name: Raindrop Query API
   slug: raindrop-query-api
-artifact_total: 7
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -67,77 +69,77 @@ common:
   type: GettingStarted
   url: https://www.raindrop.ai/docs/introduction
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/authentication/raindrop-authentication.yml
+  href: https://artifacts.apis.io/raindrop/authentication/raindrop-authentication.yml
   title: ''
   type: Authentication
   url: authentication/raindrop-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/packages/raindrop-packages.yml
+  href: https://artifacts.apis.io/raindrop/packages/raindrop-packages.yml
   title: ''
   type: SDKs
   url: packages/raindrop-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/cli/raindrop-cli.yml
+  href: https://artifacts.apis.io/raindrop/cli/raindrop-cli.yml
   title: ''
   type: CLI
   url: cli/raindrop-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/mcp/raindrop-mcp.yml
+  href: https://artifacts.apis.io/raindrop/mcp/raindrop-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/raindrop-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/raindrop/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/llms/raindrop-llms.txt
+  href: https://artifacts.apis.io/raindrop/llms/raindrop-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/raindrop-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/well-known/raindrop-well-known.yml
+  href: https://artifacts.apis.io/raindrop/well-known/raindrop-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/raindrop-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/scopes/raindrop-scopes.yml
+  href: https://artifacts.apis.io/raindrop/scopes/raindrop-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/raindrop-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/conventions/raindrop-conventions.yml
+  href: https://artifacts.apis.io/raindrop/conventions/raindrop-conventions.yml
   title: ''
   type: Conventions
   url: conventions/raindrop-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/errors/raindrop-problem-types.yml
+  href: https://artifacts.apis.io/raindrop/errors/raindrop-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/raindrop-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/lifecycle/raindrop-lifecycle.yml
+  href: https://artifacts.apis.io/raindrop/lifecycle/raindrop-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/raindrop-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/conformance/raindrop-conformance.yml
+  href: https://artifacts.apis.io/raindrop/conformance/raindrop-conformance.yml
   title: ''
   type: Conformance
   url: conformance/raindrop-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/security/raindrop-trust-center.yml
+  href: https://artifacts.apis.io/raindrop/security/raindrop-trust-center.yml
   title: ''
   type: Compliance
   url: security/raindrop-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/security/raindrop-trust-center.yml
+  href: https://artifacts.apis.io/raindrop/security/raindrop-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/raindrop-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/security/raindrop-domain-security.yml
+  href: https://artifacts.apis.io/raindrop/security/raindrop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/raindrop-domain-security.yml
@@ -193,7 +195,7 @@ overview: 'Raindrop is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Raindrop''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, support, and 22 more developer resources.'
-random_paper: 5
+random_paper: 23
 scopes:
 - name: Raindrop Scopes
   scope_count: 3
@@ -201,9 +203,9 @@ scopes:
   summary_line: 3 scopes · authorization_code
 score:
   band: developing
-  composite: 39.6
+  composite: 41.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -211,18 +213,18 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 50.0
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 78.6
-    discoverability: 71.7
-    operational_transparency: 10.5
+    discoverability: 65.0
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 39.6
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -233,14 +235,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/raindrop/refs/heads/main/screenshots/raindrop-2026-09-02T152818.png
+screenshot: https://apis.io/screenshots/raindrop/raindrop-2026-09-02T152818.png
 security:
 - kind: authentication
   name: Raindrop Authentication
@@ -254,6 +256,12 @@ security:
   name: Raindrop Trust Center
   slug: raindrop-trust-center
   summary_line: SOC 2 Type II
+skill_count: 2
+skills:
+- name: raindrop-investigate
+  slug: raindrop-investigate
+- name: raindrop-setup
+  slug: raindrop-setup
 slug: raindrop
 tags:
 - Company

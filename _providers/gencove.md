@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.9
-  scored_at: '2026-10-17'
+  score: 27.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 7
@@ -144,15 +146,12 @@ apis:
   description: The user API from Gencove — 12 operation(s) for user.
   name: Gencove User API
   slug: gencove-user-api
-artifact_total: 45
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Gencove Webhooks
   slug: gencove-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Gencove Back array API
   slug: open-gencove-array-api
@@ -267,102 +266,102 @@ common:
   type: PrivacyPolicy
   url: https://consumer.gencove.com/privacy-policy/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/openapi/_original/gencove-openapi-original.json
+  href: https://artifacts.apis.io/gencove/openapi/_original/gencove-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/gencove-openapi-original.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/overlays/gencove-openapi-overlay.yaml
+  href: https://artifacts.apis.io/gencove/overlays/gencove-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gencove-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/authentication/gencove-authentication.yml
+  href: https://artifacts.apis.io/gencove/authentication/gencove-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gencove-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/agentic-access/gencove-agentic-access.yml
+  href: https://artifacts.apis.io/gencove/agentic-access/gencove-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gencove-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/security/gencove-domain-security.yml
+  href: https://artifacts.apis.io/gencove/security/gencove-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gencove-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/packages/gencove-packages.yml
+  href: https://artifacts.apis.io/gencove/packages/gencove-packages.yml
   title: ''
   type: Packages
   url: packages/gencove-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/packages/gencove-packages.yml
+  href: https://artifacts.apis.io/gencove/packages/gencove-packages.yml
   title: ''
   type: SDKs
   url: packages/gencove-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/cli/gencove-cli.yml
+  href: https://artifacts.apis.io/gencove/cli/gencove-cli.yml
   title: ''
   type: CLI
   url: cli/gencove-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/conventions/gencove-conventions.yml
+  href: https://artifacts.apis.io/gencove/conventions/gencove-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gencove-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/errors/gencove-error-codes.yml
+  href: https://artifacts.apis.io/gencove/errors/gencove-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/gencove-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/data-model/gencove-data-model.yml
+  href: https://artifacts.apis.io/gencove/data-model/gencove-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gencove-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/lifecycle/gencove-lifecycle.yml
+  href: https://artifacts.apis.io/gencove/lifecycle/gencove-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gencove-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/lifecycle/gencove-lifecycle.yml
+  href: https://artifacts.apis.io/gencove/lifecycle/gencove-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/gencove-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/conformance/gencove-conformance.yml
+  href: https://artifacts.apis.io/gencove/conformance/gencove-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gencove-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/changelog/gencove-changelog.yml
+  href: https://artifacts.apis.io/gencove/changelog/gencove-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gencove-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/mcp/gencove-mcp.yml
+  href: https://artifacts.apis.io/gencove/mcp/gencove-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gencove-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/llms/gencove-llms.txt
+  href: https://artifacts.apis.io/gencove/llms/gencove-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gencove-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/well-known/gencove-well-known.yml
+  href: https://artifacts.apis.io/gencove/well-known/gencove-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gencove-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/asyncapi/gencove-webhooks.yml
+  href: https://artifacts.apis.io/gencove/asyncapi/gencove-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/gencove-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/gencove/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -381,10 +380,10 @@ overview: 'Gencove publishes 20 API contracts indexed on the [APIs.io](https://a
 
 
   Gencove''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 17
+random_paper: 23
 score:
   band: developing
-  composite: 53.7
+  composite: 50.2
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -398,9 +397,9 @@ score:
     contract_governance: 4.5
     contract_quality: 54.4
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 53.7
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -417,13 +416,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/gencove/refs/heads/main/screenshots/gencove-2026-07-25T215527.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gencove/gencove-2026-07-25T215527.png
 security:
 - kind: authentication
   name: Gencove Authentication
@@ -433,6 +433,12 @@ security:
   name: Gencove Domain Security
   slug: gencove-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Analyze samples through a Gencove project
+  slug: gencove-analyze-samples
+- name: Download Gencove analysis deliverables
+  slug: gencove-download-deliverables
 slug: gencove
 tags:
 - Company

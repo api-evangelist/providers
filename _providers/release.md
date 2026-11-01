@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 22.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 79
   slug: release-agentic-access
   summary_line: 79 operations · 37 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.release.com
   baseurl_source: declared
@@ -89,11 +91,8 @@ apis:
   description: The Remote Development API from Release — 2 operation(s) for remote development.
   name: Release Remote Development API
   slug: release-remote-development-api
-artifact_total: 24
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Release.com Platform Accounts API
   slug: open-release-accounts-api
@@ -122,38 +121,43 @@ collections:
   name: Release.com Platform Accounts Remote Development API
   slug: open-release-remote-development-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/release/plans/release-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/release-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/capabilities/release-capability-edges.yml
+  href: https://artifacts.apis.io/release/capabilities/release-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/release-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/overlays/release-openapi-overlay.yaml
+  href: https://artifacts.apis.io/release/overlays/release-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/release-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/security/release-trust-center.yml
+  href: https://artifacts.apis.io/release/security/release-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/release-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/security/release-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/release/security/release-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/release-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/security/release-domain-security.yml
+  href: https://artifacts.apis.io/release/security/release-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/release-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/agentic-access/release-agentic-access.yml
+  href: https://artifacts.apis.io/release/agentic-access/release-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/release-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/authentication/release-authentication.yml
+  href: https://artifacts.apis.io/release/authentication/release-authentication.yml
   title: ''
   type: Authentication
   url: authentication/release-authentication.yml
@@ -218,42 +222,42 @@ common:
   type: Compliance
   url: https://release.com/legal/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/llms/release-llms.txt
+  href: https://artifacts.apis.io/release/llms/release-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/release-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/packages/release-packages.yml
+  href: https://artifacts.apis.io/release/packages/release-packages.yml
   title: ''
   type: Packages
   url: packages/release-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/cli/release-cli.yml
+  href: https://artifacts.apis.io/release/cli/release-cli.yml
   title: ''
   type: CLI
   url: cli/release-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/mcp/release-mcp.yml
+  href: https://artifacts.apis.io/release/mcp/release-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/release-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/well-known/release-well-known.yml
+  href: https://artifacts.apis.io/release/well-known/release-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/release-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/conformance/release-conformance.yml
+  href: https://artifacts.apis.io/release/conformance/release-conformance.yml
   title: ''
   type: Conformance
   url: conformance/release-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/errors/release-problem-types.yml
+  href: https://artifacts.apis.io/release/errors/release-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/release-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/lifecycle/release-lifecycle.yml
+  href: https://artifacts.apis.io/release/lifecycle/release-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/release-lifecycle.yml
@@ -262,22 +266,30 @@ common:
   type: Deprecation
   url: https://docs.release.com/reference-documentation/release-api/environments-api.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/conventions/release-conventions.yml
+  href: https://artifacts.apis.io/release/conventions/release-conventions.yml
   title: ''
   type: Conventions
   url: conventions/release-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/data-model/release-data-model.yml
+  href: https://artifacts.apis.io/release/data-model/release-data-model.yml
   title: ''
   type: DataModel
   url: data-model/release-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/release/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Release is a developer-tools platform that provisions on-demand, full-stack ephemeral environments inside your own AWS or GCP cloud accounts. Positioned as a Heroku replacement and a Vercel alternative for full-stack apps, Release turns a repository plus a .release.yaml (or Docker Compose) file into reproducible environments spun up per pull request, per branch, or on demand, with managed Kubernetes clusters, datasets, remote development, and a Release.ai AI sandbox. Teams automate it through a REST Platform API (accounts, apps, environments, deploys, clusters, builds), a GraphQL API, an AI Sandbox API, and a first-party CLI, all authenticated with X-User-Email and X-User-Token headers and described by a canonical OpenAPI contract at https://api.release.com/openapi.json.
+finops:
+- has_sources: true
+  method: derived
+  name: Release Finops
+  primary_unit: ''
+  service_category: ''
+  slug: release-finops
+  template: true
 image: https://release.com/og/og-image.png
 layout: provider
 modified: '2026-07-21'
@@ -287,27 +299,31 @@ network: true
 overview: 'Release publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Apps API, Builds API, and 6 more. Tagged areas include Company, Developer Tools, Ephemeral Environments, Platform Engineering, and Deployment.
 
 
-  Release''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
-random_paper: 11
+  Release''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
+plans:
+- name: Release Plans Pricing
+  plan_count: 1
+  slug: release-plans-pricing
+random_paper: 17
 score:
-  band: developing
-  composite: 52.6
+  band: strong
+  composite: 56.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 53.9
+    access_clarity: 81.6
     contract_governance: 4.5
-    contract_quality: 49.9
+    contract_quality: 46.5
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 52.6
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -324,13 +340,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/screenshots/release-2026-08-17T081509.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/release/release-2026-08-17T081509.png
 security:
 - kind: authentication
   name: Release Authentication
@@ -348,6 +365,14 @@ security:
   name: Release Trust Center
   slug: release-trust-center
   summary_line: SOC 2
+skill_count: 3
+skills:
+- name: Trigger a build and monitor a deploy
+  slug: release-build-and-deploy
+- name: Create an app and spin up an ephemeral environment
+  slug: release-create-environment
+- name: Pause, resume, extend, and tear down an environment
+  slug: release-manage-environment-lifecycle
 slug: release
 tags:
 - Company

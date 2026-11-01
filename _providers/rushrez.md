@@ -19,7 +19,7 @@ name: RushRez
 nav: Providers
 network: true
 overview: RushRez is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 17
+random_paper: 19
 slug: rushrez
 tags:
 - Company

@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-17'
+  score: 38.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 0
@@ -138,74 +140,79 @@ apis:
   description: The Service Accounts API from CloudTruth — 3 operation(s) for service accounts.
   name: CloudTruth Service Accounts API
   slug: cloudtruth-service-accounts-api
-artifact_total: 33
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Cloudtruth Webhooks
   slug: cloudtruth-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/cloudtruth/plans/cloudtruth-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cloudtruth-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudtruth/refs/heads/main/agentic-access/cloudtruth-agentic-access.yml
+  href: https://artifacts.apis.io/cloudtruth/agentic-access/cloudtruth-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cloudtruth-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudtruth/refs/heads/main/rules/cloudtruth-rules.yml
+  href: https://artifacts.apis.io/cloudtruth/rules/cloudtruth-rules.yml
   title: ''
   type: Spectral
   url: rules/cloudtruth-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudtruth/refs/heads/main/json-ld/cloudtruth-context.jsonld
+  href: https://artifacts.apis.io/cloudtruth/json-ld/cloudtruth-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cloudtruth-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudtruth/refs/heads/main/vocabulary/cloudtruth-vocabulary.yml
+  href: https://artifacts.apis.io/cloudtruth/vocabulary/cloudtruth-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cloudtruth-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudtruth/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cloudtruth/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudtruth/refs/heads/main/asyncapi/cloudtruth-webhooks.yml
+  href: https://artifacts.apis.io/cloudtruth/asyncapi/cloudtruth-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cloudtruth-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudtruth/refs/heads/main/data-model/cloudtruth-data-model.yml
+  href: https://artifacts.apis.io/cloudtruth/data-model/cloudtruth-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cloudtruth-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudtruth/refs/heads/main/errors/cloudtruth-problem-types.yml
+  href: https://artifacts.apis.io/cloudtruth/errors/cloudtruth-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cloudtruth-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudtruth/refs/heads/main/conformance/cloudtruth-conformance.yml
+  href: https://artifacts.apis.io/cloudtruth/conformance/cloudtruth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cloudtruth-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudtruth/refs/heads/main/llms/cloudtruth-llms.txt
+  href: https://artifacts.apis.io/cloudtruth/llms/cloudtruth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cloudtruth-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudtruth/refs/heads/main/well-known/cloudtruth-well-known.yml
+  href: https://artifacts.apis.io/cloudtruth/well-known/cloudtruth-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cloudtruth-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloudtruth/refs/heads/main/hosts/cloudtruth-hosts.yml
+  href: https://artifacts.apis.io/cloudtruth/hosts/cloudtruth-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cloudtruth-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloudtruth/refs/heads/main/vendors/cloudtruth-vendors.yml
+  href: https://artifacts.apis.io/cloudtruth/vendors/cloudtruth-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cloudtruth-vendors.yml
@@ -246,12 +253,12 @@ common:
   type: APIReference
   url: https://api.cloudtruth.io/api/schema/redoc/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudtruth/refs/heads/main/authentication/cloudtruth-authentication.yml
+  href: https://artifacts.apis.io/cloudtruth/authentication/cloudtruth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudtruth-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudtruth/refs/heads/main/security/cloudtruth-domain-security.yml
+  href: https://artifacts.apis.io/cloudtruth/security/cloudtruth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudtruth-domain-security.yml
@@ -261,6 +268,14 @@ common:
   url: https://cloudtruth.com/
 created: '2026-10-09'
 description: CloudTruth provides a Config Data Platform that helps enterprises eliminate misconfigurations across cloud, IaC, and application settings. The platform enables teams to centrally manage configuration data, enforce policies, and integrate with CI/CD pipelines, Kubernetes, Terraform, and other tools. CloudTruth offers secure storage, versioning, and audit trails for configuration values, supporting compliance and reducing risk of configuration drift. It serves developers, DevOps, and security engineers seeking reliable configuration management at scale.
+finops:
+- has_sources: true
+  method: derived
+  name: Cloudtruth Finops
+  primary_unit: ''
+  service_category: ''
+  slug: cloudtruth-finops
+  template: true
 image: https://cloudtruth.com/wp-content/uploads/2025/06/drift-logo-1.svg
 json_schemas:
 - name: AwsPull
@@ -297,8 +312,12 @@ overview: 'CloudTruth publishes 21 API contracts indexed on the [APIs.io](https:
   The CloudTruth catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  CloudTruth''s developer surface includes pricing, engineering blog, getting-started guide, documentation, API reference, authentication, and 19 more developer resources.'
-random_paper: 2
+  CloudTruth''s developer surface includes pricing, engineering blog, getting-started guide, documentation, API reference, authentication, and 20 more developer resources.'
+plans:
+- name: Cloudtruth Plans Pricing
+  plan_count: 1
+  slug: cloudtruth-plans-pricing
+random_paper: 22
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -314,21 +333,23 @@ rules:
   slug: cloudtruth-rules
 score:
   band: developing
-  composite: 46.4
+  composite: 49.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 62.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.3
+    artifact_dirs: 21
+    catalog_earned: 70.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 4.2
   facets:
-    access_clarity: 31.6
+    access_clarity: 52.6
     contract_governance: 22.0
-    contract_quality: 67.3
+    contract_quality: 63.9
     developer_ergonomics: 54.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 13.2
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -345,11 +366,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Cloudtruth Authentication
@@ -359,6 +382,12 @@ security:
   name: Cloudtruth Domain Security
   slug: cloudtruth-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: cloudtruth-create-aws-integration
+  slug: cloudtruth-create-aws-integration
+- name: cloudtruth-create-project-with-parameter
+  slug: cloudtruth-create-project-with-parameter
 slug: cloudtruth
 tags:
 - Company

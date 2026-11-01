@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A hosted Model Context Protocol endpoint operated by Abatable at mcp.abatable.com, fronted by Cloudflare Access. It advertises itself as an OAuth protected resource under RFC 9728 and publishes RFC 84
@@ -72,62 +74,62 @@ common:
   type: StatusPage
   url: https://status.abatable.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/llms/abatable-llms.txt
+  href: https://artifacts.apis.io/abatable/llms/abatable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/abatable-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/well-known/abatable-well-known.yml
+  href: https://artifacts.apis.io/abatable/well-known/abatable-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/abatable-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/mcp/abatable-mcp.yml
+  href: https://artifacts.apis.io/abatable/mcp/abatable-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/abatable-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/authentication/abatable-authentication.yml
+  href: https://artifacts.apis.io/abatable/authentication/abatable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/abatable-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/scopes/abatable-scopes.yml
+  href: https://artifacts.apis.io/abatable/scopes/abatable-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/abatable-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/conformance/abatable-conformance.yml
+  href: https://artifacts.apis.io/abatable/conformance/abatable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/abatable-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/conventions/abatable-conventions.yml
+  href: https://artifacts.apis.io/abatable/conventions/abatable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/abatable-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/lifecycle/abatable-lifecycle.yml
+  href: https://artifacts.apis.io/abatable/lifecycle/abatable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/abatable-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/plans/abatable-plans-pricing.yml
+  href: https://artifacts.apis.io/abatable/plans/abatable-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/abatable-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/rate-limits/abatable-rate-limits.yml
+  href: https://artifacts.apis.io/abatable/rate-limits/abatable-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/abatable-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/packages/abatable-packages.yml
+  href: https://artifacts.apis.io/abatable/packages/abatable-packages.yml
   title: ''
   type: Packages
   url: packages/abatable-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/security/abatable-domain-security.yml
+  href: https://artifacts.apis.io/abatable/security/abatable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/abatable-domain-security.yml
@@ -163,7 +165,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.2
+  composite: 24.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -173,13 +175,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
-    operational_transparency: 10.5
-  previous_composite: 23.2
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 24.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -189,14 +191,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/abatable/refs/heads/main/screenshots/abatable-2026-10-11T092400.png
+screenshot: https://apis.io/screenshots/abatable/abatable-2026-10-11T092400.png
 security:
 - kind: authentication
   name: Abatable Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 11
 apis:
 - description: Queen Mary's open-access institutional repository runs DSpace 8.4 and exposes the standard DSpace REST API on the university's own host. The HAL service document at /server/api answers unauthenticated
@@ -140,47 +142,47 @@ common:
   type: x-learning-platform
   url: https://qmplus.qmul.ac.uk/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/conformance/queen-mary-university-of-london-conformance.yml
+  href: https://artifacts.apis.io/queen-mary-university-of-london/conformance/queen-mary-university-of-london-conformance.yml
   title: ''
   type: Conformance
   url: conformance/queen-mary-university-of-london-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/authentication/queen-mary-university-of-london-authentication.yml
+  href: https://artifacts.apis.io/queen-mary-university-of-london/authentication/queen-mary-university-of-london-authentication.yml
   title: ''
   type: Authentication
   url: authentication/queen-mary-university-of-london-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/security/queen-mary-university-of-london-domain-security.yml
+  href: https://artifacts.apis.io/queen-mary-university-of-london/security/queen-mary-university-of-london-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/queen-mary-university-of-london-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/plans/queen-mary-university-of-london-plans-pricing.yml
+  href: https://artifacts.apis.io/queen-mary-university-of-london/plans/queen-mary-university-of-london-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/queen-mary-university-of-london-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/rate-limits/queen-mary-university-of-london-rate-limits.yml
+  href: https://artifacts.apis.io/queen-mary-university-of-london/rate-limits/queen-mary-university-of-london-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/queen-mary-university-of-london-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/finops/queen-mary-university-of-london-finops.yml
+  href: https://artifacts.apis.io/queen-mary-university-of-london/finops/queen-mary-university-of-london-finops.yml
   title: ''
   type: FinOps
   url: finops/queen-mary-university-of-london-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/queen-mary-university-of-london/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: company
-  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/queen-mary-university-of-london/blogs/blogs.json
   title: ''
   type: x-blogs
   url: blogs/blogs.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/json-ld/queen-mary-university-of-london-context.jsonld
+  href: https://artifacts.apis.io/queen-mary-university-of-london/json-ld/queen-mary-university-of-london-context.jsonld
   title: ''
   type: x-json-ld
   url: json-ld/queen-mary-university-of-london-context.jsonld
@@ -221,14 +223,14 @@ plans:
 - name: Queen Mary University Of London Plans Pricing
   plan_count: 2
   slug: queen-mary-university-of-london-plans-pricing
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Queen Mary University Of London Rate Limits
   slug: queen-mary-university-of-london-rate-limits
 score:
   band: emerging
-  composite: 21.0
+  composite: 21.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 52.0
@@ -236,14 +238,14 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 28.6
     discoverability: 71.4
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -252,7 +254,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 27.0
+  previous_composite: 21.3
   provenance:
     conformance: first-party
   regulatory:
@@ -261,14 +263,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/queen-mary-university-of-london/refs/heads/main/screenshots/queen-mary-university-of-london-2026-10-11T113033.png
+screenshot: https://apis.io/screenshots/queen-mary-university-of-london/queen-mary-university-of-london-2026-10-11T113033.png
 security:
 - kind: authentication
   name: Queen Mary University Of London Authentication

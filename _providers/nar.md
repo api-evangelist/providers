@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -166,84 +168,84 @@ apis:
   description: The OfficeSecondary API from National Association of REALTORS — 2 operation(s) for officesecondary.
   name: National Association of REALTORS Office Secondary API
   slug: nar-officesecondary-api
-artifact_total: 29
+artifact_total: 35
 collections:
 - collection_type: open
   name: M1Gateway - External
   slug: open-nar-m1-gateway-external
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/capabilities/nar-capability-edges.yml
+  href: https://artifacts.apis.io/nar/capabilities/nar-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nar-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/overlays/nar-m1-gateway-external-overlay.yaml
+  href: https://artifacts.apis.io/nar/overlays/nar-m1-gateway-external-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nar-m1-gateway-external-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/security/nar-domain-security.yml
+  href: https://artifacts.apis.io/nar/security/nar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nar-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/agentic-access/nar-agentic-access.yml
+  href: https://artifacts.apis.io/nar/agentic-access/nar-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nar-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/authentication/nar-authentication.yml
+  href: https://artifacts.apis.io/nar/authentication/nar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nar-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/conventions/nar-conventions.yml
+  href: https://artifacts.apis.io/nar/conventions/nar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nar-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/errors/nar-error-codes.yml
+  href: https://artifacts.apis.io/nar/errors/nar-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/nar-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/rate-limits/nar-rate-limits.yml
+  href: https://artifacts.apis.io/nar/rate-limits/nar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nar-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/lifecycle/nar-lifecycle.yml
+  href: https://artifacts.apis.io/nar/lifecycle/nar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nar-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/conformance/nar-conformance.yml
+  href: https://artifacts.apis.io/nar/conformance/nar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nar-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/data-model/nar-data-model.yml
+  href: https://artifacts.apis.io/nar/data-model/nar-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nar-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/packages/nar-packages.yml
+  href: https://artifacts.apis.io/nar/packages/nar-packages.yml
   title: ''
   type: Packages
   url: packages/nar-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/mcp/nar-mcp.yml
+  href: https://artifacts.apis.io/nar/mcp/nar-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nar-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nar/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/llms/nar-llms.txt
+  href: https://artifacts.apis.io/nar/llms/nar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nar-llms.txt
@@ -308,14 +310,14 @@ overview: 'National Association of REALTORS publishes 24 API contracts indexed o
 
 
   National Association of REALTORS''s developer surface includes authentication, engineering blog, documentation, support, and 23 more developer resources.'
-random_paper: 13
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Nar Rate Limits
   slug: nar-rate-limits
 score:
   band: thin
-  composite: 32.0
+  composite: 33.2
   coverage:
     artifact_dirs: 24
     catalog_earned: 45.0
@@ -329,8 +331,8 @@ score:
     contract_governance: 4.5
     contract_quality: 39.5
     developer_ergonomics: 34.6
-    discoverability: 67.0
-    operational_transparency: 23.7
+    discoverability: 67.9
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -338,7 +340,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 32.0
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -355,13 +357,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/screenshots/nar-2026-08-07T184628.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nar/nar-2026-08-07T184628.png
 security:
 - kind: authentication
   name: Nar Authentication
@@ -371,6 +374,20 @@ security:
   name: Nar Domain Security
   slug: nar-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 6
+skills:
+- name: Request and schedule an M1 data extract
+  slug: nar-data-extract
+- name: Manage offices and associations in M1
+  slug: nar-manage-offices
+- name: Onboard a new REALTOR member in M1
+  slug: nar-onboard-new-member
+- name: Record Code of Ethics, education and designation compliance in M1
+  slug: nar-record-ethics-and-education
+- name: Transfer or convert an M1 member between associations and offices
+  slug: nar-transfer-member
+- name: Update an M1 member record with the test/replace JSON Patch pattern
+  slug: nar-update-member-record
 slug: nar
 tags:
 - Real Estate

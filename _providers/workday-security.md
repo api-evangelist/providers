@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 31.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -107,7 +109,7 @@ apis:
   description: Manage Workday user accounts including account status, credentials, and associated security configurations.
   name: Workday Security User Accounts API
   slug: workday-security-user-accounts-api
-artifact_total: 73
+artifact_total: 72
 collections:
 - collection_type: postman
   name: Workday Security Workday Audit and Compliance Account Signons API
@@ -145,9 +147,6 @@ collections:
 - collection_type: postman
   name: Workday Security Workday Audit and Compliance Account Signons User Accounts API
   slug: postman-workday-security-user-accounts-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Workday Security Workday Audit and Compliance Account Signons API
   slug: open-workday-security-account-signons-api
@@ -198,17 +197,17 @@ collections:
   slug: open-workday-security-user-accounts-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/plans/workday-security-plans-pricing.yml
+  href: https://artifacts.apis.io/workday-security/plans/workday-security-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/workday-security-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/finops/workday-security-finops.yml
+  href: https://artifacts.apis.io/workday-security/finops/workday-security-finops.yml
   title: ''
   type: FinOps
   url: finops/workday-security-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/capabilities/workday-security-capability-edges.yml
+  href: https://artifacts.apis.io/workday-security/capabilities/workday-security-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/workday-security-capability-edges.yml
@@ -217,27 +216,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/workday-security/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/agentic-access/workday-security-agentic-access.yml
+  href: https://artifacts.apis.io/workday-security/agentic-access/workday-security-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/workday-security-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/security/workday-security-trust-center.yml
+  href: https://artifacts.apis.io/workday-security/security/workday-security-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/workday-security-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/security/workday-security-domain-security.yml
+  href: https://artifacts.apis.io/workday-security/security/workday-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/workday-security-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/authentication/workday-security-authentication.yml
+  href: https://artifacts.apis.io/workday-security/authentication/workday-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/workday-security-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/scopes/workday-security-scopes.yml
+  href: https://artifacts.apis.io/workday-security/scopes/workday-security-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/workday-security-scopes.yml
@@ -412,7 +411,7 @@ plans:
 - name: Workday Security Plans Pricing
   plan_count: 1
   slug: workday-security-plans-pricing
-random_paper: 8
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Workday Security Rate Limits
@@ -436,7 +435,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.6
+  composite: 50.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 47.3
@@ -444,15 +443,15 @@ score:
     catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 48.7
+    access_clarity: 55.3
     contract_governance: 9.8
     contract_quality: 48.4
-    developer_ergonomics: 34.5
+    developer_ergonomics: 58.3
     discoverability: 71.4
-    operational_transparency: 26.3
-  previous_composite: 44.2
+    operational_transparency: 36.8
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -466,13 +465,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/screenshots/workday-security-2026-06-20T201611.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/workday-security/workday-security-2026-06-20T201611.png
 security:
 - kind: authentication
   name: Workday Security Authentication

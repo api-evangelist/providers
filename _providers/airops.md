@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.3
-  scored_at: '2026-10-17'
+  score: 49.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 42
   slug: airops-agentic-access
   summary_line: 42 operations · 16 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.airops.com
   baseurl_source: declared
@@ -134,7 +136,7 @@ apis:
   description: The Web Pages API from AirOps — 1 operation(s) for web pages.
   name: AirOps Web Pages API
   slug: airops-web-pages-api
-artifact_total: 28
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Airops Webhooks
@@ -144,18 +146,23 @@ collections:
   name: API V1
   slug: open-airops-api
 common:
+- group: other
+  href: https://artifacts.apis.io/airops/capabilities/airops-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/airops-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/agentic-access/airops-agentic-access.yml
+  href: https://artifacts.apis.io/airops/agentic-access/airops-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/airops-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/security/airops-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/airops/security/airops-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/airops-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/security/airops-domain-security.yml
+  href: https://artifacts.apis.io/airops/security/airops-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/airops-domain-security.yml
@@ -180,62 +187,62 @@ common:
   type: GettingStarted
   url: https://docs.airops.com/getting-started/readme
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/authentication/airops-authentication.yml
+  href: https://artifacts.apis.io/airops/authentication/airops-authentication.yml
   title: ''
   type: Authentication
   url: authentication/airops-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/mcp/airops-mcp.yml
+  href: https://artifacts.apis.io/airops/mcp/airops-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/airops-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/llms/airops-llms.txt
+  href: https://artifacts.apis.io/airops/llms/airops-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/airops-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/well-known/airops-well-known.yml
+  href: https://artifacts.apis.io/airops/well-known/airops-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/airops-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/well-known/airops-security.txt
+  href: https://artifacts.apis.io/airops/well-known/airops-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/airops-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/scopes/airops-scopes.yml
+  href: https://artifacts.apis.io/airops/scopes/airops-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/airops-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/packages/airops-packages.yml
+  href: https://artifacts.apis.io/airops/packages/airops-packages.yml
   title: ''
   type: SDKs
   url: packages/airops-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/packages/airops-packages.yml
+  href: https://artifacts.apis.io/airops/packages/airops-packages.yml
   title: ''
   type: Packages
   url: packages/airops-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/conventions/airops-conventions.yml
+  href: https://artifacts.apis.io/airops/conventions/airops-conventions.yml
   title: ''
   type: Conventions
   url: conventions/airops-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/errors/airops-error-codes.yml
+  href: https://artifacts.apis.io/airops/errors/airops-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/airops-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/asyncapi/airops-webhooks.yml
+  href: https://artifacts.apis.io/airops/asyncapi/airops-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/airops-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/lifecycle/airops-lifecycle.yml
+  href: https://artifacts.apis.io/airops/lifecycle/airops-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/airops-lifecycle.yml
@@ -244,52 +251,52 @@ common:
   type: StatusPage
   url: https://status.airops.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/conformance/airops-conformance.yml
+  href: https://artifacts.apis.io/airops/conformance/airops-conformance.yml
   title: ''
   type: Conformance
   url: conformance/airops-conformance.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/openapi/_original/airops-api-openapi.yml
+  href: https://artifacts.apis.io/airops/openapi/_original/airops-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/airops-api-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/overlays/airops-api-overlay.yaml
+  href: https://artifacts.apis.io/airops/overlays/airops-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/airops-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/data-model/airops-data-model.yml
+  href: https://artifacts.apis.io/airops/data-model/airops-data-model.yml
   title: ''
   type: DataModel
   url: data-model/airops-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/mcp/airops-tool-crosswalk.yml
+  href: https://artifacts.apis.io/airops/mcp/airops-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/airops-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/airops/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/plans/airops-plans-pricing.yml
+  href: https://artifacts.apis.io/airops/plans/airops-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/airops-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/rate-limits/airops-rate-limits.yml
+  href: https://artifacts.apis.io/airops/rate-limits/airops-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/airops-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/changelog/airops-changelog.yml
+  href: https://artifacts.apis.io/airops/changelog/airops-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/airops-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/sandbox/airops-sandbox.yml
+  href: https://artifacts.apis.io/airops/sandbox/airops-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/airops-sandbox.yml
@@ -331,6 +338,14 @@ common:
   url: https://university.airops.com/
 created: '2026-07-17'
 description: AirOps is a growth platform for AI search and answer engine optimization (AEO) that helps brands measure and improve their visibility across AI assistants and search engines including ChatGPT, Perplexity, Gemini, Claude, and Google. The platform pairs Insights (citation tracking, share-of-voice, sentiment, and competitor intelligence) with Action (Playbooks, Workflows, Grids, and Campaigns that draft and ship content at scale) and Context (Brand Kits and Knowledge Bases). AirOps exposes a public REST API at api.airops.com for executing Workflows/Apps, managing Knowledge Bases, and pulling AEO analytics, a hosted Model Context Protocol (MCP) server at app.airops.com/mcp with roughly ninety tools, incoming webhook triggers, and first-party JavaScript and Python SDKs. It was surfaced as a portfolio company of Greylock and enriched into the API Evangelist network.
+finops:
+- has_sources: true
+  method: derived
+  name: Airops Finops
+  primary_unit: ''
+  service_category: ''
+  slug: airops-finops
+  template: true
 image: https://cdn.prod.website-files.com/61fae48cb5979577435753f6/69fe76ac41d8f24a95a59e72_1200x630-Homepage.jpg
 layout: provider
 mcp_servers:
@@ -347,12 +362,15 @@ overview: 'AirOps publishes 18 API contracts indexed on the [APIs.io](https://ap
   The AirOps catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AirOps'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 33 more developer resources.'
+  AirOps'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 34 more developer resources.'
 plans:
 - name: Airops Plans Pricing
   plan_count: 3
   slug: airops-plans-pricing
-random_paper: 16
+- name: Airops Price Estimates
+  plan_count: 0
+  slug: airops-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Airops Rate Limits
@@ -364,23 +382,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.3
+  composite: 64.1
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 28
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 55.6
     developer_ergonomics: 78.6
-    discoverability: 75.0
-    operational_transparency: 39.5
-  previous_composite: 62.2
+    discoverability: 65.0
+    operational_transparency: 55.3
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -397,13 +415,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/screenshots/airops-2026-07-25T195431.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/airops/airops-2026-07-25T195431.png
 security:
 - kind: authentication
   name: Airops Authentication
@@ -417,6 +436,22 @@ security:
   name: Airops Vulnerability Disclosure
   slug: airops-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 7
+skills:
+- name: aeo-data-guide
+  slug: airops-aeo-data-guide
+- name: aeo-opportunities
+  slug: airops-aeo-opportunities
+- name: content-quality-report
+  slug: airops-content-quality-report
+- name: create-blog
+  slug: airops-create-blog
+- name: create-comparison
+  slug: airops-create-comparison
+- name: create-listicle
+  slug: airops-create-listicle
+- name: refresh-content
+  slug: airops-refresh-content
 slug: airops
 tags:
 - Company
@@ -424,7 +459,6 @@ tags:
 - Artificial Intelligence
 - Content
 - SEO
-- AEO
 - Answer Engine Optimization
 - Generative Engine Optimization
 - Workflows

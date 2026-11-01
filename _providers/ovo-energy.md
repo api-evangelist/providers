@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,37 +35,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ovo-energy/refs/heads/main/security/ovo-energy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ovo-energy/security/ovo-energy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ovo-energy-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ovo-energy/refs/heads/main/security/ovo-energy-domain-security.yml
+  href: https://artifacts.apis.io/ovo-energy/security/ovo-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ovo-energy-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ovo-energy/refs/heads/main/well-known/ovo-energy-well-known.yml
+  href: https://artifacts.apis.io/ovo-energy/well-known/ovo-energy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ovo-energy-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ovo-energy/refs/heads/main/conformance/ovo-energy-conformance.yml
+  href: https://artifacts.apis.io/ovo-energy/conformance/ovo-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ovo-energy-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ovo-energy/refs/heads/main/packages/ovo-energy-packages.yml
+  href: https://artifacts.apis.io/ovo-energy/packages/ovo-energy-packages.yml
   title: ''
   type: Packages
   url: packages/ovo-energy-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ovo-energy/refs/heads/main/llms/ovo-energy-llms.txt
+  href: https://artifacts.apis.io/ovo-energy/llms/ovo-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ovo-energy-llms.txt
@@ -124,7 +126,7 @@ common:
   type: TermsOfService
   url: https://www.ovoenergy.com/terms
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ovo-energy/refs/heads/main/well-known/ovo-energy-security.txt
+  href: https://artifacts.apis.io/ovo-energy/well-known/ovo-energy-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ovo-energy-security.txt
@@ -150,12 +152,12 @@ overview: 'OVO Energy is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   OVO Energy''s developer surface includes engineering blog, support, signup flow, pricing, and 19 more developer resources.'
-random_paper: 1
+random_paper: 3
 score:
   band: emerging
-  composite: 18.5
+  composite: 18.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -168,7 +170,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 13.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -177,7 +179,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 18.5
+  previous_composite: 18.9
   provenance:
     conformance: derived
   regulatory:
@@ -186,14 +188,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ovo-energy/refs/heads/main/screenshots/ovo-energy-2026-08-07T191145.png
+screenshot: https://apis.io/screenshots/ovo-energy/ovo-energy-2026-08-07T191145.png
 security:
 - kind: domain-security
   name: Ovo Energy Domain Security

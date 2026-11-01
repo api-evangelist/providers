@@ -24,25 +24,27 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.8
-  scored_at: '2026-10-17'
+  score: 28.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Single task-based endpoint for image, video, audio, 3D, and text inference across 400K+ models, reachable over HTTP, WebSocket, and Server-Sent Events.
   name: Runware Inference API
   slug: runware-inference-api
-artifact_total: 7
+artifact_total: 9
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/plans/runware-plans-pricing.yml
+  href: https://artifacts.apis.io/runware/plans/runware-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/runware-plans-pricing.yml
@@ -51,7 +53,7 @@ common:
   type: BlogRSS
   url: https://runware.ai/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/security/runware-domain-security.yml
+  href: https://artifacts.apis.io/runware/security/runware-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/runware-domain-security.yml
@@ -112,62 +114,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/Runware
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/packages/runware-packages.yml
+  href: https://artifacts.apis.io/runware/packages/runware-packages.yml
   title: ''
   type: Packages
   url: packages/runware-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/packages/runware-packages.yml
+  href: https://artifacts.apis.io/runware/packages/runware-packages.yml
   title: ''
   type: SDKs
   url: packages/runware-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/cli/runware-cli.yml
+  href: https://artifacts.apis.io/runware/cli/runware-cli.yml
   title: ''
   type: CLI
   url: cli/runware-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/mcp/runware-mcp.yml
+  href: https://artifacts.apis.io/runware/mcp/runware-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/runware-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/runware/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/llms/runware-llms.txt
+  href: https://artifacts.apis.io/runware/llms/runware-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/runware-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/authentication/runware-authentication.yml
+  href: https://artifacts.apis.io/runware/authentication/runware-authentication.yml
   title: ''
   type: Authentication
   url: authentication/runware-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/conventions/runware-conventions.yml
+  href: https://artifacts.apis.io/runware/conventions/runware-conventions.yml
   title: ''
   type: Conventions
   url: conventions/runware-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/errors/runware-error-codes.yml
+  href: https://artifacts.apis.io/runware/errors/runware-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/runware-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/lifecycle/runware-lifecycle.yml
+  href: https://artifacts.apis.io/runware/lifecycle/runware-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/runware-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/changelog/runware-changelog.yml
+  href: https://artifacts.apis.io/runware/changelog/runware-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/runware-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/conformance/runware-conformance.yml
+  href: https://artifacts.apis.io/runware/conformance/runware-conformance.yml
   title: ''
   type: Conformance
   url: conformance/runware-conformance.yml
@@ -176,7 +178,7 @@ common:
   type: Compliance
   url: https://runware.ai/security-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/security/runware-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/runware/security/runware-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/runware-vulnerability-disclosure.yml
@@ -185,12 +187,20 @@ common:
   type: Security
   url: https://runware.ai/security-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/security/runware-trust-center.yml
+  href: https://artifacts.apis.io/runware/security/runware-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/runware-trust-center.yml
 created: '2026-07-17'
 description: Runware is a unified AI inference platform — "one API for all AI" — that gives developers a single endpoint for image, video, audio, 3D, and text (LLM) generation across 400K+ open and closed-source models. Every request is a task object (taskType, taskUUID, model identifier, and modality parameters) posted to a single HTTP endpoint, with WebSocket and Server-Sent Events transports for low-latency and streaming workloads. Models are addressed by a creator:family@version identifier and billed pay-per-request with no subscriptions — serverless open models bill on optimized compute time while closed partner models use fixed per-request rates. Runware ships official TypeScript and Python SDKs, a static-binary CLI, a hosted Model Context Protocol (MCP) server, published Agent Skills, a Vercel AI SDK provider, and an OpenAI-compatibility layer, so the same inference surface is reachable from code, terminal, and agents.
+finops:
+- has_sources: true
+  method: derived
+  name: Runware Finops
+  primary_unit: gpu-hour
+  service_category: ''
+  slug: runware-finops
+  template: false
 image: https://runware.ai/favicon.ico
 layout: provider
 mcp_servers:
@@ -209,26 +219,29 @@ plans:
 - name: Runware Plans Pricing
   plan_count: 10
   slug: runware-plans-pricing
-random_paper: 2
+- name: Runware Price Estimates
+  plan_count: 0
+  slug: runware-price-estimates
+random_paper: 4
 score:
   band: developing
-  composite: 49.5
+  composite: 52.8
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 49.0
+    artifact_dirs: 19
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 66.7
-    discoverability: 75.0
-    operational_transparency: 44.7
-  previous_composite: 43.5
+    developer_ergonomics: 78.6
+    discoverability: 65.0
+    operational_transparency: 47.4
+  previous_composite: 51.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -243,14 +256,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/runware/refs/heads/main/screenshots/runware-2026-08-17T081654.png
+screenshot: https://apis.io/screenshots/runware/runware-2026-08-17T081654.png
 security:
 - kind: authentication
   name: Runware Authentication

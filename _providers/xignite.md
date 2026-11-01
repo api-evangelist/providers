@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-17'
+  score: 19.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,11 +157,8 @@ apis:
   description: Bulk file delivery service behind Xignite's file products (historical equity prices, bonds, options, currencies, and corporate actions files), served from the cloudfiles.xignite.com service.
   name: Xignite CloudFiles API
   slug: xignite-cloud-files-api
-artifact_total: 49
+artifact_total: 51
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: XigniteBonds CloudAlerts API
   slug: open-xignite-cloudalerts-api
@@ -236,17 +235,17 @@ common:
   type: BlogRSS
   url: https://www.quodd.com/insights/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/security/xignite-domain-security.yml
+  href: https://artifacts.apis.io/xignite/security/xignite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xignite-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/agentic-access/xignite-agentic-access.yml
+  href: https://artifacts.apis.io/xignite/agentic-access/xignite-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/xignite-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/authentication/xignite-authentication.yml
+  href: https://artifacts.apis.io/xignite/authentication/xignite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/xignite-authentication.yml
@@ -299,57 +298,57 @@ common:
   type: GettingStarted
   url: https://www.xignite.com/Support/GettingStarted.aspx
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/packages/xignite-packages.yml
+  href: https://artifacts.apis.io/xignite/packages/xignite-packages.yml
   title: ''
   type: Packages
   url: packages/xignite-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/packages/xignite-packages.yml
+  href: https://artifacts.apis.io/xignite/packages/xignite-packages.yml
   title: ''
   type: SDKs
   url: packages/xignite-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/mcp/xignite-mcp.yml
+  href: https://artifacts.apis.io/xignite/mcp/xignite-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/xignite-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/llms/xignite-llms.txt
+  href: https://artifacts.apis.io/xignite/llms/xignite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xignite-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/conformance/xignite-conformance.yml
+  href: https://artifacts.apis.io/xignite/conformance/xignite-conformance.yml
   title: ''
   type: Conformance
   url: conformance/xignite-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/errors/xignite-problem-types.yml
+  href: https://artifacts.apis.io/xignite/errors/xignite-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/xignite-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/lifecycle/xignite-lifecycle.yml
+  href: https://artifacts.apis.io/xignite/lifecycle/xignite-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/xignite-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/conventions/xignite-conventions.yml
+  href: https://artifacts.apis.io/xignite/conventions/xignite-conventions.yml
   title: ''
   type: Conventions
   url: conventions/xignite-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/components/xignite-components.yml
+  href: https://artifacts.apis.io/xignite/components/xignite-components.yml
   title: ''
   type: Components
   url: components/xignite-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/data-model/xignite-data-model.yml
+  href: https://artifacts.apis.io/xignite/data-model/xignite-data-model.yml
   title: ''
   type: DataModel
   url: data-model/xignite-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/xignite/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -365,12 +364,12 @@ overview: 'Xignite publishes 23 API contracts indexed on the [APIs.io](https://a
 
 
   Xignite''s developer surface includes engineering blog, authentication, developer portal, documentation, signup flow, support, API reference, and 21 more developer resources.'
-random_paper: 12
+random_paper: 16
 score:
   band: thin
-  composite: 38.6
+  composite: 38.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -382,9 +381,9 @@ score:
     contract_governance: 4.5
     contract_quality: 41.5
     developer_ergonomics: 66.1
-    discoverability: 69.6
-    operational_transparency: 2.6
-  previous_composite: 38.6
+    discoverability: 62.5
+    operational_transparency: 5.3
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -401,14 +400,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/screenshots/xignite-2026-07-22T202705.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/xignite/xignite-2026-07-22T202705.png
 security:
 - kind: authentication
   name: Xignite Authentication
@@ -418,6 +417,14 @@ security:
   name: Xignite Domain Security
   slug: xignite-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Get a real-time FX rate and convert an amount
+  slug: xignite-convert-currency
+- name: Get a delayed global stock quote
+  slug: xignite-get-delayed-quote
+- name: Pull historical prices and dividend history
+  slug: xignite-historical-prices-and-dividends
 slug: xignite
 tags:
 - Finance

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Lead and CRM integration surface. Includes the outbound Lead Forwarding Service (forwards incoming and processed dealership lead data to a third-party vendor as XML or email), inbound Activity Insert/
@@ -57,15 +59,21 @@ asyncapis:
   name: Dealersocket Outbound Webhooks
   slug: dealersocket-outbound-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/dealersocket/hosts/dealersocket-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/dealersocket-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/dealersocket/vendors/dealersocket-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/dealersocket-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dealersocket/refs/heads/main/security/dealersocket-domain-security.yml
+  href: https://artifacts.apis.io/dealersocket/security/dealersocket-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dealersocket-domain-security.yml
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/dealersocket
 - group: company
   title: ''
   type: Website
@@ -83,7 +91,7 @@ common:
   type: ParentCompany
   url: https://www.solera.com/solutions/dealers/dealersocket/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dealersocket/refs/heads/main/lifecycle/dealersocket-lifecycle.yml
+  href: https://artifacts.apis.io/dealersocket/lifecycle/dealersocket-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dealersocket-lifecycle.yml
@@ -92,35 +100,25 @@ common:
   type: StatusPage
   url: https://status.dealersocket.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dealersocket/refs/heads/main/asyncapi/dealersocket-outbound-webhooks.yml
+  href: https://artifacts.apis.io/dealersocket/asyncapi/dealersocket-outbound-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/dealersocket-outbound-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dealersocket/refs/heads/main/conventions/dealersocket-conventions.yml
+  href: https://artifacts.apis.io/dealersocket/conventions/dealersocket-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dealersocket-conventions.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dealersocket/refs/heads/main/packages/dealersocket-packages.yml
-  title: ''
-  type: Packages
-  url: packages/dealersocket-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dealersocket/refs/heads/main/plans/dealersocket-plans-pricing.yml
+  href: https://artifacts.apis.io/dealersocket/plans/dealersocket-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dealersocket-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dealersocket/refs/heads/main/rate-limits/dealersocket-rate-limits.yml
+  href: https://artifacts.apis.io/dealersocket/rate-limits/dealersocket-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dealersocket-rate-limits.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dealersocket/refs/heads/main/llms/dealersocket-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/dealersocket-llms.txt
 - group: operate
   title: ''
   type: Support
@@ -145,6 +143,20 @@ common:
   title: ''
   type: Login
   url: https://www.dealer.solera.com/login/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://dealersocket.com/news/
+coverage:
+  checked: '2026-10-20'
+  detail: DealerSocket's integrations page names lead, customer, deal-push and CTI APIs but endpoints, auth and base URLs are released only to Solera/DealerSocket Certified Partners under contract; api.dealersocket.com answers 405 to an anonymous GET and no contract is served anywhere.
+  evidence:
+  - status: 200
+    url: https://dealersocket.com
+  - status: 405
+    url: https://api.dealersocket.com/
+  reason: partner-login
+  state: gated
 created: '2026-07-10'
 description: DealerSocket is an automotive dealership CRM and Dealer Management System (DMS) software platform for franchise and independent auto dealers, covering customer relationship management, inventory management, websites, digital marketing, and desking/deals. DealerSocket is a Solera company (acquired 2021; part of Solera's Vehicle Solutions line of business). DealerSocket exposes a set of inbound and outbound integration APIs - lead forwarding, deal push to the DMS, customer updates, activity and CTI/call logging - but access is not self-serve. It is delivered through DealerSocket's Certified Partners program (launched 2013, 500-plus integration points) and is application-, contract-, and certification-gated. There is no public developer portal, no published authentication reference, and no public endpoint or base-URL documentation; the logical APIs below are modeled from DealerSocket's public integrations page rather than a self-serve API reference.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dealersocket.png
@@ -164,16 +176,16 @@ plans:
 - name: Dealersocket Plans Pricing
   plan_count: 0
   slug: dealersocket-plans-pricing
-random_paper: 16
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Dealersocket Rate Limits
   slug: dealersocket-rate-limits
 score:
   band: thin
-  composite: 29.3
+  composite: 30.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -181,27 +193,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 16.7
-    discoverability: 78.6
+    discoverability: 73.2
     operational_transparency: 23.7
-  previous_composite: 29.3
+  previous_composite: 30.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dealersocket/refs/heads/main/screenshots/dealersocket-2026-07-25T211514.png
+screenshot: https://apis.io/screenshots/dealersocket/dealersocket-2026-07-25T211514.png
 security:
 - kind: domain-security
   name: Dealersocket Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -100,11 +102,8 @@ apis:
   description: Retrieve security event data and overviews.
   name: WatchGuard Security Events API
   slug: watchguard-security-events-api
-artifact_total: 41
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WatchGuard Cloud Platform Accounts API
   slug: open-watchguard-accounts-api
@@ -145,43 +144,47 @@ collections:
   name: WatchGuard Cloud Platform Accounts Security Events API
   slug: open-watchguard-security-events-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/watchguard/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/plans/watchguard-plans-pricing.yml
+  href: https://artifacts.apis.io/watchguard/plans/watchguard-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/watchguard-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/rate-limits/watchguard-rate-limits.yml
+  href: https://artifacts.apis.io/watchguard/rate-limits/watchguard-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/watchguard-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/finops/watchguard-finops.yml
+  href: https://artifacts.apis.io/watchguard/finops/watchguard-finops.yml
   title: ''
   type: FinOps
   url: finops/watchguard-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/capabilities/watchguard-capability-edges.yml
+  href: https://artifacts.apis.io/watchguard/capabilities/watchguard-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/watchguard-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/agentic-access/watchguard-agentic-access.yml
+  href: https://artifacts.apis.io/watchguard/agentic-access/watchguard-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/watchguard-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/security/watchguard-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/watchguard/security/watchguard-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/watchguard-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/security/watchguard-domain-security.yml
+  href: https://artifacts.apis.io/watchguard/security/watchguard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/watchguard-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/authentication/watchguard-authentication.yml
+  href: https://artifacts.apis.io/watchguard/authentication/watchguard-authentication.yml
   title: ''
   type: Authentication
   url: authentication/watchguard-authentication.yml
@@ -210,37 +213,37 @@ common:
   type: GettingStarted
   url: https://www.watchguard.com/help/docs/API/Content/en-US/api_get_started/get_started.html
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/_original/watchguard-cloud-platform-openapi.yml
+  href: https://artifacts.apis.io/watchguard/openapi/_original/watchguard-cloud-platform-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/watchguard-cloud-platform-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/openapi/_original/watchguard-endpoint-security-openapi.yml
+  href: https://artifacts.apis.io/watchguard/openapi/_original/watchguard-endpoint-security-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/watchguard-endpoint-security-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/rules/watchguard-rules.yml
+  href: https://artifacts.apis.io/watchguard/rules/watchguard-rules.yml
   title: ''
   type: SpectralRules
   url: rules/watchguard-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/json-schema/watchguard-device-schema.json
+  href: https://artifacts.apis.io/watchguard/json-schema/watchguard-device-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/watchguard-device-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/json-structure/watchguard-device-structure.json
+  href: https://artifacts.apis.io/watchguard/json-structure/watchguard-device-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/watchguard-device-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/json-ld/watchguard-context.jsonld
+  href: https://artifacts.apis.io/watchguard/json-ld/watchguard-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/watchguard-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/vocabulary/watchguard-vocabulary.yml
+  href: https://artifacts.apis.io/watchguard/vocabulary/watchguard-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/watchguard-vocabulary.yml
@@ -271,7 +274,7 @@ finops:
 - has_sources: false
   method: generated
   name: Watchguard Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: watchguard-finops
   template: true
@@ -300,7 +303,7 @@ overview: 'WatchGuard publishes 11 API contracts indexed on the [APIs.io](https:
   The WatchGuard catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  WatchGuard''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 19 more developer resources.'
+  WatchGuard''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 20 more developer resources.'
 plans:
 - name: Watchguard Plans Pricing
   plan_count: 3
@@ -336,8 +339,8 @@ rules:
     warning: 4
   slug: watchguard-rules
 score:
-  band: thin
-  composite: 35.8
+  band: developing
+  composite: 40.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 58.0
@@ -345,15 +348,15 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.3
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 59.6
-    developer_ergonomics: 35.7
+    developer_ergonomics: 46.4
     discoverability: 71.4
-    operational_transparency: 10.5
-  previous_composite: 37.3
+    operational_transparency: 23.7
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -367,13 +370,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/screenshots/watchguard-2026-06-20T201244.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/watchguard/watchguard-2026-06-20T201244.png
 security:
 - kind: authentication
   name: Watchguard Authentication

@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.3
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The core REST API for the Atlan platform, providing programmatic access to all platform capabilities including asset management, data lineage, glossary terms, classifications, custom metadata, persona
@@ -48,12 +50,12 @@ apis:
 artifact_total: 11
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atlan/refs/heads/main/security/atlan-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/atlan/security/atlan-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/atlan-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atlan/refs/heads/main/security/atlan-domain-security.yml
+  href: https://artifacts.apis.io/atlan/security/atlan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/atlan-domain-security.yml
@@ -90,17 +92,17 @@ common:
   type: X
   url: https://x.com/atlanhq
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/atlan/refs/heads/main/plans/atlan-plans-pricing.yml
+  href: https://artifacts.apis.io/atlan/plans/atlan-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/atlan-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/atlan/refs/heads/main/rate-limits/atlan-rate-limits.yml
+  href: https://artifacts.apis.io/atlan/rate-limits/atlan-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/atlan-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/atlan/refs/heads/main/finops/atlan-finops.yml
+  href: https://artifacts.apis.io/atlan/finops/atlan-finops.yml
   title: ''
   type: FinOps
   url: finops/atlan-finops.yml
@@ -151,7 +153,7 @@ rate_limits:
   slug: atlan-rate-limits
 score:
   band: thin
-  composite: 31.1
+  composite: 32.3
   coverage:
     artifact_dirs: 11
     catalog_earned: 54.0
@@ -159,15 +161,15 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 46.8
     developer_ergonomics: 23.8
-    discoverability: 73.3
-    operational_transparency: 21.1
-  previous_composite: 36.7
+    discoverability: 71.4
+    operational_transparency: 31.6
+  previous_composite: 32.3
   provenance:
     mcp: first-party
   regulatory:
@@ -176,14 +178,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/atlan/refs/heads/main/screenshots/atlan-2026-06-20T172523.png
+screenshot: https://apis.io/screenshots/atlan/atlan-2026-06-20T172523.png
 security:
 - kind: domain-security
   name: Atlan Domain Security

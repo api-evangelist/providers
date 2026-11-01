@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Board''s storefront agent-commerce API, provided natively by Shopify via the Universal Commerce Protocol (UCP 2026-04-08). Exposes an MCP endpoint for AI agents to search the catalog, build carts, and '
@@ -46,47 +48,47 @@ common:
   type: Website
   url: https://board.fun
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/board/refs/heads/main/mcp/board-mcp.yml
+  href: https://artifacts.apis.io/board/mcp/board-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/board-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/board/refs/heads/main/well-known/board-well-known.yml
+  href: https://artifacts.apis.io/board/well-known/board-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/board-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/board/refs/heads/main/llms/board-llms.txt
+  href: https://artifacts.apis.io/board/llms/board-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/board-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/board/refs/heads/main/authentication/board-authentication.yml
+  href: https://artifacts.apis.io/board/authentication/board-authentication.yml
   title: ''
   type: Authentication
   url: authentication/board-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/board/refs/heads/main/scopes/board-scopes.yml
+  href: https://artifacts.apis.io/board/scopes/board-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/board-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/board/refs/heads/main/conventions/board-conventions.yml
+  href: https://artifacts.apis.io/board/conventions/board-conventions.yml
   title: ''
   type: Conventions
   url: conventions/board-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/board/refs/heads/main/conformance/board-conformance.yml
+  href: https://artifacts.apis.io/board/conformance/board-conformance.yml
   title: ''
   type: Conformance
   url: conformance/board-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/board/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/board/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/board/refs/heads/main/security/board-domain-security.yml
+  href: https://artifacts.apis.io/board/security/board-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/board-domain-security.yml
@@ -118,7 +120,7 @@ overview: 'Board is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Board''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 14
+random_paper: 16
 scopes:
 - name: Board Scopes
   scope_count: 4
@@ -126,7 +128,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.9
+  composite: 22.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -134,15 +136,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 21.8
+  previous_composite: 22.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -153,14 +155,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/board/refs/heads/main/screenshots/board-2026-08-07T162656.png
+screenshot: https://apis.io/screenshots/board/board-2026-08-07T162656.png
 security:
 - kind: authentication
   name: Board Authentication

@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: true
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST API for the Next Generation Cision Communications Cloud, Cision's earned media monitoring and analytics platform. Runs off searches already created in the platform and returns either a list of ar
@@ -52,19 +54,19 @@ apis:
   description: The stream API from Cision — 2 operation(s) for stream.
   name: Cision Stream API
   slug: cision-stream-api
-artifact_total: 11
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Cision Webhooks
   slug: cision-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/authentication/cision-authentication.yml
+  href: https://artifacts.apis.io/cision/authentication/cision-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cision-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/security/cision-domain-security.yml
+  href: https://artifacts.apis.io/cision/security/cision-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cision-domain-security.yml
@@ -101,17 +103,17 @@ common:
   type: X
   url: https://x.com/cision
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/plans/cision-plans-pricing.yml
+  href: https://artifacts.apis.io/cision/plans/cision-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cision-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/rate-limits/cision-rate-limits.yml
+  href: https://artifacts.apis.io/cision/rate-limits/cision-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cision-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/finops/cision-finops.yml
+  href: https://artifacts.apis.io/cision/finops/cision-finops.yml
   title: ''
   type: FinOps
   url: finops/cision-finops.yml
@@ -152,75 +154,75 @@ common:
   type: Compliance
   url: https://www.cision.com/legal/security-statement/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/openapi/_original/cision-cisionone-openapi.yml
+  href: https://artifacts.apis.io/cision/openapi/_original/cision-cisionone-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/cision-cisionone-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/overlays/cision-cisionone-overlay.yaml
+  href: https://artifacts.apis.io/cision/overlays/cision-cisionone-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cision-cisionone-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/conventions/cision-conventions.yml
+  href: https://artifacts.apis.io/cision/conventions/cision-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cision-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/errors/cision-problem-types.yml
+  href: https://artifacts.apis.io/cision/errors/cision-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cision-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/data-model/cision-data-model.yml
+  href: https://artifacts.apis.io/cision/data-model/cision-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cision-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/lifecycle/cision-lifecycle.yml
+  href: https://artifacts.apis.io/cision/lifecycle/cision-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cision-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/changelog/cision-changelog.yml
+  href: https://artifacts.apis.io/cision/changelog/cision-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cision-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/conformance/cision-conformance.yml
+  href: https://artifacts.apis.io/cision/conformance/cision-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cision-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/packages/cision-packages.yml
+  href: https://artifacts.apis.io/cision/packages/cision-packages.yml
   title: ''
   type: Packages
   url: packages/cision-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/components/cision-components.yml
+  href: https://artifacts.apis.io/cision/components/cision-components.yml
   title: ''
   type: Components
   url: components/cision-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/asyncapi/cision-webhooks.yml
+  href: https://artifacts.apis.io/cision/asyncapi/cision-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cision-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cision/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/llms/cision-llms.txt
+  href: https://artifacts.apis.io/cision/llms/cision-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cision-llms.txt
 created: '2026-06-13'
 description: Cision is an AI-powered PR and earned media software platform offering REST APIs for media database access, press release distribution, media monitoring, analytics, and influencer identification. CisionOne provides a REST API that connects media monitoring data with internal tools, BI platforms, and reporting systems.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Cision Finops
   primary_unit: ''
   service_category: ''
@@ -246,32 +248,37 @@ overview: 'Cision publishes 4 API contracts indexed on the [APIs.io](https://api
   Cision''s developer surface includes authentication, documentation, engineering blog, pricing, product news, API reference, getting-started guide, and 28 more developer resources.'
 plans:
 - name: Cision Plans Pricing
-  plan_count: 5
+  plan_count: 0
   slug: cision-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Cision Rate Limits
   slug: cision-rate-limits
 score:
-  band: strong
-  composite: 56.2
+  band: developing
+  composite: 53.6
   coverage:
     artifact_dirs: 25
-    catalog_earned: 62.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 53.0
+    catalog_earned: 50.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -6.4
   facets:
-    access_clarity: 77.6
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 54.3
     developer_ergonomics: 49.4
-    discoverability: 67.0
-    operational_transparency: 47.4
-  previous_composite: 57.7
+    discoverability: 67.9
+    operational_transparency: 65.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 60.0
   provenance:
     conformance: first-party
     contracts:
@@ -291,14 +298,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/screenshots/cision-2026-06-20T174406.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cision/cision-2026-06-20T174406.png
 security:
 - kind: authentication
   name: Cision Authentication
@@ -308,6 +315,14 @@ security:
   name: Cision Domain Security
   slug: cision-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Authenticate and export from the Cision Communications Cloud API
+  slug: cision-communications-cloud-authenticate-and-export
+- name: Pull media coverage from a CisionOne Mention Stream
+  slug: cision-pull-mention-stream-coverage
+- name: Report earned media metrics for a CisionOne stream
+  slug: cision-report-earned-media-metrics
 slug: cision
 tags:
 - PR Software

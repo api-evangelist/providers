@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,16 +38,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The agent-facing commerce API for Debut's direct-to-consumer skincare brand DEINDE. It is a Shopify-hosted Universal Commerce Protocol (UCP) service exposed over MCP at https://www.deinde.com/api/ucp/
   name: DEINDE Commerce (UCP MCP)
   slug: deinde-commerce-ucp-mcp
-artifact_total: 7
+artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/debut/refs/heads/main/security/debut-domain-security.yml
+  href: https://artifacts.apis.io/debut/security/debut-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/debut-domain-security.yml
@@ -98,67 +100,67 @@ common:
   type: Documentation
   url: https://www.deinde.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/debut/refs/heads/main/mcp/debut-mcp.yml
+  href: https://artifacts.apis.io/debut/mcp/debut-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/debut-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/debut/refs/heads/main/llms/debut-llms.txt
+  href: https://artifacts.apis.io/debut/llms/debut-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/debut-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/debut/refs/heads/main/well-known/debut-well-known.yml
+  href: https://artifacts.apis.io/debut/well-known/debut-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/debut-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/debut/refs/heads/main/authentication/debut-authentication.yml
+  href: https://artifacts.apis.io/debut/authentication/debut-authentication.yml
   title: ''
   type: Authentication
   url: authentication/debut-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/debut/refs/heads/main/scopes/debut-scopes.yml
+  href: https://artifacts.apis.io/debut/scopes/debut-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/debut-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/debut/refs/heads/main/conventions/debut-conventions.yml
+  href: https://artifacts.apis.io/debut/conventions/debut-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/debut-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/debut/refs/heads/main/conventions/debut-conventions.yml
+  href: https://artifacts.apis.io/debut/conventions/debut-conventions.yml
   title: ''
   type: Conventions
   url: conventions/debut-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/debut/refs/heads/main/errors/debut-problem-types.yml
+  href: https://artifacts.apis.io/debut/errors/debut-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/debut-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/debut/refs/heads/main/rate-limits/debut-rate-limits.yml
+  href: https://artifacts.apis.io/debut/rate-limits/debut-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/debut-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/debut/refs/heads/main/plans/debut-plans-pricing.yml
+  href: https://artifacts.apis.io/debut/plans/debut-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/debut-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/debut/refs/heads/main/conformance/debut-conformance.yml
+  href: https://artifacts.apis.io/debut/conformance/debut-conformance.yml
   title: ''
   type: Conformance
   url: conformance/debut-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/debut/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/debut/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/debut/refs/heads/main/lifecycle/debut-lifecycle.yml
+  href: https://artifacts.apis.io/debut/lifecycle/debut-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/debut-lifecycle.yml
@@ -195,7 +197,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 22.3
+  composite: 21.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -203,15 +205,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 73.3
+    discoverability: 66.7
     operational_transparency: 0.0
-  previous_composite: 22.2
+  previous_composite: 21.7
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -222,14 +224,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/debut/refs/heads/main/screenshots/debut-2026-09-02T145225.png
+screenshot: https://apis.io/screenshots/debut/debut-2026-09-02T145225.png
 security:
 - kind: authentication
   name: Debut Authentication
@@ -239,6 +241,10 @@ security:
   name: Debut Domain Security
   slug: debut-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: deinde-agentic-purchase
+  slug: debut-deinde-agentic-purchase
 slug: debut
 tags:
 - Company

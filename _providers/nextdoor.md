@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 38.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -73,11 +75,8 @@ apis:
   description: The Search API from Nextdoor — 4 operation(s) for search.
   name: Nextdoor Search API
   slug: nextdoor-search-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nextdoor Developer Advertising API
   slug: open-nextdoor-advertising-api
@@ -98,22 +97,22 @@ collections:
   slug: open-nextdoor
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/plans/nextdoor-plans-pricing.yml
+  href: https://artifacts.apis.io/nextdoor/plans/nextdoor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nextdoor-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/rate-limits/nextdoor-rate-limits.yml
+  href: https://artifacts.apis.io/nextdoor/rate-limits/nextdoor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nextdoor-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/finops/nextdoor-finops.yml
+  href: https://artifacts.apis.io/nextdoor/finops/nextdoor-finops.yml
   title: ''
   type: FinOps
   url: finops/nextdoor-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/capabilities/nextdoor-capability-edges.yml
+  href: https://artifacts.apis.io/nextdoor/capabilities/nextdoor-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nextdoor-capability-edges.yml
@@ -122,27 +121,27 @@ common:
   type: Website
   url: https://www.nextdoor.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/agentic-access/nextdoor-agentic-access.yml
+  href: https://artifacts.apis.io/nextdoor/agentic-access/nextdoor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nextdoor-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/security/nextdoor-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nextdoor/security/nextdoor-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nextdoor-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/security/nextdoor-domain-security.yml
+  href: https://artifacts.apis.io/nextdoor/security/nextdoor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nextdoor-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/authentication/nextdoor-authentication.yml
+  href: https://artifacts.apis.io/nextdoor/authentication/nextdoor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nextdoor-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/scopes/nextdoor-scopes.yml
+  href: https://artifacts.apis.io/nextdoor/scopes/nextdoor-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nextdoor-scopes.yml
@@ -180,7 +179,7 @@ finops:
 - has_sources: false
   method: generated
   name: Nextdoor Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: nextdoor-finops
   template: true
@@ -202,7 +201,7 @@ plans:
 - name: Nextdoor Plans Pricing
   plan_count: 3
   slug: nextdoor-plans-pricing
-random_paper: 3
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Nextdoor Rate Limits
@@ -214,7 +213,7 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: thin
-  composite: 27.1
+  composite: 31.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 38.0
@@ -222,15 +221,15 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 40.4
-    developer_ergonomics: 26.2
-    discoverability: 66.7
-    operational_transparency: 18.4
-  previous_composite: 28.6
+    developer_ergonomics: 31.0
+    discoverability: 64.3
+    operational_transparency: 39.5
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
@@ -245,13 +244,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/screenshots/nextdoor-2026-06-20T190257.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nextdoor/nextdoor-2026-06-20T190257.png
 security:
 - kind: authentication
   name: Nextdoor Authentication

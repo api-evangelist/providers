@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Provisioning, managing and monitoring infrastructure via Hivelocity's developer portal.
@@ -32,42 +34,42 @@ apis:
 artifact_total: 5
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hivelocity/refs/heads/main/rate-limits/hivelocity-rate-limits.yml
+  href: https://artifacts.apis.io/hivelocity/rate-limits/hivelocity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hivelocity-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hivelocity/refs/heads/main/plans/hivelocity-plans-pricing.yml
+  href: https://artifacts.apis.io/hivelocity/plans/hivelocity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hivelocity-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hivelocity/refs/heads/main/changelog/hivelocity-changelog.yml
+  href: https://artifacts.apis.io/hivelocity/changelog/hivelocity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hivelocity-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hivelocity/refs/heads/main/authentication/hivelocity-authentication.yml
+  href: https://artifacts.apis.io/hivelocity/authentication/hivelocity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hivelocity-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hivelocity/refs/heads/main/llms/hivelocity-llms.txt
+  href: https://artifacts.apis.io/hivelocity/llms/hivelocity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hivelocity-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hivelocity/refs/heads/main/well-known/hivelocity-well-known.yml
+  href: https://artifacts.apis.io/hivelocity/well-known/hivelocity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hivelocity-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hivelocity/refs/heads/main/hosts/hivelocity-hosts.yml
+  href: https://artifacts.apis.io/hivelocity/hosts/hivelocity-hosts.yml
   title: ''
   type: Hosts
   url: hosts/hivelocity-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hivelocity/refs/heads/main/vendors/hivelocity-vendors.yml
+  href: https://artifacts.apis.io/hivelocity/vendors/hivelocity-vendors.yml
   title: ''
   type: Vendors
   url: vendors/hivelocity-vendors.yml
@@ -84,7 +86,7 @@ common:
   type: ChangeLog
   url: https://developers.hivelocity.net/changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hivelocity/refs/heads/main/security/hivelocity-domain-security.yml
+  href: https://artifacts.apis.io/hivelocity/security/hivelocity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hivelocity-domain-security.yml
@@ -144,7 +146,7 @@ modified: '2026-10-14'
 name: Hivelocity
 nav: Providers
 network: true
-overview: 'Hivelocity is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud, Hosting, BareMetal, VPS, and Colocation.
+overview: 'Hivelocity is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud, Hosting, Bare Metal, VPS, and Colocation.
 
 
   Hivelocity''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 15 more developer resources.'
@@ -152,14 +154,14 @@ plans:
 - name: Hivelocity Plans Pricing
   plan_count: 17
   slug: hivelocity-plans-pricing
-random_paper: 10
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Hivelocity Rate Limits
   slug: hivelocity-rate-limits
 score:
   band: thin
-  composite: 37.3
+  composite: 36.6
   coverage:
     artifact_dirs: 10
     catalog_earned: 52.0
@@ -167,13 +169,15 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 55.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 68.4
+  previous_composite: 36.6
   provenance:
     mcp: derived
   regulatory:
@@ -182,8 +186,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -201,7 +206,7 @@ slug: hivelocity
 tags:
 - Cloud
 - Hosting
-- BareMetal
+- Bare Metal
 - VPS
 - Colocation
 - Infrastructure

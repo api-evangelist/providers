@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 20.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: The Products API from BJ's Wholesale Club — 2 operation(s) for products.
   name: BJ's Wholesale Club Products API
   slug: bjs-wholesale-club-products-api
-artifact_total: 44
+artifact_total: 43
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: BJ's Wholesale Club Partner Clubs API
   slug: open-bjs-wholesale-club-clubs-api
@@ -92,37 +91,37 @@ collections:
   slug: open-bjs-wholesale-club-products-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/plans/bjs-wholesale-club-plans-pricing.yml
+  href: https://artifacts.apis.io/bjs-wholesale-club/plans/bjs-wholesale-club-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bjs-wholesale-club-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/rate-limits/bjs-wholesale-club-rate-limits.yml
+  href: https://artifacts.apis.io/bjs-wholesale-club/rate-limits/bjs-wholesale-club-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bjs-wholesale-club-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/finops/bjs-wholesale-club-finops.yml
+  href: https://artifacts.apis.io/bjs-wholesale-club/finops/bjs-wholesale-club-finops.yml
   title: ''
   type: FinOps
   url: finops/bjs-wholesale-club-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/capabilities/bjs-wholesale-club-capability-edges.yml
+  href: https://artifacts.apis.io/bjs-wholesale-club/capabilities/bjs-wholesale-club-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bjs-wholesale-club-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/agentic-access/bjs-wholesale-club-agentic-access.yml
+  href: https://artifacts.apis.io/bjs-wholesale-club/agentic-access/bjs-wholesale-club-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bjs-wholesale-club-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/security/bjs-wholesale-club-domain-security.yml
+  href: https://artifacts.apis.io/bjs-wholesale-club/security/bjs-wholesale-club-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bjs-wholesale-club-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/authentication/bjs-wholesale-club-authentication.yml
+  href: https://artifacts.apis.io/bjs-wholesale-club/authentication/bjs-wholesale-club-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bjs-wholesale-club-authentication.yml
@@ -147,12 +146,12 @@ common:
   type: Support
   url: https://www.bjs.com/content/help-center
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/rules/bjs-spectral-rules.yml
+  href: https://artifacts.apis.io/bjs-wholesale-club/rules/bjs-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/bjs-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/vocabulary/bjs-vocabulary.yaml
+  href: https://artifacts.apis.io/bjs-wholesale-club/vocabulary/bjs-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/bjs-vocabulary.yaml
@@ -185,7 +184,7 @@ finops:
 - has_sources: false
   method: generated
   name: Bjs Wholesale Club Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: bjs-wholesale-club-finops
   template: true
@@ -238,7 +237,7 @@ plans:
 - name: Bjs Wholesale Club Plans Pricing
   plan_count: 3
   slug: bjs-wholesale-club-plans-pricing
-random_paper: 13
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Bjs Wholesale Club Rate Limits
@@ -280,7 +279,7 @@ rules:
   slug: bjs-wholesale-club-spectral-rules
 score:
   band: developing
-  composite: 39.5
+  composite: 40.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 59.0
@@ -288,7 +287,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 27.3
@@ -296,7 +295,7 @@ score:
     developer_ergonomics: 26.2
     discoverability: 48.2
     operational_transparency: 7.9
-  previous_composite: 45.3
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     contracts:
@@ -310,13 +309,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/screenshots/bjs-wholesale-club-2026-10-11T183857.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bjs-wholesale-club/bjs-wholesale-club-2026-10-11T183857.png
 security:
 - kind: authentication
   name: Bjs Wholesale Club Authentication

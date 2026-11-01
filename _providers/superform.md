@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 21.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -119,11 +121,8 @@ apis:
   description: The Vault API from Superform — 3 operation(s) for vault.
   name: Superform Vault API
   slug: superform-vault-api
-artifact_total: 34
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Superform Auxiliary API
   slug: open-superform-auxiliary-api
@@ -175,7 +174,7 @@ common:
   type: BlogRSS
   url: https://blog.superform.xyz/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/overlays/superform-api-overlay.yaml
+  href: https://artifacts.apis.io/superform/overlays/superform-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/superform-api-overlay.yaml
@@ -212,52 +211,52 @@ common:
   type: Blog
   url: https://mirror.xyz/superform.eth
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/llms/superform-llms.txt
+  href: https://artifacts.apis.io/superform/llms/superform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/superform-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/mcp/superform-mcp.yml
+  href: https://artifacts.apis.io/superform/mcp/superform-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/superform-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/authentication/superform-authentication.yml
+  href: https://artifacts.apis.io/superform/authentication/superform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/superform-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/conventions/superform-conventions.yml
+  href: https://artifacts.apis.io/superform/conventions/superform-conventions.yml
   title: ''
   type: Conventions
   url: conventions/superform-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/lifecycle/superform-lifecycle.yml
+  href: https://artifacts.apis.io/superform/lifecycle/superform-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/superform-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/conformance/superform-conformance.yml
+  href: https://artifacts.apis.io/superform/conformance/superform-conformance.yml
   title: ''
   type: Conformance
   url: conformance/superform-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/data-model/superform-data-model.yml
+  href: https://artifacts.apis.io/superform/data-model/superform-data-model.yml
   title: ''
   type: DataModel
   url: data-model/superform-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/superform/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/agentic-access/superform-agentic-access.yml
+  href: https://artifacts.apis.io/superform/agentic-access/superform-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/superform-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/security/superform-domain-security.yml
+  href: https://artifacts.apis.io/superform/security/superform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/superform-domain-security.yml
@@ -273,10 +272,10 @@ overview: 'Superform publishes 15 API contracts indexed on the [APIs.io](https:/
 
 
   Superform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 5
+random_paper: 11
 score:
   band: thin
-  composite: 31.2
+  composite: 32.0
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -284,15 +283,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 48.5
-    developer_ergonomics: 56.5
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 31.1
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -309,13 +308,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/screenshots/superform-2026-09-02T161235.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/superform/superform-2026-09-02T161235.png
 security:
 - kind: authentication
   name: Superform Authentication
@@ -325,6 +325,12 @@ security:
   name: Superform Domain Security
   slug: superform-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Deposit into a Superform vault
+  slug: superform-deposit-into-vault
+- name: Track a wallet's Superform portfolio and rewards
+  slug: superform-track-portfolio-and-rewards
 slug: superform
 tags:
 - Company

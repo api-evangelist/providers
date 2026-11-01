@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.6
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 1
   slug: albacross-agentic-access
   summary_line: 1 operation
-api_count: 4
+api_count: 1
 apis:
 - description: 'Resolves a website domain to the same firmographic company record the Reveal API returns — name, country, registration number, description, founded year, address, LinkedIn URL, employee band, revenue '
   name: Albacross Enrich API
@@ -57,7 +59,7 @@ apis:
   description: The Company API from Albacross — 1 operation(s) for company.
   name: Albacross Company API
   slug: albacross-company-api
-artifact_total: 10
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Albacross Webhooks
@@ -72,17 +74,17 @@ common:
   type: License
   url: https://github.com/albacross/n8n-nodes-albacross/blob/main/LICENSE
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/overlays/albacross-reveal-overlay.yaml
+  href: https://artifacts.apis.io/albacross/overlays/albacross-reveal-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/albacross-reveal-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/security/albacross-domain-security.yml
+  href: https://artifacts.apis.io/albacross/security/albacross-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/albacross-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/agentic-access/albacross-agentic-access.yml
+  href: https://artifacts.apis.io/albacross/agentic-access/albacross-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/albacross-agentic-access.yml
@@ -107,7 +109,7 @@ common:
   type: GettingStarted
   url: https://docs.albacross.com/authentication
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/authentication/albacross-authentication.yml
+  href: https://artifacts.apis.io/albacross/authentication/albacross-authentication.yml
   title: ''
   type: Authentication
   url: authentication/albacross-authentication.yml
@@ -156,67 +158,67 @@ common:
   type: Postman
   url: https://reveal.api.albacross.com/public/postman_collection.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/llms/albacross-llms.txt
+  href: https://artifacts.apis.io/albacross/llms/albacross-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/albacross-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/packages/albacross-packages.yml
+  href: https://artifacts.apis.io/albacross/packages/albacross-packages.yml
   title: ''
   type: Packages
   url: packages/albacross-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/packages/albacross-packages.yml
+  href: https://artifacts.apis.io/albacross/packages/albacross-packages.yml
   title: ''
   type: SDKs
   url: packages/albacross-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/plans/albacross-plans-pricing.yml
+  href: https://artifacts.apis.io/albacross/plans/albacross-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/albacross-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/rate-limits/albacross-rate-limits.yml
+  href: https://artifacts.apis.io/albacross/rate-limits/albacross-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/albacross-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/conventions/albacross-conventions.yml
+  href: https://artifacts.apis.io/albacross/conventions/albacross-conventions.yml
   title: ''
   type: Conventions
   url: conventions/albacross-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/errors/albacross-problem-types.yml
+  href: https://artifacts.apis.io/albacross/errors/albacross-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/albacross-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/lifecycle/albacross-lifecycle.yml
+  href: https://artifacts.apis.io/albacross/lifecycle/albacross-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/albacross-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/data-model/albacross-data-model.yml
+  href: https://artifacts.apis.io/albacross/data-model/albacross-data-model.yml
   title: ''
   type: DataModel
   url: data-model/albacross-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/conformance/albacross-conformance.yml
+  href: https://artifacts.apis.io/albacross/conformance/albacross-conformance.yml
   title: ''
   type: Conformance
   url: conformance/albacross-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/asyncapi/albacross-webhooks.yml
+  href: https://artifacts.apis.io/albacross/asyncapi/albacross-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/albacross-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/albacross/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/components/albacross-components.yml
+  href: https://artifacts.apis.io/albacross/components/albacross-components.yml
   title: ''
   type: Components
   url: components/albacross-components.yml
@@ -238,6 +240,14 @@ common:
   url: https://career.albacross.com/
 created: '2026-08-12'
 description: Albacross is a Stockholm-founded B2B intent data and lead generation platform that identifies anonymous website visitors by IP, enriches them with firmographic data, segments them by buying intent using AI, and auto-engages high-intent prospects through email and LinkedIn sequences. For developers it exposes a small, key-authenticated HTTP surface on api.albacross.com — a Reveal API that resolves an IPv4 address to a company profile, an Enrich API that resolves a website domain to the same firmographic record (name, country, registration number, address, LinkedIn URL, employee band, revenue band, NACE and LinkedIn industry codes), and an n8n automation API for registering lead webhooks. Outbound webhooks push identified-company leads into workflows in real time. The company publishes an OpenAPI 3.0.3 document for the Reveal API and an llms.txt at its website root.
+finops:
+- has_sources: true
+  method: derived
+  name: Albacross Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: albacross-finops
+  template: false
 image: https://albacross.com/albacross-logo.png
 layout: provider
 modified: '2026-08-12'
@@ -253,40 +263,43 @@ overview: 'Albacross publishes 3 API contracts indexed on the [APIs.io](https://
   Albacross'' developer surface includes documentation, API reference, getting-started guide, authentication, support, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Albacross Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: albacross-plans-pricing
-random_paper: 8
+- name: Albacross Price Estimates
+  plan_count: 0
+  slug: albacross-price-estimates
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Albacross Rate Limits
   slug: albacross-rate-limits
 score:
   band: developing
-  composite: 46.9
+  composite: 51.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 1.0
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 51.5
-    developer_ergonomics: 37.5
-    discoverability: 79.5
-    operational_transparency: 10.5
-  previous_composite: 46.3
+    contract_quality: 43.7
+    developer_ergonomics: 68.5
+    discoverability: 67.9
+    operational_transparency: 13.2
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 1
+      derived: 1
+      marker_coverage: 25.0
+      total: 4
     mcp: derived
     skills: derived
   regulatory:
@@ -295,14 +308,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/screenshots/albacross-2026-08-17T080546.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/albacross/albacross-2026-08-17T080546.png
 security:
 - kind: authentication
   name: Albacross Authentication
@@ -312,6 +325,14 @@ security:
   name: Albacross Domain Security
   slug: albacross-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Enrich a company from a website domain
+  slug: albacross-enrich-domain-to-company
+- name: Register a lead webhook and receive identified companies
+  slug: albacross-register-lead-webhook
+- name: Reveal a company from an IPv4 address
+  slug: albacross-reveal-ip-to-company
 slug: albacross
 tags:
 - Company

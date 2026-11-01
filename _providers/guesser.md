@@ -24,7 +24,7 @@ name: Guesser
 nav: Providers
 network: true
 overview: Guesser is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Acquired, Predictions, Gemini, and Version One Ventures.
-random_paper: 18
+random_paper: 22
 slug: guesser
 tags:
 - Company

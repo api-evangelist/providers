@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: Details and summary information for member accounts, including name, status, activity dates, balances, and more. Part of Navy Federal's consumer- permissioned Open Banking API Catalog; access is gated
@@ -64,12 +66,12 @@ apis:
 artifact_total: 11
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navy-federal-credit-union/refs/heads/main/security/navy-federal-credit-union-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/navy-federal-credit-union/security/navy-federal-credit-union-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/navy-federal-credit-union-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navy-federal-credit-union/refs/heads/main/security/navy-federal-credit-union-domain-security.yml
+  href: https://artifacts.apis.io/navy-federal-credit-union/security/navy-federal-credit-union-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/navy-federal-credit-union-domain-security.yml
@@ -122,17 +124,17 @@ common:
   type: Blog
   url: https://www.navyfederal.org/makingcents.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/navy-federal-credit-union/refs/heads/main/llms/navy-federal-credit-union-llms.txt
+  href: https://artifacts.apis.io/navy-federal-credit-union/llms/navy-federal-credit-union-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/navy-federal-credit-union-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/navy-federal-credit-union/refs/heads/main/well-known/navy-federal-credit-union-well-known.yml
+  href: https://artifacts.apis.io/navy-federal-credit-union/well-known/navy-federal-credit-union-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/navy-federal-credit-union-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navy-federal-credit-union/refs/heads/main/well-known/navy-federal-credit-union-security.txt
+  href: https://artifacts.apis.io/navy-federal-credit-union/well-known/navy-federal-credit-union-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/navy-federal-credit-union-security.txt
@@ -141,12 +143,12 @@ common:
   type: Security
   url: https://navyfederal.responsibledisclosure.com/hc/en-us
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navy-federal-credit-union/refs/heads/main/authentication/navy-federal-credit-union-authentication.yml
+  href: https://artifacts.apis.io/navy-federal-credit-union/authentication/navy-federal-credit-union-authentication.yml
   title: ''
   type: Authentication
   url: authentication/navy-federal-credit-union-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/navy-federal-credit-union/refs/heads/main/conformance/navy-federal-credit-union-conformance.yml
+  href: https://artifacts.apis.io/navy-federal-credit-union/conformance/navy-federal-credit-union-conformance.yml
   title: ''
   type: Conformance
   url: conformance/navy-federal-credit-union-conformance.yml
@@ -163,10 +165,10 @@ overview: 'Navy Federal Credit Union is listed with 8 APIs on the [APIs.io](http
 
 
   Navy Federal Credit Union''s developer surface includes documentation, signup flow, support, API reference, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 6
+random_paper: 20
 score:
   band: thin
-  composite: 28.5
+  composite: 27.8
   coverage:
     artifact_dirs: 10
     catalog_earned: 35.0
@@ -180,7 +182,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -189,7 +191,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 28.5
+  previous_composite: 27.8
   provenance:
     conformance: first-party
   regulatory:
@@ -198,14 +200,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/navy-federal-credit-union/refs/heads/main/screenshots/navy-federal-credit-union-2026-08-07T184739.png
+screenshot: https://apis.io/screenshots/navy-federal-credit-union/navy-federal-credit-union-2026-08-07T184739.png
 security:
 - kind: authentication
   name: Navy Federal Credit Union Authentication

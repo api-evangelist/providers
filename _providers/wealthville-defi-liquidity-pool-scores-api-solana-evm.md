@@ -13,7 +13,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -22,22 +21,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: documented
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.7
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 35.4
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://wealthville.net/api/v1
   baseurl_source: declared
@@ -57,9 +58,6 @@ apis:
 artifact_total: 15
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Wealthville Public Data Scores API
   slug: open-wealthville-defi-liquidity-pool-scores-api-solana-evm-scores-api
 - collection_type: open
@@ -74,12 +72,12 @@ common:
   type: Website
   url: https://www.wealthville.net/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/overlays/wealthville-defi-liquidity-pool-scores-api-solana-evm-public-data-overlay.yaml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/overlays/wealthville-defi-liquidity-pool-scores-api-solana-evm-public-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wealthville-defi-liquidity-pool-scores-api-solana-evm-public-data-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/security/wealthville-defi-liquidity-pool-scores-api-solana-evm-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/security/wealthville-defi-liquidity-pool-scores-api-solana-evm-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wealthville-defi-liquidity-pool-scores-api-solana-evm-vulnerability-disclosure.yml
@@ -88,82 +86,82 @@ common:
   type: Security
   url: https://wealthville.net/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/security/wealthville-defi-liquidity-pool-scores-api-solana-evm-domain-security.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/security/wealthville-defi-liquidity-pool-scores-api-solana-evm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wealthville-defi-liquidity-pool-scores-api-solana-evm-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/authentication/wealthville-defi-liquidity-pool-scores-api-solana-evm-authentication.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/authentication/wealthville-defi-liquidity-pool-scores-api-solana-evm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wealthville-defi-liquidity-pool-scores-api-solana-evm-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/mcp/wealthville-defi-liquidity-pool-scores-api-solana-evm-mcp.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/mcp/wealthville-defi-liquidity-pool-scores-api-solana-evm-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/wealthville-defi-liquidity-pool-scores-api-solana-evm-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/mcp/wealthville-defi-liquidity-pool-scores-api-solana-evm-tool-crosswalk.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/mcp/wealthville-defi-liquidity-pool-scores-api-solana-evm-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/wealthville-defi-liquidity-pool-scores-api-solana-evm-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/packages/wealthville-defi-liquidity-pool-scores-api-solana-evm-packages.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/packages/wealthville-defi-liquidity-pool-scores-api-solana-evm-packages.yml
   title: ''
   type: Packages
   url: packages/wealthville-defi-liquidity-pool-scores-api-solana-evm-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/packages/wealthville-defi-liquidity-pool-scores-api-solana-evm-packages.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/packages/wealthville-defi-liquidity-pool-scores-api-solana-evm-packages.yml
   title: ''
   type: SDKs
   url: packages/wealthville-defi-liquidity-pool-scores-api-solana-evm-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/llms/wealthville-defi-liquidity-pool-scores-api-solana-evm-llms.txt
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/llms/wealthville-defi-liquidity-pool-scores-api-solana-evm-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wealthville-defi-liquidity-pool-scores-api-solana-evm-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/well-known/wealthville-defi-liquidity-pool-scores-api-solana-evm-well-known.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/well-known/wealthville-defi-liquidity-pool-scores-api-solana-evm-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wealthville-defi-liquidity-pool-scores-api-solana-evm-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/conventions/wealthville-defi-liquidity-pool-scores-api-solana-evm-conventions.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/conventions/wealthville-defi-liquidity-pool-scores-api-solana-evm-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wealthville-defi-liquidity-pool-scores-api-solana-evm-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/conventions/wealthville-defi-liquidity-pool-scores-api-solana-evm-conventions.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/conventions/wealthville-defi-liquidity-pool-scores-api-solana-evm-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/wealthville-defi-liquidity-pool-scores-api-solana-evm-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/rate-limits/wealthville-defi-liquidity-pool-scores-api-solana-evm-rate-limits.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/rate-limits/wealthville-defi-liquidity-pool-scores-api-solana-evm-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wealthville-defi-liquidity-pool-scores-api-solana-evm-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/errors/wealthville-defi-liquidity-pool-scores-api-solana-evm-problem-types.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/errors/wealthville-defi-liquidity-pool-scores-api-solana-evm-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wealthville-defi-liquidity-pool-scores-api-solana-evm-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/lifecycle/wealthville-defi-liquidity-pool-scores-api-solana-evm-lifecycle.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/lifecycle/wealthville-defi-liquidity-pool-scores-api-solana-evm-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wealthville-defi-liquidity-pool-scores-api-solana-evm-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/conformance/wealthville-defi-liquidity-pool-scores-api-solana-evm-conformance.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/conformance/wealthville-defi-liquidity-pool-scores-api-solana-evm-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wealthville-defi-liquidity-pool-scores-api-solana-evm-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/data-model/wealthville-defi-liquidity-pool-scores-api-solana-evm-data-model.yml
+  href: https://artifacts.apis.io/wealthville-defi-liquidity-pool-scores-api-solana-evm/data-model/wealthville-defi-liquidity-pool-scores-api-solana-evm-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wealthville-defi-liquidity-pool-scores-api-solana-evm-data-model.yml
@@ -225,14 +223,14 @@ overview: 'WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) publish
 
 
   WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM)''s developer surface includes authentication, API reference, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 17
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Wealthville Defi Liquidity Pool Scores Api Solana Evm Rate Limits
   slug: wealthville-defi-liquidity-pool-scores-api-solana-evm-rate-limits
 score:
   band: developing
-  composite: 45.7
+  composite: 45.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 45.0
@@ -246,9 +244,9 @@ score:
     contract_governance: 4.5
     contract_quality: 50.9
     developer_ergonomics: 59.5
-    discoverability: 75.0
-    operational_transparency: 34.2
-  previous_composite: 45.7
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 45.1
   provenance:
     conformance: derived
     contracts:
@@ -264,14 +262,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/screenshots/wealthville-defi-liquidity-pool-scores-api-solana-evm-2026-08-17T082848.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wealthville-defi-liquidity-pool-scores-api-solana-evm/wealthville-defi-liquidity-pool-scores-api-solana-evm-2026-08-17T082848.png
 security:
 - kind: authentication
   name: Wealthville Defi Liquidity Pool Scores Api Solana Evm Authentication
@@ -285,6 +283,10 @@ security:
   name: Wealthville Defi Liquidity Pool Scores Api Solana Evm Vulnerability Disclosure
   slug: wealthville-defi-liquidity-pool-scores-api-solana-evm-vulnerability-disclosure
   summary_line: contact published
+skill_count: 1
+skills:
+- name: wealthville
+  slug: wealthville-defi-liquidity-pool-scores-api-solana-evm-pool-scoring
 slug: wealthville-defi-liquidity-pool-scores-api-solana-evm
 tags:
 - DeFi

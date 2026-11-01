@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -37,17 +39,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/by-miles/refs/heads/main/security/by-miles-domain-security.yml
+  href: https://artifacts.apis.io/by-miles/security/by-miles-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/by-miles-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/by-miles/refs/heads/main/security/by-miles-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/by-miles/security/by-miles-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/by-miles-vulnerability-disclosure.yml
@@ -60,17 +62,17 @@ common:
   type: Compliance
   url: https://www.bymiles.co.uk/information-security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/by-miles/refs/heads/main/conformance/by-miles-conformance.yml
+  href: https://artifacts.apis.io/by-miles/conformance/by-miles-conformance.yml
   title: ''
   type: Conformance
   url: conformance/by-miles-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/by-miles/refs/heads/main/lifecycle/by-miles-lifecycle.yml
+  href: https://artifacts.apis.io/by-miles/lifecycle/by-miles-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/by-miles-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/by-miles/refs/heads/main/llms/by-miles-llms.txt
+  href: https://artifacts.apis.io/by-miles/llms/by-miles-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/by-miles-llms.txt
@@ -142,7 +144,7 @@ overview: 'By Miles is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 10
 score:
   band: emerging
-  composite: 18.1
+  composite: 20.5
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -152,12 +154,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 56.3
-    operational_transparency: 2.6
+    discoverability: 50.0
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -166,7 +168,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 18.1
+  previous_composite: 20.5
   provenance:
     conformance: first-party
   regulatory:
@@ -179,14 +181,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/by-miles/refs/heads/main/screenshots/by-miles-2026-07-25T204131.png
+screenshot: https://apis.io/screenshots/by-miles/by-miles-2026-07-25T204131.png
 security:
 - kind: domain-security
   name: By Miles Domain Security

@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.3
-  scored_at: '2026-10-17'
+  score: 39.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 2
@@ -175,9 +177,6 @@ apis:
 artifact_total: 62
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Hub API Endpoints agentic-provisioning API
   slug: open-hugging-face-transformers-agentic-provisioning-api
 - collection_type: open
@@ -251,22 +250,22 @@ collections:
   slug: open-hugging-face-transformers
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/plans/hugging-face-transformers-plans-pricing.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/plans/hugging-face-transformers-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hugging-face-transformers-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/rate-limits/hugging-face-transformers-rate-limits.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/rate-limits/hugging-face-transformers-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hugging-face-transformers-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/finops/hugging-face-transformers-finops.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/finops/hugging-face-transformers-finops.yml
   title: ''
   type: FinOps
   url: finops/hugging-face-transformers-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/capabilities/hugging-face-transformers-capability-edges.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/capabilities/hugging-face-transformers-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hugging-face-transformers-capability-edges.yml
@@ -291,97 +290,97 @@ common:
   type: License
   url: https://github.com/huggingface/transformers/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/agentic-access/hugging-face-transformers-agentic-access.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/agentic-access/hugging-face-transformers-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hugging-face-transformers-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/security/hugging-face-transformers-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/security/hugging-face-transformers-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hugging-face-transformers-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/security/hugging-face-transformers-domain-security.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/security/hugging-face-transformers-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hugging-face-transformers-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/authentication/hugging-face-transformers-authentication.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/authentication/hugging-face-transformers-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hugging-face-transformers-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/scopes/hugging-face-transformers-scopes.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/scopes/hugging-face-transformers-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hugging-face-transformers-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/packages/hugging-face-transformers-packages.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/packages/hugging-face-transformers-packages.yml
   title: ''
   type: Packages
   url: packages/hugging-face-transformers-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/well-known/hugging-face-transformers-well-known.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/well-known/hugging-face-transformers-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hugging-face-transformers-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/well-known/hugging-face-transformers-security.txt
+  href: https://artifacts.apis.io/hugging-face-transformers/well-known/hugging-face-transformers-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/hugging-face-transformers-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/mcp/hugging-face-transformers-mcp.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/mcp/hugging-face-transformers-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hugging-face-transformers-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/llms/hugging-face-transformers-llms.txt
+  href: https://artifacts.apis.io/hugging-face-transformers/llms/hugging-face-transformers-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hugging-face-transformers-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/overlays/hugging-face-transformers-hub-overlay.yaml
+  href: https://artifacts.apis.io/hugging-face-transformers/overlays/hugging-face-transformers-hub-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hugging-face-transformers-hub-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/conformance/hugging-face-transformers-conformance.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/conformance/hugging-face-transformers-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hugging-face-transformers-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/errors/hugging-face-transformers-problem-types.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/errors/hugging-face-transformers-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hugging-face-transformers-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/lifecycle/hugging-face-transformers-lifecycle.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/lifecycle/hugging-face-transformers-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hugging-face-transformers-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/conventions/hugging-face-transformers-conventions.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/conventions/hugging-face-transformers-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hugging-face-transformers-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/changelog/hugging-face-transformers-changelog.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/changelog/hugging-face-transformers-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hugging-face-transformers-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/cli/hugging-face-transformers-cli.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/cli/hugging-face-transformers-cli.yml
   title: ''
   type: CLI
   url: cli/hugging-face-transformers-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/components/hugging-face-transformers-components.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/components/hugging-face-transformers-components.yml
   title: ''
   type: Components
   url: components/hugging-face-transformers-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/data-model/hugging-face-transformers-data-model.yml
+  href: https://artifacts.apis.io/hugging-face-transformers/data-model/hugging-face-transformers-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hugging-face-transformers-data-model.yml
@@ -440,17 +439,17 @@ common:
 created: '2024'
 description: Hugging Face Transformers is an open-source machine learning library providing thousands of pretrained models and pipelines for Natural Language Processing, Computer Vision, Audio, and multimodal tasks. This index covers the Transformers library and the surrounding Hugging Face APIs that developers use to run inference, manage models, deploy demos, and serve LLMs at scale.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Hugging Face Transformers Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: tb public repositories
+  service_category: ''
   slug: hugging-face-transformers-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hugging-face-transformers.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at huggingface.co; 7 tools listed.
+- description: Remote MCP server at huggingface.co; 4 tools listed.
   name: Hugging Face Transformers MCP Server
   slug: hugging-face
 modified: '2026-06-20'
@@ -463,9 +462,12 @@ overview: 'Hugging Face Transformers publishes 27 API contracts indexed on the [
   Hugging Face Transformers'' developer surface includes authentication, changelog, CLI, engineering blog, documentation, YouTube channel, signup flow, and 34 more developer resources.'
 plans:
 - name: Hugging Face Transformers Plans Pricing
-  plan_count: 3
+  plan_count: 14
   slug: hugging-face-transformers-plans-pricing
-random_paper: 0
+- name: Hugging Face Transformers Price Estimates
+  plan_count: 0
+  slug: hugging-face-transformers-price-estimates
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Hugging Face Transformers Rate Limits
@@ -476,27 +478,29 @@ scopes:
   slug: hugging-face-transformers-scopes
   summary_line: 15 scopes · authorizationCode/deviceCode
 score:
-  band: strong
-  composite: 58.6
+  band: developing
+  composite: 52.9
   coverage:
     artifact_dirs: 28
-    catalog_earned: 38.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_earned: 50.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 50.4
+    contract_quality: 46.2
     developer_ergonomics: 49.3
-    discoverability: 60.0
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 60.0
+    discoverability: 56.7
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -504,7 +508,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 23
+      total: 46
     mcp: first-party
   regulatory:
     applies: true
@@ -512,13 +516,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/screenshots/hugging-face-transformers-2026-06-20T182926.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hugging-face-transformers/hugging-face-transformers-2026-06-20T182926.png
 security:
 - kind: authentication
   name: Hugging Face Transformers Authentication

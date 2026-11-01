@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,12 +66,12 @@ common:
   type: Facebook
   url: https://www.facebook.com/wrightspeedpowertrains
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wrightspeed/refs/heads/main/security/wrightspeed-domain-security.yml
+  href: https://artifacts.apis.io/wrightspeed/security/wrightspeed-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wrightspeed-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wrightspeed/refs/heads/main/llms/wrightspeed-llms.txt
+  href: https://artifacts.apis.io/wrightspeed/llms/wrightspeed-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wrightspeed-llms.txt
@@ -106,7 +108,7 @@ name: Wrightspeed
 nav: Providers
 network: true
 overview: Wrightspeed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Electric Vehicles, Powertrains, and Commercial Fleets.
-random_paper: 2
+random_paper: 14
 score:
   band: minimal
   composite: 8.8
@@ -132,14 +134,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wrightspeed/refs/heads/main/screenshots/wrightspeed-2026-10-11T194619.png
+screenshot: https://apis.io/screenshots/wrightspeed/wrightspeed-2026-10-11T194619.png
 security:
 - kind: domain-security
   name: Wrightspeed Domain Security

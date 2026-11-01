@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-17'
+  score: 30.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 3
@@ -202,7 +204,7 @@ apis:
   description: Authenticated API for initiating asset transfers between trading accounts.
   name: Bullish Transfer API
   slug: bullish-transfer-api
-artifact_total: 69
+artifact_total: 73
 asyncapis:
 - description: 'The Auction Feed provides real-time auction data for markets with auctions enabled. Two topics are available: - `noii` - Net Order Imbalance Indicator (NOII) updates. Available during the Lockdown pha'
   name: Auction Feed
@@ -223,9 +225,6 @@ asyncapis:
   name: Anonymous Trades
   slug: bullish-ws-trades-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bullish Trading Account Assets API
   slug: open-bullish-account-assets-api
@@ -300,22 +299,22 @@ collections:
   slug: open-bullish-transfer-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/capabilities/bullish-capability-edges.yml
+  href: https://artifacts.apis.io/bullish/capabilities/bullish-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bullish-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/mcp/bullish-mcp.yml
+  href: https://artifacts.apis.io/bullish/mcp/bullish-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bullish-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/agentic-access/bullish-agentic-access.yml
+  href: https://artifacts.apis.io/bullish/agentic-access/bullish-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bullish-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/security/bullish-domain-security.yml
+  href: https://artifacts.apis.io/bullish/security/bullish-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bullish-domain-security.yml
@@ -340,27 +339,27 @@ common:
   type: GettingStarted
   url: https://docs.exchange.bullish.com/rest/introduction
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/authentication/bullish-authentication.yml
+  href: https://artifacts.apis.io/bullish/authentication/bullish-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bullish-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/openapi/_original/bullish-trading-api-openapi.yml
+  href: https://artifacts.apis.io/bullish/openapi/_original/bullish-trading-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/bullish-trading-api-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/asyncapi/bullish-ws-private-data-asyncapi.yml
+  href: https://artifacts.apis.io/bullish/asyncapi/bullish-ws-private-data-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/bullish-ws-private-data-asyncapi.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/changelog/bullish-changelog.yml
+  href: https://artifacts.apis.io/bullish/changelog/bullish-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bullish-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/lifecycle/bullish-lifecycle.yml
+  href: https://artifacts.apis.io/bullish/lifecycle/bullish-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bullish-lifecycle.yml
@@ -373,27 +372,27 @@ common:
   type: Deprecation
   url: https://docs.exchange.bullish.com/rest/deprecated/bullish-deprecated-features-apis
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/errors/bullish-error-codes.yml
+  href: https://artifacts.apis.io/bullish/errors/bullish-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/bullish-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/rate-limits/bullish-rate-limits.yml
+  href: https://artifacts.apis.io/bullish/rate-limits/bullish-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bullish-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/conventions/bullish-conventions.yml
+  href: https://artifacts.apis.io/bullish/conventions/bullish-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bullish-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/packages/bullish-packages.yml
+  href: https://artifacts.apis.io/bullish/packages/bullish-packages.yml
   title: ''
   type: Packages
   url: packages/bullish-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/packages/bullish-packages.yml
+  href: https://artifacts.apis.io/bullish/packages/bullish-packages.yml
   title: ''
   type: SDKs
   url: packages/bullish-packages.yml
@@ -446,37 +445,37 @@ common:
   type: Compliance
   url: https://www.bullish.com/us/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/security/bullish-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bullish/security/bullish-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bullish-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/conformance/bullish-conformance.yml
+  href: https://artifacts.apis.io/bullish/conformance/bullish-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bullish-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/sandbox/bullish-sandbox.yml
+  href: https://artifacts.apis.io/bullish/sandbox/bullish-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bullish-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/data-model/bullish-data-model.yml
+  href: https://artifacts.apis.io/bullish/data-model/bullish-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bullish-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/llms/bullish-llms.txt
+  href: https://artifacts.apis.io/bullish/llms/bullish-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bullish-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/overlays/bullish-trading-api-overlay.yaml
+  href: https://artifacts.apis.io/bullish/overlays/bullish-trading-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bullish-trading-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bullish/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -496,14 +495,14 @@ overview: 'Bullish publishes 32 API contracts indexed on the [APIs.io](https://a
 
 
   Bullish''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 33 more developer resources.'
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Bullish Rate Limits
   slug: bullish-rate-limits
 score:
   band: strong
-  composite: 60.9
+  composite: 62.5
   coverage:
     artifact_dirs: 25
     catalog_earned: 49.0
@@ -511,15 +510,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 57.3
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 84.2
-  previous_composite: 60.8
+    discoverability: 66.1
+    operational_transparency: 86.8
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -536,13 +535,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 40.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/screenshots/bullish-2026-08-17T080736.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bullish/bullish-2026-08-17T080736.png
 security:
 - kind: authentication
   name: Bullish Authentication
@@ -560,6 +560,18 @@ security:
   name: Bullish Trust Center
   slug: bullish-trust-center
   summary_line: SOC 1 Type 1, SOC 2 Type 1
+skill_count: 5
+skills:
+- name: Authenticate to the Bullish Trading API and hold a session
+  slug: bullish-authenticate-and-session
+- name: Book and settle a Bullish OTC trade
+  slug: bullish-book-otc-trade
+- name: Deposit to and withdraw from Bullish custody
+  slug: bullish-custody-deposit-and-withdraw
+- name: Pull Bullish market data and subscribe to the live streams
+  slug: bullish-market-data-and-streams
+- name: Place, amend, cancel and reconcile a Bullish order
+  slug: bullish-place-and-reconcile-order
 slug: bullish
 tags:
 - Digital Assets

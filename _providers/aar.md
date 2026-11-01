@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 9
 apis:
 - description: AAR's parts supply division distributes new and used aircraft and engine parts to commercial airlines, MROs, and government customers globally. Shipped and received 23 million commercial parts in FY20
@@ -66,12 +68,12 @@ apis:
 artifact_total: 31
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/finops/aar-finops.yml
+  href: https://artifacts.apis.io/aar/finops/aar-finops.yml
   title: ''
   type: FinOps
   url: finops/aar-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/security/aar-domain-security.yml
+  href: https://artifacts.apis.io/aar/security/aar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aar-domain-security.yml
@@ -104,37 +106,37 @@ common:
   type: Compliance
   url: https://www.aarcorp.com/en/about/certifications/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/conformance/aar-conformance.yml
+  href: https://artifacts.apis.io/aar/conformance/aar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aar-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/authentication/aar-authentication.yml
+  href: https://artifacts.apis.io/aar/authentication/aar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aar-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/errors/aar-problem-types.yml
+  href: https://artifacts.apis.io/aar/errors/aar-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aar-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/conventions/aar-conventions.yml
+  href: https://artifacts.apis.io/aar/conventions/aar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aar-conventions.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/plans/aar-plans-pricing.yml
+  href: https://artifacts.apis.io/aar/plans/aar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aar-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/rate-limits/aar-rate-limits.yml
+  href: https://artifacts.apis.io/aar/rate-limits/aar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aar-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/llms/aar-llms.txt
+  href: https://artifacts.apis.io/aar/llms/aar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aar-llms.txt
@@ -202,7 +204,7 @@ press:
 - date: ''
   title: After-Action Review for AI (AAR/AI)
   url: https://dl.acm.org/doi/10.1145/3453173
-random_paper: 0
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Aar Rate Limits
@@ -217,7 +219,7 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
@@ -225,7 +227,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 62.5
     operational_transparency: 21.1
-  previous_composite: 26.8
+  previous_composite: 25.2
   provenance:
     conformance: first-party
   regulatory:
@@ -234,14 +236,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/screenshots/aar-2026-06-20T162956.png
+screenshot: https://apis.io/screenshots/aar/aar-2026-06-20T162956.png
 security:
 - kind: authentication
   name: Aar Authentication

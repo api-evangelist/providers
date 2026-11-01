@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -45,7 +47,7 @@ common:
   type: BlogRSS
   url: https://www.buddy.insure/feed
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iambuddycom/refs/heads/main/security/iambuddycom-domain-security.yml
+  href: https://artifacts.apis.io/iambuddycom/security/iambuddycom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/iambuddycom-domain-security.yml
@@ -90,27 +92,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/buddyinsurance
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/iambuddycom/refs/heads/main/mcp/iambuddycom-mcp.yml
+  href: https://artifacts.apis.io/iambuddycom/mcp/iambuddycom-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/iambuddycom-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iambuddycom/refs/heads/main/conformance/iambuddycom-conformance.yml
+  href: https://artifacts.apis.io/iambuddycom/conformance/iambuddycom-conformance.yml
   title: ''
   type: Conformance
   url: conformance/iambuddycom-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iambuddycom/refs/heads/main/conformance/iambuddycom-conformance.yml
+  href: https://artifacts.apis.io/iambuddycom/conformance/iambuddycom-conformance.yml
   title: ''
   type: Compliance
   url: conformance/iambuddycom-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iambuddycom/refs/heads/main/components/iambuddycom-components.yml
+  href: https://artifacts.apis.io/iambuddycom/components/iambuddycom-components.yml
   title: ''
   type: Components
   url: components/iambuddycom-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/iambuddycom/refs/heads/main/llms/iambuddycom-llms.txt
+  href: https://artifacts.apis.io/iambuddycom/llms/iambuddycom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/iambuddycom-llms.txt
@@ -130,10 +132,10 @@ overview: 'iambuddy.com is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   iambuddy.com''s developer surface includes engineering blog, support, and 16 more developer resources.'
-random_paper: 0
+random_paper: 14
 score:
   band: emerging
-  composite: 20.1
+  composite: 19.4
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -147,9 +149,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 55.0
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 20.1
+  previous_composite: 19.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -159,14 +161,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/iambuddycom/refs/heads/main/screenshots/iambuddycom-2026-07-25T221948.png
+screenshot: https://apis.io/screenshots/iambuddycom/iambuddycom-2026-07-25T221948.png
 security:
 - kind: domain-security
   name: Iambuddycom Domain Security

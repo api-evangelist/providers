@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 25.3
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.kalpalabs.ai
   baseurl_source: declared
@@ -53,11 +55,8 @@ apis:
   description: Per-key usage and metering.
   name: Kalpa Labs Usage API
   slug: kalpa-labs-usage-api
-artifact_total: 10
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kalpa Speech Meta API
   slug: open-kalpa-labs-meta-api
@@ -101,77 +100,77 @@ common:
   type: Support
   url: mailto:hello@kalpalabs.ai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/authentication/kalpa-labs-authentication.yml
+  href: https://artifacts.apis.io/kalpa-labs/authentication/kalpa-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kalpa-labs-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/security/kalpa-labs-domain-security.yml
+  href: https://artifacts.apis.io/kalpa-labs/security/kalpa-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kalpa-labs-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/errors/kalpa-labs-problem-types.yml
+  href: https://artifacts.apis.io/kalpa-labs/errors/kalpa-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kalpa-labs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/conventions/kalpa-labs-conventions.yml
+  href: https://artifacts.apis.io/kalpa-labs/conventions/kalpa-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kalpa-labs-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/rate-limits/kalpa-labs-rate-limits.yml
+  href: https://artifacts.apis.io/kalpa-labs/rate-limits/kalpa-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kalpa-labs-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/lifecycle/kalpa-labs-lifecycle.yml
+  href: https://artifacts.apis.io/kalpa-labs/lifecycle/kalpa-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kalpa-labs-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/mcp/kalpa-labs-mcp.yml
+  href: https://artifacts.apis.io/kalpa-labs/mcp/kalpa-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kalpa-labs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/llms/kalpa-labs-llms.txt
+  href: https://artifacts.apis.io/kalpa-labs/llms/kalpa-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kalpa-labs-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/overlays/kalpa-labs-openapi-overlay.yaml
+  href: https://artifacts.apis.io/kalpa-labs/overlays/kalpa-labs-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kalpa-labs-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/conformance/kalpa-labs-conformance.yml
+  href: https://artifacts.apis.io/kalpa-labs/conformance/kalpa-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kalpa-labs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/data-model/kalpa-labs-data-model.yml
+  href: https://artifacts.apis.io/kalpa-labs/data-model/kalpa-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kalpa-labs-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/packages/kalpa-labs-packages.yml
+  href: https://artifacts.apis.io/kalpa-labs/packages/kalpa-labs-packages.yml
   title: ''
   type: Packages
   url: packages/kalpa-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/packages/kalpa-labs-packages.yml
+  href: https://artifacts.apis.io/kalpa-labs/packages/kalpa-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/kalpa-labs-packages.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/asyncapi/kalpa-labs-converse-stream-asyncapi.json
+  href: https://artifacts.apis.io/kalpa-labs/asyncapi/kalpa-labs-converse-stream-asyncapi.json
   title: ''
   type: AsyncAPI
   url: asyncapi/kalpa-labs-converse-stream-asyncapi.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kalpa-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -187,29 +186,29 @@ overview: 'Kalpa Labs publishes 3 API contracts indexed on the [APIs.io](https:/
 
 
   Kalpa Labs'' developer surface includes documentation, API reference, getting-started guide, sandbox, support, authentication, and 17 more developer resources.'
-random_paper: 16
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Kalpa Labs Rate Limits
   slug: kalpa-labs-rate-limits
 score:
   band: thin
-  composite: 33.3
+  composite: 33.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 48.1
     developer_ergonomics: 70.8
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   previous_composite: 33.7
   provenance:
     conformance: derived
@@ -226,13 +225,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/screenshots/kalpa-labs-2026-07-25T223437.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kalpa-labs/kalpa-labs-2026-07-25T223437.png
 security:
 - kind: authentication
   name: Kalpa Labs Authentication
@@ -242,6 +242,12 @@ security:
   name: Kalpa Labs Domain Security
   slug: kalpa-labs-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Kalpa conversation completion
+  slug: kalpa-labs-converse
+- name: Kalpa text-to-speech
+  slug: kalpa-labs-text-to-speech
 slug: kalpa-labs
 tags:
 - Company

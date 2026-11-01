@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.2
-  scored_at: '2026-10-17'
+  score: 29.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,7 +66,7 @@ apis:
   description: Agricultural statistics data retrieval and filtering
   name: Agricultural Statistics Service Statistics API
   slug: agricultural-statistics-service-statistics-api
-artifact_total: 50
+artifact_total: 49
 collections:
 - collection_type: postman
   name: USDA NASS QuickStats Parameters API
@@ -73,9 +75,6 @@ collections:
   name: USDA NASS QuickStats Parameters Statistics API
   slug: postman-agricultural-statistics-service-statistics-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: USDA NASS QuickStats Parameters API
   slug: open-agricultural-statistics-service-parameters-api
 - collection_type: open
@@ -83,17 +82,17 @@ collections:
   slug: open-agricultural-statistics-service-statistics-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/plans/agricultural-statistics-service-plans-pricing.yml
+  href: https://artifacts.apis.io/agricultural-statistics-service/plans/agricultural-statistics-service-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agricultural-statistics-service-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/rate-limits/agricultural-statistics-service-rate-limits.yml
+  href: https://artifacts.apis.io/agricultural-statistics-service/rate-limits/agricultural-statistics-service-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agricultural-statistics-service-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/finops/agricultural-statistics-service-finops.yml
+  href: https://artifacts.apis.io/agricultural-statistics-service/finops/agricultural-statistics-service-finops.yml
   title: ''
   type: FinOps
   url: finops/agricultural-statistics-service-finops.yml
@@ -102,17 +101,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/agricultural-statistics-service/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/agentic-access/agricultural-statistics-service-agentic-access.yml
+  href: https://artifacts.apis.io/agricultural-statistics-service/agentic-access/agricultural-statistics-service-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/agricultural-statistics-service-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/security/agricultural-statistics-service-domain-security.yml
+  href: https://artifacts.apis.io/agricultural-statistics-service/security/agricultural-statistics-service-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agricultural-statistics-service-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/authentication/agricultural-statistics-service-authentication.yml
+  href: https://artifacts.apis.io/agricultural-statistics-service/authentication/agricultural-statistics-service-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agricultural-statistics-service-authentication.yml
@@ -141,12 +140,12 @@ common:
   type: PrivacyPolicy
   url: https://www.usda.gov/privacy-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/rules/agricultural-statistics-service-spectral-rules.yml
+  href: https://artifacts.apis.io/agricultural-statistics-service/rules/agricultural-statistics-service-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/agricultural-statistics-service-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/vocabulary/agricultural-statistics-service-vocabulary.yaml
+  href: https://artifacts.apis.io/agricultural-statistics-service/vocabulary/agricultural-statistics-service-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/agricultural-statistics-service-vocabulary.yaml
@@ -185,7 +184,7 @@ finops:
 - has_sources: false
   method: generated
   name: Agricultural Statistics Service Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: agricultural-statistics-service-finops
   template: true
@@ -252,7 +251,7 @@ plans:
 - name: Agricultural Statistics Service Plans Pricing
   plan_count: 3
   slug: agricultural-statistics-service-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Agricultural Statistics Service Rate Limits
@@ -283,7 +282,7 @@ rules:
   slug: agricultural-statistics-service-spectral-rules
 score:
   band: thin
-  composite: 34.6
+  composite: 35.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 75.0
@@ -291,20 +290,20 @@ score:
     catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 28.1
     developer_ergonomics: 41.7
     discoverability: 71.4
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 36.2
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -318,14 +317,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/screenshots/agricultural-statistics-service-2026-06-20T170425.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/agricultural-statistics-service/agricultural-statistics-service-2026-06-20T170425.png
 security:
 - kind: authentication
   name: Agricultural Statistics Service Authentication

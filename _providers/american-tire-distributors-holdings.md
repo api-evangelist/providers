@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 16
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/american-tire-distributors-holdings/refs/heads/main/security/american-tire-distributors-holdings-domain-security.yml
+  href: https://artifacts.apis.io/american-tire-distributors-holdings/security/american-tire-distributors-holdings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/american-tire-distributors-holdings-domain-security.yml
@@ -74,27 +76,27 @@ common:
   type: PrivacyPolicy
   url: https://www.atd.com/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/american-tire-distributors-holdings/refs/heads/main/llms/american-tire-distributors-holdings-llms.txt
+  href: https://artifacts.apis.io/american-tire-distributors-holdings/llms/american-tire-distributors-holdings-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/american-tire-distributors-holdings-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/american-tire-distributors-holdings/refs/heads/main/authentication/american-tire-distributors-holdings-authentication.yml
+  href: https://artifacts.apis.io/american-tire-distributors-holdings/authentication/american-tire-distributors-holdings-authentication.yml
   title: ''
   type: Authentication
   url: authentication/american-tire-distributors-holdings-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/american-tire-distributors-holdings/refs/heads/main/conformance/american-tire-distributors-holdings-conformance.yml
+  href: https://artifacts.apis.io/american-tire-distributors-holdings/conformance/american-tire-distributors-holdings-conformance.yml
   title: ''
   type: Conformance
   url: conformance/american-tire-distributors-holdings-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/american-tire-distributors-holdings/refs/heads/main/plans/american-tire-distributors-holdings-plans-pricing.yml
+  href: https://artifacts.apis.io/american-tire-distributors-holdings/plans/american-tire-distributors-holdings-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/american-tire-distributors-holdings-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/american-tire-distributors-holdings/refs/heads/main/rate-limits/american-tire-distributors-holdings-rate-limits.yml
+  href: https://artifacts.apis.io/american-tire-distributors-holdings/rate-limits/american-tire-distributors-holdings-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/american-tire-distributors-holdings-rate-limits.yml
@@ -164,35 +166,35 @@ press:
 - date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1838163/000149315224024559/forms-1.htm
-random_paper: 21
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: American Tire Distributors Holdings Rate Limits
   slug: american-tire-distributors-holdings-rate-limits
 score:
   band: emerging
-  composite: 19.5
+  composite: 18.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 19.4
+  previous_composite: 18.8
   provenance:
     conformance: first-party
   regulatory:
@@ -201,14 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/american-tire-distributors-holdings/refs/heads/main/screenshots/american-tire-distributors-holdings-2026-06-20T171922.png
+screenshot: https://apis.io/screenshots/american-tire-distributors-holdings/american-tire-distributors-holdings-2026-06-20T171922.png
 security:
 - kind: authentication
   name: American Tire Distributors Holdings Authentication

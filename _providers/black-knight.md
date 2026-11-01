@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 9
 apis:
 - description: MSP (Mortgage Servicing Platform) was Black Knight's flagship product — the mainframe-rooted system of record that services the majority of US first-mortgage loans. MSP DX (Direct Exchange) is the RES
@@ -70,7 +72,7 @@ common:
   type: Blog
   url: https://mortgagetech.ice.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/security/black-knight-domain-security.yml
+  href: https://artifacts.apis.io/black-knight/security/black-knight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/black-knight-domain-security.yml
@@ -111,32 +113,32 @@ common:
   type: Acquisition
   url: https://www.ice.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/rules/black-knight-rules.yml
+  href: https://artifacts.apis.io/black-knight/rules/black-knight-rules.yml
   title: ''
   type: SpectralRules
   url: rules/black-knight-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/vocabulary/black-knight-vocabulary.yml
+  href: https://artifacts.apis.io/black-knight/vocabulary/black-knight-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/black-knight-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/json-ld/black-knight-context.jsonld
+  href: https://artifacts.apis.io/black-knight/json-ld/black-knight-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/black-knight-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/plans/black-knight-plans-pricing.yml
+  href: https://artifacts.apis.io/black-knight/plans/black-knight-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/black-knight-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/rate-limits/black-knight-rate-limits.yml
+  href: https://artifacts.apis.io/black-knight/rate-limits/black-knight-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/black-knight-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/finops/black-knight-finops.yml
+  href: https://artifacts.apis.io/black-knight/finops/black-knight-finops.yml
   title: ''
   type: FinOps
   url: finops/black-knight-finops.yml
@@ -234,7 +236,7 @@ plans:
 - name: Black Knight Plans Pricing
   plan_count: 4
   slug: black-knight-plans-pricing
-random_paper: 11
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Black Knight Rate Limits
@@ -265,7 +267,7 @@ rules:
   slug: black-knight-rules
 score:
   band: thin
-  composite: 28.8
+  composite: 30.9
   coverage:
     artifact_dirs: 14
     catalog_earned: 64.0
@@ -273,14 +275,14 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 33.2
-    developer_ergonomics: 41.7
+    developer_ergonomics: 45.2
     discoverability: 57.1
-    operational_transparency: 10.5
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -288,21 +290,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 33.9
+  previous_composite: 30.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/black-knight/refs/heads/main/screenshots/black-knight-2026-06-20T173333.png
+screenshot: https://apis.io/screenshots/black-knight/black-knight-2026-06-20T173333.png
 security:
 - kind: domain-security
   name: Black Knight Domain Security

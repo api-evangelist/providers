@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.7
-  scored_at: '2026-10-17'
+  score: 27.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 17
   slug: boost-agentic-access
   summary_line: 17 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api-v2.boost.xyz
   baseurl_source: declared
@@ -83,11 +85,8 @@ apis:
   description: The RewardKitTrending API from Boost — 1 operation(s) for rewardkittrending.
   name: Boost RewardKitTrending API
   slug: boost-rewardkittrending-api
-artifact_total: 21
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Boost V2 Action API
   slug: open-boost-action-api
@@ -146,87 +145,87 @@ common:
   type: SignUp
   url: https://app.boost.xyz
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/packages/boost-packages.yml
+  href: https://artifacts.apis.io/boost/packages/boost-packages.yml
   title: ''
   type: Packages
   url: packages/boost-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/packages/boost-packages.yml
+  href: https://artifacts.apis.io/boost/packages/boost-packages.yml
   title: ''
   type: SDKs
   url: packages/boost-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/cli/boost-cli.yml
+  href: https://artifacts.apis.io/boost/cli/boost-cli.yml
   title: ''
   type: CLI
   url: cli/boost-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/components/boost-components.yml
+  href: https://artifacts.apis.io/boost/components/boost-components.yml
   title: ''
   type: Components
   url: components/boost-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/mcp/boost-mcp.yml
+  href: https://artifacts.apis.io/boost/mcp/boost-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/boost-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/llms/boost-llms.txt
+  href: https://artifacts.apis.io/boost/llms/boost-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/boost-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/well-known/boost-well-known.yml
+  href: https://artifacts.apis.io/boost/well-known/boost-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/boost-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/conventions/boost-conventions.yml
+  href: https://artifacts.apis.io/boost/conventions/boost-conventions.yml
   title: ''
   type: Conventions
   url: conventions/boost-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/errors/boost-problem-types.yml
+  href: https://artifacts.apis.io/boost/errors/boost-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/boost-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/conformance/boost-conformance.yml
+  href: https://artifacts.apis.io/boost/conformance/boost-conformance.yml
   title: ''
   type: Conformance
   url: conformance/boost-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/authentication/boost-authentication.yml
+  href: https://artifacts.apis.io/boost/authentication/boost-authentication.yml
   title: ''
   type: Authentication
   url: authentication/boost-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/data-model/boost-data-model.yml
+  href: https://artifacts.apis.io/boost/data-model/boost-data-model.yml
   title: ''
   type: DataModel
   url: data-model/boost-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/overlays/boost-v2-overlay.yaml
+  href: https://artifacts.apis.io/boost/overlays/boost-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/boost-v2-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/boost/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/lifecycle/boost-lifecycle.yml
+  href: https://artifacts.apis.io/boost/lifecycle/boost-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/boost-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/agentic-access/boost-agentic-access.yml
+  href: https://artifacts.apis.io/boost/agentic-access/boost-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/boost-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/security/boost-domain-security.yml
+  href: https://artifacts.apis.io/boost/security/boost-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/boost-domain-security.yml
@@ -246,12 +245,12 @@ overview: 'Boost publishes 8 API contracts indexed on the [APIs.io](https://apis
 
 
   Boost''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 18 more developer resources.'
-random_paper: 1
+random_paper: 23
 score:
   band: thin
-  composite: 37.1
+  composite: 36.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -263,9 +262,9 @@ score:
     contract_governance: 4.5
     contract_quality: 48.2
     developer_ergonomics: 70.8
-    discoverability: 71.7
-    operational_transparency: 2.6
-  previous_composite: 37.1
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -282,14 +281,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/screenshots/boost-2026-07-25T203625.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/boost/boost-2026-07-25T203625.png
 security:
 - kind: authentication
   name: Boost Authentication
@@ -299,6 +298,14 @@ security:
   name: Boost Domain Security
   slug: boost-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Generate a Boost claim signature
+  slug: boost-claim-rewards
+- name: Explore and inspect Boosts
+  slug: boost-explore-boosts
+- name: Surface RewardKit rewards for a user
+  slug: boost-rewardkit-profile
 slug: boost
 tags:
 - Company

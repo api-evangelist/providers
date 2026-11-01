@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Markable's visual search platform API. Index catalogs of products or styles, then search for visually similar items inside images and video. Covers catalog and catalog-item management, product search,
@@ -43,7 +45,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/security/markable-domain-security.yml
+  href: https://artifacts.apis.io/markable/security/markable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/markable-domain-security.yml
@@ -84,52 +86,52 @@ common:
   type: PrivacyPolicy
   url: https://www.markable.ai/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/authentication/markable-authentication.yml
+  href: https://artifacts.apis.io/markable/authentication/markable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/markable-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/rate-limits/markable-rate-limits.yml
+  href: https://artifacts.apis.io/markable/rate-limits/markable-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/markable-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/errors/markable-problem-types.yml
+  href: https://artifacts.apis.io/markable/errors/markable-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/markable-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/conventions/markable-conventions.yml
+  href: https://artifacts.apis.io/markable/conventions/markable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/markable-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/lifecycle/markable-lifecycle.yml
+  href: https://artifacts.apis.io/markable/lifecycle/markable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/markable-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/plans/markable-plans-pricing.yml
+  href: https://artifacts.apis.io/markable/plans/markable-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/markable-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/packages/markable-packages.yml
+  href: https://artifacts.apis.io/markable/packages/markable-packages.yml
   title: ''
   type: Packages
   url: packages/markable-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/data-model/markable-data-model.yml
+  href: https://artifacts.apis.io/markable/data-model/markable-data-model.yml
   title: ''
   type: DataModel
   url: data-model/markable-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/conformance/markable-conformance.yml
+  href: https://artifacts.apis.io/markable/conformance/markable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/markable-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/llms/markable-llms.txt
+  href: https://artifacts.apis.io/markable/llms/markable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/markable-llms.txt
@@ -149,30 +151,30 @@ plans:
 - name: Markable Plans Pricing
   plan_count: 5
   slug: markable-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Markable Rate Limits
   slug: markable-rate-limits
 score:
   band: thin
-  composite: 33.5
+  composite: 35.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 39.3
+    developer_ergonomics: 45.2
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 33.4
+    operational_transparency: 26.3
+  previous_composite: 35.0
   provenance:
     conformance: first-party
   regulatory:
@@ -181,14 +183,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/markable/refs/heads/main/screenshots/markable-2026-07-25T230203.png
+screenshot: https://apis.io/screenshots/markable/markable-2026-07-25T230203.png
 security:
 - kind: authentication
   name: Markable Authentication

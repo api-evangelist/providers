@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,25 +37,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Read-only shopping tools for product recommendations and shopping decisions, grouped-product search, current Greek merchant offers and delivered totals, and price history.
   name: BestPrice Shopping MCP
   slug: shopping-mcp
-artifact_total: 15
+artifact_total: 19
 common:
+- group: commercial
+  href: https://artifacts.apis.io/bestprice/finops/bestprice-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/bestprice-finops.yml
+- group: build
+  href: https://artifacts.apis.io/bestprice/mcp/bestprice-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/bestprice-tool-crosswalk.yml
+- group: build
+  href: https://artifacts.apis.io/bestprice/integrations/bestprice-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/bestprice-integration-edges.yml
 - group: commercial
   title: ''
   type: Pricing
   url: https://www.bestprice.gr/en/mcp
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/hosts/bestprice-hosts.yml
+  href: https://artifacts.apis.io/bestprice/hosts/bestprice-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bestprice-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/packages/bestprice-packages.yml
+  href: https://artifacts.apis.io/bestprice/packages/bestprice-packages.yml
   title: ''
   type: SDKs
   url: packages/bestprice-packages.yml
@@ -66,107 +83,107 @@ common:
   type: License
   url: https://github.com/TheBestCo/bestprice-mcp/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/security/bestprice-domain-security.yml
+  href: https://artifacts.apis.io/bestprice/security/bestprice-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bestprice-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/mcp/bestprice-mcp.yml
+  href: https://artifacts.apis.io/bestprice/mcp/bestprice-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bestprice-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/mcp/bestprice-webmcp.yml
+  href: https://artifacts.apis.io/bestprice/mcp/bestprice-webmcp.yml
   title: ''
   type: WebMCP
   url: mcp/bestprice-webmcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/well-known/bestprice-well-known.yml
+  href: https://artifacts.apis.io/bestprice/well-known/bestprice-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bestprice-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/well-known/bestprice-security.txt
+  href: https://artifacts.apis.io/bestprice/well-known/bestprice-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bestprice-security.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/well-known/bestprice-ard.json
+  href: https://artifacts.apis.io/bestprice/well-known/bestprice-ard.json
   title: ''
   type: APICatalog
   url: well-known/bestprice-ard.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/llms/bestprice-llms.txt
+  href: https://artifacts.apis.io/bestprice/llms/bestprice-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bestprice-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/authentication/bestprice-authentication.yml
+  href: https://artifacts.apis.io/bestprice/authentication/bestprice-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bestprice-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/conformance/bestprice-conformance.yml
+  href: https://artifacts.apis.io/bestprice/conformance/bestprice-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bestprice-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/conventions/bestprice-conventions.yml
+  href: https://artifacts.apis.io/bestprice/conventions/bestprice-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bestprice-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/errors/bestprice-problem-types.yml
+  href: https://artifacts.apis.io/bestprice/errors/bestprice-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bestprice-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/lifecycle/bestprice-lifecycle.yml
+  href: https://artifacts.apis.io/bestprice/lifecycle/bestprice-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bestprice-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/changelog/bestprice-changelog.yml
+  href: https://artifacts.apis.io/bestprice/changelog/bestprice-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bestprice-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/plans/bestprice-plans-pricing.yml
+  href: https://artifacts.apis.io/bestprice/plans/bestprice-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bestprice-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/rate-limits/bestprice-rate-limits.yml
+  href: https://artifacts.apis.io/bestprice/rate-limits/bestprice-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bestprice-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/packages/bestprice-packages.yml
+  href: https://artifacts.apis.io/bestprice/packages/bestprice-packages.yml
   title: ''
   type: Packages
   url: packages/bestprice-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/components/bestprice-components.yml
+  href: https://artifacts.apis.io/bestprice/components/bestprice-components.yml
   title: ''
   type: Components
   url: components/bestprice-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/data-model/bestprice-data-model.yml
+  href: https://artifacts.apis.io/bestprice/data-model/bestprice-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bestprice-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/security/bestprice-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bestprice/security/bestprice-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/bestprice-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/security/bestprice-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bestprice/security/bestprice-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bestprice-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bestprice/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -204,6 +221,14 @@ common:
   url: https://www.bestprice.gr/policies/privacy
 created: '2026-08-27'
 description: 'BestPrice.gr is Greece''s largest price-comparison marketplace, run by The Best Company S.A., covering roughly 25.7 million products from about 3,650 merchants and 42,000 manufacturers with hourly merchant-feed refreshes. Its developer surface is not a REST API but a public, keyless, read-only MCP server at https://mcp.bestprice.gr/mcp (server 1.8.1, MCP Registry id gr.bestprice/mcp), exposing four tools - get_shopping_decision (the BestPrice Shopping Brain: recommendations, need-based comparisons and read-only basket plans), search_products, compare_offers and get_price_history - whose JSON Schema 2020-12 input and output contracts are served live and anonymously. Alongside it BestPrice publishes a provider-authored Agent Skill, an APIs.json 0.23 index, an llms.txt, an RFC 9116 security.txt, an Agentic Resource Discovery manifest, an AI catalog, an MCP server card, a stdio bridge for hosts that cannot speak HTTP, and an experimental WebMCP manifest of 16 browser-tab tools.'
+finops:
+- has_sources: true
+  method: derived
+  name: Bestprice Finops
+  primary_unit: ''
+  service_category: ''
+  slug: bestprice-finops
+  template: true
 image: https://www.bestprice.gr/images/logo.svg
 json_schemas:
 - name: Bestprice Compare Offers Input
@@ -242,33 +267,33 @@ network: true
 overview: 'BestPrice Agent Commerce is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Shopping, Price Comparison, E-Commerce, Retail, and MCP.
 
 
-  BestPrice Agent Commerce''s developer surface includes pricing, authentication, changelog, documentation, engineering blog, support, and 28 more developer resources.'
+  BestPrice Agent Commerce''s developer surface includes pricing, authentication, changelog, documentation, engineering blog, support, and 31 more developer resources.'
 plans:
 - name: Bestprice Plans Pricing
   plan_count: 1
   slug: bestprice-plans-pricing
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Bestprice Rate Limits
   slug: bestprice-rate-limits
 score:
   band: developing
-  composite: 47.2
+  composite: 46.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 62.0
     catalog_earned_first_party: 16.0
     catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 12.0
     developer_ergonomics: 66.1
-    discoverability: 91.7
+    discoverability: 88.3
     operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -276,7 +301,7 @@ score:
     regions:
     - europe
     - italy-southern-europe
-  previous_composite: 45.1
+  previous_composite: 46.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -287,14 +312,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bestprice/refs/heads/main/screenshots/bestprice-2026-09-02T144927.png
+screenshot: https://apis.io/screenshots/bestprice/bestprice-2026-09-02T144927.png
 security:
 - kind: authentication
   name: Bestprice Authentication
@@ -308,6 +333,14 @@ security:
   name: Bestprice Vulnerability Disclosure
   slug: bestprice-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 3
+skills:
+- name: bestprice-best-total-price
+  slug: bestprice-best-total-price
+- name: bestprice-budget-shortlist
+  slug: bestprice-budget-shortlist
+- name: bestprice-price-timing
+  slug: bestprice-price-timing
 slug: bestprice
 tags:
 - Shopping

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-17'
+  score: 26.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -77,9 +79,6 @@ apis:
 artifact_total: 23
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Speechmatics Batch Transcription API Keys API
   slug: open-speechmatics-api-keys-api
 - collection_type: open
@@ -93,27 +92,27 @@ collections:
   slug: open-speechmatics-usage-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/capabilities/speechmatics-capability-edges.yml
+  href: https://artifacts.apis.io/speechmatics/capabilities/speechmatics-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/speechmatics-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/agentic-access/speechmatics-agentic-access.yml
+  href: https://artifacts.apis.io/speechmatics/agentic-access/speechmatics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/speechmatics-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/security/speechmatics-trust-center.yml
+  href: https://artifacts.apis.io/speechmatics/security/speechmatics-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/speechmatics-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/security/speechmatics-domain-security.yml
+  href: https://artifacts.apis.io/speechmatics/security/speechmatics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/speechmatics-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/authentication/speechmatics-authentication.yml
+  href: https://artifacts.apis.io/speechmatics/authentication/speechmatics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/speechmatics-authentication.yml
@@ -158,17 +157,17 @@ common:
   type: Discord
   url: https://discord.gg/speechmatics
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/plans/speechmatics-plans-pricing.yml
+  href: https://artifacts.apis.io/speechmatics/plans/speechmatics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/speechmatics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/rate-limits/speechmatics-rate-limits.yml
+  href: https://artifacts.apis.io/speechmatics/rate-limits/speechmatics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/speechmatics-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/finops/speechmatics-finops.yml
+  href: https://artifacts.apis.io/speechmatics/finops/speechmatics-finops.yml
   title: ''
   type: FinOps
   url: finops/speechmatics-finops.yml
@@ -179,13 +178,13 @@ examples:
   name: Speechmatics Batch Transcription Job
   slug: speechmatics-batch-transcription-job
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Speechmatics Finops
-  primary_unit: ''
+  primary_unit: hour
   service_category: ''
   slug: speechmatics-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/speechmatics.png
 json_schemas:
 - name: JobConfig
@@ -210,9 +209,12 @@ overview: 'Speechmatics publishes 7 API contracts indexed on the [APIs.io](https
   Speechmatics'' developer surface includes authentication, documentation, engineering blog, pricing, developer portal, and 13 more developer resources.'
 plans:
 - name: Speechmatics Plans Pricing
-  plan_count: 4
+  plan_count: 13
   slug: speechmatics-plans-pricing
-random_paper: 19
+- name: Speechmatics Price Estimates
+  plan_count: 0
+  slug: speechmatics-price-estimates
+random_paper: 1
 rate_limits:
 - limit_count: 11
   name: Speechmatics Rate Limits
@@ -231,28 +233,28 @@ rules:
   slug: speechmatics-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.2
+  composite: 46.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 57.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.8
+    catalog_earned: 69.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.4
+  delta: 1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 57.9
     contract_governance: 9.8
-    contract_quality: 59.2
+    contract_quality: 55.8
     developer_ergonomics: 45.2
     discoverability: 66.1
-    operational_transparency: 26.3
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 48.6
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -266,13 +268,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/screenshots/speechmatics-2026-06-20T194303.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/speechmatics/speechmatics-2026-06-20T194303.png
 security:
 - kind: authentication
   name: Speechmatics Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.2
-  scored_at: '2026-10-17'
+  score: 34.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 40
   slug: dialect-agentic-access
   summary_line: 40 operations · 22 acting
-api_count: 6
+api_count: 3
 apis:
 - baseURL: https://alerts-api.dial.to
   baseurl_source: declared
@@ -90,15 +92,12 @@ apis:
   description: The Send API from Dialect — 4 operation(s) for send.
   name: Dialect Send API
   slug: dialect-send-api
-artifact_total: 23
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Dialect Webhooks
   slug: dialect-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Dialect Alerts V2 Blink API
   slug: open-dialect-blink-api
@@ -125,102 +124,102 @@ collections:
   slug: open-dialect-send-api
 common:
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/packages/dialect-packages.yml
+  href: https://artifacts.apis.io/dialect/packages/dialect-packages.yml
   title: ''
   type: Packages
   url: packages/dialect-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/packages/dialect-packages.yml
+  href: https://artifacts.apis.io/dialect/packages/dialect-packages.yml
   title: ''
   type: SDKs
   url: packages/dialect-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/mcp/dialect-mcp.yml
+  href: https://artifacts.apis.io/dialect/mcp/dialect-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dialect-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/llms/dialect-llms.txt
+  href: https://artifacts.apis.io/dialect/llms/dialect-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dialect-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/overlays/dialect-alerts-overlay.yaml
+  href: https://artifacts.apis.io/dialect/overlays/dialect-alerts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dialect-alerts-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/overlays/dialect-blinks-overlay.yaml
+  href: https://artifacts.apis.io/dialect/overlays/dialect-blinks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dialect-blinks-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/overlays/dialect-markets-overlay.yaml
+  href: https://artifacts.apis.io/dialect/overlays/dialect-markets-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dialect-markets-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/conformance/dialect-conformance.yml
+  href: https://artifacts.apis.io/dialect/conformance/dialect-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dialect-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/errors/dialect-problem-types.yml
+  href: https://artifacts.apis.io/dialect/errors/dialect-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dialect-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/lifecycle/dialect-lifecycle.yml
+  href: https://artifacts.apis.io/dialect/lifecycle/dialect-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dialect-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/changelog/dialect-changelog.yml
+  href: https://artifacts.apis.io/dialect/changelog/dialect-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dialect-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/conventions/dialect-conventions.yml
+  href: https://artifacts.apis.io/dialect/conventions/dialect-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dialect-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/components/dialect-components.yml
+  href: https://artifacts.apis.io/dialect/components/dialect-components.yml
   title: ''
   type: Components
   url: components/dialect-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/data-model/dialect-data-model.yml
+  href: https://artifacts.apis.io/dialect/data-model/dialect-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dialect-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/asyncapi/dialect-webhooks.yml
+  href: https://artifacts.apis.io/dialect/asyncapi/dialect-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/dialect-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/sandbox/dialect-sandbox.yml
+  href: https://artifacts.apis.io/dialect/sandbox/dialect-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dialect-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dialect/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/security/dialect-domain-security.yml
+  href: https://artifacts.apis.io/dialect/security/dialect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dialect-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/agentic-access/dialect-agentic-access.yml
+  href: https://artifacts.apis.io/dialect/agentic-access/dialect-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dialect-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/authentication/dialect-authentication.yml
+  href: https://artifacts.apis.io/dialect/authentication/dialect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dialect-authentication.yml
@@ -291,12 +290,12 @@ overview: 'Dialect publishes 9 API contracts indexed on the [APIs.io](https://ap
 
 
   Dialect''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, engineering blog, and 25 more developer resources.'
-random_paper: 0
+random_paper: 6
 score:
   band: developing
-  composite: 45.8
+  composite: 47.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -307,10 +306,10 @@ score:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 55.7
-    developer_ergonomics: 68.5
-    discoverability: 76.7
-    operational_transparency: 26.3
-  previous_composite: 45.8
+    developer_ergonomics: 73.2
+    discoverability: 70.0
+    operational_transparency: 28.9
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,13 +326,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/screenshots/dialect-2026-07-25T211909.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dialect/dialect-2026-07-25T211909.png
 security:
 - kind: authentication
   name: Dialect Authentication
@@ -343,6 +343,14 @@ security:
   name: Dialect Domain Security
   slug: dialect-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Fetch and execute a Dialect Blink
+  slug: dialect-execute-blink
+- name: Query Dialect markets and wallet positions
+  slug: dialect-query-markets
+- name: Send a Dialect alert
+  slug: dialect-send-alert
 slug: dialect
 tags:
 - Company

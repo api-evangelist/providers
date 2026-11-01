@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.4
-  scored_at: '2026-10-17'
+  score: 44.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -119,7 +121,7 @@ apis:
   description: The Webhooks API from Spruce Health — 4 operation(s) for webhooks.
   name: Spruce Health Webhooks API
   slug: spruce-health-webhooks-api
-artifact_total: 39
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Spruce Health Webhooks
@@ -175,97 +177,97 @@ collections:
   slug: open-spruce-health
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/capabilities/spruce-health-capability-edges.yml
+  href: https://artifacts.apis.io/spruce-health/capabilities/spruce-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spruce-health-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/overlays/spruce-health-contact-fields-overlay.yaml
+  href: https://artifacts.apis.io/spruce-health/overlays/spruce-health-contact-fields-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spruce-health-contact-fields-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/overlays/spruce-health-contact-tags-overlay.yaml
+  href: https://artifacts.apis.io/spruce-health/overlays/spruce-health-contact-tags-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spruce-health-contact-tags-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/overlays/spruce-health-contacts-overlay.yaml
+  href: https://artifacts.apis.io/spruce-health/overlays/spruce-health-contacts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spruce-health-contacts-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/overlays/spruce-health-conversation-item-overlay.yaml
+  href: https://artifacts.apis.io/spruce-health/overlays/spruce-health-conversation-item-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spruce-health-conversation-item-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/overlays/spruce-health-conversation-tags-overlay.yaml
+  href: https://artifacts.apis.io/spruce-health/overlays/spruce-health-conversation-tags-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spruce-health-conversation-tags-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/overlays/spruce-health-conversations-overlay.yaml
+  href: https://artifacts.apis.io/spruce-health/overlays/spruce-health-conversations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spruce-health-conversations-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/overlays/spruce-health-internal-endpoints-overlay.yaml
+  href: https://artifacts.apis.io/spruce-health/overlays/spruce-health-internal-endpoints-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spruce-health-internal-endpoints-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/overlays/spruce-health-media-overlay.yaml
+  href: https://artifacts.apis.io/spruce-health/overlays/spruce-health-media-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spruce-health-media-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/overlays/spruce-health-organization-overlay.yaml
+  href: https://artifacts.apis.io/spruce-health/overlays/spruce-health-organization-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spruce-health-organization-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/overlays/spruce-health-phone-lines-overlay.yaml
+  href: https://artifacts.apis.io/spruce-health/overlays/spruce-health-phone-lines-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spruce-health-phone-lines-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/overlays/spruce-health-saved-messages-overlay.yaml
+  href: https://artifacts.apis.io/spruce-health/overlays/spruce-health-saved-messages-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spruce-health-saved-messages-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/overlays/spruce-health-scheduled-messages-overlay.yaml
+  href: https://artifacts.apis.io/spruce-health/overlays/spruce-health-scheduled-messages-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spruce-health-scheduled-messages-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/overlays/spruce-health-teams-overlay.yaml
+  href: https://artifacts.apis.io/spruce-health/overlays/spruce-health-teams-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spruce-health-teams-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/overlays/spruce-health-transcription-overlay.yaml
+  href: https://artifacts.apis.io/spruce-health/overlays/spruce-health-transcription-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spruce-health-transcription-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/overlays/spruce-health-webhooks-overlay.yaml
+  href: https://artifacts.apis.io/spruce-health/overlays/spruce-health-webhooks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spruce-health-webhooks-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/agentic-access/spruce-health-agentic-access.yml
+  href: https://artifacts.apis.io/spruce-health/agentic-access/spruce-health-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spruce-health-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/security/spruce-health-domain-security.yml
+  href: https://artifacts.apis.io/spruce-health/security/spruce-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spruce-health-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/authentication/spruce-health-authentication.yml
+  href: https://artifacts.apis.io/spruce-health/authentication/spruce-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spruce-health-authentication.yml
@@ -286,37 +288,37 @@ common:
   type: SignUp
   url: https://app.sprucehealth.com/signup
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/plans/spruce-health-plans-pricing.yml
+  href: https://artifacts.apis.io/spruce-health/plans/spruce-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spruce-health-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/rate-limits/spruce-health-rate-limits.yml
+  href: https://artifacts.apis.io/spruce-health/rate-limits/spruce-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spruce-health-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/finops/spruce-health-finops.yml
+  href: https://artifacts.apis.io/spruce-health/finops/spruce-health-finops.yml
   title: ''
   type: FinOps
   url: finops/spruce-health-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/conventions/spruce-health-conventions.yml
+  href: https://artifacts.apis.io/spruce-health/conventions/spruce-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spruce-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/conventions/spruce-health-conventions.yml
+  href: https://artifacts.apis.io/spruce-health/conventions/spruce-health-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/spruce-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/errors/spruce-health-problem-types.yml
+  href: https://artifacts.apis.io/spruce-health/errors/spruce-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spruce-health-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/lifecycle/spruce-health-lifecycle.yml
+  href: https://artifacts.apis.io/spruce-health/lifecycle/spruce-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spruce-health-lifecycle.yml
@@ -325,52 +327,52 @@ common:
   type: StatusPage
   url: https://status.sprucehealth.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/changelog/spruce-health-changelog.yml
+  href: https://artifacts.apis.io/spruce-health/changelog/spruce-health-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/spruce-health-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/asyncapi/spruce-health-webhooks.yml
+  href: https://artifacts.apis.io/spruce-health/asyncapi/spruce-health-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/spruce-health-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/data-model/spruce-health-data-model.yml
+  href: https://artifacts.apis.io/spruce-health/data-model/spruce-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spruce-health-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/conformance/spruce-health-conformance.yml
+  href: https://artifacts.apis.io/spruce-health/conformance/spruce-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spruce-health-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/conformance/spruce-health-conformance.yml
+  href: https://artifacts.apis.io/spruce-health/conformance/spruce-health-conformance.yml
   title: ''
   type: Compliance
   url: conformance/spruce-health-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/packages/spruce-health-packages.yml
+  href: https://artifacts.apis.io/spruce-health/packages/spruce-health-packages.yml
   title: ''
   type: Packages
   url: packages/spruce-health-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/mcp/spruce-health-mcp.yml
+  href: https://artifacts.apis.io/spruce-health/mcp/spruce-health-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/spruce-health-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/mcp/spruce-health-tool-crosswalk.yml
+  href: https://artifacts.apis.io/spruce-health/mcp/spruce-health-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/spruce-health-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/llms/spruce-health-llms.txt
+  href: https://artifacts.apis.io/spruce-health/llms/spruce-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spruce-health-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/spruce-health/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -423,10 +425,10 @@ description: 'Spruce Health is a HIPAA-compliant healthcare communication platfo
   response headers across a 60-second and a 24-hour window, and 15 HMAC-signed webhook event types. API access is gated twice: it is part of the Communicator plan, and an organization must additionally contact Spruce Support to have API access enabled before an administrator can generate a token.'
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Spruce Health Finops
-  primary_unit: ''
-  service_category: Healthcare Communication
+  primary_unit: user
+  service_category: ''
   slug: spruce-health-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spruce-health.png
@@ -450,6 +452,9 @@ plans:
 - name: Spruce Health Plans Pricing
   plan_count: 3
   slug: spruce-health-plans-pricing
+- name: Spruce Health Price Estimates
+  plan_count: 0
+  slug: spruce-health-price-estimates
 random_paper: 13
 rate_limits:
 - limit_count: 3
@@ -457,23 +462,23 @@ rate_limits:
   slug: spruce-health-rate-limits
 score:
   band: strong
-  composite: 60.2
+  composite: 64.4
   coverage:
     artifact_dirs: 26
-    catalog_earned: 64.0
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 71.1
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 57.7
-    developer_ergonomics: 44.6
-    discoverability: 80.0
-    operational_transparency: 73.7
-  previous_composite: 61.7
+    contract_quality: 56.4
+    developer_ergonomics: 60.1
+    discoverability: 70.0
+    operational_transparency: 76.3
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -490,13 +495,14 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/screenshots/spruce-health-2026-08-17T082049.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spruce-health/spruce-health-2026-08-17T082049.png
 security:
 - kind: authentication
   name: Spruce Health Authentication
@@ -506,6 +512,18 @@ security:
   name: Spruce Health Domain Security
   slug: spruce-health-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: spruce-health-poll-for-new-conversation-activity
+  slug: spruce-health-poll-for-new-conversation-activity
+- name: spruce-health-schedule-and-manage-messages
+  slug: spruce-health-schedule-and-manage-messages
+- name: spruce-health-send-a-patient-message
+  slug: spruce-health-send-a-patient-message
+- name: spruce-health-subscribe-to-webhook-events
+  slug: spruce-health-subscribe-to-webhook-events
+- name: spruce-health-sync-contacts-from-external-system
+  slug: spruce-health-sync-contacts-from-external-system
 slug: spruce-health
 tags:
 - Healthcare

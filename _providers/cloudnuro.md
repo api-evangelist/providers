@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: Unified SaaS and Cloud FinOps platform offering app discovery, subscription management, user lifecycle automation, contract and renewal tracking, license optimization, chargeback, and policy-based gov
@@ -60,27 +62,27 @@ apis:
 artifact_total: 13
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/plans/cloudnuro-plans-pricing.yml
+  href: https://artifacts.apis.io/cloudnuro/plans/cloudnuro-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloudnuro-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/rate-limits/cloudnuro-rate-limits.yml
+  href: https://artifacts.apis.io/cloudnuro/rate-limits/cloudnuro-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloudnuro-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/finops/cloudnuro-finops.yml
+  href: https://artifacts.apis.io/cloudnuro/finops/cloudnuro-finops.yml
   title: ''
   type: FinOps
   url: finops/cloudnuro-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/security/cloudnuro-trust-center.yml
+  href: https://artifacts.apis.io/cloudnuro/security/cloudnuro-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cloudnuro-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/security/cloudnuro-domain-security.yml
+  href: https://artifacts.apis.io/cloudnuro/security/cloudnuro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudnuro-domain-security.yml
@@ -109,7 +111,7 @@ common:
   type: Contact
   url: https://www.cloudnuro.ai/contact-us
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/json-ld/cloudnuro-context.jsonld
+  href: https://artifacts.apis.io/cloudnuro/json-ld/cloudnuro-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cloudnuro-context.jsonld
@@ -119,7 +121,7 @@ finops:
 - has_sources: false
   method: generated
   name: Cloudnuro Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: cloudnuro-finops
   template: true
@@ -145,7 +147,7 @@ plans:
 - name: Cloudnuro Plans Pricing
   plan_count: 3
   slug: cloudnuro-plans-pricing
-random_paper: 19
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Cloudnuro Rate Limits
@@ -160,7 +162,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
@@ -168,21 +170,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 62.5
     operational_transparency: 7.9
-  previous_composite: 16.1
+  previous_composite: 14.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/screenshots/cloudnuro-2026-06-20T174615.png
+screenshot: https://apis.io/screenshots/cloudnuro/cloudnuro-2026-06-20T174615.png
 security:
 - kind: domain-security
   name: Cloudnuro Domain Security

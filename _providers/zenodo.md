@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -165,11 +167,8 @@ apis:
   description: Vocabulary and controlled terms endpoints
   name: Zenodo Vocabularies API
   slug: zenodo-vocabularies-api
-artifact_total: 59
+artifact_total: 58
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zenodo REST Access API
   slug: open-zenodo-access-api
@@ -244,22 +243,22 @@ collections:
   slug: open-zenodo-vocabularies-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/capabilities/zenodo-capability-edges.yml
+  href: https://artifacts.apis.io/zenodo/capabilities/zenodo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zenodo-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/agentic-access/zenodo-agentic-access.yml
+  href: https://artifacts.apis.io/zenodo/agentic-access/zenodo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zenodo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/security/zenodo-domain-security.yml
+  href: https://artifacts.apis.io/zenodo/security/zenodo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zenodo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/authentication/zenodo-authentication.yml
+  href: https://artifacts.apis.io/zenodo/authentication/zenodo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zenodo-authentication.yml
@@ -300,37 +299,37 @@ common:
   type: About
   url: https://about.zenodo.org/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/plans/zenodo-plans-pricing.yml
+  href: https://artifacts.apis.io/zenodo/plans/zenodo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zenodo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/rate-limits/zenodo-rate-limits.yml
+  href: https://artifacts.apis.io/zenodo/rate-limits/zenodo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zenodo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/finops/zenodo-finops.yml
+  href: https://artifacts.apis.io/zenodo/finops/zenodo-finops.yml
   title: ''
   type: FinOps
   url: finops/zenodo-finops.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/json-schema/zenodo-record-schema.json
+  href: https://artifacts.apis.io/zenodo/json-schema/zenodo-record-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/zenodo-record-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/vocabulary/zenodo-vocabulary.yml
+  href: https://artifacts.apis.io/zenodo/vocabulary/zenodo-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/zenodo-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/json-ld/zenodo-context.jsonld
+  href: https://artifacts.apis.io/zenodo/json-ld/zenodo-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/zenodo-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/examples/zenodo-create-record-example.json
+  href: https://artifacts.apis.io/zenodo/examples/zenodo-create-record-example.json
   title: ''
   type: Examples
   url: examples/zenodo-create-record-example.json
@@ -374,7 +373,7 @@ plans:
 - name: Zenodo Plans Pricing
   plan_count: 2
   slug: zenodo-plans-pricing
-random_paper: 17
+random_paper: 7
 rate_limits:
 - limit_count: 7
   name: Zenodo Rate Limits
@@ -392,24 +391,24 @@ rules:
     warn: 4
   slug: zenodo-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 40.1
+  band: thin
+  composite: 38.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 60.8
     catalog_earned_first_party: 0.0
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 23.5
-    contract_quality: 60.7
+    contract_quality: 57.3
     developer_ergonomics: 45.2
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 47.1
+    operational_transparency: 28.9
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -423,13 +422,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/screenshots/zenodo-2026-06-20T201814.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zenodo/zenodo-2026-06-20T201814.png
 security:
 - kind: authentication
   name: Zenodo Authentication

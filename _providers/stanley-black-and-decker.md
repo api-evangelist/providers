@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -72,11 +74,8 @@ apis:
   description: User and team management operations
   name: Stanley Black & Decker Users API
   slug: stanley-black-and-decker-users-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Stanley Black & Decker Tool Connect Assets API
   slug: open-stanley-black-and-decker-assets-api
@@ -97,32 +96,32 @@ collections:
   slug: open-stanley-black-and-decker-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/plans/stanley-black-and-decker-plans-pricing.yml
+  href: https://artifacts.apis.io/stanley-black-and-decker/plans/stanley-black-and-decker-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stanley-black-and-decker-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/rate-limits/stanley-black-and-decker-rate-limits.yml
+  href: https://artifacts.apis.io/stanley-black-and-decker/rate-limits/stanley-black-and-decker-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stanley-black-and-decker-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/finops/stanley-black-and-decker-finops.yml
+  href: https://artifacts.apis.io/stanley-black-and-decker/finops/stanley-black-and-decker-finops.yml
   title: ''
   type: FinOps
   url: finops/stanley-black-and-decker-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/agentic-access/stanley-black-and-decker-agentic-access.yml
+  href: https://artifacts.apis.io/stanley-black-and-decker/agentic-access/stanley-black-and-decker-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stanley-black-and-decker-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/security/stanley-black-and-decker-domain-security.yml
+  href: https://artifacts.apis.io/stanley-black-and-decker/security/stanley-black-and-decker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stanley-black-and-decker-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/authentication/stanley-black-and-decker-authentication.yml
+  href: https://artifacts.apis.io/stanley-black-and-decker/authentication/stanley-black-and-decker-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stanley-black-and-decker-authentication.yml
@@ -232,7 +231,7 @@ press:
 - date: ''
   title: H2O.ai Empowers Stanley Black & Decker to Develop ...
   url: https://h2o.ai/company/press-media/2018/h2o-ai-empowers-stanley-black-decker-to-develop-innovative-manufacturing-processes/
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Stanley Black And Decker Rate Limits
@@ -263,7 +262,7 @@ rules:
   slug: stanley-black-and-decker-rules
 score:
   band: thin
-  composite: 33.5
+  composite: 34.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.5
@@ -271,7 +270,7 @@ score:
     catalog_gap: 74.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
@@ -279,7 +278,7 @@ score:
     developer_ergonomics: 33.3
     discoverability: 42.9
     operational_transparency: 10.5
-  previous_composite: 35.0
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -293,13 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/screenshots/stanley-black-and-decker-2026-06-20T194505.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stanley-black-and-decker/stanley-black-and-decker-2026-06-20T194505.png
 security:
 - kind: authentication
   name: Stanley Black And Decker Authentication

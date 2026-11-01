@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The public server-side affiliate tracking API for Keepface. Brands POST sale and refund events from their own backend (or from Shopify, or from the browser JS pixel) and Keepface attributes them to th
@@ -84,7 +86,7 @@ common:
   type: PrivacyPolicy
   url: https://keepface.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/security/keepface-domain-security.yml
+  href: https://artifacts.apis.io/keepface/security/keepface-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/keepface-domain-security.yml
@@ -101,47 +103,47 @@ common:
   type: HelpCenter
   url: https://help.keepface.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/llms/keepface-llms.txt
+  href: https://artifacts.apis.io/keepface/llms/keepface-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/keepface-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/mcp/keepface-mcp.yml
+  href: https://artifacts.apis.io/keepface/mcp/keepface-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/keepface-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/authentication/keepface-authentication.yml
+  href: https://artifacts.apis.io/keepface/authentication/keepface-authentication.yml
   title: ''
   type: Authentication
   url: authentication/keepface-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/scopes/keepface-scopes.yml
+  href: https://artifacts.apis.io/keepface/scopes/keepface-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/keepface-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/conventions/keepface-conventions.yml
+  href: https://artifacts.apis.io/keepface/conventions/keepface-conventions.yml
   title: ''
   type: Conventions
   url: conventions/keepface-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/conventions/keepface-conventions.yml
+  href: https://artifacts.apis.io/keepface/conventions/keepface-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/keepface-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/rate-limits/keepface-rate-limits.yml
+  href: https://artifacts.apis.io/keepface/rate-limits/keepface-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/keepface-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/errors/keepface-problem-types.yml
+  href: https://artifacts.apis.io/keepface/errors/keepface-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/keepface-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/lifecycle/keepface-lifecycle.yml
+  href: https://artifacts.apis.io/keepface/lifecycle/keepface-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/keepface-lifecycle.yml
@@ -150,32 +152,32 @@ common:
   type: Deprecation
   url: https://help.keepface.com/brand/affiliate-program/api-reference/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/changelog/keepface-changelog.yml
+  href: https://artifacts.apis.io/keepface/changelog/keepface-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/keepface-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/conformance/keepface-conformance.yml
+  href: https://artifacts.apis.io/keepface/conformance/keepface-conformance.yml
   title: ''
   type: Conformance
   url: conformance/keepface-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/asyncapi/keepface-affiliate-webhooks.yml
+  href: https://artifacts.apis.io/keepface/asyncapi/keepface-affiliate-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/keepface-affiliate-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/data-model/keepface-data-model.yml
+  href: https://artifacts.apis.io/keepface/data-model/keepface-data-model.yml
   title: ''
   type: DataModel
   url: data-model/keepface-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/packages/keepface-packages.yml
+  href: https://artifacts.apis.io/keepface/packages/keepface-packages.yml
   title: ''
   type: Packages
   url: packages/keepface-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/plans/keepface-plans-pricing.yml
+  href: https://artifacts.apis.io/keepface/plans/keepface-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/keepface-plans-pricing.yml
@@ -222,7 +224,7 @@ plans:
 - name: Keepface Plans Pricing
   plan_count: 0
   slug: keepface-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 6
   name: Keepface Rate Limits
@@ -233,24 +235,24 @@ scopes:
   slug: keepface-scopes
   summary_line: 11 scopes
 score:
-  band: thin
-  composite: 38.1
+  band: developing
+  composite: 45.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 45.2
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 63.2
-  previous_composite: 38.0
+  previous_composite: 45.9
   provenance:
     conformance: derived
     mcp: first-party
@@ -259,15 +261,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 34.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/keepface/refs/heads/main/screenshots/keepface-2026-07-25T223555.png
+screenshot: https://apis.io/screenshots/keepface/keepface-2026-07-25T223555.png
 security:
 - kind: authentication
   name: Keepface Authentication

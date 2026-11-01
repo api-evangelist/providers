@@ -19,7 +19,7 @@ name: IPtronics
 nav: Providers
 network: true
 overview: IPtronics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Photonics, Optical Interconnect, and Hardware.
-random_paper: 19
+random_paper: 3
 slug: iptronics
 tags:
 - Company

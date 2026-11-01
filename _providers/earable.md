@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -66,32 +68,32 @@ common:
   type: SignUp
   url: https://account.frenzband.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/earable/refs/heads/main/mcp/earable-mcp.yml
+  href: https://artifacts.apis.io/earable/mcp/earable-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/earable-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/earable/refs/heads/main/well-known/earable-well-known.yml
+  href: https://artifacts.apis.io/earable/well-known/earable-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/earable-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/earable/refs/heads/main/llms/earable-llms.txt
+  href: https://artifacts.apis.io/earable/llms/earable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/earable-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/earable/refs/heads/main/authentication/earable-authentication.yml
+  href: https://artifacts.apis.io/earable/authentication/earable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/earable-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/earable/refs/heads/main/scopes/earable-scopes.yml
+  href: https://artifacts.apis.io/earable/scopes/earable-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/earable-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/earable/refs/heads/main/security/earable-domain-security.yml
+  href: https://artifacts.apis.io/earable/security/earable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/earable-domain-security.yml
@@ -111,7 +113,7 @@ overview: 'Earable is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Earable''s developer surface includes engineering blog, getting-started guide, signup flow, authentication, and 9 more developer resources.'
-random_paper: 12
+random_paper: 20
 scopes:
 - name: Earable Scopes
   scope_count: 4
@@ -119,7 +121,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.3
+  composite: 21.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -133,9 +135,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 22.3
+  previous_composite: 21.3
   provenance:
     mcp: platform-generated
   regulatory:
@@ -144,14 +146,14 @@ score:
     regime: Health
     regime_id: health
     score: 28.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/earable/refs/heads/main/screenshots/earable-2026-07-25T212636.png
+screenshot: https://apis.io/screenshots/earable/earable-2026-07-25T212636.png
 security:
 - kind: authentication
   name: Earable Authentication

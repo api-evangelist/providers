@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -70,7 +72,7 @@ apis:
   description: Configure and manage webhook subscriptions
   name: Tropic Webhooks API
   slug: tropic-webhooks-api
-artifact_total: 33
+artifact_total: 32
 collections:
 - collection_type: postman
   name: Tropic Contracts API
@@ -87,9 +89,6 @@ collections:
 - collection_type: postman
   name: Tropic Contracts Webhooks API
   slug: postman-tropic-webhooks-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tropic Contracts API
   slug: open-tropic-contracts-api
@@ -110,22 +109,22 @@ collections:
   slug: open-tropic
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/plans/tropic-plans-pricing.yml
+  href: https://artifacts.apis.io/tropic/plans/tropic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tropic-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/rate-limits/tropic-rate-limits.yml
+  href: https://artifacts.apis.io/tropic/rate-limits/tropic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tropic-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/finops/tropic-finops.yml
+  href: https://artifacts.apis.io/tropic/finops/tropic-finops.yml
   title: ''
   type: FinOps
   url: finops/tropic-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/capabilities/tropic-capability-edges.yml
+  href: https://artifacts.apis.io/tropic/capabilities/tropic-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tropic-capability-edges.yml
@@ -134,22 +133,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tropic/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/agentic-access/tropic-agentic-access.yml
+  href: https://artifacts.apis.io/tropic/agentic-access/tropic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tropic-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/security/tropic-trust-center.yml
+  href: https://artifacts.apis.io/tropic/security/tropic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tropic-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/security/tropic-domain-security.yml
+  href: https://artifacts.apis.io/tropic/security/tropic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tropic-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/authentication/tropic-authentication.yml
+  href: https://artifacts.apis.io/tropic/authentication/tropic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tropic-authentication.yml
@@ -194,7 +193,7 @@ finops:
 - has_sources: false
   method: generated
   name: Tropic Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: tropic-finops
   template: true
@@ -234,7 +233,7 @@ plans:
 - name: Tropic Plans Pricing
   plan_count: 3
   slug: tropic-plans-pricing
-random_paper: 19
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Tropic Rate Limits
@@ -264,24 +263,24 @@ rules:
     warn: 4
   slug: tropic-rules
 score:
-  band: thin
-  composite: 38.8
+  band: developing
+  composite: 40.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 69.0
     catalog_earned_first_party: 0.0
     catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 27.3
-    contract_quality: 64.3
+    contract_quality: 61.8
     developer_ergonomics: 25.0
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 40.3
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     contracts:
@@ -295,13 +294,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/screenshots/tropic-2026-06-20T195744.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tropic/tropic-2026-06-20T195744.png
 security:
 - kind: authentication
   name: Tropic Authentication

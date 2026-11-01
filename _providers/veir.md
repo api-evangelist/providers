@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The single HTTP endpoint VEIR declares in its own RFC 9727 API catalog. It returns veir.com page content as text/markdown for agent consumption. Probed 2026-08-05: it returns HTTP 200 with content-typ'
@@ -64,52 +66,52 @@ common:
   type: TermsOfService
   url: https://veir.com/suppliertermsandconditions
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/veir/refs/heads/main/well-known/veir-well-known.yml
+  href: https://artifacts.apis.io/veir/well-known/veir-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/veir-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/veir/refs/heads/main/well-known/veir-api-catalog.json
+  href: https://artifacts.apis.io/veir/well-known/veir-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/veir-api-catalog.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/veir/refs/heads/main/well-known/veir-robots.txt
+  href: https://artifacts.apis.io/veir/well-known/veir-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/veir-robots.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/veir/refs/heads/main/llms/veir-llms.txt
+  href: https://artifacts.apis.io/veir/llms/veir-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/veir-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veir/refs/heads/main/authentication/veir-authentication.yml
+  href: https://artifacts.apis.io/veir/authentication/veir-authentication.yml
   title: ''
   type: Authentication
   url: authentication/veir-authentication.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/veir/refs/heads/main/well-known/veir-openid-configuration.json
+  href: https://artifacts.apis.io/veir/well-known/veir-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/veir-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veir/refs/heads/main/scopes/veir-scopes.yml
+  href: https://artifacts.apis.io/veir/scopes/veir-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/veir-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veir/refs/heads/main/conventions/veir-conventions.yml
+  href: https://artifacts.apis.io/veir/conventions/veir-conventions.yml
   title: ''
   type: Conventions
   url: conventions/veir-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veir/refs/heads/main/conformance/veir-conformance.yml
+  href: https://artifacts.apis.io/veir/conformance/veir-conformance.yml
   title: ''
   type: Conformance
   url: conformance/veir-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veir/refs/heads/main/security/veir-domain-security.yml
+  href: https://artifacts.apis.io/veir/security/veir-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/veir-domain-security.yml
@@ -144,7 +146,7 @@ overview: 'VEIR is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   VEIR''s developer surface includes engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 20
+random_paper: 6
 scopes:
 - name: Veir Scopes
   scope_count: 3
@@ -152,7 +154,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 21.0
+  composite: 20.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -166,14 +168,14 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 21.0
+  previous_composite: 20.3
   provenance:
     conformance: derived
   regulatory:
@@ -182,14 +184,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/veir/refs/heads/main/screenshots/veir-2026-09-02T165605.png
+screenshot: https://apis.io/screenshots/veir/veir-2026-09-02T165605.png
 security:
 - kind: authentication
   name: Veir Authentication

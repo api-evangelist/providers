@@ -23,21 +23,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.5
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brokk/refs/heads/main/security/brokk-domain-security.yml
+  href: https://artifacts.apis.io/brokk/security/brokk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brokk-domain-security.yml
@@ -58,42 +60,42 @@ common:
   type: Blog
   url: https://brokk.ai/blog/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brokk/refs/heads/main/packages/brokk-packages.yml
+  href: https://artifacts.apis.io/brokk/packages/brokk-packages.yml
   title: ''
   type: Packages
   url: packages/brokk-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brokk/refs/heads/main/packages/brokk-packages.yml
+  href: https://artifacts.apis.io/brokk/packages/brokk-packages.yml
   title: ''
   type: SDKs
   url: packages/brokk-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brokk/refs/heads/main/mcp/brokk-mcp.yml
+  href: https://artifacts.apis.io/brokk/mcp/brokk-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/brokk-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brokk/refs/heads/main/cli/brokk-cli.yml
+  href: https://artifacts.apis.io/brokk/cli/brokk-cli.yml
   title: ''
   type: CLI
   url: cli/brokk-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brokk/refs/heads/main/components/brokk-components.yml
+  href: https://artifacts.apis.io/brokk/components/brokk-components.yml
   title: ''
   type: Components
   url: components/brokk-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brokk/refs/heads/main/llms/brokk-llms.txt
+  href: https://artifacts.apis.io/brokk/llms/brokk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brokk-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brokk/refs/heads/main/well-known/brokk-well-known.yml
+  href: https://artifacts.apis.io/brokk/well-known/brokk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/brokk-well-known.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brokk/refs/heads/main/changelog/brokk-changelog.yml
+  href: https://artifacts.apis.io/brokk/changelog/brokk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/brokk-changelog.yml
@@ -116,9 +118,9 @@ overview: 'Brokk is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 9
 score:
   band: emerging
-  composite: 11.7
+  composite: 11.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -130,9 +132,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 55.4
-    operational_transparency: 18.4
-  previous_composite: 11.7
+    discoverability: 48.3
+    operational_transparency: 21.1
+  previous_composite: 11.4
   provenance:
     mcp: first-party
   regulatory:
@@ -141,14 +143,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/brokk/refs/heads/main/screenshots/brokk-2026-07-25T203947.png
+screenshot: https://apis.io/screenshots/brokk/brokk-2026-07-25T203947.png
 security:
 - kind: domain-security
   name: Brokk Domain Security

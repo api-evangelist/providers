@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-17'
+  score: 32.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 2
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 54
   slug: datavant-agentic-access
   summary_line: 54 operations · 28 acting · 2 human-in-the-loop
-api_count: 4
+api_count: 1
 apis:
 - baseURL: https://api.datavant.io/v2
   baseurl_source: declared
@@ -85,30 +87,30 @@ apis:
   description: The Oauth2 API from Datavant — 1 operation(s) for oauth2.
   name: Datavant Oauth2 API
   slug: datavant-oauth2-api
-artifact_total: 16
+artifact_total: 21
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/capabilities/datavant-capability-edges.yml
+  href: https://artifacts.apis.io/datavant/capabilities/datavant-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/datavant-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/agentic-access/datavant-agentic-access.yml
+  href: https://artifacts.apis.io/datavant/agentic-access/datavant-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/datavant-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/scopes/datavant-scopes.yml
+  href: https://artifacts.apis.io/datavant/scopes/datavant-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/datavant-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/authentication/datavant-authentication.yml
+  href: https://artifacts.apis.io/datavant/authentication/datavant-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datavant-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/security/datavant-domain-security.yml
+  href: https://artifacts.apis.io/datavant/security/datavant-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datavant-domain-security.yml
@@ -141,7 +143,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/datavant
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/llms/datavant-llms.txt
+  href: https://artifacts.apis.io/datavant/llms/datavant-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/datavant-llms.txt
@@ -174,7 +176,7 @@ common:
   type: APIReference
   url: https://developer.datavant.com/docs
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/_original/datavant-rest-api-openapi.yml
+  href: https://artifacts.apis.io/datavant/openapi/_original/datavant-rest-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/datavant-rest-api-openapi.yml
@@ -191,37 +193,37 @@ common:
   type: Login
   url: https://portal.datavant.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/conventions/datavant-conventions.yml
+  href: https://artifacts.apis.io/datavant/conventions/datavant-conventions.yml
   title: ''
   type: Conventions
   url: conventions/datavant-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/errors/datavant-problem-types.yml
+  href: https://artifacts.apis.io/datavant/errors/datavant-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/datavant-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/data-model/datavant-data-model.yml
+  href: https://artifacts.apis.io/datavant/data-model/datavant-data-model.yml
   title: ''
   type: DataModel
   url: data-model/datavant-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/overlays/datavant-rest-api-overlay.yaml
+  href: https://artifacts.apis.io/datavant/overlays/datavant-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/datavant-rest-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/lifecycle/datavant-lifecycle.yml
+  href: https://artifacts.apis.io/datavant/lifecycle/datavant-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/datavant-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/changelog/datavant-changelog.yml
+  href: https://artifacts.apis.io/datavant/changelog/datavant-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/datavant-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/conformance/datavant-conformance.yml
+  href: https://artifacts.apis.io/datavant/conformance/datavant-conformance.yml
   title: ''
   type: Conformance
   url: conformance/datavant-conformance.yml
@@ -230,7 +232,7 @@ common:
   type: Compliance
   url: https://www.datavant.com/about/privacy-compliance
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/well-known/datavant-well-known.yml
+  href: https://artifacts.apis.io/datavant/well-known/datavant-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/datavant-well-known.yml
@@ -239,7 +241,7 @@ common:
   type: OpenIDConnect
   url: https://auth.datavant.com/.well-known/openid-configuration
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/security/datavant-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/datavant/security/datavant-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/datavant-vulnerability-disclosure.yml
@@ -248,22 +250,22 @@ common:
   type: Security
   url: https://www.datavant.com/report-vulnerabilities
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/security/datavant-trust-center.yml
+  href: https://artifacts.apis.io/datavant/security/datavant-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/datavant-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/packages/datavant-packages.yml
+  href: https://artifacts.apis.io/datavant/packages/datavant-packages.yml
   title: ''
   type: Packages
   url: packages/datavant-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/cli/datavant-cli.yml
+  href: https://artifacts.apis.io/datavant/cli/datavant-cli.yml
   title: ''
   type: CLI
   url: cli/datavant-cli.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/plans/datavant-plans-pricing.yml
+  href: https://artifacts.apis.io/datavant/plans/datavant-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/datavant-plans-pricing.yml
@@ -272,23 +274,31 @@ common:
   type: Pricing
   url: https://aws.amazon.com/marketplace/pp/prodview-eolcfagze2ihw
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/rate-limits/datavant-rate-limits.yml
+  href: https://artifacts.apis.io/datavant/rate-limits/datavant-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/datavant-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/datavant/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/mcp/datavant-mcp.yml
+  href: https://artifacts.apis.io/datavant/mcp/datavant-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/datavant-mcp.yml
 created: '2026-07-24'
 description: 'Datavant is a United States health-data logistics company, formed from the 2021 merger of Datavant and Ciox Health, that connects and de-identifies healthcare data across a "network of networks" spanning 350+ real-world data partners, 80,000+ hospitals and clinics, and a majority of the largest US health systems. Its core capabilities are privacy-preserving record linkage using Datavant tokens, HIPAA Expert Determination and de-identification, medical record retrieval / release of information, and real-world evidence generation for life sciences, payers, providers, and government. Datavant publishes a real machine-readable contract for the retrieval side of that business: an OpenAPI 3.1.0 document for the Datavant REST API (36 paths, 54 operations, OAuth 2.0 client credentials, base https://api.datavant.io/v2) is served anonymously at https://developer.datavant.com/openapi.json, even though that host''s root returns HTTP 404. Access is still enterprise and contract-gated -
   there is no self-serve sign-up, no published pricing beyond a single AWS Marketplace listing, no published scopes or rate limits, and no FHIR CapabilityStatement. Home market is the United States.'
+finops:
+- has_sources: true
+  method: derived
+  name: Datavant Finops
+  primary_unit: 12-month license (per unit)
+  service_category: ''
+  slug: datavant-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-09-16'
@@ -303,7 +313,10 @@ plans:
 - name: Datavant Plans Pricing
   plan_count: 1
   slug: datavant-plans-pricing
-random_paper: 15
+- name: Datavant Price Estimates
+  plan_count: 0
+  slug: datavant-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Datavant Rate Limits
@@ -315,22 +328,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.1
+  composite: 60.7
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 1.0
   facets:
-    access_clarity: 67.1
+    access_clarity: 89.5
     contract_governance: 18.2
-    contract_quality: 50.3
+    contract_quality: 47.7
     developer_ergonomics: 54.2
-    discoverability: 78.6
-    operational_transparency: 44.7
+    discoverability: 66.1
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -338,7 +351,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 56.5
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -355,13 +368,14 @@ score:
     regime: Health
     regime_id: health
     score: 46.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/screenshots/datavant-2026-07-25T211401.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/datavant/datavant-2026-07-25T211401.png
 security:
 - kind: authentication
   name: Datavant Authentication
@@ -379,6 +393,14 @@ security:
   name: Datavant Trust Center
   slug: datavant-trust-center
   summary_line: FedRAMP Moderate, SOC 2 Type 2, HIPAA, FIPS 140-2
+skill_count: 3
+skills:
+- name: Size a Datavant retrieval with prematch, and manage tenant configuration
+  slug: datavant-prematch-and-configuration
+- name: Submit a Datavant medical record retrieval order
+  slug: datavant-submit-retrieval-order
+- name: Track a Datavant order and collect the retrieved documents
+  slug: datavant-track-and-collect-documents
 slug: datavant
 tags:
 - Healthcare

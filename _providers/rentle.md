@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 32.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 28
   slug: rentle-agentic-access
   summary_line: 28 operations · 7 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.twicecommerce.com/admin
   baseurl_source: declared
@@ -109,15 +111,12 @@ apis:
   description: The Product API from Rentle — 0 operation(s) for product.
   name: Rentle Product API
   slug: rentle-product-api
-artifact_total: 29
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Rentle Webhooks
   slug: rentle-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Twice Admin API Keys API
   slug: open-rentle-api-keys-api
@@ -152,33 +151,38 @@ collections:
   name: Twice Admin API Keys Webhooks API
   slug: open-rentle-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/rentle/plans/rentle-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rentle-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/capabilities/rentle-capability-edges.yml
+  href: https://artifacts.apis.io/rentle/capabilities/rentle-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rentle-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/skills/rentle-create-order.md
+  href: https://artifacts.apis.io/rentle/skills/rentle-create-order.md
   title: ''
   type: AgentSkill
   url: skills/rentle-create-order.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/mcp/rentle-mcp.yml
+  href: https://artifacts.apis.io/rentle/mcp/rentle-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rentle-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/overlays/rentle-admin-overlay.yaml
+  href: https://artifacts.apis.io/rentle/overlays/rentle-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rentle-admin-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/agentic-access/rentle-agentic-access.yml
+  href: https://artifacts.apis.io/rentle/agentic-access/rentle-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rentle-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/security/rentle-domain-security.yml
+  href: https://artifacts.apis.io/rentle/security/rentle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rentle-domain-security.yml
@@ -235,27 +239,35 @@ common:
   type: StatusPage
   url: https://status.twicecommerce.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/changelog/rentle-changelog.yml
+  href: https://artifacts.apis.io/rentle/changelog/rentle-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rentle-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/lifecycle/rentle-lifecycle.yml
+  href: https://artifacts.apis.io/rentle/lifecycle/rentle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rentle-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/components/rentle-components.yml
+  href: https://artifacts.apis.io/rentle/components/rentle-components.yml
   title: ''
   type: Components
   url: components/rentle-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/llms/rentle-llms.txt
+  href: https://artifacts.apis.io/rentle/llms/rentle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rentle-llms.txt
 created: '2026-07-17'
 description: Rentle, now operating as Twice Commerce, is a Helsinki-founded (2018) circular-commerce platform that lets merchants run rentals, resale, and subscriptions from one system. Its Twice Admin API (OpenAPI 3.0.0, date-based version 2023-02-01) exposes categories, customers, inventory articles, SKUs, products, orders, stores, merchant details, discount codes, API keys, and webhooks over a REST interface authenticated with HTTP Basic API keys. Outbound webhooks cover nine order and product lifecycle events. This profile was enriched by the API Evangelist pipeline from Rentle/Twice Commerce public developer surfaces.
+finops:
+- has_sources: true
+  method: derived
+  name: Rentle Finops
+  primary_unit: onboarding
+  service_category: ''
+  slug: rentle-finops
+  template: false
 image: https://www.twicecommerce.com/favicon.ico
 layout: provider
 modified: '2026-07-20'
@@ -268,27 +280,34 @@ overview: 'Rentle publishes 13 API contracts indexed on the [APIs.io](https://ap
   The Rentle catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Rentle''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 16 more developer resources.'
-random_paper: 12
+  Rentle''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 17 more developer resources.'
+plans:
+- name: Rentle Plans Pricing
+  plan_count: 9
+  slug: rentle-plans-pricing
+- name: Rentle Price Estimates
+  plan_count: 0
+  slug: rentle-price-estimates
+random_paper: 2
 score:
   band: developing
-  composite: 39.6
+  composite: 53.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 38.2
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 49.4
-    developer_ergonomics: 28.0
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 39.6
+    contract_quality: 52.0
+    developer_ergonomics: 47.0
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,13 +324,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/screenshots/rentle-2026-08-17T081515.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rentle/rentle-2026-08-17T081515.png
 security:
 - kind: authentication
   name: Rentle Authentication
@@ -321,6 +341,12 @@ security:
   name: Rentle Domain Security
   slug: rentle-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Create a rental order in Rentle (Twice Commerce)
+  slug: rentle-create-order
+- name: Subscribe to Rentle order and product webhooks
+  slug: rentle-subscribe-webhooks
 slug: rentle
 tags:
 - Company

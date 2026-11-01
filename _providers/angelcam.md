@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.0
-  scored_at: '2026-10-17'
+  score: 40.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 8
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 124
   slug: angelcam-agentic-access
   summary_line: 124 operations · 53 acting · 8 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.angelcam.com/v1
   baseurl_source: declared
@@ -196,15 +198,12 @@ arazzos:
 - description: List cameras and retrieve the live-stream URLs for one.
   name: Angelcam — watch a live camera
   slug: angelcam-watch-live-camera
-artifact_total: 67
+artifact_total: 70
 asyncapis:
 - description: ''
   name: Angelcam Webhooks
   slug: angelcam-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Angelcam Active Service API
   slug: open-angelcam-active-service-api
@@ -294,12 +293,12 @@ collections:
   slug: open-angelcam-user-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/capabilities/angelcam-capability-edges.yml
+  href: https://artifacts.apis.io/angelcam/capabilities/angelcam-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/angelcam-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/overlays/angelcam-openapi-overlay.yaml
+  href: https://artifacts.apis.io/angelcam/overlays/angelcam-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/angelcam-openapi-overlay.yaml
@@ -320,52 +319,52 @@ common:
   type: GettingStarted
   url: https://developers.angelcam.com/guides/key-concepts/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/authentication/angelcam-authentication.yml
+  href: https://artifacts.apis.io/angelcam/authentication/angelcam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/angelcam-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/scopes/angelcam-scopes.yml
+  href: https://artifacts.apis.io/angelcam/scopes/angelcam-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/angelcam-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/mcp/angelcam-mcp.yml
+  href: https://artifacts.apis.io/angelcam/mcp/angelcam-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/angelcam-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/agentic-access/angelcam-agentic-access.yml
+  href: https://artifacts.apis.io/angelcam/agentic-access/angelcam-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/angelcam-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/llms/angelcam-llms.txt
+  href: https://artifacts.apis.io/angelcam/llms/angelcam-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/angelcam-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/angelcam/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/asyncapi/angelcam-webhooks.yml
+  href: https://artifacts.apis.io/angelcam/asyncapi/angelcam-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/angelcam-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/rate-limits/angelcam-rate-limits.yml
+  href: https://artifacts.apis.io/angelcam/rate-limits/angelcam-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/angelcam-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/errors/angelcam-problem-types.yml
+  href: https://artifacts.apis.io/angelcam/errors/angelcam-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/angelcam-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/lifecycle/angelcam-lifecycle.yml
+  href: https://artifacts.apis.io/angelcam/lifecycle/angelcam-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/angelcam-lifecycle.yml
@@ -374,27 +373,27 @@ common:
   type: StatusPage
   url: https://status.angelcam.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/lifecycle/angelcam-lifecycle.yml
+  href: https://artifacts.apis.io/angelcam/lifecycle/angelcam-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/angelcam-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/conventions/angelcam-conventions.yml
+  href: https://artifacts.apis.io/angelcam/conventions/angelcam-conventions.yml
   title: ''
   type: Conventions
   url: conventions/angelcam-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/data-model/angelcam-data-model.yml
+  href: https://artifacts.apis.io/angelcam/data-model/angelcam-data-model.yml
   title: ''
   type: DataModel
   url: data-model/angelcam-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/conformance/angelcam-conformance.yml
+  href: https://artifacts.apis.io/angelcam/conformance/angelcam-conformance.yml
   title: ''
   type: Conformance
   url: conformance/angelcam-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/security/angelcam-domain-security.yml
+  href: https://artifacts.apis.io/angelcam/security/angelcam-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/angelcam-domain-security.yml
@@ -441,7 +440,7 @@ overview: 'AngelCam publishes 29 API contracts indexed on the [APIs.io](https://
 
 
   AngelCam''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 23 more developer resources.'
-random_paper: 10
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Angelcam Rate Limits
@@ -453,23 +452,23 @@ scopes:
   summary_line: 51 scopes · authorizationCode/password
 score:
   band: developing
-  composite: 48.7
+  composite: 49.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 56.8
+    contract_quality: 54.6
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 55.3
-  previous_composite: 48.6
+    discoverability: 66.1
+    operational_transparency: 57.9
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -486,13 +485,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/screenshots/angelcam-2026-07-25T200231.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/angelcam/angelcam-2026-07-25T200231.png
 security:
 - kind: authentication
   name: Angelcam Authentication
@@ -502,6 +502,16 @@ security:
   name: Angelcam Domain Security
   slug: angelcam-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Create and share an Angelcam recording clip
+  slug: angelcam-clip-and-share
+- name: Pair an Angelcam Arrow connector and add a camera
+  slug: angelcam-pair-arrow-client
+- name: Set up Angelcam RTS event notifications (webhook)
+  slug: angelcam-rts-notifications
+- name: Watch an Angelcam live camera stream
+  slug: angelcam-watch-camera
 slug: angelcam
 tags:
 - Company

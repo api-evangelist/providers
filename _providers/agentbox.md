@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The production Agentbox (Reapit Sales) REST API used by approved integration partners to read and write agency CRM data - contacts, listings, properties, staff and offices. The host is live and fronte
@@ -43,47 +45,47 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agentbox/refs/heads/main/security/agentbox-domain-security.yml
+  href: https://artifacts.apis.io/agentbox/security/agentbox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agentbox-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agentbox/refs/heads/main/authentication/agentbox-authentication.yml
+  href: https://artifacts.apis.io/agentbox/authentication/agentbox-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agentbox-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentbox/refs/heads/main/conventions/agentbox-conventions.yml
+  href: https://artifacts.apis.io/agentbox/conventions/agentbox-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agentbox-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agentbox/refs/heads/main/rate-limits/agentbox-rate-limits.yml
+  href: https://artifacts.apis.io/agentbox/rate-limits/agentbox-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agentbox-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentbox/refs/heads/main/errors/agentbox-problem-types.yml
+  href: https://artifacts.apis.io/agentbox/errors/agentbox-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agentbox-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentbox/refs/heads/main/lifecycle/agentbox-lifecycle.yml
+  href: https://artifacts.apis.io/agentbox/lifecycle/agentbox-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agentbox-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentbox/refs/heads/main/conformance/agentbox-conformance.yml
+  href: https://artifacts.apis.io/agentbox/conformance/agentbox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agentbox-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/agentbox/refs/heads/main/packages/agentbox-packages.yml
+  href: https://artifacts.apis.io/agentbox/packages/agentbox-packages.yml
   title: ''
   type: Packages
   url: packages/agentbox-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agentbox/refs/heads/main/changelog/agentbox-changelog.yml
+  href: https://artifacts.apis.io/agentbox/changelog/agentbox-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/agentbox-changelog.yml
@@ -92,7 +94,7 @@ common:
   type: ChangeLog
   url: https://www.agentbox.com.au/future-releases
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agentbox/refs/heads/main/llms/agentbox-llms.txt
+  href: https://artifacts.apis.io/agentbox/llms/agentbox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agentbox-llms.txt
@@ -213,14 +215,14 @@ overview: 'Agentbox is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Agentbox''s developer surface includes authentication, changelog, engineering blog, documentation, support, pricing, training material, and 30 more developer resources.'
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Agentbox Rate Limits
   slug: agentbox-rate-limits
 score:
   band: emerging
-  composite: 21.5
+  composite: 24.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -228,12 +230,12 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 15.8
   jurisdiction:
@@ -244,7 +246,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 21.4
+  previous_composite: 24.7
   provenance:
     conformance: derived
   regulatory:
@@ -253,14 +255,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/agentbox/refs/heads/main/screenshots/agentbox-2026-07-27T125332.png
+screenshot: https://apis.io/screenshots/agentbox/agentbox-2026-07-27T125332.png
 security:
 - kind: authentication
   name: Agentbox Authentication

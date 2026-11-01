@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -100,11 +102,8 @@ apis:
 - description: TMS partner integration API providing seamless load creation (Truckload, LTL, and Partial), LTL freight rating, real-time tracking, and document retrieval. Aimed at third-party TMS platforms and manag
   name: EchoSync Partner-Connect API
   slug: partner-connect-api
-artifact_total: 38
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Echo Authorizer documents API
   slug: open-echo-global-documents-api
@@ -131,27 +130,27 @@ collections:
   slug: open-echo-global-token-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/capabilities/echo-global-capability-edges.yml
+  href: https://artifacts.apis.io/echo-global/capabilities/echo-global-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/echo-global-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/agentic-access/echo-global-agentic-access.yml
+  href: https://artifacts.apis.io/echo-global/agentic-access/echo-global-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/echo-global-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/security/echo-global-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/echo-global/security/echo-global-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/echo-global-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/security/echo-global-domain-security.yml
+  href: https://artifacts.apis.io/echo-global/security/echo-global-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/echo-global-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/authentication/echo-global-authentication.yml
+  href: https://artifacts.apis.io/echo-global/authentication/echo-global-authentication.yml
   title: ''
   type: Authentication
   url: authentication/echo-global-authentication.yml
@@ -180,17 +179,17 @@ common:
   type: Pricing
   url: https://www.echo.com/shippers/get-a-quote/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/plans/echo-global-plans-pricing.yml
+  href: https://artifacts.apis.io/echo-global/plans/echo-global-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/echo-global-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/rate-limits/echo-global-rate-limits.yml
+  href: https://artifacts.apis.io/echo-global/rate-limits/echo-global-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/echo-global-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/finops/echo-global-finops.yml
+  href: https://artifacts.apis.io/echo-global/finops/echo-global-finops.yml
   title: ''
   type: FinOps
   url: finops/echo-global-finops.yml
@@ -261,7 +260,7 @@ plans:
 - name: Echo Global Plans Pricing
   plan_count: 3
   slug: echo-global-plans-pricing
-random_paper: 7
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Echo Global Rate Limits
@@ -280,7 +279,7 @@ rules:
   slug: echo-global-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.1
+  composite: 37.2
   coverage:
     artifact_dirs: 17
     catalog_earned: 52.3
@@ -288,15 +287,15 @@ score:
     catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: -0.2
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 55.3
-    developer_ergonomics: 36.9
+    developer_ergonomics: 40.5
     discoverability: 62.5
-    operational_transparency: 10.5
-  previous_composite: 42.4
+    operational_transparency: 23.7
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -310,13 +309,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/screenshots/echo-global-2026-06-20T180419.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/echo-global/echo-global-2026-06-20T180419.png
 security:
 - kind: authentication
   name: Echo Global Authentication

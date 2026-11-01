@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'The agent-facing commerce API for the SUPER73 North American storefront. Implements the Universal Commerce Protocol (UCP) 2026-08-25 over MCP: a merchant profile at /.well-known/ucp declares the suppo'
@@ -48,7 +50,7 @@ apis:
 - description: The agent-facing commerce API for the European SUPER73 storefront, operated by SUPER73 BV on the super73europe Shopify store. Identical UCP 2026-08-25 / MCP surface to the North American store — the s
   name: SUPER73 BV Agent Commerce (UCP/MCP)
   slug: super73-eu-agent-commerce
-artifact_total: 10
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -79,77 +81,77 @@ common:
   type: PrivacyPolicy
   url: https://super73.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/well-known/super73-well-known.yml
+  href: https://artifacts.apis.io/super73/well-known/super73-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/super73-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/conformance/super73-conformance.yml
+  href: https://artifacts.apis.io/super73/conformance/super73-conformance.yml
   title: ''
   type: Conformance
   url: conformance/super73-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/lifecycle/super73-lifecycle.yml
+  href: https://artifacts.apis.io/super73/lifecycle/super73-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/super73-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/security/super73-domain-security.yml
+  href: https://artifacts.apis.io/super73/security/super73-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/super73-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/plans/super73-plans-pricing.yml
+  href: https://artifacts.apis.io/super73/plans/super73-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/super73-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/super73/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/mcp/super73-mcp.yml
+  href: https://artifacts.apis.io/super73/mcp/super73-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/super73-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/mcp/super73-tool-crosswalk.yml
+  href: https://artifacts.apis.io/super73/mcp/super73-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/super73-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/llms/super73-llms.txt
+  href: https://artifacts.apis.io/super73/llms/super73-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/super73-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/graphql/super73-storefront-graphql.yml
+  href: https://artifacts.apis.io/super73/graphql/super73-storefront-graphql.yml
   title: ''
   type: GraphQL
   url: graphql/super73-storefront-graphql.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/authentication/super73-authentication.yml
+  href: https://artifacts.apis.io/super73/authentication/super73-authentication.yml
   title: ''
   type: Authentication
   url: authentication/super73-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/scopes/super73-scopes.yml
+  href: https://artifacts.apis.io/super73/scopes/super73-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/super73-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/conventions/super73-conventions.yml
+  href: https://artifacts.apis.io/super73/conventions/super73-conventions.yml
   title: ''
   type: Conventions
   url: conventions/super73-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/rate-limits/super73-rate-limits.yml
+  href: https://artifacts.apis.io/super73/rate-limits/super73-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/super73-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/data-model/super73-data-model.yml
+  href: https://artifacts.apis.io/super73/data-model/super73-data-model.yml
   title: ''
   type: DataModel
   url: data-model/super73-data-model.yml
@@ -177,7 +179,7 @@ plans:
 - name: Super73 Plans Pricing
   plan_count: 0
   slug: super73-plans-pricing
-random_paper: 5
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Super73 Rate Limits
@@ -189,7 +191,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 26.0
+  composite: 25.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -197,20 +199,20 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 25.9
+  previous_composite: 25.0
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -221,14 +223,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/screenshots/super73-2026-09-02T161213.png
+screenshot: https://apis.io/screenshots/super73/super73-2026-09-02T161213.png
 security:
 - kind: authentication
   name: Super73 Authentication
@@ -238,6 +240,14 @@ security:
   name: Super73 Domain Security
   slug: super73-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: super73-browse-catalog
+  slug: super73-browse-catalog
+- name: super73-buy-a-bike
+  slug: super73-buy-a-bike
+- name: super73-price-a-basket
+  slug: super73-price-a-basket
 slug: super73
 tags:
 - Electric Bikes

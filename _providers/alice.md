@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-17'
+  score: 27.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -79,15 +81,12 @@ apis:
   description: 'WonderFence provides real-time guardrails for AI-generated content. APIs for evaluating and moderating AI-generated content and interactions to protect against harmful outputs and prompt attacks. ## A'
   name: Alice WonderFence API
   slug: alice-wonderfence-api
-artifact_total: 19
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Alice Webhooks
   slug: alice-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Alice API Documentation api keys API
   slug: open-alice-api-keys-api
@@ -115,7 +114,7 @@ common:
   type: BlogRSS
   url: https://alice.io/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/overlays/alice-overlay.yaml
+  href: https://artifacts.apis.io/alice/overlays/alice-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alice-overlay.yaml
@@ -144,77 +143,77 @@ common:
   type: PrivacyPolicy
   url: https://alice.io/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/llms/alice-llms.txt
+  href: https://artifacts.apis.io/alice/llms/alice-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alice-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/authentication/alice-authentication.yml
+  href: https://artifacts.apis.io/alice/authentication/alice-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alice-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/agentic-access/alice-agentic-access.yml
+  href: https://artifacts.apis.io/alice/agentic-access/alice-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/alice-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/security/alice-domain-security.yml
+  href: https://artifacts.apis.io/alice/security/alice-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alice-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/mcp/alice-mcp.yml
+  href: https://artifacts.apis.io/alice/mcp/alice-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/alice-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/asyncapi/alice-webhooks.yml
+  href: https://artifacts.apis.io/alice/asyncapi/alice-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/alice-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/errors/alice-problem-types.yml
+  href: https://artifacts.apis.io/alice/errors/alice-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/alice-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/conventions/alice-conventions.yml
+  href: https://artifacts.apis.io/alice/conventions/alice-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alice-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/lifecycle/alice-lifecycle.yml
+  href: https://artifacts.apis.io/alice/lifecycle/alice-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alice-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/data-model/alice-data-model.yml
+  href: https://artifacts.apis.io/alice/data-model/alice-data-model.yml
   title: ''
   type: DataModel
   url: data-model/alice-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/conformance/alice-conformance.yml
+  href: https://artifacts.apis.io/alice/conformance/alice-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alice-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/conformance/alice-conformance.yml
+  href: https://artifacts.apis.io/alice/conformance/alice-conformance.yml
   title: ''
   type: Compliance
   url: conformance/alice-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/packages/alice-packages.yml
+  href: https://artifacts.apis.io/alice/packages/alice-packages.yml
   title: ''
   type: Packages
   url: packages/alice-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/well-known/alice-well-known.yml
+  href: https://artifacts.apis.io/alice/well-known/alice-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alice-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/alice/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -237,26 +236,26 @@ overview: 'Alice publishes 7 API contracts indexed on the [APIs.io](https://apis
 
 
   Alice''s developer surface includes documentation, API reference, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 4
+random_paper: 6
 score:
   band: developing
-  composite: 43.9
+  composite: 40.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 60.3
     developer_ergonomics: 42.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 44.2
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -273,13 +272,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/screenshots/alice-2026-07-25T195611.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/alice/alice-2026-07-25T195611.png
 security:
 - kind: authentication
   name: Alice Authentication
@@ -289,6 +289,14 @@ security:
   name: Alice Domain Security
   slug: alice-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Evaluate a GenAI message with Alice WonderFence
+  slug: alice-evaluate-genai-message
+- name: Moderate content with Alice
+  slug: alice-moderate-content
+- name: Run an Alice red-team assessment
+  slug: alice-run-redteam-assessment
 slug: alice
 tags:
 - Company

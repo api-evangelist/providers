@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.7
-  scored_at: '2026-10-17'
+  score: 38.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 57
   slug: aweber-agentic-access
   summary_line: 57 operations · 19 acting · 1 human-in-the-loop
-api_count: 4
+api_count: 5
 apis:
 - baseURL: https://api.aweber.com/1.0
   baseurl_source: declared
@@ -290,15 +292,12 @@ apis:
     question: What are the details of a single variant within a form split test?
   phrasing_ops: 8
   slug: aweber-webforms-api
-artifact_total: 37
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Aweber Webhooks
   slug: aweber-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AWeber Accounts API
   slug: open-aweber-accounts-api
@@ -340,32 +339,32 @@ collections:
   slug: open-aweber
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/capabilities/aweber-capability-edges.yml
+  href: https://artifacts.apis.io/aweber/capabilities/aweber-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/aweber-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/agentic-access/aweber-agentic-access.yml
+  href: https://artifacts.apis.io/aweber/agentic-access/aweber-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aweber-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/security/aweber-trust-center.yml
+  href: https://artifacts.apis.io/aweber/security/aweber-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/aweber-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/security/aweber-domain-security.yml
+  href: https://artifacts.apis.io/aweber/security/aweber-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aweber-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/authentication/aweber-authentication.yml
+  href: https://artifacts.apis.io/aweber/authentication/aweber-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aweber-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/scopes/aweber-scopes.yml
+  href: https://artifacts.apis.io/aweber/scopes/aweber-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aweber-scopes.yml
@@ -450,32 +449,32 @@ common:
   type: YouTube
   url: https://www.youtube.com/user/AWeber
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/mcp/aweber-mcp.yml
+  href: https://artifacts.apis.io/aweber/mcp/aweber-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aweber-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/packages/aweber-packages.yml
+  href: https://artifacts.apis.io/aweber/packages/aweber-packages.yml
   title: ''
   type: Packages
   url: packages/aweber-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/packages/aweber-packages.yml
+  href: https://artifacts.apis.io/aweber/packages/aweber-packages.yml
   title: ''
   type: SDKs
   url: packages/aweber-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/llms/aweber-llms.txt
+  href: https://artifacts.apis.io/aweber/llms/aweber-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aweber-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/overlays/aweber-api-overlay.yaml
+  href: https://artifacts.apis.io/aweber/overlays/aweber-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aweber-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/conformance/aweber-conformance.yml
+  href: https://artifacts.apis.io/aweber/conformance/aweber-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aweber-conformance.yml
@@ -484,52 +483,52 @@ common:
   type: Compliance
   url: https://www.aweber.com/dpst.htm
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/errors/aweber-problem-types.yml
+  href: https://artifacts.apis.io/aweber/errors/aweber-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aweber-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/lifecycle/aweber-lifecycle.yml
+  href: https://artifacts.apis.io/aweber/lifecycle/aweber-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aweber-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/conventions/aweber-conventions.yml
+  href: https://artifacts.apis.io/aweber/conventions/aweber-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aweber-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/changelog/aweber-changelog.yml
+  href: https://artifacts.apis.io/aweber/changelog/aweber-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aweber-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/data-model/aweber-data-model.yml
+  href: https://artifacts.apis.io/aweber/data-model/aweber-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aweber-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/asyncapi/aweber-webhooks.yml
+  href: https://artifacts.apis.io/aweber/asyncapi/aweber-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/aweber-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aweber/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/plans/aweber-plans-pricing.yml
+  href: https://artifacts.apis.io/aweber/plans/aweber-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aweber-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/rate-limits/aweber-rate-limits.yml
+  href: https://artifacts.apis.io/aweber/rate-limits/aweber-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aweber-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/security/aweber-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aweber/security/aweber-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aweber-vulnerability-disclosure.yml
@@ -563,6 +562,14 @@ common:
   url: https://github.com/aweber/public-api-examples
 created: '2026-05-11'
 description: AWeber is an email marketing and automation platform for small businesses, creators, and entrepreneurs providing email broadcasts, drip campaigns, landing pages, sign-up forms, and subscriber management. The AWeber REST API at api.aweber.com offers full programmatic access to lists, subscribers, broadcasts, campaigns, custom fields, segments, and tags using OAuth 2.0 authentication.
+finops:
+- has_sources: true
+  method: derived
+  name: Aweber Finops
+  primary_unit: account
+  service_category: ''
+  slug: aweber-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aweber.png
 layout: provider
 mcp_servers:
@@ -584,7 +591,10 @@ plans:
 - name: Aweber Plans Pricing
   plan_count: 3
   slug: aweber-plans-pricing
-random_paper: 14
+- name: Aweber Price Estimates
+  plan_count: 0
+  slug: aweber-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Aweber Rate Limits
@@ -596,23 +606,23 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.7
+  composite: 73.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 60.0
+    artifact_dirs: 27
+    catalog_earned: 63.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 59.3
-    developer_ergonomics: 66.1
-    discoverability: 78.6
-    operational_transparency: 55.3
-  previous_composite: 67.7
+    developer_ergonomics: 80.4
+    discoverability: 70.0
+    operational_transparency: 76.3
+  previous_composite: 72.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -629,13 +639,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 44.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/screenshots/aweber-2026-06-20T172736.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aweber/aweber-2026-06-20T172736.png
 security:
 - kind: authentication
   name: Aweber Authentication
@@ -653,6 +664,16 @@ security:
   name: Aweber Trust Center
   slug: aweber-trust-center
   summary_line: PCI Security certification, Privacy Shield certification, GDPR
+skill_count: 4
+skills:
+- name: Authorize an AWeber integration
+  slug: aweber-authorize-an-integration
+- name: Create and schedule an AWeber broadcast
+  slug: aweber-create-and-schedule-broadcast
+- name: Manage an AWeber subscriber
+  slug: aweber-manage-subscriber
+- name: Track a purchase in AWeber
+  slug: aweber-track-a-purchase
 slug: aweber
 tags:
 - Email Marketing

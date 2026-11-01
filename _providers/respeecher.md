@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 54
   slug: respeecher-agentic-access
   summary_line: 54 operations · 29 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.respeecher.com/v1/public/tts/en-rt
   baseurl_source: declared
@@ -128,15 +130,12 @@ apis:
   description: The voices API from Respeecher — 4 operation(s) for voices.
   name: Respeecher Voices API
   slug: respeecher-voices-api
-artifact_total: 41
+artifact_total: 40
 asyncapis:
 - description: AsyncAPI description of the Respeecher Space real-time text-to-speech WebSocket channel. A single persistent WebSocket connection carries multiple concurrent text-to-speech generations, differentiated
   name: Respeecher Space Real-Time TTS WebSocket API
   slug: respeecher-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Voice Markertplace accents API
   slug: open-respeecher-accents-api
@@ -187,12 +186,12 @@ collections:
   slug: open-respeecher-voices-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/agentic-access/respeecher-agentic-access.yml
+  href: https://artifacts.apis.io/respeecher/agentic-access/respeecher-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/respeecher-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/security/respeecher-domain-security.yml
+  href: https://artifacts.apis.io/respeecher/security/respeecher-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/respeecher-domain-security.yml
@@ -217,17 +216,17 @@ common:
   type: SignUp
   url: https://marketplace.respeecher.com/account
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/plans/respeecher-plans-pricing.yml
+  href: https://artifacts.apis.io/respeecher/plans/respeecher-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/respeecher-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/rate-limits/respeecher-rate-limits.yml
+  href: https://artifacts.apis.io/respeecher/rate-limits/respeecher-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/respeecher-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/finops/respeecher-finops.yml
+  href: https://artifacts.apis.io/respeecher/finops/respeecher-finops.yml
   title: ''
   type: FinOps
   url: finops/respeecher-finops.yml
@@ -285,8 +284,8 @@ rules:
     warn: 1
   slug: respeecher-asyncapi-spectral-rules
 score:
-  band: emerging
-  composite: 23.6
+  band: thin
+  composite: 26.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.8
@@ -294,15 +293,15 @@ score:
     catalog_gap: 71.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 21.1
     contract_governance: 11.4
-    contract_quality: 51.3
+    contract_quality: 48.3
     developer_ergonomics: 19.0
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 29.7
+  previous_composite: 26.2
   provenance:
     agentic_access: derived
     contracts:
@@ -316,13 +315,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 5.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/screenshots/respeecher-2026-09-02T153756.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/respeecher/respeecher-2026-09-02T153756.png
 security:
 - kind: domain-security
   name: Respeecher Domain Security

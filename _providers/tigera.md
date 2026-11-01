@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.1
-  scored_at: '2026-10-17'
+  score: 42.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Goldmane is the Calico flow aggregation and network-observability service introduced in Calico Open Source 3.30. It exposes a gRPC API for querying aggregated flow data — List for point-in-time querie
@@ -68,15 +70,12 @@ apis:
   description: The apis API from Tigera — 1 operation(s) for apis.
   name: Tigera APIS API
   slug: tigera-apis-api
-artifact_total: 19
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Tigera Calico Cloud Webhooks
   slug: tigera-calico-cloud-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Generic API Server APIS API
   slug: open-tigera-apis-api
@@ -90,6 +89,16 @@ collections:
   name: Generic API Server Version API
   slug: open-tigera-version-api
 common:
+- group: other
+  href: https://artifacts.apis.io/tigera/capabilities/tigera-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tigera-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/tigera/plans/tigera-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tigera-plans-pricing.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -187,122 +196,130 @@ common:
   type: Compliance
   url: https://www.tigera.io/tigera-products/calico-cloud-trust-center/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/security/tigera-trust-center.yml
+  href: https://artifacts.apis.io/tigera/security/tigera-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tigera-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/security/tigera-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tigera/security/tigera-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tigera-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/security/tigera-domain-security.yml
+  href: https://artifacts.apis.io/tigera/security/tigera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tigera-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/authentication/tigera-authentication.yml
+  href: https://artifacts.apis.io/tigera/authentication/tigera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tigera-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/scopes/tigera-scopes.yml
+  href: https://artifacts.apis.io/tigera/scopes/tigera-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tigera-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/well-known/tigera-well-known.yml
+  href: https://artifacts.apis.io/tigera/well-known/tigera-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tigera-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/llms/tigera-llms.txt
+  href: https://artifacts.apis.io/tigera/llms/tigera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tigera-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/mcp/tigera-mcp.yml
+  href: https://artifacts.apis.io/tigera/mcp/tigera-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tigera-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/mcp/tigera-tool-crosswalk.yml
+  href: https://artifacts.apis.io/tigera/mcp/tigera-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tigera-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/packages/tigera-packages.yml
+  href: https://artifacts.apis.io/tigera/packages/tigera-packages.yml
   title: ''
   type: Packages
   url: packages/tigera-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/packages/tigera-packages.yml
+  href: https://artifacts.apis.io/tigera/packages/tigera-packages.yml
   title: ''
   type: SDKs
   url: packages/tigera-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/cli/tigera-cli.yml
+  href: https://artifacts.apis.io/tigera/cli/tigera-cli.yml
   title: ''
   type: CLI
   url: cli/tigera-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/conventions/tigera-conventions.yml
+  href: https://artifacts.apis.io/tigera/conventions/tigera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tigera-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/conventions/tigera-conventions.yml
+  href: https://artifacts.apis.io/tigera/conventions/tigera-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/tigera-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/conformance/tigera-conformance.yml
+  href: https://artifacts.apis.io/tigera/conformance/tigera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tigera-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/errors/tigera-problem-types.yml
+  href: https://artifacts.apis.io/tigera/errors/tigera-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tigera-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/lifecycle/tigera-lifecycle.yml
+  href: https://artifacts.apis.io/tigera/lifecycle/tigera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tigera-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/changelog/tigera-changelog.yml
+  href: https://artifacts.apis.io/tigera/changelog/tigera-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tigera-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/data-model/tigera-data-model.yml
+  href: https://artifacts.apis.io/tigera/data-model/tigera-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tigera-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/asyncapi/tigera-calico-cloud-webhooks.yml
+  href: https://artifacts.apis.io/tigera/asyncapi/tigera-calico-cloud-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tigera-calico-cloud-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tigera/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/overlays/tigera-calico-api-overlay.yaml
+  href: https://artifacts.apis.io/tigera/overlays/tigera-calico-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tigera-calico-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/grpc/tigera-goldmane-api.proto
+  href: https://artifacts.apis.io/tigera/grpc/tigera-goldmane-api.proto
   title: ''
   type: Protobuf
   url: grpc/tigera-goldmane-api.proto
 created: '2026-08-05'
 description: 'Tigera is the creator of Project Calico, the open-source networking and network-security engine for Kubernetes, and the company behind Calico Open Source, Calico Enterprise and Calico Cloud. Its products deliver container networking (BGP, eBPF, VPP and standard Linux data planes), tiered network policy and microsegmentation, egress gateways and egress access control, cluster mesh, an Envoy-based ingress gateway, workload-based IDS/IPS/WAF and threat detection, and full-stack observability (Service Graph, flow/DNS/L7 logs, packet capture) for Kubernetes clusters. The programmable surface is Kubernetes-native: the projectcalico.org/v3 aggregated API server exposes 27 custom resources through a published Swagger 2.0 definition, the Goldmane gRPC service exposes aggregated flow observability, calicoctl and kubectl are the first-party CLIs, and Calico Cloud adds a SaaS management plane with a read-only Usage API and security-event webhooks.'
+finops:
+- has_sources: true
+  method: derived
+  name: Tigera Finops
+  primary_unit: vcpu hour
+  service_category: ''
+  slug: tigera-finops
+  template: false
 image: https://www.tigera.io/app/uploads/2026/01/generic-Tigera-1200x628-1.png
 layout: provider
 mcp_servers:
@@ -319,8 +336,12 @@ overview: 'Tigera publishes 7 API contracts indexed on the [APIs.io](https://api
   The Tigera catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tigera''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 40 more developer resources.'
-random_paper: 20
+  Tigera''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
+plans:
+- name: Tigera Plans Pricing
+  plan_count: 2
+  slug: tigera-plans-pricing
+random_paper: 12
 scopes:
 - name: Tigera Scopes
   scope_count: 1
@@ -328,26 +349,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 56.0
+  composite: 61.0
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 32.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    artifact_dirs: 27
+    catalog_earned: 43.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 47.4
+    access_clarity: 89.5
     contract_governance: 4.5
-    contract_quality: 45.7
+    contract_quality: 42.3
     developer_ergonomics: 73.2
-    discoverability: 66.7
-    operational_transparency: 44.7
-  open_source:
-    applies: true
-    score: 85.0
-  previous_composite: 55.9
+    discoverability: 56.7
+    operational_transparency: 55.3
+  previous_composite: 55.2
   provenance:
     conformance: derived
     contracts:
@@ -363,13 +381,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/screenshots/tigera-2026-08-17T082354.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tigera/tigera-2026-08-17T082354.png
 security:
 - kind: authentication
   name: Tigera Authentication
@@ -387,6 +406,14 @@ security:
   name: Tigera Trust Center
   slug: tigera-trust-center
   summary_line: CSA STAR, SOC 2, PCI DSS, GDPR, CCPA
+skill_count: 3
+skills:
+- name: Audit a cluster's Calico policy posture
+  slug: tigera-audit-cluster-policy-posture
+- name: Capture pod traffic to troubleshoot a Calico policy
+  slug: tigera-capture-and-troubleshoot-traffic
+- name: Stage and promote a Calico network policy
+  slug: tigera-stage-and-promote-network-policy
 slug: tigera
 tags:
 - Company

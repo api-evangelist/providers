@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/robinhood/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quantopian/refs/heads/main/packages/quantopian-packages.yml
+  href: https://artifacts.apis.io/quantopian/packages/quantopian-packages.yml
   title: ''
   type: Packages
   url: packages/quantopian-packages.yml
@@ -50,7 +52,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/quantopian
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quantopian/refs/heads/main/security/quantopian-domain-security.yml
+  href: https://artifacts.apis.io/quantopian/security/quantopian-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quantopian-domain-security.yml
@@ -67,12 +69,12 @@ name: Quantopian
 nav: Providers
 network: true
 overview: Quantopian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Algorithmic Trading, Quantitative Finance, Fintech, and Backtesting.
-random_paper: 10
+random_paper: 8
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -101,8 +103,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 5.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

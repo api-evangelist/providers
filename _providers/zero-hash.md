@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.2
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 34.5
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - description: Authenticated WebSocket feed delivering a full account-balance snapshot on subscribe followed by incremental balance-updated events, plus RFQ liquidity bid/ask price levels per subscribed symbol. Ever
   name: zerohash Private WebSocket API
@@ -191,15 +193,12 @@ apis:
   description: Initiate and monitor withdrawals from accounts
   name: Zero Hash Withdrawals API
   slug: zero-hash-withdrawals-api
-artifact_total: 68
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Zero Hash Webhooks
   slug: zero-hash-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: zerohash Accounts API
   slug: open-zero-hash-accounts-api
@@ -292,17 +291,17 @@ collections:
   slug: open-zero-hash-withdrawals-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/mcp/zero-hash-mcp.yml
+  href: https://artifacts.apis.io/zero-hash/mcp/zero-hash-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zero-hash-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/overlays/zero-hash-api-overlay.yaml
+  href: https://artifacts.apis.io/zero-hash/overlays/zero-hash-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zero-hash-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/security/zero-hash-domain-security.yml
+  href: https://artifacts.apis.io/zero-hash/security/zero-hash-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zero-hash-domain-security.yml
@@ -363,7 +362,7 @@ common:
   type: StatusPage
   url: https://status.zerohash.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/changelog/zero-hash-changelog.yml
+  href: https://artifacts.apis.io/zero-hash/changelog/zero-hash-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zero-hash-changelog.yml
@@ -376,102 +375,102 @@ common:
   type: Compliance
   url: https://zerohash.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/security/zero-hash-trust-center.yml
+  href: https://artifacts.apis.io/zero-hash/security/zero-hash-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zero-hash-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/security/zero-hash-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zero-hash/security/zero-hash-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/zero-hash-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/security/zero-hash-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zero-hash/security/zero-hash-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zero-hash-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/well-known/zero-hash-security.txt
+  href: https://artifacts.apis.io/zero-hash/well-known/zero-hash-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/zero-hash-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/well-known/zero-hash-well-known.yml
+  href: https://artifacts.apis.io/zero-hash/well-known/zero-hash-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zero-hash-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/llms/zero-hash-llms.txt
+  href: https://artifacts.apis.io/zero-hash/llms/zero-hash-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zero-hash-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/packages/zero-hash-packages.yml
+  href: https://artifacts.apis.io/zero-hash/packages/zero-hash-packages.yml
   title: ''
   type: Packages
   url: packages/zero-hash-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/packages/zero-hash-packages.yml
+  href: https://artifacts.apis.io/zero-hash/packages/zero-hash-packages.yml
   title: ''
   type: SDKs
   url: packages/zero-hash-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/components/zero-hash-components.yml
+  href: https://artifacts.apis.io/zero-hash/components/zero-hash-components.yml
   title: ''
   type: Components
   url: components/zero-hash-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/sandbox/zero-hash-sandbox.yml
+  href: https://artifacts.apis.io/zero-hash/sandbox/zero-hash-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zero-hash-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/conventions/zero-hash-conventions.yml
+  href: https://artifacts.apis.io/zero-hash/conventions/zero-hash-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zero-hash-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/conventions/zero-hash-conventions.yml
+  href: https://artifacts.apis.io/zero-hash/conventions/zero-hash-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/zero-hash-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/authentication/zero-hash-authentication.yml
+  href: https://artifacts.apis.io/zero-hash/authentication/zero-hash-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zero-hash-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/scopes/zero-hash-scopes.yml
+  href: https://artifacts.apis.io/zero-hash/scopes/zero-hash-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zero-hash-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/errors/zero-hash-problem-types.yml
+  href: https://artifacts.apis.io/zero-hash/errors/zero-hash-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zero-hash-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/lifecycle/zero-hash-lifecycle.yml
+  href: https://artifacts.apis.io/zero-hash/lifecycle/zero-hash-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zero-hash-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/conformance/zero-hash-conformance.yml
+  href: https://artifacts.apis.io/zero-hash/conformance/zero-hash-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zero-hash-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/data-model/zero-hash-data-model.yml
+  href: https://artifacts.apis.io/zero-hash/data-model/zero-hash-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zero-hash-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/asyncapi/zero-hash-webhooks.yml
+  href: https://artifacts.apis.io/zero-hash/asyncapi/zero-hash-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zero-hash-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zero-hash/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -491,7 +490,7 @@ overview: 'Zero Hash publishes 31 API contracts indexed on the [APIs.io](https:/
 
 
   Zero Hash''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 11
+random_paper: 1
 scopes:
 - name: Zero Hash Scopes
   scope_count: 4
@@ -499,23 +498,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 54.8
+  composite: 61.0
   coverage:
     artifact_dirs: 24
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 60.2
-    developer_ergonomics: 54.2
-    discoverability: 78.6
-    operational_transparency: 52.6
-  previous_composite: 54.7
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 61.5
   provenance:
     conformance: first-party
     contracts:
@@ -530,14 +529,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 37.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 41.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/screenshots/zero-hash-2026-08-17T083054.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zero-hash/zero-hash-2026-08-17T083054.png
 security:
 - kind: authentication
   name: Zero Hash Authentication
@@ -555,6 +555,18 @@ security:
   name: Zero Hash Trust Center
   slug: zero-hash-trust-center
   summary_line: SOC 1 Type 2, SOC 2 Type 1, SOC 2 Type 2, ISO/IEC 27001:2022, Regulation SCI, DORA, GDPR, CCPA, 23 NYCRR 500
+skill_count: 5
+skills:
+- name: zero-hash-account-funding
+  slug: zero-hash-account-funding
+- name: zero-hash-crypto-withdrawal
+  slug: zero-hash-crypto-withdrawal
+- name: zero-hash-onboard-participant
+  slug: zero-hash-onboard-participant
+- name: zero-hash-payout
+  slug: zero-hash-payout
+- name: zero-hash-rfq-trade
+  slug: zero-hash-rfq-trade
 slug: zero-hash
 tags:
 - Company

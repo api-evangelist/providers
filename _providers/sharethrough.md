@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST-ish reporting API enabling publishers to pull programmatic performance data for their Sharethrough inventory. A single POST /v2/programmatic endpoint takes a query object (startDate, endDate, gro
@@ -85,82 +87,82 @@ common:
   type: Contact
   url: https://www.sharethrough.com/contact
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/plans/sharethrough-plans-pricing.yml
+  href: https://artifacts.apis.io/sharethrough/plans/sharethrough-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sharethrough-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/rate-limits/sharethrough-rate-limits.yml
+  href: https://artifacts.apis.io/sharethrough/rate-limits/sharethrough-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sharethrough-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/finops/sharethrough-finops.yml
+  href: https://artifacts.apis.io/sharethrough/finops/sharethrough-finops.yml
   title: ''
   type: FinOps
   url: finops/sharethrough-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/security/sharethrough-domain-security.yml
+  href: https://artifacts.apis.io/sharethrough/security/sharethrough-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sharethrough-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/authentication/sharethrough-authentication.yml
+  href: https://artifacts.apis.io/sharethrough/authentication/sharethrough-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sharethrough-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/errors/sharethrough-problem-types.yml
+  href: https://artifacts.apis.io/sharethrough/errors/sharethrough-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sharethrough-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/conventions/sharethrough-conventions.yml
+  href: https://artifacts.apis.io/sharethrough/conventions/sharethrough-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sharethrough-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/lifecycle/sharethrough-lifecycle.yml
+  href: https://artifacts.apis.io/sharethrough/lifecycle/sharethrough-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sharethrough-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/conformance/sharethrough-conformance.yml
+  href: https://artifacts.apis.io/sharethrough/conformance/sharethrough-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sharethrough-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/conformance/sharethrough-conformance.yml
+  href: https://artifacts.apis.io/sharethrough/conformance/sharethrough-conformance.yml
   title: ''
   type: Compliance
   url: conformance/sharethrough-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/data-model/sharethrough-data-model.yml
+  href: https://artifacts.apis.io/sharethrough/data-model/sharethrough-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sharethrough-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/packages/sharethrough-packages.yml
+  href: https://artifacts.apis.io/sharethrough/packages/sharethrough-packages.yml
   title: ''
   type: Packages
   url: packages/sharethrough-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/well-known/sharethrough-well-known.yml
+  href: https://artifacts.apis.io/sharethrough/well-known/sharethrough-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sharethrough-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/llms/sharethrough-llms.txt
+  href: https://artifacts.apis.io/sharethrough/llms/sharethrough-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sharethrough-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/sellers-json/sharethrough-sellers-json.yml
+  href: https://artifacts.apis.io/sharethrough/sellers-json/sharethrough-sellers-json.yml
   title: ''
   type: SellersJSON
   url: sellers-json/sharethrough-sellers-json.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/json-ld/sharethrough-context.jsonld
+  href: https://artifacts.apis.io/sharethrough/json-ld/sharethrough-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/sharethrough-context.jsonld
@@ -196,14 +198,14 @@ plans:
 - name: Sharethrough Plans Pricing
   plan_count: 2
   slug: sharethrough-plans-pricing
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Sharethrough Rate Limits
   slug: sharethrough-rate-limits
 score:
   band: thin
-  composite: 30.7
+  composite: 31.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 56.0
@@ -211,15 +213,15 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 14.7
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 32.2
+    operational_transparency: 5.3
+  previous_composite: 31.0
   provenance:
     conformance: first-party
   regulatory:
@@ -228,14 +230,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/screenshots/sharethrough-2026-06-20T193746.png
+screenshot: https://apis.io/screenshots/sharethrough/sharethrough-2026-06-20T193746.png
 security:
 - kind: authentication
   name: Sharethrough Authentication

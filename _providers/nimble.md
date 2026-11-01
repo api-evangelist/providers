@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.7
-  scored_at: '2026-10-17'
+  score: 30.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -104,11 +106,8 @@ apis:
   description: The authenticated user record — the credential-verification endpoint. 1 operation(s).
   name: Nimble Users API
   slug: nimble-users-api
-artifact_total: 27
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nimble CRM Contacts API
   slug: open-nimble-contacts-api
@@ -135,7 +134,7 @@ collections:
   slug: open-nimble
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/capabilities/nimble-capability-edges.yml
+  href: https://artifacts.apis.io/nimble/capabilities/nimble-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nimble-capability-edges.yml
@@ -200,82 +199,90 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/nimblecrm
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/authentication/nimble-authentication.yml
+  href: https://artifacts.apis.io/nimble/authentication/nimble-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nimble-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/scopes/nimble-scopes.yml
+  href: https://artifacts.apis.io/nimble/scopes/nimble-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nimble-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/conventions/nimble-conventions.yml
+  href: https://artifacts.apis.io/nimble/conventions/nimble-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nimble-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/errors/nimble-problem-types.yml
+  href: https://artifacts.apis.io/nimble/errors/nimble-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nimble-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/lifecycle/nimble-lifecycle.yml
+  href: https://artifacts.apis.io/nimble/lifecycle/nimble-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nimble-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/rate-limits/nimble-rate-limits.yml
+  href: https://artifacts.apis.io/nimble/rate-limits/nimble-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nimble-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/plans/nimble-plans-pricing.yml
+  href: https://artifacts.apis.io/nimble/plans/nimble-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nimble-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/data-model/nimble-data-model.yml
+  href: https://artifacts.apis.io/nimble/data-model/nimble-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nimble-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/conformance/nimble-conformance.yml
+  href: https://artifacts.apis.io/nimble/conformance/nimble-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nimble-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/packages/nimble-packages.yml
+  href: https://artifacts.apis.io/nimble/packages/nimble-packages.yml
   title: ''
   type: Packages
   url: packages/nimble-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/mcp/nimble-mcp.yml
+  href: https://artifacts.apis.io/nimble/mcp/nimble-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nimble-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/llms/nimble-llms.txt
+  href: https://artifacts.apis.io/nimble/llms/nimble-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nimble-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nimble/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/agentic-access/nimble-agentic-access.yml
+  href: https://artifacts.apis.io/nimble/agentic-access/nimble-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nimble-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/security/nimble-domain-security.yml
+  href: https://artifacts.apis.io/nimble/security/nimble-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nimble-domain-security.yml
 created: '2026-05-11'
 description: Nimble is a relationship-focused CRM that unifies contacts, communications, social profiles, calendar and email into a single shared record for small businesses and whole-company teams. Founded in 2010 by GoldMine co-founder Jon Ferrara and headquartered in Santa Monica, California, the platform combines contact management, sales pipelines, email marketing, sequences, web forms, web chat and workflow automation, and enriches contact profiles automatically from email, calendar, social and web data. Nimble publishes a full OpenAPI 3.0.0 contract for its REST API — 89 operations over contacts, user-definable contact fields, contact and deal pipelines, deals, leads, activities, tasks and messages — authenticated with an account API key or OAuth 2.0 authorization_code.
+finops:
+- has_sources: true
+  method: derived
+  name: Nimble Finops
+  primary_unit: ''
+  service_category: ''
+  slug: nimble-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nimble.png
 layout: provider
 modified: '2026-08-13'
@@ -290,7 +297,10 @@ plans:
 - name: Nimble Plans Pricing
   plan_count: 1
   slug: nimble-plans-pricing
-random_paper: 15
+- name: Nimble Price Estimates
+  plan_count: 0
+  slug: nimble-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Nimble Rate Limits
@@ -302,21 +312,21 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.1
+  composite: 49.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 4.5
-    contract_quality: 52.1
+    contract_quality: 48.7
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -325,7 +335,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 50.0
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -342,13 +352,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/screenshots/nimble-2026-08-17T124228.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nimble/nimble-2026-08-17T124228.png
 security:
 - kind: authentication
   name: Nimble Authentication
@@ -358,6 +369,20 @@ security:
   name: Nimble Domain Security
   slug: nimble-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 6
+skills:
+- name: Authenticate against the Nimble CRM API and verify access
+  slug: nimble-authenticate-and-verify
+- name: Create and enrich a Nimble contact
+  slug: nimble-create-and-enrich-contact
+- name: Manage Nimble custom contact fields
+  slug: nimble-manage-custom-fields
+- name: Move a deal through a Nimble pipeline
+  slug: nimble-manage-deal-pipeline
+- name: Progress a lead through a Nimble contact pipeline
+  slug: nimble-progress-leads
+- name: Search Nimble contacts with the advanced query syntax
+  slug: nimble-search-contacts
 slug: nimble
 tags:
 - CRM

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: apps.health is WELL Health's digital health marketplace through which third-party apps and services integrate with WELL's network of EMRs (OSCAR Pro, Profile), which support HL7 FHIR and other interop
@@ -42,7 +44,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/well-health/refs/heads/main/security/well-health-domain-security.yml
+  href: https://artifacts.apis.io/well-health/security/well-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/well-health-domain-security.yml
@@ -63,12 +65,12 @@ common:
   type: GettingStarted
   url: https://apps.health/how-to-get-your-product-on-apps-health/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/well-health/refs/heads/main/conformance/well-health-conformance.yml
+  href: https://artifacts.apis.io/well-health/conformance/well-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/well-health-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/well-health/refs/heads/main/llms/well-health-llms.txt
+  href: https://artifacts.apis.io/well-health/llms/well-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/well-health-llms.txt
@@ -101,10 +103,10 @@ overview: 'WELL Health Technologies is listed with 1 API on the [APIs.io](https:
 
 
   WELL Health Technologies'' developer surface includes documentation, getting-started guide, engineering blog, support, and 7 more developer resources.'
-random_paper: 11
+random_paper: 7
 score:
   band: emerging
-  composite: 22.5
+  composite: 21.8
   coverage:
     artifact_dirs: 7
     catalog_earned: 32.0
@@ -118,7 +120,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -127,7 +129,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 22.5
+  previous_composite: 21.8
   provenance:
     conformance: first-party
   regulatory:
@@ -136,14 +138,14 @@ score:
     regime: Health
     regime_id: health
     score: 25.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/well-health/refs/heads/main/screenshots/well-health-2026-09-02T170603.png
+screenshot: https://apis.io/screenshots/well-health/well-health-2026-09-02T170603.png
 security:
 - kind: domain-security
   name: Well Health Domain Security

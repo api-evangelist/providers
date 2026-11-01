@@ -14,22 +14,24 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 9.4
-  scored_at: '2026-10-17'
+  score: 10.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Approval-gated REST API for WHOIS/RDAP lookups: GET /api/whois/{domain} (single), POST /api/whois/batch (batch), and GET /api/domain-traffic (traffic). Requires an admin-approved API key (qname_ prefi'
   name: QName AI WHOIS REST API
   slug: qname-ai-whois-rest-api
-artifact_total: 6
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -40,7 +42,7 @@ common:
   type: Website
   url: https://qname.ai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/security/qname-domain-security.yml
+  href: https://artifacts.apis.io/qname/security/qname-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qname-domain-security.yml
@@ -73,52 +75,52 @@ common:
   type: Login
   url: https://qname.ai/auth/login
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/llms/qname-llms.txt
+  href: https://artifacts.apis.io/qname/llms/qname-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qname-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/skills/qname-cli.md
+  href: https://artifacts.apis.io/qname/skills/qname-cli.md
   title: ''
   type: AgentSkill
   url: skills/qname-cli.md
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/packages/qname-packages.yml
+  href: https://artifacts.apis.io/qname/packages/qname-packages.yml
   title: ''
   type: Packages
   url: packages/qname-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/cli/qname-cli.yml
+  href: https://artifacts.apis.io/qname/cli/qname-cli.yml
   title: ''
   type: CLI
   url: cli/qname-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/authentication/qname-authentication.yml
+  href: https://artifacts.apis.io/qname/authentication/qname-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qname-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/conventions/qname-conventions.yml
+  href: https://artifacts.apis.io/qname/conventions/qname-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qname-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/errors/qname-problem-types.yml
+  href: https://artifacts.apis.io/qname/errors/qname-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qname-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/data-model/qname-data-model.yml
+  href: https://artifacts.apis.io/qname/data-model/qname-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qname-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/mcp/qname-mcp.yml
+  href: https://artifacts.apis.io/qname/mcp/qname-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/qname-mcp.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/changelog/qname-changelog.yml
+  href: https://artifacts.apis.io/qname/changelog/qname-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qname-changelog.yml
@@ -127,22 +129,22 @@ common:
   type: ChangeLog
   url: https://qname.ai/changelog
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/plans/qname-plans-pricing.yml
+  href: https://artifacts.apis.io/qname/plans/qname-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qname-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/rate-limits/qname-rate-limits.yml
+  href: https://artifacts.apis.io/qname/rate-limits/qname-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qname-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/lifecycle/qname-lifecycle.yml
+  href: https://artifacts.apis.io/qname/lifecycle/qname-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qname-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/conformance/qname-conformance.yml
+  href: https://artifacts.apis.io/qname/conformance/qname-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qname-conformance.yml
@@ -157,7 +159,7 @@ modified: '2026-10-06'
 name: QName AI WHOIS API
 nav: Providers
 network: true
-overview: 'QName AI WHOIS API is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include WHOIS, RDAP, domain-research, Domain Search, and batch-lookup.
+overview: 'QName AI WHOIS API is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include WHOIS, RDAP, Domain Search, batch-lookup, and CLI.
 
 
   QName AI WHOIS API''s developer surface includes engineering blog, support, CLI, authentication, changelog, and 20 more developer resources.'
@@ -172,23 +174,23 @@ rate_limits:
   slug: qname-rate-limits
 score:
   band: thin
-  composite: 26.6
+  composite: 28.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 60.7
-    operational_transparency: 23.7
-  previous_composite: 26.0
+    discoverability: 60.0
+    operational_transparency: 26.3
+  previous_composite: 28.1
   provenance:
     conformance: derived
     mcp: derived
@@ -199,14 +201,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/qname/refs/heads/main/screenshots/qname-2026-10-11T112949.png
+screenshot: https://apis.io/screenshots/qname/qname-2026-10-11T112949.png
 security:
 - kind: authentication
   name: Qname Authentication
@@ -216,11 +218,14 @@ security:
   name: Qname Domain Security
   slug: qname-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: qname-cli
+  slug: qname-cli
 slug: qname
 tags:
 - WHOIS
 - RDAP
-- domain-research
 - Domain Search
 - batch-lookup
 - CLI

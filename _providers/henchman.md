@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://www.henchman.io
@@ -51,11 +53,8 @@ apis:
   description: Connects Henchman to document management and storage systems - iManage Cloud and On-Prem, NetDocuments, SharePoint, Microsoft OneDrive, Google Drive, and OpenText eDocs - to extract precedent contract
   name: Henchman Integrations
   slug: integrations
-artifact_total: 9
+artifact_total: 8
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Henchman API
   slug: open-henchman
@@ -65,7 +64,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/lexisnexis/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/security/henchman-domain-security.yml
+  href: https://artifacts.apis.io/henchman/security/henchman-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/henchman-domain-security.yml
@@ -82,17 +81,17 @@ common:
   type: Documentation
   url: https://help.henchman.io/home
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/plans/henchman-plans-pricing.yml
+  href: https://artifacts.apis.io/henchman/plans/henchman-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/henchman-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/rate-limits/henchman-rate-limits.yml
+  href: https://artifacts.apis.io/henchman/rate-limits/henchman-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/henchman-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/finops/henchman-finops.yml
+  href: https://artifacts.apis.io/henchman/finops/henchman-finops.yml
   title: ''
   type: FinOps
   url: finops/henchman-finops.yml
@@ -120,44 +119,44 @@ plans:
 - name: Henchman Plans Pricing
   plan_count: 3
   slug: henchman-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Henchman Rate Limits
   slug: henchman-rate-limits
 score:
   band: emerging
-  composite: 15.6
+  composite: 17.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 25.1
+    contract_quality: 32.1
     developer_ergonomics: 13.8
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 22.9
+  previous_composite: 17.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/screenshots/henchman-2026-07-25T220957.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/henchman/henchman-2026-07-25T220957.png
 security:
 - kind: domain-security
   name: Henchman Domain Security

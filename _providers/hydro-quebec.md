@@ -15,7 +15,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,21 +23,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: documented
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.6
-  scored_at: '2026-10-17'
+  score: 36.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +47,7 @@ agentic_access:
   operation_count: 32
   slug: hydro-quebec-agentic-access
   summary_line: 32 operations
-api_count: 4
+api_count: 2
 apis:
 - description: The legacy Opendatasoft Search API v1 still served on the Hydro-Québec open data portal. Verified live and anonymous on 2026-07-27 — GET /api/datasets/1.0/search/ returned HTTP 200 with all 26 dataset
   name: Hydro-Québec Open Data Search API v1
@@ -61,7 +62,7 @@ apis:
   description: API to work on records
   name: Hydro-Québec Dataset API
   slug: hydro-quebec-dataset-api
-artifact_total: 12
+artifact_total: 17
 collections:
 - collection_type: open
   name: Explore API
@@ -71,27 +72,32 @@ collections:
   slug: open-hydro-quebec-open-data-explore-api-v2-1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/overlays/hydro-quebec-open-data-explore-api-v2-1-overlay.yaml
+  href: https://artifacts.apis.io/hydro-quebec/capabilities/hydro-quebec-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hydro-quebec-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/hydro-quebec/overlays/hydro-quebec-open-data-explore-api-v2-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hydro-quebec-open-data-explore-api-v2-1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/overlays/hydro-quebec-open-data-explore-api-v2-0-overlay.yaml
+  href: https://artifacts.apis.io/hydro-quebec/overlays/hydro-quebec-open-data-explore-api-v2-0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hydro-quebec-open-data-explore-api-v2-0-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/agentic-access/hydro-quebec-agentic-access.yml
+  href: https://artifacts.apis.io/hydro-quebec/agentic-access/hydro-quebec-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hydro-quebec-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/security/hydro-quebec-domain-security.yml
+  href: https://artifacts.apis.io/hydro-quebec/security/hydro-quebec-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hydro-quebec-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/authentication/hydro-quebec-authentication.yml
+  href: https://artifacts.apis.io/hydro-quebec/authentication/hydro-quebec-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hydro-quebec-authentication.yml
@@ -144,47 +150,47 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/hydro-quebec
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/packages/hydro-quebec-packages.yml
+  href: https://artifacts.apis.io/hydro-quebec/packages/hydro-quebec-packages.yml
   title: ''
   type: Packages
   url: packages/hydro-quebec-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/well-known/hydro-quebec-well-known.yml
+  href: https://artifacts.apis.io/hydro-quebec/well-known/hydro-quebec-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hydro-quebec-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/well-known/hydro-quebec-security.txt
+  href: https://artifacts.apis.io/hydro-quebec/well-known/hydro-quebec-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/hydro-quebec-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/mcp/hydro-quebec-mcp.yml
+  href: https://artifacts.apis.io/hydro-quebec/mcp/hydro-quebec-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hydro-quebec-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/mcp/hydro-quebec-tool-crosswalk.yml
+  href: https://artifacts.apis.io/hydro-quebec/mcp/hydro-quebec-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/hydro-quebec-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/llms/hydro-quebec-llms.txt
+  href: https://artifacts.apis.io/hydro-quebec/llms/hydro-quebec-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hydro-quebec-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/conformance/hydro-quebec-conformance.yml
+  href: https://artifacts.apis.io/hydro-quebec/conformance/hydro-quebec-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hydro-quebec-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/errors/hydro-quebec-problem-types.yml
+  href: https://artifacts.apis.io/hydro-quebec/errors/hydro-quebec-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hydro-quebec-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/lifecycle/hydro-quebec-lifecycle.yml
+  href: https://artifacts.apis.io/hydro-quebec/lifecycle/hydro-quebec-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hydro-quebec-lifecycle.yml
@@ -197,47 +203,47 @@ common:
   type: Deprecation
   url: https://help.opendatasoft.com/apis/ods-explore-v2/explore_v2.1.html#section/Introduction/v2.1-Changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/changelog/hydro-quebec-changelog.yml
+  href: https://artifacts.apis.io/hydro-quebec/changelog/hydro-quebec-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hydro-quebec-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/scopes/hydro-quebec-scopes.yml
+  href: https://artifacts.apis.io/hydro-quebec/scopes/hydro-quebec-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hydro-quebec-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/conventions/hydro-quebec-conventions.yml
+  href: https://artifacts.apis.io/hydro-quebec/conventions/hydro-quebec-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hydro-quebec-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/conventions/hydro-quebec-conventions.yml
+  href: https://artifacts.apis.io/hydro-quebec/conventions/hydro-quebec-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/hydro-quebec-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/rate-limits/hydro-quebec-rate-limits.yml
+  href: https://artifacts.apis.io/hydro-quebec/rate-limits/hydro-quebec-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hydro-quebec-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/sandbox/hydro-quebec-sandbox.yml
+  href: https://artifacts.apis.io/hydro-quebec/sandbox/hydro-quebec-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hydro-quebec-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/components/hydro-quebec-components.yml
+  href: https://artifacts.apis.io/hydro-quebec/components/hydro-quebec-components.yml
   title: ''
   type: Components
   url: components/hydro-quebec-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/data-model/hydro-quebec-data-model.yml
+  href: https://artifacts.apis.io/hydro-quebec/data-model/hydro-quebec-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hydro-quebec-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/security/hydro-quebec-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hydro-quebec/security/hydro-quebec-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hydro-quebec-vulnerability-disclosure.yml
@@ -246,7 +252,7 @@ common:
   type: Security
   url: https://donnees.hydroquebec.com/.well-known/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hydro-quebec/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -256,7 +262,7 @@ description: Hydro-Québec is the government-owned Crown corporation that genera
 image: https://hydroquebec.opendatasoft.com/assets/theme_image/hq-logo.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at gateway.pipeworx.io over HTTP; 5 tools listed.
+- description: Remote MCP server at gateway.pipeworx.io over HTTP; 46 tools listed.
   name: Hydro-Québec MCP Server
   slug: opendatasoft
 modified: '2026-07-27'
@@ -266,8 +272,8 @@ network: true
 overview: 'Hydro-Québec publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Dataset API, and 1 more. Tagged areas include Energy, Canada, Utilities, Electricity, and Grid.
 
 
-  Hydro-Québec''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 32 more developer resources.'
-random_paper: 14
+  Hydro-Québec''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 33 more developer resources.'
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Hydro Quebec Rate Limits
@@ -279,22 +285,22 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 52.3
+  composite: 51.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 48.0
+    artifact_dirs: 26
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.5
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 51.4
     developer_ergonomics: 66.1
-    discoverability: 80.0
-    operational_transparency: 65.8
+    discoverability: 65.0
+    operational_transparency: 71.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -302,7 +308,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 51.8
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -319,14 +325,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/screenshots/hydro-quebec-2026-08-07T170514.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hydro-quebec/hydro-quebec-2026-08-07T170514.png
 security:
 - kind: authentication
   name: Hydro Quebec Authentication
@@ -340,6 +346,18 @@ security:
   name: Hydro Quebec Vulnerability Disclosure
   slug: hydro-quebec-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 5
+skills:
+- name: Bulk export a Hydro-Québec dataset
+  slug: hydro-quebec-bulk-export
+- name: Compute Québec electricity carbon intensity
+  slug: hydro-quebec-carbon-intensity
+- name: Discover Hydro-Québec open datasets
+  slug: hydro-quebec-discover-datasets
+- name: Query Québec electricity demand and generation
+  slug: hydro-quebec-query-demand-and-generation
+- name: Track Hydro-Québec outages and winter peak events
+  slug: hydro-quebec-track-outages-and-peak-events
 slug: hydro-quebec
 tags:
 - Energy

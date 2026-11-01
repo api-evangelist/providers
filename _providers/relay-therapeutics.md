@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/relay-therapeutics/refs/heads/main/security/relay-therapeutics-domain-security.yml
+  href: https://artifacts.apis.io/relay-therapeutics/security/relay-therapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/relay-therapeutics-domain-security.yml
@@ -54,7 +56,7 @@ common:
   type: Pipeline
   url: https://relaytx.com/pipeline/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/relay-therapeutics/refs/heads/main/security/relay-therapeutics-domain-security.yml
+  href: https://artifacts.apis.io/relay-therapeutics/security/relay-therapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/relay-therapeutics-domain-security.yml
@@ -99,7 +101,7 @@ common:
   type: Twitter
   url: https://twitter.com/relaytx
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/relay-therapeutics/refs/heads/main/security/relay-therapeutics-domain-security.yml
+  href: https://artifacts.apis.io/relay-therapeutics/security/relay-therapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/relay-therapeutics-domain-security.yml
@@ -115,12 +117,12 @@ overview: 'Relay Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Relay Therapeutics'' developer surface includes engineering blog, GitHub presence, and 14 more developer resources.'
-random_paper: 13
+random_paper: 11
 score:
   band: minimal
-  composite: 4.6
+  composite: 4.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -131,24 +133,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 1.2
+    developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 5.3
-  previous_composite: 4.6
+  previous_composite: 4.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/relay-therapeutics/refs/heads/main/screenshots/relay-therapeutics-2026-06-20T192825.png
+screenshot: https://apis.io/screenshots/relay-therapeutics/relay-therapeutics-2026-06-20T192825.png
 security:
 - kind: domain-security
   name: Relay Therapeutics Domain Security

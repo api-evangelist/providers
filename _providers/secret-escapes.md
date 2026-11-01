@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -57,27 +59,27 @@ common:
   type: PrivacyPolicy
   url: https://www.secretescapes.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/secret-escapes/refs/heads/main/well-known/secret-escapes-security.txt
+  href: https://artifacts.apis.io/secret-escapes/well-known/secret-escapes-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/secret-escapes-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/secret-escapes/refs/heads/main/well-known/secret-escapes-well-known.yml
+  href: https://artifacts.apis.io/secret-escapes/well-known/secret-escapes-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/secret-escapes-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/secret-escapes/refs/heads/main/security/secret-escapes-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/secret-escapes/security/secret-escapes-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/secret-escapes-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/secret-escapes/refs/heads/main/security/secret-escapes-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/secret-escapes/security/secret-escapes-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/secret-escapes-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/secret-escapes/refs/heads/main/security/secret-escapes-domain-security.yml
+  href: https://artifacts.apis.io/secret-escapes/security/secret-escapes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/secret-escapes-domain-security.yml
@@ -93,7 +95,7 @@ overview: 'Secret Escapes is profiled on the [APIs.io](https://apis.io/) network
 
 
   Secret Escapes'' developer surface includes support and 9 more developer resources.'
-random_paper: 1
+random_paper: 15
 score:
   band: emerging
   composite: 12.0
@@ -119,14 +121,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/secret-escapes/refs/heads/main/screenshots/secret-escapes-2026-09-02T154712.png
+screenshot: https://apis.io/screenshots/secret-escapes/secret-escapes-2026-09-02T154712.png
 security:
 - kind: domain-security
   name: Secret Escapes Domain Security

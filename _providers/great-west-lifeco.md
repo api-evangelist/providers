@@ -32,6 +32,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -39,7 +41,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Listed in the public API catalog of the Empower developer portal, operated by Great-West Lifeco's U.S. retirement subsidiary Empower. Marked "production" and categorized "financial", it returns partic
@@ -54,7 +56,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/security/great-west-lifeco-domain-security.yml
+  href: https://artifacts.apis.io/great-west-lifeco/security/great-west-lifeco-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/great-west-lifeco-domain-security.yml
@@ -119,62 +121,62 @@ common:
   type: Compliance
   url: https://www.empower.com/financial-professionals/about-empower/cybersecurity
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/security/great-west-lifeco-trust-center.yml
+  href: https://artifacts.apis.io/great-west-lifeco/security/great-west-lifeco-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/great-west-lifeco-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/authentication/great-west-lifeco-authentication.yml
+  href: https://artifacts.apis.io/great-west-lifeco/authentication/great-west-lifeco-authentication.yml
   title: ''
   type: Authentication
   url: authentication/great-west-lifeco-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/scopes/great-west-lifeco-scopes.yml
+  href: https://artifacts.apis.io/great-west-lifeco/scopes/great-west-lifeco-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/great-west-lifeco-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/well-known/great-west-lifeco-well-known.yml
+  href: https://artifacts.apis.io/great-west-lifeco/well-known/great-west-lifeco-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/great-west-lifeco-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/well-known/great-west-lifeco-openid-configuration.json
+  href: https://artifacts.apis.io/great-west-lifeco/well-known/great-west-lifeco-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/great-west-lifeco-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/conventions/great-west-lifeco-conventions.yml
+  href: https://artifacts.apis.io/great-west-lifeco/conventions/great-west-lifeco-conventions.yml
   title: ''
   type: Conventions
   url: conventions/great-west-lifeco-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/errors/great-west-lifeco-problem-types.yml
+  href: https://artifacts.apis.io/great-west-lifeco/errors/great-west-lifeco-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/great-west-lifeco-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/lifecycle/great-west-lifeco-lifecycle.yml
+  href: https://artifacts.apis.io/great-west-lifeco/lifecycle/great-west-lifeco-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/great-west-lifeco-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/changelog/great-west-lifeco-changelog.yml
+  href: https://artifacts.apis.io/great-west-lifeco/changelog/great-west-lifeco-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/great-west-lifeco-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/sandbox/great-west-lifeco-sandbox.yml
+  href: https://artifacts.apis.io/great-west-lifeco/sandbox/great-west-lifeco-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/great-west-lifeco-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/conformance/great-west-lifeco-conformance.yml
+  href: https://artifacts.apis.io/great-west-lifeco/conformance/great-west-lifeco-conformance.yml
   title: ''
   type: Conformance
   url: conformance/great-west-lifeco-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/llms/great-west-lifeco-llms.txt
+  href: https://artifacts.apis.io/great-west-lifeco/llms/great-west-lifeco-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/great-west-lifeco-llms.txt
@@ -192,7 +194,7 @@ overview: 'Great-West Lifeco is listed with 3 APIs on the [APIs.io](https://apis
 
 
   Great-West Lifeco''s developer surface includes product news, developer portal, documentation, API reference, getting-started guide, support, signup flow, and 21 more developer resources.'
-random_paper: 4
+random_paper: 18
 scopes:
 - name: Great West Lifeco Scopes
   scope_count: 0
@@ -200,7 +202,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 40.3
+  composite: 40.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 40.0
@@ -214,7 +216,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 72.3
+    discoverability: 73.2
     operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -223,7 +225,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 40.3
+  previous_composite: 40.4
   provenance:
     conformance: first-party
   regulatory:
@@ -232,14 +234,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/great-west-lifeco/refs/heads/main/screenshots/great-west-lifeco-2026-07-25T220257.png
+screenshot: https://apis.io/screenshots/great-west-lifeco/great-west-lifeco-2026-07-25T220257.png
 security:
 - kind: authentication
   name: Great West Lifeco Authentication

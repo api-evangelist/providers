@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-10-17'
+  score: 32.4
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The Reprise MCP server is a remote Model Context Protocol endpoint that lets any MCP-compatible AI assistant — Claude, ChatGPT, Codex, Microsoft Copilot, Gemini, Cursor — drive the whole Reprise platf
@@ -45,7 +47,7 @@ apis:
 - description: 'The HTML Environment Data API returns click-level viewer activity for published Reprise HTML Environment (Product Tour) demos through a single endpoint, replay_session_activity. Each record describes '
   name: Reprise HTML Environment Data API
   slug: html-environment-data-api
-artifact_total: 12
+artifact_total: 19
 common:
 - group: company
   title: ''
@@ -108,7 +110,7 @@ common:
   type: StatusPage
   url: https://status.reprise.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/security/reprise-trust-center.yml
+  href: https://artifacts.apis.io/reprise/security/reprise-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/reprise-trust-center.yml
@@ -117,95 +119,95 @@ common:
   type: Compliance
   url: https://www.reprise.com/platform/enterprise-scale-and-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/security/reprise-domain-security.yml
+  href: https://artifacts.apis.io/reprise/security/reprise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reprise-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/plans/reprise-plans-pricing.yml
+  href: https://artifacts.apis.io/reprise/plans/reprise-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/reprise-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/rate-limits/reprise-rate-limits.yml
+  href: https://artifacts.apis.io/reprise/rate-limits/reprise-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/reprise-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/finops/reprise-finops.yml
+  href: https://artifacts.apis.io/reprise/finops/reprise-finops.yml
   title: ''
   type: FinOps
   url: finops/reprise-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/mcp/reprise-mcp.yml
+  href: https://artifacts.apis.io/reprise/mcp/reprise-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/reprise-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/reprise/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/llms/reprise-llms.txt
+  href: https://artifacts.apis.io/reprise/llms/reprise-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reprise-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/well-known/reprise-well-known.yml
+  href: https://artifacts.apis.io/reprise/well-known/reprise-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/reprise-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/authentication/reprise-authentication.yml
+  href: https://artifacts.apis.io/reprise/authentication/reprise-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reprise-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/scopes/reprise-scopes.yml
+  href: https://artifacts.apis.io/reprise/scopes/reprise-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/reprise-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/conformance/reprise-conformance.yml
+  href: https://artifacts.apis.io/reprise/conformance/reprise-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reprise-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/errors/reprise-error-codes.yml
+  href: https://artifacts.apis.io/reprise/errors/reprise-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/reprise-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/lifecycle/reprise-lifecycle.yml
+  href: https://artifacts.apis.io/reprise/lifecycle/reprise-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reprise-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/conventions/reprise-conventions.yml
+  href: https://artifacts.apis.io/reprise/conventions/reprise-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reprise-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/data-model/reprise-data-model.yml
+  href: https://artifacts.apis.io/reprise/data-model/reprise-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reprise-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/components/reprise-components.yml
+  href: https://artifacts.apis.io/reprise/components/reprise-components.yml
   title: ''
   type: Components
   url: components/reprise-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/packages/reprise-packages.yml
+  href: https://artifacts.apis.io/reprise/packages/reprise-packages.yml
   title: ''
   type: Packages
   url: packages/reprise-packages.yml
 created: 2026-06-13
 description: Reprise is the enterprise demo creation platform sales, presales and marketing teams use to build no-code interactive product demos — guided Product Tours captured from a live front end, Data Injection that overlays prospect-specific data on a real application, and full Clone Environments that reproduce an application down to the code. Reprise ships a remote Model Context Protocol server at app.getreprise.com that exposes more than 100 atomic demo-authoring tools to any MCP client (Claude, ChatGPT, Copilot, Gemini, Codex) over OAuth 2.0 authorization code with PKCE, plus two token-authenticated analytics Data APIs (HTML Environment replay_session_activity and Clone Environment api_replicate_analytics) for pulling click-level demo engagement data into a warehouse. Reprise is SOC 2 Type 2 and ISO/IEC 27001:2022 certified, with SSO and RBAC in every package, and has served over 20 million demos for customers including Databricks, ServiceNow, Cloudera, 1Password, Commvault and iCIMS.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Reprise Finops
   primary_unit: ''
   service_category: ''
@@ -235,9 +237,9 @@ overview: 'Reprise is listed with 3 APIs on the [APIs.io](https://apis.io/) netw
   Reprise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 plans:
 - name: Reprise Plans Pricing
-  plan_count: 0
+  plan_count: 1
   slug: reprise-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Reprise Rate Limits
@@ -249,23 +251,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.3
+  composite: 48.9
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 53.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 62.0
+    artifact_dirs: 22
+    catalog_earned: 61.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 4.3
   facets:
-    access_clarity: 60.5
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 13.2
     developer_ergonomics: 54.8
-    discoverability: 80.0
-    operational_transparency: 39.5
-  previous_composite: 46.8
+    discoverability: 70.0
+    operational_transparency: 42.1
+  previous_composite: 44.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -276,14 +278,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/reprise/refs/heads/main/screenshots/reprise-2026-06-20T192911.png
+screenshot: https://apis.io/screenshots/reprise/reprise-2026-06-20T192911.png
 security:
 - kind: authentication
   name: Reprise Authentication
@@ -297,6 +299,22 @@ security:
   name: Reprise Trust Center
   slug: reprise-trust-center
   summary_line: SOC 2 Type 2, ISO/IEC 27001:2022
+skill_count: 7
+skills:
+- name: reprise-clone-config
+  slug: reprise-clone-config
+- name: reprise-injection
+  slug: reprise-injection
+- name: reprise-mcp
+  slug: reprise-mcp
+- name: reprise-session-close
+  slug: reprise-session-close
+- name: reprise-tour-capture
+  slug: reprise-tour-capture
+- name: reprise-tour-edit
+  slug: reprise-tour-edit
+- name: reprise-tour-id-model
+  slug: reprise-tour-id-model
 slug: reprise
 tags:
 - Demo Automation

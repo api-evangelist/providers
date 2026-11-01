@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 29.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -106,15 +108,12 @@ apis:
   description: The Verification Status API from Smile Identity — 1 operation(s) for verification status.
   name: Smile Identity Verification Status API
   slug: smile-identity-verification-status-api
-artifact_total: 30
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Smile Identity Verification Webhooks
   slug: smile-identity-verification-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Smile ID V3 Authentication API
   slug: open-smile-identity-authentication-api
@@ -153,12 +152,17 @@ collections:
   slug: open-smile-identity-verification-status-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/overlays/smile-identity-v3-overlay.yaml
+  href: https://artifacts.apis.io/smile-identity/capabilities/smile-identity-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/smile-identity-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/smile-identity/overlays/smile-identity-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/smile-identity-v3-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/security/smile-identity-domain-security.yml
+  href: https://artifacts.apis.io/smile-identity/security/smile-identity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/smile-identity-domain-security.yml
@@ -215,82 +219,82 @@ common:
   type: ChangeLog
   url: https://docs.usesmileid.com/developer-resources/overview/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/llms/smile-identity-llms.txt
+  href: https://artifacts.apis.io/smile-identity/llms/smile-identity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/smile-identity-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/packages/smile-identity-packages.yml
+  href: https://artifacts.apis.io/smile-identity/packages/smile-identity-packages.yml
   title: ''
   type: Packages
   url: packages/smile-identity-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/packages/smile-identity-packages.yml
+  href: https://artifacts.apis.io/smile-identity/packages/smile-identity-packages.yml
   title: ''
   type: SDKs
   url: packages/smile-identity-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/authentication/smile-identity-authentication.yml
+  href: https://artifacts.apis.io/smile-identity/authentication/smile-identity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/smile-identity-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/errors/smile-identity-problem-types.yml
+  href: https://artifacts.apis.io/smile-identity/errors/smile-identity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/smile-identity-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/conventions/smile-identity-conventions.yml
+  href: https://artifacts.apis.io/smile-identity/conventions/smile-identity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/smile-identity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/lifecycle/smile-identity-lifecycle.yml
+  href: https://artifacts.apis.io/smile-identity/lifecycle/smile-identity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/smile-identity-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/asyncapi/smile-identity-verification-webhooks.yml
+  href: https://artifacts.apis.io/smile-identity/asyncapi/smile-identity-verification-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/smile-identity-verification-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/conformance/smile-identity-conformance.yml
+  href: https://artifacts.apis.io/smile-identity/conformance/smile-identity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/smile-identity-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/sandbox/smile-identity-sandbox.yml
+  href: https://artifacts.apis.io/smile-identity/sandbox/smile-identity-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/smile-identity-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/components/smile-identity-components.yml
+  href: https://artifacts.apis.io/smile-identity/components/smile-identity-components.yml
   title: ''
   type: Components
   url: components/smile-identity-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/data-model/smile-identity-data-model.yml
+  href: https://artifacts.apis.io/smile-identity/data-model/smile-identity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/smile-identity-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/changelog/smile-identity-changelog.yml
+  href: https://artifacts.apis.io/smile-identity/changelog/smile-identity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/smile-identity-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/mcp/smile-identity-mcp.yml
+  href: https://artifacts.apis.io/smile-identity/mcp/smile-identity-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/smile-identity-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/agentic-access/smile-identity-agentic-access.yml
+  href: https://artifacts.apis.io/smile-identity/agentic-access/smile-identity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/smile-identity-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/smile-identity/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -312,8 +316,8 @@ overview: 'Smile Identity publishes 12 API contracts indexed on the [APIs.io](ht
   The Smile Identity catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Smile Identity''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, changelog, and 25 more developer resources.'
-random_paper: 5
+  Smile Identity''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, changelog, and 26 more developer resources.'
+random_paper: 17
 rules:
 - authorship: provider
   effective_rule_count: 42
@@ -328,29 +332,29 @@ rules:
     warn: 0
   slug: smile-identity-api-reference-spectral-rules
 score:
-  band: developing
-  composite: 49.8
+  band: strong
+  composite: 55.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 52.0
     catalog_earned_first_party: 15.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.0
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 50.0
     contract_quality: 57.7
-    developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 26.3
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 44.8
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -367,13 +371,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/screenshots/smile-identity-2026-08-17T081942.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/smile-identity/smile-identity-2026-08-17T081942.png
 security:
 - kind: authentication
   name: Smile Identity Authentication
@@ -383,6 +388,16 @@ security:
   name: Smile Identity Domain Security
   slug: smile-identity-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Run a Biometric KYC verification
+  slug: smile-identity-biometric-kyc
+- name: Run a Document Verification
+  slug: smile-identity-document-verification
+- name: Run an Enhanced KYC (no-biometrics) verification
+  slug: smile-identity-enhanced-kyc
+- name: Enroll and authenticate a user with SmartSelfie
+  slug: smile-identity-smartselfie-auth
 slug: smile-identity
 tags:
 - Company

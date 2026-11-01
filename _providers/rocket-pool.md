@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-17'
+  score: 16.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -115,11 +117,8 @@ apis:
   description: The Wallet API from Rocket Pool — 4 operation(s) for wallet.
   name: Rocket Pool Wallet API
   slug: rocket-pool-wallet-api
-artifact_total: 44
+artifact_total: 43
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rocket Pool Protocol API (rocketpool-go) Auction API
   slug: open-rocket-pool-auction-api
@@ -178,12 +177,12 @@ common:
   type: IssueTracker
   url: https://github.com/rocket-pool/rocketpool-js/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/agentic-access/rocket-pool-agentic-access.yml
+  href: https://artifacts.apis.io/rocket-pool/agentic-access/rocket-pool-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rocket-pool-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/security/rocket-pool-domain-security.yml
+  href: https://artifacts.apis.io/rocket-pool/security/rocket-pool-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rocket-pool-domain-security.yml
@@ -292,22 +291,22 @@ common:
   type: License
   url: https://github.com/rocket-pool/rocketpool/blob/master/LICENSE
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/json-schema/rocket-pool-minipool-schema.json
+  href: https://artifacts.apis.io/rocket-pool/json-schema/rocket-pool-minipool-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/rocket-pool-minipool-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/json-structure/rocket-pool-minipool-structure.json
+  href: https://artifacts.apis.io/rocket-pool/json-structure/rocket-pool-minipool-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/rocket-pool-minipool-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/json-ld/rocket-pool-context.jsonld
+  href: https://artifacts.apis.io/rocket-pool/json-ld/rocket-pool-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/rocket-pool-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/vocabulary/rocket-pool-vocabulary.yml
+  href: https://artifacts.apis.io/rocket-pool/vocabulary/rocket-pool-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/rocket-pool-vocabulary.yml
@@ -356,7 +355,7 @@ overview: 'Rocket Pool publishes 15 API contracts indexed on the [APIs.io](https
 
 
   Rocket Pool''s developer surface includes engineering blog, documentation, getting-started guide, and 31 more developer resources.'
-random_paper: 13
+random_paper: 7
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -382,8 +381,8 @@ rules:
     warn: 2
   slug: rocket-pool-smart-node-rules
 score:
-  band: emerging
-  composite: 19.2
+  band: thin
+  composite: 26.8
   coverage:
     artifact_dirs: 13
     catalog_earned: 52.0
@@ -391,18 +390,15 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 27.3
     contract_quality: 42.7
-    developer_ergonomics: 14.3
+    developer_ergonomics: 35.7
     discoverability: 57.1
-    operational_transparency: 2.6
-  open_source:
-    applies: true
-    score: 0.0
-  previous_composite: 18.7
+    operational_transparency: 5.3
+  previous_composite: 26.8
   provenance:
     agentic_access: derived
     contracts:
@@ -416,13 +412,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/screenshots/rocket-pool-2026-06-20T193154.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rocket-pool/rocket-pool-2026-06-20T193154.png
 security:
 - kind: domain-security
   name: Rocket Pool Domain Security

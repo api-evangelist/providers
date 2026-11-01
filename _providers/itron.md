@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -86,11 +88,8 @@ apis:
   description: OAuth 2.0 token issuance for browser-suitable, short-lived bearer tokens.
   name: Itron Tokens API
   slug: itron-tokens-api
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Itron Starfish Data Platform Device Templates API
   slug: open-itron-device-templates-api
@@ -120,17 +119,17 @@ common:
   type: Releases
   url: https://github.com/silverspringnetworks/starfish-js/releases
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/agentic-access/itron-agentic-access.yml
+  href: https://artifacts.apis.io/itron/agentic-access/itron-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/itron-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/security/itron-domain-security.yml
+  href: https://artifacts.apis.io/itron/security/itron-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/itron-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/authentication/itron-authentication.yml
+  href: https://artifacts.apis.io/itron/authentication/itron-authentication.yml
   title: ''
   type: Authentication
   url: authentication/itron-authentication.yml
@@ -207,27 +206,27 @@ common:
   type: Investors
   url: https://investors.itron.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/plans/itron-plans-pricing.yml
+  href: https://artifacts.apis.io/itron/plans/itron-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/itron-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/rate-limits/itron-rate-limits.yml
+  href: https://artifacts.apis.io/itron/rate-limits/itron-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/itron-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/finops/itron-finops.yml
+  href: https://artifacts.apis.io/itron/finops/itron-finops.yml
   title: ''
   type: FinOps
   url: finops/itron-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/vocabulary/itron-vocabulary.yml
+  href: https://artifacts.apis.io/itron/vocabulary/itron-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/itron-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/json-ld/itron-context.jsonld
+  href: https://artifacts.apis.io/itron/json-ld/itron-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/itron-context.jsonld
@@ -294,7 +293,7 @@ plans:
 - name: Itron Plans Pricing
   plan_count: 4
   slug: itron-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Itron Rate Limits
@@ -325,7 +324,7 @@ rules:
   slug: starfish-data-platform-rules
 score:
   band: developing
-  composite: 40.5
+  composite: 41.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 60.0
@@ -333,15 +332,15 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 55.9
     developer_ergonomics: 47.6
-    discoverability: 67.0
-    operational_transparency: 26.3
-  previous_composite: 48.8
+    discoverability: 67.9
+    operational_transparency: 28.9
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -355,13 +354,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/screenshots/itron-2026-06-20T183633.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/itron/itron-2026-06-20T183633.png
 security:
 - kind: authentication
   name: Itron Authentication

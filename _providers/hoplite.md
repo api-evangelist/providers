@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.8
-  scored_at: '2026-10-17'
+  score: 42.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Hoplite platform API at api.hoplite.sh. Documented through the developer docs (no public OpenAPI published as of this profiling). Surfaces include model-provider discovery (GET /api/model-provider
@@ -55,7 +57,7 @@ common:
   type: BlogRSS
   url: https://hoplite.sh/feed.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/security/hoplite-domain-security.yml
+  href: https://artifacts.apis.io/hoplite/security/hoplite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hoplite-domain-security.yml
@@ -92,57 +94,57 @@ common:
   type: StatusPage
   url: https://status.hoplite.sh
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/llms/hoplite-llms.txt
+  href: https://artifacts.apis.io/hoplite/llms/hoplite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hoplite-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/mcp/hoplite-mcp.yml
+  href: https://artifacts.apis.io/hoplite/mcp/hoplite-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hoplite-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/cli/hoplite-cli.yml
+  href: https://artifacts.apis.io/hoplite/cli/hoplite-cli.yml
   title: ''
   type: CLI
   url: cli/hoplite-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/packages/hoplite-packages.yml
+  href: https://artifacts.apis.io/hoplite/packages/hoplite-packages.yml
   title: ''
   type: Packages
   url: packages/hoplite-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/authentication/hoplite-authentication.yml
+  href: https://artifacts.apis.io/hoplite/authentication/hoplite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hoplite-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/conventions/hoplite-conventions.yml
+  href: https://artifacts.apis.io/hoplite/conventions/hoplite-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hoplite-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/conventions/hoplite-conventions.yml
+  href: https://artifacts.apis.io/hoplite/conventions/hoplite-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/hoplite-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/lifecycle/hoplite-lifecycle.yml
+  href: https://artifacts.apis.io/hoplite/lifecycle/hoplite-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hoplite-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/asyncapi/hoplite-webhooks.yml
+  href: https://artifacts.apis.io/hoplite/asyncapi/hoplite-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hoplite-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/conformance/hoplite-conformance.yml
+  href: https://artifacts.apis.io/hoplite/conformance/hoplite-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hoplite-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/data-model/hoplite-data-model.yml
+  href: https://artifacts.apis.io/hoplite/data-model/hoplite-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hoplite-data-model.yml
@@ -165,26 +167,26 @@ overview: 'Hoplite is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Hoplite''s developer surface includes engineering blog, documentation, getting-started guide, pricing, signup flow, CLI, authentication, and 15 more developer resources.'
-random_paper: 9
+random_paper: 13
 score:
   band: thin
-  composite: 36.3
+  composite: 35.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 52.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 23.7
-  previous_composite: 35.8
+  previous_composite: 35.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -194,14 +196,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/screenshots/hoplite-2026-07-25T221418.png
+screenshot: https://apis.io/screenshots/hoplite/hoplite-2026-07-25T221418.png
 security:
 - kind: authentication
   name: Hoplite Authentication

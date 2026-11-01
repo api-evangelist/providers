@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-17'
+  score: 23.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: HTTP API and flow-execution surface for DigitalGenius AI agents, including generic DG API calls, flow execution, JSON handling, and the hosted MCP server. Region-scoped EU/US hosts, HTTP Basic (encode
@@ -95,57 +97,57 @@ common:
   type: GitHubOrganization
   url: https://github.com/DigitalGenius
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/digitalgenius/refs/heads/main/mcp/digitalgenius-mcp.yml
+  href: https://artifacts.apis.io/digitalgenius/mcp/digitalgenius-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/digitalgenius-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/digitalgenius/refs/heads/main/llms/digitalgenius-llms.txt
+  href: https://artifacts.apis.io/digitalgenius/llms/digitalgenius-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/digitalgenius-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digitalgenius/refs/heads/main/authentication/digitalgenius-authentication.yml
+  href: https://artifacts.apis.io/digitalgenius/authentication/digitalgenius-authentication.yml
   title: ''
   type: Authentication
   url: authentication/digitalgenius-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/digitalgenius/refs/heads/main/packages/digitalgenius-packages.yml
+  href: https://artifacts.apis.io/digitalgenius/packages/digitalgenius-packages.yml
   title: ''
   type: Packages
   url: packages/digitalgenius-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/digitalgenius/refs/heads/main/packages/digitalgenius-packages.yml
+  href: https://artifacts.apis.io/digitalgenius/packages/digitalgenius-packages.yml
   title: ''
   type: SDKs
   url: packages/digitalgenius-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digitalgenius/refs/heads/main/components/digitalgenius-components.yml
+  href: https://artifacts.apis.io/digitalgenius/components/digitalgenius-components.yml
   title: ''
   type: Components
   url: components/digitalgenius-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digitalgenius/refs/heads/main/conventions/digitalgenius-conventions.yml
+  href: https://artifacts.apis.io/digitalgenius/conventions/digitalgenius-conventions.yml
   title: ''
   type: Conventions
   url: conventions/digitalgenius-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digitalgenius/refs/heads/main/asyncapi/digitalgenius-webhooks.yml
+  href: https://artifacts.apis.io/digitalgenius/asyncapi/digitalgenius-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/digitalgenius-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digitalgenius/refs/heads/main/lifecycle/digitalgenius-lifecycle.yml
+  href: https://artifacts.apis.io/digitalgenius/lifecycle/digitalgenius-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/digitalgenius-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digitalgenius/refs/heads/main/security/digitalgenius-domain-security.yml
+  href: https://artifacts.apis.io/digitalgenius/security/digitalgenius-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/digitalgenius-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digitalgenius/refs/heads/main/security/digitalgenius-trust-center.yml
+  href: https://artifacts.apis.io/digitalgenius/security/digitalgenius-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/digitalgenius-trust-center.yml
@@ -168,10 +170,10 @@ overview: 'DigitalGenius is listed with 1 API on the [APIs.io](https://apis.io/)
 
 
   DigitalGenius'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 21
+random_paper: 17
 score:
-  band: thin
-  composite: 38.4
+  band: developing
+  composite: 42.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -179,15 +181,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 42.9
-    discoverability: 75.0
-    operational_transparency: 26.3
-  previous_composite: 38.3
+    developer_ergonomics: 64.3
+    discoverability: 65.0
+    operational_transparency: 28.9
+  previous_composite: 42.0
   provenance:
     mcp: first-party
   regulatory:
@@ -196,14 +198,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/digitalgenius/refs/heads/main/screenshots/digitalgenius-2026-07-25T212022.png
+screenshot: https://apis.io/screenshots/digitalgenius/digitalgenius-2026-07-25T212022.png
 security:
 - kind: authentication
   name: Digitalgenius Authentication

@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: 'The AutoTrac Supervisor Web platform provides fleet management capabilities for monitoring vehicle locations, managing fleet operations, generating reports, and coordinating driver assignments across '
@@ -54,12 +56,12 @@ apis:
 artifact_total: 21
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autotrac/refs/heads/main/finops/autotrac-finops.yml
+  href: https://artifacts.apis.io/autotrac/finops/autotrac-finops.yml
   title: ''
   type: FinOps
   url: finops/autotrac-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autotrac/refs/heads/main/security/autotrac-domain-security.yml
+  href: https://artifacts.apis.io/autotrac/security/autotrac-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autotrac-domain-security.yml
@@ -68,12 +70,12 @@ common:
   type: Website
   url: https://www.autotrac.com.br
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autotrac/refs/heads/main/plans/autotrac-plans-pricing.yml
+  href: https://artifacts.apis.io/autotrac/plans/autotrac-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/autotrac-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/autotrac/refs/heads/main/rate-limits/autotrac-rate-limits.yml
+  href: https://artifacts.apis.io/autotrac/rate-limits/autotrac-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/autotrac-rate-limits.yml
@@ -140,7 +142,7 @@ finops:
 - has_sources: false
   method: generated
   name: Autotrac Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: autotrac-finops
   template: true
@@ -165,14 +167,14 @@ plans:
 - name: Autotrac Plans Pricing
   plan_count: 0
   slug: autotrac-plans-pricing
-random_paper: 9
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Autotrac Rate Limits
   slug: autotrac-rate-limits
 score:
-  band: minimal
-  composite: 9.9
+  band: emerging
+  composite: 11.2
   coverage:
     artifact_dirs: 8
     catalog_earned: 35.0
@@ -180,9 +182,9 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
@@ -195,21 +197,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 11.5
+  previous_composite: 11.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 8.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/autotrac/refs/heads/main/screenshots/autotrac-2026-06-20T172710.png
+screenshot: https://apis.io/screenshots/autotrac/autotrac-2026-06-20T172710.png
 security:
 - kind: domain-security
   name: Autotrac Domain Security

@@ -12,7 +12,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: false
+    agent_card: near-conformant
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 65.8
-  scored_at: '2026-10-17'
+  score: 66.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 261
   human_in_the_loop: 5
@@ -1006,15 +1008,12 @@ apis:
     question: How do I stop webhook deliveries to an endpoint I no longer use?
   phrasing_ops: 3
   slug: scope3-webhook-subscriptions-api
-artifact_total: 74
+artifact_total: 80
 asyncapis:
 - description: ''
   name: Scope3 Webhooks
   slug: scope3-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AI Impact Measurement API
   slug: open-scope3-ai-impact-measurement-api
@@ -1059,157 +1058,157 @@ collections:
   slug: open-scope3-status-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/capabilities/scope3-capability-edges.yml
+  href: https://artifacts.apis.io/scope3/capabilities/scope3-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/scope3-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/overlays/scope3-buyer-overlay.yaml
+  href: https://artifacts.apis.io/scope3/overlays/scope3-buyer-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/scope3-buyer-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/skills/scope3-agentic-buyer.md
+  href: https://artifacts.apis.io/scope3/skills/scope3-agentic-buyer.md
   title: ''
   type: AgentSkill
   url: skills/scope3-agentic-buyer.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/overlays/scope3-storefront-overlay.yaml
+  href: https://artifacts.apis.io/scope3/overlays/scope3-storefront-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/scope3-storefront-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/skills/scope3-agentic-storefront.md
+  href: https://artifacts.apis.io/scope3/skills/scope3-agentic-storefront.md
   title: ''
   type: AgentSkill
   url: skills/scope3-agentic-storefront.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/overlays/scope3-ai-overlay.yaml
+  href: https://artifacts.apis.io/scope3/overlays/scope3-ai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/scope3-ai-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/a2a/scope3-a2a.yml
+  href: https://artifacts.apis.io/scope3/a2a/scope3-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/scope3-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/well-known/scope3-well-known.yml
+  href: https://artifacts.apis.io/scope3/well-known/scope3-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/scope3-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/mcp/scope3-tool-crosswalk.yml
+  href: https://artifacts.apis.io/scope3/mcp/scope3-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/scope3-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/conventions/scope3-conventions.yml
+  href: https://artifacts.apis.io/scope3/conventions/scope3-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/scope3-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/scopes/scope3-scopes.yml
+  href: https://artifacts.apis.io/scope3/scopes/scope3-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/scope3-scopes.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/plans/scope3-plans-pricing.yml
+  href: https://artifacts.apis.io/scope3/plans/scope3-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/scope3-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/rate-limits/scope3-rate-limits.yml
+  href: https://artifacts.apis.io/scope3/rate-limits/scope3-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/scope3-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/agentic-access/scope3-agentic-access.yml
+  href: https://artifacts.apis.io/scope3/agentic-access/scope3-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/scope3-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/security/scope3-domain-security.yml
+  href: https://artifacts.apis.io/scope3/security/scope3-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/scope3-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/authentication/scope3-authentication.yml
+  href: https://artifacts.apis.io/scope3/authentication/scope3-authentication.yml
   title: ''
   type: Authentication
   url: authentication/scope3-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/packages/scope3-packages.yml
+  href: https://artifacts.apis.io/scope3/packages/scope3-packages.yml
   title: ''
   type: Packages
   url: packages/scope3-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/packages/scope3-packages.yml
+  href: https://artifacts.apis.io/scope3/packages/scope3-packages.yml
   title: ''
   type: SDKs
   url: packages/scope3-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/cli/scope3-cli.yml
+  href: https://artifacts.apis.io/scope3/cli/scope3-cli.yml
   title: ''
   type: CLI
   url: cli/scope3-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/mcp/scope3-mcp.yml
+  href: https://artifacts.apis.io/scope3/mcp/scope3-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/scope3-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/scope3/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/llms/scope3-llms.txt
+  href: https://artifacts.apis.io/scope3/llms/scope3-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/scope3-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/errors/scope3-problem-types.yml
+  href: https://artifacts.apis.io/scope3/errors/scope3-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/scope3-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/conventions/scope3-conventions.yml
+  href: https://artifacts.apis.io/scope3/conventions/scope3-conventions.yml
   title: ''
   type: Conventions
   url: conventions/scope3-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/lifecycle/scope3-lifecycle.yml
+  href: https://artifacts.apis.io/scope3/lifecycle/scope3-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/scope3-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/lifecycle/scope3-lifecycle.yml
+  href: https://artifacts.apis.io/scope3/lifecycle/scope3-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/scope3-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/changelog/scope3-changelog.yml
+  href: https://artifacts.apis.io/scope3/changelog/scope3-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/scope3-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/conformance/scope3-conformance.yml
+  href: https://artifacts.apis.io/scope3/conformance/scope3-conformance.yml
   title: ''
   type: Conformance
   url: conformance/scope3-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/data-model/scope3-data-model.yml
+  href: https://artifacts.apis.io/scope3/data-model/scope3-data-model.yml
   title: ''
   type: DataModel
   url: data-model/scope3-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/sandbox/scope3-sandbox.yml
+  href: https://artifacts.apis.io/scope3/sandbox/scope3-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/scope3-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/asyncapi/scope3-webhooks.yml
+  href: https://artifacts.apis.io/scope3/asyncapi/scope3-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/scope3-webhooks.yml
@@ -1272,6 +1271,14 @@ common:
 created: '2026-07-17'
 description: 'Scope3 is the source of truth for greenhouse-gas emissions data in media and advertising, and operates Scope3 Interchange, an agentic advertising platform where buyer agents and seller storefronts transact on the open Ad Context Protocol (AdCP). Its APIs let buyers, publishers and platforms measure the carbon footprint of every ad impression and creative across channels, benchmark against country/channel percentiles, and run AI-driven programmatic advertising end to end. Scope3 publishes four OpenAPI documents across three surfaces: the Carbon Calculator (Measurement) API at api.scope3.com/v2, the AI Impact Measurement API at aiapi.scope3.com (energy, gCO2e and water per inference), and the Interchange Buyer and Storefront v2 APIs at api.interchange.io with 481 operations between them. Interchange is built for AI agents as primary callers: hosted remote MCP endpoints with OAuth (RFC 8414 metadata, dynamic client registration, PKCE), an A2A agent card, three published Agent
   Skills, a documented error envelope, IETF draft-7 rate-limit headers and a published IU pricing model. Backed by GV.'
+finops:
+- has_sources: true
+  method: derived
+  name: Scope3 Finops
+  primary_unit: iu
+  service_category: ''
+  slug: scope3-finops
+  template: false
 image: https://scope3.com/og-default.png
 layout: provider
 mcp_servers:
@@ -1293,7 +1300,10 @@ plans:
 - name: Scope3 Plans Pricing
   plan_count: 3
   slug: scope3-plans-pricing
-random_paper: 17
+- name: Scope3 Price Estimates
+  plan_count: 0
+  slug: scope3-price-estimates
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Scope3 Rate Limits
@@ -1305,23 +1315,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 66.8
+  composite: 68.2
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 64.0
+    artifact_dirs: 30
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 56.4
-    developer_ergonomics: 66.7
-    discoverability: 78.6
-    operational_transparency: 65.8
-  previous_composite: 66.7
+    contract_quality: 54.5
+    developer_ergonomics: 85.7
+    discoverability: 70.0
+    operational_transparency: 68.4
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1338,13 +1348,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/screenshots/scope3-2026-08-17T080422.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/scope3/scope3-2026-08-17T080422.png
 security:
 - kind: authentication
   name: Scope3 Authentication
@@ -1354,6 +1365,18 @@ security:
   name: Scope3 Domain Security
   slug: scope3-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 5
+skills:
+- name: scope3-agentic-buyer
+  slug: scope3-agentic-buyer
+- name: scope3-agentic-storefront
+  slug: scope3-agentic-storefront
+- name: Scope3
+  slug: scope3-interchange
+- name: Measure advertising campaign emissions
+  slug: scope3-measure-campaign-emissions
+- name: Track AI inference environmental impact
+  slug: scope3-track-ai-impact
 slug: scope3
 tags:
 - Company

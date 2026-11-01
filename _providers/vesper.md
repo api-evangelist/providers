@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-17'
+  score: 18.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: VSP token statistics and staking data
   name: Vesper Finance VSP API
   slug: vesper-vsp-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Vesper Finance Pools API
   slug: open-vesper-pools-api
@@ -88,17 +87,17 @@ collections:
   slug: open-vesper-vsp-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/vesper/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/vesper/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/vesper/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -111,12 +110,12 @@ common:
   type: License
   url: https://github.com/vesperfi/vesper-contracts/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/agentic-access/vesper-agentic-access.yml
+  href: https://artifacts.apis.io/vesper/agentic-access/vesper-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vesper-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/security/vesper-domain-security.yml
+  href: https://artifacts.apis.io/vesper/security/vesper-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vesper-domain-security.yml
@@ -214,7 +213,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -233,7 +232,7 @@ rules:
   slug: vesper-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 22.7
+  composite: 25.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 53.3
@@ -241,18 +240,15 @@ score:
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 53.6
     developer_ergonomics: 16.7
     discoverability: 66.1
-    operational_transparency: 2.6
-  open_source:
-    applies: true
-    score: 0.0
-  previous_composite: 26.5
+    operational_transparency: 5.3
+  previous_composite: 25.6
   provenance:
     agentic_access: derived
     contracts:
@@ -266,14 +262,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/screenshots/vesper-2026-06-20T201000.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vesper/vesper-2026-06-20T201000.png
 security:
 - kind: domain-security
   name: Vesper Domain Security

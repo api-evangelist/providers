@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: The Orders API from Shipday — 3 operation(s) for orders.
   name: Shipday Orders API
   slug: shipday-orders-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Shipday Assignment API
   slug: open-shipday-assignment-api
@@ -87,22 +86,22 @@ collections:
   slug: open-shipday
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/capabilities/shipday-capability-edges.yml
+  href: https://artifacts.apis.io/shipday/capabilities/shipday-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shipday-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/agentic-access/shipday-agentic-access.yml
+  href: https://artifacts.apis.io/shipday/agentic-access/shipday-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shipday-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/security/shipday-domain-security.yml
+  href: https://artifacts.apis.io/shipday/security/shipday-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shipday-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/authentication/shipday-authentication.yml
+  href: https://artifacts.apis.io/shipday/authentication/shipday-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shipday-authentication.yml
@@ -123,17 +122,17 @@ common:
   type: Documentation
   url: https://docs.shipday.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/plans/shipday-plans-pricing.yml
+  href: https://artifacts.apis.io/shipday/plans/shipday-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/shipday-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/rate-limits/shipday-rate-limits.yml
+  href: https://artifacts.apis.io/shipday/rate-limits/shipday-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shipday-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/finops/shipday-finops.yml
+  href: https://artifacts.apis.io/shipday/finops/shipday-finops.yml
   title: ''
   type: FinOps
   url: finops/shipday-finops.yml
@@ -165,14 +164,14 @@ plans:
 - name: Shipday Plans Pricing
   plan_count: 5
   slug: shipday-plans-pricing
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Shipday Rate Limits
   slug: shipday-rate-limits
 score:
-  band: emerging
-  composite: 24.8
+  band: thin
+  composite: 27.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 42.0
@@ -180,15 +179,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 48.2
-    developer_ergonomics: 23.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 32.2
+    operational_transparency: 10.5
+  previous_composite: 27.5
   provenance:
     agentic_access: derived
     contracts:
@@ -202,13 +201,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/screenshots/shipday-2026-09-02T155214.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/shipday/shipday-2026-09-02T155214.png
 security:
 - kind: authentication
   name: Shipday Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.5
-  scored_at: '2026-10-17'
+  score: 48.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -118,15 +120,12 @@ apis:
     question: Where do I send a patient so they can pick their health insurance plan and authorize my app in Flexpa Link?
   phrasing_ops: 1
   slug: flexpa-link-api
-artifact_total: 25
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Flexpa Webhooks
   slug: flexpa-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Flexpa Access Tokens API
   slug: open-flexpa-access-tokens-api
@@ -144,57 +143,57 @@ collections:
   slug: open-flexpa
 common:
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/integrations/flexpa-integration-edges.yml
+  href: https://artifacts.apis.io/flexpa/integrations/flexpa-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/flexpa-integration-edges.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/rules/flexpa-rules.yml
+  href: https://artifacts.apis.io/flexpa/rules/flexpa-rules.yml
   title: ''
   type: Spectral
   url: rules/flexpa-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/json-ld/flexpa-context.jsonld
+  href: https://artifacts.apis.io/flexpa/json-ld/flexpa-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/flexpa-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/vocabulary/flexpa-vocabulary.yml
+  href: https://artifacts.apis.io/flexpa/vocabulary/flexpa-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/flexpa-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/lifecycle/flexpa-lifecycle.yml
+  href: https://artifacts.apis.io/flexpa/lifecycle/flexpa-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/flexpa-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/hosts/flexpa-hosts.yml
+  href: https://artifacts.apis.io/flexpa/hosts/flexpa-hosts.yml
   title: ''
   type: Hosts
   url: hosts/flexpa-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/vendors/flexpa-vendors.yml
+  href: https://artifacts.apis.io/flexpa/vendors/flexpa-vendors.yml
   title: ''
   type: Vendors
   url: vendors/flexpa-vendors.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/capabilities/flexpa-capability-edges.yml
+  href: https://artifacts.apis.io/flexpa/capabilities/flexpa-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/flexpa-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/agentic-access/flexpa-agentic-access.yml
+  href: https://artifacts.apis.io/flexpa/agentic-access/flexpa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/flexpa-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/security/flexpa-domain-security.yml
+  href: https://artifacts.apis.io/flexpa/security/flexpa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flexpa-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/authentication/flexpa-authentication.yml
+  href: https://artifacts.apis.io/flexpa/authentication/flexpa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flexpa-authentication.yml
@@ -215,17 +214,17 @@ common:
   type: Documentation
   url: https://www.flexpa.com/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/plans/flexpa-plans-pricing.yml
+  href: https://artifacts.apis.io/flexpa/plans/flexpa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/flexpa-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/rate-limits/flexpa-rate-limits.yml
+  href: https://artifacts.apis.io/flexpa/rate-limits/flexpa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flexpa-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/finops/flexpa-finops.yml
+  href: https://artifacts.apis.io/flexpa/finops/flexpa-finops.yml
   title: ''
   type: FinOps
   url: finops/flexpa-finops.yml
@@ -234,47 +233,47 @@ common:
   type: Blog
   url: https://www.flexpa.com/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/well-known/flexpa-well-known.yml
+  href: https://artifacts.apis.io/flexpa/well-known/flexpa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/flexpa-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/mcp/flexpa-mcp.yml
+  href: https://artifacts.apis.io/flexpa/mcp/flexpa-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/flexpa-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/mcp/flexpa-tool-crosswalk.yml
+  href: https://artifacts.apis.io/flexpa/mcp/flexpa-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/flexpa-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/llms/flexpa-llms.txt
+  href: https://artifacts.apis.io/flexpa/llms/flexpa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flexpa-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/packages/flexpa-packages.yml
+  href: https://artifacts.apis.io/flexpa/packages/flexpa-packages.yml
   title: ''
   type: Packages
   url: packages/flexpa-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/packages/flexpa-packages.yml
+  href: https://artifacts.apis.io/flexpa/packages/flexpa-packages.yml
   title: ''
   type: SDKs
   url: packages/flexpa-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/conventions/flexpa-conventions.yml
+  href: https://artifacts.apis.io/flexpa/conventions/flexpa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flexpa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/errors/flexpa-problem-types.yml
+  href: https://artifacts.apis.io/flexpa/errors/flexpa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flexpa-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/lifecycle/flexpa-lifecycle.yml
+  href: https://artifacts.apis.io/flexpa/lifecycle/flexpa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flexpa-lifecycle.yml
@@ -283,12 +282,12 @@ common:
   type: StatusPage
   url: https://flexpastatus.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/changelog/flexpa-changelog.yml
+  href: https://artifacts.apis.io/flexpa/changelog/flexpa-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/flexpa-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/conformance/flexpa-conformance.yml
+  href: https://artifacts.apis.io/flexpa/conformance/flexpa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flexpa-conformance.yml
@@ -297,37 +296,37 @@ common:
   type: Compliance
   url: https://security.flexpa.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/security/flexpa-trust-center.yml
+  href: https://artifacts.apis.io/flexpa/security/flexpa-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/flexpa-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/scopes/flexpa-scopes.yml
+  href: https://artifacts.apis.io/flexpa/scopes/flexpa-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/flexpa-scopes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/sandbox/flexpa-sandbox.yml
+  href: https://artifacts.apis.io/flexpa/sandbox/flexpa-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/flexpa-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/components/flexpa-components.yml
+  href: https://artifacts.apis.io/flexpa/components/flexpa-components.yml
   title: ''
   type: Components
   url: components/flexpa-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/data-model/flexpa-data-model.yml
+  href: https://artifacts.apis.io/flexpa/data-model/flexpa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flexpa-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/asyncapi/flexpa-webhooks.yml
+  href: https://artifacts.apis.io/flexpa/asyncapi/flexpa-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/flexpa-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/flexpa/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -371,10 +370,10 @@ created: '2026-06-21'
 description: Flexpa is a patient-access platform that lets applications connect a patient to their health insurance plan and retrieve claims and clinical data as normalized FHIR R4 resources. Patients authorize access through Flexpa Link / OAuth 2.0 PKCE, and applications read ExplanationOfBenefit, Coverage, Patient, and other resources from a single FHIR API at https://api.flexpa.com.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Flexpa Finops
-  primary_unit: ''
-  service_category: Healthcare
+  primary_unit: platform license
+  service_category: ''
   slug: flexpa-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flexpa.png
@@ -411,9 +410,12 @@ overview: 'Flexpa publishes 4 API contracts indexed on the [APIs.io](https://api
   Flexpa''s developer surface includes authentication, documentation, engineering blog, changelog, sandbox, API reference, getting-started guide, and 41 more developer resources.'
 plans:
 - name: Flexpa Plans Pricing
-  plan_count: 5
+  plan_count: 7
   slug: flexpa-plans-pricing
-random_paper: 2
+- name: Flexpa Price Estimates
+  plan_count: 0
+  slug: flexpa-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 6
   name: Flexpa Rate Limits
@@ -438,23 +440,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: exemplar
-  composite: 72.2
+  composite: 78.1
   coverage:
     artifact_dirs: 35
-    catalog_earned: 83.8
+    catalog_earned: 86.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 31.3
+    catalog_gap: 28.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.4
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 100.0
     contract_governance: 35.6
     contract_quality: 63.1
     developer_ergonomics: 73.2
-    discoverability: 75.0
-    operational_transparency: 65.8
-  previous_composite: 67.8
+    discoverability: 65.0
+    operational_transparency: 84.2
+  previous_composite: 76.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -470,14 +472,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 47.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 51.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/screenshots/flexpa-2026-07-25T214752.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/flexpa/flexpa-2026-07-25T214752.png
 security:
 - kind: authentication
   name: Flexpa Authentication
@@ -491,6 +494,16 @@ security:
   name: Flexpa Trust Center
   slug: flexpa-trust-center
   summary_line: SOC 2 (published as "SOC II"), HIPAA, CARIN Alliance Code of Conduct
+skill_count: 4
+skills:
+- name: flexpa-connect-patient
+  slug: flexpa-connect-patient
+- name: flexpa-extract-tabular
+  slug: flexpa-extract-tabular
+- name: flexpa-find-payer-endpoint
+  slug: flexpa-find-payer-endpoint
+- name: flexpa-read-claims
+  slug: flexpa-read-claims
 slug: flexpa
 tags:
 - Healthcare

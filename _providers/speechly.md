@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Speechly''s gRPC API surface: Identity (access tokens), SLU (streaming spoken language understanding), WLU (written language understanding), Batch audio processing, Config/Model management, Analytics, '
@@ -71,62 +73,62 @@ common:
   type: SourceCode
   url: https://github.com/speechly/api
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/speechly/refs/heads/main/packages/speechly-packages.yml
+  href: https://artifacts.apis.io/speechly/packages/speechly-packages.yml
   title: ''
   type: Packages
   url: packages/speechly-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/speechly/refs/heads/main/packages/speechly-packages.yml
+  href: https://artifacts.apis.io/speechly/packages/speechly-packages.yml
   title: ''
   type: SDKs
   url: packages/speechly-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/speechly/refs/heads/main/cli/speechly-cli.yml
+  href: https://artifacts.apis.io/speechly/cli/speechly-cli.yml
   title: ''
   type: CLI
   url: cli/speechly-cli.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/speechly/refs/heads/main/grpc/_index.yml
+  href: https://artifacts.apis.io/speechly/grpc/_index.yml
   title: ''
   type: Protobuf
   url: grpc/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/speechly/refs/heads/main/authentication/speechly-authentication.yml
+  href: https://artifacts.apis.io/speechly/authentication/speechly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/speechly-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speechly/refs/heads/main/conformance/speechly-conformance.yml
+  href: https://artifacts.apis.io/speechly/conformance/speechly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/speechly-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speechly/refs/heads/main/lifecycle/speechly-lifecycle.yml
+  href: https://artifacts.apis.io/speechly/lifecycle/speechly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/speechly-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/speechly/refs/heads/main/security/speechly-domain-security.yml
+  href: https://artifacts.apis.io/speechly/security/speechly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/speechly-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/speechly/refs/heads/main/llms/speechly-llms.txt
+  href: https://artifacts.apis.io/speechly/llms/speechly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/speechly-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/speechly/refs/heads/main/mcp/speechly-mcp.yml
+  href: https://artifacts.apis.io/speechly/mcp/speechly-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/speechly-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speechly/refs/heads/main/data-model/speechly-data-model.yml
+  href: https://artifacts.apis.io/speechly/data-model/speechly-data-model.yml
   title: ''
   type: DataModel
   url: data-model/speechly-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speechly/refs/heads/main/conventions/speechly-conventions.yml
+  href: https://artifacts.apis.io/speechly/conventions/speechly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/speechly-conventions.yml
@@ -142,12 +144,12 @@ overview: 'Speechly is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Speechly''s developer surface includes CLI, authentication, and 17 more developer resources.'
-random_paper: 3
+random_paper: 21
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -162,9 +164,6 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 0.0
   provenance:
     conformance: derived
@@ -175,14 +174,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/speechly/refs/heads/main/screenshots/speechly-2026-09-02T160359.png
+screenshot: https://apis.io/screenshots/speechly/speechly-2026-09-02T160359.png
 security:
 - kind: authentication
   name: Speechly Authentication

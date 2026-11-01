@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.5
-  scored_at: '2026-10-17'
+  score: 7.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Brunt provides a storefront API via Shopify, but no provider-owned OpenAPI or GraphQL schema was found.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brunt/refs/heads/main/llms/brunt-llms.txt
+  href: https://artifacts.apis.io/brunt/llms/brunt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brunt-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brunt/refs/heads/main/well-known/brunt-well-known.yml
+  href: https://artifacts.apis.io/brunt/well-known/brunt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/brunt-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brunt/refs/heads/main/hosts/brunt-hosts.yml
+  href: https://artifacts.apis.io/brunt/hosts/brunt-hosts.yml
   title: ''
   type: Hosts
   url: hosts/brunt-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brunt/refs/heads/main/vendors/brunt-vendors.yml
+  href: https://artifacts.apis.io/brunt/vendors/brunt-vendors.yml
   title: ''
   type: Vendors
   url: vendors/brunt-vendors.yml
@@ -60,7 +62,7 @@ common:
   type: Documentation
   url: https://help.bruntworkwear.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brunt/refs/heads/main/security/brunt-domain-security.yml
+  href: https://artifacts.apis.io/brunt/security/brunt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brunt-domain-security.yml
@@ -80,10 +82,10 @@ overview: 'Brunt is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Brunt''s developer surface includes support, documentation, and 6 more developer resources.'
-random_paper: 5
+random_paper: 3
 score:
   band: minimal
-  composite: 7.9
+  composite: 7.2
   coverage:
     artifact_dirs: 6
     catalog_earned: 32.0
@@ -91,13 +93,22 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 7.2
   provenance:
     mcp: unknown
   regulatory:
@@ -106,8 +117,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

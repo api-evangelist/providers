@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: Submit, page, and cancel SQL queries.
   name: Presto Foundation Statement API
   slug: presto-foundation-statement-api
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Presto Client REST Statement API
   slug: open-presto-foundation-statement-api
@@ -68,17 +67,17 @@ collections:
   slug: open-presto-foundation
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/plans/presto-foundation-plans-pricing.yml
+  href: https://artifacts.apis.io/presto-foundation/plans/presto-foundation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/presto-foundation-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/rate-limits/presto-foundation-rate-limits.yml
+  href: https://artifacts.apis.io/presto-foundation/rate-limits/presto-foundation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/presto-foundation-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/finops/presto-foundation-finops.yml
+  href: https://artifacts.apis.io/presto-foundation/finops/presto-foundation-finops.yml
   title: ''
   type: FinOps
   url: finops/presto-foundation-finops.yml
@@ -107,22 +106,22 @@ common:
   type: License
   url: https://github.com/prestodb/presto/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/agentic-access/presto-foundation-agentic-access.yml
+  href: https://artifacts.apis.io/presto-foundation/agentic-access/presto-foundation-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/presto-foundation-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/security/presto-foundation-domain-security.yml
+  href: https://artifacts.apis.io/presto-foundation/security/presto-foundation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/presto-foundation-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/authentication/presto-foundation-authentication.yml
+  href: https://artifacts.apis.io/presto-foundation/authentication/presto-foundation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/presto-foundation-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/scopes/presto-foundation-scopes.yml
+  href: https://artifacts.apis.io/presto-foundation/scopes/presto-foundation-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/presto-foundation-scopes.yml
@@ -184,7 +183,7 @@ finops:
 - has_sources: false
   method: generated
   name: Presto Foundation Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: presto-foundation-finops
   template: true
@@ -202,7 +201,7 @@ plans:
 - name: Presto Foundation Plans Pricing
   plan_count: 3
   slug: presto-foundation-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Presto Foundation Rate Limits
@@ -214,7 +213,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 32.4
+  composite: 30.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 38.0
@@ -222,18 +221,15 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 42.4
-    developer_ergonomics: 35.7
+    developer_ergonomics: 38.1
     discoverability: 57.1
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 33.7
+    operational_transparency: 28.9
+  previous_composite: 30.2
   provenance:
     agentic_access: derived
     contracts:
@@ -247,13 +243,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/screenshots/presto-foundation-2026-06-20T192054.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/presto-foundation/presto-foundation-2026-06-20T192054.png
 security:
 - kind: authentication
   name: Presto Foundation Authentication

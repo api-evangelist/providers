@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 29.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 81
   slug: ampersand-agentic-access
   summary_line: 81 operations · 44 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.withampersand.com
   baseurl_source: declared
@@ -135,11 +137,8 @@ apis:
   description: The User API from Ampersand — 2 operation(s) for user.
   name: Ampersand User API
   slug: ampersand-user-api
-artifact_total: 208
+artifact_total: 207
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ampersand public API Key API
   slug: open-ampersand-api-key-api
@@ -195,38 +194,42 @@ collections:
   name: Ampersand public API Key User API
   slug: open-ampersand-user-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ampersand/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/plans/ampersand-plans-pricing.yml
+  href: https://artifacts.apis.io/ampersand/plans/ampersand-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ampersand-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/rate-limits/ampersand-rate-limits.yml
+  href: https://artifacts.apis.io/ampersand/rate-limits/ampersand-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ampersand-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/finops/ampersand-finops.yml
+  href: https://artifacts.apis.io/ampersand/finops/ampersand-finops.yml
   title: ''
   type: FinOps
   url: finops/ampersand-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/capabilities/ampersand-capability-edges.yml
+  href: https://artifacts.apis.io/ampersand/capabilities/ampersand-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ampersand-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/agentic-access/ampersand-agentic-access.yml
+  href: https://artifacts.apis.io/ampersand/agentic-access/ampersand-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ampersand-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/security/ampersand-domain-security.yml
+  href: https://artifacts.apis.io/ampersand/security/ampersand-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ampersand-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/authentication/ampersand-authentication.yml
+  href: https://artifacts.apis.io/ampersand/authentication/ampersand-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ampersand-authentication.yml
@@ -267,17 +270,17 @@ common:
   type: CLI
   url: https://github.com/amp-labs/cli
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/rules/ampersand-spectral-rules.yml
+  href: https://artifacts.apis.io/ampersand/rules/ampersand-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/ampersand-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/json-ld/ampersand-api-context.jsonld
+  href: https://artifacts.apis.io/ampersand/json-ld/ampersand-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/ampersand-api-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/vocabulary/ampersand-vocabulary.yaml
+  href: https://artifacts.apis.io/ampersand/vocabulary/ampersand-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/ampersand-vocabulary.yaml
@@ -452,7 +455,7 @@ finops:
 - has_sources: false
   method: generated
   name: Ampersand Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: ampersand-finops
   template: true
@@ -775,12 +778,12 @@ overview: 'Ampersand publishes 18 API contracts indexed on the [APIs.io](https:/
   The Ampersand catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ampersand''s developer surface includes authentication, documentation, engineering blog, signup flow, CLI, and 15 more developer resources.'
+  Ampersand''s developer surface includes authentication, documentation, engineering blog, signup flow, CLI, and 16 more developer resources.'
 plans:
 - name: Ampersand Plans Pricing
   plan_count: 3
   slug: ampersand-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Ampersand Rate Limits
@@ -810,24 +813,24 @@ rules:
     warn: 13
   slug: ampersand-spectral-rules
 score:
-  band: thin
-  composite: 35.6
+  band: developing
+  composite: 40.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.3
   facets:
-    access_clarity: 14.5
+    access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 55.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 51.2
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 37.1
+    operational_transparency: 13.2
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -841,13 +844,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/screenshots/ampersand-2026-06-20T171937.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ampersand/ampersand-2026-06-20T171937.png
 security:
 - kind: authentication
   name: Ampersand Authentication

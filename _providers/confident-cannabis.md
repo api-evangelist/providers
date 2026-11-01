@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.8
-  scored_at: '2026-10-17'
+  score: 21.7
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - baseURL: https://api.confidentcannabis.com
@@ -87,11 +89,8 @@ apis:
   description: Submit and manage test results
   name: Confident Cannabis Test Results API
   slug: confident-cannabis-test-results-api
-artifact_total: 23
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Clients Client Info API
   slug: open-confident-cannabis-client-info-api
@@ -123,13 +122,18 @@ collections:
   name: Clients Client Info Test Results API
   slug: open-confident-cannabis-test-results-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/confident-cannabis/plans/confident-cannabis-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/confident-cannabis-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/capabilities/confident-cannabis-capability-edges.yml
+  href: https://artifacts.apis.io/confident-cannabis/capabilities/confident-cannabis-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/confident-cannabis-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/overlays/confident-cannabis-client-overlay.yaml
+  href: https://artifacts.apis.io/confident-cannabis/overlays/confident-cannabis-client-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/confident-cannabis-client-overlay.yaml
@@ -150,37 +154,37 @@ common:
   type: APIReference
   url: https://confidentlims.readme.io/reference
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/authentication/confident-cannabis-authentication.yml
+  href: https://artifacts.apis.io/confident-cannabis/authentication/confident-cannabis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/confident-cannabis-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/security/confident-cannabis-domain-security.yml
+  href: https://artifacts.apis.io/confident-cannabis/security/confident-cannabis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/confident-cannabis-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/errors/confident-cannabis-problem-types.yml
+  href: https://artifacts.apis.io/confident-cannabis/errors/confident-cannabis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/confident-cannabis-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/conventions/confident-cannabis-conventions.yml
+  href: https://artifacts.apis.io/confident-cannabis/conventions/confident-cannabis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/confident-cannabis-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/lifecycle/confident-cannabis-lifecycle.yml
+  href: https://artifacts.apis.io/confident-cannabis/lifecycle/confident-cannabis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/confident-cannabis-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/data-model/confident-cannabis-data-model.yml
+  href: https://artifacts.apis.io/confident-cannabis/data-model/confident-cannabis-data-model.yml
   title: ''
   type: DataModel
   url: data-model/confident-cannabis-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/conformance/confident-cannabis-conformance.yml
+  href: https://artifacts.apis.io/confident-cannabis/conformance/confident-cannabis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/confident-cannabis-conformance.yml
@@ -189,22 +193,22 @@ common:
   type: Compliance
   url: https://www.confidentlims.com/ai-info
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/well-known/confident-cannabis-well-known.yml
+  href: https://artifacts.apis.io/confident-cannabis/well-known/confident-cannabis-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/confident-cannabis-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/mcp/confident-cannabis-mcp.yml
+  href: https://artifacts.apis.io/confident-cannabis/mcp/confident-cannabis-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/confident-cannabis-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/llms/confident-cannabis-llms.txt
+  href: https://artifacts.apis.io/confident-cannabis/llms/confident-cannabis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/confident-cannabis-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/confident-cannabis/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -242,6 +246,14 @@ common:
   url: https://www.confidentlims.com/privacy
 created: '2026-07-17'
 description: Confident Cannabis (CC Software LLC, operating as Confident LIMS) is a cloud-based Laboratory Information Management System for analytical testing labs and their clients across cannabis and hemp, food and beverage, environmental, agriculture, nutraceuticals, cosmetics, oil and gas, and industrial chemical testing. Its public v0 REST API lets labs manage samples, orders, and the order-status lifecycle, submit per-compound test results, and upload Certificates of Analysis, while testing clients read their labs, orders, samples, and results. Authentication is API-key based with optional HMAC-SHA256 request signing. Founded 2015 and backed by Bullpen Capital, the platform serves 100+ labs and 15,000+ active testing clients.
+finops:
+- has_sources: true
+  method: derived
+  name: Confident Cannabis Finops
+  primary_unit: 0-999 sample-assays
+  service_category: ''
+  slug: confident-cannabis-finops
+  template: false
 image: https://cdn.prod.website-files.com/64d6509bb299ffdf28c03cc4/65005f8fc24b671e1c5f5e68_webclip.jpg
 layout: provider
 modified: '2026-07-18'
@@ -251,27 +263,34 @@ network: true
 overview: 'Confident Cannabis publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Client Info API, Clients API, Lab Info API, and 7 more. Tagged areas include Company, Cannabis, Laboratory, LIMS, and Testing.
 
 
-  Confident Cannabis'' developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 4
+  Confident Cannabis'' developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
+plans:
+- name: Confident Cannabis Plans Pricing
+  plan_count: 18
+  slug: confident-cannabis-plans-pricing
+- name: Confident Cannabis Price Estimates
+  plan_count: 0
+  slug: confident-cannabis-price-estimates
+random_paper: 6
 score:
   band: developing
-  composite: 40.8
+  composite: 53.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 20
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 46.1
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 53.9
-    developer_ergonomics: 33.9
-    discoverability: 78.6
-    operational_transparency: 2.6
-  previous_composite: 40.8
+    developer_ergonomics: 47.0
+    discoverability: 71.4
+    operational_transparency: 5.3
+  previous_composite: 45.1
   provenance:
     conformance: first-party
     contracts:
@@ -287,13 +306,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/screenshots/confident-cannabis-2026-07-25T210247.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/confident-cannabis/confident-cannabis-2026-07-25T210247.png
 security:
 - kind: authentication
   name: Confident Cannabis Authentication
@@ -303,6 +323,14 @@ security:
   name: Confident Cannabis Domain Security
   slug: confident-cannabis-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Retrieve test orders and results as a Confident Cannabis client
+  slug: confident-cannabis-client-retrieve-results
+- name: Manage the Confident Cannabis order status lifecycle
+  slug: confident-cannabis-order-lifecycle
+- name: Submit lab test results on Confident Cannabis
+  slug: confident-cannabis-submit-lab-results
 slug: confident-cannabis
 tags:
 - Company

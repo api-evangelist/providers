@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Versioned (v1) REST API for Onward Delivery's final-mile logistics platform, documented on Theneo. Covers orders, draft manifests, partners, subscriptions, routes, jobs, activity ingest, events, and w
@@ -97,12 +99,12 @@ common:
   type: Support
   url: mailto:customerservice@onwarddelivery.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onward-delivery/refs/heads/main/llms/onward-delivery-llms.txt
+  href: https://artifacts.apis.io/onward-delivery/llms/onward-delivery-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/onward-delivery-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onward-delivery/refs/heads/main/security/onward-delivery-domain-security.yml
+  href: https://artifacts.apis.io/onward-delivery/security/onward-delivery-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onward-delivery-domain-security.yml
@@ -118,10 +120,10 @@ overview: 'Onward Delivery is listed with 1 API on the [APIs.io](https://apis.io
 
 
   Onward Delivery''s developer surface includes documentation, API reference, authentication, changelog, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 2
+random_paper: 4
 score:
   band: thin
-  composite: 27.8
+  composite: 27.1
   coverage:
     artifact_dirs: 5
     catalog_earned: 37.0
@@ -129,29 +131,29 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 27.9
+  previous_composite: 27.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/onward-delivery/refs/heads/main/screenshots/onward-delivery-2026-08-07T190433.png
+screenshot: https://apis.io/screenshots/onward-delivery/onward-delivery-2026-08-07T190433.png
 security:
 - kind: domain-security
   name: Onward Delivery Domain Security

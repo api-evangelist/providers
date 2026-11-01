@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Embedded-finance REST API for submitting and converting leads, managing finance applications and agreements, funds requests and credit-backed offers. Authenticated with a JWT bearer token plus an x-ap
@@ -80,62 +82,62 @@ common:
   type: Support
   url: mailto:technical-support@getmymuse.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/muse-finance/refs/heads/main/authentication/muse-finance-authentication.yml
+  href: https://artifacts.apis.io/muse-finance/authentication/muse-finance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/muse-finance-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/muse-finance/refs/heads/main/conventions/muse-finance-conventions.yml
+  href: https://artifacts.apis.io/muse-finance/conventions/muse-finance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/muse-finance-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/muse-finance/refs/heads/main/errors/muse-finance-problem-types.yml
+  href: https://artifacts.apis.io/muse-finance/errors/muse-finance-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/muse-finance-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/muse-finance/refs/heads/main/rate-limits/muse-finance-rate-limits.yml
+  href: https://artifacts.apis.io/muse-finance/rate-limits/muse-finance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/muse-finance-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/muse-finance/refs/heads/main/asyncapi/muse-finance-webhooks.yml
+  href: https://artifacts.apis.io/muse-finance/asyncapi/muse-finance-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/muse-finance-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/muse-finance/refs/heads/main/data-model/muse-finance-data-model.yml
+  href: https://artifacts.apis.io/muse-finance/data-model/muse-finance-data-model.yml
   title: ''
   type: DataModel
   url: data-model/muse-finance-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/muse-finance/refs/heads/main/mcp/muse-finance-mcp.yml
+  href: https://artifacts.apis.io/muse-finance/mcp/muse-finance-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/muse-finance-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/muse-finance/refs/heads/main/conformance/muse-finance-conformance.yml
+  href: https://artifacts.apis.io/muse-finance/conformance/muse-finance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/muse-finance-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/muse-finance/refs/heads/main/lifecycle/muse-finance-lifecycle.yml
+  href: https://artifacts.apis.io/muse-finance/lifecycle/muse-finance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/muse-finance-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/muse-finance/refs/heads/main/changelog/muse-finance-changelog.yml
+  href: https://artifacts.apis.io/muse-finance/changelog/muse-finance-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/muse-finance-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/muse-finance/refs/heads/main/llms/muse-finance-llms.txt
+  href: https://artifacts.apis.io/muse-finance/llms/muse-finance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/muse-finance-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/muse-finance/refs/heads/main/security/muse-finance-domain-security.yml
+  href: https://artifacts.apis.io/muse-finance/security/muse-finance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/muse-finance-domain-security.yml
@@ -154,14 +156,14 @@ overview: 'Muse Finance is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Muse Finance''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, changelog, and 13 more developer resources.'
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Muse Finance Rate Limits
   slug: muse-finance-rate-limits
 score:
   band: thin
-  composite: 36.8
+  composite: 36.1
   coverage:
     artifact_dirs: 15
     catalog_earned: 40.0
@@ -169,13 +171,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -185,7 +187,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 36.3
+  previous_composite: 36.1
   provenance:
     conformance: derived
     mcp: derived
@@ -195,14 +197,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/muse-finance/refs/heads/main/screenshots/muse-finance-2026-08-07T184450.png
+screenshot: https://apis.io/screenshots/muse-finance/muse-finance-2026-08-07T184450.png
 security:
 - kind: authentication
   name: Muse Finance Authentication

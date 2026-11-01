@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/addionicslondonunitedkingdom/refs/heads/main/security/addionicslondonunitedkingdom-domain-security.yml
+  href: https://artifacts.apis.io/addionicslondonunitedkingdom/security/addionicslondonunitedkingdom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/addionicslondonunitedkingdom-domain-security.yml
@@ -45,12 +47,12 @@ common:
   type: BlogRSS
   url: https://addionics.com/feed.xml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/addionicslondonunitedkingdom/refs/heads/main/llms/addionicslondonunitedkingdom-llms.txt
+  href: https://artifacts.apis.io/addionicslondonunitedkingdom/llms/addionicslondonunitedkingdom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/addionicslondonunitedkingdom-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/addionicslondonunitedkingdom/refs/heads/main/llms/addionicslondonunitedkingdom-agents.md
+  href: https://artifacts.apis.io/addionicslondonunitedkingdom/llms/addionicslondonunitedkingdom-agents.md
   title: ''
   type: AgentInstructions
   url: llms/addionicslondonunitedkingdom-agents.md
@@ -91,7 +93,7 @@ common:
   type: YouTube
   url: https://www.youtube.com/@addionics5387/videos
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/addionicslondonunitedkingdom/refs/heads/main/plans/addionicslondonunitedkingdom-plans-pricing.yml
+  href: https://artifacts.apis.io/addionicslondonunitedkingdom/plans/addionicslondonunitedkingdom-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/addionicslondonunitedkingdom-plans-pricing.yml
@@ -127,10 +129,10 @@ plans:
 - name: Addionicslondonunitedkingdom Plans Pricing
   plan_count: 0
   slug: addionicslondonunitedkingdom-plans-pricing
-random_paper: 16
+random_paper: 10
 score:
   band: minimal
-  composite: 7.4
+  composite: 6.7
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -144,7 +146,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -154,21 +156,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 7.4
+  previous_composite: 6.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/addionicslondonunitedkingdom/refs/heads/main/screenshots/addionicslondonunitedkingdom-2026-10-11T092832.png
+screenshot: https://apis.io/screenshots/addionicslondonunitedkingdom/addionicslondonunitedkingdom-2026-10-11T092832.png
 security:
 - kind: domain-security
   name: Addionicslondonunitedkingdom Domain Security

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: Inspect current API key usage against documented quotas.
   name: Noun Project Usage API
   slug: noun-project-usage-api
-artifact_total: 69
+artifact_total: 68
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Noun Project API V2 Autocomplete API
   slug: open-noun-project-autocomplete-api
@@ -93,18 +92,22 @@ collections:
   name: Noun Project API V2
   slug: open-noun-project
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/noun-project/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/agentic-access/noun-project-agentic-access.yml
+  href: https://artifacts.apis.io/noun-project/agentic-access/noun-project-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/noun-project-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/security/noun-project-domain-security.yml
+  href: https://artifacts.apis.io/noun-project/security/noun-project-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/noun-project-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/authentication/noun-project-authentication.yml
+  href: https://artifacts.apis.io/noun-project/authentication/noun-project-authentication.yml
   title: ''
   type: Authentication
   url: authentication/noun-project-authentication.yml
@@ -141,27 +144,27 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/plans/noun-project-plans-pricing.yml
+  href: https://artifacts.apis.io/noun-project/plans/noun-project-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/noun-project-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/rate-limits/noun-project-rate-limits.yml
+  href: https://artifacts.apis.io/noun-project/rate-limits/noun-project-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/noun-project-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/finops/noun-project-finops.yml
+  href: https://artifacts.apis.io/noun-project/finops/noun-project-finops.yml
   title: ''
   type: FinOps
   url: finops/noun-project-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/vocabulary/noun-project-vocabulary.yml
+  href: https://artifacts.apis.io/noun-project/vocabulary/noun-project-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/noun-project-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/rules/noun-project-rules.yml
+  href: https://artifacts.apis.io/noun-project/rules/noun-project-rules.yml
   title: ''
   type: SpectralRules
   url: rules/noun-project-rules.yml
@@ -343,12 +346,12 @@ overview: 'Noun Project is listed with 5 APIs on the [APIs.io](https://apis.io/)
   The Noun Project catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Noun Project''s developer surface includes authentication, pricing, signup flow, support, engineering blog, and 12 more developer resources.'
+  Noun Project''s developer surface includes authentication, pricing, signup flow, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Noun Project Plans Pricing
   plan_count: 3
   slug: noun-project-plans-pricing
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 12
   name: Noun Project Rate Limits
@@ -379,23 +382,23 @@ rules:
   slug: noun-project-rules
 score:
   band: thin
-  composite: 31.1
+  composite: 36.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 66.0
     catalog_earned_first_party: 0.0
     catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.2
   facets:
-    access_clarity: 21.1
+    access_clarity: 42.1
     contract_governance: 27.3
     contract_quality: 22.4
-    developer_ergonomics: 40.5
+    developer_ergonomics: 41.7
     discoverability: 78.6
-    operational_transparency: 10.5
-  previous_composite: 39.3
+    operational_transparency: 13.2
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -408,14 +411,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 20.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/screenshots/noun-project-2026-06-20T190429.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/noun-project/noun-project-2026-06-20T190429.png
 security:
 - kind: authentication
   name: Noun Project Authentication

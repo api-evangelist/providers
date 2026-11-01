@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Real-time GET query to authenticate a LeadiD token against an account code, confirming lead capture provenance. Credentials are passed as query parameters (lac account code, id LeadiD token).
@@ -59,7 +61,7 @@ common:
   type: BlogRSS
   url: https://infutor.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/security/infutor-domain-security.yml
+  href: https://artifacts.apis.io/infutor/security/infutor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/infutor-domain-security.yml
@@ -100,22 +102,22 @@ common:
   type: TermsOfService
   url: https://infutor.com/terms-and-conditions/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/authentication/infutor-authentication.yml
+  href: https://artifacts.apis.io/infutor/authentication/infutor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/infutor-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/conventions/infutor-conventions.yml
+  href: https://artifacts.apis.io/infutor/conventions/infutor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/infutor-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/sandbox/infutor-sandbox.yml
+  href: https://artifacts.apis.io/infutor/sandbox/infutor-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/infutor-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/llms/infutor-llms.txt
+  href: https://artifacts.apis.io/infutor/llms/infutor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/infutor-llms.txt
@@ -128,47 +130,47 @@ common:
   type: StatusPage
   url: https://status.infutor.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/lifecycle/infutor-lifecycle.yml
+  href: https://artifacts.apis.io/infutor/lifecycle/infutor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/infutor-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/errors/infutor-error-codes.yml
+  href: https://artifacts.apis.io/infutor/errors/infutor-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/infutor-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/rate-limits/infutor-rate-limits.yml
+  href: https://artifacts.apis.io/infutor/rate-limits/infutor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/infutor-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/plans/infutor-plans-pricing.yml
+  href: https://artifacts.apis.io/infutor/plans/infutor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/infutor-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/packages/infutor-packages.yml
+  href: https://artifacts.apis.io/infutor/packages/infutor-packages.yml
   title: ''
   type: Packages
   url: packages/infutor-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/components/infutor-components.yml
+  href: https://artifacts.apis.io/infutor/components/infutor-components.yml
   title: ''
   type: Components
   url: components/infutor-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/data-model/infutor-data-model.yml
+  href: https://artifacts.apis.io/infutor/data-model/infutor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/infutor-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/conformance/infutor-conformance.yml
+  href: https://artifacts.apis.io/infutor/conformance/infutor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/infutor-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/mcp/infutor-mcp.yml
+  href: https://artifacts.apis.io/infutor/mcp/infutor-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/infutor-mcp.yml
@@ -188,14 +190,14 @@ plans:
 - name: Infutor Plans Pricing
   plan_count: 0
   slug: infutor-plans-pricing
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Infutor Rate Limits
   slug: infutor-rate-limits
 score:
   band: thin
-  composite: 34.6
+  composite: 35.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 48.0
@@ -203,15 +205,15 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 36.8
-  previous_composite: 34.5
+  previous_composite: 35.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -221,14 +223,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/infutor/refs/heads/main/screenshots/infutor-2026-07-25T222430.png
+screenshot: https://apis.io/screenshots/infutor/infutor-2026-07-25T222430.png
 security:
 - kind: authentication
   name: Infutor Authentication

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 8
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 193
   slug: podman-agentic-access
   summary_line: 193 operations · 115 acting · 8 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: http://d/v6.0.0/libpod
   baseurl_source: declared
@@ -133,11 +135,8 @@ apis:
   description: Actions related to volumes for the compatibility endpoints
   name: Podman volumes (compat) API
   slug: podman-volumes-compat-api
-artifact_total: 43
+artifact_total: 42
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: supports a RESTful API for the Libpod library artifacts API
   slug: open-podman-artifacts-api
@@ -197,22 +196,22 @@ collections:
   slug: open-podman
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/plans/podman-plans-pricing.yml
+  href: https://artifacts.apis.io/podman/plans/podman-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/podman-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/rate-limits/podman-rate-limits.yml
+  href: https://artifacts.apis.io/podman/rate-limits/podman-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/podman-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/finops/podman-finops.yml
+  href: https://artifacts.apis.io/podman/finops/podman-finops.yml
   title: ''
   type: FinOps
   url: finops/podman-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/capabilities/podman-capability-edges.yml
+  href: https://artifacts.apis.io/podman/capabilities/podman-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/podman-capability-edges.yml
@@ -241,12 +240,12 @@ common:
   type: License
   url: https://github.com/containers/podman/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/agentic-access/podman-agentic-access.yml
+  href: https://artifacts.apis.io/podman/agentic-access/podman-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/podman-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/security/podman-domain-security.yml
+  href: https://artifacts.apis.io/podman/security/podman-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/podman-domain-security.yml
@@ -284,7 +283,7 @@ finops:
 - has_sources: false
   method: generated
   name: Podman Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: podman-finops
   template: true
@@ -302,14 +301,14 @@ plans:
 - name: Podman Plans Pricing
   plan_count: 3
   slug: podman-plans-pricing
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Podman Rate Limits
   slug: podman-rate-limits
 score:
   band: thin
-  composite: 34.3
+  composite: 29.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 43.0
@@ -317,18 +316,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 46.2
-    developer_ergonomics: 23.8
+    developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 35.6
+    operational_transparency: 39.5
+  previous_composite: 29.2
   provenance:
     agentic_access: derived
     contracts:
@@ -342,13 +338,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/screenshots/podman-2026-06-20T191837.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/podman/podman-2026-06-20T191837.png
 security:
 - kind: domain-security
   name: Podman Domain Security

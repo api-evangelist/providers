@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL API for Fondue platform
@@ -32,17 +34,17 @@ apis:
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fondue/refs/heads/main/plans/fondue-plans-pricing.yml
+  href: https://artifacts.apis.io/fondue/plans/fondue-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fondue-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fondue/refs/heads/main/hosts/fondue-hosts.yml
+  href: https://artifacts.apis.io/fondue/hosts/fondue-hosts.yml
   title: ''
   type: Hosts
   url: hosts/fondue-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fondue/refs/heads/main/vendors/fondue-vendors.yml
+  href: https://artifacts.apis.io/fondue/vendors/fondue-vendors.yml
   title: ''
   type: Vendors
   url: vendors/fondue-vendors.yml
@@ -67,7 +69,7 @@ common:
   type: Documentation
   url: https://help.getfondue.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fondue/refs/heads/main/security/fondue-domain-security.yml
+  href: https://artifacts.apis.io/fondue/security/fondue-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fondue-domain-security.yml
@@ -91,7 +93,7 @@ plans:
 - name: Fondue Plans Pricing
   plan_count: 1
   slug: fondue-plans-pricing
-random_paper: 3
+random_paper: 17
 score:
   band: emerging
   composite: 20.3
@@ -102,6 +104,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
@@ -109,6 +112,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 57.1
     operational_transparency: 0.0
+  previous_composite: 20.3
   provenance:
     mcp: unknown
   regulatory:
@@ -117,8 +121,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

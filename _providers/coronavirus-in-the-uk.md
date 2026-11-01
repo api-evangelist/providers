@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: UK Government coronavirus data, including deaths and cases by region
@@ -41,12 +43,12 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coronavirus-in-the-uk/refs/heads/main/security/coronavirus-in-the-uk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/coronavirus-in-the-uk/security/coronavirus-in-the-uk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/coronavirus-in-the-uk-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coronavirus-in-the-uk/refs/heads/main/security/coronavirus-in-the-uk-domain-security.yml
+  href: https://artifacts.apis.io/coronavirus-in-the-uk/security/coronavirus-in-the-uk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coronavirus-in-the-uk-domain-security.yml
@@ -67,10 +69,10 @@ name: Coronavirus in the UK
 nav: Providers
 network: true
 overview: Coronavirus in the UK is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 16
+random_paper: 18
 score:
   band: minimal
-  composite: 4.2
+  composite: 7.5
   coverage:
     artifact_dirs: 3
     catalog_earned: 22.0
@@ -83,30 +85,30 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 9.5
     discoverability: 46.4
-    operational_transparency: 0.0
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 4.2
+  previous_composite: 7.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/coronavirus-in-the-uk/refs/heads/main/screenshots/coronavirus-in-the-uk-2026-06-20T175037.png
+screenshot: https://apis.io/screenshots/coronavirus-in-the-uk/coronavirus-in-the-uk-2026-06-20T175037.png
 security:
 - kind: domain-security
   name: Coronavirus In The Uk Domain Security

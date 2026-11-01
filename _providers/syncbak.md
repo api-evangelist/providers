@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syncbak/refs/heads/main/security/syncbak-domain-security.yml
+  href: https://artifacts.apis.io/syncbak/security/syncbak-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/syncbak-domain-security.yml
@@ -60,17 +62,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/zeammedia/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/syncbak/refs/heads/main/llms/syncbak-llms.txt
+  href: https://artifacts.apis.io/syncbak/llms/syncbak-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/syncbak-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/syncbak/refs/heads/main/plans/syncbak-plans-pricing.yml
+  href: https://artifacts.apis.io/syncbak/plans/syncbak-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/syncbak-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/syncbak/refs/heads/main/rate-limits/syncbak-rate-limits.yml
+  href: https://artifacts.apis.io/syncbak/rate-limits/syncbak-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/syncbak-rate-limits.yml
@@ -105,7 +107,7 @@ plans:
 - name: Syncbak Plans Pricing
   plan_count: 0
   slug: syncbak-plans-pricing
-random_paper: 21
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Syncbak Rate Limits
@@ -135,14 +137,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/syncbak/refs/heads/main/screenshots/syncbak-2026-09-02T161452.png
+screenshot: https://apis.io/screenshots/syncbak/syncbak-2026-09-02T161452.png
 security:
 - kind: domain-security
   name: Syncbak Domain Security

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Cloud-based request/response REST API delivering real-time and delayed Level 1/Level 2 quotes, trades, historical OHLCV and tick data, full option chains with Greeks, fundamentals, earnings, news from
@@ -54,52 +56,52 @@ common:
   type: BlogRSS
   url: https://blog.quotemedia.com/?feed=rss2
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quotemedia/refs/heads/main/security/quotemedia-domain-security.yml
+  href: https://artifacts.apis.io/quotemedia/security/quotemedia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quotemedia-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quotemedia/refs/heads/main/packages/quotemedia-packages.yml
+  href: https://artifacts.apis.io/quotemedia/packages/quotemedia-packages.yml
   title: ''
   type: Packages
   url: packages/quotemedia-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quotemedia/refs/heads/main/packages/quotemedia-packages.yml
+  href: https://artifacts.apis.io/quotemedia/packages/quotemedia-packages.yml
   title: ''
   type: SDKs
   url: packages/quotemedia-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quotemedia/refs/heads/main/well-known/quotemedia-well-known.yml
+  href: https://artifacts.apis.io/quotemedia/well-known/quotemedia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/quotemedia-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quotemedia/refs/heads/main/llms/quotemedia-llms.txt
+  href: https://artifacts.apis.io/quotemedia/llms/quotemedia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/quotemedia-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quotemedia/refs/heads/main/errors/quotemedia-problem-types.yml
+  href: https://artifacts.apis.io/quotemedia/errors/quotemedia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/quotemedia-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quotemedia/refs/heads/main/lifecycle/quotemedia-lifecycle.yml
+  href: https://artifacts.apis.io/quotemedia/lifecycle/quotemedia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/quotemedia-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quotemedia/refs/heads/main/authentication/quotemedia-authentication.yml
+  href: https://artifacts.apis.io/quotemedia/authentication/quotemedia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quotemedia-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quotemedia/refs/heads/main/components/quotemedia-components.yml
+  href: https://artifacts.apis.io/quotemedia/components/quotemedia-components.yml
   title: ''
   type: Components
   url: components/quotemedia-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quotemedia/refs/heads/main/conventions/quotemedia-conventions.yml
+  href: https://artifacts.apis.io/quotemedia/conventions/quotemedia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/quotemedia-conventions.yml
@@ -154,9 +156,9 @@ overview: 'QuoteMedia is listed with 4 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 14
 score:
   band: emerging
-  composite: 21.7
+  composite: 21.2
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -167,8 +169,8 @@ score:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 44.0
-    discoverability: 69.6
+    developer_ergonomics: 45.2
+    discoverability: 62.5
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -177,21 +179,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 21.7
+  previous_composite: 21.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/quotemedia/refs/heads/main/screenshots/quotemedia-2026-07-22T202611.png
+screenshot: https://apis.io/screenshots/quotemedia/quotemedia-2026-07-22T202611.png
 security:
 - kind: authentication
   name: Quotemedia Authentication

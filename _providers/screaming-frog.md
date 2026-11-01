@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Screaming Frog SEO Spider is a desktop website crawler for Windows, macOS, and Ubuntu that performs comprehensive technical SEO audits. It crawls websites to find broken links, analyze page titles
@@ -42,15 +44,15 @@ apis:
 - description: The Screaming Frog Log File Analyser is a free desktop tool that allows SEO professionals to upload and analyze server log files to understand how search bots are crawling a website. It identifies whi
   name: Screaming Frog Log File Analyser
   slug: log-file-analyser
-artifact_total: 12
+artifact_total: 16
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/finops/screaming-frog-finops.yml
+  href: https://artifacts.apis.io/screaming-frog/finops/screaming-frog-finops.yml
   title: ''
   type: FinOps
   url: finops/screaming-frog-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/security/screaming-frog-domain-security.yml
+  href: https://artifacts.apis.io/screaming-frog/security/screaming-frog-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/screaming-frog-domain-security.yml
@@ -99,37 +101,37 @@ common:
   type: Login
   url: https://www.screamingfrog.co.uk/login/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/changelog/screaming-frog-changelog.yml
+  href: https://artifacts.apis.io/screaming-frog/changelog/screaming-frog-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/screaming-frog-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/lifecycle/screaming-frog-lifecycle.yml
+  href: https://artifacts.apis.io/screaming-frog/lifecycle/screaming-frog-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/screaming-frog-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/conventions/screaming-frog-conventions.yml
+  href: https://artifacts.apis.io/screaming-frog/conventions/screaming-frog-conventions.yml
   title: ''
   type: Conventions
   url: conventions/screaming-frog-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/packages/screaming-frog-packages.yml
+  href: https://artifacts.apis.io/screaming-frog/packages/screaming-frog-packages.yml
   title: ''
   type: Packages
   url: packages/screaming-frog-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/plans/screaming-frog-plans-pricing.yml
+  href: https://artifacts.apis.io/screaming-frog/plans/screaming-frog-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/screaming-frog-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/rate-limits/screaming-frog-rate-limits.yml
+  href: https://artifacts.apis.io/screaming-frog/rate-limits/screaming-frog-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/screaming-frog-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/llms/screaming-frog-llms.txt
+  href: https://artifacts.apis.io/screaming-frog/llms/screaming-frog-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/screaming-frog-llms.txt
@@ -141,13 +143,13 @@ examples:
   name: Screaming Frog Crawl Result Example
   slug: screaming-frog-crawl-result-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Screaming Frog Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: licence
+  service_category: ''
   slug: screaming-frog-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/screaming-frog.png
 json_schemas:
 - name: Screaming Frog Crawl Result
@@ -180,9 +182,12 @@ overview: 'Screaming Frog is listed with 2 APIs on the [APIs.io](https://apis.io
   Screaming Frog''s developer surface includes engineering blog, pricing, support, changelog, and 16 more developer resources.'
 plans:
 - name: Screaming Frog Plans Pricing
-  plan_count: 4
+  plan_count: 6
   slug: screaming-frog-plans-pricing
-random_paper: 20
+- name: Screaming Frog Price Estimates
+  plan_count: 0
+  slug: screaming-frog-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Screaming Frog Rate Limits
@@ -201,28 +206,28 @@ rules:
   slug: screaming-frog-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.4
+  composite: 43.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 65.2
+    artifact_dirs: 24
+    catalog_earned: 68.2
     catalog_earned_first_party: 12.0
-    catalog_gap: 49.9
+    catalog_gap: 46.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 23.5
     contract_quality: 24.4
     developer_ergonomics: 44.6
     discoverability: 56.7
-    operational_transparency: 18.4
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 41.9
+  previous_composite: 42.0
   provenance:
     mcp: first-party
     skills: derived
@@ -232,19 +237,27 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/screenshots/screaming-frog-2026-06-20T193601.png
+screenshot: https://apis.io/screenshots/screaming-frog/screaming-frog-2026-06-20T193601.png
 security:
 - kind: domain-security
   name: Screaming Frog Domain Security
   slug: screaming-frog-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: screaming-frog-broken-link-report
+  slug: screaming-frog-broken-link-report
+- name: screaming-frog-scheduled-headless-crawl
+  slug: screaming-frog-scheduled-headless-crawl
+- name: screaming-frog-technical-seo-audit
+  slug: screaming-frog-technical-seo-audit
 slug: screaming-frog
 tags:
 - SEO

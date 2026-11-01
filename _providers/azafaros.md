@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Azafaros does not appear to expose a public API; no documentation or OpenAPI spec was found.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azafaros/refs/heads/main/security/azafaros-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/azafaros/security/azafaros-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/azafaros-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azafaros/refs/heads/main/well-known/azafaros-security.txt
+  href: https://artifacts.apis.io/azafaros/well-known/azafaros-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/azafaros-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/azafaros/refs/heads/main/well-known/azafaros-well-known.yml
+  href: https://artifacts.apis.io/azafaros/well-known/azafaros-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/azafaros-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azafaros/refs/heads/main/hosts/azafaros-hosts.yml
+  href: https://artifacts.apis.io/azafaros/hosts/azafaros-hosts.yml
   title: ''
   type: Hosts
   url: hosts/azafaros-hosts.yml
@@ -60,12 +62,12 @@ common:
   type: Newsroom
   url: https://www.azafaros.com/news-media/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azafaros/refs/heads/main/security/azafaros-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/azafaros/security/azafaros-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/azafaros-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azafaros/refs/heads/main/security/azafaros-domain-security.yml
+  href: https://artifacts.apis.io/azafaros/security/azafaros-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/azafaros-domain-security.yml
@@ -90,7 +92,7 @@ name: Azafaros
 nav: Providers
 network: true
 overview: Azafaros is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Lysosomal Storage Disorders and Rare Metabolic Disorders.
-random_paper: 19
+random_paper: 15
 score:
   band: minimal
   composite: 8.6
@@ -101,7 +103,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -109,7 +111,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 50.0
     operational_transparency: 10.5
-  previous_composite: 8.5
+  previous_composite: 8.6
   provenance:
     mcp: unknown
   regulatory:
@@ -118,14 +120,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/azafaros/refs/heads/main/screenshots/azafaros-2026-10-11T101318.png
+screenshot: https://apis.io/screenshots/azafaros/azafaros-2026-10-11T101318.png
 security:
 - kind: domain-security
   name: Azafaros Domain Security

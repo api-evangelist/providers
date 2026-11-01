@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation is referenced in the company's documentation site but no machine‑readable contract was found.
@@ -32,27 +34,27 @@ apis:
 artifact_total: 2
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/segura-security/refs/heads/main/conformance/segura-security-conformance.yml
+  href: https://artifacts.apis.io/segura-security/conformance/segura-security-conformance.yml
   title: ''
   type: Conformance
   url: conformance/segura-security-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/segura-security/refs/heads/main/llms/segura-security-llms.txt
+  href: https://artifacts.apis.io/segura-security/llms/segura-security-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/segura-security-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/segura-security/refs/heads/main/well-known/segura-security-well-known.yml
+  href: https://artifacts.apis.io/segura-security/well-known/segura-security-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/segura-security-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/segura-security/refs/heads/main/hosts/segura-security-hosts.yml
+  href: https://artifacts.apis.io/segura-security/hosts/segura-security-hosts.yml
   title: ''
   type: Hosts
   url: hosts/segura-security-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/segura-security/refs/heads/main/vendors/segura-security-vendors.yml
+  href: https://artifacts.apis.io/segura-security/vendors/segura-security-vendors.yml
   title: ''
   type: Vendors
   url: vendors/segura-security-vendors.yml
@@ -93,7 +95,7 @@ common:
   type: DeveloperPortal
   url: https://docs.senhasegura.io/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/segura-security/refs/heads/main/security/segura-security-domain-security.yml
+  href: https://artifacts.apis.io/segura-security/security/segura-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/segura-security-domain-security.yml
@@ -123,10 +125,10 @@ overview: 'Segura is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Segura''s developer surface includes support, engineering blog, documentation, and 13 more developer resources.'
-random_paper: 18
+random_paper: 20
 score:
   band: emerging
-  composite: 24.0
+  composite: 23.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -134,15 +136,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 22.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 1.9
+  previous_composite: 23.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -158,9 +160,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

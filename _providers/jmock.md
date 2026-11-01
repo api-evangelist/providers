@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Core library for creating mock objects and defining expectations in Java tests using an expressive DSL. Supports JUnit 4 and JUnit 5, modern JDK versions, and integrates seamlessly with IDE refactorin
@@ -42,17 +44,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jmock/refs/heads/main/plans/jmock-plans-pricing.yml
+  href: https://artifacts.apis.io/jmock/plans/jmock-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jmock-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jmock/refs/heads/main/rate-limits/jmock-rate-limits.yml
+  href: https://artifacts.apis.io/jmock/rate-limits/jmock-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jmock-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jmock/refs/heads/main/finops/jmock-finops.yml
+  href: https://artifacts.apis.io/jmock/finops/jmock-finops.yml
   title: ''
   type: FinOps
   url: finops/jmock-finops.yml
@@ -65,7 +67,7 @@ common:
   type: License
   url: https://github.com/jmock-developers/jmock-library/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jmock/refs/heads/main/security/jmock-domain-security.yml
+  href: https://artifacts.apis.io/jmock/security/jmock-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jmock-domain-security.yml
@@ -91,7 +93,7 @@ finops:
 - has_sources: false
   method: generated
   name: Jmock Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: jmock-finops
   template: true
@@ -116,7 +118,7 @@ rate_limits:
   slug: jmock-rate-limits
 score:
   band: emerging
-  composite: 11.7
+  composite: 13.9
   coverage:
     artifact_dirs: 6
     catalog_earned: 38.0
@@ -124,29 +126,29 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 13.2
+    operational_transparency: 28.9
+  previous_composite: 13.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jmock/refs/heads/main/screenshots/jmock-2026-06-20T183739.png
+screenshot: https://apis.io/screenshots/jmock/jmock-2026-06-20T183739.png
 security:
 - kind: domain-security
   name: Jmock Domain Security

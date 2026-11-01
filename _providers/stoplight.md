@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 32.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 5
   slug: stoplight-agentic-access
   summary_line: 5 operations · 4 acting
-api_count: 2
+api_count: 1
 apis:
 - description: 'Stoplight Platform is a SaaS collaborative API design and documentation management tool providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, '
   name: Stoplight Platform
@@ -83,10 +85,10 @@ apis:
     question: Can I take down the published documentation for one API version?
   phrasing_ops: 5
   slug: stoplight-versions-api
-artifact_total: 23
+artifact_total: 26
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/llms/stoplight-llms.txt
+  href: https://artifacts.apis.io/stoplight/llms/stoplight-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stoplight-llms.txt
@@ -95,42 +97,42 @@ common:
   type: SpectralRules
   url: https://github.com/stoplightio/style-guides-rulebook-series/blob/454313097a63c60c1d5667923546e5d73d7b4568/.spectral.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/agentic-access/stoplight-agentic-access.yml
+  href: https://artifacts.apis.io/stoplight/agentic-access/stoplight-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stoplight-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/rules/stoplight-rules.yml
+  href: https://artifacts.apis.io/stoplight/rules/stoplight-rules.yml
   title: ''
   type: Spectral
   url: rules/stoplight-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/rules/stoplight-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/stoplight/rules/stoplight-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/stoplight-jsonschema-spectral-rules.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/lifecycle/stoplight-lifecycle.yml
+  href: https://artifacts.apis.io/stoplight/lifecycle/stoplight-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/stoplight-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/errors/stoplight-error-codes.yml
+  href: https://artifacts.apis.io/stoplight/errors/stoplight-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/stoplight-error-codes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/hosts/stoplight-hosts.yml
+  href: https://artifacts.apis.io/stoplight/hosts/stoplight-hosts.yml
   title: ''
   type: Hosts
   url: hosts/stoplight-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/vendors/stoplight-vendors.yml
+  href: https://artifacts.apis.io/stoplight/vendors/stoplight-vendors.yml
   title: ''
   type: Vendors
   url: vendors/stoplight-vendors.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/vendor-facets/stoplight-vendor-facets.yml
+  href: https://artifacts.apis.io/stoplight/vendor-facets/stoplight-vendor-facets.yml
   title: ''
   type: VendorFacets
   url: vendor-facets/stoplight-vendor-facets.yml
@@ -159,7 +161,7 @@ common:
   type: License
   url: https://github.com/stoplightio/prism/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/security/stoplight-domain-security.yml
+  href: https://artifacts.apis.io/stoplight/security/stoplight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stoplight-domain-security.yml
@@ -260,77 +262,77 @@ common:
   type: ParentCompany
   url: https://smartbear.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/openapi/_original/stoplight-platform-v1-openapi.yml
+  href: https://artifacts.apis.io/stoplight/openapi/_original/stoplight-platform-v1-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/stoplight-platform-v1-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/overlays/stoplight-platform-v1-overlay.yaml
+  href: https://artifacts.apis.io/stoplight/overlays/stoplight-platform-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stoplight-platform-v1-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/authentication/stoplight-authentication.yml
+  href: https://artifacts.apis.io/stoplight/authentication/stoplight-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stoplight-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/errors/stoplight-problem-types.yml
+  href: https://artifacts.apis.io/stoplight/errors/stoplight-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/stoplight-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/errors/stoplight-error-codes.yml
+  href: https://artifacts.apis.io/stoplight/errors/stoplight-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/stoplight-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/conventions/stoplight-conventions.yml
+  href: https://artifacts.apis.io/stoplight/conventions/stoplight-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stoplight-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/data-model/stoplight-data-model.yml
+  href: https://artifacts.apis.io/stoplight/data-model/stoplight-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stoplight-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/packages/stoplight-packages.yml
+  href: https://artifacts.apis.io/stoplight/packages/stoplight-packages.yml
   title: ''
   type: Packages
   url: packages/stoplight-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/packages/stoplight-packages.yml
+  href: https://artifacts.apis.io/stoplight/packages/stoplight-packages.yml
   title: ''
   type: SDKs
   url: packages/stoplight-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/cli/stoplight-cli.yml
+  href: https://artifacts.apis.io/stoplight/cli/stoplight-cli.yml
   title: ''
   type: CLI
   url: cli/stoplight-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/components/stoplight-components.yml
+  href: https://artifacts.apis.io/stoplight/components/stoplight-components.yml
   title: ''
   type: Components
   url: components/stoplight-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/sandbox/stoplight-sandbox.yml
+  href: https://artifacts.apis.io/stoplight/sandbox/stoplight-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/stoplight-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/lifecycle/stoplight-lifecycle.yml
+  href: https://artifacts.apis.io/stoplight/lifecycle/stoplight-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stoplight-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/changelog/stoplight-changelog.yml
+  href: https://artifacts.apis.io/stoplight/changelog/stoplight-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/stoplight-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/conformance/stoplight-conformance.yml
+  href: https://artifacts.apis.io/stoplight/conformance/stoplight-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stoplight-conformance.yml
@@ -339,57 +341,57 @@ common:
   type: Compliance
   url: https://smartbear.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/security/stoplight-trust-center.yml
+  href: https://artifacts.apis.io/stoplight/security/stoplight-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/stoplight-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/security/stoplight-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/stoplight/security/stoplight-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stoplight-vulnerability-disclosure.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/plans/stoplight-plans-pricing.yml
+  href: https://artifacts.apis.io/stoplight/plans/stoplight-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stoplight-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/rate-limits/stoplight-rate-limits.yml
+  href: https://artifacts.apis.io/stoplight/rate-limits/stoplight-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stoplight-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/finops/stoplight-finops.yml
+  href: https://artifacts.apis.io/stoplight/finops/stoplight-finops.yml
   title: ''
   type: FinOps
   url: finops/stoplight-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/vocabulary/stoplight-vocabulary.yml
+  href: https://artifacts.apis.io/stoplight/vocabulary/stoplight-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/stoplight-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/rules/stoplight-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/stoplight/rules/stoplight-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/stoplight-jsonschema-spectral-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/json-schema/stoplight-spectral-ruleset-schema.json
+  href: https://artifacts.apis.io/stoplight/json-schema/stoplight-spectral-ruleset-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/stoplight-spectral-ruleset-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/json-structure/stoplight-spectral-ruleset-structure.json
+  href: https://artifacts.apis.io/stoplight/json-structure/stoplight-spectral-ruleset-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/stoplight-spectral-ruleset-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/json-ld/stoplight-context.jsonld
+  href: https://artifacts.apis.io/stoplight/json-ld/stoplight-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/stoplight-context.jsonld
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/stoplight/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -400,13 +402,13 @@ common:
 created: '2026-03-03'
 description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism (mock server), Spectral (JSON/YAML linter), and Elements (documentation components). Acquired by SmartBear in 2023, Stoplight is now positioned within SmartBear's API Hub solution group alongside SwaggerHub, with Spectral, Prism, and Elements progressively integrated into the unified API Hub experience. The platform supports OpenAPI v3.1, v3.0, v2.0, Arazzo v1.0, and AsyncAPI v2.x, with integrations for GitHub, GitLab, Bitbucket, and Azure DevOps. The Stoplight status page now redirects to stoplight.status.smartbear.com, confirming the operational consolidation under SmartBear.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Stoplight Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: workspace (billed annually)
+  service_category: ''
   slug: stoplight-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stoplight.png
 json_schemas:
 - name: Spectral Ruleset
@@ -435,9 +437,12 @@ overview: 'Stoplight publishes 7 API contracts indexed on the [APIs.io](https://
   Stoplight''s developer surface includes developer portal, documentation, pricing, engineering blog, support, signup flow, getting-started guide, and 62 more developer resources.'
 plans:
 - name: Stoplight Plans Pricing
-  plan_count: 5
+  plan_count: 8
   slug: stoplight-plans-pricing
-random_paper: 0
+- name: Stoplight Price Estimates
+  plan_count: 0
+  slug: stoplight-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Stoplight Rate Limits
@@ -504,26 +509,23 @@ rules:
   slug: stoplight-style-guides-rulebook-series-spectral-rules
 score:
   band: exemplar
-  composite: 74.8
+  composite: 76.5
   coverage:
     artifact_dirs: 34
-    catalog_earned: 74.5
+    catalog_earned: 77.5
     catalog_earned_first_party: 30.0
-    catalog_gap: 40.5
+    catalog_gap: 37.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 86.4
     contract_quality: 55.6
     developer_ergonomics: 80.4
-    discoverability: 65.2
-    operational_transparency: 52.6
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 71.8
+    discoverability: 58.9
+    operational_transparency: 55.3
+  previous_composite: 74.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -544,13 +546,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/screenshots/stoplight-2026-06-20T194601.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stoplight/stoplight-2026-06-20T194601.png
 security:
 - kind: authentication
   name: Stoplight Authentication
@@ -568,6 +571,12 @@ security:
   name: Stoplight Trust Center
   slug: stoplight-trust-center
   summary_line: SOC 2, ISO/IEC 27001, NIST CSF
+skill_count: 2
+skills:
+- name: stoplight-export-api-description
+  slug: stoplight-export-api-description
+- name: stoplight-publish-api-docs
+  slug: stoplight-publish-api-docs
 slug: stoplight
 tags:
 - API Design
@@ -581,5 +590,6 @@ tags:
 - OpenAPI
 - SmartBear API Hub
 - Style Guides
+- Documentation
 website: https://stoplight.io/
 ---

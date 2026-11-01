@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.6
-  scored_at: '2026-10-17'
+  score: 6.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Syncron provides aftermarket software APIs for OEMs, covering inventory, pricing, warranty and service parts management.
@@ -36,17 +38,17 @@ common:
   type: Compliance
   url: https://trust.syncron.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/syncron/refs/heads/main/well-known/syncron-well-known.yml
+  href: https://artifacts.apis.io/syncron/well-known/syncron-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/syncron-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syncron/refs/heads/main/hosts/syncron-hosts.yml
+  href: https://artifacts.apis.io/syncron/hosts/syncron-hosts.yml
   title: ''
   type: Hosts
   url: hosts/syncron-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syncron/refs/heads/main/vendors/syncron-vendors.yml
+  href: https://artifacts.apis.io/syncron/vendors/syncron-vendors.yml
   title: ''
   type: Vendors
   url: vendors/syncron-vendors.yml
@@ -63,12 +65,12 @@ common:
   type: Leadership
   url: https://www.syncron.com/about/leadership
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syncron/refs/heads/main/security/syncron-trust-center.yml
+  href: https://artifacts.apis.io/syncron/security/syncron-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/syncron-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syncron/refs/heads/main/security/syncron-domain-security.yml
+  href: https://artifacts.apis.io/syncron/security/syncron-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/syncron-domain-security.yml
@@ -124,7 +126,7 @@ overview: 'Syncron is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Syncron''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 11 more developer resources.'
-random_paper: 10
+random_paper: 12
 score:
   band: emerging
   composite: 24.9
@@ -135,6 +137,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
@@ -142,6 +145,7 @@ score:
     developer_ergonomics: 45.2
     discoverability: 58.9
     operational_transparency: 0.0
+  previous_composite: 24.9
   provenance:
     mcp: unknown
   regulatory:
@@ -150,8 +154,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

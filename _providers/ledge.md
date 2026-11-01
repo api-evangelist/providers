@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.9
-  scored_at: '2026-10-17'
+  score: 35.6
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.goledge.io
@@ -46,11 +48,8 @@ apis:
   description: Transactions, their matches, and their reconciliation status.
   name: Ledge Transactions API
   slug: ledge-transactions-api
-artifact_total: 9
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ledge Sources API
   slug: open-ledge-sources-api
@@ -58,8 +57,17 @@ collections:
   name: Ledge Sources Transactions API
   slug: open-ledge-transactions-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/ledge/plans/ledge-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ledge-plans-pricing.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ledge/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/overlays/ledge-api-overlay.yaml
+  href: https://artifacts.apis.io/ledge/overlays/ledge-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ledge-api-overlay.yaml
@@ -108,7 +116,7 @@ common:
   type: Security
   url: https://www.ledge.co/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/security/ledge-trust-center.yml
+  href: https://artifacts.apis.io/ledge/security/ledge-trust-center.yml
   title: ''
   type: Compliance
   url: security/ledge-trust-center.yml
@@ -133,77 +141,85 @@ common:
   type: ChangeLog
   url: https://docs.ledge.co/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/changelog/ledge-changelog.yml
+  href: https://artifacts.apis.io/ledge/changelog/ledge-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ledge-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/security/ledge-trust-center.yml
+  href: https://artifacts.apis.io/ledge/security/ledge-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ledge-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/security/ledge-domain-security.yml
+  href: https://artifacts.apis.io/ledge/security/ledge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ledge-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/scopes/ledge-scopes.yml
+  href: https://artifacts.apis.io/ledge/scopes/ledge-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ledge-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/authentication/ledge-authentication.yml
+  href: https://artifacts.apis.io/ledge/authentication/ledge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ledge-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/conventions/ledge-conventions.yml
+  href: https://artifacts.apis.io/ledge/conventions/ledge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ledge-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/conformance/ledge-conformance.yml
+  href: https://artifacts.apis.io/ledge/conformance/ledge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ledge-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/errors/ledge-problem-types.yml
+  href: https://artifacts.apis.io/ledge/errors/ledge-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ledge-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/lifecycle/ledge-lifecycle.yml
+  href: https://artifacts.apis.io/ledge/lifecycle/ledge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ledge-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/data-model/ledge-data-model.yml
+  href: https://artifacts.apis.io/ledge/data-model/ledge-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ledge-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/mcp/ledge-mcp.yml
+  href: https://artifacts.apis.io/ledge/mcp/ledge-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ledge-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/well-known/ledge-well-known.yml
+  href: https://artifacts.apis.io/ledge/well-known/ledge-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ledge-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/llms/ledge-llms.txt
+  href: https://artifacts.apis.io/ledge/llms/ledge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ledge-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ledge/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'Ledge is an AI-powered close management, reconciliation and payment-operations platform for finance teams. It centralizes transaction and payment data from a company''s entire stack — banks, payment service providers, ERPs, billing systems, data warehouses and file feeds — and automates the work on top of it: multiway transaction matching, account and payment reconciliation, automated cash application, flux analysis, working papers, and journal entries posted back to the ERP with review and approval built in. Its Agent Studio lets teams build AI agents that execute close-checklist tasks, with human-in-the-loop review, rationale, and a queryable audit trail. Ledge exposes a REST API over its Sources and Transactions data, authorized with OAuth 2.0 client credentials. Founded in 2022, the company raised a $9M seed round led by NEA with participation from Vertex Ventures, FJ Labs and Picus Capital.'
+finops:
+- has_sources: true
+  method: derived
+  name: Ledge Finops
+  primary_unit: ''
+  service_category: ''
+  slug: ledge-finops
+  template: true
 image: https://cdn.prod.website-files.com/63aadf1c20f6a6eb95024394/68df18eebbbc304be738307c_Ledge%20%7C%20put%20your%20close%20on%20ait-pilot%20with%20a%20team%20of%20AI%20agents.png
 layout: provider
 modified: '2026-07-19'
@@ -213,8 +229,12 @@ network: true
 overview: 'Ledge is listed with 2 APIs on the [APIs.io](https://apis.io/) network: Sources API and Transactions API. Tagged areas include Company, Fintech, Accounting, Reconciliation, and Financial Close.
 
 
-  Ledge''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 25 more developer resources.'
-random_paper: 7
+  Ledge''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 27 more developer resources.'
+plans:
+- name: Ledge Plans Pricing
+  plan_count: 3
+  slug: ledge-plans-pricing
+random_paper: 9
 scopes:
 - name: Ledge Scopes
   scope_count: 0
@@ -222,23 +242,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.9
+  composite: 51.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.6
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 17.2
-    developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 42.8
+    contract_quality: 14.5
+    developer_ergonomics: 60.1
+    discoverability: 66.1
+    operational_transparency: 47.4
+  previous_composite: 44.9
   provenance:
     conformance: first-party
     contracts:
@@ -258,13 +278,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/screenshots/ledge-2026-07-25T224813.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ledge/ledge-2026-07-25T224813.png
 security:
 - kind: authentication
   name: Ledge Authentication
@@ -278,6 +299,12 @@ security:
   name: Ledge Trust Center
   slug: ledge-trust-center
   summary_line: SOC 1, SOC 2, ISO 42001, GDPR
+skill_count: 2
+skills:
+- name: Audit Ledge source freshness and ingestion health
+  slug: ledge-audit-source-freshness
+- name: Find and investigate unreconciled Ledge transactions
+  slug: ledge-find-unreconciled-transactions
 slug: ledge
 tags:
 - Company

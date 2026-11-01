@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Every Modelbit deployment is exposed as a versioned REST inference endpoint. POST an inference request (single or batch) to the deployment URL and receive predictions; access can be gated with API key
@@ -71,47 +73,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/modelbit
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/modelbit/refs/heads/main/packages/modelbit-packages.yml
+  href: https://artifacts.apis.io/modelbit/packages/modelbit-packages.yml
   title: ''
   type: Packages
   url: packages/modelbit-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/modelbit/refs/heads/main/packages/modelbit-packages.yml
+  href: https://artifacts.apis.io/modelbit/packages/modelbit-packages.yml
   title: ''
   type: SDKs
   url: packages/modelbit-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modelbit/refs/heads/main/authentication/modelbit-authentication.yml
+  href: https://artifacts.apis.io/modelbit/authentication/modelbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/modelbit-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modelbit/refs/heads/main/conventions/modelbit-conventions.yml
+  href: https://artifacts.apis.io/modelbit/conventions/modelbit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/modelbit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modelbit/refs/heads/main/asyncapi/modelbit-webhooks.yml
+  href: https://artifacts.apis.io/modelbit/asyncapi/modelbit-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/modelbit-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modelbit/refs/heads/main/lifecycle/modelbit-lifecycle.yml
+  href: https://artifacts.apis.io/modelbit/lifecycle/modelbit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/modelbit-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/modelbit/refs/heads/main/changelog/modelbit-changelog.yml
+  href: https://artifacts.apis.io/modelbit/changelog/modelbit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/modelbit-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modelbit/refs/heads/main/llms/modelbit-llms.txt
+  href: https://artifacts.apis.io/modelbit/llms/modelbit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/modelbit-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modelbit/refs/heads/main/security/modelbit-domain-security.yml
+  href: https://artifacts.apis.io/modelbit/security/modelbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/modelbit-domain-security.yml
@@ -130,12 +132,12 @@ overview: 'Modelbit is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Modelbit''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, changelog, and 9 more developer resources.'
-random_paper: 12
+random_paper: 8
 score:
   band: thin
-  composite: 27.8
+  composite: 31.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -143,21 +145,21 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 33.3
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 27.8
+    developer_ergonomics: 47.6
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 31.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -50,90 +52,90 @@ apis:
 - description: The read-only storefront endpoints iZotope documents for agents in its own llms.txt — product and collection JSON, product pages by handle, search, and the sitemap. No authentication, no key. Machine-
   name: iZotope Storefront Product JSON
   slug: izotope-storefront-product-json
-artifact_total: 9
+artifact_total: 11
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/security/izotope-domain-security.yml
+  href: https://artifacts.apis.io/izotope/security/izotope-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/izotope-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/mcp/izotope-mcp.yml
+  href: https://artifacts.apis.io/izotope/mcp/izotope-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/izotope-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/llms/izotope-llms.txt
+  href: https://artifacts.apis.io/izotope/llms/izotope-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/izotope-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/well-known/izotope-well-known.yml
+  href: https://artifacts.apis.io/izotope/well-known/izotope-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/izotope-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/authentication/izotope-authentication.yml
+  href: https://artifacts.apis.io/izotope/authentication/izotope-authentication.yml
   title: ''
   type: Authentication
   url: authentication/izotope-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/scopes/izotope-scopes.yml
+  href: https://artifacts.apis.io/izotope/scopes/izotope-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/izotope-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/conventions/izotope-conventions.yml
+  href: https://artifacts.apis.io/izotope/conventions/izotope-conventions.yml
   title: ''
   type: Conventions
   url: conventions/izotope-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/conventions/izotope-conventions.yml
+  href: https://artifacts.apis.io/izotope/conventions/izotope-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/izotope-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/errors/izotope-problem-types.yml
+  href: https://artifacts.apis.io/izotope/errors/izotope-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/izotope-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/rate-limits/izotope-rate-limits.yml
+  href: https://artifacts.apis.io/izotope/rate-limits/izotope-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/izotope-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/plans/izotope-plans-pricing.yml
+  href: https://artifacts.apis.io/izotope/plans/izotope-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/izotope-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/lifecycle/izotope-lifecycle.yml
+  href: https://artifacts.apis.io/izotope/lifecycle/izotope-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/izotope-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/conformance/izotope-conformance.yml
+  href: https://artifacts.apis.io/izotope/conformance/izotope-conformance.yml
   title: ''
   type: Conformance
   url: conformance/izotope-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/data-model/izotope-data-model.yml
+  href: https://artifacts.apis.io/izotope/data-model/izotope-data-model.yml
   title: ''
   type: DataModel
   url: data-model/izotope-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/agentic-access/izotope-agentic-access.yml
+  href: https://artifacts.apis.io/izotope/agentic-access/izotope-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/izotope-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/izotope/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/packages/izotope-packages.yml
+  href: https://artifacts.apis.io/izotope/packages/izotope-packages.yml
   title: ''
   type: Packages
   url: packages/izotope-packages.yml
@@ -251,7 +253,7 @@ plans:
 - name: Izotope Plans Pricing
   plan_count: 0
   slug: izotope-plans-pricing
-random_paper: 8
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Izotope Rate Limits
@@ -263,7 +265,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.8
+  composite: 29.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -277,9 +279,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 66.7
-    operational_transparency: 23.7
-  previous_composite: 29.8
+    discoverability: 56.7
+    operational_transparency: 26.3
+  previous_composite: 29.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -291,14 +293,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/screenshots/izotope-2026-08-07T170937.png
+screenshot: https://apis.io/screenshots/izotope/izotope-2026-08-07T170937.png
 security:
 - kind: authentication
   name: Izotope Authentication
@@ -308,6 +310,12 @@ security:
   name: Izotope Domain Security
   slug: izotope-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Buy an iZotope plugin on the buyer's behalf
+  slug: izotope-buy-a-plugin
+- name: Find and price iZotope plugins
+  slug: izotope-find-and-price-plugins
 slug: izotope
 tags:
 - Audio
@@ -317,7 +325,7 @@ tags:
 - Mastering
 - Audio Restoration
 - Audio Repair
-- Post Production
+- Post-Production
 - Plugins
 - VST
 - AudioUnit

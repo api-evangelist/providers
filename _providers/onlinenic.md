@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The OnlineNIC Reseller API (build 4.0.9) gives partners programmatic control of the OnlineNIC product catalogue. Twenty-six domain commands cover availability checking, registration, renewal, informat
@@ -43,7 +45,7 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/finops/onlinenic-finops.yml
+  href: https://artifacts.apis.io/onlinenic/finops/onlinenic-finops.yml
   title: ''
   type: FinOps
   url: finops/onlinenic-finops.yml
@@ -88,77 +90,77 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/onlinenic-inc-
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/packages/onlinenic-packages.yml
+  href: https://artifacts.apis.io/onlinenic/packages/onlinenic-packages.yml
   title: ''
   type: Packages
   url: packages/onlinenic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/packages/onlinenic-packages.yml
+  href: https://artifacts.apis.io/onlinenic/packages/onlinenic-packages.yml
   title: ''
   type: SDKs
   url: packages/onlinenic-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/authentication/onlinenic-authentication.yml
+  href: https://artifacts.apis.io/onlinenic/authentication/onlinenic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/onlinenic-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/conventions/onlinenic-conventions.yml
+  href: https://artifacts.apis.io/onlinenic/conventions/onlinenic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/onlinenic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/errors/onlinenic-error-codes.yml
+  href: https://artifacts.apis.io/onlinenic/errors/onlinenic-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/onlinenic-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/lifecycle/onlinenic-lifecycle.yml
+  href: https://artifacts.apis.io/onlinenic/lifecycle/onlinenic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/onlinenic-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/changelog/onlinenic-changelog.yml
+  href: https://artifacts.apis.io/onlinenic/changelog/onlinenic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/onlinenic-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/conformance/onlinenic-conformance.yml
+  href: https://artifacts.apis.io/onlinenic/conformance/onlinenic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/onlinenic-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/data-model/onlinenic-data-model.yml
+  href: https://artifacts.apis.io/onlinenic/data-model/onlinenic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/onlinenic-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/sandbox/onlinenic-sandbox.yml
+  href: https://artifacts.apis.io/onlinenic/sandbox/onlinenic-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/onlinenic-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/plans/onlinenic-plans-pricing.yml
+  href: https://artifacts.apis.io/onlinenic/plans/onlinenic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/onlinenic-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/rate-limits/onlinenic-rate-limits.yml
+  href: https://artifacts.apis.io/onlinenic/rate-limits/onlinenic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/onlinenic-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/llms/onlinenic-llms.txt
+  href: https://artifacts.apis.io/onlinenic/llms/onlinenic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/onlinenic-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/security/onlinenic-domain-security.yml
+  href: https://artifacts.apis.io/onlinenic/security/onlinenic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onlinenic-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/mcp/onlinenic-mcp.yml
+  href: https://artifacts.apis.io/onlinenic/mcp/onlinenic-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/onlinenic-mcp.yml
@@ -168,7 +170,7 @@ finops:
 - has_sources: false
   method: generated
   name: Onlinenic Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: onlinenic-finops
   template: true
@@ -186,7 +188,7 @@ plans:
 - name: Onlinenic Plans Pricing
   plan_count: 4
   slug: onlinenic-plans-pricing
-random_paper: 13
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Onlinenic Rate Limits
@@ -195,13 +197,13 @@ score:
   band: thin
   composite: 36.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 0.0
@@ -209,7 +211,7 @@ score:
     developer_ergonomics: 59.5
     discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 38.3
+  previous_composite: 36.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -219,14 +221,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/onlinenic/refs/heads/main/screenshots/onlinenic-2026-06-20T190720.png
+screenshot: https://apis.io/screenshots/onlinenic/onlinenic-2026-06-20T190720.png
 security:
 - kind: authentication
   name: Onlinenic Authentication

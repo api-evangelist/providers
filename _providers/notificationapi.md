@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: Identify and manage the users you notify.
   name: NotificationAPI Users API
   slug: notificationapi-users-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NotificationAPI REST In-App Inbox API
   slug: open-notificationapi-in-app-inbox-api
@@ -111,17 +110,17 @@ collections:
   slug: open-notificationapi
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/agentic-access/notificationapi-agentic-access.yml
+  href: https://artifacts.apis.io/notificationapi/agentic-access/notificationapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/notificationapi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/security/notificationapi-domain-security.yml
+  href: https://artifacts.apis.io/notificationapi/security/notificationapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/notificationapi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/authentication/notificationapi-authentication.yml
+  href: https://artifacts.apis.io/notificationapi/authentication/notificationapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/notificationapi-authentication.yml
@@ -146,17 +145,17 @@ common:
   type: Documentation
   url: https://docs.notificationapi.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/plans/notificationapi-plans-pricing.yml
+  href: https://artifacts.apis.io/notificationapi/plans/notificationapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/notificationapi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/rate-limits/notificationapi-rate-limits.yml
+  href: https://artifacts.apis.io/notificationapi/rate-limits/notificationapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/notificationapi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/finops/notificationapi-finops.yml
+  href: https://artifacts.apis.io/notificationapi/finops/notificationapi-finops.yml
   title: ''
   type: FinOps
   url: finops/notificationapi-finops.yml
@@ -191,7 +190,7 @@ rate_limits:
   slug: notificationapi-rate-limits
 score:
   band: thin
-  composite: 26.2
+  composite: 27.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 43.0
@@ -199,15 +198,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 50.8
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 34.6
+    operational_transparency: 13.2
+  previous_composite: 27.2
   provenance:
     agentic_access: derived
     contracts:
@@ -221,13 +220,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/screenshots/notificationapi-2026-08-07T185548.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/notificationapi/notificationapi-2026-08-07T185548.png
 security:
 - kind: authentication
   name: Notificationapi Authentication

@@ -25,21 +25,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-17'
+  score: 9.6
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ux-magic-ai/refs/heads/main/plans/ux-magic-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/ux-magic-ai/plans/ux-magic-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ux-magic-ai-plans-pricing.yml
@@ -92,32 +94,32 @@ common:
   type: Login
   url: https://uxmagic.ai/login
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ux-magic-ai/refs/heads/main/mcp/ux-magic-ai-mcp.yml
+  href: https://artifacts.apis.io/ux-magic-ai/mcp/ux-magic-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ux-magic-ai-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ux-magic-ai/refs/heads/main/packages/ux-magic-ai-packages.yml
+  href: https://artifacts.apis.io/ux-magic-ai/packages/ux-magic-ai-packages.yml
   title: ''
   type: Packages
   url: packages/ux-magic-ai-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ux-magic-ai/refs/heads/main/components/ux-magic-ai-components.yml
+  href: https://artifacts.apis.io/ux-magic-ai/components/ux-magic-ai-components.yml
   title: ''
   type: Components
   url: components/ux-magic-ai-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ux-magic-ai/refs/heads/main/llms/ux-magic-ai-llms.txt
+  href: https://artifacts.apis.io/ux-magic-ai/llms/ux-magic-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ux-magic-ai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ux-magic-ai/refs/heads/main/authentication/ux-magic-ai-authentication.yml
+  href: https://artifacts.apis.io/ux-magic-ai/authentication/ux-magic-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ux-magic-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ux-magic-ai/refs/heads/main/security/ux-magic-ai-domain-security.yml
+  href: https://artifacts.apis.io/ux-magic-ai/security/ux-magic-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ux-magic-ai-domain-security.yml
@@ -141,26 +143,26 @@ plans:
 - name: Ux Magic Ai Plans Pricing
   plan_count: 4
   slug: ux-magic-ai-plans-pricing
-random_paper: 8
+random_paper: 10
 score:
   band: thin
-  composite: 30.1
+  composite: 30.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
-    access_clarity: 69.7
+    access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 58.3
-    operational_transparency: 2.6
-  previous_composite: 23.7
+    discoverability: 48.3
+    operational_transparency: 5.3
+  previous_composite: 30.8
   provenance:
     mcp: first-party
   regulatory:
@@ -169,14 +171,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ux-magic-ai/refs/heads/main/screenshots/ux-magic-ai-2026-09-02T165253.png
+screenshot: https://apis.io/screenshots/ux-magic-ai/ux-magic-ai-2026-09-02T165253.png
 security:
 - kind: authentication
   name: Ux Magic Ai Authentication

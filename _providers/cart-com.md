@@ -14,7 +14,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 29.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 0
@@ -402,7 +404,7 @@ apis:
   description: The Wishlists API from Cart.com — 2 operation(s) for wishlists.
   name: Cart.com Wishlists API
   slug: cart-com-wishlists-api
-artifact_total: 77
+artifact_total: 81
 asyncapis:
 - description: ''
   name: Cart Com Online Store Webhooks
@@ -413,22 +415,22 @@ common:
   type: BlogRSS
   url: https://cart.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/capabilities/cart-com-capability-edges.yml
+  href: https://artifacts.apis.io/cart-com/capabilities/cart-com-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cart-com-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/agentic-access/cart-com-agentic-access.yml
+  href: https://artifacts.apis.io/cart-com/agentic-access/cart-com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cart-com-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/security/cart-com-domain-security.yml
+  href: https://artifacts.apis.io/cart-com/security/cart-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cart-com-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/authentication/cart-com-authentication.yml
+  href: https://artifacts.apis.io/cart-com/authentication/cart-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cart-com-authentication.yml
@@ -489,92 +491,92 @@ common:
   type: StatusPage
   url: https://status.cart.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/scopes/cart-com-scopes.yml
+  href: https://artifacts.apis.io/cart-com/scopes/cart-com-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cart-com-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/conventions/cart-com-conventions.yml
+  href: https://artifacts.apis.io/cart-com/conventions/cart-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cart-com-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/errors/cart-com-problem-types.yml
+  href: https://artifacts.apis.io/cart-com/errors/cart-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cart-com-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/rate-limits/cart-com-rate-limits.yml
+  href: https://artifacts.apis.io/cart-com/rate-limits/cart-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cart-com-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/lifecycle/cart-com-lifecycle.yml
+  href: https://artifacts.apis.io/cart-com/lifecycle/cart-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cart-com-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/lifecycle/cart-com-lifecycle.yml
+  href: https://artifacts.apis.io/cart-com/lifecycle/cart-com-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/cart-com-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/conformance/cart-com-conformance.yml
+  href: https://artifacts.apis.io/cart-com/conformance/cart-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cart-com-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/data-model/cart-com-data-model.yml
+  href: https://artifacts.apis.io/cart-com/data-model/cart-com-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cart-com-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/packages/cart-com-packages.yml
+  href: https://artifacts.apis.io/cart-com/packages/cart-com-packages.yml
   title: ''
   type: Packages
   url: packages/cart-com-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/examples/cart-com-code-samples.yml
+  href: https://artifacts.apis.io/cart-com/examples/cart-com-code-samples.yml
   title: ''
   type: Examples
   url: examples/cart-com-code-samples.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/components/cart-com-components.yml
+  href: https://artifacts.apis.io/cart-com/components/cart-com-components.yml
   title: ''
   type: Components
   url: components/cart-com-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/sandbox/cart-com-sandbox.yml
+  href: https://artifacts.apis.io/cart-com/sandbox/cart-com-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cart-com-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/well-known/cart-com-well-known.yml
+  href: https://artifacts.apis.io/cart-com/well-known/cart-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cart-com-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/llms/cart-com-llms.txt
+  href: https://artifacts.apis.io/cart-com/llms/cart-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cart-com-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/overlays/cart-com-online-store-overlay.yaml
+  href: https://artifacts.apis.io/cart-com/overlays/cart-com-online-store-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cart-com-online-store-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/mcp/cart-com-mcp.yml
+  href: https://artifacts.apis.io/cart-com/mcp/cart-com-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cart-com-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cart-com/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/asyncapi/cart-com-online-store-webhooks.yml
+  href: https://artifacts.apis.io/cart-com/asyncapi/cart-com-online-store-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cart-com-online-store-webhooks.yml
@@ -593,7 +595,7 @@ overview: 'Cart.com publishes 71 API contracts indexed on the [APIs.io](https://
 
 
   Cart.com''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 30 more developer resources.'
-random_paper: 20
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Cart Com Rate Limits
@@ -604,8 +606,8 @@ scopes:
   slug: cart-com-scopes
   summary_line: 17 scopes · authorizationCode
 score:
-  band: developing
-  composite: 51.8
+  band: strong
+  composite: 55.4
   coverage:
     artifact_dirs: 27
     catalog_earned: 49.0
@@ -615,13 +617,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 60.8
-    developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 81.6
-  previous_composite: 51.8
+    contract_quality: 57.5
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 84.2
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -638,13 +640,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/screenshots/cart-com-2026-08-07T163035.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cart-com/cart-com-2026-08-07T163035.png
 security:
 - kind: authentication
   name: Cart Com Authentication
@@ -654,6 +657,16 @@ security:
   name: Cart Com Domain Security
   slug: cart-com-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: Create and fulfill an order on a Cart.com Online Store
+  slug: cart-com-create-and-fulfill-order
+- name: Manage customers and B2B profiles on a Cart.com Online Store
+  slug: cart-com-manage-customers
+- name: Subscribe to Cart.com Online Store webhooks
+  slug: cart-com-subscribe-to-webhooks
+- name: Sync a product catalog into a Cart.com Online Store
+  slug: cart-com-sync-catalog
 slug: cart-com
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for OpenComputer — create and manage persistent cloud sandbox VMs, run commands and files inside them, checkpoint/fork, expose preview URLs, run durable agent sessions, and register signed we
@@ -82,52 +84,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/diggerhq
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/authentication/digger-authentication.yml
+  href: https://artifacts.apis.io/digger/authentication/digger-authentication.yml
   title: ''
   type: Authentication
   url: authentication/digger-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/packages/digger-packages.yml
+  href: https://artifacts.apis.io/digger/packages/digger-packages.yml
   title: ''
   type: Packages
   url: packages/digger-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/packages/digger-packages.yml
+  href: https://artifacts.apis.io/digger/packages/digger-packages.yml
   title: ''
   type: SDKs
   url: packages/digger-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/cli/digger-cli.yml
+  href: https://artifacts.apis.io/digger/cli/digger-cli.yml
   title: ''
   type: CLI
   url: cli/digger-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/llms/digger-llms.txt
+  href: https://artifacts.apis.io/digger/llms/digger-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/digger-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/conventions/digger-conventions.yml
+  href: https://artifacts.apis.io/digger/conventions/digger-conventions.yml
   title: ''
   type: Conventions
   url: conventions/digger-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/errors/digger-problem-types.yml
+  href: https://artifacts.apis.io/digger/errors/digger-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/digger-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/asyncapi/digger-opencomputer-webhooks.yml
+  href: https://artifacts.apis.io/digger/asyncapi/digger-opencomputer-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/digger-opencomputer-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/changelog/digger-changelog.yml
+  href: https://artifacts.apis.io/digger/changelog/digger-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/digger-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/conformance/digger-conformance.yml
+  href: https://artifacts.apis.io/digger/conformance/digger-conformance.yml
   title: ''
   type: Conformance
   url: conformance/digger-conformance.yml
@@ -136,7 +138,7 @@ common:
   type: Compliance
   url: https://docs.opentaco.dev/ce/features/fips-140
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/security/digger-domain-security.yml
+  href: https://artifacts.apis.io/digger/security/digger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/digger-domain-security.yml
@@ -155,26 +157,26 @@ overview: 'Digger is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Digger''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 14 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
-  band: thin
-  composite: 37.6
+  band: developing
+  composite: 42.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 61.9
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 37.5
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 42.0
   provenance:
     conformance: first-party
   regulatory:
@@ -183,14 +185,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/screenshots/digger-2026-07-25T212000.png
+screenshot: https://apis.io/screenshots/digger/digger-2026-07-25T212000.png
 security:
 - kind: authentication
   name: Digger Authentication

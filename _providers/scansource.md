@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -79,11 +81,8 @@ apis:
   description: Order tracking and delivery information
   name: ScanSource Tracking API
   slug: scansource-tracking-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ScanSource Invoice Availability API
   slug: open-scansource-availability-api
@@ -116,17 +115,17 @@ collections:
   slug: open-scansource-tracking-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/plans/scansource-plans-pricing.yml
+  href: https://artifacts.apis.io/scansource/plans/scansource-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/scansource-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/rate-limits/scansource-rate-limits.yml
+  href: https://artifacts.apis.io/scansource/rate-limits/scansource-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/scansource-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/finops/scansource-finops.yml
+  href: https://artifacts.apis.io/scansource/finops/scansource-finops.yml
   title: ''
   type: FinOps
   url: finops/scansource-finops.yml
@@ -135,17 +134,17 @@ common:
   type: Blog
   url: https://www.scansource.com/blogs
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/agentic-access/scansource-agentic-access.yml
+  href: https://artifacts.apis.io/scansource/agentic-access/scansource-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/scansource-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/security/scansource-domain-security.yml
+  href: https://artifacts.apis.io/scansource/security/scansource-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/scansource-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/authentication/scansource-authentication.yml
+  href: https://artifacts.apis.io/scansource/authentication/scansource-authentication.yml
   title: ''
   type: Authentication
   url: authentication/scansource-authentication.yml
@@ -174,22 +173,22 @@ common:
   type: PartnerPortal
   url: https://partnerdevportal.scansource.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/rules/scansource-rules.yml
+  href: https://artifacts.apis.io/scansource/rules/scansource-rules.yml
   title: ''
   type: SpectralRules
   url: rules/scansource-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/json-structure/scansource-product-structure.json
+  href: https://artifacts.apis.io/scansource/json-structure/scansource-product-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/scansource-product-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/json-ld/scansource-context.jsonld
+  href: https://artifacts.apis.io/scansource/json-ld/scansource-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/scansource-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/vocabulary/scansource-vocabulary.yml
+  href: https://artifacts.apis.io/scansource/vocabulary/scansource-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/scansource-vocabulary.yml
@@ -259,7 +258,7 @@ press:
 - date: ''
   title: ScanSource Q3 Earnings Call Highlights
   url: https://www.theglobeandmail.com/investing/markets/stocks/SCSC/pressreleases/1832981/scansource-q3-earnings-call-highlights/
-random_paper: 0
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Scansource Rate Limits
@@ -289,7 +288,7 @@ rules:
   slug: scansource-rules
 score:
   band: thin
-  composite: 36.3
+  composite: 37.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 71.8
@@ -297,7 +296,7 @@ score:
     catalog_gap: 43.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 23.5
@@ -305,7 +304,7 @@ score:
     developer_ergonomics: 45.2
     discoverability: 71.4
     operational_transparency: 5.3
-  previous_composite: 37.4
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -319,13 +318,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/screenshots/scansource-2026-06-20T193517.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/scansource/scansource-2026-06-20T193517.png
 security:
 - kind: authentication
   name: Scansource Authentication

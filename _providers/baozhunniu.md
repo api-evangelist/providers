@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/baozhunniu/refs/heads/main/hosts/baozhunniu-hosts.yml
+  href: https://artifacts.apis.io/baozhunniu/hosts/baozhunniu-hosts.yml
   title: ''
   type: Hosts
   url: hosts/baozhunniu-hosts.yml
@@ -45,7 +47,7 @@ common:
   type: Newsroom
   url: https://www.bznins.com/news/list
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/baozhunniu/refs/heads/main/security/baozhunniu-domain-security.yml
+  href: https://artifacts.apis.io/baozhunniu/security/baozhunniu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/baozhunniu-domain-security.yml
@@ -72,7 +74,7 @@ overview: 'Baozhunniu is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Baozhunniu''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 13
+random_paper: 11
 score:
   band: minimal
   composite: 8.2
@@ -105,14 +107,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 8.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/baozhunniu/refs/heads/main/screenshots/baozhunniu-2026-10-11T101753.png
+screenshot: https://apis.io/screenshots/baozhunniu/baozhunniu-2026-10-11T101753.png
 security:
 - kind: domain-security
   name: Baozhunniu Domain Security

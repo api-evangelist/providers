@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 common:
@@ -53,12 +55,12 @@ name: FirstFuel Software
 nav: Providers
 network: true
 overview: FirstFuel Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Analytics, Utilities, and Energy Efficiency.
-random_paper: 8
+random_paper: 4
 score:
   band: minimal
   composite: 2.8
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -72,12 +74,6 @@ score:
     developer_ergonomics: 0.0
     discoverability: 48.2
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 2.8
   regulatory:
     applies: true
@@ -85,14 +81,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/firstfuel-software/refs/heads/main/screenshots/firstfuel-software-2026-07-25T214616.png
+screenshot: https://apis.io/screenshots/firstfuel-software/firstfuel-software-2026-07-25T214616.png
 slug: firstfuel-software
 tags:
 - Company

@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Domob's mobile ad exchange, supporting RTB, PMP, PD and PDB buying. Listed on the Domob developer platform's API docking page with a docking document updated 2025-06-13, but that document is hosted on
@@ -48,14 +50,14 @@ apis:
   description: Media revenue and delivery statistics for a publisher's ad slots.
   name: domob Reporting API
   slug: domob-reporting-api
-artifact_total: 7
+artifact_total: 9
 collections:
 - collection_type: open
   name: Domob Media Data API
   slug: open-domob-media-data-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/overlays/domob-media-data-api-overlay.yaml
+  href: https://artifacts.apis.io/domob/overlays/domob-media-data-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/domob-media-data-api-overlay.yaml
@@ -112,93 +114,101 @@ common:
   type: PrivacyPolicy
   url: https://www.domob.cn/article?id=advertiserPlatformPrivacyPolicy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/packages/domob-packages.yml
+  href: https://artifacts.apis.io/domob/packages/domob-packages.yml
   title: ''
   type: Packages
   url: packages/domob-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/packages/domob-packages.yml
+  href: https://artifacts.apis.io/domob/packages/domob-packages.yml
   title: ''
   type: SDKs
   url: packages/domob-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/authentication/domob-authentication.yml
+  href: https://artifacts.apis.io/domob/authentication/domob-authentication.yml
   title: ''
   type: Authentication
   url: authentication/domob-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/errors/domob-problem-types.yml
+  href: https://artifacts.apis.io/domob/errors/domob-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/domob-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/conventions/domob-conventions.yml
+  href: https://artifacts.apis.io/domob/conventions/domob-conventions.yml
   title: ''
   type: Conventions
   url: conventions/domob-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/data-model/domob-data-model.yml
+  href: https://artifacts.apis.io/domob/data-model/domob-data-model.yml
   title: ''
   type: DataModel
   url: data-model/domob-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/lifecycle/domob-lifecycle.yml
+  href: https://artifacts.apis.io/domob/lifecycle/domob-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/domob-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/changelog/domob-changelog.yml
+  href: https://artifacts.apis.io/domob/changelog/domob-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/domob-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/sandbox/domob-sandbox.yml
+  href: https://artifacts.apis.io/domob/sandbox/domob-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/domob-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/plans/domob-plans-pricing.yml
+  href: https://artifacts.apis.io/domob/plans/domob-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/domob-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/rate-limits/domob-rate-limits.yml
+  href: https://artifacts.apis.io/domob/rate-limits/domob-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/domob-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/conformance/domob-conformance.yml
+  href: https://artifacts.apis.io/domob/conformance/domob-conformance.yml
   title: ''
   type: Conformance
   url: conformance/domob-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/llms/domob-llms.txt
+  href: https://artifacts.apis.io/domob/llms/domob-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/domob-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/mcp/domob-mcp.yml
+  href: https://artifacts.apis.io/domob/mcp/domob-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/domob-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/mcp/domob-tool-crosswalk.yml
+  href: https://artifacts.apis.io/domob/mcp/domob-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/domob-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/domob/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/security/domob-domain-security.yml
+  href: https://artifacts.apis.io/domob/security/domob-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/domob-domain-security.yml
 created: '2026-07-17'
 description: 'Domob (多盟) is a Beijing-based mobile intelligent marketing and advertising technology company founded in September 2010, positioned as one of China''s early smartphone advertising DSP and mobile ad-network platforms. It provides data-technology and content services spanning programmatic buying (DSP), the UGdesk user-growth platform, the BidMaster preferred buying platform, and the BlueNova traffic-monetization platform, alongside agency and short-video services partnered with ByteDance, Tencent, Kuaishou, Microsoft Advertising and Xiaohongshu. For developers and app publishers, Domob distributes first-party iOS and Android ad SDKs (banner, interstitial, splash, native and offerwall formats) plus Unity3D and Cocos2d-x game-engine plugins via its Domob-SDK and domob-inc GitHub accounts; publishers obtain a Publisher ID and Placement ID from the Domob platform to monetize apps. Its public API surface is narrow: one documented and live publisher reporting operation (the Media Data
   API on developer.domob.cn), an ad exchange at adx.domob.cn whose docking document sits behind a BlueFocus Feishu login, an undocumented "Domob Open API" gateway at open.domob.cn, and a retired Reporting API whose documentation is still published even though its host no longer resolves. No machine-readable specification is published on any host. In 2025 the Domob SDK passed CAICT dual-end (iOS/Android) security certification. This profile was surfaced as a portfolio company of Qiming Venture Partners and enriched from public sources.'
+finops:
+- has_sources: true
+  method: derived
+  name: Domob Finops
+  primary_unit: ''
+  service_category: ''
+  slug: domob-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/domob.png
 layout: provider
 modified: '2026-08-12'
@@ -220,22 +230,22 @@ rate_limits:
   slug: domob-rate-limits
 score:
   band: developing
-  composite: 43.2
+  composite: 45.6
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 53.3
-    developer_ergonomics: 69.6
-    discoverability: 73.2
-    operational_transparency: 18.4
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -243,7 +253,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 43.1
+  previous_composite: 45.6
   provenance:
     conformance: derived
     contracts:
@@ -259,13 +269,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/screenshots/domob-2026-07-25T212250.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/domob/domob-2026-07-25T212250.png
 security:
 - kind: authentication
   name: Domob Authentication
@@ -275,6 +286,10 @@ security:
   name: Domob Domain Security
   slug: domob-domain-security
   summary_line: TLSv1.2 · HSTS
+skill_count: 1
+skills:
+- name: domob-media-revenue-report
+  slug: domob-media-revenue-report
 slug: domob
 tags:
 - Company

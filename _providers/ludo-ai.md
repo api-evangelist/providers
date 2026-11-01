@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 32.6
-  scored_at: '2026-10-17'
+  score: 31.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 3
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 60
   slug: ludo-ai-agentic-access
   summary_line: 60 operations · 41 acting · 3 human-in-the-loop
-api_count: 4
+api_count: 2
 apis:
 - description: The Ludo.ai MCP Server exposes the platform's asset generation tools via the Model Context Protocol, allowing AI assistants like Claude and Cursor to generate game assets through natural language conv
   name: Ludo.ai MCP Server
@@ -121,11 +123,8 @@ apis:
   description: The Videos API from Ludo.ai — 5 operation(s) for videos.
   name: Ludo.ai Videos API
   slug: ludo-ai-videos-api
-artifact_total: 61
+artifact_total: 64
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ludo.ai REST 3D Models API
   slug: open-ludo-ai-3d-models-api
@@ -148,113 +147,118 @@ collections:
   name: Ludo.ai REST 3D Models Video API
   slug: open-ludo-ai-video-api
 common:
+- group: other
+  href: https://artifacts.apis.io/ludo-ai/capabilities/ludo-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ludo-ai-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/security/ludo-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ludo-ai/security/ludo-ai-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/ludo-ai-vulnerability-disclosure.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/mcp/ludo-ai-tool-crosswalk.yml
+  href: https://artifacts.apis.io/ludo-ai/mcp/ludo-ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ludo-ai-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/security/ludo-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ludo-ai/security/ludo-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ludo-ai-vulnerability-disclosure.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/finops/ludo-ai-finops.yml
+  href: https://artifacts.apis.io/ludo-ai/finops/ludo-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/ludo-ai-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/rate-limits/ludo-ai-rate-limits.yml
+  href: https://artifacts.apis.io/ludo-ai/rate-limits/ludo-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ludo-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/plans/ludo-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/ludo-ai/plans/ludo-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ludo-ai-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/rules/ludo-ai-rules.yml
+  href: https://artifacts.apis.io/ludo-ai/rules/ludo-ai-rules.yml
   title: ''
   type: Spectral
   url: rules/ludo-ai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/rules/ludo-ai-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/ludo-ai/rules/ludo-ai-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/ludo-ai-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/vocabulary/ludo-ai-vocabulary.yml
+  href: https://artifacts.apis.io/ludo-ai/vocabulary/ludo-ai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ludo-ai-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ludo-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/data-model/ludo-ai-data-model.yml
+  href: https://artifacts.apis.io/ludo-ai/data-model/ludo-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ludo-ai-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/cli/ludo-ai-cli.yml
+  href: https://artifacts.apis.io/ludo-ai/cli/ludo-ai-cli.yml
   title: ''
   type: CLI
   url: cli/ludo-ai-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/changelog/ludo-ai-changelog.yml
+  href: https://artifacts.apis.io/ludo-ai/changelog/ludo-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ludo-ai-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/errors/ludo-ai-problem-types.yml
+  href: https://artifacts.apis.io/ludo-ai/errors/ludo-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ludo-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/conformance/ludo-ai-conformance.yml
+  href: https://artifacts.apis.io/ludo-ai/conformance/ludo-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ludo-ai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/llms/ludo-ai-llms.txt
+  href: https://artifacts.apis.io/ludo-ai/llms/ludo-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ludo-ai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/well-known/ludo-ai-security.txt
+  href: https://artifacts.apis.io/ludo-ai/well-known/ludo-ai-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ludo-ai-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/well-known/ludo-ai-well-known.yml
+  href: https://artifacts.apis.io/ludo-ai/well-known/ludo-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ludo-ai-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/hosts/ludo-ai-hosts.yml
+  href: https://artifacts.apis.io/ludo-ai/hosts/ludo-ai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ludo-ai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/vendors/ludo-ai-vendors.yml
+  href: https://artifacts.apis.io/ludo-ai/vendors/ludo-ai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ludo-ai-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/packages/ludo-ai-packages.yml
+  href: https://artifacts.apis.io/ludo-ai/packages/ludo-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/ludo-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/packages/ludo-ai-packages.yml
+  href: https://artifacts.apis.io/ludo-ai/packages/ludo-ai-packages.yml
   title: ''
   type: Packages
   url: packages/ludo-ai-packages.yml
@@ -275,17 +279,17 @@ common:
   type: APIReference
   url: https://api.ludo.ai/api-documentation/openapi.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/agentic-access/ludo-ai-agentic-access.yml
+  href: https://artifacts.apis.io/ludo-ai/agentic-access/ludo-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ludo-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/security/ludo-ai-domain-security.yml
+  href: https://artifacts.apis.io/ludo-ai/security/ludo-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ludo-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/authentication/ludo-ai-authentication.yml
+  href: https://artifacts.apis.io/ludo-ai/authentication/ludo-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ludo-ai-authentication.yml
@@ -294,12 +298,12 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/ludoai
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/json-ld/ludo-ai-context.jsonld
+  href: https://artifacts.apis.io/ludo-ai/json-ld/ludo-ai-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/ludo-ai-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/json-schema/ludo-ai-game-asset-schema.json
+  href: https://artifacts.apis.io/ludo-ai/json-schema/ludo-ai-game-asset-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/ludo-ai-game-asset-schema.json
@@ -335,12 +339,12 @@ created: '2026-03-24'
 description: Ludo.ai is a game design hub that uses artificial intelligence to help developers generate production-ready game assets including images, 3D models, audio, and animations. The platform entered beta for its Model Context Protocol (MCP) integration, exposing its asset generation suite as a headless API that enables vibe coding where developers can trigger asset creation directly from AI assistants like Claude or Cursor.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Ludo Ai Finops
   primary_unit: ''
-  service_category: AI Infrastructure
+  service_category: ''
   slug: ludo-ai-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ludo-ai.png
 json_schemas:
 - name: AnimateSpriteKeyframesPayload
@@ -441,12 +445,15 @@ overview: 'Ludo.ai publishes 16 API contracts indexed on the [APIs.io](https://a
   The Ludo.ai catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ludo.ai''s developer surface includes CLI, changelog, pricing, API reference, authentication, developer portal, documentation, and 32 more developer resources.'
+  Ludo.ai''s developer surface includes CLI, changelog, pricing, API reference, authentication, developer portal, documentation, and 33 more developer resources.'
 plans:
 - name: Ludo Ai Plans Pricing
   plan_count: 2
   slug: ludo-ai-plans-pricing
-random_paper: 1
+- name: Ludo Ai Price Estimates
+  plan_count: 0
+  slug: ludo-ai-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 7
   name: Ludo Ai Rate Limits
@@ -477,31 +484,31 @@ rules:
   slug: ludo-ai-rules
 score:
   band: developing
-  composite: 51.5
+  composite: 52.2
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 70.8
+    artifact_dirs: 30
+    catalog_earned: 67.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 44.3
+    catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: -0.5
   facets:
-    access_clarity: 48.7
+    access_clarity: 55.3
     contract_governance: 22.0
-    contract_quality: 57.2
+    contract_quality: 56.5
     developer_ergonomics: 56.5
-    discoverability: 80.0
-    operational_transparency: 36.8
-  previous_composite: 52.5
+    discoverability: 65.0
+    operational_transparency: 39.5
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 42.9
+      callable: 18.2
       derived: 0
       marker_coverage: 0.0
-      total: 14
+      total: 33
     mcp: first-party
     skills: derived
   regulatory:
@@ -510,13 +517,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/screenshots/ludo-ai-2026-06-20T184746.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ludo-ai/ludo-ai-2026-06-20T184746.png
 security:
 - kind: authentication
   name: Ludo Ai Authentication
@@ -530,6 +538,14 @@ security:
   name: Ludo Ai Vulnerability Disclosure
   slug: ludo-ai-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: ludo-ai-animate-sprite
+  slug: ludo-ai-animate-sprite
+- name: ludo-ai-create-and-fetch-video
+  slug: ludo-ai-create-and-fetch-video
+- name: ludo-ai-generate-and-edit-image
+  slug: ludo-ai-generate-and-edit-image
 slug: ludo-ai
 tags:
 - Artificial Intelligence

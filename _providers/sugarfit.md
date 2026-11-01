@@ -1,0 +1,135 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 6.0
+  scored_at: '2026-10-31'
+api_count: 0
+artifact_total: 2
+common:
+- group: commercial
+  href: https://artifacts.apis.io/sugarfit/plans/sugarfit-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sugarfit-plans-pricing.yml
+- group: agent
+  href: https://artifacts.apis.io/sugarfit/llms/sugarfit-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/sugarfit-llms.txt
+- group: other
+  href: https://artifacts.apis.io/sugarfit/hosts/sugarfit-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/sugarfit-hosts.yml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://app.sugarfit.com/privacy?_gl=1*keppl4*_gcl_aw*R0NMLjE3NzEyMjM2MzIuQ2p3S0NBaUEtc1hNQmhBT0Vpd0FHR3c2TERSNmh1YWFnLUltMGc4Q01kcHhfYkFpNFJpTi14NEtoSlU4VGNLcnZ2ZEtwZHZVSEdnUEJSb0Nya1FRQXZEX0J3RQ..*_gcl_au*MTUxNzk1MDAxOC4xNzcwMjgwOTkz
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://home.sugarfit.com/pricing
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/sugarfit
+- group: auth
+  href: https://artifacts.apis.io/sugarfit/security/sugarfit-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/sugarfit-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://sugarfit.com
+coverage:
+  checked: '2026-10-24'
+  detail: The main website renders content via JavaScript, preventing machine-readable extraction of API specifications.
+  evidence:
+  - status: 200
+    url: https://www.sugarfit.com
+  reason: js-rendered-docs
+  state: unreadable
+created: '2026-10-24'
+description: Sugarfit provides doctor‑led, clinically designed programs for diabetes management and obesity treatment using GLP‑1 medication, continuous glucose monitoring, and personalized nutrition and fitness plans. The service targets individuals in India seeking medical supervision, coaching, and real‑time health data to lower blood sugar and lose weight.
+image: https://framerusercontent.com/images/p4bTe5KZKMEzXUpQ6VgudEt9vcs.jpg
+layout: provider
+modified: '2026-10-24'
+name: Sugarfit
+nav: Providers
+network: true
+overview: 'Sugarfit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Diabetes Management, Obesity Management, and Weight Loss.
+
+
+  Sugarfit''s developer surface includes pricing and 7 more developer resources.'
+plans:
+- name: Sugarfit Plans Pricing
+  plan_count: 2
+  slug: sugarfit-plans-pricing
+random_paper: 5
+score:
+  band: emerging
+  composite: 12.2
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 30.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 42.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 39.3
+    operational_transparency: 5.3
+  provenance:
+    mcp: unknown
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 9.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Sugarfit Domain Security
+  slug: sugarfit-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: sugarfit
+tags:
+- Diabetes Management
+- Obesity Management
+- Weight Loss
+website: https://sugarfit.com
+---

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 31.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 128
   slug: blues-wireless-agentic-access
   summary_line: 128 operations · 62 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: The Notecard API is the firmware-level JSON API for interacting with Blues Notecard hardware modules directly over serial or I2C. It supports card, dfu, env, file, hub, note, ntn, var, and web request
   name: Notecard API
@@ -155,9 +157,6 @@ collections:
   name: Notehub alert webhook API
   slug: postman-blues-wireless-webhook-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Notehub alert API
   slug: open-blues-wireless-alert-api
 - collection_type: open
@@ -197,22 +196,27 @@ collections:
   name: Notehub alert webhook API
   slug: open-blues-wireless-webhook-api
 common:
+- group: other
+  href: https://artifacts.apis.io/blues-wireless/capabilities/blues-wireless-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/blues-wireless-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/blues/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/agentic-access/blues-wireless-agentic-access.yml
+  href: https://artifacts.apis.io/blues-wireless/agentic-access/blues-wireless-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blues-wireless-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/security/blues-wireless-domain-security.yml
+  href: https://artifacts.apis.io/blues-wireless/security/blues-wireless-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blues-wireless-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/authentication/blues-wireless-authentication.yml
+  href: https://artifacts.apis.io/blues-wireless/authentication/blues-wireless-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blues-wireless-authentication.yml
@@ -287,13 +291,13 @@ examples:
   name: Blues Wireless Notehub Api Examples
   slug: blues-wireless-notehub-api-examples
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Blues Wireless Finops
-  primary_unit: ''
+  primary_unit: event
   service_category: ''
   slug: blues-wireless-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blues-wireless.png
 json_schemas:
 - name: BillingAccount
@@ -345,12 +349,15 @@ overview: 'Blues publishes 14 API contracts indexed on the [APIs.io](https://api
   The Blues catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Blues'' developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 15 more developer resources.'
+  Blues'' developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 16 more developer resources.'
 plans:
 - name: Blues Wireless Plans Pricing
-  plan_count: 2
+  plan_count: 4
   slug: blues-wireless-plans-pricing
-random_paper: 10
+- name: Blues Wireless Price Estimates
+  plan_count: 0
+  slug: blues-wireless-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Blues Wireless Rate Limits
@@ -369,23 +376,23 @@ rules:
   slug: blues-wireless-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.1
+  composite: 49.9
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 66.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.3
+    artifact_dirs: 18
+    catalog_earned: 79.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 35.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 3.7
   facets:
-    access_clarity: 15.8
+    access_clarity: 50.0
     contract_governance: 23.5
     contract_quality: 61.4
     developer_ergonomics: 45.2
     discoverability: 66.1
-    operational_transparency: 42.1
-  previous_composite: 50.0
+    operational_transparency: 44.7
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     contracts:
@@ -399,13 +406,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/screenshots/blues-wireless-2026-06-20T173533.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/blues-wireless/blues-wireless-2026-06-20T173533.png
 security:
 - kind: authentication
   name: Blues Wireless Authentication

@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation for Avarobotics robots and platform
@@ -32,17 +34,17 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avarobotics/refs/heads/main/llms/avarobotics-llms.txt
+  href: https://artifacts.apis.io/avarobotics/llms/avarobotics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/avarobotics-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avarobotics/refs/heads/main/hosts/avarobotics-hosts.yml
+  href: https://artifacts.apis.io/avarobotics/hosts/avarobotics-hosts.yml
   title: ''
   type: Hosts
   url: hosts/avarobotics-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avarobotics/refs/heads/main/vendors/avarobotics-vendors.yml
+  href: https://artifacts.apis.io/avarobotics/vendors/avarobotics-vendors.yml
   title: ''
   type: Vendors
   url: vendors/avarobotics-vendors.yml
@@ -71,7 +73,7 @@ common:
   type: Blog
   url: https://www.avarobotics.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avarobotics/refs/heads/main/security/avarobotics-domain-security.yml
+  href: https://artifacts.apis.io/avarobotics/security/avarobotics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/avarobotics-domain-security.yml
@@ -99,10 +101,10 @@ overview: 'Avarobotics is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   Avarobotics'' developer surface includes changelog, engineering blog, and 9 more developer resources.'
-random_paper: 15
+random_paper: 5
 score:
   band: emerging
-  composite: 14.5
+  composite: 13.8
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -116,9 +118,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 26.3
-  previous_composite: 14.5
+  previous_composite: 13.8
   provenance:
     mcp: unknown
   regulatory:
@@ -127,14 +129,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/avarobotics/refs/heads/main/screenshots/avarobotics-2026-10-11T101056.png
+screenshot: https://apis.io/screenshots/avarobotics/avarobotics-2026-10-11T101056.png
 security:
 - kind: domain-security
   name: Avarobotics Domain Security

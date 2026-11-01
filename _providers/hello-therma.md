@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: First-party remote Model Context Protocol server exposing read-only GlacierGrid facility monitoring data — HVAC, refrigeration, energy and savings, sensor readings, issues, notifications, device conne
@@ -44,6 +46,24 @@ apis:
   slug: glaciergrid-mcp-server
 artifact_total: 7
 common:
+- group: other
+  href: https://artifacts.apis.io/hello-therma/hosts/hello-therma-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/hello-therma-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/hello-therma/vendors/hello-therma-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/hello-therma-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.glaciergrid.com/company/newsroom
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.glaciergrid.com/company/leadership
 - group: company
   title: ''
   type: Blog
@@ -53,7 +73,7 @@ common:
   type: BlogRSS
   url: https://www.glaciergrid.com/company/newsroom/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/security/hello-therma-domain-security.yml
+  href: https://artifacts.apis.io/hello-therma/security/hello-therma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hello-therma-domain-security.yml
@@ -98,75 +118,72 @@ common:
   type: ChangeLog
   url: https://www.glaciergrid.com/resources/product-features
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/llms/hello-therma-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/hello-therma-llms.txt
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/mcp/hello-therma-mcp.yml
+  href: https://artifacts.apis.io/hello-therma/mcp/hello-therma-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hello-therma-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/well-known/hello-therma-well-known.yml
+  href: https://artifacts.apis.io/hello-therma/well-known/hello-therma-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hello-therma-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/authentication/hello-therma-authentication.yml
-  title: ''
-  type: Authentication
-  url: authentication/hello-therma-authentication.yml
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/scopes/hello-therma-scopes.yml
+  href: https://artifacts.apis.io/hello-therma/scopes/hello-therma-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hello-therma-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/rate-limits/hello-therma-rate-limits.yml
+  href: https://artifacts.apis.io/hello-therma/rate-limits/hello-therma-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hello-therma-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/errors/hello-therma-problem-types.yml
+  href: https://artifacts.apis.io/hello-therma/errors/hello-therma-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hello-therma-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/conventions/hello-therma-conventions.yml
+  href: https://artifacts.apis.io/hello-therma/conventions/hello-therma-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hello-therma-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/conformance/hello-therma-conformance.yml
+  href: https://artifacts.apis.io/hello-therma/conformance/hello-therma-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hello-therma-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/conformance/hello-therma-conformance.yml
+  href: https://artifacts.apis.io/hello-therma/conformance/hello-therma-conformance.yml
   title: ''
   type: Compliance
   url: conformance/hello-therma-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/lifecycle/hello-therma-lifecycle.yml
+  href: https://artifacts.apis.io/hello-therma/lifecycle/hello-therma-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hello-therma-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/changelog/hello-therma-changelog.yml
+  href: https://artifacts.apis.io/hello-therma/changelog/hello-therma-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hello-therma-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/plans/hello-therma-plans-pricing.yml
+  href: https://artifacts.apis.io/hello-therma/plans/hello-therma-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hello-therma-plans-pricing.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/packages/hello-therma-packages.yml
-  title: ''
-  type: Packages
-  url: packages/hello-therma-packages.yml
+coverage:
+  checked: '2026-10-20'
+  detail: GlacierGrid (formerly Hello Therma) ships no REST/GraphQL contract; its only machine surface, the remote MCP server at mcp.glaciergrid.com/mcp, answers 401 with RFC 9728 metadata so tools/list needs a customer OAuth login.
+  evidence:
+  - status: 401
+    url: https://mcp.glaciergrid.com/mcp
+  - status: 200
+    url: https://mcp.glaciergrid.com/.well-known/oauth-protected-resource
+  - status: 200
+    url: https://www.glaciergrid.com/connector
+  reason: customer-only-docs
+  state: gated
 created: '2026-08-22'
 description: Hello Therma is the original brand of Therma, Inc., the San Francisco cold-chain and cooling intelligence company founded in 2014 by Manik Suri, which rebranded as GlacierGrid in February 2024 and now operates as GlacierGrid, Inc. out of Richmond, Virginia. The platform pairs LoRaWAN temperature and humidity sensors, cellular monitoring hubs and BAS integrations with a cloud dashboard that gives multi-unit retail, restaurant, convenience-store, education and fitness operators remote refrigeration and HVAC monitoring, automated temperature logging for HACCP-style food-safety reporting, equipment-failure prediction and energy optimization across 50 to 500 locations. GlacierGrid publishes no REST, GraphQL or SOAP API and no developer portal; its single machine-callable surface is a first-party remote Model Context Protocol server at mcp.glaciergrid.com, marketed as the GlacierGrid Connector for Claude, which exposes read-only facility, sensor, alert and energy data to an agent
   under OAuth with account-scoped permissions.
@@ -183,12 +200,12 @@ network: true
 overview: 'Hello Therma is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IoT, Energy, Sustainability, and Cold Chain.
 
 
-  Hello Therma''s developer surface includes engineering blog, documentation, support, signup flow, changelog, authentication, and 21 more developer resources.'
+  Hello Therma''s developer surface includes engineering blog, documentation, support, signup flow, changelog, and 23 more developer resources.'
 plans:
 - name: Hello Therma Plans Pricing
   plan_count: 0
   slug: hello-therma-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Hello Therma Rate Limits
@@ -200,9 +217,9 @@ scopes:
   summary_line: 2 scopes
 score:
   band: thin
-  composite: 32.2
+  composite: 32.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 20
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -210,13 +227,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.6
-    discoverability: 75.0
-    operational_transparency: 55.3
-  previous_composite: 32.2
+    developer_ergonomics: 16.7
+    discoverability: 68.3
+    operational_transparency: 57.9
+  previous_composite: 32.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -226,14 +243,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 38.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hello-therma/refs/heads/main/screenshots/hello-therma-2026-09-02T145719.png
+screenshot: https://apis.io/screenshots/hello-therma/hello-therma-2026-09-02T145719.png
 security:
 - kind: authentication
   name: Hello Therma Authentication

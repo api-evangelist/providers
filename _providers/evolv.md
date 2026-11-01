@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://participants.evolv.ai
@@ -45,14 +47,14 @@ apis:
   description: The Evolv Participant API is the runtime edge API the client SDKs call to fetch a participant's experiment configuration and allocations for an environment, and to ingest context and behavioral events
   name: Evolv Participant API
   slug: evolv-participant-api
-artifact_total: 7
+artifact_total: 10
 collections:
 - collection_type: postman
   name: Evolv
   slug: postman-evolv-participant-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/rate-limits/evolv-rate-limits.yml
+  href: https://artifacts.apis.io/evolv/rate-limits/evolv-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/evolv-rate-limits.yml
@@ -73,62 +75,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/evolv-ai
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/packages/evolv-packages.yml
+  href: https://artifacts.apis.io/evolv/packages/evolv-packages.yml
   title: ''
   type: SDKs
   url: packages/evolv-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/packages/evolv-packages.yml
+  href: https://artifacts.apis.io/evolv/packages/evolv-packages.yml
   title: ''
   type: Packages
   url: packages/evolv-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/cli/evolv-cli.yml
+  href: https://artifacts.apis.io/evolv/cli/evolv-cli.yml
   title: ''
   type: CLI
   url: cli/evolv-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/authentication/evolv-authentication.yml
+  href: https://artifacts.apis.io/evolv/authentication/evolv-authentication.yml
   title: ''
   type: Authentication
   url: authentication/evolv-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/sandbox/evolv-sandbox.yml
+  href: https://artifacts.apis.io/evolv/sandbox/evolv-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/evolv-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/conventions/evolv-conventions.yml
+  href: https://artifacts.apis.io/evolv/conventions/evolv-conventions.yml
   title: ''
   type: Conventions
   url: conventions/evolv-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/lifecycle/evolv-lifecycle.yml
+  href: https://artifacts.apis.io/evolv/lifecycle/evolv-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/evolv-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/changelog/evolv-changelog.yml
+  href: https://artifacts.apis.io/evolv/changelog/evolv-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/evolv-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/mcp/evolv-mcp.yml
+  href: https://artifacts.apis.io/evolv/mcp/evolv-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/evolv-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/conformance/evolv-conformance.yml
+  href: https://artifacts.apis.io/evolv/conformance/evolv-conformance.yml
   title: ''
   type: Conformance
   url: conformance/evolv-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/llms/evolv-llms.txt
+  href: https://artifacts.apis.io/evolv/llms/evolv-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/evolv-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/security/evolv-domain-security.yml
+  href: https://artifacts.apis.io/evolv/security/evolv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/evolv-domain-security.yml
@@ -137,27 +139,27 @@ common:
   type: Login
   url: https://app.evolv.ai
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/plans/evolv-plans-pricing.yml
+  href: https://artifacts.apis.io/evolv/plans/evolv-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/evolv-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/evolv/skills/_index.yml
   title: ''
   type: AgentSkills
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/skills/evolv-allocate-participant.md
+  href: https://artifacts.apis.io/evolv/skills/evolv-allocate-participant.md
   title: ''
   type: AgentSkill
   url: skills/evolv-allocate-participant.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/skills/evolv-record-events.md
+  href: https://artifacts.apis.io/evolv/skills/evolv-record-events.md
   title: ''
   type: AgentSkill
   url: skills/evolv-record-events.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/skills/evolv-offline-preallocations.md
+  href: https://artifacts.apis.io/evolv/skills/evolv-offline-preallocations.md
   title: ''
   type: AgentSkill
   url: skills/evolv-offline-preallocations.md
@@ -181,30 +183,30 @@ plans:
 - name: Evolv Plans Pricing
   plan_count: 0
   slug: evolv-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Evolv Rate Limits
   slug: evolv-rate-limits
 score:
   band: thin
-  composite: 26.4
+  composite: 27.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 6.5
     developer_ergonomics: 65.6
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 26.3
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 27.3
   provenance:
     conformance: derived
     mcp: derived
@@ -215,14 +217,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/evolv/refs/heads/main/screenshots/evolv-2026-07-25T213820.png
+screenshot: https://apis.io/screenshots/evolv/evolv-2026-07-25T213820.png
 security:
 - kind: authentication
   name: Evolv Authentication
@@ -232,6 +234,14 @@ security:
   name: Evolv Domain Security
   slug: evolv-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: evolv-allocate-participant
+  slug: evolv-allocate-participant
+- name: evolv-offline-preallocations
+  slug: evolv-offline-preallocations
+- name: evolv-record-events
+  slug: evolv-record-events
 slug: evolv
 tags:
 - Experimentation

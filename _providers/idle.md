@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 31.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,11 +68,8 @@ apis:
   description: Total value locked metrics per underlying token
   name: Idle Finance TVL API
   slug: idle-tvl-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Idle Finance Pools API
   slug: open-idle-pools-api
@@ -82,32 +81,32 @@ collections:
   slug: open-idle-tvl-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/idle/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/idle/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/idle/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/agentic-access/idle-agentic-access.yml
+  href: https://artifacts.apis.io/idle/agentic-access/idle-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/idle-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/security/idle-domain-security.yml
+  href: https://artifacts.apis.io/idle/security/idle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/idle-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/authentication/idle-authentication.yml
+  href: https://artifacts.apis.io/idle/authentication/idle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/idle-authentication.yml
@@ -215,7 +214,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -234,7 +233,7 @@ rules:
   slug: idle-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.4
+  composite: 35.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 48.3
@@ -242,15 +241,15 @@ score:
     catalog_gap: 66.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 56.5
-    developer_ergonomics: 16.7
+    developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 33.0
+    operational_transparency: 5.3
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -263,15 +262,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/screenshots/idle-2026-06-20T183210.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/idle/idle-2026-06-20T183210.png
 security:
 - kind: authentication
   name: Idle Authentication

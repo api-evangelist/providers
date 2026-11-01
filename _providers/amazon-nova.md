@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.5
-  scored_at: '2026-10-17'
+  score: 51.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,15 +62,12 @@ apis:
   description: Synchronous and streaming inference against the Amazon Nova understanding and generation models through the Amazon Bedrock Runtime endpoint — InvokeModel, InvokeModelWithResponseStream, Converse and C
   name: Amazon Nova Inference API
   slug: amazon-nova-inference-api
-artifact_total: 41
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Amazon Nova Events
   slug: amazon-nova-events
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Nova on Amazon Bedrock Runtime Async API
   slug: open-amazon-nova-async-api
@@ -80,37 +79,37 @@ collections:
   slug: open-amazon-nova
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/finops/amazon-nova-finops.yml
+  href: https://artifacts.apis.io/amazon-nova/finops/amazon-nova-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-nova-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/capabilities/amazon-nova-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-nova/capabilities/amazon-nova-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-nova-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/agentic-access/amazon-nova-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-nova/agentic-access/amazon-nova-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-nova-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/security/amazon-nova-trust-center.yml
+  href: https://artifacts.apis.io/amazon-nova/security/amazon-nova-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-nova-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/security/amazon-nova-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-nova/security/amazon-nova-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-nova-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/security/amazon-nova-domain-security.yml
+  href: https://artifacts.apis.io/amazon-nova/security/amazon-nova-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-nova-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/authentication/amazon-nova-authentication.yml
+  href: https://artifacts.apis.io/amazon-nova/authentication/amazon-nova-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-nova-authentication.yml
@@ -191,112 +190,112 @@ common:
   type: Deprecation
   url: https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/packages/amazon-nova-packages.yml
+  href: https://artifacts.apis.io/amazon-nova/packages/amazon-nova-packages.yml
   title: ''
   type: SDKs
   url: packages/amazon-nova-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/packages/amazon-nova-packages.yml
+  href: https://artifacts.apis.io/amazon-nova/packages/amazon-nova-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-nova-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/well-known/amazon-nova-well-known.yml
+  href: https://artifacts.apis.io/amazon-nova/well-known/amazon-nova-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-nova-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/well-known/amazon-nova-security.txt
+  href: https://artifacts.apis.io/amazon-nova/well-known/amazon-nova-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-nova-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/mcp/amazon-nova-mcp.yml
+  href: https://artifacts.apis.io/amazon-nova/mcp/amazon-nova-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/amazon-nova-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/mcp/amazon-nova-tool-crosswalk.yml
+  href: https://artifacts.apis.io/amazon-nova/mcp/amazon-nova-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/amazon-nova-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/llms/amazon-nova-llms.txt
+  href: https://artifacts.apis.io/amazon-nova/llms/amazon-nova-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-nova-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/conformance/amazon-nova-conformance.yml
+  href: https://artifacts.apis.io/amazon-nova/conformance/amazon-nova-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-nova-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/errors/amazon-nova-problem-types.yml
+  href: https://artifacts.apis.io/amazon-nova/errors/amazon-nova-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-nova-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/lifecycle/amazon-nova-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-nova/lifecycle/amazon-nova-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-nova-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/conventions/amazon-nova-conventions.yml
+  href: https://artifacts.apis.io/amazon-nova/conventions/amazon-nova-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amazon-nova-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/conventions/amazon-nova-conventions.yml
+  href: https://artifacts.apis.io/amazon-nova/conventions/amazon-nova-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/amazon-nova-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/changelog/amazon-nova-changelog.yml
+  href: https://artifacts.apis.io/amazon-nova/changelog/amazon-nova-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/amazon-nova-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/cli/amazon-nova-cli.yml
+  href: https://artifacts.apis.io/amazon-nova/cli/amazon-nova-cli.yml
   title: ''
   type: CLI
   url: cli/amazon-nova-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/sandbox/amazon-nova-sandbox.yml
+  href: https://artifacts.apis.io/amazon-nova/sandbox/amazon-nova-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/amazon-nova-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/data-model/amazon-nova-data-model.yml
+  href: https://artifacts.apis.io/amazon-nova/data-model/amazon-nova-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amazon-nova-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/asyncapi/amazon-nova-events.yml
+  href: https://artifacts.apis.io/amazon-nova/asyncapi/amazon-nova-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/amazon-nova-events.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/amazon-nova/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/plans/amazon-nova-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-nova/plans/amazon-nova-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-nova-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/rate-limits/amazon-nova-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-nova/rate-limits/amazon-nova-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-nova-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/overlays/amazon-nova-inference-api-overlay.yaml
+  href: https://artifacts.apis.io/amazon-nova/overlays/amazon-nova-inference-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-nova-inference-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/overlays/amazon-nova-async-api-overlay.yaml
+  href: https://artifacts.apis.io/amazon-nova/overlays/amazon-nova-async-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-nova-async-api-overlay.yaml
@@ -320,11 +319,11 @@ features:
 - description: Natively integrated with Amazon Bedrock Knowledge Bases, Agents, Guardrails, Evaluations, and Prompt Flows.
   name: Bedrock Integration
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Nova Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: amazon-nova-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-nova.png
@@ -365,14 +364,14 @@ plans:
 - name: Amazon Nova Plans Pricing
   plan_count: 0
   slug: amazon-nova-plans-pricing
-random_paper: 5
+random_paper: 23
 rate_limits:
 - limit_count: 20
   name: Amazon Nova Rate Limits
   slug: amazon-nova-rate-limits
 score:
   band: strong
-  composite: 60.2
+  composite: 62.9
   coverage:
     artifact_dirs: 28
     catalog_earned: 39.0
@@ -380,15 +379,20 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.9
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 52.8
     developer_ergonomics: 80.4
-    discoverability: 58.3
-    operational_transparency: 81.6
-  previous_composite: 62.1
+    discoverability: 48.3
+    operational_transparency: 94.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -405,13 +409,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/screenshots/amazon-nova-2026-06-20T171754.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-nova/amazon-nova-2026-06-20T171754.png
 security:
 - kind: authentication
   name: Amazon Nova Authentication
@@ -429,6 +434,14 @@ security:
   name: Amazon Nova Trust Center
   slug: amazon-nova-trust-center
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
+skill_count: 3
+skills:
+- name: Run a long-running Amazon Nova generation asynchronously
+  slug: amazon-nova-async-generation
+- name: Call an Amazon Nova understanding model with the Converse API
+  slug: amazon-nova-converse
+- name: Generate an image with Amazon Nova Canvas
+  slug: amazon-nova-invoke-image
 slug: amazon-nova
 tags:
 - Foundation Models

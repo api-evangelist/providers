@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,25 +36,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Atera's REST API. Twelve data domains — Agents, Alerts, Billing, Contacts, Contracts, Customers, CustomValues, Departments, Devices, KnowledgeBase, Rates and Tickets — reachable over HTTPS only at htt
   name: Atera API v3
   slug: atera-api-v3
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Atera Webhooks
   slug: atera-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/plans/atera-plans-pricing.yml
+  href: https://artifacts.apis.io/atera/plans/atera-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/atera-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/security/atera-domain-security.yml
+  href: https://artifacts.apis.io/atera/security/atera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/atera-domain-security.yml
@@ -105,7 +107,7 @@ common:
   type: TrustCenter
   url: https://trust.atera.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/security/atera-trust-center.yml
+  href: https://artifacts.apis.io/atera/security/atera-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/atera-trust-center.yml
@@ -122,37 +124,37 @@ common:
   type: SignUp
   url: https://app.atera.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/asyncapi/atera-webhooks.yml
+  href: https://artifacts.apis.io/atera/asyncapi/atera-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/atera-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/authentication/atera-authentication.yml
+  href: https://artifacts.apis.io/atera/authentication/atera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/atera-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/conventions/atera-conventions.yml
+  href: https://artifacts.apis.io/atera/conventions/atera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/atera-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/lifecycle/atera-lifecycle.yml
+  href: https://artifacts.apis.io/atera/lifecycle/atera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/atera-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/conformance/atera-conformance.yml
+  href: https://artifacts.apis.io/atera/conformance/atera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/atera-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/packages/atera-packages.yml
+  href: https://artifacts.apis.io/atera/packages/atera-packages.yml
   title: ''
   type: Packages
   url: packages/atera-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/llms/atera-llms.txt
+  href: https://artifacts.apis.io/atera/llms/atera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/atera-llms.txt
@@ -165,13 +167,21 @@ common:
   type: PrivacyPolicy
   url: https://www.atera.com/privacy/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/changelog/atera-changelog.yml
+  href: https://artifacts.apis.io/atera/changelog/atera-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/atera-changelog.yml
 created: '2026-08-06'
 description: Atera Networks Ltd. operates an all-in-one IT management platform that combines remote monitoring and management (RMM), professional services automation (PSA), helpdesk and ticketing, patch management, network discovery, remote access (Splashtop, AnyDesk, TeamViewer, ScreenConnect), reporting, and billing/invoicing in a single per-technician subscription used by managed service providers and internal IT departments. Its AI layer adds Action AI, AI Copilot, and Robin (IT Autopilot), and an AI Center that lets administrators install Model Context Protocol (MCP) integrations from a catalog or register custom MCP servers so Atera's own agents can reach outside systems. Atera is programmable through a versioned REST API at https://app.atera.com/api/v3 covering twelve data domains (agents, alerts, billing, contacts, contracts, customers, custom values, departments, devices, knowledge base, rates, tickets) authenticated with an X-API-KEY token, plus outbound webhooks bound to ticket
   automation rules. Atera states its API is driven by OpenAPI 3.0, but the interactive reference at https://app.atera.com/apidocs requires an account token before it will render and no specification is published at a public URL.
+finops:
+- has_sources: true
+  method: derived
+  name: Atera Finops
+  primary_unit: ''
+  service_category: ''
+  slug: atera-finops
+  template: true
 image: https://us.v-cdn.net/6037292/uploads/23NA1N62IAVU/atera-200x200.png
 layout: provider
 modified: '2026-08-06'
@@ -189,12 +199,12 @@ plans:
 - name: Atera Plans Pricing
   plan_count: 0
   slug: atera-plans-pricing
-random_paper: 19
+random_paper: 21
 score:
   band: developing
-  composite: 44.2
+  composite: 49.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -202,13 +212,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 44.7
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 48.8
-    discoverability: 73.2
+    developer_ergonomics: 57.1
+    discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 44.2
+  previous_composite: 49.0
   provenance:
     conformance: first-party
   regulatory:
@@ -216,15 +226,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/atera/refs/heads/main/screenshots/atera-2026-08-07T161850.png
+screenshot: https://apis.io/screenshots/atera/atera-2026-08-07T161850.png
 security:
 - kind: authentication
   name: Atera Authentication

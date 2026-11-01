@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 14
 apis:
 - description: The authorization endpoints provide a token that will allow your service or application to call Kroger APIs.
@@ -81,7 +83,7 @@ apis:
 artifact_total: 21
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/finops/kroger-finops.yml
+  href: https://artifacts.apis.io/kroger/finops/kroger-finops.yml
   title: ''
   type: FinOps
   url: finops/kroger-finops.yml
@@ -90,7 +92,7 @@ common:
   type: Website
   url: https://kroger.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/security/kroger-domain-security.yml
+  href: https://artifacts.apis.io/kroger/security/kroger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kroger-domain-security.yml
@@ -107,77 +109,77 @@ common:
   type: Portal
   url: https://developer.kroger.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/authentication/kroger-authentication.yml
+  href: https://artifacts.apis.io/kroger/authentication/kroger-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kroger-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/scopes/kroger-scopes.yml
+  href: https://artifacts.apis.io/kroger/scopes/kroger-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kroger-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/rate-limits/kroger-rate-limits.yml
+  href: https://artifacts.apis.io/kroger/rate-limits/kroger-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kroger-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/plans/kroger-plans-pricing.yml
+  href: https://artifacts.apis.io/kroger/plans/kroger-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kroger-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/errors/kroger-problem-types.yml
+  href: https://artifacts.apis.io/kroger/errors/kroger-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kroger-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/conventions/kroger-conventions.yml
+  href: https://artifacts.apis.io/kroger/conventions/kroger-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kroger-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/lifecycle/kroger-lifecycle.yml
+  href: https://artifacts.apis.io/kroger/lifecycle/kroger-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kroger-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/sandbox/kroger-sandbox.yml
+  href: https://artifacts.apis.io/kroger/sandbox/kroger-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kroger-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/data-model/kroger-data-model.yml
+  href: https://artifacts.apis.io/kroger/data-model/kroger-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kroger-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/conformance/kroger-conformance.yml
+  href: https://artifacts.apis.io/kroger/conformance/kroger-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kroger-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/packages/kroger-packages.yml
+  href: https://artifacts.apis.io/kroger/packages/kroger-packages.yml
   title: ''
   type: Packages
   url: packages/kroger-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/mcp/kroger-mcp.yml
+  href: https://artifacts.apis.io/kroger/mcp/kroger-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kroger-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/well-known/kroger-well-known.yml
+  href: https://artifacts.apis.io/kroger/well-known/kroger-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kroger-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/well-known/kroger-security.txt
+  href: https://artifacts.apis.io/kroger/well-known/kroger-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/kroger-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/security/kroger-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kroger/security/kroger-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kroger-vulnerability-disclosure.yml
@@ -217,12 +219,12 @@ created: '2024-11-14'
 description: The Kroger Co. is the largest supermarket operator in the United States and runs a two-tier developer programme from developer.kroger.com. The Public tier is self-service after account and application registration and covers Products, Locations, Identity and Cart, each with a published daily call quota. The Partner tier — Carts, Catalog, Catalog V2, Identity, Locations, Products, Seamless Delivery and Locker Integration — is not self-service and requires a signed contractual agreement with Kroger. Every API is protected by OAuth 2.0 at api.kroger.com, with client-credentials access for catalogue and store data and authorization-code access, with explicit customer consent, for anything that touches a shopper's profile or cart. A separate certification environment runs at api-ce.kroger.com.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Kroger Finops
   primary_unit: ''
-  service_category: Retail / Grocery APIs
+  service_category: ''
   slug: kroger-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kroger.png
 layout: provider
 modified: '2026-09-16'
@@ -253,7 +255,7 @@ press:
 - date: ''
   title: Kroger and Instacart Announce Expanded Relationship ...
   url: https://ir.kroger.com/news/news-details/2025/Kroger-and-Instacart-Announce-Expanded-Relationship-Investing-in-AI-to-Simplify-Customer-Experience-Improve-Efficiency/default.aspx
-random_paper: 12
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Kroger Rate Limits
@@ -265,7 +267,7 @@ scopes:
   summary_line: 6 scopes
 score:
   band: developing
-  composite: 41.4
+  composite: 41.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 60.0
@@ -273,15 +275,15 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.7
-    discoverability: 78.6
-    operational_transparency: 44.7
-  previous_composite: 42.9
+    discoverability: 71.4
+    operational_transparency: 47.4
+  previous_composite: 41.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -291,14 +293,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/screenshots/kroger-2026-06-20T184156.png
+screenshot: https://apis.io/screenshots/kroger/kroger-2026-06-20T184156.png
 security:
 - kind: authentication
   name: Kroger Authentication

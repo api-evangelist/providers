@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forterro/refs/heads/main/security/forterro-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/forterro/security/forterro-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/forterro-vulnerability-disclosure.yml
@@ -46,7 +48,7 @@ common:
   type: Security
   url: https://www.forterro.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forterro/refs/heads/main/security/forterro-domain-security.yml
+  href: https://artifacts.apis.io/forterro/security/forterro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forterro-domain-security.yml
@@ -103,17 +105,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/forterro
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forterro/refs/heads/main/well-known/forterro-well-known.yml
+  href: https://artifacts.apis.io/forterro/well-known/forterro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/forterro-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forterro/refs/heads/main/well-known/forterro-security.txt
+  href: https://artifacts.apis.io/forterro/well-known/forterro-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/forterro-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forterro/refs/heads/main/llms/forterro-llms.txt
+  href: https://artifacts.apis.io/forterro/llms/forterro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/forterro-llms.txt
@@ -129,12 +131,12 @@ overview: 'Forterro is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Forterro''s developer surface includes support, engineering blog, product news, and 16 more developer resources.'
-random_paper: 3
+random_paper: 19
 score:
   band: emerging
-  composite: 12.6
+  composite: 12.7
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -146,8 +148,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 56.3
-    operational_transparency: 5.3
+    discoverability: 50.0
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -156,21 +158,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 12.6
+  previous_composite: 12.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/forterro/refs/heads/main/screenshots/forterro-2026-07-25T215009.png
+screenshot: https://apis.io/screenshots/forterro/forterro-2026-07-25T215009.png
 security:
 - kind: domain-security
   name: Forterro Domain Security

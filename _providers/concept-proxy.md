@@ -20,7 +20,7 @@ modified: '2026-07-20'
 name: Proxy
 nav: Providers
 network: true
-random_paper: 7
+random_paper: 3
 slug: concept-proxy
 tags:
 - Company

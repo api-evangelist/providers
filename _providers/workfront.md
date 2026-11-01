@@ -30,16 +30,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 60.8
-  scored_at: '2026-10-17'
+  score: 54.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -229,7 +231,7 @@ apis:
     question: How do I set up a new workspace for a team?
   phrasing_ops: 8
   slug: workfront-workspaces-api
-artifact_total: 21
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Workfront Event Subscriptions Webhooks
@@ -243,17 +245,17 @@ collections:
   slug: open-workfront-planning-v2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/overlays/workfront-planning-v2-overlay.yaml
+  href: https://artifacts.apis.io/workfront/overlays/workfront-planning-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/workfront-planning-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/overlays/workfront-planning-v1-overlay.yaml
+  href: https://artifacts.apis.io/workfront/overlays/workfront-planning-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/workfront-planning-v1-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/agentic-access/workfront-agentic-access.yml
+  href: https://artifacts.apis.io/workfront/agentic-access/workfront-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/workfront-agentic-access.yml
@@ -322,112 +324,120 @@ common:
   type: TrustCenter
   url: https://www.adobe.com/trust.html
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/packages/workfront-packages.yml
+  href: https://artifacts.apis.io/workfront/packages/workfront-packages.yml
   title: ''
   type: SDKs
   url: packages/workfront-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/packages/workfront-packages.yml
+  href: https://artifacts.apis.io/workfront/packages/workfront-packages.yml
   title: ''
   type: Packages
   url: packages/workfront-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/cli/workfront-cli.yml
+  href: https://artifacts.apis.io/workfront/cli/workfront-cli.yml
   title: ''
   type: CLI
   url: cli/workfront-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/components/workfront-components.yml
+  href: https://artifacts.apis.io/workfront/components/workfront-components.yml
   title: ''
   type: Components
   url: components/workfront-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/sandbox/workfront-sandbox.yml
+  href: https://artifacts.apis.io/workfront/sandbox/workfront-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/workfront-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/authentication/workfront-authentication.yml
+  href: https://artifacts.apis.io/workfront/authentication/workfront-authentication.yml
   title: ''
   type: Authentication
   url: authentication/workfront-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/scopes/workfront-scopes.yml
+  href: https://artifacts.apis.io/workfront/scopes/workfront-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/workfront-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/conventions/workfront-conventions.yml
+  href: https://artifacts.apis.io/workfront/conventions/workfront-conventions.yml
   title: ''
   type: Conventions
   url: conventions/workfront-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/errors/workfront-problem-types.yml
+  href: https://artifacts.apis.io/workfront/errors/workfront-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/workfront-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/lifecycle/workfront-lifecycle.yml
+  href: https://artifacts.apis.io/workfront/lifecycle/workfront-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/workfront-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/rate-limits/workfront-rate-limits.yml
+  href: https://artifacts.apis.io/workfront/rate-limits/workfront-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/workfront-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/plans/workfront-plans-pricing.yml
+  href: https://artifacts.apis.io/workfront/plans/workfront-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/workfront-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/changelog/workfront-changelog.yml
+  href: https://artifacts.apis.io/workfront/changelog/workfront-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/workfront-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/conformance/workfront-conformance.yml
+  href: https://artifacts.apis.io/workfront/conformance/workfront-conformance.yml
   title: ''
   type: Conformance
   url: conformance/workfront-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/security/workfront-domain-security.yml
+  href: https://artifacts.apis.io/workfront/security/workfront-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/workfront-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/security/workfront-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/workfront/security/workfront-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/workfront-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/well-known/workfront-well-known.yml
+  href: https://artifacts.apis.io/workfront/well-known/workfront-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/workfront-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/well-known/workfront-security.txt
+  href: https://artifacts.apis.io/workfront/well-known/workfront-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/workfront-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/llms/workfront-llms.txt
+  href: https://artifacts.apis.io/workfront/llms/workfront-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/workfront-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/workfront/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/asyncapi/workfront-event-subscriptions-webhooks.yml
+  href: https://artifacts.apis.io/workfront/asyncapi/workfront-event-subscriptions-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/workfront-event-subscriptions-webhooks.yml
 created: '2026-08-12'
 description: 'Adobe Workfront is Adobe''s enterprise work-management platform for marketing and creative operations — project and portfolio planning, request intake, task and resource management, proofing and approvals, timesheets, financial tracking and reporting — sold in Select, Prime and Ultimate packages. Its developer surface is unusually wide for a work-management vendor: a versioned REST core API at /attask/api (v22.0, 174 objects exposed through an anonymous object-metadata endpoint), the separately versioned Workfront Planning API published as first-party OpenAPI 3.0.1 and 3.1.0 documents on developer.adobe.com, an Event Subscription API that pushes object change events to customer webhook endpoints, a Document Webhooks API third-party document providers implement, and — since June 2026 — a hosted Model Context Protocol server at mcp.workfront.adobe.com exposing 87 documented tools behind OAuth 2.1, plus first-party agent Skills published in the adobe/skills repository.'
+finops:
+- has_sources: true
+  method: derived
+  name: Workfront Finops
+  primary_unit: ''
+  service_category: ''
+  slug: workfront-finops
+  template: true
 image: https://avatars.githubusercontent.com/u/3494194?v=4
 layout: provider
 mcp_servers:
@@ -449,7 +459,7 @@ plans:
 - name: Workfront Plans Pricing
   plan_count: 3
   slug: workfront-plans-pricing
-random_paper: 14
+random_paper: 20
 rate_limits:
 - limit_count: 9
   name: Workfront Rate Limits
@@ -461,23 +471,23 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.4
+  composite: 69.6
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 73.7
+    access_clarity: 78.9
     contract_governance: 4.5
-    contract_quality: 56.4
+    contract_quality: 53.1
     developer_ergonomics: 83.3
-    discoverability: 75.0
-    operational_transparency: 78.9
-  previous_composite: 70.3
+    discoverability: 65.0
+    operational_transparency: 94.7
+  previous_composite: 69.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -494,13 +504,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/screenshots/workfront-2026-08-17T075411.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/workfront/workfront-2026-08-17T075411.png
 security:
 - kind: authentication
   name: Workfront Authentication
@@ -518,6 +529,22 @@ security:
   name: Workfront Trust Center
   slug: workfront-trust-center
   summary_line: SOC 2 Type 2 (Security, Availability & Confidentiality), SOC 3 (Security, Availability & Confidentiality), ISO 9001:2015, ISO 27001:2022, ISO 27017:2015, ISO 27018:2019, ISO 22301:2019, HIPAA ready, IRAP Assessed (Australia), GLBA ready, FERPA ready
+skill_count: 7
+skills:
+- name: workfront-actions
+  slug: workfront-appbuilder-workfront-actions
+- name: workfront-local-testing
+  slug: workfront-appbuilder-workfront-local-testing
+- name: workfront-ui-extension
+  slug: workfront-appbuilder-workfront-ui-extension
+- name: appbuilder-workfront
+  slug: workfront-appbuilder-workfront
+- name: workfront-build-planning-workspace
+  slug: workfront-build-planning-workspace
+- name: workfront-search-and-bulk-update-records
+  slug: workfront-search-and-bulk-update-records
+- name: wf-planning-solution-architect
+  slug: workfront-wf-planning-solution-architect
 slug: workfront
 tags:
 - Company

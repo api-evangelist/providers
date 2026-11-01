@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,26 +36,26 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Constellation Digital Experience (DX) API — REST endpoints external systems use to create Launchpad/Platform cases and data objects, read them, and advance them by running assignment actions. Auth
   name: Pega DX API
   slug: pega-dx-api
-artifact_total: 5
+artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/security/pega-trust-center.yml
+  href: https://artifacts.apis.io/pega/security/pega-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pega-trust-center.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/hosts/pega-hosts.yml
+  href: https://artifacts.apis.io/pega/hosts/pega-hosts.yml
   title: ''
   type: Hosts
   url: hosts/pega-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/vendors/pega-vendors.yml
+  href: https://artifacts.apis.io/pega/vendors/pega-vendors.yml
   title: ''
   type: Vendors
   url: vendors/pega-vendors.yml
@@ -118,7 +120,7 @@ common:
   type: PrivacyPolicy
   url: https://www.pega.com/privacy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/plans/pega-plans-pricing.yml
+  href: https://artifacts.apis.io/pega/plans/pega-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pega-plans-pricing.yml
@@ -127,47 +129,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/pegasystems
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/packages/pega-packages.yml
+  href: https://artifacts.apis.io/pega/packages/pega-packages.yml
   title: ''
   type: Packages
   url: packages/pega-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/packages/pega-packages.yml
+  href: https://artifacts.apis.io/pega/packages/pega-packages.yml
   title: ''
   type: SDKs
   url: packages/pega-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/components/pega-components.yml
+  href: https://artifacts.apis.io/pega/components/pega-components.yml
   title: ''
   type: Components
   url: components/pega-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pega/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/authentication/pega-authentication.yml
+  href: https://artifacts.apis.io/pega/authentication/pega-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pega-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/conventions/pega-conventions.yml
+  href: https://artifacts.apis.io/pega/conventions/pega-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pega-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/errors/pega-problem-types.yml
+  href: https://artifacts.apis.io/pega/errors/pega-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pega-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/conformance/pega-conformance.yml
+  href: https://artifacts.apis.io/pega/conformance/pega-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pega-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/security/pega-trust-center.yml
+  href: https://artifacts.apis.io/pega/security/pega-trust-center.yml
   title: ''
   type: Compliance
   url: security/pega-trust-center.yml
@@ -176,12 +178,12 @@ common:
   type: TrustCenter
   url: https://trust.pega.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/security/pega-domain-security.yml
+  href: https://artifacts.apis.io/pega/security/pega-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pega-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/lifecycle/pega-lifecycle.yml
+  href: https://artifacts.apis.io/pega/lifecycle/pega-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pega-lifecycle.yml
@@ -190,12 +192,12 @@ common:
   type: Deprecation
   url: https://docs.pega.com/bundle/platform/page/platform/release-notes/deprecated-and-removed-features.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/well-known/pega-well-known.yml
+  href: https://artifacts.apis.io/pega/well-known/pega-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pega-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/llms/pega-llms.txt
+  href: https://artifacts.apis.io/pega/llms/pega-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pega-llms.txt
@@ -208,6 +210,14 @@ coverage:
   state: unreadable
 created: '2026-07-17'
 description: Pega (Pegasystems) is an enterprise low-code platform for AI-powered decisioning and workflow automation, spanning business process management (BPM), CRM, and customer engagement across financial services, insurance, healthcare, government, and manufacturing. External systems integrate with Pega Platform and Pega Launchpad through the Constellation Digital Experience (DX) API — a REST + OAuth 2.0 surface for creating and driving cases and data objects — and through first-party SDKs (React, Angular, Web Components, Mobile) that render Constellation DX Components. Pega also publishes first-party Agent Skills for building on Launchpad.
+finops:
+- has_sources: true
+  method: derived
+  name: Pega Finops
+  primary_unit: launchpad units
+  service_category: ''
+  slug: pega-finops
+  template: false
 image: https://github.com/pegasystems.png
 layout: provider
 modified: '2026-07-20'
@@ -220,28 +230,31 @@ overview: 'Pega is listed with 1 API on the [APIs.io](https://apis.io/) network.
   Pega''s developer surface includes changelog, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
 plans:
 - name: Pega Plans Pricing
-  plan_count: 4
+  plan_count: 5
   slug: pega-plans-pricing
-random_paper: 17
+- name: Pega Price Estimates
+  plan_count: 0
+  slug: pega-price-estimates
+random_paper: 5
 score:
   band: developing
-  composite: 46.9
+  composite: 50.4
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 49.0
+    artifact_dirs: 19
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 76.8
-    operational_transparency: 36.8
-  previous_composite: 46.8
+    discoverability: 69.6
+    operational_transparency: 39.5
+  previous_composite: 48.8
   provenance:
     conformance: first-party
     skills: first-party
@@ -258,15 +271,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pega/refs/heads/main/screenshots/pega-2026-10-11T192133.png
+screenshot: https://apis.io/screenshots/pega/pega-2026-10-11T192133.png
 security:
 - kind: authentication
   name: Pega Authentication
@@ -280,6 +293,10 @@ security:
   name: Pega Trust Center
   slug: pega-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
+skill_count: 1
+skills:
+- name: Drive a Launchpad case with the Pega DX API
+  slug: pega-launchpad-dx-apis
 slug: pega
 tags:
 - Company

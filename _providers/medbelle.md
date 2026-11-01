@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -51,27 +53,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/medbelle/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medbelle/refs/heads/main/lifecycle/medbelle-lifecycle.yml
+  href: https://artifacts.apis.io/medbelle/lifecycle/medbelle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/medbelle-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medbelle/refs/heads/main/security/medbelle-domain-security.yml
+  href: https://artifacts.apis.io/medbelle/security/medbelle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/medbelle-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medbelle/refs/heads/main/llms/medbelle-llms.txt
+  href: https://artifacts.apis.io/medbelle/llms/medbelle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/medbelle-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/medbelle/refs/heads/main/plans/medbelle-plans-pricing.yml
+  href: https://artifacts.apis.io/medbelle/plans/medbelle-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/medbelle-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/medbelle/refs/heads/main/rate-limits/medbelle-rate-limits.yml
+  href: https://artifacts.apis.io/medbelle/rate-limits/medbelle-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/medbelle-rate-limits.yml
@@ -104,7 +106,7 @@ plans:
 - name: Medbelle Plans Pricing
   plan_count: 0
   slug: medbelle-plans-pricing
-random_paper: 12
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Medbelle Rate Limits
@@ -143,14 +145,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/medbelle/refs/heads/main/screenshots/medbelle-2026-09-02T150451.png
+screenshot: https://apis.io/screenshots/medbelle/medbelle-2026-09-02T150451.png
 security:
 - kind: domain-security
   name: Medbelle Domain Security

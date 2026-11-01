@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.4
-  scored_at: '2026-10-17'
+  score: 17.5
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -32,22 +34,22 @@ common:
   type: BlogRSS
   url: https://ambiq.com/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apollo3/refs/heads/main/vendors/apollo3-vendors.yml
+  href: https://artifacts.apis.io/apollo3/vendors/apollo3-vendors.yml
   title: ''
   type: Vendors
   url: vendors/apollo3-vendors.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apollo3/refs/heads/main/llms/apollo3-llms.txt
+  href: https://artifacts.apis.io/apollo3/llms/apollo3-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apollo3-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apollo3/refs/heads/main/well-known/apollo3-well-known.yml
+  href: https://artifacts.apis.io/apollo3/well-known/apollo3-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apollo3-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apollo3/refs/heads/main/hosts/apollo3-hosts.yml
+  href: https://artifacts.apis.io/apollo3/hosts/apollo3-hosts.yml
   title: ''
   type: Hosts
   url: hosts/apollo3-hosts.yml
@@ -80,7 +82,7 @@ common:
   type: Blog
   url: https://ambiq.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apollo3/refs/heads/main/security/apollo3-domain-security.yml
+  href: https://artifacts.apis.io/apollo3/security/apollo3-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apollo3-domain-security.yml
@@ -100,10 +102,10 @@ overview: 'Apollo3 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Apollo3''s developer surface includes support, engineering blog, and 12 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
   band: emerging
-  composite: 15.9
+  composite: 15.2
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -117,9 +119,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 15.9
+  previous_composite: 15.2
   provenance:
     mcp: unknown
   regulatory:
@@ -128,14 +130,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/apollo3/refs/heads/main/screenshots/apollo3-2026-10-11T095948.png
+screenshot: https://apis.io/screenshots/apollo3/apollo3-2026-10-11T095948.png
 security:
 - kind: domain-security
   name: Apollo3 Domain Security

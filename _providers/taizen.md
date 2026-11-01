@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,25 +25,27 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-10-17'
+  score: 28.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Taizen's remote Model Context Protocol server — the company's only machine-callable surface. Per the provider's own manifest it lets an agent connect once instead of wiring fifteen-plus individual MCP
   name: Taizen MCP Server
   slug: taizen-mcp-server
-artifact_total: 7
+artifact_total: 31
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/taizen/refs/heads/main/rate-limits/taizen-rate-limits.yml
+  href: https://artifacts.apis.io/taizen/rate-limits/taizen-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/taizen-rate-limits.yml
@@ -84,7 +86,7 @@ common:
   type: LinkedIn
   url: https://linkedin.com/company/taizenai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taizen/refs/heads/main/security/taizen-trust-center.yml
+  href: https://artifacts.apis.io/taizen/security/taizen-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/taizen-trust-center.yml
@@ -93,37 +95,37 @@ common:
   type: Compliance
   url: https://trust.usetaizen.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taizen/refs/heads/main/security/taizen-domain-security.yml
+  href: https://artifacts.apis.io/taizen/security/taizen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/taizen-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taizen/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/taizen/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taizen/refs/heads/main/llms/taizen-llms.txt
+  href: https://artifacts.apis.io/taizen/llms/taizen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/taizen-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taizen/refs/heads/main/conformance/taizen-conformance.yml
+  href: https://artifacts.apis.io/taizen/conformance/taizen-conformance.yml
   title: ''
   type: Conformance
   url: conformance/taizen-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/taizen/refs/heads/main/packages/taizen-packages.yml
+  href: https://artifacts.apis.io/taizen/packages/taizen-packages.yml
   title: ''
   type: Packages
   url: packages/taizen-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/taizen/refs/heads/main/plans/taizen-plans-pricing.yml
+  href: https://artifacts.apis.io/taizen/plans/taizen-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/taizen-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taizen/refs/heads/main/lifecycle/taizen-lifecycle.yml
+  href: https://artifacts.apis.io/taizen/lifecycle/taizen-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/taizen-lifecycle.yml
@@ -148,14 +150,14 @@ plans:
 - name: Taizen Plans Pricing
   plan_count: 0
   slug: taizen-plans-pricing
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Taizen Rate Limits
   slug: taizen-rate-limits
 score:
   band: thin
-  composite: 30.3
+  composite: 29.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -163,15 +165,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 30.2
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 29.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -182,14 +184,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/taizen/refs/heads/main/screenshots/taizen-2026-09-02T162453.png
+screenshot: https://apis.io/screenshots/taizen/taizen-2026-09-02T162453.png
 security:
 - kind: authentication
   name: Taizen Authentication
@@ -203,6 +205,56 @@ security:
   name: Taizen Trust Center
   slug: taizen-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 30
+skills:
+- name: account-lifecycle
+  slug: taizen-account-lifecycle
+- name: account-research
+  slug: taizen-account-research
+- name: brand-voice
+  slug: taizen-brand-voice
+- name: buyer-profiles
+  slug: taizen-buyer-profiles
+- name: case-study-builder
+  slug: taizen-case-study-builder
+- name: community-signals
+  slug: taizen-community-signals
+- name: competitive-intelligence
+  slug: taizen-competitive-intelligence
+- name: content-reviewer
+  slug: taizen-content-reviewer
+- name: copywriting
+  slug: taizen-copywriting
+- name: customer-advocacy
+  slug: taizen-customer-advocacy
+- name: customer-research
+  slug: taizen-customer-research
+- name: discovery-prep
+  slug: taizen-discovery-prep
+- name: email-sequences
+  slug: taizen-email-sequences
+- name: executive-briefings
+  slug: taizen-executive-briefings
+- name: feedback-collector
+  slug: taizen-feedback-collector
+- name: go-to-market
+  slug: taizen-go-to-market
+- name: gtm-messaging
+  slug: taizen-gtm-messaging
+- name: industry-insights
+  slug: taizen-industry-insights
+- name: messaging-positioning
+  slug: taizen-messaging-positioning
+- name: newsletter-writer
+  slug: taizen-newsletter-writer
+- name: objections-prep
+  slug: taizen-objections-prep
+- name: outreach-templates
+  slug: taizen-outreach-templates
+- name: pricing-packaging
+  slug: taizen-pricing-packaging
+- name: product-context
+  slug: taizen-product-context
 slug: taizen
 tags:
 - Company

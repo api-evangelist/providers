@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.5
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -278,15 +280,12 @@ apis:
     question: How do I pause or resume a Campaign Standard workflow through the REST API?
   phrasing_ops: 1
   slug: adobe-campaign-workflows-api
-artifact_total: 165
+artifact_total: 168
 asyncapis:
 - description: Event-driven transactional messaging system for Adobe Campaign. Supports triggering personalized messages across email, SMS, and push notification channels in response to real-time customer events. Ev
   name: Adobe Campaign Transactional Messaging Events
   slug: adobe-campaign-transactional-messaging-asyncapi-original
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Adobe Campaign Classic Custom Resources API
   slug: open-adobe-campaign-custom-resources-api
@@ -339,122 +338,126 @@ collections:
   name: Adobe Campaign Classic Custom Resources Workflows API
   slug: open-adobe-campaign-workflows-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/adobe-campaign/overview
 - group: company
   title: ''
   type: Website
   url: https://www.adobe.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/capabilities/adobe-campaign-capability-edges.yml
+  href: https://artifacts.apis.io/adobe-campaign/capabilities/adobe-campaign-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/adobe-campaign-capability-edges.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/packages/adobe-campaign-packages.yml
+  href: https://artifacts.apis.io/adobe-campaign/packages/adobe-campaign-packages.yml
   title: ''
   type: Packages
   url: packages/adobe-campaign-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/packages/adobe-campaign-packages.yml
+  href: https://artifacts.apis.io/adobe-campaign/packages/adobe-campaign-packages.yml
   title: ''
   type: SDKs
   url: packages/adobe-campaign-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/well-known/adobe-campaign-well-known.yml
+  href: https://artifacts.apis.io/adobe-campaign/well-known/adobe-campaign-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adobe-campaign-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/well-known/adobe-campaign-security.txt
+  href: https://artifacts.apis.io/adobe-campaign/well-known/adobe-campaign-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/adobe-campaign-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/llms/adobe-campaign-llms.txt
+  href: https://artifacts.apis.io/adobe-campaign/llms/adobe-campaign-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adobe-campaign-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/mcp/adobe-campaign-mcp.yml
+  href: https://artifacts.apis.io/adobe-campaign/mcp/adobe-campaign-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/adobe-campaign-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/conformance/adobe-campaign-conformance.yml
+  href: https://artifacts.apis.io/adobe-campaign/conformance/adobe-campaign-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adobe-campaign-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/security/adobe-campaign-trust-center.yml
+  href: https://artifacts.apis.io/adobe-campaign/security/adobe-campaign-trust-center.yml
   title: ''
   type: Compliance
   url: security/adobe-campaign-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/security/adobe-campaign-trust-center.yml
+  href: https://artifacts.apis.io/adobe-campaign/security/adobe-campaign-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/adobe-campaign-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/security/adobe-campaign-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adobe-campaign/security/adobe-campaign-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/adobe-campaign-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/errors/adobe-campaign-problem-types.yml
+  href: https://artifacts.apis.io/adobe-campaign/errors/adobe-campaign-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adobe-campaign-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/lifecycle/adobe-campaign-lifecycle.yml
+  href: https://artifacts.apis.io/adobe-campaign/lifecycle/adobe-campaign-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adobe-campaign-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/lifecycle/adobe-campaign-lifecycle.yml
+  href: https://artifacts.apis.io/adobe-campaign/lifecycle/adobe-campaign-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/adobe-campaign-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/scopes/adobe-campaign-scopes.yml
+  href: https://artifacts.apis.io/adobe-campaign/scopes/adobe-campaign-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/adobe-campaign-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/conventions/adobe-campaign-conventions.yml
+  href: https://artifacts.apis.io/adobe-campaign/conventions/adobe-campaign-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adobe-campaign-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/changelog/adobe-campaign-changelog.yml
+  href: https://artifacts.apis.io/adobe-campaign/changelog/adobe-campaign-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/adobe-campaign-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/sandbox/adobe-campaign-sandbox.yml
+  href: https://artifacts.apis.io/adobe-campaign/sandbox/adobe-campaign-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/adobe-campaign-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/data-model/adobe-campaign-data-model.yml
+  href: https://artifacts.apis.io/adobe-campaign/data-model/adobe-campaign-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adobe-campaign-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/adobe-campaign/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/plans/adobe-campaign-plans-pricing.yml
+  href: https://artifacts.apis.io/adobe-campaign/plans/adobe-campaign-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adobe-campaign-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/rate-limits/adobe-campaign-rate-limits.yml
+  href: https://artifacts.apis.io/adobe-campaign/rate-limits/adobe-campaign-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adobe-campaign-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/finops/adobe-campaign-finops.yml
+  href: https://artifacts.apis.io/adobe-campaign/finops/adobe-campaign-finops.yml
   title: ''
   type: FinOps
   url: finops/adobe-campaign-finops.yml
@@ -503,22 +506,22 @@ common:
   type: License
   url: https://github.com/adobe/acc-js-sdk/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/agentic-access/adobe-campaign-agentic-access.yml
+  href: https://artifacts.apis.io/adobe-campaign/agentic-access/adobe-campaign-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adobe-campaign-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/security/adobe-campaign-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adobe-campaign/security/adobe-campaign-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adobe-campaign-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/security/adobe-campaign-domain-security.yml
+  href: https://artifacts.apis.io/adobe-campaign/security/adobe-campaign-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adobe-campaign-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/authentication/adobe-campaign-authentication.yml
+  href: https://artifacts.apis.io/adobe-campaign/authentication/adobe-campaign-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adobe-campaign-authentication.yml
@@ -674,12 +677,12 @@ features:
   name: Landing Pages
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Adobe Campaign Finops
   primary_unit: ''
-  service_category: Marketing Automation
+  service_category: ''
   slug: adobe-campaign-finops
-  template: false
+  template: true
 image: /assets/icons/adobe-campaign.png
 integrations:
 - description: Native integration with AEM, Analytics, and Target for unified marketing.
@@ -888,12 +891,12 @@ overview: 'Adobe Campaign publishes 20 API contracts indexed on the [APIs.io](ht
   The Adobe Campaign catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Adobe Campaign''s developer surface includes changelog, sandbox, documentation, API reference, signup flow, pricing, release notes, and 41 more developer resources.'
+  Adobe Campaign''s developer surface includes changelog, sandbox, documentation, API reference, signup flow, pricing, release notes, and 42 more developer resources.'
 plans:
 - name: Adobe Campaign Plans Pricing
   plan_count: 2
   slug: adobe-campaign-plans-pricing
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Adobe Campaign Rate Limits
@@ -940,7 +943,7 @@ scopes:
   summary_line: 3 scopes
 score:
   band: exemplar
-  composite: 70.5
+  composite: 71.9
   coverage:
     artifact_dirs: 34
     catalog_earned: 68.5
@@ -948,18 +951,20 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.3
   facets:
-    access_clarity: 76.3
+    access_clarity: 81.6
     contract_governance: 31.8
-    contract_quality: 68.2
-    developer_ergonomics: 72.0
-    discoverability: 73.2
-    operational_transparency: 65.8
-  open_source:
-    applies: true
-    score: 40.0
-  previous_composite: 72.0
+    contract_quality: 67.0
+    developer_ergonomics: 74.4
+    discoverability: 66.1
+    operational_transparency: 76.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 71.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -976,13 +981,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 44.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/screenshots/adobe-campaign-2026-06-20T164822.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/adobe-campaign/adobe-campaign-2026-06-20T164822.png
 security:
 - kind: authentication
   name: Adobe Campaign Authentication
@@ -1000,6 +1006,16 @@ security:
   name: Adobe Campaign Trust Center
   slug: adobe-campaign-trust-center
   summary_line: trust center published
+skill_count: 4
+skills:
+- name: adobe-campaign-control-workflows-and-deliveries
+  slug: adobe-campaign-control-workflows-and-deliveries
+- name: adobe-campaign-manage-profiles-and-subscriptions
+  slug: adobe-campaign-manage-profiles-and-subscriptions
+- name: adobe-campaign-privacy-and-data-subject-requests
+  slug: adobe-campaign-privacy-and-data-subject-requests
+- name: adobe-campaign-trigger-transactional-message
+  slug: adobe-campaign-trigger-transactional-message
 slug: adobe-campaign
 solutions:
 - description: Cloud-native marketing automation with modern REST APIs and visual workflow designer.

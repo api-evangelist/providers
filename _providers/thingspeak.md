@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-17'
+  score: 21.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -128,7 +130,7 @@ arazzos:
 - description: Post a new feed entry via the form-encoded update endpoint, then read the last entry back.
   name: ThingSpeak Write Update and Read Last Entry
   slug: thingspeak-write-update-and-read-last-entry-workflow
-artifact_total: 72
+artifact_total: 71
 asyncapis:
 - description: ThingSpeak's MQTT broker at `mqtt3.thingspeak.com`. Devices publish channel updates and subscribe to channel/field feeds using MQTT credentials (Client ID, Username, Password) provisioned in the Thing
   name: ThingSpeak MQTT API
@@ -146,9 +148,6 @@ collections:
 - collection_type: postman
   name: ThingSpeak Update API
   slug: postman-thingspeak-update-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ThingSpeak Channels API
   slug: open-thingspeak-channels-api
@@ -169,17 +168,17 @@ collections:
   slug: open-thingspeak-update-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/agentic-access/thingspeak-agentic-access.yml
+  href: https://artifacts.apis.io/thingspeak/agentic-access/thingspeak-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/thingspeak-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/security/thingspeak-domain-security.yml
+  href: https://artifacts.apis.io/thingspeak/security/thingspeak-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thingspeak-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/authentication/thingspeak-authentication.yml
+  href: https://artifacts.apis.io/thingspeak/authentication/thingspeak-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thingspeak-authentication.yml
@@ -188,62 +187,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/thingspeak/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-bulk-update-and-read-field-feed-workflow.yml
+  href: https://artifacts.apis.io/thingspeak/arazzo/thingspeak-bulk-update-and-read-field-feed-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-bulk-update-and-read-field-feed-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-decommission-channel-workflow.yml
+  href: https://artifacts.apis.io/thingspeak/arazzo/thingspeak-decommission-channel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-decommission-channel-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-discover-public-channel-and-read-feed-workflow.yml
+  href: https://artifacts.apis.io/thingspeak/arazzo/thingspeak-discover-public-channel-and-read-feed-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-discover-public-channel-and-read-feed-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-inspect-channel-and-aggregate-feed-workflow.yml
+  href: https://artifacts.apis.io/thingspeak/arazzo/thingspeak-inspect-channel-and-aggregate-feed-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-inspect-channel-and-aggregate-feed-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-list-channels-and-read-feed-workflow.yml
+  href: https://artifacts.apis.io/thingspeak/arazzo/thingspeak-list-channels-and-read-feed-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-list-channels-and-read-feed-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-post-status-and-read-status-updates-workflow.yml
+  href: https://artifacts.apis.io/thingspeak/arazzo/thingspeak-post-status-and-read-status-updates-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-post-status-and-read-status-updates-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-provision-channel-and-seed-reading-workflow.yml
+  href: https://artifacts.apis.io/thingspeak/arazzo/thingspeak-provision-channel-and-seed-reading-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-provision-channel-and-seed-reading-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-queue-and-execute-talkback-command-workflow.yml
+  href: https://artifacts.apis.io/thingspeak/arazzo/thingspeak-queue-and-execute-talkback-command-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-queue-and-execute-talkback-command-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-relabel-field-and-read-last-field-entry-workflow.yml
+  href: https://artifacts.apis.io/thingspeak/arazzo/thingspeak-relabel-field-and-read-last-field-entry-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-relabel-field-and-read-last-field-entry-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-revise-queued-talkback-command-workflow.yml
+  href: https://artifacts.apis.io/thingspeak/arazzo/thingspeak-revise-queued-talkback-command-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-revise-queued-talkback-command-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-sweep-executed-talkback-commands-workflow.yml
+  href: https://artifacts.apis.io/thingspeak/arazzo/thingspeak-sweep-executed-talkback-commands-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-sweep-executed-talkback-commands-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/arazzo/thingspeak-write-update-and-read-last-entry-workflow.yml
+  href: https://artifacts.apis.io/thingspeak/arazzo/thingspeak-write-update-and-read-last-entry-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/thingspeak-write-update-and-read-last-entry-workflow.yml
@@ -411,7 +410,7 @@ features:
 - Sharing channels publicly via read-only links and embedding charts in third-party sites
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Thingspeak Finops
   primary_unit: ''
   service_category: ''
@@ -488,24 +487,24 @@ rules:
     warn: 3
   slug: thingspeak-rules
 score:
-  band: developing
-  composite: 50.9
+  band: strong
+  composite: 55.6
   coverage:
     artifact_dirs: 18
-    catalog_earned: 60.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 54.1
+    catalog_earned: 69.9
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 76.3
     contract_governance: 13.6
-    contract_quality: 64.6
+    contract_quality: 61.6
     developer_ergonomics: 67.9
     discoverability: 66.1
     operational_transparency: 13.2
-  previous_composite: 59.2
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     contracts:
@@ -519,13 +518,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/screenshots/thingspeak-2026-06-20T195303.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/thingspeak/thingspeak-2026-06-20T195303.png
 security:
 - kind: authentication
   name: Thingspeak Authentication

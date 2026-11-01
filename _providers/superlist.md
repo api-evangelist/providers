@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,25 +24,27 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.1
-  scored_at: '2026-10-17'
+  score: 25.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Official hosted Model Context Protocol (MCP) server that acts as the task layer for AI agents. Exposes tools to add, get, update, complete, delete, move, assign, label, and search tasks and lists, plu
   name: Superlist MCP Server
   slug: superlist-mcp-server
-artifact_total: 4
+artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superlist/refs/heads/main/security/superlist-domain-security.yml
+  href: https://artifacts.apis.io/superlist/security/superlist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/superlist-domain-security.yml
@@ -99,52 +101,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/superlistapp
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superlist/refs/heads/main/mcp/superlist-mcp.yml
+  href: https://artifacts.apis.io/superlist/mcp/superlist-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/superlist-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superlist/refs/heads/main/authentication/superlist-authentication.yml
+  href: https://artifacts.apis.io/superlist/authentication/superlist-authentication.yml
   title: ''
   type: Authentication
   url: authentication/superlist-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superlist/refs/heads/main/well-known/superlist-well-known.yml
+  href: https://artifacts.apis.io/superlist/well-known/superlist-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/superlist-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superlist/refs/heads/main/conformance/superlist-conformance.yml
+  href: https://artifacts.apis.io/superlist/conformance/superlist-conformance.yml
   title: ''
   type: Conformance
   url: conformance/superlist-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superlist/refs/heads/main/llms/superlist-llms.txt
+  href: https://artifacts.apis.io/superlist/llms/superlist-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/superlist-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superlist/refs/heads/main/lifecycle/superlist-lifecycle.yml
+  href: https://artifacts.apis.io/superlist/lifecycle/superlist-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/superlist-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superlist/refs/heads/main/conventions/superlist-conventions.yml
+  href: https://artifacts.apis.io/superlist/conventions/superlist-conventions.yml
   title: ''
   type: Conventions
   url: conventions/superlist-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superlist/refs/heads/main/errors/superlist-problem-types.yml
+  href: https://artifacts.apis.io/superlist/errors/superlist-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/superlist-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/superlist/refs/heads/main/changelog/superlist-changelog.yml
+  href: https://artifacts.apis.io/superlist/changelog/superlist-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/superlist-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superlist/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/superlist/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -164,10 +166,10 @@ overview: 'Superlist is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Superlist''s developer surface includes documentation, support, engineering blog, changelog, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 13
+random_paper: 19
 score:
   band: thin
-  composite: 30.7
+  composite: 30.0
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -175,15 +177,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 39.9
-    discoverability: 75.0
-    operational_transparency: 23.7
-  previous_composite: 31.0
+    discoverability: 65.0
+    operational_transparency: 26.3
+  previous_composite: 30.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -194,14 +196,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/superlist/refs/heads/main/screenshots/superlist-2026-09-02T161240.png
+screenshot: https://apis.io/screenshots/superlist/superlist-2026-09-02T161240.png
 security:
 - kind: authentication
   name: Superlist Authentication
@@ -211,6 +213,14 @@ security:
   name: Superlist Domain Security
   slug: superlist-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Capture and organize tasks into lists
+  slug: superlist-capture-and-organize
+- name: Connect an agent to Superlist over MCP
+  slug: superlist-connect-and-authenticate
+- name: Run a daily planning review
+  slug: superlist-daily-planning
 slug: superlist
 tags:
 - Company

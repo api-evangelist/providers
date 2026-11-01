@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,17 +36,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/canadian-western-bank/refs/heads/main/security/canadian-western-bank-domain-security.yml
+  href: https://artifacts.apis.io/canadian-western-bank/security/canadian-western-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/canadian-western-bank-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canadian-western-bank/refs/heads/main/llms/canadian-western-bank-llms.txt
+  href: https://artifacts.apis.io/canadian-western-bank/llms/canadian-western-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/canadian-western-bank-llms.txt
@@ -74,10 +76,10 @@ name: Canadian Western Bank
 nav: Providers
 network: true
 overview: Canadian Western Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Schedule I Bank, and Business Banking.
-random_paper: 3
+random_paper: 5
 score:
   band: minimal
-  composite: 3.2
+  composite: 2.5
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -91,7 +93,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -100,21 +102,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 3.2
+  previous_composite: 2.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/canadian-western-bank/refs/heads/main/screenshots/canadian-western-bank-2026-07-25T204330.png
+screenshot: https://apis.io/screenshots/canadian-western-bank/canadian-western-bank-2026-07-25T204330.png
 security:
 - kind: domain-security
   name: Canadian Western Bank Domain Security

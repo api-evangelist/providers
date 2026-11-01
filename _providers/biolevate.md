@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 32.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -89,11 +91,8 @@ apis:
   description: Question Answering resource management
   name: Biolevate Question Answering API
   slug: biolevate-question-answering-api
-artifact_total: 22
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Biolevate Agent API
   slug: open-biolevate-agent-api
@@ -122,8 +121,13 @@ collections:
   name: Biolevate Agent Question Answering API
   slug: open-biolevate-question-answering-api
 common:
+- group: other
+  href: https://artifacts.apis.io/biolevate/capabilities/biolevate-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/biolevate-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/openapi/_original/biolevate-api-original.json
+  href: https://artifacts.apis.io/biolevate/openapi/_original/biolevate-api-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/biolevate-api-original.json
@@ -140,92 +144,92 @@ common:
   type: GettingStarted
   url: https://api-docs.biolevatecloud.com/biolevateapi/intro
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/authentication/biolevate-authentication.yml
+  href: https://artifacts.apis.io/biolevate/authentication/biolevate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/biolevate-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/packages/biolevate-packages.yml
+  href: https://artifacts.apis.io/biolevate/packages/biolevate-packages.yml
   title: ''
   type: Packages
   url: packages/biolevate-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/packages/biolevate-packages.yml
+  href: https://artifacts.apis.io/biolevate/packages/biolevate-packages.yml
   title: ''
   type: SDKs
   url: packages/biolevate-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/cli/biolevate-cli.yml
+  href: https://artifacts.apis.io/biolevate/cli/biolevate-cli.yml
   title: ''
   type: CLI
   url: cli/biolevate-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/mcp/biolevate-mcp.yml
+  href: https://artifacts.apis.io/biolevate/mcp/biolevate-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/biolevate-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/biolevate/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/agentic-access/biolevate-agentic-access.yml
+  href: https://artifacts.apis.io/biolevate/agentic-access/biolevate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/biolevate-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/llms/biolevate-llms.txt
+  href: https://artifacts.apis.io/biolevate/llms/biolevate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/biolevate-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/overlays/biolevate-api-overlay.yaml
+  href: https://artifacts.apis.io/biolevate/overlays/biolevate-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/biolevate-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/conventions/biolevate-conventions.yml
+  href: https://artifacts.apis.io/biolevate/conventions/biolevate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/biolevate-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/conventions/biolevate-conventions.yml
+  href: https://artifacts.apis.io/biolevate/conventions/biolevate-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/biolevate-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/errors/biolevate-problem-types.yml
+  href: https://artifacts.apis.io/biolevate/errors/biolevate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/biolevate-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/data-model/biolevate-data-model.yml
+  href: https://artifacts.apis.io/biolevate/data-model/biolevate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/biolevate-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/conformance/biolevate-conformance.yml
+  href: https://artifacts.apis.io/biolevate/conformance/biolevate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/biolevate-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/lifecycle/biolevate-lifecycle.yml
+  href: https://artifacts.apis.io/biolevate/lifecycle/biolevate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/biolevate-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/changelog/biolevate-changelog.yml
+  href: https://artifacts.apis.io/biolevate/changelog/biolevate-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/biolevate-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/well-known/biolevate-well-known.yml
+  href: https://artifacts.apis.io/biolevate/well-known/biolevate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/biolevate-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/security/biolevate-domain-security.yml
+  href: https://artifacts.apis.io/biolevate/security/biolevate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/biolevate-domain-security.yml
@@ -268,26 +272,26 @@ network: true
 overview: 'Biolevate publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Collections API, Extraction API, and 6 more. Tagged areas include Company, Artificial Intelligence, Life Sciences, Regulatory Affairs, and Document Intelligence.
 
 
-  Biolevate''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 22 more developer resources.'
-random_paper: 9
+  Biolevate''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 23 more developer resources.'
+random_paper: 19
 score:
   band: developing
-  composite: 39.8
+  composite: 39.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 49.2
+    contract_quality: 47.8
     developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 21.1
   previous_composite: 39.7
   provenance:
     agentic_access: derived
@@ -305,13 +309,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/screenshots/biolevate-2026-07-25T203041.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/biolevate/biolevate-2026-07-25T203041.png
 security:
 - kind: authentication
   name: Biolevate Authentication
@@ -321,6 +326,14 @@ security:
   name: Biolevate Domain Security
   slug: biolevate-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Extract typed metadata from documents
+  slug: biolevate-extract-metadata
+- name: Index a document and ask questions
+  slug: biolevate-index-and-ask
+- name: Organize indexed files into a collection
+  slug: biolevate-organize-collection
 slug: biolevate
 tags:
 - Company

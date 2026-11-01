@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 22.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -67,11 +69,8 @@ apis:
   description: Available stationery and cards
   name: Handwrite IO Stationery API
   slug: handwrite-io-stationery-api
-artifact_total: 17
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Handwrite IO Handwriting API
   slug: open-handwrite-io-handwriting-api
@@ -89,77 +88,77 @@ collections:
   slug: open-handwrite-io
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/agentic-access/handwrite-io-agentic-access.yml
+  href: https://artifacts.apis.io/handwrite-io/agentic-access/handwrite-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/handwrite-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/security/handwrite-io-domain-security.yml
+  href: https://artifacts.apis.io/handwrite-io/security/handwrite-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/handwrite-io-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/authentication/handwrite-io-authentication.yml
+  href: https://artifacts.apis.io/handwrite-io/authentication/handwrite-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/handwrite-io-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/conventions/handwrite-io-conventions.yml
+  href: https://artifacts.apis.io/handwrite-io/conventions/handwrite-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/handwrite-io-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/errors/handwrite-io-problem-types.yml
+  href: https://artifacts.apis.io/handwrite-io/errors/handwrite-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/handwrite-io-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/rate-limits/handwrite-io-rate-limits.yml
+  href: https://artifacts.apis.io/handwrite-io/rate-limits/handwrite-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/handwrite-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/plans/handwrite-io-plans-pricing.yml
+  href: https://artifacts.apis.io/handwrite-io/plans/handwrite-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/handwrite-io-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/finops/handwrite-io-finops.yml
+  href: https://artifacts.apis.io/handwrite-io/finops/handwrite-io-finops.yml
   title: ''
   type: FinOps
   url: finops/handwrite-io-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/lifecycle/handwrite-io-lifecycle.yml
+  href: https://artifacts.apis.io/handwrite-io/lifecycle/handwrite-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/handwrite-io-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/sandbox/handwrite-io-sandbox.yml
+  href: https://artifacts.apis.io/handwrite-io/sandbox/handwrite-io-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/handwrite-io-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/data-model/handwrite-io-data-model.yml
+  href: https://artifacts.apis.io/handwrite-io/data-model/handwrite-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/handwrite-io-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/conformance/handwrite-io-conformance.yml
+  href: https://artifacts.apis.io/handwrite-io/conformance/handwrite-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/handwrite-io-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/packages/handwrite-io-packages.yml
+  href: https://artifacts.apis.io/handwrite-io/packages/handwrite-io-packages.yml
   title: ''
   type: Packages
   url: packages/handwrite-io-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/handwrite-io/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/llms/handwrite-io-llms.txt
+  href: https://artifacts.apis.io/handwrite-io/llms/handwrite-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/handwrite-io-llms.txt
@@ -219,13 +218,13 @@ created: '2024-11-14'
 description: 'Handwrite is a South Carolina based direct-mail service that writes and mails real handwritten cards on demand, and exposes that fulfillment as a small REST API at https://api.handwrite.io/v1. Four operations cover the whole surface: list the handwriting styles on the account, list the stationery and card options, send a card to between one and ten US recipients (or up to 1,000 orders in a single batch request), and fetch an order to follow it from processing through written to complete and retrieve proof images of the finished card and envelope. Authentication is a single static API key sent raw in the Authorization header, prefixed test_hw for unbilled test-mode calls or live_hw for calls that actually mail and bill. Pricing is per mailed card rather than per API call, from $2.99 down to $2.45 by volume, with the card, envelope, handwriting and postage included. The API is rate limited to 60 requests per minute per key. Handwrite also ships a Zapier integration for teams
   that do not want to write code.'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Handwrite Io Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: card
+  service_category: ''
   slug: handwrite-io-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/handwrite-io.png
 layout: provider
 modified: '2026-08-13'
@@ -243,7 +242,7 @@ plans:
 - name: Handwrite Io Plans Pricing
   plan_count: 5
   slug: handwrite-io-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Handwrite Io Rate Limits
@@ -263,23 +262,23 @@ rules:
   slug: handwrite-io-rules
 score:
   band: developing
-  composite: 45.0
+  composite: 50.7
   coverage:
     artifact_dirs: 26
-    catalog_earned: 58.3
+    catalog_earned: 61.3
     catalog_earned_first_party: 20.0
-    catalog_gap: 56.8
+    catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.7
+  delta: 1.6
   facets:
-    access_clarity: 55.3
+    access_clarity: 63.2
     contract_governance: 22.0
     contract_quality: 50.2
-    developer_ergonomics: 51.8
+    developer_ergonomics: 67.3
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 47.7
+    operational_transparency: 26.3
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -296,13 +295,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/screenshots/handwrite-io-2026-06-20T182501.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/handwrite-io/handwrite-io-2026-06-20T182501.png
 security:
 - kind: authentication
   name: Handwrite Io Authentication
@@ -312,6 +312,14 @@ security:
   name: Handwrite Io Domain Security
   slug: handwrite-io-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: handwrite-io-browse-options
+  slug: handwrite-io-browse-options
+- name: handwrite-io-send-handwritten-card
+  slug: handwrite-io-send-handwritten-card
+- name: handwrite-io-track-order
+  slug: handwrite-io-track-order
 slug: handwrite-io
 tags:
 - Direct Mail

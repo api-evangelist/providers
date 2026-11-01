@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.7
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.ready2order.com/v1
@@ -217,15 +219,12 @@ apis:
   description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Webhooks push e
   name: Ready2order Webhook API
   slug: ready2order-webhook-api
-artifact_total: 79
+artifact_total: 82
 asyncapis:
 - description: ''
   name: Ready2Order Webhooks
   slug: ready2order-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ready2order Public Account Token API
   slug: open-ready2order-account-token-api
@@ -336,12 +335,12 @@ collections:
   slug: open-ready2order-webhook-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/rate-limits/ready2order-rate-limits.yml
+  href: https://artifacts.apis.io/ready2order/rate-limits/ready2order-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ready2order-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/plans/ready2order-plans-pricing.yml
+  href: https://artifacts.apis.io/ready2order/plans/ready2order-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ready2order-plans-pricing.yml
@@ -350,7 +349,7 @@ common:
   type: Website
   url: https://www.ready2order.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/capabilities/ready2order-capability-edges.yml
+  href: https://artifacts.apis.io/ready2order/capabilities/ready2order-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ready2order-capability-edges.yml
@@ -395,87 +394,95 @@ common:
   type: GitHubOrganization
   url: https://github.com/ready2order
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/openapi/_original/ready2order-openapi-original.json
+  href: https://artifacts.apis.io/ready2order/openapi/_original/ready2order-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/ready2order-openapi-original.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/overlays/ready2order-openapi-overlay.yaml
+  href: https://artifacts.apis.io/ready2order/overlays/ready2order-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ready2order-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/authentication/ready2order-authentication.yml
+  href: https://artifacts.apis.io/ready2order/authentication/ready2order-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ready2order-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/security/ready2order-domain-security.yml
+  href: https://artifacts.apis.io/ready2order/security/ready2order-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ready2order-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/conventions/ready2order-conventions.yml
+  href: https://artifacts.apis.io/ready2order/conventions/ready2order-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ready2order-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/errors/ready2order-problem-types.yml
+  href: https://artifacts.apis.io/ready2order/errors/ready2order-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ready2order-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/lifecycle/ready2order-lifecycle.yml
+  href: https://artifacts.apis.io/ready2order/lifecycle/ready2order-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ready2order-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/conformance/ready2order-conformance.yml
+  href: https://artifacts.apis.io/ready2order/conformance/ready2order-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ready2order-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/data-model/ready2order-data-model.yml
+  href: https://artifacts.apis.io/ready2order/data-model/ready2order-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ready2order-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/well-known/ready2order-well-known.yml
+  href: https://artifacts.apis.io/ready2order/well-known/ready2order-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ready2order-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/packages/ready2order-packages.yml
+  href: https://artifacts.apis.io/ready2order/packages/ready2order-packages.yml
   title: ''
   type: Packages
   url: packages/ready2order-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/packages/ready2order-packages.yml
+  href: https://artifacts.apis.io/ready2order/packages/ready2order-packages.yml
   title: ''
   type: SDKs
   url: packages/ready2order-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/mcp/ready2order-mcp.yml
+  href: https://artifacts.apis.io/ready2order/mcp/ready2order-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ready2order-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/llms/ready2order-llms.txt
+  href: https://artifacts.apis.io/ready2order/llms/ready2order-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ready2order-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/asyncapi/ready2order-webhooks.yml
+  href: https://artifacts.apis.io/ready2order/asyncapi/ready2order-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ready2order-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ready2order/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: ready2order is an Austrian cloud point-of-sale (POS) system for small businesses in gastronomy, retail, and services, running on tablets, phones, computers, and dedicated terminals. Its Public API (v1) lets integrations manage the full POS surface — products and product groups, stock, orders and tables, bills/invoices, customers and customer groups, coupons, discounts, payment methods, printing, daily reports, and accounting exports — secured with a Bearer Account Token and kept in sync through 17 push webhook events. The platform is tax-office compliant for Austria, Germany, and Switzerland. Surfaced as a portfolio company of Speedinvest and enriched into the API Evangelist network from its published OpenAPI and developer documentation.
+finops:
+- has_sources: true
+  method: derived
+  name: Ready2Order Finops
+  primary_unit: hardware
+  service_category: ''
+  slug: ready2order-finops
+  template: false
 image: https://ready2order.com/favicon.ico
 layout: provider
 modified: '2026-07-20'
@@ -496,35 +503,35 @@ plans:
 - name: Ready2Order Price Estimates
   plan_count: 0
   slug: ready2order-price-estimates
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Ready2Order Rate Limits
   slug: ready2order-rate-limits
 score:
   band: developing
-  composite: 52.5
+  composite: 53.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 57.0
+    artifact_dirs: 23
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 60.7
+    contract_quality: 57.4
     developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 31.6
+    discoverability: 66.1
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - austria
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 52.4
+  previous_composite: 52.0
   provenance:
     conformance: derived
     contracts:
@@ -540,13 +547,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/screenshots/ready2order-2026-08-17T081455.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ready2order/ready2order-2026-08-17T081455.png
 security:
 - kind: authentication
   name: Ready2Order Authentication
@@ -556,6 +564,14 @@ security:
   name: Ready2Order Domain Security
   slug: ready2order-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Create customers and issue bills
+  slug: ready2order-invoice-and-customer
+- name: Manage the ready2order product catalog
+  slug: ready2order-manage-catalog
+- name: Subscribe to ready2order webhook events
+  slug: ready2order-webhook-sync
 slug: ready2order
 tags:
 - Company

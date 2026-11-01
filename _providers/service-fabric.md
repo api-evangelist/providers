@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.6
-  scored_at: '2026-10-17'
+  score: 21.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -71,11 +73,8 @@ apis:
   description: Service management within applications
   name: Service Fabric Services API
   slug: service-fabric-services-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Service Fabric Cluster Management Applications API
   slug: open-service-fabric-applications-api
@@ -96,37 +95,37 @@ collections:
   slug: open-service-fabric-services-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/plans/service-fabric-plans-pricing.yml
+  href: https://artifacts.apis.io/service-fabric/plans/service-fabric-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/service-fabric-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/rate-limits/service-fabric-rate-limits.yml
+  href: https://artifacts.apis.io/service-fabric/rate-limits/service-fabric-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/service-fabric-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/finops/service-fabric-finops.yml
+  href: https://artifacts.apis.io/service-fabric/finops/service-fabric-finops.yml
   title: ''
   type: FinOps
   url: finops/service-fabric-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/capabilities/service-fabric-capability-edges.yml
+  href: https://artifacts.apis.io/service-fabric/capabilities/service-fabric-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/service-fabric-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/agentic-access/service-fabric-agentic-access.yml
+  href: https://artifacts.apis.io/service-fabric/agentic-access/service-fabric-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/service-fabric-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/security/service-fabric-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/service-fabric/security/service-fabric-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/service-fabric-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/security/service-fabric-domain-security.yml
+  href: https://artifacts.apis.io/service-fabric/security/service-fabric-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/service-fabric-domain-security.yml
@@ -159,37 +158,37 @@ common:
   type: License
   url: https://github.com/microsoft/service-fabric/blob/master/LICENSE
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/json-schema/service-fabric-application-schema.json
+  href: https://artifacts.apis.io/service-fabric/json-schema/service-fabric-application-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/service-fabric-application-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/json-structure/service-fabric-application-structure.json
+  href: https://artifacts.apis.io/service-fabric/json-structure/service-fabric-application-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/service-fabric-application-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/json-ld/service-fabric-context.jsonld
+  href: https://artifacts.apis.io/service-fabric/json-ld/service-fabric-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/service-fabric-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/examples/service-fabric-create-application-example.json
+  href: https://artifacts.apis.io/service-fabric/examples/service-fabric-create-application-example.json
   title: ''
   type: Examples
   url: examples/service-fabric-create-application-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/examples/service-fabric-get-cluster-health-example.json
+  href: https://artifacts.apis.io/service-fabric/examples/service-fabric-get-cluster-health-example.json
   title: ''
   type: Examples
   url: examples/service-fabric-get-cluster-health-example.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/vocabulary/service-fabric-vocabulary.yml
+  href: https://artifacts.apis.io/service-fabric/vocabulary/service-fabric-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/service-fabric-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/rules/service-fabric-rules.yml
+  href: https://artifacts.apis.io/service-fabric/rules/service-fabric-rules.yml
   title: ''
   type: SpectralRules
   url: rules/service-fabric-rules.yml
@@ -206,7 +205,7 @@ finops:
 - has_sources: false
   method: generated
   name: Service Fabric Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: service-fabric-finops
   template: true
@@ -240,7 +239,7 @@ plans:
 - name: Service Fabric Plans Pricing
   plan_count: 3
   slug: service-fabric-plans-pricing
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Service Fabric Rate Limits
@@ -271,7 +270,7 @@ rules:
   slug: service-fabric-rules
 score:
   band: thin
-  composite: 34.0
+  composite: 36.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 60.4
@@ -279,15 +278,15 @@ score:
     catalog_gap: 54.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 57.6
     developer_ergonomics: 28.6
     discoverability: 57.1
-    operational_transparency: 28.9
-  previous_composite: 35.5
+    operational_transparency: 39.5
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -301,13 +300,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/screenshots/service-fabric-2026-06-20T193724.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/service-fabric/service-fabric-2026-06-20T193724.png
 security:
 - kind: domain-security
   name: Service Fabric Domain Security

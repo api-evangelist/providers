@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,20 +36,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API (v3) for the Fiddler AI Observability platform — projects, models, applications, events, traces/sessions/spans, evaluators, alert rules, guardrails, custom metrics, and jobs. Resource-oriente
   name: Fiddler REST API
   slug: fiddler-rest-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Fiddlerai Alerts Webhooks
   slug: fiddlerai-alerts-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/plans/fiddlerai-plans-pricing.yml
+  href: https://artifacts.apis.io/fiddlerai/plans/fiddlerai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fiddlerai-plans-pricing.yml
@@ -56,7 +58,7 @@ common:
   type: BlogRSS
   url: https://www.fiddler.ai/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/security/fiddlerai-domain-security.yml
+  href: https://artifacts.apis.io/fiddlerai/security/fiddlerai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fiddlerai-domain-security.yml
@@ -109,37 +111,37 @@ common:
   type: ChangeLog
   url: https://docs.fiddler.ai/changelog/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/mcp/fiddlerai-mcp.yml
+  href: https://artifacts.apis.io/fiddlerai/mcp/fiddlerai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/fiddlerai-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/packages/fiddlerai-packages.yml
+  href: https://artifacts.apis.io/fiddlerai/packages/fiddlerai-packages.yml
   title: ''
   type: Packages
   url: packages/fiddlerai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/packages/fiddlerai-packages.yml
+  href: https://artifacts.apis.io/fiddlerai/packages/fiddlerai-packages.yml
   title: ''
   type: SDKs
   url: packages/fiddlerai-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/authentication/fiddlerai-authentication.yml
+  href: https://artifacts.apis.io/fiddlerai/authentication/fiddlerai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fiddlerai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/conventions/fiddlerai-conventions.yml
+  href: https://artifacts.apis.io/fiddlerai/conventions/fiddlerai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fiddlerai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/errors/fiddlerai-problem-types.yml
+  href: https://artifacts.apis.io/fiddlerai/errors/fiddlerai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fiddlerai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/lifecycle/fiddlerai-lifecycle.yml
+  href: https://artifacts.apis.io/fiddlerai/lifecycle/fiddlerai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fiddlerai-lifecycle.yml
@@ -148,7 +150,7 @@ common:
   type: Deprecation
   url: https://docs.fiddler.ai/changelog/python-sdk
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/conformance/fiddlerai-conformance.yml
+  href: https://artifacts.apis.io/fiddlerai/conformance/fiddlerai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fiddlerai-conformance.yml
@@ -161,22 +163,30 @@ common:
   type: TrustCenter
   url: https://trust-center.fiddler.ai
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/asyncapi/fiddlerai-alerts-webhooks.yml
+  href: https://artifacts.apis.io/fiddlerai/asyncapi/fiddlerai-alerts-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fiddlerai-alerts-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/data-model/fiddlerai-data-model.yml
+  href: https://artifacts.apis.io/fiddlerai/data-model/fiddlerai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fiddlerai-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/llms/fiddlerai-llms.txt
+  href: https://artifacts.apis.io/fiddlerai/llms/fiddlerai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fiddlerai-llms.txt
 created: '2026-07-17'
 description: Fiddler AI is an enterprise AI Observability and Security platform — an "AI Control Plane" for AI agents, LLM applications, and traditional ML models. It delivers unified monitoring, real-time guardrails (safety, hallucination/faithfulness, and PII/sensitive-data detection), evaluation and experiments, drift and performance tracking, LLM-as-a-Judge custom evaluators, alerting, and governance/compliance across the AI lifecycle. Fiddler exposes a REST API (v3), an official Python client (fiddler-client), OpenTelemetry-native ingestion, and a remote MCP server for agent-native access to observability data.
+finops:
+- has_sources: true
+  method: derived
+  name: Fiddlerai Finops
+  primary_unit: trace
+  service_category: ''
+  slug: fiddlerai-finops
+  template: false
 layout: provider
 mcp_servers:
 - description: Remote MCP server over HTTP.
@@ -197,26 +207,26 @@ plans:
 - name: Fiddlerai Plans Pricing
   plan_count: 3
   slug: fiddlerai-plans-pricing
-random_paper: 8
+random_paper: 20
 score:
-  band: developing
-  composite: 53.7
+  band: strong
+  composite: 54.9
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 47.0
+    artifact_dirs: 18
+    catalog_earned: 50.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.5
   facets:
-    access_clarity: 78.9
+    access_clarity: 86.8
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 68.3
-    operational_transparency: 34.2
-  previous_composite: 47.3
+    discoverability: 61.7
+    operational_transparency: 36.8
+  previous_composite: 53.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -230,14 +240,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/screenshots/fiddlerai-2026-07-25T214413.png
+screenshot: https://apis.io/screenshots/fiddlerai/fiddlerai-2026-07-25T214413.png
 security:
 - kind: authentication
   name: Fiddlerai Authentication

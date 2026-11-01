@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,7 +72,7 @@ apis:
   description: Application settings exposed to the client.
   name: Australian Energy Market Commission Settings API
   slug: aemc-settings-api
-artifact_total: 17
+artifact_total: 20
 collections:
 - collection_type: open
   name: AEMC Energy Rules API
@@ -125,82 +127,82 @@ common:
   type: PrivacyPolicy
   url: https://www.aemc.gov.au/terms-use/privacy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/openapi/_original/aemc-energy-rules-openapi-derived.yml
+  href: https://artifacts.apis.io/aemc/openapi/_original/aemc-energy-rules-openapi-derived.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/aemc-energy-rules-openapi-derived.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/authentication/aemc-authentication.yml
+  href: https://artifacts.apis.io/aemc/authentication/aemc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aemc-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/conventions/aemc-conventions.yml
+  href: https://artifacts.apis.io/aemc/conventions/aemc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aemc-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/errors/aemc-problem-types.yml
+  href: https://artifacts.apis.io/aemc/errors/aemc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aemc-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/rate-limits/aemc-rate-limits.yml
+  href: https://artifacts.apis.io/aemc/rate-limits/aemc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aemc-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/aemc/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/data-model/aemc-data-model.yml
+  href: https://artifacts.apis.io/aemc/data-model/aemc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aemc-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/lifecycle/aemc-lifecycle.yml
+  href: https://artifacts.apis.io/aemc/lifecycle/aemc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aemc-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/changelog/aemc-changelog.yml
+  href: https://artifacts.apis.io/aemc/changelog/aemc-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aemc-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/conformance/aemc-conformance.yml
+  href: https://artifacts.apis.io/aemc/conformance/aemc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aemc-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/mcp/aemc-mcp.yml
+  href: https://artifacts.apis.io/aemc/mcp/aemc-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/aemc-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aemc/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/overlays/aemc-energy-rules-overlay.yaml
+  href: https://artifacts.apis.io/aemc/overlays/aemc-energy-rules-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aemc-energy-rules-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/llms/aemc-llms.txt
+  href: https://artifacts.apis.io/aemc/llms/aemc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aemc-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/agentic-access/aemc-agentic-access.yml
+  href: https://artifacts.apis.io/aemc/agentic-access/aemc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aemc-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/security/aemc-domain-security.yml
+  href: https://artifacts.apis.io/aemc/security/aemc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aemc-domain-security.yml
@@ -240,14 +242,14 @@ overview: 'Australian Energy Market Commission publishes 5 API contracts indexed
 
 
   Australian Energy Market Commission''s developer surface includes support, documentation, engineering blog, authentication, code examples, changelog, and 22 more developer resources.'
-random_paper: 10
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Aemc Rate Limits
   slug: aemc-rate-limits
 score:
   band: thin
-  composite: 28.1
+  composite: 27.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -261,7 +263,7 @@ score:
     contract_governance: 4.5
     contract_quality: 15.7
     developer_ergonomics: 39.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -270,7 +272,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 28.1
+  previous_composite: 27.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,13 +289,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 27.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Aemc Authentication
@@ -303,6 +305,14 @@ security:
   name: Aemc Domain Security
   slug: aemc-domain-security
   summary_line: TLSv1.2 · DMARC
+skill_count: 3
+skills:
+- name: Look up a rule in the current Australian energy rules
+  slug: aemc-look-up-current-rule
+- name: Search the energy rules and resolve defined terms
+  slug: aemc-search-rules-and-resolve-terms
+- name: Track energy rule versions over time
+  slug: aemc-track-rule-versions-over-time
 slug: aemc
 tags:
 - Energy

@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 38.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: Suppliers and their packages.
   name: Apicbase Suppliers API
   slug: apicbase-suppliers-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apicbase Ingredients API
   slug: open-apicbase-ingredients-api
@@ -111,27 +110,27 @@ common:
   type: BlogRSS
   url: https://get.apicbase.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/capabilities/apicbase-capability-edges.yml
+  href: https://artifacts.apis.io/apicbase/capabilities/apicbase-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/apicbase-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/agentic-access/apicbase-agentic-access.yml
+  href: https://artifacts.apis.io/apicbase/agentic-access/apicbase-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apicbase-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/security/apicbase-domain-security.yml
+  href: https://artifacts.apis.io/apicbase/security/apicbase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apicbase-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/authentication/apicbase-authentication.yml
+  href: https://artifacts.apis.io/apicbase/authentication/apicbase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apicbase-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/scopes/apicbase-scopes.yml
+  href: https://artifacts.apis.io/apicbase/scopes/apicbase-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/apicbase-scopes.yml
@@ -152,17 +151,17 @@ common:
   type: Documentation
   url: https://developers.apicbase.com/docs/welcome
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/plans/apicbase-plans-pricing.yml
+  href: https://artifacts.apis.io/apicbase/plans/apicbase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apicbase-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/rate-limits/apicbase-rate-limits.yml
+  href: https://artifacts.apis.io/apicbase/rate-limits/apicbase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apicbase-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/finops/apicbase-finops.yml
+  href: https://artifacts.apis.io/apicbase/finops/apicbase-finops.yml
   title: ''
   type: FinOps
   url: finops/apicbase-finops.yml
@@ -194,7 +193,7 @@ plans:
 - name: Apicbase Plans Pricing
   plan_count: 4
   slug: apicbase-plans-pricing
-random_paper: 10
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Apicbase Rate Limits
@@ -206,7 +205,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 27.1
+  composite: 29.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 43.0
@@ -214,15 +213,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 49.3
-    developer_ergonomics: 23.8
-    discoverability: 68.3
-    operational_transparency: 10.5
-  previous_composite: 34.9
+    developer_ergonomics: 32.1
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 29.6
   provenance:
     agentic_access: derived
     contracts:
@@ -237,13 +236,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/screenshots/apicbase-2026-07-25T200623.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apicbase/apicbase-2026-07-25T200623.png
 security:
 - kind: authentication
   name: Apicbase Authentication

@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-17'
+  score: 16.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,11 +74,8 @@ apis:
   description: Endpoints for searching and retrieving distributed traces.
   name: Jaeger Traces API
   slug: jaeger-traces-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Jaeger Query Dependencies API
   slug: open-jaeger-dependencies-api
@@ -94,22 +93,22 @@ collections:
   slug: open-jaeger-traces-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/plans/jaeger-plans-pricing.yml
+  href: https://artifacts.apis.io/jaeger/plans/jaeger-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jaeger-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/rate-limits/jaeger-rate-limits.yml
+  href: https://artifacts.apis.io/jaeger/rate-limits/jaeger-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jaeger-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/finops/jaeger-finops.yml
+  href: https://artifacts.apis.io/jaeger/finops/jaeger-finops.yml
   title: ''
   type: FinOps
   url: finops/jaeger-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/capabilities/jaeger-capability-edges.yml
+  href: https://artifacts.apis.io/jaeger/capabilities/jaeger-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/jaeger-capability-edges.yml
@@ -138,12 +137,12 @@ common:
   type: License
   url: https://github.com/jaegertracing/jaeger/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/agentic-access/jaeger-agentic-access.yml
+  href: https://artifacts.apis.io/jaeger/agentic-access/jaeger-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/jaeger-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/security/jaeger-domain-security.yml
+  href: https://artifacts.apis.io/jaeger/security/jaeger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jaeger-domain-security.yml
@@ -184,12 +183,12 @@ common:
   type: ChangeLog
   url: https://github.com/jaegertracing/jaeger/blob/main/CHANGELOG.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/json-ld/jaeger-trace.yml
+  href: https://artifacts.apis.io/jaeger/json-ld/jaeger-trace.yml
   title: ''
   type: JSONLD
   url: json-ld/jaeger-trace.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/json-schema/jaeger-trace.yml
+  href: https://artifacts.apis.io/jaeger/json-schema/jaeger-trace.yml
   title: ''
   type: JSONSchema
   url: json-schema/jaeger-trace.yml
@@ -199,7 +198,7 @@ finops:
 - has_sources: false
   method: generated
   name: Jaeger Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: jaeger-finops
   template: true
@@ -220,7 +219,7 @@ plans:
 - name: Jaeger Plans Pricing
   plan_count: 3
   slug: jaeger-plans-pricing
-random_paper: 6
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Jaeger Rate Limits
@@ -239,7 +238,7 @@ rules:
   slug: jaeger-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.5
+  composite: 28.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 36.3
@@ -247,18 +246,15 @@ score:
     catalog_gap: 78.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 41.5
     developer_ergonomics: 35.7
     discoverability: 48.2
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 34.0
+    operational_transparency: 39.5
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     contracts:
@@ -272,14 +268,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/screenshots/jaeger-2026-06-20T183651.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/jaeger/jaeger-2026-06-20T183651.png
 security:
 - kind: domain-security
   name: Jaeger Domain Security

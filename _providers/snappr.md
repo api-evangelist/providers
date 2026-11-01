@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -90,15 +92,12 @@ apis:
   description: Retrieve videos for bookings.
   name: Snappr Videos API
   slug: snappr-videos-api
-artifact_total: 23
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Snappr Webhooks
   slug: snappr-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Snappr Availability API
   slug: open-snappr-availability-api
@@ -128,17 +127,17 @@ collections:
   slug: open-snappr-videos-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/overlays/snappr-openapi-overlay.yaml
+  href: https://artifacts.apis.io/snappr/overlays/snappr-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snappr-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/agentic-access/snappr-agentic-access.yml
+  href: https://artifacts.apis.io/snappr/agentic-access/snappr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/snappr-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/security/snappr-domain-security.yml
+  href: https://artifacts.apis.io/snappr/security/snappr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snappr-domain-security.yml
@@ -163,12 +162,12 @@ common:
   type: GettingStarted
   url: https://docs.snappr.com/#introduction
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/authentication/snappr-authentication.yml
+  href: https://artifacts.apis.io/snappr/authentication/snappr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/snappr-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/sandbox/snappr-sandbox.yml
+  href: https://artifacts.apis.io/snappr/sandbox/snappr-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/snappr-sandbox.yml
@@ -177,27 +176,27 @@ common:
   type: StatusPage
   url: https://snappr.statuspage.io
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/asyncapi/snappr-webhooks.yml
+  href: https://artifacts.apis.io/snappr/asyncapi/snappr-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/snappr-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/conventions/snappr-conventions.yml
+  href: https://artifacts.apis.io/snappr/conventions/snappr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/snappr-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/mcp/snappr-mcp.yml
+  href: https://artifacts.apis.io/snappr/mcp/snappr-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/snappr-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/snappr/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/llms/snappr-llms.txt
+  href: https://artifacts.apis.io/snappr/llms/snappr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/snappr-llms.txt
@@ -248,10 +247,10 @@ overview: 'Snappr publishes 9 API contracts indexed on the [APIs.io](https://api
 
 
   Snappr''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 17 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
-  band: thin
-  composite: 38.5
+  band: developing
+  composite: 40.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -259,15 +258,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 22.2
-    developer_ergonomics: 60.1
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 38.4
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -284,13 +283,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/screenshots/snappr-2026-08-17T081939.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/snappr/snappr-2026-08-17T081939.png
 security:
 - kind: authentication
   name: Snappr Authentication
@@ -300,6 +300,14 @@ security:
   name: Snappr Domain Security
   slug: snappr-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Book a Snappr photoshoot
+  slug: snappr-book-a-photoshoot
+- name: Retrieve photoshoot images and videos
+  slug: snappr-retrieve-shoot-assets
+- name: Run a Snappr editing job
+  slug: snappr-run-an-editing-job
 slug: snappr
 tags:
 - Company

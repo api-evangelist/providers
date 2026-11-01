@@ -14,22 +14,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.9
-  scored_at: '2026-10-17'
+  score: 11.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Verily Workbench control-plane REST API. Three services are reachable under the workbench.verily.com/api base path: `wsm` (Workspace Manager — workspaces, folders, controlled and referenced cloud '
   name: Verily Workbench API
   slug: verily-life-sciences-workbench-api
-artifact_total: 7
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -80,82 +82,90 @@ common:
   type: TrustCenter
   url: https://verily.com/security-trust
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/plans/verily-life-sciences-plans-pricing.yml
+  href: https://artifacts.apis.io/verily-life-sciences/plans/verily-life-sciences-plans-pricing.yml
   title: ''
   type: Pricing
   url: plans/verily-life-sciences-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/plans/verily-life-sciences-plans-pricing.yml
+  href: https://artifacts.apis.io/verily-life-sciences/plans/verily-life-sciences-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/verily-life-sciences-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/rate-limits/verily-life-sciences-rate-limits.yml
+  href: https://artifacts.apis.io/verily-life-sciences/rate-limits/verily-life-sciences-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/verily-life-sciences-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/packages/verily-life-sciences-packages.yml
+  href: https://artifacts.apis.io/verily-life-sciences/packages/verily-life-sciences-packages.yml
   title: ''
   type: Packages
   url: packages/verily-life-sciences-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/packages/verily-life-sciences-packages.yml
+  href: https://artifacts.apis.io/verily-life-sciences/packages/verily-life-sciences-packages.yml
   title: ''
   type: SDKs
   url: packages/verily-life-sciences-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/cli/verily-life-sciences-cli.yml
+  href: https://artifacts.apis.io/verily-life-sciences/cli/verily-life-sciences-cli.yml
   title: ''
   type: CLI
   url: cli/verily-life-sciences-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/changelog/verily-life-sciences-changelog.yml
+  href: https://artifacts.apis.io/verily-life-sciences/changelog/verily-life-sciences-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/verily-life-sciences-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/lifecycle/verily-life-sciences-lifecycle.yml
+  href: https://artifacts.apis.io/verily-life-sciences/lifecycle/verily-life-sciences-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/verily-life-sciences-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/authentication/verily-life-sciences-authentication.yml
+  href: https://artifacts.apis.io/verily-life-sciences/authentication/verily-life-sciences-authentication.yml
   title: ''
   type: Authentication
   url: authentication/verily-life-sciences-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/conventions/verily-life-sciences-conventions.yml
+  href: https://artifacts.apis.io/verily-life-sciences/conventions/verily-life-sciences-conventions.yml
   title: ''
   type: Conventions
   url: conventions/verily-life-sciences-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/conformance/verily-life-sciences-conformance.yml
+  href: https://artifacts.apis.io/verily-life-sciences/conformance/verily-life-sciences-conformance.yml
   title: ''
   type: Conformance
   url: conformance/verily-life-sciences-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/data-model/verily-life-sciences-data-model.yml
+  href: https://artifacts.apis.io/verily-life-sciences/data-model/verily-life-sciences-data-model.yml
   title: ''
   type: DataModel
   url: data-model/verily-life-sciences-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/errors/verily-life-sciences-problem-types.yml
+  href: https://artifacts.apis.io/verily-life-sciences/errors/verily-life-sciences-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/verily-life-sciences-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/security/verily-life-sciences-domain-security.yml
+  href: https://artifacts.apis.io/verily-life-sciences/security/verily-life-sciences-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/verily-life-sciences-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/llms/verily-life-sciences-llms.txt
+  href: https://artifacts.apis.io/verily-life-sciences/llms/verily-life-sciences-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/verily-life-sciences-llms.txt
 created: '2026-09-02'
 description: 'Verily Life Sciences is Alphabet''s precision health company, building the Verily Pre platform — an AI-native data platform for health research and care that ingests multimodal clinical, genomic and device data and organizes it with Syntax, a FHIR-native common data model. Its developer-facing surface is Verily Workbench, an enterprise Trusted Research Environment that runs analysis workspaces on Google Cloud and AWS. Workbench exposes a control-plane REST API at workbench.verily.com/api (the wsm workspace-manager, axon and user services), a first-party `wb` command line interface, and a published Terraform provider (verily-src/workbench) for managing workspaces, folders, data collections, groups and IAM as code. Verily also publishes open-source FHIR tooling on GitHub, including fhirpath-go and the fsh-lint FHIR Shorthand linter. No public OpenAPI description is served: the API''s spec endpoints return HTTP 403 at the edge.'
+finops:
+- has_sources: true
+  method: derived
+  name: Verily Life Sciences Finops
+  primary_unit: ''
+  service_category: ''
+  slug: verily-life-sciences-finops
+  template: true
 image: https://assets.verily.com/transform/21410f74-6a33-4c78-a6a0-a7a6f19afabe/OpenGraph_1200x628_Homepage
 layout: provider
 modified: '2026-09-02'
@@ -170,16 +180,16 @@ plans:
 - name: Verily Life Sciences Plans Pricing
   plan_count: 3
   slug: verily-life-sciences-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Verily Life Sciences Rate Limits
   slug: verily-life-sciences-rate-limits
 score:
   band: developing
-  composite: 40.5
+  composite: 42.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -187,13 +197,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 77.6
+    access_clarity: 84.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 71.4
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 40.5
+    operational_transparency: 21.1
+  previous_composite: 42.2
   provenance:
     conformance: first-party
     mcp: unknown
@@ -203,14 +213,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/verily-life-sciences/refs/heads/main/screenshots/verily-life-sciences-2026-10-11T132854.png
+screenshot: https://apis.io/screenshots/verily-life-sciences/verily-life-sciences-2026-10-11T132854.png
 security:
 - kind: authentication
   name: Verily Life Sciences Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.9
-  scored_at: '2026-10-17'
+  score: 32.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 123
   human_in_the_loop: 15
@@ -380,11 +382,8 @@ apis:
   description: Configure when and to whom notifications are sent before waivers expire.
   name: Sonatype Waiver Expiration Notification Config API
   slug: sonatype-waiver-expiration-notification-config-api
-artifact_total: 142
+artifact_total: 144
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sonatype Lifecycle Public REST Advanced Search API
   slug: open-sonatype-advanced-search-api
@@ -564,117 +563,117 @@ collections:
   slug: open-sonatype-vulnerability-details-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/finops/sonatype-finops.yml
+  href: https://artifacts.apis.io/sonatype/finops/sonatype-finops.yml
   title: ''
   type: FinOps
   url: finops/sonatype-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/rules/sonatype-rules.yml
+  href: https://artifacts.apis.io/sonatype/rules/sonatype-rules.yml
   title: ''
   type: Spectral
   url: rules/sonatype-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/rules/sonatype-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/sonatype/rules/sonatype-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/sonatype-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/json-ld/sonatype-context.jsonld
+  href: https://artifacts.apis.io/sonatype/json-ld/sonatype-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/sonatype-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/vocabulary/sonatype-vocabulary.yml
+  href: https://artifacts.apis.io/sonatype/vocabulary/sonatype-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sonatype-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sonatype/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/data-model/sonatype-data-model.yml
+  href: https://artifacts.apis.io/sonatype/data-model/sonatype-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sonatype-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/errors/sonatype-problem-types.yml
+  href: https://artifacts.apis.io/sonatype/errors/sonatype-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sonatype-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/conformance/sonatype-conformance.yml
+  href: https://artifacts.apis.io/sonatype/conformance/sonatype-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sonatype-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/llms/sonatype-llms.txt
+  href: https://artifacts.apis.io/sonatype/llms/sonatype-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sonatype-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/well-known/sonatype-status-security.txt
+  href: https://artifacts.apis.io/sonatype/well-known/sonatype-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sonatype-status-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/well-known/sonatype-learn-security.txt
+  href: https://artifacts.apis.io/sonatype/well-known/sonatype-learn-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sonatype-learn-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/well-known/sonatype-well-known.yml
+  href: https://artifacts.apis.io/sonatype/well-known/sonatype-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sonatype-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/hosts/sonatype-hosts.yml
+  href: https://artifacts.apis.io/sonatype/hosts/sonatype-hosts.yml
   title: ''
   type: Hosts
   url: hosts/sonatype-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/vendors/sonatype-vendors.yml
+  href: https://artifacts.apis.io/sonatype/vendors/sonatype-vendors.yml
   title: ''
   type: Vendors
   url: vendors/sonatype-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/packages/sonatype-packages.yml
+  href: https://artifacts.apis.io/sonatype/packages/sonatype-packages.yml
   title: ''
   type: SDKs
   url: packages/sonatype-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/packages/sonatype-packages.yml
+  href: https://artifacts.apis.io/sonatype/packages/sonatype-packages.yml
   title: ''
   type: Packages
   url: packages/sonatype-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/rate-limits/sonatype-rate-limits.yml
+  href: https://artifacts.apis.io/sonatype/rate-limits/sonatype-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sonatype-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/plans/sonatype-plans-pricing.yml
+  href: https://artifacts.apis.io/sonatype/plans/sonatype-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sonatype-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/capabilities/sonatype-capability-edges.yml
+  href: https://artifacts.apis.io/sonatype/capabilities/sonatype-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sonatype-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/agentic-access/sonatype-agentic-access.yml
+  href: https://artifacts.apis.io/sonatype/agentic-access/sonatype-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sonatype-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/security/sonatype-domain-security.yml
+  href: https://artifacts.apis.io/sonatype/security/sonatype-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sonatype-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/authentication/sonatype-authentication.yml
+  href: https://artifacts.apis.io/sonatype/authentication/sonatype-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sonatype-authentication.yml
@@ -756,13 +755,13 @@ examples:
   name: Sonatype Search Component Example
   slug: sonatype-search-component-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Sonatype Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: sonatype-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sonatype.png
 json_schemas:
 - name: Sonatype Lifecycle Application
@@ -797,9 +796,9 @@ plans:
   plan_count: 8
   slug: sonatype-plans-pricing
 - name: Sonatype Price Estimates
-  plan_count: 1
+  plan_count: 0
   slug: sonatype-price-estimates
-random_paper: 3
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Sonatype Rate Limits
@@ -830,23 +829,28 @@ rules:
   slug: sonatype-rules
 score:
   band: strong
-  composite: 63.3
+  composite: 65.5
   coverage:
     artifact_dirs: 30
-    catalog_earned: 87.0
+    catalog_earned: 90.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 28.0
+    catalog_gap: 25.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.8
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 31.8
-    contract_quality: 54.0
+    contract_quality: 53.0
     developer_ergonomics: 54.2
-    discoverability: 75.0
-    operational_transparency: 63.2
-  previous_composite: 67.1
+    discoverability: 67.9
+    operational_transparency: 78.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -863,13 +867,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/screenshots/sonatype-2026-06-20T194159.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sonatype/sonatype-2026-06-20T194159.png
 security:
 - kind: authentication
   name: Sonatype Authentication
@@ -879,6 +884,14 @@ security:
   name: Sonatype Domain Security
   slug: sonatype-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: sonatype-create-and-retrieve-organization
+  slug: sonatype-create-and-retrieve-organization
+- name: sonatype-create-application
+  slug: sonatype-create-application
+- name: sonatype-user-management
+  slug: sonatype-user-management
 slug: sonatype
 tags:
 - Software Supply Chain

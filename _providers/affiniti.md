@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affiniti/refs/heads/main/security/affiniti-domain-security.yml
+  href: https://artifacts.apis.io/affiniti/security/affiniti-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/affiniti-domain-security.yml
@@ -77,7 +79,7 @@ common:
   type: TermsOfService
   url: https://extu.com/legal/general-terms-of-service/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affiniti/refs/heads/main/security/affiniti-trust-center.yml
+  href: https://artifacts.apis.io/affiniti/security/affiniti-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/affiniti-trust-center.yml
@@ -106,32 +108,32 @@ common:
   type: SecondaryMarket
   url: https://equityzen.com/company/affiniti
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/affiniti/refs/heads/main/well-known/affiniti-well-known.yml
+  href: https://artifacts.apis.io/affiniti/well-known/affiniti-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/affiniti-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affiniti/refs/heads/main/authentication/affiniti-authentication.yml
+  href: https://artifacts.apis.io/affiniti/authentication/affiniti-authentication.yml
   title: ''
   type: Authentication
   url: authentication/affiniti-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affiniti/refs/heads/main/scopes/affiniti-scopes.yml
+  href: https://artifacts.apis.io/affiniti/scopes/affiniti-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/affiniti-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affiniti/refs/heads/main/conformance/affiniti-conformance.yml
+  href: https://artifacts.apis.io/affiniti/conformance/affiniti-conformance.yml
   title: ''
   type: Conformance
   url: conformance/affiniti-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/affiniti/refs/heads/main/llms/affiniti-llms.txt
+  href: https://artifacts.apis.io/affiniti/llms/affiniti-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/affiniti-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/affiniti/refs/heads/main/plans/affiniti-plans-pricing.yml
+  href: https://artifacts.apis.io/affiniti/plans/affiniti-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/affiniti-plans-pricing.yml
@@ -187,7 +189,7 @@ plans:
 - name: Affiniti Plans Pricing
   plan_count: 0
   slug: affiniti-plans-pricing
-random_paper: 6
+random_paper: 2
 scopes:
 - name: Affiniti Scopes
   scope_count: 14
@@ -195,7 +197,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.2
+  composite: 25.1
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -203,15 +205,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 24.1
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 25.1
   provenance:
     conformance: first-party
   regulatory:
@@ -224,8 +226,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

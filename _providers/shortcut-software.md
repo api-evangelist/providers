@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.6
-  scored_at: '2026-10-17'
+  score: 49.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 2
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 143
   slug: shortcut-software-agentic-access
   summary_line: 143 operations · 72 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.app.shortcut.com
   baseurl_source: declared
@@ -172,7 +174,7 @@ apis:
   description: The Workflows API from Shortcut Software — 2 operation(s) for workflows.
   name: Shortcut Software Workflows API
   slug: shortcut-software-workflows-api
-artifact_total: 85
+artifact_total: 90
 asyncapis:
 - description: ''
   name: Shortcut Software Webhooks
@@ -254,9 +256,6 @@ collections:
   name: Shortcut Categories Workflows API
   slug: postman-shortcut-software-workflows-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Shortcut Categories API
   slug: open-shortcut-software-categories-api
 - collection_type: open
@@ -332,8 +331,13 @@ collections:
   name: Shortcut Categories Workflows API
   slug: open-shortcut-software-workflows-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/shortcut-software/plans/shortcut-software-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/shortcut-software-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/rate-limits/shortcut-software-rate-limits.yml
+  href: https://artifacts.apis.io/shortcut-software/rate-limits/shortcut-software-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shortcut-software-rate-limits.yml
@@ -346,7 +350,7 @@ common:
   type: BlogRSS
   url: https://www.shortcut.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/capabilities/shortcut-software-capability-edges.yml
+  href: https://artifacts.apis.io/shortcut-software/capabilities/shortcut-software-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/shortcut-software-capability-edges.yml
@@ -403,57 +407,57 @@ common:
   type: PrivacyPolicy
   url: https://www.shortcut.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/authentication/shortcut-software-authentication.yml
+  href: https://artifacts.apis.io/shortcut-software/authentication/shortcut-software-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shortcut-software-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/scopes/shortcut-software-scopes.yml
+  href: https://artifacts.apis.io/shortcut-software/scopes/shortcut-software-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/shortcut-software-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/well-known/shortcut-software-well-known.yml
+  href: https://artifacts.apis.io/shortcut-software/well-known/shortcut-software-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/shortcut-software-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/packages/shortcut-software-packages.yml
+  href: https://artifacts.apis.io/shortcut-software/packages/shortcut-software-packages.yml
   title: ''
   type: Packages
   url: packages/shortcut-software-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/packages/shortcut-software-packages.yml
+  href: https://artifacts.apis.io/shortcut-software/packages/shortcut-software-packages.yml
   title: ''
   type: SDKs
   url: packages/shortcut-software-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/mcp/shortcut-software-mcp.yml
+  href: https://artifacts.apis.io/shortcut-software/mcp/shortcut-software-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/shortcut-software-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/llms/shortcut-software-llms.txt
+  href: https://artifacts.apis.io/shortcut-software/llms/shortcut-software-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shortcut-software-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/conventions/shortcut-software-conventions.yml
+  href: https://artifacts.apis.io/shortcut-software/conventions/shortcut-software-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shortcut-software-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/errors/shortcut-software-problem-types.yml
+  href: https://artifacts.apis.io/shortcut-software/errors/shortcut-software-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shortcut-software-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/rate-limits/shortcut-software-rate-limits.yml
+  href: https://artifacts.apis.io/shortcut-software/rate-limits/shortcut-software-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shortcut-software-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/lifecycle/shortcut-software-lifecycle.yml
+  href: https://artifacts.apis.io/shortcut-software/lifecycle/shortcut-software-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shortcut-software-lifecycle.yml
@@ -462,17 +466,17 @@ common:
   type: StatusPage
   url: https://status.shortcut.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/lifecycle/shortcut-software-lifecycle.yml
+  href: https://artifacts.apis.io/shortcut-software/lifecycle/shortcut-software-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/shortcut-software-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/changelog/shortcut-software-changelog.yml
+  href: https://artifacts.apis.io/shortcut-software/changelog/shortcut-software-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/shortcut-software-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/conformance/shortcut-software-conformance.yml
+  href: https://artifacts.apis.io/shortcut-software/conformance/shortcut-software-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shortcut-software-conformance.yml
@@ -481,7 +485,7 @@ common:
   type: Compliance
   url: https://www.shortcut.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/security/shortcut-software-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/shortcut-software/security/shortcut-software-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/shortcut-software-vulnerability-disclosure.yml
@@ -494,37 +498,45 @@ common:
   type: TrustCenter
   url: https://www.shortcut.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/security/shortcut-software-domain-security.yml
+  href: https://artifacts.apis.io/shortcut-software/security/shortcut-software-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shortcut-software-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/asyncapi/shortcut-software-webhooks.yml
+  href: https://artifacts.apis.io/shortcut-software/asyncapi/shortcut-software-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/shortcut-software-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/data-model/shortcut-software-data-model.yml
+  href: https://artifacts.apis.io/shortcut-software/data-model/shortcut-software-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shortcut-software-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/overlays/shortcut-software-openapi-overlay.yaml
+  href: https://artifacts.apis.io/shortcut-software/overlays/shortcut-software-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shortcut-software-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/agentic-access/shortcut-software-agentic-access.yml
+  href: https://artifacts.apis.io/shortcut-software/agentic-access/shortcut-software-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shortcut-software-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/shortcut-software/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Shortcut (formerly Clubhouse, renamed 2021) is a fast, lightweight project-management platform where software teams and their AI agents plan, build, and ship together — issue tracking, sprints, docs, and roadmaps in one tool. Founded in 2014 in New York City by Kurt Schrader and Andrew Childs and backed by Battery Ventures and Greylock, it is used by more than 10,000 companies. Shortcut exposes a full REST API v3 (api.app.shortcut.com) covering Stories, Epics, Iterations, Objectives, Docs, Workflows, and more, secured by a Shortcut-Token API key or OAuth 2.0, plus outgoing webhooks and an official hosted MCP server for agent coordination (Korey AI).
+finops:
+- has_sources: true
+  method: derived
+  name: Shortcut Software Finops
+  primary_unit: user/month
+  service_category: ''
+  slug: shortcut-software-finops
+  template: false
 image: https://www.shortcut.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -541,8 +553,15 @@ overview: 'Shortcut Software publishes 25 API contracts indexed on the [APIs.io]
   The Shortcut Software catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Shortcut Software''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 35 more developer resources.'
-random_paper: 8
+  Shortcut Software''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 36 more developer resources.'
+plans:
+- name: Shortcut Software Plans Pricing
+  plan_count: 4
+  slug: shortcut-software-plans-pricing
+- name: Shortcut Software Price Estimates
+  plan_count: 0
+  slug: shortcut-software-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Shortcut Software Rate Limits
@@ -553,24 +572,29 @@ scopes:
   slug: shortcut-software-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: strong
-  composite: 61.2
+  band: exemplar
+  composite: 71.5
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 28
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 47.4
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 59.0
-    developer_ergonomics: 50.6
-    discoverability: 75.0
-    operational_transparency: 81.6
-  previous_composite: 61.1
+    contract_quality: 55.6
+    developer_ergonomics: 67.3
+    discoverability: 65.0
+    operational_transparency: 84.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -593,13 +617,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/screenshots/shortcut-software-2026-08-17T080443.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/shortcut-software/shortcut-software-2026-08-17T080443.png
 security:
 - kind: authentication
   name: Shortcut Software Authentication
@@ -617,6 +642,14 @@ security:
   name: Shortcut Software Trust Center
   slug: shortcut-software-trust-center
   summary_line: SOC 2 Type 2, HIPAA (BAA on Business/Enterprise), GDPR, PCI DSS (card handling via Stripe)
+skill_count: 3
+skills:
+- name: Create and track a Story
+  slug: shortcut-software-create-and-track-story
+- name: Plan an iteration (sprint)
+  slug: shortcut-software-plan-an-iteration
+- name: Search the workspace
+  slug: shortcut-software-search-workspace
 slug: shortcut-software
 tags:
 - Company

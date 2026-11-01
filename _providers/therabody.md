@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Therabody's agent-facing commerce server, implementing the Universal Commerce Protocol (UCP) shopping service over MCP on the Therabody storefront host. Anonymous tools/list returns 13 tools with full
@@ -47,7 +49,7 @@ apis:
 - description: 'Therabody''s customer-account MCP server on account.therabody.com, exposing four post-purchase tools: most-recent order status, order status by order number, store credit balances, and return requests.'
   name: Therabody Customer Account MCP
   slug: therabody-customer-account-mcp
-artifact_total: 7
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -74,72 +76,72 @@ common:
   type: SignUp
   url: https://account.therabody.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/therabody/refs/heads/main/llms/therabody-llms.txt
+  href: https://artifacts.apis.io/therabody/llms/therabody-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/therabody-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/therabody/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/therabody/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/therabody/refs/heads/main/well-known/therabody-well-known.yml
+  href: https://artifacts.apis.io/therabody/well-known/therabody-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/therabody-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/therabody/refs/heads/main/authentication/therabody-authentication.yml
+  href: https://artifacts.apis.io/therabody/authentication/therabody-authentication.yml
   title: ''
   type: Authentication
   url: authentication/therabody-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/therabody/refs/heads/main/scopes/therabody-scopes.yml
+  href: https://artifacts.apis.io/therabody/scopes/therabody-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/therabody-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/therabody/refs/heads/main/conventions/therabody-conventions.yml
+  href: https://artifacts.apis.io/therabody/conventions/therabody-conventions.yml
   title: ''
   type: Conventions
   url: conventions/therabody-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/therabody/refs/heads/main/conventions/therabody-conventions.yml
+  href: https://artifacts.apis.io/therabody/conventions/therabody-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/therabody-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/therabody/refs/heads/main/conformance/therabody-conformance.yml
+  href: https://artifacts.apis.io/therabody/conformance/therabody-conformance.yml
   title: ''
   type: Conformance
   url: conformance/therabody-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/therabody/refs/heads/main/lifecycle/therabody-lifecycle.yml
+  href: https://artifacts.apis.io/therabody/lifecycle/therabody-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/therabody-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/therabody/refs/heads/main/security/therabody-domain-security.yml
+  href: https://artifacts.apis.io/therabody/security/therabody-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/therabody-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/therabody/refs/heads/main/errors/therabody-problem-types.yml
+  href: https://artifacts.apis.io/therabody/errors/therabody-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/therabody-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/therabody/refs/heads/main/errors/therabody-decline-codes.yml
+  href: https://artifacts.apis.io/therabody/errors/therabody-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/therabody-decline-codes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/therabody/refs/heads/main/mcp/therabody-mcp.yml
+  href: https://artifacts.apis.io/therabody/mcp/therabody-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/therabody-mcp.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/therabody/refs/heads/main/graphql/therabody-storefront.graphql
+  href: https://artifacts.apis.io/therabody/graphql/therabody-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/therabody-storefront.graphql
@@ -159,7 +161,7 @@ overview: 'Therabody is listed with 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Therabody''s developer surface includes engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 16
+random_paper: 2
 scopes:
 - name: Therabody Scopes
   scope_count: 4
@@ -167,7 +169,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 25.0
+  composite: 24.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 40.0
@@ -175,13 +177,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 9.3
     developer_ergonomics: 20.8
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -190,7 +192,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 24.9
+  previous_composite: 24.0
   provenance:
     conformance: derived
     mcp: platform-generated
@@ -201,14 +203,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/therabody/refs/heads/main/screenshots/therabody-2026-09-02T163514.png
+screenshot: https://apis.io/screenshots/therabody/therabody-2026-09-02T163514.png
 security:
 - kind: authentication
   name: Therabody Authentication
@@ -218,6 +220,14 @@ security:
   name: Therabody Domain Security
   slug: therabody-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Buy a Therabody product as an agent
+  slug: therabody-agentic-checkout
+- name: Check a Therabody order and request a return
+  slug: therabody-order-status-and-returns
+- name: Query the Therabody storefront with GraphQL
+  slug: therabody-storefront-graphql
 slug: therabody
 tags:
 - Company

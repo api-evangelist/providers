@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -65,7 +67,7 @@ apis:
   description: The Tags API from Amazon MediaPackage — 2 operation(s) for tags.
   name: Amazon MediaPackage Tags API
   slug: amazon-mediapackage-tags-api
-artifact_total: 261
+artifact_total: 260
 collections:
 - collection_type: postman
   name: AWS Elemental MediaPackage Channels API
@@ -80,9 +82,6 @@ collections:
   name: AWS Elemental MediaPackage Channels Tags API
   slug: postman-amazon-mediapackage-tags-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: AWS Elemental MediaPackage Channels API
   slug: open-amazon-mediapackage-channels-api
 - collection_type: open
@@ -96,17 +95,17 @@ collections:
   slug: open-amazon-mediapackage-tags-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/plans/amazon-mediapackage-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-mediapackage/plans/amazon-mediapackage-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-mediapackage-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/rate-limits/amazon-mediapackage-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-mediapackage/rate-limits/amazon-mediapackage-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-mediapackage-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/finops/amazon-mediapackage-finops.yml
+  href: https://artifacts.apis.io/amazon-mediapackage/finops/amazon-mediapackage-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-mediapackage-finops.yml
@@ -115,7 +114,7 @@ common:
   type: Website
   url: https://aws.amazon.com/mediapackage/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/capabilities/amazon-mediapackage-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-mediapackage/capabilities/amazon-mediapackage-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-mediapackage-capability-edges.yml
@@ -124,27 +123,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-mediapackage/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/agentic-access/amazon-mediapackage-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-mediapackage/agentic-access/amazon-mediapackage-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-mediapackage-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/security/amazon-mediapackage-trust-center.yml
+  href: https://artifacts.apis.io/amazon-mediapackage/security/amazon-mediapackage-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-mediapackage-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/security/amazon-mediapackage-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-mediapackage/security/amazon-mediapackage-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-mediapackage-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/security/amazon-mediapackage-domain-security.yml
+  href: https://artifacts.apis.io/amazon-mediapackage/security/amazon-mediapackage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-mediapackage-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/authentication/amazon-mediapackage-authentication.yml
+  href: https://artifacts.apis.io/amazon-mediapackage/authentication/amazon-mediapackage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-mediapackage-authentication.yml
@@ -193,12 +192,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/rules/amazon-mediapackage-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-mediapackage/rules/amazon-mediapackage-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-mediapackage-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/vocabulary/amazon-mediapackage-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-mediapackage/vocabulary/amazon-mediapackage-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-mediapackage-vocabulary.yaml
@@ -445,13 +444,13 @@ features:
 - description: Clip and archive live stream segments to S3 for VOD asset creation.
   name: Harvest Jobs
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Mediapackage Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: gb
+  service_category: ''
   slug: amazon-mediapackage-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-mediapackage.png
 json_schemas:
 - name: AdMarkers
@@ -930,9 +929,9 @@ overview: 'Amazon MediaPackage publishes 4 API contracts indexed on the [APIs.io
   Amazon MediaPackage''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 17 more developer resources.'
 plans:
 - name: Amazon Mediapackage Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: amazon-mediapackage-plans-pricing
-random_paper: 5
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Amazon Mediapackage Rate Limits
@@ -962,24 +961,24 @@ rules:
     warn: 13
   slug: amazon-mediapackage-spectral-rules
 score:
-  band: developing
-  composite: 53.6
+  band: strong
+  composite: 61.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 58.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    artifact_dirs: 21
+    catalog_earned: 70.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 60.5
+    contract_quality: 57.1
     developer_ergonomics: 58.3
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 55.1
+    operational_transparency: 39.5
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     contracts:
@@ -993,13 +992,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/screenshots/amazon-mediapackage-2026-06-20T171746.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-mediapackage/amazon-mediapackage-2026-06-20T171746.png
 security:
 - kind: authentication
   name: Amazon Mediapackage Authentication

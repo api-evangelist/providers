@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API for the ThunderCore mainnet (chain ID 108, TT gas token). Supports the standard eth_/net_/web3_ method surface over HTTPS, with WebSocket endpoints for subscriptio
@@ -55,7 +57,7 @@ asyncapis:
   slug: thundercore-ws-asyncapi
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/security/thundercore-domain-security.yml
+  href: https://artifacts.apis.io/thundercore/security/thundercore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thundercore-domain-security.yml
@@ -108,62 +110,62 @@ common:
   type: Whitepaper
   url: https://docs.thundercore.com/thunder-whitepaper.pdf
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/packages/thundercore-packages.yml
+  href: https://artifacts.apis.io/thundercore/packages/thundercore-packages.yml
   title: ''
   type: Packages
   url: packages/thundercore-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/packages/thundercore-packages.yml
+  href: https://artifacts.apis.io/thundercore/packages/thundercore-packages.yml
   title: ''
   type: SDKs
   url: packages/thundercore-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/mcp/thundercore-mcp.yml
+  href: https://artifacts.apis.io/thundercore/mcp/thundercore-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/thundercore-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/llms/thundercore-llms.txt
+  href: https://artifacts.apis.io/thundercore/llms/thundercore-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thundercore-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/conformance/thundercore-conformance.yml
+  href: https://artifacts.apis.io/thundercore/conformance/thundercore-conformance.yml
   title: ''
   type: Conformance
   url: conformance/thundercore-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/errors/thundercore-problem-types.yml
+  href: https://artifacts.apis.io/thundercore/errors/thundercore-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/thundercore-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/lifecycle/thundercore-lifecycle.yml
+  href: https://artifacts.apis.io/thundercore/lifecycle/thundercore-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/thundercore-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/authentication/thundercore-authentication.yml
+  href: https://artifacts.apis.io/thundercore/authentication/thundercore-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thundercore-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/sandbox/thundercore-sandbox.yml
+  href: https://artifacts.apis.io/thundercore/sandbox/thundercore-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/thundercore-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/conventions/thundercore-conventions.yml
+  href: https://artifacts.apis.io/thundercore/conventions/thundercore-conventions.yml
   title: ''
   type: Conventions
   url: conventions/thundercore-conventions.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/asyncapi/thundercore-ws-asyncapi.yml
+  href: https://artifacts.apis.io/thundercore/asyncapi/thundercore-ws-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/thundercore-ws-asyncapi.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/rate-limits/thundercore-rate-limits.yml
+  href: https://artifacts.apis.io/thundercore/rate-limits/thundercore-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/thundercore-rate-limits.yml
@@ -182,30 +184,30 @@ overview: 'ThunderCore is listed with 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   ThunderCore''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
-random_paper: 21
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Thundercore Rate Limits
   slug: thundercore-rate-limits
 score:
   band: developing
-  composite: 40.8
+  composite: 43.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 76.2
-    discoverability: 78.6
-    operational_transparency: 34.2
-  previous_composite: 40.7
+    discoverability: 71.4
+    operational_transparency: 36.8
+  previous_composite: 43.1
   provenance:
     conformance: derived
     mcp: derived
@@ -214,15 +216,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/thundercore/refs/heads/main/screenshots/thundercore-2026-08-17T082355.png
+screenshot: https://apis.io/screenshots/thundercore/thundercore-2026-08-17T082355.png
 security:
 - kind: authentication
   name: Thundercore Authentication

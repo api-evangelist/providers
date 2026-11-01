@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,36 +14,38 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.5
-  scored_at: '2026-10-17'
+  score: 7.6
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bejewel/refs/heads/main/llms/bejewel-llms.txt
+  href: https://artifacts.apis.io/bejewel/llms/bejewel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bejewel-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bejewel/refs/heads/main/well-known/bejewel-well-known.yml
+  href: https://artifacts.apis.io/bejewel/well-known/bejewel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bejewel-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bejewel/refs/heads/main/hosts/bejewel-hosts.yml
+  href: https://artifacts.apis.io/bejewel/hosts/bejewel-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bejewel-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bejewel/refs/heads/main/vendors/bejewel-vendors.yml
+  href: https://artifacts.apis.io/bejewel/vendors/bejewel-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bejewel-vendors.yml
@@ -56,7 +58,7 @@ common:
   type: Login
   url: https://www.bejewel.design/account/login
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bejewel/refs/heads/main/security/bejewel-domain-security.yml
+  href: https://artifacts.apis.io/bejewel/security/bejewel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bejewel-domain-security.yml
@@ -73,10 +75,10 @@ name: Bejewel
 nav: Providers
 network: true
 overview: Bejewel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Jewelry, Sustainable, E-Commerce, Fashion, and Eco-friendly.
-random_paper: 8
+random_paper: 14
 score:
   band: minimal
-  composite: 7.0
+  composite: 6.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -84,15 +86,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 6.9
+  previous_composite: 6.3
   provenance:
     mcp: unknown
   regulatory:
@@ -101,14 +103,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bejewel/refs/heads/main/screenshots/bejewel-2026-10-11T101820.png
+screenshot: https://apis.io/screenshots/bejewel/bejewel-2026-10-11T101820.png
 security:
 - kind: domain-security
   name: Bejewel Domain Security

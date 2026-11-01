@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -51,27 +53,27 @@ common:
   type: GettingStarted
   url: https://docs.tensor9.com/customer/getting-started/overview.md
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tensor9/refs/heads/main/cli/tensor9-cli.yml
+  href: https://artifacts.apis.io/tensor9/cli/tensor9-cli.yml
   title: ''
   type: CLI
   url: cli/tensor9-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tensor9/refs/heads/main/authentication/tensor9-authentication.yml
+  href: https://artifacts.apis.io/tensor9/authentication/tensor9-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tensor9-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tensor9/refs/heads/main/packages/tensor9-packages.yml
+  href: https://artifacts.apis.io/tensor9/packages/tensor9-packages.yml
   title: ''
   type: Packages
   url: packages/tensor9-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tensor9/refs/heads/main/llms/tensor9-llms.txt
+  href: https://artifacts.apis.io/tensor9/llms/tensor9-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tensor9-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tensor9/refs/heads/main/conformance/tensor9-conformance.yml
+  href: https://artifacts.apis.io/tensor9/conformance/tensor9-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tensor9-conformance.yml
@@ -80,7 +82,7 @@ common:
   type: Compliance
   url: https://www.tensor9.com/product/security-principles/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tensor9/refs/heads/main/security/tensor9-domain-security.yml
+  href: https://artifacts.apis.io/tensor9/security/tensor9-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tensor9-domain-security.yml
@@ -128,10 +130,10 @@ overview: 'Tensor9 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tensor9''s developer surface includes documentation, getting-started guide, CLI, authentication, pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 20
+random_paper: 4
 score:
   band: thin
-  composite: 29.9
+  composite: 29.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -139,15 +141,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 29.8
+  previous_composite: 29.2
   provenance:
     conformance: first-party
   regulatory:
@@ -156,14 +158,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tensor9/refs/heads/main/screenshots/tensor9-2026-09-02T163308.png
+screenshot: https://apis.io/screenshots/tensor9/tensor9-2026-09-02T163308.png
 security:
 - kind: authentication
   name: Tensor9 Authentication

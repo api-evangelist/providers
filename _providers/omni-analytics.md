@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Omni REST API provides programmatic access to an Omni instance: models, topics, views and fields; documents, dashboards and folders; query execution and scheduling; users, groups and permissions; '
   name: Omni REST API
   slug: omni-rest-api
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -54,12 +56,12 @@ common:
   type: Website
   url: https://omni.co
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/security/omni-analytics-trust-center.yml
+  href: https://artifacts.apis.io/omni-analytics/security/omni-analytics-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/omni-analytics-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/security/omni-analytics-domain-security.yml
+  href: https://artifacts.apis.io/omni-analytics/security/omni-analytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/omni-analytics-domain-security.yml
@@ -124,62 +126,62 @@ common:
   type: ChangeLog
   url: https://docs.omni.co/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/changelog/omni-analytics-changelog.yml
+  href: https://artifacts.apis.io/omni-analytics/changelog/omni-analytics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/omni-analytics-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/packages/omni-analytics-packages.yml
+  href: https://artifacts.apis.io/omni-analytics/packages/omni-analytics-packages.yml
   title: ''
   type: Packages
   url: packages/omni-analytics-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/packages/omni-analytics-packages.yml
+  href: https://artifacts.apis.io/omni-analytics/packages/omni-analytics-packages.yml
   title: ''
   type: SDKs
   url: packages/omni-analytics-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/cli/omni-analytics-cli.yml
+  href: https://artifacts.apis.io/omni-analytics/cli/omni-analytics-cli.yml
   title: ''
   type: CLI
   url: cli/omni-analytics-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/mcp/omni-analytics-mcp.yml
+  href: https://artifacts.apis.io/omni-analytics/mcp/omni-analytics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/omni-analytics-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/omni-analytics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/authentication/omni-analytics-authentication.yml
+  href: https://artifacts.apis.io/omni-analytics/authentication/omni-analytics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/omni-analytics-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/conventions/omni-analytics-conventions.yml
+  href: https://artifacts.apis.io/omni-analytics/conventions/omni-analytics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/omni-analytics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/conformance/omni-analytics-conformance.yml
+  href: https://artifacts.apis.io/omni-analytics/conformance/omni-analytics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/omni-analytics-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/components/omni-analytics-components.yml
+  href: https://artifacts.apis.io/omni-analytics/components/omni-analytics-components.yml
   title: ''
   type: Components
   url: components/omni-analytics-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/lifecycle/omni-analytics-lifecycle.yml
+  href: https://artifacts.apis.io/omni-analytics/lifecycle/omni-analytics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/omni-analytics-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/llms/omni-analytics-llms.txt
+  href: https://artifacts.apis.io/omni-analytics/llms/omni-analytics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/omni-analytics-llms.txt
@@ -199,10 +201,10 @@ overview: 'Omni Analytics is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Omni Analytics'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, changelog, and 25 more developer resources.'
-random_paper: 18
+random_paper: 8
 score:
   band: developing
-  composite: 42.7
+  composite: 42.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -210,15 +212,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 78.6
-    discoverability: 71.7
-    operational_transparency: 44.7
-  previous_composite: 42.6
+    discoverability: 65.0
+    operational_transparency: 47.4
+  previous_composite: 42.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -237,14 +239,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/screenshots/omni-analytics-2026-08-07T190150.png
+screenshot: https://apis.io/screenshots/omni-analytics/omni-analytics-2026-08-07T190150.png
 security:
 - kind: authentication
   name: Omni Analytics Authentication
@@ -258,6 +260,10 @@ security:
   name: Omni Analytics Trust Center
   slug: omni-analytics-trust-center
   summary_line: SOC 2, HIPAA, GDPR
+skill_count: 1
+skills:
+- name: omni-query
+  slug: omni-analytics-omni-query
 slug: omni-analytics
 tags:
 - Company

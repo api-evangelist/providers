@@ -12,12 +12,12 @@ api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-json/refs/heads/main/security/mcp-json-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mcp-json/security/mcp-json-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mcp-json-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mcp-json/refs/heads/main/security/mcp-json-domain-security.yml
+  href: https://artifacts.apis.io/mcp-json/security/mcp-json-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mcp-json-domain-security.yml
@@ -46,7 +46,7 @@ overview: 'mcp.json is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
   mcp.json''s developer surface includes engineering blog, documentation, and 3 more developer resources.'
 random_paper: 15
-screenshot: https://raw.githubusercontent.com/api-evangelist/mcp-json/refs/heads/main/screenshots/mcp-json-2026-06-20T185109.png
+screenshot: https://apis.io/screenshots/mcp-json/mcp-json-2026-06-20T185109.png
 security:
 - kind: domain-security
   name: Mcp Json Domain Security

@@ -4,6 +4,6 @@ layout: provider
 name: tcp-ip
 nav: Providers
 network: true
-random_paper: 17
+random_paper: 13
 slug: tcp-ip
 ---

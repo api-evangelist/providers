@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'REST API for the Allego sales enablement platform enabling programmatic access to video coaching sessions, content libraries, learning modules, certifications, rep readiness assessments, conversation '
@@ -45,12 +47,12 @@ apis:
 artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/security/allego-trust-center.yml
+  href: https://artifacts.apis.io/allego/security/allego-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/allego-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/security/allego-domain-security.yml
+  href: https://artifacts.apis.io/allego/security/allego-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allego-domain-security.yml
@@ -83,52 +85,52 @@ common:
   type: X
   url: https://twitter.com/allegosoftware
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/plans/allego-plans-pricing.yml
+  href: https://artifacts.apis.io/allego/plans/allego-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/allego-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/rate-limits/allego-rate-limits.yml
+  href: https://artifacts.apis.io/allego/rate-limits/allego-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/allego-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/finops/allego-finops.yml
+  href: https://artifacts.apis.io/allego/finops/allego-finops.yml
   title: ''
   type: FinOps
   url: finops/allego-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/mcp/allego-mcp.yml
+  href: https://artifacts.apis.io/allego/mcp/allego-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/allego-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/well-known/allego-well-known.yml
+  href: https://artifacts.apis.io/allego/well-known/allego-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/allego-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/llms/allego-llms.txt
+  href: https://artifacts.apis.io/allego/llms/allego-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/allego-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/authentication/allego-authentication.yml
+  href: https://artifacts.apis.io/allego/authentication/allego-authentication.yml
   title: ''
   type: Authentication
   url: authentication/allego-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/conformance/allego-conformance.yml
+  href: https://artifacts.apis.io/allego/conformance/allego-conformance.yml
   title: ''
   type: Conformance
   url: conformance/allego-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/security/allego-trust-center.yml
+  href: https://artifacts.apis.io/allego/security/allego-trust-center.yml
   title: ''
   type: Compliance
   url: security/allego-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/lifecycle/allego-lifecycle.yml
+  href: https://artifacts.apis.io/allego/lifecycle/allego-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/allego-lifecycle.yml
@@ -137,12 +139,12 @@ common:
   type: StatusPage
   url: https://status.allego.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/conventions/allego-conventions.yml
+  href: https://artifacts.apis.io/allego/conventions/allego-conventions.yml
   title: ''
   type: Conventions
   url: conventions/allego-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/errors/allego-problem-types.yml
+  href: https://artifacts.apis.io/allego/errors/allego-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/allego-problem-types.yml
@@ -194,30 +196,30 @@ plans:
 - name: Allego Plans Pricing
   plan_count: 4
   slug: allego-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Allego Rate Limits
   slug: allego-rate-limits
 score:
   band: thin
-  composite: 26.3
+  composite: 37.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 5.3
-    developer_ergonomics: 11.9
-    discoverability: 75.0
-    operational_transparency: 10.5
-  previous_composite: 27.8
+    contract_quality: 0.0
+    developer_ergonomics: 28.6
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 37.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -226,15 +228,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/allego/refs/heads/main/screenshots/allego-2026-06-20T171529.png
+screenshot: https://apis.io/screenshots/allego/allego-2026-06-20T171529.png
 security:
 - kind: authentication
   name: Allego Authentication

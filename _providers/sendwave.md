@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +59,7 @@ common:
   type: TermsOfService
   url: https://www.sendwave.com/en/terms-and-conditions
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sendwave/refs/heads/main/security/sendwave-domain-security.yml
+  href: https://artifacts.apis.io/sendwave/security/sendwave-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sendwave-domain-security.yml
@@ -73,12 +75,12 @@ overview: 'SendWave is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   SendWave''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 3
+random_paper: 21
 score:
   band: minimal
   composite: 9.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -99,14 +101,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sendwave/refs/heads/main/screenshots/sendwave-2026-09-02T154845.png
+screenshot: https://apis.io/screenshots/sendwave/sendwave-2026-09-02T154845.png
 security:
 - kind: domain-security
   name: Sendwave Domain Security

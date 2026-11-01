@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://catalogguard.noahcortezj-c.workers.dev
@@ -43,17 +45,14 @@ apis:
   description: The Catalog API from Catalog Guard API — 2 operation(s) for catalog.
   name: Catalog Guard API Catalog API
   slug: catalog-guard-api-catalog-api
-artifact_total: 6
+artifact_total: 7
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Guard Catalog API
   slug: open-catalog-guard-api-catalog-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/capabilities/catalog-guard-api-capability-edges.yml
+  href: https://artifacts.apis.io/catalog-guard-api/capabilities/catalog-guard-api-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/catalog-guard-api-capability-edges.yml
@@ -86,77 +85,77 @@ common:
   type: APIsJson
   url: https://catalogguard.noahcortezj-c.workers.dev/apis.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/openapi/_original/catalog-guard-api-catalog-check-openapi.json
+  href: https://artifacts.apis.io/catalog-guard-api/openapi/_original/catalog-guard-api-catalog-check-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/catalog-guard-api-catalog-check-openapi.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/overlays/catalog-guard-api-catalog-check-overlay.yaml
+  href: https://artifacts.apis.io/catalog-guard-api/overlays/catalog-guard-api-catalog-check-overlay.yaml
   title: ''
   type: OpenAPIOverlay
   url: overlays/catalog-guard-api-catalog-check-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/authentication/catalog-guard-api-authentication.yml
+  href: https://artifacts.apis.io/catalog-guard-api/authentication/catalog-guard-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/catalog-guard-api-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/conventions/catalog-guard-api-conventions.yml
+  href: https://artifacts.apis.io/catalog-guard-api/conventions/catalog-guard-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/catalog-guard-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/errors/catalog-guard-api-problem-types.yml
+  href: https://artifacts.apis.io/catalog-guard-api/errors/catalog-guard-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/catalog-guard-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/lifecycle/catalog-guard-api-lifecycle.yml
+  href: https://artifacts.apis.io/catalog-guard-api/lifecycle/catalog-guard-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/catalog-guard-api-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/rate-limits/catalog-guard-api-rate-limits.yml
+  href: https://artifacts.apis.io/catalog-guard-api/rate-limits/catalog-guard-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/catalog-guard-api-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/conformance/catalog-guard-api-conformance.yml
+  href: https://artifacts.apis.io/catalog-guard-api/conformance/catalog-guard-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/catalog-guard-api-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/data-model/catalog-guard-api-data-model.yml
+  href: https://artifacts.apis.io/catalog-guard-api/data-model/catalog-guard-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/catalog-guard-api-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/examples/catalog-guard-api-examples.yml
+  href: https://artifacts.apis.io/catalog-guard-api/examples/catalog-guard-api-examples.yml
   title: ''
   type: Examples
   url: examples/catalog-guard-api-examples.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/mcp/catalog-guard-api-mcp.yml
+  href: https://artifacts.apis.io/catalog-guard-api/mcp/catalog-guard-api-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/catalog-guard-api-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/mcp/catalog-guard-api-tool-crosswalk.yml
+  href: https://artifacts.apis.io/catalog-guard-api/mcp/catalog-guard-api-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/catalog-guard-api-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/llms/catalog-guard-api-llms.txt
+  href: https://artifacts.apis.io/catalog-guard-api/llms/catalog-guard-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/catalog-guard-api-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/catalog-guard-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/security/catalog-guard-api-domain-security.yml
+  href: https://artifacts.apis.io/catalog-guard-api/security/catalog-guard-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/catalog-guard-api-domain-security.yml
@@ -173,14 +172,14 @@ overview: 'Catalog Guard API publishes 1 API contract indexed on the [APIs.io](h
 
 
   Catalog Guard API''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, code examples, and 17 more developer resources.'
-random_paper: 16
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Catalog Guard Api Rate Limits
   slug: catalog-guard-api-rate-limits
 score:
   band: thin
-  composite: 35.9
+  composite: 36.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 42.0
@@ -196,7 +195,7 @@ score:
     developer_ergonomics: 42.3
     discoverability: 60.7
     operational_transparency: 21.1
-  previous_composite: 35.9
+  previous_composite: 36.6
   provenance:
     conformance: derived
     contracts:
@@ -212,13 +211,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/screenshots/catalog-guard-api-2026-09-02T145033.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/catalog-guard-api/catalog-guard-api-2026-09-02T145033.png
 security:
 - kind: authentication
   name: Catalog Guard Api Authentication
@@ -228,6 +228,12 @@ security:
   name: Catalog Guard Api Domain Security
   slug: catalog-guard-api-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Preflight a supplier catalog CSV before a Shopify import
+  slug: catalog-guard-api-preflight-supplier-csv
+- name: Triage Catalog Guard blockers into a supplier fix list
+  slug: catalog-guard-api-triage-blockers
 slug: catalog-guard-api
 tags:
 - E-Commerce

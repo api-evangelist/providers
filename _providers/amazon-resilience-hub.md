@@ -25,17 +25,19 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 31.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 21
   slug: amazon-resilience-hub-agentic-access
   summary_line: 21 operations · 12 acting
-api_count: 6
+api_count: 7
 apis:
 - baseURL: https://resiliencehub.amazonaws.com
   baseurl_source: declared
@@ -75,11 +77,13 @@ apis:
   description: Manage resource tags.
   name: Amazon Resilience Hub Tags API
   slug: amazon-resilience-hub-tags-api
+- baseURL: https://resiliencehub.amazonaws.com
+  baseurl_source: declared
+  description: The Resilience Hub Operations API from Amazon Resilience Hub — 41 operation(s) for resilience hub operations.
+  name: Amazon Resilience Hub Resilience Hub Operations API
+  slug: amazon-resilience-hub-operations-api
 artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Resilience Hub Applications API
   slug: open-amazon-resilience-hub-applications-api
@@ -103,42 +107,42 @@ collections:
   slug: open-amazon-resilience-hub
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/plans/amazon-resilience-hub-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-resilience-hub/plans/amazon-resilience-hub-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-resilience-hub-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/rate-limits/amazon-resilience-hub-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-resilience-hub/rate-limits/amazon-resilience-hub-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-resilience-hub-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/finops/amazon-resilience-hub-finops.yml
+  href: https://artifacts.apis.io/amazon-resilience-hub/finops/amazon-resilience-hub-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-resilience-hub-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/agentic-access/amazon-resilience-hub-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-resilience-hub/agentic-access/amazon-resilience-hub-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-resilience-hub-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/security/amazon-resilience-hub-trust-center.yml
+  href: https://artifacts.apis.io/amazon-resilience-hub/security/amazon-resilience-hub-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-resilience-hub-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/security/amazon-resilience-hub-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-resilience-hub/security/amazon-resilience-hub-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-resilience-hub-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/security/amazon-resilience-hub-domain-security.yml
+  href: https://artifacts.apis.io/amazon-resilience-hub/security/amazon-resilience-hub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-resilience-hub-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/authentication/amazon-resilience-hub-authentication.yml
+  href: https://artifacts.apis.io/amazon-resilience-hub/authentication/amazon-resilience-hub-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-resilience-hub-authentication.yml
@@ -200,7 +204,7 @@ finops:
 - has_sources: false
   method: generated
   name: Amazon Resilience Hub Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: amazon-resilience-hub-finops
   template: true
@@ -210,7 +214,7 @@ modified: '2026-05-19'
 name: Amazon Resilience Hub
 nav: Providers
 network: true
-overview: 'Amazon Resilience Hub is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Assessments API, Recommendations API, and 3 more. Tagged areas include Disaster Recovery, High Availability, and Resilience.
+overview: 'Amazon Resilience Hub is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Assessments API, Recommendations API, and 4 more. Tagged areas include Disaster Recovery, High Availability, and Resilience.
 
 
   Amazon Resilience Hub''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
@@ -224,44 +228,45 @@ rate_limits:
   name: Amazon Resilience Hub Rate Limits
   slug: amazon-resilience-hub-rate-limits
 score:
-  band: thin
-  composite: 34.2
+  band: developing
+  composite: 44.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 13
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -0.1
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 0.0
-    contract_quality: 14.5
-    developer_ergonomics: 42.9
+    contract_quality: 28.2
+    developer_ergonomics: 57.1
     discoverability: 62.5
-    operational_transparency: 26.3
-  previous_composite: 35.7
+    operational_transparency: 39.5
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
-      derived: 7
-      marker_coverage: 100.0
-      total: 7
+      callable: 37.5
+      derived: 5
+      marker_coverage: 75.0
+      total: 8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/screenshots/amazon-resilience-hub-2026-06-20T171808.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-resilience-hub/amazon-resilience-hub-2026-06-20T171808.png
 security:
 - kind: authentication
   name: Amazon Resilience Hub Authentication

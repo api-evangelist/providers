@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Enables customers to place material orders and track order status and deliveries within their own systems.
@@ -57,22 +59,22 @@ apis:
 artifact_total: 10
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qxo-building-products/refs/heads/main/plans/qxo-building-products-plans-pricing.yml
+  href: https://artifacts.apis.io/qxo-building-products/plans/qxo-building-products-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qxo-building-products-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qxo-building-products/refs/heads/main/rate-limits/qxo-building-products-rate-limits.yml
+  href: https://artifacts.apis.io/qxo-building-products/rate-limits/qxo-building-products-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qxo-building-products-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qxo-building-products/refs/heads/main/finops/qxo-building-products-finops.yml
+  href: https://artifacts.apis.io/qxo-building-products/finops/qxo-building-products-finops.yml
   title: ''
   type: FinOps
   url: finops/qxo-building-products-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qxo-building-products/refs/heads/main/security/qxo-building-products-domain-security.yml
+  href: https://artifacts.apis.io/qxo-building-products/security/qxo-building-products-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qxo-building-products-domain-security.yml
@@ -98,7 +100,7 @@ finops:
 - has_sources: false
   method: generated
   name: Qxo Building Products Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: qxo-building-products-finops
   template: true
@@ -116,7 +118,7 @@ plans:
 - name: Qxo Building Products Plans Pricing
   plan_count: 3
   slug: qxo-building-products-plans-pricing
-random_paper: 8
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Qxo Building Products Rate Limits
@@ -131,7 +133,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -139,21 +141,21 @@ score:
     developer_ergonomics: 9.5
     discoverability: 62.5
     operational_transparency: 7.9
-  previous_composite: 13.5
+  previous_composite: 12.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/qxo-building-products/refs/heads/main/screenshots/qxo-building-products-2026-06-20T192500.png
+screenshot: https://apis.io/screenshots/qxo-building-products/qxo-building-products-2026-06-20T192500.png
 security:
 - kind: domain-security
   name: Qxo Building Products Domain Security

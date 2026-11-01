@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-17'
+  score: 27.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,15 +53,12 @@ apis:
   description: A single HTTP GET endpoint (api.whoapi.com) exposing nine domain-intelligence tasks selected by the `r` query parameter — whois, taken (availability), cert (SSL), domainscore and domainscore-check, em
   name: WhoAPI Domain Intelligence API
   slug: whoapi-domain-intelligence-api
-artifact_total: 9
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Whoapi Webhooks
   slug: whoapi-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WhoAPI Domain Intelligence API
   slug: open-whoapi-domain-intelligence-api
@@ -69,22 +68,22 @@ common:
   type: BlogRSS
   url: https://whoapi.com/blog/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/agentic-access/whoapi-agentic-access.yml
+  href: https://artifacts.apis.io/whoapi/agentic-access/whoapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/whoapi-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/mcp/whoapi-mcp.yml
+  href: https://artifacts.apis.io/whoapi/mcp/whoapi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/whoapi-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/overlays/whoapi-openapi-overlay.yaml
+  href: https://artifacts.apis.io/whoapi/overlays/whoapi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/whoapi-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/security/whoapi-domain-security.yml
+  href: https://artifacts.apis.io/whoapi/security/whoapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/whoapi-domain-security.yml
@@ -137,37 +136,37 @@ common:
   type: GitHubOrganization
   url: https://github.com/whoapi
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/packages/whoapi-packages.yml
+  href: https://artifacts.apis.io/whoapi/packages/whoapi-packages.yml
   title: ''
   type: Packages
   url: packages/whoapi-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/packages/whoapi-packages.yml
+  href: https://artifacts.apis.io/whoapi/packages/whoapi-packages.yml
   title: ''
   type: SDKs
   url: packages/whoapi-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/cli/whoapi-cli.yml
+  href: https://artifacts.apis.io/whoapi/cli/whoapi-cli.yml
   title: ''
   type: CLI
   url: cli/whoapi-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/authentication/whoapi-authentication.yml
+  href: https://artifacts.apis.io/whoapi/authentication/whoapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/whoapi-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/llms/whoapi-llms.txt
+  href: https://artifacts.apis.io/whoapi/llms/whoapi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/whoapi-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/whoapi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/conformance/whoapi-conformance.yml
+  href: https://artifacts.apis.io/whoapi/conformance/whoapi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/whoapi-conformance.yml
@@ -180,27 +179,35 @@ common:
   type: Support
   url: https://whoapi.com/contact-us/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/plans/whoapi-plans-pricing.yml
+  href: https://artifacts.apis.io/whoapi/plans/whoapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/whoapi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/rate-limits/whoapi-rate-limits.yml
+  href: https://artifacts.apis.io/whoapi/rate-limits/whoapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/whoapi-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/asyncapi/whoapi-webhooks.yml
+  href: https://artifacts.apis.io/whoapi/asyncapi/whoapi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/whoapi-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/mcp/whoapi-tool-crosswalk.yml
+  href: https://artifacts.apis.io/whoapi/mcp/whoapi-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/whoapi-tool-crosswalk.yml
 created: '2026-07-17'
 description: WhoAPI (founded 2011, WhoAPI Inc.) is a domain-intelligence API company that exposes WHOIS records, real-time domain availability across hundreds of TLDs, domain age, domain reputation/score, SSL certificate inspection, email score, IP/domain blacklist checks, and website screenshots through a single key-authenticated REST endpoint (api.whoapi.com). Every request is an HTTP GET selecting a task with the `r` parameter and returning gzip-compressed JSON with a numeric `status` and human-readable `status_desc`. It serves cybersecurity teams, domain registrars, SEO agencies, and fraud-detection systems, with first-party and community SDKs for Ruby, Python, Go, and R.
+finops:
+- has_sources: true
+  method: derived
+  name: Whoapi Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: whoapi-finops
+  template: false
 image: https://whoapi.com/wp-content/uploads/2024/04/API-company-illustration.svg
 layout: provider
 modified: '2026-10-06'
@@ -216,32 +223,32 @@ overview: 'WhoAPI publishes 1 API contract indexed on the [APIs.io](https://apis
   WhoAPI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 23 more developer resources.'
 plans:
 - name: Whoapi Plans Pricing
-  plan_count: 0
+  plan_count: 5
   slug: whoapi-plans-pricing
-random_paper: 10
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Whoapi Rate Limits
   slug: whoapi-rate-limits
 score:
-  band: developing
-  composite: 46.4
+  band: strong
+  composite: 54.6
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 26
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 21.0
     developer_ergonomics: 80.4
     discoverability: 66.1
-    operational_transparency: 57.9
-  previous_composite: 46.3
+    operational_transparency: 60.5
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,14 +265,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/screenshots/whoapi-2026-08-17T082916.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/whoapi/whoapi-2026-08-17T082916.png
 security:
 - kind: authentication
   name: Whoapi Authentication
@@ -275,6 +282,14 @@ security:
   name: Whoapi Domain Security
   slug: whoapi-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Check domain availability with WhoAPI
+  slug: whoapi-check-domain-availability
+- name: Score a domain or email asynchronously with WhoAPI
+  slug: whoapi-score-domain-with-webhook
+- name: Look up WHOIS records with WhoAPI
+  slug: whoapi-whois-lookup
 slug: whoapi
 tags:
 - Company

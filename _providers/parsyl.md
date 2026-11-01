@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Parsyl offers custom API integration into the Parsyl Platform so customers and Data Partner Program vendors can push or pull shipment, sensor and condition data. Documentation is served from Parsyl''s '
@@ -43,7 +45,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parsyl/refs/heads/main/security/parsyl-domain-security.yml
+  href: https://artifacts.apis.io/parsyl/security/parsyl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parsyl-domain-security.yml
@@ -76,27 +78,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/parsyl
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parsyl/refs/heads/main/conformance/parsyl-conformance.yml
+  href: https://artifacts.apis.io/parsyl/conformance/parsyl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/parsyl-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parsyl/refs/heads/main/conformance/parsyl-conformance.yml
+  href: https://artifacts.apis.io/parsyl/conformance/parsyl-conformance.yml
   title: ''
   type: Compliance
   url: conformance/parsyl-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/parsyl/refs/heads/main/plans/parsyl-plans-pricing.yml
+  href: https://artifacts.apis.io/parsyl/plans/parsyl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/parsyl-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/parsyl/refs/heads/main/rate-limits/parsyl-rate-limits.yml
+  href: https://artifacts.apis.io/parsyl/rate-limits/parsyl-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/parsyl-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parsyl/refs/heads/main/llms/parsyl-llms.txt
+  href: https://artifacts.apis.io/parsyl/llms/parsyl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/parsyl-llms.txt
@@ -131,14 +133,14 @@ plans:
 - name: Parsyl Plans Pricing
   plan_count: 0
   slug: parsyl-plans-pricing
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Parsyl Rate Limits
   slug: parsyl-rate-limits
 score:
   band: emerging
-  composite: 16.8
+  composite: 18.4
   coverage:
     artifact_dirs: 11
     catalog_earned: 32.0
@@ -151,10 +153,10 @@ score:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 7.1
-    discoverability: 64.3
-    operational_transparency: 2.6
-  previous_composite: 16.8
+    developer_ergonomics: 16.7
+    discoverability: 57.1
+    operational_transparency: 5.3
+  previous_composite: 18.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -164,14 +166,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/parsyl/refs/heads/main/screenshots/parsyl-2026-09-02T150909.png
+screenshot: https://apis.io/screenshots/parsyl/parsyl-2026-09-02T150909.png
 security:
 - kind: domain-security
   name: Parsyl Domain Security

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: ArmorCode's REST API for programmatic access to findings, integrations, and remediation workflows across the unified exposure-management platform. Secured with bearer API tokens provisioned from the A
@@ -83,37 +85,37 @@ common:
   type: Compliance
   url: https://www.armorcode.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/armorcode/refs/heads/main/security/armorcode-trust-center.yml
+  href: https://artifacts.apis.io/armorcode/security/armorcode-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/armorcode-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/armorcode/refs/heads/main/security/armorcode-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/armorcode/security/armorcode-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/armorcode-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/armorcode/refs/heads/main/security/armorcode-domain-security.yml
+  href: https://artifacts.apis.io/armorcode/security/armorcode-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/armorcode-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/armorcode/refs/heads/main/conformance/armorcode-conformance.yml
+  href: https://artifacts.apis.io/armorcode/conformance/armorcode-conformance.yml
   title: ''
   type: Conformance
   url: conformance/armorcode-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/armorcode/refs/heads/main/authentication/armorcode-authentication.yml
+  href: https://artifacts.apis.io/armorcode/authentication/armorcode-authentication.yml
   title: ''
   type: Authentication
   url: authentication/armorcode-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/armorcode/refs/heads/main/lifecycle/armorcode-lifecycle.yml
+  href: https://artifacts.apis.io/armorcode/lifecycle/armorcode-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/armorcode-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/armorcode/refs/heads/main/llms/armorcode-llms.txt
+  href: https://artifacts.apis.io/armorcode/llms/armorcode-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/armorcode-llms.txt
@@ -129,10 +131,10 @@ overview: 'ArmorCode is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   ArmorCode''s developer surface includes developer portal, engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 10
+random_paper: 20
 score:
   band: thin
-  composite: 30.4
+  composite: 31.0
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -140,15 +142,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 30.3
+  previous_composite: 31.0
   provenance:
     conformance: first-party
   regulatory:
@@ -157,14 +159,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/armorcode/refs/heads/main/screenshots/armorcode-2026-07-25T201224.png
+screenshot: https://apis.io/screenshots/armorcode/armorcode-2026-07-25T201224.png
 security:
 - kind: authentication
   name: Armorcode Authentication

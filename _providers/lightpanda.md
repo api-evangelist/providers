@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: ws://127.0.0.1:9222
@@ -49,21 +51,18 @@ apis:
 - description: The open-source command-line binary (AGPL-3.0, written in Zig). `lightpanda serve` starts the CDP-over-WebSocket server; `lightpanda fetch` retrieves and dumps a URL as HTML or markdown; `lightpanda a
   name: Lightpanda CLI / Binary
   slug: lightpanda-cli-binary
-artifact_total: 11
+artifact_total: 10
 asyncapis:
 - description: AsyncAPI 2.6 description of Lightpanda's programmable interface. Lightpanda is a headless browser; it does **not** expose a REST API. Its interface is the **Chrome DevTools Protocol (CDP)**, a bidirec
   name: Lightpanda CDP over WebSocket
   slug: lightpanda-asyncapi
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Lightpanda
   slug: open-lightpanda
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lightpanda/refs/heads/main/security/lightpanda-domain-security.yml
+  href: https://artifacts.apis.io/lightpanda/security/lightpanda-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lightpanda-domain-security.yml
@@ -84,17 +83,17 @@ common:
   type: Documentation
   url: https://lightpanda.io/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lightpanda/refs/heads/main/plans/lightpanda-plans-pricing.yml
+  href: https://artifacts.apis.io/lightpanda/plans/lightpanda-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lightpanda-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lightpanda/refs/heads/main/rate-limits/lightpanda-rate-limits.yml
+  href: https://artifacts.apis.io/lightpanda/rate-limits/lightpanda-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lightpanda-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lightpanda/refs/heads/main/finops/lightpanda-finops.yml
+  href: https://artifacts.apis.io/lightpanda/finops/lightpanda-finops.yml
   title: ''
   type: FinOps
   url: finops/lightpanda-finops.yml
@@ -118,7 +117,7 @@ modified: '2026-06-20'
 name: Lightpanda
 nav: Providers
 network: true
-overview: 'Lightpanda publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including CDP WebSocket Interface, Cloud, and 1 more. Tagged areas include Headless Browser, Browser Automation, WebSocket, AI Agents, and Web Scraping.
+overview: 'Lightpanda publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including CDP WebSocket Interface, Cloud, and 1 more. Tagged areas include Browser Automation, WebSocket, AI Agents, Web Scraping, and Real-Time.
 
 
   The Lightpanda catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -129,7 +128,7 @@ plans:
 - name: Lightpanda Plans Pricing
   plan_count: 2
   slug: lightpanda-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Lightpanda Rate Limits
@@ -149,37 +148,37 @@ rules:
   slug: lightpanda-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 20.7
+  composite: 23.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 46.5
     catalog_earned_first_party: 0.0
     catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 13.6
-    contract_quality: 36.3
+    contract_quality: 44.8
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 27.6
+    operational_transparency: 13.2
+  previous_composite: 23.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/lightpanda/refs/heads/main/screenshots/lightpanda-2026-06-20T184520.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lightpanda/lightpanda-2026-06-20T184520.png
 security:
 - kind: domain-security
   name: Lightpanda Domain Security
@@ -187,7 +186,6 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: lightpanda
 tags:
-- Headless Browser
 - Browser Automation
 - WebSocket
 - AI Agents

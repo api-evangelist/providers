@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - baseURL: https://developers.b3.com.br:8065
@@ -81,7 +83,7 @@ apis:
 - description: End-of-day and reference data service covering fixed income, equities, currencies, and debentures for mark-to-market, risk, and pricing workflows - standardized files in TXT, CSV, JSON, or XML deliver
   name: B3 UP2DATA
   slug: b3-up2data
-artifact_total: 28
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -127,12 +129,12 @@ collections:
   slug: open-b3-exchange-tesouro-direto-positions
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/security/b3-exchange-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/b3-exchange/security/b3-exchange-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/b3-exchange-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/security/b3-exchange-domain-security.yml
+  href: https://artifacts.apis.io/b3-exchange/security/b3-exchange-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/b3-exchange-domain-security.yml
@@ -161,77 +163,77 @@ common:
   type: Support
   url: https://developers.b3.com.br/contato
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/packages/b3-exchange-packages.yml
+  href: https://artifacts.apis.io/b3-exchange/packages/b3-exchange-packages.yml
   title: ''
   type: Packages
   url: packages/b3-exchange-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/well-known/b3-exchange-well-known.yml
+  href: https://artifacts.apis.io/b3-exchange/well-known/b3-exchange-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/b3-exchange-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/well-known/b3-exchange-security.txt
+  href: https://artifacts.apis.io/b3-exchange/well-known/b3-exchange-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/b3-exchange-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/mcp/b3-exchange-mcp.yml
+  href: https://artifacts.apis.io/b3-exchange/mcp/b3-exchange-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/b3-exchange-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/llms/b3-exchange-llms.txt
+  href: https://artifacts.apis.io/b3-exchange/llms/b3-exchange-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/b3-exchange-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/conformance/b3-exchange-conformance.yml
+  href: https://artifacts.apis.io/b3-exchange/conformance/b3-exchange-conformance.yml
   title: ''
   type: Conformance
   url: conformance/b3-exchange-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/errors/b3-exchange-problem-types.yml
+  href: https://artifacts.apis.io/b3-exchange/errors/b3-exchange-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/b3-exchange-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/lifecycle/b3-exchange-lifecycle.yml
+  href: https://artifacts.apis.io/b3-exchange/lifecycle/b3-exchange-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/b3-exchange-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/scopes/b3-exchange-scopes.yml
+  href: https://artifacts.apis.io/b3-exchange/scopes/b3-exchange-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/b3-exchange-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/authentication/b3-exchange-authentication.yml
+  href: https://artifacts.apis.io/b3-exchange/authentication/b3-exchange-authentication.yml
   title: ''
   type: Authentication
   url: authentication/b3-exchange-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/conventions/b3-exchange-conventions.yml
+  href: https://artifacts.apis.io/b3-exchange/conventions/b3-exchange-conventions.yml
   title: ''
   type: Conventions
   url: conventions/b3-exchange-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/sandbox/b3-exchange-sandbox.yml
+  href: https://artifacts.apis.io/b3-exchange/sandbox/b3-exchange-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/b3-exchange-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/changelog/b3-exchange-changelog.yml
+  href: https://artifacts.apis.io/b3-exchange/changelog/b3-exchange-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/b3-exchange-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/data-model/b3-exchange-data-model.yml
+  href: https://artifacts.apis.io/b3-exchange/data-model/b3-exchange-data-model.yml
   title: ''
   type: DataModel
   url: data-model/b3-exchange-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/b3-exchange/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -267,15 +269,15 @@ overview: 'B3 (Brasil Bolsa Balcão) is listed with 10 APIs on the [APIs.io](htt
 
 
   B3 (Brasil Bolsa Balcão)''s developer surface includes developer portal, documentation, support, authentication, sandbox, changelog, API reference, and 21 more developer resources.'
-random_paper: 17
+random_paper: 21
 scopes:
 - name: B3 Exchange Scopes
   scope_count: 2
   slug: b3-exchange-scopes
   summary_line: 2 scopes · clientCredentials/password
 score:
-  band: thin
-  composite: 38.7
+  band: developing
+  composite: 40.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 35.0
@@ -285,7 +287,7 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 24.0
     developer_ergonomics: 63.7
@@ -298,7 +300,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 38.7
+  previous_composite: 40.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -309,14 +311,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/screenshots/b3-exchange-2026-07-22T202200.png
+screenshot: https://apis.io/screenshots/b3-exchange/b3-exchange-2026-07-22T202200.png
 security:
 - kind: authentication
   name: B3 Exchange Authentication
@@ -330,6 +332,14 @@ security:
   name: B3 Exchange Vulnerability Disclosure
   slug: b3-exchange-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Retrieve an investor's consolidated portfolio
+  slug: b3-exchange-investor-portfolio
+- name: Manage a securities lending offer lifecycle
+  slug: b3-exchange-securities-lending-offer
+- name: Look up Tesouro Direto bond reference data
+  slug: b3-exchange-tesouro-direto-bond-lookup
 slug: b3-exchange
 tags:
 - Finance

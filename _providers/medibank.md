@@ -29,23 +29,49 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 2.5
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
+- group: other
+  href: https://artifacts.apis.io/medibank/hosts/medibank-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/medibank-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/medibank/vendors/medibank-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/medibank-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/medibank/packages/medibank-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/medibank-packages.yml
+- group: build
+  href: https://artifacts.apis.io/medibank/packages/medibank-packages.yml
+  title: ''
+  type: Packages
+  url: packages/medibank-packages.yml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.medibank.com.au/health-support/pregnancy/article/getting-started-breastfeeding/
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.medibank.com.au/livebetter/newsroom/rss
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medibank/refs/heads/main/security/medibank-domain-security.yml
+  href: https://artifacts.apis.io/medibank/security/medibank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/medibank-domain-security.yml
@@ -102,17 +128,17 @@ common:
   type: SignUp
   url: https://www.medibank.com.au/health-insurance/join/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medibank/refs/heads/main/well-known/medibank-well-known.yml
+  href: https://artifacts.apis.io/medibank/well-known/medibank-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/medibank-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medibank/refs/heads/main/conformance/medibank-conformance.yml
+  href: https://artifacts.apis.io/medibank/conformance/medibank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/medibank-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medibank/refs/heads/main/llms/medibank-llms.txt
+  href: https://artifacts.apis.io/medibank/llms/medibank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/medibank-llms.txt
@@ -124,6 +150,10 @@ common:
   title: ''
   type: TermsOfService
   url: https://www.medibank.com.au/legal-information/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.medibank.com.au/terms-and-conditions/
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -136,22 +166,30 @@ created: '2026-07-25'
 description: 'Medibank Private Limited (ASX: MPL) is Australia''s largest private health insurer, headquartered in Melbourne and operating two retail brands, Medibank and ahm, alongside the Amplar Health services arm. Founded in 1976 as a government-owned fund and privatised through an ASX listing in 2014, it underwrites hospital, extras and ambulance cover for Australian residents, Overseas Student Health Cover and Overseas Visitors Health Cover, and distributes travel, pet, life, income protection and accident cover (Recover Boost) alongside its core private health insurance book. Its home market is Australia, where private health insurance is a separately regulated market supervised by APRA and the Private Health Insurance Ombudsman, and where the Consumer Data Right that opened banking and energy was designated for general insurance and then deferred — so there is no open insurance obligation and no CDR seam reaching a health fund like Medibank. Medibank''s API posture is fully partner-gated
   and there is no public API. No developer portal exists on any conventional host: developer, developers, docs and apis subdomains of medibank.com.au do not resolve in DNS, api.medibank.com.au resolves but does not accept public TCP connections on port 443, and /developers, /api, /developer, /partners and /integrations all return HTTP 404 on www.medibank.com.au, whose 1,364-URL sitemap contains no developer or API page at all. The only first-party integration surfaces are login walls and email-gated onboarding: providers.medibank.com.au is a React single-page "Medibank - Provider Self Service" application (Provider Central, ESP) that returns its shell for every path, portal.medibank.com.au is a Palo Alto GlobalProtect corporate VPN, and the HCP Portal for Hospital Casemix Protocol submissions is granted only by emailing Medibank''s HCP team. The real machine-to-machine claiming rails are third-party and government-operated rather than Medibank-published: ECLIPSE, the Services Australia in-patient
   online claiming system, carries hospital claims and 25 percent Fund Gap medical claims under claim type "MB" and serves Online Eligibility Check with Presenting Illness codes, with ECFWeb and THELMA as alternative eligibility channels and HICAPS and iSOFT terminals handling ancillary claiming. No ACORD reference of any kind appears on Medibank''s public estate, which is the expected result — Australian private health insurance runs on ECLIPSE, HCP and the MBS rather than on ACORD AL3 or ACORD XML. No OpenAPI or Swagger definition, no Postman collection, no GraphQL or gRPC surface, no webhook or event catalog, and no documented authentication scheme could be confirmed anywhere on Medibank''s public web estate as of 2026-07-25, and none of the four insurance API verbs — quote, bind, issue or FNOL — is exposed to unauthenticated developers.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://www.medibank.com.au/content/dam/medibank/custom-campaigns/Digital/medibank_logo_red.jpg
 layout: provider
-modified: '2026-10-06'
+modified: '2026-10-20'
 name: Medibank
 nav: Providers
 network: true
 overview: 'Medibank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Health Insurance, Private Health Insurance, and Life and Health.
 
 
-  Medibank''s developer surface includes engineering blog, documentation, developer portal, support, signup flow, and 17 more developer resources.'
-random_paper: 13
+  Medibank''s developer surface includes getting-started guide, engineering blog, documentation, developer portal, support, signup flow, and 22 more developer resources.'
+plans:
+- name: Medibank Plans Pricing
+  plan_count: 0
+  slug: medibank-plans-pricing
+random_paper: 11
+rate_limits:
+- limit_count: 0
+  name: Medibank Rate Limits
+  slug: medibank-rate-limits
 score:
   band: emerging
-  composite: 19.9
+  composite: 23.3
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 15
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -162,9 +200,9 @@ score:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 26.2
-    discoverability: 55.4
-    operational_transparency: 13.2
+    developer_ergonomics: 45.2
+    discoverability: 48.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -172,23 +210,24 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 19.9
+  previous_composite: 23.3
   provenance:
     conformance: derived
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/medibank/refs/heads/main/screenshots/medibank-2026-08-07T172342.png
+screenshot: https://apis.io/screenshots/medibank/medibank-2026-08-07T172342.png
 security:
 - kind: domain-security
   name: Medibank Domain Security

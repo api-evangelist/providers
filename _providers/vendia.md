@@ -31,6 +31,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -38,20 +40,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Every Vendia project (Uni) is provisioned with an auto-generated GraphQL API derived from its JSON Schema data model — get_X / list_XItems / list_XVersions queries and add_X / create_X / put_X / updat
   name: Vendia Share GraphQL API
   slug: vendia-share-graphql-api
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Vendia Notifications Webhooks
   slug: vendia-notifications-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/security/vendia-domain-security.yml
+  href: https://artifacts.apis.io/vendia/security/vendia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vendia-domain-security.yml
@@ -140,52 +142,52 @@ common:
   type: YouTube
   url: https://www.youtube.com/@vendiahq
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/mcp/vendia-mcp.yml
+  href: https://artifacts.apis.io/vendia/mcp/vendia-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vendia-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/llms/vendia-llms.txt
+  href: https://artifacts.apis.io/vendia/llms/vendia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vendia-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/well-known/vendia-well-known.yml
+  href: https://artifacts.apis.io/vendia/well-known/vendia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vendia-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/packages/vendia-packages.yml
+  href: https://artifacts.apis.io/vendia/packages/vendia-packages.yml
   title: ''
   type: Packages
   url: packages/vendia-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/packages/vendia-packages.yml
+  href: https://artifacts.apis.io/vendia/packages/vendia-packages.yml
   title: ''
   type: SDKs
   url: packages/vendia-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/cli/vendia-cli.yml
+  href: https://artifacts.apis.io/vendia/cli/vendia-cli.yml
   title: ''
   type: CLI
   url: cli/vendia-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/authentication/vendia-authentication.yml
+  href: https://artifacts.apis.io/vendia/authentication/vendia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vendia-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/scopes/vendia-scopes.yml
+  href: https://artifacts.apis.io/vendia/scopes/vendia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vendia-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/conventions/vendia-conventions.yml
+  href: https://artifacts.apis.io/vendia/conventions/vendia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vendia-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/lifecycle/vendia-lifecycle.yml
+  href: https://artifacts.apis.io/vendia/lifecycle/vendia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vendia-lifecycle.yml
@@ -194,37 +196,45 @@ common:
   type: ChangeLog
   url: https://www.vendia.com/releases/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/changelog/vendia-changelog.yml
+  href: https://artifacts.apis.io/vendia/changelog/vendia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vendia-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/conformance/vendia-conformance.yml
+  href: https://artifacts.apis.io/vendia/conformance/vendia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vendia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/asyncapi/vendia-notifications-webhooks.yml
+  href: https://artifacts.apis.io/vendia/asyncapi/vendia-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vendia-notifications-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/sandbox/vendia-sandbox.yml
+  href: https://artifacts.apis.io/vendia/sandbox/vendia-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vendia-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/plans/vendia-plans.yml
+  href: https://artifacts.apis.io/vendia/plans/vendia-plans.yml
   title: ''
   type: Plans
   url: plans/vendia-plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/rate-limits/vendia-rate-limits.yml
+  href: https://artifacts.apis.io/vendia/rate-limits/vendia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vendia-rate-limits.yml
 created: '2026-08-05'
 description: Vendia is an enterprise data platform company founded by Tim Wagner (creator of AWS Lambda) and Shruthi Rao (founder of the AWS blockchain practice). Its flagship product is the Vendia MCP Gateway — a managed, multi-tenant Model Context Protocol server that gives AI agents governed, audited access to Amazon S3 buckets, third-party REST APIs described by OpenAPI/Swagger ("API Catalogs"), and remote MCP servers behind a single OAuth-protected endpoint. Underneath sits Vendia Share, a real-time distributed data platform that exposes each project as an auto-generated GraphQL API over a consensus-backed ledger, with fine-grained permissions, RBAC, schema evolution, file and folder APIs, block/dead-letter notifications, and analytical data products ingested from S3, Snowflake, Databricks, BigQuery, Cloudera, MySQL and PostgreSQL.
+finops:
+- has_sources: true
+  method: derived
+  name: Vendia Finops
+  primary_unit: user
+  service_category: ''
+  slug: vendia-finops
+  template: false
 image: https://www.vendia.com/wp-content/uploads/2025/09/Power_genai_with_enterprise_data.webp
 layout: provider
 mcp_servers:
@@ -246,7 +256,10 @@ plans:
 - name: Vendia Plans
   plan_count: 3
   slug: vendia-plans
-random_paper: 15
+- name: Vendia Price Estimates
+  plan_count: 0
+  slug: vendia-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Vendia Rate Limits
@@ -257,24 +270,24 @@ scopes:
   slug: vendia-scopes
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 64.8
+  band: exemplar
+  composite: 67.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 61.0
+    artifact_dirs: 21
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 77.6
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 78.6
-    discoverability: 75.0
-    operational_transparency: 84.2
-  previous_composite: 64.7
+    discoverability: 65.0
+    operational_transparency: 86.8
+  previous_composite: 65.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -284,14 +297,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vendia/refs/heads/main/screenshots/vendia-2026-08-17T080436.png
+screenshot: https://apis.io/screenshots/vendia/vendia-2026-08-17T080436.png
 security:
 - kind: authentication
   name: Vendia Authentication

@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
 - description: MSU's public research-expertise portal at scholars.msu.edu. The host is MSU-branded, but the application is an Angular single-page client whose compiled bundle (main-VSM345O5.js, fetched 2026-08-30) c
   name: Scholars @ MSU (Academic Analytics tenant)
   slug: scholars-msu
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Library Catalog Record API
   slug: open-michigan-state-university-record-api
@@ -155,62 +154,62 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/michigan-state-university/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/conformance/michigan-state-university-conformance.yml
+  href: https://artifacts.apis.io/michigan-state-university/conformance/michigan-state-university-conformance.yml
   title: ''
   type: Conformance
   url: conformance/michigan-state-university-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/authentication/michigan-state-university-authentication.yml
+  href: https://artifacts.apis.io/michigan-state-university/authentication/michigan-state-university-authentication.yml
   title: ''
   type: Authentication
   url: authentication/michigan-state-university-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/scopes/michigan-state-university-scopes.yml
+  href: https://artifacts.apis.io/michigan-state-university/scopes/michigan-state-university-scopes.yml
   title: ''
   type: Scopes
   url: scopes/michigan-state-university-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/errors/michigan-state-university-errors.yml
+  href: https://artifacts.apis.io/michigan-state-university/errors/michigan-state-university-errors.yml
   title: ''
   type: Errors
   url: errors/michigan-state-university-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/lifecycle/michigan-state-university-lifecycle.yml
+  href: https://artifacts.apis.io/michigan-state-university/lifecycle/michigan-state-university-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/michigan-state-university-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/capabilities/michigan-state-university-capability-edges.yml
+  href: https://artifacts.apis.io/michigan-state-university/capabilities/michigan-state-university-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/michigan-state-university-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/agentic-access/michigan-state-university-agentic-access.yml
+  href: https://artifacts.apis.io/michigan-state-university/agentic-access/michigan-state-university-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/michigan-state-university-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/security/michigan-state-university-domain-security.yml
+  href: https://artifacts.apis.io/michigan-state-university/security/michigan-state-university-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/michigan-state-university-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/plans/michigan-state-university-plans-pricing.yml
+  href: https://artifacts.apis.io/michigan-state-university/plans/michigan-state-university-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/michigan-state-university-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/rate-limits/michigan-state-university-rate-limits.yml
+  href: https://artifacts.apis.io/michigan-state-university/rate-limits/michigan-state-university-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/michigan-state-university-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/finops/michigan-state-university-finops.yml
+  href: https://artifacts.apis.io/michigan-state-university/finops/michigan-state-university-finops.yml
   title: ''
   type: FinOps
   url: finops/michigan-state-university-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/michigan-state-university/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -268,7 +267,7 @@ plans:
 - name: Michigan State University Plans Pricing
   plan_count: 2
   slug: michigan-state-university-plans-pricing
-random_paper: 15
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Michigan State University Rate Limits
@@ -303,7 +302,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 30.2
+  composite: 34.2
   coverage:
     artifact_dirs: 23
     catalog_earned: 52.3
@@ -311,14 +310,14 @@ score:
     catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 48.8
-    developer_ergonomics: 31.0
+    developer_ergonomics: 35.7
     discoverability: 73.2
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -326,7 +325,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 36.2
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -340,15 +339,15 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/screenshots/michigan-state-university-2026-06-20T185328.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/michigan-state-university/michigan-state-university-2026-06-20T185328.png
 security:
 - kind: authentication
   name: Michigan State University Authentication

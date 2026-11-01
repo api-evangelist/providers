@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -24,22 +24,24 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-17'
+  score: 25.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Kubit's hosted Model Context Protocol server. Exposes five tools — getUserContext, getSchema, createReport, getRawData, and searchKubit — that let an MCP-compatible IDE or assistant explore schemas, e
   name: Kubit MCP Server
   slug: mcp
-artifact_total: 6
+artifact_total: 13
 common:
 - group: operate
   title: ''
@@ -98,67 +100,67 @@ common:
   type: Support
   url: https://kubit.ai/about/#contact-block
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/mcp/kubit-ai-inc-mcp.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/mcp/kubit-ai-inc-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kubit-ai-inc-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/packages/kubit-ai-inc-packages.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/packages/kubit-ai-inc-packages.yml
   title: ''
   type: Packages
   url: packages/kubit-ai-inc-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/packages/kubit-ai-inc-packages.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/packages/kubit-ai-inc-packages.yml
   title: ''
   type: SDKs
   url: packages/kubit-ai-inc-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/cli/kubit-ai-inc-cli.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/cli/kubit-ai-inc-cli.yml
   title: ''
   type: CLI
   url: cli/kubit-ai-inc-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/components/kubit-ai-inc-components.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/components/kubit-ai-inc-components.yml
   title: ''
   type: Components
   url: components/kubit-ai-inc-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/authentication/kubit-ai-inc-authentication.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/authentication/kubit-ai-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kubit-ai-inc-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/scopes/kubit-ai-inc-scopes.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/scopes/kubit-ai-inc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kubit-ai-inc-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/well-known/kubit-ai-inc-well-known.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/well-known/kubit-ai-inc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kubit-ai-inc-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/llms/kubit-ai-inc-llms.txt
+  href: https://artifacts.apis.io/kubit-ai-inc/llms/kubit-ai-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kubit-ai-inc-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/conventions/kubit-ai-inc-conventions.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/conventions/kubit-ai-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kubit-ai-inc-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/data-model/kubit-ai-inc-data-model.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/data-model/kubit-ai-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kubit-ai-inc-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/conformance/kubit-ai-inc-conformance.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/conformance/kubit-ai-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kubit-ai-inc-conformance.yml
@@ -167,22 +169,22 @@ common:
   type: Compliance
   url: https://kubit.ai/gdpr-compliance-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/security/kubit-ai-inc-trust-center.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/security/kubit-ai-inc-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kubit-ai-inc-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/security/kubit-ai-inc-domain-security.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/security/kubit-ai-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kubit-ai-inc-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/lifecycle/kubit-ai-inc-lifecycle.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/lifecycle/kubit-ai-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kubit-ai-inc-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/changelog/kubit-ai-inc-changelog.yml
+  href: https://artifacts.apis.io/kubit-ai-inc/changelog/kubit-ai-inc-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kubit-ai-inc-changelog.yml
@@ -202,15 +204,15 @@ overview: 'Kubit AI is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Kubit AI''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, CLI, and 25 more developer resources.'
-random_paper: 5
+random_paper: 21
 scopes:
 - name: Kubit Ai Inc Scopes
   scope_count: 2
   slug: kubit-ai-inc-scopes
   summary_line: 2 scopes
 score:
-  band: thin
-  composite: 37.7
+  band: developing
+  composite: 41.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -218,15 +220,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 56.0
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 37.6
+    developer_ergonomics: 71.4
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -241,14 +243,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/screenshots/kubit-ai-inc-2026-07-25T224318.png
+screenshot: https://apis.io/screenshots/kubit-ai-inc/kubit-ai-inc-2026-07-25T224318.png
 security:
 - kind: authentication
   name: Kubit Ai Inc Authentication
@@ -262,6 +264,22 @@ security:
   name: Kubit Ai Inc Trust Center
   slug: kubit-ai-inc-trust-center
   summary_line: enumerated, note
+skill_count: 7
+skills:
+- name: kubit-blame
+  slug: kubit-ai-inc-kubit-blame
+- name: kubit-connect
+  slug: kubit-ai-inc-kubit-connect
+- name: kubit-help
+  slug: kubit-ai-inc-kubit-help
+- name: kubit-inspect
+  slug: kubit-ai-inc-kubit-inspect
+- name: kubit-integrate
+  slug: kubit-ai-inc-kubit-integrate
+- name: kubit-report
+  slug: kubit-ai-inc-kubit-report
+- name: kubit-update
+  slug: kubit-ai-inc-kubit-update
 slug: kubit-ai-inc
 tags:
 - Company

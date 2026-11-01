@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -73,11 +75,8 @@ apis:
   description: OAuth 2.0 / OpenID Connect protocol endpoints.
   name: University of Hong Kong O Auth API
   slug: hku-oauth-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Figshare altmetric API
   slug: open-hku-altmetric-api
@@ -170,87 +169,87 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-hong-kong/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/_original/hku-identity-openapi.yml
+  href: https://artifacts.apis.io/hku/openapi/_original/hku-identity-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/hku-identity-openapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/well-known/hku-adfs-openid-configuration.json
+  href: https://artifacts.apis.io/hku/well-known/hku-adfs-openid-configuration.json
   title: ''
   type: WellKnown
   url: well-known/hku-adfs-openid-configuration.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/json-schema/hku-openid-configuration.schema.json
+  href: https://artifacts.apis.io/hku/json-schema/hku-openid-configuration.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/hku-openid-configuration.schema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/examples/hku-identity-examples.yml
+  href: https://artifacts.apis.io/hku/examples/hku-identity-examples.yml
   title: ''
   type: Examples
   url: examples/hku-identity-examples.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/authentication/hku-authentication.yml
+  href: https://artifacts.apis.io/hku/authentication/hku-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hku-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/scopes/hku-scopes.yml
+  href: https://artifacts.apis.io/hku/scopes/hku-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hku-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/errors/hku-errors.yml
+  href: https://artifacts.apis.io/hku/errors/hku-errors.yml
   title: ''
   type: ErrorCatalog
   url: errors/hku-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/conformance/hku-conformance.yml
+  href: https://artifacts.apis.io/hku/conformance/hku-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hku-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/vocabulary/hku-identity-attributes.yml
+  href: https://artifacts.apis.io/hku/vocabulary/hku-identity-attributes.yml
   title: ''
   type: Vocabulary
   url: vocabulary/hku-identity-attributes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/json-ld/hku-organization.jsonld
+  href: https://artifacts.apis.io/hku/json-ld/hku-organization.jsonld
   title: ''
   type: JSONLD
   url: json-ld/hku-organization.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/rules/hku-identity-rules.yml
+  href: https://artifacts.apis.io/hku/rules/hku-identity-rules.yml
   title: ''
   type: SpectralRules
   url: rules/hku-identity-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/lifecycle/hku-lifecycle.yml
+  href: https://artifacts.apis.io/hku/lifecycle/hku-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hku-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/security/hku-domain-security.yml
+  href: https://artifacts.apis.io/hku/security/hku-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hku-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/plans/hku-plans-pricing.yml
+  href: https://artifacts.apis.io/hku/plans/hku-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hku-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/rate-limits/hku-rate-limits.yml
+  href: https://artifacts.apis.io/hku/rate-limits/hku-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hku-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/finops/hku-finops.yml
+  href: https://artifacts.apis.io/hku/finops/hku-finops.yml
   title: ''
   type: FinOps
   url: finops/hku-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/hku/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -285,19 +284,19 @@ coverage:
   - note: empty array — the official GitHub org has no public repositories
     status: 200
     url: https://api.github.com/orgs/hku-official/repos
-  reason: affiliation_gated_developer_portal
+  reason: auth-required
   state: gated
 created: '2026-06-03'
 description: 'The University of Hong Kong (HKU) is a public research university in Hong Kong SAR, founded in 1911 and ranked in the top 30 of the QS World University Rankings. It operates no public, self-serve API programme. The machine-readable surfaces HKU genuinely runs on its own hosts are identity infrastructure: a Shibboleth SAML 2.0 identity provider at hkafidp.hku.hk, registered with the Hong Kong Access Federation in 2016 and exported to eduGAIN with REFEDS Research and Scholarship and SIRTFI declarations, and an AD FS OAuth 2.0 / OpenID Connect issuer at adfs.hku.hk publishing a live discovery document and JWKS. HKU ITS also runs an Azure API Management gateway (api.hku.hk) and developer portal (developer.hku.hk) that opened GenAI chat-completion, embedding and image-generation APIs to students in March 2026 — but every portal route redirects to institutional sign-in, so no specification, scope or endpoint list is publicly readable. Its research repository is a Figshare tenancy
   and its library discovery is an Ex Libris Primo tenancy: real institutional facts, vendor-operated contracts, recorded here as tenant relationships rather than credited to HKU. HKU publishes no OpenAPI, no robots.txt on its main host, no llms.txt, no status page and no API changelog.'
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Hku Finops
   primary_unit: ''
-  service_category: Education
+  service_category: ''
   slug: hku-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hku.png
 json_schemas:
 - name: HKU AD FS OpenID Provider Metadata
@@ -324,7 +323,7 @@ plans:
 - name: Hku Plans Pricing
   plan_count: 2
   slug: hku-plans-pricing
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Hku Rate Limits
@@ -348,7 +347,7 @@ scopes:
   summary_line: 9 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 39.5
+  composite: 42.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 71.0
@@ -356,12 +355,12 @@ score:
     catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 40.9
     contract_quality: 22.4
-    developer_ergonomics: 28.6
+    developer_ergonomics: 38.1
     discoverability: 76.8
     operational_transparency: 36.8
   jurisdiction:
@@ -369,28 +368,29 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 44.0
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 2
+      derived: 5
       marker_coverage: 100.0
-      total: 2
+      total: 5
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 35.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/screenshots/hku-2026-06-20T182806.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hku/hku-2026-06-20T182806.png
 security:
 - kind: authentication
   name: Hku Authentication

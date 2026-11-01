@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,67 +68,67 @@ common:
   type: Support
   url: https://hakuto-0209.com/#contact
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hakuto-0209-com/refs/heads/main/a2a/hakuto-0209-com-a2a.yml
+  href: https://artifacts.apis.io/hakuto-0209-com/a2a/hakuto-0209-com-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/hakuto-0209-com-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hakuto-0209-com/refs/heads/main/mcp/hakuto-0209-com-mcp.yml
+  href: https://artifacts.apis.io/hakuto-0209-com/mcp/hakuto-0209-com-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hakuto-0209-com-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hakuto-0209-com/refs/heads/main/well-known/hakuto-0209-com-well-known.yml
+  href: https://artifacts.apis.io/hakuto-0209-com/well-known/hakuto-0209-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hakuto-0209-com-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hakuto-0209-com/refs/heads/main/llms/hakuto-0209-com-llms.txt
+  href: https://artifacts.apis.io/hakuto-0209-com/llms/hakuto-0209-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hakuto-0209-com-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hakuto-0209-com/refs/heads/main/authentication/hakuto-0209-com-authentication.yml
+  href: https://artifacts.apis.io/hakuto-0209-com/authentication/hakuto-0209-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hakuto-0209-com-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hakuto-0209-com/refs/heads/main/conventions/hakuto-0209-com-conventions.yml
+  href: https://artifacts.apis.io/hakuto-0209-com/conventions/hakuto-0209-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hakuto-0209-com-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hakuto-0209-com/refs/heads/main/errors/hakuto-0209-com-problem-types.yml
+  href: https://artifacts.apis.io/hakuto-0209-com/errors/hakuto-0209-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hakuto-0209-com-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hakuto-0209-com/refs/heads/main/rate-limits/hakuto-0209-com-rate-limits.yml
+  href: https://artifacts.apis.io/hakuto-0209-com/rate-limits/hakuto-0209-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hakuto-0209-com-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hakuto-0209-com/refs/heads/main/plans/hakuto-0209-com-plans-pricing.yml
+  href: https://artifacts.apis.io/hakuto-0209-com/plans/hakuto-0209-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hakuto-0209-com-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hakuto-0209-com/refs/heads/main/conformance/hakuto-0209-com-conformance.yml
+  href: https://artifacts.apis.io/hakuto-0209-com/conformance/hakuto-0209-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hakuto-0209-com-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hakuto-0209-com/refs/heads/main/lifecycle/hakuto-0209-com-lifecycle.yml
+  href: https://artifacts.apis.io/hakuto-0209-com/lifecycle/hakuto-0209-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hakuto-0209-com-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hakuto-0209-com/refs/heads/main/agentic-access/hakuto-0209-com-agentic-access.yml
+  href: https://artifacts.apis.io/hakuto-0209-com/agentic-access/hakuto-0209-com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hakuto-0209-com-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hakuto-0209-com/refs/heads/main/security/hakuto-0209-com-domain-security.yml
+  href: https://artifacts.apis.io/hakuto-0209-com/security/hakuto-0209-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hakuto-0209-com-domain-security.yml
@@ -162,14 +164,14 @@ plans:
 - name: Hakuto 0209 Com Plans Pricing
   plan_count: 2
   slug: hakuto-0209-com-plans-pricing
-random_paper: 10
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Hakuto 0209 Com Rate Limits
   slug: hakuto-0209-com-rate-limits
 score:
   band: thin
-  composite: 30.1
+  composite: 29.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 53.0
@@ -177,13 +179,13 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 68.3
+    discoverability: 65.0
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -192,7 +194,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 30.0
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -203,14 +205,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hakuto-0209-com/refs/heads/main/screenshots/hakuto-0209-com-2026-10-11T105113.png
+screenshot: https://apis.io/screenshots/hakuto-0209-com/hakuto-0209-com-2026-10-11T105113.png
 security:
 - kind: authentication
   name: Hakuto 0209 Com Authentication

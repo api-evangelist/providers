@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.9
-  scored_at: '2026-10-17'
+  score: 26.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -64,7 +66,7 @@ apis:
   description: User management operations for accessing Spiceworks user and technician profiles
   name: Spiceworks Users API
   slug: spiceworks-users-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: postman
   name: Spiceworks Cloud Apps Comments API
@@ -78,9 +80,6 @@ collections:
 - collection_type: postman
   name: Spiceworks Cloud Apps Comments Users API
   slug: postman-spiceworks-users-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Spiceworks Cloud Apps API
   slug: open-spiceworks-cloud-apps
@@ -98,22 +97,22 @@ collections:
   slug: open-spiceworks-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/plans/spiceworks-plans-pricing.yml
+  href: https://artifacts.apis.io/spiceworks/plans/spiceworks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spiceworks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/rate-limits/spiceworks-rate-limits.yml
+  href: https://artifacts.apis.io/spiceworks/rate-limits/spiceworks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spiceworks-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/finops/spiceworks-finops.yml
+  href: https://artifacts.apis.io/spiceworks/finops/spiceworks-finops.yml
   title: ''
   type: FinOps
   url: finops/spiceworks-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/capabilities/spiceworks-capability-edges.yml
+  href: https://artifacts.apis.io/spiceworks/capabilities/spiceworks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spiceworks-capability-edges.yml
@@ -122,22 +121,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/spiceworks/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/agentic-access/spiceworks-agentic-access.yml
+  href: https://artifacts.apis.io/spiceworks/agentic-access/spiceworks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spiceworks-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/security/spiceworks-domain-security.yml
+  href: https://artifacts.apis.io/spiceworks/security/spiceworks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spiceworks-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/authentication/spiceworks-authentication.yml
+  href: https://artifacts.apis.io/spiceworks/authentication/spiceworks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spiceworks-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/scopes/spiceworks-scopes.yml
+  href: https://artifacts.apis.io/spiceworks/scopes/spiceworks-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/spiceworks-scopes.yml
@@ -202,17 +201,17 @@ common:
   type: GitHub
   url: https://github.com/spiceworks
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/openapi/_original/spiceworks-cloud-apps-openapi.yml
+  href: https://artifacts.apis.io/spiceworks/openapi/_original/spiceworks-cloud-apps-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/spiceworks-cloud-apps-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/rules/spiceworks-rules.yml
+  href: https://artifacts.apis.io/spiceworks/rules/spiceworks-rules.yml
   title: ''
   type: SpectralRules
   url: rules/spiceworks-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/vocabulary/spiceworks-vocabulary.yml
+  href: https://artifacts.apis.io/spiceworks/vocabulary/spiceworks-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/spiceworks-vocabulary.yml
@@ -229,7 +228,7 @@ finops:
 - has_sources: false
   method: generated
   name: Spiceworks Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: spiceworks-finops
   template: true
@@ -266,7 +265,7 @@ plans:
 - name: Spiceworks Plans Pricing
   plan_count: 3
   slug: spiceworks-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Spiceworks Rate Limits
@@ -302,7 +301,7 @@ scopes:
   summary_line: 3 scopes · implicit
 score:
   band: developing
-  composite: 42.9
+  composite: 45.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 53.0
@@ -310,15 +309,15 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 27.3
     contract_quality: 60.3
-    developer_ergonomics: 36.9
+    developer_ergonomics: 46.4
     discoverability: 48.2
     operational_transparency: 13.2
-  previous_composite: 44.4
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -332,13 +331,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/screenshots/spiceworks-2026-06-20T194312.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spiceworks/spiceworks-2026-06-20T194312.png
 security:
 - kind: authentication
   name: Spiceworks Authentication

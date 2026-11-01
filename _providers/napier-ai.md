@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for Napier AI AML platform providing endpoints for client screening, transaction monitoring, and risk assessment.
@@ -32,17 +34,17 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/napier-ai/refs/heads/main/llms/napier-ai-llms.txt
+  href: https://artifacts.apis.io/napier-ai/llms/napier-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/napier-ai-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/napier-ai/refs/heads/main/hosts/napier-ai-hosts.yml
+  href: https://artifacts.apis.io/napier-ai/hosts/napier-ai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/napier-ai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/napier-ai/refs/heads/main/vendors/napier-ai-vendors.yml
+  href: https://artifacts.apis.io/napier-ai/vendors/napier-ai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/napier-ai-vendors.yml
@@ -55,7 +57,7 @@ common:
   type: Leadership
   url: https://www.napier.ai/team
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/napier-ai/refs/heads/main/security/napier-ai-domain-security.yml
+  href: https://artifacts.apis.io/napier-ai/security/napier-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/napier-ai-domain-security.yml
@@ -107,10 +109,10 @@ overview: 'Napier AI is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Napier AI''s developer surface includes documentation, engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 6
+random_paper: 22
 score:
   band: emerging
-  composite: 16.6
+  composite: 15.9
   coverage:
     artifact_dirs: 6
     catalog_earned: 32.0
@@ -118,13 +120,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 67.9
+    discoverability: 60.7
     operational_transparency: 0.0
+  previous_composite: 15.9
   provenance:
     mcp: unknown
   regulatory:
@@ -133,8 +137,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

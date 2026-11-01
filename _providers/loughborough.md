@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: The REST API of Loughborough University Library's Koha integrated library system, served from the university's own koha.lboro.ac.uk host. The live description at /api/v1/ is a Swagger 2.0 document dec
@@ -76,7 +78,7 @@ common:
   type: IdentityFederation
   url: http://metadata.ukfederation.org.uk/ukfederation-metadata.xml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/conformance/loughborough-conformance.yml
+  href: https://artifacts.apis.io/loughborough/conformance/loughborough-conformance.yml
   title: ''
   type: Conformance
   url: conformance/loughborough-conformance.yml
@@ -113,27 +115,27 @@ common:
   type: ProductPage
   url: https://www.lboro.ac.uk/services/it/topics/student-account/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/security/loughborough-domain-security.yml
+  href: https://artifacts.apis.io/loughborough/security/loughborough-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/loughborough-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/plans/loughborough-plans-pricing.yml
+  href: https://artifacts.apis.io/loughborough/plans/loughborough-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/loughborough-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/rate-limits/loughborough-rate-limits.yml
+  href: https://artifacts.apis.io/loughborough/rate-limits/loughborough-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/loughborough-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/finops/loughborough-finops.yml
+  href: https://artifacts.apis.io/loughborough/finops/loughborough-finops.yml
   title: ''
   type: FinOps
   url: finops/loughborough-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/loughborough/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -169,14 +171,14 @@ plans:
 - name: Loughborough Plans Pricing
   plan_count: 2
   slug: loughborough-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Loughborough Rate Limits
   slug: loughborough-rate-limits
 score:
   band: emerging
-  composite: 19.3
+  composite: 19.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 44.0
@@ -184,14 +186,14 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 4.4
     developer_ergonomics: 23.8
     discoverability: 71.4
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -200,7 +202,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 25.4
+  previous_composite: 19.7
   provenance:
     conformance: first-party
   regulatory:
@@ -209,14 +211,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/screenshots/loughborough-2026-06-20T184729.png
+screenshot: https://apis.io/screenshots/loughborough/loughborough-2026-06-20T184729.png
 security:
 - kind: domain-security
   name: Loughborough Domain Security

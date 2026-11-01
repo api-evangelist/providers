@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-10-17'
+  score: 28.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -103,37 +105,37 @@ asyncapis:
   slug: banyan-systems-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/agentic-access/banyan-systems-agentic-access.yml
+  href: https://artifacts.apis.io/banyan-systems/agentic-access/banyan-systems-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/banyan-systems-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/rules/banyan-systems-rules.yml
+  href: https://artifacts.apis.io/banyan-systems/rules/banyan-systems-rules.yml
   title: ''
   type: Spectral
   url: rules/banyan-systems-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/json-ld/banyan-systems-context.jsonld
+  href: https://artifacts.apis.io/banyan-systems/json-ld/banyan-systems-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/banyan-systems-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/vocabulary/banyan-systems-vocabulary.yml
+  href: https://artifacts.apis.io/banyan-systems/vocabulary/banyan-systems-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/banyan-systems-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/data-model/banyan-systems-data-model.yml
+  href: https://artifacts.apis.io/banyan-systems/data-model/banyan-systems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/banyan-systems-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/hosts/banyan-systems-hosts.yml
+  href: https://artifacts.apis.io/banyan-systems/hosts/banyan-systems-hosts.yml
   title: ''
   type: Hosts
   url: hosts/banyan-systems-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/vendors/banyan-systems-vendors.yml
+  href: https://artifacts.apis.io/banyan-systems/vendors/banyan-systems-vendors.yml
   title: ''
   type: Vendors
   url: vendors/banyan-systems-vendors.yml
@@ -142,7 +144,7 @@ common:
   type: Newsroom
   url: https://www.banyan.com/press
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/scopes/banyan-systems-scopes.yml
+  href: https://artifacts.apis.io/banyan-systems/scopes/banyan-systems-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/banyan-systems-scopes.yml
@@ -183,57 +185,57 @@ common:
   type: ChangeLog
   url: https://developers.banyan.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/changelog/banyan-systems-changelog.yml
+  href: https://artifacts.apis.io/banyan-systems/changelog/banyan-systems-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/banyan-systems-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/authentication/banyan-systems-authentication.yml
+  href: https://artifacts.apis.io/banyan-systems/authentication/banyan-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/banyan-systems-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/conventions/banyan-systems-conventions.yml
+  href: https://artifacts.apis.io/banyan-systems/conventions/banyan-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/banyan-systems-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/errors/banyan-systems-problem-types.yml
+  href: https://artifacts.apis.io/banyan-systems/errors/banyan-systems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/banyan-systems-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/lifecycle/banyan-systems-lifecycle.yml
+  href: https://artifacts.apis.io/banyan-systems/lifecycle/banyan-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/banyan-systems-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/conformance/banyan-systems-conformance.yml
+  href: https://artifacts.apis.io/banyan-systems/conformance/banyan-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/banyan-systems-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/asyncapi/banyan-systems-webhooks.yml
+  href: https://artifacts.apis.io/banyan-systems/asyncapi/banyan-systems-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/banyan-systems-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/mcp/banyan-systems-mcp.yml
+  href: https://artifacts.apis.io/banyan-systems/mcp/banyan-systems-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/banyan-systems-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/llms/banyan-systems-llms.txt
+  href: https://artifacts.apis.io/banyan-systems/llms/banyan-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/banyan-systems-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/well-known/banyan-systems-well-known.yml
+  href: https://artifacts.apis.io/banyan-systems/well-known/banyan-systems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/banyan-systems-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/security/banyan-systems-domain-security.yml
+  href: https://artifacts.apis.io/banyan-systems/security/banyan-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/banyan-systems-domain-security.yml
@@ -294,7 +296,7 @@ overview: 'Banyan Systems publishes 11 API contracts indexed on the [APIs.io](ht
 
 
   Banyan Systems'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 22 more developer resources.'
-random_paper: 18
+random_paper: 6
 rules:
 - authorship: generated
   effective_rule_count: 57
@@ -315,7 +317,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.0
+  composite: 46.3
   coverage:
     artifact_dirs: 25
     catalog_earned: 65.8
@@ -323,15 +325,15 @@ score:
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 14.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 35.6
-    contract_quality: 68.4
-    developer_ergonomics: 38.1
-    discoverability: 80.4
-    operational_transparency: 15.8
-  previous_composite: 30.9
+    contract_quality: 67.6
+    developer_ergonomics: 57.1
+    discoverability: 73.2
+    operational_transparency: 23.7
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -347,13 +349,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/screenshots/banyan-systems-2026-07-25T202351.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/banyan-systems/banyan-systems-2026-07-25T202351.png
 security:
 - kind: authentication
   name: Banyan Systems Authentication

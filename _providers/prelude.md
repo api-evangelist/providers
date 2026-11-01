@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-17'
+  score: 17.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Hosted, OAuth 2.1-secured Model Context Protocol server that lets agents run read-only structured queries against a tenant's endpoint and agent observability data (schema discovery + analytics query),
@@ -86,42 +88,42 @@ common:
   type: Compliance
   url: https://www.originhq.com/legal/service-terms
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prelude/refs/heads/main/mcp/prelude-mcp.yml
+  href: https://artifacts.apis.io/prelude/mcp/prelude-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/prelude-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prelude/refs/heads/main/llms/prelude-llms.txt
+  href: https://artifacts.apis.io/prelude/llms/prelude-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/prelude-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prelude/refs/heads/main/well-known/prelude-well-known.yml
+  href: https://artifacts.apis.io/prelude/well-known/prelude-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/prelude-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prelude/refs/heads/main/authentication/prelude-authentication.yml
+  href: https://artifacts.apis.io/prelude/authentication/prelude-authentication.yml
   title: ''
   type: Authentication
   url: authentication/prelude-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prelude/refs/heads/main/lifecycle/prelude-lifecycle.yml
+  href: https://artifacts.apis.io/prelude/lifecycle/prelude-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/prelude-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/prelude/refs/heads/main/changelog/prelude-changelog.yml
+  href: https://artifacts.apis.io/prelude/changelog/prelude-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/prelude-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prelude/refs/heads/main/conformance/prelude-conformance.yml
+  href: https://artifacts.apis.io/prelude/conformance/prelude-conformance.yml
   title: ''
   type: Conformance
   url: conformance/prelude-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prelude/refs/heads/main/security/prelude-domain-security.yml
+  href: https://artifacts.apis.io/prelude/security/prelude-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prelude-domain-security.yml
@@ -141,10 +143,10 @@ overview: 'Prelude is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Prelude''s developer surface includes documentation, getting-started guide, support, engineering blog, changelog, pricing, authentication, and 12 more developer resources.'
-random_paper: 5
+random_paper: 9
 score:
   band: thin
-  composite: 26.8
+  composite: 30.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -152,15 +154,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 32.1
-    discoverability: 75.0
+    developer_ergonomics: 50.0
+    discoverability: 65.0
     operational_transparency: 15.8
-  previous_composite: 26.7
+  previous_composite: 30.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -174,14 +176,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/prelude/refs/heads/main/screenshots/prelude-2026-09-02T151925.png
+screenshot: https://apis.io/screenshots/prelude/prelude-2026-09-02T151925.png
 security:
 - kind: authentication
   name: Prelude Authentication

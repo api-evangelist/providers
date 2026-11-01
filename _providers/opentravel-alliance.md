@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.3
-  scored_at: '2026-10-17'
+  score: 41.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -76,7 +78,7 @@ apis:
   description: The HotelDescriptiveContents API from OpenTravel Alliance — 3 operation(s) for hoteldescriptivecontents.
   name: OpenTravel Alliance Hotel Descriptive Contents API
   slug: opentravel-alliance-hoteldescriptivecontents-api
-artifact_total: 37
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Opentravel Alliance Notifications Webhooks
@@ -108,7 +110,7 @@ collections:
   slug: open-opentravel-2020a-hotel-descriptive-content-resource
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/capabilities/opentravel-alliance-capability-edges.yml
+  href: https://artifacts.apis.io/opentravel-alliance/capabilities/opentravel-alliance-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/opentravel-alliance-capability-edges.yml
@@ -117,47 +119,47 @@ common:
   type: IssueTracker
   url: https://github.com/OpenTravel/OpenTravel-Specifications/issues
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/overlays/opentravel-alliance-2020a-hotel-descriptive-content-resource-overlay.yaml
+  href: https://artifacts.apis.io/opentravel-alliance/overlays/opentravel-alliance-2020a-hotel-descriptive-content-resource-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opentravel-alliance-2020a-hotel-descriptive-content-resource-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/skills/opentravel-alliance-hotel-descriptive-content.md
+  href: https://artifacts.apis.io/opentravel-alliance/skills/opentravel-alliance-hotel-descriptive-content.md
   title: ''
   type: AgentSkill
   url: skills/opentravel-alliance-hotel-descriptive-content.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/overlays/opentravel-alliance-2020a-facility-resource-overlay.yaml
+  href: https://artifacts.apis.io/opentravel-alliance/overlays/opentravel-alliance-2020a-facility-resource-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opentravel-alliance-2020a-facility-resource-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/skills/opentravel-alliance-facility-resource.md
+  href: https://artifacts.apis.io/opentravel-alliance/skills/opentravel-alliance-facility-resource.md
   title: ''
   type: AgentSkill
   url: skills/opentravel-alliance-facility-resource.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/overlays/opentravel-alliance-2018a-hospitality-offers-resource-overlay.yaml
+  href: https://artifacts.apis.io/opentravel-alliance/overlays/opentravel-alliance-2018a-hospitality-offers-resource-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opentravel-alliance-2018a-hospitality-offers-resource-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/skills/opentravel-alliance-hospitality-offers.md
+  href: https://artifacts.apis.io/opentravel-alliance/skills/opentravel-alliance-hospitality-offers.md
   title: ''
   type: AgentSkill
   url: skills/opentravel-alliance-hospitality-offers.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/overlays/opentravel-alliance-2018a-facility-resource-overlay.yaml
+  href: https://artifacts.apis.io/opentravel-alliance/overlays/opentravel-alliance-2018a-facility-resource-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opentravel-alliance-2018a-facility-resource-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/skills/opentravel-alliance-hospitality-facility-availability.md
+  href: https://artifacts.apis.io/opentravel-alliance/skills/opentravel-alliance-hospitality-facility-availability.md
   title: ''
   type: AgentSkill
   url: skills/opentravel-alliance-hospitality-facility-availability.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/agentic-access/opentravel-alliance-agentic-access.yml
+  href: https://artifacts.apis.io/opentravel-alliance/agentic-access/opentravel-alliance-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/opentravel-alliance-agentic-access.yml
@@ -190,112 +192,112 @@ common:
   type: Download
   url: https://www.opentraveldevelopersnetwork.com/schema-products-page
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/mcp/opentravel-alliance-mcp.yml
+  href: https://artifacts.apis.io/opentravel-alliance/mcp/opentravel-alliance-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/opentravel-alliance-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/mcp/opentravel-alliance-tool-crosswalk.yml
+  href: https://artifacts.apis.io/opentravel-alliance/mcp/opentravel-alliance-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/opentravel-alliance-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/well-known/opentravel-alliance-well-known.yml
+  href: https://artifacts.apis.io/opentravel-alliance/well-known/opentravel-alliance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/opentravel-alliance-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/authentication/opentravel-alliance-authentication.yml
+  href: https://artifacts.apis.io/opentravel-alliance/authentication/opentravel-alliance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opentravel-alliance-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/scopes/opentravel-alliance-scopes.yml
+  href: https://artifacts.apis.io/opentravel-alliance/scopes/opentravel-alliance-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/opentravel-alliance-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/packages/opentravel-alliance-packages.yml
+  href: https://artifacts.apis.io/opentravel-alliance/packages/opentravel-alliance-packages.yml
   title: ''
   type: Packages
   url: packages/opentravel-alliance-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/llms/opentravel-alliance-llms.txt
+  href: https://artifacts.apis.io/opentravel-alliance/llms/opentravel-alliance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/opentravel-alliance-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/conformance/opentravel-alliance-conformance.yml
+  href: https://artifacts.apis.io/opentravel-alliance/conformance/opentravel-alliance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/opentravel-alliance-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/errors/opentravel-alliance-problem-types.yml
+  href: https://artifacts.apis.io/opentravel-alliance/errors/opentravel-alliance-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/opentravel-alliance-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/lifecycle/opentravel-alliance-lifecycle.yml
+  href: https://artifacts.apis.io/opentravel-alliance/lifecycle/opentravel-alliance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/opentravel-alliance-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/conventions/opentravel-alliance-conventions.yml
+  href: https://artifacts.apis.io/opentravel-alliance/conventions/opentravel-alliance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/opentravel-alliance-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/changelog/opentravel-alliance-changelog.yml
+  href: https://artifacts.apis.io/opentravel-alliance/changelog/opentravel-alliance-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/opentravel-alliance-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/data-model/opentravel-alliance-data-model.yml
+  href: https://artifacts.apis.io/opentravel-alliance/data-model/opentravel-alliance-data-model.yml
   title: ''
   type: DataModel
   url: data-model/opentravel-alliance-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/asyncapi/opentravel-alliance-notifications-webhooks.yml
+  href: https://artifacts.apis.io/opentravel-alliance/asyncapi/opentravel-alliance-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/opentravel-alliance-notifications-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/opentravel-alliance/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/security/opentravel-alliance-domain-security.yml
+  href: https://artifacts.apis.io/opentravel-alliance/security/opentravel-alliance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opentravel-alliance-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/vocabulary/opentravel-alliance-vocabulary.yml
+  href: https://artifacts.apis.io/opentravel-alliance/vocabulary/opentravel-alliance-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/opentravel-alliance-vocabulary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/cli/opentravel-alliance-cli.yml
+  href: https://artifacts.apis.io/opentravel-alliance/cli/opentravel-alliance-cli.yml
   title: ''
   type: CLI
   url: cli/opentravel-alliance-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/opentravel-alliance/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/json-schema/opentravel-2020a-codelist-4-0-0.schema.json
+  href: https://artifacts.apis.io/opentravel-alliance/json-schema/opentravel-2020a-codelist-4-0-0.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/opentravel-2020a-codelist-4-0-0.schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/json-schema/opentravel-2020a-codelist-4-1-0.schema.json
+  href: https://artifacts.apis.io/opentravel-alliance/json-schema/opentravel-2020a-codelist-4-1-0.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/opentravel-2020a-codelist-4-1-0.schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/json-schema/opentravel-2018a-codelist-3-0-0.schema.json
+  href: https://artifacts.apis.io/opentravel-alliance/json-schema/opentravel-2018a-codelist-3-0-0.schema.json
   title: ''
   type: JSONSchema
   url: json-schema/opentravel-2018a-codelist-3-0-0.schema.json
@@ -460,7 +462,7 @@ overview: 'OpenTravel Alliance publishes 6 API contracts indexed on the [APIs.io
 
 
   OpenTravel Alliance''s developer surface includes getting-started guide, support, authentication, changelog, CLI, code examples, API reference, and 55 more developer resources.'
-random_paper: 0
+random_paper: 14
 scopes:
 - name: Opentravel Alliance Scopes
   scope_count: 1
@@ -468,7 +470,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.7
+  composite: 51.4
   coverage:
     artifact_dirs: 27
     catalog_earned: 49.0
@@ -476,14 +478,14 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 44.7
     contract_governance: 19.7
     contract_quality: 53.6
-    developer_ergonomics: 54.2
-    discoverability: 65.0
-    operational_transparency: 31.6
+    developer_ergonomics: 66.1
+    discoverability: 61.7
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -491,7 +493,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 45.6
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -507,14 +509,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 34.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/screenshots/opentravel-alliance-2026-08-07T190651.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/opentravel-alliance/opentravel-alliance-2026-08-07T190651.png
 security:
 - kind: authentication
   name: Opentravel Alliance Authentication
@@ -524,6 +527,16 @@ security:
   name: Opentravel Alliance Domain Security
   slug: opentravel-alliance-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 4
+skills:
+- name: OpenTravel 2020A facility resource
+  slug: opentravel-alliance-facility-resource
+- name: OpenTravel 2018A hospitality facility availability
+  slug: opentravel-alliance-hospitality-facility-availability
+- name: OpenTravel 2018A hospitality offers
+  slug: opentravel-alliance-hospitality-offers
+- name: OpenTravel 2020A hotel descriptive content
+  slug: opentravel-alliance-hotel-descriptive-content
 slug: opentravel-alliance
 tags:
 - Travel

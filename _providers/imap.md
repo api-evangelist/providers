@@ -4,6 +4,6 @@ layout: provider
 name: imap
 nav: Providers
 network: true
-random_paper: 5
+random_paper: 15
 slug: imap
 ---

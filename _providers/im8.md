@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The agent-native commerce surface of the IM8 Health Shopify storefront: a Universal Commerce Protocol (UCP) merchant profile with a hosted MCP shopping endpoint (catalog search, cart, checkout, fulfil'
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/im8/refs/heads/main/security/im8-domain-security.yml
+  href: https://artifacts.apis.io/im8/security/im8-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/im8-domain-security.yml
@@ -55,32 +57,32 @@ common:
   type: Documentation
   url: https://im8health.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/im8/refs/heads/main/mcp/im8-mcp.yml
+  href: https://artifacts.apis.io/im8/mcp/im8-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/im8-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/im8/refs/heads/main/authentication/im8-authentication.yml
+  href: https://artifacts.apis.io/im8/authentication/im8-authentication.yml
   title: ''
   type: Authentication
   url: authentication/im8-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/im8/refs/heads/main/scopes/im8-scopes.yml
+  href: https://artifacts.apis.io/im8/scopes/im8-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/im8-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/im8/refs/heads/main/well-known/im8-well-known.yml
+  href: https://artifacts.apis.io/im8/well-known/im8-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/im8-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/im8/refs/heads/main/llms/im8-llms.txt
+  href: https://artifacts.apis.io/im8/llms/im8-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/im8-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/im8/refs/heads/main/conformance/im8-conformance.yml
+  href: https://artifacts.apis.io/im8/conformance/im8-conformance.yml
   title: ''
   type: Conformance
   url: conformance/im8-conformance.yml
@@ -124,7 +126,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 21.9
+  composite: 22.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 32.0
@@ -134,13 +136,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 63.3
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 21.9
+  previous_composite: 22.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -150,14 +152,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/im8/refs/heads/main/screenshots/im8-2026-08-07T170629.png
+screenshot: https://apis.io/screenshots/im8/im8-2026-08-07T170629.png
 security:
 - kind: authentication
   name: Im8 Authentication

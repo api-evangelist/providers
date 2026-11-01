@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'HTTP API behind the Upsolver SQLake platform, used by the first-party Python SDK (DB API 2.0), CLI, and dbt adapter to execute SQLake SQL statements (DDL, DML, continuous data loading). Authenticated '
@@ -59,42 +61,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/Upsolver
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/upsolver/refs/heads/main/changelog/upsolver-changelog.yml
+  href: https://artifacts.apis.io/upsolver/changelog/upsolver-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/upsolver-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upsolver/refs/heads/main/lifecycle/upsolver-lifecycle.yml
+  href: https://artifacts.apis.io/upsolver/lifecycle/upsolver-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/upsolver-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/upsolver/refs/heads/main/packages/upsolver-packages.yml
+  href: https://artifacts.apis.io/upsolver/packages/upsolver-packages.yml
   title: ''
   type: Packages
   url: packages/upsolver-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/upsolver/refs/heads/main/packages/upsolver-packages.yml
+  href: https://artifacts.apis.io/upsolver/packages/upsolver-packages.yml
   title: ''
   type: SDKs
   url: packages/upsolver-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/upsolver/refs/heads/main/cli/upsolver-cli.yml
+  href: https://artifacts.apis.io/upsolver/cli/upsolver-cli.yml
   title: ''
   type: CLI
   url: cli/upsolver-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upsolver/refs/heads/main/authentication/upsolver-authentication.yml
+  href: https://artifacts.apis.io/upsolver/authentication/upsolver-authentication.yml
   title: ''
   type: Authentication
   url: authentication/upsolver-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upsolver/refs/heads/main/llms/upsolver-llms.txt
+  href: https://artifacts.apis.io/upsolver/llms/upsolver-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upsolver-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upsolver/refs/heads/main/security/upsolver-domain-security.yml
+  href: https://artifacts.apis.io/upsolver/security/upsolver-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upsolver-domain-security.yml
@@ -110,40 +112,40 @@ overview: 'Upsolver is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Upsolver''s developer surface includes documentation, changelog, CLI, authentication, and 8 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: emerging
-  composite: 16.4
+  composite: 16.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 16.3
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 16.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/upsolver/refs/heads/main/screenshots/upsolver-2026-09-02T165119.png
+screenshot: https://apis.io/screenshots/upsolver/upsolver-2026-09-02T165119.png
 security:
 - kind: authentication
   name: Upsolver Authentication

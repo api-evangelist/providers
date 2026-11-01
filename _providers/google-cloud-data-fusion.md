@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -59,7 +61,7 @@ apis:
   description: Long-running operation management
   name: Google Cloud Data Fusion Operations API
   slug: google-cloud-data-fusion-operations-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: postman
   name: Google Cloud Data Fusion Instances API
@@ -70,9 +72,6 @@ collections:
 - collection_type: postman
   name: Google Cloud Data Fusion Instances Operations API
   slug: postman-google-cloud-data-fusion-operations-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud Data Fusion Instances API
   slug: open-google-cloud-data-fusion-instances-api
@@ -87,17 +86,17 @@ collections:
   slug: open-google-cloud-data-fusion
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/plans/google-cloud-data-fusion-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-data-fusion/plans/google-cloud-data-fusion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-data-fusion-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/rate-limits/google-cloud-data-fusion-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-data-fusion/rate-limits/google-cloud-data-fusion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-data-fusion-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/finops/google-cloud-data-fusion-finops.yml
+  href: https://artifacts.apis.io/google-cloud-data-fusion/finops/google-cloud-data-fusion-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-data-fusion-finops.yml
@@ -110,27 +109,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-cloud-data-fusion/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/agentic-access/google-cloud-data-fusion-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-data-fusion/agentic-access/google-cloud-data-fusion-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-data-fusion-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/security/google-cloud-data-fusion-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-data-fusion/security/google-cloud-data-fusion-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-data-fusion-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/security/google-cloud-data-fusion-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-data-fusion/security/google-cloud-data-fusion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-data-fusion-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/authentication/google-cloud-data-fusion-authentication.yml
+  href: https://artifacts.apis.io/google-cloud-data-fusion/authentication/google-cloud-data-fusion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-cloud-data-fusion-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/scopes/google-cloud-data-fusion-scopes.yml
+  href: https://artifacts.apis.io/google-cloud-data-fusion/scopes/google-cloud-data-fusion-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-cloud-data-fusion-scopes.yml
@@ -175,20 +174,20 @@ common:
   type: Support
   url: https://cloud.google.com/data-fusion/docs/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/json-ld/google-cloud-data-fusion-context.jsonld
+  href: https://artifacts.apis.io/google-cloud-data-fusion/json-ld/google-cloud-data-fusion-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-cloud-data-fusion-context.jsonld
 created: '2026-03-13'
 description: Google Cloud Data Fusion is a fully managed, cloud-native data integration service that helps users build and manage ETL/ELT data pipelines. It provides a visual point-and-click interface for building data transformation pipelines, powered by the open-source CDAP framework.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Cloud Data Fusion Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: hour
+  service_category: ''
   slug: google-cloud-data-fusion-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-data-fusion.png
 json_schemas:
 - name: Google Cloud Data Fusion Instance
@@ -213,7 +212,7 @@ overview: 'Google Cloud Data Fusion publishes 3 API contracts indexed on the [AP
   Google Cloud Data Fusion''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 15 more developer resources.'
 plans:
 - name: Google Cloud Data Fusion Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: google-cloud-data-fusion-plans-pricing
 random_paper: 1
 rate_limits:
@@ -238,24 +237,24 @@ scopes:
   slug: google-cloud-data-fusion-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 40.8
+  band: strong
+  composite: 54.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 54.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.4
+    catalog_earned: 66.7
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 9.8
     contract_quality: 58.1
-    developer_ergonomics: 25.0
+    developer_ergonomics: 48.8
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 42.3
+    operational_transparency: 39.5
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -269,13 +268,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/screenshots/google-cloud-data-fusion-2026-06-20T182058.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-data-fusion/google-cloud-data-fusion-2026-06-20T182058.png
 security:
 - kind: authentication
   name: Google Cloud Data Fusion Authentication

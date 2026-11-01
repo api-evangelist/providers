@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 25.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,11 +50,8 @@ apis:
   description: Generate one or more synthetic user records.
   name: Random User Generator Users API
   slug: randomuser-users-api
-artifact_total: 40
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Random User Generator Users API
   slug: open-randomuser-users-api
@@ -69,12 +68,12 @@ common:
   type: License
   url: https://github.com/RandomAPI/Randomuser.me-Node/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/randomuser/refs/heads/main/agentic-access/randomuser-agentic-access.yml
+  href: https://artifacts.apis.io/randomuser/agentic-access/randomuser-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/randomuser-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/randomuser/refs/heads/main/security/randomuser-domain-security.yml
+  href: https://artifacts.apis.io/randomuser/security/randomuser-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/randomuser-domain-security.yml
@@ -107,17 +106,17 @@ common:
   type: Pricing
   url: https://randomuser.me/#donate
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/randomuser/refs/heads/main/plans/randomuser-plans-pricing.yml
+  href: https://artifacts.apis.io/randomuser/plans/randomuser-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/randomuser-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/randomuser/refs/heads/main/rate-limits/randomuser-rate-limits.yml
+  href: https://artifacts.apis.io/randomuser/rate-limits/randomuser-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/randomuser-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/randomuser/refs/heads/main/finops/randomuser-finops.yml
+  href: https://artifacts.apis.io/randomuser/finops/randomuser-finops.yml
   title: ''
   type: FinOps
   url: finops/randomuser-finops.yml
@@ -206,7 +205,7 @@ plans:
 - name: Randomuser Plans Pricing
   plan_count: 1
   slug: randomuser-plans-pricing
-random_paper: 10
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Randomuser Rate Limits
@@ -237,7 +236,7 @@ rules:
   slug: randomuser-rules
 score:
   band: thin
-  composite: 26.8
+  composite: 28.0
   coverage:
     artifact_dirs: 15
     catalog_earned: 60.5
@@ -245,18 +244,15 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.8
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 27.9
     developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 21.1
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 30.6
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     contracts:
@@ -270,14 +266,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/randomuser/refs/heads/main/screenshots/randomuser-2026-06-20T192554.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/randomuser/randomuser-2026-06-20T192554.png
 security:
 - kind: domain-security
   name: Randomuser Domain Security

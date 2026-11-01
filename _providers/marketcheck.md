@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.5
-  scored_at: '2026-10-17'
+  score: 22.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,11 +110,8 @@ apis:
   description: VIN decoding and vehicle specifications
   name: MarketCheck VIN Decoder API
   slug: marketcheck-vin-decoder-api
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MarketCheck Cars Dealer API
   slug: open-marketcheck-dealer-api
@@ -147,17 +146,17 @@ common:
   type: BlogRSS
   url: https://www.marketcheck.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/capabilities/marketcheck-capability-edges.yml
+  href: https://artifacts.apis.io/marketcheck/capabilities/marketcheck-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/marketcheck-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/agentic-access/marketcheck-agentic-access.yml
+  href: https://artifacts.apis.io/marketcheck/agentic-access/marketcheck-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/marketcheck-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/security/marketcheck-domain-security.yml
+  href: https://artifacts.apis.io/marketcheck/security/marketcheck-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/marketcheck-domain-security.yml
@@ -190,17 +189,17 @@ common:
   type: X
   url: https://x.com/MarketCheckCars
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/plans/marketcheck-plans-pricing.yml
+  href: https://artifacts.apis.io/marketcheck/plans/marketcheck-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/marketcheck-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/rate-limits/marketcheck-rate-limits.yml
+  href: https://artifacts.apis.io/marketcheck/rate-limits/marketcheck-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/marketcheck-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/finops/marketcheck-finops.yml
+  href: https://artifacts.apis.io/marketcheck/finops/marketcheck-finops.yml
   title: ''
   type: FinOps
   url: finops/marketcheck-finops.yml
@@ -239,7 +238,7 @@ modified: '2026-10-06'
 name: MarketCheck
 nav: Providers
 network: true
-overview: 'MarketCheck publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including VIN Decoder API, Dealer API, and 13 more. Tagged areas include Automotive, Vehicle Data, VIN Decoder, Car Inventory, and Market Data.
+overview: 'MarketCheck publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including VIN Decoder API, Dealer API, and 13 more. Tagged areas include Automotive, Vehicle Data, VIN Decoding, Car Inventory, and Market Data.
 
 
   The MarketCheck catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -250,7 +249,7 @@ plans:
 - name: Marketcheck Plans Pricing
   plan_count: 4
   slug: marketcheck-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Marketcheck Rate Limits
@@ -268,8 +267,8 @@ rules:
     warn: 4
   slug: marketcheck-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 26.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 54.3
@@ -277,15 +276,15 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 51.9
-    developer_ergonomics: 2.4
+    developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 30.5
+  previous_composite: 26.8
   provenance:
     agentic_access: derived
     contracts:
@@ -299,14 +298,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/screenshots/marketcheck-2026-06-20T184954.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/marketcheck/marketcheck-2026-06-20T184954.png
 security:
 - kind: domain-security
   name: Marketcheck Domain Security
@@ -316,7 +315,7 @@ slug: marketcheck
 tags:
 - Automotive
 - Vehicle Data
-- VIN Decoder
+- VIN Decoding
 - Car Inventory
 - Market Data
 - Dealer Inventory

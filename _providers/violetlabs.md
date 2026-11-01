@@ -24,30 +24,37 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-17'
+  score: 17.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for programmatic access to your Violet data. The Explore endpoint (POST /api/explore) accepts a rich query payload (keyword, filterModel, sort, grouping, pagination) and returns a paginated P
   name: Violet Explore API
   slug: violet-explore-api
-artifact_total: 6
+artifact_total: 9
 common:
+- group: commercial
+  href: https://artifacts.apis.io/violetlabs/plans/violetlabs-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/violetlabs-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/violetlabs/refs/heads/main/security/violetlabs-trust-center.yml
+  href: https://artifacts.apis.io/violetlabs/security/violetlabs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/violetlabs-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/violetlabs/refs/heads/main/security/violetlabs-domain-security.yml
+  href: https://artifacts.apis.io/violetlabs/security/violetlabs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/violetlabs-domain-security.yml
@@ -120,57 +127,65 @@ common:
   type: Careers
   url: https://jobs.violetlabs.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/violetlabs/refs/heads/main/mcp/violetlabs-mcp.yml
+  href: https://artifacts.apis.io/violetlabs/mcp/violetlabs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/violetlabs-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/violetlabs/refs/heads/main/authentication/violetlabs-authentication.yml
+  href: https://artifacts.apis.io/violetlabs/authentication/violetlabs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/violetlabs-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/violetlabs/refs/heads/main/scopes/violetlabs-scopes.yml
+  href: https://artifacts.apis.io/violetlabs/scopes/violetlabs-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/violetlabs-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/violetlabs/refs/heads/main/conventions/violetlabs-conventions.yml
+  href: https://artifacts.apis.io/violetlabs/conventions/violetlabs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/violetlabs-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/violetlabs/refs/heads/main/changelog/violetlabs-changelog.yml
+  href: https://artifacts.apis.io/violetlabs/changelog/violetlabs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/violetlabs-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/violetlabs/refs/heads/main/lifecycle/violetlabs-lifecycle.yml
+  href: https://artifacts.apis.io/violetlabs/lifecycle/violetlabs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/violetlabs-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/violetlabs/refs/heads/main/conformance/violetlabs-conformance.yml
+  href: https://artifacts.apis.io/violetlabs/conformance/violetlabs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/violetlabs-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/violetlabs/refs/heads/main/sandbox/violetlabs-sandbox.yml
+  href: https://artifacts.apis.io/violetlabs/sandbox/violetlabs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/violetlabs-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/violetlabs/refs/heads/main/well-known/violetlabs-well-known.yml
+  href: https://artifacts.apis.io/violetlabs/well-known/violetlabs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/violetlabs-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/violetlabs/refs/heads/main/llms/violetlabs-llms.txt
+  href: https://artifacts.apis.io/violetlabs/llms/violetlabs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/violetlabs-llms.txt
 created: '2026-07-17'
 description: Violet Labs is the connective tissue for hardware engineering data. Its cloud platform gives hardware, systems, and manufacturing teams a single workspace that harmonizes the software stack — PLM, ERP, CAD, PDM, MES, requirements, and procurement tools — through no-code integrations, data-sync workflows, parameters, native Python/Julia/MATLAB scripts, requirements management, reporting, and dashboards. Violet exposes a REST API (the Explore endpoint) authenticated with an x-api-key header, an OAuth 2.0 authorization server with dynamic client registration for its hosted Model Context Protocol (MCP) server, and an AI chat/agent surface. The platform is ITAR/EAR-aware, SOC 2 certified, and NIST/CMMC/FedRAMP-aligned, with on-premises and VioletGov deployment options for defense and regulated hardware programs.
+finops:
+- has_sources: true
+  method: derived
+  name: Violetlabs Finops
+  primary_unit: platform
+  service_category: ''
+  slug: violetlabs-finops
+  template: false
 image: https://cdn.prod.website-files.com/681bdb35ddf11baf679e267f/689288c5b6e253d5a804b2cf_Share%20Image.webp
 layout: provider
 mcp_servers:
@@ -184,7 +199,14 @@ network: true
 overview: 'Violetlabs is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Engineering, Manufacturing, and PLM.
 
 
-  Violetlabs'' developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, pricing, support, and 22 more developer resources.'
+  Violetlabs'' developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, pricing, support, and 23 more developer resources.'
+plans:
+- name: Violetlabs Plans Pricing
+  plan_count: 17
+  slug: violetlabs-plans-pricing
+- name: Violetlabs Price Estimates
+  plan_count: 0
+  slug: violetlabs-price-estimates
 random_paper: 21
 scopes:
 - name: Violetlabs Scopes
@@ -193,23 +215,23 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 42.4
+  composite: 49.3
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 17
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 31.6
-  previous_composite: 42.3
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -219,14 +241,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/violetlabs/refs/heads/main/screenshots/violetlabs-2026-09-02T165941.png
+screenshot: https://apis.io/screenshots/violetlabs/violetlabs-2026-09-02T165941.png
 security:
 - kind: authentication
   name: Violetlabs Authentication

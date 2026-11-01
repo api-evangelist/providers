@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Place orders against 99designs products.
   name: 99designs Orders API
   slug: 99designs-orders-api
-artifact_total: 17
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 99designs Briefs API
   slug: open-99designs-briefs-api
@@ -100,97 +99,97 @@ common:
   type: BlogRSS
   url: https://99designs.com/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/capabilities/99designs-capability-edges.yml
+  href: https://artifacts.apis.io/99designs/capabilities/99designs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/99designs-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/openapi/_original/99designs-openapi.yml
+  href: https://artifacts.apis.io/99designs/openapi/_original/99designs-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/99designs-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/overlays/99designs-overlay.yaml
+  href: https://artifacts.apis.io/99designs/overlays/99designs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/99designs-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/authentication/99designs-authentication.yml
+  href: https://artifacts.apis.io/99designs/authentication/99designs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/99designs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/conventions/99designs-conventions.yml
+  href: https://artifacts.apis.io/99designs/conventions/99designs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/99designs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/errors/99designs-problem-types.yml
+  href: https://artifacts.apis.io/99designs/errors/99designs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/99designs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/data-model/99designs-data-model.yml
+  href: https://artifacts.apis.io/99designs/data-model/99designs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/99designs-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/conformance/99designs-conformance.yml
+  href: https://artifacts.apis.io/99designs/conformance/99designs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/99designs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/lifecycle/99designs-lifecycle.yml
+  href: https://artifacts.apis.io/99designs/lifecycle/99designs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/99designs-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/mcp/99designs-mcp.yml
+  href: https://artifacts.apis.io/99designs/mcp/99designs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/99designs-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/packages/99designs-packages.yml
+  href: https://artifacts.apis.io/99designs/packages/99designs-packages.yml
   title: ''
   type: Packages
   url: packages/99designs-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/plans/99designs-plans-pricing.yml
+  href: https://artifacts.apis.io/99designs/plans/99designs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/99designs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/rate-limits/99designs-rate-limits.yml
+  href: https://artifacts.apis.io/99designs/rate-limits/99designs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/99designs-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/llms/99designs-llms.txt
+  href: https://artifacts.apis.io/99designs/llms/99designs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/99designs-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/99designs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/agentic-access/99designs-agentic-access.yml
+  href: https://artifacts.apis.io/99designs/agentic-access/99designs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/99designs-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/well-known/99designs-well-known.yml
+  href: https://artifacts.apis.io/99designs/well-known/99designs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/99designs-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/well-known/99designs-security.txt
+  href: https://artifacts.apis.io/99designs/well-known/99designs-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/99designs-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/security/99designs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/99designs/security/99designs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/99designs-vulnerability-disclosure.yml
@@ -199,7 +198,7 @@ common:
   type: Security
   url: https://99designs.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/security/99designs-domain-security.yml
+  href: https://artifacts.apis.io/99designs/security/99designs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/99designs-domain-security.yml
@@ -253,6 +252,14 @@ common:
   url: https://www.99designs.com
 created: '2026-07-17'
 description: '99designs by Vista is a global creative marketplace connecting clients with a worldwide network of freelance designers for logos, brand identity, web and packaging design, illustration, and more, using both a design-contest model and one-to-one projects. Its partner API (base https://api.99designs.com/resources/v1) lets platforms embed a fully-managed creative marketplace: search and match designers, retrieve designer profiles, reviews and portfolios, collect design briefs, list the products a partner has available for sale, place orders against those product versions, and generate partner coupons. Authentication uses a pair of API key headers (Api-Key-Id and Api-Key-Secret) issued to partners on request — access is sales-gated rather than self-serve, and no API plans or pricing are published. Founded in 2008 as a SitePoint spin-off and acquired by Cimpress/Vista in 2020.'
+finops:
+- has_sources: true
+  method: derived
+  name: 99Designs Finops
+  primary_unit: contest package
+  service_category: ''
+  slug: 99designs-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/99designs.png
 layout: provider
 modified: '2026-10-06'
@@ -265,32 +272,32 @@ overview: '99designs publishes 5 API contracts indexed on the [APIs.io](https://
   99designs'' developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, signup flow, pricing, and 28 more developer resources.'
 plans:
 - name: 99Designs Plans Pricing
-  plan_count: 0
+  plan_count: 5
   slug: 99designs-plans-pricing
-random_paper: 5
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: 99Designs Rate Limits
   slug: 99designs-rate-limits
 score:
-  band: developing
-  composite: 46.6
+  band: strong
+  composite: 55.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 24
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 50.6
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 46.5
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,13 +314,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/screenshots/99designs-2026-07-25T181252.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/99designs/99designs-2026-07-25T181252.png
 security:
 - kind: authentication
   name: 99Designs Authentication
@@ -327,6 +335,14 @@ security:
   name: 99Designs Vulnerability Disclosure
   slug: 99designs-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Find and evaluate a 99designs designer
+  slug: 99designs-find-and-book-designer
+- name: List partner products and order the right one
+  slug: 99designs-list-products-and-order
+- name: Submit a brief and place a 99designs order
+  slug: 99designs-submit-brief-and-order
 slug: 99designs
 tags:
 - Company

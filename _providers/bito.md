@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: unknown
     agentic_access: false
     agentic_commerce: false
     auth_clarity: served
@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.7
-  scored_at: '2026-10-17'
+  score: 36.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: http://localhost:8080
@@ -61,89 +63,89 @@ apis:
   description: The Authentication Service API from Bito — 4 operation(s) for authentication service.
   name: Bito Authentication Service API
   slug: bito-authentication-service-api
-artifact_total: 12
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Bito Webhooks
   slug: bito-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/capabilities/bito-capability-edges.yml
+  href: https://artifacts.apis.io/bito/capabilities/bito-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bito-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/plans/bito-plans-pricing.yml
+  href: https://artifacts.apis.io/bito/plans/bito-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bito-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/rules/bito-rules.yml
+  href: https://artifacts.apis.io/bito/rules/bito-rules.yml
   title: ''
   type: Spectral
   url: rules/bito-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/json-ld/bito-context.jsonld
+  href: https://artifacts.apis.io/bito/json-ld/bito-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bito-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/vocabulary/bito-vocabulary.yml
+  href: https://artifacts.apis.io/bito/vocabulary/bito-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bito-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/asyncapi/bito-webhooks.yml
+  href: https://artifacts.apis.io/bito/asyncapi/bito-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bito-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/data-model/bito-data-model.yml
+  href: https://artifacts.apis.io/bito/data-model/bito-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bito-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/changelog/bito-changelog.yml
+  href: https://artifacts.apis.io/bito/changelog/bito-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bito-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/conformance/bito-conformance.yml
+  href: https://artifacts.apis.io/bito/conformance/bito-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bito-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/overlays/bito-flipt-overlay.yaml
+  href: https://artifacts.apis.io/bito/overlays/bito-flipt-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bito-flipt-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/llms/bito-llms.txt
+  href: https://artifacts.apis.io/bito/llms/bito-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bito-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/well-known/bito-well-known.yml
+  href: https://artifacts.apis.io/bito/well-known/bito-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bito-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/hosts/bito-hosts.yml
+  href: https://artifacts.apis.io/bito/hosts/bito-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bito-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/vendors/bito-vendors.yml
+  href: https://artifacts.apis.io/bito/vendors/bito-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bito-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/packages/bito-packages.yml
+  href: https://artifacts.apis.io/bito/packages/bito-packages.yml
   title: ''
   type: SDKs
   url: packages/bito-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/packages/bito-packages.yml
+  href: https://artifacts.apis.io/bito/packages/bito-packages.yml
   title: ''
   type: Packages
   url: packages/bito-packages.yml
@@ -164,7 +166,7 @@ common:
   type: GettingStarted
   url: https://docs.bito.ai/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/security/bito-domain-security.yml
+  href: https://artifacts.apis.io/bito/security/bito-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bito-domain-security.yml
@@ -210,6 +212,14 @@ coverage:
   state: unreadable
 created: '2026-09-28'
 description: Bito.ai provides an AI model routing platform that helps developers select and integrate large language models like Claude, Code, Cursor, and Codex. Their suite includes context engineering, autonomous agents, design and scoping tools, grounded coding, and AI code review agents. Bito aims to reduce development costs by optimizing model selection and offering a unified interface for AI-powered software engineering tasks.
+finops:
+- has_sources: true
+  method: derived
+  name: Bito Finops
+  primary_unit: seat
+  service_category: ''
+  slug: bito-finops
+  template: false
 image: https://bito.ai/wp-content/uploads/2026/08/Option-A-1-2-1.webp
 jsonld:
 - class_count: 57
@@ -230,9 +240,12 @@ overview: 'Bito publishes 7 API contracts indexed on the [APIs.io](https://apis.
   Bito''s developer surface includes changelog, getting-started guide, documentation, engineering blog, pricing, support, and 23 more developer resources.'
 plans:
 - name: Bito Plans Pricing
-  plan_count: 4
+  plan_count: 9
   slug: bito-plans-pricing
-random_paper: 12
+- name: Bito Price Estimates
+  plan_count: 0
+  slug: bito-price-estimates
+random_paper: 22
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -248,23 +261,23 @@ rules:
   slug: bito-rules
 score:
   band: developing
-  composite: 51.0
+  composite: 52.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 55.8
+    artifact_dirs: 25
+    catalog_earned: 58.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 59.3
+    catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 71.1
+    access_clarity: 78.9
     contract_governance: 35.6
-    contract_quality: 54.4
+    contract_quality: 53.0
     developer_ergonomics: 35.7
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 39.5
-  previous_composite: 51.0
+  previous_composite: 50.7
   provenance:
     conformance: first-party
     contracts:
@@ -279,18 +292,23 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bito/refs/heads/main/screenshots/bito-2026-10-11T102416.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bito/bito-2026-10-11T102416.png
 security:
 - kind: domain-security
   name: Bito Domain Security
   slug: bito-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: agents
+  slug: bito-agents
 slug: bito
 tags:
 - Company

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://docs.voxel51.com
@@ -52,11 +54,8 @@ apis:
   description: The plugin and operator framework extends FiftyOne with custom Python (and JavaScript/React) functionality - new App panels, operators, and integrations that run inside the FiftyOne App and SDK. Plugi
   name: FiftyOne Plugins & Operators
   slug: fiftyone-plugins-operators
-artifact_total: 10
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Voxel51 FiftyOne
   slug: open-voxel51
@@ -66,12 +65,12 @@ common:
   type: Pricing
   url: https://voxel51.com/pricing
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/security/voxel51-domain-security.yml
+  href: https://artifacts.apis.io/voxel51/security/voxel51-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voxel51-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/authentication/voxel51-authentication.yml
+  href: https://artifacts.apis.io/voxel51/authentication/voxel51-authentication.yml
   title: ''
   type: Authentication
   url: authentication/voxel51-authentication.yml
@@ -92,17 +91,17 @@ common:
   type: Documentation
   url: https://docs.voxel51.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/plans/voxel51-plans-pricing.yml
+  href: https://artifacts.apis.io/voxel51/plans/voxel51-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/voxel51-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/rate-limits/voxel51-rate-limits.yml
+  href: https://artifacts.apis.io/voxel51/rate-limits/voxel51-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/voxel51-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/finops/voxel51-finops.yml
+  href: https://artifacts.apis.io/voxel51/finops/voxel51-finops.yml
   title: ''
   type: FinOps
   url: finops/voxel51-finops.yml
@@ -134,44 +133,44 @@ plans:
 - name: Voxel51 Plans Pricing
   plan_count: 3
   slug: voxel51-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Voxel51 Rate Limits
   slug: voxel51-rate-limits
 score:
   band: thin
-  composite: 28.9
+  composite: 31.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
-    contract_quality: 27.6
+    contract_quality: 35.2
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 30.3
+    operational_transparency: 13.2
+  previous_composite: 31.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/screenshots/voxel51-2026-09-02T170300.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/voxel51/voxel51-2026-09-02T170300.png
 security:
 - kind: authentication
   name: Voxel51 Authentication

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.5
-  scored_at: '2026-10-17'
+  score: 39.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -41,7 +44,7 @@ agentic_access:
   operation_count: 62
   slug: companycam-agentic-access
   summary_line: 62 operations · 32 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.companycam.com/v2
   baseurl_source: declared
@@ -93,15 +96,12 @@ apis:
   description: The Webhooks API from CompanyCam — 2 operation(s) for webhooks.
   name: CompanyCam Webhooks API
   slug: companycam-webhooks-api
-artifact_total: 29
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Companycam Webhooks
   slug: companycam-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Core Checklists API
   slug: open-companycam-checklists-api
@@ -136,6 +136,20 @@ collections:
   name: Core Checklists Webhooks API
   slug: open-companycam-webhooks-api
 common:
+- group: other
+  href: https://artifacts.apis.io/companycam/capabilities/companycam-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/companycam-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/companycam/plans/companycam-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/companycam-plans-pricing.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/companycam/overview
 - group: company
   title: ''
   type: Website
@@ -193,135 +207,147 @@ common:
   type: PrivacyPolicy
   url: https://companycam.com/privacy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-v2.postman_collection.json
+  href: https://artifacts.apis.io/companycam/openapi/companycam-v2.postman_collection.json
   title: ''
   type: Postman
   url: openapi/companycam-v2.postman_collection.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/llms/companycam-llms.txt
+  href: https://artifacts.apis.io/companycam/llms/companycam-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/companycam-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/packages/companycam-packages.yml
+  href: https://artifacts.apis.io/companycam/packages/companycam-packages.yml
   title: ''
   type: SDKs
   url: packages/companycam-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/packages/companycam-packages.yml
+  href: https://artifacts.apis.io/companycam/packages/companycam-packages.yml
   title: ''
   type: Packages
   url: packages/companycam-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/authentication/companycam-authentication.yml
+  href: https://artifacts.apis.io/companycam/authentication/companycam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/companycam-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/scopes/companycam-scopes.yml
+  href: https://artifacts.apis.io/companycam/scopes/companycam-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/companycam-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/conventions/companycam-conventions.yml
+  href: https://artifacts.apis.io/companycam/conventions/companycam-conventions.yml
   title: ''
   type: Conventions
   url: conventions/companycam-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/rate-limits/companycam-rate-limits.yml
+  href: https://artifacts.apis.io/companycam/rate-limits/companycam-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/companycam-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/errors/companycam-problem-types.yml
+  href: https://artifacts.apis.io/companycam/errors/companycam-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/companycam-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/lifecycle/companycam-lifecycle.yml
+  href: https://artifacts.apis.io/companycam/lifecycle/companycam-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/companycam-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/conformance/companycam-conformance.yml
+  href: https://artifacts.apis.io/companycam/conformance/companycam-conformance.yml
   title: ''
   type: Conformance
   url: conformance/companycam-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/changelog/companycam-changelog.yml
+  href: https://artifacts.apis.io/companycam/changelog/companycam-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/companycam-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/data-model/companycam-data-model.yml
+  href: https://artifacts.apis.io/companycam/data-model/companycam-data-model.yml
   title: ''
   type: DataModel
   url: data-model/companycam-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/asyncapi/companycam-webhooks.yml
+  href: https://artifacts.apis.io/companycam/asyncapi/companycam-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/companycam-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/well-known/companycam-well-known.yml
+  href: https://artifacts.apis.io/companycam/well-known/companycam-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/companycam-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/well-known/companycam-security.txt
+  href: https://artifacts.apis.io/companycam/well-known/companycam-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/companycam-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/well-known/companycam-security.txt
+  href: https://artifacts.apis.io/companycam/well-known/companycam-security.txt
   title: ''
   type: Security
   url: well-known/companycam-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/security/companycam-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/companycam/security/companycam-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/companycam-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/security/companycam-domain-security.yml
+  href: https://artifacts.apis.io/companycam/security/companycam-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/companycam-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/agentic-access/companycam-agentic-access.yml
+  href: https://artifacts.apis.io/companycam/agentic-access/companycam-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/companycam-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/mcp/companycam-mcp.yml
+  href: https://artifacts.apis.io/companycam/mcp/companycam-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/companycam-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/companycam/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/overlays/companycam-openapi-overlay.yaml
+  href: https://artifacts.apis.io/companycam/overlays/companycam-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/companycam-openapi-overlay.yaml
 created: '2026-07-17'
 description: CompanyCam is a photo-based job-site documentation platform for contractors and the trades — roofing, restoration, solar, home services and construction. Its mobile apps capture location- and time-stamped photos and videos that sync to a shared, project-organized workspace so crews, offices and clients stay aligned. The CompanyCam Core API (v2) is a REST API over projects, photos, videos, users, groups, tags, comments, documents, checklists and webhooks, secured with Bearer access tokens or OAuth 2.0 (authorization-code with PKCE and refresh tokens). It publishes an official OpenAPI 3.0 description, a Postman collection, granular per-resource OAuth scopes advertised via RFC 8414 metadata, HMAC-signed webhooks, and per-method rate limits. CompanyCam is backed by Insight Partners.
+finops:
+- has_sources: true
+  method: derived
+  name: Companycam Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: companycam-finops
+  template: false
 image: https://cdn.companycam.com/dist/img/site/favicon-96x96-2021.png
 layout: provider
 modified: '2026-07-18'
 name: CompanyCam
 nav: Providers
 network: true
-overview: 'CompanyCam publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Checklists API, Company API, Groups API, and 7 more. Tagged areas include Company, Construction, Photos, Field Service, and Project Management.
+overview: 'CompanyCam publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Checklists API, Company API, Groups API, and 7 more. Tagged areas include Company, Construction, Photos, Field Service Management, and Project Management.
 
 
   The CompanyCam catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  CompanyCam''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 30 more developer resources.'
+  CompanyCam''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 33 more developer resources.'
+plans:
+- name: Companycam Plans Pricing
+  plan_count: 4
+  slug: companycam-plans-pricing
 random_paper: 8
 rate_limits:
 - limit_count: 4
@@ -333,24 +359,24 @@ scopes:
   slug: companycam-scopes
   summary_line: 54 scopes · authorizationCode
 score:
-  band: strong
-  composite: 55.6
+  band: exemplar
+  composite: 67.9
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 28
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 58.2
-    developer_ergonomics: 48.2
-    discoverability: 73.2
-    operational_transparency: 76.3
-  previous_composite: 55.5
+    contract_quality: 54.9
+    developer_ergonomics: 67.3
+    discoverability: 66.1
+    operational_transparency: 86.8
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -367,13 +393,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/screenshots/companycam-2026-07-25T210145.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/companycam/companycam-2026-07-25T210145.png
 security:
 - kind: authentication
   name: Companycam Authentication
@@ -387,12 +414,20 @@ security:
   name: Companycam Vulnerability Disclosure
   slug: companycam-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Document a job site in CompanyCam
+  slug: companycam-document-a-project
+- name: Connect a CompanyCam account via OAuth 2.0
+  slug: companycam-oauth-connect
+- name: Subscribe to CompanyCam webhooks and verify deliveries
+  slug: companycam-subscribe-to-webhooks
 slug: companycam
 tags:
 - Company
 - Construction
 - Photos
-- Field Service
+- Field Service Management
 - Project Management
 - Contractors
 - Documentation

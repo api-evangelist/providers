@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 32.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -89,7 +91,7 @@ apis:
   description: 'The App API from Mention — 1 operation. GET /app/data returns the reference vocabularies every other Mention endpoint resolves its enumerated values against: alert sources, alert languages and countri'
   name: Mention App API
   slug: mention-app-api
-artifact_total: 27
+artifact_total: 31
 collections:
 - collection_type: open
   name: Mention Accounts API
@@ -123,7 +125,7 @@ collections:
   slug: open-mention
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/capabilities/mention-capability-edges.yml
+  href: https://artifacts.apis.io/mention/capabilities/mention-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mention-capability-edges.yml
@@ -200,98 +202,98 @@ common:
   type: StatusPage
   url: https://status.mention.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/changelog/mention-changelog.yml
+  href: https://artifacts.apis.io/mention/changelog/mention-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mention-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/lifecycle/mention-lifecycle.yml
+  href: https://artifacts.apis.io/mention/lifecycle/mention-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mention-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/conventions/mention-conventions.yml
+  href: https://artifacts.apis.io/mention/conventions/mention-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mention-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/authentication/mention-authentication.yml
+  href: https://artifacts.apis.io/mention/authentication/mention-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mention-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/scopes/mention-scopes.yml
+  href: https://artifacts.apis.io/mention/scopes/mention-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mention-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/errors/mention-problem-types.yml
+  href: https://artifacts.apis.io/mention/errors/mention-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mention-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/rate-limits/mention-rate-limits.yml
+  href: https://artifacts.apis.io/mention/rate-limits/mention-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mention-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/plans/mention-plans-pricing.yml
+  href: https://artifacts.apis.io/mention/plans/mention-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mention-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/finops/mention-finops.yml
+  href: https://artifacts.apis.io/mention/finops/mention-finops.yml
   title: ''
   type: FinOps
   url: finops/mention-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/data-model/mention-data-model.yml
+  href: https://artifacts.apis.io/mention/data-model/mention-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mention-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/conformance/mention-conformance.yml
+  href: https://artifacts.apis.io/mention/conformance/mention-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mention-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/packages/mention-packages.yml
+  href: https://artifacts.apis.io/mention/packages/mention-packages.yml
   title: ''
   type: Packages
   url: packages/mention-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/llms/mention-llms.txt
+  href: https://artifacts.apis.io/mention/llms/mention-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mention-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mention/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/agentic-access/mention-agentic-access.yml
+  href: https://artifacts.apis.io/mention/agentic-access/mention-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mention-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/security/mention-domain-security.yml
+  href: https://artifacts.apis.io/mention/security/mention-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mention-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/security/mention-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mention/security/mention-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mention-vulnerability-disclosure.yml
 created: '2026-03-16'
 description: Mention is a media monitoring and social listening platform that watches over one billion sources in real time across 42 languages, covering social networks, news, blogs, forums, video and 75+ review sites. Its JSON-based RESTful API, documented at dev.mention.com, gives developers programmatic access to alerts (the standing keyword queries Mention crawls for), the mentions those alerts collect, curation by folder/tone/tag, mention tasks assigned to team mates, alert sharing and permissions, authors and influencer scoring, aggregate statistics, and a long-lived streaming endpoint for real-time delivery. Authentication is a bearer token obtained from a registered app or through an OAuth2 authorization-code flow, and the API version is selected per request with an Accept-Version header. Mention is sold by Agorapulse SAS; API access is a paid add-on rather than an included capability of the published plan.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Mention Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: mention-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mention.png
@@ -308,7 +310,7 @@ plans:
 - name: Mention Plans Pricing
   plan_count: 1
   slug: mention-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Mention Rate Limits
@@ -319,24 +321,24 @@ scopes:
   slug: mention-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 60.4
+  band: developing
+  composite: 49.2
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 56.0
     catalog_earned_first_party: 16.0
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 73.7
     contract_governance: 18.2
-    contract_quality: 48.8
+    contract_quality: 0.0
     developer_ergonomics: 58.9
     discoverability: 71.4
-    operational_transparency: 65.8
-  previous_composite: 61.9
+    operational_transparency: 68.4
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -353,13 +355,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/screenshots/mention-2026-06-20T185146.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mention/mention-2026-06-20T185146.png
 security:
 - kind: authentication
   name: Mention Authentication
@@ -373,6 +376,16 @@ security:
   name: Mention Vulnerability Disclosure
   slug: mention-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 4
+skills:
+- name: mention-monitor-a-brand
+  slug: mention-monitor-a-brand
+- name: mention-share-an-alert-with-a-team
+  slug: mention-share-an-alert-with-a-team
+- name: mention-stream-and-report
+  slug: mention-stream-and-report
+- name: mention-triage-and-curate-mentions
+  slug: mention-triage-and-curate-mentions
 slug: mention
 tags:
 - Alerts

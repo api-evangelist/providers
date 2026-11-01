@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-17'
+  score: 33.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -90,7 +92,7 @@ apis:
   description: Server-level information and utilities
   name: Apache CouchDB Server API
   slug: apache-couchdb-server-api
-artifact_total: 132
+artifact_total: 131
 asyncapis:
 - description: AsyncAPI 2.6 description of the Apache CouchDB database `_changes` feed. CouchDB exposes a per-database, append-only stream of document mutations at `GET /{db}/_changes` (and `POST /{db}/_changes` for
   name: Apache CouchDB _changes Feed
@@ -124,9 +126,6 @@ collections:
   name: Apache CouchDB HTTP Authentication Server API
   slug: postman-apache-couchdb-server-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Apache CouchDB HTTP Authentication API
   slug: open-apache-couchdb-authentication-api
 - collection_type: open
@@ -155,17 +154,17 @@ collections:
   slug: open-apache-couchdb-server-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/plans/apache-couchdb-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-couchdb/plans/apache-couchdb-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-couchdb-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/rate-limits/apache-couchdb-rate-limits.yml
+  href: https://artifacts.apis.io/apache-couchdb/rate-limits/apache-couchdb-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-couchdb-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/finops/apache-couchdb-finops.yml
+  href: https://artifacts.apis.io/apache-couchdb/finops/apache-couchdb-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-couchdb-finops.yml
@@ -190,22 +189,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/apache-couchdb/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/agentic-access/apache-couchdb-agentic-access.yml
+  href: https://artifacts.apis.io/apache-couchdb/agentic-access/apache-couchdb-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-couchdb-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/security/apache-couchdb-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-couchdb/security/apache-couchdb-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-couchdb-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/security/apache-couchdb-domain-security.yml
+  href: https://artifacts.apis.io/apache-couchdb/security/apache-couchdb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-couchdb-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/authentication/apache-couchdb-authentication.yml
+  href: https://artifacts.apis.io/apache-couchdb/authentication/apache-couchdb-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apache-couchdb-authentication.yml
@@ -349,7 +348,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Couchdb Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-couchdb-finops
   template: true
@@ -534,7 +533,7 @@ plans:
 - name: Apache Couchdb Plans Pricing
   plan_count: 3
   slug: apache-couchdb-plans-pricing
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Apache Couchdb Rate Limits
@@ -577,26 +576,23 @@ rules:
   slug: apache-couchdb-spectral-rules
 score:
   band: developing
-  composite: 39.7
+  composite: 41.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 65.5
+    artifact_dirs: 19
+    catalog_earned: 70.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.5
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
-    contract_governance: 13.6
+    contract_governance: 27.3
     contract_quality: 37.2
-    developer_ergonomics: 72.6
+    developer_ergonomics: 75.0
     discoverability: 62.5
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 40.0
-  previous_composite: 41.0
+    operational_transparency: 39.5
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     contracts:
@@ -610,13 +606,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/screenshots/apache-couchdb-2026-06-20T172052.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-couchdb/apache-couchdb-2026-06-20T172052.png
 security:
 - kind: authentication
   name: Apache Couchdb Authentication

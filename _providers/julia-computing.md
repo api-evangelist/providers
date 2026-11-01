@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The JuliaHub cloud platform for scientific and technical computing - hosted Julia compute, batch/job execution, datasets, and the Julia package registry. Accessed programmatically through the first-pa
@@ -42,7 +44,7 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/plans/julia-computing-plans-pricing.yml
+  href: https://artifacts.apis.io/julia-computing/plans/julia-computing-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/julia-computing-plans-pricing.yml
@@ -91,47 +93,47 @@ common:
   type: TrustCenter
   url: https://trust.juliahub.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/security/julia-computing-trust-center.yml
+  href: https://artifacts.apis.io/julia-computing/security/julia-computing-trust-center.yml
   title: ''
   type: Compliance
   url: security/julia-computing-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/authentication/julia-computing-authentication.yml
+  href: https://artifacts.apis.io/julia-computing/authentication/julia-computing-authentication.yml
   title: ''
   type: Authentication
   url: authentication/julia-computing-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/scopes/julia-computing-scopes.yml
+  href: https://artifacts.apis.io/julia-computing/scopes/julia-computing-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/julia-computing-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/well-known/julia-computing-well-known.yml
+  href: https://artifacts.apis.io/julia-computing/well-known/julia-computing-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/julia-computing-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/packages/julia-computing-packages.yml
+  href: https://artifacts.apis.io/julia-computing/packages/julia-computing-packages.yml
   title: ''
   type: Packages
   url: packages/julia-computing-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/packages/julia-computing-packages.yml
+  href: https://artifacts.apis.io/julia-computing/packages/julia-computing-packages.yml
   title: ''
   type: SDKs
   url: packages/julia-computing-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/conformance/julia-computing-conformance.yml
+  href: https://artifacts.apis.io/julia-computing/conformance/julia-computing-conformance.yml
   title: ''
   type: Conformance
   url: conformance/julia-computing-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/security/julia-computing-domain-security.yml
+  href: https://artifacts.apis.io/julia-computing/security/julia-computing-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/julia-computing-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/llms/julia-computing-llms.txt
+  href: https://artifacts.apis.io/julia-computing/llms/julia-computing-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/julia-computing-llms.txt
@@ -151,7 +153,7 @@ plans:
 - name: Julia Computing Plans Pricing
   plan_count: 0
   slug: julia-computing-plans-pricing
-random_paper: 20
+random_paper: 0
 scopes:
 - name: Julia Computing Scopes
   scope_count: 5
@@ -159,7 +161,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode/deviceCode
 score:
   band: thin
-  composite: 31.0
+  composite: 34.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 32.0
@@ -169,13 +171,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 64.3
-    operational_transparency: 2.6
-  previous_composite: 31.0
+    discoverability: 57.1
+    operational_transparency: 5.3
+  previous_composite: 34.5
   provenance:
     conformance: first-party
   regulatory:
@@ -189,15 +191,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 31.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 34.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/screenshots/julia-computing-2026-07-25T223305.png
+screenshot: https://apis.io/screenshots/julia-computing/julia-computing-2026-07-25T223305.png
 security:
 - kind: authentication
   name: Julia Computing Authentication

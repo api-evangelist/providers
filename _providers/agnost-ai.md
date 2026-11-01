@@ -27,17 +27,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.3
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 41.2
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.agnost.ai
   baseurl_source: declared
@@ -109,11 +111,8 @@ apis:
   description: Health checks, webhooks, internal endpoints
   name: Agnost AI System API
   slug: agnost-ai-system-api
-artifact_total: 34
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Agnost AI Alerts API
   slug: open-agnost-ai-alerts-api
@@ -157,6 +156,11 @@ collections:
   name: Agnost AI Alerts System API
   slug: open-agnost-ai-system-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/agnost-ai/plans/agnost-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/agnost-ai-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -166,7 +170,7 @@ common:
   type: BlogRSS
   url: https://agnost.ai/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/capabilities/agnost-ai-capability-edges.yml
+  href: https://artifacts.apis.io/agnost-ai/capabilities/agnost-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/agnost-ai-capability-edges.yml
@@ -175,7 +179,7 @@ common:
   type: Website
   url: https://www.agnost.ai/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/overlays/agnost-ai-openapi-overlay.yaml
+  href: https://artifacts.apis.io/agnost-ai/overlays/agnost-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/agnost-ai-openapi-overlay.yaml
@@ -240,87 +244,95 @@ common:
   type: MCPServer
   url: https://mcp.agnost.ai/mcp
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/packages/agnost-ai-packages.yml
+  href: https://artifacts.apis.io/agnost-ai/packages/agnost-ai-packages.yml
   title: ''
   type: Packages
   url: packages/agnost-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/packages/agnost-ai-packages.yml
+  href: https://artifacts.apis.io/agnost-ai/packages/agnost-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/agnost-ai-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/mcp/agnost-ai-mcp.yml
+  href: https://artifacts.apis.io/agnost-ai/mcp/agnost-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agnost-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/well-known/agnost-ai-well-known.yml
+  href: https://artifacts.apis.io/agnost-ai/well-known/agnost-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agnost-ai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/llms/agnost-ai-llms.txt
+  href: https://artifacts.apis.io/agnost-ai/llms/agnost-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agnost-ai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/authentication/agnost-ai-authentication.yml
+  href: https://artifacts.apis.io/agnost-ai/authentication/agnost-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agnost-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/scopes/agnost-ai-scopes.yml
+  href: https://artifacts.apis.io/agnost-ai/scopes/agnost-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/agnost-ai-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/conformance/agnost-ai-conformance.yml
+  href: https://artifacts.apis.io/agnost-ai/conformance/agnost-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agnost-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/errors/agnost-ai-problem-types.yml
+  href: https://artifacts.apis.io/agnost-ai/errors/agnost-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agnost-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/lifecycle/agnost-ai-lifecycle.yml
+  href: https://artifacts.apis.io/agnost-ai/lifecycle/agnost-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agnost-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/conventions/agnost-ai-conventions.yml
+  href: https://artifacts.apis.io/agnost-ai/conventions/agnost-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agnost-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/data-model/agnost-ai-data-model.yml
+  href: https://artifacts.apis.io/agnost-ai/data-model/agnost-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agnost-ai-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/security/agnost-ai-domain-security.yml
+  href: https://artifacts.apis.io/agnost-ai/security/agnost-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agnost-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/security/agnost-ai-trust-center.yml
+  href: https://artifacts.apis.io/agnost-ai/security/agnost-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/agnost-ai-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/skills/agnost-ai-published.md
+  href: https://artifacts.apis.io/agnost-ai/skills/agnost-ai-published.md
   title: ''
   type: AgentSkill
   url: skills/agnost-ai-published.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/agnost-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Agnost AI is a production monitoring and product-analytics platform for teams building chat and voice AI agents. It continuously reads production agent conversations, MCP tool calls, and OpenTelemetry traces, clusters recurring intents, feature requests, frustration, and failure patterns, and catches agent failures that offline evals miss. It then turns the highest-impact patterns into reviewed fixes, including pull requests against prompts, tools, and agent harnesses. Agnost is OpenTelemetry-native, works with any LLM and framework, and ships SDKs for Python and TypeScript conversation tracking, MCP-server analytics (Python, TypeScript, Go), plus a hosted OAuth-protected MCP server for querying your dashboard from Claude Desktop, Cursor, and any MCP client. Founded in 2025 and part of Y Combinator's Summer 2026 (S26) batch.
+finops:
+- has_sources: true
+  method: derived
+  name: Agnost Ai Finops
+  primary_unit: events
+  service_category: ''
+  slug: agnost-ai-finops
+  template: false
 image: https://agnost.ai/logo.png
 layout: provider
 mcp_servers:
@@ -334,32 +346,39 @@ network: true
 overview: 'Agnost AI publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, API Keys API, Auth API, and 11 more. Tagged areas include Company, AI Agents, Agent Analytics, Observability, and OpenTelemetry.
 
 
-  Agnost AI''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 29 more developer resources.'
-random_paper: 19
+  Agnost AI''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 30 more developer resources.'
+plans:
+- name: Agnost Ai Plans Pricing
+  plan_count: 4
+  slug: agnost-ai-plans-pricing
+- name: Agnost Ai Price Estimates
+  plan_count: 0
+  slug: agnost-ai-price-estimates
+random_paper: 11
 scopes:
 - name: Agnost Ai Scopes
   scope_count: 1
   slug: agnost-ai-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 49.6
+  band: strong
+  composite: 57.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 7.9
   facets:
-    access_clarity: 50.0
+    access_clarity: 89.5
     contract_governance: 18.2
-    contract_quality: 45.5
+    contract_quality: 44.8
     developer_ergonomics: 66.1
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 26.3
-  previous_composite: 49.9
+  previous_composite: 49.1
   provenance:
     conformance: first-party
     contracts:
@@ -375,13 +394,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/screenshots/agnost-ai-2026-07-25T195316.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/agnost-ai/agnost-ai-2026-07-25T195316.png
 security:
 - kind: authentication
   name: Agnost Ai Authentication
@@ -395,6 +415,14 @@ security:
   name: Agnost Ai Trust Center
   slug: agnost-ai-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Capture an agent conversation into Agnost
+  slug: agnost-ai-capture-conversation
+- name: agnost-ai
+  slug: agnost-ai-published
+- name: Triage agent failures in Agnost
+  slug: agnost-ai-triage-failures
 slug: agnost-ai
 tags:
 - Company

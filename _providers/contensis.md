@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 32.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,15 +74,12 @@ apis:
   description: The Taxonomy API from Contensis — 1 operation(s) for taxonomy.
   name: Contensis Taxonomy API
   slug: contensis-taxonomy-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Contensis Webhooks
   slug: contensis-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Contensis Delivery API (HTTP) Content Types API
   slug: open-contensis-content-types-api
@@ -97,28 +96,33 @@ collections:
   name: Contensis Delivery API (HTTP)
   slug: open-contensis
 common:
+- group: other
+  href: https://artifacts.apis.io/contensis/capabilities/contensis-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/contensis-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/finops/contensis-finops.yml
+  href: https://artifacts.apis.io/contensis/finops/contensis-finops.yml
   title: ''
   type: FinOps
   url: finops/contensis-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/agentic-access/contensis-agentic-access.yml
+  href: https://artifacts.apis.io/contensis/agentic-access/contensis-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/contensis-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/security/contensis-trust-center.yml
+  href: https://artifacts.apis.io/contensis/security/contensis-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/contensis-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/security/contensis-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/contensis/security/contensis-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/contensis-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/security/contensis-domain-security.yml
+  href: https://artifacts.apis.io/contensis/security/contensis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/contensis-domain-security.yml
@@ -151,72 +155,72 @@ common:
   type: Support
   url: https://www.contensis.com/help-and-docs
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/packages/contensis-packages.yml
+  href: https://artifacts.apis.io/contensis/packages/contensis-packages.yml
   title: ''
   type: Packages
   url: packages/contensis-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/packages/contensis-packages.yml
+  href: https://artifacts.apis.io/contensis/packages/contensis-packages.yml
   title: ''
   type: SDKs
   url: packages/contensis-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/cli/contensis-cli.yml
+  href: https://artifacts.apis.io/contensis/cli/contensis-cli.yml
   title: ''
   type: CLI
   url: cli/contensis-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/components/contensis-components.yml
+  href: https://artifacts.apis.io/contensis/components/contensis-components.yml
   title: ''
   type: Components
   url: components/contensis-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/well-known/contensis-well-known.yml
+  href: https://artifacts.apis.io/contensis/well-known/contensis-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/contensis-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/well-known/contensis-security.txt
+  href: https://artifacts.apis.io/contensis/well-known/contensis-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/contensis-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/security/contensis-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/contensis/security/contensis-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/contensis-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/conformance/contensis-conformance.yml
+  href: https://artifacts.apis.io/contensis/conformance/contensis-conformance.yml
   title: ''
   type: Compliance
   url: conformance/contensis-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/conformance/contensis-conformance.yml
+  href: https://artifacts.apis.io/contensis/conformance/contensis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/contensis-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/authentication/contensis-authentication.yml
+  href: https://artifacts.apis.io/contensis/authentication/contensis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/contensis-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/scopes/contensis-scopes.yml
+  href: https://artifacts.apis.io/contensis/scopes/contensis-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/contensis-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/errors/contensis-problem-types.yml
+  href: https://artifacts.apis.io/contensis/errors/contensis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/contensis-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/conventions/contensis-conventions.yml
+  href: https://artifacts.apis.io/contensis/conventions/contensis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/contensis-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/lifecycle/contensis-lifecycle.yml
+  href: https://artifacts.apis.io/contensis/lifecycle/contensis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/contensis-lifecycle.yml
@@ -225,42 +229,42 @@ common:
   type: StatusPage
   url: https://status.zengenti.cloud/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/changelog/contensis-changelog.yml
+  href: https://artifacts.apis.io/contensis/changelog/contensis-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/contensis-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/data-model/contensis-data-model.yml
+  href: https://artifacts.apis.io/contensis/data-model/contensis-data-model.yml
   title: ''
   type: DataModel
   url: data-model/contensis-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/asyncapi/contensis-webhooks.yml
+  href: https://artifacts.apis.io/contensis/asyncapi/contensis-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/contensis-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/mcp/contensis-mcp.yml
+  href: https://artifacts.apis.io/contensis/mcp/contensis-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/contensis-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/contensis/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/llms/contensis-llms.txt
+  href: https://artifacts.apis.io/contensis/llms/contensis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/contensis-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/plans/contensis-plans-pricing.yml
+  href: https://artifacts.apis.io/contensis/plans/contensis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/contensis-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/rate-limits/contensis-rate-limits.yml
+  href: https://artifacts.apis.io/contensis/rate-limits/contensis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/contensis-rate-limits.yml
@@ -303,11 +307,11 @@ common:
 created: '2024-11-13'
 description: Contensis is an enterprise-level Content Management System (CMS) developed by Zengenti, designed to help organizations create, manage, and deliver digital content across multiple platforms and devices through HTTP, JavaScript, and .Net APIs.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Contensis Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: contensis-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/contensis.png
@@ -322,12 +326,12 @@ overview: 'Contensis publishes 7 API contracts indexed on the [APIs.io](https://
   The Contensis catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Contensis'' developer surface includes documentation, engineering blog, support, CLI, authentication, changelog, API reference, and 37 more developer resources.'
+  Contensis'' developer surface includes documentation, engineering blog, support, CLI, authentication, changelog, API reference, and 38 more developer resources.'
 plans:
 - name: Contensis Plans Pricing
   plan_count: 0
   slug: contensis-plans-pricing
-random_paper: 14
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Contensis Rate Limits
@@ -339,23 +343,23 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: strong
-  composite: 58.7
+  composite: 60.1
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 29
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 49.1
     developer_ergonomics: 78.6
     discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 60.3
+    operational_transparency: 55.3
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -372,14 +376,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/screenshots/contensis-2026-06-20T174925.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/contensis/contensis-2026-06-20T174925.png
 security:
 - kind: authentication
   name: Contensis Authentication

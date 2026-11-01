@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Tintri REST API (version v310.91, mapping to TXOS 4.5 and Tintri Global Center 4.1+) runs on each VMstore appliance and TGC instance. It is session-authenticated (POST /api/v310/session/login with
   name: Tintri VMstore REST API
   slug: tintri-vmstore-rest-api
-artifact_total: 3
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -54,7 +56,7 @@ common:
   type: License
   url: https://github.com/Tintri/tintri-rest-api/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/security/tintri-domain-security.yml
+  href: https://artifacts.apis.io/tintri/security/tintri-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tintri-domain-security.yml
@@ -99,57 +101,57 @@ common:
   type: GettingStarted
   url: https://github.com/Tintri/tintri-rest-api
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/packages/tintri-packages.yml
+  href: https://artifacts.apis.io/tintri/packages/tintri-packages.yml
   title: ''
   type: Packages
   url: packages/tintri-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/packages/tintri-packages.yml
+  href: https://artifacts.apis.io/tintri/packages/tintri-packages.yml
   title: ''
   type: SDKs
   url: packages/tintri-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/authentication/tintri-authentication.yml
+  href: https://artifacts.apis.io/tintri/authentication/tintri-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tintri-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/conventions/tintri-conventions.yml
+  href: https://artifacts.apis.io/tintri/conventions/tintri-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tintri-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/lifecycle/tintri-lifecycle.yml
+  href: https://artifacts.apis.io/tintri/lifecycle/tintri-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tintri-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/data-model/tintri-data-model.yml
+  href: https://artifacts.apis.io/tintri/data-model/tintri-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tintri-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/conformance/tintri-conformance.yml
+  href: https://artifacts.apis.io/tintri/conformance/tintri-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tintri-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/well-known/tintri-well-known.yml
+  href: https://artifacts.apis.io/tintri/well-known/tintri-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tintri-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/mcp/tintri-mcp.yml
+  href: https://artifacts.apis.io/tintri/mcp/tintri-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tintri-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/llms/tintri-llms.txt
+  href: https://artifacts.apis.io/tintri/llms/tintri-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tintri-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tintri/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -165,10 +167,10 @@ overview: 'Tintri is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Tintri''s developer surface includes documentation, API reference, engineering blog, support, getting-started guide, authentication, and 19 more developer resources.'
-random_paper: 6
+random_paper: 18
 score:
-  band: emerging
-  composite: 23.6
+  band: thin
+  composite: 26.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -176,18 +178,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 61.3
-    discoverability: 73.2
-    operational_transparency: 2.6
-  open_source:
-    applies: true
-    score: 0.0
-  previous_composite: 23.5
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 26.7
   provenance:
     conformance: derived
     mcp: derived
@@ -198,14 +197,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/screenshots/tintri-2026-09-02T163809.png
+screenshot: https://apis.io/screenshots/tintri/tintri-2026-09-02T163809.png
 security:
 - kind: authentication
   name: Tintri Authentication
@@ -215,6 +214,12 @@ security:
   name: Tintri Domain Security
   slug: tintri-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Monitor Tintri VMstore alerts and VM performance
+  slug: tintri-monitor-alerts
+- name: Snapshot a VM on Tintri VMstore
+  slug: tintri-snapshot-vm
 slug: tintri
 tags:
 - Company

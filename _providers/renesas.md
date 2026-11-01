@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.7
-  scored_at: '2026-10-17'
+  score: 43.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -76,11 +78,8 @@ apis:
   description: Endpoints for retrieving software tools.
   name: Renesas Software Tool API
   slug: renesas-software-tool-api
-artifact_total: 17
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Renesas Web Data Board & Kit API
   slug: open-renesas-board-kit-api
@@ -101,12 +100,12 @@ collections:
   slug: open-renesas-software-tool-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/capabilities/renesas-capability-edges.yml
+  href: https://artifacts.apis.io/renesas/capabilities/renesas-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/renesas-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/agentic-access/renesas-agentic-access.yml
+  href: https://artifacts.apis.io/renesas/agentic-access/renesas-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/renesas-agentic-access.yml
@@ -131,7 +130,7 @@ common:
   type: GettingStarted
   url: https://developer.renesas.com/docs/web-data-api/guides/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/authentication/renesas-authentication.yml
+  href: https://artifacts.apis.io/renesas/authentication/renesas-authentication.yml
   title: ''
   type: Authentication
   url: authentication/renesas-authentication.yml
@@ -160,77 +159,77 @@ common:
   type: PrivacyPolicy
   url: https://www.renesas.com/privacy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/openapi/_original/renesas-web-data-openapi-original.yml
+  href: https://artifacts.apis.io/renesas/openapi/_original/renesas-web-data-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/renesas-web-data-openapi-original.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/overlays/renesas-web-data-overlay.yaml
+  href: https://artifacts.apis.io/renesas/overlays/renesas-web-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/renesas-web-data-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/openapi/_original/renesas-web-data-openapi-original.yml
+  href: https://artifacts.apis.io/renesas/openapi/_original/renesas-web-data-openapi-original.yml
   title: ''
   type: Examples
   url: openapi/_original/renesas-web-data-openapi-original.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/mcp/renesas-mcp.yml
+  href: https://artifacts.apis.io/renesas/mcp/renesas-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/renesas-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/renesas/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/llms/renesas-llms.txt
+  href: https://artifacts.apis.io/renesas/llms/renesas-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/renesas-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/well-known/renesas-well-known.yml
+  href: https://artifacts.apis.io/renesas/well-known/renesas-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/renesas-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/errors/renesas-problem-types.yml
+  href: https://artifacts.apis.io/renesas/errors/renesas-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/renesas-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/conventions/renesas-conventions.yml
+  href: https://artifacts.apis.io/renesas/conventions/renesas-conventions.yml
   title: ''
   type: Conventions
   url: conventions/renesas-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/data-model/renesas-data-model.yml
+  href: https://artifacts.apis.io/renesas/data-model/renesas-data-model.yml
   title: ''
   type: DataModel
   url: data-model/renesas-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/lifecycle/renesas-lifecycle.yml
+  href: https://artifacts.apis.io/renesas/lifecycle/renesas-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/renesas-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/changelog/renesas-changelog.yml
+  href: https://artifacts.apis.io/renesas/changelog/renesas-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/renesas-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/sandbox/renesas-sandbox.yml
+  href: https://artifacts.apis.io/renesas/sandbox/renesas-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/renesas-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/conformance/renesas-conformance.yml
+  href: https://artifacts.apis.io/renesas/conformance/renesas-conformance.yml
   title: ''
   type: Conformance
   url: conformance/renesas-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/security/renesas-domain-security.yml
+  href: https://artifacts.apis.io/renesas/security/renesas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/renesas-domain-security.yml
@@ -250,10 +249,10 @@ overview: 'Renesas publishes 6 API contracts indexed on the [APIs.io](https://ap
 
 
   Renesas'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 5
+random_paper: 9
 score:
   band: developing
-  composite: 43.5
+  composite: 43.6
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -261,15 +260,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 49.3
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 43.4
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -286,13 +285,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/screenshots/renesas-2026-08-17T081518.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/renesas/renesas-2026-08-17T081518.png
 security:
 - kind: authentication
   name: Renesas Authentication
@@ -302,6 +302,14 @@ security:
   name: Renesas Domain Security
   slug: renesas-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Cross-reference competitor parts to Renesas replacements
+  slug: renesas-cross-reference
+- name: Retrieve Renesas product documents
+  slug: renesas-documents
+- name: Find and parametrically filter Renesas product parts
+  slug: renesas-find-parts
 slug: renesas
 tags:
 - Company

@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,20 +39,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The SendOwl REST API provides third-party applications access to a merchant account's products, bundles (packages), subscriptions, drip items, orders, discounts, discount codes and license keys. Reque
   name: SendOwl API
   slug: sendowl-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Sendowl Webhooks
   slug: sendowl-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sendowl/refs/heads/main/security/sendowl-domain-security.yml
+  href: https://artifacts.apis.io/sendowl/security/sendowl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sendowl-domain-security.yml
@@ -107,72 +109,80 @@ common:
   type: StatusPage
   url: https://sendowl.status.io/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sendowl/refs/heads/main/plans/sendowl-plans-pricing.yml
+  href: https://artifacts.apis.io/sendowl/plans/sendowl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sendowl-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sendowl/refs/heads/main/rate-limits/sendowl-rate-limits.yml
+  href: https://artifacts.apis.io/sendowl/rate-limits/sendowl-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sendowl-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sendowl/refs/heads/main/authentication/sendowl-authentication.yml
+  href: https://artifacts.apis.io/sendowl/authentication/sendowl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sendowl-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendowl/refs/heads/main/conventions/sendowl-conventions.yml
+  href: https://artifacts.apis.io/sendowl/conventions/sendowl-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sendowl-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendowl/refs/heads/main/errors/sendowl-problem-types.yml
+  href: https://artifacts.apis.io/sendowl/errors/sendowl-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sendowl-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendowl/refs/heads/main/lifecycle/sendowl-lifecycle.yml
+  href: https://artifacts.apis.io/sendowl/lifecycle/sendowl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sendowl-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendowl/refs/heads/main/conformance/sendowl-conformance.yml
+  href: https://artifacts.apis.io/sendowl/conformance/sendowl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sendowl-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sendowl/refs/heads/main/packages/sendowl-packages.yml
+  href: https://artifacts.apis.io/sendowl/packages/sendowl-packages.yml
   title: ''
   type: Packages
   url: packages/sendowl-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendowl/refs/heads/main/components/sendowl-components.yml
+  href: https://artifacts.apis.io/sendowl/components/sendowl-components.yml
   title: ''
   type: Components
   url: components/sendowl-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sendowl/refs/heads/main/sandbox/sendowl-sandbox.yml
+  href: https://artifacts.apis.io/sendowl/sandbox/sendowl-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sendowl-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendowl/refs/heads/main/data-model/sendowl-data-model.yml
+  href: https://artifacts.apis.io/sendowl/data-model/sendowl-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sendowl-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendowl/refs/heads/main/asyncapi/sendowl-webhooks.yml
+  href: https://artifacts.apis.io/sendowl/asyncapi/sendowl-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sendowl-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sendowl/refs/heads/main/llms/sendowl-llms.txt
+  href: https://artifacts.apis.io/sendowl/llms/sendowl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sendowl-llms.txt
 created: '2026-08-12'
 description: SendOwl is a UK-based digital commerce platform that lets creators and small businesses sell digital products, subscriptions, memberships, license keys, drip-delivered courses and physical goods, with hosted checkout, automated file delivery, PDF stamping, affiliate programs, discount codes and EU VAT handling. It exposes a public REST API at api.sendowl.com covering products, bundles (packages), subscriptions, drip items, orders, discounts and licenses in both JSON and XML, authenticated with HTTP Basic using an account API key and secret, alongside an outbound webhook surface signed with HMAC-SHA256 and a browser-side sendowl.js library that drives the lightbox checkout and cart widget.
+finops:
+- has_sources: true
+  method: derived
+  name: Sendowl Finops
+  primary_unit: plan billed annually
+  service_category: ''
+  slug: sendowl-finops
+  template: false
 image: https://www.sendowl.com/twitter-image.png
 layout: provider
 modified: '2026-08-12'
@@ -188,37 +198,40 @@ overview: 'SendOwl is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   SendOwl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
 plans:
 - name: Sendowl Plans Pricing
-  plan_count: 4
+  plan_count: 7
   slug: sendowl-plans-pricing
-random_paper: 16
+- name: Sendowl Price Estimates
+  plan_count: 0
+  slug: sendowl-price-estimates
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Sendowl Rate Limits
   slug: sendowl-rate-limits
 score:
-  band: developing
-  composite: 53.2
+  band: strong
+  composite: 55.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 57.0
+    artifact_dirs: 20
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
     discoverability: 66.1
-    operational_transparency: 47.4
+    operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 53.2
+  previous_composite: 53.6
   provenance:
     conformance: first-party
   regulatory:
@@ -227,14 +240,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sendowl/refs/heads/main/screenshots/sendowl-2026-08-17T081759.png
+screenshot: https://apis.io/screenshots/sendowl/sendowl-2026-08-17T081759.png
 security:
 - kind: authentication
   name: Sendowl Authentication

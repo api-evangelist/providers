@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.1
-  scored_at: '2026-10-17'
+  score: 29.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 16
   slug: rics-agentic-access
   summary_line: 16 operations · 7 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.rics.org
   baseurl_source: declared
@@ -80,7 +82,7 @@ apis:
   description: The Token API from RICS (Royal Institution of Chartered Surveyors) — 1 operation(s) for token.
   name: RICS (Royal Institution of Chartered Surveyors) Token API
   slug: rics-token-api
-artifact_total: 18
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -113,7 +115,7 @@ common:
   type: Releases
   url: https://github.com/RICS-Data-Standard/RDS/releases
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/overlays/rics-digitalcommunity-api-overlay.yaml
+  href: https://artifacts.apis.io/rics/overlays/rics-digitalcommunity-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rics-digitalcommunity-api-overlay.yaml
@@ -122,72 +124,72 @@ common:
   type: License
   url: https://github.com/RICS-Data-Standard/RDS/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/agentic-access/rics-agentic-access.yml
+  href: https://artifacts.apis.io/rics/agentic-access/rics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rics-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/security/rics-domain-security.yml
+  href: https://artifacts.apis.io/rics/security/rics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rics-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/authentication/rics-authentication.yml
+  href: https://artifacts.apis.io/rics/authentication/rics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rics-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/scopes/rics-scopes.yml
+  href: https://artifacts.apis.io/rics/scopes/rics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/rics-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/well-known/rics-well-known.yml
+  href: https://artifacts.apis.io/rics/well-known/rics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rics-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/conventions/rics-conventions.yml
+  href: https://artifacts.apis.io/rics/conventions/rics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/errors/rics-problem-types.yml
+  href: https://artifacts.apis.io/rics/errors/rics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rics-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/data-model/rics-data-model.yml
+  href: https://artifacts.apis.io/rics/data-model/rics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rics-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/lifecycle/rics-lifecycle.yml
+  href: https://artifacts.apis.io/rics/lifecycle/rics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rics-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/changelog/rics-changelog.yml
+  href: https://artifacts.apis.io/rics/changelog/rics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rics-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/conformance/rics-conformance.yml
+  href: https://artifacts.apis.io/rics/conformance/rics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rics-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/mcp/rics-mcp.yml
+  href: https://artifacts.apis.io/rics/mcp/rics-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rics-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/llms/rics-llms.txt
+  href: https://artifacts.apis.io/rics/llms/rics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rics-llms.txt
@@ -216,32 +218,32 @@ common:
   type: Standards
   url: https://www.rics.org/profession-standards/rics-standards-and-guidance/sector-standards/construction-standards/rics-data-standards
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-data-standard-3.3.3-schema.json
+  href: https://artifacts.apis.io/rics/openapi/rics-data-standard-3.3.3-schema.json
   title: ''
   type: JSONSchema
   url: openapi/rics-data-standard-3.3.3-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-data-standard-3.3.3-schema.xsd
+  href: https://artifacts.apis.io/rics/openapi/rics-data-standard-3.3.3-schema.xsd
   title: ''
   type: XMLSchema
   url: openapi/rics-data-standard-3.3.3-schema.xsd
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-data-standard-3.3.3-description.json
+  href: https://artifacts.apis.io/rics/openapi/rics-data-standard-3.3.3-description.json
   title: ''
   type: DataModel
   url: openapi/rics-data-standard-3.3.3-description.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-data-standard-3.3.3-example.json
+  href: https://artifacts.apis.io/rics/openapi/rics-data-standard-3.3.3-example.json
   title: ''
   type: Examples
   url: openapi/rics-data-standard-3.3.3-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-data-standard-3.3.3-ipms-example.json
+  href: https://artifacts.apis.io/rics/openapi/rics-data-standard-3.3.3-ipms-example.json
   title: ''
   type: Examples
   url: openapi/rics-data-standard-3.3.3-ipms-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-data-standard-3.3.3-icms-example.json
+  href: https://artifacts.apis.io/rics/openapi/rics-data-standard-3.3.3-icms-example.json
   title: ''
   type: Examples
   url: openapi/rics-data-standard-3.3.3-icms-example.json
@@ -254,7 +256,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/RICS-Data-Standard
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/openapi/rics-azure-ad-b2c-openid-configuration.json
+  href: https://artifacts.apis.io/rics/openapi/rics-azure-ad-b2c-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: openapi/rics-azure-ad-b2c-openid-configuration.json
@@ -338,7 +340,7 @@ overview: 'RICS (Royal Institution of Chartered Surveyors) publishes 7 API contr
 
 
   RICS (Royal Institution of Chartered Surveyors)''s developer surface includes authentication, changelog, code examples, engineering blog, support, signup flow, pricing, and 43 more developer resources.'
-random_paper: 15
+random_paper: 1
 scopes:
 - name: Rics Scopes
   scope_count: 1
@@ -346,7 +348,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 35.6
+  composite: 37.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 35.0
@@ -361,7 +363,7 @@ score:
     contract_quality: 42.7
     developer_ergonomics: 28.0
     discoverability: 62.5
-    operational_transparency: 18.4
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -370,10 +372,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 35.6
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -390,13 +389,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/screenshots/rics-2026-09-02T153806.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rics/rics-2026-09-02T153806.png
 security:
 - kind: authentication
   name: Rics Authentication
@@ -406,6 +406,14 @@ security:
   name: Rics Domain Security
   slug: rics-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Authenticate with RICS and read a firm's regulation scheme
+  slug: rics-authenticate-and-read-regulation-scheme
+- name: Check a RICS firm's subscriptions and billing position
+  slug: rics-check-firm-subscriptions-and-billing
+- name: Validate a RICS survey-writer software licence
+  slug: rics-validate-survey-writer-licence
 slug: rics
 tags:
 - Real Estate

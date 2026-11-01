@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 35.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -62,7 +64,7 @@ apis:
   description: Participation and attendance reporting.
   name: Demio Reports API
   slug: demio-reports-api
-artifact_total: 10
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Demio Events
@@ -73,12 +75,12 @@ collections:
   slug: open-demio
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/agentic-access/demio-agentic-access.yml
+  href: https://artifacts.apis.io/demio/agentic-access/demio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/demio-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/security/demio-domain-security.yml
+  href: https://artifacts.apis.io/demio/security/demio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/demio-domain-security.yml
@@ -143,108 +145,116 @@ common:
   type: StatusPage
   url: https://status.demio.com
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/openapi/_original/demio-openapi.yml
+  href: https://artifacts.apis.io/demio/openapi/_original/demio-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/demio-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/openapi/demio-api-blueprint-original.apib
+  href: https://artifacts.apis.io/demio/openapi/demio-api-blueprint-original.apib
   title: ''
   type: APIBlueprint
   url: openapi/demio-api-blueprint-original.apib
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/authentication/demio-authentication.yml
+  href: https://artifacts.apis.io/demio/authentication/demio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/demio-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/conventions/demio-conventions.yml
+  href: https://artifacts.apis.io/demio/conventions/demio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/demio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/errors/demio-problem-types.yml
+  href: https://artifacts.apis.io/demio/errors/demio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/demio-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/rate-limits/demio-rate-limits.yml
+  href: https://artifacts.apis.io/demio/rate-limits/demio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/demio-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/plans/demio-plans-pricing.yml
+  href: https://artifacts.apis.io/demio/plans/demio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/demio-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/lifecycle/demio-lifecycle.yml
+  href: https://artifacts.apis.io/demio/lifecycle/demio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/demio-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/conformance/demio-conformance.yml
+  href: https://artifacts.apis.io/demio/conformance/demio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/demio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/data-model/demio-data-model.yml
+  href: https://artifacts.apis.io/demio/data-model/demio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/demio-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/sandbox/demio-sandbox.yml
+  href: https://artifacts.apis.io/demio/sandbox/demio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/demio-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/packages/demio-packages.yml
+  href: https://artifacts.apis.io/demio/packages/demio-packages.yml
   title: ''
   type: Packages
   url: packages/demio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/packages/demio-packages.yml
+  href: https://artifacts.apis.io/demio/packages/demio-packages.yml
   title: ''
   type: SDKs
   url: packages/demio-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/components/demio-components.yml
+  href: https://artifacts.apis.io/demio/components/demio-components.yml
   title: ''
   type: Components
   url: components/demio-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/mcp/demio-tool-crosswalk.yml
+  href: https://artifacts.apis.io/demio/mcp/demio-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/demio-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/demio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/llms/demio-llms.txt
+  href: https://artifacts.apis.io/demio/llms/demio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/demio-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/llms/demio-help-center-llms.txt
+  href: https://artifacts.apis.io/demio/llms/demio-help-center-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/demio-help-center-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/overlays/demio-openapi-overlay.yaml
+  href: https://artifacts.apis.io/demio/overlays/demio-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/demio-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/examples/demio-examples.yml
+  href: https://artifacts.apis.io/demio/examples/demio-examples.yml
   title: ''
   type: Examples
   url: examples/demio-examples.yml
 created: '2026-08-12'
 description: 'Demio is a browser-based webinar and virtual-event platform built for B2B marketing and sales teams, operated by Banzai International, Inc. (NASDAQ: BNZI). It runs live, automated/evergreen, on-demand and series webinars with no attendee download, and pairs them with customizable registration pages, embeddable registration forms, in-session engagement tools (polls, handouts, featured actions, chat), recordings, Showcase event listings and post-webinar analytics. Its public developer surface is the Public Demio API — a key/secret authorized REST API at https://my.demio.com/api/v1 covering Events, Event Sessions (Dates), attendee registration with unique join links, and per-Session participation reporting. Demio documents the API as an Apiary API Blueprint, publishes burst rate limits and daily call quotas, runs a public Atlassian Statuspage, ships one first-party PHP SDK from its meetdemio GitHub organization, and offers a Zapier app with registration, join, no-show and event-update
   triggers for teams that do not want to call the API directly.'
+finops:
+- has_sources: true
+  method: derived
+  name: Demio Finops
+  primary_unit: host / paid yearly
+  service_category: ''
+  slug: demio-finops
+  template: false
 image: https://cdn.prod.website-files.com/639df5c77a191c7268d2f9a2/63d939e13b301514d7b3dbab_60ee09e2a0845e4356fd7641_5a86d4765e69d200011f70a5_favicon-256.png
 layout: provider
 modified: '2026-09-16'
@@ -260,32 +270,35 @@ overview: 'Demio publishes 3 API contracts indexed on the [APIs.io](https://apis
   Demio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Demio Plans Pricing
-  plan_count: 4
+  plan_count: 6
   slug: demio-plans-pricing
-random_paper: 20
+- name: Demio Price Estimates
+  plan_count: 0
+  slug: demio-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Demio Rate Limits
   slug: demio-rate-limits
 score:
-  band: developing
-  composite: 48.5
+  band: strong
+  composite: 54.4
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 61.0
+    artifact_dirs: 28
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 24.6
-    developer_ergonomics: 60.1
-    discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 48.4
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 63.2
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,13 +319,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/screenshots/demio-2026-08-17T080854.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/demio/demio-2026-08-17T080854.png
 security:
 - kind: authentication
   name: Demio Authentication
@@ -322,6 +336,12 @@ security:
   name: Demio Domain Security
   slug: demio-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Pull the attendance report for a webinar Session
+  slug: demio-pull-session-attendance-report
+- name: Register an attendee and return their unique join link
+  slug: demio-register-attendee-and-return-join-link
 slug: demio
 tags:
 - Company

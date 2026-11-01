@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 17
 apis:
 - description: The Enrollments API is typically the first API used in a partner integration and establishes the initial banking relationship for a new end user. It covers account creation, identity capture, KYC (Kno
@@ -88,29 +90,29 @@ apis:
 - description: ATM & Retail Locator APIs locate nearby ATMs and Green Dot retail locations for cash deposits, withdrawals, and reload, returning geospatial location and store data. Used to surface the nearest networ
   name: Green Dot ATM & Retail Locators API
   slug: atm-retail-locators-api
-artifact_total: 24
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Green Dot Webhooks
   slug: green-dot-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/plans/green-dot-plans-pricing.yml
+  href: https://artifacts.apis.io/green-dot/plans/green-dot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/green-dot-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/rate-limits/green-dot-rate-limits.yml
+  href: https://artifacts.apis.io/green-dot/rate-limits/green-dot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/green-dot-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/finops/green-dot-finops.yml
+  href: https://artifacts.apis.io/green-dot/finops/green-dot-finops.yml
   title: ''
   type: FinOps
   url: finops/green-dot-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/skills/green-dot-disburse-funds.md
+  href: https://artifacts.apis.io/green-dot/skills/green-dot-disburse-funds.md
   title: ''
   type: AgentSkill
   url: skills/green-dot-disburse-funds.md
@@ -119,7 +121,7 @@ common:
   type: Login
   url: https://secure.greendot.com/greendot/login
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/security/green-dot-domain-security.yml
+  href: https://artifacts.apis.io/green-dot/security/green-dot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/green-dot-domain-security.yml
@@ -160,7 +162,7 @@ common:
   type: LlmsText
   url: https://developer.greendot.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/llms/green-dot-llms.txt
+  href: https://artifacts.apis.io/green-dot/llms/green-dot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/green-dot-llms.txt
@@ -177,37 +179,37 @@ common:
   type: ChangeLog
   url: https://developer.greendot.com/embedded-finance/changelog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/conventions/green-dot-conventions.yml
+  href: https://artifacts.apis.io/green-dot/conventions/green-dot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/green-dot-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/conventions/green-dot-conventions.yml
+  href: https://artifacts.apis.io/green-dot/conventions/green-dot-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/green-dot-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/authentication/green-dot-authentication.yml
+  href: https://artifacts.apis.io/green-dot/authentication/green-dot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/green-dot-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/scopes/green-dot-scopes.yml
+  href: https://artifacts.apis.io/green-dot/scopes/green-dot-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/green-dot-scopes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/sandbox/green-dot-sandbox.yml
+  href: https://artifacts.apis.io/green-dot/sandbox/green-dot-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/green-dot-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/errors/green-dot-error-codes.yml
+  href: https://artifacts.apis.io/green-dot/errors/green-dot-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/green-dot-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/lifecycle/green-dot-lifecycle.yml
+  href: https://artifacts.apis.io/green-dot/lifecycle/green-dot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/green-dot-lifecycle.yml
@@ -216,27 +218,27 @@ common:
   type: DeprecationPolicy
   url: https://developer.greendot.com/embedded-finance/docs/release-notes
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/asyncapi/green-dot-webhooks.yml
+  href: https://artifacts.apis.io/green-dot/asyncapi/green-dot-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/green-dot-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/conformance/green-dot-conformance.yml
+  href: https://artifacts.apis.io/green-dot/conformance/green-dot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/green-dot-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/data-model/green-dot-data-model.yml
+  href: https://artifacts.apis.io/green-dot/data-model/green-dot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/green-dot-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/green-dot/skills/_index.yml
   title: ''
   type: AgentSkills
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/changelog/green-dot-changelog.yml
+  href: https://artifacts.apis.io/green-dot/changelog/green-dot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/green-dot-changelog.yml
@@ -267,7 +269,7 @@ plans:
 - name: Green Dot Plans Pricing
   plan_count: 1
   slug: green-dot-plans-pricing
-random_paper: 21
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Green Dot Rate Limits
@@ -278,23 +280,23 @@ scopes:
   slug: green-dot-scopes
   summary_line: 3 scopes
 score:
-  band: thin
-  composite: 32.0
+  band: developing
+  composite: 45.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 22.4
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 11.3
+    developer_ergonomics: 49.4
     discoverability: 69.6
-    operational_transparency: 31.6
+    operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -302,7 +304,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 33.6
+  previous_composite: 45.0
   provenance:
     conformance: first-party
     skills: derived
@@ -315,15 +317,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 34.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 38.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/screenshots/green-dot-2026-06-20T182350.png
+screenshot: https://apis.io/screenshots/green-dot/green-dot-2026-06-20T182350.png
 security:
 - kind: authentication
   name: Green Dot Authentication
@@ -333,6 +335,14 @@ security:
   name: Green Dot Domain Security
   slug: green-dot-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Disburse funds to a recipient
+  slug: green-dot-disburse-funds
+- name: Enroll an end user and service their account
+  slug: green-dot-enroll-and-service-account
+- name: Pay a bill for an account holder
+  slug: green-dot-pay-a-bill
 slug: green-dot
 tags:
 - Fintech

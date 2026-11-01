@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,41 +14,43 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.5
-  scored_at: '2026-10-17'
+  score: 7.6
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuddly/refs/heads/main/security/cuddly-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cuddly/security/cuddly-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/cuddly-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cuddly/refs/heads/main/llms/cuddly-llms.txt
+  href: https://artifacts.apis.io/cuddly/llms/cuddly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cuddly-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cuddly/refs/heads/main/well-known/cuddly-well-known.yml
+  href: https://artifacts.apis.io/cuddly/well-known/cuddly-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cuddly-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cuddly/refs/heads/main/hosts/cuddly-hosts.yml
+  href: https://artifacts.apis.io/cuddly/hosts/cuddly-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cuddly-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cuddly/refs/heads/main/vendors/cuddly-vendors.yml
+  href: https://artifacts.apis.io/cuddly/vendors/cuddly-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cuddly-vendors.yml
@@ -61,12 +63,12 @@ common:
   type: Login
   url: https://cuddly.com/login
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuddly/refs/heads/main/security/cuddly-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cuddly/security/cuddly-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cuddly-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuddly/refs/heads/main/security/cuddly-domain-security.yml
+  href: https://artifacts.apis.io/cuddly/security/cuddly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cuddly-domain-security.yml
@@ -118,10 +120,10 @@ overview: 'CUDDLY is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   CUDDLY''s developer surface includes documentation, engineering blog, pricing, support, and 12 more developer resources.'
-random_paper: 7
+random_paper: 21
 score:
   band: emerging
-  composite: 20.0
+  composite: 19.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -129,13 +131,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 10.5
+  previous_composite: 19.3
   provenance:
     mcp: unknown
   regulatory:
@@ -144,8 +148,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

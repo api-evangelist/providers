@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-10-17'
+  score: 34.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 322
   human_in_the_loop: 3
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 575
   slug: highlevel-agentic-access
   summary_line: 575 operations · 322 acting · 3 human-in-the-loop
-api_count: 41
+api_count: 40
 apis:
 - baseURL: https://api.gohighlevel.com
   baseurl_source: declared
@@ -618,7 +620,7 @@ apis:
   description: Documentation for workflows API
   name: HighLevel Workflows API
   slug: highlevel-workflows-api
-artifact_total: 185
+artifact_total: 188
 asyncapis:
 - description: ''
   name: Highlevel Webhooks
@@ -629,92 +631,92 @@ common:
   type: Blog
   url: https://www.gohighlevel.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/capabilities/highlevel-capability-edges.yml
+  href: https://artifacts.apis.io/highlevel/capabilities/highlevel-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/highlevel-capability-edges.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/rate-limits/highlevel-rate-limits.yml
+  href: https://artifacts.apis.io/highlevel/rate-limits/highlevel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/highlevel-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/asyncapi/highlevel-webhooks.yml
+  href: https://artifacts.apis.io/highlevel/asyncapi/highlevel-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/highlevel-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/cli/highlevel-cli.yml
+  href: https://artifacts.apis.io/highlevel/cli/highlevel-cli.yml
   title: ''
   type: CLI
   url: cli/highlevel-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/changelog/highlevel-changelog.yml
+  href: https://artifacts.apis.io/highlevel/changelog/highlevel-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/highlevel-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/plans/highlevel-plans-pricing.yml
+  href: https://artifacts.apis.io/highlevel/plans/highlevel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/highlevel-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/agentic-access/highlevel-agentic-access.yml
+  href: https://artifacts.apis.io/highlevel/agentic-access/highlevel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/highlevel-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/rules/highlevel-rules.yml
+  href: https://artifacts.apis.io/highlevel/rules/highlevel-rules.yml
   title: ''
   type: Spectral
   url: rules/highlevel-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/json-ld/highlevel-context.jsonld
+  href: https://artifacts.apis.io/highlevel/json-ld/highlevel-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/highlevel-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/vocabulary/highlevel-vocabulary.yml
+  href: https://artifacts.apis.io/highlevel/vocabulary/highlevel-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/highlevel-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/highlevel/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/data-model/highlevel-data-model.yml
+  href: https://artifacts.apis.io/highlevel/data-model/highlevel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/highlevel-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/errors/highlevel-problem-types.yml
+  href: https://artifacts.apis.io/highlevel/errors/highlevel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/highlevel-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/conformance/highlevel-conformance.yml
+  href: https://artifacts.apis.io/highlevel/conformance/highlevel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/highlevel-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/llms/highlevel-llms.txt
+  href: https://artifacts.apis.io/highlevel/llms/highlevel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/highlevel-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/well-known/highlevel-well-known.yml
+  href: https://artifacts.apis.io/highlevel/well-known/highlevel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/highlevel-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/packages/highlevel-packages.yml
+  href: https://artifacts.apis.io/highlevel/packages/highlevel-packages.yml
   title: ''
   type: SDKs
   url: packages/highlevel-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/packages/highlevel-packages.yml
+  href: https://artifacts.apis.io/highlevel/packages/highlevel-packages.yml
   title: ''
   type: Packages
   url: packages/highlevel-packages.yml
@@ -747,12 +749,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/GoHighLevel
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/authentication/highlevel-authentication.yml
+  href: https://artifacts.apis.io/highlevel/authentication/highlevel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/highlevel-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/security/highlevel-domain-security.yml
+  href: https://artifacts.apis.io/highlevel/security/highlevel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/highlevel-domain-security.yml
@@ -762,6 +764,14 @@ common:
   url: https://gohighlevel.com/
 created: '2026-09-22'
 description: HighLevel provides an all‑in‑one SaaS platform for marketing agencies, offering CRM, funnel building, email & SMS automation, reputation management, and client communication tools, enabling agencies to deliver comprehensive digital marketing services.
+finops:
+- has_sources: true
+  method: derived
+  name: Highlevel Finops
+  primary_unit: sub-account
+  service_category: ''
+  slug: highlevel-finops
+  template: false
 image: https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/69934cb2a9efdefa24ac4918.png
 json_schemas:
 - name: AppointmentCreateSchema
@@ -963,9 +973,12 @@ overview: 'HighLevel publishes 117 API contracts indexed on the [APIs.io](https:
   HighLevel''s developer surface includes engineering blog, CLI, changelog, support, pricing, getting-started guide, documentation, and 22 more developer resources.'
 plans:
 - name: Highlevel Plans Pricing
-  plan_count: 3
+  plan_count: 20
   slug: highlevel-plans-pricing
-random_paper: 6
+- name: Highlevel Price Estimates
+  plan_count: 0
+  slug: highlevel-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Highlevel Rate Limits
@@ -984,24 +997,24 @@ rules:
     warn: 1
   slug: highlevel-rules
 score:
-  band: exemplar
-  composite: 66.9
+  band: strong
+  composite: 60.5
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 85.8
+    artifact_dirs: 29
+    catalog_earned: 88.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 29.3
+    catalog_gap: 26.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 1.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 22.0
-    contract_quality: 72.3
+    contract_quality: 69.0
     developer_ergonomics: 56.5
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 50.0
-  previous_composite: 66.4
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1018,13 +1031,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 72.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/highlevel/refs/heads/main/screenshots/highlevel-2026-10-11T105254.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/highlevel/highlevel-2026-10-11T105254.png
 security:
 - kind: authentication
   name: Highlevel Authentication
@@ -1034,6 +1048,10 @@ security:
   name: Highlevel Domain Security
   slug: highlevel-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: highlevel-enable-saas-for-location
+  slug: highlevel-enable-saas-for-location
 slug: highlevel
 tags:
 - Company

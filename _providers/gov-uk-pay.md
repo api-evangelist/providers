@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.8
-  scored_at: '2026-10-17'
+  score: 42.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -73,9 +75,6 @@ apis:
 artifact_total: 67
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: GOV.UK Pay Agreements API
   slug: open-gov-uk-pay-agreements-api
 - collection_type: open
@@ -92,17 +91,17 @@ collections:
   slug: open-gov-uk-pay-refunding-card-payments-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/gov-uk-pay/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/gov-uk-pay/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/gov-uk-pay/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -127,35 +126,35 @@ common:
   type: License
   url: https://github.com/alphagov/pay-publicapi/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/agentic-access/gov-uk-pay-agentic-access.yml
+  href: https://artifacts.apis.io/gov-uk-pay/agentic-access/gov-uk-pay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gov-uk-pay-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/security/gov-uk-pay-trust-center.yml
+  href: https://artifacts.apis.io/gov-uk-pay/security/gov-uk-pay-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gov-uk-pay-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/security/gov-uk-pay-domain-security.yml
+  href: https://artifacts.apis.io/gov-uk-pay/security/gov-uk-pay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gov-uk-pay-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/authentication/gov-uk-pay-authentication.yml
+  href: https://artifacts.apis.io/gov-uk-pay/authentication/gov-uk-pay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gov-uk-pay-authentication.yml
 created: '2026-06-13'
 description: UK government digital payment service providing a REST API for accepting card payments, managing payment links, and processing refunds for government digital services. Built and operated by the Government Digital Service (GDS), GOV.UK Pay enables over 1,500 public sector organisations to take payments securely without managing their own PCI DSS compliance.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Finops
-  primary_unit: ''
+  primary_unit: user
   service_category: ''
   slug: finops
-  template: true
+  template: false
 image: https://www.payments.service.gov.uk/assets/images/govuk-pay-logo.png
 json_schemas:
 - name: Address
@@ -318,10 +317,13 @@ overview: 'GOV.UK Pay publishes 5 API contracts indexed on the [APIs.io](https:/
 
   GOV.UK Pay''s developer surface includes authentication and 11 more developer resources.'
 plans:
+- name: Gov Uk Pay Price Estimates
+  plan_count: 0
+  slug: gov-uk-pay-price-estimates
 - name: Plans
-  plan_count: 1
+  plan_count: 6
   slug: plans
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -340,17 +342,17 @@ rules:
   slug: gov-uk-pay-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.0
+  composite: 41.1
   coverage:
     artifact_dirs: 15
-    catalog_earned: 53.3
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.9
+  delta: -2.2
   facets:
-    access_clarity: 23.7
+    access_clarity: 36.8
     contract_governance: 9.8
     contract_quality: 54.9
     developer_ergonomics: 21.4
@@ -364,10 +366,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 42.9
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -380,14 +379,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 23.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 26.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/screenshots/gov-uk-pay-2026-06-20T182258.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gov-uk-pay/gov-uk-pay-2026-06-20T182258.png
 security:
 - kind: authentication
   name: Gov Uk Pay Authentication

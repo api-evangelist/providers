@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 63.8
-  scored_at: '2026-10-17'
+  score: 56.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -108,7 +110,7 @@ apis:
   description: Webhooks allow you to receive real-time notifications about events in your Resolve account. When an event occurs, Resolve sends an HTTP POST request to your configured webhook endpoint with details ab
   name: Resolve Webhooks API
   slug: resolve-webhooks-api
-artifact_total: 47
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Resolve Webhooks
@@ -151,9 +153,6 @@ collections:
   name: Resolve API Reference Access Keys Webhooks API
   slug: postman-resolve-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Resolve API Reference Access Keys API
   slug: open-resolve-access-keys-api
 - collection_type: open
@@ -191,42 +190,42 @@ collections:
   slug: open-resolve-webhooks-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/agentic-access/resolve-agentic-access.yml
+  href: https://artifacts.apis.io/resolve/agentic-access/resolve-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/resolve-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/rules/resolve-rules.yml
+  href: https://artifacts.apis.io/resolve/rules/resolve-rules.yml
   title: ''
   type: Spectral
   url: rules/resolve-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/json-ld/resolve-context.jsonld
+  href: https://artifacts.apis.io/resolve/json-ld/resolve-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/resolve-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/vocabulary/resolve-vocabulary.yml
+  href: https://artifacts.apis.io/resolve/vocabulary/resolve-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/resolve-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/well-known/resolve-well-known.yml
+  href: https://artifacts.apis.io/resolve/well-known/resolve-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/resolve-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/hosts/resolve-hosts.yml
+  href: https://artifacts.apis.io/resolve/hosts/resolve-hosts.yml
   title: ''
   type: Hosts
   url: hosts/resolve-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/integrations/resolve-integration-edges.yml
+  href: https://artifacts.apis.io/resolve/integrations/resolve-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/resolve-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/vendors/resolve-vendors.yml
+  href: https://artifacts.apis.io/resolve/vendors/resolve-vendors.yml
   title: ''
   type: Vendors
   url: vendors/resolve-vendors.yml
@@ -235,17 +234,17 @@ common:
   type: BlogRSS
   url: https://resolvepay.com/blog/rss.xml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/plans/resolve-plans-pricing.yml
+  href: https://artifacts.apis.io/resolve/plans/resolve-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/resolve-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/capabilities/resolve-capability-edges.yml
+  href: https://artifacts.apis.io/resolve/capabilities/resolve-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/resolve-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/overlays/resolve-merchant-api-overlay.yaml
+  href: https://artifacts.apis.io/resolve/overlays/resolve-merchant-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/resolve-merchant-api-overlay.yaml
@@ -318,87 +317,95 @@ common:
   type: Deprecation
   url: https://app.resolvepay.com/docs/api/v2
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/mcp/resolve-mcp.yml
+  href: https://artifacts.apis.io/resolve/mcp/resolve-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/resolve-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/authentication/resolve-authentication.yml
+  href: https://artifacts.apis.io/resolve/authentication/resolve-authentication.yml
   title: ''
   type: Authentication
   url: authentication/resolve-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/scopes/resolve-scopes.yml
+  href: https://artifacts.apis.io/resolve/scopes/resolve-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/resolve-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/conventions/resolve-conventions.yml
+  href: https://artifacts.apis.io/resolve/conventions/resolve-conventions.yml
   title: ''
   type: Conventions
   url: conventions/resolve-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/conventions/resolve-conventions.yml
+  href: https://artifacts.apis.io/resolve/conventions/resolve-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/resolve-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/errors/resolve-problem-types.yml
+  href: https://artifacts.apis.io/resolve/errors/resolve-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/resolve-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/lifecycle/resolve-lifecycle.yml
+  href: https://artifacts.apis.io/resolve/lifecycle/resolve-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/resolve-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/rate-limits/resolve-rate-limits.yml
+  href: https://artifacts.apis.io/resolve/rate-limits/resolve-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/resolve-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/asyncapi/resolve-webhooks.yml
+  href: https://artifacts.apis.io/resolve/asyncapi/resolve-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/resolve-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/conformance/resolve-conformance.yml
+  href: https://artifacts.apis.io/resolve/conformance/resolve-conformance.yml
   title: ''
   type: Conformance
   url: conformance/resolve-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/components/resolve-components.yml
+  href: https://artifacts.apis.io/resolve/components/resolve-components.yml
   title: ''
   type: Components
   url: components/resolve-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/data-model/resolve-data-model.yml
+  href: https://artifacts.apis.io/resolve/data-model/resolve-data-model.yml
   title: ''
   type: DataModel
   url: data-model/resolve-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/sandbox/resolve-sandbox.yml
+  href: https://artifacts.apis.io/resolve/sandbox/resolve-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/resolve-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/security/resolve-domain-security.yml
+  href: https://artifacts.apis.io/resolve/security/resolve-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/resolve-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/llms/resolve-llms.txt
+  href: https://artifacts.apis.io/resolve/llms/resolve-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/resolve-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/resolve/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'Resolve is a B2B commerce and payments platform that lets businesses offer flexible net terms (typically NET 30-60) to their buyers without carrying the credit risk or waiting on cash. It combines automated credit underwriting, invoicing, agentic collections, and payment processing: sellers are paid upfront while customers pay on terms. Resolve exposes a Merchant API (V5) for direct integrations (customers, credit checks, invoices, orders, charges, shipments, payments, payouts), a Partners API for platform/marketplace sub-merchant management, a browser Checkout SDK, and an official MCP server with full Merchant-API parity for AI assistants. Backed by Insight Partners, QED Investors, and Y Combinator.'
+finops:
+- has_sources: true
+  method: derived
+  name: Resolve Finops
+  primary_unit: ''
+  service_category: ''
+  slug: resolve-finops
+  template: true
 image: https://resolvepay.com/favicon-32x32.png
 jsonld:
 - class_count: 77
@@ -425,7 +432,7 @@ plans:
 - name: Resolve Plans Pricing
   plan_count: 1
   slug: resolve-plans-pricing
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Resolve Rate Limits
@@ -449,24 +456,24 @@ scopes:
   slug: resolve-scopes
   summary_line: 2 scopes
 score:
-  band: exemplar
-  composite: 67.6
+  band: strong
+  composite: 63.2
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 33
     catalog_earned: 69.8
     catalog_earned_first_party: 16.0
     catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.9
+  delta: 0.0
   facets:
-    access_clarity: 65.8
+    access_clarity: 73.7
     contract_governance: 22.0
-    contract_quality: 66.1
+    contract_quality: 63.8
     developer_ergonomics: 67.3
-    discoverability: 75.0
-    operational_transparency: 55.3
-  previous_composite: 63.7
+    discoverability: 65.0
+    operational_transparency: 57.9
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -482,14 +489,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/screenshots/resolve-2026-08-17T081532.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/resolve/resolve-2026-08-17T081532.png
 security:
 - kind: authentication
   name: Resolve Authentication
@@ -499,6 +507,12 @@ security:
   name: Resolve Domain Security
   slug: resolve-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: invoice-and-advance
+  slug: resolve-invoice-and-advance
+- name: onboard-customer
+  slug: resolve-onboard-customer
 slug: resolve
 tags:
 - Company

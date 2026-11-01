@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Public GraphQL Admin API for ikas stores — read and write products, variants, orders, transactions, customers, price lists, campaigns, coupons, stock locations, sales channels, storefronts, and webhoo
   name: ikas Admin API
   slug: ikas-admin-api
-artifact_total: 5
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Ikas Ikas Teknoloji As Webhooks
@@ -74,22 +76,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/ikascom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/authentication/ikas-ikas-teknoloji-as-authentication.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/authentication/ikas-ikas-teknoloji-as-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ikas-ikas-teknoloji-as-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/scopes/ikas-ikas-teknoloji-as-scopes.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/scopes/ikas-ikas-teknoloji-as-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ikas-ikas-teknoloji-as-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/conventions/ikas-ikas-teknoloji-as-conventions.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/conventions/ikas-ikas-teknoloji-as-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ikas-ikas-teknoloji-as-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/lifecycle/ikas-ikas-teknoloji-as-lifecycle.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/lifecycle/ikas-ikas-teknoloji-as-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ikas-ikas-teknoloji-as-lifecycle.yml
@@ -98,67 +100,67 @@ common:
   type: Deprecation
   url: https://builders.ikas.com/docs/app-development
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/asyncapi/ikas-ikas-teknoloji-as-webhooks.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/asyncapi/ikas-ikas-teknoloji-as-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ikas-ikas-teknoloji-as-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/mcp/ikas-ikas-teknoloji-as-mcp.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/mcp/ikas-ikas-teknoloji-as-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ikas-ikas-teknoloji-as-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/packages/ikas-ikas-teknoloji-as-packages.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/packages/ikas-ikas-teknoloji-as-packages.yml
   title: ''
   type: Packages
   url: packages/ikas-ikas-teknoloji-as-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/packages/ikas-ikas-teknoloji-as-packages.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/packages/ikas-ikas-teknoloji-as-packages.yml
   title: ''
   type: SDKs
   url: packages/ikas-ikas-teknoloji-as-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/cli/ikas-ikas-teknoloji-as-cli.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/cli/ikas-ikas-teknoloji-as-cli.yml
   title: ''
   type: CLI
   url: cli/ikas-ikas-teknoloji-as-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/components/ikas-ikas-teknoloji-as-components.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/components/ikas-ikas-teknoloji-as-components.yml
   title: ''
   type: Components
   url: components/ikas-ikas-teknoloji-as-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/conformance/ikas-ikas-teknoloji-as-conformance.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/conformance/ikas-ikas-teknoloji-as-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ikas-ikas-teknoloji-as-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/security/ikas-ikas-teknoloji-as-domain-security.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/security/ikas-ikas-teknoloji-as-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ikas-ikas-teknoloji-as-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/well-known/ikas-ikas-teknoloji-as-well-known.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/well-known/ikas-ikas-teknoloji-as-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ikas-ikas-teknoloji-as-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/data-model/ikas-ikas-teknoloji-as-data-model.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/data-model/ikas-ikas-teknoloji-as-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ikas-ikas-teknoloji-as-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/errors/ikas-ikas-teknoloji-as-problem-types.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/errors/ikas-ikas-teknoloji-as-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ikas-ikas-teknoloji-as-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/llms/ikas-ikas-teknoloji-as-llms.txt
+  href: https://artifacts.apis.io/ikas-ikas-teknoloji-as/llms/ikas-ikas-teknoloji-as-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ikas-ikas-teknoloji-as-llms.txt
@@ -177,7 +179,7 @@ overview: 'Ikas is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Ikas'' developer surface includes documentation, getting-started guide, sandbox, pricing, authentication, CLI, and 19 more developer resources.'
-random_paper: 14
+random_paper: 10
 scopes:
 - name: Ikas Ikas Teknoloji As Scopes
   scope_count: 10
@@ -185,7 +187,7 @@ scopes:
   summary_line: 10 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 38.3
+  composite: 38.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -193,20 +195,20 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 73.2
-    discoverability: 71.7
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - turkey
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 38.2
+  previous_composite: 38.1
   provenance:
     conformance: derived
     mcp: first-party
@@ -217,14 +219,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/screenshots/ikas-ikas-teknoloji-as-2026-07-25T222057.png
+screenshot: https://apis.io/screenshots/ikas-ikas-teknoloji-as/ikas-ikas-teknoloji-as-2026-07-25T222057.png
 security:
 - kind: authentication
   name: Ikas Ikas Teknoloji As Authentication
@@ -234,6 +236,14 @@ security:
   name: Ikas Ikas Teknoloji As Domain Security
   slug: ikas-ikas-teknoloji-as-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Process and fulfill orders
+  slug: ikas-ikas-teknoloji-as-order-fulfillment
+- name: Sync the product catalog
+  slug: ikas-ikas-teknoloji-as-product-catalog-sync
+- name: Manage webhook subscriptions
+  slug: ikas-ikas-teknoloji-as-webhook-subscriptions
 slug: ikas-ikas-teknoloji-as
 tags:
 - Company

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-17'
+  score: 21.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -209,7 +211,7 @@ apis:
   description: Webhook subscription management.
   name: Apex27 Webhooks API
   slug: apex27-webhooks-api
-artifact_total: 39
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Apex27 Webhooks
@@ -223,32 +225,32 @@ collections:
   slug: open-apex27-portal-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/overlays/apex27-crm-api-overlay.yaml
+  href: https://artifacts.apis.io/apex27/overlays/apex27-crm-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/apex27-crm-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/overlays/apex27-portal-api-overlay.yaml
+  href: https://artifacts.apis.io/apex27/overlays/apex27-portal-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/apex27-portal-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/mcp/apex27-mcp.yml
+  href: https://artifacts.apis.io/apex27/mcp/apex27-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/apex27-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/agentic-access/apex27-agentic-access.yml
+  href: https://artifacts.apis.io/apex27/agentic-access/apex27-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apex27-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/security/apex27-domain-security.yml
+  href: https://artifacts.apis.io/apex27/security/apex27-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apex27-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/authentication/apex27-authentication.yml
+  href: https://artifacts.apis.io/apex27/authentication/apex27-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apex27-authentication.yml
@@ -293,57 +295,57 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/apex27
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/packages/apex27-packages.yml
+  href: https://artifacts.apis.io/apex27/packages/apex27-packages.yml
   title: ''
   type: Packages
   url: packages/apex27-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/llms/apex27-llms.txt
+  href: https://artifacts.apis.io/apex27/llms/apex27-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apex27-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/conformance/apex27-conformance.yml
+  href: https://artifacts.apis.io/apex27/conformance/apex27-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apex27-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/errors/apex27-problem-types.yml
+  href: https://artifacts.apis.io/apex27/errors/apex27-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apex27-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/lifecycle/apex27-lifecycle.yml
+  href: https://artifacts.apis.io/apex27/lifecycle/apex27-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apex27-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/conventions/apex27-conventions.yml
+  href: https://artifacts.apis.io/apex27/conventions/apex27-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apex27-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/changelog/apex27-changelog.yml
+  href: https://artifacts.apis.io/apex27/changelog/apex27-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/apex27-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/data-model/apex27-data-model.yml
+  href: https://artifacts.apis.io/apex27/data-model/apex27-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apex27-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/vocabulary/apex27-vocabulary.yml
+  href: https://artifacts.apis.io/apex27/vocabulary/apex27-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/apex27-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/asyncapi/apex27-webhooks.yml
+  href: https://artifacts.apis.io/apex27/asyncapi/apex27-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/apex27-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/apex27/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -366,7 +368,7 @@ overview: 'Apex27 publishes 33 API contracts indexed on the [APIs.io](https://ap
 random_paper: 7
 score:
   band: thin
-  composite: 33.5
+  composite: 32.6
   coverage:
     artifact_dirs: 23
     catalog_earned: 38.3
@@ -374,13 +376,13 @@ score:
     catalog_gap: 76.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 8.3
-    contract_quality: 25.4
+    contract_quality: 22.1
     developer_ergonomics: 30.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -390,7 +392,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 33.4
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -407,13 +409,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/screenshots/apex27-2026-08-07T161440.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apex27/apex27-2026-08-07T161440.png
 security:
 - kind: authentication
   name: Apex27 Authentication
@@ -423,6 +426,18 @@ security:
   name: Apex27 Domain Security
   slug: apex27-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Capture a lead and book a viewing in Apex27
+  slug: apex27-capture-lead-and-book-viewing
+- name: Run Apex27 lettings management — tenancies, inspections, issues and keys
+  slug: apex27-manage-tenancies-and-issues
+- name: Search an Apex27 agency website and submit an enquiry
+  slug: apex27-portal-search-and-enquiry
+- name: Manage Apex27 webhook subscriptions
+  slug: apex27-subscribe-to-webhooks
+- name: Sync Apex27 listings into an external system
+  slug: apex27-sync-listings
 slug: apex27
 tags:
 - Real Estate

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'REST API for managing bills, vendors, payment methods, and scheduling payments. Supports ACH transfers, check payments, wire transfers, and international payments. Includes webhook support, a sandbox '
@@ -47,12 +49,12 @@ common:
   type: OpenIDConnect
   url: https://meliopayments.com/.well-known/oauth-authorization-server
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/melio/refs/heads/main/security/melio-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/melio/security/melio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/melio-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/melio/refs/heads/main/security/melio-domain-security.yml
+  href: https://artifacts.apis.io/melio/security/melio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/melio-domain-security.yml
@@ -89,17 +91,17 @@ common:
   type: X
   url: https://x.com/MelioPayments
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/melio/refs/heads/main/plans/melio-plans-pricing.yml
+  href: https://artifacts.apis.io/melio/plans/melio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/melio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/melio/refs/heads/main/rate-limits/melio-rate-limits.yml
+  href: https://artifacts.apis.io/melio/rate-limits/melio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/melio-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/melio/refs/heads/main/finops/melio-finops.yml
+  href: https://artifacts.apis.io/melio/finops/melio-finops.yml
   title: ''
   type: FinOps
   url: finops/melio-finops.yml
@@ -154,7 +156,7 @@ rate_limits:
   slug: melio-rate-limits
 score:
   band: thin
-  composite: 32.9
+  composite: 34.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 48.0
@@ -162,29 +164,29 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 34.7
-    developer_ergonomics: 25.0
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 38.5
+    developer_ergonomics: 28.6
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 34.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/melio/refs/heads/main/screenshots/melio-2026-06-20T185133.png
+screenshot: https://apis.io/screenshots/melio/melio-2026-06-20T185133.png
 security:
 - kind: domain-security
   name: Melio Domain Security

@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 38.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -78,11 +80,8 @@ apis:
   description: The Scenarios API from Make — 6 operation(s) for scenarios.
   name: Make Scenarios API
   slug: make-scenarios-api
-artifact_total: 37
+artifact_total: 36
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Make AI Agents API
   slug: open-make-ai-agents-api
@@ -100,17 +99,17 @@ collections:
   slug: open-make
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/plans/make-plans-pricing.yml
+  href: https://artifacts.apis.io/make/plans/make-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/make-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/rate-limits/make-rate-limits.yml
+  href: https://artifacts.apis.io/make/rate-limits/make-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/make-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/finops/make-finops.yml
+  href: https://artifacts.apis.io/make/finops/make-finops.yml
   title: ''
   type: FinOps
   url: finops/make-finops.yml
@@ -119,17 +118,17 @@ common:
   type: Website
   url: https://www.make.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/agentic-access/make-agentic-access.yml
+  href: https://artifacts.apis.io/make/agentic-access/make-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/make-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/security/make-domain-security.yml
+  href: https://artifacts.apis.io/make/security/make-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/make-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/authentication/make-authentication.yml
+  href: https://artifacts.apis.io/make/authentication/make-authentication.yml
   title: ''
   type: Authentication
   url: authentication/make-authentication.yml
@@ -230,12 +229,12 @@ features:
 - OAuth + API tokens
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Make Finops
   primary_unit: ''
-  service_category: iPaaS
+  service_category: ''
   slug: make-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/make.png
 layout: provider
 mcp_servers:
@@ -252,32 +251,32 @@ overview: 'Make publishes 8 API contracts indexed on the [APIs.io](https://apis.
   Make''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, signup flow, pricing, academy / training, and 19 more developer resources.'
 plans:
 - name: Make Plans Pricing
-  plan_count: 5
+  plan_count: 0
   slug: make-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Make Rate Limits
   slug: make-rate-limits
 score:
   band: developing
-  composite: 42.9
+  composite: 42.7
   coverage:
     artifact_dirs: 15
-    catalog_earned: 32.0
+    catalog_earned: 29.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 86.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -6.3
   facets:
-    access_clarity: 46.1
+    access_clarity: 44.7
     contract_governance: 0.0
-    contract_quality: 48.7
-    developer_ergonomics: 54.8
-    discoverability: 58.3
+    contract_quality: 45.3
+    developer_ergonomics: 57.1
+    discoverability: 55.4
     operational_transparency: 36.8
-  previous_composite: 44.4
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     contracts:
@@ -292,13 +291,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/screenshots/make-2026-06-20T184908.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/make/make-2026-06-20T184908.png
 security:
 - kind: authentication
   name: Make Authentication

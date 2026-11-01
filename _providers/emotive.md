@@ -26,17 +26,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.1
-  scored_at: '2026-10-17'
-api_count: 33
+  score: 41.0
+  scored_at: '2026-10-31'
+api_count: 13
 apis:
 - description: 'Anonymous remote MCP server published by Emotive''s Mintlify knowledge base. Three tools — documentation search, a read-only virtual filesystem over the docs, and documentation feedback. Verified live '
   name: Emotive Knowledge Base MCP Server
@@ -216,7 +218,7 @@ apis:
   description: The Oauth API from Emotive — 2 operation(s) for oauth.
   name: Emotive OAUTH API
   slug: emotive-oauth-api
-artifact_total: 42
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Emotive Webhooks
@@ -227,42 +229,42 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/privy/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/capabilities/emotive-capability-edges.yml
+  href: https://artifacts.apis.io/emotive/capabilities/emotive-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/emotive-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/overlays/emotive-open-api-overlay.yaml
+  href: https://artifacts.apis.io/emotive/overlays/emotive-open-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emotive-open-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/overlays/emotive-subscriber-engine-overlay.yaml
+  href: https://artifacts.apis.io/emotive/overlays/emotive-subscriber-engine-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emotive-subscriber-engine-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/overlays/emotive-sensus-webhook-overlay.yaml
+  href: https://artifacts.apis.io/emotive/overlays/emotive-sensus-webhook-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emotive-sensus-webhook-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/overlays/emotive-helpdesk-overlay.yaml
+  href: https://artifacts.apis.io/emotive/overlays/emotive-helpdesk-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emotive-helpdesk-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/overlays/emotive-auth-overlay.yaml
+  href: https://artifacts.apis.io/emotive/overlays/emotive-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emotive-auth-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/overlays/emotive-segments-overlay.yaml
+  href: https://artifacts.apis.io/emotive/overlays/emotive-segments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emotive-segments-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/overlays/emotive-experiences-overlay.yaml
+  href: https://artifacts.apis.io/emotive/overlays/emotive-experiences-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emotive-experiences-overlay.yaml
@@ -319,57 +321,57 @@ common:
   type: StatusPage
   url: https://status.emotive.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/lifecycle/emotive-lifecycle.yml
+  href: https://artifacts.apis.io/emotive/lifecycle/emotive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/emotive-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/security/emotive-domain-security.yml
+  href: https://artifacts.apis.io/emotive/security/emotive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/emotive-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/llms/emotive-llms.txt
+  href: https://artifacts.apis.io/emotive/llms/emotive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/emotive-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/well-known/emotive-well-known.yml
+  href: https://artifacts.apis.io/emotive/well-known/emotive-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/emotive-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/a2a/emotive-a2a.yml
+  href: https://artifacts.apis.io/emotive/a2a/emotive-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/emotive-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/emotive/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/conformance/emotive-conformance.yml
+  href: https://artifacts.apis.io/emotive/conformance/emotive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/emotive-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/conformance/emotive-conformance.yml
+  href: https://artifacts.apis.io/emotive/conformance/emotive-conformance.yml
   title: ''
   type: Compliance
   url: conformance/emotive-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/plans/emotive-plans-pricing.yml
+  href: https://artifacts.apis.io/emotive/plans/emotive-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/emotive-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/rate-limits/emotive-rate-limits.yml
+  href: https://artifacts.apis.io/emotive/rate-limits/emotive-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/emotive-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/components/emotive-components.yml
+  href: https://artifacts.apis.io/emotive/components/emotive-components.yml
   title: ''
   type: Components
   url: components/emotive-components.yml
@@ -380,6 +382,14 @@ common:
 created: '2026-07-17'
 description: 'Emotive is an SMS marketing platform for eCommerce brands, combining two-way conversational text messaging, behavioral triggers, and automation with a dedicated managed service (TextPros) of ex-agency SMS strategists and copywriters. Its products include SMS Marketing campaigns and flows, CartAI cart-recovery pixel technology, multi-touch Attribution analytics, RealLink branded short links, and integrations with eCommerce platforms, email service providers, and business tools. Emotive markets a "5X ROI guarantee" to Shopify and other direct-to-consumer merchants. The company was surfaced as a portfolio company of CRV and was acquired by Privy. Emotive runs a real, publicly documented developer surface: an Open API for order tracking, manual opt-outs and custom events on api.emotiveapp.co; a Lists / Subscriber API documented in GitBook; and an API gateway at api-gw.emotiveapp.co that serves five OpenAPI 3.0.2 documents (Helpdesk, Sensus Webhooks, Auth Server, Segments, Experiences).
   Its Mintlify knowledge base publishes an llms.txt, an A2A agent card, a packaged Agent Skill and an anonymous remote MCP server.'
+finops:
+- has_sources: true
+  method: derived
+  name: Emotive Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: emotive-finops
+  template: false
 image: https://www.emotive.io/assets/brand/emotive-symbol-blue-on-transparent.png
 layout: provider
 mcp_servers:
@@ -399,32 +409,35 @@ overview: 'Emotive publishes 36 API contracts indexed on the [APIs.io](https://a
   Emotive''s developer surface includes pricing, engineering blog, support, documentation, API reference, getting-started guide, and 28 more developer resources.'
 plans:
 - name: Emotive Plans Pricing
-  plan_count: 0
+  plan_count: 4
   slug: emotive-plans-pricing
-random_paper: 13
+- name: Emotive Price Estimates
+  plan_count: 0
+  slug: emotive-price-estimates
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Emotive Rate Limits
   slug: emotive-rate-limits
 score:
-  band: developing
-  composite: 48.9
+  band: strong
+  composite: 57.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 26
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 7.9
   facets:
-    access_clarity: 46.1
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 50.9
+    contract_quality: 49.6
     developer_ergonomics: 64.3
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 23.7
-  previous_composite: 49.0
+  previous_composite: 49.6
   provenance:
     conformance: first-party
     contracts:
@@ -440,13 +453,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/screenshots/emotive-2026-07-25T213253.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/emotive/emotive-2026-07-25T213253.png
 security:
 - kind: authentication
   name: Emotive Authentication
@@ -456,6 +470,18 @@ security:
   name: Emotive Domain Security
   slug: emotive-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 5
+skills:
+- name: emotive-connect-a-custom-helpdesk
+  slug: emotive-connect-a-custom-helpdesk
+- name: emotive-opt-in-a-subscriber
+  slug: emotive-opt-in-a-subscriber
+- name: Emotive
+  slug: emotive-provider-published-skill
+- name: emotive-track-an-order
+  slug: emotive-track-an-order
+- name: emotive-unsubscribe-and-events
+  slug: emotive-unsubscribe-and-events
 slug: emotive
 tags:
 - Company

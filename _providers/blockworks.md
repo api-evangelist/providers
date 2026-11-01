@@ -1,29 +1,32 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
-    mcp_server: false
+    idempotency: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.2
-  scored_at: '2026-10-17'
+  score: 53.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,80 +171,85 @@ apis:
   description: 'Discovery of the timeseries models: one series per entity, as points at the granularities each model declares.'
   name: Blockworks Time Series API
   slug: blockworks-time-series-api
-artifact_total: 38
+artifact_total: 40
 common:
+- group: commercial
+  href: https://artifacts.apis.io/blockworks/plans/blockworks-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/blockworks-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/agentic-access/blockworks-agentic-access.yml
+  href: https://artifacts.apis.io/blockworks/agentic-access/blockworks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blockworks-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/rules/blockworks-rules.yml
+  href: https://artifacts.apis.io/blockworks/rules/blockworks-rules.yml
   title: ''
   type: Spectral
   url: rules/blockworks-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/json-ld/blockworks-context.jsonld
+  href: https://artifacts.apis.io/blockworks/json-ld/blockworks-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/blockworks-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/vocabulary/blockworks-vocabulary.yml
+  href: https://artifacts.apis.io/blockworks/vocabulary/blockworks-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/blockworks-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/data-model/blockworks-data-model.yml
+  href: https://artifacts.apis.io/blockworks/data-model/blockworks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blockworks-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/conventions/blockworks-conventions.yml
+  href: https://artifacts.apis.io/blockworks/conventions/blockworks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blockworks-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/authentication/blockworks-authentication.yml
+  href: https://artifacts.apis.io/blockworks/authentication/blockworks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blockworks-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/errors/blockworks-problem-types.yml
+  href: https://artifacts.apis.io/blockworks/errors/blockworks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blockworks-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/conformance/blockworks-conformance.yml
+  href: https://artifacts.apis.io/blockworks/conformance/blockworks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blockworks-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/overlays/blockworks-data-api-overlay.yaml
+  href: https://artifacts.apis.io/blockworks/overlays/blockworks-data-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/blockworks-data-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/llms/blockworks-llms.txt
+  href: https://artifacts.apis.io/blockworks/llms/blockworks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blockworks-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/a2a/blockworks-a2a.yml
+  href: https://artifacts.apis.io/blockworks/a2a/blockworks-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/blockworks-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/well-known/blockworks-well-known.yml
+  href: https://artifacts.apis.io/blockworks/well-known/blockworks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blockworks-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/hosts/blockworks-hosts.yml
+  href: https://artifacts.apis.io/blockworks/hosts/blockworks-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blockworks-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/vendors/blockworks-vendors.yml
+  href: https://artifacts.apis.io/blockworks/vendors/blockworks-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blockworks-vendors.yml
@@ -278,7 +286,7 @@ common:
   type: APIReference
   url: https://docs.blockworks.com/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blockworks/refs/heads/main/security/blockworks-domain-security.yml
+  href: https://artifacts.apis.io/blockworks/security/blockworks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blockworks-domain-security.yml
@@ -297,6 +305,14 @@ coverage:
   state: none
 created: '2026-09-29'
 description: Blockworks provides analytics, research, and advisory services for on‑chain capital markets. It offers data products, price indexes, investor‑relations tools, and market insights covering a wide range of crypto assets. The company aims to build trust in decentralized finance by delivering transparent, high‑quality information to investors, institutions, and developers.
+finops:
+- has_sources: true
+  method: derived
+  name: Blockworks Finops
+  primary_unit: ''
+  service_category: ''
+  slug: blockworks-finops
+  template: true
 image: https://blockworks.com/_next/image?url=https%3A%2F%2Fblockworks.com%2Fimages%2Fshare-image.jpg&w=1920&q=75&webp=false
 json_schemas:
 - name: AssetsRow
@@ -333,8 +349,12 @@ overview: 'Blockworks publishes 27 API contracts indexed on the [APIs.io](https:
   The Blockworks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Blockworks'' developer surface includes authentication, pricing, getting-started guide, documentation, API reference, and 20 more developer resources.'
-random_paper: 11
+  Blockworks'' developer surface includes authentication, pricing, getting-started guide, documentation, API reference, and 21 more developer resources.'
+plans:
+- name: Blockworks Plans Pricing
+  plan_count: 3
+  slug: blockworks-plans-pricing
+random_paper: 9
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -350,23 +370,23 @@ rules:
   slug: blockworks-rules
 score:
   band: developing
-  composite: 42.3
+  composite: 47.9
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 57.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.3
+    artifact_dirs: 21
+    catalog_earned: 69.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.7
+  delta: 6.4
   facets:
-    access_clarity: 31.6
+    access_clarity: 63.2
     contract_governance: 22.0
     contract_quality: 66.0
     developer_ergonomics: 40.5
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 5.3
-  previous_composite: 41.6
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -382,13 +402,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Blockworks Authentication

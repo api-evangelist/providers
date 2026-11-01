@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.workwelltech.com
@@ -50,11 +52,8 @@ apis:
   description: User records for the uAttend account
   name: Workwell Technologies Users API
   slug: workwell-technologies-users-api
-artifact_total: 7
+artifact_total: 6
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WorkWell Technologies API (uAttend) Punch Reports API
   slug: open-workwell-technologies-punch-reports-api
@@ -66,12 +65,12 @@ collections:
   slug: open-workwell-technologies-users-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workwell-technologies/refs/heads/main/mcp/workwell-technologies-mcp.yml
+  href: https://artifacts.apis.io/workwell-technologies/mcp/workwell-technologies-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/workwell-technologies-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/workwell-technologies/refs/heads/main/overlays/workwell-technologies-uattend-overlay.yaml
+  href: https://artifacts.apis.io/workwell-technologies/overlays/workwell-technologies-uattend-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/workwell-technologies-uattend-overlay.yaml
@@ -115,12 +114,12 @@ overview: 'Workwell Technologies publishes 3 API contracts indexed on the [APIs.
 
 
   Workwell Technologies'' developer surface includes documentation, API reference, support, engineering blog, and 5 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: emerging
-  composite: 13.1
+  composite: 17.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -128,13 +127,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 15.0
-    developer_ergonomics: 21.4
-    discoverability: 73.2
+    developer_ergonomics: 23.8
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 13.1
+  previous_composite: 17.6
   provenance:
     contracts:
       callable: 100.0
@@ -147,14 +146,15 @@ score:
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
-    score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 3.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/workwell-technologies/refs/heads/main/screenshots/workwell-technologies-2026-09-02T170954.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/workwell-technologies/workwell-technologies-2026-09-02T170954.png
 slug: workwell-technologies
 tags:
 - Company

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Agent2Agent (A2A 1.0) surface: an agent card at https://www.elderlycarematch.com/.well-known/agent-card.json (version 1.5.3, one JSONRPC interface, also mirrored at the legacy /.well-known/agent.json)'
@@ -52,12 +54,12 @@ common:
   type: PrivacyPolicy
   url: https://www.elderlycarematch.com/privacy-policy
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/elderlycarematch-com/refs/heads/main/a2a/elderlycarematch-com-a2a.yml
+  href: https://artifacts.apis.io/elderlycarematch-com/a2a/elderlycarematch-com-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/elderlycarematch-com-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elderlycarematch-com/refs/heads/main/llms/elderlycarematch-com-llms.txt
+  href: https://artifacts.apis.io/elderlycarematch-com/llms/elderlycarematch-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/elderlycarematch-com-llms.txt
@@ -66,57 +68,57 @@ common:
   type: LLMsTxt
   url: https://www.elderlycarematch.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elderlycarematch-com/refs/heads/main/well-known/elderlycarematch-com-well-known.yml
+  href: https://artifacts.apis.io/elderlycarematch-com/well-known/elderlycarematch-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/elderlycarematch-com-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elderlycarematch-com/refs/heads/main/authentication/elderlycarematch-com-authentication.yml
+  href: https://artifacts.apis.io/elderlycarematch-com/authentication/elderlycarematch-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/elderlycarematch-com-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elderlycarematch-com/refs/heads/main/conventions/elderlycarematch-com-conventions.yml
+  href: https://artifacts.apis.io/elderlycarematch-com/conventions/elderlycarematch-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/elderlycarematch-com-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elderlycarematch-com/refs/heads/main/errors/elderlycarematch-com-problem-types.yml
+  href: https://artifacts.apis.io/elderlycarematch-com/errors/elderlycarematch-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/elderlycarematch-com-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elderlycarematch-com/refs/heads/main/conformance/elderlycarematch-com-conformance.yml
+  href: https://artifacts.apis.io/elderlycarematch-com/conformance/elderlycarematch-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/elderlycarematch-com-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elderlycarematch-com/refs/heads/main/lifecycle/elderlycarematch-com-lifecycle.yml
+  href: https://artifacts.apis.io/elderlycarematch-com/lifecycle/elderlycarematch-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/elderlycarematch-com-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/elderlycarematch-com/refs/heads/main/plans/elderlycarematch-com-plans-pricing.yml
+  href: https://artifacts.apis.io/elderlycarematch-com/plans/elderlycarematch-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/elderlycarematch-com-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/elderlycarematch-com/refs/heads/main/rate-limits/elderlycarematch-com-rate-limits.yml
+  href: https://artifacts.apis.io/elderlycarematch-com/rate-limits/elderlycarematch-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/elderlycarematch-com-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/elderlycarematch-com/refs/heads/main/packages/elderlycarematch-com-packages.yml
+  href: https://artifacts.apis.io/elderlycarematch-com/packages/elderlycarematch-com-packages.yml
   title: ''
   type: Packages
   url: packages/elderlycarematch-com-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elderlycarematch-com/refs/heads/main/security/elderlycarematch-com-domain-security.yml
+  href: https://artifacts.apis.io/elderlycarematch-com/security/elderlycarematch-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/elderlycarematch-com-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/elderlycarematch-com/refs/heads/main/regulatory/elderlycarematch-com-regulatory-posture.yml
+  href: https://artifacts.apis.io/elderlycarematch-com/regulatory/elderlycarematch-com-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/elderlycarematch-com-regulatory-posture.yml
@@ -153,7 +155,7 @@ plans:
 - name: Elderlycarematch Com Plans Pricing
   plan_count: 0
   slug: elderlycarematch-com-plans-pricing
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Elderlycarematch Com Rate Limits
@@ -192,14 +194,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/elderlycarematch-com/refs/heads/main/screenshots/elderlycarematch-com-2026-10-11T104101.png
+screenshot: https://apis.io/screenshots/elderlycarematch-com/elderlycarematch-com-2026-10-11T104101.png
 security:
 - kind: authentication
   name: Elderlycarematch Com Authentication

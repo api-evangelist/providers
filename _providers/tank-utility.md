@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://data.tankutility.com/api
@@ -54,9 +56,6 @@ arazzos:
 artifact_total: 8
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Tank Utility Propane Monitor Authentication API
   slug: open-tank-utility-authentication-api
 - collection_type: open
@@ -64,72 +63,72 @@ collections:
   slug: open-tank-utility-devices-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/mcp/tank-utility-mcp.yml
+  href: https://artifacts.apis.io/tank-utility/mcp/tank-utility-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tank-utility-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/security/tank-utility-domain-security.yml
+  href: https://artifacts.apis.io/tank-utility/security/tank-utility-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tank-utility-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/authentication/tank-utility-authentication.yml
+  href: https://artifacts.apis.io/tank-utility/authentication/tank-utility-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tank-utility-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/conventions/tank-utility-conventions.yml
+  href: https://artifacts.apis.io/tank-utility/conventions/tank-utility-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tank-utility-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/errors/tank-utility-error-codes.yml
+  href: https://artifacts.apis.io/tank-utility/errors/tank-utility-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/tank-utility-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/lifecycle/tank-utility-lifecycle.yml
+  href: https://artifacts.apis.io/tank-utility/lifecycle/tank-utility-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tank-utility-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/data-model/tank-utility-data-model.yml
+  href: https://artifacts.apis.io/tank-utility/data-model/tank-utility-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tank-utility-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/conformance/tank-utility-conformance.yml
+  href: https://artifacts.apis.io/tank-utility/conformance/tank-utility-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tank-utility-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/packages/tank-utility-packages.yml
+  href: https://artifacts.apis.io/tank-utility/packages/tank-utility-packages.yml
   title: ''
   type: Packages
   url: packages/tank-utility-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/cli/tank-utility-cli.yml
+  href: https://artifacts.apis.io/tank-utility/cli/tank-utility-cli.yml
   title: ''
   type: CLI
   url: cli/tank-utility-cli.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/overlays/tank-utility-devices-overlay.yaml
+  href: https://artifacts.apis.io/tank-utility/overlays/tank-utility-devices-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tank-utility-devices-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/llms/tank-utility-llms.txt
+  href: https://artifacts.apis.io/tank-utility/llms/tank-utility-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tank-utility-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tank-utility/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/arazzo/tank-utility-read-tank-level.yml
+  href: https://artifacts.apis.io/tank-utility/arazzo/tank-utility-read-tank-level.yml
   title: ''
   type: Arazzo
   url: arazzo/tank-utility-read-tank-level.yml
@@ -169,10 +168,10 @@ overview: 'Tank Utility publishes 2 API contracts indexed on the [APIs.io](https
 
 
   Tank Utility''s developer surface includes authentication, CLI, support, engineering blog, and 16 more developer resources.'
-random_paper: 9
+random_paper: 15
 score:
   band: emerging
-  composite: 22.9
+  composite: 24.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -182,13 +181,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 14.2
     developer_ergonomics: 28.0
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 22.9
+  previous_composite: 24.2
   provenance:
     conformance: derived
     contracts:
@@ -204,14 +203,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/screenshots/tank-utility-2026-09-02T162519.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tank-utility/tank-utility-2026-09-02T162519.png
 security:
 - kind: authentication
   name: Tank Utility Authentication
@@ -221,6 +220,10 @@ security:
   name: Tank Utility Domain Security
   slug: tank-utility-domain-security
   summary_line: TLSv1.3
+skill_count: 1
+skills:
+- name: Read propane tank level
+  slug: tank-utility-read-tank-level
 slug: tank-utility
 tags:
 - Propane

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: VistaCenter, VitalConnect's cloud clinician application, transmits events to third-party application servers by POSTing to a subscriber-supplied Target URL. Event classes are patient notifications, ne
@@ -68,37 +70,37 @@ common:
   type: Compliance
   url: https://vitalconnect.com/compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vitalconnect/refs/heads/main/asyncapi/vitalconnect-vistacenter-webhooks.yml
+  href: https://artifacts.apis.io/vitalconnect/asyncapi/vitalconnect-vistacenter-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vitalconnect-vistacenter-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vitalconnect/refs/heads/main/conventions/vitalconnect-conventions.yml
+  href: https://artifacts.apis.io/vitalconnect/conventions/vitalconnect-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vitalconnect-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vitalconnect/refs/heads/main/lifecycle/vitalconnect-lifecycle.yml
+  href: https://artifacts.apis.io/vitalconnect/lifecycle/vitalconnect-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vitalconnect-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vitalconnect/refs/heads/main/plans/vitalconnect-plans-pricing.yml
+  href: https://artifacts.apis.io/vitalconnect/plans/vitalconnect-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vitalconnect-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vitalconnect/refs/heads/main/rate-limits/vitalconnect-rate-limits.yml
+  href: https://artifacts.apis.io/vitalconnect/rate-limits/vitalconnect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vitalconnect-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vitalconnect/refs/heads/main/llms/vitalconnect-llms.txt
+  href: https://artifacts.apis.io/vitalconnect/llms/vitalconnect-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vitalconnect-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vitalconnect/refs/heads/main/security/vitalconnect-domain-security.yml
+  href: https://artifacts.apis.io/vitalconnect/security/vitalconnect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vitalconnect-domain-security.yml
@@ -142,7 +144,7 @@ plans:
 - name: Vitalconnect Plans Pricing
   plan_count: 0
   slug: vitalconnect-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Vitalconnect Rate Limits
@@ -151,7 +153,7 @@ score:
   band: emerging
   composite: 26.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -172,14 +174,14 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vitalconnect/refs/heads/main/screenshots/vitalconnect-2026-10-11T133048.png
+screenshot: https://apis.io/screenshots/vitalconnect/vitalconnect-2026-10-11T133048.png
 security:
 - kind: domain-security
   name: Vitalconnect Domain Security

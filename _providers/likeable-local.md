@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -57,22 +59,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/LikeableLocal
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/likeable-local/refs/heads/main/security/likeable-local-domain-security.yml
+  href: https://artifacts.apis.io/likeable-local/security/likeable-local-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/likeable-local-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/likeable-local/refs/heads/main/llms/likeable-local-llms.txt
+  href: https://artifacts.apis.io/likeable-local/llms/likeable-local-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/likeable-local-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/likeable-local/refs/heads/main/plans/likeable-local-plans-pricing.yml
+  href: https://artifacts.apis.io/likeable-local/plans/likeable-local-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/likeable-local-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/likeable-local/refs/heads/main/rate-limits/likeable-local-rate-limits.yml
+  href: https://artifacts.apis.io/likeable-local/rate-limits/likeable-local-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/likeable-local-rate-limits.yml
@@ -107,29 +109,29 @@ plans:
 - name: Likeable Local Plans Pricing
   plan_count: 0
   slug: likeable-local-plans-pricing
-random_paper: 7
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Likeable Local Rate Limits
   slug: likeable-local-rate-limits
 score:
   band: minimal
-  composite: 9.5
+  composite: 10.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -137,21 +139,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 9.4
+  previous_composite: 10.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/likeable-local/refs/heads/main/screenshots/likeable-local-2026-07-25T225142.png
+screenshot: https://apis.io/screenshots/likeable-local/likeable-local-2026-07-25T225142.png
 security:
 - kind: authentication
   name: Likeable Local Authentication

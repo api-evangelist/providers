@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.4
-  scored_at: '2026-10-17'
+  score: 36.1
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Open-source Model Context Protocol server, written in Go and published under MIT by Cyware Labs, that exposes Cyware Intel Exchange and Cyware Orchestrate to LLM agents as MCP tools. Self-hosted along
@@ -211,15 +213,12 @@ apis:
   description: Webhooks
   name: Cyware Webhooks API
   slug: cyware-webhooks-api
-artifact_total: 76
+artifact_total: 82
 asyncapis:
 - description: ''
   name: Cyware Orchestrate Webhooks
   slug: cyware-orchestrate-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cyware Intel Exchange (CTIX) v3 Open Administration API
   slug: open-cyware-administration-api
@@ -323,6 +322,11 @@ collections:
   name: Cyware Orchestrate (CO) Open Webhooks API
   slug: open-cyware-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/cyware/plans/cyware-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cyware-plans-pricing.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -388,93 +392,101 @@ common:
   type: Compliance
   url: https://www.cyware.com/compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/security/cyware-trust-center.yml
+  href: https://artifacts.apis.io/cyware/security/cyware-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cyware-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/llms/cyware-llms.txt
+  href: https://artifacts.apis.io/cyware/llms/cyware-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cyware-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/authentication/cyware-authentication.yml
+  href: https://artifacts.apis.io/cyware/authentication/cyware-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cyware-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/conventions/cyware-conventions.yml
+  href: https://artifacts.apis.io/cyware/conventions/cyware-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cyware-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/errors/cyware-problem-types.yml
+  href: https://artifacts.apis.io/cyware/errors/cyware-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cyware-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/lifecycle/cyware-lifecycle.yml
+  href: https://artifacts.apis.io/cyware/lifecycle/cyware-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cyware-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/changelog/cyware-changelog.yml
+  href: https://artifacts.apis.io/cyware/changelog/cyware-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cyware-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/conformance/cyware-conformance.yml
+  href: https://artifacts.apis.io/cyware/conformance/cyware-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cyware-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/packages/cyware-packages.yml
+  href: https://artifacts.apis.io/cyware/packages/cyware-packages.yml
   title: ''
   type: Packages
   url: packages/cyware-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/packages/cyware-packages.yml
+  href: https://artifacts.apis.io/cyware/packages/cyware-packages.yml
   title: ''
   type: SDKs
   url: packages/cyware-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/rate-limits/cyware-rate-limits.yml
+  href: https://artifacts.apis.io/cyware/rate-limits/cyware-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cyware-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/data-model/cyware-data-model.yml
+  href: https://artifacts.apis.io/cyware/data-model/cyware-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cyware-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/asyncapi/cyware-orchestrate-webhooks.yml
+  href: https://artifacts.apis.io/cyware/asyncapi/cyware-orchestrate-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cyware-orchestrate-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cyware/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/security/cyware-domain-security.yml
+  href: https://artifacts.apis.io/cyware/security/cyware-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cyware-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/overlays/cyware-intel-exchange-overlay.yaml
+  href: https://artifacts.apis.io/cyware/overlays/cyware-intel-exchange-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cyware-intel-exchange-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/overlays/cyware-orchestrate-overlay.yaml
+  href: https://artifacts.apis.io/cyware/overlays/cyware-orchestrate-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cyware-orchestrate-overlay.yaml
 created: '2026-08-04'
 description: Cyware is a New York-headquartered cybersecurity company, founded in 2016, that builds an AI-powered threat intelligence and security operations platform for enterprise SOC teams, ISACs and ISAOs, government agencies, CERTs and MSSPs. The Cyware Intelligence Suite spans Intel Exchange (its threat intelligence platform, formerly CTIX), Collaborate (bi-directional threat sharing for member communities), Orchestrate (security orchestration and automation), Respond (incident case management) and Cyware AI (agentic security analyst workflows). The platform ingests, deduplicates, enriches, scores and operationalizes structured and unstructured cyber threat intelligence using STIX 2.x, TAXII 2.x and MITRE ATT&CK, and pushes it into SIEM, EDR, firewall and ITSM tooling through 400+ integrations. Programmatic access is delivered through the Intel Exchange v3 Open API and the Orchestrate Open API — both tenant-hosted, both authenticated with HMAC-SHA1 signed Open API credentials — plus
   an open-source Model Context Protocol server that exposes threat-intelligence and playbook actions to LLM agents.
+finops:
+- has_sources: true
+  method: derived
+  name: Cyware Finops
+  primary_unit: ''
+  service_category: ''
+  slug: cyware-finops
+  template: true
 image: https://www.cyware.com/assets/images/cyware.svg
 layout: provider
 mcp_servers:
@@ -485,36 +497,40 @@ modified: '2026-09-16'
 name: Cyware
 nav: Providers
 network: true
-overview: 'Cyware publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Administration API, Allowed Indicators API, Analytics API, and 32 more. Tagged areas include Threat Intelligence, cyber-threat-intelligence, Cybersecurity, Security Operations, and Threat Intelligence Platform.
+overview: 'Cyware publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Administration API, Allowed Indicators API, Analytics API, and 32 more. Tagged areas include Threat Intelligence, Cybersecurity, Security Operations, Threat Intelligence Platform, and STIX.
 
 
   The Cyware catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cyware''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 13
+  Cyware''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+plans:
+- name: Cyware Plans Pricing
+  plan_count: 2
+  slug: cyware-plans-pricing
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Cyware Rate Limits
   slug: cyware-rate-limits
 score:
   band: developing
-  composite: 49.7
+  composite: 50.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 60.5
+    access_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 22.4
+    contract_quality: 21.1
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 36.8
+    discoverability: 65.0
+    operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -522,10 +538,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  open_source:
-    applies: true
-    score: 35.0
-  previous_composite: 49.6
+  previous_composite: 46.6
   provenance:
     conformance: first-party
     contracts:
@@ -541,13 +554,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/screenshots/cyware-2026-08-07T164015.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cyware/cyware-2026-08-07T164015.png
 security:
 - kind: authentication
   name: Cyware Authentication
@@ -561,10 +575,21 @@ security:
   name: Cyware Trust Center
   slug: cyware-trust-center
   summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, VPAT / Section 508, Privacy Shield
+skill_count: 5
+skills:
+- name: Manage the allowed-indicator (false-positive) list in Cyware Intel Exchange
+  slug: cyware-manage-allowed-indicators
+- name: Publish and share intel through Cyware Intel Exchange collections and TAXII
+  slug: cyware-publish-and-share-intel
+- name: Create intel in Cyware Intel Exchange with Quick Add Intel
+  slug: cyware-quick-add-intel
+- name: Run a Cyware Orchestrate playbook and read the result
+  slug: cyware-run-orchestrate-playbook
+- name: Triage an indicator in Cyware Intel Exchange
+  slug: cyware-triage-indicator
 slug: cyware
 tags:
 - Threat Intelligence
-- cyber-threat-intelligence
 - Cybersecurity
 - Security Operations
 - Threat Intelligence Platform

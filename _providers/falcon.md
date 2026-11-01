@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-17'
+  score: 28.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -250,48 +252,53 @@ apis:
   slug: falcon-view-amortisation-schedules-api
 artifact_total: 64
 common:
+- group: other
+  href: https://artifacts.apis.io/falcon/capabilities/falcon-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/falcon-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/agentic-access/falcon-agentic-access.yml
+  href: https://artifacts.apis.io/falcon/agentic-access/falcon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/falcon-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/rules/falcon-rules.yml
+  href: https://artifacts.apis.io/falcon/rules/falcon-rules.yml
   title: ''
   type: Spectral
   url: rules/falcon-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/json-ld/falcon-context.jsonld
+  href: https://artifacts.apis.io/falcon/json-ld/falcon-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/falcon-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/vocabulary/falcon-vocabulary.yml
+  href: https://artifacts.apis.io/falcon/vocabulary/falcon-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/falcon-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/data-model/falcon-data-model.yml
+  href: https://artifacts.apis.io/falcon/data-model/falcon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/falcon-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/errors/falcon-problem-types.yml
+  href: https://artifacts.apis.io/falcon/errors/falcon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/falcon-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/well-known/falcon-well-known.yml
+  href: https://artifacts.apis.io/falcon/well-known/falcon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/falcon-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/hosts/falcon-hosts.yml
+  href: https://artifacts.apis.io/falcon/hosts/falcon-hosts.yml
   title: ''
   type: Hosts
   url: hosts/falcon-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/vendors/falcon-vendors.yml
+  href: https://artifacts.apis.io/falcon/vendors/falcon-vendors.yml
   title: ''
   type: Vendors
   url: vendors/falcon-vendors.yml
@@ -340,42 +347,42 @@ common:
   type: Deprecation
   url: https://docs.falconfs.com/reference/versioning
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/authentication/falcon-authentication.yml
+  href: https://artifacts.apis.io/falcon/authentication/falcon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/falcon-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/conventions/falcon-conventions.yml
+  href: https://artifacts.apis.io/falcon/conventions/falcon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/falcon-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/lifecycle/falcon-lifecycle.yml
+  href: https://artifacts.apis.io/falcon/lifecycle/falcon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/falcon-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/conformance/falcon-conformance.yml
+  href: https://artifacts.apis.io/falcon/conformance/falcon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/falcon-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/errors/falcon-error-codes.yml
+  href: https://artifacts.apis.io/falcon/errors/falcon-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/falcon-error-codes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/sandbox/falcon-sandbox.yml
+  href: https://artifacts.apis.io/falcon/sandbox/falcon-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/falcon-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/security/falcon-domain-security.yml
+  href: https://artifacts.apis.io/falcon/security/falcon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/falcon-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/llms/falcon-llms.txt
+  href: https://artifacts.apis.io/falcon/llms/falcon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/falcon-llms.txt
@@ -453,8 +460,8 @@ overview: 'Falcon publishes 41 API contracts indexed on the [APIs.io](https://ap
   The Falcon catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Falcon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 11
+  Falcon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 22 more developer resources.'
+random_paper: 3
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -469,22 +476,22 @@ rules:
     warn: 5
   slug: falcon-rules
 score:
-  band: thin
-  composite: 35.7
+  band: developing
+  composite: 48.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 65.8
     catalog_earned_first_party: 0.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 17.2
+  delta: 0.0
   facets:
-    access_clarity: 3.9
+    access_clarity: 28.9
     contract_governance: 35.6
     contract_quality: 61.0
-    developer_ergonomics: 32.1
-    discoverability: 78.6
+    developer_ergonomics: 64.3
+    discoverability: 71.4
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -493,7 +500,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 18.5
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -508,14 +515,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 24.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 33.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/screenshots/falcon-2026-07-25T214200.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/falcon/falcon-2026-07-25T214200.png
 security:
 - kind: authentication
   name: Falcon Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -159,15 +161,12 @@ apis:
   description: The Tron API from Blockaid — 2 operation(s) for tron.
   name: Blockaid Tron API
   slug: blockaid-tron-api
-artifact_total: 51
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Blockaid Token Webhooks
   slug: blockaid-token-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Blockaid Asset Management API
   slug: open-blockaid-asset-management-api
@@ -239,7 +238,7 @@ collections:
   slug: open-blockaid-tron-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/capabilities/blockaid-capability-edges.yml
+  href: https://artifacts.apis.io/blockaid/capabilities/blockaid-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/blockaid-capability-edges.yml
@@ -256,7 +255,7 @@ common:
   type: APIReference
   url: https://docs.blockaid.io/reference/openapi-schema
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/openapi/_original/blockaid-openapi-original.yml
+  href: https://artifacts.apis.io/blockaid/openapi/_original/blockaid-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/blockaid-openapi-original.yml
@@ -285,77 +284,77 @@ common:
   type: PrivacyPolicy
   url: https://www.blockaid.io/legal/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/authentication/blockaid-authentication.yml
+  href: https://artifacts.apis.io/blockaid/authentication/blockaid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blockaid-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/agentic-access/blockaid-agentic-access.yml
+  href: https://artifacts.apis.io/blockaid/agentic-access/blockaid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blockaid-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/security/blockaid-domain-security.yml
+  href: https://artifacts.apis.io/blockaid/security/blockaid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blockaid-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/packages/blockaid-packages.yml
+  href: https://artifacts.apis.io/blockaid/packages/blockaid-packages.yml
   title: ''
   type: Packages
   url: packages/blockaid-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/packages/blockaid-packages.yml
+  href: https://artifacts.apis.io/blockaid/packages/blockaid-packages.yml
   title: ''
   type: SDKs
   url: packages/blockaid-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/mcp/blockaid-mcp.yml
+  href: https://artifacts.apis.io/blockaid/mcp/blockaid-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/blockaid-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/llms/blockaid-llms.txt
+  href: https://artifacts.apis.io/blockaid/llms/blockaid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blockaid-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/overlays/blockaid-openapi-overlay.yaml
+  href: https://artifacts.apis.io/blockaid/overlays/blockaid-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/blockaid-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/conformance/blockaid-conformance.yml
+  href: https://artifacts.apis.io/blockaid/conformance/blockaid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blockaid-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/errors/blockaid-problem-types.yml
+  href: https://artifacts.apis.io/blockaid/errors/blockaid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blockaid-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/lifecycle/blockaid-lifecycle.yml
+  href: https://artifacts.apis.io/blockaid/lifecycle/blockaid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blockaid-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/conventions/blockaid-conventions.yml
+  href: https://artifacts.apis.io/blockaid/conventions/blockaid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blockaid-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/data-model/blockaid-data-model.yml
+  href: https://artifacts.apis.io/blockaid/data-model/blockaid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blockaid-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/asyncapi/blockaid-token-webhooks.yml
+  href: https://artifacts.apis.io/blockaid/asyncapi/blockaid-token-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/blockaid-token-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/blockaid/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -374,12 +373,12 @@ overview: 'Blockaid publishes 23 API contracts indexed on the [APIs.io](https://
 
 
   Blockaid''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 21 more developer resources.'
-random_paper: 11
+random_paper: 9
 score:
   band: thin
-  composite: 35.7
+  composite: 39.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -389,11 +388,11 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 59.5
-    developer_ergonomics: 28.0
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 35.7
+    contract_quality: 58.8
+    developer_ergonomics: 44.6
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -410,13 +409,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/screenshots/blockaid-2026-07-25T203339.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/blockaid/blockaid-2026-07-25T203339.png
 security:
 - kind: authentication
   name: Blockaid Authentication
@@ -426,6 +426,14 @@ security:
   name: Blockaid Domain Security
   slug: blockaid-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Screen an address for risk and compliance exposure
+  slug: blockaid-address-risk-screening
+- name: Scan an EVM transaction before signing
+  slug: blockaid-scan-evm-transaction
+- name: Screen a dApp site and token before interacting
+  slug: blockaid-screen-site-and-token
 slug: blockaid
 tags:
 - Company

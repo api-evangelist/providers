@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -61,17 +63,17 @@ common:
   type: Compliance
   url: https://trust.outverse.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/outverse/refs/heads/main/security/outverse-trust-center.yml
+  href: https://artifacts.apis.io/outverse/security/outverse-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/outverse-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/outverse/refs/heads/main/security/outverse-domain-security.yml
+  href: https://artifacts.apis.io/outverse/security/outverse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/outverse-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/outverse/refs/heads/main/llms/outverse-llms.txt
+  href: https://artifacts.apis.io/outverse/llms/outverse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/outverse-llms.txt
@@ -87,10 +89,10 @@ overview: 'Outverse is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Outverse''s developer surface includes support and 8 more developer resources.'
-random_paper: 13
+random_paper: 5
 score:
   band: emerging
-  composite: 11.8
+  composite: 13.7
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -98,29 +100,29 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 12.2
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 13.7
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 17.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/outverse/refs/heads/main/screenshots/outverse-2026-08-07T191119.png
+screenshot: https://apis.io/screenshots/outverse/outverse-2026-08-07T191119.png
 security:
 - kind: domain-security
   name: Outverse Domain Security

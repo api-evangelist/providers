@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-10-17'
+  score: 24.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -95,7 +97,7 @@ apis:
   description: Manage webhook endpoints that receive events via HTTP calls, with support for authentication and custom listeners.
   name: PolyAPI Webhooks API
   slug: polyapi-webhooks-api
-artifact_total: 144
+artifact_total: 143
 collections:
 - collection_type: postman
   name: PolyAPI Platform API Functions API
@@ -127,9 +129,6 @@ collections:
 - collection_type: postman
   name: PolyAPI Platform API Functions Webhooks API
   slug: postman-polyapi-webhooks-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PolyAPI Platform API Functions API
   slug: open-polyapi-api-functions-api
@@ -164,18 +163,23 @@ collections:
   name: PolyAPI Platform API Functions Webhooks API
   slug: open-polyapi-webhooks-api
 common:
+- group: other
+  href: https://artifacts.apis.io/polyapi/capabilities/polyapi-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/polyapi-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/plans/polyapi-plans-pricing.yml
+  href: https://artifacts.apis.io/polyapi/plans/polyapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/polyapi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/rate-limits/polyapi-rate-limits.yml
+  href: https://artifacts.apis.io/polyapi/rate-limits/polyapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/polyapi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/finops/polyapi-finops.yml
+  href: https://artifacts.apis.io/polyapi/finops/polyapi-finops.yml
   title: ''
   type: FinOps
   url: finops/polyapi-finops.yml
@@ -184,17 +188,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/polyapi/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/agentic-access/polyapi-agentic-access.yml
+  href: https://artifacts.apis.io/polyapi/agentic-access/polyapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/polyapi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/security/polyapi-domain-security.yml
+  href: https://artifacts.apis.io/polyapi/security/polyapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/polyapi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/authentication/polyapi-authentication.yml
+  href: https://artifacts.apis.io/polyapi/authentication/polyapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/polyapi-authentication.yml
@@ -369,7 +373,7 @@ finops:
 - has_sources: false
   method: generated
   name: Polyapi Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: polyapi-finops
   template: true
@@ -421,12 +425,12 @@ overview: 'PolyAPI publishes 10 API contracts indexed on the [APIs.io](https://a
   The PolyAPI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PolyAPI''s developer surface includes authentication, pricing, changelog, documentation, getting-started guide, engineering blog, signup flow, and 24 more developer resources.'
+  PolyAPI''s developer surface includes authentication, pricing, changelog, documentation, getting-started guide, engineering blog, signup flow, and 25 more developer resources.'
 plans:
 - name: Polyapi Plans Pricing
   plan_count: 3
   slug: polyapi-plans-pricing
-random_paper: 18
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Polyapi Rate Limits
@@ -445,23 +449,23 @@ rules:
   slug: polyapi-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.9
+  composite: 46.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 58.3
     catalog_earned_first_party: 0.0
     catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 9.8
-    contract_quality: 65.9
+    contract_quality: 62.5
     developer_ergonomics: 44.0
     discoverability: 64.3
-    operational_transparency: 55.3
-  previous_composite: 47.4
+    operational_transparency: 57.9
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     contracts:
@@ -475,13 +479,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/screenshots/polyapi-2026-06-20T191900.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/polyapi/polyapi-2026-06-20T191900.png
 security:
 - kind: authentication
   name: Polyapi Authentication

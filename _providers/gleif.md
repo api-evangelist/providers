@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.4
-  scored_at: '2026-10-17'
+  score: 27.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,11 +70,8 @@ apis:
   description: Search and autocomplete operations
   name: GLEIF Search API
   slug: gleif-search-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: GLEIF LEI Corporate Relationships API
   slug: open-gleif-corporate-relationships-api
@@ -90,17 +89,17 @@ collections:
   slug: open-gleif-search-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/capabilities/gleif-capability-edges.yml
+  href: https://artifacts.apis.io/gleif/capabilities/gleif-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gleif-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/agentic-access/gleif-agentic-access.yml
+  href: https://artifacts.apis.io/gleif/agentic-access/gleif-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gleif-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/security/gleif-domain-security.yml
+  href: https://artifacts.apis.io/gleif/security/gleif-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gleif-domain-security.yml
@@ -137,27 +136,27 @@ common:
   type: X
   url: https://twitter.com/gleif
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/plans/gleif-plans-pricing.yml
+  href: https://artifacts.apis.io/gleif/plans/gleif-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gleif-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/rate-limits/gleif-rate-limits.yml
+  href: https://artifacts.apis.io/gleif/rate-limits/gleif-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gleif-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/finops/gleif-finops.yml
+  href: https://artifacts.apis.io/gleif/finops/gleif-finops.yml
   title: ''
   type: FinOps
   url: finops/gleif-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/vocabulary/gleif-vocabulary.yml
+  href: https://artifacts.apis.io/gleif/vocabulary/gleif-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/gleif-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/json-ld/gleif-context.jsonld
+  href: https://artifacts.apis.io/gleif/json-ld/gleif-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/gleif-context.jsonld
@@ -204,7 +203,7 @@ plans:
 - name: Gleif Plans Pricing
   plan_count: 1
   slug: gleif-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Gleif Rate Limits
@@ -225,13 +224,13 @@ score:
   band: thin
   composite: 33.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 62.2
     catalog_earned_first_party: 0.0
     catalog_gap: 52.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 23.5
@@ -239,7 +238,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 39.1
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -253,14 +252,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/screenshots/gleif-2026-06-20T181909.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gleif/gleif-2026-06-20T181909.png
 security:
 - kind: domain-security
   name: Gleif Domain Security

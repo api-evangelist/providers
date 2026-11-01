@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.5
-  scored_at: '2026-10-17'
+  score: 38.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.rilldata.com
@@ -41,22 +43,24 @@ apis:
   description: The Orgs API from Rill Data — 17 operation(s) for orgs.
   name: Rill Data Orgs API
   slug: rill-data-orgs-api
-artifact_total: 8
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rill Admin Orgs API
   slug: open-rill-data-orgs-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/rill-data/plans/rill-data-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rill-data-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/capabilities/rill-data-capability-edges.yml
+  href: https://artifacts.apis.io/rill-data/capabilities/rill-data-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rill-data-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/overlays/rill-data-admin-overlay.yaml
+  href: https://artifacts.apis.io/rill-data/overlays/rill-data-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rill-data-admin-overlay.yaml
@@ -113,52 +117,52 @@ common:
   type: StatusPage
   url: https://status.rilldata.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/lifecycle/rill-data-lifecycle.yml
+  href: https://artifacts.apis.io/rill-data/lifecycle/rill-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rill-data-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/changelog/rill-data-changelog.yml
+  href: https://artifacts.apis.io/rill-data/changelog/rill-data-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rill-data-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/cli/rill-data-cli.yml
+  href: https://artifacts.apis.io/rill-data/cli/rill-data-cli.yml
   title: ''
   type: CLI
   url: cli/rill-data-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/packages/rill-data-packages.yml
+  href: https://artifacts.apis.io/rill-data/packages/rill-data-packages.yml
   title: ''
   type: Packages
   url: packages/rill-data-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/mcp/rill-data-mcp.yml
+  href: https://artifacts.apis.io/rill-data/mcp/rill-data-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/rill-data-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rill-data/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/sandbox/rill-data-sandbox.yml
+  href: https://artifacts.apis.io/rill-data/sandbox/rill-data-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/rill-data-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/llms/rill-data-llms.txt
+  href: https://artifacts.apis.io/rill-data/llms/rill-data-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rill-data-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/well-known/rill-data-well-known.yml
+  href: https://artifacts.apis.io/rill-data/well-known/rill-data-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rill-data-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/conformance/rill-data-conformance.yml
+  href: https://artifacts.apis.io/rill-data/conformance/rill-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rill-data-conformance.yml
@@ -167,17 +171,25 @@ common:
   type: Compliance
   url: https://trust.rilldata.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/security/rill-data-trust-center.yml
+  href: https://artifacts.apis.io/rill-data/security/rill-data-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rill-data-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/security/rill-data-domain-security.yml
+  href: https://artifacts.apis.io/rill-data/security/rill-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rill-data-domain-security.yml
 created: '2026-07-17'
 description: Rill Data builds Rill, an operational business-intelligence tool for fast, exploratory dashboards on large event and time-series data. Developers connect data sources, model last-mile transformations in SQL/YAML, define a governed metrics layer, and publish interactive dashboards — locally with the free Rill Developer app or hosted on Rill Cloud. Rill is open source (Go/TypeScript) and exposes a Protobuf-defined admin API over gRPC/Connect and JSON/HTTP at api.rilldata.com, a first-party CLI, embeddable dashboards, custom data APIs, and an official hosted Model Context Protocol (MCP) server that lets LLMs query its governed metrics views. Rill Data is a portfolio company of Bloomberg Beta, DCVC, and Sierra Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Rill Data Finops
+  primary_unit: seat
+  service_category: ''
+  slug: rill-data-finops
+  template: false
 image: https://www.rilldata.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -191,32 +203,39 @@ network: true
 overview: 'Rill Data publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Orgs API. Tagged areas include Company, Analytics, Business Intelligence, Dashboards, and Metrics.
 
 
-  Rill Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 10
+  Rill Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
+plans:
+- name: Rill Data Plans Pricing
+  plan_count: 3
+  slug: rill-data-plans-pricing
+- name: Rill Data Price Estimates
+  plan_count: 0
+  slug: rill-data-price-estimates
+random_paper: 2
 scopes:
 - name: Rill Data Scopes
   scope_count: 1
   slug: rill-data-scopes
   summary_line: 1 scope · authorizationCode/deviceCode
 score:
-  band: developing
-  composite: 46.1
+  band: strong
+  composite: 57.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 36.8
+    access_clarity: 89.5
     contract_governance: 18.2
-    contract_quality: 38.9
-    developer_ergonomics: 66.1
-    discoverability: 68.3
-    operational_transparency: 34.2
-  previous_composite: 46.0
+    contract_quality: 35.5
+    developer_ergonomics: 73.2
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 50.0
   provenance:
     conformance: first-party
     contracts:
@@ -232,13 +251,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rill-data/refs/heads/main/screenshots/rill-data-2026-08-17T081604.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rill-data/rill-data-2026-08-17T081604.png
 security:
 - kind: authentication
   name: Rill Data Authentication
@@ -252,6 +272,12 @@ security:
   name: Rill Data Trust Center
   slug: rill-data-trust-center
   summary_line: SOC 2
+skill_count: 2
+skills:
+- name: Provision a Rill org, project, and members
+  slug: rill-data-manage-project
+- name: Query Rill metrics views
+  slug: rill-data-query-metrics
 slug: rill-data
 tags:
 - Company

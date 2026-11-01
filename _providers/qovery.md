@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.6
-  scored_at: '2026-10-17'
+  score: 46.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 268
   human_in_the_loop: 23
@@ -516,11 +518,8 @@ apis:
   description: The Variable Main Calls API from Qovery — 5 operation(s) for variable main calls.
   name: Qovery Variable Main Calls API
   slug: qovery-variable-main-calls-api
-artifact_total: 206
+artifact_total: 205
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Qovery Account Info API
   slug: open-qovery-account-info-api
@@ -805,42 +804,42 @@ collections:
   slug: open-qovery-variable-main-calls-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/plans/qovery-plans-pricing.yml
+  href: https://artifacts.apis.io/qovery/plans/qovery-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qovery-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/rate-limits/qovery-rate-limits.yml
+  href: https://artifacts.apis.io/qovery/rate-limits/qovery-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qovery-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/finops/qovery-finops.yml
+  href: https://artifacts.apis.io/qovery/finops/qovery-finops.yml
   title: ''
   type: FinOps
   url: finops/qovery-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/capabilities/qovery-capability-edges.yml
+  href: https://artifacts.apis.io/qovery/capabilities/qovery-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/qovery-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/agentic-access/qovery-agentic-access.yml
+  href: https://artifacts.apis.io/qovery/agentic-access/qovery-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/qovery-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/security/qovery-trust-center.yml
+  href: https://artifacts.apis.io/qovery/security/qovery-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/qovery-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/security/qovery-domain-security.yml
+  href: https://artifacts.apis.io/qovery/security/qovery-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qovery-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/authentication/qovery-authentication.yml
+  href: https://artifacts.apis.io/qovery/authentication/qovery-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qovery-authentication.yml
@@ -931,13 +930,13 @@ common:
 created: '2026-03-27'
 description: Qovery is an internal developer platform that simplifies cloud deployment and infrastructure management, enabling developers to self-serve environments on AWS, GCP, and Azure.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Qovery Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: 20 users
+  service_category: ''
   slug: qovery-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qovery.png
 layout: provider
 mcp_servers:
@@ -959,30 +958,30 @@ plans:
 - name: Qovery Price Estimates
   plan_count: 0
   slug: qovery-price-estimates
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Qovery Rate Limits
   slug: qovery-rate-limits
 score:
   band: developing
-  composite: 41.0
+  composite: 53.9
   coverage:
     artifact_dirs: 16
-    catalog_earned: 47.0
+    catalog_earned: 50.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 68.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 57.9
     contract_governance: 0.0
-    contract_quality: 52.6
-    developer_ergonomics: 39.8
-    discoverability: 51.7
-    operational_transparency: 31.6
-  previous_composite: 42.5
+    contract_quality: 49.2
+    developer_ergonomics: 87.4
+    discoverability: 48.2
+    operational_transparency: 57.9
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     contracts:
@@ -997,13 +996,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/screenshots/qovery-2026-06-20T192353.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/qovery/qovery-2026-06-20T192353.png
 security:
 - kind: authentication
   name: Qovery Authentication

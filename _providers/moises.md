@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 23.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.music.ai/v1
@@ -56,11 +58,8 @@ apis:
   description: List the workflows configured in your account.
   name: Moises Workflows API
   slug: moises-workflows-api
-artifact_total: 11
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Music AI Application API
   slug: open-moises-application-api
@@ -75,7 +74,7 @@ collections:
   slug: open-moises-workflows-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/plans/moises-plans-pricing.yml
+  href: https://artifacts.apis.io/moises/plans/moises-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moises-plans-pricing.yml
@@ -120,77 +119,85 @@ common:
   type: GitHubOrganization
   url: https://github.com/moises-ai
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/openapi/_original/moises-music-ai-openapi.yml
+  href: https://artifacts.apis.io/moises/openapi/_original/moises-music-ai-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/moises-music-ai-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/authentication/moises-authentication.yml
+  href: https://artifacts.apis.io/moises/authentication/moises-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moises-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/packages/moises-packages.yml
+  href: https://artifacts.apis.io/moises/packages/moises-packages.yml
   title: ''
   type: Packages
   url: packages/moises-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/packages/moises-packages.yml
+  href: https://artifacts.apis.io/moises/packages/moises-packages.yml
   title: ''
   type: SDKs
   url: packages/moises-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/cli/moises-cli.yml
+  href: https://artifacts.apis.io/moises/cli/moises-cli.yml
   title: ''
   type: CLI
   url: cli/moises-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/mcp/moises-mcp.yml
+  href: https://artifacts.apis.io/moises/mcp/moises-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/moises-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/llms/moises-llms.txt
+  href: https://artifacts.apis.io/moises/llms/moises-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moises-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/overlays/moises-music-ai-overlay.yaml
+  href: https://artifacts.apis.io/moises/overlays/moises-music-ai-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/moises-music-ai-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/conformance/moises-conformance.yml
+  href: https://artifacts.apis.io/moises/conformance/moises-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moises-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/errors/moises-error-codes.yml
+  href: https://artifacts.apis.io/moises/errors/moises-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/moises-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/lifecycle/moises-lifecycle.yml
+  href: https://artifacts.apis.io/moises/lifecycle/moises-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moises-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/conventions/moises-conventions.yml
+  href: https://artifacts.apis.io/moises/conventions/moises-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moises-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/data-model/moises-data-model.yml
+  href: https://artifacts.apis.io/moises/data-model/moises-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moises-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/moises/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Moises is the creative suite for musicians from Music AI, Inc., serving more than 70 million musicians worldwide with AI-powered tools for practice, performance, and creation — stem separation to isolate vocals and instruments, chord and key detection, AI-generated stems, and voice synthesis across web, desktop, iOS, and Android. The same models power the Music AI developer platform (music.ai, formerly reached at developer.moises.ai), a B2B REST API that exposes those capabilities as composable Modules assembled into Workflows and executed as asynchronous Jobs. Developers upload audio to temporary storage, submit a job against a workflow, and poll for results, with official Node.js and Python SDKs and a command-line client. Moises won iPad App of the Year (2024) and was an Apple Design Awards finalist (2025), and is backed by Norwest Venture Partners.
+finops:
+- has_sources: true
+  method: derived
+  name: Moises Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: moises-finops
+  template: false
 image: https://music.ai/favicon.ico
 layout: provider
 modified: '2026-07-20'
@@ -205,26 +212,29 @@ plans:
 - name: Moises Plans Pricing
   plan_count: 3
   slug: moises-plans-pricing
-random_paper: 18
+- name: Moises Price Estimates
+  plan_count: 0
+  slug: moises-price-estimates
+random_paper: 8
 score:
   band: developing
-  composite: 45.1
+  composite: 47.0
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 55.3
+    access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 50.5
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 38.7
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -240,18 +250,25 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/screenshots/moises-2026-08-07T184046.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/moises/moises-2026-08-07T184046.png
 security:
 - kind: authentication
   name: Moises Authentication
   slug: moises-authentication
   summary_line: apiKey · 1 scheme
+skill_count: 2
+skills:
+- name: Discover workflows and manage jobs
+  slug: moises-manage-jobs
+- name: Separate stems with Music AI
+  slug: moises-separate-stems
 slug: moises
 tags:
 - Company

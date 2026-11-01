@@ -4,6 +4,6 @@ layout: provider
 name: cplusplus
 nav: Providers
 network: true
-random_paper: 13
+random_paper: 19
 slug: cplusplus
 ---

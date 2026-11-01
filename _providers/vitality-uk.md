@@ -31,6 +31,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -38,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Vitality's production API gateway, running WSO2 API Manager at apis.vitality.co.uk (origin wso2-prd-apigw.tvc.vitality.co.uk:8243 behind an AWS load balancer in eu-west-1). The gateway is publicly res
@@ -47,7 +49,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vitality-uk/refs/heads/main/security/vitality-uk-domain-security.yml
+  href: https://artifacts.apis.io/vitality-uk/security/vitality-uk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vitality-uk-domain-security.yml
@@ -76,47 +78,47 @@ common:
   type: TermsOfService
   url: https://www.vitality.co.uk/legal/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vitality-uk/refs/heads/main/authentication/vitality-uk-authentication.yml
+  href: https://artifacts.apis.io/vitality-uk/authentication/vitality-uk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vitality-uk-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vitality-uk/refs/heads/main/scopes/vitality-uk-scopes.yml
+  href: https://artifacts.apis.io/vitality-uk/scopes/vitality-uk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vitality-uk-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vitality-uk/refs/heads/main/well-known/vitality-uk-openid-configuration.json
+  href: https://artifacts.apis.io/vitality-uk/well-known/vitality-uk-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/vitality-uk-openid-configuration.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vitality-uk/refs/heads/main/well-known/vitality-uk-well-known.yml
+  href: https://artifacts.apis.io/vitality-uk/well-known/vitality-uk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vitality-uk-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vitality-uk/refs/heads/main/conformance/vitality-uk-conformance.yml
+  href: https://artifacts.apis.io/vitality-uk/conformance/vitality-uk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vitality-uk-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vitality-uk/refs/heads/main/errors/vitality-uk-problem-types.yml
+  href: https://artifacts.apis.io/vitality-uk/errors/vitality-uk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vitality-uk-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vitality-uk/refs/heads/main/conventions/vitality-uk-conventions.yml
+  href: https://artifacts.apis.io/vitality-uk/conventions/vitality-uk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vitality-uk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vitality-uk/refs/heads/main/lifecycle/vitality-uk-lifecycle.yml
+  href: https://artifacts.apis.io/vitality-uk/lifecycle/vitality-uk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vitality-uk-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vitality-uk/refs/heads/main/llms/vitality-uk-llms.txt
+  href: https://artifacts.apis.io/vitality-uk/llms/vitality-uk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vitality-uk-llms.txt
@@ -133,7 +135,7 @@ overview: 'Vitality is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Vitality''s developer surface includes support, authentication, and 14 more developer resources.'
-random_paper: 11
+random_paper: 3
 scopes:
 - name: Vitality Uk Scopes
   scope_count: 5
@@ -141,7 +143,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 20.4
+  composite: 20.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -155,8 +157,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -165,7 +167,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 20.4
+  previous_composite: 20.1
   provenance:
     conformance: first-party
   regulatory:
@@ -174,14 +176,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vitality-uk/refs/heads/main/screenshots/vitality-uk-2026-09-02T170104.png
+screenshot: https://apis.io/screenshots/vitality-uk/vitality-uk-2026-09-02T170104.png
 security:
 - kind: authentication
   name: Vitality Uk Authentication

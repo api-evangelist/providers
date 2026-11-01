@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Search the marketplace across media types.
   name: Motion Elements Search API
   slug: motion-elements-search-api
-artifact_total: 12
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MotionElements Marketplace Account API
   slug: open-motion-elements-account-api
@@ -83,22 +82,27 @@ collections:
   slug: open-motion-elements-search-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/overlays/motion-elements-openapi-overlay.yaml
+  href: https://artifacts.apis.io/motion-elements/capabilities/motion-elements-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/motion-elements-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/motion-elements/overlays/motion-elements-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/motion-elements-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/security/motion-elements-domain-security.yml
+  href: https://artifacts.apis.io/motion-elements/security/motion-elements-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/motion-elements-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/agentic-access/motion-elements-agentic-access.yml
+  href: https://artifacts.apis.io/motion-elements/agentic-access/motion-elements-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/motion-elements-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/authentication/motion-elements-authentication.yml
+  href: https://artifacts.apis.io/motion-elements/authentication/motion-elements-authentication.yml
   title: ''
   type: Authentication
   url: authentication/motion-elements-authentication.yml
@@ -107,37 +111,37 @@ common:
   type: Website
   url: https://motionelements.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/conventions/motion-elements-conventions.yml
+  href: https://artifacts.apis.io/motion-elements/conventions/motion-elements-conventions.yml
   title: ''
   type: Conventions
   url: conventions/motion-elements-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/conformance/motion-elements-conformance.yml
+  href: https://artifacts.apis.io/motion-elements/conformance/motion-elements-conformance.yml
   title: ''
   type: Conformance
   url: conformance/motion-elements-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/lifecycle/motion-elements-lifecycle.yml
+  href: https://artifacts.apis.io/motion-elements/lifecycle/motion-elements-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/motion-elements-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/mcp/motion-elements-mcp.yml
+  href: https://artifacts.apis.io/motion-elements/mcp/motion-elements-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/motion-elements-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/llms/motion-elements-llms.txt
+  href: https://artifacts.apis.io/motion-elements/llms/motion-elements-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/motion-elements-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/data-model/motion-elements-data-model.yml
+  href: https://artifacts.apis.io/motion-elements/data-model/motion-elements-data-model.yml
   title: ''
   type: DataModel
   url: data-model/motion-elements-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/motion-elements/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -200,27 +204,27 @@ network: true
 overview: 'Motion Elements publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Media types API, and 2 more. Tagged areas include Media, Stock Media, Video, Music, and Sound Effects.
 
 
-  Motion Elements'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 17 more developer resources.'
-random_paper: 6
+  Motion Elements'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 18 more developer resources.'
+random_paper: 8
 score:
   band: developing
-  composite: 41.0
+  composite: 43.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 50.9
-    developer_ergonomics: 55.4
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 41.3
+    developer_ergonomics: 63.7
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,13 +241,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/screenshots/motion-elements-2026-08-07T184326.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/motion-elements/motion-elements-2026-08-07T184326.png
 security:
 - kind: authentication
   name: Motion Elements Authentication
@@ -253,6 +258,12 @@ security:
   name: Motion Elements Domain Security
   slug: motion-elements-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Discover MotionElements media taxonomy
+  slug: motion-elements-discover-media-taxonomy
+- name: Search and retrieve a MotionElements asset
+  slug: motion-elements-search-and-license
 slug: motion-elements
 tags:
 - Media

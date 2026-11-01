@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,18 +36,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Codex is Defined''s unified GraphQL API for real-time blockchain data: token prices, OHLCV bars, trades, liquidity pools, holders, wallet analytics, prediction markets and launchpad data across 100+ EV'
   name: Codex GraphQL API
   slug: codex-graphql-api
-artifact_total: 5
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Defined Webhooks
   slug: defined-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/defined/plans/defined-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/defined-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -55,7 +62,7 @@ common:
   type: Website
   url: https://www.codex.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/security/defined-domain-security.yml
+  href: https://artifacts.apis.io/defined/security/defined-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/defined-domain-security.yml
@@ -112,67 +119,75 @@ common:
   type: StatusPage
   url: https://status.codex.io/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/packages/defined-packages.yml
+  href: https://artifacts.apis.io/defined/packages/defined-packages.yml
   title: ''
   type: SDKs
   url: packages/defined-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/packages/defined-packages.yml
+  href: https://artifacts.apis.io/defined/packages/defined-packages.yml
   title: ''
   type: Packages
   url: packages/defined-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/mcp/defined-mcp.yml
+  href: https://artifacts.apis.io/defined/mcp/defined-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/defined-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/defined/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/llms/defined-llms.txt
+  href: https://artifacts.apis.io/defined/llms/defined-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/defined-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/authentication/defined-authentication.yml
+  href: https://artifacts.apis.io/defined/authentication/defined-authentication.yml
   title: ''
   type: Authentication
   url: authentication/defined-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/conventions/defined-conventions.yml
+  href: https://artifacts.apis.io/defined/conventions/defined-conventions.yml
   title: ''
   type: Conventions
   url: conventions/defined-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/changelog/defined-changelog.yml
+  href: https://artifacts.apis.io/defined/changelog/defined-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/defined-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/lifecycle/defined-lifecycle.yml
+  href: https://artifacts.apis.io/defined/lifecycle/defined-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/defined-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/lifecycle/defined-lifecycle.yml
+  href: https://artifacts.apis.io/defined/lifecycle/defined-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/defined-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/conformance/defined-conformance.yml
+  href: https://artifacts.apis.io/defined/conformance/defined-conformance.yml
   title: ''
   type: Conformance
   url: conformance/defined-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/asyncapi/defined-webhooks.yml
+  href: https://artifacts.apis.io/defined/asyncapi/defined-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/defined-webhooks.yml
 created: '2026-07-17'
 description: 'Defined (defined.fi) is a real-time, multi-chain crypto trading terminal and blockchain-data company backed by Version One Ventures. The consumer product is a customizable "Boards" trading workspace covering tokens, perps, predictions, launchpads and smart-money wallet tracking across every major network. Defined''s data is exposed to developers through Codex (codex.io), its industry-leading blockchain data API: a single GraphQL endpoint serving real-time token prices, OHLCV charts, trades, liquidity pools, holder balances, wallet analytics, launchpad activity and prediction-market data for 70M+ tokens across 100+ EVM and non-EVM networks, used by Coinbase, TradingView, Uniswap and Magic Eden.'
+finops:
+- has_sources: true
+  method: derived
+  name: Defined Finops
+  primary_unit: compute units
+  service_category: ''
+  slug: defined-finops
+  template: false
 image: https://docs.codex.io/favicon.ico
 layout: provider
 mcp_servers:
@@ -189,27 +204,31 @@ overview: 'Defined is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   The Defined catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Defined''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 15
+  Defined''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
+plans:
+- name: Defined Plans Pricing
+  plan_count: 3
+  slug: defined-plans-pricing
+random_paper: 23
 score:
-  band: developing
-  composite: 49.2
+  band: strong
+  composite: 57.6
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 17
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.7
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 71.7
-    operational_transparency: 50.0
-  previous_composite: 49.2
+    discoverability: 65.0
+    operational_transparency: 52.6
+  previous_composite: 48.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -219,15 +238,15 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 28.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/screenshots/defined-2026-07-25T211823.png
+screenshot: https://apis.io/screenshots/defined/defined-2026-07-25T211823.png
 security:
 - kind: authentication
   name: Defined Authentication
@@ -237,6 +256,10 @@ security:
   name: Defined Domain Security
   slug: defined-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Codex API (blockchain data) skill
+  slug: defined-codex-skill
 slug: defined
 tags:
 - Company

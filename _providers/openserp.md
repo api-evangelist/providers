@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 36.4
-  scored_at: '2026-10-17'
+  score: 36.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -73,7 +75,7 @@ apis:
   description: Runtime statistics endpoints
   name: OpenSERP Stats API
   slug: openserp-stats-api
-artifact_total: 12
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Openserp Monitor Webhooks
@@ -83,6 +85,16 @@ collections:
   name: OpenSERP API
   slug: open-openserp-oss
 common:
+- group: other
+  href: https://artifacts.apis.io/openserp/capabilities/openserp-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/openserp-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/openserp/plans/openserp-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/openserp-plans-pricing.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -100,12 +112,12 @@ common:
   type: License
   url: https://github.com/karust/openserp/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/agentic-access/openserp-agentic-access.yml
+  href: https://artifacts.apis.io/openserp/agentic-access/openserp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openserp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/security/openserp-domain-security.yml
+  href: https://artifacts.apis.io/openserp/security/openserp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openserp-domain-security.yml
@@ -198,102 +210,110 @@ common:
   type: Community
   url: https://t.me/openserp_cloud
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/authentication/openserp-authentication.yml
+  href: https://artifacts.apis.io/openserp/authentication/openserp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openserp-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/conventions/openserp-conventions.yml
+  href: https://artifacts.apis.io/openserp/conventions/openserp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openserp-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/errors/openserp-problem-types.yml
+  href: https://artifacts.apis.io/openserp/errors/openserp-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/openserp-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/lifecycle/openserp-lifecycle.yml
+  href: https://artifacts.apis.io/openserp/lifecycle/openserp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openserp-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/changelog/openserp-changelog.yml
+  href: https://artifacts.apis.io/openserp/changelog/openserp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openserp-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/packages/openserp-packages.yml
+  href: https://artifacts.apis.io/openserp/packages/openserp-packages.yml
   title: ''
   type: Packages
   url: packages/openserp-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/packages/openserp-packages.yml
+  href: https://artifacts.apis.io/openserp/packages/openserp-packages.yml
   title: ''
   type: SDKs
   url: packages/openserp-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/cli/openserp-cli.yml
+  href: https://artifacts.apis.io/openserp/cli/openserp-cli.yml
   title: ''
   type: CLI
   url: cli/openserp-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/sandbox/openserp-sandbox.yml
+  href: https://artifacts.apis.io/openserp/sandbox/openserp-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/openserp-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/data-model/openserp-data-model.yml
+  href: https://artifacts.apis.io/openserp/data-model/openserp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openserp-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/conformance/openserp-conformance.yml
+  href: https://artifacts.apis.io/openserp/conformance/openserp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openserp-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/well-known/openserp-well-known.yml
+  href: https://artifacts.apis.io/openserp/well-known/openserp-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/openserp-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/well-known/openserp-robots.txt
+  href: https://artifacts.apis.io/openserp/well-known/openserp-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/openserp-robots.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/llms/openserp-llms.txt
+  href: https://artifacts.apis.io/openserp/llms/openserp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openserp-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/mcp/openserp-mcp.yml
+  href: https://artifacts.apis.io/openserp/mcp/openserp-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/openserp-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/mcp/openserp-tool-crosswalk.yml
+  href: https://artifacts.apis.io/openserp/mcp/openserp-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/openserp-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/asyncapi/openserp-monitor-webhooks.yml
+  href: https://artifacts.apis.io/openserp/asyncapi/openserp-monitor-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/openserp-monitor-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/openserp/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/overlays/openserp-oss-overlay.yaml
+  href: https://artifacts.apis.io/openserp/overlays/openserp-oss-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openserp-oss-overlay.yaml
 created: '2026-08-10'
 description: OpenSERP is an open-source, self-hostable SERP API that returns structured search results from Google, Bing, Yandex, Baidu, DuckDuckGo and Ecosia through one REST interface, alongside OpenSERP Cloud, a managed pay-as-you-go version of the same API adding page extraction, multi-engine megasearch, image search and scheduled rank monitoring. The self-hosted server ships an MIT-licensed Go binary and CLI with a published OpenAPI 3.0.3 contract, a v2 response envelope carrying query echo, metadata, normalized results and pagination, plus cache, proxy-pool and circuit-breaker telemetry endpoints. OpenSERP Cloud adds bearer-token authentication, credit-metered billing, engine health routing, batch URL extraction and Search Monitor webhooks, and the project publishes first-party JavaScript and Python SDKs, an MCP server and an n8n community node.
+finops:
+- has_sources: true
+  method: derived
+  name: Openserp Finops
+  primary_unit: credit
+  service_category: ''
+  slug: openserp-finops
+  template: false
 image: https://openserp.org/icon.svg
 layout: provider
 mcp_servers:
@@ -304,36 +324,40 @@ modified: '2026-08-10'
 name: OpenSERP
 nav: Providers
 network: true
-overview: 'OpenSERP publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Docs API, Health API, Mega API, and 3 more. Tagged areas include Company, Search, SERP, Search API, and Web Scraping.
+overview: 'OpenSERP publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Docs API, Health API, Mega API, and 3 more. Tagged areas include Company, Search, SERP, Web Scraping, and Content Extraction.
 
 
   The OpenSERP catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  OpenSERP''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, engineering blog, signup flow, and 40 more developer resources.'
-random_paper: 18
+  OpenSERP''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, engineering blog, signup flow, and 42 more developer resources.'
+plans:
+- name: Openserp Plans Pricing
+  plan_count: 6
+  slug: openserp-plans-pricing
+- name: Openserp Price Estimates
+  plan_count: 0
+  slug: openserp-price-estimates
+random_paper: 12
 score:
-  band: developing
-  composite: 49.3
+  band: strong
+  composite: 58.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 47.2
-    developer_ergonomics: 78.0
+    developer_ergonomics: 80.4
     discoverability: 81.7
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 49.3
+    operational_transparency: 28.9
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -350,13 +374,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/screenshots/openserp-2026-08-17T081125.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openserp/openserp-2026-08-17T081125.png
 security:
 - kind: authentication
   name: Openserp Authentication
@@ -366,12 +391,21 @@ security:
   name: Openserp Domain Security
   slug: openserp-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Check where a page ranks across search engines
+  slug: openserp-check-a-rank-across-engines
+- name: Extract clean page content from URLs
+  slug: openserp-extract-clean-page-content
+- name: Ground an answer in live web search
+  slug: openserp-ground-an-answer-in-live-search
+- name: Operate a self-hosted OpenSERP server
+  slug: openserp-operate-a-self-hosted-server
 slug: openserp
 tags:
 - Company
 - Search
 - SERP
-- Search API
 - Web Scraping
 - Content Extraction
 - AI Grounding

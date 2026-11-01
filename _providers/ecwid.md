@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 20.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -80,9 +82,6 @@ apis:
 artifact_total: 19
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Ecwid REST Categories API
   slug: open-ecwid-categories-api
 - collection_type: open
@@ -105,27 +104,27 @@ collections:
   slug: open-ecwid
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/plans/ecwid-plans-pricing.yml
+  href: https://artifacts.apis.io/ecwid/plans/ecwid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ecwid-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/capabilities/ecwid-capability-edges.yml
+  href: https://artifacts.apis.io/ecwid/capabilities/ecwid-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ecwid-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/agentic-access/ecwid-agentic-access.yml
+  href: https://artifacts.apis.io/ecwid/agentic-access/ecwid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ecwid-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/security/ecwid-domain-security.yml
+  href: https://artifacts.apis.io/ecwid/security/ecwid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ecwid-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/authentication/ecwid-authentication.yml
+  href: https://artifacts.apis.io/ecwid/authentication/ecwid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ecwid-authentication.yml
@@ -171,6 +170,14 @@ common:
   url: https://www.ecwid.com/blog/feed
 created: '2026-05-11'
 description: Ecwid by Lightspeed is a multi-channel e-commerce platform that lets merchants launch a storefront and sell across websites, social media (Instagram, TikTok, Facebook, Pinterest, Snapchat), online marketplaces, and in-person via point-of-sale. The platform handles centralized inventory and order management, automated marketing, payments, shipping, tax, and domain management. The Ecwid REST API exposes products, categories, orders, customers, payment and shipping methods, and storefront settings using OAuth 2.0 authentication with public (read-only) or private access tokens.
+finops:
+- has_sources: true
+  method: derived
+  name: Ecwid Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: ecwid-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ecwid.png
 layout: provider
 modified: '2026-05-11'
@@ -185,26 +192,26 @@ plans:
 - name: Ecwid Plans Pricing
   plan_count: 4
   slug: ecwid-plans-pricing
-random_paper: 18
+random_paper: 20
 score:
   band: developing
-  composite: 42.2
+  composite: 44.0
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 49.0
+    artifact_dirs: 13
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 55.3
+    access_clarity: 63.2
     contract_governance: 0.0
-    contract_quality: 48.7
+    contract_quality: 45.3
     developer_ergonomics: 52.4
     discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 42.2
+    operational_transparency: 21.1
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -218,13 +225,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/screenshots/ecwid-2026-06-20T180440.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ecwid/ecwid-2026-06-20T180440.png
 security:
 - kind: authentication
   name: Ecwid Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 32.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 39
   slug: delos-agentic-access
   summary_line: 39 operations · 23 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://cloud.wellcube.io/api/v1
   baseurl_source: declared
@@ -100,7 +102,7 @@ apis:
   description: The users API from Delos — 6 operation(s) for users.
   name: Delos Users API
   slug: delos-users-api
-artifact_total: 18
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Delos Events
@@ -111,12 +113,12 @@ collections:
   slug: open-delos-wellcube-cloud-be
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/agentic-access/delos-agentic-access.yml
+  href: https://artifacts.apis.io/delos/agentic-access/delos-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/delos-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/security/delos-domain-security.yml
+  href: https://artifacts.apis.io/delos/security/delos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/delos-domain-security.yml
@@ -161,77 +163,77 @@ common:
   type: PrivacyPolicy
   url: https://wellcube.io/privacy-policy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/_original/delos-wellcube-cloud-be-openapi.yml
+  href: https://artifacts.apis.io/delos/openapi/_original/delos-wellcube-cloud-be-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/delos-wellcube-cloud-be-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/authentication/delos-authentication.yml
+  href: https://artifacts.apis.io/delos/authentication/delos-authentication.yml
   title: ''
   type: Authentication
   url: authentication/delos-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/conventions/delos-conventions.yml
+  href: https://artifacts.apis.io/delos/conventions/delos-conventions.yml
   title: ''
   type: Conventions
   url: conventions/delos-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/errors/delos-error-codes.yml
+  href: https://artifacts.apis.io/delos/errors/delos-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/delos-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/data-model/delos-data-model.yml
+  href: https://artifacts.apis.io/delos/data-model/delos-data-model.yml
   title: ''
   type: DataModel
   url: data-model/delos-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/conformance/delos-conformance.yml
+  href: https://artifacts.apis.io/delos/conformance/delos-conformance.yml
   title: ''
   type: Conformance
   url: conformance/delos-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/lifecycle/delos-lifecycle.yml
+  href: https://artifacts.apis.io/delos/lifecycle/delos-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/delos-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/packages/delos-packages.yml
+  href: https://artifacts.apis.io/delos/packages/delos-packages.yml
   title: ''
   type: Packages
   url: packages/delos-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/llms/delos-llms.txt
+  href: https://artifacts.apis.io/delos/llms/delos-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/delos-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/overlays/delos-wellcube-cloud-be-overlay.yaml
+  href: https://artifacts.apis.io/delos/overlays/delos-wellcube-cloud-be-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/delos-wellcube-cloud-be-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/mcp/delos-mcp.yml
+  href: https://artifacts.apis.io/delos/mcp/delos-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/delos-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/mcp/delos-tool-crosswalk.yml
+  href: https://artifacts.apis.io/delos/mcp/delos-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/delos-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/delos/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/plans/delos-plans-pricing.yml
+  href: https://artifacts.apis.io/delos/plans/delos-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/delos-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/rate-limits/delos-rate-limits.yml
+  href: https://artifacts.apis.io/delos/rate-limits/delos-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/delos-rate-limits.yml
@@ -261,22 +263,22 @@ rate_limits:
   slug: delos-rate-limits
 score:
   band: thin
-  composite: 33.6
+  composite: 35.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 49.5
+    contract_quality: 48.7
     developer_ergonomics: 37.5
     discoverability: 66.1
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -284,7 +286,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 33.5
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -301,13 +303,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/screenshots/delos-2026-08-17T080906.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/delos/delos-2026-08-17T080906.png
 security:
 - kind: authentication
   name: Delos Authentication
@@ -317,6 +320,14 @@ security:
   name: Delos Domain Security
   slug: delos-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Authenticate against the WellCube Cloud BE API and list installations
+  slug: delos-authenticate-and-list-installations
+- name: Dispatch a WellCube device action and poll the resulting job
+  slug: delos-dispatch-device-action-and-poll-job
+- name: Invite a user to a WellCube product and manage the invitation lifecycle
+  slug: delos-invite-user-to-product
 slug: delos
 tags:
 - wellness-real-estate

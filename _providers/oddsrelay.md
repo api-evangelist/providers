@@ -9,21 +9,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.0
-  scored_at: '2026-10-17'
+  score: 32.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 14
   slug: oddsrelay-agentic-access
   summary_line: 14 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.oddsrelay.io
   baseurl_source: declared
@@ -53,115 +55,120 @@ apis:
   description: Coverage, status, health, liveness and this document.
   name: OddsRelay Service API
   slug: oddsrelay-service-api
-artifact_total: 18
+artifact_total: 22
 common:
+- group: other
+  href: https://artifacts.apis.io/oddsrelay/capabilities/oddsrelay-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/oddsrelay-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/agentic-access/oddsrelay-agentic-access.yml
+  href: https://artifacts.apis.io/oddsrelay/agentic-access/oddsrelay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/oddsrelay-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/rate-limits/oddsrelay-rate-limits.yml
+  href: https://artifacts.apis.io/oddsrelay/rate-limits/oddsrelay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/oddsrelay-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/plans/oddsrelay-plans-pricing.yml
+  href: https://artifacts.apis.io/oddsrelay/plans/oddsrelay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/oddsrelay-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/rules/oddsrelay-rules.yml
+  href: https://artifacts.apis.io/oddsrelay/rules/oddsrelay-rules.yml
   title: ''
   type: Spectral
   url: rules/oddsrelay-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/json-ld/oddsrelay-context.jsonld
+  href: https://artifacts.apis.io/oddsrelay/json-ld/oddsrelay-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/oddsrelay-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/vocabulary/oddsrelay-vocabulary.yml
+  href: https://artifacts.apis.io/oddsrelay/vocabulary/oddsrelay-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/oddsrelay-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/oddsrelay/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/data-model/oddsrelay-data-model.yml
+  href: https://artifacts.apis.io/oddsrelay/data-model/oddsrelay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oddsrelay-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/changelog/oddsrelay-changelog.yml
+  href: https://artifacts.apis.io/oddsrelay/changelog/oddsrelay-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/oddsrelay-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/conventions/oddsrelay-conventions.yml
+  href: https://artifacts.apis.io/oddsrelay/conventions/oddsrelay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oddsrelay-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/security/oddsrelay-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/oddsrelay/security/oddsrelay-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/oddsrelay-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/lifecycle/oddsrelay-lifecycle.yml
+  href: https://artifacts.apis.io/oddsrelay/lifecycle/oddsrelay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oddsrelay-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/errors/oddsrelay-error-codes.yml
+  href: https://artifacts.apis.io/oddsrelay/errors/oddsrelay-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/oddsrelay-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/errors/oddsrelay-problem-types.yml
+  href: https://artifacts.apis.io/oddsrelay/errors/oddsrelay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/oddsrelay-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/conformance/oddsrelay-conformance.yml
+  href: https://artifacts.apis.io/oddsrelay/conformance/oddsrelay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oddsrelay-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/llms/oddsrelay-llms.txt
+  href: https://artifacts.apis.io/oddsrelay/llms/oddsrelay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oddsrelay-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/well-known/oddsrelay-security.txt
+  href: https://artifacts.apis.io/oddsrelay/well-known/oddsrelay-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/oddsrelay-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/well-known/oddsrelay-well-known.yml
+  href: https://artifacts.apis.io/oddsrelay/well-known/oddsrelay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/oddsrelay-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/hosts/oddsrelay-hosts.yml
+  href: https://artifacts.apis.io/oddsrelay/hosts/oddsrelay-hosts.yml
   title: ''
   type: Hosts
   url: hosts/oddsrelay-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/vendors/oddsrelay-vendors.yml
+  href: https://artifacts.apis.io/oddsrelay/vendors/oddsrelay-vendors.yml
   title: ''
   type: Vendors
   url: vendors/oddsrelay-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/packages/oddsrelay-packages.yml
+  href: https://artifacts.apis.io/oddsrelay/packages/oddsrelay-packages.yml
   title: ''
   type: SDKs
   url: packages/oddsrelay-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/packages/oddsrelay-packages.yml
+  href: https://artifacts.apis.io/oddsrelay/packages/oddsrelay-packages.yml
   title: ''
   type: Packages
   url: packages/oddsrelay-packages.yml
@@ -174,17 +181,17 @@ common:
   type: DeveloperPortal
   url: https://api.oddsrelay.io</span
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/authentication/oddsrelay-authentication.yml
+  href: https://artifacts.apis.io/oddsrelay/authentication/oddsrelay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oddsrelay-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/security/oddsrelay-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/oddsrelay/security/oddsrelay-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/oddsrelay-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/security/oddsrelay-domain-security.yml
+  href: https://artifacts.apis.io/oddsrelay/security/oddsrelay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oddsrelay-domain-security.yml
@@ -242,6 +249,14 @@ common:
   url: https://github.com/oddsrelay
 created: '2026-10-09'
 description: 'OddsRelay is a UK-based odds-data API for businesses, serving prices from 140+ bookmakers (60+ live in the UK & Ireland) through one keyed REST API: each bookmaker''s raw prices, and matched feeds pairing every bookmaker back price with the best exchange lay price on Betfair, Smarkets, Matchbook and BETDAQ plus the liquidity at that lay. It is a data supplier, not an operator, and takes no bets.'
+finops:
+- has_sources: true
+  method: derived
+  name: Oddsrelay Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: oddsrelay-finops
+  template: false
 image: https://oddsrelay.io/og.png
 json_schemas:
 - name: CoverageKeyed
@@ -278,12 +293,15 @@ overview: 'OddsRelay publishes 4 API contracts indexed on the [APIs.io](https://
   The OddsRelay catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OddsRelay''s developer surface includes changelog, authentication, documentation, API reference, engineering blog, getting-started guide, pricing, and 33 more developer resources.'
+  OddsRelay''s developer surface includes changelog, authentication, documentation, API reference, engineering blog, getting-started guide, pricing, and 34 more developer resources.'
 plans:
 - name: Oddsrelay Plans Pricing
   plan_count: 5
   slug: oddsrelay-plans-pricing
-random_paper: 21
+- name: Oddsrelay Price Estimates
+  plan_count: 0
+  slug: oddsrelay-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Oddsrelay Rate Limits
@@ -303,28 +321,28 @@ rules:
   slug: oddsrelay-rules
 score:
   band: exemplar
-  composite: 67.7
+  composite: 68.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 86.8
+    artifact_dirs: 28
+    catalog_earned: 89.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 28.3
+    catalog_gap: 25.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.8
+  delta: 1.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 22.0
     contract_quality: 66.7
     developer_ergonomics: 66.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 78.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 66.9
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -341,14 +359,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/screenshots/oddsrelay-2026-10-11T111808.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/oddsrelay/oddsrelay-2026-10-11T111808.png
 security:
 - kind: authentication
   name: Oddsrelay Authentication
@@ -362,6 +380,12 @@ security:
   name: Oddsrelay Vulnerability Disclosure
   slug: oddsrelay-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 2
+skills:
+- name: oddsrelay-matched-odds
+  slug: oddsrelay-matched-odds
+- name: oddsrelay-raw-odds
+  slug: oddsrelay-raw-odds
 slug: oddsrelay
 tags:
 - Company

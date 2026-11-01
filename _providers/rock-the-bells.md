@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'A live, remote Model Context Protocol server on Rock The Bells'' own storefront host implementing the Universal Commerce Protocol shopping service. Thirteen tools let an agent search the catalog, look '
@@ -44,7 +46,7 @@ apis:
 - description: The Shopify Storefront GraphQL API as served on Rock The Bells' own domain. Full introspection succeeded anonymously on 2026-08-26, returning a 414-type schema with 34 root query fields and 41 mutatio
   name: Rock The Bells Storefront GraphQL API
   slug: rock-the-bells-storefront-graphql
-artifact_total: 8
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -55,97 +57,97 @@ common:
   type: Documentation
   url: https://shop.rockthebells.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/llms/rock-the-bells-llms.txt
+  href: https://artifacts.apis.io/rock-the-bells/llms/rock-the-bells-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rock-the-bells-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rock-the-bells/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/mcp/rock-the-bells-mcp.yml
+  href: https://artifacts.apis.io/rock-the-bells/mcp/rock-the-bells-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/rock-the-bells-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/mcp/rock-the-bells-tool-crosswalk.yml
+  href: https://artifacts.apis.io/rock-the-bells/mcp/rock-the-bells-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/rock-the-bells-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/well-known/rock-the-bells-well-known.yml
+  href: https://artifacts.apis.io/rock-the-bells/well-known/rock-the-bells-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rock-the-bells-well-known.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/graphql/rock-the-bells-storefront.graphql
+  href: https://artifacts.apis.io/rock-the-bells/graphql/rock-the-bells-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/rock-the-bells-storefront.graphql
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/json-schema/rock-the-bells-ucp-tool-schemas.json
+  href: https://artifacts.apis.io/rock-the-bells/json-schema/rock-the-bells-ucp-tool-schemas.json
   title: ''
   type: JSONSchema
   url: json-schema/rock-the-bells-ucp-tool-schemas.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/conventions/rock-the-bells-conventions.yml
+  href: https://artifacts.apis.io/rock-the-bells/conventions/rock-the-bells-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rock-the-bells-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/conventions/rock-the-bells-conventions.yml
+  href: https://artifacts.apis.io/rock-the-bells/conventions/rock-the-bells-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/rock-the-bells-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/data-model/rock-the-bells-data-model.yml
+  href: https://artifacts.apis.io/rock-the-bells/data-model/rock-the-bells-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rock-the-bells-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/errors/rock-the-bells-problem-types.yml
+  href: https://artifacts.apis.io/rock-the-bells/errors/rock-the-bells-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rock-the-bells-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/authentication/rock-the-bells-authentication.yml
+  href: https://artifacts.apis.io/rock-the-bells/authentication/rock-the-bells-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rock-the-bells-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/conformance/rock-the-bells-conformance.yml
+  href: https://artifacts.apis.io/rock-the-bells/conformance/rock-the-bells-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rock-the-bells-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/lifecycle/rock-the-bells-lifecycle.yml
+  href: https://artifacts.apis.io/rock-the-bells/lifecycle/rock-the-bells-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rock-the-bells-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/lifecycle/rock-the-bells-lifecycle.yml
+  href: https://artifacts.apis.io/rock-the-bells/lifecycle/rock-the-bells-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/rock-the-bells-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/plans/rock-the-bells-plans-pricing.yml
+  href: https://artifacts.apis.io/rock-the-bells/plans/rock-the-bells-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rock-the-bells-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/rate-limits/rock-the-bells-rate-limits.yml
+  href: https://artifacts.apis.io/rock-the-bells/rate-limits/rock-the-bells-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rock-the-bells-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/packages/rock-the-bells-packages.yml
+  href: https://artifacts.apis.io/rock-the-bells/packages/rock-the-bells-packages.yml
   title: ''
   type: Packages
   url: packages/rock-the-bells-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/security/rock-the-bells-domain-security.yml
+  href: https://artifacts.apis.io/rock-the-bells/security/rock-the-bells-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rock-the-bells-domain-security.yml
@@ -197,14 +199,14 @@ plans:
 - name: Rock The Bells Plans Pricing
   plan_count: 0
   slug: rock-the-bells-plans-pricing
-random_paper: 8
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Rock The Bells Rate Limits
   slug: rock-the-bells-rate-limits
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 25.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 42.4
@@ -212,15 +214,15 @@ score:
     catalog_gap: 72.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 15.1
     developer_ergonomics: 30.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 7.9
-  previous_composite: 26.1
+  previous_composite: 25.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -231,14 +233,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rock-the-bells/refs/heads/main/screenshots/rock-the-bells-2026-09-02T154032.png
+screenshot: https://apis.io/screenshots/rock-the-bells/rock-the-bells-2026-09-02T154032.png
 security:
 - kind: authentication
   name: Rock The Bells Authentication
@@ -248,6 +250,14 @@ security:
   name: Rock The Bells Domain Security
   slug: rock-the-bells-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: rock-the-bells-browse-catalog
+  slug: rock-the-bells-browse-catalog
+- name: rock-the-bells-build-cart
+  slug: rock-the-bells-build-cart
+- name: rock-the-bells-complete-purchase
+  slug: rock-the-bells-complete-purchase
 slug: rock-the-bells
 tags:
 - Company

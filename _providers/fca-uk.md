@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Read-only REST API over the Financial Services Register, the FCA's public record of authorised firms, individuals, funds and appointed representatives. Resources are addressed by Firm Reference Number
@@ -47,7 +49,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/security/fca-uk-domain-security.yml
+  href: https://artifacts.apis.io/fca-uk/security/fca-uk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fca-uk-domain-security.yml
@@ -108,52 +110,52 @@ common:
   type: Pricing
   url: https://www.fca.org.uk/firms/financial-services-register/data-extract
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/authentication/fca-uk-authentication.yml
+  href: https://artifacts.apis.io/fca-uk/authentication/fca-uk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fca-uk-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/conventions/fca-uk-conventions.yml
+  href: https://artifacts.apis.io/fca-uk/conventions/fca-uk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fca-uk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/errors/fca-uk-problem-types.yml
+  href: https://artifacts.apis.io/fca-uk/errors/fca-uk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fca-uk-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/rate-limits/fca-uk-rate-limits.yml
+  href: https://artifacts.apis.io/fca-uk/rate-limits/fca-uk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fca-uk-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/lifecycle/fca-uk-lifecycle.yml
+  href: https://artifacts.apis.io/fca-uk/lifecycle/fca-uk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fca-uk-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/conformance/fca-uk-conformance.yml
+  href: https://artifacts.apis.io/fca-uk/conformance/fca-uk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fca-uk-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/data-model/fca-uk-data-model.yml
+  href: https://artifacts.apis.io/fca-uk/data-model/fca-uk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fca-uk-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/packages/fca-uk-packages.yml
+  href: https://artifacts.apis.io/fca-uk/packages/fca-uk-packages.yml
   title: ''
   type: Packages
   url: packages/fca-uk-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/well-known/fca-uk-well-known.yml
+  href: https://artifacts.apis.io/fca-uk/well-known/fca-uk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fca-uk-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/llms/fca-uk-llms.txt
+  href: https://artifacts.apis.io/fca-uk/llms/fca-uk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fca-uk-llms.txt
@@ -170,7 +172,7 @@ overview: 'Financial Conduct Authority is listed with 2 APIs on the [APIs.io](ht
 
 
   Financial Conduct Authority''s developer surface includes documentation, engineering blog, API reference, signup flow, support, pricing, authentication, and 18 more developer resources.'
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Fca Uk Rate Limits
@@ -185,7 +187,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
@@ -201,7 +203,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 29.8
+  previous_composite: 29.9
   provenance:
     conformance: first-party
   regulatory:
@@ -210,14 +212,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/screenshots/fca-uk-2026-07-25T214305.png
+screenshot: https://apis.io/screenshots/fca-uk/fca-uk-2026-07-25T214305.png
 security:
 - kind: authentication
   name: Fca Uk Authentication

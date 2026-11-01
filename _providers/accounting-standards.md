@@ -4,6 +4,6 @@ layout: provider
 name: accounting-standards
 nav: Providers
 network: true
-random_paper: 8
+random_paper: 12
 slug: accounting-standards
 ---

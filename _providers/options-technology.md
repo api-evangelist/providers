@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: WebSocket-based (WebAssembly) JavaScript/TypeScript market data API for browser and Node.js, installed as npm package '@activfinancial/one-api' (latest 1.1.4). Supports snapshots, real-time subscripti
@@ -46,7 +48,7 @@ common:
   type: BlogRSS
   url: https://www.options-it.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/security/options-technology-domain-security.yml
+  href: https://artifacts.apis.io/options-technology/security/options-technology-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/options-technology-domain-security.yml
@@ -95,47 +97,47 @@ common:
   type: GettingStarted
   url: https://weboneapi.activfinancial.com/tutorials/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/packages/options-technology-packages.yml
+  href: https://artifacts.apis.io/options-technology/packages/options-technology-packages.yml
   title: ''
   type: Packages
   url: packages/options-technology-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/packages/options-technology-packages.yml
+  href: https://artifacts.apis.io/options-technology/packages/options-technology-packages.yml
   title: ''
   type: SDKs
   url: packages/options-technology-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/components/options-technology-components.yml
+  href: https://artifacts.apis.io/options-technology/components/options-technology-components.yml
   title: ''
   type: Components
   url: components/options-technology-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/errors/options-technology-error-codes.yml
+  href: https://artifacts.apis.io/options-technology/errors/options-technology-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/options-technology-error-codes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/authentication/options-technology-authentication.yml
+  href: https://artifacts.apis.io/options-technology/authentication/options-technology-authentication.yml
   title: ''
   type: Authentication
   url: authentication/options-technology-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/lifecycle/options-technology-lifecycle.yml
+  href: https://artifacts.apis.io/options-technology/lifecycle/options-technology-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/options-technology-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/changelog/options-technology-changelog.yml
+  href: https://artifacts.apis.io/options-technology/changelog/options-technology-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/options-technology-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/sandbox/options-technology-sandbox.yml
+  href: https://artifacts.apis.io/options-technology/sandbox/options-technology-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/options-technology-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/security/options-technology-trust-center.yml
+  href: https://artifacts.apis.io/options-technology/security/options-technology-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/options-technology-trust-center.yml
@@ -144,7 +146,7 @@ common:
   type: Compliance
   url: https://www.options-it.com/about/security/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/llms/options-technology-llms.txt
+  href: https://artifacts.apis.io/options-technology/llms/options-technology-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/options-technology-llms.txt
@@ -160,12 +162,12 @@ overview: 'Options Technology is listed with 1 API on the [APIs.io](https://apis
 
 
   Options Technology''s developer surface includes developer portal, documentation, engineering blog, support, API reference, getting-started guide, authentication, and 17 more developer resources.'
-random_paper: 17
+random_paper: 13
 score:
   band: thin
-  composite: 30.1
+  composite: 30.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -177,23 +179,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 30.1
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 30.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 19.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/options-technology/refs/heads/main/screenshots/options-technology-2026-07-22T202537.png
+screenshot: https://apis.io/screenshots/options-technology/options-technology-2026-07-22T202537.png
 security:
 - kind: authentication
   name: Options Technology Authentication

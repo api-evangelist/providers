@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,9 +90,6 @@ apis:
 artifact_total: 32
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: SportsGameOdds Account API
   slug: open-sportsgameodds-account-api
 - collection_type: open
@@ -118,33 +117,42 @@ collections:
   name: SportsGameOdds API
   slug: open-sportsgameodds
 common:
+- group: other
+  href: https://artifacts.apis.io/sportsgameodds/capabilities/sportsgameodds-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sportsgameodds-capability-edges.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/sportsgameodds/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/plans/sportsgameodds-plans-pricing.yml
+  href: https://artifacts.apis.io/sportsgameodds/plans/sportsgameodds-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sportsgameodds-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/rate-limits/sportsgameodds-rate-limits.yml
+  href: https://artifacts.apis.io/sportsgameodds/rate-limits/sportsgameodds-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sportsgameodds-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/finops/sportsgameodds-finops.yml
+  href: https://artifacts.apis.io/sportsgameodds/finops/sportsgameodds-finops.yml
   title: ''
   type: FinOps
   url: finops/sportsgameodds-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/agentic-access/sportsgameodds-agentic-access.yml
+  href: https://artifacts.apis.io/sportsgameodds/agentic-access/sportsgameodds-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sportsgameodds-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/security/sportsgameodds-domain-security.yml
+  href: https://artifacts.apis.io/sportsgameodds/security/sportsgameodds-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sportsgameodds-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/authentication/sportsgameodds-authentication.yml
+  href: https://artifacts.apis.io/sportsgameodds/authentication/sportsgameodds-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sportsgameodds-authentication.yml
@@ -206,13 +214,13 @@ examples:
   name: Sportsgameodds List Markets Example
   slug: sportsgameodds-list-markets-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Sportsgameodds Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: sportsgameodds-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sportsgameodds.png
 json_schemas:
 - name: SportsGameOdds Event
@@ -241,12 +249,15 @@ overview: 'SportsGameOdds publishes 8 API contracts indexed on the [APIs.io](htt
   The SportsGameOdds catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SportsGameOdds'' developer surface includes authentication, developer portal, documentation, pricing, GitHub presence, engineering blog, and 12 more developer resources.'
+  SportsGameOdds'' developer surface includes authentication, developer portal, documentation, pricing, GitHub presence, engineering blog, and 14 more developer resources.'
 plans:
 - name: Sportsgameodds Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: sportsgameodds-plans-pricing
-random_paper: 1
+- name: Sportsgameodds Price Estimates
+  plan_count: 0
+  slug: sportsgameodds-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Sportsgameodds Rate Limits
@@ -277,23 +288,23 @@ rules:
   slug: sportsgameodds-rules
 score:
   band: developing
-  composite: 42.3
+  composite: 48.8
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 55.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    artifact_dirs: 19
+    catalog_earned: 67.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.8
   facets:
-    access_clarity: 18.4
+    access_clarity: 50.0
     contract_governance: 13.6
     contract_quality: 55.6
-    developer_ergonomics: 69.0
+    developer_ergonomics: 70.2
     discoverability: 73.2
     operational_transparency: 13.2
-  previous_composite: 43.8
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     contracts:
@@ -307,14 +318,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/screenshots/sportsgameodds-2026-06-20T194349.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sportsgameodds/sportsgameodds-2026-06-20T194349.png
 security:
 - kind: authentication
   name: Sportsgameodds Authentication

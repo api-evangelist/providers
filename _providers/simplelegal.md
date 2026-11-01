@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -76,11 +78,8 @@ apis:
   description: The Vendors API from SimpleLegal — 2 operation(s) for vendors.
   name: SimpleLegal Vendors API
   slug: simplelegal-vendors-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SimpleLegal Cost Codes API
   slug: open-simplelegal-cost-codes-api
@@ -104,42 +103,42 @@ collections:
   slug: open-simplelegal
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/plans/simplelegal-plans-pricing.yml
+  href: https://artifacts.apis.io/simplelegal/plans/simplelegal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/simplelegal-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/rate-limits/simplelegal-rate-limits.yml
+  href: https://artifacts.apis.io/simplelegal/rate-limits/simplelegal-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/simplelegal-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/finops/simplelegal-finops.yml
+  href: https://artifacts.apis.io/simplelegal/finops/simplelegal-finops.yml
   title: ''
   type: FinOps
   url: finops/simplelegal-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/capabilities/simplelegal-capability-edges.yml
+  href: https://artifacts.apis.io/simplelegal/capabilities/simplelegal-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/simplelegal-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/agentic-access/simplelegal-agentic-access.yml
+  href: https://artifacts.apis.io/simplelegal/agentic-access/simplelegal-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/simplelegal-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/security/simplelegal-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/simplelegal/security/simplelegal-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/simplelegal-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/security/simplelegal-domain-security.yml
+  href: https://artifacts.apis.io/simplelegal/security/simplelegal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simplelegal-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/authentication/simplelegal-authentication.yml
+  href: https://artifacts.apis.io/simplelegal/authentication/simplelegal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/simplelegal-authentication.yml
@@ -184,17 +183,17 @@ common:
   type: Login
   url: https://app.simplelegal.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/well-known/simplelegal-security.txt
+  href: https://artifacts.apis.io/simplelegal/well-known/simplelegal-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/simplelegal-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/well-known/simplelegal-well-known.yml
+  href: https://artifacts.apis.io/simplelegal/well-known/simplelegal-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/simplelegal-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/security/simplelegal-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/simplelegal/security/simplelegal-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/simplelegal-vulnerability-disclosure.yml
@@ -214,7 +213,7 @@ finops:
 - has_sources: false
   method: generated
   name: Simplelegal Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: simplelegal-finops
   template: true
@@ -246,7 +245,7 @@ modified: '2026-08-08'
 name: SimpleLegal
 nav: Providers
 network: true
-overview: 'SimpleLegal publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cost Codes API, Invoices API, Matters API, and 3 more. Tagged areas include E-Billing, Enterprise Legal Management, Legal Operations, Legal Spend Management, and Matter Management.
+overview: 'SimpleLegal publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cost Codes API, Invoices API, Matters API, and 3 more. Tagged areas include E-Billing, Enterprise Legal Management, Legal Operations, Matter Management, and Vendor Management.
 
 
   The SimpleLegal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -257,7 +256,7 @@ plans:
 - name: Simplelegal Plans Pricing
   plan_count: 3
   slug: simplelegal-plans-pricing
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Simplelegal Rate Limits
@@ -287,8 +286,8 @@ rules:
     warn: 5
   slug: simplelegal-rules
 score:
-  band: thin
-  composite: 37.0
+  band: developing
+  composite: 39.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 60.0
@@ -296,15 +295,15 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 31.6
     contract_governance: 27.3
     contract_quality: 53.6
-    developer_ergonomics: 26.2
+    developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 38.5
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -318,13 +317,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/screenshots/simplelegal-2026-06-20T193933.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/simplelegal/simplelegal-2026-06-20T193933.png
 security:
 - kind: authentication
   name: Simplelegal Authentication
@@ -343,7 +343,6 @@ tags:
 - E-Billing
 - Enterprise Legal Management
 - Legal Operations
-- Legal Spend Management
 - Matter Management
 - Vendor Management
 website: https://www.simplelegal.com/

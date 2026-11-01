@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: SaaS security posture assessment and monitoring
   name: Saasment Security Posture API
   slug: saasment-security-posture-api
-artifact_total: 30
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Saasment Alerts API
   slug: open-saasment-alerts-api
@@ -103,37 +102,37 @@ collections:
   slug: open-saasment
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/plans/saasment-plans-pricing.yml
+  href: https://artifacts.apis.io/saasment/plans/saasment-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/saasment-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/rate-limits/saasment-rate-limits.yml
+  href: https://artifacts.apis.io/saasment/rate-limits/saasment-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/saasment-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/finops/saasment-finops.yml
+  href: https://artifacts.apis.io/saasment/finops/saasment-finops.yml
   title: ''
   type: FinOps
   url: finops/saasment-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/capabilities/saasment-capability-edges.yml
+  href: https://artifacts.apis.io/saasment/capabilities/saasment-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/saasment-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/agentic-access/saasment-agentic-access.yml
+  href: https://artifacts.apis.io/saasment/agentic-access/saasment-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/saasment-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/security/saasment-domain-security.yml
+  href: https://artifacts.apis.io/saasment/security/saasment-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/saasment-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/authentication/saasment-authentication.yml
+  href: https://artifacts.apis.io/saasment/authentication/saasment-authentication.yml
   title: ''
   type: Authentication
   url: authentication/saasment-authentication.yml
@@ -154,42 +153,42 @@ common:
   type: Blog
   url: https://www.saasment.com/blog
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/openapi/_original/saasment-openapi.yml
+  href: https://artifacts.apis.io/saasment/openapi/_original/saasment-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/saasment-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/rules/saasment-rules.yml
+  href: https://artifacts.apis.io/saasment/rules/saasment-rules.yml
   title: ''
   type: SpectralRules
   url: rules/saasment-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/json-schema/saasment-misconfiguration-schema.json
+  href: https://artifacts.apis.io/saasment/json-schema/saasment-misconfiguration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/saasment-misconfiguration-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/json-schema/saasment-application-schema.json
+  href: https://artifacts.apis.io/saasment/json-schema/saasment-application-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/saasment-application-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/json-structure/saasment-misconfiguration-structure.json
+  href: https://artifacts.apis.io/saasment/json-structure/saasment-misconfiguration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/saasment-misconfiguration-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/json-structure/saasment-application-structure.json
+  href: https://artifacts.apis.io/saasment/json-structure/saasment-application-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/saasment-application-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/json-ld/saasment-context.jsonld
+  href: https://artifacts.apis.io/saasment/json-ld/saasment-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/saasment-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/vocabulary/saasment-vocabulary.yml
+  href: https://artifacts.apis.io/saasment/vocabulary/saasment-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/saasment-vocabulary.yml
@@ -213,7 +212,7 @@ finops:
 - has_sources: false
   method: generated
   name: Saasment Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: saasment-finops
   template: true
@@ -253,7 +252,7 @@ plans:
 - name: Saasment Plans Pricing
   plan_count: 3
   slug: saasment-plans-pricing
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Saasment Rate Limits
@@ -284,7 +283,7 @@ rules:
   slug: saasment-rules
 score:
   band: thin
-  composite: 27.5
+  composite: 31.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 55.0
@@ -292,15 +291,15 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 51.8
-    developer_ergonomics: 11.9
+    developer_ergonomics: 23.8
     discoverability: 64.3
-    operational_transparency: 10.5
-  previous_composite: 29.0
+    operational_transparency: 13.2
+  previous_composite: 31.0
   provenance:
     agentic_access: derived
     contracts:
@@ -314,13 +313,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/screenshots/saasment-2026-06-20T193313.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/saasment/saasment-2026-06-20T193313.png
 security:
 - kind: authentication
   name: Saasment Authentication

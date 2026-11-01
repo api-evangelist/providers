@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sevaro/refs/heads/main/security/sevaro-domain-security.yml
+  href: https://artifacts.apis.io/sevaro/security/sevaro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sevaro-domain-security.yml
@@ -68,7 +70,7 @@ common:
   type: StatusPage
   url: https://status.sevaro.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sevaro/refs/heads/main/lifecycle/sevaro-lifecycle.yml
+  href: https://artifacts.apis.io/sevaro/lifecycle/sevaro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sevaro-lifecycle.yml
@@ -81,22 +83,22 @@ common:
   type: TermsOfService
   url: https://sevaro.com/terms-and-conditions/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sevaro/refs/heads/main/llms/sevaro-llms.txt
+  href: https://artifacts.apis.io/sevaro/llms/sevaro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sevaro-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sevaro/refs/heads/main/plans/sevaro-plans-pricing.yml
+  href: https://artifacts.apis.io/sevaro/plans/sevaro-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sevaro-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sevaro/refs/heads/main/rate-limits/sevaro-rate-limits.yml
+  href: https://artifacts.apis.io/sevaro/rate-limits/sevaro-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sevaro-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sevaro/refs/heads/main/conformance/sevaro-conformance.yml
+  href: https://artifacts.apis.io/sevaro/conformance/sevaro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sevaro-conformance.yml
@@ -132,14 +134,14 @@ plans:
 - name: Sevaro Plans Pricing
   plan_count: 0
   slug: sevaro-plans-pricing
-random_paper: 18
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Sevaro Rate Limits
   slug: sevaro-rate-limits
 score:
   band: emerging
-  composite: 14.5
+  composite: 14.1
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -153,9 +155,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 18.4
-  previous_composite: 14.5
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 14.1
   provenance:
     conformance: first-party
   regulatory:
@@ -164,14 +166,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sevaro/refs/heads/main/screenshots/sevaro-2026-09-02T155033.png
+screenshot: https://apis.io/screenshots/sevaro/sevaro-2026-09-02T155033.png
 security:
 - kind: domain-security
   name: Sevaro Domain Security

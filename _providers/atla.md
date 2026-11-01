@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.8
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app.atla-ai.com
@@ -45,14 +47,11 @@ apis:
 artifact_total: 6
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Atla Insights SDK API
   slug: open-atla-sdk-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/overlays/atla-insights-overlay.yaml
+  href: https://artifacts.apis.io/atla/overlays/atla-insights-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/atla-insights-overlay.yaml
@@ -85,67 +84,67 @@ common:
   type: Website
   url: https://www.atla-ai.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/authentication/atla-authentication.yml
+  href: https://artifacts.apis.io/atla/authentication/atla-authentication.yml
   title: ''
   type: Authentication
   url: authentication/atla-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/security/atla-domain-security.yml
+  href: https://artifacts.apis.io/atla/security/atla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/atla-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/packages/atla-packages.yml
+  href: https://artifacts.apis.io/atla/packages/atla-packages.yml
   title: ''
   type: Packages
   url: packages/atla-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/packages/atla-packages.yml
+  href: https://artifacts.apis.io/atla/packages/atla-packages.yml
   title: ''
   type: SDKs
   url: packages/atla-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/mcp/atla-mcp.yml
+  href: https://artifacts.apis.io/atla/mcp/atla-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/atla-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/llms/atla-llms.txt
+  href: https://artifacts.apis.io/atla/llms/atla-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/atla-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/well-known/atla-well-known.yml
+  href: https://artifacts.apis.io/atla/well-known/atla-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/atla-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/conformance/atla-conformance.yml
+  href: https://artifacts.apis.io/atla/conformance/atla-conformance.yml
   title: ''
   type: Conformance
   url: conformance/atla-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/errors/atla-problem-types.yml
+  href: https://artifacts.apis.io/atla/errors/atla-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/atla-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/lifecycle/atla-lifecycle.yml
+  href: https://artifacts.apis.io/atla/lifecycle/atla-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/atla-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/conventions/atla-conventions.yml
+  href: https://artifacts.apis.io/atla/conventions/atla-conventions.yml
   title: ''
   type: Conventions
   url: conventions/atla-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/data-model/atla-data-model.yml
+  href: https://artifacts.apis.io/atla/data-model/atla-data-model.yml
   title: ''
   type: DataModel
   url: data-model/atla-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/atla/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -165,31 +164,31 @@ overview: 'Atla publishes 1 API contract indexed on the [APIs.io](https://apis.i
 
 
   Atla''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 16 more developer resources.'
-random_paper: 0
+random_paper: 10
 score:
   band: thin
-  composite: 33.1
+  composite: 32.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 49.0
     developer_ergonomics: 63.7
-    discoverability: 71.7
-    operational_transparency: 2.6
+    discoverability: 65.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 33.0
+  previous_composite: 32.8
   provenance:
     conformance: derived
     contracts:
@@ -205,14 +204,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/screenshots/atla-2026-07-25T201538.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/atla/atla-2026-07-25T201538.png
 security:
 - kind: authentication
   name: Atla Authentication
@@ -222,6 +221,10 @@ security:
   name: Atla Domain Security
   slug: atla-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: Fetch and inspect Atla Insights traces
+  slug: atla-fetch-traces
 slug: atla
 tags:
 - Company

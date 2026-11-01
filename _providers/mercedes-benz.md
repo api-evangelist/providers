@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 18
 apis:
 - description: Use this product to integrate always up-to-date MercedesBenz technical as well as marketing vehicle data into your solution and business model. Try it out.
@@ -93,17 +95,17 @@ apis:
 artifact_total: 23
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/plans/mercedes-benz-plans-pricing.yml
+  href: https://artifacts.apis.io/mercedes-benz/plans/mercedes-benz-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mercedes-benz-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/rate-limits/mercedes-benz-rate-limits.yml
+  href: https://artifacts.apis.io/mercedes-benz/rate-limits/mercedes-benz-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mercedes-benz-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/finops/mercedes-benz-finops.yml
+  href: https://artifacts.apis.io/mercedes-benz/finops/mercedes-benz-finops.yml
   title: ''
   type: FinOps
   url: finops/mercedes-benz-finops.yml
@@ -112,12 +114,12 @@ common:
   type: Website
   url: https://mercedes-benz.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/security/mercedes-benz-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mercedes-benz/security/mercedes-benz-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mercedes-benz-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/security/mercedes-benz-domain-security.yml
+  href: https://artifacts.apis.io/mercedes-benz/security/mercedes-benz-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mercedes-benz-domain-security.yml
@@ -187,7 +189,7 @@ finops:
 - has_sources: false
   method: generated
   name: Mercedes Benz Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: mercedes-benz-finops
   template: true
@@ -205,14 +207,14 @@ plans:
 - name: Mercedes Benz Plans Pricing
   plan_count: 3
   slug: mercedes-benz-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Mercedes Benz Rate Limits
   slug: mercedes-benz-rate-limits
 score:
   band: thin
-  composite: 28.0
+  composite: 29.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 36.0
@@ -220,29 +222,29 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
     discoverability: 62.5
-    operational_transparency: 26.3
-  previous_composite: 29.5
+    operational_transparency: 39.5
+  previous_composite: 29.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/screenshots/mercedes-benz-2026-06-20T185205.png
+screenshot: https://apis.io/screenshots/mercedes-benz/mercedes-benz-2026-06-20T185205.png
 security:
 - kind: domain-security
   name: Mercedes Benz Domain Security

@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 4
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 107
   slug: docker-agentic-access
   summary_line: 107 operations · 62 acting · 4 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: /v1.54
   baseurl_source: spec
@@ -161,9 +163,6 @@ arazzos:
 artifact_total: 54
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Docker Engine Config API
   slug: open-docker-config-api
 - collection_type: open
@@ -213,37 +212,37 @@ collections:
   slug: open-docker
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/plans/docker-plans-pricing.yml
+  href: https://artifacts.apis.io/docker/plans/docker-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/docker-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/rate-limits/docker-rate-limits.yml
+  href: https://artifacts.apis.io/docker/rate-limits/docker-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/docker-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/finops/docker-finops.yml
+  href: https://artifacts.apis.io/docker/finops/docker-finops.yml
   title: ''
   type: FinOps
   url: finops/docker-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/capabilities/docker-capability-edges.yml
+  href: https://artifacts.apis.io/docker/capabilities/docker-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/docker-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/agentic-access/docker-agentic-access.yml
+  href: https://artifacts.apis.io/docker/agentic-access/docker-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/docker-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/security/docker-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/docker/security/docker-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/docker-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/security/docker-domain-security.yml
+  href: https://artifacts.apis.io/docker/security/docker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/docker-domain-security.yml
@@ -300,132 +299,132 @@ common:
   type: LlmsText
   url: https://docs.docker.com/llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/packages/docker-packages.yml
+  href: https://artifacts.apis.io/docker/packages/docker-packages.yml
   title: ''
   type: Packages
   url: packages/docker-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/well-known/docker-well-known.yml
+  href: https://artifacts.apis.io/docker/well-known/docker-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/docker-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/well-known/docker-security.txt
+  href: https://artifacts.apis.io/docker/well-known/docker-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/docker-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/mcp/docker-mcp.yml
+  href: https://artifacts.apis.io/docker/mcp/docker-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/docker-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/llms/docker-llms.txt
+  href: https://artifacts.apis.io/docker/llms/docker-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/docker-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/overlays/docker-openapi-overlay.yaml
+  href: https://artifacts.apis.io/docker/overlays/docker-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/docker-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/conformance/docker-conformance.yml
+  href: https://artifacts.apis.io/docker/conformance/docker-conformance.yml
   title: ''
   type: Conformance
   url: conformance/docker-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/errors/docker-problem-types.yml
+  href: https://artifacts.apis.io/docker/errors/docker-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/docker-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/lifecycle/docker-lifecycle.yml
+  href: https://artifacts.apis.io/docker/lifecycle/docker-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/docker-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/conventions/docker-conventions.yml
+  href: https://artifacts.apis.io/docker/conventions/docker-conventions.yml
   title: ''
   type: Conventions
   url: conventions/docker-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/changelog/docker-changelog.yml
+  href: https://artifacts.apis.io/docker/changelog/docker-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/docker-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/cli/docker-cli.yml
+  href: https://artifacts.apis.io/docker/cli/docker-cli.yml
   title: ''
   type: CLI
   url: cli/docker-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/data-model/docker-data-model.yml
+  href: https://artifacts.apis.io/docker/data-model/docker-data-model.yml
   title: ''
   type: DataModel
   url: data-model/docker-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-run-container-workflow.yml
+  href: https://artifacts.apis.io/docker/arazzo/docker-run-container-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-run-container-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-stop-and-remove-container-workflow.yml
+  href: https://artifacts.apis.io/docker/arazzo/docker-stop-and-remove-container-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-stop-and-remove-container-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-build-and-push-image-workflow.yml
+  href: https://artifacts.apis.io/docker/arazzo/docker-build-and-push-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-build-and-push-image-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-exec-command-in-container-workflow.yml
+  href: https://artifacts.apis.io/docker/arazzo/docker-exec-command-in-container-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-exec-command-in-container-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-troubleshoot-container-workflow.yml
+  href: https://artifacts.apis.io/docker/arazzo/docker-troubleshoot-container-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-troubleshoot-container-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-search-and-pull-image-workflow.yml
+  href: https://artifacts.apis.io/docker/arazzo/docker-search-and-pull-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-search-and-pull-image-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-provision-network-workflow.yml
+  href: https://artifacts.apis.io/docker/arazzo/docker-provision-network-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-provision-network-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-provision-volume-workflow.yml
+  href: https://artifacts.apis.io/docker/arazzo/docker-provision-volume-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-provision-volume-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-deploy-swarm-service-workflow.yml
+  href: https://artifacts.apis.io/docker/arazzo/docker-deploy-swarm-service-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-deploy-swarm-service-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-rolling-update-service-workflow.yml
+  href: https://artifacts.apis.io/docker/arazzo/docker-rolling-update-service-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-rolling-update-service-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-reclaim-disk-space-workflow.yml
+  href: https://artifacts.apis.io/docker/arazzo/docker-reclaim-disk-space-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-reclaim-disk-space-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-commit-container-to-image-workflow.yml
+  href: https://artifacts.apis.io/docker/arazzo/docker-commit-container-to-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-commit-container-to-image-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/arazzo/docker-install-plugin-workflow.yml
+  href: https://artifacts.apis.io/docker/arazzo/docker-install-plugin-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/docker-install-plugin-workflow.yml
@@ -436,13 +435,13 @@ common:
 created: '2025-06-05'
 description: Docker is a platform for developers and sysadmins to build, share, and run applications in containers, packaging code and dependencies together for consistent deployment across environments.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Docker Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: user/month (monthly plan)
+  service_category: ''
   slug: docker-finops
-  template: true
+  template: false
 image: https://www.docker.com/sites/default/files/d8/2019-07/docker-logo-blue.png
 layout: provider
 mcp_servers:
@@ -465,9 +464,12 @@ overview: 'Docker publishes 15 API contracts indexed on the [APIs.io](https://ap
   Docker''s developer surface includes documentation, engineering blog, pricing, signup flow, changelog, CLI, and 41 more developer resources.'
 plans:
 - name: Docker Plans Pricing
-  plan_count: 3
+  plan_count: 9
   slug: docker-plans-pricing
-random_paper: 16
+- name: Docker Price Estimates
+  plan_count: 0
+  slug: docker-price-estimates
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Docker Rate Limits
@@ -486,23 +488,23 @@ rules:
   slug: docker-docs-spectral-rules
 score:
   band: developing
-  composite: 43.2
+  composite: 50.8
   coverage:
     artifact_dirs: 26
-    catalog_earned: 43.0
-    catalog_earned_first_party: 10.0
-    catalog_gap: 72.0
+    catalog_earned: 55.0
+    catalog_earned_first_party: 22.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 34.8
     contract_quality: 38.0
     developer_ergonomics: 31.0
-    discoverability: 55.4
-    operational_transparency: 42.1
-  previous_composite: 41.1
+    discoverability: 55.0
+    operational_transparency: 55.3
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -518,13 +520,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/screenshots/docker-2026-06-20T180111.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/docker/docker-2026-06-20T180111.png
 security:
 - kind: domain-security
   name: Docker Domain Security

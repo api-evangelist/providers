@@ -4,6 +4,6 @@ layout: provider
 name: technical-specifications
 nav: Providers
 network: true
-random_paper: 12
+random_paper: 4
 slug: technical-specifications
 ---

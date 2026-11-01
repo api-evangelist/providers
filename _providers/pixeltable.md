@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'Read-only Model Context Protocol server served over HTTP at the Pixeltable apex host. Protocol version 2025-06-18, JSON-RPC 2.0 (initialize, tools/list, tools/call). Exposes two tools: search_docs, wh'
@@ -49,7 +51,7 @@ apis:
 - description: The authenticated HTTP API behind the Pixeltable Cloud dashboard and the `pxt` CLI. The provider publishes the base URL https://internal-api.pixeltable.com in /.well-known/agent.json and marks it auth
   name: Pixeltable Cloud Control Plane API
   slug: pixeltable-cloud-control-plane
-artifact_total: 9
+artifact_total: 12
 common:
 - group: commercial
   title: ''
@@ -128,103 +130,111 @@ common:
   type: Sitemap
   url: https://pixeltable.com/sitemap.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/a2a/pixeltable-a2a.yml
+  href: https://artifacts.apis.io/pixeltable/a2a/pixeltable-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/pixeltable-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/mcp/pixeltable-mcp.yml
+  href: https://artifacts.apis.io/pixeltable/mcp/pixeltable-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/pixeltable-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pixeltable/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/llms/pixeltable-llms.txt
+  href: https://artifacts.apis.io/pixeltable/llms/pixeltable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pixeltable-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/well-known/pixeltable-well-known.yml
+  href: https://artifacts.apis.io/pixeltable/well-known/pixeltable-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pixeltable-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/packages/pixeltable-packages.yml
+  href: https://artifacts.apis.io/pixeltable/packages/pixeltable-packages.yml
   title: ''
   type: Packages
   url: packages/pixeltable-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/packages/pixeltable-packages.yml
+  href: https://artifacts.apis.io/pixeltable/packages/pixeltable-packages.yml
   title: ''
   type: SDKs
   url: packages/pixeltable-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/cli/pixeltable-cli.yml
+  href: https://artifacts.apis.io/pixeltable/cli/pixeltable-cli.yml
   title: ''
   type: CLI
   url: cli/pixeltable-cli.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/plans/pixeltable-plans-pricing.yml
+  href: https://artifacts.apis.io/pixeltable/plans/pixeltable-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pixeltable-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/rate-limits/pixeltable-rate-limits.yml
+  href: https://artifacts.apis.io/pixeltable/rate-limits/pixeltable-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pixeltable-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/changelog/pixeltable-changelog.yml
+  href: https://artifacts.apis.io/pixeltable/changelog/pixeltable-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pixeltable-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/lifecycle/pixeltable-lifecycle.yml
+  href: https://artifacts.apis.io/pixeltable/lifecycle/pixeltable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pixeltable-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/authentication/pixeltable-authentication.yml
+  href: https://artifacts.apis.io/pixeltable/authentication/pixeltable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pixeltable-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/conventions/pixeltable-conventions.yml
+  href: https://artifacts.apis.io/pixeltable/conventions/pixeltable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pixeltable-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/errors/pixeltable-problem-types.yml
+  href: https://artifacts.apis.io/pixeltable/errors/pixeltable-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pixeltable-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/conformance/pixeltable-conformance.yml
+  href: https://artifacts.apis.io/pixeltable/conformance/pixeltable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pixeltable-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/sandbox/pixeltable-sandbox.yml
+  href: https://artifacts.apis.io/pixeltable/sandbox/pixeltable-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pixeltable-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/security/pixeltable-domain-security.yml
+  href: https://artifacts.apis.io/pixeltable/security/pixeltable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pixeltable-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/security/pixeltable-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pixeltable/security/pixeltable-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pixeltable-vulnerability-disclosure.yml
 created: '2026-08-17'
 description: 'Pixeltable is an open-source (Apache 2.0) Python data infrastructure company building a unified multimodal backend for AI data applications. A single `pip install pixeltable` provides declarative storage, transformation, indexing, retrieval, serving and versioning of images, video, audio, documents and structured data through computed columns that run AI inference incrementally on insert, embedding indexes that stay in sync for vector search, Python UDFs and query functions, and built-in table history and revert. The same declarative schema runs locally via `pxt serve` or a FastAPI router and deploys to Pixeltable Cloud via `pxt deploy` for managed databases, R2-backed media buckets, Deploy endpoints and serverless scale-to-zero workers. Pixeltable integrates 25-plus AI providers including OpenAI, Anthropic, Gemini, Hugging Face, Bedrock, Groq, Mistral, Together, Fireworks, Ollama and Whisper, and positions itself as a replacement for the glue between object storage, Postgres,
   a vector database, an orchestrator and a framework such as LangChain. The company is unusually agent-forward: it publishes an A2A agent card, a callable read-only WebMCP server, an NLWeb ask endpoint, an installable Agent Skill, markdown representations of its pages, and scoped llms.txt context files. A public REST API with OpenAPI and scoped OAuth is stated as in active development.'
+finops:
+- has_sources: true
+  method: derived
+  name: Pixeltable Finops
+  primary_unit: organization
+  service_category: ''
+  slug: pixeltable-finops
+  template: false
 image: https://pixeltable.com/images/favicon.png
 layout: provider
 mcp_servers:
@@ -243,6 +253,9 @@ plans:
 - name: Pixeltable Plans Pricing
   plan_count: 4
   slug: pixeltable-plans-pricing
+- name: Pixeltable Price Estimates
+  plan_count: 0
+  slug: pixeltable-price-estimates
 random_paper: 10
 rate_limits:
 - limit_count: 1
@@ -250,23 +263,23 @@ rate_limits:
   slug: pixeltable-rate-limits
 score:
   band: developing
-  composite: 52.7
+  composite: 53.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 60.0
+    artifact_dirs: 23
+    catalog_earned: 63.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 85.7
-    discoverability: 80.0
-    operational_transparency: 65.8
-  previous_composite: 53.0
+    discoverability: 70.0
+    operational_transparency: 68.4
+  previous_composite: 52.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -277,14 +290,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/screenshots/pixeltable-2026-09-02T151335.png
+screenshot: https://apis.io/screenshots/pixeltable/pixeltable-2026-09-02T151335.png
 security:
 - kind: authentication
   name: Pixeltable Authentication
@@ -298,6 +311,10 @@ security:
   name: Pixeltable Vulnerability Disclosure
   slug: pixeltable-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 1
+skills:
+- name: Pixeltable
+  slug: pixeltable-skill
 slug: pixeltable
 tags:
 - Company

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 34.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -118,7 +120,7 @@ apis:
   description: Manage webhooks
   name: Astrada Webhooks API
   slug: astrada-webhooks-api
-artifact_total: 54
+artifact_total: 56
 asyncapis:
 - description: Webhook event surface for the Astrada API, generated from the documented Event Types and webhook delivery mechanics. Astrada delivers events via HTTP POST to registered HTTPS endpoints with at-least-o
   name: Astrada Webhook Events
@@ -173,9 +175,6 @@ collections:
   name: Astrada bank-accounts webhooks API
   slug: postman-astrada-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Astrada bank-accounts API
   slug: open-astrada-bank-accounts-api
 - collection_type: open
@@ -222,12 +221,12 @@ collections:
   slug: open-astrada-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/capabilities/astrada-capability-edges.yml
+  href: https://artifacts.apis.io/astrada/capabilities/astrada-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/astrada-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/overlays/astrada-openapi-overlay.yaml
+  href: https://artifacts.apis.io/astrada/overlays/astrada-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/astrada-openapi-overlay.yaml
@@ -288,102 +287,102 @@ common:
   type: Compliance
   url: https://astrada.co/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/authentication/astrada-authentication.yml
+  href: https://artifacts.apis.io/astrada/authentication/astrada-authentication.yml
   title: ''
   type: Authentication
   url: authentication/astrada-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/scopes/astrada-scopes.yml
+  href: https://artifacts.apis.io/astrada/scopes/astrada-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/astrada-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/conventions/astrada-conventions.yml
+  href: https://artifacts.apis.io/astrada/conventions/astrada-conventions.yml
   title: ''
   type: Conventions
   url: conventions/astrada-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/errors/astrada-problem-types.yml
+  href: https://artifacts.apis.io/astrada/errors/astrada-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/astrada-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/errors/astrada-decline-codes.yml
+  href: https://artifacts.apis.io/astrada/errors/astrada-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/astrada-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/lifecycle/astrada-lifecycle.yml
+  href: https://artifacts.apis.io/astrada/lifecycle/astrada-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/astrada-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/changelog/astrada-changelog.yml
+  href: https://artifacts.apis.io/astrada/changelog/astrada-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/astrada-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/sandbox/astrada-sandbox.yml
+  href: https://artifacts.apis.io/astrada/sandbox/astrada-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/astrada-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/components/astrada-components.yml
+  href: https://artifacts.apis.io/astrada/components/astrada-components.yml
   title: ''
   type: Components
   url: components/astrada-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/data-model/astrada-data-model.yml
+  href: https://artifacts.apis.io/astrada/data-model/astrada-data-model.yml
   title: ''
   type: DataModel
   url: data-model/astrada-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/conformance/astrada-conformance.yml
+  href: https://artifacts.apis.io/astrada/conformance/astrada-conformance.yml
   title: ''
   type: Conformance
   url: conformance/astrada-conformance.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/asyncapi/astrada-events-asyncapi.yml
+  href: https://artifacts.apis.io/astrada/asyncapi/astrada-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/astrada-events-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/asyncapi/astrada-webhooks.yml
+  href: https://artifacts.apis.io/astrada/asyncapi/astrada-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/astrada-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/mcp/astrada-mcp.yml
+  href: https://artifacts.apis.io/astrada/mcp/astrada-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/astrada-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/llms/astrada-llms.txt
+  href: https://artifacts.apis.io/astrada/llms/astrada-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/astrada-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/astrada/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/agentic-access/astrada-agentic-access.yml
+  href: https://artifacts.apis.io/astrada/agentic-access/astrada-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/astrada-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/security/astrada-domain-security.yml
+  href: https://artifacts.apis.io/astrada/security/astrada-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/astrada-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/security/astrada-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/astrada/security/astrada-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/astrada-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/security/astrada-trust-center.yml
+  href: https://artifacts.apis.io/astrada/security/astrada-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/astrada-trust-center.yml
@@ -402,7 +401,7 @@ overview: 'Astrada publishes 15 API contracts indexed on the [APIs.io](https://a
 
 
   Astrada''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 29 more developer resources.'
-random_paper: 10
+random_paper: 16
 scopes:
 - name: Astrada Scopes
   scope_count: 34
@@ -410,7 +409,7 @@ scopes:
   summary_line: 34 scopes · implicit
 score:
   band: strong
-  composite: 54.7
+  composite: 56.9
   coverage:
     artifact_dirs: 25
     catalog_earned: 37.0
@@ -422,11 +421,11 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 58.1
-    developer_ergonomics: 53.0
-    discoverability: 73.2
+    contract_quality: 55.2
+    developer_ergonomics: 67.3
+    discoverability: 66.1
     operational_transparency: 50.0
-  previous_composite: 54.7
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -449,13 +448,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/screenshots/astrada-2026-07-25T201455.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/astrada/astrada-2026-07-25T201455.png
 security:
 - kind: authentication
   name: Astrada Authentication
@@ -473,6 +473,14 @@ security:
   name: Astrada Trust Center
   slug: astrada-trust-center
   summary_line: PCI DSS v4 Level 1 Service Provider, GDPR, CCPA
+skill_count: 3
+skills:
+- name: Enroll a card and monitor its transactions
+  slug: astrada-enroll-and-monitor-card
+- name: Link a bank account and reconcile card transactions
+  slug: astrada-link-bank-and-reconcile
+- name: Register and verify Astrada webhooks
+  slug: astrada-manage-webhooks
 slug: astrada
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'Core REST API for generating price quotes for truckload shipments, tendering loads to Uber Freight''s carrier network, and cancelling tenders. Returns guaranteed spot rates with expiration timestamps. '
@@ -48,7 +50,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uber-freight/refs/heads/main/security/uber-freight-domain-security.yml
+  href: https://artifacts.apis.io/uber-freight/security/uber-freight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uber-freight-domain-security.yml
@@ -85,17 +87,17 @@ common:
   type: X
   url: https://x.com/UberFreight
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uber-freight/refs/heads/main/plans/uber-freight-plans-pricing.yml
+  href: https://artifacts.apis.io/uber-freight/plans/uber-freight-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/uber-freight-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uber-freight/refs/heads/main/rate-limits/uber-freight-rate-limits.yml
+  href: https://artifacts.apis.io/uber-freight/rate-limits/uber-freight-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/uber-freight-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uber-freight/refs/heads/main/finops/uber-freight-finops.yml
+  href: https://artifacts.apis.io/uber-freight/finops/uber-freight-finops.yml
   title: ''
   type: FinOps
   url: finops/uber-freight-finops.yml
@@ -123,7 +125,7 @@ plans:
 - name: Uber Freight Plans Pricing
   plan_count: 2
   slug: uber-freight-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Uber Freight Rate Limits
@@ -138,7 +140,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
@@ -146,21 +148,21 @@ score:
     developer_ergonomics: 23.8
     discoverability: 71.4
     operational_transparency: 28.9
-  previous_composite: 24.3
+  previous_composite: 17.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/uber-freight/refs/heads/main/screenshots/uber-freight-2026-06-20T195933.png
+screenshot: https://apis.io/screenshots/uber-freight/uber-freight-2026-06-20T195933.png
 security:
 - kind: domain-security
   name: Uber Freight Domain Security

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.5
-  scored_at: '2026-10-17'
+  score: 29.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -85,7 +87,7 @@ apis:
   description: The Webhooks API from Upsie — 2 operation(s) for webhooks.
   name: Upsie Webhooks API
   slug: upsie-webhooks-api
-artifact_total: 22
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Upsie Webhooks
@@ -94,9 +96,6 @@ collections:
 - collection_type: postman
   name: Upsie Partner Network API
   slug: postman-upsie-partner-network-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Upsie Partner Network Authorization API
   slug: open-upsie-authorization-api
@@ -127,17 +126,17 @@ common:
   type: Blog
   url: https://upsie.com/news
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/overlays/upsie-partner-network-overlay.yaml
+  href: https://artifacts.apis.io/upsie/overlays/upsie-partner-network-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/upsie-partner-network-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/agentic-access/upsie-agentic-access.yml
+  href: https://artifacts.apis.io/upsie/agentic-access/upsie-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/upsie-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/security/upsie-domain-security.yml
+  href: https://artifacts.apis.io/upsie/security/upsie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upsie-domain-security.yml
@@ -154,7 +153,7 @@ common:
   type: APIReference
   url: https://documenter.getpostman.com/view/16328390/2s8ZDeUykK
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/postman/upsie-partner-network-api.postman_collection.json
+  href: https://artifacts.apis.io/upsie/postman/upsie-partner-network-api.postman_collection.json
   title: ''
   type: Postman
   url: postman/upsie-partner-network-api.postman_collection.json
@@ -183,52 +182,52 @@ common:
   type: SignUp
   url: https://upsie.com/create-account
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/authentication/upsie-authentication.yml
+  href: https://artifacts.apis.io/upsie/authentication/upsie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/upsie-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/sandbox/upsie-sandbox.yml
+  href: https://artifacts.apis.io/upsie/sandbox/upsie-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/upsie-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/conventions/upsie-conventions.yml
+  href: https://artifacts.apis.io/upsie/conventions/upsie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/upsie-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/asyncapi/upsie-webhooks.yml
+  href: https://artifacts.apis.io/upsie/asyncapi/upsie-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/upsie-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/data-model/upsie-data-model.yml
+  href: https://artifacts.apis.io/upsie/data-model/upsie-data-model.yml
   title: ''
   type: DataModel
   url: data-model/upsie-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/conformance/upsie-conformance.yml
+  href: https://artifacts.apis.io/upsie/conformance/upsie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/upsie-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/well-known/upsie-well-known.yml
+  href: https://artifacts.apis.io/upsie/well-known/upsie-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/upsie-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/mcp/upsie-mcp.yml
+  href: https://artifacts.apis.io/upsie/mcp/upsie-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/upsie-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/llms/upsie-llms.txt
+  href: https://artifacts.apis.io/upsie/llms/upsie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upsie-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/upsie/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -247,7 +246,7 @@ overview: 'Upsie is listed with 8 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Upsie''s developer surface includes engineering blog, documentation, API reference, support, signup flow, authentication, sandbox, and 17 more developer resources.'
-random_paper: 0
+random_paper: 22
 score:
   band: thin
   composite: 31.4
@@ -258,15 +257,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.1
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 22.0
+    contract_quality: 20.7
     developer_ergonomics: 45.8
-    discoverability: 78.6
-    operational_transparency: 10.5
-  previous_composite: 30.9
+    discoverability: 71.4
+    operational_transparency: 13.2
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,13 +282,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/screenshots/upsie-2026-08-17T082639.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/upsie/upsie-2026-08-17T082639.png
 security:
 - kind: authentication
   name: Upsie Authentication
@@ -299,6 +299,12 @@ security:
   name: Upsie Domain Security
   slug: upsie-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Create and submit a repair
+  slug: upsie-create-and-submit-repair
+- name: Monitor repair events with webhooks
+  slug: upsie-webhook-monitoring
 slug: upsie
 tags:
 - Company

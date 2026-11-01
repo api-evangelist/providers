@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Unified API to manage storage, endpoints, users, and roles across multiple Signiant products. Authenticates via OAuth 2.0 client_credentials, returning a one-hour JWT bearer token.
@@ -48,12 +50,17 @@ apis:
 - description: Schedules and runs jobs, manages users, and controls Signiant Manager software (Flight Deck) via a REST API.
   name: Signiant Flight Deck Manager REST API
   slug: signiant-flight-deck-manager-rest-api
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Signiant Webhooks
   slug: signiant-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/signiant/plans/signiant-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/signiant-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -63,7 +70,7 @@ common:
   type: Website
   url: https://www.signiant.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/security/signiant-domain-security.yml
+  href: https://artifacts.apis.io/signiant/security/signiant-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/signiant-domain-security.yml
@@ -84,7 +91,7 @@ common:
   type: GettingStarted
   url: https://developer.signiant.com/signiant-platform/getting-started/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/authentication/signiant-authentication.yml
+  href: https://artifacts.apis.io/signiant/authentication/signiant-authentication.yml
   title: ''
   type: Authentication
   url: authentication/signiant-authentication.yml
@@ -129,62 +136,70 @@ common:
   type: CodeSamples
   url: https://code-samples.developer.signiant.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/packages/signiant-packages.yml
+  href: https://artifacts.apis.io/signiant/packages/signiant-packages.yml
   title: ''
   type: Packages
   url: packages/signiant-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/packages/signiant-packages.yml
+  href: https://artifacts.apis.io/signiant/packages/signiant-packages.yml
   title: ''
   type: SDKs
   url: packages/signiant-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/asyncapi/signiant-webhooks.yml
+  href: https://artifacts.apis.io/signiant/asyncapi/signiant-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/signiant-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/lifecycle/signiant-lifecycle.yml
+  href: https://artifacts.apis.io/signiant/lifecycle/signiant-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/signiant-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/changelog/signiant-changelog.yml
+  href: https://artifacts.apis.io/signiant/changelog/signiant-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/signiant-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/conventions/signiant-conventions.yml
+  href: https://artifacts.apis.io/signiant/conventions/signiant-conventions.yml
   title: ''
   type: Conventions
   url: conventions/signiant-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/conformance/signiant-conformance.yml
+  href: https://artifacts.apis.io/signiant/conformance/signiant-conformance.yml
   title: ''
   type: Conformance
   url: conformance/signiant-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/well-known/signiant-well-known.yml
+  href: https://artifacts.apis.io/signiant/well-known/signiant-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/signiant-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/mcp/signiant-mcp.yml
+  href: https://artifacts.apis.io/signiant/mcp/signiant-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/signiant-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/llms/signiant-llms.txt
+  href: https://artifacts.apis.io/signiant/llms/signiant-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/signiant-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/components/signiant-components.yml
+  href: https://artifacts.apis.io/signiant/components/signiant-components.yml
   title: ''
   type: Components
   url: components/signiant-components.yml
 created: '2026-07-17'
 description: 'Signiant provides intelligent file-movement software that helps the world''s top content creators and distributors move large files fast and securely over public and private networks. The SaaS Signiant Platform unifies four products behind a common OAuth-secured REST API: the Signiant Platform API (storage, endpoints, users, and roles across products), Jet (automated system-to-system transfers with event webhooks), Media Shuttle (person-initiated transfers with Platform, Management, and System-to-Person APIs plus a browser SDK), and Flight Deck (the Manager REST API for scheduling and running jobs). All APIs authenticate with a client_id/client_secret pair exchanged for a one-hour OAuth 2.0 JWT bearer token at platform-api-service.services.cloud.signiant.com, and access is governed by product-scoped account roles.'
+finops:
+- has_sources: true
+  method: derived
+  name: Signiant Finops
+  primary_unit: ''
+  service_category: ''
+  slug: signiant-finops
+  template: true
 image: https://www.signiant.com/wp-content/uploads/signiant-logo.png
 layout: provider
 modified: '2026-10-06'
@@ -197,27 +212,31 @@ overview: 'Signiant is listed with 4 APIs on the [APIs.io](https://apis.io/) net
   The Signiant catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Signiant''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 3
+  Signiant''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 23 more developer resources.'
+plans:
+- name: Signiant Plans Pricing
+  plan_count: 1
+  slug: signiant-plans-pricing
+random_paper: 21
 score:
-  band: developing
-  composite: 49.7
+  band: strong
+  composite: 55.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 18
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 39.5
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 45.3
     developer_ergonomics: 64.3
-    discoverability: 78.6
-    operational_transparency: 42.1
-  previous_composite: 49.7
+    discoverability: 71.4
+    operational_transparency: 44.7
+  previous_composite: 50.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -227,14 +246,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/signiant/refs/heads/main/screenshots/signiant-2026-08-17T081855.png
+screenshot: https://apis.io/screenshots/signiant/signiant-2026-08-17T081855.png
 security:
 - kind: authentication
   name: Signiant Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 31.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 43
   slug: logicgate-agentic-access
   summary_line: 43 operations · 24 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL_template: https://{env}.logicgate.com
   baseurl_source: spec_template
@@ -99,11 +101,8 @@ apis:
   description: A [Workflow Map](https://help.logicgate.com/hc/en-us/articles/4402683117588) represents a relationship between two Workflows
   name: LogicGate Workflow Map API
   slug: logicgate-workflow-map-api
-artifact_total: 28
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Risk Cloud Access Audit API
   slug: open-logicgate-access-audit-api
@@ -138,6 +137,11 @@ collections:
   name: Risk Cloud Access Audit Workflow Map API
   slug: open-logicgate-workflow-map-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/logicgate/plans/logicgate-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/logicgate-plans-pricing.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -175,42 +179,42 @@ common:
   type: PrivacyPolicy
   url: https://www.logicgate.com/privacy-policy/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/openapi/_original/logicgate-risk-cloud-openapi-original.json
+  href: https://artifacts.apis.io/logicgate/openapi/_original/logicgate-risk-cloud-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/logicgate-risk-cloud-openapi-original.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/authentication/logicgate-authentication.yml
+  href: https://artifacts.apis.io/logicgate/authentication/logicgate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/logicgate-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/conventions/logicgate-conventions.yml
+  href: https://artifacts.apis.io/logicgate/conventions/logicgate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/logicgate-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/errors/logicgate-problem-types.yml
+  href: https://artifacts.apis.io/logicgate/errors/logicgate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/logicgate-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/lifecycle/logicgate-lifecycle.yml
+  href: https://artifacts.apis.io/logicgate/lifecycle/logicgate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/logicgate-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/changelog/logicgate-changelog.yml
+  href: https://artifacts.apis.io/logicgate/changelog/logicgate-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/logicgate-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/data-model/logicgate-data-model.yml
+  href: https://artifacts.apis.io/logicgate/data-model/logicgate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/logicgate-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/conformance/logicgate-conformance.yml
+  href: https://artifacts.apis.io/logicgate/conformance/logicgate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/logicgate-conformance.yml
@@ -219,47 +223,47 @@ common:
   type: Compliance
   url: https://trust.logicgate.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/overlays/logicgate-risk-cloud-overlay.yaml
+  href: https://artifacts.apis.io/logicgate/overlays/logicgate-risk-cloud-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/logicgate-risk-cloud-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/mcp/logicgate-mcp.yml
+  href: https://artifacts.apis.io/logicgate/mcp/logicgate-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/logicgate-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/llms/logicgate-llms.txt
+  href: https://artifacts.apis.io/logicgate/llms/logicgate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/logicgate-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/agentic-access/logicgate-agentic-access.yml
+  href: https://artifacts.apis.io/logicgate/agentic-access/logicgate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/logicgate-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/logicgate/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/well-known/logicgate-well-known.yml
+  href: https://artifacts.apis.io/logicgate/well-known/logicgate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/logicgate-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/well-known/logicgate-security.txt
+  href: https://artifacts.apis.io/logicgate/well-known/logicgate-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/logicgate-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/security/logicgate-trust-center.yml
+  href: https://artifacts.apis.io/logicgate/security/logicgate-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/logicgate-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/security/logicgate-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/logicgate/security/logicgate-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/logicgate-vulnerability-disclosure.yml
@@ -268,7 +272,7 @@ common:
   type: Security
   url: https://www.logicgate.com/vulnerability-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/security/logicgate-domain-security.yml
+  href: https://artifacts.apis.io/logicgate/security/logicgate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/logicgate-domain-security.yml
@@ -278,6 +282,14 @@ common:
   url: https://logicgate.com/
 created: '2026-07-17'
 description: LogicGate is the maker of Risk Cloud, a no-code governance, risk, and compliance (GRC) platform that lets teams design, automate, and connect their risk and compliance programs. The Risk Cloud API v2 is an API-first, RESTful interface for managing the building blocks of a Risk Cloud environment - Applications, Workflows, Workflow Maps, Steps, Paths (edge/next/redirect), Fields, Records, and Access Audits - so organizations can integrate, automate, and build custom workflows against their risk data. Authentication is an HTTP bearer "API Token" minted via HTTP basic against the token endpoint, and API access requires the paid API Access add-on. The v2 OpenAPI 3.1 specification is published on GitHub as the single source of truth, alongside a Postman collection and interactive documentation.
+finops:
+- has_sources: true
+  method: derived
+  name: Logicgate Finops
+  primary_unit: ''
+  service_category: ''
+  slug: logicgate-finops
+  template: true
 image: https://www.logicgate.com/wp-content/uploads/img-grid-01.png
 layout: provider
 modified: '2026-07-20'
@@ -287,13 +299,17 @@ network: true
 overview: 'LogicGate publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Audit API, Application API, Authentication API, and 8 more. Tagged areas include Company, GRC, Governance Risk and Compliance, Risk Management, and Compliance.
 
 
-  LogicGate''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, changelog, and 23 more developer resources.'
-random_paper: 19
+  LogicGate''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, changelog, and 24 more developer resources.'
+plans:
+- name: Logicgate Plans Pricing
+  plan_count: 0
+  slug: logicgate-plans-pricing
+random_paper: 7
 score:
   band: developing
-  composite: 43.7
+  composite: 46.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -301,13 +317,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 57.8
-    developer_ergonomics: 58.9
-    discoverability: 64.3
-    operational_transparency: 28.9
-  previous_composite: 43.7
+    contract_quality: 54.4
+    developer_ergonomics: 61.3
+    discoverability: 57.1
+    operational_transparency: 31.6
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -329,14 +345,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 31.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/screenshots/logicgate-2026-07-25T225458.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/logicgate/logicgate-2026-07-25T225458.png
 security:
 - kind: authentication
   name: Logicgate Authentication
@@ -354,6 +371,12 @@ security:
   name: Logicgate Trust Center
   slug: logicgate-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
+skill_count: 2
+skills:
+- name: Build a Risk Cloud workflow with steps and paths
+  slug: logicgate-build-workflow
+- name: Read and export Risk Cloud records
+  slug: logicgate-export-records
 slug: logicgate
 tags:
 - Company

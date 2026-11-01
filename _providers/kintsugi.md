@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-17'
+  score: 39.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -91,11 +93,8 @@ apis:
   description: Committed sales transactions and credit notes.
   name: Kintsugi Transactions API
   slug: kintsugi-transactions-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kintsugi Tax Address Validation API
   slug: open-kintsugi-address-validation-api
@@ -136,22 +135,22 @@ common:
   type: Blog
   url: https://trykintsugi.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/capabilities/kintsugi-capability-edges.yml
+  href: https://artifacts.apis.io/kintsugi/capabilities/kintsugi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kintsugi-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/agentic-access/kintsugi-agentic-access.yml
+  href: https://artifacts.apis.io/kintsugi/agentic-access/kintsugi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kintsugi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/security/kintsugi-domain-security.yml
+  href: https://artifacts.apis.io/kintsugi/security/kintsugi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kintsugi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/authentication/kintsugi-authentication.yml
+  href: https://artifacts.apis.io/kintsugi/authentication/kintsugi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kintsugi-authentication.yml
@@ -172,17 +171,17 @@ common:
   type: Documentation
   url: https://docs.trykintsugi.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/plans/kintsugi-plans-pricing.yml
+  href: https://artifacts.apis.io/kintsugi/plans/kintsugi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kintsugi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/rate-limits/kintsugi-rate-limits.yml
+  href: https://artifacts.apis.io/kintsugi/rate-limits/kintsugi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kintsugi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/finops/kintsugi-finops.yml
+  href: https://artifacts.apis.io/kintsugi/finops/kintsugi-finops.yml
   title: ''
   type: FinOps
   url: finops/kintsugi-finops.yml
@@ -214,14 +213,14 @@ plans:
 - name: Kintsugi Plans Pricing
   plan_count: 3
   slug: kintsugi-plans-pricing
-random_paper: 20
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Kintsugi Rate Limits
   slug: kintsugi-rate-limits
 score:
   band: thin
-  composite: 38.1
+  composite: 35.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 57.0
@@ -229,15 +228,15 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
-    contract_quality: 47.7
+    contract_quality: 46.3
     developer_ergonomics: 32.1
-    discoverability: 68.3
-    operational_transparency: 23.7
-  previous_composite: 36.2
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -252,13 +251,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/screenshots/kintsugi-2026-07-25T223847.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kintsugi/kintsugi-2026-07-25T223847.png
 security:
 - kind: authentication
   name: Kintsugi Authentication

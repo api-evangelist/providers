@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/osaro/refs/heads/main/security/osaro-domain-security.yml
+  href: https://artifacts.apis.io/osaro/security/osaro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/osaro-domain-security.yml
@@ -83,27 +85,27 @@ common:
   type: YouTube
   url: https://www.youtube.com/@OsaroAI
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/osaro/refs/heads/main/conformance/osaro-conformance.yml
+  href: https://artifacts.apis.io/osaro/conformance/osaro-conformance.yml
   title: ''
   type: Compliance
   url: conformance/osaro-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/osaro/refs/heads/main/llms/osaro-llms.txt
+  href: https://artifacts.apis.io/osaro/llms/osaro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/osaro-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/osaro/refs/heads/main/plans/osaro-plans-pricing.yml
+  href: https://artifacts.apis.io/osaro/plans/osaro-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/osaro-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/osaro/refs/heads/main/well-known/osaro-well-known.yml
+  href: https://artifacts.apis.io/osaro/well-known/osaro-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/osaro-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/osaro/refs/heads/main/security/osaro-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/osaro/security/osaro-vulnerability-disclosure.yml
   title: ''
   type: SecurityProbe
   url: security/osaro-vulnerability-disclosure.yml
@@ -150,7 +152,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
@@ -165,7 +167,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 13.5
+  previous_composite: 13.6
   provenance:
     conformance: first-party
   regulatory:
@@ -174,14 +176,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/osaro/refs/heads/main/screenshots/osaro-2026-09-02T150915.png
+screenshot: https://apis.io/screenshots/osaro/osaro-2026-09-02T150915.png
 security:
 - kind: domain-security
   name: Osaro Domain Security

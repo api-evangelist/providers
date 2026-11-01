@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.5
-  scored_at: '2026-10-17'
+  score: 7.6
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -32,22 +34,22 @@ common:
   type: BlogRSS
   url: https://awolvision.com/blogs/news.atom
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/awolvision/refs/heads/main/llms/awolvision-llms.txt
+  href: https://artifacts.apis.io/awolvision/llms/awolvision-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/awolvision-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/awolvision/refs/heads/main/well-known/awolvision-well-known.yml
+  href: https://artifacts.apis.io/awolvision/well-known/awolvision-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/awolvision-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/awolvision/refs/heads/main/hosts/awolvision-hosts.yml
+  href: https://artifacts.apis.io/awolvision/hosts/awolvision-hosts.yml
   title: ''
   type: Hosts
   url: hosts/awolvision-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/awolvision/refs/heads/main/vendors/awolvision-vendors.yml
+  href: https://artifacts.apis.io/awolvision/vendors/awolvision-vendors.yml
   title: ''
   type: Vendors
   url: vendors/awolvision-vendors.yml
@@ -72,7 +74,7 @@ common:
   type: Blog
   url: https://awolvision.com/blogs/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/awolvision/refs/heads/main/security/awolvision-domain-security.yml
+  href: https://artifacts.apis.io/awolvision/security/awolvision-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/awolvision-domain-security.yml
@@ -100,10 +102,10 @@ overview: 'Awolvision is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Awolvision''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 21
+random_paper: 19
 score:
-  band: emerging
-  composite: 11.1
+  band: minimal
+  composite: 10.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -117,9 +119,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 11.1
+  previous_composite: 10.4
   provenance:
     mcp: unknown
   regulatory:
@@ -128,14 +130,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/awolvision/refs/heads/main/screenshots/awolvision-2026-10-11T101222.png
+screenshot: https://apis.io/screenshots/awolvision/awolvision-2026-10-11T101222.png
 security:
 - kind: domain-security
   name: Awolvision Domain Security

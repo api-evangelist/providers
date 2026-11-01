@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -74,32 +76,32 @@ common:
   type: Compliance
   url: https://trust.allstacks.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allstacks/refs/heads/main/security/allstacks-trust-center.yml
+  href: https://artifacts.apis.io/allstacks/security/allstacks-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/allstacks-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allstacks/refs/heads/main/security/allstacks-domain-security.yml
+  href: https://artifacts.apis.io/allstacks/security/allstacks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allstacks-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allstacks/refs/heads/main/well-known/allstacks-well-known.yml
+  href: https://artifacts.apis.io/allstacks/well-known/allstacks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/allstacks-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allstacks/refs/heads/main/authentication/allstacks-authentication.yml
+  href: https://artifacts.apis.io/allstacks/authentication/allstacks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/allstacks-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allstacks/refs/heads/main/scopes/allstacks-scopes.yml
+  href: https://artifacts.apis.io/allstacks/scopes/allstacks-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/allstacks-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allstacks/refs/heads/main/conformance/allstacks-conformance.yml
+  href: https://artifacts.apis.io/allstacks/conformance/allstacks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/allstacks-conformance.yml
@@ -115,7 +117,7 @@ overview: 'Allstacks is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Allstacks'' developer surface includes engineering blog, pricing, signup flow, authentication, and 11 more developer resources.'
-random_paper: 16
+random_paper: 2
 scopes:
 - name: Allstacks Scopes
   scope_count: 1
@@ -152,14 +154,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/allstacks/refs/heads/main/screenshots/allstacks-2026-07-25T195720.png
+screenshot: https://apis.io/screenshots/allstacks/allstacks-2026-07-25T195720.png
 security:
 - kind: authentication
   name: Allstacks Authentication

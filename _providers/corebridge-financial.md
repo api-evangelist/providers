@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,29 +35,26 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
-artifact_total: 6
+artifact_total: 5
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Corebridge Financial API
   slug: open-corebridgefinancial
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/corebridge-financial/refs/heads/main/plans/corebridge-financial-plans-pricing.yml
+  href: https://artifacts.apis.io/corebridge-financial/plans/corebridge-financial-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/corebridge-financial-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/corebridge-financial/refs/heads/main/rate-limits/corebridge-financial-rate-limits.yml
+  href: https://artifacts.apis.io/corebridge-financial/rate-limits/corebridge-financial-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/corebridge-financial-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/corebridge-financial/refs/heads/main/finops/corebridge-financial-finops.yml
+  href: https://artifacts.apis.io/corebridge-financial/finops/corebridge-financial-finops.yml
   title: ''
   type: FinOps
   url: finops/corebridge-financial-finops.yml
@@ -64,7 +63,7 @@ common:
   type: Blog
   url: https://www.corebridgefinancial.com/newsroom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/corebridge-financial/refs/heads/main/security/corebridge-financial-domain-security.yml
+  href: https://artifacts.apis.io/corebridge-financial/security/corebridge-financial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/corebridge-financial-domain-security.yml
@@ -122,7 +121,7 @@ finops:
 - has_sources: false
   method: generated
   name: Corebridge Financial Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: corebridge-financial-finops
   template: true
@@ -140,14 +139,14 @@ plans:
 - name: Corebridge Financial Plans Pricing
   plan_count: 3
   slug: corebridge-financial-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Corebridge Financial Rate Limits
   slug: corebridge-financial-rate-limits
 score:
-  band: minimal
-  composite: 8.9
+  band: emerging
+  composite: 11.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 33.0
@@ -155,29 +154,29 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 7.9
-  previous_composite: 10.0
+  previous_composite: 11.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 8.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 12.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/corebridge-financial/refs/heads/main/screenshots/corebridge-financial-2026-06-20T175023.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/corebridge-financial/corebridge-financial-2026-06-20T175023.png
 security:
 - kind: domain-security
   name: Corebridge Financial Domain Security

@@ -23,21 +23,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.2
-  scored_at: '2026-10-17'
+  score: 21.8
+  scored_at: '2026-10-31'
 api_count: 15
 apis:
 - baseURL: https://api.isportsapi.com/
@@ -115,11 +117,8 @@ apis:
   description: The Football Stats API from iSports API — 10 operation(s) for football stats.
   name: iSports API Football Stats API
   slug: isports-api-football-stats-api
-artifact_total: 146
+artifact_total: 151
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: iSports Basketball Common API API
   slug: open-isports-api-basketball-common-api-api
@@ -171,7 +170,7 @@ common:
   type: Website
   url: https://www.isportsapi.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/overlays/isports-api-openapi-overlay.yaml
+  href: https://artifacts.apis.io/isports-api/overlays/isports-api-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/isports-api-openapi-overlay.yaml
@@ -232,72 +231,72 @@ common:
   type: ChangeLog
   url: https://www.isportsapi.com/en/docs.html?id=log_1
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/changelog/isports-api-changelog.yml
+  href: https://artifacts.apis.io/isports-api/changelog/isports-api-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/isports-api-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/authentication/isports-api-authentication.yml
+  href: https://artifacts.apis.io/isports-api/authentication/isports-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/isports-api-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/conventions/isports-api-conventions.yml
+  href: https://artifacts.apis.io/isports-api/conventions/isports-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/isports-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/lifecycle/isports-api-lifecycle.yml
+  href: https://artifacts.apis.io/isports-api/lifecycle/isports-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/isports-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/conformance/isports-api-conformance.yml
+  href: https://artifacts.apis.io/isports-api/conformance/isports-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/isports-api-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/packages/isports-api-packages.yml
+  href: https://artifacts.apis.io/isports-api/packages/isports-api-packages.yml
   title: ''
   type: Packages
   url: packages/isports-api-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/packages/isports-api-packages.yml
+  href: https://artifacts.apis.io/isports-api/packages/isports-api-packages.yml
   title: ''
   type: SDKs
   url: packages/isports-api-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/components/isports-api-components.yml
+  href: https://artifacts.apis.io/isports-api/components/isports-api-components.yml
   title: ''
   type: Components
   url: components/isports-api-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/sandbox/isports-api-sandbox.yml
+  href: https://artifacts.apis.io/isports-api/sandbox/isports-api-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/isports-api-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/plans/isports-api-plans.yml
+  href: https://artifacts.apis.io/isports-api/plans/isports-api-plans.yml
   title: ''
   type: Plans
   url: plans/isports-api-plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/rate-limits/isports-api-rate-limits.yml
+  href: https://artifacts.apis.io/isports-api/rate-limits/isports-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/isports-api-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/security/isports-api-domain-security.yml
+  href: https://artifacts.apis.io/isports-api/security/isports-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/isports-api-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/llms/isports-api-llms.txt
+  href: https://artifacts.apis.io/isports-api/llms/isports-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/isports-api-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/isports-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -637,6 +636,14 @@ examples:
 - key_count: 3
   name: Getlanguagevn
   slug: getLanguagevn
+finops:
+- has_sources: true
+  method: derived
+  name: Isports Api Finops
+  primary_unit: quarter
+  service_category: ''
+  slug: isports-api-finops
+  template: false
 image: https://globalcdn.feijing88.com/webpc/img/silk/isports_api_og.png
 layout: provider
 modified: '2026-09-16'
@@ -649,32 +656,35 @@ overview: 'iSports API is listed with 15 APIs on the [APIs.io](https://apis.io/)
   iSports API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 plans:
 - name: Isports Api Plans
-  plan_count: 14
+  plan_count: 16
   slug: isports-api-plans
-random_paper: 3
+- name: Isports Api Price Estimates
+  plan_count: 0
+  slug: isports-api-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Isports Api Rate Limits
   slug: isports-api-rate-limits
 score:
   band: developing
-  composite: 46.6
+  composite: 48.3
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 52.0
+    artifact_dirs: 24
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 16.0
-    developer_ergonomics: 75.6
-    discoverability: 78.6
-    operational_transparency: 18.4
-  previous_composite: 46.5
+    developer_ergonomics: 78.0
+    discoverability: 71.4
+    operational_transparency: 21.1
+  previous_composite: 46.7
   provenance:
     conformance: derived
     contracts:
@@ -689,14 +699,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/screenshots/isports-api-2026-08-17T081004.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/isports-api/isports-api-2026-08-17T081004.png
 security:
 - kind: authentication
   name: Isports Api Authentication
@@ -706,6 +716,16 @@ security:
   name: Isports Api Domain Security
   slug: isports-api-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: Poll basketball livescores and standings
+  slug: isports-api-basketball-livescores
+- name: Poll football livescores efficiently
+  slug: isports-api-football-livescores
+- name: Read football odds and track line movement
+  slug: isports-api-football-odds
+- name: Load and cache iSports reference data
+  slug: isports-api-reference-data
 slug: isports-api
 tags:
 - Sports API

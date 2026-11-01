@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Electra's Open Charge Point Interface implementation in the Charge Point Operator role — the roaming interface an e-mobility service provider calls to read Electra's locations and tariffs, authorise i
@@ -113,62 +115,62 @@ common:
   type: Careers
   url: https://careers.go-electra.com/en
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/go-electra/refs/heads/main/authentication/go-electra-authentication.yml
+  href: https://artifacts.apis.io/go-electra/authentication/go-electra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/go-electra-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/go-electra/refs/heads/main/conformance/go-electra-conformance.yml
+  href: https://artifacts.apis.io/go-electra/conformance/go-electra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/go-electra-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/go-electra/refs/heads/main/conventions/go-electra-conventions.yml
+  href: https://artifacts.apis.io/go-electra/conventions/go-electra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/go-electra-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/go-electra/refs/heads/main/errors/go-electra-problem-types.yml
+  href: https://artifacts.apis.io/go-electra/errors/go-electra-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/go-electra-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/go-electra/refs/heads/main/lifecycle/go-electra-lifecycle.yml
+  href: https://artifacts.apis.io/go-electra/lifecycle/go-electra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/go-electra-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/go-electra/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/go-electra/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/go-electra/refs/heads/main/security/go-electra-domain-security.yml
+  href: https://artifacts.apis.io/go-electra/security/go-electra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/go-electra-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/go-electra/refs/heads/main/packages/go-electra-packages.yml
+  href: https://artifacts.apis.io/go-electra/packages/go-electra-packages.yml
   title: ''
   type: Packages
   url: packages/go-electra-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/go-electra/refs/heads/main/plans/go-electra-plans-pricing.yml
+  href: https://artifacts.apis.io/go-electra/plans/go-electra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/go-electra-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/go-electra/refs/heads/main/rate-limits/go-electra-rate-limits.yml
+  href: https://artifacts.apis.io/go-electra/rate-limits/go-electra-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/go-electra-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/go-electra/refs/heads/main/mcp/go-electra-mcp.yml
+  href: https://artifacts.apis.io/go-electra/mcp/go-electra-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/go-electra-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/go-electra/refs/heads/main/llms/go-electra-llms.txt
+  href: https://artifacts.apis.io/go-electra/llms/go-electra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/go-electra-llms.txt
@@ -200,14 +202,14 @@ plans:
 - name: Go Electra Plans Pricing
   plan_count: 4
   slug: go-electra-plans-pricing
-random_paper: 5
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Go Electra Rate Limits
   slug: go-electra-rate-limits
 score:
   band: thin
-  composite: 31.4
+  composite: 32.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 49.0
@@ -217,7 +219,7 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 77.6
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 6.5
     developer_ergonomics: 19.0
@@ -231,7 +233,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 31.4
+  previous_composite: 32.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -241,14 +243,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 24.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/go-electra/refs/heads/main/screenshots/go-electra-2026-09-02T145618.png
+screenshot: https://apis.io/screenshots/go-electra/go-electra-2026-09-02T145618.png
 security:
 - kind: authentication
   name: Go Electra Authentication

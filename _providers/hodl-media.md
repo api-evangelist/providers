@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hodl-media/refs/heads/main/security/hodl-media-domain-security.yml
+  href: https://artifacts.apis.io/hodl-media/security/hodl-media-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hodl-media-domain-security.yml
@@ -69,12 +71,12 @@ overview: 'HODL Media is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   HODL Media''s developer surface includes support and 4 more developer resources.'
-random_paper: 12
+random_paper: 20
 score:
   band: minimal
-  composite: 7.9
+  composite: 8.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -85,24 +87,24 @@ score:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 4.8
     discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 7.9
+  previous_composite: 8.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hodl-media/refs/heads/main/screenshots/hodl-media-2026-07-25T221314.png
+screenshot: https://apis.io/screenshots/hodl-media/hodl-media-2026-07-25T221314.png
 security:
 - kind: domain-security
   name: Hodl Media Domain Security

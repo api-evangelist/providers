@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 25.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Platform offering API documentation that stays in sync with OpenAPI specifications.
@@ -68,60 +70,65 @@ apis:
 - description: The workspaces API from Saga Labs — 1 operation(s) for workspaces.
   name: Saga Labs Workspaces API
   slug: docoapi-workspaces-api
-artifact_total: 18
+artifact_total: 19
 common:
+- group: other
+  href: https://artifacts.apis.io/docoapi/capabilities/docoapi-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/docoapi-capability-edges.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docoapi/refs/heads/main/rules/docoapi-rules.yml
+  href: https://artifacts.apis.io/docoapi/rules/docoapi-rules.yml
   title: ''
   type: Spectral
   url: rules/docoapi-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docoapi/refs/heads/main/json-ld/docoapi-context.jsonld
+  href: https://artifacts.apis.io/docoapi/json-ld/docoapi-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/docoapi-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docoapi/refs/heads/main/vocabulary/docoapi-vocabulary.yml
+  href: https://artifacts.apis.io/docoapi/vocabulary/docoapi-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/docoapi-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docoapi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/docoapi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docoapi/refs/heads/main/data-model/docoapi-data-model.yml
+  href: https://artifacts.apis.io/docoapi/data-model/docoapi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/docoapi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docoapi/refs/heads/main/errors/docoapi-problem-types.yml
+  href: https://artifacts.apis.io/docoapi/errors/docoapi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/docoapi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docoapi/refs/heads/main/conformance/docoapi-conformance.yml
+  href: https://artifacts.apis.io/docoapi/conformance/docoapi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/docoapi-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docoapi/refs/heads/main/llms/docoapi-llms.txt
+  href: https://artifacts.apis.io/docoapi/llms/docoapi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/docoapi-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docoapi/refs/heads/main/mcp/docoapi-mcp.yml
+  href: https://artifacts.apis.io/docoapi/mcp/docoapi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/docoapi-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/docoapi/refs/heads/main/hosts/docoapi-hosts.yml
+  href: https://artifacts.apis.io/docoapi/hosts/docoapi-hosts.yml
   title: ''
   type: Hosts
   url: hosts/docoapi-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/docoapi/refs/heads/main/vendors/docoapi-vendors.yml
+  href: https://artifacts.apis.io/docoapi/vendors/docoapi-vendors.yml
   title: ''
   type: Vendors
   url: vendors/docoapi-vendors.yml
@@ -130,7 +137,7 @@ common:
   type: APIReference
   url: https://docoapi.com/vs/swagger
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docoapi/refs/heads/main/security/docoapi-domain-security.yml
+  href: https://artifacts.apis.io/docoapi/security/docoapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/docoapi-domain-security.yml
@@ -184,8 +191,8 @@ overview: 'Saga Labs publishes 14 API contracts indexed on the [APIs.io](https:/
   The Saga Labs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Saga Labs'' developer surface includes API reference, pricing, signup flow, and 15 more developer resources.'
-random_paper: 9
+  Saga Labs'' developer surface includes API reference, pricing, signup flow, and 16 more developer resources.'
+random_paper: 15
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -201,21 +208,23 @@ rules:
   slug: docoapi-rules
 score:
   band: thin
-  composite: 32.1
+  composite: 31.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 46.8
     catalog_earned_first_party: 0.0
     catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 22.0
-    contract_quality: 50.5
+    contract_quality: 50.1
     developer_ergonomics: 8.9
-    discoverability: 63.3
+    discoverability: 53.3
     operational_transparency: 0.0
+  previous_composite: 31.7
   provenance:
     conformance: derived
     contracts:
@@ -231,16 +240,22 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Docoapi Domain Security
   slug: docoapi-domain-security
   summary_line: TLSv1.3
+skill_count: 1
+skills:
+- name: create-project
+  slug: docoapi-create-project
 slug: docoapi
 tags:
 - Company

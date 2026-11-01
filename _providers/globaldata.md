@@ -14,22 +14,24 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A governed Model Context Protocol gateway that turns GlobalData's business intelligence into tools an AI agent can call directly. One MCP server endpoint per industry vertical, all sharing a single to
   name: GlobalData Intelligence Center MCP
   slug: globaldata-intelligence-center-mcp
-artifact_total: 7
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -72,67 +74,67 @@ common:
   type: Blog
   url: https://www.globaldata.com/data-insights/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/globaldata/refs/heads/main/well-known/globaldata-well-known.yml
+  href: https://artifacts.apis.io/globaldata/well-known/globaldata-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/globaldata-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/globaldata/refs/heads/main/mcp/globaldata-mcp.yml
+  href: https://artifacts.apis.io/globaldata/mcp/globaldata-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/globaldata-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/globaldata/refs/heads/main/authentication/globaldata-authentication.yml
+  href: https://artifacts.apis.io/globaldata/authentication/globaldata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/globaldata-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/globaldata/refs/heads/main/scopes/globaldata-scopes.yml
+  href: https://artifacts.apis.io/globaldata/scopes/globaldata-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/globaldata-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/globaldata/refs/heads/main/conformance/globaldata-conformance.yml
+  href: https://artifacts.apis.io/globaldata/conformance/globaldata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/globaldata-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/globaldata/refs/heads/main/conventions/globaldata-conventions.yml
+  href: https://artifacts.apis.io/globaldata/conventions/globaldata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/globaldata-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/globaldata/refs/heads/main/lifecycle/globaldata-lifecycle.yml
+  href: https://artifacts.apis.io/globaldata/lifecycle/globaldata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/globaldata-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/globaldata/refs/heads/main/packages/globaldata-packages.yml
+  href: https://artifacts.apis.io/globaldata/packages/globaldata-packages.yml
   title: ''
   type: Packages
   url: packages/globaldata-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/globaldata/refs/heads/main/plans/globaldata-plans-pricing.yml
+  href: https://artifacts.apis.io/globaldata/plans/globaldata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/globaldata-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/globaldata/refs/heads/main/rate-limits/globaldata-rate-limits.yml
+  href: https://artifacts.apis.io/globaldata/rate-limits/globaldata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/globaldata-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/globaldata/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/globaldata/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/globaldata/refs/heads/main/llms/globaldata-llms.txt
+  href: https://artifacts.apis.io/globaldata/llms/globaldata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/globaldata-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/globaldata/refs/heads/main/security/globaldata-domain-security.yml
+  href: https://artifacts.apis.io/globaldata/security/globaldata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/globaldata-domain-security.yml
@@ -156,7 +158,7 @@ plans:
 - name: Globaldata Plans Pricing
   plan_count: 0
   slug: globaldata-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Globaldata Rate Limits
@@ -167,8 +169,8 @@ scopes:
   slug: globaldata-scopes
   summary_line: 4 scopes
 score:
-  band: emerging
-  composite: 22.5
+  band: thin
+  composite: 28.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -181,10 +183,10 @@ score:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 20.8
-    discoverability: 61.7
+    developer_ergonomics: 47.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 22.5
+  previous_composite: 28.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -195,14 +197,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/globaldata/refs/heads/main/screenshots/globaldata-2026-10-11T104933.png
+screenshot: https://apis.io/screenshots/globaldata/globaldata-2026-10-11T104933.png
 security:
 - kind: authentication
   name: Globaldata Authentication
@@ -212,6 +214,20 @@ security:
   name: Globaldata Domain Security
   slug: globaldata-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 6
+skills:
+- name: globaldata-company-profile
+  slug: globaldata-company-profile
+- name: globaldata-connect-and-orient
+  slug: globaldata-connect-and-orient
+- name: globaldata-deal-activity
+  slug: globaldata-deal-activity
+- name: globaldata-filings-evidence
+  slug: globaldata-filings-evidence
+- name: globaldata-hiring-signal
+  slug: globaldata-hiring-signal
+- name: globaldata-news-sentiment
+  slug: globaldata-news-sentiment
 slug: globaldata
 tags:
 - Company

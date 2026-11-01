@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,16 +35,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Production RedotPay HTTP API surface behind the redotpay CLI and the redotpay-payment MCP server. Provides OAuth2 device-flow authentication and the agentic Machine Payments Protocol (MPP) endpoint th
   name: RedotPay Agentic Payments API
   slug: redotpay-agentic-payments-api
-artifact_total: 5
+artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redotpay/refs/heads/main/security/redotpay-domain-security.yml
+  href: https://artifacts.apis.io/redotpay/security/redotpay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/redotpay-domain-security.yml
@@ -75,62 +77,62 @@ common:
   type: SignUp
   url: https://www.redotpay.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/redotpay/refs/heads/main/packages/redotpay-packages.yml
+  href: https://artifacts.apis.io/redotpay/packages/redotpay-packages.yml
   title: ''
   type: Packages
   url: packages/redotpay-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/redotpay/refs/heads/main/cli/redotpay-cli.yml
+  href: https://artifacts.apis.io/redotpay/cli/redotpay-cli.yml
   title: ''
   type: CLI
   url: cli/redotpay-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redotpay/refs/heads/main/mcp/redotpay-mcp.yml
+  href: https://artifacts.apis.io/redotpay/mcp/redotpay-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/redotpay-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redotpay/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/redotpay/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redotpay/refs/heads/main/authentication/redotpay-authentication.yml
+  href: https://artifacts.apis.io/redotpay/authentication/redotpay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/redotpay-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redotpay/refs/heads/main/scopes/redotpay-scopes.yml
+  href: https://artifacts.apis.io/redotpay/scopes/redotpay-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/redotpay-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redotpay/refs/heads/main/conventions/redotpay-conventions.yml
+  href: https://artifacts.apis.io/redotpay/conventions/redotpay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/redotpay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redotpay/refs/heads/main/conventions/redotpay-conventions.yml
+  href: https://artifacts.apis.io/redotpay/conventions/redotpay-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/redotpay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redotpay/refs/heads/main/conformance/redotpay-conformance.yml
+  href: https://artifacts.apis.io/redotpay/conformance/redotpay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/redotpay-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redotpay/refs/heads/main/lifecycle/redotpay-lifecycle.yml
+  href: https://artifacts.apis.io/redotpay/lifecycle/redotpay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/redotpay-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redotpay/refs/heads/main/llms/redotpay-llms.txt
+  href: https://artifacts.apis.io/redotpay/llms/redotpay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/redotpay-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redotpay/refs/heads/main/well-known/redotpay-well-known.yml
+  href: https://artifacts.apis.io/redotpay/well-known/redotpay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/redotpay-well-known.yml
@@ -150,7 +152,7 @@ overview: 'Redotpay is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Redotpay''s developer surface includes documentation, support, engineering blog, signup flow, CLI, authentication, and 14 more developer resources.'
-random_paper: 14
+random_paper: 8
 scopes:
 - name: Redotpay Scopes
   scope_count: 1
@@ -158,23 +160,23 @@ scopes:
   summary_line: 1 scope
 score:
   band: emerging
-  composite: 18.4
+  composite: 19.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 33.3
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 18.3
+    developer_ergonomics: 42.9
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 19.6
   provenance:
     conformance: derived
     mcp: first-party
@@ -185,14 +187,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/redotpay/refs/heads/main/screenshots/redotpay-2026-09-02T153151.png
+screenshot: https://apis.io/screenshots/redotpay/redotpay-2026-09-02T153151.png
 security:
 - kind: authentication
   name: Redotpay Authentication
@@ -202,6 +204,10 @@ security:
   name: Redotpay Domain Security
   slug: redotpay-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: redotpay-payment
+  slug: redotpay-payment
 slug: redotpay
 tags:
 - Company

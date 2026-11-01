@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 25.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -185,11 +187,8 @@ apis:
   description: The subpackage_websites API from Middesk — 1 operation(s) for subpackage_websites.
   name: Middesk Subpackage Websites API
   slug: middesk-subpackage-websites-api
-artifact_total: 89
+artifact_total: 88
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Middesk subpackage_actions API
   slug: open-middesk-subpackage-actions-api
@@ -273,22 +272,22 @@ collections:
   slug: open-middesk-subpackage-websites-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/capabilities/middesk-capability-edges.yml
+  href: https://artifacts.apis.io/middesk/capabilities/middesk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/middesk-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/agentic-access/middesk-agentic-access.yml
+  href: https://artifacts.apis.io/middesk/agentic-access/middesk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/middesk-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/security/middesk-domain-security.yml
+  href: https://artifacts.apis.io/middesk/security/middesk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/middesk-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/authentication/middesk-authentication.yml
+  href: https://artifacts.apis.io/middesk/authentication/middesk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/middesk-authentication.yml
@@ -325,17 +324,17 @@ common:
   type: X
   url: https://x.com/middeskhq
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/plans/middesk-plans-pricing.yml
+  href: https://artifacts.apis.io/middesk/plans/middesk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/middesk-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/rate-limits/middesk-rate-limits.yml
+  href: https://artifacts.apis.io/middesk/rate-limits/middesk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/middesk-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/finops/middesk-finops.yml
+  href: https://artifacts.apis.io/middesk/finops/middesk-finops.yml
   title: ''
   type: FinOps
   url: finops/middesk-finops.yml
@@ -448,7 +447,7 @@ plans:
 - name: Middesk Plans Pricing
   plan_count: 3
   slug: middesk-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Middesk Rate Limits
@@ -467,23 +466,23 @@ rules:
   slug: middesk-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.2
+  composite: 35.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 56.3
     catalog_earned_first_party: 0.0
     catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.9
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 53.1
-    developer_ergonomics: 28.6
+    contract_quality: 52.3
+    developer_ergonomics: 35.7
     discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 41.1
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -497,13 +496,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/screenshots/middesk-2026-06-20T185620.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/middesk/middesk-2026-06-20T185620.png
 security:
 - kind: authentication
   name: Middesk Authentication

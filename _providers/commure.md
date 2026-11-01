@@ -13,7 +13,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +28,16 @@ agent_readiness:
     idempotency: derived
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.8
-  scored_at: '2026-10-17'
+  score: 37.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api-{tenant-id}.developer.commure.com
@@ -49,14 +50,14 @@ apis:
   description: The FHIR API from Commure — 49 operation(s) for fhir.
   name: Commure FHIR API
   slug: commure-fhir-api
-artifact_total: 9
+artifact_total: 15
 collections:
 - collection_type: open
   name: Commure FHIR API
   slug: open-commure-fhir
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/capabilities/commure-capability-edges.yml
+  href: https://artifacts.apis.io/commure/capabilities/commure-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/commure-capability-edges.yml
@@ -77,52 +78,52 @@ common:
   type: Postman
   url: https://www.postman.com/commure/commure/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/openapi/_original/commure-fhir-openapi.yml
+  href: https://artifacts.apis.io/commure/openapi/_original/commure-fhir-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/commure-fhir-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/authentication/commure-authentication.yml
+  href: https://artifacts.apis.io/commure/authentication/commure-authentication.yml
   title: ''
   type: Authentication
   url: authentication/commure-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/scopes/commure-scopes.yml
+  href: https://artifacts.apis.io/commure/scopes/commure-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/commure-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/conventions/commure-conventions.yml
+  href: https://artifacts.apis.io/commure/conventions/commure-conventions.yml
   title: ''
   type: Conventions
   url: conventions/commure-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/conventions/commure-conventions.yml
+  href: https://artifacts.apis.io/commure/conventions/commure-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/commure-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/errors/commure-problem-types.yml
+  href: https://artifacts.apis.io/commure/errors/commure-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/commure-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/data-model/commure-data-model.yml
+  href: https://artifacts.apis.io/commure/data-model/commure-data-model.yml
   title: ''
   type: DataModel
   url: data-model/commure-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/conformance/commure-conformance.yml
+  href: https://artifacts.apis.io/commure/conformance/commure-conformance.yml
   title: ''
   type: Conformance
   url: conformance/commure-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/lifecycle/commure-lifecycle.yml
+  href: https://artifacts.apis.io/commure/lifecycle/commure-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/commure-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/lifecycle/commure-lifecycle.yml
+  href: https://artifacts.apis.io/commure/lifecycle/commure-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/commure-lifecycle.yml
@@ -131,12 +132,12 @@ common:
   type: StatusPage
   url: https://status.commure.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/well-known/commure-well-known.yml
+  href: https://artifacts.apis.io/commure/well-known/commure-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/commure-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/security/commure-domain-security.yml
+  href: https://artifacts.apis.io/commure/security/commure-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/commure-domain-security.yml
@@ -149,47 +150,47 @@ common:
   type: Compliance
   url: https://www.commure.com/trust-center
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/commure/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/overlays/commure-fhir-overlay.yaml
+  href: https://artifacts.apis.io/commure/overlays/commure-fhir-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/commure-fhir-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/llms/commure-llms.txt
+  href: https://artifacts.apis.io/commure/llms/commure-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/commure-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/packages/commure-packages.yml
+  href: https://artifacts.apis.io/commure/packages/commure-packages.yml
   title: ''
   type: Packages
   url: packages/commure-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/components/commure-components.yml
+  href: https://artifacts.apis.io/commure/components/commure-components.yml
   title: ''
   type: Components
   url: components/commure-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/mcp/commure-mcp.yml
+  href: https://artifacts.apis.io/commure/mcp/commure-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/commure-mcp.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/sandbox/commure-sandbox.yml
+  href: https://artifacts.apis.io/commure/sandbox/commure-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/commure-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/plans/commure-plans-pricing.yml
+  href: https://artifacts.apis.io/commure/plans/commure-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/commure-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/rate-limits/commure-rate-limits.yml
+  href: https://artifacts.apis.io/commure/rate-limits/commure-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/commure-rate-limits.yml
@@ -272,6 +273,14 @@ common:
 created: '2026-07-24'
 description: Commure is a San Francisco-based AI-native healthcare technology company that operates an integrated clinical and operational platform for United States health systems following its 2023 combination with Athelas. Its products span Ambient AI clinical documentation (Scribe/Dictation), end-to-end Revenue Cycle Management (RCM), Call Center Agents, referral Orchestrator, patient Engage coordination, Commure Pro clinical intelligence, Strongline staff-safety alerting, and Athelas Home point-of-care diagnostics, integrating with 60+ EHRs across 130+ health systems processing over $25B in annual claims. Commure launched a FHIR-native open developer platform in 2020; that public developer portal (developer.commure.com) and its tenant API hosts (api-{tenant-id}.developer.commure.com) no longer resolve, and today the API surface is a gated, partner-only offering governed by a Developer User Agreement (Sandbox Environment + Developer Services). The one surviving first-party machine-readable
   contract is Commure's public Postman workspace, which publishes a 59-request "Commure FHIR API" collection covering the HL7 FHIR RESTful, terminology and Bulk Data operations plus the OpenID Connect / SMART App Launch authentication endpoints, alongside five clinical-scenario collections. Home market is the United States.
+finops:
+- has_sources: true
+  method: derived
+  name: Commure Finops
+  primary_unit: ''
+  service_category: ''
+  slug: commure-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-09-16'
@@ -286,7 +295,7 @@ plans:
 - name: Commure Plans Pricing
   plan_count: 0
   slug: commure-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Commure Rate Limits
@@ -298,22 +307,22 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 47.2
+  composite: 48.8
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 46.8
-    developer_ergonomics: 33.9
-    discoverability: 74.1
-    operational_transparency: 26.3
+    developer_ergonomics: 39.9
+    discoverability: 67.9
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -321,7 +330,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 47.1
+  previous_composite: 48.8
   provenance:
     conformance: derived
     contracts:
@@ -337,13 +346,14 @@ score:
     regime: Health
     regime_id: health
     score: 51.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/screenshots/commure-2026-07-25T210143.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/commure/commure-2026-07-25T210143.png
 security:
 - kind: authentication
   name: Commure Authentication
@@ -357,6 +367,18 @@ security:
   name: Commure Trust Center
   slug: commure-trust-center
   summary_line: SOC 2 Type II, HIPAA, HITECH Act, CCPA
+skill_count: 5
+skills:
+- name: Authenticate against the Commure FHIR API (SMART on FHIR / OIDC)
+  slug: commure-authenticate-smart-on-fhir
+- name: Build a patient chart from the Commure FHIR API
+  slug: commure-build-a-patient-chart
+- name: Run a FHIR bulk export and resolve codes with Commure terminology services
+  slug: commure-bulk-export-and-terminology
+- name: Track an inpatient medication order from prescription to administration
+  slug: commure-inpatient-medication-workflow
+- name: Schedule and run a telehealth visit on Commure
+  slug: commure-schedule-a-telehealth-visit
 slug: commure
 tags:
 - Healthcare

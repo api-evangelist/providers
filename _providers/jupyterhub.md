@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.1
-  scored_at: '2026-10-17'
+  score: 21.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 4
@@ -100,11 +102,8 @@ apis:
   description: OAuth2 authorization endpoints.
   name: JupyterHub O Auth2 API
   slug: jupyterhub-oauth2-api
-artifact_total: 37
+artifact_total: 36
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: JupyterHub REST Activity API
   slug: open-jupyterhub-activity-api
@@ -143,22 +142,22 @@ collections:
   slug: open-jupyterhub-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/plans/jupyterhub-plans-pricing.yml
+  href: https://artifacts.apis.io/jupyterhub/plans/jupyterhub-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jupyterhub-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/rate-limits/jupyterhub-rate-limits.yml
+  href: https://artifacts.apis.io/jupyterhub/rate-limits/jupyterhub-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jupyterhub-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/finops/jupyterhub-finops.yml
+  href: https://artifacts.apis.io/jupyterhub/finops/jupyterhub-finops.yml
   title: ''
   type: FinOps
   url: finops/jupyterhub-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/capabilities/jupyterhub-capability-edges.yml
+  href: https://artifacts.apis.io/jupyterhub/capabilities/jupyterhub-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/jupyterhub-capability-edges.yml
@@ -179,27 +178,27 @@ common:
   type: ContributionGuide
   url: https://github.com/jupyterhub/jupyterhub/blob/main/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/agentic-access/jupyterhub-agentic-access.yml
+  href: https://artifacts.apis.io/jupyterhub/agentic-access/jupyterhub-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/jupyterhub-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/security/jupyterhub-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/jupyterhub/security/jupyterhub-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jupyterhub-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/security/jupyterhub-domain-security.yml
+  href: https://artifacts.apis.io/jupyterhub/security/jupyterhub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jupyterhub-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/authentication/jupyterhub-authentication.yml
+  href: https://artifacts.apis.io/jupyterhub/authentication/jupyterhub-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jupyterhub-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/scopes/jupyterhub-scopes.yml
+  href: https://artifacts.apis.io/jupyterhub/scopes/jupyterhub-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/jupyterhub-scopes.yml
@@ -249,7 +248,7 @@ finops:
 - has_sources: false
   method: generated
   name: Jupyterhub Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: jupyterhub-finops
   template: true
@@ -285,7 +284,7 @@ plans:
 - name: Jupyterhub Plans Pricing
   plan_count: 3
   slug: jupyterhub-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Jupyterhub Rate Limits
@@ -309,7 +308,7 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.1
+  composite: 35.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 58.3
@@ -317,18 +316,15 @@ score:
     catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
-    contract_quality: 58.8
-    developer_ergonomics: 38.1
+    contract_quality: 55.4
+    developer_ergonomics: 40.5
     discoverability: 57.1
-    operational_transparency: 21.1
-  open_source:
-    applies: true
-    score: 75.0
-  previous_composite: 40.5
+    operational_transparency: 23.7
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -342,13 +338,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/screenshots/jupyterhub-2026-06-20T183841.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/jupyterhub/jupyterhub-2026-06-20T183841.png
 security:
 - kind: authentication
   name: Jupyterhub Authentication

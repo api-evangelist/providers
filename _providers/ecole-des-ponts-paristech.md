@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The one machine-readable contract École des Ponts ParisTech operates on its own infrastructure. A live SAML 2.0 EntityDescriptor served as application/xml from idp.enpc.fr, declaring SingleSignOnServi
@@ -119,37 +121,37 @@ common:
   type: Instagram
   url: https://www.instagram.com/ecoledesponts/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/authentication/ecole-des-ponts-paristech-authentication.yml
+  href: https://artifacts.apis.io/ecole-des-ponts-paristech/authentication/ecole-des-ponts-paristech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ecole-des-ponts-paristech-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/conformance/ecole-des-ponts-paristech-conformance.yml
+  href: https://artifacts.apis.io/ecole-des-ponts-paristech/conformance/ecole-des-ponts-paristech-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ecole-des-ponts-paristech-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/security/ecole-des-ponts-paristech-domain-security.yml
+  href: https://artifacts.apis.io/ecole-des-ponts-paristech/security/ecole-des-ponts-paristech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ecole-des-ponts-paristech-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/plans/ecole-des-ponts-paristech-plans-pricing.yml
+  href: https://artifacts.apis.io/ecole-des-ponts-paristech/plans/ecole-des-ponts-paristech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ecole-des-ponts-paristech-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/rate-limits/ecole-des-ponts-paristech-rate-limits.yml
+  href: https://artifacts.apis.io/ecole-des-ponts-paristech/rate-limits/ecole-des-ponts-paristech-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ecole-des-ponts-paristech-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/finops/ecole-des-ponts-paristech-finops.yml
+  href: https://artifacts.apis.io/ecole-des-ponts-paristech/finops/ecole-des-ponts-paristech-finops.yml
   title: ''
   type: FinOps
   url: finops/ecole-des-ponts-paristech-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/ecole-des-ponts-paristech/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -190,7 +192,7 @@ coverage:
   - note: dead pointer, removed
     status: 404
     url: https://twitter.com/EcoledesPonts
-  reason: no_public_api
+  reason: no-developer-program
   state: none
 created: '2026-06-03'
 description: 'École des Ponts ParisTech (École nationale des ponts et chaussées, ENPC) is a public French grande école of engineering founded in 1747, based in Champs-sur-Marne and a founding member of ParisTech. Its programmable footprint is small and must be read honestly: ENPC operates no public API programme, no developer portal and no API key issuance — api.enpc.fr and api.ecoledesponts.fr do not resolve, and there is no developer section anywhere in the 1,910-URL sitemap of ecoledesponts.fr. The single machine-readable contract ENPC genuinely operates itself is its SAML 2.0 Identity Provider metadata at idp.enpc.fr, whose entityID is registered in the RENATER Fédération Éducation-Recherche and therefore reachable through eduGAIN. Everything else that looks like an ENPC API is a tenant relationship on someone else''s platform: the open-access repository is the ENPC collection inside the national HAL platform operated by CCSD; the research-data repository is the ecoledesponts collection
@@ -225,14 +227,14 @@ plans:
 - name: Ecole Des Ponts Paristech Plans Pricing
   plan_count: 2
   slug: ecole-des-ponts-paristech-plans-pricing
-random_paper: 12
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Ecole Des Ponts Paristech Rate Limits
   slug: ecole-des-ponts-paristech-rate-limits
 score:
   band: emerging
-  composite: 24.2
+  composite: 24.5
   coverage:
     artifact_dirs: 10
     catalog_earned: 52.0
@@ -240,14 +242,14 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 20.4
     developer_ergonomics: 23.8
     discoverability: 71.4
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -256,7 +258,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 30.3
+  previous_composite: 24.5
   provenance:
     conformance: first-party
   regulatory:
@@ -265,14 +267,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/screenshots/ecole-des-ponts-paristech-2026-06-20T180431.png
+screenshot: https://apis.io/screenshots/ecole-des-ponts-paristech/ecole-des-ponts-paristech-2026-06-20T180431.png
 security:
 - kind: authentication
   name: Ecole Des Ponts Paristech Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 32.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -185,15 +187,12 @@ apis:
   description: The NFTs API from Ava Labs — 3 operation(s) for nfts.
   name: Ava Labs NF Ts API
   slug: ava-labs-nfts-api
-artifact_total: 61
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Ava Labs Webhooks
   slug: ava-labs-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Data AVAX Supply API
   slug: open-ava-labs-avax-supply-api
@@ -280,12 +279,12 @@ collections:
   slug: open-ava-labs-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/capabilities/ava-labs-capability-edges.yml
+  href: https://artifacts.apis.io/ava-labs/capabilities/ava-labs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ava-labs-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/overlays/ava-labs-platform-api-overlay.yaml
+  href: https://artifacts.apis.io/ava-labs/overlays/ava-labs-platform-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ava-labs-platform-api-overlay.yaml
@@ -326,7 +325,7 @@ common:
   type: StatusPage
   url: https://status.avax.network
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/changelog/ava-labs-changelog.yml
+  href: https://artifacts.apis.io/ava-labs/changelog/ava-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ava-labs-changelog.yml
@@ -339,87 +338,87 @@ common:
   type: PrivacyPolicy
   url: https://www.avalabs.org/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/llms/ava-labs-llms.txt
+  href: https://artifacts.apis.io/ava-labs/llms/ava-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ava-labs-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/packages/ava-labs-packages.yml
+  href: https://artifacts.apis.io/ava-labs/packages/ava-labs-packages.yml
   title: ''
   type: Packages
   url: packages/ava-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/packages/ava-labs-packages.yml
+  href: https://artifacts.apis.io/ava-labs/packages/ava-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/ava-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/cli/ava-labs-cli.yml
+  href: https://artifacts.apis.io/ava-labs/cli/ava-labs-cli.yml
   title: ''
   type: CLI
   url: cli/ava-labs-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/sandbox/ava-labs-sandbox.yml
+  href: https://artifacts.apis.io/ava-labs/sandbox/ava-labs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ava-labs-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/mcp/ava-labs-mcp.yml
+  href: https://artifacts.apis.io/ava-labs/mcp/ava-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ava-labs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ava-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/well-known/ava-labs-well-known.yml
+  href: https://artifacts.apis.io/ava-labs/well-known/ava-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ava-labs-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/authentication/ava-labs-authentication.yml
+  href: https://artifacts.apis.io/ava-labs/authentication/ava-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ava-labs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/conventions/ava-labs-conventions.yml
+  href: https://artifacts.apis.io/ava-labs/conventions/ava-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ava-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/errors/ava-labs-problem-types.yml
+  href: https://artifacts.apis.io/ava-labs/errors/ava-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ava-labs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/lifecycle/ava-labs-lifecycle.yml
+  href: https://artifacts.apis.io/ava-labs/lifecycle/ava-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ava-labs-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/conformance/ava-labs-conformance.yml
+  href: https://artifacts.apis.io/ava-labs/conformance/ava-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ava-labs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/data-model/ava-labs-data-model.yml
+  href: https://artifacts.apis.io/ava-labs/data-model/ava-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ava-labs-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/security/ava-labs-domain-security.yml
+  href: https://artifacts.apis.io/ava-labs/security/ava-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ava-labs-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/agentic-access/ava-labs-agentic-access.yml
+  href: https://artifacts.apis.io/ava-labs/agentic-access/ava-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ava-labs-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/asyncapi/ava-labs-webhooks.yml
+  href: https://artifacts.apis.io/ava-labs/asyncapi/ava-labs-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ava-labs-webhooks.yml
@@ -438,26 +437,26 @@ overview: 'Ava Labs publishes 28 API contracts indexed on the [APIs.io](https://
 
 
   Ava Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, CLI, and 24 more developer resources.'
-random_paper: 5
+random_paper: 7
 score:
   band: developing
   composite: 51.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 60.7
+    contract_quality: 59.3
     developer_ergonomics: 75.6
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 51.1
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -465,7 +464,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 29
+      total: 28
     mcp: derived
     skills: derived
   regulatory:
@@ -474,13 +473,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/screenshots/ava-labs-2026-07-25T201903.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ava-labs/ava-labs-2026-07-25T201903.png
 security:
 - kind: authentication
   name: Ava Labs Authentication
@@ -490,6 +490,14 @@ security:
   name: Ava Labs Domain Security
   slug: ava-labs-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Monitor addresses with AvaCloud webhooks
+  slug: ava-labs-address-webhooks
+- name: Pull chain and staking metrics
+  slug: ava-labs-chain-metrics
+- name: Look up an address's wallet portfolio and history
+  slug: ava-labs-wallet-portfolio
 slug: ava-labs
 tags:
 - Company

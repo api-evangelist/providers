@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 9.3
-  scored_at: '2026-10-17'
+  score: 4.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The official React component package for embedding the Excalidraw canvas. Provides programmatic control over scene state, libraries, and serialized JSON. There is no Excalidraw REST API; integrations '
@@ -58,7 +60,7 @@ common:
   type: ContributionGuide
   url: https://github.com/excalidraw/excalidraw/blob/master/CONTRIBUTING.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/excalidraw/refs/heads/main/security/excalidraw-domain-security.yml
+  href: https://artifacts.apis.io/excalidraw/security/excalidraw-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/excalidraw-domain-security.yml
@@ -87,17 +89,17 @@ common:
   type: CommercialOffering
   url: https://plus.excalidraw.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/excalidraw/refs/heads/main/plans/excalidraw-plans-pricing.yml
+  href: https://artifacts.apis.io/excalidraw/plans/excalidraw-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/excalidraw-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/excalidraw/refs/heads/main/rate-limits/excalidraw-rate-limits.yml
+  href: https://artifacts.apis.io/excalidraw/rate-limits/excalidraw-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/excalidraw-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/excalidraw/refs/heads/main/finops/excalidraw-finops.yml
+  href: https://artifacts.apis.io/excalidraw/finops/excalidraw-finops.yml
   title: ''
   type: FinOps
   url: finops/excalidraw-finops.yml
@@ -140,7 +142,7 @@ rate_limits:
   slug: excalidraw-rate-limits
 score:
   band: emerging
-  composite: 15.9
+  composite: 12.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 41.0
@@ -148,18 +150,15 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 17.3
+  previous_composite: 12.1
   provenance:
     mcp: first-party
   regulatory:
@@ -168,14 +167,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/excalidraw/refs/heads/main/screenshots/excalidraw-2026-06-20T180922.png
+screenshot: https://apis.io/screenshots/excalidraw/excalidraw-2026-06-20T180922.png
 security:
 - kind: domain-security
   name: Excalidraw Domain Security

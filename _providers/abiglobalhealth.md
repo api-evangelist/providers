@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Partner REST API for managing user accounts, subscriptions, text consultations, form-based prescriptions, Health Navigator AI conversations and outbound webhooks. Resource-oriented URLs, JSON response
@@ -76,87 +78,87 @@ common:
   type: PrivacyPolicy
   url: https://www.abiglobalhealth.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/llms/abiglobalhealth-llms.txt
+  href: https://artifacts.apis.io/abiglobalhealth/llms/abiglobalhealth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/abiglobalhealth-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/authentication/abiglobalhealth-authentication.yml
+  href: https://artifacts.apis.io/abiglobalhealth/authentication/abiglobalhealth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/abiglobalhealth-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/conventions/abiglobalhealth-conventions.yml
+  href: https://artifacts.apis.io/abiglobalhealth/conventions/abiglobalhealth-conventions.yml
   title: ''
   type: Conventions
   url: conventions/abiglobalhealth-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/errors/abiglobalhealth-problem-types.yml
+  href: https://artifacts.apis.io/abiglobalhealth/errors/abiglobalhealth-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/abiglobalhealth-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/asyncapi/abiglobalhealth-webhooks.yml
+  href: https://artifacts.apis.io/abiglobalhealth/asyncapi/abiglobalhealth-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/abiglobalhealth-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/data-model/abiglobalhealth-data-model.yml
+  href: https://artifacts.apis.io/abiglobalhealth/data-model/abiglobalhealth-data-model.yml
   title: ''
   type: DataModel
   url: data-model/abiglobalhealth-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/vocabulary/abiglobalhealth-vocabulary.yml
+  href: https://artifacts.apis.io/abiglobalhealth/vocabulary/abiglobalhealth-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/abiglobalhealth-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/lifecycle/abiglobalhealth-lifecycle.yml
+  href: https://artifacts.apis.io/abiglobalhealth/lifecycle/abiglobalhealth-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/abiglobalhealth-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/conformance/abiglobalhealth-conformance.yml
+  href: https://artifacts.apis.io/abiglobalhealth/conformance/abiglobalhealth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/abiglobalhealth-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/conformance/abiglobalhealth-conformance.yml
+  href: https://artifacts.apis.io/abiglobalhealth/conformance/abiglobalhealth-conformance.yml
   title: ''
   type: Compliance
   url: conformance/abiglobalhealth-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/packages/abiglobalhealth-packages.yml
+  href: https://artifacts.apis.io/abiglobalhealth/packages/abiglobalhealth-packages.yml
   title: ''
   type: Packages
   url: packages/abiglobalhealth-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/packages/abiglobalhealth-packages.yml
+  href: https://artifacts.apis.io/abiglobalhealth/packages/abiglobalhealth-packages.yml
   title: ''
   type: SDKs
   url: packages/abiglobalhealth-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/components/abiglobalhealth-components.yml
+  href: https://artifacts.apis.io/abiglobalhealth/components/abiglobalhealth-components.yml
   title: ''
   type: Components
   url: components/abiglobalhealth-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/sandbox/abiglobalhealth-sandbox.yml
+  href: https://artifacts.apis.io/abiglobalhealth/sandbox/abiglobalhealth-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/abiglobalhealth-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/plans/abiglobalhealth-plans-pricing.yml
+  href: https://artifacts.apis.io/abiglobalhealth/plans/abiglobalhealth-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/abiglobalhealth-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/rate-limits/abiglobalhealth-rate-limits.yml
+  href: https://artifacts.apis.io/abiglobalhealth/rate-limits/abiglobalhealth-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/abiglobalhealth-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/security/abiglobalhealth-domain-security.yml
+  href: https://artifacts.apis.io/abiglobalhealth/security/abiglobalhealth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/abiglobalhealth-domain-security.yml
@@ -179,14 +181,14 @@ plans:
 - name: Abiglobalhealth Plans Pricing
   plan_count: 0
   slug: abiglobalhealth-plans-pricing
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Abiglobalhealth Rate Limits
   slug: abiglobalhealth-rate-limits
 score:
-  band: thin
-  composite: 37.1
+  band: developing
+  composite: 42.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 42.0
@@ -199,9 +201,9 @@ score:
     access_clarity: 31.6
     contract_governance: 33.3
     contract_quality: 39.0
-    developer_ergonomics: 33.3
-    discoverability: 73.2
-    operational_transparency: 10.5
+    developer_ergonomics: 59.5
+    discoverability: 66.1
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -210,7 +212,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 37.1
+  previous_composite: 42.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -220,14 +222,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/abiglobalhealth/refs/heads/main/screenshots/abiglobalhealth-2026-10-11T092413.png
+screenshot: https://apis.io/screenshots/abiglobalhealth/abiglobalhealth-2026-10-11T092413.png
 security:
 - kind: authentication
   name: Abiglobalhealth Authentication

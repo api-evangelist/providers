@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.8
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -326,7 +328,7 @@ arazzos:
 - description: Read a returns delivery, list its items, then post goods receipt for it.
   name: SAP SD Returns Goods Receipt
   slug: sap-sales-and-distribution-sd-returns-goods-receipt-workflow
-artifact_total: 258
+artifact_total: 257
 collections:
 - collection_type: postman
   name: SAP Sales and Distribution (SD) SAP Billing Document API
@@ -379,9 +381,6 @@ collections:
 - collection_type: postman
   name: SAP Sales and Distribution (SD) SAP Sales Scheduling Agreement API
   slug: postman-sap-sd-sales-scheduling-agreement
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SAP Sales and Distribution (SD) SAP Billing Document API
   slug: open-sap-sales-and-distribution-sd-billing-document-api
@@ -573,22 +572,22 @@ collections:
   slug: open-sap-sd-sales-scheduling-agreement
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/plans/sap-sales-and-distribution-sd-plans-pricing.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/plans/sap-sales-and-distribution-sd-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sap-sales-and-distribution-sd-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/rate-limits/sap-sales-and-distribution-sd-rate-limits.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/rate-limits/sap-sales-and-distribution-sd-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sap-sales-and-distribution-sd-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/finops/sap-sales-and-distribution-sd-finops.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/finops/sap-sales-and-distribution-sd-finops.yml
   title: ''
   type: FinOps
   url: finops/sap-sales-and-distribution-sd-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/capabilities/sap-sales-and-distribution-sd-capability-edges.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/capabilities/sap-sales-and-distribution-sd-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sap-sales-and-distribution-sd-capability-edges.yml
@@ -597,27 +596,27 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/sap/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/agentic-access/sap-sales-and-distribution-sd-agentic-access.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/agentic-access/sap-sales-and-distribution-sd-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sap-sales-and-distribution-sd-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/security/sap-sales-and-distribution-sd-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/security/sap-sales-and-distribution-sd-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sap-sales-and-distribution-sd-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/security/sap-sales-and-distribution-sd-domain-security.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/security/sap-sales-and-distribution-sd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sap-sales-and-distribution-sd-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/authentication/sap-sales-and-distribution-sd-authentication.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/authentication/sap-sales-and-distribution-sd-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sap-sales-and-distribution-sd-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/scopes/sap-sales-and-distribution-sd-scopes.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/scopes/sap-sales-and-distribution-sd-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sap-sales-and-distribution-sd-scopes.yml
@@ -626,87 +625,87 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/sap-sales-and-distribution-sd/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-billing-review-and-cancel-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-billing-review-and-cancel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-billing-review-and-cancel-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-contract-release-order-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-contract-release-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-contract-release-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-credit-check-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-credit-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-credit-check-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-credit-memo-approval-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-credit-memo-approval-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-credit-memo-approval-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-customer-lookup-to-order-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-customer-lookup-to-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-customer-lookup-to-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-customer-material-setup-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-customer-material-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-customer-material-setup-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-customer-onboarding-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-customer-onboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-customer-onboarding-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-customer-return-intake-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-customer-return-intake-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-customer-return-intake-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-debit-memo-intake-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-debit-memo-intake-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-debit-memo-intake-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-deliver-and-post-goods-issue-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-deliver-and-post-goods-issue-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-deliver-and-post-goods-issue-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-inbound-delivery-receipt-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-inbound-delivery-receipt-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-inbound-delivery-receipt-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-inquiry-to-quotation-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-inquiry-to-quotation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-inquiry-to-quotation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-material-onboarding-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-material-onboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-material-onboarding-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-order-to-delivery-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-order-to-delivery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-order-to-delivery-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-pricing-setup-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-pricing-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-pricing-setup-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-quotation-to-order-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-quotation-to-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-quotation-to-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/arazzo/sap-sales-and-distribution-sd-returns-goods-receipt-workflow.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/arazzo/sap-sales-and-distribution-sd-returns-goods-receipt-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sap-sales-and-distribution-sd-returns-goods-receipt-workflow.yml
@@ -775,12 +774,12 @@ common:
   type: SDKs
   url: https://github.com/SAP/cloud-sdk-js
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/rules/sap-sd-rules.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/rules/sap-sd-rules.yml
   title: ''
   type: SpectralRules
   url: rules/sap-sd-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/vocabulary/sap-sd-vocabulary.yml
+  href: https://artifacts.apis.io/sap-sales-and-distribution-sd/vocabulary/sap-sd-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sap-sd-vocabulary.yml
@@ -1127,7 +1126,7 @@ plans:
 - name: Sap Sales And Distribution Sd Plans Pricing
   plan_count: 1
   slug: sap-sales-and-distribution-sd-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Sap Sales And Distribution Sd Rate Limits
@@ -1162,8 +1161,8 @@ scopes:
   slug: sap-sales-and-distribution-sd-scopes
   summary_line: 17 scopes · clientCredentials
 score:
-  band: developing
-  composite: 46.9
+  band: strong
+  composite: 54.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 68.0
@@ -1171,15 +1170,15 @@ score:
     catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 27.3
     contract_quality: 66.8
-    developer_ergonomics: 36.9
+    developer_ergonomics: 58.3
     discoverability: 67.9
-    operational_transparency: 23.7
-  previous_composite: 48.4
+    operational_transparency: 36.8
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1193,13 +1192,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/screenshots/sap-sales-and-distribution-sd-2026-06-20T193430.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sap-sales-and-distribution-sd/sap-sales-and-distribution-sd-2026-06-20T193430.png
 security:
 - kind: authentication
   name: Sap Sales And Distribution Sd Authentication

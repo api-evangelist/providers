@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 8.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Signed, service-based JSON API for vendors, developers, and ISVs to integrate with VIPShop's e-commerce systems — orders, commodities/products, inventory, warehouse & logistics, marketplace, multi-cha
@@ -80,42 +82,42 @@ common:
   type: ChangeLog
   url: https://vop.vip.com/home#/announcement
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/vipshop/refs/heads/main/sandbox/vipshop-sandbox.yml
+  href: https://artifacts.apis.io/vipshop/sandbox/vipshop-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vipshop-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vipshop/refs/heads/main/packages/vipshop-packages.yml
+  href: https://artifacts.apis.io/vipshop/packages/vipshop-packages.yml
   title: ''
   type: Packages
   url: packages/vipshop-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vipshop/refs/heads/main/packages/vipshop-packages.yml
+  href: https://artifacts.apis.io/vipshop/packages/vipshop-packages.yml
   title: ''
   type: SDKs
   url: packages/vipshop-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vipshop/refs/heads/main/authentication/vipshop-authentication.yml
+  href: https://artifacts.apis.io/vipshop/authentication/vipshop-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vipshop-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vipshop/refs/heads/main/conventions/vipshop-conventions.yml
+  href: https://artifacts.apis.io/vipshop/conventions/vipshop-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vipshop-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vipshop/refs/heads/main/errors/vipshop-error-codes.yml
+  href: https://artifacts.apis.io/vipshop/errors/vipshop-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/vipshop-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vipshop/refs/heads/main/lifecycle/vipshop-lifecycle.yml
+  href: https://artifacts.apis.io/vipshop/lifecycle/vipshop-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vipshop-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vipshop/refs/heads/main/security/vipshop-domain-security.yml
+  href: https://artifacts.apis.io/vipshop/security/vipshop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vipshop-domain-security.yml
@@ -131,7 +133,7 @@ overview: 'VIPShop is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   VIPShop''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, sandbox, and 10 more developer resources.'
-random_paper: 7
+random_paper: 9
 score:
   band: emerging
   composite: 24.6
@@ -142,7 +144,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
@@ -157,21 +159,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 24.5
+  previous_composite: 24.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vipshop/refs/heads/main/screenshots/vipshop-2026-09-02T165948.png
+screenshot: https://apis.io/screenshots/vipshop/vipshop-2026-09-02T165948.png
 security:
 - kind: authentication
   name: Vipshop Authentication

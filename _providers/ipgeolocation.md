@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 13
   slug: ipgeolocation-agentic-access
   summary_line: 13 operations · 4 acting
-api_count: 14
+api_count: 7
 apis:
 - baseURL: https://api.ipgeolocation.io
   baseurl_source: declared
@@ -82,9 +84,6 @@ apis:
   slug: ipgeolocation-user-agent-api
 artifact_total: 177
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 'IPGeolocation.io: Abuse Contact API'
   slug: open-ipgeolocation-abuse
@@ -128,18 +127,22 @@ collections:
   name: 'IPGeolocation.io: User Agent API'
   slug: open-ipgeolocation-user-agent
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ipgeolocationio/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/agentic-access/ipgeolocation-agentic-access.yml
+  href: https://artifacts.apis.io/ipgeolocation/agentic-access/ipgeolocation-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ipgeolocation-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/security/ipgeolocation-domain-security.yml
+  href: https://artifacts.apis.io/ipgeolocation/security/ipgeolocation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ipgeolocation-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/authentication/ipgeolocation-authentication.yml
+  href: https://artifacts.apis.io/ipgeolocation/authentication/ipgeolocation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ipgeolocation-authentication.yml
@@ -216,32 +219,32 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/plans/ipgeolocation-plans-pricing.yml
+  href: https://artifacts.apis.io/ipgeolocation/plans/ipgeolocation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ipgeolocation-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/rate-limits/ipgeolocation-rate-limits.yml
+  href: https://artifacts.apis.io/ipgeolocation/rate-limits/ipgeolocation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ipgeolocation-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/finops/ipgeolocation-finops.yml
+  href: https://artifacts.apis.io/ipgeolocation/finops/ipgeolocation-finops.yml
   title: ''
   type: FinOps
   url: finops/ipgeolocation-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/vocabulary/ipgeolocation-vocabulary.yml
+  href: https://artifacts.apis.io/ipgeolocation/vocabulary/ipgeolocation-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ipgeolocation-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/rules/ipgeolocation-rules.yml
+  href: https://artifacts.apis.io/ipgeolocation/rules/ipgeolocation-rules.yml
   title: ''
   type: Rules
   url: rules/ipgeolocation-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/json-ld/ipgeolocation-context.jsonld
+  href: https://artifacts.apis.io/ipgeolocation/json-ld/ipgeolocation-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/ipgeolocation-context.jsonld
@@ -385,10 +388,10 @@ examples:
   slug: user-agent-user-agent-response-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Ipgeolocation Finops
-  primary_unit: ''
-  service_category: IP Intelligence + Geocoding
+  primary_unit: credits
+  service_category: ''
   slug: ipgeolocation-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ipgeolocation.png
@@ -720,12 +723,15 @@ overview: 'IPGeolocation.io publishes 7 API contracts indexed on the [APIs.io](h
   The IPGeolocation.io catalog on APIs.io includes 8 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  IPGeolocation.io''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, CLI, tooling, and 20 more developer resources.'
+  IPGeolocation.io''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, CLI, tooling, and 21 more developer resources.'
 plans:
 - name: Ipgeolocation Plans Pricing
-  plan_count: 10
+  plan_count: 12
   slug: ipgeolocation-plans-pricing
-random_paper: 3
+- name: Ipgeolocation Price Estimates
+  plan_count: 0
+  slug: ipgeolocation-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Ipgeolocation Rate Limits
@@ -755,23 +761,23 @@ rules:
   slug: ipgeolocation-rules
 score:
   band: developing
-  composite: 42.8
+  composite: 50.4
   coverage:
     artifact_dirs: 18
-    catalog_earned: 66.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_earned: 78.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.8
   facets:
-    access_clarity: 31.6
+    access_clarity: 63.2
     contract_governance: 27.3
     contract_quality: 59.6
-    developer_ergonomics: 47.6
+    developer_ergonomics: 48.8
     discoverability: 78.6
-    operational_transparency: 10.5
-  previous_composite: 51.1
+    operational_transparency: 13.2
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     contracts:
@@ -785,13 +791,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/screenshots/ipgeolocation-2026-06-20T183555.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ipgeolocation/ipgeolocation-2026-06-20T183555.png
 security:
 - kind: authentication
   name: Ipgeolocation Authentication

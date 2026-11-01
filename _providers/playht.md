@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -81,15 +83,12 @@ apis:
   description: Prebuilt voice catalog.
   name: PlayHT Voices API
   slug: playht-voices-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: AsyncAPI 2.6 description of the PlayAI (formerly PlayHT) realtime WebSocket APIs. Covers the Text-to-Speech (TTS) streaming WebSocket used to synthesize audio from text in real time, and the Voice Age
   name: PlayAI Realtime WebSocket APIs
   slug: playht-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PlayAI Agents API
   slug: open-playht-agents-api
@@ -113,32 +112,32 @@ collections:
   slug: open-playht
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/plans/playht-plans-pricing.yml
+  href: https://artifacts.apis.io/playht/plans/playht-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/playht-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/rate-limits/playht-rate-limits.yml
+  href: https://artifacts.apis.io/playht/rate-limits/playht-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/playht-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/finops/playht-finops.yml
+  href: https://artifacts.apis.io/playht/finops/playht-finops.yml
   title: ''
   type: FinOps
   url: finops/playht-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/agentic-access/playht-agentic-access.yml
+  href: https://artifacts.apis.io/playht/agentic-access/playht-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/playht-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/security/playht-domain-security.yml
+  href: https://artifacts.apis.io/playht/security/playht-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/playht-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/authentication/playht-authentication.yml
+  href: https://artifacts.apis.io/playht/authentication/playht-authentication.yml
   title: ''
   type: Authentication
   url: authentication/playht-authentication.yml
@@ -202,7 +201,7 @@ modified: '2026-05-29'
 name: PlayHT
 nav: Providers
 network: true
-overview: 'PlayHT publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including PlayAI Text-to-Speech API, PlayAI Voice Agents API, Agents API, and 5 more. Tagged areas include Voice, TTS, Text-to-Speech, Voice Cloning, and Voice Agents.
+overview: 'PlayHT publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including PlayAI Text-to-Speech API, PlayAI Voice Agents API, Agents API, and 5 more. Tagged areas include Voice, Text-to-Speech, Voice Cloning, Voice Agents, and Streaming.
 
 
   The PlayHT catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -213,7 +212,7 @@ plans:
 - name: Playht Plans Pricing
   plan_count: 1
   slug: playht-plans-pricing
-random_paper: 20
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Playht Rate Limits
@@ -241,7 +240,7 @@ score:
     catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -42.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -250,7 +249,7 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  previous_composite: 42.8
+  previous_composite: 0.0
   provenance:
     agentic_access: derived
     contracts:
@@ -263,13 +262,14 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 15.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 18.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Playht Authentication
@@ -282,7 +282,6 @@ security:
 slug: playht
 tags:
 - Voice
-- TTS
 - Text-to-Speech
 - Voice Cloning
 - Voice Agents

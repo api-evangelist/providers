@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the True & Co Shopify storefront: a hosted Universal Commerce Protocol (UCP) MCP endpoint for catalog search, cart, and checkout, backed by Shopify Customer Account O'
@@ -48,37 +50,37 @@ common:
   type: Website
   url: https://www.trueandco.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/true-and-co/refs/heads/main/mcp/true-and-co-mcp.yml
+  href: https://artifacts.apis.io/true-and-co/mcp/true-and-co-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/true-and-co-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/true-and-co/refs/heads/main/well-known/true-and-co-well-known.yml
+  href: https://artifacts.apis.io/true-and-co/well-known/true-and-co-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/true-and-co-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/true-and-co/refs/heads/main/scopes/true-and-co-scopes.yml
+  href: https://artifacts.apis.io/true-and-co/scopes/true-and-co-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/true-and-co-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/true-and-co/refs/heads/main/authentication/true-and-co-authentication.yml
+  href: https://artifacts.apis.io/true-and-co/authentication/true-and-co-authentication.yml
   title: ''
   type: Authentication
   url: authentication/true-and-co-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/true-and-co/refs/heads/main/security/true-and-co-domain-security.yml
+  href: https://artifacts.apis.io/true-and-co/security/true-and-co-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/true-and-co-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/true-and-co/refs/heads/main/conventions/true-and-co-conventions.yml
+  href: https://artifacts.apis.io/true-and-co/conventions/true-and-co-conventions.yml
   title: ''
   type: Conventions
   url: conventions/true-and-co-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/true-and-co/refs/heads/main/llms/true-and-co-llms.txt
+  href: https://artifacts.apis.io/true-and-co/llms/true-and-co-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/true-and-co-llms.txt
@@ -102,7 +104,7 @@ overview: 'True & Co is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   True & Co''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 21
+random_paper: 23
 scopes:
 - name: True And Co Scopes
   scope_count: 4
@@ -110,7 +112,7 @@ scopes:
   summary_line: 4 scopes · authorization_code (PKCE, S256)/refresh_token/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: emerging
-  composite: 15.9
+  composite: 15.4
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -118,15 +120,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 71.7
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 15.8
+  previous_composite: 15.4
   provenance:
     mcp: platform-generated
   regulatory:
@@ -135,14 +137,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/true-and-co/refs/heads/main/screenshots/true-and-co-2026-09-02T164331.png
+screenshot: https://apis.io/screenshots/true-and-co/true-and-co-2026-09-02T164331.png
 security:
 - kind: authentication
   name: True And Co Authentication

@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: true
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.9
-  scored_at: '2026-10-17'
+  score: 25.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,15 +86,12 @@ apis:
   description: Teams accessible to the API key
   name: Avoca Teams API
   slug: avoca-teams-api
-artifact_total: 21
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Avoca Webhooks
   slug: avoca-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Avoca Enterprise Analytics (v1) Analytics (v1) Analytics (v1) API
   slug: open-avoca-analytics-v1-api
@@ -123,22 +122,22 @@ common:
   type: Website
   url: https://www.avoca.ai/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/capabilities/avoca-capability-edges.yml
+  href: https://artifacts.apis.io/avoca/capabilities/avoca-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/avoca-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/mcp/avoca-mcp.yml
+  href: https://artifacts.apis.io/avoca/mcp/avoca-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/avoca-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/overlays/avoca-enterprise-overlay.yaml
+  href: https://artifacts.apis.io/avoca/overlays/avoca-enterprise-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avoca-enterprise-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/agentic-access/avoca-agentic-access.yml
+  href: https://artifacts.apis.io/avoca/agentic-access/avoca-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/avoca-agentic-access.yml
@@ -159,7 +158,7 @@ common:
   type: GettingStarted
   url: https://docs.avoca.ai/api-reference/introduction
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/authentication/avoca-authentication.yml
+  href: https://artifacts.apis.io/avoca/authentication/avoca-authentication.yml
   title: ''
   type: Authentication
   url: authentication/avoca-authentication.yml
@@ -196,37 +195,37 @@ common:
   type: ChangeLog
   url: https://docs.avoca.ai/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/llms/avoca-llms.txt
+  href: https://artifacts.apis.io/avoca/llms/avoca-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/avoca-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/asyncapi/avoca-webhooks.yml
+  href: https://artifacts.apis.io/avoca/asyncapi/avoca-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/avoca-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/lifecycle/avoca-lifecycle.yml
+  href: https://artifacts.apis.io/avoca/lifecycle/avoca-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/avoca-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/conformance/avoca-conformance.yml
+  href: https://artifacts.apis.io/avoca/conformance/avoca-conformance.yml
   title: ''
   type: Conformance
   url: conformance/avoca-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/security/avoca-domain-security.yml
+  href: https://artifacts.apis.io/avoca/security/avoca-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/avoca-domain-security.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/changelog/avoca-changelog.yml
+  href: https://artifacts.apis.io/avoca/changelog/avoca-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/avoca-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/avoca/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -245,10 +244,10 @@ overview: 'Avoca publishes 8 API contracts indexed on the [APIs.io](https://apis
 
 
   Avoca''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, changelog, and 18 more developer resources.'
-random_paper: 16
+random_paper: 18
 score:
   band: developing
-  composite: 40.8
+  composite: 47.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -256,15 +255,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 57.1
-    developer_ergonomics: 35.1
-    discoverability: 73.2
-    operational_transparency: 31.6
-  previous_composite: 41.2
+    developer_ergonomics: 54.2
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -280,15 +279,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/screenshots/avoca-2026-07-25T202002.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/avoca/avoca-2026-07-25T202002.png
 security:
 - kind: authentication
   name: Avoca Authentication
@@ -298,6 +297,14 @@ security:
   name: Avoca Domain Security
   slug: avoca-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Export Avoca Coach QA evaluations
+  slug: avoca-coach-qa-export
+- name: Pull Avoca calls and transcripts
+  slug: avoca-pull-calls-and-transcripts
+- name: Sync the Avoca leads feed
+  slug: avoca-sync-leads-feed
 slug: avoca
 tags:
 - Company
@@ -307,7 +314,7 @@ tags:
 - Customer Service
 - Contact Center
 - Home Services
-- Field Service
+- Field Service Management
 - Scheduling
 - Analytics
 - Webhook

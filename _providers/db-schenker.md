@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-17'
+  score: 16.7
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - baseURL: https://parcelservices-se.dbschenker.com/Apipartner
@@ -102,7 +104,7 @@ collections:
   slug: open-db-schenker-partner-services-v4-swagger
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/db-schenker/refs/heads/main/capabilities/db-schenker-capability-edges.yml
+  href: https://artifacts.apis.io/db-schenker/capabilities/db-schenker-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/db-schenker-capability-edges.yml
@@ -147,10 +149,10 @@ overview: 'DB Schenker publishes 10 API contracts indexed on the [APIs.io](https
 
 
   DB Schenker''s developer surface includes API reference, documentation, and 6 more developer resources.'
-random_paper: 16
+random_paper: 14
 score:
   band: emerging
-  composite: 21.5
+  composite: 22.6
   coverage:
     artifact_dirs: 6
     catalog_earned: 40.0
@@ -165,7 +167,7 @@ score:
     contract_quality: 43.3
     developer_ergonomics: 31.0
     discoverability: 71.4
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -174,7 +176,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 21.5
+  previous_composite: 22.6
   provenance:
     contracts:
       callable: 100.0
@@ -187,13 +189,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/db-schenker/refs/heads/main/screenshots/db-schenker-2026-08-07T164220.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/db-schenker/db-schenker-2026-08-07T164220.png
 slug: db-schenker
 tags:
 - Logistics

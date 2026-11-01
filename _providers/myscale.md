@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +55,8 @@ apis:
   description: The Query API from MyScale — 1 operation(s) for query.
   name: MyScale Query API
   slug: myscale-query-api
-artifact_total: 11
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MyScale SQL (ClickHouse HTTP) Interface Query API
   slug: open-myscale-query-api
@@ -66,17 +65,17 @@ collections:
   slug: open-myscale
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/myscale/refs/heads/main/agentic-access/myscale-agentic-access.yml
+  href: https://artifacts.apis.io/myscale/agentic-access/myscale-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/myscale-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/myscale/refs/heads/main/security/myscale-domain-security.yml
+  href: https://artifacts.apis.io/myscale/security/myscale-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/myscale-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/myscale/refs/heads/main/authentication/myscale-authentication.yml
+  href: https://artifacts.apis.io/myscale/authentication/myscale-authentication.yml
   title: ''
   type: Authentication
   url: authentication/myscale-authentication.yml
@@ -97,17 +96,17 @@ common:
   type: Documentation
   url: https://docs.myscale.com/en/overview/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/myscale/refs/heads/main/plans/myscale-plans-pricing.yml
+  href: https://artifacts.apis.io/myscale/plans/myscale-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/myscale-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/myscale/refs/heads/main/rate-limits/myscale-rate-limits.yml
+  href: https://artifacts.apis.io/myscale/rate-limits/myscale-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/myscale-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/myscale/refs/heads/main/finops/myscale-finops.yml
+  href: https://artifacts.apis.io/myscale/finops/myscale-finops.yml
   title: ''
   type: FinOps
   url: finops/myscale-finops.yml
@@ -131,7 +130,7 @@ modified: '2026-06-20'
 name: MyScale
 nav: Providers
 network: true
-overview: 'MyScale publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Query API, and 1 more. Tagged areas include Vector Database, SQL, ClickHouse, Vector Search, and Full-Text Search.
+overview: 'MyScale publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Query API, and 1 more. Tagged areas include Vector Search, SQL, ClickHouse, Full-Text Search, and RAG.
 
 
   MyScale''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -139,14 +138,14 @@ plans:
 - name: Myscale Plans Pricing
   plan_count: 4
   slug: myscale-plans-pricing
-random_paper: 2
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Myscale Rate Limits
   slug: myscale-rate-limits
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 27.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 38.0
@@ -154,15 +153,15 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 49.6
     developer_ergonomics: 31.0
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 34.3
+    operational_transparency: 13.2
+  previous_composite: 27.1
   provenance:
     agentic_access: derived
     contracts:
@@ -176,13 +175,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/myscale/refs/heads/main/screenshots/myscale-2026-06-20T185918.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/myscale/myscale-2026-06-20T185918.png
 security:
 - kind: authentication
   name: Myscale Authentication
@@ -194,10 +194,9 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: myscale
 tags:
-- Vector Database
+- Vector Search
 - SQL
 - ClickHouse
-- Vector Search
 - Full-Text Search
 - RAG
 website: https://www.myscale.com

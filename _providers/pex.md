@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.5
-  scored_at: '2026-10-17'
+  score: 24.3
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: DRM, CMS, and content-monitoring API for managing rights assets, collections, and whitelists, tracking infringing copies across platforms, and running takedowns. Bearer API-key authentication; rate li
@@ -45,7 +47,7 @@ apis:
 - description: 'Real-time automatic content recognition (ACR) API for identifying music from audio fingerprints against a registry of 120M+ recordings, resilient to tempo, pitch, and partial-obscuring modifications. '
   name: Pex Search API
   slug: pex-search-api
-artifact_total: 6
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -72,67 +74,67 @@ common:
   type: SignUp
   url: https://drm.pex.com/settings/api-keys
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pex/refs/heads/main/authentication/pex-authentication.yml
+  href: https://artifacts.apis.io/pex/authentication/pex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pex-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pex/refs/heads/main/mcp/pex-mcp.yml
+  href: https://artifacts.apis.io/pex/mcp/pex-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/pex-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pex/refs/heads/main/well-known/pex-well-known.yml
+  href: https://artifacts.apis.io/pex/well-known/pex-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pex-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pex/refs/heads/main/conventions/pex-conventions.yml
+  href: https://artifacts.apis.io/pex/conventions/pex-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pex-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pex/refs/heads/main/errors/pex-problem-types.yml
+  href: https://artifacts.apis.io/pex/errors/pex-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pex-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pex/refs/heads/main/lifecycle/pex-lifecycle.yml
+  href: https://artifacts.apis.io/pex/lifecycle/pex-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pex-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pex/refs/heads/main/conformance/pex-conformance.yml
+  href: https://artifacts.apis.io/pex/conformance/pex-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pex-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pex/refs/heads/main/security/pex-domain-security.yml
+  href: https://artifacts.apis.io/pex/security/pex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pex-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pex/refs/heads/main/llms/pex-llms.txt
+  href: https://artifacts.apis.io/pex/llms/pex-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pex-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pex/refs/heads/main/packages/pex-packages.yml
+  href: https://artifacts.apis.io/pex/packages/pex-packages.yml
   title: ''
   type: Packages
   url: packages/pex-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pex/refs/heads/main/packages/pex-packages.yml
+  href: https://artifacts.apis.io/pex/packages/pex-packages.yml
   title: ''
   type: SDKs
   url: packages/pex-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pex/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pex/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pex/refs/heads/main/changelog/pex-changelog.yml
+  href: https://artifacts.apis.io/pex/changelog/pex-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pex-changelog.yml
@@ -172,26 +174,26 @@ overview: 'Pex is listed with 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Pex''s developer surface includes documentation, API reference, signup flow, authentication, changelog, engineering blog, support, and 17 more developer resources.'
-random_paper: 3
+random_paper: 21
 score:
   band: thin
-  composite: 27.9
+  composite: 29.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 80.0
-    operational_transparency: 18.4
-  previous_composite: 27.8
+    discoverability: 70.0
+    operational_transparency: 21.1
+  previous_composite: 29.9
   provenance:
     conformance: derived
     mcp: first-party
@@ -202,14 +204,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pex/refs/heads/main/screenshots/pex-2026-09-02T151123.png
+screenshot: https://apis.io/screenshots/pex/pex-2026-09-02T151123.png
 security:
 - kind: authentication
   name: Pex Authentication
@@ -219,6 +221,10 @@ security:
   name: Pex Domain Security
   slug: pex-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: pex-ai-song-detector
+  slug: pex-ai-song-detector
 slug: pex
 tags:
 - Company

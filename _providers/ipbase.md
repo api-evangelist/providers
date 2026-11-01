@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-17'
+  score: 17.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API providing geolocation, timezone, currency, connection, and security data for IPv4 and IPv6 addresses. Returns location coordinates, city, region, country, ISP, ASN, proxy/VPN/Tor detection, a
@@ -42,7 +44,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ipbase/refs/heads/main/security/ipbase-domain-security.yml
+  href: https://artifacts.apis.io/ipbase/security/ipbase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ipbase-domain-security.yml
@@ -75,17 +77,17 @@ common:
   type: X
   url: https://twitter.com/everapi
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ipbase/refs/heads/main/plans/ipbase-plans-pricing.yml
+  href: https://artifacts.apis.io/ipbase/plans/ipbase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ipbase-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ipbase/refs/heads/main/rate-limits/ipbase-rate-limits.yml
+  href: https://artifacts.apis.io/ipbase/rate-limits/ipbase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ipbase-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ipbase/refs/heads/main/finops/ipbase-finops.yml
+  href: https://artifacts.apis.io/ipbase/finops/ipbase-finops.yml
   title: ''
   type: FinOps
   url: finops/ipbase-finops.yml
@@ -102,7 +104,7 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ipbase.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at api.ipbase.com over HTTP; 4 tools listed.
+- description: Remote MCP server at api.ipbase.com over HTTP; 5 tools listed.
   name: ipbase MCP Server
   slug: ipbase
 modified: '2026-06-13'
@@ -117,14 +119,14 @@ plans:
 - name: Ipbase Plans Pricing
   plan_count: 5
   slug: ipbase-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Ipbase Rate Limits
   slug: ipbase-rate-limits
 score:
   band: emerging
-  composite: 20.8
+  composite: 20.6
   coverage:
     artifact_dirs: 10
     catalog_earned: 43.0
@@ -132,15 +134,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 9.5
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 29.1
+  previous_composite: 20.6
   provenance:
     mcp: first-party
   regulatory:
@@ -149,14 +151,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ipbase/refs/heads/main/screenshots/ipbase-2026-06-20T183549.png
+screenshot: https://apis.io/screenshots/ipbase/ipbase-2026-06-20T183549.png
 security:
 - kind: domain-security
   name: Ipbase Domain Security

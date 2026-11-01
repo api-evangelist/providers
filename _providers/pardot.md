@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.0
-  scored_at: '2026-10-17'
+  score: 35.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: The Objects API from Salesforce Marketing Cloud Account Engagement (Pardot) — 24 operation(s) for objects.
   name: Salesforce Marketing Cloud Account Engagement (Pardot) Objects API
   slug: pardot-objects-api
-artifact_total: 14
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Salesforce Account Engagement (Pardot) API v5 Objects API
   slug: open-pardot-objects-api
@@ -72,27 +71,27 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/salesforce/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/agentic-access/pardot-agentic-access.yml
+  href: https://artifacts.apis.io/pardot/agentic-access/pardot-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pardot-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/security/pardot-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pardot/security/pardot-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pardot-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/security/pardot-domain-security.yml
+  href: https://artifacts.apis.io/pardot/security/pardot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pardot-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/authentication/pardot-authentication.yml
+  href: https://artifacts.apis.io/pardot/authentication/pardot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pardot-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/scopes/pardot-scopes.yml
+  href: https://artifacts.apis.io/pardot/scopes/pardot-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pardot-scopes.yml
@@ -117,37 +116,37 @@ common:
   type: SignUp
   url: https://www.salesforce.com/form/signup/freetrial-b2bma/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/security/pardot-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pardot/security/pardot-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/pardot-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/security/pardot-trust-center.yml
+  href: https://artifacts.apis.io/pardot/security/pardot-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pardot-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/security/pardot-trust-center.yml
+  href: https://artifacts.apis.io/pardot/security/pardot-trust-center.yml
   title: ''
   type: Compliance
   url: security/pardot-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/conformance/pardot-conformance.yml
+  href: https://artifacts.apis.io/pardot/conformance/pardot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pardot-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/conventions/pardot-conventions.yml
+  href: https://artifacts.apis.io/pardot/conventions/pardot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pardot-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/errors/pardot-error-codes.yml
+  href: https://artifacts.apis.io/pardot/errors/pardot-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/pardot-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/lifecycle/pardot-lifecycle.yml
+  href: https://artifacts.apis.io/pardot/lifecycle/pardot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pardot-lifecycle.yml
@@ -160,62 +159,62 @@ common:
   type: Deprecation
   url: https://developer.salesforce.com/docs/marketing/pardot/guide/transitioning-v5.html
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/rate-limits/pardot-rate-limits.yml
+  href: https://artifacts.apis.io/pardot/rate-limits/pardot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pardot-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/plans/pardot-plans-pricing.yml
+  href: https://artifacts.apis.io/pardot/plans/pardot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pardot-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/data-model/pardot-data-model.yml
+  href: https://artifacts.apis.io/pardot/data-model/pardot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pardot-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/packages/pardot-packages.yml
+  href: https://artifacts.apis.io/pardot/packages/pardot-packages.yml
   title: ''
   type: Packages
   url: packages/pardot-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/packages/pardot-packages.yml
+  href: https://artifacts.apis.io/pardot/packages/pardot-packages.yml
   title: ''
   type: SDKs
   url: packages/pardot-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/sandbox/pardot-sandbox.yml
+  href: https://artifacts.apis.io/pardot/sandbox/pardot-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pardot-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/components/pardot-components.yml
+  href: https://artifacts.apis.io/pardot/components/pardot-components.yml
   title: ''
   type: Components
   url: components/pardot-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/mcp/pardot-mcp.yml
+  href: https://artifacts.apis.io/pardot/mcp/pardot-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/pardot-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/llms/pardot-llms.txt
+  href: https://artifacts.apis.io/pardot/llms/pardot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pardot-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/well-known/pardot-well-known.yml
+  href: https://artifacts.apis.io/pardot/well-known/pardot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pardot-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pardot/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/schemas/pardot-schemas.yml
+  href: https://artifacts.apis.io/pardot/schemas/pardot-schemas.yml
   title: ''
   type: XMLSchema
   url: schemas/pardot-schemas.yml
@@ -257,6 +256,14 @@ common:
   url: https://github.com/pardot/api-schemas
 created: '2026-05-11'
 description: Salesforce Marketing Cloud Account Engagement, formerly known as Pardot, is a B2B marketing automation platform tightly integrated with Salesforce CRM for lead generation, lead nurturing, email marketing, and marketing ROI reporting. The platform provides campaigns, forms, landing pages, dynamic content, lead scoring/grading, and Engagement Studio for multi-step nurture programs. Version 5 of the Account Engagement REST API uses Salesforce OAuth 2.0 authentication and requires a Business Unit ID header, with hosts at pi.pardot.com (production) and pi.demo.pardot.com (sandbox).
+finops:
+- has_sources: true
+  method: derived
+  name: Pardot Finops
+  primary_unit: org
+  service_category: ''
+  slug: pardot-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pardot.png
 layout: provider
 modified: '2026-08-21'
@@ -269,9 +276,12 @@ overview: 'Salesforce Marketing Cloud Account Engagement (Pardot) publishes 3 AP
   Salesforce Marketing Cloud Account Engagement (Pardot)''s developer surface includes authentication, documentation, pricing, signup flow, sandbox, API reference, getting-started guide, and 34 more developer resources.'
 plans:
 - name: Pardot Plans Pricing
-  plan_count: 4
+  plan_count: 11
   slug: pardot-plans-pricing
-random_paper: 12
+- name: Pardot Price Estimates
+  plan_count: 0
+  slug: pardot-price-estimates
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Pardot Rate Limits
@@ -283,23 +293,28 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 59.2
+  composite: 61.3
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 61.0
+    artifact_dirs: 27
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 16.0
+    contract_quality: 12.6
     developer_ergonomics: 78.0
-    discoverability: 73.2
-    operational_transparency: 60.5
-  previous_composite: 59.1
+    discoverability: 66.1
+    operational_transparency: 71.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -320,13 +335,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/screenshots/pardot-2026-06-20T191406.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pardot/pardot-2026-06-20T191406.png
 security:
 - kind: authentication
   name: Pardot Authentication
@@ -344,6 +360,16 @@ security:
   name: Pardot Trust Center
   slug: pardot-trust-center
   summary_line: C5 (ISAE 3000), CCCS Assessment - Protected B, CJIS, CSA STAR, DoD IL2, DoD IL4, DoD IL5, EU Cloud Code of Conduct, FedRAMP High, FedRAMP Moderate, GDPR, HIPAA, HITRUST, IRAP, ISMAP, ISO 22301, ISO 27001, ISO 27017, ISO 27018, ISO 42001, ISO 9001, NEN 7510, NIST SP 800-171, PCI DSS, PrivacyMark, SOC 1, SOC 2, SOC 3, Salesforce BCRs, TISAX, TX-RAMP, U.S. Data Privacy Framework (DPF), WCAG 2.2 AA
+skill_count: 4
+skills:
+- name: pardot-bulk-action-job
+  slug: pardot-bulk-action-job
+- name: pardot-engagement-activity-pull
+  slug: pardot-engagement-activity-pull
+- name: pardot-list-nurture-enrollment
+  slug: pardot-list-nurture-enrollment
+- name: pardot-prospect-upsert
+  slug: pardot-prospect-upsert
 slug: pardot
 tags:
 - Marketing Automation

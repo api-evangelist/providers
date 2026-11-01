@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -69,7 +71,7 @@ common:
   type: Compliance
   url: https://rhythmos.io/security-compliance/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rhythmos/refs/heads/main/security/rhythmos-trust-center.yml
+  href: https://artifacts.apis.io/rhythmos/security/rhythmos-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rhythmos-trust-center.yml
@@ -78,12 +80,12 @@ common:
   type: Security
   url: https://rhythmos.io/security-compliance/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rhythmos/refs/heads/main/security/rhythmos-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/rhythmos/security/rhythmos-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rhythmos-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rhythmos/refs/heads/main/security/rhythmos-domain-security.yml
+  href: https://artifacts.apis.io/rhythmos/security/rhythmos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rhythmos-domain-security.yml
@@ -99,12 +101,12 @@ overview: 'Rhythmos is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Rhythmos'' developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 14
+random_paper: 6
 score:
   band: emerging
   composite: 18.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -125,14 +127,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rhythmos/refs/heads/main/screenshots/rhythmos-2026-09-02T153808.png
+screenshot: https://apis.io/screenshots/rhythmos/rhythmos-2026-09-02T153808.png
 security:
 - kind: domain-security
   name: Rhythmos Domain Security

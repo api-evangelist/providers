@@ -4,6 +4,6 @@ layout: provider
 name: technology-standards
 nav: Providers
 network: true
-random_paper: 3
+random_paper: 5
 slug: technology-standards
 ---

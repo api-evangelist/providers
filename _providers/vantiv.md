@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -95,11 +97,8 @@ apis:
   description: Cancel pending unsettled transactions
   name: Vantiv Voids API
   slug: vantiv-voids-api
-artifact_total: 36
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Vantiv Chargeback Authorizations API
   slug: open-vantiv-authorizations-api
@@ -138,32 +137,32 @@ collections:
   slug: open-vantiv-voids-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/plans/vantiv-plans-pricing.yml
+  href: https://artifacts.apis.io/vantiv/plans/vantiv-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vantiv-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/rate-limits/vantiv-rate-limits.yml
+  href: https://artifacts.apis.io/vantiv/rate-limits/vantiv-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vantiv-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/finops/vantiv-finops.yml
+  href: https://artifacts.apis.io/vantiv/finops/vantiv-finops.yml
   title: ''
   type: FinOps
   url: finops/vantiv-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/agentic-access/vantiv-agentic-access.yml
+  href: https://artifacts.apis.io/vantiv/agentic-access/vantiv-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vantiv-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/security/vantiv-domain-security.yml
+  href: https://artifacts.apis.io/vantiv/security/vantiv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vantiv-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vantiv/refs/heads/main/authentication/vantiv-authentication.yml
+  href: https://artifacts.apis.io/vantiv/authentication/vantiv-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vantiv-authentication.yml
@@ -282,7 +281,7 @@ press:
 - date: ''
   title: Vantiv and Worldpay Complete Combination to Form ...
   url: https://www.prnewswire.com/news-releases/vantiv-and-worldpay-complete-combination-to-form-worldpay-inc-300583008.html
-random_paper: 4
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Vantiv Rate Limits
@@ -313,7 +312,7 @@ rules:
   slug: vantiv-rules
 score:
   band: thin
-  composite: 33.6
+  composite: 35.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 56.5
@@ -321,12 +320,12 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 59.8
-    developer_ergonomics: 50.0
+    developer_ergonomics: 54.8
     discoverability: 66.1
     operational_transparency: 5.3
   jurisdiction:
@@ -334,7 +333,7 @@ score:
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 35.1
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -348,12 +347,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Vantiv Authentication

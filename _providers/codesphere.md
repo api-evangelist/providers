@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -101,11 +103,8 @@ arazzos:
 - description: Discover providers, create a managed service, and confirm it is running.
   name: Provision a Codesphere managed service
   slug: codesphere-provision-managed-service
-artifact_total: 28
+artifact_total: 30
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Codesphere Public clusters API
   slug: open-codesphere-clusters-api
@@ -138,12 +137,12 @@ collections:
   slug: open-codesphere-workspaces-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/capabilities/codesphere-capability-edges.yml
+  href: https://artifacts.apis.io/codesphere/capabilities/codesphere-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/codesphere-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/overlays/codesphere-openapi-overlay.yaml
+  href: https://artifacts.apis.io/codesphere/overlays/codesphere-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/codesphere-openapi-overlay.yaml
@@ -200,112 +199,112 @@ common:
   type: Compliance
   url: https://www.codesphere.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/security/codesphere-trust-center.yml
+  href: https://artifacts.apis.io/codesphere/security/codesphere-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/codesphere-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/security/codesphere-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/codesphere/security/codesphere-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/codesphere-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/security/codesphere-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/codesphere/security/codesphere-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/codesphere-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/security/codesphere-domain-security.yml
+  href: https://artifacts.apis.io/codesphere/security/codesphere-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/codesphere-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/cli/codesphere-cli.yml
+  href: https://artifacts.apis.io/codesphere/cli/codesphere-cli.yml
   title: ''
   type: CLI
   url: cli/codesphere-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/packages/codesphere-packages.yml
+  href: https://artifacts.apis.io/codesphere/packages/codesphere-packages.yml
   title: ''
   type: SDKs
   url: packages/codesphere-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/packages/codesphere-packages.yml
+  href: https://artifacts.apis.io/codesphere/packages/codesphere-packages.yml
   title: ''
   type: Packages
   url: packages/codesphere-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/mcp/codesphere-mcp.yml
+  href: https://artifacts.apis.io/codesphere/mcp/codesphere-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/codesphere-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/codesphere/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/authentication/codesphere-authentication.yml
+  href: https://artifacts.apis.io/codesphere/authentication/codesphere-authentication.yml
   title: ''
   type: Authentication
   url: authentication/codesphere-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/agentic-access/codesphere-agentic-access.yml
+  href: https://artifacts.apis.io/codesphere/agentic-access/codesphere-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/codesphere-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/conventions/codesphere-conventions.yml
+  href: https://artifacts.apis.io/codesphere/conventions/codesphere-conventions.yml
   title: ''
   type: Conventions
   url: conventions/codesphere-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/changelog/codesphere-changelog.yml
+  href: https://artifacts.apis.io/codesphere/changelog/codesphere-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/codesphere-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/lifecycle/codesphere-lifecycle.yml
+  href: https://artifacts.apis.io/codesphere/lifecycle/codesphere-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/codesphere-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/errors/codesphere-problem-types.yml
+  href: https://artifacts.apis.io/codesphere/errors/codesphere-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/codesphere-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/conformance/codesphere-conformance.yml
+  href: https://artifacts.apis.io/codesphere/conformance/codesphere-conformance.yml
   title: ''
   type: Conformance
   url: conformance/codesphere-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/data-model/codesphere-data-model.yml
+  href: https://artifacts.apis.io/codesphere/data-model/codesphere-data-model.yml
   title: ''
   type: DataModel
   url: data-model/codesphere-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/well-known/codesphere-well-known.yml
+  href: https://artifacts.apis.io/codesphere/well-known/codesphere-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/codesphere-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/well-known/codesphere-security.txt
+  href: https://artifacts.apis.io/codesphere/well-known/codesphere-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/codesphere-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/llms/codesphere-llms.txt
+  href: https://artifacts.apis.io/codesphere/llms/codesphere-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/codesphere-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/arazzo/codesphere-deploy-workspace.yml
+  href: https://artifacts.apis.io/codesphere/arazzo/codesphere-deploy-workspace.yml
   title: ''
   type: Arazzo
   url: arazzo/codesphere-deploy-workspace.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/arazzo/codesphere-provision-managed-service.yml
+  href: https://artifacts.apis.io/codesphere/arazzo/codesphere-provision-managed-service.yml
   title: ''
   type: Arazzo
   url: arazzo/codesphere-provision-managed-service.yml
@@ -324,7 +323,7 @@ overview: 'Codesphere publishes 10 API contracts indexed on the [APIs.io](https:
 random_paper: 2
 score:
   band: developing
-  composite: 49.4
+  composite: 52.6
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -332,15 +331,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 49.7
+    contract_quality: 46.3
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 49.3
+    discoverability: 66.1
+    operational_transparency: 47.4
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -361,13 +360,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/screenshots/codesphere-2026-07-25T205930.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/codesphere/codesphere-2026-07-25T205930.png
 security:
 - kind: authentication
   name: Codesphere Authentication
@@ -385,6 +385,14 @@ security:
   name: Codesphere Trust Center
   slug: codesphere-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 3
+skills:
+- name: Connect and verify a custom domain
+  slug: codesphere-connect-domain
+- name: Deploy an application to a Codesphere workspace
+  slug: codesphere-deploy-workspace
+- name: Provision a Codesphere managed service
+  slug: codesphere-provision-managed-service
 slug: codesphere
 tags:
 - Company

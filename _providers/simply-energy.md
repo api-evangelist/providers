@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -91,7 +93,7 @@ apis:
   description: Energy Plan endpoints
   name: Simply Energy Plans API
   slug: simply-energy-energy-plans-api
-artifact_total: 17
+artifact_total: 20
 collections:
 - collection_type: open
   name: CDR Common API
@@ -101,42 +103,42 @@ collections:
   slug: open-simply-energy-cds-energy
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/overlays/simply-energy-cds-energy-overlay.yaml
+  href: https://artifacts.apis.io/simply-energy/overlays/simply-energy-cds-energy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/simply-energy-cds-energy-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/skills/simply-energy-compare-energy-plans.md
+  href: https://artifacts.apis.io/simply-energy/skills/simply-energy-compare-energy-plans.md
   title: ''
   type: AgentSkill
   url: skills/simply-energy-compare-energy-plans.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/overlays/simply-energy-cds-common-overlay.yaml
+  href: https://artifacts.apis.io/simply-energy/overlays/simply-energy-cds-common-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/simply-energy-cds-common-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/skills/simply-energy-check-data-holder-health.md
+  href: https://artifacts.apis.io/simply-energy/skills/simply-energy-check-data-holder-health.md
   title: ''
   type: AgentSkill
   url: skills/simply-energy-check-data-holder-health.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/skills/simply-energy-retrieve-consumer-energy-data.md
+  href: https://artifacts.apis.io/simply-energy/skills/simply-energy-retrieve-consumer-energy-data.md
   title: ''
   type: AgentSkill
   url: skills/simply-energy-retrieve-consumer-energy-data.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/mcp/simply-energy-mcp.yml
+  href: https://artifacts.apis.io/simply-energy/mcp/simply-energy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/simply-energy-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/security/simply-energy-domain-security.yml
+  href: https://artifacts.apis.io/simply-energy/security/simply-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simply-energy-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/agentic-access/simply-energy-agentic-access.yml
+  href: https://artifacts.apis.io/simply-energy/agentic-access/simply-energy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/simply-energy-agentic-access.yml
@@ -181,32 +183,32 @@ common:
   type: TermsOfService
   url: https://engie.com.au/help-centre/policies-and-commitments/terms-of-use
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/authentication/simply-energy-authentication.yml
+  href: https://artifacts.apis.io/simply-energy/authentication/simply-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/simply-energy-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/scopes/simply-energy-scopes.yml
+  href: https://artifacts.apis.io/simply-energy/scopes/simply-energy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/simply-energy-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/conventions/simply-energy-conventions.yml
+  href: https://artifacts.apis.io/simply-energy/conventions/simply-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/simply-energy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/errors/simply-energy-problem-types.yml
+  href: https://artifacts.apis.io/simply-energy/errors/simply-energy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/simply-energy-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/rate-limits/simply-energy-rate-limits.yml
+  href: https://artifacts.apis.io/simply-energy/rate-limits/simply-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/simply-energy-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/lifecycle/simply-energy-lifecycle.yml
+  href: https://artifacts.apis.io/simply-energy/lifecycle/simply-energy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/simply-energy-lifecycle.yml
@@ -219,37 +221,37 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#endpoint-version-schedule
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/changelog/simply-energy-changelog.yml
+  href: https://artifacts.apis.io/simply-energy/changelog/simply-energy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/simply-energy-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/conformance/simply-energy-conformance.yml
+  href: https://artifacts.apis.io/simply-energy/conformance/simply-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/simply-energy-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/data-model/simply-energy-data-model.yml
+  href: https://artifacts.apis.io/simply-energy/data-model/simply-energy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/simply-energy-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/packages/simply-energy-packages.yml
+  href: https://artifacts.apis.io/simply-energy/packages/simply-energy-packages.yml
   title: ''
   type: Packages
   url: packages/simply-energy-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/well-known/simply-energy-well-known.yml
+  href: https://artifacts.apis.io/simply-energy/well-known/simply-energy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/simply-energy-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/well-known/simply-energy-engie-group-security.txt
+  href: https://artifacts.apis.io/simply-energy/well-known/simply-energy-engie-group-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/simply-energy-engie-group-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/security/simply-energy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/simply-energy/security/simply-energy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/simply-energy-vulnerability-disclosure.yml
@@ -258,12 +260,12 @@ common:
   type: Security
   url: https://www.engie.com/en/cert/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/llms/simply-energy-llms.txt
+  href: https://artifacts.apis.io/simply-energy/llms/simply-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/simply-energy-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/simply-energy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -279,7 +281,7 @@ overview: 'Simply Energy publishes 9 API contracts indexed on the [APIs.io](http
 
 
   Simply Energy''s developer surface includes documentation, API reference, engineering blog, authentication, changelog, and 31 more developer resources.'
-random_paper: 1
+random_paper: 21
 rate_limits:
 - limit_count: 14
   name: Simply Energy Rate Limits
@@ -291,7 +293,7 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.1
+  composite: 45.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 47.0
@@ -306,7 +308,7 @@ score:
     contract_quality: 44.7
     developer_ergonomics: 37.5
     discoverability: 62.5
-    operational_transparency: 73.7
+    operational_transparency: 81.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -314,7 +316,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 44.1
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -331,13 +333,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/screenshots/simply-energy-2026-08-17T125320.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/simply-energy/simply-energy-2026-08-17T125320.png
 security:
 - kind: authentication
   name: Simply Energy Authentication
@@ -351,6 +354,14 @@ security:
   name: Simply Energy Vulnerability Disclosure
   slug: simply-energy-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 3
+skills:
+- name: Check ENGIE CDR data-holder health and outages
+  slug: simply-energy-check-data-holder-health
+- name: Compare ENGIE (formerly Simply Energy) retail energy plans
+  slug: simply-energy-compare-energy-plans
+- name: Retrieve a consumer's ENGIE energy accounts, usage and billing (accredited only)
+  slug: simply-energy-retrieve-consumer-energy-data
 slug: simply-energy
 tags:
 - Energy

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Multi languages Pokémon TCG Information
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tcgdex/refs/heads/main/security/tcgdex-domain-security.yml
+  href: https://artifacts.apis.io/tcgdex/security/tcgdex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tcgdex-domain-security.yml
@@ -62,10 +64,10 @@ name: TCGdex
 nav: Providers
 network: true
 overview: TCGdex is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Public APIs, Gaming, and Card Games.
-random_paper: 1
+random_paper: 15
 score:
   band: minimal
-  composite: 2.5
+  composite: 4.4
   coverage:
     artifact_dirs: 3
     catalog_earned: 22.0
@@ -78,24 +80,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 9.5
     discoverability: 46.4
     operational_transparency: 0.0
-  previous_composite: 2.5
+  previous_composite: 4.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tcgdex/refs/heads/main/screenshots/tcgdex-2026-10-11T130708.png
+screenshot: https://apis.io/screenshots/tcgdex/tcgdex-2026-10-11T130708.png
 security:
 - kind: domain-security
   name: Tcgdex Domain Security

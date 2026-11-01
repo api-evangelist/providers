@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-17'
+  score: 33.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 2
@@ -75,11 +77,83 @@ apis:
   description: The v1-projects API from Ardent — 2 operation(s) for v1-projects.
   name: Ardent v1-projects API
   slug: ardent-v1-projects-api
-artifact_total: 16
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The FastAPI API from Ardent — 1 operation(s) for fastapi.
+  name: Ardent Fast API
+  slug: ardent-fastapi-api
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The Health API from Ardent — 1 operation(s) for health.
+  name: Ardent Health API
+  slug: ardent-health-api
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The Healthz API from Ardent — 1 operation(s) for healthz.
+  name: Ardent Healthz API
+  slug: ardent-healthz-api
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The Readyz API from Ardent — 1 operation(s) for readyz.
+  name: Ardent Readyz API
+  slug: ardent-readyz-api
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-auth API from Ardent — 3 operation(s) for v1-auth.
+  name: Ardent V1 Auth API
+  slug: ardent-v1-auth-api
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-billing API from Ardent — 3 operation(s) for v1-billing.
+  name: Ardent V1 Billing API
+  slug: ardent-v1-billing-api
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-cli API from Ardent — 12 operation(s) for v1-cli.
+  name: Ardent V1 Cli API
+  slug: ardent-v1-cli-api
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-environments API from Ardent — 10 operation(s) for v1-environments.
+  name: Ardent V1 Environments API
+  slug: ardent-v1-environments-api
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-github API from Ardent — 5 operation(s) for v1-github.
+  name: Ardent V1 Github API
+  slug: ardent-v1-github-api
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-github-app API from Ardent — 4 operation(s) for v1-github-app.
+  name: Ardent V1 Github App API
+  slug: ardent-v1-github-app-api
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-internal API from Ardent — 19 operation(s) for v1-internal.
+  name: Ardent V1 Internal API
+  slug: ardent-v1-internal-api
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-internal-health API from Ardent — 7 operation(s) for v1-internal-health.
+  name: Ardent V1 Internal Health API
+  slug: ardent-v1-internal-health-api
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-policies API from Ardent — 5 operation(s) for v1-policies.
+  name: Ardent V1 Policies API
+  slug: ardent-v1-policies-api
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-posthog API from Ardent — 1 operation(s) for v1-posthog.
+  name: Ardent V1 Posthog API
+  slug: ardent-v1-posthog-api
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-system API from Ardent — 1 operation(s) for v1-system.
+  name: Ardent V1 System API
+  slug: ardent-v1-system-api
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ardent v1-api-keys API
   slug: open-ardent-v1-api-keys-api
@@ -99,82 +173,87 @@ collections:
   name: Ardent v1-api-keys v1-projects API
   slug: open-ardent-v1-projects-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/ardent/plans/ardent-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ardent-plans-pricing.yml
 - group: company
   title: ''
   type: Website
   url: https://www.tryardent.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/packages/ardent-packages.yml
+  href: https://artifacts.apis.io/ardent/packages/ardent-packages.yml
   title: ''
   type: Packages
   url: packages/ardent-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/cli/ardent-cli.yml
+  href: https://artifacts.apis.io/ardent/cli/ardent-cli.yml
   title: ''
   type: CLI
   url: cli/ardent-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/llms/ardent-llms.txt
+  href: https://artifacts.apis.io/ardent/llms/ardent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ardent-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/mcp/ardent-mcp.yml
+  href: https://artifacts.apis.io/ardent/mcp/ardent-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ardent-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ardent/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/sandbox/ardent-sandbox.yml
+  href: https://artifacts.apis.io/ardent/sandbox/ardent-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ardent-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/conventions/ardent-conventions.yml
+  href: https://artifacts.apis.io/ardent/conventions/ardent-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ardent-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/lifecycle/ardent-lifecycle.yml
+  href: https://artifacts.apis.io/ardent/lifecycle/ardent-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ardent-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/conformance/ardent-conformance.yml
+  href: https://artifacts.apis.io/ardent/conformance/ardent-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ardent-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/errors/ardent-problem-types.yml
+  href: https://artifacts.apis.io/ardent/errors/ardent-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ardent-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/data-model/ardent-data-model.yml
+  href: https://artifacts.apis.io/ardent/data-model/ardent-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ardent-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/overlays/ardent-openapi-overlay.yaml
+  href: https://artifacts.apis.io/ardent/overlays/ardent-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ardent-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/security/ardent-domain-security.yml
+  href: https://artifacts.apis.io/ardent/security/ardent-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ardent-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/agentic-access/ardent-agentic-access.yml
+  href: https://artifacts.apis.io/ardent/agentic-access/ardent-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ardent-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/authentication/ardent-authentication.yml
+  href: https://artifacts.apis.io/ardent/authentication/ardent-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ardent-authentication.yml
@@ -228,44 +307,59 @@ common:
   url: https://www.linkedin.com/company/ardent-db
 created: '2026-07-17'
 description: Ardent is a database branching platform for Postgres that lets developers and AI coding agents clone any production or development database in seconds into fully isolated, disposable branches. Each branch is isolated at both the compute and storage layers using copy-on-write, autoscales to zero when idle, and never touches production, so agents and CI/CD pipelines can run migrations, backfills, destructive tests, and risky experiments against production-like data with zero blast radius. Ardent exposes a REST API (api.tryardent.com), a first-party npm CLI (ardent-cli), and connectors for Supabase, AWS RDS, PlanetScale, and self-hosted Postgres 13+.
+finops:
+- has_sources: true
+  method: derived
+  name: Ardent Finops
+  primary_unit: cu-hr (1 vcpu + 4 gb ram)
+  service_category: ''
+  slug: ardent-finops
+  template: false
 image: https://tryardent.com/og-image.png
 layout: provider
 modified: '2026-07-18'
 name: Ardent
 nav: Providers
 network: true
-overview: 'Ardent publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including v1-api-keys API, v1-branching API, v1-connectors API, and 3 more. Tagged areas include Company, Database, PostgreSQL, Database Branching, and Developer Tools.
+overview: 'Ardent publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including v1-api-keys API, v1-branching API, v1-connectors API, and 18 more. Tagged areas include Company, Database, PostgreSQL, Database Branching, and Developer Tools.
 
 
-  Ardent''s developer surface includes CLI, sandbox, authentication, documentation, API reference, getting-started guide, support, and 21 more developer resources.'
-random_paper: 0
+  Ardent''s developer surface includes CLI, sandbox, authentication, documentation, API reference, getting-started guide, support, and 22 more developer resources.'
+plans:
+- name: Ardent Plans Pricing
+  plan_count: 5
+  slug: ardent-plans-pricing
+- name: Ardent Price Estimates
+  plan_count: 0
+  slug: ardent-price-estimates
+random_paper: 14
 score:
   band: developing
-  composite: 43.0
+  composite: 49.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.4
   facets:
-    access_clarity: 38.2
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 50.6
+    contract_quality: 40.0
     developer_ergonomics: 70.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 42.9
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 22.2
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 27
     mcp: derived
     skills: derived
   regulatory:
@@ -274,13 +368,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/screenshots/ardent-2026-07-25T201116.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ardent/ardent-2026-07-25T201116.png
 security:
 - kind: authentication
   name: Ardent Authentication
@@ -290,6 +385,12 @@ security:
   name: Ardent Domain Security
   slug: ardent-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Give an AI agent an isolated ephemeral database
+  slug: ardent-agent-ephemeral-database
+- name: Connect a Postgres source and create a branch
+  slug: ardent-connect-and-branch
 slug: ardent
 tags:
 - Company

@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,20 +39,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The only anonymously reachable, machine-readable EasyWebinar API surface. The application host publishes a complete OpenID Connect discovery document and RFC 8414 authorization-server metadata, with l
   name: EasyWebinar OAuth 2.0 / OpenID Connect
   slug: easywebinar-oauth-20-openid-connect
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Easywebinar Webhooks
   slug: easywebinar-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/security/easywebinar-domain-security.yml
+  href: https://artifacts.apis.io/easywebinar/security/easywebinar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/easywebinar-domain-security.yml
@@ -95,63 +97,71 @@ common:
   type: Compliance
   url: https://easywebinar.com/enterprise/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/plans/easywebinar-plans-pricing.yml
+  href: https://artifacts.apis.io/easywebinar/plans/easywebinar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/easywebinar-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/rate-limits/easywebinar-rate-limits.yml
+  href: https://artifacts.apis.io/easywebinar/rate-limits/easywebinar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/easywebinar-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/authentication/easywebinar-authentication.yml
+  href: https://artifacts.apis.io/easywebinar/authentication/easywebinar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/easywebinar-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/scopes/easywebinar-scopes.yml
+  href: https://artifacts.apis.io/easywebinar/scopes/easywebinar-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/easywebinar-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/well-known/easywebinar-well-known.yml
+  href: https://artifacts.apis.io/easywebinar/well-known/easywebinar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/easywebinar-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/conformance/easywebinar-conformance.yml
+  href: https://artifacts.apis.io/easywebinar/conformance/easywebinar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/easywebinar-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/lifecycle/easywebinar-lifecycle.yml
+  href: https://artifacts.apis.io/easywebinar/lifecycle/easywebinar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/easywebinar-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/errors/easywebinar-problem-types.yml
+  href: https://artifacts.apis.io/easywebinar/errors/easywebinar-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/easywebinar-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/packages/easywebinar-packages.yml
+  href: https://artifacts.apis.io/easywebinar/packages/easywebinar-packages.yml
   title: ''
   type: Packages
   url: packages/easywebinar-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/asyncapi/easywebinar-webhooks.yml
+  href: https://artifacts.apis.io/easywebinar/asyncapi/easywebinar-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/easywebinar-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/llms/easywebinar-llms.txt
+  href: https://artifacts.apis.io/easywebinar/llms/easywebinar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/easywebinar-llms.txt
 created: '2026-08-12'
 description: EasyWebinar is a live and automated webinar platform for course creators, marketers, coaches and enterprise teams, combining live webinars, automated/simulive and evergreen webinars, an AI webinar funnel builder, EasyCast multistreaming to YouTube, LinkedIn, Facebook and custom RTMP destinations, built-in checkout for paid webinars, and Easy Suite — a native CRM with lead scoring, email sequences and automated follow-up. The platform scales to 100,000 live attendees on Dolby OptiView (Millicast) WebRTC infrastructure and is SOC 2 Type II certified (audited by Scrut Automation) with GDPR controls, SAML 2.0 SSO and SCIM provisioning on the Enterprise tier. EasyWebinar publicly serves an OAuth 2.0 / OpenID Connect authorization server at app.easywebinar.com and markets a REST API and webhooks covering registration, attendance, lead data, CRM sync and event lifecycle events — but that API is a Scale-plan and Enterprise entitlement, and no public reference, OpenAPI or webhook catalogue
   is published.
+finops:
+- has_sources: true
+  method: derived
+  name: Easywebinar Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: easywebinar-finops
+  template: false
 image: https://easywebinar.com/images/og-image.png
 layout: provider
 modified: '2026-09-16'
@@ -169,7 +179,10 @@ plans:
 - name: Easywebinar Plans Pricing
   plan_count: 5
   slug: easywebinar-plans-pricing
-random_paper: 12
+- name: Easywebinar Price Estimates
+  plan_count: 0
+  slug: easywebinar-price-estimates
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Easywebinar Rate Limits
@@ -181,23 +194,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials/implicit
 score:
   band: developing
-  composite: 47.8
+  composite: 47.3
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 49.0
+    artifact_dirs: 17
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 44.2
+    contract_quality: 39.0
     developer_ergonomics: 28.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 47.7
+  previous_composite: 45.7
   provenance:
     conformance: first-party
   regulatory:
@@ -210,14 +223,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/screenshots/easywebinar-2026-08-17T080912.png
+screenshot: https://apis.io/screenshots/easywebinar/easywebinar-2026-08-17T080912.png
 security:
 - kind: authentication
   name: Easywebinar Authentication

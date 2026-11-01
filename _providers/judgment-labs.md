@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,22 +25,24 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-17'
+  score: 25.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The backend platform API behind Judgeval — ingests agent traces/spans, runs evaluations and judges, and serves traces, sessions, behaviors, datasets, and automations. Consumed through the Judgeval SDK
   name: Judgment Platform API
   slug: judgment-platform-api
-artifact_total: 4
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -95,57 +97,57 @@ common:
   type: StatusPage
   url: https://status.judgmentlabs.ai
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/judgment-labs/refs/heads/main/packages/judgment-labs-packages.yml
+  href: https://artifacts.apis.io/judgment-labs/packages/judgment-labs-packages.yml
   title: ''
   type: Packages
   url: packages/judgment-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/judgment-labs/refs/heads/main/packages/judgment-labs-packages.yml
+  href: https://artifacts.apis.io/judgment-labs/packages/judgment-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/judgment-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/judgment-labs/refs/heads/main/cli/judgment-labs-cli.yml
+  href: https://artifacts.apis.io/judgment-labs/cli/judgment-labs-cli.yml
   title: ''
   type: CLI
   url: cli/judgment-labs-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/judgment-labs/refs/heads/main/mcp/judgment-labs-mcp.yml
+  href: https://artifacts.apis.io/judgment-labs/mcp/judgment-labs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/judgment-labs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/judgment-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/judgment-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/judgment-labs/refs/heads/main/llms/judgment-labs-llms.txt
+  href: https://artifacts.apis.io/judgment-labs/llms/judgment-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/judgment-labs-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/judgment-labs/refs/heads/main/changelog/judgment-labs-changelog.yml
+  href: https://artifacts.apis.io/judgment-labs/changelog/judgment-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/judgment-labs-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/judgment-labs/refs/heads/main/authentication/judgment-labs-authentication.yml
+  href: https://artifacts.apis.io/judgment-labs/authentication/judgment-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/judgment-labs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/judgment-labs/refs/heads/main/conformance/judgment-labs-conformance.yml
+  href: https://artifacts.apis.io/judgment-labs/conformance/judgment-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/judgment-labs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/judgment-labs/refs/heads/main/lifecycle/judgment-labs-lifecycle.yml
+  href: https://artifacts.apis.io/judgment-labs/lifecycle/judgment-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/judgment-labs-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/judgment-labs/refs/heads/main/security/judgment-labs-domain-security.yml
+  href: https://artifacts.apis.io/judgment-labs/security/judgment-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/judgment-labs-domain-security.yml
@@ -168,23 +170,23 @@ overview: 'Judgment Labs is listed with 1 API on the [APIs.io](https://apis.io/)
 random_paper: 5
 score:
   band: thin
-  composite: 36.8
+  composite: 37.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 78.6
-    discoverability: 75.0
-    operational_transparency: 26.3
-  previous_composite: 36.7
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 37.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -195,14 +197,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/judgment-labs/refs/heads/main/screenshots/judgment-labs-2026-07-25T223257.png
+screenshot: https://apis.io/screenshots/judgment-labs/judgment-labs-2026-07-25T223257.png
 security:
 - kind: authentication
   name: Judgment Labs Authentication
@@ -212,6 +214,12 @@ security:
   name: Judgment Labs Domain Security
   slug: judgment-labs-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: judgment
+  slug: judgment-labs-judgment-skill
+- name: mcp-server-best-practices
+  slug: judgment-labs-mcp-best-practices-skill
 slug: judgment-labs
 tags:
 - Company

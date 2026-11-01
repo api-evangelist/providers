@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 25.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -407,69 +409,69 @@ apis:
   description: workflow entity resources exposed by the NAIC JSON:API.
   name: NAIC Workflow API
   slug: naic-workflow-api
-artifact_total: 82
+artifact_total: 85
 collections:
 - collection_type: open
   name: NAIC Content JSON:API
   slug: open-naic-content-jsonapi
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/agentic-access/naic-agentic-access.yml
+  href: https://artifacts.apis.io/naic/agentic-access/naic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/naic-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/security/naic-domain-security.yml
+  href: https://artifacts.apis.io/naic/security/naic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/naic-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/llms/naic-llms.txt
+  href: https://artifacts.apis.io/naic/llms/naic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/naic-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/authentication/naic-authentication.yml
+  href: https://artifacts.apis.io/naic/authentication/naic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/naic-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/conventions/naic-conventions.yml
+  href: https://artifacts.apis.io/naic/conventions/naic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/naic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/errors/naic-problem-types.yml
+  href: https://artifacts.apis.io/naic/errors/naic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/naic-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/naic/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/data-model/naic-data-model.yml
+  href: https://artifacts.apis.io/naic/data-model/naic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/naic-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/conformance/naic-conformance.yml
+  href: https://artifacts.apis.io/naic/conformance/naic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/naic-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/lifecycle/naic-lifecycle.yml
+  href: https://artifacts.apis.io/naic/lifecycle/naic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/naic-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/mcp/naic-mcp.yml
+  href: https://artifacts.apis.io/naic/mcp/naic-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/naic-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/naic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -567,24 +569,24 @@ overview: 'NAIC is listed with 73 APIs on the [APIs.io](https://apis.io/) networ
 
 
   NAIC''s developer surface includes authentication, code examples, engineering blog, documentation, developer portal, support, and 22 more developer resources.'
-random_paper: 15
+random_paper: 3
 score:
-  band: thin
-  composite: 32.7
+  band: emerging
+  composite: 24.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
-    catalog_max: 100.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 57.1
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 16.5
     developer_ergonomics: 39.9
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -593,7 +595,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 32.7
+  previous_composite: 24.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -610,14 +612,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/screenshots/naic-2026-08-07T184609.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/naic/naic-2026-08-07T184609.png
 security:
 - kind: authentication
   name: Naic Authentication
@@ -627,6 +629,14 @@ security:
   name: Naic Domain Security
   slug: naic-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Discover and query the NAIC JSON:API safely
+  slug: naic-jsonapi-discovery
+- name: Look up an NAIC model law
+  slug: naic-model-law-lookup
+- name: Pull the state insurance regulator directory
+  slug: naic-state-regulator-directory
 slug: naic
 tags:
 - Insurance

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: true
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.3
-  scored_at: '2026-10-17'
+  score: 43.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,15 +70,12 @@ apis:
   description: Vulnerabilities detected in runtime by Contrast Assess are weaknesses in the application code that allow an attacker to cause harm.
   name: Contrast Security Vulnerabilities API
   slug: contrast-security-vulnerabilities-api
-artifact_total: 26
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Contrast Security Webhooks
   slug: contrast-security-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Contrast Assess Applications API
   slug: open-contrast-security-applications-api
@@ -94,7 +93,7 @@ collections:
   slug: open-contrast-security
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/well-known/contrast-security-status-security.txt
+  href: https://artifacts.apis.io/contrast-security/well-known/contrast-security-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/contrast-security-status-security.txt
@@ -103,37 +102,37 @@ common:
   type: Pricing
   url: https://www.contrastsecurity.com/pricing-and-packaging
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/plans/contrast-security-plans-pricing.yml
+  href: https://artifacts.apis.io/contrast-security/plans/contrast-security-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/contrast-security-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/rules/contrast-security-rules.yml
+  href: https://artifacts.apis.io/contrast-security/rules/contrast-security-rules.yml
   title: ''
   type: Spectral
   url: rules/contrast-security-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/json-ld/contrast-security-context.jsonld
+  href: https://artifacts.apis.io/contrast-security/json-ld/contrast-security-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/contrast-security-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/vocabulary/contrast-security-vocabulary.yml
+  href: https://artifacts.apis.io/contrast-security/vocabulary/contrast-security-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/contrast-security-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/asyncapi/contrast-security-webhooks.yml
+  href: https://artifacts.apis.io/contrast-security/asyncapi/contrast-security-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/contrast-security-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/data-model/contrast-security-data-model.yml
+  href: https://artifacts.apis.io/contrast-security/data-model/contrast-security-data-model.yml
   title: ''
   type: DataModel
   url: data-model/contrast-security-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/changelog/contrast-security-changelog.yml
+  href: https://artifacts.apis.io/contrast-security/changelog/contrast-security-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/contrast-security-changelog.yml
@@ -142,47 +141,47 @@ common:
   type: Security
   url: https://www.contrastsecurity.com/disclosure-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/errors/contrast-security-problem-types.yml
+  href: https://artifacts.apis.io/contrast-security/errors/contrast-security-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/contrast-security-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/conformance/contrast-security-conformance.yml
+  href: https://artifacts.apis.io/contrast-security/conformance/contrast-security-conformance.yml
   title: ''
   type: Conformance
   url: conformance/contrast-security-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/well-known/contrast-security-security.txt
+  href: https://artifacts.apis.io/contrast-security/well-known/contrast-security-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/contrast-security-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/well-known/contrast-security-contrastsecurity-security.txt
+  href: https://artifacts.apis.io/contrast-security/well-known/contrast-security-contrastsecurity-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/contrast-security-contrastsecurity-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/well-known/contrast-security-well-known.yml
+  href: https://artifacts.apis.io/contrast-security/well-known/contrast-security-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/contrast-security-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/hosts/contrast-security-hosts.yml
+  href: https://artifacts.apis.io/contrast-security/hosts/contrast-security-hosts.yml
   title: ''
   type: Hosts
   url: hosts/contrast-security-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/vendors/contrast-security-vendors.yml
+  href: https://artifacts.apis.io/contrast-security/vendors/contrast-security-vendors.yml
   title: ''
   type: Vendors
   url: vendors/contrast-security-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/packages/contrast-security-packages.yml
+  href: https://artifacts.apis.io/contrast-security/packages/contrast-security-packages.yml
   title: ''
   type: SDKs
   url: packages/contrast-security-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/packages/contrast-security-packages.yml
+  href: https://artifacts.apis.io/contrast-security/packages/contrast-security-packages.yml
   title: ''
   type: Packages
   url: packages/contrast-security-packages.yml
@@ -219,22 +218,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/contrastsecurity
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/agentic-access/contrast-security-agentic-access.yml
+  href: https://artifacts.apis.io/contrast-security/agentic-access/contrast-security-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/contrast-security-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/security/contrast-security-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/contrast-security/security/contrast-security-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/contrast-security-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/security/contrast-security-domain-security.yml
+  href: https://artifacts.apis.io/contrast-security/security/contrast-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/contrast-security-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/authentication/contrast-security-authentication.yml
+  href: https://artifacts.apis.io/contrast-security/authentication/contrast-security-authentication.yml
   title: ''
   type: Authentication
   url: authentication/contrast-security-authentication.yml
@@ -271,7 +270,7 @@ common:
   type: MCPServer
   url: https://github.com/Contrast-Security-OSS/mcp-contrast
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/capabilities/contrast-security-capability-edges.yml
+  href: https://artifacts.apis.io/contrast-security/capabilities/contrast-security-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/contrast-security-capability-edges.yml
@@ -293,6 +292,14 @@ coverage:
   state: unreadable
 created: '2026-05-11'
 description: Contrast Security is an application security platform that uses instrumentation-based agents to provide Interactive Application Security Testing (IAST), Runtime Application Self-Protection (RASP), and Software Composition Analysis (SCA) across Java, .NET, Node.js, Python, PHP, Go, and Ruby applications. The platform identifies, prioritizes, and defends against vulnerabilities and attacks in real time from inside running applications. Contrast's REST API enables programmatic access to TeamServer applications, libraries, vulnerabilities, and traces, authenticated via API key plus Authorization header (Base64 of username:service_key) and an Organization ID.
+finops:
+- has_sources: true
+  method: derived
+  name: Contrast Security Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: contrast-security-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/contrast-security.png
 json_schemas:
 - name: PageV4Application
@@ -338,7 +345,10 @@ plans:
 - name: Contrast Security Plans Pricing
   plan_count: 3
   slug: contrast-security-plans-pricing
-random_paper: 7
+- name: Contrast Security Price Estimates
+  plan_count: 0
+  slug: contrast-security-price-estimates
+random_paper: 11
 rules:
 - authorship: generated
   effective_rule_count: 57
@@ -354,23 +364,23 @@ rules:
   slug: contrast-security-rules
 score:
   band: strong
-  composite: 58.6
+  composite: 62.0
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 74.8
+    artifact_dirs: 30
+    catalog_earned: 77.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.3
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.2
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 71.1
     contract_governance: 22.0
     contract_quality: 69.2
     developer_ergonomics: 57.1
-    discoverability: 76.7
+    discoverability: 73.3
     operational_transparency: 55.3
-  previous_composite: 64.8
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -386,14 +396,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/screenshots/contrast-security-2026-06-20T174948.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/contrast-security/contrast-security-2026-06-20T174948.png
 security:
 - kind: authentication
   name: Contrast Security Authentication

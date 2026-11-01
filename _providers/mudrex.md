@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Programmatic control over a Mudrex futures trading account. Transfer funds between the spot and futures wallets (USDT and INR), list tradeable instruments and contract specifications, get and set leve
@@ -48,7 +50,7 @@ apis:
 - description: Mudrex's official hosted Model Context Protocol server, which exposes the Mudrex Futures Trading API to MCP-capable AI assistants as 20 tools across orders, positions, risk management (stop-loss/take-
   name: Mudrex MCP Server
   slug: mudrex-mcp-server
-artifact_total: 9
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Mudrex Market Data Streams
@@ -111,82 +113,82 @@ common:
   type: Compliance
   url: https://mudrex.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/security/mudrex-trust-center.yml
+  href: https://artifacts.apis.io/mudrex/security/mudrex-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mudrex-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/security/mudrex-domain-security.yml
+  href: https://artifacts.apis.io/mudrex/security/mudrex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mudrex-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/authentication/mudrex-authentication.yml
+  href: https://artifacts.apis.io/mudrex/authentication/mudrex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mudrex-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/conventions/mudrex-conventions.yml
+  href: https://artifacts.apis.io/mudrex/conventions/mudrex-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mudrex-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/errors/mudrex-error-codes.yml
+  href: https://artifacts.apis.io/mudrex/errors/mudrex-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/mudrex-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/rate-limits/mudrex-rate-limits.yml
+  href: https://artifacts.apis.io/mudrex/rate-limits/mudrex-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mudrex-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/lifecycle/mudrex-lifecycle.yml
+  href: https://artifacts.apis.io/mudrex/lifecycle/mudrex-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mudrex-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/changelog/mudrex-changelog.yml
+  href: https://artifacts.apis.io/mudrex/changelog/mudrex-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mudrex-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/conformance/mudrex-conformance.yml
+  href: https://artifacts.apis.io/mudrex/conformance/mudrex-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mudrex-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/data-model/mudrex-data-model.yml
+  href: https://artifacts.apis.io/mudrex/data-model/mudrex-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mudrex-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/packages/mudrex-packages.yml
+  href: https://artifacts.apis.io/mudrex/packages/mudrex-packages.yml
   title: ''
   type: Packages
   url: packages/mudrex-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/packages/mudrex-packages.yml
+  href: https://artifacts.apis.io/mudrex/packages/mudrex-packages.yml
   title: ''
   type: SDKs
   url: packages/mudrex-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/mcp/mudrex-mcp.yml
+  href: https://artifacts.apis.io/mudrex/mcp/mudrex-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mudrex-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/mcp/mudrex-tool-crosswalk.yml
+  href: https://artifacts.apis.io/mudrex/mcp/mudrex-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/mudrex-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mudrex/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/llms/mudrex-llms.txt
+  href: https://artifacts.apis.io/mudrex/llms/mudrex-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mudrex-llms.txt
@@ -209,14 +211,14 @@ overview: 'Mudrex is listed with 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Mudrex''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 13
   name: Mudrex Rate Limits
   slug: mudrex-rate-limits
 score:
   band: developing
-  composite: 42.1
+  composite: 52.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 52.0
@@ -224,14 +226,14 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 49.4
-    discoverability: 80.0
-    operational_transparency: 50.0
+    developer_ergonomics: 66.1
+    discoverability: 70.0
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -239,7 +241,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 42.0
+  previous_composite: 52.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -249,15 +251,15 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 20.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mudrex/refs/heads/main/screenshots/mudrex-2026-08-07T184429.png
+screenshot: https://apis.io/screenshots/mudrex/mudrex-2026-08-07T184429.png
 security:
 - kind: authentication
   name: Mudrex Authentication
@@ -271,6 +273,14 @@ security:
   name: Mudrex Trust Center
   slug: mudrex-trust-center
   summary_line: ISO 27001:2022, SOC 2 Type II
+skill_count: 3
+skills:
+- name: Manage risk on an open Mudrex position
+  slug: mudrex-manage-position-risk
+- name: Place a Mudrex futures order
+  slug: mudrex-place-futures-order
+- name: Read and stream Mudrex market data
+  slug: mudrex-stream-market-data
 slug: mudrex
 tags:
 - Company

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,61 +36,61 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Public Hasura GraphQL API for the VoyceMe platform — 332 queries, 21 public insert mutations, and 493 subscriptions across the voyce_ (comics platform), storypack_/storytech_ (AI characters), and blog
   name: VoyceMe GraphQL API
   slug: voyceme-graphql-api
-artifact_total: 3
+artifact_total: 5
 common:
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/graphql/voyceme-graphql.graphql
+  href: https://artifacts.apis.io/voyceme/graphql/voyceme-graphql.graphql
   title: ''
   type: GraphQL
   url: graphql/voyceme-graphql.graphql
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/authentication/voyceme-authentication.yml
+  href: https://artifacts.apis.io/voyceme/authentication/voyceme-authentication.yml
   title: ''
   type: Authentication
   url: authentication/voyceme-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/conventions/voyceme-conventions.yml
+  href: https://artifacts.apis.io/voyceme/conventions/voyceme-conventions.yml
   title: ''
   type: Conventions
   url: conventions/voyceme-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/errors/voyceme-problem-types.yml
+  href: https://artifacts.apis.io/voyceme/errors/voyceme-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/voyceme-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/conformance/voyceme-conformance.yml
+  href: https://artifacts.apis.io/voyceme/conformance/voyceme-conformance.yml
   title: ''
   type: Conformance
   url: conformance/voyceme-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/data-model/voyceme-data-model.yml
+  href: https://artifacts.apis.io/voyceme/data-model/voyceme-data-model.yml
   title: ''
   type: DataModel
   url: data-model/voyceme-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/mcp/voyceme-mcp.yml
+  href: https://artifacts.apis.io/voyceme/mcp/voyceme-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/voyceme-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/llms/voyceme-llms.txt
+  href: https://artifacts.apis.io/voyceme/llms/voyceme-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/voyceme-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/voyceme/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/security/voyceme-domain-security.yml
+  href: https://artifacts.apis.io/voyceme/security/voyceme-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voyceme-domain-security.yml
@@ -136,26 +138,26 @@ overview: 'VoyceMe is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   VoyceMe''s developer surface includes authentication, documentation, developer portal, engineering blog, support, and 13 more developer resources.'
-random_paper: 12
+random_paper: 16
 score:
   band: thin
-  composite: 29.8
+  composite: 29.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 35.1
     developer_ergonomics: 39.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 30.2
+  previous_composite: 29.1
   provenance:
     conformance: derived
     mcp: derived
@@ -166,14 +168,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/screenshots/voyceme-2026-09-02T170317.png
+screenshot: https://apis.io/screenshots/voyceme/voyceme-2026-09-02T170317.png
 security:
 - kind: authentication
   name: Voyceme Authentication
@@ -183,6 +185,12 @@ security:
   name: Voyceme Domain Security
   slug: voyceme-domain-security
   summary_line: TLSv1.2 · DMARC
+skill_count: 2
+skills:
+- name: Explore VoyceMe AI characters
+  slug: voyceme-ai-characters
+- name: Browse the VoyceMe catalog
+  slug: voyceme-browse-catalog
 slug: voyceme
 tags:
 - Company

@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 18.3
-  scored_at: '2026-10-17'
+  score: 22.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -101,77 +103,77 @@ apis:
 artifact_total: 19
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/llms/liquilens-llms.txt
+  href: https://artifacts.apis.io/liquilens/llms/liquilens-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/liquilens-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/well-known/liquilens-security.txt
+  href: https://artifacts.apis.io/liquilens/well-known/liquilens-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/liquilens-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/agentic-access/liquilens-agentic-access.yml
+  href: https://artifacts.apis.io/liquilens/agentic-access/liquilens-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/liquilens-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/rules/liquilens-rules.yml
+  href: https://artifacts.apis.io/liquilens/rules/liquilens-rules.yml
   title: ''
   type: Spectral
   url: rules/liquilens-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/json-ld/liquilens-context.jsonld
+  href: https://artifacts.apis.io/liquilens/json-ld/liquilens-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/liquilens-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/vocabulary/liquilens-vocabulary.yml
+  href: https://artifacts.apis.io/liquilens/vocabulary/liquilens-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/liquilens-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/data-model/liquilens-data-model.yml
+  href: https://artifacts.apis.io/liquilens/data-model/liquilens-data-model.yml
   title: ''
   type: DataModel
   url: data-model/liquilens-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/errors/liquilens-problem-types.yml
+  href: https://artifacts.apis.io/liquilens/errors/liquilens-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/liquilens-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/conformance/liquilens-conformance.yml
+  href: https://artifacts.apis.io/liquilens/conformance/liquilens-conformance.yml
   title: ''
   type: Conformance
   url: conformance/liquilens-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/well-known/liquilens-liquilens-security.txt
+  href: https://artifacts.apis.io/liquilens/well-known/liquilens-liquilens-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/liquilens-liquilens-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/well-known/liquilens-well-known.yml
+  href: https://artifacts.apis.io/liquilens/well-known/liquilens-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/liquilens-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/hosts/liquilens-hosts.yml
+  href: https://artifacts.apis.io/liquilens/hosts/liquilens-hosts.yml
   title: ''
   type: Hosts
   url: hosts/liquilens-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/vendors/liquilens-vendors.yml
+  href: https://artifacts.apis.io/liquilens/vendors/liquilens-vendors.yml
   title: ''
   type: Vendors
   url: vendors/liquilens-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/packages/liquilens-packages.yml
+  href: https://artifacts.apis.io/liquilens/packages/liquilens-packages.yml
   title: ''
   type: SDKs
   url: packages/liquilens-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/packages/liquilens-packages.yml
+  href: https://artifacts.apis.io/liquilens/packages/liquilens-packages.yml
   title: ''
   type: Packages
   url: packages/liquilens-packages.yml
@@ -200,12 +202,12 @@ common:
   type: APIReference
   url: https://liquilens.in/developers/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/security/liquilens-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/liquilens/security/liquilens-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/liquilens-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liquilens/refs/heads/main/security/liquilens-domain-security.yml
+  href: https://artifacts.apis.io/liquilens/security/liquilens-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/liquilens-domain-security.yml
@@ -252,7 +254,7 @@ overview: 'LIQUILENS PRIVATE LIMITED -- LiquiLens financial research APIs publis
 
 
   LIQUILENS PRIVATE LIMITED -- LiquiLens financial research APIs'' developer surface includes API reference, documentation, and 23 more developer resources.'
-random_paper: 14
+random_paper: 22
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -276,13 +278,15 @@ score:
     catalog_gap: 63.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 22.0
     contract_quality: 47.9
     developer_ergonomics: 23.8
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 26.3
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -298,11 +302,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Liquilens Domain Security

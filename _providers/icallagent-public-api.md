@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -14,17 +15,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 40.8
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.icallagent.com/api/public/v1/
   baseurl_source: declared
@@ -51,39 +54,39 @@ apis:
   description: The webhooks API from iCallAgent Public API — 2 operation(s) for webhooks.
   name: iCallAgent Public API Webhooks API
   slug: icallagent-public-api-webhooks-api
-artifact_total: 12
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Icallagent Public Api Webhooks
   slug: icallagent-public-api-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/plans/icallagent-public-api-plans-pricing.yml
+  href: https://artifacts.apis.io/icallagent-public-api/plans/icallagent-public-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/icallagent-public-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/rate-limits/icallagent-public-api-rate-limits.yml
+  href: https://artifacts.apis.io/icallagent-public-api/rate-limits/icallagent-public-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/icallagent-public-api-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/capabilities/icallagent-public-api-capability-edges.yml
+  href: https://artifacts.apis.io/icallagent-public-api/capabilities/icallagent-public-api-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/icallagent-public-api-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/mcp/icallagent-public-api-mcp.yml
+  href: https://artifacts.apis.io/icallagent-public-api/mcp/icallagent-public-api-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/icallagent-public-api-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/overlays/icallagent-public-api-openapi-overlay.yaml
+  href: https://artifacts.apis.io/icallagent-public-api/overlays/icallagent-public-api-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/icallagent-public-api-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/icallagent-public-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -92,27 +95,27 @@ common:
   type: Website
   url: https://icallagent.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/security/icallagent-public-api-domain-security.yml
+  href: https://artifacts.apis.io/icallagent-public-api/security/icallagent-public-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/icallagent-public-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/scopes/icallagent-public-api-scopes.yml
+  href: https://artifacts.apis.io/icallagent-public-api/scopes/icallagent-public-api-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/icallagent-public-api-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/authentication/icallagent-public-api-authentication.yml
+  href: https://artifacts.apis.io/icallagent-public-api/authentication/icallagent-public-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/icallagent-public-api-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/llms/icallagent-public-api-llms.txt
+  href: https://artifacts.apis.io/icallagent-public-api/llms/icallagent-public-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/icallagent-public-api-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/packages/icallagent-public-api-packages.yml
+  href: https://artifacts.apis.io/icallagent-public-api/packages/icallagent-public-api-packages.yml
   title: ''
   type: Packages
   url: packages/icallagent-public-api-packages.yml
@@ -142,6 +145,14 @@ common:
   url: https://dashboard.icallagent.com
 created: '2026-09-15'
 description: 'Partner REST API for iCallAgent, a platform for building and operating AI voice agents that hold real-time phone/web conversations via an ASR-LLM-TTS pipeline. The API lets third-party apps act on a user''s workspace: managing agents, outbound campaigns, contacts, phone numbers, and webhooks.'
+finops:
+- has_sources: true
+  method: derived
+  name: Icallagent Public Api Finops
+  primary_unit: base fee
+  service_category: ''
+  slug: icallagent-public-api-finops
+  template: false
 layout: provider
 mcp_servers:
 - description: iCallAgent operates an MCP server, but it is NOT a public agent surface. It exists to serve the iCallAgent agent RUNTIME during live calls (knowledge-base search, CRM actions, integrations) over SSE a
@@ -162,7 +173,7 @@ plans:
 - name: Icallagent Public Api Plans Pricing
   plan_count: 2
   slug: icallagent-public-api-plans-pricing
-random_paper: 19
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Icallagent Public Api Rate Limits
@@ -174,23 +185,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.3
+  composite: 47.0
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 40.0
+    artifact_dirs: 23
+    catalog_earned: 43.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 75.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 65.8
+    access_clarity: 73.7
     contract_governance: 4.5
     contract_quality: 57.3
     developer_ergonomics: 42.3
-    discoverability: 64.3
+    discoverability: 56.7
     operational_transparency: 7.9
-  previous_composite: 49.3
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -206,13 +217,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/icallagent-public-api/refs/heads/main/screenshots/icallagent-public-api-2026-10-11T105624.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/icallagent-public-api/icallagent-public-api-2026-10-11T105624.png
 security:
 - kind: authentication
   name: Icallagent Public Api Authentication
@@ -222,6 +234,12 @@ security:
   name: Icallagent Public Api Domain Security
   slug: icallagent-public-api-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Launch an outbound calling campaign
+  slug: icallagent-public-api-launch-outbound-campaign
+- name: Subscribe to call outcomes
+  slug: icallagent-public-api-subscribe-call-outcomes
 slug: icallagent-public-api
 tags:
 - Voice AI

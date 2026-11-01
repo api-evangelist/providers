@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +71,7 @@ common:
   type: Twitter
   url: https://twitter.com/payallps
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/payall/refs/heads/main/security/payall-domain-security.yml
+  href: https://artifacts.apis.io/payall/security/payall-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/payall-domain-security.yml
@@ -85,12 +87,12 @@ overview: 'Payall is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Payall''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 5
+random_paper: 19
 score:
   band: minimal
   composite: 9.4
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -111,14 +113,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/payall/refs/heads/main/screenshots/payall-2026-08-07T191629.png
+screenshot: https://apis.io/screenshots/payall/payall-2026-08-07T191629.png
 security:
 - kind: domain-security
   name: Payall Domain Security

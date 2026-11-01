@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 10
 common:
@@ -84,32 +86,32 @@ common:
   type: TermsOfService
   url: https://www.aig.com/terms-of-use
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aig-aerospace/refs/heads/main/security/aig-aerospace-domain-security.yml
+  href: https://artifacts.apis.io/aig-aerospace/security/aig-aerospace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aig-aerospace-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aig-aerospace/refs/heads/main/security/aig-aerospace-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aig-aerospace/security/aig-aerospace-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aig-aerospace-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aig-aerospace/refs/heads/main/llms/aig-aerospace-llms.txt
+  href: https://artifacts.apis.io/aig-aerospace/llms/aig-aerospace-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aig-aerospace-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aig-aerospace/refs/heads/main/plans/aig-aerospace-plans-pricing.yml
+  href: https://artifacts.apis.io/aig-aerospace/plans/aig-aerospace-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aig-aerospace-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aig-aerospace/refs/heads/main/rate-limits/aig-aerospace-rate-limits.yml
+  href: https://artifacts.apis.io/aig-aerospace/rate-limits/aig-aerospace-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aig-aerospace-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aig-aerospace/refs/heads/main/packages/aig-aerospace-packages.yml
+  href: https://artifacts.apis.io/aig-aerospace/packages/aig-aerospace-packages.yml
   title: ''
   type: Packages
   url: packages/aig-aerospace-packages.yml
@@ -158,7 +160,7 @@ plans:
 - name: Aig Aerospace Plans Pricing
   plan_count: 0
   slug: aig-aerospace-plans-pricing
-random_paper: 21
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Aig Aerospace Rate Limits
@@ -188,14 +190,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 17.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aig-aerospace/refs/heads/main/screenshots/aig-aerospace-2026-10-11T093258.png
+screenshot: https://apis.io/screenshots/aig-aerospace/aig-aerospace-2026-10-11T093258.png
 security:
 - kind: domain-security
   name: Aig Aerospace Domain Security

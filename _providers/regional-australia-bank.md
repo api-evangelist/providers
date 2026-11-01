@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 23.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://public-data.cdr.regaustbank.io/cds-au/v1/banking/products
@@ -74,9 +76,6 @@ apis:
 artifact_total: 18
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-regional-australia-bank-banking-account-balances-api
 - collection_type: open
@@ -99,17 +98,17 @@ collections:
   slug: open-regional-australia-bank-banking-products-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/capabilities/regional-australia-bank-capability-edges.yml
+  href: https://artifacts.apis.io/regional-australia-bank/capabilities/regional-australia-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/regional-australia-bank-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/overlays/regional-australia-bank-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/regional-australia-bank/overlays/regional-australia-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/regional-australia-bank-cds-banking-products-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/security/regional-australia-bank-domain-security.yml
+  href: https://artifacts.apis.io/regional-australia-bank/security/regional-australia-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/regional-australia-bank-domain-security.yml
@@ -142,57 +141,57 @@ common:
   type: Portal
   url: https://dashboard.cdr.regionalaustraliabank.com.au/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/authentication/regional-australia-bank-authentication.yml
+  href: https://artifacts.apis.io/regional-australia-bank/authentication/regional-australia-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/regional-australia-bank-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/scopes/regional-australia-bank-scopes.yml
+  href: https://artifacts.apis.io/regional-australia-bank/scopes/regional-australia-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/regional-australia-bank-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/conformance/regional-australia-bank-conformance.yml
+  href: https://artifacts.apis.io/regional-australia-bank/conformance/regional-australia-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/regional-australia-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/errors/regional-australia-bank-problem-types.yml
+  href: https://artifacts.apis.io/regional-australia-bank/errors/regional-australia-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/regional-australia-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/lifecycle/regional-australia-bank-lifecycle.yml
+  href: https://artifacts.apis.io/regional-australia-bank/lifecycle/regional-australia-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/regional-australia-bank-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/conventions/regional-australia-bank-conventions.yml
+  href: https://artifacts.apis.io/regional-australia-bank/conventions/regional-australia-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/regional-australia-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/data-model/regional-australia-bank-data-model.yml
+  href: https://artifacts.apis.io/regional-australia-bank/data-model/regional-australia-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/regional-australia-bank-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/mcp/regional-australia-bank-mcp.yml
+  href: https://artifacts.apis.io/regional-australia-bank/mcp/regional-australia-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/regional-australia-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/regional-australia-bank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/llms/regional-australia-bank-llms.txt
+  href: https://artifacts.apis.io/regional-australia-bank/llms/regional-australia-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/regional-australia-bank-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/lifecycle/regional-australia-bank-lifecycle.yml
+  href: https://artifacts.apis.io/regional-australia-bank/lifecycle/regional-australia-bank-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/regional-australia-bank-lifecycle.yml
@@ -224,7 +223,7 @@ overview: 'Regional Australia Bank publishes 7 API contracts indexed on the [API
 
 
   Regional Australia Bank''s developer surface includes documentation, support, API reference, getting-started guide, developer portal, authentication, engineering blog, and 18 more developer resources.'
-random_paper: 7
+random_paper: 13
 scopes:
 - name: Regional Australia Bank Scopes
   scope_count: 5
@@ -232,7 +231,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.2
+  composite: 41.5
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -242,11 +241,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -255,7 +254,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 40.2
+  previous_composite: 41.5
   provenance:
     conformance: derived
     contracts:
@@ -271,13 +270,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/screenshots/regional-australia-bank-2026-07-21T114749.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/regional-australia-bank/regional-australia-bank-2026-07-21T114749.png
 security:
 - kind: authentication
   name: Regional Australia Bank Authentication
@@ -287,6 +287,10 @@ security:
   name: Regional Australia Bank Domain Security
   slug: regional-australia-bank-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Browse Regional Australia Bank banking products
+  slug: regional-australia-bank-browse-products
 slug: regional-australia-bank
 tags:
 - Finance

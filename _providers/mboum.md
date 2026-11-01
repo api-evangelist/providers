@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'REST/JSON API for stock and options market data: quotes, history, options chains, unusual options activity, financials, analyst ratings, SEC filings, insider trades, calendar events, technical indicat'
@@ -32,47 +34,47 @@ apis:
 artifact_total: 5
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mboum/refs/heads/main/rate-limits/mboum-rate-limits.yml
+  href: https://artifacts.apis.io/mboum/rate-limits/mboum-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mboum-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mboum/refs/heads/main/plans/mboum-plans-pricing.yml
+  href: https://artifacts.apis.io/mboum/plans/mboum-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mboum-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mboum/refs/heads/main/conventions/mboum-conventions.yml
+  href: https://artifacts.apis.io/mboum/conventions/mboum-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mboum-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mboum/refs/heads/main/authentication/mboum-authentication.yml
+  href: https://artifacts.apis.io/mboum/authentication/mboum-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mboum-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mboum/refs/heads/main/lifecycle/mboum-lifecycle.yml
+  href: https://artifacts.apis.io/mboum/lifecycle/mboum-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mboum-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mboum/refs/heads/main/errors/mboum-problem-types.yml
+  href: https://artifacts.apis.io/mboum/errors/mboum-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mboum-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mboum/refs/heads/main/llms/mboum-llms.txt
+  href: https://artifacts.apis.io/mboum/llms/mboum-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mboum-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mboum/refs/heads/main/packages/mboum-packages.yml
+  href: https://artifacts.apis.io/mboum/packages/mboum-packages.yml
   title: ''
   type: Packages
   url: packages/mboum-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mboum/refs/heads/main/security/mboum-domain-security.yml
+  href: https://artifacts.apis.io/mboum/security/mboum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mboum-domain-security.yml
@@ -142,7 +144,7 @@ rate_limits:
   slug: mboum-rate-limits
 score:
   band: thin
-  composite: 31.2
+  composite: 30.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 47.0
@@ -156,23 +158,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 21.1
-  previous_composite: 31.2
+  previous_composite: 30.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 24.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mboum/refs/heads/main/screenshots/mboum-2026-10-11T110843.png
+screenshot: https://apis.io/screenshots/mboum/mboum-2026-10-11T110843.png
 security:
 - kind: authentication
   name: Mboum Authentication

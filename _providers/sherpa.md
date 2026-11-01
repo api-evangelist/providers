@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -53,27 +55,27 @@ common:
   type: PrivacyPolicy
   url: https://sherpahq.ai/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sherpa/refs/heads/main/security/sherpa-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sherpa/security/sherpa-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/sherpa-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sherpa/refs/heads/main/security/sherpa-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sherpa/security/sherpa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sherpa-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sherpa/refs/heads/main/security/sherpa-domain-security.yml
+  href: https://artifacts.apis.io/sherpa/security/sherpa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sherpa-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sherpa/refs/heads/main/well-known/sherpa-well-known.yml
+  href: https://artifacts.apis.io/sherpa/well-known/sherpa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sherpa-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sherpa/refs/heads/main/well-known/sherpa-security.txt
+  href: https://artifacts.apis.io/sherpa/well-known/sherpa-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sherpa-security.txt
@@ -87,7 +89,7 @@ name: sherpa
 nav: Providers
 network: true
 overview: sherpa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, External Workforce Management, Vendor Management System, Managed Service Providers, and AI Agents.
-random_paper: 5
+random_paper: 19
 score:
   band: minimal
   composite: 10.5
@@ -113,14 +115,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sherpa/refs/heads/main/screenshots/sherpa-2026-09-02T155145.png
+screenshot: https://apis.io/screenshots/sherpa/sherpa-2026-09-02T155145.png
 security:
 - kind: domain-security
   name: Sherpa Domain Security

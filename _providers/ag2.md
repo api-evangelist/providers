@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Core open-source Python library for building agentic AI applications. Provides ConversableAgent, AssistantAgent, UserProxyAgent, GroupChat, GroupChatManager, tool/function registration, code execution
@@ -48,17 +50,17 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ag2/refs/heads/main/plans/ag2-plans-pricing.yml
+  href: https://artifacts.apis.io/ag2/plans/ag2-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ag2-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ag2/refs/heads/main/rate-limits/ag2-rate-limits.yml
+  href: https://artifacts.apis.io/ag2/rate-limits/ag2-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ag2-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ag2/refs/heads/main/finops/ag2-finops.yml
+  href: https://artifacts.apis.io/ag2/finops/ag2-finops.yml
   title: ''
   type: FinOps
   url: finops/ag2-finops.yml
@@ -83,7 +85,7 @@ common:
   type: License
   url: https://github.com/ag2ai/ag2/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ag2/refs/heads/main/security/ag2-domain-security.yml
+  href: https://artifacts.apis.io/ag2/security/ag2-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ag2-domain-security.yml
@@ -151,14 +153,14 @@ plans:
 - name: Ag2 Plans Pricing
   plan_count: 1
   slug: ag2-plans-pricing
-random_paper: 8
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Ag2 Rate Limits
   slug: ag2-rate-limits
 score:
-  band: emerging
-  composite: 24.0
+  band: thin
+  composite: 27.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 44.0
@@ -166,32 +168,29 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.4
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 6.5
-    developer_ergonomics: 40.5
+    developer_ergonomics: 42.9
     discoverability: 71.4
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 29.4
+  previous_composite: 27.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 12.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ag2/refs/heads/main/screenshots/ag2-2026-06-20T165746.png
+screenshot: https://apis.io/screenshots/ag2/ag2-2026-06-20T165746.png
 security:
 - kind: domain-security
   name: Ag2 Domain Security

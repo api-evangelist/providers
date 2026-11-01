@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/juno-bank/refs/heads/main/security/juno-bank-domain-security.yml
+  href: https://artifacts.apis.io/juno-bank/security/juno-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/juno-bank-domain-security.yml
@@ -145,10 +147,10 @@ overview: 'Juno is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Juno''s developer surface includes developer portal, documentation, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 21
+random_paper: 13
 score:
   band: emerging
-  composite: 12.1
+  composite: 13.7
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -161,9 +163,9 @@ score:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 32.1
+    developer_ergonomics: 38.1
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -171,15 +173,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 12.1
+  previous_composite: 13.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

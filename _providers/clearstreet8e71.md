@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 37.2
-  scored_at: '2026-10-17'
+  score: 36.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -88,65 +90,65 @@ apis:
   description: Create and manage watchlists.
   name: Clearstreet8e71 Watchlist API
   slug: clearstreet8e71-watchlist-api
-artifact_total: 22
+artifact_total: 25
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/agentic-access/clearstreet8e71-agentic-access.yml
+  href: https://artifacts.apis.io/clearstreet8e71/agentic-access/clearstreet8e71-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/clearstreet8e71-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/rules/clearstreet8e71-rules.yml
+  href: https://artifacts.apis.io/clearstreet8e71/rules/clearstreet8e71-rules.yml
   title: ''
   type: Spectral
   url: rules/clearstreet8e71-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/json-ld/clearstreet8e71-context.jsonld
+  href: https://artifacts.apis.io/clearstreet8e71/json-ld/clearstreet8e71-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/clearstreet8e71-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/vocabulary/clearstreet8e71-vocabulary.yml
+  href: https://artifacts.apis.io/clearstreet8e71/vocabulary/clearstreet8e71-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/clearstreet8e71-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/clearstreet8e71/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/data-model/clearstreet8e71-data-model.yml
+  href: https://artifacts.apis.io/clearstreet8e71/data-model/clearstreet8e71-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clearstreet8e71-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/cli/clearstreet8e71-cli.yml
+  href: https://artifacts.apis.io/clearstreet8e71/cli/clearstreet8e71-cli.yml
   title: ''
   type: CLI
   url: cli/clearstreet8e71-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/errors/clearstreet8e71-problem-types.yml
+  href: https://artifacts.apis.io/clearstreet8e71/errors/clearstreet8e71-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clearstreet8e71-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/conformance/clearstreet8e71-conformance.yml
+  href: https://artifacts.apis.io/clearstreet8e71/conformance/clearstreet8e71-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clearstreet8e71-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/well-known/clearstreet8e71-well-known.yml
+  href: https://artifacts.apis.io/clearstreet8e71/well-known/clearstreet8e71-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clearstreet8e71-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/hosts/clearstreet8e71-hosts.yml
+  href: https://artifacts.apis.io/clearstreet8e71/hosts/clearstreet8e71-hosts.yml
   title: ''
   type: Hosts
   url: hosts/clearstreet8e71-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/vendors/clearstreet8e71-vendors.yml
+  href: https://artifacts.apis.io/clearstreet8e71/vendors/clearstreet8e71-vendors.yml
   title: ''
   type: Vendors
   url: vendors/clearstreet8e71-vendors.yml
@@ -163,12 +165,12 @@ common:
   type: ChangeLog
   url: https://clearstreet.io/studio/releases
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/authentication/clearstreet8e71-authentication.yml
+  href: https://artifacts.apis.io/clearstreet8e71/authentication/clearstreet8e71-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clearstreet8e71-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clearstreet8e71/refs/heads/main/security/clearstreet8e71-domain-security.yml
+  href: https://artifacts.apis.io/clearstreet8e71/security/clearstreet8e71-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clearstreet8e71-domain-security.yml
@@ -255,7 +257,7 @@ overview: 'Clearstreet8e71 publishes 11 API contracts indexed on the [APIs.io](h
 
 
   Clearstreet8e71''s developer surface includes CLI, changelog, authentication, documentation, API reference, getting-started guide, support, and 21 more developer resources.'
-random_paper: 13
+random_paper: 3
 rules:
 - authorship: generated
   effective_rule_count: 57
@@ -271,7 +273,7 @@ rules:
   slug: clearstreet8e71-rules
 score:
   band: developing
-  composite: 50.0
+  composite: 48.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 57.8
@@ -279,13 +281,15 @@ score:
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 22.0
-    contract_quality: 70.1
+    contract_quality: 66.7
     developer_ergonomics: 61.3
     discoverability: 58.9
     operational_transparency: 31.6
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -302,11 +306,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Clearstreet8E71 Authentication
@@ -316,6 +322,14 @@ security:
   name: Clearstreet8E71 Domain Security
   slug: clearstreet8e71-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: clearstreet8e71-close-position
+  slug: clearstreet8e71-close-position
+- name: clearstreet8e71-create-and-retrieve-screener
+  slug: clearstreet8e71-create-and-retrieve-screener
+- name: clearstreet8e71-create-ioi
+  slug: clearstreet8e71-create-ioi
 slug: clearstreet8e71
 tags:
 - Company

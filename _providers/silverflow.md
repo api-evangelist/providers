@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.5
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 41.3
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://eu-west-1.api.silverflow.com/v1
   baseurl_source: declared
@@ -289,19 +291,19 @@ apis:
   description: Transaction Risk Assessment
   name: Silverflow Transaction Risk Assessment API
   slug: silverflow-transaction-risk-assessment-api
-artifact_total: 56
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Silverflow Events Webhooks
   slug: silverflow-events-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/capabilities/silverflow-capability-edges.yml
+  href: https://artifacts.apis.io/silverflow/capabilities/silverflow-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/silverflow-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/security/silverflow-domain-security.yml
+  href: https://artifacts.apis.io/silverflow/security/silverflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/silverflow-domain-security.yml
@@ -346,123 +348,131 @@ common:
   type: StatusPage
   url: https://status.silverflow.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/lifecycle/silverflow-lifecycle.yml
+  href: https://artifacts.apis.io/silverflow/lifecycle/silverflow-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/silverflow-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/lifecycle/silverflow-lifecycle.yml
+  href: https://artifacts.apis.io/silverflow/lifecycle/silverflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/silverflow-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/changelog/silverflow-changelog.yml
+  href: https://artifacts.apis.io/silverflow/changelog/silverflow-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/silverflow-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/llms/silverflow-llms.txt
+  href: https://artifacts.apis.io/silverflow/llms/silverflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/silverflow-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/well-known/silverflow-security.txt
+  href: https://artifacts.apis.io/silverflow/well-known/silverflow-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/silverflow-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/security/silverflow-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/silverflow/security/silverflow-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/silverflow-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/security/silverflow-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/silverflow/security/silverflow-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/silverflow-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/well-known/silverflow-well-known.yml
+  href: https://artifacts.apis.io/silverflow/well-known/silverflow-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/silverflow-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/conformance/silverflow-conformance.yml
+  href: https://artifacts.apis.io/silverflow/conformance/silverflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/silverflow-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/asyncapi/silverflow-events-webhooks.yml
+  href: https://artifacts.apis.io/silverflow/asyncapi/silverflow-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/silverflow-events-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/silverflow/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/packages/silverflow-packages.yml
+  href: https://artifacts.apis.io/silverflow/packages/silverflow-packages.yml
   title: ''
   type: Packages
   url: packages/silverflow-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/plans/silverflow-plans-pricing.yml
+  href: https://artifacts.apis.io/silverflow/plans/silverflow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/silverflow-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/authentication/silverflow-authentication.yml
+  href: https://artifacts.apis.io/silverflow/authentication/silverflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/silverflow-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/conventions/silverflow-conventions.yml
+  href: https://artifacts.apis.io/silverflow/conventions/silverflow-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/silverflow-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/conventions/silverflow-conventions.yml
+  href: https://artifacts.apis.io/silverflow/conventions/silverflow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/silverflow-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/errors/silverflow-problem-types.yml
+  href: https://artifacts.apis.io/silverflow/errors/silverflow-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/silverflow-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/errors/silverflow-decline-codes.yml
+  href: https://artifacts.apis.io/silverflow/errors/silverflow-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/silverflow-decline-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/rate-limits/silverflow-rate-limits.yml
+  href: https://artifacts.apis.io/silverflow/rate-limits/silverflow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/silverflow-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/sandbox/silverflow-sandbox.yml
+  href: https://artifacts.apis.io/silverflow/sandbox/silverflow-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/silverflow-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/data-model/silverflow-data-model.yml
+  href: https://artifacts.apis.io/silverflow/data-model/silverflow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/silverflow-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/overlays/silverflow-openapi-overlay.yaml
+  href: https://artifacts.apis.io/silverflow/overlays/silverflow-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/silverflow-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/mcp/silverflow-tool-crosswalk.yml
+  href: https://artifacts.apis.io/silverflow/mcp/silverflow-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/silverflow-tool-crosswalk.yml
 created: '2026-08-27'
 description: Silverflow is an Amsterdam-based cloud-native card processing platform that connects acquirers, payment service providers, payment facilitators and merchants directly to the card networks (Visa, Mastercard, Amex, Discover, Diners, Maestro, Bancontact) through a single REST API. Founded in 2019, the company replaces legacy acquiring processor infrastructure with a contract-first, OpenAPI 3.0-described platform covering merchant and acceptor onboarding, 3-D Secure and BEP authentication, processor and network tokenization, authorization, clearing and settlement, incremental authorizations, reversals, refunds and payouts, terminal-to-cloud POS charges, ATM card management, dispute and chargeback handling, fraud notifications, transaction risk assessment, interchange and scheme-fee estimation, and a full reconciliation and reporting suite. The Silverflow API exposes 137 operations across 101 paths, emits 31 CloudEvents 1.0 webhook notifications through an event-subscription surface,
   and publishes a sandbox with amount-driven authorization test scenarios.
+finops:
+- has_sources: true
+  method: derived
+  name: Silverflow Finops
+  primary_unit: ''
+  service_category: ''
+  slug: silverflow-finops
+  template: true
 image: https://www.silverflow.com/silverflow_logo_dark.svg
 layout: provider
 modified: '2026-08-27'
@@ -480,28 +490,28 @@ plans:
 - name: Silverflow Plans Pricing
   plan_count: 0
   slug: silverflow-plans-pricing
-random_paper: 1
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Silverflow Rate Limits
   slug: silverflow-rate-limits
 score:
   band: developing
-  composite: 51.5
+  composite: 49.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 40.0
+    artifact_dirs: 25
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 59.4
+    contract_quality: 61.0
     developer_ergonomics: 66.1
-    discoverability: 78.6
+    discoverability: 66.1
     operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -511,7 +521,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 50.9
+  previous_composite: 50.4
   provenance:
     conformance: derived
     contracts:
@@ -527,13 +537,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/screenshots/silverflow-2026-09-02T155511.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/silverflow/silverflow-2026-09-02T155511.png
 security:
 - kind: authentication
   name: Silverflow Authentication
@@ -547,6 +558,16 @@ security:
   name: Silverflow Vulnerability Disclosure
   slug: silverflow-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 4
+skills:
+- name: silverflow-handle-a-dispute
+  slug: silverflow-handle-a-dispute
+- name: silverflow-onboard-a-merchant
+  slug: silverflow-onboard-a-merchant
+- name: silverflow-reconcile-and-report
+  slug: silverflow-reconcile-and-report
+- name: silverflow-take-a-card-payment
+  slug: silverflow-take-a-card-payment
 slug: silverflow
 tags:
 - Payments

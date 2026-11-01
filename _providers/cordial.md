@@ -30,16 +30,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 62.9
-  scored_at: '2026-10-17'
+  score: 54.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 0
@@ -172,15 +174,12 @@ apis:
   description: The supplements API from Cordial — 12 operation(s) for supplements.
   name: Cordial Supplements API
   slug: cordial-supplements-api
-artifact_total: 60
+artifact_total: 76
 asyncapis:
 - description: ''
   name: Cordial Webhooks
   slug: cordial-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cordial account attributes API
   slug: open-cordial-account-attributes-api
@@ -259,17 +258,17 @@ common:
   type: BlogRSS
   url: https://cordial.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/capabilities/cordial-capability-edges.yml
+  href: https://artifacts.apis.io/cordial/capabilities/cordial-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cordial-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/agentic-access/cordial-agentic-access.yml
+  href: https://artifacts.apis.io/cordial/agentic-access/cordial-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cordial-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/overlays/cordial-v1-overlay.yaml
+  href: https://artifacts.apis.io/cordial/overlays/cordial-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cordial-v1-overlay.yaml
@@ -338,118 +337,126 @@ common:
   type: Compliance
   url: https://cordial.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/security/cordial-trust-center.yml
+  href: https://artifacts.apis.io/cordial/security/cordial-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cordial-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/authentication/cordial-authentication.yml
+  href: https://artifacts.apis.io/cordial/authentication/cordial-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cordial-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/scopes/cordial-scopes.yml
+  href: https://artifacts.apis.io/cordial/scopes/cordial-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cordial-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/security/cordial-domain-security.yml
+  href: https://artifacts.apis.io/cordial/security/cordial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cordial-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/packages/cordial-packages.yml
+  href: https://artifacts.apis.io/cordial/packages/cordial-packages.yml
   title: ''
   type: Packages
   url: packages/cordial-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/packages/cordial-packages.yml
+  href: https://artifacts.apis.io/cordial/packages/cordial-packages.yml
   title: ''
   type: SDKs
   url: packages/cordial-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/cli/cordial-cli.yml
+  href: https://artifacts.apis.io/cordial/cli/cordial-cli.yml
   title: ''
   type: CLI
   url: cli/cordial-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/components/cordial-components.yml
+  href: https://artifacts.apis.io/cordial/components/cordial-components.yml
   title: ''
   type: Components
   url: components/cordial-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/well-known/cordial-well-known.yml
+  href: https://artifacts.apis.io/cordial/well-known/cordial-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cordial-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/llms/cordial-llms.txt
+  href: https://artifacts.apis.io/cordial/llms/cordial-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cordial-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cordial/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/conventions/cordial-conventions.yml
+  href: https://artifacts.apis.io/cordial/conventions/cordial-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cordial-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/errors/cordial-problem-types.yml
+  href: https://artifacts.apis.io/cordial/errors/cordial-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cordial-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/errors/cordial-error-keys.yml
+  href: https://artifacts.apis.io/cordial/errors/cordial-error-keys.yml
   title: ''
   type: ErrorCodes
   url: errors/cordial-error-keys.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/lifecycle/cordial-lifecycle.yml
+  href: https://artifacts.apis.io/cordial/lifecycle/cordial-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cordial-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/conformance/cordial-conformance.yml
+  href: https://artifacts.apis.io/cordial/conformance/cordial-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cordial-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/data-model/cordial-data-model.yml
+  href: https://artifacts.apis.io/cordial/data-model/cordial-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cordial-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/changelog/cordial-changelog.yml
+  href: https://artifacts.apis.io/cordial/changelog/cordial-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cordial-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/asyncapi/cordial-webhooks.yml
+  href: https://artifacts.apis.io/cordial/asyncapi/cordial-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cordial-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/rate-limits/cordial-rate-limits.yml
+  href: https://artifacts.apis.io/cordial/rate-limits/cordial-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cordial-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/sandbox/cordial-sandbox.yml
+  href: https://artifacts.apis.io/cordial/sandbox/cordial-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cordial-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/plans/cordial-plans-pricing.yml
+  href: https://artifacts.apis.io/cordial/plans/cordial-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cordial-plans-pricing.yml
 created: '2026-08-04'
 description: 'Cordial is a cross-channel marketing and customer data platform headquartered in San Diego, California, used by consumer brands to unify customer data and orchestrate personalized messaging across email, SMS/MMS, RCS, mobile app (push, in-app, mobile inbox), website, and any external channel reachable over REST. The platform combines a native customer data platform built on a document database, real-time journey orchestration, identity resolution, and the Cordial Edge AI suite of brand-specific predictive models. Cordial is API-first: a documented Swagger 2.0 REST API at api.cordial.io exposes 106 operations across 24 resource groups covering contacts, contact activities, orders, products, supplements, lists, attributes, batch messages, automation templates, orchestrations, data jobs, imports/exports, alerts, and analytics. Alongside REST it publishes a hosted Model Context Protocol server with 56 read tools over 17 domains, a first-party npm CLI, mobile SDKs for iOS, Android,
   React Native and Expo, an embedded JavaScript listener, configurable outbound webhooks, and an open-source cookbook of packaged Claude Agent Skills.'
+finops:
+- has_sources: true
+  method: derived
+  name: Cordial Finops
+  primary_unit: ''
+  service_category: ''
+  slug: cordial-finops
+  template: true
 image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/companies/cordial.jpg
 layout: provider
 mcp_servers:
@@ -471,7 +478,7 @@ plans:
 - name: Cordial Plans Pricing
   plan_count: 0
   slug: cordial-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Cordial Rate Limits
@@ -485,20 +492,20 @@ score:
   band: strong
   composite: 58.1
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 30
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 55.1
-    developer_ergonomics: 76.2
-    discoverability: 75.0
-    operational_transparency: 63.2
+    contract_quality: 51.7
+    developer_ergonomics: 85.7
+    discoverability: 65.0
+    operational_transparency: 65.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -506,7 +513,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 58.2
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -529,13 +536,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/screenshots/cordial-2026-08-07T163810.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cordial/cordial-2026-08-07T163810.png
 security:
 - kind: authentication
   name: Cordial Authentication
@@ -553,6 +561,40 @@ security:
   name: Cordial Trust Center
   slug: cordial-trust-center
   summary_line: SOC 2 Type II
+skill_count: 16
+skills:
+- name: ai-model-profiler
+  slug: cordial-ai-model-profiler
+- name: audience-ai-breakdown
+  slug: cordial-audience-ai-breakdown
+- name: audience-count-snapshot
+  slug: cordial-audience-count-snapshot
+- name: audience-overlap-diff
+  slug: cordial-audience-overlap-diff
+- name: capability-adoption-audit
+  slug: cordial-capability-adoption-audit
+- name: contact-360-trace
+  slug: cordial-contact-360-trace
+- name: data-dependency-trace
+  slug: cordial-data-dependency-trace
+- name: experiment-report
+  slug: cordial-experiment-report
+- name: frequency-volume-revenue
+  slug: cordial-frequency-volume-revenue
+- name: list-growth-churn-trend
+  slug: cordial-list-growth-churn-trend
+- name: orchestration-performance-report
+  slug: cordial-orchestration-performance-report
+- name: personalization-discovery
+  slug: cordial-personalization-discovery
+- name: program-performance-report
+  slug: cordial-program-performance-report
+- name: send-health-diagnostic
+  slug: cordial-send-health-diagnostic
+- name: tag-coverage-audit
+  slug: cordial-tag-coverage-audit
+- name: where-used-lookup
+  slug: cordial-where-used-lookup
 slug: cordial
 tags:
 - Company

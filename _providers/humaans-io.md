@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.1
-  scored_at: '2026-10-17'
+  score: 40.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -120,11 +122,8 @@ apis:
   description: Work schedule patterns
   name: Humaans Working Patterns API
   slug: humaans-io-working-patterns-api
-artifact_total: 58
+artifact_total: 59
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Humaans API
   slug: open-humaans-api
@@ -174,33 +173,38 @@ collections:
   name: Humaans Audit Events Working Patterns API
   slug: open-humaans-io-working-patterns-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/humaans-io/plans/humaans-io-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/humaans-io-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/capabilities/humaans-io-capability-edges.yml
+  href: https://artifacts.apis.io/humaans-io/capabilities/humaans-io-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/humaans-io-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/agentic-access/humaans-io-agentic-access.yml
+  href: https://artifacts.apis.io/humaans-io/agentic-access/humaans-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/humaans-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/security/humaans-io-trust-center.yml
+  href: https://artifacts.apis.io/humaans-io/security/humaans-io-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/humaans-io-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/security/humaans-io-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/humaans-io/security/humaans-io-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/humaans-io-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/security/humaans-io-domain-security.yml
+  href: https://artifacts.apis.io/humaans-io/security/humaans-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/humaans-io-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/authentication/humaans-io-authentication.yml
+  href: https://artifacts.apis.io/humaans-io/authentication/humaans-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/humaans-io-authentication.yml
@@ -348,6 +352,14 @@ features:
 - iOS and Android mobile apps
 - SOC 2, ISO 27001, and GDPR-aligned controls; Vanta/Drata/Secureframe automation integrations
 - 99.9% uptime SLA on the Enterprise plan
+finops:
+- has_sources: true
+  method: derived
+  name: Humaans Io Finops
+  primary_unit: ''
+  service_category: ''
+  slug: humaans-io-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/humaans-io.png
 layout: provider
 mcp_servers:
@@ -361,25 +373,29 @@ network: true
 overview: 'Humaans publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Audit Events API, Bank Accounts API, Companies API, and 12 more. Tagged areas include Human Resources, HRIS, People Operations, People Analytics, and Onboarding.
 
 
-  Humaans'' developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 29 more developer resources.'
-random_paper: 20
+  Humaans'' developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 30 more developer resources.'
+plans:
+- name: Humaans Io Plans Pricing
+  plan_count: 3
+  slug: humaans-io-plans-pricing
+random_paper: 2
 score:
   band: developing
-  composite: 46.0
+  composite: 51.9
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 14
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 0.0
-    contract_quality: 48.7
+    contract_quality: 45.3
     developer_ergonomics: 66.7
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -389,7 +405,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 46.0
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -404,13 +420,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/screenshots/humaans-io-2026-06-20T182927.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/humaans-io/humaans-io-2026-06-20T182927.png
 security:
 - kind: authentication
   name: Humaans Io Authentication

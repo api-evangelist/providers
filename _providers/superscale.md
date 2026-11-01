@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: true
@@ -26,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.2
-  scored_at: '2026-10-17'
+  score: 34.0
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The product Model Context Protocol server. Lets an external agent runtime (Claude and similar MCP clients) drive Superscale's creative engine — generating statics, UGC video and scripts from context t
@@ -44,7 +45,7 @@ apis:
 - description: An anonymous Model Context Protocol server served from Superscale's own documentation host, providing search and retrieval over the published Superscale knowledge base. Introspected live on 2026-08-12
   name: Superscale Documentation MCP Server
   slug: superscale-documentation-mcp-server
-artifact_total: 9
+artifact_total: 12
 common:
 - group: company
   title: ''
@@ -107,97 +108,105 @@ common:
   type: ChangeLog
   url: https://docs.superscale.ai/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/changelog/superscale-changelog.yml
+  href: https://artifacts.apis.io/superscale/changelog/superscale-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/superscale-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/lifecycle/superscale-lifecycle.yml
+  href: https://artifacts.apis.io/superscale/lifecycle/superscale-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/superscale-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/llms/superscale-llms.txt
+  href: https://artifacts.apis.io/superscale/llms/superscale-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/superscale-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/llms/superscale-docs-llms.txt
+  href: https://artifacts.apis.io/superscale/llms/superscale-docs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/superscale-docs-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/well-known/superscale-well-known.yml
+  href: https://artifacts.apis.io/superscale/well-known/superscale-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/superscale-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/well-known/superscale-security.txt
+  href: https://artifacts.apis.io/superscale/well-known/superscale-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/superscale-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/security/superscale-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/superscale/security/superscale-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/superscale-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/well-known/superscale-security.txt
+  href: https://artifacts.apis.io/superscale/well-known/superscale-security.txt
   title: ''
   type: Security
   url: well-known/superscale-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/security/superscale-domain-security.yml
+  href: https://artifacts.apis.io/superscale/security/superscale-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/superscale-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/a2a/superscale-a2a.yml
+  href: https://artifacts.apis.io/superscale/a2a/superscale-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/superscale-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/superscale/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/mcp/superscale-mcp.yml
+  href: https://artifacts.apis.io/superscale/mcp/superscale-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/superscale-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/authentication/superscale-authentication.yml
+  href: https://artifacts.apis.io/superscale/authentication/superscale-authentication.yml
   title: ''
   type: Authentication
   url: authentication/superscale-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/scopes/superscale-scopes.yml
+  href: https://artifacts.apis.io/superscale/scopes/superscale-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/superscale-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/conformance/superscale-conformance.yml
+  href: https://artifacts.apis.io/superscale/conformance/superscale-conformance.yml
   title: ''
   type: Conformance
   url: conformance/superscale-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/conventions/superscale-conventions.yml
+  href: https://artifacts.apis.io/superscale/conventions/superscale-conventions.yml
   title: ''
   type: Conventions
   url: conventions/superscale-conventions.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/plans/superscale-plans-pricing.yml
+  href: https://artifacts.apis.io/superscale/plans/superscale-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/superscale-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/rate-limits/superscale-rate-limits.yml
+  href: https://artifacts.apis.io/superscale/rate-limits/superscale-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/superscale-rate-limits.yml
 created: '2026-07-17'
 description: 'Superscale is an autonomous AI marketing agent for performance advertising. A user gives it a product URL (App Store, Shopify, website, or Lovable project) and a brief; the agent then researches competitor ads in the niche, writes copy and scripts, produces AI UGC videos and static image ads, adds captions and finishing touches, resizes every asset to the required aspect ratios, and — where ad accounts are connected — builds and publishes campaigns on Meta, Google and TikTok behind a blocking human approval step. It serves mobile-app marketers, e-commerce brands, SaaS companies, agencies and growth teams. Superscale is Europe-based and backed by Interface Capital, S16VC, Creandum, Lovable and ElevenLabs. Its machine-readable surface is agent-native rather than REST: an OAuth-gated Model Context Protocol server at mcp.superscale.ai (included from the Pro plan upward), an anonymous documentation MCP server, a conformant A2A agent card, and a published Agent Skill — with no OpenAPI.'
+finops:
+- has_sources: true
+  method: derived
+  name: Superscale Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: superscale-finops
+  template: false
 image: https://superscale.ai/images/og-images/default-og-image.jpg
 layout: provider
 mcp_servers:
@@ -214,9 +223,12 @@ overview: 'Superscale is listed with 2 APIs on the [APIs.io](https://apis.io/) n
   Superscale''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, changelog, and 26 more developer resources.'
 plans:
 - name: Superscale Plans Pricing
-  plan_count: 6
+  plan_count: 1
   slug: superscale-plans-pricing
-random_paper: 1
+- name: Superscale Price Estimates
+  plan_count: 0
+  slug: superscale-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 8
   name: Superscale Rate Limits
@@ -228,23 +240,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.0
+  composite: 48.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 61.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    artifact_dirs: 20
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: -0.5
   facets:
-    access_clarity: 38.2
+    access_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 54.8
-    discoverability: 75.0
-    operational_transparency: 76.3
-  previous_composite: 40.4
+    developer_ergonomics: 57.1
+    discoverability: 65.0
+    operational_transparency: 78.9
+  previous_composite: 48.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -254,15 +266,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 30.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 37.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/superscale/refs/heads/main/screenshots/superscale-2026-08-17T082204.png
+screenshot: https://apis.io/screenshots/superscale/superscale-2026-08-17T082204.png
 security:
 - kind: authentication
   name: Superscale Authentication
@@ -276,6 +288,10 @@ security:
   name: Superscale Vulnerability Disclosure
   slug: superscale-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 1
+skills:
+- name: Superscale
+  slug: superscale-superscale
 slug: superscale
 tags:
 - Company

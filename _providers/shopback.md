@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.2
-  scored_at: '2026-10-17'
+  score: 34.7
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://prod-merchant-service.hoolah.co/merchant
@@ -63,15 +65,12 @@ apis:
   description: The Pre-Auth API from ShopBack — 6 operation(s) for pre-auth.
   name: ShopBack Pre Auth API
   slug: shopback-pre-auth-api
-artifact_total: 14
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Shopback Payment Notification Webhooks
   slug: shopback-payment-notification-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Online Payments Account Linking API
   slug: open-shopback-account-linking-api
@@ -88,13 +87,23 @@ collections:
   name: Online Payments Pre Auth API
   slug: open-shopback-pre-auth-api
 common:
+- group: other
+  href: https://artifacts.apis.io/shopback/capabilities/shopback-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shopback-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/shopback/plans/shopback-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/shopback-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/mcp/shopback-mcp.yml
+  href: https://artifacts.apis.io/shopback/mcp/shopback-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/shopback-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/overlays/shopback-in-store-payments-overlay.yaml
+  href: https://artifacts.apis.io/shopback/overlays/shopback-in-store-payments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shopback-in-store-payments-overlay.yaml
@@ -159,88 +168,96 @@ common:
   type: Postman
   url: https://docs.shopback.com/docs/postman-payload-sample
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/changelog/shopback-changelog.yml
+  href: https://artifacts.apis.io/shopback/changelog/shopback-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/shopback-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/lifecycle/shopback-lifecycle.yml
+  href: https://artifacts.apis.io/shopback/lifecycle/shopback-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shopback-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/authentication/shopback-authentication.yml
+  href: https://artifacts.apis.io/shopback/authentication/shopback-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shopback-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/conventions/shopback-conventions.yml
+  href: https://artifacts.apis.io/shopback/conventions/shopback-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shopback-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/conventions/shopback-conventions.yml
+  href: https://artifacts.apis.io/shopback/conventions/shopback-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/shopback-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/errors/shopback-problem-types.yml
+  href: https://artifacts.apis.io/shopback/errors/shopback-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shopback-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/conformance/shopback-conformance.yml
+  href: https://artifacts.apis.io/shopback/conformance/shopback-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shopback-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/sandbox/shopback-sandbox.yml
+  href: https://artifacts.apis.io/shopback/sandbox/shopback-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/shopback-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/data-model/shopback-data-model.yml
+  href: https://artifacts.apis.io/shopback/data-model/shopback-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shopback-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/components/shopback-components.yml
+  href: https://artifacts.apis.io/shopback/components/shopback-components.yml
   title: ''
   type: Components
   url: components/shopback-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/packages/shopback-packages.yml
+  href: https://artifacts.apis.io/shopback/packages/shopback-packages.yml
   title: ''
   type: Packages
   url: packages/shopback-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/asyncapi/shopback-payment-notification-webhooks.yml
+  href: https://artifacts.apis.io/shopback/asyncapi/shopback-payment-notification-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/shopback-payment-notification-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/shopback/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/llms/shopback-llms.txt
+  href: https://artifacts.apis.io/shopback/llms/shopback-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shopback-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/well-known/shopback-well-known.yml
+  href: https://artifacts.apis.io/shopback/well-known/shopback-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/shopback-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/security/shopback-domain-security.yml
+  href: https://artifacts.apis.io/shopback/security/shopback-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shopback-domain-security.yml
 created: '2026-08-02'
 description: ShopBack is a Singapore-headquartered shopping, rewards and payments platform founded in 2014, operating across 13 markets in Asia-Pacific, Europe and the United States with more than 20 million members and 20,000 merchant partners. Alongside its consumer cashback and discovery app, ShopBack runs a merchant-facing payments business — ShopBack Pay and ShopBack PayLater — and publishes a public developer hub at docs.shopback.com covering two REST APIs. The Online Payments API (v2.0, also called the Online Bespoke API) handles merchant login, order initiation, order status, refunds, and a tokenized-payments surface for account linking, pre-authorization hold/capture/void, immediate charge and cashback-balance lookup. The In-Store Payments API (v1.4) covers merchant-presented and customer-presented QR ordering, order status, refunds, cancellations, and a payment-notification webhook for point-of-sale and customer-facing app checkout. Both are HMAC- or JWT-authenticated over HTTPS/TLS
   1.2+, support an X-ShopBack-Idempotent-Id idempotency header, and ship e-commerce plugins for Shopify, WooCommerce, Magento, PrestaShop, EasyStore and Salesforce Commerce Cloud.
+finops:
+- has_sources: true
+  method: derived
+  name: Shopback Finops
+  primary_unit: ''
+  service_category: ''
+  slug: shopback-finops
+  template: true
 image: https://corporate.shopback.com/opengraph.jpg
 layout: provider
 modified: '2026-08-02'
@@ -253,13 +270,17 @@ overview: 'ShopBack publishes 5 API contracts indexed on the [APIs.io](https://a
   The ShopBack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ShopBack''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 7
+  ShopBack''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+plans:
+- name: Shopback Plans Pricing
+  plan_count: 0
+  slug: shopback-plans-pricing
+random_paper: 3
 score:
   band: developing
-  composite: 44.0
+  composite: 51.3
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 26
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -267,12 +288,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 53.8
-    developer_ergonomics: 49.4
-    discoverability: 73.2
-    operational_transparency: 42.1
+    developer_ergonomics: 70.8
+    discoverability: 66.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -280,7 +301,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 44.0
+  previous_composite: 51.3
   provenance:
     conformance: derived
     contracts:
@@ -296,13 +317,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/screenshots/shopback-2026-08-17T081837.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/shopback/shopback-2026-08-17T081837.png
 security:
 - kind: authentication
   name: Shopback Authentication
@@ -312,6 +334,16 @@ security:
   name: Shopback Domain Security
   slug: shopback-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Accept a ShopBack Pay in-store QR payment
+  slug: shopback-instore-qr-payment
+- name: Take a ShopBack Pay online payment
+  slug: shopback-online-checkout
+- name: Refund a ShopBack Pay online order
+  slug: shopback-online-refund
+- name: Link a ShopBack account and charge a returning user
+  slug: shopback-tokenized-payments
 slug: shopback
 tags:
 - Company

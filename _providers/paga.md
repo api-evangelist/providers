@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-10-17'
+  score: 33.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -70,7 +72,7 @@ apis:
   description: Look-up operations - banks, mobile operators, status.
   name: Paga Reference API
   slug: paga-reference-api
-artifact_total: 23
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Paga Webhooks
@@ -89,9 +91,6 @@ collections:
   name: Paga Developer Business Reference API
   slug: postman-paga-reference-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Paga Developer Business API
   slug: open-paga-business-api
 - collection_type: open
@@ -109,27 +108,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/paga/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/agentic-access/paga-agentic-access.yml
+  href: https://artifacts.apis.io/paga/agentic-access/paga-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/paga-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/security/paga-trust-center.yml
+  href: https://artifacts.apis.io/paga/security/paga-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/paga-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/security/paga-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/paga/security/paga-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/paga-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/security/paga-domain-security.yml
+  href: https://artifacts.apis.io/paga/security/paga-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paga-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/authentication/paga-authentication.yml
+  href: https://artifacts.apis.io/paga/authentication/paga-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paga-authentication.yml
@@ -150,62 +149,62 @@ common:
   type: Documentation
   url: https://developer-docs.paga.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/plans/paga-plans-pricing.yml
+  href: https://artifacts.apis.io/paga/plans/paga-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/paga-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/rate-limits/paga-rate-limits.yml
+  href: https://artifacts.apis.io/paga/rate-limits/paga-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/paga-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/finops/paga-finops.yml
+  href: https://artifacts.apis.io/paga/finops/paga-finops.yml
   title: ''
   type: FinOps
   url: finops/paga-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/packages/paga-packages.yml
+  href: https://artifacts.apis.io/paga/packages/paga-packages.yml
   title: ''
   type: Packages
   url: packages/paga-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/packages/paga-packages.yml
+  href: https://artifacts.apis.io/paga/packages/paga-packages.yml
   title: ''
   type: SDKs
   url: packages/paga-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/mcp/paga-mcp.yml
+  href: https://artifacts.apis.io/paga/mcp/paga-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/paga-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/llms/paga-llms.txt
+  href: https://artifacts.apis.io/paga/llms/paga-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paga-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/overlays/paga-openapi-overlay.yaml
+  href: https://artifacts.apis.io/paga/overlays/paga-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paga-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/conformance/paga-conformance.yml
+  href: https://artifacts.apis.io/paga/conformance/paga-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paga-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/security/paga-trust-center.yml
+  href: https://artifacts.apis.io/paga/security/paga-trust-center.yml
   title: ''
   type: Compliance
   url: security/paga-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/errors/paga-error-codes.yml
+  href: https://artifacts.apis.io/paga/errors/paga-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/paga-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/lifecycle/paga-lifecycle.yml
+  href: https://artifacts.apis.io/paga/lifecycle/paga-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/paga-lifecycle.yml
@@ -214,37 +213,37 @@ common:
   type: StatusPage
   url: https://status.paga.com
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/sandbox/paga-sandbox.yml
+  href: https://artifacts.apis.io/paga/sandbox/paga-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/paga-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/conventions/paga-conventions.yml
+  href: https://artifacts.apis.io/paga/conventions/paga-conventions.yml
   title: ''
   type: Conventions
   url: conventions/paga-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/conventions/paga-conventions.yml
+  href: https://artifacts.apis.io/paga/conventions/paga-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/paga-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/components/paga-components.yml
+  href: https://artifacts.apis.io/paga/components/paga-components.yml
   title: ''
   type: Components
   url: components/paga-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/data-model/paga-data-model.yml
+  href: https://artifacts.apis.io/paga/data-model/paga-data-model.yml
   title: ''
   type: DataModel
   url: data-model/paga-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/asyncapi/paga-webhooks.yml
+  href: https://artifacts.apis.io/paga/asyncapi/paga-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/paga-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/paga/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -295,29 +294,29 @@ plans:
 - name: Paga Plans Pricing
   plan_count: 2
   slug: paga-plans-pricing
-random_paper: 13
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Paga Rate Limits
   slug: paga-rate-limits
 score:
   band: developing
-  composite: 44.3
+  composite: 49.8
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 52.8
-    developer_ergonomics: 55.4
-    discoverability: 73.2
-    operational_transparency: 31.6
+    developer_ergonomics: 74.4
+    discoverability: 66.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -325,7 +324,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 50.4
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -342,13 +341,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/screenshots/paga-2026-08-07T191255.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/paga/paga-2026-08-07T191255.png
 security:
 - kind: authentication
   name: Paga Authentication
@@ -366,6 +366,16 @@ security:
   name: Paga Trust Center
   slug: paga-trust-center
   summary_line: PCI DSS, CBN licensed (Mobile Money Operator), NDPR (Nigeria Data Protection Regulation)
+skill_count: 4
+skills:
+- name: Collect a payment with Paga
+  slug: paga-collect-payment
+- name: Set up and charge a direct-debit mandate
+  slug: paga-direct-debit
+- name: Disburse funds with the Paga Business API
+  slug: paga-disburse-funds
+- name: Issue a persistent payment account
+  slug: paga-persistent-account
 slug: paga
 tags:
 - Payments

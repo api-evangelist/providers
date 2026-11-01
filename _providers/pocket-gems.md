@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pocket-gems/refs/heads/main/security/pocket-gems-domain-security.yml
+  href: https://artifacts.apis.io/pocket-gems/security/pocket-gems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pocket-gems-domain-security.yml
@@ -79,12 +81,12 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/pocket-gems_stock/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pocket-gems/refs/heads/main/packages/pocket-gems-packages.yml
+  href: https://artifacts.apis.io/pocket-gems/packages/pocket-gems-packages.yml
   title: ''
   type: Packages
   url: packages/pocket-gems-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pocket-gems/refs/heads/main/llms/pocket-gems-llms.txt
+  href: https://artifacts.apis.io/pocket-gems/llms/pocket-gems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pocket-gems-llms.txt
@@ -118,12 +120,12 @@ overview: 'Pocket Gems is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Pocket Gems'' developer surface includes support and 11 more developer resources.'
-random_paper: 19
+random_paper: 15
 score:
   band: minimal
-  composite: 10.8
+  composite: 10.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -135,23 +137,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 10.8
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 10.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pocket-gems/refs/heads/main/screenshots/pocket-gems-2026-09-02T151559.png
+screenshot: https://apis.io/screenshots/pocket-gems/pocket-gems-2026-09-02T151559.png
 security:
 - kind: domain-security
   name: Pocket Gems Domain Security

@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,30 +38,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Rogers Control Centre is Rogers' managed IoT and M2M connectivity management platform, a white-labelled deployment of Cisco IoT Control Center (formerly Jasper). Rogers' own product pages list "Access
   name: Rogers Control Centre IoT APIs
   slug: rogers-control-centre-iot-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Rogers Push Api Webhooks
   slug: rogers-push-api-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rogers/refs/heads/main/plans/rogers-plans.yml
+  href: https://artifacts.apis.io/rogers/plans/rogers-plans.yml
   title: ''
   type: Plans
   url: plans/rogers-plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rogers/refs/heads/main/rate-limits/rogers-rate-limits.yml
+  href: https://artifacts.apis.io/rogers/rate-limits/rogers-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rogers-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rogers/refs/heads/main/security/rogers-domain-security.yml
+  href: https://artifacts.apis.io/rogers/security/rogers-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rogers-domain-security.yml
@@ -80,7 +82,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/rogers-communications
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rogers/refs/heads/main/lifecycle/rogers-lifecycle.yml
+  href: https://artifacts.apis.io/rogers/lifecycle/rogers-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rogers-lifecycle.yml
@@ -89,17 +91,17 @@ common:
   type: StatusPage
   url: https://www.rogers.com/support/outage
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rogers/refs/heads/main/conformance/rogers-conformance.yml
+  href: https://artifacts.apis.io/rogers/conformance/rogers-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rogers-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rogers/refs/heads/main/packages/rogers-packages.yml
+  href: https://artifacts.apis.io/rogers/packages/rogers-packages.yml
   title: ''
   type: Packages
   url: packages/rogers-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rogers/refs/heads/main/llms/rogers-llms.txt
+  href: https://artifacts.apis.io/rogers/llms/rogers-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rogers-llms.txt
@@ -139,6 +141,14 @@ created: '2026-07-25'
 description: 'Rogers Communications is Canada''s largest wireless carrier and, following its 2023 acquisition of Shaw Communications, one of the country''s largest cable, internet, and media companies. It operates a national 5G mobile network, broadband and TV services under the Rogers, Fido, chatr, and Shaw/Ignite brands, and owns Rogers Sports & Media. In the telecom API value chain Rogers sits squarely on the network-operator side, not the developer-facing side: it has no first-party developer portal, publishes no OpenAPI or Swagger definitions, runs no sandbox, and ships no first-party SDKs. Its legacy developer programme, Rogers Catalyst, is dead — www.rogers.com/developer still 301s to a meta-refresh page pointing at rogerscatalyst.com, a domain that no longer belongs to Rogers (re-registered through NameCheap with registrant privacy in December 2023) and that now serves a one-byte blank page. Rogers'' network capabilities reach developers only through intermediaries: EnStream LP,
   the identity and fraud joint venture it co-owns with Bell Mobility and TELUS, which resells Canadian carrier Number Verification and SIM Swap data on a sales-led, contract-first basis with no public documentation; Aduna, the Ericsson-and-carrier joint venture that announced an EnStream partnership in February 2025 to bring Bell, Rogers, and TELUS network APIs onto a CAMARA-aligned platform; and, historically, a Canada-exclusive private preview of Microsoft''s Azure Programmable Connectivity announced at MWC 2023, whose public documentation has since been retired. On 2026-06-30 Vonage commercially launched SIM Swap Detection and Silent Authentication across Canada, connecting to Bell, Rogers and TELUS via Aduna''s integration with EnStream — the first documented, self-serve way to buy Rogers-derived network signals, though the contract, docs and sandbox all belong to Vonage. Rogers is partner-gated and reachable only through aggregators — the CAMARA posture is real but wholesale, and nothing
   is callable from a Rogers-owned domain.'
+finops:
+- has_sources: true
+  method: derived
+  name: Rogers Finops
+  primary_unit: line
+  service_category: ''
+  slug: rogers-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-25'
@@ -154,30 +164,33 @@ overview: 'Rogers Communications is listed with 1 API on the [APIs.io](https://a
   Rogers Communications'' developer surface includes documentation, engineering blog, support, pricing, product news, and 15 more developer resources.'
 plans:
 - name: Rogers Plans
-  plan_count: 3
+  plan_count: 4
   slug: rogers-plans
-random_paper: 20
+- name: Rogers Price Estimates
+  plan_count: 0
+  slug: rogers-price-estimates
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Rogers Rate Limits
   slug: rogers-rate-limits
 score:
   band: developing
-  composite: 50.5
+  composite: 53.5
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 61.0
+    artifact_dirs: 17
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 51.2
-    discoverability: 74.1
+    developer_ergonomics: 54.8
+    discoverability: 67.9
     operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -186,7 +199,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 50.5
+  previous_composite: 51.9
   provenance:
     conformance: first-party
   regulatory:
@@ -195,14 +208,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rogers/refs/heads/main/screenshots/rogers-2026-08-17T081636.png
+screenshot: https://apis.io/screenshots/rogers/rogers-2026-08-17T081636.png
 security:
 - kind: authentication
   name: Rogers Authentication

@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.0
-  scored_at: '2026-10-17'
+  score: 28.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -126,15 +128,12 @@ apis:
   description: The Websites API from MixRank — 3 operation(s) for websites.
   name: MixRank Websites API
   slug: mixrank-websites-api
-artifact_total: 39
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Mixrank Webhooks
   slug: mixrank-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MixRank Data Account API
   slug: open-mixrank-account-api
@@ -185,17 +184,17 @@ collections:
   slug: open-mixrank-websites-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/capabilities/mixrank-capability-edges.yml
+  href: https://artifacts.apis.io/mixrank/capabilities/mixrank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mixrank-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/overlays/mixrank-overlay.yaml
+  href: https://artifacts.apis.io/mixrank/overlays/mixrank-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mixrank-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/security/mixrank-domain-security.yml
+  href: https://artifacts.apis.io/mixrank/security/mixrank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mixrank-domain-security.yml
@@ -244,77 +243,77 @@ common:
   type: Compliance
   url: https://mixrank.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/authentication/mixrank-authentication.yml
+  href: https://artifacts.apis.io/mixrank/authentication/mixrank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mixrank-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/conventions/mixrank-conventions.yml
+  href: https://artifacts.apis.io/mixrank/conventions/mixrank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mixrank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/errors/mixrank-problem-types.yml
+  href: https://artifacts.apis.io/mixrank/errors/mixrank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mixrank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/lifecycle/mixrank-lifecycle.yml
+  href: https://artifacts.apis.io/mixrank/lifecycle/mixrank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mixrank-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/conformance/mixrank-conformance.yml
+  href: https://artifacts.apis.io/mixrank/conformance/mixrank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mixrank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/data-model/mixrank-data-model.yml
+  href: https://artifacts.apis.io/mixrank/data-model/mixrank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mixrank-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/agentic-access/mixrank-agentic-access.yml
+  href: https://artifacts.apis.io/mixrank/agentic-access/mixrank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mixrank-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/mcp/mixrank-mcp.yml
+  href: https://artifacts.apis.io/mixrank/mcp/mixrank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mixrank-mcp.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/rate-limits/mixrank-rate-limits.yml
+  href: https://artifacts.apis.io/mixrank/rate-limits/mixrank-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mixrank-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/plans/mixrank-plans.yml
+  href: https://artifacts.apis.io/mixrank/plans/mixrank-plans.yml
   title: ''
   type: Plans
   url: plans/mixrank-plans.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/llms/mixrank-llms.txt
+  href: https://artifacts.apis.io/mixrank/llms/mixrank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mixrank-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mixrank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/examples/mixrank-examples.yml
+  href: https://artifacts.apis.io/mixrank/examples/mixrank-examples.yml
   title: ''
   type: Examples
   url: examples/mixrank-examples.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/asyncapi/mixrank-webhooks.yml
+  href: https://artifacts.apis.io/mixrank/asyncapi/mixrank-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mixrank-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/packages/mixrank-packages.yml
+  href: https://artifacts.apis.io/mixrank/packages/mixrank-packages.yml
   title: ''
   type: Packages
   url: packages/mixrank-packages.yml
@@ -324,6 +323,14 @@ common:
   url: mailto:support@mixrank.com
 created: '2026-07-17'
 description: MixRank curates ultra-high-frequency technographic, firmographic, and people data for enterprise data teams, refreshed as often as hourly. Its datasets cover 45M+ company profiles, 800M+ employee/people profiles, 20M+ iOS and Android mobile apps with granular SDK-install intelligence, in-app purchases, app rankings and privacy labels, and web technographics across 80M+ websites. MixRank exposes these datasets through a JSON REST Data API (Enrich, Match, segment queries, email verification, mobile app & SDK intelligence, and web tags) as well as flat-file feeds and native cloud deliveries (PostgreSQL, Snowflake, Amazon Redshift, BigQuery). Customers use it for B2B data enrichment, investment intelligence, fraud prevention and identity resolution, mobile/SDK competitive intelligence, and candidate enrichment.
+finops:
+- has_sources: true
+  method: derived
+  name: Mixrank Finops
+  primary_unit: ''
+  service_category: ''
+  slug: mixrank-finops
+  template: true
 image: https://mixrank.com/favicon.ico
 layout: provider
 modified: '2026-08-14'
@@ -339,32 +346,32 @@ overview: 'MixRank publishes 16 API contracts indexed on the [APIs.io](https://a
   MixRank''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, code examples, and 23 more developer resources.'
 plans:
 - name: Mixrank Plans
-  plan_count: 6
+  plan_count: 0
   slug: mixrank-plans
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Mixrank Rate Limits
   slug: mixrank-rate-limits
 score:
-  band: strong
-  composite: 57.8
+  band: developing
+  composite: 51.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 61.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    artifact_dirs: 25
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -6.4
   facets:
-    access_clarity: 84.2
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 54.2
     developer_ergonomics: 56.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 57.7
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -387,13 +394,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/screenshots/mixrank-2026-08-07T183827.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mixrank/mixrank-2026-08-07T183827.png
 security:
 - kind: authentication
   name: Mixrank Authentication
@@ -403,6 +411,18 @@ security:
   name: Mixrank Domain Security
   slug: mixrank-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 5
+skills:
+- name: Analyze a mobile app's SDK stack
+  slug: mixrank-app-sdk-intelligence
+- name: Match and enrich a company
+  slug: mixrank-enrich-company
+- name: Prospect and verify an email address
+  slug: mixrank-verify-email
+- name: Look up a website's technology stack
+  slug: mixrank-web-technographics
+- name: Receive MixRank results asynchronously over a webhook
+  slug: mixrank-webhook-callbacks
 slug: mixrank
 tags:
 - Company

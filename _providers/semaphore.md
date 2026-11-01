@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.4
-  scored_at: '2026-10-17'
+  score: 33.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -100,11 +102,8 @@ apis:
   description: Workflow management
   name: Semaphore Workflows API
   slug: semaphore-workflows-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Semaphore Public Dashboards API
   slug: open-semaphore-dashboards-api
@@ -140,32 +139,32 @@ collections:
   slug: open-semaphore-workflows-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/capabilities/semaphore-capability-edges.yml
+  href: https://artifacts.apis.io/semaphore/capabilities/semaphore-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/semaphore-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/agentic-access/semaphore-agentic-access.yml
+  href: https://artifacts.apis.io/semaphore/agentic-access/semaphore-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/semaphore-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/security/semaphore-trust-center.yml
+  href: https://artifacts.apis.io/semaphore/security/semaphore-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/semaphore-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/security/semaphore-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/semaphore/security/semaphore-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/semaphore-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/security/semaphore-domain-security.yml
+  href: https://artifacts.apis.io/semaphore/security/semaphore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/semaphore-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/authentication/semaphore-authentication.yml
+  href: https://artifacts.apis.io/semaphore/authentication/semaphore-authentication.yml
   title: ''
   type: Authentication
   url: authentication/semaphore-authentication.yml
@@ -202,17 +201,17 @@ common:
   type: X
   url: https://twitter.com/semaphoreci
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/plans/semaphore-plans-pricing.yml
+  href: https://artifacts.apis.io/semaphore/plans/semaphore-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/semaphore-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/rate-limits/semaphore-rate-limits.yml
+  href: https://artifacts.apis.io/semaphore/rate-limits/semaphore-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/semaphore-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/finops/semaphore-finops.yml
+  href: https://artifacts.apis.io/semaphore/finops/semaphore-finops.yml
   title: ''
   type: FinOps
   url: finops/semaphore-finops.yml
@@ -248,14 +247,14 @@ plans:
 - name: Semaphore Plans Pricing
   plan_count: 4
   slug: semaphore-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 6
   name: Semaphore Rate Limits
   slug: semaphore-rate-limits
 score:
-  band: thin
-  composite: 39.0
+  band: developing
+  composite: 40.3
   coverage:
     artifact_dirs: 14
     catalog_earned: 58.5
@@ -263,15 +262,15 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
-    contract_quality: 63.5
+    contract_quality: 60.1
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 47.3
+    operational_transparency: 39.5
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -285,13 +284,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/screenshots/semaphore-2026-06-20T193644.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/semaphore/semaphore-2026-06-20T193644.png
 security:
 - kind: authentication
   name: Semaphore Authentication

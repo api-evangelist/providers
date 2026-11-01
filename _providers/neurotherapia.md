@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,16 +37,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'A remote, anonymous Model Context Protocol server served from the NeuroTherapia corporate domain at /_api/mcp. It is provisioned by the Wix website platform rather than authored by NeuroTherapia, and '
   name: NeuroTherapia Site MCP
   slug: neurotherapia-site-mcp
-artifact_total: 6
+artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neurotherapia/refs/heads/main/security/neurotherapia-domain-security.yml
+  href: https://artifacts.apis.io/neurotherapia/security/neurotherapia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/neurotherapia-domain-security.yml
@@ -73,42 +75,42 @@ common:
   type: PrivacyPolicy
   url: https://www.neurotherapia.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/neurotherapia/refs/heads/main/llms/neurotherapia-llms.txt
+  href: https://artifacts.apis.io/neurotherapia/llms/neurotherapia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/neurotherapia-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/neurotherapia/refs/heads/main/mcp/neurotherapia-mcp.yml
+  href: https://artifacts.apis.io/neurotherapia/mcp/neurotherapia-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/neurotherapia-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/neurotherapia/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/neurotherapia/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neurotherapia/refs/heads/main/authentication/neurotherapia-authentication.yml
+  href: https://artifacts.apis.io/neurotherapia/authentication/neurotherapia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/neurotherapia-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neurotherapia/refs/heads/main/conventions/neurotherapia-conventions.yml
+  href: https://artifacts.apis.io/neurotherapia/conventions/neurotherapia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/neurotherapia-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neurotherapia/refs/heads/main/conformance/neurotherapia-conformance.yml
+  href: https://artifacts.apis.io/neurotherapia/conformance/neurotherapia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/neurotherapia-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/neurotherapia/refs/heads/main/plans/neurotherapia-plans-pricing.yml
+  href: https://artifacts.apis.io/neurotherapia/plans/neurotherapia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/neurotherapia-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/neurotherapia/refs/heads/main/rate-limits/neurotherapia-rate-limits.yml
+  href: https://artifacts.apis.io/neurotherapia/rate-limits/neurotherapia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/neurotherapia-rate-limits.yml
@@ -118,7 +120,7 @@ description: 'NeuroTherapia, Inc. is a clinical-stage, privately held biotechnol
 image: https://static.wixstatic.com/media/f2ff6e_19fb09e81a294b0ea0376a869b29bf0a~mv2.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at www.neurotherapia.com over HTTP; 9 tools listed.
+- description: Remote MCP server at www.neurotherapia.com over HTTP; 10 tools listed.
   name: NeuroTherapia, Inc.
   slug: neurotherapia-inc
 modified: '2026-08-26'
@@ -133,28 +135,28 @@ plans:
 - name: Neurotherapia Plans Pricing
   plan_count: 0
   slug: neurotherapia-plans-pricing
-random_paper: 13
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Neurotherapia Rate Limits
   slug: neurotherapia-rate-limits
 score:
   band: emerging
-  composite: 19.2
+  composite: 18.2
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 20.8
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -163,7 +165,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 19.1
+  previous_composite: 18.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -174,14 +176,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/neurotherapia/refs/heads/main/screenshots/neurotherapia-2026-09-02T150739.png
+screenshot: https://apis.io/screenshots/neurotherapia/neurotherapia-2026-09-02T150739.png
 security:
 - kind: authentication
   name: Neurotherapia Authentication
@@ -191,6 +193,10 @@ security:
   name: Neurotherapia Domain Security
   slug: neurotherapia-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Query NeuroTherapia public site content over MCP
+  slug: neurotherapia-query-site-content
 slug: neurotherapia
 tags:
 - Biotechnology

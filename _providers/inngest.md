@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: documented
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-17'
+  score: 36.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -85,7 +87,32 @@ apis:
   description: Manage inbound webhooks that translate third-party payloads into Inngest events.
   name: Inngest Webhooks API
   slug: inngest-webhooks-api
-artifact_total: 53
+- baseURL: https://api.inngest.com
+  baseurl_source: declared
+  description: Inspect experiment variants and aggregates
+  name: Inngest Experiments API
+  slug: inngest-experiments-api
+- baseURL: https://api.inngest.com
+  baseurl_source: declared
+  description: Query event and function data
+  name: Inngest Insights API
+  slug: inngest-insights-api
+- baseURL: https://api.inngest.com
+  baseurl_source: declared
+  description: Partner account management
+  name: Inngest Partner API
+  slug: inngest-partner-api-api
+- baseURL: https://api.inngest.com
+  baseurl_source: declared
+  description: Create and manage isolated compute sandboxes
+  name: Inngest Sandboxes API
+  slug: inngest-sandboxes-api
+- baseURL: https://api.inngest.com
+  baseurl_source: declared
+  description: Inspect session-grouped runs
+  name: Inngest Sessions API
+  slug: inngest-sessions-api
+artifact_total: 58
 collections:
 - collection_type: postman
   name: Inngest REST Account API
@@ -111,9 +138,6 @@ collections:
 - collection_type: postman
   name: Inngest REST Account Webhooks API
   slug: postman-inngest-webhooks-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Inngest REST Account API
   slug: open-inngest-account-api
@@ -143,22 +167,22 @@ collections:
   slug: open-inngest
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/plans/inngest-plans-pricing.yml
+  href: https://artifacts.apis.io/inngest/plans/inngest-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/inngest-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/rate-limits/inngest-rate-limits.yml
+  href: https://artifacts.apis.io/inngest/rate-limits/inngest-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/inngest-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/finops/inngest-finops.yml
+  href: https://artifacts.apis.io/inngest/finops/inngest-finops.yml
   title: ''
   type: FinOps
   url: finops/inngest-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/capabilities/inngest-capability-edges.yml
+  href: https://artifacts.apis.io/inngest/capabilities/inngest-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/inngest-capability-edges.yml
@@ -187,27 +211,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/inngest/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/agentic-access/inngest-agentic-access.yml
+  href: https://artifacts.apis.io/inngest/agentic-access/inngest-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/inngest-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/security/inngest-trust-center.yml
+  href: https://artifacts.apis.io/inngest/security/inngest-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/inngest-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/security/inngest-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/inngest/security/inngest-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/inngest-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/security/inngest-domain-security.yml
+  href: https://artifacts.apis.io/inngest/security/inngest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inngest-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/authentication/inngest-authentication.yml
+  href: https://artifacts.apis.io/inngest/authentication/inngest-authentication.yml
   title: ''
   type: Authentication
   url: authentication/inngest-authentication.yml
@@ -448,13 +472,13 @@ examples:
   name: Inngest Send Event Example
   slug: inngest-send-event-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Inngest Finops
-  primary_unit: ''
-  service_category: Developer Tools / Workflow Orchestration
+  primary_unit: second per vcpu
+  service_category: ''
   slug: inngest-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inngest.png
 json_schemas:
 - name: InngestEnvironment
@@ -495,7 +519,7 @@ modified: '2026-05-22'
 name: Inngest
 nav: Providers
 network: true
-overview: 'Inngest publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Apps API, Environments API, and 5 more. Tagged areas include AI Agents, AgentKit, Background Jobs, Connect, and Cron Jobs.
+overview: 'Inngest publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Apps API, Environments API, and 10 more. Tagged areas include AI Agents, AgentKit, Background Jobs, Connect, and Cron Jobs.
 
 
   The Inngest catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -504,9 +528,12 @@ overview: 'Inngest publishes 8 API contracts indexed on the [APIs.io](https://ap
   Inngest''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, engineering blog, changelog, and 61 more developer resources.'
 plans:
 - name: Inngest Plans Pricing
-  plan_count: 3
+  plan_count: 7
   slug: inngest-plans-pricing
-random_paper: 12
+- name: Inngest Price Estimates
+  plan_count: 0
+  slug: inngest-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 8
   name: Inngest Rate Limits
@@ -535,44 +562,45 @@ rules:
     warn: 0
   slug: inngest-rules
 score:
-  band: strong
-  composite: 59.2
+  band: exemplar
+  composite: 69.9
   coverage:
     artifact_dirs: 22
-    catalog_earned: 70.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 44.3
+    catalog_earned: 82.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 32.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.4
   facets:
-    access_clarity: 46.1
+    access_clarity: 92.1
     contract_governance: 23.5
-    contract_quality: 63.4
+    contract_quality: 63.7
     developer_ergonomics: 72.6
     discoverability: 73.2
     operational_transparency: 60.5
-  previous_composite: 60.7
+  previous_composite: 68.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 22
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/screenshots/inngest-2026-06-20T183358.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/inngest/inngest-2026-06-20T183358.png
 security:
 - kind: authentication
   name: Inngest Authentication

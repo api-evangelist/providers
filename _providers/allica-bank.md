@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.0
-  scored_at: '2026-10-17'
+  score: 47.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 37
   slug: allica-bank-agentic-access
   summary_line: 37 operations · 11 acting
-api_count: 4
+api_count: 2
 apis:
 - description: Allica Bank's UK Open Banking Confirmation of Funds (CBPII) capability, exposed through the OBIE Read/Write Standard and the `fundsconfirmations` OAuth scope, allowing authorised Card-Based Payment In
   name: Allica Bank Confirmation of Funds API
@@ -133,7 +135,7 @@ apis:
   description: The Transactions API from Allica Bank — 1 operation(s) for transactions.
   name: Allica Bank Transactions API
   slug: allica-bank-transactions-api
-artifact_total: 25
+artifact_total: 28
 common:
 - group: company
   title: ''
@@ -144,47 +146,47 @@ common:
   type: Pricing
   url: https://www.allica.bank/fees/rewards-account-fees-and-limits
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/plans/allica-bank-plans-pricing.yml
+  href: https://artifacts.apis.io/allica-bank/plans/allica-bank-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/allica-bank-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/capabilities/allica-bank-capability-edges.yml
+  href: https://artifacts.apis.io/allica-bank/capabilities/allica-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/allica-bank-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/agentic-access/allica-bank-agentic-access.yml
+  href: https://artifacts.apis.io/allica-bank/agentic-access/allica-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/allica-bank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/security/allica-bank-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/allica-bank/security/allica-bank-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/allica-bank-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/security/allica-bank-domain-security.yml
+  href: https://artifacts.apis.io/allica-bank/security/allica-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allica-bank-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/scopes/allica-bank-scopes.yml
+  href: https://artifacts.apis.io/allica-bank/scopes/allica-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/allica-bank-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/authentication/allica-bank-authentication.yml
+  href: https://artifacts.apis.io/allica-bank/authentication/allica-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/allica-bank-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/well-known/allica-bank-well-known.yml
+  href: https://artifacts.apis.io/allica-bank/well-known/allica-bank-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/allica-bank-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/well-known/allica-bank-security.txt
+  href: https://artifacts.apis.io/allica-bank/well-known/allica-bank-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/allica-bank-security.txt
@@ -193,62 +195,62 @@ common:
   type: Security
   url: https://www.allica.bank/responsible-disclosure
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/conventions/allica-bank-conventions.yml
+  href: https://artifacts.apis.io/allica-bank/conventions/allica-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/allica-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/conventions/allica-bank-conventions.yml
+  href: https://artifacts.apis.io/allica-bank/conventions/allica-bank-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/allica-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/errors/allica-bank-problem-types.yml
+  href: https://artifacts.apis.io/allica-bank/errors/allica-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/allica-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/lifecycle/allica-bank-lifecycle.yml
+  href: https://artifacts.apis.io/allica-bank/lifecycle/allica-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/allica-bank-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/conformance/allica-bank-conformance.yml
+  href: https://artifacts.apis.io/allica-bank/conformance/allica-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/allica-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/data-model/allica-bank-data-model.yml
+  href: https://artifacts.apis.io/allica-bank/data-model/allica-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/allica-bank-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/mcp/allica-bank-mcp.yml
+  href: https://artifacts.apis.io/allica-bank/mcp/allica-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/allica-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/llms/allica-bank-llms.txt
+  href: https://artifacts.apis.io/allica-bank/llms/allica-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/allica-bank-llms.txt
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/sandbox/allica-bank-sandbox.yml
+  href: https://artifacts.apis.io/allica-bank/sandbox/allica-bank-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/allica-bank-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/allica-bank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/overlays/allica-bank-account-information-overlay.yaml
+  href: https://artifacts.apis.io/allica-bank/overlays/allica-bank-account-information-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/allica-bank-account-information-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/overlays/allica-bank-payment-initiation-overlay.yaml
+  href: https://artifacts.apis.io/allica-bank/overlays/allica-bank-payment-initiation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/allica-bank-payment-initiation-overlay.yaml
@@ -295,6 +297,14 @@ common:
 created: '2026-07-23'
 description: Allica Bank Limited is a UK financial-technology bank built specifically for established small and medium-sized businesses, offering business current accounts, savings, commercial mortgages, asset finance, and invoice finance. It is a privately owned, venture-backed challenger bank (not a mutual or building society), authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and PRA (FRN 821851), registered in England and Wales (company number 07706156). As an FCA-authorised ASPSP it participates in UK Open Banking under the Open Banking Implementation Entity (OBIE) Read/Write Standard and PSD2 - it is not one of the nine CMA9 mandated banks, but publishes a public developer portal exposing Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (fundsconfirmations) APIs for its Business Rewards accounts. Access is secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, mutual-TLS
   client authentication, and dynamic client registration using Open Banking Directory / eIDAS certificates and Software Statement Assertions.
+finops:
+- has_sources: true
+  method: derived
+  name: Allica Bank Finops
+  primary_unit: transaction
+  service_category: ''
+  slug: allica-bank-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-10-06'
@@ -320,21 +330,21 @@ scopes:
   summary_line: 17 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 50.6
+  composite: 51.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 1.0
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 4.5
     contract_quality: 45.7
     developer_ergonomics: 66.1
-    discoverability: 78.6
+    discoverability: 66.1
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -344,7 +354,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 50.0
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -365,13 +375,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/screenshots/allica-bank-2026-07-25T195713.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/allica-bank/allica-bank-2026-07-25T195713.png
 security:
 - kind: authentication
   name: Allica Bank Authentication
@@ -385,6 +396,12 @@ security:
   name: Allica Bank Vulnerability Disclosure
   slug: allica-bank-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 2
+skills:
+- name: Initiate an Allica Bank domestic payment
+  slug: allica-bank-initiate-domestic-payment
+- name: Retrieve Allica Bank account information
+  slug: allica-bank-retrieve-account-information
 slug: allica-bank
 tags:
 - Financial Services

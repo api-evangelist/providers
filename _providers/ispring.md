@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 3
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 142
   slug: ispring-agentic-access
   summary_line: 142 operations · 81 acting · 3 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api-learn.ispringlearn.com
   baseurl_source: declared
@@ -145,11 +147,8 @@ apis:
   description: The webhook API from iSpring Learn — 11 operation(s) for webhook.
   name: iSpring Learn Webhook API
   slug: ispring-webhook-api
-artifact_total: 242
+artifact_total: 241
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Learn Rest Api assignments API
   slug: open-ispring-assignments-api
@@ -216,22 +215,22 @@ common:
   type: Website
   url: https://ispringhelpdocs.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/capabilities/ispring-capability-edges.yml
+  href: https://artifacts.apis.io/ispring/capabilities/ispring-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ispring-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/agentic-access/ispring-agentic-access.yml
+  href: https://artifacts.apis.io/ispring/agentic-access/ispring-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ispring-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/security/ispring-domain-security.yml
+  href: https://artifacts.apis.io/ispring/security/ispring-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ispring-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/authentication/ispring-authentication.yml
+  href: https://artifacts.apis.io/ispring/authentication/ispring-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ispring-authentication.yml
@@ -280,17 +279,17 @@ common:
   type: TermsOfService
   url: https://www.ispringsolutions.com/services-subscription-agreement
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/plans/ispring-plans-pricing.yml
+  href: https://artifacts.apis.io/ispring/plans/ispring-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ispring-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/rate-limits/ispring-rate-limits.yml
+  href: https://artifacts.apis.io/ispring/rate-limits/ispring-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ispring-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/finops/ispring-finops.yml
+  href: https://artifacts.apis.io/ispring/finops/ispring-finops.yml
   title: ''
   type: FinOps
   url: finops/ispring-finops.yml
@@ -904,7 +903,7 @@ plans:
 - name: Ispring Plans Pricing
   plan_count: 3
   slug: ispring-plans-pricing
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Ispring Rate Limits
@@ -923,7 +922,7 @@ rules:
   slug: ispring-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.1
+  composite: 38.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 46.3
@@ -931,15 +930,15 @@ score:
     catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 45.6
+    contract_quality: 44.9
     developer_ergonomics: 47.6
     discoverability: 66.1
     operational_transparency: 31.6
-  previous_composite: 46.4
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -953,13 +952,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/screenshots/ispring-2026-06-20T183622.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ispring/ispring-2026-06-20T183622.png
 security:
 - kind: authentication
   name: Ispring Authentication

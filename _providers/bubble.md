@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 20.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -108,9 +110,6 @@ collections:
   name: Bubble Workflow API
   slug: postman-bubble-workflow-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Bubble Data Action API
   slug: open-bubble-action-api
 - collection_type: open
@@ -141,22 +140,22 @@ common:
   type: Forums
   url: https://forum.bubble.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/agentic-access/bubble-agentic-access.yml
+  href: https://artifacts.apis.io/bubble/agentic-access/bubble-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bubble-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/security/bubble-trust-center.yml
+  href: https://artifacts.apis.io/bubble/security/bubble-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bubble-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/security/bubble-domain-security.yml
+  href: https://artifacts.apis.io/bubble/security/bubble-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bubble-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/authentication/bubble-authentication.yml
+  href: https://artifacts.apis.io/bubble/authentication/bubble-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bubble-authentication.yml
@@ -165,52 +164,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/bubble/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-bulk-create-then-search-workflow.yml
+  href: https://artifacts.apis.io/bubble/arazzo/bubble-bulk-create-then-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-bulk-create-then-search-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-create-and-get-thing-workflow.yml
+  href: https://artifacts.apis.io/bubble/arazzo/bubble-create-and-get-thing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-create-and-get-thing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-create-thing-then-trigger-workflow-workflow.yml
+  href: https://artifacts.apis.io/bubble/arazzo/bubble-create-thing-then-trigger-workflow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-create-thing-then-trigger-workflow-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-discover-types-then-search-workflow.yml
+  href: https://artifacts.apis.io/bubble/arazzo/bubble-discover-types-then-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-discover-types-then-search-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-get-then-replace-thing-workflow.yml
+  href: https://artifacts.apis.io/bubble/arazzo/bubble-get-then-replace-thing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-get-then-replace-thing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-initialize-then-trigger-workflow-workflow.yml
+  href: https://artifacts.apis.io/bubble/arazzo/bubble-initialize-then-trigger-workflow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-initialize-then-trigger-workflow-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-search-then-delete-thing-workflow.yml
+  href: https://artifacts.apis.io/bubble/arazzo/bubble-search-then-delete-thing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-search-then-delete-thing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-search-then-update-thing-workflow.yml
+  href: https://artifacts.apis.io/bubble/arazzo/bubble-search-then-update-thing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-search-then-update-thing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-trigger-workflow-then-log-thing-workflow.yml
+  href: https://artifacts.apis.io/bubble/arazzo/bubble-trigger-workflow-then-log-thing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-trigger-workflow-then-log-thing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/arazzo/bubble-upsert-thing-workflow.yml
+  href: https://artifacts.apis.io/bubble/arazzo/bubble-upsert-thing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/bubble-upsert-thing-workflow.yml
@@ -235,12 +234,12 @@ common:
   type: Pricing
   url: https://bubble.io/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/plans/bubble-plans-pricing.yml
+  href: https://artifacts.apis.io/bubble/plans/bubble-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bubble-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/rate-limits/bubble-rate-limits.yml
+  href: https://artifacts.apis.io/bubble/rate-limits/bubble-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bubble-rate-limits.yml
@@ -341,47 +340,47 @@ common:
   type: KnowledgeCenter
   url: https://manual.bubble.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/json-ld/bubble-context.jsonld
+  href: https://artifacts.apis.io/bubble/json-ld/bubble-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bubble-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/rules/bubble-rules.yml
+  href: https://artifacts.apis.io/bubble/rules/bubble-rules.yml
   title: ''
   type: SpectralRules
   url: rules/bubble-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/vocabulary/bubble-vocabulary.yml
+  href: https://artifacts.apis.io/bubble/vocabulary/bubble-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bubble-vocabulary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/examples/bubble-data-search-example.json
+  href: https://artifacts.apis.io/bubble/examples/bubble-data-search-example.json
   title: ''
   type: Examples
   url: examples/bubble-data-search-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/examples/bubble-data-create-example.json
+  href: https://artifacts.apis.io/bubble/examples/bubble-data-create-example.json
   title: ''
   type: Examples
   url: examples/bubble-data-create-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/examples/bubble-data-modify-example.json
+  href: https://artifacts.apis.io/bubble/examples/bubble-data-modify-example.json
   title: ''
   type: Examples
   url: examples/bubble-data-modify-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/examples/bubble-data-bulk-create-example.json
+  href: https://artifacts.apis.io/bubble/examples/bubble-data-bulk-create-example.json
   title: ''
   type: Examples
   url: examples/bubble-data-bulk-create-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/examples/bubble-workflow-trigger-example.json
+  href: https://artifacts.apis.io/bubble/examples/bubble-workflow-trigger-example.json
   title: ''
   type: Examples
   url: examples/bubble-workflow-trigger-example.json
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/finops/bubble-finops.yml
+  href: https://artifacts.apis.io/bubble/finops/bubble-finops.yml
   title: ''
   type: FinOps
   url: finops/bubble-finops.yml
@@ -426,10 +425,10 @@ features:
   name: Multi-App Editing
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Bubble Finops
-  primary_unit: ''
-  service_category: Application Platform
+  primary_unit: project
+  service_category: ''
   slug: bubble-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bubble.png
@@ -486,9 +485,12 @@ overview: 'Bubble publishes 4 API contracts indexed on the [APIs.io](https://api
   Bubble''s developer surface includes authentication, documentation, getting-started guide, API reference, pricing, signup flow, developer portal, and 50 more developer resources.'
 plans:
 - name: Bubble Plans Pricing
-  plan_count: 7
+  plan_count: 6
   slug: bubble-plans-pricing
-random_paper: 4
+- name: Bubble Price Estimates
+  plan_count: 0
+  slug: bubble-price-estimates
+random_paper: 20
 rate_limits:
 - limit_count: 12
   name: Bubble Rate Limits
@@ -518,24 +520,24 @@ rules:
     warn: 6
   slug: bubble-rules
 score:
-  band: developing
-  composite: 47.8
+  band: strong
+  composite: 63.4
   coverage:
     artifact_dirs: 19
-    catalog_earned: 60.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 55.0
+    catalog_earned: 72.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.5
   facets:
-    access_clarity: 32.9
+    access_clarity: 100.0
     contract_governance: 27.3
     contract_quality: 50.2
     developer_ergonomics: 58.3
     discoverability: 66.1
-    operational_transparency: 52.6
-  previous_composite: 56.1
+    operational_transparency: 55.3
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     contracts:
@@ -548,14 +550,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/screenshots/bubble-2026-06-20T173737.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bubble/bubble-2026-06-20T173737.png
 security:
 - kind: authentication
   name: Bubble Authentication

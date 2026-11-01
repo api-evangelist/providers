@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +58,7 @@ apis:
 - description: Kite Hill implements the Universal Commerce Protocol for agent-driven commerce. The merchant profile at /.well-known/ucp declares UCP 2026-04-08 and 2026-01-23, the dev.ucp.shopping MCP service endpoi
   name: Kite Hill UCP Agentic Commerce API
   slug: ucp-commerce
-artifact_total: 10
+artifact_total: 14
 common:
 - group: company
   title: ''
@@ -67,92 +69,92 @@ common:
   type: Documentation
   url: https://kite-hill.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/llms/kite-hill-llms.txt
+  href: https://artifacts.apis.io/kite-hill/llms/kite-hill-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kite-hill-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/well-known/kite-hill-well-known.yml
+  href: https://artifacts.apis.io/kite-hill/well-known/kite-hill-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kite-hill-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/mcp/kite-hill-mcp.yml
+  href: https://artifacts.apis.io/kite-hill/mcp/kite-hill-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kite-hill-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/mcp/kite-hill-tool-crosswalk.yml
+  href: https://artifacts.apis.io/kite-hill/mcp/kite-hill-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/kite-hill-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/agentic-access/kite-hill-agentic-access.yml
+  href: https://artifacts.apis.io/kite-hill/agentic-access/kite-hill-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kite-hill-agentic-access.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/graphql/kite-hill-storefront.graphql
+  href: https://artifacts.apis.io/kite-hill/graphql/kite-hill-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/kite-hill-storefront.graphql
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/data-model/kite-hill-data-model.yml
+  href: https://artifacts.apis.io/kite-hill/data-model/kite-hill-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kite-hill-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/authentication/kite-hill-authentication.yml
+  href: https://artifacts.apis.io/kite-hill/authentication/kite-hill-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kite-hill-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/scopes/kite-hill-scopes.yml
+  href: https://artifacts.apis.io/kite-hill/scopes/kite-hill-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kite-hill-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/conventions/kite-hill-conventions.yml
+  href: https://artifacts.apis.io/kite-hill/conventions/kite-hill-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kite-hill-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/conventions/kite-hill-conventions.yml
+  href: https://artifacts.apis.io/kite-hill/conventions/kite-hill-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/kite-hill-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/errors/kite-hill-problem-types.yml
+  href: https://artifacts.apis.io/kite-hill/errors/kite-hill-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kite-hill-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/lifecycle/kite-hill-lifecycle.yml
+  href: https://artifacts.apis.io/kite-hill/lifecycle/kite-hill-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kite-hill-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/conformance/kite-hill-conformance.yml
+  href: https://artifacts.apis.io/kite-hill/conformance/kite-hill-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kite-hill-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/rate-limits/kite-hill-rate-limits.yml
+  href: https://artifacts.apis.io/kite-hill/rate-limits/kite-hill-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kite-hill-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/plans/kite-hill-plans-pricing.yml
+  href: https://artifacts.apis.io/kite-hill/plans/kite-hill-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kite-hill-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kite-hill/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/security/kite-hill-domain-security.yml
+  href: https://artifacts.apis.io/kite-hill/security/kite-hill-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kite-hill-domain-security.yml
@@ -221,7 +223,7 @@ plans:
 - name: Kite Hill Plans Pricing
   plan_count: 0
   slug: kite-hill-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Kite Hill Rate Limits
@@ -233,7 +235,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.4
+  composite: 27.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 48.0
@@ -247,7 +249,7 @@ score:
     contract_governance: 18.2
     contract_quality: 9.3
     developer_ergonomics: 30.4
-    discoverability: 80.8
+    discoverability: 71.7
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -256,7 +258,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 28.4
+  previous_composite: 27.5
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -268,14 +270,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kite-hill/refs/heads/main/screenshots/kite-hill-2026-09-02T150048.png
+screenshot: https://apis.io/screenshots/kite-hill/kite-hill-2026-09-02T150048.png
 security:
 - kind: authentication
   name: Kite Hill Authentication
@@ -285,6 +287,16 @@ security:
   name: Kite Hill Domain Security
   slug: kite-hill-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Answer a Kite Hill policy, product or "where to buy" question
+  slug: kite-hill-answer-store-and-policy
+- name: Build a Kite Hill cart
+  slug: kite-hill-build-cart
+- name: Hand off a Kite Hill checkout to a human
+  slug: kite-hill-complete-checkout
+- name: Find and compare Kite Hill products
+  slug: kite-hill-find-product
 slug: kite-hill
 tags:
 - Company

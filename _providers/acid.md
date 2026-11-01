@@ -4,6 +4,6 @@ layout: provider
 name: acid
 nav: Providers
 network: true
-random_paper: 5
+random_paper: 17
 slug: acid
 ---

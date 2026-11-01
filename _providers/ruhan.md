@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RuhAN exposes two HTTP endpoints under https://www.ruhan.co/api and publishes no contract for either. GET /api/health returns 200 application/json and is named in the provider's own llms.txt; on 2026-
@@ -65,42 +67,42 @@ common:
   type: PrivacyPolicy
   url: https://www.ruhan.co/legal/gizlilik
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ruhan/refs/heads/main/security/ruhan-domain-security.yml
+  href: https://artifacts.apis.io/ruhan/security/ruhan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ruhan-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ruhan/refs/heads/main/authentication/ruhan-authentication.yml
+  href: https://artifacts.apis.io/ruhan/authentication/ruhan-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ruhan-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ruhan/refs/heads/main/conventions/ruhan-conventions.yml
+  href: https://artifacts.apis.io/ruhan/conventions/ruhan-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ruhan-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ruhan/refs/heads/main/lifecycle/ruhan-lifecycle.yml
+  href: https://artifacts.apis.io/ruhan/lifecycle/ruhan-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ruhan-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ruhan/refs/heads/main/rate-limits/ruhan-rate-limits.yml
+  href: https://artifacts.apis.io/ruhan/rate-limits/ruhan-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ruhan-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ruhan/refs/heads/main/plans/ruhan-plans-pricing.yml
+  href: https://artifacts.apis.io/ruhan/plans/ruhan-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ruhan-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ruhan/refs/heads/main/conformance/ruhan-conformance.yml
+  href: https://artifacts.apis.io/ruhan/conformance/ruhan-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ruhan-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ruhan/refs/heads/main/packages/ruhan-packages.yml
+  href: https://artifacts.apis.io/ruhan/packages/ruhan-packages.yml
   title: ''
   type: Packages
   url: packages/ruhan-packages.yml
@@ -135,7 +137,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
@@ -151,7 +153,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 28.5
+  previous_composite: 28.6
   provenance:
     conformance: first-party
   regulatory:
@@ -160,14 +162,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ruhan/refs/heads/main/screenshots/ruhan-2026-09-02T154200.png
+screenshot: https://apis.io/screenshots/ruhan/ruhan-2026-09-02T154200.png
 security:
 - kind: authentication
   name: Ruhan Authentication

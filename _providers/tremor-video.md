@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - baseURL: https://services.amobee.com/campaign/v5/api
@@ -63,10 +65,10 @@ apis:
   description: Read-only geographic reference service for Nexxen DSP geo targeting — continents, countries, regions, cities, DMAs, named places and street addresses, each listable and retrievable by id, with regions
   name: Nexxen DSP Location API
   slug: nexxen-dsp-location-api
-artifact_total: 10
+artifact_total: 13
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/security/tremor-video-domain-security.yml
+  href: https://artifacts.apis.io/tremor-video/security/tremor-video-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tremor-video-domain-security.yml
@@ -95,77 +97,77 @@ common:
   type: Login
   url: https://login.amobee.com/portal/amobee/dsp/login
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/authentication/tremor-video-authentication.yml
+  href: https://artifacts.apis.io/tremor-video/authentication/tremor-video-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tremor-video-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/conventions/tremor-video-conventions.yml
+  href: https://artifacts.apis.io/tremor-video/conventions/tremor-video-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tremor-video-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/data-model/tremor-video-data-model.yml
+  href: https://artifacts.apis.io/tremor-video/data-model/tremor-video-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tremor-video-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/conformance/tremor-video-conformance.yml
+  href: https://artifacts.apis.io/tremor-video/conformance/tremor-video-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tremor-video-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/mcp/tremor-video-mcp.yml
+  href: https://artifacts.apis.io/tremor-video/mcp/tremor-video-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tremor-video-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/packages/tremor-video-packages.yml
+  href: https://artifacts.apis.io/tremor-video/packages/tremor-video-packages.yml
   title: ''
   type: Packages
   url: packages/tremor-video-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/llms/tremor-video-llms.txt
+  href: https://artifacts.apis.io/tremor-video/llms/tremor-video-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tremor-video-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/lifecycle/tremor-video-lifecycle.yml
+  href: https://artifacts.apis.io/tremor-video/lifecycle/tremor-video-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tremor-video-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/collections/tremor-video.postman_collection.json
+  href: https://artifacts.apis.io/tremor-video/collections/tremor-video.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/tremor-video.postman_collection.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/examples/tremor-video-examples.yml
+  href: https://artifacts.apis.io/tremor-video/examples/tremor-video-examples.yml
   title: ''
   type: Examples
   url: examples/tremor-video-examples.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/errors/tremor-video-problem-types.yml
+  href: https://artifacts.apis.io/tremor-video/errors/tremor-video-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tremor-video-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/rate-limits/tremor-video-rate-limits.yml
+  href: https://artifacts.apis.io/tremor-video/rate-limits/tremor-video-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tremor-video-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/plans/tremor-video-plans-pricing.yml
+  href: https://artifacts.apis.io/tremor-video/plans/tremor-video-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tremor-video-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tremor-video/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/llms/tremor-video-nexxen-llms.txt
+  href: https://artifacts.apis.io/tremor-video/llms/tremor-video-nexxen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tremor-video-nexxen-llms.txt
@@ -186,12 +188,12 @@ common:
   type: Support
   url: https://nexxen.com/contact-us/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/well-known/tremor-video-well-known.yml
+  href: https://artifacts.apis.io/tremor-video/well-known/tremor-video-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tremor-video-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/scopes/tremor-video-scopes.yml
+  href: https://artifacts.apis.io/tremor-video/scopes/tremor-video-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tremor-video-scopes.yml
@@ -211,7 +213,7 @@ plans:
 - name: Tremor Video Plans Pricing
   plan_count: 0
   slug: tremor-video-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Tremor Video Rate Limits
@@ -223,7 +225,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 30.0
+  composite: 34.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 52.0
@@ -233,13 +235,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 6.5
-    developer_ergonomics: 37.5
-    discoverability: 78.6
+    developer_ergonomics: 54.2
+    discoverability: 71.4
     operational_transparency: 31.6
-  previous_composite: 30.0
+  previous_composite: 34.0
   provenance:
     conformance: derived
     mcp: derived
@@ -250,14 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/screenshots/tremor-video-2026-09-02T164210.png
+screenshot: https://apis.io/screenshots/tremor-video/tremor-video-2026-09-02T164210.png
 security:
 - kind: authentication
   name: Tremor Video Authentication
@@ -267,6 +269,14 @@ security:
   name: Tremor Video Domain Security
   slug: tremor-video-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Authenticate against the Nexxen DSP API and read a resource list
+  slug: tremor-video-authenticate-and-read
+- name: Build a Nexxen DSP campaign end to end
+  slug: tremor-video-build-a-campaign
+- name: Run a Nexxen DSP performance report
+  slug: tremor-video-run-a-report
 slug: tremor-video
 tags:
 - Company

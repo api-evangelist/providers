@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-17'
+  score: 20.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,9 +90,6 @@ collections:
   name: Fixer Conversion Time Series API
   slug: postman-fixer-time-series-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Fixer Conversion API
   slug: open-fixer-conversion-api
 - collection_type: open
@@ -109,6 +108,11 @@ collections:
   name: Fixer API
   slug: open-fixer
 common:
+- group: other
+  href: https://artifacts.apis.io/fixer/capabilities/fixer-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fixer-capability-edges.yml
 - group: commercial
   title: ''
   type: License
@@ -118,17 +122,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/fixer/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/agentic-access/fixer-agentic-access.yml
+  href: https://artifacts.apis.io/fixer/agentic-access/fixer-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fixer-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/security/fixer-domain-security.yml
+  href: https://artifacts.apis.io/fixer/security/fixer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fixer-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/authentication/fixer-authentication.yml
+  href: https://artifacts.apis.io/fixer/authentication/fixer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fixer-authentication.yml
@@ -185,27 +189,27 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/rules/fixer-rules.yml
+  href: https://artifacts.apis.io/fixer/rules/fixer-rules.yml
   title: ''
   type: SpectralRules
   url: rules/fixer-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/vocabulary/fixer-vocabulary.yml
+  href: https://artifacts.apis.io/fixer/vocabulary/fixer-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/fixer-vocabulary.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/plans/fixer-plans-pricing.yml
+  href: https://artifacts.apis.io/fixer/plans/fixer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fixer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/rate-limits/fixer-rate-limits.yml
+  href: https://artifacts.apis.io/fixer/rate-limits/fixer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fixer-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/finops/fixer-finops.yml
+  href: https://artifacts.apis.io/fixer/finops/fixer-finops.yml
   title: ''
   type: FinOps
   url: finops/fixer-finops.yml
@@ -250,13 +254,13 @@ features:
 - description: One APILayer `apikey` works across Fixer and other APILayer marketplace APIs.
   name: APILayer Unified Auth
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Fixer Finops
-  primary_unit: ''
+  primary_unit: api calls
   service_category: ''
   slug: fixer-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fixer.png
 integrations:
 - description: Fixer is distributed via the APILayer hub; signup, billing, and key management share the marketplace.
@@ -322,11 +326,14 @@ overview: 'Fixer publishes 5 API contracts indexed on the [APIs.io](https://apis
   The Fixer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Fixer''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 16 more developer resources.'
+  Fixer''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
 plans:
 - name: Fixer Plans Pricing
   plan_count: 5
   slug: fixer-plans-pricing
+- name: Fixer Price Estimates
+  plan_count: 0
+  slug: fixer-price-estimates
 random_paper: 14
 rate_limits:
 - limit_count: 0
@@ -357,24 +364,24 @@ rules:
     warn: 8
   slug: fixer-rules
 score:
-  band: developing
-  composite: 47.9
+  band: strong
+  composite: 56.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 69.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    artifact_dirs: 20
+    catalog_earned: 81.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 1.6
   facets:
-    access_clarity: 46.1
+    access_clarity: 84.2
     contract_governance: 27.3
     contract_quality: 67.1
-    developer_ergonomics: 47.6
+    developer_ergonomics: 48.8
     discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 53.5
+    operational_transparency: 5.3
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     contracts:
@@ -388,14 +395,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/screenshots/fixer-2026-06-20T181258.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fixer/fixer-2026-06-20T181258.png
 security:
 - kind: authentication
   name: Fixer Authentication

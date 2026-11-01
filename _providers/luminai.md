@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/luminai/refs/heads/main/security/luminai-trust-center.yml
+  href: https://artifacts.apis.io/luminai/security/luminai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/luminai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/luminai/refs/heads/main/security/luminai-domain-security.yml
+  href: https://artifacts.apis.io/luminai/security/luminai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/luminai-domain-security.yml
@@ -74,7 +76,7 @@ overview: 'Luminai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Luminai''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 3
+random_paper: 7
 score:
   band: minimal
   composite: 10.4
@@ -100,14 +102,14 @@ score:
     regime: Health
     regime_id: health
     score: 11.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/luminai/refs/heads/main/screenshots/luminai-2026-07-25T225712.png
+screenshot: https://apis.io/screenshots/luminai/luminai-2026-07-25T225712.png
 security:
 - kind: domain-security
   name: Luminai Domain Security

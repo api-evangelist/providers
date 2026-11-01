@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 37.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -80,15 +82,12 @@ apis:
   description: The Transactions API from Ansa — 3 operation(s) for transactions.
   name: Ansa Transactions API
   slug: ansa-transactions-api
-artifact_total: 20
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Ansa Webhooks
   slug: ansa-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ansa Add Incentive API
   slug: open-ansa-add-incentive-api
@@ -112,7 +111,7 @@ collections:
   slug: open-ansa-transactions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/capabilities/ansa-capability-edges.yml
+  href: https://artifacts.apis.io/ansa/capabilities/ansa-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ansa-capability-edges.yml
@@ -161,102 +160,102 @@ common:
   type: StatusPage
   url: https://status.getansa.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/authentication/ansa-authentication.yml
+  href: https://artifacts.apis.io/ansa/authentication/ansa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ansa-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/conventions/ansa-conventions.yml
+  href: https://artifacts.apis.io/ansa/conventions/ansa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ansa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/conventions/ansa-conventions.yml
+  href: https://artifacts.apis.io/ansa/conventions/ansa-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ansa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/errors/ansa-problem-types.yml
+  href: https://artifacts.apis.io/ansa/errors/ansa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ansa-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/errors/ansa-decline-codes.yml
+  href: https://artifacts.apis.io/ansa/errors/ansa-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/ansa-decline-codes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/sandbox/ansa-sandbox.yml
+  href: https://artifacts.apis.io/ansa/sandbox/ansa-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ansa-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/lifecycle/ansa-lifecycle.yml
+  href: https://artifacts.apis.io/ansa/lifecycle/ansa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ansa-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/packages/ansa-packages.yml
+  href: https://artifacts.apis.io/ansa/packages/ansa-packages.yml
   title: ''
   type: Packages
   url: packages/ansa-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/packages/ansa-packages.yml
+  href: https://artifacts.apis.io/ansa/packages/ansa-packages.yml
   title: ''
   type: SDKs
   url: packages/ansa-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/mcp/ansa-mcp.yml
+  href: https://artifacts.apis.io/ansa/mcp/ansa-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ansa-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/llms/ansa-llms.txt
+  href: https://artifacts.apis.io/ansa/llms/ansa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ansa-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/overlays/ansa-openapi-overlay.yaml
+  href: https://artifacts.apis.io/ansa/overlays/ansa-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ansa-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/conformance/ansa-conformance.yml
+  href: https://artifacts.apis.io/ansa/conformance/ansa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ansa-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/security/ansa-trust-center.yml
+  href: https://artifacts.apis.io/ansa/security/ansa-trust-center.yml
   title: ''
   type: Compliance
   url: security/ansa-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/asyncapi/ansa-webhooks.yml
+  href: https://artifacts.apis.io/ansa/asyncapi/ansa-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ansa-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ansa/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/data-model/ansa-data-model.yml
+  href: https://artifacts.apis.io/ansa/data-model/ansa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ansa-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/agentic-access/ansa-agentic-access.yml
+  href: https://artifacts.apis.io/ansa/agentic-access/ansa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ansa-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/security/ansa-trust-center.yml
+  href: https://artifacts.apis.io/ansa/security/ansa-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ansa-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/security/ansa-domain-security.yml
+  href: https://artifacts.apis.io/ansa/security/ansa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ansa-domain-security.yml
@@ -279,12 +278,12 @@ overview: 'Ansa publishes 7 API contracts indexed on the [APIs.io](https://apis.
 
 
   Ansa''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 26 more developer resources.'
-random_paper: 1
+random_paper: 11
 score:
   band: developing
-  composite: 47.7
+  composite: 52.7
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -292,13 +291,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 55.4
-    developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 47.7
+    contract_quality: 53.4
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -315,13 +314,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/screenshots/ansa-2026-07-25T200309.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ansa/ansa-2026-07-25T200309.png
 security:
 - kind: authentication
   name: Ansa Authentication
@@ -335,6 +335,16 @@ security:
   name: Ansa Trust Center
   slug: ansa-trust-center
   summary_line: SOC 2
+skill_count: 4
+skills:
+- name: Accept a wallet payment
+  slug: ansa-accept-payment
+- name: Onboard a customer and fund their wallet
+  slug: ansa-onboard-and-fund-wallet
+- name: Refund a transaction
+  slug: ansa-refund-transaction
+- name: Run an incentive campaign
+  slug: ansa-run-incentive-campaign
 slug: ansa
 tags:
 - Company

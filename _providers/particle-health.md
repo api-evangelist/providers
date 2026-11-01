@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.7
-  scored_at: '2026-10-17'
+  score: 31.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -148,7 +150,7 @@ arazzos:
 - description: Authenticate, register a patient demographic, run a national query across the health information networks, poll until the query completes, then collect the aggregated clinical record.
   name: Particle Health National Patient Record Retrieval
   slug: particle-health-patient-record-retrieval-workflow
-artifact_total: 72
+artifact_total: 76
 asyncapis:
 - description: ''
   name: Particle Health Webhooks
@@ -206,9 +208,6 @@ collections:
   name: Particle Health Authentication Subscriptions API
   slug: postman-particle-health-subscriptions-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Particle Health Authentication API
   slug: open-particle-health-authentication-api
 - collection_type: open
@@ -264,7 +263,7 @@ collections:
   slug: open-particle-health
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/capabilities/particle-health-capability-edges.yml
+  href: https://artifacts.apis.io/particle-health/capabilities/particle-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/particle-health-capability-edges.yml
@@ -273,27 +272,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/particle-health/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/agentic-access/particle-health-agentic-access.yml
+  href: https://artifacts.apis.io/particle-health/agentic-access/particle-health-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/particle-health-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/security/particle-health-trust-center.yml
+  href: https://artifacts.apis.io/particle-health/security/particle-health-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/particle-health-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/security/particle-health-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/particle-health/security/particle-health-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/particle-health-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/security/particle-health-domain-security.yml
+  href: https://artifacts.apis.io/particle-health/security/particle-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/particle-health-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/authentication/particle-health-authentication.yml
+  href: https://artifacts.apis.io/particle-health/authentication/particle-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/particle-health-authentication.yml
@@ -382,37 +381,37 @@ common:
   type: LLMs
   url: https://docs.particlehealth.com/llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/json-ld/particle-health-context.jsonld
+  href: https://artifacts.apis.io/particle-health/json-ld/particle-health-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/particle-health-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/json-schema/particle-health-patient-schema.json
+  href: https://artifacts.apis.io/particle-health/json-schema/particle-health-patient-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/particle-health-patient-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/json-schema/particle-health-query-schema.json
+  href: https://artifacts.apis.io/particle-health/json-schema/particle-health-query-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/particle-health-query-schema.json
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/plans/particle-health-plans-pricing.yml
+  href: https://artifacts.apis.io/particle-health/plans/particle-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/particle-health-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/rate-limits/particle-health-rate-limits.yml
+  href: https://artifacts.apis.io/particle-health/rate-limits/particle-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/particle-health-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/finops/particle-health-finops.yml
+  href: https://artifacts.apis.io/particle-health/finops/particle-health-finops.yml
   title: ''
   type: FinOps
   url: finops/particle-health-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/vocabulary/particle-health-vocabulary.yml
+  href: https://artifacts.apis.io/particle-health/vocabulary/particle-health-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/particle-health-vocabulary.yml
@@ -421,77 +420,77 @@ common:
   type: ArazzoWorkflows
   url: ''
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/packages/particle-health-packages.yml
+  href: https://artifacts.apis.io/particle-health/packages/particle-health-packages.yml
   title: ''
   type: Packages
   url: packages/particle-health-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/packages/particle-health-packages.yml
+  href: https://artifacts.apis.io/particle-health/packages/particle-health-packages.yml
   title: ''
   type: SDKs
   url: packages/particle-health-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/mcp/particle-health-mcp.yml
+  href: https://artifacts.apis.io/particle-health/mcp/particle-health-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/particle-health-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/asyncapi/particle-health-webhooks.yml
+  href: https://artifacts.apis.io/particle-health/asyncapi/particle-health-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/particle-health-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/particle-health/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/conformance/particle-health-conformance.yml
+  href: https://artifacts.apis.io/particle-health/conformance/particle-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/particle-health-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/security/particle-health-trust-center.yml
+  href: https://artifacts.apis.io/particle-health/security/particle-health-trust-center.yml
   title: ''
   type: Compliance
   url: security/particle-health-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/errors/particle-health-problem-types.yml
+  href: https://artifacts.apis.io/particle-health/errors/particle-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/particle-health-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/lifecycle/particle-health-lifecycle.yml
+  href: https://artifacts.apis.io/particle-health/lifecycle/particle-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/particle-health-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/lifecycle/particle-health-lifecycle.yml
+  href: https://artifacts.apis.io/particle-health/lifecycle/particle-health-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/particle-health-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/security/particle-health-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/particle-health/security/particle-health-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/particle-health-vulnerability-disclosure.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/sandbox/particle-health-sandbox.yml
+  href: https://artifacts.apis.io/particle-health/sandbox/particle-health-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/particle-health-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/conventions/particle-health-conventions.yml
+  href: https://artifacts.apis.io/particle-health/conventions/particle-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/particle-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/data-model/particle-health-data-model.yml
+  href: https://artifacts.apis.io/particle-health/data-model/particle-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/particle-health-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/llms/particle-health-llms.txt
+  href: https://artifacts.apis.io/particle-health/llms/particle-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/particle-health-llms.txt
@@ -513,7 +512,7 @@ finops:
 - has_sources: false
   method: generated
   name: Particle Health Finops
-  primary_unit: ''
+  primary_unit: query
   service_category: API
   slug: particle-health-finops
   template: true
@@ -550,7 +549,7 @@ plans:
 - name: Particle Health Plans Pricing
   plan_count: 3
   slug: particle-health-plans-pricing
-random_paper: 9
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Particle Health Rate Limits
@@ -569,7 +568,7 @@ rules:
   slug: particle-health-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 58.5
+  composite: 65.0
   coverage:
     artifact_dirs: 33
     catalog_earned: 64.8
@@ -577,15 +576,15 @@ score:
     catalog_gap: 50.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 23.5
-    contract_quality: 58.9
-    developer_ergonomics: 56.4
-    discoverability: 76.7
-    operational_transparency: 80.3
-  previous_composite: 60.0
+    contract_quality: 57.6
+    developer_ergonomics: 82.6
+    discoverability: 66.7
+    operational_transparency: 94.7
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -602,13 +601,14 @@ score:
     regime: Health
     regime_id: health
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/screenshots/particle-health-2026-06-20T191425.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/particle-health/particle-health-2026-06-20T191425.png
 security:
 - kind: authentication
   name: Particle Health Authentication
@@ -626,6 +626,18 @@ security:
   name: Particle Health Trust Center
   slug: particle-health-trust-center
   summary_line: SOC 2, HIPAA
+skill_count: 5
+skills:
+- name: particle-health-adt-event-subscription
+  slug: particle-health-adt-event-subscription
+- name: particle-health-clinical-document-exchange
+  slug: particle-health-clinical-document-exchange
+- name: particle-health-fhir-r4-resource-query
+  slug: particle-health-fhir-r4-resource-query
+- name: particle-health-national-patient-record-retrieval
+  slug: particle-health-national-patient-record-retrieval
+- name: particle-health-network-provider-discovery
+  slug: particle-health-network-provider-discovery
 slug: particle-health
 tags:
 - ADT

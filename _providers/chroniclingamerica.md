@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,11 +75,8 @@ apis:
   description: Endpoints for retrieving newspaper title bibliographic metadata.
   name: Chronicling America Titles API
   slug: chroniclingamerica-titles-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Chronicling America Batches API
   slug: open-chroniclingamerica-batches-api
@@ -98,17 +97,17 @@ collections:
   slug: open-chroniclingamerica-titles-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/agentic-access/chroniclingamerica-agentic-access.yml
+  href: https://artifacts.apis.io/chroniclingamerica/agentic-access/chroniclingamerica-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/chroniclingamerica-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/security/chroniclingamerica-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/chroniclingamerica/security/chroniclingamerica-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/chroniclingamerica-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/security/chroniclingamerica-domain-security.yml
+  href: https://artifacts.apis.io/chroniclingamerica/security/chroniclingamerica-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chroniclingamerica-domain-security.yml
@@ -145,17 +144,17 @@ common:
   type: PrivacyPolicy
   url: https://www.loc.gov/legal/privacy-policy/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/plans/chroniclingamerica-plans-pricing.yml
+  href: https://artifacts.apis.io/chroniclingamerica/plans/chroniclingamerica-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chroniclingamerica-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/rate-limits/chroniclingamerica-rate-limits.yml
+  href: https://artifacts.apis.io/chroniclingamerica/rate-limits/chroniclingamerica-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chroniclingamerica-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/finops/chroniclingamerica-finops.yml
+  href: https://artifacts.apis.io/chroniclingamerica/finops/chroniclingamerica-finops.yml
   title: ''
   type: FinOps
   url: finops/chroniclingamerica-finops.yml
@@ -195,14 +194,14 @@ plans:
 - name: Chroniclingamerica Plans Pricing
   plan_count: 1
   slug: chroniclingamerica-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Chroniclingamerica Rate Limits
   slug: chroniclingamerica-rate-limits
 score:
   band: thin
-  composite: 29.1
+  composite: 30.4
   coverage:
     artifact_dirs: 10
     catalog_earned: 42.0
@@ -210,15 +209,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 51.2
     developer_ergonomics: 9.5
     discoverability: 57.1
-    operational_transparency: 13.2
-  previous_composite: 36.1
+    operational_transparency: 23.7
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     contracts:
@@ -232,14 +231,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/screenshots/chroniclingamerica-2026-07-25T205316.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/chroniclingamerica/chroniclingamerica-2026-07-25T205316.png
 security:
 - kind: domain-security
   name: Chroniclingamerica Domain Security

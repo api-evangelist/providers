@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 58.8
-  scored_at: '2026-10-17'
+  score: 54.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -68,15 +70,12 @@ arazzos:
 - description: List unresolved issues, fetch the top one, and mark it resolved.
   name: Lucent — triage and resolve an issue
   slug: lucent-triage-and-resolve
-artifact_total: 17
+artifact_total: 21
 asyncapis:
 - description: Lucent pushes signed HTTP callbacks to a receiver URL you register (Organization → Webhooks) when events happen in your organization. Deliveries are signed with HMAC-SHA256 (Lucent-Signature) and carr
   name: Lucent Webhooks
   slug: lucent-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Lucent Insights API
   slug: open-lucent-insights-api
@@ -91,127 +90,127 @@ collections:
   slug: open-lucent-signals-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/plans/lucent-plans-pricing.yml
+  href: https://artifacts.apis.io/lucent/plans/lucent-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lucent-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/capabilities/lucent-capability-edges.yml
+  href: https://artifacts.apis.io/lucent/capabilities/lucent-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lucent-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/agentic-access/lucent-agentic-access.yml
+  href: https://artifacts.apis.io/lucent/agentic-access/lucent-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lucent-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/security/lucent-domain-security.yml
+  href: https://artifacts.apis.io/lucent/security/lucent-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lucent-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/authentication/lucent-authentication.yml
+  href: https://artifacts.apis.io/lucent/authentication/lucent-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lucent-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/scopes/lucent-scopes.yml
+  href: https://artifacts.apis.io/lucent/scopes/lucent-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lucent-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/mcp/lucent-mcp.yml
+  href: https://artifacts.apis.io/lucent/mcp/lucent-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lucent-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/packages/lucent-packages.yml
+  href: https://artifacts.apis.io/lucent/packages/lucent-packages.yml
   title: ''
   type: Packages
   url: packages/lucent-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/packages/lucent-packages.yml
+  href: https://artifacts.apis.io/lucent/packages/lucent-packages.yml
   title: ''
   type: SDKs
   url: packages/lucent-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/cli/lucent-cli.yml
+  href: https://artifacts.apis.io/lucent/cli/lucent-cli.yml
   title: ''
   type: CLI
   url: cli/lucent-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/well-known/lucent-well-known.yml
+  href: https://artifacts.apis.io/lucent/well-known/lucent-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lucent-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/llms/lucent-llms.txt
+  href: https://artifacts.apis.io/lucent/llms/lucent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lucent-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/conventions/lucent-conventions.yml
+  href: https://artifacts.apis.io/lucent/conventions/lucent-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lucent-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/conventions/lucent-conventions.yml
+  href: https://artifacts.apis.io/lucent/conventions/lucent-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/lucent-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/errors/lucent-problem-types.yml
+  href: https://artifacts.apis.io/lucent/errors/lucent-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lucent-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/lifecycle/lucent-lifecycle.yml
+  href: https://artifacts.apis.io/lucent/lifecycle/lucent-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lucent-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/conformance/lucent-conformance.yml
+  href: https://artifacts.apis.io/lucent/conformance/lucent-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lucent-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/data-model/lucent-data-model.yml
+  href: https://artifacts.apis.io/lucent/data-model/lucent-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lucent-data-model.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/asyncapi/lucent-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/lucent/asyncapi/lucent-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/lucent-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/asyncapi/lucent-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/lucent/asyncapi/lucent-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/lucent-webhooks-asyncapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/overlays/lucent-openapi-overlay.yaml
+  href: https://artifacts.apis.io/lucent/overlays/lucent-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lucent-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/arazzo/lucent-triage-and-resolve.yml
+  href: https://artifacts.apis.io/lucent/arazzo/lucent-triage-and-resolve.yml
   title: ''
   type: Arazzo
   url: arazzo/lucent-triage-and-resolve.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/skills/lucent-triage-issues.md
+  href: https://artifacts.apis.io/lucent/skills/lucent-triage-issues.md
   title: ''
   type: AgentSkill
   url: skills/lucent-triage-issues.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/skills/lucent-monitor-signals-insights.md
+  href: https://artifacts.apis.io/lucent/skills/lucent-monitor-signals-insights.md
   title: ''
   type: AgentSkill
   url: skills/lucent-monitor-signals-insights.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/skills/lucent-ingest-replay.md
+  href: https://artifacts.apis.io/lucent/skills/lucent-ingest-replay.md
   title: ''
   type: AgentSkill
   url: skills/lucent-ingest-replay.md
@@ -269,6 +268,14 @@ common:
   url: https://github.com/lucent-ai
 created: '2026-07-17'
 description: 'Lucent is an AI product manager for session replay: it watches user session recordings continuously and automatically detects bugs and UX issues, surfacing them as prioritized, AI-verified issues with reproduction steps, console logs, network activity, and affected-user counts. It ingests rrweb session batches from a lightweight browser SDK (plus React Native and Flutter), imports replays from providers such as PostHog and Sentry, and exposes a REST Data API to read issues, signals, and insights and to update issue status, webhooks for issue events, and a hosted Model Context Protocol (MCP) server so agents like Claude and Cursor can query Lucent data directly. Founded 2025, Y Combinator Winter 2026 batch.'
+finops:
+- has_sources: true
+  method: derived
+  name: Lucent Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: lucent-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lucent.png
 layout: provider
 mcp_servers:
@@ -290,7 +297,10 @@ plans:
 - name: Lucent Plans Pricing
   plan_count: 3
   slug: lucent-plans-pricing
-random_paper: 13
+- name: Lucent Price Estimates
+  plan_count: 0
+  slug: lucent-price-estimates
+random_paper: 3
 scopes:
 - name: Lucent Scopes
   scope_count: 2
@@ -298,23 +308,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 57.1
+  composite: 58.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 57.4
     developer_ergonomics: 73.2
-    discoverability: 75.0
-    operational_transparency: 10.5
-  previous_composite: 50.7
+    discoverability: 65.0
+    operational_transparency: 13.2
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -331,13 +341,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/screenshots/lucent-2026-07-25T225640.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lucent/lucent-2026-07-25T225640.png
 security:
 - kind: authentication
   name: Lucent Authentication
@@ -347,6 +358,14 @@ security:
   name: Lucent Domain Security
   slug: lucent-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Ingest a Lucent session replay
+  slug: lucent-ingest-replay
+- name: Monitor Lucent signals and insights
+  slug: lucent-monitor-signals-insights
+- name: Triage Lucent issues
+  slug: lucent-triage-issues
 slug: lucent
 tags:
 - Company

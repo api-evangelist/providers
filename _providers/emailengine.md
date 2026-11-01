@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.3
-  scored_at: '2026-10-17'
+  score: 21.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -108,11 +110,8 @@ apis:
   description: The Oauth2 API from EmailEngine — 1 operation(s) for oauth2.
   name: EmailEngine Oauth2 API
   slug: emailengine-oauth2-api
-artifact_total: 33
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: EmailEngine Account API
   slug: open-emailengine-account-api
@@ -157,17 +156,17 @@ collections:
   slug: open-emailengine
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/plans/emailengine-plans-pricing.yml
+  href: https://artifacts.apis.io/emailengine/plans/emailengine-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/emailengine-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/rate-limits/emailengine-rate-limits.yml
+  href: https://artifacts.apis.io/emailengine/rate-limits/emailengine-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/emailengine-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/finops/emailengine-finops.yml
+  href: https://artifacts.apis.io/emailengine/finops/emailengine-finops.yml
   title: ''
   type: FinOps
   url: finops/emailengine-finops.yml
@@ -192,12 +191,12 @@ common:
   type: ContributionGuide
   url: https://github.com/postalsys/emailengine/blob/master/.github/contributing.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/agentic-access/emailengine-agentic-access.yml
+  href: https://artifacts.apis.io/emailengine/agentic-access/emailengine-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/emailengine-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/security/emailengine-domain-security.yml
+  href: https://artifacts.apis.io/emailengine/security/emailengine-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/emailengine-domain-security.yml
@@ -247,7 +246,7 @@ finops:
 - has_sources: false
   method: generated
   name: Emailengine Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: emailengine-finops
   template: true
@@ -265,14 +264,14 @@ plans:
 - name: Emailengine Plans Pricing
   plan_count: 3
   slug: emailengine-plans-pricing
-random_paper: 6
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Emailengine Rate Limits
   slug: emailengine-rate-limits
 score:
   band: emerging
-  composite: 25.0
+  composite: 25.8
   coverage:
     artifact_dirs: 10
     catalog_earned: 46.0
@@ -280,7 +279,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
@@ -288,7 +287,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 71.4
     operational_transparency: 47.4
-  previous_composite: 26.6
+  previous_composite: 25.8
   provenance:
     agentic_access: derived
     contracts:
@@ -302,13 +301,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/screenshots/emailengine-2026-06-20T180623.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/emailengine/emailengine-2026-06-20T180623.png
 security:
 - kind: domain-security
   name: Emailengine Domain Security

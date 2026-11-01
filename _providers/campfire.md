@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.5
-  scored_at: '2026-10-17'
+  score: 48.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 236
   human_in_the_loop: 2
@@ -104,15 +106,12 @@ apis:
   description: Operations related to system and accounting settings configuration.
   name: Campfire Settings API
   slug: campfire-settings-api
-artifact_total: 31
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Campfire Webhooks
   slug: campfire-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Campfire Developer APIs Accounts Payable API
   slug: open-campfire-accounts-payable-api
@@ -155,7 +154,7 @@ common:
   type: BlogRSS
   url: https://campfire.ai/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/capabilities/campfire-capability-edges.yml
+  href: https://artifacts.apis.io/campfire/capabilities/campfire-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/campfire-capability-edges.yml
@@ -164,42 +163,42 @@ common:
   type: Website
   url: https://www.campfire.ai/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/overlays/campfire-openapi-overlay.yaml
+  href: https://artifacts.apis.io/campfire/overlays/campfire-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/campfire-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/security/campfire-domain-security.yml
+  href: https://artifacts.apis.io/campfire/security/campfire-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/campfire-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/agentic-access/campfire-agentic-access.yml
+  href: https://artifacts.apis.io/campfire/agentic-access/campfire-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/campfire-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/authentication/campfire-authentication.yml
+  href: https://artifacts.apis.io/campfire/authentication/campfire-authentication.yml
   title: ''
   type: Authentication
   url: authentication/campfire-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/scopes/campfire-scopes.yml
+  href: https://artifacts.apis.io/campfire/scopes/campfire-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/campfire-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/mcp/campfire-mcp.yml
+  href: https://artifacts.apis.io/campfire/mcp/campfire-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/campfire-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/well-known/campfire-well-known.yml
+  href: https://artifacts.apis.io/campfire/well-known/campfire-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/campfire-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/conformance/campfire-conformance.yml
+  href: https://artifacts.apis.io/campfire/conformance/campfire-conformance.yml
   title: ''
   type: Conformance
   url: conformance/campfire-conformance.yml
@@ -208,47 +207,47 @@ common:
   type: Compliance
   url: https://campfire.ai/blog/announcing-soc-2-type-2-compliance-at-campfire
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/errors/campfire-problem-types.yml
+  href: https://artifacts.apis.io/campfire/errors/campfire-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/campfire-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/lifecycle/campfire-lifecycle.yml
+  href: https://artifacts.apis.io/campfire/lifecycle/campfire-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/campfire-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/conventions/campfire-conventions.yml
+  href: https://artifacts.apis.io/campfire/conventions/campfire-conventions.yml
   title: ''
   type: Conventions
   url: conventions/campfire-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/conventions/campfire-conventions.yml
+  href: https://artifacts.apis.io/campfire/conventions/campfire-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/campfire-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/data-model/campfire-data-model.yml
+  href: https://artifacts.apis.io/campfire/data-model/campfire-data-model.yml
   title: ''
   type: DataModel
   url: data-model/campfire-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/asyncapi/campfire-webhooks.yml
+  href: https://artifacts.apis.io/campfire/asyncapi/campfire-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/campfire-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/campfire/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/llms/campfire-llms.txt
+  href: https://artifacts.apis.io/campfire/llms/campfire-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/campfire-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/changelog/campfire-changelog.yml
+  href: https://artifacts.apis.io/campfire/changelog/campfire-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/campfire-changelog.yml
@@ -315,7 +314,7 @@ overview: 'Campfire publishes 12 API contracts indexed on the [APIs.io](https://
 
 
   Campfire''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 25 more developer resources.'
-random_paper: 3
+random_paper: 23
 scopes:
 - name: Campfire Scopes
   scope_count: 3
@@ -323,23 +322,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 52.3
+  composite: 47.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 51.8
+    contract_quality: 48.5
     developer_ergonomics: 58.9
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 23.7
-  previous_composite: 52.2
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -356,13 +355,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/screenshots/campfire-2026-07-25T204311.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/campfire/campfire-2026-07-25T204311.png
 security:
 - kind: authentication
   name: Campfire Authentication
@@ -372,6 +372,18 @@ security:
   name: Campfire Domain Security
   slug: campfire-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 5
+skills:
+- name: Invoice a customer and collect payment
+  slug: campfire-invoice-and-collect
+- name: Post a journal entry
+  slug: campfire-post-journal-entry
+- name: Pull financial statements
+  slug: campfire-pull-financial-statements
+- name: Record and pay an accounts-payable bill
+  slug: campfire-record-and-pay-bill
+- name: Subscribe to webhooks
+  slug: campfire-subscribe-to-webhooks
 slug: campfire
 tags:
 - Company

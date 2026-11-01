@@ -1,34 +1,97 @@
 {
- "total": 15,
- "shown": 15,
+ "total": 16,
+ "shown": 16,
  "limit": 1000,
  "bands": [
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "39.3 – 54.2",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Xylem",
+     "slug": "xylem",
+     "description": "Xylem Inc. (NYSE: XYL) is a global water technology company that moves, treats, analyzes, monitors and returns water to the environment across the full water cycle. Its brands include Sensus smart metering and AMI networks, Xylem Vue utility operations software built with Idrica's GoAigua platform, YSI water quality instrumentation, HYPACK hydrographic survey software, and the Flygt, Godwin, WEDECO and Aanderaa product lines. Xylem operates live, first-party API hosts for Xylem Cloud, the Xylem Vue services and its product selector, but publishes no API contract, developer portal or reference for any of them; the one machine-readable document it serves anonymously is the OpenID Connect discovery metadata for the Xylem Cloud identity realm.",
+     "screenshot": "https://artifacts.apis.io/xylem/screenshots/xylem-2026-06-20T201717.png",
+     "score": 46.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 69.6,
+      "contract_quality": 36.4,
+      "contract_governance": 35.6,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 47.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 34.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false,
+      "pagination_ratio": false,
+      "operation_distinctiveness": false
+     },
+     "rank": 1
+    }
+   ],
+   "open": true
+  },
   {
    "band": "thin",
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 3,
-   "shown": 3,
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "Clean Harbors",
      "slug": "clean-harbors",
      "description": "Clean Harbors is the largest provider of environmental and industrial services in North America — hazardous and non-hazardous waste management, emergency response, industrial cleaning, remediation, and used-oil and solvent recycling through its Safety-Kleen subsidiary. It runs no developer programme: no developer portal, no API documentation, no SDK in any registry, no GitHub organisation, and no /.well-known/ document on any host. Customers use the authenticated Clean Harbors Online Services portal at clhsaas.cleanharbors.com and the EPA's RCRA e-Manifest programme, whose machine-readable surface belongs to the EPA. Two callable contracts nonetheless run on Clean Harbors hosts, both found by direct probing: an anonymous, fully introspectable GraphQL endpoint at store.safety-kleen.com fronting six brand storefronts on one Adobe Commerce instance, and an unauthenticated Job Query API at careers.cleanharbors.com that the company documents in a published llms.txt.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clean-harbors/refs/heads/main/screenshots/clean-harbors-2026-06-20T174450.png",
-     "score": 36.1,
+     "screenshot": "https://artifacts.apis.io/clean-harbors/screenshots/clean-harbors-2026-06-20T174450.png",
+     "score": 35.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 79.5,
+      "discoverability": 73.2,
       "contract_quality": 53.1,
       "contract_governance": 4.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -57,16 +120,18 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 1
+     "rank": 2
     },
     {
      "name": "Waste Management",
      "slug": "waste-management",
      "description": "Waste Management (WM) is the largest environmental services company in North America, providing waste collection, transfer, disposal, and recycling services to over 20 million residential, commercial, industrial, and municipal customers across the United States. WM provides RESTful APIs for customers and third-party integrators to access account data including balance, services, invoices, pickup schedules, and ETAs via JWT authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/screenshots/waste-management-2026-06-20T201242.png",
-     "score": 32.0,
+     "screenshot": "https://artifacts.apis.io/waste-management/screenshots/waste-management-2026-06-20T201242.png",
+     "score": 32.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -77,8 +142,8 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -86,7 +151,7 @@
       "score": 16.7,
       "matched_via": "fallback"
      },
-     "agent_score": 17.9,
+     "agent_score": 19.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -107,57 +172,9 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 2
-    },
-    {
-     "name": "Xylem",
-     "slug": "xylem",
-     "description": "Xylem Inc. (NYSE: XYL) is a global water technology company that moves, treats, analyzes, monitors and returns water to the environment across the full water cycle. Its brands include Sensus smart metering and AMI networks, Xylem Vue utility operations software built with Idrica's GoAigua platform, YSI water quality instrumentation, HYPACK hydrographic survey software, and the Flygt, Godwin, WEDECO and Aanderaa product lines. Xylem operates live, first-party API hosts for Xylem Cloud, the Xylem Vue services and its product selector, but publishes no API contract, developer portal or reference for any of them; the one machine-readable document it serves anonymously is the OpenID Connect discovery metadata for the Xylem Cloud identity realm.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/screenshots/xylem-2026-06-20T201717.png",
-     "score": 27.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 48.2,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 19.0,
-      "access_clarity": 43.4
-     },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 43.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 20.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "distinct"
      },
      "rank": 3
     }
@@ -169,15 +186,15 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 5,
-   "shown": 5,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "WM",
      "slug": "wm",
      "description": "WM (formerly Waste Management, Inc.) is North America's largest integrated environmental solutions company, serving nearly 20 million municipal, commercial, industrial, and residential customers through collection, transfer, recycling, landfill, and waste-to-energy operations. WM does not run a self-serve, publicly-signup developer platform. It publishes a documented partner/customer REST API at api.wm.com covering account-level service and billing data - service details and pickup schedules, live service status and truck ETA, routing and hauling material information, pricing, invoices and aging balance, communication preferences, contacts, cases, tickets, and account activity notes. Access requires a WM-issued ClientId plus a JSON Web Token (JWT) and is granted on request to existing commercial/enterprise customers and integration partners by emailing apiaccess@wm.com; there is no open, self-serve API key signup.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/screenshots/wm-2026-09-02T170901.png",
-     "score": 25.4,
+     "screenshot": "https://artifacts.apis.io/wm/screenshots/wm-2026-09-02T170901.png",
+     "score": 26.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -188,8 +205,8 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -197,7 +214,7 @@
       "score": 11.8,
       "matched_via": "fallback"
      },
-     "agent_score": 17.9,
+     "agent_score": 19.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -218,7 +235,9 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "distinct"
      },
      "rank": 4
     },
@@ -226,7 +245,7 @@
      "name": "AECOM",
      "slug": "aecom",
      "description": "AECOM is a global infrastructure consulting firm providing professional services across planning, design, engineering, program management, and construction management for clients in transportation, water, energy, and the environment. AECOM operates in over 150 countries and is listed on the NYSE as ACM. The firm serves governments, businesses, and organizations worldwide, delivering integrated lifecycle solutions from advisory and design through construction and operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aecom/refs/heads/main/screenshots/aecom-2026-06-20T165431.png",
+     "screenshot": "https://artifacts.apis.io/aecom/screenshots/aecom-2026-06-20T165431.png",
      "score": 20.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -238,8 +257,8 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -268,7 +287,9 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
      "rank": 5
     },
@@ -276,20 +297,20 @@
      "name": "American Water Works",
      "slug": "american-water-works",
      "description": "American Water Works Company is the largest publicly traded U.S. water and wastewater utility company, providing drinking water, wastewater, and other related services to approximately 14 million people in more than 1,700 communities across 14 states. The company operates through regulated utility subsidiaries and offers customer self-service through its MyWater online portal and mobile app.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-water-works/refs/heads/main/screenshots/american-water-works-2026-06-20T171919.png",
-     "score": 15.2,
+     "screenshot": "https://artifacts.apis.io/american-water-works/screenshots/american-water-works-2026-06-20T171919.png",
+     "score": 17.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 7.9,
+      "operational_transparency": 15.8,
       "developer_ergonomics": 16.7,
-      "access_clarity": 27.6
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -318,7 +339,9 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
      "rank": 6
     },
@@ -326,7 +349,7 @@
      "name": "Waste Connections",
      "slug": "waste-connections",
      "description": "Waste Connections is the third-largest integrated provider of solid waste services in North America, serving approximately nine million residential, commercial, and industrial customers across 46 U.S. states and six Canadian provinces. The company provides non-hazardous waste collection, transfer, disposal, and recycling services, primarily in exclusive and secondary markets. Waste Connections is investing in AI-powered dynamic routing and expanding customer connectivity features through its online customer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/waste-connections/refs/heads/main/screenshots/waste-connections-2026-06-20T201242.png",
+     "screenshot": "https://artifacts.apis.io/waste-connections/screenshots/waste-connections-2026-06-20T201242.png",
      "score": 14.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -338,8 +361,8 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -368,7 +391,9 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
      "rank": 7
     },
@@ -376,7 +401,7 @@
      "name": "Stericycle",
      "slug": "stericycle",
      "description": "Stericycle is a Fortune 500 compliance company specializing in regulated medical waste disposal, sharps management, pharmaceutical waste, secure information destruction, and healthcare compliance training. In November 2024, Stericycle was acquired by Waste Management (WM) for approximately $7.2 billion. The company operates as WM Healthcare Solutions division, serving hospitals, clinics, medical offices, dental practices, veterinary facilities, and other healthcare organizations. Stericycle's MyStericycle customer portal enables online account management, scheduling, compliance training, and billing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stericycle/refs/heads/main/screenshots/stericycle-2026-06-20T194548.png",
+     "screenshot": "https://artifacts.apis.io/stericycle/screenshots/stericycle-2026-06-20T194548.png",
      "score": 14.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -388,8 +413,8 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -418,44 +443,87 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
      "rank": 8
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 10.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 7,
-   "shown": 7,
-   "providers": [
+    },
+    {
+     "name": "Republic Services",
+     "slug": "republic-services",
+     "description": "Republic Services is one of the largest providers of non-hazardous solid waste disposal, recycling, and environmental services in the United States. As a Fortune 500 company, Republic Services serves millions of customers across residential, commercial, industrial, and environmental segments. The company offers waste collection, recycling processing, composting, landfill operations, and digital customer tools for account management, service scheduling, and environmental reporting.",
+     "screenshot": "https://artifacts.apis.io/republic-services/screenshots/republic-services-2026-06-20T192914.png",
+     "score": 12.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 41.1,
+      "contract_quality": 10.7,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 18.6,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
+     },
+     "rank": 9
+    },
     {
      "name": "Amentum",
      "slug": "amentum",
      "description": "Amentum Holdings, Inc. (NYSE: AMTM) is a global advanced engineering and technology solutions company serving U.S. federal customers across defense, intelligence, energy, space, and civilian missions, with allied work in the United Kingdom and Australia. The company was created from the spin-off of AECOM's Management Services business in 2020, and on September 27, 2024 completed a Reverse Morris Trust transaction with Jacobs Solutions to merge Jacobs' Critical Mission Solutions (CMS) and Cyber & Intelligence (C&I) businesses into Amentum. Post-merger Amentum reports approximately $14.4 billion in fiscal year 2025 revenue, a $47.1 billion backlog, ~53,000 employees in 80 countries, and is headquartered in Chantilly, Virginia. The business is organized around six capability areas — Mission Modernization & Sustainment, Space Systems, Digital Transformation, Sustainability & Environment, Advanced Energy Solutions, and Data Analytics & Cyber. Most delivery occurs under contract through classified, CAC-gated, or program portals; no public developer portal, OpenAPI, or REST API has been identified.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amentum/refs/heads/main/screenshots/amentum-2026-06-20T171901.png",
-     "score": 9.0,
-     "band": "minimal",
-     "band_label": "Minimal",
+     "screenshot": "https://artifacts.apis.io/amentum/screenshots/amentum-2026-06-20T171901.png",
+     "score": 11.6,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
-      "access_clarity": 18.4
+      "access_clarity": 28.9
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 12.3,
+      "score": 15.6,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -479,15 +547,27 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 9
-    },
+     "rank": 10
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 10.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 6,
+   "shown": 6,
+   "providers": [
     {
      "name": "Rollins",
      "slug": "rollins",
      "description": "Rollins is a major US corporation and Fortune 1000 company. The Rollins API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rollins/refs/heads/main/screenshots/rollins-2026-06-20T193207.png",
+     "screenshot": "https://artifacts.apis.io/rollins/screenshots/rollins-2026-06-20T193207.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -499,8 +579,8 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -529,15 +609,17 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "HONESS (Shanghai Hongji Environmental Protection)",
      "slug": "honess",
      "description": "HONESS (泓济环保 / Shanghai Hongji Environmental Protection, honess.cn) is a Chinese environmental services provider founded in 2006, specializing in industrial wastewater treatment and the broader treatment of the \"three wastes\" (wastewater, waste gas, and hazardous waste). It offers customized environmental solutions, environmental equipment manufacturing and integration, EPC delivery for energy and chemical full-water systems, fine-chemical waste treatment, process packages for new and upgraded wastewater plants, and technology-enabled (\"smart\") digital operations and maintenance. The company holds top-grade design and contracting qualifications, has delivered 500+ design/build/operation projects for 300+ clients across China and abroad, and operates manufacturing and R&D bases in Shanghai and Anhui. It is not a developer/API company; the public surface is a WordPress corporate site with no developer portal, API documentation, SDKs, or OAuth. Surfaced as a portfolio company of Qiming Venture Partners and profiled in the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/honess/refs/heads/main/screenshots/honess-2026-07-25T221407.png",
+     "screenshot": "https://artifacts.apis.io/honess/screenshots/honess-2026-07-25T221407.png",
      "score": 7.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -549,8 +631,8 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -579,36 +661,38 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 11
+     "rank": 12
     },
     {
-     "name": "Republic Services",
-     "slug": "republic-services",
-     "description": "Republic Services is one of the largest providers of non-hazardous solid waste disposal, recycling, and environmental services in the United States. As a Fortune 500 company, Republic Services serves millions of customers across residential, commercial, industrial, and environmental segments. The company offers waste collection, recycling processing, composting, landfill operations, and digital customer tools for account management, service scheduling, and environmental reporting.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/republic-services/refs/heads/main/screenshots/republic-services-2026-06-20T192914.png",
-     "score": 6.4,
+     "name": "Veolia",
+     "slug": "veolia",
+     "description": "A French multinational corporation and the global leader in environmental services including water management, waste management, and energy services. Operates in nearly 50 countries providing solutions for water treatment, waste recycling, and pollution remediation.",
+     "screenshot": "https://artifacts.apis.io/veolia/screenshots/veolia-2026-06-20T200919.png",
+     "score": 7.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.2,
-      "contract_quality": 10.7,
+      "discoverability": 51.8,
+      "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
-      "regime": "Horizontal (data, software, accessibility, platform)",
-      "regime_id": "horizontal",
-      "score": 10.8,
-      "matched_via": "fallback"
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.2,
+      "matched_via": "tags"
      },
-     "agent_score": 0.0,
+     "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -622,22 +706,24 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Enviri (formerly Harsco)",
      "slug": "harsco",
      "description": "Enviri Corporation, formerly known as Harsco Corporation, is a trusted global leader in environmental solutions, developing and refining methods of recycling and beneficial reuse for industrial customers. Enviri operates through three divisions: Clean Earth (hazardous waste management and recycling), Harsco Environmental (services to the global steel industry), and Harsco Rail (rail-track maintenance equipment and services). Enviri does not currently publish a public developer portal or open APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harsco/refs/heads/main/screenshots/harsco-2026-06-20T182524.png",
+     "screenshot": "https://artifacts.apis.io/harsco/screenshots/harsco-2026-06-20T182524.png",
      "score": 3.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -649,8 +735,8 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -679,28 +765,30 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Ecolab",
      "slug": "ecolab",
      "description": "Ecolab is a Fortune 500 global leader in water, hygiene, and infection prevention solutions and services. The company helps customers in food, healthcare, hospitality, industrial, and energy markets keep their environments clean, safe, and healthy while protecting people and vital resources.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ecolab/refs/heads/main/screenshots/ecolab-2026-06-20T180448.png",
-     "score": 3.5,
+     "screenshot": "https://artifacts.apis.io/ecolab/screenshots/ecolab-2026-06-20T180448.png",
+     "score": 3.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 49.1,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -708,7 +796,7 @@
       "score": 5.9,
       "matched_via": "fallback"
      },
-     "agent_score": 0.0,
+     "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -722,35 +810,36 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 14
+     "rank": 15
     },
     {
-     "name": "Veolia",
-     "slug": "veolia",
-     "description": "A French multinational corporation and the global leader in environmental services including water management, waste management, and energy services. Operates in nearly 50 countries providing solutions for water treatment, waste recycling, and pollution remediation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/veolia/refs/heads/main/screenshots/veolia-2026-06-20T200919.png",
-     "score": 3.2,
+     "name": "Wupperverband",
+     "slug": "wupperverband",
+     "description": "Wupperverband is a public-law corporation (Körperschaft des öffentlichen Rechts) responsible for water management, flood protection, and environmental stewardship in the Wupper river basin in Germany. It oversees water supply, wastewater treatment, dam and reservoir operations, and implements climate adaptation projects. The organization provides data and services related to water quality, flood forecasting, and infrastructure, serving municipalities, businesses, and the public with sustainable water resource management.",
+     "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 41.1,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -758,13 +847,13 @@
       "score": 5.9,
       "matched_via": "fallback"
      },
-     "agent_score": 0.0,
+     "agent_score": 3.1,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "documented",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -779,9 +868,11 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 15
+     "rank": 16
     }
    ]
   }

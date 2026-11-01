@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The InVision Design System Manager (DSM) API allowed teams to programmatically retrieve design tokens (colors, text styles, fonts, spacing) and icons from their DSM design system. API keys were scoped
@@ -43,7 +45,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/invision/refs/heads/main/security/invision-domain-security.yml
+  href: https://artifacts.apis.io/invision/security/invision-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/invision-domain-security.yml
@@ -80,17 +82,17 @@ common:
   type: X
   url: https://x.com/InVisionApp
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/invision/refs/heads/main/plans/invision-plans-pricing.yml
+  href: https://artifacts.apis.io/invision/plans/invision-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/invision-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/invision/refs/heads/main/rate-limits/invision-rate-limits.yml
+  href: https://artifacts.apis.io/invision/rate-limits/invision-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/invision-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/invision/refs/heads/main/finops/invision-finops.yml
+  href: https://artifacts.apis.io/invision/finops/invision-finops.yml
   title: ''
   type: FinOps
   url: finops/invision-finops.yml
@@ -126,7 +128,7 @@ plans:
 - name: Invision Plans Pricing
   plan_count: 3
   slug: invision-plans-pricing
-random_paper: 21
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Invision Rate Limits
@@ -157,14 +159,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/invision/refs/heads/main/screenshots/invision-2026-06-20T183609.png
+screenshot: https://apis.io/screenshots/invision/invision-2026-06-20T183609.png
 security:
 - kind: domain-security
   name: Invision Domain Security

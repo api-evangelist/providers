@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -106,12 +108,12 @@ common:
   type: Pinterest
   url: https://www.pinterest.com/serenaandlily/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/serena-lily/refs/heads/main/security/serena-lily-domain-security.yml
+  href: https://artifacts.apis.io/serena-lily/security/serena-lily-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/serena-lily-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/serena-lily/refs/heads/main/well-known/serena-lily-contract-discovery.yml
+  href: https://artifacts.apis.io/serena-lily/well-known/serena-lily-contract-discovery.yml
   title: ''
   type: ContractDiscovery
   url: well-known/serena-lily-contract-discovery.yml
@@ -149,10 +151,10 @@ overview: 'Serena & Lily is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Serena & Lily''s developer surface includes support, signup flow, and 18 more developer resources.'
-random_paper: 3
+random_paper: 21
 score:
   band: emerging
-  composite: 12.8
+  composite: 13.3
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -166,23 +168,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 49.1
-    operational_transparency: 2.6
-  previous_composite: 12.8
+    discoverability: 50.0
+    operational_transparency: 5.3
+  previous_composite: 13.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/serena-lily/refs/heads/main/screenshots/serena-lily-2026-10-11T125719.png
+screenshot: https://apis.io/screenshots/serena-lily/serena-lily-2026-10-11T125719.png
 security:
 - kind: domain-security
   name: Serena Lily Domain Security

@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,13 +38,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Landbase cloud gateway that landbase-cli calls in platform mode. It backs natural-language audience search and agent runs, dataset upload/lineage/download, record match, synchronous person/company
   name: Landbase Platform API
   slug: landbase-platform-api
-artifact_total: 29
+artifact_total: 31
 common:
 - group: company
   title: ''
@@ -101,87 +103,95 @@ common:
   type: PrivacyPolicy
   url: https://www.landbase.com/legal/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/security/landbase-trust-center.yml
+  href: https://artifacts.apis.io/landbase/security/landbase-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/landbase-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/llms/landbase-llms.txt
+  href: https://artifacts.apis.io/landbase/llms/landbase-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/landbase-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/landbase/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/cli/landbase-cli.yml
+  href: https://artifacts.apis.io/landbase/cli/landbase-cli.yml
   title: ''
   type: CLI
   url: cli/landbase-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/packages/landbase-packages.yml
+  href: https://artifacts.apis.io/landbase/packages/landbase-packages.yml
   title: ''
   type: Packages
   url: packages/landbase-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/changelog/landbase-changelog.yml
+  href: https://artifacts.apis.io/landbase/changelog/landbase-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/landbase-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/lifecycle/landbase-lifecycle.yml
+  href: https://artifacts.apis.io/landbase/lifecycle/landbase-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/landbase-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/authentication/landbase-authentication.yml
+  href: https://artifacts.apis.io/landbase/authentication/landbase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/landbase-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/conventions/landbase-conventions.yml
+  href: https://artifacts.apis.io/landbase/conventions/landbase-conventions.yml
   title: ''
   type: Conventions
   url: conventions/landbase-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/conventions/landbase-conventions.yml
+  href: https://artifacts.apis.io/landbase/conventions/landbase-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/landbase-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/errors/landbase-error-codes.yml
+  href: https://artifacts.apis.io/landbase/errors/landbase-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/landbase-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/conformance/landbase-conformance.yml
+  href: https://artifacts.apis.io/landbase/conformance/landbase-conformance.yml
   title: ''
   type: Conformance
   url: conformance/landbase-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/well-known/landbase-well-known.yml
+  href: https://artifacts.apis.io/landbase/well-known/landbase-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/landbase-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/security/landbase-domain-security.yml
+  href: https://artifacts.apis.io/landbase/security/landbase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/landbase-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/plans/landbase-plans-pricing.yml
+  href: https://artifacts.apis.io/landbase/plans/landbase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/landbase-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/rate-limits/landbase-rate-limits.yml
+  href: https://artifacts.apis.io/landbase/rate-limits/landbase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/landbase-rate-limits.yml
 created: '2026-08-23'
 description: 'Landbase is a Palo Alto, California go-to-market (GTM) data and agentic-AI company whose platform builds, qualifies, enriches and activates B2B audiences from natural-language requests. Its GTM-1/GTM-2 Omni models sit behind a B2B database of 300M+ contacts with 1,500+ enrichment fields, an agentic search surface, lookalike expansion, AI lead qualification, and email/LinkedIn outbound campaign execution. Landbase''s programmable surface is deliberately agent-first rather than REST-first: the documented client is `landbase-cli`, a self-updating binary distributed from cli.landbase.com that talks to the cloud gateway at api.landbase.com, returns JSON on stdout and stable error codes on stderr, and ships a library of provider-authored Agent Skills for Claude Code and Codex. No OpenAPI description of the gateway is published; the gateway itself sits behind a Cloudflare bot challenge on every path except /.well-known/.'
+finops:
+- has_sources: true
+  method: derived
+  name: Landbase Finops
+  primary_unit: credits
+  service_category: ''
+  slug: landbase-finops
+  template: false
 image: https://cdn.prod.website-files.com/663db35157fcd223250841ff/665df6511f919f2ee06412ee_webclip-landbase.png
 layout: provider
 modified: '2026-10-06'
@@ -194,32 +204,35 @@ overview: 'Landbase is listed with 1 API on the [APIs.io](https://apis.io/) netw
   Landbase''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
 plans:
 - name: Landbase Plans Pricing
-  plan_count: 4
+  plan_count: 5
   slug: landbase-plans-pricing
-random_paper: 12
+- name: Landbase Price Estimates
+  plan_count: 0
+  slug: landbase-price-estimates
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Landbase Rate Limits
   slug: landbase-rate-limits
 score:
   band: developing
-  composite: 45.8
+  composite: 48.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 61.0
+    artifact_dirs: 19
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 66.7
-    discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 45.8
+    developer_ergonomics: 71.4
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 46.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -230,14 +243,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/screenshots/landbase-2026-09-02T150332.png
+screenshot: https://apis.io/screenshots/landbase/landbase-2026-09-02T150332.png
 security:
 - kind: authentication
   name: Landbase Authentication

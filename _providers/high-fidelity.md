@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Client SDK and hosted spatial audio server for embedding real-time positional voice in web and native apps. Auth is a connection JWT signed with the developer''s App Secret. The hosted server has been '
@@ -58,37 +60,37 @@ common:
   type: License
   url: https://github.com/highfidelity/hifi-spatial-audio-js/blob/main/LICENSE
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/high-fidelity/refs/heads/main/packages/high-fidelity-packages.yml
+  href: https://artifacts.apis.io/high-fidelity/packages/high-fidelity-packages.yml
   title: ''
   type: Packages
   url: packages/high-fidelity-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/high-fidelity/refs/heads/main/packages/high-fidelity-packages.yml
+  href: https://artifacts.apis.io/high-fidelity/packages/high-fidelity-packages.yml
   title: ''
   type: SDKs
   url: packages/high-fidelity-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/high-fidelity/refs/heads/main/authentication/high-fidelity-authentication.yml
+  href: https://artifacts.apis.io/high-fidelity/authentication/high-fidelity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/high-fidelity-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/high-fidelity/refs/heads/main/lifecycle/high-fidelity-lifecycle.yml
+  href: https://artifacts.apis.io/high-fidelity/lifecycle/high-fidelity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/high-fidelity-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/high-fidelity/refs/heads/main/changelog/high-fidelity-changelog.yml
+  href: https://artifacts.apis.io/high-fidelity/changelog/high-fidelity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/high-fidelity-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/high-fidelity/refs/heads/main/security/high-fidelity-domain-security.yml
+  href: https://artifacts.apis.io/high-fidelity/security/high-fidelity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/high-fidelity-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/high-fidelity/refs/heads/main/llms/high-fidelity-llms.txt
+  href: https://artifacts.apis.io/high-fidelity/llms/high-fidelity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/high-fidelity-llms.txt
@@ -136,43 +138,40 @@ overview: 'High Fidelity is listed with 1 API on the [APIs.io](https://apis.io/)
 
 
   High Fidelity''s developer surface includes authentication, changelog, getting-started guide, engineering blog, support, pricing, and 13 more developer resources.'
-random_paper: 21
+random_paper: 23
 score:
   band: emerging
-  composite: 23.8
+  composite: 24.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
     discoverability: 66.1
-    operational_transparency: 18.4
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 23.7
+    operational_transparency: 21.1
+  previous_composite: 24.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/high-fidelity/refs/heads/main/screenshots/high-fidelity-2026-07-25T221150.png
+screenshot: https://apis.io/screenshots/high-fidelity/high-fidelity-2026-07-25T221150.png
 security:
 - kind: authentication
   name: High Fidelity Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Concentriq REST API exposes whole-slide images, annotations, regions of interest, users, and clinical/case data on Proscia's open, API-first digital pathology platform. Authentication is via a Con
@@ -89,47 +91,47 @@ common:
   type: Compliance
   url: https://proscia.com/press-releases/proscia-achieves-soc-2-type-ii-certification-strengthening-enterprise-trust/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/proscia/refs/heads/main/authentication/proscia-authentication.yml
+  href: https://artifacts.apis.io/proscia/authentication/proscia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/proscia-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/proscia/refs/heads/main/packages/proscia-packages.yml
+  href: https://artifacts.apis.io/proscia/packages/proscia-packages.yml
   title: ''
   type: Packages
   url: packages/proscia-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/proscia/refs/heads/main/packages/proscia-packages.yml
+  href: https://artifacts.apis.io/proscia/packages/proscia-packages.yml
   title: ''
   type: SDKs
   url: packages/proscia-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/proscia/refs/heads/main/mcp/proscia-mcp.yml
+  href: https://artifacts.apis.io/proscia/mcp/proscia-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/proscia-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proscia/refs/heads/main/conformance/proscia-conformance.yml
+  href: https://artifacts.apis.io/proscia/conformance/proscia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/proscia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/proscia/refs/heads/main/conventions/proscia-conventions.yml
+  href: https://artifacts.apis.io/proscia/conventions/proscia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/proscia-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/proscia/refs/heads/main/changelog/proscia-changelog.yml
+  href: https://artifacts.apis.io/proscia/changelog/proscia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/proscia-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/proscia/refs/heads/main/security/proscia-domain-security.yml
+  href: https://artifacts.apis.io/proscia/security/proscia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/proscia-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/proscia/refs/heads/main/llms/proscia-llms.txt
+  href: https://artifacts.apis.io/proscia/llms/proscia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/proscia-llms.txt
@@ -149,10 +151,10 @@ overview: 'Proscia is listed with 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Proscia''s developer surface includes documentation, engineering blog, signup flow, support, changelog, authentication, and 14 more developer resources.'
-random_paper: 5
+random_paper: 9
 score:
-  band: emerging
-  composite: 25.6
+  band: thin
+  composite: 26.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -160,15 +162,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 40.5
-    discoverability: 71.7
-    operational_transparency: 18.4
-  previous_composite: 25.5
+    developer_ergonomics: 45.2
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 26.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -184,14 +186,14 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/proscia/refs/heads/main/screenshots/proscia-2026-09-02T152212.png
+screenshot: https://apis.io/screenshots/proscia/proscia-2026-09-02T152212.png
 security:
 - kind: authentication
   name: Proscia Authentication

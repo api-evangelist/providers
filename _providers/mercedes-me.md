@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.3
-  scored_at: '2026-10-17'
+  score: 43.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -117,15 +119,12 @@ apis:
   description: Store and load configurations with an onlinecode
   name: Mercedes-Benz Mercedes me Saved configurations API
   slug: mercedes-me-saved-configurations-api
-artifact_total: 51
+artifact_total: 54
 asyncapis:
 - description: ''
   name: Mercedes Me Fleet Event Catalog
   slug: mercedes-me-fleet-event-catalog
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Car Configurator Components API
   slug: open-mercedes-me-components-api
@@ -173,22 +172,22 @@ collections:
   slug: open-mercedes-me-vehicle-images-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/capabilities/mercedes-me-capability-edges.yml
+  href: https://artifacts.apis.io/mercedes-me/capabilities/mercedes-me-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mercedes-me-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/agentic-access/mercedes-me-agentic-access.yml
+  href: https://artifacts.apis.io/mercedes-me/agentic-access/mercedes-me-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mercedes-me-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/security/mercedes-me-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mercedes-me/security/mercedes-me-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mercedes-me-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/security/mercedes-me-domain-security.yml
+  href: https://artifacts.apis.io/mercedes-me/security/mercedes-me-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mercedes-me-domain-security.yml
@@ -261,107 +260,107 @@ common:
   type: Payments
   url: https://www.mercedes-benz-mobility.com/en/what-we-do/payment-services/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/vocabulary/mercedes-me-vocabulary.yml
+  href: https://artifacts.apis.io/mercedes-me/vocabulary/mercedes-me-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/mercedes-me-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/rules/mercedes-me-rules.yml
+  href: https://artifacts.apis.io/mercedes-me/rules/mercedes-me-rules.yml
   title: ''
   type: SpectralRules
   url: rules/mercedes-me-rules.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/plans/mercedes-me-plans-pricing.yml
+  href: https://artifacts.apis.io/mercedes-me/plans/mercedes-me-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mercedes-me-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/rate-limits/mercedes-me-rate-limits.yml
+  href: https://artifacts.apis.io/mercedes-me/rate-limits/mercedes-me-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mercedes-me-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/finops/mercedes-me-finops.yml
+  href: https://artifacts.apis.io/mercedes-me/finops/mercedes-me-finops.yml
   title: ''
   type: FinOps
   url: finops/mercedes-me-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/well-known/mercedes-me-well-known.yml
+  href: https://artifacts.apis.io/mercedes-me/well-known/mercedes-me-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mercedes-me-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/authentication/mercedes-me-authentication.yml
+  href: https://artifacts.apis.io/mercedes-me/authentication/mercedes-me-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mercedes-me-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/scopes/mercedes-me-scopes.yml
+  href: https://artifacts.apis.io/mercedes-me/scopes/mercedes-me-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mercedes-me-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/security/mercedes-me-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mercedes-me/security/mercedes-me-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/mercedes-me-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/conventions/mercedes-me-conventions.yml
+  href: https://artifacts.apis.io/mercedes-me/conventions/mercedes-me-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mercedes-me-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/errors/mercedes-me-problem-types.yml
+  href: https://artifacts.apis.io/mercedes-me/errors/mercedes-me-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mercedes-me-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/lifecycle/mercedes-me-lifecycle.yml
+  href: https://artifacts.apis.io/mercedes-me/lifecycle/mercedes-me-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mercedes-me-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/conformance/mercedes-me-conformance.yml
+  href: https://artifacts.apis.io/mercedes-me/conformance/mercedes-me-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mercedes-me-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/data-model/mercedes-me-data-model.yml
+  href: https://artifacts.apis.io/mercedes-me/data-model/mercedes-me-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mercedes-me-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/sandbox/mercedes-me-sandbox.yml
+  href: https://artifacts.apis.io/mercedes-me/sandbox/mercedes-me-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mercedes-me-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/packages/mercedes-me-packages.yml
+  href: https://artifacts.apis.io/mercedes-me/packages/mercedes-me-packages.yml
   title: ''
   type: Packages
   url: packages/mercedes-me-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/packages/mercedes-me-packages.yml
+  href: https://artifacts.apis.io/mercedes-me/packages/mercedes-me-packages.yml
   title: ''
   type: SDKs
   url: packages/mercedes-me-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mercedes-me/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/llms/mercedes-me-llms.txt
+  href: https://artifacts.apis.io/mercedes-me/llms/mercedes-me-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mercedes-me-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/mcp/mercedes-me-mcp.yml
+  href: https://artifacts.apis.io/mercedes-me/mcp/mercedes-me-mcp.yml
   title: ''
   type: MCPCandidate
   url: mcp/mercedes-me-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/asyncapi/mercedes-me-fleet-event-catalog.yml
+  href: https://artifacts.apis.io/mercedes-me/asyncapi/mercedes-me-fleet-event-catalog.yml
   title: ''
   type: EventCatalog
   url: asyncapi/mercedes-me-fleet-event-catalog.yml
@@ -379,8 +378,8 @@ examples:
   name: Mercedes Me List Markets Example
   slug: mercedes-me-list-markets-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Mercedes Me Finops
   primary_unit: ''
   service_category: ''
@@ -419,7 +418,7 @@ plans:
 - name: Mercedes Me Plans Pricing
   plan_count: 4
   slug: mercedes-me-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Mercedes Me Rate Limits
@@ -455,7 +454,7 @@ scopes:
   summary_line: 38 scopes
 score:
   band: developing
-  composite: 50.4
+  composite: 51.5
   coverage:
     artifact_dirs: 31
     catalog_earned: 76.0
@@ -463,15 +462,15 @@ score:
     catalog_gap: 39.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 45.5
     contract_quality: 66.4
-    developer_ergonomics: 58.9
+    developer_ergonomics: 61.3
     discoverability: 62.5
     operational_transparency: 15.8
-  previous_composite: 51.9
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -488,13 +487,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/screenshots/mercedes-me-2026-06-20T185206.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mercedes-me/mercedes-me-2026-06-20T185206.png
 security:
 - kind: authentication
   name: Mercedes Me Authentication
@@ -508,6 +508,16 @@ security:
   name: Mercedes Me Vulnerability Disclosure
   slug: mercedes-me-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 4
+skills:
+- name: mercedes-me-configure-and-save-vehicle
+  slug: mercedes-me-configure-and-save-vehicle
+- name: mercedes-me-find-dealer
+  slug: mercedes-me-find-dealer
+- name: mercedes-me-remote-diagnostic-readout
+  slug: mercedes-me-remote-diagnostic-readout
+- name: mercedes-me-render-vehicle-imagery
+  slug: mercedes-me-render-vehicle-imagery
 slug: mercedes-me
 tags:
 - Automotive

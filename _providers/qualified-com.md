@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.9
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.qualified.com
@@ -193,20 +195,20 @@ apis:
     question: Can I get the latest data for a single website session by id?
   phrasing_ops: 2
   slug: qualified-com-sessions-api
-artifact_total: 19
+artifact_total: 22
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/capabilities/qualified-com-capability-edges.yml
+  href: https://artifacts.apis.io/qualified-com/capabilities/qualified-com-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/qualified-com-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/security/qualified-com-domain-security.yml
+  href: https://artifacts.apis.io/qualified-com/security/qualified-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qualified-com-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/authentication/qualified-com-authentication.yml
+  href: https://artifacts.apis.io/qualified-com/authentication/qualified-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qualified-com-authentication.yml
@@ -267,92 +269,100 @@ common:
   type: StatusPage
   url: https://status.qualified.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/llms/qualified-com-llms.txt
+  href: https://artifacts.apis.io/qualified-com/llms/qualified-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qualified-com-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/scopes/qualified-com-scopes.yml
+  href: https://artifacts.apis.io/qualified-com/scopes/qualified-com-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/qualified-com-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/conventions/qualified-com-conventions.yml
+  href: https://artifacts.apis.io/qualified-com/conventions/qualified-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qualified-com-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/errors/qualified-com-problem-types.yml
+  href: https://artifacts.apis.io/qualified-com/errors/qualified-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qualified-com-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/lifecycle/qualified-com-lifecycle.yml
+  href: https://artifacts.apis.io/qualified-com/lifecycle/qualified-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qualified-com-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/lifecycle/qualified-com-lifecycle.yml
+  href: https://artifacts.apis.io/qualified-com/lifecycle/qualified-com-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/qualified-com-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/conformance/qualified-com-conformance.yml
+  href: https://artifacts.apis.io/qualified-com/conformance/qualified-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qualified-com-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/security/qualified-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/qualified-com/security/qualified-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/qualified-com-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/security/qualified-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/qualified-com/security/qualified-com-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/qualified-com-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/data-model/qualified-com-data-model.yml
+  href: https://artifacts.apis.io/qualified-com/data-model/qualified-com-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qualified-com-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/overlays/qualified-com-enterprise-api-overlay.yaml
+  href: https://artifacts.apis.io/qualified-com/overlays/qualified-com-enterprise-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qualified-com-enterprise-api-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/packages/qualified-com-packages.yml
+  href: https://artifacts.apis.io/qualified-com/packages/qualified-com-packages.yml
   title: ''
   type: Packages
   url: packages/qualified-com-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/components/qualified-com-components.yml
+  href: https://artifacts.apis.io/qualified-com/components/qualified-com-components.yml
   title: ''
   type: Components
   url: components/qualified-com-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/changelog/qualified-com-changelog.yml
+  href: https://artifacts.apis.io/qualified-com/changelog/qualified-com-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qualified-com-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/plans/qualified-com-plans-pricing.yml
+  href: https://artifacts.apis.io/qualified-com/plans/qualified-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qualified-com-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/rate-limits/qualified-com-rate-limits.yml
+  href: https://artifacts.apis.io/qualified-com/rate-limits/qualified-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qualified-com-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/qualified-com/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-26'
 description: Qualified is a San Francisco based B2B agentic marketing platform built around Piper, an AI SDR agent that engages website visitors in real time with chat, voice, video, email, meeting booking and personalized offers, and works natively alongside Salesforce, HubSpot, Marketo, Eloqua, Outreach, Salesloft, 6sense, Demandbase and Slack. The company publishes the Qualified Enterprise API, a versioned REST contract at api.qualified.com that exposes the underlying records behind the platform — leads, website sessions, conversations, messages, meetings and outbound emails — plus write endpoints for leads and companies, a bulk job endpoint and a GDPR deletion request endpoint, so customers can pipe engagement data into Snowflake, Databricks, BigQuery, Adobe AEP or Eloqua and write enriched records back. The API is bearer-token authenticated with named OAuth-style scopes, cursor paginated, documented for incremental (delta) sync, and is available on the Enterprise and Ultimate plan tiers.
+finops:
+- has_sources: true
+  method: derived
+  name: Qualified Com Finops
+  primary_unit: ''
+  service_category: ''
+  slug: qualified-com-finops
+  template: true
 image: https://www.qualified.com/favicon.ico
 layout: provider
 modified: '2026-08-26'
@@ -367,7 +377,7 @@ plans:
 - name: Qualified Com Plans Pricing
   plan_count: 3
   slug: qualified-com-plans-pricing
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Qualified Com Rate Limits
@@ -378,24 +388,24 @@ scopes:
   slug: qualified-com-scopes
   summary_line: 11 scopes
 score:
-  band: exemplar
-  composite: 66.9
+  band: strong
+  composite: 63.6
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 49.3
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 81.6
-  previous_composite: 66.8
+  previous_composite: 63.6
   provenance:
     conformance: first-party
     contracts:
@@ -417,13 +427,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/screenshots/qualified-com-2026-09-02T152601.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/qualified-com/qualified-com-2026-09-02T152601.png
 security:
 - kind: authentication
   name: Qualified Com Authentication
@@ -441,6 +452,12 @@ security:
   name: Qualified Com Trust Center
   slug: qualified-com-trust-center
   summary_line: SOC 2 Type II, EU-US Privacy Shield
+skill_count: 2
+skills:
+- name: qualified-com-lead-and-company-writeback
+  slug: qualified-com-lead-and-company-writeback
+- name: qualified-com-warehouse-sync
+  slug: qualified-com-warehouse-sync
 slug: qualified-com
 tags:
 - Company

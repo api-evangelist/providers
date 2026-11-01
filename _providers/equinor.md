@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.4
-  scored_at: '2026-10-17'
+  score: 32.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 79
   slug: equinor-agentic-access
   summary_line: 79 operations · 22 acting
-api_count: 17
+api_count: 16
 apis:
 - baseURL: https://api.gateway.equinor.com/iiot/ae
   baseurl_source: declared
@@ -163,125 +165,130 @@ apis:
   description: The Weather API from Equinor — 2 operation(s) for weather.
   name: Equinor Weather API
   slug: equinor-weather-api
-artifact_total: 63
+artifact_total: 70
 common:
+- group: other
+  href: https://artifacts.apis.io/equinor/capabilities/equinor-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/equinor-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/agentic-access/equinor-agentic-access.yml
+  href: https://artifacts.apis.io/equinor/agentic-access/equinor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/equinor-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/rules/equinor-stormgeo-api-docs-spectral-rules.yml
+  href: https://artifacts.apis.io/equinor/rules/equinor-stormgeo-api-docs-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/equinor-stormgeo-api-docs-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/rules/equinor-rules.yml
+  href: https://artifacts.apis.io/equinor/rules/equinor-rules.yml
   title: ''
   type: Spectral
   url: rules/equinor-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/json-ld/equinor-context.jsonld
+  href: https://artifacts.apis.io/equinor/json-ld/equinor-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/equinor-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/vocabulary/equinor-vocabulary.yml
+  href: https://artifacts.apis.io/equinor/vocabulary/equinor-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/equinor-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/equinor/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/data-model/equinor-data-model.yml
+  href: https://artifacts.apis.io/equinor/data-model/equinor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/equinor-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/changelog/equinor-changelog.yml
+  href: https://artifacts.apis.io/equinor/changelog/equinor-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/equinor-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/conventions/equinor-conventions.yml
+  href: https://artifacts.apis.io/equinor/conventions/equinor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/equinor-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/sandbox/equinor-sandbox.yml
+  href: https://artifacts.apis.io/equinor/sandbox/equinor-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/equinor-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/security/equinor-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/equinor/security/equinor-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/equinor-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/scopes/equinor-scopes.yml
+  href: https://artifacts.apis.io/equinor/scopes/equinor-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/equinor-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/lifecycle/equinor-lifecycle.yml
+  href: https://artifacts.apis.io/equinor/lifecycle/equinor-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/equinor-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/lifecycle/equinor-lifecycle.yml
+  href: https://artifacts.apis.io/equinor/lifecycle/equinor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/equinor-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/errors/equinor-problem-types.yml
+  href: https://artifacts.apis.io/equinor/errors/equinor-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/equinor-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/conformance/equinor-conformance.yml
+  href: https://artifacts.apis.io/equinor/conformance/equinor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/equinor-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/overlays/equinor-alarm-events-overlay.yaml
+  href: https://artifacts.apis.io/equinor/overlays/equinor-alarm-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/equinor-alarm-events-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/well-known/equinor-security.txt
+  href: https://artifacts.apis.io/equinor/well-known/equinor-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/equinor-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/well-known/equinor-data-security.txt
+  href: https://artifacts.apis.io/equinor/well-known/equinor-data-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/equinor-data-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/well-known/equinor-well-known.yml
+  href: https://artifacts.apis.io/equinor/well-known/equinor-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/equinor-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/hosts/equinor-hosts.yml
+  href: https://artifacts.apis.io/equinor/hosts/equinor-hosts.yml
   title: ''
   type: Hosts
   url: hosts/equinor-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/vendors/equinor-vendors.yml
+  href: https://artifacts.apis.io/equinor/vendors/equinor-vendors.yml
   title: ''
   type: Vendors
   url: vendors/equinor-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/packages/equinor-packages.yml
+  href: https://artifacts.apis.io/equinor/packages/equinor-packages.yml
   title: ''
   type: SDKs
   url: packages/equinor-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/packages/equinor-packages.yml
+  href: https://artifacts.apis.io/equinor/packages/equinor-packages.yml
   title: ''
   type: Packages
   url: packages/equinor-packages.yml
@@ -290,17 +297,17 @@ common:
   type: Documentation
   url: https://docs.equinor.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/authentication/equinor-authentication.yml
+  href: https://artifacts.apis.io/equinor/authentication/equinor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/equinor-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/security/equinor-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/equinor/security/equinor-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/equinor-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/security/equinor-domain-security.yml
+  href: https://artifacts.apis.io/equinor/security/equinor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/equinor-domain-security.yml
@@ -453,12 +460,12 @@ overview: 'Equinor publishes 26 API contracts indexed on the [APIs.io](https://a
   The Equinor catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Equinor''s developer surface includes changelog, sandbox, documentation, authentication, API reference, product news, support, and 33 more developer resources.'
+  Equinor''s developer surface includes changelog, sandbox, documentation, authentication, API reference, product news, support, and 34 more developer resources.'
 plans:
 - name: Equinor Plans Pricing
   plan_count: 0
   slug: equinor-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Equinor Rate Limits
@@ -495,19 +502,19 @@ scopes:
   summary_line: 3 scopes
 score:
   band: strong
-  composite: 57.2
+  composite: 54.7
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 29
     catalog_earned: 65.8
     catalog_earned_first_party: 0.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 35.6
-    contract_quality: 63.4
+    contract_quality: 61.7
     developer_ergonomics: 58.9
     discoverability: 73.2
     operational_transparency: 39.5
@@ -536,13 +543,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/equinor/refs/heads/main/screenshots/equinor-2026-10-11T104250.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/equinor/equinor-2026-10-11T104250.png
 security:
 - kind: authentication
   name: Equinor Authentication
@@ -556,6 +564,22 @@ security:
   name: Equinor Vulnerability Disclosure
   slug: equinor-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 7
+skills:
+- name: bluebook-table-a1
+  slug: equinor-bluebook-table-a1
+- name: ims-realtime-subscription
+  slug: equinor-ims-realtime-subscription
+- name: lookup-ims-tag
+  slug: equinor-lookup-ims-tag
+- name: query-alarms-and-events
+  slug: equinor-query-alarms-and-events
+- name: read-timeseries-data
+  slug: equinor-read-timeseries-data
+- name: stormgeo-location-forecast
+  slug: equinor-stormgeo-location-forecast
+- name: write-timeseries-data
+  slug: equinor-write-timeseries-data
 slug: equinor
 tags:
 - Company

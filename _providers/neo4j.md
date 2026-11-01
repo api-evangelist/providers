@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 45.3
-  scored_at: '2026-10-17'
+  score: 43.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -96,7 +98,7 @@ apis:
   description: Manage explicit transactions with full control over the transaction lifecycle including open, run, commit, and rollback operations.
   name: Neo4j Transactions API
   slug: neo4j-transactions-api
-artifact_total: 58
+artifact_total: 59
 collections:
 - collection_type: postman
   name: Neo4j Aura Authentication API
@@ -119,9 +121,6 @@ collections:
 - collection_type: postman
   name: Neo4j Aura Authentication Transactions API
   slug: postman-neo4j-transactions-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Neo4j Aura API
   slug: open-neo4j-aura-api
@@ -151,57 +150,57 @@ collections:
   slug: open-neo4j-transactions-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/finops/neo4j-finops.yml
+  href: https://artifacts.apis.io/neo4j/finops/neo4j-finops.yml
   title: ''
   type: FinOps
   url: finops/neo4j-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/rate-limits/neo4j-rate-limits.yml
+  href: https://artifacts.apis.io/neo4j/rate-limits/neo4j-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/neo4j-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/plans/neo4j-plans-pricing.yml
+  href: https://artifacts.apis.io/neo4j/plans/neo4j-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/neo4j-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/rules/neo4j-rules.yml
+  href: https://artifacts.apis.io/neo4j/rules/neo4j-rules.yml
   title: ''
   type: Spectral
   url: rules/neo4j-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/rules/neo4j-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/neo4j/rules/neo4j-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/neo4j-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/json-ld/neo4j-context.jsonld
+  href: https://artifacts.apis.io/neo4j/json-ld/neo4j-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/neo4j-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/vocabulary/neo4j-vocabulary.yml
+  href: https://artifacts.apis.io/neo4j/vocabulary/neo4j-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/neo4j-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/neo4j/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/data-model/neo4j-data-model.yml
+  href: https://artifacts.apis.io/neo4j/data-model/neo4j-data-model.yml
   title: ''
   type: DataModel
   url: data-model/neo4j-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/cli/neo4j-cli.yml
+  href: https://artifacts.apis.io/neo4j/cli/neo4j-cli.yml
   title: ''
   type: CLI
   url: cli/neo4j-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/changelog/neo4j-changelog.yml
+  href: https://artifacts.apis.io/neo4j/changelog/neo4j-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/neo4j-changelog.yml
@@ -210,52 +209,52 @@ common:
   type: Compliance
   url: https://trust.neo4j.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/errors/neo4j-problem-types.yml
+  href: https://artifacts.apis.io/neo4j/errors/neo4j-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/neo4j-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/conformance/neo4j-conformance.yml
+  href: https://artifacts.apis.io/neo4j/conformance/neo4j-conformance.yml
   title: ''
   type: Conformance
   url: conformance/neo4j-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/llms/neo4j-llms.txt
+  href: https://artifacts.apis.io/neo4j/llms/neo4j-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/neo4j-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/well-known/neo4j-security.txt
+  href: https://artifacts.apis.io/neo4j/well-known/neo4j-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/neo4j-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/well-known/neo4j-help-security.txt
+  href: https://artifacts.apis.io/neo4j/well-known/neo4j-help-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/neo4j-help-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/well-known/neo4j-well-known.yml
+  href: https://artifacts.apis.io/neo4j/well-known/neo4j-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/neo4j-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/hosts/neo4j-hosts.yml
+  href: https://artifacts.apis.io/neo4j/hosts/neo4j-hosts.yml
   title: ''
   type: Hosts
   url: hosts/neo4j-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/vendors/neo4j-vendors.yml
+  href: https://artifacts.apis.io/neo4j/vendors/neo4j-vendors.yml
   title: ''
   type: Vendors
   url: vendors/neo4j-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/packages/neo4j-packages.yml
+  href: https://artifacts.apis.io/neo4j/packages/neo4j-packages.yml
   title: ''
   type: SDKs
   url: packages/neo4j-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/packages/neo4j-packages.yml
+  href: https://artifacts.apis.io/neo4j/packages/neo4j-packages.yml
   title: ''
   type: Packages
   url: packages/neo4j-packages.yml
@@ -292,27 +291,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/neo4j/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/agentic-access/neo4j-agentic-access.yml
+  href: https://artifacts.apis.io/neo4j/agentic-access/neo4j-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/neo4j-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/security/neo4j-trust-center.yml
+  href: https://artifacts.apis.io/neo4j/security/neo4j-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/neo4j-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/security/neo4j-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/neo4j/security/neo4j-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/neo4j-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/security/neo4j-domain-security.yml
+  href: https://artifacts.apis.io/neo4j/security/neo4j-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/neo4j-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/authentication/neo4j-authentication.yml
+  href: https://artifacts.apis.io/neo4j/authentication/neo4j-authentication.yml
   title: ''
   type: Authentication
   url: authentication/neo4j-authentication.yml
@@ -365,7 +364,7 @@ common:
   type: LlmsText
   url: https://neo4j.com/llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/capabilities/neo4j-capability-edges.yml
+  href: https://artifacts.apis.io/neo4j/capabilities/neo4j-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/neo4j-capability-edges.yml
@@ -373,10 +372,10 @@ created: '2025-03-05'
 description: Neo4j is the leading graph database platform, enabling developers to build applications powered by connected data. Their developer platform provides HTTP, Query, and Aura cloud APIs alongside official drivers for Python, Java, and JavaScript, as well as a GraphQL library for rapid API development backed by the Neo4j graph database.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Neo4J Finops
-  primary_unit: ''
-  service_category: Database
+  primary_unit: gb/hour
+  service_category: ''
   slug: neo4j-finops
   template: false
 graphqls:
@@ -455,9 +454,9 @@ overview: 'Neo4j publishes 12 API contracts indexed on the [APIs.io](https://api
   Neo4j''s developer surface includes CLI, changelog, pricing, API reference, getting-started guide, authentication, developer portal, and 41 more developer resources.'
 plans:
 - name: Neo4J Plans Pricing
-  plan_count: 8
+  plan_count: 11
   slug: neo4j-plans-pricing
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Neo4J Rate Limits
@@ -487,24 +486,24 @@ rules:
     warn: 2
   slug: neo4j-rules
 score:
-  band: strong
-  composite: 59.8
+  band: exemplar
+  composite: 67.6
   coverage:
     artifact_dirs: 32
-    catalog_earned: 57.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.3
+    catalog_earned: 69.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.0
+  delta: 1.6
   facets:
-    access_clarity: 61.8
+    access_clarity: 100.0
     contract_governance: 22.0
-    contract_quality: 64.0
+    contract_quality: 60.6
     developer_ergonomics: 74.4
     discoverability: 67.9
-    operational_transparency: 36.8
-  previous_composite: 64.8
+    operational_transparency: 39.5
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -521,13 +520,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/screenshots/neo4j-2026-08-17T124223.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/neo4j/neo4j-2026-08-17T124223.png
 security:
 - kind: authentication
   name: Neo4J Authentication
@@ -545,6 +545,12 @@ security:
   name: Neo4J Trust Center
   slug: neo4j-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, GDPR, CSA STAR
+skill_count: 2
+skills:
+- name: neo4j-create-and-restore-snapshot
+  slug: neo4j-create-and-restore-snapshot
+- name: neo4j-transaction-execute-commit
+  slug: neo4j-transaction-execute-commit
 slug: neo4j
 tags:
 - Neo4j

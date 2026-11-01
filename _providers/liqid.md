@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,17 +39,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liqid/refs/heads/main/security/liqid-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/liqid/security/liqid-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/liqid-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liqid/refs/heads/main/security/liqid-domain-security.yml
+  href: https://artifacts.apis.io/liqid/security/liqid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/liqid-domain-security.yml
@@ -88,62 +90,62 @@ common:
   type: Pricing
   url: https://www.liqid.de/loesungen/wealth-management/ueberblick
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liqid/refs/heads/main/well-known/liqid-well-known.yml
+  href: https://artifacts.apis.io/liqid/well-known/liqid-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/liqid-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liqid/refs/heads/main/well-known/liqid-security.txt
+  href: https://artifacts.apis.io/liqid/well-known/liqid-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/liqid-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liqid/refs/heads/main/security/liqid-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/liqid/security/liqid-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/liqid-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liqid/refs/heads/main/authentication/liqid-authentication.yml
+  href: https://artifacts.apis.io/liqid/authentication/liqid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/liqid-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liqid/refs/heads/main/scopes/liqid-scopes.yml
+  href: https://artifacts.apis.io/liqid/scopes/liqid-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/liqid-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liqid/refs/heads/main/conformance/liqid-conformance.yml
+  href: https://artifacts.apis.io/liqid/conformance/liqid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/liqid-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liqid/refs/heads/main/conformance/liqid-conformance.yml
+  href: https://artifacts.apis.io/liqid/conformance/liqid-conformance.yml
   title: ''
   type: Compliance
   url: conformance/liqid-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liqid/refs/heads/main/lifecycle/liqid-lifecycle.yml
+  href: https://artifacts.apis.io/liqid/lifecycle/liqid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/liqid-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/liqid/refs/heads/main/rate-limits/liqid-rate-limits.yml
+  href: https://artifacts.apis.io/liqid/rate-limits/liqid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/liqid-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/liqid/refs/heads/main/plans/liqid-plans-pricing.yml
+  href: https://artifacts.apis.io/liqid/plans/liqid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/liqid-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/liqid/refs/heads/main/packages/liqid-packages.yml
+  href: https://artifacts.apis.io/liqid/packages/liqid-packages.yml
   title: ''
   type: Packages
   url: packages/liqid-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liqid/refs/heads/main/llms/liqid-llms.txt
+  href: https://artifacts.apis.io/liqid/llms/liqid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/liqid-llms.txt
@@ -196,7 +198,7 @@ scopes:
   summary_line: 14 scopes
 score:
   band: thin
-  composite: 34.6
+  composite: 34.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 39.0
@@ -204,14 +206,14 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 55.4
-    operational_transparency: 13.2
+    discoverability: 48.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -220,7 +222,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 34.5
+  previous_composite: 34.2
   provenance:
     conformance: first-party
   regulatory:
@@ -229,14 +231,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/liqid/refs/heads/main/screenshots/liqid-2026-09-02T150304.png
+screenshot: https://apis.io/screenshots/liqid/liqid-2026-09-02T150304.png
 security:
 - kind: authentication
   name: Liqid Authentication

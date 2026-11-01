@@ -23,21 +23,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 15.1
-  scored_at: '2026-10-17'
+  score: 9.9
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 4
+artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/plans/uxpin-plans-pricing.yml
+  href: https://artifacts.apis.io/uxpin/plans/uxpin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/uxpin-plans-pricing.yml
@@ -46,12 +48,12 @@ common:
   type: BlogRSS
   url: https://www.uxpin.com/studio/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/security/uxpin-trust-center.yml
+  href: https://artifacts.apis.io/uxpin/security/uxpin-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/uxpin-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/security/uxpin-domain-security.yml
+  href: https://artifacts.apis.io/uxpin/security/uxpin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uxpin-domain-security.yml
@@ -112,47 +114,55 @@ common:
   type: Compliance
   url: https://www.uxpin.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/llms/uxpin-llms.txt
+  href: https://artifacts.apis.io/uxpin/llms/uxpin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uxpin-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/packages/uxpin-packages.yml
+  href: https://artifacts.apis.io/uxpin/packages/uxpin-packages.yml
   title: ''
   type: Packages
   url: packages/uxpin-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/packages/uxpin-packages.yml
+  href: https://artifacts.apis.io/uxpin/packages/uxpin-packages.yml
   title: ''
   type: SDKs
   url: packages/uxpin-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/cli/uxpin-cli.yml
+  href: https://artifacts.apis.io/uxpin/cli/uxpin-cli.yml
   title: ''
   type: CLI
   url: cli/uxpin-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/well-known/uxpin-well-known.yml
+  href: https://artifacts.apis.io/uxpin/well-known/uxpin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/uxpin-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/conformance/uxpin-conformance.yml
+  href: https://artifacts.apis.io/uxpin/conformance/uxpin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uxpin-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/lifecycle/uxpin-lifecycle.yml
+  href: https://artifacts.apis.io/uxpin/lifecycle/uxpin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uxpin-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/components/uxpin-components.yml
+  href: https://artifacts.apis.io/uxpin/components/uxpin-components.yml
   title: ''
   type: Components
   url: components/uxpin-components.yml
 created: '2026-07-17'
 description: UXPin is an AI-powered, code-based design and prototyping platform where designers work with real production React components instead of vector approximations. Its Merge technology syncs a team's design system from Git or Storybook onto the design canvas, its Forge AI assistant generates and iterates UI constrained to that design system, and export is production-ready JSX referencing components already in the codebase. The developer surface is the open-source Merge toolchain - the @uxpin/merge-cli npm package that analyzes a component repository and pushes components to UXPin - rather than a public REST API.
+finops:
+- has_sources: true
+  method: derived
+  name: Uxpin Finops
+  primary_unit: seat
+  service_category: ''
+  slug: uxpin-finops
+  template: false
 image: https://cdn.buttercms.com/hEANM0hTqezomJsApfaQ
 layout: provider
 mcp_servers:
@@ -171,26 +181,29 @@ plans:
 - name: Uxpin Plans Pricing
   plan_count: 6
   slug: uxpin-plans-pricing
-random_paper: 14
+- name: Uxpin Price Estimates
+  plan_count: 0
+  slug: uxpin-price-estimates
+random_paper: 12
 score:
   band: developing
-  composite: 40.5
+  composite: 41.4
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 39.0
+    artifact_dirs: 15
+    catalog_earned: 42.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 76.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 58.3
-    operational_transparency: 34.2
-  previous_composite: 34.1
+    discoverability: 48.2
+    operational_transparency: 36.8
+  previous_composite: 39.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -204,14 +217,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/uxpin/refs/heads/main/screenshots/uxpin-2026-09-02T165256.png
+screenshot: https://apis.io/screenshots/uxpin/uxpin-2026-09-02T165256.png
 security:
 - kind: domain-security
   name: Uxpin Domain Security

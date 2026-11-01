@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for CustomersAI platform providing visitor identity and data enrichment.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/customersai/refs/heads/main/plans/customersai-plans-pricing.yml
+  href: https://artifacts.apis.io/customersai/plans/customersai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/customersai-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/customersai/refs/heads/main/conformance/customersai-conformance.yml
+  href: https://artifacts.apis.io/customersai/conformance/customersai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/customersai-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/customersai/refs/heads/main/hosts/customersai-hosts.yml
+  href: https://artifacts.apis.io/customersai/hosts/customersai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/customersai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/customersai/refs/heads/main/vendors/customersai-vendors.yml
+  href: https://artifacts.apis.io/customersai/vendors/customersai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/customersai-vendors.yml
@@ -60,7 +62,7 @@ common:
   type: Support
   url: https://customers.ai/help
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/customersai/refs/heads/main/security/customersai-domain-security.yml
+  href: https://artifacts.apis.io/customersai/security/customersai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/customersai-domain-security.yml
@@ -112,7 +114,7 @@ plans:
 - name: Customersai Plans Pricing
   plan_count: 1
   slug: customersai-plans-pricing
-random_paper: 11
+random_paper: 23
 score:
   band: emerging
   composite: 24.3
@@ -123,6 +125,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
@@ -130,6 +133,7 @@ score:
     developer_ergonomics: 16.7
     discoverability: 57.1
     operational_transparency: 0.0
+  previous_composite: 24.3
   provenance:
     conformance: first-party
     mcp: unknown
@@ -143,8 +147,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

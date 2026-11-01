@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,32 +91,32 @@ common:
   type: TermsOfService
   url: https://www.o1labs.org/terms-of-use
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/o1-labs/refs/heads/main/packages/o1-labs-packages.yml
+  href: https://artifacts.apis.io/o1-labs/packages/o1-labs-packages.yml
   title: ''
   type: Packages
   url: packages/o1-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/o1-labs/refs/heads/main/packages/o1-labs-packages.yml
+  href: https://artifacts.apis.io/o1-labs/packages/o1-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/o1-labs-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/o1-labs/refs/heads/main/llms/o1-labs-llms.txt
+  href: https://artifacts.apis.io/o1-labs/llms/o1-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/o1-labs-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/o1-labs/refs/heads/main/changelog/o1-labs-changelog.yml
+  href: https://artifacts.apis.io/o1-labs/changelog/o1-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/o1-labs-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/o1-labs/refs/heads/main/lifecycle/o1-labs-lifecycle.yml
+  href: https://artifacts.apis.io/o1-labs/lifecycle/o1-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/o1-labs-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/o1-labs/refs/heads/main/security/o1-labs-domain-security.yml
+  href: https://artifacts.apis.io/o1-labs/security/o1-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/o1-labs-domain-security.yml
@@ -123,17 +125,17 @@ common:
   type: SourceCode
   url: https://github.com/o1-labs/o1js
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/o1-labs/refs/heads/main/cli/o1-labs-cli.yml
+  href: https://artifacts.apis.io/o1-labs/cli/o1-labs-cli.yml
   title: ''
   type: CLI
   url: cli/o1-labs-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/o1-labs/refs/heads/main/sandbox/o1-labs-sandbox.yml
+  href: https://artifacts.apis.io/o1-labs/sandbox/o1-labs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/o1-labs-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/o1-labs/refs/heads/main/well-known/o1-labs-well-known.yml
+  href: https://artifacts.apis.io/o1-labs/well-known/o1-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/o1-labs-well-known.yml
@@ -149,12 +151,12 @@ overview: 'o1 Labs is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   o1 Labs'' developer surface includes documentation, getting-started guide, engineering blog, support, changelog, CLI, sandbox, and 16 more developer resources.'
-random_paper: 7
+random_paper: 23
 score:
-  band: thin
-  composite: 26.4
+  band: emerging
+  composite: 23.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -166,26 +168,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 55.4
-    operational_transparency: 18.4
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 26.4
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 23.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/o1-labs/refs/heads/main/screenshots/o1-labs-2026-08-07T185836.png
+screenshot: https://apis.io/screenshots/o1-labs/o1-labs-2026-08-07T185836.png
 security:
 - kind: domain-security
   name: O1 Labs Domain Security

@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,11 +50,8 @@ apis:
   description: BrewDog DIY Dog beer recipes — 325 entries
   name: Punk API Beers API
   slug: punkapi-beers-api
-artifact_total: 40
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Punk API — Brewdog DIY Dog Beer Recipes Beers API
   slug: open-punkapi-beers-api
@@ -65,12 +64,12 @@ common:
   type: IssueTracker
   url: https://github.com/sammdec/punkapi/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/punkapi/refs/heads/main/agentic-access/punkapi-agentic-access.yml
+  href: https://artifacts.apis.io/punkapi/agentic-access/punkapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/punkapi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/punkapi/refs/heads/main/security/punkapi-domain-security.yml
+  href: https://artifacts.apis.io/punkapi/security/punkapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/punkapi-domain-security.yml
@@ -131,22 +130,22 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/punkapi/refs/heads/main/plans/punkapi-plans-pricing.yml
+  href: https://artifacts.apis.io/punkapi/plans/punkapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/punkapi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/punkapi/refs/heads/main/rate-limits/punkapi-rate-limits.yml
+  href: https://artifacts.apis.io/punkapi/rate-limits/punkapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/punkapi-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/punkapi/refs/heads/main/rules/punkapi-rules.yml
+  href: https://artifacts.apis.io/punkapi/rules/punkapi-rules.yml
   title: ''
   type: SpectralRules
   url: rules/punkapi-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/punkapi/refs/heads/main/vocabulary/punkapi-vocabulary.yml
+  href: https://artifacts.apis.io/punkapi/vocabulary/punkapi-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/punkapi-vocabulary.yml
@@ -223,7 +222,7 @@ plans:
 - name: Punkapi Plans Pricing
   plan_count: 1
   slug: punkapi-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Punkapi Rate Limits
@@ -256,13 +255,13 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 71.0
     catalog_earned_first_party: 0.0
     catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -37.0
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -271,7 +270,7 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  previous_composite: 37.0
+  previous_composite: 0.0
   provenance:
     agentic_access: derived
     contracts:
@@ -285,13 +284,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Punkapi Domain Security

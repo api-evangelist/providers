@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-17'
+  score: 27.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -132,9 +134,6 @@ collections:
   name: Oxylabs Web Intelligence APIs
   slug: postman-oxylabs
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Oxylabs Web Intelligence APIs Login API
   slug: open-oxylabs-login-api
 - collection_type: open
@@ -151,22 +150,22 @@ collections:
   slug: open-oxylabs
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/agentic-access/oxylabs-agentic-access.yml
+  href: https://artifacts.apis.io/oxylabs/agentic-access/oxylabs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/oxylabs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/security/oxylabs-trust-center.yml
+  href: https://artifacts.apis.io/oxylabs/security/oxylabs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/oxylabs-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/security/oxylabs-domain-security.yml
+  href: https://artifacts.apis.io/oxylabs/security/oxylabs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oxylabs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/authentication/oxylabs-authentication.yml
+  href: https://artifacts.apis.io/oxylabs/authentication/oxylabs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oxylabs-authentication.yml
@@ -175,47 +174,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/oxylabs/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/arazzo/oxylabs-account-statistics-dashboard-workflow.yml
+  href: https://artifacts.apis.io/oxylabs/arazzo/oxylabs-account-statistics-dashboard-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oxylabs-account-statistics-dashboard-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/arazzo/oxylabs-offboard-sub-user-workflow.yml
+  href: https://artifacts.apis.io/oxylabs/arazzo/oxylabs-offboard-sub-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oxylabs-offboard-sub-user-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/arazzo/oxylabs-provision-sub-user-workflow.yml
+  href: https://artifacts.apis.io/oxylabs/arazzo/oxylabs-provision-sub-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oxylabs-provision-sub-user-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/arazzo/oxylabs-push-pull-scrape-and-confirm-job-workflow.yml
+  href: https://artifacts.apis.io/oxylabs/arazzo/oxylabs-push-pull-scrape-and-confirm-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oxylabs-push-pull-scrape-and-confirm-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/arazzo/oxylabs-realtime-scrape-and-verify-usage-workflow.yml
+  href: https://artifacts.apis.io/oxylabs/arazzo/oxylabs-realtime-scrape-and-verify-usage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oxylabs-realtime-scrape-and-verify-usage-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/arazzo/oxylabs-residential-login-and-list-sub-users-workflow.yml
+  href: https://artifacts.apis.io/oxylabs/arazzo/oxylabs-residential-login-and-list-sub-users-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oxylabs-residential-login-and-list-sub-users-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/arazzo/oxylabs-search-then-scrape-result-workflow.yml
+  href: https://artifacts.apis.io/oxylabs/arazzo/oxylabs-search-then-scrape-result-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oxylabs-search-then-scrape-result-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/arazzo/oxylabs-sub-user-usage-audit-workflow.yml
+  href: https://artifacts.apis.io/oxylabs/arazzo/oxylabs-sub-user-usage-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oxylabs-sub-user-usage-audit-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/arazzo/oxylabs-throttle-sub-user-traffic-workflow.yml
+  href: https://artifacts.apis.io/oxylabs/arazzo/oxylabs-throttle-sub-user-traffic-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oxylabs-throttle-sub-user-traffic-workflow.yml
@@ -436,17 +435,17 @@ common:
   type: CodeExamples
   url: https://github.com/oxylabs/web-scraping-tutorials
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/plans/oxylabs-plans-pricing.yml
+  href: https://artifacts.apis.io/oxylabs/plans/oxylabs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/oxylabs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/rate-limits/oxylabs-rate-limits.yml
+  href: https://artifacts.apis.io/oxylabs/rate-limits/oxylabs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/oxylabs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/finops/oxylabs-finops.yml
+  href: https://artifacts.apis.io/oxylabs/finops/oxylabs-finops.yml
   title: ''
   type: FinOps
   url: finops/oxylabs-finops.yml
@@ -481,13 +480,13 @@ features:
 - Free trial across Web Scraper API, Web Unblocker, Residential, Datacenter, and Mobile proxies
 - Pay-as-you-go and committed-use pricing; usage measured by request and by GB of proxy traffic
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Oxylabs Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: oxylabs-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oxylabs.png
 layout: provider
 mcp_servers:
@@ -507,38 +506,41 @@ overview: 'Oxylabs publishes 15 API contracts indexed on the [APIs.io](https://a
   Oxylabs'' developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, changelog, support, and 64 more developer resources.'
 plans:
 - name: Oxylabs Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: oxylabs-plans-pricing
-random_paper: 0
+- name: Oxylabs Price Estimates
+  plan_count: 0
+  slug: oxylabs-price-estimates
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Oxylabs Rate Limits
   slug: oxylabs-rate-limits
 score:
-  band: developing
-  composite: 50.6
+  band: strong
+  composite: 60.3
   coverage:
     artifact_dirs: 16
-    catalog_earned: 43.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 50.0
+    access_clarity: 92.1
     contract_governance: 0.0
     contract_quality: 49.9
     developer_ergonomics: 74.3
-    discoverability: 76.7
-    operational_transparency: 42.1
+    discoverability: 73.3
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - cee
     - europe
-  previous_composite: 52.1
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     contracts:
@@ -552,14 +554,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/screenshots/oxylabs-2026-06-20T191301.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/oxylabs/oxylabs-2026-06-20T191301.png
 security:
 - kind: authentication
   name: Oxylabs Authentication
@@ -594,7 +597,7 @@ tags:
 - Datacenter Proxies
 - Datasets
 - E-Commerce Data
-- Headless Browser
+- Browser Automation
 - ISP Proxies
 - Mobile Proxies
 - Proxies

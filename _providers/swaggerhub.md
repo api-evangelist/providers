@@ -27,15 +27,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -90,6 +92,11 @@ apis:
   description: Manage SwaggerHub API definitions and versions
   name: SwaggerHub APIs API
   slug: swaggerhub-apis-api
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: declared
+  description: The Templates API from SwaggerHub — 14 operation(s) for templates.
+  name: SwaggerHub Templates API
+  slug: swaggerhub-templates-api
 artifact_total: 43
 collections:
 - collection_type: postman
@@ -119,9 +126,6 @@ collections:
 - collection_type: postman
   name: SwaggerHub Registry APIs Teams API
   slug: postman-swaggerhub-teams-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SwaggerHub Registry APIs API
   slug: open-swaggerhub-apis-api
@@ -157,22 +161,22 @@ collections:
   slug: open-swaggerhub-user-management
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/plans/swaggerhub-plans-pricing.yml
+  href: https://artifacts.apis.io/swaggerhub/plans/swaggerhub-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/swaggerhub-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/rate-limits/swaggerhub-rate-limits.yml
+  href: https://artifacts.apis.io/swaggerhub/rate-limits/swaggerhub-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/swaggerhub-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/finops/swaggerhub-finops.yml
+  href: https://artifacts.apis.io/swaggerhub/finops/swaggerhub-finops.yml
   title: ''
   type: FinOps
   url: finops/swaggerhub-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/capabilities/swaggerhub-capability-edges.yml
+  href: https://artifacts.apis.io/swaggerhub/capabilities/swaggerhub-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/swaggerhub-capability-edges.yml
@@ -181,17 +185,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/swaggerhub/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/agentic-access/swaggerhub-agentic-access.yml
+  href: https://artifacts.apis.io/swaggerhub/agentic-access/swaggerhub-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/swaggerhub-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/security/swaggerhub-domain-security.yml
+  href: https://artifacts.apis.io/swaggerhub/security/swaggerhub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/swaggerhub-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/authentication/swaggerhub-authentication.yml
+  href: https://artifacts.apis.io/swaggerhub/authentication/swaggerhub-authentication.yml
   title: ''
   type: Authentication
   url: authentication/swaggerhub-authentication.yml
@@ -273,11 +277,11 @@ examples:
   name: Swaggerhub Search Apis Example
   slug: swaggerhub-search-apis-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Swaggerhub Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: swaggerhub-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swaggerhub.png
@@ -299,7 +303,7 @@ modified: '2026-05-19'
 name: SwaggerHub
 nav: Providers
 network: true
-overview: 'SwaggerHub publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Domains API, Integrations API, Organizations API, and 6 more. Tagged areas include API Design, API Management, API Registry, Developer Tools, and Documentation.
+overview: 'SwaggerHub publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Domains API, Integrations API, Organizations API, and 7 more. Tagged areas include API Design, API Management, API Registry, Developer Tools, and Documentation.
 
 
   The SwaggerHub catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -308,7 +312,7 @@ overview: 'SwaggerHub publishes 9 API contracts indexed on the [APIs.io](https:/
   SwaggerHub''s developer surface includes authentication, developer portal, signup flow, documentation, getting-started guide, pricing, engineering blog, and 18 more developer resources.'
 plans:
 - name: Swaggerhub Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: swaggerhub-plans-pricing
 random_paper: 15
 rate_limits:
@@ -341,43 +345,44 @@ rules:
   slug: swaggerhub-rules
 score:
   band: developing
-  composite: 48.5
+  composite: 49.6
   coverage:
     artifact_dirs: 18
-    catalog_earned: 55.5
+    catalog_earned: 52.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -6.4
   facets:
-    access_clarity: 35.5
+    access_clarity: 44.7
     contract_governance: 13.6
-    contract_quality: 54.2
+    contract_quality: 53.9
     developer_ergonomics: 69.0
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 50.0
+    operational_transparency: 28.9
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 10
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/screenshots/swaggerhub-2026-06-20T194753.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/swaggerhub/swaggerhub-2026-06-20T194753.png
 security:
 - kind: authentication
   name: Swaggerhub Authentication

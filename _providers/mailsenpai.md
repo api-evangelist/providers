@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.6
-  scored_at: '2026-10-17'
+  score: 52.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -68,109 +70,114 @@ apis:
   description: The Website forms API from SMTP Senpai (MailSenpai) — 1 operation(s) for website forms.
   name: SMTP Senpai (MailSenpai) Website forms API
   slug: mailsenpai-website-forms-api
-artifact_total: 20
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Mailsenpai Webhooks
   slug: mailsenpai-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/mailsenpai/capabilities/mailsenpai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mailsenpai-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/agentic-access/mailsenpai-agentic-access.yml
+  href: https://artifacts.apis.io/mailsenpai/agentic-access/mailsenpai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mailsenpai-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/plans/mailsenpai-plans-pricing.yml
+  href: https://artifacts.apis.io/mailsenpai/plans/mailsenpai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mailsenpai-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/rules/mailsenpai-rules.yml
+  href: https://artifacts.apis.io/mailsenpai/rules/mailsenpai-rules.yml
   title: ''
   type: Spectral
   url: rules/mailsenpai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/json-ld/mailsenpai-context.jsonld
+  href: https://artifacts.apis.io/mailsenpai/json-ld/mailsenpai-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/mailsenpai-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/vocabulary/mailsenpai-vocabulary.yml
+  href: https://artifacts.apis.io/mailsenpai/vocabulary/mailsenpai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/mailsenpai-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mailsenpai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/asyncapi/mailsenpai-webhooks.yml
+  href: https://artifacts.apis.io/mailsenpai/asyncapi/mailsenpai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mailsenpai-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/data-model/mailsenpai-data-model.yml
+  href: https://artifacts.apis.io/mailsenpai/data-model/mailsenpai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mailsenpai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/conventions/mailsenpai-conventions.yml
+  href: https://artifacts.apis.io/mailsenpai/conventions/mailsenpai-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/mailsenpai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/conventions/mailsenpai-conventions.yml
+  href: https://artifacts.apis.io/mailsenpai/conventions/mailsenpai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mailsenpai-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/authentication/mailsenpai-authentication.yml
+  href: https://artifacts.apis.io/mailsenpai/authentication/mailsenpai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mailsenpai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/errors/mailsenpai-problem-types.yml
+  href: https://artifacts.apis.io/mailsenpai/errors/mailsenpai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mailsenpai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/conformance/mailsenpai-conformance.yml
+  href: https://artifacts.apis.io/mailsenpai/conformance/mailsenpai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mailsenpai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/llms/mailsenpai-llms.txt
+  href: https://artifacts.apis.io/mailsenpai/llms/mailsenpai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mailsenpai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/well-known/mailsenpai-gitlab-security.txt
+  href: https://artifacts.apis.io/mailsenpai/well-known/mailsenpai-gitlab-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/mailsenpai-gitlab-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/well-known/mailsenpai-well-known.yml
+  href: https://artifacts.apis.io/mailsenpai/well-known/mailsenpai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mailsenpai-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/hosts/mailsenpai-hosts.yml
+  href: https://artifacts.apis.io/mailsenpai/hosts/mailsenpai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/mailsenpai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/vendors/mailsenpai-vendors.yml
+  href: https://artifacts.apis.io/mailsenpai/vendors/mailsenpai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/mailsenpai-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/packages/mailsenpai-packages.yml
+  href: https://artifacts.apis.io/mailsenpai/packages/mailsenpai-packages.yml
   title: ''
   type: SDKs
   url: packages/mailsenpai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/packages/mailsenpai-packages.yml
+  href: https://artifacts.apis.io/mailsenpai/packages/mailsenpai-packages.yml
   title: ''
   type: Packages
   url: packages/mailsenpai-packages.yml
@@ -179,7 +186,7 @@ common:
   type: SignUp
   url: https://app.mailsenpai.com/customer/guest/register?lang=en
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/security/mailsenpai-domain-security.yml
+  href: https://artifacts.apis.io/mailsenpai/security/mailsenpai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mailsenpai-domain-security.yml
@@ -228,6 +235,14 @@ coverage:
   state: unreadable
 created: '2026-10-12'
 description: 'MailSenpai is an Italian email service for businesses, operating since 2016 with servers and data hosted in the European Union. It offers two products: an email marketing platform for newsletters and campaigns, and SMTP Senpai, a transactional email relay service with REST API and SMTP access. The service supports Italian and English support, provides DKIM signing, SPF/DKIM/DMARC checks, and detailed sending logs. Plans are tiered with a free trial and pricing in euros, targeting B2B outreach and marketing automation.'
+finops:
+- has_sources: true
+  method: derived
+  name: Mailsenpai Finops
+  primary_unit: seat
+  service_category: ''
+  slug: mailsenpai-finops
+  template: false
 image: https://en.mailsenpai.com/wp-content/uploads/2026/10/mailsenpai-og-en.jpg
 json_schemas:
 - name: Conteggi
@@ -258,17 +273,20 @@ modified: '2026-10-12'
 name: SMTP Senpai (MailSenpai)
 nav: Providers
 network: true
-overview: 'SMTP Senpai (MailSenpai) publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Log API, Sending API, and 4 more. Tagged areas include Email marketing, B2B outreach, SMTP relay, Artificial intelligence, and Newsletter platform.
+overview: 'SMTP Senpai (MailSenpai) publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Log API, Sending API, and 4 more. Tagged areas include Email Marketing, B2B outreach, SMTP relay, Artificial Intelligence, and Newsletter platform.
 
 
   The SMTP Senpai (MailSenpai) catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  SMTP Senpai (MailSenpai)''s developer surface includes authentication, signup flow, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
+  SMTP Senpai (MailSenpai)''s developer surface includes authentication, signup flow, documentation, API reference, getting-started guide, support, engineering blog, and 25 more developer resources.'
 plans:
 - name: Mailsenpai Plans Pricing
   plan_count: 4
   slug: mailsenpai-plans-pricing
+- name: Mailsenpai Price Estimates
+  plan_count: 0
+  slug: mailsenpai-price-estimates
 random_paper: 3
 rules:
 - authorship: generated
@@ -285,21 +303,28 @@ rules:
   slug: mailsenpai-rules
 score:
   band: strong
-  composite: 57.1
+  composite: 60.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 74.8
+    artifact_dirs: 25
+    catalog_earned: 77.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.3
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 35.6
-    contract_quality: 70.0
+    contract_quality: 72.2
     developer_ergonomics: 56.5
-    discoverability: 73.2
-    operational_transparency: 7.9
+    discoverability: 66.1
+    operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - italy
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -307,7 +332,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 6
     mcp: derived
     skills: derived
   regulatory:
@@ -320,11 +345,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Mailsenpai Authentication
@@ -334,12 +361,20 @@ security:
   name: Mailsenpai Domain Security
   slug: mailsenpai-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: mailsenpai-suppression-add-remove
+  slug: mailsenpai-suppression-add-remove
+- name: mailsenpai-webhook-setup-and-test
+  slug: mailsenpai-webhook-setup-and-test
+- name: mailsenpai-website-forms-submit-and-retrieve
+  slug: mailsenpai-website-forms-submit-and-retrieve
 slug: mailsenpai
 tags:
-- Email marketing
+- Email Marketing
 - B2B outreach
 - SMTP relay
-- Artificial intelligence
+- Artificial Intelligence
 - Newsletter platform
 website: https://en.mailsenpai.com/
 ---

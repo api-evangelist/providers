@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 21.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL_template: https://{unit}-{tenant}.instana.io
@@ -346,11 +348,8 @@ apis:
   description: The Website Metrics API from Instana — 3 operation(s) for website metrics.
   name: Instana Website Metrics API
   slug: instana-website-metrics-api
-artifact_total: 131
+artifact_total: 130
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Instana REST API documentation Action Catalog API
   slug: open-instana-action-catalog-api
@@ -542,12 +541,12 @@ collections:
   slug: open-instana
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/instana/refs/heads/main/rate-limits/instana-rate-limits.yml
+  href: https://artifacts.apis.io/instana/rate-limits/instana-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/instana-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/instana/refs/heads/main/finops/instana-finops.yml
+  href: https://artifacts.apis.io/instana/finops/instana-finops.yml
   title: ''
   type: FinOps
   url: finops/instana-finops.yml
@@ -556,12 +555,12 @@ common:
   type: Pricing
   url: https://www.ibm.com/products/instana/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/instana/refs/heads/main/plans/instana-plans-pricing.yml
+  href: https://artifacts.apis.io/instana/plans/instana-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/instana-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instana/refs/heads/main/capabilities/instana-capability-edges.yml
+  href: https://artifacts.apis.io/instana/capabilities/instana-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/instana-capability-edges.yml
@@ -570,12 +569,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/ibm/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instana/refs/heads/main/security/instana-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/instana/security/instana-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/instana-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instana/refs/heads/main/security/instana-domain-security.yml
+  href: https://artifacts.apis.io/instana/security/instana-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/instana-domain-security.yml
@@ -601,7 +600,7 @@ finops:
 - has_sources: false
   method: generated
   name: Instana Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: instana-finops
   template: true
@@ -619,14 +618,14 @@ plans:
 - name: Instana Plans Pricing
   plan_count: 7
   slug: instana-plans-pricing
-random_paper: 2
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Instana Rate Limits
   slug: instana-rate-limits
 score:
   band: thin
-  composite: 31.3
+  composite: 30.6
   coverage:
     artifact_dirs: 10
     catalog_earned: 42.0
@@ -634,15 +633,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -0.7
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
-    contract_quality: 51.2
+    contract_quality: 47.8
     developer_ergonomics: 14.3
     discoverability: 48.2
-    operational_transparency: 10.5
-  previous_composite: 32.8
+    operational_transparency: 23.7
+  previous_composite: 31.3
   provenance:
     contracts:
       callable: 100.0
@@ -655,13 +654,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/instana/refs/heads/main/screenshots/instana-2026-06-20T183421.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/instana/instana-2026-06-20T183421.png
 security:
 - kind: domain-security
   name: Instana Domain Security

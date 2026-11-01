@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/milaboratories/refs/heads/main/security/milaboratories-domain-security.yml
+  href: https://artifacts.apis.io/milaboratories/security/milaboratories-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/milaboratories-domain-security.yml
@@ -90,27 +92,27 @@ common:
   type: Download
   url: https://platforma.bio/downloads
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/milaboratories/refs/heads/main/packages/milaboratories-packages.yml
+  href: https://artifacts.apis.io/milaboratories/packages/milaboratories-packages.yml
   title: ''
   type: Packages
   url: packages/milaboratories-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/milaboratories/refs/heads/main/packages/milaboratories-packages.yml
+  href: https://artifacts.apis.io/milaboratories/packages/milaboratories-packages.yml
   title: ''
   type: SDKs
   url: packages/milaboratories-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/milaboratories/refs/heads/main/cli/milaboratories-cli.yml
+  href: https://artifacts.apis.io/milaboratories/cli/milaboratories-cli.yml
   title: ''
   type: CLI
   url: cli/milaboratories-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/milaboratories/refs/heads/main/changelog/milaboratories-changelog.yml
+  href: https://artifacts.apis.io/milaboratories/changelog/milaboratories-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/milaboratories-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/milaboratories/refs/heads/main/llms/milaboratories-llms.txt
+  href: https://artifacts.apis.io/milaboratories/llms/milaboratories-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/milaboratories-llms.txt
@@ -126,12 +128,12 @@ overview: 'Milaboratories is profiled on the [APIs.io](https://apis.io/) network
 
 
   Milaboratories'' developer surface includes documentation, API reference, getting-started guide, SDKs, engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 5
+random_paper: 13
 score:
   band: emerging
-  composite: 22.0
+  composite: 23.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -142,24 +144,24 @@ score:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 52.4
-    discoverability: 55.4
-    operational_transparency: 18.4
-  previous_composite: 22.0
+    developer_ergonomics: 59.5
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 23.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/milaboratories/refs/heads/main/screenshots/milaboratories-2026-08-07T172907.png
+screenshot: https://apis.io/screenshots/milaboratories/milaboratories-2026-08-07T172907.png
 security:
 - kind: domain-security
   name: Milaboratories Domain Security

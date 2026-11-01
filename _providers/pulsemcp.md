@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Public v0.1 API for browsing MCP servers, server versions, and ecosystem metadata in the PulseMCP Registry. Implements the Generic MCP Registry API specification with PulseMCP enrichments (popularity,
@@ -41,62 +43,62 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/plans/pulsemcp-plans-pricing.yml
+  href: https://artifacts.apis.io/pulsemcp/plans/pulsemcp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pulsemcp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/rate-limits/pulsemcp-rate-limits.yml
+  href: https://artifacts.apis.io/pulsemcp/rate-limits/pulsemcp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pulsemcp-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/security/pulsemcp-domain-security.yml
+  href: https://artifacts.apis.io/pulsemcp/security/pulsemcp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pulsemcp-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/packages/pulsemcp-packages.yml
+  href: https://artifacts.apis.io/pulsemcp/packages/pulsemcp-packages.yml
   title: ''
   type: Packages
   url: packages/pulsemcp-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/packages/pulsemcp-packages.yml
+  href: https://artifacts.apis.io/pulsemcp/packages/pulsemcp-packages.yml
   title: ''
   type: SDKs
   url: packages/pulsemcp-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/mcp/pulsemcp-mcp.yml
+  href: https://artifacts.apis.io/pulsemcp/mcp/pulsemcp-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/pulsemcp-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/mcp/pulsemcp-tool-crosswalk.yml
+  href: https://artifacts.apis.io/pulsemcp/mcp/pulsemcp-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/pulsemcp-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pulsemcp/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/llms/pulsemcp-llms.txt
+  href: https://artifacts.apis.io/pulsemcp/llms/pulsemcp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pulsemcp-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/cli/pulsemcp-cli.yml
+  href: https://artifacts.apis.io/pulsemcp/cli/pulsemcp-cli.yml
   title: ''
   type: CLI
   url: cli/pulsemcp-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/changelog/pulsemcp-changelog.yml
+  href: https://artifacts.apis.io/pulsemcp/changelog/pulsemcp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pulsemcp-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/conformance/pulsemcp-conformance.yml
+  href: https://artifacts.apis.io/pulsemcp/conformance/pulsemcp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pulsemcp-conformance.yml
@@ -204,30 +206,30 @@ plans:
 - name: Pulsemcp Plans Pricing
   plan_count: 0
   slug: pulsemcp-plans-pricing
-random_paper: 15
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Pulsemcp Rate Limits
   slug: pulsemcp-rate-limits
 score:
   band: thin
-  composite: 35.8
+  composite: 35.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 66.7
-    discoverability: 71.7
-    operational_transparency: 50.0
-  previous_composite: 35.7
+    discoverability: 65.0
+    operational_transparency: 52.6
+  previous_composite: 35.5
   provenance:
     conformance: derived
     mcp: first-party
@@ -238,14 +240,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pulsemcp/refs/heads/main/screenshots/pulsemcp-2026-06-20T192300.png
+screenshot: https://apis.io/screenshots/pulsemcp/pulsemcp-2026-06-20T192300.png
 security:
 - kind: authentication
   name: Pulsemcp Authentication

@@ -9,21 +9,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.6
-  scored_at: '2026-10-17'
+  score: 31.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,39 +38,44 @@ apis:
 - description: The utility API from EDB — 2 operation(s) for utility.
   name: EDB Utility API
   slug: enterprisedb-utility-api
-artifact_total: 8
+artifact_total: 10
 common:
+- group: commercial
+  href: https://artifacts.apis.io/enterprisedb/plans/enterprisedb-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/enterprisedb-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.enterprisedb.com/blog/rss.xml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/agentic-access/enterprisedb-agentic-access.yml
+  href: https://artifacts.apis.io/enterprisedb/agentic-access/enterprisedb-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/enterprisedb-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/rules/enterprisedb-rules.yml
+  href: https://artifacts.apis.io/enterprisedb/rules/enterprisedb-rules.yml
   title: ''
   type: Spectral
   url: rules/enterprisedb-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/json-ld/enterprisedb-context.jsonld
+  href: https://artifacts.apis.io/enterprisedb/json-ld/enterprisedb-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/enterprisedb-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/vocabulary/enterprisedb-vocabulary.yml
+  href: https://artifacts.apis.io/enterprisedb/vocabulary/enterprisedb-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/enterprisedb-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/data-model/enterprisedb-data-model.yml
+  href: https://artifacts.apis.io/enterprisedb/data-model/enterprisedb-data-model.yml
   title: ''
   type: DataModel
   url: data-model/enterprisedb-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/changelog/enterprisedb-changelog.yml
+  href: https://artifacts.apis.io/enterprisedb/changelog/enterprisedb-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/enterprisedb-changelog.yml
@@ -77,67 +84,67 @@ common:
   type: Compliance
   url: https://trust.enterprisedb.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/security/enterprisedb-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/enterprisedb/security/enterprisedb-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/enterprisedb-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/errors/enterprisedb-problem-types.yml
+  href: https://artifacts.apis.io/enterprisedb/errors/enterprisedb-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/enterprisedb-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/conformance/enterprisedb-conformance.yml
+  href: https://artifacts.apis.io/enterprisedb/conformance/enterprisedb-conformance.yml
   title: ''
   type: Conformance
   url: conformance/enterprisedb-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/llms/enterprisedb-llms.txt
+  href: https://artifacts.apis.io/enterprisedb/llms/enterprisedb-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/enterprisedb-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/well-known/enterprisedb-training-security.txt
+  href: https://artifacts.apis.io/enterprisedb/well-known/enterprisedb-training-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/enterprisedb-training-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/well-known/enterprisedb-status-security.txt
+  href: https://artifacts.apis.io/enterprisedb/well-known/enterprisedb-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/enterprisedb-status-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/well-known/enterprisedb-security.txt
+  href: https://artifacts.apis.io/enterprisedb/well-known/enterprisedb-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/enterprisedb-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/well-known/enterprisedb-enterprisedb-security.txt
+  href: https://artifacts.apis.io/enterprisedb/well-known/enterprisedb-enterprisedb-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/enterprisedb-enterprisedb-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/well-known/enterprisedb-well-known.yml
+  href: https://artifacts.apis.io/enterprisedb/well-known/enterprisedb-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/enterprisedb-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/hosts/enterprisedb-hosts.yml
+  href: https://artifacts.apis.io/enterprisedb/hosts/enterprisedb-hosts.yml
   title: ''
   type: Hosts
   url: hosts/enterprisedb-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/vendors/enterprisedb-vendors.yml
+  href: https://artifacts.apis.io/enterprisedb/vendors/enterprisedb-vendors.yml
   title: ''
   type: Vendors
   url: vendors/enterprisedb-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/packages/enterprisedb-packages.yml
+  href: https://artifacts.apis.io/enterprisedb/packages/enterprisedb-packages.yml
   title: ''
   type: SDKs
   url: packages/enterprisedb-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/packages/enterprisedb-packages.yml
+  href: https://artifacts.apis.io/enterprisedb/packages/enterprisedb-packages.yml
   title: ''
   type: Packages
   url: packages/enterprisedb-packages.yml
@@ -174,17 +181,17 @@ common:
   type: GettingStarted
   url: https://www.enterprisedb.com/docs/repos/getting_started/get_your_token
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/security/enterprisedb-trust-center.yml
+  href: https://artifacts.apis.io/enterprisedb/security/enterprisedb-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/enterprisedb-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/security/enterprisedb-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/enterprisedb/security/enterprisedb-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/enterprisedb-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/security/enterprisedb-domain-security.yml
+  href: https://artifacts.apis.io/enterprisedb/security/enterprisedb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/enterprisedb-domain-security.yml
@@ -202,6 +209,14 @@ common:
   url: https://www.enterprisedb.com/blog
 created: '2026-10-03'
 description: EnterpriseDB (EDB) provides enterprise-class PostgreSQL solutions, including the EDB Postgres Platform, advanced management tools, and support services. The company helps organizations deploy, manage, and scale PostgreSQL databases on-premises, in the cloud, and in hybrid environments, offering features like high availability, performance optimization, and AI-driven analytics. EDB’s portfolio includes EDB Postgres Advanced Server, EDB Postgres Distributed, and cloud-native offerings, catering to enterprises seeking robust, open-source database solutions with enterprise-grade support and tooling.
+finops:
+- has_sources: true
+  method: derived
+  name: Enterprisedb Finops
+  primary_unit: ''
+  service_category: ''
+  slug: enterprisedb-finops
+  template: true
 image: https://enterprisedb.com/sites/default/files/2025-06/edb-logo-2025_default-og-image.jpg
 json_schemas:
 - name: DiagnoseOutput
@@ -223,8 +238,12 @@ overview: 'EDB publishes 1 API contract indexed on the [APIs.io](https://apis.io
   The EDB catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  EDB''s developer surface includes changelog, support, pricing, getting-started guide, documentation, engineering blog, and 29 more developer resources.'
-random_paper: 11
+  EDB''s developer surface includes changelog, support, pricing, getting-started guide, documentation, engineering blog, and 30 more developer resources.'
+plans:
+- name: Enterprisedb Plans Pricing
+  plan_count: 0
+  slug: enterprisedb-plans-pricing
+random_paper: 15
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -240,23 +259,23 @@ rules:
   slug: enterprisedb-rules
 score:
   band: developing
-  composite: 49.0
+  composite: 48.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 54.2
     catalog_earned_first_party: 0.0
     catalog_gap: 60.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 22.0
     contract_quality: 47.9
     developer_ergonomics: 35.7
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 42.1
-  previous_composite: 55.7
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,14 +291,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/screenshots/enterprisedb-2026-10-11T104218.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/enterprisedb/enterprisedb-2026-10-11T104218.png
 security:
 - kind: domain-security
   name: Enterprisedb Domain Security

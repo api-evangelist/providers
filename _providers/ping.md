@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Ping++ REST payments API — create and query Charges, Refunds, Transfers (enterprise payouts), Red Envelopes, Orders, Users, Recharges, Withdrawals, Coupons and Royalties across WeChat Pay, Alipay, Uni
   name: Ping++ Payments API
   slug: ping-payments-api
-artifact_total: 4
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Ping Webhooks
@@ -104,77 +106,77 @@ common:
   type: StatusPage
   url: https://status.pingxx.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/authentication/ping-authentication.yml
+  href: https://artifacts.apis.io/ping/authentication/ping-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ping-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/conventions/ping-conventions.yml
+  href: https://artifacts.apis.io/ping/conventions/ping-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ping-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/errors/ping-error-codes.yml
+  href: https://artifacts.apis.io/ping/errors/ping-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ping-error-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/errors/ping-error-codes.yml
+  href: https://artifacts.apis.io/ping/errors/ping-error-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/ping-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/asyncapi/ping-webhooks.yml
+  href: https://artifacts.apis.io/ping/asyncapi/ping-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ping-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/lifecycle/ping-lifecycle.yml
+  href: https://artifacts.apis.io/ping/lifecycle/ping-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ping-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/changelog/ping-changelog.yml
+  href: https://artifacts.apis.io/ping/changelog/ping-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ping-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/packages/ping-packages.yml
+  href: https://artifacts.apis.io/ping/packages/ping-packages.yml
   title: ''
   type: Packages
   url: packages/ping-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/packages/ping-packages.yml
+  href: https://artifacts.apis.io/ping/packages/ping-packages.yml
   title: ''
   type: SDKs
   url: packages/ping-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/mcp/ping-mcp.yml
+  href: https://artifacts.apis.io/ping/mcp/ping-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ping-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/llms/ping-llms.txt
+  href: https://artifacts.apis.io/ping/llms/ping-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ping-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/data-model/ping-data-model.yml
+  href: https://artifacts.apis.io/ping/data-model/ping-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ping-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/sandbox/ping-sandbox.yml
+  href: https://artifacts.apis.io/ping/sandbox/ping-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ping-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/security/ping-domain-security.yml
+  href: https://artifacts.apis.io/ping/security/ping-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ping-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ping/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -193,25 +195,25 @@ overview: 'Ping++ is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Ping++''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 12
+random_paper: 22
 score:
   band: developing
-  composite: 43.2
+  composite: 45.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 42.1
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -219,7 +221,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 43.1
+  previous_composite: 45.5
   provenance:
     mcp: derived
     skills: derived
@@ -229,14 +231,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ping/refs/heads/main/screenshots/ping-2026-08-17T081244.png
+screenshot: https://apis.io/screenshots/ping/ping-2026-08-17T081244.png
 security:
 - kind: authentication
   name: Ping Authentication
@@ -246,6 +248,14 @@ security:
   name: Ping Domain Security
   slug: ping-domain-security
   summary_line: TLSv1.2
+skill_count: 3
+skills:
+- name: Accept a payment (create and confirm a Charge)
+  slug: ping-accept-a-payment
+- name: Send an enterprise payout (Transfer)
+  slug: ping-enterprise-payout
+- name: Refund a charge and reconcile
+  slug: ping-refund-a-charge
 slug: ping
 tags:
 - Company

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,21 +51,23 @@ apis:
   description: Create, read, list, estimate and cancel local courier deliveries.
   name: Metrobi Deliveries API
   slug: metrobi-deliveries-api
-artifact_total: 7
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Metrobi Delivery Webhooks
   slug: metrobi-delivery-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Metrobi Delivery Deliveries API
   slug: open-metrobi-deliveries-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/metrobi/plans/metrobi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/metrobi-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/capabilities/metrobi-capability-edges.yml
+  href: https://artifacts.apis.io/metrobi/capabilities/metrobi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/metrobi-capability-edges.yml
@@ -112,77 +116,77 @@ common:
   type: PrivacyPolicy
   url: https://metrobi.com/privacy-policy/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/openapi/_original/metrobi-delivery-api-openapi.json
+  href: https://artifacts.apis.io/metrobi/openapi/_original/metrobi-delivery-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/metrobi-delivery-api-openapi.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/overlays/metrobi-delivery-api-overlay.yaml
+  href: https://artifacts.apis.io/metrobi/overlays/metrobi-delivery-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/metrobi-delivery-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/authentication/metrobi-authentication.yml
+  href: https://artifacts.apis.io/metrobi/authentication/metrobi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/metrobi-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/conventions/metrobi-conventions.yml
+  href: https://artifacts.apis.io/metrobi/conventions/metrobi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/metrobi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/errors/metrobi-problem-types.yml
+  href: https://artifacts.apis.io/metrobi/errors/metrobi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/metrobi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/lifecycle/metrobi-lifecycle.yml
+  href: https://artifacts.apis.io/metrobi/lifecycle/metrobi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/metrobi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/conformance/metrobi-conformance.yml
+  href: https://artifacts.apis.io/metrobi/conformance/metrobi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/metrobi-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/data-model/metrobi-data-model.yml
+  href: https://artifacts.apis.io/metrobi/data-model/metrobi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/metrobi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/asyncapi/metrobi-delivery-webhooks.yml
+  href: https://artifacts.apis.io/metrobi/asyncapi/metrobi-delivery-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/metrobi-delivery-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/mcp/metrobi-mcp.yml
+  href: https://artifacts.apis.io/metrobi/mcp/metrobi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/metrobi-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/llms/metrobi-llms.txt
+  href: https://artifacts.apis.io/metrobi/llms/metrobi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/metrobi-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/skills/metrobi-book-local-delivery.md
+  href: https://artifacts.apis.io/metrobi/skills/metrobi-book-local-delivery.md
   title: ''
   type: AgentSkill
   url: skills/metrobi-book-local-delivery.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/skills/metrobi-manage-deliveries.md
+  href: https://artifacts.apis.io/metrobi/skills/metrobi-manage-deliveries.md
   title: ''
   type: AgentSkill
   url: skills/metrobi-manage-deliveries.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/agentic-access/metrobi-agentic-access.yml
+  href: https://artifacts.apis.io/metrobi/agentic-access/metrobi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/metrobi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/security/metrobi-domain-security.yml
+  href: https://artifacts.apis.io/metrobi/security/metrobi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/metrobi-domain-security.yml
@@ -192,6 +196,14 @@ common:
   url: https://metrobi.com/
 created: '2026-07-17'
 description: Metrobi is a Boston-based local same-day delivery and courier platform for businesses — bakeries, caterers, florists, coffee roasters, meal-prep and wholesale food & beverage makers — covering the top 18 US metropolitan areas. Its fulfillment platform handles delivery management, route optimization, receiver notifications, live tracking and driver dispatch across a network of contractor drivers, plus tools for teams running their own in-house drivers. The Metrobi Delivery API lets platforms programmatically estimate, create, read, list and cancel local deliveries and receive real-time status updates via per-delivery webhooks.
+finops:
+- has_sources: true
+  method: derived
+  name: Metrobi Finops
+  primary_unit: ''
+  service_category: ''
+  slug: metrobi-finops
+  template: true
 image: https://metrobi.com/wp-content/uploads/2023/06/website-thumbnail.jpg
 layout: provider
 modified: '2026-07-20'
@@ -204,25 +216,29 @@ overview: 'Metrobi publishes 1 API contract indexed on the [APIs.io](https://api
   The Metrobi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Metrobi''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 21 more developer resources.'
-random_paper: 6
+  Metrobi''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 22 more developer resources.'
+plans:
+- name: Metrobi Plans Pricing
+  plan_count: 1
+  slug: metrobi-plans-pricing
+random_paper: 10
 score:
   band: developing
-  composite: 41.9
+  composite: 48.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 44.7
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 57.6
-    developer_ergonomics: 44.6
-    discoverability: 73.2
+    developer_ergonomics: 58.9
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -231,7 +247,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 41.8
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,13 +264,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/screenshots/metrobi-2026-08-07T172751.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/metrobi/metrobi-2026-08-07T172751.png
 security:
 - kind: authentication
   name: Metrobi Authentication
@@ -264,6 +281,12 @@ security:
   name: Metrobi Domain Security
   slug: metrobi-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Book a local courier delivery with Metrobi
+  slug: metrobi-book-local-delivery
+- name: List, read, and cancel Metrobi deliveries
+  slug: metrobi-manage-deliveries
 slug: metrobi
 tags:
 - Company

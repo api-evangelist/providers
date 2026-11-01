@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 14
   slug: geoinsight-agentic-access
   summary_line: 14 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.geoinsight.ai
   baseurl_source: declared
@@ -91,10 +93,30 @@ apis:
   description: The Zones API from GeoInsight — 2 operation(s) for zones.
   name: GeoInsight Zones API
   slug: geoinsight-zones-api
-artifact_total: 14
+- baseURL: https://api.geoinsight.ai
+  baseurl_source: declared
+  description: The Concept ID API from GeoInsight — 1 operation(s) for concept id.
+  name: GeoInsight Concept ID API
+  slug: geoinsight-concept-id-api
+- baseURL: https://api.geoinsight.ai
+  baseurl_source: declared
+  description: The Concepts API from GeoInsight — 1 operation(s) for concepts.
+  name: GeoInsight Concepts API
+  slug: geoinsight-concepts-api
+- baseURL: https://api.geoinsight.ai
+  baseurl_source: declared
+  description: The Conformance API from GeoInsight — 1 operation(s) for conformance.
+  name: GeoInsight Conformance API
+  slug: geoinsight-conformance-api
+- baseURL: https://api.geoinsight.ai
+  baseurl_source: declared
+  description: The Orders API from GeoInsight — 4 operation(s) for orders.
+  name: GeoInsight Orders API
+  slug: geoinsight-orders-api
+artifact_total: 21
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/agentic-access/geoinsight-agentic-access.yml
+  href: https://artifacts.apis.io/geoinsight/agentic-access/geoinsight-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/geoinsight-agentic-access.yml
@@ -131,82 +153,82 @@ common:
   type: Support
   url: mailto:info@geoinsight.ai
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/_original/geoinsight-ogc-api-dggs-openapi.yml
+  href: https://artifacts.apis.io/geoinsight/openapi/_original/geoinsight-ogc-api-dggs-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/geoinsight-ogc-api-dggs-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/authentication/geoinsight-authentication.yml
+  href: https://artifacts.apis.io/geoinsight/authentication/geoinsight-authentication.yml
   title: ''
   type: Authentication
   url: authentication/geoinsight-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/conventions/geoinsight-conventions.yml
+  href: https://artifacts.apis.io/geoinsight/conventions/geoinsight-conventions.yml
   title: ''
   type: Conventions
   url: conventions/geoinsight-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/data-model/geoinsight-data-model.yml
+  href: https://artifacts.apis.io/geoinsight/data-model/geoinsight-data-model.yml
   title: ''
   type: DataModel
   url: data-model/geoinsight-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/errors/geoinsight-problem-types.yml
+  href: https://artifacts.apis.io/geoinsight/errors/geoinsight-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/geoinsight-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/lifecycle/geoinsight-lifecycle.yml
+  href: https://artifacts.apis.io/geoinsight/lifecycle/geoinsight-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/geoinsight-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/conformance/geoinsight-conformance.yml
+  href: https://artifacts.apis.io/geoinsight/conformance/geoinsight-conformance.yml
   title: ''
   type: Conformance
   url: conformance/geoinsight-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/overlays/geoinsight-ogc-api-dggs-overlay.yaml
+  href: https://artifacts.apis.io/geoinsight/overlays/geoinsight-ogc-api-dggs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/geoinsight-ogc-api-dggs-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/packages/geoinsight-packages.yml
+  href: https://artifacts.apis.io/geoinsight/packages/geoinsight-packages.yml
   title: ''
   type: Packages
   url: packages/geoinsight-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/packages/geoinsight-packages.yml
+  href: https://artifacts.apis.io/geoinsight/packages/geoinsight-packages.yml
   title: ''
   type: SDKs
   url: packages/geoinsight-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/mcp/geoinsight-tool-crosswalk.yml
+  href: https://artifacts.apis.io/geoinsight/mcp/geoinsight-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/geoinsight-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/llms/geoinsight-llms.txt
+  href: https://artifacts.apis.io/geoinsight/llms/geoinsight-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/geoinsight-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/geoinsight/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/plans/geoinsight-plans-pricing.yml
+  href: https://artifacts.apis.io/geoinsight/plans/geoinsight-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/geoinsight-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/rate-limits/geoinsight-rate-limits.yml
+  href: https://artifacts.apis.io/geoinsight/rate-limits/geoinsight-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/geoinsight-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/security/geoinsight-domain-security.yml
+  href: https://artifacts.apis.io/geoinsight/security/geoinsight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/geoinsight-domain-security.yml
@@ -219,7 +241,7 @@ modified: '2026-09-16'
 name: GeoInsight
 nav: Providers
 network: true
-overview: 'GeoInsight publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Collection ID API, Collections API, Data API, and 6 more. Tagged areas include Geospatial, DGGS, Discrete Global Grid System, Earth Observation, and Remote Sensing.
+overview: 'GeoInsight publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Collection ID API, Collections API, Data API, and 10 more. Tagged areas include Geospatial, DGGS, Discrete Global Grid System, Earth Observation, and Remote Sensing.
 
 
   GeoInsight''s developer surface includes documentation, API reference, sandbox, support, authentication, and 20 more developer resources.'
@@ -234,7 +256,7 @@ rate_limits:
   slug: geoinsight-rate-limits
 score:
   band: thin
-  composite: 33.6
+  composite: 32.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -242,11 +264,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.1
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 38.0
+    contract_quality: 34.2
     developer_ergonomics: 58.9
     discoverability: 66.1
     operational_transparency: 0.0
@@ -255,15 +277,15 @@ score:
     countries:
     - germany
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 33.5
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 9
+      callable: 4.3
+      derived: 1
+      marker_coverage: 4.3
+      total: 23
     mcp: derived
     skills: derived
   regulatory:
@@ -272,14 +294,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 19.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/screenshots/geoinsight-2026-09-02T145559.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/geoinsight/geoinsight-2026-09-02T145559.png
 security:
 - kind: authentication
   name: Geoinsight Authentication
@@ -289,6 +311,14 @@ security:
   name: Geoinsight Domain Security
   slug: geoinsight-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Discover GeoInsight collections and grids
+  slug: geoinsight-discover-collections-and-grids
+- name: Fetch a GeoInsight Spatial Token for a zone
+  slug: geoinsight-fetch-spatial-token
+- name: Query a GeoInsight collection with CQL2
+  slug: geoinsight-query-features-with-cql2
 slug: geoinsight
 tags:
 - Geospatial

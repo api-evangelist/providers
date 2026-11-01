@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -55,7 +57,7 @@ apis:
 - description: Unauthenticated read-only JSON endpoints the store's own agent instructions publish for agents that only need to read catalog data - all products, a single product by handle, and the products in a col
   name: OLIPOP Storefront Product JSON
   slug: olipop-storefront-product-json
-artifact_total: 8
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -94,87 +96,87 @@ common:
   type: PrivacyPolicy
   url: https://drinkolipop.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/llms/olipop-llms.txt
+  href: https://artifacts.apis.io/olipop/llms/olipop-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/olipop-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/mcp/olipop-mcp.yml
+  href: https://artifacts.apis.io/olipop/mcp/olipop-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/olipop-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/mcp/olipop-tool-crosswalk.yml
+  href: https://artifacts.apis.io/olipop/mcp/olipop-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/olipop-tool-crosswalk.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/graphql/olipop-storefront.graphql
+  href: https://artifacts.apis.io/olipop/graphql/olipop-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/olipop-storefront.graphql
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/well-known/olipop-well-known.yml
+  href: https://artifacts.apis.io/olipop/well-known/olipop-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/olipop-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/authentication/olipop-authentication.yml
+  href: https://artifacts.apis.io/olipop/authentication/olipop-authentication.yml
   title: ''
   type: Authentication
   url: authentication/olipop-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/scopes/olipop-scopes.yml
+  href: https://artifacts.apis.io/olipop/scopes/olipop-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/olipop-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/well-known/olipop-openid-configuration.json
+  href: https://artifacts.apis.io/olipop/well-known/olipop-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/olipop-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/conventions/olipop-conventions.yml
+  href: https://artifacts.apis.io/olipop/conventions/olipop-conventions.yml
   title: ''
   type: Conventions
   url: conventions/olipop-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/conventions/olipop-conventions.yml
+  href: https://artifacts.apis.io/olipop/conventions/olipop-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/olipop-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/conformance/olipop-conformance.yml
+  href: https://artifacts.apis.io/olipop/conformance/olipop-conformance.yml
   title: ''
   type: Conformance
   url: conformance/olipop-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/lifecycle/olipop-lifecycle.yml
+  href: https://artifacts.apis.io/olipop/lifecycle/olipop-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/olipop-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/errors/olipop-problem-types.yml
+  href: https://artifacts.apis.io/olipop/errors/olipop-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/olipop-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/data-model/olipop-data-model.yml
+  href: https://artifacts.apis.io/olipop/data-model/olipop-data-model.yml
   title: ''
   type: DataModel
   url: data-model/olipop-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/agentic-access/olipop-agentic-access.yml
+  href: https://artifacts.apis.io/olipop/agentic-access/olipop-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/olipop-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/olipop/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/security/olipop-domain-security.yml
+  href: https://artifacts.apis.io/olipop/security/olipop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/olipop-domain-security.yml
@@ -194,7 +196,7 @@ overview: 'Olipop is listed with 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Olipop''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 21
+random_paper: 11
 scopes:
 - name: Olipop Scopes
   scope_count: 4
@@ -202,7 +204,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 30.0
+  composite: 29.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -210,15 +212,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 10.4
     developer_ergonomics: 37.5
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 0.0
-  previous_composite: 29.9
+  previous_composite: 29.0
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -230,14 +232,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/screenshots/olipop-2026-08-07T190120.png
+screenshot: https://apis.io/screenshots/olipop/olipop-2026-08-07T190120.png
 security:
 - kind: authentication
   name: Olipop Authentication
@@ -247,6 +249,14 @@ security:
   name: Olipop Domain Security
   slug: olipop-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Buy OLIPOP as an agent over UCP/MCP
+  slug: olipop-agent-purchase
+- name: Browse the OLIPOP catalog without enrolling
+  slug: olipop-browse-catalog
+- name: Query the OLIPOP storefront with GraphQL
+  slug: olipop-storefront-graphql
 slug: olipop
 tags:
 - Beverages

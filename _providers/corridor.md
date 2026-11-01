@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-17'
+  score: 23.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: Manage team configuration, members, and permissions.
   name: Corridor Teams API
   slug: corridor-teams-api
-artifact_total: 18
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Corridor Dashboard API
   slug: open-corridor-dashboard-api
@@ -96,7 +95,7 @@ collections:
   slug: open-corridor-teams-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/overlays/corridor-openapi-overlay.yaml
+  href: https://artifacts.apis.io/corridor/overlays/corridor-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/corridor-openapi-overlay.yaml
@@ -153,32 +152,32 @@ common:
   type: ChangeLog
   url: https://docs.corridor.dev/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/mcp/corridor-mcp.yml
+  href: https://artifacts.apis.io/corridor/mcp/corridor-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/corridor-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/cli/corridor-cli.yml
+  href: https://artifacts.apis.io/corridor/cli/corridor-cli.yml
   title: ''
   type: CLI
   url: cli/corridor-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/llms/corridor-llms.txt
+  href: https://artifacts.apis.io/corridor/llms/corridor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/corridor-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/well-known/corridor-well-known.yml
+  href: https://artifacts.apis.io/corridor/well-known/corridor-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/corridor-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/well-known/corridor-security.txt
+  href: https://artifacts.apis.io/corridor/well-known/corridor-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/corridor-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/lifecycle/corridor-lifecycle.yml
+  href: https://artifacts.apis.io/corridor/lifecycle/corridor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/corridor-lifecycle.yml
@@ -191,37 +190,37 @@ common:
   type: Security
   url: https://corridor.dev/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/security/corridor-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/corridor/security/corridor-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/corridor-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/security/corridor-domain-security.yml
+  href: https://artifacts.apis.io/corridor/security/corridor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/corridor-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/authentication/corridor-authentication.yml
+  href: https://artifacts.apis.io/corridor/authentication/corridor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/corridor-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/changelog/corridor-changelog.yml
+  href: https://artifacts.apis.io/corridor/changelog/corridor-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/corridor-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/skills/corridor-triage-findings.md
+  href: https://artifacts.apis.io/corridor/skills/corridor-triage-findings.md
   title: ''
   type: AgentSkill
   url: skills/corridor-triage-findings.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/skills/corridor-manage-guardrails.md
+  href: https://artifacts.apis.io/corridor/skills/corridor-manage-guardrails.md
   title: ''
   type: AgentSkill
   url: skills/corridor-manage-guardrails.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/skills/corridor-pr-review-lookup.md
+  href: https://artifacts.apis.io/corridor/skills/corridor-pr-review-lookup.md
   title: ''
   type: AgentSkill
   url: skills/corridor-pr-review-lookup.md
@@ -241,10 +240,10 @@ overview: 'Corridor publishes 6 API contracts indexed on the [APIs.io](https://a
 
 
   Corridor''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
-random_paper: 10
+random_paper: 4
 score:
-  band: thin
-  composite: 35.9
+  band: developing
+  composite: 42.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -254,13 +253,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 13.4
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 26.3
-  previous_composite: 35.9
+    discoverability: 65.0
+    operational_transparency: 42.1
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,14 +275,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/screenshots/corridor-2026-07-25T210442.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/corridor/corridor-2026-07-25T210442.png
 security:
 - kind: authentication
   name: Corridor Authentication
@@ -301,6 +301,14 @@ security:
   name: Corridor Trust Center
   slug: corridor-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Manage Corridor project guardrails
+  slug: corridor-manage-guardrails
+- name: Look up Corridor PR security reviews
+  slug: corridor-pr-review-lookup
+- name: Triage Corridor security findings
+  slug: corridor-triage-findings
 slug: corridor
 tags:
 - Company

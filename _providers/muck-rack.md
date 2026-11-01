@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Read-only REST API providing programmatic access to the article data behind a Muck Rack Saved Search. Sold as an add-on to Premier-tier subscriptions; authenticated with an organization API key presen
@@ -45,7 +47,7 @@ apis:
 artifact_total: 7
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/muck-rack/refs/heads/main/rate-limits/muck-rack-rate-limits.yml
+  href: https://artifacts.apis.io/muck-rack/rate-limits/muck-rack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/muck-rack-rate-limits.yml
@@ -54,7 +56,7 @@ common:
   type: BlogRSS
   url: https://muckrack.com/blog/feed.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/muck-rack/refs/heads/main/security/muck-rack-domain-security.yml
+  href: https://artifacts.apis.io/muck-rack/security/muck-rack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/muck-rack-domain-security.yml
@@ -107,32 +109,32 @@ common:
   type: TrustCenter
   url: https://trust.muckrack.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/muck-rack/refs/heads/main/conformance/muck-rack-conformance.yml
+  href: https://artifacts.apis.io/muck-rack/conformance/muck-rack-conformance.yml
   title: ''
   type: Compliance
   url: conformance/muck-rack-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/muck-rack/refs/heads/main/packages/muck-rack-packages.yml
+  href: https://artifacts.apis.io/muck-rack/packages/muck-rack-packages.yml
   title: ''
   type: Packages
   url: packages/muck-rack-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/muck-rack/refs/heads/main/plans/muck-rack-plans-pricing.yml
+  href: https://artifacts.apis.io/muck-rack/plans/muck-rack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/muck-rack-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/muck-rack/refs/heads/main/security/muck-rack-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/muck-rack/security/muck-rack-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/muck-rack-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/muck-rack/refs/heads/main/llms/muck-rack-llms.txt
+  href: https://artifacts.apis.io/muck-rack/llms/muck-rack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/muck-rack-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/muck-rack/refs/heads/main/data-model/muck-rack-data-model.yml
+  href: https://artifacts.apis.io/muck-rack/data-model/muck-rack-data-model.yml
   title: ''
   type: DataModel
   url: data-model/muck-rack-data-model.yml
@@ -152,14 +154,14 @@ plans:
 - name: Muck Rack Plans Pricing
   plan_count: 3
   slug: muck-rack-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Muck Rack Rate Limits
   slug: muck-rack-rate-limits
 score:
   band: thin
-  composite: 35.2
+  composite: 37.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 49.0
@@ -167,15 +169,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 85.5
+    access_clarity: 92.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 35.1
+    operational_transparency: 31.6
+  previous_composite: 37.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -185,14 +187,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/muck-rack/refs/heads/main/screenshots/muck-rack-2026-09-02T150710.png
+screenshot: https://apis.io/screenshots/muck-rack/muck-rack-2026-09-02T150710.png
 security:
 - kind: authentication
   name: Muck Rack Authentication

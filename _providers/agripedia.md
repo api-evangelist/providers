@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,12 +62,12 @@ common:
   type: SecondaryMarket
   url: https://equityzen.com/company/agripedia/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agripedia/refs/heads/main/security/agripedia-domain-security.yml
+  href: https://artifacts.apis.io/agripedia/security/agripedia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agripedia-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agripedia/refs/heads/main/llms/agripedia-llms.txt
+  href: https://artifacts.apis.io/agripedia/llms/agripedia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agripedia-llms.txt
@@ -111,10 +113,10 @@ overview: 'Agripedia is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Agripedia''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 10
+random_paper: 22
 score:
   band: minimal
-  composite: 7.0
+  composite: 7.5
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -128,8 +130,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 49.1
-    operational_transparency: 2.6
+    discoverability: 50.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -137,21 +139,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 7.0
+  previous_composite: 7.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/agripedia/refs/heads/main/screenshots/agripedia-2026-10-11T093203.png
+screenshot: https://apis.io/screenshots/agripedia/agripedia-2026-10-11T093203.png
 security:
 - kind: domain-security
   name: Agripedia Domain Security

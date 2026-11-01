@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,22 +35,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vwr/refs/heads/main/plans/vwr-plans-pricing.yml
+  href: https://artifacts.apis.io/vwr/plans/vwr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vwr-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vwr/refs/heads/main/rate-limits/vwr-rate-limits.yml
+  href: https://artifacts.apis.io/vwr/rate-limits/vwr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vwr-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vwr/refs/heads/main/finops/vwr-finops.yml
+  href: https://artifacts.apis.io/vwr/finops/vwr-finops.yml
   title: ''
   type: FinOps
   url: finops/vwr-finops.yml
@@ -57,7 +59,7 @@ common:
   type: Blog
   url: https://www.vwr.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vwr/refs/heads/main/security/vwr-domain-security.yml
+  href: https://artifacts.apis.io/vwr/security/vwr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vwr-domain-security.yml
@@ -78,12 +80,12 @@ common:
   type: ParentCompany
   url: https://www.avantorsciences.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vwr/refs/heads/main/vocabulary/vwr-vocabulary.yml
+  href: https://artifacts.apis.io/vwr/vocabulary/vwr-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/vwr-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vwr/refs/heads/main/json-ld/vwr-context.jsonld
+  href: https://artifacts.apis.io/vwr/json-ld/vwr-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/vwr-context.jsonld
@@ -93,7 +95,7 @@ finops:
 - has_sources: false
   method: generated
   name: Vwr Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: vwr-finops
   template: true
@@ -135,7 +137,7 @@ press:
 - date: ''
   title: Avantor® Completes Acquisition of VWR
   url: https://www.labmanager.com/avantor-completes-acquisition-of-vwr-5935
-random_paper: 21
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Vwr Rate Limits
@@ -150,7 +152,7 @@ score:
     catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
@@ -158,21 +160,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 48.2
     operational_transparency: 7.9
-  previous_composite: 14.6
+  previous_composite: 13.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vwr/refs/heads/main/screenshots/vwr-2026-06-20T201153.png
+screenshot: https://apis.io/screenshots/vwr/vwr-2026-06-20T201153.png
 security:
 - kind: domain-security
   name: Vwr Domain Security

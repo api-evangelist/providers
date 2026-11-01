@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Open Access Same-time Information System (OASIS) Download API — CAISO's public wholesale market data interface. Two servlets, SingleZip and GroupZip, accept a queryname or groupid plus a UTC datet
@@ -47,7 +49,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caiso/refs/heads/main/security/caiso-domain-security.yml
+  href: https://artifacts.apis.io/caiso/security/caiso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/caiso-domain-security.yml
@@ -112,57 +114,57 @@ common:
   type: Roadmap
   url: https://www.caiso.com/systems-applications/release-planning
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caiso/refs/heads/main/authentication/caiso-authentication.yml
+  href: https://artifacts.apis.io/caiso/authentication/caiso-authentication.yml
   title: ''
   type: Authentication
   url: authentication/caiso-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/caiso/refs/heads/main/conventions/caiso-conventions.yml
+  href: https://artifacts.apis.io/caiso/conventions/caiso-conventions.yml
   title: ''
   type: Conventions
   url: conventions/caiso-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/caiso/refs/heads/main/errors/caiso-error-codes.yml
+  href: https://artifacts.apis.io/caiso/errors/caiso-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/caiso-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/caiso/refs/heads/main/rate-limits/caiso-rate-limits.yml
+  href: https://artifacts.apis.io/caiso/rate-limits/caiso-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/caiso-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/caiso/refs/heads/main/lifecycle/caiso-lifecycle.yml
+  href: https://artifacts.apis.io/caiso/lifecycle/caiso-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/caiso-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/caiso/refs/heads/main/changelog/caiso-changelog.yml
+  href: https://artifacts.apis.io/caiso/changelog/caiso-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/caiso-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/caiso/refs/heads/main/vocabulary/caiso-oasis-query-names.yml
+  href: https://artifacts.apis.io/caiso/vocabulary/caiso-oasis-query-names.yml
   title: ''
   type: Vocabulary
   url: vocabulary/caiso-oasis-query-names.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/caiso/refs/heads/main/conformance/caiso-conformance.yml
+  href: https://artifacts.apis.io/caiso/conformance/caiso-conformance.yml
   title: ''
   type: Conformance
   url: conformance/caiso-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/caiso/refs/heads/main/examples/caiso-oasis-examples.yml
+  href: https://artifacts.apis.io/caiso/examples/caiso-oasis-examples.yml
   title: ''
   type: Examples
   url: examples/caiso-oasis-examples.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/caiso/refs/heads/main/packages/caiso-packages.yml
+  href: https://artifacts.apis.io/caiso/packages/caiso-packages.yml
   title: ''
   type: Packages
   url: packages/caiso-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/caiso/refs/heads/main/llms/caiso-llms.txt
+  href: https://artifacts.apis.io/caiso/llms/caiso-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/caiso-llms.txt
@@ -179,7 +181,7 @@ overview: 'California ISO is listed with 2 APIs on the [APIs.io](https://apis.io
 
 
   California ISO''s developer surface includes documentation, signup flow, authentication, developer portal, support, engineering blog, getting-started guide, and 20 more developer resources.'
-random_paper: 21
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Caiso Rate Limits
@@ -218,14 +220,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/caiso/refs/heads/main/screenshots/caiso-2026-08-07T162911.png
+screenshot: https://apis.io/screenshots/caiso/caiso-2026-08-07T162911.png
 security:
 - kind: authentication
   name: Caiso Authentication

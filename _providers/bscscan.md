@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 26.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -94,11 +96,8 @@ apis:
   description: The Transactions API from BscScan — 2 operation(s) for transactions.
   name: BscScan Transactions API
   slug: bscscan-transactions-api
-artifact_total: 37
+artifact_total: 36
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: BscScan Accounts API
   slug: open-bscscan-accounts-api
@@ -131,17 +130,17 @@ collections:
   slug: open-bscscan-transactions-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/bscscan/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/bscscan/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/bscscan/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -150,22 +149,22 @@ common:
   type: Website
   url: https://bscscan.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/agentic-access/bscscan-agentic-access.yml
+  href: https://artifacts.apis.io/bscscan/agentic-access/bscscan-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bscscan-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/security/bscscan-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bscscan/security/bscscan-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bscscan-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/security/bscscan-domain-security.yml
+  href: https://artifacts.apis.io/bscscan/security/bscscan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bscscan-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/authentication/bscscan-authentication.yml
+  href: https://artifacts.apis.io/bscscan/authentication/bscscan-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bscscan-authentication.yml
@@ -224,7 +223,7 @@ plans:
 - name: Plans
   plan_count: 7
   slug: plans
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -243,7 +242,7 @@ rules:
   slug: bscscan-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.7
+  composite: 37.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 51.3
@@ -251,15 +250,15 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 9.8
     contract_quality: 54.4
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 0.0
-  previous_composite: 41.3
+    operational_transparency: 10.5
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -273,12 +272,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Bscscan Authentication

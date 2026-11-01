@@ -9,21 +9,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,12 +52,12 @@ common:
   type: BlogRSS
   url: https://skinory.io/feed-en.xml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/agentic-access/skinory-agentic-access.yml
+  href: https://artifacts.apis.io/skinory/agentic-access/skinory-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/skinory-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/rules/skinory-rules.yml
+  href: https://artifacts.apis.io/skinory/rules/skinory-rules.yml
   title: ''
   type: Spectral
   url: rules/skinory-rules.yml
@@ -64,42 +66,42 @@ common:
   type: Security
   url: https://skinory.io/en/about
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/errors/skinory-problem-types.yml
+  href: https://artifacts.apis.io/skinory/errors/skinory-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/skinory-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/conformance/skinory-conformance.yml
+  href: https://artifacts.apis.io/skinory/conformance/skinory-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skinory-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/overlays/skinory-openapi-overlay.yaml
+  href: https://artifacts.apis.io/skinory/overlays/skinory-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/skinory-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/llms/skinory-llms.txt
+  href: https://artifacts.apis.io/skinory/llms/skinory-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skinory-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/well-known/skinory-security.txt
+  href: https://artifacts.apis.io/skinory/well-known/skinory-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/skinory-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/well-known/skinory-well-known.yml
+  href: https://artifacts.apis.io/skinory/well-known/skinory-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/skinory-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/hosts/skinory-hosts.yml
+  href: https://artifacts.apis.io/skinory/hosts/skinory-hosts.yml
   title: ''
   type: Hosts
   url: hosts/skinory-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/vendors/skinory-vendors.yml
+  href: https://artifacts.apis.io/skinory/vendors/skinory-vendors.yml
   title: ''
   type: Vendors
   url: vendors/skinory-vendors.yml
@@ -108,17 +110,17 @@ common:
   type: Newsroom
   url: https://skinory.io/en/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/authentication/skinory-authentication.yml
+  href: https://artifacts.apis.io/skinory/authentication/skinory-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skinory-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/security/skinory-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/skinory/security/skinory-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/skinory-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/security/skinory-domain-security.yml
+  href: https://artifacts.apis.io/skinory/security/skinory-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skinory-domain-security.yml
@@ -153,7 +155,7 @@ overview: 'Skinory (submitted as g2push) publishes 2 API contracts indexed on th
 
 
   Skinory (submitted as g2push)''s developer surface includes authentication, documentation, getting-started guide, and 17 more developer resources.'
-random_paper: 13
+random_paper: 15
 rules:
 - authorship: generated
   effective_rule_count: 54
@@ -169,7 +171,7 @@ rules:
   slug: skinory-rules
 score:
   band: thin
-  composite: 33.5
+  composite: 32.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 36.5
@@ -177,15 +179,15 @@ score:
     catalog_gap: 78.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 51.4
     developer_ergonomics: 33.3
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 10.5
-  previous_composite: 33.4
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -201,14 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/skinory/refs/heads/main/screenshots/skinory-2026-10-11T125954.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/skinory/skinory-2026-10-11T125954.png
 security:
 - kind: authentication
   name: Skinory Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/recapped/refs/heads/main/rate-limits/recapped-rate-limits.yml
+  href: https://artifacts.apis.io/recapped/rate-limits/recapped-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/recapped-rate-limits.yml
@@ -78,17 +80,17 @@ common:
   type: Compliance
   url: https://www.recapped.io/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recapped/refs/heads/main/security/recapped-trust-center.yml
+  href: https://artifacts.apis.io/recapped/security/recapped-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/recapped-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recapped/refs/heads/main/security/recapped-domain-security.yml
+  href: https://artifacts.apis.io/recapped/security/recapped-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/recapped-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/recapped/refs/heads/main/llms/recapped-llms.txt
+  href: https://artifacts.apis.io/recapped/llms/recapped-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/recapped-llms.txt
@@ -97,22 +99,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/Recapped
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/recapped/refs/heads/main/plans/recapped-plans-pricing.yml
+  href: https://artifacts.apis.io/recapped/plans/recapped-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/recapped-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recapped/refs/heads/main/lifecycle/recapped-lifecycle.yml
+  href: https://artifacts.apis.io/recapped/lifecycle/recapped-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/recapped-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recapped/refs/heads/main/data-model/recapped-data-model.yml
+  href: https://artifacts.apis.io/recapped/data-model/recapped-data-model.yml
   title: ''
   type: DataModel
   url: data-model/recapped-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recapped/refs/heads/main/conformance/recapped-conformance.yml
+  href: https://artifacts.apis.io/recapped/conformance/recapped-conformance.yml
   title: ''
   type: Conformance
   url: conformance/recapped-conformance.yml
@@ -147,7 +149,7 @@ plans:
 - name: Recapped Plans Pricing
   plan_count: 7
   slug: recapped-plans-pricing
-random_paper: 0
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Recapped Rate Limits
@@ -186,14 +188,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/recapped/refs/heads/main/screenshots/recapped-2026-09-02T153038.png
+screenshot: https://apis.io/screenshots/recapped/recapped-2026-09-02T153038.png
 security:
 - kind: domain-security
   name: Recapped Domain Security

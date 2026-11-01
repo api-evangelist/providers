@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.2
-  scored_at: '2026-10-17'
+  score: 47.0
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: A Prometheus-compatible read API for querying Embrace metrics with PromQL. Standard Embrace metrics and any Custom Metrics an organization has created are queryable across one app, several apps, or ev
@@ -50,19 +52,19 @@ apis:
 - description: A hosted Model Context Protocol server over Streamable HTTP that exposes an Embrace organization's real-user observability data to MCP-capable AI assistants. Twenty-one published tools span apps, cras
   name: Embrace MCP Server
   slug: embrace-mcp-server
-artifact_total: 12
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Embrace Alerts Webhooks
   slug: embrace-alerts-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/security/embrace-domain-security.yml
+  href: https://artifacts.apis.io/embrace/security/embrace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/embrace-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/security/embrace-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/embrace/security/embrace-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/embrace-vulnerability-disclosure.yml
@@ -135,87 +137,95 @@ common:
   type: TrustCenter
   url: https://trust.embrace.io/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/packages/embrace-packages.yml
+  href: https://artifacts.apis.io/embrace/packages/embrace-packages.yml
   title: ''
   type: Packages
   url: packages/embrace-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/packages/embrace-packages.yml
+  href: https://artifacts.apis.io/embrace/packages/embrace-packages.yml
   title: ''
   type: SDKs
   url: packages/embrace-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/cli/embrace-cli.yml
+  href: https://artifacts.apis.io/embrace/cli/embrace-cli.yml
   title: ''
   type: CLI
   url: cli/embrace-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/well-known/embrace-well-known.yml
+  href: https://artifacts.apis.io/embrace/well-known/embrace-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/embrace-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/mcp/embrace-mcp.yml
+  href: https://artifacts.apis.io/embrace/mcp/embrace-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/embrace-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/llms/embrace-llms.txt
+  href: https://artifacts.apis.io/embrace/llms/embrace-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/embrace-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/authentication/embrace-authentication.yml
+  href: https://artifacts.apis.io/embrace/authentication/embrace-authentication.yml
   title: ''
   type: Authentication
   url: authentication/embrace-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/scopes/embrace-scopes.yml
+  href: https://artifacts.apis.io/embrace/scopes/embrace-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/embrace-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/conventions/embrace-conventions.yml
+  href: https://artifacts.apis.io/embrace/conventions/embrace-conventions.yml
   title: ''
   type: Conventions
   url: conventions/embrace-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/errors/embrace-problem-types.yml
+  href: https://artifacts.apis.io/embrace/errors/embrace-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/embrace-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/lifecycle/embrace-lifecycle.yml
+  href: https://artifacts.apis.io/embrace/lifecycle/embrace-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/embrace-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/conformance/embrace-conformance.yml
+  href: https://artifacts.apis.io/embrace/conformance/embrace-conformance.yml
   title: ''
   type: Conformance
   url: conformance/embrace-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/asyncapi/embrace-alerts-webhooks.yml
+  href: https://artifacts.apis.io/embrace/asyncapi/embrace-alerts-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/embrace-alerts-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/embrace/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/plans/embrace-plans-pricing.yml
+  href: https://artifacts.apis.io/embrace/plans/embrace-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/embrace-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/rate-limits/embrace-rate-limits.yml
+  href: https://artifacts.apis.io/embrace/rate-limits/embrace-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/embrace-rate-limits.yml
 created: '2026-08-12'
 description: Embrace is a user-focused observability platform for mobile and web applications, built on OpenTelemetry. Its SDKs for iOS, Android, React Native, Flutter, Unity and the browser capture full-fidelity session, crash, exception, log, trace and network telemetry from real users, and the platform turns that into crash-free rates, user journeys, synthetics and custom dashboards. For programmatic access Embrace publishes a Prometheus-compatible Metrics API queried with PromQL, a Custom Metrics API for creating and managing derived metrics, OTLP forwarding to third-party destinations such as Datadog, Grafana Cloud, New Relic, Honeycomb, Elastic, Splunk, Chronosphere and Observe, outgoing alert webhooks, and a hosted Model Context Protocol server that exposes 21 read tools over crash, exception, log, span, session and network data to AI assistants using OAuth 2.0 or service-account bearer tokens.
+finops:
+- has_sources: true
+  method: derived
+  name: Embrace Finops
+  primary_unit: sessions
+  service_category: ''
+  slug: embrace-finops
+  template: false
 image: https://embrace.io/wp-content/uploads/2023/07/Embrace-Logo-Pref-Lead-on-Yellow_1200x627.png
 layout: provider
 mcp_servers:
@@ -237,7 +247,7 @@ plans:
 - name: Embrace Plans Pricing
   plan_count: 3
   slug: embrace-plans-pricing
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 14
   name: Embrace Rate Limits
@@ -248,24 +258,24 @@ scopes:
   slug: embrace-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: strong
-  composite: 65.1
+  band: exemplar
+  composite: 69.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 64.0
+    artifact_dirs: 22
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 77.6
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 45.3
     developer_ergonomics: 73.2
-    discoverability: 73.3
-    operational_transparency: 73.7
-  previous_composite: 65.0
+    discoverability: 70.0
+    operational_transparency: 86.8
+  previous_composite: 67.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -276,14 +286,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/embrace/refs/heads/main/screenshots/embrace-2026-08-17T080406.png
+screenshot: https://apis.io/screenshots/embrace/embrace-2026-08-17T080406.png
 security:
 - kind: authentication
   name: Embrace Authentication
@@ -301,6 +311,14 @@ security:
   name: Embrace Trust Center
   slug: embrace-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Embrace daily app health check
+  slug: embrace-daily-app-health-check
+- name: Investigate an Embrace crash to root cause
+  slug: embrace-investigate-crash
+- name: Query the Embrace Metrics API with PromQL
+  slug: embrace-query-metrics-promql
 slug: embrace
 tags:
 - Company

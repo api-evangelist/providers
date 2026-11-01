@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-17'
+  score: 28.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -83,11 +85,8 @@ apis:
   description: The operators API from Rockwell Collins — 8 operation(s) for operators.
   name: Rockwell Collins Operators API
   slug: rockwell-collins-operators-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AeroAPI
   slug: open-flightaware-aeroapi
@@ -114,17 +113,17 @@ collections:
   slug: open-rockwell-collins-operators-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/plans/rockwell-collins-plans-pricing.yml
+  href: https://artifacts.apis.io/rockwell-collins/plans/rockwell-collins-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rockwell-collins-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/rate-limits/rockwell-collins-rate-limits.yml
+  href: https://artifacts.apis.io/rockwell-collins/rate-limits/rockwell-collins-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rockwell-collins-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/finops/rockwell-collins-finops.yml
+  href: https://artifacts.apis.io/rockwell-collins/finops/rockwell-collins-finops.yml
   title: ''
   type: FinOps
   url: finops/rockwell-collins-finops.yml
@@ -149,17 +148,17 @@ common:
   type: License
   url: https://github.com/flightaware/aeroapps/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/agentic-access/rockwell-collins-agentic-access.yml
+  href: https://artifacts.apis.io/rockwell-collins/agentic-access/rockwell-collins-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rockwell-collins-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/security/rockwell-collins-domain-security.yml
+  href: https://artifacts.apis.io/rockwell-collins/security/rockwell-collins-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rockwell-collins-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/authentication/rockwell-collins-authentication.yml
+  href: https://artifacts.apis.io/rockwell-collins/authentication/rockwell-collins-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rockwell-collins-authentication.yml
@@ -196,32 +195,32 @@ common:
   type: Support
   url: https://www.rtx.com/collinsaerospace/what-we-do/service-and-support/support/support-lookup
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/_original/flightaware-aeroapi-openapi.yml
+  href: https://artifacts.apis.io/rockwell-collins/openapi/_original/flightaware-aeroapi-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/flightaware-aeroapi-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/json-schema/rockwell-collins-flight-schema.json
+  href: https://artifacts.apis.io/rockwell-collins/json-schema/rockwell-collins-flight-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/rockwell-collins-flight-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/json-structure/rockwell-collins-flight-structure.json
+  href: https://artifacts.apis.io/rockwell-collins/json-structure/rockwell-collins-flight-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/rockwell-collins-flight-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/json-ld/rockwell-collins-context.jsonld
+  href: https://artifacts.apis.io/rockwell-collins/json-ld/rockwell-collins-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/rockwell-collins-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/vocabulary/rockwell-collins-vocabulary.yml
+  href: https://artifacts.apis.io/rockwell-collins/vocabulary/rockwell-collins-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/rockwell-collins-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/rules/rockwell-collins-rules.yml
+  href: https://artifacts.apis.io/rockwell-collins/rules/rockwell-collins-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/rockwell-collins-rules.yml
@@ -235,7 +234,7 @@ finops:
 - has_sources: false
   method: generated
   name: Rockwell Collins Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: rockwell-collins-finops
   template: true
@@ -285,7 +284,7 @@ press:
 - date: ''
   title: Rockwell Collins Airport Solutions Enhance Operations at ...
   url: https://www.airport-technology.com/contractors/consult/arinc-airports/pressreleases/terminal-operations-noi-bai/
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Rockwell Collins Rate Limits
@@ -316,7 +315,7 @@ rules:
   slug: rockwell-collins-rules
 score:
   band: thin
-  composite: 35.7
+  composite: 36.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 60.0
@@ -324,11 +323,11 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
-    contract_quality: 58.4
+    contract_quality: 55.0
     developer_ergonomics: 38.1
     discoverability: 66.1
     operational_transparency: 28.9
@@ -337,10 +336,7 @@ score:
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 36.6
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -354,13 +350,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/screenshots/rockwell-collins-2026-06-20T193203.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rockwell-collins/rockwell-collins-2026-06-20T193203.png
 security:
 - kind: authentication
   name: Rockwell Collins Authentication

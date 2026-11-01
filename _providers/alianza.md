@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 25.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 232
   human_in_the_loop: 7
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 476
   slug: alianza-agentic-access
   summary_line: 476 operations · 232 acting · 7 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://api.alianza.com
   baseurl_source: declared
@@ -345,11 +347,8 @@ apis:
   description: The Voicemail Message API from Alianza — 4 operation(s) for voicemail message.
   name: Alianza Voicemail Message API
   slug: alianza-voicemail-message-api
-artifact_total: 125
+artifact_total: 129
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Alianza Account API
   slug: open-alianza-account-api
@@ -535,17 +534,17 @@ collections:
   slug: open-alianza-voicemail-message-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/capabilities/alianza-capability-edges.yml
+  href: https://artifacts.apis.io/alianza/capabilities/alianza-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/alianza-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/mcp/alianza-mcp.yml
+  href: https://artifacts.apis.io/alianza/mcp/alianza-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/alianza-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/overlays/alianza-public-api-overlay.yaml
+  href: https://artifacts.apis.io/alianza/overlays/alianza-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alianza-public-api-overlay.yaml
@@ -602,72 +601,72 @@ common:
   type: StatusPage
   url: https://status.alianza.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/lifecycle/alianza-lifecycle.yml
+  href: https://artifacts.apis.io/alianza/lifecycle/alianza-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alianza-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/authentication/alianza-authentication.yml
+  href: https://artifacts.apis.io/alianza/authentication/alianza-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alianza-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/conventions/alianza-conventions.yml
+  href: https://artifacts.apis.io/alianza/conventions/alianza-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alianza-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/errors/alianza-problem-types.yml
+  href: https://artifacts.apis.io/alianza/errors/alianza-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/alianza-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/errors/alianza-error-codes.yml
+  href: https://artifacts.apis.io/alianza/errors/alianza-error-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/alianza-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/data-model/alianza-data-model.yml
+  href: https://artifacts.apis.io/alianza/data-model/alianza-data-model.yml
   title: ''
   type: DataModel
   url: data-model/alianza-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/conformance/alianza-conformance.yml
+  href: https://artifacts.apis.io/alianza/conformance/alianza-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alianza-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/sandbox/alianza-sandbox.yml
+  href: https://artifacts.apis.io/alianza/sandbox/alianza-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/alianza-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/packages/alianza-packages.yml
+  href: https://artifacts.apis.io/alianza/packages/alianza-packages.yml
   title: ''
   type: Packages
   url: packages/alianza-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/well-known/alianza-well-known.yml
+  href: https://artifacts.apis.io/alianza/well-known/alianza-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alianza-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/llms/alianza-llms.txt
+  href: https://artifacts.apis.io/alianza/llms/alianza-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alianza-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/alianza/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/agentic-access/alianza-agentic-access.yml
+  href: https://artifacts.apis.io/alianza/agentic-access/alianza-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/alianza-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/security/alianza-domain-security.yml
+  href: https://artifacts.apis.io/alianza/security/alianza-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alianza-domain-security.yml
@@ -688,25 +687,25 @@ overview: 'Alianza publishes 60 API contracts indexed on the [APIs.io](https://a
 
 
   Alianza''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, legal docs, authentication, and 24 more developer resources.'
-random_paper: 10
+random_paper: 16
 score:
-  band: thin
-  composite: 34.8
+  band: developing
+  composite: 41.9
   coverage:
     artifact_dirs: 22
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.5
   facets:
-    access_clarity: 6.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 48.5
-    developer_ergonomics: 51.8
-    discoverability: 78.6
-    operational_transparency: 10.5
+    contract_quality: 45.1
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -714,7 +713,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 34.3
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -730,14 +729,15 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 18.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 25.0
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/screenshots/alianza-2026-08-07T161200.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/alianza/alianza-2026-08-07T161200.png
 security:
 - kind: authentication
   name: Alianza Authentication
@@ -747,6 +747,18 @@ security:
   name: Alianza Domain Security
   slug: alianza-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Activate or port a telephone number
+  slug: alianza-activate-telephone-number
+- name: Configure a SIP trunk
+  slug: alianza-configure-sip-trunk
+- name: Search CDRs and export a usage report
+  slug: alianza-export-usage-report
+- name: Provision a business cloud communications account
+  slug: alianza-provision-business-account
+- name: Provision and swap a device line
+  slug: alianza-provision-device-line
 slug: alianza
 tags:
 - Company

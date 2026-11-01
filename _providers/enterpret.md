@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -86,42 +88,42 @@ common:
   type: Compliance
   url: https://www.enterpret.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enterpret/refs/heads/main/mcp/enterpret-mcp.yml
+  href: https://artifacts.apis.io/enterpret/mcp/enterpret-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/enterpret-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enterpret/refs/heads/main/llms/enterpret-llms.txt
+  href: https://artifacts.apis.io/enterpret/llms/enterpret-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/enterpret-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enterpret/refs/heads/main/authentication/enterpret-authentication.yml
+  href: https://artifacts.apis.io/enterpret/authentication/enterpret-authentication.yml
   title: ''
   type: Authentication
   url: authentication/enterpret-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/enterpret/refs/heads/main/changelog/enterpret-changelog.yml
+  href: https://artifacts.apis.io/enterpret/changelog/enterpret-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/enterpret-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enterpret/refs/heads/main/lifecycle/enterpret-lifecycle.yml
+  href: https://artifacts.apis.io/enterpret/lifecycle/enterpret-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/enterpret-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enterpret/refs/heads/main/conformance/enterpret-conformance.yml
+  href: https://artifacts.apis.io/enterpret/conformance/enterpret-conformance.yml
   title: ''
   type: Conformance
   url: conformance/enterpret-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enterpret/refs/heads/main/security/enterpret-trust-center.yml
+  href: https://artifacts.apis.io/enterpret/security/enterpret-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/enterpret-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enterpret/refs/heads/main/security/enterpret-domain-security.yml
+  href: https://artifacts.apis.io/enterpret/security/enterpret-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/enterpret-domain-security.yml
@@ -141,10 +143,10 @@ overview: 'Enterpret is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Enterpret''s developer surface includes documentation, support, getting-started guide, engineering blog, signup flow, authentication, changelog, and 13 more developer resources.'
-random_paper: 17
+random_paper: 1
 score:
   band: thin
-  composite: 34.0
+  composite: 33.0
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -152,15 +154,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 31.6
-  previous_composite: 33.9
+  previous_composite: 33.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -174,14 +176,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/enterpret/refs/heads/main/screenshots/enterpret-2026-07-25T213428.png
+screenshot: https://apis.io/screenshots/enterpret/enterpret-2026-07-25T213428.png
 security:
 - kind: authentication
   name: Enterpret Authentication

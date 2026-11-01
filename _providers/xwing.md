@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/xwing/refs/heads/main/plans/xwing-plans-pricing.yml
+  href: https://artifacts.apis.io/xwing/plans/xwing-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/xwing-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/xwing/refs/heads/main/rate-limits/xwing-rate-limits.yml
+  href: https://artifacts.apis.io/xwing/rate-limits/xwing-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/xwing-rate-limits.yml
@@ -62,17 +64,17 @@ common:
   type: Newsroom
   url: https://www.xwing.com/news-1-1
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xwing/refs/heads/main/llms/xwing-llms.txt
+  href: https://artifacts.apis.io/xwing/llms/xwing-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xwing-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xwing/refs/heads/main/mcp/xwing-mcp.yml
+  href: https://artifacts.apis.io/xwing/mcp/xwing-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/xwing-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xwing/refs/heads/main/security/xwing-domain-security.yml
+  href: https://artifacts.apis.io/xwing/security/xwing-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xwing-domain-security.yml
@@ -114,14 +116,14 @@ plans:
 - name: Xwing Plans Pricing
   plan_count: 0
   slug: xwing-plans-pricing
-random_paper: 7
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Xwing Rate Limits
   slug: xwing-rate-limits
 score:
   band: minimal
-  composite: 5.0
+  composite: 4.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -129,15 +131,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 59.2
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 4.9
+  previous_composite: 4.1
   provenance:
     mcp: platform-generated
   regulatory:
@@ -146,8 +148,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 31.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -118,14 +120,11 @@ arazzos:
 - description: Authorize, request a bucket upload URL, then upload a single file to that bucket.
   name: Backblaze Upload a File
   slug: backblaze-upload-file-workflow
-artifact_total: 182
+artifact_total: 181
 collections:
 - collection_type: postman
   name: Backblaze B2 Native API
   slug: postman-backblaze-b2-native-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Backblaze B2 Native Application Keys API
   slug: open-backblaze-application-keys-api
@@ -146,27 +145,27 @@ collections:
   slug: open-backblaze-notifications-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/plans/backblaze-plans-pricing.yml
+  href: https://artifacts.apis.io/backblaze/plans/backblaze-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/backblaze-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/rate-limits/backblaze-rate-limits.yml
+  href: https://artifacts.apis.io/backblaze/rate-limits/backblaze-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/backblaze-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/finops/backblaze-finops.yml
+  href: https://artifacts.apis.io/backblaze/finops/backblaze-finops.yml
   title: ''
   type: FinOps
   url: finops/backblaze-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/mcp/backblaze-mcp.yml
+  href: https://artifacts.apis.io/backblaze/mcp/backblaze-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/backblaze-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/overlays/backblaze-b2-native-api-overlay.yaml
+  href: https://artifacts.apis.io/backblaze/overlays/backblaze-b2-native-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/backblaze-b2-native-api-overlay.yaml
@@ -183,62 +182,62 @@ common:
   type: ContributionGuide
   url: https://github.com/Backblaze/b2-sdk-python/blob/master/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/agentic-access/backblaze-agentic-access.yml
+  href: https://artifacts.apis.io/backblaze/agentic-access/backblaze-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/backblaze-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/security/backblaze-domain-security.yml
+  href: https://artifacts.apis.io/backblaze/security/backblaze-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/backblaze-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/authentication/backblaze-authentication.yml
+  href: https://artifacts.apis.io/backblaze/authentication/backblaze-authentication.yml
   title: ''
   type: Authentication
   url: authentication/backblaze-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/packages/backblaze-packages.yml
+  href: https://artifacts.apis.io/backblaze/packages/backblaze-packages.yml
   title: ''
   type: Packages
   url: packages/backblaze-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/well-known/backblaze-well-known.yml
+  href: https://artifacts.apis.io/backblaze/well-known/backblaze-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/backblaze-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/llms/backblaze-llms.txt
+  href: https://artifacts.apis.io/backblaze/llms/backblaze-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/backblaze-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/conformance/backblaze-conformance.yml
+  href: https://artifacts.apis.io/backblaze/conformance/backblaze-conformance.yml
   title: ''
   type: Conformance
   url: conformance/backblaze-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/lifecycle/backblaze-lifecycle.yml
+  href: https://artifacts.apis.io/backblaze/lifecycle/backblaze-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/backblaze-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/changelog/backblaze-changelog.yml
+  href: https://artifacts.apis.io/backblaze/changelog/backblaze-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/backblaze-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/conventions/backblaze-conventions.yml
+  href: https://artifacts.apis.io/backblaze/conventions/backblaze-conventions.yml
   title: ''
   type: Conventions
   url: conventions/backblaze-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/cli/backblaze-cli.yml
+  href: https://artifacts.apis.io/backblaze/cli/backblaze-cli.yml
   title: ''
   type: CLI
   url: cli/backblaze-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/security/backblaze-trust-center.yml
+  href: https://artifacts.apis.io/backblaze/security/backblaze-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/backblaze-trust-center.yml
@@ -247,67 +246,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/backblaze/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/arazzo/backblaze-authorize-and-provision-bucket-workflow.yml
+  href: https://artifacts.apis.io/backblaze/arazzo/backblaze-authorize-and-provision-bucket-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backblaze-authorize-and-provision-bucket-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/arazzo/backblaze-browse-bucket-files-workflow.yml
+  href: https://artifacts.apis.io/backblaze/arazzo/backblaze-browse-bucket-files-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backblaze-browse-bucket-files-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/arazzo/backblaze-cleanup-unfinished-large-files-workflow.yml
+  href: https://artifacts.apis.io/backblaze/arazzo/backblaze-cleanup-unfinished-large-files-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backblaze-cleanup-unfinished-large-files-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/arazzo/backblaze-configure-bucket-notifications-workflow.yml
+  href: https://artifacts.apis.io/backblaze/arazzo/backblaze-configure-bucket-notifications-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backblaze-configure-bucket-notifications-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/arazzo/backblaze-copy-file-into-bucket-workflow.yml
+  href: https://artifacts.apis.io/backblaze/arazzo/backblaze-copy-file-into-bucket-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backblaze-copy-file-into-bucket-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/arazzo/backblaze-create-application-key-workflow.yml
+  href: https://artifacts.apis.io/backblaze/arazzo/backblaze-create-application-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backblaze-create-application-key-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/arazzo/backblaze-large-file-upload-workflow.yml
+  href: https://artifacts.apis.io/backblaze/arazzo/backblaze-large-file-upload-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backblaze-large-file-upload-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/arazzo/backblaze-provision-bucket-and-upload-workflow.yml
+  href: https://artifacts.apis.io/backblaze/arazzo/backblaze-provision-bucket-and-upload-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backblaze-provision-bucket-and-upload-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/arazzo/backblaze-purge-file-versions-workflow.yml
+  href: https://artifacts.apis.io/backblaze/arazzo/backblaze-purge-file-versions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backblaze-purge-file-versions-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/arazzo/backblaze-rotate-application-key-workflow.yml
+  href: https://artifacts.apis.io/backblaze/arazzo/backblaze-rotate-application-key-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backblaze-rotate-application-key-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/arazzo/backblaze-share-private-files-workflow.yml
+  href: https://artifacts.apis.io/backblaze/arazzo/backblaze-share-private-files-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backblaze-share-private-files-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/arazzo/backblaze-teardown-bucket-workflow.yml
+  href: https://artifacts.apis.io/backblaze/arazzo/backblaze-teardown-bucket-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backblaze-teardown-bucket-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/arazzo/backblaze-upload-file-workflow.yml
+  href: https://artifacts.apis.io/backblaze/arazzo/backblaze-upload-file-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/backblaze-upload-file-workflow.yml
@@ -388,12 +387,12 @@ common:
   type: Tools
   url: https://github.com/Backblaze/terraform-provider-b2
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/rules/backblaze-spectral-rules.yml
+  href: https://artifacts.apis.io/backblaze/rules/backblaze-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/backblaze-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/vocabulary/backblaze-vocabulary.yaml
+  href: https://artifacts.apis.io/backblaze/vocabulary/backblaze-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/backblaze-vocabulary.yaml
@@ -558,13 +557,13 @@ features:
 - description: Zero egress fees when serving B2 data through Cloudflare CDN.
   name: Cloudflare Bandwidth Alliance
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Backblaze Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: tb
+  service_category: ''
   slug: backblaze-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/backblaze.png
 json_schemas:
 - name: AllowedCapabilities
@@ -843,9 +842,9 @@ overview: 'Backblaze is listed with 7 APIs on the [APIs.io](https://apis.io/) ne
   Backblaze''s developer surface includes authentication, changelog, CLI, developer portal, documentation, getting-started guide, pricing, and 50 more developer resources.'
 plans:
 - name: Backblaze Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: backblaze-plans-pricing
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Backblaze Rate Limits
@@ -875,24 +874,24 @@ rules:
     warn: 16
   slug: backblaze-spectral-rules
 score:
-  band: developing
-  composite: 46.6
+  band: strong
+  composite: 55.6
   coverage:
     artifact_dirs: 33
-    catalog_earned: 56.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_earned: 64.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: -0.5
   facets:
-    access_clarity: 50.0
+    access_clarity: 81.6
     contract_governance: 31.8
     contract_quality: 23.0
     developer_ergonomics: 82.1
-    discoverability: 53.6
-    operational_transparency: 34.2
-  previous_composite: 48.2
+    discoverability: 53.3
+    operational_transparency: 44.7
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -911,14 +910,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/screenshots/backblaze-2026-07-25T202216.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/backblaze/backblaze-2026-07-25T202216.png
 security:
 - kind: authentication
   name: Backblaze Authentication

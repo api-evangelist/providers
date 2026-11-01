@@ -26,15 +26,17 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.4
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 3
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 88
   slug: blng-agentic-access
   summary_line: 88 operations · 49 acting · 3 human-in-the-loop
-api_count: 4
+api_count: 3
 apis:
 - baseURL: https://users.blng.ai
   baseurl_source: declared
@@ -114,29 +116,39 @@ apis:
   description: The Workspace API from Blng — 15 operation(s) for workspace.
   name: Blng Workspace API
   slug: blng-workspace-api
-artifact_total: 22
+- baseURL: https://users.blng.ai
+  baseurl_source: declared
+  description: The User Library API from Blng — 2 operation(s) for user library.
+  name: Blng User Library API
+  slug: blng-user-library-api
+- baseURL: https://users.blng.ai
+  baseurl_source: declared
+  description: The User Settings API from Blng — 1 operation(s) for user settings.
+  name: Blng User Settings API
+  slug: blng-user-settings-api
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Blng Webhooks
   slug: blng-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/capabilities/blng-capability-edges.yml
+  href: https://artifacts.apis.io/blng/capabilities/blng-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/blng-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/overlays/blng-journey-api-overlay.yaml
+  href: https://artifacts.apis.io/blng/overlays/blng-journey-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/blng-journey-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/agentic-access/blng-agentic-access.yml
+  href: https://artifacts.apis.io/blng/agentic-access/blng-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blng-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/security/blng-domain-security.yml
+  href: https://artifacts.apis.io/blng/security/blng-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blng-domain-security.yml
@@ -161,7 +173,7 @@ common:
   type: Pricing
   url: https://blng.ai/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/plans/blng-plans-pricing.yml
+  href: https://artifacts.apis.io/blng/plans/blng-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blng-plans-pricing.yml
@@ -202,7 +214,7 @@ common:
   type: StatusPage
   url: https://status.blng.ai/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/lifecycle/blng-lifecycle.yml
+  href: https://artifacts.apis.io/blng/lifecycle/blng-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blng-lifecycle.yml
@@ -211,65 +223,73 @@ common:
   type: TrustCenter
   url: https://trust.blng.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/security/blng-trust-center.yml
+  href: https://artifacts.apis.io/blng/security/blng-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blng-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/authentication/blng-authentication.yml
+  href: https://artifacts.apis.io/blng/authentication/blng-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blng-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/scopes/blng-scopes.yml
+  href: https://artifacts.apis.io/blng/scopes/blng-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/blng-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/conventions/blng-conventions.yml
+  href: https://artifacts.apis.io/blng/conventions/blng-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blng-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/errors/blng-problem-types.yml
+  href: https://artifacts.apis.io/blng/errors/blng-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blng-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/data-model/blng-data-model.yml
+  href: https://artifacts.apis.io/blng/data-model/blng-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blng-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/conformance/blng-conformance.yml
+  href: https://artifacts.apis.io/blng/conformance/blng-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blng-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/rate-limits/blng-rate-limits.yml
+  href: https://artifacts.apis.io/blng/rate-limits/blng-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blng-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/llms/blng-llms.txt
+  href: https://artifacts.apis.io/blng/llms/blng-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blng-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/blng/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: BLNG is an AI-driven creative suite for the jewelry industry, giving jewelers, designers, brands, and retailers tools to explore, refine, and present designs fast and without compromise. Its Design product turns sketches, doodles, photos, illustrations, or text prompts into photorealistic renderings on web and iOS; Studio transforms CAD models into market-ready marketing photos and videos at scale; and Retail enables live, made-to-order design in-store. BLNG is a Speedinvest portfolio company. BLNG publishes no developer program, but the web application is backed by three first-party REST APIs whose OpenAPI definitions are served publicly and unauthenticated behind Swagger UI on its own hosts — a Journey API for design journeys, prompts, image assets and 3D model generation, a User API for users, workspaces, invitations, organizations and subscriptions, and a Billing API for Stripe-backed products, checkout and subscription webhooks. All three authenticate with AWS Cognito bearer
   tokens issued at auth.app.blng.ai.
+finops:
+- has_sources: true
+  method: derived
+  name: Blng Finops
+  primary_unit: user
+  service_category: ''
+  slug: blng-finops
+  template: false
 image: https://cdn.sanity.io/images/4x3qe5zn/production/5354c7992cf9027bbe7400e2c4079f2c46e40cd8-4800x2520.png?w=1200&h=630
 layout: provider
 modified: '2026-08-13'
 name: Blng
 nav: Providers
 network: true
-overview: 'Blng publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including User API, Billing API, Chat Prompts API, and 11 more. Tagged areas include Company, Jewelry, Generative AI, Design, and Creative Tools.
+overview: 'Blng publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including User API, Billing API, Chat Prompts API, and 13 more. Tagged areas include Company, Jewelry, Generative AI, Design, and Creative Tools.
 
 
   The Blng catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -280,7 +300,10 @@ plans:
 - name: Blng Plans Pricing
   plan_count: 5
   slug: blng-plans-pricing
-random_paper: 1
+- name: Blng Price Estimates
+  plan_count: 0
+  slug: blng-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Blng Rate Limits
@@ -291,24 +314,24 @@ scopes:
   slug: blng-scopes
   summary_line: 4 scopes · implicit
 score:
-  band: developing
-  composite: 50.4
+  band: strong
+  composite: 54.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 54.0
+    artifact_dirs: 24
+    catalog_earned: 57.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 61.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 1.6
   facets:
-    access_clarity: 71.1
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 49.4
+    contract_quality: 48.9
     developer_ergonomics: 49.4
     discoverability: 71.4
-    operational_transparency: 23.7
-  previous_composite: 50.7
+    operational_transparency: 26.3
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -316,7 +339,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 14
+      total: 25
     mcp: derived
     skills: derived
   regulatory:
@@ -325,13 +348,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/screenshots/blng-2026-07-25T203330.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/blng/blng-2026-07-25T203330.png
 security:
 - kind: authentication
   name: Blng Authentication
@@ -345,6 +369,14 @@ security:
   name: Blng Trust Center
   slug: blng-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: blng-generate-a-3d-model
+  slug: blng-generate-a-3d-model
+- name: blng-manage-workspace-membership
+  slug: blng-manage-workspace-membership
+- name: blng-run-a-design-journey
+  slug: blng-run-a-design-journey
 slug: blng
 tags:
 - Company

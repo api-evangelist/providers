@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 19.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: OpenAI-compatible chat completion inference.
   name: Sahara AI Inference API
   slug: sahara-ai-inference-api
-artifact_total: 9
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sahara AI Compute Discovery API
   slug: open-sahara-ai-discovery-api
@@ -67,17 +66,17 @@ collections:
   slug: open-sahara-ai-inference-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/plans/sahara-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/sahara-ai/plans/sahara-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sahara-ai-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/capabilities/sahara-ai-capability-edges.yml
+  href: https://artifacts.apis.io/sahara-ai/capabilities/sahara-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sahara-ai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/overlays/sahara-ai-compute-overlay.yaml
+  href: https://artifacts.apis.io/sahara-ai/overlays/sahara-ai-compute-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sahara-ai-compute-overlay.yaml
@@ -130,52 +129,60 @@ common:
   type: PrivacyPolicy
   url: https://saharaai.com/legal/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/llms/sahara-ai-llms.txt
+  href: https://artifacts.apis.io/sahara-ai/llms/sahara-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sahara-ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/well-known/sahara-ai-well-known.yml
+  href: https://artifacts.apis.io/sahara-ai/well-known/sahara-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sahara-ai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/mcp/sahara-ai-mcp.yml
+  href: https://artifacts.apis.io/sahara-ai/mcp/sahara-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sahara-ai-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/conformance/sahara-ai-conformance.yml
+  href: https://artifacts.apis.io/sahara-ai/conformance/sahara-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sahara-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/conventions/sahara-ai-conventions.yml
+  href: https://artifacts.apis.io/sahara-ai/conventions/sahara-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sahara-ai-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sahara-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/security/sahara-ai-domain-security.yml
+  href: https://artifacts.apis.io/sahara-ai/security/sahara-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sahara-ai-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/agentic-access/sahara-ai-agentic-access.yml
+  href: https://artifacts.apis.io/sahara-ai/agentic-access/sahara-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sahara-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/authentication/sahara-ai-authentication.yml
+  href: https://artifacts.apis.io/sahara-ai/authentication/sahara-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sahara-ai-authentication.yml
 created: '2026-07-17'
 description: 'Sahara AI is a decentralized AI platform (backed by Pantera Capital) building infrastructure for the agentic economy: an AI Developer Platform for building agents, managing datasets, and accessing compute; an AI Marketplace for publishing and monetizing AI solutions; a Data Services Platform for collecting, labeling, and validating training data; consumer agents such as Sorin (autonomous trading); and the Sahara blockchain with the $SAHARA token for settlement and governance. Its developer-facing surface is an OpenAI-compatible Compute API that routes inference across multiple upstream providers (OpenAI, Lepton, Together, and others) alongside model- and provider-discovery endpoints, authenticated with an API key.'
+finops:
+- has_sources: true
+  method: derived
+  name: Sahara Ai Finops
+  primary_unit: ''
+  service_category: ''
+  slug: sahara-ai-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sahara-ai.png
 layout: provider
 modified: '2026-07-21'
@@ -190,12 +197,12 @@ plans:
 - name: Sahara Ai Plans Pricing
   plan_count: 0
   slug: sahara-ai-plans-pricing
-random_paper: 13
+random_paper: 7
 score:
   band: developing
-  composite: 42.4
+  composite: 42.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -207,9 +214,9 @@ score:
     contract_governance: 4.5
     contract_quality: 52.3
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 42.4
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,13 +233,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/screenshots/sahara-ai-2026-08-17T081711.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sahara-ai/sahara-ai-2026-08-17T081711.png
 security:
 - kind: authentication
   name: Sahara Ai Authentication
@@ -242,6 +250,10 @@ security:
   name: Sahara Ai Domain Security
   slug: sahara-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Run OpenAI-compatible inference on Sahara AI
+  slug: sahara-ai-run-inference
 slug: sahara-ai
 tags:
 - Company

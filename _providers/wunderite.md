@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API (v1) for programmatic access to Wunderite risk data and related resources — risk profiles, buildings, vehicles, drivers, contacts, premises, equipment, homes, legal entities, liabilities, sub
@@ -103,77 +105,77 @@ common:
   type: Compliance
   url: https://wunderite.com/security/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/packages/wunderite-packages.yml
+  href: https://artifacts.apis.io/wunderite/packages/wunderite-packages.yml
   title: ''
   type: Packages
   url: packages/wunderite-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/well-known/wunderite-well-known.yml
+  href: https://artifacts.apis.io/wunderite/well-known/wunderite-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wunderite-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/well-known/wunderite-security.txt
+  href: https://artifacts.apis.io/wunderite/well-known/wunderite-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/wunderite-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/llms/wunderite-llms.txt
+  href: https://artifacts.apis.io/wunderite/llms/wunderite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wunderite-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/conformance/wunderite-conformance.yml
+  href: https://artifacts.apis.io/wunderite/conformance/wunderite-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wunderite-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/errors/wunderite-problem-types.yml
+  href: https://artifacts.apis.io/wunderite/errors/wunderite-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wunderite-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/lifecycle/wunderite-lifecycle.yml
+  href: https://artifacts.apis.io/wunderite/lifecycle/wunderite-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wunderite-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/authentication/wunderite-authentication.yml
+  href: https://artifacts.apis.io/wunderite/authentication/wunderite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wunderite-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/conventions/wunderite-conventions.yml
+  href: https://artifacts.apis.io/wunderite/conventions/wunderite-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wunderite-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/changelog/wunderite-changelog.yml
+  href: https://artifacts.apis.io/wunderite/changelog/wunderite-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/wunderite-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/data-model/wunderite-data-model.yml
+  href: https://artifacts.apis.io/wunderite/data-model/wunderite-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wunderite-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/asyncapi/wunderite-webhooks.yml
+  href: https://artifacts.apis.io/wunderite/asyncapi/wunderite-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/wunderite-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/security/wunderite-domain-security.yml
+  href: https://artifacts.apis.io/wunderite/security/wunderite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wunderite-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/security/wunderite-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wunderite/security/wunderite-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wunderite-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/security/wunderite-trust-center.yml
+  href: https://artifacts.apis.io/wunderite/security/wunderite-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wunderite-trust-center.yml
@@ -192,10 +194,10 @@ overview: 'Wunderite is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Wunderite''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 15
+random_paper: 23
 score:
-  band: thin
-  composite: 37.2
+  band: developing
+  composite: 49.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -205,13 +207,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 14.5
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 45.2
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 37.2
+    developer_ergonomics: 47.6
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 49.6
   provenance:
     conformance: first-party
   regulatory:
@@ -219,15 +221,15 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 20.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 31.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wunderite/refs/heads/main/screenshots/wunderite-2026-08-17T082958.png
+screenshot: https://apis.io/screenshots/wunderite/wunderite-2026-08-17T082958.png
 security:
 - kind: authentication
   name: Wunderite Authentication

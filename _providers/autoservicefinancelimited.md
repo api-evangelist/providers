@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-17'
+  score: 22.9
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -32,47 +34,47 @@ asyncapis:
   slug: autoservicefinancelimited-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autoservicefinancelimited/refs/heads/main/vendors/autoservicefinancelimited-vendors.yml
+  href: https://artifacts.apis.io/autoservicefinancelimited/vendors/autoservicefinancelimited-vendors.yml
   title: ''
   type: Vendors
   url: vendors/autoservicefinancelimited-vendors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autoservicefinancelimited/refs/heads/main/asyncapi/autoservicefinancelimited-webhooks.yml
+  href: https://artifacts.apis.io/autoservicefinancelimited/asyncapi/autoservicefinancelimited-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/autoservicefinancelimited-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/autoservicefinancelimited/refs/heads/main/changelog/autoservicefinancelimited-changelog.yml
+  href: https://artifacts.apis.io/autoservicefinancelimited/changelog/autoservicefinancelimited-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/autoservicefinancelimited-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/autoservicefinancelimited/refs/heads/main/sandbox/autoservicefinancelimited-sandbox.yml
+  href: https://artifacts.apis.io/autoservicefinancelimited/sandbox/autoservicefinancelimited-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/autoservicefinancelimited-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autoservicefinancelimited/refs/heads/main/authentication/autoservicefinancelimited-authentication.yml
+  href: https://artifacts.apis.io/autoservicefinancelimited/authentication/autoservicefinancelimited-authentication.yml
   title: ''
   type: Authentication
   url: authentication/autoservicefinancelimited-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autoservicefinancelimited/refs/heads/main/llms/autoservicefinancelimited-llms.txt
+  href: https://artifacts.apis.io/autoservicefinancelimited/llms/autoservicefinancelimited-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autoservicefinancelimited-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autoservicefinancelimited/refs/heads/main/well-known/autoservicefinancelimited-status-security.txt
+  href: https://artifacts.apis.io/autoservicefinancelimited/well-known/autoservicefinancelimited-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/autoservicefinancelimited-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autoservicefinancelimited/refs/heads/main/well-known/autoservicefinancelimited-well-known.yml
+  href: https://artifacts.apis.io/autoservicefinancelimited/well-known/autoservicefinancelimited-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/autoservicefinancelimited-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autoservicefinancelimited/refs/heads/main/hosts/autoservicefinancelimited-hosts.yml
+  href: https://artifacts.apis.io/autoservicefinancelimited/hosts/autoservicefinancelimited-hosts.yml
   title: ''
   type: Hosts
   url: hosts/autoservicefinancelimited-hosts.yml
@@ -117,7 +119,7 @@ common:
   type: Documentation
   url: https://api-docs.bumper.co/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autoservicefinancelimited/refs/heads/main/security/autoservicefinancelimited-domain-security.yml
+  href: https://artifacts.apis.io/autoservicefinancelimited/security/autoservicefinancelimited-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autoservicefinancelimited-domain-security.yml
@@ -147,10 +149,10 @@ overview: 'Autoservicefinancelimited is profiled on the [APIs.io](https://apis.i
 
 
   Autoservicefinancelimited''s developer surface includes changelog, sandbox, authentication, pricing, engineering blog, API reference, getting-started guide, and 14 more developer resources.'
-random_paper: 0
+random_paper: 22
 score:
   band: thin
-  composite: 36.1
+  composite: 36.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 25.0
@@ -164,8 +166,8 @@ score:
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 50.0
-    discoverability: 51.8
-    operational_transparency: 39.5
+    discoverability: 44.6
+    operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -174,7 +176,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 36.1
+  previous_composite: 36.8
   provenance:
     mcp: unknown
   regulatory:
@@ -183,14 +185,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/autoservicefinancelimited/refs/heads/main/screenshots/autoservicefinancelimited-2026-10-11T101008.png
+screenshot: https://apis.io/screenshots/autoservicefinancelimited/autoservicefinancelimited-2026-10-11T101008.png
 security:
 - kind: authentication
   name: Autoservicefinancelimited Authentication

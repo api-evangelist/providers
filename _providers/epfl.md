@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,11 +80,8 @@ apis:
   description: The Primers API from EPFL — 1 operation(s) for primers.
   name: EPFL Primers API
   slug: epfl-primers-api
-artifact_total: 40
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: EPFL Categories API
   slug: open-epfl-categories-api
@@ -196,77 +195,77 @@ common:
   type: SecurityTxt
   url: https://www.epfl.ch/.well-known/security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/conformance/epfl-conformance.yml
+  href: https://artifacts.apis.io/epfl/conformance/epfl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/epfl-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/scopes/epfl-scopes.yml
+  href: https://artifacts.apis.io/epfl/scopes/epfl-scopes.yml
   title: ''
   type: Scopes
   url: scopes/epfl-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/errors/epfl-problem-types.yml
+  href: https://artifacts.apis.io/epfl/errors/epfl-problem-types.yml
   title: ''
   type: Errors
   url: errors/epfl-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/lifecycle/epfl-lifecycle.yml
+  href: https://artifacts.apis.io/epfl/lifecycle/epfl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/epfl-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/vocabulary/epfl-vocabulary.yml
+  href: https://artifacts.apis.io/epfl/vocabulary/epfl-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/epfl-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/json-ld/epfl-context.jsonld
+  href: https://artifacts.apis.io/epfl/json-ld/epfl-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/epfl-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/rules/epfl-rules.yml
+  href: https://artifacts.apis.io/epfl/rules/epfl-rules.yml
   title: ''
   type: Rules
   url: rules/epfl-rules.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/agentic-access/epfl-agentic-access.yml
+  href: https://artifacts.apis.io/epfl/agentic-access/epfl-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/epfl-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/security/epfl-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/epfl/security/epfl-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/epfl-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/security/epfl-domain-security.yml
+  href: https://artifacts.apis.io/epfl/security/epfl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/epfl-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/authentication/epfl-authentication.yml
+  href: https://artifacts.apis.io/epfl/authentication/epfl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/epfl-authentication.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/plans/epfl-plans-pricing.yml
+  href: https://artifacts.apis.io/epfl/plans/epfl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/epfl-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/rate-limits/epfl-rate-limits.yml
+  href: https://artifacts.apis.io/epfl/rate-limits/epfl-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/epfl-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/finops/epfl-finops.yml
+  href: https://artifacts.apis.io/epfl/finops/epfl-finops.yml
   title: ''
   type: FinOps
   url: finops/epfl-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/epfl/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -324,7 +323,7 @@ plans:
 - name: Epfl Plans Pricing
   plan_count: 2
   slug: epfl-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Epfl Rate Limits
@@ -359,7 +358,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.0
+  composite: 37.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 62.0
@@ -367,14 +366,14 @@ score:
     catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 31.8
     contract_quality: 24.6
     developer_ergonomics: 35.7
     discoverability: 73.2
-    operational_transparency: 23.7
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -383,7 +382,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 38.2
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -398,14 +397,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/screenshots/epfl-2026-06-20T180750.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/epfl/epfl-2026-06-20T180750.png
 security:
 - kind: authentication
   name: Epfl Authentication

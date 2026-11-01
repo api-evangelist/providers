@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.9
-  scored_at: '2026-10-17'
+  score: 32.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -131,15 +133,12 @@ apis:
   description: The Trips API from WeTravel — 3 operation(s) for trips.
   name: WeTravel Trips API
   slug: wetravel-trips-api
-artifact_total: 42
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Wetravel Webhooks
   slug: wetravel-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WeTravel Partner Access token API
   slug: open-wetravel-access-token-api
@@ -192,17 +191,22 @@ collections:
   name: WeTravel Partner Access token Trips API
   slug: open-wetravel-trips-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/wetravel/plans/wetravel-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/wetravel-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://academy.wetravel.com/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/capabilities/wetravel-capability-edges.yml
+  href: https://artifacts.apis.io/wetravel/capabilities/wetravel-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/wetravel-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/overlays/wetravel-partner-overlay.yaml
+  href: https://artifacts.apis.io/wetravel/overlays/wetravel-partner-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wetravel-partner-overlay.yaml
@@ -235,7 +239,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/wetravel-com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/changelog/wetravel-changelog.yml
+  href: https://artifacts.apis.io/wetravel/changelog/wetravel-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/wetravel-changelog.yml
@@ -244,67 +248,67 @@ common:
   type: Deprecation
   url: https://developer.wetravel.com/reference/migration-v2-to-v3
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/lifecycle/wetravel-lifecycle.yml
+  href: https://artifacts.apis.io/wetravel/lifecycle/wetravel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wetravel-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/authentication/wetravel-authentication.yml
+  href: https://artifacts.apis.io/wetravel/authentication/wetravel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wetravel-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/conventions/wetravel-conventions.yml
+  href: https://artifacts.apis.io/wetravel/conventions/wetravel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wetravel-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/errors/wetravel-problem-types.yml
+  href: https://artifacts.apis.io/wetravel/errors/wetravel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wetravel-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/data-model/wetravel-data-model.yml
+  href: https://artifacts.apis.io/wetravel/data-model/wetravel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wetravel-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/conformance/wetravel-conformance.yml
+  href: https://artifacts.apis.io/wetravel/conformance/wetravel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wetravel-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/rate-limits/wetravel-rate-limits.yml
+  href: https://artifacts.apis.io/wetravel/rate-limits/wetravel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wetravel-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/asyncapi/wetravel-webhooks.yml
+  href: https://artifacts.apis.io/wetravel/asyncapi/wetravel-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/wetravel-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/mcp/wetravel-mcp.yml
+  href: https://artifacts.apis.io/wetravel/mcp/wetravel-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/wetravel-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wetravel/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/agentic-access/wetravel-agentic-access.yml
+  href: https://artifacts.apis.io/wetravel/agentic-access/wetravel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wetravel-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/llms/wetravel-llms.txt
+  href: https://artifacts.apis.io/wetravel/llms/wetravel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wetravel-llms.txt
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/sandbox/wetravel-sandbox.yml
+  href: https://artifacts.apis.io/wetravel/sandbox/wetravel-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/wetravel-sandbox.yml
@@ -313,12 +317,12 @@ common:
   type: Security
   url: https://www.wetravel.com/disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/security/wetravel-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wetravel/security/wetravel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wetravel-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/security/wetravel-domain-security.yml
+  href: https://artifacts.apis.io/wetravel/security/wetravel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wetravel-domain-security.yml
@@ -328,6 +332,14 @@ common:
   url: https://www.wetravel.com/
 created: '2026-07-17'
 description: WeTravel is a booking and payments platform for the multi-day and group travel industry - tour operators, retreat and adventure-travel organizers, and travel agencies. Its Partner API (Trip Builder, Bookings, Payments/Payment Links, Transactions, Suppliers and Leads) lets travel companies programmatically create WeTravel trip and booking pages from their own IT systems and sync customer, order, payment and transaction data, while WeTravel handles the customer-facing booking experience, automated payment plans and low-cost payment processing. A Zapier integration extends the same data to 8000+ services, and a documented webhook catalog streams booking, payment, transaction, trip and lead events. Backed by Index Ventures and Sapphire Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Wetravel Finops
+  primary_unit: organization
+  service_category: ''
+  slug: wetravel-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wetravel.png
 layout: provider
 mcp_servers:
@@ -344,31 +356,38 @@ overview: 'WeTravel publishes 17 API contracts indexed on the [APIs.io](https://
   The WeTravel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  WeTravel''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 16
+  WeTravel''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 23 more developer resources.'
+plans:
+- name: Wetravel Plans Pricing
+  plan_count: 3
+  slug: wetravel-plans-pricing
+- name: Wetravel Price Estimates
+  plan_count: 0
+  slug: wetravel-price-estimates
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Wetravel Rate Limits
   slug: wetravel-rate-limits
 score:
   band: developing
-  composite: 43.0
+  composite: 52.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 26
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 0.0
+    access_clarity: 39.5
     contract_governance: 4.5
-    contract_quality: 57.1
-    developer_ergonomics: 44.6
-    discoverability: 75.0
-    operational_transparency: 77.6
-  previous_composite: 43.0
+    contract_quality: 53.7
+    developer_ergonomics: 63.7
+    discoverability: 65.0
+    operational_transparency: 84.2
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -385,13 +404,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/screenshots/wetravel-2026-08-17T082914.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wetravel/wetravel-2026-08-17T082914.png
 security:
 - kind: authentication
   name: Wetravel Authentication
@@ -405,6 +425,14 @@ security:
   name: Wetravel Vulnerability Disclosure
   slug: wetravel-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 3
+skills:
+- name: Create and publish a WeTravel trip
+  slug: wetravel-create-and-publish-trip
+- name: Create and publish a WeTravel payment link
+  slug: wetravel-create-payment-link
+- name: Sync WeTravel bookings and transactions
+  slug: wetravel-sync-bookings-transactions
 slug: wetravel
 tags:
 - Company

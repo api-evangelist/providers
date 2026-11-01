@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-innovations/refs/heads/main/security/adaptive-innovations-domain-security.yml
+  href: https://artifacts.apis.io/adaptive-innovations/security/adaptive-innovations-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adaptive-innovations-domain-security.yml
@@ -61,17 +63,17 @@ common:
   type: Twitter
   url: https://x.com/joinadaptive
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-innovations/refs/heads/main/llms/adaptive-innovations-llms.txt
+  href: https://artifacts.apis.io/adaptive-innovations/llms/adaptive-innovations-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adaptive-innovations-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-innovations/refs/heads/main/plans/adaptive-innovations-plans-pricing.yml
+  href: https://artifacts.apis.io/adaptive-innovations/plans/adaptive-innovations-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adaptive-innovations-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-innovations/refs/heads/main/rate-limits/adaptive-innovations-rate-limits.yml
+  href: https://artifacts.apis.io/adaptive-innovations/rate-limits/adaptive-innovations-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adaptive-innovations-rate-limits.yml
@@ -102,7 +104,7 @@ modified: '2026-09-07'
 name: Adaptive Innovations
 nav: Providers
 network: true
-overview: 'Adaptive Innovations is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Home Health, Healthcare Services, and Artificial Intelligence.
+overview: 'Adaptive Innovations is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Home Care, Healthcare Services, and Artificial Intelligence.
 
 
   Adaptive Innovations'' developer surface includes engineering blog and 10 more developer resources.'
@@ -110,14 +112,14 @@ plans:
 - name: Adaptive Innovations Plans Pricing
   plan_count: 0
   slug: adaptive-innovations-plans-pricing
-random_paper: 9
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Adaptive Innovations Rate Limits
   slug: adaptive-innovations-rate-limits
 score:
   band: minimal
-  composite: 7.4
+  composite: 6.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -131,28 +133,28 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 7.4
+  previous_composite: 6.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-innovations/refs/heads/main/screenshots/adaptive-innovations-2026-10-11T092737.png
+screenshot: https://apis.io/screenshots/adaptive-innovations/adaptive-innovations-2026-10-11T092737.png
 security:
 - kind: domain-security
   name: Adaptive Innovations Domain Security
@@ -162,7 +164,7 @@ slug: adaptive-innovations
 tags:
 - Company
 - Healthcare
-- Home Health
+- Home Care
 - Healthcare Services
 - Artificial Intelligence
 - Clinical Operations

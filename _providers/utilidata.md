@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,42 +80,42 @@ common:
   type: Careers
   url: https://utilidata.com/careers
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/utilidata/refs/heads/main/grpc/utilidata-protobuf.yml
+  href: https://artifacts.apis.io/utilidata/grpc/utilidata-protobuf.yml
   title: ''
   type: Protobuf
   url: grpc/utilidata-protobuf.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/utilidata/refs/heads/main/packages/utilidata-packages.yml
+  href: https://artifacts.apis.io/utilidata/packages/utilidata-packages.yml
   title: ''
   type: Packages
   url: packages/utilidata-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/utilidata/refs/heads/main/conventions/utilidata-conventions.yml
+  href: https://artifacts.apis.io/utilidata/conventions/utilidata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/utilidata-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/utilidata/refs/heads/main/data-model/utilidata-data-model.yml
+  href: https://artifacts.apis.io/utilidata/data-model/utilidata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/utilidata-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/utilidata/refs/heads/main/conformance/utilidata-conformance.yml
+  href: https://artifacts.apis.io/utilidata/conformance/utilidata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/utilidata-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/utilidata/refs/heads/main/lifecycle/utilidata-lifecycle.yml
+  href: https://artifacts.apis.io/utilidata/lifecycle/utilidata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/utilidata-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/utilidata/refs/heads/main/security/utilidata-domain-security.yml
+  href: https://artifacts.apis.io/utilidata/security/utilidata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/utilidata-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/utilidata/refs/heads/main/llms/utilidata-llms.txt
+  href: https://artifacts.apis.io/utilidata/llms/utilidata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/utilidata-llms.txt
@@ -130,12 +132,12 @@ overview: 'Utilidata is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Utilidata''s developer surface includes engineering blog, support, and 16 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
   band: emerging
-  composite: 11.5
+  composite: 11.9
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -148,8 +150,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 11.5
+    operational_transparency: 5.3
+  previous_composite: 11.9
   provenance:
     conformance: derived
   regulatory:
@@ -158,14 +160,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/utilidata/refs/heads/main/screenshots/utilidata-2026-09-02T165243.png
+screenshot: https://apis.io/screenshots/utilidata/utilidata-2026-09-02T165243.png
 security:
 - kind: domain-security
   name: Utilidata Domain Security

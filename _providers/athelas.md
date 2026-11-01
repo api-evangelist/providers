@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 29.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -71,15 +73,12 @@ apis:
   description: The Test Types API from Athelas — 1 operation(s) for test types.
   name: Athelas Test Types API
   slug: athelas-test-types-api
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Athelas Webhooks
   slug: athelas-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Athelas Enterprise Auth API
   slug: open-athelas-auth-api
@@ -96,8 +95,12 @@ collections:
   name: Athelas Enterprise Auth Test Types API
   slug: open-athelas-test-types-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/athelas/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/capabilities/athelas-capability-edges.yml
+  href: https://artifacts.apis.io/athelas/capabilities/athelas-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/athelas-capability-edges.yml
@@ -122,17 +125,17 @@ common:
   type: GettingStarted
   url: https://athelas.readme.io/docs/getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/authentication/athelas-authentication.yml
+  href: https://artifacts.apis.io/athelas/authentication/athelas-authentication.yml
   title: ''
   type: Authentication
   url: authentication/athelas-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/scopes/athelas-scopes.yml
+  href: https://artifacts.apis.io/athelas/scopes/athelas-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/athelas-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/changelog/athelas-changelog.yml
+  href: https://artifacts.apis.io/athelas/changelog/athelas-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/athelas-changelog.yml
@@ -141,27 +144,27 @@ common:
   type: StatusPage
   url: https://status.athelas.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/asyncapi/athelas-webhooks.yml
+  href: https://artifacts.apis.io/athelas/asyncapi/athelas-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/athelas-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/mcp/athelas-mcp.yml
+  href: https://artifacts.apis.io/athelas/mcp/athelas-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/athelas-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/llms/athelas-llms.txt
+  href: https://artifacts.apis.io/athelas/llms/athelas-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/athelas-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/well-known/athelas-well-known.yml
+  href: https://artifacts.apis.io/athelas/well-known/athelas-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/athelas-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/conformance/athelas-conformance.yml
+  href: https://artifacts.apis.io/athelas/conformance/athelas-conformance.yml
   title: ''
   type: Conformance
   url: conformance/athelas-conformance.yml
@@ -170,47 +173,47 @@ common:
   type: Compliance
   url: https://docs.athelas.com/air_developer/onc_certification/mandatory_disclosure
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/errors/athelas-problem-types.yml
+  href: https://artifacts.apis.io/athelas/errors/athelas-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/athelas-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/lifecycle/athelas-lifecycle.yml
+  href: https://artifacts.apis.io/athelas/lifecycle/athelas-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/athelas-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/conventions/athelas-conventions.yml
+  href: https://artifacts.apis.io/athelas/conventions/athelas-conventions.yml
   title: ''
   type: Conventions
   url: conventions/athelas-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/data-model/athelas-data-model.yml
+  href: https://artifacts.apis.io/athelas/data-model/athelas-data-model.yml
   title: ''
   type: DataModel
   url: data-model/athelas-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/sandbox/athelas-sandbox.yml
+  href: https://artifacts.apis.io/athelas/sandbox/athelas-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/athelas-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/athelas/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/agentic-access/athelas-agentic-access.yml
+  href: https://artifacts.apis.io/athelas/agentic-access/athelas-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/athelas-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/overlays/athelas-enterprise-overlay.yaml
+  href: https://artifacts.apis.io/athelas/overlays/athelas-enterprise-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/athelas-enterprise-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/security/athelas-domain-security.yml
+  href: https://artifacts.apis.io/athelas/security/athelas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/athelas-domain-security.yml
@@ -244,8 +247,8 @@ overview: 'Athelas publishes 6 API contracts indexed on the [APIs.io](https://ap
   The Athelas catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Athelas'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 22 more developer resources.'
-random_paper: 12
+  Athelas'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 23 more developer resources.'
+random_paper: 18
 scopes:
 - name: Athelas Scopes
   scope_count: 31
@@ -253,23 +256,23 @@ scopes:
   summary_line: 31 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 47.5
+  composite: 54.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.3
   facets:
-    access_clarity: 18.4
+    access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 58.2
-    developer_ergonomics: 47.0
-    discoverability: 73.2
+    developer_ergonomics: 67.3
+    discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 47.4
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -289,14 +292,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 51.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 54.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/screenshots/athelas-2026-07-25T201527.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/athelas/athelas-2026-07-25T201527.png
 security:
 - kind: authentication
   name: Athelas Authentication
@@ -306,6 +310,12 @@ security:
   name: Athelas Domain Security
   slug: athelas-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Enroll an RPM patient and ship a device
+  slug: athelas-enroll-rpm-patient
+- name: Read a patient's RPM test results
+  slug: athelas-read-patient-test-results
 slug: athelas
 tags:
 - Company

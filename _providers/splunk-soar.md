@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,20 +37,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Splunk SOAR REST API creates, updates, queries and selectively removes the objects the platform automates against — containers, artifacts, playbooks, action runs, apps, assets, CEF fields, indicat
   name: Splunk SOAR REST API
   slug: splunk-soar-rest-api
-artifact_total: 7
+artifact_total: 9
 common:
 - group: company
   title: ''
   type: Website
   url: https://www.splunk.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/security/splunk-soar-trust-center.yml
+  href: https://artifacts.apis.io/splunk-soar/security/splunk-soar-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/splunk-soar-trust-center.yml
@@ -57,12 +59,12 @@ common:
   type: Security
   url: https://advisory.splunk.com/report
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/security/splunk-soar-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/splunk-soar/security/splunk-soar-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/splunk-soar-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/security/splunk-soar-domain-security.yml
+  href: https://artifacts.apis.io/splunk-soar/security/splunk-soar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/splunk-soar-domain-security.yml
@@ -119,52 +121,52 @@ common:
   type: PrivacyPolicy
   url: https://www.splunk.com/en_us/legal/privacy.html
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/packages/splunk-soar-packages.yml
+  href: https://artifacts.apis.io/splunk-soar/packages/splunk-soar-packages.yml
   title: ''
   type: Packages
   url: packages/splunk-soar-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/packages/splunk-soar-packages.yml
+  href: https://artifacts.apis.io/splunk-soar/packages/splunk-soar-packages.yml
   title: ''
   type: SDKs
   url: packages/splunk-soar-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/cli/splunk-soar-cli.yml
+  href: https://artifacts.apis.io/splunk-soar/cli/splunk-soar-cli.yml
   title: ''
   type: CLI
   url: cli/splunk-soar-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/authentication/splunk-soar-authentication.yml
+  href: https://artifacts.apis.io/splunk-soar/authentication/splunk-soar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/splunk-soar-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/conventions/splunk-soar-conventions.yml
+  href: https://artifacts.apis.io/splunk-soar/conventions/splunk-soar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/splunk-soar-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/errors/splunk-soar-problem-types.yml
+  href: https://artifacts.apis.io/splunk-soar/errors/splunk-soar-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/splunk-soar-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/data-model/splunk-soar-data-model.yml
+  href: https://artifacts.apis.io/splunk-soar/data-model/splunk-soar-data-model.yml
   title: ''
   type: DataModel
   url: data-model/splunk-soar-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/rate-limits/splunk-soar-rate-limits.yml
+  href: https://artifacts.apis.io/splunk-soar/rate-limits/splunk-soar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/splunk-soar-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/plans/splunk-soar-plans-pricing.yml
+  href: https://artifacts.apis.io/splunk-soar/plans/splunk-soar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/splunk-soar-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/lifecycle/splunk-soar-lifecycle.yml
+  href: https://artifacts.apis.io/splunk-soar/lifecycle/splunk-soar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/splunk-soar-lifecycle.yml
@@ -177,12 +179,12 @@ common:
   type: Deprecation
   url: https://help.splunk.com/en/splunk-soar/soar-cloud/release-notes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/changelog/splunk-soar-changelog.yml
+  href: https://artifacts.apis.io/splunk-soar/changelog/splunk-soar-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/splunk-soar-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/conformance/splunk-soar-conformance.yml
+  href: https://artifacts.apis.io/splunk-soar/conformance/splunk-soar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/splunk-soar-conformance.yml
@@ -191,22 +193,30 @@ common:
   type: Compliance
   url: https://www.splunk.com/en_us/about-splunk/splunk-data-security-and-privacy/compliance-at-splunk.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/well-known/splunk-soar-well-known.yml
+  href: https://artifacts.apis.io/splunk-soar/well-known/splunk-soar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/splunk-soar-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/well-known/splunk-soar-security.txt
+  href: https://artifacts.apis.io/splunk-soar/well-known/splunk-soar-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/splunk-soar-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/llms/splunk-soar-llms.txt
+  href: https://artifacts.apis.io/splunk-soar/llms/splunk-soar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/splunk-soar-llms.txt
 created: '2026-08-19'
 description: Splunk SOAR, built on the Phantom platform Splunk acquired in 2018 and now part of Cisco through the 2024 Splunk acquisition, is a security orchestration, automation and response platform. It runs playbooks across hundreds of connected security tools, and exposes a REST API for containers, artifacts, playbooks, actions, assets, indicators, evidence, vault files, workbooks and case management, served from each customer's own tenant at https://{soar-host}/rest/ rather than a shared API host. Authentication is HTTP Basic or a ph-auth-token automation token. Splunk publishes a documented app/connector SDK on PyPI with the soarapps CLI, a first-party VS Code extension, and 529 open connector repositories, but no anonymously fetchable OpenAPI document, no MCP server for SOAR, and no published rate limits or pricing.
+finops:
+- has_sources: true
+  method: derived
+  name: Splunk Soar Finops
+  primary_unit: host
+  service_category: ''
+  slug: splunk-soar-finops
+  template: false
 image: https://www.splunk.com/content/dam/splunk2/images/icons/favicons/favicon.ico
 layout: provider
 modified: '2026-08-19'
@@ -219,32 +229,35 @@ overview: 'Splunk SOAR is listed with 1 API on the [APIs.io](https://apis.io/) n
   Splunk SOAR''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
 plans:
 - name: Splunk Soar Plans Pricing
-  plan_count: 0
+  plan_count: 15
   slug: splunk-soar-plans-pricing
-random_paper: 7
+- name: Splunk Soar Price Estimates
+  plan_count: 0
+  slug: splunk-soar-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Splunk Soar Rate Limits
   slug: splunk-soar-rate-limits
 score:
   band: developing
-  composite: 44.7
+  composite: 53.3
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 44.7
-  previous_composite: 44.7
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 45.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -254,14 +267,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/screenshots/splunk-soar-2026-09-02T160631.png
+screenshot: https://apis.io/screenshots/splunk-soar/splunk-soar-2026-09-02T160631.png
 security:
 - kind: authentication
   name: Splunk Soar Authentication

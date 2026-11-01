@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +56,7 @@ apis:
 - description: Black Buffalo implements the Universal Commerce Protocol for agent-driven commerce. The merchant profile at /.well-known/ucp declares UCP 2026-04-08 and 2026-01-23, the dev.ucp.shopping MCP service en
   name: Black Buffalo UCP Agentic Commerce API
   slug: ucp-commerce
-artifact_total: 8
+artifact_total: 12
 common:
 - group: company
   title: ''
@@ -69,77 +71,77 @@ common:
   type: Documentation
   url: https://blackbuffalo.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/llms/black-buffalo-llms.txt
+  href: https://artifacts.apis.io/black-buffalo/llms/black-buffalo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/black-buffalo-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/well-known/black-buffalo-well-known.yml
+  href: https://artifacts.apis.io/black-buffalo/well-known/black-buffalo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/black-buffalo-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/mcp/black-buffalo-mcp.yml
+  href: https://artifacts.apis.io/black-buffalo/mcp/black-buffalo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/black-buffalo-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/mcp/black-buffalo-tool-crosswalk.yml
+  href: https://artifacts.apis.io/black-buffalo/mcp/black-buffalo-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/black-buffalo-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/agentic-access/black-buffalo-agentic-access.yml
+  href: https://artifacts.apis.io/black-buffalo/agentic-access/black-buffalo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/black-buffalo-agentic-access.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/graphql/black-buffalo-storefront.graphql
+  href: https://artifacts.apis.io/black-buffalo/graphql/black-buffalo-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/black-buffalo-storefront.graphql
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/data-model/black-buffalo-data-model.yml
+  href: https://artifacts.apis.io/black-buffalo/data-model/black-buffalo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/black-buffalo-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/authentication/black-buffalo-authentication.yml
+  href: https://artifacts.apis.io/black-buffalo/authentication/black-buffalo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/black-buffalo-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/scopes/black-buffalo-scopes.yml
+  href: https://artifacts.apis.io/black-buffalo/scopes/black-buffalo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/black-buffalo-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/conventions/black-buffalo-conventions.yml
+  href: https://artifacts.apis.io/black-buffalo/conventions/black-buffalo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/black-buffalo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/errors/black-buffalo-problem-types.yml
+  href: https://artifacts.apis.io/black-buffalo/errors/black-buffalo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/black-buffalo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/lifecycle/black-buffalo-lifecycle.yml
+  href: https://artifacts.apis.io/black-buffalo/lifecycle/black-buffalo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/black-buffalo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/conformance/black-buffalo-conformance.yml
+  href: https://artifacts.apis.io/black-buffalo/conformance/black-buffalo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/black-buffalo-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/black-buffalo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/security/black-buffalo-domain-security.yml
+  href: https://artifacts.apis.io/black-buffalo/security/black-buffalo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/black-buffalo-domain-security.yml
@@ -216,7 +218,7 @@ overview: 'Black Buffalo is listed with 3 APIs on the [APIs.io](https://apis.io/
 
 
   Black Buffalo''s developer surface includes documentation, authentication, FAQ, engineering blog, support, signup flow, and 26 more developer resources.'
-random_paper: 13
+random_paper: 17
 scopes:
 - name: Black Buffalo Scopes
   scope_count: 4
@@ -224,7 +226,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.3
+  composite: 27.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -232,13 +234,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 9.3
     developer_ergonomics: 30.4
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -247,7 +249,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 28.2
+  previous_composite: 27.3
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -259,14 +261,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/black-buffalo/refs/heads/main/screenshots/black-buffalo-2026-08-07T162610.png
+screenshot: https://apis.io/screenshots/black-buffalo/black-buffalo-2026-08-07T162610.png
 security:
 - kind: authentication
   name: Black Buffalo Authentication
@@ -276,6 +278,16 @@ security:
   name: Black Buffalo Domain Security
   slug: black-buffalo-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Answer a Black Buffalo policy, FAQ or "where to buy" question
+  slug: black-buffalo-answer-store-and-policy
+- name: Build a Black Buffalo cart
+  slug: black-buffalo-build-cart
+- name: Hand off a Black Buffalo checkout to a human
+  slug: black-buffalo-complete-checkout
+- name: Find and compare Black Buffalo products
+  slug: black-buffalo-find-product
 slug: black-buffalo
 tags:
 - Company

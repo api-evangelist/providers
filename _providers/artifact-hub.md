@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-17'
+  score: 23.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 129
   slug: artifact-hub-agentic-access
   summary_line: 129 operations · 37 acting · 3 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: The Artifact Hub REST API provides endpoints for searching and retrieving cloud-native packages across all supported artifact types, managing repositories, handling user authentication and sessions, m
   name: Artifact Hub API
@@ -93,15 +95,12 @@ apis:
   description: The Integrations API from Artifact Hub — 3 operation(s) for integrations.
   name: Artifact Hub Integrations API
   slug: artifact-hub-integrations-api
-artifact_total: 43
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Artifact Hub Webhooks
   slug: artifact-hub-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Artifact Hub Availability checks API
   slug: open-artifact-hub-availability-checks-api
@@ -134,7 +133,7 @@ collections:
   slug: open-artifact-hub
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/capabilities/artifact-hub-capability-edges.yml
+  href: https://artifacts.apis.io/artifact-hub/capabilities/artifact-hub-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/artifact-hub-capability-edges.yml
@@ -163,17 +162,17 @@ common:
   type: License
   url: https://github.com/artifacthub/hub/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/agentic-access/artifact-hub-agentic-access.yml
+  href: https://artifacts.apis.io/artifact-hub/agentic-access/artifact-hub-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/artifact-hub-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/security/artifact-hub-domain-security.yml
+  href: https://artifacts.apis.io/artifact-hub/security/artifact-hub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/artifact-hub-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/authentication/artifact-hub-authentication.yml
+  href: https://artifacts.apis.io/artifact-hub/authentication/artifact-hub-authentication.yml
   title: ''
   type: Authentication
   url: authentication/artifact-hub-authentication.yml
@@ -202,97 +201,97 @@ common:
   type: ReleaseNotes
   url: https://github.com/artifacthub/hub/releases
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/llms/artifact-hub-llms.txt
+  href: https://artifacts.apis.io/artifact-hub/llms/artifact-hub-llms.txt
   title: llms.txt for Artifact Hub
   type: LLMsTxt
   url: llms/artifact-hub-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/packages/artifact-hub-packages.yml
+  href: https://artifacts.apis.io/artifact-hub/packages/artifact-hub-packages.yml
   title: Distribution packages (Helm chart, ah CLI, container images, widget)
   type: Packages
   url: packages/artifact-hub-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/cli/artifact-hub-cli.yml
+  href: https://artifacts.apis.io/artifact-hub/cli/artifact-hub-cli.yml
   title: ah command line tool
   type: CLI
   url: cli/artifact-hub-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/components/artifact-hub-components.yml
+  href: https://artifacts.apis.io/artifact-hub/components/artifact-hub-components.yml
   title: Embeddable Artifact Hub widget
   type: Components
   url: components/artifact-hub-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/conventions/artifact-hub-conventions.yml
+  href: https://artifacts.apis.io/artifact-hub/conventions/artifact-hub-conventions.yml
   title: API conventions, idempotency and reversibility
   type: Conventions
   url: conventions/artifact-hub-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/errors/artifact-hub-problem-types.yml
+  href: https://artifacts.apis.io/artifact-hub/errors/artifact-hub-problem-types.yml
   title: Error catalog
   type: ErrorCatalog
   url: errors/artifact-hub-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/data-model/artifact-hub-data-model.yml
+  href: https://artifacts.apis.io/artifact-hub/data-model/artifact-hub-data-model.yml
   title: Entity relationship model
   type: DataModel
   url: data-model/artifact-hub-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/conformance/artifact-hub-conformance.yml
+  href: https://artifacts.apis.io/artifact-hub/conformance/artifact-hub-conformance.yml
   title: Standards conformance
   type: Conformance
   url: conformance/artifact-hub-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/lifecycle/artifact-hub-lifecycle.yml
+  href: https://artifacts.apis.io/artifact-hub/lifecycle/artifact-hub-lifecycle.yml
   title: Versioning, releases and deprecation posture
   type: Lifecycle
   url: lifecycle/artifact-hub-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/changelog/artifact-hub-changelog.yml
+  href: https://artifacts.apis.io/artifact-hub/changelog/artifact-hub-changelog.yml
   title: Release changelog
   type: ChangeLog
   url: changelog/artifact-hub-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/sandbox/artifact-hub-sandbox.yml
+  href: https://artifacts.apis.io/artifact-hub/sandbox/artifact-hub-sandbox.yml
   title: Self-hosted sandbox and rehearsal operations
   type: Sandbox
   url: sandbox/artifact-hub-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/plans/artifact-hub-plans-pricing.yml
+  href: https://artifacts.apis.io/artifact-hub/plans/artifact-hub-plans-pricing.yml
   title: Plans and pricing (free, no tiers)
   type: Plans
   url: plans/artifact-hub-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/rate-limits/artifact-hub-rate-limits.yml
+  href: https://artifacts.apis.io/artifact-hub/rate-limits/artifact-hub-rate-limits.yml
   title: Rate limits
   type: RateLimits
   url: rate-limits/artifact-hub-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/finops/artifact-hub-finops.yml
+  href: https://artifacts.apis.io/artifact-hub/finops/artifact-hub-finops.yml
   title: FinOps framework mapping
   type: FinOps
   url: finops/artifact-hub-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/asyncapi/artifact-hub-webhooks.yml
+  href: https://artifacts.apis.io/artifact-hub/asyncapi/artifact-hub-webhooks.yml
   title: Webhook and event catalog
   type: Webhooks
   url: asyncapi/artifact-hub-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/artifact-hub/skills/_index.yml
   title: Packaged Agent Skills
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/mcp/artifact-hub-mcp.yml
+  href: https://artifacts.apis.io/artifact-hub/mcp/artifact-hub-mcp.yml
   title: Candidate MCP tool list (no first-party server published)
   type: X-MCPServerCandidate
   url: mcp/artifact-hub-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/security/artifact-hub-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/artifact-hub/security/artifact-hub-vulnerability-disclosure.yml
   title: Vulnerability disclosure policy
   type: VulnerabilityDisclosure
   url: security/artifact-hub-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/security/artifact-hub-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/artifact-hub/security/artifact-hub-vulnerability-disclosure.yml
   title: Security policy and contact
   type: Security
   url: security/artifact-hub-vulnerability-disclosure.yml
@@ -328,11 +327,11 @@ features:
 - description: Artifact Hub can be deployed on-premise using the official Helm chart, enabling organizations to run their own private artifact registry.
   name: Self-Hosting Support
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Artifact Hub Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: artifact-hub-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/artifact-hub.png
@@ -361,14 +360,14 @@ plans:
 - name: Artifact Hub Plans Pricing
   plan_count: 0
   slug: artifact-hub-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Artifact Hub Rate Limits
   slug: artifact-hub-rate-limits
 score:
   band: developing
-  composite: 49.1
+  composite: 43.1
   coverage:
     artifact_dirs: 29
     catalog_earned: 37.0
@@ -376,18 +375,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 4.5
-    contract_quality: 52.8
+    contract_quality: 50.7
     developer_ergonomics: 56.5
-    discoverability: 73.2
-    operational_transparency: 42.1
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 50.4
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -404,13 +400,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/screenshots/artifact-hub-2026-06-20T172443.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/artifact-hub/artifact-hub-2026-06-20T172443.png
 security:
 - kind: authentication
   name: Artifact Hub Authentication
@@ -424,6 +421,18 @@ security:
   name: Artifact Hub Vulnerability Disclosure
   slug: artifact-hub-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 5
+skills:
+- name: artifact-hub-check-package-security
+  slug: artifact-hub-check-package-security
+- name: artifact-hub-find-a-package
+  slug: artifact-hub-find-a-package
+- name: artifact-hub-inspect-chart-config
+  slug: artifact-hub-inspect-chart-config
+- name: artifact-hub-mirror-the-catalog
+  slug: artifact-hub-mirror-the-catalog
+- name: artifact-hub-watch-for-releases
+  slug: artifact-hub-watch-for-releases
 slug: artifact-hub
 tags:
 - Cloud-Native

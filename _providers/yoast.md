@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.0
-  scored_at: '2026-10-17'
+  score: 35.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 7
@@ -97,11 +99,8 @@ apis:
   description: Create, read and manage provisioned Yoast subscriptions
   name: Yoast Subscription Provisioning API
   slug: yoast-subscription-provisioning-api
-artifact_total: 32
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Yoast REST Pages API
   slug: open-yoast-pages-api
@@ -116,32 +115,32 @@ collections:
   slug: open-yoast-seo-head-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/capabilities/yoast-capability-edges.yml
+  href: https://artifacts.apis.io/yoast/capabilities/yoast-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/yoast-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/overlays/yoast-schema-aggregator-overlay.yaml
+  href: https://artifacts.apis.io/yoast/overlays/yoast-schema-aggregator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/yoast-schema-aggregator-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/overlays/yoast-myyoast-provisioning-overlay.yaml
+  href: https://artifacts.apis.io/yoast/overlays/yoast-myyoast-provisioning-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/yoast-myyoast-provisioning-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/agentic-access/yoast-agentic-access.yml
+  href: https://artifacts.apis.io/yoast/agentic-access/yoast-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/yoast-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/security/yoast-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/yoast/security/yoast-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/yoast-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/security/yoast-domain-security.yml
+  href: https://artifacts.apis.io/yoast/security/yoast-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yoast-domain-security.yml
@@ -190,7 +189,7 @@ common:
   type: LlmsText
   url: https://yoast.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/llms/yoast-llms.txt
+  href: https://artifacts.apis.io/yoast/llms/yoast-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yoast-llms.txt
@@ -243,142 +242,142 @@ common:
   type: Versioning
   url: https://developer.yoast.com/development/standards/version-control-conventions/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/well-known/yoast-well-known.yml
+  href: https://artifacts.apis.io/yoast/well-known/yoast-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/yoast-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/well-known/yoast-security.txt
+  href: https://artifacts.apis.io/yoast/well-known/yoast-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/yoast-security.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/well-known/yoast-openid-configuration.json
+  href: https://artifacts.apis.io/yoast/well-known/yoast-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/yoast-openid-configuration.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/packages/yoast-packages.yml
+  href: https://artifacts.apis.io/yoast/packages/yoast-packages.yml
   title: ''
   type: Packages
   url: packages/yoast-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/packages/yoast-packages.yml
+  href: https://artifacts.apis.io/yoast/packages/yoast-packages.yml
   title: ''
   type: SDKs
   url: packages/yoast-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/authentication/yoast-authentication.yml
+  href: https://artifacts.apis.io/yoast/authentication/yoast-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yoast-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/scopes/yoast-scopes.yml
+  href: https://artifacts.apis.io/yoast/scopes/yoast-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/yoast-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/conformance/yoast-conformance.yml
+  href: https://artifacts.apis.io/yoast/conformance/yoast-conformance.yml
   title: ''
   type: Conformance
   url: conformance/yoast-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/errors/yoast-problem-types.yml
+  href: https://artifacts.apis.io/yoast/errors/yoast-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/yoast-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/lifecycle/yoast-lifecycle.yml
+  href: https://artifacts.apis.io/yoast/lifecycle/yoast-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yoast-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/conventions/yoast-conventions.yml
+  href: https://artifacts.apis.io/yoast/conventions/yoast-conventions.yml
   title: ''
   type: Conventions
   url: conventions/yoast-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/changelog/yoast-changelog.yml
+  href: https://artifacts.apis.io/yoast/changelog/yoast-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/yoast-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/cli/yoast-cli.yml
+  href: https://artifacts.apis.io/yoast/cli/yoast-cli.yml
   title: ''
   type: CLI
   url: cli/yoast-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/components/yoast-components.yml
+  href: https://artifacts.apis.io/yoast/components/yoast-components.yml
   title: ''
   type: Components
   url: components/yoast-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/data-model/yoast-data-model.yml
+  href: https://artifacts.apis.io/yoast/data-model/yoast-data-model.yml
   title: ''
   type: DataModel
   url: data-model/yoast-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/yoast/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/yoast/skills/_index.yml
   title: ''
   type: AgentSkills
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/mcp/yoast-mcp.yml
+  href: https://artifacts.apis.io/yoast/mcp/yoast-mcp.yml
   title: ''
   type: MCP
   url: mcp/yoast-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/mcp/yoast-mcp.yml
+  href: https://artifacts.apis.io/yoast/mcp/yoast-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/yoast-mcp.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/plans/yoast-plans-pricing.yml
+  href: https://artifacts.apis.io/yoast/plans/yoast-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/yoast-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/rate-limits/yoast-rate-limits.yml
+  href: https://artifacts.apis.io/yoast/rate-limits/yoast-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/yoast-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/finops/yoast-finops.yml
+  href: https://artifacts.apis.io/yoast/finops/yoast-finops.yml
   title: ''
   type: FinOps
   url: finops/yoast-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/rules/yoast-rules.yml
+  href: https://artifacts.apis.io/yoast/rules/yoast-rules.yml
   title: ''
   type: SpectralRules
   url: rules/yoast-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/json-schema/yoast-seo-metadata-schema.json
+  href: https://artifacts.apis.io/yoast/json-schema/yoast-seo-metadata-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/yoast-seo-metadata-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/json-structure/yoast-seo-metadata-structure.json
+  href: https://artifacts.apis.io/yoast/json-structure/yoast-seo-metadata-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/yoast-seo-metadata-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/json-ld/yoast-context.jsonld
+  href: https://artifacts.apis.io/yoast/json-ld/yoast-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/yoast-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/examples/yoast-rest-get-seo-head-example.json
+  href: https://artifacts.apis.io/yoast/examples/yoast-rest-get-seo-head-example.json
   title: ''
   type: Examples
   url: examples/yoast-rest-get-seo-head-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/examples/yoast-rest-get-post-seo-example.json
+  href: https://artifacts.apis.io/yoast/examples/yoast-rest-get-post-seo-example.json
   title: ''
   type: Examples
   url: examples/yoast-rest-get-post-seo-example.json
@@ -394,12 +393,12 @@ examples:
   slug: yoast-rest-get-seo-head-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Yoast Finops
   primary_unit: ''
-  service_category: SEO / Content
+  service_category: ''
   slug: yoast-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yoast.png
 json_schemas:
 - name: Yoast SEO Metadata
@@ -430,7 +429,7 @@ plans:
 - name: Yoast Plans Pricing
   plan_count: 2
   slug: yoast-plans-pricing
-random_paper: 10
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Yoast Rate Limits
@@ -465,8 +464,8 @@ scopes:
   slug: yoast-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials/refreshToken
 score:
-  band: strong
-  composite: 62.9
+  band: exemplar
+  composite: 66.6
   coverage:
     artifact_dirs: 34
     catalog_earned: 68.0
@@ -474,15 +473,15 @@ score:
     catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 65.8
     contract_governance: 45.5
     contract_quality: 58.0
     developer_ergonomics: 73.2
     discoverability: 78.6
-    operational_transparency: 52.6
-  previous_composite: 64.4
+    operational_transparency: 55.3
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -499,13 +498,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/screenshots/yoast-2026-06-20T201746.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/yoast/yoast-2026-06-20T201746.png
 security:
 - kind: authentication
   name: Yoast Authentication
@@ -519,6 +519,16 @@ security:
   name: Yoast Vulnerability Disclosure
   slug: yoast-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 4
+skills:
+- name: yoast-audit-content-analysis-scores
+  slug: yoast-audit-content-analysis-scores
+- name: yoast-harvest-a-sites-schema-graph
+  slug: yoast-harvest-a-sites-schema-graph
+- name: yoast-provision-a-partner-subscription
+  slug: yoast-provision-a-partner-subscription
+- name: yoast-read-seo-metadata-for-a-url
+  slug: yoast-read-seo-metadata-for-a-url
 slug: yoast
 tags:
 - SEO

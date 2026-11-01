@@ -1,8 +1,8 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.2
-  scored_at: '2026-10-17'
+  score: 30.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -39,57 +41,57 @@ apis:
 artifact_total: 5
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/powerhq/refs/heads/main/agentic-access/powerhq-agentic-access.yml
+  href: https://artifacts.apis.io/powerhq/agentic-access/powerhq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/powerhq-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/powerhq/refs/heads/main/rules/powerhq-rules.yml
+  href: https://artifacts.apis.io/powerhq/rules/powerhq-rules.yml
   title: ''
   type: Spectral
   url: rules/powerhq-rules.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/powerhq/refs/heads/main/sandbox/powerhq-sandbox.yml
+  href: https://artifacts.apis.io/powerhq/sandbox/powerhq-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/powerhq-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/powerhq/refs/heads/main/authentication/powerhq-authentication.yml
+  href: https://artifacts.apis.io/powerhq/authentication/powerhq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/powerhq-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/powerhq/refs/heads/main/errors/powerhq-problem-types.yml
+  href: https://artifacts.apis.io/powerhq/errors/powerhq-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/powerhq-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/powerhq/refs/heads/main/conformance/powerhq-conformance.yml
+  href: https://artifacts.apis.io/powerhq/conformance/powerhq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/powerhq-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/powerhq/refs/heads/main/llms/powerhq-llms.txt
+  href: https://artifacts.apis.io/powerhq/llms/powerhq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/powerhq-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/powerhq/refs/heads/main/a2a/powerhq-a2a.yml
+  href: https://artifacts.apis.io/powerhq/a2a/powerhq-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/powerhq-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/powerhq/refs/heads/main/well-known/powerhq-well-known.yml
+  href: https://artifacts.apis.io/powerhq/well-known/powerhq-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/powerhq-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/powerhq/refs/heads/main/hosts/powerhq-hosts.yml
+  href: https://artifacts.apis.io/powerhq/hosts/powerhq-hosts.yml
   title: ''
   type: Hosts
   url: hosts/powerhq-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/powerhq/refs/heads/main/vendors/powerhq-vendors.yml
+  href: https://artifacts.apis.io/powerhq/vendors/powerhq-vendors.yml
   title: ''
   type: Vendors
   url: vendors/powerhq-vendors.yml
@@ -114,7 +116,7 @@ common:
   type: GettingStarted
   url: https://docs.powerhq.co/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/powerhq/refs/heads/main/security/powerhq-domain-security.yml
+  href: https://artifacts.apis.io/powerhq/security/powerhq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/powerhq-domain-security.yml
@@ -140,7 +142,7 @@ overview: 'PowerHQ is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   PowerHQ''s developer surface includes sandbox, authentication, pricing, API reference, getting-started guide, documentation, and 13 more developer resources.'
-random_paper: 4
+random_paper: 6
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -156,7 +158,7 @@ rules:
   slug: powerhq-rules
 score:
   band: emerging
-  composite: 26.1
+  composite: 25.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 39.5
@@ -170,9 +172,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 0.0
-  previous_composite: 26.1
+  previous_composite: 25.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -183,14 +185,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/powerhq/refs/heads/main/screenshots/powerhq-2026-10-11T112725.png
+screenshot: https://apis.io/screenshots/powerhq/powerhq-2026-10-11T112725.png
 security:
 - kind: authentication
   name: Powerhq Authentication

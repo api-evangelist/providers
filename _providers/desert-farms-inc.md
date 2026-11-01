@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,12 +59,12 @@ common:
   type: TermsOfService
   url: https://desertfarms.com/policies/terms-of-service
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/desert-farms-inc/refs/heads/main/security/desert-farms-inc-domain-security.yml
+  href: https://artifacts.apis.io/desert-farms-inc/security/desert-farms-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/desert-farms-inc-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/desert-farms-inc/refs/heads/main/well-known/desert-farms-inc-well-known.yml
+  href: https://artifacts.apis.io/desert-farms-inc/well-known/desert-farms-inc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/desert-farms-inc-well-known.yml
@@ -111,14 +113,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/desert-farms-inc/refs/heads/main/screenshots/desert-farms-inc-2026-08-07T164306.png
+screenshot: https://apis.io/screenshots/desert-farms-inc/desert-farms-inc-2026-08-07T164306.png
 security:
 - kind: domain-security
   name: Desert Farms Inc Domain Security

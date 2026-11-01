@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 52.9
-  scored_at: '2026-10-17'
+  score: 47.7
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Hosted, remote Model Context Protocol server operated by WoowUp at mcp.woowup.com. Streamable-HTTP transport, OAuth 2.1 bearer authentication with RFC 8414 authorization-server and RFC 9728 protected-
@@ -43,7 +45,7 @@ apis:
 - description: REST API for syncing customers (multi-ID), purchases, products, categories, branches, coupons, benefits, points, user events, custom attributes, abandoned carts, blacklists, segment exports, and integ
   name: WoowUp API v3
   slug: woowup-api-v3
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Woowup Webhooks
@@ -54,7 +56,7 @@ common:
   type: BlogRSS
   url: https://www.woowup.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/security/woowup-domain-security.yml
+  href: https://artifacts.apis.io/woowup/security/woowup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/woowup-domain-security.yml
@@ -99,77 +101,77 @@ common:
   type: GettingStarted
   url: https://woowup-docs.gitbook.io/woowup-developer-docs/master
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/llms/woowup-llms.txt
+  href: https://artifacts.apis.io/woowup/llms/woowup-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/woowup-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/packages/woowup-packages.yml
+  href: https://artifacts.apis.io/woowup/packages/woowup-packages.yml
   title: ''
   type: Packages
   url: packages/woowup-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/packages/woowup-packages.yml
+  href: https://artifacts.apis.io/woowup/packages/woowup-packages.yml
   title: ''
   type: SDKs
   url: packages/woowup-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/well-known/woowup-well-known.yml
+  href: https://artifacts.apis.io/woowup/well-known/woowup-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/woowup-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/conformance/woowup-conformance.yml
+  href: https://artifacts.apis.io/woowup/conformance/woowup-conformance.yml
   title: ''
   type: Conformance
   url: conformance/woowup-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/errors/woowup-problem-types.yml
+  href: https://artifacts.apis.io/woowup/errors/woowup-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/woowup-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/lifecycle/woowup-lifecycle.yml
+  href: https://artifacts.apis.io/woowup/lifecycle/woowup-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/woowup-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/authentication/woowup-authentication.yml
+  href: https://artifacts.apis.io/woowup/authentication/woowup-authentication.yml
   title: ''
   type: Authentication
   url: authentication/woowup-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/conventions/woowup-conventions.yml
+  href: https://artifacts.apis.io/woowup/conventions/woowup-conventions.yml
   title: ''
   type: Conventions
   url: conventions/woowup-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/rate-limits/woowup-rate-limits.yml
+  href: https://artifacts.apis.io/woowup/rate-limits/woowup-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/woowup-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/components/woowup-components.yml
+  href: https://artifacts.apis.io/woowup/components/woowup-components.yml
   title: ''
   type: Components
   url: components/woowup-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/data-model/woowup-data-model.yml
+  href: https://artifacts.apis.io/woowup/data-model/woowup-data-model.yml
   title: ''
   type: DataModel
   url: data-model/woowup-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/mcp/woowup-mcp.yml
+  href: https://artifacts.apis.io/woowup/mcp/woowup-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/woowup-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/scopes/woowup-scopes.yml
+  href: https://artifacts.apis.io/woowup/scopes/woowup-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/woowup-scopes.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/plans/woowup-plans-pricing.yml
+  href: https://artifacts.apis.io/woowup/plans/woowup-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/woowup-plans-pricing.yml
@@ -179,6 +181,14 @@ common:
   url: https://woowup-docs.gitbook.io/woowup-developer-docs/api/users
 created: '2026-07-17'
 description: WoowUp is a customer marketing and loyalty CRM platform built for retail and ecommerce brands across Latin America. Founded in Buenos Aires and backed by 500 Global, WoowUp centralizes customer, purchase, and product data from POS and ecommerce platforms (VTEX, Magento, Shopify, WooCommerce, PrestaShop, Tienda Nube) and activates it through segmentation, campaigns, loyalty programs, web push notifications, and abandoned-cart recovery. Its REST API v3 lets developers sync users (multi-ID), purchases, products, coupons, benefits, points, and custom events, with client libraries published in PHP.
+finops:
+- has_sources: true
+  method: derived
+  name: Woowup Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: woowup-finops
+  template: false
 image: https://www.woowup.com/hubfs/Logo/favicon_.png
 layout: provider
 mcp_servers:
@@ -200,7 +210,7 @@ plans:
 - name: Woowup Plans Pricing
   plan_count: 4
   slug: woowup-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Woowup Rate Limits
@@ -212,23 +222,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials/deviceCode/implicit
 score:
   band: developing
-  composite: 50.3
+  composite: 52.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 57.0
+    artifact_dirs: 21
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 54.8
-    discoverability: 75.0
-    operational_transparency: 23.7
-  previous_composite: 50.2
+    discoverability: 65.0
+    operational_transparency: 26.3
+  previous_composite: 51.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -238,14 +248,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/woowup/refs/heads/main/screenshots/woowup-2026-08-17T082935.png
+screenshot: https://apis.io/screenshots/woowup/woowup-2026-08-17T082935.png
 security:
 - kind: authentication
   name: Woowup Authentication

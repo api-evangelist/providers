@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Anonymous, live Model Context Protocol server for the Oishii storefront, served from oishii.com and provided by the Shopify storefront-renderer platform. A tools/list call returns five tools with full
@@ -44,10 +46,10 @@ apis:
 - description: 'Universal Commerce Protocol (UCP) endpoint for agent-driven purchasing from the Oishii store, advertised in the merchant profile at https://oishii.com/.well-known/ucp with supported protocol versions '
   name: Oishii UCP Agentic Commerce Endpoint
   slug: oishii-ucp-agentic-commerce-endpoint
-artifact_total: 6
+artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oishii/refs/heads/main/security/oishii-domain-security.yml
+  href: https://artifacts.apis.io/oishii/security/oishii-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oishii-domain-security.yml
@@ -88,57 +90,57 @@ common:
   type: PrivacyPolicy
   url: https://oishii.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oishii/refs/heads/main/llms/oishii-llms.txt
+  href: https://artifacts.apis.io/oishii/llms/oishii-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oishii-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oishii/refs/heads/main/well-known/oishii-well-known.yml
+  href: https://artifacts.apis.io/oishii/well-known/oishii-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/oishii-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oishii/refs/heads/main/mcp/oishii-mcp.yml
+  href: https://artifacts.apis.io/oishii/mcp/oishii-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/oishii-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oishii/refs/heads/main/authentication/oishii-authentication.yml
+  href: https://artifacts.apis.io/oishii/authentication/oishii-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oishii-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oishii/refs/heads/main/scopes/oishii-scopes.yml
+  href: https://artifacts.apis.io/oishii/scopes/oishii-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/oishii-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oishii/refs/heads/main/conformance/oishii-conformance.yml
+  href: https://artifacts.apis.io/oishii/conformance/oishii-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oishii-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oishii/refs/heads/main/conventions/oishii-conventions.yml
+  href: https://artifacts.apis.io/oishii/conventions/oishii-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oishii-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oishii/refs/heads/main/errors/oishii-problem-types.yml
+  href: https://artifacts.apis.io/oishii/errors/oishii-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/oishii-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oishii/refs/heads/main/lifecycle/oishii-lifecycle.yml
+  href: https://artifacts.apis.io/oishii/lifecycle/oishii-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oishii-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oishii/refs/heads/main/data-model/oishii-data-model.yml
+  href: https://artifacts.apis.io/oishii/data-model/oishii-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oishii-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oishii/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/oishii/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -158,15 +160,15 @@ overview: 'Oishii is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Oishii''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 7
+random_paper: 21
 scopes:
 - name: Oishii Scopes
   scope_count: 4
   slug: oishii-scopes
   summary_line: 4 scopes · authorizationCode/refreshToken/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
-  band: thin
-  composite: 26.5
+  band: emerging
+  composite: 25.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -180,7 +182,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -189,7 +191,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 26.5
+  previous_composite: 25.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -200,14 +202,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/oishii/refs/heads/main/screenshots/oishii-2026-08-07T190044.png
+screenshot: https://apis.io/screenshots/oishii/oishii-2026-08-07T190044.png
 security:
 - kind: authentication
   name: Oishii Authentication
@@ -217,6 +219,10 @@ security:
   name: Oishii Domain Security
   slug: oishii-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: Shop the Oishii storefront via MCP
+  slug: oishii-storefront-shopping
 slug: oishii
 tags:
 - Company

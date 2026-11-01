@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The RapidDeploy platform API host that backs Nimbus CAD, Radius Mapping, Lightning and Eclipse Analytics. The host is live and answers with a JSON envelope, but every anonymous path returns 404 "Resou
@@ -57,7 +59,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/motorola-solutions/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rapiddeploy/refs/heads/main/security/rapiddeploy-domain-security.yml
+  href: https://artifacts.apis.io/rapiddeploy/security/rapiddeploy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rapiddeploy-domain-security.yml
@@ -74,47 +76,47 @@ common:
   type: StatusPage
   url: https://status.rapiddeploy.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rapiddeploy/refs/heads/main/lifecycle/rapiddeploy-lifecycle.yml
+  href: https://artifacts.apis.io/rapiddeploy/lifecycle/rapiddeploy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rapiddeploy-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rapiddeploy/refs/heads/main/well-known/rapiddeploy-well-known.yml
+  href: https://artifacts.apis.io/rapiddeploy/well-known/rapiddeploy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rapiddeploy-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rapiddeploy/refs/heads/main/authentication/rapiddeploy-authentication.yml
+  href: https://artifacts.apis.io/rapiddeploy/authentication/rapiddeploy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rapiddeploy-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rapiddeploy/refs/heads/main/scopes/rapiddeploy-scopes.yml
+  href: https://artifacts.apis.io/rapiddeploy/scopes/rapiddeploy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/rapiddeploy-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rapiddeploy/refs/heads/main/conformance/rapiddeploy-conformance.yml
+  href: https://artifacts.apis.io/rapiddeploy/conformance/rapiddeploy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rapiddeploy-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rapiddeploy/refs/heads/main/packages/rapiddeploy-packages.yml
+  href: https://artifacts.apis.io/rapiddeploy/packages/rapiddeploy-packages.yml
   title: ''
   type: Packages
   url: packages/rapiddeploy-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rapiddeploy/refs/heads/main/llms/rapiddeploy-llms.txt
+  href: https://artifacts.apis.io/rapiddeploy/llms/rapiddeploy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rapiddeploy-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rapiddeploy/refs/heads/main/plans/rapiddeploy-plans-pricing.yml
+  href: https://artifacts.apis.io/rapiddeploy/plans/rapiddeploy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rapiddeploy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rapiddeploy/refs/heads/main/rate-limits/rapiddeploy-rate-limits.yml
+  href: https://artifacts.apis.io/rapiddeploy/rate-limits/rapiddeploy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rapiddeploy-rate-limits.yml
@@ -158,7 +160,7 @@ plans:
 - name: Rapiddeploy Plans Pricing
   plan_count: 0
   slug: rapiddeploy-plans-pricing
-random_paper: 15
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Rapiddeploy Rate Limits
@@ -170,7 +172,7 @@ scopes:
   summary_line: 14 scopes
 score:
   band: emerging
-  composite: 22.1
+  composite: 21.8
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -178,14 +180,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 73.2
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -193,7 +195,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 21.7
+  previous_composite: 21.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -203,14 +205,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rapiddeploy/refs/heads/main/screenshots/rapiddeploy-2026-10-11T113128.png
+screenshot: https://apis.io/screenshots/rapiddeploy/rapiddeploy-2026-10-11T113128.png
 security:
 - kind: authentication
   name: Rapiddeploy Authentication

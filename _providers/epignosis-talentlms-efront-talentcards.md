@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.6
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -128,11 +130,8 @@ apis:
   description: The User Type API from Epignosis (TalentLMS, eFront, TalentCards) — 2 operation(s) for user type.
   name: Epignosis (TalentLMS, eFront, TalentCards) User Type API
   slug: epignosis-talentlms-efront-talentcards-user-type-api
-artifact_total: 40
+artifact_total: 44
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Efront Account API
   slug: open-epignosis-talentlms-efront-talentcards-account-api
@@ -182,8 +181,13 @@ collections:
   name: Efront Account User Type API
   slug: open-epignosis-talentlms-efront-talentcards-user-type-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/plans/epignosis-talentlms-efront-talentcards-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/epignosis-talentlms-efront-talentcards-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/rate-limits/epignosis-talentlms-efront-talentcards-talentlms-rate-limits.yml
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/rate-limits/epignosis-talentlms-efront-talentcards-talentlms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/epignosis-talentlms-efront-talentcards-talentlms-rate-limits.yml
@@ -196,12 +200,12 @@ common:
   type: BlogRSS
   url: https://www.epignosishq.com/category/news/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/capabilities/epignosis-talentlms-efront-talentcards-capability-edges.yml
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/capabilities/epignosis-talentlms-efront-talentcards-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/epignosis-talentlms-efront-talentcards-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/overlays/epignosis-talentlms-efront-talentcards-efront-overlay.yaml
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/overlays/epignosis-talentlms-efront-talentcards-efront-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/epignosis-talentlms-efront-talentcards-efront-overlay.yaml
@@ -266,67 +270,75 @@ common:
   type: Security
   url: https://www.talentlms.com/vulnerabilitypolicy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/packages/epignosis-talentlms-efront-talentcards-packages.yml
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/packages/epignosis-talentlms-efront-talentcards-packages.yml
   title: ''
   type: Packages
   url: packages/epignosis-talentlms-efront-talentcards-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/packages/epignosis-talentlms-efront-talentcards-packages.yml
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/packages/epignosis-talentlms-efront-talentcards-packages.yml
   title: ''
   type: SDKs
   url: packages/epignosis-talentlms-efront-talentcards-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/authentication/epignosis-talentlms-efront-talentcards-authentication.yml
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/authentication/epignosis-talentlms-efront-talentcards-authentication.yml
   title: ''
   type: Authentication
   url: authentication/epignosis-talentlms-efront-talentcards-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/conventions/epignosis-talentlms-efront-talentcards-conventions.yml
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/conventions/epignosis-talentlms-efront-talentcards-conventions.yml
   title: ''
   type: Conventions
   url: conventions/epignosis-talentlms-efront-talentcards-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/conformance/epignosis-talentlms-efront-talentcards-conformance.yml
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/conformance/epignosis-talentlms-efront-talentcards-conformance.yml
   title: ''
   type: Conformance
   url: conformance/epignosis-talentlms-efront-talentcards-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/lifecycle/epignosis-talentlms-efront-talentcards-lifecycle.yml
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/lifecycle/epignosis-talentlms-efront-talentcards-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/epignosis-talentlms-efront-talentcards-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/security/epignosis-talentlms-efront-talentcards-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/security/epignosis-talentlms-efront-talentcards-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/epignosis-talentlms-efront-talentcards-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/security/epignosis-talentlms-efront-talentcards-domain-security.yml
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/security/epignosis-talentlms-efront-talentcards-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/epignosis-talentlms-efront-talentcards-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/mcp/epignosis-talentlms-efront-talentcards-mcp.yml
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/mcp/epignosis-talentlms-efront-talentcards-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/epignosis-talentlms-efront-talentcards-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/llms/epignosis-talentlms-efront-talentcards-llms.txt
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/llms/epignosis-talentlms-efront-talentcards-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/epignosis-talentlms-efront-talentcards-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/agentic-access/epignosis-talentlms-efront-talentcards-agentic-access.yml
+  href: https://artifacts.apis.io/epignosis-talentlms-efront-talentcards/agentic-access/epignosis-talentlms-efront-talentcards-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/epignosis-talentlms-efront-talentcards-agentic-access.yml
 created: '2026-07-17'
 description: 'Epignosis is a learning-technology company serving more than 70,000 organizations worldwide with a family of cloud training products: TalentLMS (an all-in-one LMS for growing businesses), eFront (a flexible enterprise LMS), TalentCards (mobile-first microlearning for deskless workers) and TalentHR. Each product exposes a REST API for managing users, courses, groups, branches, enrollments, and reporting. The TalentLMS API is a JSON REST API scoped to a per-tenant subdomain with API-key HTTP Basic auth and per-plan hourly rate limits; eFront publishes an OpenAPI 3.0 definition on SwaggerHub; TalentCards ships a PHP API wrapper. Epignosis holds ISO/IEC 27001:2022, ISO 9001:2015, CSA STAR Level 1 and is GDPR compliant.'
+finops:
+- has_sources: true
+  method: derived
+  name: Epignosis Talentlms Efront Talentcards Finops
+  primary_unit: portal
+  service_category: ''
+  slug: epignosis-talentlms-efront-talentcards-finops
+  template: false
 image: https://www.epignosishq.com/favicon.ico
 layout: provider
 modified: '2026-10-06'
@@ -336,31 +348,38 @@ network: true
 overview: 'Epignosis (TalentLMS, eFront, TalentCards) publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Autologin API, Branch API, and 14 more. Tagged areas include Company, Education, LMS, Training, and E-Learning.
 
 
-  Epignosis (TalentLMS, eFront, TalentCards)''s developer surface includes engineering blog, documentation, API reference, support, pricing, signup flow, authentication, and 25 more developer resources.'
-random_paper: 3
+  Epignosis (TalentLMS, eFront, TalentCards)''s developer surface includes engineering blog, documentation, API reference, support, pricing, signup flow, authentication, and 26 more developer resources.'
+plans:
+- name: Epignosis Talentlms Efront Talentcards Plans Pricing
+  plan_count: 5
+  slug: epignosis-talentlms-efront-talentcards-plans-pricing
+- name: Epignosis Talentlms Efront Talentcards Price Estimates
+  plan_count: 0
+  slug: epignosis-talentlms-efront-talentcards-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Epignosis Talentlms Efront Talentcards Talentlms Rate Limits
   slug: epignosis-talentlms-efront-talentcards-talentlms-rate-limits
 score:
-  band: developing
-  composite: 47.8
+  band: strong
+  composite: 58.6
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 49.4
-    developer_ergonomics: 41.1
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 47.7
+    developer_ergonomics: 54.2
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -377,13 +396,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/screenshots/epignosis-talentlms-efront-talentcards-2026-07-25T213519.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/epignosis-talentlms-efront-talentcards/epignosis-talentlms-efront-talentcards-2026-07-25T213519.png
 security:
 - kind: authentication
   name: Epignosis Talentlms Efront Talentcards Authentication
@@ -401,6 +421,12 @@ security:
   name: Epignosis Talentlms Efront Talentcards Trust Center
   slug: epignosis-talentlms-efront-talentcards-trust-center
   summary_line: ISO/IEC 27001:2022, ISO 9001:2015, GDPR, CSA STAR Level 1, EU Cloud Code of Conduct
+skill_count: 2
+skills:
+- name: Enroll a user in a course and track progress
+  slug: epignosis-talentlms-efront-talentcards-enroll-user-in-course
+- name: Onboard a user to eFront
+  slug: epignosis-talentlms-efront-talentcards-onboard-user
 slug: epignosis-talentlms-efront-talentcards
 tags:
 - Company

@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.8
-  scored_at: '2026-10-17'
+  score: 4.1
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: JSON-RPC interface to the XRP Ledger mainnet for querying accounts, transactions, ledgers, order books, AMM pools, NFTs, and server info. Served by community-run public rippled and Clio nodes.
@@ -51,17 +53,17 @@ apis:
 artifact_total: 9
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/xrpl/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/xrpl/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/xrpl/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/xrpl/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/xrpl/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/xrpl/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -90,7 +92,7 @@ common:
   type: License
   url: https://github.com/XRPLF/rippled/blob/develop/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xrpl/refs/heads/main/security/xrpl-domain-security.yml
+  href: https://artifacts.apis.io/xrpl/security/xrpl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xrpl-domain-security.yml
@@ -178,33 +180,30 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 14
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
 score:
   band: thin
-  composite: 27.5
+  composite: 26.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.8
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 80.0
-    operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 85.0
-  previous_composite: 31.3
+    developer_ergonomics: 35.7
+    discoverability: 78.6
+    operational_transparency: 47.4
+  previous_composite: 26.2
   provenance:
     mcp: first-party
   regulatory:
@@ -213,14 +212,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/xrpl/refs/heads/main/screenshots/xrpl-2026-06-20T201721.png
+screenshot: https://apis.io/screenshots/xrpl/xrpl-2026-06-20T201721.png
 security:
 - kind: domain-security
   name: Xrpl Domain Security

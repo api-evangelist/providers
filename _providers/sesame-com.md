@@ -1,0 +1,181 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 6.0
+  scored_at: '2026-10-31'
+api_count: 0
+artifact_total: 2
+common:
+- group: auth
+  href: https://artifacts.apis.io/sesame-com/well-known/sesame-com-www-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/sesame-com-www-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: https://sesame.com/vulnerability-disclosure-policy
+- group: auth
+  href: https://artifacts.apis.io/sesame-com/well-known/sesame-com-sesame-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/sesame-com-sesame-security.txt
+- group: auth
+  href: https://artifacts.apis.io/sesame-com/well-known/sesame-com-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/sesame-com-security.txt
+- group: agent
+  href: https://artifacts.apis.io/sesame-com/well-known/sesame-com-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/sesame-com-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/sesame-com/hosts/sesame-com-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/sesame-com-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/sesame-com/vendors/sesame-com-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/sesame-com-vendors.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.sesame.com/team
+- group: auth
+  href: https://artifacts.apis.io/sesame-com/security/sesame-com-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/sesame-com-vulnerability-disclosure.yml
+- group: auth
+  href: https://artifacts.apis.io/sesame-com/security/sesame-com-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/sesame-com-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://sesame.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.sesame.com
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.sesame.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.sesame.com/contact-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sesame.com/journal
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.sesame.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.sesame.com/privacy
+- group: other
+  title: ''
+  type: AcceptableUsePolicy
+  url: https://www.sesame.com/aup
+coverage:
+  checked: '2026-10-26'
+  detail: No machine‑readable API specification was found on any discovered host.
+  evidence:
+  - status: 200
+    url: https://www.sesame.com
+  reason: no-machine-readable-spec
+  state: unreadable
+created: '2026-10-25'
+description: Sesame builds AI‑powered personal agents that help users manage tasks, explore ideas, and collaborate across devices. Available on iOS and Android, the platform offers conversational interfaces, integrations with popular apps, and a growing ecosystem of third‑party tools. The company emphasizes privacy, security, and a user‑centric design, positioning its agents as everyday collaborators for both personal and professional use.
+image: https://www.datocms-assets.com/143763/1790874141-opensocial-image.jpg?auto=format&fit=max&w=1200
+layout: provider
+modified: '2026-10-25'
+name: Sesame
+nav: Providers
+network: true
+overview: 'Sesame is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, PersonalAgents, Productivity, and Privacy.
+
+
+  Sesame''s developer surface includes documentation, getting-started guide, support, engineering blog, and 14 more developer resources.'
+random_paper: 18
+score:
+  band: emerging
+  composite: 16.8
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 28.6
+    discoverability: 50.0
+    operational_transparency: 10.5
+  provenance:
+    mcp: unknown
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 18.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Sesame Com Domain Security
+  slug: sesame-com-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Sesame Com Vulnerability Disclosure
+  slug: sesame-com-vulnerability-disclosure
+  summary_line: security.txt · contact published
+slug: sesame-com
+tags:
+- Company
+- AI
+- PersonalAgents
+- Productivity
+- Privacy
+website: https://sesame.com
+---

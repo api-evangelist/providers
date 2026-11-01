@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,16 +36,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Model Context Protocol server that Code Biotherapeutics' corporate website exposes at https://www.codebiotx.com/_api/mcp. It is the Wix platform site MCP server, served from the company's own host
   name: Code Bio Site MCP Server
   slug: code-bio-site-mcp-server
-artifact_total: 4
+artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/code-biotherapeutics/refs/heads/main/security/code-biotherapeutics-domain-security.yml
+  href: https://artifacts.apis.io/code-biotherapeutics/security/code-biotherapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/code-biotherapeutics-domain-security.yml
@@ -72,27 +74,27 @@ common:
   type: PrivacyPolicy
   url: https://www.codebiotx.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/code-biotherapeutics/refs/heads/main/llms/code-biotherapeutics-llms.txt
+  href: https://artifacts.apis.io/code-biotherapeutics/llms/code-biotherapeutics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/code-biotherapeutics-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/code-biotherapeutics/refs/heads/main/mcp/code-biotherapeutics-mcp.yml
+  href: https://artifacts.apis.io/code-biotherapeutics/mcp/code-biotherapeutics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/code-biotherapeutics-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/code-biotherapeutics/refs/heads/main/authentication/code-biotherapeutics-authentication.yml
+  href: https://artifacts.apis.io/code-biotherapeutics/authentication/code-biotherapeutics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/code-biotherapeutics-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/code-biotherapeutics/refs/heads/main/conformance/code-biotherapeutics-conformance.yml
+  href: https://artifacts.apis.io/code-biotherapeutics/conformance/code-biotherapeutics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/code-biotherapeutics-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/code-biotherapeutics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/code-biotherapeutics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -120,24 +122,24 @@ overview: 'Code Biotherapeutics is listed with 1 API on the [APIs.io](https://ap
 
 
   Code Biotherapeutics'' developer surface includes documentation, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 21
+random_paper: 3
 score:
   band: emerging
-  composite: 20.8
+  composite: 20.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 71.7
+    discoverability: 65.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -146,7 +148,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 20.7
+  previous_composite: 20.1
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -157,14 +159,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/code-biotherapeutics/refs/heads/main/screenshots/code-biotherapeutics-2026-09-02T145118.png
+screenshot: https://apis.io/screenshots/code-biotherapeutics/code-biotherapeutics-2026-09-02T145118.png
 security:
 - kind: authentication
   name: Code Biotherapeutics Authentication
@@ -174,6 +176,10 @@ security:
   name: Code Biotherapeutics Domain Security
   slug: code-biotherapeutics-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: code-biotherapeutics-site-lookup
+  slug: code-biotherapeutics-site-lookup
 slug: code-biotherapeutics
 tags:
 - Company

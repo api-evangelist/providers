@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.9
-  scored_at: '2026-10-17'
+  score: 26.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -65,7 +67,7 @@ apis:
   description: The User sessions API from Enable Banking — 3 operation(s) for user sessions.
   name: Enable Banking User sessions API
   slug: enable-banking-user-sessions-api
-artifact_total: 30
+artifact_total: 29
 collections:
 - collection_type: postman
   name: API reference Accounts data API
@@ -79,9 +81,6 @@ collections:
 - collection_type: postman
   name: API reference Accounts data User sessions API
   slug: postman-enable-banking-user-sessions-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API reference Accounts data API
   slug: open-enable-banking-accounts-data-api
@@ -103,7 +102,7 @@ common:
   type: Website
   url: https://www.enablebanking.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/capabilities/enable-banking-capability-edges.yml
+  href: https://artifacts.apis.io/enable-banking/capabilities/enable-banking-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/enable-banking-capability-edges.yml
@@ -112,17 +111,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/enable-banking/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/agentic-access/enable-banking-agentic-access.yml
+  href: https://artifacts.apis.io/enable-banking/agentic-access/enable-banking-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/enable-banking-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/security/enable-banking-domain-security.yml
+  href: https://artifacts.apis.io/enable-banking/security/enable-banking-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/enable-banking-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/authentication/enable-banking-authentication.yml
+  href: https://artifacts.apis.io/enable-banking/authentication/enable-banking-authentication.yml
   title: ''
   type: Authentication
   url: authentication/enable-banking-authentication.yml
@@ -195,17 +194,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/enable-banking/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/plans/enable-banking-plans-pricing.yml
+  href: https://artifacts.apis.io/enable-banking/plans/enable-banking-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/enable-banking-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/rate-limits/enable-banking-rate-limits.yml
+  href: https://artifacts.apis.io/enable-banking/rate-limits/enable-banking-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/enable-banking-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/finops/enable-banking-finops.yml
+  href: https://artifacts.apis.io/enable-banking/finops/enable-banking-finops.yml
   title: ''
   type: FinOps
   url: finops/enable-banking-finops.yml
@@ -265,7 +264,7 @@ plans:
 - name: Enable Banking Plans Pricing
   plan_count: 3
   slug: enable-banking-plans-pricing
-random_paper: 4
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Enable Banking Rate Limits
@@ -296,7 +295,7 @@ rules:
   slug: enable-banking-rules
 score:
   band: developing
-  composite: 39.9
+  composite: 48.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 69.0
@@ -304,14 +303,14 @@ score:
     catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 65.7
-    developer_ergonomics: 61.9
+    developer_ergonomics: 81.0
     discoverability: 66.1
-    operational_transparency: 10.5
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -320,7 +319,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 48.2
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     contracts:
@@ -334,13 +333,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/screenshots/enable-banking-2026-06-20T180647.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/enable-banking/enable-banking-2026-06-20T180647.png
 security:
 - kind: authentication
   name: Enable Banking Authentication

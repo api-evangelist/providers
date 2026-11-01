@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for Bonum Tx platform providing access to therapeutic data and program information.
@@ -32,12 +34,12 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bonumtherapeutics/refs/heads/main/hosts/bonumtherapeutics-hosts.yml
+  href: https://artifacts.apis.io/bonumtherapeutics/hosts/bonumtherapeutics-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bonumtherapeutics-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bonumtherapeutics/refs/heads/main/vendors/bonumtherapeutics-vendors.yml
+  href: https://artifacts.apis.io/bonumtherapeutics/vendors/bonumtherapeutics-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bonumtherapeutics-vendors.yml
@@ -50,7 +52,7 @@ common:
   type: Newsroom
   url: https://bonumtx.com/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bonumtherapeutics/refs/heads/main/security/bonumtherapeutics-domain-security.yml
+  href: https://artifacts.apis.io/bonumtherapeutics/security/bonumtherapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bonumtherapeutics-domain-security.yml
@@ -74,7 +76,7 @@ name: Bonumtherapeutics
 nav: Providers
 network: true
 overview: Bonumtherapeutics is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, Antibody, and Oncology.
-random_paper: 16
+random_paper: 18
 score:
   band: minimal
   composite: 6.8
@@ -102,8 +104,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

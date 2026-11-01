@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -109,7 +111,7 @@ arazzos:
 - description: Roll out a new image to a container app, wait for provisioning, then list the resulting revisions.
   name: Azure Container Apps Update App and List Revisions
   slug: azure-container-apps-update-app-and-list-revisions-workflow
-artifact_total: 97
+artifact_total: 96
 collections:
 - collection_type: postman
   name: Azure Container Apps Authentication API
@@ -126,9 +128,6 @@ collections:
 - collection_type: postman
   name: Azure Container Apps Authentication Revisions API
   slug: postman-azure-container-apps-revisions-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Container Apps Authentication API
   slug: open-azure-container-apps-authentication-api
@@ -149,22 +148,22 @@ collections:
   slug: open-azure-container-apps
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/plans/azure-container-apps-plans-pricing.yml
+  href: https://artifacts.apis.io/azure-container-apps/plans/azure-container-apps-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/azure-container-apps-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/rate-limits/azure-container-apps-rate-limits.yml
+  href: https://artifacts.apis.io/azure-container-apps/rate-limits/azure-container-apps-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/azure-container-apps-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/finops/azure-container-apps-finops.yml
+  href: https://artifacts.apis.io/azure-container-apps/finops/azure-container-apps-finops.yml
   title: ''
   type: FinOps
   url: finops/azure-container-apps-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/capabilities/azure-container-apps-capability-edges.yml
+  href: https://artifacts.apis.io/azure-container-apps/capabilities/azure-container-apps-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/azure-container-apps-capability-edges.yml
@@ -193,87 +192,87 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/azure-container-apps/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/agentic-access/azure-container-apps-agentic-access.yml
+  href: https://artifacts.apis.io/azure-container-apps/agentic-access/azure-container-apps-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/azure-container-apps-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/security/azure-container-apps-domain-security.yml
+  href: https://artifacts.apis.io/azure-container-apps/security/azure-container-apps-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/azure-container-apps-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/authentication/azure-container-apps-authentication.yml
+  href: https://artifacts.apis.io/azure-container-apps/authentication/azure-container-apps-authentication.yml
   title: ''
   type: Authentication
   url: authentication/azure-container-apps-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/scopes/azure-container-apps-scopes.yml
+  href: https://artifacts.apis.io/azure-container-apps/scopes/azure-container-apps-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/azure-container-apps-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-activate-latest-revision-workflow.yml
+  href: https://artifacts.apis.io/azure-container-apps/arazzo/azure-container-apps-activate-latest-revision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-activate-latest-revision-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-audit-app-security-workflow.yml
+  href: https://artifacts.apis.io/azure-container-apps/arazzo/azure-container-apps-audit-app-security-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-audit-app-security-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-decommission-app-workflow.yml
+  href: https://artifacts.apis.io/azure-container-apps/arazzo/azure-container-apps-decommission-app-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-decommission-app-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-deploy-app-into-new-environment-workflow.yml
+  href: https://artifacts.apis.io/azure-container-apps/arazzo/azure-container-apps-deploy-app-into-new-environment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-deploy-app-into-new-environment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-enable-dapr-sidecar-workflow.yml
+  href: https://artifacts.apis.io/azure-container-apps/arazzo/azure-container-apps-enable-dapr-sidecar-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-enable-dapr-sidecar-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-provision-and-run-job-workflow.yml
+  href: https://artifacts.apis.io/azure-container-apps/arazzo/azure-container-apps-provision-and-run-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-provision-and-run-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-provision-container-app-workflow.yml
+  href: https://artifacts.apis.io/azure-container-apps/arazzo/azure-container-apps-provision-container-app-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-provision-container-app-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-provision-managed-environment-workflow.yml
+  href: https://artifacts.apis.io/azure-container-apps/arazzo/azure-container-apps-provision-managed-environment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-provision-managed-environment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-restart-active-revision-workflow.yml
+  href: https://artifacts.apis.io/azure-container-apps/arazzo/azure-container-apps-restart-active-revision-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-restart-active-revision-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-rotate-and-verify-secrets-workflow.yml
+  href: https://artifacts.apis.io/azure-container-apps/arazzo/azure-container-apps-rotate-and-verify-secrets-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-rotate-and-verify-secrets-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-run-existing-job-workflow.yml
+  href: https://artifacts.apis.io/azure-container-apps/arazzo/azure-container-apps-run-existing-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-run-existing-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-shift-revision-traffic-workflow.yml
+  href: https://artifacts.apis.io/azure-container-apps/arazzo/azure-container-apps-shift-revision-traffic-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-shift-revision-traffic-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/arazzo/azure-container-apps-update-app-and-list-revisions-workflow.yml
+  href: https://artifacts.apis.io/azure-container-apps/arazzo/azure-container-apps-update-app-and-list-revisions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-container-apps-update-app-and-list-revisions-workflow.yml
@@ -402,11 +401,11 @@ features:
 - description: Deploy AI/ML workloads on GPU-enabled container instances.
   name: GPU Support
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Azure Container Apps Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: azure-container-apps-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/azure-container-apps.png
@@ -518,9 +517,9 @@ overview: 'Azure Container Apps publishes 5 API contracts indexed on the [APIs.i
   Azure Container Apps'' developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, pricing, signup flow, and 37 more developer resources.'
 plans:
 - name: Azure Container Apps Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: azure-container-apps-plans-pricing
-random_paper: 16
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Azure Container Apps Rate Limits
@@ -556,26 +555,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 61.2
+  composite: 56.9
   coverage:
     artifact_dirs: 21
-    catalog_earned: 67.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: -6.3
   facets:
-    access_clarity: 52.6
+    access_clarity: 44.7
     contract_governance: 27.3
     contract_quality: 63.3
-    developer_ergonomics: 56.0
+    developer_ergonomics: 58.3
     discoverability: 71.4
-    operational_transparency: 52.6
-  open_source:
-    applies: true
-    score: 75.0
-  previous_composite: 62.6
+    operational_transparency: 55.3
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     contracts:
@@ -589,13 +585,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/screenshots/azure-container-apps-2026-06-20T172841.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/azure-container-apps/azure-container-apps-2026-06-20T172841.png
 security:
 - kind: authentication
   name: Azure Container Apps Authentication

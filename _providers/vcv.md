@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 23.4
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://my.vcv.ai
@@ -122,15 +124,12 @@ apis:
   description: The webhook API from VCV — 2 operation(s) for webhook.
   name: VCV Webhook API
   slug: vcv-webhook-api
-artifact_total: 38
+artifact_total: 42
 asyncapis:
 - description: VCV delivers outbound webhooks for recruitment events. Subscriptions are managed via the Open API v3 company-webhooks endpoints (create/list/get/ update/delete), each carrying a target url, an event t
   name: VCV Webhooks
   slug: vcv-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: VCV chatbot API
   slug: open-vcv-chatbot-api
@@ -183,8 +182,13 @@ collections:
   name: VCV chatbot webhook API
   slug: open-vcv-webhook-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/vcv/plans/vcv-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vcv-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/capabilities/vcv-capability-edges.yml
+  href: https://artifacts.apis.io/vcv/capabilities/vcv-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vcv-capability-edges.yml
@@ -237,77 +241,85 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/vcv-ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/authentication/vcv-authentication.yml
+  href: https://artifacts.apis.io/vcv/authentication/vcv-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vcv-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/security/vcv-domain-security.yml
+  href: https://artifacts.apis.io/vcv/security/vcv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vcv-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/conventions/vcv-conventions.yml
+  href: https://artifacts.apis.io/vcv/conventions/vcv-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vcv-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/errors/vcv-problem-types.yml
+  href: https://artifacts.apis.io/vcv/errors/vcv-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vcv-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/lifecycle/vcv-lifecycle.yml
+  href: https://artifacts.apis.io/vcv/lifecycle/vcv-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vcv-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/conformance/vcv-conformance.yml
+  href: https://artifacts.apis.io/vcv/conformance/vcv-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vcv-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/data-model/vcv-data-model.yml
+  href: https://artifacts.apis.io/vcv/data-model/vcv-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vcv-data-model.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/asyncapi/vcv-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/vcv/asyncapi/vcv-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/vcv-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/asyncapi/vcv-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/vcv/asyncapi/vcv-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/vcv-webhooks-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vcv/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/mcp/vcv-mcp.yml
+  href: https://artifacts.apis.io/vcv/mcp/vcv-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vcv-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/llms/vcv-llms.txt
+  href: https://artifacts.apis.io/vcv/llms/vcv-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vcv-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/overlays/vcv-openapi-overlay.yaml
+  href: https://artifacts.apis.io/vcv/overlays/vcv-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vcv-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/packages/vcv-packages.yml
+  href: https://artifacts.apis.io/vcv/packages/vcv-packages.yml
   title: ''
   type: Packages
   url: packages/vcv-packages.yml
 created: '2026-07-17'
 description: VCV is a recruitment-automation platform offering video interviews, candidate screening, assessments, and chatbot pre-screening for high-volume, graduate, and professional hiring, used by enterprises like PwC, PepsiCo, and Danone. Its VCV Open API v3 is a bearer-token REST API covering vacancies, candidate responses, video interviews, tests, surveys, invites, tags, users, and company webhooks, documented via Swagger UI at developer.vcv.ru.
+finops:
+- has_sources: true
+  method: derived
+  name: Vcv Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: vcv-finops
+  template: false
 image: https://static.tildacdn.net/tild3164-3465-4133-a335-363938393334/vcv_badge.png
 layout: provider
 modified: '2026-07-21'
@@ -320,27 +332,34 @@ overview: 'VCV publishes 17 API contracts indexed on the [APIs.io](https://apis.
   The VCV catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  VCV''s developer surface includes documentation, API reference, pricing, engineering blog, signup flow, support, authentication, and 20 more developer resources.'
-random_paper: 5
+  VCV''s developer surface includes documentation, API reference, pricing, engineering blog, signup flow, support, authentication, and 21 more developer resources.'
+plans:
+- name: Vcv Plans Pricing
+  plan_count: 10
+  slug: vcv-plans-pricing
+- name: Vcv Price Estimates
+  plan_count: 0
+  slug: vcv-price-estimates
+random_paper: 23
 score:
   band: developing
-  composite: 41.2
+  composite: 46.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 38.2
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 57.0
+    contract_quality: 53.7
     developer_ergonomics: 37.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 41.2
+  previous_composite: 38.9
   provenance:
     conformance: derived
     contracts:
@@ -356,13 +375,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/screenshots/vcv-2026-09-02T165534.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vcv/vcv-2026-09-02T165534.png
 security:
 - kind: authentication
   name: Vcv Authentication
@@ -372,6 +392,12 @@ security:
   name: Vcv Domain Security
   slug: vcv-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Subscribe to VCV recruitment events via webhooks
+  slug: vcv-manage-webhook-subscriptions
+- name: Screen candidate responses and advance them through the funnel
+  slug: vcv-screen-and-advance-candidates
 slug: vcv
 tags:
 - Company

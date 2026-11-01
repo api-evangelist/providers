@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Artera's outbound SMS API, marketed to health systems and Artera Marketplace vendors as the SendMessage API. It sends real-time text messages to patients from the health system's trusted Artera number
@@ -41,7 +43,7 @@ apis:
 - description: A Marketplace-vendor API that attaches custom partner content to a patient's upcoming or past appointment or encounter, including post-discharge content. Vendors call Artera with Appointment and/or En
   name: Artera Extended Data API
   slug: artera-extended-data-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Artera Webhooks
@@ -80,12 +82,12 @@ common:
   type: Security
   url: https://artera.io/vulnerability-disclosure/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/security/artera-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/artera/security/artera-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/artera-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/security/artera-domain-security.yml
+  href: https://artifacts.apis.io/artera/security/artera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/artera-domain-security.yml
@@ -114,7 +116,7 @@ common:
   type: StatusPage
   url: https://status.artera.io/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/changelog/artera-changelog.yml
+  href: https://artifacts.apis.io/artera/changelog/artera-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/artera-changelog.yml
@@ -123,62 +125,62 @@ common:
   type: ReleaseNotes
   url: https://knowledge.artera.io/en_US/release-notes/2026-releases
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/lifecycle/artera-lifecycle.yml
+  href: https://artifacts.apis.io/artera/lifecycle/artera-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/artera-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/lifecycle/artera-lifecycle.yml
+  href: https://artifacts.apis.io/artera/lifecycle/artera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/artera-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/authentication/artera-authentication.yml
+  href: https://artifacts.apis.io/artera/authentication/artera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/artera-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/conventions/artera-conventions.yml
+  href: https://artifacts.apis.io/artera/conventions/artera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/artera-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/errors/artera-problem-types.yml
+  href: https://artifacts.apis.io/artera/errors/artera-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/artera-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/asyncapi/artera-webhooks.yml
+  href: https://artifacts.apis.io/artera/asyncapi/artera-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/artera-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/conformance/artera-conformance.yml
+  href: https://artifacts.apis.io/artera/conformance/artera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/artera-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/sandbox/artera-sandbox.yml
+  href: https://artifacts.apis.io/artera/sandbox/artera-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/artera-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/plans/artera-plans-pricing.yml
+  href: https://artifacts.apis.io/artera/plans/artera-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/artera-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/rate-limits/artera-rate-limits.yml
+  href: https://artifacts.apis.io/artera/rate-limits/artera-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/artera-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/packages/artera-packages.yml
+  href: https://artifacts.apis.io/artera/packages/artera-packages.yml
   title: ''
   type: Packages
   url: packages/artera-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/llms/artera-llms.txt
+  href: https://artifacts.apis.io/artera/llms/artera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/artera-llms.txt
@@ -212,6 +214,14 @@ coverage:
   state: gated
 created: '2026-07-17'
 description: Artera is a healthcare technology company providing an AI-powered patient communication and engagement platform used by hospitals, health systems, and medical practices to unify how they reach and care for patients. The platform orchestrates SMS, voice, email, and chat across the patient journey — appointment scheduling and reminders, patient intake, payments, referral management, care-gap closure, prescription refills, multilingual engagement, and after-hours call routing and triage — increasingly through agentic AI. Artera connects to the EHR and patient-facing vendors via API, FHIR, and HL7v2 integrations with major systems including Epic, Oracle Health, MEDITECH, athenahealth, eClinicalWorks, Veradigm, NextGen, Greenway, ModMed, AdvancedMD, and Netsmart. The company maintains a strong security and compliance posture (SOC 2 Type 2, HITRUST, ISO 27001/27017/27018/27701, FedRAMP, HIPAA). It was surfaced as a Techstars portfolio company and added to the API Evangelist network.
+finops:
+- has_sources: true
+  method: derived
+  name: Artera Finops
+  primary_unit: ''
+  service_category: ''
+  slug: artera-finops
+  template: true
 image: https://artera.io/wp-content/uploads/2024/03/cropped-favicon-300x300.png
 layout: provider
 modified: '2026-07-18'
@@ -229,30 +239,30 @@ plans:
 - name: Artera Plans Pricing
   plan_count: 0
   slug: artera-plans-pricing
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Artera Rate Limits
   slug: artera-rate-limits
 score:
   band: developing
-  composite: 50.4
+  composite: 51.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 56.0
-    discoverability: 73.2
+    developer_ergonomics: 64.3
+    discoverability: 66.1
     operational_transparency: 57.9
-  previous_composite: 50.3
+  previous_composite: 51.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -270,14 +280,14 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/artera/refs/heads/main/screenshots/artera-2026-07-25T201322.png
+screenshot: https://apis.io/screenshots/artera/artera-2026-07-25T201322.png
 security:
 - kind: authentication
   name: Artera Authentication

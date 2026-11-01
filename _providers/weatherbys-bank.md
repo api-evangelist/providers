@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.8
-  scored_at: '2026-10-17'
+  score: 24.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -92,42 +94,42 @@ common:
   type: BlogRSS
   url: https://www.weatherbys.bank/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/capabilities/weatherbys-bank-capability-edges.yml
+  href: https://artifacts.apis.io/weatherbys-bank/capabilities/weatherbys-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/weatherbys-bank-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/agentic-access/weatherbys-bank-agentic-access.yml
+  href: https://artifacts.apis.io/weatherbys-bank/agentic-access/weatherbys-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/weatherbys-bank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/security/weatherbys-bank-domain-security.yml
+  href: https://artifacts.apis.io/weatherbys-bank/security/weatherbys-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/weatherbys-bank-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/authentication/weatherbys-bank-authentication.yml
+  href: https://artifacts.apis.io/weatherbys-bank/authentication/weatherbys-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/weatherbys-bank-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/scopes/weatherbys-bank-scopes.yml
+  href: https://artifacts.apis.io/weatherbys-bank/scopes/weatherbys-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/weatherbys-bank-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/conventions/weatherbys-bank-conventions.yml
+  href: https://artifacts.apis.io/weatherbys-bank/conventions/weatherbys-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/weatherbys-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/conventions/weatherbys-bank-conventions.yml
+  href: https://artifacts.apis.io/weatherbys-bank/conventions/weatherbys-bank-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/weatherbys-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/conformance/weatherbys-bank-conformance.yml
+  href: https://artifacts.apis.io/weatherbys-bank/conformance/weatherbys-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/weatherbys-bank-conformance.yml
@@ -136,42 +138,42 @@ common:
   type: Compliance
   url: https://www.openbanking.org.uk/regulated-providers/weatherbys-bank-limited/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/errors/weatherbys-bank-problem-types.yml
+  href: https://artifacts.apis.io/weatherbys-bank/errors/weatherbys-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/weatherbys-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/lifecycle/weatherbys-bank-lifecycle.yml
+  href: https://artifacts.apis.io/weatherbys-bank/lifecycle/weatherbys-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/weatherbys-bank-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/mcp/weatherbys-bank-mcp.yml
+  href: https://artifacts.apis.io/weatherbys-bank/mcp/weatherbys-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/weatherbys-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/llms/weatherbys-bank-llms.txt
+  href: https://artifacts.apis.io/weatherbys-bank/llms/weatherbys-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/weatherbys-bank-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/overlays/weatherbys-bank-atm-locator-overlay.yaml
+  href: https://artifacts.apis.io/weatherbys-bank/overlays/weatherbys-bank-atm-locator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/weatherbys-bank-atm-locator-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/overlays/weatherbys-bank-branch-locator-overlay.yaml
+  href: https://artifacts.apis.io/weatherbys-bank/overlays/weatherbys-bank-branch-locator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/weatherbys-bank-branch-locator-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/overlays/weatherbys-bank-personal-current-accounts-overlay.yaml
+  href: https://artifacts.apis.io/weatherbys-bank/overlays/weatherbys-bank-personal-current-accounts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/weatherbys-bank-personal-current-accounts-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/overlays/weatherbys-bank-business-current-accounts-overlay.yaml
+  href: https://artifacts.apis.io/weatherbys-bank/overlays/weatherbys-bank-business-current-accounts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/weatherbys-bank-business-current-accounts-overlay.yaml
@@ -224,29 +226,29 @@ overview: 'Weatherbys Bank publishes 7 API contracts indexed on the [APIs.io](ht
 
 
   Weatherbys Bank''s developer surface includes authentication, documentation, engineering blog, support, and 23 more developer resources.'
-random_paper: 3
+random_paper: 7
 scopes:
 - name: Weatherbys Bank Scopes
   scope_count: 4
   slug: weatherbys-bank-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 47.3
+  band: thin
+  composite: 36.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
-    catalog_max: 100.0
+    catalog_gap: 75.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 78.6
+    access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 36.4
     developer_ergonomics: 35.7
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -256,7 +258,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 47.2
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -276,14 +278,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 41.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/screenshots/weatherbys-bank-2026-09-02T170521.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/weatherbys-bank/weatherbys-bank-2026-09-02T170521.png
 security:
 - kind: authentication
   name: Weatherbys Bank Authentication

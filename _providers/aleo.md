@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 22.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -68,11 +70,8 @@ apis:
   description: Transaction submission
   name: Aleo Transactions API
   slug: aleo-transactions-api
-artifact_total: 14
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Aleo Node REST Blocks API
   slug: open-aleo-blocks-api
@@ -94,12 +93,12 @@ common:
   type: Website
   url: https://aleo.org
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/security/aleo-domain-security.yml
+  href: https://artifacts.apis.io/aleo/security/aleo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aleo-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/agentic-access/aleo-agentic-access.yml
+  href: https://artifacts.apis.io/aleo/agentic-access/aleo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aleo-agentic-access.yml
@@ -132,7 +131,7 @@ common:
   type: Support
   url: https://discord.gg/aleo
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/sandbox/aleo-sandbox.yml
+  href: https://artifacts.apis.io/aleo/sandbox/aleo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aleo-sandbox.yml
@@ -153,77 +152,77 @@ common:
   type: X
   url: https://x.com/provablehq
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/packages/aleo-packages.yml
+  href: https://artifacts.apis.io/aleo/packages/aleo-packages.yml
   title: ''
   type: Packages
   url: packages/aleo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/packages/aleo-packages.yml
+  href: https://artifacts.apis.io/aleo/packages/aleo-packages.yml
   title: ''
   type: SDKs
   url: packages/aleo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/cli/aleo-cli.yml
+  href: https://artifacts.apis.io/aleo/cli/aleo-cli.yml
   title: ''
   type: CLI
   url: cli/aleo-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/mcp/aleo-mcp.yml
+  href: https://artifacts.apis.io/aleo/mcp/aleo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/aleo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aleo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/well-known/aleo-well-known.yml
+  href: https://artifacts.apis.io/aleo/well-known/aleo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aleo-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/llms/aleo-llms.txt
+  href: https://artifacts.apis.io/aleo/llms/aleo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aleo-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/overlays/aleo-node-api-overlay.yaml
+  href: https://artifacts.apis.io/aleo/overlays/aleo-node-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aleo-node-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/conformance/aleo-conformance.yml
+  href: https://artifacts.apis.io/aleo/conformance/aleo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aleo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/errors/aleo-problem-types.yml
+  href: https://artifacts.apis.io/aleo/errors/aleo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aleo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/lifecycle/aleo-lifecycle.yml
+  href: https://artifacts.apis.io/aleo/lifecycle/aleo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aleo-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/authentication/aleo-authentication.yml
+  href: https://artifacts.apis.io/aleo/authentication/aleo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aleo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/conventions/aleo-conventions.yml
+  href: https://artifacts.apis.io/aleo/conventions/aleo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aleo-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/changelog/aleo-changelog.yml
+  href: https://artifacts.apis.io/aleo/changelog/aleo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aleo-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/data-model/aleo-data-model.yml
+  href: https://artifacts.apis.io/aleo/data-model/aleo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aleo-data-model.yml
@@ -239,10 +238,10 @@ overview: 'Aleo publishes 5 API contracts indexed on the [APIs.io](https://apis.
 
 
   Aleo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, sandbox, CLI, and 23 more developer resources.'
-random_paper: 21
+random_paper: 9
 score:
   band: developing
-  composite: 41.2
+  composite: 42.3
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -250,15 +249,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 45.3
-    developer_ergonomics: 76.8
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 41.1
+    developer_ergonomics: 80.4
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,13 +274,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/screenshots/aleo-2026-07-25T195557.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aleo/aleo-2026-07-25T195557.png
 security:
 - kind: authentication
   name: Aleo Authentication
@@ -291,6 +291,14 @@ security:
   name: Aleo Domain Security
   slug: aleo-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Broadcast a signed Aleo transaction
+  slug: aleo-broadcast-transaction
+- name: Read Aleo chain state
+  slug: aleo-read-chain-state
+- name: Read Aleo program and mapping state
+  slug: aleo-read-program-state
 slug: aleo
 tags:
 - Company

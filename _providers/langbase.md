@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -85,11 +87,43 @@ apis:
   description: The Tools API from Langbase — 2 operation(s) for tools.
   name: Langbase Tools API
   slug: langbase-tools-api
-artifact_total: 25
+- baseURL: https://api.langbase.com/v1
+  baseurl_source: declared
+  description: The Beta API from Langbase — 15 operation(s) for beta.
+  name: Langbase Beta API
+  slug: langbase-beta-api
+- baseURL: https://api.langbase.com/v1
+  baseurl_source: declared
+  description: The Health API from Langbase — 1 operation(s) for health.
+  name: Langbase Health API
+  slug: langbase-health-api
+- baseURL: https://api.langbase.com/v1
+  baseurl_source: declared
+  description: The Images API from Langbase — 1 operation(s) for images.
+  name: Langbase Images API
+  slug: langbase-images-api
+- baseURL: https://api.langbase.com/v1
+  baseurl_source: declared
+  description: The Langbase Api API from Langbase — 2 operation(s) for langbase api.
+  name: Langbase Langbase API
+  slug: langbase-langbase-api-api
+- baseURL: https://api.langbase.com/v1
+  baseurl_source: declared
+  description: The Models API from Langbase — 1 operation(s) for models.
+  name: Langbase Models API
+  slug: langbase-models-api
+- baseURL: https://api.langbase.com/v1
+  baseurl_source: declared
+  description: The Routes API from Langbase — 1 operation(s) for routes.
+  name: Langbase Routes API
+  slug: langbase-routes-api
+- baseURL: https://api.langbase.com/v1
+  baseurl_source: declared
+  description: The Traces API from Langbase — 2 operation(s) for traces.
+  name: Langbase Traces API
+  slug: langbase-traces-api
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Langbase Agent API
   slug: open-langbase-agent-api
@@ -123,27 +157,27 @@ common:
   type: Pricing
   url: https://langbase.com/pricing
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/capabilities/langbase-capability-edges.yml
+  href: https://artifacts.apis.io/langbase/capabilities/langbase-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/langbase-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/agentic-access/langbase-agentic-access.yml
+  href: https://artifacts.apis.io/langbase/agentic-access/langbase-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/langbase-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/security/langbase-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/langbase/security/langbase-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/langbase-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/security/langbase-domain-security.yml
+  href: https://artifacts.apis.io/langbase/security/langbase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/langbase-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/authentication/langbase-authentication.yml
+  href: https://artifacts.apis.io/langbase/authentication/langbase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/langbase-authentication.yml
@@ -164,17 +198,17 @@ common:
   type: Documentation
   url: https://langbase.com/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/plans/langbase-plans-pricing.yml
+  href: https://artifacts.apis.io/langbase/plans/langbase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/langbase-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/rate-limits/langbase-rate-limits.yml
+  href: https://artifacts.apis.io/langbase/rate-limits/langbase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/langbase-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/finops/langbase-finops.yml
+  href: https://artifacts.apis.io/langbase/finops/langbase-finops.yml
   title: ''
   type: FinOps
   url: finops/langbase-finops.yml
@@ -198,7 +232,7 @@ modified: '2026-07-01'
 name: Langbase
 nav: Providers
 network: true
-overview: 'Langbase publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Chunker API, Embed API, and 5 more. Tagged areas include Artificial Intelligence, Agents, RAG, LLM, and Serverless.
+overview: 'Langbase publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Chunker API, Embed API, and 12 more. Tagged areas include Artificial Intelligence, Agents, RAG, LLM, and Serverless.
 
 
   Langbase''s developer surface includes pricing, authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -206,14 +240,14 @@ plans:
 - name: Langbase Plans Pricing
   plan_count: 4
   slug: langbase-plans-pricing
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 6
   name: Langbase Rate Limits
   slug: langbase-rate-limits
 score:
   band: thin
-  composite: 33.8
+  composite: 35.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 52.0
@@ -221,35 +255,36 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -0.1
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
-    contract_quality: 46.9
+    contract_quality: 43.7
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 35.3
+    operational_transparency: 23.7
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 24
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/screenshots/langbase-2026-07-25T224526.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/langbase/langbase-2026-07-25T224526.png
 security:
 - kind: authentication
   name: Langbase Authentication

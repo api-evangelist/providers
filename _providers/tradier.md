@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: documented
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.2
-  scored_at: '2026-10-17'
+  score: 37.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -90,7 +91,7 @@ apis:
   description: The Watchlists API from Tradier — 2 operation(s) for watchlists.
   name: Tradier Watchlists API
   slug: tradier-watchlists-api
-artifact_total: 22
+artifact_total: 25
 asyncapis:
 - description: AsyncAPI 2.6 description of Tradier's WebSocket streaming for market events and account events. A streaming session must first be created via the brokerage REST endpoints (POST /v1/markets/events/sess
   name: Tradier Streaming WebSocket API
@@ -109,22 +110,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tradier/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/agentic-access/tradier-agentic-access.yml
+  href: https://artifacts.apis.io/tradier/agentic-access/tradier-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tradier-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/authentication/tradier-authentication.yml
+  href: https://artifacts.apis.io/tradier/authentication/tradier-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tradier-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/security/tradier-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tradier/security/tradier-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tradier-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/security/tradier-domain-security.yml
+  href: https://artifacts.apis.io/tradier/security/tradier-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tradier-domain-security.yml
@@ -153,17 +154,17 @@ common:
   type: StatusPage
   url: https://status.tradier.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/plans/tradier-plans-pricing.yml
+  href: https://artifacts.apis.io/tradier/plans/tradier-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tradier-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/rate-limits/tradier-rate-limits.yml
+  href: https://artifacts.apis.io/tradier/rate-limits/tradier-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tradier-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/finops/tradier-finops.yml
+  href: https://artifacts.apis.io/tradier/finops/tradier-finops.yml
   title: ''
   type: FinOps
   url: finops/tradier-finops.yml
@@ -204,92 +205,92 @@ common:
   type: SignUp
   url: https://dash.tradier.com/sign-up
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/mcp/tradier-mcp.yml
+  href: https://artifacts.apis.io/tradier/mcp/tradier-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tradier-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/mcp/tradier-tool-crosswalk.yml
+  href: https://artifacts.apis.io/tradier/mcp/tradier-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tradier-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/llms/tradier-llms.txt
+  href: https://artifacts.apis.io/tradier/llms/tradier-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tradier-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/well-known/tradier-well-known.yml
+  href: https://artifacts.apis.io/tradier/well-known/tradier-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tradier-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/well-known/tradier-security.txt
+  href: https://artifacts.apis.io/tradier/well-known/tradier-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/tradier-security.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/packages/tradier-packages.yml
+  href: https://artifacts.apis.io/tradier/packages/tradier-packages.yml
   title: ''
   type: Packages
   url: packages/tradier-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/packages/tradier-packages.yml
+  href: https://artifacts.apis.io/tradier/packages/tradier-packages.yml
   title: ''
   type: SDKs
   url: packages/tradier-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/scopes/tradier-scopes.yml
+  href: https://artifacts.apis.io/tradier/scopes/tradier-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tradier-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/conformance/tradier-conformance.yml
+  href: https://artifacts.apis.io/tradier/conformance/tradier-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tradier-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/errors/tradier-error-codes.yml
+  href: https://artifacts.apis.io/tradier/errors/tradier-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/tradier-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/errors/tradier-problem-types.yml
+  href: https://artifacts.apis.io/tradier/errors/tradier-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tradier-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/lifecycle/tradier-lifecycle.yml
+  href: https://artifacts.apis.io/tradier/lifecycle/tradier-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tradier-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/sandbox/tradier-sandbox.yml
+  href: https://artifacts.apis.io/tradier/sandbox/tradier-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tradier-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/conventions/tradier-conventions.yml
+  href: https://artifacts.apis.io/tradier/conventions/tradier-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tradier-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/changelog/tradier-changelog.yml
+  href: https://artifacts.apis.io/tradier/changelog/tradier-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tradier-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/data-model/tradier-data-model.yml
+  href: https://artifacts.apis.io/tradier/data-model/tradier-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tradier-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/overlays/tradier-brokerage-overlay.yaml
+  href: https://artifacts.apis.io/tradier/overlays/tradier-brokerage-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tradier-brokerage-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tradier/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -324,7 +325,7 @@ plans:
 - name: Tradier Plans Pricing
   plan_count: 3
   slug: tradier-plans-pricing
-random_paper: 21
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Tradier Rate Limits
@@ -348,8 +349,8 @@ scopes:
   slug: tradier-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 50.8
+  band: strong
+  composite: 58.1
   coverage:
     artifact_dirs: 27
     catalog_earned: 46.8
@@ -357,15 +358,15 @@ score:
     catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 52.6
     contract_governance: 15.9
-    contract_quality: 54.4
-    developer_ergonomics: 51.8
-    discoverability: 75.0
-    operational_transparency: 52.6
-  previous_composite: 52.4
+    contract_quality: 52.1
+    developer_ergonomics: 74.4
+    discoverability: 71.7
+    operational_transparency: 55.3
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -382,13 +383,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/screenshots/tradier-2026-06-20T195526.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tradier/tradier-2026-06-20T195526.png
 security:
 - kind: authentication
   name: Tradier Authentication
@@ -402,6 +404,14 @@ security:
   name: Tradier Vulnerability Disclosure
   slug: tradier-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Place and track an equity order
+  slug: tradier-place-and-track-equity-order
+- name: Look up quotes and option chains
+  slug: tradier-quote-and-option-chain
+- name: Stream real-time market data
+  slug: tradier-stream-market-data
 slug: tradier
 tags:
 - Fintech

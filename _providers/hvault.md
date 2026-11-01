@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 5
@@ -185,11 +187,8 @@ apis:
   description: Username and password auth method
   name: HashiCorp Vault Userpass API
   slug: hvault-userpass-api
-artifact_total: 75
+artifact_total: 74
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: HashiCorp Vault Vault Auth Methods AppRole API
   slug: open-hvault-approle-api
@@ -288,37 +287,37 @@ collections:
   slug: open-hvault-userpass-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/plans/hvault-plans-pricing.yml
+  href: https://artifacts.apis.io/hvault/plans/hvault-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hvault-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/rate-limits/hvault-rate-limits.yml
+  href: https://artifacts.apis.io/hvault/rate-limits/hvault-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hvault-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/finops/hvault-finops.yml
+  href: https://artifacts.apis.io/hvault/finops/hvault-finops.yml
   title: ''
   type: FinOps
   url: finops/hvault-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/capabilities/hvault-capability-edges.yml
+  href: https://artifacts.apis.io/hvault/capabilities/hvault-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hvault-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/agentic-access/hvault-agentic-access.yml
+  href: https://artifacts.apis.io/hvault/agentic-access/hvault-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hvault-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/security/hvault-domain-security.yml
+  href: https://artifacts.apis.io/hvault/security/hvault-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hvault-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/authentication/hvault-authentication.yml
+  href: https://artifacts.apis.io/hvault/authentication/hvault-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hvault-authentication.yml
@@ -371,37 +370,37 @@ common:
   type: X-status
   url: https://status.hashicorp.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/json-ld/hvault-context.jsonld
+  href: https://artifacts.apis.io/hvault/json-ld/hvault-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/hvault-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/json-schema/hvault-secret-schema.json
+  href: https://artifacts.apis.io/hvault/json-schema/hvault-secret-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/hvault-secret-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/json-schema/hvault-entity-schema.json
+  href: https://artifacts.apis.io/hvault/json-schema/hvault-entity-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/hvault-entity-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/json-schema/hvault-entity-alias-schema.json
+  href: https://artifacts.apis.io/hvault/json-schema/hvault-entity-alias-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/hvault-entity-alias-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/json-schema/hvault-token-schema.json
+  href: https://artifacts.apis.io/hvault/json-schema/hvault-token-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/hvault-token-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/json-schema/hvault-policy-schema.json
+  href: https://artifacts.apis.io/hvault/json-schema/hvault-policy-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/hvault-policy-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/json-schema/hvault-group-schema.json
+  href: https://artifacts.apis.io/hvault/json-schema/hvault-group-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/hvault-group-schema.json
@@ -456,7 +455,7 @@ plans:
 - name: Hvault Plans Pricing
   plan_count: 4
   slug: hvault-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Hvault Rate Limits
@@ -475,7 +474,7 @@ rules:
   slug: hvault-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.0
+  composite: 29.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 57.3
@@ -483,7 +482,7 @@ score:
     catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
@@ -491,7 +490,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 78.6
     operational_transparency: 7.9
-  previous_composite: 32.5
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     contracts:
@@ -505,13 +504,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/hvault/refs/heads/main/screenshots/hvault-2026-10-11T190546.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hvault/hvault-2026-10-11T190546.png
 security:
 - kind: authentication
   name: Hvault Authentication

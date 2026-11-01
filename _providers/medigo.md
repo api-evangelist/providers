@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -74,15 +76,12 @@ apis:
   description: Push notification related to events in MEDIGO's system
   name: Medigo Webhooks API
   slug: medigo-webhooks-api
-artifact_total: 17
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Medigo Webhooks
   slug: medigo-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MEDIGO attachments API
   slug: open-medigo-attachments-api
@@ -103,72 +102,72 @@ collections:
   slug: open-medigo-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/capabilities/medigo-capability-edges.yml
+  href: https://artifacts.apis.io/medigo/capabilities/medigo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/medigo-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/overlays/medigo-openapi-overlay.yaml
+  href: https://artifacts.apis.io/medigo/overlays/medigo-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/medigo-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/agentic-access/medigo-agentic-access.yml
+  href: https://artifacts.apis.io/medigo/agentic-access/medigo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/medigo-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/conventions/medigo-conventions.yml
+  href: https://artifacts.apis.io/medigo/conventions/medigo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/medigo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/errors/medigo-problem-types.yml
+  href: https://artifacts.apis.io/medigo/errors/medigo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/medigo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/lifecycle/medigo-lifecycle.yml
+  href: https://artifacts.apis.io/medigo/lifecycle/medigo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/medigo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/data-model/medigo-data-model.yml
+  href: https://artifacts.apis.io/medigo/data-model/medigo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/medigo-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/asyncapi/medigo-webhooks.yml
+  href: https://artifacts.apis.io/medigo/asyncapi/medigo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/medigo-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/mcp/medigo-mcp.yml
+  href: https://artifacts.apis.io/medigo/mcp/medigo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/medigo-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/conformance/medigo-conformance.yml
+  href: https://artifacts.apis.io/medigo/conformance/medigo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/medigo-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/llms/medigo-llms.txt
+  href: https://artifacts.apis.io/medigo/llms/medigo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/medigo-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/medigo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/security/medigo-domain-security.yml
+  href: https://artifacts.apis.io/medigo/security/medigo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/medigo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/authentication/medigo-authentication.yml
+  href: https://artifacts.apis.io/medigo/authentication/medigo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/medigo-authentication.yml
@@ -207,10 +206,10 @@ overview: 'Medigo publishes 6 API contracts indexed on the [APIs.io](https://api
 
 
   Medigo''s developer surface includes authentication, support, and 17 more developer resources.'
-random_paper: 13
+random_paper: 5
 score:
   band: thin
-  composite: 35.8
+  composite: 33.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -224,8 +223,8 @@ score:
     contract_governance: 4.5
     contract_quality: 50.0
     developer_ergonomics: 35.1
-    discoverability: 73.2
-    operational_transparency: 10.5
+    discoverability: 66.1
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -234,7 +233,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 35.8
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,13 +250,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/medigo/refs/heads/main/screenshots/medigo-2026-08-07T172347.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/medigo/medigo-2026-08-07T172347.png
 security:
 - kind: authentication
   name: Medigo Authentication
@@ -267,6 +267,14 @@ security:
   name: Medigo Domain Security
   slug: medigo-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Onboard a TPA member under an insurance policy
+  slug: medigo-onboard-tpa-member
+- name: Request and track a MEDIGO second opinion
+  slug: medigo-request-second-opinion
+- name: Submit and track a TPA claim
+  slug: medigo-submit-and-track-claim
 slug: medigo
 tags:
 - Company

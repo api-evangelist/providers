@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.4
-  scored_at: '2026-10-17'
+  score: 17.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for Restroworks platform, documented at the developer portal.
@@ -36,22 +38,22 @@ common:
   type: Compliance
   url: https://www.restroworks.com/security-compliance/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/restroworks/refs/heads/main/llms/restroworks-llms.txt
+  href: https://artifacts.apis.io/restroworks/llms/restroworks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/restroworks-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/restroworks/refs/heads/main/well-known/restroworks-well-known.yml
+  href: https://artifacts.apis.io/restroworks/well-known/restroworks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/restroworks-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/restroworks/refs/heads/main/hosts/restroworks-hosts.yml
+  href: https://artifacts.apis.io/restroworks/hosts/restroworks-hosts.yml
   title: ''
   type: Hosts
   url: hosts/restroworks-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/restroworks/refs/heads/main/vendors/restroworks-vendors.yml
+  href: https://artifacts.apis.io/restroworks/vendors/restroworks-vendors.yml
   title: ''
   type: Vendors
   url: vendors/restroworks-vendors.yml
@@ -80,12 +82,12 @@ common:
   type: Documentation
   url: https://dev.restroworks.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/restroworks/refs/heads/main/security/restroworks-trust-center.yml
+  href: https://artifacts.apis.io/restroworks/security/restroworks-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/restroworks-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/restroworks/refs/heads/main/security/restroworks-domain-security.yml
+  href: https://artifacts.apis.io/restroworks/security/restroworks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/restroworks-domain-security.yml
@@ -113,10 +115,10 @@ overview: 'Restroworks is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   Restroworks'' developer surface includes pricing, engineering blog, documentation, and 11 more developer resources.'
-random_paper: 5
+random_paper: 13
 score:
   band: emerging
-  composite: 19.1
+  composite: 18.4
   coverage:
     artifact_dirs: 7
     catalog_earned: 32.0
@@ -124,13 +126,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 0.0
+  previous_composite: 18.4
   provenance:
     mcp: unknown
   regulatory:
@@ -139,8 +143,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,12 +71,12 @@ common:
   type: Support
   url: https://www.shift-technology.com/contact
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shift-technology/refs/heads/main/conformance/shift-technology-conformance.yml
+  href: https://artifacts.apis.io/shift-technology/conformance/shift-technology-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shift-technology-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shift-technology/refs/heads/main/security/shift-technology-domain-security.yml
+  href: https://artifacts.apis.io/shift-technology/security/shift-technology-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shift-technology-domain-security.yml
@@ -94,10 +96,10 @@ overview: 'Shift Technology is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Shift Technology''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 21
+random_paper: 15
 score:
   band: emerging
-  composite: 15.6
+  composite: 16.0
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -110,10 +112,10 @@ score:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 15.6
+  previous_composite: 16.0
   provenance:
     conformance: first-party
   regulatory:
@@ -128,14 +130,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/shift-technology/refs/heads/main/screenshots/shift-technology-2026-09-02T155204.png
+screenshot: https://apis.io/screenshots/shift-technology/shift-technology-2026-09-02T155204.png
 security:
 - kind: domain-security
   name: Shift Technology Domain Security

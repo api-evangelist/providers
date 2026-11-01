@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'JSON REST API at https://getamber.dev/api/v1 for the full mandate lifecycle: list templates (public), create a contract from a template (X-API-Key with credits, or x402 pay-per-contract), share it by '
@@ -35,7 +37,7 @@ apis:
 - description: Agent-to-Agent JSON-RPC endpoint at https://getamber.dev/api/a2a implementing message/send, tasks/get and tasks/cancel (tasks are processed synchronously), discovered through an agent card served at /
   name: Ambr A2A Agent
   slug: ambr-a2a-agent
-artifact_total: 16
+artifact_total: 20
 common:
 - group: company
   title: ''
@@ -70,7 +72,7 @@ common:
   type: Pricing
   url: https://getamber.dev/activate
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/plans/getamber-dev-plans-pricing.yml
+  href: https://artifacts.apis.io/getamber-dev/plans/getamber-dev-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/getamber-dev-plans-pricing.yml
@@ -107,7 +109,7 @@ common:
   type: StatusPage
   url: https://ambr.run/status
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/changelog/getamber-dev-changelog.yml
+  href: https://artifacts.apis.io/getamber-dev/changelog/getamber-dev-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/getamber-dev-changelog.yml
@@ -116,22 +118,22 @@ common:
   type: ChangeLog
   url: https://github.com/getambr/ambr/blob/master/CHANGELOG.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/lifecycle/getamber-dev-lifecycle.yml
+  href: https://artifacts.apis.io/getamber-dev/lifecycle/getamber-dev-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/getamber-dev-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/a2a/getamber-dev-a2a.yml
+  href: https://artifacts.apis.io/getamber-dev/a2a/getamber-dev-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/getamber-dev-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/mcp/getamber-dev-mcp.yml
+  href: https://artifacts.apis.io/getamber-dev/mcp/getamber-dev-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/getamber-dev-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/llms/getamber-dev-llms.txt
+  href: https://artifacts.apis.io/getamber-dev/llms/getamber-dev-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/getamber-dev-llms.txt
@@ -144,52 +146,52 @@ common:
   type: Specification
   url: https://ambr.run/spec/ricardian-v1
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/getamber-dev/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/skills/getamber-dev-create-and-activate-mandate.md
+  href: https://artifacts.apis.io/getamber-dev/skills/getamber-dev-create-and-activate-mandate.md
   title: ''
   type: AgentSkill
   url: skills/getamber-dev-create-and-activate-mandate.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/skills/getamber-dev-verify-mandate.md
+  href: https://artifacts.apis.io/getamber-dev/skills/getamber-dev-verify-mandate.md
   title: ''
   type: AgentSkill
   url: skills/getamber-dev-verify-mandate.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/authentication/getamber-dev-authentication.yml
+  href: https://artifacts.apis.io/getamber-dev/authentication/getamber-dev-authentication.yml
   title: ''
   type: Authentication
   url: authentication/getamber-dev-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/conventions/getamber-dev-conventions.yml
+  href: https://artifacts.apis.io/getamber-dev/conventions/getamber-dev-conventions.yml
   title: ''
   type: Conventions
   url: conventions/getamber-dev-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/errors/getamber-dev-problem-types.yml
+  href: https://artifacts.apis.io/getamber-dev/errors/getamber-dev-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/getamber-dev-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/rate-limits/getamber-dev-rate-limits.yml
+  href: https://artifacts.apis.io/getamber-dev/rate-limits/getamber-dev-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/getamber-dev-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/conformance/getamber-dev-conformance.yml
+  href: https://artifacts.apis.io/getamber-dev/conformance/getamber-dev-conformance.yml
   title: ''
   type: Conformance
   url: conformance/getamber-dev-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/data-model/getamber-dev-data-model.yml
+  href: https://artifacts.apis.io/getamber-dev/data-model/getamber-dev-data-model.yml
   title: ''
   type: DataModel
   url: data-model/getamber-dev-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/security/getamber-dev-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/getamber-dev/security/getamber-dev-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/getamber-dev-vulnerability-disclosure.yml
@@ -198,22 +200,22 @@ common:
   type: SecurityPolicy
   url: https://github.com/getambr/ambr/blob/master/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/security/getamber-dev-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/getamber-dev/security/getamber-dev-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/getamber-dev-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/security/getamber-dev-domain-security.yml
+  href: https://artifacts.apis.io/getamber-dev/security/getamber-dev-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/getamber-dev-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/packages/getamber-dev-packages.yml
+  href: https://artifacts.apis.io/getamber-dev/packages/getamber-dev-packages.yml
   title: ''
   type: Packages
   url: packages/getamber-dev-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/regulatory/getamber-dev-regulatory-posture.yml
+  href: https://artifacts.apis.io/getamber-dev/regulatory/getamber-dev-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/getamber-dev-regulatory-posture.yml
@@ -235,6 +237,14 @@ examples:
 - key_count: 1
   name: Getamber Dev Templates Response
   slug: getamber-dev-templates-response
+finops:
+- has_sources: true
+  method: derived
+  name: Getamber Dev Finops
+  primary_unit: contract
+  service_category: ''
+  slug: getamber-dev-finops
+  template: false
 image: https://ambr.run/logo.png
 json_schemas:
 - name: Getamber Dev C1 Api Access
@@ -270,32 +280,35 @@ overview: 'Ambr is listed with 3 APIs on the [APIs.io](https://apis.io/) network
   Ambr''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, changelog, and 36 more developer resources.'
 plans:
 - name: Getamber Dev Plans Pricing
-  plan_count: 10
+  plan_count: 9
   slug: getamber-dev-plans-pricing
-random_paper: 15
+- name: Getamber Dev Price Estimates
+  plan_count: 0
+  slug: getamber-dev-price-estimates
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Getamber Dev Rate Limits
   slug: getamber-dev-rate-limits
 score:
-  band: developing
-  composite: 53.7
+  band: strong
+  composite: 55.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 69.0
+    artifact_dirs: 22
+    catalog_earned: 72.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 46.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 18.5
     developer_ergonomics: 56.5
-    discoverability: 80.0
+    discoverability: 76.7
     operational_transparency: 68.4
-  previous_composite: 53.7
+  previous_composite: 53.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -306,14 +319,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 38.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/getamber-dev/refs/heads/main/screenshots/getamber-dev-2026-10-11T104848.png
+screenshot: https://apis.io/screenshots/getamber-dev/getamber-dev-2026-10-11T104848.png
 security:
 - kind: authentication
   name: Getamber Dev Authentication
@@ -327,6 +340,12 @@ security:
   name: Getamber Dev Vulnerability Disclosure
   slug: getamber-dev-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 2
+skills:
+- name: Create and activate an Agent Mandate
+  slug: getamber-dev-create-and-activate-mandate
+- name: Verify a mandate before relying on it
+  slug: getamber-dev-verify-mandate
 slug: getamber-dev
 tags:
 - Company

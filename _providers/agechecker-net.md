@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -72,9 +74,6 @@ collections:
   name: AgeChecker.Net Age Verification Sessions Webhooks API
   slug: postman-agechecker-net-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: AgeChecker.Net Age Verification API
   slug: open-agechecker-net-age-verification
 - collection_type: open
@@ -87,18 +86,23 @@ collections:
   name: AgeChecker.Net Age Verification Sessions Webhooks API
   slug: open-agechecker-net-webhooks-api
 common:
+- group: other
+  href: https://artifacts.apis.io/agechecker-net/capabilities/agechecker-net-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/agechecker-net-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/plans/agechecker-net-plans-pricing.yml
+  href: https://artifacts.apis.io/agechecker-net/plans/agechecker-net-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agechecker-net-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/rate-limits/agechecker-net-rate-limits.yml
+  href: https://artifacts.apis.io/agechecker-net/rate-limits/agechecker-net-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agechecker-net-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/finops/agechecker-net-finops.yml
+  href: https://artifacts.apis.io/agechecker-net/finops/agechecker-net-finops.yml
   title: ''
   type: FinOps
   url: finops/agechecker-net-finops.yml
@@ -115,17 +119,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/agecheckernet/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/agentic-access/agechecker-net-agentic-access.yml
+  href: https://artifacts.apis.io/agechecker-net/agentic-access/agechecker-net-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/agechecker-net-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/security/agechecker-net-domain-security.yml
+  href: https://artifacts.apis.io/agechecker-net/security/agechecker-net-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agechecker-net-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/authentication/agechecker-net-authentication.yml
+  href: https://artifacts.apis.io/agechecker-net/authentication/agechecker-net-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agechecker-net-authentication.yml
@@ -208,13 +212,13 @@ examples:
   name: Age Verification Webhook Config Example
   slug: age-verification-webhook-config-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Agechecker Net Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: accepted verification
+  service_category: ''
   slug: agechecker-net-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agechecker-net.png
 json_schemas:
 - name: SessionList
@@ -264,12 +268,15 @@ overview: 'AgeChecker.Net publishes 3 API contracts indexed on the [APIs.io](htt
   The AgeChecker.Net catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AgeChecker.Net''s developer surface includes engineering blog, authentication, developer portal, getting-started guide, code examples, and 19 more developer resources.'
+  AgeChecker.Net''s developer surface includes engineering blog, authentication, developer portal, getting-started guide, code examples, and 20 more developer resources.'
 plans:
 - name: Agechecker Net Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: agechecker-net-plans-pricing
-random_paper: 12
+- name: Agechecker Net Price Estimates
+  plan_count: 0
+  slug: agechecker-net-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Agechecker Net Rate Limits
@@ -300,23 +307,23 @@ rules:
   slug: agechecker-net-spectral-rules
 score:
   band: developing
-  composite: 43.2
+  composite: 48.1
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 63.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    artifact_dirs: 21
+    catalog_earned: 71.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: -0.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 63.3
     developer_ergonomics: 46.4
     discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 44.2
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     contracts:
@@ -330,13 +337,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/screenshots/agechecker-net-2026-06-20T165819.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/agechecker-net/agechecker-net-2026-06-20T165819.png
 security:
 - kind: authentication
   name: Agechecker Net Authentication

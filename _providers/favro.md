@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,20 +36,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Public REST API for the Favro planning and collaboration platform: manage organizations, collections, widgets, columns, cards, tasks, tasklists, comments, tags, custom fields, groups, users, and webho'
   name: Favro API
   slug: favro-api
-artifact_total: 5
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Favro Webhooks
   slug: favro-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/favro/plans/favro-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/favro-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/favro/refs/heads/main/security/favro-trust-center.yml
+  href: https://artifacts.apis.io/favro/security/favro-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/favro-trust-center.yml
@@ -100,12 +107,20 @@ common:
   type: Compliance
   url: https://www.favro.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/favro/refs/heads/main/security/favro-domain-security.yml
+  href: https://artifacts.apis.io/favro/security/favro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/favro-domain-security.yml
 created: '2026-07-17'
 description: Favro is a cloud planning and collaboration platform for agile teams, combining planning boards, backlogs, sprint/kanban widgets, roadmaps, and OKR/portfolio management in a single organization-scoped workspace. Its public REST API (https://favro.com/api/v1) exposes organizations, collections, widgets, columns, cards, tasks, tasklists, comments, tags, custom fields, groups, users, and webhooks, authenticated with HTTP Basic auth using an email plus a revocable API token. The API supports request-id cursor pagination, per-plan token-bucket rate limiting with X-RateLimit-* headers, backend-affinity routing via the X-Favro-Backend-Identifier header, outbound webhooks for card and comment events, and SCIM 1.1/2.0 user and group provisioning. Favro is SaaS, backed by Creandum.
+finops:
+- has_sources: true
+  method: derived
+  name: Favro Finops
+  primary_unit: user
+  service_category: ''
+  slug: favro-finops
+  template: false
 image: https://cdn.prod.website-files.com/5eb8d3f3c300199312debf24/6036cf2c15bbbca169cec61a_meta2.png
 layout: provider
 modified: '2026-07-19'
@@ -118,27 +133,34 @@ overview: 'Favro is listed with 1 API on the [APIs.io](https://apis.io/) network
   The Favro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Favro''s developer surface includes documentation, engineering blog, pricing, signup flow, support, and 9 more developer resources.'
+  Favro''s developer surface includes documentation, engineering blog, pricing, signup flow, support, and 10 more developer resources.'
+plans:
+- name: Favro Plans Pricing
+  plan_count: 3
+  slug: favro-plans-pricing
+- name: Favro Price Estimates
+  plan_count: 0
+  slug: favro-price-estimates
 random_paper: 14
 score:
   band: developing
-  composite: 47.0
+  composite: 54.2
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 17
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 45.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 34.2
-  previous_composite: 46.9
+  previous_composite: 46.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -148,14 +170,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/favro/refs/heads/main/screenshots/favro-2026-07-25T214254.png
+screenshot: https://apis.io/screenshots/favro/favro-2026-07-25T214254.png
 security:
 - kind: authentication
   name: Favro Authentication

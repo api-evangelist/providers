@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -194,7 +196,7 @@ apis:
   description: Webhooks notify your systems the moment something happens in Reonic. For example when a project is created or an offer is signed. Instead of repeatedly polling the API for changes, you give Reonic a U
   name: Reonic Webhooks API
   slug: reonic-webhooks-api
-artifact_total: 65
+artifact_total: 66
 asyncapis:
 - description: Event surface for the Reonic REST API v3. Reonic POSTs a signed JSON body (HMAC SHA-256, X-Reonic-Signature) to your configured HTTPS endpoint when a selected event occurs. Payloads are thin (ids only
   name: Reonic Webhooks
@@ -203,9 +205,6 @@ asyncapis:
   name: Reonic Webhooks
   slug: reonic-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Reonic REST Api v3 Activities API
   slug: open-reonic-activities-api
@@ -295,12 +294,12 @@ collections:
   slug: open-reonic-wiki-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/capabilities/reonic-capability-edges.yml
+  href: https://artifacts.apis.io/reonic/capabilities/reonic-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/reonic-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/overlays/reonic-v3-overlay.yaml
+  href: https://artifacts.apis.io/reonic/overlays/reonic-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/reonic-v3-overlay.yaml
@@ -341,82 +340,82 @@ common:
   type: GitHubOrganization
   url: https://github.com/reonic
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/authentication/reonic-authentication.yml
+  href: https://artifacts.apis.io/reonic/authentication/reonic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reonic-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/conventions/reonic-conventions.yml
+  href: https://artifacts.apis.io/reonic/conventions/reonic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reonic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/errors/reonic-problem-types.yml
+  href: https://artifacts.apis.io/reonic/errors/reonic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/reonic-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/lifecycle/reonic-lifecycle.yml
+  href: https://artifacts.apis.io/reonic/lifecycle/reonic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reonic-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/lifecycle/reonic-lifecycle.yml
+  href: https://artifacts.apis.io/reonic/lifecycle/reonic-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/reonic-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/changelog/reonic-changelog.yml
+  href: https://artifacts.apis.io/reonic/changelog/reonic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/reonic-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/conformance/reonic-conformance.yml
+  href: https://artifacts.apis.io/reonic/conformance/reonic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reonic-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/data-model/reonic-data-model.yml
+  href: https://artifacts.apis.io/reonic/data-model/reonic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reonic-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/well-known/reonic-well-known.yml
+  href: https://artifacts.apis.io/reonic/well-known/reonic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/reonic-well-known.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/asyncapi/reonic-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/reonic/asyncapi/reonic-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/reonic-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/asyncapi/reonic-webhooks.yml
+  href: https://artifacts.apis.io/reonic/asyncapi/reonic-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/reonic-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/mcp/reonic-mcp.yml
+  href: https://artifacts.apis.io/reonic/mcp/reonic-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/reonic-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/reonic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/llms/reonic-llms.txt
+  href: https://artifacts.apis.io/reonic/llms/reonic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reonic-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/agentic-access/reonic-agentic-access.yml
+  href: https://artifacts.apis.io/reonic/agentic-access/reonic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/reonic-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/security/reonic-domain-security.yml
+  href: https://artifacts.apis.io/reonic/security/reonic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reonic-domain-security.yml
@@ -439,10 +438,10 @@ overview: 'Reonic publishes 30 API contracts indexed on the [APIs.io](https://ap
 
 
   Reonic''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, changelog, and 21 more developer resources.'
-random_paper: 2
+random_paper: 16
 score:
   band: developing
-  composite: 39.7
+  composite: 43.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -450,20 +449,20 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 55.2
-    developer_ergonomics: 44.6
-    discoverability: 73.2
-    operational_transparency: 34.2
+    contract_quality: 55.7
+    developer_ergonomics: 47.0
+    discoverability: 66.1
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - germany
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 39.6
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -479,14 +478,15 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 17.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 20.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/screenshots/reonic-2026-08-17T081520.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/reonic/reonic-2026-08-17T081520.png
 security:
 - kind: authentication
   name: Reonic Authentication
@@ -496,6 +496,12 @@ security:
   name: Reonic Domain Security
   slug: reonic-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Consume and verify Reonic webhooks
+  slug: reonic-consume-webhooks
+- name: Create a lead and residential project in Reonic
+  slug: reonic-create-lead
 slug: reonic
 tags:
 - Company

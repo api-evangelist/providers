@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Demand AAM provides access to genuine AAM OE replacement driveline parts for the aftermarket. The portal serves automotive parts distributors and repair shops with OE-quality driveline components.
@@ -42,17 +44,17 @@ apis:
 artifact_total: 16
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/american-axle-and-manufacturing/refs/heads/main/plans/american-axle-and-manufacturing-plans-pricing.yml
+  href: https://artifacts.apis.io/american-axle-and-manufacturing/plans/american-axle-and-manufacturing-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/american-axle-and-manufacturing-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/american-axle-and-manufacturing/refs/heads/main/rate-limits/american-axle-and-manufacturing-rate-limits.yml
+  href: https://artifacts.apis.io/american-axle-and-manufacturing/rate-limits/american-axle-and-manufacturing-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/american-axle-and-manufacturing-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/american-axle-and-manufacturing/refs/heads/main/finops/american-axle-and-manufacturing-finops.yml
+  href: https://artifacts.apis.io/american-axle-and-manufacturing/finops/american-axle-and-manufacturing-finops.yml
   title: ''
   type: FinOps
   url: finops/american-axle-and-manufacturing-finops.yml
@@ -61,7 +63,7 @@ common:
   type: Blog
   url: https://www.aam.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/american-axle-and-manufacturing/refs/heads/main/security/american-axle-and-manufacturing-domain-security.yml
+  href: https://artifacts.apis.io/american-axle-and-manufacturing/security/american-axle-and-manufacturing-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/american-axle-and-manufacturing-domain-security.yml
@@ -139,27 +141,27 @@ press:
 - date: ''
   title: AAM Announces Combination with Dowlais for $1.44 ...
   url: https://www.aam.com/media/story/aam-announces-combination-with-dowlais
-random_paper: 16
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: American Axle And Manufacturing Rate Limits
   slug: american-axle-and-manufacturing-rate-limits
 score:
-  band: minimal
-  composite: 9.4
+  band: emerging
+  composite: 11.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 5.3
   jurisdiction:
@@ -167,21 +169,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 10.4
+  previous_composite: 11.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/american-axle-and-manufacturing/refs/heads/main/screenshots/american-axle-and-manufacturing-2026-06-20T171904.png
+screenshot: https://apis.io/screenshots/american-axle-and-manufacturing/american-axle-and-manufacturing-2026-06-20T171904.png
 security:
 - kind: domain-security
   name: American Axle And Manufacturing Domain Security

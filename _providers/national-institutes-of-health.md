@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +55,8 @@ apis:
   description: The Publications API from National Institutes of Health — 1 operation(s) for publications.
   name: National Institutes of Health Publications API
   slug: national-institutes-of-health-publications-api
-artifact_total: 11
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NIH RePORTER Projects API
   slug: open-national-institutes-of-health-projects-api
@@ -69,32 +68,32 @@ collections:
   slug: open-national-institutes-of-health
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/plans/national-institutes-of-health-plans-pricing.yml
+  href: https://artifacts.apis.io/national-institutes-of-health/plans/national-institutes-of-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/national-institutes-of-health-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/rate-limits/national-institutes-of-health-rate-limits.yml
+  href: https://artifacts.apis.io/national-institutes-of-health/rate-limits/national-institutes-of-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/national-institutes-of-health-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/finops/national-institutes-of-health-finops.yml
+  href: https://artifacts.apis.io/national-institutes-of-health/finops/national-institutes-of-health-finops.yml
   title: ''
   type: FinOps
   url: finops/national-institutes-of-health-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/capabilities/national-institutes-of-health-capability-edges.yml
+  href: https://artifacts.apis.io/national-institutes-of-health/capabilities/national-institutes-of-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/national-institutes-of-health-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/agentic-access/national-institutes-of-health-agentic-access.yml
+  href: https://artifacts.apis.io/national-institutes-of-health/agentic-access/national-institutes-of-health-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/national-institutes-of-health-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/security/national-institutes-of-health-domain-security.yml
+  href: https://artifacts.apis.io/national-institutes-of-health/security/national-institutes-of-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/national-institutes-of-health-domain-security.yml
@@ -120,7 +119,7 @@ finops:
 - has_sources: false
   method: generated
   name: National Institutes Of Health Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: national-institutes-of-health-finops
   template: true
@@ -138,14 +137,14 @@ plans:
 - name: National Institutes Of Health Plans Pricing
   plan_count: 3
   slug: national-institutes-of-health-plans-pricing
-random_paper: 0
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: National Institutes Of Health Rate Limits
   slug: national-institutes-of-health-rate-limits
 score:
   band: emerging
-  composite: 23.1
+  composite: 23.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 43.0
@@ -153,20 +152,20 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 43.5
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 24.7
+  previous_composite: 23.5
   provenance:
     agentic_access: derived
     contracts:
@@ -180,14 +179,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/screenshots/national-institutes-of-health-2026-06-20T190030.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/national-institutes-of-health/national-institutes-of-health-2026-06-20T190030.png
 security:
 - kind: domain-security
   name: National Institutes Of Health Domain Security

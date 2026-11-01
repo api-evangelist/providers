@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 32.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,6 +52,46 @@ apis:
   description: Operations for creating and managing organizations
   name: Amazon Organizations API
   slug: amazon-organizations-organizations-api
+- baseURL: https://organizations.amazonaws.com
+  baseurl_source: declared
+  description: The Organizations Account API from Amazon Organizations — 6 operation(s) for organizations account.
+  name: Amazon Organizations Organizations Account API
+  slug: amazon-organizations-account-api
+- baseURL: https://organizations.amazonaws.com
+  baseurl_source: declared
+  description: The Organizations Aws Service Access API from Amazon Organizations — 3 operation(s) for organizations aws service access.
+  name: Amazon Organizations Organizations Aws Service Access API
+  slug: amazon-organizations-aws-service-access-api
+- baseURL: https://organizations.amazonaws.com
+  baseurl_source: declared
+  description: The Organizations Delegated Administrator API from Amazon Organizations — 3 operation(s) for organizations delegated administrator.
+  name: Amazon Organizations Organizations Delegated Administrator API
+  slug: amazon-organizations-delegated-administrator-api
+- baseURL: https://organizations.amazonaws.com
+  baseurl_source: declared
+  description: The Organizations Handshake API from Amazon Organizations — 5 operation(s) for organizations handshake.
+  name: Amazon Organizations Organizations Handshake API
+  slug: amazon-organizations-handshake-api
+- baseURL: https://organizations.amazonaws.com
+  baseurl_source: declared
+  description: The Organizations Operations API from Amazon Organizations — 27 operation(s) for organizations operations.
+  name: Amazon Organizations Organizations Operations API
+  slug: amazon-organizations-operations-api
+- baseURL: https://organizations.amazonaws.com
+  baseurl_source: declared
+  description: The Organizations Organizational Unit API from Amazon Organizations — 5 operation(s) for organizations organizational unit.
+  name: Amazon Organizations Organizations Organizational Unit API
+  slug: amazon-organizations-organizational-unit-api
+- baseURL: https://organizations.amazonaws.com
+  baseurl_source: declared
+  description: The Organizations Policy API from Amazon Organizations — 8 operation(s) for organizations policy.
+  name: Amazon Organizations Organizations Policy API
+  slug: amazon-organizations-policy-api
+- baseURL: https://organizations.amazonaws.com
+  baseurl_source: declared
+  description: The Organizations Resource Policy API from Amazon Organizations — 3 operation(s) for organizations resource policy.
+  name: Amazon Organizations Organizations Resource Policy API
+  slug: amazon-organizations-resource-policy-api
 arazzos:
 - description: Create an organization with a caller-chosen feature set and branch on the result.
   name: Amazon Organizations Bootstrap Organization By Feature Set
@@ -69,14 +111,11 @@ arazzos:
 - description: Create an organization and assert that it came back with the requested feature set.
   name: Amazon Organizations Verify Organization Feature Set
   slug: amazon-organizations-verify-organization-feature-set-workflow
-artifact_total: 38
+artifact_total: 45
 collections:
 - collection_type: postman
   name: Amazon Organizations AWS Organizations API
   slug: postman-amazon-organizations
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon AWS Organizations API
   slug: open-amazon-organizations-organizations-api
@@ -84,43 +123,48 @@ collections:
   name: Amazon Organizations AWS Organizations API
   slug: open-amazon-organizations
 common:
+- group: other
+  href: https://artifacts.apis.io/amazon-organizations/capabilities/amazon-organizations-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-organizations-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/plans/amazon-organizations-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-organizations/plans/amazon-organizations-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-organizations-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/rate-limits/amazon-organizations-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-organizations/rate-limits/amazon-organizations-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-organizations-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/finops/amazon-organizations-finops.yml
+  href: https://artifacts.apis.io/amazon-organizations/finops/amazon-organizations-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-organizations-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/agentic-access/amazon-organizations-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-organizations/agentic-access/amazon-organizations-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-organizations-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/security/amazon-organizations-trust-center.yml
+  href: https://artifacts.apis.io/amazon-organizations/security/amazon-organizations-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-organizations-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/security/amazon-organizations-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-organizations/security/amazon-organizations-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-organizations-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/security/amazon-organizations-domain-security.yml
+  href: https://artifacts.apis.io/amazon-organizations/security/amazon-organizations-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-organizations-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/authentication/amazon-organizations-authentication.yml
+  href: https://artifacts.apis.io/amazon-organizations/authentication/amazon-organizations-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-organizations-authentication.yml
@@ -129,32 +173,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-organizations/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/arazzo/amazon-organizations-bootstrap-organization-by-feature-set-workflow.yml
+  href: https://artifacts.apis.io/amazon-organizations/arazzo/amazon-organizations-bootstrap-organization-by-feature-set-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-organizations-bootstrap-organization-by-feature-set-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/arazzo/amazon-organizations-capture-management-account-identity-workflow.yml
+  href: https://artifacts.apis.io/amazon-organizations/arazzo/amazon-organizations-capture-management-account-identity-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-organizations-capture-management-account-identity-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/arazzo/amazon-organizations-create-organization-all-features-workflow.yml
+  href: https://artifacts.apis.io/amazon-organizations/arazzo/amazon-organizations-create-organization-all-features-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-organizations-create-organization-all-features-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/arazzo/amazon-organizations-create-organization-consolidated-billing-workflow.yml
+  href: https://artifacts.apis.io/amazon-organizations/arazzo/amazon-organizations-create-organization-consolidated-billing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-organizations-create-organization-consolidated-billing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/arazzo/amazon-organizations-record-organization-arns-workflow.yml
+  href: https://artifacts.apis.io/amazon-organizations/arazzo/amazon-organizations-record-organization-arns-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-organizations-record-organization-arns-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/arazzo/amazon-organizations-verify-organization-feature-set-workflow.yml
+  href: https://artifacts.apis.io/amazon-organizations/arazzo/amazon-organizations-verify-organization-feature-set-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-organizations-verify-organization-feature-set-workflow.yml
@@ -231,47 +275,47 @@ common:
   type: Code Examples
   url: https://docs.aws.amazon.com/code-library/latest/ug/organizations_code_examples.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/rules/amazon-organizations-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-organizations/rules/amazon-organizations-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-organizations-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/vocabulary/amazon-organizations-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-organizations/vocabulary/amazon-organizations-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-organizations-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-ld/amazon-organizations-context.jsonld
+  href: https://artifacts.apis.io/amazon-organizations/json-ld/amazon-organizations-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-organizations-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-ld/amazon-organizations-openapi-context.jsonld
+  href: https://artifacts.apis.io/amazon-organizations/json-ld/amazon-organizations-openapi-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-organizations-openapi-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-schema/amazon-organizations-schema.json
+  href: https://artifacts.apis.io/amazon-organizations/json-schema/amazon-organizations-schema.json
   title: Amazon Organizations
   type: JSONSchema
   url: json-schema/amazon-organizations-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-schema/openapi-account-schema.json
+  href: https://artifacts.apis.io/amazon-organizations/json-schema/openapi-account-schema.json
   title: Openapi Account
   type: JSONSchema
   url: json-schema/openapi-account-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-schema/openapi-organization-schema.json
+  href: https://artifacts.apis.io/amazon-organizations/json-schema/openapi-organization-schema.json
   title: Openapi Organization
   type: JSONSchema
   url: json-schema/openapi-organization-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-schema/openapi-organizational-unit-schema.json
+  href: https://artifacts.apis.io/amazon-organizations/json-schema/openapi-organizational-unit-schema.json
   title: Openapi Organizational Unit
   type: JSONSchema
   url: json-schema/openapi-organizational-unit-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/json-schema/openapi-policy-schema.json
+  href: https://artifacts.apis.io/amazon-organizations/json-schema/openapi-policy-schema.json
   title: Openapi Policy
   type: JSONSchema
   url: json-schema/openapi-policy-schema.json
@@ -297,7 +341,7 @@ finops:
 - has_sources: false
   method: generated
   name: Amazon Organizations Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: amazon-organizations-finops
   template: true
@@ -348,18 +392,18 @@ modified: '2026-09-16'
 name: Amazon Organizations
 nav: Providers
 network: true
-overview: 'Amazon Organizations publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Account Management, Consolidated Billing, Governance, Multi-Account, and Organization.
+overview: 'Amazon Organizations publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Organizations Account API, Organizations Aws Service Access API, and 7 more. Tagged areas include Account Management, Consolidated Billing, Governance, Multi-Account, and Organization.
 
 
   The Amazon Organizations catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Organizations'' developer surface includes authentication, engineering blog, support, developer console, documentation, pricing, getting-started guide, and 35 more developer resources.'
+  Amazon Organizations'' developer surface includes authentication, engineering blog, support, developer console, documentation, pricing, getting-started guide, and 36 more developer resources.'
 plans:
 - name: Amazon Organizations Plans Pricing
   plan_count: 3
   slug: amazon-organizations-plans-pricing
-random_paper: 17
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Amazon Organizations Rate Limits
@@ -389,44 +433,45 @@ rules:
     warn: 14
   slug: amazon-organizations-spectral-rules
 score:
-  band: developing
-  composite: 52.7
+  band: strong
+  composite: 58.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 22
     catalog_earned: 60.4
     catalog_earned_first_party: 0.0
     catalog_gap: 54.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.4
   facets:
-    access_clarity: 57.9
+    access_clarity: 68.4
     contract_governance: 27.3
-    contract_quality: 60.5
+    contract_quality: 63.6
     developer_ergonomics: 63.1
     discoverability: 64.3
-    operational_transparency: 10.5
-  previous_composite: 54.2
+    operational_transparency: 23.7
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 1
+      marker_coverage: 88.9
+      total: 9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/screenshots/amazon-organizations-2026-06-20T171753.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-organizations/amazon-organizations-2026-06-20T171753.png
 security:
 - kind: authentication
   name: Amazon Organizations Authentication

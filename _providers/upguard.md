@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.5
-  scored_at: '2026-10-17'
+  score: 27.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -134,15 +136,12 @@ apis:
   description: The ips API from UpGuard — 4 operation(s) for ips.
   name: UpGuard Ips API
   slug: upguard-ips-api
-artifact_total: 43
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Upguard Webhooks
   slug: upguard-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: UpGuard CyberRisk breaches API
   slug: open-upguard-breaches-api
@@ -198,37 +197,42 @@ collections:
   name: UpGuard CyberRisk breaches webhooks API
   slug: open-upguard-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/upguard/plans/upguard-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/upguard-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.upguard.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/capabilities/upguard-capability-edges.yml
+  href: https://artifacts.apis.io/upguard/capabilities/upguard-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/upguard-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/overlays/upguard-cyberrisk-overlay.yaml
+  href: https://artifacts.apis.io/upguard/overlays/upguard-cyberrisk-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/upguard-cyberrisk-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/security/upguard-trust-center.yml
+  href: https://artifacts.apis.io/upguard/security/upguard-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/upguard-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/security/upguard-domain-security.yml
+  href: https://artifacts.apis.io/upguard/security/upguard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upguard-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/agentic-access/upguard-agentic-access.yml
+  href: https://artifacts.apis.io/upguard/agentic-access/upguard-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/upguard-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/authentication/upguard-authentication.yml
+  href: https://artifacts.apis.io/upguard/authentication/upguard-authentication.yml
   title: ''
   type: Authentication
   url: authentication/upguard-authentication.yml
@@ -285,37 +289,37 @@ common:
   type: ChangeLog
   url: https://www.upguard.com/releases
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/changelog/upguard-changelog.yml
+  href: https://artifacts.apis.io/upguard/changelog/upguard-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/upguard-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/llms/upguard-llms.txt
+  href: https://artifacts.apis.io/upguard/llms/upguard-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upguard-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/well-known/upguard-well-known.yml
+  href: https://artifacts.apis.io/upguard/well-known/upguard-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/upguard-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/lifecycle/upguard-lifecycle.yml
+  href: https://artifacts.apis.io/upguard/lifecycle/upguard-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/upguard-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/errors/upguard-problem-types.yml
+  href: https://artifacts.apis.io/upguard/errors/upguard-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/upguard-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/conventions/upguard-conventions.yml
+  href: https://artifacts.apis.io/upguard/conventions/upguard-conventions.yml
   title: ''
   type: Conventions
   url: conventions/upguard-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/conformance/upguard-conformance.yml
+  href: https://artifacts.apis.io/upguard/conformance/upguard-conformance.yml
   title: ''
   type: Conformance
   url: conformance/upguard-conformance.yml
@@ -328,42 +332,50 @@ common:
   type: Security
   url: https://www.upguard.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/security/upguard-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/upguard/security/upguard-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/upguard-vulnerability-disclosure.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/packages/upguard-packages.yml
+  href: https://artifacts.apis.io/upguard/packages/upguard-packages.yml
   title: ''
   type: Packages
   url: packages/upguard-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/packages/upguard-packages.yml
+  href: https://artifacts.apis.io/upguard/packages/upguard-packages.yml
   title: ''
   type: SDKs
   url: packages/upguard-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/mcp/upguard-mcp.yml
+  href: https://artifacts.apis.io/upguard/mcp/upguard-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/upguard-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/asyncapi/upguard-webhooks.yml
+  href: https://artifacts.apis.io/upguard/asyncapi/upguard-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/upguard-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/upguard/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/data-model/upguard-data-model.yml
+  href: https://artifacts.apis.io/upguard/data-model/upguard-data-model.yml
   title: ''
   type: DataModel
   url: data-model/upguard-data-model.yml
 created: '2026-07-17'
 description: UpGuard is a cybersecurity platform that helps organizations manage and reduce their cyber risk. Its products cover third-party vendor risk management (Vendor Risk), attack surface management and external threat monitoring (Breach Risk), and AI-powered security questionnaire automation and trust center tooling (Trust Exchange). The UpGuard CyberRisk API exposes the platform programmatically — vendors and security ratings, risks and vulnerabilities, domains and IPs, data leak disclosures, identity breaches, typosquatting, questionnaires, subsidiaries, labels, notifications, and webhooks — authenticated with an API key from CyberRisk account settings.
+finops:
+- has_sources: true
+  method: derived
+  name: Upguard Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: upguard-finops
+  template: false
 image: https://content.upguard.com/hubfs/open-graph/home.png
 layout: provider
 modified: '2026-10-06'
@@ -376,27 +388,34 @@ overview: 'UpGuard publishes 18 API contracts indexed on the [APIs.io](https://a
   The UpGuard catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  UpGuard''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 12
+  UpGuard''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+plans:
+- name: Upguard Plans Pricing
+  plan_count: 4
+  slug: upguard-plans-pricing
+- name: Upguard Price Estimates
+  plan_count: 0
+  slug: upguard-price-estimates
+random_paper: 16
 score:
-  band: developing
-  composite: 51.8
+  band: strong
+  composite: 60.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 55.1
     developer_ergonomics: 44.6
-    discoverability: 73.2
-    operational_transparency: 52.6
-  previous_composite: 51.7
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -413,13 +432,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/screenshots/upguard-2026-08-17T082637.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/upguard/upguard-2026-08-17T082637.png
 security:
 - kind: authentication
   name: Upguard Authentication
@@ -437,6 +457,16 @@ security:
   name: Upguard Trust Center
   slug: upguard-trust-center
   summary_line: SOC 2 Type II
+skill_count: 4
+skills:
+- name: Monitor a vendor and review its risks
+  slug: upguard-monitor-a-vendor
+- name: Send and read a vendor security questionnaire
+  slug: upguard-send-vendor-questionnaire
+- name: Watch your own attack surface
+  slug: upguard-watch-attack-surface
+- name: Wire platform notifications to a webhook
+  slug: upguard-wire-webhooks
 slug: upguard
 tags:
 - Company

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,9 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: operate
   title: ''
@@ -89,27 +91,27 @@ common:
   type: TermsOfService
   url: https://extropic.ai/terms-of-service
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/extropic/refs/heads/main/packages/extropic-packages.yml
+  href: https://artifacts.apis.io/extropic/packages/extropic-packages.yml
   title: ''
   type: Packages
   url: packages/extropic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/extropic/refs/heads/main/packages/extropic-packages.yml
+  href: https://artifacts.apis.io/extropic/packages/extropic-packages.yml
   title: ''
   type: SDKs
   url: packages/extropic-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/extropic/refs/heads/main/llms/extropic-llms.txt
+  href: https://artifacts.apis.io/extropic/llms/extropic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/extropic-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/extropic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/extropic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/extropic/refs/heads/main/security/extropic-domain-security.yml
+  href: https://artifacts.apis.io/extropic/security/extropic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/extropic-domain-security.yml
@@ -126,12 +128,12 @@ overview: 'Extropic is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Extropic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 14 more developer resources.'
-random_paper: 20
+random_paper: 14
 score:
   band: emerging
-  composite: 20.3
+  composite: 20.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -142,13 +144,10 @@ score:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.2
-    discoverability: 55.4
-    operational_transparency: 18.4
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 20.3
+    developer_ergonomics: 45.2
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 20.5
   provenance:
     skills: first-party
   regulatory:
@@ -157,19 +156,23 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/extropic/refs/heads/main/screenshots/extropic-2026-08-07T165150.png
+screenshot: https://apis.io/screenshots/extropic/extropic-2026-08-07T165150.png
 security:
 - kind: domain-security
   name: Extropic Domain Security
   slug: extropic-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: thrml
+  slug: extropic-thrml
 slug: extropic
 tags:
 - Company

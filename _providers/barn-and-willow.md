@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The storefront's agent-facing commerce surface, implementing the Universal Commerce Protocol (UCP) over a hosted MCP endpoint for catalog search, cart, checkout, fulfillment and order tracking. Checko
@@ -46,37 +48,37 @@ common:
   type: Website
   url: https://barnandwillow.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/barn-and-willow/refs/heads/main/mcp/barn-and-willow-mcp.yml
+  href: https://artifacts.apis.io/barn-and-willow/mcp/barn-and-willow-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/barn-and-willow-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/barn-and-willow/refs/heads/main/llms/barn-and-willow-llms.txt
+  href: https://artifacts.apis.io/barn-and-willow/llms/barn-and-willow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/barn-and-willow-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/barn-and-willow/refs/heads/main/well-known/barn-and-willow-well-known.yml
+  href: https://artifacts.apis.io/barn-and-willow/well-known/barn-and-willow-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/barn-and-willow-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/barn-and-willow/refs/heads/main/authentication/barn-and-willow-authentication.yml
+  href: https://artifacts.apis.io/barn-and-willow/authentication/barn-and-willow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/barn-and-willow-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/barn-and-willow/refs/heads/main/scopes/barn-and-willow-scopes.yml
+  href: https://artifacts.apis.io/barn-and-willow/scopes/barn-and-willow-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/barn-and-willow-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/barn-and-willow/refs/heads/main/conformance/barn-and-willow-conformance.yml
+  href: https://artifacts.apis.io/barn-and-willow/conformance/barn-and-willow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/barn-and-willow-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/barn-and-willow/refs/heads/main/security/barn-and-willow-domain-security.yml
+  href: https://artifacts.apis.io/barn-and-willow/security/barn-and-willow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/barn-and-willow-domain-security.yml
@@ -104,7 +106,7 @@ overview: 'Barn & Willow is listed with 1 API on the [APIs.io](https://apis.io/)
 
 
   Barn & Willow''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 12
+random_paper: 22
 scopes:
 - name: Barn And Willow Scopes
   scope_count: 4
@@ -112,7 +114,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 18.3
+  composite: 17.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 32.0
@@ -126,9 +128,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 18.3
+  previous_composite: 17.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -138,14 +140,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/barn-and-willow/refs/heads/main/screenshots/barn-and-willow-2026-08-07T162148.png
+screenshot: https://apis.io/screenshots/barn-and-willow/barn-and-willow-2026-08-07T162148.png
 security:
 - kind: authentication
   name: Barn And Willow Authentication

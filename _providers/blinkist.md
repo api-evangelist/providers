@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blinkist/refs/heads/main/security/blinkist-domain-security.yml
+  href: https://artifacts.apis.io/blinkist/security/blinkist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blinkist-domain-security.yml
@@ -54,7 +56,7 @@ name: Blinkist
 nav: Providers
 network: true
 overview: Blinkist is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Learning, Books, and Audiobooks.
-random_paper: 6
+random_paper: 0
 score:
   band: minimal
   composite: 2.9
@@ -80,14 +82,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/blinkist/refs/heads/main/screenshots/blinkist-2026-07-25T203326.png
+screenshot: https://apis.io/screenshots/blinkist/blinkist-2026-07-25T203326.png
 security:
 - kind: domain-security
   name: Blinkist Domain Security

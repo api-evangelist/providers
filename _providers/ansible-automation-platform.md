@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -77,11 +79,8 @@ apis:
   description: Manage projects
   name: Ansible Automation Platform Projects API
   slug: ansible-automation-platform-projects-api
-artifact_total: 38
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ansible Automation Controller Inventories API
   slug: open-ansible-automation-platform-inventories-api
@@ -95,18 +94,22 @@ collections:
   name: Ansible Automation Controller Inventories Projects API
   slug: open-ansible-automation-platform-projects-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ansible-automation-platform/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/plans/ansible-automation-platform-plans-pricing.yml
+  href: https://artifacts.apis.io/ansible-automation-platform/plans/ansible-automation-platform-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ansible-automation-platform-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/rate-limits/ansible-automation-platform-rate-limits.yml
+  href: https://artifacts.apis.io/ansible-automation-platform/rate-limits/ansible-automation-platform-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ansible-automation-platform-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/finops/ansible-automation-platform-finops.yml
+  href: https://artifacts.apis.io/ansible-automation-platform/finops/ansible-automation-platform-finops.yml
   title: ''
   type: FinOps
   url: finops/ansible-automation-platform-finops.yml
@@ -115,17 +118,17 @@ common:
   type: Website
   url: https://ansible.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/agentic-access/ansible-automation-platform-agentic-access.yml
+  href: https://artifacts.apis.io/ansible-automation-platform/agentic-access/ansible-automation-platform-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ansible-automation-platform-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/security/ansible-automation-platform-domain-security.yml
+  href: https://artifacts.apis.io/ansible-automation-platform/security/ansible-automation-platform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ansible-automation-platform-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/authentication/ansible-automation-platform-authentication.yml
+  href: https://artifacts.apis.io/ansible-automation-platform/authentication/ansible-automation-platform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ansible-automation-platform-authentication.yml
@@ -200,7 +203,7 @@ finops:
 - has_sources: false
   method: generated
   name: Ansible Automation Platform Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: ansible-automation-platform-finops
   template: true
@@ -234,12 +237,12 @@ overview: 'Ansible Automation Platform is listed with 8 APIs on the [APIs.io](ht
   The Ansible Automation Platform catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ansible Automation Platform''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, training material, and 13 more developer resources.'
+  Ansible Automation Platform''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, training material, and 14 more developer resources.'
 plans:
 - name: Ansible Automation Platform Plans Pricing
   plan_count: 3
   slug: ansible-automation-platform-plans-pricing
-random_paper: 10
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Ansible Automation Platform Rate Limits
@@ -259,22 +262,22 @@ rules:
   slug: ansible-automation-platform-spectral-rules
 score:
   band: thin
-  composite: 33.5
+  composite: 35.2
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 54.8
     catalog_earned_first_party: 0.0
     catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.2
   facets:
     access_clarity: 39.5
     contract_governance: 11.4
     contract_quality: 16.2
-    developer_ergonomics: 54.8
+    developer_ergonomics: 58.3
     discoverability: 71.4
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   previous_composite: 35.0
   provenance:
     agentic_access: derived
@@ -289,13 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/screenshots/ansible-automation-platform-2026-06-20T172017.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ansible-automation-platform/ansible-automation-platform-2026-06-20T172017.png
 security:
 - kind: authentication
   name: Ansible Automation Platform Authentication

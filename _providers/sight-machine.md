@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-10-17'
+  score: 28.6
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST endpoint that returns the fully-resolved values behind a Sight Machine dashboard, panel by panel, so dashboard data can be consumed by external enterprise applications. Authenticated with a tenan
@@ -51,12 +53,36 @@ asyncapis:
   name: Sight Machine Event Surface
   slug: sight-machine-event-surface
 common:
+- group: agent
+  href: https://artifacts.apis.io/sight-machine/llms/sight-machine-company-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/sight-machine-company-llms.txt
+- group: other
+  href: https://artifacts.apis.io/sight-machine/hosts/sight-machine-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/sight-machine-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/sight-machine/integrations/sight-machine-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/sight-machine-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/sight-machine/vendors/sight-machine-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/sight-machine-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.sightmachine.com/news
 - group: company
   title: ''
   type: Blog
   url: https://www.sightmachine.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/security/sight-machine-domain-security.yml
+  href: https://artifacts.apis.io/sight-machine/security/sight-machine-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sight-machine-domain-security.yml
@@ -97,80 +123,80 @@ common:
   type: LinkedIn
   url: https://linkedin.com/company/sight-machine
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/changelog/sight-machine-changelog.yml
+  href: https://artifacts.apis.io/sight-machine/changelog/sight-machine-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sight-machine-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/packages/sight-machine-packages.yml
+  href: https://artifacts.apis.io/sight-machine/packages/sight-machine-packages.yml
   title: ''
   type: Packages
   url: packages/sight-machine-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/packages/sight-machine-packages.yml
+  href: https://artifacts.apis.io/sight-machine/packages/sight-machine-packages.yml
   title: ''
   type: SDKs
   url: packages/sight-machine-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/well-known/sight-machine-well-known.yml
+  href: https://artifacts.apis.io/sight-machine/well-known/sight-machine-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sight-machine-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/well-known/sight-machine-security.txt
+  href: https://artifacts.apis.io/sight-machine/well-known/sight-machine-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sight-machine-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/llms/sight-machine-llms.txt
+  href: https://artifacts.apis.io/sight-machine/llms/sight-machine-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sight-machine-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/authentication/sight-machine-authentication.yml
+  href: https://artifacts.apis.io/sight-machine/authentication/sight-machine-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sight-machine-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/conventions/sight-machine-conventions.yml
+  href: https://artifacts.apis.io/sight-machine/conventions/sight-machine-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sight-machine-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/errors/sight-machine-problem-types.yml
+  href: https://artifacts.apis.io/sight-machine/errors/sight-machine-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sight-machine-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/lifecycle/sight-machine-lifecycle.yml
+  href: https://artifacts.apis.io/sight-machine/lifecycle/sight-machine-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sight-machine-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/conformance/sight-machine-conformance.yml
+  href: https://artifacts.apis.io/sight-machine/conformance/sight-machine-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sight-machine-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/data-model/sight-machine-data-model.yml
+  href: https://artifacts.apis.io/sight-machine/data-model/sight-machine-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sight-machine-data-model.yml
-- group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/plans/sight-machine-plans-pricing.yml
-  title: ''
-  type: Plans
-  url: plans/sight-machine-plans-pricing.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/rate-limits/sight-machine-rate-limits.yml
-  title: ''
-  type: RateLimits
-  url: rate-limits/sight-machine-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/security/sight-machine-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sight-machine/security/sight-machine-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sight-machine-vulnerability-disclosure.yml
+coverage:
+  checked: '2026-10-20'
+  detail: Sight Machine documents its /v1 Dashboard and datatab endpoints only in prose at docs.sightmachine.com/docs/apis, with no published OpenAPI and the reference served inside the authenticated {tenant}.sightmachine.io environment.
+  evidence:
+  - status: 200
+    url: https://docs.sightmachine.com/docs/apis
+  - status: 404
+    url: https://demo.sightmachine.io/v1/openapi.json
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-08-27'
 description: Sight Machine is an industrial AI company (founded 2011, San Francisco and Ann Arbor) whose Manufacturing Data Platform connects to plant OT and IT systems — historians, MES, ERP, PLCs, OPC UA servers and MQTT brokers — and builds a semantic model of the factory that AI agents reason over. The platform is delivered as a per-customer tenant at {tenant}.sightmachine.io, and exposes its production data through a versioned /v1 REST surface (Dashboard API plus datatab/selector data endpoints), a first-party Python SDK (smsdk), and a PostgreSQL-wire ODBC/JDBC connector. Edge ingestion runs through FactoryTX, which speaks OPC UA, MQTT, SQL and file/cloud-store protocols. Authentication is by API key and secret headers issued per tenant; there is no public sandbox, no published pricing, and the API reference itself is served from inside the authenticated tenant environment.
 layout: provider
@@ -184,35 +210,35 @@ overview: 'Sight Machine is listed with 2 APIs on the [APIs.io](https://apis.io/
   The Sight Machine catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sight Machine''s developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, authentication, and 20 more developer resources.'
+  Sight Machine''s developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, authentication, and 23 more developer resources.'
 plans:
 - name: Sight Machine Plans Pricing
   plan_count: 0
   slug: sight-machine-plans-pricing
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Sight Machine Rate Limits
   slug: sight-machine-rate-limits
 score:
   band: thin
-  composite: 38.8
+  composite: 38.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 50.0
-    discoverability: 69.6
-    operational_transparency: 28.9
-  previous_composite: 38.3
+    discoverability: 64.3
+    operational_transparency: 31.6
+  previous_composite: 38.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -222,14 +248,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/screenshots/sight-machine-2026-09-02T155420.png
+screenshot: https://apis.io/screenshots/sight-machine/sight-machine-2026-09-02T155420.png
 security:
 - kind: authentication
   name: Sight Machine Authentication
@@ -242,7 +268,7 @@ security:
 - kind: vulnerability-disclosure
   name: Sight Machine Vulnerability Disclosure
   slug: sight-machine-vulnerability-disclosure
-  summary_line: Hackerone · security.txt · contact published
+  summary_line: security.txt · contact published
 slug: sight-machine
 tags:
 - Manufacturing

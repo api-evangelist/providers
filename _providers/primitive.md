@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 75.2
-  scored_at: '2026-10-17'
+  score: 68.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -156,15 +158,12 @@ apis:
   description: View and replay webhook delivery attempts
   name: Primitive Webhook Deliveries API
   slug: primitive-webhook-deliveries-api
-artifact_total: 51
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Primitive Webhooks
   slug: primitive-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Primitive Account API
   slug: open-primitive-account-api
@@ -232,28 +231,32 @@ collections:
   name: Primitive Account Webhook Deliveries API
   slug: open-primitive-webhook-deliveries-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/primitive/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/primitive/refs/heads/main/capabilities/primitive-capability-edges.yml
+  href: https://artifacts.apis.io/primitive/capabilities/primitive-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/primitive-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/primitive/refs/heads/main/skills/primitive-chat.md
+  href: https://artifacts.apis.io/primitive/skills/primitive-chat.md
   title: ''
   type: AgentSkill
   url: skills/primitive-chat.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/primitive/refs/heads/main/mcp/primitive-mcp.yml
+  href: https://artifacts.apis.io/primitive/mcp/primitive-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/primitive-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/primitive/refs/heads/main/overlays/primitive-openapi-overlay.yaml
+  href: https://artifacts.apis.io/primitive/overlays/primitive-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/primitive-openapi-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/primitive/refs/heads/main/a2a/primitive-a2a.yml
+  href: https://artifacts.apis.io/primitive/a2a/primitive-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/primitive-a2a.yml
@@ -261,7 +264,7 @@ created: '2026-07-17'
 description: Primitive is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
 mcp_servers:
-- description: Remote MCP server at www.primitive.dev over streamable HTTP; 29 tools listed.
+- description: Remote MCP server at www.primitive.dev over streamable HTTP; 14 tools listed.
   name: Primitive MCP Server
   slug: dev-primitive-email
 modified: '2026-07-17'
@@ -272,10 +275,10 @@ overview: 'Primitive publishes 22 API contracts indexed on the [APIs.io](https:/
 
 
   The Primitive catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
-random_paper: 17
+random_paper: 1
 score:
-  band: thin
-  composite: 27.2
+  band: emerging
+  composite: 21.8
   coverage:
     artifact_dirs: 24
     catalog_earned: 15.0
@@ -283,21 +286,15 @@ score:
     catalog_gap: 100.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.3
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 62.9
-    developer_ergonomics: 7.1
-    discoverability: 38.3
-    operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
-  previous_composite: 27.1
+    contract_quality: 60.5
+    developer_ergonomics: 8.3
+    discoverability: 28.3
+    operational_transparency: 10.5
+  previous_composite: 22.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -314,12 +311,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Primitive Authentication
@@ -333,6 +331,12 @@ security:
   name: Primitive Vulnerability Disclosure
   slug: primitive-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 2
+skills:
+- name: primitive-chat
+  slug: primitive-chat
+- name: primitive-inbox
+  slug: primitive-inbox
 slug: primitive
 tags:
 - Company

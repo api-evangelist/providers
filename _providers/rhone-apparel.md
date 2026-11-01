@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,21 +38,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Rhone's agent-facing commerce surface, implementing the Universal Commerce Protocol over MCP (JSON-RPC 2.0). Thirteen tools cover catalog search and lookup, product detail, cart create / update / canc
   name: Rhone UCP Commerce (MCP)
   slug: rhone-ucp-commerce-mcp
-artifact_total: 7
+artifact_total: 8
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rhone-apparel/refs/heads/main/rate-limits/rhone-apparel-rate-limits.yml
+  href: https://artifacts.apis.io/rhone-apparel/rate-limits/rhone-apparel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rhone-apparel-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rhone-apparel/refs/heads/main/security/rhone-apparel-domain-security.yml
+  href: https://artifacts.apis.io/rhone-apparel/security/rhone-apparel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rhone-apparel-domain-security.yml
@@ -63,27 +65,27 @@ common:
   type: Documentation
   url: https://rhone.myshopify.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rhone-apparel/refs/heads/main/llms/rhone-apparel-llms.txt
+  href: https://artifacts.apis.io/rhone-apparel/llms/rhone-apparel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rhone-apparel-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rhone-apparel/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rhone-apparel/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rhone-apparel/refs/heads/main/well-known/rhone-apparel-well-known.yml
+  href: https://artifacts.apis.io/rhone-apparel/well-known/rhone-apparel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rhone-apparel-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rhone-apparel/refs/heads/main/conformance/rhone-apparel-conformance.yml
+  href: https://artifacts.apis.io/rhone-apparel/conformance/rhone-apparel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rhone-apparel-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rhone-apparel/refs/heads/main/plans/rhone-apparel-plans-pricing.yml
+  href: https://artifacts.apis.io/rhone-apparel/plans/rhone-apparel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rhone-apparel-plans-pricing.yml
@@ -143,7 +145,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 20.7
+  composite: 25.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -151,20 +153,20 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 33.3
-    discoverability: 75.0
+    developer_ergonomics: 35.7
+    discoverability: 65.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 20.6
+  previous_composite: 25.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -174,15 +176,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 34.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rhone-apparel/refs/heads/main/screenshots/rhone-apparel-2026-09-02T153801.png
+screenshot: https://apis.io/screenshots/rhone-apparel/rhone-apparel-2026-09-02T153801.png
 security:
 - kind: authentication
   name: Rhone Apparel Authentication
@@ -192,6 +194,10 @@ security:
   name: Rhone Apparel Domain Security
   slug: rhone-apparel-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: rhone-apparel-agent-commerce
+  slug: rhone-apparel-agent-commerce
 slug: rhone-apparel
 tags:
 - Apparel

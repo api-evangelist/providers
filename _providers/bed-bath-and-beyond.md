@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Seller-facing API for the Bed Bath & Beyond third-party marketplace, which runs as a tenant of the Mirakl Marketplace Platform at bedbathandbeyondus-prod.mirakl.net. Approved sellers generate a Shop A
@@ -41,42 +43,42 @@ apis:
 artifact_total: 10
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bed-bath-and-beyond/refs/heads/main/security/bed-bath-and-beyond-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bed-bath-and-beyond/security/bed-bath-and-beyond-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bed-bath-and-beyond-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bed-bath-and-beyond/refs/heads/main/security/bed-bath-and-beyond-domain-security.yml
+  href: https://artifacts.apis.io/bed-bath-and-beyond/security/bed-bath-and-beyond-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bed-bath-and-beyond-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bed-bath-and-beyond/refs/heads/main/well-known/bed-bath-and-beyond-well-known.yml
+  href: https://artifacts.apis.io/bed-bath-and-beyond/well-known/bed-bath-and-beyond-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bed-bath-and-beyond-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bed-bath-and-beyond/refs/heads/main/well-known/bed-bath-and-beyond-security.txt
+  href: https://artifacts.apis.io/bed-bath-and-beyond/well-known/bed-bath-and-beyond-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bed-bath-and-beyond-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bed-bath-and-beyond/refs/heads/main/security/bed-bath-and-beyond-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bed-bath-and-beyond/security/bed-bath-and-beyond-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/bed-bath-and-beyond-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bed-bath-and-beyond/refs/heads/main/llms/bed-bath-and-beyond-llms.txt
+  href: https://artifacts.apis.io/bed-bath-and-beyond/llms/bed-bath-and-beyond-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bed-bath-and-beyond-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bed-bath-and-beyond/refs/heads/main/plans/bed-bath-and-beyond-plans-pricing.yml
+  href: https://artifacts.apis.io/bed-bath-and-beyond/plans/bed-bath-and-beyond-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bed-bath-and-beyond-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bed-bath-and-beyond/refs/heads/main/rate-limits/bed-bath-and-beyond-rate-limits.yml
+  href: https://artifacts.apis.io/bed-bath-and-beyond/rate-limits/bed-bath-and-beyond-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bed-bath-and-beyond-rate-limits.yml
@@ -165,14 +167,14 @@ press:
 - date: ''
   title: Bed Bath & Beyond CEO sends stark AI warning to workers
   url: https://sg.finance.yahoo.com/news/bed-bath-beyond-ceo-sends-150700273.html
-random_paper: 15
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Bed Bath And Beyond Rate Limits
   slug: bed-bath-and-beyond-rate-limits
 score:
   band: emerging
-  composite: 19.9
+  composite: 19.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -186,23 +188,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 19.9
+  previous_composite: 19.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bed-bath-and-beyond/refs/heads/main/screenshots/bed-bath-and-beyond-2026-06-20T173120.png
+screenshot: https://apis.io/screenshots/bed-bath-and-beyond/bed-bath-and-beyond-2026-06-20T173120.png
 security:
 - kind: domain-security
   name: Bed Bath And Beyond Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/halo-precision-diagnostics/refs/heads/main/security/halo-precision-diagnostics-domain-security.yml
+  href: https://artifacts.apis.io/halo-precision-diagnostics/security/halo-precision-diagnostics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/halo-precision-diagnostics-domain-security.yml
@@ -103,7 +105,7 @@ common:
   type: SecondaryMarket
   url: https://www.hiive.com/securities/halo-precision-diagnostics-stock
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/halo-precision-diagnostics/refs/heads/main/llms/halo-precision-diagnostics-llms.txt
+  href: https://artifacts.apis.io/halo-precision-diagnostics/llms/halo-precision-diagnostics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/halo-precision-diagnostics-llms.txt
@@ -174,14 +176,14 @@ score:
     regime: Health
     regime_id: health
     score: 7.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/halo-precision-diagnostics/refs/heads/main/screenshots/halo-precision-diagnostics-2026-09-02T145704.png
+screenshot: https://apis.io/screenshots/halo-precision-diagnostics/halo-precision-diagnostics-2026-09-02T145704.png
 security:
 - kind: domain-security
   name: Halo Precision Diagnostics Domain Security

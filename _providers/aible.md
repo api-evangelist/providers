@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -11,19 +11,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.9
-  scored_at: '2026-10-17'
+  score: 5.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Aible API server (self-reported version 2.0.0) is the control plane behind the Aible platform. Its published route index lists 394 routes under the /v1 prefix across 29 modules — account, project,
@@ -31,8 +33,36 @@ apis:
   slug: aible-api
 artifact_total: 5
 common:
+- group: operate
+  href: https://artifacts.apis.io/aible/lifecycle/aible-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/aible-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/aible/hosts/aible-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/aible-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/aible/integrations/aible-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/aible-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/aible/vendors/aible-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/aible-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aible/refs/heads/main/security/aible-domain-security.yml
+  title: ''
+  type: Security
+  url: https://www.aible.com/security/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.aible.com/news
+- group: auth
+  href: https://artifacts.apis.io/aible/security/aible-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aible-domain-security.yml
@@ -44,10 +74,6 @@ common:
   title: ''
   type: APIReference
   url: https://api.iamaible.com/
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.aible.com/blogs
 - group: operate
   title: ''
   type: Support
@@ -69,60 +95,57 @@ common:
   type: PrivacyPolicy
   url: https://www.aible.com/privacy-policy
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aible/refs/heads/main/changelog/aible-changelog.yml
+  href: https://artifacts.apis.io/aible/changelog/aible-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aible-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aible/refs/heads/main/plans/aible-plans-pricing.yml
+  href: https://artifacts.apis.io/aible/plans/aible-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aible-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aible/refs/heads/main/rate-limits/aible-rate-limits.yml
+  href: https://artifacts.apis.io/aible/rate-limits/aible-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aible-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aible/refs/heads/main/authentication/aible-authentication.yml
+  href: https://artifacts.apis.io/aible/authentication/aible-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aible-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aible/refs/heads/main/errors/aible-problem-types.yml
-  title: ''
-  type: ErrorCatalog
-  url: errors/aible-problem-types.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aible/refs/heads/main/conventions/aible-conventions.yml
+  href: https://artifacts.apis.io/aible/conventions/aible-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aible-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aible/refs/heads/main/data-model/aible-data-model.yml
+  href: https://artifacts.apis.io/aible/data-model/aible-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aible-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aible/refs/heads/main/lifecycle/aible-lifecycle.yml
+  href: https://artifacts.apis.io/aible/lifecycle/aible-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aible-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aible/refs/heads/main/conformance/aible-conformance.yml
+  href: https://artifacts.apis.io/aible/conformance/aible-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aible-conformance.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aible/refs/heads/main/packages/aible-packages.yml
-  title: ''
-  type: Packages
-  url: packages/aible-packages.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aible/refs/heads/main/llms/aible-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/aible-llms.txt
+coverage:
+  checked: '2026-10-20'
+  detail: api.iamaible.com serves only a plain-text route index (394 routes) with no methods or schemas, and every conventional OpenAPI/Swagger path on it returns 404, so no contract can be read or generated.
+  evidence:
+  - status: 404
+    url: https://api.iamaible.com/openapi.json
+  - status: 404
+    url: https://api.iamaible.com/swagger.json
+  - status: 404
+    url: https://www.aible.com/llms.txt
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-09-14'
 description: Aible is an enterprise AI company founded in 2018 and headquartered in Pleasanton, California, that lets business users build and run AI agents, AutoML models and generative-AI analytics against data that stays inside the customer's own AWS, Azure, GCP or on-premise account. The platform is organized around projects, segments, scenarios, training data, jobs, models, deployments and content-generation collections, and is operated through a public REST API served at api.iamaible.com. That API server publishes its own route index — 394 routes across 29 modules at /v1, protected by bearer user, tenant and STS tokens — but Aible ships no OpenAPI, AsyncAPI, MCP server, agent card, SDK or public developer portal. Commercial access is sold as prepaid Flex Credits through the AWS and Google Cloud marketplaces.
 image: https://www.aible.com/hubfs/Aible_Corp_Logo_Orange_White.svg
@@ -134,34 +157,34 @@ network: true
 overview: 'Aible is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine Learning, AutoML, Analytics, and Data Science.
 
 
-  Aible''s developer surface includes API reference, engineering blog, support, pricing, changelog, authentication, and 14 more developer resources.'
+  Aible''s developer surface includes API reference, support, pricing, changelog, authentication, and 17 more developer resources.'
 plans:
 - name: Aible Plans Pricing
   plan_count: 4
   slug: aible-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Aible Rate Limits
   slug: aible-rate-limits
 score:
   band: thin
-  composite: 29.1
+  composite: 32.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
-    access_clarity: 69.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 26.2
-    discoverability: 66.1
-    operational_transparency: 15.8
+    developer_ergonomics: 23.8
+    discoverability: 67.9
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -169,7 +192,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 29.4
+  previous_composite: 32.5
   provenance:
     conformance: derived
     mcp: derived
@@ -179,14 +202,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aible/refs/heads/main/screenshots/aible-2026-10-11T093234.png
+screenshot: https://apis.io/screenshots/aible/aible-2026-10-11T093234.png
 security:
 - kind: authentication
   name: Aible Authentication

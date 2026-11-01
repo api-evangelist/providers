@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,7 +72,7 @@ apis:
   description: Vessel port call management and planning
   name: Navis (Kaleris) Vessel Visits API
   slug: navis-vessel-visits-api
-artifact_total: 27
+artifact_total: 26
 collections:
 - collection_type: postman
   name: Navis N4 Terminal Operating System REST Gate API
@@ -87,9 +89,6 @@ collections:
 - collection_type: postman
   name: Navis N4 Terminal Operating System REST Gate Vessel Visits API
   slug: postman-navis-vessel-visits-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Navis N4 Terminal Operating System REST Gate API
   slug: open-navis-gate-api
@@ -110,22 +109,22 @@ collections:
   slug: open-navis-vessel-visits-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/plans/navis-plans-pricing.yml
+  href: https://artifacts.apis.io/navis/plans/navis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/navis-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/rate-limits/navis-rate-limits.yml
+  href: https://artifacts.apis.io/navis/rate-limits/navis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/navis-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/finops/navis-finops.yml
+  href: https://artifacts.apis.io/navis/finops/navis-finops.yml
   title: ''
   type: FinOps
   url: finops/navis-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/capabilities/navis-capability-edges.yml
+  href: https://artifacts.apis.io/navis/capabilities/navis-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/navis-capability-edges.yml
@@ -134,22 +133,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/navis-kaleris/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/agentic-access/navis-agentic-access.yml
+  href: https://artifacts.apis.io/navis/agentic-access/navis-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/navis-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/security/navis-trust-center.yml
+  href: https://artifacts.apis.io/navis/security/navis-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/navis-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/security/navis-domain-security.yml
+  href: https://artifacts.apis.io/navis/security/navis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/navis-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/authentication/navis-authentication.yml
+  href: https://artifacts.apis.io/navis/authentication/navis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/navis-authentication.yml
@@ -195,7 +194,7 @@ finops:
 - has_sources: false
   method: generated
   name: Navis Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: navis-finops
   template: true
@@ -252,7 +251,7 @@ score:
     catalog_gap: 57.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 9.8
@@ -260,7 +259,7 @@ score:
     developer_ergonomics: 39.3
     discoverability: 57.1
     operational_transparency: 23.7
-  previous_composite: 43.4
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -274,14 +273,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/screenshots/navis-2026-06-20T190102.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/navis/navis-2026-06-20T190102.png
 security:
 - kind: authentication
   name: Navis Authentication

@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.8
-  scored_at: '2026-10-17'
+  score: 37.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -125,7 +127,7 @@ apis:
   description: Retrieves detailed information for a specific geographic site using its ID.
   name: Telia Company Retrieve Geographic Site API
   slug: telia-retrievegeographicsite-api
-artifact_total: 32
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Telia Webhooks
@@ -148,97 +150,97 @@ common:
   type: ContributionGuide
   url: https://github.com/telia-oss/ace-audio-stream-forwarding-api/blob/main/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/skills/telia-lso-site-lookup.md
+  href: https://artifacts.apis.io/telia/skills/telia-lso-site-lookup.md
   title: ''
   type: AgentSkill
   url: skills/telia-lso-site-lookup.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/agentic-access/telia-agentic-access.yml
+  href: https://artifacts.apis.io/telia/agentic-access/telia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/telia-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/security/telia-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/telia/security/telia-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/telia-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/security/telia-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/telia/security/telia-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/telia-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/security/telia-domain-security.yml
+  href: https://artifacts.apis.io/telia/security/telia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/telia-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/authentication/telia-authentication.yml
+  href: https://artifacts.apis.io/telia/authentication/telia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/telia-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/scopes/telia-scopes.yml
+  href: https://artifacts.apis.io/telia/scopes/telia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/telia-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/packages/telia-packages.yml
+  href: https://artifacts.apis.io/telia/packages/telia-packages.yml
   title: ''
   type: Packages
   url: packages/telia-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/packages/telia-packages.yml
+  href: https://artifacts.apis.io/telia/packages/telia-packages.yml
   title: ''
   type: SDKs
   url: packages/telia-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/cli/telia-cli.yml
+  href: https://artifacts.apis.io/telia/cli/telia-cli.yml
   title: ''
   type: CLI
   url: cli/telia-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/components/telia-components.yml
+  href: https://artifacts.apis.io/telia/components/telia-components.yml
   title: ''
   type: Components
   url: components/telia-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/well-known/telia-well-known.yml
+  href: https://artifacts.apis.io/telia/well-known/telia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/telia-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/mcp/telia-mcp.yml
+  href: https://artifacts.apis.io/telia/mcp/telia-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/telia-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/mcp/telia-tool-crosswalk.yml
+  href: https://artifacts.apis.io/telia/mcp/telia-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/telia-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/llms/telia-llms.txt
+  href: https://artifacts.apis.io/telia/llms/telia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/telia-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/overlays/telia-lso-sonata-site-management-overlay.yaml
+  href: https://artifacts.apis.io/telia/overlays/telia-lso-sonata-site-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/telia-lso-sonata-site-management-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/conformance/telia-conformance.yml
+  href: https://artifacts.apis.io/telia/conformance/telia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/telia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/errors/telia-problem-types.yml
+  href: https://artifacts.apis.io/telia/errors/telia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/telia-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/lifecycle/telia-lifecycle.yml
+  href: https://artifacts.apis.io/telia/lifecycle/telia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/telia-lifecycle.yml
@@ -247,37 +249,37 @@ common:
   type: StatusPage
   url: https://www.telia.se/support/driftinformation-mobilt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/changelog/telia-changelog.yml
+  href: https://artifacts.apis.io/telia/changelog/telia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/telia-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/conventions/telia-conventions.yml
+  href: https://artifacts.apis.io/telia/conventions/telia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/telia-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/data-model/telia-data-model.yml
+  href: https://artifacts.apis.io/telia/data-model/telia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/telia-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/sandbox/telia-sandbox.yml
+  href: https://artifacts.apis.io/telia/sandbox/telia-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/telia-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/asyncapi/telia-webhooks.yml
+  href: https://artifacts.apis.io/telia/asyncapi/telia-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/telia-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/telia/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/proto/telia-ace-audio-stream-forwarding-v1.proto
+  href: https://artifacts.apis.io/telia/proto/telia-ace-audio-stream-forwarding-v1.proto
   title: ''
   type: Protobuf
   url: proto/telia-ace-audio-stream-forwarding-v1.proto
@@ -353,7 +355,7 @@ overview: 'Telia Company publishes 25 API contracts indexed on the [APIs.io](htt
 
 
   Telia Company''s developer surface includes authentication, CLI, changelog, sandbox, documentation, support, getting-started guide, and 37 more developer resources.'
-random_paper: 21
+random_paper: 23
 scopes:
 - name: Telia Scopes
   scope_count: 2
@@ -361,7 +363,7 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 46.8
+  composite: 52.4
   coverage:
     artifact_dirs: 27
     catalog_earned: 32.0
@@ -371,12 +373,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 18.2
     contract_quality: 57.0
-    developer_ergonomics: 67.3
+    developer_ergonomics: 80.4
     discoverability: 57.1
-    operational_transparency: 52.6
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -385,7 +387,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 46.8
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -402,14 +404,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 49.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/screenshots/telia-2026-08-17T082306.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/telia/telia-2026-08-17T082306.png
 security:
 - kind: authentication
   name: Telia Authentication
@@ -423,6 +425,12 @@ security:
   name: Telia Vulnerability Disclosure
   slug: telia-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 2
+skills:
+- name: telia-lso-site-lookup
+  slug: telia-lso-site-lookup
+- name: telia-send-bulk-sms
+  slug: telia-send-bulk-sms
 slug: telia
 tags:
 - Telecommunications

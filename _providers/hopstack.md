@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Programmatic access to sales/fulfillment orders - create and manage orders that flow into Hopstack's omnichannel order management and picking, packing, and shipping workflows. Orders is one of the cor
@@ -61,7 +63,7 @@ common:
   type: Blog
   url: https://www.hopstack.io/blogs
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hopstack/refs/heads/main/security/hopstack-domain-security.yml
+  href: https://artifacts.apis.io/hopstack/security/hopstack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hopstack-domain-security.yml
@@ -86,17 +88,17 @@ common:
   type: Documentation
   url: https://help.hopstack.io/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hopstack/refs/heads/main/plans/hopstack-plans-pricing.yml
+  href: https://artifacts.apis.io/hopstack/plans/hopstack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hopstack-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hopstack/refs/heads/main/rate-limits/hopstack-rate-limits.yml
+  href: https://artifacts.apis.io/hopstack/rate-limits/hopstack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hopstack-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hopstack/refs/heads/main/finops/hopstack-finops.yml
+  href: https://artifacts.apis.io/hopstack/finops/hopstack-finops.yml
   title: ''
   type: FinOps
   url: finops/hopstack-finops.yml
@@ -124,7 +126,7 @@ plans:
 - name: Hopstack Plans Pricing
   plan_count: 1
   slug: hopstack-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Hopstack Rate Limits
@@ -139,7 +141,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -147,21 +149,21 @@ score:
     developer_ergonomics: 19.0
     discoverability: 62.5
     operational_transparency: 5.3
-  previous_composite: 16.0
+  previous_composite: 10.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hopstack/refs/heads/main/screenshots/hopstack-2026-07-25T221422.png
+screenshot: https://apis.io/screenshots/hopstack/hopstack-2026-07-25T221422.png
 security:
 - kind: domain-security
   name: Hopstack Domain Security

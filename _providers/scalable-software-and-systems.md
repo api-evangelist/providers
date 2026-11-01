@@ -4,6 +4,6 @@ layout: provider
 name: scalable-software-and-systems
 nav: Providers
 network: true
-random_paper: 6
+random_paper: 4
 slug: scalable-software-and-systems
 ---

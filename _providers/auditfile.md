@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: AuditFile provides API access to its audit software platform. Documentation is available at the pricing page, but no machine‑readable contract was found.
@@ -32,7 +34,7 @@ apis:
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/auditfile/refs/heads/main/plans/auditfile-plans-pricing.yml
+  href: https://artifacts.apis.io/auditfile/plans/auditfile-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/auditfile-plans-pricing.yml
@@ -41,12 +43,12 @@ common:
   type: Compliance
   url: https://auditfile.com/security
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/auditfile/refs/heads/main/hosts/auditfile-hosts.yml
+  href: https://artifacts.apis.io/auditfile/hosts/auditfile-hosts.yml
   title: ''
   type: Hosts
   url: hosts/auditfile-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/auditfile/refs/heads/main/vendors/auditfile-vendors.yml
+  href: https://artifacts.apis.io/auditfile/vendors/auditfile-vendors.yml
   title: ''
   type: Vendors
   url: vendors/auditfile-vendors.yml
@@ -59,12 +61,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/AuditFile
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/auditfile/refs/heads/main/security/auditfile-trust-center.yml
+  href: https://artifacts.apis.io/auditfile/security/auditfile-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/auditfile-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/auditfile/refs/heads/main/security/auditfile-domain-security.yml
+  href: https://artifacts.apis.io/auditfile/security/auditfile-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/auditfile-domain-security.yml
@@ -109,7 +111,7 @@ plans:
 - name: Auditfile Plans Pricing
   plan_count: 1
   slug: auditfile-plans-pricing
-random_paper: 5
+random_paper: 15
 score:
   band: emerging
   composite: 18.3
@@ -137,14 +139,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/auditfile/refs/heads/main/screenshots/auditfile-2026-10-11T100810.png
+screenshot: https://apis.io/screenshots/auditfile/auditfile-2026-10-11T100810.png
 security:
 - kind: domain-security
   name: Auditfile Domain Security

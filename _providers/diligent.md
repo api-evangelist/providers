@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.godiligent.ai
@@ -68,15 +70,12 @@ apis:
   description: '## How to Secure Webhook Deliveries To ensure that webhook payloads are securely transmitted and verified. This guide explains how to configure and validate webhook deliveries using a shared secret. #'
   name: Diligent Webhooks API
   slug: diligent-webhooks-api
-artifact_total: 17
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Diligent Webhooks
   slug: diligent-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Diligent CDD API
   slug: open-diligent-cdd-api
@@ -97,27 +96,27 @@ collections:
   slug: open-diligent-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/capabilities/diligent-capability-edges.yml
+  href: https://artifacts.apis.io/diligent/capabilities/diligent-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/diligent-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/overlays/diligent-api-overlay.yaml
+  href: https://artifacts.apis.io/diligent/overlays/diligent-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/diligent-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/security/diligent-trust-center.yml
+  href: https://artifacts.apis.io/diligent/security/diligent-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/diligent-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/security/diligent-domain-security.yml
+  href: https://artifacts.apis.io/diligent/security/diligent-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/diligent-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/authentication/diligent-authentication.yml
+  href: https://artifacts.apis.io/diligent/authentication/diligent-authentication.yml
   title: ''
   type: Authentication
   url: authentication/diligent-authentication.yml
@@ -182,57 +181,57 @@ common:
   type: Postman
   url: https://raw.githubusercontent.com/paylaneio/api/refs/heads/master/postman_collection.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/llms/diligent-llms.txt
+  href: https://artifacts.apis.io/diligent/llms/diligent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/diligent-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/mcp/diligent-mcp.yml
+  href: https://artifacts.apis.io/diligent/mcp/diligent-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/diligent-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/conformance/diligent-conformance.yml
+  href: https://artifacts.apis.io/diligent/conformance/diligent-conformance.yml
   title: ''
   type: Conformance
   url: conformance/diligent-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/errors/diligent-problem-types.yml
+  href: https://artifacts.apis.io/diligent/errors/diligent-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/diligent-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/lifecycle/diligent-lifecycle.yml
+  href: https://artifacts.apis.io/diligent/lifecycle/diligent-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/diligent-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/conventions/diligent-conventions.yml
+  href: https://artifacts.apis.io/diligent/conventions/diligent-conventions.yml
   title: ''
   type: Conventions
   url: conventions/diligent-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/conventions/diligent-conventions.yml
+  href: https://artifacts.apis.io/diligent/conventions/diligent-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/diligent-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/data-model/diligent-data-model.yml
+  href: https://artifacts.apis.io/diligent/data-model/diligent-data-model.yml
   title: ''
   type: DataModel
   url: data-model/diligent-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/sandbox/diligent-sandbox.yml
+  href: https://artifacts.apis.io/diligent/sandbox/diligent-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/diligent-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/asyncapi/diligent-webhooks.yml
+  href: https://artifacts.apis.io/diligent/asyncapi/diligent-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/diligent-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/diligent/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -251,10 +250,10 @@ overview: 'Diligent publishes 6 API contracts indexed on the [APIs.io](https://a
 
 
   Diligent''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 24 more developer resources.'
-random_paper: 12
+random_paper: 8
 score:
   band: developing
-  composite: 49.7
+  composite: 50.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -262,15 +261,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 55.8
-    developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 15.8
-  previous_composite: 49.6
+    developer_ergonomics: 70.8
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 50.2
   provenance:
     conformance: derived
     contracts:
@@ -290,13 +289,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/screenshots/diligent-2026-07-25T212039.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/diligent/diligent-2026-07-25T212039.png
 security:
 - kind: authentication
   name: Diligent Authentication
@@ -310,6 +310,16 @@ security:
   name: Diligent Trust Center
   slug: diligent-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 4
+skills:
+- name: Set up ongoing monitoring and handle alerts
+  slug: diligent-monitoring
+- name: Remediate a name-screening alert
+  slug: diligent-name-screening-remediation
+- name: Perform a Customer Due Diligence (CDD) case
+  slug: diligent-perform-cdd
+- name: Register and verify Diligent webhooks
+  slug: diligent-webhooks
 slug: diligent
 tags:
 - Company

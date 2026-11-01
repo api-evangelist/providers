@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,11 +58,8 @@ apis:
   description: Historical or future weather data for a specific point in time
   name: Dark Sky Time Machine API
   slug: dark-sky-time-machine-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Dark Sky Forecast API
   slug: open-dark-sky-forecast-api
@@ -69,17 +68,17 @@ collections:
   slug: open-dark-sky-time-machine-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/agentic-access/dark-sky-agentic-access.yml
+  href: https://artifacts.apis.io/dark-sky/agentic-access/dark-sky-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dark-sky-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/security/dark-sky-domain-security.yml
+  href: https://artifacts.apis.io/dark-sky/security/dark-sky-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dark-sky-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/authentication/dark-sky-authentication.yml
+  href: https://artifacts.apis.io/dark-sky/authentication/dark-sky-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dark-sky-authentication.yml
@@ -116,17 +115,17 @@ common:
   type: X
   url: https://x.com/darkskyapp
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/plans/dark-sky-plans-pricing.yml
+  href: https://artifacts.apis.io/dark-sky/plans/dark-sky-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dark-sky-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/rate-limits/dark-sky-rate-limits.yml
+  href: https://artifacts.apis.io/dark-sky/rate-limits/dark-sky-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dark-sky-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/finops/dark-sky-finops.yml
+  href: https://artifacts.apis.io/dark-sky/finops/dark-sky-finops.yml
   title: ''
   type: FinOps
   url: finops/dark-sky-finops.yml
@@ -194,7 +193,7 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 62.2
     catalog_earned_first_party: 0.0
     catalog_gap: 52.9
@@ -223,14 +222,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/screenshots/dark-sky-2026-06-20T175456.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dark-sky/dark-sky-2026-06-20T175456.png
 security:
 - kind: authentication
   name: Dark Sky Authentication

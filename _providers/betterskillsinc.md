@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betterskillsinc/refs/heads/main/llms/betterskillsinc-llms.txt
+  href: https://artifacts.apis.io/betterskillsinc/llms/betterskillsinc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/betterskillsinc-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/betterskillsinc/refs/heads/main/hosts/betterskillsinc-hosts.yml
+  href: https://artifacts.apis.io/betterskillsinc/hosts/betterskillsinc-hosts.yml
   title: ''
   type: Hosts
   url: hosts/betterskillsinc-hosts.yml
@@ -42,7 +44,7 @@ common:
   type: Blog
   url: https://www.better-skills.com/blog/index.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betterskillsinc/refs/heads/main/security/betterskillsinc-domain-security.yml
+  href: https://artifacts.apis.io/betterskillsinc/security/betterskillsinc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/betterskillsinc-domain-security.yml
@@ -69,10 +71,10 @@ overview: 'Betterskillsinc is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Betterskillsinc''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 12
+random_paper: 10
 score:
   band: minimal
-  composite: 4.1
+  composite: 3.4
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -86,23 +88,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 4.1
+  previous_composite: 3.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/betterskillsinc/refs/heads/main/screenshots/betterskillsinc-2026-10-11T102026.png
+screenshot: https://apis.io/screenshots/betterskillsinc/betterskillsinc-2026-10-11T102026.png
 security:
 - kind: domain-security
   name: Betterskillsinc Domain Security

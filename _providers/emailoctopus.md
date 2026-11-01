@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-17'
+  score: 34.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 25
   slug: emailoctopus-agentic-access
   summary_line: 25 operations · 15 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.emailoctopus.com
   baseurl_source: declared
@@ -76,15 +78,12 @@ apis:
   description: Create, rename, delete and list the tags used to segment contacts on a list. Tags are keyed by slug rather than an id. 4 operation(s) in the EmailOctopus v2 OpenAPI 3.1.0.
   name: EmailOctopus Tag API
   slug: emailoctopus-tag-api
-artifact_total: 21
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Emailoctopus Webhooks
   slug: emailoctopus-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: EmailOctopus v2 Automation API
   slug: open-emailoctopus-automation-api
@@ -108,22 +107,22 @@ collections:
   slug: open-emailoctopus
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/capabilities/emailoctopus-capability-edges.yml
+  href: https://artifacts.apis.io/emailoctopus/capabilities/emailoctopus-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/emailoctopus-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/agentic-access/emailoctopus-agentic-access.yml
+  href: https://artifacts.apis.io/emailoctopus/agentic-access/emailoctopus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/emailoctopus-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/security/emailoctopus-domain-security.yml
+  href: https://artifacts.apis.io/emailoctopus/security/emailoctopus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/emailoctopus-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/authentication/emailoctopus-authentication.yml
+  href: https://artifacts.apis.io/emailoctopus/authentication/emailoctopus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/emailoctopus-authentication.yml
@@ -140,57 +139,57 @@ common:
   type: Documentation
   url: https://emailoctopus.com/api-documentation/v2
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/plans/emailoctopus-plans-pricing.yml
+  href: https://artifacts.apis.io/emailoctopus/plans/emailoctopus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/emailoctopus-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/rate-limits/emailoctopus-rate-limits.yml
+  href: https://artifacts.apis.io/emailoctopus/rate-limits/emailoctopus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/emailoctopus-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/finops/emailoctopus-finops.yml
+  href: https://artifacts.apis.io/emailoctopus/finops/emailoctopus-finops.yml
   title: ''
   type: FinOps
   url: finops/emailoctopus-finops.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/_original/emailoctopus-v2-openapi.json
+  href: https://artifacts.apis.io/emailoctopus/openapi/_original/emailoctopus-v2-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/emailoctopus-v2-openapi.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/packages/emailoctopus-packages.yml
+  href: https://artifacts.apis.io/emailoctopus/packages/emailoctopus-packages.yml
   title: ''
   type: Packages
   url: packages/emailoctopus-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/llms/emailoctopus-llms.txt
+  href: https://artifacts.apis.io/emailoctopus/llms/emailoctopus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/emailoctopus-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/conventions/emailoctopus-conventions.yml
+  href: https://artifacts.apis.io/emailoctopus/conventions/emailoctopus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/emailoctopus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/errors/emailoctopus-problem-types.yml
+  href: https://artifacts.apis.io/emailoctopus/errors/emailoctopus-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/emailoctopus-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/data-model/emailoctopus-data-model.yml
+  href: https://artifacts.apis.io/emailoctopus/data-model/emailoctopus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/emailoctopus-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/conformance/emailoctopus-conformance.yml
+  href: https://artifacts.apis.io/emailoctopus/conformance/emailoctopus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/emailoctopus-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/lifecycle/emailoctopus-lifecycle.yml
+  href: https://artifacts.apis.io/emailoctopus/lifecycle/emailoctopus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/emailoctopus-lifecycle.yml
@@ -199,17 +198,17 @@ common:
   type: StatusPage
   url: https://status.emailoctopus.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/asyncapi/emailoctopus-webhooks.yml
+  href: https://artifacts.apis.io/emailoctopus/asyncapi/emailoctopus-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/emailoctopus-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/emailoctopus/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/components/emailoctopus-components.yml
+  href: https://artifacts.apis.io/emailoctopus/components/emailoctopus-components.yml
   title: ''
   type: Components
   url: components/emailoctopus-components.yml
@@ -249,10 +248,10 @@ created: '2026-06-25'
 description: EmailOctopus is an affordable email-marketing platform for newsletters, campaigns, automations and audience management, built on a low-cost sending model that undercuts the incumbent ESPs. Its v2 REST API is served from a single host, https://api.emailoctopus.com, with no version segment in the path, and is authenticated with a Bearer API key. The API covers subscriber lists, contacts, per-list custom fields and tags, campaigns and three campaign report projections, plus an operation to enqueue a contact into an automation. EmailOctopus publishes a real OpenAPI 3.1.0 document (25 operations, 19 schemas) at its v2 reference URL, documents an RFC 7807 error envelope with dereferenceable type URIs, cursor pagination, a token-bucket rate limit of 10 requests per second with a burst of 100, and an HMAC-SHA256-signed webhook surface carrying eight contact event types. It ships no official client SDK, no CLI and no MCP server.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Emailoctopus Finops
-  primary_unit: ''
-  service_category: Marketing and Communications
+  primary_unit: subscription
+  service_category: ''
   slug: emailoctopus-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/emailoctopus.png
@@ -272,30 +271,33 @@ plans:
 - name: Emailoctopus Plans Pricing
   plan_count: 3
   slug: emailoctopus-plans-pricing
-random_paper: 3
+- name: Emailoctopus Price Estimates
+  plan_count: 0
+  slug: emailoctopus-price-estimates
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Emailoctopus Rate Limits
   slug: emailoctopus-rate-limits
 score:
   band: strong
-  composite: 57.3
+  composite: 55.4
   coverage:
     artifact_dirs: 26
-    catalog_earned: 61.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 59.4
+    contract_quality: 56.1
     developer_ergonomics: 50.6
     discoverability: 66.1
     operational_transparency: 55.3
-  previous_composite: 58.9
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -312,13 +314,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/screenshots/emailoctopus-2026-07-25T213222.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/emailoctopus/emailoctopus-2026-07-25T213222.png
 security:
 - kind: authentication
   name: Emailoctopus Authentication
@@ -328,6 +331,16 @@ security:
   name: Emailoctopus Domain Security
   slug: emailoctopus-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Pull EmailOctopus campaign performance
+  slug: emailoctopus-campaign-reporting
+- name: Subscribe a contact to an EmailOctopus list
+  slug: emailoctopus-subscribe-contact
+- name: Sync an audience into EmailOctopus in bulk
+  slug: emailoctopus-sync-audience
+- name: Consume EmailOctopus webhooks safely
+  slug: emailoctopus-webhook-consumer
 slug: emailoctopus
 tags:
 - Email

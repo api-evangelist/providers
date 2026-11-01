@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST API for launching basic and advanced Enboarder workflows, updating and cancelling running workflows, managing employee profiles and photos, and exporting workflow and form reporting data. Paths a
@@ -45,14 +47,14 @@ apis:
 - description: SCIM 2.0 user provisioning and management API for creating, reading, updating and deactivating Enboarder users from an identity provider. Exposes the standard discovery endpoints (/scim/v2/ServiceProv
   name: Enboarder SCIM 2.0 API
   slug: enboarder-scim-api
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Enboarder Webhooks
   slug: enboarder-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/security/enboarder-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/enboarder/security/enboarder-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/enboarder-vulnerability-disclosure.yml
@@ -61,12 +63,12 @@ common:
   type: Security
   url: https://enboarder.com/legal/vulnerability/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/security/enboarder-domain-security.yml
+  href: https://artifacts.apis.io/enboarder/security/enboarder-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/enboarder-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/security/enboarder-trust-center.yml
+  href: https://artifacts.apis.io/enboarder/security/enboarder-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/enboarder-trust-center.yml
@@ -123,62 +125,70 @@ common:
   type: Compliance
   url: https://enboarder.com/legal/security/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/llms/enboarder-llms.txt
+  href: https://artifacts.apis.io/enboarder/llms/enboarder-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/enboarder-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/authentication/enboarder-authentication.yml
+  href: https://artifacts.apis.io/enboarder/authentication/enboarder-authentication.yml
   title: ''
   type: Authentication
   url: authentication/enboarder-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/scopes/enboarder-scopes.yml
+  href: https://artifacts.apis.io/enboarder/scopes/enboarder-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/enboarder-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/conventions/enboarder-conventions.yml
+  href: https://artifacts.apis.io/enboarder/conventions/enboarder-conventions.yml
   title: ''
   type: Conventions
   url: conventions/enboarder-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/errors/enboarder-error-codes.yml
+  href: https://artifacts.apis.io/enboarder/errors/enboarder-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/enboarder-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/lifecycle/enboarder-lifecycle.yml
+  href: https://artifacts.apis.io/enboarder/lifecycle/enboarder-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/enboarder-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/conformance/enboarder-conformance.yml
+  href: https://artifacts.apis.io/enboarder/conformance/enboarder-conformance.yml
   title: ''
   type: Conformance
   url: conformance/enboarder-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/data-model/enboarder-data-model.yml
+  href: https://artifacts.apis.io/enboarder/data-model/enboarder-data-model.yml
   title: ''
   type: DataModel
   url: data-model/enboarder-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/asyncapi/enboarder-webhooks.yml
+  href: https://artifacts.apis.io/enboarder/asyncapi/enboarder-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/enboarder-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/rate-limits/enboarder-rate-limits.yml
+  href: https://artifacts.apis.io/enboarder/rate-limits/enboarder-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/enboarder-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/plans/enboarder-plans-pricing.yml
+  href: https://artifacts.apis.io/enboarder/plans/enboarder-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/enboarder-plans-pricing.yml
 created: '2026-08-12'
 description: Enboarder is an employee onboarding and people-activation platform used by HR teams, managers and IT to design, automate and measure personalized employee journeys across preboarding, onboarding, compliance, internal transitions, offboarding and enablement. It exposes a regional REST API for launching, updating, cancelling and reporting on workflows, managing employee profiles and exporting form data, a SCIM 2.0 endpoint for user provisioning, and an outbound Webhook module that posts configurable JSON payloads to downstream systems such as Slack, Jira and ServiceNow. API access is region-scoped across Australia, the EU, the United States and Canada, and is authenticated with either an account API key or OAuth 2.0 client credentials.
+finops:
+- has_sources: true
+  method: derived
+  name: Enboarder Finops
+  primary_unit: ''
+  service_category: ''
+  slug: enboarder-finops
+  template: true
 image: https://enboarder.com/wp-content/uploads/og-home.jpg
 layout: provider
 modified: '2026-08-12'
@@ -194,9 +204,9 @@ overview: 'Enboarder is listed with 2 APIs on the [APIs.io](https://apis.io/) ne
   Enboarder''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
 plans:
 - name: Enboarder Plans Pricing
-  plan_count: 0
+  plan_count: 5
   slug: enboarder-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Enboarder Rate Limits
@@ -208,23 +218,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 46.8
+  composite: 52.8
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 19
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 47.4
+    access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 46.8
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 46.5
   provenance:
     conformance: first-party
   regulatory:
@@ -233,14 +243,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/enboarder/refs/heads/main/screenshots/enboarder-2026-08-17T080919.png
+screenshot: https://apis.io/screenshots/enboarder/enboarder-2026-08-17T080919.png
 security:
 - kind: authentication
   name: Enboarder Authentication

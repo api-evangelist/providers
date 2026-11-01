@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/icertis/refs/heads/main/security/icertis-domain-security.yml
+  href: https://artifacts.apis.io/icertis/security/icertis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/icertis-domain-security.yml
@@ -62,17 +64,17 @@ common:
   type: PrivacyPolicy
   url: https://www.icertis.com/information/icertis-privacy-statement/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/icertis/refs/heads/main/conformance/icertis-conformance.yml
+  href: https://artifacts.apis.io/icertis/conformance/icertis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/icertis-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/icertis/refs/heads/main/well-known/icertis-well-known.yml
+  href: https://artifacts.apis.io/icertis/well-known/icertis-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/icertis-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/icertis/refs/heads/main/llms/icertis-llms.txt
+  href: https://artifacts.apis.io/icertis/llms/icertis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/icertis-llms.txt
@@ -88,10 +90,10 @@ overview: 'Icertis is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Icertis'' developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 7
+random_paper: 11
 score:
   band: emerging
-  composite: 13.9
+  composite: 13.2
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -105,9 +107,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 13.9
+  previous_composite: 13.2
   provenance:
     conformance: first-party
   regulatory:
@@ -122,14 +124,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/icertis/refs/heads/main/screenshots/icertis-2026-07-25T222009.png
+screenshot: https://apis.io/screenshots/icertis/icertis-2026-07-25T222009.png
 security:
 - kind: domain-security
   name: Icertis Domain Security

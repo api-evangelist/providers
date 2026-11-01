@@ -24,26 +24,48 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'GraphQL reporting API for Jampp advertisers. The pivot query returns funnel metrics — impressions, clicks, spend, installs, events, CPC/CPM/CTR/CPI/CPA/ROAS — grouped by any combination of documented '
   name: Jampp Reporting API
   slug: jampp-reporting-api
-artifact_total: 6
+artifact_total: 8
 common:
+- group: operate
+  href: https://artifacts.apis.io/jampp/lifecycle/jampp-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/jampp-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/jampp/hosts/jampp-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/jampp-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/jampp/integrations/jampp-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/jampp-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/jampp/vendors/jampp-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/jampp-vendors.yml
 - group: company
   title: ''
   type: Website
@@ -89,90 +111,84 @@ common:
   type: PrivacyPolicy
   url: https://www.jampp.com/privacy-policy-terms-and-conditions
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/changelog/jampp-changelog.yml
+  href: https://artifacts.apis.io/jampp/changelog/jampp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/jampp-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/packages/jampp-packages.yml
+  href: https://artifacts.apis.io/jampp/packages/jampp-packages.yml
   title: ''
   type: Packages
   url: packages/jampp-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/packages/jampp-packages.yml
+  href: https://artifacts.apis.io/jampp/packages/jampp-packages.yml
   title: ''
   type: SDKs
   url: packages/jampp-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/well-known/jampp-well-known.yml
+  href: https://artifacts.apis.io/jampp/well-known/jampp-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jampp-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/authentication/jampp-authentication.yml
-  title: ''
-  type: Authentication
-  url: authentication/jampp-authentication.yml
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/scopes/jampp-scopes.yml
+  href: https://artifacts.apis.io/jampp/scopes/jampp-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/jampp-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/conformance/jampp-conformance.yml
+  href: https://artifacts.apis.io/jampp/conformance/jampp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jampp-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/errors/jampp-problem-types.yml
-  title: ''
-  type: ErrorCatalog
-  url: errors/jampp-problem-types.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/lifecycle/jampp-lifecycle.yml
+  href: https://artifacts.apis.io/jampp/lifecycle/jampp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jampp-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/conventions/jampp-conventions.yml
+  href: https://artifacts.apis.io/jampp/conventions/jampp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jampp-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/data-model/jampp-data-model.yml
+  href: https://artifacts.apis.io/jampp/data-model/jampp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/jampp-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/vocabulary/jampp-reporting-vocabulary.yml
+  href: https://artifacts.apis.io/jampp/vocabulary/jampp-reporting-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/jampp-reporting-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/rate-limits/jampp-rate-limits.yml
+  href: https://artifacts.apis.io/jampp/rate-limits/jampp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jampp-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/plans/jampp-plans-pricing.yml
+  href: https://artifacts.apis.io/jampp/plans/jampp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jampp-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/security/jampp-domain-security.yml
+  href: https://artifacts.apis.io/jampp/security/jampp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jampp-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/jampp/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/llms/jampp-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/jampp-llms.txt
+coverage:
+  detail: the company serves an API surface but requires credentials before any description of it can be read
+  evidence:
+  - status: 401
+    url: https://api.jampp.com/mcp/v1
+  - status: 200
+    url: https://jampp.com/
+  reason: partner-login
+  state: gated
 created: '2026-08-12'
 description: Jampp is a programmatic demand-side platform for mobile app growth, founded in 2013 and now an Affle company, with hubs in San Francisco, Buenos Aires, Sao Paulo and Singapore. It buys user acquisition, app retargeting and CTV inventory on behalf of app advertisers in commerce, fintech, gaming and delivery, and reports the resulting funnel — impressions, clicks, installs and in-app events — back to customers. Its one public developer surface is the Jampp Reporting API, a GraphQL endpoint that serves synchronous and asynchronous "pivot" reports across roughly seventy campaign, creative, geo, publisher and SKAdNetwork dimensions, authenticated with OAuth 2.0 client credentials issued from the Silver dashboard.
 image: https://cdn.prod.website-files.com/60a2dbe1d34866625cde6145/60a3205afb51116f7b844c73_jampp-featured-image.png
@@ -184,7 +200,7 @@ network: true
 overview: 'Jampp is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Marketing, Mobile, and Analytics.
 
 
-  Jampp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 21 more developer resources.'
+  Jampp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 22 more developer resources.'
 plans:
 - name: Jampp Plans Pricing
   plan_count: 0
@@ -201,23 +217,23 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 34.6
+  composite: 33.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 38.3
     catalog_earned_first_party: 0.0
     catalog_gap: 76.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 22.0
     contract_quality: 0.0
-    developer_ergonomics: 66.1
+    developer_ergonomics: 54.2
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 34.5
+    operational_transparency: 28.9
+  previous_composite: 33.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -234,14 +250,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jampp/refs/heads/main/screenshots/jampp-2026-09-02T145930.png
+screenshot: https://apis.io/screenshots/jampp/jampp-2026-09-02T145930.png
 security:
 - kind: authentication
   name: Jampp Authentication
@@ -251,6 +267,12 @@ security:
   name: Jampp Domain Security
   slug: jampp-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: pull-spend-by-campaign
+  slug: jampp-pull-spend-by-campaign
+- name: run-async-pivot-export
+  slug: jampp-run-async-pivot-export
 slug: jampp
 tags:
 - Company

@@ -4,6 +4,6 @@ layout: provider
 name: configuration-language
 nav: Providers
 network: true
-random_paper: 15
+random_paper: 1
 slug: configuration-language
 ---

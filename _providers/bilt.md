@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.7
-  scored_at: '2026-10-17'
+  score: 41.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: External backend contract for integrators using the Bilt Checkout SDK, documented at developers.bilt.com. No owned OpenAPI spec found on Bilt's own domain.
@@ -52,67 +54,67 @@ asyncapis:
   slug: bilt-webhooks
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/rules/bilt-rules.yml
+  href: https://artifacts.apis.io/bilt/rules/bilt-rules.yml
   title: ''
   type: Spectral
   url: rules/bilt-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/json-ld/bilt-context.jsonld
+  href: https://artifacts.apis.io/bilt/json-ld/bilt-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bilt-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/vocabulary/bilt-vocabulary.yml
+  href: https://artifacts.apis.io/bilt/vocabulary/bilt-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bilt-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/asyncapi/bilt-webhooks.yml
+  href: https://artifacts.apis.io/bilt/asyncapi/bilt-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bilt-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/data-model/bilt-data-model.yml
+  href: https://artifacts.apis.io/bilt/data-model/bilt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bilt-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/conventions/bilt-conventions.yml
+  href: https://artifacts.apis.io/bilt/conventions/bilt-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bilt-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/conventions/bilt-conventions.yml
+  href: https://artifacts.apis.io/bilt/conventions/bilt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bilt-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/errors/bilt-problem-types.yml
+  href: https://artifacts.apis.io/bilt/errors/bilt-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bilt-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/conformance/bilt-conformance.yml
+  href: https://artifacts.apis.io/bilt/conformance/bilt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bilt-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/overlays/bilt-overlay.yaml
+  href: https://artifacts.apis.io/bilt/overlays/bilt-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bilt-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/llms/bilt-llms.txt
+  href: https://artifacts.apis.io/bilt/llms/bilt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bilt-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/hosts/bilt-hosts.yml
+  href: https://artifacts.apis.io/bilt/hosts/bilt-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bilt-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/vendors/bilt-vendors.yml
+  href: https://artifacts.apis.io/bilt/vendors/bilt-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bilt-vendors.yml
@@ -129,7 +131,7 @@ common:
   type: APIReference
   url: https://developers.bilt.com/docs/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/security/bilt-domain-security.yml
+  href: https://artifacts.apis.io/bilt/security/bilt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bilt-domain-security.yml
@@ -165,7 +167,7 @@ overview: 'BILT publishes 4 API contracts indexed on the [APIs.io](https://apis.
 
 
   BILT''s developer surface includes documentation, API reference, and 16 more developer resources.'
-random_paper: 9
+random_paper: 19
 rules:
 - authorship: generated
   effective_rule_count: 58
@@ -195,7 +197,7 @@ score:
     contract_governance: 22.0
     contract_quality: 64.6
     developer_ergonomics: 16.7
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 7.9
   previous_composite: 29.7
   provenance:
@@ -212,13 +214,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 14.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bilt/refs/heads/main/screenshots/bilt-2026-10-11T102217.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bilt/bilt-2026-10-11T102217.png
 security:
 - kind: domain-security
   name: Bilt Domain Security

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.1
-  scored_at: '2026-10-17'
+  score: 35.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 32
   slug: uk-power-networks-agentic-access
   summary_line: 32 operations
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://ukpowernetworks.opendatasoft.com/api/explore/v2.1
   baseurl_source: declared
@@ -55,7 +57,7 @@ apis:
   description: API to work on records
   name: UK Power Networks Dataset API
   slug: uk-power-networks-dataset-api
-artifact_total: 14
+artifact_total: 18
 collections:
 - collection_type: open
   name: Explore API
@@ -65,7 +67,7 @@ collections:
   slug: open-uk-power-networks-explore-api-v2-1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/capabilities/uk-power-networks-capability-edges.yml
+  href: https://artifacts.apis.io/uk-power-networks/capabilities/uk-power-networks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/uk-power-networks-capability-edges.yml
@@ -78,12 +80,12 @@ common:
   type: ContributionGuide
   url: https://github.com/UKPN-DSO/ukpyn/blob/main/CONTRIBUTING.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/overlays/uk-power-networks-explore-api-v2-1-overlay.yaml
+  href: https://artifacts.apis.io/uk-power-networks/overlays/uk-power-networks-explore-api-v2-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/uk-power-networks-explore-api-v2-1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/overlays/uk-power-networks-explore-api-v2-0-overlay.yaml
+  href: https://artifacts.apis.io/uk-power-networks/overlays/uk-power-networks-explore-api-v2-0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/uk-power-networks-explore-api-v2-0-overlay.yaml
@@ -92,17 +94,17 @@ common:
   type: License
   url: https://github.com/UKPN-DSO/ukpyn/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/agentic-access/uk-power-networks-agentic-access.yml
+  href: https://artifacts.apis.io/uk-power-networks/agentic-access/uk-power-networks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/uk-power-networks-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/security/uk-power-networks-domain-security.yml
+  href: https://artifacts.apis.io/uk-power-networks/security/uk-power-networks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uk-power-networks-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/authentication/uk-power-networks-authentication.yml
+  href: https://artifacts.apis.io/uk-power-networks/authentication/uk-power-networks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uk-power-networks-authentication.yml
@@ -163,97 +165,97 @@ common:
   type: Showcase
   url: https://ukpowernetworks.opendatasoft.com/pages/reuses/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/packages/uk-power-networks-packages.yml
+  href: https://artifacts.apis.io/uk-power-networks/packages/uk-power-networks-packages.yml
   title: ''
   type: Packages
   url: packages/uk-power-networks-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/packages/uk-power-networks-packages.yml
+  href: https://artifacts.apis.io/uk-power-networks/packages/uk-power-networks-packages.yml
   title: ''
   type: SDKs
   url: packages/uk-power-networks-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/well-known/uk-power-networks-well-known.yml
+  href: https://artifacts.apis.io/uk-power-networks/well-known/uk-power-networks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/uk-power-networks-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/well-known/uk-power-networks-security.txt
+  href: https://artifacts.apis.io/uk-power-networks/well-known/uk-power-networks-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/uk-power-networks-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/mcp/uk-power-networks-mcp.yml
+  href: https://artifacts.apis.io/uk-power-networks/mcp/uk-power-networks-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/uk-power-networks-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/llms/uk-power-networks-llms.txt
+  href: https://artifacts.apis.io/uk-power-networks/llms/uk-power-networks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uk-power-networks-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/conformance/uk-power-networks-conformance.yml
+  href: https://artifacts.apis.io/uk-power-networks/conformance/uk-power-networks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uk-power-networks-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/errors/uk-power-networks-problem-types.yml
+  href: https://artifacts.apis.io/uk-power-networks/errors/uk-power-networks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/uk-power-networks-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/lifecycle/uk-power-networks-lifecycle.yml
+  href: https://artifacts.apis.io/uk-power-networks/lifecycle/uk-power-networks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uk-power-networks-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/lifecycle/uk-power-networks-lifecycle.yml
+  href: https://artifacts.apis.io/uk-power-networks/lifecycle/uk-power-networks-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/uk-power-networks-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/conventions/uk-power-networks-conventions.yml
+  href: https://artifacts.apis.io/uk-power-networks/conventions/uk-power-networks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/uk-power-networks-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/conventions/uk-power-networks-conventions.yml
+  href: https://artifacts.apis.io/uk-power-networks/conventions/uk-power-networks-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/uk-power-networks-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/changelog/uk-power-networks-changelog.yml
+  href: https://artifacts.apis.io/uk-power-networks/changelog/uk-power-networks-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/uk-power-networks-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/cli/uk-power-networks-cli.yml
+  href: https://artifacts.apis.io/uk-power-networks/cli/uk-power-networks-cli.yml
   title: ''
   type: CLI
   url: cli/uk-power-networks-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/data-model/uk-power-networks-data-model.yml
+  href: https://artifacts.apis.io/uk-power-networks/data-model/uk-power-networks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/uk-power-networks-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/rate-limits/uk-power-networks-rate-limits.yml
+  href: https://artifacts.apis.io/uk-power-networks/rate-limits/uk-power-networks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/uk-power-networks-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/vocabulary/uk-power-networks-business-glossary.yml
+  href: https://artifacts.apis.io/uk-power-networks/vocabulary/uk-power-networks-business-glossary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/uk-power-networks-business-glossary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/uk-power-networks/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/security/uk-power-networks-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/uk-power-networks/security/uk-power-networks-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/uk-power-networks-vulnerability-disclosure.yml
@@ -262,7 +264,7 @@ common:
   type: Security
   url: https://github.com/UKPN-DSO/ukpyn/blob/main/SECURITY.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/uk-power-networks/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -335,29 +337,29 @@ overview: 'UK Power Networks publishes 2 API contracts indexed on the [APIs.io](
 
 
   UK Power Networks'' developer surface includes authentication, developer portal, documentation, developer console, signup flow, SDKs, changelog, and 47 more developer resources.'
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Uk Power Networks Rate Limits
   slug: uk-power-networks-rate-limits
 score:
   band: strong
-  composite: 62.3
+  composite: 61.4
   coverage:
     artifact_dirs: 24
-    catalog_earned: 53.0
+    catalog_earned: 50.0
     catalog_earned_first_party: 13.0
-    catalog_gap: 62.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
     access_clarity: 42.1
     contract_governance: 33.3
     contract_quality: 54.2
     developer_ergonomics: 87.5
-    discoverability: 78.6
-    operational_transparency: 57.9
+    discoverability: 66.1
+    operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -366,7 +368,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 61.7
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -383,14 +385,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 36.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/screenshots/uk-power-networks-2026-08-17T082541.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/uk-power-networks/uk-power-networks-2026-08-17T082541.png
 security:
 - kind: authentication
   name: Uk Power Networks Authentication
@@ -404,6 +406,16 @@ security:
   name: Uk Power Networks Vulnerability Disclosure
   slug: uk-power-networks-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 4
+skills:
+- name: Discover UK Power Networks datasets and resolve their field schema
+  slug: uk-power-networks-discover-datasets
+- name: Bulk-export a UK Power Networks dataset
+  slug: uk-power-networks-export-dataset
+- name: Harvest the UK Power Networks catalogue as DCAT-AP
+  slug: uk-power-networks-harvest-catalogue
+- name: Query and aggregate UK Power Networks dataset records
+  slug: uk-power-networks-query-records
 slug: uk-power-networks
 tags:
 - Energy

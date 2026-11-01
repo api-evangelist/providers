@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'REST API (V2) enabling approved broker and referral partners to submit loan applications, upload supporting documentation, receive webhook-based status updates, identify outstanding stipulations, and '
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credibly/refs/heads/main/security/credibly-domain-security.yml
+  href: https://artifacts.apis.io/credibly/security/credibly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/credibly-domain-security.yml
@@ -79,17 +81,17 @@ common:
   type: Contact
   url: https://www.credibly.com/contact/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/credibly/refs/heads/main/plans/credibly-plans-pricing.yml
+  href: https://artifacts.apis.io/credibly/plans/credibly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/credibly-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/credibly/refs/heads/main/rate-limits/credibly-rate-limits.yml
+  href: https://artifacts.apis.io/credibly/rate-limits/credibly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/credibly-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/credibly/refs/heads/main/finops/credibly-finops.yml
+  href: https://artifacts.apis.io/credibly/finops/credibly-finops.yml
   title: ''
   type: FinOps
   url: finops/credibly-finops.yml
@@ -117,14 +119,14 @@ plans:
 - name: Credibly Plans Pricing
   plan_count: 7
   slug: credibly-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Credibly Rate Limits
   slug: credibly-rate-limits
 score:
   band: minimal
-  composite: 6.1
+  composite: 10.6
   coverage:
     artifact_dirs: 8
     catalog_earned: 40.0
@@ -132,29 +134,29 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 11.7
+  previous_composite: 10.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/credibly/refs/heads/main/screenshots/credibly-2026-06-20T175222.png
+screenshot: https://apis.io/screenshots/credibly/credibly-2026-06-20T175222.png
 security:
 - kind: domain-security
   name: Credibly Domain Security

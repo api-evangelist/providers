@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'Live OAI-PMH 2.0 harvesting interface for the TU/e Research Portal, served by Elsevier Pure at TU/e''s own pure.tue.nl. Verified with a real harvest, not link presence: verb=Identify returns repository'
@@ -96,37 +98,37 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/eindhoven-university-of-technology/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/security/eindhoven-university-of-technology-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/eindhoven-university-of-technology/security/eindhoven-university-of-technology-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/eindhoven-university-of-technology-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/security/eindhoven-university-of-technology-domain-security.yml
+  href: https://artifacts.apis.io/eindhoven-university-of-technology/security/eindhoven-university-of-technology-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eindhoven-university-of-technology-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/conformance/eindhoven-university-of-technology-conformance.yml
+  href: https://artifacts.apis.io/eindhoven-university-of-technology/conformance/eindhoven-university-of-technology-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eindhoven-university-of-technology-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/plans/eindhoven-university-of-technology-plans-pricing.yml
+  href: https://artifacts.apis.io/eindhoven-university-of-technology/plans/eindhoven-university-of-technology-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eindhoven-university-of-technology-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/rate-limits/eindhoven-university-of-technology-rate-limits.yml
+  href: https://artifacts.apis.io/eindhoven-university-of-technology/rate-limits/eindhoven-university-of-technology-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eindhoven-university-of-technology-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/finops/eindhoven-university-of-technology-finops.yml
+  href: https://artifacts.apis.io/eindhoven-university-of-technology/finops/eindhoven-university-of-technology-finops.yml
   title: ''
   type: FinOps
   url: finops/eindhoven-university-of-technology-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/eindhoven-university-of-technology/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -183,7 +185,7 @@ coverage:
   - note: Course catalog is a rendered web guide; /api and /openapi.json both 404. No public course API.
     status: 200
     url: https://educationguide.tue.nl/
-  reason: tenant_only
+  reason: tenant-only
   state: none
 created: '2026-06-03'
 description: 'Eindhoven University of Technology (TU/e) is a public technical university in Eindhoven, the Netherlands, and one of the four institutions of the 4TU federation. It operates no public developer portal, publishes no institution-authored API contract, and offers no self-serve API keys — and this profile says so rather than padding the gap. Everything machine-readable that carries the TU/e name is a deployment of somebody else''s software: the TU/e Research Portal and its Pure Web Service REST API are Elsevier Pure 5.35.x running at pure.tue.nl, the student mobile app at osiris.tue.nl is Caci Osiris, library discovery is OCLC WorldCat, and research datasets are minted through the 4TU.ResearchData Figshare consortium. What TU/e genuinely operates on its own domain is narrower and real: a live, fully conformant OAI-PMH 2.0 harvesting endpoint at pure.tue.nl/ws/oai serving seven metadata formats and the OpenAIRE CERIF 1.2 CRIS profile, and a SAML 2.0 identity-provider entity registered
@@ -210,14 +212,14 @@ plans:
 - name: Eindhoven University Of Technology Plans Pricing
   plan_count: 2
   slug: eindhoven-university-of-technology-plans-pricing
-random_paper: 16
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Eindhoven University Of Technology Rate Limits
   slug: eindhoven-university-of-technology-rate-limits
 score:
   band: emerging
-  composite: 16.7
+  composite: 18.4
   coverage:
     artifact_dirs: 10
     catalog_earned: 44.0
@@ -225,14 +227,14 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 1.9
     developer_ergonomics: 9.5
     discoverability: 71.4
-    operational_transparency: 7.9
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -241,7 +243,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 22.8
+  previous_composite: 18.4
   provenance:
     conformance: first-party
   regulatory:
@@ -250,14 +252,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/screenshots/eindhoven-university-of-technology-2026-06-20T180525.png
+screenshot: https://apis.io/screenshots/eindhoven-university-of-technology/eindhoven-university-of-technology-2026-06-20T180525.png
 security:
 - kind: domain-security
   name: Eindhoven University Of Technology Domain Security

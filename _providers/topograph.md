@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 56.7
-  scored_at: '2026-10-17'
+  score: 52.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 9
@@ -86,15 +88,12 @@ arazzos:
 - description: Search for a company, request its data and documents, then poll for the result.
   name: Resolve a company and retrieve KYB data
   slug: topograph-resolve-and-retrieve
-artifact_total: 24
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Topograph Monitoring Webhooks
   slug: topograph-monitoring-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Topograph Billing API
   slug: open-topograph-billing-api
@@ -166,67 +165,67 @@ common:
   type: Website
   url: http://topograph.co
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/mcp/topograph-mcp.yml
+  href: https://artifacts.apis.io/topograph/mcp/topograph-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/topograph-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/well-known/topograph-well-known.yml
+  href: https://artifacts.apis.io/topograph/well-known/topograph-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/topograph-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/llms/topograph-llms.txt
+  href: https://artifacts.apis.io/topograph/llms/topograph-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/topograph-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/overlays/topograph-openapi-overlay.yaml
+  href: https://artifacts.apis.io/topograph/overlays/topograph-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/topograph-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/authentication/topograph-authentication.yml
+  href: https://artifacts.apis.io/topograph/authentication/topograph-authentication.yml
   title: ''
   type: Authentication
   url: authentication/topograph-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/scopes/topograph-scopes.yml
+  href: https://artifacts.apis.io/topograph/scopes/topograph-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/topograph-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/conventions/topograph-conventions.yml
+  href: https://artifacts.apis.io/topograph/conventions/topograph-conventions.yml
   title: ''
   type: Conventions
   url: conventions/topograph-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/conventions/topograph-conventions.yml
+  href: https://artifacts.apis.io/topograph/conventions/topograph-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/topograph-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/errors/topograph-problem-types.yml
+  href: https://artifacts.apis.io/topograph/errors/topograph-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/topograph-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/data-model/topograph-data-model.yml
+  href: https://artifacts.apis.io/topograph/data-model/topograph-data-model.yml
   title: ''
   type: DataModel
   url: data-model/topograph-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/conformance/topograph-conformance.yml
+  href: https://artifacts.apis.io/topograph/conformance/topograph-conformance.yml
   title: ''
   type: Conformance
   url: conformance/topograph-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/security/topograph-trust-center.yml
+  href: https://artifacts.apis.io/topograph/security/topograph-trust-center.yml
   title: ''
   type: Compliance
   url: security/topograph-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/lifecycle/topograph-lifecycle.yml
+  href: https://artifacts.apis.io/topograph/lifecycle/topograph-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/topograph-lifecycle.yml
@@ -235,47 +234,47 @@ common:
   type: StatusPage
   url: https://status.topograph.co/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/lifecycle/topograph-lifecycle.yml
+  href: https://artifacts.apis.io/topograph/lifecycle/topograph-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/topograph-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/changelog/topograph-changelog.yml
+  href: https://artifacts.apis.io/topograph/changelog/topograph-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/topograph-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/asyncapi/topograph-monitoring-webhooks.yml
+  href: https://artifacts.apis.io/topograph/asyncapi/topograph-monitoring-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/topograph-monitoring-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/topograph/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/arazzo/topograph-resolve-and-retrieve.yml
+  href: https://artifacts.apis.io/topograph/arazzo/topograph-resolve-and-retrieve.yml
   title: ''
   type: Arazzo
   url: arazzo/topograph-resolve-and-retrieve.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/arazzo/topograph-monitor-company.yml
+  href: https://artifacts.apis.io/topograph/arazzo/topograph-monitor-company.yml
   title: ''
   type: Arazzo
   url: arazzo/topograph-monitor-company.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/agentic-access/topograph-agentic-access.yml
+  href: https://artifacts.apis.io/topograph/agentic-access/topograph-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/topograph-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/security/topograph-trust-center.yml
+  href: https://artifacts.apis.io/topograph/security/topograph-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/topograph-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/security/topograph-domain-security.yml
+  href: https://artifacts.apis.io/topograph/security/topograph-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/topograph-domain-security.yml
@@ -298,7 +297,7 @@ overview: 'Topograph publishes 7 API contracts indexed on the [APIs.io](https://
 
 
   Topograph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 28 more developer resources.'
-random_paper: 12
+random_paper: 20
 scopes:
 - name: Topograph Scopes
   scope_count: 7
@@ -306,7 +305,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode/refreshToken
 score:
   band: strong
-  composite: 56.8
+  composite: 54.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -318,11 +317,11 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 55.8
+    contract_quality: 53.3
     developer_ergonomics: 54.2
-    discoverability: 75.0
-    operational_transparency: 39.5
-  previous_composite: 56.8
+    discoverability: 65.0
+    operational_transparency: 47.4
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -343,13 +342,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/screenshots/topograph-2026-08-17T082408.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/topograph/topograph-2026-08-17T082408.png
 security:
 - kind: authentication
   name: Topograph Authentication
@@ -363,6 +363,14 @@ security:
   name: Topograph Trust Center
   slug: topograph-trust-center
   summary_line: ISO 27001:2022, SOC 2 Type 2, Penetration test certification
+skill_count: 3
+skills:
+- name: Monitor a company for register changes
+  slug: topograph-monitor-company
+- name: Retrieve ownership, UBOs and subsidiaries
+  slug: topograph-ownership-graph
+- name: Resolve a company and retrieve KYB data
+  slug: topograph-search-and-retrieve
 slug: topograph
 tags:
 - Company

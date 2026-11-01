@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.5
-  scored_at: '2026-10-17'
+  score: 44.7
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.color.com/api/v1/external
@@ -54,14 +56,10 @@ apis:
   description: 'Lab/LIMS sample lifecycle: accession, result reporting, destruction.'
   name: Color Samples API
   slug: color-samples-api
-artifact_total: 10
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
+artifact_total: 14
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/rate-limits/color-rate-limits.yml
+  href: https://artifacts.apis.io/color/rate-limits/color-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/color-rate-limits.yml
@@ -74,17 +72,17 @@ common:
   type: Interoperability
   url: https://www.redoxengine.com/healthcare-product/color/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/capabilities/color-capability-edges.yml
+  href: https://artifacts.apis.io/color/capabilities/color-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/color-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/overlays/color-external-api-v1-overlay.yaml
+  href: https://artifacts.apis.io/color/overlays/color-external-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/color-external-api-v1-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/security/color-trust-center.yml
+  href: https://artifacts.apis.io/color/security/color-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/color-trust-center.yml
@@ -93,22 +91,22 @@ common:
   type: Compliance
   url: https://security.color.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/conformance/color-conformance.yml
+  href: https://artifacts.apis.io/color/conformance/color-conformance.yml
   title: ''
   type: Conformance
   url: conformance/color-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/security/color-domain-security.yml
+  href: https://artifacts.apis.io/color/security/color-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/color-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/security/color-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/color/security/color-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/color-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/security/color-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/color/security/color-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/color-vulnerability-disclosure.yml
@@ -161,72 +159,80 @@ common:
   type: Website
   url: https://www.color.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/authentication/color-authentication.yml
+  href: https://artifacts.apis.io/color/authentication/color-authentication.yml
   title: ''
   type: Authentication
   url: authentication/color-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/conventions/color-conventions.yml
+  href: https://artifacts.apis.io/color/conventions/color-conventions.yml
   title: ''
   type: Conventions
   url: conventions/color-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/conventions/color-conventions.yml
+  href: https://artifacts.apis.io/color/conventions/color-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/color-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/errors/color-problem-types.yml
+  href: https://artifacts.apis.io/color/errors/color-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/color-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/data-model/color-data-model.yml
+  href: https://artifacts.apis.io/color/data-model/color-data-model.yml
   title: ''
   type: DataModel
   url: data-model/color-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/lifecycle/color-lifecycle.yml
+  href: https://artifacts.apis.io/color/lifecycle/color-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/color-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/changelog/color-changelog.yml
+  href: https://artifacts.apis.io/color/changelog/color-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/color-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/sandbox/color-sandbox.yml
+  href: https://artifacts.apis.io/color/sandbox/color-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/color-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/packages/color-packages.yml
+  href: https://artifacts.apis.io/color/packages/color-packages.yml
   title: ''
   type: Packages
   url: packages/color-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/plans/color-plans-pricing.yml
+  href: https://artifacts.apis.io/color/plans/color-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/color-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/mcp/color-mcp.yml
+  href: https://artifacts.apis.io/color/mcp/color-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/color-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/llms/color-llms.txt
+  href: https://artifacts.apis.io/color/llms/color-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/color-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/color/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Color Health is an oncologist-led virtual cancer care company that provides screening, early detection, diagnosis, treatment guidance, and survivorship support to employers, health plans, unions, consultants, and public-sector organizations. Originally founded as a genomics testing company (Color Genomics), Color now operates a virtual clinical platform combining at-home testing kits, preventive health programs, and AI-assisted cancer care. For integration partners Color publishes an External API V1 at api.color.com/api/v1/external — 13 operations across eligibility entries, population reporting (participants, samples, results, self-reported results) and a lab/LIMS sample lifecycle — documented at docs.color.com/reference, alongside SAML-based SSO and SFTP/PGP file transfer for eligibility, claims, and member-event data.
+finops:
+- has_sources: true
+  method: derived
+  name: Color Finops
+  primary_unit: ''
+  service_category: ''
+  slug: color-finops
+  template: true
 image: https://www.color.com/wp-content/uploads/2021/02/Wordmark_Color_RGB.png
 layout: provider
 modified: '2026-08-15'
@@ -248,23 +254,23 @@ rate_limits:
   slug: color-rate-limits
 score:
   band: developing
-  composite: 49.1
+  composite: 51.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 48.9
-    developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 49.0
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 51.5
   provenance:
     conformance: first-party
     contracts:
@@ -286,13 +292,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/screenshots/color-2026-07-25T210056.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/color/color-2026-07-25T210056.png
 security:
 - kind: authentication
   name: Color Authentication
@@ -310,6 +317,16 @@ security:
   name: Color Trust Center
   slug: color-trust-center
   summary_line: SOC 2, SOC 2 Type II, HIPAA, ISO 27001:2013, CSA STAR, CCPA, FISMA Moderate
+skill_count: 4
+skills:
+- name: Manage Color eligibility entries one at a time
+  slug: color-eligibility-entry-management
+- name: Upload a Color eligibility file
+  slug: color-eligibility-upload
+- name: Report lab sample events to Color (LIMS integration)
+  slug: color-lab-sample-lifecycle
+- name: Pull participant, sample and result data for a Color population
+  slug: color-population-reporting
 slug: color
 tags:
 - Company

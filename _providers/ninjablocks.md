@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Historical RESTful API for the Ninja Blocks IoT platform, used to read device/sensor data and actuate devices. No longer operational; documented here from surviving first-party client libraries.
@@ -61,17 +63,17 @@ common:
   type: SourceCode
   url: https://github.com/ninjablocks
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ninjablocks/refs/heads/main/packages/ninjablocks-packages.yml
+  href: https://artifacts.apis.io/ninjablocks/packages/ninjablocks-packages.yml
   title: ''
   type: SDKs
   url: packages/ninjablocks-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ninjablocks/refs/heads/main/packages/ninjablocks-packages.yml
+  href: https://artifacts.apis.io/ninjablocks/packages/ninjablocks-packages.yml
   title: ''
   type: Packages
   url: packages/ninjablocks-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ninjablocks/refs/heads/main/cli/ninjablocks-cli.yml
+  href: https://artifacts.apis.io/ninjablocks/cli/ninjablocks-cli.yml
   title: ''
   type: CLI
   url: cli/ninjablocks-cli.yml
@@ -87,12 +89,12 @@ overview: 'NinjaBlocks is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   NinjaBlocks'' developer surface includes CLI and 7 more developer resources.'
-random_paper: 0
+random_paper: 14
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -112,12 +114,6 @@ score:
     - australia
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   lifecycle: defunct
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 0.0
   regulatory:
     applies: true
@@ -125,14 +121,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ninjablocks/refs/heads/main/screenshots/ninjablocks-2026-08-07T185322.png
+screenshot: https://apis.io/screenshots/ninjablocks/ninjablocks-2026-08-07T185322.png
 slug: ninjablocks
 tags:
 - Company

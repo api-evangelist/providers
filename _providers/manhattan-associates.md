@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.5
-  scored_at: '2026-10-17'
+  score: 25.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -83,11 +85,8 @@ apis:
   description: Return and exchange processing
   name: manhattan-associates Returns API
   slug: manhattan-associates-returns-api
-artifact_total: 61
+artifact_total: 60
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Manhattan Active Omni Order Management Inbound API
   slug: open-manhattan-associates-inbound-api
@@ -114,42 +113,42 @@ collections:
   slug: open-manhattan-associates-wms
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/plans/manhattan-associates-plans-pricing.yml
+  href: https://artifacts.apis.io/manhattan-associates/plans/manhattan-associates-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/manhattan-associates-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/rate-limits/manhattan-associates-rate-limits.yml
+  href: https://artifacts.apis.io/manhattan-associates/rate-limits/manhattan-associates-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/manhattan-associates-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/finops/manhattan-associates-finops.yml
+  href: https://artifacts.apis.io/manhattan-associates/finops/manhattan-associates-finops.yml
   title: ''
   type: FinOps
   url: finops/manhattan-associates-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/capabilities/manhattan-associates-capability-edges.yml
+  href: https://artifacts.apis.io/manhattan-associates/capabilities/manhattan-associates-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/manhattan-associates-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/agentic-access/manhattan-associates-agentic-access.yml
+  href: https://artifacts.apis.io/manhattan-associates/agentic-access/manhattan-associates-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/manhattan-associates-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/security/manhattan-associates-domain-security.yml
+  href: https://artifacts.apis.io/manhattan-associates/security/manhattan-associates-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/manhattan-associates-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/authentication/manhattan-associates-authentication.yml
+  href: https://artifacts.apis.io/manhattan-associates/authentication/manhattan-associates-authentication.yml
   title: ''
   type: Authentication
   url: authentication/manhattan-associates-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/scopes/manhattan-associates-scopes.yml
+  href: https://artifacts.apis.io/manhattan-associates/scopes/manhattan-associates-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/manhattan-associates-scopes.yml
@@ -344,7 +343,7 @@ plans:
 - name: Manhattan Associates Plans Pricing
   plan_count: 2
   slug: manhattan-associates-plans-pricing
-random_paper: 4
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Manhattan Associates Rate Limits
@@ -367,8 +366,8 @@ scopes:
   slug: manhattan-associates-scopes
   summary_line: 5 scopes · clientCredentials
 score:
-  band: thin
-  composite: 38.0
+  band: developing
+  composite: 40.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 52.7
@@ -376,15 +375,15 @@ score:
     catalog_gap: 62.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 61.8
-    developer_ergonomics: 40.5
+    developer_ergonomics: 50.0
     discoverability: 51.8
     operational_transparency: 5.3
-  previous_composite: 39.5
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -398,13 +397,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/screenshots/manhattan-associates-2026-06-20T184920.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/manhattan-associates/manhattan-associates-2026-06-20T184920.png
 security:
 - kind: authentication
   name: Manhattan Associates Authentication

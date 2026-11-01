@@ -26,15 +26,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 26.9
+  scored_at: '2026-10-31'
+api_count: 3
 apis:
 - description: OAuth 2.0 authorization-code API giving partners full access to Altruist custody data — accounts, households, positions, transactions, and cost basis — for advisor tools, reporting, and reconciliation
   name: Altruist Open API
@@ -217,8 +219,13 @@ apis:
   description: User profile management
   name: Altruist User Profile API
   slug: altruist-user-profile-api
-artifact_total: 41
+artifact_total: 44
 common:
+- group: commercial
+  href: https://artifacts.apis.io/altruist/plans/altruist-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/altruist-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -244,22 +251,22 @@ common:
   type: GettingStarted
   url: https://developer.altruist.com/docs/getting-started-with-open-api
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/authentication/altruist-authentication.yml
+  href: https://artifacts.apis.io/altruist/authentication/altruist-authentication.yml
   title: ''
   type: Authentication
   url: authentication/altruist-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/scopes/altruist-scopes.yml
+  href: https://artifacts.apis.io/altruist/scopes/altruist-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/altruist-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/errors/altruist-error-codes.yml
+  href: https://artifacts.apis.io/altruist/errors/altruist-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/altruist-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/lifecycle/altruist-lifecycle.yml
+  href: https://artifacts.apis.io/altruist/lifecycle/altruist-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/altruist-lifecycle.yml
@@ -272,12 +279,12 @@ common:
   type: Deprecation
   url: https://developer.altruist.com/docs/deprecation-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/conventions/altruist-conventions.yml
+  href: https://artifacts.apis.io/altruist/conventions/altruist-conventions.yml
   title: ''
   type: Conventions
   url: conventions/altruist-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/conformance/altruist-conformance.yml
+  href: https://artifacts.apis.io/altruist/conformance/altruist-conformance.yml
   title: ''
   type: Conformance
   url: conformance/altruist-conformance.yml
@@ -286,12 +293,12 @@ common:
   type: Compliance
   url: https://trust.altruist.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/security/altruist-trust-center.yml
+  href: https://artifacts.apis.io/altruist/security/altruist-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/altruist-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/security/altruist-domain-security.yml
+  href: https://artifacts.apis.io/altruist/security/altruist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/altruist-domain-security.yml
@@ -300,27 +307,27 @@ common:
   type: Security
   url: https://altruist.com/legal/security/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/changelog/altruist-changelog.yml
+  href: https://artifacts.apis.io/altruist/changelog/altruist-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/altruist-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/sandbox/altruist-sandbox.yml
+  href: https://artifacts.apis.io/altruist/sandbox/altruist-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/altruist-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/well-known/altruist-well-known.yml
+  href: https://artifacts.apis.io/altruist/well-known/altruist-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/altruist-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/mcp/altruist-mcp.yml
+  href: https://artifacts.apis.io/altruist/mcp/altruist-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/altruist-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/llms/altruist-llms.txt
+  href: https://artifacts.apis.io/altruist/llms/altruist-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/altruist-llms.txt
@@ -350,6 +357,14 @@ common:
   url: https://altruist.com/legal/privacy-policy/
 created: '2026-07-17'
 description: Altruist is a modern, vertically integrated RIA custodian and technology platform for independent financial advisors. It combines self-clearing custody infrastructure with software for digital account opening, fractional model-based trading, rebalancing, tax management, fee billing, and performance reporting in a single workspace. Altruist runs a developer program with an OAuth 2.0 Open API (accounts, households, positions, transactions, cost basis), a Realtime API (account onboarding, funding, transfers, contacts, bank-link, time-weighted return), and custodial flat-file (SFTP) data feeds, so advisor tools and fintech partners such as Orion, Tamarac, Black Diamond, and Advyzon can integrate directly with the custodian. Backed by ICONIQ Capital and Insight Partners.
+finops:
+- has_sources: true
+  method: derived
+  name: Altruist Finops
+  primary_unit: seat
+  service_category: ''
+  slug: altruist-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/altruist.png
 layout: provider
 modified: '2026-10-06'
@@ -359,39 +374,46 @@ network: true
 overview: 'Altruist publishes 37 API contracts indexed on the [APIs.io](https://apis.io/) network, including ACAT Transfers API, Account API, Account Balance API, and 34 more. Tagged areas include Company, Fintech, Custody, Wealth Management, and Financial Advisors.
 
 
-  Altruist''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 22 more developer resources.'
-random_paper: 8
+  Altruist''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 23 more developer resources.'
+plans:
+- name: Altruist Plans Pricing
+  plan_count: 4
+  slug: altruist-plans-pricing
+- name: Altruist Price Estimates
+  plan_count: 0
+  slug: altruist-price-estimates
+random_paper: 0
 scopes:
 - name: Altruist Scopes
   scope_count: 1
   slug: altruist-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 53.1
+  band: strong
+  composite: 64.1
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 19
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 11.2
+  delta: 8.4
   facets:
-    access_clarity: 47.4
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 47.2
     developer_ergonomics: 64.3
-    discoverability: 73.2
+    discoverability: 71.4
     operational_transparency: 50.0
-  previous_composite: 41.9
+  previous_composite: 55.7
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
-      total: 35
+      marker_coverage: 18.9
+      total: 37
     mcp: derived
   regulatory:
     applies: true
@@ -399,13 +421,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/altruist/refs/heads/main/screenshots/altruist-2026-07-25T195845.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/altruist/altruist-2026-07-25T195845.png
 security:
 - kind: authentication
   name: Altruist Authentication

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,18 +37,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: JupiterOne's public GraphQL API for querying the security asset graph with J1QL, managing entities and relationships, running alert rules, ingesting data via sync jobs, and administering integrations,
   name: JupiterOne GraphQL API
   slug: jupiterone-graphql-api
-artifact_total: 8
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Jupiterone Webhooks
   slug: jupiterone-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/jupiterone/plans/jupiterone-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/jupiterone-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -72,7 +79,7 @@ common:
   type: GettingStarted
   url: https://docs.jupiterone.io/reference
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/authentication/jupiterone-authentication.yml
+  href: https://artifacts.apis.io/jupiterone/authentication/jupiterone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jupiterone-authentication.yml
@@ -101,42 +108,42 @@ common:
   type: TermsOfService
   url: https://www.jupiterone.com/terms-of-use
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/packages/jupiterone-packages.yml
+  href: https://artifacts.apis.io/jupiterone/packages/jupiterone-packages.yml
   title: ''
   type: Packages
   url: packages/jupiterone-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/packages/jupiterone-packages.yml
+  href: https://artifacts.apis.io/jupiterone/packages/jupiterone-packages.yml
   title: ''
   type: SDKs
   url: packages/jupiterone-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/cli/jupiterone-cli.yml
+  href: https://artifacts.apis.io/jupiterone/cli/jupiterone-cli.yml
   title: ''
   type: CLI
   url: cli/jupiterone-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/mcp/jupiterone-mcp.yml
+  href: https://artifacts.apis.io/jupiterone/mcp/jupiterone-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jupiterone-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/llms/jupiterone-llms.txt
+  href: https://artifacts.apis.io/jupiterone/llms/jupiterone-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jupiterone-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/conventions/jupiterone-conventions.yml
+  href: https://artifacts.apis.io/jupiterone/conventions/jupiterone-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jupiterone-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/rate-limits/jupiterone-rate-limits.yml
+  href: https://artifacts.apis.io/jupiterone/rate-limits/jupiterone-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jupiterone-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/lifecycle/jupiterone-lifecycle.yml
+  href: https://artifacts.apis.io/jupiterone/lifecycle/jupiterone-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jupiterone-lifecycle.yml
@@ -145,17 +152,17 @@ common:
   type: StatusPage
   url: https://status.jupiterone.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/changelog/jupiterone-changelog.yml
+  href: https://artifacts.apis.io/jupiterone/changelog/jupiterone-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/jupiterone-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/asyncapi/jupiterone-webhooks.yml
+  href: https://artifacts.apis.io/jupiterone/asyncapi/jupiterone-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/jupiterone-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/conformance/jupiterone-conformance.yml
+  href: https://artifacts.apis.io/jupiterone/conformance/jupiterone-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jupiterone-conformance.yml
@@ -164,27 +171,35 @@ common:
   type: Compliance
   url: https://www.jupiterone.com/compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/security/jupiterone-trust-center.yml
+  href: https://artifacts.apis.io/jupiterone/security/jupiterone-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/jupiterone-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/security/jupiterone-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/jupiterone/security/jupiterone-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jupiterone-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/security/jupiterone-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/jupiterone/security/jupiterone-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/jupiterone-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/security/jupiterone-domain-security.yml
+  href: https://artifacts.apis.io/jupiterone/security/jupiterone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jupiterone-domain-security.yml
 created: '2026-07-17'
 description: JupiterOne is a cyber asset attack surface management (CAASM) and security asset intelligence platform that maps an organization's entire digital environment — cloud resources, devices, users, code repositories, findings, and the relationships between them — into a single queryable graph. Its public GraphQL API and the J1QL query language let teams query the graph, create and mutate entities and relationships, ingest data through sync jobs, run alert rules with webhook/SNS/SQS/Slack/Jira actions, manage IAM and questions, and automate compliance evidence collection. JupiterOne was founded in 2018 and is headquartered in Morrisville, North Carolina.
+finops:
+- has_sources: true
+  method: derived
+  name: Jupiterone Finops
+  primary_unit: 12 months
+  service_category: ''
+  slug: jupiterone-finops
+  template: false
 image: https://avatars.githubusercontent.com/u/44646512?s=200&v=4
 layout: provider
 mcp_servers:
@@ -201,30 +216,37 @@ overview: 'JupiterOne is listed with 1 API on the [APIs.io](https://apis.io/) ne
   The JupiterOne catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  JupiterOne''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 23 more developer resources.'
-random_paper: 15
+  JupiterOne''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 24 more developer resources.'
+plans:
+- name: Jupiterone Plans Pricing
+  plan_count: 4
+  slug: jupiterone-plans-pricing
+- name: Jupiterone Price Estimates
+  plan_count: 0
+  slug: jupiterone-price-estimates
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Jupiterone Rate Limits
   slug: jupiterone-rate-limits
 score:
   band: strong
-  composite: 55.9
+  composite: 64.4
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 20
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 47.4
+    access_clarity: 86.8
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 66.7
-    discoverability: 71.7
-    operational_transparency: 84.2
+    developer_ergonomics: 71.4
+    discoverability: 65.0
+    operational_transparency: 86.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -232,7 +254,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 55.8
+  previous_composite: 56.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -242,14 +264,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/screenshots/jupiterone-2026-07-25T223332.png
+screenshot: https://apis.io/screenshots/jupiterone/jupiterone-2026-07-25T223332.png
 security:
 - kind: authentication
   name: Jupiterone Authentication

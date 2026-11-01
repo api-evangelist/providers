@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.0
-  scored_at: '2026-10-17'
+  score: 38.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -175,7 +177,7 @@ apis:
     question: Can I see public stats for another brand's Instagram business account?
   phrasing_ops: 2
   slug: instagram-users-api
-artifact_total: 97
+artifact_total: 100
 asyncapis:
 - description: ''
   name: Instagram Webhooks
@@ -202,9 +204,6 @@ collections:
 - collection_type: postman
   name: Instagram Graph Comments Users API
   slug: postman-instagram-users-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Instagram Graph Comments API
   slug: open-instagram-comments-api
@@ -236,7 +235,7 @@ common:
   type: Website
   url: https://www.instagram.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/capabilities/instagram-capability-edges.yml
+  href: https://artifacts.apis.io/instagram/capabilities/instagram-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/instagram-capability-edges.yml
@@ -245,22 +244,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/instagram/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/agentic-access/instagram-agentic-access.yml
+  href: https://artifacts.apis.io/instagram/agentic-access/instagram-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/instagram-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/security/instagram-domain-security.yml
+  href: https://artifacts.apis.io/instagram/security/instagram-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/instagram-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/authentication/instagram-authentication.yml
+  href: https://artifacts.apis.io/instagram/authentication/instagram-authentication.yml
   title: ''
   type: Authentication
   url: authentication/instagram-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/scopes/instagram-scopes.yml
+  href: https://artifacts.apis.io/instagram/scopes/instagram-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/instagram-scopes.yml
@@ -321,162 +320,162 @@ common:
   type: Login
   url: https://developers.facebook.com/apps/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/packages/instagram-packages.yml
+  href: https://artifacts.apis.io/instagram/packages/instagram-packages.yml
   title: ''
   type: Packages
   url: packages/instagram-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/packages/instagram-packages.yml
+  href: https://artifacts.apis.io/instagram/packages/instagram-packages.yml
   title: ''
   type: SDKs
   url: packages/instagram-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/well-known/instagram-well-known.yml
+  href: https://artifacts.apis.io/instagram/well-known/instagram-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/instagram-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/llms/instagram-llms.txt
+  href: https://artifacts.apis.io/instagram/llms/instagram-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/instagram-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/conformance/instagram-conformance.yml
+  href: https://artifacts.apis.io/instagram/conformance/instagram-conformance.yml
   title: ''
   type: Conformance
   url: conformance/instagram-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/errors/instagram-problem-types.yml
+  href: https://artifacts.apis.io/instagram/errors/instagram-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/instagram-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/lifecycle/instagram-lifecycle.yml
+  href: https://artifacts.apis.io/instagram/lifecycle/instagram-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/instagram-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/lifecycle/instagram-lifecycle.yml
+  href: https://artifacts.apis.io/instagram/lifecycle/instagram-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/instagram-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/conventions/instagram-conventions.yml
+  href: https://artifacts.apis.io/instagram/conventions/instagram-conventions.yml
   title: ''
   type: Conventions
   url: conventions/instagram-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/data-model/instagram-data-model.yml
+  href: https://artifacts.apis.io/instagram/data-model/instagram-data-model.yml
   title: ''
   type: DataModel
   url: data-model/instagram-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/components/instagram-components.yml
+  href: https://artifacts.apis.io/instagram/components/instagram-components.yml
   title: ''
   type: Components
   url: components/instagram-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/sandbox/instagram-sandbox.yml
+  href: https://artifacts.apis.io/instagram/sandbox/instagram-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/instagram-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/changelog/instagram-changelog.yml
+  href: https://artifacts.apis.io/instagram/changelog/instagram-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/instagram-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/asyncapi/instagram-webhooks.yml
+  href: https://artifacts.apis.io/instagram/asyncapi/instagram-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/instagram-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/instagram/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/security/instagram-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/instagram/security/instagram-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/instagram-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/security/instagram-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/instagram/security/instagram-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/instagram-vulnerability-disclosure.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/rate-limits/instagram-rate-limits.yml
+  href: https://artifacts.apis.io/instagram/rate-limits/instagram-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/instagram-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/plans/instagram-plans-pricing.yml
+  href: https://artifacts.apis.io/instagram/plans/instagram-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/instagram-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/finops/instagram-finops.yml
+  href: https://artifacts.apis.io/instagram/finops/instagram-finops.yml
   title: ''
   type: FinOps
   url: finops/instagram-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/vocabulary/instagram-vocabulary.yaml
+  href: https://artifacts.apis.io/instagram/vocabulary/instagram-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/instagram-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/rules/instagram-spectral-rules.yml
+  href: https://artifacts.apis.io/instagram/rules/instagram-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/instagram-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/json-ld/instagram-graph-api-context.jsonld
+  href: https://artifacts.apis.io/instagram/json-ld/instagram-graph-api-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/instagram-graph-api-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/json-schema/instagram-graph-api-media-schema.json
+  href: https://artifacts.apis.io/instagram/json-schema/instagram-graph-api-media-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/instagram-graph-api-media-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/json-schema/instagram-graph-api-comment-schema.json
+  href: https://artifacts.apis.io/instagram/json-schema/instagram-graph-api-comment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/instagram-graph-api-comment-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/json-schema/instagram-graph-api-user-schema.json
+  href: https://artifacts.apis.io/instagram/json-schema/instagram-graph-api-user-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/instagram-graph-api-user-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/json-schema/instagram-graph-api-error-response-schema.json
+  href: https://artifacts.apis.io/instagram/json-schema/instagram-graph-api-error-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/instagram-graph-api-error-response-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/json-structure/instagram-graph-api-media-structure.json
+  href: https://artifacts.apis.io/instagram/json-structure/instagram-graph-api-media-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/instagram-graph-api-media-structure.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/examples/instagram-graph-api-media-example.json
+  href: https://artifacts.apis.io/instagram/examples/instagram-graph-api-media-example.json
   title: ''
   type: Examples
   url: examples/instagram-graph-api-media-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/examples/instagram-graph-api-comment-example.json
+  href: https://artifacts.apis.io/instagram/examples/instagram-graph-api-comment-example.json
   title: ''
   type: Examples
   url: examples/instagram-graph-api-comment-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/examples/instagram-graph-api-error-response-example.json
+  href: https://artifacts.apis.io/instagram/examples/instagram-graph-api-error-response-example.json
   title: ''
   type: Examples
   url: examples/instagram-graph-api-error-response-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/collections/instagram-media-api.postman_collection.json
+  href: https://artifacts.apis.io/instagram/collections/instagram-media-api.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/instagram-media-api.postman_collection.json
@@ -543,12 +542,12 @@ features:
   name: Private Replies
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Instagram Finops
   primary_unit: ''
-  service_category: Social Media APIs
+  service_category: ''
   slug: instagram-finops
-  template: false
+  template: true
 image: /assets/icons/instagram.png
 integrations:
 - description: Unified management of Instagram and Facebook content, messaging, and advertising through the Meta platform.
@@ -648,7 +647,7 @@ plans:
 - name: Instagram Plans Pricing
   plan_count: 2
   slug: instagram-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 8
   name: Instagram Rate Limits
@@ -684,23 +683,23 @@ scopes:
   summary_line: 19 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.4
+  composite: 72.5
   coverage:
-    artifact_dirs: 35
+    artifact_dirs: 36
     catalog_earned: 77.0
     catalog_earned_first_party: 20.0
     catalog_gap: 38.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
-    access_clarity: 55.3
+    access_clarity: 65.8
     contract_governance: 45.5
     contract_quality: 65.1
     developer_ergonomics: 74.4
-    discoverability: 73.2
-    operational_transparency: 76.3
-  previous_composite: 66.8
+    discoverability: 66.1
+    operational_transparency: 94.7
+  previous_composite: 72.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -716,14 +715,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 40.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/screenshots/instagram-2026-06-20T183411.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/instagram/instagram-2026-06-20T183411.png
 security:
 - kind: authentication
   name: Instagram Authentication
@@ -737,6 +737,16 @@ security:
   name: Instagram Vulnerability Disclosure
   slug: instagram-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 4
+skills:
+- name: instagram-embed-content
+  slug: instagram-embed-content
+- name: instagram-moderate-comments
+  slug: instagram-moderate-comments
+- name: instagram-publish-media
+  slug: instagram-publish-media
+- name: instagram-read-insights
+  slug: instagram-read-insights
 slug: instagram
 solutions:
 - description: Native Instagram authentication for Business and Creator accounts with full API access.

@@ -24,22 +24,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 6.3
-  scored_at: '2026-10-17'
+  score: 9.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Single GraphQL endpoint for programmatic access to WisdomAI domains, tables, users, dashboards, and analytics data. Supports queries, mutations, and real-time WebSocket subscriptions. Tenant-scoped: r'
   name: WisdomAI GraphQL API
   slug: wisdomai-graphql-api
-artifact_total: 6
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -86,52 +88,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/datawisdomai
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/mcp/wisdom-ai-mcp.yml
+  href: https://artifacts.apis.io/wisdom-ai/mcp/wisdom-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/wisdom-ai-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/authentication/wisdom-ai-authentication.yml
+  href: https://artifacts.apis.io/wisdom-ai/authentication/wisdom-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wisdom-ai-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/packages/wisdom-ai-packages.yml
+  href: https://artifacts.apis.io/wisdom-ai/packages/wisdom-ai-packages.yml
   title: ''
   type: Packages
   url: packages/wisdom-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/packages/wisdom-ai-packages.yml
+  href: https://artifacts.apis.io/wisdom-ai/packages/wisdom-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/wisdom-ai-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/components/wisdom-ai-components.yml
+  href: https://artifacts.apis.io/wisdom-ai/components/wisdom-ai-components.yml
   title: ''
   type: Components
   url: components/wisdom-ai-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/errors/wisdom-ai-problem-types.yml
+  href: https://artifacts.apis.io/wisdom-ai/errors/wisdom-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wisdom-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/conventions/wisdom-ai-conventions.yml
+  href: https://artifacts.apis.io/wisdom-ai/conventions/wisdom-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wisdom-ai-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/changelog/wisdom-ai-changelog.yml
+  href: https://artifacts.apis.io/wisdom-ai/changelog/wisdom-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/wisdom-ai-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/lifecycle/wisdom-ai-lifecycle.yml
+  href: https://artifacts.apis.io/wisdom-ai/lifecycle/wisdom-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wisdom-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/conformance/wisdom-ai-conformance.yml
+  href: https://artifacts.apis.io/wisdom-ai/conformance/wisdom-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wisdom-ai-conformance.yml
@@ -148,32 +150,32 @@ common:
   type: Security
   url: https://docs.wisdom.ai/manage-account/compliance-and-best-practices
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/security/wisdom-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wisdom-ai/security/wisdom-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wisdom-ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/security/wisdom-ai-domain-security.yml
+  href: https://artifacts.apis.io/wisdom-ai/security/wisdom-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wisdom-ai-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/data-model/wisdom-ai-data-model.yml
+  href: https://artifacts.apis.io/wisdom-ai/data-model/wisdom-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wisdom-ai-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wisdom-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/llms/wisdom-ai-llms.txt
+  href: https://artifacts.apis.io/wisdom-ai/llms/wisdom-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wisdom-ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/well-known/wisdom-ai-well-known.yml
+  href: https://artifacts.apis.io/wisdom-ai/well-known/wisdom-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wisdom-ai-well-known.yml
@@ -193,26 +195,26 @@ overview: 'Wisdom AI is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Wisdom AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
-random_paper: 4
+random_paper: 18
 score:
   band: thin
-  composite: 35.3
+  composite: 38.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 35.2
+    discoverability: 65.0
+    operational_transparency: 31.6
+  previous_composite: 38.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -226,15 +228,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 32.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/screenshots/wisdom-ai-2026-09-02T170818.png
+screenshot: https://apis.io/screenshots/wisdom-ai/wisdom-ai-2026-09-02T170818.png
 security:
 - kind: authentication
   name: Wisdom Ai Authentication
@@ -252,6 +254,14 @@ security:
   name: Wisdom Ai Trust Center
   slug: wisdom-ai-trust-center
   summary_line: SOC 2 Type II, ISO 27001, GDPR, HIPAA-ready
+skill_count: 3
+skills:
+- name: Ask WisdomAI a data question
+  slug: wisdom-ai-ask-a-question
+- name: Build and refresh a WisdomAI dashboard
+  slug: wisdom-ai-build-dashboard
+- name: Provision WisdomAI users and embed analytics
+  slug: wisdom-ai-provision-and-embed
 slug: wisdom-ai
 tags:
 - Company

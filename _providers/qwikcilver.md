@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: QwikCilver / Woohoo gift card and prepaid commerce API for browsing brand catalogs, placing gift card orders, activating and redeeming cards, checking balances, and running reward programs. OAuth2 cli
@@ -45,12 +47,12 @@ common:
   type: BlogRSS
   url: https://blog.woohoo.in/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qwikcilver/refs/heads/main/security/qwikcilver-domain-security.yml
+  href: https://artifacts.apis.io/qwikcilver/security/qwikcilver-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qwikcilver-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qwikcilver/refs/heads/main/well-known/qwikcilver-well-known.yml
+  href: https://artifacts.apis.io/qwikcilver/well-known/qwikcilver-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/qwikcilver-well-known.yml
@@ -94,10 +96,10 @@ overview: 'QwikCilver is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   QwikCilver''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 11
+random_paper: 9
 score:
   band: emerging
-  composite: 13.6
+  composite: 14.5
   coverage:
     artifact_dirs: 5
     catalog_earned: 37.0
@@ -110,7 +112,7 @@ score:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
@@ -120,21 +122,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 13.6
+  previous_composite: 14.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/qwikcilver/refs/heads/main/screenshots/qwikcilver-2026-09-02T152726.png
+screenshot: https://apis.io/screenshots/qwikcilver/qwikcilver-2026-09-02T152726.png
 security:
 - kind: domain-security
   name: Qwikcilver Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-10-17'
+  score: 34.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -140,7 +142,7 @@ apis:
   description: 'Webhooks notify you when a specific event has occurred. **Documentation**: [Webhooks](../../development-resources/webhooks)'
   name: Dojo Webhooks API
   slug: dojo-webhooks-api
-artifact_total: 29
+artifact_total: 32
 asyncapis:
 - description: 'The Async Websocket API to enable Dojo integrated products. Core modules: - Tables - Areas - Orders - Parties - Reservations API modules can generally be implemented independently, with a small number'
   name: EPOS Data API (WebSockets)
@@ -162,28 +164,32 @@ collections:
   name: Transaction API
   slug: open-dojo-transactions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/dojo/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/capabilities/dojo-capability-edges.yml
+  href: https://artifacts.apis.io/dojo/capabilities/dojo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dojo-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/agentic-access/dojo-agentic-access.yml
+  href: https://artifacts.apis.io/dojo/agentic-access/dojo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dojo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/security/dojo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dojo/security/dojo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dojo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/security/dojo-domain-security.yml
+  href: https://artifacts.apis.io/dojo/security/dojo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dojo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/authentication/dojo-authentication.yml
+  href: https://artifacts.apis.io/dojo/authentication/dojo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dojo-authentication.yml
@@ -228,87 +234,87 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/dojo-tech
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/packages/dojo-packages.yml
+  href: https://artifacts.apis.io/dojo/packages/dojo-packages.yml
   title: ''
   type: SDKs
   url: packages/dojo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/packages/dojo-packages.yml
+  href: https://artifacts.apis.io/dojo/packages/dojo-packages.yml
   title: ''
   type: Packages
   url: packages/dojo-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/conventions/dojo-conventions.yml
+  href: https://artifacts.apis.io/dojo/conventions/dojo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dojo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/conventions/dojo-conventions.yml
+  href: https://artifacts.apis.io/dojo/conventions/dojo-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/dojo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/errors/dojo-problem-types.yml
+  href: https://artifacts.apis.io/dojo/errors/dojo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dojo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/lifecycle/dojo-lifecycle.yml
+  href: https://artifacts.apis.io/dojo/lifecycle/dojo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dojo-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/mcp/dojo-mcp.yml
+  href: https://artifacts.apis.io/dojo/mcp/dojo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dojo-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/overlays/dojo-api-overlay.yaml
+  href: https://artifacts.apis.io/dojo/overlays/dojo-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dojo-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/conformance/dojo-conformance.yml
+  href: https://artifacts.apis.io/dojo/conformance/dojo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dojo-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/sandbox/dojo-sandbox.yml
+  href: https://artifacts.apis.io/dojo/sandbox/dojo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dojo-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/data-model/dojo-data-model.yml
+  href: https://artifacts.apis.io/dojo/data-model/dojo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dojo-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/components/dojo-components.yml
+  href: https://artifacts.apis.io/dojo/components/dojo-components.yml
   title: ''
   type: Components
   url: components/dojo-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/llms/dojo-llms.txt
+  href: https://artifacts.apis.io/dojo/llms/dojo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dojo-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dojo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/asyncapi/dojo-epos-data-asyncapi.yml
+  href: https://artifacts.apis.io/dojo/asyncapi/dojo-epos-data-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/dojo-epos-data-asyncapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/security/dojo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dojo/security/dojo-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/dojo-vulnerability-disclosure.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/changelog/dojo-changelog.yml
+  href: https://artifacts.apis.io/dojo/changelog/dojo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dojo-changelog.yml
@@ -355,13 +361,13 @@ overview: 'Dojo publishes 19 API contracts indexed on the [APIs.io](https://apis
   The Dojo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dojo''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, sandbox, engineering blog, and 32 more developer resources.'
-random_paper: 10
+  Dojo''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, sandbox, engineering blog, and 33 more developer resources.'
+random_paper: 20
 score:
-  band: developing
-  composite: 53.6
+  band: strong
+  composite: 55.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -369,12 +375,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 60.6
-    developer_ergonomics: 61.3
-    discoverability: 78.6
-    operational_transparency: 52.6
+    contract_quality: 58.4
+    developer_ergonomics: 78.0
+    discoverability: 71.4
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -383,7 +389,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 53.6
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -400,13 +406,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/screenshots/dojo-2026-07-25T212236.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dojo/dojo-2026-07-25T212236.png
 security:
 - kind: authentication
   name: Dojo Authentication
@@ -420,6 +427,14 @@ security:
   name: Dojo Vulnerability Disclosure
   slug: dojo-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 3
+skills:
+- name: Create and charge a Dojo payment
+  slug: dojo-create-and-charge-payment
+- name: Refund a Dojo payment
+  slug: dojo-refund-a-payment
+- name: Subscribe to Dojo webhooks
+  slug: dojo-subscribe-to-webhooks
 slug: dojo
 tags:
 - Payments

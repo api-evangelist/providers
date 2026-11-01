@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.8
-  scored_at: '2026-10-17'
+  score: 55.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 23
   slug: sendspark-agentic-access
   summary_line: 23 operations · 14 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api-gw.sendspark.com
   baseurl_source: declared
@@ -64,15 +66,12 @@ apis:
   description: The Workspace API from Sendspark — 2 operation(s) for workspace.
   name: Sendspark Workspace API
   slug: sendspark-workspace-api
-artifact_total: 18
+artifact_total: 22
 asyncapis:
 - description: Outbound webhook event surface derived from the Sendspark REST API webhook management operations and the documented WebhookVideoEventsSchema. Subscribers are registered per workspace via POST /v1/work
   name: Sendspark Webhooks
   slug: sendspark-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sendspark DVM Bundles API
   slug: open-sendspark-dvm-bundles-api
@@ -91,47 +90,47 @@ common:
   type: BlogRSS
   url: https://blog.sendspark.com/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/capabilities/sendspark-capability-edges.yml
+  href: https://artifacts.apis.io/sendspark/capabilities/sendspark-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sendspark-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/overlays/sendspark-openapi-overlay.yaml
+  href: https://artifacts.apis.io/sendspark/overlays/sendspark-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendspark-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/agentic-access/sendspark-agentic-access.yml
+  href: https://artifacts.apis.io/sendspark/agentic-access/sendspark-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sendspark-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/authentication/sendspark-authentication.yml
+  href: https://artifacts.apis.io/sendspark/authentication/sendspark-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sendspark-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/conventions/sendspark-conventions.yml
+  href: https://artifacts.apis.io/sendspark/conventions/sendspark-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sendspark-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/errors/sendspark-problem-types.yml
+  href: https://artifacts.apis.io/sendspark/errors/sendspark-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sendspark-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/data-model/sendspark-data-model.yml
+  href: https://artifacts.apis.io/sendspark/data-model/sendspark-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sendspark-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/conformance/sendspark-conformance.yml
+  href: https://artifacts.apis.io/sendspark/conformance/sendspark-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sendspark-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/lifecycle/sendspark-lifecycle.yml
+  href: https://artifacts.apis.io/sendspark/lifecycle/sendspark-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sendspark-lifecycle.yml
@@ -140,42 +139,42 @@ common:
   type: StatusPage
   url: https://status.sendspark.com
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/asyncapi/sendspark-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/sendspark/asyncapi/sendspark-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/sendspark-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/asyncapi/sendspark-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/sendspark/asyncapi/sendspark-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/sendspark-webhooks-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/mcp/sendspark-mcp.yml
+  href: https://artifacts.apis.io/sendspark/mcp/sendspark-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sendspark-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/skills/sendspark-manage-webhooks.md
+  href: https://artifacts.apis.io/sendspark/skills/sendspark-manage-webhooks.md
   title: ''
   type: AgentSkill
   url: skills/sendspark-manage-webhooks.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/skills/sendspark-launch-dynamic-campaign.md
+  href: https://artifacts.apis.io/sendspark/skills/sendspark-launch-dynamic-campaign.md
   title: ''
   type: AgentSkill
   url: skills/sendspark-launch-dynamic-campaign.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/well-known/sendspark-well-known.yml
+  href: https://artifacts.apis.io/sendspark/well-known/sendspark-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sendspark-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/llms/sendspark-llms.txt
+  href: https://artifacts.apis.io/sendspark/llms/sendspark-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sendspark-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/security/sendspark-domain-security.yml
+  href: https://artifacts.apis.io/sendspark/security/sendspark-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sendspark-domain-security.yml
@@ -228,47 +227,55 @@ common:
   type: Website
   url: https://sendspark.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/a2a/sendspark-a2a.yml
+  href: https://artifacts.apis.io/sendspark/a2a/sendspark-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/sendspark-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/skills/sendspark-published-skill.md
+  href: https://artifacts.apis.io/sendspark/skills/sendspark-published-skill.md
   title: ''
   type: AgentSkill
   url: skills/sendspark-published-skill.md
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/mcp/sendspark-tool-crosswalk.yml
+  href: https://artifacts.apis.io/sendspark/mcp/sendspark-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/sendspark-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/packages/sendspark-packages.yml
+  href: https://artifacts.apis.io/sendspark/packages/sendspark-packages.yml
   title: ''
   type: Packages
   url: packages/sendspark-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/scopes/sendspark-scopes.yml
+  href: https://artifacts.apis.io/sendspark/scopes/sendspark-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sendspark-scopes.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/plans/sendspark-plans-pricing.yml
+  href: https://artifacts.apis.io/sendspark/plans/sendspark-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sendspark-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/rate-limits/sendspark-rate-limits.yml
+  href: https://artifacts.apis.io/sendspark/rate-limits/sendspark-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sendspark-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/security/sendspark-trust-center.yml
+  href: https://artifacts.apis.io/sendspark/security/sendspark-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sendspark-trust-center.yml
 created: '2026-07-17'
 description: Sendspark is a video messaging and AI-personalized video platform for sales and marketing teams. Users record a single video and use AI voice cloning, lip sync, merge tags, and dynamic thumbnails to personalize it to each prospect at scale, delivered through custom landing pages with embedded booking calendars and call-to-action buttons. Sendspark ships a Chrome extension and desktop recorder, 60+ CRM/email/automation integrations (HubSpot, Salesforce, Salesloft, Clay, Zapier, Make), a public REST API for Dynamic Video campaigns, prospects, DVM bundles, and outbound webhooks, and a hosted read-only MCP server for AI assistants. It was surfaced as a portfolio company of 500 Global.
+finops:
+- has_sources: true
+  method: derived
+  name: Sendspark Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: sendspark-finops
+  template: false
 image: https://www.sendspark.com/hubfs/favicon-96x96.png
 layout: provider
 mcp_servers:
@@ -288,9 +295,12 @@ overview: 'Sendspark publishes 4 API contracts indexed on the [APIs.io](https://
   Sendspark''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
 plans:
 - name: Sendspark Plans Pricing
-  plan_count: 5
+  plan_count: 6
   slug: sendspark-plans-pricing
-random_paper: 3
+- name: Sendspark Price Estimates
+  plan_count: 0
+  slug: sendspark-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 6
   name: Sendspark Rate Limits
@@ -302,23 +312,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: strong
-  composite: 60.1
+  composite: 62.8
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 61.0
+    artifact_dirs: 27
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 53.5
     developer_ergonomics: 64.3
-    discoverability: 75.0
-    operational_transparency: 50.0
-  previous_composite: 60.0
+    discoverability: 65.0
+    operational_transparency: 60.5
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -335,13 +345,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/screenshots/sendspark-2026-08-17T081802.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sendspark/sendspark-2026-08-17T081802.png
 security:
 - kind: authentication
   name: Sendspark Authentication
@@ -355,6 +366,14 @@ security:
   name: Sendspark Trust Center
   slug: sendspark-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Launch a Sendspark dynamic video campaign and track a prospect
+  slug: sendspark-launch-dynamic-campaign
+- name: Subscribe to Sendspark video events via webhooks
+  slug: sendspark-manage-webhooks
+- name: Sendspark
+  slug: sendspark-published-skill
 slug: sendspark
 tags:
 - Company

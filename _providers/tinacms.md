@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A GraphQL API generated from your TinaCMS schema that serves Markdown and JSON content stored in Git repositories. Available locally via the tinacms dev CLI (localhost:4001) or hosted via TinaCloud wi
@@ -42,12 +44,12 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tinacms/refs/heads/main/security/tinacms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tinacms/security/tinacms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tinacms-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tinacms/refs/heads/main/security/tinacms-domain-security.yml
+  href: https://artifacts.apis.io/tinacms/security/tinacms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tinacms-domain-security.yml
@@ -80,17 +82,17 @@ common:
   type: X
   url: https://x.com/tinacms
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tinacms/refs/heads/main/plans/tinacms-plans-pricing.yml
+  href: https://artifacts.apis.io/tinacms/plans/tinacms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tinacms-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tinacms/refs/heads/main/rate-limits/tinacms-rate-limits.yml
+  href: https://artifacts.apis.io/tinacms/rate-limits/tinacms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tinacms-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tinacms/refs/heads/main/finops/tinacms-finops.yml
+  href: https://artifacts.apis.io/tinacms/finops/tinacms-finops.yml
   title: ''
   type: FinOps
   url: finops/tinacms-finops.yml
@@ -114,7 +116,7 @@ modified: '2026-06-13'
 name: TinaCMS
 nav: Providers
 network: true
-overview: 'TinaCMS is listed with 1 API on the [APIs.io](https://apis.io/) network: GraphQL Content API. Tagged areas include CMS, Headless CMS, GraphQL, Git, and Content Management.
+overview: 'TinaCMS is listed with 1 API on the [APIs.io](https://apis.io/) network: GraphQL Content API. Tagged areas include CMS, Headless CMS, GraphQL, Version Control, and Content Management.
 
 
   TinaCMS''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -122,14 +124,14 @@ plans:
 - name: Tinacms Plans Pricing
   plan_count: 5
   slug: tinacms-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Tinacms Rate Limits
   slug: tinacms-rate-limits
 score:
   band: emerging
-  composite: 22.4
+  composite: 23.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 43.0
@@ -137,29 +139,29 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 34.0
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 30.7
+    operational_transparency: 23.7
+  previous_composite: 23.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tinacms/refs/heads/main/screenshots/tinacms-2026-06-20T195408.png
+screenshot: https://apis.io/screenshots/tinacms/tinacms-2026-06-20T195408.png
 security:
 - kind: domain-security
   name: Tinacms Domain Security
@@ -174,7 +176,7 @@ tags:
 - CMS
 - Headless CMS
 - GraphQL
-- Git
+- Version Control
 - Content Management
 - Visual Editing
 - Markdown

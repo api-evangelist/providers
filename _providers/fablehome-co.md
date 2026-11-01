@@ -1,0 +1,129 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: platform
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 4.5
+  scored_at: '2026-10-31'
+api_count: 0
+artifact_total: 1
+common:
+- group: agent
+  href: https://artifacts.apis.io/fablehome-co/llms/fablehome-co-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/fablehome-co-llms.txt
+- group: agent
+  href: https://artifacts.apis.io/fablehome-co/well-known/fablehome-co-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/fablehome-co-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/fablehome-co/hosts/fablehome-co-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/fablehome-co-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/fablehome-co/vendors/fablehome-co-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/fablehome-co-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://us.fable.com/policies/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://us.fable.com/policies/privacy-policy
+- group: start
+  title: ''
+  type: Login
+  url: https://us.fable.com/account/login
+- group: auth
+  href: https://artifacts.apis.io/fablehome-co/security/fablehome-co-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/fablehome-co-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://us.fable.com/
+- group: company
+  title: ''
+  type: About
+  url: https://us.fable.com/pages/were-fable
+created: '2026-10-24'
+description: Fable Home provides premium dinnerware, tabletop accessories, and home décor, offering a curated collection of high‑quality, design‑forward products for modern living. The company focuses on sustainable materials, craftsmanship, and a seamless online shopping experience, serving customers primarily in the United States through its e‑commerce platform. Founded with support from Techstars, Fable aims to blend functionality with aesthetic appeal, delivering items that enhance everyday spaces and gatherings.
+image: https://cdn.shopify.com/s/files/1/0253/5322/4258/files/New_Year_New_Fable0436_2_1.jpg?v=1786205694
+layout: provider
+modified: '2026-10-24'
+name: Fable
+nav: Providers
+network: true
+overview: Fable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Home Goods, Design, and Sustainable.
+random_paper: 10
+score:
+  band: emerging
+  composite: 11.5
+  coverage:
+    artifact_dirs: 6
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 34.2
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 48.2
+    operational_transparency: 0.0
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 13.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Fablehome Co Domain Security
+  slug: fablehome-co-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: fablehome-co
+tags:
+- Company
+- E-commerce
+- Home Goods
+- Design
+- Sustainable
+website: https://us.fable.com/
+---

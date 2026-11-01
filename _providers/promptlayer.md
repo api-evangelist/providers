@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Ingest spans and manage traces for LLM observability.
   name: PromptLayer Spans & Traces API
   slug: promptlayer-spans-traces-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PromptLayer Evaluations & Datasets API
   slug: open-promptlayer-evaluations-datasets-api
@@ -94,17 +93,17 @@ common:
   type: BlogRSS
   url: https://blog.promptlayer.com/rss/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/agentic-access/promptlayer-agentic-access.yml
+  href: https://artifacts.apis.io/promptlayer/agentic-access/promptlayer-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/promptlayer-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/security/promptlayer-domain-security.yml
+  href: https://artifacts.apis.io/promptlayer/security/promptlayer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/promptlayer-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/authentication/promptlayer-authentication.yml
+  href: https://artifacts.apis.io/promptlayer/authentication/promptlayer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/promptlayer-authentication.yml
@@ -125,17 +124,17 @@ common:
   type: Documentation
   url: https://docs.promptlayer.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/plans/promptlayer-plans-pricing.yml
+  href: https://artifacts.apis.io/promptlayer/plans/promptlayer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/promptlayer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/rate-limits/promptlayer-rate-limits.yml
+  href: https://artifacts.apis.io/promptlayer/rate-limits/promptlayer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/promptlayer-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/finops/promptlayer-finops.yml
+  href: https://artifacts.apis.io/promptlayer/finops/promptlayer-finops.yml
   title: ''
   type: FinOps
   url: finops/promptlayer-finops.yml
@@ -163,14 +162,14 @@ plans:
 - name: Promptlayer Plans Pricing
   plan_count: 4
   slug: promptlayer-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Promptlayer Rate Limits
   slug: promptlayer-rate-limits
 score:
   band: thin
-  composite: 38.1
+  composite: 36.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 57.0
@@ -178,15 +177,15 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 50.2
     developer_ergonomics: 29.8
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 37.8
+    operational_transparency: 26.3
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -200,13 +199,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/screenshots/promptlayer-2026-06-20T192157.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/promptlayer/promptlayer-2026-06-20T192157.png
 security:
 - kind: authentication
   name: Promptlayer Authentication

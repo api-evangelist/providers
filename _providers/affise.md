@@ -11,10 +11,11 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: derived
-    agentic_access: false
+    agent_skills: unknown
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -26,15 +27,24 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.6
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 40.3
+  scored_at: '2026-10-31'
+agentic_access:
+- acting_count: 76
+  human_in_the_loop: 7
+  name: Affise Agentic Access
+  operation_count: 216
+  slug: affise-agentic-access
+  summary_line: 216 operations · 76 acting · 7 human-in-the-loop
+api_count: 1
 apis:
 - description: Mobile Measurement Partner API enabling mobile app attribution tracking, install measurement, event tracking, and audience analytics for iOS, Android, and cross-platform mobile applications.
   name: Affise MMP API
@@ -174,7 +184,7 @@ apis:
   description: Public lookup data — countries, regions, ISPs, OSes, goals, browsers, cities, etc.
   name: Affise Resources API
   slug: affise-resources-api
-artifact_total: 38
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Affise Postbacks Webhooks
@@ -184,23 +194,57 @@ collections:
   name: API Documentation
   slug: open-affise
 common:
+- group: agent
+  href: https://artifacts.apis.io/affise/agentic-access/affise-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/affise-agentic-access.yml
+- group: design
+  href: https://artifacts.apis.io/affise/rules/affise-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/affise-rules.yml
+- group: design
+  href: https://artifacts.apis.io/affise/json-ld/affise-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/affise-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/affise/vocabulary/affise-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/affise-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/capabilities/affise-capability-edges.yml
+  href: https://artifacts.apis.io/affise/hosts/affise-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/affise-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/affise/vendors/affise-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/affise-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://affise.com/press/
+- group: other
+  href: https://artifacts.apis.io/affise/capabilities/affise-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/affise-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/overlays/affise-openapi-overlay.yaml
+  href: https://artifacts.apis.io/affise/overlays/affise-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/affise-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/mcp/affise-mcp.yml
+  href: https://artifacts.apis.io/affise/mcp/affise-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/affise-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/security/affise-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/affise/security/affise-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/affise-vulnerability-disclosure.yml
@@ -209,42 +253,42 @@ common:
   type: Security
   url: https://srs.s4e.io/affise.com/report
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/well-known/affise-security.txt
+  href: https://artifacts.apis.io/affise/well-known/affise-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/affise-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/well-known/affise-well-known.yml
+  href: https://artifacts.apis.io/affise/well-known/affise-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/affise-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/security/affise-domain-security.yml
+  href: https://artifacts.apis.io/affise/security/affise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/affise-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/authentication/affise-authentication.yml
+  href: https://artifacts.apis.io/affise/authentication/affise-authentication.yml
   title: ''
   type: Authentication
   url: authentication/affise-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/conventions/affise-conventions.yml
+  href: https://artifacts.apis.io/affise/conventions/affise-conventions.yml
   title: ''
   type: Conventions
   url: conventions/affise-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/errors/affise-problem-types.yml
+  href: https://artifacts.apis.io/affise/errors/affise-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/affise-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/lifecycle/affise-lifecycle.yml
+  href: https://artifacts.apis.io/affise/lifecycle/affise-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/affise-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/conformance/affise-conformance.yml
+  href: https://artifacts.apis.io/affise/conformance/affise-conformance.yml
   title: ''
   type: Conformance
   url: conformance/affise-conformance.yml
@@ -253,32 +297,32 @@ common:
   type: Compliance
   url: https://affise.com/gdpr/
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/sandbox/affise-sandbox.yml
+  href: https://artifacts.apis.io/affise/sandbox/affise-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/affise-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/asyncapi/affise-postbacks-webhooks.yml
+  href: https://artifacts.apis.io/affise/asyncapi/affise-postbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/affise-postbacks-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/packages/affise-packages.yml
+  href: https://artifacts.apis.io/affise/packages/affise-packages.yml
   title: ''
   type: Packages
   url: packages/affise-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/packages/affise-packages.yml
+  href: https://artifacts.apis.io/affise/packages/affise-packages.yml
   title: ''
   type: SDKs
   url: packages/affise-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/affise/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/llms/affise-llms.txt
+  href: https://artifacts.apis.io/affise/llms/affise-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/affise-llms.txt
@@ -347,17 +391,17 @@ common:
   type: X
   url: https://twitter.com/GetAffise
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/plans/affise-plans-pricing.yml
+  href: https://artifacts.apis.io/affise/plans/affise-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/affise-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/rate-limits/affise-rate-limits.yml
+  href: https://artifacts.apis.io/affise/rate-limits/affise-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/affise-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/finops/affise-finops.yml
+  href: https://artifacts.apis.io/affise/finops/affise-finops.yml
   title: ''
   type: FinOps
   url: finops/affise-finops.yml
@@ -366,21 +410,46 @@ common:
   type: BlogRSS
   url: https://affise.com/blog/feed/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/json-ld/affise-context.jsonld
+  href: https://artifacts.apis.io/affise/json-ld/affise-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/affise-context.jsonld
 created: '2026-06-13'
 description: Affise is a performance marketing platform with a REST API for managing affiliate offers, publishers, conversions, payouts, and accessing detailed campaign analytics. The API supports both admin and affiliate panel operations using API key authentication with GET and POST methods across statistics, conversions, offers, partners, and billing endpoints.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Affise Finops
-  primary_unit: ''
+  primary_unit: subscription
   service_category: ''
   slug: affise-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/affise.png
+json_schemas:
+- name: offer_affiliate
+  property_count: 42
+  slug: affise-offer-affiliate
+- name: offer_caps_structure
+  property_count: 11
+  slug: affise-offer-caps-structure
+- name: offer_payment_structure
+  property_count: 36
+  slug: affise-offer-payment-structure
+- name: offer
+  property_count: 81
+  slug: affise-offer
+- name: offer_tier_structure
+  property_count: 12
+  slug: affise-offer-tier-structure
+- name: payment
+  property_count: 19
+  slug: affise-payment
+- name: pixel
+  property_count: 10
+  slug: affise-pixel
+- name: targeting_group_structure
+  property_count: 31
+  slug: affise-targeting-group-structure
 jsonld:
 - class_count: 37
   name: Affise Context
@@ -398,39 +467,56 @@ network: true
 overview: 'Affise publishes 28 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin Adcosts API, Admin Advertisers API, Admin Affiliates API, and 25 more. Tagged areas include Affiliate Marketing, Performance Marketing, Conversion, Publishers, and Analytics.
 
 
-  The Affise catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
+  The Affise catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Affise''s developer surface includes authentication, sandbox, API reference, getting-started guide, support, signup flow, documentation, and 34 more developer resources.'
+  Affise''s developer surface includes authentication, sandbox, API reference, getting-started guide, support, signup flow, documentation, and 41 more developer resources.'
 plans:
 - name: Affise Plans Pricing
-  plan_count: 7
+  plan_count: 8
   slug: affise-plans-pricing
-random_paper: 6
+- name: Affise Price Estimates
+  plan_count: 0
+  slug: affise-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Affise Rate Limits
   slug: affise-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: Affise API Rules
+  rule_count: 14
+  severity_counts:
+    error: 12
+    hint: 0
+    info: 1
+    warn: 1
+  slug: affise-rules
 score:
-  band: strong
-  composite: 64.3
+  band: exemplar
+  composite: 70.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 57.0
+    artifact_dirs: 33
+    catalog_earned: 74.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 58.0
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 5.4
   facets:
-    access_clarity: 84.2
-    contract_governance: 18.2
-    contract_quality: 60.7
-    developer_ergonomics: 78.0
-    discoverability: 71.7
-    operational_transparency: 21.1
-  previous_composite: 65.8
+    access_clarity: 92.1
+    contract_governance: 35.6
+    contract_quality: 66.1
+    developer_ergonomics: 82.6
+    discoverability: 66.7
+    operational_transparency: 39.5
+  previous_composite: 65.2
   provenance:
+    agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
@@ -438,20 +524,21 @@ score:
       marker_coverage: 0.0
       total: 27
     mcp: first-party
-    skills: derived
+    skills: unknown
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/screenshots/affise-2026-06-20T165649.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/affise/affise-2026-06-20T165649.png
 security:
 - kind: authentication
   name: Affise Authentication
@@ -465,6 +552,16 @@ security:
   name: Affise Vulnerability Disclosure
   slug: affise-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 4
+skills:
+- name: Generate and settle Affise affiliate payouts
+  slug: affise-affiliate-payouts
+- name: Launch an Affise offer and hand a tracking link to an affiliate
+  slug: affise-offer-launch
+- name: Pull Affise performance statistics
+  slug: affise-performance-reporting
+- name: Wire up Affise conversion tracking with postbacks and pixels
+  slug: affise-postback-integration
 slug: affise
 tags:
 - Affiliate Marketing

@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-17'
+  score: 5.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Keyless, unauthenticated REST-style JSON API serving US tax, payroll, benefits, and wage figures with bundled provenance. Includes a self-describing catalog (index.json) and a bulk current-figures end
@@ -32,12 +34,12 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rates-and-limits/refs/heads/main/plans/rates-and-limits-plans-pricing.yml
+  href: https://artifacts.apis.io/rates-and-limits/plans/rates-and-limits-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rates-and-limits-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rates-and-limits/refs/heads/main/rate-limits/rates-and-limits-rate-limits.yml
+  href: https://artifacts.apis.io/rates-and-limits/rate-limits/rates-and-limits-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rates-and-limits-rate-limits.yml
@@ -46,7 +48,7 @@ common:
   type: Website
   url: https://ratesandlimits.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rates-and-limits/refs/heads/main/security/rates-and-limits-domain-security.yml
+  href: https://artifacts.apis.io/rates-and-limits/security/rates-and-limits-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rates-and-limits-domain-security.yml
@@ -73,7 +75,7 @@ rate_limits:
   slug: rates-and-limits-rate-limits
 score:
   band: emerging
-  composite: 18.3
+  composite: 18.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 32.0
@@ -87,9 +89,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 64.3
+    discoverability: 63.3
     operational_transparency: 0.0
-  previous_composite: 18.3
+  previous_composite: 18.2
   provenance:
     mcp: derived
   regulatory:
@@ -98,14 +100,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rates-and-limits/refs/heads/main/screenshots/rates-and-limits-2026-10-11T113129.png
+screenshot: https://apis.io/screenshots/rates-and-limits/rates-and-limits-2026-10-11T113129.png
 security:
 - kind: authentication
   name: Rates And Limits Authentication

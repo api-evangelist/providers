@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stashaway/refs/heads/main/rate-limits/stashaway-rate-limits.yml
+  href: https://artifacts.apis.io/stashaway/rate-limits/stashaway-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stashaway-rate-limits.yml
@@ -80,42 +82,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/stashaway-engineering
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stashaway/refs/heads/main/llms/stashaway-llms.txt
+  href: https://artifacts.apis.io/stashaway/llms/stashaway-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stashaway-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stashaway/refs/heads/main/packages/stashaway-packages.yml
+  href: https://artifacts.apis.io/stashaway/packages/stashaway-packages.yml
   title: ''
   type: Packages
   url: packages/stashaway-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stashaway/refs/heads/main/conformance/stashaway-conformance.yml
+  href: https://artifacts.apis.io/stashaway/conformance/stashaway-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stashaway-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stashaway/refs/heads/main/conformance/stashaway-conformance.yml
+  href: https://artifacts.apis.io/stashaway/conformance/stashaway-conformance.yml
   title: ''
   type: Compliance
   url: conformance/stashaway-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stashaway/refs/heads/main/security/stashaway-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/stashaway/security/stashaway-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/stashaway-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stashaway/refs/heads/main/security/stashaway-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/stashaway/security/stashaway-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stashaway-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stashaway/refs/heads/main/security/stashaway-domain-security.yml
+  href: https://artifacts.apis.io/stashaway/security/stashaway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stashaway-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stashaway/refs/heads/main/plans/stashaway-plans-pricing.yml
+  href: https://artifacts.apis.io/stashaway/plans/stashaway-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stashaway-plans-pricing.yml
@@ -152,14 +154,14 @@ plans:
 - name: Stashaway Plans Pricing
   plan_count: 0
   slug: stashaway-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Stashaway Rate Limits
   slug: stashaway-rate-limits
 score:
   band: emerging
-  composite: 23.3
+  composite: 22.9
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -167,14 +169,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 13.2
+    discoverability: 48.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -182,7 +184,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 23.2
+  previous_composite: 22.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -192,14 +194,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/stashaway/refs/heads/main/screenshots/stashaway-2026-09-02T160817.png
+screenshot: https://apis.io/screenshots/stashaway/stashaway-2026-09-02T160817.png
 security:
 - kind: domain-security
   name: Stashaway Domain Security

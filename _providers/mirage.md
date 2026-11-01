@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 30.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -79,15 +81,12 @@ apis:
   description: The Videos API from Mirage — 3 operation(s) for videos.
   name: Mirage Videos API
   slug: mirage-videos-api
-artifact_total: 20
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Mirage Webhooks
   slug: mirage-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mirage Video Audio API
   slug: open-mirage-audio-api
@@ -110,8 +109,13 @@ collections:
   name: Mirage Video Audio Videos API
   slug: open-mirage-videos-api
 common:
+- group: other
+  href: https://artifacts.apis.io/mirage/capabilities/mirage-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mirage-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/plans/mirage-plans-pricing.yml
+  href: https://artifacts.apis.io/mirage/plans/mirage-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mirage-plans-pricing.yml
@@ -120,17 +124,17 @@ common:
   type: Website
   url: https://www.captions.ai/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/overlays/mirage-openapi-overlay.yaml
+  href: https://artifacts.apis.io/mirage/overlays/mirage-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mirage-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/security/mirage-domain-security.yml
+  href: https://artifacts.apis.io/mirage/security/mirage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mirage-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/agentic-access/mirage-agentic-access.yml
+  href: https://artifacts.apis.io/mirage/agentic-access/mirage-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mirage-agentic-access.yml
@@ -151,7 +155,7 @@ common:
   type: GettingStarted
   url: https://captions.ai/help/docs/api/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/authentication/mirage-authentication.yml
+  href: https://artifacts.apis.io/mirage/authentication/mirage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mirage-authentication.yml
@@ -184,7 +188,7 @@ common:
   type: ChangeLog
   url: https://captions.ai/help/whats-new
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/changelog/mirage-changelog.yml
+  href: https://artifacts.apis.io/mirage/changelog/mirage-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mirage-changelog.yml
@@ -193,52 +197,60 @@ common:
   type: Compliance
   url: https://captions.ai/solutions/enterprise
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/errors/mirage-problem-types.yml
+  href: https://artifacts.apis.io/mirage/errors/mirage-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mirage-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/conventions/mirage-conventions.yml
+  href: https://artifacts.apis.io/mirage/conventions/mirage-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mirage-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/lifecycle/mirage-lifecycle.yml
+  href: https://artifacts.apis.io/mirage/lifecycle/mirage-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mirage-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/data-model/mirage-data-model.yml
+  href: https://artifacts.apis.io/mirage/data-model/mirage-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mirage-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/conformance/mirage-conformance.yml
+  href: https://artifacts.apis.io/mirage/conformance/mirage-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mirage-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/mcp/mirage-mcp.yml
+  href: https://artifacts.apis.io/mirage/mcp/mirage-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mirage-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/llms/mirage-llms.txt
+  href: https://artifacts.apis.io/mirage/llms/mirage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mirage-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mirage/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/asyncapi/mirage-webhooks.yml
+  href: https://artifacts.apis.io/mirage/asyncapi/mirage-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mirage-webhooks.yml
 created: '2026-07-17'
 description: 'Mirage is an AI research company headquartered in New York City that builds Captions, an AI video editor and generator used by more than 20 million creators, small businesses, and enterprises worldwide. The Mirage Video API exposes the company''s state-of-the-art video models over a simple HTTP interface: generate expressive human video from an image and audio (Mirage Video 1), apply styled captions to an existing video, synthesize speech with text-to-speech voices, and render meta text overlays. It is an asynchronous submit-and-poll REST API authenticated with an x-api-key header and priced by usage (per minute of captioning, per second of generated video).'
+finops:
+- has_sources: true
+  method: derived
+  name: Mirage Finops
+  primary_unit: minute of input video (rounded up to nearest minute)
+  service_category: ''
+  slug: mirage-finops
+  template: false
 image: https://captions.ai/mrkt-static/captions-og-image.png
 layout: provider
 modified: '2026-07-20'
@@ -251,29 +263,29 @@ overview: 'Mirage publishes 7 API contracts indexed on the [APIs.io](https://api
   The Mirage catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mirage''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 21 more developer resources.'
+  Mirage''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 22 more developer resources.'
 plans:
 - name: Mirage Plans Pricing
   plan_count: 2
   slug: mirage-plans-pricing
-random_paper: 13
+random_paper: 5
 score:
   band: developing
-  composite: 49.9
+  composite: 51.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 45.0
+    artifact_dirs: 23
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.9
+  delta: 1.6
   facets:
-    access_clarity: 73.7
+    access_clarity: 81.6
     contract_governance: 4.5
-    contract_quality: 46.8
+    contract_quality: 45.1
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -282,7 +294,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 46.0
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,13 +311,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/screenshots/mirage-2026-08-07T183717.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mirage/mirage-2026-08-07T183717.png
 security:
 - kind: authentication
   name: Mirage Authentication
@@ -315,6 +328,14 @@ security:
   name: Mirage Domain Security
   slug: mirage-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Add styled captions to a video with Mirage
+  slug: mirage-caption-video
+- name: Generate an expressive human video with Mirage
+  slug: mirage-generate-video
+- name: Synthesize speech with Mirage text-to-speech
+  slug: mirage-text-to-speech
 slug: mirage
 tags:
 - Company

@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -17,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.2
-  scored_at: '2026-10-17'
+  score: 38.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -32,7 +33,7 @@ agentic_access:
   operation_count: 48
   slug: zincsearch-agentic-access
   summary_line: 48 operations · 28 acting
-api_count: 3
+api_count: 2
 apis:
 - baseURL: http://localhost:4080
   baseurl_source: declared
@@ -77,72 +78,72 @@ apis:
 artifact_total: 12
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/agentic-access/zincsearch-agentic-access.yml
+  href: https://artifacts.apis.io/zincsearch/agentic-access/zincsearch-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zincsearch-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/rules/zincsearch-rules.yml
+  href: https://artifacts.apis.io/zincsearch/rules/zincsearch-rules.yml
   title: ''
   type: Spectral
   url: rules/zincsearch-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/vocabulary/zincsearch-vocabulary.yml
+  href: https://artifacts.apis.io/zincsearch/vocabulary/zincsearch-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/zincsearch-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/data-model/zincsearch-data-model.yml
+  href: https://artifacts.apis.io/zincsearch/data-model/zincsearch-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zincsearch-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/errors/zincsearch-problem-types.yml
+  href: https://artifacts.apis.io/zincsearch/errors/zincsearch-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zincsearch-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/conformance/zincsearch-conformance.yml
+  href: https://artifacts.apis.io/zincsearch/conformance/zincsearch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zincsearch-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/llms/zincsearch-llms.txt
+  href: https://artifacts.apis.io/zincsearch/llms/zincsearch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zincsearch-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/well-known/zincsearch-well-known.yml
+  href: https://artifacts.apis.io/zincsearch/well-known/zincsearch-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zincsearch-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/hosts/zincsearch-hosts.yml
+  href: https://artifacts.apis.io/zincsearch/hosts/zincsearch-hosts.yml
   title: ''
   type: Hosts
   url: hosts/zincsearch-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/vendors/zincsearch-vendors.yml
+  href: https://artifacts.apis.io/zincsearch/vendors/zincsearch-vendors.yml
   title: ''
   type: Vendors
   url: vendors/zincsearch-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/packages/zincsearch-packages.yml
+  href: https://artifacts.apis.io/zincsearch/packages/zincsearch-packages.yml
   title: ''
   type: SDKs
   url: packages/zincsearch-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/packages/zincsearch-packages.yml
+  href: https://artifacts.apis.io/zincsearch/packages/zincsearch-packages.yml
   title: ''
   type: Packages
   url: packages/zincsearch-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/authentication/zincsearch-authentication.yml
+  href: https://artifacts.apis.io/zincsearch/authentication/zincsearch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zincsearch-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zincsearch/refs/heads/main/security/zincsearch-domain-security.yml
+  href: https://artifacts.apis.io/zincsearch/security/zincsearch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zincsearch-domain-security.yml
@@ -193,21 +194,23 @@ rules:
   slug: zincsearch-rules
 score:
   band: thin
-  composite: 29.4
+  composite: 26.2
   coverage:
     artifact_dirs: 16
-    catalog_earned: 40.8
+    catalog_earned: 37.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.3
+    catalog_gap: 77.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.5
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
-    contract_quality: 40.9
+    contract_quality: 39.0
     developer_ergonomics: 35.7
-    discoverability: 69.6
+    discoverability: 57.1
     operational_transparency: 5.3
+  previous_composite: 26.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,11 +226,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Zincsearch Authentication

@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The Universal Commerce Protocol commerce server David serves at davidprotein.com/api/ucp/mcp, advertised in the store robots.txt and agents.md. Thirteen MCP tools cover catalog search and lookup, prod
@@ -51,10 +53,10 @@ apis:
 - description: 'The unauthenticated read-only JSON surface David documents in agents.md for agents that only need to browse: /products.json and /collections.json store-wide, /products/{handle}.json per product, /coll'
   name: David Protein Storefront JSON
   slug: david-protein-storefront-json
-artifact_total: 10
+artifact_total: 13
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/security/david-protein-domain-security.yml
+  href: https://artifacts.apis.io/david-protein/security/david-protein-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/david-protein-domain-security.yml
@@ -71,82 +73,82 @@ common:
   type: GettingStarted
   url: https://davidprotein.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/david-protein/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/llms/david-protein-llms.txt
+  href: https://artifacts.apis.io/david-protein/llms/david-protein-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/david-protein-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/well-known/david-protein-well-known.yml
+  href: https://artifacts.apis.io/david-protein/well-known/david-protein-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/david-protein-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/mcp/david-protein-mcp.yml
+  href: https://artifacts.apis.io/david-protein/mcp/david-protein-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/david-protein-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/authentication/david-protein-authentication.yml
+  href: https://artifacts.apis.io/david-protein/authentication/david-protein-authentication.yml
   title: ''
   type: Authentication
   url: authentication/david-protein-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/scopes/david-protein-scopes.yml
+  href: https://artifacts.apis.io/david-protein/scopes/david-protein-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/david-protein-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/conventions/david-protein-conventions.yml
+  href: https://artifacts.apis.io/david-protein/conventions/david-protein-conventions.yml
   title: ''
   type: Conventions
   url: conventions/david-protein-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/conventions/david-protein-conventions.yml
+  href: https://artifacts.apis.io/david-protein/conventions/david-protein-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/david-protein-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/errors/david-protein-problem-types.yml
+  href: https://artifacts.apis.io/david-protein/errors/david-protein-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/david-protein-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/lifecycle/david-protein-lifecycle.yml
+  href: https://artifacts.apis.io/david-protein/lifecycle/david-protein-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/david-protein-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/conformance/david-protein-conformance.yml
+  href: https://artifacts.apis.io/david-protein/conformance/david-protein-conformance.yml
   title: ''
   type: Conformance
   url: conformance/david-protein-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/rate-limits/david-protein-rate-limits.yml
+  href: https://artifacts.apis.io/david-protein/rate-limits/david-protein-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/david-protein-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/plans/david-protein-plans-pricing.yml
+  href: https://artifacts.apis.io/david-protein/plans/david-protein-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/david-protein-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/packages/david-protein-packages.yml
+  href: https://artifacts.apis.io/david-protein/packages/david-protein-packages.yml
   title: ''
   type: Packages
   url: packages/david-protein-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/components/david-protein-components.yml
+  href: https://artifacts.apis.io/david-protein/components/david-protein-components.yml
   title: ''
   type: Components
   url: components/david-protein-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/data-model/david-protein-data-model.yml
+  href: https://artifacts.apis.io/david-protein/data-model/david-protein-data-model.yml
   title: ''
   type: DataModel
   url: data-model/david-protein-data-model.yml
@@ -230,7 +232,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode/refreshToken/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: thin
-  composite: 29.4
+  composite: 28.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 35.0
@@ -244,9 +246,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 46.9
-    discoverability: 71.7
+    discoverability: 61.7
     operational_transparency: 0.0
-  previous_composite: 29.4
+  previous_composite: 28.4
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -257,14 +259,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/david-protein/refs/heads/main/screenshots/david-protein-2026-09-02T145223.png
+screenshot: https://apis.io/screenshots/david-protein/david-protein-2026-09-02T145223.png
 security:
 - kind: authentication
   name: David Protein Authentication
@@ -274,6 +276,14 @@ security:
   name: David Protein Domain Security
   slug: david-protein-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Browse the David Protein catalog
+  slug: david-protein-browse-catalog
+- name: Build a cart and take a David Protein order to checkout
+  slug: david-protein-build-cart-and-checkout
+- name: Check a David Protein order and request a return
+  slug: david-protein-order-status-and-returns
 slug: david-protein
 tags:
 - Agents

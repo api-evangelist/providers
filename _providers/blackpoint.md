@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -86,42 +88,42 @@ common:
   type: Compliance
   url: https://blackpointcyber.com/company/trust-center/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackpoint/refs/heads/main/authentication/blackpoint-authentication.yml
+  href: https://artifacts.apis.io/blackpoint/authentication/blackpoint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blackpoint-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackpoint/refs/heads/main/scopes/blackpoint-scopes.yml
+  href: https://artifacts.apis.io/blackpoint/scopes/blackpoint-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/blackpoint-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blackpoint/refs/heads/main/well-known/blackpoint-well-known.yml
+  href: https://artifacts.apis.io/blackpoint/well-known/blackpoint-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blackpoint-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blackpoint/refs/heads/main/conformance/blackpoint-conformance.yml
+  href: https://artifacts.apis.io/blackpoint/conformance/blackpoint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blackpoint-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackpoint/refs/heads/main/security/blackpoint-trust-center.yml
+  href: https://artifacts.apis.io/blackpoint/security/blackpoint-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blackpoint-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackpoint/refs/heads/main/security/blackpoint-domain-security.yml
+  href: https://artifacts.apis.io/blackpoint/security/blackpoint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blackpoint-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blackpoint/refs/heads/main/packages/blackpoint-packages.yml
+  href: https://artifacts.apis.io/blackpoint/packages/blackpoint-packages.yml
   title: ''
   type: Packages
   url: packages/blackpoint-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blackpoint/refs/heads/main/llms/blackpoint-llms.txt
+  href: https://artifacts.apis.io/blackpoint/llms/blackpoint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blackpoint-llms.txt
@@ -144,8 +146,8 @@ scopes:
   slug: blackpoint-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
-  band: emerging
-  composite: 22.4
+  band: thin
+  composite: 27.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -153,15 +155,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 16.7
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 22.3
+    developer_ergonomics: 28.6
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 27.0
   provenance:
     conformance: first-party
   regulatory:
@@ -176,14 +178,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/blackpoint/refs/heads/main/screenshots/blackpoint-2026-07-25T203257.png
+screenshot: https://apis.io/screenshots/blackpoint/blackpoint-2026-07-25T203257.png
 security:
 - kind: authentication
   name: Blackpoint Authentication

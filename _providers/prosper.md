@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RESTful API for Prosper investors and third-party agents to view account information, search active loan listings, place orders to purchase Notes, and retrieve owned Notes, invested loans, and loan pa
   name: Prosper Investor API
   slug: prosper-investor-api
-artifact_total: 3
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -94,7 +96,7 @@ common:
   type: PrivacyPolicy
   url: https://www.prosper.com/legal/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/authentication/prosper-authentication.yml
+  href: https://artifacts.apis.io/prosper/authentication/prosper-authentication.yml
   title: ''
   type: Authentication
   url: authentication/prosper-authentication.yml
@@ -103,32 +105,32 @@ common:
   type: OAuth
   url: https://www.prosper.com/oauth
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/sandbox/prosper-sandbox.yml
+  href: https://artifacts.apis.io/prosper/sandbox/prosper-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/prosper-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/security/prosper-domain-security.yml
+  href: https://artifacts.apis.io/prosper/security/prosper-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prosper-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/well-known/prosper-well-known.yml
+  href: https://artifacts.apis.io/prosper/well-known/prosper-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/prosper-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/packages/prosper-packages.yml
+  href: https://artifacts.apis.io/prosper/packages/prosper-packages.yml
   title: ''
   type: Packages
   url: packages/prosper-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/llms/prosper-llms.txt
+  href: https://artifacts.apis.io/prosper/llms/prosper-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/prosper-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/prosper/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -144,10 +146,10 @@ overview: 'Prosper is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Prosper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 14 more developer resources.'
-random_paper: 9
+random_paper: 11
 score:
   band: thin
-  composite: 29.8
+  composite: 31.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -157,13 +159,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 66.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 29.8
+  previous_composite: 31.7
   provenance:
     conformance: derived
     mcp: derived
@@ -174,14 +176,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/prosper/refs/heads/main/screenshots/prosper-2026-09-02T152212.png
+screenshot: https://apis.io/screenshots/prosper/prosper-2026-09-02T152212.png
 security:
 - kind: authentication
   name: Prosper Authentication
@@ -191,6 +193,12 @@ security:
   name: Prosper Domain Security
   slug: prosper-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Search listings and place an investment order
+  slug: prosper-search-and-invest
+- name: Track invested Notes, loans, and payments
+  slug: prosper-track-portfolio
 slug: prosper
 tags:
 - Company

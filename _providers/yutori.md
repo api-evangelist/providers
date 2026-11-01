@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 50.0
-  scored_at: '2026-10-17'
+  score: 46.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 29
   slug: yutori-agentic-access
   summary_line: 29 operations · 17 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.yutori.com
   baseurl_source: declared
@@ -70,15 +72,12 @@ apis:
   description: The Scouting API from Yutori — 16 operation(s) for scouting.
   name: Yutori Scouting API
   slug: yutori-scouting-api
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Yutori Webhooks
   slug: yutori-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Fast Browsing API
   slug: open-yutori-browsing-api
@@ -96,12 +95,12 @@ collections:
   slug: open-yutori-scouting-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/plans/yutori-plans-pricing.yml
+  href: https://artifacts.apis.io/yutori/plans/yutori-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/yutori-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/overlays/yutori-openapi-overlay.yaml
+  href: https://artifacts.apis.io/yutori/overlays/yutori-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/yutori-openapi-overlay.yaml
@@ -122,82 +121,82 @@ common:
   type: GettingStarted
   url: https://docs.yutori.com/llm-quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/authentication/yutori-authentication.yml
+  href: https://artifacts.apis.io/yutori/authentication/yutori-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yutori-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/packages/yutori-packages.yml
+  href: https://artifacts.apis.io/yutori/packages/yutori-packages.yml
   title: ''
   type: SDKs
   url: packages/yutori-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/packages/yutori-packages.yml
+  href: https://artifacts.apis.io/yutori/packages/yutori-packages.yml
   title: ''
   type: Packages
   url: packages/yutori-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/mcp/yutori-mcp.yml
+  href: https://artifacts.apis.io/yutori/mcp/yutori-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/yutori-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/yutori/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/well-known/yutori-well-known.yml
+  href: https://artifacts.apis.io/yutori/well-known/yutori-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/yutori-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/llms/yutori-llms.txt
+  href: https://artifacts.apis.io/yutori/llms/yutori-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yutori-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/conventions/yutori-conventions.yml
+  href: https://artifacts.apis.io/yutori/conventions/yutori-conventions.yml
   title: ''
   type: Conventions
   url: conventions/yutori-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/errors/yutori-problem-types.yml
+  href: https://artifacts.apis.io/yutori/errors/yutori-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/yutori-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/data-model/yutori-data-model.yml
+  href: https://artifacts.apis.io/yutori/data-model/yutori-data-model.yml
   title: ''
   type: DataModel
   url: data-model/yutori-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/conformance/yutori-conformance.yml
+  href: https://artifacts.apis.io/yutori/conformance/yutori-conformance.yml
   title: ''
   type: Conformance
   url: conformance/yutori-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/lifecycle/yutori-lifecycle.yml
+  href: https://artifacts.apis.io/yutori/lifecycle/yutori-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yutori-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/lifecycle/yutori-lifecycle.yml
+  href: https://artifacts.apis.io/yutori/lifecycle/yutori-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/yutori-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/asyncapi/yutori-webhooks.yml
+  href: https://artifacts.apis.io/yutori/asyncapi/yutori-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/yutori-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/agentic-access/yutori-agentic-access.yml
+  href: https://artifacts.apis.io/yutori/agentic-access/yutori-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/yutori-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/security/yutori-domain-security.yml
+  href: https://artifacts.apis.io/yutori/security/yutori-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yutori-domain-security.yml
@@ -235,6 +234,14 @@ common:
   url: https://yutori.com
 created: '2026-07-17'
 description: 'Yutori builds AI web agents delivered as an API. Its Navigator (n1.5) computer-use model drives cloud browsers to navigate, click, type, and extract structured data, and is OpenAI Chat Completions compatible. Scouts are always-on agents that monitor the web and alert on changes; the Research API runs one-time multi-source web research; and a hosted MCP server exposes the same capabilities over the Model Context Protocol. Founded in 2024 by former Meta AI researchers and backed by Radical Ventures and Felicis, Yutori is strongly agent-native: API-key bearer auth, published llms.txt, agent Skills, an RFC 9727 API catalog, and OAuth resource metadata. Pay-as-you-go pricing with $5 in free credits.'
+finops:
+- has_sources: true
+  method: derived
+  name: Yutori Finops
+  primary_unit: 1 million input tokens
+  service_category: ''
+  slug: yutori-finops
+  template: false
 image: https://yutori.com/icon-512.png
 layout: provider
 mcp_servers:
@@ -245,7 +252,7 @@ modified: '2026-07-21'
 name: Yutori
 nav: Providers
 network: true
-overview: 'Yutori publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Browsing API, Chat Completions API, Health API, and 2 more. Tagged areas include Company, Artificial Intelligence, Agents, Web Automation, and Browser Automation.
+overview: 'Yutori publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Browsing API, Chat Completions API, Health API, and 2 more. Tagged areas include Company, Artificial Intelligence, Agents, Browser Automation, and Web Monitoring.
 
 
   The Yutori catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -256,26 +263,26 @@ plans:
 - name: Yutori Plans Pricing
   plan_count: 10
   slug: yutori-plans-pricing
-random_paper: 2
+random_paper: 12
 score:
-  band: developing
-  composite: 51.7
+  band: strong
+  composite: 55.4
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.0
+  delta: 1.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 57.2
+    contract_quality: 55.2
     developer_ergonomics: 71.4
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 45.7
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,13 +299,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/yutori/refs/heads/main/screenshots/yutori-2026-08-17T083028.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/yutori/yutori-2026-08-17T083028.png
 security:
 - kind: authentication
   name: Yutori Authentication
@@ -308,12 +316,15 @@ security:
   name: Yutori Domain Security
   slug: yutori-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: yutori-api
+  slug: yutori-api
 slug: yutori
 tags:
 - Company
 - Artificial Intelligence
 - Agents
-- Web Automation
 - Browser Automation
 - Web Monitoring
 - Research

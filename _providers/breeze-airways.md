@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,16 +38,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Breeze Airways NDC gateway is the airline's direct-connect distribution API for accredited travel partners. It speaks IATA Offers and Orders (NDC) 21.3 XML over HTTPS on a Navitaire-hosted gateway
   name: Breeze Airways NDC Gateway
   slug: breeze-airways-ndc-gateway
-artifact_total: 4
+artifact_total: 7
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/mcp/breeze-airways-mcp.yml
+  href: https://artifacts.apis.io/breeze-airways/mcp/breeze-airways-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/breeze-airways-mcp.yml
@@ -90,7 +92,7 @@ common:
   type: ChangeLog
   url: https://ndc.flybreeze.com/news
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/changelog/breeze-airways-changelog.yml
+  href: https://artifacts.apis.io/breeze-airways/changelog/breeze-airways-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/breeze-airways-changelog.yml
@@ -107,57 +109,57 @@ common:
   type: Careers
   url: https://jobs.flybreeze.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/authentication/breeze-airways-authentication.yml
+  href: https://artifacts.apis.io/breeze-airways/authentication/breeze-airways-authentication.yml
   title: ''
   type: Authentication
   url: authentication/breeze-airways-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/scopes/breeze-airways-scopes.yml
+  href: https://artifacts.apis.io/breeze-airways/scopes/breeze-airways-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/breeze-airways-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/errors/breeze-airways-error-codes.yml
+  href: https://artifacts.apis.io/breeze-airways/errors/breeze-airways-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/breeze-airways-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/conventions/breeze-airways-conventions.yml
+  href: https://artifacts.apis.io/breeze-airways/conventions/breeze-airways-conventions.yml
   title: ''
   type: Conventions
   url: conventions/breeze-airways-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/conformance/breeze-airways-conformance.yml
+  href: https://artifacts.apis.io/breeze-airways/conformance/breeze-airways-conformance.yml
   title: ''
   type: Conformance
   url: conformance/breeze-airways-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/lifecycle/breeze-airways-lifecycle.yml
+  href: https://artifacts.apis.io/breeze-airways/lifecycle/breeze-airways-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/breeze-airways-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/data-model/breeze-airways-data-model.yml
+  href: https://artifacts.apis.io/breeze-airways/data-model/breeze-airways-data-model.yml
   title: ''
   type: DataModel
   url: data-model/breeze-airways-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/sandbox/breeze-airways-sandbox.yml
+  href: https://artifacts.apis.io/breeze-airways/sandbox/breeze-airways-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/breeze-airways-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/breeze-airways/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/llms/breeze-airways-llms.txt
+  href: https://artifacts.apis.io/breeze-airways/llms/breeze-airways-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/breeze-airways-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/security/breeze-airways-domain-security.yml
+  href: https://artifacts.apis.io/breeze-airways/security/breeze-airways-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/breeze-airways-domain-security.yml
@@ -173,15 +175,15 @@ overview: 'Breeze Airways is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Breeze Airways'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 19 more developer resources.'
-random_paper: 20
+random_paper: 10
 scopes:
 - name: Breeze Airways Scopes
   scope_count: 0
   slug: breeze-airways-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 21.7
+  band: thin
+  composite: 35.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -189,14 +191,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 25.6
-    discoverability: 73.2
-    operational_transparency: 0.0
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -204,7 +206,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 21.6
+  previous_composite: 35.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -215,14 +217,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/screenshots/breeze-airways-2026-08-07T162755.png
+screenshot: https://apis.io/screenshots/breeze-airways/breeze-airways-2026-08-07T162755.png
 security:
 - kind: authentication
   name: Breeze Airways Authentication
@@ -232,6 +234,14 @@ security:
   name: Breeze Airways Domain Security
   slug: breeze-airways-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Add bags, bundles and seats to a Breeze offer
+  slug: breeze-airways-ancillaries
+- name: Retrieve, reshop and cancel a Breeze order
+  slug: breeze-airways-servicing
+- name: Shop Breeze flights and create an order
+  slug: breeze-airways-shop-and-book
 slug: breeze-airways
 tags:
 - Company

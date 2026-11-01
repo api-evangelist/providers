@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Undocumented HTTPS API behind WaveBL's public Certificate of Authenticity tool — the free service at coa.wavebl.com that lets any party verify that a bill of lading or trade document was issued and tr
@@ -32,7 +34,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wavebl/refs/heads/main/security/wavebl-domain-security.yml
+  href: https://artifacts.apis.io/wavebl/security/wavebl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wavebl-domain-security.yml
@@ -69,42 +71,42 @@ common:
   type: Compliance
   url: https://wavebl.com/wave-bl-achieves-iso-27001-and-27017-compliance-certification/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wavebl/refs/heads/main/conformance/wavebl-conformance.yml
+  href: https://artifacts.apis.io/wavebl/conformance/wavebl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wavebl-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wavebl/refs/heads/main/authentication/wavebl-authentication.yml
+  href: https://artifacts.apis.io/wavebl/authentication/wavebl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wavebl-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wavebl/refs/heads/main/well-known/wavebl-well-known.yml
+  href: https://artifacts.apis.io/wavebl/well-known/wavebl-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wavebl-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wavebl/refs/heads/main/packages/wavebl-packages.yml
+  href: https://artifacts.apis.io/wavebl/packages/wavebl-packages.yml
   title: ''
   type: Packages
   url: packages/wavebl-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wavebl/refs/heads/main/plans/wavebl-plans-pricing.yml
+  href: https://artifacts.apis.io/wavebl/plans/wavebl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wavebl-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wavebl/refs/heads/main/rate-limits/wavebl-rate-limits.yml
+  href: https://artifacts.apis.io/wavebl/rate-limits/wavebl-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wavebl-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wavebl/refs/heads/main/lifecycle/wavebl-lifecycle.yml
+  href: https://artifacts.apis.io/wavebl/lifecycle/wavebl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wavebl-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wavebl/refs/heads/main/llms/wavebl-llms.txt
+  href: https://artifacts.apis.io/wavebl/llms/wavebl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wavebl-llms.txt
@@ -145,7 +147,7 @@ plans:
 - name: Wavebl Plans Pricing
   plan_count: 4
   slug: wavebl-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Wavebl Rate Limits
@@ -183,14 +185,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 28.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wavebl/refs/heads/main/screenshots/wavebl-2026-10-11T193347.png
+screenshot: https://apis.io/screenshots/wavebl/wavebl-2026-10-11T193347.png
 security:
 - kind: authentication
   name: Wavebl Authentication

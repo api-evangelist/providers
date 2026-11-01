@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.4
-  scored_at: '2026-10-17'
+  score: 41.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -62,49 +64,54 @@ apis:
   description: The Report API from Fama — 1 operation(s) for report.
   name: Fama Report API
   slug: fama-report-api
-artifact_total: 16
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Fama Webhooks
   slug: fama-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/fama/capabilities/fama-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fama-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/agentic-access/fama-agentic-access.yml
+  href: https://artifacts.apis.io/fama/agentic-access/fama-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fama-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/rules/fama-rules.yml
+  href: https://artifacts.apis.io/fama/rules/fama-rules.yml
   title: ''
   type: Spectral
   url: rules/fama-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/json-ld/fama-context.jsonld
+  href: https://artifacts.apis.io/fama/json-ld/fama-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/fama-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/vocabulary/fama-vocabulary.yml
+  href: https://artifacts.apis.io/fama/vocabulary/fama-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/fama-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/errors/fama-problem-types.yml
+  href: https://artifacts.apis.io/fama/errors/fama-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fama-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/well-known/fama-well-known.yml
+  href: https://artifacts.apis.io/fama/well-known/fama-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fama-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/hosts/fama-hosts.yml
+  href: https://artifacts.apis.io/fama/hosts/fama-hosts.yml
   title: ''
   type: Hosts
   url: hosts/fama-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/vendors/fama-vendors.yml
+  href: https://artifacts.apis.io/fama/vendors/fama-vendors.yml
   title: ''
   type: Vendors
   url: vendors/fama-vendors.yml
@@ -117,7 +124,7 @@ common:
   type: Newsroom
   url: https://fama.io/press
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/plans/fama-plans-pricing.yml
+  href: https://artifacts.apis.io/fama/plans/fama-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fama-plans-pricing.yml
@@ -162,67 +169,67 @@ common:
   type: StatusPage
   url: https://status.fama.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/llms/fama-llms.txt
+  href: https://artifacts.apis.io/fama/llms/fama-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fama-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/authentication/fama-authentication.yml
+  href: https://artifacts.apis.io/fama/authentication/fama-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fama-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/rate-limits/fama-rate-limits.yml
+  href: https://artifacts.apis.io/fama/rate-limits/fama-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fama-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/errors/fama-error-codes.yml
+  href: https://artifacts.apis.io/fama/errors/fama-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/fama-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/conventions/fama-conventions.yml
+  href: https://artifacts.apis.io/fama/conventions/fama-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fama-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/lifecycle/fama-lifecycle.yml
+  href: https://artifacts.apis.io/fama/lifecycle/fama-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fama-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/lifecycle/fama-lifecycle.yml
+  href: https://artifacts.apis.io/fama/lifecycle/fama-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/fama-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/asyncapi/fama-webhooks.yml
+  href: https://artifacts.apis.io/fama/asyncapi/fama-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fama-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/sandbox/fama-sandbox.yml
+  href: https://artifacts.apis.io/fama/sandbox/fama-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fama-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/mcp/fama-mcp.yml
+  href: https://artifacts.apis.io/fama/mcp/fama-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fama-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fama/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/data-model/fama-data-model.yml
+  href: https://artifacts.apis.io/fama/data-model/fama-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fama-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/conformance/fama-conformance.yml
+  href: https://artifacts.apis.io/fama/conformance/fama-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fama-conformance.yml
@@ -231,12 +238,12 @@ common:
   type: Compliance
   url: https://trust.fama.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/security/fama-trust-center.yml
+  href: https://artifacts.apis.io/fama/security/fama-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fama-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/security/fama-domain-security.yml
+  href: https://artifacts.apis.io/fama/security/fama-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fama-domain-security.yml
@@ -246,6 +253,14 @@ common:
   url: https://fama.io
 created: '2026-07-17'
 description: Fama is an AI-powered social media and online screening platform for employment decisions. Its REST API lets HR platforms and background-screening providers submit candidate checks and retrieve behavioral findings — flagged posts, web content, and social profiles — mapped to workplace-misconduct categories across 30+ languages while filtering out protected-class information for EEOC/FCRA-aligned adjudication. Reports are delivered via completion callbacks or polling as JSON or a signed PDF, powering pre-employment screening (Fama Plus), comprehensive candidate assessment (Fama 360), and ongoing employee monitoring (Fama Pulse).
+finops:
+- has_sources: true
+  method: derived
+  name: Fama Finops
+  primary_unit: report (1 candidate)
+  service_category: ''
+  slug: fama-finops
+  template: false
 image: https://cdn.prod.website-files.com/63ea1ecaf41aeda5d5045103/6622b457a4c9d4fde1e2a424_Fama%20Open%20Graph%20Image%202%201200%20x%20630.svg
 json_schemas:
 - name: CheckRequest
@@ -273,12 +288,12 @@ overview: 'Fama publishes 4 API contracts indexed on the [APIs.io](https://apis.
   The Fama catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Fama''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  Fama''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 plans:
 - name: Fama Plans Pricing
   plan_count: 2
   slug: fama-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Fama Rate Limits
@@ -297,24 +312,24 @@ rules:
     warn: 1
   slug: fama-rules
 score:
-  band: strong
-  composite: 62.5
+  band: exemplar
+  composite: 68.9
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 81.8
+    artifact_dirs: 29
+    catalog_earned: 84.8
     catalog_earned_first_party: 16.0
-    catalog_gap: 33.3
+    catalog_gap: 30.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 17.3
+  delta: 1.6
   facets:
-    access_clarity: 81.6
+    access_clarity: 89.5
     contract_governance: 35.6
     contract_quality: 72.2
-    developer_ergonomics: 47.0
-    discoverability: 80.4
-    operational_transparency: 44.7
-  previous_composite: 45.2
+    developer_ergonomics: 66.1
+    discoverability: 73.2
+    operational_transparency: 52.6
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -335,13 +350,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/screenshots/fama-2026-07-25T214205.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fama/fama-2026-07-25T214205.png
 security:
 - kind: authentication
   name: Fama Authentication
@@ -355,6 +371,12 @@ security:
   name: Fama Trust Center
   slug: fama-trust-center
   summary_line: SOC 2 Type 1
+skill_count: 2
+skills:
+- name: Review Fama report findings
+  slug: fama-review-report-findings
+- name: Run a Fama screening check and retrieve the report
+  slug: fama-run-screening-check
 slug: fama
 tags:
 - Company

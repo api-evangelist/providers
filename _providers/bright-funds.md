@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -66,47 +68,47 @@ common:
   type: PrivacyPolicy
   url: https://www.brightfunds.org/privacy_policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bright-funds/refs/heads/main/authentication/bright-funds-authentication.yml
+  href: https://artifacts.apis.io/bright-funds/authentication/bright-funds-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bright-funds-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bright-funds/refs/heads/main/scopes/bright-funds-scopes.yml
+  href: https://artifacts.apis.io/bright-funds/scopes/bright-funds-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bright-funds-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bright-funds/refs/heads/main/well-known/bright-funds-well-known.yml
+  href: https://artifacts.apis.io/bright-funds/well-known/bright-funds-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bright-funds-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bright-funds/refs/heads/main/well-known/bright-funds-security.txt
+  href: https://artifacts.apis.io/bright-funds/well-known/bright-funds-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bright-funds-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bright-funds/refs/heads/main/conformance/bright-funds-conformance.yml
+  href: https://artifacts.apis.io/bright-funds/conformance/bright-funds-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bright-funds-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bright-funds/refs/heads/main/security/bright-funds-domain-security.yml
+  href: https://artifacts.apis.io/bright-funds/security/bright-funds-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bright-funds-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bright-funds/refs/heads/main/security/bright-funds-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bright-funds/security/bright-funds-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bright-funds-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bright-funds/refs/heads/main/well-known/bright-funds-security.txt
+  href: https://artifacts.apis.io/bright-funds/well-known/bright-funds-security.txt
   title: ''
   type: Security
   url: well-known/bright-funds-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bright-funds/refs/heads/main/llms/bright-funds-llms.txt
+  href: https://artifacts.apis.io/bright-funds/llms/bright-funds-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bright-funds-llms.txt
@@ -122,7 +124,7 @@ overview: 'Bright Funds is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Bright Funds'' developer surface includes support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 19
+random_paper: 5
 scopes:
 - name: Bright Funds Scopes
   scope_count: 7
@@ -130,7 +132,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 24.1
+  composite: 24.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -138,15 +140,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 24.0
+  previous_composite: 24.7
   provenance:
     conformance: first-party
   regulatory:
@@ -155,14 +157,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bright-funds/refs/heads/main/screenshots/bright-funds-2026-07-25T203821.png
+screenshot: https://apis.io/screenshots/bright-funds/bright-funds-2026-07-25T203821.png
 security:
 - kind: authentication
   name: Bright Funds Authentication

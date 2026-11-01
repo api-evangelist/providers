@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.9
-  scored_at: '2026-10-17'
+  score: 39.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 84
   slug: friendliai-agentic-access
   summary_line: 84 operations · 66 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.friendli.ai
   baseurl_source: declared
@@ -217,11 +219,8 @@ arazzos:
 - description: Create a Dedicated Endpoint, wait for it to be ready, then run a chat completion.
   name: FriendliAI deploy a Dedicated Endpoint and infer
   slug: friendliai-deploy-and-infer
-artifact_total: 75
+artifact_total: 78
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Friendli Suite API Reference Container.Audio API
   slug: open-friendliai-container-audio-api
@@ -323,107 +322,107 @@ collections:
   slug: open-friendliai-usage-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/plans/friendliai-plans-pricing.yml
+  href: https://artifacts.apis.io/friendliai/plans/friendliai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/friendliai-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/capabilities/friendliai-capability-edges.yml
+  href: https://artifacts.apis.io/friendliai/capabilities/friendliai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/friendliai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/overlays/friendliai-openapi-overlay.yaml
+  href: https://artifacts.apis.io/friendliai/overlays/friendliai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/friendliai-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/security/friendliai-domain-security.yml
+  href: https://artifacts.apis.io/friendliai/security/friendliai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/friendliai-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/agentic-access/friendliai-agentic-access.yml
+  href: https://artifacts.apis.io/friendliai/agentic-access/friendliai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/friendliai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/authentication/friendliai-authentication.yml
+  href: https://artifacts.apis.io/friendliai/authentication/friendliai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/friendliai-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/packages/friendliai-packages.yml
+  href: https://artifacts.apis.io/friendliai/packages/friendliai-packages.yml
   title: ''
   type: Packages
   url: packages/friendliai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/packages/friendliai-packages.yml
+  href: https://artifacts.apis.io/friendliai/packages/friendliai-packages.yml
   title: ''
   type: SDKs
   url: packages/friendliai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/cli/friendliai-cli.yml
+  href: https://artifacts.apis.io/friendliai/cli/friendliai-cli.yml
   title: ''
   type: CLI
   url: cli/friendliai-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/mcp/friendliai-mcp.yml
+  href: https://artifacts.apis.io/friendliai/mcp/friendliai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/friendliai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/llms/friendliai-llms.txt
+  href: https://artifacts.apis.io/friendliai/llms/friendliai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/friendliai-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/conformance/friendliai-conformance.yml
+  href: https://artifacts.apis.io/friendliai/conformance/friendliai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/friendliai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/errors/friendliai-problem-types.yml
+  href: https://artifacts.apis.io/friendliai/errors/friendliai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/friendliai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/lifecycle/friendliai-lifecycle.yml
+  href: https://artifacts.apis.io/friendliai/lifecycle/friendliai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/friendliai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/conventions/friendliai-conventions.yml
+  href: https://artifacts.apis.io/friendliai/conventions/friendliai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/friendliai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/data-model/friendliai-data-model.yml
+  href: https://artifacts.apis.io/friendliai/data-model/friendliai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/friendliai-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/rate-limits/friendliai-rate-limits.yml
+  href: https://artifacts.apis.io/friendliai/rate-limits/friendliai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/friendliai-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/changelog/friendliai-changelog.yml
+  href: https://artifacts.apis.io/friendliai/changelog/friendliai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/friendliai-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/friendliai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/arazzo/friendliai-chat-completion.yml
+  href: https://artifacts.apis.io/friendliai/arazzo/friendliai-chat-completion.yml
   title: ''
   type: Arazzo
   url: arazzo/friendliai-chat-completion.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/arazzo/friendliai-deploy-and-infer.yml
+  href: https://artifacts.apis.io/friendliai/arazzo/friendliai-deploy-and-infer.yml
   title: ''
   type: Arazzo
   url: arazzo/friendliai-deploy-and-infer.yml
@@ -497,6 +496,14 @@ common:
   url: https://friendli.ai/
 created: '2026-07-17'
 description: 'FriendliAI is an AI inference cloud that runs generative AI models fast, affordably, and reliably at scale. Its Friendli Suite spans three products: Model APIs (serverless, pay-per-token access to popular open-weight LLMs and multimodal models), Dedicated Endpoints (any open-source or custom model on dedicated GPUs with autoscaling, versioning, multi-LoRA and speculative decoding), and Friendli Container (self-hosted inference with gRPC, quantization and policy search). The API is OpenAI-compatible, so existing OpenAI applications migrate by changing the base URL and API key, with support for chat completions, tool calling, structured outputs, reasoning, audio transcription, embeddings and image generation. FriendliAI is a portfolio company of Sierra Ventures.'
+finops:
+- has_sources: true
+  method: derived
+  name: Friendliai Finops
+  primary_unit: 1m tokens
+  service_category: ''
+  slug: friendliai-finops
+  template: false
 image: https://friendli.ai/opengraph-image.png
 layout: provider
 modified: '2026-07-19'
@@ -511,30 +518,30 @@ plans:
 - name: Friendliai Plans Pricing
   plan_count: 15
   slug: friendliai-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Friendliai Rate Limits
   slug: friendliai-rate-limits
 score:
-  band: developing
-  composite: 53.4
+  band: strong
+  composite: 62.5
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 49.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 54.8
-    developer_ergonomics: 67.3
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 53.8
+    contract_quality: 54.6
+    developer_ergonomics: 80.4
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -550,14 +557,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/screenshots/friendliai-2026-07-25T215224.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/friendliai/friendliai-2026-07-25T215224.png
 security:
 - kind: authentication
   name: Friendliai Authentication
@@ -571,6 +579,14 @@ security:
   name: Friendliai Trust Center
   slug: friendliai-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Generate a chat completion with Friendli Model APIs
+  slug: friendliai-chat-completion
+- name: Deploy a Dedicated Endpoint and run inference
+  slug: friendliai-deploy-dedicated-endpoint
+- name: Call tools with a Friendli model
+  slug: friendliai-tool-calling
 slug: friendliai
 tags:
 - Company

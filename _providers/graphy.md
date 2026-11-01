@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -49,27 +51,24 @@ apis:
   description: The Agents API from Graphy — 7 operation(s) for agents.
   name: Graphy Agents API
   slug: graphy-agents-api
-artifact_total: 7
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Graphy AI Agents API
   slug: open-graphy-agents-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/plans/graphy-plans-pricing.yml
+  href: https://artifacts.apis.io/graphy/plans/graphy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/graphy-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/overlays/graphy-agents-overlay.yaml
+  href: https://artifacts.apis.io/graphy/overlays/graphy-agents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/graphy-agents-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/agentic-access/graphy-agentic-access.yml
+  href: https://artifacts.apis.io/graphy/agentic-access/graphy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/graphy-agentic-access.yml
@@ -126,77 +125,85 @@ common:
   type: Sandbox
   url: https://playground.graphy.dev/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/changelog/graphy-changelog.yml
+  href: https://artifacts.apis.io/graphy/changelog/graphy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/graphy-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/lifecycle/graphy-lifecycle.yml
+  href: https://artifacts.apis.io/graphy/lifecycle/graphy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/graphy-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/authentication/graphy-authentication.yml
+  href: https://artifacts.apis.io/graphy/authentication/graphy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/graphy-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/security/graphy-domain-security.yml
+  href: https://artifacts.apis.io/graphy/security/graphy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/graphy-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/packages/graphy-packages.yml
+  href: https://artifacts.apis.io/graphy/packages/graphy-packages.yml
   title: ''
   type: Packages
   url: packages/graphy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/packages/graphy-packages.yml
+  href: https://artifacts.apis.io/graphy/packages/graphy-packages.yml
   title: ''
   type: SDKs
   url: packages/graphy-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/components/graphy-components.yml
+  href: https://artifacts.apis.io/graphy/components/graphy-components.yml
   title: ''
   type: Components
   url: components/graphy-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/mcp/graphy-mcp.yml
+  href: https://artifacts.apis.io/graphy/mcp/graphy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/graphy-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/llms/graphy-llms.txt
+  href: https://artifacts.apis.io/graphy/llms/graphy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/graphy-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/errors/graphy-problem-types.yml
+  href: https://artifacts.apis.io/graphy/errors/graphy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/graphy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/conventions/graphy-conventions.yml
+  href: https://artifacts.apis.io/graphy/conventions/graphy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/graphy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/conformance/graphy-conformance.yml
+  href: https://artifacts.apis.io/graphy/conformance/graphy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/graphy-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/data-model/graphy-data-model.yml
+  href: https://artifacts.apis.io/graphy/data-model/graphy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/graphy-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/graphy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'Graphy is an AI-powered data visualization platform that turns raw data into presentation-ready charts and interactive data stories. Alongside its no-code chart maker (Google Sheets, CSV and Excel import, AI insights, conversational data chat and 20+ chart types), Graphy ships a developer platform at graphy.dev: an AI Agents API that generates, mutates, annotates, narrates, extracts and deterministically evaluates charts from natural language — streamed as Server-Sent Events — plus a React charting SDK and editor for embedding editable, story-driven data experiences inside your own product. Backed by Seedcamp, Coatue, General Catalyst and Northzone.'
+finops:
+- has_sources: true
+  method: derived
+  name: Graphy Finops
+  primary_unit: user/month
+  service_category: ''
+  slug: graphy-finops
+  template: false
 image: https://framerusercontent.com/assets/HQAKsmFxtBCYp0V86Kb4PbbCjx4.png
 layout: provider
 modified: '2026-07-19'
@@ -211,26 +218,29 @@ plans:
 - name: Graphy Plans Pricing
   plan_count: 3
   slug: graphy-plans-pricing
-random_paper: 13
+- name: Graphy Price Estimates
+  plan_count: 0
+  slug: graphy-price-estimates
+random_paper: 3
 score:
-  band: developing
-  composite: 53.2
+  band: strong
+  composite: 57.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 53.3
-    developer_ergonomics: 61.3
-    discoverability: 73.2
-    operational_transparency: 31.6
-  previous_composite: 46.9
+    developer_ergonomics: 68.5
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,13 +257,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/screenshots/graphy-2026-07-25T220250.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/graphy/graphy-2026-07-25T220250.png
 security:
 - kind: authentication
   name: Graphy Authentication
@@ -263,6 +274,12 @@ security:
   name: Graphy Domain Security
   slug: graphy-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Extract data and build a chart with Graphy
+  slug: graphy-extract-and-visualize
+- name: Refine and annotate a chart with Graphy
+  slug: graphy-refine-chart
 slug: graphy
 tags:
 - Company

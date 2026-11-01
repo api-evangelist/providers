@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.5
-  scored_at: '2026-10-17'
+  score: 32.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -101,7 +103,7 @@ apis:
   description: The W-9 Forms API from Veryfi — 2 operation(s) for w-9 forms.
   name: Veryfi W-9 Forms API
   slug: veryfi-w-9-forms-api
-artifact_total: 56
+artifact_total: 55
 collections:
 - collection_type: postman
   name: Veryfi OCR Any Documents API
@@ -124,9 +126,6 @@ collections:
 - collection_type: postman
   name: Veryfi OCR Any Documents W-9 Forms API
   slug: postman-veryfi-w-9-forms-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Veryfi OCR Any Documents API
   slug: open-veryfi-any-documents-api
@@ -152,18 +151,23 @@ collections:
   name: Veryfi OCR Any Documents W-9 Forms API
   slug: open-veryfi-w-9-forms-api
 common:
+- group: other
+  href: https://artifacts.apis.io/veryfi/capabilities/veryfi-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/veryfi-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/plans/veryfi-plans-pricing.yml
+  href: https://artifacts.apis.io/veryfi/plans/veryfi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/veryfi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/rate-limits/veryfi-rate-limits.yml
+  href: https://artifacts.apis.io/veryfi/rate-limits/veryfi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/veryfi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/finops/veryfi-finops.yml
+  href: https://artifacts.apis.io/veryfi/finops/veryfi-finops.yml
   title: ''
   type: FinOps
   url: finops/veryfi-finops.yml
@@ -176,27 +180,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/veryfi/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/agentic-access/veryfi-agentic-access.yml
+  href: https://artifacts.apis.io/veryfi/agentic-access/veryfi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/veryfi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/security/veryfi-trust-center.yml
+  href: https://artifacts.apis.io/veryfi/security/veryfi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/veryfi-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/security/veryfi-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/veryfi/security/veryfi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/veryfi-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/security/veryfi-domain-security.yml
+  href: https://artifacts.apis.io/veryfi/security/veryfi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/veryfi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/authentication/veryfi-authentication.yml
+  href: https://artifacts.apis.io/veryfi/authentication/veryfi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/veryfi-authentication.yml
@@ -329,12 +333,12 @@ overview: 'Veryfi publishes 14 API contracts indexed on the [APIs.io](https://ap
   The Veryfi catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Veryfi''s developer surface includes engineering blog, authentication, documentation, developer console, signup flow, support, and 18 more developer resources.'
+  Veryfi''s developer surface includes engineering blog, authentication, documentation, developer console, signup flow, support, and 19 more developer resources.'
 plans:
 - name: Veryfi Plans Pricing
   plan_count: 3
   slug: veryfi-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Veryfi Rate Limits
@@ -365,23 +369,23 @@ rules:
   slug: veryfi-ocr-rules
 score:
   band: developing
-  composite: 49.3
+  composite: 49.7
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 52.5
     catalog_earned_first_party: 0.0
     catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 60.7
-    developer_ergonomics: 50.5
+    contract_quality: 59.3
+    developer_ergonomics: 57.6
     discoverability: 63.3
-    operational_transparency: 10.5
-  previous_composite: 50.3
+    operational_transparency: 21.1
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -395,13 +399,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/screenshots/veryfi-2026-06-20T201000.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/veryfi/veryfi-2026-06-20T201000.png
 security:
 - kind: authentication
   name: Veryfi Authentication

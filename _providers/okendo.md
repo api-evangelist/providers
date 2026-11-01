@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Server-side Enterprise REST API for managing reviews (list/get/update/reply), review groups, customers and profiles, loyalty (rules, transactions, VIP tiers, coupons), survey and quiz responses, trans
@@ -43,7 +45,7 @@ apis:
 - description: Public, unauthenticated read API (scoped by okendo_user_id in the path) for displaying published reviews, review aggregates, review media, AI review summaries/keywords and product questions across pro
   name: Okendo Storefront REST API
   slug: okendo-storefront-rest-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Okendo Webhooks
@@ -98,7 +100,7 @@ common:
   type: Security
   url: https://okendo.io/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/security/okendo-trust-center.yml
+  href: https://artifacts.apis.io/okendo/security/okendo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/okendo-trust-center.yml
@@ -107,72 +109,72 @@ common:
   type: Compliance
   url: https://trust.okendo.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/authentication/okendo-authentication.yml
+  href: https://artifacts.apis.io/okendo/authentication/okendo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/okendo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/conventions/okendo-conventions.yml
+  href: https://artifacts.apis.io/okendo/conventions/okendo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/okendo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/asyncapi/okendo-webhooks.yml
+  href: https://artifacts.apis.io/okendo/asyncapi/okendo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/okendo-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/packages/okendo-packages.yml
+  href: https://artifacts.apis.io/okendo/packages/okendo-packages.yml
   title: ''
   type: Packages
   url: packages/okendo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/packages/okendo-packages.yml
+  href: https://artifacts.apis.io/okendo/packages/okendo-packages.yml
   title: ''
   type: SDKs
   url: packages/okendo-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/components/okendo-components.yml
+  href: https://artifacts.apis.io/okendo/components/okendo-components.yml
   title: ''
   type: Components
   url: components/okendo-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/mcp/okendo-mcp.yml
+  href: https://artifacts.apis.io/okendo/mcp/okendo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/okendo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/llms/okendo-llms.txt
+  href: https://artifacts.apis.io/okendo/llms/okendo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/okendo-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/lifecycle/okendo-lifecycle.yml
+  href: https://artifacts.apis.io/okendo/lifecycle/okendo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/okendo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/conformance/okendo-conformance.yml
+  href: https://artifacts.apis.io/okendo/conformance/okendo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/okendo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/data-model/okendo-data-model.yml
+  href: https://artifacts.apis.io/okendo/data-model/okendo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/okendo-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/security/okendo-domain-security.yml
+  href: https://artifacts.apis.io/okendo/security/okendo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/okendo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/security/okendo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/okendo/security/okendo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/okendo-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/okendo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -195,10 +197,10 @@ overview: 'Okendo is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Okendo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 2
+random_paper: 16
 score:
-  band: thin
-  composite: 37.9
+  band: developing
+  composite: 47.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -206,15 +208,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 47.4
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 28.0
-    discoverability: 73.2
+    developer_ergonomics: 66.1
+    discoverability: 66.1
     operational_transparency: 34.2
-  previous_composite: 37.8
+  previous_composite: 47.1
   provenance:
     conformance: derived
     mcp: derived
@@ -228,15 +230,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/screenshots/okendo-2026-08-07T190049.png
+screenshot: https://apis.io/screenshots/okendo/okendo-2026-08-07T190049.png
 security:
 - kind: authentication
   name: Okendo Authentication
@@ -254,6 +256,12 @@ security:
   name: Okendo Trust Center
   slug: okendo-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 2
+skills:
+- name: Manage Okendo loyalty points
+  slug: okendo-manage-loyalty-points
+- name: Moderate and reply to Okendo reviews
+  slug: okendo-moderate-and-reply-to-reviews
 slug: okendo
 tags:
 - Company

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 26.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 135
   human_in_the_loop: 6
@@ -204,11 +206,13 @@ apis:
   description: Workbook management
   name: Ask Sage Workbooks API
   slug: ask-sage-workbooks-api
-artifact_total: 70
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Organization management
+  name: Ask Sage Organization API
+  slug: ask-sage-organization-api
+artifact_total: 72
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ask Sage Server Admin API
   slug: open-ask-sage-admin-api
@@ -307,17 +311,17 @@ collections:
   slug: open-ask-sage-workbooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/plans/ask-sage-plans-pricing.yml
+  href: https://artifacts.apis.io/ask-sage/plans/ask-sage-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ask-sage-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/capabilities/ask-sage-capability-edges.yml
+  href: https://artifacts.apis.io/ask-sage/capabilities/ask-sage-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ask-sage-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/overlays/ask-sage-server-overlay.yaml
+  href: https://artifacts.apis.io/ask-sage/overlays/ask-sage-server-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ask-sage-server-overlay.yaml
@@ -378,77 +382,77 @@ common:
   type: Compliance
   url: https://www.asksage.ai/use-cases/compliance/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/packages/ask-sage-packages.yml
+  href: https://artifacts.apis.io/ask-sage/packages/ask-sage-packages.yml
   title: ''
   type: Packages
   url: packages/ask-sage-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/packages/ask-sage-packages.yml
+  href: https://artifacts.apis.io/ask-sage/packages/ask-sage-packages.yml
   title: ''
   type: SDKs
   url: packages/ask-sage-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/mcp/ask-sage-mcp.yml
+  href: https://artifacts.apis.io/ask-sage/mcp/ask-sage-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ask-sage-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/llms/ask-sage-llms.txt
+  href: https://artifacts.apis.io/ask-sage/llms/ask-sage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ask-sage-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/conformance/ask-sage-conformance.yml
+  href: https://artifacts.apis.io/ask-sage/conformance/ask-sage-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ask-sage-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/errors/ask-sage-problem-types.yml
+  href: https://artifacts.apis.io/ask-sage/errors/ask-sage-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ask-sage-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/lifecycle/ask-sage-lifecycle.yml
+  href: https://artifacts.apis.io/ask-sage/lifecycle/ask-sage-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ask-sage-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/conventions/ask-sage-conventions.yml
+  href: https://artifacts.apis.io/ask-sage/conventions/ask-sage-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ask-sage-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/components/ask-sage-components.yml
+  href: https://artifacts.apis.io/ask-sage/components/ask-sage-components.yml
   title: ''
   type: Components
   url: components/ask-sage-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/data-model/ask-sage-data-model.yml
+  href: https://artifacts.apis.io/ask-sage/data-model/ask-sage-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ask-sage-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ask-sage/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/security/ask-sage-trust-center.yml
+  href: https://artifacts.apis.io/ask-sage/security/ask-sage-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ask-sage-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/security/ask-sage-domain-security.yml
+  href: https://artifacts.apis.io/ask-sage/security/ask-sage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ask-sage-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/agentic-access/ask-sage-agentic-access.yml
+  href: https://artifacts.apis.io/ask-sage/agentic-access/ask-sage-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ask-sage-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/authentication/ask-sage-authentication.yml
+  href: https://artifacts.apis.io/ask-sage/authentication/ask-sage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ask-sage-authentication.yml
@@ -460,7 +464,7 @@ modified: '2026-07-18'
 name: Ask Sage
 nav: Providers
 network: true
-overview: 'Ask Sage publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Agent Builder API, Allocation API, and 29 more. Tagged areas include Company, Artificial Intelligence, Generative AI, LLM, and Government.
+overview: 'Ask Sage publishes 33 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Agent Builder API, Allocation API, and 30 more. Tagged areas include Company, Artificial Intelligence, Generative AI, LLM, and Government.
 
 
   Ask Sage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
@@ -468,10 +472,10 @@ plans:
 - name: Ask Sage Plans Pricing
   plan_count: 0
   slug: ask-sage-plans-pricing
-random_paper: 10
+random_paper: 12
 score:
-  band: thin
-  composite: 38.6
+  band: developing
+  composite: 48.2
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -479,15 +483,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 43.5
-    developer_ergonomics: 39.9
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 38.7
+    contract_quality: 45.1
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -495,7 +499,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 32
+      total: 49
     mcp: derived
     skills: derived
   regulatory:
@@ -503,14 +507,15 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/screenshots/ask-sage-2026-07-25T201421.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ask-sage/ask-sage-2026-07-25T201421.png
 security:
 - kind: authentication
   name: Ask Sage Authentication
@@ -524,6 +529,12 @@ security:
   name: Ask Sage Trust Center
   slug: ask-sage-trust-center
   summary_line: FedRAMP, GDPR
+skill_count: 2
+skills:
+- name: Query a model with a private dataset (RAG)
+  slug: ask-sage-query-with-dataset
+- name: Run an Ask Sage agent
+  slug: ask-sage-run-agent
 slug: ask-sage
 tags:
 - Company

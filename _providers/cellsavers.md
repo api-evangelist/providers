@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation hosted at api-docs.puls.com, but no machine-readable spec was found.
@@ -32,17 +34,17 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cellsavers/refs/heads/main/vendors/cellsavers-vendors.yml
+  href: https://artifacts.apis.io/cellsavers/vendors/cellsavers-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cellsavers-vendors.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cellsavers/refs/heads/main/llms/cellsavers-llms.txt
+  href: https://artifacts.apis.io/cellsavers/llms/cellsavers-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cellsavers-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cellsavers/refs/heads/main/hosts/cellsavers-hosts.yml
+  href: https://artifacts.apis.io/cellsavers/hosts/cellsavers-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cellsavers-hosts.yml
@@ -75,7 +77,7 @@ common:
   type: Documentation
   url: https://api-docs.puls.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cellsavers/refs/heads/main/security/cellsavers-domain-security.yml
+  href: https://artifacts.apis.io/cellsavers/security/cellsavers-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cellsavers-domain-security.yml
@@ -106,7 +108,7 @@ overview: 'Cellsavers is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 20
 score:
   band: emerging
-  composite: 17.7
+  composite: 17.0
   coverage:
     artifact_dirs: 6
     catalog_earned: 32.0
@@ -114,13 +116,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 0.0
+  previous_composite: 17.0
   provenance:
     mcp: derived
   regulatory:
@@ -129,8 +133,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

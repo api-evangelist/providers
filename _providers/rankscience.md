@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -61,27 +63,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/rankscience
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rankscience/refs/heads/main/llms/rankscience-llms.txt
+  href: https://artifacts.apis.io/rankscience/llms/rankscience-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rankscience-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rankscience/refs/heads/main/security/rankscience-domain-security.yml
+  href: https://artifacts.apis.io/rankscience/security/rankscience-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rankscience-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rankscience/refs/heads/main/lifecycle/rankscience-lifecycle.yml
+  href: https://artifacts.apis.io/rankscience/lifecycle/rankscience-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rankscience-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rankscience/refs/heads/main/plans/rankscience-plans-pricing.yml
+  href: https://artifacts.apis.io/rankscience/plans/rankscience-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rankscience-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rankscience/refs/heads/main/rate-limits/rankscience-rate-limits.yml
+  href: https://artifacts.apis.io/rankscience/rate-limits/rankscience-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rankscience-rate-limits.yml
@@ -115,44 +117,44 @@ plans:
 - name: Rankscience Plans Pricing
   plan_count: 0
   slug: rankscience-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Rankscience Rate Limits
   slug: rankscience-rate-limits
 score:
-  band: emerging
-  composite: 11.3
+  band: minimal
+  composite: 10.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 11.2
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 10.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rankscience/refs/heads/main/screenshots/rankscience-2026-09-02T152847.png
+screenshot: https://apis.io/screenshots/rankscience/rankscience-2026-09-02T152847.png
 security:
 - kind: domain-security
   name: Rankscience Domain Security

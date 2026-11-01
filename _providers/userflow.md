@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Userflow REST API allows back-end applications to synchronize user data, track events, and manage groups or companies within the Userflow platform. It provides endpoints for creating, updating, an
@@ -42,7 +44,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/userflow/refs/heads/main/security/userflow-domain-security.yml
+  href: https://artifacts.apis.io/userflow/security/userflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/userflow-domain-security.yml
@@ -79,17 +81,17 @@ common:
   type: X
   url: https://twitter.com/getuserflow
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/userflow/refs/heads/main/plans/userflow-plans-pricing.yml
+  href: https://artifacts.apis.io/userflow/plans/userflow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/userflow-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/userflow/refs/heads/main/rate-limits/userflow-rate-limits.yml
+  href: https://artifacts.apis.io/userflow/rate-limits/userflow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/userflow-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/userflow/refs/heads/main/finops/userflow-finops.yml
+  href: https://artifacts.apis.io/userflow/finops/userflow-finops.yml
   title: ''
   type: FinOps
   url: finops/userflow-finops.yml
@@ -129,14 +131,14 @@ plans:
 - name: Userflow Plans Pricing
   plan_count: 3
   slug: userflow-plans-pricing
-random_paper: 7
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Userflow Rate Limits
   slug: userflow-rate-limits
 score:
   band: emerging
-  composite: 23.3
+  composite: 24.1
   coverage:
     artifact_dirs: 10
     catalog_earned: 50.0
@@ -144,15 +146,15 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 34.7
     developer_ergonomics: 11.9
-    discoverability: 68.3
-    operational_transparency: 18.4
-  previous_composite: 30.7
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 24.1
   provenance:
     mcp: first-party
   regulatory:
@@ -161,14 +163,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/userflow/refs/heads/main/screenshots/userflow-2026-06-20T200712.png
+screenshot: https://apis.io/screenshots/userflow/userflow-2026-06-20T200712.png
 security:
 - kind: domain-security
   name: Userflow Domain Security

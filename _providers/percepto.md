@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The HTTP API behind the Percepto AIM (Autonomous Inspection and Monitoring) console at drones.percepto.co. The application is a Django/Django-REST-Framework deployment: /api/schema/ and /api/docs/ are'
@@ -43,7 +45,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/percepto/refs/heads/main/security/percepto-domain-security.yml
+  href: https://artifacts.apis.io/percepto/security/percepto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/percepto-domain-security.yml
@@ -76,32 +78,32 @@ common:
   type: Compliance
   url: https://percepto.co/your-drone-inspection-data-is-secure/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/percepto/refs/heads/main/packages/percepto-packages.yml
+  href: https://artifacts.apis.io/percepto/packages/percepto-packages.yml
   title: ''
   type: Packages
   url: packages/percepto-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/percepto/refs/heads/main/conformance/percepto-conformance.yml
+  href: https://artifacts.apis.io/percepto/conformance/percepto-conformance.yml
   title: ''
   type: Conformance
   url: conformance/percepto-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/percepto/refs/heads/main/lifecycle/percepto-lifecycle.yml
+  href: https://artifacts.apis.io/percepto/lifecycle/percepto-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/percepto-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/percepto/refs/heads/main/plans/percepto-plans-pricing.yml
+  href: https://artifacts.apis.io/percepto/plans/percepto-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/percepto-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/percepto/refs/heads/main/rate-limits/percepto-rate-limits.yml
+  href: https://artifacts.apis.io/percepto/rate-limits/percepto-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/percepto-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/percepto/refs/heads/main/llms/percepto-llms.txt
+  href: https://artifacts.apis.io/percepto/llms/percepto-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/percepto-llms.txt
@@ -136,16 +138,16 @@ plans:
 - name: Percepto Plans Pricing
   plan_count: 0
   slug: percepto-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Percepto Rate Limits
   slug: percepto-rate-limits
 score:
   band: emerging
-  composite: 17.9
+  composite: 17.6
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -157,8 +159,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -167,7 +169,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 17.9
+  previous_composite: 17.6
   provenance:
     conformance: first-party
   regulatory:
@@ -176,14 +178,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 15.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/percepto/refs/heads/main/screenshots/percepto-2026-09-02T151035.png
+screenshot: https://apis.io/screenshots/percepto/percepto-2026-09-02T151035.png
 security:
 - kind: domain-security
   name: Percepto Domain Security

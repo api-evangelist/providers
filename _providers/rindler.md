@@ -24,22 +24,24 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Hosted MCP server (https://mcp.rindler.ai) that exposes mapped websites as deterministic, typed agent tools over HTTP with OAuth 2.0 PKCE. Core tools: start_session, dispatch_action, extract_content, '
   name: Rindler MCP Server
   slug: rindler-mcp-server
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -82,42 +84,42 @@ common:
   type: Support
   url: https://rindler.ai/faq
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rindler/refs/heads/main/llms/rindler-llms.txt
+  href: https://artifacts.apis.io/rindler/llms/rindler-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rindler-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rindler/refs/heads/main/mcp/rindler-mcp.yml
+  href: https://artifacts.apis.io/rindler/mcp/rindler-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/rindler-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rindler/refs/heads/main/authentication/rindler-authentication.yml
+  href: https://artifacts.apis.io/rindler/authentication/rindler-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rindler-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rindler/refs/heads/main/scopes/rindler-scopes.yml
+  href: https://artifacts.apis.io/rindler/scopes/rindler-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/rindler-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rindler/refs/heads/main/conventions/rindler-conventions.yml
+  href: https://artifacts.apis.io/rindler/conventions/rindler-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rindler-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rindler/refs/heads/main/well-known/rindler-well-known.yml
+  href: https://artifacts.apis.io/rindler/well-known/rindler-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rindler-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rindler/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rindler/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rindler/refs/heads/main/security/rindler-domain-security.yml
+  href: https://artifacts.apis.io/rindler/security/rindler-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rindler-domain-security.yml
@@ -133,11 +135,11 @@ modified: '2026-10-06'
 name: Rindler
 nav: Providers
 network: true
-overview: 'Rindler is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, AI Agents, Web Automation, and Browser Automation.
+overview: 'Rindler is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, AI Agents, Browser Automation, and Structured Data.
 
 
   Rindler''s developer surface includes engineering blog, documentation, getting-started guide, pricing, signup flow, support, authentication, and 11 more developer resources.'
-random_paper: 4
+random_paper: 8
 scopes:
 - name: Rindler Scopes
   scope_count: 3
@@ -145,7 +147,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.9
+  composite: 27.9
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -153,15 +155,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 51.8
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 28.4
+  previous_composite: 27.9
   provenance:
     mcp: first-party
     skills: derived
@@ -171,14 +173,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rindler/refs/heads/main/screenshots/rindler-2026-09-02T153829.png
+screenshot: https://apis.io/screenshots/rindler/rindler-2026-09-02T153829.png
 security:
 - kind: authentication
   name: Rindler Authentication
@@ -188,12 +190,15 @@ security:
   name: Rindler Domain Security
   slug: rindler-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: Pull structured records from a mapped site with Rindler
+  slug: rindler-pull-structured-records
 slug: rindler
 tags:
 - Company
 - MCP
 - AI Agents
-- Web Automation
 - Browser Automation
 - Structured Data
 - Website to API

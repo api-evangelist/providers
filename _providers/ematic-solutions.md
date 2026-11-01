@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,13 +38,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Ematic Solutions Core API is a RESTful, JSON-only web service (labelled "beta" by Ematic) that lets an e-commerce site record product events — browse, cart, checkout and conversion — plus batch ev
   name: Ematic Solutions Core API
   slug: ematic-solutions-core-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -85,77 +87,77 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/ematic-solutions
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/authentication/ematic-solutions-authentication.yml
+  href: https://artifacts.apis.io/ematic-solutions/authentication/ematic-solutions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ematic-solutions-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/conventions/ematic-solutions-conventions.yml
+  href: https://artifacts.apis.io/ematic-solutions/conventions/ematic-solutions-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ematic-solutions-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/errors/ematic-solutions-problem-types.yml
+  href: https://artifacts.apis.io/ematic-solutions/errors/ematic-solutions-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ematic-solutions-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/data-model/ematic-solutions-data-model.yml
+  href: https://artifacts.apis.io/ematic-solutions/data-model/ematic-solutions-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ematic-solutions-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/lifecycle/ematic-solutions-lifecycle.yml
+  href: https://artifacts.apis.io/ematic-solutions/lifecycle/ematic-solutions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ematic-solutions-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/rate-limits/ematic-solutions-rate-limits.yml
+  href: https://artifacts.apis.io/ematic-solutions/rate-limits/ematic-solutions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ematic-solutions-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/plans/ematic-solutions-plans-pricing.yml
+  href: https://artifacts.apis.io/ematic-solutions/plans/ematic-solutions-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ematic-solutions-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/packages/ematic-solutions-packages.yml
+  href: https://artifacts.apis.io/ematic-solutions/packages/ematic-solutions-packages.yml
   title: ''
   type: Packages
   url: packages/ematic-solutions-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/packages/ematic-solutions-packages.yml
+  href: https://artifacts.apis.io/ematic-solutions/packages/ematic-solutions-packages.yml
   title: ''
   type: SDKs
   url: packages/ematic-solutions-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/components/ematic-solutions-components.yml
+  href: https://artifacts.apis.io/ematic-solutions/components/ematic-solutions-components.yml
   title: ''
   type: Components
   url: components/ematic-solutions-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/conformance/ematic-solutions-conformance.yml
+  href: https://artifacts.apis.io/ematic-solutions/conformance/ematic-solutions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ematic-solutions-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/mcp/ematic-solutions-mcp.yml
+  href: https://artifacts.apis.io/ematic-solutions/mcp/ematic-solutions-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ematic-solutions-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ematic-solutions/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/llms/ematic-solutions-llms.txt
+  href: https://artifacts.apis.io/ematic-solutions/llms/ematic-solutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ematic-solutions-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/security/ematic-solutions-domain-security.yml
+  href: https://artifacts.apis.io/ematic-solutions/security/ematic-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ematic-solutions-domain-security.yml
@@ -176,14 +178,14 @@ plans:
 - name: Ematic Solutions Plans Pricing
   plan_count: 0
   slug: ematic-solutions-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Ematic Solutions Rate Limits
   slug: ematic-solutions-rate-limits
 score:
   band: emerging
-  composite: 24.6
+  composite: 25.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -191,9 +193,9 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 66.1
@@ -204,7 +206,7 @@ score:
     countries:
     - singapore
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 24.5
+  previous_composite: 25.9
   provenance:
     conformance: derived
     mcp: derived
@@ -215,14 +217,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/screenshots/ematic-solutions-2026-07-25T213225.png
+screenshot: https://apis.io/screenshots/ematic-solutions/ematic-solutions-2026-07-25T213225.png
 security:
 - kind: authentication
   name: Ematic Solutions Authentication
@@ -232,6 +234,12 @@ security:
   name: Ematic Solutions Domain Security
   slug: ematic-solutions-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: ematic-solutions-esp-list-subscriptions
+  slug: ematic-solutions-esp-list-subscriptions
+- name: ematic-solutions-retry-iq-event-logging
+  slug: ematic-solutions-retry-iq-event-logging
 slug: ematic-solutions
 tags:
 - Company

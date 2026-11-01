@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -72,15 +74,12 @@ apis:
   description: Authentication, the authenticated user profile, and user search.
   name: Badger Maps Users API
   slug: badger-maps-users-api
-artifact_total: 19
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Badger Maps Webhooks
   slug: badger-maps-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Badger Maps Accounts API
   slug: open-badger-maps-accounts-api
@@ -101,22 +100,22 @@ collections:
   slug: open-badger-maps
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/capabilities/badger-maps-capability-edges.yml
+  href: https://artifacts.apis.io/badger-maps/capabilities/badger-maps-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/badger-maps-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/agentic-access/badger-maps-agentic-access.yml
+  href: https://artifacts.apis.io/badger-maps/agentic-access/badger-maps-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/badger-maps-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/security/badger-maps-domain-security.yml
+  href: https://artifacts.apis.io/badger-maps/security/badger-maps-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/badger-maps-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/authentication/badger-maps-authentication.yml
+  href: https://artifacts.apis.io/badger-maps/authentication/badger-maps-authentication.yml
   title: ''
   type: Authentication
   url: authentication/badger-maps-authentication.yml
@@ -137,17 +136,17 @@ common:
   type: Documentation
   url: https://badgerupdatedapi.docs.apiary.io/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/plans/badger-maps-plans-pricing.yml
+  href: https://artifacts.apis.io/badger-maps/plans/badger-maps-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/badger-maps-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/rate-limits/badger-maps-rate-limits.yml
+  href: https://artifacts.apis.io/badger-maps/rate-limits/badger-maps-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/badger-maps-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/finops/badger-maps-finops.yml
+  href: https://artifacts.apis.io/badger-maps/finops/badger-maps-finops.yml
   title: ''
   type: FinOps
   url: finops/badger-maps-finops.yml
@@ -156,32 +155,32 @@ common:
   type: Blog
   url: https://www.badgermapping.com/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/openapi/_original/badger-maps-apiary-blueprint.apib
+  href: https://artifacts.apis.io/badger-maps/openapi/_original/badger-maps-apiary-blueprint.apib
   title: ''
   type: APIBlueprint
   url: openapi/_original/badger-maps-apiary-blueprint.apib
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/asyncapi/badger-maps-webhooks.yml
+  href: https://artifacts.apis.io/badger-maps/asyncapi/badger-maps-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/badger-maps-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/conventions/badger-maps-conventions.yml
+  href: https://artifacts.apis.io/badger-maps/conventions/badger-maps-conventions.yml
   title: ''
   type: Conventions
   url: conventions/badger-maps-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/errors/badger-maps-error-codes.yml
+  href: https://artifacts.apis.io/badger-maps/errors/badger-maps-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/badger-maps-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/data-model/badger-maps-data-model.yml
+  href: https://artifacts.apis.io/badger-maps/data-model/badger-maps-data-model.yml
   title: ''
   type: DataModel
   url: data-model/badger-maps-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/lifecycle/badger-maps-lifecycle.yml
+  href: https://artifacts.apis.io/badger-maps/lifecycle/badger-maps-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/badger-maps-lifecycle.yml
@@ -190,32 +189,32 @@ common:
   type: StatusPage
   url: https://status.badgermapping.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/conformance/badger-maps-conformance.yml
+  href: https://artifacts.apis.io/badger-maps/conformance/badger-maps-conformance.yml
   title: ''
   type: Conformance
   url: conformance/badger-maps-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/sandbox/badger-maps-sandbox.yml
+  href: https://artifacts.apis.io/badger-maps/sandbox/badger-maps-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/badger-maps-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/packages/badger-maps-packages.yml
+  href: https://artifacts.apis.io/badger-maps/packages/badger-maps-packages.yml
   title: ''
   type: Packages
   url: packages/badger-maps-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/mcp/badger-maps-mcp.yml
+  href: https://artifacts.apis.io/badger-maps/mcp/badger-maps-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/badger-maps-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/llms/badger-maps-llms.txt
+  href: https://artifacts.apis.io/badger-maps/llms/badger-maps-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/badger-maps-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/badger-maps/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -261,8 +260,8 @@ finops:
 - has_sources: true
   method: derived
   name: Badger Maps Finops
-  primary_unit: ''
-  service_category: Field Sales and Route Planning Software
+  primary_unit: user, billed annually
+  service_category: ''
   slug: badger-maps-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/badger-maps.png
@@ -280,32 +279,35 @@ overview: 'Badger Maps publishes 5 API contracts indexed on the [APIs.io](https:
   Badger Maps'' developer surface includes authentication, documentation, engineering blog, sandbox, API reference, getting-started guide, support, and 27 more developer resources.'
 plans:
 - name: Badger Maps Plans Pricing
-  plan_count: 6
+  plan_count: 8
   slug: badger-maps-plans-pricing
-random_paper: 13
+- name: Badger Maps Price Estimates
+  plan_count: 0
+  slug: badger-maps-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Badger Maps Rate Limits
   slug: badger-maps-rate-limits
 score:
   band: strong
-  composite: 55.6
+  composite: 61.2
   coverage:
     artifact_dirs: 26
-    catalog_earned: 61.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 61.3
-    developer_ergonomics: 48.2
+    contract_quality: 57.9
+    developer_ergonomics: 67.3
     discoverability: 66.1
-    operational_transparency: 57.9
-  previous_composite: 57.1
+    operational_transparency: 60.5
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -322,13 +324,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/screenshots/badger-maps-2026-07-25T202239.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/badger-maps/badger-maps-2026-07-25T202239.png
 security:
 - kind: authentication
   name: Badger Maps Authentication
@@ -338,6 +341,16 @@ security:
   name: Badger Maps Domain Security
   slug: badger-maps-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Authenticate to Badger Maps and resolve custom field mappings
+  slug: badger-maps-authenticate-and-map-fields
+- name: Log and review Badger Maps check-ins
+  slug: badger-maps-log-and-review-check-ins
+- name: Read Badger Maps routes and correct account locations
+  slug: badger-maps-read-routes-and-fix-locations
+- name: Sync accounts into Badger Maps from a CRM or list
+  slug: badger-maps-sync-accounts-from-crm
 slug: badger-maps
 tags:
 - Field Sales

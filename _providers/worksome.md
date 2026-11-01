@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Worksome public GraphQL API — a single POST endpoint at https://api.worksome.com/graphql exposing 87 queries and 113 mutations across 496 types. Covers hires and contracts, jobs and candidates, pr
@@ -32,14 +34,14 @@ apis:
 - description: Worksome outbound webhooks deliver real-time notifications for 17 event types across hires and contracts, the talent pool, payment requests and invoicing. Each delivery is an HTTP POST with a JSON bod
   name: Worksome Webhooks
   slug: webhooks
-artifact_total: 8
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Worksome Webhooks
   slug: worksome-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/security/worksome-domain-security.yml
+  href: https://artifacts.apis.io/worksome/security/worksome-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/worksome-domain-security.yml
@@ -64,7 +66,7 @@ common:
   type: GettingStarted
   url: https://docs.worksome.com/graphql/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/authentication/worksome-authentication.yml
+  href: https://artifacts.apis.io/worksome/authentication/worksome-authentication.yml
   title: ''
   type: Authentication
   url: authentication/worksome-authentication.yml
@@ -109,102 +111,102 @@ common:
   type: StatusPage
   url: https://status.worksome.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/changelog/worksome-changelog.yml
+  href: https://artifacts.apis.io/worksome/changelog/worksome-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/worksome-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/lifecycle/worksome-lifecycle.yml
+  href: https://artifacts.apis.io/worksome/lifecycle/worksome-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/worksome-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/lifecycle/worksome-lifecycle.yml
+  href: https://artifacts.apis.io/worksome/lifecycle/worksome-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/worksome-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/conventions/worksome-conventions.yml
+  href: https://artifacts.apis.io/worksome/conventions/worksome-conventions.yml
   title: ''
   type: Conventions
   url: conventions/worksome-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/conventions/worksome-conventions.yml
+  href: https://artifacts.apis.io/worksome/conventions/worksome-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/worksome-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/errors/worksome-error-codes.yml
+  href: https://artifacts.apis.io/worksome/errors/worksome-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/worksome-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/rate-limits/worksome-rate-limits.yml
+  href: https://artifacts.apis.io/worksome/rate-limits/worksome-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/worksome-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/plans/worksome-plans-pricing.yml
+  href: https://artifacts.apis.io/worksome/plans/worksome-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/worksome-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/packages/worksome-packages.yml
+  href: https://artifacts.apis.io/worksome/packages/worksome-packages.yml
   title: ''
   type: Packages
   url: packages/worksome-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/packages/worksome-packages.yml
+  href: https://artifacts.apis.io/worksome/packages/worksome-packages.yml
   title: ''
   type: SDKs
   url: packages/worksome-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/cli/worksome-cli.yml
+  href: https://artifacts.apis.io/worksome/cli/worksome-cli.yml
   title: ''
   type: CLI
   url: cli/worksome-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/sandbox/worksome-sandbox.yml
+  href: https://artifacts.apis.io/worksome/sandbox/worksome-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/worksome-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/conformance/worksome-conformance.yml
+  href: https://artifacts.apis.io/worksome/conformance/worksome-conformance.yml
   title: ''
   type: Conformance
   url: conformance/worksome-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/data-model/worksome-data-model.yml
+  href: https://artifacts.apis.io/worksome/data-model/worksome-data-model.yml
   title: ''
   type: DataModel
   url: data-model/worksome-data-model.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/json-schema/worksome-timesheet-registration.json
+  href: https://artifacts.apis.io/worksome/json-schema/worksome-timesheet-registration.json
   title: ''
   type: JSONSchema
   url: json-schema/worksome-timesheet-registration.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/llms/worksome-llms.txt
+  href: https://artifacts.apis.io/worksome/llms/worksome-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/worksome-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/worksome/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/mcp/worksome-mcp.yml
+  href: https://artifacts.apis.io/worksome/mcp/worksome-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/worksome-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/asyncapi/worksome-webhooks.yml
+  href: https://artifacts.apis.io/worksome/asyncapi/worksome-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/worksome-webhooks.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/graphql/worksome.graphql
+  href: https://artifacts.apis.io/worksome/graphql/worksome.graphql
   title: ''
   type: GraphQL
   url: graphql/worksome.graphql
@@ -214,6 +216,14 @@ common:
   url: https://www.worksome.com/blog/rss.xml
 created: '2026-09-04'
 description: Worksome is a Copenhagen-headquartered external workforce platform (Freelancer Management System) used by enterprise and mid-market teams to source, contract, classify, and pay contingent workers across 150+ countries. It ships a public GraphQL API at api.worksome.com/graphql covering hires, contracts, jobs, candidates, projects, timesheets, payment requests, invoices, compliance gates and worker classification, alongside 17 HMAC-signed webhook events, an official PHP SDK, a Go CLI with 170+ operations, a Zapier app, and an early-access MCP server for AI agents.
+finops:
+- has_sources: true
+  method: derived
+  name: Worksome Finops
+  primary_unit: ''
+  service_category: ''
+  slug: worksome-finops
+  template: true
 image: https://cdn.prod.website-files.com/60a21be3147bde7a6ece004d/60e44e338953920e5aafcd66_Worksome%20Webclip.png
 json_schemas:
 - name: Worksome Timesheet Registration
@@ -233,31 +243,31 @@ overview: 'Worksome is listed with 2 APIs on the [APIs.io](https://apis.io/) net
   Worksome''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 31 more developer resources.'
 plans:
 - name: Worksome Plans Pricing
-  plan_count: 0
+  plan_count: 1
   slug: worksome-plans-pricing
-random_paper: 7
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Worksome Rate Limits
   slug: worksome-rate-limits
 score:
   band: strong
-  composite: 54.3
+  composite: 58.1
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 25
+    catalog_earned: 53.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 44.7
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 46.9
     developer_ergonomics: 80.4
-    discoverability: 73.2
-    operational_transparency: 71.1
+    discoverability: 66.1
+    operational_transparency: 73.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -266,7 +276,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 54.2
+  previous_composite: 53.9
   provenance:
     conformance: derived
     mcp: derived
@@ -277,14 +287,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/screenshots/worksome-2026-10-11T194451.png
+screenshot: https://apis.io/screenshots/worksome/worksome-2026-10-11T194451.png
 security:
 - kind: authentication
   name: Worksome Authentication
@@ -294,6 +304,16 @@ security:
   name: Worksome Domain Security
   slug: worksome-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: worksome-audit-hires-and-compliance
+  slug: worksome-audit-hires-and-compliance
+- name: worksome-consume-webhooks
+  slug: worksome-consume-webhooks
+- name: worksome-create-and-track-a-hire
+  slug: worksome-create-and-track-a-hire
+- name: worksome-push-external-timesheets
+  slug: worksome-push-external-timesheets
 slug: worksome
 tags:
 - Company

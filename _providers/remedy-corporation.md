@@ -24,7 +24,7 @@ name: Remedy Corporation
 nav: Providers
 network: true
 overview: Remedy Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ITSM, Enterprise Software, Help Desk, and Acquired.
-random_paper: 21
+random_paper: 19
 slug: remedy-corporation
 tags:
 - Company

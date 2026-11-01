@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,17 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boulder-care/refs/heads/main/security/boulder-care-domain-security.yml
+  href: https://artifacts.apis.io/boulder-care/security/boulder-care-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/boulder-care-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boulder-care/refs/heads/main/conformance/boulder-care-conformance.yml
+  href: https://artifacts.apis.io/boulder-care/conformance/boulder-care-conformance.yml
   title: ''
   type: Conformance
   url: conformance/boulder-care-conformance.yml
@@ -124,7 +126,7 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/boulder-care_stock/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boulder-care/refs/heads/main/llms/boulder-care-llms.txt
+  href: https://artifacts.apis.io/boulder-care/llms/boulder-care-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/boulder-care-llms.txt
@@ -159,12 +161,12 @@ overview: 'Boulder Care is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Boulder Care''s developer surface includes engineering blog, support, FAQ, signup flow, pricing, legal docs, and 16 more developer resources.'
-random_paper: 17
+random_paper: 5
 score:
   band: emerging
-  composite: 18.8
+  composite: 18.5
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -176,9 +178,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 18.8
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 18.5
   provenance:
     conformance: first-party
   regulatory:
@@ -191,14 +193,14 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/boulder-care/refs/heads/main/screenshots/boulder-care-2026-09-02T144939.png
+screenshot: https://apis.io/screenshots/boulder-care/boulder-care-2026-09-02T144939.png
 security:
 - kind: domain-security
   name: Boulder Care Domain Security

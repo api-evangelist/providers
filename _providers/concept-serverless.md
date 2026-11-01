@@ -20,7 +20,7 @@ modified: '2026-10-06'
 name: Serverless
 nav: Providers
 network: true
-random_paper: 3
+random_paper: 23
 slug: concept-serverless
 tags:
 - Company

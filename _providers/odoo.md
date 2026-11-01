@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,11 +65,8 @@ apis:
   description: Authenticated XML-RPC endpoint for model operations
   name: Odoo Object API
   slug: odoo-object-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Odoo External Common API
   slug: open-odoo-common-api
@@ -82,37 +81,37 @@ collections:
   slug: open-odoo
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/plans/odoo-plans-pricing.yml
+  href: https://artifacts.apis.io/odoo/plans/odoo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/odoo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/rate-limits/odoo-rate-limits.yml
+  href: https://artifacts.apis.io/odoo/rate-limits/odoo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/odoo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/finops/odoo-finops.yml
+  href: https://artifacts.apis.io/odoo/finops/odoo-finops.yml
   title: ''
   type: FinOps
   url: finops/odoo-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/agentic-access/odoo-agentic-access.yml
+  href: https://artifacts.apis.io/odoo/agentic-access/odoo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/odoo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/security/odoo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/odoo/security/odoo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/odoo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/security/odoo-domain-security.yml
+  href: https://artifacts.apis.io/odoo/security/odoo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/odoo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/authentication/odoo-authentication.yml
+  href: https://artifacts.apis.io/odoo/authentication/odoo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/odoo-authentication.yml
@@ -142,7 +141,7 @@ finops:
 - has_sources: false
   method: generated
   name: Odoo Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: odoo-finops
   template: true
@@ -160,14 +159,14 @@ plans:
 - name: Odoo Plans Pricing
   plan_count: 3
   slug: odoo-plans-pricing
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Odoo Rate Limits
   slug: odoo-rate-limits
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 27.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 38.0
@@ -175,15 +174,15 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 47.1
     developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 26.4
+    operational_transparency: 23.7
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     contracts:
@@ -197,13 +196,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/screenshots/odoo-2026-06-20T190621.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/odoo/odoo-2026-06-20T190621.png
 security:
 - kind: authentication
   name: Odoo Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API-delivered battery simulation service for predicting performance and degradation with validated physics-based cell models, and for retrieving and designing battery cell formats. Accessed through th
@@ -83,42 +85,42 @@ common:
   type: PrivacyPolicy
   url: https://breathebatteries.com/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/breathe-battery-technologies/refs/heads/main/packages/breathe-battery-technologies-packages.yml
+  href: https://artifacts.apis.io/breathe-battery-technologies/packages/breathe-battery-technologies-packages.yml
   title: ''
   type: SDKs
   url: packages/breathe-battery-technologies-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/breathe-battery-technologies/refs/heads/main/packages/breathe-battery-technologies-packages.yml
+  href: https://artifacts.apis.io/breathe-battery-technologies/packages/breathe-battery-technologies-packages.yml
   title: ''
   type: Packages
   url: packages/breathe-battery-technologies-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/breathe-battery-technologies/refs/heads/main/authentication/breathe-battery-technologies-authentication.yml
+  href: https://artifacts.apis.io/breathe-battery-technologies/authentication/breathe-battery-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/breathe-battery-technologies-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/breathe-battery-technologies/refs/heads/main/changelog/breathe-battery-technologies-changelog.yml
+  href: https://artifacts.apis.io/breathe-battery-technologies/changelog/breathe-battery-technologies-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/breathe-battery-technologies-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/breathe-battery-technologies/refs/heads/main/lifecycle/breathe-battery-technologies-lifecycle.yml
+  href: https://artifacts.apis.io/breathe-battery-technologies/lifecycle/breathe-battery-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/breathe-battery-technologies-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/breathe-battery-technologies/refs/heads/main/llms/breathe-battery-technologies-llms.txt
+  href: https://artifacts.apis.io/breathe-battery-technologies/llms/breathe-battery-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/breathe-battery-technologies-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/breathe-battery-technologies/refs/heads/main/well-known/breathe-battery-technologies-well-known.yml
+  href: https://artifacts.apis.io/breathe-battery-technologies/well-known/breathe-battery-technologies-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/breathe-battery-technologies-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/breathe-battery-technologies/refs/heads/main/security/breathe-battery-technologies-domain-security.yml
+  href: https://artifacts.apis.io/breathe-battery-technologies/security/breathe-battery-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/breathe-battery-technologies-domain-security.yml
@@ -134,10 +136,10 @@ overview: 'Breathe Battery Technologies is listed with 1 API on the [APIs.io](ht
 
 
   Breathe Battery Technologies'' developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 8
+random_paper: 12
 score:
-  band: emerging
-  composite: 18.3
+  band: thin
+  composite: 27.9
   coverage:
     artifact_dirs: 10
     catalog_earned: 32.0
@@ -147,27 +149,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 64.3
+    developer_ergonomics: 64.3
+    discoverability: 57.1
     operational_transparency: 15.8
-  previous_composite: 18.3
+  previous_composite: 27.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 16.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/breathe-battery-technologies/refs/heads/main/screenshots/breathe-battery-technologies-2026-07-25T203734.png
+screenshot: https://apis.io/screenshots/breathe-battery-technologies/breathe-battery-technologies-2026-07-25T203734.png
 security:
 - kind: authentication
   name: Breathe Battery Technologies Authentication

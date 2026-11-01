@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -95,11 +97,8 @@ apis:
   description: The Webhooks API from Debbie Collect — 2 operation(s) for webhooks.
   name: Debbie Collect Webhooks API
   slug: debbie-collect-webhooks-api
-artifact_total: 34
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Debbie Client API
   slug: open-debbie-client-api
@@ -138,37 +137,37 @@ collections:
   slug: open-debbie-platform-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/plans/debbie-collect-plans-pricing.yml
+  href: https://artifacts.apis.io/debbie-collect/plans/debbie-collect-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/debbie-collect-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/rate-limits/debbie-collect-rate-limits.yml
+  href: https://artifacts.apis.io/debbie-collect/rate-limits/debbie-collect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/debbie-collect-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/finops/debbie-collect-finops.yml
+  href: https://artifacts.apis.io/debbie-collect/finops/debbie-collect-finops.yml
   title: ''
   type: FinOps
   url: finops/debbie-collect-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/capabilities/debbie-collect-capability-edges.yml
+  href: https://artifacts.apis.io/debbie-collect/capabilities/debbie-collect-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/debbie-collect-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/agentic-access/debbie-collect-agentic-access.yml
+  href: https://artifacts.apis.io/debbie-collect/agentic-access/debbie-collect-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/debbie-collect-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/security/debbie-collect-domain-security.yml
+  href: https://artifacts.apis.io/debbie-collect/security/debbie-collect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/debbie-collect-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/authentication/debbie-collect-authentication.yml
+  href: https://artifacts.apis.io/debbie-collect/authentication/debbie-collect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/debbie-collect-authentication.yml
@@ -201,12 +200,12 @@ common:
   type: Support
   url: mailto:api-support@debbie.dk
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/json-ld/debbie-context.jsonld
+  href: https://artifacts.apis.io/debbie-collect/json-ld/debbie-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/debbie-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/vocabulary/debbie-vocabulary.yml
+  href: https://artifacts.apis.io/debbie-collect/vocabulary/debbie-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/debbie-vocabulary.yml
@@ -216,7 +215,7 @@ finops:
 - has_sources: false
   method: generated
   name: Debbie Collect Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: debbie-collect-finops
   template: true
@@ -249,7 +248,7 @@ plans:
 - name: Debbie Collect Plans Pricing
   plan_count: 3
   slug: debbie-collect-plans-pricing
-random_paper: 4
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Debbie Collect Rate Limits
@@ -280,7 +279,7 @@ rules:
   slug: debbie-platform-api-rules
 score:
   band: thin
-  composite: 34.3
+  composite: 35.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 72.0
@@ -288,7 +287,7 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
@@ -296,7 +295,7 @@ score:
     developer_ergonomics: 35.7
     discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 35.9
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -310,13 +309,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/screenshots/debbie-collect-2026-06-20T175744.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/debbie-collect/debbie-collect-2026-06-20T175744.png
 security:
 - kind: authentication
   name: Debbie Collect Authentication

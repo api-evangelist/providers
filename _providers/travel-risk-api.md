@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 54.9
-  scored_at: '2026-10-17'
+  score: 49.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 61
   slug: travel-risk-api-agentic-access
   summary_line: 61 operations · 14 acting · 1 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - description: Hosted remote MCP server (OAuth sign-in, 15 tools) over the travel risk data.
   name: Travel Risk API MCP Server
@@ -72,100 +74,105 @@ apis:
   description: Per-key usage metering and quota status.
   name: Travel Risk API Usage API
   slug: travel-risk-api-usage-api
-artifact_total: 19
+artifact_total: 21
 common:
+- group: other
+  href: https://artifacts.apis.io/travel-risk-api/capabilities/travel-risk-api-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/travel-risk-api-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/agentic-access/travel-risk-api-agentic-access.yml
+  href: https://artifacts.apis.io/travel-risk-api/agentic-access/travel-risk-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/travel-risk-api-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/rate-limits/travel-risk-api-rate-limits.yml
+  href: https://artifacts.apis.io/travel-risk-api/rate-limits/travel-risk-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/travel-risk-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/plans/travel-risk-api-plans-pricing.yml
+  href: https://artifacts.apis.io/travel-risk-api/plans/travel-risk-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/travel-risk-api-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/rules/travel-risk-api-rules.yml
+  href: https://artifacts.apis.io/travel-risk-api/rules/travel-risk-api-rules.yml
   title: ''
   type: Spectral
   url: rules/travel-risk-api-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/json-ld/travel-risk-api-context.jsonld
+  href: https://artifacts.apis.io/travel-risk-api/json-ld/travel-risk-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/travel-risk-api-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/vocabulary/travel-risk-api-vocabulary.yml
+  href: https://artifacts.apis.io/travel-risk-api/vocabulary/travel-risk-api-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/travel-risk-api-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/data-model/travel-risk-api-data-model.yml
+  href: https://artifacts.apis.io/travel-risk-api/data-model/travel-risk-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/travel-risk-api-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/changelog/travel-risk-api-changelog.yml
+  href: https://artifacts.apis.io/travel-risk-api/changelog/travel-risk-api-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/travel-risk-api-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/conventions/travel-risk-api-conventions.yml
+  href: https://artifacts.apis.io/travel-risk-api/conventions/travel-risk-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/travel-risk-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/lifecycle/travel-risk-api-lifecycle.yml
+  href: https://artifacts.apis.io/travel-risk-api/lifecycle/travel-risk-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/travel-risk-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/errors/travel-risk-api-problem-types.yml
+  href: https://artifacts.apis.io/travel-risk-api/errors/travel-risk-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/travel-risk-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/conformance/travel-risk-api-conformance.yml
+  href: https://artifacts.apis.io/travel-risk-api/conformance/travel-risk-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/travel-risk-api-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/llms/travel-risk-api-llms.txt
+  href: https://artifacts.apis.io/travel-risk-api/llms/travel-risk-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/travel-risk-api-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/mcp/travel-risk-api-tool-crosswalk.yml
+  href: https://artifacts.apis.io/travel-risk-api/mcp/travel-risk-api-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/travel-risk-api-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/mcp/travel-risk-api-mcp.yml
+  href: https://artifacts.apis.io/travel-risk-api/mcp/travel-risk-api-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/travel-risk-api-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/well-known/travel-risk-api-well-known.yml
+  href: https://artifacts.apis.io/travel-risk-api/well-known/travel-risk-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/travel-risk-api-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/hosts/travel-risk-api-hosts.yml
+  href: https://artifacts.apis.io/travel-risk-api/hosts/travel-risk-api-hosts.yml
   title: ''
   type: Hosts
   url: hosts/travel-risk-api-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/authentication/travel-risk-api-authentication.yml
+  href: https://artifacts.apis.io/travel-risk-api/authentication/travel-risk-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/travel-risk-api-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/security/travel-risk-api-domain-security.yml
+  href: https://artifacts.apis.io/travel-risk-api/security/travel-risk-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/travel-risk-api-domain-security.yml
@@ -219,6 +226,14 @@ common:
   url: https://api.travelriskapi.com/docs
 created: '2026-10-09'
 description: 'Travel Risk API by Travel Code is a REST API for real-time travel safety data: government travel advisories, natural disaster alerts, armed-conflict events and composite country risk scores for 229 countries and territories, plus a companion Aviation API covering airport status, security, immigration, weather and flight data. One API key opens both; a free plan needs no card, and a hosted MCP server exposes 15 tools.'
+finops:
+- has_sources: true
+  method: derived
+  name: Travel Risk Api Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: travel-risk-api-finops
+  template: false
 image: https://travelriskapi.com/og/home.png?lang=en
 json_schemas:
 - name: RecoverRequest
@@ -250,12 +265,15 @@ overview: 'Travel Risk API publishes 8 API contracts indexed on the [APIs.io](ht
   The Travel Risk API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Travel Risk API''s developer surface includes changelog, authentication, documentation, API reference, engineering blog, pricing, and 25 more developer resources.'
+  Travel Risk API''s developer surface includes changelog, authentication, documentation, API reference, engineering blog, pricing, and 26 more developer resources.'
 plans:
 - name: Travel Risk Api Plans Pricing
   plan_count: 4
   slug: travel-risk-api-plans-pricing
-random_paper: 3
+- name: Travel Risk Api Price Estimates
+  plan_count: 0
+  slug: travel-risk-api-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 10
   name: Travel Risk Api Rate Limits
@@ -275,23 +293,23 @@ rules:
   slug: travel-risk-api-rules
 score:
   band: strong
-  composite: 57.1
+  composite: 57.9
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 89.8
     catalog_earned_first_party: 24.0
     catalog_gap: 25.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.3
+  delta: 1.0
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 22.0
     contract_quality: 60.5
     developer_ergonomics: 31.0
-    discoverability: 90.0
+    discoverability: 75.0
     operational_transparency: 63.2
-  previous_composite: 56.8
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,13 +325,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/screenshots/travel-risk-api-2026-10-11T131138.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/travel-risk-api/travel-risk-api-2026-10-11T131138.png
 security:
 - kind: authentication
   name: Travel Risk Api Authentication

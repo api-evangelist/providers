@@ -15,7 +15,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -31,14 +31,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 30.5
-  scored_at: '2026-10-17'
+  score: 28.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.habu.com/v1/
@@ -211,7 +213,7 @@ apis:
   description: The Questions API from Habu — 3 operation(s) for questions.
   name: Habu Questions API
   slug: habu-questions-api
-artifact_total: 43
+artifact_total: 48
 collections:
 - collection_type: open
   name: External APIs for Customer Integration
@@ -222,7 +224,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/liveramp/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/capabilities/habu-capability-edges.yml
+  href: https://artifacts.apis.io/habu/capabilities/habu-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/habu-capability-edges.yml
@@ -255,77 +257,77 @@ common:
   type: StatusPage
   url: https://status.liveramp.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/lifecycle/habu-lifecycle.yml
+  href: https://artifacts.apis.io/habu/lifecycle/habu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/habu-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/changelog/habu-changelog.yml
+  href: https://artifacts.apis.io/habu/changelog/habu-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/habu-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/packages/habu-packages.yml
+  href: https://artifacts.apis.io/habu/packages/habu-packages.yml
   title: ''
   type: Packages
   url: packages/habu-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/packages/habu-packages.yml
+  href: https://artifacts.apis.io/habu/packages/habu-packages.yml
   title: ''
   type: SDKs
   url: packages/habu-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/conventions/habu-conventions.yml
+  href: https://artifacts.apis.io/habu/conventions/habu-conventions.yml
   title: ''
   type: Conventions
   url: conventions/habu-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/errors/habu-problem-types.yml
+  href: https://artifacts.apis.io/habu/errors/habu-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/habu-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/conformance/habu-conformance.yml
+  href: https://artifacts.apis.io/habu/conformance/habu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/habu-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/data-model/habu-data-model.yml
+  href: https://artifacts.apis.io/habu/data-model/habu-data-model.yml
   title: ''
   type: DataModel
   url: data-model/habu-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/rate-limits/habu-rate-limits.yml
+  href: https://artifacts.apis.io/habu/rate-limits/habu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/habu-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/plans/habu-plans-pricing.yml
+  href: https://artifacts.apis.io/habu/plans/habu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/habu-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/llms/habu-llms.txt
+  href: https://artifacts.apis.io/habu/llms/habu-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/habu-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/overlays/habu-clean-room-api-overlay.yaml
+  href: https://artifacts.apis.io/habu/overlays/habu-clean-room-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/habu-clean-room-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/habu/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/scopes/habu-scopes.yml
+  href: https://artifacts.apis.io/habu/scopes/habu-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/habu-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/authentication/habu-authentication.yml
+  href: https://artifacts.apis.io/habu/authentication/habu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/habu-authentication.yml
@@ -366,23 +368,31 @@ common:
   type: Security
   url: https://liveramp.com/security/bug-bounty
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/security/habu-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/habu/security/habu-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/habu-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/security/habu-domain-security.yml
+  href: https://artifacts.apis.io/habu/security/habu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/habu-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/security/habu-trust-center.yml
+  href: https://artifacts.apis.io/habu/security/habu-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/habu-trust-center.yml
 created: '2026-07-17'
 description: 'Habu was a data clean room and data collaboration company, founded in 2017 and headquartered in San Francisco, that let brands, publishers, and media platforms run privacy-safe joins and analytics on each other''s first-party data without moving or exposing raw records. In January 2024 Habu was acquired by LiveRamp, and the product now ships as LiveRamp Clean Room within the LiveRamp data collaboration network. The habu.com marketing domain 301-redirects to liveramp.com and the old docs.habu.com / developer.habu.com hosts no longer resolve, but the product API itself is still very much alive on Habu''s own infrastructure: api.habu.com/v1 answers today, and LiveRamp publishes its full 151-operation OpenAPI 3.0.0 contract — titled "External APIs for Customer Integration", contact platform_admin@habu.com — under developers.liveramp.com. The console is still Habu-branded at console.habu.com. This profile originated as a portfolio-lead stub (backed by Norwest Venture Partners and
   Wing Venture Capital) and is enriched here from that live, publicly documented surface plus the security and compliance posture inherited by LiveRamp.'
+finops:
+- has_sources: true
+  method: derived
+  name: Habu Finops
+  primary_unit: annual token commitment
+  service_category: ''
+  slug: habu-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/habu.png
 layout: provider
 mcp_servers:
@@ -399,9 +409,12 @@ overview: 'Habu publishes 34 API contracts indexed on the [APIs.io](https://apis
   Habu''s developer surface includes API reference, getting-started guide, changelog, authentication, documentation, engineering blog, pricing, and 29 more developer resources.'
 plans:
 - name: Habu Plans Pricing
-  plan_count: 0
+  plan_count: 3
   slug: habu-plans-pricing
-random_paper: 20
+- name: Habu Price Estimates
+  plan_count: 0
+  slug: habu-price-estimates
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Habu Rate Limits
@@ -412,23 +425,23 @@ scopes:
   slug: habu-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 50.8
+  band: exemplar
+  composite: 67.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 25
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 53.9
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 52.5
-    developer_ergonomics: 16.1
-    discoverability: 71.7
-    operational_transparency: 76.3
+    contract_quality: 49.1
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 78.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -436,7 +449,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 50.7
+  previous_composite: 59.5
   provenance:
     conformance: derived
     contracts:
@@ -460,13 +473,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/screenshots/habu-2026-07-25T220519.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/habu/habu-2026-07-25T220519.png
 security:
 - kind: authentication
   name: Habu Authentication
@@ -484,6 +498,14 @@ security:
   name: Habu Trust Center
   slug: habu-trust-center
   summary_line: SOC 2 Type 2, ISO 27001, GDPR, CCPA, SOX
+skill_count: 3
+skills:
+- name: habu-provision-a-data-connection
+  slug: habu-provision-a-data-connection
+- name: habu-run-a-cleanroom-question
+  slug: habu-run-a-cleanroom-question
+- name: habu-set-up-a-cleanroom-collaboration
+  slug: habu-set-up-a-cleanroom-collaboration
 slug: habu
 tags:
 - Company

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -36,22 +38,22 @@ common:
   type: BlogRSS
   url: https://www.nielsen.com/insights/type/article/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nielsen/refs/heads/main/vendors/nielsen-vendors.yml
+  href: https://artifacts.apis.io/nielsen/vendors/nielsen-vendors.yml
   title: ''
   type: Vendors
   url: vendors/nielsen-vendors.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nielsen/refs/heads/main/llms/nielsen-llms.txt
+  href: https://artifacts.apis.io/nielsen/llms/nielsen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nielsen-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nielsen/refs/heads/main/well-known/nielsen-well-known.yml
+  href: https://artifacts.apis.io/nielsen/well-known/nielsen-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nielsen-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nielsen/refs/heads/main/hosts/nielsen-hosts.yml
+  href: https://artifacts.apis.io/nielsen/hosts/nielsen-hosts.yml
   title: ''
   type: Hosts
   url: hosts/nielsen-hosts.yml
@@ -80,7 +82,7 @@ common:
   type: Leadership
   url: https://www.nielsen.com/about-us/leadership/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nielsen/refs/heads/main/security/nielsen-domain-security.yml
+  href: https://artifacts.apis.io/nielsen/security/nielsen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nielsen-domain-security.yml
@@ -116,10 +118,10 @@ overview: 'Nielsen is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Nielsen''s developer surface includes engineering blog, support, documentation, getting-started guide, and 12 more developer resources.'
-random_paper: 2
+random_paper: 6
 score:
   band: emerging
-  composite: 17.9
+  composite: 17.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -127,15 +129,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 58.9
+    discoverability: 51.8
     operational_transparency: 0.0
-  previous_composite: 17.4
+  previous_composite: 17.2
   provenance:
     mcp: derived
   regulatory:
@@ -144,14 +146,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nielsen/refs/heads/main/screenshots/nielsen-2026-10-11T111559.png
+screenshot: https://apis.io/screenshots/nielsen/nielsen-2026-10-11T111559.png
 security:
 - kind: domain-security
   name: Nielsen Domain Security

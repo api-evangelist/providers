@@ -29,8 +29,8 @@ name: Lightspeed International
 nav: Providers
 network: true
 overview: Lightspeed International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Voice over IP, Networking, and Data Communications.
-random_paper: 2
-screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed-international/refs/heads/main/screenshots/lightspeed-international-2026-07-25T225133.png
+random_paper: 14
+screenshot: https://apis.io/screenshots/lightspeed-international/lightspeed-international-2026-07-25T225133.png
 slug: lightspeed-international
 tags:
 - Company

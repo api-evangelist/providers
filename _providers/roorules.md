@@ -4,6 +4,6 @@ layout: provider
 name: roorules
 nav: Providers
 network: true
-random_paper: 11
+random_paper: 3
 slug: roorules
 ---

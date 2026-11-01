@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Authenticated flood forecasting and impact data delivered as GIS-native OGC WMS/WFS feeds, secured by AWS Cognito OAuth2/OIDC. Access is provisioned per customer; there is no public self-service devel
@@ -70,47 +72,47 @@ common:
   type: Login
   url: https://login.floodmapp.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/floodmapp/refs/heads/main/mcp/floodmapp-mcp.yml
+  href: https://artifacts.apis.io/floodmapp/mcp/floodmapp-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/floodmapp-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/floodmapp/refs/heads/main/llms/floodmapp-llms.txt
+  href: https://artifacts.apis.io/floodmapp/llms/floodmapp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/floodmapp-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/floodmapp/refs/heads/main/authentication/floodmapp-authentication.yml
+  href: https://artifacts.apis.io/floodmapp/authentication/floodmapp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/floodmapp-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/floodmapp/refs/heads/main/scopes/floodmapp-scopes.yml
+  href: https://artifacts.apis.io/floodmapp/scopes/floodmapp-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/floodmapp-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/floodmapp/refs/heads/main/well-known/floodmapp-well-known.yml
+  href: https://artifacts.apis.io/floodmapp/well-known/floodmapp-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/floodmapp-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/floodmapp/refs/heads/main/conformance/floodmapp-conformance.yml
+  href: https://artifacts.apis.io/floodmapp/conformance/floodmapp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/floodmapp-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/floodmapp/refs/heads/main/conformance/floodmapp-conformance.yml
+  href: https://artifacts.apis.io/floodmapp/conformance/floodmapp-conformance.yml
   title: ''
   type: Compliance
   url: conformance/floodmapp-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/floodmapp/refs/heads/main/security/floodmapp-trust-center.yml
+  href: https://artifacts.apis.io/floodmapp/security/floodmapp-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/floodmapp-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/floodmapp/refs/heads/main/security/floodmapp-domain-security.yml
+  href: https://artifacts.apis.io/floodmapp/security/floodmapp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/floodmapp-domain-security.yml
@@ -130,7 +132,7 @@ overview: 'FloodMapp is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   FloodMapp''s developer surface includes engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 16
+random_paper: 2
 scopes:
 - name: Floodmapp Scopes
   scope_count: 1
@@ -138,7 +140,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 22.7
+  composite: 23.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -146,15 +148,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 22.6
+  previous_composite: 23.0
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -164,14 +166,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/floodmapp/refs/heads/main/screenshots/floodmapp-2026-07-25T214818.png
+screenshot: https://apis.io/screenshots/floodmapp/floodmapp-2026-07-25T214818.png
 security:
 - kind: authentication
   name: Floodmapp Authentication

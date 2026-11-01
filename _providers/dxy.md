@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Standardized medical data services from DXY's Open Platform (开放平台) — newly-approved drugs, drug SKU data, drug search, disease search, and hospital/institution search — delivered as REST/JSON endpoint
@@ -69,7 +71,7 @@ common:
   type: PrivacyPolicy
   url: https://3g.dxy.cn/newh5/view/rule/privacyPolicy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dxy/refs/heads/main/security/dxy-domain-security.yml
+  href: https://artifacts.apis.io/dxy/security/dxy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dxy-domain-security.yml
@@ -85,10 +87,10 @@ overview: 'DXY is listed with 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   DXY''s developer surface includes documentation, API reference, support, and 5 more developer resources.'
-random_paper: 11
+random_paper: 5
 score:
   band: emerging
-  composite: 11.7
+  composite: 16.9
   coverage:
     artifact_dirs: 3
     catalog_earned: 37.0
@@ -98,7 +100,7 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 31.0
@@ -111,21 +113,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 11.7
+  previous_composite: 16.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 10.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dxy/refs/heads/main/screenshots/dxy-2026-07-25T212552.png
+screenshot: https://apis.io/screenshots/dxy/dxy-2026-07-25T212552.png
 security:
 - kind: domain-security
   name: Dxy Domain Security

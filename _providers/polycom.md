@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the Polycom RealPresence Platform (RealPresence Resource Manager / Distributed Media Application, later Poly Clariti). Integrates the platform into business processes such as resource mon
@@ -58,7 +60,7 @@ common:
   type: Support
   url: https://www.poly.com/us/en/support
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/polycom/refs/heads/main/security/polycom-domain-security.yml
+  href: https://artifacts.apis.io/polycom/security/polycom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/polycom-domain-security.yml
@@ -74,10 +76,10 @@ overview: 'Polycom is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Polycom''s developer surface includes documentation, support, and 3 more developer resources.'
-random_paper: 1
+random_paper: 3
 score:
   band: minimal
-  composite: 8.1
+  composite: 9.1
   coverage:
     artifact_dirs: 4
     catalog_earned: 32.0
@@ -90,24 +92,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 23.8
     discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 8.1
+  previous_composite: 9.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/polycom/refs/heads/main/screenshots/polycom-2026-09-02T151707.png
+screenshot: https://apis.io/screenshots/polycom/polycom-2026-09-02T151707.png
 security:
 - kind: domain-security
   name: Polycom Domain Security

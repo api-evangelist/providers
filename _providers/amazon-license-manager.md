@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 31.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,14 +52,51 @@ apis:
   description: License configuration management
   name: Amazon License Manager License Configurations API
   slug: amazon-license-manager-license-configurations-api
-artifact_total: 27
+- baseURL: https://license-manager.amazonaws.com
+  baseurl_source: declared
+  description: The License Manager Grant API from Amazon License Manager — 5 operation(s) for license manager grant.
+  name: Amazon License Manager License Manager Grant API
+  slug: amazon-license-manager-grant-api
+- baseURL: https://license-manager.amazonaws.com
+  baseurl_source: declared
+  description: The License Manager License API from Amazon License Manager — 4 operation(s) for license manager license.
+  name: Amazon License Manager License Manager License API
+  slug: amazon-license-manager-license-api
+- baseURL: https://license-manager.amazonaws.com
+  baseurl_source: declared
+  description: The License Manager License Asset Group API from Amazon License Manager — 5 operation(s) for license manager license asset group.
+  name: Amazon License Manager License Manager License Asset Group API
+  slug: amazon-license-manager-license-asset-group-api
+- baseURL: https://license-manager.amazonaws.com
+  baseurl_source: declared
+  description: The License Manager License Asset Ruleset API from Amazon License Manager — 5 operation(s) for license manager license asset ruleset.
+  name: Amazon License Manager License Manager License Asset Ruleset API
+  slug: amazon-license-manager-license-asset-ruleset-api
+- baseURL: https://license-manager.amazonaws.com
+  baseurl_source: declared
+  description: The License Manager License Conversion Task API from Amazon License Manager — 3 operation(s) for license manager license conversion task.
+  name: Amazon License Manager License Manager License Conversion Task API
+  slug: amazon-license-manager-license-conversion-task-api
+- baseURL: https://license-manager.amazonaws.com
+  baseurl_source: declared
+  description: The License Manager License Manager Report Generator API from Amazon License Manager — 5 operation(s) for license manager license manager report generator.
+  name: Amazon License Manager License Manager License Manager Report Generator API
+  slug: amazon-license-manager-license-manager-report-generator-api
+- baseURL: https://license-manager.amazonaws.com
+  baseurl_source: declared
+  description: The License Manager Operations API from Amazon License Manager — 26 operation(s) for license manager operations.
+  name: Amazon License Manager License Manager Operations API
+  slug: amazon-license-manager-operations-api
+- baseURL: https://license-manager.amazonaws.com
+  baseurl_source: declared
+  description: The License Manager Token API from Amazon License Manager — 3 operation(s) for license manager token.
+  name: Amazon License Manager License Manager Token API
+  slug: amazon-license-manager-token-api
+artifact_total: 34
 collections:
 - collection_type: postman
   name: Amazon License Manager License Configurations API
   slug: postman-amazon-license-manager-license-configurations-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon License Manager License Configurations API
   slug: open-amazon-license-manager-license-configurations-api
@@ -66,17 +105,17 @@ collections:
   slug: open-amazon-license-manager
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/plans/amazon-license-manager-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-license-manager/plans/amazon-license-manager-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-license-manager-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/rate-limits/amazon-license-manager-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-license-manager/rate-limits/amazon-license-manager-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-license-manager-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/finops/amazon-license-manager-finops.yml
+  href: https://artifacts.apis.io/amazon-license-manager/finops/amazon-license-manager-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-license-manager-finops.yml
@@ -89,27 +128,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-license-manager/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/agentic-access/amazon-license-manager-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-license-manager/agentic-access/amazon-license-manager-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-license-manager-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/security/amazon-license-manager-trust-center.yml
+  href: https://artifacts.apis.io/amazon-license-manager/security/amazon-license-manager-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-license-manager-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/security/amazon-license-manager-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-license-manager/security/amazon-license-manager-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-license-manager-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/security/amazon-license-manager-domain-security.yml
+  href: https://artifacts.apis.io/amazon-license-manager/security/amazon-license-manager-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-license-manager-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/authentication/amazon-license-manager-authentication.yml
+  href: https://artifacts.apis.io/amazon-license-manager/authentication/amazon-license-manager-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-license-manager-authentication.yml
@@ -166,12 +205,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/rules/amazon-license-manager-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-license-manager/rules/amazon-license-manager-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-license-manager-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/vocabulary/amazon-license-manager-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-license-manager/vocabulary/amazon-license-manager-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-license-manager-vocabulary.yaml
@@ -193,11 +232,11 @@ features:
 - description: Use existing on-premises software licenses on EC2 with BYOL programs.
   name: Bring Your Own License (BYOL)
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon License Manager Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: amazon-license-manager-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-license-manager.png
@@ -219,7 +258,7 @@ modified: '2026-09-16'
 name: Amazon License Manager
 nav: Providers
 network: true
-overview: 'Amazon License Manager publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: License Configurations API. Tagged areas include Compliance, Cost Management, License Management, and Software Licensing.
+overview: 'Amazon License Manager publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including License Configurations API, License Manager Grant API, License Manager License API, and 6 more. Tagged areas include Compliance, Cost Management, License Management, and Software Licensing.
 
 
   The Amazon License Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -228,9 +267,9 @@ overview: 'Amazon License Manager publishes 1 API contract indexed on the [APIs.
   Amazon License Manager''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
 plans:
 - name: Amazon License Manager Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: amazon-license-manager-plans-pricing
-random_paper: 6
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Amazon License Manager Rate Limits
@@ -260,44 +299,45 @@ rules:
     warn: 15
   slug: amazon-license-manager-spectral-rules
 score:
-  band: developing
-  composite: 50.3
+  band: strong
+  composite: 58.6
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 57.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.6
+    artifact_dirs: 20
+    catalog_earned: 62.4
+    catalog_earned_first_party: 8.0
+    catalog_gap: 52.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: -1.5
   facets:
-    access_clarity: 53.9
+    access_clarity: 73.7
     contract_governance: 27.3
-    contract_quality: 61.9
-    developer_ergonomics: 46.4
+    contract_quality: 60.3
+    developer_ergonomics: 58.3
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 51.8
+    operational_transparency: 39.5
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 1
+      marker_coverage: 88.9
+      total: 9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/screenshots/amazon-license-manager-2026-06-20T171724.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-license-manager/amazon-license-manager-2026-06-20T171724.png
 security:
 - kind: authentication
   name: Amazon License Manager Authentication

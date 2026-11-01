@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -91,7 +93,7 @@ apis:
   description: Configure trusted publisher settings for packages to enable OIDC token exchange from CI/CD providers without long-lived npm tokens.
   name: npm Trusted Publishers API
   slug: npm-trusted-publishers-api
-artifact_total: 59
+artifact_total: 58
 asyncapis:
 - description: The npm Hooks event system delivers HTTP POST payloads to subscriber endpoints whenever changes occur in the npm registry. Hooks can be configured to watch for changes to individual packages, all pack
   name: npm Hooks Events
@@ -122,9 +124,6 @@ collections:
   name: npm Hooks Downloads Trusted Publishers API
   slug: postman-npm-trusted-publishers-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: npm Hooks Downloads API
   slug: open-npm-downloads-api
 - collection_type: open
@@ -153,22 +152,22 @@ collections:
   slug: open-npm-trusted-publishers-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/plans/npm-plans-pricing.yml
+  href: https://artifacts.apis.io/npm/plans/npm-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/npm-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/rate-limits/npm-rate-limits.yml
+  href: https://artifacts.apis.io/npm/rate-limits/npm-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/npm-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/finops/npm-finops.yml
+  href: https://artifacts.apis.io/npm/finops/npm-finops.yml
   title: ''
   type: FinOps
   url: finops/npm-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/capabilities/npm-capability-edges.yml
+  href: https://artifacts.apis.io/npm/capabilities/npm-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/npm-capability-edges.yml
@@ -189,22 +188,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/npm/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/agentic-access/npm-agentic-access.yml
+  href: https://artifacts.apis.io/npm/agentic-access/npm-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/npm-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/security/npm-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/npm/security/npm-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/npm-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/security/npm-domain-security.yml
+  href: https://artifacts.apis.io/npm/security/npm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/npm-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/authentication/npm-authentication.yml
+  href: https://artifacts.apis.io/npm/authentication/npm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/npm-authentication.yml
@@ -258,7 +257,7 @@ finops:
 - has_sources: true
   method: generated
   name: Npm Finops
-  primary_unit: ''
+  primary_unit: seat
   service_category: Developer Tools / Package Registry
   slug: npm-finops
   template: false
@@ -346,7 +345,7 @@ plans:
 - name: Npm Plans Pricing
   plan_count: 4
   slug: npm-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Npm Rate Limits
@@ -377,23 +376,23 @@ rules:
   slug: npm-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.3
+  composite: 49.7
   coverage:
     artifact_dirs: 20
-    catalog_earned: 52.9
+    catalog_earned: 55.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.1
+    catalog_gap: 59.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 68.8
+    contract_quality: 65.4
     developer_ergonomics: 39.3
     discoverability: 64.3
     operational_transparency: 39.5
-  previous_composite: 49.8
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     contracts:
@@ -407,13 +406,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/screenshots/npm-2026-06-20T190449.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/npm/npm-2026-06-20T190449.png
 security:
 - kind: authentication
   name: Npm Authentication

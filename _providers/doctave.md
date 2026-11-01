@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: Manage documentation sites and their configurations.
   name: Doctave Sites API
   slug: doctave-sites-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Doctave Deployments API
   slug: open-doctave-deployments-api
@@ -87,37 +86,37 @@ collections:
   slug: open-doctave-sites-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/plans/doctave-plans-pricing.yml
+  href: https://artifacts.apis.io/doctave/plans/doctave-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/doctave-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/rate-limits/doctave-rate-limits.yml
+  href: https://artifacts.apis.io/doctave/rate-limits/doctave-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/doctave-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/finops/doctave-finops.yml
+  href: https://artifacts.apis.io/doctave/finops/doctave-finops.yml
   title: ''
   type: FinOps
   url: finops/doctave-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/capabilities/doctave-capability-edges.yml
+  href: https://artifacts.apis.io/doctave/capabilities/doctave-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/doctave-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/agentic-access/doctave-agentic-access.yml
+  href: https://artifacts.apis.io/doctave/agentic-access/doctave-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/doctave-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/security/doctave-domain-security.yml
+  href: https://artifacts.apis.io/doctave/security/doctave-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/doctave-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/authentication/doctave-authentication.yml
+  href: https://artifacts.apis.io/doctave/authentication/doctave-authentication.yml
   title: ''
   type: Authentication
   url: authentication/doctave-authentication.yml
@@ -151,7 +150,7 @@ finops:
 - has_sources: false
   method: generated
   name: Doctave Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: doctave-finops
   template: true
@@ -184,7 +183,7 @@ plans:
 - name: Doctave Plans Pricing
   plan_count: 3
   slug: doctave-plans-pricing
-random_paper: 16
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Doctave Rate Limits
@@ -203,7 +202,7 @@ rules:
   slug: doctave-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.6
+  composite: 29.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 44.3
@@ -211,15 +210,15 @@ score:
     catalog_gap: 70.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 57.2
+    contract_quality: 53.8
     developer_ergonomics: 23.8
     discoverability: 48.2
-    operational_transparency: 10.5
-  previous_composite: 31.1
+    operational_transparency: 13.2
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     contracts:
@@ -233,13 +232,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/screenshots/doctave-2026-06-20T180112.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/doctave/doctave-2026-06-20T180112.png
 security:
 - kind: authentication
   name: Doctave Authentication

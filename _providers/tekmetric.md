@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 21.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -89,11 +91,8 @@ apis:
   description: Customer vehicles serviced by the shop.
   name: Tekmetric Vehicles API
   slug: tekmetric-vehicles-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tekmetric Appointments API
   slug: open-tekmetric-appointments-api
@@ -134,32 +133,32 @@ common:
   type: Pricing
   url: https://www.tekmetric.com/pricing
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/capabilities/tekmetric-capability-edges.yml
+  href: https://artifacts.apis.io/tekmetric/capabilities/tekmetric-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tekmetric-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/agentic-access/tekmetric-agentic-access.yml
+  href: https://artifacts.apis.io/tekmetric/agentic-access/tekmetric-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tekmetric-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/security/tekmetric-trust-center.yml
+  href: https://artifacts.apis.io/tekmetric/security/tekmetric-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tekmetric-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/security/tekmetric-domain-security.yml
+  href: https://artifacts.apis.io/tekmetric/security/tekmetric-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tekmetric-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/authentication/tekmetric-authentication.yml
+  href: https://artifacts.apis.io/tekmetric/authentication/tekmetric-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tekmetric-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/scopes/tekmetric-scopes.yml
+  href: https://artifacts.apis.io/tekmetric/scopes/tekmetric-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tekmetric-scopes.yml
@@ -180,17 +179,17 @@ common:
   type: Documentation
   url: https://api.tekmetric.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/plans/tekmetric-plans-pricing.yml
+  href: https://artifacts.apis.io/tekmetric/plans/tekmetric-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tekmetric-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/rate-limits/tekmetric-rate-limits.yml
+  href: https://artifacts.apis.io/tekmetric/rate-limits/tekmetric-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tekmetric-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/finops/tekmetric-finops.yml
+  href: https://artifacts.apis.io/tekmetric/finops/tekmetric-finops.yml
   title: ''
   type: FinOps
   url: finops/tekmetric-finops.yml
@@ -210,7 +209,7 @@ modified: '2026-10-06'
 name: Tekmetric
 nav: Providers
 network: true
-overview: 'Tekmetric publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointments API, Canned Jobs API, Customers API, and 6 more. Tagged areas include Automotive, Auto Repair, Shop Management, Fleet, and Vertical SaaS.
+overview: 'Tekmetric publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Appointments API, Canned Jobs API, Customers API, and 6 more. Tagged areas include Automotive, Auto Repair, Shop Management, Fleet Management, and Vertical SaaS.
 
 
   Tekmetric''s developer surface includes engineering blog, pricing, authentication, documentation, and 11 more developer resources.'
@@ -221,7 +220,7 @@ plans:
 - name: Tekmetric Price Estimates
   plan_count: 0
   slug: tekmetric-price-estimates
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Tekmetric Rate Limits
@@ -233,7 +232,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 33.7
+  composite: 36.7
   coverage:
     artifact_dirs: 14
     catalog_earned: 51.0
@@ -241,15 +240,15 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 48.0
-    developer_ergonomics: 15.5
+    developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 36.5
+    operational_transparency: 10.5
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -263,13 +262,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/screenshots/tekmetric-2026-09-02T162726.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tekmetric/tekmetric-2026-09-02T162726.png
 security:
 - kind: authentication
   name: Tekmetric Authentication
@@ -288,7 +288,7 @@ tags:
 - Automotive
 - Auto Repair
 - Shop Management
-- Fleet
+- Fleet Management
 - Vertical SaaS
 website: https://www.tekmetric.com/
 ---

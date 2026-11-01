@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,17 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/retro-biosciences/refs/heads/main/security/retro-biosciences-domain-security.yml
+  href: https://artifacts.apis.io/retro-biosciences/security/retro-biosciences-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/retro-biosciences-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/retro-biosciences/refs/heads/main/llms/retro-biosciences-llms.txt
+  href: https://artifacts.apis.io/retro-biosciences/llms/retro-biosciences-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/retro-biosciences-llms.txt
@@ -125,10 +127,10 @@ overview: 'Retro Biosciences is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Retro Biosciences'' developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 0
+random_paper: 8
 score:
   band: minimal
-  composite: 5.2
+  composite: 4.9
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -142,8 +144,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -151,21 +153,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 5.2
+  previous_composite: 4.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/retro-biosciences/refs/heads/main/screenshots/retro-biosciences-2026-09-02T153636.png
+screenshot: https://apis.io/screenshots/retro-biosciences/retro-biosciences-2026-09-02T153636.png
 security:
 - kind: domain-security
   name: Retro Biosciences Domain Security

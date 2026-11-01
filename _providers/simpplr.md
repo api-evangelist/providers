@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-10-17'
+  score: 27.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -101,40 +103,45 @@ apis:
   description: The Sites API from Simpplr — 6 operation(s) for sites.
   name: Simpplr Sites API
   slug: simpplr-sites-api
-artifact_total: 19
+artifact_total: 21
 common:
+- group: commercial
+  href: https://artifacts.apis.io/simpplr/plans/simpplr-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/simpplr-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/agentic-access/simpplr-agentic-access.yml
+  href: https://artifacts.apis.io/simpplr/agentic-access/simpplr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/simpplr-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/rules/simpplr-rules.yml
+  href: https://artifacts.apis.io/simpplr/rules/simpplr-rules.yml
   title: ''
   type: Spectral
   url: rules/simpplr-rules.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/security/simpplr-trust-center.yml
+  href: https://artifacts.apis.io/simpplr/security/simpplr-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/simpplr-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/errors/simpplr-problem-types.yml
+  href: https://artifacts.apis.io/simpplr/errors/simpplr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/simpplr-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/conformance/simpplr-conformance.yml
+  href: https://artifacts.apis.io/simpplr/conformance/simpplr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/simpplr-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/hosts/simpplr-hosts.yml
+  href: https://artifacts.apis.io/simpplr/hosts/simpplr-hosts.yml
   title: ''
   type: Hosts
   url: hosts/simpplr-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/vendors/simpplr-vendors.yml
+  href: https://artifacts.apis.io/simpplr/vendors/simpplr-vendors.yml
   title: ''
   type: Vendors
   url: vendors/simpplr-vendors.yml
@@ -147,7 +154,7 @@ common:
   type: Newsroom
   url: https://www.simpplr.com/newsroom/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/scopes/simpplr-scopes.yml
+  href: https://artifacts.apis.io/simpplr/scopes/simpplr-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/simpplr-scopes.yml
@@ -156,7 +163,7 @@ common:
   type: BlogRSS
   url: https://www.simpplr.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/security/simpplr-domain-security.yml
+  href: https://artifacts.apis.io/simpplr/security/simpplr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simpplr-domain-security.yml
@@ -217,42 +224,50 @@ common:
   type: Security
   url: https://simpplr.com/vulnerability-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/well-known/simpplr-security.txt
+  href: https://artifacts.apis.io/simpplr/well-known/simpplr-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/simpplr-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/well-known/simpplr-well-known.yml
+  href: https://artifacts.apis.io/simpplr/well-known/simpplr-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/simpplr-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/security/simpplr-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/simpplr/security/simpplr-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/simpplr-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/authentication/simpplr-authentication.yml
+  href: https://artifacts.apis.io/simpplr/authentication/simpplr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/simpplr-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/mcp/simpplr-mcp.yml
+  href: https://artifacts.apis.io/simpplr/mcp/simpplr-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/simpplr-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/llms/simpplr-llms.txt
+  href: https://artifacts.apis.io/simpplr/llms/simpplr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/simpplr-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/conventions/simpplr-conventions.yml
+  href: https://artifacts.apis.io/simpplr/conventions/simpplr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/simpplr-conventions.yml
 created: '2026-07-17'
 description: Simpplr is an AI-powered employee experience platform (modern intranet, employee communications, recognition, and virtual assistant) used by enterprises to inform, engage, and connect their workforce. Built on the Salesforce platform, Simpplr publishes a REST "Extensibility Center" API at developer.simpplr.com that lets developers programmatically manage sites, pages, blogs, events, alerts, notifications, people/audiences, content, search, media, and adoption/engagement analytics. Authentication is OAuth 2.0 (bearer token) via a connected app on the Salesforce platform. Simpplr was founded in 2014, is headquartered in Redwood City, California, and is backed by venture investors including Norwest Venture Partners and Sapphire Ventures. This profile was added to the API Evangelist network from the VC portfolio pipeline and enriched from Simpplr's public developer surface.
+finops:
+- has_sources: true
+  method: derived
+  name: Simpplr Finops
+  primary_unit: ''
+  service_category: ''
+  slug: simpplr-finops
+  template: true
 image: https://www.simpplr.com/wp-content/uploads/2023/01/simpplr-logo.png
 layout: provider
 modified: '2026-10-06'
@@ -265,8 +280,12 @@ overview: 'Simpplr publishes 12 API contracts indexed on the [APIs.io](https://a
   The Simpplr catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Simpplr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 5
+  Simpplr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+plans:
+- name: Simpplr Plans Pricing
+  plan_count: 1
+  slug: simpplr-plans-pricing
+random_paper: 7
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -286,22 +305,22 @@ scopes:
   slug: simpplr-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 45.0
+  band: strong
+  composite: 54.8
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 44.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 70.5
+    artifact_dirs: 20
+    catalog_earned: 52.5
+    catalog_earned_first_party: 8.0
+    catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 20.2
+  delta: 4.2
   facets:
-    access_clarity: 47.4
+    access_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 52.4
-    developer_ergonomics: 38.1
-    discoverability: 80.4
+    contract_quality: 49.0
+    developer_ergonomics: 57.1
+    discoverability: 73.2
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -310,7 +329,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 24.8
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -326,13 +345,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/screenshots/simpplr-2026-09-02T155601.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/simpplr/simpplr-2026-09-02T155601.png
 security:
 - kind: authentication
   name: Simpplr Authentication

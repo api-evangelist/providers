@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -90,11 +92,8 @@ apis:
   description: The Workspaces API from Orbit — 2 operation(s) for workspaces.
   name: Orbit Workspaces API
   slug: orbit-workspaces-api
-artifact_total: 75
+artifact_total: 78
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Orbit Activities API
   slug: open-orbit-activities-api
@@ -124,52 +123,52 @@ collections:
   slug: open-orbit-workspaces-api
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/rules/orbit-rules.yml
+  href: https://artifacts.apis.io/orbit/rules/orbit-rules.yml
   title: ''
   type: Spectral
   url: rules/orbit-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/rules/orbit-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/orbit/rules/orbit-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/orbit-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/json-ld/orbit-context.jsonld
+  href: https://artifacts.apis.io/orbit/json-ld/orbit-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/orbit-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/vocabulary/orbit-vocabulary.yml
+  href: https://artifacts.apis.io/orbit/vocabulary/orbit-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/orbit-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/orbit/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/data-model/orbit-data-model.yml
+  href: https://artifacts.apis.io/orbit/data-model/orbit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/orbit-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/errors/orbit-problem-types.yml
+  href: https://artifacts.apis.io/orbit/errors/orbit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/orbit-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/conformance/orbit-conformance.yml
+  href: https://artifacts.apis.io/orbit/conformance/orbit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/orbit-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/hosts/orbit-hosts.yml
+  href: https://artifacts.apis.io/orbit/hosts/orbit-hosts.yml
   title: ''
   type: Hosts
   url: hosts/orbit-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/vendors/orbit-vendors.yml
+  href: https://artifacts.apis.io/orbit/vendors/orbit-vendors.yml
   title: ''
   type: Vendors
   url: vendors/orbit-vendors.yml
@@ -194,17 +193,17 @@ common:
   type: License
   url: https://github.com/orbit-love/ruby-orbit-members/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/agentic-access/orbit-agentic-access.yml
+  href: https://artifacts.apis.io/orbit/agentic-access/orbit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/orbit-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/security/orbit-domain-security.yml
+  href: https://artifacts.apis.io/orbit/security/orbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/orbit-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/authentication/orbit-authentication.yml
+  href: https://artifacts.apis.io/orbit/authentication/orbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/orbit-authentication.yml
@@ -241,17 +240,17 @@ common:
   type: StatusPage
   url: https://status.orbit.love/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/plans/orbit-plans-pricing.yml
+  href: https://artifacts.apis.io/orbit/plans/orbit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/orbit-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/rate-limits/orbit-rate-limits.yml
+  href: https://artifacts.apis.io/orbit/rate-limits/orbit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/orbit-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/finops/orbit-finops.yml
+  href: https://artifacts.apis.io/orbit/finops/orbit-finops.yml
   title: ''
   type: FinOps
   url: finops/orbit-finops.yml
@@ -486,9 +485,6 @@ score:
     discoverability: 0.0
     operational_transparency: 0.0
   lifecycle: defunct
-  open_source:
-    applies: true
-    score: 0.0
   previous_composite: 0.0
   provenance:
     agentic_access: derived
@@ -506,13 +502,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/screenshots/orbit-2026-08-17T124255.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/orbit/orbit-2026-08-17T124255.png
 security:
 - kind: authentication
   name: Orbit Authentication
@@ -522,6 +519,16 @@ security:
   name: Orbit Domain Security
   slug: orbit-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: orbit-create-member-activity
+  slug: orbit-create-member-activity
+- name: orbit-create-or-update-member-and-add-identity
+  slug: orbit-create-or-update-member-and-add-identity
+- name: orbit-create-webhook
+  slug: orbit-create-webhook
+- name: orbit-notes-management
+  slug: orbit-notes-management
 slug: orbit
 tags:
 - Developer Relations

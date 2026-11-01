@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-17'
+  score: 22.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Project and DSN management
   name: Uptrace Projects API
   slug: uptrace-projects-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Uptrace Alerts API
   slug: open-uptrace-alerts-api
@@ -95,17 +94,17 @@ collections:
   slug: open-uptrace
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/plans/uptrace-plans-pricing.yml
+  href: https://artifacts.apis.io/uptrace/plans/uptrace-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/uptrace-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/rate-limits/uptrace-rate-limits.yml
+  href: https://artifacts.apis.io/uptrace/rate-limits/uptrace-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/uptrace-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/finops/uptrace-finops.yml
+  href: https://artifacts.apis.io/uptrace/finops/uptrace-finops.yml
   title: ''
   type: FinOps
   url: finops/uptrace-finops.yml
@@ -114,7 +113,7 @@ common:
   type: Blog
   url: https://uptrace.dev/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/capabilities/uptrace-capability-edges.yml
+  href: https://artifacts.apis.io/uptrace/capabilities/uptrace-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/uptrace-capability-edges.yml
@@ -135,17 +134,17 @@ common:
   type: License
   url: https://github.com/uptrace/uptrace/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/agentic-access/uptrace-agentic-access.yml
+  href: https://artifacts.apis.io/uptrace/agentic-access/uptrace-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/uptrace-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/security/uptrace-domain-security.yml
+  href: https://artifacts.apis.io/uptrace/security/uptrace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uptrace-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/authentication/uptrace-authentication.yml
+  href: https://artifacts.apis.io/uptrace/authentication/uptrace-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uptrace-authentication.yml
@@ -190,7 +189,7 @@ finops:
 - has_sources: false
   method: generated
   name: Uptrace Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: uptrace-finops
   template: true
@@ -231,7 +230,7 @@ plans:
 - name: Uptrace Plans Pricing
   plan_count: 3
   slug: uptrace-plans-pricing
-random_paper: 8
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Uptrace Rate Limits
@@ -262,7 +261,7 @@ rules:
   slug: uptrace-rules
 score:
   band: thin
-  composite: 34.6
+  composite: 33.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 58.5
@@ -270,18 +269,15 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
-    contract_quality: 59.3
+    contract_quality: 55.9
     developer_ergonomics: 23.8
     discoverability: 71.7
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 35.5
+    operational_transparency: 28.9
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -295,13 +291,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/screenshots/uptrace-2026-06-20T200501.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/uptrace/uptrace-2026-06-20T200501.png
 security:
 - kind: authentication
   name: Uptrace Authentication

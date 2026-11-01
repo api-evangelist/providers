@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 36.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -687,15 +689,12 @@ apis:
   description: The /teams API from OutSystems — 6 operation(s) for /teams.
   name: OutSystems /teams API
   slug: outsystems-teams-api
-artifact_total: 196
+artifact_total: 202
 asyncapis:
 - description: ''
   name: Outsystems Webhooks
   slug: outsystems-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Code Quality Analysis Status API
   slug: open-outsystems-analysis-status-api
@@ -806,32 +805,32 @@ collections:
   slug: open-outsystems-users-api
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/rules/outsystems-rules.yml
+  href: https://artifacts.apis.io/outsystems/rules/outsystems-rules.yml
   title: ''
   type: Spectral
   url: rules/outsystems-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/json-ld/outsystems-context.jsonld
+  href: https://artifacts.apis.io/outsystems/json-ld/outsystems-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/outsystems-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/vocabulary/outsystems-vocabulary.yml
+  href: https://artifacts.apis.io/outsystems/vocabulary/outsystems-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/outsystems-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/asyncapi/outsystems-webhooks.yml
+  href: https://artifacts.apis.io/outsystems/asyncapi/outsystems-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/outsystems-webhooks.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/hosts/outsystems-hosts.yml
+  href: https://artifacts.apis.io/outsystems/hosts/outsystems-hosts.yml
   title: ''
   type: Hosts
   url: hosts/outsystems-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/vendors/outsystems-vendors.yml
+  href: https://artifacts.apis.io/outsystems/vendors/outsystems-vendors.yml
   title: ''
   type: Vendors
   url: vendors/outsystems-vendors.yml
@@ -840,22 +839,22 @@ common:
   type: Newsroom
   url: https://www.outsystems.com/news
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/plans/outsystems-plans-pricing.yml
+  href: https://artifacts.apis.io/outsystems/plans/outsystems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/outsystems-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/capabilities/outsystems-capability-edges.yml
+  href: https://artifacts.apis.io/outsystems/capabilities/outsystems-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/outsystems-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/overlays/outsystems-asset-configurations-api-v1-overlay.yaml
+  href: https://artifacts.apis.io/outsystems/overlays/outsystems-asset-configurations-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/outsystems-asset-configurations-api-v1-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/security/outsystems-trust-center.yml
+  href: https://artifacts.apis.io/outsystems/security/outsystems-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/outsystems-trust-center.yml
@@ -924,113 +923,121 @@ common:
   type: Compliance
   url: https://security.outsystems.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/packages/outsystems-packages.yml
+  href: https://artifacts.apis.io/outsystems/packages/outsystems-packages.yml
   title: ''
   type: Packages
   url: packages/outsystems-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/packages/outsystems-packages.yml
+  href: https://artifacts.apis.io/outsystems/packages/outsystems-packages.yml
   title: ''
   type: SDKs
   url: packages/outsystems-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/cli/outsystems-cli.yml
+  href: https://artifacts.apis.io/outsystems/cli/outsystems-cli.yml
   title: ''
   type: CLI
   url: cli/outsystems-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/components/outsystems-components.yml
+  href: https://artifacts.apis.io/outsystems/components/outsystems-components.yml
   title: ''
   type: Components
   url: components/outsystems-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/well-known/outsystems-well-known.yml
+  href: https://artifacts.apis.io/outsystems/well-known/outsystems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/outsystems-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/well-known/outsystems-security.txt
+  href: https://artifacts.apis.io/outsystems/well-known/outsystems-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/outsystems-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/llms/outsystems-llms.txt
+  href: https://artifacts.apis.io/outsystems/llms/outsystems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/outsystems-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/authentication/outsystems-authentication.yml
+  href: https://artifacts.apis.io/outsystems/authentication/outsystems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/outsystems-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/scopes/outsystems-scopes.yml
+  href: https://artifacts.apis.io/outsystems/scopes/outsystems-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/outsystems-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/conventions/outsystems-conventions.yml
+  href: https://artifacts.apis.io/outsystems/conventions/outsystems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/outsystems-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/rate-limits/outsystems-rate-limits.yml
+  href: https://artifacts.apis.io/outsystems/rate-limits/outsystems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/outsystems-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/errors/outsystems-problem-types.yml
+  href: https://artifacts.apis.io/outsystems/errors/outsystems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/outsystems-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/lifecycle/outsystems-lifecycle.yml
+  href: https://artifacts.apis.io/outsystems/lifecycle/outsystems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/outsystems-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/lifecycle/outsystems-lifecycle.yml
+  href: https://artifacts.apis.io/outsystems/lifecycle/outsystems-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/outsystems-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/changelog/outsystems-changelog.yml
+  href: https://artifacts.apis.io/outsystems/changelog/outsystems-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/outsystems-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/conformance/outsystems-conformance.yml
+  href: https://artifacts.apis.io/outsystems/conformance/outsystems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/outsystems-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/data-model/outsystems-data-model.yml
+  href: https://artifacts.apis.io/outsystems/data-model/outsystems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/outsystems-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/security/outsystems-domain-security.yml
+  href: https://artifacts.apis.io/outsystems/security/outsystems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/outsystems-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/security/outsystems-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/outsystems/security/outsystems-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/outsystems-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/outsystems/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/agentic-access/outsystems-agentic-access.yml
+  href: https://artifacts.apis.io/outsystems/agentic-access/outsystems-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/outsystems-agentic-access.yml
 created: '2026-08-02'
 description: OutSystems is an enterprise low-code and AI-assisted application development platform company, founded in 2001 and headquartered in Boston, Massachusetts with engineering in Lisbon, Portugal. Its two product lines are OutSystems 11 (O11), the self-managed/PaaS platform, and OutSystems Developer Cloud (ODC), the cloud-native successor. ODC publishes a documented set of public REST APIs covering user and access management, portfolio, asset repository, asset and environment configurations, build operations, deployments, dependency and impact analysis, code quality, native mobile builds, external library generation, and subscription/entitlement usage. All ODC REST APIs authenticate with OAuth 2.0 client-credentials via a per-tenant OIDC discovery document, use offset/limit pagination, and are rate limited per API domain. OutSystems also ships a remote MCP server (early alpha) that exposes app inspection, the Mentor OML editing session, publishing, deployments, external libraries
   and environments to AI coding agents.
+finops:
+- has_sources: true
+  method: derived
+  name: Outsystems Finops
+  primary_unit: ''
+  service_category: ''
+  slug: outsystems-finops
+  template: true
 image: https://www.outsystems.com/favicon.ico
 json_schemas:
 - name: CodeAnalysisRequest
@@ -1370,7 +1377,7 @@ plans:
 - name: Outsystems Plans Pricing
   plan_count: 2
   slug: outsystems-plans-pricing
-random_paper: 14
+random_paper: 8
 rate_limits:
 - limit_count: 12
   name: Outsystems Rate Limits
@@ -1395,22 +1402,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 75.8
+  composite: 74.5
   coverage:
-    artifact_dirs: 35
+    artifact_dirs: 36
     catalog_earned: 85.8
     catalog_earned_first_party: 20.0
     catalog_gap: 29.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 81.6
     contract_governance: 22.0
-    contract_quality: 69.3
-    developer_ergonomics: 75.6
-    discoverability: 80.4
-    operational_transparency: 92.1
+    contract_quality: 66.0
+    developer_ergonomics: 78.0
+    discoverability: 71.7
+    operational_transparency: 94.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -1418,7 +1425,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 81.2
+  previous_composite: 74.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1435,13 +1442,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/screenshots/outsystems-2026-08-17T124448.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/outsystems/outsystems-2026-08-17T124448.png
 security:
 - kind: authentication
   name: Outsystems Authentication
@@ -1459,6 +1467,20 @@ security:
   name: Outsystems Trust Center
   slug: outsystems-trust-center
   summary_line: ISO 27001, ISO 27017, ISO 27018, FedRAMP, GDPR
+skill_count: 6
+skills:
+- name: outsystems-deploy-asset-across-stages
+  slug: outsystems-deploy-asset-across-stages
+- name: outsystems-impact-analysis-before-delete
+  slug: outsystems-impact-analysis-before-delete
+- name: outsystems-onboard-user-and-assign-roles
+  slug: outsystems-onboard-user-and-assign-roles
+- name: outsystems-publish-external-library
+  slug: outsystems-publish-external-library
+- name: outsystems
+  slug: outsystems-remote-mcp
+- name: outsystems-run-code-quality-analysis
+  slug: outsystems-run-code-quality-analysis
 slug: outsystems
 tags:
 - Company

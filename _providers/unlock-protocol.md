@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL subgraphs deployed on The Graph for each Unlock Protocol network, indexing locks, keys, and protocol data from the smart contracts. Unlock hosts a development endpoint per chain; production us
@@ -206,15 +208,12 @@ apis:
   description: The Verifier API from Unlock Protocol — 3 operation(s) for verifier.
   name: Unlock Protocol Verifier API
   slug: unlock-protocol-verifier-api
-artifact_total: 71
+artifact_total: 73
 asyncapis:
 - description: ''
   name: Unlock Protocol Websub Webhooks
   slug: unlock-protocol-websub-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Unlock Locksmith Applications API
   slug: open-unlock-protocol-applications-api
@@ -316,7 +315,7 @@ collections:
   slug: open-unlock-protocol-verifier-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/capabilities/unlock-protocol-capability-edges.yml
+  href: https://artifacts.apis.io/unlock-protocol/capabilities/unlock-protocol-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/unlock-protocol-capability-edges.yml
@@ -373,87 +372,87 @@ common:
   type: PrivacyPolicy
   url: https://unlock-protocol.com/privacy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/packages/unlock-protocol-packages.yml
+  href: https://artifacts.apis.io/unlock-protocol/packages/unlock-protocol-packages.yml
   title: ''
   type: Packages
   url: packages/unlock-protocol-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/packages/unlock-protocol-packages.yml
+  href: https://artifacts.apis.io/unlock-protocol/packages/unlock-protocol-packages.yml
   title: ''
   type: SDKs
   url: packages/unlock-protocol-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/mcp/unlock-protocol-mcp.yml
+  href: https://artifacts.apis.io/unlock-protocol/mcp/unlock-protocol-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/unlock-protocol-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/llms/unlock-protocol-llms.txt
+  href: https://artifacts.apis.io/unlock-protocol/llms/unlock-protocol-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unlock-protocol-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/overlays/unlock-protocol-locksmith-overlay.yaml
+  href: https://artifacts.apis.io/unlock-protocol/overlays/unlock-protocol-locksmith-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/unlock-protocol-locksmith-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/conformance/unlock-protocol-conformance.yml
+  href: https://artifacts.apis.io/unlock-protocol/conformance/unlock-protocol-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unlock-protocol-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/errors/unlock-protocol-problem-types.yml
+  href: https://artifacts.apis.io/unlock-protocol/errors/unlock-protocol-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/unlock-protocol-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/lifecycle/unlock-protocol-lifecycle.yml
+  href: https://artifacts.apis.io/unlock-protocol/lifecycle/unlock-protocol-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unlock-protocol-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/authentication/unlock-protocol-authentication.yml
+  href: https://artifacts.apis.io/unlock-protocol/authentication/unlock-protocol-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unlock-protocol-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/security/unlock-protocol-domain-security.yml
+  href: https://artifacts.apis.io/unlock-protocol/security/unlock-protocol-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unlock-protocol-domain-security.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/sandbox/unlock-protocol-sandbox.yml
+  href: https://artifacts.apis.io/unlock-protocol/sandbox/unlock-protocol-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/unlock-protocol-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/conventions/unlock-protocol-conventions.yml
+  href: https://artifacts.apis.io/unlock-protocol/conventions/unlock-protocol-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unlock-protocol-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/changelog/unlock-protocol-changelog.yml
+  href: https://artifacts.apis.io/unlock-protocol/changelog/unlock-protocol-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/unlock-protocol-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/components/unlock-protocol-components.yml
+  href: https://artifacts.apis.io/unlock-protocol/components/unlock-protocol-components.yml
   title: ''
   type: Components
   url: components/unlock-protocol-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/data-model/unlock-protocol-data-model.yml
+  href: https://artifacts.apis.io/unlock-protocol/data-model/unlock-protocol-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unlock-protocol-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/asyncapi/unlock-protocol-websub-webhooks.yml
+  href: https://artifacts.apis.io/unlock-protocol/asyncapi/unlock-protocol-websub-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/unlock-protocol-websub-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/unlock-protocol/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -472,12 +471,12 @@ overview: 'Unlock Protocol publishes 34 API contracts indexed on the [APIs.io](h
 
 
   Unlock Protocol''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 24 more developer resources.'
-random_paper: 17
+random_paper: 19
 score:
   band: developing
-  composite: 45.9
+  composite: 48.3
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -485,13 +484,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 52.5
     developer_ergonomics: 73.2
     discoverability: 66.1
-    operational_transparency: 31.6
-  previous_composite: 45.9
+    operational_transparency: 34.2
+  previous_composite: 48.3
   provenance:
     conformance: first-party
     contracts:
@@ -507,13 +506,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/screenshots/unlock-protocol-2026-08-17T082632.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/unlock-protocol/unlock-protocol-2026-08-17T082632.png
 security:
 - kind: authentication
   name: Unlock Protocol Authentication
@@ -523,6 +523,14 @@ security:
   name: Unlock Protocol Domain Security
   slug: unlock-protocol-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Authenticate with Sign-In with Ethereum (Locksmith)
+  slug: unlock-protocol-authenticate-with-siwe
+- name: Issue and verify event tickets
+  slug: unlock-protocol-issue-and-verify-tickets
+- name: Manage lock, key, and user metadata
+  slug: unlock-protocol-manage-lock-metadata
 slug: unlock-protocol
 tags:
 - Blockchain

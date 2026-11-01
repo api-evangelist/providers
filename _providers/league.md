@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The League platform API, served from the Kong-fronted gateway at api.league.com. Unauthenticated requests return an RFC-shaped JSON:API error document (content-type application/vnd.api+json) and carry
@@ -44,17 +46,17 @@ apis:
 artifact_total: 7
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/league/refs/heads/main/rate-limits/league-rate-limits.yml
+  href: https://artifacts.apis.io/league/rate-limits/league-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/league-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/league/refs/heads/main/security/league-trust-center.yml
+  href: https://artifacts.apis.io/league/security/league-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/league-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/league/refs/heads/main/security/league-domain-security.yml
+  href: https://artifacts.apis.io/league/security/league-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/league-domain-security.yml
@@ -91,42 +93,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/leagueinc
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/league/refs/heads/main/conformance/league-conformance.yml
+  href: https://artifacts.apis.io/league/conformance/league-conformance.yml
   title: ''
   type: Compliance
   url: conformance/league-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/league/refs/heads/main/conformance/league-conformance.yml
+  href: https://artifacts.apis.io/league/conformance/league-conformance.yml
   title: ''
   type: Conformance
   url: conformance/league-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/league/refs/heads/main/changelog/league-changelog.yml
+  href: https://artifacts.apis.io/league/changelog/league-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/league-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/league/refs/heads/main/lifecycle/league-lifecycle.yml
+  href: https://artifacts.apis.io/league/lifecycle/league-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/league-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/league/refs/heads/main/lifecycle/league-lifecycle.yml
+  href: https://artifacts.apis.io/league/lifecycle/league-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/league-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/league/refs/heads/main/plans/league-plans-pricing.yml
+  href: https://artifacts.apis.io/league/plans/league-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/league-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/league/refs/heads/main/packages/league-packages.yml
+  href: https://artifacts.apis.io/league/packages/league-packages.yml
   title: ''
   type: Packages
   url: packages/league-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/league/refs/heads/main/llms/league-llms.txt
+  href: https://artifacts.apis.io/league/llms/league-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/league-llms.txt
@@ -147,14 +149,14 @@ plans:
 - name: League Plans Pricing
   plan_count: 0
   slug: league-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: League Rate Limits
   slug: league-rate-limits
 score:
   band: thin
-  composite: 32.9
+  composite: 32.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 45.0
@@ -162,14 +164,14 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 73.2
-    operational_transparency: 47.4
+    discoverability: 66.1
+    operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -177,7 +179,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 32.8
+  previous_composite: 32.5
   provenance:
     conformance: first-party
   regulatory:
@@ -186,14 +188,14 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/league/refs/heads/main/screenshots/league-2026-09-02T150232.png
+screenshot: https://apis.io/screenshots/league/league-2026-09-02T150232.png
 security:
 - kind: authentication
   name: League Authentication

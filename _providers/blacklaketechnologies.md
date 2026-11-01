@@ -14,31 +14,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blacklaketechnologies/refs/heads/main/llms/blacklaketechnologies-llms.txt
+  href: https://artifacts.apis.io/blacklaketechnologies/llms/blacklaketechnologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blacklaketechnologies-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blacklaketechnologies/refs/heads/main/hosts/blacklaketechnologies-hosts.yml
+  href: https://artifacts.apis.io/blacklaketechnologies/hosts/blacklaketechnologies-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blacklaketechnologies-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blacklaketechnologies/refs/heads/main/security/blacklaketechnologies-domain-security.yml
+  href: https://artifacts.apis.io/blacklaketechnologies/security/blacklaketechnologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blacklaketechnologies-domain-security.yml
@@ -62,10 +64,10 @@ name: Blacklaketechnologies
 nav: Providers
 network: true
 overview: Blacklaketechnologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Manufacturing, Industrial, and Platform.
-random_paper: 6
+random_paper: 22
 score:
   band: minimal
-  composite: 3.7
+  composite: 3.0
   coverage:
     artifact_dirs: 6
     catalog_earned: 25.0
@@ -79,9 +81,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 51.8
+    discoverability: 44.6
     operational_transparency: 0.0
-  previous_composite: 3.7
+  previous_composite: 3.0
   provenance:
     mcp: unknown
   regulatory:
@@ -90,8 +92,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

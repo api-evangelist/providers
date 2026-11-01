@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.1
-  scored_at: '2026-10-17'
+  score: 50.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.tesser.xyz
@@ -107,15 +109,12 @@ apis:
   description: The webhooks API from Tesser — 6 operation(s) for webhooks.
   name: Tesser Webhooks API
   slug: tesser-webhooks-api
-artifact_total: 33
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Tesser Webhooks
   slug: tesser-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tesser Accounts API
   slug: open-tesser-accounts-api
@@ -160,12 +159,12 @@ collections:
   slug: open-tesser-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/capabilities/tesser-capability-edges.yml
+  href: https://artifacts.apis.io/tesser/capabilities/tesser-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tesser-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/security/tesser-domain-security.yml
+  href: https://artifacts.apis.io/tesser/security/tesser-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tesser-domain-security.yml
@@ -218,82 +217,82 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/tesserpayments/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/_original/tesser-openapi-original.json
+  href: https://artifacts.apis.io/tesser/openapi/_original/tesser-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/tesser-openapi-original.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/llms/tesser-llms.txt
+  href: https://artifacts.apis.io/tesser/llms/tesser-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tesser-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/authentication/tesser-authentication.yml
+  href: https://artifacts.apis.io/tesser/authentication/tesser-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tesser-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/mcp/tesser-mcp.yml
+  href: https://artifacts.apis.io/tesser/mcp/tesser-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tesser-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/well-known/tesser-well-known.yml
+  href: https://artifacts.apis.io/tesser/well-known/tesser-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tesser-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/packages/tesser-packages.yml
+  href: https://artifacts.apis.io/tesser/packages/tesser-packages.yml
   title: ''
   type: Packages
   url: packages/tesser-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/packages/tesser-packages.yml
+  href: https://artifacts.apis.io/tesser/packages/tesser-packages.yml
   title: ''
   type: SDKs
   url: packages/tesser-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tesser/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/conventions/tesser-conventions.yml
+  href: https://artifacts.apis.io/tesser/conventions/tesser-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tesser-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/errors/tesser-error-codes.yml
+  href: https://artifacts.apis.io/tesser/errors/tesser-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/tesser-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/asyncapi/tesser-webhooks.yml
+  href: https://artifacts.apis.io/tesser/asyncapi/tesser-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tesser-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/sandbox/tesser-sandbox.yml
+  href: https://artifacts.apis.io/tesser/sandbox/tesser-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tesser-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/lifecycle/tesser-lifecycle.yml
+  href: https://artifacts.apis.io/tesser/lifecycle/tesser-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tesser-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/conformance/tesser-conformance.yml
+  href: https://artifacts.apis.io/tesser/conformance/tesser-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tesser-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/data-model/tesser-data-model.yml
+  href: https://artifacts.apis.io/tesser/data-model/tesser-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tesser-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/overlays/tesser-openapi-overlay.yaml
+  href: https://artifacts.apis.io/tesser/overlays/tesser-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tesser-openapi-overlay.yaml
@@ -316,10 +315,10 @@ overview: 'Tesser publishes 14 API contracts indexed on the [APIs.io](https://ap
 
 
   Tesser''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 23 more developer resources.'
-random_paper: 2
+random_paper: 14
 score:
   band: developing
-  composite: 45.8
+  composite: 44.1
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -327,14 +326,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 53.4
-    developer_ergonomics: 73.8
-    discoverability: 75.0
-    operational_transparency: 10.5
+    developer_ergonomics: 76.2
+    discoverability: 65.0
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -342,7 +341,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 45.7
+  previous_composite: 44.1
   provenance:
     conformance: derived
     contracts:
@@ -358,13 +357,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/screenshots/tesser-2026-08-17T082322.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tesser/tesser-2026-08-17T082322.png
 security:
 - kind: authentication
   name: Tesser Authentication
@@ -374,6 +374,14 @@ security:
   name: Tesser Domain Security
   slug: tesser-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: tesser-deposit-via-liquidity-provider
+  slug: tesser-deposit-via-liquidity-provider
+- name: tesser-send-stablecoin-payout
+  slug: tesser-send-stablecoin-payout
+- name: setup-openfx
+  slug: tesser-setup-openfx
 slug: tesser
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Nextra is the core Next.js plugin and library that provides MDX compilation, file-system page mapping, static image handling, search indexing, syntax highlighting, LaTeX support, and i18n utilities. I
@@ -48,17 +50,17 @@ apis:
 artifact_total: 12
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nextra/refs/heads/main/plans/nextra-plans-pricing.yml
+  href: https://artifacts.apis.io/nextra/plans/nextra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nextra-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nextra/refs/heads/main/rate-limits/nextra-rate-limits.yml
+  href: https://artifacts.apis.io/nextra/rate-limits/nextra-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nextra-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nextra/refs/heads/main/finops/nextra-finops.yml
+  href: https://artifacts.apis.io/nextra/finops/nextra-finops.yml
   title: ''
   type: FinOps
   url: finops/nextra-finops.yml
@@ -67,7 +69,7 @@ common:
   type: Blog
   url: https://nextra.site/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nextra/refs/heads/main/security/nextra-domain-security.yml
+  href: https://artifacts.apis.io/nextra/security/nextra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nextra-domain-security.yml
@@ -96,22 +98,22 @@ common:
   type: License
   url: https://github.com/shuding/nextra/blob/main/LICENSE
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/nextra/refs/heads/main/json-schema/nextra-config-schema.json
+  href: https://artifacts.apis.io/nextra/json-schema/nextra-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/nextra-config-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/nextra/refs/heads/main/json-schema/nextra-theme-docs-config-schema.json
+  href: https://artifacts.apis.io/nextra/json-schema/nextra-theme-docs-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/nextra-theme-docs-config-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/nextra/refs/heads/main/json-schema/nextra-meta-schema.json
+  href: https://artifacts.apis.io/nextra/json-schema/nextra-meta-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/nextra-meta-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nextra/refs/heads/main/json-ld/nextra-context.jsonld
+  href: https://artifacts.apis.io/nextra/json-ld/nextra-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/nextra-context.jsonld
@@ -121,7 +123,7 @@ finops:
 - has_sources: false
   method: generated
   name: Nextra Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: nextra-finops
   template: true
@@ -157,7 +159,7 @@ plans:
 - name: Nextra Plans Pricing
   plan_count: 3
   slug: nextra-plans-pricing
-random_paper: 20
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Nextra Rate Limits
@@ -184,7 +186,7 @@ score:
     catalog_gap: 57.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
@@ -192,21 +194,21 @@ score:
     developer_ergonomics: 23.8
     discoverability: 62.5
     operational_transparency: 28.9
-  previous_composite: 22.4
+  previous_composite: 21.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nextra/refs/heads/main/screenshots/nextra-2026-06-20T190301.png
+screenshot: https://apis.io/screenshots/nextra/nextra-2026-06-20T190301.png
 security:
 - kind: domain-security
   name: Nextra Domain Security

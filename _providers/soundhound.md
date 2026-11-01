@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Houndify platform provides HTTP and WebSocket APIs that accept text or audio queries and return actionable JSON responses. Built on SoundHound's Speech-to-Meaning and Deep Meaning Understanding te
@@ -45,12 +47,12 @@ apis:
 artifact_total: 8
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/soundhound/refs/heads/main/plans/houndify-voice-ai.yml
+  href: https://artifacts.apis.io/soundhound/plans/houndify-voice-ai.yml
   title: ''
   type: Plans
   url: plans/houndify-voice-ai.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/soundhound/refs/heads/main/rate-limits/houndify-voice-ai.yml
+  href: https://artifacts.apis.io/soundhound/rate-limits/houndify-voice-ai.yml
   title: ''
   type: RateLimits
   url: rate-limits/houndify-voice-ai.yml
@@ -59,7 +61,7 @@ common:
   type: Website
   url: https://soundhound.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soundhound/refs/heads/main/security/soundhound-domain-security.yml
+  href: https://artifacts.apis.io/soundhound/security/soundhound-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/soundhound-domain-security.yml
@@ -134,7 +136,7 @@ plans:
 - name: Music Id
   plan_count: 2
   slug: music-id
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Houndify Voice Ai
@@ -144,7 +146,7 @@ rate_limits:
   slug: music-id
 score:
   band: emerging
-  composite: 18.9
+  composite: 20.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 39.0
@@ -152,29 +154,29 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.7
+  delta: 0.0
   facets:
-    access_clarity: 22.4
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 31.0
-    discoverability: 67.0
+    discoverability: 67.9
     operational_transparency: 21.1
-  previous_composite: 23.6
+  previous_composite: 20.3
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/soundhound/refs/heads/main/screenshots/soundhound-2026-06-20T194221.png
+screenshot: https://apis.io/screenshots/soundhound/soundhound-2026-06-20T194221.png
 security:
 - kind: domain-security
   name: Soundhound Domain Security

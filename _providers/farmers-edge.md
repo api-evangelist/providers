@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://admin.farmcommand.com/
@@ -92,11 +94,8 @@ apis:
   description: The token-login API from Farmers Edge — 1 operation(s) for token-login.
   name: Farmers Edge Token Login API
   slug: farmers-edge-token-login-api
-artifact_total: 25
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: FarmCommand canplug API
   slug: open-farmers-edge-canplug-api
@@ -132,12 +131,12 @@ collections:
   slug: open-farmers-edge-token-login-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/security/farmers-edge-domain-security.yml
+  href: https://artifacts.apis.io/farmers-edge/security/farmers-edge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/farmers-edge-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/authentication/farmers-edge-authentication.yml
+  href: https://artifacts.apis.io/farmers-edge/authentication/farmers-edge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/farmers-edge-authentication.yml
@@ -158,47 +157,47 @@ common:
   type: APIReference
   url: https://api.farmcommand.com/docs/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/conventions/farmers-edge-conventions.yml
+  href: https://artifacts.apis.io/farmers-edge/conventions/farmers-edge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/farmers-edge-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/errors/farmers-edge-problem-types.yml
+  href: https://artifacts.apis.io/farmers-edge/errors/farmers-edge-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/farmers-edge-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/data-model/farmers-edge-data-model.yml
+  href: https://artifacts.apis.io/farmers-edge/data-model/farmers-edge-data-model.yml
   title: ''
   type: DataModel
   url: data-model/farmers-edge-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/conformance/farmers-edge-conformance.yml
+  href: https://artifacts.apis.io/farmers-edge/conformance/farmers-edge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/farmers-edge-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/lifecycle/farmers-edge-lifecycle.yml
+  href: https://artifacts.apis.io/farmers-edge/lifecycle/farmers-edge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/farmers-edge-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/overlays/farmers-edge-farmcommand-overlay.yaml
+  href: https://artifacts.apis.io/farmers-edge/overlays/farmers-edge-farmcommand-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/farmers-edge-farmcommand-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/mcp/farmers-edge-mcp.yml
+  href: https://artifacts.apis.io/farmers-edge/mcp/farmers-edge-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/farmers-edge-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/llms/farmers-edge-llms.txt
+  href: https://artifacts.apis.io/farmers-edge/llms/farmers-edge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/farmers-edge-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/farmers-edge/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -214,10 +213,10 @@ overview: 'Farmers Edge publishes 11 API contracts indexed on the [APIs.io](http
 
 
   Farmers Edge''s developer surface includes authentication, documentation, API reference, and 12 more developer resources.'
-random_paper: 14
+random_paper: 2
 score:
   band: emerging
-  composite: 24.2
+  composite: 26.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -225,15 +224,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 43.0
-    developer_ergonomics: 30.4
-    discoverability: 73.2
+    developer_ergonomics: 39.9
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 24.1
+  previous_composite: 26.1
   provenance:
     conformance: derived
     contracts:
@@ -249,13 +248,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/screenshots/farmers-edge-2026-07-25T214231.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/farmers-edge/farmers-edge-2026-07-25T214231.png
 security:
 - kind: authentication
   name: Farmers Edge Authentication
@@ -265,6 +265,12 @@ security:
   name: Farmers Edge Domain Security
   slug: farmers-edge-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 2
+skills:
+- name: Onboard a FarmCommand self-serve client
+  slug: farmers-edge-self-serve-onboarding
+- name: Authenticate a FarmCommand product user (token login)
+  slug: farmers-edge-token-login
 slug: farmers-edge
 tags:
 - Company

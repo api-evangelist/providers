@@ -31,6 +31,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -38,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The ecforce platform REST API. Version 2 splits into v2/admin (administrator-scoped, mirroring the ecforce management screens) and v2/customer (shopper-scoped, mirroring My Page). Responses are JSON:A
@@ -50,7 +52,7 @@ apis:
 - description: 'A remote, OAuth-protected Model Context Protocol server launched 2026-08-04 that lets external AI tools (Claude Code, Cursor, the ChatGPT app/Codex) read ecforce order and product data, query ecforce '
   name: ecforce AI MCP
   slug: ecforce-ai-mcp
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Super Studio Ecforce Webhooks
@@ -117,98 +119,106 @@ common:
   type: GettingStarted
   url: https://ec-force.com/startguide
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/packages/super-studio-packages.yml
+  href: https://artifacts.apis.io/super-studio/packages/super-studio-packages.yml
   title: ''
   type: Packages
   url: packages/super-studio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/packages/super-studio-packages.yml
+  href: https://artifacts.apis.io/super-studio/packages/super-studio-packages.yml
   title: ''
   type: SDKs
   url: packages/super-studio-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/well-known/super-studio-well-known.yml
+  href: https://artifacts.apis.io/super-studio/well-known/super-studio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/super-studio-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/mcp/super-studio-mcp.yml
+  href: https://artifacts.apis.io/super-studio/mcp/super-studio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/super-studio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/llms/super-studio-llms.txt
+  href: https://artifacts.apis.io/super-studio/llms/super-studio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/super-studio-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/conformance/super-studio-conformance.yml
+  href: https://artifacts.apis.io/super-studio/conformance/super-studio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/super-studio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/errors/super-studio-problem-types.yml
+  href: https://artifacts.apis.io/super-studio/errors/super-studio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/super-studio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/lifecycle/super-studio-lifecycle.yml
+  href: https://artifacts.apis.io/super-studio/lifecycle/super-studio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/super-studio-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/scopes/super-studio-scopes.yml
+  href: https://artifacts.apis.io/super-studio/scopes/super-studio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/super-studio-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/authentication/super-studio-authentication.yml
+  href: https://artifacts.apis.io/super-studio/authentication/super-studio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/super-studio-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/security/super-studio-domain-security.yml
+  href: https://artifacts.apis.io/super-studio/security/super-studio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/super-studio-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/security/super-studio-trust-center.yml
+  href: https://artifacts.apis.io/super-studio/security/super-studio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/super-studio-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/conventions/super-studio-conventions.yml
+  href: https://artifacts.apis.io/super-studio/conventions/super-studio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/super-studio-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/changelog/super-studio-changelog.yml
+  href: https://artifacts.apis.io/super-studio/changelog/super-studio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/super-studio-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/components/super-studio-components.yml
+  href: https://artifacts.apis.io/super-studio/components/super-studio-components.yml
   title: ''
   type: Components
   url: components/super-studio-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/asyncapi/super-studio-ecforce-webhooks.yml
+  href: https://artifacts.apis.io/super-studio/asyncapi/super-studio-ecforce-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/super-studio-ecforce-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/plans/super-studio-plans-pricing.yml
+  href: https://artifacts.apis.io/super-studio/plans/super-studio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/super-studio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/rate-limits/super-studio-rate-limits.yml
+  href: https://artifacts.apis.io/super-studio/rate-limits/super-studio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/super-studio-rate-limits.yml
 created: '2026-08-29'
 description: 'SUPER STUDIO (株式会社SUPER STUDIO) is a Tokyo-based commerce software company founded in 2014 that builds "ecforce", an AI commerce platform used by Japanese D2C and subscription brands for storefronts, order management, subscriptions, CRM, marketing automation and BI. The platform is multi-tenant and API-integrable: ecforce exposes a versioned REST admin/customer API (v2, JSON:API shaped, token authenticated) on each merchant''s own shop host, a webhook surface signalled with an x-ecf-event header, and — since August 2026 — an OAuth-protected remote MCP server under agent.ec-force.com that lets external AI tools such as Claude Code, Cursor and the ChatGPT app read ecforce order and product data and drive ecforce bi, ma and AIdp. SUPER STUDIO also publishes first-party npm packages for the ecforce AI Agent (server SDK and React chat UI) and the "albers" design system. The API reference itself sits behind HTTP Basic auth at apidoc.ec-force.com and API integration is a paid contract
   option.'
+finops:
+- has_sources: true
+  method: derived
+  name: Super Studio Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: super-studio-finops
+  template: false
 image: https://www.super-studio.jp/superstudio_ogp.png?version=2
 layout: provider
 mcp_servers:
@@ -230,7 +240,7 @@ plans:
 - name: Super Studio Plans Pricing
   plan_count: 4
   slug: super-studio-plans-pricing
-random_paper: 14
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Super Studio Rate Limits
@@ -241,23 +251,23 @@ scopes:
   slug: super-studio-scopes
   summary_line: 1 scope · authorization_code
 score:
-  band: developing
-  composite: 53.2
+  band: strong
+  composite: 55.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 52.0
+    artifact_dirs: 21
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 51.2
-    discoverability: 76.7
-    operational_transparency: 26.3
+    developer_ergonomics: 54.8
+    discoverability: 70.0
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -265,7 +275,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 53.2
+  previous_composite: 56.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -275,14 +285,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/screenshots/super-studio-2026-09-02T161208.png
+screenshot: https://apis.io/screenshots/super-studio/super-studio-2026-09-02T161208.png
 security:
 - kind: authentication
   name: Super Studio Authentication

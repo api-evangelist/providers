@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -94,72 +96,72 @@ common:
   type: RefundPolicy
   url: https://everytable.com/policies/refund-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/llms/everytable-llms.txt
+  href: https://artifacts.apis.io/everytable/llms/everytable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/everytable-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/everytable/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/mcp/everytable-mcp.yml
+  href: https://artifacts.apis.io/everytable/mcp/everytable-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/everytable-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/agentic-access/everytable-agentic-access.yml
+  href: https://artifacts.apis.io/everytable/agentic-access/everytable-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/everytable-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/well-known/everytable-well-known.yml
+  href: https://artifacts.apis.io/everytable/well-known/everytable-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/everytable-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/authentication/everytable-authentication.yml
+  href: https://artifacts.apis.io/everytable/authentication/everytable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/everytable-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/scopes/everytable-scopes.yml
+  href: https://artifacts.apis.io/everytable/scopes/everytable-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/everytable-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/conformance/everytable-conformance.yml
+  href: https://artifacts.apis.io/everytable/conformance/everytable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/everytable-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/errors/everytable-problem-types.yml
+  href: https://artifacts.apis.io/everytable/errors/everytable-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/everytable-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/lifecycle/everytable-lifecycle.yml
+  href: https://artifacts.apis.io/everytable/lifecycle/everytable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/everytable-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/conventions/everytable-conventions.yml
+  href: https://artifacts.apis.io/everytable/conventions/everytable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/everytable-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/conventions/everytable-conventions.yml
+  href: https://artifacts.apis.io/everytable/conventions/everytable-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/everytable-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/rate-limits/everytable-rate-limits.yml
+  href: https://artifacts.apis.io/everytable/rate-limits/everytable-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/everytable-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/security/everytable-domain-security.yml
+  href: https://artifacts.apis.io/everytable/security/everytable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/everytable-domain-security.yml
@@ -191,7 +193,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 27.0
+  composite: 27.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 35.0
@@ -199,13 +201,13 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 71.7
+    discoverability: 61.7
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -214,7 +216,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 26.9
+  previous_composite: 27.3
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -226,14 +228,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/everytable/refs/heads/main/screenshots/everytable-2026-08-07T165045.png
+screenshot: https://apis.io/screenshots/everytable/everytable-2026-08-07T165045.png
 security:
 - kind: authentication
   name: Everytable Authentication

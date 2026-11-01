@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.0
-  scored_at: '2026-10-17'
+  score: 51.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -220,15 +222,12 @@ apis:
     question: How can I check that my webhook endpoint is receiving events?
   phrasing_ops: 4
   slug: similarweb-webhooks-api
-artifact_total: 45
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Similarweb Webhooks
   slug: similarweb-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SimilarWeb Batch Account API
   slug: open-similarweb-account-api
@@ -270,22 +269,22 @@ collections:
   slug: open-similarweb-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/capabilities/similarweb-capability-edges.yml
+  href: https://artifacts.apis.io/similarweb/capabilities/similarweb-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/similarweb-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/agentic-access/similarweb-agentic-access.yml
+  href: https://artifacts.apis.io/similarweb/agentic-access/similarweb-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/similarweb-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/security/similarweb-domain-security.yml
+  href: https://artifacts.apis.io/similarweb/security/similarweb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/similarweb-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/authentication/similarweb-authentication.yml
+  href: https://artifacts.apis.io/similarweb/authentication/similarweb-authentication.yml
   title: ''
   type: Authentication
   url: authentication/similarweb-authentication.yml
@@ -314,57 +313,57 @@ common:
   type: X
   url: https://x.com/similarweb
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/plans/similarweb-plans-pricing.yml
+  href: https://artifacts.apis.io/similarweb/plans/similarweb-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/similarweb-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/rate-limits/similarweb-rate-limits.yml
+  href: https://artifacts.apis.io/similarweb/rate-limits/similarweb-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/similarweb-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/finops/similarweb-finops.yml
+  href: https://artifacts.apis.io/similarweb/finops/similarweb-finops.yml
   title: ''
   type: FinOps
   url: finops/similarweb-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/well-known/similarweb-well-known.yml
+  href: https://artifacts.apis.io/similarweb/well-known/similarweb-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/similarweb-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/mcp/similarweb-mcp.yml
+  href: https://artifacts.apis.io/similarweb/mcp/similarweb-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/similarweb-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/mcp/similarweb-tool-crosswalk.yml
+  href: https://artifacts.apis.io/similarweb/mcp/similarweb-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/similarweb-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/llms/similarweb-llms.txt
+  href: https://artifacts.apis.io/similarweb/llms/similarweb-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/similarweb-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/packages/similarweb-packages.yml
+  href: https://artifacts.apis.io/similarweb/packages/similarweb-packages.yml
   title: ''
   type: Packages
   url: packages/similarweb-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/conventions/similarweb-conventions.yml
+  href: https://artifacts.apis.io/similarweb/conventions/similarweb-conventions.yml
   title: ''
   type: Conventions
   url: conventions/similarweb-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/errors/similarweb-problem-types.yml
+  href: https://artifacts.apis.io/similarweb/errors/similarweb-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/similarweb-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/lifecycle/similarweb-lifecycle.yml
+  href: https://artifacts.apis.io/similarweb/lifecycle/similarweb-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/similarweb-lifecycle.yml
@@ -373,12 +372,12 @@ common:
   type: Deprecation
   url: https://docs.similarweb.com/api-v5/guides/rest-api-data-version-migration
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/changelog/similarweb-changelog.yml
+  href: https://artifacts.apis.io/similarweb/changelog/similarweb-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/similarweb-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/conformance/similarweb-conformance.yml
+  href: https://artifacts.apis.io/similarweb/conformance/similarweb-conformance.yml
   title: ''
   type: Conformance
   url: conformance/similarweb-conformance.yml
@@ -387,42 +386,42 @@ common:
   type: Compliance
   url: https://www.similarweb.com/corp/privacy-security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/security/similarweb-trust-center.yml
+  href: https://artifacts.apis.io/similarweb/security/similarweb-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/similarweb-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/scopes/similarweb-scopes.yml
+  href: https://artifacts.apis.io/similarweb/scopes/similarweb-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/similarweb-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/data-model/similarweb-data-model.yml
+  href: https://artifacts.apis.io/similarweb/data-model/similarweb-data-model.yml
   title: ''
   type: DataModel
   url: data-model/similarweb-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/components/similarweb-components.yml
+  href: https://artifacts.apis.io/similarweb/components/similarweb-components.yml
   title: ''
   type: Components
   url: components/similarweb-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/asyncapi/similarweb-webhooks.yml
+  href: https://artifacts.apis.io/similarweb/asyncapi/similarweb-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/similarweb-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/similarweb/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/overlays/similarweb-rest-api-overlay.yaml
+  href: https://artifacts.apis.io/similarweb/overlays/similarweb-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/similarweb-rest-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/overlays/similarweb-batch-api-overlay.yaml
+  href: https://artifacts.apis.io/similarweb/overlays/similarweb-batch-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/similarweb-batch-api-overlay.yaml
@@ -483,8 +482,8 @@ examples:
   name: Similarweb Visits Desktop Example
   slug: similarweb-visits-desktop-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Similarweb Finops
   primary_unit: ''
   service_category: ''
@@ -521,7 +520,7 @@ overview: 'SimilarWeb publishes 14 API contracts indexed on the [APIs.io](https:
   SimilarWeb''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 37 more developer resources.'
 plans:
 - name: Similarweb Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: similarweb-plans-pricing
 random_paper: 15
 rate_limits:
@@ -547,23 +546,28 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 67.2
+  composite: 66.5
   coverage:
     artifact_dirs: 33
-    catalog_earned: 75.3
-    catalog_earned_first_party: 24.0
-    catalog_gap: 39.8
+    catalog_earned: 71.3
+    catalog_earned_first_party: 20.0
+    catalog_gap: 43.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -2.1
   facets:
-    access_clarity: 85.5
+    access_clarity: 81.6
     contract_governance: 28.0
     contract_quality: 64.1
     developer_ergonomics: 58.9
-    discoverability: 75.0
-    operational_transparency: 65.8
-  previous_composite: 68.7
+    discoverability: 65.0
+    operational_transparency: 68.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - israel
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 68.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -580,13 +584,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/screenshots/similarweb-2026-06-20T193927.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/similarweb/similarweb-2026-06-20T193927.png
 security:
 - kind: authentication
   name: Similarweb Authentication
@@ -600,6 +605,16 @@ security:
   name: Similarweb Trust Center
   slug: similarweb-trust-center
   summary_line: SOC 2 Type II, ISO 27001
+skill_count: 4
+skills:
+- name: Run a bulk Similarweb report into cloud storage
+  slug: similarweb-bulk-report-to-cloud-storage
+- name: Competitive traffic snapshot for a domain
+  slug: similarweb-competitive-traffic-snapshot
+- name: Enrich a company lead from its domain
+  slug: similarweb-enrich-a-company-lead
+- name: Get notified when a Similarweb report is ready
+  slug: similarweb-webhook-driven-report-delivery
 slug: similarweb
 tags:
 - Digital Intelligence

@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.7
-  scored_at: '2026-10-17'
+  score: 21.8
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -40,17 +42,17 @@ common:
   type: Compliance
   url: https://trust.bennie.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bennie/refs/heads/main/well-known/bennie-well-known.yml
+  href: https://artifacts.apis.io/bennie/well-known/bennie-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bennie-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bennie/refs/heads/main/hosts/bennie-hosts.yml
+  href: https://artifacts.apis.io/bennie/hosts/bennie-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bennie-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bennie/refs/heads/main/vendors/bennie-vendors.yml
+  href: https://artifacts.apis.io/bennie/vendors/bennie-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bennie-vendors.yml
@@ -63,12 +65,12 @@ common:
   type: Leadership
   url: https://www.bennie.com/leadership
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bennie/refs/heads/main/security/bennie-trust-center.yml
+  href: https://artifacts.apis.io/bennie/security/bennie-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bennie-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bennie/refs/heads/main/security/bennie-domain-security.yml
+  href: https://artifacts.apis.io/bennie/security/bennie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bennie-domain-security.yml
@@ -120,7 +122,7 @@ overview: 'Bennie is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bennie''s developer surface includes engineering blog, getting-started guide, support, and 14 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: emerging
   composite: 20.2
@@ -148,14 +150,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bennie/refs/heads/main/screenshots/bennie-2026-10-11T101906.png
+screenshot: https://apis.io/screenshots/bennie/bennie-2026-10-11T101906.png
 security:
 - kind: domain-security
   name: Bennie Domain Security

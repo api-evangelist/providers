@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,15 +27,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 26.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -75,6 +77,61 @@ apis:
   description: Resource metadata labels
   name: Amazon Forecast Tags API
   slug: amazon-forecast-tags-api
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: The Forecast Dataset Import Job API from Amazon Forecast — 4 operation(s) for forecast dataset import job.
+  name: Amazon Forecast Forecast Dataset Import Job API
+  slug: amazon-forecast-dataset-import-job-api
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: The Forecast Explainability API from Amazon Forecast — 4 operation(s) for forecast explainability.
+  name: Amazon Forecast Forecast Explainability API
+  slug: amazon-forecast-explainability-api
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: The Forecast Explainability Export API from Amazon Forecast — 4 operation(s) for forecast explainability export.
+  name: Amazon Forecast Forecast Explainability Export API
+  slug: amazon-forecast-explainability-export-api
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: The Forecast Forecast Export Job API from Amazon Forecast — 3 operation(s) for forecast forecast export job.
+  name: Amazon Forecast Forecast Forecast Export Job API
+  slug: amazon-forecast-forecast-export-job-api
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: The Forecast Monitor API from Amazon Forecast — 4 operation(s) for forecast monitor.
+  name: Amazon Forecast Forecast Monitor API
+  slug: amazon-forecast-monitor-api
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: The Forecast Operations API from Amazon Forecast — 7 operation(s) for forecast operations.
+  name: Amazon Forecast Forecast Operations API
+  slug: amazon-forecast-operations-api
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: The Forecast Predictor Backtest Export Job API from Amazon Forecast — 4 operation(s) for forecast predictor backtest export job.
+  name: Amazon Forecast Forecast Predictor Backtest Export Job API
+  slug: amazon-forecast-predictor-backtest-export-job-api
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: The Forecast Resource API from Amazon Forecast — 3 operation(s) for forecast resource.
+  name: Amazon Forecast Forecast Resource API
+  slug: amazon-forecast-resource-api
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: The Forecast What If Analysis API from Amazon Forecast — 3 operation(s) for forecast what if analysis.
+  name: Amazon Forecast Forecast What If Analysis API
+  slug: amazon-forecast-what-if-analysis-api
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: The Forecast What If Forecast API from Amazon Forecast — 4 operation(s) for forecast what if forecast.
+  name: Amazon Forecast Forecast What If Forecast API
+  slug: amazon-forecast-what-if-forecast-api
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: The Forecast What If Forecast Export API from Amazon Forecast — 4 operation(s) for forecast what if forecast export.
+  name: Amazon Forecast Forecast What If Forecast Export API
+  slug: amazon-forecast-what-if-forecast-export-api
 arazzos:
 - description: Create a dataset, dataset group, predictor, and forecast in a single chained pass.
   name: Amazon Forecast End to End Pipeline
@@ -103,14 +160,11 @@ arazzos:
 - description: Create a predictor, poll the listing until it is ACTIVE, and tag it.
   name: Amazon Forecast Train Predictor
   slug: amazon-forecast-train-predictor-workflow
-artifact_total: 63
+artifact_total: 73
 collections:
 - collection_type: postman
   name: Amazon Forecast API
   slug: postman-amazon-forecast
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Forecast Dataset Groups API
   slug: open-amazon-forecast-dataset-groups-api
@@ -134,47 +188,47 @@ collections:
   slug: open-amazon-forecast
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/plans/amazon-forecast-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-forecast/plans/amazon-forecast-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-forecast-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/rate-limits/amazon-forecast-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-forecast/rate-limits/amazon-forecast-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-forecast-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/finops/amazon-forecast-finops.yml
+  href: https://artifacts.apis.io/amazon-forecast/finops/amazon-forecast-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-forecast-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/capabilities/amazon-forecast-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-forecast/capabilities/amazon-forecast-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-forecast-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/agentic-access/amazon-forecast-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-forecast/agentic-access/amazon-forecast-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-forecast-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/security/amazon-forecast-trust-center.yml
+  href: https://artifacts.apis.io/amazon-forecast/security/amazon-forecast-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-forecast-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/security/amazon-forecast-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-forecast/security/amazon-forecast-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-forecast-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/security/amazon-forecast-domain-security.yml
+  href: https://artifacts.apis.io/amazon-forecast/security/amazon-forecast-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-forecast-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/authentication/amazon-forecast-authentication.yml
+  href: https://artifacts.apis.io/amazon-forecast/authentication/amazon-forecast-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-forecast-authentication.yml
@@ -183,47 +237,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-forecast/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/arazzo/amazon-forecast-end-to-end-pipeline-workflow.yml
+  href: https://artifacts.apis.io/amazon-forecast/arazzo/amazon-forecast-end-to-end-pipeline-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-forecast-end-to-end-pipeline-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/arazzo/amazon-forecast-export-forecast-workflow.yml
+  href: https://artifacts.apis.io/amazon-forecast/arazzo/amazon-forecast-export-forecast-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-forecast-export-forecast-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/arazzo/amazon-forecast-generate-forecast-workflow.yml
+  href: https://artifacts.apis.io/amazon-forecast/arazzo/amazon-forecast-generate-forecast-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-forecast-generate-forecast-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/arazzo/amazon-forecast-group-then-train-workflow.yml
+  href: https://artifacts.apis.io/amazon-forecast/arazzo/amazon-forecast-group-then-train-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-forecast-group-then-train-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/arazzo/amazon-forecast-predict-and-forecast-workflow.yml
+  href: https://artifacts.apis.io/amazon-forecast/arazzo/amazon-forecast-predict-and-forecast-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-forecast-predict-and-forecast-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/arazzo/amazon-forecast-provision-dataset-group-workflow.yml
+  href: https://artifacts.apis.io/amazon-forecast/arazzo/amazon-forecast-provision-dataset-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-forecast-provision-dataset-group-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/arazzo/amazon-forecast-provision-dataset-workflow.yml
+  href: https://artifacts.apis.io/amazon-forecast/arazzo/amazon-forecast-provision-dataset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-forecast-provision-dataset-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/arazzo/amazon-forecast-register-dataset-to-group-workflow.yml
+  href: https://artifacts.apis.io/amazon-forecast/arazzo/amazon-forecast-register-dataset-to-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-forecast-register-dataset-to-group-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/arazzo/amazon-forecast-train-predictor-workflow.yml
+  href: https://artifacts.apis.io/amazon-forecast/arazzo/amazon-forecast-train-predictor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-forecast-train-predictor-workflow.yml
@@ -280,17 +334,17 @@ common:
   type: StackOverflow
   url: https://stackoverflow.com/questions/tagged/amazon-forecast
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/rules/amazon-forecast-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-forecast/rules/amazon-forecast-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-forecast-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/vocabulary/amazon-forecast-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-forecast/vocabulary/amazon-forecast-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-forecast-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/json-ld/amazon-forecast-context.jsonld
+  href: https://artifacts.apis.io/amazon-forecast/json-ld/amazon-forecast-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-forecast-context.jsonld
@@ -328,13 +382,13 @@ features:
 - description: Export forecast results to Amazon S3 in CSV format for downstream consumption.
   name: S3 Export
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Forecast Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: 1000 forecast data points
+  service_category: ''
   slug: amazon-forecast-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-forecast.png
 json_schemas:
 - name: DatasetGroup
@@ -378,7 +432,7 @@ modified: '2026-05-19'
 name: Amazon Forecast
 nav: Providers
 network: true
-overview: 'Amazon Forecast publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Dataset Groups API, Datasets API, Export Jobs API, and 3 more. Tagged areas include Forecasting, Machine Learning, Predictive Analytics, and Time Series.
+overview: 'Amazon Forecast publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Dataset Groups API, Datasets API, Export Jobs API, and 14 more. Tagged areas include Forecasting, Machine Learning, Predictive Analytics, and Time Series.
 
 
   The Amazon Forecast catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -387,9 +441,9 @@ overview: 'Amazon Forecast publishes 6 API contracts indexed on the [APIs.io](ht
   Amazon Forecast''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 28 more developer resources.'
 plans:
 - name: Amazon Forecast Plans Pricing
-  plan_count: 3
+  plan_count: 12
   slug: amazon-forecast-plans-pricing
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Amazon Forecast Rate Limits
@@ -420,43 +474,49 @@ rules:
   slug: amazon-forecast-spectral-rules
 score:
   band: strong
-  composite: 54.7
+  composite: 65.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 67.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    artifact_dirs: 22
+    catalog_earned: 79.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 2.1
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 70.3
-    developer_ergonomics: 53.6
+    contract_quality: 70.2
+    developer_ergonomics: 65.5
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 56.2
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 6
+      marker_coverage: 64.7
+      total: 17
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/screenshots/amazon-forecast-2026-06-20T171651.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-forecast/amazon-forecast-2026-06-20T171651.png
 security:
 - kind: authentication
   name: Amazon Forecast Authentication

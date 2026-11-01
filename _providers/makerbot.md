@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Bearer-token / OAuth 2.0 authenticated JSON REST API for browsing and managing Thingiverse things (3D models), their files and images, users, collections, categories, tags, and search. Operated by Mak
@@ -62,52 +64,52 @@ common:
   type: APIReference
   url: https://www.thingiverse.com/developers
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/makerbot/refs/heads/main/authentication/makerbot-authentication.yml
+  href: https://artifacts.apis.io/makerbot/authentication/makerbot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/makerbot-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/makerbot/refs/heads/main/errors/makerbot-problem-types.yml
+  href: https://artifacts.apis.io/makerbot/errors/makerbot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/makerbot-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/makerbot/refs/heads/main/conventions/makerbot-conventions.yml
+  href: https://artifacts.apis.io/makerbot/conventions/makerbot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/makerbot-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/makerbot/refs/heads/main/conformance/makerbot-conformance.yml
+  href: https://artifacts.apis.io/makerbot/conformance/makerbot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/makerbot-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/makerbot/refs/heads/main/mcp/makerbot-mcp.yml
+  href: https://artifacts.apis.io/makerbot/mcp/makerbot-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/makerbot-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/makerbot/refs/heads/main/security/makerbot-domain-security.yml
+  href: https://artifacts.apis.io/makerbot/security/makerbot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/makerbot-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/makerbot/refs/heads/main/llms/makerbot-llms.txt
+  href: https://artifacts.apis.io/makerbot/llms/makerbot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/makerbot-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/makerbot/refs/heads/main/packages/makerbot-packages.yml
+  href: https://artifacts.apis.io/makerbot/packages/makerbot-packages.yml
   title: ''
   type: Packages
   url: packages/makerbot-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/makerbot/refs/heads/main/packages/makerbot-packages.yml
+  href: https://artifacts.apis.io/makerbot/packages/makerbot-packages.yml
   title: ''
   type: SDKs
   url: packages/makerbot-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/makerbot/refs/heads/main/lifecycle/makerbot-lifecycle.yml
+  href: https://artifacts.apis.io/makerbot/lifecycle/makerbot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/makerbot-lifecycle.yml
@@ -147,26 +149,26 @@ overview: 'Makerbot is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Makerbot''s developer surface includes documentation, API reference, authentication, signup flow, support, and 16 more developer resources.'
-random_paper: 17
+random_paper: 13
 score:
   band: thin
-  composite: 29.1
+  composite: 29.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 29.0
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 29.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -176,14 +178,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/makerbot/refs/heads/main/screenshots/makerbot-2026-07-25T225942.png
+screenshot: https://apis.io/screenshots/makerbot/makerbot-2026-07-25T225942.png
 security:
 - kind: authentication
   name: Makerbot Authentication

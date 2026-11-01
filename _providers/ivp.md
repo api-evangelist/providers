@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Institutional Venture Partners
 nav: Providers
 network: true
-random_paper: 5
+random_paper: 23
 slug: ivp
 tags:
 - Venture Capital

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,9 +35,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 5
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Octane Ai Webhooks
@@ -90,57 +92,65 @@ common:
   type: GitHubOrganization
   url: https://github.com/octaneai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/authentication/octane-ai-authentication.yml
+  href: https://artifacts.apis.io/octane-ai/authentication/octane-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/octane-ai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/conventions/octane-ai-conventions.yml
+  href: https://artifacts.apis.io/octane-ai/conventions/octane-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/octane-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/components/octane-ai-components.yml
+  href: https://artifacts.apis.io/octane-ai/components/octane-ai-components.yml
   title: ''
   type: Components
   url: components/octane-ai-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/llms/octane-ai-llms.txt
+  href: https://artifacts.apis.io/octane-ai/llms/octane-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/octane-ai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/security/octane-ai-domain-security.yml
+  href: https://artifacts.apis.io/octane-ai/security/octane-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/octane-ai-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/asyncapi/octane-ai-webhooks.yml
+  href: https://artifacts.apis.io/octane-ai/asyncapi/octane-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/octane-ai-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/plans/octane-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/octane-ai/plans/octane-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/octane-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/rate-limits/octane-ai-rate-limits.yml
+  href: https://artifacts.apis.io/octane-ai/rate-limits/octane-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/octane-ai-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/lifecycle/octane-ai-lifecycle.yml
+  href: https://artifacts.apis.io/octane-ai/lifecycle/octane-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/octane-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/conformance/octane-ai-conformance.yml
+  href: https://artifacts.apis.io/octane-ai/conformance/octane-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/octane-ai-conformance.yml
 created: '2026-07-17'
 description: 'Octane AI is an AI-powered quiz and product-recommendation platform for Shopify merchants, turning storefront browsers into buyers with no-code personalized quizzes, zero-party data capture, and its CORE-1 recommendation engine. It integrates with 50+ marketing, CRM, and automation tools (Klaviyo, Attentive, Postscript, Recharge, Gorgias, Zapier, Alloy) and syncs shopper data in real time. Its developer surface is client-side rather than a public REST API: an embeddable quiz widget that dispatches a documented set of browser JavaScript events (octane.quiz.*), custom CSS/JS injection hooks, a headless-store integration path, and a per-account API key plus webhook secret used for integrations and outbound webhook verification. Backed by Bullpen Capital and General Catalyst.'
+finops:
+- has_sources: true
+  method: derived
+  name: Octane Ai Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: octane-ai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/octane-ai.png
 layout: provider
 modified: '2026-08-13'
@@ -156,32 +166,35 @@ overview: 'Octane AI is profiled on the [APIs.io](https://apis.io/) network. Tag
   Octane AI''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 15 more developer resources.'
 plans:
 - name: Octane Ai Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: octane-ai-plans-pricing
-random_paper: 1
+- name: Octane Ai Price Estimates
+  plan_count: 0
+  slug: octane-ai-price-estimates
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Octane Ai Rate Limits
   slug: octane-ai-rate-limits
 score:
   band: developing
-  composite: 43.9
+  composite: 47.8
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 39.0
+    artifact_dirs: 17
+    catalog_earned: 42.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 76.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 50.0
-    discoverability: 55.4
-    operational_transparency: 10.5
-  previous_composite: 43.8
+    discoverability: 48.2
+    operational_transparency: 23.7
+  previous_composite: 46.2
   provenance:
     conformance: first-party
   regulatory:
@@ -196,14 +209,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/octane-ai/refs/heads/main/screenshots/octane-ai-2026-08-07T185929.png
+screenshot: https://apis.io/screenshots/octane-ai/octane-ai-2026-08-07T185929.png
 security:
 - kind: authentication
   name: Octane Ai Authentication

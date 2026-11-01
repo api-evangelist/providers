@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -58,15 +60,12 @@ apis:
   description: Encompasses operations with videos.
   name: Let's Enhance Video API
   slug: lets-enhance-video-api
-artifact_total: 13
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Lets Enhance Claid Webhooks
   slug: lets-enhance-claid-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Claid REST Image API
   slug: open-lets-enhance-image-api
@@ -77,6 +76,11 @@ collections:
   name: Claid REST Image Video API
   slug: open-lets-enhance-video-api
 common:
+- group: other
+  href: https://artifacts.apis.io/lets-enhance/capabilities/lets-enhance-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lets-enhance-capability-edges.yml
 - group: company
   title: ''
   type: Blog
@@ -86,22 +90,22 @@ common:
   type: BlogRSS
   url: https://letsenhance.io/blog/rss/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/security/lets-enhance-domain-security.yml
+  href: https://artifacts.apis.io/lets-enhance/security/lets-enhance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lets-enhance-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/agentic-access/lets-enhance-agentic-access.yml
+  href: https://artifacts.apis.io/lets-enhance/agentic-access/lets-enhance-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lets-enhance-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/scopes/lets-enhance-scopes.yml
+  href: https://artifacts.apis.io/lets-enhance/scopes/lets-enhance-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lets-enhance-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/authentication/lets-enhance-authentication.yml
+  href: https://artifacts.apis.io/lets-enhance/authentication/lets-enhance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lets-enhance-authentication.yml
@@ -162,62 +166,62 @@ common:
   type: StatusPage
   url: https://status.letsenhance.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/llms/lets-enhance-llms.txt
+  href: https://artifacts.apis.io/lets-enhance/llms/lets-enhance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lets-enhance-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/conventions/lets-enhance-conventions.yml
+  href: https://artifacts.apis.io/lets-enhance/conventions/lets-enhance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lets-enhance-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/errors/lets-enhance-error-codes.yml
+  href: https://artifacts.apis.io/lets-enhance/errors/lets-enhance-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/lets-enhance-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/errors/lets-enhance-problem-types.yml
+  href: https://artifacts.apis.io/lets-enhance/errors/lets-enhance-problem-types.yml
   title: ''
   type: ErrorCodes
   url: errors/lets-enhance-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/rate-limits/lets-enhance-rate-limits.yml
+  href: https://artifacts.apis.io/lets-enhance/rate-limits/lets-enhance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lets-enhance-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/asyncapi/lets-enhance-claid-webhooks.yml
+  href: https://artifacts.apis.io/lets-enhance/asyncapi/lets-enhance-claid-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lets-enhance-claid-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/lifecycle/lets-enhance-lifecycle.yml
+  href: https://artifacts.apis.io/lets-enhance/lifecycle/lets-enhance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lets-enhance-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/conformance/lets-enhance-conformance.yml
+  href: https://artifacts.apis.io/lets-enhance/conformance/lets-enhance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lets-enhance-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/data-model/lets-enhance-data-model.yml
+  href: https://artifacts.apis.io/lets-enhance/data-model/lets-enhance-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lets-enhance-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/mcp/lets-enhance-mcp.yml
+  href: https://artifacts.apis.io/lets-enhance/mcp/lets-enhance-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lets-enhance-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/overlays/lets-enhance-claid-overlay.yaml
+  href: https://artifacts.apis.io/lets-enhance/overlays/lets-enhance-claid-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lets-enhance-claid-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lets-enhance/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -235,8 +239,8 @@ overview: 'Let''s Enhance publishes 3 API contracts indexed on the [APIs.io](htt
   The Let''s Enhance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Let''s Enhance''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, pricing, and 25 more developer resources.'
-random_paper: 19
+  Let''s Enhance''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, pricing, and 26 more developer resources.'
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Lets Enhance Rate Limits
@@ -248,23 +252,23 @@ scopes:
   summary_line: 4 scopes · password
 score:
   band: developing
-  composite: 46.3
+  composite: 49.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 54.4
-    developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 39.5
-  previous_composite: 46.7
+    contract_quality: 53.4
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 50.0
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -281,13 +285,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/screenshots/lets-enhance-2026-07-25T224934.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lets-enhance/lets-enhance-2026-07-25T224934.png
 security:
 - kind: authentication
   name: Lets Enhance Authentication
@@ -297,6 +302,18 @@ security:
   name: Lets Enhance Domain Security
   slug: lets-enhance-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Process images in bulk with the Claid async and batch APIs
+  slug: lets-enhance-bulk-image-processing
+- name: Enhance a product image with the Claid API
+  slug: lets-enhance-enhance-product-image
+- name: Generate product scenes, backgrounds and AI edits with the Claid API
+  slug: lets-enhance-generate-product-scenes
+- name: Turn a still image into video with the Claid API
+  slug: lets-enhance-image-to-video
+- name: Manage Claid storage connectors
+  slug: lets-enhance-storage-connectors
 slug: lets-enhance
 tags:
 - Company

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 6
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/rate-limits/grid-rate-limits.yml
+  href: https://artifacts.apis.io/grid/rate-limits/grid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/grid-rate-limits.yml
@@ -84,12 +86,12 @@ common:
   type: PrivacyPolicy
   url: https://www.withgrid.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/llms/grid-llms.txt
+  href: https://artifacts.apis.io/grid/llms/grid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/grid-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/security/grid-domain-security.yml
+  href: https://artifacts.apis.io/grid/security/grid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/grid-domain-security.yml
@@ -98,27 +100,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/SaaSGrid
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/mcp/grid-mcp.yml
+  href: https://artifacts.apis.io/grid/mcp/grid-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/grid-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/authentication/grid-authentication.yml
+  href: https://artifacts.apis.io/grid/authentication/grid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/grid-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/conformance/grid-conformance.yml
+  href: https://artifacts.apis.io/grid/conformance/grid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/grid-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/security/grid-trust-center.yml
+  href: https://artifacts.apis.io/grid/security/grid-trust-center.yml
   title: ''
   type: Compliance
   url: security/grid-trust-center.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/plans/grid-plans-pricing.yml
+  href: https://artifacts.apis.io/grid/plans/grid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/grid-plans-pricing.yml
@@ -142,14 +144,14 @@ plans:
 - name: Grid Plans Pricing
   plan_count: 2
   slug: grid-plans-pricing
-random_paper: 4
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Grid Rate Limits
   slug: grid-rate-limits
 score:
   band: thin
-  composite: 31.7
+  composite: 32.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 35.0
@@ -157,15 +159,15 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 67.1
+    access_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 55.0
-    operational_transparency: 2.6
-  previous_composite: 31.6
+    discoverability: 48.3
+    operational_transparency: 5.3
+  previous_composite: 32.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -175,14 +177,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/grid/refs/heads/main/screenshots/grid-2026-07-25T220324.png
+screenshot: https://apis.io/screenshots/grid/grid-2026-07-25T220324.png
 security:
 - kind: authentication
   name: Grid Authentication

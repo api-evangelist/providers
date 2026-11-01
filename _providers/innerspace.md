@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL API exposing occupancy and space-utilization insights across sites, buildings, floors, zones, and groups. Available to customers with an active contract; authenticated with OAuth 2.0 client cr
@@ -66,7 +68,7 @@ common:
   type: GettingStarted
   url: https://developers.innerspace.io/master
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/authentication/innerspace-authentication.yml
+  href: https://artifacts.apis.io/innerspace/authentication/innerspace-authentication.yml
   title: ''
   type: Authentication
   url: authentication/innerspace-authentication.yml
@@ -103,57 +105,57 @@ common:
   type: Security
   url: https://www.innerspace.io/responsible-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/security/innerspace-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/innerspace/security/innerspace-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/innerspace-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/llms/innerspace-llms.txt
+  href: https://artifacts.apis.io/innerspace/llms/innerspace-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/innerspace-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/conventions/innerspace-conventions.yml
+  href: https://artifacts.apis.io/innerspace/conventions/innerspace-conventions.yml
   title: ''
   type: Conventions
   url: conventions/innerspace-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/errors/innerspace-problem-types.yml
+  href: https://artifacts.apis.io/innerspace/errors/innerspace-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/innerspace-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/lifecycle/innerspace-lifecycle.yml
+  href: https://artifacts.apis.io/innerspace/lifecycle/innerspace-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/innerspace-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/lifecycle/innerspace-lifecycle.yml
+  href: https://artifacts.apis.io/innerspace/lifecycle/innerspace-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/innerspace-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/conformance/innerspace-conformance.yml
+  href: https://artifacts.apis.io/innerspace/conformance/innerspace-conformance.yml
   title: ''
   type: Conformance
   url: conformance/innerspace-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/data-model/innerspace-data-model.yml
+  href: https://artifacts.apis.io/innerspace/data-model/innerspace-data-model.yml
   title: ''
   type: DataModel
   url: data-model/innerspace-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/security/innerspace-domain-security.yml
+  href: https://artifacts.apis.io/innerspace/security/innerspace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/innerspace-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/security/innerspace-trust-center.yml
+  href: https://artifacts.apis.io/innerspace/security/innerspace-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/innerspace-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/mcp/innerspace-mcp.yml
+  href: https://artifacts.apis.io/innerspace/mcp/innerspace-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/innerspace-mcp.yml
@@ -172,9 +174,9 @@ overview: 'InnerSpace is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 8
 score:
   band: thin
-  composite: 35.8
+  composite: 35.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -186,9 +188,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 18.4
-  previous_composite: 35.8
+  previous_composite: 35.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -202,14 +204,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/innerspace/refs/heads/main/screenshots/innerspace-2026-07-25T222456.png
+screenshot: https://apis.io/screenshots/innerspace/innerspace-2026-07-25T222456.png
 security:
 - kind: authentication
   name: Innerspace Authentication

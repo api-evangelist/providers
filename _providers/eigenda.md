@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: gRPC API exposed by the EigenDA Disperser. Rollups submit raw blobs to DisperseBlob, then poll GetBlobStatus until the blob is confirmed and dispersed across the operator set. v2 adds GetBlobCommitmen
@@ -70,7 +72,7 @@ common:
   type: ContributionGuide
   url: https://github.com/Layr-Labs/eigenda/blob/master/docs/contributing.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eigenda/refs/heads/main/security/eigenda-domain-security.yml
+  href: https://artifacts.apis.io/eigenda/security/eigenda-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eigenda-domain-security.yml
@@ -199,10 +201,10 @@ overview: 'EigenDA is listed with 5 APIs on the [APIs.io](https://apis.io/) netw
 
 
   EigenDA''s developer surface includes developer portal, documentation, engineering blog, tooling, code examples, support, and 27 more developer resources.'
-random_paper: 13
+random_paper: 21
 score:
   band: emerging
-  composite: 18.6
+  composite: 19.2
   coverage:
     artifact_dirs: 4
     catalog_earned: 35.0
@@ -210,29 +212,29 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 6.5
-    developer_ergonomics: 41.7
+    developer_ergonomics: 42.9
     discoverability: 62.5
-    operational_transparency: 28.9
-  previous_composite: 18.5
+    operational_transparency: 31.6
+  previous_composite: 19.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/eigenda/refs/heads/main/screenshots/eigenda-2026-06-20T180522.png
+screenshot: https://apis.io/screenshots/eigenda/eigenda-2026-06-20T180522.png
 security:
 - kind: domain-security
   name: Eigenda Domain Security

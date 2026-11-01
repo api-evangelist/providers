@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 20.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -90,11 +92,8 @@ apis:
   description: Financial transactions and transaction detail
   name: Restaurant365 Transactions API
   slug: restaurant365-transactions-api
-artifact_total: 59
+artifact_total: 58
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Restaurant365 OData Connector AP Invoices API
   slug: open-restaurant365-ap-invoices-api
@@ -129,8 +128,12 @@ collections:
   name: Restaurant365 OData Connector AP Invoices Transactions API
   slug: open-restaurant365-transactions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/restaurant365/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/finops/restaurant365-finops.yml
+  href: https://artifacts.apis.io/restaurant365/finops/restaurant365-finops.yml
   title: ''
   type: FinOps
   url: finops/restaurant365-finops.yml
@@ -143,22 +146,22 @@ common:
   type: BlogRSS
   url: https://www.restaurant365.com/resource-category/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/capabilities/restaurant365-capability-edges.yml
+  href: https://artifacts.apis.io/restaurant365/capabilities/restaurant365-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/restaurant365-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/agentic-access/restaurant365-agentic-access.yml
+  href: https://artifacts.apis.io/restaurant365/agentic-access/restaurant365-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/restaurant365-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/security/restaurant365-domain-security.yml
+  href: https://artifacts.apis.io/restaurant365/security/restaurant365-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/restaurant365-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/authentication/restaurant365-authentication.yml
+  href: https://artifacts.apis.io/restaurant365/authentication/restaurant365-authentication.yml
   title: ''
   type: Authentication
   url: authentication/restaurant365-authentication.yml
@@ -175,22 +178,22 @@ common:
   type: Pricing
   url: https://www.restaurant365.com/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/plans/restaurant365-plans-pricing.yml
+  href: https://artifacts.apis.io/restaurant365/plans/restaurant365-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/restaurant365-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/rate-limits/restaurant365-rate-limits.yml
+  href: https://artifacts.apis.io/restaurant365/rate-limits/restaurant365-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/restaurant365-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/rules/restaurant365-rules.yml
+  href: https://artifacts.apis.io/restaurant365/rules/restaurant365-rules.yml
   title: ''
   type: SpectralRules
   url: rules/restaurant365-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/vocabulary/restaurant365-vocabulary.yml
+  href: https://artifacts.apis.io/restaurant365/vocabulary/restaurant365-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/restaurant365-vocabulary.yml
@@ -246,7 +249,7 @@ finops:
 - has_sources: true
   method: generated
   name: Restaurant365 Finops
-  primary_unit: ''
+  primary_unit: Location-Month
   service_category: Restaurant Management Software
   slug: restaurant365-finops
   template: false
@@ -310,12 +313,12 @@ overview: 'Restaurant365 publishes 9 API contracts indexed on the [APIs.io](http
   The Restaurant365 catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Restaurant365''s developer surface includes engineering blog, authentication, documentation, pricing, and 14 more developer resources.'
+  Restaurant365''s developer surface includes engineering blog, authentication, documentation, pricing, and 15 more developer resources.'
 plans:
 - name: Restaurant365 Plans Pricing
   plan_count: 4
   slug: restaurant365-plans-pricing
-random_paper: 1
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Restaurant365 Rate Limits
@@ -344,24 +347,24 @@ rules:
     warn: 15
   slug: restaurant365-rules
 score:
-  band: thin
-  composite: 36.6
+  band: developing
+  composite: 39.5
   coverage:
     artifact_dirs: 20
-    catalog_earned: 72.0
+    catalog_earned: 75.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.8
   facets:
-    access_clarity: 18.4
+    access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 66.7
-    developer_ergonomics: 23.8
+    developer_ergonomics: 25.0
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 44.9
+    operational_transparency: 13.2
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -375,13 +378,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/screenshots/restaurant365-2026-06-20T193014.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/restaurant365/restaurant365-2026-06-20T193014.png
 security:
 - kind: authentication
   name: Restaurant365 Authentication

@@ -27,15 +27,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.2
-  scored_at: '2026-10-17'
+  score: 32.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 2
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 18
   slug: amazon-fault-injection-simulator-agentic-access
   summary_line: 18 operations · 8 acting · 2 human-in-the-loop
-api_count: 6
+api_count: 8
 apis:
 - baseURL: https://fis.amazonaws.com
   baseurl_source: declared
@@ -75,6 +77,16 @@ apis:
   description: Discover available target resource types
   name: Amazon Fault Injection Simulator Target Resource Types API
   slug: amazon-fault-injection-simulator-target-resource-types-api
+- baseURL: https://fis.amazonaws.com
+  baseurl_source: declared
+  description: The Fault Injection Simulator Operations API from Amazon Fault Injection Simulator — 1 operation(s) for fault injection simulator operations.
+  name: Amazon Fault Injection Simulator Fault Injection Simulator Operations API
+  slug: amazon-fault-injection-simulator-operations-api
+- baseURL: https://fis.amazonaws.com
+  baseurl_source: declared
+  description: The Fault Injection Simulator Targetaccountconfigurations API from Amazon Fault Injection Simulator — 4 operation(s) for fault injection simulator targetaccountconfigurations.
+  name: Amazon Fault Injection Simulator Fault Injection Simulator Targetaccountconfigurations API
+  slug: amazon-fault-injection-simulator-targetaccountconfigurations-api
 arazzos:
 - description: List the available FIS actions and fetch the full detail of the first action returned.
   name: AWS FIS Discover Action Detail
@@ -97,14 +109,11 @@ arazzos:
 - description: Fetch an existing experiment template, update its description, and start an experiment from the revised template.
   name: AWS FIS Update Template Then Run
   slug: amazon-fault-injection-simulator-update-template-then-run-workflow
-artifact_total: 78
+artifact_total: 79
 collections:
 - collection_type: postman
   name: AWS Fault Injection Simulator API
   slug: postman-amazon-fis
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AWS Fault Injection Simulator Actions API
   slug: open-amazon-fault-injection-simulator-actions-api
@@ -128,42 +137,42 @@ collections:
   slug: open-amazon-fis
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/plans/amazon-fault-injection-simulator-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/plans/amazon-fault-injection-simulator-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-fault-injection-simulator-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/rate-limits/amazon-fault-injection-simulator-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/rate-limits/amazon-fault-injection-simulator-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-fault-injection-simulator-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/finops/amazon-fault-injection-simulator-finops.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/finops/amazon-fault-injection-simulator-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-fault-injection-simulator-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/agentic-access/amazon-fault-injection-simulator-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/agentic-access/amazon-fault-injection-simulator-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-fault-injection-simulator-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/security/amazon-fault-injection-simulator-trust-center.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/security/amazon-fault-injection-simulator-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-fault-injection-simulator-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/security/amazon-fault-injection-simulator-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/security/amazon-fault-injection-simulator-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-fault-injection-simulator-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/security/amazon-fault-injection-simulator-domain-security.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/security/amazon-fault-injection-simulator-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-fault-injection-simulator-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/authentication/amazon-fault-injection-simulator-authentication.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/authentication/amazon-fault-injection-simulator-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-fault-injection-simulator-authentication.yml
@@ -172,37 +181,37 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-fault-injection-simulator/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/arazzo/amazon-fault-injection-simulator-discover-action-detail-workflow.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/arazzo/amazon-fault-injection-simulator-discover-action-detail-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fault-injection-simulator-discover-action-detail-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/arazzo/amazon-fault-injection-simulator-discover-target-resource-type-workflow.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/arazzo/amazon-fault-injection-simulator-discover-target-resource-type-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fault-injection-simulator-discover-target-resource-type-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/arazzo/amazon-fault-injection-simulator-find-and-stop-running-experiment-workflow.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/arazzo/amazon-fault-injection-simulator-find-and-stop-running-experiment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fault-injection-simulator-find-and-stop-running-experiment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/arazzo/amazon-fault-injection-simulator-list-then-get-template-workflow.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/arazzo/amazon-fault-injection-simulator-list-then-get-template-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fault-injection-simulator-list-then-get-template-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/arazzo/amazon-fault-injection-simulator-run-experiment-to-completion-workflow.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/arazzo/amazon-fault-injection-simulator-run-experiment-to-completion-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fault-injection-simulator-run-experiment-to-completion-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/arazzo/amazon-fault-injection-simulator-start-then-stop-experiment-workflow.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/arazzo/amazon-fault-injection-simulator-start-then-stop-experiment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fault-injection-simulator-start-then-stop-experiment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/arazzo/amazon-fault-injection-simulator-update-template-then-run-workflow.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/arazzo/amazon-fault-injection-simulator-update-template-then-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fault-injection-simulator-update-template-then-run-workflow.yml
@@ -259,17 +268,17 @@ common:
   type: StackOverflow
   url: https://stackoverflow.com/questions/tagged/aws-fis
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/rules/amazon-fis-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/rules/amazon-fis-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-fis-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/vocabulary/amazon-fis-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/vocabulary/amazon-fis-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-fis-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/json-ld/amazon-fis-context.jsonld
+  href: https://artifacts.apis.io/amazon-fault-injection-simulator/json-ld/amazon-fis-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-fis-context.jsonld
@@ -324,13 +333,13 @@ features:
 - description: Fine-grained IAM controls restrict which users can create, run, or view experiments and affected resources.
   name: IAM Security
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Fault Injection Simulator Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: action-minute
+  service_category: ''
   slug: amazon-fault-injection-simulator-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-fault-injection-simulator.png
 json_schemas:
 - name: Action
@@ -404,7 +413,7 @@ modified: '2026-05-19'
 name: Amazon Fault Injection Simulator
 nav: Providers
 network: true
-overview: 'Amazon Fault Injection Simulator is listed with 6 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Experiment Templates API, Experiments API, and 3 more. Tagged areas include Chaos Engineering, DevOps, Fault Injection, and Resilience Testing.
+overview: 'Amazon Fault Injection Simulator is listed with 8 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Experiment Templates API, Experiments API, and 5 more. Tagged areas include Chaos Engineering, DevOps, and Resilience Testing.
 
 
   The Amazon Fault Injection Simulator catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -415,7 +424,7 @@ plans:
 - name: Amazon Fault Injection Simulator Plans Pricing
   plan_count: 3
   slug: amazon-fault-injection-simulator-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Amazon Fault Injection Simulator Rate Limits
@@ -456,44 +465,45 @@ rules:
     warn: 16
   slug: amazon-fis-spectral-rules
 score:
-  band: developing
-  composite: 46.8
+  band: strong
+  composite: 60.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 70.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 45.0
+    artifact_dirs: 21
+    catalog_earned: 82.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 33.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.4
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 34.9
-    developer_ergonomics: 53.6
+    contract_quality: 44.1
+    developer_ergonomics: 65.5
     discoverability: 62.5
-    operational_transparency: 26.3
-  previous_composite: 48.3
+    operational_transparency: 39.5
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 7
-      marker_coverage: 100.0
-      total: 7
+      derived: 6
+      marker_coverage: 88.9
+      total: 9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/screenshots/amazon-fault-injection-simulator-2026-06-20T171648.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-fault-injection-simulator/amazon-fault-injection-simulator-2026-06-20T171648.png
 security:
 - kind: authentication
   name: Amazon Fault Injection Simulator Authentication
@@ -515,7 +525,6 @@ slug: amazon-fault-injection-simulator
 tags:
 - Chaos Engineering
 - DevOps
-- Fault Injection
 - Resilience Testing
 use_cases:
 - description: Validate application behavior under resource failures before they occur in production.

@@ -4,6 +4,6 @@ layout: provider
 name: architectural-design-patterns
 nav: Providers
 network: true
-random_paper: 0
+random_paper: 16
 slug: architectural-design-patterns
 ---

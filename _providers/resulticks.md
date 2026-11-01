@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Resul (Resulticks) Web API is a JSON REST API served from the https://apis.resu.io base domain, documented publicly at gud.resulticks.com. Its call surface is grouped into six documented categorie
@@ -43,7 +45,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/resulticks/refs/heads/main/security/resulticks-domain-security.yml
+  href: https://artifacts.apis.io/resulticks/security/resulticks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/resulticks-domain-security.yml
@@ -88,57 +90,57 @@ common:
   type: GitHubOrganization
   url: https://github.com/resulticks
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/resulticks/refs/heads/main/authentication/resulticks-authentication.yml
+  href: https://artifacts.apis.io/resulticks/authentication/resulticks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/resulticks-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resulticks/refs/heads/main/conventions/resulticks-conventions.yml
+  href: https://artifacts.apis.io/resulticks/conventions/resulticks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/resulticks-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/resulticks/refs/heads/main/packages/resulticks-packages.yml
+  href: https://artifacts.apis.io/resulticks/packages/resulticks-packages.yml
   title: ''
   type: Packages
   url: packages/resulticks-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/resulticks/refs/heads/main/packages/resulticks-packages.yml
+  href: https://artifacts.apis.io/resulticks/packages/resulticks-packages.yml
   title: ''
   type: SDKs
   url: packages/resulticks-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resulticks/refs/heads/main/components/resulticks-components.yml
+  href: https://artifacts.apis.io/resulticks/components/resulticks-components.yml
   title: ''
   type: Components
   url: components/resulticks-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resulticks/refs/heads/main/errors/resulticks-problem-types.yml
+  href: https://artifacts.apis.io/resulticks/errors/resulticks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/resulticks-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/resulticks/refs/heads/main/rate-limits/resulticks-rate-limits.yml
+  href: https://artifacts.apis.io/resulticks/rate-limits/resulticks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/resulticks-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/resulticks/refs/heads/main/plans/resulticks-plans-pricing.yml
+  href: https://artifacts.apis.io/resulticks/plans/resulticks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/resulticks-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resulticks/refs/heads/main/lifecycle/resulticks-lifecycle.yml
+  href: https://artifacts.apis.io/resulticks/lifecycle/resulticks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/resulticks-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/resulticks/refs/heads/main/conformance/resulticks-conformance.yml
+  href: https://artifacts.apis.io/resulticks/conformance/resulticks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/resulticks-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resulticks/refs/heads/main/llms/resulticks-llms.txt
+  href: https://artifacts.apis.io/resulticks/llms/resulticks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/resulticks-llms.txt
@@ -159,14 +161,14 @@ plans:
 - name: Resulticks Plans Pricing
   plan_count: 0
   slug: resulticks-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Resulticks Rate Limits
   slug: resulticks-rate-limits
 score:
-  band: emerging
-  composite: 24.4
+  band: thin
+  composite: 26.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -179,10 +181,10 @@ score:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 54.8
+    developer_ergonomics: 64.3
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 24.4
+    operational_transparency: 5.3
+  previous_composite: 26.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -192,14 +194,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/resulticks/refs/heads/main/screenshots/resulticks-2026-09-02T153607.png
+screenshot: https://apis.io/screenshots/resulticks/resulticks-2026-09-02T153607.png
 security:
 - kind: authentication
   name: Resulticks Authentication

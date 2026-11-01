@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.4
-  scored_at: '2026-10-17'
+  score: 47.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 3
@@ -129,11 +131,8 @@ apis:
   description: The Oauth API from Mireye — 4 operation(s) for oauth.
   name: Mireye OAUTH API
   slug: mireye-oauth-api
-artifact_total: 40
+artifact_total: 44
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mireye Earth Ask API
   slug: open-mireye-ask-api
@@ -186,6 +185,11 @@ collections:
   name: Mireye Earth Ask .well Known API
   slug: open-mireye-well-known-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/mireye/plans/mireye-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mireye-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -239,88 +243,96 @@ common:
   type: StatusPage
   url: https://status.mireye.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/mcp/mireye-mcp.yml
+  href: https://artifacts.apis.io/mireye/mcp/mireye-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mireye-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/llms/mireye-llms.txt
+  href: https://artifacts.apis.io/mireye/llms/mireye-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mireye-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mireye/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/well-known/mireye-well-known.yml
+  href: https://artifacts.apis.io/mireye/well-known/mireye-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mireye-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/authentication/mireye-authentication.yml
+  href: https://artifacts.apis.io/mireye/authentication/mireye-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mireye-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/scopes/mireye-scopes.yml
+  href: https://artifacts.apis.io/mireye/scopes/mireye-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mireye-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/conventions/mireye-conventions.yml
+  href: https://artifacts.apis.io/mireye/conventions/mireye-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mireye-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/errors/mireye-error-codes.yml
+  href: https://artifacts.apis.io/mireye/errors/mireye-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/mireye-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/lifecycle/mireye-lifecycle.yml
+  href: https://artifacts.apis.io/mireye/lifecycle/mireye-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mireye-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/conformance/mireye-conformance.yml
+  href: https://artifacts.apis.io/mireye/conformance/mireye-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mireye-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/data-model/mireye-data-model.yml
+  href: https://artifacts.apis.io/mireye/data-model/mireye-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mireye-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/overlays/mireye-openapi-overlay.yaml
+  href: https://artifacts.apis.io/mireye/overlays/mireye-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mireye-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/cli/mireye-cli.yml
+  href: https://artifacts.apis.io/mireye/cli/mireye-cli.yml
   title: ''
   type: CLI
   url: cli/mireye-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/packages/mireye-packages.yml
+  href: https://artifacts.apis.io/mireye/packages/mireye-packages.yml
   title: ''
   type: Packages
   url: packages/mireye-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/security/mireye-domain-security.yml
+  href: https://artifacts.apis.io/mireye/security/mireye-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mireye-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/agentic-access/mireye-agentic-access.yml
+  href: https://artifacts.apis.io/mireye/agentic-access/mireye-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mireye-agentic-access.yml
 created: '2026-07-17'
 description: 'Mireye is infrastructure for physical-world AI agents, turning any US latitude and longitude into sourced, structured geospatial ground truth. Its Mireye Earth API exposes two HTTP endpoints — POST /v1/fetch for deterministic per-field values and POST /v1/ask for natural-language, citation-backed Q&A — plus GET /v1/meta/fields for a self-describing catalog of 175+ fields across seven layers (terrain, land cover, built environment, utilities and energy, climate and resource, hazards, and parcels and boundaries) and 14 preset bundles. Every value carries provenance: the source identifier, upstream URL, dataset vintage, timestamp, and a confidence rating, sourced from federal agencies (USGS, NOAA, USDA, USFS, FEMA, EPA, EIA, NREL, US Census) and open and commercial datasets (Sentinel-2, Overture Maps, Regrid). Mireye also runs a hosted OAuth 2.1 MCP server (com.mireye/earth) and a local stdio adapter so agents in Claude, Cursor, and custom loops can query the earth as easily as
   the web. Founded 2026 by Ansh Chokshi and Shashwat Kapoor; Y Combinator S26.'
+finops:
+- has_sources: true
+  method: derived
+  name: Mireye Finops
+  primary_unit: enriched parcel
+  service_category: ''
+  slug: mireye-finops
+  template: false
 image: https://www.mireye.com/assets/favicon-Bk0nCQH7.svg
 layout: provider
 mcp_servers:
@@ -334,8 +346,15 @@ network: true
 overview: 'Mireye publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Ask API, Ask Site API, Auth API, and 14 more. Tagged areas include Company, Geospatial, Geographic Information System, Location, and AI Agents.
 
 
-  Mireye''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 22 more developer resources.'
-random_paper: 13
+  Mireye''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 23 more developer resources.'
+plans:
+- name: Mireye Plans Pricing
+  plan_count: 6
+  slug: mireye-plans-pricing
+- name: Mireye Price Estimates
+  plan_count: 0
+  slug: mireye-price-estimates
+random_paper: 3
 scopes:
 - name: Mireye Scopes
   scope_count: 1
@@ -343,23 +362,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.1
+  composite: 52.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 34.2
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 35.4
     developer_ergonomics: 71.4
-    discoverability: 75.0
-    operational_transparency: 10.5
-  previous_composite: 45.0
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -375,14 +394,15 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 33.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 36.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/screenshots/mireye-2026-08-07T183719.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mireye/mireye-2026-08-07T183719.png
 security:
 - kind: authentication
   name: Mireye Authentication
@@ -392,6 +412,12 @@ security:
   name: Mireye Domain Security
   slug: mireye-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: mireye-earth
+  slug: mireye-earth
+- name: Assess flood risk for a US coordinate
+  slug: mireye-flood-risk-check
 slug: mireye
 tags:
 - Company

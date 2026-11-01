@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-10-17'
+  score: 24.3
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.kata.ai
@@ -86,11 +88,8 @@ arazzos:
 - description: Log in, create a project, push a bot revision, cut a deployment version, and bind an environment.
   name: Build and deploy a Kata.ai bot
   slug: kataai-build-and-deploy-bot
-artifact_total: 22
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kata.ai NL Prediction Auth API
   slug: open-kataai-auth-api
@@ -120,7 +119,7 @@ collections:
   slug: open-kataai-teams-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/capabilities/kataai-capability-edges.yml
+  href: https://artifacts.apis.io/kataai/capabilities/kataai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kataai-capability-edges.yml
@@ -157,87 +156,87 @@ common:
   type: Support
   url: https://kata.ai/contact
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/openapi/_original/kataai-platform-openapi.yml
+  href: https://artifacts.apis.io/kataai/openapi/_original/kataai-platform-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/kataai-platform-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/openapi/_original/kataai-nlu-prediction-openapi.yml
+  href: https://artifacts.apis.io/kataai/openapi/_original/kataai-nlu-prediction-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/kataai-nlu-prediction-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/authentication/kataai-authentication.yml
+  href: https://artifacts.apis.io/kataai/authentication/kataai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kataai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/conventions/kataai-conventions.yml
+  href: https://artifacts.apis.io/kataai/conventions/kataai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kataai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/errors/kataai-problem-types.yml
+  href: https://artifacts.apis.io/kataai/errors/kataai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kataai-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/packages/kataai-packages.yml
+  href: https://artifacts.apis.io/kataai/packages/kataai-packages.yml
   title: ''
   type: Packages
   url: packages/kataai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/cli/kataai-cli.yml
+  href: https://artifacts.apis.io/kataai/cli/kataai-cli.yml
   title: ''
   type: CLI
   url: cli/kataai-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/components/kataai-components.yml
+  href: https://artifacts.apis.io/kataai/components/kataai-components.yml
   title: ''
   type: Components
   url: components/kataai-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/data-model/kataai-data-model.yml
+  href: https://artifacts.apis.io/kataai/data-model/kataai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kataai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/conformance/kataai-conformance.yml
+  href: https://artifacts.apis.io/kataai/conformance/kataai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kataai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/lifecycle/kataai-lifecycle.yml
+  href: https://artifacts.apis.io/kataai/lifecycle/kataai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kataai-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/security/kataai-domain-security.yml
+  href: https://artifacts.apis.io/kataai/security/kataai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kataai-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/mcp/kataai-mcp.yml
+  href: https://artifacts.apis.io/kataai/mcp/kataai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kataai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/llms/kataai-llms.txt
+  href: https://artifacts.apis.io/kataai/llms/kataai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kataai-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/overlays/kataai-platform-overlay.yaml
+  href: https://artifacts.apis.io/kataai/overlays/kataai-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kataai-platform-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kataai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/arazzo/_index.yml
+  href: https://artifacts.apis.io/kataai/arazzo/_index.yml
   title: ''
   type: Arazzo
   url: arazzo/_index.yml
@@ -253,25 +252,25 @@ overview: 'Kata.ai publishes 9 API contracts indexed on the [APIs.io](https://ap
 
 
   Kata.ai''s developer surface includes documentation, API reference, signup flow, support, authentication, CLI, and 20 more developer resources.'
-random_paper: 3
+random_paper: 19
 score:
   band: emerging
-  composite: 22.6
+  composite: 23.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -279,7 +278,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 22.9
+  previous_composite: 23.3
   provenance:
     conformance: derived
     contracts:
@@ -295,13 +294,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/screenshots/kataai-2026-07-25T223526.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kataai/kataai-2026-07-25T223526.png
 security:
 - kind: authentication
   name: Kataai Authentication
@@ -311,6 +311,14 @@ security:
   name: Kataai Domain Security
   slug: kataai-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Build and deploy a Kata.ai bot
+  slug: kataai-build-and-deploy-bot
+- name: Connect a messaging channel
+  slug: kataai-connect-channel
+- name: Predict entities with an NLU model
+  slug: kataai-predict-nlu
 slug: kataai
 tags:
 - Company

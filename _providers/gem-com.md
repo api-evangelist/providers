@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-17'
+  score: 7.7
+  scored_at: '2026-10-31'
 api_count: 11
 apis:
 - description: Gem's public REST API (v0) for customer and partner integrations against the Gem recruiting platform. Reference documentation is published at api.gem.com/v0/reference; access is provisioned for Gem cu
@@ -72,17 +74,17 @@ apis:
 artifact_total: 18
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gem-com/refs/heads/main/plans/gem-com-plans-pricing.yml
+  href: https://artifacts.apis.io/gem-com/plans/gem-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gem-com-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gem-com/refs/heads/main/rate-limits/gem-com-rate-limits.yml
+  href: https://artifacts.apis.io/gem-com/rate-limits/gem-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gem-com-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gem-com/refs/heads/main/finops/gem-com-finops.yml
+  href: https://artifacts.apis.io/gem-com/finops/gem-com-finops.yml
   title: ''
   type: FinOps
   url: finops/gem-com-finops.yml
@@ -91,17 +93,17 @@ common:
   type: Blog
   url: https://www.gem.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gem-com/refs/heads/main/security/gem-com-trust-center.yml
+  href: https://artifacts.apis.io/gem-com/security/gem-com-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gem-com-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gem-com/refs/heads/main/security/gem-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gem-com/security/gem-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gem-com-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gem-com/refs/heads/main/security/gem-com-domain-security.yml
+  href: https://artifacts.apis.io/gem-com/security/gem-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gem-com-domain-security.yml
@@ -157,14 +159,14 @@ plans:
 - name: Gem Com Plans Pricing
   plan_count: 1
   slug: gem-com-plans-pricing
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Gem Com Rate Limits
   slug: gem-com-rate-limits
 score:
   band: emerging
-  composite: 12.7
+  composite: 13.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 44.0
@@ -172,15 +174,15 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 73.3
-    operational_transparency: 5.3
-  previous_composite: 18.3
+    discoverability: 71.4
+    operational_transparency: 15.8
+  previous_composite: 13.9
   provenance:
     mcp: first-party
   regulatory:
@@ -189,14 +191,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/gem-com/refs/heads/main/screenshots/gem-com-2026-06-20T181713.png
+screenshot: https://apis.io/screenshots/gem-com/gem-com-2026-06-20T181713.png
 security:
 - kind: domain-security
   name: Gem Com Domain Security

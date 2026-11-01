@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,14 +50,11 @@ apis:
   description: The V1beta1 API from Google Cloud Error Reporting — 5 operation(s) for v1beta1.
   name: Google Cloud Error Reporting V1beta1 API
   slug: google-cloud-error-reporting-v1beta1-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: postman
   name: Google Cloud Error Reporting V1beta1 API
   slug: postman-google-cloud-error-reporting-v1beta1-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud Error Reporting V1beta1 API
   slug: open-google-cloud-error-reporting-v1beta1-api
@@ -64,22 +63,22 @@ collections:
   slug: open-openapi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-error-reporting/refs/heads/main/plans/google-cloud-error-reporting-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-error-reporting/plans/google-cloud-error-reporting-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-error-reporting-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-error-reporting/refs/heads/main/rate-limits/google-cloud-error-reporting-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-error-reporting/rate-limits/google-cloud-error-reporting-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-error-reporting-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-error-reporting/refs/heads/main/finops/google-cloud-error-reporting-finops.yml
+  href: https://artifacts.apis.io/google-cloud-error-reporting/finops/google-cloud-error-reporting-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-error-reporting-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-error-reporting/refs/heads/main/capabilities/google-cloud-error-reporting-capability-edges.yml
+  href: https://artifacts.apis.io/google-cloud-error-reporting/capabilities/google-cloud-error-reporting-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-cloud-error-reporting-capability-edges.yml
@@ -92,17 +91,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-cloud-error-reporting/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-error-reporting/refs/heads/main/agentic-access/google-cloud-error-reporting-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-error-reporting/agentic-access/google-cloud-error-reporting-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-error-reporting-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-error-reporting/refs/heads/main/security/google-cloud-error-reporting-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-error-reporting/security/google-cloud-error-reporting-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-error-reporting-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-error-reporting/refs/heads/main/security/google-cloud-error-reporting-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-error-reporting/security/google-cloud-error-reporting-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-error-reporting-domain-security.yml
@@ -147,7 +146,7 @@ common:
   type: Support
   url: https://cloud.google.com/error-reporting/docs/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-error-reporting/refs/heads/main/json-ld/json-ld.yml
+  href: https://artifacts.apis.io/google-cloud-error-reporting/json-ld/json-ld.yml
   title: ''
   type: JSONLDContext
   url: json-ld/json-ld.yml
@@ -157,7 +156,7 @@ finops:
 - has_sources: false
   method: generated
   name: Google Cloud Error Reporting Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: google-cloud-error-reporting-finops
   template: true
@@ -178,7 +177,7 @@ plans:
 - name: Google Cloud Error Reporting Plans Pricing
   plan_count: 3
   slug: google-cloud-error-reporting-plans-pricing
-random_paper: 9
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Google Cloud Error Reporting Rate Limits
@@ -196,8 +195,8 @@ rules:
     warn: 4
   slug: google-cloud-error-reporting-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 37.8
+  band: developing
+  composite: 44.7
   coverage:
     artifact_dirs: 14
     catalog_earned: 51.7
@@ -205,15 +204,15 @@ score:
     catalog_gap: 63.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 50.2
-    developer_ergonomics: 36.9
+    developer_ergonomics: 48.8
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 39.3
+    operational_transparency: 39.5
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -227,13 +226,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-error-reporting/refs/heads/main/screenshots/google-cloud-error-reporting-2026-06-20T182109.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-error-reporting/google-cloud-error-reporting-2026-06-20T182109.png
 security:
 - kind: domain-security
   name: Google Cloud Error Reporting Domain Security

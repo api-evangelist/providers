@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -78,11 +80,8 @@ apis:
   description: Wallet balance and fiat withdrawal management.
   name: Prestmit Wallet API
   slug: prestmit-wallet-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Prestmit Partner Bank Accounts API
   slug: open-prestmit-bank-accounts-api
@@ -106,17 +105,17 @@ collections:
   slug: open-prestmit
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/plans/prestmit-plans-pricing.yml
+  href: https://artifacts.apis.io/prestmit/plans/prestmit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/prestmit-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/rate-limits/prestmit-rate-limits.yml
+  href: https://artifacts.apis.io/prestmit/rate-limits/prestmit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/prestmit-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/finops/prestmit-finops.yml
+  href: https://artifacts.apis.io/prestmit/finops/prestmit-finops.yml
   title: ''
   type: FinOps
   url: finops/prestmit-finops.yml
@@ -125,17 +124,17 @@ common:
   type: Website
   url: https://www.prestmit.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/agentic-access/prestmit-agentic-access.yml
+  href: https://artifacts.apis.io/prestmit/agentic-access/prestmit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/prestmit-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/security/prestmit-domain-security.yml
+  href: https://artifacts.apis.io/prestmit/security/prestmit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prestmit-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/authentication/prestmit-authentication.yml
+  href: https://artifacts.apis.io/prestmit/authentication/prestmit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/prestmit-authentication.yml
@@ -193,7 +192,7 @@ finops:
 - has_sources: false
   method: generated
   name: Prestmit Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: prestmit-finops
   template: true
@@ -211,14 +210,14 @@ plans:
 - name: Prestmit Plans Pricing
   plan_count: 3
   slug: prestmit-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Prestmit Rate Limits
   slug: prestmit-rate-limits
 score:
   band: thin
-  composite: 27.5
+  composite: 36.0
   coverage:
     artifact_dirs: 12
     catalog_earned: 38.0
@@ -226,15 +225,15 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 14.5
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 45.3
-    developer_ergonomics: 39.3
+    developer_ergonomics: 45.2
     discoverability: 64.3
     operational_transparency: 7.9
-  previous_composite: 29.1
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -247,14 +246,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 17.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/screenshots/prestmit-2026-06-20T192051.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/prestmit/prestmit-2026-06-20T192051.png
 security:
 - kind: authentication
   name: Prestmit Authentication

@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 10.8
-  scored_at: '2026-10-17'
+  score: 13.9
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -32,22 +34,22 @@ common:
   type: Security
   url: https://hackerone.com/instacart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aldiusa/refs/heads/main/well-known/aldiusa-security.txt
+  href: https://artifacts.apis.io/aldiusa/well-known/aldiusa-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/aldiusa-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aldiusa/refs/heads/main/well-known/aldiusa-well-known.yml
+  href: https://artifacts.apis.io/aldiusa/well-known/aldiusa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aldiusa-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aldiusa/refs/heads/main/hosts/aldiusa-hosts.yml
+  href: https://artifacts.apis.io/aldiusa/hosts/aldiusa-hosts.yml
   title: ''
   type: Hosts
   url: hosts/aldiusa-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aldiusa/refs/heads/main/vendors/aldiusa-vendors.yml
+  href: https://artifacts.apis.io/aldiusa/vendors/aldiusa-vendors.yml
   title: ''
   type: Vendors
   url: vendors/aldiusa-vendors.yml
@@ -68,12 +70,12 @@ common:
   type: Documentation
   url: https://help.aldi.us/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aldiusa/refs/heads/main/security/aldiusa-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aldiusa/security/aldiusa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aldiusa-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aldiusa/refs/heads/main/security/aldiusa-domain-security.yml
+  href: https://artifacts.apis.io/aldiusa/security/aldiusa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aldiusa-domain-security.yml
@@ -92,7 +94,7 @@ overview: 'Aldiusa is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Aldiusa''s developer surface includes pricing, documentation, and 10 more developer resources.'
-random_paper: 13
+random_paper: 19
 score:
   band: emerging
   composite: 13.1
@@ -103,7 +105,7 @@ score:
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -111,7 +113,7 @@ score:
     developer_ergonomics: 9.5
     discoverability: 46.4
     operational_transparency: 10.5
-  previous_composite: 13.0
+  previous_composite: 13.1
   provenance:
     mcp: unknown
   regulatory:
@@ -120,14 +122,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aldiusa/refs/heads/main/screenshots/aldiusa-2026-10-11T093601.png
+screenshot: https://apis.io/screenshots/aldiusa/aldiusa-2026-10-11T093601.png
 security:
 - kind: domain-security
   name: Aldiusa Domain Security

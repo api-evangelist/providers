@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - baseURL: https://mycreatio.com/0/odata
@@ -70,49 +72,49 @@ apis:
   description: The Process Content API from Creatio — 1 operation(s) for process content.
   name: Creatio Process Content API
   slug: creatio-process-content-api
-artifact_total: 20
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Creatio Webhooks
   slug: creatio-webhooks
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/rules/creatio-rules.yml
+  href: https://artifacts.apis.io/creatio/rules/creatio-rules.yml
   title: ''
   type: Spectral
   url: rules/creatio-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/json-ld/creatio-context.jsonld
+  href: https://artifacts.apis.io/creatio/json-ld/creatio-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/creatio-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/vocabulary/creatio-vocabulary.yml
+  href: https://artifacts.apis.io/creatio/vocabulary/creatio-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/creatio-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/data-model/creatio-data-model.yml
+  href: https://artifacts.apis.io/creatio/data-model/creatio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/creatio-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/cli/creatio-cli.yml
+  href: https://artifacts.apis.io/creatio/cli/creatio-cli.yml
   title: ''
   type: CLI
   url: cli/creatio-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/llms/creatio-api-llms.txt
+  href: https://artifacts.apis.io/creatio/llms/creatio-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/creatio-api-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/hosts/creatio-hosts.yml
+  href: https://artifacts.apis.io/creatio/hosts/creatio-hosts.yml
   title: ''
   type: Hosts
   url: hosts/creatio-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/vendors/creatio-vendors.yml
+  href: https://artifacts.apis.io/creatio/vendors/creatio-vendors.yml
   title: ''
   type: Vendors
   url: vendors/creatio-vendors.yml
@@ -181,77 +183,77 @@ common:
   type: Community
   url: https://community.creatio.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/authentication/creatio-authentication.yml
+  href: https://artifacts.apis.io/creatio/authentication/creatio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/creatio-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/conventions/creatio-conventions.yml
+  href: https://artifacts.apis.io/creatio/conventions/creatio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/creatio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/conformance/creatio-conformance.yml
+  href: https://artifacts.apis.io/creatio/conformance/creatio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/creatio-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/security/creatio-trust-center.yml
+  href: https://artifacts.apis.io/creatio/security/creatio-trust-center.yml
   title: ''
   type: Compliance
   url: security/creatio-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/security/creatio-trust-center.yml
+  href: https://artifacts.apis.io/creatio/security/creatio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/creatio-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/lifecycle/creatio-lifecycle.yml
+  href: https://artifacts.apis.io/creatio/lifecycle/creatio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/creatio-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/changelog/creatio-changelog.yml
+  href: https://artifacts.apis.io/creatio/changelog/creatio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/creatio-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/security/creatio-domain-security.yml
+  href: https://artifacts.apis.io/creatio/security/creatio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/creatio-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/llms/creatio-llms.txt
+  href: https://artifacts.apis.io/creatio/llms/creatio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/creatio-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/packages/creatio-packages.yml
+  href: https://artifacts.apis.io/creatio/packages/creatio-packages.yml
   title: ''
   type: Packages
   url: packages/creatio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/packages/creatio-packages.yml
+  href: https://artifacts.apis.io/creatio/packages/creatio-packages.yml
   title: ''
   type: SDKs
   url: packages/creatio-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/plans/creatio-plans-pricing.yml
+  href: https://artifacts.apis.io/creatio/plans/creatio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/creatio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/rate-limits/creatio-rate-limits.yml
+  href: https://artifacts.apis.io/creatio/rate-limits/creatio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/creatio-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/asyncapi/creatio-webhooks.yml
+  href: https://artifacts.apis.io/creatio/asyncapi/creatio-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/creatio-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/errors/creatio-error-codes.yml
+  href: https://artifacts.apis.io/creatio/errors/creatio-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/creatio-error-codes.yml
@@ -265,6 +267,14 @@ coverage:
   state: unreadable
 created: '2026-07-17'
 description: Creatio is a global software vendor of an AI-native no-code platform for customer relationship management (CRM) and workflow / business process automation. Its product line spans Sales Creatio, Marketing Creatio, and Service Creatio, built on Studio Creatio — a no-code toolkit with visual designers, AI agents, and a business process engine. Creatio serves banking, insurance, manufacturing, high tech, retail, CPG, pharmaceuticals, telecom, the public sector, and other industries. For integrations, Creatio exposes platform data and processes over an OData 4 service (recommended), a legacy OData 3 service, and the RESTful DataService web service, secured with forms (cookie) authentication via AuthService.svc or OAuth 2.0 through the Creatio Identity Service. Extensions and connectors are distributed through the Creatio Marketplace. This profile was enriched by the API Evangelist enrichment pipeline from Creatio's public developer documentation.
+finops:
+- has_sources: true
+  method: derived
+  name: Creatio Finops
+  primary_unit: ''
+  service_category: ''
+  slug: creatio-finops
+  template: true
 image: https://www.creatio.com/sites/default/files/creatio-logo.svg
 json_schemas:
 - name: PostClearBundlesRequest
@@ -300,7 +310,7 @@ plans:
 - name: Creatio Plans Pricing
   plan_count: 3
   slug: creatio-plans-pricing
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Creatio Rate Limits
@@ -322,21 +332,26 @@ score:
   band: strong
   composite: 62.1
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 29
     catalog_earned: 83.8
     catalog_earned_first_party: 24.0
     catalog_gap: 31.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -11.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 35.6
     contract_quality: 28.3
     developer_ergonomics: 71.4
-    discoverability: 80.4
+    discoverability: 73.2
     operational_transparency: 65.8
-  previous_composite: 73.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 62.1
   provenance:
     conformance: first-party
     contracts:
@@ -351,13 +366,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/screenshots/creatio-2026-07-25T210701.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/creatio/creatio-2026-07-25T210701.png
 security:
 - kind: authentication
   name: Creatio Authentication

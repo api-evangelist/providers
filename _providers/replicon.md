@@ -19,9 +19,9 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 5.4
-  scored_at: '2026-10-17'
+  score: 16.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Proprietary JSON-over-HTTPS web-service API for the Replicon Time Intelligence Platform and Polaris PSA — users, clients, projects, tasks, time, billing/costing and analytics. Tenants resolve their re
@@ -45,7 +47,36 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replicon/refs/heads/main/security/replicon-domain-security.yml
+  href: https://artifacts.apis.io/replicon/well-known/replicon-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/replicon-status-security.txt
+- group: agent
+  href: https://artifacts.apis.io/replicon/well-known/replicon-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/replicon-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/replicon/hosts/replicon-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/replicon-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/replicon/integrations/replicon-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/replicon-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/replicon/vendors/replicon-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/replicon-vendors.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.deltek.com/company/leadership/
+- group: auth
+  href: https://artifacts.apis.io/replicon/security/replicon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/replicon-domain-security.yml
@@ -56,7 +87,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://www.replicon.com/help/
+  url: https://learning.deltek.com/category/replicon?labelkey=product_replicon
 - group: docs
   title: ''
   type: APIReference
@@ -64,31 +95,23 @@ common:
 - group: start
   title: ''
   type: GettingStarted
-  url: https://www.replicon.com/help/getting-started-with-the-replicon-and-polaris-api/
+  url: https://learning.deltek.com/bundle/Replicon/page/getting-started-with-the-replicon-and-polaris-api.html
 - group: operate
   title: ''
   type: Support
-  url: https://www.replicon.com/support/
+  url: https://www.deltek.com/resources/support/
 - group: company
   title: ''
   type: Blog
-  url: https://www.replicon.com/blog/
+  url: https://www.deltek.com/resources/articles/
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/replicon
 - group: commercial
   title: ''
-  type: Pricing
-  url: https://www.replicon.com/pricing/
-- group: commercial
-  title: ''
   type: TermsOfService
-  url: https://www.replicon.com/legal/terms-of-service/
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://www.replicon.com/legal/privacy/
+  url: https://www.deltek.com/deltek-contracts/saas-terms/replicon/terms-and-conditions/
 - group: start
   title: ''
   type: Login
@@ -96,44 +119,39 @@ common:
 - group: operate
   title: ''
   type: StatusPage
-  url: https://status.replicon.com
+  url: https://status.replicon.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replicon/refs/heads/main/authentication/replicon-authentication.yml
+  href: https://artifacts.apis.io/replicon/authentication/replicon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/replicon-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicon/refs/heads/main/conventions/replicon-conventions.yml
+  href: https://artifacts.apis.io/replicon/conventions/replicon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/replicon-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicon/refs/heads/main/errors/replicon-error-codes.yml
+  href: https://artifacts.apis.io/replicon/errors/replicon-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/replicon-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicon/refs/heads/main/lifecycle/replicon-lifecycle.yml
+  href: https://artifacts.apis.io/replicon/lifecycle/replicon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/replicon-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/replicon/refs/heads/main/changelog/replicon-changelog.yml
+  href: https://artifacts.apis.io/replicon/changelog/replicon-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/replicon-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/replicon/refs/heads/main/sandbox/replicon-sandbox.yml
+  href: https://artifacts.apis.io/replicon/sandbox/replicon-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/replicon-sandbox.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/replicon/refs/heads/main/packages/replicon-packages.yml
-  title: ''
-  type: Packages
-  url: packages/replicon-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicon/refs/heads/main/conformance/replicon-conformance.yml
+  href: https://artifacts.apis.io/replicon/conformance/replicon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/replicon-conformance.yml
@@ -142,12 +160,12 @@ common:
   type: Compliance
   url: https://trust.deltek.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replicon/refs/heads/main/security/replicon-trust-center.yml
+  href: https://artifacts.apis.io/replicon/security/replicon-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/replicon-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replicon/refs/heads/main/security/replicon-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/replicon/security/replicon-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/replicon-vulnerability-disclosure.yml
@@ -155,43 +173,49 @@ common:
   title: ''
   type: Security
   url: https://www.deltek.com/company/security-and-trust/
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/replicon/refs/heads/main/llms/replicon-llms.txt
+- group: company
   title: ''
-  type: LLMsTxt
-  url: llms/replicon-llms.txt
+  type: Newsroom
+  url: https://www.deltek.com/company/news/
+coverage:
+  detail: the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - status: 200
+    url: https://www.replicon.com
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-07-17'
 description: Replicon, now a Deltek company, is a time-tracking, project time and expense, and professional-services automation (PSA) platform. Its Time Intelligence Platform and the Polaris PSA product manage timesheets, projects, tasks, clients, resources, billing and costing for professional-services and enterprise teams. Replicon exposes a proprietary JSON-over-HTTPS web-service API (no public OpenAPI) covering users, clients, projects, tasks, time, billing and analytics; callers resolve a tenant swimlane through a global discovery service and authenticate with an Api-token header or HTTP Basic.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/replicon.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-20'
 name: Replicon
 nav: Providers
 network: true
 overview: 'Replicon is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Time Tracking, Timesheets, and Project Management.
 
 
-  Replicon''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 19 more developer resources.'
-random_paper: 2
+  Replicon''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 22 more developer resources.'
+random_paper: 20
 score:
   band: thin
-  composite: 26.9
+  composite: 36.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 22.4
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.2
-    discoverability: 73.2
-    operational_transparency: 44.7
-  previous_composite: 26.8
+    developer_ergonomics: 54.8
+    discoverability: 69.6
+    operational_transparency: 47.4
+  previous_composite: 36.6
   provenance:
     conformance: first-party
   regulatory:
@@ -199,15 +223,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 31.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/replicon/refs/heads/main/screenshots/replicon-2026-09-02T153504.png
+screenshot: https://apis.io/screenshots/replicon/replicon-2026-09-02T153504.png
 security:
 - kind: authentication
   name: Replicon Authentication

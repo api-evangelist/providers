@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.9
-  scored_at: '2026-10-17'
+  score: 24.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -73,15 +75,12 @@ apis:
   description: Manage teamspaces and their members.
   name: Certifaction Teamspace API
   slug: certifaction-teamspace-api
-artifact_total: 18
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Certifaction Webhooks
   slug: certifaction-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: '{{ .ProductName }} Admin Account API'
   slug: open-certifaction-account-api
@@ -101,13 +100,18 @@ collections:
   name: '{{ .ProductName }} Admin Account Teamspace API'
   slug: open-certifaction-teamspace-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/certifaction/plans/certifaction-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/certifaction-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/capabilities/certifaction-capability-edges.yml
+  href: https://artifacts.apis.io/certifaction/capabilities/certifaction-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/certifaction-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/overlays/certifaction-admin-api-overlay.yaml
+  href: https://artifacts.apis.io/certifaction/overlays/certifaction-admin-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/certifaction-admin-api-overlay.yaml
@@ -160,82 +164,82 @@ common:
   type: PrivacyPolicy
   url: https://certifaction.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/authentication/certifaction-authentication.yml
+  href: https://artifacts.apis.io/certifaction/authentication/certifaction-authentication.yml
   title: ''
   type: Authentication
   url: authentication/certifaction-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/openapi/_original/certifaction-local-api-openapi.yml
+  href: https://artifacts.apis.io/certifaction/openapi/_original/certifaction-local-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/certifaction-local-api-openapi.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/packages/certifaction-packages.yml
+  href: https://artifacts.apis.io/certifaction/packages/certifaction-packages.yml
   title: ''
   type: Packages
   url: packages/certifaction-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/packages/certifaction-packages.yml
+  href: https://artifacts.apis.io/certifaction/packages/certifaction-packages.yml
   title: ''
   type: SDKs
   url: packages/certifaction-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/cli/certifaction-cli.yml
+  href: https://artifacts.apis.io/certifaction/cli/certifaction-cli.yml
   title: ''
   type: CLI
   url: cli/certifaction-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/components/certifaction-components.yml
+  href: https://artifacts.apis.io/certifaction/components/certifaction-components.yml
   title: ''
   type: Components
   url: components/certifaction-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/mcp/certifaction-mcp.yml
+  href: https://artifacts.apis.io/certifaction/mcp/certifaction-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/certifaction-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/certifaction/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/llms/certifaction-llms.txt
+  href: https://artifacts.apis.io/certifaction/llms/certifaction-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/certifaction-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/asyncapi/certifaction-webhooks.yml
+  href: https://artifacts.apis.io/certifaction/asyncapi/certifaction-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/certifaction-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/conventions/certifaction-conventions.yml
+  href: https://artifacts.apis.io/certifaction/conventions/certifaction-conventions.yml
   title: ''
   type: Conventions
   url: conventions/certifaction-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/errors/certifaction-problem-types.yml
+  href: https://artifacts.apis.io/certifaction/errors/certifaction-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/certifaction-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/lifecycle/certifaction-lifecycle.yml
+  href: https://artifacts.apis.io/certifaction/lifecycle/certifaction-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/certifaction-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/changelog/certifaction-changelog.yml
+  href: https://artifacts.apis.io/certifaction/changelog/certifaction-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/certifaction-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/data-model/certifaction-data-model.yml
+  href: https://artifacts.apis.io/certifaction/data-model/certifaction-data-model.yml
   title: ''
   type: DataModel
   url: data-model/certifaction-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/conformance/certifaction-conformance.yml
+  href: https://artifacts.apis.io/certifaction/conformance/certifaction-conformance.yml
   title: ''
   type: Conformance
   url: conformance/certifaction-conformance.yml
@@ -244,22 +248,30 @@ common:
   type: Compliance
   url: https://certifaction.com/security-esigning-and-data/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/security/certifaction-trust-center.yml
+  href: https://artifacts.apis.io/certifaction/security/certifaction-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/certifaction-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/security/certifaction-domain-security.yml
+  href: https://artifacts.apis.io/certifaction/security/certifaction-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/certifaction-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/agentic-access/certifaction-agentic-access.yml
+  href: https://artifacts.apis.io/certifaction/agentic-access/certifaction-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/certifaction-agentic-access.yml
 created: '2026-07-17'
 description: 'Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their content. It offers Simple, Advanced, and Qualified Electronic Signatures (SES/AES/QES) compliant with eIDAS, ZertES, UETA and ESIGN, delivered through a client-hosted CLI and Local API plus an Admin API for organization, user, role and team-space management, with EU / Switzerland / on-premises data residency and ISO/IEC 27001:2022 certification.'
+finops:
+- has_sources: true
+  method: derived
+  name: Certifaction Finops
+  primary_unit: ''
+  service_category: ''
+  slug: certifaction-finops
+  template: true
 image: https://developers.certifaction.com/themes/certifaction/logo.svg
 layout: provider
 modified: '2026-07-18'
@@ -272,26 +284,30 @@ overview: 'Certifaction publishes 6 API contracts indexed on the [APIs.io](https
   The Certifaction catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Certifaction''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 27 more developer resources.'
-random_paper: 21
+  Certifaction''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 28 more developer resources.'
+plans:
+- name: Certifaction Plans Pricing
+  plan_count: 1
+  slug: certifaction-plans-pricing
+random_paper: 3
 score:
-  band: developing
-  composite: 51.6
+  band: strong
+  composite: 57.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 28
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 53.9
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 51.1
     developer_ergonomics: 68.5
-    discoverability: 73.2
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -300,7 +316,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 51.5
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -323,13 +339,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/screenshots/certifaction-2026-07-25T205000.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/certifaction/certifaction-2026-07-25T205000.png
 security:
 - kind: authentication
   name: Certifaction Authentication
@@ -343,6 +360,14 @@ security:
   name: Certifaction Trust Center
   slug: certifaction-trust-center
   summary_line: ISO/IEC 27001:2022, eIDAS, ZertES, GDPR, revFADP, UETA, ESIGN
+skill_count: 3
+skills:
+- name: Request signatures and track them with Certifaction
+  slug: certifaction-request-signature
+- name: Sign a document with Certifaction
+  slug: certifaction-sign-document
+- name: Verify and retrieve a signed document with Certifaction
+  slug: certifaction-verify-download
 slug: certifaction
 tags:
 - Company

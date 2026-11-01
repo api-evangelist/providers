@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -91,11 +93,8 @@ apis:
 - description: Agentic AI built specifically for airline and travel customer service, delivering end-to-end autonomous resolutions via voice and chat. Sold to airlines and travel partners; integration is sales-led.
   name: HTS Assist (Agentic AI Customer Service)
   slug: hts-assist
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Airline API
   slug: open-hopper-airlines
@@ -116,22 +115,22 @@ collections:
   slug: open-hopper-com-sessions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/capabilities/hopper-com-capability-edges.yml
+  href: https://artifacts.apis.io/hopper-com/capabilities/hopper-com-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hopper-com-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/agentic-access/hopper-com-agentic-access.yml
+  href: https://artifacts.apis.io/hopper-com/agentic-access/hopper-com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hopper-com-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/security/hopper-com-domain-security.yml
+  href: https://artifacts.apis.io/hopper-com/security/hopper-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hopper-com-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/authentication/hopper-com-authentication.yml
+  href: https://artifacts.apis.io/hopper-com/authentication/hopper-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hopper-com-authentication.yml
@@ -215,10 +214,10 @@ overview: 'Hopper publishes 1 API contract indexed on the [APIs.io](https://apis
 
 
   Hopper''s developer surface includes authentication, GitHub presence, engineering blog, and 18 more developer resources.'
-random_paper: 6
+random_paper: 10
 score:
   band: thin
-  composite: 28.5
+  composite: 26.6
   coverage:
     artifact_dirs: 10
     catalog_earned: 32.0
@@ -232,7 +231,7 @@ score:
     contract_governance: 0.0
     contract_quality: 49.5
     developer_ergonomics: 40.5
-    discoverability: 58.0
+    discoverability: 58.9
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -241,7 +240,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 28.5
+  previous_composite: 26.6
   provenance:
     agentic_access: derived
     contracts:
@@ -255,13 +254,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/screenshots/hopper-com-2026-06-20T182832.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hopper-com/hopper-com-2026-06-20T182832.png
 security:
 - kind: authentication
   name: Hopper Com Authentication

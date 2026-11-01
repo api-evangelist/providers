@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.3
-  scored_at: '2026-10-17'
+  score: 32.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Official open-source Model Context Protocol server (Java) exposing 14 WhoisFreaks domain-intelligence tools to MCP-compatible AI clients. Distributed as source and as the whoisfreaks/mcp-server Docker
@@ -377,15 +379,12 @@ apis:
     question: Which domains are registered by a given company or email?
   phrasing_ops: 4
   slug: whoisfreaks-whois-api
-artifact_total: 52
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Whoisfreaks Monitoring Webhooks
   slug: whoisfreaks-monitoring-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WhoisFreaks Account API
   slug: open-whoisfreaks-account-api
@@ -458,7 +457,7 @@ common:
   type: Website
   url: https://www.whoisfreaks.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/capabilities/whoisfreaks-capability-edges.yml
+  href: https://artifacts.apis.io/whoisfreaks/capabilities/whoisfreaks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/whoisfreaks-capability-edges.yml
@@ -471,7 +470,7 @@ common:
   type: Releases
   url: https://github.com/WhoisFreaks/whoisfreaks-mcp-server/releases
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/overlays/whoisfreaks-openapi-overlay.yaml
+  href: https://artifacts.apis.io/whoisfreaks/overlays/whoisfreaks-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/whoisfreaks-openapi-overlay.yaml
@@ -532,92 +531,92 @@ common:
   type: StatusPage
   url: https://whoisfreaks.com/uptime-status
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/lifecycle/whoisfreaks-lifecycle.yml
+  href: https://artifacts.apis.io/whoisfreaks/lifecycle/whoisfreaks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/whoisfreaks-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/authentication/whoisfreaks-authentication.yml
+  href: https://artifacts.apis.io/whoisfreaks/authentication/whoisfreaks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/whoisfreaks-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/conventions/whoisfreaks-conventions.yml
+  href: https://artifacts.apis.io/whoisfreaks/conventions/whoisfreaks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/whoisfreaks-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/rate-limits/whoisfreaks-rate-limits.yml
+  href: https://artifacts.apis.io/whoisfreaks/rate-limits/whoisfreaks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/whoisfreaks-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/plans/whoisfreaks-plans.yml
+  href: https://artifacts.apis.io/whoisfreaks/plans/whoisfreaks-plans.yml
   title: ''
   type: Plans
   url: plans/whoisfreaks-plans.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/errors/whoisfreaks-problem-types.yml
+  href: https://artifacts.apis.io/whoisfreaks/errors/whoisfreaks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/whoisfreaks-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/examples/whoisfreaks-code-examples.yml
+  href: https://artifacts.apis.io/whoisfreaks/examples/whoisfreaks-code-examples.yml
   title: ''
   type: Examples
   url: examples/whoisfreaks-code-examples.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/packages/whoisfreaks-packages.yml
+  href: https://artifacts.apis.io/whoisfreaks/packages/whoisfreaks-packages.yml
   title: ''
   type: Packages
   url: packages/whoisfreaks-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/packages/whoisfreaks-packages.yml
+  href: https://artifacts.apis.io/whoisfreaks/packages/whoisfreaks-packages.yml
   title: ''
   type: SDKs
   url: packages/whoisfreaks-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/cli/whoisfreaks-cli.yml
+  href: https://artifacts.apis.io/whoisfreaks/cli/whoisfreaks-cli.yml
   title: ''
   type: CLI
   url: cli/whoisfreaks-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/sandbox/whoisfreaks-sandbox.yml
+  href: https://artifacts.apis.io/whoisfreaks/sandbox/whoisfreaks-sandbox.yml
   title: ''
   type: Console
   url: sandbox/whoisfreaks-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/asyncapi/whoisfreaks-monitoring-webhooks.yml
+  href: https://artifacts.apis.io/whoisfreaks/asyncapi/whoisfreaks-monitoring-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/whoisfreaks-monitoring-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/whoisfreaks/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/llms/whoisfreaks-llms.txt
+  href: https://artifacts.apis.io/whoisfreaks/llms/whoisfreaks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/whoisfreaks-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/well-known/whoisfreaks-well-known.yml
+  href: https://artifacts.apis.io/whoisfreaks/well-known/whoisfreaks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/whoisfreaks-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/conformance/whoisfreaks-conformance.yml
+  href: https://artifacts.apis.io/whoisfreaks/conformance/whoisfreaks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/whoisfreaks-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/data-model/whoisfreaks-data-model.yml
+  href: https://artifacts.apis.io/whoisfreaks/data-model/whoisfreaks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/whoisfreaks-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/security/whoisfreaks-domain-security.yml
+  href: https://artifacts.apis.io/whoisfreaks/security/whoisfreaks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/whoisfreaks-domain-security.yml
@@ -626,12 +625,20 @@ common:
   type: Compliance
   url: https://whoisfreaks.com/privacy-policy
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/changelog/whoisfreaks-changelog.yml
+  href: https://artifacts.apis.io/whoisfreaks/changelog/whoisfreaks-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/whoisfreaks-changelog.yml
 created: '2026-07-29'
 description: WhoisFreaks is a domain and IP intelligence provider whose REST API suite covers live WHOIS, historical WHOIS, bulk and reverse WHOIS, IP and ASN WHOIS, live/historical/reverse DNS, domain availability with suggestions, typosquatting discovery, SSL certificate lookup, subdomain enumeration, IP geolocation, IP reputation and domain reputation. Alongside the live lookup APIs it ships bulk downloadable databases (WHOIS, DNS, subdomains, IP geolocation, IP security, ASN, newly registered domains, expiring and dropped domains, and daily phishing/malware/spam threat feeds), brand/domain/registrant monitoring services with email, Telegram and webhook alerts, ten officially maintained OpenAPI-generated SDKs, a Go CLI, an n8n community node, and an open-source MCP server exposing fourteen domain-intelligence tools to AI assistants. Authentication is a single apiKey query parameter across every endpoint.
+finops:
+- has_sources: true
+  method: derived
+  name: Whoisfreaks Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: whoisfreaks-finops
+  template: false
 image: https://whoisfreaks.com/images/logo.png
 layout: provider
 mcp_servers:
@@ -653,30 +660,33 @@ plans:
 - name: Whoisfreaks Plans
   plan_count: 5
   slug: whoisfreaks-plans
-random_paper: 2
+- name: Whoisfreaks Price Estimates
+  plan_count: 0
+  slug: whoisfreaks-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Whoisfreaks Rate Limits
   slug: whoisfreaks-rate-limits
 score:
   band: exemplar
-  composite: 67.1
+  composite: 69.4
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 61.0
+    artifact_dirs: 28
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 59.4
-    developer_ergonomics: 82.7
-    discoverability: 73.2
-    operational_transparency: 73.7
-  previous_composite: 67.0
+    developer_ergonomics: 85.1
+    discoverability: 65.0
+    operational_transparency: 76.3
+  previous_composite: 67.8
   provenance:
     conformance: derived
     contracts:
@@ -692,13 +702,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/screenshots/whoisfreaks-2026-08-17T080443.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/whoisfreaks/whoisfreaks-2026-08-17T080443.png
 security:
 - kind: authentication
   name: Whoisfreaks Authentication
@@ -708,6 +719,18 @@ security:
   name: Whoisfreaks Domain Security
   slug: whoisfreaks-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 5
+skills:
+- name: Brand typosquat sweep
+  slug: whoisfreaks-brand-typosquat-sweep
+- name: Domain due diligence
+  slug: whoisfreaks-domain-due-diligence
+- name: Bulk feed and database ingest
+  slug: whoisfreaks-feed-ingest
+- name: IP address triage
+  slug: whoisfreaks-ip-triage
+- name: Threat actor infrastructure pivot
+  slug: whoisfreaks-threat-actor-pivot
 slug: whoisfreaks
 tags:
 - WHOIS

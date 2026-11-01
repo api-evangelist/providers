@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Public HTTP gateway that serves signed data packages and historical token prices aggregated by the RedStone oracle network. Read-only and unauthenticated; responses carry ECDSA signatures and the prov
@@ -81,57 +83,57 @@ common:
   type: PrivacyPolicy
   url: https://www.redstone.finance/documents/RedStone---Privacy-Policy.pdf
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/redstone/refs/heads/main/packages/redstone-packages.yml
+  href: https://artifacts.apis.io/redstone/packages/redstone-packages.yml
   title: ''
   type: Packages
   url: packages/redstone-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/redstone/refs/heads/main/packages/redstone-packages.yml
+  href: https://artifacts.apis.io/redstone/packages/redstone-packages.yml
   title: ''
   type: SDKs
   url: packages/redstone-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/redstone/refs/heads/main/cli/redstone-cli.yml
+  href: https://artifacts.apis.io/redstone/cli/redstone-cli.yml
   title: ''
   type: CLI
   url: cli/redstone-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redstone/refs/heads/main/authentication/redstone-authentication.yml
+  href: https://artifacts.apis.io/redstone/authentication/redstone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/redstone-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redstone/refs/heads/main/conventions/redstone-conventions.yml
+  href: https://artifacts.apis.io/redstone/conventions/redstone-conventions.yml
   title: ''
   type: Conventions
   url: conventions/redstone-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redstone/refs/heads/main/data-model/redstone-data-model.yml
+  href: https://artifacts.apis.io/redstone/data-model/redstone-data-model.yml
   title: ''
   type: DataModel
   url: data-model/redstone-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redstone/refs/heads/main/security/redstone-domain-security.yml
+  href: https://artifacts.apis.io/redstone/security/redstone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/redstone-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redstone/refs/heads/main/security/redstone-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/redstone/security/redstone-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/redstone-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redstone/refs/heads/main/security/redstone-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/redstone/security/redstone-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/redstone-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redstone/refs/heads/main/mcp/redstone-mcp.yml
+  href: https://artifacts.apis.io/redstone/mcp/redstone-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/redstone-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redstone/refs/heads/main/llms/redstone-llms.txt
+  href: https://artifacts.apis.io/redstone/llms/redstone-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/redstone-llms.txt
@@ -147,26 +149,26 @@ overview: 'RedStone is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   RedStone''s developer surface includes engineering blog, documentation, getting-started guide, support, CLI, authentication, and 14 more developer resources.'
-random_paper: 10
+random_paper: 4
 score:
   band: emerging
-  composite: 25.0
+  composite: 24.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 24.9
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 24.6
   provenance:
     mcp: derived
   regulatory:
@@ -175,14 +177,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/redstone/refs/heads/main/screenshots/redstone-2026-09-02T153202.png
+screenshot: https://apis.io/screenshots/redstone/redstone-2026-09-02T153202.png
 security:
 - kind: authentication
   name: Redstone Authentication

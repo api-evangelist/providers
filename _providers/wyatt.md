@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,21 +25,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A live, remotely-callable Model Context Protocol server for Wyatt's Dr.FORHAIR direct-to-consumer storefront. Six tools cover catalog search, product detail, checkout-URL creation, customer order hist
   name: Dr.FORHAIR Storefront MCP Server
   slug: drforhair-storefront-mcp-server
-artifact_total: 8
+artifact_total: 10
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/security/wyatt-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wyatt/security/wyatt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wyatt-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/security/wyatt-domain-security.yml
+  href: https://artifacts.apis.io/wyatt/security/wyatt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wyatt-domain-security.yml
@@ -46,42 +48,42 @@ common:
   type: Website
   url: https://wyattcorp.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/well-known/wyatt-well-known.yml
+  href: https://artifacts.apis.io/wyatt/well-known/wyatt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wyatt-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/conformance/wyatt-conformance.yml
+  href: https://artifacts.apis.io/wyatt/conformance/wyatt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wyatt-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/llms/wyatt-llms.txt
+  href: https://artifacts.apis.io/wyatt/llms/wyatt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wyatt-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/packages/wyatt-packages.yml
+  href: https://artifacts.apis.io/wyatt/packages/wyatt-packages.yml
   title: ''
   type: Packages
   url: packages/wyatt-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/plans/wyatt-plans-pricing.yml
+  href: https://artifacts.apis.io/wyatt/plans/wyatt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wyatt-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/rate-limits/wyatt-rate-limits.yml
+  href: https://artifacts.apis.io/wyatt/rate-limits/wyatt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wyatt-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/lifecycle/wyatt-lifecycle.yml
+  href: https://artifacts.apis.io/wyatt/lifecycle/wyatt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wyatt-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wyatt/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -121,7 +123,7 @@ plans:
 - name: Wyatt Plans Pricing
   plan_count: 0
   slug: wyatt-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Wyatt Rate Limits
@@ -133,7 +135,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 24.5
+  composite: 24.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -141,14 +143,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 1.9
     developer_ergonomics: 18.5
-    discoverability: 75.0
-    operational_transparency: 0.0
+    discoverability: 65.0
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -156,7 +158,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 24.4
+  previous_composite: 24.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -167,14 +169,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wyatt/refs/heads/main/screenshots/wyatt-2026-10-11T194620.png
+screenshot: https://apis.io/screenshots/wyatt/wyatt-2026-10-11T194620.png
 security:
 - kind: authentication
   name: Wyatt Authentication
@@ -188,6 +190,12 @@ security:
   name: Wyatt Vulnerability Disclosure
   slug: wyatt-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 2
+skills:
+- name: wyatt-order-management
+  slug: wyatt-order-management
+- name: wyatt-storefront-shopping
+  slug: wyatt-storefront-shopping
 slug: wyatt
 tags:
 - Company

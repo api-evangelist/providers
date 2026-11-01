@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: The external API of the Federated Wireless Spectrum Controller, the cloud platform that manages CBRS spectrum assignment, CBSD lifecycle, monitoring and compliance. The Spectrum Controller web applica
@@ -136,57 +138,57 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/2725741
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/federated-wireless/refs/heads/main/authentication/federated-wireless-authentication.yml
+  href: https://artifacts.apis.io/federated-wireless/authentication/federated-wireless-authentication.yml
   title: ''
   type: Authentication
   url: authentication/federated-wireless-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/federated-wireless/refs/heads/main/scopes/federated-wireless-scopes.yml
+  href: https://artifacts.apis.io/federated-wireless/scopes/federated-wireless-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/federated-wireless-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/federated-wireless/refs/heads/main/well-known/federated-wireless-well-known.yml
+  href: https://artifacts.apis.io/federated-wireless/well-known/federated-wireless-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/federated-wireless-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/federated-wireless/refs/heads/main/llms/federated-wireless-llms.txt
+  href: https://artifacts.apis.io/federated-wireless/llms/federated-wireless-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/federated-wireless-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/federated-wireless/refs/heads/main/mcp/federated-wireless-mcp.yml
+  href: https://artifacts.apis.io/federated-wireless/mcp/federated-wireless-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/federated-wireless-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/federated-wireless/refs/heads/main/security/federated-wireless-domain-security.yml
+  href: https://artifacts.apis.io/federated-wireless/security/federated-wireless-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/federated-wireless-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/federated-wireless/refs/heads/main/conformance/federated-wireless-conformance.yml
+  href: https://artifacts.apis.io/federated-wireless/conformance/federated-wireless-conformance.yml
   title: ''
   type: Conformance
   url: conformance/federated-wireless-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/federated-wireless/refs/heads/main/lifecycle/federated-wireless-lifecycle.yml
+  href: https://artifacts.apis.io/federated-wireless/lifecycle/federated-wireless-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/federated-wireless-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/federated-wireless/refs/heads/main/plans/federated-wireless-plans-pricing.yml
+  href: https://artifacts.apis.io/federated-wireless/plans/federated-wireless-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/federated-wireless-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/federated-wireless/refs/heads/main/rate-limits/federated-wireless-rate-limits.yml
+  href: https://artifacts.apis.io/federated-wireless/rate-limits/federated-wireless-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/federated-wireless-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/federated-wireless/refs/heads/main/packages/federated-wireless-packages.yml
+  href: https://artifacts.apis.io/federated-wireless/packages/federated-wireless-packages.yml
   title: ''
   type: Packages
   url: packages/federated-wireless-packages.yml
@@ -239,7 +241,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 25.4
+  composite: 24.8
   coverage:
     artifact_dirs: 14
     catalog_earned: 40.0
@@ -253,8 +255,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 80.8
-    operational_transparency: 2.6
+    discoverability: 71.7
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -262,7 +264,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 25.4
+  previous_composite: 24.8
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -272,14 +274,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/federated-wireless/refs/heads/main/screenshots/federated-wireless-2026-09-02T145502.png
+screenshot: https://apis.io/screenshots/federated-wireless/federated-wireless-2026-09-02T145502.png
 security:
 - kind: authentication
   name: Federated Wireless Authentication

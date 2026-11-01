@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-10-17'
+  score: 38.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,17 +51,14 @@ apis:
   description: Customer status and deletion operations for partners.
   name: NIFT Customers API
   slug: nift-customers-api
-artifact_total: 10
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nift Partners Customers API
   slug: open-nift-customers-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/overlays/nift-partners-overlay.yaml
+  href: https://artifacts.apis.io/nift/overlays/nift-partners-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nift-partners-overlay.yaml
@@ -104,97 +103,97 @@ common:
   type: PrivacyPolicy
   url: https://www.gonift.com/privacy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/authentication/nift-authentication.yml
+  href: https://artifacts.apis.io/nift/authentication/nift-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nift-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/scopes/nift-scopes.yml
+  href: https://artifacts.apis.io/nift/scopes/nift-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nift-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/packages/nift-packages.yml
+  href: https://artifacts.apis.io/nift/packages/nift-packages.yml
   title: ''
   type: SDKs
   url: packages/nift-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/packages/nift-packages.yml
+  href: https://artifacts.apis.io/nift/packages/nift-packages.yml
   title: ''
   type: Packages
   url: packages/nift-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/components/nift-components.yml
+  href: https://artifacts.apis.io/nift/components/nift-components.yml
   title: ''
   type: Components
   url: components/nift-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/mcp/nift-mcp.yml
+  href: https://artifacts.apis.io/nift/mcp/nift-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nift-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/mcp/nift-tool-crosswalk.yml
+  href: https://artifacts.apis.io/nift/mcp/nift-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/nift-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nift/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/agentic-access/nift-agentic-access.yml
+  href: https://artifacts.apis.io/nift/agentic-access/nift-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nift-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/llms/nift-llms.txt
+  href: https://artifacts.apis.io/nift/llms/nift-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nift-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/conventions/nift-conventions.yml
+  href: https://artifacts.apis.io/nift/conventions/nift-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nift-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/conventions/nift-conventions.yml
+  href: https://artifacts.apis.io/nift/conventions/nift-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/nift-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/errors/nift-problem-types.yml
+  href: https://artifacts.apis.io/nift/errors/nift-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nift-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/lifecycle/nift-lifecycle.yml
+  href: https://artifacts.apis.io/nift/lifecycle/nift-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nift-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/conformance/nift-conformance.yml
+  href: https://artifacts.apis.io/nift/conformance/nift-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nift-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/conformance/nift-conformance.yml
+  href: https://artifacts.apis.io/nift/conformance/nift-conformance.yml
   title: ''
   type: Compliance
   url: conformance/nift-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/data-model/nift-data-model.yml
+  href: https://artifacts.apis.io/nift/data-model/nift-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nift-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/security/nift-domain-security.yml
+  href: https://artifacts.apis.io/nift/security/nift-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nift-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/security/nift-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nift/security/nift-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nift-vulnerability-disclosure.yml
@@ -203,17 +202,25 @@ common:
   type: Security
   url: https://www.gonift.com/business/vulnerability-disclosure-policy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/plans/nift-plans-pricing.yml
+  href: https://artifacts.apis.io/nift/plans/nift-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nift-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/rate-limits/nift-rate-limits.yml
+  href: https://artifacts.apis.io/nift/rate-limits/nift-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nift-rate-limits.yml
 created: '2026-07-17'
 description: 'Nift is a customer-gifting and acquisition platform: businesses send "thank-you" gifts that let their own customers discover and try new brands, restaurants, and services, while the partnering brands gain new customers at the moment of gift selection. Proprietary AI matches each recipient to relevant gift options. For developers, Nift ships a partner integration surface: first-party SDKs (Web, iOS, Android, React Native) that embed the Nift gift-redemption "card flow" directly into a partner''s app, plus a server-side Partners API secured with OAuth 2.0 client credentials for looking up customer eligibility status and submitting GDPR-style customer deletion (anonymization) requests. Backed by Foundry Group.'
+finops:
+- has_sources: true
+  method: derived
+  name: Nift Finops
+  primary_unit: ''
+  service_category: ''
+  slug: nift-finops
+  template: true
 image: https://cdn.nift.me/assets/media_library/Nift-30-GiftCard-330af8982cf61d121b763521121a4025dd0f85b6010e361ebc736d0fa0d13d78.png
 layout: provider
 modified: '2026-08-13'
@@ -228,7 +235,7 @@ plans:
 - name: Nift Plans Pricing
   plan_count: 0
   slug: nift-plans-pricing
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Nift Rate Limits
@@ -240,23 +247,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 39.5
+  composite: 39.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 15.0
     developer_ergonomics: 66.1
-    discoverability: 64.3
-    operational_transparency: 13.2
-  previous_composite: 39.4
+    discoverability: 57.1
+    operational_transparency: 15.8
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -279,13 +286,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/screenshots/nift-2026-08-07T185254.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nift/nift-2026-08-07T185254.png
 security:
 - kind: authentication
   name: Nift Authentication
@@ -299,6 +307,12 @@ security:
   name: Nift Vulnerability Disclosure
   slug: nift-vulnerability-disclosure
   summary_line: contact published
+skill_count: 2
+skills:
+- name: Check Nift customer status
+  slug: nift-check-customer-status
+- name: Submit Nift customer deletion requests
+  slug: nift-delete-customers
 slug: nift
 tags:
 - Company

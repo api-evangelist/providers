@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.1
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -78,15 +80,12 @@ apis:
   description: Describe how to create webhooks and receive notifications from our system.
   name: Ostrom Webhooks API
   slug: ostrom-webhooks-api
-artifact_total: 19
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Ostrom Webhooks
   slug: ostrom-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ostrom Auth API
   slug: open-ostrom-auth-api
@@ -110,12 +109,12 @@ collections:
   slug: open-ostrom-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/capabilities/ostrom-capability-edges.yml
+  href: https://artifacts.apis.io/ostrom/capabilities/ostrom-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ostrom-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/overlays/ostrom-openapi-overlay.yaml
+  href: https://artifacts.apis.io/ostrom/overlays/ostrom-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ostrom-openapi-overlay.yaml
@@ -164,72 +163,72 @@ common:
   type: PrivacyPolicy
   url: https://ostrom.de/en/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/authentication/ostrom-authentication.yml
+  href: https://artifacts.apis.io/ostrom/authentication/ostrom-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ostrom-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/sandbox/ostrom-sandbox.yml
+  href: https://artifacts.apis.io/ostrom/sandbox/ostrom-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ostrom-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/conventions/ostrom-conventions.yml
+  href: https://artifacts.apis.io/ostrom/conventions/ostrom-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ostrom-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/changelog/ostrom-changelog.yml
+  href: https://artifacts.apis.io/ostrom/changelog/ostrom-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ostrom-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/lifecycle/ostrom-lifecycle.yml
+  href: https://artifacts.apis.io/ostrom/lifecycle/ostrom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ostrom-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/errors/ostrom-problem-types.yml
+  href: https://artifacts.apis.io/ostrom/errors/ostrom-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ostrom-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/data-model/ostrom-data-model.yml
+  href: https://artifacts.apis.io/ostrom/data-model/ostrom-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ostrom-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/conformance/ostrom-conformance.yml
+  href: https://artifacts.apis.io/ostrom/conformance/ostrom-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ostrom-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/asyncapi/ostrom-webhooks.yml
+  href: https://artifacts.apis.io/ostrom/asyncapi/ostrom-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ostrom-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/mcp/ostrom-mcp.yml
+  href: https://artifacts.apis.io/ostrom/mcp/ostrom-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ostrom-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ostrom/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/llms/ostrom-llms.txt
+  href: https://artifacts.apis.io/ostrom/llms/ostrom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ostrom-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/security/ostrom-domain-security.yml
+  href: https://artifacts.apis.io/ostrom/security/ostrom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ostrom-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/agentic-access/ostrom-agentic-access.yml
+  href: https://artifacts.apis.io/ostrom/agentic-access/ostrom-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ostrom-agentic-access.yml
@@ -252,10 +251,10 @@ overview: 'Ostrom publishes 7 API contracts indexed on the [APIs.io](https://api
 
 
   Ostrom''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 16
+random_paper: 4
 score:
   band: developing
-  composite: 45.1
+  composite: 48.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -268,8 +267,8 @@ score:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 55.5
-    developer_ergonomics: 51.8
-    discoverability: 73.2
+    developer_ergonomics: 66.1
+    discoverability: 66.1
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -279,7 +278,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 45.1
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -296,13 +295,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 24.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/screenshots/ostrom-2026-08-07T191022.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ostrom/ostrom-2026-08-07T191022.png
 security:
 - kind: authentication
   name: Ostrom Authentication
@@ -312,6 +312,14 @@ security:
   name: Ostrom Domain Security
   slug: ostrom-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Fetch day-ahead electricity spot prices
+  slug: ostrom-fetch-spot-prices
+- name: Link a partner user and read their contracts
+  slug: ostrom-partner-user-data
+- name: Register and verify Ostrom webhooks
+  slug: ostrom-webhooks
 slug: ostrom
 tags:
 - Company

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -65,7 +67,7 @@ common:
   type: TermsOfService
   url: https://www.riverbed.com/legal/legal-notices/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riverbed-technology/refs/heads/main/security/riverbed-technology-trust-center.yml
+  href: https://artifacts.apis.io/riverbed-technology/security/riverbed-technology-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/riverbed-technology-trust-center.yml
@@ -74,17 +76,17 @@ common:
   type: Compliance
   url: https://www.riverbed.com/trust-center/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riverbed-technology/refs/heads/main/conformance/riverbed-technology-conformance.yml
+  href: https://artifacts.apis.io/riverbed-technology/conformance/riverbed-technology-conformance.yml
   title: ''
   type: Conformance
   url: conformance/riverbed-technology-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riverbed-technology/refs/heads/main/security/riverbed-technology-domain-security.yml
+  href: https://artifacts.apis.io/riverbed-technology/security/riverbed-technology-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/riverbed-technology-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riverbed-technology/refs/heads/main/security/riverbed-technology-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/riverbed-technology/security/riverbed-technology-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/riverbed-technology-vulnerability-disclosure.yml
@@ -93,7 +95,7 @@ common:
   type: Security
   url: https://www.riverbed.com/responsible-vulnerability-disclosure-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/riverbed-technology/refs/heads/main/llms/riverbed-technology-llms.txt
+  href: https://artifacts.apis.io/riverbed-technology/llms/riverbed-technology-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/riverbed-technology-llms.txt
@@ -109,10 +111,10 @@ overview: 'Riverbed Technology is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Riverbed Technology''s developer surface includes documentation, support, engineering blog, and 11 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
   band: emerging
-  composite: 23.8
+  composite: 23.1
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -126,9 +128,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 23.8
+  previous_composite: 23.1
   provenance:
     conformance: first-party
   regulatory:
@@ -137,14 +139,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/riverbed-technology/refs/heads/main/screenshots/riverbed-technology-2026-09-02T153931.png
+screenshot: https://apis.io/screenshots/riverbed-technology/riverbed-technology-2026-09-02T153931.png
 security:
 - kind: domain-security
   name: Riverbed Technology Domain Security

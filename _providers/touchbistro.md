@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,17 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 47
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/touchbistro/refs/heads/main/security/touchbistro-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/touchbistro/security/touchbistro-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/touchbistro-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/touchbistro/refs/heads/main/security/touchbistro-domain-security.yml
+  href: https://artifacts.apis.io/touchbistro/security/touchbistro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/touchbistro-domain-security.yml
@@ -72,17 +74,17 @@ common:
   type: Help
   url: https://www.touchbistro.com/help/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/touchbistro/refs/heads/main/plans/touchbistro-plans-pricing.yml
+  href: https://artifacts.apis.io/touchbistro/plans/touchbistro-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/touchbistro-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/touchbistro/refs/heads/main/rate-limits/touchbistro-rate-limits.yml
+  href: https://artifacts.apis.io/touchbistro/rate-limits/touchbistro-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/touchbistro-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/touchbistro/refs/heads/main/finops/touchbistro-finops.yml
+  href: https://artifacts.apis.io/touchbistro/finops/touchbistro-finops.yml
   title: ''
   type: FinOps
   url: finops/touchbistro-finops.yml
@@ -178,44 +180,44 @@ plans:
 - name: Touchbistro Plans Pricing
   plan_count: 1
   slug: touchbistro-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Touchbistro Rate Limits
   slug: touchbistro-rate-limits
 score:
   band: minimal
-  composite: 7.7
+  composite: 9.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 31.0
     catalog_earned_first_party: 0.0
     catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 48.2
-    operational_transparency: 7.9
-  previous_composite: 9.2
+    operational_transparency: 21.1
+  previous_composite: 9.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/touchbistro/refs/heads/main/screenshots/touchbistro-2026-06-20T195504.png
+screenshot: https://apis.io/screenshots/touchbistro/touchbistro-2026-06-20T195504.png
 security:
 - kind: domain-security
   name: Touchbistro Domain Security

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/caredox/refs/heads/main/hosts/caredox-hosts.yml
+  href: https://artifacts.apis.io/caredox/hosts/caredox-hosts.yml
   title: ''
   type: Hosts
   url: hosts/caredox-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/caredox/refs/heads/main/vendors/caredox-vendors.yml
+  href: https://artifacts.apis.io/caredox/vendors/caredox-vendors.yml
   title: ''
   type: Vendors
   url: vendors/caredox-vendors.yml
@@ -54,7 +56,7 @@ common:
   type: Leadership
   url: https://schoolcare.com/team
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caredox/refs/heads/main/security/caredox-domain-security.yml
+  href: https://artifacts.apis.io/caredox/security/caredox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/caredox-domain-security.yml
@@ -70,11 +72,11 @@ modified: '2026-10-07'
 name: SchoolCare
 nav: Providers
 network: true
-overview: SchoolCare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Health, Software-as-a-Service, K-12, and StudentRecords.
-random_paper: 16
+overview: SchoolCare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Health, Software-as-a-Service, K-12, and Student Records.
+random_paper: 22
 score:
   band: minimal
-  composite: 9.2
+  composite: 8.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -82,6 +84,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.5
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -89,16 +92,18 @@ score:
     developer_ergonomics: 0.0
     discoverability: 51.8
     operational_transparency: 0.0
+  previous_composite: 9.2
   provenance:
     mcp: derived
   regulatory:
     applies: true
     matched_via: tags
-    regime: Health
-    regime_id: health
-    score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    regime: Education & Research
+    regime_id: education
+    score: 13.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -114,6 +119,6 @@ tags:
 - Health
 - Software-as-a-Service
 - K-12
-- StudentRecords
+- Student Records
 website: https://schoolcare.com
 ---

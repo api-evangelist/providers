@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.8
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -150,7 +152,7 @@ arazzos:
 - description: Resolve the cluster, create a topic with explicit partitioning, read it back, and produce a first record.
   name: Apache Kafka Provision a Topic and Produce a Record
   slug: apache-kafka-topic-provision-produce-workflow
-artifact_total: 149
+artifact_total: 148
 asyncapis:
 - description: 'Generic AsyncAPI 2.6 reference template for Apache Kafka. Apache Kafka is a distributed event streaming platform where producers publish records to topics partitioned across a cluster of brokers, and '
   name: Apache Kafka
@@ -159,9 +161,6 @@ asyncapis:
   name: Apache Kafka Messaging API
   slug: kafka-messaging
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kafka Connect REST ACL API
   slug: open-apache-kafka-acl-api
@@ -202,93 +201,98 @@ collections:
   name: Confluent Kafka REST Proxy API
   slug: open-kafka-rest-proxy
 common:
+- group: other
+  href: https://artifacts.apis.io/apache-kafka/capabilities/apache-kafka-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/apache-kafka-capability-edges.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/rules/apache-kafka-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-kafka/rules/apache-kafka-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/apache-kafka-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/rules/apache-kafka-rules.yml
+  href: https://artifacts.apis.io/apache-kafka/rules/apache-kafka-rules.yml
   title: ''
   type: Spectral
   url: rules/apache-kafka-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/rules/apache-kafka-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-kafka/rules/apache-kafka-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/apache-kafka-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/rules/apache-kafka-asyncapi-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-kafka/rules/apache-kafka-asyncapi-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/apache-kafka-asyncapi-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-ld/apache-kafka-kafka-rest-proxy-context.jsonld
+  href: https://artifacts.apis.io/apache-kafka/json-ld/apache-kafka-kafka-rest-proxy-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/apache-kafka-kafka-rest-proxy-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-ld/apache-kafka-kafka-connect-task-context.jsonld
+  href: https://artifacts.apis.io/apache-kafka/json-ld/apache-kafka-kafka-connect-task-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/apache-kafka-kafka-connect-task-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-ld/apache-kafka-kafka-connect-create-context.jsonld
+  href: https://artifacts.apis.io/apache-kafka/json-ld/apache-kafka-kafka-connect-create-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/apache-kafka-kafka-connect-create-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-ld/apache-kafka-kafka-connect-connector-context.jsonld
+  href: https://artifacts.apis.io/apache-kafka/json-ld/apache-kafka-kafka-connect-connector-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/apache-kafka-kafka-connect-connector-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-ld/apache-kafka-kafka-connect-config-context.jsonld
+  href: https://artifacts.apis.io/apache-kafka/json-ld/apache-kafka-kafka-connect-config-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/apache-kafka-kafka-connect-config-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/json-ld/apache-kafka-context.jsonld
+  href: https://artifacts.apis.io/apache-kafka/json-ld/apache-kafka-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/apache-kafka-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/vocabulary/apache-kafka-vocabulary.yml
+  href: https://artifacts.apis.io/apache-kafka/vocabulary/apache-kafka-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-kafka-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/lifecycle/apache-kafka-lifecycle.yml
+  href: https://artifacts.apis.io/apache-kafka/lifecycle/apache-kafka-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/apache-kafka-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/errors/apache-kafka-problem-types.yml
+  href: https://artifacts.apis.io/apache-kafka/errors/apache-kafka-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apache-kafka-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/integrations/apache-kafka-integration-edges.yml
+  href: https://artifacts.apis.io/apache-kafka/integrations/apache-kafka-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/apache-kafka-integration-edges.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/packages/apache-kafka-packages.yml
+  href: https://artifacts.apis.io/apache-kafka/packages/apache-kafka-packages.yml
   title: ''
   type: SDKs
   url: packages/apache-kafka-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/plans/apache-kafka-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-kafka/plans/apache-kafka-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-kafka-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/rate-limits/apache-kafka-rate-limits.yml
+  href: https://artifacts.apis.io/apache-kafka/rate-limits/apache-kafka-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-kafka-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/finops/apache-kafka-finops.yml
+  href: https://artifacts.apis.io/apache-kafka/finops/apache-kafka-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-kafka-finops.yml
@@ -297,7 +301,7 @@ common:
   type: Website
   url: https://kafka.apache.org/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/overlays/apache-kafka-kafka-connect-overlay.yaml
+  href: https://artifacts.apis.io/apache-kafka/overlays/apache-kafka-kafka-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/apache-kafka-kafka-connect-overlay.yaml
@@ -318,77 +322,77 @@ common:
   type: License
   url: https://github.com/apache/kafka/blob/trunk/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/agentic-access/apache-kafka-agentic-access.yml
+  href: https://artifacts.apis.io/apache-kafka/agentic-access/apache-kafka-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-kafka-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/packages/apache-kafka-packages.yml
+  href: https://artifacts.apis.io/apache-kafka/packages/apache-kafka-packages.yml
   title: ''
   type: Packages
   url: packages/apache-kafka-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/cli/apache-kafka-cli.yml
+  href: https://artifacts.apis.io/apache-kafka/cli/apache-kafka-cli.yml
   title: ''
   type: CLI
   url: cli/apache-kafka-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/mcp/apache-kafka-mcp.yml
+  href: https://artifacts.apis.io/apache-kafka/mcp/apache-kafka-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/apache-kafka-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/llms/apache-kafka-llms.txt
+  href: https://artifacts.apis.io/apache-kafka/llms/apache-kafka-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apache-kafka-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/well-known/apache-kafka-well-known.yml
+  href: https://artifacts.apis.io/apache-kafka/well-known/apache-kafka-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apache-kafka-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/well-known/apache-kafka-security.txt
+  href: https://artifacts.apis.io/apache-kafka/well-known/apache-kafka-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/apache-kafka-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/errors/apache-kafka-error-codes.yml
+  href: https://artifacts.apis.io/apache-kafka/errors/apache-kafka-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/apache-kafka-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/lifecycle/apache-kafka-lifecycle.yml
+  href: https://artifacts.apis.io/apache-kafka/lifecycle/apache-kafka-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apache-kafka-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/changelog/apache-kafka-changelog.yml
+  href: https://artifacts.apis.io/apache-kafka/changelog/apache-kafka-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/apache-kafka-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/conventions/apache-kafka-conventions.yml
+  href: https://artifacts.apis.io/apache-kafka/conventions/apache-kafka-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apache-kafka-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/data-model/apache-kafka-data-model.yml
+  href: https://artifacts.apis.io/apache-kafka/data-model/apache-kafka-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apache-kafka-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/conformance/apache-kafka-conformance.yml
+  href: https://artifacts.apis.io/apache-kafka/conformance/apache-kafka-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apache-kafka-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/security/apache-kafka-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-kafka/security/apache-kafka-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-kafka-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/security/apache-kafka-domain-security.yml
+  href: https://artifacts.apis.io/apache-kafka/security/apache-kafka-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-kafka-domain-security.yml
@@ -421,72 +425,72 @@ common:
   type: Versioning
   url: https://kafka.apache.org/downloads
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/rules/apache-kafka-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-kafka/rules/apache-kafka-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-kafka-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/vocabulary/apache-kafka-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-kafka/vocabulary/apache-kafka-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-kafka-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-connector-validate-deploy-workflow.yml
+  href: https://artifacts.apis.io/apache-kafka/arazzo/apache-kafka-connector-validate-deploy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-connector-validate-deploy-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-connector-health-triage-workflow.yml
+  href: https://artifacts.apis.io/apache-kafka/arazzo/apache-kafka-connector-health-triage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-connector-health-triage-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-connector-config-update-workflow.yml
+  href: https://artifacts.apis.io/apache-kafka/arazzo/apache-kafka-connector-config-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-connector-config-update-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-connector-maintenance-pause-resume-workflow.yml
+  href: https://artifacts.apis.io/apache-kafka/arazzo/apache-kafka-connector-maintenance-pause-resume-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-connector-maintenance-pause-resume-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-connector-offset-rewind-workflow.yml
+  href: https://artifacts.apis.io/apache-kafka/arazzo/apache-kafka-connector-offset-rewind-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-connector-offset-rewind-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-connector-offset-reset-workflow.yml
+  href: https://artifacts.apis.io/apache-kafka/arazzo/apache-kafka-connector-offset-reset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-connector-offset-reset-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-connector-decommission-workflow.yml
+  href: https://artifacts.apis.io/apache-kafka/arazzo/apache-kafka-connector-decommission-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-connector-decommission-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-topic-provision-produce-workflow.yml
+  href: https://artifacts.apis.io/apache-kafka/arazzo/apache-kafka-topic-provision-produce-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-topic-provision-produce-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-topic-capacity-review-workflow.yml
+  href: https://artifacts.apis.io/apache-kafka/arazzo/apache-kafka-topic-capacity-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-topic-capacity-review-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-consumer-group-lag-review-workflow.yml
+  href: https://artifacts.apis.io/apache-kafka/arazzo/apache-kafka-consumer-group-lag-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-consumer-group-lag-review-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-topic-acl-grant-workflow.yml
+  href: https://artifacts.apis.io/apache-kafka/arazzo/apache-kafka-topic-acl-grant-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-topic-acl-grant-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/arazzo/apache-kafka-topic-decommission-workflow.yml
+  href: https://artifacts.apis.io/apache-kafka/arazzo/apache-kafka-topic-decommission-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/apache-kafka-topic-decommission-workflow.yml
@@ -567,7 +571,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Kafka Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-kafka-finops
   template: true
@@ -786,12 +790,12 @@ overview: 'Apache Kafka publishes 16 API contracts indexed on the [APIs.io](http
   The Apache Kafka catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 6 JSON-LD contexts, and 4 Spectral governance rulesets.
 
 
-  Apache Kafka''s developer surface includes CLI, changelog, documentation, getting-started guide, engineering blog, and 56 more developer resources.'
+  Apache Kafka''s developer surface includes CLI, changelog, documentation, getting-started guide, engineering blog, and 57 more developer resources.'
 plans:
 - name: Apache Kafka Plans Pricing
   plan_count: 3
   slug: apache-kafka-plans-pricing
-random_paper: 21
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Apache Kafka Rate Limits
@@ -846,26 +850,23 @@ rules:
   slug: apache-kafka-spectral-rules
 score:
   band: developing
-  composite: 47.7
+  composite: 42.6
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 32
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 31.8
     contract_quality: 59.3
     developer_ergonomics: 38.1
-    discoverability: 63.3
-    operational_transparency: 44.7
-  open_source:
-    applies: true
-    score: 75.0
-  previous_composite: 45.4
+    discoverability: 56.7
+    operational_transparency: 47.4
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -881,13 +882,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/screenshots/apache-kafka-2026-06-20T172115.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-kafka/apache-kafka-2026-06-20T172115.png
 security:
 - kind: domain-security
   name: Apache Kafka Domain Security

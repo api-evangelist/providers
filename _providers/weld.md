@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.0
-  scored_at: '2026-10-17'
+  score: 47.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 32
@@ -110,11 +112,8 @@ apis:
   description: The Transforms API from Weld — 11 operation(s) for transforms.
   name: Weld Transforms API
   slug: weld-transforms-api
-artifact_total: 32
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Weld REST Connection Bridge API
   slug: open-weld-connection-bridge-api
@@ -155,53 +154,58 @@ collections:
   name: Weld REST Connection Bridge Transforms API
   slug: open-weld-transforms-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/weld/plans/weld-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/weld-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/capabilities/weld-capability-edges.yml
+  href: https://artifacts.apis.io/weld/capabilities/weld-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/weld-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/security/weld-trust-center.yml
+  href: https://artifacts.apis.io/weld/security/weld-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/weld-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/security/weld-domain-security.yml
+  href: https://artifacts.apis.io/weld/security/weld-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/weld-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/agentic-access/weld-agentic-access.yml
+  href: https://artifacts.apis.io/weld/agentic-access/weld-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/weld-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/authentication/weld-authentication.yml
+  href: https://artifacts.apis.io/weld/authentication/weld-authentication.yml
   title: ''
   type: Authentication
   url: authentication/weld-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/mcp/weld-mcp.yml
+  href: https://artifacts.apis.io/weld/mcp/weld-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/weld-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/conventions/weld-conventions.yml
+  href: https://artifacts.apis.io/weld/conventions/weld-conventions.yml
   title: ''
   type: Conventions
   url: conventions/weld-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/errors/weld-problem-types.yml
+  href: https://artifacts.apis.io/weld/errors/weld-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/weld-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/lifecycle/weld-lifecycle.yml
+  href: https://artifacts.apis.io/weld/lifecycle/weld-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/weld-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/conformance/weld-conformance.yml
+  href: https://artifacts.apis.io/weld/conformance/weld-conformance.yml
   title: ''
   type: Conformance
   url: conformance/weld-conformance.yml
@@ -210,27 +214,27 @@ common:
   type: Compliance
   url: https://weld.app/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/data-model/weld-data-model.yml
+  href: https://artifacts.apis.io/weld/data-model/weld-data-model.yml
   title: ''
   type: DataModel
   url: data-model/weld-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/weld/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/overlays/weld-connect-overlay.yaml
+  href: https://artifacts.apis.io/weld/overlays/weld-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/weld-connect-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/llms/weld-llms.txt
+  href: https://artifacts.apis.io/weld/llms/weld-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/weld-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/well-known/weld-well-known.yml
+  href: https://artifacts.apis.io/weld/well-known/weld-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/weld-well-known.yml
@@ -288,6 +292,14 @@ common:
   url: https://weld.app
 created: '2026-07-17'
 description: Weld is a programmable data-infrastructure platform for moving and transforming data. It runs near real-time ELT/ETL pipelines from 300+ prebuilt connectors, log-based Change Data Capture (CDC), SQL-based data transformations with lineage and version history, and Reverse ETL to activate modeled data back into operational tools. The Weld Connect REST API and a hosted Model Context Protocol (MCP) server let developers and AI agents create connections, run and monitor ELT syncs, build and publish transforms, and orchestrate pipelines programmatically. Weld is a Copenhagen-based company backed by a16z and other leading investors.
+finops:
+- has_sources: true
+  method: derived
+  name: Weld Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: weld-finops
+  template: false
 image: https://weld.app/opengraph-image.png
 layout: provider
 mcp_servers:
@@ -301,25 +313,32 @@ network: true
 overview: 'Weld publishes 13 API contracts indexed on the [APIs.io](https://apis.io/) network, including Connection Bridge API, Connections API, Custom Reports API, and 10 more. Tagged areas include Company, Data, ETL, ELT, and Reverse ETL.
 
 
-  Weld''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 22 more developer resources.'
-random_paper: 10
+  Weld''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 23 more developer resources.'
+plans:
+- name: Weld Plans Pricing
+  plan_count: 4
+  slug: weld-plans-pricing
+- name: Weld Price Estimates
+  plan_count: 0
+  slug: weld-price-estimates
+random_paper: 20
 score:
-  band: developing
-  composite: 45.4
+  band: strong
+  composite: 54.9
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 47.4
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 50.5
+    contract_quality: 47.4
     developer_ergonomics: 58.9
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -329,7 +348,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 45.3
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -350,13 +369,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/screenshots/weld-2026-08-17T082909.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/weld/weld-2026-08-17T082909.png
 security:
 - kind: authentication
   name: Weld Authentication
@@ -370,6 +390,14 @@ security:
   name: Weld Trust Center
   slug: weld-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 3
+skills:
+- name: Activate a Weld Reverse ETL sync
+  slug: weld-activate-reverse-etl-sync
+- name: Build and publish a Weld SQL transform
+  slug: weld-build-and-publish-transform
+- name: Run and monitor a Weld ELT sync
+  slug: weld-run-and-monitor-elt-sync
 slug: weld
 tags:
 - Company

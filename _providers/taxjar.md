@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -120,9 +122,6 @@ collections:
   name: TaxJar Sales Tax Categories Validations API
   slug: postman-taxjar-validations-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: TaxJar Sales Tax Categories API
   slug: open-taxjar-categories-api
 - collection_type: open
@@ -151,7 +150,7 @@ collections:
   slug: open-taxjar-validations-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/capabilities/taxjar-capability-edges.yml
+  href: https://artifacts.apis.io/taxjar/capabilities/taxjar-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/taxjar-capability-edges.yml
@@ -160,22 +159,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/taxjar/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/agentic-access/taxjar-agentic-access.yml
+  href: https://artifacts.apis.io/taxjar/agentic-access/taxjar-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/taxjar-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/security/taxjar-trust-center.yml
+  href: https://artifacts.apis.io/taxjar/security/taxjar-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/taxjar-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/security/taxjar-domain-security.yml
+  href: https://artifacts.apis.io/taxjar/security/taxjar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/taxjar-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/authentication/taxjar-authentication.yml
+  href: https://artifacts.apis.io/taxjar/authentication/taxjar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/taxjar-authentication.yml
@@ -224,32 +223,32 @@ common:
   type: Signup
   url: https://app.taxjar.com/api_sign_up/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/plans/taxjar-plans-pricing.yml
+  href: https://artifacts.apis.io/taxjar/plans/taxjar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/taxjar-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/rate-limits/taxjar-rate-limits.yml
+  href: https://artifacts.apis.io/taxjar/rate-limits/taxjar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/taxjar-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/finops/taxjar-finops.yml
+  href: https://artifacts.apis.io/taxjar/finops/taxjar-finops.yml
   title: ''
   type: FinOps
   url: finops/taxjar-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/vocabulary/taxjar-vocabulary.yml
+  href: https://artifacts.apis.io/taxjar/vocabulary/taxjar-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/taxjar-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/json-ld/taxjar-context.jsonld
+  href: https://artifacts.apis.io/taxjar/json-ld/taxjar-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/taxjar-context.jsonld
 - group: company
-  href: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/taxjar/blogs/blogs.json
   title: ''
   type: BlogFeed
   url: blogs/blogs.json
@@ -266,13 +265,13 @@ examples:
   name: Create Order Request
   slug: create-order-request
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Taxjar Finops
-  primary_unit: ''
+  primary_unit: 200 orders / mo
   service_category: ''
   slug: taxjar-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/taxjar.png
 json_schemas:
 - name: TaxJar Order Transaction
@@ -302,7 +301,10 @@ plans:
 - name: Taxjar Plans Pricing
   plan_count: 2
   slug: taxjar-plans-pricing
-random_paper: 12
+- name: Taxjar Price Estimates
+  plan_count: 0
+  slug: taxjar-price-estimates
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Taxjar Rate Limits
@@ -321,23 +323,23 @@ rules:
   slug: taxjar-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.6
+  composite: 50.9
   coverage:
     artifact_dirs: 19
-    catalog_earned: 68.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.3
+    catalog_earned: 77.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 1.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 60.5
     contract_governance: 23.5
-    contract_quality: 68.2
-    developer_ergonomics: 36.9
+    contract_quality: 64.8
+    developer_ergonomics: 44.0
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 50.6
+    operational_transparency: 26.3
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -351,13 +353,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/screenshots/taxjar-2026-06-20T194935.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/taxjar/taxjar-2026-06-20T194935.png
 security:
 - kind: authentication
   name: Taxjar Authentication

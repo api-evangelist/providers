@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -81,7 +83,7 @@ common:
   type: ChangeLog
   url: https://community.instructure.com/en/categories/learnplatform-release-notes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/learnplatform/refs/heads/main/changelog/learnplatform-changelog.yml
+  href: https://artifacts.apis.io/learnplatform/changelog/learnplatform-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/learnplatform-changelog.yml
@@ -94,7 +96,7 @@ common:
   type: Deprecation
   url: https://community.instructure.com/en/kb/articles/664261
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/learnplatform/refs/heads/main/lifecycle/learnplatform-lifecycle.yml
+  href: https://artifacts.apis.io/learnplatform/lifecycle/learnplatform-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/learnplatform-lifecycle.yml
@@ -103,7 +105,7 @@ common:
   type: Security
   url: https://www.instructure.com/trust-center/vulnerability-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/learnplatform/refs/heads/main/security/learnplatform-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/learnplatform/security/learnplatform-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/learnplatform-vulnerability-disclosure.yml
@@ -116,27 +118,27 @@ common:
   type: Compliance
   url: https://www.instructure.com/trust-center/compliance
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/learnplatform/refs/heads/main/conformance/learnplatform-conformance.yml
+  href: https://artifacts.apis.io/learnplatform/conformance/learnplatform-conformance.yml
   title: ''
   type: Conformance
   url: conformance/learnplatform-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/learnplatform/refs/heads/main/security/learnplatform-domain-security.yml
+  href: https://artifacts.apis.io/learnplatform/security/learnplatform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/learnplatform-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/learnplatform/refs/heads/main/well-known/learnplatform-security.txt
+  href: https://artifacts.apis.io/learnplatform/well-known/learnplatform-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/learnplatform-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/learnplatform/refs/heads/main/well-known/learnplatform-well-known.yml
+  href: https://artifacts.apis.io/learnplatform/well-known/learnplatform-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/learnplatform-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/learnplatform/refs/heads/main/llms/learnplatform-llms.txt
+  href: https://artifacts.apis.io/learnplatform/llms/learnplatform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/learnplatform-llms.txt
@@ -153,10 +155,10 @@ overview: 'LearnPlatform is profiled on the [APIs.io](https://apis.io/) network.
 
 
   LearnPlatform''s developer surface includes developer portal, documentation, support, engineering blog, signup flow, changelog, and 18 more developer resources.'
-random_paper: 13
+random_paper: 7
 score:
   band: thin
-  composite: 31.8
+  composite: 31.1
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -170,9 +172,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 55.3
-  previous_composite: 31.8
+  previous_composite: 31.1
   provenance:
     conformance: first-party
   regulatory:
@@ -181,14 +183,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/learnplatform/refs/heads/main/screenshots/learnplatform-2026-07-25T224800.png
+screenshot: https://apis.io/screenshots/learnplatform/learnplatform-2026-07-25T224800.png
 security:
 - kind: domain-security
   name: Learnplatform Domain Security

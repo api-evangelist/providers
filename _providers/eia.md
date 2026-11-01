@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: documented
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.0
-  scored_at: '2026-10-17'
+  score: 27.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -128,24 +130,29 @@ apis:
   description: Access to Total Energy Data
   name: EIA TOTAL API
   slug: eia-total-api
-artifact_total: 24
+artifact_total: 27
 collections:
 - collection_type: open
   name: EIA APIv2
   slug: open-eia-api-v2
 common:
+- group: other
+  href: https://artifacts.apis.io/eia/capabilities/eia-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/eia-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/agentic-access/eia-agentic-access.yml
+  href: https://artifacts.apis.io/eia/agentic-access/eia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eia-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/security/eia-domain-security.yml
+  href: https://artifacts.apis.io/eia/security/eia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eia-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/authentication/eia-authentication.yml
+  href: https://artifacts.apis.io/eia/authentication/eia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eia-authentication.yml
@@ -234,47 +241,47 @@ common:
   type: Copyright
   url: https://www.eia.gov/about/copyrights_reuse.php
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/packages/eia-packages.yml
+  href: https://artifacts.apis.io/eia/packages/eia-packages.yml
   title: ''
   type: Packages
   url: packages/eia-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/well-known/eia-well-known.yml
+  href: https://artifacts.apis.io/eia/well-known/eia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/eia-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/mcp/eia-mcp.yml
+  href: https://artifacts.apis.io/eia/mcp/eia-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/eia-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/mcp/eia-tool-crosswalk.yml
+  href: https://artifacts.apis.io/eia/mcp/eia-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/eia-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/llms/eia-llms.txt
+  href: https://artifacts.apis.io/eia/llms/eia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eia-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/overlays/eia-api-v2-overlay.yaml
+  href: https://artifacts.apis.io/eia/overlays/eia-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eia-api-v2-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/conformance/eia-conformance.yml
+  href: https://artifacts.apis.io/eia/conformance/eia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/errors/eia-problem-types.yml
+  href: https://artifacts.apis.io/eia/errors/eia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eia-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/lifecycle/eia-lifecycle.yml
+  href: https://artifacts.apis.io/eia/lifecycle/eia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eia-lifecycle.yml
@@ -283,7 +290,7 @@ common:
   type: Deprecation
   url: https://www.eia.gov/opendata/faqs.php
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/conventions/eia-conventions.yml
+  href: https://artifacts.apis.io/eia/conventions/eia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eia-conventions.yml
@@ -292,32 +299,32 @@ common:
   type: ChangeLog
   url: https://www.eia.gov/opendata/documentation.php
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/changelog/eia-changelog.yml
+  href: https://artifacts.apis.io/eia/changelog/eia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/eia-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/components/eia-components.yml
+  href: https://artifacts.apis.io/eia/components/eia-components.yml
   title: ''
   type: Components
   url: components/eia-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/data-model/eia-data-model.yml
+  href: https://artifacts.apis.io/eia/data-model/eia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eia-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/examples/eia-api-v2-examples.yml
+  href: https://artifacts.apis.io/eia/examples/eia-api-v2-examples.yml
   title: ''
   type: Examples
   url: examples/eia-api-v2-examples.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/rate-limits/eia-rate-limits.yml
+  href: https://artifacts.apis.io/eia/rate-limits/eia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eia-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/security/eia-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/eia/security/eia-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/eia-vulnerability-disclosure.yml
@@ -326,7 +333,7 @@ common:
   type: Security
   url: https://www.energy.gov/cio/articles/vulnerability-disclosure-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/eia/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -351,17 +358,17 @@ network: true
 overview: 'EIA publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including AEO API, COAL API, CRUD IMPORTS API, and 14 more. Tagged areas include Energy, United States, Energy Markets, Electricity, and Natural Gas.
 
 
-  EIA''s developer surface includes authentication, developer portal, documentation, signup flow, developer console, tooling, API reference, and 37 more developer resources.'
-random_paper: 17
+  EIA''s developer surface includes authentication, developer portal, documentation, signup flow, developer console, tooling, API reference, and 38 more developer resources.'
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Eia Rate Limits
   slug: eia-rate-limits
 score:
   band: developing
-  composite: 48.2
+  composite: 48.6
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -373,8 +380,8 @@ score:
     contract_governance: 4.5
     contract_quality: 47.1
     developer_ergonomics: 66.1
-    discoverability: 71.7
-    operational_transparency: 57.9
+    discoverability: 65.0
+    operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -382,7 +389,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 48.2
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -399,13 +406,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 25.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/screenshots/eia-2026-08-07T164749.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/eia/eia-2026-08-07T164749.png
 security:
 - kind: authentication
   name: Eia Authentication
@@ -419,6 +427,14 @@ security:
   name: Eia Vulnerability Disclosure
   slug: eia-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Bulk-download EIA datasets without an API key
+  slug: eia-bulk-download
+- name: Discover and query an EIA dataset
+  slug: eia-discover-and-query-a-dataset
+- name: Pull hourly grid operating data from EIA
+  slug: eia-hourly-grid-operating-data
 slug: eia
 tags:
 - Energy

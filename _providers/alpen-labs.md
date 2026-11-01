@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Alpen''s public JSON-RPC interface exposed by the full node and bundler on the Alpen Testnet (chain ID 8150, Signet BTC). Supports standard Ethereum eth_* methods, twenty-five Strata-specific strata_* '
@@ -77,42 +79,42 @@ common:
   type: Security
   url: https://docs.alpenlabs.io/community/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alpen-labs/refs/heads/main/llms/alpen-labs-llms.txt
+  href: https://artifacts.apis.io/alpen-labs/llms/alpen-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alpen-labs-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alpen-labs/refs/heads/main/well-known/alpen-labs-well-known.yml
+  href: https://artifacts.apis.io/alpen-labs/well-known/alpen-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alpen-labs-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alpen-labs/refs/heads/main/well-known/alpen-labs-security.txt
+  href: https://artifacts.apis.io/alpen-labs/well-known/alpen-labs-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/alpen-labs-security.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alpen-labs/refs/heads/main/cli/alpen-labs-cli.yml
+  href: https://artifacts.apis.io/alpen-labs/cli/alpen-labs-cli.yml
   title: ''
   type: CLI
   url: cli/alpen-labs-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/alpen-labs/refs/heads/main/sandbox/alpen-labs-sandbox.yml
+  href: https://artifacts.apis.io/alpen-labs/sandbox/alpen-labs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/alpen-labs-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alpen-labs/refs/heads/main/conformance/alpen-labs-conformance.yml
+  href: https://artifacts.apis.io/alpen-labs/conformance/alpen-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alpen-labs-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alpen-labs/refs/heads/main/security/alpen-labs-domain-security.yml
+  href: https://artifacts.apis.io/alpen-labs/security/alpen-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alpen-labs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alpen-labs/refs/heads/main/security/alpen-labs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/alpen-labs/security/alpen-labs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/alpen-labs-vulnerability-disclosure.yml
@@ -128,26 +130,26 @@ overview: 'Alpen Labs is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Alpen Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, sandbox, and 10 more developer resources.'
-random_paper: 1
+random_paper: 7
 score:
   band: emerging
-  composite: 23.4
+  composite: 23.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 23.3
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 23.0
   provenance:
     conformance: first-party
   regulatory:
@@ -156,14 +158,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alpen-labs/refs/heads/main/screenshots/alpen-labs-2026-07-25T195749.png
+screenshot: https://apis.io/screenshots/alpen-labs/alpen-labs-2026-07-25T195749.png
 security:
 - kind: domain-security
   name: Alpen Labs Domain Security

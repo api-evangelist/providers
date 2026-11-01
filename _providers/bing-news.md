@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 3
   slug: bing-news-agentic-access
   summary_line: 3 operations
-api_count: 2
+api_count: 1
 apis:
 - description: Returns top news articles filtered by category (e.g., Business, Entertainment, Sports, Health, ScienceAndTechnology, Politics, World). Supports multiple markets with locale-specific category taxonomie
   name: Bing News Category API
@@ -66,7 +68,7 @@ apis:
   description: Get currently trending news topics from social networks
   name: Bing News Search Trending Topics API
   slug: bing-news-trending-topics-api
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: postman
   name: Bing News Search API v7 News Category API
@@ -78,9 +80,6 @@ collections:
   name: Bing News Search API v7 News Category Trending Topics API
   slug: postman-bing-news-trending-topics-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Bing News Search API v7 News Category API
   slug: open-bing-news-news-category-api
 - collection_type: open
@@ -91,17 +90,17 @@ collections:
   slug: open-bing-news-trending-topics-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/plans/bing-news-plans-pricing.yml
+  href: https://artifacts.apis.io/bing-news/plans/bing-news-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bing-news-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/rate-limits/bing-news-rate-limits.yml
+  href: https://artifacts.apis.io/bing-news/rate-limits/bing-news-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bing-news-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/finops/bing-news-finops.yml
+  href: https://artifacts.apis.io/bing-news/finops/bing-news-finops.yml
   title: ''
   type: FinOps
   url: finops/bing-news-finops.yml
@@ -110,17 +109,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/bing-news-search/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/agentic-access/bing-news-agentic-access.yml
+  href: https://artifacts.apis.io/bing-news/agentic-access/bing-news-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bing-news-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/security/bing-news-domain-security.yml
+  href: https://artifacts.apis.io/bing-news/security/bing-news-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bing-news-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/authentication/bing-news-authentication.yml
+  href: https://artifacts.apis.io/bing-news/authentication/bing-news-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bing-news-authentication.yml
@@ -188,7 +187,7 @@ finops:
 - has_sources: false
   method: generated
   name: Bing News Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: bing-news-finops
   template: true
@@ -216,7 +215,7 @@ plans:
 - name: Bing News Plans Pricing
   plan_count: 2
   slug: bing-news-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Bing News Rate Limits
@@ -266,14 +265,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/screenshots/bing-news-2026-06-20T173246.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bing-news/bing-news-2026-06-20T173246.png
 security:
 - kind: authentication
   name: Bing News Authentication

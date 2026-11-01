@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 11
   slug: subspace-agentic-access
   summary_line: 11 operations · 7 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.subspace.com/v1
   baseurl_source: declared
@@ -58,11 +60,8 @@ apis:
   description: The WebRtcCdnService API from Subspace — 1 operation(s) for webrtccdnservice.
   name: Subspace WebRtcCdnService API
   slug: subspace-webrtccdnservice-api
-artifact_total: 12
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Subspace Product AcceleratorService API
   slug: open-subspace-acceleratorservice-api
@@ -74,7 +73,7 @@ collections:
   slug: open-subspace-webrtccdnservice-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/overlays/subspace-openapi-overlay.yaml
+  href: https://artifacts.apis.io/subspace/overlays/subspace-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/subspace-openapi-overlay.yaml
@@ -111,82 +110,82 @@ common:
   type: GitHubOrganization
   url: https://github.com/subspace-com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/llms/subspace-llms.txt
+  href: https://artifacts.apis.io/subspace/llms/subspace-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/subspace-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/packages/subspace-packages.yml
+  href: https://artifacts.apis.io/subspace/packages/subspace-packages.yml
   title: ''
   type: Packages
   url: packages/subspace-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/packages/subspace-packages.yml
+  href: https://artifacts.apis.io/subspace/packages/subspace-packages.yml
   title: ''
   type: SDKs
   url: packages/subspace-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/mcp/subspace-mcp.yml
+  href: https://artifacts.apis.io/subspace/mcp/subspace-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/subspace-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/subspace/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/conventions/subspace-conventions.yml
+  href: https://artifacts.apis.io/subspace/conventions/subspace-conventions.yml
   title: ''
   type: Conventions
   url: conventions/subspace-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/data-model/subspace-data-model.yml
+  href: https://artifacts.apis.io/subspace/data-model/subspace-data-model.yml
   title: ''
   type: DataModel
   url: data-model/subspace-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/errors/subspace-problem-types.yml
+  href: https://artifacts.apis.io/subspace/errors/subspace-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/subspace-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/lifecycle/subspace-lifecycle.yml
+  href: https://artifacts.apis.io/subspace/lifecycle/subspace-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/subspace-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/conformance/subspace-conformance.yml
+  href: https://artifacts.apis.io/subspace/conformance/subspace-conformance.yml
   title: ''
   type: Conformance
   url: conformance/subspace-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/authentication/subspace-authentication.yml
+  href: https://artifacts.apis.io/subspace/authentication/subspace-authentication.yml
   title: ''
   type: Authentication
   url: authentication/subspace-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/scopes/subspace-scopes.yml
+  href: https://artifacts.apis.io/subspace/scopes/subspace-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/subspace-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/agentic-access/subspace-agentic-access.yml
+  href: https://artifacts.apis.io/subspace/agentic-access/subspace-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/subspace-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/security/subspace-domain-security.yml
+  href: https://artifacts.apis.io/subspace/security/subspace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/subspace-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/security/subspace-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/subspace/security/subspace-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/subspace-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/well-known/subspace-well-known.yml
+  href: https://artifacts.apis.io/subspace/well-known/subspace-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/subspace-well-known.yml
@@ -202,7 +201,7 @@ overview: 'Subspace publishes 3 API contracts indexed on the [APIs.io](https://a
 
 
   Subspace''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 18
+random_paper: 14
 scopes:
 - name: Subspace Scopes
   scope_count: 9
@@ -212,7 +211,7 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -244,13 +243,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/screenshots/subspace-2026-09-02T161100.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/subspace/subspace-2026-09-02T161100.png
 security:
 - kind: authentication
   name: Subspace Authentication
@@ -264,6 +264,12 @@ security:
   name: Subspace Vulnerability Disclosure
   slug: subspace-vulnerability-disclosure
   summary_line: Bugcrowd
+skill_count: 2
+skills:
+- name: Provision a PacketAccelerator
+  slug: subspace-provision-packet-accelerator
+- name: Provision a SIPTeleport
+  slug: subspace-provision-sipteleport
 slug: subspace
 tags:
 - Company

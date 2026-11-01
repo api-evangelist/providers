@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/verbal/refs/heads/main/plans/verbal-plans-pricing.yml
+  href: https://artifacts.apis.io/verbal/plans/verbal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/verbal-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/verbal/refs/heads/main/rate-limits/verbal-rate-limits.yml
+  href: https://artifacts.apis.io/verbal/rate-limits/verbal-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/verbal-rate-limits.yml
@@ -71,7 +73,7 @@ common:
   type: TermsOfService
   url: https://tryverbal.com/terms-and-conditions
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verbal/refs/heads/main/security/verbal-domain-security.yml
+  href: https://artifacts.apis.io/verbal/security/verbal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/verbal-domain-security.yml
@@ -84,12 +86,12 @@ common:
   type: Compliance
   url: https://www.tryverbal.com/features/secure-hipaa-compliant
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verbal/refs/heads/main/conformance/verbal-conformance.yml
+  href: https://artifacts.apis.io/verbal/conformance/verbal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/verbal-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verbal/refs/heads/main/llms/verbal-llms.txt
+  href: https://artifacts.apis.io/verbal/llms/verbal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/verbal-llms.txt
@@ -124,14 +126,14 @@ plans:
 - name: Verbal Plans Pricing
   plan_count: 0
   slug: verbal-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Verbal Rate Limits
   slug: verbal-rate-limits
 score:
   band: emerging
-  composite: 17.8
+  composite: 17.4
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -139,15 +141,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 17.7
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 17.4
   provenance:
     conformance: first-party
   regulatory:
@@ -164,14 +166,14 @@ score:
     regime: Health
     regime_id: health
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/verbal/refs/heads/main/screenshots/verbal-2026-10-11T193258.png
+screenshot: https://apis.io/screenshots/verbal/verbal-2026-10-11T193258.png
 security:
 - kind: domain-security
   name: Verbal Domain Security

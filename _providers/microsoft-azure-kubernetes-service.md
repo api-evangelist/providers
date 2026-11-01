@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 28.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 3
@@ -152,14 +154,11 @@ arazzos:
 - description: Discover the latest node image, trigger the node image upgrade, and poll until complete.
   name: Azure Kubernetes Service Upgrade Node Pool Image
   slug: azure-kubernetes-service-upgrade-node-image-workflow
-artifact_total: 262
+artifact_total: 261
 collections:
 - collection_type: postman
   name: Azure Kubernetes Service REST API
   slug: postman-azure-kubernetes-service
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Kubernetes Service REST API
   slug: open-azure-kubernetes-service
@@ -171,22 +170,22 @@ collections:
   slug: open-microsoft-azure-kubernetes-service-managed-clusters-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/plans/azure-kubernetes-service-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/plans/azure-kubernetes-service-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/azure-kubernetes-service-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/rate-limits/azure-kubernetes-service-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/rate-limits/azure-kubernetes-service-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/azure-kubernetes-service-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/finops/azure-kubernetes-service-finops.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/finops/azure-kubernetes-service-finops.yml
   title: ''
   type: FinOps
   url: finops/azure-kubernetes-service-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/capabilities/microsoft-azure-kubernetes-service-capability-edges.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/capabilities/microsoft-azure-kubernetes-service-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-azure-kubernetes-service-capability-edges.yml
@@ -219,22 +218,22 @@ common:
   type: License
   url: https://github.com/Azure/AKS/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/agentic-access/microsoft-azure-kubernetes-service-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/agentic-access/microsoft-azure-kubernetes-service-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-azure-kubernetes-service-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/security/microsoft-azure-kubernetes-service-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/security/microsoft-azure-kubernetes-service-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-azure-kubernetes-service-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/authentication/microsoft-azure-kubernetes-service-authentication.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/authentication/microsoft-azure-kubernetes-service-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-azure-kubernetes-service-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/scopes/microsoft-azure-kubernetes-service-scopes.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/scopes/microsoft-azure-kubernetes-service-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-azure-kubernetes-service-scopes.yml
@@ -243,52 +242,52 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/azure-kubernetes-service/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/arazzo/azure-kubernetes-service-add-node-pool-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/arazzo/azure-kubernetes-service-add-node-pool-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-kubernetes-service-add-node-pool-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/arazzo/azure-kubernetes-service-delete-machines-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/arazzo/azure-kubernetes-service-delete-machines-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-kubernetes-service-delete-machines-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/arazzo/azure-kubernetes-service-provision-cluster-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/arazzo/azure-kubernetes-service-provision-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-kubernetes-service-provision-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/arazzo/azure-kubernetes-service-rotate-certificates-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/arazzo/azure-kubernetes-service-rotate-certificates-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-kubernetes-service-rotate-certificates-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/arazzo/azure-kubernetes-service-run-command-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/arazzo/azure-kubernetes-service-run-command-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-kubernetes-service-run-command-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/arazzo/azure-kubernetes-service-scale-node-pool-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/arazzo/azure-kubernetes-service-scale-node-pool-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-kubernetes-service-scale-node-pool-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/arazzo/azure-kubernetes-service-start-cluster-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/arazzo/azure-kubernetes-service-start-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-kubernetes-service-start-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/arazzo/azure-kubernetes-service-stop-cluster-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/arazzo/azure-kubernetes-service-stop-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-kubernetes-service-stop-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/arazzo/azure-kubernetes-service-upgrade-cluster-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/arazzo/azure-kubernetes-service-upgrade-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-kubernetes-service-upgrade-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/arazzo/azure-kubernetes-service-upgrade-node-image-workflow.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/arazzo/azure-kubernetes-service-upgrade-node-image-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/azure-kubernetes-service-upgrade-node-image-workflow.yml
@@ -377,7 +376,7 @@ common:
   type: YouTube
   url: https://www.youtube.com/c/MicrosoftAzure
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/rules/azure-kubernetes-service-spectral-rules.yml
+  href: https://artifacts.apis.io/microsoft-azure-kubernetes-service/rules/azure-kubernetes-service-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/azure-kubernetes-service-spectral-rules.yml
@@ -1071,12 +1070,12 @@ overview: 'Azure Kubernetes Service publishes 7 API contracts indexed on the [AP
   Azure Kubernetes Service''s developer surface includes authentication, developer portal, getting-started guide, CLI, support, engineering blog, Stack Overflow tag, and 41 more developer resources.'
 plans:
 - name: Azure Kubernetes Service Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: azure-kubernetes-service-plans-pricing
 - name: Microsoft Azure Kubernetes Service Plans Pricing
   plan_count: 3
   slug: microsoft-azure-kubernetes-service-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 16
   name: Azure Kubernetes Service Rate Limits
@@ -1126,26 +1125,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: exemplar
-  composite: 68.4
+  composite: 67.5
   coverage:
     artifact_dirs: 22
-    catalog_earned: 57.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.1
+    catalog_earned: 66.9
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.1
+  delta: 0.0
   facets:
-    access_clarity: 60.5
+    access_clarity: 84.2
     contract_governance: 13.6
     contract_quality: 57.9
     developer_ergonomics: 82.1
     discoverability: 73.2
     operational_transparency: 55.3
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 73.5
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1159,13 +1155,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/screenshots/microsoft-azure-kubernetes-service-2026-06-20T185419.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-azure-kubernetes-service/microsoft-azure-kubernetes-service-2026-06-20T185419.png
 security:
 - kind: authentication
   name: Microsoft Azure Kubernetes Service Authentication

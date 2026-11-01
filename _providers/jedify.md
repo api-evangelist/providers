@@ -24,22 +24,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.9
-  scored_at: '2026-10-17'
+  score: 9.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Asynchronous REST API for asking natural-language analytics questions against connected data. Create a session, submit an inquiry, then poll or long-poll for a grounded answer with generated SQL, stru
   name: Jedify Data Intelligence API
   slug: jedify-data-intelligence-api
-artifact_total: 4
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -86,57 +88,57 @@ common:
   type: ChangeLog
   url: https://docs.jedify.com/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/mcp/jedify-mcp.yml
+  href: https://artifacts.apis.io/jedify/mcp/jedify-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jedify-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/llms/jedify-llms.txt
+  href: https://artifacts.apis.io/jedify/llms/jedify-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jedify-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/authentication/jedify-authentication.yml
+  href: https://artifacts.apis.io/jedify/authentication/jedify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jedify-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/packages/jedify-packages.yml
+  href: https://artifacts.apis.io/jedify/packages/jedify-packages.yml
   title: ''
   type: Packages
   url: packages/jedify-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/conventions/jedify-conventions.yml
+  href: https://artifacts.apis.io/jedify/conventions/jedify-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jedify-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/errors/jedify-problem-types.yml
+  href: https://artifacts.apis.io/jedify/errors/jedify-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/jedify-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/data-model/jedify-data-model.yml
+  href: https://artifacts.apis.io/jedify/data-model/jedify-data-model.yml
   title: ''
   type: DataModel
   url: data-model/jedify-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/components/jedify-components.yml
+  href: https://artifacts.apis.io/jedify/components/jedify-components.yml
   title: ''
   type: Components
   url: components/jedify-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/jedify/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/changelog/jedify-changelog.yml
+  href: https://artifacts.apis.io/jedify/changelog/jedify-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/jedify-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/security/jedify-domain-security.yml
+  href: https://artifacts.apis.io/jedify/security/jedify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jedify-domain-security.yml
@@ -145,7 +147,7 @@ description: Jedify is an enterprise AI platform that fuses business context wit
 image: https://jedify.com/wp-content/uploads/logo01-1-1.svg
 layout: provider
 mcp_servers:
-- description: Remote MCP server at be.jedify.com over HTTP; 19 tools listed.
+- description: Remote MCP server at be.jedify.com over HTTP; 16 tools listed.
   name: Jedify MCP Server
   slug: jedify
 modified: '2026-10-06'
@@ -156,10 +158,10 @@ overview: 'Jedify is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Jedify''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, changelog, authentication, and 15 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: emerging
-  composite: 22.4
+  composite: 24.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -167,15 +169,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 54.2
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 15.8
-  previous_composite: 22.3
+  previous_composite: 24.0
   provenance:
     mcp: first-party
     skills: derived
@@ -185,14 +187,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jedify/refs/heads/main/screenshots/jedify-2026-07-25T223116.png
+screenshot: https://apis.io/screenshots/jedify/jedify-2026-07-25T223116.png
 security:
 - kind: authentication
   name: Jedify Authentication
@@ -202,6 +204,10 @@ security:
   name: Jedify Domain Security
   slug: jedify-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Ask Jedify a question and get the answer
+  slug: jedify-ask-a-question
 slug: jedify
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The H.B. Fuller Company API provides access to platform services and data for enterprise integration and automation.
@@ -42,17 +44,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/h-b-fuller/refs/heads/main/plans/h-b-fuller-plans-pricing.yml
+  href: https://artifacts.apis.io/h-b-fuller/plans/h-b-fuller-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/h-b-fuller-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/h-b-fuller/refs/heads/main/rate-limits/h-b-fuller-rate-limits.yml
+  href: https://artifacts.apis.io/h-b-fuller/rate-limits/h-b-fuller-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/h-b-fuller-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/h-b-fuller/refs/heads/main/finops/h-b-fuller-finops.yml
+  href: https://artifacts.apis.io/h-b-fuller/finops/h-b-fuller-finops.yml
   title: ''
   type: FinOps
   url: finops/h-b-fuller-finops.yml
@@ -61,7 +63,7 @@ common:
   type: Blog
   url: https://www.hbfuller.com/en/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/h-b-fuller/refs/heads/main/security/h-b-fuller-domain-security.yml
+  href: https://artifacts.apis.io/h-b-fuller/security/h-b-fuller-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/h-b-fuller-domain-security.yml
@@ -99,7 +101,7 @@ finops:
 - has_sources: true
   method: generated
   name: H B Fuller Finops
-  primary_unit: ''
+  primary_unit: partner-agreement
   service_category: Industrial / Manufacturer Partner API
   slug: h-b-fuller-finops
   template: false
@@ -133,44 +135,44 @@ press:
 - date: ''
   title: H. B. Fuller Company (FUL) reports earnings - Quartz
   url: https://qz.com/h-b-fuller-company-ful-reports-earnings-1851746632
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: H B Fuller Rate Limits
   slug: h-b-fuller-rate-limits
 score:
   band: minimal
-  composite: 9.3
+  composite: 10.9
   coverage:
     artifact_dirs: 10
-    catalog_earned: 36.0
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 1.5
   facets:
-    access_clarity: 5.3
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 65.2
+    discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 10.3
+  previous_composite: 9.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/h-b-fuller/refs/heads/main/screenshots/h-b-fuller-2026-06-20T182546.png
+screenshot: https://apis.io/screenshots/h-b-fuller/h-b-fuller-2026-06-20T182546.png
 security:
 - kind: domain-security
   name: H B Fuller Domain Security

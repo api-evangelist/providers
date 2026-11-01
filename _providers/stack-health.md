@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -61,22 +63,22 @@ common:
   type: Compliance
   url: https://trust.stackhealthcare.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stack-health/refs/heads/main/well-known/stack-health-security.txt
+  href: https://artifacts.apis.io/stack-health/well-known/stack-health-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/stack-health-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stack-health/refs/heads/main/well-known/stack-health-well-known.yml
+  href: https://artifacts.apis.io/stack-health/well-known/stack-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stack-health-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stack-health/refs/heads/main/security/stack-health-domain-security.yml
+  href: https://artifacts.apis.io/stack-health/security/stack-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stack-health-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stack-health/refs/heads/main/security/stack-health-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/stack-health/security/stack-health-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/stack-health-vulnerability-disclosure.yml
@@ -96,10 +98,10 @@ overview: 'Stack Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Stack Health''s developer surface includes signup flow and 10 more developer resources.'
-random_paper: 21
+random_paper: 9
 score:
   band: emerging
-  composite: 16.3
+  composite: 17.0
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -114,22 +116,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 48.2
-    operational_transparency: 5.3
-  previous_composite: 16.3
+    operational_transparency: 10.5
+  previous_composite: 17.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/stack-health/refs/heads/main/screenshots/stack-health-2026-09-02T160714.png
+screenshot: https://apis.io/screenshots/stack-health/stack-health-2026-09-02T160714.png
 security:
 - kind: domain-security
   name: Stack Health Domain Security

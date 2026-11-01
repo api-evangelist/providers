@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -123,12 +125,12 @@ common:
   type: AndroidApp
   url: https://play.google.com/store/apps/details?id=com.jerrym
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jerry/refs/heads/main/llms/jerry-llms.txt
+  href: https://artifacts.apis.io/jerry/llms/jerry-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jerry-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jerry/refs/heads/main/well-known/jerry-well-known.yml
+  href: https://artifacts.apis.io/jerry/well-known/jerry-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jerry-well-known.yml
@@ -137,32 +139,32 @@ common:
   type: ContentSignal
   url: https://jerry.ai/robots.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jerry/refs/heads/main/authentication/jerry-authentication.yml
+  href: https://artifacts.apis.io/jerry/authentication/jerry-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jerry-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jerry/refs/heads/main/conformance/jerry-conformance.yml
+  href: https://artifacts.apis.io/jerry/conformance/jerry-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jerry-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jerry/refs/heads/main/lifecycle/jerry-lifecycle.yml
+  href: https://artifacts.apis.io/jerry/lifecycle/jerry-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jerry-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jerry/refs/heads/main/security/jerry-domain-security.yml
+  href: https://artifacts.apis.io/jerry/security/jerry-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jerry-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jerry/refs/heads/main/security/jerry-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/jerry/security/jerry-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jerry-vulnerability-disclosure.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jerry/refs/heads/main/packages/jerry-packages.yml
+  href: https://artifacts.apis.io/jerry/packages/jerry-packages.yml
   title: ''
   type: Packages
   url: packages/jerry-packages.yml
@@ -179,12 +181,12 @@ overview: 'Jerry is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jerry''s developer surface includes support, engineering blog, product news, signup flow, authentication, and 25 more developer resources.'
-random_paper: 6
+random_paper: 4
 score:
   band: thin
-  composite: 26.8
+  composite: 27.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -196,9 +198,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 56.3
-    operational_transparency: 18.4
-  previous_composite: 26.8
+    discoverability: 50.0
+    operational_transparency: 31.6
+  previous_composite: 27.9
   provenance:
     conformance: first-party
   regulatory:
@@ -207,14 +209,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 35.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jerry/refs/heads/main/screenshots/jerry-2026-08-07T170957.png
+screenshot: https://apis.io/screenshots/jerry/jerry-2026-08-07T170957.png
 security:
 - kind: authentication
   name: Jerry Authentication

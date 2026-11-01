@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -130,11 +132,8 @@ arazzos:
 - description: Set a workspace variable to a value whether or not it already exists.
   name: Terraform Upsert a Workspace Variable
   slug: terraform-upsert-workspace-variable-workflow
-artifact_total: 51
+artifact_total: 50
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: HCP Terraform API
   slug: open-hcp-terraform
@@ -169,113 +168,117 @@ collections:
   name: HCP Terraform Modules Workspaces API
   slug: open-terraform-workspaces-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/terraform/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/plans/terraform-plans-pricing.yml
+  href: https://artifacts.apis.io/terraform/plans/terraform-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/terraform-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/rate-limits/terraform-rate-limits.yml
+  href: https://artifacts.apis.io/terraform/rate-limits/terraform-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/terraform-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/finops/terraform-finops.yml
+  href: https://artifacts.apis.io/terraform/finops/terraform-finops.yml
   title: ''
   type: FinOps
   url: finops/terraform-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/capabilities/terraform-capability-edges.yml
+  href: https://artifacts.apis.io/terraform/capabilities/terraform-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/terraform-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/agentic-access/terraform-agentic-access.yml
+  href: https://artifacts.apis.io/terraform/agentic-access/terraform-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/terraform-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/security/terraform-domain-security.yml
+  href: https://artifacts.apis.io/terraform/security/terraform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/terraform-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/authentication/terraform-authentication.yml
+  href: https://artifacts.apis.io/terraform/authentication/terraform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/terraform-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/packages/terraform-packages.yml
+  href: https://artifacts.apis.io/terraform/packages/terraform-packages.yml
   title: ''
   type: Packages
   url: packages/terraform-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/well-known/terraform-well-known.yml
+  href: https://artifacts.apis.io/terraform/well-known/terraform-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/terraform-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/mcp/terraform-mcp.yml
+  href: https://artifacts.apis.io/terraform/mcp/terraform-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/terraform-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/llms/terraform-llms.txt
+  href: https://artifacts.apis.io/terraform/llms/terraform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/terraform-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/overlays/terraform-hcp-terraform-overlay.yaml
+  href: https://artifacts.apis.io/terraform/overlays/terraform-hcp-terraform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/terraform-hcp-terraform-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/overlays/terraform-terraform-registry-overlay.yaml
+  href: https://artifacts.apis.io/terraform/overlays/terraform-terraform-registry-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/terraform-terraform-registry-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/conformance/terraform-conformance.yml
+  href: https://artifacts.apis.io/terraform/conformance/terraform-conformance.yml
   title: ''
   type: Conformance
   url: conformance/terraform-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/errors/terraform-problem-types.yml
+  href: https://artifacts.apis.io/terraform/errors/terraform-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/terraform-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/lifecycle/terraform-lifecycle.yml
+  href: https://artifacts.apis.io/terraform/lifecycle/terraform-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/terraform-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/conventions/terraform-conventions.yml
+  href: https://artifacts.apis.io/terraform/conventions/terraform-conventions.yml
   title: ''
   type: Conventions
   url: conventions/terraform-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/changelog/terraform-changelog.yml
+  href: https://artifacts.apis.io/terraform/changelog/terraform-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/terraform-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/cli/terraform-cli.yml
+  href: https://artifacts.apis.io/terraform/cli/terraform-cli.yml
   title: ''
   type: CLI
   url: cli/terraform-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/data-model/terraform-data-model.yml
+  href: https://artifacts.apis.io/terraform/data-model/terraform-data-model.yml
   title: ''
   type: DataModel
   url: data-model/terraform-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/security/terraform-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/terraform/security/terraform-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/terraform-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/security/terraform-trust-center.yml
+  href: https://artifacts.apis.io/terraform/security/terraform-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/terraform-trust-center.yml
@@ -320,67 +323,67 @@ common:
   type: Blog
   url: https://www.hashicorp.com/en/blog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-provision-workspace-workflow.yml
+  href: https://artifacts.apis.io/terraform/arazzo/terraform-provision-workspace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-provision-workspace-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-plan-and-apply-run-workflow.yml
+  href: https://artifacts.apis.io/terraform/arazzo/terraform-plan-and-apply-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-plan-and-apply-run-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-destroy-workspace-workflow.yml
+  href: https://artifacts.apis.io/terraform/arazzo/terraform-destroy-workspace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-destroy-workspace-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-upsert-workspace-variable-workflow.yml
+  href: https://artifacts.apis.io/terraform/arazzo/terraform-upsert-workspace-variable-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-upsert-workspace-variable-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-cancel-stuck-run-workflow.yml
+  href: https://artifacts.apis.io/terraform/arazzo/terraform-cancel-stuck-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-cancel-stuck-run-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-migrate-state-version-workflow.yml
+  href: https://artifacts.apis.io/terraform/arazzo/terraform-migrate-state-version-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-migrate-state-version-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-onboard-project-workflow.yml
+  href: https://artifacts.apis.io/terraform/arazzo/terraform-onboard-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-onboard-project-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-onboard-policy-workflow.yml
+  href: https://artifacts.apis.io/terraform/arazzo/terraform-onboard-policy-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-onboard-policy-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-onboard-team-workflow.yml
+  href: https://artifacts.apis.io/terraform/arazzo/terraform-onboard-team-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-onboard-team-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-audit-organization-inventory-workflow.yml
+  href: https://artifacts.apis.io/terraform/arazzo/terraform-audit-organization-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-audit-organization-inventory-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-discover-module-workflow.yml
+  href: https://artifacts.apis.io/terraform/arazzo/terraform-discover-module-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-discover-module-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-pin-module-version-workflow.yml
+  href: https://artifacts.apis.io/terraform/arazzo/terraform-pin-module-version-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-pin-module-version-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/arazzo/terraform-audit-namespace-modules-workflow.yml
+  href: https://artifacts.apis.io/terraform/arazzo/terraform-audit-namespace-modules-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/terraform-audit-namespace-modules-workflow.yml
@@ -397,7 +400,7 @@ finops:
 - has_sources: false
   method: generated
   name: Terraform Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: terraform-finops
   template: true
@@ -433,12 +436,12 @@ overview: 'Terraform publishes 9 API contracts indexed on the [APIs.io](https://
   The Terraform catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Terraform''s developer surface includes authentication, changelog, CLI, developer portal, engineering blog, and 40 more developer resources.'
+  Terraform''s developer surface includes authentication, changelog, CLI, developer portal, engineering blog, and 41 more developer resources.'
 plans:
 - name: Terraform Plans Pricing
   plan_count: 3
   slug: terraform-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Terraform Rate Limits
@@ -469,7 +472,7 @@ rules:
   slug: terraform-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.9
+  composite: 43.4
   coverage:
     artifact_dirs: 31
     catalog_earned: 55.5
@@ -477,15 +480,15 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.8
+  delta: 0.2
   facets:
     access_clarity: 15.8
     contract_governance: 18.2
-    contract_quality: 58.8
-    developer_ergonomics: 52.4
+    contract_quality: 55.4
+    developer_ergonomics: 53.6
     discoverability: 65.0
-    operational_transparency: 28.9
-  previous_composite: 47.7
+    operational_transparency: 39.5
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -501,13 +504,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/screenshots/terraform-2026-06-20T195132.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/terraform/terraform-2026-06-20T195132.png
 security:
 - kind: authentication
   name: Terraform Authentication

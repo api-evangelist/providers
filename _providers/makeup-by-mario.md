@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +58,7 @@ apis:
 - description: 'MAKEUP BY MARIO implements the Universal Commerce Protocol for agent-driven commerce. The merchant profile at /.well-known/ucp declares UCP 2026-04-08 and 2026-01-23, the dev.ucp.shopping MCP service '
   name: MAKEUP BY MARIO UCP Agentic Commerce API
   slug: ucp-commerce
-artifact_total: 10
+artifact_total: 14
 common:
 - group: company
   title: ''
@@ -67,97 +69,97 @@ common:
   type: Documentation
   url: https://www.makeupbymario.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/llms/makeup-by-mario-llms.txt
+  href: https://artifacts.apis.io/makeup-by-mario/llms/makeup-by-mario-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/makeup-by-mario-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/well-known/makeup-by-mario-well-known.yml
+  href: https://artifacts.apis.io/makeup-by-mario/well-known/makeup-by-mario-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/makeup-by-mario-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/mcp/makeup-by-mario-mcp.yml
+  href: https://artifacts.apis.io/makeup-by-mario/mcp/makeup-by-mario-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/makeup-by-mario-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/mcp/makeup-by-mario-tool-crosswalk.yml
+  href: https://artifacts.apis.io/makeup-by-mario/mcp/makeup-by-mario-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/makeup-by-mario-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/agentic-access/makeup-by-mario-agentic-access.yml
+  href: https://artifacts.apis.io/makeup-by-mario/agentic-access/makeup-by-mario-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/makeup-by-mario-agentic-access.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/graphql/makeup-by-mario-storefront.graphql
+  href: https://artifacts.apis.io/makeup-by-mario/graphql/makeup-by-mario-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/makeup-by-mario-storefront.graphql
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/data-model/makeup-by-mario-data-model.yml
+  href: https://artifacts.apis.io/makeup-by-mario/data-model/makeup-by-mario-data-model.yml
   title: ''
   type: DataModel
   url: data-model/makeup-by-mario-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/authentication/makeup-by-mario-authentication.yml
+  href: https://artifacts.apis.io/makeup-by-mario/authentication/makeup-by-mario-authentication.yml
   title: ''
   type: Authentication
   url: authentication/makeup-by-mario-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/scopes/makeup-by-mario-scopes.yml
+  href: https://artifacts.apis.io/makeup-by-mario/scopes/makeup-by-mario-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/makeup-by-mario-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/conventions/makeup-by-mario-conventions.yml
+  href: https://artifacts.apis.io/makeup-by-mario/conventions/makeup-by-mario-conventions.yml
   title: ''
   type: Conventions
   url: conventions/makeup-by-mario-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/conventions/makeup-by-mario-conventions.yml
+  href: https://artifacts.apis.io/makeup-by-mario/conventions/makeup-by-mario-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/makeup-by-mario-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/errors/makeup-by-mario-problem-types.yml
+  href: https://artifacts.apis.io/makeup-by-mario/errors/makeup-by-mario-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/makeup-by-mario-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/lifecycle/makeup-by-mario-lifecycle.yml
+  href: https://artifacts.apis.io/makeup-by-mario/lifecycle/makeup-by-mario-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/makeup-by-mario-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/conformance/makeup-by-mario-conformance.yml
+  href: https://artifacts.apis.io/makeup-by-mario/conformance/makeup-by-mario-conformance.yml
   title: ''
   type: Conformance
   url: conformance/makeup-by-mario-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/conformance/makeup-by-mario-conformance.yml
+  href: https://artifacts.apis.io/makeup-by-mario/conformance/makeup-by-mario-conformance.yml
   title: ''
   type: Compliance
   url: conformance/makeup-by-mario-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/makeup-by-mario/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/rate-limits/makeup-by-mario-rate-limits.yml
+  href: https://artifacts.apis.io/makeup-by-mario/rate-limits/makeup-by-mario-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/makeup-by-mario-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/plans/makeup-by-mario-plans-pricing.yml
+  href: https://artifacts.apis.io/makeup-by-mario/plans/makeup-by-mario-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/makeup-by-mario-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/security/makeup-by-mario-domain-security.yml
+  href: https://artifacts.apis.io/makeup-by-mario/security/makeup-by-mario-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/makeup-by-mario-domain-security.yml
@@ -230,7 +232,7 @@ plans:
 - name: Makeup By Mario Plans Pricing
   plan_count: 0
   slug: makeup-by-mario-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Makeup By Mario Rate Limits
@@ -242,7 +244,7 @@ scopes:
   summary_line: 4 scopes · authorization_code
 score:
   band: thin
-  composite: 28.0
+  composite: 27.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -250,13 +252,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 9.3
     developer_ergonomics: 30.4
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -265,7 +267,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 27.9
+  previous_composite: 27.0
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -277,14 +279,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/makeup-by-mario/refs/heads/main/screenshots/makeup-by-mario-2026-09-02T150420.png
+screenshot: https://apis.io/screenshots/makeup-by-mario/makeup-by-mario-2026-09-02T150420.png
 security:
 - kind: authentication
   name: Makeup By Mario Authentication
@@ -294,6 +296,16 @@ security:
   name: Makeup By Mario Domain Security
   slug: makeup-by-mario-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Answer a MAKEUP BY MARIO policy, shipping or returns question
+  slug: makeup-by-mario-answer-policy
+- name: Build a MAKEUP BY MARIO cart
+  slug: makeup-by-mario-build-cart
+- name: Hand off a MAKEUP BY MARIO checkout to a human
+  slug: makeup-by-mario-complete-checkout
+- name: Find a MAKEUP BY MARIO product and pin the right shade
+  slug: makeup-by-mario-find-shade
 slug: makeup-by-mario
 tags:
 - Company

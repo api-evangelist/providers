@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.2
-  scored_at: '2026-10-17'
+  score: 33.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 107
   human_in_the_loop: 1
@@ -762,7 +764,7 @@ arazzos:
 - description: Schedule a recurring CNAB statement job and confirm it is registered.
   name: Efí CNAB Statement Schedule
   slug: gerencianet-statement-schedule-workflow
-artifact_total: 149
+artifact_total: 152
 collections:
 - collection_type: postman
   name: Efí Pay Cobranças API
@@ -782,9 +784,6 @@ collections:
 - collection_type: postman
   name: Efí Pay Pix API
   slug: postman-efi-pix
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Efí Pay Cobranças API
   slug: open-efi-cobrancas
@@ -913,122 +912,122 @@ collections:
   slug: open-gerencianet-webhooks-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/rate-limits/gerencianet-cobrancas-rate-limits.yml
+  href: https://artifacts.apis.io/gerencianet/rate-limits/gerencianet-cobrancas-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gerencianet-cobrancas-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/rules/gerencianet-rules.yml
+  href: https://artifacts.apis.io/gerencianet/rules/gerencianet-rules.yml
   title: ''
   type: Spectral
   url: rules/gerencianet-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/rules/gerencianet-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/gerencianet/rules/gerencianet-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/gerencianet-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/rules/efi-rules.yml
+  href: https://artifacts.apis.io/gerencianet/rules/efi-rules.yml
   title: ''
   type: Spectral
   url: rules/efi-rules.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/gerencianet/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/conventions/gerencianet-conventions.yml
+  href: https://artifacts.apis.io/gerencianet/conventions/gerencianet-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/gerencianet-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/conventions/gerencianet-conventions.yml
+  href: https://artifacts.apis.io/gerencianet/conventions/gerencianet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gerencianet-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/sandbox/gerencianet-sandbox.yml
+  href: https://artifacts.apis.io/gerencianet/sandbox/gerencianet-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/gerencianet-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/lifecycle/gerencianet-lifecycle.yml
+  href: https://artifacts.apis.io/gerencianet/lifecycle/gerencianet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gerencianet-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/conformance/gerencianet-conformance.yml
+  href: https://artifacts.apis.io/gerencianet/conformance/gerencianet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gerencianet-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/overlays/gerencianet-account-api-phrasing-overlay.yaml
+  href: https://artifacts.apis.io/gerencianet/overlays/gerencianet-account-api-phrasing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gerencianet-account-api-phrasing-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/mcp/gerencianet-tool-crosswalk.yml
+  href: https://artifacts.apis.io/gerencianet/mcp/gerencianet-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/gerencianet-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/mcp/gerencianet-mcp.yml
+  href: https://artifacts.apis.io/gerencianet/mcp/gerencianet-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/gerencianet-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/well-known/gerencianet-status-security.txt
+  href: https://artifacts.apis.io/gerencianet/well-known/gerencianet-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/gerencianet-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/well-known/gerencianet-well-known.yml
+  href: https://artifacts.apis.io/gerencianet/well-known/gerencianet-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gerencianet-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/hosts/gerencianet-hosts.yml
+  href: https://artifacts.apis.io/gerencianet/hosts/gerencianet-hosts.yml
   title: ''
   type: Hosts
   url: hosts/gerencianet-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/integrations/gerencianet-integration-edges.yml
+  href: https://artifacts.apis.io/gerencianet/integrations/gerencianet-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/gerencianet-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/vendors/gerencianet-vendors.yml
+  href: https://artifacts.apis.io/gerencianet/vendors/gerencianet-vendors.yml
   title: ''
   type: Vendors
   url: vendors/gerencianet-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/packages/gerencianet-packages.yml
+  href: https://artifacts.apis.io/gerencianet/packages/gerencianet-packages.yml
   title: ''
   type: Packages
   url: packages/gerencianet-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/capabilities/gerencianet-capability-edges.yml
+  href: https://artifacts.apis.io/gerencianet/capabilities/gerencianet-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gerencianet-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/agentic-access/gerencianet-agentic-access.yml
+  href: https://artifacts.apis.io/gerencianet/agentic-access/gerencianet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gerencianet-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/security/gerencianet-domain-security.yml
+  href: https://artifacts.apis.io/gerencianet/security/gerencianet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gerencianet-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/authentication/gerencianet-authentication.yml
+  href: https://artifacts.apis.io/gerencianet/authentication/gerencianet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gerencianet-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/scopes/gerencianet-scopes.yml
+  href: https://artifacts.apis.io/gerencianet/scopes/gerencianet-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gerencianet-scopes.yml
@@ -1037,62 +1036,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/ef-pay-gerencianet/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-account-onboarding-workflow.yml
+  href: https://artifacts.apis.io/gerencianet/arazzo/gerencianet-account-onboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-account-onboarding-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-account-webhook-setup-workflow.yml
+  href: https://artifacts.apis.io/gerencianet/arazzo/gerencianet-account-webhook-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-account-webhook-setup-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-bill-payment-workflow.yml
+  href: https://artifacts.apis.io/gerencianet/arazzo/gerencianet-bill-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-bill-payment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-boleto-charge-issue-workflow.yml
+  href: https://artifacts.apis.io/gerencianet/arazzo/gerencianet-boleto-charge-issue-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-boleto-charge-issue-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-card-charge-refund-workflow.yml
+  href: https://artifacts.apis.io/gerencianet/arazzo/gerencianet-card-charge-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-card-charge-refund-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-pix-charge-qrcode-workflow.yml
+  href: https://artifacts.apis.io/gerencianet/arazzo/gerencianet-pix-charge-qrcode-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-pix-charge-qrcode-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-pix-charge-revise-workflow.yml
+  href: https://artifacts.apis.io/gerencianet/arazzo/gerencianet-pix-charge-revise-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-pix-charge-revise-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-pix-charge-status-refund-workflow.yml
+  href: https://artifacts.apis.io/gerencianet/arazzo/gerencianet-pix-charge-status-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-pix-charge-status-refund-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-pix-due-charge-qrcode-workflow.yml
+  href: https://artifacts.apis.io/gerencianet/arazzo/gerencianet-pix-due-charge-qrcode-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-pix-due-charge-qrcode-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-pix-send-cashout-workflow.yml
+  href: https://artifacts.apis.io/gerencianet/arazzo/gerencianet-pix-send-cashout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-pix-send-cashout-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-pix-webhook-setup-workflow.yml
+  href: https://artifacts.apis.io/gerencianet/arazzo/gerencianet-pix-webhook-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-pix-webhook-setup-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/arazzo/gerencianet-statement-schedule-workflow.yml
+  href: https://artifacts.apis.io/gerencianet/arazzo/gerencianet-statement-schedule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/gerencianet-statement-schedule-workflow.yml
@@ -1237,32 +1236,32 @@ common:
   type: Tools
   url: https://github.com/efipay/mtls-webhook
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/plans/gerencianet-plans-pricing.yml
+  href: https://artifacts.apis.io/gerencianet/plans/gerencianet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gerencianet-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/rate-limits/gerencianet-rate-limits.yml
+  href: https://artifacts.apis.io/gerencianet/rate-limits/gerencianet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gerencianet-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/finops/gerencianet-finops.yml
+  href: https://artifacts.apis.io/gerencianet/finops/gerencianet-finops.yml
   title: ''
   type: FinOps
   url: finops/gerencianet-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/rules/efi-rules.yml
+  href: https://artifacts.apis.io/gerencianet/rules/efi-rules.yml
   title: ''
   type: SpectralRules
   url: rules/efi-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/vocabulary/gerencianet-vocabulary.yml
+  href: https://artifacts.apis.io/gerencianet/vocabulary/gerencianet-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/gerencianet-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/json-ld/gerencianet-context.jsonld
+  href: https://artifacts.apis.io/gerencianet/json-ld/gerencianet-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/gerencianet-context.jsonld
@@ -1307,12 +1306,12 @@ features:
   name: Webhooks With Optional mTLS Skip
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Gerencianet Finops
   primary_unit: ''
-  service_category: Payments
+  service_category: ''
   slug: gerencianet-finops
-  template: false
+  template: true
 image: https://efipay.com.br/efi-logo.png
 integrations:
 - description: Official plugin for WooCommerce checkout.
@@ -1373,7 +1372,10 @@ plans:
 - name: Gerencianet Plans Pricing
   plan_count: 12
   slug: gerencianet-plans-pricing
-random_paper: 13
+- name: Gerencianet Price Estimates
+  plan_count: 0
+  slug: gerencianet-price-estimates
+random_paper: 5
 rate_limits:
 - limit_count: 39
   name: Gerencianet Cobrancas Rate Limits
@@ -1424,7 +1426,7 @@ scopes:
   summary_line: 40 scopes · clientCredentials
 score:
   band: strong
-  composite: 62.1
+  composite: 65.6
   coverage:
     artifact_dirs: 32
     catalog_earned: 79.8
@@ -1432,14 +1434,14 @@ score:
     catalog_gap: 35.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.0
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 22.0
     contract_quality: 59.9
-    developer_ergonomics: 76.8
+    developer_ergonomics: 83.9
     discoverability: 53.3
-    operational_transparency: 52.6
+    operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -1447,7 +1449,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 67.1
+  previous_composite: 65.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1464,13 +1466,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 36.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/screenshots/gerencianet-2026-06-20T181803.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gerencianet/gerencianet-2026-06-20T181803.png
 security:
 - kind: authentication
   name: Gerencianet Authentication
@@ -1480,6 +1483,14 @@ security:
   name: Gerencianet Domain Security
   slug: gerencianet-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: gerencianet-bill-payment
+  slug: gerencianet-bill-payment
+- name: gerencianet-boleto-charge
+  slug: gerencianet-boleto-charge
+- name: gerencianet-pix-charge
+  slug: gerencianet-pix-charge
 slug: gerencianet
 solutions:
 - description: Account for self-employed individuals (no CNPJ required).

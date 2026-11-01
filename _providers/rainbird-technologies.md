@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.0
-  scored_at: '2026-10-17'
+  score: 25.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.rainbird.ai
@@ -56,11 +58,8 @@ arazzos:
 - description: Start a session against a Knowledge Map, run a query, then retrieve the evidence chain behind the result.
   name: Rainbird — run a decision and fetch its evidence
   slug: rainbird-technologies-run-and-explain
-artifact_total: 10
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rainbird API Documentation Decisions API
   slug: open-rainbird-technologies-decisions-api
@@ -72,7 +71,7 @@ collections:
   slug: open-rainbird-technologies-platform-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/capabilities/rainbird-technologies-capability-edges.yml
+  href: https://artifacts.apis.io/rainbird-technologies/capabilities/rainbird-technologies-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rainbird-technologies-capability-edges.yml
@@ -121,92 +120,92 @@ common:
   type: ChangeLog
   url: https://docs.rainbird.ai/rainbird/whats-new/change-log
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/openapi/_original/rainbird-technologies-openapi-original.json
+  href: https://artifacts.apis.io/rainbird-technologies/openapi/_original/rainbird-technologies-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/rainbird-technologies-openapi-original.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/packages/rainbird-technologies-packages.yml
+  href: https://artifacts.apis.io/rainbird-technologies/packages/rainbird-technologies-packages.yml
   title: ''
   type: Packages
   url: packages/rainbird-technologies-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/packages/rainbird-technologies-packages.yml
+  href: https://artifacts.apis.io/rainbird-technologies/packages/rainbird-technologies-packages.yml
   title: ''
   type: SDKs
   url: packages/rainbird-technologies-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/components/rainbird-technologies-components.yml
+  href: https://artifacts.apis.io/rainbird-technologies/components/rainbird-technologies-components.yml
   title: ''
   type: Components
   url: components/rainbird-technologies-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/authentication/rainbird-technologies-authentication.yml
+  href: https://artifacts.apis.io/rainbird-technologies/authentication/rainbird-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rainbird-technologies-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/security/rainbird-technologies-domain-security.yml
+  href: https://artifacts.apis.io/rainbird-technologies/security/rainbird-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rainbird-technologies-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/mcp/rainbird-technologies-mcp.yml
+  href: https://artifacts.apis.io/rainbird-technologies/mcp/rainbird-technologies-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rainbird-technologies-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/llms/rainbird-technologies-llms.txt
+  href: https://artifacts.apis.io/rainbird-technologies/llms/rainbird-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rainbird-technologies-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/overlays/rainbird-technologies-openapi-overlay.yaml
+  href: https://artifacts.apis.io/rainbird-technologies/overlays/rainbird-technologies-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rainbird-technologies-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/conformance/rainbird-technologies-conformance.yml
+  href: https://artifacts.apis.io/rainbird-technologies/conformance/rainbird-technologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rainbird-technologies-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/errors/rainbird-technologies-problem-types.yml
+  href: https://artifacts.apis.io/rainbird-technologies/errors/rainbird-technologies-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rainbird-technologies-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/lifecycle/rainbird-technologies-lifecycle.yml
+  href: https://artifacts.apis.io/rainbird-technologies/lifecycle/rainbird-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rainbird-technologies-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/conventions/rainbird-technologies-conventions.yml
+  href: https://artifacts.apis.io/rainbird-technologies/conventions/rainbird-technologies-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rainbird-technologies-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/changelog/rainbird-technologies-changelog.yml
+  href: https://artifacts.apis.io/rainbird-technologies/changelog/rainbird-technologies-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rainbird-technologies-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/data-model/rainbird-technologies-data-model.yml
+  href: https://artifacts.apis.io/rainbird-technologies/data-model/rainbird-technologies-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rainbird-technologies-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/well-known/rainbird-technologies-well-known.yml
+  href: https://artifacts.apis.io/rainbird-technologies/well-known/rainbird-technologies-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rainbird-technologies-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rainbird-technologies/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/arazzo/rainbird-technologies-run-and-explain.yml
+  href: https://artifacts.apis.io/rainbird-technologies/arazzo/rainbird-technologies-run-and-explain.yml
   title: ''
   type: Arazzo
   url: arazzo/rainbird-technologies-run-and-explain.yml
@@ -226,10 +225,10 @@ overview: 'Rainbird Technologies publishes 3 API contracts indexed on the [APIs.
 
 
   Rainbird Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 24 more developer resources.'
-random_paper: 16
+random_paper: 12
 score:
-  band: thin
-  composite: 37.7
+  band: developing
+  composite: 43.3
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -237,15 +236,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 49.0
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 37.6
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 43.3
   provenance:
     conformance: derived
     contracts:
@@ -260,14 +259,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 22.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/screenshots/rainbird-technologies-2026-08-17T081442.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rainbird-technologies/rainbird-technologies-2026-08-17T081442.png
 security:
 - kind: authentication
   name: Rainbird Technologies Authentication
@@ -277,6 +277,12 @@ security:
   name: Rainbird Technologies Domain Security
   slug: rainbird-technologies-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Explain a Rainbird decision
+  slug: rainbird-technologies-explain-a-decision
+- name: Run a Rainbird decision
+  slug: rainbird-technologies-run-a-decision
 slug: rainbird-technologies
 tags:
 - Company

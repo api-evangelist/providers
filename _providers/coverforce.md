@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Unified commercial insurance API connecting to 40+ carriers and MGAs through a single integration. Documented endpoint families include Applications (create and submit in a unified JSON schema), Quote
@@ -89,22 +91,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/coverforceinc
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coverforce/refs/heads/main/llms/coverforce-llms.txt
+  href: https://artifacts.apis.io/coverforce/llms/coverforce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coverforce-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coverforce/refs/heads/main/well-known/coverforce-well-known.yml
+  href: https://artifacts.apis.io/coverforce/well-known/coverforce-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/coverforce-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coverforce/refs/heads/main/security/coverforce-domain-security.yml
+  href: https://artifacts.apis.io/coverforce/security/coverforce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coverforce-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coverforce/refs/heads/main/conformance/coverforce-conformance.yml
+  href: https://artifacts.apis.io/coverforce/conformance/coverforce-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coverforce-conformance.yml
@@ -113,12 +115,12 @@ common:
   type: Compliance
   url: https://www.coverforce.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coverforce/refs/heads/main/security/coverforce-trust-center.yml
+  href: https://artifacts.apis.io/coverforce/security/coverforce-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/coverforce-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coverforce/refs/heads/main/mcp/coverforce-mcp.yml
+  href: https://artifacts.apis.io/coverforce/mcp/coverforce-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/coverforce-mcp.yml
@@ -137,7 +139,7 @@ overview: 'Coverforce is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 14
 score:
   band: thin
-  composite: 27.0
+  composite: 26.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -151,14 +153,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 27.0
+  previous_composite: 26.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -172,14 +174,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/coverforce/refs/heads/main/screenshots/coverforce-2026-07-25T210552.png
+screenshot: https://apis.io/screenshots/coverforce/coverforce-2026-07-25T210552.png
 security:
 - kind: domain-security
   name: Coverforce Domain Security

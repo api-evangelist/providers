@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/topgolf-callaway-brands/refs/heads/main/security/topgolf-callaway-brands-domain-security.yml
+  href: https://artifacts.apis.io/topgolf-callaway-brands/security/topgolf-callaway-brands-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/topgolf-callaway-brands-domain-security.yml
@@ -78,10 +80,10 @@ name: Topgolf Callaway Brands
 nav: Providers
 network: true
 overview: Topgolf Callaway Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Golf, Entertainment, Sports Equipment, and Fortune 500.
-random_paper: 1
+random_paper: 5
 score:
   band: minimal
-  composite: 5.0
+  composite: 8.1
   coverage:
     artifact_dirs: 3
     catalog_earned: 19.0
@@ -91,21 +93,21 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 33.9
-    operational_transparency: 2.6
-  previous_composite: 5.0
+    operational_transparency: 5.3
+  previous_composite: 8.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 13.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

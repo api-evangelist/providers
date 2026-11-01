@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.7
-  scored_at: '2026-10-17'
+  score: 36.1
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - baseURL: https://openbank.newcastlepermanent.com.au/cds-au/v1/banking/products
@@ -84,9 +86,6 @@ apis:
 artifact_total: 27
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Accounts API
   slug: open-newcastle-permanent-accounts-api
 - collection_type: open
@@ -130,12 +129,12 @@ collections:
   slug: open-newcastle-permanent-scheduled-payments-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/capabilities/newcastle-permanent-capability-edges.yml
+  href: https://artifacts.apis.io/newcastle-permanent/capabilities/newcastle-permanent-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/newcastle-permanent-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/security/newcastle-permanent-domain-security.yml
+  href: https://artifacts.apis.io/newcastle-permanent/security/newcastle-permanent-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/newcastle-permanent-domain-security.yml
@@ -172,37 +171,37 @@ common:
   type: Sandbox
   url: https://developer.newcastlepermanent.com.au/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/authentication/newcastle-permanent-authentication.yml
+  href: https://artifacts.apis.io/newcastle-permanent/authentication/newcastle-permanent-authentication.yml
   title: ''
   type: Authentication
   url: authentication/newcastle-permanent-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/scopes/newcastle-permanent-scopes.yml
+  href: https://artifacts.apis.io/newcastle-permanent/scopes/newcastle-permanent-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/newcastle-permanent-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/well-known/newcastle-permanent-well-known.yml
+  href: https://artifacts.apis.io/newcastle-permanent/well-known/newcastle-permanent-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/newcastle-permanent-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/conventions/newcastle-permanent-conventions.yml
+  href: https://artifacts.apis.io/newcastle-permanent/conventions/newcastle-permanent-conventions.yml
   title: ''
   type: Conventions
   url: conventions/newcastle-permanent-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/errors/newcastle-permanent-problem-types.yml
+  href: https://artifacts.apis.io/newcastle-permanent/errors/newcastle-permanent-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/newcastle-permanent-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/conformance/newcastle-permanent-conformance.yml
+  href: https://artifacts.apis.io/newcastle-permanent/conformance/newcastle-permanent-conformance.yml
   title: ''
   type: Conformance
   url: conformance/newcastle-permanent-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/lifecycle/newcastle-permanent-lifecycle.yml
+  href: https://artifacts.apis.io/newcastle-permanent/lifecycle/newcastle-permanent-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/newcastle-permanent-lifecycle.yml
@@ -215,27 +214,27 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#versioning
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/data-model/newcastle-permanent-data-model.yml
+  href: https://artifacts.apis.io/newcastle-permanent/data-model/newcastle-permanent-data-model.yml
   title: ''
   type: DataModel
   url: data-model/newcastle-permanent-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/mcp/newcastle-permanent-mcp.yml
+  href: https://artifacts.apis.io/newcastle-permanent/mcp/newcastle-permanent-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/newcastle-permanent-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/overlays/newcastle-permanent-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/newcastle-permanent/overlays/newcastle-permanent-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/newcastle-permanent-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/llms/newcastle-permanent-llms.txt
+  href: https://artifacts.apis.io/newcastle-permanent/llms/newcastle-permanent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/newcastle-permanent-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/skills/newcastle-permanent-browse-products.md
+  href: https://artifacts.apis.io/newcastle-permanent/skills/newcastle-permanent-browse-products.md
   title: ''
   type: AgentSkill
   url: skills/newcastle-permanent-browse-products.md
@@ -271,15 +270,15 @@ overview: 'Newcastle Permanent Building Society publishes 9 API contracts indexe
 
 
   Newcastle Permanent Building Society''s developer surface includes getting-started guide, documentation, API reference, sandbox, authentication, support, and 23 more developer resources.'
-random_paper: 1
+random_paper: 13
 scopes:
 - name: Newcastle Permanent Scopes
   scope_count: 12
   slug: newcastle-permanent-scopes
   summary_line: 12 scopes · authorizationCode
 score:
-  band: thin
-  composite: 39.2
+  band: developing
+  composite: 45.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -292,9 +291,9 @@ score:
     access_clarity: 28.9
     contract_governance: 4.5
     contract_quality: 46.3
-    developer_ergonomics: 35.1
-    discoverability: 78.6
-    operational_transparency: 15.8
+    developer_ergonomics: 63.7
+    discoverability: 71.4
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -304,7 +303,7 @@ score:
     - anz
     - europe
     - united-kingdom-ireland
-  previous_composite: 39.2
+  previous_composite: 45.9
   provenance:
     conformance: derived
     contracts:
@@ -324,13 +323,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/screenshots/newcastle-permanent-2026-07-21T115738.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/newcastle-permanent/newcastle-permanent-2026-07-21T115738.png
 security:
 - kind: authentication
   name: Newcastle Permanent Authentication
@@ -340,6 +340,10 @@ security:
   name: Newcastle Permanent Domain Security
   slug: newcastle-permanent-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Browse Newcastle Permanent banking products (CDR PRD)
+  slug: newcastle-permanent-browse-products
 slug: newcastle-permanent
 tags:
 - Finance

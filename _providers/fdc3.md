@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-17'
+  score: 25.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,27 +67,24 @@ apis:
   description: The Application API from FDC3 — 5 operation(s) for application.
   name: FDC3 Application API
   slug: fdc3-application-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: FDC3 Directory Application API
   slug: open-fdc3-application-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/plans/fdc3-plans-pricing.yml
+  href: https://artifacts.apis.io/fdc3/plans/fdc3-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fdc3-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/rate-limits/fdc3-rate-limits.yml
+  href: https://artifacts.apis.io/fdc3/rate-limits/fdc3-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fdc3-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/finops/fdc3-finops.yml
+  href: https://artifacts.apis.io/fdc3/finops/fdc3-finops.yml
   title: ''
   type: FinOps
   url: finops/fdc3-finops.yml
@@ -102,17 +101,17 @@ common:
   type: CodeOfConduct
   url: https://github.com/finos/FDC3/blob/main/CODE_OF_CONDUCT.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/agentic-access/fdc3-agentic-access.yml
+  href: https://artifacts.apis.io/fdc3/agentic-access/fdc3-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fdc3-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/security/fdc3-domain-security.yml
+  href: https://artifacts.apis.io/fdc3/security/fdc3-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fdc3-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/authentication/fdc3-authentication.yml
+  href: https://artifacts.apis.io/fdc3/authentication/fdc3-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fdc3-authentication.yml
@@ -208,7 +207,7 @@ plans:
 - name: Fdc3 Plans Pricing
   plan_count: 5
   slug: fdc3-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Fdc3 Rate Limits
@@ -227,23 +226,23 @@ rules:
   slug: fdc3-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.8
+  composite: 38.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 60.7
     catalog_earned_first_party: 0.0
     catalog_gap: 54.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 55.0
-    developer_ergonomics: 33.3
+    developer_ergonomics: 35.7
     discoverability: 62.5
     operational_transparency: 39.5
-  previous_composite: 45.0
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -257,13 +256,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/screenshots/fdc3-2026-06-20T181104.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fdc3/fdc3-2026-06-20T181104.png
 security:
 - kind: authentication
   name: Fdc3 Authentication

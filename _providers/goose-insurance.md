@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goose-insurance/refs/heads/main/security/goose-insurance-domain-security.yml
+  href: https://artifacts.apis.io/goose-insurance/security/goose-insurance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/goose-insurance-domain-security.yml
@@ -127,17 +129,17 @@ common:
   type: Instagram
   url: https://www.instagram.com/gooseinsuranceca/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goose-insurance/refs/heads/main/security/goose-insurance-domain-security.yml
+  href: https://artifacts.apis.io/goose-insurance/security/goose-insurance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/goose-insurance-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goose-insurance/refs/heads/main/conformance/goose-insurance-conformance.yml
+  href: https://artifacts.apis.io/goose-insurance/conformance/goose-insurance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/goose-insurance-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goose-insurance/refs/heads/main/llms/goose-insurance-llms.txt
+  href: https://artifacts.apis.io/goose-insurance/llms/goose-insurance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/goose-insurance-llms.txt
@@ -154,10 +156,10 @@ overview: 'Goose Insurance is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Goose Insurance''s developer surface includes support, engineering blog, product news, and 22 more developer resources.'
-random_paper: 14
+random_paper: 18
 score:
   band: emerging
-  composite: 11.8
+  composite: 11.2
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -171,7 +173,7 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 56.3
+    discoverability: 50.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -180,7 +182,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 11.8
+  previous_composite: 11.2
   provenance:
     conformance: derived
   regulatory:
@@ -189,14 +191,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/goose-insurance/refs/heads/main/screenshots/goose-insurance-2026-07-25T220107.png
+screenshot: https://apis.io/screenshots/goose-insurance/goose-insurance-2026-07-25T220107.png
 security:
 - kind: domain-security
   name: Goose Insurance Domain Security

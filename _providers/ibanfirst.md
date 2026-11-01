@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.8
-  scored_at: '2026-10-17'
+  score: 49.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -46,7 +48,7 @@ agentic_access:
   operation_count: 38
   slug: ibanfirst-agentic-access
   summary_line: 38 operations · 16 acting
-api_count: 2
+api_count: 1
 apis:
 - description: First-party hosted remote MCP server, launched with API 1.7.0 on 2026-06-05, exposing 16 read tools over wallets, balances, financial movements, payments, live FX rates, spot trades, fixed forwards an
   name: iBanFirst MCP Connector
@@ -99,44 +101,44 @@ apis:
   description: '**1. WHAT IS A WEBHOOK ?** - Webhooks are events based real-time notifications providing updates on transactions and removing the need for periodic polling. - Webhook notifications are sent as HTTPS P'
   name: iBanFirst Webhook subscriptions API
   slug: ibanfirst-webhook-subscriptions-api
-artifact_total: 51
+artifact_total: 57
 asyncapis:
 - description: ''
   name: Ibanfirst Webhooks
   slug: ibanfirst-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/agentic-access/ibanfirst-agentic-access.yml
+  href: https://artifacts.apis.io/ibanfirst/agentic-access/ibanfirst-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ibanfirst-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/rules/ibanfirst-rules.yml
+  href: https://artifacts.apis.io/ibanfirst/rules/ibanfirst-rules.yml
   title: ''
   type: Spectral
   url: rules/ibanfirst-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/json-ld/ibanfirst-context.jsonld
+  href: https://artifacts.apis.io/ibanfirst/json-ld/ibanfirst-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/ibanfirst-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/vocabulary/ibanfirst-vocabulary.yml
+  href: https://artifacts.apis.io/ibanfirst/vocabulary/ibanfirst-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/ibanfirst-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/lifecycle/ibanfirst-lifecycle.yml
+  href: https://artifacts.apis.io/ibanfirst/lifecycle/ibanfirst-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/ibanfirst-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/hosts/ibanfirst-hosts.yml
+  href: https://artifacts.apis.io/ibanfirst/hosts/ibanfirst-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ibanfirst-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/vendors/ibanfirst-vendors.yml
+  href: https://artifacts.apis.io/ibanfirst/vendors/ibanfirst-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ibanfirst-vendors.yml
@@ -145,7 +147,7 @@ common:
   type: Newsroom
   url: https://ibanfirst.com/newsroom
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/capabilities/ibanfirst-capability-edges.yml
+  href: https://artifacts.apis.io/ibanfirst/capabilities/ibanfirst-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ibanfirst-capability-edges.yml
@@ -210,12 +212,12 @@ common:
   type: ChangeLog
   url: https://docs.ibanfirst.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/changelog/ibanfirst-changelog.yml
+  href: https://artifacts.apis.io/ibanfirst/changelog/ibanfirst-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ibanfirst-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/llms/ibanfirst-llms.txt
+  href: https://artifacts.apis.io/ibanfirst/llms/ibanfirst-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ibanfirst-llms.txt
@@ -224,12 +226,12 @@ common:
   type: LLMsTxt
   url: https://www.ibanfirst.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/well-known/ibanfirst-well-known.yml
+  href: https://artifacts.apis.io/ibanfirst/well-known/ibanfirst-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ibanfirst-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/well-known/ibanfirst-security.txt
+  href: https://artifacts.apis.io/ibanfirst/well-known/ibanfirst-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ibanfirst-security.txt
@@ -238,27 +240,27 @@ common:
   type: Security
   url: https://ibanfirst.com/security-policy.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/security/ibanfirst-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ibanfirst/security/ibanfirst-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ibanfirst-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/security/ibanfirst-domain-security.yml
+  href: https://artifacts.apis.io/ibanfirst/security/ibanfirst-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ibanfirst-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/authentication/ibanfirst-authentication.yml
+  href: https://artifacts.apis.io/ibanfirst/authentication/ibanfirst-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ibanfirst-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/conventions/ibanfirst-conventions.yml
+  href: https://artifacts.apis.io/ibanfirst/conventions/ibanfirst-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ibanfirst-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/conformance/ibanfirst-conformance.yml
+  href: https://artifacts.apis.io/ibanfirst/conformance/ibanfirst-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ibanfirst-conformance.yml
@@ -267,58 +269,66 @@ common:
   type: Compliance
   url: https://ibanfirst.com/psd2-api
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/errors/ibanfirst-problem-types.yml
+  href: https://artifacts.apis.io/ibanfirst/errors/ibanfirst-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ibanfirst-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/lifecycle/ibanfirst-lifecycle.yml
+  href: https://artifacts.apis.io/ibanfirst/lifecycle/ibanfirst-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ibanfirst-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/data-model/ibanfirst-data-model.yml
+  href: https://artifacts.apis.io/ibanfirst/data-model/ibanfirst-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ibanfirst-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/asyncapi/ibanfirst-webhooks.yml
+  href: https://artifacts.apis.io/ibanfirst/asyncapi/ibanfirst-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ibanfirst-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/sandbox/ibanfirst-sandbox.yml
+  href: https://artifacts.apis.io/ibanfirst/sandbox/ibanfirst-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ibanfirst-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/plans/ibanfirst-plans-pricing.yml
+  href: https://artifacts.apis.io/ibanfirst/plans/ibanfirst-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ibanfirst-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/rate-limits/ibanfirst-rate-limits.yml
+  href: https://artifacts.apis.io/ibanfirst/rate-limits/ibanfirst-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ibanfirst-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ibanfirst/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/mcp/ibanfirst-mcp.yml
+  href: https://artifacts.apis.io/ibanfirst/mcp/ibanfirst-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ibanfirst-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/overlays/ibanfirst-clientapi-overlay.yaml
+  href: https://artifacts.apis.io/ibanfirst/overlays/ibanfirst-clientapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ibanfirst-clientapi-overlay.yaml
 created: '2026-08-17'
 description: iBanFirst is a Brussels-headquartered cross-border payment and foreign-exchange platform for businesses, licensed as a payment institution by the National Bank of Belgium (company number 0849.872.824) and operating across Belgium, France, the Netherlands, Germany, Spain, Romania, Bulgaria, Italy, Hungary and the United Kingdom. It provides multi-currency "augmented currency accounts" with dedicated IBANs, SWIFT and SEPA payments with payment tracking, spot FX in 30+ currencies, and fixed forward payment contracts for currency-risk hedging. Its developer surface is a public REST API (iBanFirst API 1.6.0, 38 operations over accounts, financial movements, beneficiaries, payments, spot trades, fixed forwards, documents and webhook subscriptions), X-WSSE token authentication, HMAC-SHA256-signed webhooks for payment and trade events, a separate eIDAS/QWAC-gated PSD2 XS2A API for AIS and PIS third-party providers, and a hosted first-party remote MCP server that gives agents read access
   to treasury data.
+finops:
+- has_sources: true
+  method: derived
+  name: Ibanfirst Finops
+  primary_unit: ''
+  service_category: ''
+  slug: ibanfirst-finops
+  template: true
 image: https://ibanfirst.com/_next/static/media/iban-og-image.1rlnmbejef6_m.jpg
 json_schemas:
 - name: Amount
@@ -434,9 +444,9 @@ overview: 'iBanFirst publishes 11 API contracts indexed on the [APIs.io](https:/
   iBanFirst''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
 plans:
 - name: Ibanfirst Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: ibanfirst-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Ibanfirst Rate Limits
@@ -456,22 +466,22 @@ rules:
   slug: ibanfirst-rules
 score:
   band: strong
-  composite: 63.8
+  composite: 60.4
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 70.8
-    catalog_earned_first_party: 8.0
-    catalog_gap: 44.3
+    artifact_dirs: 33
+    catalog_earned: 62.8
+    catalog_earned_first_party: 0.0
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.7
+  delta: -4.2
   facets:
-    access_clarity: 73.7
+    access_clarity: 52.6
     contract_governance: 35.6
-    contract_quality: 68.5
-    developer_ergonomics: 68.5
-    discoverability: 76.7
-    operational_transparency: 44.7
+    contract_quality: 67.2
+    developer_ergonomics: 70.8
+    discoverability: 73.3
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -480,7 +490,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 57.1
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -497,13 +507,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 28.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/screenshots/ibanfirst-2026-09-02T145820.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ibanfirst/ibanfirst-2026-09-02T145820.png
 security:
 - kind: authentication
   name: Ibanfirst Authentication
@@ -517,6 +528,18 @@ security:
   name: Ibanfirst Vulnerability Disclosure
   slug: ibanfirst-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 5
+skills:
+- name: ibanfirst-hedge-with-fixed-forward
+  slug: ibanfirst-hedge-with-fixed-forward
+- name: ibanfirst-pay-a-supplier
+  slug: ibanfirst-pay-a-supplier
+- name: ibanfirst-quote-and-book-spot-fx
+  slug: ibanfirst-quote-and-book-spot-fx
+- name: ibanfirst-read-treasury-position
+  slug: ibanfirst-read-treasury-position
+- name: ibanfirst-subscribe-to-payment-events
+  slug: ibanfirst-subscribe-to-payment-events
 slug: ibanfirst
 tags:
 - Company

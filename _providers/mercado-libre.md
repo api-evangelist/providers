@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Core REST API for the Mercado Libre marketplace covering items, categories, search, orders, questions, messages, users, sites, currencies, and shipping. Auth via OAuth 2.0 (authorization code).
@@ -52,7 +54,7 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mercado-libre/refs/heads/main/security/mercado-libre-domain-security.yml
+  href: https://artifacts.apis.io/mercado-libre/security/mercado-libre-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mercado-libre-domain-security.yml
@@ -73,17 +75,17 @@ common:
   type: DeveloperPortal
   url: https://developers.mercadolibre.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mercado-libre/refs/heads/main/plans/mercado-libre-plans-pricing.yml
+  href: https://artifacts.apis.io/mercado-libre/plans/mercado-libre-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mercado-libre-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mercado-libre/refs/heads/main/rate-limits/mercado-libre-rate-limits.yml
+  href: https://artifacts.apis.io/mercado-libre/rate-limits/mercado-libre-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mercado-libre-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mercado-libre/refs/heads/main/finops/mercado-libre-finops.yml
+  href: https://artifacts.apis.io/mercado-libre/finops/mercado-libre-finops.yml
   title: ''
   type: FinOps
   url: finops/mercado-libre-finops.yml
@@ -112,14 +114,14 @@ plans:
 - name: Mercado Libre Plans Pricing
   plan_count: 2
   slug: mercado-libre-plans-pricing
-random_paper: 4
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Mercado Libre Rate Limits
   slug: mercado-libre-rate-limits
 score:
   band: emerging
-  composite: 13.2
+  composite: 15.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 45.0
@@ -127,34 +129,34 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 31.0
     discoverability: 78.6
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 14.8
+  previous_composite: 15.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mercado-libre/refs/heads/main/screenshots/mercado-libre-2026-06-20T185150.png
+screenshot: https://apis.io/screenshots/mercado-libre/mercado-libre-2026-06-20T185150.png
 security:
 - kind: domain-security
   name: Mercado Libre Domain Security

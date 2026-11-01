@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: xCBL 4.0 is a royalty-free library of XML business documents and reusable components for business-to-business e-commerce, published by Commerce One and still distributed from xcbl.org. It is a documen
@@ -69,47 +71,47 @@ common:
   type: TermsOfService
   url: http://xcbl.org/license.shtml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/vocabulary/commerce-one-xcbl-vocabulary.yml
+  href: https://artifacts.apis.io/commerce-one/vocabulary/commerce-one-xcbl-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/commerce-one-xcbl-vocabulary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/commerce-one/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/errors/commerce-one-problem-types.yml
+  href: https://artifacts.apis.io/commerce-one/errors/commerce-one-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/commerce-one-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/conformance/commerce-one-conformance.yml
+  href: https://artifacts.apis.io/commerce-one/conformance/commerce-one-conformance.yml
   title: ''
   type: Conformance
   url: conformance/commerce-one-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/changelog/commerce-one-changelog.yml
+  href: https://artifacts.apis.io/commerce-one/changelog/commerce-one-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/commerce-one-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/lifecycle/commerce-one-lifecycle.yml
+  href: https://artifacts.apis.io/commerce-one/lifecycle/commerce-one-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/commerce-one-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/well-known/commerce-one-well-known.yml
+  href: https://artifacts.apis.io/commerce-one/well-known/commerce-one-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/commerce-one-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/security/commerce-one-domain-security.yml
+  href: https://artifacts.apis.io/commerce-one/security/commerce-one-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/commerce-one-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/llms/commerce-one-llms.txt
+  href: https://artifacts.apis.io/commerce-one/llms/commerce-one-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/commerce-one-llms.txt
@@ -125,7 +127,7 @@ overview: 'Commerce One is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Commerce One''s developer surface includes documentation, API reference, getting-started guide, support, FAQ, code examples, changelog, and 9 more developer resources.'
-random_paper: 0
+random_paper: 10
 score:
   band: minimal
   composite: 0.0
@@ -154,14 +156,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/screenshots/commerce-one-2026-07-25T210126.png
+screenshot: https://apis.io/screenshots/commerce-one/commerce-one-2026-07-25T210126.png
 security:
 - kind: domain-security
   name: Commerce One Domain Security

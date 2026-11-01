@@ -4,6 +4,6 @@ layout: provider
 name: customs-computer-system
 nav: Providers
 network: true
-random_paper: 8
+random_paper: 4
 slug: customs-computer-system
 ---

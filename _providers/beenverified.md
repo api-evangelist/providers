@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,47 +48,47 @@ apis:
 artifact_total: 6
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beenverified/refs/heads/main/agentic-access/beenverified-agentic-access.yml
+  href: https://artifacts.apis.io/beenverified/agentic-access/beenverified-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/beenverified-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beenverified/refs/heads/main/rules/beenverified-rules.yml
+  href: https://artifacts.apis.io/beenverified/rules/beenverified-rules.yml
   title: ''
   type: Spectral
   url: rules/beenverified-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beenverified/refs/heads/main/errors/beenverified-problem-types.yml
+  href: https://artifacts.apis.io/beenverified/errors/beenverified-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/beenverified-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beenverified/refs/heads/main/conformance/beenverified-conformance.yml
+  href: https://artifacts.apis.io/beenverified/conformance/beenverified-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beenverified-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beenverified/refs/heads/main/well-known/beenverified-security.txt
+  href: https://artifacts.apis.io/beenverified/well-known/beenverified-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/beenverified-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beenverified/refs/heads/main/well-known/beenverified-business-security.txt
+  href: https://artifacts.apis.io/beenverified/well-known/beenverified-business-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/beenverified-business-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beenverified/refs/heads/main/well-known/beenverified-well-known.yml
+  href: https://artifacts.apis.io/beenverified/well-known/beenverified-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/beenverified-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beenverified/refs/heads/main/hosts/beenverified-hosts.yml
+  href: https://artifacts.apis.io/beenverified/hosts/beenverified-hosts.yml
   title: ''
   type: Hosts
   url: hosts/beenverified-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beenverified/refs/heads/main/vendors/beenverified-vendors.yml
+  href: https://artifacts.apis.io/beenverified/vendors/beenverified-vendors.yml
   title: ''
   type: Vendors
   url: vendors/beenverified-vendors.yml
@@ -119,12 +121,12 @@ common:
   type: APIReference
   url: https://apidocs.beenverified.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beenverified/refs/heads/main/security/beenverified-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/beenverified/security/beenverified-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/beenverified-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beenverified/refs/heads/main/security/beenverified-domain-security.yml
+  href: https://artifacts.apis.io/beenverified/security/beenverified-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beenverified-domain-security.yml
@@ -167,7 +169,7 @@ overview: 'Beenverified publishes 2 API contracts indexed on the [APIs.io](https
 
 
   Beenverified''s developer surface includes API reference, support, pricing, engineering blog, and 18 more developer resources.'
-random_paper: 2
+random_paper: 8
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -183,7 +185,7 @@ rules:
   slug: beenverified-rules
 score:
   band: thin
-  composite: 34.1
+  composite: 34.8
   coverage:
     artifact_dirs: 13
     catalog_earned: 39.5
@@ -199,7 +201,7 @@ score:
     developer_ergonomics: 14.3
     discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 34.1
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,13 +217,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/beenverified/refs/heads/main/screenshots/beenverified-2026-10-11T101732.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/beenverified/beenverified-2026-10-11T101732.png
 security:
 - kind: domain-security
   name: Beenverified Domain Security

@@ -1,0 +1,248 @@
+---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: served
+    consent_identity: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: verified
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 35.1
+  scored_at: '2026-10-31'
+api_count: 2
+apis:
+- description: Cross-Channel Ad Ops Managed Collaboration Protocol (MCP) API.
+  name: AdsAgent MCP
+  slug: adsagent-mcp
+- description: 'adsagent-md API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider''s own document.'
+  name: adsagent-md API
+  slug: adsagent-md-api
+artifact_total: 8
+common:
+- group: commercial
+  href: https://artifacts.apis.io/adsagent-md/plans/adsagent-md-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/adsagent-md-plans-pricing.yml
+- group: design
+  href: https://artifacts.apis.io/adsagent-md/rules/adsagent-md-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/adsagent-md-rules.yml
+- group: design
+  href: https://artifacts.apis.io/adsagent-md/json-ld/adsagent-md-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/adsagent-md-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/adsagent-md/vocabulary/adsagent-md-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/adsagent-md-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/adsagent-md/data-model/adsagent-md-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/adsagent-md-data-model.yml
+- group: design
+  href: https://artifacts.apis.io/adsagent-md/conformance/adsagent-md-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/adsagent-md-conformance.yml
+- group: agent
+  href: https://artifacts.apis.io/adsagent-md/llms/adsagent-md-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/adsagent-md-llms.txt
+- group: agent
+  href: https://artifacts.apis.io/adsagent-md/mcp/adsagent-md-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/adsagent-md-mcp.yml
+- group: auth
+  href: https://artifacts.apis.io/adsagent-md/well-known/adsagent-md-chatgpt-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/adsagent-md-chatgpt-security.txt
+- group: agent
+  href: https://artifacts.apis.io/adsagent-md/well-known/adsagent-md-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/adsagent-md-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/adsagent-md/hosts/adsagent-md-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/adsagent-md-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/adsagent-md/vendors/adsagent-md-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/adsagent-md-vendors.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.adsagent.md/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/AugustLeung
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://adsagent.md/docs/mcp-onboarding
+- group: auth
+  href: https://artifacts.apis.io/adsagent-md/security/adsagent-md-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/adsagent-md-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://adsagent.md/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://adsagent.md/docs
+- group: company
+  title: ''
+  type: Blog
+  url: https://adsagent.md/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://adsagent.md/pricing
+- group: operate
+  title: ''
+  type: Support
+  url: https://adsagent.md/support
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://adsagent.md/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://adsagent.md/terms
+coverage:
+  checked: '2026-10-29'
+  detail: The provider's documentation is publicly accessible but no OpenAPI, AsyncAPI, GraphQL, or other machine‑readable contract is published.
+  evidence:
+  - status: 403
+    url: https://adsagent.md/openapi.json
+  reason: no-machine-readable-spec
+  state: unreadable
+created: '2026-10-29'
+description: AdsAgent (adsagents LLC) provides an AI‑driven ad operations Managed Collaboration Protocol (MCP) that automates reporting and workflow for Meta, Google Ads, and TikTok. Built by a seasoned paid‑media operator, the platform offers hosted, ChatGPT‑integrated tools with human review, OAuth authentication, and a subscription pricing model. It targets marketers and agencies seeking scalable, cross‑channel ad performance insights.
+image: https://adsagent.md/static/favicon-192.png
+json_schemas:
+- name: GetIguseridMediaResponse
+  property_count: 2
+  slug: adsagent-md-get-iguserid-media-response
+jsonld:
+- class_count: 1
+  name: Adsagent Md Context
+  property_count: 2
+  slug: adsagent-md-context
+layout: provider
+mcp_servers:
+- description: Remote MCP server at adsagent.md.
+  name: adsagent-md MCP Server
+  slug: adsagent-md-mcp-yml
+modified: '2026-10-29'
+name: adsagent-md
+nav: Providers
+network: true
+overview: 'adsagent-md is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AdTech, Marketing Automation, AI, and MCP.
+
+
+  The adsagent-md catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  adsagent-md''s developer surface includes getting-started guide, documentation, engineering blog, pricing, support, and 18 more developer resources.'
+plans:
+- name: Adsagent Md Plans Pricing
+  plan_count: 4
+  slug: adsagent-md-plans-pricing
+random_paper: 13
+rules:
+- authorship: generated
+  effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: adsagent-md API Rules
+  rule_count: 10
+  severity_counts:
+    error: 8
+    hint: 0
+    info: 1
+    warn: 1
+  slug: adsagent-md-rules
+score:
+  band: thin
+  composite: 36.0
+  coverage:
+    artifact_dirs: 16
+    catalog_earned: 60.2
+    catalog_earned_first_party: 12.0
+    catalog_gap: 54.9
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 63.2
+    contract_governance: 22.0
+    contract_quality: 16.4
+    developer_ergonomics: 28.6
+    discoverability: 56.7
+    operational_transparency: 31.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: first-party
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 22.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Adsagent Md Domain Security
+  slug: adsagent-md-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: adsagent-md
+tags:
+- Company
+- AdTech
+- Marketing Automation
+- AI
+- MCP
+website: https://adsagent.md/
+---

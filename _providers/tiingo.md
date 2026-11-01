@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: derived
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 21.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,7 +110,7 @@ apis:
   description: The Utilities API from Tiingo — 2 operation(s) for utilities.
   name: Tiingo Utilities API
   slug: tiingo-utilities-api
-artifact_total: 22
+artifact_total: 27
 asyncapis:
 - description: Tiingo's WebSocket streaming interface for real-time market data. Clients subscribe and unsubscribe to data feeds by sending a JSON request containing eventName, an authorization API token, and eventD
   name: Tiingo WebSocket API
@@ -130,12 +132,12 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tiingo/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/agentic-access/tiingo-agentic-access.yml
+  href: https://artifacts.apis.io/tiingo/agentic-access/tiingo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tiingo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/security/tiingo-domain-security.yml
+  href: https://artifacts.apis.io/tiingo/security/tiingo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tiingo-domain-security.yml
@@ -160,17 +162,17 @@ common:
   type: Pricing
   url: https://www.tiingo.com/about/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/plans/tiingo-plans-pricing.yml
+  href: https://artifacts.apis.io/tiingo/plans/tiingo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tiingo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/rate-limits/tiingo-rate-limits.yml
+  href: https://artifacts.apis.io/tiingo/rate-limits/tiingo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tiingo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/finops/tiingo-finops.yml
+  href: https://artifacts.apis.io/tiingo/finops/tiingo-finops.yml
   title: ''
   type: FinOps
   url: finops/tiingo-finops.yml
@@ -179,42 +181,42 @@ common:
   type: Blog
   url: https://www.tiingo.com/blog/feed/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/asyncapi/tiingo-websockets-asyncapi.yml
+  href: https://artifacts.apis.io/tiingo/asyncapi/tiingo-websockets-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/tiingo-websockets-asyncapi.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/packages/tiingo-packages.yml
+  href: https://artifacts.apis.io/tiingo/packages/tiingo-packages.yml
   title: ''
   type: Packages
   url: packages/tiingo-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/mcp/tiingo-mcp.yml
+  href: https://artifacts.apis.io/tiingo/mcp/tiingo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tiingo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/llms/tiingo-llms.txt
+  href: https://artifacts.apis.io/tiingo/llms/tiingo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tiingo-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/overlays/tiingo-openapi-overlay.yaml
+  href: https://artifacts.apis.io/tiingo/overlays/tiingo-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tiingo-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/conformance/tiingo-conformance.yml
+  href: https://artifacts.apis.io/tiingo/conformance/tiingo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tiingo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/errors/tiingo-problem-types.yml
+  href: https://artifacts.apis.io/tiingo/errors/tiingo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tiingo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/lifecycle/tiingo-lifecycle.yml
+  href: https://artifacts.apis.io/tiingo/lifecycle/tiingo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tiingo-lifecycle.yml
@@ -223,32 +225,32 @@ common:
   type: StatusPage
   url: https://status.tiingo.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/changelog/tiingo-changelog.yml
+  href: https://artifacts.apis.io/tiingo/changelog/tiingo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tiingo-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/authentication/tiingo-authentication.yml
+  href: https://artifacts.apis.io/tiingo/authentication/tiingo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tiingo-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/sandbox/tiingo-sandbox.yml
+  href: https://artifacts.apis.io/tiingo/sandbox/tiingo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tiingo-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/conventions/tiingo-conventions.yml
+  href: https://artifacts.apis.io/tiingo/conventions/tiingo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tiingo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/data-model/tiingo-data-model.yml
+  href: https://artifacts.apis.io/tiingo/data-model/tiingo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tiingo-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tiingo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -280,10 +282,10 @@ created: '2026-05-08'
 description: Tiingo provides high-quality financial market data APIs across US equities, crypto, FX, fundamentals, and news, popular among quantitative researchers. APIs include End-of-Day prices, IEX intraday data, Crypto, Forex, Fundamentals, and News, with REST and WebSocket access at api.tiingo.com.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Tiingo Finops
-  primary_unit: ''
-  service_category: Fintech
+  primary_unit: subscription
+  service_category: ''
   slug: tiingo-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tiingo.png
@@ -301,32 +303,35 @@ overview: 'Tiingo publishes 13 API contracts indexed on the [APIs.io](https://ap
   Tiingo''s developer surface includes developer portal, documentation, pricing, engineering blog, changelog, authentication, sandbox, and 27 more developer resources.'
 plans:
 - name: Tiingo Plans Pricing
-  plan_count: 4
+  plan_count: 5
   slug: tiingo-plans-pricing
-random_paper: 12
+- name: Tiingo Price Estimates
+  plan_count: 0
+  slug: tiingo-price-estimates
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Tiingo Rate Limits
   slug: tiingo-rate-limits
 score:
   band: developing
-  composite: 41.9
+  composite: 49.6
   coverage:
     artifact_dirs: 26
-    catalog_earned: 43.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 20.4
     developer_ergonomics: 67.3
     discoverability: 66.1
-    operational_transparency: 34.2
-  previous_composite: 43.4
+    operational_transparency: 44.7
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -343,14 +348,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/screenshots/tiingo-2026-06-20T195345.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tiingo/tiingo-2026-06-20T195345.png
 security:
 - kind: authentication
   name: Tiingo Authentication
@@ -360,6 +365,16 @@ security:
   name: Tiingo Domain Security
   slug: tiingo-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: Snapshot crypto and forex markets
+  slug: tiingo-crypto-fx-snapshot
+- name: Pull end-of-day price history for backtesting
+  slug: tiingo-eod-price-history
+- name: Research company fundamentals
+  slug: tiingo-fundamentals-research
+- name: Scan ticker-tagged market news
+  slug: tiingo-market-news-scan
 slug: tiingo
 tags:
 - Fintech

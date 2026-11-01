@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-17'
+  score: 26.6
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://tones.lisnr.com/
@@ -87,11 +89,8 @@ apis:
   description: The Users API from LISNR — 3 operation(s) for users.
   name: LISNR Users API
   slug: lisnr-users-api
-artifact_total: 23
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LISNR Portal API (observed) Accounts API
   slug: open-lisnr-accounts-api
@@ -124,7 +123,7 @@ collections:
   slug: open-lisnr-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/overlays/lisnr-portal-overlay.yaml
+  href: https://artifacts.apis.io/lisnr/overlays/lisnr-portal-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lisnr-portal-overlay.yaml
@@ -165,67 +164,67 @@ common:
   type: SignUp
   url: https://portal.lisnr.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/authentication/lisnr-authentication.yml
+  href: https://artifacts.apis.io/lisnr/authentication/lisnr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lisnr-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/conventions/lisnr-conventions.yml
+  href: https://artifacts.apis.io/lisnr/conventions/lisnr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lisnr-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/errors/lisnr-problem-types.yml
+  href: https://artifacts.apis.io/lisnr/errors/lisnr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lisnr-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/lifecycle/lisnr-lifecycle.yml
+  href: https://artifacts.apis.io/lisnr/lifecycle/lisnr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lisnr-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/conformance/lisnr-conformance.yml
+  href: https://artifacts.apis.io/lisnr/conformance/lisnr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lisnr-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/packages/lisnr-packages.yml
+  href: https://artifacts.apis.io/lisnr/packages/lisnr-packages.yml
   title: ''
   type: Packages
   url: packages/lisnr-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/packages/lisnr-packages.yml
+  href: https://artifacts.apis.io/lisnr/packages/lisnr-packages.yml
   title: ''
   type: SDKs
   url: packages/lisnr-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/well-known/lisnr-well-known.yml
+  href: https://artifacts.apis.io/lisnr/well-known/lisnr-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lisnr-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/mcp/lisnr-mcp.yml
+  href: https://artifacts.apis.io/lisnr/mcp/lisnr-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lisnr-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/llms/lisnr-llms.txt
+  href: https://artifacts.apis.io/lisnr/llms/lisnr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lisnr-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/data-model/lisnr-data-model.yml
+  href: https://artifacts.apis.io/lisnr/data-model/lisnr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lisnr-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/security/lisnr-domain-security.yml
+  href: https://artifacts.apis.io/lisnr/security/lisnr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lisnr-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lisnr/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -241,10 +240,10 @@ overview: 'LISNR publishes 10 API contracts indexed on the [APIs.io](https://api
 
 
   LISNR''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 2
+random_paper: 0
 score:
   band: emerging
-  composite: 19.1
+  composite: 25.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -252,15 +251,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 4.5
-    contract_quality: 15.0
-    developer_ergonomics: 42.3
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 19.0
+    contract_quality: 13.3
+    developer_ergonomics: 63.7
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 25.9
   provenance:
     conformance: derived
     contracts:
@@ -276,13 +275,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/screenshots/lisnr-2026-07-25T225338.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lisnr/lisnr-2026-07-25T225338.png
 security:
 - kind: authentication
   name: Lisnr Authentication
@@ -292,6 +292,12 @@ security:
   name: Lisnr Domain Security
   slug: lisnr-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Generate a LISNR ultrasonic tone
+  slug: lisnr-generate-tone
+- name: Provision a LISNR application and its tokens
+  slug: lisnr-provision-app-tokens
 slug: lisnr
 tags:
 - Company

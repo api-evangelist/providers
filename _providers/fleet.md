@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-17'
+  score: 26.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,21 +51,23 @@ apis:
   description: The Fleet API from Fleet — 2 operation(s) for fleet.
   name: Fleet API
   slug: fleet-fleet-api
-artifact_total: 9
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Fleet Webhooks
   slug: fleet-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Premium Fleet API
   slug: open-fleet-fleet-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/fleet/plans/fleet-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/fleet-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/mcp/fleet-mcp.yml
+  href: https://artifacts.apis.io/fleet/mcp/fleet-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fleet-mcp.yml
@@ -120,47 +124,47 @@ common:
   type: StatusPage
   url: https://status.fleetdm.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/changelog/fleet-changelog.yml
+  href: https://artifacts.apis.io/fleet/changelog/fleet-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fleet-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/lifecycle/fleet-lifecycle.yml
+  href: https://artifacts.apis.io/fleet/lifecycle/fleet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fleet-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/cli/fleet-cli.yml
+  href: https://artifacts.apis.io/fleet/cli/fleet-cli.yml
   title: ''
   type: CLI
   url: cli/fleet-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/packages/fleet-packages.yml
+  href: https://artifacts.apis.io/fleet/packages/fleet-packages.yml
   title: ''
   type: Packages
   url: packages/fleet-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/authentication/fleet-authentication.yml
+  href: https://artifacts.apis.io/fleet/authentication/fleet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fleet-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/conventions/fleet-conventions.yml
+  href: https://artifacts.apis.io/fleet/conventions/fleet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fleet-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/errors/fleet-problem-types.yml
+  href: https://artifacts.apis.io/fleet/errors/fleet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fleet-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/data-model/fleet-data-model.yml
+  href: https://artifacts.apis.io/fleet/data-model/fleet-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fleet-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/conformance/fleet-conformance.yml
+  href: https://artifacts.apis.io/fleet/conformance/fleet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fleet-conformance.yml
@@ -169,12 +173,12 @@ common:
   type: Compliance
   url: https://trust.fleetdm.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/security/fleet-trust-center.yml
+  href: https://artifacts.apis.io/fleet/security/fleet-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fleet-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/security/fleet-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fleet/security/fleet-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fleet-vulnerability-disclosure.yml
@@ -183,37 +187,45 @@ common:
   type: Security
   url: https://github.com/fleetdm/fleet/blob/main/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/security/fleet-domain-security.yml
+  href: https://artifacts.apis.io/fleet/security/fleet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fleet-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/asyncapi/fleet-webhooks.yml
+  href: https://artifacts.apis.io/fleet/asyncapi/fleet-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fleet-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fleet/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/agentic-access/fleet-agentic-access.yml
+  href: https://artifacts.apis.io/fleet/agentic-access/fleet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fleet-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/overlays/fleet-premium-overlay.yaml
+  href: https://artifacts.apis.io/fleet/overlays/fleet-premium-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fleet-premium-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/llms/fleet-llms.txt
+  href: https://artifacts.apis.io/fleet/llms/fleet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fleet-llms.txt
 created: '2026-07-17'
 description: Fleet is an open-source device management platform built on osquery. It provides cross-platform MDM, endpoint telemetry, vulnerability and patch management, software inventory, and GitOps-driven configuration for macOS, Windows, Linux, iOS, and Android fleets. Fleet exposes a versioned REST API (/api/v1/fleet, bearer-token auth), the fleetctl CLI for live queries and config-as-code, and outbound webhook automations. It is developed in the open at github.com/fleetdm/fleet and backed by CRV.
+finops:
+- has_sources: true
+  method: derived
+  name: Fleet Finops
+  primary_unit: host
+  service_category: ''
+  slug: fleet-finops
+  template: false
 image: https://avatars.githubusercontent.com/u/70264713?v=4
 layout: provider
 modified: '2026-09-16'
@@ -226,27 +238,31 @@ overview: 'Fleet publishes 1 API contract indexed on the [APIs.io](https://apis.
   The Fleet catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fleet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  Fleet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+plans:
+- name: Fleet Plans Pricing
+  plan_count: 3
+  slug: fleet-plans-pricing
 random_paper: 0
 score:
   band: strong
-  composite: 55.2
+  composite: 63.5
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 44.9
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 52.6
-  previous_composite: 55.1
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -263,13 +279,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/screenshots/fleet-2026-07-25T214732.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fleet/fleet-2026-07-25T214732.png
 security:
 - kind: authentication
   name: Fleet Authentication
@@ -287,6 +304,10 @@ security:
   name: Fleet Trust Center
   slug: fleet-trust-center
   summary_line: SOC 2 Type 2, ISO 27001
+skill_count: 1
+skills:
+- name: Manage Fleet teams
+  slug: fleet-manage-teams
 slug: fleet
 tags:
 - Company

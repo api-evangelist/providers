@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.7
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 10
@@ -359,11 +361,8 @@ apis:
   description: The Waiting rooms API from Macrometa — 2 operation(s) for waiting rooms.
   name: Macrometa Waiting rooms API
   slug: macrometa-waiting-rooms-api
-artifact_total: 131
+artifact_total: 134
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Macrometa API Reference Activity Metrics API
   slug: open-macrometa-activity-metrics-api
@@ -555,27 +554,27 @@ collections:
   slug: open-macrometa-waiting-rooms-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/plans/macrometa-plans-pricing.yml
+  href: https://artifacts.apis.io/macrometa/plans/macrometa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/macrometa-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/capabilities/macrometa-capability-edges.yml
+  href: https://artifacts.apis.io/macrometa/capabilities/macrometa-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/macrometa-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/security/macrometa-domain-security.yml
+  href: https://artifacts.apis.io/macrometa/security/macrometa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/macrometa-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/agentic-access/macrometa-agentic-access.yml
+  href: https://artifacts.apis.io/macrometa/agentic-access/macrometa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/macrometa-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/authentication/macrometa-authentication.yml
+  href: https://artifacts.apis.io/macrometa/authentication/macrometa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/macrometa-authentication.yml
@@ -624,67 +623,75 @@ common:
   type: ChangeLog
   url: https://www.macrometa.com/docs/release-notes
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/packages/macrometa-packages.yml
+  href: https://artifacts.apis.io/macrometa/packages/macrometa-packages.yml
   title: ''
   type: Packages
   url: packages/macrometa-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/packages/macrometa-packages.yml
+  href: https://artifacts.apis.io/macrometa/packages/macrometa-packages.yml
   title: ''
   type: SDKs
   url: packages/macrometa-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/cli/macrometa-cli.yml
+  href: https://artifacts.apis.io/macrometa/cli/macrometa-cli.yml
   title: ''
   type: CLI
   url: cli/macrometa-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/lifecycle/macrometa-lifecycle.yml
+  href: https://artifacts.apis.io/macrometa/lifecycle/macrometa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/macrometa-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/llms/macrometa-llms.txt
+  href: https://artifacts.apis.io/macrometa/llms/macrometa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/macrometa-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/mcp/macrometa-mcp.yml
+  href: https://artifacts.apis.io/macrometa/mcp/macrometa-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/macrometa-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/errors/macrometa-problem-types.yml
+  href: https://artifacts.apis.io/macrometa/errors/macrometa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/macrometa-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/conventions/macrometa-conventions.yml
+  href: https://artifacts.apis.io/macrometa/conventions/macrometa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/macrometa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/conformance/macrometa-conformance.yml
+  href: https://artifacts.apis.io/macrometa/conformance/macrometa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/macrometa-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/data-model/macrometa-data-model.yml
+  href: https://artifacts.apis.io/macrometa/data-model/macrometa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/macrometa-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/overlays/macrometa-gdn-overlay.yaml
+  href: https://artifacts.apis.io/macrometa/overlays/macrometa-gdn-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/macrometa-gdn-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/macrometa/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Macrometa is a global data network and edge computing platform. Its Global Data Network (GDN) provides a geo-distributed, serverless NoSQL database, pub/sub streams, complex event processing, and edge functions through a unified REST API plus first-party Python (pyC8) and JavaScript (jsC8) SDKs. Macrometa has since expanded into PhotonIQ, an AI-powered edge delivery suite for web performance and digital operations — prerendering, edge-side tagging, function-as-a-service, digital fingerprinting, virtual waiting rooms, event delivery, and hypersearch. This profile catalogs Macrometa's published OpenAPI surface across the GDN core and the PhotonIQ product family, along with its SDKs, CLI, status page, and developer documentation.
+finops:
+- has_sources: true
+  method: derived
+  name: Macrometa Finops
+  primary_unit: ''
+  service_category: ''
+  slug: macrometa-finops
+  template: true
 image: https://www.macrometa.com/images/opengraph-default-light.png
 layout: provider
 modified: '2026-07-20'
@@ -699,12 +706,12 @@ plans:
 - name: Macrometa Plans Pricing
   plan_count: 1
   slug: macrometa-plans-pricing
-random_paper: 7
+random_paper: 17
 score:
   band: developing
-  composite: 45.9
+  composite: 45.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -714,11 +721,11 @@ score:
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 50.8
+    contract_quality: 48.1
     developer_ergonomics: 73.2
-    discoverability: 78.6
-    operational_transparency: 26.3
-  previous_composite: 45.9
+    discoverability: 71.4
+    operational_transparency: 36.8
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -735,13 +742,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/screenshots/macrometa-2026-07-25T225823.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/macrometa/macrometa-2026-07-25T225823.png
 security:
 - kind: authentication
   name: Macrometa Authentication
@@ -751,6 +759,14 @@ security:
   name: Macrometa Domain Security
   slug: macrometa-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Macrometa API key management
+  slug: macrometa-api-key-management
+- name: Macrometa document store
+  slug: macrometa-document-store
+- name: Macrometa streams pub/sub
+  slug: macrometa-streams-pubsub
 slug: macrometa
 tags:
 - Company

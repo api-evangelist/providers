@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 43.8
-  scored_at: '2026-10-17'
+  score: 45.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -123,45 +125,50 @@ apis:
   description: The Verifications API from Open (open.money) — 1 operation(s) for verifications.
   name: Open (open.money) Verifications API
   slug: open-financial-verifications-api
-artifact_total: 24
+artifact_total: 26
 common:
+- group: commercial
+  href: https://artifacts.apis.io/open-financial/plans/open-financial-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/open-financial-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/agentic-access/open-financial-agentic-access.yml
+  href: https://artifacts.apis.io/open-financial/agentic-access/open-financial-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/open-financial-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/rules/open-financial-rules.yml
+  href: https://artifacts.apis.io/open-financial/rules/open-financial-rules.yml
   title: ''
   type: Spectral
   url: rules/open-financial-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/errors/open-financial-problem-types.yml
+  href: https://artifacts.apis.io/open-financial/errors/open-financial-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/open-financial-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/conformance/open-financial-conformance.yml
+  href: https://artifacts.apis.io/open-financial/conformance/open-financial-conformance.yml
   title: ''
   type: Conformance
   url: conformance/open-financial-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/llms/open-financial-llms.txt
+  href: https://artifacts.apis.io/open-financial/llms/open-financial-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/open-financial-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/well-known/open-financial-well-known.yml
+  href: https://artifacts.apis.io/open-financial/well-known/open-financial-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/open-financial-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/hosts/open-financial-hosts.yml
+  href: https://artifacts.apis.io/open-financial/hosts/open-financial-hosts.yml
   title: ''
   type: Hosts
   url: hosts/open-financial-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/vendors/open-financial-vendors.yml
+  href: https://artifacts.apis.io/open-financial/vendors/open-financial-vendors.yml
   title: ''
   type: Vendors
   url: vendors/open-financial-vendors.yml
@@ -182,12 +189,12 @@ common:
   type: Leadership
   url: https://open.money/company/leadership
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/authentication/open-financial-authentication.yml
+  href: https://artifacts.apis.io/open-financial/authentication/open-financial-authentication.yml
   title: ''
   type: Authentication
   url: authentication/open-financial-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/security/open-financial-domain-security.yml
+  href: https://artifacts.apis.io/open-financial/security/open-financial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/open-financial-domain-security.yml
@@ -254,6 +261,14 @@ common:
 created: '2026-05-24'
 description: Open is one of India's leading SMB neobanks, pioneering "connected banking" - a unified business finance platform that layers payments, automated reconciliation, accounting, payroll, expense management, vendor payouts, and GST-compliant invoicing on top of partner-bank current accounts (ICICI, SBI, Axis Bank, Yes Bank and 20+ others). Beyond its SMB application, Open also ships an embedded-finance / Banking-as-a-Service stack branded as Zwitch (zwitch.io), which exposes the same connected-banking primitives - virtual accounts, payouts via NEFT/IMPS/RTGS, UPI collect and intent flows, the Layer hosted payment gateway, beneficiary management, PAN/bank/VPA verification, webhooks, and split settlements - as REST APIs for fintechs and platforms that want to embed account-to-account payments and Indian payment rails into their own products. Open's broader portfolio also includes BankingStack (white-label connected banking for partner banks), the Open Capital lending product, and a
   suite of e-commerce plugins (WooCommerce, Magento, OpenCart, PrestaShop, CS-Cart, WHMCS) plus PHP, Java, Node.js, iOS, and Android SDKs for the Layer payment gateway.
+finops:
+- has_sources: true
+  method: derived
+  name: Open Financial Finops
+  primary_unit: connected bank account
+  service_category: ''
+  slug: open-financial-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/open-financial.png
 layout: provider
 modified: '2026-05-24'
@@ -266,8 +281,12 @@ overview: 'Open (open.money) publishes 20 API contracts indexed on the [APIs.io]
   The Open (open.money) catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Open (open.money)''s developer surface includes support, authentication, documentation, getting-started guide, developer console, signup flow, GitHub presence, and 22 more developer resources.'
-random_paper: 4
+  Open (open.money)''s developer surface includes support, authentication, documentation, getting-started guide, developer console, signup flow, GitHub presence, and 23 more developer resources.'
+plans:
+- name: Open Financial Plans Pricing
+  plan_count: 5
+  slug: open-financial-plans-pricing
+random_paper: 20
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -283,21 +302,21 @@ rules:
   slug: open-financial-rules
 score:
   band: developing
-  composite: 42.3
+  composite: 54.0
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 41.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 73.5
+    artifact_dirs: 18
+    catalog_earned: 56.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 16.8
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 50.7
-    developer_ergonomics: 54.8
-    discoverability: 76.8
+    developer_ergonomics: 73.8
+    discoverability: 69.6
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -306,7 +325,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 25.5
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -322,13 +341,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/screenshots/open-financial-2026-06-20T190743.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/open-financial/open-financial-2026-06-20T190743.png
 security:
 - kind: authentication
   name: Open Financial Authentication

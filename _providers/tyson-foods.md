@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-17'
+  score: 16.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +55,8 @@ apis:
   description: Shipment tracking operations
   name: Tyson Foods Shipments API
   slug: tyson-foods-shipments-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tyson Foods EDI Integration API
   slug: open-tyson-foods-edi-integration-api
@@ -69,32 +68,32 @@ collections:
   slug: open-tyson-foods-shipments-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/plans/tyson-foods-plans-pricing.yml
+  href: https://artifacts.apis.io/tyson-foods/plans/tyson-foods-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tyson-foods-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/rate-limits/tyson-foods-rate-limits.yml
+  href: https://artifacts.apis.io/tyson-foods/rate-limits/tyson-foods-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tyson-foods-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/finops/tyson-foods-finops.yml
+  href: https://artifacts.apis.io/tyson-foods/finops/tyson-foods-finops.yml
   title: ''
   type: FinOps
   url: finops/tyson-foods-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/capabilities/tyson-foods-capability-edges.yml
+  href: https://artifacts.apis.io/tyson-foods/capabilities/tyson-foods-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tyson-foods-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/agentic-access/tyson-foods-agentic-access.yml
+  href: https://artifacts.apis.io/tyson-foods/agentic-access/tyson-foods-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tyson-foods-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/security/tyson-foods-domain-security.yml
+  href: https://artifacts.apis.io/tyson-foods/security/tyson-foods-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tyson-foods-domain-security.yml
@@ -127,32 +126,32 @@ common:
   type: PrivacyPolicy
   url: https://www.tysonfoods.com/legal/privacy-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/json-ld/tyson-foods-context.jsonld
+  href: https://artifacts.apis.io/tyson-foods/json-ld/tyson-foods-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tyson-foods-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/json-schema/tyson-foods-order-schema.json
+  href: https://artifacts.apis.io/tyson-foods/json-schema/tyson-foods-order-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tyson-foods-order-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/json-schema/tyson-foods-shipment-schema.json
+  href: https://artifacts.apis.io/tyson-foods/json-schema/tyson-foods-shipment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tyson-foods-shipment-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/json-structure/tyson-foods-order-structure.json
+  href: https://artifacts.apis.io/tyson-foods/json-structure/tyson-foods-order-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/tyson-foods-order-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/vocabulary/tyson-foods-vocabulary.yml
+  href: https://artifacts.apis.io/tyson-foods/vocabulary/tyson-foods-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tyson-foods-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/rules/tyson-foods-rules.yml
+  href: https://artifacts.apis.io/tyson-foods/rules/tyson-foods-rules.yml
   title: ''
   type: SpectralRules
   url: rules/tyson-foods-rules.yml
@@ -226,7 +225,7 @@ press:
 - date: ''
   title: Tyson Demo Day Showcases AI Innovations in Food ...
   url: https://www.tysonfoods.com/news/news-releases/2025/7/tyson-demo-day-showcases-ai-innovations-food-technology
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Tyson Foods Rate Limits
@@ -257,7 +256,7 @@ rules:
   slug: tyson-foods-rules
 score:
   band: thin
-  composite: 27.1
+  composite: 31.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 61.0
@@ -265,15 +264,15 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.5
+  delta: 0.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 26.3
     contract_governance: 27.3
     contract_quality: 49.1
-    developer_ergonomics: 2.4
+    developer_ergonomics: 11.9
     discoverability: 73.2
     operational_transparency: 5.3
-  previous_composite: 29.6
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
@@ -286,15 +285,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/screenshots/tyson-foods-2026-06-20T195909.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tyson-foods/tyson-foods-2026-06-20T195909.png
 security:
 - kind: domain-security
   name: Tyson Foods Domain Security

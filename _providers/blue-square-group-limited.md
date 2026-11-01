@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://market-data.grvt.io
@@ -46,7 +48,7 @@ apis:
 - description: Authenticated trading API for GRVT — create/cancel orders (single, bulk, TP/SL, trigger), open orders and order history, fills, positions and position history, margin management, sub-account and fundi
   name: GRVT Trading API
   slug: grvt-trading-api
-artifact_total: 6
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Blue Square Group Limited Streams
@@ -61,7 +63,7 @@ common:
   type: BlogRSS
   url: https://grvt.io/blog/rss/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/security/blue-square-group-limited-domain-security.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/security/blue-square-group-limited-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blue-square-group-limited-domain-security.yml
@@ -82,87 +84,87 @@ common:
   type: GitHubOrganization
   url: https://github.com/gravity-technologies
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/llms/blue-square-group-limited-llms.txt
+  href: https://artifacts.apis.io/blue-square-group-limited/llms/blue-square-group-limited-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blue-square-group-limited-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/packages/blue-square-group-limited-packages.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/packages/blue-square-group-limited-packages.yml
   title: ''
   type: Packages
   url: packages/blue-square-group-limited-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/packages/blue-square-group-limited-packages.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/packages/blue-square-group-limited-packages.yml
   title: ''
   type: SDKs
   url: packages/blue-square-group-limited-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/authentication/blue-square-group-limited-authentication.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/authentication/blue-square-group-limited-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blue-square-group-limited-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/errors/blue-square-group-limited-problem-types.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/errors/blue-square-group-limited-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blue-square-group-limited-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/conventions/blue-square-group-limited-conventions.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/conventions/blue-square-group-limited-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blue-square-group-limited-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/conventions/blue-square-group-limited-conventions.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/conventions/blue-square-group-limited-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/blue-square-group-limited-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/data-model/blue-square-group-limited-data-model.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/data-model/blue-square-group-limited-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blue-square-group-limited-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/sandbox/blue-square-group-limited-sandbox.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/sandbox/blue-square-group-limited-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/blue-square-group-limited-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/asyncapi/blue-square-group-limited-streams.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/asyncapi/blue-square-group-limited-streams.yml
   title: ''
   type: Webhooks
   url: asyncapi/blue-square-group-limited-streams.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/conformance/blue-square-group-limited-conformance.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/conformance/blue-square-group-limited-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blue-square-group-limited-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/mcp/blue-square-group-limited-mcp.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/mcp/blue-square-group-limited-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/blue-square-group-limited-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/lifecycle/blue-square-group-limited-lifecycle.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/lifecycle/blue-square-group-limited-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blue-square-group-limited-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/well-known/blue-square-group-limited-well-known.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/well-known/blue-square-group-limited-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blue-square-group-limited-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/well-known/blue-square-group-limited-security.txt
+  href: https://artifacts.apis.io/blue-square-group-limited/well-known/blue-square-group-limited-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/blue-square-group-limited-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/security/blue-square-group-limited-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/blue-square-group-limited/security/blue-square-group-limited-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/blue-square-group-limited-vulnerability-disclosure.yml
@@ -186,10 +188,10 @@ overview: 'Blue Square Group Limited is listed with 2 APIs on the [APIs.io](http
 
 
   Blue Square Group Limited''s developer surface includes engineering blog, documentation, API reference, authentication, sandbox, and 20 more developer resources.'
-random_paper: 9
+random_paper: 21
 score:
   band: thin
-  composite: 30.2
+  composite: 30.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -197,20 +199,20 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 52.4
-    discoverability: 73.2
-    operational_transparency: 15.8
+    discoverability: 66.1
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - singapore
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 29.7
+  previous_composite: 30.6
   provenance:
     conformance: derived
     mcp: derived
@@ -221,14 +223,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/blue-square-group-limited/refs/heads/main/screenshots/blue-square-group-limited-2026-07-25T203437.png
+screenshot: https://apis.io/screenshots/blue-square-group-limited/blue-square-group-limited-2026-07-25T203437.png
 security:
 - kind: authentication
   name: Blue Square Group Limited Authentication
@@ -242,6 +244,16 @@ security:
   name: Blue Square Group Limited Vulnerability Disclosure
   slug: blue-square-group-limited-vulnerability-disclosure
   summary_line: Bugcrowd · security.txt · contact published
+skill_count: 4
+skills:
+- name: account-management
+  slug: blue-square-group-limited-account-management
+- name: investment
+  slug: blue-square-group-limited-investment
+- name: market-data
+  slug: blue-square-group-limited-market-data
+- name: perpetual-trading
+  slug: blue-square-group-limited-perpetual-trading
 slug: blue-square-group-limited
 tags:
 - Company

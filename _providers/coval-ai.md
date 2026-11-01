@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -105,11 +107,8 @@ apis:
   description: Manage collections of test cases (datasets).
   name: Coval Test Sets API
   slug: coval-ai-test-sets-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Coval Agents API
   slug: open-coval-ai-agents-api
@@ -155,22 +154,22 @@ common:
   type: Pricing
   url: https://www.coval.ai/pricing
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/capabilities/coval-ai-capability-edges.yml
+  href: https://artifacts.apis.io/coval-ai/capabilities/coval-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/coval-ai-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/agentic-access/coval-ai-agentic-access.yml
+  href: https://artifacts.apis.io/coval-ai/agentic-access/coval-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/coval-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/security/coval-ai-domain-security.yml
+  href: https://artifacts.apis.io/coval-ai/security/coval-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coval-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/authentication/coval-ai-authentication.yml
+  href: https://artifacts.apis.io/coval-ai/authentication/coval-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coval-ai-authentication.yml
@@ -191,17 +190,17 @@ common:
   type: Documentation
   url: https://docs.coval.dev
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/plans/coval-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/coval-ai/plans/coval-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/coval-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/rate-limits/coval-ai-rate-limits.yml
+  href: https://artifacts.apis.io/coval-ai/rate-limits/coval-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/coval-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/finops/coval-ai-finops.yml
+  href: https://artifacts.apis.io/coval-ai/finops/coval-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/coval-ai-finops.yml
@@ -233,14 +232,14 @@ plans:
 - name: Coval Ai Plans Pricing
   plan_count: 3
   slug: coval-ai-plans-pricing
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Coval Ai Rate Limits
   slug: coval-ai-rate-limits
 score:
   band: thin
-  composite: 31.5
+  composite: 33.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 52.0
@@ -252,11 +251,11 @@ score:
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
-    contract_quality: 47.5
-    developer_ergonomics: 25.0
+    contract_quality: 44.1
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 31.5
+    operational_transparency: 13.2
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -270,13 +269,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/screenshots/coval-ai-2026-07-25T210547.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/coval-ai/coval-ai-2026-07-25T210547.png
 security:
 - kind: authentication
   name: Coval Ai Authentication

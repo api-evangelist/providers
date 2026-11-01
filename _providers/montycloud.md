@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The tenant-scoped REST API behind the MontyCloud DAY2 platform. Requests are authenticated with an API key and API secret key issued in the DAY2 platform and are scoped to a tenant via the x-tenant-id
@@ -45,20 +47,20 @@ apis:
 - description: 'MontyCloud''s hosted, remote Model Context Protocol server for the DAY2 platform. MontyCloud''s own MCP Server Security Statement places it at the api.montycloud.com endpoint, states it is cloud-hosted '
   name: MontyCloud CloudOps MCP Server
   slug: montycloud-cloudops-mcp-server
-artifact_total: 9
+artifact_total: 11
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/montycloud/refs/heads/main/rate-limits/montycloud-rate-limits.yml
+  href: https://artifacts.apis.io/montycloud/rate-limits/montycloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/montycloud-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/montycloud/refs/heads/main/security/montycloud-trust-center.yml
+  href: https://artifacts.apis.io/montycloud/security/montycloud-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/montycloud-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/montycloud/refs/heads/main/security/montycloud-domain-security.yml
+  href: https://artifacts.apis.io/montycloud/security/montycloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/montycloud-domain-security.yml
@@ -107,12 +109,12 @@ common:
   type: PrivacyPolicy
   url: https://montycloud.com/wp-content/uploads/2025/09/platform-privacy-policy.pdf
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/montycloud/refs/heads/main/conformance/montycloud-conformance.yml
+  href: https://artifacts.apis.io/montycloud/conformance/montycloud-conformance.yml
   title: ''
   type: Compliance
   url: conformance/montycloud-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/montycloud/refs/heads/main/conformance/montycloud-conformance.yml
+  href: https://artifacts.apis.io/montycloud/conformance/montycloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/montycloud-conformance.yml
@@ -121,27 +123,27 @@ common:
   type: Security
   url: https://montycloud.com/data-security-statement/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/montycloud/refs/heads/main/security/montycloud-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/montycloud/security/montycloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/montycloud-vulnerability-disclosure.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/montycloud/refs/heads/main/packages/montycloud-packages.yml
+  href: https://artifacts.apis.io/montycloud/packages/montycloud-packages.yml
   title: ''
   type: Packages
   url: packages/montycloud-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/montycloud/refs/heads/main/llms/montycloud-llms.txt
+  href: https://artifacts.apis.io/montycloud/llms/montycloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/montycloud-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/montycloud/refs/heads/main/well-known/montycloud-well-known.yml
+  href: https://artifacts.apis.io/montycloud/well-known/montycloud-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/montycloud-well-known.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/montycloud/refs/heads/main/plans/montycloud-plans-pricing.yml
+  href: https://artifacts.apis.io/montycloud/plans/montycloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/montycloud-plans-pricing.yml
@@ -151,6 +153,14 @@ common:
   url: https://montycloud.com/company/newsroom/
 created: '2026-08-26'
 description: 'MontyCloud is a Bellevue, Washington software company whose DAY2 platform is a no-code, autonomous CloudOps product for AWS-focused managed service providers and enterprise cloud teams. DAY2 connects to customer AWS (and Azure) accounts through a scoped cross-account IAM role and delivers multi-tenant inventory and discovery, AWS Well-Architected Framework Reviews, compliance and security bots, patching and server management, cost and AWS Billing Conductor reporting, MAP project tracking, blueprints and governance automation. The platform is programmable: MontyCloud publishes a first-party Python SDK and CLI (`day2` on PyPI) against a tenant-scoped REST API at api.montycloud.com, and ships a hosted CloudOps MCP Server so AI agents can drive cloud operations directly. MontyCloud is an AWS Cloud Operations Software Competency and AWS Built-in partner, is SOC 2 Type II audited and GDPR aligned, and also open-sources Moya, a multi-agent orchestration framework.'
+finops:
+- has_sources: true
+  method: derived
+  name: Montycloud Finops
+  primary_unit: server workload
+  service_category: ''
+  slug: montycloud-finops
+  template: false
 image: https://montycloud.com/wp-content/uploads/2025/07/full-color-favicon.svg
 layout: provider
 mcp_servers:
@@ -169,30 +179,33 @@ plans:
 - name: Montycloud Plans Pricing
   plan_count: 3
   slug: montycloud-plans-pricing
-random_paper: 2
+- name: Montycloud Price Estimates
+  plan_count: 0
+  slug: montycloud-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Montycloud Rate Limits
   slug: montycloud-rate-limits
 score:
   band: developing
-  composite: 39.8
+  composite: 42.1
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 49.0
+    artifact_dirs: 19
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 75.8
-    operational_transparency: 13.2
-  previous_composite: 39.7
+    discoverability: 66.7
+    operational_transparency: 15.8
+  previous_composite: 40.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -206,14 +219,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/montycloud/refs/heads/main/screenshots/montycloud-2026-09-02T150629.png
+screenshot: https://apis.io/screenshots/montycloud/montycloud-2026-09-02T150629.png
 security:
 - kind: authentication
   name: Montycloud Authentication

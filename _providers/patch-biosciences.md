@@ -28,8 +28,8 @@ name: Patch Biosciences
 nav: Providers
 network: true
 overview: Patch Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Synthetic Biology, Genetic Medicine, Gene Therapy, and Machine Learning.
-random_paper: 16
-screenshot: https://raw.githubusercontent.com/api-evangelist/patch-biosciences/refs/heads/main/screenshots/patch-biosciences-2026-08-07T191542.png
+random_paper: 4
+screenshot: https://apis.io/screenshots/patch-biosciences/patch-biosciences-2026-08-07T191542.png
 slug: patch-biosciences
 tags:
 - Company

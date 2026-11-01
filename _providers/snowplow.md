@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -63,7 +65,7 @@ apis:
   description: Manage JSON Schema data structures (event schemas) in Snowplow. Data structures define the shape of events tracked in your pipeline. Supports versioning, validation, and deployment to dev/prod registr
   name: Snowplow Data Structures API
   slug: snowplow-data-structures-api
-artifact_total: 27
+artifact_total: 26
 collections:
 - collection_type: postman
   name: Snowplow Console Authentication API
@@ -74,9 +76,6 @@ collections:
 - collection_type: postman
   name: Snowplow Console Authentication Data Structures API
   slug: postman-snowplow-data-structures-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Snowplow Console Authentication API
   slug: open-snowplow-authentication-api
@@ -91,17 +90,17 @@ collections:
   slug: open-snowplow-data-structures-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/plans/snowplow-plans-pricing.yml
+  href: https://artifacts.apis.io/snowplow/plans/snowplow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/snowplow-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/rate-limits/snowplow-rate-limits.yml
+  href: https://artifacts.apis.io/snowplow/rate-limits/snowplow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/snowplow-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/finops/snowplow-finops.yml
+  href: https://artifacts.apis.io/snowplow/finops/snowplow-finops.yml
   title: ''
   type: FinOps
   url: finops/snowplow-finops.yml
@@ -110,22 +109,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/snowplow/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/agentic-access/snowplow-agentic-access.yml
+  href: https://artifacts.apis.io/snowplow/agentic-access/snowplow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/snowplow-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/security/snowplow-trust-center.yml
+  href: https://artifacts.apis.io/snowplow/security/snowplow-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/snowplow-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/security/snowplow-domain-security.yml
+  href: https://artifacts.apis.io/snowplow/security/snowplow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snowplow-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/authentication/snowplow-authentication.yml
+  href: https://artifacts.apis.io/snowplow/authentication/snowplow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/snowplow-authentication.yml
@@ -199,11 +198,11 @@ examples:
   name: Snowplow List Data Structures Example
   slug: snowplow-list-data-structures-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Snowplow Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: snowplow-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/snowplow.png
@@ -239,7 +238,7 @@ plans:
 - name: Snowplow Plans Pricing
   plan_count: 3
   slug: snowplow-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Snowplow Rate Limits
@@ -270,23 +269,23 @@ rules:
   slug: snowplow-rules
 score:
   band: developing
-  composite: 39.4
+  composite: 46.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 53.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 61.5
+    artifact_dirs: 20
+    catalog_earned: 62.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 63.2
     contract_governance: 13.6
     contract_quality: 59.5
-    developer_ergonomics: 39.3
+    developer_ergonomics: 41.7
     discoverability: 64.3
     operational_transparency: 13.2
-  previous_composite: 40.9
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -300,13 +299,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/screenshots/snowplow-2026-06-20T194113.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/snowplow/snowplow-2026-06-20T194113.png
 security:
 - kind: authentication
   name: Snowplow Authentication

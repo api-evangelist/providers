@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -55,24 +57,24 @@ apis:
   description: The Verify API from Smart DCC — 1 operation(s) for verify.
   name: Smart DCC Verify API
   slug: dcc-smart-verify-api
-artifact_total: 8
+artifact_total: 10
 collections:
 - collection_type: open
   name: DCC Boxed DUIS Signing Tool API
   slug: open-dcc-boxed-duis-signing-tool
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/overlays/dcc-smart-dcc-boxed-duis-signing-tool-overlay.yaml
+  href: https://artifacts.apis.io/dcc-smart/overlays/dcc-smart-dcc-boxed-duis-signing-tool-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dcc-smart-dcc-boxed-duis-signing-tool-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dcc-smart/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/mcp/dcc-smart-mcp.yml
+  href: https://artifacts.apis.io/dcc-smart/mcp/dcc-smart-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dcc-smart-mcp.yml
@@ -85,12 +87,12 @@ common:
   type: License
   url: https://github.com/SmartDCCInnovation/dccboxed-signing-tool/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/agentic-access/dcc-smart-agentic-access.yml
+  href: https://artifacts.apis.io/dcc-smart/agentic-access/dcc-smart-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dcc-smart-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/security/dcc-smart-domain-security.yml
+  href: https://artifacts.apis.io/dcc-smart/security/dcc-smart-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dcc-smart-domain-security.yml
@@ -151,32 +153,32 @@ common:
   type: Regulation
   url: https://smartenergycodecompany.co.uk/the-smart-energy-code/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/packages/dcc-smart-packages.yml
+  href: https://artifacts.apis.io/dcc-smart/packages/dcc-smart-packages.yml
   title: ''
   type: Packages
   url: packages/dcc-smart-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/packages/dcc-smart-packages.yml
+  href: https://artifacts.apis.io/dcc-smart/packages/dcc-smart-packages.yml
   title: ''
   type: SDKs
   url: packages/dcc-smart-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/cli/dcc-smart-cli.yml
+  href: https://artifacts.apis.io/dcc-smart/cli/dcc-smart-cli.yml
   title: ''
   type: CLI
   url: cli/dcc-smart-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/components/dcc-smart-components.yml
+  href: https://artifacts.apis.io/dcc-smart/components/dcc-smart-components.yml
   title: ''
   type: Components
   url: components/dcc-smart-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/sandbox/dcc-smart-sandbox.yml
+  href: https://artifacts.apis.io/dcc-smart/sandbox/dcc-smart-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dcc-smart-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/conformance/dcc-smart-conformance.yml
+  href: https://artifacts.apis.io/dcc-smart/conformance/dcc-smart-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dcc-smart-conformance.yml
@@ -185,7 +187,7 @@ common:
   type: Compliance
   url: https://www.smartdcc.co.uk/about-dcc/governance-regulations/governance-reports-policies/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/lifecycle/dcc-smart-lifecycle.yml
+  href: https://artifacts.apis.io/dcc-smart/lifecycle/dcc-smart-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dcc-smart-lifecycle.yml
@@ -194,7 +196,7 @@ common:
   type: StatusPage
   url: https://www.smartdcc.co.uk/our-smart-network/network-data-dashboard/performance/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/changelog/dcc-smart-changelog.yml
+  href: https://artifacts.apis.io/dcc-smart/changelog/dcc-smart-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dcc-smart-changelog.yml
@@ -207,7 +209,7 @@ common:
   type: Roadmap
   url: https://www.smartdcc.co.uk/our-smart-network/network-updates/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/security/dcc-smart-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dcc-smart/security/dcc-smart-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dcc-smart-vulnerability-disclosure.yml
@@ -216,22 +218,22 @@ common:
   type: Security
   url: https://www.smartdcc.co.uk/media/sn5dn4hr/information-security-policy-3.pdf
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/well-known/dcc-smart-well-known.yml
+  href: https://artifacts.apis.io/dcc-smart/well-known/dcc-smart-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dcc-smart-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/llms/dcc-smart-llms.txt
+  href: https://artifacts.apis.io/dcc-smart/llms/dcc-smart-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dcc-smart-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/vocabulary/dcc-smart-vocabulary.yml
+  href: https://artifacts.apis.io/dcc-smart/vocabulary/dcc-smart-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/dcc-smart-vocabulary.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/json-schema/dcc-smart-dccboxed-keystore-schema.json
+  href: https://artifacts.apis.io/dcc-smart/json-schema/dcc-smart-dccboxed-keystore-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/dcc-smart-dccboxed-keystore-schema.json
@@ -264,10 +266,10 @@ overview: 'Smart DCC publishes 2 API contracts indexed on the [APIs.io](https://
 
 
   Smart DCC''s developer surface includes engineering blog, documentation, CLI, sandbox, changelog, support, pricing, and 35 more developer resources.'
-random_paper: 14
+random_paper: 6
 score:
   band: developing
-  composite: 44.8
+  composite: 45.1
   coverage:
     artifact_dirs: 25
     catalog_earned: 33.3
@@ -281,8 +283,8 @@ score:
     contract_governance: 22.0
     contract_quality: 43.5
     developer_ergonomics: 51.8
-    discoverability: 64.3
-    operational_transparency: 50.0
+    discoverability: 57.1
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -291,7 +293,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 44.8
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -314,13 +316,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/screenshots/dcc-smart-2026-08-07T164213.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dcc-smart/dcc-smart-2026-08-07T164213.png
 security:
 - kind: authentication
   name: Dcc Smart Authentication
@@ -334,6 +337,12 @@ security:
   name: Dcc Smart Vulnerability Disclosure
   slug: dcc-smart-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 2
+skills:
+- name: Sign a DUIS request with the DCC Boxed signing tool
+  slug: dcc-smart-sign-duis-request
+- name: Verify a DUIS response and strip its signature
+  slug: dcc-smart-verify-duis-response
 slug: dcc-smart
 tags:
 - Energy

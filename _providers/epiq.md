@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The AACER API enables real-time bankruptcy case information to be electronically transmitted system-to-system, integrating with the industry's largest servicing applications and proprietary systems. S
@@ -52,7 +54,7 @@ common:
   type: Blog
   url: https://www.epiqglobal.com/en-us/about-us/newsroom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epiq/refs/heads/main/security/epiq-domain-security.yml
+  href: https://artifacts.apis.io/epiq/security/epiq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/epiq-domain-security.yml
@@ -120,7 +122,7 @@ plans:
 - name: Epiq Plans Pricing
   plan_count: 3
   slug: epiq-plans-pricing
-random_paper: 13
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Epiq Rate Limits
@@ -135,7 +137,7 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -143,21 +145,21 @@ score:
     developer_ergonomics: 21.4
     discoverability: 71.4
     operational_transparency: 0.0
-  previous_composite: 21.2
+  previous_composite: 16.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/epiq/refs/heads/main/screenshots/epiq-2026-06-20T180757.png
+screenshot: https://apis.io/screenshots/epiq/epiq-2026-06-20T180757.png
 security:
 - kind: domain-security
   name: Epiq Domain Security

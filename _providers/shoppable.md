@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.2
-  scored_at: '2026-10-17'
+  score: 28.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: The Products API from Shoppable — 1 operation(s) for products.
   name: Shoppable Products API
   slug: shoppable-products-api
-artifact_total: 17
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Shoppable Commerce API Suite Catalog API
   slug: open-shoppable-catalog-api
@@ -99,47 +98,52 @@ collections:
   name: Shoppable Commerce API Suite Catalog Products API
   slug: open-shoppable-products-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/shoppable/plans/shoppable-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/shoppable-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://about.shoppable.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/overlays/shoppable-cloud-overlay.yaml
+  href: https://artifacts.apis.io/shoppable/overlays/shoppable-cloud-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shoppable-cloud-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/security/shoppable-domain-security.yml
+  href: https://artifacts.apis.io/shoppable/security/shoppable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shoppable-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/agentic-access/shoppable-agentic-access.yml
+  href: https://artifacts.apis.io/shoppable/agentic-access/shoppable-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shoppable-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/authentication/shoppable-authentication.yml
+  href: https://artifacts.apis.io/shoppable/authentication/shoppable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shoppable-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/mcp/shoppable-mcp.yml
+  href: https://artifacts.apis.io/shoppable/mcp/shoppable-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/shoppable-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/conventions/shoppable-conventions.yml
+  href: https://artifacts.apis.io/shoppable/conventions/shoppable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shoppable-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/conformance/shoppable-conformance.yml
+  href: https://artifacts.apis.io/shoppable/conformance/shoppable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shoppable-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/lifecycle/shoppable-lifecycle.yml
+  href: https://artifacts.apis.io/shoppable/lifecycle/shoppable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shoppable-lifecycle.yml
@@ -148,17 +152,17 @@ common:
   type: StatusPage
   url: https://status.shoppable.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/changelog/shoppable-changelog.yml
+  href: https://artifacts.apis.io/shoppable/changelog/shoppable-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/shoppable-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/shoppable/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/llms/shoppable-llms.txt
+  href: https://artifacts.apis.io/shoppable/llms/shoppable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shoppable-llms.txt
@@ -208,6 +212,14 @@ common:
   url: https://shoppable.com
 created: '2026-07-17'
 description: Shoppable is embeddable commerce infrastructure that lets shoppers buy any product from any retailer in a single universal cart without leaving the content they are in. Founded in 2011 by Heather Udo, the company powers off-site commerce across editorial content, social media, ads, connected TV, email, and emerging AI/agentic channels through a single integration. Its Shoppable Commerce API Suite (OpenAPI 3.0) exposes product lookup, catalog search, merchant data, order data, and a universal v6 checkout backed by Stripe tokenization, plus a hosted Model Context Protocol (MCP) server for agentic commerce. Shoppable holds four U.S. patents for universal checkout and is backed by 500 Global, MI Ventures, and Bodley Group.
+finops:
+- has_sources: true
+  method: derived
+  name: Shoppable Finops
+  primary_unit: month, billed annually
+  service_category: ''
+  slug: shoppable-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shoppable.png
 layout: provider
 mcp_servers:
@@ -221,27 +233,34 @@ network: true
 overview: 'Shoppable publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Catalog API, Checkout API, Merchants API, and 3 more. Tagged areas include Company, Commerce, E-Commerce, Checkout, and Catalog.
 
 
-  Shoppable''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 17 more developer resources.'
-random_paper: 12
+  Shoppable''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 18 more developer resources.'
+plans:
+- name: Shoppable Plans Pricing
+  plan_count: 4
+  slug: shoppable-plans-pricing
+- name: Shoppable Price Estimates
+  plan_count: 0
+  slug: shoppable-price-estimates
+random_paper: 22
 score:
   band: developing
-  composite: 42.9
+  composite: 53.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 31.6
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 48.8
-    developer_ergonomics: 62.5
-    discoverability: 75.0
+    developer_ergonomics: 66.1
+    discoverability: 65.0
     operational_transparency: 31.6
-  previous_composite: 42.9
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,13 +277,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/screenshots/shoppable-2026-08-17T081841.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/shoppable/shoppable-2026-08-17T081841.png
 security:
 - kind: authentication
   name: Shoppable Authentication
@@ -274,6 +294,12 @@ security:
   name: Shoppable Domain Security
   slug: shoppable-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Look up order status
+  slug: shoppable-order-lookup
+- name: Search the catalog and complete a checkout
+  slug: shoppable-search-and-checkout
 slug: shoppable
 tags:
 - Company

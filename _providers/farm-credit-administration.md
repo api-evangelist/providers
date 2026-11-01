@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,16 +37,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Public, anonymous Esri ArcGIS Server 12.0 REST services publishing the geography of the Farm Credit System: 55 ACA/FLCA institution headquarters (charter address, phone, county, CEO and chair surnames'
   name: FCA Farm Credit System Map Services
   slug: fca-farm-credit-system-map-services
-artifact_total: 10
+artifact_total: 11
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/security/farm-credit-administration-domain-security.yml
+  href: https://artifacts.apis.io/farm-credit-administration/security/farm-credit-administration-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/farm-credit-administration-domain-security.yml
@@ -77,12 +79,12 @@ common:
   type: PrivacyPolicy
   url: https://www.fca.gov/required-notices/web-site-notices-and-policies
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/security/farm-credit-administration-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/farm-credit-administration/security/farm-credit-administration-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/farm-credit-administration-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/security/farm-credit-administration-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/farm-credit-administration/security/farm-credit-administration-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/farm-credit-administration-vulnerability-disclosure.yml
@@ -159,62 +161,62 @@ common:
   type: YouTube
   url: https://www.youtube.com/channel/UCMLBjEdJAom6CaT3xRWV6oQ
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/llms/farm-credit-administration-llms.txt
+  href: https://artifacts.apis.io/farm-credit-administration/llms/farm-credit-administration-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/farm-credit-administration-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/authentication/farm-credit-administration-authentication.yml
+  href: https://artifacts.apis.io/farm-credit-administration/authentication/farm-credit-administration-authentication.yml
   title: ''
   type: Authentication
   url: authentication/farm-credit-administration-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/conventions/farm-credit-administration-conventions.yml
+  href: https://artifacts.apis.io/farm-credit-administration/conventions/farm-credit-administration-conventions.yml
   title: ''
   type: Conventions
   url: conventions/farm-credit-administration-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/errors/farm-credit-administration-problem-types.yml
+  href: https://artifacts.apis.io/farm-credit-administration/errors/farm-credit-administration-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/farm-credit-administration-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/data-model/farm-credit-administration-data-model.yml
+  href: https://artifacts.apis.io/farm-credit-administration/data-model/farm-credit-administration-data-model.yml
   title: ''
   type: DataModel
   url: data-model/farm-credit-administration-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/conformance/farm-credit-administration-conformance.yml
+  href: https://artifacts.apis.io/farm-credit-administration/conformance/farm-credit-administration-conformance.yml
   title: ''
   type: Conformance
   url: conformance/farm-credit-administration-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/rate-limits/farm-credit-administration-rate-limits.yml
+  href: https://artifacts.apis.io/farm-credit-administration/rate-limits/farm-credit-administration-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/farm-credit-administration-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/plans/farm-credit-administration-plans-pricing.yml
+  href: https://artifacts.apis.io/farm-credit-administration/plans/farm-credit-administration-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/farm-credit-administration-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/lifecycle/farm-credit-administration-lifecycle.yml
+  href: https://artifacts.apis.io/farm-credit-administration/lifecycle/farm-credit-administration-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/farm-credit-administration-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/packages/farm-credit-administration-packages.yml
+  href: https://artifacts.apis.io/farm-credit-administration/packages/farm-credit-administration-packages.yml
   title: ''
   type: Packages
   url: packages/farm-credit-administration-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/farm-credit-administration/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/examples/farm-credit-administration-hq-query-geojson.json
+  href: https://artifacts.apis.io/farm-credit-administration/examples/farm-credit-administration-hq-query-geojson.json
   title: ''
   type: Examples
   url: examples/farm-credit-administration-hq-query-geojson.json
@@ -251,7 +253,7 @@ rate_limits:
   slug: farm-credit-administration-rate-limits
 score:
   band: emerging
-  composite: 21.8
+  composite: 21.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -265,14 +267,14 @@ score:
     contract_governance: 18.2
     contract_quality: 6.5
     developer_ergonomics: 25.6
-    discoverability: 74.1
+    discoverability: 67.9
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 21.8
+  previous_composite: 21.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -283,14 +285,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/screenshots/farm-credit-administration-2026-06-20T181040.png
+screenshot: https://apis.io/screenshots/farm-credit-administration/farm-credit-administration-2026-06-20T181040.png
 security:
 - kind: authentication
   name: Farm Credit Administration Authentication
@@ -308,6 +310,10 @@ security:
   name: Farm Credit Administration Trust Center
   slug: farm-credit-administration-trust-center
   summary_line: trust center published
+skill_count: 1
+skills:
+- name: fcs-institution-lookup
+  slug: farm-credit-administration-fcs-institution-lookup
 slug: farm-credit-administration
 tags:
 - Agriculture

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -86,12 +88,12 @@ common:
   type: ChangeLog
   url: https://docs.kubeark.com/release-notes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kubeark/refs/heads/main/changelog/kubeark-changelog.yml
+  href: https://artifacts.apis.io/kubeark/changelog/kubeark-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kubeark-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubeark/refs/heads/main/lifecycle/kubeark-lifecycle.yml
+  href: https://artifacts.apis.io/kubeark/lifecycle/kubeark-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kubeark-lifecycle.yml
@@ -100,37 +102,37 @@ common:
   type: Deprecation
   url: https://docs.kubeark.com/product-lifecycle
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kubeark/refs/heads/main/authentication/kubeark-authentication.yml
+  href: https://artifacts.apis.io/kubeark/authentication/kubeark-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kubeark-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubeark/refs/heads/main/conformance/kubeark-conformance.yml
+  href: https://artifacts.apis.io/kubeark/conformance/kubeark-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kubeark-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubeark/refs/heads/main/conventions/kubeark-conventions.yml
+  href: https://artifacts.apis.io/kubeark/conventions/kubeark-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kubeark-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubeark/refs/heads/main/asyncapi/kubeark-webhooks.yml
+  href: https://artifacts.apis.io/kubeark/asyncapi/kubeark-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kubeark-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubeark/refs/heads/main/data-model/kubeark-data-model.yml
+  href: https://artifacts.apis.io/kubeark/data-model/kubeark-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kubeark-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kubeark/refs/heads/main/security/kubeark-domain-security.yml
+  href: https://artifacts.apis.io/kubeark/security/kubeark-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kubeark-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kubeark/refs/heads/main/llms/kubeark-llms.txt
+  href: https://artifacts.apis.io/kubeark/llms/kubeark-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kubeark-llms.txt
@@ -150,10 +152,10 @@ overview: 'Kubeark is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kubeark''s developer surface includes documentation, getting-started guide, engineering blog, support, changelog, authentication, and 15 more developer resources.'
-random_paper: 15
+random_paper: 21
 score:
   band: thin
-  composite: 32.8
+  composite: 35.3
   coverage:
     artifact_dirs: 14
     catalog_earned: 27.0
@@ -161,15 +163,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 44.2
-    developer_ergonomics: 33.3
-    discoverability: 55.4
-    operational_transparency: 34.2
-  previous_composite: 32.7
+    contract_quality: 39.0
+    developer_ergonomics: 40.5
+    discoverability: 48.2
+    operational_transparency: 36.8
+  previous_composite: 35.3
   provenance:
     conformance: first-party
   regulatory:
@@ -177,15 +179,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kubeark/refs/heads/main/screenshots/kubeark-2026-07-25T224325.png
+screenshot: https://apis.io/screenshots/kubeark/kubeark-2026-07-25T224325.png
 security:
 - kind: authentication
   name: Kubeark Authentication

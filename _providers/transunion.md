@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-10-17'
+  score: 31.2
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: TransUnion's API products for credit reporting, identity verification, fraud prevention and consumer risk decisioning. Access requires a business agreement with TransUnion and credentials issued by an
@@ -67,7 +69,7 @@ apis:
   description: The Verification Service with Call Validation Treatment (CVT) API from TransUnion — 1 operation(s) for verification service with call validation treatment (cvt).
   name: TransUnion Verification Service with Call Validation Treatment (CVT) API
   slug: transunion-verification-service-with-call-validation-treatment-cvt-api
-artifact_total: 14
+artifact_total: 16
 collections:
 - collection_type: open
   name: 3GPP-based Call Authentication APIs
@@ -77,22 +79,22 @@ collections:
   slug: open-transunion-trucontact-tcs-shaken
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/overlays/transunion-trucontact-tcs-shaken-overlay.yaml
+  href: https://artifacts.apis.io/transunion/overlays/transunion-trucontact-tcs-shaken-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/transunion-trucontact-tcs-shaken-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/overlays/transunion-trucontact-3gpp-call-authentication-overlay.yaml
+  href: https://artifacts.apis.io/transunion/overlays/transunion-trucontact-3gpp-call-authentication-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/transunion-trucontact-3gpp-call-authentication-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/security/transunion-domain-security.yml
+  href: https://artifacts.apis.io/transunion/security/transunion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/transunion-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/security/transunion-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/transunion/security/transunion-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/transunion-vulnerability-disclosure.yml
@@ -101,62 +103,62 @@ common:
   type: Security
   url: https://hackerone.com/transunion
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/authentication/transunion-authentication.yml
+  href: https://artifacts.apis.io/transunion/authentication/transunion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/transunion-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/errors/transunion-problem-types.yml
+  href: https://artifacts.apis.io/transunion/errors/transunion-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/transunion-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/conventions/transunion-conventions.yml
+  href: https://artifacts.apis.io/transunion/conventions/transunion-conventions.yml
   title: ''
   type: Conventions
   url: conventions/transunion-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/conformance/transunion-conformance.yml
+  href: https://artifacts.apis.io/transunion/conformance/transunion-conformance.yml
   title: ''
   type: Conformance
   url: conformance/transunion-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/lifecycle/transunion-lifecycle.yml
+  href: https://artifacts.apis.io/transunion/lifecycle/transunion-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/transunion-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/data-model/transunion-data-model.yml
+  href: https://artifacts.apis.io/transunion/data-model/transunion-data-model.yml
   title: ''
   type: DataModel
   url: data-model/transunion-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/packages/transunion-packages.yml
+  href: https://artifacts.apis.io/transunion/packages/transunion-packages.yml
   title: ''
   type: Packages
   url: packages/transunion-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/packages/transunion-packages.yml
+  href: https://artifacts.apis.io/transunion/packages/transunion-packages.yml
   title: ''
   type: SDKs
   url: packages/transunion-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/transunion/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/llms/transunion-llms.txt
+  href: https://artifacts.apis.io/transunion/llms/transunion-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/transunion-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/plans/transunion-plans-pricing.yml
+  href: https://artifacts.apis.io/transunion/plans/transunion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/transunion-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/rate-limits/transunion-rate-limits.yml
+  href: https://artifacts.apis.io/transunion/rate-limits/transunion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/transunion-rate-limits.yml
@@ -212,14 +214,14 @@ plans:
 - name: Transunion Plans Pricing
   plan_count: 0
   slug: transunion-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Transunion Rate Limits
   slug: transunion-rate-limits
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 27.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 32.0
@@ -233,9 +235,9 @@ score:
     contract_governance: 4.5
     contract_quality: 43.7
     developer_ergonomics: 39.9
-    discoverability: 58.0
-    operational_transparency: 13.2
-  previous_composite: 26.1
+    discoverability: 58.9
+    operational_transparency: 15.8
+  previous_composite: 27.2
   provenance:
     conformance: derived
     contracts:
@@ -251,13 +253,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 19.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/screenshots/transunion-2026-06-20T195631.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/transunion/transunion-2026-06-20T195631.png
 security:
 - kind: authentication
   name: Transunion Authentication
@@ -271,6 +274,12 @@ security:
   name: Transunion Vulnerability Disclosure
   slug: transunion-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 2
+skills:
+- name: Sign an outbound call with a SHAKEN PASSporT
+  slug: transunion-sign-outbound-call
+- name: Verify an inbound call and apply Call Validation Treatment
+  slug: transunion-verify-inbound-call
 slug: transunion
 tags:
 - Finance

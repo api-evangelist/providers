@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
-    spec_presence: true
+    reversibility_documented: false
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.9
-  scored_at: '2026-10-17'
+  score: 6.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,51 +49,32 @@ apis:
 - description: The Companies House Streaming API delivers real-time changes to Companies House data via long-running HTTP connections. It streams updates across nine data categories including company information, fi
   name: Companies House Streaming API
   slug: companies-house-streaming-api
-- baseURL: https://api.company-information.service.gov.uk
-  baseurl_source: declared
-  description: Charges
+- description: Charges
   name: Companies House Charges API
   slug: companies-house-charges-api
-- baseURL: https://api.company-information.service.gov.uk
-  baseurl_source: declared
-  description: Filing history
+- description: Filing history
   name: Companies House Filing History API
   slug: companies-house-filinghistory-api
-- baseURL: https://api.company-information.service.gov.uk
-  baseurl_source: declared
-  description: Insolvency
+- description: Insolvency
   name: Companies House Insolvency API
   slug: companies-house-insolvency-api
-- baseURL: https://api.company-information.service.gov.uk
-  baseurl_source: declared
-  description: Officer disqualifications
+- description: Officer disqualifications
   name: Companies House Officer Disqualifications API
   slug: companies-house-officerdisqualifications-api
-- baseURL: https://api.company-information.service.gov.uk
-  baseurl_source: declared
-  description: Officers
+- description: Officers
   name: Companies House Officers API
   slug: companies-house-officers-api
-- baseURL: https://api.company-information.service.gov.uk
-  baseurl_source: declared
-  description: Persons with significant control
+- description: Persons with significant control
   name: Companies House Persons With Significant Control API
   slug: companies-house-personswithsignificantcontrol-api
-- baseURL: https://api.company-information.service.gov.uk
-  baseurl_source: declared
-  description: Registered office address
+- description: Registered office address
   name: Companies House Registered Office Address API
   slug: companies-house-registeredofficeaddress-api
-- baseURL: https://api.company-information.service.gov.uk
-  baseurl_source: declared
-  description: Search
+- description: Search
   name: Companies House Search API
   slug: companies-house-search-api
-artifact_total: 155
+artifact_total: 154
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Companies House Public Data charges API
   slug: open-companies-house-charges-api
@@ -117,23 +100,28 @@ collections:
   name: Companies House Public Data charges search API
   slug: open-companies-house-search-api
 common:
+- group: other
+  href: https://artifacts.apis.io/companies-house/capabilities/companies-house-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/companies-house-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/agentic-access/companies-house-agentic-access.yml
+  href: https://artifacts.apis.io/companies-house/agentic-access/companies-house-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/companies-house-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/security/companies-house-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/companies-house/security/companies-house-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/companies-house-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/security/companies-house-domain-security.yml
+  href: https://artifacts.apis.io/companies-house/security/companies-house-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/companies-house-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/authentication/companies-house-authentication.yml
+  href: https://artifacts.apis.io/companies-house/authentication/companies-house-authentication.yml
   title: ''
   type: Authentication
   url: authentication/companies-house-authentication.yml
@@ -178,27 +166,27 @@ common:
   type: Authentication
   url: https://developer-specs.company-information.service.gov.uk/guides/authorisation
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/plans/companies-house-plans-pricing.yml
+  href: https://artifacts.apis.io/companies-house/plans/companies-house-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/companies-house-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/rate-limits/companies-house-rate-limits.yml
+  href: https://artifacts.apis.io/companies-house/rate-limits/companies-house-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/companies-house-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/finops/companies-house-finops.yml
+  href: https://artifacts.apis.io/companies-house/finops/companies-house-finops.yml
   title: ''
   type: FinOps
   url: finops/companies-house-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/vocabulary/companies-house-vocabulary.yml
+  href: https://artifacts.apis.io/companies-house/vocabulary/companies-house-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/companies-house-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/json-ld/companies-house-context.jsonld
+  href: https://artifacts.apis.io/companies-house/json-ld/companies-house-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/companies-house-context.jsonld
@@ -207,7 +195,7 @@ common:
   type: BlogRSS
   url: https://companieshouse.blog.gov.uk/feed/
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/companies-house/blogs/blogs.json
   title: ''
   type: BlogIndex
   url: blogs/blogs.json
@@ -618,18 +606,18 @@ modified: '2026-06-12'
 name: Companies House
 nav: Providers
 network: true
-overview: 'Companies House publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Charges API, Filing History API, Insolvency API, and 6 more. Tagged areas include Companies, UK Government, Business Registration, Company Search, and Officers.
+overview: 'Companies House publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network. Tagged areas include Companies, UK Government, Business Registration, Company Search, and Officers.
 
 
   The Companies House catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Companies House''s developer surface includes authentication, documentation, engineering blog, pricing, and 17 more developer resources.'
+  Companies House''s developer surface includes authentication, documentation, engineering blog, pricing, and 18 more developer resources.'
 plans:
 - name: Companies House Plans Pricing
   plan_count: 2
   slug: companies-house-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Companies House Rate Limits
@@ -648,44 +636,44 @@ rules:
   slug: companies-house-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.0
+  composite: 32.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 62.2
     catalog_earned_first_party: 0.0
     catalog_gap: 52.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.2
+  delta: -7.6
   facets:
     access_clarity: 15.8
     contract_governance: 23.5
-    contract_quality: 59.7
+    contract_quality: 30.4
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 44.2
+    operational_transparency: 36.8
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 9
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: falling
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/screenshots/companies-house-2026-06-20T174828.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/companies-house/companies-house-2026-06-20T174828.png
 security:
 - kind: authentication
   name: Companies House Authentication

@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.4
-  scored_at: '2026-10-17'
+  score: 29.2
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST API for B2B data enrichment (emails, phones, profile/company enrichment, verification, search, SIRET/SIREN). Bearer API-key auth; requires Standard plan or above.
@@ -32,94 +34,94 @@ apis:
 - description: Hosted streamable-HTTP MCP server exposing 12 enrichment tools; also available as a local npm package (derrick-mcp). Bearer API-key auth; requires Standard plan or above.
   name: Derrick MCP Server
   slug: derrick-mcp-server
-artifact_total: 8
+artifact_total: 11
 common:
 - group: company
   title: ''
   type: Website
   url: https://derrick-app.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/security/derrick-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/derrick/security/derrick-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/derrick-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/security/derrick-domain-security.yml
+  href: https://artifacts.apis.io/derrick/security/derrick-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/derrick-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/security/derrick-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/derrick/security/derrick-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/derrick-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/well-known/derrick-well-known.yml
+  href: https://artifacts.apis.io/derrick/well-known/derrick-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/derrick-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/well-known/derrick-security.txt
+  href: https://artifacts.apis.io/derrick/well-known/derrick-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/derrick-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/mcp/derrick-mcp.yml
+  href: https://artifacts.apis.io/derrick/mcp/derrick-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/derrick-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/llms/derrick-llms.txt
+  href: https://artifacts.apis.io/derrick/llms/derrick-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/derrick-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/packages/derrick-packages.yml
+  href: https://artifacts.apis.io/derrick/packages/derrick-packages.yml
   title: ''
   type: Packages
   url: packages/derrick-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/plans/derrick-plans-pricing.yml
+  href: https://artifacts.apis.io/derrick/plans/derrick-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/derrick-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/rate-limits/derrick-rate-limits.yml
+  href: https://artifacts.apis.io/derrick/rate-limits/derrick-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/derrick-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/authentication/derrick-authentication.yml
+  href: https://artifacts.apis.io/derrick/authentication/derrick-authentication.yml
   title: ''
   type: Authentication
   url: authentication/derrick-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/conformance/derrick-conformance.yml
+  href: https://artifacts.apis.io/derrick/conformance/derrick-conformance.yml
   title: ''
   type: Conformance
   url: conformance/derrick-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/conventions/derrick-conventions.yml
+  href: https://artifacts.apis.io/derrick/conventions/derrick-conventions.yml
   title: ''
   type: Conventions
   url: conventions/derrick-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/errors/derrick-problem-types.yml
+  href: https://artifacts.apis.io/derrick/errors/derrick-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/derrick-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/lifecycle/derrick-lifecycle.yml
+  href: https://artifacts.apis.io/derrick/lifecycle/derrick-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/derrick-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/changelog/derrick-changelog.yml
+  href: https://artifacts.apis.io/derrick/changelog/derrick-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/derrick-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/derrick/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -167,14 +169,14 @@ plans:
 - name: Derrick Plans Pricing
   plan_count: 6
   slug: derrick-plans-pricing
-random_paper: 14
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Derrick Rate Limits
   slug: derrick-rate-limits
 score:
   band: thin
-  composite: 35.8
+  composite: 36.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 57.0
@@ -182,15 +184,15 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 60.5
+    access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 25.6
-    discoverability: 75.0
-    operational_transparency: 55.3
-  previous_composite: 35.7
+    discoverability: 71.7
+    operational_transparency: 57.9
+  previous_composite: 36.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -201,14 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/screenshots/derrick-2026-10-11T184704.png
+screenshot: https://apis.io/screenshots/derrick/derrick-2026-10-11T184704.png
 security:
 - kind: authentication
   name: Derrick Authentication
@@ -222,6 +224,14 @@ security:
   name: Derrick Vulnerability Disclosure
   slug: derrick-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: derrick-build-target-account-list
+  slug: derrick-build-target-account-list
+- name: derrick-enrich-lead-contact-info
+  slug: derrick-enrich-lead-contact-info
+- name: derrick-french-company-registry
+  slug: derrick-french-company-registry
 slug: derrick
 tags:
 - Data Enrichment

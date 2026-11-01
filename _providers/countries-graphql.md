@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A public, free GraphQL endpoint that exposes queryable fields for countries, continents, and languages. Countries can be filtered by code, currency, or continent, and each country record includes fiel
@@ -41,7 +43,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/countries-graphql/refs/heads/main/security/countries-graphql-domain-security.yml
+  href: https://artifacts.apis.io/countries-graphql/security/countries-graphql-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/countries-graphql-domain-security.yml
@@ -66,17 +68,17 @@ common:
   type: Pricing
   url: https://github.com/trevorblades/countries#readme
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/countries-graphql/refs/heads/main/plans/countries-graphql-plans.md
+  href: https://artifacts.apis.io/countries-graphql/plans/countries-graphql-plans.md
   title: ''
   type: Plans
   url: plans/countries-graphql-plans.md
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/countries-graphql/refs/heads/main/rate-limits/countries-graphql-rate-limits.md
+  href: https://artifacts.apis.io/countries-graphql/rate-limits/countries-graphql-rate-limits.md
   title: ''
   type: RateLimits
   url: rate-limits/countries-graphql-rate-limits.md
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/countries-graphql/refs/heads/main/finops/countries-graphql-finops.md
+  href: https://artifacts.apis.io/countries-graphql/finops/countries-graphql-finops.md
   title: ''
   type: FinOps
   url: finops/countries-graphql-finops.md
@@ -96,7 +98,7 @@ overview: 'Countries GraphQL API is listed with 1 API on the [APIs.io](https://a
 
 
   Countries GraphQL API''s developer surface includes documentation, pricing, and 7 more developer resources.'
-random_paper: 2
+random_paper: 8
 score:
   band: emerging
   composite: 17.5
@@ -122,14 +124,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/countries-graphql/refs/heads/main/screenshots/countries-graphql-2026-06-20T175102.png
+screenshot: https://apis.io/screenshots/countries-graphql/countries-graphql-2026-06-20T175102.png
 security:
 - kind: domain-security
   name: Countries Graphql Domain Security

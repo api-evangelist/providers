@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -69,11 +71,8 @@ apis:
   description: Account transaction history
   name: regions-financial Transactions API
   slug: regions-financial-transactions-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Regions Open Banking Account Information API
   slug: open-regions-financial-account-information-api
@@ -94,42 +93,42 @@ collections:
   slug: open-regions-open-banking
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/plans/regions-financial-plans-pricing.yml
+  href: https://artifacts.apis.io/regions-financial/plans/regions-financial-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/regions-financial-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/rate-limits/regions-financial-rate-limits.yml
+  href: https://artifacts.apis.io/regions-financial/rate-limits/regions-financial-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/regions-financial-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/finops/regions-financial-finops.yml
+  href: https://artifacts.apis.io/regions-financial/finops/regions-financial-finops.yml
   title: ''
   type: FinOps
   url: finops/regions-financial-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/capabilities/regions-financial-capability-edges.yml
+  href: https://artifacts.apis.io/regions-financial/capabilities/regions-financial-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/regions-financial-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/agentic-access/regions-financial-agentic-access.yml
+  href: https://artifacts.apis.io/regions-financial/agentic-access/regions-financial-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/regions-financial-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/security/regions-financial-domain-security.yml
+  href: https://artifacts.apis.io/regions-financial/security/regions-financial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/regions-financial-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/authentication/regions-financial-authentication.yml
+  href: https://artifacts.apis.io/regions-financial/authentication/regions-financial-authentication.yml
   title: ''
   type: Authentication
   url: authentication/regions-financial-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/scopes/regions-financial-scopes.yml
+  href: https://artifacts.apis.io/regions-financial/scopes/regions-financial-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/regions-financial-scopes.yml
@@ -225,7 +224,7 @@ press:
 - date: ''
   title: Regions AI tool helps steer cross-selling
   url: https://www.americanbanker.com/news/regions-ai-tool-helps-steer-cross-selling
-random_paper: 21
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Regions Financial Rate Limits
@@ -261,7 +260,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 27.3
+  composite: 28.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 55.0
@@ -269,7 +268,7 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
@@ -277,7 +276,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 60.7
     operational_transparency: 5.3
-  previous_composite: 28.9
+  previous_composite: 28.1
   provenance:
     agentic_access: derived
     contracts:
@@ -291,13 +290,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/screenshots/regions-financial-2026-10-11T192417.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/regions-financial/regions-financial-2026-10-11T192417.png
 security:
 - kind: authentication
   name: Regions Financial Authentication

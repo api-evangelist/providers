@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 40.1
-  scored_at: '2026-10-17'
-api_count: 6
+  score: 40.0
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - description: 'Query Brandwatch''s content library or imported data to return aggregated statistics and computed analysis. Enables programmatic access to brand mention analytics, sentiment scores, volume trends, and '
   name: Brandwatch Analysis API
@@ -89,7 +91,7 @@ apis:
   description: The Oauth API from Brandwatch — 1 operation(s) for oauth.
   name: Brandwatch OAUTH API
   slug: brandwatch-oauth-api
-artifact_total: 22
+artifact_total: 26
 collections:
 - collection_type: open
   name: Consumer Research API
@@ -99,22 +101,22 @@ collections:
   slug: open-brandwatch-consumer-research
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/capabilities/brandwatch-capability-edges.yml
+  href: https://artifacts.apis.io/brandwatch/capabilities/brandwatch-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/brandwatch-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/scopes/brandwatch-scopes.yml
+  href: https://artifacts.apis.io/brandwatch/scopes/brandwatch-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/brandwatch-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/authentication/brandwatch-authentication.yml
+  href: https://artifacts.apis.io/brandwatch/authentication/brandwatch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brandwatch-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/security/brandwatch-domain-security.yml
+  href: https://artifacts.apis.io/brandwatch/security/brandwatch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brandwatch-domain-security.yml
@@ -191,22 +193,22 @@ common:
   type: StatusPage
   url: https://status.brandwatch.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/changelog/brandwatch-changelog.yml
+  href: https://artifacts.apis.io/brandwatch/changelog/brandwatch-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/brandwatch-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/lifecycle/brandwatch-lifecycle.yml
+  href: https://artifacts.apis.io/brandwatch/lifecycle/brandwatch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brandwatch-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/conventions/brandwatch-conventions.yml
+  href: https://artifacts.apis.io/brandwatch/conventions/brandwatch-conventions.yml
   title: ''
   type: Conventions
   url: conventions/brandwatch-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/conformance/brandwatch-conformance.yml
+  href: https://artifacts.apis.io/brandwatch/conformance/brandwatch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brandwatch-conformance.yml
@@ -215,7 +217,7 @@ common:
   type: Compliance
   url: https://www.brandwatch.com/legal/information-security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/security/brandwatch-trust-center.yml
+  href: https://artifacts.apis.io/brandwatch/security/brandwatch-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/brandwatch-trust-center.yml
@@ -224,12 +226,12 @@ common:
   type: Security
   url: https://www.brandwatch.com/legal/information-security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/security/brandwatch-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/brandwatch/security/brandwatch-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/brandwatch-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/well-known/brandwatch-well-known.yml
+  href: https://artifacts.apis.io/brandwatch/well-known/brandwatch-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/brandwatch-well-known.yml
@@ -238,68 +240,68 @@ common:
   type: APICatalog
   url: https://developers.brandwatch.com/.well-known/api-catalog
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/packages/brandwatch-packages.yml
+  href: https://artifacts.apis.io/brandwatch/packages/brandwatch-packages.yml
   title: ''
   type: Packages
   url: packages/brandwatch-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/packages/brandwatch-packages.yml
+  href: https://artifacts.apis.io/brandwatch/packages/brandwatch-packages.yml
   title: ''
   type: SDKs
   url: packages/brandwatch-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/rate-limits/brandwatch-rate-limits.yml
+  href: https://artifacts.apis.io/brandwatch/rate-limits/brandwatch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/brandwatch-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/plans/brandwatch-plans-pricing.yml
+  href: https://artifacts.apis.io/brandwatch/plans/brandwatch-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/brandwatch-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/finops/brandwatch-finops.yml
+  href: https://artifacts.apis.io/brandwatch/finops/brandwatch-finops.yml
   title: ''
   type: FinOps
   url: finops/brandwatch-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/errors/brandwatch-problem-types.yml
+  href: https://artifacts.apis.io/brandwatch/errors/brandwatch-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/brandwatch-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/data-model/brandwatch-data-model.yml
+  href: https://artifacts.apis.io/brandwatch/data-model/brandwatch-data-model.yml
   title: ''
   type: DataModel
   url: data-model/brandwatch-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/mcp/brandwatch-mcp.yml
+  href: https://artifacts.apis.io/brandwatch/mcp/brandwatch-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/brandwatch-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/brandwatch/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/llms/brandwatch-llms.txt
+  href: https://artifacts.apis.io/brandwatch/llms/brandwatch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brandwatch-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/overlays/brandwatch-consumer-research-overlay.yaml
+  href: https://artifacts.apis.io/brandwatch/overlays/brandwatch-consumer-research-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brandwatch-consumer-research-overlay.yaml
 created: '2025-03-01'
 description: Brandwatch is a leading consumer intelligence and social media analytics platform providing access to trillions of consumer conversations. The platform offers six distinct APIs for analysis, data upload, consumer research, social metrics, publishing, and engagement. Businesses use Brandwatch to track brand mentions, monitor competitors, analyze sentiment, and integrate social data with existing analytics and CRM systems for strategic decision-making.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Brandwatch Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: brandwatch-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brandwatch.png
@@ -316,7 +318,7 @@ plans:
 - name: Brandwatch Plans Pricing
   plan_count: 0
   slug: brandwatch-plans-pricing
-random_paper: 20
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Brandwatch Rate Limits
@@ -327,24 +329,24 @@ scopes:
   slug: brandwatch-scopes
   summary_line: 3 scopes · password
 score:
-  band: developing
-  composite: 52.7
+  band: strong
+  composite: 60.5
   coverage:
     artifact_dirs: 26
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -0.6
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 48.5
-    developer_ergonomics: 41.1
-    discoverability: 80.4
-    operational_transparency: 57.9
-  previous_composite: 54.2
+    developer_ergonomics: 66.1
+    discoverability: 75.0
+    operational_transparency: 68.4
+  previous_composite: 61.1
   provenance:
     conformance: first-party
     contracts:
@@ -360,13 +362,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/screenshots/brandwatch-2026-06-20T173633.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/brandwatch/brandwatch-2026-06-20T173633.png
 security:
 - kind: authentication
   name: Brandwatch Authentication
@@ -384,6 +387,16 @@ security:
   name: Brandwatch Trust Center
   slug: brandwatch-trust-center
   summary_line: ISO/IEC 27001:2022
+skill_count: 4
+skills:
+- name: Authenticate to Brandwatch and discover the account
+  slug: brandwatch-authenticate-and-discover
+- name: Get aggregated Brandwatch analytics instead of raw mentions
+  slug: brandwatch-chart-and-topic-analysis
+- name: Manage Brandwatch project taxonomy
+  slug: brandwatch-manage-taxonomy
+- name: Retrieve and page Brandwatch mentions
+  slug: brandwatch-retrieve-mentions
 slug: brandwatch
 tags:
 - Analytics

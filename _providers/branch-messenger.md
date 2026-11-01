@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: Branch API provides deep linking, attribution, and analytics endpoints as documented in the public markdown API reference.
@@ -66,27 +68,27 @@ asyncapis:
   slug: branch-messenger-webhooks
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/rules/branch-messenger-rules.yml
+  href: https://artifacts.apis.io/branch-messenger/rules/branch-messenger-rules.yml
   title: ''
   type: Spectral
   url: rules/branch-messenger-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/json-ld/branch-messenger-context.jsonld
+  href: https://artifacts.apis.io/branch-messenger/json-ld/branch-messenger-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/branch-messenger-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/vocabulary/branch-messenger-vocabulary.yml
+  href: https://artifacts.apis.io/branch-messenger/vocabulary/branch-messenger-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/branch-messenger-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/asyncapi/branch-messenger-webhooks.yml
+  href: https://artifacts.apis.io/branch-messenger/asyncapi/branch-messenger-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/branch-messenger-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/data-model/branch-messenger-data-model.yml
+  href: https://artifacts.apis.io/branch-messenger/data-model/branch-messenger-data-model.yml
   title: ''
   type: DataModel
   url: data-model/branch-messenger-data-model.yml
@@ -95,32 +97,32 @@ common:
   type: Compliance
   url: https://trust.branch.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/conformance/branch-messenger-conformance.yml
+  href: https://artifacts.apis.io/branch-messenger/conformance/branch-messenger-conformance.yml
   title: ''
   type: Conformance
   url: conformance/branch-messenger-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/llms/branch-messenger-llms.txt
+  href: https://artifacts.apis.io/branch-messenger/llms/branch-messenger-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/branch-messenger-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/well-known/branch-messenger-status-security.txt
+  href: https://artifacts.apis.io/branch-messenger/well-known/branch-messenger-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/branch-messenger-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/well-known/branch-messenger-well-known.yml
+  href: https://artifacts.apis.io/branch-messenger/well-known/branch-messenger-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/branch-messenger-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/hosts/branch-messenger-hosts.yml
+  href: https://artifacts.apis.io/branch-messenger/hosts/branch-messenger-hosts.yml
   title: ''
   type: Hosts
   url: hosts/branch-messenger-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/vendors/branch-messenger-vendors.yml
+  href: https://artifacts.apis.io/branch-messenger/vendors/branch-messenger-vendors.yml
   title: ''
   type: Vendors
   url: vendors/branch-messenger-vendors.yml
@@ -169,12 +171,12 @@ common:
   type: Documentation
   url: https://developer.branch.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/security/branch-messenger-trust-center.yml
+  href: https://artifacts.apis.io/branch-messenger/security/branch-messenger-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/branch-messenger-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/branch-messenger/refs/heads/main/security/branch-messenger-domain-security.yml
+  href: https://artifacts.apis.io/branch-messenger/security/branch-messenger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/branch-messenger-domain-security.yml
@@ -209,14 +211,14 @@ modified: '2026-10-03'
 name: Branch
 nav: Providers
 network: true
-overview: 'Branch is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, App API, Branch API, and 4 more. Tagged areas include Mobile, DeepLinking, Attribution, Marketing, and Analytics.
+overview: 'Branch is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, App API, Branch API, and 4 more. Tagged areas include Mobile, Deep Linking, Attribution, Marketing, and Analytics.
 
 
   The Branch catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
   Branch''s developer surface includes support, pricing, engineering blog, API reference, getting-started guide, documentation, and 20 more developer resources.'
-random_paper: 8
+random_paper: 4
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -240,15 +242,15 @@ score:
     catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -11.0
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 22.0
     contract_quality: 30.2
     developer_ergonomics: 35.7
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 34.2
-  previous_composite: 47.1
+  previous_composite: 36.1
   provenance:
     conformance: derived
     contracts:
@@ -263,12 +265,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Branch Messenger Domain Security
@@ -281,7 +284,7 @@ security:
 slug: branch-messenger
 tags:
 - Mobile
-- DeepLinking
+- Deep Linking
 - Attribution
 - Marketing
 - Analytics

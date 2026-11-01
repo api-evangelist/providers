@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 32.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -213,7 +215,7 @@ arazzos:
 - description: Find a customer's booked sales order, then locate its open shipping delivery.
   name: Oracle EBS Shipment Tracking
   slug: oracle-e-business-suite-shipment-tracking-workflow
-artifact_total: 438
+artifact_total: 437
 collections:
 - collection_type: postman
   name: Oracle EBS e-Commerce Gateway API
@@ -233,9 +235,6 @@ collections:
 - collection_type: postman
   name: Oracle EBS Supply Chain Management API
   slug: postman-supply-chain-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Oracle EBS e-Commerce Gateway API
   slug: open-ecommerce-gateway-api
@@ -322,17 +321,17 @@ collections:
   slug: open-supply-chain-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/plans/oracle-e-business-suite-plans-pricing.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/plans/oracle-e-business-suite-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/oracle-e-business-suite-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/rate-limits/oracle-e-business-suite-rate-limits.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/rate-limits/oracle-e-business-suite-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/oracle-e-business-suite-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/finops/oracle-e-business-suite-finops.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/finops/oracle-e-business-suite-finops.yml
   title: ''
   type: FinOps
   url: finops/oracle-e-business-suite-finops.yml
@@ -341,22 +340,22 @@ common:
   type: Website
   url: https://oracle.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/capabilities/oracle-e-business-suite-capability-edges.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/capabilities/oracle-e-business-suite-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/oracle-e-business-suite-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/agentic-access/oracle-e-business-suite-agentic-access.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/agentic-access/oracle-e-business-suite-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/oracle-e-business-suite-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/security/oracle-e-business-suite-domain-security.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/security/oracle-e-business-suite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oracle-e-business-suite-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/authentication/oracle-e-business-suite-authentication.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/authentication/oracle-e-business-suite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oracle-e-business-suite-authentication.yml
@@ -365,87 +364,87 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/oracle-e-business-suite/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-ap-invoice-payment-reconciliation-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-ap-invoice-payment-reconciliation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-ap-invoice-payment-reconciliation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-bom-to-job-planning-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-bom-to-job-planning-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-bom-to-job-planning-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-customer-receipt-application-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-customer-receipt-application-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-customer-receipt-application-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-discrete-job-execution-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-discrete-job-execution-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-discrete-job-execution-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-edi-inbound-invoice-processing-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-edi-inbound-invoice-processing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-edi-inbound-invoice-processing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-edi-outbound-purchase-order-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-edi-outbound-purchase-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-edi-outbound-purchase-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-employee-onboarding-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-employee-onboarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-employee-onboarding-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-employee-profile-update-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-employee-profile-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-employee-profile-update-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-gl-journal-entry-and-review-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-gl-journal-entry-and-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-gl-journal-entry-and-review-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-isg-service-invocation-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-isg-service-invocation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-isg-service-invocation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-item-availability-check-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-item-availability-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-item-availability-check-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-order-to-cash-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-order-to-cash-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-order-to-cash-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-payroll-run-review-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-payroll-run-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-payroll-run-review-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-procure-to-pay-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-procure-to-pay-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-procure-to-pay-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-purchase-order-amendment-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-purchase-order-amendment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-purchase-order-amendment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-requisition-to-purchase-order-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-requisition-to-purchase-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-requisition-to-purchase-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/arazzo/oracle-e-business-suite-shipment-tracking-workflow.yml
+  href: https://artifacts.apis.io/oracle-e-business-suite/arazzo/oracle-e-business-suite-shipment-tracking-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/oracle-e-business-suite-shipment-tracking-workflow.yml
@@ -1582,7 +1581,7 @@ plans:
 - name: Oracle E Business Suite Plans Pricing
   plan_count: 4
   slug: oracle-e-business-suite-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Oracle E Business Suite Rate Limits
@@ -1613,23 +1612,23 @@ rules:
   slug: oracle-e-business-suite-spectral-rules
 score:
   band: strong
-  composite: 58.4
+  composite: 59.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 67.5
     catalog_earned_first_party: 0.0
     catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 13.6
     contract_quality: 65.9
     developer_ergonomics: 82.1
     discoverability: 71.4
-    operational_transparency: 42.1
-  previous_composite: 59.9
+    operational_transparency: 44.7
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1643,13 +1642,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/screenshots/oracle-e-business-suite-2026-06-20T191127.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/oracle-e-business-suite/oracle-e-business-suite-2026-06-20T191127.png
 security:
 - kind: authentication
   name: Oracle E Business Suite Authentication

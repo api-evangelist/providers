@@ -15,25 +15,27 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.9
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 20.9
+  scored_at: '2026-10-31'
+api_count: 3
 apis:
 - description: REST API for accessing iSpot.tv TV and video ad measurement data — airing occurrence, estimated spend, household and person-level impressions, attention metrics, OTT/streaming impressions, TV conversi
   name: iSpot REST API v4
@@ -41,8 +43,52 @@ apis:
 - description: Server-side and client-side measurement ingest endpoints. A 1x1 GIF pixel accepts OTT/CTV/digital impression events (pi.ispot.tv) and TV conversion events (pt.ispot.tv) keyed by a client-specific trac
   name: iSpot Impression & TV Conversion Pixel API v2
   slug: ispot-impression-tv-conversion-pixel-api-v2
-artifact_total: 7
+- baseURL: https://api.ispot.tv
+  baseurl_source: declared
+  description: 'iSpot.tv API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-10-20); not the provider''s own document.'
+  name: iSpot.tv API
+  slug: ispottv-api
+artifact_total: 11
 common:
+- group: design
+  href: https://artifacts.apis.io/ispottv/rules/ispottv-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/ispottv-rules.yml
+- group: design
+  href: https://artifacts.apis.io/ispottv/vocabulary/ispottv-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/ispottv-vocabulary.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.ispot.tv/
+- group: auth
+  href: https://artifacts.apis.io/ispottv/security/ispottv-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/ispottv-trust-center.yml
+- group: operate
+  href: https://artifacts.apis.io/ispottv/lifecycle/ispottv-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/ispottv-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/ispottv/hosts/ispottv-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/ispottv-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/ispottv/integrations/ispottv-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/ispottv-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/ispottv/vendors/ispottv-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/ispottv-vendors.yml
 - group: company
   title: ''
   type: Blog
@@ -103,13 +149,8 @@ common:
   title: ''
   type: TrustCenter
   url: https://trust.ispot.tv/
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/llms/ispottv-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/ispottv-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/security/ispottv-domain-security.yml
+  href: https://artifacts.apis.io/ispottv/security/ispottv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ispottv-domain-security.yml
@@ -122,77 +163,85 @@ common:
   type: ChangeLog
   url: https://developer.ispot.tv/releases/api/v4/notes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/changelog/ispottv-changelog.yml
+  href: https://artifacts.apis.io/ispottv/changelog/ispottv-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ispottv-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/authentication/ispottv-authentication.yml
+  href: https://artifacts.apis.io/ispottv/authentication/ispottv-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ispottv-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/conventions/ispottv-conventions.yml
+  href: https://artifacts.apis.io/ispottv/conventions/ispottv-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ispottv-conventions.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/errors/ispottv-problem-types.yml
-  title: ''
-  type: ErrorCatalog
-  url: errors/ispottv-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/rate-limits/ispottv-rate-limits.yml
+  href: https://artifacts.apis.io/ispottv/rate-limits/ispottv-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ispottv-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/lifecycle/ispottv-lifecycle.yml
+  href: https://artifacts.apis.io/ispottv/lifecycle/ispottv-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ispottv-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/plans/ispottv-plans-pricing.yml
+  href: https://artifacts.apis.io/ispottv/plans/ispottv-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ispottv-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/conformance/ispottv-conformance.yml
+  href: https://artifacts.apis.io/ispottv/conformance/ispottv-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ispottv-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/data-model/ispottv-data-model.yml
+  href: https://artifacts.apis.io/ispottv/data-model/ispottv-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ispottv-data-model.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/packages/ispottv-packages.yml
-  title: ''
-  type: Packages
-  url: packages/ispottv-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/components/ispottv-components.yml
+  href: https://artifacts.apis.io/ispottv/components/ispottv-components.yml
   title: ''
   type: Components
   url: components/ispottv-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/sandbox/ispottv-sandbox.yml
+  href: https://artifacts.apis.io/ispottv/sandbox/ispottv-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ispottv-sandbox.yml
+coverage:
+  detail: the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - status: 200
+    url: http://www.ispot.tv/
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-07-17'
 description: iSpot.tv is a TV and video advertising measurement company that provides end-to-end measurement unifying creative assessment, audience measurement, and outcome attribution across linear TV and streaming. Its platform draws on data from tens of millions of smart TVs and set-top boxes to track ad occurrences, impressions, share of voice, creative effectiveness, and return on ad spend for advertisers, agencies, and networks. iSpot exposes its data programmatically through the iSpot REST API (v4), documented at a dedicated developer portal with quickstarts, an API reference, a Python sample, an interactive API demo tool, and release notes. iSpot.tv is backed by Insight Partners and was added to the API Evangelist network from that portfolio.
+finops:
+- has_sources: true
+  method: derived
+  name: Ispottv Finops
+  primary_unit: ''
+  service_category: ''
+  slug: ispottv-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ispottv.png
 layout: provider
 modified: '2026-10-06'
 name: iSpot.tv
 nav: Providers
 network: true
-overview: 'iSpot.tv is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, TV Advertising, Advertising Measurement, Analytics, and Attribution.
+overview: 'iSpot.tv is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, TV Advertising, Advertising Measurement, Analytics, and Attribution.
 
 
-  iSpot.tv''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, changelog, and 24 more developer resources.'
+  The iSpot.tv catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  iSpot.tv''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, changelog, and 29 more developer resources.'
 plans:
 - name: Ispottv Plans Pricing
   plan_count: 0
@@ -202,41 +251,65 @@ rate_limits:
 - limit_count: 21
   name: Ispottv Rate Limits
   slug: ispottv-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: iSpot.tv API Rules
+  rule_count: 10
+  severity_counts:
+    error: 8
+    hint: 0
+    info: 1
+    warn: 1
+  slug: ispottv-rules
+scopes:
+- name: Ispottv Scopes
+  scope_count: 0
+  slug: ispottv-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.6
+  composite: 52.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 49.0
+    artifact_dirs: 27
+    catalog_earned: 57.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 46.1
-    contract_governance: 18.2
-    contract_quality: 0.0
-    developer_ergonomics: 60.7
-    discoverability: 73.2
-    operational_transparency: 65.8
-  previous_composite: 41.5
+    access_clarity: 60.5
+    contract_governance: 35.6
+    contract_quality: 11.2
+    developer_ergonomics: 64.3
+    discoverability: 71.4
+    operational_transparency: 76.3
+  previous_composite: 52.7
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 2
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 39.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/screenshots/ispottv-2026-07-25T222949.png
+screenshot: https://apis.io/screenshots/ispottv/ispottv-2026-07-25T222949.png
 security:
 - kind: authentication
   name: Ispottv Authentication
@@ -249,7 +322,7 @@ security:
 - kind: trust-center
   name: Ispottv Trust Center
   slug: ispottv-trust-center
-  summary_line: trust center published
+  summary_line: SOC 2, ISO 27001
 slug: ispottv
 tags:
 - Company

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uniform-teeth/refs/heads/main/security/uniform-teeth-domain-security.yml
+  href: https://artifacts.apis.io/uniform-teeth/security/uniform-teeth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uniform-teeth-domain-security.yml
@@ -58,7 +60,7 @@ name: Uniform Teeth
 nav: Providers
 network: true
 overview: Uniform Teeth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Dental, Orthodontics, and Clear Aligners.
-random_paper: 9
+random_paper: 7
 score:
   band: minimal
   composite: 3.7
@@ -90,8 +92,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

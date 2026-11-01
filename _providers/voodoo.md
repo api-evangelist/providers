@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The HTTP backend behind Voodoo's Publishing Platform (Publidash), the dashboard partner studios use to submit prototypes, run tests, and read analytics, monetization and IAP figures. The host is named
@@ -32,7 +34,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voodoo/refs/heads/main/security/voodoo-domain-security.yml
+  href: https://artifacts.apis.io/voodoo/security/voodoo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voodoo-domain-security.yml
@@ -73,52 +75,52 @@ common:
   type: PrivacyPolicy
   url: https://voodoo.io/privacy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/voodoo/refs/heads/main/packages/voodoo-packages.yml
+  href: https://artifacts.apis.io/voodoo/packages/voodoo-packages.yml
   title: ''
   type: Packages
   url: packages/voodoo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/voodoo/refs/heads/main/packages/voodoo-packages.yml
+  href: https://artifacts.apis.io/voodoo/packages/voodoo-packages.yml
   title: ''
   type: SDKs
   url: packages/voodoo-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/voodoo/refs/heads/main/changelog/voodoo-changelog.yml
+  href: https://artifacts.apis.io/voodoo/changelog/voodoo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/voodoo-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/voodoo/refs/heads/main/sandbox/voodoo-sandbox.yml
+  href: https://artifacts.apis.io/voodoo/sandbox/voodoo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/voodoo-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voodoo/refs/heads/main/conformance/voodoo-conformance.yml
+  href: https://artifacts.apis.io/voodoo/conformance/voodoo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/voodoo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voodoo/refs/heads/main/lifecycle/voodoo-lifecycle.yml
+  href: https://artifacts.apis.io/voodoo/lifecycle/voodoo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/voodoo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voodoo/refs/heads/main/conventions/voodoo-conventions.yml
+  href: https://artifacts.apis.io/voodoo/conventions/voodoo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/voodoo-conventions.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/voodoo/refs/heads/main/plans/voodoo-plans-pricing.yml
+  href: https://artifacts.apis.io/voodoo/plans/voodoo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/voodoo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/voodoo/refs/heads/main/rate-limits/voodoo-rate-limits.yml
+  href: https://artifacts.apis.io/voodoo/rate-limits/voodoo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/voodoo-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voodoo/refs/heads/main/llms/voodoo-llms.txt
+  href: https://artifacts.apis.io/voodoo/llms/voodoo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/voodoo-llms.txt
@@ -138,29 +140,29 @@ plans:
 - name: Voodoo Plans Pricing
   plan_count: 0
   slug: voodoo-plans-pricing
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Voodoo Rate Limits
   slug: voodoo-rate-limits
 score:
   band: emerging
-  composite: 24.8
+  composite: 25.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 18.4
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -169,7 +171,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 24.7
+  previous_composite: 25.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -179,14 +181,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/voodoo/refs/heads/main/screenshots/voodoo-2026-10-11T133135.png
+screenshot: https://apis.io/screenshots/voodoo/voodoo-2026-10-11T133135.png
 security:
 - kind: domain-security
   name: Voodoo Domain Security

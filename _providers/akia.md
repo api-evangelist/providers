@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.1
-  scored_at: '2026-10-17'
+  score: 41.9
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Akia's REST API (version 3, with version 4 resources for mini apps and reservations) for creating and searching customers and reservations, sending guest messages, reading properties, generating and r
@@ -45,29 +47,29 @@ apis:
 - description: Akia's remote Model Context Protocol server, advertised through RFC 9728 OAuth protected-resource metadata at api.akia.com and sys.akia.com. The endpoint requires a Bearer token issued by the Akia aut
   name: Akia MCP Server
   slug: akia-mcp
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Akia Webhooks
   slug: akia-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/plans/akia-plans-pricing.yml
+  href: https://artifacts.apis.io/akia/plans/akia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/akia-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/security/akia-trust-center.yml
+  href: https://artifacts.apis.io/akia/security/akia-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/akia-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/security/akia-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/akia/security/akia-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/akia-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/security/akia-domain-security.yml
+  href: https://artifacts.apis.io/akia/security/akia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/akia-domain-security.yml
@@ -128,67 +130,75 @@ common:
   type: Compliance
   url: https://www.akia.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/well-known/akia-well-known.yml
+  href: https://artifacts.apis.io/akia/well-known/akia-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/akia-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/well-known/akia-security.txt
+  href: https://artifacts.apis.io/akia/well-known/akia-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/akia-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/llms/akia-llms.txt
+  href: https://artifacts.apis.io/akia/llms/akia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/akia-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/mcp/akia-mcp.yml
+  href: https://artifacts.apis.io/akia/mcp/akia-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/akia-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/authentication/akia-authentication.yml
+  href: https://artifacts.apis.io/akia/authentication/akia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/akia-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/scopes/akia-scopes.yml
+  href: https://artifacts.apis.io/akia/scopes/akia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/akia-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/conformance/akia-conformance.yml
+  href: https://artifacts.apis.io/akia/conformance/akia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/akia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/lifecycle/akia-lifecycle.yml
+  href: https://artifacts.apis.io/akia/lifecycle/akia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/akia-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/conventions/akia-conventions.yml
+  href: https://artifacts.apis.io/akia/conventions/akia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/akia-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/components/akia-components.yml
+  href: https://artifacts.apis.io/akia/components/akia-components.yml
   title: ''
   type: Components
   url: components/akia-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/data-model/akia-data-model.yml
+  href: https://artifacts.apis.io/akia/data-model/akia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/akia-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/asyncapi/akia-webhooks.yml
+  href: https://artifacts.apis.io/akia/asyncapi/akia-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/akia-webhooks.yml
 created: '2026-08-06'
 description: Akia (The Akia Syndicate) is a San Francisco based hospitality technology company whose AI agent platform automates the guest lifecycle for hotels and vacation rentals — guest messaging over SMS/WhatsApp/web chat, an AI voice agent, digital check-in and pre-registration through Mini Apps, guidebooks, upsells, tipping, tasks, team chat, keyless entry, surveys, reputation management and marketing campaigns. Akia synchronizes with more than fifty property management, smart-lock, payment and operations systems (Opera, Mews, Cloudbeds, Apaleo, StayNTouch, Track, Guesty, RemoteLock, Brivo, Salto KS, Veriff, Stripe) and exposes a partner-gated REST API at api.akia.com/v3 with OAuth 2.0 authorization, a published scope catalog, outbound webhook subscriptions, an embeddable web chat and partner embed SDK, and a remote MCP server at sys.akia.ai/mcp for agent access.
+finops:
+- has_sources: true
+  method: derived
+  name: Akia Finops
+  primary_unit: ''
+  service_category: ''
+  slug: akia-finops
+  template: true
 image: https://www.akia.com/icon.png
 layout: provider
 mcp_servers:
@@ -210,7 +220,7 @@ plans:
 - name: Akia Plans Pricing
   plan_count: 3
   slug: akia-plans-pricing
-random_paper: 10
+random_paper: 22
 scopes:
 - name: Akia Scopes
   scope_count: 16
@@ -218,23 +228,23 @@ scopes:
   summary_line: 16 scopes · authorizationCode
 score:
   band: strong
-  composite: 55.7
+  composite: 54.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 18.4
-  previous_composite: 49.3
+  previous_composite: 54.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -244,14 +254,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/akia/refs/heads/main/screenshots/akia-2026-08-07T161133.png
+screenshot: https://apis.io/screenshots/akia/akia-2026-08-07T161133.png
 security:
 - kind: authentication
   name: Akia Authentication

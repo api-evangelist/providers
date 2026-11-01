@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: AIG offers commercial and personal insurance products globally including property casualty, cyber insurance, casualty, professional liability, financial lines, specialty risk, and reinsurance. AIG ser
@@ -46,17 +48,17 @@ apis:
 artifact_total: 41
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/finops/aig-finops.yml
+  href: https://artifacts.apis.io/aig/finops/aig-finops.yml
   title: ''
   type: FinOps
   url: finops/aig-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/security/aig-domain-security.yml
+  href: https://artifacts.apis.io/aig/security/aig-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aig-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/security/aig-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aig/security/aig-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aig-vulnerability-disclosure.yml
@@ -65,57 +67,57 @@ common:
   type: Security
   url: https://www.aig.com/home/about/cyber-and-information-security/vulnerability-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/authentication/aig-authentication.yml
+  href: https://artifacts.apis.io/aig/authentication/aig-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aig-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/scopes/aig-scopes.yml
+  href: https://artifacts.apis.io/aig/scopes/aig-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aig-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/well-known/aig-well-known.yml
+  href: https://artifacts.apis.io/aig/well-known/aig-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aig-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/conformance/aig-conformance.yml
+  href: https://artifacts.apis.io/aig/conformance/aig-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aig-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/errors/aig-problem-types.yml
+  href: https://artifacts.apis.io/aig/errors/aig-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aig-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/conventions/aig-conventions.yml
+  href: https://artifacts.apis.io/aig/conventions/aig-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aig-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/lifecycle/aig-lifecycle.yml
+  href: https://artifacts.apis.io/aig/lifecycle/aig-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aig-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/packages/aig-packages.yml
+  href: https://artifacts.apis.io/aig/packages/aig-packages.yml
   title: ''
   type: Packages
   url: packages/aig-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/llms/aig-llms.txt
+  href: https://artifacts.apis.io/aig/llms/aig-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aig-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/plans/aig-plans-pricing.yml
+  href: https://artifacts.apis.io/aig/plans/aig-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aig-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/rate-limits/aig-rate-limits.yml
+  href: https://artifacts.apis.io/aig/rate-limits/aig-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aig-rate-limits.yml
@@ -290,7 +292,7 @@ press:
 - date: ''
   title: AIG Investor Day 2025
   url: https://www.aig.com/home/investor-relations/aig-investor-day-2025
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Aig Rate Limits
@@ -314,7 +316,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 29.5
+  composite: 28.8
   coverage:
     artifact_dirs: 26
     catalog_earned: 43.3
@@ -322,15 +324,15 @@ score:
     catalog_gap: 71.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 28.0
     contract_quality: 10.7
     developer_ergonomics: 38.1
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 10.5
-  previous_composite: 31.0
+  previous_composite: 28.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -340,14 +342,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 42.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/screenshots/aig-2026-06-20T170849.png
+screenshot: https://apis.io/screenshots/aig/aig-2026-06-20T170849.png
 security:
 - kind: authentication
   name: Aig Authentication

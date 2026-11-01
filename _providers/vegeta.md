@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Vegeta is an open source HTTP load testing tool and library written in Go for generating constant request rates. Supports targets from files or stdin, rate limiting (req/s), duration control, configur
@@ -42,17 +44,17 @@ apis:
 artifact_total: 24
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vegeta/refs/heads/main/plans/vegeta-plans-pricing.yml
+  href: https://artifacts.apis.io/vegeta/plans/vegeta-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vegeta-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vegeta/refs/heads/main/rate-limits/vegeta-rate-limits.yml
+  href: https://artifacts.apis.io/vegeta/rate-limits/vegeta-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vegeta-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vegeta/refs/heads/main/finops/vegeta-finops.yml
+  href: https://artifacts.apis.io/vegeta/finops/vegeta-finops.yml
   title: ''
   type: FinOps
   url: finops/vegeta-finops.yml
@@ -89,7 +91,7 @@ common:
   type: GitHubRepository
   url: https://github.com/tsenart/vegeta
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vegeta/refs/heads/main/vocabulary/vegeta-vocabulary.yml
+  href: https://artifacts.apis.io/vegeta/vocabulary/vegeta-vocabulary.yml
   title: Vegeta Vocabulary
   type: Vocabulary
   url: vocabulary/vegeta-vocabulary.yml
@@ -122,7 +124,7 @@ finops:
 - has_sources: false
   method: generated
   name: Vegeta Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: vegeta-finops
   template: true
@@ -163,7 +165,7 @@ plans:
 - name: Vegeta Plans Pricing
   plan_count: 3
   slug: vegeta-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Vegeta Rate Limits
@@ -182,7 +184,7 @@ rules:
   slug: vegeta-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.5
+  composite: 18.9
   coverage:
     artifact_dirs: 11
     catalog_earned: 54.8
@@ -190,32 +192,29 @@ score:
     catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 18.5
     developer_ergonomics: 9.5
     discoverability: 57.1
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 22.9
+    operational_transparency: 28.9
+  previous_composite: 18.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vegeta/refs/heads/main/screenshots/vegeta-2026-06-20T200856.png
+screenshot: https://apis.io/screenshots/vegeta/vegeta-2026-06-20T200856.png
 slug: vegeta
 tags:
 - Go

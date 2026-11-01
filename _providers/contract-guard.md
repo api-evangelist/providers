@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -36,34 +38,34 @@ apis:
 - description: Deterministic JSON Schema validation API with explicit violations.
   name: Contract Guard API
   slug: contract-guard-api
-artifact_total: 9
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Contract Guard Webhooks
   slug: contract-guard-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/agentic-access/contract-guard-agentic-access.yml
+  href: https://artifacts.apis.io/contract-guard/agentic-access/contract-guard-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/contract-guard-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/plans/contract-guard-plans-pricing.yml
+  href: https://artifacts.apis.io/contract-guard/plans/contract-guard-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/contract-guard-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/rules/contract-guard-rules.yml
+  href: https://artifacts.apis.io/contract-guard/rules/contract-guard-rules.yml
   title: ''
   type: Spectral
   url: rules/contract-guard-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/asyncapi/contract-guard-webhooks.yml
+  href: https://artifacts.apis.io/contract-guard/asyncapi/contract-guard-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/contract-guard-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/cli/contract-guard-cli.yml
+  href: https://artifacts.apis.io/contract-guard/cli/contract-guard-cli.yml
   title: ''
   type: CLI
   url: cli/contract-guard-cli.yml
@@ -72,42 +74,42 @@ common:
   type: Compliance
   url: https://trust.railway.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/authentication/contract-guard-authentication.yml
+  href: https://artifacts.apis.io/contract-guard/authentication/contract-guard-authentication.yml
   title: ''
   type: Authentication
   url: authentication/contract-guard-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/errors/contract-guard-problem-types.yml
+  href: https://artifacts.apis.io/contract-guard/errors/contract-guard-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/contract-guard-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/conformance/contract-guard-conformance.yml
+  href: https://artifacts.apis.io/contract-guard/conformance/contract-guard-conformance.yml
   title: ''
   type: Conformance
   url: conformance/contract-guard-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/overlays/contract-guard-openapi-overlay.yml
+  href: https://artifacts.apis.io/contract-guard/overlays/contract-guard-openapi-overlay.yml
   title: ''
   type: Overlay
   url: overlays/contract-guard-openapi-overlay.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/llms/contract-guard-llms.txt
+  href: https://artifacts.apis.io/contract-guard/llms/contract-guard-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/contract-guard-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/mcp/contract-guard-mcp.yml
+  href: https://artifacts.apis.io/contract-guard/mcp/contract-guard-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/contract-guard-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/well-known/contract-guard-well-known.yml
+  href: https://artifacts.apis.io/contract-guard/well-known/contract-guard-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/contract-guard-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/hosts/contract-guard-hosts.yml
+  href: https://artifacts.apis.io/contract-guard/hosts/contract-guard-hosts.yml
   title: ''
   type: Hosts
   url: hosts/contract-guard-hosts.yml
@@ -116,12 +118,12 @@ common:
   type: GettingStarted
   url: https://docs.railway.com/quick-start
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/security/contract-guard-trust-center.yml
+  href: https://artifacts.apis.io/contract-guard/security/contract-guard-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/contract-guard-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/security/contract-guard-domain-security.yml
+  href: https://artifacts.apis.io/contract-guard/security/contract-guard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/contract-guard-domain-security.yml
@@ -160,6 +162,14 @@ coverage:
   state: gated
 created: '2026-10-02'
 description: Contract Guard provides a deterministic JSON Schema validation API for software and AI workflows. It returns exact validation violations and optional conservative type normalization. The service is operated by WOODS HOLDING GROUP LLC and is currently in an experimental live state with billing disabled. It offers a public demo, OpenAPI 3.1 spec, MCP endpoint, ARD manifest, Postman collection, and product registry.
+finops:
+- has_sources: true
+  method: derived
+  name: Contract Guard Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: contract-guard-finops
+  template: false
 layout: provider
 mcp_servers:
 - description: Remote MCP server at contract-guard-production.up.railway.app.
@@ -180,7 +190,10 @@ plans:
 - name: Contract Guard Plans Pricing
   plan_count: 4
   slug: contract-guard-plans-pricing
-random_paper: 8
+- name: Contract Guard Price Estimates
+  plan_count: 0
+  slug: contract-guard-price-estimates
+random_paper: 22
 rules:
 - authorship: generated
   effective_rule_count: 48
@@ -196,23 +209,23 @@ rules:
   slug: contract-guard-rules
 score:
   band: developing
-  composite: 44.0
+  composite: 44.5
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 46.5
+    artifact_dirs: 17
+    catalog_earned: 49.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 68.5
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 57.9
+    access_clarity: 65.8
     contract_governance: 31.8
     contract_quality: 39.0
     developer_ergonomics: 52.4
-    discoverability: 63.3
+    discoverability: 53.3
     operational_transparency: 7.9
-  previous_composite: 43.9
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -229,14 +242,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/contract-guard/refs/heads/main/screenshots/contract-guard-2026-10-11T103244.png
+screenshot: https://apis.io/screenshots/contract-guard/contract-guard-2026-10-11T103244.png
 security:
 - kind: authentication
   name: Contract Guard Authentication

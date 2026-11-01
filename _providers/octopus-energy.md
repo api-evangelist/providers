@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-17'
+  score: 20.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,11 +88,8 @@ apis:
   description: Octopus Energy product catalog and tariff lookups.
   name: Octopus Energy Products API
   slug: octopus-energy-products-api
-artifact_total: 52
+artifact_total: 51
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Octopus Energy Public Consumption API
   slug: open-octopus-energy-consumption-api
@@ -116,32 +115,36 @@ collections:
   name: Octopus Energy Public API
   slug: open-octopus-energy-public-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/octopus-energy/overview
 - group: company
   title: ''
   type: Website
   url: https://octopus.energy
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/capabilities/octopus-energy-capability-edges.yml
+  href: https://artifacts.apis.io/octopus-energy/capabilities/octopus-energy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/octopus-energy-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/agentic-access/octopus-energy-agentic-access.yml
+  href: https://artifacts.apis.io/octopus-energy/agentic-access/octopus-energy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/octopus-energy-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/security/octopus-energy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/octopus-energy/security/octopus-energy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/octopus-energy-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/security/octopus-energy-domain-security.yml
+  href: https://artifacts.apis.io/octopus-energy/security/octopus-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/octopus-energy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/authentication/octopus-energy-authentication.yml
+  href: https://artifacts.apis.io/octopus-energy/authentication/octopus-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/octopus-energy-authentication.yml
@@ -310,17 +313,17 @@ common:
   type: YouTube
   url: https://www.youtube.com/@OctopusEnergy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/plans/octopus-energy-plans-pricing.yml
+  href: https://artifacts.apis.io/octopus-energy/plans/octopus-energy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/octopus-energy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/rate-limits/octopus-energy-rate-limits.yml
+  href: https://artifacts.apis.io/octopus-energy/rate-limits/octopus-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/octopus-energy-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/finops/octopus-energy-finops.yml
+  href: https://artifacts.apis.io/octopus-energy/finops/octopus-energy-finops.yml
   title: ''
   type: FinOps
   url: finops/octopus-energy-finops.yml
@@ -392,12 +395,12 @@ overview: 'Octopus Energy publishes 9 API contracts indexed on the [APIs.io](htt
   The Octopus Energy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Octopus Energy''s developer surface includes authentication, developer portal, documentation, changelog, signup flow, support, engineering blog, and 43 more developer resources.'
+  Octopus Energy''s developer surface includes authentication, developer portal, documentation, changelog, signup flow, support, engineering blog, and 44 more developer resources.'
 plans:
 - name: Octopus Energy Plans Pricing
   plan_count: 2
   slug: octopus-energy-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Octopus Energy Rate Limits
@@ -428,7 +431,7 @@ rules:
   slug: octopus-energy-rules
 score:
   band: developing
-  composite: 44.6
+  composite: 46.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 58.5
@@ -436,12 +439,12 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.3
   facets:
     access_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 61.3
-    developer_ergonomics: 47.6
+    developer_ergonomics: 58.3
     discoverability: 58.9
     operational_transparency: 39.5
   jurisdiction:
@@ -452,7 +455,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 51.6
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -466,14 +469,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 22.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/screenshots/octopus-energy-2026-06-20T190615.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/octopus-energy/octopus-energy-2026-06-20T190615.png
 security:
 - kind: authentication
   name: Octopus Energy Authentication

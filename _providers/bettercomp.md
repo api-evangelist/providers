@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Compensation platform API (no public spec discovered)
@@ -36,17 +38,17 @@ common:
   type: BlogRSS
   url: https://www.bettercomp.com/feed/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bettercomp/refs/heads/main/conformance/bettercomp-conformance.yml
+  href: https://artifacts.apis.io/bettercomp/conformance/bettercomp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bettercomp-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bettercomp/refs/heads/main/llms/bettercomp-llms.txt
+  href: https://artifacts.apis.io/bettercomp/llms/bettercomp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bettercomp-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bettercomp/refs/heads/main/hosts/bettercomp-hosts.yml
+  href: https://artifacts.apis.io/bettercomp/hosts/bettercomp-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bettercomp-hosts.yml
@@ -75,7 +77,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/BetterComp
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bettercomp/refs/heads/main/security/bettercomp-domain-security.yml
+  href: https://artifacts.apis.io/bettercomp/security/bettercomp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bettercomp-domain-security.yml
@@ -84,7 +86,7 @@ common:
   type: Website
   url: https://www.bettercomp.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bettercomp/refs/heads/main/security/bettercomp-domain-security.yml
+  href: https://artifacts.apis.io/bettercomp/security/bettercomp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bettercomp-domain-security.yml
@@ -120,7 +122,7 @@ overview: 'BetterComp is listed with 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 21
 score:
   band: emerging
-  composite: 17.6
+  composite: 16.9
   coverage:
     artifact_dirs: 11
     catalog_earned: 32.0
@@ -134,9 +136,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 17.6
+  previous_composite: 16.9
   provenance:
     conformance: first-party
     mcp: unknown
@@ -146,14 +148,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 20.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bettercomp/refs/heads/main/screenshots/bettercomp-2026-10-11T102017.png
+screenshot: https://apis.io/screenshots/bettercomp/bettercomp-2026-10-11T102017.png
 security:
 - kind: domain-security
   name: Bettercomp Domain Security

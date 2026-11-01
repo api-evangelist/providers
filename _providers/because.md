@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -74,42 +76,42 @@ common:
   type: Login
   url: https://becausemarket.com/account/login
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/because/refs/heads/main/mcp/because-mcp.yml
+  href: https://artifacts.apis.io/because/mcp/because-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/because-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/because/refs/heads/main/llms/because-llms.txt
+  href: https://artifacts.apis.io/because/llms/because-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/because-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/because/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/because/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/because/refs/heads/main/well-known/because-well-known.yml
+  href: https://artifacts.apis.io/because/well-known/because-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/because-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/because/refs/heads/main/authentication/because-authentication.yml
+  href: https://artifacts.apis.io/because/authentication/because-authentication.yml
   title: ''
   type: Authentication
   url: authentication/because-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/because/refs/heads/main/scopes/because-scopes.yml
+  href: https://artifacts.apis.io/because/scopes/because-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/because-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/because/refs/heads/main/conformance/because-conformance.yml
+  href: https://artifacts.apis.io/because/conformance/because-conformance.yml
   title: ''
   type: Conformance
   url: conformance/because-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/because/refs/heads/main/security/because-domain-security.yml
+  href: https://artifacts.apis.io/because/security/because-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/because-domain-security.yml
@@ -129,7 +131,7 @@ overview: 'Because is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Because''s developer surface includes engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 2
+random_paper: 8
 scopes:
 - name: Because Scopes
   scope_count: 4
@@ -137,7 +139,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.2
+  composite: 22.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -151,9 +153,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 23.2
+  previous_composite: 22.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -164,14 +166,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/because/refs/heads/main/screenshots/because-2026-08-07T162251.png
+screenshot: https://apis.io/screenshots/because/because-2026-08-07T162251.png
 security:
 - kind: authentication
   name: Because Authentication

@@ -4,6 +4,6 @@ layout: provider
 name: agent-readiness
 nav: Providers
 network: true
-random_paper: 12
+random_paper: 18
 slug: agent-readiness
 ---

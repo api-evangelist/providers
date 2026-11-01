@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +67,7 @@ common:
   type: PrivacyPolicy
   url: https://fintechos.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fintechos/refs/heads/main/security/fintechos-domain-security.yml
+  href: https://artifacts.apis.io/fintechos/security/fintechos-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fintechos-domain-security.yml
@@ -81,7 +83,7 @@ overview: 'FintechOS is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   FintechOS''s developer surface includes documentation, getting-started guide, engineering blog, and 5 more developer resources.'
-random_paper: 17
+random_paper: 3
 score:
   band: emerging
   composite: 14.9
@@ -107,14 +109,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fintechos/refs/heads/main/screenshots/fintechos-2026-07-25T214549.png
+screenshot: https://apis.io/screenshots/fintechos/fintechos-2026-07-25T214549.png
 security:
 - kind: domain-security
   name: Fintechos Domain Security

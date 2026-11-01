@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -42,32 +44,32 @@ common:
   type: Website
   url: https://woodstock.co/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/woodstock/refs/heads/main/mcp/woodstock-mcp.yml
+  href: https://artifacts.apis.io/woodstock/mcp/woodstock-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/woodstock-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/woodstock/refs/heads/main/well-known/woodstock-well-known.yml
+  href: https://artifacts.apis.io/woodstock/well-known/woodstock-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/woodstock-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/woodstock/refs/heads/main/authentication/woodstock-authentication.yml
+  href: https://artifacts.apis.io/woodstock/authentication/woodstock-authentication.yml
   title: ''
   type: Authentication
   url: authentication/woodstock-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woodstock/refs/heads/main/conformance/woodstock-conformance.yml
+  href: https://artifacts.apis.io/woodstock/conformance/woodstock-conformance.yml
   title: ''
   type: Conformance
   url: conformance/woodstock-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/woodstock/refs/heads/main/llms/woodstock-llms.txt
+  href: https://artifacts.apis.io/woodstock/llms/woodstock-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/woodstock-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/woodstock/refs/heads/main/security/woodstock-domain-security.yml
+  href: https://artifacts.apis.io/woodstock/security/woodstock-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/woodstock-domain-security.yml
@@ -123,10 +125,10 @@ overview: 'Woodstock is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Woodstock''s developer surface includes authentication, documentation, getting-started guide, signup flow, pricing, support, engineering blog, and 9 more developer resources.'
-random_paper: 21
+random_paper: 5
 score:
   band: emerging
-  composite: 25.8
+  composite: 25.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -134,14 +136,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 58.3
-    operational_transparency: 2.6
+    discoverability: 48.3
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -149,7 +151,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 25.7
+  previous_composite: 25.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -159,14 +161,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/woodstock/refs/heads/main/screenshots/woodstock-2026-09-02T170920.png
+screenshot: https://apis.io/screenshots/woodstock/woodstock-2026-09-02T170920.png
 security:
 - kind: authentication
   name: Woodstock Authentication

@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API (eth_*, net_*, web3_*) plus Morph-specific methods such as morph_getBlockByNumber that return additional L2 fields. No API key required; chain id 2818.
@@ -45,7 +47,7 @@ apis:
 - description: Blockscout-based block explorer API for Morph — REST v2 and GraphQL over blocks, transactions, addresses, tokens, and verified contracts. No API key required.
   name: Morph Explorer API
   slug: morph-explorer-api
-artifact_total: 4
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -76,62 +78,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/morph-l2
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/morph/refs/heads/main/authentication/morph-authentication.yml
+  href: https://artifacts.apis.io/morph/authentication/morph-authentication.yml
   title: ''
   type: Authentication
   url: authentication/morph-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/morph/refs/heads/main/conventions/morph-conventions.yml
+  href: https://artifacts.apis.io/morph/conventions/morph-conventions.yml
   title: ''
   type: Conventions
   url: conventions/morph-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/morph/refs/heads/main/conformance/morph-conformance.yml
+  href: https://artifacts.apis.io/morph/conformance/morph-conformance.yml
   title: ''
   type: Conformance
   url: conformance/morph-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/morph/refs/heads/main/lifecycle/morph-lifecycle.yml
+  href: https://artifacts.apis.io/morph/lifecycle/morph-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/morph-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/morph/refs/heads/main/changelog/morph-changelog.yml
+  href: https://artifacts.apis.io/morph/changelog/morph-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/morph-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/morph/refs/heads/main/packages/morph-packages.yml
+  href: https://artifacts.apis.io/morph/packages/morph-packages.yml
   title: ''
   type: Packages
   url: packages/morph-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/morph/refs/heads/main/packages/morph-packages.yml
+  href: https://artifacts.apis.io/morph/packages/morph-packages.yml
   title: ''
   type: SDKs
   url: packages/morph-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/morph/refs/heads/main/cli/morph-cli.yml
+  href: https://artifacts.apis.io/morph/cli/morph-cli.yml
   title: ''
   type: CLI
   url: cli/morph-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/morph/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/morph/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/morph/refs/heads/main/llms/morph-llms.txt
+  href: https://artifacts.apis.io/morph/llms/morph-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/morph-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/morph/refs/heads/main/security/morph-domain-security.yml
+  href: https://artifacts.apis.io/morph/security/morph-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/morph-domain-security.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/morph/refs/heads/main/sandbox/morph-sandbox.yml
+  href: https://artifacts.apis.io/morph/sandbox/morph-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/morph-sandbox.yml
@@ -147,10 +149,10 @@ overview: 'Morph is listed with 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Morph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, CLI, and 12 more developer resources.'
-random_paper: 0
+random_paper: 22
 score:
   band: thin
-  composite: 28.3
+  composite: 28.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -164,9 +166,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 81.0
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 28.3
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 28.0
   provenance:
     conformance: first-party
     skills: first-party
@@ -176,14 +178,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/morph/refs/heads/main/screenshots/morph-2026-08-07T184307.png
+screenshot: https://apis.io/screenshots/morph/morph-2026-08-07T184307.png
 security:
 - kind: authentication
   name: Morph Authentication
@@ -193,6 +195,10 @@ security:
   name: Morph Domain Security
   slug: morph-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: morph-skill
+  slug: morph-skill
 slug: morph
 tags:
 - Company

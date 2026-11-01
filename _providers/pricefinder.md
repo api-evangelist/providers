@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 16.2
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.pricefinder.com.au/v1
   baseurl_source: declared
@@ -132,19 +134,19 @@ apis:
   description: The oauth2 API from Pricefinder — 1 operation(s) for oauth2.
   name: Pricefinder Oauth2 API
   slug: pricefinder-oauth2-api
-artifact_total: 22
+artifact_total: 29
 collections:
 - collection_type: open
   name: PriceFinder API v1.13.1
   slug: open-pricefinder-api-swagger
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/capabilities/pricefinder-capability-edges.yml
+  href: https://artifacts.apis.io/pricefinder/capabilities/pricefinder-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pricefinder-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/security/pricefinder-domain-security.yml
+  href: https://artifacts.apis.io/pricefinder/security/pricefinder-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pricefinder-domain-security.yml
@@ -181,62 +183,62 @@ common:
   type: TermsOfService
   url: https://www.domain.com.au/group/api-terms-and-conditions/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/packages/pricefinder-packages.yml
+  href: https://artifacts.apis.io/pricefinder/packages/pricefinder-packages.yml
   title: ''
   type: Packages
   url: packages/pricefinder-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/packages/pricefinder-packages.yml
+  href: https://artifacts.apis.io/pricefinder/packages/pricefinder-packages.yml
   title: ''
   type: SDKs
   url: packages/pricefinder-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/mcp/pricefinder-mcp.yml
+  href: https://artifacts.apis.io/pricefinder/mcp/pricefinder-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/pricefinder-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/llms/pricefinder-llms.txt
+  href: https://artifacts.apis.io/pricefinder/llms/pricefinder-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pricefinder-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/overlays/pricefinder-api-swagger-overlay.yaml
+  href: https://artifacts.apis.io/pricefinder/overlays/pricefinder-api-swagger-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pricefinder-api-swagger-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/conformance/pricefinder-conformance.yml
+  href: https://artifacts.apis.io/pricefinder/conformance/pricefinder-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pricefinder-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/errors/pricefinder-problem-types.yml
+  href: https://artifacts.apis.io/pricefinder/errors/pricefinder-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pricefinder-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/lifecycle/pricefinder-lifecycle.yml
+  href: https://artifacts.apis.io/pricefinder/lifecycle/pricefinder-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pricefinder-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/authentication/pricefinder-authentication.yml
+  href: https://artifacts.apis.io/pricefinder/authentication/pricefinder-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pricefinder-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/conventions/pricefinder-conventions.yml
+  href: https://artifacts.apis.io/pricefinder/conventions/pricefinder-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pricefinder-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/data-model/pricefinder-data-model.yml
+  href: https://artifacts.apis.io/pricefinder/data-model/pricefinder-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pricefinder-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pricefinder/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -265,24 +267,24 @@ overview: 'Pricefinder publishes 19 API contracts indexed on the [APIs.io](https
 
 
   Pricefinder''s developer surface includes API reference, signup flow, support, documentation, authentication, and 20 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: thin
-  composite: 34.3
+  composite: 34.5
   coverage:
     artifact_dirs: 18
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.5
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 35.8
     developer_ergonomics: 51.8
-    discoverability: 71.4
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -291,7 +293,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 33.8
+  previous_composite: 35.0
   provenance:
     conformance: derived
     contracts:
@@ -307,13 +309,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/screenshots/pricefinder-2026-07-27T125408.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pricefinder/pricefinder-2026-07-27T125408.png
 security:
 - kind: authentication
   name: Pricefinder Authentication
@@ -323,6 +326,22 @@ security:
   name: Pricefinder Domain Security
   slug: pricefinder-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 7
+skills:
+- name: Analyse an Australian suburb market
+  slug: pricefinder-analyse-suburb-market
+- name: Authenticate to Pricefinder and check entitlements
+  slug: pricefinder-authenticate-and-check-entitlements
+- name: Manage Pricefinder property event alerts
+  slug: pricefinder-manage-property-event-alerts
+- name: Research comparable sales, rentals and listings around a property
+  slug: pricefinder-research-comparable-sales
+- name: Resolve an Australian address to a property and value it
+  slug: pricefinder-resolve-address-and-value-property
+- name: Resolve an Australian land title reference to a property
+  slug: pricefinder-resolve-land-title-reference
+- name: Retrieve a Pricefinder appraisal, CMA or statement of information
+  slug: pricefinder-retrieve-appraisal-and-cma
 slug: pricefinder
 tags:
 - Real Estate

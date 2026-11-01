@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 34.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -68,15 +70,12 @@ apis:
   description: The Token Gating API from Bitski — 3 operation(s) for token gating.
   name: Bitski Token Gating API
   slug: bitski-token-gating-api
-artifact_total: 16
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Bitski Activity Webhooks
   slug: bitski-activity-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NFT Service APIs activity API
   slug: open-bitski-activity-api
@@ -94,7 +93,7 @@ collections:
   slug: open-bitski-token-gating-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/overlays/bitski-nft-service-overlay.yaml
+  href: https://artifacts.apis.io/bitski/overlays/bitski-nft-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bitski-nft-service-overlay.yaml
@@ -147,92 +146,92 @@ common:
   type: Twitter
   url: https://twitter.com/bitski
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/packages/bitski-packages.yml
+  href: https://artifacts.apis.io/bitski/packages/bitski-packages.yml
   title: ''
   type: Packages
   url: packages/bitski-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/packages/bitski-packages.yml
+  href: https://artifacts.apis.io/bitski/packages/bitski-packages.yml
   title: ''
   type: SDKs
   url: packages/bitski-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/components/bitski-components.yml
+  href: https://artifacts.apis.io/bitski/components/bitski-components.yml
   title: ''
   type: Components
   url: components/bitski-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/authentication/bitski-authentication.yml
+  href: https://artifacts.apis.io/bitski/authentication/bitski-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bitski-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/scopes/bitski-scopes.yml
+  href: https://artifacts.apis.io/bitski/scopes/bitski-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bitski-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/conventions/bitski-conventions.yml
+  href: https://artifacts.apis.io/bitski/conventions/bitski-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bitski-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/errors/bitski-problem-types.yml
+  href: https://artifacts.apis.io/bitski/errors/bitski-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bitski-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/lifecycle/bitski-lifecycle.yml
+  href: https://artifacts.apis.io/bitski/lifecycle/bitski-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bitski-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/changelog/bitski-changelog.yml
+  href: https://artifacts.apis.io/bitski/changelog/bitski-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bitski-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/data-model/bitski-data-model.yml
+  href: https://artifacts.apis.io/bitski/data-model/bitski-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bitski-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/conformance/bitski-conformance.yml
+  href: https://artifacts.apis.io/bitski/conformance/bitski-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bitski-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/asyncapi/bitski-activity-webhooks.yml
+  href: https://artifacts.apis.io/bitski/asyncapi/bitski-activity-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bitski-activity-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/mcp/bitski-mcp.yml
+  href: https://artifacts.apis.io/bitski/mcp/bitski-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bitski-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bitski/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/well-known/bitski-well-known.yml
+  href: https://artifacts.apis.io/bitski/well-known/bitski-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bitski-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/agentic-access/bitski-agentic-access.yml
+  href: https://artifacts.apis.io/bitski/agentic-access/bitski-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bitski-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/security/bitski-domain-security.yml
+  href: https://artifacts.apis.io/bitski/security/bitski-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitski-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/llms/bitski-llms.txt
+  href: https://artifacts.apis.io/bitski/llms/bitski-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bitski-llms.txt
@@ -251,7 +250,7 @@ overview: 'Bitski publishes 5 API contracts indexed on the [APIs.io](https://api
 
 
   Bitski''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 24 more developer resources.'
-random_paper: 8
+random_paper: 22
 scopes:
 - name: Bitski Scopes
   scope_count: 2
@@ -259,9 +258,9 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 42.2
+  composite: 44.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -272,10 +271,10 @@ score:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 50.4
-    developer_ergonomics: 60.1
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 42.2
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,13 +291,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/screenshots/bitski-2026-08-17T122909.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bitski/bitski-2026-08-17T122909.png
 security:
 - kind: authentication
   name: Bitski Authentication
@@ -308,6 +308,14 @@ security:
   name: Bitski Domain Security
   slug: bitski-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Sell NFTs with Bitski Commerce
+  slug: bitski-commerce-checkout
+- name: Mint an NFT with Bitski
+  slug: bitski-mint-nft
+- name: Token-gate access with Bitski
+  slug: bitski-token-gate
 slug: bitski
 tags:
 - Web3

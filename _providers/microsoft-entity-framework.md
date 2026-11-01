@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: A lightweight, extensible, open source and cross-platform ORM for .NET. Supports SQL Server, PostgreSQL, MySQL, SQLite, Cosmos DB, and in-memory databases.
@@ -45,17 +47,17 @@ apis:
 artifact_total: 27
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-entity-framework/refs/heads/main/plans/microsoft-entity-framework-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-entity-framework/plans/microsoft-entity-framework-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-entity-framework-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-entity-framework/refs/heads/main/rate-limits/microsoft-entity-framework-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-entity-framework/rate-limits/microsoft-entity-framework-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-entity-framework-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-entity-framework/refs/heads/main/finops/microsoft-entity-framework-finops.yml
+  href: https://artifacts.apis.io/microsoft-entity-framework/finops/microsoft-entity-framework-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-entity-framework-finops.yml
@@ -88,12 +90,12 @@ common:
   type: License
   url: https://github.com/dotnet/efcore/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-entity-framework/refs/heads/main/security/microsoft-entity-framework-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/microsoft-entity-framework/security/microsoft-entity-framework-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-entity-framework-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-entity-framework/refs/heads/main/security/microsoft-entity-framework-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-entity-framework/security/microsoft-entity-framework-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-entity-framework-domain-security.yml
@@ -156,7 +158,7 @@ finops:
 - has_sources: false
   method: generated
   name: Microsoft Entity Framework Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: microsoft-entity-framework-finops
   template: true
@@ -177,7 +179,7 @@ plans:
 - name: Microsoft Entity Framework Plans Pricing
   plan_count: 3
   slug: microsoft-entity-framework-plans-pricing
-random_paper: 9
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Microsoft Entity Framework Rate Limits
@@ -196,7 +198,7 @@ rules:
   slug: entity-framework-spectral-rules
 score:
   band: thin
-  composite: 32.7
+  composite: 30.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 45.5
@@ -204,32 +206,29 @@ score:
     catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 7.6
     contract_quality: 0.0
-    developer_ergonomics: 47.6
+    developer_ergonomics: 52.4
     discoverability: 73.2
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 36.1
+    operational_transparency: 39.5
+  previous_composite: 30.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-entity-framework/refs/heads/main/screenshots/microsoft-entity-framework-2026-06-20T185456.png
+screenshot: https://apis.io/screenshots/microsoft-entity-framework/microsoft-entity-framework-2026-06-20T185456.png
 security:
 - kind: domain-security
   name: Microsoft Entity Framework Domain Security

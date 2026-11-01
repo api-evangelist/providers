@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.4
-  scored_at: '2026-10-17'
+  score: 34.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 5
@@ -110,15 +111,12 @@ apis:
   description: Manage interactive terminal sessions in active workspaces
   name: Replicas Terminal API
   slug: replicas-terminal-api
-artifact_total: 33
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Replicas Webhooks
   slug: replicas-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Replica Analytics API
   slug: open-replicas-analytics-api
@@ -157,17 +155,17 @@ collections:
   slug: open-replicas-terminal-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/plans/replicas-plans-pricing.yml
+  href: https://artifacts.apis.io/replicas/plans/replicas-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/replicas-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/capabilities/replicas-capability-edges.yml
+  href: https://artifacts.apis.io/replicas/capabilities/replicas-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/replicas-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/overlays/replicas-openapi-overlay.yaml
+  href: https://artifacts.apis.io/replicas/overlays/replicas-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/replicas-openapi-overlay.yaml
@@ -220,82 +218,82 @@ common:
   type: ChangeLog
   url: https://docs.tryreplicas.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/changelog/replicas-changelog.yml
+  href: https://artifacts.apis.io/replicas/changelog/replicas-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/replicas-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/llms/replicas-llms.txt
+  href: https://artifacts.apis.io/replicas/llms/replicas-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/replicas-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/mcp/replicas-mcp.yml
+  href: https://artifacts.apis.io/replicas/mcp/replicas-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/replicas-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/cli/replicas-cli.yml
+  href: https://artifacts.apis.io/replicas/cli/replicas-cli.yml
   title: ''
   type: CLI
   url: cli/replicas-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/packages/replicas-packages.yml
+  href: https://artifacts.apis.io/replicas/packages/replicas-packages.yml
   title: ''
   type: Packages
   url: packages/replicas-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/authentication/replicas-authentication.yml
+  href: https://artifacts.apis.io/replicas/authentication/replicas-authentication.yml
   title: ''
   type: Authentication
   url: authentication/replicas-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/conventions/replicas-conventions.yml
+  href: https://artifacts.apis.io/replicas/conventions/replicas-conventions.yml
   title: ''
   type: Conventions
   url: conventions/replicas-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/errors/replicas-problem-types.yml
+  href: https://artifacts.apis.io/replicas/errors/replicas-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/replicas-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/lifecycle/replicas-lifecycle.yml
+  href: https://artifacts.apis.io/replicas/lifecycle/replicas-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/replicas-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/conformance/replicas-conformance.yml
+  href: https://artifacts.apis.io/replicas/conformance/replicas-conformance.yml
   title: ''
   type: Conformance
   url: conformance/replicas-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/data-model/replicas-data-model.yml
+  href: https://artifacts.apis.io/replicas/data-model/replicas-data-model.yml
   title: ''
   type: DataModel
   url: data-model/replicas-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/asyncapi/replicas-webhooks.yml
+  href: https://artifacts.apis.io/replicas/asyncapi/replicas-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/replicas-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/replicas/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/agentic-access/replicas-agentic-access.yml
+  href: https://artifacts.apis.io/replicas/agentic-access/replicas-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/replicas-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/security/replicas-domain-security.yml
+  href: https://artifacts.apis.io/replicas/security/replicas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/replicas-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/security/replicas-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/replicas/security/replicas-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/replicas-vulnerability-disclosure.yml
@@ -305,6 +303,14 @@ common:
   url: https://tryreplicas.com/responsible-disclosure
 created: '2026-07-17'
 description: Replicas (tryreplicas.com), a Y Combinator (Spring 2026) company, runs end-to-end background coding agents in isolated cloud sandboxes. Teams delegate engineering tasks - from Slack, Linear, GitHub, GitLab, Sentry, the web dashboard, a CLI, or a native macOS app - to frontier coding agents (Claude Code, Codex, Cursor, OpenCode) that work in their own VM-backed workspaces with databases, environment variables, files, skills, and MCP servers, then open pull requests for review. The Replica API (OpenAPI 3.1, base https://api.tryreplicas.com/v1, bearer API-key auth) exposes environments, replicas/workspaces, chats, event streaming (SSE), repositories, automations (cron + webhook triggered), and Google Search Console tooling, plus an official hosted MCP server at api.tryreplicas.com/v1/mcp.
+finops:
+- has_sources: true
+  method: derived
+  name: Replicas Finops
+  primary_unit: seat
+  service_category: ''
+  slug: replicas-finops
+  template: false
 image: https://tryreplicas.com/opengraph-image.png
 layout: provider
 mcp_servers:
@@ -326,26 +332,29 @@ plans:
 - name: Replicas Plans Pricing
   plan_count: 5
   slug: replicas-plans-pricing
-random_paper: 15
+- name: Replicas Price Estimates
+  plan_count: 0
+  slug: replicas-price-estimates
+random_paper: 11
 score:
   band: strong
-  composite: 57.7
+  composite: 58.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 59.1
+    contract_quality: 56.9
     developer_ergonomics: 66.1
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 39.5
-  previous_composite: 51.3
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -362,13 +371,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/screenshots/replicas-2026-08-17T081523.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/replicas/replicas-2026-08-17T081523.png
 security:
 - kind: authentication
   name: Replicas Authentication
@@ -382,6 +392,14 @@ security:
   name: Replicas Vulnerability Disclosure
   slug: replicas-vulnerability-disclosure
   summary_line: contact published
+skill_count: 3
+skills:
+- name: Configure an environment (variables, files, skills, MCPs)
+  slug: replicas-configure-environment
+- name: Create a replica and drive it to a pull request
+  slug: replicas-create-and-drive-replica
+- name: Create and trigger an automation
+  slug: replicas-schedule-automation
 slug: replicas
 tags:
 - Company

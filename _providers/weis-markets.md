@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Weis Markets Vendor Integration API enables supplier and vendor partners to exchange purchase orders, invoices, item management data, and vendor contact information electronically. The platform us
@@ -45,22 +47,22 @@ apis:
 artifact_total: 8
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/weis-markets/refs/heads/main/plans/weis-markets-plans-pricing.yml
+  href: https://artifacts.apis.io/weis-markets/plans/weis-markets-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/weis-markets-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/weis-markets/refs/heads/main/rate-limits/weis-markets-rate-limits.yml
+  href: https://artifacts.apis.io/weis-markets/rate-limits/weis-markets-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/weis-markets-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/weis-markets/refs/heads/main/finops/weis-markets-finops.yml
+  href: https://artifacts.apis.io/weis-markets/finops/weis-markets-finops.yml
   title: ''
   type: FinOps
   url: finops/weis-markets-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weis-markets/refs/heads/main/security/weis-markets-domain-security.yml
+  href: https://artifacts.apis.io/weis-markets/security/weis-markets-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/weis-markets-domain-security.yml
@@ -85,12 +87,12 @@ common:
   type: GitHubOrg
   url: https://github.com/weis-markets
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weis-markets/refs/heads/main/json-ld/weis-markets-context.jsonld
+  href: https://artifacts.apis.io/weis-markets/json-ld/weis-markets-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/weis-markets-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weis-markets/refs/heads/main/vocabulary/weis-markets-vocabulary.yml
+  href: https://artifacts.apis.io/weis-markets/vocabulary/weis-markets-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/weis-markets-vocabulary.yml
@@ -103,7 +105,7 @@ finops:
 - has_sources: false
   method: generated
   name: Weis Markets Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: weis-markets-finops
   template: true
@@ -142,7 +144,7 @@ press:
 - date: ''
   title: Weis Markets Partners With Cognira to Enhance Promotion ...
   url: https://www.businesswire.com/news/home/20251001115503/en/Weis-Markets-Partners-With-Cognira-to-Enhance-Promotion-Efficiency-and-Results
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Weis Markets Rate Limits
@@ -157,7 +159,7 @@ score:
     catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
@@ -165,21 +167,21 @@ score:
     developer_ergonomics: 19.0
     discoverability: 42.9
     operational_transparency: 13.2
-  previous_composite: 19.2
+  previous_composite: 17.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/weis-markets/refs/heads/main/screenshots/weis-markets-2026-10-11T194631.png
+screenshot: https://apis.io/screenshots/weis-markets/weis-markets-2026-10-11T194631.png
 security:
 - kind: domain-security
   name: Weis Markets Domain Security

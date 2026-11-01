@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,16 +36,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 4
+artifact_total: 6
 common:
 - group: commercial
   title: ''
   type: Pricing
   url: https://flower.ai/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flower/refs/heads/main/plans/flower-plans-pricing.yml
+  href: https://artifacts.apis.io/flower/plans/flower-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/flower-plans-pricing.yml
@@ -96,47 +98,55 @@ common:
   type: TermsOfService
   url: https://flower.ai/legal/terms-of-service
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flower/refs/heads/main/security/flower-trust-center.yml
+  href: https://artifacts.apis.io/flower/security/flower-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/flower-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flower/refs/heads/main/packages/flower-packages.yml
+  href: https://artifacts.apis.io/flower/packages/flower-packages.yml
   title: ''
   type: Packages
   url: packages/flower-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flower/refs/heads/main/packages/flower-packages.yml
+  href: https://artifacts.apis.io/flower/packages/flower-packages.yml
   title: ''
   type: SDKs
   url: packages/flower-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flower/refs/heads/main/cli/flower-cli.yml
+  href: https://artifacts.apis.io/flower/cli/flower-cli.yml
   title: ''
   type: CLI
   url: cli/flower-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flower/refs/heads/main/changelog/flower-changelog.yml
+  href: https://artifacts.apis.io/flower/changelog/flower-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/flower-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flower/refs/heads/main/authentication/flower-authentication.yml
+  href: https://artifacts.apis.io/flower/authentication/flower-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flower-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flower/refs/heads/main/security/flower-domain-security.yml
+  href: https://artifacts.apis.io/flower/security/flower-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flower-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flower/refs/heads/main/llms/flower-llms.txt
+  href: https://artifacts.apis.io/flower/llms/flower-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flower-llms.txt
 created: '2026-07-17'
 description: Flower Labs builds infrastructure for collaborative, decentralized AI. Its flagship open-source project, Flower (the `flwr` framework), is a friendly, framework-agnostic federated AI framework that lets organizations train and fine-tune machine-learning models on distributed, privacy-sensitive data without moving it across organizational boundaries — with support for PyTorch, TensorFlow, Hugging Face, scikit-learn, JAX, XGBoost, and more. Flower Intelligence extends this to on-device inference (TypeScript/JavaScript, Kotlin, and Swift SDKs) that can hand off to a confidential remote-compute service when extra capacity is needed. Flower also runs SuperGrid (federated AI networks), Flower Hub, and a hosted control plane accessed via the flwr CLI. Flower Labs is backed by Felicis, Northzone, and Y Combinator.
+finops:
+- has_sources: true
+  method: derived
+  name: Flower Finops
+  primary_unit: credits
+  service_category: ''
+  slug: flower-finops
+  template: false
 image: https://flower.ai/static/images/icon/apple-touch-icon.png
 layout: provider
 modified: '2026-07-19'
@@ -151,40 +161,43 @@ plans:
 - name: Flower Plans Pricing
   plan_count: 5
   slug: flower-plans-pricing
-random_paper: 17
+- name: Flower Price Estimates
+  plan_count: 0
+  slug: flower-price-estimates
+random_paper: 7
 score:
   band: developing
-  composite: 40.2
+  composite: 41.4
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 39.0
+    artifact_dirs: 13
+    catalog_earned: 42.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 76.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.5
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 55.4
-    operational_transparency: 18.4
-  previous_composite: 31.7
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 39.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/flower/refs/heads/main/screenshots/flower-2026-07-25T214835.png
+screenshot: https://apis.io/screenshots/flower/flower-2026-07-25T214835.png
 security:
 - kind: authentication
   name: Flower Authentication

@@ -9,30 +9,32 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: false
-    protected_resource_metadata: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.5
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Developer API with broad read and write coverage across the GPX platform — investor data, fund accounting, payments, compliance, and reporting. Used to sync investor and fund data into CRMs (Salesforc
@@ -40,6 +42,39 @@ apis:
   slug: juniper-square-developer-api
 artifact_total: 4
 common:
+- group: build
+  href: https://artifacts.apis.io/junipersquare/integrations/junipersquare-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/junipersquare-integration-edges.yml
+- group: auth
+  href: https://artifacts.apis.io/junipersquare/well-known/junipersquare-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/junipersquare-status-security.txt
+- group: agent
+  href: https://artifacts.apis.io/junipersquare/well-known/junipersquare-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/junipersquare-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/junipersquare/hosts/junipersquare-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/junipersquare-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/junipersquare/vendors/junipersquare-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/junipersquare-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.junipersquare.com/news/kudu
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.junipersquare.com/investor-relations/investor-onboarding
 - group: company
   title: ''
   type: Website
@@ -49,12 +84,12 @@ common:
   type: DeveloperPortal
   url: https://www.junipersquare.com/platform/apis-and-integrations
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/junipersquare/refs/heads/main/mcp/junipersquare-mcp.yml
+  href: https://artifacts.apis.io/junipersquare/mcp/junipersquare-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/junipersquare-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/junipersquare/refs/heads/main/security/junipersquare-trust-center.yml
+  href: https://artifacts.apis.io/junipersquare/security/junipersquare-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/junipersquare-trust-center.yml
@@ -63,12 +98,12 @@ common:
   type: Compliance
   url: https://trust.junipersquare.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/junipersquare/refs/heads/main/security/junipersquare-domain-security.yml
+  href: https://artifacts.apis.io/junipersquare/security/junipersquare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/junipersquare-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/junipersquare/refs/heads/main/lifecycle/junipersquare-lifecycle.yml
+  href: https://artifacts.apis.io/junipersquare/lifecycle/junipersquare-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/junipersquare-lifecycle.yml
@@ -96,24 +131,25 @@ common:
   title: ''
   type: Documentation
   url: https://www.junipersquare.com/platform/apis-and-integrations
-- group: operate
-  title: ''
-  type: Support
-  url: https://support.junipersquare.com
 - group: commercial
   title: ''
   type: TermsOfService
   url: https://www.junipersquare.com/terms-of-use
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/junipersquare/refs/heads/main/conformance/junipersquare-conformance.yml
+  href: https://artifacts.apis.io/junipersquare/conformance/junipersquare-conformance.yml
   title: ''
   type: Conformance
   url: conformance/junipersquare-conformance.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/junipersquare/refs/heads/main/llms/junipersquare-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/junipersquare-llms.txt
+coverage:
+  checked: '2026-10-20'
+  detail: Juniper Square says its REST APIs and webhooks are built to OpenAPI and its Headless GPX MCP server is live, but neither a reference nor a spec is public; access comes through a 'Book an intro call' developer-led engagement and api.junipersquare.com answers 403 anonymously.
+  evidence:
+  - status: 200
+    url: https://www.junipersquare.com/gpx/apis-and-integrations
+  - status: 403
+    url: https://api.junipersquare.com/openapi.json
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-17'
 description: Juniper Square is a fund operating system for the private markets, used by 2,300+ general partners across private equity, venture capital, commercial real estate, and private credit to raise capital, run fund administration and fund accounting, and manage the LP experience. Its GPX platform unifies investor data, fund accounting, payments, compliance, and reporting, and exposes them through a developer API (broad read/write coverage delivered as a developer-led engagement), pre-built connectors (HubSpot, Preqin, Outlook, DocuSign, Yardi IM/Voyager, Lob), and Headless GPX — an MCP server that brings the platform to any MCP-compatible AI client (Claude, Copilot, ChatGPT, Gemini) with authentication, permissions, and audit inherited from the customer's existing configuration.
 image: https://assets.junipersquare.com/images/_1200x630_crop_center-center_82_none/share.png?v=1779402326
@@ -129,27 +165,27 @@ network: true
 overview: 'Juniper Square is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Investment Management, Private Markets, Fund Administration, and Fund Accounting.
 
 
-  Juniper Square''s developer surface includes engineering blog, documentation, support, and 14 more developer resources.'
-random_paper: 14
+  Juniper Square''s developer surface includes getting-started guide, engineering blog, documentation, and 19 more developer resources.'
+random_paper: 6
 score:
-  band: emerging
-  composite: 26.0
+  band: thin
+  composite: 31.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 71.7
-    operational_transparency: 18.4
-  previous_composite: 25.9
+    developer_ergonomics: 33.3
+    discoverability: 66.7
+    operational_transparency: 31.6
+  previous_composite: 31.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -164,15 +200,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/junipersquare/refs/heads/main/screenshots/junipersquare-2026-07-25T223322.png
+screenshot: https://apis.io/screenshots/junipersquare/junipersquare-2026-07-25T223322.png
 security:
 - kind: domain-security
   name: Junipersquare Domain Security

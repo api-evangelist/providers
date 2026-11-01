@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -94,27 +96,27 @@ common:
   type: Security
   url: https://www.rollstack.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rollstack/refs/heads/main/well-known/rollstack-well-known.yml
+  href: https://artifacts.apis.io/rollstack/well-known/rollstack-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rollstack-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rollstack/refs/heads/main/security/rollstack-domain-security.yml
+  href: https://artifacts.apis.io/rollstack/security/rollstack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rollstack-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rollstack/refs/heads/main/security/rollstack-trust-center.yml
+  href: https://artifacts.apis.io/rollstack/security/rollstack-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rollstack-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rollstack/refs/heads/main/lifecycle/rollstack-lifecycle.yml
+  href: https://artifacts.apis.io/rollstack/lifecycle/rollstack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rollstack-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rollstack/refs/heads/main/authentication/rollstack-authentication.yml
+  href: https://artifacts.apis.io/rollstack/authentication/rollstack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rollstack-authentication.yml
@@ -130,10 +132,10 @@ overview: 'Rollstack is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Rollstack''s developer surface includes signup flow, documentation, pricing, engineering blog, support, changelog, authentication, and 12 more developer resources.'
-random_paper: 7
+random_paper: 15
 score:
-  band: emerging
-  composite: 24.2
+  band: thin
+  composite: 30.2
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -143,27 +145,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 28.6
     discoverability: 48.2
-    operational_transparency: 28.9
-  previous_composite: 24.2
+    operational_transparency: 47.4
+  previous_composite: 30.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rollstack/refs/heads/main/screenshots/rollstack-2026-09-02T154102.png
+screenshot: https://apis.io/screenshots/rollstack/rollstack-2026-09-02T154102.png
 security:
 - kind: authentication
   name: Rollstack Authentication

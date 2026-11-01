@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,12 +67,12 @@ common:
   type: Compliance
   url: https://peppy.health
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peppy/refs/heads/main/conformance/peppy-conformance.yml
+  href: https://artifacts.apis.io/peppy/conformance/peppy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/peppy-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/peppy/refs/heads/main/security/peppy-domain-security.yml
+  href: https://artifacts.apis.io/peppy/security/peppy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/peppy-domain-security.yml
@@ -86,7 +88,7 @@ overview: 'Peppy is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Peppy''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 8
+random_paper: 6
 score:
   band: emerging
   composite: 15.2
@@ -120,14 +122,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/peppy/refs/heads/main/screenshots/peppy-2026-09-02T151027.png
+screenshot: https://apis.io/screenshots/peppy/peppy-2026-09-02T151027.png
 security:
 - kind: domain-security
   name: Peppy Domain Security

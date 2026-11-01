@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST API for subscription management and recurring billing — accounts, subscriptions, campaigns, tokens/virtual currency, and payment operations.
@@ -85,52 +87,52 @@ common:
   type: StatusPage
   url: https://status.vindicia.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vindicia/refs/heads/main/authentication/vindicia-authentication.yml
+  href: https://artifacts.apis.io/vindicia/authentication/vindicia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vindicia-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vindicia/refs/heads/main/asyncapi/vindicia-webhooks.yml
+  href: https://artifacts.apis.io/vindicia/asyncapi/vindicia-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vindicia-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vindicia/refs/heads/main/errors/vindicia-error-codes.yml
+  href: https://artifacts.apis.io/vindicia/errors/vindicia-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/vindicia-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vindicia/refs/heads/main/changelog/vindicia-changelog.yml
+  href: https://artifacts.apis.io/vindicia/changelog/vindicia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vindicia-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vindicia/refs/heads/main/lifecycle/vindicia-lifecycle.yml
+  href: https://artifacts.apis.io/vindicia/lifecycle/vindicia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vindicia-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vindicia/refs/heads/main/conventions/vindicia-conventions.yml
+  href: https://artifacts.apis.io/vindicia/conventions/vindicia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vindicia-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vindicia/refs/heads/main/packages/vindicia-packages.yml
+  href: https://artifacts.apis.io/vindicia/packages/vindicia-packages.yml
   title: ''
   type: Packages
   url: packages/vindicia-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vindicia/refs/heads/main/packages/vindicia-packages.yml
+  href: https://artifacts.apis.io/vindicia/packages/vindicia-packages.yml
   title: ''
   type: SDKs
   url: packages/vindicia-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vindicia/refs/heads/main/security/vindicia-domain-security.yml
+  href: https://artifacts.apis.io/vindicia/security/vindicia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vindicia-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vindicia/refs/heads/main/llms/vindicia-llms.txt
+  href: https://artifacts.apis.io/vindicia/llms/vindicia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vindicia-llms.txt
@@ -149,40 +151,40 @@ overview: 'Vindicia is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Vindicia''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, signup flow, authentication, and 12 more developer resources.'
-random_paper: 3
+random_paper: 23
 score:
   band: thin
-  composite: 33.7
+  composite: 35.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 33.2
+  previous_composite: 35.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vindicia/refs/heads/main/screenshots/vindicia-2026-09-02T165924.png
+screenshot: https://apis.io/screenshots/vindicia/vindicia-2026-09-02T165924.png
 security:
 - kind: authentication
   name: Vindicia Authentication

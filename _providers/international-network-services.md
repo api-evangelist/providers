@@ -24,7 +24,7 @@ name: International Network Services
 nav: Providers
 network: true
 overview: International Network Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Network Consulting, Network Security, and Enterprise IT.
-random_paper: 12
+random_paper: 16
 slug: international-network-services
 tags:
 - Company

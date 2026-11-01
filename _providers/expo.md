@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.3
-  scored_at: '2026-10-17'
+  score: 14.1
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: Cloud compilation and code-signing service for Android and iOS React Native apps. Submits build jobs via eas-cli or programmatic token access, returns build artifacts, and fires BUILD webhooks on comp
@@ -60,17 +62,17 @@ apis:
 artifact_total: 15
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/expo/refs/heads/main/security/expo-trust-center.yml
+  href: https://artifacts.apis.io/expo/security/expo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/expo-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/expo/refs/heads/main/security/expo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/expo/security/expo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/expo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/expo/refs/heads/main/security/expo-domain-security.yml
+  href: https://artifacts.apis.io/expo/security/expo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/expo-domain-security.yml
@@ -115,17 +117,17 @@ common:
   type: CLI
   url: https://github.com/expo/eas-cli
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/expo/refs/heads/main/plans/expo-plans-pricing.yml
+  href: https://artifacts.apis.io/expo/plans/expo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/expo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/expo/refs/heads/main/rate-limits/expo-rate-limits.yml
+  href: https://artifacts.apis.io/expo/rate-limits/expo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/expo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/expo/refs/heads/main/finops/expo-finops.yml
+  href: https://artifacts.apis.io/expo/finops/expo-finops.yml
   title: ''
   type: FinOps
   url: finops/expo-finops.yml
@@ -165,14 +167,14 @@ plans:
 - name: Expo Plans Pricing
   plan_count: 4
   slug: expo-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Expo Rate Limits
   slug: expo-rate-limits
 score:
   band: thin
-  composite: 30.0
+  composite: 31.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 54.0
@@ -180,15 +182,15 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 31.0
-    discoverability: 73.3
-    operational_transparency: 44.7
-  previous_composite: 35.6
+    discoverability: 71.4
+    operational_transparency: 55.3
+  previous_composite: 31.2
   provenance:
     mcp: first-party
   regulatory:
@@ -197,14 +199,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/expo/refs/heads/main/screenshots/expo-2026-06-20T180939.png
+screenshot: https://apis.io/screenshots/expo/expo-2026-06-20T180939.png
 security:
 - kind: domain-security
   name: Expo Domain Security

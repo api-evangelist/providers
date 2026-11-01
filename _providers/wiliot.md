@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Manage traceability entities - Pixels (tags), assets, categories, asset types, locations, zones, metadata and events - scoped per owner.
@@ -88,57 +90,57 @@ common:
   type: PrivacyPolicy
   url: https://www.wiliot.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wiliot/refs/heads/main/authentication/wiliot-authentication.yml
+  href: https://artifacts.apis.io/wiliot/authentication/wiliot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wiliot-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wiliot/refs/heads/main/conventions/wiliot-conventions.yml
+  href: https://artifacts.apis.io/wiliot/conventions/wiliot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wiliot-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wiliot/refs/heads/main/data-model/wiliot-data-model.yml
+  href: https://artifacts.apis.io/wiliot/data-model/wiliot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wiliot-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wiliot/refs/heads/main/mcp/wiliot-mcp.yml
+  href: https://artifacts.apis.io/wiliot/mcp/wiliot-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wiliot-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wiliot/refs/heads/main/llms/wiliot-llms.txt
+  href: https://artifacts.apis.io/wiliot/llms/wiliot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wiliot-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wiliot/refs/heads/main/conformance/wiliot-conformance.yml
+  href: https://artifacts.apis.io/wiliot/conformance/wiliot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wiliot-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wiliot/refs/heads/main/lifecycle/wiliot-lifecycle.yml
+  href: https://artifacts.apis.io/wiliot/lifecycle/wiliot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wiliot-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wiliot/refs/heads/main/changelog/wiliot-changelog.yml
+  href: https://artifacts.apis.io/wiliot/changelog/wiliot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/wiliot-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wiliot/refs/heads/main/security/wiliot-domain-security.yml
+  href: https://artifacts.apis.io/wiliot/security/wiliot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wiliot-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wiliot/refs/heads/main/packages/wiliot-packages.yml
+  href: https://artifacts.apis.io/wiliot/packages/wiliot-packages.yml
   title: ''
   type: Packages
   url: packages/wiliot-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wiliot/refs/heads/main/packages/wiliot-packages.yml
+  href: https://artifacts.apis.io/wiliot/packages/wiliot-packages.yml
   title: ''
   type: SDKs
   url: packages/wiliot-packages.yml
@@ -154,26 +156,26 @@ overview: 'Wiliot is listed with 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Wiliot''s developer surface includes documentation, engineering blog, support, authentication, changelog, and 16 more developer resources.'
-random_paper: 4
+random_paper: 16
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 27.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 35.7
-    discoverability: 78.6
-    operational_transparency: 18.4
-  previous_composite: 24.8
+    developer_ergonomics: 45.2
+    discoverability: 71.4
+    operational_transparency: 21.1
+  previous_composite: 27.7
   provenance:
     conformance: derived
     mcp: derived
@@ -183,14 +185,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wiliot/refs/heads/main/screenshots/wiliot-2026-09-02T170757.png
+screenshot: https://apis.io/screenshots/wiliot/wiliot-2026-09-02T170757.png
 security:
 - kind: authentication
   name: Wiliot Authentication

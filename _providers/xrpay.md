@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-17'
+  score: 26.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 45
   slug: xrpay-agentic-access
   summary_line: 45 operations · 24 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.xrpay.it
   baseurl_source: declared
@@ -68,60 +70,65 @@ apis:
   description: The Webhooks API from XRPay — 3 operation(s) for webhooks.
   name: XRPay Webhooks API
   slug: xrpay-webhooks-api
-artifact_total: 19
+artifact_total: 21
 common:
+- group: other
+  href: https://artifacts.apis.io/xrpay/capabilities/xrpay-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/xrpay-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/agentic-access/xrpay-agentic-access.yml
+  href: https://artifacts.apis.io/xrpay/agentic-access/xrpay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/xrpay-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/plans/xrpay-plans-pricing.yml
+  href: https://artifacts.apis.io/xrpay/plans/xrpay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/xrpay-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/rules/xrpay-rules.yml
+  href: https://artifacts.apis.io/xrpay/rules/xrpay-rules.yml
   title: ''
   type: Spectral
   url: rules/xrpay-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/json-ld/xrpay-context.jsonld
+  href: https://artifacts.apis.io/xrpay/json-ld/xrpay-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/xrpay-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/vocabulary/xrpay-vocabulary.yml
+  href: https://artifacts.apis.io/xrpay/vocabulary/xrpay-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/xrpay-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/data-model/xrpay-data-model.yml
+  href: https://artifacts.apis.io/xrpay/data-model/xrpay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/xrpay-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/conventions/xrpay-conventions.yml
+  href: https://artifacts.apis.io/xrpay/conventions/xrpay-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/xrpay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/conventions/xrpay-conventions.yml
+  href: https://artifacts.apis.io/xrpay/conventions/xrpay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/xrpay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/errors/xrpay-problem-types.yml
+  href: https://artifacts.apis.io/xrpay/errors/xrpay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/xrpay-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/conformance/xrpay-conformance.yml
+  href: https://artifacts.apis.io/xrpay/conformance/xrpay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/xrpay-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/hosts/xrpay-hosts.yml
+  href: https://artifacts.apis.io/xrpay/hosts/xrpay-hosts.yml
   title: ''
   type: Hosts
   url: hosts/xrpay-hosts.yml
@@ -134,12 +141,12 @@ common:
   type: StatusPage
   url: https://www.xrpay.it/status
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/authentication/xrpay-authentication.yml
+  href: https://artifacts.apis.io/xrpay/authentication/xrpay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/xrpay-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/security/xrpay-domain-security.yml
+  href: https://artifacts.apis.io/xrpay/security/xrpay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xrpay-domain-security.yml
@@ -197,6 +204,14 @@ common:
   url: https://www.xrpay.it/support
 created: '2026-10-09'
 description: XRPay, built by Xbit Innovations, is a merchant payments platform whose Cashier API lets businesses create payment intents, issue refunds, receive webhooks and connect platform apps (XRPay Connect). The REST API at api.xrpay.it is described by a published OpenAPI 3.1 document and secured with bearer secret keys or Connect access tokens.
+finops:
+- has_sources: true
+  method: derived
+  name: Xrpay Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: xrpay-finops
+  template: false
 json_schemas:
 - name: PaymentIntentCreate
   property_count: 19
@@ -232,12 +247,15 @@ overview: 'XRPay publishes 7 API contracts indexed on the [APIs.io](https://apis
   The XRPay catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  XRPay''s developer surface includes authentication, API reference, documentation, getting-started guide, engineering blog, changelog, signup flow, and 21 more developer resources.'
+  XRPay''s developer surface includes authentication, API reference, documentation, getting-started guide, engineering blog, changelog, signup flow, and 22 more developer resources.'
 plans:
 - name: Xrpay Plans Pricing
   plan_count: 3
   slug: xrpay-plans-pricing
-random_paper: 14
+- name: Xrpay Price Estimates
+  plan_count: 0
+  slug: xrpay-price-estimates
+random_paper: 12
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -253,23 +271,23 @@ rules:
   slug: xrpay-rules
 score:
   band: strong
-  composite: 56.6
+  composite: 58.6
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 72.0
+    artifact_dirs: 21
+    catalog_earned: 75.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 43.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 1.5
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 19.7
-    contract_quality: 60.9
+    contract_quality: 59.9
     developer_ergonomics: 57.1
     discoverability: 62.5
     operational_transparency: 31.6
-  previous_composite: 57.0
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,13 +303,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/screenshots/xrpay-2026-10-11T194906.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/xrpay/xrpay-2026-10-11T194906.png
 security:
 - kind: authentication
   name: Xrpay Authentication

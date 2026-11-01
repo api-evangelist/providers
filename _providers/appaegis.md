@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST (v1 + v2) and GraphQL management API for the Mammoth Cyber (Appaegis) zero-trust access platform. Administers users, teams, access roles, policies, applications, networks, registered devices, blo
   name: Mammoth Cyber Management API
   slug: mammoth-cyber-management-api
-artifact_total: 3
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -91,42 +93,42 @@ common:
   type: Downloads
   url: https://mammothcyber.com/downloads/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appaegis/refs/heads/main/authentication/appaegis-authentication.yml
+  href: https://artifacts.apis.io/appaegis/authentication/appaegis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/appaegis-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appaegis/refs/heads/main/conventions/appaegis-conventions.yml
+  href: https://artifacts.apis.io/appaegis/conventions/appaegis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/appaegis-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appaegis/refs/heads/main/mcp/appaegis-mcp.yml
+  href: https://artifacts.apis.io/appaegis/mcp/appaegis-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/appaegis-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appaegis/refs/heads/main/llms/appaegis-llms.txt
+  href: https://artifacts.apis.io/appaegis/llms/appaegis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/appaegis-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appaegis/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/appaegis/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appaegis/refs/heads/main/packages/appaegis-packages.yml
+  href: https://artifacts.apis.io/appaegis/packages/appaegis-packages.yml
   title: ''
   type: Packages
   url: packages/appaegis-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appaegis/refs/heads/main/well-known/appaegis-well-known.yml
+  href: https://artifacts.apis.io/appaegis/well-known/appaegis-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/appaegis-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appaegis/refs/heads/main/security/appaegis-domain-security.yml
+  href: https://artifacts.apis.io/appaegis/security/appaegis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/appaegis-domain-security.yml
@@ -142,10 +144,10 @@ overview: 'Appaegis is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Appaegis'' developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 6
+random_paper: 2
 score:
   band: emerging
-  composite: 25.5
+  composite: 25.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -159,9 +161,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 25.5
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 25.2
   provenance:
     mcp: derived
     skills: derived
@@ -171,14 +173,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/appaegis/refs/heads/main/screenshots/appaegis-2026-07-25T200708.png
+screenshot: https://apis.io/screenshots/appaegis/appaegis-2026-07-25T200708.png
 security:
 - kind: authentication
   name: Appaegis Authentication
@@ -188,6 +190,12 @@ security:
   name: Appaegis Domain Security
   slug: appaegis-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Manage the Mammoth Cyber block list
+  slug: appaegis-manage-block-list
+- name: Update Mammoth Cyber registered-device tags
+  slug: appaegis-update-device-tags
 slug: appaegis
 tags:
 - Company

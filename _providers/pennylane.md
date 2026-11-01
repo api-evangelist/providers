@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.0
-  scored_at: '2026-10-17'
+  score: 41.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -143,7 +145,7 @@ apis:
 - description: Pennylane's hosted remote MCP server at mcp.pennylane.com, OAuth-protected (RFC 9728 protected-resource metadata advertises read scopes such as mcp:customer_invoice:read and mcp:ledger_entry:read).
   name: Pennylane MCP Server
   slug: pennylane-mcp-server
-artifact_total: 70
+artifact_total: 74
 collections:
 - collection_type: postman
   name: Pennylane Company Account API
@@ -203,9 +205,6 @@ collections:
   name: Pennylane Company Account Transactions API
   slug: postman-pennylane-transactions-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Pennylane Company Account API
   slug: open-pennylane-account-api
 - collection_type: open
@@ -264,42 +263,42 @@ collections:
   slug: open-pennylane-transactions-api
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/rules/pennylane-rules.yml
+  href: https://artifacts.apis.io/pennylane/rules/pennylane-rules.yml
   title: ''
   type: Spectral
   url: rules/pennylane-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/json-ld/pennylane-context.jsonld
+  href: https://artifacts.apis.io/pennylane/json-ld/pennylane-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/pennylane-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/vocabulary/pennylane-vocabulary.yml
+  href: https://artifacts.apis.io/pennylane/vocabulary/pennylane-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/pennylane-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/mcp/pennylane-mcp.yml
+  href: https://artifacts.apis.io/pennylane/mcp/pennylane-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/pennylane-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/hosts/pennylane-hosts.yml
+  href: https://artifacts.apis.io/pennylane/hosts/pennylane-hosts.yml
   title: ''
   type: Hosts
   url: hosts/pennylane-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/integrations/pennylane-integration-edges.yml
+  href: https://artifacts.apis.io/pennylane/integrations/pennylane-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/pennylane-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/vendors/pennylane-vendors.yml
+  href: https://artifacts.apis.io/pennylane/vendors/pennylane-vendors.yml
   title: ''
   type: Vendors
   url: vendors/pennylane-vendors.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/capabilities/pennylane-capability-edges.yml
+  href: https://artifacts.apis.io/pennylane/capabilities/pennylane-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pennylane-capability-edges.yml
@@ -308,12 +307,12 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/pennylane/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/agentic-access/pennylane-agentic-access.yml
+  href: https://artifacts.apis.io/pennylane/agentic-access/pennylane-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pennylane-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/security/pennylane-trust-center.yml
+  href: https://artifacts.apis.io/pennylane/security/pennylane-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pennylane-trust-center.yml
@@ -322,7 +321,7 @@ common:
   type: Compliance
   url: https://www.pennylane.com/fr/securite
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/security/pennylane-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pennylane/security/pennylane-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pennylane-vulnerability-disclosure.yml
@@ -331,57 +330,57 @@ common:
   type: Security
   url: https://app.pennylane.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/security/pennylane-domain-security.yml
+  href: https://artifacts.apis.io/pennylane/security/pennylane-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pennylane-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/authentication/pennylane-authentication.yml
+  href: https://artifacts.apis.io/pennylane/authentication/pennylane-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pennylane-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/scopes/pennylane-scopes.yml
+  href: https://artifacts.apis.io/pennylane/scopes/pennylane-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pennylane-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/mcp/pennylane-mcp.yml
+  href: https://artifacts.apis.io/pennylane/mcp/pennylane-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/pennylane-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/well-known/pennylane-well-known.yml
+  href: https://artifacts.apis.io/pennylane/well-known/pennylane-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pennylane-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/well-known/pennylane-security.txt
+  href: https://artifacts.apis.io/pennylane/well-known/pennylane-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/pennylane-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/llms/pennylane-llms.txt
+  href: https://artifacts.apis.io/pennylane/llms/pennylane-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pennylane-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/overlays/pennylane-openapi-overlay.yaml
+  href: https://artifacts.apis.io/pennylane/overlays/pennylane-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pennylane-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/conformance/pennylane-conformance.yml
+  href: https://artifacts.apis.io/pennylane/conformance/pennylane-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pennylane-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/errors/pennylane-problem-types.yml
+  href: https://artifacts.apis.io/pennylane/errors/pennylane-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pennylane-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/lifecycle/pennylane-lifecycle.yml
+  href: https://artifacts.apis.io/pennylane/lifecycle/pennylane-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pennylane-lifecycle.yml
@@ -394,27 +393,27 @@ common:
   type: Deprecation
   url: https://pennylane.readme.io/docs/migrate-from-api-v1-to-v2
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/conventions/pennylane-conventions.yml
+  href: https://artifacts.apis.io/pennylane/conventions/pennylane-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pennylane-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/changelog/pennylane-changelog.yml
+  href: https://artifacts.apis.io/pennylane/changelog/pennylane-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pennylane-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/data-model/pennylane-data-model.yml
+  href: https://artifacts.apis.io/pennylane/data-model/pennylane-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pennylane-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/sandbox/pennylane-sandbox.yml
+  href: https://artifacts.apis.io/pennylane/sandbox/pennylane-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pennylane-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pennylane/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -459,17 +458,17 @@ common:
   type: SignUp
   url: https://start.pennylane.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/plans/pennylane-plans-pricing.yml
+  href: https://artifacts.apis.io/pennylane/plans/pennylane-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pennylane-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/rate-limits/pennylane-rate-limits.yml
+  href: https://artifacts.apis.io/pennylane/rate-limits/pennylane-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pennylane-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/finops/pennylane-finops.yml
+  href: https://artifacts.apis.io/pennylane/finops/pennylane-finops.yml
   title: ''
   type: FinOps
   url: finops/pennylane-finops.yml
@@ -509,7 +508,7 @@ plans:
 - name: Pennylane Plans Pricing
   plan_count: 3
   slug: pennylane-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Pennylane Rate Limits
@@ -534,7 +533,7 @@ scopes:
   summary_line: 23 scopes
 score:
   band: strong
-  composite: 54.4
+  composite: 59.1
   coverage:
     artifact_dirs: 33
     catalog_earned: 52.8
@@ -542,14 +541,14 @@ score:
     catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.1
+  delta: 0.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 57.9
     contract_governance: 35.6
     contract_quality: 48.8
-    developer_ergonomics: 53.0
-    discoverability: 75.0
-    operational_transparency: 53.9
+    developer_ergonomics: 67.3
+    discoverability: 65.0
+    operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -558,7 +557,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 58.5
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -578,14 +577,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 41.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/screenshots/pennylane-2026-08-17T081155.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pennylane/pennylane-2026-08-17T081155.png
 security:
 - kind: authentication
   name: Pennylane Authentication
@@ -603,6 +603,18 @@ security:
   name: Pennylane Trust Center
   slug: pennylane-trust-center
   summary_line: ISO 27001, SOC 2, GDPR
+skill_count: 5
+skills:
+- name: create-and-send-customer-invoice
+  slug: pennylane-create-and-send-customer-invoice
+- name: export-french-accounting
+  slug: pennylane-export-french-accounting
+- name: import-and-validate-supplier-invoice
+  slug: pennylane-import-and-validate-supplier-invoice
+- name: reconcile-bank-transactions
+  slug: pennylane-reconcile-bank-transactions
+- name: sync-changes
+  slug: pennylane-sync-changes
 slug: pennylane
 tags:
 - Accounting

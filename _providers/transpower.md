@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Developer resources for landowners and developers provided by Transpower New Zealand.
@@ -36,12 +38,12 @@ common:
   type: BlogRSS
   url: https://www.transpower.co.nz/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/transpower/refs/heads/main/hosts/transpower-hosts.yml
+  href: https://artifacts.apis.io/transpower/hosts/transpower-hosts.yml
   title: ''
   type: Hosts
   url: hosts/transpower-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/transpower/refs/heads/main/vendors/transpower-vendors.yml
+  href: https://artifacts.apis.io/transpower/vendors/transpower-vendors.yml
   title: ''
   type: Vendors
   url: vendors/transpower-vendors.yml
@@ -58,7 +60,7 @@ common:
   type: DeveloperPortal
   url: https://www.transpower.co.nz/our-work/landowners-and-developers/developers
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/transpower/refs/heads/main/security/transpower-domain-security.yml
+  href: https://artifacts.apis.io/transpower/security/transpower-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/transpower-domain-security.yml
@@ -89,7 +91,7 @@ overview: 'Transpower New Zealand is listed with 1 API on the [APIs.io](https://
 
 
   Transpower New Zealand''s developer surface includes signup flow, support, and 9 more developer resources.'
-random_paper: 9
+random_paper: 5
 score:
   band: emerging
   composite: 15.0
@@ -124,14 +126,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/transpower/refs/heads/main/screenshots/transpower-2026-10-11T131139.png
+screenshot: https://apis.io/screenshots/transpower/transpower-2026-10-11T131139.png
 security:
 - kind: domain-security
   name: Transpower Domain Security

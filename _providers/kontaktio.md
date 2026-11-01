@@ -31,14 +31,16 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.3
-  scored_at: '2026-10-17'
+  score: 53.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 3
@@ -46,7 +48,7 @@ agentic_access:
   operation_count: 96
   slug: kontaktio-agentic-access
   summary_line: 96 operations · 42 acting · 3 human-in-the-loop
-api_count: 8
+api_count: 4
 apis:
 - baseURL: https://dm-api.cloud.us.kontakt.io
   baseurl_source: declared
@@ -198,54 +200,54 @@ apis:
   description: The Telemetry API from Kontakt.io — 1 operation(s) for telemetry.
   name: Kontakt.io Telemetry API
   slug: kontaktio-telemetry-api
-artifact_total: 95
+artifact_total: 101
 asyncapis:
 - description: ''
   name: Kontaktio Streams Events
   slug: kontaktio-streams-events
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/agentic-access/kontaktio-agentic-access.yml
+  href: https://artifacts.apis.io/kontaktio/agentic-access/kontaktio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kontaktio-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/rules/kontaktio-rules.yml
+  href: https://artifacts.apis.io/kontaktio/rules/kontaktio-rules.yml
   title: ''
   type: Spectral
   url: rules/kontaktio-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/json-ld/kontaktio-context.jsonld
+  href: https://artifacts.apis.io/kontaktio/json-ld/kontaktio-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/kontaktio-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/vocabulary/kontaktio-vocabulary.yml
+  href: https://artifacts.apis.io/kontaktio/vocabulary/kontaktio-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/kontaktio-vocabulary.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/security/kontaktio-trust-center.yml
+  href: https://artifacts.apis.io/kontaktio/security/kontaktio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kontaktio-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/security/kontaktio-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kontaktio/security/kontaktio-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/kontaktio-vulnerability-disclosure.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/lifecycle/kontaktio-lifecycle.yml
+  href: https://artifacts.apis.io/kontaktio/lifecycle/kontaktio-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/kontaktio-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/hosts/kontaktio-hosts.yml
+  href: https://artifacts.apis.io/kontaktio/hosts/kontaktio-hosts.yml
   title: ''
   type: Hosts
   url: hosts/kontaktio-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/vendors/kontaktio-vendors.yml
+  href: https://artifacts.apis.io/kontaktio/vendors/kontaktio-vendors.yml
   title: ''
   type: Vendors
   url: vendors/kontaktio-vendors.yml
@@ -254,22 +256,22 @@ common:
   type: Newsroom
   url: https://kontakt.io/why-kontakt-io/newsroom/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/security/kontaktio-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kontaktio/security/kontaktio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kontaktio-vulnerability-disclosure.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/capabilities/kontaktio-capability-edges.yml
+  href: https://artifacts.apis.io/kontaktio/capabilities/kontaktio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kontaktio-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/security/kontaktio-domain-security.yml
+  href: https://artifacts.apis.io/kontaktio/security/kontaktio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kontaktio-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/authentication/kontaktio-authentication.yml
+  href: https://artifacts.apis.io/kontaktio/authentication/kontaktio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kontaktio-authentication.yml
@@ -330,97 +332,105 @@ common:
   type: Compliance
   url: https://kontakt.io/legal-documents/security/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/packages/kontaktio-packages.yml
+  href: https://artifacts.apis.io/kontaktio/packages/kontaktio-packages.yml
   title: ''
   type: Packages
   url: packages/kontaktio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/packages/kontaktio-packages.yml
+  href: https://artifacts.apis.io/kontaktio/packages/kontaktio-packages.yml
   title: ''
   type: SDKs
   url: packages/kontaktio-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/well-known/kontaktio-well-known.yml
+  href: https://artifacts.apis.io/kontaktio/well-known/kontaktio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kontaktio-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/mcp/kontaktio-mcp.yml
+  href: https://artifacts.apis.io/kontaktio/mcp/kontaktio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kontaktio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/llms/kontaktio-llms.txt
+  href: https://artifacts.apis.io/kontaktio/llms/kontaktio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kontaktio-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/overlays/kontaktio-device-management-overlay.yaml
+  href: https://artifacts.apis.io/kontaktio/overlays/kontaktio-device-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kontaktio-device-management-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/conformance/kontaktio-conformance.yml
+  href: https://artifacts.apis.io/kontaktio/conformance/kontaktio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kontaktio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/errors/kontaktio-problem-types.yml
+  href: https://artifacts.apis.io/kontaktio/errors/kontaktio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kontaktio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/lifecycle/kontaktio-lifecycle.yml
+  href: https://artifacts.apis.io/kontaktio/lifecycle/kontaktio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kontaktio-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/scopes/kontaktio-scopes.yml
+  href: https://artifacts.apis.io/kontaktio/scopes/kontaktio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kontaktio-scopes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/sandbox/kontaktio-sandbox.yml
+  href: https://artifacts.apis.io/kontaktio/sandbox/kontaktio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kontaktio-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/conventions/kontaktio-conventions.yml
+  href: https://artifacts.apis.io/kontaktio/conventions/kontaktio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kontaktio-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/changelog/kontaktio-changelog.yml
+  href: https://artifacts.apis.io/kontaktio/changelog/kontaktio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kontaktio-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/data-model/kontaktio-data-model.yml
+  href: https://artifacts.apis.io/kontaktio/data-model/kontaktio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kontaktio-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/asyncapi/kontaktio-streams-events.yml
+  href: https://artifacts.apis.io/kontaktio/asyncapi/kontaktio-streams-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/kontaktio-streams-events.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kontaktio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/rate-limits/kontaktio-rate-limits.yml
+  href: https://artifacts.apis.io/kontaktio/rate-limits/kontaktio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kontaktio-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/plans/kontaktio-plans-pricing.yml
+  href: https://artifacts.apis.io/kontaktio/plans/kontaktio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kontaktio-plans-pricing.yml
 created: '2026-08-23'
 description: 'Kontakt.io is an AI-powered real-time location system (RTLS) and IoT platform for healthcare operations, founded in 2013 with offices in New York and Krakow. Its Kio Cloud platform combines BLE/UWB tags, badges, gateways and sensors with software for asset tracking, staff safety, patient flow, room and seat occupancy, and environmental telemetry. Developers integrate through the Kontakt.io Developer Center, which publishes four OpenAPI contracts: a Device Management API for provisioning, configuring and firmware-upgrading devices, a Location & Occupancy API for real-time and historical positions, presences, occupancy and telemetry plus a Streams API for event subscriptions, a Spaces API, and an Entity Management Integration API for batch import of staff and asset entities. Kio Cloud runs in US and UK regions and ships iOS and Android SDKs.'
+finops:
+- has_sources: true
+  method: derived
+  name: Kontaktio Finops
+  primary_unit: ''
+  service_category: ''
+  slug: kontaktio-finops
+  template: true
 image: https://kontakt.io/app/uploads/2025/06/why-kontakt-hero-image-scaled-1.jpg
 json_schemas:
 - name: Building
@@ -607,7 +617,7 @@ plans:
 - name: Kontaktio Plans Pricing
   plan_count: 0
   slug: kontaktio-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Kontaktio Rate Limits
@@ -632,23 +642,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 71.4
+  composite: 70.4
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 34
     catalog_earned: 77.8
     catalog_earned_first_party: 12.0
     catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 9.5
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 22.0
-    contract_quality: 75.5
+    contract_quality: 74.0
     developer_ergonomics: 73.2
-    discoverability: 81.7
-    operational_transparency: 92.1
-  previous_composite: 61.9
+    discoverability: 71.7
+    operational_transparency: 94.7
+  previous_composite: 70.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -665,13 +675,14 @@ score:
     regime: Health
     regime_id: health
     score: 46.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/screenshots/kontaktio-2026-09-02T150120.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kontaktio/kontaktio-2026-09-02T150120.png
 security:
 - kind: authentication
   name: Kontaktio Authentication
@@ -689,6 +700,18 @@ security:
   name: Kontaktio Trust Center
   slug: kontaktio-trust-center
   summary_line: SOC 2 Type II, HIPAA Security Rule / HITECH, GDPR
+skill_count: 5
+skills:
+- name: kontaktio-configure-realtime-stream
+  slug: kontaktio-configure-realtime-stream
+- name: kontaktio-import-staff-and-assets
+  slug: kontaktio-import-staff-and-assets
+- name: kontaktio-monitor-room-occupancy
+  slug: kontaktio-monitor-room-occupancy
+- name: kontaktio-provision-and-configure-devices
+  slug: kontaktio-provision-and-configure-devices
+- name: kontaktio-track-device-location
+  slug: kontaktio-track-device-location
 slug: kontaktio
 tags:
 - Company

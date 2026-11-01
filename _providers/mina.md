@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL API exposed by a running Mina daemon (node) for querying node, account, and chain state and submitting payments, delegations, and zkApp transactions. Bound to localhost:3085 by default. 41 que
   name: Mina Daemon GraphQL API
   slug: mina-daemon-graphql-api
-artifact_total: 4
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -78,77 +80,77 @@ common:
   type: TermsOfService
   url: https://minaprotocol.com/tos
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/packages/mina-packages.yml
+  href: https://artifacts.apis.io/mina/packages/mina-packages.yml
   title: ''
   type: Packages
   url: packages/mina-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/packages/mina-packages.yml
+  href: https://artifacts.apis.io/mina/packages/mina-packages.yml
   title: ''
   type: SDKs
   url: packages/mina-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/llms/mina-llms.txt
+  href: https://artifacts.apis.io/mina/llms/mina-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mina-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/well-known/mina-well-known.yml
+  href: https://artifacts.apis.io/mina/well-known/mina-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mina-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/mcp/mina-mcp.yml
+  href: https://artifacts.apis.io/mina/mcp/mina-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mina-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/cli/mina-cli.yml
+  href: https://artifacts.apis.io/mina/cli/mina-cli.yml
   title: ''
   type: CLI
   url: cli/mina-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/sandbox/mina-sandbox.yml
+  href: https://artifacts.apis.io/mina/sandbox/mina-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mina-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/lifecycle/mina-lifecycle.yml
+  href: https://artifacts.apis.io/mina/lifecycle/mina-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mina-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/changelog/mina-changelog.yml
+  href: https://artifacts.apis.io/mina/changelog/mina-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mina-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/conventions/mina-conventions.yml
+  href: https://artifacts.apis.io/mina/conventions/mina-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mina-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/authentication/mina-authentication.yml
+  href: https://artifacts.apis.io/mina/authentication/mina-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mina-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/conformance/mina-conformance.yml
+  href: https://artifacts.apis.io/mina/conformance/mina-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mina-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/errors/mina-problem-types.yml
+  href: https://artifacts.apis.io/mina/errors/mina-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mina-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/security/mina-domain-security.yml
+  href: https://artifacts.apis.io/mina/security/mina-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mina-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/security/mina-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mina/security/mina-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mina-vulnerability-disclosure.yml
@@ -157,7 +159,7 @@ common:
   type: Security
   url: https://docs.minaprotocol.com/mina-security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mina/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -173,10 +175,10 @@ overview: 'Mina is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Mina''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, sandbox, changelog, and 19 more developer resources.'
-random_paper: 3
+random_paper: 13
 score:
   band: thin
-  composite: 33.3
+  composite: 33.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 32.0
@@ -184,15 +186,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 80.4
-    discoverability: 64.3
-    operational_transparency: 28.9
-  previous_composite: 33.2
+    discoverability: 57.1
+    operational_transparency: 31.6
+  previous_composite: 33.0
   provenance:
     conformance: derived
     mcp: derived
@@ -203,14 +205,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/screenshots/mina-2026-08-07T172921.png
+screenshot: https://apis.io/screenshots/mina/mina-2026-08-07T172921.png
 security:
 - kind: authentication
   name: Mina Authentication
@@ -224,6 +226,12 @@ security:
   name: Mina Vulnerability Disclosure
   slug: mina-vulnerability-disclosure
   summary_line: disclosure policy published
+skill_count: 2
+skills:
+- name: Query Mina node health and account state
+  slug: mina-query-node-and-account
+- name: Unlock an account and send a Mina payment
+  slug: mina-send-payment
 slug: mina
 tags:
 - Company

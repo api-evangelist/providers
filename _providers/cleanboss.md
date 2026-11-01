@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.5
-  scored_at: '2026-10-17'
+  score: 17.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for CleanBoss platform (no machine-readable spec discovered)
@@ -32,22 +34,22 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cleanboss/refs/heads/main/llms/cleanboss-llms.txt
+  href: https://artifacts.apis.io/cleanboss/llms/cleanboss-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cleanboss-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cleanboss/refs/heads/main/well-known/cleanboss-well-known.yml
+  href: https://artifacts.apis.io/cleanboss/well-known/cleanboss-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cleanboss-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cleanboss/refs/heads/main/hosts/cleanboss-hosts.yml
+  href: https://artifacts.apis.io/cleanboss/hosts/cleanboss-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cleanboss-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cleanboss/refs/heads/main/vendors/cleanboss-vendors.yml
+  href: https://artifacts.apis.io/cleanboss/vendors/cleanboss-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cleanboss-vendors.yml
@@ -68,7 +70,7 @@ common:
   type: Login
   url: https://www.cleanboss.co/account/login
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cleanboss/refs/heads/main/security/cleanboss-domain-security.yml
+  href: https://artifacts.apis.io/cleanboss/security/cleanboss-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cleanboss-domain-security.yml
@@ -93,32 +95,35 @@ name: CleanBoss
 nav: Providers
 network: true
 overview: CleanBoss is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Products, Cleaning, Eco-friendly, and E-Commerce.
-random_paper: 8
+random_paper: 18
 score:
   band: emerging
-  composite: 13.2
+  composite: 20.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 29.8
     developer_ergonomics: 0.0
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 0.0
+  previous_composite: 20.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

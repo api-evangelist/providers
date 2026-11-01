@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Shoreline cluster API — the backend that alarms, actions, bots, runbooks, notebooks, resources, files, integrations and principals are managed against. The endpoint was always customer-specific (t
@@ -42,37 +44,37 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/plans/shoreline-plans-pricing.yml
+  href: https://artifacts.apis.io/shoreline/plans/shoreline-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/shoreline-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/rate-limits/shoreline-rate-limits.yml
+  href: https://artifacts.apis.io/shoreline/rate-limits/shoreline-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shoreline-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/finops/shoreline-finops.yml
+  href: https://artifacts.apis.io/shoreline/finops/shoreline-finops.yml
   title: ''
   type: FinOps
   url: finops/shoreline-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/security/shoreline-domain-security.yml
+  href: https://artifacts.apis.io/shoreline/security/shoreline-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shoreline-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/lifecycle/shoreline-lifecycle.yml
+  href: https://artifacts.apis.io/shoreline/lifecycle/shoreline-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shoreline-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/packages/shoreline-packages.yml
+  href: https://artifacts.apis.io/shoreline/packages/shoreline-packages.yml
   title: ''
   type: Packages
   url: packages/shoreline-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shoreline/refs/heads/main/llms/shoreline-llms.txt
+  href: https://artifacts.apis.io/shoreline/llms/shoreline-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shoreline-llms.txt
@@ -106,7 +108,7 @@ finops:
 - has_sources: false
   method: generated
   name: Shoreline Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: shoreline-finops
   template: true
@@ -121,7 +123,7 @@ plans:
 - name: Shoreline Plans Pricing
   plan_count: 0
   slug: shoreline-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Shoreline Rate Limits
@@ -152,8 +154,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

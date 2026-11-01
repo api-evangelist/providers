@@ -12,7 +12,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 62.8
-  scored_at: '2026-10-17'
+  score: 61.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -108,11 +110,8 @@ apis:
   description: The Users API from Monaco — 1 operation(s) for users.
   name: Monaco Users API
   slug: monaco-users-api
-artifact_total: 36
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Monaco Public Accounts API
   slug: open-monaco-accounts-api
@@ -154,7 +153,7 @@ collections:
   slug: open-monaco-users-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/rate-limits/monaco-rate-limits.yml
+  href: https://artifacts.apis.io/monaco/rate-limits/monaco-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/monaco-rate-limits.yml
@@ -163,12 +162,12 @@ common:
   type: BlogRSS
   url: https://www.monaco.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/capabilities/monaco-capability-edges.yml
+  href: https://artifacts.apis.io/monaco/capabilities/monaco-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/monaco-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/overlays/monaco-openapi-overlay.yaml
+  href: https://artifacts.apis.io/monaco/overlays/monaco-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/monaco-openapi-overlay.yaml
@@ -225,77 +224,85 @@ common:
   type: Security
   url: https://www.monaco.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/security/monaco-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/monaco/security/monaco-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/monaco-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/security/monaco-domain-security.yml
+  href: https://artifacts.apis.io/monaco/security/monaco-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/monaco-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/well-known/monaco-security.txt
+  href: https://artifacts.apis.io/monaco/well-known/monaco-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/monaco-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/well-known/monaco-well-known.yml
+  href: https://artifacts.apis.io/monaco/well-known/monaco-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/monaco-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/authentication/monaco-authentication.yml
+  href: https://artifacts.apis.io/monaco/authentication/monaco-authentication.yml
   title: ''
   type: Authentication
   url: authentication/monaco-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/mcp/monaco-mcp.yml
+  href: https://artifacts.apis.io/monaco/mcp/monaco-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/monaco-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/monaco/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/llms/monaco-llms.txt
+  href: https://artifacts.apis.io/monaco/llms/monaco-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/monaco-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/lifecycle/monaco-lifecycle.yml
+  href: https://artifacts.apis.io/monaco/lifecycle/monaco-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/monaco-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/agentic-access/monaco-agentic-access.yml
+  href: https://artifacts.apis.io/monaco/agentic-access/monaco-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/monaco-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/a2a/monaco-a2a.yml
+  href: https://artifacts.apis.io/monaco/a2a/monaco-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/monaco-a2a.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/mcp/monaco-tool-crosswalk.yml
+  href: https://artifacts.apis.io/monaco/mcp/monaco-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/monaco-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/scopes/monaco-scopes.yml
+  href: https://artifacts.apis.io/monaco/scopes/monaco-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/monaco-scopes.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/plans/monaco-plans-pricing.yml
+  href: https://artifacts.apis.io/monaco/plans/monaco-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/monaco-plans-pricing.yml
 created: '2026-07-17'
 description: Monaco is an AI-native revenue platform for startups that replaces legacy CRM systems and disparate sales point solutions with a single revenue engine. It unifies a contacts/accounts database, buying signals, sequences, pipeline and opportunity tracking, meeting/call recording with AI summaries, and CRO copilot coaching. Monaco exposes a public REST API (api.monaco.com) covering contacts, accounts, opportunities, tasks, tags, meetings, sequences, sequence templates, audiences, and campaigns, plus a hosted, OAuth-secured MCP server (mcp.monaco.com), a published Agent Skill, and an A2A agent card on its docs host, so AI agents can query and act on revenue data in natural language. Founded by Sam Blond and backed by Founders Fund; the API and MCP surface are currently in Beta, and the published OpenAPI grew from 37 to 51 operations between July and August 2026 with no changelog to announce it.
+finops:
+- has_sources: true
+  method: derived
+  name: Monaco Finops
+  primary_unit: credits
+  service_category: ''
+  slug: monaco-finops
+  template: false
 image: https://www.monaco.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -312,9 +319,9 @@ overview: 'Monaco publishes 13 API contracts indexed on the [APIs.io](https://ap
   Monaco''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 25 more developer resources.'
 plans:
 - name: Monaco Plans Pricing
-  plan_count: 0
+  plan_count: 1
   slug: monaco-plans-pricing
-random_paper: 21
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Monaco Rate Limits
@@ -326,23 +333,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.7
+  composite: 53.4
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 28.9
+    access_clarity: 71.1
     contract_governance: 18.2
-    contract_quality: 50.8
+    contract_quality: 48.8
     developer_ergonomics: 54.2
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 49.6
+    discoverability: 65.0
+    operational_transparency: 26.3
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -359,13 +366,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/screenshots/monaco-2026-08-07T184130.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/monaco/monaco-2026-08-07T184130.png
 security:
 - kind: authentication
   name: Monaco Authentication
@@ -383,6 +391,16 @@ security:
   name: Monaco Trust Center
   slug: monaco-trust-center
   summary_line: trust center published
+skill_count: 4
+skills:
+- name: Prep an account briefing before a meeting
+  slug: monaco-account-briefing
+- name: Monaco
+  slug: monaco-docs-integration.skill
+- name: Build a tagged outbound audience
+  slug: monaco-outbound-audience
+- name: Run pipeline hygiene on opportunities
+  slug: monaco-pipeline-hygiene
 slug: monaco
 tags:
 - Company

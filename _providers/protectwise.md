@@ -36,7 +36,7 @@ name: ProtectWise
 nav: Providers
 network: true
 overview: ProtectWise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Network Detection and Response, Threat Detection, and Cybersecurity.
-random_paper: 21
+random_paper: 9
 slug: protectwise
 tags:
 - Company

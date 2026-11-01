@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.6
-  scored_at: '2026-10-17'
+  score: 38.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://www.newsblur.com
@@ -73,11 +74,8 @@ apis:
   description: Reading, marking and starring stories.
   name: NewsBlur Stories API
   slug: newsblur-stories-api
-artifact_total: 18
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NewsBlur authentication API
   slug: open-newsblur-authentication-api
@@ -141,67 +139,67 @@ common:
   type: SignUp
   url: https://www.newsblur.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/mcp/newsblur-mcp.yml
+  href: https://artifacts.apis.io/newsblur/mcp/newsblur-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/newsblur-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/authentication/newsblur-authentication.yml
+  href: https://artifacts.apis.io/newsblur/authentication/newsblur-authentication.yml
   title: ''
   type: Authentication
   url: authentication/newsblur-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/conventions/newsblur-conventions.yml
+  href: https://artifacts.apis.io/newsblur/conventions/newsblur-conventions.yml
   title: ''
   type: Conventions
   url: conventions/newsblur-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/packages/newsblur-packages.yml
+  href: https://artifacts.apis.io/newsblur/packages/newsblur-packages.yml
   title: ''
   type: Packages
   url: packages/newsblur-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/llms/newsblur-llms.txt
+  href: https://artifacts.apis.io/newsblur/llms/newsblur-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/newsblur-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/well-known/newsblur-well-known.yml
+  href: https://artifacts.apis.io/newsblur/well-known/newsblur-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/newsblur-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/lifecycle/newsblur-lifecycle.yml
+  href: https://artifacts.apis.io/newsblur/lifecycle/newsblur-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/newsblur-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/security/newsblur-domain-security.yml
+  href: https://artifacts.apis.io/newsblur/security/newsblur-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/newsblur-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/data-model/newsblur-data-model.yml
+  href: https://artifacts.apis.io/newsblur/data-model/newsblur-data-model.yml
   title: ''
   type: DataModel
   url: data-model/newsblur-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/errors/newsblur-problem-types.yml
+  href: https://artifacts.apis.io/newsblur/errors/newsblur-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/newsblur-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/conformance/newsblur-conformance.yml
+  href: https://artifacts.apis.io/newsblur/conformance/newsblur-conformance.yml
   title: ''
   type: Conformance
   url: conformance/newsblur-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/overlays/newsblur-openapi-overlay.yaml
+  href: https://artifacts.apis.io/newsblur/overlays/newsblur-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/newsblur-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/newsblur/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -221,10 +219,10 @@ overview: 'NewsBlur publishes 7 API contracts indexed on the [APIs.io](https://a
 
 
   NewsBlur''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 2
+random_paper: 18
 score:
   band: thin
-  composite: 35.2
+  composite: 36.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 32.0
@@ -238,9 +236,9 @@ score:
     contract_governance: 4.5
     contract_quality: 45.7
     developer_ergonomics: 47.0
-    discoverability: 60.0
-    operational_transparency: 2.6
-  previous_composite: 35.2
+    discoverability: 56.7
+    operational_transparency: 5.3
+  previous_composite: 36.0
   provenance:
     conformance: derived
     contracts:
@@ -256,13 +254,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/screenshots/newsblur-2026-08-07T185129.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/newsblur/newsblur-2026-08-07T185129.png
 security:
 - kind: authentication
   name: Newsblur Authentication
@@ -272,6 +271,14 @@ security:
   name: Newsblur Domain Security
   slug: newsblur-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 3
+skills:
+- name: Read and triage your NewsBlur river
+  slug: newsblur-read-and-triage
+- name: Save and share a story to your blurblog
+  slug: newsblur-save-and-share
+- name: Subscribe to a feed and organize it
+  slug: newsblur-subscribe-and-organize
 slug: newsblur
 tags:
 - Company

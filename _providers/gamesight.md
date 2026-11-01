@@ -30,16 +30,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.8
-  scored_at: '2026-10-17'
+  score: 47.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -59,11 +61,8 @@ apis:
   description: The Reporting API from Gamesight — 9 operation(s) for reporting.
   name: Gamesight Reporting API
   slug: gamesight-reporting-api
-artifact_total: 13
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Gamesight Measurement API
   slug: open-gamesight-measurement-api
@@ -76,42 +75,42 @@ common:
   type: BlogRSS
   url: https://blog.gamesight.io/rss/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/overlays/gamesight-measurement-overlay.yaml
+  href: https://artifacts.apis.io/gamesight/overlays/gamesight-measurement-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gamesight-measurement-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/security/gamesight-domain-security.yml
+  href: https://artifacts.apis.io/gamesight/security/gamesight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gamesight-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/agentic-access/gamesight-agentic-access.yml
+  href: https://artifacts.apis.io/gamesight/agentic-access/gamesight-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gamesight-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/authentication/gamesight-authentication.yml
+  href: https://artifacts.apis.io/gamesight/authentication/gamesight-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gamesight-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/mcp/gamesight-mcp.yml
+  href: https://artifacts.apis.io/gamesight/mcp/gamesight-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/gamesight-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/gamesight/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/llms/gamesight-llms.txt
+  href: https://artifacts.apis.io/gamesight/llms/gamesight-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gamesight-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/conformance/gamesight-conformance.yml
+  href: https://artifacts.apis.io/gamesight/conformance/gamesight-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gamesight-conformance.yml
@@ -120,17 +119,17 @@ common:
   type: Compliance
   url: https://gamesight.io/gdpr
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/security/gamesight-trust-center.yml
+  href: https://artifacts.apis.io/gamesight/security/gamesight-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gamesight-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/errors/gamesight-problem-types.yml
+  href: https://artifacts.apis.io/gamesight/errors/gamesight-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gamesight-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/lifecycle/gamesight-lifecycle.yml
+  href: https://artifacts.apis.io/gamesight/lifecycle/gamesight-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gamesight-lifecycle.yml
@@ -139,32 +138,32 @@ common:
   type: StatusPage
   url: https://status.gamesight.io/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/rate-limits/gamesight-rate-limits.yml
+  href: https://artifacts.apis.io/gamesight/rate-limits/gamesight-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gamesight-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/conventions/gamesight-conventions.yml
+  href: https://artifacts.apis.io/gamesight/conventions/gamesight-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gamesight-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/changelog/gamesight-changelog.yml
+  href: https://artifacts.apis.io/gamesight/changelog/gamesight-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gamesight-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/components/gamesight-components.yml
+  href: https://artifacts.apis.io/gamesight/components/gamesight-components.yml
   title: ''
   type: Components
   url: components/gamesight-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/data-model/gamesight-data-model.yml
+  href: https://artifacts.apis.io/gamesight/data-model/gamesight-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gamesight-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/sandbox/gamesight-sandbox.yml
+  href: https://artifacts.apis.io/gamesight/sandbox/gamesight-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/gamesight-sandbox.yml
@@ -209,32 +208,40 @@ common:
   type: Website
   url: https://gamesight.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/well-known/gamesight-well-known.yml
+  href: https://artifacts.apis.io/gamesight/well-known/gamesight-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gamesight-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/scopes/gamesight-scopes.yml
+  href: https://artifacts.apis.io/gamesight/scopes/gamesight-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gamesight-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/packages/gamesight-packages.yml
+  href: https://artifacts.apis.io/gamesight/packages/gamesight-packages.yml
   title: ''
   type: Packages
   url: packages/gamesight-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/packages/gamesight-packages.yml
+  href: https://artifacts.apis.io/gamesight/packages/gamesight-packages.yml
   title: ''
   type: SDKs
   url: packages/gamesight-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/plans/gamesight-plans-pricing.yml
+  href: https://artifacts.apis.io/gamesight/plans/gamesight-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gamesight-plans-pricing.yml
 created: '2026-07-17'
 description: Gamesight is a performance marketing platform for PC and console games, giving game publishers the data, technology, and expertise to reach players across a title's lifecycle. Its Marketing Measurement suite delivers attribution for PC, console, and web games, cost aggregation from ad networks, and incrementality testing, while its Creator Marketing products run influencer campaigns, creator programs, and creator-led playtests. Developers integrate via a REST Measurement (ingest) API that streams in-game events with device identifiers, a Reporting API that pulls marketing analytics into a data warehouse, and a web measurement JavaScript SDK. The platform processes over a billion gaming data points daily and is SOC 2, GDPR, and CCPA compliant.
+finops:
+- has_sources: true
+  method: derived
+  name: Gamesight Finops
+  primary_unit: ''
+  service_category: ''
+  slug: gamesight-finops
+  template: true
 image: https://console.gamesight.io/images/meta/gamesight-facebook.png
 layout: provider
 mcp_servers:
@@ -253,7 +260,7 @@ plans:
 - name: Gamesight Plans Pricing
   plan_count: 0
   slug: gamesight-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Gamesight Rate Limits
@@ -265,9 +272,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.1
+  composite: 54.0
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -275,13 +282,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 49.0
-    developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 55.3
-  previous_composite: 50.1
+    developer_ergonomics: 73.2
+    discoverability: 65.0
+    operational_transparency: 57.9
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -304,13 +311,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/screenshots/gamesight-2026-07-25T215419.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gamesight/gamesight-2026-07-25T215419.png
 security:
 - kind: authentication
   name: Gamesight Authentication
@@ -324,6 +332,14 @@ security:
   name: Gamesight Trust Center
   slug: gamesight-trust-center
   summary_line: SOC 2, GDPR, CCPA
+skill_count: 3
+skills:
+- name: Handle a Gamesight GDPR/CCPA request
+  slug: gamesight-gdpr-forget-user
+- name: Send Gamesight measurement events
+  slug: gamesight-measure-events
+- name: Pull Gamesight marketing analytics
+  slug: gamesight-pull-marketing-stats
 slug: gamesight
 tags:
 - Company

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,9 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -69,47 +71,47 @@ common:
   type: ChangeLog
   url: https://github.com/openprose/prose/blob/main/CHANGELOG.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openprose/refs/heads/main/llms/openprose-llms.txt
+  href: https://artifacts.apis.io/openprose/llms/openprose-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openprose-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openprose/refs/heads/main/packages/openprose-packages.yml
+  href: https://artifacts.apis.io/openprose/packages/openprose-packages.yml
   title: ''
   type: Packages
   url: packages/openprose-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openprose/refs/heads/main/packages/openprose-packages.yml
+  href: https://artifacts.apis.io/openprose/packages/openprose-packages.yml
   title: ''
   type: SDKs
   url: packages/openprose-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openprose/refs/heads/main/cli/openprose-cli.yml
+  href: https://artifacts.apis.io/openprose/cli/openprose-cli.yml
   title: ''
   type: CLI
   url: cli/openprose-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openprose/refs/heads/main/skills/openprose-open-prose.md
+  href: https://artifacts.apis.io/openprose/skills/openprose-open-prose.md
   title: ''
   type: AgentSkill
   url: skills/openprose-open-prose.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openprose/refs/heads/main/lifecycle/openprose-lifecycle.yml
+  href: https://artifacts.apis.io/openprose/lifecycle/openprose-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openprose-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openprose/refs/heads/main/changelog/openprose-changelog.yml
+  href: https://artifacts.apis.io/openprose/changelog/openprose-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openprose-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openprose/refs/heads/main/well-known/openprose-well-known.yml
+  href: https://artifacts.apis.io/openprose/well-known/openprose-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/openprose-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openprose/refs/heads/main/security/openprose-domain-security.yml
+  href: https://artifacts.apis.io/openprose/security/openprose-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openprose-domain-security.yml
@@ -126,26 +128,26 @@ overview: 'Openprose is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Openprose''s developer surface includes documentation, API reference, getting-started guide, support, changelog, CLI, and 11 more developer resources.'
-random_paper: 19
+random_paper: 3
 score:
   band: emerging
-  composite: 19.4
+  composite: 19.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 55.4
-    operational_transparency: 18.4
-  previous_composite: 19.3
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 19.0
   provenance:
     skills: first-party
   regulatory:
@@ -154,19 +156,23 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/openprose/refs/heads/main/screenshots/openprose-2026-08-07T190631.png
+screenshot: https://apis.io/screenshots/openprose/openprose-2026-08-07T190631.png
 security:
 - kind: domain-security
   name: Openprose Domain Security
   slug: openprose-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 1
+skills:
+- name: open-prose
+  slug: openprose-open-prose
 slug: openprose
 tags:
 - Company

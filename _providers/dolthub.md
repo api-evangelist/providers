@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -83,11 +85,8 @@ apis:
   description: The Tags API from DoltHub — 1 operation(s) for tags.
   name: DoltHub Tags API
   slug: dolthub-tags-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: DoltHub Branches API
   slug: open-dolthub-branches-api
@@ -114,17 +113,17 @@ collections:
   slug: open-dolthub
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/agentic-access/dolthub-agentic-access.yml
+  href: https://artifacts.apis.io/dolthub/agentic-access/dolthub-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dolthub-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/security/dolthub-domain-security.yml
+  href: https://artifacts.apis.io/dolthub/security/dolthub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dolthub-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/authentication/dolthub-authentication.yml
+  href: https://artifacts.apis.io/dolthub/authentication/dolthub-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dolthub-authentication.yml
@@ -145,17 +144,17 @@ common:
   type: Documentation
   url: https://docs.dolthub.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/plans/dolthub-plans-pricing.yml
+  href: https://artifacts.apis.io/dolthub/plans/dolthub-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dolthub-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/rate-limits/dolthub-rate-limits.yml
+  href: https://artifacts.apis.io/dolthub/rate-limits/dolthub-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dolthub-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/finops/dolthub-finops.yml
+  href: https://artifacts.apis.io/dolthub/finops/dolthub-finops.yml
   title: ''
   type: FinOps
   url: finops/dolthub-finops.yml
@@ -187,7 +186,7 @@ plans:
 - name: Dolthub Plans Pricing
   plan_count: 2
   slug: dolthub-plans-pricing
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Dolthub Rate Limits
@@ -196,21 +195,21 @@ score:
   band: thin
   composite: 26.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 44.6
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 33.4
+    operational_transparency: 13.2
+  previous_composite: 26.5
   provenance:
     agentic_access: derived
     contracts:
@@ -224,13 +223,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/screenshots/dolthub-2026-06-20T180140.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dolthub/dolthub-2026-06-20T180140.png
 security:
 - kind: authentication
   name: Dolthub Authentication

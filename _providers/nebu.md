@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -57,32 +59,32 @@ common:
   type: Careers
   url: https://thenebu.com/careers
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nebu/refs/heads/main/well-known/nebu-well-known.yml
+  href: https://artifacts.apis.io/nebu/well-known/nebu-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nebu-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nebu/refs/heads/main/well-known/nebu-security.txt
+  href: https://artifacts.apis.io/nebu/well-known/nebu-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/nebu-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nebu/refs/heads/main/security/nebu-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nebu/security/nebu-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/nebu-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nebu/refs/heads/main/security/nebu-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nebu/security/nebu-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nebu-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nebu/refs/heads/main/security/nebu-trust-center.yml
+  href: https://artifacts.apis.io/nebu/security/nebu-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nebu-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nebu/refs/heads/main/security/nebu-domain-security.yml
+  href: https://artifacts.apis.io/nebu/security/nebu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nebu-domain-security.yml
@@ -98,18 +100,18 @@ overview: 'Nebu is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Nebu''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: minimal
   composite: 8.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -117,21 +119,21 @@ score:
     developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 7.8
+  previous_composite: 8.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nebu/refs/heads/main/screenshots/nebu-2026-08-07T184818.png
+screenshot: https://apis.io/screenshots/nebu/nebu-2026-08-07T184818.png
 security:
 - kind: domain-security
   name: Nebu Domain Security

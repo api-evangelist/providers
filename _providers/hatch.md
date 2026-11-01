@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 28.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.usehatchapp.com
@@ -43,31 +45,28 @@ apis:
   description: The contacts API from Hatch — 1 operation(s) for contacts.
   name: Hatch Contacts API
   slug: hatch-contacts-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Hatch Webhooks
   slug: hatch-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Hatch contacts API
   slug: open-hatch-contacts-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/plans/hatch-plans-pricing.yml
+  href: https://artifacts.apis.io/hatch/plans/hatch-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hatch-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/capabilities/hatch-capability-edges.yml
+  href: https://artifacts.apis.io/hatch/capabilities/hatch-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hatch-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/mcp/hatch-mcp.yml
+  href: https://artifacts.apis.io/hatch/mcp/hatch-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hatch-mcp.yml
@@ -124,72 +123,80 @@ common:
   type: StatusPage
   url: https://status.usehatchapp.com
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/openapi/_original/hatch-openapi-original.json
+  href: https://artifacts.apis.io/hatch/openapi/_original/hatch-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/hatch-openapi-original.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/authentication/hatch-authentication.yml
+  href: https://artifacts.apis.io/hatch/authentication/hatch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hatch-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/errors/hatch-problem-types.yml
+  href: https://artifacts.apis.io/hatch/errors/hatch-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hatch-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/overlays/hatch-openapi-overlay.yaml
+  href: https://artifacts.apis.io/hatch/overlays/hatch-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hatch-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/conventions/hatch-conventions.yml
+  href: https://artifacts.apis.io/hatch/conventions/hatch-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hatch-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/lifecycle/hatch-lifecycle.yml
+  href: https://artifacts.apis.io/hatch/lifecycle/hatch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hatch-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/rate-limits/hatch-rate-limits.yml
+  href: https://artifacts.apis.io/hatch/rate-limits/hatch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hatch-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/asyncapi/hatch-webhooks.yml
+  href: https://artifacts.apis.io/hatch/asyncapi/hatch-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hatch-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/conformance/hatch-conformance.yml
+  href: https://artifacts.apis.io/hatch/conformance/hatch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hatch-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/data-model/hatch-data-model.yml
+  href: https://artifacts.apis.io/hatch/data-model/hatch-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hatch-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/security/hatch-domain-security.yml
+  href: https://artifacts.apis.io/hatch/security/hatch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hatch-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hatch/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/llms/hatch-llms.txt
+  href: https://artifacts.apis.io/hatch/llms/hatch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hatch-llms.txt
 created: '2026-07-17'
 description: Hatch is an AI-powered customer communication platform for service businesses, unifying voice, SMS, and email into a single system with custom AI agents (AI CSRs) that text and call leads and customers to qualify them, book appointments, and drive bottom-line growth without adding headcount. Products include Voice AI, Messaging AI, Journey Builder for multi-channel campaigns, a Knowledge Engine, and a Command Center for performance tracking. For developers, Hatch exposes a public REST API (bearer-token auth) whose primary operation upserts contacts into campaigns, a Bulk Export API for BI/analytics, and an outbound webhook surface (11 event types, EdDSA-signed) for pushing events to downstream systems and Zapier. Backed by Bessemer Venture Partners and True Ventures. Added to the API Evangelist network and enriched from the provider's own public developer surface.
+finops:
+- has_sources: true
+  method: derived
+  name: Hatch Finops
+  primary_unit: ''
+  service_category: ''
+  slug: hatch-finops
+  template: true
 image: https://cdn.prod.website-files.com/6979136a27d403634304b470/69c2be9beb7874c215169569_hatch-homepage-og-image.png
 layout: provider
 modified: '2026-07-19'
@@ -207,16 +214,16 @@ plans:
 - name: Hatch Plans Pricing
   plan_count: 3
   slug: hatch-plans-pricing
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Hatch Rate Limits
   slug: hatch-rate-limits
 score:
-  band: strong
-  composite: 57.4
+  band: developing
+  composite: 53.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -224,13 +231,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 63.2
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 55.2
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 44.7
-  previous_composite: 57.4
+  previous_composite: 53.9
   provenance:
     conformance: derived
     contracts:
@@ -246,13 +253,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/screenshots/hatch-2026-07-25T220750.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hatch/hatch-2026-07-25T220750.png
 security:
 - kind: authentication
   name: Hatch Authentication
@@ -262,6 +270,10 @@ security:
   name: Hatch Domain Security
   slug: hatch-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Upsert a contact into Hatch
+  slug: hatch-upsert-contact
 slug: hatch
 tags:
 - Company

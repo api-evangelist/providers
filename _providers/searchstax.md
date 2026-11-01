@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 20.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -78,11 +80,8 @@ apis:
   description: The Usage API from SearchStax — 1 operation(s) for usage.
   name: SearchStax Usage API
   slug: searchstax-usage-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SearchStax Provisioning Authentication API
   slug: open-searchstax-authentication-api
@@ -106,42 +105,42 @@ collections:
   slug: open-searchstax-usage-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/plans/searchstax-plans-pricing.yml
+  href: https://artifacts.apis.io/searchstax/plans/searchstax-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/searchstax-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/rate-limits/searchstax-rate-limits.yml
+  href: https://artifacts.apis.io/searchstax/rate-limits/searchstax-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/searchstax-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/finops/searchstax-finops.yml
+  href: https://artifacts.apis.io/searchstax/finops/searchstax-finops.yml
   title: ''
   type: FinOps
   url: finops/searchstax-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/capabilities/searchstax-capability-edges.yml
+  href: https://artifacts.apis.io/searchstax/capabilities/searchstax-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/searchstax-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/agentic-access/searchstax-agentic-access.yml
+  href: https://artifacts.apis.io/searchstax/agentic-access/searchstax-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/searchstax-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/security/searchstax-trust-center.yml
+  href: https://artifacts.apis.io/searchstax/security/searchstax-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/searchstax-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/security/searchstax-domain-security.yml
+  href: https://artifacts.apis.io/searchstax/security/searchstax-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/searchstax-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/authentication/searchstax-authentication.yml
+  href: https://artifacts.apis.io/searchstax/authentication/searchstax-authentication.yml
   title: ''
   type: Authentication
   url: authentication/searchstax-authentication.yml
@@ -178,32 +177,32 @@ common:
   type: Documentation
   url: https://www.searchstax.com/docs/searchstax-cloud-authentication-api/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/json-schema/searchstax-deployment-schema.json
+  href: https://artifacts.apis.io/searchstax/json-schema/searchstax-deployment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/searchstax-deployment-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/json-structure/searchstax-deployment-structure.json
+  href: https://artifacts.apis.io/searchstax/json-structure/searchstax-deployment-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/searchstax-deployment-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/json-ld/searchstax-context.jsonld
+  href: https://artifacts.apis.io/searchstax/json-ld/searchstax-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/searchstax-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/examples/searchstax-list-deployments-example.json
+  href: https://artifacts.apis.io/searchstax/examples/searchstax-list-deployments-example.json
   title: ''
   type: Examples
   url: examples/searchstax-list-deployments-example.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/rules/searchstax-rules.yml
+  href: https://artifacts.apis.io/searchstax/rules/searchstax-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/searchstax-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/vocabulary/searchstax-vocabulary.yml
+  href: https://artifacts.apis.io/searchstax/vocabulary/searchstax-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/searchstax-vocabulary.yml
@@ -221,7 +220,7 @@ finops:
 - has_sources: false
   method: generated
   name: Searchstax Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: searchstax-finops
   template: true
@@ -255,7 +254,7 @@ plans:
 - name: Searchstax Plans Pricing
   plan_count: 3
   slug: searchstax-plans-pricing
-random_paper: 0
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Searchstax Rate Limits
@@ -286,7 +285,7 @@ rules:
   slug: searchstax-rules
 score:
   band: thin
-  composite: 34.1
+  composite: 34.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 60.0
@@ -294,7 +293,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 27.3
@@ -302,7 +301,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 13.2
-  previous_composite: 35.6
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -316,13 +315,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/screenshots/searchstax-2026-06-20T193615.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/searchstax/searchstax-2026-06-20T193615.png
 security:
 - kind: authentication
   name: Searchstax Authentication

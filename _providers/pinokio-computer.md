@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: IssueTracker
   url: https://github.com/pinokiocomputer/pinokio/issues
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pinokio-computer/refs/heads/main/security/pinokio-computer-domain-security.yml
+  href: https://artifacts.apis.io/pinokio-computer/security/pinokio-computer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pinokio-computer-domain-security.yml
@@ -142,10 +144,10 @@ overview: 'Pinokio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Pinokio''s developer surface includes documentation, GitHub presence, release notes, privacy policy, and 19 more developer resources.'
-random_paper: 13
+random_paper: 5
 score:
   band: emerging
-  composite: 13.1
+  composite: 12.8
   coverage:
     artifact_dirs: 3
     catalog_earned: 27.0
@@ -153,32 +155,29 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 9.5
     discoverability: 48.2
     operational_transparency: 21.1
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 13.5
+  previous_composite: 12.8
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 12.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pinokio-computer/refs/heads/main/screenshots/pinokio-computer-2026-06-20T191720.png
+screenshot: https://apis.io/screenshots/pinokio-computer/pinokio-computer-2026-06-20T191720.png
 security:
 - kind: domain-security
   name: Pinokio Computer Domain Security

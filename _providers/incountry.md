@@ -24,23 +24,30 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.4
-  scored_at: '2026-10-17'
+  score: 8.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RESTful API for storing, searching, updating, and deleting regulated records inside a selected country's borders, authenticated with OAuth2 client-credentials and encrypted with AES-GCM. Supports sing
   name: InCountry REST API
   slug: incountry-rest-api
-artifact_total: 5
+artifact_total: 7
 common:
+- group: commercial
+  href: https://artifacts.apis.io/incountry/plans/incountry-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/incountry-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -94,47 +101,47 @@ common:
   type: Postman
   url: https://docs.incountry.com/assets/files/RestAPI_Demo_oAuth.postman_collection-e8b012cac5488563ba466e6ea44c309c.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/incountry/refs/heads/main/mcp/incountry-mcp.yml
+  href: https://artifacts.apis.io/incountry/mcp/incountry-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/incountry-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/incountry/refs/heads/main/authentication/incountry-authentication.yml
+  href: https://artifacts.apis.io/incountry/authentication/incountry-authentication.yml
   title: ''
   type: Authentication
   url: authentication/incountry-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/incountry/refs/heads/main/packages/incountry-packages.yml
+  href: https://artifacts.apis.io/incountry/packages/incountry-packages.yml
   title: ''
   type: Packages
   url: packages/incountry-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/incountry/refs/heads/main/packages/incountry-packages.yml
+  href: https://artifacts.apis.io/incountry/packages/incountry-packages.yml
   title: ''
   type: SDKs
   url: packages/incountry-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/incountry/refs/heads/main/changelog/incountry-changelog.yml
+  href: https://artifacts.apis.io/incountry/changelog/incountry-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/incountry-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/incountry/refs/heads/main/lifecycle/incountry-lifecycle.yml
+  href: https://artifacts.apis.io/incountry/lifecycle/incountry-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/incountry-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/incountry/refs/heads/main/conventions/incountry-conventions.yml
+  href: https://artifacts.apis.io/incountry/conventions/incountry-conventions.yml
   title: ''
   type: Conventions
   url: conventions/incountry-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/incountry/refs/heads/main/errors/incountry-error-codes.yml
+  href: https://artifacts.apis.io/incountry/errors/incountry-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/incountry-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/incountry/refs/heads/main/conformance/incountry-conformance.yml
+  href: https://artifacts.apis.io/incountry/conformance/incountry-conformance.yml
   title: ''
   type: Conformance
   url: conformance/incountry-conformance.yml
@@ -143,22 +150,30 @@ common:
   type: Compliance
   url: https://incountry.com/resource/security-and-compliance/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/incountry/refs/heads/main/security/incountry-trust-center.yml
+  href: https://artifacts.apis.io/incountry/security/incountry-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/incountry-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/incountry/refs/heads/main/security/incountry-domain-security.yml
+  href: https://artifacts.apis.io/incountry/security/incountry-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/incountry-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/incountry/refs/heads/main/llms/incountry-llms.txt
+  href: https://artifacts.apis.io/incountry/llms/incountry-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/incountry-llms.txt
 created: '2026-07-17'
 description: InCountry is a data-residency-as-a-service (DRaaS) platform that lets companies store, process, and comply with the data-localization and privacy laws of specific countries without building in-country infrastructure. Its OAuth2-secured REST API stores regulated records (PII, financial, and health data) inside a chosen country's borders using AES-GCM 256-bit encryption, exposing CRUD, batch, search, aggregate, clone, and attachment operations keyed by country and record key. InCountry also operates AgentCloak, a hosted Model Context Protocol (MCP) server that anonymizes (cloaks) and restores (uncloaks) personally identifiable information for AI agents. The platform supports data residency across 90+ jurisdictions and is certified against SOC 2 Type II, ISO 27001, ISO 27701, PCI DSS, and HIPAA.
+finops:
+- has_sources: true
+  method: derived
+  name: Incountry Finops
+  primary_unit: ''
+  service_category: ''
+  slug: incountry-finops
+  template: true
 image: https://incountry.com/wp-content/uploads/2019/07/logo.png
 layout: provider
 mcp_servers:
@@ -172,27 +187,31 @@ network: true
 overview: 'InCountry is listed with 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Company, Data Residency, Data Localization, Compliance, and Privacy.
 
 
-  InCountry''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 19 more developer resources.'
-random_paper: 13
+  InCountry''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 20 more developer resources.'
+plans:
+- name: Incountry Plans Pricing
+  plan_count: 2
+  slug: incountry-plans-pricing
+random_paper: 19
 score:
   band: developing
-  composite: 41.7
+  composite: 45.1
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 16
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.3
   facets:
-    access_clarity: 60.5
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 69.0
-    discoverability: 73.2
+    discoverability: 65.0
     operational_transparency: 31.6
-  previous_composite: 41.6
+  previous_composite: 40.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -206,14 +225,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/incountry/refs/heads/main/screenshots/incountry-2026-07-25T222340.png
+screenshot: https://apis.io/screenshots/incountry/incountry-2026-07-25T222340.png
 security:
 - kind: authentication
   name: Incountry Authentication

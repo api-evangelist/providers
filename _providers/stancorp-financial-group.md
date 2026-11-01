@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -41,7 +43,7 @@ common:
   type: Website
   url: https://www.standard.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stancorp-financial-group/refs/heads/main/security/stancorp-financial-group-domain-security.yml
+  href: https://artifacts.apis.io/stancorp-financial-group/security/stancorp-financial-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stancorp-financial-group-domain-security.yml
@@ -109,12 +111,12 @@ press:
 - date: ''
   title: Artificial Intelligence at The Standard
   url: https://www.standard.com/get-to-know-standard/legal-privacy/artificial-intelligence
-random_paper: 12
+random_paper: 6
 score:
   band: minimal
   composite: 10.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -142,14 +144,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/stancorp-financial-group/refs/heads/main/screenshots/stancorp-financial-group-2026-10-11T192840.png
+screenshot: https://apis.io/screenshots/stancorp-financial-group/stancorp-financial-group-2026-10-11T192840.png
 security:
 - kind: domain-security
   name: Stancorp Financial Group Domain Security

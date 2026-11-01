@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: White-labeled embedded finance REST API for offering business financing — creating businesses, persons, and bank accounts; generating capital offers; creating capital, line-of-credit, and pay-over-tim
@@ -42,7 +44,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parafin/refs/heads/main/security/parafin-domain-security.yml
+  href: https://artifacts.apis.io/parafin/security/parafin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parafin-domain-security.yml
@@ -79,52 +81,52 @@ common:
   type: Support
   url: https://www.parafin.com/contact
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parafin/refs/heads/main/mcp/parafin-mcp.yml
+  href: https://artifacts.apis.io/parafin/mcp/parafin-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/parafin-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/parafin/refs/heads/main/packages/parafin-packages.yml
+  href: https://artifacts.apis.io/parafin/packages/parafin-packages.yml
   title: ''
   type: Packages
   url: packages/parafin-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/parafin/refs/heads/main/packages/parafin-packages.yml
+  href: https://artifacts.apis.io/parafin/packages/parafin-packages.yml
   title: ''
   type: SDKs
   url: packages/parafin-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parafin/refs/heads/main/components/parafin-components.yml
+  href: https://artifacts.apis.io/parafin/components/parafin-components.yml
   title: ''
   type: Components
   url: components/parafin-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parafin/refs/heads/main/well-known/parafin-well-known.yml
+  href: https://artifacts.apis.io/parafin/well-known/parafin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/parafin-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parafin/refs/heads/main/authentication/parafin-authentication.yml
+  href: https://artifacts.apis.io/parafin/authentication/parafin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/parafin-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parafin/refs/heads/main/conventions/parafin-conventions.yml
+  href: https://artifacts.apis.io/parafin/conventions/parafin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/parafin-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/parafin/refs/heads/main/sandbox/parafin-sandbox.yml
+  href: https://artifacts.apis.io/parafin/sandbox/parafin-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/parafin-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parafin/refs/heads/main/llms/parafin-llms.txt
+  href: https://artifacts.apis.io/parafin/llms/parafin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/parafin-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parafin/refs/heads/main/lifecycle/parafin-lifecycle.yml
+  href: https://artifacts.apis.io/parafin/lifecycle/parafin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/parafin-lifecycle.yml
@@ -144,12 +146,12 @@ overview: 'Parafin is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Parafin''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 13 more developer resources.'
-random_paper: 11
+random_paper: 17
 score:
   band: emerging
-  composite: 15.5
+  composite: 20.4
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -160,10 +162,10 @@ score:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 33.3
-    discoverability: 71.7
-    operational_transparency: 2.6
-  previous_composite: 15.5
+    developer_ergonomics: 59.5
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 20.4
   provenance:
     mcp: first-party
   regulatory:
@@ -172,14 +174,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 14.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/parafin/refs/heads/main/screenshots/parafin-2026-08-07T191409.png
+screenshot: https://apis.io/screenshots/parafin/parafin-2026-08-07T191409.png
 security:
 - kind: authentication
   name: Parafin Authentication

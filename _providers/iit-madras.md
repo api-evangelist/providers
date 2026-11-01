@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: IIT Madras's own SAML 2.0 identity provider, entityID https://idp.iitm.ac.in/idp/shibboleth, registered by INFED (the INFLIBNET Access Management Federation) and published into eduGAIN as entity 67269
@@ -65,17 +67,17 @@ common:
   type: Website
   url: https://www.iitm.ac.in/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/iit-madras/refs/heads/main/identity-federation/iit-madras-identity-federation.yml
+  href: https://artifacts.apis.io/iit-madras/identity-federation/iit-madras-identity-federation.yml
   title: ''
   type: IdentityFederation
   url: identity-federation/iit-madras-identity-federation.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iit-madras/refs/heads/main/conformance/iit-madras-conformance.yml
+  href: https://artifacts.apis.io/iit-madras/conformance/iit-madras-conformance.yml
   title: ''
   type: Conformance
   url: conformance/iit-madras-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iit-madras/refs/heads/main/authentication/iit-madras-lti-platform.yml
+  href: https://artifacts.apis.io/iit-madras/authentication/iit-madras-lti-platform.yml
   title: ''
   type: Authentication
   url: authentication/iit-madras-lti-platform.yml
@@ -120,32 +122,32 @@ common:
   type: LinkedIn
   url: https://in.linkedin.com/school/reachiitm/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/iit-madras/refs/heads/main/security/iit-madras-domain-security.yml
+  href: https://artifacts.apis.io/iit-madras/security/iit-madras-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/iit-madras-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/iit-madras/refs/heads/main/plans/iit-madras-plans-pricing.yml
+  href: https://artifacts.apis.io/iit-madras/plans/iit-madras-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/iit-madras-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/iit-madras/refs/heads/main/rate-limits/iit-madras-rate-limits.yml
+  href: https://artifacts.apis.io/iit-madras/rate-limits/iit-madras-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/iit-madras-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/iit-madras/refs/heads/main/finops/iit-madras-finops.yml
+  href: https://artifacts.apis.io/iit-madras/finops/iit-madras-finops.yml
   title: ''
   type: FinOps
   url: finops/iit-madras-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/iit-madras/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/iit-madras/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/iit-madras/refs/heads/main/json-ld/iit-madras-context.jsonld
+  href: https://artifacts.apis.io/iit-madras/json-ld/iit-madras-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/iit-madras-context.jsonld
@@ -208,7 +210,7 @@ coverage:
     url: https://api.iitm.ac.in/
   - status: 0
     url: https://data.iitm.ac.in/
-  reason: auth_required
+  reason: auth-required
   state: gated
 created: '2026-06-03'
 description: 'Indian Institute of Technology Madras is a public institute of technology in Chennai, India, founded in 1959 and consistently ranked first in India''s NIRF engineering rankings. It publishes no developer portal, no open data portal and no OpenAPI, AsyncAPI or other open specification of its own — api.iitm.ac.in does not resolve — but it is not empty, and the June 2026 profile that recorded "no APIs" missed the surfaces it does operate. Three are institution-run and machine readable: a Shibboleth SAML identity provider at idp.iitm.ac.in, registered in the INFLIBNET Access Management Federation (INFED) and flowing into eduGAIN since 2018; a self-hosted Moodle at courses.iitm.ac.in that serves a live, unauthenticated LTI 1.3 JWKS and an LTI Advantage token endpoint alongside the standard Moodle web-services REST server; and the Shoonya annotation platform API run by AI4Bharat, the institute''s language-AI centre, which ships a live drf-yasg documentation surface over a credentialed
@@ -243,14 +245,14 @@ plans:
 - name: Iit Madras Plans Pricing
   plan_count: 2
   slug: iit-madras-plans-pricing
-random_paper: 13
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Iit Madras Rate Limits
   slug: iit-madras-rate-limits
 score:
   band: emerging
-  composite: 19.6
+  composite: 20.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 52.0
@@ -258,12 +260,12 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 14.3
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 71.4
     operational_transparency: 10.5
   jurisdiction:
@@ -273,7 +275,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 25.7
+  previous_composite: 20.1
   provenance:
     conformance: first-party
   regulatory:
@@ -282,14 +284,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/iit-madras/refs/heads/main/screenshots/iit-madras-2026-06-20T183233.png
+screenshot: https://apis.io/screenshots/iit-madras/iit-madras-2026-06-20T183233.png
 security:
 - kind: domain-security
   name: Iit Madras Domain Security

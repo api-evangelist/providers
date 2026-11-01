@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 18.6
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: HTTPS REST access to OneTick Cloud market data and analytics queries, authenticated with an OAuth2 client-credentials Bearer token issued by the OneTick Keycloak realm (https://cloud-auth.parent.oneti
@@ -57,52 +59,52 @@ common:
   type: BlogRSS
   url: https://blog.onetick.com/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/security/onetick-domain-security.yml
+  href: https://artifacts.apis.io/onetick/security/onetick-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onetick-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/well-known/onetick-well-known.yml
+  href: https://artifacts.apis.io/onetick/well-known/onetick-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/onetick-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/llms/onetick-llms.txt
+  href: https://artifacts.apis.io/onetick/llms/onetick-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/onetick-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/packages/onetick-packages.yml
+  href: https://artifacts.apis.io/onetick/packages/onetick-packages.yml
   title: ''
   type: Packages
   url: packages/onetick-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/packages/onetick-packages.yml
+  href: https://artifacts.apis.io/onetick/packages/onetick-packages.yml
   title: ''
   type: SDKs
   url: packages/onetick-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/authentication/onetick-authentication.yml
+  href: https://artifacts.apis.io/onetick/authentication/onetick-authentication.yml
   title: ''
   type: Authentication
   url: authentication/onetick-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/scopes/onetick-scopes.yml
+  href: https://artifacts.apis.io/onetick/scopes/onetick-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/onetick-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/conformance/onetick-conformance.yml
+  href: https://artifacts.apis.io/onetick/conformance/onetick-conformance.yml
   title: ''
   type: Conformance
   url: conformance/onetick-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/lifecycle/onetick-lifecycle.yml
+  href: https://artifacts.apis.io/onetick/lifecycle/onetick-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/onetick-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/changelog/onetick-changelog.yml
+  href: https://artifacts.apis.io/onetick/changelog/onetick-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/onetick-changelog.yml
@@ -163,7 +165,7 @@ description: OneTick, from OneMarketData, is an enterprise tick database and ana
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onetick.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at mcp.cloud.onetick.com over HTTP; 12 tools listed.
+- description: Remote MCP server at mcp.cloud.onetick.com over HTTP; 17 tools listed.
   name: OneTick (OneMarketData) MCP Server
   slug: onetick
 modified: '2026-10-06'
@@ -174,7 +176,7 @@ overview: 'OneTick (OneMarketData) is listed with 5 APIs on the [APIs.io](https:
 
 
   OneTick (OneMarketData)''s developer surface includes authentication, changelog, getting-started guide, API reference, developer portal, documentation, engineering blog, and 17 more developer resources.'
-random_paper: 1
+random_paper: 5
 scopes:
 - name: Onetick Scopes
   scope_count: 28
@@ -182,9 +184,9 @@ scopes:
   summary_line: 28 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 34.2
+  composite: 34.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -195,10 +197,10 @@ score:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 54.8
-    discoverability: 80.0
-    operational_transparency: 34.2
-  previous_composite: 34.2
+    developer_ergonomics: 59.5
+    discoverability: 71.4
+    operational_transparency: 36.8
+  previous_composite: 34.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -208,14 +210,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/screenshots/onetick-2026-07-22T202525.png
+screenshot: https://apis.io/screenshots/onetick/onetick-2026-07-22T202525.png
 security:
 - kind: authentication
   name: Onetick Authentication

@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Live, unauthenticated Model Context Protocol endpoint on the Les échappées storefront implementing the Universal Commerce Protocol (UCP) 2026-04-08. tools/list returns 13 tools with full JSON Schema i
@@ -48,7 +50,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/security/arlettie-domain-security.yml
+  href: https://artifacts.apis.io/arlettie/security/arlettie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arlettie-domain-security.yml
@@ -109,82 +111,82 @@ common:
   type: Pinterest
   url: https://www.pinterest.fr/arlettieparis/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/mcp/arlettie-mcp.yml
+  href: https://artifacts.apis.io/arlettie/mcp/arlettie-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/arlettie-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/mcp/arlettie-tool-crosswalk.yml
+  href: https://artifacts.apis.io/arlettie/mcp/arlettie-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/arlettie-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/arlettie/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/llms/arlettie-llms.txt
+  href: https://artifacts.apis.io/arlettie/llms/arlettie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/arlettie-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/well-known/arlettie-well-known.yml
+  href: https://artifacts.apis.io/arlettie/well-known/arlettie-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/arlettie-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/authentication/arlettie-authentication.yml
+  href: https://artifacts.apis.io/arlettie/authentication/arlettie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/arlettie-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/scopes/arlettie-scopes.yml
+  href: https://artifacts.apis.io/arlettie/scopes/arlettie-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/arlettie-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/conformance/arlettie-conformance.yml
+  href: https://artifacts.apis.io/arlettie/conformance/arlettie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/arlettie-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/conventions/arlettie-conventions.yml
+  href: https://artifacts.apis.io/arlettie/conventions/arlettie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/arlettie-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/lifecycle/arlettie-lifecycle.yml
+  href: https://artifacts.apis.io/arlettie/lifecycle/arlettie-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/arlettie-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/lifecycle/arlettie-lifecycle.yml
+  href: https://artifacts.apis.io/arlettie/lifecycle/arlettie-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/arlettie-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/rate-limits/arlettie-rate-limits.yml
+  href: https://artifacts.apis.io/arlettie/rate-limits/arlettie-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/arlettie-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/errors/arlettie-problem-types.yml
+  href: https://artifacts.apis.io/arlettie/errors/arlettie-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/arlettie-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/data-model/arlettie-data-model.yml
+  href: https://artifacts.apis.io/arlettie/data-model/arlettie-data-model.yml
   title: ''
   type: DataModel
   url: data-model/arlettie-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/plans/arlettie-plans-pricing.yml
+  href: https://artifacts.apis.io/arlettie/plans/arlettie-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/arlettie-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/packages/arlettie-packages.yml
+  href: https://artifacts.apis.io/arlettie/packages/arlettie-packages.yml
   title: ''
   type: Packages
   url: packages/arlettie-packages.yml
@@ -208,7 +210,7 @@ plans:
 - name: Arlettie Plans Pricing
   plan_count: 0
   slug: arlettie-plans-pricing
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Arlettie Rate Limits
@@ -220,7 +222,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 30.7
+  composite: 30.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 45.0
@@ -228,15 +230,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 75.0
-    operational_transparency: 31.6
-  previous_composite: 30.6
+    discoverability: 65.0
+    operational_transparency: 34.2
+  previous_composite: 30.0
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -247,14 +249,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/screenshots/arlettie-2026-09-02T144124.png
+screenshot: https://apis.io/screenshots/arlettie/arlettie-2026-09-02T144124.png
 security:
 - kind: authentication
   name: Arlettie Authentication

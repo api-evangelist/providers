@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.6
-  scored_at: '2026-10-17'
+  score: 39.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -86,15 +88,12 @@ apis:
   description: The Withdrawal (Crypto) API from Korbit — 3 operation(s) for withdrawal (crypto).
   name: Korbit Withdrawal (Crypto) API
   slug: korbit-withdrawal-crypto-api
-artifact_total: 22
+artifact_total: 26
 asyncapis:
 - description: WebSocket streaming API for the Korbit cryptocurrency exchange. Public channels stream market data; private channels stream the authenticated account's order, trade, and balance changes. Subscribe wit
   name: Korbit Open API v2 WebSocket
   slug: korbit-websocket-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Korbit Open API v2 Asset API
   slug: open-korbit-asset-api
@@ -118,22 +117,22 @@ collections:
   slug: open-korbit-withdrawal-crypto-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/capabilities/korbit-capability-edges.yml
+  href: https://artifacts.apis.io/korbit/capabilities/korbit-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/korbit-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/security/korbit-domain-security.yml
+  href: https://artifacts.apis.io/korbit/security/korbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/korbit-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/agentic-access/korbit-agentic-access.yml
+  href: https://artifacts.apis.io/korbit/agentic-access/korbit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/korbit-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/authentication/korbit-authentication.yml
+  href: https://artifacts.apis.io/korbit/authentication/korbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/korbit-authentication.yml
@@ -170,97 +169,97 @@ common:
   type: SignUp
   url: https://developers.korbit.co.kr
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/llms/korbit-llms.txt
+  href: https://artifacts.apis.io/korbit/llms/korbit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/korbit-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/openapi/_original/korbit-openapi.yml
+  href: https://artifacts.apis.io/korbit/openapi/_original/korbit-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/korbit-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/asyncapi/korbit-websocket-asyncapi.yml
+  href: https://artifacts.apis.io/korbit/asyncapi/korbit-websocket-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/korbit-websocket-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/asyncapi/korbit-websocket-asyncapi.yml
+  href: https://artifacts.apis.io/korbit/asyncapi/korbit-websocket-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/korbit-websocket-asyncapi.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/packages/korbit-packages.yml
+  href: https://artifacts.apis.io/korbit/packages/korbit-packages.yml
   title: ''
   type: Packages
   url: packages/korbit-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/packages/korbit-packages.yml
+  href: https://artifacts.apis.io/korbit/packages/korbit-packages.yml
   title: ''
   type: SDKs
   url: packages/korbit-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/cli/korbit-cli.yml
+  href: https://artifacts.apis.io/korbit/cli/korbit-cli.yml
   title: ''
   type: CLI
   url: cli/korbit-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/mcp/korbit-mcp.yml
+  href: https://artifacts.apis.io/korbit/mcp/korbit-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/korbit-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/korbit/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/sandbox/korbit-sandbox.yml
+  href: https://artifacts.apis.io/korbit/sandbox/korbit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/korbit-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/conventions/korbit-conventions.yml
+  href: https://artifacts.apis.io/korbit/conventions/korbit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/korbit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/conventions/korbit-conventions.yml
+  href: https://artifacts.apis.io/korbit/conventions/korbit-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/korbit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/errors/korbit-error-codes.yml
+  href: https://artifacts.apis.io/korbit/errors/korbit-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/korbit-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/rate-limits/korbit-rate-limits.yml
+  href: https://artifacts.apis.io/korbit/rate-limits/korbit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/korbit-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/lifecycle/korbit-lifecycle.yml
+  href: https://artifacts.apis.io/korbit/lifecycle/korbit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/korbit-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/conformance/korbit-conformance.yml
+  href: https://artifacts.apis.io/korbit/conformance/korbit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/korbit-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/data-model/korbit-data-model.yml
+  href: https://artifacts.apis.io/korbit/data-model/korbit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/korbit-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/well-known/korbit-well-known.yml
+  href: https://artifacts.apis.io/korbit/well-known/korbit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/korbit-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/overlays/korbit-openapi-overlay.yaml
+  href: https://artifacts.apis.io/korbit/overlays/korbit-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/korbit-openapi-overlay.yaml
@@ -283,29 +282,29 @@ overview: 'Korbit publishes 8 API contracts indexed on the [APIs.io](https://api
 
 
   Korbit''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, and 24 more developer resources.'
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Korbit Rate Limits
   slug: korbit-rate-limits
 score:
-  band: thin
-  composite: 36.8
+  band: developing
+  composite: 45.0
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 60.6
-    developer_ergonomics: 49.4
-    discoverability: 71.7
-    operational_transparency: 42.1
+    developer_ergonomics: 75.6
+    discoverability: 65.0
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -313,7 +312,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 36.7
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -330,13 +329,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/screenshots/korbit-2026-07-25T224221.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/korbit/korbit-2026-07-25T224221.png
 security:
 - kind: authentication
   name: Korbit Authentication
@@ -346,6 +346,18 @@ security:
   name: Korbit Domain Security
   slug: korbit-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 5
+skills:
+- name: Fund a Korbit account and withdraw
+  slug: korbit-fund-and-withdraw
+- name: Read Korbit market data
+  slug: korbit-market-data
+- name: Monitor Korbit orders, fills and balances
+  slug: korbit-monitor-orders-and-fills
+- name: Place a Korbit order safely
+  slug: korbit-place-order-safely
+- name: Stream Korbit market and account state over WebSocket
+  slug: korbit-stream-account-state
 slug: korbit
 tags:
 - Company

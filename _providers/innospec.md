@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Innospec API provides access to platform services and data for enterprise integration and automation.
@@ -42,17 +44,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/innospec/refs/heads/main/plans/innospec-plans-pricing.yml
+  href: https://artifacts.apis.io/innospec/plans/innospec-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/innospec-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/innospec/refs/heads/main/rate-limits/innospec-rate-limits.yml
+  href: https://artifacts.apis.io/innospec/rate-limits/innospec-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/innospec-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/innospec/refs/heads/main/finops/innospec-finops.yml
+  href: https://artifacts.apis.io/innospec/finops/innospec-finops.yml
   title: ''
   type: FinOps
   url: finops/innospec-finops.yml
@@ -61,7 +63,7 @@ common:
   type: Blog
   url: https://innospec.com/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/innospec/refs/heads/main/security/innospec-domain-security.yml
+  href: https://artifacts.apis.io/innospec/security/innospec-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/innospec-domain-security.yml
@@ -79,7 +81,7 @@ finops:
 - has_sources: true
   method: generated
   name: Innospec Finops
-  primary_unit: ''
+  primary_unit: not-applicable
   service_category: Specialty Chemicals (Non-API)
   slug: innospec-finops
   template: false
@@ -97,44 +99,44 @@ plans:
 - name: Innospec Plans Pricing
   plan_count: 1
   slug: innospec-plans-pricing
-random_paper: 5
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Innospec Rate Limits
   slug: innospec-rate-limits
 score:
   band: minimal
-  composite: 7.6
+  composite: 9.1
   coverage:
     artifact_dirs: 7
-    catalog_earned: 31.0
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 84.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 1.5
   facets:
-    access_clarity: 5.3
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 48.2
     operational_transparency: 5.3
-  previous_composite: 8.6
+  previous_composite: 7.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/innospec/refs/heads/main/screenshots/innospec-2026-06-20T183357.png
+screenshot: https://apis.io/screenshots/innospec/innospec-2026-06-20T183357.png
 security:
 - kind: domain-security
   name: Innospec Domain Security

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +71,7 @@ common:
   type: Blog
   url: https://blomma.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blomma/refs/heads/main/security/blomma-domain-security.yml
+  href: https://artifacts.apis.io/blomma/security/blomma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blomma-domain-security.yml
@@ -85,7 +87,7 @@ overview: 'Blomma is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Blomma''s developer surface includes pricing, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: emerging
   composite: 14.3
@@ -111,14 +113,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/blomma/refs/heads/main/screenshots/blomma-2026-07-25T203353.png
+screenshot: https://apis.io/screenshots/blomma/blomma-2026-07-25T203353.png
 security:
 - kind: domain-security
   name: Blomma Domain Security

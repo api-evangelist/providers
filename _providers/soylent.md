@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the Soylent storefront implementing the Universal Commerce Protocol over MCP: catalog search, cart, checkout, and fulfillment with a buyer-approval invariant on payme'
@@ -42,42 +44,42 @@ apis:
 artifact_total: 5
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soylent/refs/heads/main/mcp/soylent-mcp.yml
+  href: https://artifacts.apis.io/soylent/mcp/soylent-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/soylent-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soylent/refs/heads/main/llms/soylent-llms.txt
+  href: https://artifacts.apis.io/soylent/llms/soylent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/soylent-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soylent/refs/heads/main/well-known/soylent-well-known.yml
+  href: https://artifacts.apis.io/soylent/well-known/soylent-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/soylent-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soylent/refs/heads/main/authentication/soylent-authentication.yml
+  href: https://artifacts.apis.io/soylent/authentication/soylent-authentication.yml
   title: ''
   type: Authentication
   url: authentication/soylent-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soylent/refs/heads/main/scopes/soylent-scopes.yml
+  href: https://artifacts.apis.io/soylent/scopes/soylent-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/soylent-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soylent/refs/heads/main/conformance/soylent-conformance.yml
+  href: https://artifacts.apis.io/soylent/conformance/soylent-conformance.yml
   title: ''
   type: Conformance
   url: conformance/soylent-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soylent/refs/heads/main/conventions/soylent-conventions.yml
+  href: https://artifacts.apis.io/soylent/conventions/soylent-conventions.yml
   title: ''
   type: Conventions
   url: conventions/soylent-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soylent/refs/heads/main/security/soylent-domain-security.yml
+  href: https://artifacts.apis.io/soylent/security/soylent-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/soylent-domain-security.yml
@@ -125,7 +127,7 @@ overview: 'Soylent is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Soylent''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 12
+random_paper: 14
 scopes:
 - name: Soylent Scopes
   scope_count: 4
@@ -133,7 +135,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 25.1
+  composite: 24.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -141,15 +143,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 25.0
+  previous_composite: 24.1
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -159,14 +161,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/soylent/refs/heads/main/screenshots/soylent-2026-09-02T160303.png
+screenshot: https://apis.io/screenshots/soylent/soylent-2026-09-02T160303.png
 security:
 - kind: authentication
   name: Soylent Authentication

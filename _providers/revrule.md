@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-10-17'
+  score: 8.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -39,27 +41,27 @@ apis:
 artifact_total: 5
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/revrule/refs/heads/main/agentic-access/revrule-agentic-access.yml
+  href: https://artifacts.apis.io/revrule/agentic-access/revrule-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/revrule-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revrule/refs/heads/main/rules/revrule-rules.yml
+  href: https://artifacts.apis.io/revrule/rules/revrule-rules.yml
   title: ''
   type: Spectral
   url: rules/revrule-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revrule/refs/heads/main/errors/revrule-problem-types.yml
+  href: https://artifacts.apis.io/revrule/errors/revrule-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/revrule-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revrule/refs/heads/main/conformance/revrule-conformance.yml
+  href: https://artifacts.apis.io/revrule/conformance/revrule-conformance.yml
   title: ''
   type: Conformance
   url: conformance/revrule-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/revrule/refs/heads/main/hosts/revrule-hosts.yml
+  href: https://artifacts.apis.io/revrule/hosts/revrule-hosts.yml
   title: ''
   type: Hosts
   url: hosts/revrule-hosts.yml
@@ -68,12 +70,12 @@ common:
   type: Documentation
   url: https://developers.dev/openapi.json/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/revrule/refs/heads/main/authentication/revrule-authentication.yml
+  href: https://artifacts.apis.io/revrule/authentication/revrule-authentication.yml
   title: ''
   type: Authentication
   url: authentication/revrule-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/revrule/refs/heads/main/security/revrule-domain-security.yml
+  href: https://artifacts.apis.io/revrule/security/revrule-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/revrule-domain-security.yml
@@ -102,7 +104,7 @@ overview: 'RevRule by Payload is listed with 1 API on the [APIs.io](https://apis
 
 
   RevRule by Payload''s developer surface includes documentation, authentication, API reference, and 6 more developer resources.'
-random_paper: 3
+random_paper: 5
 rules:
 - authorship: generated
   effective_rule_count: 53
@@ -126,6 +128,7 @@ score:
     catalog_gap: 80.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -133,6 +136,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 53.6
     operational_transparency: 0.0
+  previous_composite: 12.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -143,8 +147,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

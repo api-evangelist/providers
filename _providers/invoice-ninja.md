@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 18.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -94,11 +96,8 @@ apis:
   description: The Settings API from Invoice Ninja — 1 operation(s) for settings.
   name: Invoice Ninja Settings API
   slug: invoice-ninja-settings-api
-artifact_total: 25
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Invoice Ninja v5 Activities API
   slug: open-invoice-ninja-activities-api
@@ -134,22 +133,22 @@ collections:
   slug: open-invoice-ninja
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/capabilities/invoice-ninja-capability-edges.yml
+  href: https://artifacts.apis.io/invoice-ninja/capabilities/invoice-ninja-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/invoice-ninja-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/agentic-access/invoice-ninja-agentic-access.yml
+  href: https://artifacts.apis.io/invoice-ninja/agentic-access/invoice-ninja-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/invoice-ninja-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/security/invoice-ninja-domain-security.yml
+  href: https://artifacts.apis.io/invoice-ninja/security/invoice-ninja-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/invoice-ninja-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/authentication/invoice-ninja-authentication.yml
+  href: https://artifacts.apis.io/invoice-ninja/authentication/invoice-ninja-authentication.yml
   title: ''
   type: Authentication
   url: authentication/invoice-ninja-authentication.yml
@@ -200,7 +199,7 @@ overview: 'Invoice Ninja publishes 10 API contracts indexed on the [APIs.io](htt
 random_paper: 2
 score:
   band: thin
-  composite: 28.0
+  composite: 28.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -212,11 +211,11 @@ score:
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 48.6
+    contract_quality: 45.6
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 28.0
+    operational_transparency: 5.3
+  previous_composite: 28.3
   provenance:
     agentic_access: derived
     contracts:
@@ -230,13 +229,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/screenshots/invoice-ninja-2026-06-20T183523.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/invoice-ninja/invoice-ninja-2026-06-20T183523.png
 security:
 - kind: authentication
   name: Invoice Ninja Authentication

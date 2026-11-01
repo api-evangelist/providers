@@ -31,14 +31,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-17'
+  score: 31.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The self-hosted administrative REST API for the new LucidLink platform, delivered as the lucidlink/lucidlink-api Docker image and run on customer infrastructure so that LucidLink's zero-knowledge mode
@@ -62,25 +64,25 @@ apis:
   description: Filespace operations.
   name: LucidLink Filespace API
   slug: lucidlink-filespace-api
-artifact_total: 12
+artifact_total: 17
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/capabilities/lucidlink-capability-edges.yml
+  href: https://artifacts.apis.io/lucidlink/capabilities/lucidlink-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lucidlink-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/overlays/lucidlink-service-api-overlay.yaml
+  href: https://artifacts.apis.io/lucidlink/overlays/lucidlink-service-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lucidlink-service-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/security/lucidlink-trust-center.yml
+  href: https://artifacts.apis.io/lucidlink/security/lucidlink-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lucidlink-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/scopes/lucidlink-scopes.yml
+  href: https://artifacts.apis.io/lucidlink/scopes/lucidlink-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lucidlink-scopes.yml
@@ -149,88 +151,96 @@ common:
   type: ChangeLog
   url: https://support.lucidlink.com/hc/en-us/sections/31125638256269-Release-notes
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/plans/lucidlink-plans-pricing.yml
+  href: https://artifacts.apis.io/lucidlink/plans/lucidlink-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lucidlink-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/rate-limits/lucidlink-rate-limits.yml
+  href: https://artifacts.apis.io/lucidlink/rate-limits/lucidlink-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lucidlink-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/authentication/lucidlink-authentication.yml
+  href: https://artifacts.apis.io/lucidlink/authentication/lucidlink-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lucidlink-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/conventions/lucidlink-conventions.yml
+  href: https://artifacts.apis.io/lucidlink/conventions/lucidlink-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lucidlink-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/lifecycle/lucidlink-lifecycle.yml
+  href: https://artifacts.apis.io/lucidlink/lifecycle/lucidlink-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lucidlink-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/changelog/lucidlink-changelog.yml
+  href: https://artifacts.apis.io/lucidlink/changelog/lucidlink-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lucidlink-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/cli/lucidlink-cli.yml
+  href: https://artifacts.apis.io/lucidlink/cli/lucidlink-cli.yml
   title: ''
   type: CLI
   url: cli/lucidlink-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/packages/lucidlink-packages.yml
+  href: https://artifacts.apis.io/lucidlink/packages/lucidlink-packages.yml
   title: ''
   type: Packages
   url: packages/lucidlink-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/packages/lucidlink-packages.yml
+  href: https://artifacts.apis.io/lucidlink/packages/lucidlink-packages.yml
   title: ''
   type: SDKs
   url: packages/lucidlink-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/mcp/lucidlink-mcp.yml
+  href: https://artifacts.apis.io/lucidlink/mcp/lucidlink-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lucidlink-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/mcp/lucidlink-tool-crosswalk.yml
+  href: https://artifacts.apis.io/lucidlink/mcp/lucidlink-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/lucidlink-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lucidlink/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/llms/lucidlink-llms.txt
+  href: https://artifacts.apis.io/lucidlink/llms/lucidlink-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lucidlink-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/conformance/lucidlink-conformance.yml
+  href: https://artifacts.apis.io/lucidlink/conformance/lucidlink-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lucidlink-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/security/lucidlink-domain-security.yml
+  href: https://artifacts.apis.io/lucidlink/security/lucidlink-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lucidlink-domain-security.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/sandbox/lucidlink-sandbox.yml
+  href: https://artifacts.apis.io/lucidlink/sandbox/lucidlink-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lucidlink-sandbox.yml
 created: '2026-08-25'
 description: 'LucidLink Corp. is a cloud file-streaming company whose product is a "filespace" — a shared, cloud-native filesystem that mounts on macOS, Windows, Linux, iOS and Android and streams only the bytes an application actually asks for, so distributed teams can open multi-gigabyte media, design and AEC files directly from S3 object storage without syncing or downloading them first. LucidLink is built around a zero-knowledge encryption model in which the customer holds the keys, which shapes its developer surface: the LucidLink Developer Platform ships a public cloud Service API for domain, filespace and billing management (OAuth2 client-credentials, Swagger 2.0 reference published at api.lucidlink.com), a self-hosted Management API delivered as a Docker container so administrative calls never traverse LucidLink infrastructure, a beta Python SDK on PyPI, LucidLink Connect for linking external S3 objects into a filespace, and a beta MCP server that exposes filespace read, write, search,
   locking and audit operations as tools for MCP-compatible agents.'
+finops:
+- has_sources: true
+  method: derived
+  name: Lucidlink Finops
+  primary_unit: member
+  service_category: ''
+  slug: lucidlink-finops
+  template: false
 image: https://dhgs2q3hgrx0j.cloudfront.net/lucidlink_logo_846354e8f3.png
 layout: provider
 mcp_servers:
@@ -253,7 +263,10 @@ plans:
 - name: Lucidlink Plans Pricing
   plan_count: 3
   slug: lucidlink-plans-pricing
-random_paper: 13
+- name: Lucidlink Price Estimates
+  plan_count: 0
+  slug: lucidlink-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Lucidlink Rate Limits
@@ -265,23 +278,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.4
+  composite: 62.4
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 77.6
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 43.3
+    contract_quality: 37.1
     developer_ergonomics: 80.4
-    discoverability: 71.7
-    operational_transparency: 34.2
-  previous_composite: 58.3
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 60.9
   provenance:
     conformance: first-party
     contracts:
@@ -296,14 +309,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 39.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/screenshots/lucidlink-2026-09-02T150334.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lucidlink/lucidlink-2026-09-02T150334.png
 security:
 - kind: authentication
   name: Lucidlink Authentication
@@ -317,6 +331,14 @@ security:
   name: Lucidlink Trust Center
   slug: lucidlink-trust-center
   summary_line: SOC 2 Type I, SOC 2 Type II, ISO 27001, TPN (Trusted Partner Network), TPN Gold Shield, GDPR, CCPA
+skill_count: 3
+skills:
+- name: lucidlink-agent-filespace-session
+  slug: lucidlink-agent-filespace-session
+- name: lucidlink-onboard-team-member
+  slug: lucidlink-onboard-team-member
+- name: lucidlink-provision-project-filespace
+  slug: lucidlink-provision-project-filespace
 slug: lucidlink
 tags:
 - Company

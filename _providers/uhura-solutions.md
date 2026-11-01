@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,12 +59,12 @@ common:
   type: PrivacyPolicy
   url: https://uhurasolutions.com/2023/03/12/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uhura-solutions/refs/heads/main/security/uhura-solutions-domain-security.yml
+  href: https://artifacts.apis.io/uhura-solutions/security/uhura-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uhura-solutions-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uhura-solutions/refs/heads/main/llms/uhura-solutions-llms.txt
+  href: https://artifacts.apis.io/uhura-solutions/llms/uhura-solutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uhura-solutions-llms.txt
@@ -81,7 +83,7 @@ overview: 'Uhura Solutions is profiled on the [APIs.io](https://apis.io/) networ
 random_paper: 18
 score:
   band: minimal
-  composite: 9.7
+  composite: 9.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -95,7 +97,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -105,21 +107,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 9.7
+  previous_composite: 9.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 10.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/uhura-solutions/refs/heads/main/screenshots/uhura-solutions-2026-09-02T164744.png
+screenshot: https://apis.io/screenshots/uhura-solutions/uhura-solutions-2026-09-02T164744.png
 security:
 - kind: domain-security
   name: Uhura Solutions Domain Security

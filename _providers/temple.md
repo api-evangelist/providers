@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/temple/refs/heads/main/security/temple-domain-security.yml
+  href: https://artifacts.apis.io/temple/security/temple-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/temple-domain-security.yml
@@ -46,12 +48,12 @@ common:
   type: Website
   url: https://www.temple.capital/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/temple/refs/heads/main/llms/temple-llms.txt
+  href: https://artifacts.apis.io/temple/llms/temple-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/temple-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/temple/refs/heads/main/mcp/temple-mcp.yml
+  href: https://artifacts.apis.io/temple/mcp/temple-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/temple-mcp.yml
@@ -68,10 +70,10 @@ name: Temple
 nav: Providers
 network: true
 overview: Temple is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Digital Assets, Hedge Funds, and Algorithmic Trading.
-random_paper: 9
+random_paper: 23
 score:
   band: minimal
-  composite: 3.5
+  composite: 2.5
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -85,9 +87,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 3.5
+  previous_composite: 2.5
   provenance:
     mcp: platform-generated
   regulatory:
@@ -96,14 +98,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 5.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/temple/refs/heads/main/screenshots/temple-2026-09-02T163041.png
+screenshot: https://apis.io/screenshots/temple/temple-2026-09-02T163041.png
 security:
 - kind: domain-security
   name: Temple Domain Security

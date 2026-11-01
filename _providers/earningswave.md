@@ -1,0 +1,103 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-10-31'
+api_count: 0
+artifact_total: 1
+common:
+- group: other
+  href: https://artifacts.apis.io/earningswave/hosts/earningswave-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/earningswave-hosts.yml
+- group: auth
+  href: https://artifacts.apis.io/earningswave/security/earningswave-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/earningswave-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://earningswave.com/
+coverage:
+  detail: the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - status: null
+    url: https://earningswave.com/
+  reason: no-developer-program
+  state: none
+created: '2026-10-20'
+description: EarningsWave provides financial data APIs that deliver earnings estimates, historical financial statements, and analyst forecasts for public companies. The platform offers endpoints for retrieving quarterly and annual earnings, revenue, EPS, and guidance, enabling developers to integrate comprehensive earnings information into fintech applications, investment dashboards, and research tools. With a focus on accuracy and timeliness, EarningsWave aims to simplify access to corporate financial performance data for analysts, investors, and developers.
+layout: provider
+modified: '2026-10-20'
+name: EarningsWave
+nav: Providers
+network: true
+overview: EarningsWave is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Finance, Data, and Earnings.
+random_paper: 18
+score:
+  band: minimal
+  composite: 2.2
+  coverage:
+    artifact_dirs: 5
+    catalog_earned: 20.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 95.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 0.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 35.7
+    operational_transparency: 0.0
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 5.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Earningswave Domain Security
+  slug: earningswave-domain-security
+  summary_line: TLSv1.3
+slug: earningswave
+tags:
+- Company
+- Finance
+- Data
+- Earnings
+website: https://earningswave.com/
+---

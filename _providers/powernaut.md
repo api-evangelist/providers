@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 5
@@ -115,15 +117,12 @@ apis:
   description: The accepting_bids API from Powernaut — 0 operation(s) for accepting_bids.
   name: Powernaut Accepting Bids API
   slug: powernaut-accepting-bids-api
-artifact_total: 32
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Powernaut Webhooks
   slug: powernaut-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Powernaut authentication API
   slug: open-powernaut-authentication-api
@@ -169,7 +168,7 @@ common:
   type: BlogRSS
   url: https://powernaut.io/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/overlays/powernaut-partner-api-overlay.yaml
+  href: https://artifacts.apis.io/powernaut/overlays/powernaut-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/powernaut-partner-api-overlay.yaml
@@ -206,67 +205,67 @@ common:
   type: StatusPage
   url: https://status.powernaut.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/authentication/powernaut-authentication.yml
+  href: https://artifacts.apis.io/powernaut/authentication/powernaut-authentication.yml
   title: ''
   type: Authentication
   url: authentication/powernaut-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/agentic-access/powernaut-agentic-access.yml
+  href: https://artifacts.apis.io/powernaut/agentic-access/powernaut-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/powernaut-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/security/powernaut-domain-security.yml
+  href: https://artifacts.apis.io/powernaut/security/powernaut-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/powernaut-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/mcp/powernaut-mcp.yml
+  href: https://artifacts.apis.io/powernaut/mcp/powernaut-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/powernaut-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/powernaut/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/conventions/powernaut-conventions.yml
+  href: https://artifacts.apis.io/powernaut/conventions/powernaut-conventions.yml
   title: ''
   type: Conventions
   url: conventions/powernaut-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/errors/powernaut-problem-types.yml
+  href: https://artifacts.apis.io/powernaut/errors/powernaut-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/powernaut-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/data-model/powernaut-data-model.yml
+  href: https://artifacts.apis.io/powernaut/data-model/powernaut-data-model.yml
   title: ''
   type: DataModel
   url: data-model/powernaut-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/conformance/powernaut-conformance.yml
+  href: https://artifacts.apis.io/powernaut/conformance/powernaut-conformance.yml
   title: ''
   type: Conformance
   url: conformance/powernaut-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/lifecycle/powernaut-lifecycle.yml
+  href: https://artifacts.apis.io/powernaut/lifecycle/powernaut-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/powernaut-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/sandbox/powernaut-sandbox.yml
+  href: https://artifacts.apis.io/powernaut/sandbox/powernaut-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/powernaut-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/asyncapi/powernaut-webhooks.yml
+  href: https://artifacts.apis.io/powernaut/asyncapi/powernaut-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/powernaut-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/llms/powernaut-llms.txt
+  href: https://artifacts.apis.io/powernaut/llms/powernaut-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/powernaut-llms.txt
@@ -285,10 +284,10 @@ overview: 'Powernaut publishes 14 API contracts indexed on the [APIs.io](https:/
 
 
   Powernaut''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 17 more developer resources.'
-random_paper: 7
+random_paper: 13
 score:
-  band: developing
-  composite: 40.6
+  band: thin
+  composite: 38.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -298,12 +297,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 4.5
-    contract_quality: 60.9
+    contract_quality: 58.9
     developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 15.8
+    discoverability: 66.1
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -312,7 +311,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 40.6
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -329,13 +328,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/screenshots/powernaut-2026-09-02T151845.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/powernaut/powernaut-2026-09-02T151845.png
 security:
 - kind: authentication
   name: Powernaut Authentication
@@ -345,6 +345,12 @@ security:
   name: Powernaut Domain Security
   slug: powernaut-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Bid resource flexibility and receive activation
+  slug: powernaut-bid-flexibility-and-activate
+- name: Onboard a site and its flexible resources
+  slug: powernaut-onboard-site-and-resources
 slug: powernaut
 tags:
 - Company

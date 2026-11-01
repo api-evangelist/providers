@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,16 +35,39 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
-api_count: 1
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - description: Token-authenticated REST API (v2) for bulk programmatic access to Enverus' energy datasets — well origins, rigs, permits, producing entities, and production. Authenticate with an API key plus client c
   name: Enverus DirectAccess API
   slug: enverus-directaccess-api
-artifact_total: 3
+- description: Current version of the Enverus Developer API (formerly Drillinginfo Direct Access). Read-only JSON access to energy datasets — wells, well-origins, wellbores, production, completions, permits, rigs, c
+  name: Enverus Developer API (v3)
+  slug: enverus-developer-api-v3
+artifact_total: 4
 common:
+- group: agent
+  href: https://artifacts.apis.io/enverus/llms/enverus-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/enverus-llms.txt
+- group: operate
+  href: https://artifacts.apis.io/enverus/lifecycle/enverus-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/enverus-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/enverus/hosts/enverus-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/enverus-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/enverus/vendors/enverus-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/enverus-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enverus/refs/heads/main/security/enverus-domain-security.yml
+  href: https://artifacts.apis.io/enverus/security/enverus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/enverus-domain-security.yml
@@ -86,41 +111,59 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/enverus
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enverus/refs/heads/main/llms/enverus-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/enverus-llms.txt
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/enverus/refs/heads/main/packages/enverus-packages.yml
-  title: ''
-  type: Packages
-  url: packages/enverus-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enverus/refs/heads/main/authentication/enverus-authentication.yml
+  href: https://artifacts.apis.io/enverus/authentication/enverus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/enverus-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enverus/refs/heads/main/conventions/enverus-conventions.yml
+  href: https://artifacts.apis.io/enverus/conventions/enverus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/enverus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enverus/refs/heads/main/lifecycle/enverus-lifecycle.yml
+  href: https://artifacts.apis.io/enverus/lifecycle/enverus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/enverus-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enverus/refs/heads/main/conformance/enverus-conformance.yml
+  href: https://artifacts.apis.io/enverus/conformance/enverus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/enverus-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enverus/refs/heads/main/well-known/enverus-well-known.yml
+  href: https://artifacts.apis.io/enverus/well-known/enverus-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/enverus-well-known.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.drillinginfo.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://app.enverus.com/direct/#/api/explorer/v3/gettingStarted
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://app.enverus.com/direct/#/api/explorer/v3/gettingStarted
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/enverus-ea
+coverage:
+  checked: '2026-10-20'
+  detail: The DirectAccess API explorer at app.enverus.com/direct/ 302s to an Auth0 login at login.auth.enverus.com, and the API host serves no public OpenAPI (openapi.json/swagger.json return 502).
+  evidence:
+  - status: 302
+    url: https://app.enverus.com/direct/
+  - status: 502
+    url: https://di-api.drillinginfo.com/v2/direct-access/openapi.json
+  - status: 401
+    url: https://app.enverus.com/mcp
+  reason: customer-only-docs
+  state: gated
 created: '2026-07-17'
 description: Enverus is an energy-dedicated SaaS company providing analytics, market intelligence, and workflow automation across the global energy value chain — oil and gas, power and renewables, minerals, midstream, trading and risk, and financial services. Its developer surface is the Enverus DirectAccess API (formerly Drillinginfo DirectAccess), a token-authenticated REST API that delivers bulk access to Enverus' energy datasets — well origins, rigs, permits, producing entities, production, and related upstream data — with server-side filter functions, field selection, and cursor-based pagination. Enverus serves 8,000+ companies and 35,000+ energy customers from its Austin, Texas headquarters.
 image: https://www.enverus.com/wp-content/uploads/2024/08/enverus-og-logo-1553x1553-1.png
@@ -129,30 +172,30 @@ modified: '2026-07-19'
 name: Enverus
 nav: Providers
 network: true
-overview: 'Enverus is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Oil and Gas, Energy Data, and Analytics.
+overview: 'Enverus is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Oil and Gas, Energy Data, and Analytics.
 
 
-  Enverus'' developer surface includes documentation, getting-started guide, engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 6
+  Enverus'' developer surface includes documentation, getting-started guide, engineering blog, support, authentication, API reference, and 18 more developer resources.'
+random_paper: 8
 score:
-  band: emerging
-  composite: 21.7
+  band: thin
+  composite: 28.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 34.5
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 21.7
+    developer_ergonomics: 57.1
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 26.8
   provenance:
     conformance: derived
   regulatory:
@@ -161,14 +204,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/enverus/refs/heads/main/screenshots/enverus-2026-07-25T213445.png
+screenshot: https://apis.io/screenshots/enverus/enverus-2026-07-25T213445.png
 security:
 - kind: authentication
   name: Enverus Authentication
@@ -190,5 +233,10 @@ tags:
 - Software-as-a-Service
 - Direct Access
 - Trading and Risk
+- Data
+- Geospatial
+- Developer API
+- Production Data
+- Energy Intelligence
 website: https://www.enverus.com/
 ---

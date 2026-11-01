@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-17'
+  score: 30.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 229
   human_in_the_loop: 2
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 574
   slug: 1fort-agentic-access
   summary_line: 574 operations · 229 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.1fort.com/apis/
   baseurl_source: declared
@@ -489,15 +491,12 @@ apis:
   description: '**Access:** requires a JWT access token.'
   name: '1Fort user: default-access-role API'
   slug: 1fort-user-default-access-role-api
-artifact_total: 187
+artifact_total: 192
 asyncapis:
 - description: ''
   name: 1Fort Webhooks
   slug: 1fort-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 1Fort API Documentation agent_runtime (v2) agent_runtime (v2) API
   slug: open-1fort-agent-runtime-v2-api
@@ -767,37 +766,37 @@ collections:
   slug: open-1fort-user-default-access-role-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/plans/1fort-plans-pricing.yml
+  href: https://artifacts.apis.io/1fort/plans/1fort-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/1fort-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/capabilities/1fort-capability-edges.yml
+  href: https://artifacts.apis.io/1fort/capabilities/1fort-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/1fort-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/mcp/1fort-mcp.yml
+  href: https://artifacts.apis.io/1fort/mcp/1fort-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/1fort-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/overlays/1fort-openapi-overlay.yaml
+  href: https://artifacts.apis.io/1fort/overlays/1fort-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/1fort-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/agentic-access/1fort-agentic-access.yml
+  href: https://artifacts.apis.io/1fort/agentic-access/1fort-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/1fort-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/security/1fort-trust-center.yml
+  href: https://artifacts.apis.io/1fort/security/1fort-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/1fort-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/security/1fort-domain-security.yml
+  href: https://artifacts.apis.io/1fort/security/1fort-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/1fort-domain-security.yml
@@ -858,72 +857,72 @@ common:
   type: Compliance
   url: https://security.1fort.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/llms/1fort-llms.txt
+  href: https://artifacts.apis.io/1fort/llms/1fort-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/1fort-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/well-known/1fort-well-known.yml
+  href: https://artifacts.apis.io/1fort/well-known/1fort-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/1fort-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/well-known/1fort-security.txt
+  href: https://artifacts.apis.io/1fort/well-known/1fort-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/1fort-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/security/1fort-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/1fort/security/1fort-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/1fort-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/lifecycle/1fort-lifecycle.yml
+  href: https://artifacts.apis.io/1fort/lifecycle/1fort-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/1fort-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/lifecycle/1fort-lifecycle.yml
+  href: https://artifacts.apis.io/1fort/lifecycle/1fort-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/1fort-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/conformance/1fort-conformance.yml
+  href: https://artifacts.apis.io/1fort/conformance/1fort-conformance.yml
   title: ''
   type: Conformance
   url: conformance/1fort-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/1fort/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/authentication/1fort-authentication.yml
+  href: https://artifacts.apis.io/1fort/authentication/1fort-authentication.yml
   title: ''
   type: Authentication
   url: authentication/1fort-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/conventions/1fort-conventions.yml
+  href: https://artifacts.apis.io/1fort/conventions/1fort-conventions.yml
   title: ''
   type: Conventions
   url: conventions/1fort-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/errors/1fort-problem-types.yml
+  href: https://artifacts.apis.io/1fort/errors/1fort-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/1fort-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/rate-limits/1fort-rate-limits.yml
+  href: https://artifacts.apis.io/1fort/rate-limits/1fort-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/1fort-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/data-model/1fort-data-model.yml
+  href: https://artifacts.apis.io/1fort/data-model/1fort-data-model.yml
   title: ''
   type: DataModel
   url: data-model/1fort-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/asyncapi/1fort-webhooks.yml
+  href: https://artifacts.apis.io/1fort/asyncapi/1fort-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/1fort-webhooks.yml
@@ -941,6 +940,14 @@ common:
   url: https://1fort.ai/partners
 created: '2026-08-05'
 description: 1Fort is a New York City based insurtech platform that automates the commercial insurance workflow for brokers and agencies. Its AI "copilot" autofills submissions across 300+ coverages, quotes direct and wholesale markets, generates white-labeled proposals with side-by-side coverage comparisons and cross-sell recommendations, then processes binders, invoicing, premium finance, payments and payables through to ongoing policy servicing. Coverage lines span cyber, technology errors and omissions, professional liability, management liability, general liability and workers compensation. The platform runs on AWS, holds SOC 2 Type II, HIPAA and CCPA attestations, and exposes a large REST API at api.1fort.com whose Swagger 2.0 definition is published publicly at /api-docs — 574 operations across broker, application, quote, market, billing, checkout, storefront and Email AI Agent surfaces, plus inbound webhook receivers for Stripe, Ascend, Herald, Gmail and Office 365.
+finops:
+- has_sources: true
+  method: derived
+  name: 1Fort Finops
+  primary_unit: add-on
+  service_category: ''
+  slug: 1fort-finops
+  template: false
 image: https://1fort.ai/favicon.ico
 layout: provider
 modified: '2026-08-05'
@@ -958,30 +965,33 @@ plans:
 - name: 1Fort Plans Pricing
   plan_count: 6
   slug: 1fort-plans-pricing
-random_paper: 8
+- name: 1Fort Price Estimates
+  plan_count: 0
+  slug: 1fort-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: 1Fort Rate Limits
   slug: 1fort-rate-limits
 score:
   band: strong
-  composite: 64.5
+  composite: 58.0
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 52.0
+    artifact_dirs: 24
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 56.7
+    contract_quality: 53.0
     developer_ergonomics: 37.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 50.0
-  previous_composite: 58.2
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -998,13 +1008,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 29.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 72.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/screenshots/1fort-2026-08-07T160647.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/1fort/1fort-2026-08-07T160647.png
 security:
 - kind: authentication
   name: 1Fort Authentication
@@ -1022,6 +1033,16 @@ security:
   name: 1Fort Trust Center
   slug: 1fort-trust-center
   summary_line: SOC 2 Type II, HIPAA, CCPA
+skill_count: 4
+skills:
+- name: Drive the 1Fort agent runtime to resolve a business and autofill a draft quote
+  slug: 1fort-agent-runtime-autofill
+- name: Reconcile billing and renew a policy
+  slug: 1fort-billing-and-renewal
+- name: Compare quotes, build the proposal, and bind
+  slug: 1fort-quote-to-bind-and-proposal
+- name: Submit a commercial insurance application for quotes
+  slug: 1fort-submit-application-for-quotes
 slug: 1fort
 tags:
 - Insurance

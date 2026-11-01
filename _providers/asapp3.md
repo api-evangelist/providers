@@ -1,8 +1,9 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -14,16 +15,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-17'
+  score: 40.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -31,7 +34,7 @@ agentic_access:
   operation_count: 56
   slug: asapp3-agentic-access
   summary_line: 56 operations · 26 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.sandbox.asapp.com
   baseurl_source: declared
@@ -83,54 +86,54 @@ apis:
   description: API to submit entity's attributes to ASAPP
   name: Asapp3 Metadata API
   slug: asapp3-metadata-api
-artifact_total: 24
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Asapp3 Webhooks
   slug: asapp3-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/capabilities/asapp3-capability-edges.yml
+  href: https://artifacts.apis.io/asapp3/capabilities/asapp3-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/asapp3-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/agentic-access/asapp3-agentic-access.yml
+  href: https://artifacts.apis.io/asapp3/agentic-access/asapp3-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/asapp3-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/rate-limits/asapp3-rate-limits.yml
+  href: https://artifacts.apis.io/asapp3/rate-limits/asapp3-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/asapp3-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/rules/asapp3-rules.yml
+  href: https://artifacts.apis.io/asapp3/rules/asapp3-rules.yml
   title: ''
   type: Spectral
   url: rules/asapp3-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/json-ld/asapp3-context.jsonld
+  href: https://artifacts.apis.io/asapp3/json-ld/asapp3-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/asapp3-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/vocabulary/asapp3-vocabulary.yml
+  href: https://artifacts.apis.io/asapp3/vocabulary/asapp3-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/asapp3-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/asapp3/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/asyncapi/asapp3-webhooks.yml
+  href: https://artifacts.apis.io/asapp3/asyncapi/asapp3-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/asapp3-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/data-model/asapp3-data-model.yml
+  href: https://artifacts.apis.io/asapp3/data-model/asapp3-data-model.yml
   title: ''
   type: DataModel
   url: data-model/asapp3-data-model.yml
@@ -139,47 +142,47 @@ common:
   type: Compliance
   url: https://trust.asapp.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/authentication/asapp3-authentication.yml
+  href: https://artifacts.apis.io/asapp3/authentication/asapp3-authentication.yml
   title: ''
   type: Authentication
   url: authentication/asapp3-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/errors/asapp3-problem-types.yml
+  href: https://artifacts.apis.io/asapp3/errors/asapp3-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/asapp3-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/conformance/asapp3-conformance.yml
+  href: https://artifacts.apis.io/asapp3/conformance/asapp3-conformance.yml
   title: ''
   type: Conformance
   url: conformance/asapp3-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/llms/asapp3-llms.txt
+  href: https://artifacts.apis.io/asapp3/llms/asapp3-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/asapp3-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/a2a/asapp3-a2a.yml
+  href: https://artifacts.apis.io/asapp3/a2a/asapp3-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/asapp3-a2a.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/well-known/asapp3-status-security.txt
+  href: https://artifacts.apis.io/asapp3/well-known/asapp3-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/asapp3-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/well-known/asapp3-well-known.yml
+  href: https://artifacts.apis.io/asapp3/well-known/asapp3-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/asapp3-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/hosts/asapp3-hosts.yml
+  href: https://artifacts.apis.io/asapp3/hosts/asapp3-hosts.yml
   title: ''
   type: Hosts
   url: hosts/asapp3-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/vendors/asapp3-vendors.yml
+  href: https://artifacts.apis.io/asapp3/vendors/asapp3-vendors.yml
   title: ''
   type: Vendors
   url: vendors/asapp3-vendors.yml
@@ -224,12 +227,12 @@ common:
   type: APIReference
   url: https://docs.asapp.com/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/security/asapp3-trust-center.yml
+  href: https://artifacts.apis.io/asapp3/security/asapp3-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/asapp3-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/security/asapp3-domain-security.yml
+  href: https://artifacts.apis.io/asapp3/security/asapp3-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/asapp3-domain-security.yml
@@ -276,7 +279,7 @@ overview: 'Asapp3 publishes 10 API contracts indexed on the [APIs.io](https://ap
 
 
   Asapp3''s developer surface includes authentication, support, changelog, engineering blog, getting-started guide, documentation, API reference, and 25 more developer resources.'
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Asapp3 Rate Limits
@@ -296,7 +299,7 @@ rules:
   slug: asapp3-rules
 score:
   band: strong
-  composite: 58.8
+  composite: 55.2
   coverage:
     artifact_dirs: 24
     catalog_earned: 70.8
@@ -310,9 +313,9 @@ score:
     contract_governance: 35.6
     contract_quality: 71.2
     developer_ergonomics: 49.4
-    discoverability: 75.0
-    operational_transparency: 65.8
-  previous_composite: 58.8
+    discoverability: 67.9
+    operational_transparency: 76.3
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -329,13 +332,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/screenshots/asapp3-2026-10-11T100458.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/asapp3/asapp3-2026-10-11T100458.png
 security:
 - kind: authentication
   name: Asapp3 Authentication
@@ -349,6 +353,18 @@ security:
   name: Asapp3 Trust Center
   slug: asapp3-trust-center
   summary_line: SOC 2, PCI DSS, HIPAA, GDPR
+skill_count: 5
+skills:
+- name: asapp3-auto-summary-workflow
+  slug: asapp3-auto-summary-workflow
+- name: asapp3-compose-message
+  slug: asapp3-compose-message
+- name: asapp3-create-conversation-with-message
+  slug: asapp3-create-conversation-with-message
+- name: asapp3-retrieve-feed-file
+  slug: asapp3-retrieve-feed-file
+- name: asapp3-start-media-stream
+  slug: asapp3-start-media-stream
 slug: asapp3
 tags:
 - Artificial Intelligence

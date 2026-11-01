@@ -30,15 +30,17 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.9
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 36.3
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://app.aifordatabase.com/api/v1
   baseurl_source: declared
@@ -100,14 +102,14 @@ apis:
   description: Build and run scheduled or manual multi-step workflows
   name: AI for Database Workflows API
   slug: aifordatabase-workflows-api
-artifact_total: 19
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Aifordatabase Webhooks
   slug: aifordatabase-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/capabilities/aifordatabase-capability-edges.yml
+  href: https://artifacts.apis.io/aifordatabase/capabilities/aifordatabase-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/aifordatabase-capability-edges.yml
@@ -116,12 +118,12 @@ common:
   type: Website
   url: https://www.aifordatabase.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/overlays/aifordatabase-openapi-overlay.yaml
+  href: https://artifacts.apis.io/aifordatabase/overlays/aifordatabase-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aifordatabase-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/mcp/aifordatabase-mcp.yml
+  href: https://artifacts.apis.io/aifordatabase/mcp/aifordatabase-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aifordatabase-mcp.yml
@@ -174,37 +176,45 @@ common:
   type: TrustCenter
   url: https://www.aifordatabase.com/trust/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/plans/aifordatabase-plans-pricing.yml
+  href: https://artifacts.apis.io/aifordatabase/plans/aifordatabase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aifordatabase-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/rate-limits/aifordatabase-rate-limits.yml
+  href: https://artifacts.apis.io/aifordatabase/rate-limits/aifordatabase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aifordatabase-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/sandbox/aifordatabase-sandbox.yml
+  href: https://artifacts.apis.io/aifordatabase/sandbox/aifordatabase-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aifordatabase-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/packages/aifordatabase-packages.yml
+  href: https://artifacts.apis.io/aifordatabase/packages/aifordatabase-packages.yml
   title: ''
   type: Packages
   url: packages/aifordatabase-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aifordatabase/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/security/aifordatabase-domain-security.yml
+  href: https://artifacts.apis.io/aifordatabase/security/aifordatabase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aifordatabase-domain-security.yml
 created: '2026-08-26'
 description: 'AI for Database is a natural-language data layer for operational databases, built by Wavicle.tech. It connects read-only to PostgreSQL, MySQL, MariaDB, SQL Server, MongoDB, SQLite and Google Sheets, translates plain-English questions into SQL, returns the SQL alongside the answer, pins results as self-refreshing dashboards, and runs scheduled workflows that fire email, webhook or Slack alerts when a query condition becomes true. The public REST API is explicitly designed for AI agents: a scoped Bearer-auth contract (afd_ keys, nine permission scopes) documented by a live OpenAPI 3.1 spec with 80 operations, a paused-draft workflow lifecycle with a real dry-run preview and a confirmation-gated live action test, human query approval, and agent-native discovery surfaces at llms.txt, llms-full.txt and a JSON capability manifest.'
+finops:
+- has_sources: true
+  method: derived
+  name: Aifordatabase Finops
+  primary_unit: user
+  service_category: ''
+  slug: aifordatabase-finops
+  template: false
 image: https://www.aifordatabase.com/logo.png
 layout: provider
 mcp_servers:
@@ -226,7 +236,10 @@ plans:
 - name: Aifordatabase Plans Pricing
   plan_count: 3
   slug: aifordatabase-plans-pricing
-random_paper: 8
+- name: Aifordatabase Price Estimates
+  plan_count: 0
+  slug: aifordatabase-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Aifordatabase Rate Limits
@@ -235,21 +248,21 @@ score:
   band: strong
   composite: 60.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 1.0
   facets:
-    access_clarity: 77.6
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 61.4
+    contract_quality: 58.1
     developer_ergonomics: 66.1
-    discoverability: 76.7
+    discoverability: 71.7
     operational_transparency: 39.5
-  previous_composite: 60.2
+  previous_composite: 59.8
   provenance:
     conformance: derived
     contracts:
@@ -265,13 +278,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/screenshots/aifordatabase-2026-09-02T144117.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aifordatabase/aifordatabase-2026-09-02T144117.png
 security:
 - kind: authentication
   name: Aifordatabase Authentication
@@ -285,6 +299,16 @@ security:
   name: Aifordatabase Trust Center
   slug: aifordatabase-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 4
+skills:
+- name: aifordatabase-answer-a-database-question
+  slug: aifordatabase-answer-a-database-question
+- name: aifordatabase-govern-query-approval
+  slug: aifordatabase-govern-query-approval
+- name: aifordatabase-ship-a-scheduled-alert
+  slug: aifordatabase-ship-a-scheduled-alert
+- name: aifordatabase-subscribe-to-events
+  slug: aifordatabase-subscribe-to-events
 slug: aifordatabase
 tags:
 - Artificial Intelligence

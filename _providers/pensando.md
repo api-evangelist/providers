@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the AMD Pensando Policy and Services Manager control plane — manage clusters, networks, security policy, and services on Pensando DPUs. The API is served per-appliance; live interactive d
@@ -62,47 +64,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/pensando
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pensando/refs/heads/main/packages/pensando-packages.yml
+  href: https://artifacts.apis.io/pensando/packages/pensando-packages.yml
   title: ''
   type: SDKs
   url: packages/pensando-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pensando/refs/heads/main/packages/pensando-packages.yml
+  href: https://artifacts.apis.io/pensando/packages/pensando-packages.yml
   title: ''
   type: Packages
   url: packages/pensando-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pensando/refs/heads/main/security/pensando-domain-security.yml
+  href: https://artifacts.apis.io/pensando/security/pensando-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pensando-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pensando/refs/heads/main/authentication/pensando-authentication.yml
+  href: https://artifacts.apis.io/pensando/authentication/pensando-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pensando-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pensando/refs/heads/main/conventions/pensando-conventions.yml
+  href: https://artifacts.apis.io/pensando/conventions/pensando-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pensando-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pensando/refs/heads/main/errors/pensando-problem-types.yml
+  href: https://artifacts.apis.io/pensando/errors/pensando-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pensando-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pensando/refs/heads/main/lifecycle/pensando-lifecycle.yml
+  href: https://artifacts.apis.io/pensando/lifecycle/pensando-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pensando-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pensando/refs/heads/main/data-model/pensando-data-model.yml
+  href: https://artifacts.apis.io/pensando/data-model/pensando-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pensando-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pensando/refs/heads/main/llms/pensando-llms.txt
+  href: https://artifacts.apis.io/pensando/llms/pensando-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pensando-llms.txt
@@ -118,10 +120,10 @@ overview: 'Pensando * is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Pensando *''s developer surface includes authentication and 13 more developer resources.'
-random_paper: 20
+random_paper: 16
 score:
   band: emerging
-  composite: 14.0
+  composite: 13.7
   coverage:
     artifact_dirs: 10
     catalog_earned: 32.0
@@ -135,23 +137,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 64.3
-    operational_transparency: 18.4
-  previous_composite: 14.0
+    discoverability: 57.1
+    operational_transparency: 21.1
+  previous_composite: 13.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pensando/refs/heads/main/screenshots/pensando-2026-09-02T151004.png
+screenshot: https://apis.io/screenshots/pensando/pensando-2026-09-02T151004.png
 security:
 - kind: authentication
   name: Pensando Authentication

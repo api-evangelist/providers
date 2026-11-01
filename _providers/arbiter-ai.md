@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation for Arbiter AI platform, providing care orchestration services.
@@ -32,17 +34,17 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arbiter-ai/refs/heads/main/well-known/arbiter-ai-itsm-security.txt
+  href: https://artifacts.apis.io/arbiter-ai/well-known/arbiter-ai-itsm-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/arbiter-ai-itsm-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arbiter-ai/refs/heads/main/well-known/arbiter-ai-well-known.yml
+  href: https://artifacts.apis.io/arbiter-ai/well-known/arbiter-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/arbiter-ai-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arbiter-ai/refs/heads/main/hosts/arbiter-ai-hosts.yml
+  href: https://artifacts.apis.io/arbiter-ai/hosts/arbiter-ai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/arbiter-ai-hosts.yml
@@ -67,7 +69,7 @@ common:
   type: Documentation
   url: https://dev.arbiter.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arbiter-ai/refs/heads/main/security/arbiter-ai-domain-security.yml
+  href: https://artifacts.apis.io/arbiter-ai/security/arbiter-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arbiter-ai-domain-security.yml
@@ -95,10 +97,10 @@ overview: 'Arbiter AI is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Arbiter AI''s developer surface includes documentation and 9 more developer resources.'
-random_paper: 2
+random_paper: 8
 score:
   band: emerging
-  composite: 11.9
+  composite: 13.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 32.0
@@ -113,8 +115,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 60.7
-    operational_transparency: 0.0
-  previous_composite: 11.9
+    operational_transparency: 10.5
+  previous_composite: 13.3
   provenance:
     mcp: unknown
   regulatory:
@@ -123,14 +125,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/arbiter-ai/refs/heads/main/screenshots/arbiter-ai-2026-10-11T100130.png
+screenshot: https://apis.io/screenshots/arbiter-ai/arbiter-ai-2026-10-11T100130.png
 security:
 - kind: domain-security
   name: Arbiter Ai Domain Security

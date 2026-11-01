@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/makrwatch/refs/heads/main/security/makrwatch-domain-security.yml
+  href: https://artifacts.apis.io/makrwatch/security/makrwatch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/makrwatch-domain-security.yml
@@ -70,22 +72,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/themidgame
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/makrwatch/refs/heads/main/packages/makrwatch-packages.yml
+  href: https://artifacts.apis.io/makrwatch/packages/makrwatch-packages.yml
   title: ''
   type: Packages
   url: packages/makrwatch-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/makrwatch/refs/heads/main/llms/makrwatch-llms.txt
+  href: https://artifacts.apis.io/makrwatch/llms/makrwatch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/makrwatch-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/makrwatch/refs/heads/main/plans/makrwatch-plans-pricing.yml
+  href: https://artifacts.apis.io/makrwatch/plans/makrwatch-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/makrwatch-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/makrwatch/refs/heads/main/rate-limits/makrwatch-rate-limits.yml
+  href: https://artifacts.apis.io/makrwatch/rate-limits/makrwatch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/makrwatch-rate-limits.yml
@@ -122,16 +124,16 @@ plans:
 - name: Makrwatch Plans Pricing
   plan_count: 0
   slug: makrwatch-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Makrwatch Rate Limits
   slug: makrwatch-rate-limits
 score:
   band: emerging
-  composite: 12.7
+  composite: 13.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -144,7 +146,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 4.8
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -152,21 +154,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 12.7
+  previous_composite: 13.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/makrwatch/refs/heads/main/screenshots/makrwatch-2026-07-25T230009.png
+screenshot: https://apis.io/screenshots/makrwatch/makrwatch-2026-07-25T230009.png
 security:
 - kind: domain-security
   name: Makrwatch Domain Security

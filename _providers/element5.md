@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 32.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 8
   slug: element5-agentic-access
   summary_line: 8 operations · 4 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.e5.ai
   baseurl_source: declared
@@ -72,15 +74,12 @@ arazzos:
 - description: Submit an eligibility request and poll until the task succeeds or fails.
   name: Element5 — Verify eligibility and await result
   slug: element5-verify-eligibility
-artifact_total: 14
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Element5 Webhooks
   slug: element5-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Element5 Authorization API
   slug: open-element5-authorization-api
@@ -96,87 +95,87 @@ common:
   type: Blog
   url: https://www.e5.ai/news
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/capabilities/element5-capability-edges.yml
+  href: https://artifacts.apis.io/element5/capabilities/element5-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/element5-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/agentic-access/element5-agentic-access.yml
+  href: https://artifacts.apis.io/element5/agentic-access/element5-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/element5-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/security/element5-domain-security.yml
+  href: https://artifacts.apis.io/element5/security/element5-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/element5-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/authentication/element5-authentication.yml
+  href: https://artifacts.apis.io/element5/authentication/element5-authentication.yml
   title: ''
   type: Authentication
   url: authentication/element5-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/conventions/element5-conventions.yml
+  href: https://artifacts.apis.io/element5/conventions/element5-conventions.yml
   title: ''
   type: Conventions
   url: conventions/element5-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/errors/element5-problem-types.yml
+  href: https://artifacts.apis.io/element5/errors/element5-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/element5-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/lifecycle/element5-lifecycle.yml
+  href: https://artifacts.apis.io/element5/lifecycle/element5-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/element5-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/conformance/element5-conformance.yml
+  href: https://artifacts.apis.io/element5/conformance/element5-conformance.yml
   title: ''
   type: Conformance
   url: conformance/element5-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/asyncapi/element5-webhooks.yml
+  href: https://artifacts.apis.io/element5/asyncapi/element5-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/element5-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/element5/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/mcp/element5-mcp.yml
+  href: https://artifacts.apis.io/element5/mcp/element5-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/element5-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/llms/element5-llms.txt
+  href: https://artifacts.apis.io/element5/llms/element5-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/element5-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/overlays/element5-openapi-overlay.yaml
+  href: https://artifacts.apis.io/element5/overlays/element5-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/element5-openapi-overlay.yaml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/sandbox/element5-sandbox.yml
+  href: https://artifacts.apis.io/element5/sandbox/element5-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/element5-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/data-model/element5-data-model.yml
+  href: https://artifacts.apis.io/element5/data-model/element5-data-model.yml
   title: ''
   type: DataModel
   url: data-model/element5-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/arazzo/element5-verify-eligibility.yml
+  href: https://artifacts.apis.io/element5/arazzo/element5-verify-eligibility.yml
   title: ''
   type: Arazzo
   url: arazzo/element5-verify-eligibility.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/arazzo/element5-submit-authorization.yml
+  href: https://artifacts.apis.io/element5/arazzo/element5-submit-authorization.yml
   title: ''
   type: Arazzo
   url: arazzo/element5-submit-authorization.yml
@@ -230,7 +229,7 @@ overview: 'Element5 publishes 4 API contracts indexed on the [APIs.io](https://a
 random_paper: 7
 score:
   band: developing
-  composite: 40.9
+  composite: 43.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -238,15 +237,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 31.6
     contract_governance: 18.2
-    contract_quality: 56.8
+    contract_quality: 61.2
     developer_ergonomics: 54.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 40.4
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -267,13 +266,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/screenshots/element5-2026-07-25T213120.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/element5/element5-2026-07-25T213120.png
 security:
 - kind: authentication
   name: Element5 Authentication
@@ -283,6 +283,12 @@ security:
   name: Element5 Domain Security
   slug: element5-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Submit a prior authorization with Element5
+  slug: element5-submit-authorization
+- name: Verify patient eligibility with Element5
+  slug: element5-verify-eligibility
 slug: element5
 tags:
 - Company

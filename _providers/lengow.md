@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.0
-  scored_at: '2026-10-17'
+  score: 35.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -66,29 +68,29 @@ apis:
   description: The Rate limits API from Lengow — 1 operation(s) for rate limits.
   name: Lengow Rate limits API
   slug: lengow-rate-limits-api
-artifact_total: 10
+artifact_total: 14
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://blog.lengow.com/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/capabilities/lengow-capability-edges.yml
+  href: https://artifacts.apis.io/lengow/capabilities/lengow-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lengow-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/agentic-access/lengow-agentic-access.yml
+  href: https://artifacts.apis.io/lengow/agentic-access/lengow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lengow-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/security/lengow-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lengow/security/lengow-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lengow-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/security/lengow-domain-security.yml
+  href: https://artifacts.apis.io/lengow/security/lengow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lengow-domain-security.yml
@@ -153,82 +155,82 @@ common:
   type: ChangeLog
   url: https://docs.lengow.io/#api-release-notes
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/packages/lengow-packages.yml
+  href: https://artifacts.apis.io/lengow/packages/lengow-packages.yml
   title: ''
   type: Packages
   url: packages/lengow-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/packages/lengow-packages.yml
+  href: https://artifacts.apis.io/lengow/packages/lengow-packages.yml
   title: ''
   type: SDKs
   url: packages/lengow-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/well-known/lengow-well-known.yml
+  href: https://artifacts.apis.io/lengow/well-known/lengow-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lengow-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/well-known/lengow-security.txt
+  href: https://artifacts.apis.io/lengow/well-known/lengow-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/lengow-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/llms/lengow-llms.txt
+  href: https://artifacts.apis.io/lengow/llms/lengow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lengow-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/authentication/lengow-authentication.yml
+  href: https://artifacts.apis.io/lengow/authentication/lengow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lengow-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/conventions/lengow-conventions.yml
+  href: https://artifacts.apis.io/lengow/conventions/lengow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lengow-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/errors/lengow-problem-types.yml
+  href: https://artifacts.apis.io/lengow/errors/lengow-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lengow-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/lifecycle/lengow-lifecycle.yml
+  href: https://artifacts.apis.io/lengow/lifecycle/lengow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lengow-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/changelog/lengow-changelog.yml
+  href: https://artifacts.apis.io/lengow/changelog/lengow-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lengow-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/conformance/lengow-conformance.yml
+  href: https://artifacts.apis.io/lengow/conformance/lengow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lengow-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/data-model/lengow-data-model.yml
+  href: https://artifacts.apis.io/lengow/data-model/lengow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lengow-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/plans/lengow-plans-pricing.yml
+  href: https://artifacts.apis.io/lengow/plans/lengow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lengow-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/rate-limits/lengow-rate-limits.yml
+  href: https://artifacts.apis.io/lengow/rate-limits/lengow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lengow-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/overlays/lengow-channel-execution-overlay.yaml
+  href: https://artifacts.apis.io/lengow/overlays/lengow-channel-execution-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lengow-channel-execution-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lengow/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -243,6 +245,14 @@ common:
 created: '2026-08-17'
 description: Lengow is a French e-commerce automation platform (Nantes, founded 2009; part of the Lengow group alongside Netrivals and NetMonitor) that connects merchant product catalogues to marketplaces, price-comparison sites and advertising channels across Europe. Its Channel Execution suite covers NetMarkets for marketplace management and NetAmplify for advertising feed management, plus NetRivals price intelligence and NetMonitor reseller monitoring. Lengow publishes a public REST API at api.lengow.io covering order retrieval and order actions (accept, refuse, ship, cancel, refund) across marketplaces, marketplace metadata, invoice and delivery documents, Zalando ZFS warehouse communication, product integration reports, and a beta v1.0 catalogue API for products and attributes. Authentication is a session token exchanged from an account access_token + secret pair. First-party e-commerce plugins are published on GitHub for PrestaShop, Magento 2, WooCommerce, Shopware 6 and Salesforce
   Commerce Cloud.
+finops:
+- has_sources: true
+  method: derived
+  name: Lengow Finops
+  primary_unit: ''
+  service_category: ''
+  slug: lengow-finops
+  template: true
 image: https://www.lengow.com/wp-content/uploads/2024/12/Lengow_Homepage_Loop.png
 layout: provider
 modified: '2026-10-06'
@@ -255,31 +265,31 @@ overview: 'Lengow publishes 4 API contracts indexed on the [APIs.io](https://api
   Lengow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Lengow Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: lengow-plans-pricing
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Lengow Rate Limits
   slug: lengow-rate-limits
 score:
   band: strong
-  composite: 62.2
+  composite: 55.0
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 57.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    artifact_dirs: 24
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -6.3
   facets:
-    access_clarity: 84.2
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 50.5
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 42.1
+    discoverability: 66.1
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -288,7 +298,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 62.1
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -309,13 +319,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/screenshots/lengow-2026-09-02T150237.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lengow/lengow-2026-09-02T150237.png
 security:
 - kind: authentication
   name: Lengow Authentication
@@ -329,6 +340,14 @@ security:
   name: Lengow Vulnerability Disclosure
   slug: lengow-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 3
+skills:
+- name: Authenticate against the Lengow API and check your rate budget
+  slug: lengow-authenticate-and-check-limits
+- name: Pull a Lengow feed integration report and triage product errors
+  slug: lengow-pull-feed-integration-report
+- name: Sync products into a Lengow catalogue
+  slug: lengow-sync-catalogue-products
 slug: lengow
 tags:
 - Company

@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The REST API behind the Hnry app. It backs the Hnry iOS/Android clients and the published Hnry Zapier integration, which exposes create/find operations over clients, invoices, invoice line items and e
@@ -81,67 +83,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/HnryNZ
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hnry/refs/heads/main/security/hnry-trust-center.yml
+  href: https://artifacts.apis.io/hnry/security/hnry-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/hnry-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hnry/refs/heads/main/conformance/hnry-conformance.yml
+  href: https://artifacts.apis.io/hnry/conformance/hnry-conformance.yml
   title: ''
   type: Compliance
   url: conformance/hnry-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hnry/refs/heads/main/conformance/hnry-conformance.yml
+  href: https://artifacts.apis.io/hnry/conformance/hnry-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hnry-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hnry/refs/heads/main/security/hnry-domain-security.yml
+  href: https://artifacts.apis.io/hnry/security/hnry-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hnry-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hnry/refs/heads/main/security/hnry-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hnry/security/hnry-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/hnry-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hnry/refs/heads/main/security/hnry-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hnry/security/hnry-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hnry-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hnry/refs/heads/main/well-known/hnry-security.txt
+  href: https://artifacts.apis.io/hnry/well-known/hnry-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/hnry-security.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hnry/refs/heads/main/plans/hnry-plans-pricing.yml
+  href: https://artifacts.apis.io/hnry/plans/hnry-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hnry-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hnry/refs/heads/main/rate-limits/hnry-rate-limits.yml
+  href: https://artifacts.apis.io/hnry/rate-limits/hnry-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hnry-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hnry/refs/heads/main/authentication/hnry-authentication.yml
+  href: https://artifacts.apis.io/hnry/authentication/hnry-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hnry-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hnry/refs/heads/main/llms/hnry-llms.txt
+  href: https://artifacts.apis.io/hnry/llms/hnry-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hnry-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hnry/refs/heads/main/packages/hnry-packages.yml
+  href: https://artifacts.apis.io/hnry/packages/hnry-packages.yml
   title: ''
   type: Packages
   url: packages/hnry-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hnry/refs/heads/main/lifecycle/hnry-lifecycle.yml
+  href: https://artifacts.apis.io/hnry/lifecycle/hnry-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hnry-lifecycle.yml
@@ -162,14 +164,14 @@ plans:
 - name: Hnry Plans Pricing
   plan_count: 3
   slug: hnry-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Hnry Rate Limits
   slug: hnry-rate-limits
 score:
   band: thin
-  composite: 35.3
+  composite: 35.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 49.0
@@ -183,8 +185,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 73.2
-    operational_transparency: 13.2
+    discoverability: 66.1
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -196,7 +198,7 @@ score:
     - anz
     - europe
     - united-kingdom-ireland
-  previous_composite: 35.3
+  previous_composite: 35.0
   provenance:
     conformance: first-party
   regulatory:
@@ -205,14 +207,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hnry/refs/heads/main/screenshots/hnry-2026-09-02T145737.png
+screenshot: https://apis.io/screenshots/hnry/hnry-2026-09-02T145737.png
 security:
 - kind: authentication
   name: Hnry Authentication

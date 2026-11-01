@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Hearth & Home Technologies storefront implements the Universal Commerce Protocol (UCP) over an anonymous Model Context Protocol endpoint. A tools/list probe on 2026-09-13 returned 13 tools — searc
   name: Hearth & Home Technologies Agent Commerce (UCP/MCP)
   slug: hearth-home-agent-commerce
-artifact_total: 7
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -63,82 +65,82 @@ common:
   type: TermsOfService
   url: https://www.hnicorp.com/terms-of-use
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/security/hni-domain-security.yml
+  href: https://artifacts.apis.io/hni/security/hni-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hni-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/well-known/hni-well-known.yml
+  href: https://artifacts.apis.io/hni/well-known/hni-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hni-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/llms/hni-llms.txt
+  href: https://artifacts.apis.io/hni/llms/hni-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hni-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/conformance/hni-conformance.yml
+  href: https://artifacts.apis.io/hni/conformance/hni-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hni-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/authentication/hni-authentication.yml
+  href: https://artifacts.apis.io/hni/authentication/hni-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hni-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/scopes/hni-scopes.yml
+  href: https://artifacts.apis.io/hni/scopes/hni-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hni-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/conventions/hni-conventions.yml
+  href: https://artifacts.apis.io/hni/conventions/hni-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hni-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/conventions/hni-conventions.yml
+  href: https://artifacts.apis.io/hni/conventions/hni-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/hni-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/lifecycle/hni-lifecycle.yml
+  href: https://artifacts.apis.io/hni/lifecycle/hni-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hni-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/rate-limits/hni-rate-limits.yml
+  href: https://artifacts.apis.io/hni/rate-limits/hni-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hni-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/plans/hni-plans-pricing.yml
+  href: https://artifacts.apis.io/hni/plans/hni-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hni-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/packages/hni-packages.yml
+  href: https://artifacts.apis.io/hni/packages/hni-packages.yml
   title: ''
   type: Packages
   url: packages/hni-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/errors/hni-problem-types.yml
+  href: https://artifacts.apis.io/hni/errors/hni-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hni-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/data-model/hni-data-model.yml
+  href: https://artifacts.apis.io/hni/data-model/hni-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hni-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hni/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/mcp/hni-mcp.yml
+  href: https://artifacts.apis.io/hni/mcp/hni-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hni-mcp.yml
@@ -178,7 +180,7 @@ press:
 - date: ''
   title: HNI) 2026 proxy details Steelcase deal, pay and ESG
   url: https://www.stocktitan.net/sec-filings/HNI/def-14a-hni-corp-definitive-proxy-statement-3603a98d9fc3.html
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Hni Rate Limits
@@ -190,7 +192,7 @@ scopes:
   summary_line: 4 scopes · authorization_code
 score:
   band: emerging
-  composite: 16.0
+  composite: 20.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -200,11 +202,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 23.2
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -213,7 +215,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 16.0
+  previous_composite: 20.4
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -223,15 +225,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 34.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/screenshots/hni-2026-06-20T182807.png
+screenshot: https://apis.io/screenshots/hni/hni-2026-06-20T182807.png
 security:
 - kind: authentication
   name: Hni Authentication
@@ -241,6 +243,12 @@ security:
   name: Hni Domain Security
   slug: hni-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: hni-agent-purchase
+  slug: hni-agent-purchase
+- name: hni-catalog-search
+  slug: hni-catalog-search
 slug: hni
 tags:
 - Fortune 1000

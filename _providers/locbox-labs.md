@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A secured REST API that lets an approved Hownd partner manage Subscribers on behalf of Hownd customers (merchants and businesses). Partners are issued OAuth 2.0 client credentials and retrieve a beare
@@ -43,7 +45,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/security/locbox-labs-domain-security.yml
+  href: https://artifacts.apis.io/locbox-labs/security/locbox-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/locbox-labs-domain-security.yml
@@ -68,12 +70,12 @@ common:
   type: Pricing
   url: https://hownd.com/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/plans/locbox-labs-plans-pricing.yml
+  href: https://artifacts.apis.io/locbox-labs/plans/locbox-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/locbox-labs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/rate-limits/locbox-labs-rate-limits.yml
+  href: https://artifacts.apis.io/locbox-labs/rate-limits/locbox-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/locbox-labs-rate-limits.yml
@@ -106,42 +108,42 @@ common:
   type: Support
   url: https://hownd.com/contact/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/packages/locbox-labs-packages.yml
+  href: https://artifacts.apis.io/locbox-labs/packages/locbox-labs-packages.yml
   title: ''
   type: Packages
   url: packages/locbox-labs-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/well-known/locbox-labs-well-known.yml
+  href: https://artifacts.apis.io/locbox-labs/well-known/locbox-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/locbox-labs-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/authentication/locbox-labs-authentication.yml
+  href: https://artifacts.apis.io/locbox-labs/authentication/locbox-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/locbox-labs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/conventions/locbox-labs-conventions.yml
+  href: https://artifacts.apis.io/locbox-labs/conventions/locbox-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/locbox-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/conformance/locbox-labs-conformance.yml
+  href: https://artifacts.apis.io/locbox-labs/conformance/locbox-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/locbox-labs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/lifecycle/locbox-labs-lifecycle.yml
+  href: https://artifacts.apis.io/locbox-labs/lifecycle/locbox-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/locbox-labs-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/components/locbox-labs-components.yml
+  href: https://artifacts.apis.io/locbox-labs/components/locbox-labs-components.yml
   title: ''
   type: Components
   url: components/locbox-labs-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/llms/locbox-labs-llms.txt
+  href: https://artifacts.apis.io/locbox-labs/llms/locbox-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/locbox-labs-llms.txt
@@ -162,14 +164,14 @@ plans:
 - name: Locbox Labs Plans Pricing
   plan_count: 1
   slug: locbox-labs-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Locbox Labs Rate Limits
   slug: locbox-labs-rate-limits
 score:
   band: thin
-  composite: 33.5
+  composite: 34.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 45.0
@@ -177,15 +179,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 67.1
+    access_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 33.4
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 34.5
   provenance:
     conformance: first-party
   regulatory:
@@ -198,14 +200,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/locbox-labs/refs/heads/main/screenshots/locbox-labs-2026-07-25T225435.png
+screenshot: https://apis.io/screenshots/locbox-labs/locbox-labs-2026-07-25T225435.png
 security:
 - kind: authentication
   name: Locbox Labs Authentication

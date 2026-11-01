@@ -14,7 +14,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.1
-  scored_at: '2026-10-17'
+  score: 26.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: The OpenTelemetry intake API uses the OpenTelemetry Protocol (OTLP) to send traces, metrics, and logs to APM Server. OTLP is the default transfer protocol for OpenTelemetry and is supported natively b
   name: Elastic Observability opentelemetry intake API
   slug: elastic-observability-opentelemetry-intake-api
-artifact_total: 20
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Elastic Observability (APM Server) Agent Configuration API
   slug: open-elastic-observability-agent-configuration-api
@@ -92,27 +91,27 @@ collections:
   slug: open-elastic-observability
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/capabilities/elastic-observability-capability-edges.yml
+  href: https://artifacts.apis.io/elastic-observability/capabilities/elastic-observability-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/elastic-observability-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/agentic-access/elastic-observability-agentic-access.yml
+  href: https://artifacts.apis.io/elastic-observability/agentic-access/elastic-observability-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/elastic-observability-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/security/elastic-observability-trust-center.yml
+  href: https://artifacts.apis.io/elastic-observability/security/elastic-observability-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/elastic-observability-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/security/elastic-observability-domain-security.yml
+  href: https://artifacts.apis.io/elastic-observability/security/elastic-observability-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/elastic-observability-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/authentication/elastic-observability-authentication.yml
+  href: https://artifacts.apis.io/elastic-observability/authentication/elastic-observability-authentication.yml
   title: ''
   type: Authentication
   url: authentication/elastic-observability-authentication.yml
@@ -125,57 +124,57 @@ common:
   type: Documentation
   url: https://www.elastic.co/docs/solutions/observability
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/packages/elastic-observability-packages.yml
+  href: https://artifacts.apis.io/elastic-observability/packages/elastic-observability-packages.yml
   title: ''
   type: Packages
   url: packages/elastic-observability-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/packages/elastic-observability-packages.yml
+  href: https://artifacts.apis.io/elastic-observability/packages/elastic-observability-packages.yml
   title: ''
   type: SDKs
   url: packages/elastic-observability-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/well-known/elastic-observability-well-known.yml
+  href: https://artifacts.apis.io/elastic-observability/well-known/elastic-observability-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/elastic-observability-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/well-known/elastic-observability-security.txt
+  href: https://artifacts.apis.io/elastic-observability/well-known/elastic-observability-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/elastic-observability-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/mcp/elastic-observability-mcp.yml
+  href: https://artifacts.apis.io/elastic-observability/mcp/elastic-observability-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/elastic-observability-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/mcp/elastic-observability-tool-crosswalk.yml
+  href: https://artifacts.apis.io/elastic-observability/mcp/elastic-observability-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/elastic-observability-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/llms/elastic-observability-llms.txt
+  href: https://artifacts.apis.io/elastic-observability/llms/elastic-observability-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/elastic-observability-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/conformance/elastic-observability-conformance.yml
+  href: https://artifacts.apis.io/elastic-observability/conformance/elastic-observability-conformance.yml
   title: ''
   type: Conformance
   url: conformance/elastic-observability-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/conformance/elastic-observability-conformance.yml
+  href: https://artifacts.apis.io/elastic-observability/conformance/elastic-observability-conformance.yml
   title: ''
   type: Compliance
   url: conformance/elastic-observability-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/errors/elastic-observability-problem-types.yml
+  href: https://artifacts.apis.io/elastic-observability/errors/elastic-observability-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/elastic-observability-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/lifecycle/elastic-observability-lifecycle.yml
+  href: https://artifacts.apis.io/elastic-observability/lifecycle/elastic-observability-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/elastic-observability-lifecycle.yml
@@ -188,32 +187,32 @@ common:
   type: Deprecation
   url: https://www.elastic.co/support/eol
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/conventions/elastic-observability-conventions.yml
+  href: https://artifacts.apis.io/elastic-observability/conventions/elastic-observability-conventions.yml
   title: ''
   type: Conventions
   url: conventions/elastic-observability-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/changelog/elastic-observability-changelog.yml
+  href: https://artifacts.apis.io/elastic-observability/changelog/elastic-observability-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/elastic-observability-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/cli/elastic-observability-cli.yml
+  href: https://artifacts.apis.io/elastic-observability/cli/elastic-observability-cli.yml
   title: ''
   type: CLI
   url: cli/elastic-observability-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/data-model/elastic-observability-data-model.yml
+  href: https://artifacts.apis.io/elastic-observability/data-model/elastic-observability-data-model.yml
   title: ''
   type: DataModel
   url: data-model/elastic-observability-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/sandbox/elastic-observability-sandbox.yml
+  href: https://artifacts.apis.io/elastic-observability/sandbox/elastic-observability-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/elastic-observability-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/security/elastic-observability-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/elastic-observability/security/elastic-observability-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/elastic-observability-vulnerability-disclosure.yml
@@ -222,22 +221,22 @@ common:
   type: Security
   url: https://www.elastic.co/product-security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/elastic-observability/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/plans/elastic-observability-plans-pricing.yml
+  href: https://artifacts.apis.io/elastic-observability/plans/elastic-observability-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/elastic-observability-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/rate-limits/elastic-observability-rate-limits.yml
+  href: https://artifacts.apis.io/elastic-observability/rate-limits/elastic-observability-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/elastic-observability-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/finops/elastic-observability-finops.yml
+  href: https://artifacts.apis.io/elastic-observability/finops/elastic-observability-finops.yml
   title: ''
   type: FinOps
   url: finops/elastic-observability-finops.yml
@@ -288,13 +287,13 @@ common:
 created: '2026-03-27'
 description: 'Elastic Observability is Elastic''s unified logs, metrics, traces and profiling solution, built on the Elastic Stack. Its published machine-readable contract is the Observability Intake API served by APM Server: a newline-delimited JSON event intake for Elastic APM agents, a central agent-configuration endpoint, and native OpenTelemetry Protocol ingest over both OTLP/HTTP and OTLP/gRPC. Analysis of the telemetry once it has landed happens through Kibana and, for agents, through the Elastic Agent Builder MCP server, which exposes sixteen observability.* tools over a deployment-scoped endpoint.'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Elastic Observability Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: gb ingested
+  service_category: ''
   slug: elastic-observability-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elastic-observability.png
 layout: provider
 mcp_servers:
@@ -311,32 +310,40 @@ overview: 'Elastic Observability publishes 5 API contracts indexed on the [APIs.
   Elastic Observability''s developer surface includes authentication, documentation, changelog, CLI, sandbox, API reference, getting-started guide, and 35 more developer resources.'
 plans:
 - name: Elastic Observability Plans Pricing
-  plan_count: 2
+  plan_count: 17
   slug: elastic-observability-plans-pricing
-random_paper: 15
+- name: Elastic Observability Price Estimates
+  plan_count: 0
+  slug: elastic-observability-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Elastic Observability Rate Limits
   slug: elastic-observability-rate-limits
 score:
   band: strong
-  composite: 58.0
+  composite: 65.0
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 40.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 75.0
+    artifact_dirs: 28
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 3.7
   facets:
-    access_clarity: 68.4
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 43.4
     developer_ergonomics: 80.4
-    discoverability: 60.0
-    operational_transparency: 52.6
-  previous_composite: 59.5
+    discoverability: 56.7
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -353,13 +360,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/screenshots/elastic-observability-2026-06-20T180529.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/elastic-observability/elastic-observability-2026-06-20T180529.png
 security:
 - kind: authentication
   name: Elastic Observability Authentication
@@ -377,6 +385,16 @@ security:
   name: Elastic Observability Trust Center
   slug: elastic-observability-trust-center
   summary_line: FedRAMP High, FedRAMP Moderate, PCI DSS (Level 1 Service Provider), CSA STAR, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, SOC 2, SOC 3, TISAX, HIPAA, Cyber Essentials Plus, IRAP Assessed — Protected B, CyberGRX, GDPR
+skill_count: 4
+skills:
+- name: elastic-observability-check-server-health
+  slug: elastic-observability-check-server-health
+- name: elastic-observability-export-otlp-telemetry
+  slug: elastic-observability-export-otlp-telemetry
+- name: elastic-observability-fetch-agent-config
+  slug: elastic-observability-fetch-agent-config
+- name: elastic-observability-send-apm-events
+  slug: elastic-observability-send-apm-events
 slug: elastic-observability
 tags:
 - AIOps

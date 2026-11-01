@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: mitmproxy is a free and open source interactive HTTPS proxy for intercepting, inspecting, modifying, and replaying HTTP and HTTPS traffic. It provides console-based, web-based, and command-line interf
@@ -48,22 +50,22 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mitmproxy/refs/heads/main/plans/mitmproxy-plans-pricing.yml
+  href: https://artifacts.apis.io/mitmproxy/plans/mitmproxy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mitmproxy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mitmproxy/refs/heads/main/rate-limits/mitmproxy-rate-limits.yml
+  href: https://artifacts.apis.io/mitmproxy/rate-limits/mitmproxy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mitmproxy-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mitmproxy/refs/heads/main/finops/mitmproxy-finops.yml
+  href: https://artifacts.apis.io/mitmproxy/finops/mitmproxy-finops.yml
   title: ''
   type: FinOps
   url: finops/mitmproxy-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mitmproxy/refs/heads/main/security/mitmproxy-domain-security.yml
+  href: https://artifacts.apis.io/mitmproxy/security/mitmproxy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mitmproxy-domain-security.yml
@@ -113,7 +115,7 @@ finops:
 - has_sources: false
   method: generated
   name: Mitmproxy Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: mitmproxy-finops
   template: true
@@ -131,14 +133,14 @@ plans:
 - name: Mitmproxy Plans Pricing
   plan_count: 3
   slug: mitmproxy-plans-pricing
-random_paper: 5
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Mitmproxy Rate Limits
   slug: mitmproxy-rate-limits
 score:
   band: emerging
-  composite: 14.6
+  composite: 15.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 41.0
@@ -146,29 +148,29 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 62.5
-    operational_transparency: 26.3
-  previous_composite: 16.1
+    operational_transparency: 28.9
+  previous_composite: 15.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mitmproxy/refs/heads/main/screenshots/mitmproxy-2026-06-20T185616.png
+screenshot: https://apis.io/screenshots/mitmproxy/mitmproxy-2026-06-20T185616.png
 security:
 - kind: domain-security
   name: Mitmproxy Domain Security

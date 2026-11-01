@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.7
-  scored_at: '2026-10-17'
+  score: 32.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -75,11 +77,8 @@ apis:
   description: The Platform API from Feldera — 9 operation(s) for platform.
   name: Feldera Platform API
   slug: feldera-platform-api
-artifact_total: 17
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Feldera Input Connectors API
   slug: open-feldera-input-connectors-api
@@ -99,6 +98,15 @@ collections:
   name: Feldera Input Connectors Platform API
   slug: open-feldera-platform-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/feldera/plans/feldera-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/feldera-plans-pricing.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/feldera/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -116,77 +124,77 @@ common:
   type: GettingStarted
   url: https://docs.feldera.com/get-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/authentication/feldera-authentication.yml
+  href: https://artifacts.apis.io/feldera/authentication/feldera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/feldera-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/openapi/_original/feldera-openapi-original.json
+  href: https://artifacts.apis.io/feldera/openapi/_original/feldera-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/feldera-openapi-original.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/overlays/feldera-openapi-overlay.yaml
+  href: https://artifacts.apis.io/feldera/overlays/feldera-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/feldera-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/conventions/feldera-conventions.yml
+  href: https://artifacts.apis.io/feldera/conventions/feldera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/feldera-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/errors/feldera-error-codes.yml
+  href: https://artifacts.apis.io/feldera/errors/feldera-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/feldera-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/data-model/feldera-data-model.yml
+  href: https://artifacts.apis.io/feldera/data-model/feldera-data-model.yml
   title: ''
   type: DataModel
   url: data-model/feldera-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/packages/feldera-packages.yml
+  href: https://artifacts.apis.io/feldera/packages/feldera-packages.yml
   title: ''
   type: Packages
   url: packages/feldera-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/packages/feldera-packages.yml
+  href: https://artifacts.apis.io/feldera/packages/feldera-packages.yml
   title: ''
   type: SDKs
   url: packages/feldera-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/cli/feldera-cli.yml
+  href: https://artifacts.apis.io/feldera/cli/feldera-cli.yml
   title: ''
   type: CLI
   url: cli/feldera-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/mcp/feldera-mcp.yml
+  href: https://artifacts.apis.io/feldera/mcp/feldera-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/feldera-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/feldera/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/llms/feldera-llms.txt
+  href: https://artifacts.apis.io/feldera/llms/feldera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/feldera-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/agentic-access/feldera-agentic-access.yml
+  href: https://artifacts.apis.io/feldera/agentic-access/feldera-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/feldera-agentic-access.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/sandbox/feldera-sandbox.yml
+  href: https://artifacts.apis.io/feldera/sandbox/feldera-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/feldera-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/lifecycle/feldera-lifecycle.yml
+  href: https://artifacts.apis.io/feldera/lifecycle/feldera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/feldera-lifecycle.yml
@@ -199,12 +207,12 @@ common:
   type: Deprecation
   url: https://docs.feldera.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/changelog/feldera-changelog.yml
+  href: https://artifacts.apis.io/feldera/changelog/feldera-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/feldera-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/conformance/feldera-conformance.yml
+  href: https://artifacts.apis.io/feldera/conformance/feldera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/feldera-conformance.yml
@@ -213,12 +221,12 @@ common:
   type: Compliance
   url: https://trust.feldera.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/security/feldera-trust-center.yml
+  href: https://artifacts.apis.io/feldera/security/feldera-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/feldera-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/security/feldera-domain-security.yml
+  href: https://artifacts.apis.io/feldera/security/feldera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/feldera-domain-security.yml
@@ -256,6 +264,14 @@ common:
   url: https://www.feldera.com
 created: '2026-07-17'
 description: Feldera is an incremental compute engine for running complex SQL data pipelines in real time. Rather than reprocessing entire datasets, it updates materialized views proportionally to the changes in the input data, delivering low-latency, low-cost results for use cases such as fraud detection, feature engineering, change data capture, and real-time dashboards. Feldera is built on the DBSP incremental computation theory and is available as an open-source engine, a self-hosted enterprise platform, and a hosted online sandbox (try.feldera.com). Developers define pipelines as SQL programs with input/output connectors and manage them through the Feldera REST API, a Python client, and the fda CLI. Backed by Costanoa Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Feldera Finops
+  primary_unit: ''
+  service_category: ''
+  slug: feldera-finops
+  template: true
 image: https://cdn.sanity.io/images/nlte859i/production/1c2e10b5e5fe2946c6c16f7b4a0790214f186c81-1280x640.png
 layout: provider
 modified: '2026-07-19'
@@ -265,26 +281,30 @@ network: true
 overview: 'Feldera publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Input Connectors API, Metrics & Debugging API, Output Connectors API, and 3 more. Tagged areas include Company, Data Infrastructure, Streaming, SQL, and Incremental View Maintenance.
 
 
-  Feldera''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 27 more developer resources.'
-random_paper: 19
+  Feldera''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 29 more developer resources.'
+plans:
+- name: Feldera Plans Pricing
+  plan_count: 2
+  slug: feldera-plans-pricing
+random_paper: 3
 score:
   band: strong
-  composite: 58.3
+  composite: 62.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 52.2
-    developer_ergonomics: 85.7
-    discoverability: 73.2
-    operational_transparency: 42.1
+    contract_quality: 48.8
+    developer_ergonomics: 86.9
+    discoverability: 66.1
+    operational_transparency: 44.7
   previous_composite: 58.2
   provenance:
     agentic_access: derived
@@ -302,13 +322,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/screenshots/feldera-2026-07-25T214327.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/feldera/feldera-2026-07-25T214327.png
 security:
 - kind: authentication
   name: Feldera Authentication
@@ -322,6 +343,18 @@ security:
   name: Feldera Trust Center
   slug: feldera-trust-center
   summary_line: SOC 2
+skill_count: 5
+skills:
+- name: deploy-pipeline
+  slug: feldera-deploy-pipeline
+- name: feldera-docs
+  slug: feldera-feldera-docs
+- name: felderize
+  slug: feldera-felderize
+- name: install-fda
+  slug: feldera-install-fda
+- name: install-feldera
+  slug: feldera-install-feldera
 slug: feldera
 tags:
 - Company

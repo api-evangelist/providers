@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-10-17'
+  score: 35.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 49
   slug: aza-finance-agentic-access
   summary_line: 49 operations · 22 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.transferzero.com/v1
   baseurl_source: declared
@@ -129,15 +131,12 @@ arazzos:
 - description: Quote FX, create a sender, create a transaction, fund it, and confirm settlement.
   name: AZA Finance — send a cross-border payout
   slug: aza-finance-send-payout
-artifact_total: 38
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Aza Finance Webhooks
   slug: aza-finance-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TransferZero Account Debits API
   slug: open-aza-finance-account-debits-api
@@ -188,12 +187,12 @@ collections:
   slug: open-aza-finance-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/capabilities/aza-finance-capability-edges.yml
+  href: https://artifacts.apis.io/aza-finance/capabilities/aza-finance-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/aza-finance-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/overlays/aza-finance-openapi-overlay.yaml
+  href: https://artifacts.apis.io/aza-finance/overlays/aza-finance-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aza-finance-openapi-overlay.yaml
@@ -214,77 +213,77 @@ common:
   type: GettingStarted
   url: https://docs.transferzero.com/docs/home/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/authentication/aza-finance-authentication.yml
+  href: https://artifacts.apis.io/aza-finance/authentication/aza-finance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aza-finance-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/packages/aza-finance-packages.yml
+  href: https://artifacts.apis.io/aza-finance/packages/aza-finance-packages.yml
   title: ''
   type: Packages
   url: packages/aza-finance-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/packages/aza-finance-packages.yml
+  href: https://artifacts.apis.io/aza-finance/packages/aza-finance-packages.yml
   title: ''
   type: SDKs
   url: packages/aza-finance-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/sandbox/aza-finance-sandbox.yml
+  href: https://artifacts.apis.io/aza-finance/sandbox/aza-finance-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aza-finance-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/conventions/aza-finance-conventions.yml
+  href: https://artifacts.apis.io/aza-finance/conventions/aza-finance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aza-finance-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/conventions/aza-finance-conventions.yml
+  href: https://artifacts.apis.io/aza-finance/conventions/aza-finance-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/aza-finance-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/lifecycle/aza-finance-lifecycle.yml
+  href: https://artifacts.apis.io/aza-finance/lifecycle/aza-finance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aza-finance-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/conformance/aza-finance-conformance.yml
+  href: https://artifacts.apis.io/aza-finance/conformance/aza-finance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aza-finance-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/asyncapi/aza-finance-webhooks.yml
+  href: https://artifacts.apis.io/aza-finance/asyncapi/aza-finance-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/aza-finance-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/mcp/aza-finance-mcp.yml
+  href: https://artifacts.apis.io/aza-finance/mcp/aza-finance-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/aza-finance-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aza-finance/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/llms/aza-finance-llms.txt
+  href: https://artifacts.apis.io/aza-finance/llms/aza-finance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aza-finance-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/well-known/aza-finance-well-known.yml
+  href: https://artifacts.apis.io/aza-finance/well-known/aza-finance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aza-finance-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/security/aza-finance-domain-security.yml
+  href: https://artifacts.apis.io/aza-finance/security/aza-finance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aza-finance-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/agentic-access/aza-finance-agentic-access.yml
+  href: https://artifacts.apis.io/aza-finance/agentic-access/aza-finance-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aza-finance-agentic-access.yml
@@ -331,10 +330,10 @@ overview: 'AZA Finance publishes 16 API contracts indexed on the [APIs.io](https
 
 
   AZA Finance''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 21 more developer resources.'
-random_paper: 7
+random_paper: 5
 score:
-  band: thin
-  composite: 32.5
+  band: developing
+  composite: 45.1
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -344,18 +343,18 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 59.5
-    developer_ergonomics: 35.1
-    discoverability: 73.2
-    operational_transparency: 10.5
+    contract_quality: 57.5
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 32.5
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -371,14 +370,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 22.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/screenshots/aza-finance-2026-07-25T202112.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aza-finance/aza-finance-2026-07-25T202112.png
 security:
 - kind: authentication
   name: Aza Finance Authentication
@@ -388,6 +388,12 @@ security:
   name: Aza Finance Domain Security
   slug: aza-finance-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Send a cross-border payout with AZA Finance
+  slug: aza-finance-send-payout
+- name: Subscribe to and verify AZA Finance webhooks
+  slug: aza-finance-webhooks
 slug: aza-finance
 tags:
 - Company

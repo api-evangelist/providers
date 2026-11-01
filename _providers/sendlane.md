@@ -10,7 +10,7 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.sendlane.com/v2
@@ -106,7 +108,7 @@ apis:
   description: The Tags API from Sendlane — 3 operation(s) for tags.
   name: Sendlane Tags API
   slug: sendlane-tags-api
-artifact_total: 22
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Sendlane Webhooks
@@ -117,22 +119,22 @@ collections:
   slug: open-sendlane
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/capabilities/sendlane-capability-edges.yml
+  href: https://artifacts.apis.io/sendlane/capabilities/sendlane-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sendlane-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/overlays/sendlane-openapi-overlay.yaml
+  href: https://artifacts.apis.io/sendlane/overlays/sendlane-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sendlane-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/authentication/sendlane-authentication.yml
+  href: https://artifacts.apis.io/sendlane/authentication/sendlane-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sendlane-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/security/sendlane-domain-security.yml
+  href: https://artifacts.apis.io/sendlane/security/sendlane-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sendlane-domain-security.yml
@@ -169,87 +171,87 @@ common:
   type: X
   url: https://twitter.com/sendlane
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/plans/sendlane-plans-pricing.yml
+  href: https://artifacts.apis.io/sendlane/plans/sendlane-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sendlane-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/rate-limits/sendlane-rate-limits.yml
+  href: https://artifacts.apis.io/sendlane/rate-limits/sendlane-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sendlane-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/finops/sendlane-finops.yml
+  href: https://artifacts.apis.io/sendlane/finops/sendlane-finops.yml
   title: ''
   type: FinOps
   url: finops/sendlane-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/conventions/sendlane-conventions.yml
+  href: https://artifacts.apis.io/sendlane/conventions/sendlane-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sendlane-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/errors/sendlane-problem-types.yml
+  href: https://artifacts.apis.io/sendlane/errors/sendlane-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sendlane-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/data-model/sendlane-data-model.yml
+  href: https://artifacts.apis.io/sendlane/data-model/sendlane-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sendlane-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/lifecycle/sendlane-lifecycle.yml
+  href: https://artifacts.apis.io/sendlane/lifecycle/sendlane-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sendlane-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/conformance/sendlane-conformance.yml
+  href: https://artifacts.apis.io/sendlane/conformance/sendlane-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sendlane-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/asyncapi/sendlane-webhooks.yml
+  href: https://artifacts.apis.io/sendlane/asyncapi/sendlane-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sendlane-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/sandbox/sendlane-sandbox.yml
+  href: https://artifacts.apis.io/sendlane/sandbox/sendlane-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sendlane-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/components/sendlane-components.yml
+  href: https://artifacts.apis.io/sendlane/components/sendlane-components.yml
   title: ''
   type: Components
   url: components/sendlane-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/changelog/sendlane-changelog.yml
+  href: https://artifacts.apis.io/sendlane/changelog/sendlane-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sendlane-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/packages/sendlane-packages.yml
+  href: https://artifacts.apis.io/sendlane/packages/sendlane-packages.yml
   title: ''
   type: Packages
   url: packages/sendlane-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/mcp/sendlane-mcp.yml
+  href: https://artifacts.apis.io/sendlane/mcp/sendlane-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sendlane-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/llms/sendlane-llms.txt
+  href: https://artifacts.apis.io/sendlane/llms/sendlane-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sendlane-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sendlane/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/json-ld/sendlane-context.jsonld
+  href: https://artifacts.apis.io/sendlane/json-ld/sendlane-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/sendlane-context.jsonld
@@ -296,13 +298,13 @@ common:
 created: '2026-06-13'
 description: Email and SMS marketing platform built for e-commerce brands, unifying email, SMS, reviews and forms in one account. The Sendlane v2 REST API manages contacts, lists, segments, tags, custom fields, sender profiles, suppression lists and email and SMS consent, returns campaign and SMS performance and revenue reporting, and ingests e-commerce behaviour events such as product views, cart abandonment and orders placed to drive automations and revenue attribution.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Sendlane Finops
-  primary_unit: ''
+  primary_unit: sms credit
   service_category: ''
   slug: sendlane-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sendlane.png
 jsonld:
 - class_count: 4
@@ -323,32 +325,35 @@ overview: 'Sendlane publishes 14 API contracts indexed on the [APIs.io](https://
   Sendlane''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, changelog, getting-started guide, and 32 more developer resources.'
 plans:
 - name: Sendlane Plans Pricing
-  plan_count: 4
+  plan_count: 9
   slug: sendlane-plans-pricing
-random_paper: 6
+- name: Sendlane Price Estimates
+  plan_count: 0
+  slug: sendlane-price-estimates
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Sendlane Rate Limits
   slug: sendlane-rate-limits
 score:
   band: strong
-  composite: 60.8
+  composite: 62.8
   coverage:
     artifact_dirs: 28
-    catalog_earned: 65.0
+    catalog_earned: 68.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 50.0
+    catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 61.1
+    contract_quality: 58.8
     developer_ergonomics: 70.8
     discoverability: 66.1
-    operational_transparency: 63.2
-  previous_composite: 62.3
+    operational_transparency: 65.8
+  previous_composite: 61.2
   provenance:
     conformance: derived
     contracts:
@@ -364,13 +369,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/screenshots/sendlane-2026-06-20T193659.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sendlane/sendlane-2026-06-20T193659.png
 security:
 - kind: authentication
   name: Sendlane Authentication
@@ -380,6 +386,16 @@ security:
   name: Sendlane Domain Security
   slug: sendlane-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: sendlane-manage-consent-and-suppression
+  slug: sendlane-manage-consent-and-suppression
+- name: sendlane-onboard-contacts
+  slug: sendlane-onboard-contacts
+- name: sendlane-pull-campaign-performance
+  slug: sendlane-pull-campaign-performance
+- name: sendlane-track-ecommerce-events
+  slug: sendlane-track-ecommerce-events
 slug: sendlane
 tags:
 - Email Marketing

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for managing candidates, contacts, clients, job openings, interviews, attachments, notes, and custom modules in Zoho Recruit. Requests are authenticated with OAuth 2.0 tokens issued by the do
@@ -53,11 +55,8 @@ apis:
   description: The Zoho Recruit API API from Zoho Recruit — 1 operation(s) for zoho recruit api.
   name: Zoho Recruit Zoho Recruit API
   slug: zoho-recruit-zoho-recruit-api-api
-artifact_total: 10
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zoho Recruit Candidates API
   slug: open-zoho-recruit-candidates-api
@@ -69,17 +68,17 @@ collections:
   slug: open-zoho-recruit-zoho-recruit-api-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/capabilities/zoho-recruit-capability-edges.yml
+  href: https://artifacts.apis.io/zoho-recruit/capabilities/zoho-recruit-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zoho-recruit-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/security/zoho-recruit-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zoho-recruit/security/zoho-recruit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zoho-recruit-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/security/zoho-recruit-domain-security.yml
+  href: https://artifacts.apis.io/zoho-recruit/security/zoho-recruit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zoho-recruit-domain-security.yml
@@ -123,10 +122,10 @@ overview: 'Zoho Recruit publishes 4 API contracts indexed on the [APIs.io](https
 
 
   Zoho Recruit''s developer surface includes documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 5
+random_paper: 11
 score:
-  band: emerging
-  composite: 23.9
+  band: thin
+  composite: 28.4
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -136,13 +135,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 46.5
     developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 23.9
+    operational_transparency: 31.6
+  previous_composite: 28.4
   provenance:
     contracts:
       callable: 100.0
@@ -155,13 +154,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/screenshots/zoho-recruit-2026-06-20T201945.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zoho-recruit/zoho-recruit-2026-06-20T201945.png
 security:
 - kind: domain-security
   name: Zoho Recruit Domain Security

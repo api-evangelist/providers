@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 28.0
-  scored_at: '2026-10-17'
+  score: 30.3
+  scored_at: '2026-10-31'
 api_count: 15
 apis:
 - description: REST API for Bitrue spot trading -- market data (depth, trades, klines, tickers), exchange info, account, order placement and cancellation, trade history, deposits and withdrawals, plus a listenKey us
@@ -98,62 +100,62 @@ apis:
 artifact_total: 25
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bitrue/refs/heads/main/rate-limits/bitrue-rate-limits.yml
+  href: https://artifacts.apis.io/bitrue/rate-limits/bitrue-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bitrue-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitrue/refs/heads/main/rules/bitrue-rules.yml
+  href: https://artifacts.apis.io/bitrue/rules/bitrue-rules.yml
   title: ''
   type: Spectral
   url: rules/bitrue-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitrue/refs/heads/main/json-ld/bitrue-context.jsonld
+  href: https://artifacts.apis.io/bitrue/json-ld/bitrue-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bitrue-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitrue/refs/heads/main/vocabulary/bitrue-vocabulary.yml
+  href: https://artifacts.apis.io/bitrue/vocabulary/bitrue-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bitrue-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitrue/refs/heads/main/data-model/bitrue-data-model.yml
+  href: https://artifacts.apis.io/bitrue/data-model/bitrue-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bitrue-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitrue/refs/heads/main/errors/bitrue-error-codes.yml
+  href: https://artifacts.apis.io/bitrue/errors/bitrue-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/bitrue-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitrue/refs/heads/main/conformance/bitrue-conformance.yml
+  href: https://artifacts.apis.io/bitrue/conformance/bitrue-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bitrue-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitrue/refs/heads/main/llms/bitrue-llms.txt
+  href: https://artifacts.apis.io/bitrue/llms/bitrue-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bitrue-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitrue/refs/heads/main/well-known/bitrue-well-known.yml
+  href: https://artifacts.apis.io/bitrue/well-known/bitrue-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bitrue-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitrue/refs/heads/main/hosts/bitrue-hosts.yml
+  href: https://artifacts.apis.io/bitrue/hosts/bitrue-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bitrue-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitrue/refs/heads/main/vendors/bitrue-vendors.yml
+  href: https://artifacts.apis.io/bitrue/vendors/bitrue-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bitrue-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitrue/refs/heads/main/security/bitrue-domain-security.yml
+  href: https://artifacts.apis.io/bitrue/security/bitrue-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitrue-domain-security.yml
@@ -239,7 +241,7 @@ overview: 'Bitrue is listed with 15 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Bitrue''s developer surface includes documentation, engineering blog, signup flow, support, and 17 more developer resources.'
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Bitrue Rate Limits
@@ -267,13 +269,15 @@ score:
     catalog_gap: 42.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 19.7
     contract_quality: 25.6
     developer_ergonomics: 26.2
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 26.3
+  previous_composite: 28.3
   provenance:
     conformance: derived
     contracts:
@@ -288,11 +292,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Bitrue Domain Security

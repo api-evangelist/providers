@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: AK Steel Holding Corporation investor relations portal providing access to financial reports, SEC filings, news releases, and shareholder information. Following acquisition by Cleveland-Cliffs in 2020
@@ -43,32 +45,32 @@ apis:
 artifact_total: 12
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ak-steel-holding/refs/heads/main/finops/ak-steel-holding-finops.yml
+  href: https://artifacts.apis.io/ak-steel-holding/finops/ak-steel-holding-finops.yml
   title: ''
   type: FinOps
   url: finops/ak-steel-holding-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ak-steel-holding/refs/heads/main/security/ak-steel-holding-domain-security.yml
+  href: https://artifacts.apis.io/ak-steel-holding/security/ak-steel-holding-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ak-steel-holding-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ak-steel-holding/refs/heads/main/lifecycle/ak-steel-holding-lifecycle.yml
+  href: https://artifacts.apis.io/ak-steel-holding/lifecycle/ak-steel-holding-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ak-steel-holding-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ak-steel-holding/refs/heads/main/llms/ak-steel-holding-llms.txt
+  href: https://artifacts.apis.io/ak-steel-holding/llms/ak-steel-holding-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ak-steel-holding-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ak-steel-holding/refs/heads/main/plans/ak-steel-holding-plans-pricing.yml
+  href: https://artifacts.apis.io/ak-steel-holding/plans/ak-steel-holding-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ak-steel-holding-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ak-steel-holding/refs/heads/main/rate-limits/ak-steel-holding-rate-limits.yml
+  href: https://artifacts.apis.io/ak-steel-holding/rate-limits/ak-steel-holding-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ak-steel-holding-rate-limits.yml
@@ -136,7 +138,7 @@ press:
 - date: ''
   title: AK Steel Holding (AKS,N) reports earnings for 3d qtr to Sept 30
   url: https://www.nytimes.com/1995/10/12/business/ak-steel-holding-aksn-reports-earnings-for-3d-qtr-to-sept-30.html
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Ak Steel Holding Rate Limits
@@ -167,14 +169,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ak-steel-holding/refs/heads/main/screenshots/ak-steel-holding-2026-06-20T171441.png
+screenshot: https://apis.io/screenshots/ak-steel-holding/ak-steel-holding-2026-06-20T171441.png
 security:
 - kind: domain-security
   name: Ak Steel Holding Domain Security

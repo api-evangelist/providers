@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Uplight markets a Developer Platform that exposes customer, program, eligibility, enrollment, device, and energy-flexibility data to utilities and ecosystem partners through APIs. The reference is pub
@@ -43,7 +45,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uplight/refs/heads/main/security/uplight-domain-security.yml
+  href: https://artifacts.apis.io/uplight/security/uplight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uplight-domain-security.yml
@@ -112,17 +114,17 @@ common:
   type: Compliance
   url: https://uplight.com/resources/integrated-approach-security-privacy-compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uplight/refs/heads/main/conformance/uplight-conformance.yml
+  href: https://artifacts.apis.io/uplight/conformance/uplight-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uplight-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uplight/refs/heads/main/lifecycle/uplight-lifecycle.yml
+  href: https://artifacts.apis.io/uplight/lifecycle/uplight-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uplight-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uplight/refs/heads/main/llms/uplight-llms.txt
+  href: https://artifacts.apis.io/uplight/llms/uplight-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uplight-llms.txt
@@ -147,10 +149,10 @@ overview: 'Uplight is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Uplight''s developer surface includes documentation, API reference, engineering blog, privacy policy, and 18 more developer resources.'
-random_paper: 17
+random_paper: 21
 score:
   band: emerging
-  composite: 17.6
+  composite: 18.0
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -164,8 +166,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 67.0
-    operational_transparency: 2.6
+    discoverability: 67.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -173,7 +175,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 17.6
+  previous_composite: 18.0
   provenance:
     conformance: first-party
   regulatory:
@@ -182,14 +184,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/uplight/refs/heads/main/screenshots/uplight-2026-09-02T165035.png
+screenshot: https://apis.io/screenshots/uplight/uplight-2026-09-02T165035.png
 security:
 - kind: authentication
   name: Uplight Authentication

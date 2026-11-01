@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 26.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 26
   slug: knowi-agentic-access
   summary_line: 26 operations · 15 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 3
 apis:
 - baseURL: https://knowi.com/api/1.0
   baseurl_source: spec
@@ -75,11 +77,44 @@ apis:
   description: Manage workspace users.
   name: Knowi Users API
   slug: knowi-users-api
-artifact_total: 22
+- description: Manage action API to be used in alert and report
+  name: Knowi Action Management API
+  slug: knowi-action-management-api-api
+- description: The Alerts API from Knowi — 7 operation(s) for alerts.
+  name: Knowi Alerts API
+  slug: knowi-alerts-api
+- description: Authentication API to be authenticate to management API
+  name: Knowi Authentication Management API
+  slug: knowi-authentication-management-api-api
+- description: Manage categories
+  name: Knowi Category Management API
+  slug: knowi-category-management-api-api
+- description: Manage datasources
+  name: Knowi Datasource Management API
+  slug: knowi-datasource-management-api-api
+- description: Manage user group
+  name: Knowi Group Management API
+  slug: knowi-group-management-api-api
+- description: Manage KPI
+  name: Knowi KPI Management API
+  slug: knowi-kpi-management-api-api
+- description: Manage and access NLP functionalities
+  name: Knowi Natural Language Processing Management API
+  slug: knowi-natural-language-processing-management-api-api
+- description: Manage reports
+  name: Knowi Report Management API
+  slug: knowi-report-management-api-api
+- description: Manage roles
+  name: Knowi Role Management API
+  slug: knowi-role-management-api-api
+- description: Manage users
+  name: Knowi User Management API
+  slug: knowi-user-management-api-api
+- description: The Data Sources API from Knowi — 1 operation(s) for data sources.
+  name: Knowi Data Sources API
+  slug: knowi-data-sources-api
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Knowi Management Authentication API
   slug: open-knowi-authentication-api
@@ -106,42 +141,42 @@ collections:
   slug: open-knowi-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/plans/knowi-plans-pricing.yml
+  href: https://artifacts.apis.io/knowi/plans/knowi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/knowi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/rate-limits/knowi-rate-limits.yml
+  href: https://artifacts.apis.io/knowi/rate-limits/knowi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/knowi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/finops/knowi-finops.yml
+  href: https://artifacts.apis.io/knowi/finops/knowi-finops.yml
   title: ''
   type: FinOps
   url: finops/knowi-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/capabilities/knowi-capability-edges.yml
+  href: https://artifacts.apis.io/knowi/capabilities/knowi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/knowi-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/agentic-access/knowi-agentic-access.yml
+  href: https://artifacts.apis.io/knowi/agentic-access/knowi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/knowi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/security/knowi-trust-center.yml
+  href: https://artifacts.apis.io/knowi/security/knowi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/knowi-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/security/knowi-domain-security.yml
+  href: https://artifacts.apis.io/knowi/security/knowi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/knowi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/authentication/knowi-authentication.yml
+  href: https://artifacts.apis.io/knowi/authentication/knowi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/knowi-authentication.yml
@@ -191,7 +226,7 @@ finops:
 - has_sources: false
   method: generated
   name: Knowi Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: knowi-finops
   template: true
@@ -201,7 +236,7 @@ modified: '2026-05-19'
 name: Knowi
 nav: Providers
 network: true
-overview: 'Knowi publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Dashboards API, Groups API, and 3 more. Tagged areas include AI Analytics, API Analytics, Business Intelligence, Data Visualization, and Embedded Analytics.
+overview: 'Knowi publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Dashboards API, Groups API, and 15 more. Tagged areas include AI Analytics, API Analytics, Business Intelligence, Data Visualization, and Embedded Analytics.
 
 
   Knowi''s developer surface includes authentication, documentation, engineering blog, pricing, signup flow, support, and 12 more developer resources.'
@@ -209,50 +244,51 @@ plans:
 - name: Knowi Plans Pricing
   plan_count: 3
   slug: knowi-plans-pricing
-random_paper: 2
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Knowi Rate Limits
   slug: knowi-rate-limits
 score:
   band: thin
-  composite: 28.9
+  composite: 34.0
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 38.0
+    artifact_dirs: 14
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -0.5
   facets:
-    access_clarity: 22.4
+    access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 52.4
-    developer_ergonomics: 21.4
-    discoverability: 64.3
+    contract_quality: 43.0
+    developer_ergonomics: 35.7
+    discoverability: 69.6
     operational_transparency: 7.9
-  previous_composite: 30.4
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 33.3
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 18
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/screenshots/knowi-2026-06-20T184113.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/knowi/knowi-2026-06-20T184113.png
 security:
 - kind: authentication
   name: Knowi Authentication

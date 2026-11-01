@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The ForeignAssistance.gov Data API (OAS 3.0) is the U.S. government's flagship source for foreign assistance budgetary and financial data. It exposes spending, obligations, and disbursements across al
@@ -48,7 +50,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usaid/refs/heads/main/security/usaid-domain-security.yml
+  href: https://artifacts.apis.io/usaid/security/usaid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/usaid-domain-security.yml
@@ -85,17 +87,17 @@ common:
   type: X
   url: https://x.com/USAID
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/usaid/refs/heads/main/plans/usaid-plans-pricing.yml
+  href: https://artifacts.apis.io/usaid/plans/usaid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/usaid-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/usaid/refs/heads/main/rate-limits/usaid-rate-limits.yml
+  href: https://artifacts.apis.io/usaid/rate-limits/usaid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/usaid-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/usaid/refs/heads/main/finops/usaid-finops.yml
+  href: https://artifacts.apis.io/usaid/finops/usaid-finops.yml
   title: ''
   type: FinOps
   url: finops/usaid-finops.yml
@@ -130,7 +132,7 @@ rate_limits:
   slug: usaid-rate-limits
 score:
   band: emerging
-  composite: 18.7
+  composite: 21.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 45.0
@@ -138,29 +140,29 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.1
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 24.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 71.4
     operational_transparency: 28.9
-  previous_composite: 25.8
+  previous_composite: 21.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/usaid/refs/heads/main/screenshots/usaid-2026-06-20T200640.png
+screenshot: https://apis.io/screenshots/usaid/usaid-2026-06-20T200640.png
 security:
 - kind: domain-security
   name: Usaid Domain Security

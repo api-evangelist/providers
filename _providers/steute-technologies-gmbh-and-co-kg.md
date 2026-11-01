@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-17'
+  score: 20.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 27
   slug: steute-technologies-gmbh-and-co-kg-agentic-access
   summary_line: 27 operations · 18 acting · 18 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: http://192.168.3.32/api/v2
   baseurl_source: declared
@@ -79,15 +81,12 @@ apis:
   description: The System Status API from steute Technologies GmbH & Co. KG — 1 operation(s) for system status.
   name: steute Technologies GmbH & Co. KG System Status API
   slug: steute-technologies-gmbh-and-co-kg-system-status-api
-artifact_total: 19
+artifact_total: 21
 asyncapis:
 - description: The Sensor Bridge sends JSON data via HTTP POST to configured target URLs whenever a switch is actuated, a switch or actor sends a wake-up message, or expected wake-up messages are not received (wake-
   name: steute nexy Sensor Bridge HTTP(S) Notifications
   slug: steute-technologies-gmbh-and-co-kg-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sensor Bridge API Version 2 Access Point API
   slug: open-steute-technologies-gmbh-and-co-kg-access-point-api
@@ -111,22 +110,22 @@ collections:
   slug: open-steute-technologies-gmbh-and-co-kg-system-status-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/capabilities/steute-technologies-gmbh-and-co-kg-capability-edges.yml
+  href: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/capabilities/steute-technologies-gmbh-and-co-kg-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/steute-technologies-gmbh-and-co-kg-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/overlays/steute-technologies-gmbh-and-co-kg-sensor-bridge-overlay.yaml
+  href: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/overlays/steute-technologies-gmbh-and-co-kg-sensor-bridge-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/steute-technologies-gmbh-and-co-kg-sensor-bridge-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/security/steute-technologies-gmbh-and-co-kg-domain-security.yml
+  href: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/security/steute-technologies-gmbh-and-co-kg-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/steute-technologies-gmbh-and-co-kg-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/agentic-access/steute-technologies-gmbh-and-co-kg-agentic-access.yml
+  href: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/agentic-access/steute-technologies-gmbh-and-co-kg-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/steute-technologies-gmbh-and-co-kg-agentic-access.yml
@@ -147,22 +146,22 @@ common:
   type: GettingStarted
   url: https://docs.nexy.net/docs/getting-started/basic-system-setup
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/authentication/steute-technologies-gmbh-and-co-kg-authentication.yml
+  href: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/authentication/steute-technologies-gmbh-and-co-kg-authentication.yml
   title: ''
   type: Authentication
   url: authentication/steute-technologies-gmbh-and-co-kg-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/conventions/steute-technologies-gmbh-and-co-kg-conventions.yml
+  href: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/conventions/steute-technologies-gmbh-and-co-kg-conventions.yml
   title: ''
   type: Conventions
   url: conventions/steute-technologies-gmbh-and-co-kg-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/errors/steute-technologies-gmbh-and-co-kg-problem-types.yml
+  href: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/errors/steute-technologies-gmbh-and-co-kg-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/steute-technologies-gmbh-and-co-kg-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/lifecycle/steute-technologies-gmbh-and-co-kg-lifecycle.yml
+  href: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/lifecycle/steute-technologies-gmbh-and-co-kg-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/steute-technologies-gmbh-and-co-kg-lifecycle.yml
@@ -171,32 +170,32 @@ common:
   type: Deprecation
   url: https://docs.nexy.net/docs/sensor-bridge/rest-api/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/changelog/steute-technologies-gmbh-and-co-kg-changelog.yml
+  href: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/changelog/steute-technologies-gmbh-and-co-kg-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/steute-technologies-gmbh-and-co-kg-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/conformance/steute-technologies-gmbh-and-co-kg-conformance.yml
+  href: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/conformance/steute-technologies-gmbh-and-co-kg-conformance.yml
   title: ''
   type: Conformance
   url: conformance/steute-technologies-gmbh-and-co-kg-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/mcp/steute-technologies-gmbh-and-co-kg-mcp.yml
+  href: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/mcp/steute-technologies-gmbh-and-co-kg-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/steute-technologies-gmbh-and-co-kg-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/llms/steute-technologies-gmbh-and-co-kg-llms.txt
+  href: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/llms/steute-technologies-gmbh-and-co-kg-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/steute-technologies-gmbh-and-co-kg-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/data-model/steute-technologies-gmbh-and-co-kg-data-model.yml
+  href: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/data-model/steute-technologies-gmbh-and-co-kg-data-model.yml
   title: ''
   type: DataModel
   url: data-model/steute-technologies-gmbh-and-co-kg-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/steute-technologies-gmbh-and-co-kg/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -231,26 +230,26 @@ overview: 'steute Technologies publishes 7 API contracts indexed on the [APIs.io
 
 
   steute Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 16 more developer resources.'
-random_paper: 16
+random_paper: 4
 score:
   band: thin
-  composite: 36.6
+  composite: 36.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 53.6
+    contract_quality: 50.2
     developer_ergonomics: 49.4
     discoverability: 66.1
     operational_transparency: 31.6
-  previous_composite: 36.5
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,13 +266,14 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/screenshots/steute-technologies-gmbh-and-co-kg-2026-09-02T160854.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/steute-technologies-gmbh-and-co-kg/steute-technologies-gmbh-and-co-kg-2026-09-02T160854.png
 security:
 - kind: authentication
   name: Steute Technologies Gmbh And Co Kg Authentication
@@ -283,6 +283,14 @@ security:
   name: Steute Technologies Gmbh And Co Kg Domain Security
   slug: steute-technologies-gmbh-and-co-kg-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Configure push notifications (webhooks) from the Sensor Bridge
+  slug: steute-technologies-gmbh-and-co-kg-configure-webhooks
+- name: Manage nexy switch configuration groups
+  slug: steute-technologies-gmbh-and-co-kg-manage-switch-groups
+- name: Monitor a nexy wireless switch fleet
+  slug: steute-technologies-gmbh-and-co-kg-monitor-switch-fleet
 slug: steute-technologies-gmbh-and-co-kg
 tags:
 - Company

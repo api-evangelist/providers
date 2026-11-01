@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: JWT-based Single Sign-On REST API that lets a partner's online or mobile banking platform transfer an authenticated member into SavvyMoney without a second set of credentials. Publicly documented oper
@@ -93,7 +95,7 @@ common:
   type: StatusPage
   url: https://status.savvymoney.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/savvymoney/refs/heads/main/lifecycle/savvymoney-lifecycle.yml
+  href: https://artifacts.apis.io/savvymoney/lifecycle/savvymoney-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/savvymoney-lifecycle.yml
@@ -102,62 +104,62 @@ common:
   type: TrustCenter
   url: https://trust.savvymoney.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/savvymoney/refs/heads/main/security/savvymoney-trust-center.yml
+  href: https://artifacts.apis.io/savvymoney/security/savvymoney-trust-center.yml
   title: ''
   type: Compliance
   url: security/savvymoney-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/savvymoney/refs/heads/main/security/savvymoney-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/savvymoney/security/savvymoney-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/savvymoney-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/savvymoney/refs/heads/main/security/savvymoney-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/savvymoney/security/savvymoney-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/savvymoney-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/savvymoney/refs/heads/main/security/savvymoney-domain-security.yml
+  href: https://artifacts.apis.io/savvymoney/security/savvymoney-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/savvymoney-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/savvymoney/refs/heads/main/conformance/savvymoney-conformance.yml
+  href: https://artifacts.apis.io/savvymoney/conformance/savvymoney-conformance.yml
   title: ''
   type: Conformance
   url: conformance/savvymoney-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/savvymoney/refs/heads/main/llms/savvymoney-llms.txt
+  href: https://artifacts.apis.io/savvymoney/llms/savvymoney-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/savvymoney-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/savvymoney/refs/heads/main/well-known/savvymoney-well-known.yml
+  href: https://artifacts.apis.io/savvymoney/well-known/savvymoney-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/savvymoney-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/savvymoney/refs/heads/main/scopes/savvymoney-scopes.yml
+  href: https://artifacts.apis.io/savvymoney/scopes/savvymoney-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/savvymoney-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/savvymoney/refs/heads/main/packages/savvymoney-packages.yml
+  href: https://artifacts.apis.io/savvymoney/packages/savvymoney-packages.yml
   title: ''
   type: Packages
   url: packages/savvymoney-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/savvymoney/refs/heads/main/changelog/savvymoney-changelog.yml
+  href: https://artifacts.apis.io/savvymoney/changelog/savvymoney-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/savvymoney-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/savvymoney/refs/heads/main/plans/savvymoney-plans-pricing.yml
+  href: https://artifacts.apis.io/savvymoney/plans/savvymoney-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/savvymoney-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/savvymoney/refs/heads/main/rate-limits/savvymoney-rate-limits.yml
+  href: https://artifacts.apis.io/savvymoney/rate-limits/savvymoney-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/savvymoney-rate-limits.yml
@@ -178,7 +180,7 @@ plans:
 - name: Savvymoney Plans Pricing
   plan_count: 0
   slug: savvymoney-plans-pricing
-random_paper: 21
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Savvymoney Rate Limits
@@ -190,7 +192,7 @@ scopes:
   summary_line: 36 scopes
 score:
   band: thin
-  composite: 37.9
+  composite: 37.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -204,9 +206,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 42.1
-  previous_composite: 37.9
+  previous_composite: 37.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -216,14 +218,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 46.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/savvymoney/refs/heads/main/screenshots/savvymoney-2026-09-02T154453.png
+screenshot: https://apis.io/screenshots/savvymoney/savvymoney-2026-09-02T154453.png
 security:
 - kind: authentication
   name: Savvymoney Authentication

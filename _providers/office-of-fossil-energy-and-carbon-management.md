@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Office of Fossil Energy and Carbon Management (FECM) conducts research, development, demonstration, and deployment to minimize the environmental and climate impacts of fossil energy production and
@@ -42,17 +44,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/office-of-fossil-energy-and-carbon-management/refs/heads/main/plans/office-of-fossil-energy-and-carbon-management-plans-pricing.yml
+  href: https://artifacts.apis.io/office-of-fossil-energy-and-carbon-management/plans/office-of-fossil-energy-and-carbon-management-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/office-of-fossil-energy-and-carbon-management-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/office-of-fossil-energy-and-carbon-management/refs/heads/main/rate-limits/office-of-fossil-energy-and-carbon-management-rate-limits.yml
+  href: https://artifacts.apis.io/office-of-fossil-energy-and-carbon-management/rate-limits/office-of-fossil-energy-and-carbon-management-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/office-of-fossil-energy-and-carbon-management-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/office-of-fossil-energy-and-carbon-management/refs/heads/main/finops/office-of-fossil-energy-and-carbon-management-finops.yml
+  href: https://artifacts.apis.io/office-of-fossil-energy-and-carbon-management/finops/office-of-fossil-energy-and-carbon-management-finops.yml
   title: ''
   type: FinOps
   url: finops/office-of-fossil-energy-and-carbon-management-finops.yml
@@ -65,7 +67,7 @@ common:
   type: BlogRSS
   url: https://www.energy.gov/rss/energygov/2193718
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/office-of-fossil-energy-and-carbon-management/refs/heads/main/security/office-of-fossil-energy-and-carbon-management-domain-security.yml
+  href: https://artifacts.apis.io/office-of-fossil-energy-and-carbon-management/security/office-of-fossil-energy-and-carbon-management-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/office-of-fossil-energy-and-carbon-management-domain-security.yml
@@ -79,7 +81,7 @@ finops:
 - has_sources: false
   method: generated
   name: Office Of Fossil Energy And Carbon Management Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: office-of-fossil-energy-and-carbon-management-finops
   template: true
@@ -97,7 +99,7 @@ plans:
 - name: Office Of Fossil Energy And Carbon Management Plans Pricing
   plan_count: 3
   slug: office-of-fossil-energy-and-carbon-management-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Office Of Fossil Energy And Carbon Management Rate Limits
@@ -112,7 +114,7 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -125,21 +127,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 9.8
+  previous_composite: 8.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/office-of-fossil-energy-and-carbon-management/refs/heads/main/screenshots/office-of-fossil-energy-and-carbon-management-2026-06-20T190634.png
+screenshot: https://apis.io/screenshots/office-of-fossil-energy-and-carbon-management/office-of-fossil-energy-and-carbon-management-2026-06-20T190634.png
 security:
 - kind: domain-security
   name: Office Of Fossil Energy And Carbon Management Domain Security

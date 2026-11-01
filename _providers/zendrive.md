@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -48,62 +50,62 @@ common:
   type: SourceCode
   url: https://github.com/zendrive/zendrive-sdk-ios-sample
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zendrive/refs/heads/main/packages/zendrive-packages.yml
+  href: https://artifacts.apis.io/zendrive/packages/zendrive-packages.yml
   title: ''
   type: Packages
   url: packages/zendrive-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zendrive/refs/heads/main/packages/zendrive-packages.yml
+  href: https://artifacts.apis.io/zendrive/packages/zendrive-packages.yml
   title: ''
   type: SDKs
   url: packages/zendrive-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zendrive/refs/heads/main/changelog/zendrive-changelog.yml
+  href: https://artifacts.apis.io/zendrive/changelog/zendrive-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zendrive-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zendrive/refs/heads/main/lifecycle/zendrive-lifecycle.yml
+  href: https://artifacts.apis.io/zendrive/lifecycle/zendrive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zendrive-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zendrive/refs/heads/main/authentication/zendrive-authentication.yml
+  href: https://artifacts.apis.io/zendrive/authentication/zendrive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zendrive-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zendrive/refs/heads/main/errors/zendrive-error-codes.yml
+  href: https://artifacts.apis.io/zendrive/errors/zendrive-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/zendrive-error-codes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/zendrive/refs/heads/main/sandbox/zendrive-sandbox.yml
+  href: https://artifacts.apis.io/zendrive/sandbox/zendrive-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zendrive-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zendrive/refs/heads/main/conformance/zendrive-conformance.yml
+  href: https://artifacts.apis.io/zendrive/conformance/zendrive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zendrive-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zendrive/refs/heads/main/plans/zendrive-plans-pricing.yml
+  href: https://artifacts.apis.io/zendrive/plans/zendrive-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zendrive-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zendrive/refs/heads/main/rate-limits/zendrive-rate-limits.yml
+  href: https://artifacts.apis.io/zendrive/rate-limits/zendrive-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zendrive-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zendrive/refs/heads/main/llms/zendrive-llms.txt
+  href: https://artifacts.apis.io/zendrive/llms/zendrive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zendrive-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zendrive/refs/heads/main/security/zendrive-domain-security.yml
+  href: https://artifacts.apis.io/zendrive/security/zendrive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zendrive-domain-security.yml
@@ -123,7 +125,7 @@ plans:
 - name: Zendrive Plans Pricing
   plan_count: 0
   slug: zendrive-plans-pricing
-random_paper: 13
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Zendrive Rate Limits
@@ -157,14 +159,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 14.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zendrive/refs/heads/main/screenshots/zendrive-2026-10-11T194921.png
+screenshot: https://apis.io/screenshots/zendrive/zendrive-2026-10-11T194921.png
 security:
 - kind: authentication
   name: Zendrive Authentication

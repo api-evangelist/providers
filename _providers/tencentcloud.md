@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Public API reference for Tencent Cloud services
@@ -35,42 +37,42 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tencentcloud/refs/heads/main/plans/tencentcloud-plans-pricing.yml
+  href: https://artifacts.apis.io/tencentcloud/plans/tencentcloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tencentcloud-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tencentcloud/refs/heads/main/rules/tencentcloud-rules.yml
+  href: https://artifacts.apis.io/tencentcloud/rules/tencentcloud-rules.yml
   title: ''
   type: Spectral
   url: rules/tencentcloud-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tencentcloud/refs/heads/main/conformance/tencentcloud-conformance.yml
+  href: https://artifacts.apis.io/tencentcloud/conformance/tencentcloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tencentcloud-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tencentcloud/refs/heads/main/llms/tencentcloud-llms.txt
+  href: https://artifacts.apis.io/tencentcloud/llms/tencentcloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tencentcloud-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tencentcloud/refs/heads/main/hosts/tencentcloud-hosts.yml
+  href: https://artifacts.apis.io/tencentcloud/hosts/tencentcloud-hosts.yml
   title: ''
   type: Hosts
   url: hosts/tencentcloud-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tencentcloud/refs/heads/main/vendors/tencentcloud-vendors.yml
+  href: https://artifacts.apis.io/tencentcloud/vendors/tencentcloud-vendors.yml
   title: ''
   type: Vendors
   url: vendors/tencentcloud-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tencentcloud/refs/heads/main/packages/tencentcloud-packages.yml
+  href: https://artifacts.apis.io/tencentcloud/packages/tencentcloud-packages.yml
   title: ''
   type: SDKs
   url: packages/tencentcloud-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tencentcloud/refs/heads/main/packages/tencentcloud-packages.yml
+  href: https://artifacts.apis.io/tencentcloud/packages/tencentcloud-packages.yml
   title: ''
   type: Packages
   url: packages/tencentcloud-packages.yml
@@ -79,7 +81,7 @@ common:
   type: StatusPage
   url: https://status.tencentcloud.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tencentcloud/refs/heads/main/security/tencentcloud-domain-security.yml
+  href: https://artifacts.apis.io/tencentcloud/security/tencentcloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tencentcloud-domain-security.yml
@@ -149,7 +151,7 @@ plans:
 - name: Tencentcloud Plans Pricing
   plan_count: 3
   slug: tencentcloud-plans-pricing
-random_paper: 12
+random_paper: 16
 rules:
 - authorship: generated
   effective_rule_count: 50
@@ -173,20 +175,20 @@ score:
     catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -11.0
+  delta: 0.0
   facets:
     access_clarity: 55.3
     contract_governance: 18.2
     contract_quality: 9.4
     developer_ergonomics: 57.1
-    discoverability: 60.7
+    discoverability: 53.6
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 44.7
+  previous_composite: 33.7
   provenance:
     conformance: derived
     contracts:
@@ -201,13 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tencentcloud/refs/heads/main/screenshots/tencentcloud-2026-10-11T130800.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tencentcloud/tencentcloud-2026-10-11T130800.png
 security:
 - kind: domain-security
   name: Tencentcloud Domain Security

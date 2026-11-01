@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,15 +67,12 @@ apis:
   description: Sofar Operational WaveWatch III wave spectra forecast
   name: Sofar Ocean Wave Spectra API
   slug: sofar-ocean-wave-spectra-api
-artifact_total: 13
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Sofar Ocean Data Forwarding Webhooks
   slug: sofar-ocean-data-forwarding-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sofar Ocean Spotter & Smart Mooring Devices API
   slug: open-sofar-ocean-devices-api
@@ -88,7 +87,7 @@ collections:
   slug: open-sofar-ocean-wave-spectra-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/security/sofar-ocean-domain-security.yml
+  href: https://artifacts.apis.io/sofar-ocean/security/sofar-ocean-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sofar-ocean-domain-security.yml
@@ -109,77 +108,77 @@ common:
   type: GettingStarted
   url: https://docs.sofarocean.com/spotter-and-smart-mooring/test-the-api
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/authentication/sofar-ocean-authentication.yml
+  href: https://artifacts.apis.io/sofar-ocean/authentication/sofar-ocean-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sofar-ocean-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/agentic-access/sofar-ocean-agentic-access.yml
+  href: https://artifacts.apis.io/sofar-ocean/agentic-access/sofar-ocean-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sofar-ocean-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/llms/sofar-ocean-llms.txt
+  href: https://artifacts.apis.io/sofar-ocean/llms/sofar-ocean-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sofar-ocean-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/packages/sofar-ocean-packages.yml
+  href: https://artifacts.apis.io/sofar-ocean/packages/sofar-ocean-packages.yml
   title: ''
   type: Packages
   url: packages/sofar-ocean-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/packages/sofar-ocean-packages.yml
+  href: https://artifacts.apis.io/sofar-ocean/packages/sofar-ocean-packages.yml
   title: ''
   type: SDKs
   url: packages/sofar-ocean-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/mcp/sofar-ocean-mcp.yml
+  href: https://artifacts.apis.io/sofar-ocean/mcp/sofar-ocean-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sofar-ocean-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sofar-ocean/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/conventions/sofar-ocean-conventions.yml
+  href: https://artifacts.apis.io/sofar-ocean/conventions/sofar-ocean-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sofar-ocean-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/errors/sofar-ocean-problem-types.yml
+  href: https://artifacts.apis.io/sofar-ocean/errors/sofar-ocean-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sofar-ocean-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/data-model/sofar-ocean-data-model.yml
+  href: https://artifacts.apis.io/sofar-ocean/data-model/sofar-ocean-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sofar-ocean-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/conformance/sofar-ocean-conformance.yml
+  href: https://artifacts.apis.io/sofar-ocean/conformance/sofar-ocean-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sofar-ocean-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/overlays/sofar-ocean-spotter-overlay.yaml
+  href: https://artifacts.apis.io/sofar-ocean/overlays/sofar-ocean-spotter-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sofar-ocean-spotter-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/asyncapi/sofar-ocean-data-forwarding-webhooks.yml
+  href: https://artifacts.apis.io/sofar-ocean/asyncapi/sofar-ocean-data-forwarding-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sofar-ocean-data-forwarding-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/sandbox/sofar-ocean-sandbox.yml
+  href: https://artifacts.apis.io/sofar-ocean/sandbox/sofar-ocean-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sofar-ocean-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/lifecycle/sofar-ocean-lifecycle.yml
+  href: https://artifacts.apis.io/sofar-ocean/lifecycle/sofar-ocean-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sofar-ocean-lifecycle.yml
@@ -230,10 +229,10 @@ overview: 'Sofar Ocean publishes 4 API contracts indexed on the [APIs.io](https:
 
 
   Sofar Ocean''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 21 more developer resources.'
-random_paper: 2
+random_paper: 22
 score:
   band: developing
-  composite: 46.7
+  composite: 48.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -241,15 +240,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 57.4
-    developer_ergonomics: 70.8
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 46.6
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,14 +265,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/screenshots/sofar-ocean-2026-08-17T081949.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sofar-ocean/sofar-ocean-2026-08-17T081949.png
 security:
 - kind: authentication
   name: Sofar Ocean Authentication
@@ -283,6 +282,14 @@ security:
   name: Sofar Ocean Domain Security
   slug: sofar-ocean-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Fetch latest Spotter data
+  slug: sofar-ocean-fetch-spotter-data
+- name: Query historical and area-based Spotter data
+  slug: sofar-ocean-historical-and-area-search
+- name: Read Smart Mooring subsurface sensor data
+  slug: sofar-ocean-smart-mooring-sensors
 slug: sofar-ocean
 tags:
 - Company

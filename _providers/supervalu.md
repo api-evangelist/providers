@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/supervalu/refs/heads/main/security/supervalu-domain-security.yml
+  href: https://artifacts.apis.io/supervalu/security/supervalu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/supervalu-domain-security.yml
@@ -87,12 +89,12 @@ press:
 - date: ''
   title: 'AI in action: the companies using the tech to power ahead'
   url: https://tekenable.com/ai-in-action-the-companies-using-the-tech-to-power-ahead/
-random_paper: 9
+random_paper: 15
 score:
   band: minimal
   composite: 3.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -113,14 +115,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/supervalu/refs/heads/main/screenshots/supervalu-2026-10-11T130456.png
+screenshot: https://apis.io/screenshots/supervalu/supervalu-2026-10-11T130456.png
 security:
 - kind: domain-security
   name: Supervalu Domain Security

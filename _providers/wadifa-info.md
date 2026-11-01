@@ -9,21 +9,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-17'
+  score: 18.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 5
   slug: wadifa-info-agentic-access
   summary_line: 5 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://www.wadifa-info.com
   baseurl_source: spec
@@ -61,62 +63,62 @@ apis:
 artifact_total: 13
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/agentic-access/wadifa-info-agentic-access.yml
+  href: https://artifacts.apis.io/wadifa-info/agentic-access/wadifa-info-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wadifa-info-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/rate-limits/wadifa-info-rate-limits.yml
+  href: https://artifacts.apis.io/wadifa-info/rate-limits/wadifa-info-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wadifa-info-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/plans/wadifa-info-plans-pricing.yml
+  href: https://artifacts.apis.io/wadifa-info/plans/wadifa-info-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wadifa-info-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/rules/wadifa-info-rules.yml
+  href: https://artifacts.apis.io/wadifa-info/rules/wadifa-info-rules.yml
   title: ''
   type: Spectral
   url: rules/wadifa-info-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/json-ld/wadifa-info-context.jsonld
+  href: https://artifacts.apis.io/wadifa-info/json-ld/wadifa-info-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/wadifa-info-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/vocabulary/wadifa-info-vocabulary.yml
+  href: https://artifacts.apis.io/wadifa-info/vocabulary/wadifa-info-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/wadifa-info-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/data-model/wadifa-info-data-model.yml
+  href: https://artifacts.apis.io/wadifa-info/data-model/wadifa-info-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wadifa-info-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/conventions/wadifa-info-conventions.yml
+  href: https://artifacts.apis.io/wadifa-info/conventions/wadifa-info-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wadifa-info-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/conformance/wadifa-info-conformance.yml
+  href: https://artifacts.apis.io/wadifa-info/conformance/wadifa-info-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wadifa-info-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/llms/wadifa-info-llms.txt
+  href: https://artifacts.apis.io/wadifa-info/llms/wadifa-info-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wadifa-info-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/hosts/wadifa-info-hosts.yml
+  href: https://artifacts.apis.io/wadifa-info/hosts/wadifa-info-hosts.yml
   title: ''
   type: Hosts
   url: hosts/wadifa-info-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/vendors/wadifa-info-vendors.yml
+  href: https://artifacts.apis.io/wadifa-info/vendors/wadifa-info-vendors.yml
   title: ''
   type: Vendors
   url: vendors/wadifa-info-vendors.yml
@@ -125,7 +127,7 @@ common:
   type: DeveloperPortal
   url: https://api.whatsapp.com/send?text=API+gratuite+des+concours+de+la+fonction+publique+au+Maroc%0ahttps%3a%2f%2fwww.wadifa-info.com%2fdeveloppeurs%3futm_source%3dshare%26utm_medium%3dwhatsapp
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/security/wadifa-info-domain-security.yml
+  href: https://artifacts.apis.io/wadifa-info/security/wadifa-info-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wadifa-info-domain-security.yml
@@ -184,7 +186,7 @@ plans:
 - name: Wadifa Info Plans Pricing
   plan_count: 1
   slug: wadifa-info-plans-pricing
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Wadifa Info Rate Limits
@@ -204,21 +206,21 @@ rules:
   slug: wadifa-info-rules
 score:
   band: thin
-  composite: 38.1
+  composite: 37.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 73.8
     catalog_earned_first_party: 16.0
     catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 22.0
     contract_quality: 54.6
     developer_ergonomics: 19.0
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -243,14 +245,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/wadifa-info/refs/heads/main/screenshots/wadifa-info-2026-10-11T133230.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wadifa-info/wadifa-info-2026-10-11T133230.png
 security:
 - kind: domain-security
   name: Wadifa Info Domain Security

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.6
-  scored_at: '2026-10-17'
+  score: 39.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -114,7 +116,7 @@ apis:
   description: Register and manage HMAC-signed outbound webhooks.
   name: Kita Webhooks API
   slug: kita-webhooks-api
-artifact_total: 52
+artifact_total: 55
 asyncapis:
 - description: ''
   name: Kita Capture Webhooks
@@ -163,9 +165,6 @@ collections:
   name: Kita Capture Applications Webhooks API
   slug: postman-kita-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Kita Capture Applications API
   slug: open-kita-applications-api
 - collection_type: open
@@ -209,12 +208,12 @@ collections:
   slug: open-kita-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/capabilities/kita-capability-edges.yml
+  href: https://artifacts.apis.io/kita/capabilities/kita-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kita-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/overlays/kita-capture-overlay.yaml
+  href: https://artifacts.apis.io/kita/overlays/kita-capture-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kita-capture-overlay.yaml
@@ -287,7 +286,7 @@ common:
   type: Compliance
   url: https://www.kita.ai/security
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/sandbox/kita-sandbox.yml
+  href: https://artifacts.apis.io/kita/sandbox/kita-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kita-sandbox.yml
@@ -296,113 +295,121 @@ common:
   type: Console
   url: https://demo.kita.ai/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/packages/kita-packages.yml
+  href: https://artifacts.apis.io/kita/packages/kita-packages.yml
   title: ''
   type: Packages
   url: packages/kita-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/packages/kita-packages.yml
+  href: https://artifacts.apis.io/kita/packages/kita-packages.yml
   title: ''
   type: SDKs
   url: packages/kita-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/mcp/kita-mcp.yml
+  href: https://artifacts.apis.io/kita/mcp/kita-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kita-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kita/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/llms/kita-llms.txt
+  href: https://artifacts.apis.io/kita/llms/kita-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kita-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/well-known/kita-well-known.yml
+  href: https://artifacts.apis.io/kita/well-known/kita-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kita-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/authentication/kita-authentication.yml
+  href: https://artifacts.apis.io/kita/authentication/kita-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kita-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/conventions/kita-conventions.yml
+  href: https://artifacts.apis.io/kita/conventions/kita-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kita-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/conventions/kita-conventions.yml
+  href: https://artifacts.apis.io/kita/conventions/kita-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/kita-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/rate-limits/kita-rate-limits.yml
+  href: https://artifacts.apis.io/kita/rate-limits/kita-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kita-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/plans/kita-plans.yml
+  href: https://artifacts.apis.io/kita/plans/kita-plans.yml
   title: ''
   type: Plans
   url: plans/kita-plans.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/errors/kita-problem-types.yml
+  href: https://artifacts.apis.io/kita/errors/kita-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kita-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/lifecycle/kita-lifecycle.yml
+  href: https://artifacts.apis.io/kita/lifecycle/kita-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kita-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/conformance/kita-conformance.yml
+  href: https://artifacts.apis.io/kita/conformance/kita-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kita-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/data-model/kita-data-model.yml
+  href: https://artifacts.apis.io/kita/data-model/kita-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kita-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/examples/kita-examples.yml
+  href: https://artifacts.apis.io/kita/examples/kita-examples.yml
   title: ''
   type: Examples
   url: examples/kita-examples.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/asyncapi/kita-capture-webhooks.yml
+  href: https://artifacts.apis.io/kita/asyncapi/kita-capture-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kita-capture-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/security/kita-domain-security.yml
+  href: https://artifacts.apis.io/kita/security/kita-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kita-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/security/kita-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kita/security/kita-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kita-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/security/kita-trust-center.yml
+  href: https://artifacts.apis.io/kita/security/kita-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kita-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/agentic-access/kita-agentic-access.yml
+  href: https://artifacts.apis.io/kita/agentic-access/kita-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kita-agentic-access.yml
 created: '2026-07-17'
 description: Kita is an AI-native loan origination and underwriting company (Y Combinator W26, San Francisco) building document intelligence and credit decisioning for lenders in emerging and undertapped markets. Kita ships two developer-facing APIs. Kita Capture is a document-intelligence API that turns scanned or photographed bank statements, payslips, government IDs, credit reports, tax filings and 30+ other document types into structured, validated, fraud-checked JSON, with cross-document verification, batch processing, custom extraction schemas and HMAC-signed webhooks. Kita Underwriter is a credit-file API that creates loan applications, ingests borrower documents, computes a deterministic credit picture (adjusted EBITDA, DSCR, margins, debt-to-worth, sensitivity and a policy-engine decision produced by a versioned calculation engine rather than an LLM) and synthesizes a cited credit memo. The platform is region-pinned across Singapore and Mexico deployments and is used by microfinance
   institutions, SME lenders, CDFIs and community banks across Southeast Asia, Latin America and the United States.
+finops:
+- has_sources: true
+  method: derived
+  name: Kita Finops
+  primary_unit: ''
+  service_category: ''
+  slug: kita-finops
+  template: true
 image: https://www.kita.ai/kita_logo_green.png
 layout: provider
 mcp_servers:
@@ -422,18 +429,18 @@ overview: 'Kita publishes 14 API contracts indexed on the [APIs.io](https://apis
   Kita''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 35 more developer resources.'
 plans:
 - name: Kita Plans
-  plan_count: 3
+  plan_count: 5
   slug: kita-plans
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Kita Rate Limits
   slug: kita-rate-limits
 score:
   band: strong
-  composite: 60.8
+  composite: 60.5
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 28
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -443,11 +450,11 @@ score:
   facets:
     access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 63.3
+    contract_quality: 60.5
     developer_ergonomics: 74.4
-    discoverability: 71.7
-    operational_transparency: 21.1
-  previous_composite: 60.8
+    discoverability: 65.0
+    operational_transparency: 23.7
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -464,13 +471,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 29.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/screenshots/kita-2026-07-25T223855.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kita/kita-2026-07-25T223855.png
 security:
 - kind: authentication
   name: Kita Authentication
@@ -488,6 +496,14 @@ security:
   name: Kita Trust Center
   slug: kita-trust-center
   summary_line: SOC 2 Type II, ISO 27001
+skill_count: 3
+skills:
+- name: Extract structured data from a document with Kita Capture
+  slug: kita-extract-document-data
+- name: Underwrite a loan file with Kita
+  slug: kita-underwrite-a-loan-file
+- name: Cross-verify an applicant's documents with Kita
+  slug: kita-verify-applicant-documents
 slug: kita
 tags:
 - Company

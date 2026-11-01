@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 25.0
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - baseURL: https://app.go-kelvin.com
   baseurl_source: declared
@@ -58,7 +60,7 @@ apis:
   description: The Simulations API from Kelvin — 2 operation(s) for simulations.
   name: Kelvin Simulations API
   slug: kelvin-simulations-api
-artifact_total: 11
+artifact_total: 15
 collections:
 - collection_type: open
   name: kelvin API
@@ -68,27 +70,27 @@ collections:
   slug: open-kelvin-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/rate-limits/kelvin-rate-limits.yml
+  href: https://artifacts.apis.io/kelvin/rate-limits/kelvin-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kelvin-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/overlays/kelvin-api-overlay.yaml
+  href: https://artifacts.apis.io/kelvin/overlays/kelvin-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kelvin-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/mcp/kelvin-mcp.yml
+  href: https://artifacts.apis.io/kelvin/mcp/kelvin-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kelvin-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kelvin/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/authentication/kelvin-authentication.yml
+  href: https://artifacts.apis.io/kelvin/authentication/kelvin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kelvin-authentication.yml
@@ -113,12 +115,12 @@ common:
   type: PrivacyPolicy
   url: https://go-kelvin.com/gestion-des-donnees
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/llms/kelvin-llms.txt
+  href: https://artifacts.apis.io/kelvin/llms/kelvin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kelvin-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/security/kelvin-domain-security.yml
+  href: https://artifacts.apis.io/kelvin/security/kelvin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kelvin-domain-security.yml
@@ -147,17 +149,25 @@ common:
   type: LegalNotice
   url: https://go-kelvin.com/mentions-legales
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/components/kelvin-components.yml
+  href: https://artifacts.apis.io/kelvin/components/kelvin-components.yml
   title: ''
   type: Components
   url: components/kelvin-components.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/plans/kelvin-plans-pricing.yml
+  href: https://artifacts.apis.io/kelvin/plans/kelvin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kelvin-plans-pricing.yml
 created: '2026-07-17'
 description: Kelvin (kelvin°) is a Paris-based startup, founded in 2023 and backed by Seedcamp, building an AI-powered commercial platform for the home energy-renovation industry in France. Its tools help RGE-certified artisans, renovation contractors, general contractors, CEE delegatees and trade platforms find and qualify renovation prospects, generate leads through embeddable address-based simulators, automatically compute energy-efficiency scenarios and government aids (MaPrimeRenov / CEE) with remaining customer cost, and assemble complete financing packages. The AI is trained by thermal engineers and architects and uses open data plus computer vision to assess buildings without a recent DPE. More than 4,000 artisans and sales reps use Kelvin to prospect, prepare appointments and quote work.
+finops:
+- has_sources: true
+  method: derived
+  name: Kelvin Finops
+  primary_unit: ''
+  service_category: ''
+  slug: kelvin-finops
+  template: true
 image: https://cdn.prod.website-files.com/6655caeb6e3835fd7ee50dd6/67a1271dde24f8ccdf843524_Kelvin-Wordmark.svg
 layout: provider
 modified: '2026-08-14'
@@ -172,7 +182,7 @@ plans:
 - name: Kelvin Plans Pricing
   plan_count: 0
   slug: kelvin-plans-pricing
-random_paper: 11
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Kelvin Rate Limits
@@ -184,21 +194,21 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 41.0
+  composite: 40.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 40.0
+    artifact_dirs: 24
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.5
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 48.4
     developer_ergonomics: 47.0
-    discoverability: 78.6
+    discoverability: 66.1
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -224,13 +234,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/screenshots/kelvin-2026-07-25T223602.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kelvin/kelvin-2026-07-25T223602.png
 security:
 - kind: authentication
   name: Kelvin Authentication
@@ -240,6 +251,14 @@ security:
   name: Kelvin Domain Security
   slug: kelvin-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Generate a quote and the renovation paperwork
+  slug: kelvin-generate-a-quote-and-documents
+- name: Run an energy-renovation simulation from an address
+  slug: kelvin-run-an-energy-simulation
+- name: Find a dwelling's DPE and attach it to a simulation
+  slug: kelvin-search-dpe-records
 slug: kelvin
 tags:
 - Company

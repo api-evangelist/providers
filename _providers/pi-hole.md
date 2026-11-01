@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Pi-hole instance information.
   name: Pi-hole Info API
   slug: pi-hole-info-api
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Pi-hole REST Auth API
   slug: open-pi-hole-auth-api
@@ -86,17 +85,17 @@ collections:
   slug: open-pi-hole
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/agentic-access/pi-hole-agentic-access.yml
+  href: https://artifacts.apis.io/pi-hole/agentic-access/pi-hole-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pi-hole-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/security/pi-hole-domain-security.yml
+  href: https://artifacts.apis.io/pi-hole/security/pi-hole-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pi-hole-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/authentication/pi-hole-authentication.yml
+  href: https://artifacts.apis.io/pi-hole/authentication/pi-hole-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pi-hole-authentication.yml
@@ -148,10 +147,10 @@ overview: 'Pi-hole publishes 4 API contracts indexed on the [APIs.io](https://ap
 
 
   Pi-hole''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
-random_paper: 4
+random_paper: 14
 score:
   band: emerging
-  composite: 21.2
+  composite: 22.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -166,8 +165,8 @@ score:
     contract_quality: 42.9
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 21.2
+    operational_transparency: 5.3
+  previous_composite: 22.3
   provenance:
     agentic_access: derived
     contracts:
@@ -181,13 +180,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/screenshots/pi-hole-2026-06-20T191657.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pi-hole/pi-hole-2026-06-20T191657.png
 security:
 - kind: authentication
   name: Pi Hole Authentication

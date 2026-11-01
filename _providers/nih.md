@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -110,11 +112,8 @@ apis:
   description: '#### Options to download virus genome data, including the associated sequence and metadata. These virus services allow you to get virus genome metadata as a data report or download genome and protein '
   name: National Institutes of Health (NIH) Virus API
   slug: nih-virus-api
-artifact_total: 55
+artifact_total: 54
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ClinicalTrials.gov REST BioSample API
   slug: open-nih-biosample-api
@@ -147,22 +146,22 @@ collections:
   slug: open-nih-virus-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/capabilities/nih-capability-edges.yml
+  href: https://artifacts.apis.io/nih/capabilities/nih-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nih-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/agentic-access/nih-agentic-access.yml
+  href: https://artifacts.apis.io/nih/agentic-access/nih-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nih-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/security/nih-domain-security.yml
+  href: https://artifacts.apis.io/nih/security/nih-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nih-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/authentication/nih-authentication.yml
+  href: https://artifacts.apis.io/nih/authentication/nih-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nih-authentication.yml
@@ -199,17 +198,17 @@ common:
   type: X
   url: https://x.com/NIH
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/plans/nih-plans-pricing.yml
+  href: https://artifacts.apis.io/nih/plans/nih-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nih-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/rate-limits/nih-rate-limits.yml
+  href: https://artifacts.apis.io/nih/rate-limits/nih-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nih-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/finops/nih-finops.yml
+  href: https://artifacts.apis.io/nih/finops/nih-finops.yml
   title: ''
   type: FinOps
   url: finops/nih-finops.yml
@@ -311,7 +310,7 @@ plans:
 - name: Nih Plans Pricing
   plan_count: 5
   slug: nih-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Nih Rate Limits
@@ -330,7 +329,7 @@ rules:
   slug: nih-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.1
+  composite: 32.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 54.3
@@ -338,7 +337,7 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
@@ -346,7 +345,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 37.7
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -360,13 +359,14 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/screenshots/nih-2026-06-20T190323.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nih/nih-2026-06-20T190323.png
 security:
 - kind: authentication
   name: Nih Authentication

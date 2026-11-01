@@ -19,7 +19,7 @@ name: Honest Food Company
 nav: Providers
 network: true
 overview: Honest Food Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food Delivery, Cloud Kitchen, and Ghost Restaurant.
-random_paper: 16
+random_paper: 10
 slug: honest-food-company
 tags:
 - Company

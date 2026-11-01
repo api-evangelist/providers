@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-10-17'
+  score: 17.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.quikr.com
@@ -52,11 +54,8 @@ apis:
   description: The Public API from Quikr — 7 operation(s) for public.
   name: Quikr Public API
   slug: quikr-public-api
-artifact_total: 9
+artifact_total: 8
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Quikr Developer Platform (QDP) App API
   slug: open-quikr-app-api
@@ -84,22 +83,22 @@ common:
   type: Blog
   url: https://blog.quikr.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quikr/refs/heads/main/packages/quikr-packages.yml
+  href: https://artifacts.apis.io/quikr/packages/quikr-packages.yml
   title: ''
   type: SDKs
   url: packages/quikr-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quikr/refs/heads/main/security/quikr-domain-security.yml
+  href: https://artifacts.apis.io/quikr/security/quikr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quikr-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quikr/refs/heads/main/well-known/quikr-well-known.yml
+  href: https://artifacts.apis.io/quikr/well-known/quikr-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/quikr-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quikr/refs/heads/main/llms/quikr-llms.txt
+  href: https://artifacts.apis.io/quikr/llms/quikr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/quikr-llms.txt
@@ -115,7 +114,7 @@ overview: 'Quikr publishes 3 API contracts indexed on the [APIs.io](https://apis
 
 
   Quikr''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
-random_paper: 6
+random_paper: 4
 score:
   band: emerging
   composite: 25.5
@@ -132,7 +131,7 @@ score:
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 40.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -154,13 +153,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/quikr/refs/heads/main/screenshots/quikr-2026-09-02T152654.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/quikr/quikr-2026-09-02T152654.png
 security:
 - kind: authentication
   name: Quikr Authentication

@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.5
-  scored_at: '2026-10-17'
+  score: 42.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,19 +56,16 @@ apis:
 artifact_total: 10
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Runway Export API
   slug: open-runway-financial-export-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/security/runway-financial-trust-center.yml
+  href: https://artifacts.apis.io/runway-financial/security/runway-financial-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/runway-financial-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/security/runway-financial-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/runway-financial/security/runway-financial-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/runway-financial-vulnerability-disclosure.yml
@@ -75,7 +74,7 @@ common:
   type: Security
   url: https://runway.cfo.ai/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/security/runway-financial-domain-security.yml
+  href: https://artifacts.apis.io/runway-financial/security/runway-financial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/runway-financial-domain-security.yml
@@ -124,52 +123,52 @@ common:
   type: Support
   url: mailto:support@cfo.ai
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/mcp/runway-financial-mcp.yml
+  href: https://artifacts.apis.io/runway-financial/mcp/runway-financial-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/runway-financial-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/llms/runway-financial-llms.txt
+  href: https://artifacts.apis.io/runway-financial/llms/runway-financial-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/runway-financial-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/runway-financial/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/authentication/runway-financial-authentication.yml
+  href: https://artifacts.apis.io/runway-financial/authentication/runway-financial-authentication.yml
   title: ''
   type: Authentication
   url: authentication/runway-financial-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/agentic-access/runway-financial-agentic-access.yml
+  href: https://artifacts.apis.io/runway-financial/agentic-access/runway-financial-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/runway-financial-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/rate-limits/runway-financial-rate-limits.yml
+  href: https://artifacts.apis.io/runway-financial/rate-limits/runway-financial-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/runway-financial-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/errors/runway-financial-problem-types.yml
+  href: https://artifacts.apis.io/runway-financial/errors/runway-financial-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/runway-financial-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/conventions/runway-financial-conventions.yml
+  href: https://artifacts.apis.io/runway-financial/conventions/runway-financial-conventions.yml
   title: ''
   type: Conventions
   url: conventions/runway-financial-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/data-model/runway-financial-data-model.yml
+  href: https://artifacts.apis.io/runway-financial/data-model/runway-financial-data-model.yml
   title: ''
   type: DataModel
   url: data-model/runway-financial-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/conformance/runway-financial-conformance.yml
+  href: https://artifacts.apis.io/runway-financial/conformance/runway-financial-conformance.yml
   title: ''
   type: Conformance
   url: conformance/runway-financial-conformance.yml
@@ -193,30 +192,30 @@ overview: 'Runway Financial is listed with 1 API on the [APIs.io](https://apis.i
 
 
   Runway Financial''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 19 more developer resources.'
-random_paper: 6
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Runway Financial Rate Limits
   slug: runway-financial-rate-limits
 score:
   band: developing
-  composite: 44.3
+  composite: 43.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 14.3
     developer_ergonomics: 58.9
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 31.6
-  previous_composite: 44.2
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -237,14 +236,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/screenshots/runway-financial-2026-08-17T081657.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/runway-financial/runway-financial-2026-08-17T081657.png
 security:
 - kind: authentication
   name: Runway Financial Authentication
@@ -262,6 +261,10 @@ security:
   name: Runway Financial Trust Center
   slug: runway-financial-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 1
+skills:
+- name: Export a Runway page as CSV
+  slug: runway-financial-export-page
 slug: runway-financial
 tags:
 - Company

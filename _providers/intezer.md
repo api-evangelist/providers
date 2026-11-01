@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Intezer Platform API 2.0 — submit files, URLs, hashes and endpoint scans for autonomous malware analysis and code-reuse detection, poll analysis status, and retrieve verdicts, sub-analyses and IOCs. A
@@ -43,7 +45,7 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/intezer/refs/heads/main/plans/intezer-plans-pricing.yml
+  href: https://artifacts.apis.io/intezer/plans/intezer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/intezer-plans-pricing.yml
@@ -88,42 +90,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/intezer
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/intezer/refs/heads/main/packages/intezer-packages.yml
+  href: https://artifacts.apis.io/intezer/packages/intezer-packages.yml
   title: ''
   type: Packages
   url: packages/intezer-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/intezer/refs/heads/main/packages/intezer-packages.yml
+  href: https://artifacts.apis.io/intezer/packages/intezer-packages.yml
   title: ''
   type: SDKs
   url: packages/intezer-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/intezer/refs/heads/main/cli/intezer-cli.yml
+  href: https://artifacts.apis.io/intezer/cli/intezer-cli.yml
   title: ''
   type: CLI
   url: cli/intezer-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/intezer/refs/heads/main/mcp/intezer-mcp.yml
+  href: https://artifacts.apis.io/intezer/mcp/intezer-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/intezer-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/intezer/refs/heads/main/authentication/intezer-authentication.yml
+  href: https://artifacts.apis.io/intezer/authentication/intezer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/intezer-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/intezer/refs/heads/main/conventions/intezer-conventions.yml
+  href: https://artifacts.apis.io/intezer/conventions/intezer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/intezer-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/intezer/refs/heads/main/lifecycle/intezer-lifecycle.yml
+  href: https://artifacts.apis.io/intezer/lifecycle/intezer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/intezer-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/intezer/refs/heads/main/conformance/intezer-conformance.yml
+  href: https://artifacts.apis.io/intezer/conformance/intezer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/intezer-conformance.yml
@@ -132,12 +134,12 @@ common:
   type: Compliance
   url: https://intezer.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/intezer/refs/heads/main/security/intezer-trust-center.yml
+  href: https://artifacts.apis.io/intezer/security/intezer-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/intezer-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/intezer/refs/heads/main/security/intezer-domain-security.yml
+  href: https://artifacts.apis.io/intezer/security/intezer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/intezer-domain-security.yml
@@ -161,10 +163,10 @@ plans:
 - name: Intezer Plans Pricing
   plan_count: 2
   slug: intezer-plans-pricing
-random_paper: 21
+random_paper: 1
 score:
   band: thin
-  composite: 34.9
+  composite: 38.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 45.0
@@ -172,15 +174,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 0.0
   facets:
-    access_clarity: 75.0
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 45.2
+    developer_ergonomics: 54.8
     discoverability: 65.0
-    operational_transparency: 2.6
-  previous_composite: 30.6
+    operational_transparency: 5.3
+  previous_composite: 38.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -190,14 +192,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/intezer/refs/heads/main/screenshots/intezer-2026-07-25T222717.png
+screenshot: https://apis.io/screenshots/intezer/intezer-2026-07-25T222717.png
 security:
 - kind: authentication
   name: Intezer Authentication

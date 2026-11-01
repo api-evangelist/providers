@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,16 +34,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Rox Webhooks
   slug: rox-webhooks
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/rate-limits/rox-rate-limits.yml
+  href: https://artifacts.apis.io/rox/rate-limits/rox-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rox-rate-limits.yml
@@ -114,32 +116,32 @@ common:
   type: VulnerabilityDisclosure
   url: https://www.rox.com/vulnerability-disclosure-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/llms/rox-llms.txt
+  href: https://artifacts.apis.io/rox/llms/rox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rox-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/changelog/rox-changelog.yml
+  href: https://artifacts.apis.io/rox/changelog/rox-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rox-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/lifecycle/rox-lifecycle.yml
+  href: https://artifacts.apis.io/rox/lifecycle/rox-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rox-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/security/rox-trust-center.yml
+  href: https://artifacts.apis.io/rox/security/rox-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rox-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/security/rox-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/rox/security/rox-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rox-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/security/rox-domain-security.yml
+  href: https://artifacts.apis.io/rox/security/rox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rox-domain-security.yml
@@ -148,22 +150,22 @@ common:
   type: GettingStarted
   url: https://docs.rox.com/development/product/getting-started
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/plans/rox-plans-pricing.yml
+  href: https://artifacts.apis.io/rox/plans/rox-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rox-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/asyncapi/rox-webhooks.yml
+  href: https://artifacts.apis.io/rox/asyncapi/rox-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/rox-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/conformance/rox-conformance.yml
+  href: https://artifacts.apis.io/rox/conformance/rox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rox-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/packages/rox-packages.yml
+  href: https://artifacts.apis.io/rox/packages/rox-packages.yml
   title: ''
   type: Packages
   url: packages/rox-packages.yml
@@ -190,6 +192,14 @@ common:
 created: '2026-07-17'
 description: Rox is an AI-native revenue operating system for enterprise sales teams, built around an Agent Swarm layer that turns unified revenue context into autonomous go-to-market action. The platform automates pipeline generation, account research, prospecting and outreach, meeting briefings, deal management and forecasting, running these revenue workflows "on autopilot" across a company's book of business. Rox unifies structured and unstructured revenue data through a warehouse-native data fabric and connector hub, integrating with Salesforce, HubSpot, Gmail, Microsoft Outlook and Graph, Slack, Zoom, Snowflake, Databricks and BigQuery, then applies workflow- specific agents (research, outreach, deal, meet, monitor) governed by a unified permissions engine. Founded in San Francisco by Ishan Mukherjee and backed by Sequoia, GV, General Catalyst and 40+ angels, Rox surfaced in the API Evangelist network as a portfolio company and is profiled here as a product/company profile — it publishes
   extensive product and engineering documentation, a security trust center and a weekly changelog, but no public REST API, OpenAPI, GraphQL schema or MCP server at the time of enrichment. The one externally callable HTTP surface Rox documents is an inbound Agent Workflow webhook endpoint that an outside system POSTs JSON to in order to trigger a workflow; its extensibility program, App Studio, is a sales-gated private beta.
+finops:
+- has_sources: true
+  method: derived
+  name: Rox Finops
+  primary_unit: agent actions
+  service_category: ''
+  slug: rox-finops
+  template: false
 image: https://framerusercontent.com/images/AYj16lWuLsXAaHXzCmZgJyUrIs.png
 layout: provider
 modified: '2026-08-13'
@@ -207,30 +217,33 @@ plans:
 - name: Rox Plans Pricing
   plan_count: 3
   slug: rox-plans-pricing
-random_paper: 15
+- name: Rox Price Estimates
+  plan_count: 0
+  slug: rox-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Rox Rate Limits
   slug: rox-rate-limits
 score:
   band: developing
-  composite: 45.3
+  composite: 53.4
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 39.0
+    artifact_dirs: 16
+    catalog_earned: 42.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 76.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 38.1
     discoverability: 48.2
-    operational_transparency: 44.7
-  previous_composite: 45.2
+    operational_transparency: 55.3
+  previous_composite: 51.8
   provenance:
     conformance: first-party
   regulatory:
@@ -238,15 +251,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rox/refs/heads/main/screenshots/rox-2026-08-17T081645.png
+screenshot: https://apis.io/screenshots/rox/rox-2026-08-17T081645.png
 security:
 - kind: authentication
   name: Rox Authentication

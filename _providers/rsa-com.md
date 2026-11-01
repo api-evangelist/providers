@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Users API from RSA — 1 operation(s) for users.
@@ -36,32 +38,32 @@ common:
   type: BlogRSS
   url: https://www.rsa.com/blog/feed/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rsa-com/refs/heads/main/rules/rsa-com-rules.yml
+  href: https://artifacts.apis.io/rsa-com/rules/rsa-com-rules.yml
   title: ''
   type: Spectral
   url: rules/rsa-com-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rsa-com/refs/heads/main/conformance/rsa-com-conformance.yml
+  href: https://artifacts.apis.io/rsa-com/conformance/rsa-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rsa-com-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rsa-com/refs/heads/main/llms/rsa-com-llms.txt
+  href: https://artifacts.apis.io/rsa-com/llms/rsa-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rsa-com-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rsa-com/refs/heads/main/well-known/rsa-com-well-known.yml
+  href: https://artifacts.apis.io/rsa-com/well-known/rsa-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rsa-com-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rsa-com/refs/heads/main/hosts/rsa-com-hosts.yml
+  href: https://artifacts.apis.io/rsa-com/hosts/rsa-com-hosts.yml
   title: ''
   type: Hosts
   url: hosts/rsa-com-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rsa-com/refs/heads/main/vendors/rsa-com-vendors.yml
+  href: https://artifacts.apis.io/rsa-com/vendors/rsa-com-vendors.yml
   title: ''
   type: Vendors
   url: vendors/rsa-com-vendors.yml
@@ -78,7 +80,7 @@ common:
   type: Newsroom
   url: https://www.rsa.com/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rsa-com/refs/heads/main/security/rsa-com-domain-security.yml
+  href: https://artifacts.apis.io/rsa-com/security/rsa-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rsa-com-domain-security.yml
@@ -120,7 +122,7 @@ overview: 'RSA is listed with 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   RSA''s developer surface includes documentation, support, engineering blog, and 12 more developer resources.'
-random_paper: 8
+random_paper: 18
 rules:
 - authorship: generated
   effective_rule_count: 49
@@ -144,15 +146,15 @@ score:
     catalog_gap: 78.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -11.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 9.4
     developer_ergonomics: 16.7
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 0.0
-  previous_composite: 31.5
+  previous_composite: 19.7
   provenance:
     conformance: derived
     contracts:
@@ -167,12 +169,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Rsa Com Domain Security

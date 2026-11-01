@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 35.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 32
   slug: brandtrack-agentic-access
   summary_line: 32 operations · 18 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.brandtrack.fm/v2/
   baseurl_source: declared
@@ -88,11 +90,8 @@ apis:
   description: The Zones API from Brandtrack — 3 operation(s) for zones.
   name: Brandtrack Zones API
   slug: brandtrack-zones-api
-artifact_total: 25
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Brandtrack API Documentation Accounts API
   slug: open-brandtrack-accounts-api
@@ -126,17 +125,17 @@ common:
   type: BlogRSS
   url: https://www.brandtrack.ai/blog/rss.xml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/plans/brandtrack-plans-pricing.yml
+  href: https://artifacts.apis.io/brandtrack/plans/brandtrack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/brandtrack-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/capabilities/brandtrack-capability-edges.yml
+  href: https://artifacts.apis.io/brandtrack/capabilities/brandtrack-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/brandtrack-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/overlays/brandtrack-openapi-overlay.yaml
+  href: https://artifacts.apis.io/brandtrack/overlays/brandtrack-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brandtrack-openapi-overlay.yaml
@@ -153,72 +152,72 @@ common:
   type: APIReference
   url: https://developers.brandtrack.ai/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/packages/brandtrack-postman-collection.json
+  href: https://artifacts.apis.io/brandtrack/packages/brandtrack-postman-collection.json
   title: ''
   type: Postman
   url: packages/brandtrack-postman-collection.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/authentication/brandtrack-authentication.yml
+  href: https://artifacts.apis.io/brandtrack/authentication/brandtrack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brandtrack-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/scopes/brandtrack-scopes.yml
+  href: https://artifacts.apis.io/brandtrack/scopes/brandtrack-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/brandtrack-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/mcp/brandtrack-mcp.yml
+  href: https://artifacts.apis.io/brandtrack/mcp/brandtrack-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/brandtrack-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/brandtrack/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/agentic-access/brandtrack-agentic-access.yml
+  href: https://artifacts.apis.io/brandtrack/agentic-access/brandtrack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/brandtrack-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/well-known/brandtrack-well-known.yml
+  href: https://artifacts.apis.io/brandtrack/well-known/brandtrack-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/brandtrack-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/conventions/brandtrack-conventions.yml
+  href: https://artifacts.apis.io/brandtrack/conventions/brandtrack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/brandtrack-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/errors/brandtrack-problem-types.yml
+  href: https://artifacts.apis.io/brandtrack/errors/brandtrack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/brandtrack-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/conformance/brandtrack-conformance.yml
+  href: https://artifacts.apis.io/brandtrack/conformance/brandtrack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brandtrack-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/lifecycle/brandtrack-lifecycle.yml
+  href: https://artifacts.apis.io/brandtrack/lifecycle/brandtrack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brandtrack-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/data-model/brandtrack-data-model.yml
+  href: https://artifacts.apis.io/brandtrack/data-model/brandtrack-data-model.yml
   title: ''
   type: DataModel
   url: data-model/brandtrack-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/security/brandtrack-domain-security.yml
+  href: https://artifacts.apis.io/brandtrack/security/brandtrack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brandtrack-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/llms/brandtrack-llms.txt
+  href: https://artifacts.apis.io/brandtrack/llms/brandtrack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brandtrack-llms.txt
@@ -256,6 +255,14 @@ common:
   url: https://www.brandtrack.ai
 created: '2026-07-17'
 description: Brandtrack is a licensed background-music and in-store audio platform for commercial spaces — retail, hospitality, and food & beverage. It centralizes multi-location music management with smart scheduling, real-time playlist adaptation to signals like foot traffic, weather, and time of day, brand guardrails, AI audio-ad creation, and audit-ready licensing documentation. The Brandtrack v2 REST API manages accounts, subscriptions, users, locations, zones, groups, and roles, authenticated with an x-customer-api-key header, with a partner flow for provisioning customers.
+finops:
+- has_sources: true
+  method: derived
+  name: Brandtrack Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: brandtrack-finops
+  template: false
 image: https://cdn.prod.website-files.com/643faaa7da666b82bfd92bfd/6980cdfb5017b7621777a8eb_The%20right%20song%20at%20the%20right%20time%20(2).png
 layout: provider
 modified: '2026-10-06'
@@ -273,7 +280,7 @@ plans:
 - name: Brandtrack Price Estimates
   plan_count: 0
   slug: brandtrack-price-estimates
-random_paper: 18
+random_paper: 20
 scopes:
 - name: Brandtrack Scopes
   scope_count: 1
@@ -281,23 +288,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 46.1
+  composite: 48.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 50.0
+    contract_quality: 46.6
     developer_ergonomics: 48.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 46.0
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,13 +321,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/screenshots/brandtrack-2026-07-25T203725.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/brandtrack/brandtrack-2026-07-25T203725.png
 security:
 - kind: authentication
   name: Brandtrack Authentication
@@ -330,6 +338,14 @@ security:
   name: Brandtrack Domain Security
   slug: brandtrack-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Invite and manage Brandtrack users
+  slug: brandtrack-manage-users
+- name: Onboard a Brandtrack account (partner flow)
+  slug: brandtrack-onboard-account
+- name: Set up a location and its playback zones
+  slug: brandtrack-setup-location-zones
 slug: brandtrack
 tags:
 - Company

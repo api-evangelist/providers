@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 28.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -74,7 +76,7 @@ apis:
   description: Account-to-account (open banking initiated) payment intents.
   name: Prometeo Payment API
   slug: prometeo-payment-api
-artifact_total: 27
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Prometeo Webhooks
@@ -96,9 +98,6 @@ collections:
   name: Prometeo Account Validation Payment API
   slug: postman-prometeo-payment-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Prometeo Account Validation API
   slug: open-prometeo-account-validation-api
 - collection_type: open
@@ -115,7 +114,7 @@ collections:
   slug: open-prometeo-payment-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/capabilities/prometeo-capability-edges.yml
+  href: https://artifacts.apis.io/prometeo/capabilities/prometeo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/prometeo-capability-edges.yml
@@ -124,27 +123,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/prometeo/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/agentic-access/prometeo-agentic-access.yml
+  href: https://artifacts.apis.io/prometeo/agentic-access/prometeo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/prometeo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/security/prometeo-trust-center.yml
+  href: https://artifacts.apis.io/prometeo/security/prometeo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/prometeo-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/security/prometeo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/prometeo/security/prometeo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/prometeo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/security/prometeo-domain-security.yml
+  href: https://artifacts.apis.io/prometeo/security/prometeo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prometeo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/authentication/prometeo-authentication.yml
+  href: https://artifacts.apis.io/prometeo/authentication/prometeo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/prometeo-authentication.yml
@@ -165,17 +164,17 @@ common:
   type: Documentation
   url: https://docs.prometeoapi.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/plans/prometeo-plans-pricing.yml
+  href: https://artifacts.apis.io/prometeo/plans/prometeo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/prometeo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/rate-limits/prometeo-rate-limits.yml
+  href: https://artifacts.apis.io/prometeo/rate-limits/prometeo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/prometeo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/finops/prometeo-finops.yml
+  href: https://artifacts.apis.io/prometeo/finops/prometeo-finops.yml
   title: ''
   type: FinOps
   url: finops/prometeo-finops.yml
@@ -184,82 +183,82 @@ common:
   type: Blog
   url: https://prometeoapi.com/en/blog
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/packages/prometeo-packages.yml
+  href: https://artifacts.apis.io/prometeo/packages/prometeo-packages.yml
   title: ''
   type: Packages
   url: packages/prometeo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/packages/prometeo-packages.yml
+  href: https://artifacts.apis.io/prometeo/packages/prometeo-packages.yml
   title: ''
   type: SDKs
   url: packages/prometeo-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/mcp/prometeo-mcp.yml
+  href: https://artifacts.apis.io/prometeo/mcp/prometeo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/prometeo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/llms/prometeo-llms.txt
+  href: https://artifacts.apis.io/prometeo/llms/prometeo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/prometeo-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/overlays/prometeo-openapi-overlay.yaml
+  href: https://artifacts.apis.io/prometeo/overlays/prometeo-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/prometeo-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/conformance/prometeo-conformance.yml
+  href: https://artifacts.apis.io/prometeo/conformance/prometeo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/prometeo-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/security/prometeo-trust-center.yml
+  href: https://artifacts.apis.io/prometeo/security/prometeo-trust-center.yml
   title: ''
   type: Compliance
   url: security/prometeo-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/errors/prometeo-problem-types.yml
+  href: https://artifacts.apis.io/prometeo/errors/prometeo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/prometeo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/lifecycle/prometeo-lifecycle.yml
+  href: https://artifacts.apis.io/prometeo/lifecycle/prometeo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/prometeo-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/sandbox/prometeo-sandbox.yml
+  href: https://artifacts.apis.io/prometeo/sandbox/prometeo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/prometeo-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/conventions/prometeo-conventions.yml
+  href: https://artifacts.apis.io/prometeo/conventions/prometeo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/prometeo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/components/prometeo-components.yml
+  href: https://artifacts.apis.io/prometeo/components/prometeo-components.yml
   title: ''
   type: Components
   url: components/prometeo-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/data-model/prometeo-data-model.yml
+  href: https://artifacts.apis.io/prometeo/data-model/prometeo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/prometeo-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/asyncapi/prometeo-webhooks.yml
+  href: https://artifacts.apis.io/prometeo/asyncapi/prometeo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/prometeo-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/prometeo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/security/prometeo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/prometeo/security/prometeo-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/prometeo-vulnerability-disclosure.yml
@@ -296,7 +295,7 @@ common:
   type: PrivacyPolicy
   url: https://prometeoapi.com/en/legal/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/collections/prometeo.postman_collection.json
+  href: https://artifacts.apis.io/prometeo/collections/prometeo.postman_collection.json
   title: ''
   type: Postman
   url: collections/prometeo.postman_collection.json
@@ -331,14 +330,14 @@ plans:
 - name: Prometeo Plans Pricing
   plan_count: 2
   slug: prometeo-plans-pricing
-random_paper: 17
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Prometeo Rate Limits
   slug: prometeo-rate-limits
 score:
-  band: developing
-  composite: 45.1
+  band: strong
+  composite: 54.6
   coverage:
     artifact_dirs: 28
     catalog_earned: 41.0
@@ -346,20 +345,20 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 51.9
-    developer_ergonomics: 64.9
-    discoverability: 71.7
-    operational_transparency: 26.3
+    developer_ergonomics: 74.4
+    discoverability: 65.0
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 51.1
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -379,14 +378,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 25.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 28.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/screenshots/prometeo-2026-08-17T081352.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/prometeo/prometeo-2026-08-17T081352.png
 security:
 - kind: authentication
   name: Prometeo Authentication
@@ -404,6 +404,18 @@ security:
   name: Prometeo Trust Center
   slug: prometeo-trust-center
   summary_line: ISO 27001, SOC 2, GDPR
+skill_count: 5
+skills:
+- name: Open a banking session and read accounts and movements
+  slug: prometeo-banking-session-and-movements
+- name: Stage and confirm an account-to-account transfer
+  slug: prometeo-banking-transfer
+- name: Create a cross-border pay-in and pay out over local rails
+  slug: prometeo-crossborder-payout
+- name: Look up Mexican CURP identity data
+  slug: prometeo-curp-identity
+- name: Verify a bank account before paying it
+  slug: prometeo-verify-bank-account
 slug: prometeo
 tags:
 - Open Banking

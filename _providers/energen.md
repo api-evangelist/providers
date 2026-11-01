@@ -44,7 +44,7 @@ press:
 - date: ''
   title: Ahmed Buhari, an NRI and former promoter and director of ...
   url: https://www.facebook.com/thewire.in/posts/ahmed-buhari-an-nri-and-former-promoter-and-director-of-coastal-energen-power-lt/1024070013624360/
-random_paper: 14
+random_paper: 20
 slug: energen
 tags:
 - Oil and Gas

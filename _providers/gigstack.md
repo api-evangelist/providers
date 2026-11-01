@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: gigstack API v2 — REST API for CFDI 4.0 invoicing, payments, collections, clients, services, receipts, retentions, webhooks and SAT catalogs in Mexico. Bearer JWT authentication; cursor pagination; st
@@ -52,7 +54,7 @@ common:
   type: BlogRSS
   url: https://blog.gigstack.pro/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/security/gigstack-domain-security.yml
+  href: https://artifacts.apis.io/gigstack/security/gigstack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gigstack-domain-security.yml
@@ -109,72 +111,72 @@ common:
   type: GitHubOrganization
   url: https://github.com/disruptive-learning
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/llms/gigstack-llms.txt
+  href: https://artifacts.apis.io/gigstack/llms/gigstack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gigstack-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/authentication/gigstack-authentication.yml
+  href: https://artifacts.apis.io/gigstack/authentication/gigstack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gigstack-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/conventions/gigstack-conventions.yml
+  href: https://artifacts.apis.io/gigstack/conventions/gigstack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gigstack-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/conventions/gigstack-conventions.yml
+  href: https://artifacts.apis.io/gigstack/conventions/gigstack-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/gigstack-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/errors/gigstack-error-codes.yml
+  href: https://artifacts.apis.io/gigstack/errors/gigstack-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/gigstack-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/asyncapi/gigstack-webhooks.yml
+  href: https://artifacts.apis.io/gigstack/asyncapi/gigstack-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/gigstack-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/lifecycle/gigstack-lifecycle.yml
+  href: https://artifacts.apis.io/gigstack/lifecycle/gigstack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gigstack-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/lifecycle/gigstack-lifecycle.yml
+  href: https://artifacts.apis.io/gigstack/lifecycle/gigstack-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/gigstack-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/packages/gigstack-packages.yml
+  href: https://artifacts.apis.io/gigstack/packages/gigstack-packages.yml
   title: ''
   type: Packages
   url: packages/gigstack-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/mcp/gigstack-mcp.yml
+  href: https://artifacts.apis.io/gigstack/mcp/gigstack-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/gigstack-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/cli/gigstack-cli.yml
+  href: https://artifacts.apis.io/gigstack/cli/gigstack-cli.yml
   title: ''
   type: CLI
   url: cli/gigstack-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/sandbox/gigstack-sandbox.yml
+  href: https://artifacts.apis.io/gigstack/sandbox/gigstack-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/gigstack-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/conformance/gigstack-conformance.yml
+  href: https://artifacts.apis.io/gigstack/conformance/gigstack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gigstack-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/components/gigstack-components.yml
+  href: https://artifacts.apis.io/gigstack/components/gigstack-components.yml
   title: ''
   type: Components
   url: components/gigstack-components.yml
@@ -197,10 +199,10 @@ overview: 'Gigstack is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Gigstack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 22 more developer resources.'
-random_paper: 9
+random_paper: 5
 score:
-  band: thin
-  composite: 38.3
+  band: developing
+  composite: 41.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -210,12 +212,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 61.9
-    discoverability: 73.2
-    operational_transparency: 18.4
+    developer_ergonomics: 71.4
+    discoverability: 65.0
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -223,7 +225,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 38.3
+  previous_composite: 41.1
   provenance:
     conformance: derived
     mcp: first-party
@@ -233,14 +235,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/screenshots/gigstack-2026-07-25T215817.png
+screenshot: https://apis.io/screenshots/gigstack/gigstack-2026-07-25T215817.png
 security:
 - kind: authentication
   name: Gigstack Authentication

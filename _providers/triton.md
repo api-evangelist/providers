@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 24.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -101,11 +103,8 @@ apis:
   description: Request tracing configuration
   name: Triton Inference Server Trace API
   slug: triton-trace-api
-artifact_total: 39
+artifact_total: 38
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Triton Inference Server NVIDIA Triton Inference Server HTTP/REST CUDA Shared Memory API
   slug: open-triton-cuda-shared-memory-api
@@ -147,17 +146,17 @@ collections:
   slug: open-triton-trace-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/plans/triton-plans-pricing.yml
+  href: https://artifacts.apis.io/triton/plans/triton-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/triton-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/rate-limits/triton-rate-limits.yml
+  href: https://artifacts.apis.io/triton/rate-limits/triton-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/triton-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/finops/triton-finops.yml
+  href: https://artifacts.apis.io/triton/finops/triton-finops.yml
   title: ''
   type: FinOps
   url: finops/triton-finops.yml
@@ -174,7 +173,7 @@ common:
   type: Website
   url: https://www.nvidia.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/capabilities/triton-capability-edges.yml
+  href: https://artifacts.apis.io/triton/capabilities/triton-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/triton-capability-edges.yml
@@ -195,7 +194,7 @@ common:
   type: License
   url: https://github.com/triton-inference-server/server/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/agentic-access/triton-agentic-access.yml
+  href: https://artifacts.apis.io/triton/agentic-access/triton-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/triton-agentic-access.yml
@@ -248,47 +247,47 @@ common:
   type: Triton CLI
   url: https://github.com/triton-inference-server/triton_cli
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/_original/triton-http-rest-openapi.yml
+  href: https://artifacts.apis.io/triton/openapi/_original/triton-http-rest-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/triton-http-rest-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/_original/triton-metrics-openapi.yml
+  href: https://artifacts.apis.io/triton/openapi/_original/triton-metrics-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/triton-metrics-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/json-ld/triton-context.jsonld
+  href: https://artifacts.apis.io/triton/json-ld/triton-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/triton-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/json-schema/triton-model-schema.json
+  href: https://artifacts.apis.io/triton/json-schema/triton-model-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/triton-model-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/json-schema/triton-inference-request-schema.json
+  href: https://artifacts.apis.io/triton/json-schema/triton-inference-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/triton-inference-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/json-schema/triton-inference-response-schema.json
+  href: https://artifacts.apis.io/triton/json-schema/triton-inference-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/triton-inference-response-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/json-structure/triton-model-structure.json
+  href: https://artifacts.apis.io/triton/json-structure/triton-model-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/triton-model-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/rules/triton-rules.yml
+  href: https://artifacts.apis.io/triton/rules/triton-rules.yml
   title: ''
   type: SpectralRules
   url: rules/triton-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/vocabulary/triton-vocabulary.yml
+  href: https://artifacts.apis.io/triton/vocabulary/triton-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/triton-vocabulary.yml
@@ -345,7 +344,7 @@ plans:
 - name: Triton Plans Pricing
   plan_count: 2
   slug: triton-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Triton Rate Limits
@@ -376,7 +375,7 @@ rules:
   slug: triton-rules
 score:
   band: thin
-  composite: 36.7
+  composite: 32.2
   coverage:
     artifact_dirs: 17
     catalog_earned: 50.0
@@ -384,7 +383,7 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
@@ -392,10 +391,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 57.1
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 85.0
-  previous_composite: 37.6
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -409,13 +405,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/screenshots/triton-2026-06-20T195735.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/triton/triton-2026-06-20T195735.png
 slug: triton
 tags:
 - Artificial Intelligence

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -83,11 +85,8 @@ apis:
   description: Search and retrieve venue information
   name: Ticketmaster Venues API
   slug: ticketmaster-venues-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ticketmaster Discovery Attractions API
   slug: open-ticketmaster-attractions-api
@@ -113,33 +112,37 @@ collections:
   name: Ticketmaster Discovery Venues API
   slug: open-ticketmaster-venues-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ticketmaster/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/plans/ticketmaster-plans-pricing.yml
+  href: https://artifacts.apis.io/ticketmaster/plans/ticketmaster-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ticketmaster-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/rate-limits/ticketmaster-rate-limits.yml
+  href: https://artifacts.apis.io/ticketmaster/rate-limits/ticketmaster-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ticketmaster-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/finops/ticketmaster-finops.yml
+  href: https://artifacts.apis.io/ticketmaster/finops/ticketmaster-finops.yml
   title: ''
   type: FinOps
   url: finops/ticketmaster-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/agentic-access/ticketmaster-agentic-access.yml
+  href: https://artifacts.apis.io/ticketmaster/agentic-access/ticketmaster-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ticketmaster-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/security/ticketmaster-domain-security.yml
+  href: https://artifacts.apis.io/ticketmaster/security/ticketmaster-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ticketmaster-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/authentication/ticketmaster-authentication.yml
+  href: https://artifacts.apis.io/ticketmaster/authentication/ticketmaster-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ticketmaster-authentication.yml
@@ -188,12 +191,12 @@ common:
   type: PrivacyPolicy
   url: https://www.ticketmaster.com/h/privacy.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/json-ld/ticketmaster-context.jsonld
+  href: https://artifacts.apis.io/ticketmaster/json-ld/ticketmaster-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/ticketmaster-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/json-schema/ticketmaster-event-schema.json
+  href: https://artifacts.apis.io/ticketmaster/json-schema/ticketmaster-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/ticketmaster-event-schema.json
@@ -245,12 +248,12 @@ overview: 'Ticketmaster publishes 8 API contracts indexed on the [APIs.io](https
   The Ticketmaster catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ticketmaster''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 14 more developer resources.'
+  Ticketmaster''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 15 more developer resources.'
 plans:
 - name: Ticketmaster Plans Pricing
   plan_count: 2
   slug: ticketmaster-plans-pricing
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Ticketmaster Rate Limits
@@ -280,24 +283,24 @@ rules:
     warn: 4
   slug: ticketmaster-rules
 score:
-  band: thin
-  composite: 38.2
+  band: developing
+  composite: 39.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 54.5
     catalog_earned_first_party: 0.0
     catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.3
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 53.5
-    developer_ergonomics: 42.9
+    developer_ergonomics: 46.4
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 39.7
+    operational_transparency: 13.2
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -311,14 +314,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/screenshots/ticketmaster-2026-06-20T195332.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ticketmaster/ticketmaster-2026-06-20T195332.png
 security:
 - kind: authentication
   name: Ticketmaster Authentication

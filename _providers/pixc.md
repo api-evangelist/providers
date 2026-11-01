@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.2
-  scored_at: '2026-10-17'
+  score: 22.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,12 +44,12 @@ agentic_access:
   operation_count: 16
   slug: pixc-agentic-access
   summary_line: 16 operations · 8 acting
-api_count: 2
+api_count: 1
 apis:
 - description: 'REST API for automated product-photo optimization. Three resources — templates (the reusable photo standard: background, border, shadow, output file types and aspect sizes), orders (a batch of submitt'
   name: Pixc Public API
   slug: pixc-public-api
-artifact_total: 11
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Pixc Webhooks
@@ -64,7 +66,7 @@ collections:
   slug: open-pixc-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/capabilities/pixc-capability-edges.yml
+  href: https://artifacts.apis.io/pixc/capabilities/pixc-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pixc-capability-edges.yml
@@ -125,92 +127,100 @@ common:
   type: LinkedIn
   url: https://linkedin.com/company/pixc
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/packages/pixc-packages.yml
+  href: https://artifacts.apis.io/pixc/packages/pixc-packages.yml
   title: ''
   type: Packages
   url: packages/pixc-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/packages/pixc-packages.yml
+  href: https://artifacts.apis.io/pixc/packages/pixc-packages.yml
   title: ''
   type: SDKs
   url: packages/pixc-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/authentication/pixc-authentication.yml
+  href: https://artifacts.apis.io/pixc/authentication/pixc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pixc-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/scopes/pixc-scopes.yml
+  href: https://artifacts.apis.io/pixc/scopes/pixc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pixc-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/conventions/pixc-conventions.yml
+  href: https://artifacts.apis.io/pixc/conventions/pixc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pixc-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/errors/pixc-problem-types.yml
+  href: https://artifacts.apis.io/pixc/errors/pixc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pixc-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/data-model/pixc-data-model.yml
+  href: https://artifacts.apis.io/pixc/data-model/pixc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pixc-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/asyncapi/pixc-webhooks.yml
+  href: https://artifacts.apis.io/pixc/asyncapi/pixc-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/pixc-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/sandbox/pixc-sandbox.yml
+  href: https://artifacts.apis.io/pixc/sandbox/pixc-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pixc-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/lifecycle/pixc-lifecycle.yml
+  href: https://artifacts.apis.io/pixc/lifecycle/pixc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pixc-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/conformance/pixc-conformance.yml
+  href: https://artifacts.apis.io/pixc/conformance/pixc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pixc-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/plans/pixc-plans-pricing.yml
+  href: https://artifacts.apis.io/pixc/plans/pixc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pixc-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/rate-limits/pixc-rate-limits.yml
+  href: https://artifacts.apis.io/pixc/rate-limits/pixc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pixc-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pixc/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/agentic-access/pixc-agentic-access.yml
+  href: https://artifacts.apis.io/pixc/agentic-access/pixc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pixc-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/llms/pixc-llms.txt
+  href: https://artifacts.apis.io/pixc/llms/pixc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pixc-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/security/pixc-domain-security.yml
+  href: https://artifacts.apis.io/pixc/security/pixc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pixc-domain-security.yml
 created: '2026-07-17'
 description: Pixc is an ecommerce enablement company that builds Shopify apps automating the visual busywork of running an online store — product photo resizing and AI framing, background removal and retouching, AI-generated alt text for SEO, AI lifestyle imagery, and automated visual merchandising of collections. Founded in 2014 and backed by 500 Global, Pixc also runs a professional bulk product photo-editing service billed in prepaid image credits, and serves 32,000+ Shopify merchants. Pixc publishes a public REST API — the Pixc Public API at https://dashboard.pixc.com/v1 — that lets a store or marketplace automate the same photo optimization programmatically — define a reusable template encoding the photo standard, submit batches of image URLs as orders, register webhooks for completion, and collect the optimized results as image URLs or packaged downloads.
+finops:
+- has_sources: true
+  method: derived
+  name: Pixc Finops
+  primary_unit: credit package
+  service_category: ''
+  slug: pixc-finops
+  template: false
 image: https://pixc.com/images/hero-illustration.png
 layout: provider
 modified: '2026-08-13'
@@ -228,7 +238,7 @@ plans:
 - name: Pixc Plans Pricing
   plan_count: 4
   slug: pixc-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Pixc Rate Limits
@@ -240,23 +250,23 @@ scopes:
   summary_line: 11 scopes · implicit
 score:
   band: developing
-  composite: 53.7
+  composite: 54.1
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 49.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 51.3
+    contract_quality: 44.8
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 53.7
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -273,13 +283,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pixc/refs/heads/main/screenshots/pixc-2026-08-17T081244.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pixc/pixc-2026-08-17T081244.png
 security:
 - kind: authentication
   name: Pixc Authentication
@@ -289,6 +300,14 @@ security:
   name: Pixc Domain Security
   slug: pixc-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Manage Pixc photo-standard templates
+  slug: pixc-manage-photo-templates
+- name: Optimize a batch of product photos with Pixc
+  slug: pixc-optimize-product-photos
+- name: Receive Pixc order webhooks instead of polling
+  slug: pixc-receive-order-webhooks
 slug: pixc
 tags:
 - Company

@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.3
-  scored_at: '2026-10-17'
+  score: 31.2
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: 'Enigma''s primary programmatic surface: a Relay-style GraphQL API over the business knowledge graph. Query Brand, LegalEntity, OperatingLocation, Address, Person, and Industry entities via connection-b'
@@ -49,10 +51,10 @@ apis:
 - description: Remote Model Context Protocol server for U.S. business intelligence — entity resolution, KYB verification, sanctions and negative-news screening, card-transaction analytics and public-records search —
   name: Enigma MCP Server
   slug: enigma-mcp-server
-artifact_total: 12
+artifact_total: 20
 common:
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/graphql/enigma-analytics-graphql-surface.yml
+  href: https://artifacts.apis.io/enigma-analytics/graphql/enigma-analytics-graphql-surface.yml
   title: ''
   type: GraphQL
   url: graphql/enigma-analytics-graphql-surface.yml
@@ -89,7 +91,7 @@ common:
   type: Pricing
   url: https://www.enigma.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/plans/enigma-analytics-plans-pricing.yml
+  href: https://artifacts.apis.io/enigma-analytics/plans/enigma-analytics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/enigma-analytics-plans-pricing.yml
@@ -126,102 +128,110 @@ common:
   type: Compliance
   url: https://www.enigma.com/legal/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/security/enigma-analytics-trust-center.yml
+  href: https://artifacts.apis.io/enigma-analytics/security/enigma-analytics-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/enigma-analytics-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/security/enigma-analytics-domain-security.yml
+  href: https://artifacts.apis.io/enigma-analytics/security/enigma-analytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/enigma-analytics-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/security/enigma-analytics-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/enigma-analytics/security/enigma-analytics-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/enigma-analytics-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/mcp/enigma-analytics-mcp.yml
+  href: https://artifacts.apis.io/enigma-analytics/mcp/enigma-analytics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/enigma-analytics-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/mcp/enigma-analytics-tool-crosswalk.yml
+  href: https://artifacts.apis.io/enigma-analytics/mcp/enigma-analytics-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/enigma-analytics-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/authentication/enigma-analytics-authentication.yml
+  href: https://artifacts.apis.io/enigma-analytics/authentication/enigma-analytics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/enigma-analytics-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/scopes/enigma-analytics-scopes.yml
+  href: https://artifacts.apis.io/enigma-analytics/scopes/enigma-analytics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/enigma-analytics-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/well-known/enigma-analytics-well-known.yml
+  href: https://artifacts.apis.io/enigma-analytics/well-known/enigma-analytics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/enigma-analytics-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/well-known/enigma-analytics-security.txt
+  href: https://artifacts.apis.io/enigma-analytics/well-known/enigma-analytics-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/enigma-analytics-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/conformance/enigma-analytics-conformance.yml
+  href: https://artifacts.apis.io/enigma-analytics/conformance/enigma-analytics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/enigma-analytics-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/lifecycle/enigma-analytics-lifecycle.yml
+  href: https://artifacts.apis.io/enigma-analytics/lifecycle/enigma-analytics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/enigma-analytics-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/conventions/enigma-analytics-conventions.yml
+  href: https://artifacts.apis.io/enigma-analytics/conventions/enigma-analytics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/enigma-analytics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/data-model/enigma-analytics-data-model.yml
+  href: https://artifacts.apis.io/enigma-analytics/data-model/enigma-analytics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/enigma-analytics-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/errors/enigma-analytics-problem-types.yml
+  href: https://artifacts.apis.io/enigma-analytics/errors/enigma-analytics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/enigma-analytics-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/rate-limits/enigma-analytics-rate-limits.yml
+  href: https://artifacts.apis.io/enigma-analytics/rate-limits/enigma-analytics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/enigma-analytics-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/sandbox/enigma-analytics-sandbox.yml
+  href: https://artifacts.apis.io/enigma-analytics/sandbox/enigma-analytics-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/enigma-analytics-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/packages/enigma-analytics-packages.yml
+  href: https://artifacts.apis.io/enigma-analytics/packages/enigma-analytics-packages.yml
   title: ''
   type: Packages
   url: packages/enigma-analytics-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/llms/enigma-analytics-llms.txt
+  href: https://artifacts.apis.io/enigma-analytics/llms/enigma-analytics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/enigma-analytics-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/enigma-analytics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Enigma Analytics (Enigma Technologies) operates a knowledge graph of every U.S. business — 100M+ business registrations and 2B+ relationships spanning brands, legal entities, operating locations, addresses, and the people behind them, enriched with 750M+ anonymized cards and 30B+ annual card transactions. Enigma exposes this business identity infrastructure through three developer surfaces — a Relay-style GraphQL API, a KYB REST API, and a sanctions Screen API — plus a hosted Console and an OAuth 2.1 remote MCP server, powering Know Your Business (KYB) onboarding, sanctions and watchlist screening, negative-news and government-archive checks, TIN and SSN verification, card-transaction analytics, and payment underwriting and go-to-market signals for banks, fintechs, and payments platforms. Pricing is published and self-serve, metered in credits at one cent each.
+finops:
+- has_sources: true
+  method: derived
+  name: Enigma Analytics Finops
+  primary_unit: credits
+  service_category: ''
+  slug: enigma-analytics-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enigma-analytics.png
 layout: provider
 mcp_servers:
@@ -240,7 +250,10 @@ plans:
 - name: Enigma Analytics Plans Pricing
   plan_count: 4
   slug: enigma-analytics-plans-pricing
-random_paper: 10
+- name: Enigma Analytics Price Estimates
+  plan_count: 0
+  slug: enigma-analytics-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 12
   name: Enigma Analytics Rate Limits
@@ -251,24 +264,24 @@ scopes:
   slug: enigma-analytics-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 51.9
+  band: strong
+  composite: 56.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 64.0
+    artifact_dirs: 22
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 54.8
-    discoverability: 80.0
-    operational_transparency: 60.5
-  previous_composite: 51.9
+    developer_ergonomics: 71.4
+    discoverability: 70.0
+    operational_transparency: 63.2
+  previous_composite: 54.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -279,14 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/screenshots/enigma-analytics-2026-07-25T213359.png
+screenshot: https://apis.io/screenshots/enigma-analytics/enigma-analytics-2026-07-25T213359.png
 security:
 - kind: authentication
   name: Enigma Analytics Authentication
@@ -304,6 +317,20 @@ security:
   name: Enigma Analytics Trust Center
   slug: enigma-analytics-trust-center
   summary_line: SOC 2
+skill_count: 6
+skills:
+- name: enigma-graphql
+  slug: enigma-analytics-enigma-graphql-published
+- name: enigma-kyb
+  slug: enigma-analytics-enigma-kyb-published
+- name: enigma-screen
+  slug: enigma-analytics-enigma-screen-published
+- name: Verify a business (KYB)
+  slug: enigma-analytics-kyb-verification
+- name: Run risk due diligence on a business
+  slug: enigma-analytics-risk-due-diligence
+- name: Screen and decision a customer
+  slug: enigma-analytics-sanctions-screening
 slug: enigma-analytics
 tags:
 - Company

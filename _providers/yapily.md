@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.2
-  scored_at: '2026-10-17'
+  score: 37.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 2
@@ -125,11 +127,8 @@ apis:
   description: Webhook endpoints
   name: Yapily Webhooks API
   slug: yapily-webhooks-api
-artifact_total: 58
+artifact_total: 57
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Yapily Beneficiaries Application Beneficiaries API
   slug: open-yapily-application-beneficiaries-api
@@ -195,22 +194,22 @@ collections:
   slug: open-yapily-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/capabilities/yapily-capability-edges.yml
+  href: https://artifacts.apis.io/yapily/capabilities/yapily-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/yapily-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/agentic-access/yapily-agentic-access.yml
+  href: https://artifacts.apis.io/yapily/agentic-access/yapily-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/yapily-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/security/yapily-domain-security.yml
+  href: https://artifacts.apis.io/yapily/security/yapily-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yapily-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/authentication/yapily-authentication.yml
+  href: https://artifacts.apis.io/yapily/authentication/yapily-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yapily-authentication.yml
@@ -267,27 +266,27 @@ common:
   type: Pricing
   url: https://www.yapily.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/plans/yapily-plans-pricing.yml
+  href: https://artifacts.apis.io/yapily/plans/yapily-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/yapily-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/rate-limits/yapily-rate-limits.yml
+  href: https://artifacts.apis.io/yapily/rate-limits/yapily-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/yapily-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/finops/yapily-finops.yml
+  href: https://artifacts.apis.io/yapily/finops/yapily-finops.yml
   title: ''
   type: FinOps
   url: finops/yapily-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/rules/yapily-rules.yml
+  href: https://artifacts.apis.io/yapily/rules/yapily-rules.yml
   title: ''
   type: SpectralRules
   url: rules/yapily-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/vocabulary/yapily-vocabulary.yml
+  href: https://artifacts.apis.io/yapily/vocabulary/yapily-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/yapily-vocabulary.yml
@@ -308,8 +307,8 @@ examples:
   name: Yapily Get Institutions Example
   slug: yapily-get-institutions-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Yapily Finops
   primary_unit: ''
   service_category: ''
@@ -361,9 +360,9 @@ overview: 'Yapily publishes 16 API contracts indexed on the [APIs.io](https://ap
   Yapily''s developer surface includes authentication, documentation, getting-started guide, tooling, code examples, pricing, engineering blog, and 16 more developer resources.'
 plans:
 - name: Yapily Plans Pricing
-  plan_count: 6
+  plan_count: 0
   slug: yapily-plans-pricing
-random_paper: 4
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Yapily Rate Limits
@@ -394,19 +393,19 @@ rules:
   slug: yapily-rules
 score:
   band: developing
-  composite: 42.1
+  composite: 41.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 72.0
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: -6.3
   facets:
-    access_clarity: 18.4
+    access_clarity: 10.5
     contract_governance: 27.3
-    contract_quality: 68.4
+    contract_quality: 67.6
     developer_ergonomics: 52.4
     discoverability: 71.4
     operational_transparency: 13.2
@@ -418,7 +417,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 50.4
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -432,13 +431,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 16.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: falling
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/screenshots/yapily-2026-06-20T201736.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/yapily/yapily-2026-06-20T201736.png
 security:
 - kind: authentication
   name: Yapily Authentication

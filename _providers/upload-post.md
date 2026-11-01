@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-17'
+  score: 40.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: Manage user profiles and social account linking.
   name: Upload-Post Users API
   slug: upload-post-users-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Upload-Post Analytics API
   slug: open-upload-post-analytics-api
@@ -91,22 +90,22 @@ common:
   type: Pricing
   url: https://www.upload-post.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/capabilities/upload-post-capability-edges.yml
+  href: https://artifacts.apis.io/upload-post/capabilities/upload-post-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/upload-post-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/agentic-access/upload-post-agentic-access.yml
+  href: https://artifacts.apis.io/upload-post/agentic-access/upload-post-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/upload-post-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/security/upload-post-domain-security.yml
+  href: https://artifacts.apis.io/upload-post/security/upload-post-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upload-post-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/authentication/upload-post-authentication.yml
+  href: https://artifacts.apis.io/upload-post/authentication/upload-post-authentication.yml
   title: ''
   type: Authentication
   url: authentication/upload-post-authentication.yml
@@ -127,17 +126,17 @@ common:
   type: Documentation
   url: https://docs.upload-post.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/plans/upload-post-plans-pricing.yml
+  href: https://artifacts.apis.io/upload-post/plans/upload-post-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/upload-post-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/rate-limits/upload-post-rate-limits.yml
+  href: https://artifacts.apis.io/upload-post/rate-limits/upload-post-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/upload-post-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/finops/upload-post-finops.yml
+  href: https://artifacts.apis.io/upload-post/finops/upload-post-finops.yml
   title: ''
   type: FinOps
   url: finops/upload-post-finops.yml
@@ -172,14 +171,14 @@ plans:
 - name: Upload Post Price Estimates
   plan_count: 0
   slug: upload-post-price-estimates
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 17
   name: Upload Post Rate Limits
   slug: upload-post-rate-limits
 score:
   band: thin
-  composite: 37.2
+  composite: 38.1
   coverage:
     artifact_dirs: 14
     catalog_earned: 61.0
@@ -187,15 +186,15 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 51.1
     developer_ergonomics: 29.8
-    discoverability: 68.3
-    operational_transparency: 34.2
-  previous_composite: 38.7
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -210,13 +209,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/screenshots/upload-post-2026-09-02T165043.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/upload-post/upload-post-2026-09-02T165043.png
 security:
 - kind: authentication
   name: Upload Post Authentication

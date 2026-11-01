@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.6
-  scored_at: '2026-10-17'
+  score: 48.4
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: The Content API is Prismic's primary read surface. It queries published documents from a repository with a bracketed filter language (`q`), orderings, locale selection, link expansion (`fetchLinks`) a
@@ -62,7 +64,7 @@ apis:
 - description: 'A remote, OAuth-protected Model Context Protocol server that lets an AI assistant search, read, create and publish Prismic content in conversation. Sixteen tools across discovery, read and write. MCP '
   name: Prismic MCP Server
   slug: mcp
-artifact_total: 17
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Prismic Webhooks
@@ -133,7 +135,7 @@ common:
   type: ChangeLog
   url: https://prismic.io/updates
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/changelog/prismic-changelog.yml
+  href: https://artifacts.apis.io/prismic/changelog/prismic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/prismic-changelog.yml
@@ -142,7 +144,7 @@ common:
   type: StatusPage
   url: https://status.prismic.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/lifecycle/prismic-lifecycle.yml
+  href: https://artifacts.apis.io/prismic/lifecycle/prismic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/prismic-lifecycle.yml
@@ -151,107 +153,115 @@ common:
   type: Security
   url: https://prismic.io/legal/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/security/prismic-trust-center.yml
+  href: https://artifacts.apis.io/prismic/security/prismic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/prismic-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/security/prismic-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/prismic/security/prismic-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/prismic-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/security/prismic-domain-security.yml
+  href: https://artifacts.apis.io/prismic/security/prismic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prismic-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/authentication/prismic-authentication.yml
+  href: https://artifacts.apis.io/prismic/authentication/prismic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/prismic-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/conventions/prismic-conventions.yml
+  href: https://artifacts.apis.io/prismic/conventions/prismic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/prismic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/conformance/prismic-conformance.yml
+  href: https://artifacts.apis.io/prismic/conformance/prismic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/prismic-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/errors/prismic-error-codes.yml
+  href: https://artifacts.apis.io/prismic/errors/prismic-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/prismic-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/data-model/prismic-data-model.yml
+  href: https://artifacts.apis.io/prismic/data-model/prismic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/prismic-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/packages/prismic-packages.yml
+  href: https://artifacts.apis.io/prismic/packages/prismic-packages.yml
   title: ''
   type: Packages
   url: packages/prismic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/packages/prismic-packages.yml
+  href: https://artifacts.apis.io/prismic/packages/prismic-packages.yml
   title: ''
   type: SDKs
   url: packages/prismic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/cli/prismic-cli.yml
+  href: https://artifacts.apis.io/prismic/cli/prismic-cli.yml
   title: ''
   type: CLI
   url: cli/prismic-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/components/prismic-components.yml
+  href: https://artifacts.apis.io/prismic/components/prismic-components.yml
   title: ''
   type: Components
   url: components/prismic-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/sandbox/prismic-sandbox.yml
+  href: https://artifacts.apis.io/prismic/sandbox/prismic-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/prismic-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/asyncapi/prismic-webhooks.yml
+  href: https://artifacts.apis.io/prismic/asyncapi/prismic-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/prismic-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/prismic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/llms/prismic-llms.txt
+  href: https://artifacts.apis.io/prismic/llms/prismic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/prismic-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/well-known/prismic-well-known.yml
+  href: https://artifacts.apis.io/prismic/well-known/prismic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/prismic-well-known.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/plans/prismic-plans-pricing.yml
+  href: https://artifacts.apis.io/prismic/plans/prismic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/prismic-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/rate-limits/prismic-rate-limits.yml
+  href: https://artifacts.apis.io/prismic/rate-limits/prismic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/prismic-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/finops/prismic-finops.md
+  href: https://artifacts.apis.io/prismic/finops/prismic-finops.md
   title: ''
   type: FinOps
   url: finops/prismic-finops.md
 created: 2026-06-14
 description: 'Prismic is a headless CMS and page builder that lets marketing teams create and manage website content independently while developers work in their preferred stack. Content is modelled as custom types and reusable "slices", authored in a visual Page Builder or locally in Slice Machine, and delivered over a CDN-backed API. Prismic runs seven public HTTP APIs across four hosts: a Content API and Repository API for reads, a beta Tags API, a Types API for content models, an Asset API for the media library, a Migration API for bulk content creation, and a read-only GraphQL endpoint whose schema is generated per repository from the customer''s own content model. Every read is addressed to a content "ref" naming a specific published version. Prismic also ships a first-party CLI, a published Agent Skill, and a remote OAuth-protected MCP server with sixteen tools, and supports Next.js, Nuxt and SvelteKit with first-party rendering components.'
+finops:
+- has_sources: true
+  method: derived
+  name: Prismic Finops
+  primary_unit: repository
+  service_category: ''
+  slug: prismic-finops
+  template: false
 graphqls:
 - description: 'generated: ''2026-08-13'''
   name: Prismic GraphQL API
@@ -275,32 +285,35 @@ overview: 'Prismic is listed with 8 APIs on the [APIs.io](https://apis.io/) netw
   Prismic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
 plans:
 - name: Prismic Plans Pricing
-  plan_count: 6
+  plan_count: 7
   slug: prismic-plans-pricing
-random_paper: 11
+- name: Prismic Price Estimates
+  plan_count: 0
+  slug: prismic-price-estimates
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Prismic Rate Limits
   slug: prismic-rate-limits
 score:
   band: exemplar
-  composite: 71.2
+  composite: 72.1
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 64.0
+    artifact_dirs: 25
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 45.8
     developer_ergonomics: 90.5
-    discoverability: 86.7
-    operational_transparency: 84.2
-  previous_composite: 71.1
+    discoverability: 76.7
+    operational_transparency: 86.8
+  previous_composite: 70.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -311,14 +324,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/screenshots/prismic-2026-06-20T192117.png
+screenshot: https://apis.io/screenshots/prismic/prismic-2026-06-20T192117.png
 security:
 - kind: authentication
   name: Prismic Authentication
@@ -336,6 +349,10 @@ security:
   name: Prismic Trust Center
   slug: prismic-trust-center
   summary_line: trust center published
+skill_count: 1
+skills:
+- name: prismic
+  slug: prismic-prismic-cli
 slug: prismic
 tags:
 - GraphQL

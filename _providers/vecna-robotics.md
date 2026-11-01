@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: OpenID Connect / OAuth 2.0 identity endpoints served from the Vecna Robotics partner portal host (vecnarobotics.my.site.com), a Salesforce Experience Cloud community. The discovery document at /.well-
@@ -44,7 +46,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vecna-robotics/refs/heads/main/security/vecna-robotics-domain-security.yml
+  href: https://artifacts.apis.io/vecna-robotics/security/vecna-robotics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vecna-robotics-domain-security.yml
@@ -101,27 +103,27 @@ common:
   type: Login
   url: https://vecnarobotics.my.site.com/partner/s/login
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vecna-robotics/refs/heads/main/llms/vecna-robotics-llms.txt
+  href: https://artifacts.apis.io/vecna-robotics/llms/vecna-robotics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vecna-robotics-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vecna-robotics/refs/heads/main/well-known/vecna-robotics-well-known.yml
+  href: https://artifacts.apis.io/vecna-robotics/well-known/vecna-robotics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vecna-robotics-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vecna-robotics/refs/heads/main/authentication/vecna-robotics-authentication.yml
+  href: https://artifacts.apis.io/vecna-robotics/authentication/vecna-robotics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vecna-robotics-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vecna-robotics/refs/heads/main/scopes/vecna-robotics-scopes.yml
+  href: https://artifacts.apis.io/vecna-robotics/scopes/vecna-robotics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vecna-robotics-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vecna-robotics/refs/heads/main/conformance/vecna-robotics-conformance.yml
+  href: https://artifacts.apis.io/vecna-robotics/conformance/vecna-robotics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vecna-robotics-conformance.yml
@@ -138,7 +140,7 @@ overview: 'Vecna Robotics is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Vecna Robotics'' developer surface includes engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 9
+random_paper: 23
 scopes:
 - name: Vecna Robotics Scopes
   scope_count: 36
@@ -146,7 +148,7 @@ scopes:
   summary_line: 36 scopes · authorizationCode/implicit
 score:
   band: emerging
-  composite: 19.4
+  composite: 20.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -156,13 +158,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 74.1
-    operational_transparency: 2.6
-  previous_composite: 19.4
+    discoverability: 67.9
+    operational_transparency: 5.3
+  previous_composite: 20.5
   provenance:
     conformance: first-party
   regulatory:
@@ -171,14 +173,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vecna-robotics/refs/heads/main/screenshots/vecna-robotics-2026-09-02T165537.png
+screenshot: https://apis.io/screenshots/vecna-robotics/vecna-robotics-2026-09-02T165537.png
 security:
 - kind: authentication
   name: Vecna Robotics Authentication

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.9
-  scored_at: '2026-10-17'
+  score: 27.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -104,11 +106,8 @@ arazzos:
 - description: 'The core Understudy Desktop journey over the loopback Agent API - pick a model from the catalog, start and track its download, add a residency slot, assign and warm the model in the slot, then send a '
   name: Download, warm, and chat with a local model on Understudy Desktop
   slug: understudy-labs-download-warm-and-chat
-artifact_total: 28
+artifact_total: 30
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Understudy Desktop Agent Capabilities API
   slug: open-understudy-labs-capabilities-api
@@ -141,27 +140,27 @@ collections:
   slug: open-understudy-labs-supervision-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/capabilities/understudy-labs-capability-edges.yml
+  href: https://artifacts.apis.io/understudy-labs/capabilities/understudy-labs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/understudy-labs-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/overlays/understudy-labs-desktop-api-overlay.yaml
+  href: https://artifacts.apis.io/understudy-labs/overlays/understudy-labs-desktop-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/understudy-labs-desktop-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/agentic-access/understudy-labs-agentic-access.yml
+  href: https://artifacts.apis.io/understudy-labs/agentic-access/understudy-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/understudy-labs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/authentication/understudy-labs-authentication.yml
+  href: https://artifacts.apis.io/understudy-labs/authentication/understudy-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/understudy-labs-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/security/understudy-labs-domain-security.yml
+  href: https://artifacts.apis.io/understudy-labs/security/understudy-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/understudy-labs-domain-security.yml
@@ -210,67 +209,67 @@ common:
   type: PrivacyPolicy
   url: https://understudylabs.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/llms/understudy-labs-llms.txt
+  href: https://artifacts.apis.io/understudy-labs/llms/understudy-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/understudy-labs-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/well-known/understudy-labs-well-known.yml
+  href: https://artifacts.apis.io/understudy-labs/well-known/understudy-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/understudy-labs-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/mcp/understudy-labs-mcp.yml
+  href: https://artifacts.apis.io/understudy-labs/mcp/understudy-labs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/understudy-labs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/understudy-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/errors/understudy-labs-problem-types.yml
+  href: https://artifacts.apis.io/understudy-labs/errors/understudy-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/understudy-labs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/conventions/understudy-labs-conventions.yml
+  href: https://artifacts.apis.io/understudy-labs/conventions/understudy-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/understudy-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/lifecycle/understudy-labs-lifecycle.yml
+  href: https://artifacts.apis.io/understudy-labs/lifecycle/understudy-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/understudy-labs-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/conformance/understudy-labs-conformance.yml
+  href: https://artifacts.apis.io/understudy-labs/conformance/understudy-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/understudy-labs-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/packages/understudy-labs-packages.yml
+  href: https://artifacts.apis.io/understudy-labs/packages/understudy-labs-packages.yml
   title: ''
   type: Packages
   url: packages/understudy-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/cli/understudy-labs-cli.yml
+  href: https://artifacts.apis.io/understudy-labs/cli/understudy-labs-cli.yml
   title: ''
   type: CLI
   url: cli/understudy-labs-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/changelog/understudy-labs-changelog.yml
+  href: https://artifacts.apis.io/understudy-labs/changelog/understudy-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/understudy-labs-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/data-model/understudy-labs-data-model.yml
+  href: https://artifacts.apis.io/understudy-labs/data-model/understudy-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/understudy-labs-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/arazzo/understudy-labs-download-warm-and-chat.yml
+  href: https://artifacts.apis.io/understudy-labs/arazzo/understudy-labs-download-warm-and-chat.yml
   title: ''
   type: Arazzo
   url: arazzo/understudy-labs-download-warm-and-chat.yml
@@ -290,12 +289,12 @@ overview: 'Understudy Labs publishes 12 API contracts indexed on the [APIs.io](h
 
 
   Understudy Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 22 more developer resources.'
-random_paper: 12
+random_paper: 14
 score:
   band: developing
-  composite: 42.7
+  composite: 44.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -303,13 +302,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 43.0
     developer_ergonomics: 71.4
-    discoverability: 71.7
-    operational_transparency: 18.4
-  previous_composite: 42.7
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -326,13 +325,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/screenshots/understudy-labs-2026-08-17T082556.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/understudy-labs/understudy-labs-2026-08-17T082556.png
 security:
 - kind: authentication
   name: Understudy Labs Authentication
@@ -342,6 +342,14 @@ security:
   name: Understudy Labs Domain Security
   slug: understudy-labs-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: check-routing-health
+  slug: understudy-labs-check-routing-health
+- name: understudy
+  slug: understudy-labs-understudy-orchestrator
+- name: use-understudy-gateway
+  slug: understudy-labs-use-understudy-gateway
 slug: understudy-labs
 tags:
 - Artificial Intelligence

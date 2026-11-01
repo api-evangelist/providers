@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.3
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -78,11 +80,8 @@ arazzos:
 - description: Submit build parameters to a parameterized job, confirm it queued, and poll until it finishes.
   name: Jenkins Trigger a Parameterized Build and Await the Result
   slug: jenkins-trigger-parameterized-build-workflow
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Jenkins Remote Access Computer API
   slug: open-jenkins-computer-api
@@ -100,122 +99,122 @@ collections:
   slug: open-jenkins
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/plans/jenkins-plans-pricing.yml
+  href: https://artifacts.apis.io/jenkins/plans/jenkins-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jenkins-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/rate-limits/jenkins-rate-limits.yml
+  href: https://artifacts.apis.io/jenkins/rate-limits/jenkins-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jenkins-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/finops/jenkins-finops.yml
+  href: https://artifacts.apis.io/jenkins/finops/jenkins-finops.yml
   title: ''
   type: FinOps
   url: finops/jenkins-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/capabilities/jenkins-capability-edges.yml
+  href: https://artifacts.apis.io/jenkins/capabilities/jenkins-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/jenkins-capability-edges.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/arazzo/jenkins-trigger-build-and-await-result-workflow.yml
+  href: https://artifacts.apis.io/jenkins/arazzo/jenkins-trigger-build-and-await-result-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jenkins-trigger-build-and-await-result-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/arazzo/jenkins-trigger-parameterized-build-workflow.yml
+  href: https://artifacts.apis.io/jenkins/arazzo/jenkins-trigger-parameterized-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jenkins-trigger-parameterized-build-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/arazzo/jenkins-inspect-job-latest-build-workflow.yml
+  href: https://artifacts.apis.io/jenkins/arazzo/jenkins-inspect-job-latest-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jenkins-inspect-job-latest-build-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/arazzo/jenkins-instance-health-check-workflow.yml
+  href: https://artifacts.apis.io/jenkins/arazzo/jenkins-instance-health-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/jenkins-instance-health-check-workflow.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/agentic-access/jenkins-agentic-access.yml
+  href: https://artifacts.apis.io/jenkins/agentic-access/jenkins-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/jenkins-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/security/jenkins-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/jenkins/security/jenkins-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jenkins-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/security/jenkins-domain-security.yml
+  href: https://artifacts.apis.io/jenkins/security/jenkins-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jenkins-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/authentication/jenkins-authentication.yml
+  href: https://artifacts.apis.io/jenkins/authentication/jenkins-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jenkins-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/packages/jenkins-packages.yml
+  href: https://artifacts.apis.io/jenkins/packages/jenkins-packages.yml
   title: ''
   type: Packages
   url: packages/jenkins-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/well-known/jenkins-well-known.yml
+  href: https://artifacts.apis.io/jenkins/well-known/jenkins-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jenkins-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/well-known/jenkins-security.txt
+  href: https://artifacts.apis.io/jenkins/well-known/jenkins-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/jenkins-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/mcp/jenkins-mcp.yml
+  href: https://artifacts.apis.io/jenkins/mcp/jenkins-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jenkins-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/llms/jenkins-llms.txt
+  href: https://artifacts.apis.io/jenkins/llms/jenkins-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jenkins-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/overlays/jenkins-openapi-overlay.yaml
+  href: https://artifacts.apis.io/jenkins/overlays/jenkins-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/jenkins-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/conformance/jenkins-conformance.yml
+  href: https://artifacts.apis.io/jenkins/conformance/jenkins-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jenkins-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/lifecycle/jenkins-lifecycle.yml
+  href: https://artifacts.apis.io/jenkins/lifecycle/jenkins-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jenkins-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/conventions/jenkins-conventions.yml
+  href: https://artifacts.apis.io/jenkins/conventions/jenkins-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jenkins-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/changelog/jenkins-changelog.yml
+  href: https://artifacts.apis.io/jenkins/changelog/jenkins-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/jenkins-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/cli/jenkins-cli.yml
+  href: https://artifacts.apis.io/jenkins/cli/jenkins-cli.yml
   title: ''
   type: CLI
   url: cli/jenkins-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/data-model/jenkins-data-model.yml
+  href: https://artifacts.apis.io/jenkins/data-model/jenkins-data-model.yml
   title: ''
   type: DataModel
   url: data-model/jenkins-data-model.yml
@@ -285,7 +284,7 @@ finops:
 - has_sources: false
   method: generated
   name: Jenkins Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: jenkins-finops
   template: true
@@ -307,14 +306,14 @@ plans:
 - name: Jenkins Plans Pricing
   plan_count: 3
   slug: jenkins-plans-pricing
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Jenkins Rate Limits
   slug: jenkins-rate-limits
 score:
-  band: thin
-  composite: 35.1
+  band: developing
+  composite: 40.7
   coverage:
     artifact_dirs: 26
     catalog_earned: 41.0
@@ -322,15 +321,15 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 28.9
     contract_governance: 4.5
     contract_quality: 42.2
-    developer_ergonomics: 45.2
+    developer_ergonomics: 47.6
     discoverability: 61.7
-    operational_transparency: 31.6
-  previous_composite: 36.6
+    operational_transparency: 44.7
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -345,14 +344,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/screenshots/jenkins-2026-06-20T183720.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/jenkins/jenkins-2026-06-20T183720.png
 security:
 - kind: authentication
   name: Jenkins Authentication

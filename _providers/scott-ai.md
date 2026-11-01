@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-17'
+  score: 31.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 2
@@ -194,11 +196,8 @@ apis:
   description: The .well Known API from Scott Ai — 1 operation(s) for .well known.
   name: Scott Ai .well Known API
   slug: scott-ai-well-known-api
-artifact_total: 66
+artifact_total: 68
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: One-Shot access API
   slug: open-scott-ai-access-api
@@ -288,17 +287,17 @@ collections:
   slug: open-scott-ai-well-known-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/capabilities/scott-ai-capability-edges.yml
+  href: https://artifacts.apis.io/scott-ai/capabilities/scott-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/scott-ai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/overlays/scott-ai-openapi-overlay.yaml
+  href: https://artifacts.apis.io/scott-ai/overlays/scott-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/scott-ai-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/security/scott-ai-domain-security.yml
+  href: https://artifacts.apis.io/scott-ai/security/scott-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/scott-ai-domain-security.yml
@@ -339,82 +338,82 @@ common:
   type: SignUp
   url: https://app.tryscott.ai
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/cli/scott-ai-cli.yml
+  href: https://artifacts.apis.io/scott-ai/cli/scott-ai-cli.yml
   title: ''
   type: CLI
   url: cli/scott-ai-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/mcp/scott-ai-mcp.yml
+  href: https://artifacts.apis.io/scott-ai/mcp/scott-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/scott-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/scott-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/llms/scott-ai-llms.txt
+  href: https://artifacts.apis.io/scott-ai/llms/scott-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/scott-ai-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/packages/scott-ai-packages.yml
+  href: https://artifacts.apis.io/scott-ai/packages/scott-ai-packages.yml
   title: ''
   type: Packages
   url: packages/scott-ai-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/well-known/scott-ai-well-known.yml
+  href: https://artifacts.apis.io/scott-ai/well-known/scott-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/scott-ai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/well-known/scott-ai-security.txt
+  href: https://artifacts.apis.io/scott-ai/well-known/scott-ai-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/scott-ai-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/authentication/scott-ai-authentication.yml
+  href: https://artifacts.apis.io/scott-ai/authentication/scott-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/scott-ai-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/agentic-access/scott-ai-agentic-access.yml
+  href: https://artifacts.apis.io/scott-ai/agentic-access/scott-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/scott-ai-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/conventions/scott-ai-conventions.yml
+  href: https://artifacts.apis.io/scott-ai/conventions/scott-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/scott-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/conventions/scott-ai-conventions.yml
+  href: https://artifacts.apis.io/scott-ai/conventions/scott-ai-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/scott-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/errors/scott-ai-problem-types.yml
+  href: https://artifacts.apis.io/scott-ai/errors/scott-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/scott-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/lifecycle/scott-ai-lifecycle.yml
+  href: https://artifacts.apis.io/scott-ai/lifecycle/scott-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/scott-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/conformance/scott-ai-conformance.yml
+  href: https://artifacts.apis.io/scott-ai/conformance/scott-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/scott-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/data-model/scott-ai-data-model.yml
+  href: https://artifacts.apis.io/scott-ai/data-model/scott-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/scott-ai-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/security/scott-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/scott-ai/security/scott-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/scott-ai-vulnerability-disclosure.yml
@@ -423,7 +422,7 @@ common:
   type: Security
   url: https://tryscott.ai/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/security/scott-ai-trust-center.yml
+  href: https://artifacts.apis.io/scott-ai/security/scott-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/scott-ai-trust-center.yml
@@ -450,23 +449,23 @@ overview: 'Scott Ai publishes 30 API contracts indexed on the [APIs.io](https://
 random_paper: 12
 score:
   band: developing
-  composite: 44.5
+  composite: 44.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 43.0
+    contract_quality: 42.2
     developer_ergonomics: 63.7
-    discoverability: 71.7
-    operational_transparency: 5.3
-  previous_composite: 44.4
+    discoverability: 65.0
+    operational_transparency: 10.5
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -483,13 +482,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/screenshots/scott-ai-2026-08-17T081735.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/scott-ai/scott-ai-2026-08-17T081735.png
 security:
 - kind: authentication
   name: Scott Ai Authentication
@@ -507,6 +507,14 @@ security:
   name: Scott Ai Trust Center
   slug: scott-ai-trust-center
   summary_line: SOC 2
+skill_count: 3
+skills:
+- name: Pull reviewed planspace context into execution
+  slug: scott-ai-pull-planspace-context
+- name: Push an agent thread into a Scott planspace
+  slug: scott-ai-push-thread-to-planspace
+- name: Request review on a snapshot and collect approvals
+  slug: scott-ai-request-review-and-approve
 slug: scott-ai
 tags:
 - Company

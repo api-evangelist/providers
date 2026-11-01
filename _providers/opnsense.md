@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -62,11 +64,8 @@ apis:
   description: Firewall filter and aliases.
   name: OPNsense Firewall API
   slug: opnsense-firewall-api
-artifact_total: 12
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OPNsense REST Core API
   slug: open-opnsense-core-api
@@ -85,22 +84,22 @@ common:
   type: Blog
   url: https://opnsense.org/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/capabilities/opnsense-capability-edges.yml
+  href: https://artifacts.apis.io/opnsense/capabilities/opnsense-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/opnsense-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/agentic-access/opnsense-agentic-access.yml
+  href: https://artifacts.apis.io/opnsense/agentic-access/opnsense-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/opnsense-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/security/opnsense-domain-security.yml
+  href: https://artifacts.apis.io/opnsense/security/opnsense-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opnsense-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/authentication/opnsense-authentication.yml
+  href: https://artifacts.apis.io/opnsense/authentication/opnsense-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opnsense-authentication.yml
@@ -144,10 +143,10 @@ overview: 'OPNsense publishes 4 API contracts indexed on the [APIs.io](https://a
 
 
   OPNsense''s developer surface includes engineering blog, authentication, documentation, and 9 more developer resources.'
-random_paper: 17
+random_paper: 11
 score:
   band: emerging
-  composite: 23.6
+  composite: 24.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -155,15 +154,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 48.4
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 23.0
+    operational_transparency: 5.3
+  previous_composite: 24.6
   provenance:
     agentic_access: derived
     contracts:
@@ -177,13 +176,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/screenshots/opnsense-2026-06-20T191103.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/opnsense/opnsense-2026-06-20T191103.png
 security:
 - kind: authentication
   name: Opnsense Authentication

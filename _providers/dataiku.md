@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 21.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -257,7 +259,7 @@ arazzos:
 - description: Verify a project, delete a dataset within it, then delete the project itself.
   name: Dataiku Teardown Project
   slug: dataiku-teardown-project-workflow
-artifact_total: 214
+artifact_total: 218
 collections:
 - collection_type: postman
   name: Dataiku API Node Administration API
@@ -268,9 +270,6 @@ collections:
 - collection_type: postman
   name: Dataiku DSS Public API
   slug: postman-dataiku-public-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Dataiku API Node Administration API
   slug: open-dataiku-api-node-admin
@@ -365,77 +364,82 @@ collections:
   name: Dataiku API Node Administration Artifact Sign-Offs Users API
   slug: open-dataiku-users-api
 common:
+- group: other
+  href: https://artifacts.apis.io/dataiku/capabilities/dataiku-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dataiku-capability-edges.yml
 - group: commercial
   title: ''
   type: TermsOfService
   url: https://www.dataiku.com/legal/dataiku-cloud/terms-of-service
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/finops/dataiku-finops.yml
+  href: https://artifacts.apis.io/dataiku/finops/dataiku-finops.yml
   title: ''
   type: FinOps
   url: finops/dataiku-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/rate-limits/dataiku-rate-limits.yml
+  href: https://artifacts.apis.io/dataiku/rate-limits/dataiku-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dataiku-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/plans/dataiku-plans-pricing.yml
+  href: https://artifacts.apis.io/dataiku/plans/dataiku-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dataiku-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/rules/dataiku-rules.yml
+  href: https://artifacts.apis.io/dataiku/rules/dataiku-rules.yml
   title: ''
   type: Spectral
   url: rules/dataiku-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/rules/dataiku-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/dataiku/rules/dataiku-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/dataiku-jsonschema-spectral-rules.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dataiku/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/data-model/dataiku-data-model.yml
+  href: https://artifacts.apis.io/dataiku/data-model/dataiku-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dataiku-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/errors/dataiku-problem-types.yml
+  href: https://artifacts.apis.io/dataiku/errors/dataiku-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dataiku-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/conformance/dataiku-conformance.yml
+  href: https://artifacts.apis.io/dataiku/conformance/dataiku-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dataiku-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/llms/dataiku-llms.txt
+  href: https://artifacts.apis.io/dataiku/llms/dataiku-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dataiku-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/well-known/dataiku-security.txt
+  href: https://artifacts.apis.io/dataiku/well-known/dataiku-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/dataiku-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/well-known/dataiku-well-known.yml
+  href: https://artifacts.apis.io/dataiku/well-known/dataiku-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dataiku-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/hosts/dataiku-hosts.yml
+  href: https://artifacts.apis.io/dataiku/hosts/dataiku-hosts.yml
   title: ''
   type: Hosts
   url: hosts/dataiku-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/vendors/dataiku-vendors.yml
+  href: https://artifacts.apis.io/dataiku/vendors/dataiku-vendors.yml
   title: ''
   type: Vendors
   url: vendors/dataiku-vendors.yml
@@ -452,22 +456,22 @@ common:
   type: Website
   url: https://www.dataiku.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/agentic-access/dataiku-agentic-access.yml
+  href: https://artifacts.apis.io/dataiku/agentic-access/dataiku-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dataiku-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/security/dataiku-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dataiku/security/dataiku-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dataiku-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/security/dataiku-domain-security.yml
+  href: https://artifacts.apis.io/dataiku/security/dataiku-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dataiku-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/authentication/dataiku-authentication.yml
+  href: https://artifacts.apis.io/dataiku/authentication/dataiku-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dataiku-authentication.yml
@@ -476,92 +480,92 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/dataiku/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-audit-recipe-and-jobs-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-audit-recipe-and-jobs-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-audit-recipe-and-jobs-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-bootstrap-project-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-bootstrap-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-bootstrap-project-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-browse-managed-folder-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-browse-managed-folder-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-browse-managed-folder-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-build-dataset-job-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-build-dataset-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-build-dataset-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-create-dataset-set-schema-build-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-create-dataset-set-schema-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-create-dataset-set-schema-build-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-create-govern-artifact-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-create-govern-artifact-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-create-govern-artifact-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-create-govern-blueprint-version-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-create-govern-blueprint-version-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-create-govern-blueprint-version-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-export-project-bundle-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-export-project-bundle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-export-project-bundle-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-import-and-preload-generation-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-import-and-preload-generation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-import-and-preload-generation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-inspect-and-read-dataset-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-inspect-and-read-dataset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-inspect-and-read-dataset-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-inspect-saved-model-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-inspect-saved-model-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-inspect-saved-model-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-promote-apinode-generation-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-promote-apinode-generation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-promote-apinode-generation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-provision-user-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-provision-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-provision-user-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-review-artifact-signoff-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-review-artifact-signoff-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-review-artifact-signoff-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-run-scenario-and-poll-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-run-scenario-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-run-scenario-and-poll-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-run-sql-query-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-run-sql-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-run-sql-query-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-tag-project-metadata-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-tag-project-metadata-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-tag-project-metadata-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/arazzo/dataiku-teardown-project-workflow.yml
+  href: https://artifacts.apis.io/dataiku/arazzo/dataiku-teardown-project-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dataiku-teardown-project-workflow.yml
@@ -638,27 +642,27 @@ common:
   type: X
   url: https://twitter.com/dataiku
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/json-ld/dataiku-context.jsonld
+  href: https://artifacts.apis.io/dataiku/json-ld/dataiku-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dataiku-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/json-schema/dataiku-project-schema.json
+  href: https://artifacts.apis.io/dataiku/json-schema/dataiku-project-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/dataiku-project-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/json-schema/dataiku-dataset-schema.json
+  href: https://artifacts.apis.io/dataiku/json-schema/dataiku-dataset-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/dataiku-dataset-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/vocabulary/dataiku-vocabulary.yml
+  href: https://artifacts.apis.io/dataiku/vocabulary/dataiku-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/dataiku-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/rules/dataiku-rules.yml
+  href: https://artifacts.apis.io/dataiku/rules/dataiku-rules.yml
   title: ''
   type: Rules
   url: rules/dataiku-rules.yml
@@ -676,7 +680,7 @@ finops:
 - has_sources: true
   method: generated
   name: Dataiku Finops
-  primary_unit: ''
+  primary_unit: seat
   service_category: AI Platform
   slug: dataiku-finops
   template: false
@@ -1050,12 +1054,12 @@ overview: 'Dataiku publishes 34 API contracts indexed on the [APIs.io](https://a
   The Dataiku catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dataiku''s developer surface includes authentication, getting-started guide, documentation, academy / training, engineering blog, GitHub presence, developer portal, and 57 more developer resources.'
+  Dataiku''s developer surface includes authentication, getting-started guide, documentation, academy / training, engineering blog, GitHub presence, developer portal, and 58 more developer resources.'
 plans:
 - name: Dataiku Plans Pricing
   plan_count: 3
   slug: dataiku-plans-pricing
-random_paper: 13
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Dataiku Rate Limits
@@ -1085,24 +1089,24 @@ rules:
     warn: 3
   slug: dataiku-rules
 score:
-  band: developing
-  composite: 51.8
+  band: strong
+  composite: 57.5
   coverage:
     artifact_dirs: 32
-    catalog_earned: 67.0
+    catalog_earned: 70.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.8
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 57.9
     contract_governance: 31.8
-    contract_quality: 66.9
-    developer_ergonomics: 48.2
-    discoverability: 71.4
+    contract_quality: 63.5
+    developer_ergonomics: 60.1
+    discoverability: 64.3
     operational_transparency: 39.5
-  previous_composite: 55.6
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1118,14 +1122,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 29.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 32.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/screenshots/dataiku-2026-06-20T175643.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dataiku/dataiku-2026-06-20T175643.png
 security:
 - kind: authentication
   name: Dataiku Authentication
@@ -1139,6 +1144,18 @@ security:
   name: Dataiku Vulnerability Disclosure
   slug: dataiku-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 5
+skills:
+- name: dataiku-create-and-get-project
+  slug: dataiku-create-and-get-project
+- name: dataiku-get-dataset-schema
+  slug: dataiku-get-dataset-schema
+- name: dataiku-list-and-get-services
+  slug: dataiku-list-and-get-services
+- name: dataiku-run-job
+  slug: dataiku-run-job
+- name: dataiku-run-scenario-and-check-status
+  slug: dataiku-run-scenario-and-check-status
 slug: dataiku
 tags:
 - Analytics

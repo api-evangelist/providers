@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: 'Xact via SWIFT delivers settlement, custody, asset servicing and reporting messages over the SWIFTNet FIN network. The interface uses ISO 15022 MT messages today and is being migrated to ISO 20022 MX '
@@ -63,12 +65,12 @@ apis:
 artifact_total: 16
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/finops/clearstream-finops.yml
+  href: https://artifacts.apis.io/clearstream/finops/clearstream-finops.yml
   title: ''
   type: FinOps
   url: finops/clearstream-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/security/clearstream-domain-security.yml
+  href: https://artifacts.apis.io/clearstream/security/clearstream-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clearstream-domain-security.yml
@@ -85,12 +87,12 @@ common:
   type: Connectivity Manuals
   url: https://www.clearstream.com/clearstream-en/keydocuments-1-/icsd-1-/connectivity-manuals
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/json-ld/clearstream-context.jsonld
+  href: https://artifacts.apis.io/clearstream/json-ld/clearstream-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/clearstream-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/rules/clearstream-rules.yml
+  href: https://artifacts.apis.io/clearstream/rules/clearstream-rules.yml
   title: ''
   type: Spectral
   url: rules/clearstream-rules.yml
@@ -135,67 +137,67 @@ common:
   type: StatusPage
   url: https://www.clearstream.com/clearstream-en/res-library/operational-news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/authentication/clearstream-authentication.yml
+  href: https://artifacts.apis.io/clearstream/authentication/clearstream-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clearstream-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/scopes/clearstream-scopes.yml
+  href: https://artifacts.apis.io/clearstream/scopes/clearstream-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/clearstream-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/errors/clearstream-problem-types.yml
+  href: https://artifacts.apis.io/clearstream/errors/clearstream-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clearstream-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/conventions/clearstream-conventions.yml
+  href: https://artifacts.apis.io/clearstream/conventions/clearstream-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clearstream-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/conformance/clearstream-conformance.yml
+  href: https://artifacts.apis.io/clearstream/conformance/clearstream-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clearstream-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/lifecycle/clearstream-lifecycle.yml
+  href: https://artifacts.apis.io/clearstream/lifecycle/clearstream-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/clearstream-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/sandbox/clearstream-sandbox.yml
+  href: https://artifacts.apis.io/clearstream/sandbox/clearstream-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/clearstream-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/changelog/clearstream-changelog.yml
+  href: https://artifacts.apis.io/clearstream/changelog/clearstream-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/clearstream-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/plans/clearstream-plans-pricing.yml
+  href: https://artifacts.apis.io/clearstream/plans/clearstream-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/clearstream-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/rate-limits/clearstream-rate-limits.yml
+  href: https://artifacts.apis.io/clearstream/rate-limits/clearstream-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/clearstream-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/packages/clearstream-packages.yml
+  href: https://artifacts.apis.io/clearstream/packages/clearstream-packages.yml
   title: ''
   type: Packages
   url: packages/clearstream-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/llms/clearstream-llms.txt
+  href: https://artifacts.apis.io/clearstream/llms/clearstream-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clearstream-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/mcp/clearstream-mcp.yml
+  href: https://artifacts.apis.io/clearstream/mcp/clearstream-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/clearstream-mcp.yml
@@ -214,7 +216,7 @@ finops:
 - has_sources: false
   method: generated
   name: Clearstream Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: clearstream-finops
   template: true
@@ -240,7 +242,7 @@ plans:
 - name: Clearstream Plans Pricing
   plan_count: 0
   slug: clearstream-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Clearstream Rate Limits
@@ -264,8 +266,8 @@ scopes:
   slug: clearstream-scopes
   summary_line: 4 scopes
 score:
-  band: thin
-  composite: 39.0
+  band: developing
+  composite: 40.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 43.8
@@ -273,15 +275,15 @@ score:
     catalog_gap: 71.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 29.5
     contract_quality: 6.7
-    developer_ergonomics: 52.4
-    discoverability: 69.6
+    developer_ergonomics: 64.3
+    discoverability: 62.5
     operational_transparency: 36.8
-  previous_composite: 44.1
+  previous_composite: 40.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -291,14 +293,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/screenshots/clearstream-2026-06-20T174506.png
+screenshot: https://apis.io/screenshots/clearstream/clearstream-2026-06-20T174506.png
 security:
 - kind: authentication
   name: Clearstream Authentication

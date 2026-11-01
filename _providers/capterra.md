@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Capterra Click Report API allows software vendors to programmatically retrieve historical click data from their Capterra pay-per-click (PPC) advertising campaigns. Vendors can access click metrics
@@ -46,72 +48,72 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/gartner/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/capterra/refs/heads/main/security/capterra-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/capterra/security/capterra-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/capterra-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/capterra/refs/heads/main/security/capterra-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/capterra/security/capterra-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/capterra-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/capterra/refs/heads/main/security/capterra-domain-security.yml
+  href: https://artifacts.apis.io/capterra/security/capterra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/capterra-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/capterra/refs/heads/main/well-known/capterra-well-known.yml
+  href: https://artifacts.apis.io/capterra/well-known/capterra-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/capterra-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/capterra/refs/heads/main/well-known/capterra-security.txt
+  href: https://artifacts.apis.io/capterra/well-known/capterra-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/capterra-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/capterra/refs/heads/main/llms/capterra-llms.txt
+  href: https://artifacts.apis.io/capterra/llms/capterra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/capterra-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/capterra/refs/heads/main/authentication/capterra-authentication.yml
+  href: https://artifacts.apis.io/capterra/authentication/capterra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/capterra-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/capterra/refs/heads/main/errors/capterra-problem-types.yml
+  href: https://artifacts.apis.io/capterra/errors/capterra-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/capterra-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/capterra/refs/heads/main/conventions/capterra-conventions.yml
+  href: https://artifacts.apis.io/capterra/conventions/capterra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/capterra-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/capterra/refs/heads/main/lifecycle/capterra-lifecycle.yml
+  href: https://artifacts.apis.io/capterra/lifecycle/capterra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/capterra-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/capterra/refs/heads/main/conformance/capterra-conformance.yml
+  href: https://artifacts.apis.io/capterra/conformance/capterra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/capterra-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/capterra/refs/heads/main/plans/capterra-plans-pricing.yml
+  href: https://artifacts.apis.io/capterra/plans/capterra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/capterra-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/capterra/refs/heads/main/rate-limits/capterra-rate-limits.yml
+  href: https://artifacts.apis.io/capterra/rate-limits/capterra-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/capterra-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/capterra/refs/heads/main/finops/capterra-finops.yml
+  href: https://artifacts.apis.io/capterra/finops/capterra-finops.yml
   title: ''
   type: FinOps
   url: finops/capterra-finops.yml
@@ -177,7 +179,7 @@ finops:
 - has_sources: false
   method: generated
   name: Capterra Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: capterra-finops
   template: true
@@ -195,14 +197,14 @@ plans:
 - name: Capterra Plans Pricing
   plan_count: 0
   slug: capterra-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Capterra Rate Limits
   slug: capterra-rate-limits
 score:
   band: thin
-  composite: 27.0
+  composite: 26.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -210,15 +212,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 28.5
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 26.6
   provenance:
     conformance: first-party
   regulatory:
@@ -227,8 +229,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cleo/refs/heads/main/rate-limits/cleo-rate-limits.yml
+  href: https://artifacts.apis.io/cleo/rate-limits/cleo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cleo-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cleo/refs/heads/main/security/cleo-domain-security.yml
+  href: https://artifacts.apis.io/cleo/security/cleo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cleo-domain-security.yml
@@ -83,42 +85,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/meetcleo
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cleo/refs/heads/main/well-known/cleo-well-known.yml
+  href: https://artifacts.apis.io/cleo/well-known/cleo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cleo-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cleo/refs/heads/main/authentication/cleo-authentication.yml
+  href: https://artifacts.apis.io/cleo/authentication/cleo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cleo-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cleo/refs/heads/main/scopes/cleo-scopes.yml
+  href: https://artifacts.apis.io/cleo/scopes/cleo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cleo-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cleo/refs/heads/main/conformance/cleo-conformance.yml
+  href: https://artifacts.apis.io/cleo/conformance/cleo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cleo-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cleo/refs/heads/main/packages/cleo-packages.yml
+  href: https://artifacts.apis.io/cleo/packages/cleo-packages.yml
   title: ''
   type: Packages
   url: packages/cleo-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cleo/refs/heads/main/lifecycle/cleo-lifecycle.yml
+  href: https://artifacts.apis.io/cleo/lifecycle/cleo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cleo-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cleo/refs/heads/main/plans/cleo-plans-pricing.yml
+  href: https://artifacts.apis.io/cleo/plans/cleo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cleo-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cleo/refs/heads/main/llms/cleo-llms.txt
+  href: https://artifacts.apis.io/cleo/llms/cleo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cleo-llms.txt
@@ -138,7 +140,7 @@ plans:
 - name: Cleo Plans Pricing
   plan_count: 3
   slug: cleo-plans-pricing
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Cleo Rate Limits
@@ -150,7 +152,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: emerging
-  composite: 26.1
+  composite: 25.7
   coverage:
     artifact_dirs: 14
     catalog_earned: 39.0
@@ -164,9 +166,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 26.1
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 25.7
   provenance:
     conformance: first-party
   regulatory:
@@ -175,14 +177,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cleo/refs/heads/main/screenshots/cleo-2026-08-07T180001.png
+screenshot: https://apis.io/screenshots/cleo/cleo-2026-08-07T180001.png
 security:
 - kind: authentication
   name: Cleo Authentication

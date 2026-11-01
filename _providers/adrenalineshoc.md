@@ -17,6 +17,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -24,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -43,10 +45,10 @@ apis:
 - description: The read-only JSON surface the store's own agent instructions document for agents that only need to browse catalog data without transacting - product JSON by handle, collection product listings, and p
   name: Accelerator Active Energy Storefront JSON Endpoints
   slug: adrenalineshoc-storefront-json
-artifact_total: 10
+artifact_total: 13
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/security/adrenalineshoc-domain-security.yml
+  href: https://artifacts.apis.io/adrenalineshoc/security/adrenalineshoc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adrenalineshoc-domain-security.yml
@@ -59,72 +61,72 @@ common:
   type: Documentation
   url: https://www.drinkaccelerator.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/llms/adrenalineshoc-llms.txt
+  href: https://artifacts.apis.io/adrenalineshoc/llms/adrenalineshoc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adrenalineshoc-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/well-known/adrenalineshoc-well-known.yml
+  href: https://artifacts.apis.io/adrenalineshoc/well-known/adrenalineshoc-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adrenalineshoc-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/well-known/adrenalineshoc-openid-configuration.json
+  href: https://artifacts.apis.io/adrenalineshoc/well-known/adrenalineshoc-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/adrenalineshoc-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/authentication/adrenalineshoc-authentication.yml
+  href: https://artifacts.apis.io/adrenalineshoc/authentication/adrenalineshoc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adrenalineshoc-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/scopes/adrenalineshoc-scopes.yml
+  href: https://artifacts.apis.io/adrenalineshoc/scopes/adrenalineshoc-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/adrenalineshoc-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/conventions/adrenalineshoc-conventions.yml
+  href: https://artifacts.apis.io/adrenalineshoc/conventions/adrenalineshoc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adrenalineshoc-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/conformance/adrenalineshoc-conformance.yml
+  href: https://artifacts.apis.io/adrenalineshoc/conformance/adrenalineshoc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adrenalineshoc-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/errors/adrenalineshoc-problem-types.yml
+  href: https://artifacts.apis.io/adrenalineshoc/errors/adrenalineshoc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adrenalineshoc-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/lifecycle/adrenalineshoc-lifecycle.yml
+  href: https://artifacts.apis.io/adrenalineshoc/lifecycle/adrenalineshoc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adrenalineshoc-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/data-model/adrenalineshoc-data-model.yml
+  href: https://artifacts.apis.io/adrenalineshoc/data-model/adrenalineshoc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adrenalineshoc-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/adrenalineshoc/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/agentic-access/adrenalineshoc-agentic-access.yml
+  href: https://artifacts.apis.io/adrenalineshoc/agentic-access/adrenalineshoc-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adrenalineshoc-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/plans/adrenalineshoc-plans-pricing.yml
+  href: https://artifacts.apis.io/adrenalineshoc/plans/adrenalineshoc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adrenalineshoc-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/rate-limits/adrenalineshoc-rate-limits.yml
+  href: https://artifacts.apis.io/adrenalineshoc/rate-limits/adrenalineshoc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adrenalineshoc-rate-limits.yml
@@ -169,7 +171,7 @@ plans:
 - name: Adrenalineshoc Plans Pricing
   plan_count: 0
   slug: adrenalineshoc-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Adrenalineshoc Rate Limits
@@ -181,7 +183,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 26.3
+  composite: 26.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 35.0
@@ -189,20 +191,20 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 10.4
     developer_ergonomics: 28.0
-    discoverability: 71.7
+    discoverability: 61.7
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 26.2
+  previous_composite: 26.6
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -214,14 +216,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc/refs/heads/main/screenshots/adrenalineshoc-2026-10-11T092840.png
+screenshot: https://apis.io/screenshots/adrenalineshoc/adrenalineshoc-2026-10-11T092840.png
 security:
 - kind: authentication
   name: Adrenalineshoc Authentication
@@ -231,6 +233,14 @@ security:
   name: Adrenalineshoc Domain Security
   slug: adrenalineshoc-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Browse the Accelerator Active Energy catalog
+  slug: adrenalineshoc-browse-catalog
+- name: Build and maintain an Accelerator Active Energy cart
+  slug: adrenalineshoc-build-cart
+- name: Complete an Accelerator Active Energy checkout with buyer approval
+  slug: adrenalineshoc-checkout-with-buyer-approval
 slug: adrenalineshoc
 tags:
 - Company

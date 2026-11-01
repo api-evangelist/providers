@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Bite provides AI‑native trade compliance APIs as described on their developer portal.
@@ -32,27 +34,27 @@ apis:
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bite/refs/heads/main/plans/bite-plans-pricing.yml
+  href: https://artifacts.apis.io/bite/plans/bite-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bite-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bite/refs/heads/main/changelog/bite-changelog.yml
+  href: https://artifacts.apis.io/bite/changelog/bite-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bite-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bite/refs/heads/main/llms/bite-llms.txt
+  href: https://artifacts.apis.io/bite/llms/bite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bite-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bite/refs/heads/main/hosts/bite-hosts.yml
+  href: https://artifacts.apis.io/bite/hosts/bite-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bite-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bite/refs/heads/main/vendors/bite-vendors.yml
+  href: https://artifacts.apis.io/bite/vendors/bite-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bite-vendors.yml
@@ -69,7 +71,7 @@ common:
   type: GettingStarted
   url: https://bitedata.io/wiki/getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bite/refs/heads/main/security/bite-domain-security.yml
+  href: https://artifacts.apis.io/bite/security/bite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bite-domain-security.yml
@@ -129,10 +131,10 @@ plans:
 - name: Bite Plans Pricing
   plan_count: 4
   slug: bite-plans-pricing
-random_paper: 2
+random_paper: 12
 score:
   band: thin
-  composite: 28.6
+  composite: 27.8
   coverage:
     artifact_dirs: 10
     catalog_earned: 44.0
@@ -140,15 +142,15 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 15.8
-  previous_composite: 28.5
+  previous_composite: 27.8
   provenance:
     mcp: derived
   regulatory:
@@ -157,14 +159,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bite/refs/heads/main/screenshots/bite-2026-10-11T102415.png
+screenshot: https://apis.io/screenshots/bite/bite-2026-10-11T102415.png
 security:
 - kind: domain-security
   name: Bite Domain Security

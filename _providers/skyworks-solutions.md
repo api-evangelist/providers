@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skyworks-solutions/refs/heads/main/security/skyworks-solutions-domain-security.yml
+  href: https://artifacts.apis.io/skyworks-solutions/security/skyworks-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skyworks-solutions-domain-security.yml
@@ -86,12 +88,12 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/skyworks-solutions-inc
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyworks-solutions/refs/heads/main/vocabulary/skyworks-solutions-vocabulary.yml
+  href: https://artifacts.apis.io/skyworks-solutions/vocabulary/skyworks-solutions-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/skyworks-solutions-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyworks-solutions/refs/heads/main/json-ld/skyworks-solutions-context.jsonld
+  href: https://artifacts.apis.io/skyworks-solutions/json-ld/skyworks-solutions-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/skyworks-solutions-context.jsonld
@@ -135,10 +137,10 @@ press:
 - date: ''
   title: Skyworks Launches Breakthrough Sky5™ Platform
   url: https://investors.skyworksinc.com/news-releases/news-release-details/skyworks-launches-breakthrough-sky5tm-platform
-random_paper: 4
+random_paper: 18
 score:
-  band: minimal
-  composite: 9.3
+  band: emerging
+  composite: 11.7
   coverage:
     artifact_dirs: 8
     catalog_earned: 36.5
@@ -151,9 +153,9 @@ score:
     access_clarity: 0.0
     contract_governance: 13.6
     contract_quality: 6.7
-    developer_ergonomics: 7.1
-    discoverability: 49.1
-    operational_transparency: 2.6
+    developer_ergonomics: 16.7
+    discoverability: 50.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -161,21 +163,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 9.3
+  previous_composite: 11.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/skyworks-solutions/refs/heads/main/screenshots/skyworks-solutions-2026-06-20T194022.png
+screenshot: https://apis.io/screenshots/skyworks-solutions/skyworks-solutions-2026-06-20T194022.png
 security:
 - kind: domain-security
   name: Skyworks Solutions Domain Security

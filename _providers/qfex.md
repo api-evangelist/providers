@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.6
-  scored_at: '2026-10-17'
+  score: 30.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: wss://mds.qfex.com
@@ -63,7 +65,7 @@ apis:
   description: The user API from Qfex — 15 operation(s) for user.
   name: Qfex User API
   slug: qfex-user-api
-artifact_total: 15
+artifact_total: 18
 asyncapis:
 - description: Single WebSocket gateway for all QFEX real‑time streams. Clients publish subscription and order commands here, and receive all updates over the same endpoint.
   name: QFEX Multiplexed WebSocket API
@@ -75,9 +77,6 @@ asyncapis:
   name: QFEX Multiplexed WebSocket API
   slug: qfex-trade-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: QFEX REST market-data API
   slug: open-qfex-market-data-api
@@ -97,12 +96,12 @@ common:
   type: Website
   url: https://www.qfex.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/capabilities/qfex-capability-edges.yml
+  href: https://artifacts.apis.io/qfex/capabilities/qfex-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/qfex-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/overlays/qfex-openapi-overlay.yaml
+  href: https://artifacts.apis.io/qfex/overlays/qfex-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qfex-openapi-overlay.yaml
@@ -123,32 +122,32 @@ common:
   type: GettingStarted
   url: https://docs.qfex.com/api-reference/introduction
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/authentication/qfex-authentication.yml
+  href: https://artifacts.apis.io/qfex/authentication/qfex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qfex-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/cli/qfex-cli.yml
+  href: https://artifacts.apis.io/qfex/cli/qfex-cli.yml
   title: ''
   type: CLI
   url: cli/qfex-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/packages/qfex-packages.yml
+  href: https://artifacts.apis.io/qfex/packages/qfex-packages.yml
   title: ''
   type: Packages
   url: packages/qfex-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/sandbox/qfex-sandbox.yml
+  href: https://artifacts.apis.io/qfex/sandbox/qfex-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/qfex-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/conventions/qfex-conventions.yml
+  href: https://artifacts.apis.io/qfex/conventions/qfex-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qfex-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/conventions/qfex-conventions.yml
+  href: https://artifacts.apis.io/qfex/conventions/qfex-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/qfex-conventions.yml
@@ -157,12 +156,12 @@ common:
   type: RateLimits
   url: https://docs.qfex.com/websocket/rate
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/changelog/qfex-changelog.yml
+  href: https://artifacts.apis.io/qfex/changelog/qfex-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qfex-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/lifecycle/qfex-lifecycle.yml
+  href: https://artifacts.apis.io/qfex/lifecycle/qfex-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qfex-lifecycle.yml
@@ -171,37 +170,37 @@ common:
   type: StatusPage
   url: https://status.qfex.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/mcp/qfex-mcp.yml
+  href: https://artifacts.apis.io/qfex/mcp/qfex-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/qfex-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/qfex/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/llms/qfex-llms.txt
+  href: https://artifacts.apis.io/qfex/llms/qfex-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qfex-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/conformance/qfex-conformance.yml
+  href: https://artifacts.apis.io/qfex/conformance/qfex-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qfex-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/errors/qfex-problem-types.yml
+  href: https://artifacts.apis.io/qfex/errors/qfex-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qfex-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/security/qfex-domain-security.yml
+  href: https://artifacts.apis.io/qfex/security/qfex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qfex-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/security/qfex-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/qfex/security/qfex-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/qfex-vulnerability-disclosure.yml
@@ -256,10 +255,10 @@ overview: 'Qfex publishes 5 API contracts indexed on the [APIs.io](https://apis.
 
 
   Qfex''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 27 more developer resources.'
-random_paper: 18
+random_paper: 4
 score:
   band: developing
-  composite: 51.3
+  composite: 52.7
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -267,15 +266,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 54.1
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 44.7
-  previous_composite: 51.2
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 52.7
   provenance:
     conformance: derived
     contracts:
@@ -291,13 +290,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/screenshots/qfex-2026-08-17T081412.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/qfex/qfex-2026-08-17T081412.png
 security:
 - kind: authentication
   name: Qfex Authentication
@@ -311,6 +311,16 @@ security:
   name: Qfex Vulnerability Disclosure
   slug: qfex-vulnerability-disclosure
   summary_line: contact published
+skill_count: 4
+skills:
+- name: Read QFEX account state and trading history
+  slug: qfex-account-and-history
+- name: Create QFEX subaccounts and transfer balance
+  slug: qfex-manage-subaccounts
+- name: Place and manage an order on the QFEX trade WebSocket
+  slug: qfex-place-and-manage-order
+- name: Stream real-time QFEX market data
+  slug: qfex-stream-market-data
 slug: qfex
 tags:
 - Company

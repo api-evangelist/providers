@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 36.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 44
   slug: persistiq-agentic-access
   summary_line: 44 operations · 19 acting
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://api.persistiq.com
   baseurl_source: declared
@@ -105,15 +107,12 @@ apis:
   description: The Webhook Plugin API from PersistIQ — 1 operation(s) for webhook plugin.
   name: PersistIQ Webhook Plugin API
   slug: persistiq-webhook-plugin-api
-artifact_total: 26
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Persistiq Webhooks
   slug: persistiq-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PersistIQ Campaigns API
   slug: open-persistiq-campaigns-api
@@ -137,47 +136,47 @@ collections:
   slug: open-persistiq-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/capabilities/persistiq-capability-edges.yml
+  href: https://artifacts.apis.io/persistiq/capabilities/persistiq-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/persistiq-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/skills/persistiq-handle-campaign-replies.md
+  href: https://artifacts.apis.io/persistiq/skills/persistiq-handle-campaign-replies.md
   title: ''
   type: AgentSkill
   url: skills/persistiq-handle-campaign-replies.md
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/_original/persistiq-api-v1-openapi.json
+  href: https://artifacts.apis.io/persistiq/openapi/_original/persistiq-api-v1-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/persistiq-api-v1-openapi.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/overlays/persistiq-openapi-overlay.yaml
+  href: https://artifacts.apis.io/persistiq/overlays/persistiq-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/persistiq-openapi-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/overlays/persistiq-api-v1-overlay.yaml
+  href: https://artifacts.apis.io/persistiq/overlays/persistiq-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/persistiq-api-v1-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/asyncapi/persistiq-webhooks.yml
+  href: https://artifacts.apis.io/persistiq/asyncapi/persistiq-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/persistiq-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/plans/persistiq-plans-pricing.yml
+  href: https://artifacts.apis.io/persistiq/plans/persistiq-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/persistiq-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/changelog/persistiq-changelog.yml
+  href: https://artifacts.apis.io/persistiq/changelog/persistiq-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/persistiq-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/agentic-access/persistiq-agentic-access.yml
+  href: https://artifacts.apis.io/persistiq/agentic-access/persistiq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/persistiq-agentic-access.yml
@@ -186,62 +185,62 @@ common:
   type: GitHubOrganization
   url: https://github.com/PersistIQ
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/security/persistiq-domain-security.yml
+  href: https://artifacts.apis.io/persistiq/security/persistiq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/persistiq-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/authentication/persistiq-authentication.yml
+  href: https://artifacts.apis.io/persistiq/authentication/persistiq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/persistiq-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/conventions/persistiq-conventions.yml
+  href: https://artifacts.apis.io/persistiq/conventions/persistiq-conventions.yml
   title: ''
   type: Conventions
   url: conventions/persistiq-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/errors/persistiq-problem-types.yml
+  href: https://artifacts.apis.io/persistiq/errors/persistiq-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/persistiq-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/rate-limits/persistiq-rate-limits.yml
+  href: https://artifacts.apis.io/persistiq/rate-limits/persistiq-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/persistiq-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/lifecycle/persistiq-lifecycle.yml
+  href: https://artifacts.apis.io/persistiq/lifecycle/persistiq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/persistiq-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/conformance/persistiq-conformance.yml
+  href: https://artifacts.apis.io/persistiq/conformance/persistiq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/persistiq-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/data-model/persistiq-data-model.yml
+  href: https://artifacts.apis.io/persistiq/data-model/persistiq-data-model.yml
   title: ''
   type: DataModel
   url: data-model/persistiq-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/mcp/persistiq-mcp.yml
+  href: https://artifacts.apis.io/persistiq/mcp/persistiq-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/persistiq-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/packages/persistiq-packages.yml
+  href: https://artifacts.apis.io/persistiq/packages/persistiq-packages.yml
   title: ''
   type: Packages
   url: packages/persistiq-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/llms/persistiq-llms.txt
+  href: https://artifacts.apis.io/persistiq/llms/persistiq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/persistiq-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/persistiq/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -295,6 +294,14 @@ common:
   url: https://persistiq.com
 created: '2026-07-17'
 description: PersistIQ is a sales engagement platform for small teams to find new customers, start conversations, and personalize sales outreach at scale from one place. It combines prospect research (Chrome extension), multi-channel outreach (email, calls, tasks), campaign management with A/B testing, performance analytics, and CRM integrations. PersistIQ exposes a REST API (v1) for users, leads (prospects), lead statuses and fields, tags, campaigns (including duplication and inbox replies), activity events, Do Not Contact domains, and a webhook plugin carrying five events. It is specified by PersistIQ's own OpenAPI 3.0.1 document, served from the API host at /api-docs/v1/swagger.json. Authentication is a single company-wide API key sent in the x-api-key header, with page-number pagination and a documented 100 request/minute per-key rate limit.
+finops:
+- has_sources: true
+  method: derived
+  name: Persistiq Finops
+  primary_unit: ''
+  service_category: ''
+  slug: persistiq-finops
+  template: true
 image: https://persistiq.com/favicon.ico
 layout: provider
 modified: '2026-09-16'
@@ -312,30 +319,30 @@ plans:
 - name: Persistiq Plans Pricing
   plan_count: 0
   slug: persistiq-plans-pricing
-random_paper: 6
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Persistiq Rate Limits
   slug: persistiq-rate-limits
 score:
   band: developing
-  composite: 50.2
+  composite: 49.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 48.0
+    artifact_dirs: 26
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.6
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 54.2
-    developer_ergonomics: 56.5
-    discoverability: 78.6
-    operational_transparency: 47.4
-  previous_composite: 49.6
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 50.0
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -352,13 +359,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/screenshots/persistiq-2026-08-17T081210.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/persistiq/persistiq-2026-08-17T081210.png
 security:
 - kind: authentication
   name: Persistiq Authentication
@@ -368,6 +376,16 @@ security:
   name: Persistiq Domain Security
   slug: persistiq-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Handle campaign replies and wire up webhooks
+  slug: persistiq-handle-campaign-replies
+- name: Import leads and enroll them in a campaign
+  slug: persistiq-import-and-enroll-leads
+- name: Manage Do Not Contact suppression
+  slug: persistiq-manage-suppression
+- name: Sync lead activity and update statuses
+  slug: persistiq-sync-lead-activity
 slug: persistiq
 tags:
 - Company

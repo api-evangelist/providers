@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 26.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -79,7 +81,7 @@ apis:
   description: Create and track payment transactions.
   name: Wompi Transactions API
   slug: wompi-transactions-api
-artifact_total: 29
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Wompi Webhooks
@@ -104,9 +106,6 @@ collections:
   name: Wompi Merchants Transactions API
   slug: postman-wompi-transactions-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Wompi Merchants API
   slug: open-wompi-merchants-api
 - collection_type: open
@@ -125,32 +124,37 @@ collections:
   name: Wompi Merchants Transactions API
   slug: open-wompi-transactions-api
 common:
+- group: other
+  href: https://artifacts.apis.io/wompi/capabilities/wompi-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wompi-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/wompi/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/agentic-access/wompi-agentic-access.yml
+  href: https://artifacts.apis.io/wompi/agentic-access/wompi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wompi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/security/wompi-trust-center.yml
+  href: https://artifacts.apis.io/wompi/security/wompi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wompi-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/security/wompi-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wompi/security/wompi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wompi-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/security/wompi-domain-security.yml
+  href: https://artifacts.apis.io/wompi/security/wompi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wompi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/authentication/wompi-authentication.yml
+  href: https://artifacts.apis.io/wompi/authentication/wompi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wompi-authentication.yml
@@ -163,52 +167,52 @@ common:
   type: Documentation
   url: https://docs.wompi.co/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/plans/wompi-plans-pricing.yml
+  href: https://artifacts.apis.io/wompi/plans/wompi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wompi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/rate-limits/wompi-rate-limits.yml
+  href: https://artifacts.apis.io/wompi/rate-limits/wompi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wompi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/finops/wompi-finops.yml
+  href: https://artifacts.apis.io/wompi/finops/wompi-finops.yml
   title: ''
   type: FinOps
   url: finops/wompi-finops.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/sandbox/wompi-sandbox.yml
+  href: https://artifacts.apis.io/wompi/sandbox/wompi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/wompi-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/asyncapi/wompi-webhooks.yml
+  href: https://artifacts.apis.io/wompi/asyncapi/wompi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/wompi-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/components/wompi-components.yml
+  href: https://artifacts.apis.io/wompi/components/wompi-components.yml
   title: ''
   type: Components
   url: components/wompi-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/conventions/wompi-conventions.yml
+  href: https://artifacts.apis.io/wompi/conventions/wompi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wompi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/errors/wompi-problem-types.yml
+  href: https://artifacts.apis.io/wompi/errors/wompi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wompi-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/errors/wompi-decline-codes.yml
+  href: https://artifacts.apis.io/wompi/errors/wompi-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/wompi-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/lifecycle/wompi-lifecycle.yml
+  href: https://artifacts.apis.io/wompi/lifecycle/wompi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wompi-lifecycle.yml
@@ -217,42 +221,42 @@ common:
   type: StatusPage
   url: https://wompi.statuspage.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/conformance/wompi-conformance.yml
+  href: https://artifacts.apis.io/wompi/conformance/wompi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wompi-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/security/wompi-trust-center.yml
+  href: https://artifacts.apis.io/wompi/security/wompi-trust-center.yml
   title: ''
   type: Compliance
   url: security/wompi-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/data-model/wompi-data-model.yml
+  href: https://artifacts.apis.io/wompi/data-model/wompi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wompi-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/mcp/wompi-mcp.yml
+  href: https://artifacts.apis.io/wompi/mcp/wompi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wompi-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/llms/wompi-llms.txt
+  href: https://artifacts.apis.io/wompi/llms/wompi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wompi-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/overlays/wompi-openapi-overlay.yaml
+  href: https://artifacts.apis.io/wompi/overlays/wompi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wompi-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/packages/wompi-packages.yml
+  href: https://artifacts.apis.io/wompi/packages/wompi-packages.yml
   title: ''
   type: Packages
   url: packages/wompi-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wompi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -277,7 +281,7 @@ common:
   type: TermsOfService
   url: https://wompi.co/es/co/terminos-y-condiciones
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/collections/wompi.postman_collection.json
+  href: https://artifacts.apis.io/wompi/collections/wompi.postman_collection.json
   title: ''
   type: Postman
   url: collections/wompi.postman_collection.json
@@ -303,34 +307,34 @@ overview: 'Wompi publishes 7 API contracts indexed on the [APIs.io](https://apis
   The Wompi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Wompi''s developer surface includes authentication, documentation, sandbox, API reference, getting-started guide, signup flow, and 27 more developer resources.'
+  Wompi''s developer surface includes authentication, documentation, sandbox, API reference, getting-started guide, signup flow, and 28 more developer resources.'
 plans:
 - name: Wompi Plans Pricing
   plan_count: 2
   slug: wompi-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Wompi Rate Limits
   slug: wompi-rate-limits
 score:
   band: developing
-  composite: 43.0
+  composite: 49.6
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 55.7
-    developer_ergonomics: 50.6
+    developer_ergonomics: 60.1
     discoverability: 66.1
-    operational_transparency: 28.9
+    operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -338,7 +342,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 49.1
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -355,13 +359,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/screenshots/wompi-2026-08-17T082934.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wompi/wompi-2026-08-17T082934.png
 security:
 - kind: authentication
   name: Wompi Authentication
@@ -379,6 +384,14 @@ security:
   name: Wompi Trust Center
   slug: wompi-trust-center
   summary_line: PCI DSS, Grupo Bancolombia security & risk controls
+skill_count: 3
+skills:
+- name: Charge a card end-to-end
+  slug: wompi-card-charge
+- name: Create and track a payment link
+  slug: wompi-payment-link
+- name: Store a payment source and charge it
+  slug: wompi-recurring-charge
 slug: wompi
 tags:
 - Payments

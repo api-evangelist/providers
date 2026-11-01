@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.6
-  scored_at: '2026-10-17'
+  score: 3.5
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -85,22 +87,22 @@ common:
   type: Compliance
   url: https://savantlabs.io/trust-center/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/savant-labs/refs/heads/main/changelog/savant-labs-changelog.yml
+  href: https://artifacts.apis.io/savant-labs/changelog/savant-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/savant-labs-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/savant-labs/refs/heads/main/llms/savant-labs-llms.txt
+  href: https://artifacts.apis.io/savant-labs/llms/savant-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/savant-labs-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/savant-labs/refs/heads/main/conformance/savant-labs-conformance.yml
+  href: https://artifacts.apis.io/savant-labs/conformance/savant-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/savant-labs-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/savant-labs/refs/heads/main/security/savant-labs-domain-security.yml
+  href: https://artifacts.apis.io/savant-labs/security/savant-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/savant-labs-domain-security.yml
@@ -120,10 +122,10 @@ overview: 'Savant Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Savant Labs'' developer surface includes documentation, support, engineering blog, pricing, signup flow, changelog, and 10 more developer resources.'
-random_paper: 16
+random_paper: 12
 score:
   band: emerging
-  composite: 25.4
+  composite: 25.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -133,13 +135,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 58.3
+    discoverability: 48.2
     operational_transparency: 15.8
-  previous_composite: 25.4
+  previous_composite: 25.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -155,14 +157,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/savant-labs/refs/heads/main/screenshots/savant-labs-2026-09-02T154445.png
+screenshot: https://apis.io/screenshots/savant-labs/savant-labs-2026-09-02T154445.png
 security:
 - kind: domain-security
   name: Savant Labs Domain Security

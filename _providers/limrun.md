@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.0
-  scored_at: '2026-10-17'
+  score: 44.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -79,11 +81,8 @@ apis:
   description: The Xcode Instances API from Limrun — 4 operation(s) for xcode instances.
   name: Limrun Xcode Instances API
   slug: limrun-xcode-instances-api
-artifact_total: 21
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Limrun Analytics API
   slug: open-limrun-analytics-api
@@ -107,7 +106,7 @@ collections:
   slug: open-limrun-xcode-instances-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/overlays/limrun-api-overlay.yaml
+  href: https://artifacts.apis.io/limrun/overlays/limrun-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/limrun-api-overlay.yaml
@@ -152,102 +151,102 @@ common:
   type: Support
   url: mailto:contact@limrun.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/llms/limrun-llms.txt
+  href: https://artifacts.apis.io/limrun/llms/limrun-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/limrun-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/packages/limrun-packages.yml
+  href: https://artifacts.apis.io/limrun/packages/limrun-packages.yml
   title: ''
   type: Packages
   url: packages/limrun-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/packages/limrun-packages.yml
+  href: https://artifacts.apis.io/limrun/packages/limrun-packages.yml
   title: ''
   type: SDKs
   url: packages/limrun-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/cli/limrun-cli.yml
+  href: https://artifacts.apis.io/limrun/cli/limrun-cli.yml
   title: ''
   type: CLI
   url: cli/limrun-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/components/limrun-components.yml
+  href: https://artifacts.apis.io/limrun/components/limrun-components.yml
   title: ''
   type: Components
   url: components/limrun-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/mcp/limrun-mcp.yml
+  href: https://artifacts.apis.io/limrun/mcp/limrun-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/limrun-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/limrun/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/authentication/limrun-authentication.yml
+  href: https://artifacts.apis.io/limrun/authentication/limrun-authentication.yml
   title: ''
   type: Authentication
   url: authentication/limrun-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/scopes/limrun-scopes.yml
+  href: https://artifacts.apis.io/limrun/scopes/limrun-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/limrun-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/well-known/limrun-well-known.yml
+  href: https://artifacts.apis.io/limrun/well-known/limrun-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/limrun-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/conventions/limrun-conventions.yml
+  href: https://artifacts.apis.io/limrun/conventions/limrun-conventions.yml
   title: ''
   type: Conventions
   url: conventions/limrun-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/conventions/limrun-conventions.yml
+  href: https://artifacts.apis.io/limrun/conventions/limrun-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/limrun-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/errors/limrun-problem-types.yml
+  href: https://artifacts.apis.io/limrun/errors/limrun-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/limrun-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/lifecycle/limrun-lifecycle.yml
+  href: https://artifacts.apis.io/limrun/lifecycle/limrun-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/limrun-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/changelog/limrun-changelog.yml
+  href: https://artifacts.apis.io/limrun/changelog/limrun-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/limrun-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/conformance/limrun-conformance.yml
+  href: https://artifacts.apis.io/limrun/conformance/limrun-conformance.yml
   title: ''
   type: Conformance
   url: conformance/limrun-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/data-model/limrun-data-model.yml
+  href: https://artifacts.apis.io/limrun/data-model/limrun-data-model.yml
   title: ''
   type: DataModel
   url: data-model/limrun-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/sandbox/limrun-sandbox.yml
+  href: https://artifacts.apis.io/limrun/sandbox/limrun-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/limrun-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/security/limrun-domain-security.yml
+  href: https://artifacts.apis.io/limrun/security/limrun-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/limrun-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/security/limrun-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/limrun/security/limrun-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/limrun-vulnerability-disclosure.yml
@@ -256,7 +255,7 @@ common:
   type: Security
   url: https://github.com/limrun-inc/typescript-sdk/blob/main/SECURITY.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/agentic-access/limrun-agentic-access.yml
+  href: https://artifacts.apis.io/limrun/agentic-access/limrun-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/limrun-agentic-access.yml
@@ -277,17 +276,17 @@ overview: 'Limrun publishes 7 API contracts indexed on the [APIs.io](https://api
 
 
   Limrun''s developer surface includes documentation, API reference, getting-started guide, signup flow, developer console, support, CLI, and 26 more developer resources.'
-random_paper: 3
+random_paper: 15
 scopes:
 - name: Limrun Scopes
   scope_count: 1
   slug: limrun-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: thin
-  composite: 38.2
+  band: developing
+  composite: 43.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -295,13 +294,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 34.5
-    developer_ergonomics: 76.2
-    discoverability: 71.7
-    operational_transparency: 36.8
-  previous_composite: 38.2
+    developer_ergonomics: 83.3
+    discoverability: 65.0
+    operational_transparency: 47.4
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,13 +317,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/screenshots/limrun-2026-07-25T225212.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/limrun/limrun-2026-07-25T225212.png
 security:
 - kind: authentication
   name: Limrun Authentication
@@ -338,6 +338,18 @@ security:
   name: Limrun Vulnerability Disclosure
   slug: limrun-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 5
+skills:
+- name: limrun-detox-testing
+  slug: limrun-detox-testing
+- name: limrun-expo-development
+  slug: limrun-expo-development
+- name: limrun-ios-simulator
+  slug: limrun-ios-simulator
+- name: limrun-xcode-bazel
+  slug: limrun-xcode-bazel
+- name: limrun-xcode
+  slug: limrun-xcode
 slug: limrun
 tags:
 - Company

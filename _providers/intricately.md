@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Cloud Dynamics API (formerly the Intricately API) provides access to cloud adoption, usage, and spend data on companies, products, applications, and domains. Requests authenticate with an X-API-KE
@@ -44,7 +46,7 @@ apis:
 artifact_total: 6
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/intricately/refs/heads/main/rate-limits/intricately-rate-limits.yml
+  href: https://artifacts.apis.io/intricately/rate-limits/intricately-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/intricately-rate-limits.yml
@@ -93,27 +95,27 @@ common:
   type: LLMsTxt
   url: https://kb.intricately.com/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/intricately/refs/heads/main/security/intricately-domain-security.yml
+  href: https://artifacts.apis.io/intricately/security/intricately-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/intricately-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/intricately/refs/heads/main/plans/intricately-plans-pricing.yml
+  href: https://artifacts.apis.io/intricately/plans/intricately-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/intricately-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/intricately/refs/heads/main/packages/intricately-packages.yml
+  href: https://artifacts.apis.io/intricately/packages/intricately-packages.yml
   title: ''
   type: Packages
   url: packages/intricately-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/intricately/refs/heads/main/conformance/intricately-conformance.yml
+  href: https://artifacts.apis.io/intricately/conformance/intricately-conformance.yml
   title: ''
   type: Conformance
   url: conformance/intricately-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/intricately/refs/heads/main/security/intricately-trust-center.yml
+  href: https://artifacts.apis.io/intricately/security/intricately-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/intricately-trust-center.yml
@@ -133,14 +135,14 @@ plans:
 - name: Intricately Plans Pricing
   plan_count: 0
   slug: intricately-plans-pricing
-random_paper: 4
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Intricately Rate Limits
   slug: intricately-rate-limits
 score:
   band: thin
-  composite: 32.4
+  composite: 36.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 45.0
@@ -153,10 +155,10 @@ score:
     access_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 35.7
+    developer_ergonomics: 54.8
     discoverability: 73.2
     operational_transparency: 36.8
-  previous_composite: 32.4
+  previous_composite: 36.3
   provenance:
     conformance: derived
     mcp: derived
@@ -166,14 +168,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/intricately/refs/heads/main/screenshots/intricately-2026-07-25T222720.png
+screenshot: https://apis.io/screenshots/intricately/intricately-2026-07-25T222720.png
 security:
 - kind: authentication
   name: Intricately Authentication

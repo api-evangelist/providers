@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -89,37 +91,37 @@ common:
   type: PrivacyPolicy
   url: https://dlthub.com/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dlthub/refs/heads/main/packages/dlthub-packages.yml
+  href: https://artifacts.apis.io/dlthub/packages/dlthub-packages.yml
   title: ''
   type: Packages
   url: packages/dlthub-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dlthub/refs/heads/main/packages/dlthub-packages.yml
+  href: https://artifacts.apis.io/dlthub/packages/dlthub-packages.yml
   title: ''
   type: SDKs
   url: packages/dlthub-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dlthub/refs/heads/main/cli/dlthub-cli.yml
+  href: https://artifacts.apis.io/dlthub/cli/dlthub-cli.yml
   title: ''
   type: CLI
   url: cli/dlthub-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dlthub/refs/heads/main/mcp/dlthub-mcp.yml
+  href: https://artifacts.apis.io/dlthub/mcp/dlthub-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dlthub-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dlthub/refs/heads/main/llms/dlthub-llms.txt
+  href: https://artifacts.apis.io/dlthub/llms/dlthub-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dlthub-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dlthub/refs/heads/main/changelog/dlthub-changelog.yml
+  href: https://artifacts.apis.io/dlthub/changelog/dlthub-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dlthub-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dlthub/refs/heads/main/security/dlthub-domain-security.yml
+  href: https://artifacts.apis.io/dlthub/security/dlthub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dlthub-domain-security.yml
@@ -139,26 +141,26 @@ overview: 'dltHub is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   dltHub''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, CLI, and 13 more developer resources.'
-random_paper: 5
+random_paper: 19
 score:
   band: thin
-  composite: 27.2
+  composite: 28.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 55.0
-    operational_transparency: 18.4
-  previous_composite: 27.1
+    discoverability: 48.3
+    operational_transparency: 21.1
+  previous_composite: 28.2
   provenance:
     mcp: first-party
   regulatory:
@@ -167,14 +169,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dlthub/refs/heads/main/screenshots/dlthub-2026-07-25T212147.png
+screenshot: https://apis.io/screenshots/dlthub/dlthub-2026-07-25T212147.png
 security:
 - kind: domain-security
   name: Dlthub Domain Security

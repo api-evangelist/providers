@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.8
-  scored_at: '2026-10-17'
+  score: 18.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://visibility.gleefulai.com
@@ -122,11 +124,8 @@ apis:
   description: The Llms API from Gleeful AI — 1 operation(s) for llms.
   name: Gleeful AI Llms API
   slug: gleefulai-llms-api
-artifact_total: 38
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Visibility AI Audit API
   slug: open-gleefulai-audit-api
@@ -177,12 +176,12 @@ collections:
   slug: open-gleefulai-status-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/capabilities/gleefulai-capability-edges.yml
+  href: https://artifacts.apis.io/gleefulai/capabilities/gleefulai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gleefulai-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/security/gleefulai-domain-security.yml
+  href: https://artifacts.apis.io/gleefulai/security/gleefulai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gleefulai-domain-security.yml
@@ -199,47 +198,47 @@ common:
   type: Pricing
   url: https://visibility.gleefulai.com/api/pricing
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/llms/gleefulai-llms.txt
+  href: https://artifacts.apis.io/gleefulai/llms/gleefulai-llms.txt
   title: ''
   type: LlmsText
   url: llms/gleefulai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/authentication/gleefulai-authentication.yml
+  href: https://artifacts.apis.io/gleefulai/authentication/gleefulai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gleefulai-authentication.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/plans/gleefulai-plans.yml
+  href: https://artifacts.apis.io/gleefulai/plans/gleefulai-plans.yml
   title: ''
   type: Plans
   url: plans/gleefulai-plans.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/lifecycle/gleefulai-lifecycle.yml
+  href: https://artifacts.apis.io/gleefulai/lifecycle/gleefulai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gleefulai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/errors/gleefulai-problem-types.yml
+  href: https://artifacts.apis.io/gleefulai/errors/gleefulai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gleefulai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/conventions/gleefulai-conventions.yml
+  href: https://artifacts.apis.io/gleefulai/conventions/gleefulai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gleefulai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/conformance/gleefulai-conformance.yml
+  href: https://artifacts.apis.io/gleefulai/conformance/gleefulai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gleefulai-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/packages/gleefulai-packages.yml
+  href: https://artifacts.apis.io/gleefulai/packages/gleefulai-packages.yml
   title: ''
   type: Packages
   url: packages/gleefulai-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/rate-limits/gleefulai-rate-limits.yml
+  href: https://artifacts.apis.io/gleefulai/rate-limits/gleefulai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gleefulai-rate-limits.yml
@@ -275,14 +274,14 @@ plans:
 - name: Gleefulai Plans
   plan_count: 0
   slug: gleefulai-plans
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Gleefulai Rate Limits
   slug: gleefulai-rate-limits
 score:
   band: emerging
-  composite: 20.7
+  composite: 23.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 32.0
@@ -290,15 +289,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 40.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 21.4
     discoverability: 64.3
     operational_transparency: 0.0
-  previous_composite: 20.6
+  previous_composite: 23.4
   provenance:
     conformance: derived
     contracts:
@@ -313,13 +312,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/screenshots/gleefulai-2026-08-07T165729.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gleefulai/gleefulai-2026-08-07T165729.png
 security:
 - kind: authentication
   name: Gleefulai Authentication

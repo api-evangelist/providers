@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RESTful JSON API for the Agari platform (Fortra Email Security). Cloud Email Protection endpoints (/v1/ep) expose monitored messages and policy events; Brand Protection / DMARC endpoints (/v1/cp) expo
@@ -43,7 +45,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agari-data/refs/heads/main/security/agari-data-trust-center.yml
+  href: https://artifacts.apis.io/agari-data/security/agari-data-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/agari-data-trust-center.yml
@@ -52,22 +54,22 @@ common:
   type: Compliance
   url: https://www.fortra.com/platform/email-security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agari-data/refs/heads/main/conformance/agari-data-conformance.yml
+  href: https://artifacts.apis.io/agari-data/conformance/agari-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agari-data-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agari-data/refs/heads/main/lifecycle/agari-data-lifecycle.yml
+  href: https://artifacts.apis.io/agari-data/lifecycle/agari-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agari-data-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agari-data/refs/heads/main/conventions/agari-data-conventions.yml
+  href: https://artifacts.apis.io/agari-data/conventions/agari-data-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agari-data-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agari-data/refs/heads/main/security/agari-data-domain-security.yml
+  href: https://artifacts.apis.io/agari-data/security/agari-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agari-data-domain-security.yml
@@ -88,7 +90,7 @@ common:
   type: GettingStarted
   url: https://developers.agari.com/agari-platform/docs/quick-start
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agari-data/refs/heads/main/authentication/agari-data-authentication.yml
+  href: https://artifacts.apis.io/agari-data/authentication/agari-data-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agari-data-authentication.yml
@@ -101,7 +103,7 @@ common:
   type: Blog
   url: https://emailsecurity.fortra.com/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agari-data/refs/heads/main/llms/agari-data-llms.txt
+  href: https://artifacts.apis.io/agari-data/llms/agari-data-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agari-data-llms.txt
@@ -117,10 +119,10 @@ overview: 'Agari Data is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Agari Data''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, and 9 more developer resources.'
-random_paper: 3
+random_paper: 11
 score:
   band: emerging
-  composite: 20.3
+  composite: 23.4
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -128,15 +130,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 33.3
-    discoverability: 73.2
+    developer_ergonomics: 52.4
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 20.2
+  previous_composite: 23.4
   provenance:
     conformance: first-party
   regulatory:
@@ -145,14 +147,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/agari-data/refs/heads/main/screenshots/agari-data-2026-07-25T181800.png
+screenshot: https://apis.io/screenshots/agari-data/agari-data-2026-07-25T181800.png
 security:
 - kind: authentication
   name: Agari Data Authentication

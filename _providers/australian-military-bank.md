@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 23.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://public.open.australianmilitarybank.com.au/cds-au/v1/banking/products
@@ -74,9 +76,6 @@ apis:
 artifact_total: 18
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-australian-military-bank-banking-account-balances-api
 - collection_type: open
@@ -103,7 +102,7 @@ common:
   type: Blog
   url: https://australianmilitarybank.com.au/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/security/australian-military-bank-domain-security.yml
+  href: https://artifacts.apis.io/australian-military-bank/security/australian-military-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/australian-military-bank-domain-security.yml
@@ -140,27 +139,27 @@ common:
   type: APIReference
   url: https://consumerdatastandardsaustralia.github.io/standards/#get-products
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/authentication/australian-military-bank-authentication.yml
+  href: https://artifacts.apis.io/australian-military-bank/authentication/australian-military-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/australian-military-bank-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/scopes/australian-military-bank-scopes.yml
+  href: https://artifacts.apis.io/australian-military-bank/scopes/australian-military-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/australian-military-bank-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/conventions/australian-military-bank-conventions.yml
+  href: https://artifacts.apis.io/australian-military-bank/conventions/australian-military-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/australian-military-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/errors/australian-military-bank-problem-types.yml
+  href: https://artifacts.apis.io/australian-military-bank/errors/australian-military-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/australian-military-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/conformance/australian-military-bank-conformance.yml
+  href: https://artifacts.apis.io/australian-military-bank/conformance/australian-military-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/australian-military-bank-conformance.yml
@@ -169,37 +168,37 @@ common:
   type: Compliance
   url: https://www.australianmilitarybank.com.au/consumer-data-right
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/lifecycle/australian-military-bank-lifecycle.yml
+  href: https://artifacts.apis.io/australian-military-bank/lifecycle/australian-military-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/australian-military-bank-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/lifecycle/australian-military-bank-lifecycle.yml
+  href: https://artifacts.apis.io/australian-military-bank/lifecycle/australian-military-bank-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/australian-military-bank-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/data-model/australian-military-bank-data-model.yml
+  href: https://artifacts.apis.io/australian-military-bank/data-model/australian-military-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/australian-military-bank-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/mcp/australian-military-bank-mcp.yml
+  href: https://artifacts.apis.io/australian-military-bank/mcp/australian-military-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/australian-military-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/llms/australian-military-bank-llms.txt
+  href: https://artifacts.apis.io/australian-military-bank/llms/australian-military-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/australian-military-bank-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/overlays/australian-military-bank-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/australian-military-bank/overlays/australian-military-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/australian-military-bank-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/australian-military-bank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -215,7 +214,7 @@ overview: 'Australian Military Bank publishes 7 API contracts indexed on the [AP
 
 
   Australian Military Bank''s developer surface includes engineering blog, support, API reference, authentication, and 19 more developer resources.'
-random_paper: 11
+random_paper: 5
 scopes:
 - name: Australian Military Bank Scopes
   scope_count: 6
@@ -231,13 +230,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 12.4
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -246,7 +245,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 33.1
+  previous_composite: 33.6
   provenance:
     conformance: first-party
     contracts:
@@ -266,13 +265,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/screenshots/australian-military-bank-2026-07-21T120337.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/australian-military-bank/australian-military-bank-2026-07-21T120337.png
 security:
 - kind: authentication
   name: Australian Military Bank Authentication
@@ -282,6 +282,10 @@ security:
   name: Australian Military Bank Domain Security
   slug: australian-military-bank-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: Look up Australian Military Bank banking products
+  slug: australian-military-bank-lookup-products
 slug: australian-military-bank
 tags:
 - Finance

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -43,7 +45,7 @@ common:
   type: BlogRSS
   url: https://avrea.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avrea/refs/heads/main/security/avrea-domain-security.yml
+  href: https://artifacts.apis.io/avrea/security/avrea-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/avrea-domain-security.yml
@@ -112,37 +114,37 @@ common:
   type: ChangeLog
   url: https://docs.avrea.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/avrea/refs/heads/main/changelog/avrea-changelog.yml
+  href: https://artifacts.apis.io/avrea/changelog/avrea-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/avrea-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/avrea/refs/heads/main/cli/avrea-cli.yml
+  href: https://artifacts.apis.io/avrea/cli/avrea-cli.yml
   title: ''
   type: CLI
   url: cli/avrea-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avrea/refs/heads/main/authentication/avrea-authentication.yml
+  href: https://artifacts.apis.io/avrea/authentication/avrea-authentication.yml
   title: ''
   type: Authentication
   url: authentication/avrea-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avrea/refs/heads/main/conformance/avrea-conformance.yml
+  href: https://artifacts.apis.io/avrea/conformance/avrea-conformance.yml
   title: ''
   type: Conformance
   url: conformance/avrea-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/avrea/refs/heads/main/packages/avrea-packages.yml
+  href: https://artifacts.apis.io/avrea/packages/avrea-packages.yml
   title: ''
   type: Packages
   url: packages/avrea-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avrea/refs/heads/main/lifecycle/avrea-lifecycle.yml
+  href: https://artifacts.apis.io/avrea/lifecycle/avrea-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/avrea-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avrea/refs/heads/main/llms/avrea-llms.txt
+  href: https://artifacts.apis.io/avrea/llms/avrea-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/avrea-llms.txt
@@ -158,10 +160,10 @@ overview: 'Avrea is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Avrea''s developer surface includes documentation, getting-started guide, developer console, pricing, engineering blog, signup flow, support, and 18 more developer resources.'
-random_paper: 21
+random_paper: 23
 score:
   band: thin
-  composite: 31.7
+  composite: 38.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -171,13 +173,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 47.6
-    discoverability: 55.4
-    operational_transparency: 34.2
-  previous_composite: 31.7
+    developer_ergonomics: 64.3
+    discoverability: 48.2
+    operational_transparency: 36.8
+  previous_composite: 38.9
   provenance:
     conformance: first-party
   regulatory:
@@ -190,14 +192,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/avrea/refs/heads/main/screenshots/avrea-2026-07-25T202013.png
+screenshot: https://apis.io/screenshots/avrea/avrea-2026-07-25T202013.png
 security:
 - kind: authentication
   name: Avrea Authentication

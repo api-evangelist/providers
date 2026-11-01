@@ -15,7 +15,7 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: false
+    agent_card: flavored
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.4
-  scored_at: '2026-10-17'
+  score: 35.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 110
   human_in_the_loop: 1
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 213
   slug: siro-agentic-access
   summary_line: 213 operations · 110 acting · 1 human-in-the-loop
-api_count: 7
+api_count: 5
 apis:
 - baseURL: https://functions.siro.ai/api-externalApi
   baseurl_source: declared
@@ -126,11 +128,8 @@ apis:
   description: The Suggested Questions API from Siro — 1 operation(s) for suggested questions.
   name: Siro Suggested Questions API
   slug: siro-suggested-questions-api
-artifact_total: 27
+artifact_total: 30
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Swagger Audit API
   slug: open-siro-audit-api
@@ -145,22 +144,22 @@ collections:
   slug: open-siro-integrations-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/capabilities/siro-capability-edges.yml
+  href: https://artifacts.apis.io/siro/capabilities/siro-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/siro-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/overlays/siro-platform-api-overlay.yaml
+  href: https://artifacts.apis.io/siro/overlays/siro-platform-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/siro-platform-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/agentic-access/siro-agentic-access.yml
+  href: https://artifacts.apis.io/siro/agentic-access/siro-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/siro-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/security/siro-domain-security.yml
+  href: https://artifacts.apis.io/siro/security/siro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/siro-domain-security.yml
@@ -213,92 +212,92 @@ common:
   type: TrustCenter
   url: https://trust.siro.ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/llms/siro-llms.txt
+  href: https://artifacts.apis.io/siro/llms/siro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/siro-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/authentication/siro-authentication.yml
+  href: https://artifacts.apis.io/siro/authentication/siro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/siro-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/asyncapi/siro-webhooks.json
+  href: https://artifacts.apis.io/siro/asyncapi/siro-webhooks.json
   title: ''
   type: Webhooks
   url: asyncapi/siro-webhooks.json
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/rate-limits/siro-rate-limits.yml
+  href: https://artifacts.apis.io/siro/rate-limits/siro-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/siro-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/errors/siro-problem-types.yml
+  href: https://artifacts.apis.io/siro/errors/siro-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/siro-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/conventions/siro-conventions.yml
+  href: https://artifacts.apis.io/siro/conventions/siro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/siro-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/lifecycle/siro-lifecycle.yml
+  href: https://artifacts.apis.io/siro/lifecycle/siro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/siro-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/data-model/siro-data-model.yml
+  href: https://artifacts.apis.io/siro/data-model/siro-data-model.yml
   title: ''
   type: DataModel
   url: data-model/siro-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/conformance/siro-conformance.yml
+  href: https://artifacts.apis.io/siro/conformance/siro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/siro-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/mcp/siro-mcp.yml
+  href: https://artifacts.apis.io/siro/mcp/siro-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/siro-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/siro/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/overlays/siro-external-api-overlay.yaml
+  href: https://artifacts.apis.io/siro/overlays/siro-external-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/siro-external-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/well-known/siro-well-known.yml
+  href: https://artifacts.apis.io/siro/well-known/siro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/siro-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/a2a/siro-a2a.yml
+  href: https://artifacts.apis.io/siro/a2a/siro-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/siro-a2a.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/mcp/siro-tool-crosswalk.yml
+  href: https://artifacts.apis.io/siro/mcp/siro-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/siro-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/packages/siro-packages.yml
+  href: https://artifacts.apis.io/siro/packages/siro-packages.yml
   title: ''
   type: Packages
   url: packages/siro-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/packages/siro-packages.yml
+  href: https://artifacts.apis.io/siro/packages/siro-packages.yml
   title: ''
   type: SDKs
   url: packages/siro-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/plans/siro-plans-pricing.yml
+  href: https://artifacts.apis.io/siro/plans/siro-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/siro-plans-pricing.yml
@@ -316,6 +315,14 @@ common:
   url: mailto:support@siro.ai
 created: '2026-07-17'
 description: 'Siro is an AI sales coaching platform for in-person and field sales teams. Reps record their live sales conversations from the Siro mobile app, and Siro transcribes each conversation, surfaces coaching insights, generates scorecards and summaries, and extracts structured fields (budget, objections, decision makers, timelines) that are pushed back into the team''s CRM. Siro publishes a documented REST API and webhook surface that enables fully bidirectional, custom CRM integrations: syncing appointments/engagements, opportunities and accounts into Siro, matching recordings to CRM entities, and pulling recording details, summaries, entity extractions and coaching scorecards back out. The platform ships prebuilt integrations for Salesforce, HubSpot, Microsoft Dynamics, Pipedrive, Zoho, SalesRabbit, Leap SalesPro, Hatch, CompanyCam and a range of dealership DMS and home-services tools. Siro is backed by CRV and Index Ventures.'
+finops:
+- has_sources: true
+  method: derived
+  name: Siro Finops
+  primary_unit: ''
+  service_category: ''
+  slug: siro-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/siro.png
 layout: provider
 modified: '2026-08-13'
@@ -330,16 +337,16 @@ plans:
 - name: Siro Plans Pricing
   plan_count: 0
   slug: siro-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Siro Rate Limits
   slug: siro-rate-limits
 score:
-  band: strong
-  composite: 56.6
+  band: developing
+  composite: 51.5
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -347,13 +354,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 49.2
+    contract_quality: 46.6
     developer_ergonomics: 71.4
-    discoverability: 78.6
-    operational_transparency: 31.6
-  previous_composite: 56.6
+    discoverability: 71.4
+    operational_transparency: 34.2
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -370,13 +377,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/screenshots/siro-2026-08-17T081908.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/siro/siro-2026-08-17T081908.png
 security:
 - kind: authentication
   name: Siro Authentication
@@ -390,6 +398,14 @@ security:
   name: Siro Trust Center
   slug: siro-trust-center
   summary_line: SOC 2 Type 1, SOC 2 Type 2
+skill_count: 3
+skills:
+- name: Pull recording summaries and AI entity extractions
+  slug: siro-pull-conversation-insights
+- name: Siro
+  slug: siro-siro-skill
+- name: Sync CRM engagements and link Siro recordings
+  slug: siro-sync-crm-and-link-recordings
 slug: siro
 tags:
 - Company

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 4.1
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The Northbound Interface allows humans or applications to define and orchestrate a Spacetime network. It carries the Model API (NMTS entities and relationships describing platforms, antennas, interfac
@@ -49,7 +51,7 @@ apis:
 - description: 'The Status API is a small operational gRPC service exposed by every Spacetime instance. GetVersion returns the semantic version of the running Spacetime build, and GetMetrics returns instance insight '
   name: Spacetime Status API
   slug: spacetime-status
-artifact_total: 6
+artifact_total: 11
 common:
 - group: operate
   title: ''
@@ -80,7 +82,7 @@ common:
   type: GettingStarted
   url: https://docs.spacetime.aalyria.com/api/nbi/build-your-first-scenario/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/authentication/aalyria-authentication.yml
+  href: https://artifacts.apis.io/aalyria/authentication/aalyria-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aalyria-authentication.yml
@@ -105,32 +107,32 @@ common:
   type: Support
   url: https://github.com/aalyria/api/issues
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/grpc/aalyria-grpc-index.yml
+  href: https://artifacts.apis.io/aalyria/grpc/aalyria-grpc-index.yml
   title: ''
   type: Protobuf
   url: grpc/aalyria-grpc-index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/packages/aalyria-packages.yml
+  href: https://artifacts.apis.io/aalyria/packages/aalyria-packages.yml
   title: ''
   type: Packages
   url: packages/aalyria-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/packages/aalyria-packages.yml
+  href: https://artifacts.apis.io/aalyria/packages/aalyria-packages.yml
   title: ''
   type: SDKs
   url: packages/aalyria-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/cli/aalyria-cli.yml
+  href: https://artifacts.apis.io/aalyria/cli/aalyria-cli.yml
   title: ''
   type: CLI
   url: cli/aalyria-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/changelog/aalyria-changelog.yml
+  href: https://artifacts.apis.io/aalyria/changelog/aalyria-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aalyria-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/lifecycle/aalyria-lifecycle.yml
+  href: https://artifacts.apis.io/aalyria/lifecycle/aalyria-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aalyria-lifecycle.yml
@@ -139,42 +141,42 @@ common:
   type: Deprecation
   url: https://docs.spacetime.aalyria.com/dev-guides/api-stability-levels/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/conventions/aalyria-conventions.yml
+  href: https://artifacts.apis.io/aalyria/conventions/aalyria-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aalyria-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/conformance/aalyria-conformance.yml
+  href: https://artifacts.apis.io/aalyria/conformance/aalyria-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aalyria-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/errors/aalyria-problem-types.yml
+  href: https://artifacts.apis.io/aalyria/errors/aalyria-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aalyria-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/data-model/aalyria-data-model.yml
+  href: https://artifacts.apis.io/aalyria/data-model/aalyria-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aalyria-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/llms/aalyria-llms.txt
+  href: https://artifacts.apis.io/aalyria/llms/aalyria-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aalyria-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/mcp/aalyria-mcp.yml
+  href: https://artifacts.apis.io/aalyria/mcp/aalyria-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/aalyria-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aalyria/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/security/aalyria-domain-security.yml
+  href: https://artifacts.apis.io/aalyria/security/aalyria-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aalyria-domain-security.yml
@@ -191,10 +193,10 @@ overview: 'Aalyria is listed with 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Aalyria''s developer surface includes documentation, API reference, getting-started guide, authentication, support, CLI, changelog, and 21 more developer resources.'
-random_paper: 13
+random_paper: 19
 score:
   band: thin
-  composite: 36.3
+  composite: 29.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 40.0
@@ -206,11 +208,11 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 70.8
-    discoverability: 78.6
-    operational_transparency: 26.3
-  previous_composite: 36.3
+    discoverability: 71.4
+    operational_transparency: 28.9
+  previous_composite: 29.9
   provenance:
     conformance: derived
     mcp: derived
@@ -221,14 +223,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aalyria/refs/heads/main/screenshots/aalyria-2026-08-07T160729.png
+screenshot: https://apis.io/screenshots/aalyria/aalyria-2026-08-07T160729.png
 security:
 - kind: authentication
   name: Aalyria Authentication
@@ -238,6 +240,18 @@ security:
   name: Aalyria Domain Security
   slug: aalyria-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 5
+skills:
+- name: Build and maintain the Spacetime network model
+  slug: aalyria-build-network-model
+- name: Connect to a Spacetime instance and verify credentials
+  slug: aalyria-connect-and-verify-instance
+- name: Federate capacity with a peer network operator
+  slug: aalyria-federate-with-peer-network
+- name: Operate a Spacetime SBI agent (control stream and telemetry)
+  slug: aalyria-operate-sbi-agent
+- name: Provision traffic-engineering intent and inspect the computed solution
+  slug: aalyria-provision-and-inspect-routes
 slug: aalyria
 tags:
 - Company

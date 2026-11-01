@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.2
-  scored_at: '2026-10-17'
+  score: 36.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 117
   slug: kore-wireless-agentic-access
   summary_line: 117 operations · 46 acting · 1 human-in-the-loop
-api_count: 16
+api_count: 8
 apis:
 - baseURL: https://api.korewireless.com/connectivity
   baseurl_source: declared
@@ -221,7 +223,7 @@ apis:
   description: The UsageRecords Resource API from KORE Wireless — 2 operation(s) for usagerecords resource.
   name: KORE Wireless UsageRecords Resource API
   slug: kore-wireless-usagerecords-resource-api
-artifact_total: 49
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Kore Wireless Event Streams Webhooks
@@ -252,73 +254,82 @@ collections:
   name: Webhook APIs
   slug: open-kore-wireless-webhook
 common:
+- group: commercial
+  href: https://artifacts.apis.io/kore-wireless/plans/kore-wireless-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kore-wireless-plans-pricing.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/kore-wireless/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/capabilities/kore-wireless-capability-edges.yml
+  href: https://artifacts.apis.io/kore-wireless/capabilities/kore-wireless-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kore-wireless-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-connectivity-pro-overlay.yaml
+  href: https://artifacts.apis.io/kore-wireless/overlays/kore-wireless-connectivity-pro-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-connectivity-pro-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-supersim-overlay.yaml
+  href: https://artifacts.apis.io/kore-wireless/overlays/kore-wireless-supersim-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-supersim-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-programmable-wireless-overlay.yaml
+  href: https://artifacts.apis.io/kore-wireless/overlays/kore-wireless-programmable-wireless-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-programmable-wireless-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-sms-overlay.yaml
+  href: https://artifacts.apis.io/kore-wireless/overlays/kore-wireless-sms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-sms-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-webhook-overlay.yaml
+  href: https://artifacts.apis.io/kore-wireless/overlays/kore-wireless-webhook-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-webhook-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-iam-overlay.yaml
+  href: https://artifacts.apis.io/kore-wireless/overlays/kore-wireless-iam-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-iam-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-api-clients-overlay.yaml
+  href: https://artifacts.apis.io/kore-wireless/overlays/kore-wireless-api-clients-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-api-clients-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/overlays/kore-wireless-token-overlay.yaml
+  href: https://artifacts.apis.io/kore-wireless/overlays/kore-wireless-token-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kore-wireless-token-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/agentic-access/kore-wireless-agentic-access.yml
+  href: https://artifacts.apis.io/kore-wireless/agentic-access/kore-wireless-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kore-wireless-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/security/kore-wireless-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kore-wireless/security/kore-wireless-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kore-wireless-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/security/kore-wireless-domain-security.yml
+  href: https://artifacts.apis.io/kore-wireless/security/kore-wireless-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kore-wireless-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/scopes/kore-wireless-scopes.yml
+  href: https://artifacts.apis.io/kore-wireless/scopes/kore-wireless-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kore-wireless-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/authentication/kore-wireless-authentication.yml
+  href: https://artifacts.apis.io/kore-wireless/authentication/kore-wireless-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kore-wireless-authentication.yml
@@ -415,83 +426,91 @@ common:
   type: Security
   url: https://www.korewireless.com/responsible-disclosure-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/llms/kore-wireless-llms.txt
+  href: https://artifacts.apis.io/kore-wireless/llms/kore-wireless-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kore-wireless-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/packages/kore-wireless-packages.yml
+  href: https://artifacts.apis.io/kore-wireless/packages/kore-wireless-packages.yml
   title: ''
   type: Packages
   url: packages/kore-wireless-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/packages/kore-wireless-packages.yml
+  href: https://artifacts.apis.io/kore-wireless/packages/kore-wireless-packages.yml
   title: ''
   type: SDKs
   url: packages/kore-wireless-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/mcp/kore-wireless-mcp.yml
+  href: https://artifacts.apis.io/kore-wireless/mcp/kore-wireless-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kore-wireless-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kore-wireless/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/conventions/kore-wireless-conventions.yml
+  href: https://artifacts.apis.io/kore-wireless/conventions/kore-wireless-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kore-wireless-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/conventions/kore-wireless-conventions.yml
+  href: https://artifacts.apis.io/kore-wireless/conventions/kore-wireless-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/kore-wireless-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/errors/kore-wireless-error-codes.yml
+  href: https://artifacts.apis.io/kore-wireless/errors/kore-wireless-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kore-wireless-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/errors/kore-wireless-problem-types.yml
+  href: https://artifacts.apis.io/kore-wireless/errors/kore-wireless-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kore-wireless-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/lifecycle/kore-wireless-lifecycle.yml
+  href: https://artifacts.apis.io/kore-wireless/lifecycle/kore-wireless-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kore-wireless-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/changelog/kore-wireless-changelog.yml
+  href: https://artifacts.apis.io/kore-wireless/changelog/kore-wireless-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kore-wireless-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/sandbox/kore-wireless-sandbox.yml
+  href: https://artifacts.apis.io/kore-wireless/sandbox/kore-wireless-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kore-wireless-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/conformance/kore-wireless-conformance.yml
+  href: https://artifacts.apis.io/kore-wireless/conformance/kore-wireless-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kore-wireless-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/asyncapi/kore-wireless-event-streams-webhooks.yml
+  href: https://artifacts.apis.io/kore-wireless/asyncapi/kore-wireless-event-streams-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kore-wireless-event-streams-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/data-model/kore-wireless-data-model.yml
+  href: https://artifacts.apis.io/kore-wireless/data-model/kore-wireless-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kore-wireless-data-model.yml
 created: '2026-07-25'
 description: 'KORE Wireless (KORE Group Holdings) is an Atlanta, Georgia headquartered global IoT connectivity provider operating as a mobile virtual network operator (MVNO) across more than 190 countries, with over 20 million IoT connections under management. KORE sits in the aggregator half of the telecom value chain: it does not own spectrum or radio access network, it resells and orchestrates multi-carrier cellular connectivity, eSIM/iSIM provisioning, device management, and IoT security as a service to enterprises in healthcare, fleet, logistics, utilities, and industrial automation. In 2024 KORE acquired the Twilio IoT business — Super SIM, Programmable Wireless, and Microvisor — inheriting a genuinely developer-first API surface, and it has kept that posture: KORE publishes eight OpenAPI 3.0 specifications in a public GitHub repository (github.com/korewireless/kore-openapi) with a make-based SDK generation workflow, an open GitBook documentation site at docs.korewireless.com requiring
   no login, self-serve account registration at console.korewireless.com, OAuth 2.0 client-credentials authorization, signed webhooks, and CloudEvents-formatted event streams. KORE publishes no CAMARA network APIs and is not a GSMA Open Gateway operator participant — as an MVNO it consumes carrier network capability rather than exposing it, and no CAMARA, Open Gateway, TM Forum, or NEF/SCEF reference appears anywhere in its documentation. In 2026 KORE was taken private by Searchlight Capital Partners and Abry Partners and delisted from the NYSE.'
+finops:
+- has_sources: true
+  method: derived
+  name: Kore Wireless Finops
+  primary_unit: minimum monthly spend per sim
+  service_category: ''
+  slug: kore-wireless-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-25'
@@ -504,31 +523,38 @@ overview: 'KORE Wireless publishes 35 API contracts indexed on the [APIs.io](htt
   The KORE Wireless catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  KORE Wireless'' developer surface includes authentication, documentation, API reference, developer console, signup flow, engineering blog, product news, and 45 more developer resources.'
-random_paper: 14
+  KORE Wireless'' developer surface includes authentication, documentation, API reference, developer console, signup flow, engineering blog, product news, and 47 more developer resources.'
+plans:
+- name: Kore Wireless Plans Pricing
+  plan_count: 7
+  slug: kore-wireless-plans-pricing
+- name: Kore Wireless Price Estimates
+  plan_count: 0
+  slug: kore-wireless-price-estimates
+random_paper: 12
 scopes:
 - name: Kore Wireless Scopes
   scope_count: 0
   slug: kore-wireless-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 47.1
+  band: strong
+  composite: 65.3
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 26
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.1
   facets:
-    access_clarity: 10.5
+    access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 54.3
-    developer_ergonomics: 63.7
-    discoverability: 79.5
-    operational_transparency: 42.1
+    contract_quality: 52.8
+    developer_ergonomics: 74.4
+    discoverability: 73.2
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -536,7 +562,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 47.1
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -552,14 +578,15 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 38.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 45.0
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/screenshots/kore-wireless-2026-08-07T171327.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kore-wireless/kore-wireless-2026-08-07T171327.png
 security:
 - kind: authentication
   name: Kore Wireless Authentication
@@ -573,6 +600,20 @@ security:
   name: Kore Wireless Vulnerability Disclosure
   slug: kore-wireless-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 6
+skills:
+- name: Authorize against KORE and manage API Clients
+  slug: kore-wireless-authorize-and-manage-api-clients
+- name: Exchange machine-to-machine messages with devices
+  slug: kore-wireless-exchange-device-messages
+- name: Register Super SIMs and control which networks they use
+  slug: kore-wireless-manage-super-sim-fleet
+- name: Provision and manage a KORE ConnectivityPro subscription
+  slug: kore-wireless-provision-connectivity-subscription
+- name: Receive and verify KORE webhooks and event streams
+  slug: kore-wireless-receive-and-verify-events
+- name: Report connectivity usage across KORE products
+  slug: kore-wireless-report-connectivity-usage
 slug: kore-wireless
 tags:
 - Telecommunications

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: GraphQL API powered by The Graph that indexes all on-chain Squeeth events on Ethereum mainnet. Enables developers to query oSQTH positions, short vaults, vault collateral and debt, funding (mark/index
@@ -56,7 +58,7 @@ common:
   type: Releases
   url: https://github.com/opynfinance/squeeth-monorepo/releases
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opyn/refs/heads/main/security/opyn-domain-security.yml
+  href: https://artifacts.apis.io/opyn/security/opyn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opyn-domain-security.yml
@@ -113,17 +115,17 @@ common:
   type: GraphExplorer
   url: https://thegraph.com/explorer/subgraphs/Ao1QSKEQzsnNyyGKR1Faurjmkr6oNVTbgdxy6diAw9r
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opyn/refs/heads/main/plans/opyn-plans-pricing.yml
+  href: https://artifacts.apis.io/opyn/plans/opyn-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/opyn-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opyn/refs/heads/main/rate-limits/opyn-rate-limits.yml
+  href: https://artifacts.apis.io/opyn/rate-limits/opyn-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/opyn-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opyn/refs/heads/main/finops/opyn-finops.yml
+  href: https://artifacts.apis.io/opyn/finops/opyn-finops.yml
   title: ''
   type: FinOps
   url: finops/opyn-finops.yml
@@ -155,14 +157,14 @@ plans:
 - name: Opyn Plans Pricing
   plan_count: 2
   slug: opyn-plans-pricing
-random_paper: 14
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Opyn Rate Limits
   slug: opyn-rate-limits
 score:
   band: emerging
-  composite: 23.1
+  composite: 23.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 45.0
@@ -170,29 +172,29 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 40.3
     developer_ergonomics: 14.3
     discoverability: 71.4
-    operational_transparency: 26.3
-  previous_composite: 30.0
+    operational_transparency: 28.9
+  previous_composite: 23.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/opyn/refs/heads/main/screenshots/opyn-2026-06-20T191115.png
+screenshot: https://apis.io/screenshots/opyn/opyn-2026-06-20T191115.png
 security:
 - kind: domain-security
   name: Opyn Domain Security

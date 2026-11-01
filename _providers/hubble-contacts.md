@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'Agent-facing commerce surface for the Hubble Contacts online store, implementing the Universal Commerce Protocol (UCP) over MCP/JSON-RPC. Hubble''s own /agents.md documents the flow: discover capabilit'
@@ -47,10 +49,10 @@ apis:
 - description: 'The Shopify Storefront GraphQL API as served on Hubble Contacts'' own host at /api/{version}/graphql.json. It answers unauthenticated: full introspection and real data queries both return 200 with no s'
   name: Hubble Contacts Storefront GraphQL API
   slug: hubble-contacts-storefront-graphql
-artifact_total: 7
+artifact_total: 10
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/security/hubble-contacts-domain-security.yml
+  href: https://artifacts.apis.io/hubble-contacts/security/hubble-contacts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hubble-contacts-domain-security.yml
@@ -99,77 +101,77 @@ common:
   type: Documentation
   url: https://account.hubblecontacts.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/llms/hubble-contacts-llms.txt
+  href: https://artifacts.apis.io/hubble-contacts/llms/hubble-contacts-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hubble-contacts-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/well-known/hubble-contacts-well-known.yml
+  href: https://artifacts.apis.io/hubble-contacts/well-known/hubble-contacts-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hubble-contacts-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/mcp/hubble-contacts-mcp.yml
+  href: https://artifacts.apis.io/hubble-contacts/mcp/hubble-contacts-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hubble-contacts-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/mcp/hubble-contacts-tool-crosswalk.yml
+  href: https://artifacts.apis.io/hubble-contacts/mcp/hubble-contacts-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/hubble-contacts-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/authentication/hubble-contacts-authentication.yml
+  href: https://artifacts.apis.io/hubble-contacts/authentication/hubble-contacts-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hubble-contacts-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/scopes/hubble-contacts-scopes.yml
+  href: https://artifacts.apis.io/hubble-contacts/scopes/hubble-contacts-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hubble-contacts-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/conformance/hubble-contacts-conformance.yml
+  href: https://artifacts.apis.io/hubble-contacts/conformance/hubble-contacts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hubble-contacts-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/errors/hubble-contacts-problem-types.yml
+  href: https://artifacts.apis.io/hubble-contacts/errors/hubble-contacts-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hubble-contacts-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/lifecycle/hubble-contacts-lifecycle.yml
+  href: https://artifacts.apis.io/hubble-contacts/lifecycle/hubble-contacts-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hubble-contacts-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/conventions/hubble-contacts-conventions.yml
+  href: https://artifacts.apis.io/hubble-contacts/conventions/hubble-contacts-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hubble-contacts-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/data-model/hubble-contacts-data-model.yml
+  href: https://artifacts.apis.io/hubble-contacts/data-model/hubble-contacts-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hubble-contacts-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hubble-contacts/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/graphql/hubble-contacts-storefront.graphql
+  href: https://artifacts.apis.io/hubble-contacts/graphql/hubble-contacts-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/hubble-contacts-storefront.graphql
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/collections/hubble-contacts-doctor-ecp.postman_collection.json
+  href: https://artifacts.apis.io/hubble-contacts/collections/hubble-contacts-doctor-ecp.postman_collection.json
   title: ''
   type: Postman
   url: collections/hubble-contacts-doctor-ecp.postman_collection.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/collections/hubble-contacts-collections.yml
+  href: https://artifacts.apis.io/hubble-contacts/collections/hubble-contacts-collections.yml
   title: ''
   type: PostmanCollection
   url: collections/hubble-contacts-collections.yml
@@ -190,7 +192,7 @@ overview: 'Hubble Contacts is listed with 3 APIs on the [APIs.io](https://apis.i
 
 
   Hubble Contacts'' developer surface includes signup flow, pricing, support, engineering blog, documentation, authentication, and 21 more developer resources.'
-random_paper: 16
+random_paper: 22
 scopes:
 - name: Hubble Contacts Scopes
   scope_count: 4
@@ -198,7 +200,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.3
+  composite: 31.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -208,12 +210,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 9.3
     developer_ergonomics: 35.1
-    discoverability: 80.0
-    operational_transparency: 2.6
+    discoverability: 70.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -221,7 +223,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 29.3
+  previous_composite: 31.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -231,15 +233,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 29.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 32.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hubble-contacts/refs/heads/main/screenshots/hubble-contacts-2026-08-07T170351.png
+screenshot: https://apis.io/screenshots/hubble-contacts/hubble-contacts-2026-08-07T170351.png
 security:
 - kind: authentication
   name: Hubble Contacts Authentication
@@ -249,6 +251,14 @@ security:
   name: Hubble Contacts Domain Security
   slug: hubble-contacts-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Buy from Hubble Contacts as an agent over UCP/MCP
+  slug: hubble-contacts-agent-checkout
+- name: Browse the Hubble Contacts catalog without authenticating
+  slug: hubble-contacts-browse-catalog
+- name: Query the Hubble Contacts storefront over GraphQL
+  slug: hubble-contacts-graphql-storefront
 slug: hubble-contacts
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Akur8 Deploy auto-generates a real-time REST rating endpoint from a finalized pricing model built in Akur8 Rate. A customer's policy admin system or quoting engine calls the generated endpoint to scor
@@ -43,12 +45,12 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/akur8/refs/heads/main/security/akur8-trust-center.yml
+  href: https://artifacts.apis.io/akur8/security/akur8-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/akur8-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/akur8/refs/heads/main/security/akur8-domain-security.yml
+  href: https://artifacts.apis.io/akur8/security/akur8-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/akur8-domain-security.yml
@@ -61,12 +63,12 @@ common:
   type: Website
   url: https://www.akur8.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/akur8/refs/heads/main/plans/akur8-plans-pricing.yml
+  href: https://artifacts.apis.io/akur8/plans/akur8-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/akur8-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/akur8/refs/heads/main/finops/akur8-finops.yml
+  href: https://artifacts.apis.io/akur8/finops/akur8-finops.yml
   title: ''
   type: FinOps
   url: finops/akur8-finops.yml
@@ -98,7 +100,7 @@ plans:
 - name: Akur8 Plans Pricing
   plan_count: 2
   slug: akur8-plans-pricing
-random_paper: 7
+random_paper: 11
 score:
   band: minimal
   composite: 9.7
@@ -109,7 +111,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
@@ -117,21 +119,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 14.0
+  previous_composite: 9.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/akur8/refs/heads/main/screenshots/akur8-2026-07-25T195528.png
+screenshot: https://apis.io/screenshots/akur8/akur8-2026-07-25T195528.png
 security:
 - kind: domain-security
   name: Akur8 Domain Security

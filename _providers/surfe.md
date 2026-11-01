@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.7
-  scored_at: '2026-10-17'
+  score: 48.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -103,15 +105,12 @@ apis:
     question: Which new accounts look like my best-fit customers?
   phrasing_ops: 2
   slug: surfe-recommendations-api
-artifact_total: 21
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Surfe Webhooks
   slug: surfe-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Surfe Account API
   slug: open-surfe-account-api
@@ -128,6 +127,11 @@ collections:
   name: Surfe API
   slug: open-surfe
 common:
+- group: other
+  href: https://artifacts.apis.io/surfe/capabilities/surfe-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/surfe-capability-edges.yml
 - group: company
   title: ''
   type: LinkedIn
@@ -141,32 +145,32 @@ common:
   type: Documentation
   url: https://developers.surfe.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/plans/surfe-plans-pricing.yml
+  href: https://artifacts.apis.io/surfe/plans/surfe-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/surfe-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/rate-limits/surfe-rate-limits.yml
+  href: https://artifacts.apis.io/surfe/rate-limits/surfe-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/surfe-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/finops/surfe-finops.yml
+  href: https://artifacts.apis.io/surfe/finops/surfe-finops.yml
   title: ''
   type: FinOps
   url: finops/surfe-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/agentic-access/surfe-agentic-access.yml
+  href: https://artifacts.apis.io/surfe/agentic-access/surfe-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/surfe-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/security/surfe-domain-security.yml
+  href: https://artifacts.apis.io/surfe/security/surfe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/surfe-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/authentication/surfe-authentication.yml
+  href: https://artifacts.apis.io/surfe/authentication/surfe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/surfe-authentication.yml
@@ -223,12 +227,12 @@ common:
   type: ChangeLog
   url: https://developers.surfe.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/changelog/surfe-changelog.yml
+  href: https://artifacts.apis.io/surfe/changelog/surfe-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/surfe-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/lifecycle/surfe-lifecycle.yml
+  href: https://artifacts.apis.io/surfe/lifecycle/surfe-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/surfe-lifecycle.yml
@@ -237,12 +241,12 @@ common:
   type: Security
   url: https://github.com/Surfe/surfer/blob/main/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/security/surfe-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/surfe/security/surfe-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/surfe-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/security/surfe-trust-center.yml
+  href: https://artifacts.apis.io/surfe/security/surfe-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/surfe-trust-center.yml
@@ -251,67 +255,67 @@ common:
   type: Compliance
   url: https://www.surfe.com/security/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/conformance/surfe-conformance.yml
+  href: https://artifacts.apis.io/surfe/conformance/surfe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/surfe-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/conventions/surfe-conventions.yml
+  href: https://artifacts.apis.io/surfe/conventions/surfe-conventions.yml
   title: ''
   type: Conventions
   url: conventions/surfe-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/errors/surfe-problem-types.yml
+  href: https://artifacts.apis.io/surfe/errors/surfe-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/surfe-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/data-model/surfe-data-model.yml
+  href: https://artifacts.apis.io/surfe/data-model/surfe-data-model.yml
   title: ''
   type: DataModel
   url: data-model/surfe-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/packages/surfe-packages.yml
+  href: https://artifacts.apis.io/surfe/packages/surfe-packages.yml
   title: ''
   type: Packages
   url: packages/surfe-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/cli/surfe-cli.yml
+  href: https://artifacts.apis.io/surfe/cli/surfe-cli.yml
   title: ''
   type: CLI
   url: cli/surfe-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/well-known/surfe-well-known.yml
+  href: https://artifacts.apis.io/surfe/well-known/surfe-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/surfe-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/mcp/surfe-mcp.yml
+  href: https://artifacts.apis.io/surfe/mcp/surfe-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/surfe-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/mcp/surfe-tool-crosswalk.yml
+  href: https://artifacts.apis.io/surfe/mcp/surfe-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/surfe-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/scopes/surfe-scopes.yml
+  href: https://artifacts.apis.io/surfe/scopes/surfe-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/surfe-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/asyncapi/surfe-webhooks.yml
+  href: https://artifacts.apis.io/surfe/asyncapi/surfe-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/surfe-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/surfe/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/llms/surfe-llms.txt
+  href: https://artifacts.apis.io/surfe/llms/surfe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/surfe-llms.txt
@@ -319,10 +323,10 @@ created: '2026-07-01'
 description: Surfe (formerly Leadjet) is a B2B contact-data and sales-intelligence platform that syncs LinkedIn prospects into the CRM and exposes an API for people and company search plus enrichment. The Surfe API returns verified business emails and mobile phone numbers, company firmographics, and lookalike account recommendations, billed against a credit-based model.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Surfe Finops
-  primary_unit: ''
-  service_category: Data and Analytics
+  primary_unit: user
+  service_category: ''
   slug: surfe-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/surfe.png
@@ -341,11 +345,14 @@ overview: 'Surfe publishes 4 API contracts indexed on the [APIs.io](https://apis
   The Surfe catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Surfe''s developer surface includes documentation, authentication, engineering blog, API reference, getting-started guide, support, pricing, and 34 more developer resources.'
+  Surfe''s developer surface includes documentation, authentication, engineering blog, API reference, getting-started guide, support, pricing, and 35 more developer resources.'
 plans:
 - name: Surfe Plans Pricing
-  plan_count: 4
+  plan_count: 8
   slug: surfe-plans-pricing
+- name: Surfe Price Estimates
+  plan_count: 0
+  slug: surfe-price-estimates
 random_paper: 21
 rate_limits:
 - limit_count: 10
@@ -358,23 +365,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 74.1
+  composite: 72.4
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 61.0
+    artifact_dirs: 28
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 58.9
     developer_ergonomics: 66.1
-    discoverability: 68.3
-    operational_transparency: 76.3
-  previous_composite: 75.6
+    discoverability: 65.0
+    operational_transparency: 86.8
+  previous_composite: 70.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -391,13 +398,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/surfe/refs/heads/main/screenshots/surfe-2026-08-17T080426.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/surfe/surfe-2026-08-17T080426.png
 security:
 - kind: authentication
   name: Surfe Authentication
@@ -415,6 +423,16 @@ security:
   name: Surfe Trust Center
   slug: surfe-trust-center
   summary_line: ISO 27001, GDPR
+skill_count: 4
+skills:
+- name: surfe-enrich-people-bulk
+  slug: surfe-enrich-people-bulk
+- name: surfe-icp-lookalike-recommendations
+  slug: surfe-icp-lookalike-recommendations
+- name: surfe-search-and-qualify-accounts
+  slug: surfe-search-and-qualify-accounts
+- name: surfer-cli-agent-prompt
+  slug: surfe-surfer-cli-agent-prompt
 slug: surfe
 tags:
 - B2B Data

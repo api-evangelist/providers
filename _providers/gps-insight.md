@@ -14,21 +14,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.4
-  scored_at: '2026-10-17'
+  score: 17.5
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gps-insight/refs/heads/main/changelog/gps-insight-changelog.yml
+  href: https://artifacts.apis.io/gps-insight/changelog/gps-insight-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gps-insight-changelog.yml
@@ -37,27 +39,27 @@ common:
   type: Compliance
   url: https://trust.gpsinsight.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gps-insight/refs/heads/main/llms/gps-insight-llms.txt
+  href: https://artifacts.apis.io/gps-insight/llms/gps-insight-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gps-insight-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gps-insight/refs/heads/main/well-known/gps-insight-status-security.txt
+  href: https://artifacts.apis.io/gps-insight/well-known/gps-insight-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/gps-insight-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gps-insight/refs/heads/main/well-known/gps-insight-well-known.yml
+  href: https://artifacts.apis.io/gps-insight/well-known/gps-insight-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gps-insight-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gps-insight/refs/heads/main/hosts/gps-insight-hosts.yml
+  href: https://artifacts.apis.io/gps-insight/hosts/gps-insight-hosts.yml
   title: ''
   type: Hosts
   url: hosts/gps-insight-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gps-insight/refs/heads/main/vendors/gps-insight-vendors.yml
+  href: https://artifacts.apis.io/gps-insight/vendors/gps-insight-vendors.yml
   title: ''
   type: Vendors
   url: vendors/gps-insight-vendors.yml
@@ -98,12 +100,12 @@ common:
   type: GettingStarted
   url: https://help.gpsinsight.com/feature/getting-started/?product=gpsportal
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gps-insight/refs/heads/main/security/gps-insight-trust-center.yml
+  href: https://artifacts.apis.io/gps-insight/security/gps-insight-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gps-insight-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gps-insight/refs/heads/main/security/gps-insight-domain-security.yml
+  href: https://artifacts.apis.io/gps-insight/security/gps-insight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gps-insight-domain-security.yml
@@ -133,10 +135,10 @@ overview: 'GPS Insight is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   GPS Insight''s developer surface includes changelog, support, engineering blog, getting-started guide, documentation, and 15 more developer resources.'
-random_paper: 11
+random_paper: 5
 score:
-  band: emerging
-  composite: 26.0
+  band: thin
+  composite: 26.7
   coverage:
     artifact_dirs: 7
     catalog_earned: 25.0
@@ -144,13 +146,15 @@ score:
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 55.4
-    operational_transparency: 31.6
+    discoverability: 48.2
+    operational_transparency: 42.1
+  previous_composite: 26.7
   provenance:
     mcp: unknown
   regulatory:
@@ -159,8 +163,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: OAuth-protected remote Model Context Protocol endpoint served from the AgentSmyth Kong Enterprise gateway. An unauthenticated POST of an MCP tools/list request returns HTTP 401 with an RFC 9728 WWW-Au
@@ -56,62 +58,62 @@ common:
   type: TrustCenter
   url: https://agentsmyth.com/institutional-trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/conformance/agentsmyth-conformance.yml
+  href: https://artifacts.apis.io/agentsmyth/conformance/agentsmyth-conformance.yml
   title: ''
   type: Compliance
   url: conformance/agentsmyth-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/llms/agentsmyth-llms.txt
+  href: https://artifacts.apis.io/agentsmyth/llms/agentsmyth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agentsmyth-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/well-known/agentsmyth-well-known.yml
+  href: https://artifacts.apis.io/agentsmyth/well-known/agentsmyth-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agentsmyth-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/mcp/agentsmyth-mcp.yml
+  href: https://artifacts.apis.io/agentsmyth/mcp/agentsmyth-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agentsmyth-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/authentication/agentsmyth-authentication.yml
+  href: https://artifacts.apis.io/agentsmyth/authentication/agentsmyth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agentsmyth-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/scopes/agentsmyth-scopes.yml
+  href: https://artifacts.apis.io/agentsmyth/scopes/agentsmyth-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/agentsmyth-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/conformance/agentsmyth-conformance.yml
+  href: https://artifacts.apis.io/agentsmyth/conformance/agentsmyth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agentsmyth-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/conventions/agentsmyth-conventions.yml
+  href: https://artifacts.apis.io/agentsmyth/conventions/agentsmyth-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agentsmyth-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/lifecycle/agentsmyth-lifecycle.yml
+  href: https://artifacts.apis.io/agentsmyth/lifecycle/agentsmyth-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agentsmyth-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/security/agentsmyth-domain-security.yml
+  href: https://artifacts.apis.io/agentsmyth/security/agentsmyth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agentsmyth-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/plans/agentsmyth-plans-pricing.yml
+  href: https://artifacts.apis.io/agentsmyth/plans/agentsmyth-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agentsmyth-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/rate-limits/agentsmyth-rate-limits.yml
+  href: https://artifacts.apis.io/agentsmyth/rate-limits/agentsmyth-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agentsmyth-rate-limits.yml
@@ -136,7 +138,7 @@ plans:
 - name: Agentsmyth Plans Pricing
   plan_count: 0
   slug: agentsmyth-plans-pricing
-random_paper: 14
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Agentsmyth Rate Limits
@@ -148,7 +150,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 22.3
+  composite: 25.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -156,15 +158,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 75.0
+    developer_ergonomics: 21.4
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 22.2
+  previous_composite: 25.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -174,14 +176,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 39.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/screenshots/agentsmyth-2026-10-11T093237.png
+screenshot: https://apis.io/screenshots/agentsmyth/agentsmyth-2026-10-11T093237.png
 security:
 - kind: authentication
   name: Agentsmyth Authentication

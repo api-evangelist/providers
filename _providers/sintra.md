@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sintra/refs/heads/main/security/sintra-domain-security.yml
+  href: https://artifacts.apis.io/sintra/security/sintra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sintra-domain-security.yml
@@ -82,22 +84,22 @@ common:
   type: PrivacyPolicy
   url: https://sintra.ai/legal/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sintra/refs/heads/main/llms/sintra-llms.txt
+  href: https://artifacts.apis.io/sintra/llms/sintra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sintra-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sintra/refs/heads/main/plans/sintra-plans-pricing.yml
+  href: https://artifacts.apis.io/sintra/plans/sintra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sintra-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sintra/refs/heads/main/rate-limits/sintra-rate-limits.yml
+  href: https://artifacts.apis.io/sintra/rate-limits/sintra-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sintra-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sintra/refs/heads/main/packages/sintra-packages.yml
+  href: https://artifacts.apis.io/sintra/packages/sintra-packages.yml
   title: ''
   type: Packages
   url: packages/sintra-packages.yml
@@ -143,14 +145,14 @@ plans:
 - name: Sintra Plans Pricing
   plan_count: 3
   slug: sintra-plans-pricing
-random_paper: 19
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Sintra Rate Limits
   slug: sintra-rate-limits
 score:
-  band: emerging
-  composite: 25.9
+  band: thin
+  composite: 26.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 39.0
@@ -158,29 +160,29 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 69.7
+    access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 55.4
-    operational_transparency: 7.9
-  previous_composite: 25.8
+    discoverability: 48.2
+    operational_transparency: 10.5
+  previous_composite: 26.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sintra/refs/heads/main/screenshots/sintra-2026-09-02T155630.png
+screenshot: https://apis.io/screenshots/sintra/sintra-2026-09-02T155630.png
 security:
 - kind: domain-security
   name: Sintra Domain Security

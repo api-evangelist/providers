@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Agent-driven commerce over the Universal Commerce Protocol (UCP) on the Nara Organics Shopify storefront — catalog search, cart, and buyer-approved checkout via a published MCP endpoint, plus an unaut
   name: Nara Organics Commerce (UCP)
   slug: nara-organics-commerce-ucp
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -50,52 +52,52 @@ common:
   type: BlogRSS
   url: https://nara.com/blogs/the-feed.atom
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nara-organics/refs/heads/main/mcp/nara-organics-mcp.yml
+  href: https://artifacts.apis.io/nara-organics/mcp/nara-organics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nara-organics-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nara-organics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nara-organics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nara-organics/refs/heads/main/llms/nara-organics-llms.txt
+  href: https://artifacts.apis.io/nara-organics/llms/nara-organics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nara-organics-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nara-organics/refs/heads/main/well-known/nara-organics-well-known.yml
+  href: https://artifacts.apis.io/nara-organics/well-known/nara-organics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nara-organics-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nara-organics/refs/heads/main/authentication/nara-organics-authentication.yml
+  href: https://artifacts.apis.io/nara-organics/authentication/nara-organics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nara-organics-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nara-organics/refs/heads/main/scopes/nara-organics-scopes.yml
+  href: https://artifacts.apis.io/nara-organics/scopes/nara-organics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nara-organics-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nara-organics/refs/heads/main/conventions/nara-organics-conventions.yml
+  href: https://artifacts.apis.io/nara-organics/conventions/nara-organics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nara-organics-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nara-organics/refs/heads/main/security/nara-organics-domain-security.yml
+  href: https://artifacts.apis.io/nara-organics/security/nara-organics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nara-organics-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nara-organics/refs/heads/main/conformance/nara-organics-conformance.yml
+  href: https://artifacts.apis.io/nara-organics/conformance/nara-organics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nara-organics-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nara-organics/refs/heads/main/lifecycle/nara-organics-lifecycle.yml
+  href: https://artifacts.apis.io/nara-organics/lifecycle/nara-organics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nara-organics-lifecycle.yml
@@ -131,7 +133,7 @@ overview: 'Nara Organics is listed with 1 API on the [APIs.io](https://apis.io/)
 
 
   Nara Organics'' developer surface includes engineering blog, authentication, documentation, and 13 more developer resources.'
-random_paper: 19
+random_paper: 21
 scopes:
 - name: Nara Organics Scopes
   scope_count: 4
@@ -139,7 +141,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 20.5
+  composite: 19.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 32.0
@@ -147,15 +149,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 31.0
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 20.0
+  previous_composite: 19.5
   provenance:
     conformance: derived
     mcp: platform-generated
@@ -166,14 +168,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nara-organics/refs/heads/main/screenshots/nara-organics-2026-08-07T184631.png
+screenshot: https://apis.io/screenshots/nara-organics/nara-organics-2026-08-07T184631.png
 security:
 - kind: authentication
   name: Nara Organics Authentication
@@ -183,6 +185,10 @@ security:
   name: Nara Organics Domain Security
   slug: nara-organics-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Buy from Nara Organics (UCP agent commerce)
+  slug: nara-organics-agent-purchase
 slug: nara-organics
 tags:
 - Company

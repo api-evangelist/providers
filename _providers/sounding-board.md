@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +55,7 @@ common:
   type: PrivacyPolicy
   url: https://www.soundingboardinc.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sounding-board/refs/heads/main/security/sounding-board-domain-security.yml
+  href: https://artifacts.apis.io/sounding-board/security/sounding-board-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sounding-board-domain-security.yml
@@ -69,7 +71,7 @@ overview: 'Sounding Board is profiled on the [APIs.io](https://apis.io/) network
 
 
   Sounding Board''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 6
+random_paper: 20
 score:
   band: minimal
   composite: 8.8
@@ -95,14 +97,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sounding-board/refs/heads/main/screenshots/sounding-board-2026-09-02T160243.png
+screenshot: https://apis.io/screenshots/sounding-board/sounding-board-2026-09-02T160243.png
 security:
 - kind: domain-security
   name: Sounding Board Domain Security

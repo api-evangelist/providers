@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Public-facing presence of Electronic Arts. Covers EA's corporate site, consumer game services, the EA app, EA Play subscription, and EA Help support surfaces. EA does not publish a developer API porta
@@ -49,22 +51,22 @@ apis:
 artifact_total: 10
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/rate-limits/electronic-arts-rate-limits.yml
+  href: https://artifacts.apis.io/electronic-arts/rate-limits/electronic-arts-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/electronic-arts-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/finops/electronic-arts-finops.yml
+  href: https://artifacts.apis.io/electronic-arts/finops/electronic-arts-finops.yml
   title: ''
   type: FinOps
   url: finops/electronic-arts-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/security/electronic-arts-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/electronic-arts/security/electronic-arts-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/electronic-arts-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/security/electronic-arts-domain-security.yml
+  href: https://artifacts.apis.io/electronic-arts/security/electronic-arts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/electronic-arts-domain-security.yml
@@ -101,47 +103,47 @@ common:
   type: Blog
   url: https://www.ea.com/news
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/well-known/electronic-arts-well-known.yml
+  href: https://artifacts.apis.io/electronic-arts/well-known/electronic-arts-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/electronic-arts-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/authentication/electronic-arts-authentication.yml
+  href: https://artifacts.apis.io/electronic-arts/authentication/electronic-arts-authentication.yml
   title: ''
   type: Authentication
   url: authentication/electronic-arts-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/scopes/electronic-arts-scopes.yml
+  href: https://artifacts.apis.io/electronic-arts/scopes/electronic-arts-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/electronic-arts-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/conformance/electronic-arts-conformance.yml
+  href: https://artifacts.apis.io/electronic-arts/conformance/electronic-arts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/electronic-arts-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/conventions/electronic-arts-conventions.yml
+  href: https://artifacts.apis.io/electronic-arts/conventions/electronic-arts-conventions.yml
   title: ''
   type: Conventions
   url: conventions/electronic-arts-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/lifecycle/electronic-arts-lifecycle.yml
+  href: https://artifacts.apis.io/electronic-arts/lifecycle/electronic-arts-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/electronic-arts-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/packages/electronic-arts-packages.yml
+  href: https://artifacts.apis.io/electronic-arts/packages/electronic-arts-packages.yml
   title: ''
   type: Packages
   url: packages/electronic-arts-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/plans/electronic-arts-plans-pricing.yml
+  href: https://artifacts.apis.io/electronic-arts/plans/electronic-arts-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/electronic-arts-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/llms/electronic-arts-llms.txt
+  href: https://artifacts.apis.io/electronic-arts/llms/electronic-arts-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/electronic-arts-llms.txt
@@ -209,7 +211,7 @@ press:
 - date: ''
   title: EA and Stability AI partner to empower artists, designers, ...
   url: https://www.ea.com/news/ea-partners-with-stability-ai
-random_paper: 11
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Electronic Arts Rate Limits
@@ -221,20 +223,20 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 32.1
+  composite: 33.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 43.0
     catalog_earned_first_party: 8.0
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 28.6
     discoverability: 62.5
     operational_transparency: 39.5
   previous_composite: 33.6
@@ -246,14 +248,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/screenshots/electronic-arts-2026-06-20T180553.png
+screenshot: https://apis.io/screenshots/electronic-arts/electronic-arts-2026-06-20T180553.png
 security:
 - kind: authentication
   name: Electronic Arts Authentication

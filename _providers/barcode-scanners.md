@@ -4,6 +4,6 @@ layout: provider
 name: barcode-scanners
 nav: Providers
 network: true
-random_paper: 20
+random_paper: 18
 slug: barcode-scanners
 ---

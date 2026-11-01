@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,22 +59,22 @@ common:
   type: Blog
   url: https://01exchange.medium.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/01-exchange/refs/heads/main/packages/01-exchange-packages.yml
+  href: https://artifacts.apis.io/01-exchange/packages/01-exchange-packages.yml
   title: ''
   type: Packages
   url: packages/01-exchange-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/01-exchange/refs/heads/main/packages/01-exchange-packages.yml
+  href: https://artifacts.apis.io/01-exchange/packages/01-exchange-packages.yml
   title: ''
   type: SDKs
   url: packages/01-exchange-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/01-exchange/refs/heads/main/llms/01-exchange-llms.txt
+  href: https://artifacts.apis.io/01-exchange/llms/01-exchange-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/01-exchange-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/01-exchange/refs/heads/main/security/01-exchange-domain-security.yml
+  href: https://artifacts.apis.io/01-exchange/security/01-exchange-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/01-exchange-domain-security.yml
@@ -88,10 +90,10 @@ overview: '01 Exchange is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   01 Exchange''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
   band: minimal
-  composite: 7.4
+  composite: 7.1
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -105,23 +107,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 7.4
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 7.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 5.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/01-exchange/refs/heads/main/screenshots/01-exchange-2026-07-25T181029.png
+screenshot: https://apis.io/screenshots/01-exchange/01-exchange-2026-07-25T181029.png
 security:
 - kind: domain-security
   name: 01 Exchange Domain Security

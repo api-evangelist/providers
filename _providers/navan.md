@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.0
-  scored_at: '2026-10-17'
+  score: 30.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -79,11 +81,8 @@ apis:
   description: Webhook subscription management for change notifications. MODELED.
   name: Navan Webhooks API
   slug: navan-webhooks-api
-artifact_total: 25
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Navan Bookings API
   slug: open-navan-bookings-api
@@ -109,28 +108,33 @@ collections:
   name: Navan API
   slug: open-navan
 common:
+- group: other
+  href: https://artifacts.apis.io/navan/capabilities/navan-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/navan-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/agentic-access/navan-agentic-access.yml
+  href: https://artifacts.apis.io/navan/agentic-access/navan-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/navan-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/security/navan-trust-center.yml
+  href: https://artifacts.apis.io/navan/security/navan-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/navan-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/security/navan-domain-security.yml
+  href: https://artifacts.apis.io/navan/security/navan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/navan-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/authentication/navan-authentication.yml
+  href: https://artifacts.apis.io/navan/authentication/navan-authentication.yml
   title: ''
   type: Authentication
   url: authentication/navan-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/scopes/navan-scopes.yml
+  href: https://artifacts.apis.io/navan/scopes/navan-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/navan-scopes.yml
@@ -151,17 +155,17 @@ common:
   type: Documentation
   url: https://developer.navan.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/plans/navan-plans-pricing.yml
+  href: https://artifacts.apis.io/navan/plans/navan-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/navan-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/rate-limits/navan-rate-limits.yml
+  href: https://artifacts.apis.io/navan/rate-limits/navan-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/navan-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/finops/navan-finops.yml
+  href: https://artifacts.apis.io/navan/finops/navan-finops.yml
   title: ''
   type: FinOps
   url: finops/navan-finops.yml
@@ -192,7 +196,7 @@ network: true
 overview: 'Navan publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bookings API, Custom Fields API, Fees and Adjustments API, and 4 more. Tagged areas include Corporate Travel, Expense Management, Corporate Cards, Spend Management, and T&E.
 
 
-  Navan''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+  Navan''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Navan Plans Pricing
   plan_count: 3
@@ -209,23 +213,23 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: thin
-  composite: 31.1
+  composite: 31.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 53.2
+    contract_quality: 49.8
     developer_ergonomics: 32.1
-    discoverability: 68.3
-    operational_transparency: 10.5
-  previous_composite: 39.4
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 31.0
   provenance:
     agentic_access: derived
     contracts:
@@ -240,13 +244,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 24.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/screenshots/navan-2026-08-07T184736.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/navan/navan-2026-08-07T184736.png
 security:
 - kind: authentication
   name: Navan Authentication

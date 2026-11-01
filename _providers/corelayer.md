@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,22 +25,24 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.3
-  scored_at: '2026-10-17'
+  score: 24.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Corelayer v1 REST API (api/v1) provides programmatic access to issues, groups, integrations, events, anomaly configs, deep research, API keys, and settings. It uses API-key authentication with rol
   name: Corelayer API
   slug: corelayer-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Corelayer Webhooks
@@ -75,7 +77,7 @@ common:
   type: Blog
   url: https://www.corelayer.com/blog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/changelog/corelayer-changelog.yml
+  href: https://artifacts.apis.io/corelayer/changelog/corelayer-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/corelayer-changelog.yml
@@ -116,67 +118,67 @@ common:
   type: Compliance
   url: https://trust.corelayer.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/llms/corelayer-llms.txt
+  href: https://artifacts.apis.io/corelayer/llms/corelayer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/corelayer-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/mcp/corelayer-mcp.yml
+  href: https://artifacts.apis.io/corelayer/mcp/corelayer-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/corelayer-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/cli/corelayer-cli.yml
+  href: https://artifacts.apis.io/corelayer/cli/corelayer-cli.yml
   title: ''
   type: CLI
   url: cli/corelayer-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/corelayer/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/packages/corelayer-packages.yml
+  href: https://artifacts.apis.io/corelayer/packages/corelayer-packages.yml
   title: ''
   type: Packages
   url: packages/corelayer-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/packages/corelayer-packages.yml
+  href: https://artifacts.apis.io/corelayer/packages/corelayer-packages.yml
   title: ''
   type: SDKs
   url: packages/corelayer-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/authentication/corelayer-authentication.yml
+  href: https://artifacts.apis.io/corelayer/authentication/corelayer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/corelayer-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/conventions/corelayer-conventions.yml
+  href: https://artifacts.apis.io/corelayer/conventions/corelayer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/corelayer-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/asyncapi/corelayer-webhooks.yml
+  href: https://artifacts.apis.io/corelayer/asyncapi/corelayer-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/corelayer-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/lifecycle/corelayer-lifecycle.yml
+  href: https://artifacts.apis.io/corelayer/lifecycle/corelayer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/corelayer-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/conformance/corelayer-conformance.yml
+  href: https://artifacts.apis.io/corelayer/conformance/corelayer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/corelayer-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/security/corelayer-domain-security.yml
+  href: https://artifacts.apis.io/corelayer/security/corelayer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/corelayer-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/well-known/corelayer-well-known.yml
+  href: https://artifacts.apis.io/corelayer/well-known/corelayer-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/corelayer-well-known.yml
@@ -211,26 +213,26 @@ overview: 'Corelayer is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Corelayer''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 20
+random_paper: 6
 score:
   band: developing
-  composite: 50.5
+  composite: 52.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 73.2
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 39.5
-  previous_composite: 50.4
+  previous_composite: 52.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -241,14 +243,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/screenshots/corelayer-2026-07-25T210427.png
+screenshot: https://apis.io/screenshots/corelayer/corelayer-2026-07-25T210427.png
 security:
 - kind: authentication
   name: Corelayer Authentication
@@ -262,6 +264,12 @@ security:
   name: Corelayer Trust Center
   slug: corelayer-trust-center
   summary_line: SOC 2 Type II
+skill_count: 2
+skills:
+- name: Preflight a change against org memory before a PR
+  slug: corelayer-preflight-a-change
+- name: Triage production issues with Corelayer
+  slug: corelayer-triage-production-issues
 slug: corelayer
 tags:
 - Company

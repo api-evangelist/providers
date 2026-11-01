@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 295
   human_in_the_loop: 4
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 546
   slug: openpath-agentic-access
   summary_line: 546 operations · 295 acting · 4 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.openpath.com
   baseurl_source: declared
@@ -489,11 +491,8 @@ apis:
   description: Token use and validation
   name: Openpath Tokens API
   slug: openpath-tokens-api
-artifact_total: 183
+artifact_total: 185
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Openpath API Documentation auth API
   slug: open-openpath-auth-api
@@ -771,7 +770,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/motorola-solutions/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/capabilities/openpath-capability-edges.yml
+  href: https://artifacts.apis.io/openpath/capabilities/openpath-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/openpath-capability-edges.yml
@@ -796,67 +795,67 @@ common:
   type: Login
   url: https://control.openpath.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/authentication/openpath-authentication.yml
+  href: https://artifacts.apis.io/openpath/authentication/openpath-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openpath-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/scopes/openpath-scopes.yml
+  href: https://artifacts.apis.io/openpath/scopes/openpath-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/openpath-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/well-known/openpath-well-known.yml
+  href: https://artifacts.apis.io/openpath/well-known/openpath-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/openpath-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/conventions/openpath-conventions.yml
+  href: https://artifacts.apis.io/openpath/conventions/openpath-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openpath-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/errors/openpath-error-codes.yml
+  href: https://artifacts.apis.io/openpath/errors/openpath-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/openpath-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/lifecycle/openpath-lifecycle.yml
+  href: https://artifacts.apis.io/openpath/lifecycle/openpath-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openpath-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/conformance/openpath-conformance.yml
+  href: https://artifacts.apis.io/openpath/conformance/openpath-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openpath-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/data-model/openpath-data-model.yml
+  href: https://artifacts.apis.io/openpath/data-model/openpath-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openpath-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/mcp/openpath-mcp.yml
+  href: https://artifacts.apis.io/openpath/mcp/openpath-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/openpath-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/llms/openpath-llms.txt
+  href: https://artifacts.apis.io/openpath/llms/openpath-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openpath-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/openpath/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/agentic-access/openpath-agentic-access.yml
+  href: https://artifacts.apis.io/openpath/agentic-access/openpath-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openpath-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/security/openpath-domain-security.yml
+  href: https://artifacts.apis.io/openpath/security/openpath-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openpath-domain-security.yml
@@ -876,7 +875,7 @@ overview: 'Openpath publishes 89 API contracts indexed on the [APIs.io](https://
 
 
   Openpath''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, and 17 more developer resources.'
-random_paper: 5
+random_paper: 23
 scopes:
 - name: Openpath Scopes
   scope_count: 3
@@ -884,7 +883,7 @@ scopes:
   summary_line: 3 scopes
 score:
   band: thin
-  composite: 33.1
+  composite: 33.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -892,15 +891,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 43.4
-    developer_ergonomics: 35.1
-    discoverability: 73.2
+    developer_ergonomics: 54.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 32.5
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -917,13 +916,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/screenshots/openpath-2026-08-07T190619.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openpath/openpath-2026-08-07T190619.png
 security:
 - kind: authentication
   name: Openpath Authentication
@@ -933,6 +933,14 @@ security:
   name: Openpath Domain Security
   slug: openpath-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Authenticate with the Openpath API
+  slug: openpath-authenticate
+- name: Onboard a user and grant them a credential
+  slug: openpath-grant-user-access
+- name: Provision a door (entry) and attach hardware
+  slug: openpath-provision-entry
 slug: openpath
 tags:
 - Company

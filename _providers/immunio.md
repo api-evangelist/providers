@@ -12,12 +12,12 @@ api_count: 0
 artifact_total: 0
 common:
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/immunio/refs/heads/main/packages/immunio-packages.yml
+  href: https://artifacts.apis.io/immunio/packages/immunio-packages.yml
   title: ''
   type: Packages
   url: packages/immunio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/immunio/refs/heads/main/packages/immunio-packages.yml
+  href: https://artifacts.apis.io/immunio/packages/immunio-packages.yml
   title: ''
   type: SDKs
   url: packages/immunio-packages.yml
@@ -38,8 +38,8 @@ name: Immunio
 nav: Providers
 network: true
 overview: Immunio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Application Security, RASP, and Runtime Application Self-Protection.
-random_paper: 18
-screenshot: https://raw.githubusercontent.com/api-evangelist/immunio/refs/heads/main/screenshots/immunio-2026-07-25T222138.png
+random_paper: 22
+screenshot: https://apis.io/screenshots/immunio/immunio-2026-07-25T222138.png
 slug: immunio
 tags:
 - Company

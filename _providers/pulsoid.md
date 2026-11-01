@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.1
-  scored_at: '2026-10-17'
+  score: 21.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -84,11 +86,8 @@ apis:
   description: The OAuth2 API from Pulsoid — 4 operation(s) for oauth2.
   name: Pulsoid O Auth2 API
   slug: pulsoid-oauth2-api
-artifact_total: 25
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Pulsoid Features API
   slug: open-pulsoid-features-api
@@ -118,17 +117,17 @@ collections:
   slug: open-pulsoid
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/plans/pulsoid-plans-pricing.yml
+  href: https://artifacts.apis.io/pulsoid/plans/pulsoid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pulsoid-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/rate-limits/pulsoid-rate-limits.yml
+  href: https://artifacts.apis.io/pulsoid/rate-limits/pulsoid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pulsoid-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/finops/pulsoid-finops.yml
+  href: https://artifacts.apis.io/pulsoid/finops/pulsoid-finops.yml
   title: ''
   type: FinOps
   url: finops/pulsoid-finops.yml
@@ -137,22 +136,22 @@ common:
   type: BlogRSS
   url: https://blog.pulsoid.net/blog-feed.xml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/agentic-access/pulsoid-agentic-access.yml
+  href: https://artifacts.apis.io/pulsoid/agentic-access/pulsoid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pulsoid-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/security/pulsoid-domain-security.yml
+  href: https://artifacts.apis.io/pulsoid/security/pulsoid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pulsoid-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/authentication/pulsoid-authentication.yml
+  href: https://artifacts.apis.io/pulsoid/authentication/pulsoid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pulsoid-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/scopes/pulsoid-scopes.yml
+  href: https://artifacts.apis.io/pulsoid/scopes/pulsoid-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pulsoid-scopes.yml
@@ -198,7 +197,7 @@ finops:
 - has_sources: false
   method: generated
   name: Pulsoid Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: pulsoid-finops
   template: true
@@ -216,7 +215,7 @@ plans:
 - name: Pulsoid Plans Pricing
   plan_count: 3
   slug: pulsoid-plans-pricing
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Pulsoid Rate Limits
@@ -227,8 +226,8 @@ scopes:
   slug: pulsoid-scopes
   summary_line: 9 scopes · implicit/authorizationCode
 score:
-  band: emerging
-  composite: 25.6
+  band: thin
+  composite: 30.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -236,15 +235,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 14.5
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 44.8
-    developer_ergonomics: 9.5
+    developer_ergonomics: 21.4
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 27.1
+    operational_transparency: 13.2
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -258,13 +257,14 @@ score:
     regime: Health
     regime_id: health
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/screenshots/pulsoid-2026-06-20T192309.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pulsoid/pulsoid-2026-06-20T192309.png
 security:
 - kind: authentication
   name: Pulsoid Authentication

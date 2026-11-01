@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'REST API (apiv2) for searching and retrieving log events: initiate a search to get an RSID, then page results via the events/iterate endpoints, enumerate indexed fields with the fields/facet API, and '
@@ -50,7 +52,7 @@ common:
   type: Website
   url: https://www.solarwinds.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/security/loggly-domain-security.yml
+  href: https://artifacts.apis.io/loggly/security/loggly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/loggly-domain-security.yml
@@ -107,32 +109,32 @@ common:
   type: TrustCenter
   url: https://www.solarwinds.com/trust-center
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/packages/loggly-packages.yml
+  href: https://artifacts.apis.io/loggly/packages/loggly-packages.yml
   title: ''
   type: Packages
   url: packages/loggly-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/packages/loggly-packages.yml
+  href: https://artifacts.apis.io/loggly/packages/loggly-packages.yml
   title: ''
   type: SDKs
   url: packages/loggly-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/authentication/loggly-authentication.yml
+  href: https://artifacts.apis.io/loggly/authentication/loggly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/loggly-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/conventions/loggly-conventions.yml
+  href: https://artifacts.apis.io/loggly/conventions/loggly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/loggly-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/errors/loggly-error-codes.yml
+  href: https://artifacts.apis.io/loggly/errors/loggly-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/loggly-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/lifecycle/loggly-lifecycle.yml
+  href: https://artifacts.apis.io/loggly/lifecycle/loggly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/loggly-lifecycle.yml
@@ -141,12 +143,12 @@ common:
   type: Deprecation
   url: https://www.solarwinds.com/eol
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/changelog/loggly-changelog.yml
+  href: https://artifacts.apis.io/loggly/changelog/loggly-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/loggly-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/conformance/loggly-conformance.yml
+  href: https://artifacts.apis.io/loggly/conformance/loggly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/loggly-conformance.yml
@@ -155,7 +157,7 @@ common:
   type: Compliance
   url: https://www.solarwinds.com/trust-center
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/security/loggly-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/loggly/security/loggly-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/loggly-vulnerability-disclosure.yml
@@ -164,12 +166,12 @@ common:
   type: Security
   url: https://www.solarwinds.com/information-security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/mcp/loggly-mcp.yml
+  href: https://artifacts.apis.io/loggly/mcp/loggly-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/loggly-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/llms/loggly-llms.txt
+  href: https://artifacts.apis.io/loggly/llms/loggly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/loggly-llms.txt
@@ -185,10 +187,10 @@ overview: 'Loggly is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Loggly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 16
+random_paper: 6
 score:
-  band: thin
-  composite: 36.3
+  band: developing
+  composite: 44.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -198,13 +200,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 50.0
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 42.9
-    discoverability: 73.2
-    operational_transparency: 44.7
-  previous_composite: 36.3
+    developer_ergonomics: 64.3
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 44.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -217,15 +219,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/screenshots/loggly-2026-07-25T225459.png
+screenshot: https://apis.io/screenshots/loggly/loggly-2026-07-25T225459.png
 security:
 - kind: authentication
   name: Loggly Authentication

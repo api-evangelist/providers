@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -96,11 +98,8 @@ apis:
   description: User management endpoints
   name: Swimlane Users API
   slug: swimlane-users-api
-artifact_total: 36
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Swimlane REST Applications API
   slug: open-swimlane-applications-api
@@ -130,22 +129,22 @@ collections:
   slug: open-swimlane-users-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/agentic-access/swimlane-agentic-access.yml
+  href: https://artifacts.apis.io/swimlane/agentic-access/swimlane-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/swimlane-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/security/swimlane-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/swimlane/security/swimlane-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/swimlane-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/security/swimlane-domain-security.yml
+  href: https://artifacts.apis.io/swimlane/security/swimlane-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/swimlane-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/authentication/swimlane-authentication.yml
+  href: https://artifacts.apis.io/swimlane/authentication/swimlane-authentication.yml
   title: ''
   type: Authentication
   url: authentication/swimlane-authentication.yml
@@ -178,17 +177,17 @@ common:
   type: X
   url: https://twitter.com/swimlane
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/plans/swimlane-plans-pricing.yml
+  href: https://artifacts.apis.io/swimlane/plans/swimlane-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/swimlane-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/rate-limits/swimlane-rate-limits.yml
+  href: https://artifacts.apis.io/swimlane/rate-limits/swimlane-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/swimlane-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/finops/swimlane-finops.yml
+  href: https://artifacts.apis.io/swimlane/finops/swimlane-finops.yml
   title: ''
   type: FinOps
   url: finops/swimlane-finops.yml
@@ -244,7 +243,7 @@ plans:
 - name: Swimlane Plans Pricing
   plan_count: 2
   slug: swimlane-plans-pricing
-random_paper: 6
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Swimlane Rate Limits
@@ -263,7 +262,7 @@ rules:
   slug: swimlane-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.7
+  composite: 33.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 55.3
@@ -271,15 +270,15 @@ score:
     catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 56.7
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 37.7
+    operational_transparency: 21.1
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -293,13 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/screenshots/swimlane-2026-06-20T194822.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/swimlane/swimlane-2026-06-20T194822.png
 security:
 - kind: authentication
   name: Swimlane Authentication

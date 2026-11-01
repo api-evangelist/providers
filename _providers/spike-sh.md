@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.5
-  scored_at: '2026-10-17'
+  score: 44.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -131,11 +133,8 @@ apis:
   description: User management endpoints
   name: Spike.sh Users API
   slug: spike-sh-users-api
-artifact_total: 52
+artifact_total: 51
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Spike.sh Alert Rules API
   slug: open-spike-sh-alert-rules-api
@@ -189,22 +188,22 @@ collections:
   slug: open-spike-sh-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/capabilities/spike-sh-capability-edges.yml
+  href: https://artifacts.apis.io/spike-sh/capabilities/spike-sh-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spike-sh-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/agentic-access/spike-sh-agentic-access.yml
+  href: https://artifacts.apis.io/spike-sh/agentic-access/spike-sh-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spike-sh-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/security/spike-sh-domain-security.yml
+  href: https://artifacts.apis.io/spike-sh/security/spike-sh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spike-sh-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/authentication/spike-sh-authentication.yml
+  href: https://artifacts.apis.io/spike-sh/authentication/spike-sh-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spike-sh-authentication.yml
@@ -241,17 +240,17 @@ common:
   type: X
   url: https://twitter.com/spikedhq
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/plans/spike-sh-plans-pricing.yml
+  href: https://artifacts.apis.io/spike-sh/plans/spike-sh-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spike-sh-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/rate-limits/spike-sh-rate-limits.yml
+  href: https://artifacts.apis.io/spike-sh/rate-limits/spike-sh-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spike-sh-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/finops/spike-sh-finops.yml
+  href: https://artifacts.apis.io/spike-sh/finops/spike-sh-finops.yml
   title: ''
   type: FinOps
   url: finops/spike-sh-finops.yml
@@ -340,7 +339,7 @@ rules:
   slug: spike-sh-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.1
+  composite: 33.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 54.3
@@ -348,15 +347,15 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 57.7
     developer_ergonomics: 23.8
-    discoverability: 68.3
+    discoverability: 65.0
     operational_transparency: 21.1
-  previous_composite: 38.8
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -371,13 +370,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/screenshots/spike-sh-2026-06-20T194313.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spike-sh/spike-sh-2026-06-20T194313.png
 security:
 - kind: authentication
   name: Spike Sh Authentication

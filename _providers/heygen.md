@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.5
-  scored_at: '2026-10-17'
+  score: 42.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 53
   slug: heygen-agentic-access
   summary_line: 53 operations · 30 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: The HeyGen REST API exposes video generation, avatar management, text-to-speech (Starfish), video translation, and lipsync capabilities. It supports avatar videos generated from a single text prompt v
   name: HeyGen API
@@ -112,9 +114,6 @@ apis:
 artifact_total: 36
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: HeyGen Account API
   slug: open-heygen-account-api
 - collection_type: open
@@ -155,47 +154,47 @@ collections:
   slug: open-heygen
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/plans/heygen-plans-pricing.yml
+  href: https://artifacts.apis.io/heygen/plans/heygen-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/heygen-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/rate-limits/heygen-rate-limits.yml
+  href: https://artifacts.apis.io/heygen/rate-limits/heygen-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/heygen-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/finops/heygen-finops.yml
+  href: https://artifacts.apis.io/heygen/finops/heygen-finops.yml
   title: ''
   type: FinOps
   url: finops/heygen-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/capabilities/heygen-capability-edges.yml
+  href: https://artifacts.apis.io/heygen/capabilities/heygen-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/heygen-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/agentic-access/heygen-agentic-access.yml
+  href: https://artifacts.apis.io/heygen/agentic-access/heygen-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/heygen-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/security/heygen-trust-center.yml
+  href: https://artifacts.apis.io/heygen/security/heygen-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/heygen-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/security/heygen-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/heygen/security/heygen-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/heygen-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/security/heygen-domain-security.yml
+  href: https://artifacts.apis.io/heygen/security/heygen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/heygen-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/authentication/heygen-authentication.yml
+  href: https://artifacts.apis.io/heygen/authentication/heygen-authentication.yml
   title: ''
   type: Authentication
   url: authentication/heygen-authentication.yml
@@ -242,13 +241,13 @@ common:
 created: '2026-05-23'
 description: HeyGen is an AI video generation platform that creates studio-quality avatar videos, voice clones, and translated video content from simple text prompts. The product line includes Avatar V (digital twins), Photo Avatar, Avatar IV, the Starfish text-to-speech engine, the Video Agent API, Video Translation, and Lipsync. HeyGen serves sales, marketing, e-learning, and localization teams with both self-serve pay-as-you-go API access (starting at a $5 minimum) and enterprise contracts. The company is SOC 2 Type II and GDPR compliant and has powered 50M+ generated videos.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Heygen Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: heygen-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heygen.png
 layout: provider
 mcp_servers:
@@ -265,32 +264,35 @@ overview: 'HeyGen publishes 13 API contracts indexed on the [APIs.io](https://ap
   HeyGen''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 14 more developer resources.'
 plans:
 - name: Heygen Plans Pricing
-  plan_count: 1
+  plan_count: 5
   slug: heygen-plans-pricing
-random_paper: 2
+- name: Heygen Price Estimates
+  plan_count: 0
+  slug: heygen-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Heygen Rate Limits
   slug: heygen-rate-limits
 score:
   band: developing
-  composite: 39.7
+  composite: 50.8
   coverage:
     artifact_dirs: 16
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_earned: 54.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.6
+  delta: 3.6
   facets:
-    access_clarity: 57.9
+    access_clarity: 92.1
     contract_governance: 0.0
     contract_quality: 49.8
-    developer_ergonomics: 23.8
-    discoverability: 75.0
-    operational_transparency: 21.1
-  previous_composite: 46.3
+    developer_ergonomics: 35.7
+    discoverability: 73.2
+    operational_transparency: 31.6
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     contracts:
@@ -305,13 +307,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/screenshots/heygen-2026-06-20T182718.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/heygen/heygen-2026-06-20T182718.png
 security:
 - kind: authentication
   name: Heygen Authentication

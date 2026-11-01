@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -96,15 +98,12 @@ apis:
   description: The Tracks API from Agile CRM — 2 operation(s) for tracks.
   name: Agile CRM Tracks API
   slug: agile-crm-tracks-api
-artifact_total: 29
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Agile Crm Webhooks
   slug: agile-crm-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Agile CRM REST Campaigns API
   slug: open-agile-crm-campaigns-api
@@ -140,22 +139,22 @@ collections:
   slug: open-agile-crm
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/capabilities/agile-crm-capability-edges.yml
+  href: https://artifacts.apis.io/agile-crm/capabilities/agile-crm-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/agile-crm-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/agentic-access/agile-crm-agentic-access.yml
+  href: https://artifacts.apis.io/agile-crm/agentic-access/agile-crm-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/agile-crm-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/security/agile-crm-domain-security.yml
+  href: https://artifacts.apis.io/agile-crm/security/agile-crm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agile-crm-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/authentication/agile-crm-authentication.yml
+  href: https://artifacts.apis.io/agile-crm/authentication/agile-crm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agile-crm-authentication.yml
@@ -184,72 +183,72 @@ common:
   type: Blog
   url: https://www.agilecrm.com/blog/feed/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/packages/agile-crm-packages.yml
+  href: https://artifacts.apis.io/agile-crm/packages/agile-crm-packages.yml
   title: ''
   type: Packages
   url: packages/agile-crm-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/packages/agile-crm-packages.yml
+  href: https://artifacts.apis.io/agile-crm/packages/agile-crm-packages.yml
   title: ''
   type: SDKs
   url: packages/agile-crm-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/mcp/agile-crm-mcp.yml
+  href: https://artifacts.apis.io/agile-crm/mcp/agile-crm-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/agile-crm-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/llms/agile-crm-llms.txt
+  href: https://artifacts.apis.io/agile-crm/llms/agile-crm-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agile-crm-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/agile-crm/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/conventions/agile-crm-conventions.yml
+  href: https://artifacts.apis.io/agile-crm/conventions/agile-crm-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agile-crm-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/errors/agile-crm-problem-types.yml
+  href: https://artifacts.apis.io/agile-crm/errors/agile-crm-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agile-crm-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/data-model/agile-crm-data-model.yml
+  href: https://artifacts.apis.io/agile-crm/data-model/agile-crm-data-model.yml
   title: ''
   type: DataModel
   url: data-model/agile-crm-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/lifecycle/agile-crm-lifecycle.yml
+  href: https://artifacts.apis.io/agile-crm/lifecycle/agile-crm-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agile-crm-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/conformance/agile-crm-conformance.yml
+  href: https://artifacts.apis.io/agile-crm/conformance/agile-crm-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agile-crm-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/asyncapi/agile-crm-webhooks.yml
+  href: https://artifacts.apis.io/agile-crm/asyncapi/agile-crm-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/agile-crm-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/components/agile-crm-components.yml
+  href: https://artifacts.apis.io/agile-crm/components/agile-crm-components.yml
   title: ''
   type: Components
   url: components/agile-crm-components.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/plans/agile-crm-plans-pricing.yml
+  href: https://artifacts.apis.io/agile-crm/plans/agile-crm-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agile-crm-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/rate-limits/agile-crm-rate-limits.yml
+  href: https://artifacts.apis.io/agile-crm/rate-limits/agile-crm-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agile-crm-rate-limits.yml
@@ -291,6 +290,14 @@ common:
   url: https://www.agilecrm.com/partners
 created: '2026-05-11'
 description: Agile CRM is an all-in-one customer relationship management platform aimed at small and mid-sized businesses, unifying contact management, sales pipeline tracking, marketing automation, helpdesk ticketing, and telephony in a single application. The platform offers visual workflow builders, email campaigns, landing pages, and web-to-lead forms with built-in reporting. The Agile CRM REST API exposes contacts, deals, campaigns, tasks, and tickets using HTTP Basic authentication with an email and API key.
+finops:
+- has_sources: true
+  method: derived
+  name: Agile Crm Finops
+  primary_unit: user
+  service_category: ''
+  slug: agile-crm-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agile-crm.png
 layout: provider
 modified: '2026-08-13'
@@ -308,30 +315,33 @@ plans:
 - name: Agile Crm Plans Pricing
   plan_count: 4
   slug: agile-crm-plans-pricing
-random_paper: 1
+- name: Agile Crm Price Estimates
+  plan_count: 0
+  slug: agile-crm-price-estimates
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Agile Crm Rate Limits
   slug: agile-crm-rate-limits
 score:
   band: developing
-  composite: 49.8
+  composite: 53.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 53.7
+    contract_quality: 52.8
     developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 49.7
+    operational_transparency: 13.2
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -348,13 +358,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/screenshots/agile-crm-2026-06-20T170154.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/agile-crm/agile-crm-2026-06-20T170154.png
 security:
 - kind: authentication
   name: Agile Crm Authentication
@@ -364,6 +375,16 @@ security:
   name: Agile Crm Domain Security
   slug: agile-crm-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: agile-crm-campaign-enrollment
+  slug: agile-crm-campaign-enrollment
+- name: agile-crm-contact-sync
+  slug: agile-crm-contact-sync
+- name: agile-crm-lead-to-deal
+  slug: agile-crm-lead-to-deal
+- name: agile-crm-support-ticket-triage
+  slug: agile-crm-support-ticket-triage
 slug: agile-crm
 tags:
 - CRM

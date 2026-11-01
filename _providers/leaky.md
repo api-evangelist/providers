@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,12 +43,12 @@ common:
   type: Website
   url: https://leaky.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leaky/refs/heads/main/security/leaky-domain-security.yml
+  href: https://artifacts.apis.io/leaky/security/leaky-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leaky-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leaky/refs/heads/main/llms/leaky-llms.txt
+  href: https://artifacts.apis.io/leaky/llms/leaky-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leaky-llms.txt
@@ -86,14 +88,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/leaky/refs/heads/main/screenshots/leaky-2026-07-25T224729.png
+screenshot: https://apis.io/screenshots/leaky/leaky-2026-07-25T224729.png
 security:
 - kind: domain-security
   name: Leaky Domain Security

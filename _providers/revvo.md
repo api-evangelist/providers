@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 15
   slug: revvo-agentic-access
   summary_line: 15 operations · 10 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.revvo.ai/v0
   baseurl_source: declared
@@ -86,11 +88,8 @@ arazzos:
 - description: Authenticate and read tire events/alerts for a fleet over a time window.
   name: Pull tire events for a fleet
   slug: revvo-pull-tire-events
-artifact_total: 20
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: revvo-api Api-keys API
   slug: open-revvo-api-keys-api
@@ -114,7 +113,7 @@ collections:
   slug: open-revvo-vehicle-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/capabilities/revvo-capability-edges.yml
+  href: https://artifacts.apis.io/revvo/capabilities/revvo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/revvo-capability-edges.yml
@@ -163,72 +162,72 @@ common:
   type: StatusPage
   url: https://status.revvo.ai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/authentication/revvo-authentication.yml
+  href: https://artifacts.apis.io/revvo/authentication/revvo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/revvo-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/agentic-access/revvo-agentic-access.yml
+  href: https://artifacts.apis.io/revvo/agentic-access/revvo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/revvo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/security/revvo-domain-security.yml
+  href: https://artifacts.apis.io/revvo/security/revvo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/revvo-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/errors/revvo-problem-types.yml
+  href: https://artifacts.apis.io/revvo/errors/revvo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/revvo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/lifecycle/revvo-lifecycle.yml
+  href: https://artifacts.apis.io/revvo/lifecycle/revvo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/revvo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/conventions/revvo-conventions.yml
+  href: https://artifacts.apis.io/revvo/conventions/revvo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/revvo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/conformance/revvo-conformance.yml
+  href: https://artifacts.apis.io/revvo/conformance/revvo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/revvo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/data-model/revvo-data-model.yml
+  href: https://artifacts.apis.io/revvo/data-model/revvo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/revvo-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/mcp/revvo-mcp.yml
+  href: https://artifacts.apis.io/revvo/mcp/revvo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/revvo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/llms/revvo-llms.txt
+  href: https://artifacts.apis.io/revvo/llms/revvo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/revvo-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/overlays/revvo-api-overlay.yaml
+  href: https://artifacts.apis.io/revvo/overlays/revvo-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/revvo-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/revvo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/arazzo/revvo-onboard-vehicle.yml
+  href: https://artifacts.apis.io/revvo/arazzo/revvo-onboard-vehicle.yml
   title: ''
   type: Arazzo
   url: arazzo/revvo-onboard-vehicle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/arazzo/revvo-pull-tire-events.yml
+  href: https://artifacts.apis.io/revvo/arazzo/revvo-pull-tire-events.yml
   title: ''
   type: Arazzo
   url: arazzo/revvo-pull-tire-events.yml
@@ -244,10 +243,10 @@ overview: 'Revvo publishes 7 API contracts indexed on the [APIs.io](https://apis
 
 
   Revvo''s developer surface includes documentation, API reference, engineering blog, support, signup flow, pricing, authentication, and 19 more developer resources.'
-random_paper: 12
+random_paper: 10
 score:
   band: thin
-  composite: 36.0
+  composite: 38.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -255,15 +254,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 39.9
-    developer_ergonomics: 37.5
-    discoverability: 73.2
-    operational_transparency: 7.9
-  previous_composite: 35.9
+    developer_ergonomics: 47.0
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -280,13 +279,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/screenshots/revvo-2026-09-02T153731.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/revvo/revvo-2026-09-02T153731.png
 security:
 - kind: authentication
   name: Revvo Authentication
@@ -296,6 +296,14 @@ security:
   name: Revvo Domain Security
   slug: revvo-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Authenticate and check fleet tire status
+  slug: revvo-authenticate-and-check-fleet
+- name: Onboard a vehicle and its tire sensors
+  slug: revvo-onboard-vehicle-and-sensors
+- name: Pull tire events and alerts for a fleet
+  slug: revvo-pull-tire-events
 slug: revvo
 tags:
 - Company

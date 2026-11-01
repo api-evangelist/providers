@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.8
-  scored_at: '2026-10-17'
+  score: 45.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 1
@@ -204,11 +206,8 @@ apis:
   description: Retrieve and manage access and refresh tokens to authenticate to the Bud platform via OAuth2 protocol.
   name: Bud Financial O Auth2 API
   slug: bud-co-oauth2-api
-artifact_total: 80
+artifact_total: 79
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 'Bud API Services: Documentation Aggregation Buckets API'
   slug: open-bud-co-aggregation-buckets-api
@@ -310,42 +309,42 @@ collections:
   slug: open-bud-platform
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/plans/bud-co-plans-pricing.yml
+  href: https://artifacts.apis.io/bud-co/plans/bud-co-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bud-co-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/rate-limits/bud-co-rate-limits.yml
+  href: https://artifacts.apis.io/bud-co/rate-limits/bud-co-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bud-co-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/finops/bud-co-finops.yml
+  href: https://artifacts.apis.io/bud-co/finops/bud-co-finops.yml
   title: ''
   type: FinOps
   url: finops/bud-co-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/capabilities/bud-co-capability-edges.yml
+  href: https://artifacts.apis.io/bud-co/capabilities/bud-co-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bud-co-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/agentic-access/bud-co-agentic-access.yml
+  href: https://artifacts.apis.io/bud-co/agentic-access/bud-co-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bud-co-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/security/bud-co-domain-security.yml
+  href: https://artifacts.apis.io/bud-co/security/bud-co-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bud-co-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/authentication/bud-co-authentication.yml
+  href: https://artifacts.apis.io/bud-co/authentication/bud-co-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bud-co-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/scopes/bud-co-scopes.yml
+  href: https://artifacts.apis.io/bud-co/scopes/bud-co-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bud-co-scopes.yml
@@ -423,7 +422,7 @@ plans:
 - name: Bud Co Plans Pricing
   plan_count: 5
   slug: bud-co-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Bud Co Rate Limits
@@ -459,7 +458,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.5
+  composite: 36.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 61.5
@@ -467,12 +466,12 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 62.2
-    developer_ergonomics: 28.6
+    contract_quality: 61.5
+    developer_ergonomics: 33.3
     discoverability: 73.2
     operational_transparency: 5.3
   jurisdiction:
@@ -483,7 +482,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 38.6
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -497,13 +496,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 28.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/screenshots/bud-co-2026-06-20T173739.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bud-co/bud-co-2026-06-20T173739.png
 security:
 - kind: authentication
   name: Bud Co Authentication

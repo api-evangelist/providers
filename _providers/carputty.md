@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Carputty provides a flexible auto financing API for loan pre‑qualification and management.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/carputty/refs/heads/main/plans/carputty-plans-pricing.yml
+  href: https://artifacts.apis.io/carputty/plans/carputty-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/carputty-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carputty/refs/heads/main/conformance/carputty-conformance.yml
+  href: https://artifacts.apis.io/carputty/conformance/carputty-conformance.yml
   title: ''
   type: Conformance
   url: conformance/carputty-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/carputty/refs/heads/main/hosts/carputty-hosts.yml
+  href: https://artifacts.apis.io/carputty/hosts/carputty-hosts.yml
   title: ''
   type: Hosts
   url: hosts/carputty-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/carputty/refs/heads/main/vendors/carputty-vendors.yml
+  href: https://artifacts.apis.io/carputty/vendors/carputty-vendors.yml
   title: ''
   type: Vendors
   url: vendors/carputty-vendors.yml
@@ -60,7 +62,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/carputty
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carputty/refs/heads/main/security/carputty-domain-security.yml
+  href: https://artifacts.apis.io/carputty/security/carputty-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carputty-domain-security.yml
@@ -102,7 +104,7 @@ modified: '2026-10-07'
 name: Carputty
 nav: Providers
 network: true
-overview: 'Carputty is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AutoFinance, Fintech, Loans, and ConsumerCredit.
+overview: 'Carputty is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Auto Finance, Fintech, Loans, and Consumer Credit.
 
 
   Carputty''s developer surface includes getting-started guide, documentation, engineering blog, support, pricing, and 7 more developer resources.'
@@ -110,7 +112,7 @@ plans:
 - name: Carputty Plans Pricing
   plan_count: 2
   slug: carputty-plans-pricing
-random_paper: 12
+random_paper: 4
 score:
   band: emerging
   composite: 20.5
@@ -121,6 +123,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
@@ -128,6 +131,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 62.5
     operational_transparency: 5.3
+  previous_composite: 20.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -141,8 +145,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -155,10 +160,10 @@ security:
 slug: carputty
 tags:
 - Company
-- AutoFinance
+- Auto Finance
 - Fintech
 - Loans
-- ConsumerCredit
+- Consumer Credit
 - Technology
 website: https://www.carputty.com
 ---

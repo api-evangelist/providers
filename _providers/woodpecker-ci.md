@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.4
-  scored_at: '2026-10-17'
+  score: 23.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://ci.woodpecker-ci.org/api
@@ -149,19 +151,19 @@ apis:
   description: The Users API from Woodpecker CI — 2 operation(s) for users.
   name: Woodpecker CI Users API
   slug: woodpecker-ci-users-api
-artifact_total: 29
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Woodpecker Ci Events
   slug: woodpecker-ci-events
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/capabilities/woodpecker-ci-capability-edges.yml
+  href: https://artifacts.apis.io/woodpecker-ci/capabilities/woodpecker-ci-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/woodpecker-ci-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/overlays/woodpecker-ci-server-swagger-overlay.yaml
+  href: https://artifacts.apis.io/woodpecker-ci/overlays/woodpecker-ci-server-swagger-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/woodpecker-ci-server-swagger-overlay.yaml
@@ -198,7 +200,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/woodpecker-ci
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/changelog/woodpecker-ci-changelog.yml
+  href: https://artifacts.apis.io/woodpecker-ci/changelog/woodpecker-ci-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/woodpecker-ci-changelog.yml
@@ -207,7 +209,7 @@ common:
   type: Deprecation
   url: https://woodpecker-ci.org/docs/development/deprecations
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/lifecycle/woodpecker-ci-lifecycle.yml
+  href: https://artifacts.apis.io/woodpecker-ci/lifecycle/woodpecker-ci-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/woodpecker-ci-lifecycle.yml
@@ -216,102 +218,110 @@ common:
   type: Security
   url: https://github.com/woodpecker-ci/.github/blob/main/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/security/woodpecker-ci-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/woodpecker-ci/security/woodpecker-ci-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/woodpecker-ci-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/security/woodpecker-ci-domain-security.yml
+  href: https://artifacts.apis.io/woodpecker-ci/security/woodpecker-ci-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/woodpecker-ci-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/authentication/woodpecker-ci-authentication.yml
+  href: https://artifacts.apis.io/woodpecker-ci/authentication/woodpecker-ci-authentication.yml
   title: ''
   type: Authentication
   url: authentication/woodpecker-ci-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/conventions/woodpecker-ci-conventions.yml
+  href: https://artifacts.apis.io/woodpecker-ci/conventions/woodpecker-ci-conventions.yml
   title: ''
   type: Conventions
   url: conventions/woodpecker-ci-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/errors/woodpecker-ci-problem-types.yml
+  href: https://artifacts.apis.io/woodpecker-ci/errors/woodpecker-ci-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/woodpecker-ci-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/conformance/woodpecker-ci-conformance.yml
+  href: https://artifacts.apis.io/woodpecker-ci/conformance/woodpecker-ci-conformance.yml
   title: ''
   type: Conformance
   url: conformance/woodpecker-ci-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/data-model/woodpecker-ci-data-model.yml
+  href: https://artifacts.apis.io/woodpecker-ci/data-model/woodpecker-ci-data-model.yml
   title: ''
   type: DataModel
   url: data-model/woodpecker-ci-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/packages/woodpecker-ci-packages.yml
+  href: https://artifacts.apis.io/woodpecker-ci/packages/woodpecker-ci-packages.yml
   title: ''
   type: Packages
   url: packages/woodpecker-ci-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/packages/woodpecker-ci-packages.yml
+  href: https://artifacts.apis.io/woodpecker-ci/packages/woodpecker-ci-packages.yml
   title: ''
   type: SDKs
   url: packages/woodpecker-ci-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/cli/woodpecker-ci-cli.yml
+  href: https://artifacts.apis.io/woodpecker-ci/cli/woodpecker-ci-cli.yml
   title: ''
   type: CLI
   url: cli/woodpecker-ci-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/sandbox/woodpecker-ci-sandbox.yml
+  href: https://artifacts.apis.io/woodpecker-ci/sandbox/woodpecker-ci-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/woodpecker-ci-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/plans/woodpecker-ci-plans-pricing.yml
+  href: https://artifacts.apis.io/woodpecker-ci/plans/woodpecker-ci-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/woodpecker-ci-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/rate-limits/woodpecker-ci-rate-limits.yml
+  href: https://artifacts.apis.io/woodpecker-ci/rate-limits/woodpecker-ci-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/woodpecker-ci-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/asyncapi/woodpecker-ci-events.yml
+  href: https://artifacts.apis.io/woodpecker-ci/asyncapi/woodpecker-ci-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/woodpecker-ci-events.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/woodpecker-ci/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/mcp/woodpecker-ci-tool-crosswalk.yml
+  href: https://artifacts.apis.io/woodpecker-ci/mcp/woodpecker-ci-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/woodpecker-ci-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/llms/woodpecker-ci-llms.txt
+  href: https://artifacts.apis.io/woodpecker-ci/llms/woodpecker-ci-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/woodpecker-ci-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/json-schema/woodpecker-ci-pipeline-schema.json
+  href: https://artifacts.apis.io/woodpecker-ci/json-schema/woodpecker-ci-pipeline-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/woodpecker-ci-pipeline-schema.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/grpc/woodpecker-ci-rpc.proto
+  href: https://artifacts.apis.io/woodpecker-ci/grpc/woodpecker-ci-rpc.proto
   title: ''
   type: Protobuf
   url: grpc/woodpecker-ci-rpc.proto
 created: '2026-08-27'
 description: 'Woodpecker CI is a free, open-source (Apache-2.0) continuous integration and delivery engine, forked from Drone and maintained by a community organization on GitHub. It is self-hosted: an operator runs a Woodpecker server plus one or more agents (Docker, Kubernetes, or local backends) against a Git forge — GitHub, GitLab, Gitea, Forgejo, or Bitbucket. Pipelines are declared in `.woodpecker/` YAML workflow files validated by a published JSON Schema, and every server exposes a documented Swagger 2.0 REST API under /api covering repositories, pipelines, secrets, registries, crons, agents, forges, orgs and users, plus Server-Sent Event streams for pipeline events and step logs. Agents talk to the server over a published gRPC/protobuf contract. A first-party Go client library (woodpecker-go), a woodpecker-cli command line tool, DEB/RPM packages, container images and a Helm chart are all published by the project.'
+finops:
+- has_sources: true
+  method: derived
+  name: Woodpecker Ci Finops
+  primary_unit: ''
+  service_category: ''
+  slug: woodpecker-ci-finops
+  template: true
 image: https://woodpecker-ci.org/img/logo.svg
 json_schemas:
 - name: Woodpecker CI configuration file
@@ -340,23 +350,23 @@ rate_limits:
   slug: woodpecker-ci-rate-limits
 score:
   band: developing
-  composite: 41.9
+  composite: 42.1
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 49.8
+    contract_quality: 46.4
     developer_ergonomics: 80.4
     discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 41.8
+    operational_transparency: 47.4
+  previous_composite: 42.1
   provenance:
     conformance: derived
     contracts:
@@ -372,13 +382,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/screenshots/woodpecker-ci-2026-09-02T170920.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/woodpecker-ci/woodpecker-ci-2026-09-02T170920.png
 security:
 - kind: authentication
   name: Woodpecker Ci Authentication
@@ -392,6 +403,14 @@ security:
   name: Woodpecker Ci Vulnerability Disclosure
   slug: woodpecker-ci-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 3
+skills:
+- name: woodpecker-ci-approve-or-decline-a-blocked-pipeline
+  slug: woodpecker-ci-approve-or-decline-a-blocked-pipeline
+- name: woodpecker-ci-debug-a-failed-pipeline
+  slug: woodpecker-ci-debug-a-failed-pipeline
+- name: woodpecker-ci-trigger-and-follow-a-pipeline
+  slug: woodpecker-ci-trigger-and-follow-a-pipeline
 slug: woodpecker-ci
 tags:
 - Company

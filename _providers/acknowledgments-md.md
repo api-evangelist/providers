@@ -41,7 +41,7 @@ overview: 'ACKNOWLEDGMENTS.md is profiled on the [APIs.io](https://apis.io/) net
 
   ACKNOWLEDGMENTS.md''s developer surface includes documentation and getting-started guide.'
 random_paper: 12
-screenshot: https://raw.githubusercontent.com/api-evangelist/acknowledgments-md/refs/heads/main/screenshots/acknowledgments-md-2026-06-20T163856.png
+screenshot: https://apis.io/screenshots/acknowledgments-md/acknowledgments-md-2026-06-20T163856.png
 slug: acknowledgments-md
 tags:
 - Attribution

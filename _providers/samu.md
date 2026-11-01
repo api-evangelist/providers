@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.7
-  scored_at: '2026-10-17'
+  score: 47.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 10
   slug: samu-agentic-access
   summary_line: 10 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Hosted, remote MCP server that connects Samu to Claude, ChatGPT and other AI agents, published as a Pro-plan feature. The endpoint answers MCP JSON-RPC over HTTP POST at https://api.samu.ai/mcp and is
   name: Samu MCP Server
@@ -63,7 +65,7 @@ apis:
   description: The Usuarios API from Samu — 1 operation(s) for usuarios.
   name: Samu Usuarios API
   slug: samu-usuarios-api
-artifact_total: 13
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Samu
@@ -122,88 +124,96 @@ common:
   type: Compliance
   url: https://samu.ai/politica-de-seguridad-y-manejo-de-informacion
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/llms/samu-llms.txt
+  href: https://artifacts.apis.io/samu/llms/samu-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/samu-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/well-known/samu-well-known.yml
+  href: https://artifacts.apis.io/samu/well-known/samu-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/samu-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/security/samu-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/samu/security/samu-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/samu-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/authentication/samu-authentication.yml
+  href: https://artifacts.apis.io/samu/authentication/samu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/samu-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/scopes/samu-scopes.yml
+  href: https://artifacts.apis.io/samu/scopes/samu-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/samu-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/conventions/samu-conventions.yml
+  href: https://artifacts.apis.io/samu/conventions/samu-conventions.yml
   title: ''
   type: Conventions
   url: conventions/samu-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/conformance/samu-conformance.yml
+  href: https://artifacts.apis.io/samu/conformance/samu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/samu-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/errors/samu-problem-types.yml
+  href: https://artifacts.apis.io/samu/errors/samu-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/samu-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/lifecycle/samu-lifecycle.yml
+  href: https://artifacts.apis.io/samu/lifecycle/samu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/samu-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/data-model/samu-data-model.yml
+  href: https://artifacts.apis.io/samu/data-model/samu-data-model.yml
   title: ''
   type: DataModel
   url: data-model/samu-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/plans/samu-plans-pricing.yml
+  href: https://artifacts.apis.io/samu/plans/samu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/samu-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/rate-limits/samu-rate-limits.yml
+  href: https://artifacts.apis.io/samu/rate-limits/samu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/samu-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/samu/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/agentic-access/samu-agentic-access.yml
+  href: https://artifacts.apis.io/samu/agentic-access/samu-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/samu-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/overlays/samu-openapi-overlay.yaml
+  href: https://artifacts.apis.io/samu/overlays/samu-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/samu-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/security/samu-domain-security.yml
+  href: https://artifacts.apis.io/samu/security/samu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/samu-domain-security.yml
 created: '2026-07-17'
 description: Samu (samu.ai) is an AI-powered conversation-intelligence and sales-analytics platform built for sales managers and revenue leaders across Latin America. It automatically records and transcribes customer interactions across WhatsApp, phone calls, video calls, Microsoft Teams, and Google Meet, then analyzes them to surface actionable coaching insights. Features include an AI "Samu Score" that evaluates call quality against customizable criteria, custom data extractors (e.g. competitor mentions or company size), analysis using SPICED, BANT, and SANDLER sales frameworks, and auto-generated CRM notes, tasks, and meeting summaries. Samu integrates bidirectionally with HubSpot, Pipedrive, Salesforce, and other CRMs, and emphasizes high-accuracy Spanish-language transcription. Samu publishes a REST API (OpenAPI 3.0.0, "API Samu") at api.samu.ai covering users, meetings, transcriptions and WhatsApp/chat threads, authenticated with an account apiKey header, plus an OAuth-protected hosted
   MCP server at api.samu.ai/mcp that connects Samu to Claude, ChatGPT and other AI agents. API access is sold on the Enterprise plan and MCP on the Pro plan. Samu is backed by 500 Global.
+finops:
+- has_sources: true
+  method: derived
+  name: Samu Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: samu-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/samu.png
 layout: provider
 mcp_servers:
@@ -222,7 +232,7 @@ plans:
 - name: Samu Plans Pricing
   plan_count: 3
   slug: samu-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Samu Rate Limits
@@ -234,28 +244,28 @@ scopes:
   summary_line: 1 scope · authorizationCode/refreshToken
 score:
   band: developing
-  composite: 49.9
+  composite: 52.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 44.7
     developer_ergonomics: 32.7
-    discoverability: 75.0
-    operational_transparency: 18.4
+    discoverability: 65.0
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 49.9
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -272,13 +282,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/screenshots/samu-2026-08-17T081719.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/samu/samu-2026-08-17T081719.png
 security:
 - kind: authentication
   name: Samu Authentication
@@ -292,6 +303,14 @@ security:
   name: Samu Vulnerability Disclosure
   slug: samu-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 3
+skills:
+- name: Export a date range of Samu meetings
+  slug: samu-export-meetings
+- name: Ingest an externally recorded call into Samu
+  slug: samu-ingest-external-call
+- name: Read Samu WhatsApp and chat conversation threads
+  slug: samu-read-chat-threads
 slug: samu
 tags:
 - Company

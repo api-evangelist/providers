@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-17'
+  score: 36.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -93,15 +95,12 @@ apis:
   description: The OAuth2 API from Flock Safety — 1 operation(s) for oauth2.
   name: Flock Safety O Auth2 API
   slug: flock-safety-oauth2-api
-artifact_total: 28
+artifact_total: 34
 asyncapis:
 - description: Real-time webhook that delivers Flock Safety LPR (license plate recognition) hotlist alert events. An alert fires when a plate captured by a Flock LPR camera (owned by, or shared within the First Resp
   name: Flock Safety LPR Hotlist Alerts Webhook
   slug: flock-safety-lpr-alerts-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Flock Safety API Platform (v3) Alerts API
   slug: open-flock-safety-alerts-api
@@ -133,18 +132,23 @@ collections:
   name: Flock Safety API Platform (v3) Alerts Vehicle Images API
   slug: open-flock-safety-vehicle-images-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/flock-safety/plans/flock-safety-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/flock-safety-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/capabilities/flock-safety-capability-edges.yml
+  href: https://artifacts.apis.io/flock-safety/capabilities/flock-safety-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/flock-safety-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/overlays/flock-safety-api-platform-overlay.yaml
+  href: https://artifacts.apis.io/flock-safety/overlays/flock-safety-api-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/flock-safety-api-platform-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/security/flock-safety-trust-center.yml
+  href: https://artifacts.apis.io/flock-safety/security/flock-safety-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/flock-safety-trust-center.yml
@@ -201,7 +205,7 @@ common:
   type: Compliance
   url: https://security.flocksafety.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/rate-limits/flock-safety-rate-limits.yml
+  href: https://artifacts.apis.io/flock-safety/rate-limits/flock-safety-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flock-safety-rate-limits.yml
@@ -210,97 +214,105 @@ common:
   type: GitHubOrganization
   url: https://github.com/Flock-Safety
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/authentication/flock-safety-authentication.yml
+  href: https://artifacts.apis.io/flock-safety/authentication/flock-safety-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flock-safety-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/scopes/flock-safety-scopes.yml
+  href: https://artifacts.apis.io/flock-safety/scopes/flock-safety-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/flock-safety-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/conventions/flock-safety-conventions.yml
+  href: https://artifacts.apis.io/flock-safety/conventions/flock-safety-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flock-safety-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/conventions/flock-safety-conventions.yml
+  href: https://artifacts.apis.io/flock-safety/conventions/flock-safety-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/flock-safety-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/errors/flock-safety-problem-types.yml
+  href: https://artifacts.apis.io/flock-safety/errors/flock-safety-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flock-safety-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/lifecycle/flock-safety-lifecycle.yml
+  href: https://artifacts.apis.io/flock-safety/lifecycle/flock-safety-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flock-safety-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/lifecycle/flock-safety-lifecycle.yml
+  href: https://artifacts.apis.io/flock-safety/lifecycle/flock-safety-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/flock-safety-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/conformance/flock-safety-conformance.yml
+  href: https://artifacts.apis.io/flock-safety/conformance/flock-safety-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flock-safety-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/data-model/flock-safety-data-model.yml
+  href: https://artifacts.apis.io/flock-safety/data-model/flock-safety-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flock-safety-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/packages/flock-safety-packages.yml
+  href: https://artifacts.apis.io/flock-safety/packages/flock-safety-packages.yml
   title: ''
   type: Packages
   url: packages/flock-safety-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/mcp/flock-safety-mcp.yml
+  href: https://artifacts.apis.io/flock-safety/mcp/flock-safety-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/flock-safety-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/llms/flock-safety-llms.txt
+  href: https://artifacts.apis.io/flock-safety/llms/flock-safety-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flock-safety-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/security/flock-safety-domain-security.yml
+  href: https://artifacts.apis.io/flock-safety/security/flock-safety-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flock-safety-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/asyncapi/flock-safety-lpr-alerts-asyncapi.yml
+  href: https://artifacts.apis.io/flock-safety/asyncapi/flock-safety-lpr-alerts-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/flock-safety-lpr-alerts-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/asyncapi/flock-safety-lpr-alerts-asyncapi.yml
+  href: https://artifacts.apis.io/flock-safety/asyncapi/flock-safety-lpr-alerts-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/flock-safety-lpr-alerts-asyncapi.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/changelog/flock-safety-changelog.yml
+  href: https://artifacts.apis.io/flock-safety/changelog/flock-safety-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/flock-safety-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/flock-safety/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/agentic-access/flock-safety-agentic-access.yml
+  href: https://artifacts.apis.io/flock-safety/agentic-access/flock-safety-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/flock-safety-agentic-access.yml
 created: '2026-07-17'
 description: Flock Safety is a public safety technology company whose platform connects communities, businesses, and law enforcement through crime detection, investigation, and response tools built around license plate recognition (LPR) cameras, audio detection, video, and the FlockOS situational-awareness platform. Its v3 API Platform (api.flocksafety.com) lets approved customer organizations and third-party developers build "Flock Apps" that bring data in (register hardware as devices, ingest vehicle images for detection, push CAD events, alerts, and geolocation telemetry, manage custom hotlists) and connect Flock data out (retrieve devices, look up license plate reads, and subscribe to real-time LPR hotlist alert webhooks). The APIs use OAuth 2.0 with machine-level (client_credentials) and recommended user-level (authorization_code) flows, role-based access control, audit logging, and data-stewardship requirements.
+finops:
+- has_sources: true
+  method: derived
+  name: Flock Safety Finops
+  primary_unit: ''
+  service_category: ''
+  slug: flock-safety-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flock-safety.png
 layout: provider
 modified: '2026-07-19'
@@ -313,8 +325,12 @@ overview: 'Flock Safety publishes 10 API contracts indexed on the [APIs.io](http
   The Flock Safety catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Flock Safety''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 29 more developer resources.'
-random_paper: 14
+  Flock Safety''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 30 more developer resources.'
+plans:
+- name: Flock Safety Plans Pricing
+  plan_count: 0
+  slug: flock-safety-plans-pricing
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Flock Safety Rate Limits
@@ -326,23 +342,23 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.5
+  composite: 52.4
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 27
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     contract_governance: 4.5
-    contract_quality: 57.8
-    developer_ergonomics: 44.6
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 51.4
+    contract_quality: 55.8
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -359,13 +375,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/screenshots/flock-safety-2026-07-25T214812.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/flock-safety/flock-safety-2026-07-25T214812.png
 security:
 - kind: authentication
   name: Flock Safety Authentication
@@ -379,6 +396,18 @@ security:
   name: Flock Safety Trust Center
   slug: flock-safety-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018
+skill_count: 5
+skills:
+- name: Get a Flock Safety API access token
+  slug: flock-safety-authenticate
+- name: Create a custom hotlist and add plate entries
+  slug: flock-safety-manage-custom-hotlist
+- name: Look up license plate reads
+  slug: flock-safety-plate-lookup
+- name: Upsert a CAD event and append a narrative
+  slug: flock-safety-push-cad-event
+- name: Subscribe to real-time LPR hotlist alert webhooks
+  slug: flock-safety-subscribe-lpr-alerts
 slug: flock-safety
 tags:
 - Company

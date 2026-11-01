@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: Dealership account information for dealers who have a relationship with Dealer.com. GET /accounts/search returns a filterable, paginated list; GET /accounts/id/{accountId} returns one account. Payload
@@ -67,47 +69,47 @@ common:
   type: Pricing
   url: https://developer.inv.dealer.com/content/home.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/security/dealer-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dealer-com/security/dealer-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dealer-com-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/security/dealer-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dealer-com/security/dealer-com-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/dealer-com-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/security/dealer-com-domain-security.yml
+  href: https://artifacts.apis.io/dealer-com/security/dealer-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dealer-com-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/well-known/dealer-com-security.txt
+  href: https://artifacts.apis.io/dealer-com/well-known/dealer-com-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/dealer-com-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/well-known/dealer-com-well-known.yml
+  href: https://artifacts.apis.io/dealer-com/well-known/dealer-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dealer-com-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/authentication/dealer-com-authentication.yml
+  href: https://artifacts.apis.io/dealer-com/authentication/dealer-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dealer-com-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/conventions/dealer-com-conventions.yml
+  href: https://artifacts.apis.io/dealer-com/conventions/dealer-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dealer-com-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/errors/dealer-com-problem-types.yml
+  href: https://artifacts.apis.io/dealer-com/errors/dealer-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dealer-com-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/lifecycle/dealer-com-lifecycle.yml
+  href: https://artifacts.apis.io/dealer-com/lifecycle/dealer-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dealer-com-lifecycle.yml
@@ -116,37 +118,37 @@ common:
   type: StatusPage
   url: https://coxautoapi.statuspage.io
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/changelog/dealer-com-changelog.yml
+  href: https://artifacts.apis.io/dealer-com/changelog/dealer-com-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dealer-com-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/conformance/dealer-com-conformance.yml
+  href: https://artifacts.apis.io/dealer-com/conformance/dealer-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dealer-com-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/data-model/dealer-com-data-model.yml
+  href: https://artifacts.apis.io/dealer-com/data-model/dealer-com-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dealer-com-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/components/dealer-com-components.yml
+  href: https://artifacts.apis.io/dealer-com/components/dealer-com-components.yml
   title: ''
   type: Components
   url: components/dealer-com-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/sandbox/dealer-com-sandbox.yml
+  href: https://artifacts.apis.io/dealer-com/sandbox/dealer-com-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dealer-com-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/packages/dealer-com-packages.yml
+  href: https://artifacts.apis.io/dealer-com/packages/dealer-com-packages.yml
   title: ''
   type: Packages
   url: packages/dealer-com-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/llms/dealer-com-llms.txt
+  href: https://artifacts.apis.io/dealer-com/llms/dealer-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dealer-com-llms.txt
@@ -203,17 +205,17 @@ common:
   type: PrivacyPolicy
   url: https://www.dealer.com/company/dealer-com-privacy-policy/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/plans/dealer-com-plans-pricing.yml
+  href: https://artifacts.apis.io/dealer-com/plans/dealer-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dealer-com-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/rate-limits/dealer-com-rate-limits.yml
+  href: https://artifacts.apis.io/dealer-com/rate-limits/dealer-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dealer-com-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/finops/dealer-com-finops.yml
+  href: https://artifacts.apis.io/dealer-com/finops/dealer-com-finops.yml
   title: ''
   type: FinOps
   url: finops/dealer-com-finops.yml
@@ -230,12 +232,12 @@ description: Dealer.com, a Cox Automotive brand, builds automotive dealership we
   JWK Set. Platform-level lead, deal and digital-retail data flows separately through the OAuth-gated Cox Automotive Integration Platform at developer.coxautoinc.com. Both Dealer.com surfaces are documented in public; the credentials, not the contracts, are what is gated. The published REST surface is decaying, though — the documented base host api.dealer.com no longer resolves, and the five Swagger documents the portal's own API Explorer loads have contained an AWS API Gateway error string since February 2020.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Dealer Com Finops
   primary_unit: ''
-  service_category: Automotive Digital Marketing and Websites
+  service_category: ''
   slug: dealer-com-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dealer-com.png
 layout: provider
 modified: '2026-08-12'
@@ -250,30 +252,30 @@ plans:
 - name: Dealer Com Plans Pricing
   plan_count: 3
   slug: dealer-com-plans-pricing
-random_paper: 17
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Dealer Com Rate Limits
   slug: dealer-com-rate-limits
 score:
   band: developing
-  composite: 47.3
+  composite: 47.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 59.0
     catalog_earned_first_party: 24.0
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 69.2
-    operational_transparency: 76.3
-  previous_composite: 46.7
+    discoverability: 64.3
+    operational_transparency: 78.9
+  previous_composite: 47.2
   provenance:
     conformance: derived
     mcp: third-party
@@ -283,14 +285,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dealer-com/refs/heads/main/screenshots/dealer-com-2026-07-25T211507.png
+screenshot: https://apis.io/screenshots/dealer-com/dealer-com-2026-07-25T211507.png
 security:
 - kind: authentication
   name: Dealer Com Authentication

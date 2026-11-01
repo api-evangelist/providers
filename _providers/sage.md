@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-17'
+  score: 31.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -101,15 +103,12 @@ apis:
   description: Tax rate configuration
   name: Sage Tax Rates API
   slug: sage-tax-rates-api
-artifact_total: 85
+artifact_total: 84
 asyncapis:
 - description: AsyncAPI 2.6 description of the documented webhook / event surface across Sage developer products. Sage's webhook story is fragmented across product lines and only a subset of products publish a webho
   name: Sage Webhooks
   slug: sage-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sage Accounting API
   slug: open-sage-accounting
@@ -142,47 +141,47 @@ collections:
   slug: open-sage-tax-rates-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/plans/sage-plans-pricing.yml
+  href: https://artifacts.apis.io/sage/plans/sage-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sage-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/rate-limits/sage-rate-limits.yml
+  href: https://artifacts.apis.io/sage/rate-limits/sage-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sage-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/finops/sage-finops.yml
+  href: https://artifacts.apis.io/sage/finops/sage-finops.yml
   title: ''
   type: FinOps
   url: finops/sage-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/capabilities/sage-capability-edges.yml
+  href: https://artifacts.apis.io/sage/capabilities/sage-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sage-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/agentic-access/sage-agentic-access.yml
+  href: https://artifacts.apis.io/sage/agentic-access/sage-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sage-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/security/sage-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sage/security/sage-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sage-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/security/sage-domain-security.yml
+  href: https://artifacts.apis.io/sage/security/sage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sage-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/authentication/sage-authentication.yml
+  href: https://artifacts.apis.io/sage/authentication/sage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sage-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/scopes/sage-scopes.yml
+  href: https://artifacts.apis.io/sage/scopes/sage-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sage-scopes.yml
@@ -223,47 +222,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/Sage
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/openapi/_original/sage-accounting-openapi.yml
+  href: https://artifacts.apis.io/sage/openapi/_original/sage-accounting-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sage-accounting-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/asyncapi/sage-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/sage/asyncapi/sage-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/sage-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/rules/sage-rules.yml
+  href: https://artifacts.apis.io/sage/rules/sage-rules.yml
   title: ''
   type: SpectralRules
   url: rules/sage-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/json-schema/sage-contact-schema.json
+  href: https://artifacts.apis.io/sage/json-schema/sage-contact-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/sage-contact-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/json-schema/sage-invoice-schema.json
+  href: https://artifacts.apis.io/sage/json-schema/sage-invoice-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/sage-invoice-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/json-structure/sage-contact-structure.json
+  href: https://artifacts.apis.io/sage/json-structure/sage-contact-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/sage-contact-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/json-structure/sage-invoice-structure.json
+  href: https://artifacts.apis.io/sage/json-structure/sage-invoice-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/sage-invoice-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/json-ld/sage-context.jsonld
+  href: https://artifacts.apis.io/sage/json-ld/sage-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/sage-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/vocabulary/sage-vocabulary.yml
+  href: https://artifacts.apis.io/sage/vocabulary/sage-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sage-vocabulary.yml
@@ -447,7 +446,7 @@ plans:
 - name: Sage Plans Pricing
   plan_count: 1
   slug: sage-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Sage Rate Limits
@@ -495,7 +494,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.4
+  composite: 42.0
   coverage:
     artifact_dirs: 23
     catalog_earned: 53.0
@@ -503,14 +502,14 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
-    contract_quality: 66.4
+    contract_quality: 63.0
     developer_ergonomics: 57.1
     discoverability: 57.1
-    operational_transparency: 7.9
+    operational_transparency: 21.1
   previous_composite: 42.0
   provenance:
     agentic_access: derived
@@ -525,13 +524,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/screenshots/sage-2026-06-20T193330.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sage/sage-2026-06-20T193330.png
 security:
 - kind: authentication
   name: Sage Authentication

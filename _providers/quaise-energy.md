@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,17 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quaise-energy/refs/heads/main/security/quaise-energy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/quaise-energy/security/quaise-energy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/quaise-energy-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quaise-energy/refs/heads/main/security/quaise-energy-domain-security.yml
+  href: https://artifacts.apis.io/quaise-energy/security/quaise-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quaise-energy-domain-security.yml
@@ -64,17 +66,17 @@ common:
   type: PrivacyPolicy
   url: https://www.quaise.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quaise-energy/refs/heads/main/well-known/quaise-energy-well-known.yml
+  href: https://artifacts.apis.io/quaise-energy/well-known/quaise-energy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/quaise-energy-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quaise-energy/refs/heads/main/well-known/quaise-energy-security.txt
+  href: https://artifacts.apis.io/quaise-energy/well-known/quaise-energy-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/quaise-energy-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quaise-energy/refs/heads/main/llms/quaise-energy-llms.txt
+  href: https://artifacts.apis.io/quaise-energy/llms/quaise-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/quaise-energy-llms.txt
@@ -108,10 +110,10 @@ overview: 'Quaise Energy is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Quaise Energy''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 1
+random_paper: 23
 score:
-  band: minimal
-  composite: 10.7
+  band: emerging
+  composite: 11.4
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -125,23 +127,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
-    operational_transparency: 0.0
-  previous_composite: 10.7
+    discoverability: 48.2
+    operational_transparency: 10.5
+  previous_composite: 11.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/quaise-energy/refs/heads/main/screenshots/quaise-energy-2026-09-02T152553.png
+screenshot: https://apis.io/screenshots/quaise-energy/quaise-energy-2026-09-02T152553.png
 security:
 - kind: domain-security
   name: Quaise Energy Domain Security

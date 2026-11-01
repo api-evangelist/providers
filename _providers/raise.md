@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Raise Commerce API (business/v2) — browse gift card brands and categories, purchase fixed- and variable-load gift cards, retrieve and act on individual cards (balance check, mark redeemed, update '
@@ -46,7 +48,7 @@ common:
   type: Blog
   url: https://www.raise.com/press
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/raise/refs/heads/main/security/raise-domain-security.yml
+  href: https://artifacts.apis.io/raise/security/raise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/raise-domain-security.yml
@@ -79,12 +81,12 @@ common:
   type: PrivacyPolicy
   url: https://www.raise.com/business/privacy-policy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/raise/refs/heads/main/packages/raise-packages.yml
+  href: https://artifacts.apis.io/raise/packages/raise-packages.yml
   title: ''
   type: Packages
   url: packages/raise-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/raise/refs/heads/main/llms/raise-llms.txt
+  href: https://artifacts.apis.io/raise/llms/raise-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/raise-llms.txt
@@ -103,7 +105,7 @@ overview: 'Raise is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 4
 score:
   band: emerging
-  composite: 18.2
+  composite: 22.0
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -111,15 +113,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 54.8
-    discoverability: 73.2
+    developer_ergonomics: 64.3
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 17.7
+  previous_composite: 22.0
   provenance:
     conformance: derived
     mcp: derived
@@ -128,15 +130,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/raise/refs/heads/main/screenshots/raise-2026-09-02T152823.png
+screenshot: https://apis.io/screenshots/raise/raise-2026-09-02T152823.png
 security:
 - kind: authentication
   name: Raise Authentication

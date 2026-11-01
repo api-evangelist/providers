@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.3
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 2
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 104
   slug: raygun-agentic-access
   summary_line: 104 operations · 44 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.raygun.com/v3
   baseurl_source: spec
@@ -175,9 +177,6 @@ collections:
   name: Raygun Teams API
   slug: postman-raygun-teams-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Raygun applications API
   slug: open-raygun-applications-api
 - collection_type: open
@@ -221,7 +220,7 @@ collections:
   slug: open-raygun-webhooks-asyncapi
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/capabilities/raygun-capability-edges.yml
+  href: https://artifacts.apis.io/raygun/capabilities/raygun-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/raygun-capability-edges.yml
@@ -230,22 +229,22 @@ common:
   type: Website
   url: https://www.raygun.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/agentic-access/raygun-agentic-access.yml
+  href: https://artifacts.apis.io/raygun/agentic-access/raygun-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/raygun-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/security/raygun-trust-center.yml
+  href: https://artifacts.apis.io/raygun/security/raygun-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/raygun-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/security/raygun-domain-security.yml
+  href: https://artifacts.apis.io/raygun/security/raygun-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/raygun-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/authentication/raygun-authentication.yml
+  href: https://artifacts.apis.io/raygun/authentication/raygun-authentication.yml
   title: ''
   type: Authentication
   url: authentication/raygun-authentication.yml
@@ -254,37 +253,37 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/raygun/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/arazzo/raygun-create-and-verify-deployment-workflow.yml
+  href: https://artifacts.apis.io/raygun/arazzo/raygun-create-and-verify-deployment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/raygun-create-and-verify-deployment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/arazzo/raygun-inspect-application-page-workflow.yml
+  href: https://artifacts.apis.io/raygun/arazzo/raygun-inspect-application-page-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/raygun-inspect-application-page-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/arazzo/raygun-inspect-latest-deployment-errors-workflow.yml
+  href: https://artifacts.apis.io/raygun/arazzo/raygun-inspect-latest-deployment-errors-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/raygun-inspect-latest-deployment-errors-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/arazzo/raygun-lookup-customer-workflow.yml
+  href: https://artifacts.apis.io/raygun/arazzo/raygun-lookup-customer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/raygun-lookup-customer-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/arazzo/raygun-publish-source-map-workflow.yml
+  href: https://artifacts.apis.io/raygun/arazzo/raygun-publish-source-map-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/raygun-publish-source-map-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/arazzo/raygun-resolve-error-group-workflow.yml
+  href: https://artifacts.apis.io/raygun/arazzo/raygun-resolve-error-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/raygun-resolve-error-group-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/arazzo/raygun-triage-error-group-comment-workflow.yml
+  href: https://artifacts.apis.io/raygun/arazzo/raygun-triage-error-group-comment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/raygun-triage-error-group-comment-workflow.yml
@@ -417,27 +416,27 @@ common:
   type: Plugin
   url: https://github.com/MindscapeHQ/ember-cli-raygun
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/plans/raygun-plans-pricing.yml
+  href: https://artifacts.apis.io/raygun/plans/raygun-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/raygun-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/rate-limits/raygun-rate-limits.yml
+  href: https://artifacts.apis.io/raygun/rate-limits/raygun-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/raygun-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/finops/raygun-finops.yml
+  href: https://artifacts.apis.io/raygun/finops/raygun-finops.yml
   title: ''
   type: FinOps
   url: finops/raygun-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/vocabulary/raygun-vocabulary.yml
+  href: https://artifacts.apis.io/raygun/vocabulary/raygun-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/raygun-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/rules/raygun-rules.yml
+  href: https://artifacts.apis.io/raygun/rules/raygun-rules.yml
   title: ''
   type: SpectralRules
   url: rules/raygun-rules.yml
@@ -474,10 +473,10 @@ features:
 - Personal Access Token bearer auth for the v3 API; X-ApiKey for ingestion
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Raygun Finops
-  primary_unit: event
-  service_category: Observability
+  primary_unit: 100,000 errors/mo
+  service_category: ''
   slug: raygun-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raygun.png
@@ -516,9 +515,12 @@ overview: 'Raygun publishes 15 API contracts indexed on the [APIs.io](https://ap
   Raygun''s developer surface includes authentication, developer portal, documentation, changelog, engineering blog, getting-started guide, pricing, and 44 more developer resources.'
 plans:
 - name: Raygun Plans Pricing
-  plan_count: 13
+  plan_count: 15
   slug: raygun-plans-pricing
-random_paper: 2
+- name: Raygun Price Estimates
+  plan_count: 0
+  slug: raygun-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Raygun Rate Limits
@@ -549,23 +551,23 @@ rules:
   slug: raygun-rules
 score:
   band: strong
-  composite: 57.6
+  composite: 65.7
   coverage:
     artifact_dirs: 20
-    catalog_earned: 60.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 54.6
+    catalog_earned: 69.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.0
+  delta: 0.0
   facets:
-    access_clarity: 68.4
+    access_clarity: 92.1
     contract_governance: 27.3
     contract_quality: 65.6
-    developer_ergonomics: 63.1
+    developer_ergonomics: 67.9
     discoverability: 57.1
-    operational_transparency: 34.2
-  previous_composite: 61.6
+    operational_transparency: 47.4
+  previous_composite: 65.7
   provenance:
     agentic_access: derived
     contracts:
@@ -579,13 +581,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/screenshots/raygun-2026-06-20T192616.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/raygun/raygun-2026-06-20T192616.png
 security:
 - kind: authentication
   name: Raygun Authentication

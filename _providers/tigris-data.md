@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -59,11 +61,8 @@ apis:
   description: S3-compatible object CRUD, tagging, and tiering operations.
   name: Tigris Objects API
   slug: tigris-data-objects-api
-artifact_total: 15
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tigris Object Storage (S3-Compatible) Buckets API
   slug: open-tigris-data-buckets-api
@@ -78,22 +77,22 @@ collections:
   slug: open-tigris-data
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/agentic-access/tigris-data-agentic-access.yml
+  href: https://artifacts.apis.io/tigris-data/agentic-access/tigris-data-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tigris-data-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/security/tigris-data-trust-center.yml
+  href: https://artifacts.apis.io/tigris-data/security/tigris-data-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tigris-data-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/security/tigris-data-domain-security.yml
+  href: https://artifacts.apis.io/tigris-data/security/tigris-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tigris-data-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/authentication/tigris-data-authentication.yml
+  href: https://artifacts.apis.io/tigris-data/authentication/tigris-data-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tigris-data-authentication.yml
@@ -114,17 +113,17 @@ common:
   type: Documentation
   url: https://www.tigrisdata.com/docs/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/plans/tigris-data-plans-pricing.yml
+  href: https://artifacts.apis.io/tigris-data/plans/tigris-data-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tigris-data-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/rate-limits/tigris-data-rate-limits.yml
+  href: https://artifacts.apis.io/tigris-data/rate-limits/tigris-data-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tigris-data-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/finops/tigris-data-finops.yml
+  href: https://artifacts.apis.io/tigris-data/finops/tigris-data-finops.yml
   title: ''
   type: FinOps
   url: finops/tigris-data-finops.yml
@@ -156,14 +155,14 @@ plans:
 - name: Tigris Data Plans Pricing
   plan_count: 3
   slug: tigris-data-plans-pricing
-random_paper: 13
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Tigris Data Rate Limits
   slug: tigris-data-rate-limits
 score:
   band: thin
-  composite: 28.1
+  composite: 29.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -171,15 +170,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 36.4
+    operational_transparency: 13.2
+  previous_composite: 29.2
   provenance:
     agentic_access: derived
     contracts:
@@ -193,13 +192,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/screenshots/tigris-data-2026-06-20T195343.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tigris-data/tigris-data-2026-06-20T195343.png
 security:
 - kind: authentication
   name: Tigris Data Authentication

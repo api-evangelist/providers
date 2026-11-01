@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 3
@@ -114,11 +116,8 @@ apis:
   description: The Webhooks API from Pinwheel — 2 operation(s) for webhooks.
   name: Pinwheel Webhooks API
   slug: pinwheel-webhooks-api
-artifact_total: 188
+artifact_total: 187
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Pinwheel Accounts API
   slug: open-pinwheel-accounts-api
@@ -163,22 +162,22 @@ collections:
   slug: open-pinwheel-webhooks-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/agentic-access/pinwheel-agentic-access.yml
+  href: https://artifacts.apis.io/pinwheel/agentic-access/pinwheel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pinwheel-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/security/pinwheel-trust-center.yml
+  href: https://artifacts.apis.io/pinwheel/security/pinwheel-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pinwheel-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/security/pinwheel-domain-security.yml
+  href: https://artifacts.apis.io/pinwheel/security/pinwheel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pinwheel-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/authentication/pinwheel-authentication.yml
+  href: https://artifacts.apis.io/pinwheel/authentication/pinwheel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pinwheel-authentication.yml
@@ -215,17 +214,17 @@ common:
   type: X
   url: https://twitter.com/PinwheelAPI
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/plans/pinwheel-plans-pricing.yml
+  href: https://artifacts.apis.io/pinwheel/plans/pinwheel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pinwheel-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/rate-limits/pinwheel-rate-limits.yml
+  href: https://artifacts.apis.io/pinwheel/rate-limits/pinwheel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pinwheel-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/finops/pinwheel-finops.yml
+  href: https://artifacts.apis.io/pinwheel/finops/pinwheel-finops.yml
   title: ''
   type: FinOps
   url: finops/pinwheel-finops.yml
@@ -713,7 +712,7 @@ plans:
 - name: Pinwheel Plans Pricing
   plan_count: 3
   slug: pinwheel-plans-pricing
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Pinwheel Rate Limits
@@ -732,7 +731,7 @@ rules:
   slug: pinwheel-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.3
+  composite: 38.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 64.2
@@ -740,15 +739,15 @@ score:
     catalog_gap: 50.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 23.5
-    contract_quality: 64.9
+    contract_quality: 63.1
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 46.6
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -762,13 +761,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/screenshots/pinwheel-2026-06-20T191723.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pinwheel/pinwheel-2026-06-20T191723.png
 security:
 - kind: authentication
   name: Pinwheel Authentication

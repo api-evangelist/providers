@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.9
-  scored_at: '2026-10-17'
+  score: 52.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -68,11 +70,8 @@ apis:
   description: The Generate Pdf API from Anvil — 1 operation(s) for generate pdf.
   name: Anvil Generate Pdf API
   slug: anvil-generate-pdf-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Anvil PDF Filling Fill API
   slug: open-anvil-fill-api
@@ -81,17 +80,17 @@ collections:
   slug: open-anvil-generate-pdf-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/agentic-access/anvil-agentic-access.yml
+  href: https://artifacts.apis.io/anvil/agentic-access/anvil-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/anvil-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/security/anvil-domain-security.yml
+  href: https://artifacts.apis.io/anvil/security/anvil-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anvil-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/authentication/anvil-authentication.yml
+  href: https://artifacts.apis.io/anvil/authentication/anvil-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anvil-authentication.yml
@@ -164,17 +163,17 @@ common:
   type: GraphQLReference
   url: https://www.useanvil.com/docs/api/graphql/reference/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/plans/anvil-plans-pricing.yml
+  href: https://artifacts.apis.io/anvil/plans/anvil-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/anvil-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/rate-limits/anvil-rate-limits.yml
+  href: https://artifacts.apis.io/anvil/rate-limits/anvil-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/anvil-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/finops/anvil-finops.yml
+  href: https://artifacts.apis.io/anvil/finops/anvil-finops.yml
   title: ''
   type: FinOps
   url: finops/anvil-finops.yml
@@ -250,8 +249,8 @@ rules:
     warn: 3
   slug: anvil-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.5
+  band: developing
+  composite: 39.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 54.3
@@ -259,15 +258,15 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 63.7
-    developer_ergonomics: 38.1
-    discoverability: 68.3
+    developer_ergonomics: 40.5
+    discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 46.8
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -282,13 +281,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/screenshots/anvil-2026-06-20T172029.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/anvil/anvil-2026-06-20T172029.png
 security:
 - kind: authentication
   name: Anvil Authentication

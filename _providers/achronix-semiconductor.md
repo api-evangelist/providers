@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,12 +71,12 @@ common:
   type: YouTube
   url: https://www.youtube.com/user/AchronixCorp
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/achronix-semiconductor/refs/heads/main/llms/achronix-semiconductor-llms.txt
+  href: https://artifacts.apis.io/achronix-semiconductor/llms/achronix-semiconductor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/achronix-semiconductor-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/achronix-semiconductor/refs/heads/main/security/achronix-semiconductor-domain-security.yml
+  href: https://artifacts.apis.io/achronix-semiconductor/security/achronix-semiconductor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/achronix-semiconductor-domain-security.yml
@@ -114,10 +116,10 @@ overview: 'Achronix Semiconductor is profiled on the [APIs.io](https://apis.io/)
 
 
   Achronix Semiconductor''s developer surface includes getting-started guide, signup flow, YouTube channel, support, documentation, engineering blog, and 10 more developer resources.'
-random_paper: 2
+random_paper: 8
 score:
   band: emerging
-  composite: 17.7
+  composite: 17.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -131,23 +133,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 17.7
+  previous_composite: 17.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/achronix-semiconductor/refs/heads/main/screenshots/achronix-semiconductor-2026-07-25T181457.png
+screenshot: https://apis.io/screenshots/achronix-semiconductor/achronix-semiconductor-2026-07-25T181457.png
 security:
 - kind: domain-security
   name: Achronix Semiconductor Domain Security

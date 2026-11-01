@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Public GraphQL API maintained by the LAOS Foundation for Bridgeless Minting and Evolution of NFTs. Create collections, mint up to 700 NFTs atomically, evolve assets, broadcast to marketplaces, and run
   name: LAOS Network API
   slug: laos-network-api
-artifact_total: 3
+artifact_total: 5
 common:
 - group: start
   title: ''
@@ -87,7 +89,7 @@ common:
   type: ChangeLog
   url: https://docs.laosnetwork.io/tokenomics/change-log
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/changelog/freeverse-changelog.yml
+  href: https://artifacts.apis.io/freeverse/changelog/freeverse-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/freeverse-changelog.yml
@@ -96,62 +98,62 @@ common:
   type: Whitepaper
   url: https://github.com/freeverseio/laos-whitepaper
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/packages/freeverse-packages.yml
+  href: https://artifacts.apis.io/freeverse/packages/freeverse-packages.yml
   title: ''
   type: SDKs
   url: packages/freeverse-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/packages/freeverse-packages.yml
+  href: https://artifacts.apis.io/freeverse/packages/freeverse-packages.yml
   title: ''
   type: Packages
   url: packages/freeverse-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/authentication/freeverse-authentication.yml
+  href: https://artifacts.apis.io/freeverse/authentication/freeverse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/freeverse-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/conventions/freeverse-conventions.yml
+  href: https://artifacts.apis.io/freeverse/conventions/freeverse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/freeverse-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/data-model/freeverse-data-model.yml
+  href: https://artifacts.apis.io/freeverse/data-model/freeverse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/freeverse-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/errors/freeverse-error-codes.yml
+  href: https://artifacts.apis.io/freeverse/errors/freeverse-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/freeverse-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/lifecycle/freeverse-lifecycle.yml
+  href: https://artifacts.apis.io/freeverse/lifecycle/freeverse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/freeverse-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/conformance/freeverse-conformance.yml
+  href: https://artifacts.apis.io/freeverse/conformance/freeverse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/freeverse-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/mcp/freeverse-mcp.yml
+  href: https://artifacts.apis.io/freeverse/mcp/freeverse-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/freeverse-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/llms/freeverse-llms.txt
+  href: https://artifacts.apis.io/freeverse/llms/freeverse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/freeverse-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/freeverse/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/security/freeverse-domain-security.yml
+  href: https://artifacts.apis.io/freeverse/security/freeverse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/freeverse-domain-security.yml
@@ -167,10 +169,10 @@ overview: 'Freeverse is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Freeverse''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 18 more developer resources.'
-random_paper: 21
+random_paper: 7
 score:
   band: thin
-  composite: 33.0
+  composite: 34.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -183,10 +185,10 @@ score:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 40.3
-    developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 33.0
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 34.1
   provenance:
     conformance: derived
     mcp: derived
@@ -197,14 +199,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/freeverse/refs/heads/main/screenshots/freeverse-2026-07-25T215145.png
+screenshot: https://apis.io/screenshots/freeverse/freeverse-2026-07-25T215145.png
 security:
 - kind: authentication
   name: Freeverse Authentication
@@ -214,6 +216,12 @@ security:
   name: Freeverse Domain Security
   slug: freeverse-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Create a LAOS collection and mint NFTs
+  slug: freeverse-create-collection-and-mint
+- name: Evolve LAOS assets and broadcast to marketplaces
+  slug: freeverse-evolve-and-broadcast
 slug: freeverse
 tags:
 - Company

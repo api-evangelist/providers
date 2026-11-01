@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.3
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Pantheon platform REST API (terminus.pantheon.io) underpins the Terminus CLI and enables programmatic management of sites, environments, deployments, domains, backups, teams, organizations, SSH ke
@@ -41,12 +43,12 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pantheon/refs/heads/main/security/pantheon-trust-center.yml
+  href: https://artifacts.apis.io/pantheon/security/pantheon-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pantheon-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pantheon/refs/heads/main/security/pantheon-domain-security.yml
+  href: https://artifacts.apis.io/pantheon/security/pantheon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pantheon-domain-security.yml
@@ -83,17 +85,17 @@ common:
   type: X
   url: https://x.com/getpantheon
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pantheon/refs/heads/main/plans/pantheon-plans-pricing.yml
+  href: https://artifacts.apis.io/pantheon/plans/pantheon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pantheon-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pantheon/refs/heads/main/rate-limits/pantheon-rate-limits.yml
+  href: https://artifacts.apis.io/pantheon/rate-limits/pantheon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pantheon-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pantheon/refs/heads/main/finops/pantheon-finops.yml
+  href: https://artifacts.apis.io/pantheon/finops/pantheon-finops.yml
   title: ''
   type: FinOps
   url: finops/pantheon-finops.yml
@@ -125,14 +127,14 @@ plans:
 - name: Pantheon Plans Pricing
   plan_count: 0
   slug: pantheon-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Pantheon Rate Limits
   slug: pantheon-rate-limits
 score:
   band: emerging
-  composite: 24.3
+  composite: 24.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -140,15 +142,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 23.8
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 25.8
+  previous_composite: 24.0
   provenance:
     mcp: first-party
   regulatory:
@@ -157,14 +159,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pantheon/refs/heads/main/screenshots/pantheon-2026-06-20T191343.png
+screenshot: https://apis.io/screenshots/pantheon/pantheon-2026-06-20T191343.png
 security:
 - kind: domain-security
   name: Pantheon Domain Security

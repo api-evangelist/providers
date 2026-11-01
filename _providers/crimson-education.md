@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The backend API behind the Crimson App student and mentor platform. There is no provider-published OpenAPI or public developer portal; the surface is documented and exercised through the first-party T
@@ -68,72 +70,72 @@ common:
   type: Careers
   url: https://jobs.crimsoneducation.org/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/packages/crimson-education-packages.yml
+  href: https://artifacts.apis.io/crimson-education/packages/crimson-education-packages.yml
   title: ''
   type: Packages
   url: packages/crimson-education-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/packages/crimson-education-packages.yml
+  href: https://artifacts.apis.io/crimson-education/packages/crimson-education-packages.yml
   title: ''
   type: SDKs
   url: packages/crimson-education-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/components/crimson-education-components.yml
+  href: https://artifacts.apis.io/crimson-education/components/crimson-education-components.yml
   title: ''
   type: Components
   url: components/crimson-education-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/authentication/crimson-education-authentication.yml
+  href: https://artifacts.apis.io/crimson-education/authentication/crimson-education-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crimson-education-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/conventions/crimson-education-conventions.yml
+  href: https://artifacts.apis.io/crimson-education/conventions/crimson-education-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crimson-education-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/errors/crimson-education-problem-types.yml
+  href: https://artifacts.apis.io/crimson-education/errors/crimson-education-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/crimson-education-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/data-model/crimson-education-data-model.yml
+  href: https://artifacts.apis.io/crimson-education/data-model/crimson-education-data-model.yml
   title: ''
   type: DataModel
   url: data-model/crimson-education-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/lifecycle/crimson-education-lifecycle.yml
+  href: https://artifacts.apis.io/crimson-education/lifecycle/crimson-education-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/crimson-education-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/changelog/crimson-education-changelog.yml
+  href: https://artifacts.apis.io/crimson-education/changelog/crimson-education-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/crimson-education-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/sandbox/crimson-education-sandbox.yml
+  href: https://artifacts.apis.io/crimson-education/sandbox/crimson-education-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/crimson-education-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/conformance/crimson-education-conformance.yml
+  href: https://artifacts.apis.io/crimson-education/conformance/crimson-education-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crimson-education-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/well-known/crimson-education-well-known.yml
+  href: https://artifacts.apis.io/crimson-education/well-known/crimson-education-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/crimson-education-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/security/crimson-education-domain-security.yml
+  href: https://artifacts.apis.io/crimson-education/security/crimson-education-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crimson-education-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/llms/crimson-education-llms.txt
+  href: https://artifacts.apis.io/crimson-education/llms/crimson-education-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crimson-education-llms.txt
@@ -149,12 +151,12 @@ overview: 'Crimson Education is listed with 1 API on the [APIs.io](https://apis.
 
 
   Crimson Education''s developer surface includes engineering blog, authentication, changelog, sandbox, and 16 more developer resources.'
-random_paper: 4
+random_paper: 12
 score:
   band: emerging
-  composite: 17.4
+  composite: 20.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -162,13 +164,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 11.8
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 27.4
+    developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 17.4
+    operational_transparency: 21.1
+  previous_composite: 20.7
   provenance:
     conformance: derived
   regulatory:
@@ -176,15 +178,15 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 20.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/crimson-education/refs/heads/main/screenshots/crimson-education-2026-10-11T185208.png
+screenshot: https://apis.io/screenshots/crimson-education/crimson-education-2026-10-11T185208.png
 security:
 - kind: authentication
   name: Crimson Education Authentication

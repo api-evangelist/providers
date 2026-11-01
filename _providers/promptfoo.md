@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: The Promptfoo CLI is the primary entry point for running prompt and model evaluations from the command line or CI. It is installable via npm, Homebrew, pip, or npx and reads a YAML configuration to fa
@@ -57,17 +59,17 @@ apis:
 artifact_total: 33
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/promptfoo/refs/heads/main/plans/promptfoo-plans-pricing.yml
+  href: https://artifacts.apis.io/promptfoo/plans/promptfoo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/promptfoo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/promptfoo/refs/heads/main/rate-limits/promptfoo-rate-limits.yml
+  href: https://artifacts.apis.io/promptfoo/rate-limits/promptfoo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/promptfoo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/promptfoo/refs/heads/main/finops/promptfoo-finops.yml
+  href: https://artifacts.apis.io/promptfoo/finops/promptfoo-finops.yml
   title: ''
   type: FinOps
   url: finops/promptfoo-finops.yml
@@ -88,12 +90,12 @@ common:
   type: ContributionGuide
   url: https://github.com/promptfoo/promptfoo/blob/main/CONTRIBUTING.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/promptfoo/refs/heads/main/security/promptfoo-trust-center.yml
+  href: https://artifacts.apis.io/promptfoo/security/promptfoo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/promptfoo-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/promptfoo/refs/heads/main/security/promptfoo-domain-security.yml
+  href: https://artifacts.apis.io/promptfoo/security/promptfoo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/promptfoo-domain-security.yml
@@ -257,14 +259,14 @@ plans:
 - name: Promptfoo Plans Pricing
   plan_count: 1
   slug: promptfoo-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Promptfoo Rate Limits
   slug: promptfoo-rate-limits
 score:
   band: thin
-  composite: 36.3
+  composite: 31.9
   coverage:
     artifact_dirs: 8
     catalog_earned: 39.0
@@ -272,32 +274,29 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.4
+  delta: 0.0
   facets:
-    access_clarity: 30.3
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 6.5
     developer_ergonomics: 52.4
     discoverability: 62.5
-    operational_transparency: 42.1
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 41.7
+    operational_transparency: 52.6
+  previous_composite: 31.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/promptfoo/refs/heads/main/screenshots/promptfoo-2026-06-20T192156.png
+screenshot: https://apis.io/screenshots/promptfoo/promptfoo-2026-06-20T192156.png
 security:
 - kind: domain-security
   name: Promptfoo Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.3
-  scored_at: '2026-10-17'
+  score: 30.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -100,14 +102,19 @@ apis:
   description: Variant-level price, quantity, cutoff and core lookups.
   name: FinditParts Variants API
   slug: finditparts-variants-api
-artifact_total: 55
+artifact_total: 60
 collections:
 - collection_type: open
   name: FinditParts Reseller API
   slug: open-finditparts-reseller-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/overlays/finditparts-reseller-api-overlay.yaml
+  href: https://artifacts.apis.io/finditparts/capabilities/finditparts-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/finditparts-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/finditparts/overlays/finditparts-reseller-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/finditparts-reseller-api-overlay.yaml
@@ -164,82 +171,82 @@ common:
   type: PrivacyPolicy
   url: https://www.finditparts.com/privacy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/packages/finditparts-packages.yml
+  href: https://artifacts.apis.io/finditparts/packages/finditparts-packages.yml
   title: ''
   type: Packages
   url: packages/finditparts-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/llms/finditparts-llms.txt
+  href: https://artifacts.apis.io/finditparts/llms/finditparts-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/finditparts-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/authentication/finditparts-authentication.yml
+  href: https://artifacts.apis.io/finditparts/authentication/finditparts-authentication.yml
   title: ''
   type: Authentication
   url: authentication/finditparts-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/errors/finditparts-error-codes.yml
+  href: https://artifacts.apis.io/finditparts/errors/finditparts-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/finditparts-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/conventions/finditparts-conventions.yml
+  href: https://artifacts.apis.io/finditparts/conventions/finditparts-conventions.yml
   title: ''
   type: Conventions
   url: conventions/finditparts-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/conformance/finditparts-conformance.yml
+  href: https://artifacts.apis.io/finditparts/conformance/finditparts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/finditparts-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/lifecycle/finditparts-lifecycle.yml
+  href: https://artifacts.apis.io/finditparts/lifecycle/finditparts-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/finditparts-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/security/finditparts-domain-security.yml
+  href: https://artifacts.apis.io/finditparts/security/finditparts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/finditparts-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/data-model/finditparts-data-model.yml
+  href: https://artifacts.apis.io/finditparts/data-model/finditparts-data-model.yml
   title: ''
   type: DataModel
   url: data-model/finditparts-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/components/finditparts-components.yml
+  href: https://artifacts.apis.io/finditparts/components/finditparts-components.yml
   title: ''
   type: Components
   url: components/finditparts-components.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/plans/finditparts-plans-pricing.yml
+  href: https://artifacts.apis.io/finditparts/plans/finditparts-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/finditparts-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/rate-limits/finditparts-rate-limits.yml
+  href: https://artifacts.apis.io/finditparts/rate-limits/finditparts-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/finditparts-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/finditparts/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/agentic-access/finditparts-agentic-access.yml
+  href: https://artifacts.apis.io/finditparts/agentic-access/finditparts-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/finditparts-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/mcp/finditparts-mcp.yml
+  href: https://artifacts.apis.io/finditparts/mcp/finditparts-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/finditparts-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/finditparts/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
@@ -360,6 +367,14 @@ examples:
 - key_count: 2
   name: Finditparts Variant Lookup 200
   slug: finditparts-variant-lookup-200
+finops:
+- has_sources: true
+  method: derived
+  name: Finditparts Finops
+  primary_unit: ''
+  service_category: ''
+  slug: finditparts-finops
+  template: true
 image: https://d2jocyn8o0ggnq.cloudfront.net/logos/finditparts.png
 layout: provider
 modified: '2026-08-12'
@@ -369,21 +384,21 @@ network: true
 overview: 'FinditParts publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Addresses API, Carts API, Orders API, and 8 more. Tagged areas include Company, E-Commerce, Marketplace, Automotive, and Parts.
 
 
-  FinditParts'' developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, code examples, and 23 more developer resources.'
+  FinditParts'' developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, code examples, and 24 more developer resources.'
 plans:
 - name: Finditparts Plans Pricing
   plan_count: 0
   slug: finditparts-plans-pricing
-random_paper: 4
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Finditparts Rate Limits
   slug: finditparts-rate-limits
 score:
   band: developing
-  composite: 39.9
+  composite: 40.0
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 27
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -393,10 +408,10 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 55.3
+    contract_quality: 54.1
     developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -404,7 +419,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 39.9
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -421,13 +436,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/screenshots/finditparts-2026-08-17T080926.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/finditparts/finditparts-2026-08-17T080926.png
 security:
 - kind: authentication
   name: Finditparts Authentication
@@ -437,6 +453,16 @@ security:
   name: Finditparts Domain Security
   slug: finditparts-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Build a cart and check out on FinditParts
+  slug: finditparts-cart-checkout
+- name: Find a heavy-duty part on FinditParts
+  slug: finditparts-find-a-part
+- name: Onboard and order for a reseller customer on FinditParts
+  slug: finditparts-onboard-a-reseller-customer
+- name: Quote shipping for a FinditParts order
+  slug: finditparts-quote-shipping
 slug: finditparts
 tags:
 - Company
@@ -445,7 +471,7 @@ tags:
 - Automotive
 - Parts
 - Heavy Duty Trucking
-- Fleet
+- Fleet Management
 - Logistics
 - Commerce
 - Catalog

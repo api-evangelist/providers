@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: derived
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-17'
+  score: 26.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A first-party Model Context Protocol server running in-process inside the SparkyFitness API server, mounted at POST /mcp over a stateless streamable HTTP transport. 56 tools across food, exercise, che
@@ -146,20 +148,20 @@ apis:
   description: Health metrics tracking (weight, measurements, sleep, mood) and fasting.
   name: SparkyFitness Wellness & Metrics API
   slug: sparkyfitness-wellness-metrics-api
-artifact_total: 28
+artifact_total: 32
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/rate-limits/sparkyfitness-rate-limits.yml
+  href: https://artifacts.apis.io/sparkyfitness/rate-limits/sparkyfitness-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sparkyfitness-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/capabilities/sparkyfitness-capability-edges.yml
+  href: https://artifacts.apis.io/sparkyfitness/capabilities/sparkyfitness-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sparkyfitness-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/overlays/sparkyfitness-openapi-overlay.yaml
+  href: https://artifacts.apis.io/sparkyfitness/overlays/sparkyfitness-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sparkyfitness-openapi-overlay.yaml
@@ -216,42 +218,42 @@ common:
   type: ChangeLog
   url: https://github.com/CodeWithCJ/SparkyFitness/releases
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/changelog/sparkyfitness-changelog.yml
+  href: https://artifacts.apis.io/sparkyfitness/changelog/sparkyfitness-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sparkyfitness-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/packages/sparkyfitness-packages.yml
+  href: https://artifacts.apis.io/sparkyfitness/packages/sparkyfitness-packages.yml
   title: ''
   type: Packages
   url: packages/sparkyfitness-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/conformance/sparkyfitness-conformance.yml
+  href: https://artifacts.apis.io/sparkyfitness/conformance/sparkyfitness-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sparkyfitness-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/lifecycle/sparkyfitness-lifecycle.yml
+  href: https://artifacts.apis.io/sparkyfitness/lifecycle/sparkyfitness-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sparkyfitness-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/plans/sparkyfitness-plans-pricing.yml
+  href: https://artifacts.apis.io/sparkyfitness/plans/sparkyfitness-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sparkyfitness-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/llms/sparkyfitness-llms.txt
+  href: https://artifacts.apis.io/sparkyfitness/llms/sparkyfitness-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sparkyfitness-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sparkyfitness/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/security/sparkyfitness-domain-security.yml
+  href: https://artifacts.apis.io/sparkyfitness/security/sparkyfitness-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sparkyfitness-domain-security.yml
@@ -275,14 +277,14 @@ plans:
 - name: Sparkyfitness Plans Pricing
   plan_count: 0
   slug: sparkyfitness-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Sparkyfitness Rate Limits
   slug: sparkyfitness-rate-limits
 score:
   band: thin
-  composite: 32.9
+  composite: 29.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 45.0
@@ -294,11 +296,11 @@ score:
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 15.1
+    contract_quality: 12.1
     developer_ergonomics: 56.5
-    discoverability: 68.3
-    operational_transparency: 39.5
-  previous_composite: 32.9
+    discoverability: 65.0
+    operational_transparency: 42.1
+  previous_composite: 29.6
   provenance:
     conformance: derived
     contracts:
@@ -314,13 +316,14 @@ score:
     regime: Health
     regime_id: health
     score: 16.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/screenshots/sparkyfitness-2026-09-02T160339.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sparkyfitness/sparkyfitness-2026-09-02T160339.png
 security:
 - kind: authentication
   name: Sparkyfitness Authentication
@@ -334,6 +337,16 @@ security:
   name: Sparkyfitness Vulnerability Disclosure
   slug: sparkyfitness-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 4
+skills:
+- name: sparkyfitness-connect-mcp-agent
+  slug: sparkyfitness-connect-mcp-agent
+- name: sparkyfitness-daily-checkin
+  slug: sparkyfitness-daily-checkin
+- name: sparkyfitness-ingest-wearable-workout
+  slug: sparkyfitness-ingest-wearable-workout
+- name: sparkyfitness-log-daily-nutrition
+  slug: sparkyfitness-log-daily-nutrition
 slug: sparkyfitness
 tags:
 - Company

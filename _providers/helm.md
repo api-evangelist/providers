@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -79,11 +81,8 @@ apis:
   description: Standard Helm chart repository endpoints for index and chart download. These endpoints are required for any Helm-compatible chart repository.
   name: Helm Repository API
   slug: helm-repository-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Helm Chart Repository API
   slug: open-helm-chart-repository
@@ -97,18 +96,23 @@ collections:
   name: Helm Chart ChartMuseum Repository API
   slug: open-helm-repository-api
 common:
+- group: other
+  href: https://artifacts.apis.io/helm/capabilities/helm-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/helm-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/plans/helm-plans-pricing.yml
+  href: https://artifacts.apis.io/helm/plans/helm-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/helm-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/rate-limits/helm-rate-limits.yml
+  href: https://artifacts.apis.io/helm/rate-limits/helm-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/helm-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/finops/helm-finops.yml
+  href: https://artifacts.apis.io/helm/finops/helm-finops.yml
   title: ''
   type: FinOps
   url: finops/helm-finops.yml
@@ -137,22 +141,22 @@ common:
   type: License
   url: https://github.com/helm/helm/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/agentic-access/helm-agentic-access.yml
+  href: https://artifacts.apis.io/helm/agentic-access/helm-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/helm-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/security/helm-domain-security.yml
+  href: https://artifacts.apis.io/helm/security/helm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/helm-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/json-ld/helm-context.jsonld
+  href: https://artifacts.apis.io/helm/json-ld/helm-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/helm-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/json-schema/helm-plugin-schema.json
+  href: https://artifacts.apis.io/helm/json-schema/helm-plugin-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/helm-plugin-schema.json
@@ -206,7 +210,7 @@ finops:
 - has_sources: true
   method: generated
   name: Helm Finops
-  primary_unit: ''
+  primary_unit: install
   service_category: Open Source / DevOps
   slug: helm-finops
   template: false
@@ -240,12 +244,12 @@ overview: 'Helm publishes 10 API contracts indexed on the [APIs.io](https://apis
   The Helm catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Helm''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 20 more developer resources.'
+  Helm''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 21 more developer resources.'
 plans:
 - name: Helm Plans Pricing
   plan_count: 1
   slug: helm-plans-pricing
-random_paper: 4
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Helm Rate Limits
@@ -263,27 +267,24 @@ rules:
     warn: 4
   slug: helm-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 35.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 52.7
+    artifact_dirs: 15
+    catalog_earned: 55.7
     catalog_earned_first_party: 0.0
-    catalog_gap: 62.4
+    catalog_gap: 59.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 1.6
   facets:
-    access_clarity: 5.3
+    access_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 54.0
     developer_ergonomics: 35.7
     discoverability: 64.3
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 40.7
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -297,13 +298,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/screenshots/helm-2026-06-20T182629.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/helm/helm-2026-06-20T182629.png
 security:
 - kind: domain-security
   name: Helm Domain Security

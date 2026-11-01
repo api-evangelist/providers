@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Following the Fiserv merger, legacy First Data API products are now hosted on the Fiserv developer portal. These include Commerce Hub, Payeezy, and Bolt for merchant payment acceptance, tokenization, '
@@ -45,12 +47,12 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/finops/first-data-finops.yml
+  href: https://artifacts.apis.io/first-data/finops/first-data-finops.yml
   title: ''
   type: FinOps
   url: finops/first-data-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/security/first-data-domain-security.yml
+  href: https://artifacts.apis.io/first-data/security/first-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/first-data-domain-security.yml
@@ -71,77 +73,77 @@ common:
   type: DeveloperPortal
   url: https://developer.fiserv.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/packages/first-data-packages.yml
+  href: https://artifacts.apis.io/first-data/packages/first-data-packages.yml
   title: ''
   type: Packages
   url: packages/first-data-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/packages/first-data-packages.yml
+  href: https://artifacts.apis.io/first-data/packages/first-data-packages.yml
   title: ''
   type: SDKs
   url: packages/first-data-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/authentication/first-data-authentication.yml
+  href: https://artifacts.apis.io/first-data/authentication/first-data-authentication.yml
   title: ''
   type: Authentication
   url: authentication/first-data-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/conventions/first-data-conventions.yml
+  href: https://artifacts.apis.io/first-data/conventions/first-data-conventions.yml
   title: ''
   type: Conventions
   url: conventions/first-data-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/conventions/first-data-conventions.yml
+  href: https://artifacts.apis.io/first-data/conventions/first-data-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/first-data-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/errors/first-data-problem-types.yml
+  href: https://artifacts.apis.io/first-data/errors/first-data-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/first-data-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/errors/first-data-decline-codes.yml
+  href: https://artifacts.apis.io/first-data/errors/first-data-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/first-data-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/lifecycle/first-data-lifecycle.yml
+  href: https://artifacts.apis.io/first-data/lifecycle/first-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/first-data-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/lifecycle/first-data-lifecycle.yml
+  href: https://artifacts.apis.io/first-data/lifecycle/first-data-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/first-data-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/sandbox/first-data-sandbox.yml
+  href: https://artifacts.apis.io/first-data/sandbox/first-data-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/first-data-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/components/first-data-components.yml
+  href: https://artifacts.apis.io/first-data/components/first-data-components.yml
   title: ''
   type: Components
   url: components/first-data-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/conformance/first-data-conformance.yml
+  href: https://artifacts.apis.io/first-data/conformance/first-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/first-data-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/llms/first-data-llms.txt
+  href: https://artifacts.apis.io/first-data/llms/first-data-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/first-data-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/plans/first-data-plans-pricing.yml
+  href: https://artifacts.apis.io/first-data/plans/first-data-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/first-data-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/rate-limits/first-data-rate-limits.yml
+  href: https://artifacts.apis.io/first-data/rate-limits/first-data-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/first-data-rate-limits.yml
@@ -154,7 +156,7 @@ common:
   type: Support
   url: https://developer.fiserv.com/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/data-model/first-data-data-model.yml
+  href: https://artifacts.apis.io/first-data/data-model/first-data-data-model.yml
   title: ''
   type: DataModel
   url: data-model/first-data-data-model.yml
@@ -198,14 +200,14 @@ press:
 - date: ''
   title: First Data Center Project Gains Permitting Council's FAST ...
   url: https://www.permitting.gov/newsroom/press-releases/first-data-center-project-gains-permitting-councils-fast-41-coverage
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: First Data Rate Limits
   slug: first-data-rate-limits
 score:
   band: emerging
-  composite: 16.7
+  composite: 21.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 36.0
@@ -213,15 +215,15 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 35.7
+    developer_ergonomics: 57.1
     discoverability: 57.1
-    operational_transparency: 15.8
-  previous_composite: 18.2
+    operational_transparency: 18.4
+  previous_composite: 21.3
   provenance:
     conformance: derived
   regulatory:
@@ -230,14 +232,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/screenshots/first-data-2026-06-20T181236.png
+screenshot: https://apis.io/screenshots/first-data/first-data-2026-06-20T181236.png
 security:
 - kind: authentication
   name: First Data Authentication

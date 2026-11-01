@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -106,11 +108,8 @@ apis:
   description: The Webhooks API from SparkPost — 6 operation(s) for webhooks.
   name: SparkPost Webhooks API
   slug: sparkpost-webhooks-api
-artifact_total: 40
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SparkPost Events DKIM Keys API
   slug: open-sparkpost-dkim-keys-api
@@ -149,27 +148,27 @@ collections:
   slug: open-sparkpost-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/capabilities/sparkpost-capability-edges.yml
+  href: https://artifacts.apis.io/sparkpost/capabilities/sparkpost-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sparkpost-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/agentic-access/sparkpost-agentic-access.yml
+  href: https://artifacts.apis.io/sparkpost/agentic-access/sparkpost-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sparkpost-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/security/sparkpost-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sparkpost/security/sparkpost-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sparkpost-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/security/sparkpost-domain-security.yml
+  href: https://artifacts.apis.io/sparkpost/security/sparkpost-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sparkpost-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/authentication/sparkpost-authentication.yml
+  href: https://artifacts.apis.io/sparkpost/authentication/sparkpost-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sparkpost-authentication.yml
@@ -242,17 +241,17 @@ common:
   type: PostmanCollection
   url: https://github.com/SparkPost/postman-collection
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/plans/sparkpost-plans-pricing.yml
+  href: https://artifacts.apis.io/sparkpost/plans/sparkpost-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sparkpost-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/rate-limits/sparkpost-rate-limits.yml
+  href: https://artifacts.apis.io/sparkpost/rate-limits/sparkpost-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sparkpost-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/finops/sparkpost-finops.yml
+  href: https://artifacts.apis.io/sparkpost/finops/sparkpost-finops.yml
   title: ''
   type: FinOps
   url: finops/sparkpost-finops.yml
@@ -308,7 +307,7 @@ plans:
 - name: Sparkpost Plans Pricing
   plan_count: 3
   slug: sparkpost-plans-pricing
-random_paper: 9
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Sparkpost Rate Limits
@@ -326,8 +325,8 @@ rules:
     warn: 4
   slug: sparkpost-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 36.5
+  band: developing
+  composite: 40.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 59.3
@@ -335,15 +334,15 @@ score:
     catalog_gap: 55.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 61.3
-    developer_ergonomics: 26.2
+    contract_quality: 57.9
+    developer_ergonomics: 40.5
     discoverability: 71.4
-    operational_transparency: 26.3
-  previous_composite: 43.9
+    operational_transparency: 36.8
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -357,13 +356,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/screenshots/sparkpost-2026-06-20T194256.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sparkpost/sparkpost-2026-06-20T194256.png
 security:
 - kind: authentication
   name: Sparkpost Authentication
@@ -387,6 +387,6 @@ tags:
 - Webhook
 - Analytics
 - Templates
-- Suppression List
+- Suppression
 website: https://www.sparkpost.com/
 ---

@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Agentio's hosted, remote Model Context Protocol server. A brand adds https://mcp.agentio.com/mcp to any MCP client (Claude, ChatGPT, or any other custom-connector host), authorizes over OAuth 2.1, and
@@ -65,7 +67,7 @@ common:
   type: PrivacyPolicy
   url: https://www.agentio.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/security/agentio-domain-security.yml
+  href: https://artifacts.apis.io/agentio/security/agentio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agentio-domain-security.yml
@@ -90,67 +92,67 @@ common:
   type: Compliance
   url: https://www.agentio.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/security/agentio-trust-center.yml
+  href: https://artifacts.apis.io/agentio/security/agentio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/agentio-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/mcp/agentio-mcp.yml
+  href: https://artifacts.apis.io/agentio/mcp/agentio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/agentio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/well-known/agentio-well-known.yml
+  href: https://artifacts.apis.io/agentio/well-known/agentio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/agentio-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/authentication/agentio-authentication.yml
+  href: https://artifacts.apis.io/agentio/authentication/agentio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/agentio-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/scopes/agentio-scopes.yml
+  href: https://artifacts.apis.io/agentio/scopes/agentio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/agentio-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/conformance/agentio-conformance.yml
+  href: https://artifacts.apis.io/agentio/conformance/agentio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/agentio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/conventions/agentio-conventions.yml
+  href: https://artifacts.apis.io/agentio/conventions/agentio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/agentio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/errors/agentio-problem-types.yml
+  href: https://artifacts.apis.io/agentio/errors/agentio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/agentio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/lifecycle/agentio-lifecycle.yml
+  href: https://artifacts.apis.io/agentio/lifecycle/agentio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/agentio-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/packages/agentio-packages.yml
+  href: https://artifacts.apis.io/agentio/packages/agentio-packages.yml
   title: ''
   type: Packages
   url: packages/agentio-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/plans/agentio-plans-pricing.yml
+  href: https://artifacts.apis.io/agentio/plans/agentio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agentio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/rate-limits/agentio-rate-limits.yml
+  href: https://artifacts.apis.io/agentio/rate-limits/agentio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agentio-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/llms/agentio-llms.txt
+  href: https://artifacts.apis.io/agentio/llms/agentio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/agentio-llms.txt
@@ -175,7 +177,7 @@ plans:
 - name: Agentio Plans Pricing
   plan_count: 0
   slug: agentio-plans-pricing
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Agentio Rate Limits
@@ -187,7 +189,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 31.3
+  composite: 32.0
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -201,8 +203,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 68.3
-    operational_transparency: 7.9
+    discoverability: 65.0
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -210,7 +212,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 31.3
+  previous_composite: 32.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -220,14 +222,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/screenshots/agentio-2026-07-25T181800.png
+screenshot: https://apis.io/screenshots/agentio/agentio-2026-07-25T181800.png
 security:
 - kind: authentication
   name: Agentio Authentication

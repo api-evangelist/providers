@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -103,7 +105,7 @@ arazzos:
 - description: Read an order's status and refund it only when funds have been captured.
   name: Tamara Order Status Refund
   slug: tamara-order-status-refund-workflow
-artifact_total: 59
+artifact_total: 58
 collections:
 - collection_type: postman
   name: Tamara Channel Partners API
@@ -129,9 +131,6 @@ collections:
 - collection_type: postman
   name: Tamara Webhooks API
   slug: postman-tamara-webhooks-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tamara Channel Partners Captures API
   slug: open-tamara-captures-api
@@ -176,7 +175,7 @@ collections:
   slug: open-tamara-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/capabilities/tamara-capability-edges.yml
+  href: https://artifacts.apis.io/tamara/capabilities/tamara-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tamara-capability-edges.yml
@@ -185,17 +184,17 @@ common:
   type: Website
   url: https://www.tamara.co/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/agentic-access/tamara-agentic-access.yml
+  href: https://artifacts.apis.io/tamara/agentic-access/tamara-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tamara-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/security/tamara-domain-security.yml
+  href: https://artifacts.apis.io/tamara/security/tamara-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tamara-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/authentication/tamara-authentication.yml
+  href: https://artifacts.apis.io/tamara/authentication/tamara-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tamara-authentication.yml
@@ -204,47 +203,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tamara/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-authorise-and-capture-order-workflow.yml
+  href: https://artifacts.apis.io/tamara/arazzo/tamara-authorise-and-capture-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-authorise-and-capture-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-authorise-capture-refund-order-workflow.yml
+  href: https://artifacts.apis.io/tamara/arazzo/tamara-authorise-capture-refund-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-authorise-capture-refund-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-capture-and-legacy-refund-workflow.yml
+  href: https://artifacts.apis.io/tamara/arazzo/tamara-capture-and-legacy-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-capture-and-legacy-refund-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-capture-and-refund-order-workflow.yml
+  href: https://artifacts.apis.io/tamara/arazzo/tamara-capture-and-refund-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-capture-and-refund-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-create-and-authorise-order-workflow.yml
+  href: https://artifacts.apis.io/tamara/arazzo/tamara-create-and-authorise-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-create-and-authorise-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-eligibility-gated-checkout-workflow.yml
+  href: https://artifacts.apis.io/tamara/arazzo/tamara-eligibility-gated-checkout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-eligibility-gated-checkout-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-full-bnpl-lifecycle-workflow.yml
+  href: https://artifacts.apis.io/tamara/arazzo/tamara-full-bnpl-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-full-bnpl-lifecycle-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-order-status-cancel-workflow.yml
+  href: https://artifacts.apis.io/tamara/arazzo/tamara-order-status-cancel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-order-status-cancel-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/arazzo/tamara-order-status-refund-workflow.yml
+  href: https://artifacts.apis.io/tamara/arazzo/tamara-order-status-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/tamara-order-status-refund-workflow.yml
@@ -309,27 +308,27 @@ common:
   type: Instagram
   url: https://www.instagram.com/tamara/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/plans/tamara-plans-pricing.yml
+  href: https://artifacts.apis.io/tamara/plans/tamara-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tamara-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/rate-limits/tamara-rate-limits.yml
+  href: https://artifacts.apis.io/tamara/rate-limits/tamara-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tamara-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/finops/tamara-finops.yml
+  href: https://artifacts.apis.io/tamara/finops/tamara-finops.yml
   title: ''
   type: FinOps
   url: finops/tamara-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/json-ld/tamara-context.jsonld
+  href: https://artifacts.apis.io/tamara/json-ld/tamara-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tamara-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/vocabulary/tamara-vocabulary.yml
+  href: https://artifacts.apis.io/tamara/vocabulary/tamara-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tamara-vocabulary.yml
@@ -452,7 +451,7 @@ plans:
 - name: Tamara Plans Pricing
   plan_count: 2
   slug: tamara-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Tamara Rate Limits
@@ -482,8 +481,8 @@ rules:
     warn: 6
   slug: tamara-rules
 score:
-  band: thin
-  composite: 37.5
+  band: developing
+  composite: 49.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 68.0
@@ -491,12 +490,12 @@ score:
     catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 57.7
-    developer_ergonomics: 46.4
+    developer_ergonomics: 65.5
     discoverability: 71.4
     operational_transparency: 7.9
   jurisdiction:
@@ -508,7 +507,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 44.4
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -521,14 +520,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 22.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/screenshots/tamara-2026-06-20T194914.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tamara/tamara-2026-06-20T194914.png
 security:
 - kind: authentication
   name: Tamara Authentication

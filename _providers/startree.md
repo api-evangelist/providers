@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,15 +51,17 @@ apis:
   description: The Query API API from StarTree — 1 operation(s) for query api.
   name: StarTree Query API
   slug: startree-query-api-api
-artifact_total: 8
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: StarTree Cloud Query Query API API
   slug: open-startree-query-api-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/startree/plans/startree-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/startree-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -67,7 +71,7 @@ common:
   type: BlogRSS
   url: https://startree.ai/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/overlays/startree-query-overlay.yaml
+  href: https://artifacts.apis.io/startree/overlays/startree-query-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/startree-query-overlay.yaml
@@ -120,47 +124,47 @@ common:
   type: StatusPage
   url: https://startree.statuspage.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/llms/startree-llms.txt
+  href: https://artifacts.apis.io/startree/llms/startree-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/startree-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/packages/startree-packages.yml
+  href: https://artifacts.apis.io/startree/packages/startree-packages.yml
   title: ''
   type: Packages
   url: packages/startree-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/packages/startree-packages.yml
+  href: https://artifacts.apis.io/startree/packages/startree-packages.yml
   title: ''
   type: SDKs
   url: packages/startree-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/mcp/startree-mcp.yml
+  href: https://artifacts.apis.io/startree/mcp/startree-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/startree-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/startree/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/conventions/startree-conventions.yml
+  href: https://artifacts.apis.io/startree/conventions/startree-conventions.yml
   title: ''
   type: Conventions
   url: conventions/startree-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/lifecycle/startree-lifecycle.yml
+  href: https://artifacts.apis.io/startree/lifecycle/startree-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/startree-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/changelog/startree-changelog.yml
+  href: https://artifacts.apis.io/startree/changelog/startree-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/startree-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/conformance/startree-conformance.yml
+  href: https://artifacts.apis.io/startree/conformance/startree-conformance.yml
   title: ''
   type: Conformance
   url: conformance/startree-conformance.yml
@@ -169,12 +173,12 @@ common:
   type: Compliance
   url: https://startree.ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/agentic-access/startree-agentic-access.yml
+  href: https://artifacts.apis.io/startree/agentic-access/startree-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/startree-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/security/startree-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/startree/security/startree-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/startree-vulnerability-disclosure.yml
@@ -183,12 +187,12 @@ common:
   type: Security
   url: https://startree.ai/responsible-disclosure/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/security/startree-domain-security.yml
+  href: https://artifacts.apis.io/startree/security/startree-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/startree-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/authentication/startree-authentication.yml
+  href: https://artifacts.apis.io/startree/authentication/startree-authentication.yml
   title: ''
   type: Authentication
   url: authentication/startree-authentication.yml
@@ -198,6 +202,14 @@ common:
   url: https://startree.ai/
 created: '2026-07-17'
 description: StarTree is a real-time analytics platform built on Apache Pinot, the open-source OLAP database for user-facing and agent-facing analytics. StarTree Cloud is the fully managed, enterprise-grade service — sub-second queries at high concurrency, streaming and batch ingestion up to millions of events per second, scalable upserts, in-place queries on Apache Iceberg tables, and ThirdEye anomaly detection. It ships enterprise security (RBAC, SSO, encryption, SOC 2 / ISO 27001 / HIPAA) with SaaS, BYOC, and BYOK deployment options, and exposes Controller, Broker, and Query REST APIs plus an official MCP server for agents.
+finops:
+- has_sources: true
+  method: derived
+  name: Startree Finops
+  primary_unit: production vcpu per hour
+  service_category: ''
+  slug: startree-finops
+  template: false
 image: https://startree.ai/favicon.ico
 layout: provider
 mcp_servers:
@@ -211,27 +223,31 @@ network: true
 overview: 'StarTree publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Query API. Tagged areas include Company, Data, Analytics, Real-Time Analytics, and OLAP.
 
 
-  StarTree''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 16
+  StarTree''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 25 more developer resources.'
+plans:
+- name: Startree Plans Pricing
+  plan_count: 3
+  slug: startree-plans-pricing
+random_paper: 10
 score:
-  band: developing
-  composite: 49.8
+  band: strong
+  composite: 61.5
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 52.6
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 47.8
-    developer_ergonomics: 49.4
-    discoverability: 71.7
-    operational_transparency: 44.7
-  previous_composite: 49.8
+    developer_ergonomics: 66.1
+    discoverability: 65.0
+    operational_transparency: 47.4
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -252,13 +268,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/screenshots/startree-2026-08-17T082113.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/startree/startree-2026-08-17T082113.png
 security:
 - kind: authentication
   name: Startree Authentication
@@ -272,6 +289,10 @@ security:
   name: Startree Vulnerability Disclosure
   slug: startree-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 1
+skills:
+- name: Run a SQL query on StarTree Cloud
+  slug: startree-run-sql-query
 slug: startree
 tags:
 - Company

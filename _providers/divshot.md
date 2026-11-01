@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -54,47 +56,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/divshot
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/packages/divshot-packages.yml
+  href: https://artifacts.apis.io/divshot/packages/divshot-packages.yml
   title: ''
   type: Packages
   url: packages/divshot-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/packages/divshot-packages.yml
+  href: https://artifacts.apis.io/divshot/packages/divshot-packages.yml
   title: ''
   type: SDKs
   url: packages/divshot-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/cli/divshot-cli.yml
+  href: https://artifacts.apis.io/divshot/cli/divshot-cli.yml
   title: ''
   type: CLI
   url: cli/divshot-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/authentication/divshot-authentication.yml
+  href: https://artifacts.apis.io/divshot/authentication/divshot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/divshot-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/data-model/divshot-data-model.yml
+  href: https://artifacts.apis.io/divshot/data-model/divshot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/divshot-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/asyncapi/divshot-webhooks.yml
+  href: https://artifacts.apis.io/divshot/asyncapi/divshot-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/divshot-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/lifecycle/divshot-lifecycle.yml
+  href: https://artifacts.apis.io/divshot/lifecycle/divshot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/divshot-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/security/divshot-domain-security.yml
+  href: https://artifacts.apis.io/divshot/security/divshot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/divshot-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/divshot/refs/heads/main/llms/divshot-llms.txt
+  href: https://artifacts.apis.io/divshot/llms/divshot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/divshot-llms.txt
@@ -113,12 +115,12 @@ overview: 'Divshot is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Divshot''s developer surface includes CLI, authentication, and 10 more developer resources.'
-random_paper: 21
+random_paper: 1
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -147,8 +149,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

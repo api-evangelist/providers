@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -32,22 +34,22 @@ common:
   type: BlogRSS
   url: https://www.aryaka.com/blog/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aryakanetworks/refs/heads/main/llms/aryakanetworks-llms.txt
+  href: https://artifacts.apis.io/aryakanetworks/llms/aryakanetworks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aryakanetworks-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aryakanetworks/refs/heads/main/well-known/aryakanetworks-well-known.yml
+  href: https://artifacts.apis.io/aryakanetworks/well-known/aryakanetworks-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aryakanetworks-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aryakanetworks/refs/heads/main/hosts/aryakanetworks-hosts.yml
+  href: https://artifacts.apis.io/aryakanetworks/hosts/aryakanetworks-hosts.yml
   title: ''
   type: Hosts
   url: hosts/aryakanetworks-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aryakanetworks/refs/heads/main/vendors/aryakanetworks-vendors.yml
+  href: https://artifacts.apis.io/aryakanetworks/vendors/aryakanetworks-vendors.yml
   title: ''
   type: Vendors
   url: vendors/aryakanetworks-vendors.yml
@@ -80,7 +82,7 @@ common:
   type: Documentation
   url: https://docs.aryaka.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aryakanetworks/refs/heads/main/security/aryakanetworks-domain-security.yml
+  href: https://artifacts.apis.io/aryakanetworks/security/aryakanetworks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aryakanetworks-domain-security.yml
@@ -108,10 +110,10 @@ overview: 'Aryakanetworks is profiled on the [APIs.io](https://apis.io/) network
 
 
   Aryakanetworks'' developer surface includes getting-started guide, engineering blog, documentation, and 11 more developer resources.'
-random_paper: 8
+random_paper: 14
 score:
   band: emerging
-  composite: 15.5
+  composite: 14.8
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -125,23 +127,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 58.9
+    discoverability: 51.8
     operational_transparency: 0.0
-  previous_composite: 15.5
+  previous_composite: 14.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aryakanetworks/refs/heads/main/screenshots/aryakanetworks-2026-10-11T100454.png
+screenshot: https://apis.io/screenshots/aryakanetworks/aryakanetworks-2026-10-11T100454.png
 security:
 - kind: domain-security
   name: Aryakanetworks Domain Security

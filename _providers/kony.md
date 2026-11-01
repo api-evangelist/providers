@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -50,12 +52,12 @@ common:
   type: Login
   url: https://manage.kony.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kony/refs/heads/main/lifecycle/kony-lifecycle.yml
+  href: https://artifacts.apis.io/kony/lifecycle/kony-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kony-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kony/refs/heads/main/security/kony-domain-security.yml
+  href: https://artifacts.apis.io/kony/security/kony-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kony-domain-security.yml
@@ -71,7 +73,7 @@ overview: 'Kony is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Kony''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
   band: minimal
   composite: 7.0
@@ -97,14 +99,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kony/refs/heads/main/screenshots/kony-2026-07-25T224202.png
+screenshot: https://apis.io/screenshots/kony/kony-2026-07-25T224202.png
 security:
 - kind: domain-security
   name: Kony Domain Security

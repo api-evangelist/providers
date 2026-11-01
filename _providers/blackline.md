@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: Manage accounting periods (open/close, list periods) in BlackLine.
@@ -76,7 +78,7 @@ common:
   type: APIReference
   url: https://developer.blackline.com/apis
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackline/refs/heads/main/authentication/blackline-authentication.yml
+  href: https://artifacts.apis.io/blackline/authentication/blackline-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blackline-authentication.yml
@@ -85,12 +87,12 @@ common:
   type: StatusPage
   url: https://trust.blackline.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blackline/refs/heads/main/lifecycle/blackline-lifecycle.yml
+  href: https://artifacts.apis.io/blackline/lifecycle/blackline-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blackline-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blackline/refs/heads/main/conformance/blackline-conformance.yml
+  href: https://artifacts.apis.io/blackline/conformance/blackline-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blackline-conformance.yml
@@ -99,12 +101,12 @@ common:
   type: Compliance
   url: https://www.blackline.com/why-blackline/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackline/refs/heads/main/security/blackline-trust-center.yml
+  href: https://artifacts.apis.io/blackline/security/blackline-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blackline-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackline/refs/heads/main/security/blackline-domain-security.yml
+  href: https://artifacts.apis.io/blackline/security/blackline-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blackline-domain-security.yml
@@ -132,10 +134,10 @@ overview: 'BlackLine is listed with 7 APIs on the [APIs.io](https://apis.io/) ne
 
 
   BlackLine''s developer surface includes documentation, API reference, authentication, engineering blog, and 10 more developer resources.'
-random_paper: 9
+random_paper: 21
 score:
-  band: emerging
-  composite: 23.7
+  band: thin
+  composite: 29.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 40.0
@@ -148,10 +150,10 @@ score:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 14.3
+    developer_ergonomics: 40.5
     discoverability: 71.4
     operational_transparency: 15.8
-  previous_composite: 23.7
+  previous_composite: 29.0
   provenance:
     conformance: first-party
   regulatory:
@@ -164,14 +166,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/blackline/refs/heads/main/screenshots/blackline-2026-07-25T203251.png
+screenshot: https://apis.io/screenshots/blackline/blackline-2026-07-25T203251.png
 security:
 - kind: authentication
   name: Blackline Authentication

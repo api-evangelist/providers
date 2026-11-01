@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API of the Octopus Authentication Server Management Console. SDO's own FAQ states "we provide comprehensive REST APIs that allow complete system control, including scripting, bulk updates, and in
@@ -44,7 +46,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/secret-double-octopus/refs/heads/main/security/secret-double-octopus-domain-security.yml
+  href: https://artifacts.apis.io/secret-double-octopus/security/secret-double-octopus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/secret-double-octopus-domain-security.yml
@@ -77,12 +79,12 @@ common:
   type: PrivacyPolicy
   url: https://doubleoctopus.com/website-privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/secret-double-octopus/refs/heads/main/llms/secret-double-octopus-llms.txt
+  href: https://artifacts.apis.io/secret-double-octopus/llms/secret-double-octopus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/secret-double-octopus-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/secret-double-octopus/refs/heads/main/lifecycle/secret-double-octopus-lifecycle.yml
+  href: https://artifacts.apis.io/secret-double-octopus/lifecycle/secret-double-octopus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/secret-double-octopus-lifecycle.yml
@@ -91,32 +93,32 @@ common:
   type: Deprecation
   url: https://support.doubleoctopus.com/support/solutions/articles/33000295981-octopus-authentication-end-of-life-end-of-support-plan
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/secret-double-octopus/refs/heads/main/changelog/secret-double-octopus-changelog.yml
+  href: https://artifacts.apis.io/secret-double-octopus/changelog/secret-double-octopus-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/secret-double-octopus-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/secret-double-octopus/refs/heads/main/conformance/secret-double-octopus-conformance.yml
+  href: https://artifacts.apis.io/secret-double-octopus/conformance/secret-double-octopus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/secret-double-octopus-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/secret-double-octopus/refs/heads/main/conformance/secret-double-octopus-conformance.yml
+  href: https://artifacts.apis.io/secret-double-octopus/conformance/secret-double-octopus-conformance.yml
   title: ''
   type: Compliance
   url: conformance/secret-double-octopus-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/secret-double-octopus/refs/heads/main/plans/secret-double-octopus-plans-pricing.yml
+  href: https://artifacts.apis.io/secret-double-octopus/plans/secret-double-octopus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/secret-double-octopus-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/secret-double-octopus/refs/heads/main/rate-limits/secret-double-octopus-rate-limits.yml
+  href: https://artifacts.apis.io/secret-double-octopus/rate-limits/secret-double-octopus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/secret-double-octopus-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/secret-double-octopus/refs/heads/main/packages/secret-double-octopus-packages.yml
+  href: https://artifacts.apis.io/secret-double-octopus/packages/secret-double-octopus-packages.yml
   title: ''
   type: Packages
   url: packages/secret-double-octopus-packages.yml
@@ -136,30 +138,30 @@ plans:
 - name: Secret Double Octopus Plans Pricing
   plan_count: 0
   slug: secret-double-octopus-plans-pricing
-random_paper: 18
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Secret Double Octopus Rate Limits
   slug: secret-double-octopus-rate-limits
 score:
   band: thin
-  composite: 28.3
+  composite: 27.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 28.2
+  previous_composite: 27.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -169,14 +171,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/secret-double-octopus/refs/heads/main/screenshots/secret-double-octopus-2026-09-02T154704.png
+screenshot: https://apis.io/screenshots/secret-double-octopus/secret-double-octopus-2026-09-02T154704.png
 security:
 - kind: authentication
   name: Secret Double Octopus Authentication

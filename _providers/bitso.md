@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -64,15 +66,12 @@ apis:
   description: Public market data endpoints. No authentication required.
   name: Bitso Public API
   slug: bitso-public-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: Bitso's public real-time WebSocket feed for the Bitso cryptocurrency exchange. Clients connect to a single endpoint and subscribe to one or more channels per order book (e.g. btc_mxn). Three public ch
   name: Bitso WebSocket API
   slug: bitso-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bitso Trading Private API
   slug: open-bitso-private-api
@@ -84,37 +83,37 @@ collections:
   slug: open-bitso
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/plans/bitso-plans-pricing.yml
+  href: https://artifacts.apis.io/bitso/plans/bitso-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bitso-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/rate-limits/bitso-rate-limits.yml
+  href: https://artifacts.apis.io/bitso/rate-limits/bitso-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bitso-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/finops/bitso-finops.yml
+  href: https://artifacts.apis.io/bitso/finops/bitso-finops.yml
   title: ''
   type: FinOps
   url: finops/bitso-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/agentic-access/bitso-agentic-access.yml
+  href: https://artifacts.apis.io/bitso/agentic-access/bitso-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bitso-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/security/bitso-trust-center.yml
+  href: https://artifacts.apis.io/bitso/security/bitso-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bitso-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/security/bitso-domain-security.yml
+  href: https://artifacts.apis.io/bitso/security/bitso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitso-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/authentication/bitso-authentication.yml
+  href: https://artifacts.apis.io/bitso/authentication/bitso-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bitso-authentication.yml
@@ -197,7 +196,7 @@ rules:
   slug: bitso-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 28.0
+  composite: 28.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 41.8
@@ -205,7 +204,7 @@ score:
     catalog_gap: 73.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 11.4
@@ -220,7 +219,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 34.0
+  previous_composite: 28.7
   provenance:
     agentic_access: derived
     contracts:
@@ -234,13 +233,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/screenshots/bitso-2026-06-20T173323.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bitso/bitso-2026-06-20T173323.png
 security:
 - kind: authentication
   name: Bitso Authentication

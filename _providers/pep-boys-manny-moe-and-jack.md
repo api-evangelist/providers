@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -41,12 +43,12 @@ common:
   type: Blog
   url: https://www.pepboys.com/corporate/newsroom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pep-boys-manny-moe-and-jack/refs/heads/main/security/pep-boys-manny-moe-and-jack-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pep-boys-manny-moe-and-jack/security/pep-boys-manny-moe-and-jack-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pep-boys-manny-moe-and-jack-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pep-boys-manny-moe-and-jack/refs/heads/main/security/pep-boys-manny-moe-and-jack-domain-security.yml
+  href: https://artifacts.apis.io/pep-boys-manny-moe-and-jack/security/pep-boys-manny-moe-and-jack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pep-boys-manny-moe-and-jack-domain-security.yml
@@ -86,10 +88,10 @@ press:
 - date: ''
   title: Pep Boys agrees to be bought by Icahn for $1 billion
   url: https://www.chicagotribune.com/2015/12/30/pep-boys-agrees-to-be-bought-by-icahn-for-1-billion/
-random_paper: 5
+random_paper: 11
 score:
   band: minimal
-  composite: 3.4
+  composite: 5.1
   coverage:
     artifact_dirs: 6
     catalog_earned: 17.0
@@ -97,29 +99,29 @@ score:
     catalog_gap: 98.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 30.4
-    operational_transparency: 2.6
-  previous_composite: 2.8
+    operational_transparency: 15.8
+  previous_composite: 5.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pep-boys-manny-moe-and-jack/refs/heads/main/screenshots/pep-boys-manny-moe-and-jack-2026-06-20T191558.png
+screenshot: https://apis.io/screenshots/pep-boys-manny-moe-and-jack/pep-boys-manny-moe-and-jack-2026-06-20T191558.png
 security:
 - kind: domain-security
   name: Pep Boys Manny Moe And Jack Domain Security

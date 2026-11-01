@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -57,12 +59,12 @@ common:
   type: Security
   url: https://mate.security/report-a-bug
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mate-security/refs/heads/main/security/mate-security-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mate-security/security/mate-security-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mate-security-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mate-security/refs/heads/main/security/mate-security-domain-security.yml
+  href: https://artifacts.apis.io/mate-security/security/mate-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mate-security-domain-security.yml
@@ -78,7 +80,7 @@ overview: 'Mate Security is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Mate Security''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 14
+random_paper: 12
 score:
   band: minimal
   composite: 10.9
@@ -104,14 +106,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mate-security/refs/heads/main/screenshots/mate-security-2026-07-25T230355.png
+screenshot: https://apis.io/screenshots/mate-security/mate-security-2026-07-25T230355.png
 security:
 - kind: domain-security
   name: Mate Security Domain Security

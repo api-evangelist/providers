@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -42,7 +44,7 @@ common:
   type: Blog
   url: https://www.yazaki-group.com/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yazaki/refs/heads/main/security/yazaki-domain-security.yml
+  href: https://artifacts.apis.io/yazaki/security/yazaki-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yazaki-domain-security.yml
@@ -55,17 +57,17 @@ common:
   type: Website
   url: https://www.yazaki-group.com/global/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yazaki/refs/heads/main/plans/yazaki-plans-pricing.yml
+  href: https://artifacts.apis.io/yazaki/plans/yazaki-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/yazaki-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yazaki/refs/heads/main/rate-limits/yazaki-rate-limits.yml
+  href: https://artifacts.apis.io/yazaki/rate-limits/yazaki-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/yazaki-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yazaki/refs/heads/main/finops/yazaki-finops.yml
+  href: https://artifacts.apis.io/yazaki/finops/yazaki-finops.yml
   title: ''
   type: FinOps
   url: finops/yazaki-finops.yml
@@ -93,7 +95,7 @@ plans:
 - name: Yazaki Plans Pricing
   plan_count: 1
   slug: yazaki-plans-pricing
-random_paper: 11
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Yazaki Rate Limits
@@ -108,7 +110,7 @@ score:
     catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -121,21 +123,21 @@ score:
     countries:
     - japan
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 11.2
+  previous_composite: 5.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/yazaki/refs/heads/main/screenshots/yazaki-2026-06-20T201737.png
+screenshot: https://apis.io/screenshots/yazaki/yazaki-2026-06-20T201737.png
 security:
 - kind: domain-security
   name: Yazaki Domain Security

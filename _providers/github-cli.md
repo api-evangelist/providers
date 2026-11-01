@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GitHub CLI (gh) is the official command-line tool for GitHub, bringing pull requests, issues, actions, and other GitHub features to the terminal.
@@ -42,17 +44,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/github-cli/refs/heads/main/plans/github-cli-plans-pricing.yml
+  href: https://artifacts.apis.io/github-cli/plans/github-cli-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/github-cli-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/github-cli/refs/heads/main/rate-limits/github-cli-rate-limits.yml
+  href: https://artifacts.apis.io/github-cli/rate-limits/github-cli-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/github-cli-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/github-cli/refs/heads/main/finops/github-cli-finops.yml
+  href: https://artifacts.apis.io/github-cli/finops/github-cli-finops.yml
   title: ''
   type: FinOps
   url: finops/github-cli-finops.yml
@@ -94,7 +96,7 @@ finops:
 - has_sources: false
   method: generated
   name: Github Cli Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: github-cli-finops
   template: true
@@ -115,7 +117,7 @@ plans:
 - name: Github Cli Plans Pricing
   plan_count: 3
   slug: github-cli-plans-pricing
-random_paper: 10
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Github Cli Rate Limits
@@ -133,8 +135,8 @@ rules:
     warn: 0
   slug: github-cli-rules
 score:
-  band: minimal
-  composite: 10.8
+  band: emerging
+  composite: 11.2
   coverage:
     artifact_dirs: 6
     catalog_earned: 28.0
@@ -142,29 +144,29 @@ score:
     catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 39.3
-    operational_transparency: 36.8
-  previous_composite: 12.3
+    operational_transparency: 39.5
+  previous_composite: 11.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/github-cli/refs/heads/main/screenshots/github-cli-2026-06-20T181836.png
+screenshot: https://apis.io/screenshots/github-cli/github-cli-2026-06-20T181836.png
 slug: github-cli
 tags:
 - Command Line Interface

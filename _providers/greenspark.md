@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.6
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -80,11 +82,8 @@ apis:
   description: The Widgets API from Greenspark — 17 operation(s) for widgets.
   name: Greenspark Widgets API
   slug: greenspark-widgets-api
-artifact_total: 19
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Greenspark Climate Account API
   slug: open-greenspark-account-api
@@ -107,8 +106,13 @@ collections:
   name: Greenspark Climate Account Widgets API
   slug: open-greenspark-widgets-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/greenspark/plans/greenspark-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/greenspark-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/capabilities/greenspark-capability-edges.yml
+  href: https://artifacts.apis.io/greenspark/capabilities/greenspark-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/greenspark-capability-edges.yml
@@ -157,97 +161,105 @@ common:
   type: PrivacyPolicy
   url: https://app.privasee.io/privacy-portal/61a7587adcff740014657fbf
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/_original/greenspark-openapi.yml
+  href: https://artifacts.apis.io/greenspark/openapi/_original/greenspark-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/greenspark-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/authentication/greenspark-authentication.yml
+  href: https://artifacts.apis.io/greenspark/authentication/greenspark-authentication.yml
   title: ''
   type: Authentication
   url: authentication/greenspark-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/agentic-access/greenspark-agentic-access.yml
+  href: https://artifacts.apis.io/greenspark/agentic-access/greenspark-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/greenspark-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/security/greenspark-domain-security.yml
+  href: https://artifacts.apis.io/greenspark/security/greenspark-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/greenspark-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/packages/greenspark-packages.yml
+  href: https://artifacts.apis.io/greenspark/packages/greenspark-packages.yml
   title: ''
   type: Packages
   url: packages/greenspark-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/packages/greenspark-packages.yml
+  href: https://artifacts.apis.io/greenspark/packages/greenspark-packages.yml
   title: ''
   type: SDKs
   url: packages/greenspark-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/mcp/greenspark-mcp.yml
+  href: https://artifacts.apis.io/greenspark/mcp/greenspark-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/greenspark-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/greenspark/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/llms/greenspark-llms.txt
+  href: https://artifacts.apis.io/greenspark/llms/greenspark-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/greenspark-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/conventions/greenspark-conventions.yml
+  href: https://artifacts.apis.io/greenspark/conventions/greenspark-conventions.yml
   title: ''
   type: Conventions
   url: conventions/greenspark-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/lifecycle/greenspark-lifecycle.yml
+  href: https://artifacts.apis.io/greenspark/lifecycle/greenspark-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/greenspark-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/errors/greenspark-problem-types.yml
+  href: https://artifacts.apis.io/greenspark/errors/greenspark-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/greenspark-problem-types.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/sandbox/greenspark-sandbox.yml
+  href: https://artifacts.apis.io/greenspark/sandbox/greenspark-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/greenspark-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/components/greenspark-components.yml
+  href: https://artifacts.apis.io/greenspark/components/greenspark-components.yml
   title: ''
   type: Components
   url: components/greenspark-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/conformance/greenspark-conformance.yml
+  href: https://artifacts.apis.io/greenspark/conformance/greenspark-conformance.yml
   title: ''
   type: Conformance
   url: conformance/greenspark-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/data-model/greenspark-data-model.yml
+  href: https://artifacts.apis.io/greenspark/data-model/greenspark-data-model.yml
   title: ''
   type: DataModel
   url: data-model/greenspark-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/changelog/greenspark-changelog.yml
+  href: https://artifacts.apis.io/greenspark/changelog/greenspark-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/greenspark-changelog.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/overlays/greenspark-openapi-overlay.yaml
+  href: https://artifacts.apis.io/greenspark/overlays/greenspark-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/greenspark-openapi-overlay.yaml
 created: '2026-07-17'
 description: Greenspark is an Impact-as-a-Service platform that lets businesses embed climate and environmental action into their products and customer journeys. Its Climate API programmatically funds verified impacts — carbon offset, tree planting, ocean-plastic recovery, kelp restoration, clean water and bee protection — and provides carbon-footprint estimation (by Merchant Category Code or Open Banking category), impact reporting, email/notification templates, and embeddable impact widgets for storefronts. Authentication is a single x-api-key header with separate sandbox, demo and production environments. Greenspark ships six first-party TypeScript SDKs, a ReadMe-hosted MCP server, and packaged Agent Skills. Backed by Anthemis; profiled and enriched by the API Evangelist network.
+finops:
+- has_sources: true
+  method: derived
+  name: Greenspark Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: greenspark-finops
+  template: false
 image: https://cdn.prod.website-files.com/611391a1477389e3857d8014/64cb3773a1ba8a68d73a88ad_greenspark-logo.svg
 layout: provider
 mcp_servers:
@@ -261,27 +273,34 @@ network: true
 overview: 'Greenspark publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Email API, Estimations API, and 4 more. Tagged areas include Sustainability, Carbon Offset, Climate, Impact, and Carbon Estimation.
 
 
-  Greenspark''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, sandbox, and 23 more developer resources.'
+  Greenspark''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, sandbox, and 24 more developer resources.'
+plans:
+- name: Greenspark Plans Pricing
+  plan_count: 5
+  slug: greenspark-plans-pricing
+- name: Greenspark Price Estimates
+  plan_count: 0
+  slug: greenspark-price-estimates
 random_paper: 18
 score:
   band: developing
-  composite: 40.7
+  composite: 54.0
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 31.6
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 53.2
-    developer_ergonomics: 51.2
-    discoverability: 71.7
-    operational_transparency: 18.4
-  previous_composite: 40.6
+    contract_quality: 52.4
+    developer_ergonomics: 64.3
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -298,13 +317,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/screenshots/greenspark-2026-07-25T220317.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/greenspark/greenspark-2026-07-25T220317.png
 security:
 - kind: authentication
   name: Greenspark Authentication
@@ -314,6 +334,22 @@ security:
   name: Greenspark Domain Security
   slug: greenspark-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 7
+skills:
+- name: greenspark-account
+  slug: greenspark-account
+- name: greenspark-auth-environments
+  slug: greenspark-auth-environments
+- name: greenspark-impact
+  slug: greenspark-impact
+- name: greenspark-integration-workflow
+  slug: greenspark-integration-workflow
+- name: greenspark-mcp
+  slug: greenspark-mcp
+- name: greenspark-projects
+  slug: greenspark-projects
+- name: greenspark-reporting
+  slug: greenspark-reporting
 slug: greenspark
 tags:
 - Sustainability

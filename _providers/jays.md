@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jays/refs/heads/main/security/jays-domain-security.yml
+  href: https://artifacts.apis.io/jays/security/jays-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jays-domain-security.yml
@@ -62,17 +64,17 @@ common:
   type: TermsOfService
   url: https://jaysheadphones.com/pages/terms-of-use
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jays/refs/heads/main/well-known/jays-well-known.yml
+  href: https://artifacts.apis.io/jays/well-known/jays-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jays-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jays/refs/heads/main/mcp/jays-mcp.yml
+  href: https://artifacts.apis.io/jays/mcp/jays-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jays-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jays/refs/heads/main/llms/jays-llms.txt
+  href: https://artifacts.apis.io/jays/llms/jays-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jays-llms.txt
@@ -92,10 +94,10 @@ overview: 'Jays is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Jays'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 21
+random_paper: 7
 score:
   band: emerging
-  composite: 12.1
+  composite: 11.1
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -109,14 +111,14 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - sweden
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 12.1
+  previous_composite: 11.1
   provenance:
     mcp: platform-generated
   regulatory:
@@ -125,14 +127,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jays/refs/heads/main/screenshots/jays-2026-08-07T170955.png
+screenshot: https://apis.io/screenshots/jays/jays-2026-08-07T170955.png
 security:
 - kind: domain-security
   name: Jays Domain Security

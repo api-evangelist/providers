@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.0
-  scored_at: '2026-10-17'
+  score: 52.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -102,11 +104,8 @@ apis:
 - description: Planable’s official remote Model Context Protocol server at https://mcp.planable.io/mcp. An OAuth 2.0 protected resource (authorization code + PKCE, dynamic client registration, six scopes) that gives
   name: Planable MCP Server
   slug: planable-mcp
-artifact_total: 181
+artifact_total: 192
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Planable Public Campaigns API
   slug: open-planable-campaigns-api
@@ -137,132 +136,132 @@ common:
   type: License
   url: https://github.com/Planable/smm-skills/blob/main/LICENSE
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/capabilities/planable-capability-edges.yml
+  href: https://artifacts.apis.io/planable/capabilities/planable-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/planable-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/_original/planable-openapi.json
+  href: https://artifacts.apis.io/planable/openapi/_original/planable-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/planable-openapi.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/mcp/planable-mcp.yml
+  href: https://artifacts.apis.io/planable/mcp/planable-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/planable-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/mcp/planable-tool-crosswalk.yml
+  href: https://artifacts.apis.io/planable/mcp/planable-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/planable-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/planable/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/authentication/planable-authentication.yml
+  href: https://artifacts.apis.io/planable/authentication/planable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/planable-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/scopes/planable-scopes.yml
+  href: https://artifacts.apis.io/planable/scopes/planable-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/planable-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/conventions/planable-conventions.yml
+  href: https://artifacts.apis.io/planable/conventions/planable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/planable-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/conventions/planable-conventions.yml
+  href: https://artifacts.apis.io/planable/conventions/planable-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/planable-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/errors/planable-problem-types.yml
+  href: https://artifacts.apis.io/planable/errors/planable-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/planable-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/rate-limits/planable-rate-limits.yml
+  href: https://artifacts.apis.io/planable/rate-limits/planable-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/planable-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/data-model/planable-data-model.yml
+  href: https://artifacts.apis.io/planable/data-model/planable-data-model.yml
   title: ''
   type: DataModel
   url: data-model/planable-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/conformance/planable-conformance.yml
+  href: https://artifacts.apis.io/planable/conformance/planable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/planable-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/lifecycle/planable-lifecycle.yml
+  href: https://artifacts.apis.io/planable/lifecycle/planable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/planable-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/packages/planable-packages.yml
+  href: https://artifacts.apis.io/planable/packages/planable-packages.yml
   title: ''
   type: Packages
   url: packages/planable-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/well-known/planable-well-known.yml
+  href: https://artifacts.apis.io/planable/well-known/planable-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/planable-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/llms/planable-llms.txt
+  href: https://artifacts.apis.io/planable/llms/planable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/planable-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/changelog/planable-changelog.yml
+  href: https://artifacts.apis.io/planable/changelog/planable-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/planable-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/agentic-access/planable-agentic-access.yml
+  href: https://artifacts.apis.io/planable/agentic-access/planable-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/planable-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/security/planable-domain-security.yml
+  href: https://artifacts.apis.io/planable/security/planable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/planable-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/vocabulary/planable-vocabulary.json
+  href: https://artifacts.apis.io/planable/vocabulary/planable-vocabulary.json
   title: ''
   type: Vocabulary
   url: vocabulary/planable-vocabulary.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/rules/planable-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/planable/rules/planable-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/planable-jsonschema-spectral-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/json-schema/
+  href: https://artifacts.apis.io/planable/json-schema/
   title: ''
   type: JSONSchema
   url: json-schema/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/json-ld/planable-jsonld.json
+  href: https://artifacts.apis.io/planable/json-ld/planable-jsonld.json
   title: ''
   type: JSONLD
   url: json-ld/planable-jsonld.json
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/plans/planable-plans-pricing.yml
+  href: https://artifacts.apis.io/planable/plans/planable-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/planable-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/finops/planable-finops.yml
+  href: https://artifacts.apis.io/planable/finops/planable-finops.yml
   title: ''
   type: FinOps
   url: finops/planable-finops.yml
@@ -337,13 +336,13 @@ common:
 created: '2026-06-13'
 description: 'Planable is a collaboration-first social media management platform used by agencies, multi-location brands, multi-brand companies and in-house marketing teams to create, plan, collaborate on, approve, schedule, publish and analyze content across Facebook, Instagram, X (Twitter), LinkedIn, TikTok, YouTube, Pinterest, Threads and Google Business Profile. It exposes three programmable surfaces: a REST Public API v1 at https://api.planable.io/api/v1 with 51 operations over workspaces, pages, posts, comments, campaigns, labels, media, members, stories, competitor analytics and social listening; a remote OAuth-protected MCP server at https://mcp.planable.io/mcp for Claude, ChatGPT and Gemini; and twelve MIT-licensed Agent Skills published as a Claude Code plugin. Agent- and API-created content always lands as a draft and passes through Planable''s normal approval workflow.'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Planable Finops
-  primary_unit: ''
+  primary_unit: workspace
   service_category: ''
   slug: planable-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/planable.png
 json_schemas:
 - name: Delete_Campaigns_{Id} Response 401
@@ -817,9 +816,9 @@ overview: 'Planable publishes 12 API contracts indexed on the [APIs.io](https://
   Planable''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 37 more developer resources.'
 plans:
 - name: Planable Plans Pricing
-  plan_count: 4
+  plan_count: 6
   slug: planable-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Planable Rate Limits
@@ -843,23 +842,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.5
+  composite: 62.2
   coverage:
     artifact_dirs: 31
-    catalog_earned: 64.8
+    catalog_earned: 67.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 50.3
+    catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 28.0
-    contract_quality: 51.9
-    developer_ergonomics: 61.9
-    discoverability: 75.0
-    operational_transparency: 55.3
-  previous_composite: 61.0
+    contract_quality: 49.0
+    developer_ergonomics: 64.3
+    discoverability: 65.0
+    operational_transparency: 57.9
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -876,13 +875,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/screenshots/planable-2026-06-20T191751.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/planable/planable-2026-06-20T191751.png
 security:
 - kind: authentication
   name: Planable Authentication
@@ -892,6 +892,32 @@ security:
   name: Planable Domain Security
   slug: planable-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 12
+skills:
+- name: ai-search-gaps-to-social-campaign
+  slug: planable-ai-search-gaps-to-social-campaign
+- name: client-onboarding-proposal
+  slug: planable-client-onboarding-proposal
+- name: content-calendar-audit
+  slug: planable-content-calendar-audit
+- name: content-pattern-intelligence
+  slug: planable-content-pattern-intelligence
+- name: cross-client-metrics-overview
+  slug: planable-cross-client-metrics-overview
+- name: draft-post-batch
+  slug: planable-draft-post-batch
+- name: local-gmb-visibility
+  slug: planable-local-gmb-visibility
+- name: monthly-performance-summary
+  slug: planable-monthly-performance-summary
+- name: pending-approvals-roundup
+  slug: planable-pending-approvals-roundup
+- name: seo-ai-social-report
+  slug: planable-seo-ai-social-report
+- name: seo-gaps-to-social-campaign
+  slug: planable-seo-gaps-to-social-campaign
+- name: site-audit-to-social-distribution
+  slug: planable-site-audit-to-social-distribution
 slug: planable
 tags:
 - Social Media

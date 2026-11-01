@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.5
-  scored_at: '2026-10-17'
+  score: 35.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -133,87 +135,87 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/columbia-university/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/openapi/_original/columbia-library-hours-openapi.yml
+  href: https://artifacts.apis.io/columbia/openapi/_original/columbia-library-hours-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/columbia-library-hours-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/json-schema/columbia-library-hours-schema.json
+  href: https://artifacts.apis.io/columbia/json-schema/columbia-library-hours-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/columbia-library-hours-schema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/examples/index.yml
+  href: https://artifacts.apis.io/columbia/examples/index.yml
   title: ''
   type: Examples
   url: examples/index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/rules/columbia-rules.yml
+  href: https://artifacts.apis.io/columbia/rules/columbia-rules.yml
   title: ''
   type: Rules
   url: rules/columbia-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/vocabulary/columbia-vocabulary.yml
+  href: https://artifacts.apis.io/columbia/vocabulary/columbia-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/columbia-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/json-ld/columbia-context.jsonld
+  href: https://artifacts.apis.io/columbia/json-ld/columbia-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/columbia-context.jsonld
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/authentication/columbia-authentication.yml
+  href: https://artifacts.apis.io/columbia/authentication/columbia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/columbia-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/scopes/columbia-scopes.yml
+  href: https://artifacts.apis.io/columbia/scopes/columbia-scopes.yml
   title: ''
   type: Scopes
   url: scopes/columbia-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/errors/columbia-errors.yml
+  href: https://artifacts.apis.io/columbia/errors/columbia-errors.yml
   title: ''
   type: Errors
   url: errors/columbia-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/conformance/columbia-conformance.yml
+  href: https://artifacts.apis.io/columbia/conformance/columbia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/columbia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/lifecycle/columbia-lifecycle.yml
+  href: https://artifacts.apis.io/columbia/lifecycle/columbia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/columbia-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/agentic-access/columbia-agentic-access.yml
+  href: https://artifacts.apis.io/columbia/agentic-access/columbia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/columbia-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/security/columbia-domain-security.yml
+  href: https://artifacts.apis.io/columbia/security/columbia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/columbia-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/plans/columbia-plans-pricing.yml
+  href: https://artifacts.apis.io/columbia/plans/columbia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/columbia-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/rate-limits/columbia-rate-limits.yml
+  href: https://artifacts.apis.io/columbia/rate-limits/columbia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/columbia-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/finops/columbia-finops.yml
+  href: https://artifacts.apis.io/columbia/finops/columbia-finops.yml
   title: ''
   type: FinOps
   url: finops/columbia-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/columbia/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -276,7 +278,7 @@ plans:
 - name: Columbia Plans Pricing
   plan_count: 2
   slug: columbia-plans-pricing
-random_paper: 8
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Columbia Rate Limits
@@ -300,7 +302,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 33.9
+  composite: 34.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 46.8
@@ -308,14 +310,14 @@ score:
     catalog_gap: 68.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.2
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 3.8
     contract_quality: 60.6
     developer_ergonomics: 33.3
     discoverability: 57.1
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -323,7 +325,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 40.1
+  previous_composite: 34.2
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -338,14 +340,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/screenshots/columbia-2026-06-20T174808.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/columbia/columbia-2026-06-20T174808.png
 security:
 - kind: authentication
   name: Columbia Authentication

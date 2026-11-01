@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.6
-  scored_at: '2026-10-17'
+  score: 33.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 95
   slug: btse-agentic-access
   summary_line: 95 operations · 44 acting · 1 human-in-the-loop
-api_count: 16
+api_count: 8
 apis:
 - baseURL: https://api.btse.com
   baseurl_source: declared
@@ -85,83 +87,88 @@ asyncapis:
   name: Spot WebSocket API
   slug: btse-spot-websocket-asyncapi
 common:
+- group: other
+  href: https://artifacts.apis.io/btse/capabilities/btse-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/btse-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/agentic-access/btse-agentic-access.yml
+  href: https://artifacts.apis.io/btse/agentic-access/btse-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/btse-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/rate-limits/btse-rate-limits.yml
+  href: https://artifacts.apis.io/btse/rate-limits/btse-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/btse-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/rules/btse-rules.yml
+  href: https://artifacts.apis.io/btse/rules/btse-rules.yml
   title: ''
   type: Spectral
   url: rules/btse-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/json-ld/btse-context.jsonld
+  href: https://artifacts.apis.io/btse/json-ld/btse-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/btse-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/vocabulary/btse-vocabulary.yml
+  href: https://artifacts.apis.io/btse/vocabulary/btse-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/btse-vocabulary.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/asyncapi/btse-spot-websocket-asyncapi.yml
+  href: https://artifacts.apis.io/btse/asyncapi/btse-spot-websocket-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/btse-spot-websocket-asyncapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/asyncapi/btse-otc-websocket-asyncapi.yml
+  href: https://artifacts.apis.io/btse/asyncapi/btse-otc-websocket-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/btse-otc-websocket-asyncapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/asyncapi/btse-futures-websocket-asyncapi.yml
+  href: https://artifacts.apis.io/btse/asyncapi/btse-futures-websocket-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/btse-futures-websocket-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/data-model/btse-data-model.yml
+  href: https://artifacts.apis.io/btse/data-model/btse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/btse-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/changelog/btse-changelog.yml
+  href: https://artifacts.apis.io/btse/changelog/btse-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/btse-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/sandbox/btse-sandbox.yml
+  href: https://artifacts.apis.io/btse/sandbox/btse-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/btse-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/errors/btse-problem-types.yml
+  href: https://artifacts.apis.io/btse/errors/btse-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/btse-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/conformance/btse-conformance.yml
+  href: https://artifacts.apis.io/btse/conformance/btse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/btse-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/llms/btse-llms.txt
+  href: https://artifacts.apis.io/btse/llms/btse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/btse-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/hosts/btse-hosts.yml
+  href: https://artifacts.apis.io/btse/hosts/btse-hosts.yml
   title: ''
   type: Hosts
   url: hosts/btse-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/vendors/btse-vendors.yml
+  href: https://artifacts.apis.io/btse/vendors/btse-vendors.yml
   title: ''
   type: Vendors
   url: vendors/btse-vendors.yml
@@ -170,12 +177,12 @@ common:
   type: DeveloperPortal
   url: https://api.btse.com`
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/authentication/btse-authentication.yml
+  href: https://artifacts.apis.io/btse/authentication/btse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/btse-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/btse/refs/heads/main/security/btse-domain-security.yml
+  href: https://artifacts.apis.io/btse/security/btse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/btse-domain-security.yml
@@ -366,8 +373,8 @@ overview: 'BTSE publishes 8 API contracts indexed on the [APIs.io](https://apis.
   The BTSE catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  BTSE''s developer surface includes changelog, sandbox, authentication, documentation, getting-started guide, API reference, support, and 23 more developer resources.'
-random_paper: 12
+  BTSE''s developer surface includes changelog, sandbox, authentication, documentation, getting-started guide, API reference, support, and 24 more developer resources.'
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Btse Rate Limits
@@ -387,21 +394,23 @@ rules:
   slug: btse-rules
 score:
   band: strong
-  composite: 55.6
+  composite: 55.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 77.8
     catalog_earned_first_party: 12.0
     catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 22.0
-    contract_quality: 77.3
+    contract_quality: 76.1
     developer_ergonomics: 61.9
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 52.6
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -417,11 +426,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Btse Authentication

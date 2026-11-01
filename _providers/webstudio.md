@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -85,32 +87,32 @@ common:
   type: ChangeLog
   url: https://github.com/webstudio-is/webstudio/releases
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/webstudio/refs/heads/main/changelog/webstudio-changelog.yml
+  href: https://artifacts.apis.io/webstudio/changelog/webstudio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/webstudio-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webstudio/refs/heads/main/mcp/webstudio-mcp.yml
+  href: https://artifacts.apis.io/webstudio/mcp/webstudio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/webstudio-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/webstudio/refs/heads/main/cli/webstudio-cli.yml
+  href: https://artifacts.apis.io/webstudio/cli/webstudio-cli.yml
   title: ''
   type: CLI
   url: cli/webstudio-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/webstudio/refs/heads/main/packages/webstudio-packages.yml
+  href: https://artifacts.apis.io/webstudio/packages/webstudio-packages.yml
   title: ''
   type: Packages
   url: packages/webstudio-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webstudio/refs/heads/main/llms/webstudio-llms.txt
+  href: https://artifacts.apis.io/webstudio/llms/webstudio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/webstudio-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webstudio/refs/heads/main/security/webstudio-domain-security.yml
+  href: https://artifacts.apis.io/webstudio/security/webstudio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/webstudio-domain-security.yml
@@ -130,26 +132,26 @@ overview: 'Webstudio is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Webstudio''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, changelog, and 11 more developer resources.'
-random_paper: 14
+random_paper: 22
 score:
   band: emerging
-  composite: 24.5
+  composite: 24.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 55.0
-    operational_transparency: 23.7
-  previous_composite: 24.4
+    discoverability: 48.3
+    operational_transparency: 26.3
+  previous_composite: 24.1
   provenance:
     mcp: first-party
   regulatory:
@@ -158,14 +160,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/webstudio/refs/heads/main/screenshots/webstudio-2026-09-02T170537.png
+screenshot: https://apis.io/screenshots/webstudio/webstudio-2026-09-02T170537.png
 security:
 - kind: domain-security
   name: Webstudio Domain Security

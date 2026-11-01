@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 14
 apis:
 - description: OAuth 2.0 / OpenID Connect authorization endpoint.
@@ -71,17 +73,17 @@ apis:
 artifact_total: 16
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/connect2id/refs/heads/main/well-known/connect2id-well-known.yml
+  href: https://artifacts.apis.io/connect2id/well-known/connect2id-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/connect2id-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/connect2id/refs/heads/main/hosts/connect2id-hosts.yml
+  href: https://artifacts.apis.io/connect2id/hosts/connect2id-hosts.yml
   title: ''
   type: Hosts
   url: hosts/connect2id-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/connect2id/refs/heads/main/security/connect2id-domain-security.yml
+  href: https://artifacts.apis.io/connect2id/security/connect2id-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/connect2id-domain-security.yml
@@ -134,7 +136,7 @@ common:
   type: OpenIDConnect
   url: https://demo.c2id.com/.well-known/openid-configuration
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/connect2id/refs/heads/main/authentication/connect2id-authentication.yml
+  href: https://artifacts.apis.io/connect2id/authentication/connect2id-authentication.yml
   title: ''
   type: Authentication
   url: authentication/connect2id-authentication.yml
@@ -167,7 +169,7 @@ overview: 'Connect2id is listed with 14 APIs on the [APIs.io](https://apis.io/) 
 
 
   Connect2id''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 11
+random_paper: 17
 score:
   band: emerging
   composite: 25.4
@@ -178,6 +180,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -185,14 +188,16 @@ score:
     developer_ergonomics: 61.9
     discoverability: 53.6
     operational_transparency: 21.1
+  previous_composite: 25.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

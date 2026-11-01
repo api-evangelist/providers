@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 22.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Hosted, embeddable account-linking experience that lets a consumer authenticate to their financial institution and permission data sharing, returning the linked accounts to the partner application.
@@ -232,7 +234,7 @@ apis:
   description: APIs for Managing Partner Webhook Event Subscriptions
   name: Finicity Webhook Subscription API
   slug: finicity-webhook-subscription-api
-artifact_total: 44
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Finicity Webhooks
@@ -243,62 +245,62 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/mastercard/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/capabilities/finicity-capability-edges.yml
+  href: https://artifacts.apis.io/finicity/capabilities/finicity-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/finicity-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/authentication/finicity-authentication.yml
+  href: https://artifacts.apis.io/finicity/authentication/finicity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/finicity-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/security/finicity-domain-security.yml
+  href: https://artifacts.apis.io/finicity/security/finicity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/finicity-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/packages/finicity-packages.yml
+  href: https://artifacts.apis.io/finicity/packages/finicity-packages.yml
   title: ''
   type: Packages
   url: packages/finicity-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/packages/finicity-packages.yml
+  href: https://artifacts.apis.io/finicity/packages/finicity-packages.yml
   title: ''
   type: SDKs
   url: packages/finicity-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/well-known/finicity-well-known.yml
+  href: https://artifacts.apis.io/finicity/well-known/finicity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/finicity-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/mcp/finicity-mcp.yml
+  href: https://artifacts.apis.io/finicity/mcp/finicity-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/finicity-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/llms/finicity-llms.txt
+  href: https://artifacts.apis.io/finicity/llms/finicity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/finicity-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/overlays/finicity-openbanking-us-overlay.yaml
+  href: https://artifacts.apis.io/finicity/overlays/finicity-openbanking-us-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/finicity-openbanking-us-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/conformance/finicity-conformance.yml
+  href: https://artifacts.apis.io/finicity/conformance/finicity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/finicity-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/errors/finicity-problem-types.yml
+  href: https://artifacts.apis.io/finicity/errors/finicity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/finicity-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/lifecycle/finicity-lifecycle.yml
+  href: https://artifacts.apis.io/finicity/lifecycle/finicity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/finicity-lifecycle.yml
@@ -307,37 +309,37 @@ common:
   type: StatusPage
   url: https://developer.mastercard.com/open-banking-us/documentation/status/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/lifecycle/finicity-lifecycle.yml
+  href: https://artifacts.apis.io/finicity/lifecycle/finicity-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/finicity-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/conventions/finicity-conventions.yml
+  href: https://artifacts.apis.io/finicity/conventions/finicity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/finicity-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/changelog/finicity-changelog.yml
+  href: https://artifacts.apis.io/finicity/changelog/finicity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/finicity-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/components/finicity-components.yml
+  href: https://artifacts.apis.io/finicity/components/finicity-components.yml
   title: ''
   type: Components
   url: components/finicity-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/data-model/finicity-data-model.yml
+  href: https://artifacts.apis.io/finicity/data-model/finicity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/finicity-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/sandbox/finicity-sandbox.yml
+  href: https://artifacts.apis.io/finicity/sandbox/finicity-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/finicity-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/finicity/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -397,10 +399,10 @@ overview: 'Finicity publishes 41 API contracts indexed on the [APIs.io](https://
 
 
   Finicity''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 24 more developer resources.'
-random_paper: 5
+random_paper: 23
 score:
   band: developing
-  composite: 47.2
+  composite: 47.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -412,10 +414,10 @@ score:
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
-    contract_quality: 59.9
+    contract_quality: 59.3
     developer_ergonomics: 75.6
-    discoverability: 73.2
-    operational_transparency: 50.0
+    discoverability: 66.1
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -423,7 +425,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 47.2
+  previous_composite: 47.4
   provenance:
     conformance: derived
     contracts:
@@ -443,13 +445,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/screenshots/finicity-2026-07-25T214523.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/finicity/finicity-2026-07-25T214523.png
 security:
 - kind: authentication
   name: Finicity Authentication
@@ -459,6 +462,16 @@ security:
   name: Finicity Domain Security
   slug: finicity-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: Generate a Verification of Assets (VoA) report
+  slug: finicity-generate-voa-report
+- name: Link a customer's accounts with Finicity Connect
+  slug: finicity-link-accounts-with-connect
+- name: Pull a customer's transactions
+  slug: finicity-pull-transactions
+- name: Subscribe to transaction and balance events
+  slug: finicity-subscribe-webhooks
 slug: finicity
 tags:
 - Financial Services

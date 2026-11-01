@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.4
-  scored_at: '2026-10-17'
+  score: 36.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 23
   slug: zest-agentic-access
   summary_line: 23 operations · 7 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://public-api.zestequity.com
   baseurl_source: declared
@@ -83,15 +85,12 @@ apis:
   description: Service health and OpenAPI introspection endpoints.
   name: Zest System API
   slug: zest-system-api
-artifact_total: 21
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Zest Webhooks
   slug: zest-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zest equity public api Authentication API
   slug: open-zest-authentication-api
@@ -118,7 +117,7 @@ collections:
   slug: open-zest-system-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/overlays/zest-openapi-overlay.yaml
+  href: https://artifacts.apis.io/zest/overlays/zest-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zest-openapi-overlay.yaml
@@ -139,77 +138,77 @@ common:
   type: GettingStarted
   url: https://docs.zestequity.com/quickstart
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/llms/zest-llms.txt
+  href: https://artifacts.apis.io/zest/llms/zest-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zest-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/authentication/zest-authentication.yml
+  href: https://artifacts.apis.io/zest/authentication/zest-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zest-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/conventions/zest-conventions.yml
+  href: https://artifacts.apis.io/zest/conventions/zest-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zest-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/conventions/zest-conventions.yml
+  href: https://artifacts.apis.io/zest/conventions/zest-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/zest-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/errors/zest-problem-types.yml
+  href: https://artifacts.apis.io/zest/errors/zest-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zest-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/lifecycle/zest-lifecycle.yml
+  href: https://artifacts.apis.io/zest/lifecycle/zest-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zest-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/changelog/zest-changelog.yml
+  href: https://artifacts.apis.io/zest/changelog/zest-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zest-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/sandbox/zest-sandbox.yml
+  href: https://artifacts.apis.io/zest/sandbox/zest-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zest-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/asyncapi/zest-webhooks.yml
+  href: https://artifacts.apis.io/zest/asyncapi/zest-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zest-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/mcp/zest-mcp.yml
+  href: https://artifacts.apis.io/zest/mcp/zest-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zest-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zest/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/agentic-access/zest-agentic-access.yml
+  href: https://artifacts.apis.io/zest/agentic-access/zest-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zest-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/conformance/zest-conformance.yml
+  href: https://artifacts.apis.io/zest/conformance/zest-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zest-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/data-model/zest-data-model.yml
+  href: https://artifacts.apis.io/zest/data-model/zest-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zest-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/security/zest-domain-security.yml
+  href: https://artifacts.apis.io/zest/security/zest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zest-domain-security.yml
@@ -252,10 +251,10 @@ overview: 'Zest publishes 8 API contracts indexed on the [APIs.io](https://apis.
 
 
   Zest''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 19 more developer resources.'
-random_paper: 14
+random_paper: 22
 score:
   band: developing
-  composite: 43.4
+  composite: 43.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -263,20 +262,20 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 56.1
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - mena
-  previous_composite: 43.3
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -293,13 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/screenshots/zest-2026-08-17T083101.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zest/zest-2026-08-17T083101.png
 security:
 - kind: authentication
   name: Zest Authentication
@@ -309,6 +309,14 @@ security:
   name: Zest Domain Security
   slug: zest-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Create a Zest SPV request
+  slug: zest-create-spv-request
+- name: Onboard investors and record a Zest subscription
+  slug: zest-onboard-investors-and-subscribe
+- name: Verify and handle Zest webhooks
+  slug: zest-verify-webhooks
 slug: zest
 tags:
 - Company

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.6
-  scored_at: '2026-10-17'
+  score: 33.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 266
   human_in_the_loop: 9
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 452
   slug: virto-commerce-agentic-access
   summary_line: 452 operations · 266 acting · 9 human-in-the-loop
-api_count: 15
+api_count: 14
 apis:
 - baseURL: https://virtostart-demo-admin.govirto.com/api
   baseurl_source: declared
@@ -438,15 +440,12 @@ apis:
     question: Which event subscriptions are sending events through a given connection?
   phrasing_ops: 12
   slug: virto-commerce-event-bus-module-api
-artifact_total: 35
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Virto Commerce Webhooks
   slug: virto-commerce-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: VirtoCommerce.Cart Catalog API
   slug: open-virto-commerce-catalog-api
@@ -479,7 +478,7 @@ collections:
   slug: open-virto-commerce-virtocommerce-platform-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/capabilities/virto-commerce-capability-edges.yml
+  href: https://artifacts.apis.io/virto-commerce/capabilities/virto-commerce-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/virto-commerce-capability-edges.yml
@@ -492,27 +491,27 @@ common:
   type: Releases
   url: https://github.com/VirtoCommerce/vc-module-catalog/releases
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/overlays/virto-commerce-event-bus-api-overlay.yaml
+  href: https://artifacts.apis.io/virto-commerce/overlays/virto-commerce-event-bus-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/virto-commerce-event-bus-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/agentic-access/virto-commerce-agentic-access.yml
+  href: https://artifacts.apis.io/virto-commerce/agentic-access/virto-commerce-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/virto-commerce-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/security/virto-commerce-domain-security.yml
+  href: https://artifacts.apis.io/virto-commerce/security/virto-commerce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/virto-commerce-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/authentication/virto-commerce-authentication.yml
+  href: https://artifacts.apis.io/virto-commerce/authentication/virto-commerce-authentication.yml
   title: ''
   type: Authentication
   url: authentication/virto-commerce-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/scopes/virto-commerce-scopes.yml
+  href: https://artifacts.apis.io/virto-commerce/scopes/virto-commerce-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/virto-commerce-scopes.yml
@@ -545,17 +544,17 @@ common:
   type: X
   url: https://x.com/VirtoCommerce
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/plans/virto-commerce-plans-pricing.yml
+  href: https://artifacts.apis.io/virto-commerce/plans/virto-commerce-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/virto-commerce-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/rate-limits/virto-commerce-rate-limits.yml
+  href: https://artifacts.apis.io/virto-commerce/rate-limits/virto-commerce-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/virto-commerce-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/finops/virto-commerce-finops.yml
+  href: https://artifacts.apis.io/virto-commerce/finops/virto-commerce-finops.yml
   title: ''
   type: FinOps
   url: finops/virto-commerce-finops.yml
@@ -576,97 +575,97 @@ common:
   type: ChangeLog
   url: https://www.virtocommerce.org/c/news-digest/14
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/packages/virto-commerce-packages.yml
+  href: https://artifacts.apis.io/virto-commerce/packages/virto-commerce-packages.yml
   title: ''
   type: Packages
   url: packages/virto-commerce-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/packages/virto-commerce-packages.yml
+  href: https://artifacts.apis.io/virto-commerce/packages/virto-commerce-packages.yml
   title: ''
   type: SDKs
   url: packages/virto-commerce-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/well-known/virto-commerce-well-known.yml
+  href: https://artifacts.apis.io/virto-commerce/well-known/virto-commerce-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/virto-commerce-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/mcp/virto-commerce-mcp.yml
+  href: https://artifacts.apis.io/virto-commerce/mcp/virto-commerce-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/virto-commerce-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/mcp/virto-commerce-tool-crosswalk.yml
+  href: https://artifacts.apis.io/virto-commerce/mcp/virto-commerce-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/virto-commerce-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/llms/virto-commerce-llms.txt
+  href: https://artifacts.apis.io/virto-commerce/llms/virto-commerce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/virto-commerce-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/conformance/virto-commerce-conformance.yml
+  href: https://artifacts.apis.io/virto-commerce/conformance/virto-commerce-conformance.yml
   title: ''
   type: Conformance
   url: conformance/virto-commerce-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/conformance/virto-commerce-conformance.yml
+  href: https://artifacts.apis.io/virto-commerce/conformance/virto-commerce-conformance.yml
   title: ''
   type: Compliance
   url: conformance/virto-commerce-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/errors/virto-commerce-problem-types.yml
+  href: https://artifacts.apis.io/virto-commerce/errors/virto-commerce-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/virto-commerce-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/lifecycle/virto-commerce-lifecycle.yml
+  href: https://artifacts.apis.io/virto-commerce/lifecycle/virto-commerce-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/virto-commerce-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/conventions/virto-commerce-conventions.yml
+  href: https://artifacts.apis.io/virto-commerce/conventions/virto-commerce-conventions.yml
   title: ''
   type: Conventions
   url: conventions/virto-commerce-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/changelog/virto-commerce-changelog.yml
+  href: https://artifacts.apis.io/virto-commerce/changelog/virto-commerce-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/virto-commerce-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/cli/virto-commerce-cli.yml
+  href: https://artifacts.apis.io/virto-commerce/cli/virto-commerce-cli.yml
   title: ''
   type: CLI
   url: cli/virto-commerce-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/components/virto-commerce-components.yml
+  href: https://artifacts.apis.io/virto-commerce/components/virto-commerce-components.yml
   title: ''
   type: Components
   url: components/virto-commerce-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/data-model/virto-commerce-data-model.yml
+  href: https://artifacts.apis.io/virto-commerce/data-model/virto-commerce-data-model.yml
   title: ''
   type: DataModel
   url: data-model/virto-commerce-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/sandbox/virto-commerce-sandbox.yml
+  href: https://artifacts.apis.io/virto-commerce/sandbox/virto-commerce-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/virto-commerce-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/asyncapi/virto-commerce-webhooks.yml
+  href: https://artifacts.apis.io/virto-commerce/asyncapi/virto-commerce-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/virto-commerce-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/virto-commerce/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/graphql/virto-commerce-schema.graphql
+  href: https://artifacts.apis.io/virto-commerce/graphql/virto-commerce-schema.graphql
   title: ''
   type: GraphQL
   url: graphql/virto-commerce-schema.graphql
@@ -700,7 +699,7 @@ finops:
 - has_sources: true
   method: derived
   name: Virto Commerce Finops
-  primary_unit: ''
+  primary_unit: gmv
   service_category: ''
   slug: virto-commerce-finops
   template: false
@@ -732,9 +731,12 @@ overview: 'Virto Commerce publishes 13 API contracts indexed on the [APIs.io](ht
   Virto Commerce''s developer surface includes authentication, documentation, engineering blog, pricing, support, changelog, CLI, and 40 more developer resources.'
 plans:
 - name: Virto Commerce Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: virto-commerce-plans-pricing
-random_paper: 0
+- name: Virto Commerce Price Estimates
+  plan_count: 0
+  slug: virto-commerce-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Virto Commerce Rate Limits
@@ -745,24 +747,24 @@ scopes:
   slug: virto-commerce-scopes
   summary_line: 84 scopes · password/clientCredentials
 score:
-  band: exemplar
-  composite: 69.9
+  band: strong
+  composite: 62.0
   coverage:
     artifact_dirs: 32
-    catalog_earned: 72.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 43.0
+    catalog_earned: 71.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -0.6
   facets:
-    access_clarity: 71.1
+    access_clarity: 68.4
     contract_governance: 18.2
-    contract_quality: 50.8
+    contract_quality: 49.0
     developer_ergonomics: 80.4
-    discoverability: 76.7
-    operational_transparency: 57.9
-  previous_composite: 71.4
+    discoverability: 70.0
+    operational_transparency: 60.5
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -779,13 +781,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 72.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/screenshots/virto-commerce-2026-06-20T201036.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/virto-commerce/virto-commerce-2026-06-20T201036.png
 security:
 - kind: authentication
   name: Virto Commerce Authentication
@@ -795,6 +798,18 @@ security:
   name: Virto Commerce Domain Security
   slug: virto-commerce-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: virto-commerce-authenticate
+  slug: virto-commerce-authenticate
+- name: virto-commerce-catalog-and-availability
+  slug: virto-commerce-catalog-and-availability
+- name: virto-commerce-place-b2b-order
+  slug: virto-commerce-place-b2b-order
+- name: virto-commerce-quote-to-order
+  slug: virto-commerce-quote-to-order
+- name: virto-commerce-subscribe-to-events
+  slug: virto-commerce-subscribe-to-events
 slug: virto-commerce
 tags:
 - B2B eCommerce

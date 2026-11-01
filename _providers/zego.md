@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.zego.com
@@ -62,15 +64,12 @@ apis:
   description: Start and end insurance cover periods (shifts) for customers.
   name: Zego Shifts API
   slug: zego-shifts-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Zego Webhooks
   slug: zego-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zego Partner Customer Integration API
   slug: open-zego-customer-integration-api
@@ -88,17 +87,17 @@ collections:
   slug: open-zego-shifts-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/skills/zego-enrol-public-liability.md
+  href: https://artifacts.apis.io/zego/skills/zego-enrol-public-liability.md
   title: ''
   type: AgentSkill
   url: skills/zego-enrol-public-liability.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/mcp/zego-mcp.yml
+  href: https://artifacts.apis.io/zego/mcp/zego-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zego-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/security/zego-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zego/security/zego-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zego-vulnerability-disclosure.yml
@@ -107,7 +106,7 @@ common:
   type: Security
   url: https://www.zego.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/security/zego-domain-security.yml
+  href: https://artifacts.apis.io/zego/security/zego-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zego-domain-security.yml
@@ -150,10 +149,10 @@ overview: 'Zego publishes 5 API contracts indexed on the [APIs.io](https://apis.
 
 
   Zego''s developer surface includes documentation, engineering blog, support, and 8 more developer resources.'
-random_paper: 19
+random_paper: 5
 score:
   band: thin
-  composite: 26.8
+  composite: 27.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -169,7 +168,7 @@ score:
     developer_ergonomics: 30.4
     discoverability: 66.1
     operational_transparency: 34.2
-  previous_composite: 26.8
+  previous_composite: 27.5
   provenance:
     contracts:
       callable: 100.0
@@ -184,13 +183,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 22.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/screenshots/zego-2026-09-02T171533.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zego/zego-2026-09-02T171533.png
 security:
 - kind: authentication
   name: Zego Authentication
@@ -204,6 +204,12 @@ security:
   name: Zego Vulnerability Disclosure
   slug: zego-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 2
+skills:
+- name: Enrol a Zego customer on public liability cover
+  slug: zego-enrol-public-liability
+- name: Manage Zego shift cover for a customer
+  slug: zego-manage-shift-cover
 slug: zego
 tags:
 - Company

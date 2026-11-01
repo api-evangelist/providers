@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Streamable HTTP MCP server providing search_gaps, get_top_gaps, and validate_idea operations.
@@ -36,37 +38,37 @@ common:
   type: BlogRSS
   url: https://www.ddmarketer.com/feed.xml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ddmarketer/refs/heads/main/plans/ddmarketer-plans-pricing.yml
+  href: https://artifacts.apis.io/ddmarketer/plans/ddmarketer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ddmarketer-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ddmarketer/refs/heads/main/llms/ddmarketer-llms.txt
+  href: https://artifacts.apis.io/ddmarketer/llms/ddmarketer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ddmarketer-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ddmarketer/refs/heads/main/mcp/ddmarketer-tool-crosswalk.yml
+  href: https://artifacts.apis.io/ddmarketer/mcp/ddmarketer-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ddmarketer-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ddmarketer/refs/heads/main/mcp/ddmarketer-mcp.yml
+  href: https://artifacts.apis.io/ddmarketer/mcp/ddmarketer-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ddmarketer-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ddmarketer/refs/heads/main/hosts/ddmarketer-hosts.yml
+  href: https://artifacts.apis.io/ddmarketer/hosts/ddmarketer-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ddmarketer-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ddmarketer/refs/heads/main/vendors/ddmarketer-vendors.yml
+  href: https://artifacts.apis.io/ddmarketer/vendors/ddmarketer-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ddmarketer-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ddmarketer/refs/heads/main/security/ddmarketer-domain-security.yml
+  href: https://artifacts.apis.io/ddmarketer/security/ddmarketer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ddmarketer-domain-security.yml
@@ -111,7 +113,7 @@ description: DDMarketer provides a data-driven platform that surfaces validated 
 image: https://www.ddmarketer.com/opengraph-image?f9406f769821b2fc
 layout: provider
 mcp_servers:
-- description: Remote MCP server at www.ddmarketer.com requiring an API key.
+- description: Remote MCP server at www.ddmarketer.com requiring an API key; 4 tools listed.
   name: DDMarketer MCP Server
   slug: ddmarketer-mcp-yml
 modified: '2026-10-06'
@@ -128,8 +130,8 @@ plans:
   slug: ddmarketer-plans-pricing
 random_paper: 3
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 25.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 45.0
@@ -137,15 +139,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 26.1
+  previous_composite: 25.2
   provenance:
     mcp: first-party
   regulatory:
@@ -154,14 +156,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ddmarketer/refs/heads/main/screenshots/ddmarketer-2026-10-11T103615.png
+screenshot: https://apis.io/screenshots/ddmarketer/ddmarketer-2026-10-11T103615.png
 security:
 - kind: domain-security
   name: Ddmarketer Domain Security

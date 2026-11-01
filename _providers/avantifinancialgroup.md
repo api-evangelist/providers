@@ -14,21 +14,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avantifinancialgroup/refs/heads/main/hosts/avantifinancialgroup-hosts.yml
+  href: https://artifacts.apis.io/avantifinancialgroup/hosts/avantifinancialgroup-hosts.yml
   title: ''
   type: Hosts
   url: hosts/avantifinancialgroup-hosts.yml
@@ -37,7 +39,7 @@ common:
   type: PrivacyPolicy
   url: https://avantifinancialgroup.com/privacy-policy.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avantifinancialgroup/refs/heads/main/security/avantifinancialgroup-domain-security.yml
+  href: https://artifacts.apis.io/avantifinancialgroup/security/avantifinancialgroup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/avantifinancialgroup-domain-security.yml
@@ -109,14 +111,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 8.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/avantifinancialgroup/refs/heads/main/screenshots/avantifinancialgroup-2026-10-11T101049.png
+screenshot: https://apis.io/screenshots/avantifinancialgroup/avantifinancialgroup-2026-10-11T101049.png
 security:
 - kind: domain-security
   name: Avantifinancialgroup Domain Security

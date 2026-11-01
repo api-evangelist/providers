@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 26
   slug: hourone-agentic-access
   summary_line: 26 operations · 15 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.makereals.com/api/v1
   baseurl_source: declared
@@ -73,7 +75,7 @@ apis:
   description: The webhook API from Hourone — 5 operation(s) for webhook.
   name: Hourone Webhook API
   slug: hourone-webhook-api
-artifact_total: 16
+artifact_total: 19
 asyncapis:
 - description: Outbound webhook notifications for video processing lifecycle. Hour One POSTs a signed JSON payload to your registered endpoint when a video finishes rendering or fails. Each request carries an x-hour
   name: Hour One (MakeReals) Webhooks
@@ -82,9 +84,6 @@ asyncapis:
   name: Hourone Webhooks
   slug: hourone-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: sizzle-server general API
   slug: open-hourone-general-api
@@ -102,7 +101,7 @@ collections:
   slug: open-hourone-webhook-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/capabilities/hourone-capability-edges.yml
+  href: https://artifacts.apis.io/hourone/capabilities/hourone-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hourone-capability-edges.yml
@@ -139,72 +138,72 @@ common:
   type: SignUp
   url: https://app.hourone.ai
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/_original/hourone-openapi-original.json
+  href: https://artifacts.apis.io/hourone/openapi/_original/hourone-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/hourone-openapi-original.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/authentication/hourone-authentication.yml
+  href: https://artifacts.apis.io/hourone/authentication/hourone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hourone-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/agentic-access/hourone-agentic-access.yml
+  href: https://artifacts.apis.io/hourone/agentic-access/hourone-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hourone-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/asyncapi/hourone-webhooks.yml
+  href: https://artifacts.apis.io/hourone/asyncapi/hourone-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hourone-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/conventions/hourone-conventions.yml
+  href: https://artifacts.apis.io/hourone/conventions/hourone-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hourone-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/errors/hourone-problem-types.yml
+  href: https://artifacts.apis.io/hourone/errors/hourone-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hourone-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/lifecycle/hourone-lifecycle.yml
+  href: https://artifacts.apis.io/hourone/lifecycle/hourone-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hourone-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/conformance/hourone-conformance.yml
+  href: https://artifacts.apis.io/hourone/conformance/hourone-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hourone-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/data-model/hourone-data-model.yml
+  href: https://artifacts.apis.io/hourone/data-model/hourone-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hourone-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/mcp/hourone-mcp.yml
+  href: https://artifacts.apis.io/hourone/mcp/hourone-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hourone-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/llms/hourone-llms.txt
+  href: https://artifacts.apis.io/hourone/llms/hourone-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hourone-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/overlays/hourone-overlay.yaml
+  href: https://artifacts.apis.io/hourone/overlays/hourone-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hourone-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hourone/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/asyncapi/hourone-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/hourone/asyncapi/hourone-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/hourone-webhooks-asyncapi.yml
@@ -223,10 +222,10 @@ overview: 'Hourone publishes 6 API contracts indexed on the [APIs.io](https://ap
 
 
   Hourone''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 20
+random_paper: 0
 score:
   band: thin
-  composite: 33.8
+  composite: 35.5
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -234,15 +233,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 4.5
-    contract_quality: 57.2
-    developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 34.1
+    contract_quality: 55.5
+    developer_ergonomics: 56.5
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,18 +258,29 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/screenshots/hourone-2026-07-25T221530.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hourone/hourone-2026-07-25T221530.png
 security:
 - kind: authentication
   name: Hourone Authentication
   slug: hourone-authentication
   summary_line: apiKey/http · 2 schemes
+skill_count: 4
+skills:
+- name: Create a video from a Blueprint and wait for it
+  slug: hourone-create-video-from-blueprint
+- name: Preview a voice, then build a dynamic video
+  slug: hourone-dynamic-video-with-voice-preview
+- name: Preview a voice then generate a dynamic video with subtitles
+  slug: hourone-preview-voice-and-generate
+- name: Subscribe to video webhooks and verify signatures
+  slug: hourone-subscribe-webhooks
 slug: hourone
 tags:
 - Company

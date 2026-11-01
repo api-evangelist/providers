@@ -1,0 +1,220 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: bearer
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 25.6
+  scored_at: '2026-10-31'
+api_count: 2
+apis:
+- description: AutoKitteh provides a workflow automation platform with a developer API documented at https://docs.autokitteh.com/.
+  name: AutoKitteh API
+  slug: autokitteh-api-2
+- description: 'AutoKitteh API as documented publicly: 7 operations. Contract generated from the documentation by API Evangelist (2026-10-19); not the provider''s own document.'
+  name: AutoKitteh API
+  slug: autokitteh-api
+artifact_total: 8
+common:
+- group: design
+  href: https://artifacts.apis.io/autokitteh/rules/autokitteh-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/autokitteh-rules.yml
+- group: design
+  href: https://artifacts.apis.io/autokitteh/json-ld/autokitteh-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/autokitteh-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/autokitteh/vocabulary/autokitteh-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/autokitteh-vocabulary.yml
+- group: design
+  href: https://artifacts.apis.io/autokitteh/data-model/autokitteh-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/autokitteh-data-model.yml
+- group: auth
+  href: https://artifacts.apis.io/autokitteh/authentication/autokitteh-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/autokitteh-authentication.yml
+- group: design
+  href: https://artifacts.apis.io/autokitteh/conformance/autokitteh-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/autokitteh-conformance.yml
+- group: other
+  href: https://artifacts.apis.io/autokitteh/hosts/autokitteh-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/autokitteh-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/autokitteh/vendors/autokitteh-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/autokitteh-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/autokitteh/packages/autokitteh-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/autokitteh-packages.yml
+- group: build
+  href: https://artifacts.apis.io/autokitteh/packages/autokitteh-packages.yml
+  title: ''
+  type: Packages
+  url: packages/autokitteh-packages.yml
+- group: auth
+  href: https://artifacts.apis.io/autokitteh/security/autokitteh-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/autokitteh-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://autokitteh.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.autokitteh.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.autokitteh.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.autokitteh.com/get_started
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.autokitteh.com/contact
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/autokitteh
+coverage:
+  checked: '2026-10-19'
+  detail: Docs site returns a JavaScript shell preventing machine‑readable spec discovery.
+  evidence:
+  - status: 202
+    url: https://autokitteh.com/
+  reason: js-rendered-docs
+  state: unreadable
+created: '2026-10-19'
+description: AutoKitteh is an open-source workflow automation and orchestration platform tailored for developers. It enables creation, management, and monitoring of code-centric automations and durable workflows. AutoKitteh offers built‑in integrations, managed deployments, event‑driven execution, durable fault‑tolerant processing, rich telemetry, and a developer‑first CLI, positioning it as an alternative to no‑code platforms and a complement to Temporal.
+json_schemas:
+- name: PostWebhooksWebhookidRequest
+  property_count: 2
+  slug: autokitteh-post-webhooks-webhookid-request
+- name: PostWebhooksWebhookidResponse
+  property_count: 1
+  slug: autokitteh-post-webhooks-webhookid-response
+jsonld:
+- class_count: 2
+  name: Autokitteh Context
+  property_count: 3
+  slug: autokitteh-context
+layout: provider
+modified: '2026-10-19'
+name: AutoKitteh
+nav: Providers
+network: true
+overview: 'AutoKitteh is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, Orchestration, Open Source, Developer Tools, and Workflow Engine.
+
+
+  The AutoKitteh catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  AutoKitteh''s developer surface includes authentication, documentation, API reference, getting-started guide, support, and 12 more developer resources.'
+random_paper: 10
+rules:
+- authorship: generated
+  effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: AutoKitteh API Rules
+  rule_count: 11
+  severity_counts:
+    error: 9
+    hint: 0
+    info: 1
+    warn: 1
+  slug: autokitteh-rules
+score:
+  band: emerging
+  composite: 24.4
+  coverage:
+    artifact_dirs: 17
+    catalog_earned: 49.8
+    catalog_earned_first_party: 0.0
+    catalog_gap: 65.3
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 0.0
+    contract_governance: 22.0
+    contract_quality: 19.8
+    developer_ergonomics: 52.4
+    discoverability: 53.6
+    operational_transparency: 5.3
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 5
+      marker_coverage: 100.0
+      total: 5
+    mcp: unknown
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 16.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: authentication
+  name: Autokitteh Authentication
+  slug: autokitteh-authentication
+  summary_line: 3 schemes
+- kind: domain-security
+  name: Autokitteh Domain Security
+  slug: autokitteh-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+slug: autokitteh
+tags:
+- Automation
+- Orchestration
+- Open Source
+- Developer Tools
+- Workflow Engine
+website: https://autokitteh.com/
+---

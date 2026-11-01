@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 common:
@@ -66,22 +68,22 @@ common:
   type: Blog
   url: https://doubledutch.github.io/blog
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/doubledutch/refs/heads/main/packages/doubledutch-packages.yml
+  href: https://artifacts.apis.io/doubledutch/packages/doubledutch-packages.yml
   title: ''
   type: Packages
   url: packages/doubledutch-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/doubledutch/refs/heads/main/packages/doubledutch-packages.yml
+  href: https://artifacts.apis.io/doubledutch/packages/doubledutch-packages.yml
   title: ''
   type: SDKs
   url: packages/doubledutch-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/doubledutch/refs/heads/main/cli/doubledutch-cli.yml
+  href: https://artifacts.apis.io/doubledutch/cli/doubledutch-cli.yml
   title: ''
   type: CLI
   url: cli/doubledutch-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/doubledutch/refs/heads/main/llms/doubledutch-llms.txt
+  href: https://artifacts.apis.io/doubledutch/llms/doubledutch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/doubledutch-llms.txt
@@ -97,12 +99,12 @@ overview: 'DoubleDutch is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   DoubleDutch''s developer surface includes documentation, getting-started guide, engineering blog, CLI, and 7 more developer resources.'
-random_paper: 5
+random_paper: 19
 score:
   band: emerging
-  composite: 13.1
+  composite: 12.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -114,23 +116,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 13.1
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 12.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/doubledutch/refs/heads/main/screenshots/doubledutch-2026-07-25T212325.png
+screenshot: https://apis.io/screenshots/doubledutch/doubledutch-2026-07-25T212325.png
 slug: doubledutch
 tags:
 - Company

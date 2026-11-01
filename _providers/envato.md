@@ -12,29 +12,32 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: documented
-    dry_run_mode: na
-    dynamic_client_registration: false
+    delegated_identity: served
+    dry_run_mode: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: derived
-    reversibility_documented: na
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 33.2
-  scored_at: '2026-10-17'
+  score: 43.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,49 +45,23 @@ agentic_access:
   operation_count: 11
   slug: envato-agentic-access
   summary_line: 11 operations
-api_count: 1
+api_count: 2
 apis:
-- description: REST API for ThemeForest, CodeCanyon, AudioJungle, VideoHive, GraphicRiver, 3DOcean, and PhotoDune. Endpoints cover catalog (search, popular, new files), item detail, item downloads (for buyers), user
-  name: Envato Market API
-  slug: market
 - description: Affiliate-only API for Envato Elements (subscription-based stock media). Provides search and metadata for catalog discovery within affiliate properties; not a general-purpose download API.
   name: Envato Elements Affiliate API
   slug: elements-affiliate
 - baseURL: https://api.envato.com
   baseurl_source: declared
-  description: The Author API from Envato — 2 operation(s) for author.
-  name: Envato Author API
-  slug: envato-author-api
+  description: The Market API from Envato — 36 operation(s) for market.
+  name: Envato Market API
+  slug: envato-market-api
 - baseURL: https://api.envato.com
   baseurl_source: declared
-  description: The Catalog API from Envato — 2 operation(s) for catalog.
-  name: Envato Catalog API
-  slug: envato-catalog-api
-- baseURL: https://api.envato.com
-  baseurl_source: declared
-  description: The Downloads API from Envato — 1 operation(s) for downloads.
-  name: Envato Downloads API
-  slug: envato-downloads-api
-- baseURL: https://api.envato.com
-  baseurl_source: declared
-  description: The Items API from Envato — 1 operation(s) for items.
-  name: Envato Items API
-  slug: envato-items-api
-- baseURL: https://api.envato.com
-  baseurl_source: declared
-  description: The Search API from Envato — 1 operation(s) for search.
+  description: The search API from Envato — 3 operation(s) for search.
   name: Envato Search API
   slug: envato-search-api
-- baseURL: https://api.envato.com
-  baseurl_source: declared
-  description: The User API from Envato — 4 operation(s) for user.
-  name: Envato User API
-  slug: envato-user-api
-artifact_total: 25
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Envato Market Author API
   slug: open-envato-author-api
@@ -107,28 +84,171 @@ collections:
   name: Envato Market API
   slug: open-envato
 common:
+- group: auth
+  href: https://artifacts.apis.io/envato/well-known/envato-envato-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/envato-envato-security.txt
+- group: design
+  href: https://artifacts.apis.io/envato/rules/envato-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/envato-rules.yml
+- group: design
+  href: https://artifacts.apis.io/envato/json-ld/envato-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/envato-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/envato/vocabulary/envato-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/envato-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/agentic-access/envato-agentic-access.yml
+  href: https://artifacts.apis.io/envato/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://artifacts.apis.io/envato/data-model/envato-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/envato-data-model.yml
+- group: design
+  href: https://artifacts.apis.io/envato/conventions/envato-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/envato-conventions.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.envato.com/lp/vulnerability-disclosure/
+- group: design
+  href: https://artifacts.apis.io/envato/lifecycle/envato-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/envato-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/envato/conformance/envato-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/envato-conformance.yml
+- group: other
+  href: https://artifacts.apis.io/envato/overlays/envato-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/envato-openapi-overlay.yaml
+- group: build
+  href: https://artifacts.apis.io/envato/mcp/envato-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/envato-tool-crosswalk.yml
+- group: agent
+  href: https://artifacts.apis.io/envato/mcp/envato-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/envato-mcp.yml
+- group: auth
+  href: https://artifacts.apis.io/envato/well-known/envato-www-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/envato-www-security.txt
+- group: auth
+  href: https://artifacts.apis.io/envato/well-known/envato-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/envato-security.txt
+- group: auth
+  href: https://artifacts.apis.io/envato/well-known/envato-mcp-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/envato-mcp-security.txt
+- group: auth
+  href: https://artifacts.apis.io/envato/well-known/envato-elements-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/envato-elements-security.txt
+- group: auth
+  href: https://artifacts.apis.io/envato/well-known/envato-community-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/envato-community-security.txt
+- group: auth
+  href: https://artifacts.apis.io/envato/well-known/envato-build-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/envato-build-security.txt
+- group: auth
+  href: https://artifacts.apis.io/envato/well-known/envato-author-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/envato-author-security.txt
+- group: auth
+  href: https://artifacts.apis.io/envato/well-known/envato-app-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/envato-app-security.txt
+- group: auth
+  href: https://artifacts.apis.io/envato/well-known/envato-api-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/envato-api-security.txt
+- group: auth
+  href: https://artifacts.apis.io/envato/well-known/envato-account-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/envato-account-security.txt
+- group: agent
+  href: https://artifacts.apis.io/envato/well-known/envato-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/envato-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/envato/hosts/envato-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/envato-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/envato/vendors/envato-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/envato-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/envato/packages/envato-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/envato-packages.yml
+- group: build
+  href: https://artifacts.apis.io/envato/packages/envato-packages.yml
+  title: ''
+  type: Packages
+  url: packages/envato-packages.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.author.envato.com/
+- group: agent
+  href: https://artifacts.apis.io/envato/agentic-access/envato-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/envato-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/security/envato-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/envato/security/envato-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/envato-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/security/envato-domain-security.yml
+  href: https://artifacts.apis.io/envato/security/envato-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/envato-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/authentication/envato-authentication.yml
+  href: https://artifacts.apis.io/envato/authentication/envato-authentication.yml
   title: ''
   type: Authentication
   url: authentication/envato-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/scopes/envato-scopes.yml
+  href: https://artifacts.apis.io/envato/scopes/envato-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/envato-scopes.yml
@@ -149,17 +269,17 @@ common:
   type: DeveloperPortal
   url: https://build.envato.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/plans/envato-plans-pricing.yml
+  href: https://artifacts.apis.io/envato/plans/envato-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/envato-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/rate-limits/envato-rate-limits.yml
+  href: https://artifacts.apis.io/envato/rate-limits/envato-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/envato-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/finops/envato-finops.yml
+  href: https://artifacts.apis.io/envato/finops/envato-finops.yml
   title: ''
   type: FinOps
   url: finops/envato-finops.yml
@@ -167,8 +287,44 @@ common:
   title: ''
   type: Blog
   url: https://envato.com/blog/rss.xml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://build.envato.com/api/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://build.envato.com/api/#get-started
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://build.envato.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.envato.com/privacy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.envato.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.market.envato.com/hc/en-us
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://elements.envato.com/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://elements.envato.com/sign-in
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://elements.envato.com/learn/c/news
 created: '2026-05-08'
-description: Envato runs Envato Market (per-asset marketplaces like ThemeForest, CodeCanyon, AudioJungle, VideoHive, GraphicRiver, 3DOcean, PhotoDune) and Envato Elements (subscription-based unlimited stock media). The Envato API exposes Market endpoints for items, search, downloads, user accounts, and earnings; Elements has a separate affiliate API.
+description: Envato runs Envato Market (per-asset marketplaces like ThemeForest, CodeCanyon, AudioJungle, VideoHive, GraphicRiver, 3DOcean, PhotoDune) and Envato Elements (subscription-based unlimited stock media). The Envato API exposes Market endpoints for items, search, downloads, user accounts, and earnings, documented at build.envato.com; Elements runs an affiliate program, but no public affiliate API documentation was found as of 2026-10.
 finops:
 - has_sources: true
   method: generated
@@ -178,51 +334,91 @@ finops:
   slug: envato-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/envato.png
+json_schemas:
+- name: AuthorSale
+  property_count: 8
+  slug: envato-author-sale
+- name: CollectionDetails
+  property_count: 3
+  slug: envato-collection-details
+- name: Collection
+  property_count: 7
+  slug: envato-collection
+- name: Item
+  property_count: 24
+  slug: envato-item
+- name: MarketPurchaseForAuthor
+  property_count: 8
+  slug: envato-market-purchase-for-author
+- name: MarketPurchaseForBuyer
+  property_count: 7
+  slug: envato-market-purchase-for-buyer
+jsonld:
+- class_count: 23
+  name: Envato Context
+  property_count: 89
+  slug: envato-context
 layout: provider
 mcp_servers:
 - description: Remote MCP server at mcp.envato.com over HTTP; 15 tools listed.
   name: Envato MCP Server
   slug: envato
-modified: '2026-05-08'
+modified: '2026-10-21'
 name: Envato
 nav: Providers
 network: true
-overview: 'Envato publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Author API, Catalog API, Downloads API, and 5 more. Tagged areas include Stock Media, Marketplace, Themes, Audio, and Video.
+overview: 'Envato publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including Market API, Search API, and 1 more. Tagged areas include Stock Media, Marketplace, Themes, Audio, and Video.
 
 
-  Envato''s developer surface includes authentication, engineering blog, and 11 more developer resources.'
+  The Envato catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Envato''s developer surface includes documentation, authentication, engineering blog, API reference, getting-started guide, support, pricing, and 44 more developer resources.'
 plans:
 - name: Envato Plans Pricing
-  plan_count: 2
+  plan_count: 4
   slug: envato-plans-pricing
-random_paper: 15
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Envato Rate Limits
   slug: envato-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Envato API Rules
+  rule_count: 11
+  severity_counts:
+    error: 9
+    hint: 0
+    info: 1
+    warn: 1
+  slug: envato-rules
 scopes:
 - name: Envato Scopes
-  scope_count: 1
+  scope_count: 18
   slug: envato-scopes
-  summary_line: 1 scope · authorizationCode
+  summary_line: 18 scopes · implicit
 score:
-  band: thin
-  composite: 26.4
+  band: strong
+  composite: 61.2
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    artifact_dirs: 29
+    catalog_earned: 82.8
+    catalog_earned_first_party: 20.0
+    catalog_gap: 32.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 5.3
-    contract_governance: 0.0
-    contract_quality: 45.3
-    developer_ergonomics: 21.4
-    discoverability: 68.3
-    operational_transparency: 7.9
+    access_clarity: 76.3
+    contract_governance: 35.6
+    contract_quality: 44.7
+    developer_ergonomics: 66.1
+    discoverability: 66.7
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -230,34 +426,36 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 27.9
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 6
+      derived: 2
+      marker_coverage: 40.0
+      total: 5
     mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 40.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/screenshots/envato-2026-06-20T180736.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/envato/envato-2026-06-20T180736.png
 security:
 - kind: authentication
   name: Envato Authentication
   slug: envato-authentication
-  summary_line: http/oauth2 · 2 schemes
+  summary_line: oauth2/http · 2 schemes
 - kind: domain-security
   name: Envato Domain Security
   slug: envato-domain-security
@@ -266,6 +464,16 @@ security:
   name: Envato Vulnerability Disclosure
   slug: envato-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 4
+skills:
+- name: envato-download-purchases
+  slug: envato-download-purchases
+- name: envato-manage-collections
+  slug: envato-manage-collections
+- name: envato-search-market-items
+  slug: envato-search-market-items
+- name: envato-verify-purchase-code
+  slug: envato-verify-purchase-code
 slug: envato
 tags:
 - Stock Media

@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.3
-  scored_at: '2026-10-17'
+  score: 43.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,11 +73,8 @@ apis:
   description: Vendors and their items and packaging
   name: MarginEdge Vendors API
   slug: marginedge-vendors-api
-artifact_total: 53
+artifact_total: 52
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MarginEdge Public Categories API
   slug: open-marginedge-categories-api
@@ -95,23 +94,27 @@ collections:
   name: MarginEdge Public API
   slug: open-marginedge
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/marginedge/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/agentic-access/marginedge-agentic-access.yml
+  href: https://artifacts.apis.io/marginedge/agentic-access/marginedge-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/marginedge-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/security/marginedge-trust-center.yml
+  href: https://artifacts.apis.io/marginedge/security/marginedge-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/marginedge-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/security/marginedge-domain-security.yml
+  href: https://artifacts.apis.io/marginedge/security/marginedge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/marginedge-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/authentication/marginedge-authentication.yml
+  href: https://artifacts.apis.io/marginedge/authentication/marginedge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/marginedge-authentication.yml
@@ -140,27 +143,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/marginedge
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/rules/marginedge-spectral-rules.yml
+  href: https://artifacts.apis.io/marginedge/rules/marginedge-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/marginedge-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/vocabulary/marginedge-vocabulary.yml
+  href: https://artifacts.apis.io/marginedge/vocabulary/marginedge-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/marginedge-vocabulary.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/plans/marginedge-plans-pricing.yml
+  href: https://artifacts.apis.io/marginedge/plans/marginedge-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/marginedge-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/rate-limits/marginedge-rate-limits.yml
+  href: https://artifacts.apis.io/marginedge/rate-limits/marginedge-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/marginedge-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/finops/marginedge-finops.yml
+  href: https://artifacts.apis.io/marginedge/finops/marginedge-finops.yml
   title: ''
   type: FinOps
   url: finops/marginedge-finops.yml
@@ -201,7 +204,7 @@ finops:
 - has_sources: true
   method: generated
   name: Marginedge Finops
-  primary_unit: ''
+  primary_unit: location-month
   service_category: Restaurant Back-Office Management
   slug: marginedge-finops
   template: false
@@ -288,12 +291,12 @@ overview: 'MarginEdge publishes 5 API contracts indexed on the [APIs.io](https:/
   The MarginEdge catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  MarginEdge''s developer surface includes authentication, documentation, pricing, support, engineering blog, and 10 more developer resources.'
+  MarginEdge''s developer surface includes authentication, documentation, pricing, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Marginedge Plans Pricing
   plan_count: 3
   slug: marginedge-plans-pricing
-random_paper: 9
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Marginedge Rate Limits
@@ -323,24 +326,24 @@ rules:
     warn: 22
   slug: marginedge-spectral-rules
 score:
-  band: thin
-  composite: 37.8
+  band: developing
+  composite: 39.4
   coverage:
     artifact_dirs: 20
-    catalog_earned: 62.0
+    catalog_earned: 65.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.3
+  delta: 1.8
   facets:
-    access_clarity: 26.3
+    access_clarity: 34.2
     contract_governance: 27.3
     contract_quality: 60.1
-    developer_ergonomics: 28.6
-    discoverability: 68.3
+    developer_ergonomics: 29.8
+    discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 45.1
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -355,14 +358,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/screenshots/marginedge-2026-06-20T184941.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/marginedge/marginedge-2026-06-20T184941.png
 security:
 - kind: authentication
   name: Marginedge Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.2
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 api_count: 12
 apis:
 - baseURL: https://a7.deutsche-boerse.com/api/v1
@@ -100,15 +102,12 @@ apis:
   description: Cloud-delivered real-time market data streaming over WebSocket (host md.deutsche-boerse.com) with Protocol Buffers or JSON message encoding and API-key authentication - the published sample client sub
   name: Deutsche Börse Cloud Stream Market Data API
   slug: cloud-stream-market-data-api
-artifact_total: 36
+artifact_total: 38
 asyncapis:
 - description: 'Real-time market data streaming over WebSocket from Deutsche Börse Cloud Stream. Clients connect to md.deutsche-boerse.com with an API key generated in the GUI (passed as a token; the official Python '
   name: Deutsche Börse Cloud Stream Market Data
   slug: deutsche-boerse-cloud-stream-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: A7 Analytics Platform - Algo management Algo management API API
   slug: open-deutsche-boerse-algo-management-api-api
@@ -164,53 +163,58 @@ collections:
   name: A7 Analytics Platform - Algo management Algo management API Symbols API
   slug: open-deutsche-boerse-symbols-api
 common:
+- group: other
+  href: https://artifacts.apis.io/deutsche-boerse/capabilities/deutsche-boerse-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/deutsche-boerse-capability-edges.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/packages/deutsche-boerse-packages.yml
+  href: https://artifacts.apis.io/deutsche-boerse/packages/deutsche-boerse-packages.yml
   title: ''
   type: Packages
   url: packages/deutsche-boerse-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/packages/deutsche-boerse-packages.yml
+  href: https://artifacts.apis.io/deutsche-boerse/packages/deutsche-boerse-packages.yml
   title: ''
   type: SDKs
   url: packages/deutsche-boerse-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/well-known/deutsche-boerse-well-known.yml
+  href: https://artifacts.apis.io/deutsche-boerse/well-known/deutsche-boerse-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/deutsche-boerse-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/well-known/deutsche-boerse-security.txt
+  href: https://artifacts.apis.io/deutsche-boerse/well-known/deutsche-boerse-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/deutsche-boerse-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/mcp/deutsche-boerse-mcp.yml
+  href: https://artifacts.apis.io/deutsche-boerse/mcp/deutsche-boerse-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/deutsche-boerse-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/mcp/deutsche-boerse-tool-crosswalk.yml
+  href: https://artifacts.apis.io/deutsche-boerse/mcp/deutsche-boerse-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/deutsche-boerse-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/llms/deutsche-boerse-llms.txt
+  href: https://artifacts.apis.io/deutsche-boerse/llms/deutsche-boerse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/deutsche-boerse-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/conformance/deutsche-boerse-conformance.yml
+  href: https://artifacts.apis.io/deutsche-boerse/conformance/deutsche-boerse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/deutsche-boerse-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/errors/deutsche-boerse-problem-types.yml
+  href: https://artifacts.apis.io/deutsche-boerse/errors/deutsche-boerse-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/deutsche-boerse-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/lifecycle/deutsche-boerse-lifecycle.yml
+  href: https://artifacts.apis.io/deutsche-boerse/lifecycle/deutsche-boerse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/deutsche-boerse-lifecycle.yml
@@ -223,32 +227,32 @@ common:
   type: Security
   url: https://www.deutsche-boerse.com/dbg-en/our-company/contact/report-vulnerabilities
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/conventions/deutsche-boerse-conventions.yml
+  href: https://artifacts.apis.io/deutsche-boerse/conventions/deutsche-boerse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/deutsche-boerse-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/changelog/deutsche-boerse-changelog.yml
+  href: https://artifacts.apis.io/deutsche-boerse/changelog/deutsche-boerse-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/deutsche-boerse-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/data-model/deutsche-boerse-data-model.yml
+  href: https://artifacts.apis.io/deutsche-boerse/data-model/deutsche-boerse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/deutsche-boerse-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/deutsche-boerse/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/asyncapi/deutsche-boerse-cloud-stream-asyncapi.yml
+  href: https://artifacts.apis.io/deutsche-boerse/asyncapi/deutsche-boerse-cloud-stream-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/deutsche-boerse-cloud-stream-asyncapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/graphql/deutsche-boerse-eurex-t7-reference-data.graphql
+  href: https://artifacts.apis.io/deutsche-boerse/graphql/deutsche-boerse-eurex-t7-reference-data.graphql
   title: ''
   type: GraphQL
   url: graphql/deutsche-boerse-eurex-t7-reference-data.graphql
@@ -277,17 +281,17 @@ common:
   type: Login
   url: https://console.developer.deutsche-boerse.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/security/deutsche-boerse-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/deutsche-boerse/security/deutsche-boerse-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/deutsche-boerse-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/security/deutsche-boerse-domain-security.yml
+  href: https://artifacts.apis.io/deutsche-boerse/security/deutsche-boerse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/deutsche-boerse-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/authentication/deutsche-boerse-authentication.yml
+  href: https://artifacts.apis.io/deutsche-boerse/authentication/deutsche-boerse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/deutsche-boerse-authentication.yml
@@ -337,26 +341,26 @@ overview: 'Deutsche Börse publishes 13 API contracts indexed on the [APIs.io](h
   The Deutsche Börse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Deutsche Börse''s developer surface includes changelog, API reference, getting-started guide, support, authentication, developer portal, documentation, and 28 more developer resources.'
-random_paper: 20
+  Deutsche Börse''s developer surface includes changelog, API reference, getting-started guide, support, authentication, developer portal, documentation, and 29 more developer resources.'
+random_paper: 2
 score:
   band: developing
   composite: 49.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 57.0
     developer_ergonomics: 66.1
     discoverability: 71.4
-    operational_transparency: 44.7
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -365,7 +369,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 49.4
+  previous_composite: 49.5
   provenance:
     conformance: derived
     contracts:
@@ -381,13 +385,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/screenshots/deutsche-boerse-2026-07-22T202326.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/deutsche-boerse/deutsche-boerse-2026-07-22T202326.png
 security:
 - kind: authentication
   name: Deutsche Boerse Authentication
@@ -401,6 +406,14 @@ security:
   name: Deutsche Boerse Vulnerability Disclosure
   slug: deutsche-boerse-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Look up a historical T7 order book on A7
+  slug: deutsche-boerse-a7-orderbook-lookup
+- name: Upload and run a custom algo on A7
+  slug: deutsche-boerse-a7-run-algo
+- name: Query free Eurex T7 reference data over GraphQL
+  slug: deutsche-boerse-eurex-reference-data-graphql
 slug: deutsche-boerse
 tags:
 - Finance

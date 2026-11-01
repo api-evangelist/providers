@@ -30,15 +30,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.4
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 35.7
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - baseURL: https://findmoney.fingoal.com/v3
   baseurl_source: declared
@@ -75,7 +77,7 @@ apis:
   description: The Oauth API from FinGoal — 1 operation(s) for oauth.
   name: FinGoal OAUTH API
   slug: fingoal-oauth-api
-artifact_total: 19
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Fingoal Link Money Webhooks
@@ -84,9 +86,6 @@ asyncapis:
   name: Fingoal Webhooks
   slug: fingoal-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Insights Enrichment API
   slug: open-fingoal-enrichment-api
@@ -98,17 +97,17 @@ collections:
   slug: open-fingoal-webhook-configurations-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/plans/fingoal-plans-pricing.yml
+  href: https://artifacts.apis.io/fingoal/plans/fingoal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fingoal-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/overlays/fingoal-link-money-overlay.yaml
+  href: https://artifacts.apis.io/fingoal/overlays/fingoal-link-money-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fingoal-link-money-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/overlays/fingoal-insights-overlay.yaml
+  href: https://artifacts.apis.io/fingoal/overlays/fingoal-insights-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fingoal-insights-overlay.yaml
@@ -157,82 +156,82 @@ common:
   type: Compliance
   url: https://fingoal.com/fingoal-privacy-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/security/fingoal-trust-center.yml
+  href: https://artifacts.apis.io/fingoal/security/fingoal-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fingoal-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/authentication/fingoal-authentication.yml
+  href: https://artifacts.apis.io/fingoal/authentication/fingoal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fingoal-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/scopes/fingoal-scopes.yml
+  href: https://artifacts.apis.io/fingoal/scopes/fingoal-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fingoal-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/conventions/fingoal-conventions.yml
+  href: https://artifacts.apis.io/fingoal/conventions/fingoal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fingoal-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/lifecycle/fingoal-lifecycle.yml
+  href: https://artifacts.apis.io/fingoal/lifecycle/fingoal-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fingoal-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/conformance/fingoal-conformance.yml
+  href: https://artifacts.apis.io/fingoal/conformance/fingoal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fingoal-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/sandbox/fingoal-sandbox.yml
+  href: https://artifacts.apis.io/fingoal/sandbox/fingoal-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fingoal-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/asyncapi/fingoal-webhooks.yml
+  href: https://artifacts.apis.io/fingoal/asyncapi/fingoal-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fingoal-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/errors/fingoal-problem-types.yml
+  href: https://artifacts.apis.io/fingoal/errors/fingoal-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fingoal-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/data-model/fingoal-data-model.yml
+  href: https://artifacts.apis.io/fingoal/data-model/fingoal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fingoal-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/mcp/fingoal-mcp.yml
+  href: https://artifacts.apis.io/fingoal/mcp/fingoal-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fingoal-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/llms/fingoal-llms.txt
+  href: https://artifacts.apis.io/fingoal/llms/fingoal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fingoal-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fingoal/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/security/fingoal-domain-security.yml
+  href: https://artifacts.apis.io/fingoal/security/fingoal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fingoal-domain-security.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/rate-limits/fingoal-rate-limits.yml
+  href: https://artifacts.apis.io/fingoal/rate-limits/fingoal-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fingoal-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/components/fingoal-components.yml
+  href: https://artifacts.apis.io/fingoal/components/fingoal-components.yml
   title: ''
   type: Components
   url: components/fingoal-components.yml
@@ -246,6 +245,14 @@ common:
   url: https://fingoal.com/
 created: '2026-07-17'
 description: 'FinGoal provides financial data insights for banks, credit unions, and fintechs. Its Insights API enriches raw bank and card transaction data with clean merchant names, categorization, and behavioral "Persona Tags" that power personalized recommendations, targeted offers, and better banking features. The API is batch-oriented: developers submit transactions, receive a batch_request_id, and collect enriched results by polling or via ENRICHMENT_DATA and USER_TAGS_DATA webhooks. FinGoal also offers Link Money for account aggregation and verification across 17,000+ financial institutions. Authentication uses a JWT minted from client_id/client_secret; developer credentials are issued on request. FinGoal is SOC 2 Type II and GDPR compliant.'
+finops:
+- has_sources: true
+  method: derived
+  name: Fingoal Finops
+  primary_unit: ''
+  service_category: ''
+  slug: fingoal-finops
+  template: true
 image: https://cdn.prod.website-files.com/61d89a2cbc85dcbc83bb0f7c/637402586ca49d150ef97dc2_Website%20Open%20Graph%20%20Thumbnail.png
 layout: provider
 modified: '2026-08-14'
@@ -263,7 +270,7 @@ plans:
 - name: Fingoal Plans Pricing
   plan_count: 0
   slug: fingoal-plans-pricing
-random_paper: 10
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Fingoal Rate Limits
@@ -274,24 +281,24 @@ scopes:
   slug: fingoal-scopes
   summary_line: 3 scopes · clientCredentials
 score:
-  band: developing
-  composite: 54.1
+  band: strong
+  composite: 56.6
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 52.0
+    artifact_dirs: 27
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 56.3
-    developer_ergonomics: 42.3
-    discoverability: 78.6
-    operational_transparency: 42.1
-  previous_composite: 54.1
+    contract_quality: 57.5
+    developer_ergonomics: 70.8
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 57.1
   provenance:
     conformance: first-party
     contracts:
@@ -311,13 +318,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/screenshots/fingoal-2026-07-25T214520.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fingoal/fingoal-2026-07-25T214520.png
 security:
 - kind: authentication
   name: Fingoal Authentication
@@ -331,6 +339,18 @@ security:
   name: Fingoal Trust Center
   slug: fingoal-trust-center
   summary_line: SOC 2 Type II, GDPR
+skill_count: 5
+skills:
+- name: Enrich a batch of transactions with FinGoal
+  slug: fingoal-enrich-transactions
+- name: Link a bank account with FinGoal Link Money
+  slug: fingoal-link-money-account-linking
+- name: Manage FinGoal Link Money webhooks
+  slug: fingoal-link-money-webhooks
+- name: Manage FinGoal Insights API webhooks
+  slug: fingoal-manage-webhooks
+- name: Retrieve and refresh FinGoal user Persona Tags
+  slug: fingoal-user-tags
 slug: fingoal
 tags:
 - Financial Services

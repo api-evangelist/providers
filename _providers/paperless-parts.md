@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,8 +37,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-10-17'
-api_count: 6
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - baseURL: https://api.paperlessparts.com/v2
   baseurl_source: declared
@@ -98,7 +100,7 @@ apis:
   description: Endpoints for identifying newly sent quotes, pulling all information related to a particular quote, and updating a quote's status.
   name: Paperless Parts Quotes API
   slug: paperless-parts-quotes-api
-artifact_total: 18
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Paperless Parts Events
@@ -113,22 +115,22 @@ common:
   type: License
   url: https://github.com/part-os/core-python/blob/master/LICENSE
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/capabilities/paperless-parts-capability-edges.yml
+  href: https://artifacts.apis.io/paperless-parts/capabilities/paperless-parts-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/paperless-parts-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/overlays/paperless-parts-v2-overlay.yaml
+  href: https://artifacts.apis.io/paperless-parts/overlays/paperless-parts-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paperless-parts-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/overlays/paperless-parts-v1-overlay.yaml
+  href: https://artifacts.apis.io/paperless-parts/overlays/paperless-parts-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paperless-parts-v1-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/security/paperless-parts-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/paperless-parts/security/paperless-parts-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/paperless-parts-vulnerability-disclosure.yml
@@ -193,72 +195,72 @@ common:
   type: ChangeLog
   url: https://www.paperlessparts.com/product-updates/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/llms/paperless-parts-llms.txt
+  href: https://artifacts.apis.io/paperless-parts/llms/paperless-parts-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paperless-parts-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/packages/paperless-parts-packages.yml
+  href: https://artifacts.apis.io/paperless-parts/packages/paperless-parts-packages.yml
   title: ''
   type: Packages
   url: packages/paperless-parts-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/packages/paperless-parts-packages.yml
+  href: https://artifacts.apis.io/paperless-parts/packages/paperless-parts-packages.yml
   title: ''
   type: SDKs
   url: packages/paperless-parts-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/well-known/paperless-parts-well-known.yml
+  href: https://artifacts.apis.io/paperless-parts/well-known/paperless-parts-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/paperless-parts-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/authentication/paperless-parts-authentication.yml
+  href: https://artifacts.apis.io/paperless-parts/authentication/paperless-parts-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paperless-parts-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/conventions/paperless-parts-conventions.yml
+  href: https://artifacts.apis.io/paperless-parts/conventions/paperless-parts-conventions.yml
   title: ''
   type: Conventions
   url: conventions/paperless-parts-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/errors/paperless-parts-problem-types.yml
+  href: https://artifacts.apis.io/paperless-parts/errors/paperless-parts-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/paperless-parts-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/lifecycle/paperless-parts-lifecycle.yml
+  href: https://artifacts.apis.io/paperless-parts/lifecycle/paperless-parts-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/paperless-parts-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/conformance/paperless-parts-conformance.yml
+  href: https://artifacts.apis.io/paperless-parts/conformance/paperless-parts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paperless-parts-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/data-model/paperless-parts-data-model.yml
+  href: https://artifacts.apis.io/paperless-parts/data-model/paperless-parts-data-model.yml
   title: ''
   type: DataModel
   url: data-model/paperless-parts-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/security/paperless-parts-domain-security.yml
+  href: https://artifacts.apis.io/paperless-parts/security/paperless-parts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paperless-parts-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/plans/paperless-parts-plans-pricing.yml
+  href: https://artifacts.apis.io/paperless-parts/plans/paperless-parts-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/paperless-parts-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/rate-limits/paperless-parts-rate-limits.yml
+  href: https://artifacts.apis.io/paperless-parts/rate-limits/paperless-parts-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/paperless-parts-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/paperless-parts/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -267,12 +269,12 @@ common:
   type: Security
   url: https://www.paperlessparts.com/vulnerability-disclosure-policy/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/asyncapi/paperless-parts-events.yml
+  href: https://artifacts.apis.io/paperless-parts/asyncapi/paperless-parts-events.yml
   title: ''
   type: Events
   url: asyncapi/paperless-parts-events.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/mcp/paperless-parts-mcp.yml
+  href: https://artifacts.apis.io/paperless-parts/mcp/paperless-parts-mcp.yml
   title: ''
   type: MCP
   url: mcp/paperless-parts-mcp.yml
@@ -282,6 +284,14 @@ common:
   url: https://github.com/part-os/core-python
 created: '2026-08-26'
 description: Paperless Parts, Inc. is a Boston-based manufacturing software company founded in 2017 that builds a secure, ITAR-compliant cloud quoting and sales platform for custom part manufacturers — job shops, contract manufacturers and rapid-prototype businesses working in CNC machining, sheet metal fabrication, Swiss screw machining, wire EDM, waterjet and additive manufacturing. A patented geometry engine analyses uploaded CAD to automate costing, and the P3L pricing language lets a shop encode its own pricing logic. The company publishes a public REST API in two live versions (v1 and v2) at api.paperlessparts.com, covering quotes, quote items, orders, jobs, parts, processes, contacts and accounts, custom pricing tables, purchased components, and a managed integrations framework with a poll-based Streaming API for reacting to platform events. A first-party Python SDK is published on GitHub under the part-os organization.
+finops:
+- has_sources: true
+  method: derived
+  name: Paperless Parts Finops
+  primary_unit: ''
+  service_category: ''
+  slug: paperless-parts-finops
+  template: true
 image: https://paperlessparts.com/wp-content/uploads/paperless-parts-full-logo-2022.svg
 layout: provider
 modified: '2026-10-06'
@@ -299,29 +309,29 @@ plans:
 - name: Paperless Parts Plans Pricing
   plan_count: 0
   slug: paperless-parts-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Paperless Parts Rate Limits
   slug: paperless-parts-rate-limits
 score:
-  band: strong
-  composite: 54.7
+  band: developing
+  composite: 53.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 40.0
+    artifact_dirs: 24
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.6
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 59.2
-    developer_ergonomics: 49.4
-    discoverability: 78.6
-    operational_transparency: 28.9
+    contract_quality: 55.9
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -329,7 +339,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 54.6
+  previous_composite: 54.2
   provenance:
     conformance: first-party
     contracts:
@@ -345,13 +355,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/screenshots/paperless-parts-2026-09-02T150907.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/paperless-parts/paperless-parts-2026-09-02T150907.png
 security:
 - kind: authentication
   name: Paperless Parts Authentication
@@ -365,6 +376,16 @@ security:
   name: Paperless Parts Vulnerability Disclosure
   slug: paperless-parts-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 4
+skills:
+- name: paperless-parts-build-a-quote
+  slug: paperless-parts-build-a-quote
+- name: paperless-parts-poll-streaming-api-events
+  slug: paperless-parts-poll-streaming-api-events
+- name: paperless-parts-sync-customers-and-pricing-tables
+  slug: paperless-parts-sync-customers-and-pricing-tables
+- name: paperless-parts-sync-new-orders-to-erp
+  slug: paperless-parts-sync-new-orders-to-erp
 slug: paperless-parts
 tags:
 - Company

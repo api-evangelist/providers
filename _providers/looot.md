@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 48.7
-  scored_at: '2026-10-17'
+  score: 46.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 33
@@ -514,60 +516,60 @@ apis:
   description: The Workspace Files API from looot — 6 operation(s) for workspace files.
   name: looot Workspace Files API
   slug: looot-workspace-files-api
-artifact_total: 110
+artifact_total: 112
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/capabilities/looot-capability-edges.yml
+  href: https://artifacts.apis.io/looot/capabilities/looot-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/looot-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/agentic-access/looot-agentic-access.yml
+  href: https://artifacts.apis.io/looot/agentic-access/looot-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/looot-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/plans/looot-plans-pricing.yml
+  href: https://artifacts.apis.io/looot/plans/looot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/looot-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/rules/looot-rules.yml
+  href: https://artifacts.apis.io/looot/rules/looot-rules.yml
   title: ''
   type: Spectral
   url: rules/looot-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/json-ld/looot-context.jsonld
+  href: https://artifacts.apis.io/looot/json-ld/looot-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/looot-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/vocabulary/looot-vocabulary.yml
+  href: https://artifacts.apis.io/looot/vocabulary/looot-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/looot-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/data-model/looot-data-model.yml
+  href: https://artifacts.apis.io/looot/data-model/looot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/looot-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/cli/looot-cli.yml
+  href: https://artifacts.apis.io/looot/cli/looot-cli.yml
   title: ''
   type: CLI
   url: cli/looot-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/changelog/looot-changelog.yml
+  href: https://artifacts.apis.io/looot/changelog/looot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/looot-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/conventions/looot-conventions.yml
+  href: https://artifacts.apis.io/looot/conventions/looot-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/looot-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/conventions/looot-conventions.yml
+  href: https://artifacts.apis.io/looot/conventions/looot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/looot-conventions.yml
@@ -576,52 +578,52 @@ common:
   type: Compliance
   url: https://looot.ai/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/authentication/looot-authentication.yml
+  href: https://artifacts.apis.io/looot/authentication/looot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/looot-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/errors/looot-problem-types.yml
+  href: https://artifacts.apis.io/looot/errors/looot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/looot-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/conformance/looot-conformance.yml
+  href: https://artifacts.apis.io/looot/conformance/looot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/looot-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/llms/looot-llms.txt
+  href: https://artifacts.apis.io/looot/llms/looot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/looot-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/mcp/looot-mcp.yml
+  href: https://artifacts.apis.io/looot/mcp/looot-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/looot-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/well-known/looot-well-known.yml
+  href: https://artifacts.apis.io/looot/well-known/looot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/looot-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/hosts/looot-hosts.yml
+  href: https://artifacts.apis.io/looot/hosts/looot-hosts.yml
   title: ''
   type: Hosts
   url: hosts/looot-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/vendors/looot-vendors.yml
+  href: https://artifacts.apis.io/looot/vendors/looot-vendors.yml
   title: ''
   type: Vendors
   url: vendors/looot-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/packages/looot-packages.yml
+  href: https://artifacts.apis.io/looot/packages/looot-packages.yml
   title: ''
   type: SDKs
   url: packages/looot-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/packages/looot-packages.yml
+  href: https://artifacts.apis.io/looot/packages/looot-packages.yml
   title: ''
   type: Packages
   url: packages/looot-packages.yml
@@ -638,12 +640,12 @@ common:
   type: DeveloperPortal
   url: https://api.looot.ai</code
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/security/looot-trust-center.yml
+  href: https://artifacts.apis.io/looot/security/looot-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/looot-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/looot/refs/heads/main/security/looot-domain-security.yml
+  href: https://artifacts.apis.io/looot/security/looot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/looot-domain-security.yml
@@ -689,6 +691,14 @@ common:
   url: https://looot.ai/privacy
 created: '2026-10-05'
 description: looot provides a unified API marketplace that gives agents a single key and prepaid balance to access over 2,350 endpoints from 76 data providers. It offers a platform API (OpenAPI 3.1 with 261 paths) including a public catalog, and an MCP for bearer‑authenticated access. The service integrates with major AI assistants like Claude, Cursor, Codex, and ChatGPT, enabling tasks such as LinkedIn profile lookup, email discovery, SEO ranking, and social media trend analysis. Pricing is usage‑based, and documentation is available at docs.looot.ai.
+finops:
+- has_sources: true
+  method: derived
+  name: Looot Finops
+  primary_unit: ''
+  service_category: ''
+  slug: looot-finops
+  template: true
 image: https://looot.ai/opengraph-image
 json_schemas:
 - name: CatalogOverview
@@ -734,7 +744,10 @@ plans:
 - name: Looot Plans Pricing
   plan_count: 6
   slug: looot-plans-pricing
-random_paper: 7
+- name: Looot Price Estimates
+  plan_count: 0
+  slug: looot-price-estimates
+random_paper: 5
 rules:
 - authorship: generated
   effective_rule_count: 48
@@ -750,21 +763,23 @@ rules:
   slug: looot-rules
 score:
   band: strong
-  composite: 64.6
+  composite: 60.9
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 69.8
     catalog_earned_first_party: 12.0
     catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 22.0
     contract_quality: 58.7
     developer_ergonomics: 71.4
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 26.3
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -780,11 +795,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 33.3
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Looot Authentication

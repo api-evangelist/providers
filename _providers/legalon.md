@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the LegalOn contract platform. Documented capabilities cover contract file operations (upload, retrieve, update, delete), contract information management (register and update metadata suc
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/legalon/refs/heads/main/plans/legalon-plans-pricing.yml
+  href: https://artifacts.apis.io/legalon/plans/legalon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/legalon-plans-pricing.yml
@@ -111,47 +113,47 @@ common:
   type: CaseStudies
   url: https://www.legalontech.com/customers
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/legalon/refs/heads/main/authentication/legalon-authentication.yml
+  href: https://artifacts.apis.io/legalon/authentication/legalon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/legalon-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/legalon/refs/heads/main/conventions/legalon-conventions.yml
+  href: https://artifacts.apis.io/legalon/conventions/legalon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/legalon-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/legalon/refs/heads/main/conformance/legalon-conformance.yml
+  href: https://artifacts.apis.io/legalon/conformance/legalon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/legalon-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/legalon/refs/heads/main/lifecycle/legalon-lifecycle.yml
+  href: https://artifacts.apis.io/legalon/lifecycle/legalon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/legalon-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/legalon/refs/heads/main/changelog/legalon-changelog.yml
+  href: https://artifacts.apis.io/legalon/changelog/legalon-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/legalon-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/legalon/refs/heads/main/security/legalon-trust-center.yml
+  href: https://artifacts.apis.io/legalon/security/legalon-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/legalon-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/legalon/refs/heads/main/security/legalon-domain-security.yml
+  href: https://artifacts.apis.io/legalon/security/legalon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/legalon-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/legalon/refs/heads/main/well-known/legalon-well-known.yml
+  href: https://artifacts.apis.io/legalon/well-known/legalon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/legalon-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/legalon/refs/heads/main/llms/legalon-llms.txt
+  href: https://artifacts.apis.io/legalon/llms/legalon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/legalon-llms.txt
@@ -172,24 +174,24 @@ plans:
 - name: Legalon Plans Pricing
   plan_count: 3
   slug: legalon-plans-pricing
-random_paper: 12
+random_paper: 18
 score:
   band: thin
-  composite: 37.8
+  composite: 38.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
-    access_clarity: 85.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 74.1
+    discoverability: 67.9
     operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -198,7 +200,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 31.4
+  previous_composite: 38.5
   provenance:
     conformance: first-party
   regulatory:
@@ -207,14 +209,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/legalon/refs/heads/main/screenshots/legalon-2026-07-25T224826.png
+screenshot: https://apis.io/screenshots/legalon/legalon-2026-07-25T224826.png
 security:
 - kind: authentication
   name: Legalon Authentication

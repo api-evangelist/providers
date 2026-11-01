@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,12 +63,12 @@ common:
   type: TermsOfService
   url: https://www.phasecraft.io/terms-of-use
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phasecraft/refs/heads/main/security/phasecraft-domain-security.yml
+  href: https://artifacts.apis.io/phasecraft/security/phasecraft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/phasecraft-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/phasecraft/refs/heads/main/llms/phasecraft-llms.txt
+  href: https://artifacts.apis.io/phasecraft/llms/phasecraft-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/phasecraft-llms.txt
@@ -85,9 +87,9 @@ overview: 'Phasecraft is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 1
 score:
   band: minimal
-  composite: 10.8
+  composite: 10.5
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -99,23 +101,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 10.8
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 10.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/phasecraft/refs/heads/main/screenshots/phasecraft-2026-09-02T151140.png
+screenshot: https://apis.io/screenshots/phasecraft/phasecraft-2026-09-02T151140.png
 security:
 - kind: domain-security
   name: Phasecraft Domain Security

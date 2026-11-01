@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.5
-  scored_at: '2026-10-17'
+  score: 29.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -40,26 +42,31 @@ agentic_access:
   operation_count: 2
   slug: replicant-agentic-access
   summary_line: 2 operations · 2 acting
-api_count: 4
+api_count: 1
 apis:
 - baseURL: https://api.replicant.ai/api/v2
   baseurl_source: declared
   description: The Replicant API from Replicant — 2 operation(s) for replicant.
   name: Replicant API
   slug: replicant-replicant-api
-artifact_total: 9
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Replicant Outbound Call Status Webhooks
   slug: replicant-outbound-call-status-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/replicant/capabilities/replicant-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/replicant-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/agentic-access/replicant-agentic-access.yml
+  href: https://artifacts.apis.io/replicant/agentic-access/replicant-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/replicant-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/authentication/replicant-authentication.yml
+  href: https://artifacts.apis.io/replicant/authentication/replicant-authentication.yml
   title: ''
   type: Authentication
   url: authentication/replicant-authentication.yml
@@ -88,27 +95,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/replicant-ai
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/llms/replicant-llms.txt
+  href: https://artifacts.apis.io/replicant/llms/replicant-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/replicant-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/lifecycle/replicant-lifecycle.yml
+  href: https://artifacts.apis.io/replicant/lifecycle/replicant-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/replicant-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/security/replicant-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/replicant/security/replicant-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/replicant-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/security/replicant-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/replicant/security/replicant-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/replicant-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/security/replicant-trust-center.yml
+  href: https://artifacts.apis.io/replicant/security/replicant-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/replicant-trust-center.yml
@@ -117,57 +124,57 @@ common:
   type: Compliance
   url: https://www.replicant.com/safety-ai-security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/conformance/replicant-conformance.yml
+  href: https://artifacts.apis.io/replicant/conformance/replicant-conformance.yml
   title: ''
   type: Conformance
   url: conformance/replicant-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/security/replicant-domain-security.yml
+  href: https://artifacts.apis.io/replicant/security/replicant-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/replicant-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/openapi/_original/replicant-outbound-api-openapi.yml
+  href: https://artifacts.apis.io/replicant/openapi/_original/replicant-outbound-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/replicant-outbound-api-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/overlays/replicant-outbound-api-overlay.yaml
+  href: https://artifacts.apis.io/replicant/overlays/replicant-outbound-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/replicant-outbound-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/conventions/replicant-conventions.yml
+  href: https://artifacts.apis.io/replicant/conventions/replicant-conventions.yml
   title: ''
   type: Conventions
   url: conventions/replicant-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/errors/replicant-problem-types.yml
+  href: https://artifacts.apis.io/replicant/errors/replicant-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/replicant-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/data-model/replicant-data-model.yml
+  href: https://artifacts.apis.io/replicant/data-model/replicant-data-model.yml
   title: ''
   type: DataModel
   url: data-model/replicant-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/asyncapi/replicant-outbound-call-status-webhooks.yml
+  href: https://artifacts.apis.io/replicant/asyncapi/replicant-outbound-call-status-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/replicant-outbound-call-status-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/replicant/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/plans/replicant-plans-pricing.yml
+  href: https://artifacts.apis.io/replicant/plans/replicant-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/replicant-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/rate-limits/replicant-rate-limits.yml
+  href: https://artifacts.apis.io/replicant/rate-limits/replicant-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/replicant-rate-limits.yml
@@ -181,6 +188,14 @@ common:
   url: https://www.replicant.com/contact
 created: '2026-07-17'
 description: Replicant is an enterprise agentic customer service platform that automates high-volume contact center conversations across voice, chat, and messaging, and analyzes 100% of interactions for QA, compliance, and automation insights. Its two products — Conversation Automation and Conversation Intelligence — replicate top-performing human agents using a hybrid agentic-plus-deterministic architecture with human-in-the-loop escalation, and integrate with existing CCaaS, CRM, telephony, and ticketing stacks. Replicant is telephony-native, runs multi-region on Google Cloud, and is built for SOC 2, HIPAA, PCI, and GDPR requirements. It is sales-led with no public developer portal, but it does publish one machine-readable contract — the Replicant Outbound API (OpenAPI 3.0.0, v2.0.1), served from the provider's own Swagger UI at docs.replicant.ai and live on api.replicant.ai — which places outbound AI voice calls and SMS against a configured campaign and notifies the caller of call status.
+finops:
+- has_sources: true
+  method: derived
+  name: Replicant Finops
+  primary_unit: ''
+  service_category: ''
+  slug: replicant-finops
+  template: true
 image: https://cdn.prod.website-files.com/67977c1e48dbb17d41f9520b/67a0beb2e1e43c91319354bb_Featured-Image.png
 layout: provider
 modified: '2026-09-16'
@@ -193,35 +208,35 @@ overview: 'Replicant publishes 1 API contract indexed on the [APIs.io](https://a
   The Replicant catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Replicant''s developer surface includes authentication, engineering blog, pricing, support, and 23 more developer resources.'
+  Replicant''s developer surface includes authentication, engineering blog, pricing, support, and 24 more developer resources.'
 plans:
 - name: Replicant Plans Pricing
   plan_count: 3
   slug: replicant-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Replicant Rate Limits
   slug: replicant-rate-limits
 score:
   band: strong
-  composite: 55.0
+  composite: 54.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 52.0
+    artifact_dirs: 23
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: -0.5
   facets:
     access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 60.0
     developer_ergonomics: 37.5
-    discoverability: 78.6
-    operational_transparency: 36.8
-  previous_composite: 54.8
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -244,13 +259,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/screenshots/replicant-2026-08-17T081526.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/replicant/replicant-2026-08-17T081526.png
 security:
 - kind: authentication
   name: Replicant Authentication
@@ -268,6 +284,12 @@ security:
   name: Replicant Trust Center
   slug: replicant-trust-center
   summary_line: SOC 2 Type 2, PCI DSS, HIPAA, GDPR
+skill_count: 2
+skills:
+- name: Place an outbound Replicant call
+  slug: replicant-place-outbound-call
+- name: Send an outbound Replicant SMS
+  slug: replicant-send-outbound-sms
 slug: replicant
 tags:
 - Company

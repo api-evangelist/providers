@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.2
-  scored_at: '2026-10-17'
+  score: 37.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -71,15 +73,12 @@ apis:
   description: Generate and record customer-facing public inspection links.
   name: UVeye Public Links API
   slug: uveye-public-links-api
-artifact_total: 18
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Uveye Merchandise Webhooks
   slug: uveye-merchandise-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: UVeye Public API v1 Appraisal API
   slug: open-uveye-appraisal-api
@@ -97,22 +96,22 @@ collections:
   slug: open-uveye-public-links-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/mcp/uveye-mcp.yml
+  href: https://artifacts.apis.io/uveye/mcp/uveye-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/uveye-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/overlays/uveye-public-api-v1-overlay.yaml
+  href: https://artifacts.apis.io/uveye/overlays/uveye-public-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/uveye-public-api-v1-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/agentic-access/uveye-agentic-access.yml
+  href: https://artifacts.apis.io/uveye/agentic-access/uveye-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/uveye-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/security/uveye-domain-security.yml
+  href: https://artifacts.apis.io/uveye/security/uveye-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uveye-domain-security.yml
@@ -169,7 +168,7 @@ common:
   type: SignUp
   url: https://us.backoffice.uveye.app/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/security/uveye-trust-center.yml
+  href: https://artifacts.apis.io/uveye/security/uveye-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/uveye-trust-center.yml
@@ -186,72 +185,72 @@ common:
   type: Careers
   url: https://uveye.com/careers/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/asyncapi/uveye-merchandise-webhooks.yml
+  href: https://artifacts.apis.io/uveye/asyncapi/uveye-merchandise-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/uveye-merchandise-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/authentication/uveye-authentication.yml
+  href: https://artifacts.apis.io/uveye/authentication/uveye-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uveye-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/conventions/uveye-conventions.yml
+  href: https://artifacts.apis.io/uveye/conventions/uveye-conventions.yml
   title: ''
   type: Conventions
   url: conventions/uveye-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/conventions/uveye-conventions.yml
+  href: https://artifacts.apis.io/uveye/conventions/uveye-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/uveye-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/conformance/uveye-conformance.yml
+  href: https://artifacts.apis.io/uveye/conformance/uveye-conformance.yml
   title: ''
   type: Conformance
   url: conformance/uveye-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/changelog/uveye-changelog.yml
+  href: https://artifacts.apis.io/uveye/changelog/uveye-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/uveye-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/lifecycle/uveye-lifecycle.yml
+  href: https://artifacts.apis.io/uveye/lifecycle/uveye-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uveye-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/rate-limits/uveye-rate-limits.yml
+  href: https://artifacts.apis.io/uveye/rate-limits/uveye-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/uveye-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/sandbox/uveye-sandbox.yml
+  href: https://artifacts.apis.io/uveye/sandbox/uveye-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/uveye-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/packages/uveye-packages.yml
+  href: https://artifacts.apis.io/uveye/packages/uveye-packages.yml
   title: ''
   type: Packages
   url: packages/uveye-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/well-known/uveye-well-known.yml
+  href: https://artifacts.apis.io/uveye/well-known/uveye-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/uveye-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/llms/uveye-llms.txt
+  href: https://artifacts.apis.io/uveye/llms/uveye-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/uveye-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/uveye/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/security/uveye-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/uveye/security/uveye-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/uveye-vulnerability-disclosure.yml
@@ -271,14 +270,14 @@ overview: 'UVeye publishes 5 API contracts indexed on the [APIs.io](https://apis
 
 
   UVeye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
-random_paper: 8
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Uveye Rate Limits
   slug: uveye-rate-limits
 score:
   band: strong
-  composite: 57.1
+  composite: 60.1
   coverage:
     artifact_dirs: 24
     catalog_earned: 49.0
@@ -286,14 +285,14 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 61.0
     developer_ergonomics: 70.8
-    discoverability: 73.2
-    operational_transparency: 68.4
+    discoverability: 66.1
+    operational_transparency: 71.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -301,7 +300,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 57.0
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -318,13 +317,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/screenshots/uveye-2026-08-17T082702.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/uveye/uveye-2026-08-17T082702.png
 security:
 - kind: authentication
   name: Uveye Authentication
@@ -342,6 +342,14 @@ security:
   name: Uveye Trust Center
   slug: uveye-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 3
+skills:
+- name: Pull appraisal and reconditioning cost from a UVeye inspection
+  slug: uveye-appraise-and-recondition
+- name: Share a UVeye inspection with a customer
+  slug: uveye-share-inspection-with-customer
+- name: Sync dealer inventory to UVeye Merchandise
+  slug: uveye-sync-merchandise-inventory
 slug: uveye
 tags:
 - Automotive

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -101,15 +103,12 @@ arazzos:
 - description: A lab creates an order for a testing client, verifies it into the workflow, submits test results for a sample, attaches the COA, and completes the order.
   name: Confident LIMS — lab order to finalized results
   slug: confident-lims-lab-order-to-results
-artifact_total: 27
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Confident Lims Webhooks
   slug: confident-lims-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Clients Client Info API
   slug: open-confident-lims-client-info-api
@@ -141,12 +140,22 @@ collections:
   name: Clients Client Info Test Results API
   slug: open-confident-lims-test-results-api
 common:
+- group: other
+  href: https://artifacts.apis.io/confident-lims/capabilities/confident-lims-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/confident-lims-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/confident-lims/plans/confident-lims-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/confident-lims-plans-pricing.yml
 - group: company
   title: ''
   type: Website
   url: https://www.confidentlims.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/overlays/confident-lims-clients-overlay.yaml
+  href: https://artifacts.apis.io/confident-lims/overlays/confident-lims-clients-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/confident-lims-clients-overlay.yaml
@@ -199,82 +208,90 @@ common:
   type: PrivacyPolicy
   url: https://www.confidentlims.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/conformance/confident-lims-conformance.yml
+  href: https://artifacts.apis.io/confident-lims/conformance/confident-lims-conformance.yml
   title: ''
   type: Compliance
   url: conformance/confident-lims-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/authentication/confident-lims-authentication.yml
+  href: https://artifacts.apis.io/confident-lims/authentication/confident-lims-authentication.yml
   title: ''
   type: Authentication
   url: authentication/confident-lims-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/conventions/confident-lims-conventions.yml
+  href: https://artifacts.apis.io/confident-lims/conventions/confident-lims-conventions.yml
   title: ''
   type: Conventions
   url: conventions/confident-lims-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/errors/confident-lims-problem-types.yml
+  href: https://artifacts.apis.io/confident-lims/errors/confident-lims-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/confident-lims-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/data-model/confident-lims-data-model.yml
+  href: https://artifacts.apis.io/confident-lims/data-model/confident-lims-data-model.yml
   title: ''
   type: DataModel
   url: data-model/confident-lims-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/lifecycle/confident-lims-lifecycle.yml
+  href: https://artifacts.apis.io/confident-lims/lifecycle/confident-lims-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/confident-lims-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/conformance/confident-lims-conformance.yml
+  href: https://artifacts.apis.io/confident-lims/conformance/confident-lims-conformance.yml
   title: ''
   type: Conformance
   url: conformance/confident-lims-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/mcp/confident-lims-mcp.yml
+  href: https://artifacts.apis.io/confident-lims/mcp/confident-lims-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/confident-lims-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/llms/confident-lims-llms.txt
+  href: https://artifacts.apis.io/confident-lims/llms/confident-lims-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/confident-lims-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/asyncapi/confident-lims-webhooks.yml
+  href: https://artifacts.apis.io/confident-lims/asyncapi/confident-lims-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/confident-lims-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/confident-lims/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/agentic-access/confident-lims-agentic-access.yml
+  href: https://artifacts.apis.io/confident-lims/agentic-access/confident-lims-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/confident-lims-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/security/confident-lims-domain-security.yml
+  href: https://artifacts.apis.io/confident-lims/security/confident-lims-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/confident-lims-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/arazzo/confident-lims-lab-order-to-results.yml
+  href: https://artifacts.apis.io/confident-lims/arazzo/confident-lims-lab-order-to-results.yml
   title: ''
   type: Arazzo
   url: arazzo/confident-lims-lab-order-to-results.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/arazzo/confident-lims-client-results-sync.yml
+  href: https://artifacts.apis.io/confident-lims/arazzo/confident-lims-client-results-sync.yml
   title: ''
   type: Arazzo
   url: arazzo/confident-lims-client-results-sync.yml
 created: '2026-07-17'
 description: Confident LIMS (CC Software LLC, formerly Confident Cannabis, founded 2015) is a cloud-based Laboratory Information Management System for high-velocity analytical testing labs and their testing clients. It manages samples from accession through workflow, results, and reporting, automates regulatory compliance (ISO 17025, TNI/NELAP, SOC 2, FDA 21 CFR Part 11), and gives clients a self-service ordering and results portal. It serves cannabis, food & beverage, agriculture, nutraceuticals, cosmetics, environmental, industrial chemicals, and oil & gas labs. The Confident Cannabis REST API (v0, api.confidentcannabis.com) exposes labs, clients, and shared reference data with API-key + HMAC-SHA256 request signing and result webhooks.
+finops:
+- has_sources: true
+  method: derived
+  name: Confident Lims Finops
+  primary_unit: tier fee / month
+  service_category: ''
+  slug: confident-lims-finops
+  template: false
 image: https://files.readme.io/ebcaf628c1535f1f7354303ab5d660f8ee74c181042849f2f2954f5c025a3e1d-Brand_Symbol.svg
 layout: provider
 modified: '2026-07-18'
@@ -287,27 +304,34 @@ overview: 'Confident LIMS publishes 10 API contracts indexed on the [APIs.io](ht
   The Confident LIMS catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Confident LIMS''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 6
+  Confident LIMS''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+plans:
+- name: Confident Lims Plans Pricing
+  plan_count: 24
+  slug: confident-lims-plans-pricing
+- name: Confident Lims Price Estimates
+  plan_count: 0
+  slug: confident-lims-price-estimates
+random_paper: 20
 score:
-  band: developing
-  composite: 46.9
+  band: strong
+  composite: 58.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 23
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 46.1
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 61.2
-    developer_ergonomics: 45.8
-    discoverability: 78.6
+    developer_ergonomics: 58.9
+    discoverability: 71.4
     operational_transparency: 13.2
-  previous_composite: 46.8
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -324,13 +348,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/screenshots/confident-lims-2026-07-25T210248.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/confident-lims/confident-lims-2026-07-25T210248.png
 security:
 - kind: authentication
   name: Confident Lims Authentication
@@ -340,6 +365,14 @@ security:
   name: Confident Lims Domain Security
   slug: confident-lims-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Onboard a testing client and create an order
+  slug: confident-lims-create-order
+- name: Retrieve your orders, samples, and results as a testing client
+  slug: confident-lims-retrieve-client-results
+- name: Submit lab test results for a sample
+  slug: confident-lims-submit-test-results
 slug: confident-lims
 tags:
 - Company

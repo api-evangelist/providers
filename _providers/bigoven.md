@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-17'
+  score: 19.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 66
   slug: bigoven-agentic-access
   summary_line: 66 operations · 33 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api2.bigoven.com
   baseurl_source: declared
@@ -80,11 +82,8 @@ apis:
   description: The Review API from BigOven — 6 operation(s) for review.
   name: BigOven Review API
   slug: bigoven-review-api
-artifact_total: 144
+artifact_total: 143
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 1,000,000+ Recipe and Grocery List API (v2) Collection API
   slug: open-bigoven-collection-api
@@ -105,17 +104,17 @@ collections:
   slug: open-bigoven-recipe-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/agentic-access/bigoven-agentic-access.yml
+  href: https://artifacts.apis.io/bigoven/agentic-access/bigoven-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bigoven-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/security/bigoven-domain-security.yml
+  href: https://artifacts.apis.io/bigoven/security/bigoven-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bigoven-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/authentication/bigoven-authentication.yml
+  href: https://artifacts.apis.io/bigoven/authentication/bigoven-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bigoven-authentication.yml
@@ -148,17 +147,17 @@ common:
   type: X
   url: https://x.com/bigoven
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/plans/bigoven-plans-pricing.yml
+  href: https://artifacts.apis.io/bigoven/plans/bigoven-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bigoven-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/rate-limits/bigoven-rate-limits.yml
+  href: https://artifacts.apis.io/bigoven/rate-limits/bigoven-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bigoven-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/finops/bigoven-finops.yml
+  href: https://artifacts.apis.io/bigoven/finops/bigoven-finops.yml
   title: ''
   type: FinOps
   url: finops/bigoven-finops.yml
@@ -562,7 +561,7 @@ plans:
 - name: Bigoven Plans Pricing
   plan_count: 5
   slug: bigoven-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Bigoven Rate Limits
@@ -580,24 +579,24 @@ rules:
     warn: 4
   slug: bigoven-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 25.4
+  band: thin
+  composite: 28.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 48.3
     catalog_earned_first_party: 0.0
     catalog_gap: 66.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 45.2
-    developer_ergonomics: 11.9
+    contract_quality: 44.3
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 31.0
+  previous_composite: 28.2
   provenance:
     agentic_access: derived
     contracts:
@@ -611,13 +610,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/screenshots/bigoven-2026-06-20T173235.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bigoven/bigoven-2026-06-20T173235.png
 security:
 - kind: authentication
   name: Bigoven Authentication

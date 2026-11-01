@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 9
   slug: dbnomics-agentic-access
   summary_line: 9 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.db.nomics.world/v22
   baseurl_source: declared
@@ -63,11 +65,8 @@ apis:
   description: Economic time series and their observations.
   name: DBnomics Series API
   slug: dbnomics-series-api
-artifact_total: 15
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: DBnomics Datasets API
   slug: open-dbnomics-datasets-api
@@ -85,12 +84,12 @@ collections:
   slug: open-dbnomics
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/agentic-access/dbnomics-agentic-access.yml
+  href: https://artifacts.apis.io/dbnomics/agentic-access/dbnomics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dbnomics-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/security/dbnomics-domain-security.yml
+  href: https://artifacts.apis.io/dbnomics/security/dbnomics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dbnomics-domain-security.yml
@@ -107,17 +106,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/dbnomics
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/plans/dbnomics-plans-pricing.yml
+  href: https://artifacts.apis.io/dbnomics/plans/dbnomics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dbnomics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/rate-limits/dbnomics-rate-limits.yml
+  href: https://artifacts.apis.io/dbnomics/rate-limits/dbnomics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dbnomics-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/finops/dbnomics-finops.yml
+  href: https://artifacts.apis.io/dbnomics/finops/dbnomics-finops.yml
   title: ''
   type: FinOps
   url: finops/dbnomics-finops.yml
@@ -145,14 +144,14 @@ plans:
 - name: Dbnomics Plans Pricing
   plan_count: 2
   slug: dbnomics-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Dbnomics Rate Limits
   slug: dbnomics-rate-limits
 score:
   band: emerging
-  composite: 22.8
+  composite: 23.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 42.0
@@ -160,15 +159,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 46.2
     developer_ergonomics: 16.7
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 29.8
+    operational_transparency: 13.2
+  previous_composite: 23.2
   provenance:
     agentic_access: derived
     contracts:
@@ -182,14 +181,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/screenshots/dbnomics-2026-07-25T211453.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dbnomics/dbnomics-2026-07-25T211453.png
 security:
 - kind: domain-security
   name: Dbnomics Domain Security

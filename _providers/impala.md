@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.impala.travel/v1
@@ -52,11 +54,8 @@ apis:
   description: Getting rates for future dates.
   name: Impala Rate Calendar API
   slug: impala-rate-calendar-api
-artifact_total: 8
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Impala Hotel Booking Bookings API
   slug: open-impala-bookings-api
@@ -72,72 +71,72 @@ common:
   type: Website
   url: https://impala.travel
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/capabilities/impala-capability-edges.yml
+  href: https://artifacts.apis.io/impala/capabilities/impala-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/impala-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/overlays/impala-hotels-overlay.yaml
+  href: https://artifacts.apis.io/impala/overlays/impala-hotels-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impala-hotels-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/authentication/impala-authentication.yml
+  href: https://artifacts.apis.io/impala/authentication/impala-authentication.yml
   title: ''
   type: Authentication
   url: authentication/impala-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/packages/impala-packages.yml
+  href: https://artifacts.apis.io/impala/packages/impala-packages.yml
   title: ''
   type: Packages
   url: packages/impala-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/packages/impala-packages.yml
+  href: https://artifacts.apis.io/impala/packages/impala-packages.yml
   title: ''
   type: SDKs
   url: packages/impala-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/mcp/impala-mcp.yml
+  href: https://artifacts.apis.io/impala/mcp/impala-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/impala-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/llms/impala-llms.txt
+  href: https://artifacts.apis.io/impala/llms/impala-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/impala-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/conventions/impala-conventions.yml
+  href: https://artifacts.apis.io/impala/conventions/impala-conventions.yml
   title: ''
   type: Conventions
   url: conventions/impala-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/errors/impala-problem-types.yml
+  href: https://artifacts.apis.io/impala/errors/impala-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/impala-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/lifecycle/impala-lifecycle.yml
+  href: https://artifacts.apis.io/impala/lifecycle/impala-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/impala-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/conformance/impala-conformance.yml
+  href: https://artifacts.apis.io/impala/conformance/impala-conformance.yml
   title: ''
   type: Conformance
   url: conformance/impala-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/data-model/impala-data-model.yml
+  href: https://artifacts.apis.io/impala/data-model/impala-data-model.yml
   title: ''
   type: DataModel
   url: data-model/impala-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/sandbox/impala-sandbox.yml
+  href: https://artifacts.apis.io/impala/sandbox/impala-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/impala-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/impala/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -161,12 +160,12 @@ overview: 'Impala publishes 3 API contracts indexed on the [APIs.io](https://api
 
 
   Impala''s developer surface includes authentication, sandbox, and 15 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -197,18 +196,25 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/screenshots/impala-2026-07-25T222147.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/impala/impala-2026-07-25T222147.png
 security:
 - kind: authentication
   name: Impala Authentication
   slug: impala-authentication
   summary_line: apiKey/http · 2 schemes
+skill_count: 2
+skills:
+- name: Retrieve, amend, or cancel a booking
+  slug: impala-manage-booking
+- name: Search hotels and create a booking
+  slug: impala-search-and-book
 slug: impala
 tags:
 - Company

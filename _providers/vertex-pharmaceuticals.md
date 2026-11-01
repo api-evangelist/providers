@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Vertex Pharmaceuticals provides qualified researchers with access to clinical trial data through a formal data request and scientific review process. Researchers can submit proposals to access anonymi
@@ -42,22 +44,22 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vertex-pharmaceuticals/refs/heads/main/plans/vertex-pharmaceuticals-plans-pricing.yml
+  href: https://artifacts.apis.io/vertex-pharmaceuticals/plans/vertex-pharmaceuticals-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vertex-pharmaceuticals-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vertex-pharmaceuticals/refs/heads/main/rate-limits/vertex-pharmaceuticals-rate-limits.yml
+  href: https://artifacts.apis.io/vertex-pharmaceuticals/rate-limits/vertex-pharmaceuticals-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vertex-pharmaceuticals-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vertex-pharmaceuticals/refs/heads/main/finops/vertex-pharmaceuticals-finops.yml
+  href: https://artifacts.apis.io/vertex-pharmaceuticals/finops/vertex-pharmaceuticals-finops.yml
   title: ''
   type: FinOps
   url: finops/vertex-pharmaceuticals-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vertex-pharmaceuticals/refs/heads/main/security/vertex-pharmaceuticals-domain-security.yml
+  href: https://artifacts.apis.io/vertex-pharmaceuticals/security/vertex-pharmaceuticals-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vertex-pharmaceuticals-domain-security.yml
@@ -121,7 +123,7 @@ plans:
 - name: Vertex Pharmaceuticals Plans Pricing
   plan_count: 1
   slug: vertex-pharmaceuticals-plans-pricing
-random_paper: 17
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Vertex Pharmaceuticals Rate Limits
@@ -130,13 +132,13 @@ score:
   band: minimal
   composite: 10.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -151,21 +153,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 12.2
+  previous_composite: 10.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vertex-pharmaceuticals/refs/heads/main/screenshots/vertex-pharmaceuticals-2026-06-20T200951.png
+screenshot: https://apis.io/screenshots/vertex-pharmaceuticals/vertex-pharmaceuticals-2026-06-20T200951.png
 security:
 - kind: domain-security
   name: Vertex Pharmaceuticals Domain Security

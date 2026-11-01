@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -114,11 +116,8 @@ apis:
   description: Initiate and track refunds.
   name: PhonePe Refunds API
   slug: phonepe-refunds-api
-artifact_total: 33
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PhonePe Payment Gateway Checkout API
   slug: open-phonepe-checkout-api
@@ -133,17 +132,17 @@ collections:
   slug: open-phonepe
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/plans/phonepe-plans-pricing.yml
+  href: https://artifacts.apis.io/phonepe/plans/phonepe-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/phonepe-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/rate-limits/phonepe-rate-limits.yml
+  href: https://artifacts.apis.io/phonepe/rate-limits/phonepe-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/phonepe-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/finops/phonepe-finops.yml
+  href: https://artifacts.apis.io/phonepe/finops/phonepe-finops.yml
   title: ''
   type: FinOps
   url: finops/phonepe-finops.yml
@@ -152,22 +151,22 @@ common:
   type: Blog
   url: https://www.phonepe.com/press/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/agentic-access/phonepe-agentic-access.yml
+  href: https://artifacts.apis.io/phonepe/agentic-access/phonepe-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/phonepe-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/security/phonepe-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/phonepe/security/phonepe-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/phonepe-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/security/phonepe-domain-security.yml
+  href: https://artifacts.apis.io/phonepe/security/phonepe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/phonepe-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/authentication/phonepe-authentication.yml
+  href: https://artifacts.apis.io/phonepe/authentication/phonepe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/phonepe-authentication.yml
@@ -215,29 +214,29 @@ plans:
 - name: Phonepe Plans Pricing
   plan_count: 1
   slug: phonepe-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Phonepe Rate Limits
   slug: phonepe-rate-limits
 score:
-  band: emerging
-  composite: 24.7
+  band: thin
+  composite: 26.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 50.6
     developer_ergonomics: 23.8
     discoverability: 60.7
-    operational_transparency: 10.5
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -245,7 +244,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 30.3
+  previous_composite: 26.8
   provenance:
     agentic_access: derived
     contracts:
@@ -259,13 +258,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 16.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/screenshots/phonepe-2026-06-20T191650.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/phonepe/phonepe-2026-06-20T191650.png
 security:
 - kind: authentication
   name: Phonepe Authentication

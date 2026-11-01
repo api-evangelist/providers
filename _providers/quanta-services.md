@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quanta-services/refs/heads/main/security/quanta-services-domain-security.yml
+  href: https://artifacts.apis.io/quanta-services/security/quanta-services-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quanta-services-domain-security.yml
@@ -89,10 +91,10 @@ press:
 - date: ''
   title: 'Stock Of The Day: Quanta Services Forges New Buy Point'
   url: https://www.investors.com/research/ibd-stock-of-the-day/quanta-services-stock-buy-point/
-random_paper: 1
+random_paper: 3
 score:
   band: minimal
-  composite: 3.7
+  composite: 3.8
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -106,17 +108,17 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 3.7
+  previous_composite: 3.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

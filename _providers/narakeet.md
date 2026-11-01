@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: List the voices available for audio and video production.
   name: Narakeet Voices API
   slug: narakeet-voices-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Narakeet Account API
   slug: open-narakeet-account-api
@@ -91,22 +90,22 @@ common:
   type: Pricing
   url: https://www.narakeet.com/docs/pricing/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/capabilities/narakeet-capability-edges.yml
+  href: https://artifacts.apis.io/narakeet/capabilities/narakeet-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/narakeet-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/agentic-access/narakeet-agentic-access.yml
+  href: https://artifacts.apis.io/narakeet/agentic-access/narakeet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/narakeet-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/security/narakeet-domain-security.yml
+  href: https://artifacts.apis.io/narakeet/security/narakeet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/narakeet-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/authentication/narakeet-authentication.yml
+  href: https://artifacts.apis.io/narakeet/authentication/narakeet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/narakeet-authentication.yml
@@ -123,17 +122,17 @@ common:
   type: Documentation
   url: https://www.narakeet.com/docs/automating/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/plans/narakeet-plans-pricing.yml
+  href: https://artifacts.apis.io/narakeet/plans/narakeet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/narakeet-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/rate-limits/narakeet-rate-limits.yml
+  href: https://artifacts.apis.io/narakeet/rate-limits/narakeet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/narakeet-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/finops/narakeet-finops.yml
+  href: https://artifacts.apis.io/narakeet/finops/narakeet-finops.yml
   title: ''
   type: FinOps
   url: finops/narakeet-finops.yml
@@ -157,7 +156,7 @@ modified: '2026-07-11'
 name: Narakeet
 nav: Providers
 network: true
-overview: 'Narakeet publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Text to Speech API, Video API, and 1 more. Tagged areas include Text-to-Speech, TTS, Voice, Audio, and Video.
+overview: 'Narakeet publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Text to Speech API, Video API, and 1 more. Tagged areas include Text-to-Speech, Voice, Audio, Video, and Artificial Intelligence.
 
 
   Narakeet''s developer surface includes pricing, authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -165,14 +164,14 @@ plans:
 - name: Narakeet Plans Pricing
   plan_count: 5
   slug: narakeet-plans-pricing
-random_paper: 7
+random_paper: 3
 rate_limits:
 - limit_count: 7
   name: Narakeet Rate Limits
   slug: narakeet-rate-limits
 score:
   band: thin
-  composite: 33.3
+  composite: 34.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 52.0
@@ -180,7 +179,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
@@ -188,7 +187,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 35.2
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -202,13 +201,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/screenshots/narakeet-2026-08-07T184630.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/narakeet/narakeet-2026-08-07T184630.png
 security:
 - kind: authentication
   name: Narakeet Authentication
@@ -221,7 +221,6 @@ security:
 slug: narakeet
 tags:
 - Text-to-Speech
-- TTS
 - Voice
 - Audio
 - Video

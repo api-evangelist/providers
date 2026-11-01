@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.2
-  scored_at: '2026-10-17'
+  score: 26.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Clients connect to MotherDuck through DuckDB's native protocol using a connection string of the form `md:` plus an access token. Officially supported clients include DuckDB CLI, Python, Node.js, JDBC,
@@ -42,7 +44,7 @@ apis:
 artifact_total: 30
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/motherduck/refs/heads/main/security/motherduck-domain-security.yml
+  href: https://artifacts.apis.io/motherduck/security/motherduck-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/motherduck-domain-security.yml
@@ -71,17 +73,17 @@ common:
   type: Pricing
   url: https://motherduck.com/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/motherduck/refs/heads/main/plans/motherduck-plans-pricing.yml
+  href: https://artifacts.apis.io/motherduck/plans/motherduck-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/motherduck-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/motherduck/refs/heads/main/rate-limits/motherduck-rate-limits.yml
+  href: https://artifacts.apis.io/motherduck/rate-limits/motherduck-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/motherduck-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/motherduck/refs/heads/main/finops/motherduck-finops.yml
+  href: https://artifacts.apis.io/motherduck/finops/motherduck-finops.yml
   title: ''
   type: FinOps
   url: finops/motherduck-finops.yml
@@ -99,7 +101,7 @@ finops:
 - has_sources: false
   method: generated
   name: Motherduck Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: motherduck-finops
   template: true
@@ -121,30 +123,30 @@ plans:
 - name: Motherduck Plans Pricing
   plan_count: 3
   slug: motherduck-plans-pricing
-random_paper: 0
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Motherduck Rate Limits
   slug: motherduck-rate-limits
 score:
   band: emerging
-  composite: 20.0
+  composite: 20.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 39.8
-    discoverability: 75.0
-    operational_transparency: 10.5
-  previous_composite: 21.5
+    discoverability: 73.2
+    operational_transparency: 13.2
+  previous_composite: 20.2
   provenance:
     mcp: first-party
   regulatory:
@@ -153,14 +155,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/motherduck/refs/heads/main/screenshots/motherduck-2026-06-20T185824.png
+screenshot: https://apis.io/screenshots/motherduck/motherduck-2026-06-20T185824.png
 security:
 - kind: domain-security
   name: Motherduck Domain Security

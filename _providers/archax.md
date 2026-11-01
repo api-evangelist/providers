@@ -14,36 +14,38 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archax/refs/heads/main/llms/archax-llms.txt
+  href: https://artifacts.apis.io/archax/llms/archax-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/archax-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/archax/refs/heads/main/hosts/archax-hosts.yml
+  href: https://artifacts.apis.io/archax/hosts/archax-hosts.yml
   title: ''
   type: Hosts
   url: hosts/archax-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/archax/refs/heads/main/vendors/archax-vendors.yml
+  href: https://artifacts.apis.io/archax/vendors/archax-vendors.yml
   title: ''
   type: Vendors
   url: vendors/archax-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archax/refs/heads/main/security/archax-domain-security.yml
+  href: https://artifacts.apis.io/archax/security/archax-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/archax-domain-security.yml
@@ -67,10 +69,10 @@ name: Archax
 nav: Providers
 network: true
 overview: Archax is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Digital Assets, Tokenisation, Trading Platform, and Regulated.
-random_paper: 15
+random_paper: 7
 score:
   band: minimal
-  composite: 2.9
+  composite: 2.2
   coverage:
     artifact_dirs: 8
     catalog_earned: 25.0
@@ -84,9 +86,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 51.8
+    discoverability: 44.6
     operational_transparency: 0.0
-  previous_composite: 2.9
+  previous_composite: 2.2
   provenance:
     mcp: unknown
   regulatory:
@@ -95,14 +97,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 5.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/archax/refs/heads/main/screenshots/archax-2026-10-11T100154.png
+screenshot: https://apis.io/screenshots/archax/archax-2026-10-11T100154.png
 security:
 - kind: domain-security
   name: Archax Domain Security

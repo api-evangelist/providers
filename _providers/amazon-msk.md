@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -27,15 +27,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.9
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -75,7 +77,32 @@ apis:
   description: The Tags API from Amazon MSK — 2 operation(s) for tags.
   name: Amazon MSK Tags API
   slug: amazon-msk-tags-api
-artifact_total: 446
+- baseURL: http://kafka.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Msk Channels API from Amazon MSK — 2 operation(s) for msk channels.
+  name: Amazon MSK Msk Channels API
+  slug: amazon-msk-channels-api
+- baseURL: http://kafka.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Msk Policy API from Amazon MSK — 1 operation(s) for msk policy.
+  name: Amazon MSK Msk Policy API
+  slug: amazon-msk-policy-api
+- baseURL: http://kafka.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Msk Replication API from Amazon MSK — 2 operation(s) for msk replication.
+  name: Amazon MSK Msk Replication API
+  slug: amazon-msk-replication-api
+- baseURL: http://kafka.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Msk Topics API from Amazon MSK — 2 operation(s) for msk topics.
+  name: Amazon MSK Msk Topics API
+  slug: amazon-msk-topics-api
+- baseURL: http://kafka.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Msk Vpc Connection API from Amazon MSK — 2 operation(s) for msk vpc connection.
+  name: Amazon MSK Msk Vpc Connection API
+  slug: amazon-msk-vpc-connection-api
+artifact_total: 450
 collections:
 - collection_type: postman
   name: Managed Streaming for Kafka Clusters API
@@ -95,9 +122,6 @@ collections:
 - collection_type: postman
   name: Managed Streaming for Kafka Clusters Tags API
   slug: postman-amazon-msk-tags-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Managed Streaming for Kafka Clusters API
   slug: open-amazon-msk-clusters-api
@@ -120,18 +144,23 @@ collections:
   name: Amazon MSK API
   slug: open-openapi
 common:
+- group: other
+  href: https://artifacts.apis.io/amazon-msk/capabilities/amazon-msk-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-msk-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/plans/amazon-msk-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-msk/plans/amazon-msk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-msk-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/rate-limits/amazon-msk-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-msk/rate-limits/amazon-msk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-msk-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/finops/amazon-msk-finops.yml
+  href: https://artifacts.apis.io/amazon-msk/finops/amazon-msk-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-msk-finops.yml
@@ -152,27 +181,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-msk/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/agentic-access/amazon-msk-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-msk/agentic-access/amazon-msk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-msk-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/security/amazon-msk-trust-center.yml
+  href: https://artifacts.apis.io/amazon-msk/security/amazon-msk-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-msk-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/security/amazon-msk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-msk/security/amazon-msk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-msk-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/security/amazon-msk-domain-security.yml
+  href: https://artifacts.apis.io/amazon-msk/security/amazon-msk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-msk-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/authentication/amazon-msk-authentication.yml
+  href: https://artifacts.apis.io/amazon-msk/authentication/amazon-msk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-msk-authentication.yml
@@ -221,12 +250,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/rules/amazon-msk-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-msk/rules/amazon-msk-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-msk-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/vocabulary/amazon-msk-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-msk/vocabulary/amazon-msk-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-msk-vocabulary.yaml
@@ -652,13 +681,13 @@ features:
 - description: Manage and enforce schemas for Kafka topics with AWS Glue Schema Registry integration.
   name: Schema Registry
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Msk Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: gb
+  service_category: ''
   slug: amazon-msk-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-msk.png
 json_schemas:
 - name: BatchAssociateScramSecretRequest
@@ -1482,18 +1511,18 @@ modified: '2026-09-16'
 name: Amazon MSK
 nav: Providers
 network: true
-overview: 'Amazon MSK publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clusters API, Compatible Kafka Versions API, Configurations API, and 3 more. Tagged areas include Streaming, Kafka, Apache Kafka, Event Streaming, and Data Pipeline.
+overview: 'Amazon MSK publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Clusters API, Compatible Kafka Versions API, Configurations API, and 8 more. Tagged areas include Streaming, Kafka, Apache Kafka, Event Streaming, and Data Pipeline.
 
 
   The Amazon MSK catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MSK''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
+  Amazon MSK''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
 plans:
 - name: Amazon Msk Plans Pricing
-  plan_count: 3
+  plan_count: 20
   slug: amazon-msk-plans-pricing
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Msk Rate Limits
@@ -1524,43 +1553,49 @@ rules:
   slug: amazon-msk-spectral-rules
 score:
   band: strong
-  composite: 57.0
+  composite: 64.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 63.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    artifact_dirs: 22
+    catalog_earned: 75.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 65.4
+    contract_quality: 59.5
     developer_ergonomics: 64.8
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 58.5
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 6
+      marker_coverage: 45.5
+      total: 11
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/screenshots/amazon-msk-2026-06-20T171749.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-msk/amazon-msk-2026-06-20T171749.png
 security:
 - kind: authentication
   name: Amazon Msk Authentication

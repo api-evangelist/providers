@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,52 +25,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xage/refs/heads/main/security/xage-domain-security.yml
+  href: https://artifacts.apis.io/xage/security/xage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xage-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xage/refs/heads/main/well-known/xage-well-known.yml
+  href: https://artifacts.apis.io/xage/well-known/xage-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/xage-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xage/refs/heads/main/mcp/xage-mcp.yml
+  href: https://artifacts.apis.io/xage/mcp/xage-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/xage-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xage/refs/heads/main/llms/xage-llms.txt
+  href: https://artifacts.apis.io/xage/llms/xage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xage-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xage/refs/heads/main/authentication/xage-authentication.yml
+  href: https://artifacts.apis.io/xage/authentication/xage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/xage-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xage/refs/heads/main/scopes/xage-scopes.yml
+  href: https://artifacts.apis.io/xage/scopes/xage-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/xage-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xage/refs/heads/main/conformance/xage-conformance.yml
+  href: https://artifacts.apis.io/xage/conformance/xage-conformance.yml
   title: ''
   type: Conformance
   url: conformance/xage-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/xage/refs/heads/main/plans/xage-plans-pricing.yml
+  href: https://artifacts.apis.io/xage/plans/xage-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/xage-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/xage/refs/heads/main/rate-limits/xage-rate-limits.yml
+  href: https://artifacts.apis.io/xage/rate-limits/xage-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/xage-rate-limits.yml
@@ -140,7 +142,7 @@ plans:
 - name: Xage Plans Pricing
   plan_count: 0
   slug: xage-plans-pricing
-random_paper: 3
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Xage Rate Limits
@@ -152,7 +154,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: emerging
-  composite: 15.6
+  composite: 15.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 27.0
@@ -166,9 +168,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 52.5
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 15.6
+  previous_composite: 15.4
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -178,8 +180,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 9
 apis:
 - description: 'Public register of the federally regulated financial institutions OSFI supervises, including every federally regulated insurer with its Authorized Insurance Classes, FI industry group, trade name and '
@@ -66,10 +68,10 @@ apis:
 - description: Publicly disclosable regulatory returns filed by federally regulated cooperative retail associations — M4 Consolidated Balance Sheet, BA BASEL III Capital Adequacy Reporting (BCAR), E3 Return of Allow
   name: OSFI Retail Associations Financial Data
   slug: osfi-retail-associations-financial-data
-artifact_total: 32
+artifact_total: 36
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/security/osfi-domain-security.yml
+  href: https://artifacts.apis.io/osfi/security/osfi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/osfi-domain-security.yml
@@ -154,167 +156,167 @@ common:
   type: Glossary
   url: https://www.osfi-bsif.gc.ca/en/data-forms/reporting-returns/filing-financial-returns/glossary-terms
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/vocabulary/osfi-vocabulary.yml
+  href: https://artifacts.apis.io/osfi/vocabulary/osfi-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/osfi-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/conventions/osfi-conventions.yml
+  href: https://artifacts.apis.io/osfi/conventions/osfi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/osfi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/errors/osfi-problem-types.yml
+  href: https://artifacts.apis.io/osfi/errors/osfi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/osfi-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/authentication/osfi-authentication.yml
+  href: https://artifacts.apis.io/osfi/authentication/osfi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/osfi-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/lifecycle/osfi-lifecycle.yml
+  href: https://artifacts.apis.io/osfi/lifecycle/osfi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/osfi-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/changelog/osfi-changelog.yml
+  href: https://artifacts.apis.io/osfi/changelog/osfi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/osfi-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/conformance/osfi-conformance.yml
+  href: https://artifacts.apis.io/osfi/conformance/osfi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/osfi-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/packages/osfi-packages.yml
+  href: https://artifacts.apis.io/osfi/packages/osfi-packages.yml
   title: ''
   type: Packages
   url: packages/osfi-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/data-model/osfi-data-model.yml
+  href: https://artifacts.apis.io/osfi/data-model/osfi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/osfi-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/mcp/osfi-mcp.yml
+  href: https://artifacts.apis.io/osfi/mcp/osfi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/osfi-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/osfi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/llms/osfi-llms.txt
+  href: https://artifacts.apis.io/osfi/llms/osfi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/osfi-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/rate-limits/osfi-rate-limits.yml
+  href: https://artifacts.apis.io/osfi/rate-limits/osfi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/osfi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/plans/osfi-plans-pricing.yml
+  href: https://artifacts.apis.io/osfi/plans/osfi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/osfi-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/json-ld/osfi-banks.jsonld
+  href: https://artifacts.apis.io/osfi/json-ld/osfi-banks.jsonld
   title: ''
   type: JSONLD
   url: json-ld/osfi-banks.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/json-ld/osfi-foreign-bank-branches.jsonld
+  href: https://artifacts.apis.io/osfi/json-ld/osfi-foreign-bank-branches.jsonld
   title: ''
   type: JSONLD
   url: json-ld/osfi-foreign-bank-branches.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/json-ld/osfi-fraternal-benefit-societies.jsonld
+  href: https://artifacts.apis.io/osfi/json-ld/osfi-fraternal-benefit-societies.jsonld
   title: ''
   type: JSONLD
   url: json-ld/osfi-fraternal-benefit-societies.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/json-ld/osfi-life-insurance.jsonld
+  href: https://artifacts.apis.io/osfi/json-ld/osfi-life-insurance.jsonld
   title: ''
   type: JSONLD
   url: json-ld/osfi-life-insurance.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/json-ld/osfi-loan-companies.jsonld
+  href: https://artifacts.apis.io/osfi/json-ld/osfi-loan-companies.jsonld
   title: ''
   type: JSONLD
   url: json-ld/osfi-loan-companies.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/json-ld/osfi-property-casualty.jsonld
+  href: https://artifacts.apis.io/osfi/json-ld/osfi-property-casualty.jsonld
   title: ''
   type: JSONLD
   url: json-ld/osfi-property-casualty.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/json-ld/osfi-retail-associations.jsonld
+  href: https://artifacts.apis.io/osfi/json-ld/osfi-retail-associations.jsonld
   title: ''
   type: JSONLD
   url: json-ld/osfi-retail-associations.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/json-ld/osfi-trust-companies.jsonld
+  href: https://artifacts.apis.io/osfi/json-ld/osfi-trust-companies.jsonld
   title: ''
   type: JSONLD
   url: json-ld/osfi-trust-companies.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/json-ld/osfi-who-we-regulate.jsonld
+  href: https://artifacts.apis.io/osfi/json-ld/osfi-who-we-regulate.jsonld
   title: ''
   type: JSONLD
   url: json-ld/osfi-who-we-regulate.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/json-schema/osfi-financial-return-datapoint-monthly.json
+  href: https://artifacts.apis.io/osfi/json-schema/osfi-financial-return-datapoint-monthly.json
   title: ''
   type: JSONSchema
   url: json-schema/osfi-financial-return-datapoint-monthly.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/json-schema/osfi-financial-return-datapoint.json
+  href: https://artifacts.apis.io/osfi/json-schema/osfi-financial-return-datapoint.json
   title: ''
   type: JSONSchema
   url: json-schema/osfi-financial-return-datapoint.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/json-schema/osfi-who-we-regulate-financial-institutions.json
+  href: https://artifacts.apis.io/osfi/json-schema/osfi-who-we-regulate-financial-institutions.json
   title: ''
   type: JSONSchema
   url: json-schema/osfi-who-we-regulate-financial-institutions.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/json-schema/osfi-who-we-regulate-private-pension-plans.json
+  href: https://artifacts.apis.io/osfi/json-schema/osfi-who-we-regulate-private-pension-plans.json
   title: ''
   type: JSONSchema
   url: json-schema/osfi-who-we-regulate-private-pension-plans.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/examples/osfi-datastore-search-banks-bcar-example.json
+  href: https://artifacts.apis.io/osfi/examples/osfi-datastore-search-banks-bcar-example.json
   title: ''
   type: Examples
   url: examples/osfi-datastore-search-banks-bcar-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/examples/osfi-datastore-search-life-lf1-example.json
+  href: https://artifacts.apis.io/osfi/examples/osfi-datastore-search-life-lf1-example.json
   title: ''
   type: Examples
   url: examples/osfi-datastore-search-life-lf1-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/examples/osfi-datastore-search-not-found-example.json
+  href: https://artifacts.apis.io/osfi/examples/osfi-datastore-search-not-found-example.json
   title: ''
   type: Examples
   url: examples/osfi-datastore-search-not-found-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/examples/osfi-datastore-search-pc1-example.json
+  href: https://artifacts.apis.io/osfi/examples/osfi-datastore-search-pc1-example.json
   title: ''
   type: Examples
   url: examples/osfi-datastore-search-pc1-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/examples/osfi-datastore-search-who-we-regulate-example.json
+  href: https://artifacts.apis.io/osfi/examples/osfi-datastore-search-who-we-regulate-example.json
   title: ''
   type: Examples
   url: examples/osfi-datastore-search-who-we-regulate-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/examples/osfi-package-search-example.json
+  href: https://artifacts.apis.io/osfi/examples/osfi-package-search-example.json
   title: ''
   type: Examples
   url: examples/osfi-package-search-example.json
@@ -340,6 +342,14 @@ examples:
 - key_count: 5
   name: Osfi Package Search Example
   slug: osfi-package-search-example
+finops:
+- has_sources: true
+  method: derived
+  name: Osfi Finops
+  primary_unit: ''
+  service_category: ''
+  slug: osfi-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 json_schemas:
 - name: OSFI FINDAT regulatory-return data point (calendar-month return series)
@@ -407,16 +417,16 @@ plans:
 - name: Osfi Plans Pricing
   plan_count: 1
   slug: osfi-plans-pricing
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Osfi Rate Limits
   slug: osfi-rate-limits
 score:
   band: developing
-  composite: 45.6
+  composite: 45.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 79.0
     catalog_earned_first_party: 25.0
     catalog_gap: 36.0
@@ -428,7 +438,7 @@ score:
     contract_governance: 33.3
     contract_quality: 25.2
     developer_ergonomics: 56.5
-    discoverability: 79.5
+    discoverability: 73.2
     operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -437,7 +447,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 45.6
+  previous_composite: 45.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -448,14 +458,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/osfi/refs/heads/main/screenshots/osfi-2026-08-07T191000.png
+screenshot: https://apis.io/screenshots/osfi/osfi-2026-08-07T191000.png
 security:
 - kind: authentication
   name: Osfi Authentication
@@ -465,6 +475,14 @@ security:
   name: Osfi Domain Security
   slug: osfi-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Discover what OSFI publishes machine-readably
+  slug: osfi-discover-osfi-data-surface
+- name: Look up a federally regulated financial institution
+  slug: osfi-look-up-a-regulated-institution
+- name: Pull an OSFI regulatory return series
+  slug: osfi-pull-a-regulatory-return-series
 slug: osfi
 tags:
 - Insurance

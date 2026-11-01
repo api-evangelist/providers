@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,12 +75,12 @@ common:
   type: PrivacyPolicy
   url: https://www.basepowercompany.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/base-power/refs/heads/main/llms/base-power-llms.txt
+  href: https://artifacts.apis.io/base-power/llms/base-power-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/base-power-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/base-power/refs/heads/main/security/base-power-domain-security.yml
+  href: https://artifacts.apis.io/base-power/security/base-power-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/base-power-domain-security.yml
@@ -95,12 +97,12 @@ overview: 'Base Power is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Base Power''s developer surface includes engineering blog, support, pricing, signup flow, and 7 more developer resources.'
-random_paper: 1
+random_paper: 5
 score:
   band: emerging
-  composite: 15.6
+  composite: 14.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -112,23 +114,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 15.6
+  previous_composite: 14.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/base-power/refs/heads/main/screenshots/base-power-2026-07-25T202417.png
+screenshot: https://apis.io/screenshots/base-power/base-power-2026-07-25T202417.png
 security:
 - kind: domain-security
   name: Base Power Domain Security

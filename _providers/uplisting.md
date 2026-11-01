@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 37.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -90,11 +91,8 @@ apis:
   description: Endpoints that receive booking change events.
   name: Uplisting Webhooks API
   slug: uplisting-webhooks-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Uplisting Public and Partner Account API
   slug: open-uplisting-account-api
@@ -126,18 +124,23 @@ collections:
   name: Uplisting Public and Partner API
   slug: open-uplisting
 common:
+- group: other
+  href: https://artifacts.apis.io/uplisting/capabilities/uplisting-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/uplisting-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/agentic-access/uplisting-agentic-access.yml
+  href: https://artifacts.apis.io/uplisting/agentic-access/uplisting-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/uplisting-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/security/uplisting-domain-security.yml
+  href: https://artifacts.apis.io/uplisting/security/uplisting-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uplisting-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/authentication/uplisting-authentication.yml
+  href: https://artifacts.apis.io/uplisting/authentication/uplisting-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uplisting-authentication.yml
@@ -158,17 +161,17 @@ common:
   type: Documentation
   url: https://support.uplisting.io/docs/api
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/plans/uplisting-plans-pricing.yml
+  href: https://artifacts.apis.io/uplisting/plans/uplisting-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/uplisting-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/rate-limits/uplisting-rate-limits.yml
+  href: https://artifacts.apis.io/uplisting/rate-limits/uplisting-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/uplisting-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/finops/uplisting-finops.yml
+  href: https://artifacts.apis.io/uplisting/finops/uplisting-finops.yml
   title: ''
   type: FinOps
   url: finops/uplisting-finops.yml
@@ -195,35 +198,35 @@ network: true
 overview: 'Uplisting publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Availability API, Bookings API, and 6 more. Tagged areas include Vacation Rentals, Short-Term Rental, Channel Manager, Property Management, and Booking.
 
 
-  Uplisting''s developer surface includes authentication, engineering blog, documentation, and 7 more developer resources.'
+  Uplisting''s developer surface includes authentication, engineering blog, documentation, and 8 more developer resources.'
 plans:
 - name: Uplisting Plans Pricing
   plan_count: 3
   slug: uplisting-plans-pricing
-random_paper: 1
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Uplisting Rate Limits
   slug: uplisting-rate-limits
 score:
   band: emerging
-  composite: 23.7
+  composite: 26.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 44.8
-    developer_ergonomics: 21.4
-    discoverability: 68.3
+    developer_ergonomics: 31.0
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 32.0
+  previous_composite: 26.1
   provenance:
     agentic_access: derived
     contracts:
@@ -238,13 +241,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/screenshots/uplisting-2026-09-02T165042.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/uplisting/uplisting-2026-09-02T165042.png
 security:
 - kind: authentication
   name: Uplisting Authentication

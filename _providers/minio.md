@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: S3-compatible object storage REST API implementing Amazon S3 bucket and object operations (put/get/list/delete objects, multipart uploads, versioning, object locking, lifecycle, replication), authenti
@@ -44,12 +46,17 @@ apis:
 - description: 'Administrative API (madmin) for managing MinIO/AIStor clusters: users, groups, canned and IAM policies, service accounts, healing, cluster info, configuration, and service restart.'
   name: MinIO Admin API
   slug: minio-admin-api
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Minio Bucket Notifications Webhooks
   slug: minio-bucket-notifications-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/minio/plans/minio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/minio-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -59,7 +66,7 @@ common:
   type: Website
   url: https://www.min.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/security/minio-trust-center.yml
+  href: https://artifacts.apis.io/minio/security/minio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/minio-trust-center.yml
@@ -100,87 +107,87 @@ common:
   type: SignUp
   url: https://subnet.min.io/login
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/packages/minio-packages.yml
+  href: https://artifacts.apis.io/minio/packages/minio-packages.yml
   title: ''
   type: Packages
   url: packages/minio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/packages/minio-packages.yml
+  href: https://artifacts.apis.io/minio/packages/minio-packages.yml
   title: ''
   type: SDKs
   url: packages/minio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/cli/minio-cli.yml
+  href: https://artifacts.apis.io/minio/cli/minio-cli.yml
   title: ''
   type: CLI
   url: cli/minio-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/mcp/minio-mcp.yml
+  href: https://artifacts.apis.io/minio/mcp/minio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/minio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/llms/minio-llms.txt
+  href: https://artifacts.apis.io/minio/llms/minio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/minio-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/well-known/minio-well-known.yml
+  href: https://artifacts.apis.io/minio/well-known/minio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/minio-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/authentication/minio-authentication.yml
+  href: https://artifacts.apis.io/minio/authentication/minio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/minio-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/conventions/minio-conventions.yml
+  href: https://artifacts.apis.io/minio/conventions/minio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/minio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/conformance/minio-conformance.yml
+  href: https://artifacts.apis.io/minio/conformance/minio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/minio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/errors/minio-error-codes.yml
+  href: https://artifacts.apis.io/minio/errors/minio-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/minio-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/lifecycle/minio-lifecycle.yml
+  href: https://artifacts.apis.io/minio/lifecycle/minio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/minio-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/changelog/minio-changelog.yml
+  href: https://artifacts.apis.io/minio/changelog/minio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/minio-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/sandbox/minio-sandbox.yml
+  href: https://artifacts.apis.io/minio/sandbox/minio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/minio-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/security/minio-domain-security.yml
+  href: https://artifacts.apis.io/minio/security/minio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/minio-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/security/minio-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/minio/security/minio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/minio-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/security/minio-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/minio/security/minio-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/minio-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/security/minio-trust-center.yml
+  href: https://artifacts.apis.io/minio/security/minio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/minio-trust-center.yml
@@ -189,7 +196,7 @@ common:
   type: Compliance
   url: https://trust.min.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/asyncapi/minio-bucket-notifications-webhooks.yml
+  href: https://artifacts.apis.io/minio/asyncapi/minio-bucket-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/minio-bucket-notifications-webhooks.yml
@@ -203,6 +210,14 @@ common:
   url: https://www.min.io/legal/privacy-policy
 created: '2026-07-17'
 description: MinIO is a high-performance, S3-compatible object storage system built for large-scale AI, analytics, and cloud-native data infrastructure. Its API is a drop-in implementation of the Amazon S3 REST API (bucket and object operations, multipart uploads, versioning, object locking / WORM retention, lifecycle policies, replication, and encryption), authenticated with AWS Signature Version 4 using access-key/secret-key pairs. Alongside the S3 data API, MinIO ships an Admin API (madmin) for cluster, user, policy, and service management. It is distributed as open-source software and as the commercial AIStor product, deployed on Kubernetes via an operator and Helm charts, and driven through first-party SDKs for Go, Python, Java, JavaScript, .NET, C++, and Rust plus the `mc` command-line client.
+finops:
+- has_sources: true
+  method: derived
+  name: Minio Finops
+  primary_unit: ''
+  service_category: ''
+  slug: minio-finops
+  template: true
 image: https://github.com/minio.png
 layout: provider
 mcp_servers:
@@ -219,27 +234,31 @@ overview: 'MinIO is listed with 2 APIs on the [APIs.io](https://apis.io/) networ
   The MinIO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MinIO''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, support, signup flow, and 26 more developer resources.'
+  MinIO''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, support, signup flow, and 27 more developer resources.'
+plans:
+- name: Minio Plans Pricing
+  plan_count: 4
+  slug: minio-plans-pricing
 random_paper: 12
 score:
-  band: developing
-  composite: 51.0
+  band: strong
+  composite: 60.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.3
   facets:
-    access_clarity: 47.4
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 71.4
-    discoverability: 75.0
-    operational_transparency: 36.8
-  previous_composite: 50.9
+    developer_ergonomics: 78.6
+    discoverability: 65.0
+    operational_transparency: 39.5
+  previous_composite: 54.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -249,14 +268,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/minio/refs/heads/main/screenshots/minio-2026-08-07T172955.png
+screenshot: https://apis.io/screenshots/minio/minio-2026-08-07T172955.png
 security:
 - kind: authentication
   name: Minio Authentication

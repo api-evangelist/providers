@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 26.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.kybb.app.merklescience.com/api/v1
@@ -46,19 +48,16 @@ apis:
 artifact_total: 6
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Merkle Science KYBB (Know Your Blockchain Business) VASP Entities API
   slug: open-merkle-science-vasp-entities-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/overlays/merkle-science-kybb-overlay.yaml
+  href: https://artifacts.apis.io/merkle-science/overlays/merkle-science-kybb-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/merkle-science-kybb-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/security/merkle-science-trust-center.yml
+  href: https://artifacts.apis.io/merkle-science/security/merkle-science-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/merkle-science-trust-center.yml
@@ -67,7 +66,7 @@ common:
   type: Compliance
   url: https://trust.merklescience.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/security/merkle-science-domain-security.yml
+  href: https://artifacts.apis.io/merkle-science/security/merkle-science-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/merkle-science-domain-security.yml
@@ -92,7 +91,7 @@ common:
   type: GettingStarted
   url: https://kybb.docs.merklescience.com/reference/authentication
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/authentication/merkle-science-authentication.yml
+  href: https://artifacts.apis.io/merkle-science/authentication/merkle-science-authentication.yml
   title: ''
   type: Authentication
   url: authentication/merkle-science-authentication.yml
@@ -121,52 +120,52 @@ common:
   type: PrivacyPolicy
   url: https://www.merklescience.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/llms/merkle-science-llms.txt
+  href: https://artifacts.apis.io/merkle-science/llms/merkle-science-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/merkle-science-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/mcp/merkle-science-mcp.yml
+  href: https://artifacts.apis.io/merkle-science/mcp/merkle-science-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/merkle-science-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/merkle-science/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/conventions/merkle-science-conventions.yml
+  href: https://artifacts.apis.io/merkle-science/conventions/merkle-science-conventions.yml
   title: ''
   type: Conventions
   url: conventions/merkle-science-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/errors/merkle-science-problem-types.yml
+  href: https://artifacts.apis.io/merkle-science/errors/merkle-science-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/merkle-science-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/lifecycle/merkle-science-lifecycle.yml
+  href: https://artifacts.apis.io/merkle-science/lifecycle/merkle-science-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/merkle-science-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/conformance/merkle-science-conformance.yml
+  href: https://artifacts.apis.io/merkle-science/conformance/merkle-science-conformance.yml
   title: ''
   type: Conformance
   url: conformance/merkle-science-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/sandbox/merkle-science-sandbox.yml
+  href: https://artifacts.apis.io/merkle-science/sandbox/merkle-science-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/merkle-science-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/data-model/merkle-science-data-model.yml
+  href: https://artifacts.apis.io/merkle-science/data-model/merkle-science-data-model.yml
   title: ''
   type: DataModel
   url: data-model/merkle-science-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/well-known/merkle-science-well-known.yml
+  href: https://artifacts.apis.io/merkle-science/well-known/merkle-science-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/merkle-science-well-known.yml
@@ -182,26 +181,26 @@ overview: 'Merkle Science publishes 1 API contract indexed on the [APIs.io](http
 
 
   Merkle Science''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, sandbox, and 19 more developer resources.'
-random_paper: 7
+random_paper: 23
 score:
   band: developing
-  composite: 41.2
+  composite: 46.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 53.9
-    developer_ergonomics: 47.0
+    developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 41.1
+    operational_transparency: 5.3
+  previous_composite: 46.7
   provenance:
     conformance: derived
     contracts:
@@ -217,14 +216,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/screenshots/merkle-science-2026-08-07T172608.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/merkle-science/merkle-science-2026-08-07T172608.png
 security:
 - kind: authentication
   name: Merkle Science Authentication
@@ -238,6 +237,10 @@ security:
   name: Merkle Science Trust Center
   slug: merkle-science-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 1
+skills:
+- name: Screen a VASP for counterparty due diligence
+  slug: merkle-science-vasp-due-diligence
 slug: merkle-science
 tags:
 - Company

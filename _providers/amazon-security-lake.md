@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 26.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 13
   slug: amazon-security-lake-agentic-access
   summary_line: 13 operations · 8 acting
-api_count: 3
+api_count: 5
 apis:
 - baseURL: https://securitylake.{region}.amazonaws.com
   baseurl_source: declared
@@ -60,6 +62,16 @@ apis:
   description: Subscriber management for data access
   name: Amazon Security Lake Subscribers API
   slug: amazon-security-lake-subscribers-api
+- baseURL: https://securitylake.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Security Lake Notification API from Amazon Security Lake — 1 operation(s) for security lake notification.
+  name: Amazon Security Lake Security Lake Notification API
+  slug: amazon-security-lake-notification-api
+- baseURL: https://securitylake.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Security Lake Tags API from Amazon Security Lake — 1 operation(s) for security lake tags.
+  name: Amazon Security Lake Security Lake Tags API
+  slug: amazon-security-lake-tags-api
 arazzos:
 - description: Resolve a data lake, update its configuration, then delete its configuration object.
   name: Amazon Security Lake Decommission Data Lake
@@ -82,14 +94,11 @@ arazzos:
 - description: Find a subscriber by name, confirm it, and update its name and description.
   name: Amazon Security Lake Rename Subscriber
   slug: amazon-security-lake-rename-subscriber-workflow
-artifact_total: 50
+artifact_total: 51
 collections:
 - collection_type: postman
   name: Amazon Security Lake API
   slug: postman-amazon-security-lake
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Security Lake Data Lakes API
   slug: open-amazon-security-lake-data-lakes-api
@@ -104,17 +113,17 @@ collections:
   slug: open-amazon-security-lake
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/plans/amazon-security-lake-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-security-lake/plans/amazon-security-lake-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-security-lake-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/rate-limits/amazon-security-lake-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-security-lake/rate-limits/amazon-security-lake-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-security-lake-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/finops/amazon-security-lake-finops.yml
+  href: https://artifacts.apis.io/amazon-security-lake/finops/amazon-security-lake-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-security-lake-finops.yml
@@ -123,27 +132,27 @@ common:
   type: Website
   url: https://aws.amazon.com/security-lake/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/agentic-access/amazon-security-lake-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-security-lake/agentic-access/amazon-security-lake-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-security-lake-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/security/amazon-security-lake-trust-center.yml
+  href: https://artifacts.apis.io/amazon-security-lake/security/amazon-security-lake-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-security-lake-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/security/amazon-security-lake-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-security-lake/security/amazon-security-lake-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-security-lake-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/security/amazon-security-lake-domain-security.yml
+  href: https://artifacts.apis.io/amazon-security-lake/security/amazon-security-lake-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-security-lake-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/authentication/amazon-security-lake-authentication.yml
+  href: https://artifacts.apis.io/amazon-security-lake/authentication/amazon-security-lake-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-security-lake-authentication.yml
@@ -152,37 +161,37 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-security-lake/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/arazzo/amazon-security-lake-decommission-data-lake-workflow.yml
+  href: https://artifacts.apis.io/amazon-security-lake/arazzo/amazon-security-lake-decommission-data-lake-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-security-lake-decommission-data-lake-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/arazzo/amazon-security-lake-offboard-subscriber-workflow.yml
+  href: https://artifacts.apis.io/amazon-security-lake/arazzo/amazon-security-lake-offboard-subscriber-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-security-lake-offboard-subscriber-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/arazzo/amazon-security-lake-onboard-aws-log-source-workflow.yml
+  href: https://artifacts.apis.io/amazon-security-lake/arazzo/amazon-security-lake-onboard-aws-log-source-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-security-lake-onboard-aws-log-source-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/arazzo/amazon-security-lake-provision-data-lake-workflow.yml
+  href: https://artifacts.apis.io/amazon-security-lake/arazzo/amazon-security-lake-provision-data-lake-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-security-lake-provision-data-lake-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/arazzo/amazon-security-lake-provision-subscriber-workflow.yml
+  href: https://artifacts.apis.io/amazon-security-lake/arazzo/amazon-security-lake-provision-subscriber-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-security-lake-provision-subscriber-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/arazzo/amazon-security-lake-register-custom-source-workflow.yml
+  href: https://artifacts.apis.io/amazon-security-lake/arazzo/amazon-security-lake-register-custom-source-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-security-lake-register-custom-source-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/arazzo/amazon-security-lake-rename-subscriber-workflow.yml
+  href: https://artifacts.apis.io/amazon-security-lake/arazzo/amazon-security-lake-rename-subscriber-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-security-lake-rename-subscriber-workflow.yml
@@ -259,47 +268,47 @@ common:
   type: KnowledgeCenter
   url: https://repost.aws/knowledge-center
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/rules/amazon-security-lake-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-security-lake/rules/amazon-security-lake-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-security-lake-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/vocabulary/amazon-security-lake-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-security-lake/vocabulary/amazon-security-lake-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-security-lake-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/json-ld/amazon-security-lake-context.jsonld
+  href: https://artifacts.apis.io/amazon-security-lake/json-ld/amazon-security-lake-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-security-lake-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/json-structure/amazon-security-lake-data-lake-structure.json
+  href: https://artifacts.apis.io/amazon-security-lake/json-structure/amazon-security-lake-data-lake-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-security-lake-data-lake-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/json-structure/amazon-security-lake-log-source-structure.json
+  href: https://artifacts.apis.io/amazon-security-lake/json-structure/amazon-security-lake-log-source-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-security-lake-log-source-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/json-structure/amazon-security-lake-subscriber-structure.json
+  href: https://artifacts.apis.io/amazon-security-lake/json-structure/amazon-security-lake-subscriber-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-security-lake-subscriber-structure.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/examples/amazon-security-lake-data-lake-example.json
+  href: https://artifacts.apis.io/amazon-security-lake/examples/amazon-security-lake-data-lake-example.json
   title: ''
   type: Examples
   url: examples/amazon-security-lake-data-lake-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/examples/amazon-security-lake-log-source-example.json
+  href: https://artifacts.apis.io/amazon-security-lake/examples/amazon-security-lake-log-source-example.json
   title: ''
   type: Examples
   url: examples/amazon-security-lake-log-source-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/examples/amazon-security-lake-subscriber-example.json
+  href: https://artifacts.apis.io/amazon-security-lake/examples/amazon-security-lake-subscriber-example.json
   title: ''
   type: Examples
   url: examples/amazon-security-lake-subscriber-example.json
@@ -333,13 +342,13 @@ features:
 - description: Ingest custom and third-party security data sources in OCSF format.
   name: Custom Log Sources
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Security Lake Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: gb ingested
+  service_category: ''
   slug: amazon-security-lake-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-security-lake.png
 json_schemas:
 - name: DataLake
@@ -371,7 +380,7 @@ modified: '2026-09-16'
 name: Amazon Security Lake
 nav: Providers
 network: true
-overview: 'Amazon Security Lake is listed with 3 APIs on the [APIs.io](https://apis.io/) network: Data Lakes API, Log Sources API, and Subscribers API. Tagged areas include Data Lake, Security, SIEM, and Threat Detection.
+overview: 'Amazon Security Lake is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Data Lakes API, Log Sources API, Subscribers API, and 2 more. Tagged areas include Data Lake, Security, SIEM, and Threat Detection.
 
 
   The Amazon Security Lake catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -380,9 +389,9 @@ overview: 'Amazon Security Lake is listed with 3 APIs on the [APIs.io](https://a
   Amazon Security Lake''s developer surface includes authentication, developer portal, getting-started guide, documentation, API reference, developer console, signup flow, and 37 more developer resources.'
 plans:
 - name: Amazon Security Lake Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: amazon-security-lake-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Amazon Security Lake Rate Limits
@@ -412,44 +421,45 @@ rules:
     warn: 15
   slug: amazon-security-lake-spectral-rules
 score:
-  band: developing
-  composite: 53.6
+  band: strong
+  composite: 63.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 67.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    artifact_dirs: 21
+    catalog_earned: 79.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 2.0
   facets:
-    access_clarity: 68.4
+    access_clarity: 100.0
     contract_governance: 27.3
-    contract_quality: 32.3
+    contract_quality: 48.7
     developer_ergonomics: 65.5
     discoverability: 69.6
-    operational_transparency: 26.3
-  previous_composite: 55.1
+    operational_transparency: 39.5
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 4
-      marker_coverage: 100.0
-      total: 4
+      derived: 3
+      marker_coverage: 83.3
+      total: 6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/screenshots/amazon-security-lake-2026-06-20T171817.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-security-lake/amazon-security-lake-2026-06-20T171817.png
 security:
 - kind: authentication
   name: Amazon Security Lake Authentication

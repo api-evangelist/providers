@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.3
-  scored_at: '2026-10-17'
+  score: 25.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,120 +72,120 @@ apis:
   description: Identified-company reporting, tagged `Legacy` by TrustRadius in its own specification. GET /reports/visitor-insights/companies returns firmographics (name, SIC code, size, location, web and social han
   name: TrustRadius Legacy Visitor Insights API
   slug: trustradius-legacy-visitor-insights-api
-artifact_total: 44
+artifact_total: 49
 common:
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/_original/trustradius-api-openapi.yml
+  href: https://artifacts.apis.io/trustradius/openapi/_original/trustradius-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/trustradius-api-openapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/agentic-access/trustradius-agentic-access.yml
+  href: https://artifacts.apis.io/trustradius/agentic-access/trustradius-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trustradius-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/security/trustradius-domain-security.yml
+  href: https://artifacts.apis.io/trustradius/security/trustradius-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trustradius-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/authentication/trustradius-authentication.yml
+  href: https://artifacts.apis.io/trustradius/authentication/trustradius-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trustradius-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/conventions/trustradius-conventions.yml
+  href: https://artifacts.apis.io/trustradius/conventions/trustradius-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trustradius-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/errors/trustradius-problem-types.yml
+  href: https://artifacts.apis.io/trustradius/errors/trustradius-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trustradius-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/lifecycle/trustradius-lifecycle.yml
+  href: https://artifacts.apis.io/trustradius/lifecycle/trustradius-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trustradius-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/conformance/trustradius-conformance.yml
+  href: https://artifacts.apis.io/trustradius/conformance/trustradius-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trustradius-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/data-model/trustradius-data-model.yml
+  href: https://artifacts.apis.io/trustradius/data-model/trustradius-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trustradius-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/sandbox/trustradius-sandbox.yml
+  href: https://artifacts.apis.io/trustradius/sandbox/trustradius-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/trustradius-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/components/trustradius-components.yml
+  href: https://artifacts.apis.io/trustradius/components/trustradius-components.yml
   title: ''
   type: Components
   url: components/trustradius-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/packages/trustradius-packages.yml
+  href: https://artifacts.apis.io/trustradius/packages/trustradius-packages.yml
   title: ''
   type: Packages
   url: packages/trustradius-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/llms/trustradius-llms.txt
+  href: https://artifacts.apis.io/trustradius/llms/trustradius-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trustradius-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/trustradius/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/vocabulary/trustradius-vocabulary.yml
+  href: https://artifacts.apis.io/trustradius/vocabulary/trustradius-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/trustradius-vocabulary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/examples/trustradius-product-ids-get-example.json
+  href: https://artifacts.apis.io/trustradius/examples/trustradius-product-ids-get-example.json
   title: ''
   type: Examples
   url: examples/trustradius-product-ids-get-example.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/json-schema/trustradius-TrustQuotes.json
+  href: https://artifacts.apis.io/trustradius/json-schema/trustradius-TrustQuotes.json
   title: ''
   type: JSONSchema
   url: json-schema/trustradius-TrustQuotes.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/json-structure/trustradius-trustquote-structure.json
+  href: https://artifacts.apis.io/trustradius/json-structure/trustradius-trustquote-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/trustradius-trustquote-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/json-ld/trustradius-context.jsonld
+  href: https://artifacts.apis.io/trustradius/json-ld/trustradius-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/trustradius-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/collections/trustradius-public-api.postman_collection.json
+  href: https://artifacts.apis.io/trustradius/collections/trustradius-public-api.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/trustradius-public-api.postman_collection.json
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/plans/trustradius-plans-pricing.yml
+  href: https://artifacts.apis.io/trustradius/plans/trustradius-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trustradius-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/rate-limits/trustradius-rate-limits.yml
+  href: https://artifacts.apis.io/trustradius/rate-limits/trustradius-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trustradius-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/finops/trustradius-finops.yml
+  href: https://artifacts.apis.io/trustradius/finops/trustradius-finops.yml
   title: ''
   type: FinOps
   url: finops/trustradius-finops.yml
@@ -401,7 +403,10 @@ plans:
 - name: Trustradius Plans Pricing
   plan_count: 2
   slug: trustradius-plans-pricing
-random_paper: 16
+- name: Trustradius Price Estimates
+  plan_count: 0
+  slug: trustradius-price-estimates
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Trustradius Rate Limits
@@ -440,7 +445,7 @@ score:
     catalog_gap: 42.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 31.8
@@ -455,7 +460,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 58.0
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -472,14 +477,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/screenshots/trustradius-2026-06-20T195813.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/trustradius/trustradius-2026-06-20T195813.png
 security:
 - kind: authentication
   name: Trustradius Authentication
@@ -489,6 +494,16 @@ security:
   name: Trustradius Domain Security
   slug: trustradius-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: trustradius-pull-downstream-intent
+  slug: trustradius-pull-downstream-intent
+- name: trustradius-report-profile-traffic
+  slug: trustradius-report-profile-traffic
+- name: trustradius-resolve-product-ids
+  slug: trustradius-resolve-product-ids
+- name: trustradius-syndicate-trustquotes
+  slug: trustradius-syndicate-trustquotes
 slug: trustradius
 tags:
 - B2B Software Reviews

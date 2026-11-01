@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Merchant-facing payment API for GCash mini programs — cashier payment, payment inquiry, refund and refund inquiry, plus OAuth2 user authorization (authCode -> applyToken). Signed requests (Client-Id +
@@ -78,57 +80,57 @@ common:
   type: PrivacyPolicy
   url: https://gcash.com/privacy-notice
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/authentication/gcash-authentication.yml
+  href: https://artifacts.apis.io/gcash/authentication/gcash-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gcash-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/conventions/gcash-conventions.yml
+  href: https://artifacts.apis.io/gcash/conventions/gcash-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gcash-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/conventions/gcash-conventions.yml
+  href: https://artifacts.apis.io/gcash/conventions/gcash-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/gcash-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/errors/gcash-problem-types.yml
+  href: https://artifacts.apis.io/gcash/errors/gcash-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gcash-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/asyncapi/gcash-payments-webhooks.yml
+  href: https://artifacts.apis.io/gcash/asyncapi/gcash-payments-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/gcash-payments-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/sandbox/gcash-sandbox.yml
+  href: https://artifacts.apis.io/gcash/sandbox/gcash-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/gcash-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/mcp/gcash-mcp.yml
+  href: https://artifacts.apis.io/gcash/mcp/gcash-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gcash-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/lifecycle/gcash-lifecycle.yml
+  href: https://artifacts.apis.io/gcash/lifecycle/gcash-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gcash-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/conformance/gcash-conformance.yml
+  href: https://artifacts.apis.io/gcash/conformance/gcash-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gcash-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/well-known/gcash-well-known.yml
+  href: https://artifacts.apis.io/gcash/well-known/gcash-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gcash-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/well-known/gcash-security.txt
+  href: https://artifacts.apis.io/gcash/well-known/gcash-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/gcash-security.txt
@@ -137,12 +139,12 @@ common:
   type: Security
   url: https://gcash.com/vulnerability-disclosure-program/policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/security/gcash-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gcash/security/gcash-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gcash-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/security/gcash-domain-security.yml
+  href: https://artifacts.apis.io/gcash/security/gcash-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gcash-domain-security.yml
@@ -161,10 +163,10 @@ overview: 'GCash is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   GCash''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 12
+random_paper: 14
 score:
   band: thin
-  composite: 35.2
+  composite: 37.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -177,7 +179,7 @@ score:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 52.4
+    developer_ergonomics: 61.9
     discoverability: 66.1
     operational_transparency: 18.4
   jurisdiction:
@@ -187,7 +189,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 35.2
+  previous_composite: 37.1
   provenance:
     conformance: derived
     mcp: derived
@@ -197,14 +199,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/screenshots/gcash-2026-07-25T215519.png
+screenshot: https://apis.io/screenshots/gcash/gcash-2026-07-25T215519.png
 security:
 - kind: authentication
   name: Gcash Authentication

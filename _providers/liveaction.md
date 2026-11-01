@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -71,27 +73,27 @@ common:
   type: ChangeLog
   url: https://docs.liveaction.com/LiveNX/LiveNX%2025.2.0%20New%20Features/LiveNX%2025.2.0%20New%20Features.1.01
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liveaction/refs/heads/main/authentication/liveaction-authentication.yml
+  href: https://artifacts.apis.io/liveaction/authentication/liveaction-authentication.yml
   title: ''
   type: Authentication
   url: authentication/liveaction-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liveaction/refs/heads/main/security/liveaction-domain-security.yml
+  href: https://artifacts.apis.io/liveaction/security/liveaction-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/liveaction-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/liveaction/refs/heads/main/conventions/liveaction-conventions.yml
+  href: https://artifacts.apis.io/liveaction/conventions/liveaction-conventions.yml
   title: ''
   type: Conventions
   url: conventions/liveaction-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/liveaction/refs/heads/main/changelog/liveaction-changelog.yml
+  href: https://artifacts.apis.io/liveaction/changelog/liveaction-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/liveaction-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liveaction/refs/heads/main/llms/liveaction-llms.txt
+  href: https://artifacts.apis.io/liveaction/llms/liveaction-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/liveaction-llms.txt
@@ -110,37 +112,37 @@ overview: 'LiveAction is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 14
 score:
   band: emerging
-  composite: 16.8
+  composite: 19.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 55.4
+    developer_ergonomics: 28.6
+    discoverability: 48.2
     operational_transparency: 15.8
-  previous_composite: 16.7
+  previous_composite: 19.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/liveaction/refs/heads/main/screenshots/liveaction-2026-07-25T225348.png
+screenshot: https://apis.io/screenshots/liveaction/liveaction-2026-07-25T225348.png
 security:
 - kind: authentication
   name: Liveaction Authentication

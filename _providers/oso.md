@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 20
   slug: oso-agentic-access
   summary_line: 20 operations · 18 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.osohq.com/api
   baseurl_source: declared
@@ -65,11 +67,8 @@ apis:
   description: The Policy API from Oso Cloud — 2 operation(s) for policy.
   name: Oso Cloud Policy API
   slug: oso-policy-api
-artifact_total: 71
+artifact_total: 70
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Oso Cloud HTTP Centralized Authorization Data API
   slug: open-oso-centralized-authorization-data-api
@@ -84,27 +83,27 @@ collections:
   slug: open-oso-policy-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/capabilities/oso-capability-edges.yml
+  href: https://artifacts.apis.io/oso/capabilities/oso-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/oso-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/agentic-access/oso-agentic-access.yml
+  href: https://artifacts.apis.io/oso/agentic-access/oso-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/oso-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/security/oso-trust-center.yml
+  href: https://artifacts.apis.io/oso/security/oso-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/oso-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/security/oso-domain-security.yml
+  href: https://artifacts.apis.io/oso/security/oso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oso-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/authentication/oso-authentication.yml
+  href: https://artifacts.apis.io/oso/authentication/oso-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oso-authentication.yml
@@ -145,17 +144,17 @@ common:
   type: ChangeLog
   url: https://www.osohq.com/docs/changelog/whats-new
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/plans/oso-plans-pricing.yml
+  href: https://artifacts.apis.io/oso/plans/oso-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/oso-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/rate-limits/oso-rate-limits.yml
+  href: https://artifacts.apis.io/oso/rate-limits/oso-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/oso-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/finops/oso-finops.yml
+  href: https://artifacts.apis.io/oso/finops/oso-finops.yml
   title: ''
   type: FinOps
   url: finops/oso-finops.yml
@@ -352,7 +351,7 @@ plans:
 - name: Oso Plans Pricing
   plan_count: 4
   slug: oso-plans-pricing
-random_paper: 7
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Oso Rate Limits
@@ -371,7 +370,7 @@ rules:
   slug: oso-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.4
+  composite: 37.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 54.3
@@ -379,15 +378,15 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 51.7
-    developer_ergonomics: 11.9
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 44.7
-  previous_composite: 42.7
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -401,13 +400,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/screenshots/oso-2026-06-20T191220.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/oso/oso-2026-06-20T191220.png
 security:
 - kind: authentication
   name: Oso Authentication

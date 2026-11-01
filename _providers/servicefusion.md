@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -89,11 +91,8 @@ apis:
   description: Technicians and users the work is assigned to.
   name: Service Fusion Techs and Users API
   slug: servicefusion-techs-and-users-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Service Fusion Open Calendar Tasks API
   slug: open-servicefusion-calendar-tasks-api
@@ -126,27 +125,27 @@ collections:
   slug: open-servicefusion
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/capabilities/servicefusion-capability-edges.yml
+  href: https://artifacts.apis.io/servicefusion/capabilities/servicefusion-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/servicefusion-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/agentic-access/servicefusion-agentic-access.yml
+  href: https://artifacts.apis.io/servicefusion/agentic-access/servicefusion-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/servicefusion-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/security/servicefusion-domain-security.yml
+  href: https://artifacts.apis.io/servicefusion/security/servicefusion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/servicefusion-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/authentication/servicefusion-authentication.yml
+  href: https://artifacts.apis.io/servicefusion/authentication/servicefusion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/servicefusion-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/scopes/servicefusion-scopes.yml
+  href: https://artifacts.apis.io/servicefusion/scopes/servicefusion-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/servicefusion-scopes.yml
@@ -163,17 +162,17 @@ common:
   type: Documentation
   url: https://docs.servicefusion.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/plans/servicefusion-plans-pricing.yml
+  href: https://artifacts.apis.io/servicefusion/plans/servicefusion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/servicefusion-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/rate-limits/servicefusion-rate-limits.yml
+  href: https://artifacts.apis.io/servicefusion/rate-limits/servicefusion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/servicefusion-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/finops/servicefusion-finops.yml
+  href: https://artifacts.apis.io/servicefusion/finops/servicefusion-finops.yml
   title: ''
   type: FinOps
   url: finops/servicefusion-finops.yml
@@ -197,7 +196,7 @@ modified: '2026-07-03'
 name: Service Fusion
 nav: Providers
 network: true
-overview: 'Service Fusion publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calendar Tasks API, Contacts API, Customers API, and 6 more. Tagged areas include Field Service, Home Services, Contractors, Scheduling, and Dispatch.
+overview: 'Service Fusion publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calendar Tasks API, Contacts API, Customers API, and 6 more. Tagged areas include Field Service Management, Home Services, Contractors, Scheduling, and Dispatch.
 
 
   Service Fusion''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -205,7 +204,7 @@ plans:
 - name: Servicefusion Plans Pricing
   plan_count: 3
   slug: servicefusion-plans-pricing
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Servicefusion Rate Limits
@@ -217,7 +216,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 28.3
+  composite: 29.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 43.0
@@ -225,7 +224,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -233,7 +232,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 36.5
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     contracts:
@@ -247,13 +246,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/screenshots/servicefusion-2026-09-02T155002.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/servicefusion/servicefusion-2026-09-02T155002.png
 security:
 - kind: authentication
   name: Servicefusion Authentication
@@ -265,7 +265,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: servicefusion
 tags:
-- Field Service
+- Field Service Management
 - Home Services
 - Contractors
 - Scheduling

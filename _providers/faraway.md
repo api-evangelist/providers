@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Faraway Platform API surfaces the developer platform behind Faraway''s interoperable gaming ecosystem. Its API reference (login-gated) and llms.txt index are published at docs.faraway.com; the API '
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/faraway/refs/heads/main/security/faraway-domain-security.yml
+  href: https://artifacts.apis.io/faraway/security/faraway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/faraway-domain-security.yml
@@ -82,7 +84,7 @@ common:
   type: PrivacyPolicy
   url: https://faraway.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/faraway/refs/heads/main/llms/faraway-llms.txt
+  href: https://artifacts.apis.io/faraway/llms/faraway-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/faraway-llms.txt
@@ -98,12 +100,12 @@ overview: 'Faraway is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Faraway''s developer surface includes documentation, API reference, signup flow, support, and 7 more developer resources.'
-random_paper: 21
+random_paper: 3
 score:
   band: emerging
-  composite: 17.5
+  composite: 19.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -114,24 +116,24 @@ score:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 17.9
-    discoverability: 73.2
+    developer_ergonomics: 31.0
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 17.5
+  previous_composite: 19.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/faraway/refs/heads/main/screenshots/faraway-2026-07-25T214245.png
+screenshot: https://apis.io/screenshots/faraway/faraway-2026-07-25T214245.png
 security:
 - kind: domain-security
   name: Faraway Domain Security

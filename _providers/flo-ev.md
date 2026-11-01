@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,51 +35,51 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The only live, anonymously callable machine-readable surface in FLO's estate. FLO's hardware and accessories store runs on Shopify, and that platform serves a Model Context Protocol server at https://
   name: FLO Store (Shopify Storefront MCP)
   slug: flo-store-shopify-storefront-mcp
-artifact_total: 7
+artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flo-ev/refs/heads/main/security/flo-ev-domain-security.yml
+  href: https://artifacts.apis.io/flo-ev/security/flo-ev-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flo-ev-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flo-ev/refs/heads/main/mcp/flo-ev-mcp.yml
+  href: https://artifacts.apis.io/flo-ev/mcp/flo-ev-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/flo-ev-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flo-ev/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/flo-ev/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flo-ev/refs/heads/main/well-known/flo-ev-well-known.yml
+  href: https://artifacts.apis.io/flo-ev/well-known/flo-ev-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/flo-ev-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flo-ev/refs/heads/main/authentication/flo-ev-authentication.yml
+  href: https://artifacts.apis.io/flo-ev/authentication/flo-ev-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flo-ev-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flo-ev/refs/heads/main/scopes/flo-ev-scopes.yml
+  href: https://artifacts.apis.io/flo-ev/scopes/flo-ev-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/flo-ev-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flo-ev/refs/heads/main/errors/flo-ev-problem-types.yml
+  href: https://artifacts.apis.io/flo-ev/errors/flo-ev-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flo-ev-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flo-ev/refs/heads/main/conformance/flo-ev-conformance.yml
+  href: https://artifacts.apis.io/flo-ev/conformance/flo-ev-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flo-ev-conformance.yml
@@ -86,17 +88,17 @@ common:
   type: Compliance
   url: https://trust.flo.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flo-ev/refs/heads/main/security/flo-ev-trust-center.yml
+  href: https://artifacts.apis.io/flo-ev/security/flo-ev-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/flo-ev-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flo-ev/refs/heads/main/lifecycle/flo-ev-lifecycle.yml
+  href: https://artifacts.apis.io/flo-ev/lifecycle/flo-ev-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flo-ev-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flo-ev/refs/heads/main/llms/flo-ev-llms.txt
+  href: https://artifacts.apis.io/flo-ev/llms/flo-ev-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flo-ev-llms.txt
@@ -197,7 +199,7 @@ overview: 'FLO is listed with 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   FLO''s developer surface includes authentication, engineering blog, support, documentation, and 27 more developer resources.'
-random_paper: 13
+random_paper: 9
 rules:
 - authorship: provider
   effective_rule_count: 68
@@ -220,7 +222,7 @@ scopes:
   summary_line: 38 scopes · authorizationCode
 score:
   band: thin
-  composite: 27.9
+  composite: 30.4
   coverage:
     artifact_dirs: 15
     catalog_earned: 42.0
@@ -228,13 +230,13 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.9
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 50.0
     contract_governance: 33.3
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -243,7 +245,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 26.0
+  previous_composite: 30.4
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -253,15 +255,15 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 38.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/flo-ev/refs/heads/main/screenshots/flo-ev-2026-08-07T165350.png
+screenshot: https://apis.io/screenshots/flo-ev/flo-ev-2026-08-07T165350.png
 security:
 - kind: authentication
   name: Flo Ev Authentication
@@ -275,6 +277,10 @@ security:
   name: Flo Ev Trust Center
   slug: flo-ev-trust-center
   summary_line: SOC 2 Type 2, SOC 2 Type 1, PCI DSS
+skill_count: 1
+skills:
+- name: Shop the FLO store with MCP
+  slug: flo-ev-shop-flo-store
 slug: flo-ev
 tags:
 - Energy

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -78,11 +80,8 @@ apis:
   description: Cloud subscription lifecycle management.
   name: Synnex Subscriptions API
   slug: synnex-subscriptions-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TD SYNNEX StreamOne ION Cart API
   slug: open-synnex-cart-api
@@ -106,37 +105,37 @@ collections:
   slug: open-synnex-subscriptions-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/plans/synnex-plans-pricing.yml
+  href: https://artifacts.apis.io/synnex/plans/synnex-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/synnex-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/rate-limits/synnex-rate-limits.yml
+  href: https://artifacts.apis.io/synnex/rate-limits/synnex-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/synnex-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/finops/synnex-finops.yml
+  href: https://artifacts.apis.io/synnex/finops/synnex-finops.yml
   title: ''
   type: FinOps
   url: finops/synnex-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/capabilities/synnex-capability-edges.yml
+  href: https://artifacts.apis.io/synnex/capabilities/synnex-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/synnex-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/agentic-access/synnex-agentic-access.yml
+  href: https://artifacts.apis.io/synnex/agentic-access/synnex-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/synnex-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/security/synnex-domain-security.yml
+  href: https://artifacts.apis.io/synnex/security/synnex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/synnex-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/authentication/synnex-authentication.yml
+  href: https://artifacts.apis.io/synnex/authentication/synnex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/synnex-authentication.yml
@@ -161,12 +160,12 @@ common:
   type: GitHubOrg
   url: https://github.com/cloudmindsab/td-synnex
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/json-ld/synnex-context.jsonld
+  href: https://artifacts.apis.io/synnex/json-ld/synnex-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/synnex-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/vocabulary/synnex-vocabulary.yml
+  href: https://artifacts.apis.io/synnex/vocabulary/synnex-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/synnex-vocabulary.yml
@@ -236,7 +235,7 @@ press:
 - date: ''
   title: TD SYNNEX Evolves AI Go-to-Market Strategy Through ...
   url: https://www.thecannatareport.com/td-synnex-ai-gtm/
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Synnex Rate Limits
@@ -267,7 +266,7 @@ rules:
   slug: synnex-rules
 score:
   band: thin
-  composite: 32.9
+  composite: 33.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 56.0
@@ -275,7 +274,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
@@ -283,7 +282,7 @@ score:
     developer_ergonomics: 38.1
     discoverability: 60.7
     operational_transparency: 13.2
-  previous_composite: 34.4
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -297,13 +296,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/screenshots/synnex-2026-06-20T194829.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/synnex/synnex-2026-06-20T194829.png
 security:
 - kind: authentication
   name: Synnex Authentication

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 60
   slug: rawg-agentic-access
   summary_line: 60 operations
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://api.rawg.io/api
   baseurl_source: declared
@@ -90,11 +92,8 @@ apis:
   description: The tags API from RAWG — 2 operation(s) for tags.
   name: RAWG Tags API
   slug: rawg-tags-api
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: RAWG Video Games Database creator-roles API
   slug: open-rawg-creator-roles-api
@@ -127,37 +126,37 @@ collections:
   slug: open-rawg
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/plans/rawg-plans-pricing.yml
+  href: https://artifacts.apis.io/rawg/plans/rawg-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rawg-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/rate-limits/rawg-rate-limits.yml
+  href: https://artifacts.apis.io/rawg/rate-limits/rawg-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rawg-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/finops/rawg-finops.yml
+  href: https://artifacts.apis.io/rawg/finops/rawg-finops.yml
   title: ''
   type: FinOps
   url: finops/rawg-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/capabilities/rawg-capability-edges.yml
+  href: https://artifacts.apis.io/rawg/capabilities/rawg-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rawg-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/agentic-access/rawg-agentic-access.yml
+  href: https://artifacts.apis.io/rawg/agentic-access/rawg-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rawg-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/security/rawg-domain-security.yml
+  href: https://artifacts.apis.io/rawg/security/rawg-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rawg-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/authentication/rawg-authentication.yml
+  href: https://artifacts.apis.io/rawg/authentication/rawg-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rawg-authentication.yml
@@ -204,7 +203,7 @@ finops:
 - has_sources: false
   method: generated
   name: Rawg Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: rawg-finops
   template: true
@@ -238,7 +237,7 @@ plans:
 - name: Rawg Plans Pricing
   plan_count: 3
   slug: rawg-plans-pricing
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Rawg Rate Limits
@@ -271,21 +270,21 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 71.4
+    artifact_dirs: 19
+    catalog_earned: 68.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.6
+    catalog_gap: 46.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: -0.5
   facets:
     access_clarity: 31.6
     contract_governance: 27.3
     contract_quality: 48.7
-    developer_ergonomics: 21.4
-    discoverability: 71.4
+    developer_ergonomics: 23.8
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 36.0
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -299,14 +298,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/screenshots/rawg-2026-06-20T192612.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rawg/rawg-2026-06-20T192612.png
 security:
 - kind: authentication
   name: Rawg Authentication

@@ -12,7 +12,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.9
-  scored_at: '2026-10-17'
+  score: 55.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 164
   slug: dwolla-agentic-access
   summary_line: 164 operations · 68 acting
-api_count: 20
+api_count: 19
 apis:
 - baseURL: https://api.dwolla.com
   baseurl_source: declared
@@ -133,7 +135,7 @@ apis:
   description: Operations related to Webhooks
   name: Dwolla Webhooks API
   slug: dwolla-webhooks-api
-artifact_total: 119
+artifact_total: 125
 asyncapis:
 - description: ''
   name: Dwolla Webhooks
@@ -252,37 +254,37 @@ collections:
   slug: open-dwolla
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/scopes/dwolla-scopes.yml
+  href: https://artifacts.apis.io/dwolla/scopes/dwolla-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/dwolla-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/integrations/dwolla-integration-edges.yml
+  href: https://artifacts.apis.io/dwolla/integrations/dwolla-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/dwolla-integration-edges.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/rules/dwolla-rules.yml
+  href: https://artifacts.apis.io/dwolla/rules/dwolla-rules.yml
   title: ''
   type: Spectral
   url: rules/dwolla-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/json-ld/dwolla-context.jsonld
+  href: https://artifacts.apis.io/dwolla/json-ld/dwolla-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dwolla-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/vocabulary/dwolla-vocabulary.yml
+  href: https://artifacts.apis.io/dwolla/vocabulary/dwolla-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/dwolla-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/a2a/dwolla-a2a.yml
+  href: https://artifacts.apis.io/dwolla/a2a/dwolla-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/dwolla-a2a.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/vendors/dwolla-vendors.yml
+  href: https://artifacts.apis.io/dwolla/vendors/dwolla-vendors.yml
   title: ''
   type: Vendors
   url: vendors/dwolla-vendors.yml
@@ -299,12 +301,12 @@ common:
   type: BlogRSS
   url: https://www.dwolla.com/updates/rss.xml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/plans/dwolla-plans-pricing.yml
+  href: https://artifacts.apis.io/dwolla/plans/dwolla-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dwolla-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/capabilities/dwolla-capability-edges.yml
+  href: https://artifacts.apis.io/dwolla/capabilities/dwolla-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dwolla-capability-edges.yml
@@ -321,17 +323,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/dwolla/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/agentic-access/dwolla-agentic-access.yml
+  href: https://artifacts.apis.io/dwolla/agentic-access/dwolla-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dwolla-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/security/dwolla-domain-security.yml
+  href: https://artifacts.apis.io/dwolla/security/dwolla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dwolla-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/security/dwolla-trust-center.yml
+  href: https://artifacts.apis.io/dwolla/security/dwolla-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dwolla-trust-center.yml
@@ -396,112 +398,112 @@ common:
   type: ChangeLog
   url: https://developers.dwolla.com/docs/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/changelog/dwolla-changelog.yml
+  href: https://artifacts.apis.io/dwolla/changelog/dwolla-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dwolla-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/llms/dwolla-llms.txt
+  href: https://artifacts.apis.io/dwolla/llms/dwolla-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dwolla-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/mcp/dwolla-mcp.yml
+  href: https://artifacts.apis.io/dwolla/mcp/dwolla-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dwolla-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/mcp/dwolla-tool-crosswalk.yml
+  href: https://artifacts.apis.io/dwolla/mcp/dwolla-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/dwolla-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dwolla/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/overlays/dwolla-overlay.yaml
+  href: https://artifacts.apis.io/dwolla/overlays/dwolla-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dwolla-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/packages/dwolla-packages.yml
+  href: https://artifacts.apis.io/dwolla/packages/dwolla-packages.yml
   title: ''
   type: Packages
   url: packages/dwolla-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/packages/dwolla-packages.yml
+  href: https://artifacts.apis.io/dwolla/packages/dwolla-packages.yml
   title: ''
   type: SDKs
   url: packages/dwolla-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/authentication/dwolla-authentication.yml
+  href: https://artifacts.apis.io/dwolla/authentication/dwolla-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dwolla-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/conventions/dwolla-conventions.yml
+  href: https://artifacts.apis.io/dwolla/conventions/dwolla-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dwolla-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/conventions/dwolla-conventions.yml
+  href: https://artifacts.apis.io/dwolla/conventions/dwolla-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/dwolla-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/errors/dwolla-problem-types.yml
+  href: https://artifacts.apis.io/dwolla/errors/dwolla-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dwolla-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/errors/dwolla-decline-codes.yml
+  href: https://artifacts.apis.io/dwolla/errors/dwolla-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/dwolla-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/lifecycle/dwolla-lifecycle.yml
+  href: https://artifacts.apis.io/dwolla/lifecycle/dwolla-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dwolla-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/lifecycle/dwolla-lifecycle.yml
+  href: https://artifacts.apis.io/dwolla/lifecycle/dwolla-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/dwolla-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/sandbox/dwolla-sandbox.yml
+  href: https://artifacts.apis.io/dwolla/sandbox/dwolla-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dwolla-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/components/dwolla-components.yml
+  href: https://artifacts.apis.io/dwolla/components/dwolla-components.yml
   title: ''
   type: Components
   url: components/dwolla-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/asyncapi/dwolla-webhooks.yml
+  href: https://artifacts.apis.io/dwolla/asyncapi/dwolla-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/dwolla-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/conformance/dwolla-conformance.yml
+  href: https://artifacts.apis.io/dwolla/conformance/dwolla-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dwolla-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/data-model/dwolla-data-model.yml
+  href: https://artifacts.apis.io/dwolla/data-model/dwolla-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dwolla-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/rate-limits/dwolla-rate-limits.yml
+  href: https://artifacts.apis.io/dwolla/rate-limits/dwolla-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dwolla-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/well-known/dwolla-well-known.yml
+  href: https://artifacts.apis.io/dwolla/well-known/dwolla-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dwolla-well-known.yml
@@ -510,7 +512,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/dwolla
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/openapi/_original/dwolla-openapi.yml
+  href: https://artifacts.apis.io/dwolla/openapi/_original/dwolla-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/dwolla-openapi.yml
@@ -519,12 +521,20 @@ common:
   type: SourceCode
   url: https://github.com/Dwolla/dwolla-openapi
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/dwolla/review.yml
   title: ''
   type: Review
   url: review.yml
 created: '2026-07-17'
 description: Dwolla is a Des Moines-based fintech providing an account-to-account (A2A) payments platform that lets businesses programmatically move money across the U.S. banking system. Its v2 REST API — a JSON-HAL hypermedia API secured with OAuth 2.0 client-credentials — supports ACH (standard and Same-Day), instant/real-time payments over the RTP Network and FedNow Service, bank funding sources with micro-deposit and Open Banking (Plaid/MX) verification, verified Customers (personal and business with beneficial-owner/KYC flows), mass payments, labels and ledgers, virtual account numbers, and webhook event notifications. Dwolla ships official SDKs for Node, Python, Ruby, PHP, C#, and Kotlin, low-code Drop-in Components, and a read-only MCP server for AI agents.
+finops:
+- has_sources: true
+  method: derived
+  name: Dwolla Finops
+  primary_unit: ''
+  service_category: ''
+  slug: dwolla-finops
+  template: true
 image: https://github.com/Dwolla.png
 json_schemas:
 - name: Account
@@ -711,7 +721,7 @@ plans:
 - name: Dwolla Plans Pricing
   plan_count: 1
   slug: dwolla-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Dwolla Rate Limits
@@ -736,22 +746,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 72.9
+  composite: 73.5
   coverage:
-    artifact_dirs: 35
+    artifact_dirs: 36
     catalog_earned: 81.8
     catalog_earned_first_party: 16.0
     catalog_gap: 33.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 11.3
+  delta: 0.0
   facets:
     access_clarity: 81.6
     contract_governance: 35.6
-    contract_quality: 71.3
-    developer_ergonomics: 72.0
-    discoverability: 76.7
-    operational_transparency: 81.6
+    contract_quality: 70.4
+    developer_ergonomics: 74.4
+    discoverability: 70.0
+    operational_transparency: 84.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -759,7 +769,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 61.6
+  previous_composite: 73.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -776,13 +786,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/screenshots/dwolla-2026-07-25T212550.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dwolla/dwolla-2026-07-25T212550.png
 security:
 - kind: authentication
   name: Dwolla Authentication
@@ -796,6 +807,18 @@ security:
   name: Dwolla Trust Center
   slug: dwolla-trust-center
   summary_line: SOC 2 Type 2
+skill_count: 5
+skills:
+- name: dwolla-mass-payment-payout
+  slug: dwolla-mass-payment-payout
+- name: dwolla-onboard-business-verified-customer
+  slug: dwolla-onboard-business-verified-customer
+- name: dwolla-onboard-personal-verified-customer
+  slug: dwolla-onboard-personal-verified-customer
+- name: dwolla-send-ach-transfer
+  slug: dwolla-send-ach-transfer
+- name: dwolla-subscribe-webhooks
+  slug: dwolla-subscribe-webhooks
 slug: dwolla
 tags:
 - Payments

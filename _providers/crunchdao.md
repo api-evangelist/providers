@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.8
-  scored_at: '2026-10-17'
+  score: 19.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -394,11 +396,8 @@ apis:
   description: The zzz-webhook API from CrunchDAO — 1 operation(s) for zzz-webhook.
   name: CrunchDAO Zzz Webhook API
   slug: crunchdao-zzz-webhook-api
-artifact_total: 144
+artifact_total: 145
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tournament activity API
   slug: open-crunchdao-activity-api
@@ -611,57 +610,57 @@ collections:
   slug: open-crunchdao-zzz-webhook-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/capabilities/crunchdao-capability-edges.yml
+  href: https://artifacts.apis.io/crunchdao/capabilities/crunchdao-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/crunchdao-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/overlays/crunchdao-tournament-overlay.yaml
+  href: https://artifacts.apis.io/crunchdao/overlays/crunchdao-tournament-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crunchdao-tournament-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/security/crunchdao-domain-security.yml
+  href: https://artifacts.apis.io/crunchdao/security/crunchdao-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crunchdao-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/agentic-access/crunchdao-agentic-access.yml
+  href: https://artifacts.apis.io/crunchdao/agentic-access/crunchdao-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/crunchdao-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/authentication/crunchdao-authentication.yml
+  href: https://artifacts.apis.io/crunchdao/authentication/crunchdao-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crunchdao-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/mcp/crunchdao-mcp.yml
+  href: https://artifacts.apis.io/crunchdao/mcp/crunchdao-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/crunchdao-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/packages/crunchdao-packages.yml
+  href: https://artifacts.apis.io/crunchdao/packages/crunchdao-packages.yml
   title: ''
   type: Packages
   url: packages/crunchdao-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/packages/crunchdao-packages.yml
+  href: https://artifacts.apis.io/crunchdao/packages/crunchdao-packages.yml
   title: ''
   type: SDKs
   url: packages/crunchdao-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/cli/crunchdao-cli.yml
+  href: https://artifacts.apis.io/crunchdao/cli/crunchdao-cli.yml
   title: ''
   type: CLI
   url: cli/crunchdao-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/crunchdao/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/llms/crunchdao-llms.txt
+  href: https://artifacts.apis.io/crunchdao/llms/crunchdao-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crunchdao-llms.txt
@@ -725,10 +724,10 @@ overview: 'CrunchDAO publishes 70 API contracts indexed on the [APIs.io](https:/
 
 
   CrunchDAO''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 16 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: developing
-  composite: 42.0
+  composite: 42.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -740,11 +739,11 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 41.4
-    developer_ergonomics: 70.8
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 42.0
+    contract_quality: 41.1
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -761,13 +760,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/screenshots/crunchdao-2026-07-25T210819.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/crunchdao/crunchdao-2026-07-25T210819.png
 security:
 - kind: authentication
   name: Crunchdao Authentication
@@ -777,6 +777,12 @@ security:
   name: Crunchdao Domain Security
   slug: crunchdao-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Export a CrunchDAO competition leaderboard
+  slug: crunchdao-export-leaderboard
+- name: Submit a model to a CrunchDAO competition
+  slug: crunchdao-submit-model
 slug: crunchdao
 tags:
 - Company

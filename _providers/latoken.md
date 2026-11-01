@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 26.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 18
@@ -143,72 +145,72 @@ common:
   type: Security
   url: https://hackenproof.com/latoken/latoken-exchange
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/security/latoken-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/latoken/security/latoken-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/latoken-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/agentic-access/latoken-agentic-access.yml
+  href: https://artifacts.apis.io/latoken/agentic-access/latoken-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/latoken-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/rules/latoken-rules.yml
+  href: https://artifacts.apis.io/latoken/rules/latoken-rules.yml
   title: ''
   type: Spectral
   url: rules/latoken-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/vocabulary/latoken-vocabulary.yml
+  href: https://artifacts.apis.io/latoken/vocabulary/latoken-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/latoken-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/data-model/latoken-data-model.yml
+  href: https://artifacts.apis.io/latoken/data-model/latoken-data-model.yml
   title: ''
   type: DataModel
   url: data-model/latoken-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/errors/latoken-error-codes.yml
+  href: https://artifacts.apis.io/latoken/errors/latoken-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/latoken-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/errors/latoken-problem-types.yml
+  href: https://artifacts.apis.io/latoken/errors/latoken-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/latoken-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/conformance/latoken-conformance.yml
+  href: https://artifacts.apis.io/latoken/conformance/latoken-conformance.yml
   title: ''
   type: Conformance
   url: conformance/latoken-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/hosts/latoken-hosts.yml
+  href: https://artifacts.apis.io/latoken/hosts/latoken-hosts.yml
   title: ''
   type: Hosts
   url: hosts/latoken-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/vendors/latoken-vendors.yml
+  href: https://artifacts.apis.io/latoken/vendors/latoken-vendors.yml
   title: ''
   type: Vendors
   url: vendors/latoken-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/packages/latoken-packages.yml
+  href: https://artifacts.apis.io/latoken/packages/latoken-packages.yml
   title: ''
   type: SDKs
   url: packages/latoken-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/packages/latoken-packages.yml
+  href: https://artifacts.apis.io/latoken/packages/latoken-packages.yml
   title: ''
   type: Packages
   url: packages/latoken-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/authentication/latoken-authentication.yml
+  href: https://artifacts.apis.io/latoken/authentication/latoken-authentication.yml
   title: ''
   type: Authentication
   url: authentication/latoken-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/security/latoken-domain-security.yml
+  href: https://artifacts.apis.io/latoken/security/latoken-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/latoken-domain-security.yml
@@ -259,7 +261,7 @@ overview: 'LATOKEN publishes 21 API contracts indexed on the [APIs.io](https://a
 
 
   LATOKEN''s developer surface includes authentication, documentation, API reference, engineering blog, support, pricing, and 17 more developer resources.'
-random_paper: 2
+random_paper: 6
 rules:
 - authorship: generated
   effective_rule_count: 49
@@ -275,7 +277,7 @@ rules:
   slug: latoken-rules
 score:
   band: thin
-  composite: 35.0
+  composite: 34.9
   coverage:
     artifact_dirs: 15
     catalog_earned: 45.0
@@ -283,18 +285,20 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.3
   facets:
     access_clarity: 21.1
     contract_governance: 19.7
-    contract_quality: 42.7
+    contract_quality: 39.6
     developer_ergonomics: 42.9
     discoverability: 71.4
     operational_transparency: 15.8
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 20
@@ -305,11 +309,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Latoken Authentication

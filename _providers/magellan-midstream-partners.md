@@ -44,8 +44,8 @@ press:
 - date: ''
   title: 'Magellan Midstream Partners L P : Announces Sale of Independent ...'
   url: https://www.marketscreener.com/quote/stock/MAGELLAN-MIDSTREAM-PARTNE-13575/news/Magellan-Midstream-Partners-L-P-Announces-Sale-of-Independent-Terminals-35570366/
-random_paper: 18
-screenshot: https://raw.githubusercontent.com/api-evangelist/magellan-midstream-partners/refs/heads/main/screenshots/magellan-midstream-partners-2026-06-20T184838.png
+random_paper: 8
+screenshot: https://apis.io/screenshots/magellan-midstream-partners/magellan-midstream-partners-2026-06-20T184838.png
 slug: magellan-midstream-partners
 tags:
 - Energy

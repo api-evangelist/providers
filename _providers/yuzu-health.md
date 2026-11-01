@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 23.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 33
@@ -95,11 +97,8 @@ apis:
   description: The Sponsor API from Yuzu Health — 1 operation(s) for sponsor.
   name: Yuzu Health Sponsor API
   slug: yuzu-health-sponsor-api
-artifact_total: 25
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Yuzu Accumulator (Experimental) Accumulator (Experimental) Accumulator (Experimental) API
   slug: open-yuzu-health-accumulator-experimental-api
@@ -132,7 +131,7 @@ collections:
   slug: open-yuzu-health-sponsor-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/capabilities/yuzu-health-capability-edges.yml
+  href: https://artifacts.apis.io/yuzu-health/capabilities/yuzu-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/yuzu-health-capability-edges.yml
@@ -193,72 +192,72 @@ common:
   type: TrustCenter
   url: https://trust.yuzu.health
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/authentication/yuzu-health-authentication.yml
+  href: https://artifacts.apis.io/yuzu-health/authentication/yuzu-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yuzu-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/security/yuzu-health-domain-security.yml
+  href: https://artifacts.apis.io/yuzu-health/security/yuzu-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yuzu-health-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/agentic-access/yuzu-health-agentic-access.yml
+  href: https://artifacts.apis.io/yuzu-health/agentic-access/yuzu-health-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/yuzu-health-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/conventions/yuzu-health-conventions.yml
+  href: https://artifacts.apis.io/yuzu-health/conventions/yuzu-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/yuzu-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/errors/yuzu-health-problem-types.yml
+  href: https://artifacts.apis.io/yuzu-health/errors/yuzu-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/yuzu-health-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/lifecycle/yuzu-health-lifecycle.yml
+  href: https://artifacts.apis.io/yuzu-health/lifecycle/yuzu-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yuzu-health-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/sandbox/yuzu-health-sandbox.yml
+  href: https://artifacts.apis.io/yuzu-health/sandbox/yuzu-health-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/yuzu-health-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/data-model/yuzu-health-data-model.yml
+  href: https://artifacts.apis.io/yuzu-health/data-model/yuzu-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/yuzu-health-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/conformance/yuzu-health-conformance.yml
+  href: https://artifacts.apis.io/yuzu-health/conformance/yuzu-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/yuzu-health-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/mcp/yuzu-health-mcp.yml
+  href: https://artifacts.apis.io/yuzu-health/mcp/yuzu-health-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/yuzu-health-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/llms/yuzu-health-llms.txt
+  href: https://artifacts.apis.io/yuzu-health/llms/yuzu-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yuzu-health-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/well-known/yuzu-health-well-known.yml
+  href: https://artifacts.apis.io/yuzu-health/well-known/yuzu-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/yuzu-health-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/yuzu-health/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/overlays/yuzu-health-openapi-overlay.yaml
+  href: https://artifacts.apis.io/yuzu-health/overlays/yuzu-health-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/yuzu-health-openapi-overlay.yaml
@@ -274,10 +273,10 @@ overview: 'Yuzu Health publishes 10 API contracts indexed on the [APIs.io](https
 
 
   Yuzu Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 22 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: developing
-  composite: 39.5
+  composite: 44.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -287,13 +286,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 40.5
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 39.5
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -309,14 +308,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 19.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 23.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/screenshots/yuzu-health-2026-08-17T083029.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/yuzu-health/yuzu-health-2026-08-17T083029.png
 security:
 - kind: authentication
   name: Yuzu Health Authentication
@@ -330,6 +330,12 @@ security:
   name: Yuzu Health Trust Center
   slug: yuzu-health-trust-center
   summary_line: trust center published
+skill_count: 2
+skills:
+- name: Create a group policy and enroll members
+  slug: yuzu-health-create-group-and-enroll
+- name: Pull claims and coverage accumulators
+  slug: yuzu-health-pull-claims-and-accumulators
 slug: yuzu-health
 tags:
 - Company

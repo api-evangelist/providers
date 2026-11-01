@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.1
-  scored_at: '2026-10-17'
+  score: 38.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -190,11 +192,8 @@ apis:
     question: What JavaScript errors showed up in the browser console during my test?
   phrasing_ops: 7
   slug: browserstack-sessions-api
-artifact_total: 39
+artifact_total: 42
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: BrowserStack Automate REST AccessKey API
   slug: open-browserstack-accesskey-api
@@ -218,32 +217,32 @@ collections:
   slug: open-browserstack
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/finops/browserstack-finops.yml
+  href: https://artifacts.apis.io/browserstack/finops/browserstack-finops.yml
   title: ''
   type: FinOps
   url: finops/browserstack-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/capabilities/browserstack-capability-edges.yml
+  href: https://artifacts.apis.io/browserstack/capabilities/browserstack-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/browserstack-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/agentic-access/browserstack-agentic-access.yml
+  href: https://artifacts.apis.io/browserstack/agentic-access/browserstack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/browserstack-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/security/browserstack-trust-center.yml
+  href: https://artifacts.apis.io/browserstack/security/browserstack-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/browserstack-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/security/browserstack-domain-security.yml
+  href: https://artifacts.apis.io/browserstack/security/browserstack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/browserstack-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/authentication/browserstack-authentication.yml
+  href: https://artifacts.apis.io/browserstack/authentication/browserstack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/browserstack-authentication.yml
@@ -324,92 +323,92 @@ common:
   type: Developer Tools
   url: https://www.browserstack.com/docs/browserstack-mcp-server/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/well-known/browserstack-well-known.yml
+  href: https://artifacts.apis.io/browserstack/well-known/browserstack-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/browserstack-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/packages/browserstack-packages.yml
+  href: https://artifacts.apis.io/browserstack/packages/browserstack-packages.yml
   title: ''
   type: Packages
   url: packages/browserstack-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/packages/browserstack-packages.yml
+  href: https://artifacts.apis.io/browserstack/packages/browserstack-packages.yml
   title: ''
   type: SDKs
   url: packages/browserstack-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/mcp/browserstack-mcp.yml
+  href: https://artifacts.apis.io/browserstack/mcp/browserstack-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/browserstack-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/mcp/browserstack-tool-crosswalk.yml
+  href: https://artifacts.apis.io/browserstack/mcp/browserstack-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/browserstack-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/llms/browserstack-llms.txt
+  href: https://artifacts.apis.io/browserstack/llms/browserstack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/browserstack-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/conformance/browserstack-conformance.yml
+  href: https://artifacts.apis.io/browserstack/conformance/browserstack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/browserstack-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/security/browserstack-trust-center.yml
+  href: https://artifacts.apis.io/browserstack/security/browserstack-trust-center.yml
   title: ''
   type: Compliance
   url: security/browserstack-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/security/browserstack-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/browserstack/security/browserstack-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/browserstack-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/errors/browserstack-problem-types.yml
+  href: https://artifacts.apis.io/browserstack/errors/browserstack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/browserstack-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/lifecycle/browserstack-lifecycle.yml
+  href: https://artifacts.apis.io/browserstack/lifecycle/browserstack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/browserstack-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/conventions/browserstack-conventions.yml
+  href: https://artifacts.apis.io/browserstack/conventions/browserstack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/browserstack-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/changelog/browserstack-changelog.yml
+  href: https://artifacts.apis.io/browserstack/changelog/browserstack-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/browserstack-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/cli/browserstack-cli.yml
+  href: https://artifacts.apis.io/browserstack/cli/browserstack-cli.yml
   title: ''
   type: CLI
   url: cli/browserstack-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/data-model/browserstack-data-model.yml
+  href: https://artifacts.apis.io/browserstack/data-model/browserstack-data-model.yml
   title: ''
   type: DataModel
   url: data-model/browserstack-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/browserstack/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/rate-limits/browserstack-rate-limits.yml
+  href: https://artifacts.apis.io/browserstack/rate-limits/browserstack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/browserstack-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/plans/browserstack-plans-pricing.yml
+  href: https://artifacts.apis.io/browserstack/plans/browserstack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/browserstack-plans-pricing.yml
@@ -424,13 +423,13 @@ common:
 created: '2025-02-17'
 description: BrowserStack provides instant access to 3,500+ real desktop browsers and 30,000+ real mobile device units for manual and automated software testing. Its products span cross-browser testing (Live, Automate), mobile app testing (App Live, App Automate), visual regression testing (Percy, App Percy), accessibility testing, test management, test reporting and analytics, and low-code automation. Each product exposes its own REST API on its own host, and BrowserStack ships an official Model Context Protocol server — hosted at mcp.browserstack.com and distributed as an npm package — carrying 44 tools across those products.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Browserstack Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: 5 users
+  service_category: ''
   slug: browserstack-finops
-  template: true
+  template: false
 image: https://www.browserstack.com/images/browserstack-logo.svg
 layout: provider
 mcp_servers:
@@ -447,32 +446,35 @@ overview: 'BrowserStack publishes 22 API contracts indexed on the [APIs.io](http
   BrowserStack''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, pricing, signup flow, support, and 38 more developer resources.'
 plans:
 - name: Browserstack Plans Pricing
-  plan_count: 17
+  plan_count: 18
   slug: browserstack-plans-pricing
-random_paper: 8
+- name: Browserstack Price Estimates
+  plan_count: 0
+  slug: browserstack-price-estimates
+random_paper: 10
 rate_limits:
 - limit_count: 6
   name: Browserstack Rate Limits
   slug: browserstack-rate-limits
 score:
-  band: strong
-  composite: 66.3
+  band: exemplar
+  composite: 67.6
   coverage:
     artifact_dirs: 26
-    catalog_earned: 56.0
+    catalog_earned: 59.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 59.0
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 47.1
     developer_ergonomics: 73.2
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 78.9
-  previous_composite: 67.8
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -489,13 +491,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/screenshots/browserstack-2026-06-20T173725.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/browserstack/browserstack-2026-06-20T173725.png
 security:
 - kind: authentication
   name: Browserstack Authentication
@@ -513,6 +516,14 @@ security:
   name: Browserstack Trust Center
   slug: browserstack-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 3
+skills:
+- name: browserstack-check-capacity-before-run
+  slug: browserstack-check-capacity-before-run
+- name: browserstack-rotate-access-key
+  slug: browserstack-rotate-access-key
+- name: browserstack-triage-failed-build
+  slug: browserstack-triage-failed-build
 slug: browserstack
 tags:
 - Accessibility

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -84,11 +86,8 @@ apis:
   description: Mile earn and redemption transaction history
   name: Alaska Airlines Transactions API
   slug: alaska-air-transactions-api
-artifact_total: 112
+artifact_total: 111
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Alaska Air Cargo Airports API
   slug: open-alaska-air-airports-api
@@ -115,37 +114,37 @@ collections:
   slug: open-alaska-air-transactions-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/plans/alaska-air-plans-pricing.yml
+  href: https://artifacts.apis.io/alaska-air/plans/alaska-air-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/alaska-air-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/rate-limits/alaska-air-rate-limits.yml
+  href: https://artifacts.apis.io/alaska-air/rate-limits/alaska-air-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/alaska-air-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/finops/alaska-air-finops.yml
+  href: https://artifacts.apis.io/alaska-air/finops/alaska-air-finops.yml
   title: ''
   type: FinOps
   url: finops/alaska-air-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/agentic-access/alaska-air-agentic-access.yml
+  href: https://artifacts.apis.io/alaska-air/agentic-access/alaska-air-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/alaska-air-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/security/alaska-air-domain-security.yml
+  href: https://artifacts.apis.io/alaska-air/security/alaska-air-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alaska-air-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/authentication/alaska-air-authentication.yml
+  href: https://artifacts.apis.io/alaska-air/authentication/alaska-air-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alaska-air-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/scopes/alaska-air-scopes.yml
+  href: https://artifacts.apis.io/alaska-air/scopes/alaska-air-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/alaska-air-scopes.yml
@@ -178,17 +177,17 @@ common:
   type: Documentation
   url: https://www.alaskacargo.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/rules/alaska-air-spectral-rules.yml
+  href: https://artifacts.apis.io/alaska-air/rules/alaska-air-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/alaska-air-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/vocabulary/alaska-air-vocabulary.yaml
+  href: https://artifacts.apis.io/alaska-air/vocabulary/alaska-air-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/alaska-air-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/json-ld/alaska-air-context.jsonld
+  href: https://artifacts.apis.io/alaska-air/json-ld/alaska-air-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/alaska-air-context.jsonld
@@ -469,7 +468,7 @@ press:
 - date: ''
   title: Alaska Airlines and Tailsight launch AI-powered ...
   url: https://www.prnewswire.com/news-releases/alaska-airlines-and-tailsight-launch-ai-powered-maintenance-planning-solution-302744315.html
-random_paper: 14
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Alaska Air Rate Limits
@@ -505,7 +504,7 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 26.6
+  composite: 29.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 64.0
@@ -513,15 +512,15 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 21.7
-    developer_ergonomics: 38.1
+    developer_ergonomics: 45.2
     discoverability: 71.4
-    operational_transparency: 7.9
-  previous_composite: 28.1
+    operational_transparency: 10.5
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     contracts:
@@ -535,13 +534,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/screenshots/alaska-air-2026-06-20T171459.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/alaska-air/alaska-air-2026-06-20T171459.png
 security:
 - kind: authentication
   name: Alaska Air Authentication

@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.6
-  scored_at: '2026-10-17'
+  score: 31.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 3
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 341
   slug: rocket-matter-agentic-access
   summary_line: 341 operations · 173 acting · 3 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://developer.rocketmatter.com/API_V2
   baseurl_source: declared
@@ -253,10 +255,10 @@ apis:
   description: The WorkFlow API from Rocket Matter — 4 operation(s) for workflow.
   name: Rocket Matter Work Flow API
   slug: rocket-matter-workflow-api
-artifact_total: 48
+artifact_total: 50
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/capabilities/rocket-matter-capability-edges.yml
+  href: https://artifacts.apis.io/rocket-matter/capabilities/rocket-matter-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rocket-matter-capability-edges.yml
@@ -265,52 +267,52 @@ common:
   type: TermsOfService
   url: https://www.rocketmatter.com/terms-and-conditions/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/agentic-access/rocket-matter-agentic-access.yml
+  href: https://artifacts.apis.io/rocket-matter/agentic-access/rocket-matter-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rocket-matter-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/plans/rocket-matter-plans-pricing.yml
+  href: https://artifacts.apis.io/rocket-matter/plans/rocket-matter-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rocket-matter-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/rules/rocket-matter-rules.yml
+  href: https://artifacts.apis.io/rocket-matter/rules/rocket-matter-rules.yml
   title: ''
   type: Spectral
   url: rules/rocket-matter-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/vocabulary/rocket-matter-vocabulary.yml
+  href: https://artifacts.apis.io/rocket-matter/vocabulary/rocket-matter-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/rocket-matter-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/data-model/rocket-matter-data-model.yml
+  href: https://artifacts.apis.io/rocket-matter/data-model/rocket-matter-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rocket-matter-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/errors/rocket-matter-problem-types.yml
+  href: https://artifacts.apis.io/rocket-matter/errors/rocket-matter-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rocket-matter-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/conformance/rocket-matter-conformance.yml
+  href: https://artifacts.apis.io/rocket-matter/conformance/rocket-matter-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rocket-matter-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/well-known/rocket-matter-well-known.yml
+  href: https://artifacts.apis.io/rocket-matter/well-known/rocket-matter-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rocket-matter-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/hosts/rocket-matter-hosts.yml
+  href: https://artifacts.apis.io/rocket-matter/hosts/rocket-matter-hosts.yml
   title: ''
   type: Hosts
   url: hosts/rocket-matter-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/vendors/rocket-matter-vendors.yml
+  href: https://artifacts.apis.io/rocket-matter/vendors/rocket-matter-vendors.yml
   title: ''
   type: Vendors
   url: vendors/rocket-matter-vendors.yml
@@ -323,7 +325,7 @@ common:
   type: APIReference
   url: https://developer.rocketmatter.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/security/rocket-matter-domain-security.yml
+  href: https://artifacts.apis.io/rocket-matter/security/rocket-matter-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rocket-matter-domain-security.yml
@@ -357,6 +359,14 @@ common:
   url: https://www.rocketmatter.com/privacy-policy/
 created: '2026-09-23'
 description: Rocket Matter provides cloud‑based legal practice management software for law firms of all sizes. The platform combines case management, time tracking, billing, document automation, and client collaboration tools into a single, secure solution. Founded in 2008, Rocket Matter helps firms streamline workflows, improve client service, and increase profitability through an intuitive, modern interface and robust integrations.
+finops:
+- has_sources: true
+  method: derived
+  name: Rocket Matter Finops
+  primary_unit: user
+  service_category: ''
+  slug: rocket-matter-finops
+  template: false
 image: https://www.rocketmatter.com/wp-content/uploads/2025/03/ABA.png
 layout: provider
 modified: '2026-09-23'
@@ -372,9 +382,12 @@ overview: 'Rocket Matter publishes 44 API contracts indexed on the [APIs.io](htt
   Rocket Matter''s developer surface includes API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
 plans:
 - name: Rocket Matter Plans Pricing
-  plan_count: 4
+  plan_count: 12
   slug: rocket-matter-plans-pricing
-random_paper: 4
+- name: Rocket Matter Price Estimates
+  plan_count: 0
+  slug: rocket-matter-price-estimates
+random_paper: 2
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -390,23 +403,23 @@ rules:
   slug: rocket-matter-rules
 score:
   band: developing
-  composite: 41.9
+  composite: 44.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 54.8
+    artifact_dirs: 20
+    catalog_earned: 57.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.0
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 22.0
     contract_quality: 40.2
     developer_ergonomics: 26.2
     discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 41.8
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -422,13 +435,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-matter/refs/heads/main/screenshots/rocket-matter-2026-10-11T125407.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rocket-matter/rocket-matter-2026-10-11T125407.png
 security:
 - kind: domain-security
   name: Rocket Matter Domain Security

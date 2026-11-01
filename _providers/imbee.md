@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imbee/refs/heads/main/security/imbee-domain-security.yml
+  href: https://artifacts.apis.io/imbee/security/imbee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/imbee-domain-security.yml
@@ -82,7 +84,7 @@ common:
   type: Blog
   url: https://www.imbee.io/resource-hub
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imbee/refs/heads/main/llms/imbee-llms.txt
+  href: https://artifacts.apis.io/imbee/llms/imbee-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/imbee-llms.txt
@@ -91,7 +93,7 @@ common:
   type: Compliance
   url: https://www.imbee.io/data-governance
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imbee/refs/heads/main/conformance/imbee-conformance.yml
+  href: https://artifacts.apis.io/imbee/conformance/imbee-conformance.yml
   title: ''
   type: Conformance
   url: conformance/imbee-conformance.yml
@@ -107,10 +109,10 @@ overview: 'imbee is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   imbee''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 8
+random_paper: 10
 score:
   band: emerging
-  composite: 22.5
+  composite: 23.1
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -118,20 +120,20 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 22.9
+  previous_composite: 23.1
   provenance:
     conformance: first-party
   regulatory:
@@ -140,14 +142,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/imbee/refs/heads/main/screenshots/imbee-2026-07-25T222122.png
+screenshot: https://apis.io/screenshots/imbee/imbee-2026-07-25T222122.png
 security:
 - kind: domain-security
   name: Imbee Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monolith-materials/refs/heads/main/security/monolith-materials-domain-security.yml
+  href: https://artifacts.apis.io/monolith-materials/security/monolith-materials-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/monolith-materials-domain-security.yml
@@ -91,7 +93,7 @@ overview: 'Monolith Materials is profiled on the [APIs.io](https://apis.io/) net
 
 
   Monolith Materials'' developer surface includes support and 5 more developer resources.'
-random_paper: 11
+random_paper: 9
 score:
   band: minimal
   composite: 9.4
@@ -124,14 +126,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/monolith-materials/refs/heads/main/screenshots/monolith-materials-2026-09-02T150626.png
+screenshot: https://apis.io/screenshots/monolith-materials/monolith-materials-2026-09-02T150626.png
 security:
 - kind: domain-security
   name: Monolith Materials Domain Security

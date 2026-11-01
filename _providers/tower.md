@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.3
-  scored_at: '2026-10-17'
+  score: 41.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.tower.dev/v1
@@ -174,15 +176,12 @@ apis:
   description: The Whoami API from Tower — 1 operation(s) for whoami.
   name: Tower Whoami API
   slug: tower-whoami-api
-artifact_total: 60
+artifact_total: 66
 asyncapis:
 - description: ''
   name: Tower Webhooks
   slug: tower-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tower Accounts API
   slug: open-tower-accounts-api
@@ -265,18 +264,23 @@ collections:
   name: Tower Accounts Whoami API
   slug: open-tower-whoami-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/tower/plans/tower-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tower-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/capabilities/tower-capability-edges.yml
+  href: https://artifacts.apis.io/tower/capabilities/tower-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tower-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/overlays/tower-overlay.yaml
+  href: https://artifacts.apis.io/tower/overlays/tower-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tower-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/security/tower-domain-security.yml
+  href: https://artifacts.apis.io/tower/security/tower-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tower-domain-security.yml
@@ -329,92 +333,100 @@ common:
   type: StatusPage
   url: https://status.tower.dev
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/lifecycle/tower-lifecycle.yml
+  href: https://artifacts.apis.io/tower/lifecycle/tower-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tower-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/changelog/tower-changelog.yml
+  href: https://artifacts.apis.io/tower/changelog/tower-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tower-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/llms/tower-llms.txt
+  href: https://artifacts.apis.io/tower/llms/tower-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tower-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/well-known/tower-well-known.yml
+  href: https://artifacts.apis.io/tower/well-known/tower-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tower-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/mcp/tower-mcp.yml
+  href: https://artifacts.apis.io/tower/mcp/tower-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tower-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/packages/tower-packages.yml
+  href: https://artifacts.apis.io/tower/packages/tower-packages.yml
   title: ''
   type: Packages
   url: packages/tower-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/packages/tower-packages.yml
+  href: https://artifacts.apis.io/tower/packages/tower-packages.yml
   title: ''
   type: SDKs
   url: packages/tower-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/cli/tower-cli.yml
+  href: https://artifacts.apis.io/tower/cli/tower-cli.yml
   title: ''
   type: CLI
   url: cli/tower-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/authentication/tower-authentication.yml
+  href: https://artifacts.apis.io/tower/authentication/tower-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tower-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/scopes/tower-scopes.yml
+  href: https://artifacts.apis.io/tower/scopes/tower-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tower-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/conventions/tower-conventions.yml
+  href: https://artifacts.apis.io/tower/conventions/tower-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tower-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/conformance/tower-conformance.yml
+  href: https://artifacts.apis.io/tower/conformance/tower-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tower-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/errors/tower-problem-types.yml
+  href: https://artifacts.apis.io/tower/errors/tower-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tower-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/asyncapi/tower-webhooks.yml
+  href: https://artifacts.apis.io/tower/asyncapi/tower-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tower-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/sandbox/tower-sandbox.yml
+  href: https://artifacts.apis.io/tower/sandbox/tower-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tower-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/data-model/tower-data-model.yml
+  href: https://artifacts.apis.io/tower/data-model/tower-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tower-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tower/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Tower is a Python-native data flow orchestrator and fully-managed data backend for pipelines, agents, and data applications, pairing serverless (or self-hosted) Python compute with an open Apache Iceberg-based lakehouse that is compatible with Snowflake, Spark, and DuckDB. Teams deploy versioned apps with a Towerfile, run dbt Core and dlt ingestion pipelines, schedule and observe runs, and power data agents grounded in fresh company data. Founded by engineers from Snowflake, Databricks, Google Cloud Dataflow, and Puppet, and backed by Speedinvest, Tower ships a REST API, a CLI, a Python SDK, an official MCP server, and provider-published agent skills.
+finops:
+- has_sources: true
+  method: derived
+  name: Tower Finops
+  primary_unit: app creator
+  service_category: ''
+  slug: tower-finops
+  template: false
 image: https://github.com/tower.png
 layout: provider
 mcp_servers:
@@ -431,8 +443,15 @@ overview: 'Tower publishes 27 API contracts indexed on the [APIs.io](https://api
   The Tower catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tower''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, CLI, and 25 more developer resources.'
-random_paper: 11
+  Tower''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, CLI, and 26 more developer resources.'
+plans:
+- name: Tower Plans Pricing
+  plan_count: 7
+  slug: tower-plans-pricing
+- name: Tower Price Estimates
+  plan_count: 0
+  slug: tower-price-estimates
+random_paper: 9
 scopes:
 - name: Tower Scopes
   scope_count: 53
@@ -440,23 +459,23 @@ scopes:
   summary_line: 53 scopes
 score:
   band: strong
-  composite: 55.5
+  composite: 62.6
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 58.6
+    contract_quality: 55.2
     developer_ergonomics: 81.0
-    discoverability: 71.7
+    discoverability: 65.0
     operational_transparency: 44.7
-  previous_composite: 55.4
+  previous_composite: 54.7
   provenance:
     conformance: derived
     contracts:
@@ -472,13 +491,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/screenshots/tower-2026-08-17T082413.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tower/tower-2026-08-17T082413.png
 security:
 - kind: authentication
   name: Tower Authentication
@@ -488,6 +508,16 @@ security:
   name: Tower Domain Security
   slug: tower-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: tower-data
+  slug: tower-data
+- name: Deploy and run a Tower app via the REST API
+  slug: tower-deploy-and-run-via-api
+- name: tower-integration
+  slug: tower-integration
+- name: tower
+  slug: tower
 slug: tower
 tags:
 - Data Infrastructure

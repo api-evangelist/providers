@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-10-17'
+  score: 34.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.recurrency.com
@@ -50,11 +52,8 @@ arazzos:
 - description: Discover a supplier, find an item, confirm price, create an order, and read it back.
   name: Recurrency procure-to-pay
   slug: recurrency-procure-to-pay
-artifact_total: 11
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Recurrency E-Procurement API
   slug: open-recurrency-e-procurement-api
@@ -63,7 +62,7 @@ collections:
   slug: open-recurrency-orders-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/overlays/recurrency-openapi-overlay.yaml
+  href: https://artifacts.apis.io/recurrency/overlays/recurrency-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/recurrency-openapi-overlay.yaml
@@ -76,87 +75,87 @@ common:
   type: Documentation
   url: https://recurrency.gitbook.io/recurrency/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/authentication/recurrency-authentication.yml
+  href: https://artifacts.apis.io/recurrency/authentication/recurrency-authentication.yml
   title: ''
   type: Authentication
   url: authentication/recurrency-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/scopes/recurrency-scopes.yml
+  href: https://artifacts.apis.io/recurrency/scopes/recurrency-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/recurrency-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/mcp/recurrency-mcp.yml
+  href: https://artifacts.apis.io/recurrency/mcp/recurrency-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/recurrency-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/llms/recurrency-llms.txt
+  href: https://artifacts.apis.io/recurrency/llms/recurrency-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/recurrency-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/well-known/recurrency-well-known.yml
+  href: https://artifacts.apis.io/recurrency/well-known/recurrency-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/recurrency-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/well-known/recurrency-security.txt
+  href: https://artifacts.apis.io/recurrency/well-known/recurrency-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/recurrency-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/conformance/recurrency-conformance.yml
+  href: https://artifacts.apis.io/recurrency/conformance/recurrency-conformance.yml
   title: ''
   type: Conformance
   url: conformance/recurrency-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/errors/recurrency-problem-types.yml
+  href: https://artifacts.apis.io/recurrency/errors/recurrency-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/recurrency-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/lifecycle/recurrency-lifecycle.yml
+  href: https://artifacts.apis.io/recurrency/lifecycle/recurrency-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/recurrency-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/conventions/recurrency-conventions.yml
+  href: https://artifacts.apis.io/recurrency/conventions/recurrency-conventions.yml
   title: ''
   type: Conventions
   url: conventions/recurrency-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/sandbox/recurrency-sandbox.yml
+  href: https://artifacts.apis.io/recurrency/sandbox/recurrency-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/recurrency-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/data-model/recurrency-data-model.yml
+  href: https://artifacts.apis.io/recurrency/data-model/recurrency-data-model.yml
   title: ''
   type: DataModel
   url: data-model/recurrency-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/recurrency/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/arazzo/recurrency-procure-to-pay.yml
+  href: https://artifacts.apis.io/recurrency/arazzo/recurrency-procure-to-pay.yml
   title: ''
   type: Arazzo
   url: arazzo/recurrency-procure-to-pay.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/security/recurrency-domain-security.yml
+  href: https://artifacts.apis.io/recurrency/security/recurrency-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/recurrency-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/security/recurrency-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/recurrency/security/recurrency-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/recurrency-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/security/recurrency-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/recurrency/security/recurrency-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/recurrency-vulnerability-disclosure.yml
@@ -204,7 +203,7 @@ overview: 'Recurrency publishes 2 API contracts indexed on the [APIs.io](https:/
 
 
   Recurrency''s developer surface includes documentation, authentication, sandbox, engineering blog, support, signup flow, and 21 more developer resources.'
-random_paper: 12
+random_paper: 10
 scopes:
 - name: Recurrency Scopes
   scope_count: 4
@@ -212,7 +211,7 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 36.1
+  composite: 36.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -220,15 +219,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 14.8
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 13.2
-  previous_composite: 36.5
+    discoverability: 65.0
+    operational_transparency: 15.8
+  previous_composite: 36.2
   provenance:
     conformance: derived
     contracts:
@@ -244,13 +243,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/screenshots/recurrency-2026-08-17T081457.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/recurrency/recurrency-2026-08-17T081457.png
 security:
 - kind: authentication
   name: Recurrency Authentication
@@ -264,6 +264,12 @@ security:
   name: Recurrency Vulnerability Disclosure
   slug: recurrency-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 2
+skills:
+- name: Recurrency procure-to-pay
+  slug: recurrency-procure-to-pay
+- name: Recurrency upload supplier catalog
+  slug: recurrency-upload-catalog
 slug: recurrency
 tags:
 - Company

@@ -13,8 +13,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -28,14 +29,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.1
-  scored_at: '2026-10-17'
+  score: 39.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -100,11 +103,8 @@ apis:
   description: Operations for managing audit logs
   name: Cognition Labs Audit Logs API
   slug: cognition-labs-audit-logs-api
-artifact_total: 43
+artifact_total: 46
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Devin API (Cognition Labs) Attachments API
   slug: open-cognition-labs-attachments-api
@@ -137,37 +137,37 @@ collections:
   slug: open-cognition-labs
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/rules/cognition-labs-rules.yml
+  href: https://artifacts.apis.io/cognition-labs/rules/cognition-labs-rules.yml
   title: ''
   type: Spectral
   url: rules/cognition-labs-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/json-ld/cognition-labs-context.jsonld
+  href: https://artifacts.apis.io/cognition-labs/json-ld/cognition-labs-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cognition-labs-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/vocabulary/cognition-labs-vocabulary.yml
+  href: https://artifacts.apis.io/cognition-labs/vocabulary/cognition-labs-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cognition-labs-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cognition-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/data-model/cognition-labs-data-model.yml
+  href: https://artifacts.apis.io/cognition-labs/data-model/cognition-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cognition-labs-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/cli/cognition-labs-cli.yml
+  href: https://artifacts.apis.io/cognition-labs/cli/cognition-labs-cli.yml
   title: ''
   type: CLI
   url: cli/cognition-labs-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/changelog/cognition-labs-changelog.yml
+  href: https://artifacts.apis.io/cognition-labs/changelog/cognition-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cognition-labs-changelog.yml
@@ -176,37 +176,37 @@ common:
   type: Compliance
   url: https://trust.cognition.ai/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/errors/cognition-labs-problem-types.yml
+  href: https://artifacts.apis.io/cognition-labs/errors/cognition-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cognition-labs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/conformance/cognition-labs-conformance.yml
+  href: https://artifacts.apis.io/cognition-labs/conformance/cognition-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cognition-labs-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/llms/cognition-labs-llms.txt
+  href: https://artifacts.apis.io/cognition-labs/llms/cognition-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cognition-labs-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/a2a/cognition-labs-a2a.yml
+  href: https://artifacts.apis.io/cognition-labs/a2a/cognition-labs-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/cognition-labs-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/well-known/cognition-labs-well-known.yml
+  href: https://artifacts.apis.io/cognition-labs/well-known/cognition-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cognition-labs-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/hosts/cognition-labs-hosts.yml
+  href: https://artifacts.apis.io/cognition-labs/hosts/cognition-labs-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cognition-labs-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/vendors/cognition-labs-vendors.yml
+  href: https://artifacts.apis.io/cognition-labs/vendors/cognition-labs-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cognition-labs-vendors.yml
@@ -227,27 +227,27 @@ common:
   type: APIReference
   url: https://docs.devin.ai/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/agentic-access/cognition-labs-agentic-access.yml
+  href: https://artifacts.apis.io/cognition-labs/agentic-access/cognition-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cognition-labs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/security/cognition-labs-trust-center.yml
+  href: https://artifacts.apis.io/cognition-labs/security/cognition-labs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cognition-labs-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/security/cognition-labs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cognition-labs/security/cognition-labs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cognition-labs-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/security/cognition-labs-domain-security.yml
+  href: https://artifacts.apis.io/cognition-labs/security/cognition-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cognition-labs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/authentication/cognition-labs-authentication.yml
+  href: https://artifacts.apis.io/cognition-labs/authentication/cognition-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cognition-labs-authentication.yml
@@ -268,17 +268,17 @@ common:
   type: Documentation
   url: https://docs.devin.ai
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/plans/cognition-labs-plans-pricing.yml
+  href: https://artifacts.apis.io/cognition-labs/plans/cognition-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cognition-labs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/rate-limits/cognition-labs-rate-limits.yml
+  href: https://artifacts.apis.io/cognition-labs/rate-limits/cognition-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cognition-labs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/finops/cognition-labs-finops.yml
+  href: https://artifacts.apis.io/cognition-labs/finops/cognition-labs-finops.yml
   title: ''
   type: FinOps
   url: finops/cognition-labs-finops.yml
@@ -287,7 +287,7 @@ common:
   type: Blog
   url: https://cognition.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/capabilities/cognition-labs-capability-edges.yml
+  href: https://artifacts.apis.io/cognition-labs/capabilities/cognition-labs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cognition-labs-capability-edges.yml
@@ -357,7 +357,7 @@ plans:
 - name: Cognition Labs Plans Pricing
   plan_count: 6
   slug: cognition-labs-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 6
   name: Cognition Labs Rate Limits
@@ -377,7 +377,7 @@ rules:
   slug: cognition-labs-rules
 score:
   band: developing
-  composite: 52.3
+  composite: 51.8
   coverage:
     artifact_dirs: 27
     catalog_earned: 68.8
@@ -385,15 +385,15 @@ score:
     catalog_gap: 46.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -14.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 35.6
-    contract_quality: 68.3
+    contract_quality: 64.9
     developer_ergonomics: 53.0
-    discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 66.7
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -413,13 +413,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/screenshots/cognition-labs-2026-07-25T210009.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cognition-labs/cognition-labs-2026-07-25T210009.png
 security:
 - kind: authentication
   name: Cognition Labs Authentication
@@ -437,6 +438,16 @@ security:
   name: Cognition Labs Trust Center
   slug: cognition-labs-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 4
+skills:
+- name: cognition-labs-create-use-terminate-session
+  slug: cognition-labs-create-use-terminate-session
+- name: cognition-labs-manage-knowledge
+  slug: cognition-labs-manage-knowledge
+- name: cognition-labs-manage-playbooks
+  slug: cognition-labs-manage-playbooks
+- name: cognition-labs-upload-download-attachment
+  slug: cognition-labs-upload-download-attachment
 slug: cognition-labs
 tags:
 - Artificial Intelligence

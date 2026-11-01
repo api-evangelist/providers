@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.1
-  scored_at: '2026-10-17'
+  score: 23.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -118,11 +120,8 @@ apis:
   description: Vital signs measurements.
   name: Roivant Sciences Vitals API
   slug: roivant-sciences-vitals-api
-artifact_total: 48
+artifact_total: 47
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Datavant Healthjump EHR Integration API
   slug: open-datavant-healthjump-ehr
@@ -171,22 +170,22 @@ common:
   type: Website
   url: https://www.roivant.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/agentic-access/roivant-sciences-agentic-access.yml
+  href: https://artifacts.apis.io/roivant-sciences/agentic-access/roivant-sciences-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/roivant-sciences-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/security/roivant-sciences-domain-security.yml
+  href: https://artifacts.apis.io/roivant-sciences/security/roivant-sciences-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/roivant-sciences-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/authentication/roivant-sciences-authentication.yml
+  href: https://artifacts.apis.io/roivant-sciences/authentication/roivant-sciences-authentication.yml
   title: ''
   type: Authentication
   url: authentication/roivant-sciences-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/scopes/roivant-sciences-scopes.yml
+  href: https://artifacts.apis.io/roivant-sciences/scopes/roivant-sciences-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/roivant-sciences-scopes.yml
@@ -223,27 +222,27 @@ common:
   type: PrivacyPolicy
   url: https://roivant.com/privacy-policy/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/plans/roivant-sciences-plans-pricing.yml
+  href: https://artifacts.apis.io/roivant-sciences/plans/roivant-sciences-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/roivant-sciences-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/rate-limits/roivant-sciences-rate-limits.yml
+  href: https://artifacts.apis.io/roivant-sciences/rate-limits/roivant-sciences-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/roivant-sciences-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/finops/roivant-sciences-finops.yml
+  href: https://artifacts.apis.io/roivant-sciences/finops/roivant-sciences-finops.yml
   title: ''
   type: FinOps
   url: finops/roivant-sciences-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/vocabulary/roivant-sciences-vocabulary.yml
+  href: https://artifacts.apis.io/roivant-sciences/vocabulary/roivant-sciences-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/roivant-sciences-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/json-ld/roivant-sciences-context.jsonld
+  href: https://artifacts.apis.io/roivant-sciences/json-ld/roivant-sciences-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/roivant-sciences-context.jsonld
@@ -303,7 +302,7 @@ plans:
 - name: Roivant Sciences Plans Pricing
   plan_count: 3
   slug: roivant-sciences-plans-pricing
-random_paper: 11
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Roivant Sciences Rate Limits
@@ -339,7 +338,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 31.9
+  composite: 37.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 66.0
@@ -347,15 +346,15 @@ score:
     catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -9.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 27.3
     contract_quality: 11.6
-    developer_ergonomics: 39.3
+    developer_ergonomics: 64.3
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 41.8
+    operational_transparency: 21.1
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -369,14 +368,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/screenshots/roivant-sciences-2026-06-20T193202.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/roivant-sciences/roivant-sciences-2026-06-20T193202.png
 security:
 - kind: authentication
   name: Roivant Sciences Authentication

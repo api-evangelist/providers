@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
@@ -45,7 +47,7 @@ common:
   type: BlogRSS
   url: https://www.juullabs.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/juul/refs/heads/main/security/juul-domain-security.yml
+  href: https://artifacts.apis.io/juul/security/juul-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/juul-domain-security.yml
@@ -74,42 +76,42 @@ common:
   type: Blog
   url: https://www.juullabs.com/about/newsroom/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/juul/refs/heads/main/well-known/juul-well-known.yml
+  href: https://artifacts.apis.io/juul/well-known/juul-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/juul-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/juul/refs/heads/main/authentication/juul-authentication.yml
+  href: https://artifacts.apis.io/juul/authentication/juul-authentication.yml
   title: ''
   type: Authentication
   url: authentication/juul-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/juul/refs/heads/main/scopes/juul-scopes.yml
+  href: https://artifacts.apis.io/juul/scopes/juul-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/juul-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/juul/refs/heads/main/conformance/juul-conformance.yml
+  href: https://artifacts.apis.io/juul/conformance/juul-conformance.yml
   title: ''
   type: Conformance
   url: conformance/juul-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/juul/refs/heads/main/packages/juul-packages.yml
+  href: https://artifacts.apis.io/juul/packages/juul-packages.yml
   title: ''
   type: Packages
   url: packages/juul-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/juul/refs/heads/main/llms/juul-llms.txt
+  href: https://artifacts.apis.io/juul/llms/juul-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/juul-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/juul/refs/heads/main/plans/juul-plans-pricing.yml
+  href: https://artifacts.apis.io/juul/plans/juul-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/juul-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/juul/refs/heads/main/rate-limits/juul-rate-limits.yml
+  href: https://artifacts.apis.io/juul/rate-limits/juul-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/juul-rate-limits.yml
@@ -146,7 +148,7 @@ plans:
 - name: Juul Plans Pricing
   plan_count: 0
   slug: juul-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Juul Rate Limits
@@ -158,7 +160,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 18.5
+  composite: 18.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -173,7 +175,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -181,7 +183,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 18.5
+  previous_composite: 18.9
   provenance:
     conformance: first-party
   regulatory:
@@ -190,14 +192,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/juul/refs/heads/main/screenshots/juul-2026-09-02T150010.png
+screenshot: https://apis.io/screenshots/juul/juul-2026-09-02T150010.png
 security:
 - kind: authentication
   name: Juul Authentication

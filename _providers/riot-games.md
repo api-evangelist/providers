@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -99,11 +101,8 @@ apis:
   description: Summoner profile operations
   name: Riot Games Summoner API
   slug: riot-games-summoner-api
-artifact_total: 54
+artifact_total: 53
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Riot Games League of Legends Champion API
   slug: open-riot-games-champion-api
@@ -132,18 +131,22 @@ collections:
   name: Riot Games League of Legends Champion Summoner API
   slug: open-riot-games-summoner-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/riot-games/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/plans/riot-games-plans-pricing.yml
+  href: https://artifacts.apis.io/riot-games/plans/riot-games-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/riot-games-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/rate-limits/riot-games-rate-limits.yml
+  href: https://artifacts.apis.io/riot-games/rate-limits/riot-games-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/riot-games-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/finops/riot-games-finops.yml
+  href: https://artifacts.apis.io/riot-games/finops/riot-games-finops.yml
   title: ''
   type: FinOps
   url: finops/riot-games-finops.yml
@@ -152,22 +155,22 @@ common:
   type: Blog
   url: https://www.riotgames.com/en/news
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/agentic-access/riot-games-agentic-access.yml
+  href: https://artifacts.apis.io/riot-games/agentic-access/riot-games-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/riot-games-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/security/riot-games-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/riot-games/security/riot-games-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/riot-games-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/security/riot-games-domain-security.yml
+  href: https://artifacts.apis.io/riot-games/security/riot-games-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/riot-games-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/authentication/riot-games-authentication.yml
+  href: https://artifacts.apis.io/riot-games/authentication/riot-games-authentication.yml
   title: ''
   type: Authentication
   url: authentication/riot-games-authentication.yml
@@ -325,12 +328,12 @@ overview: 'Riot Games publishes 13 API contracts indexed on the [APIs.io](https:
   The Riot Games catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Riot Games'' developer surface includes engineering blog, authentication, documentation, signup flow, and 19 more developer resources.'
+  Riot Games'' developer surface includes engineering blog, authentication, documentation, signup flow, and 20 more developer resources.'
 plans:
 - name: Riot Games Plans Pricing
   plan_count: 3
   slug: riot-games-plans-pricing
-random_paper: 4
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Riot Games Rate Limits
@@ -359,8 +362,8 @@ rules:
     warn: 5
   slug: riot-games-rules
 score:
-  band: thin
-  composite: 38.1
+  band: developing
+  composite: 42.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 58.8
@@ -368,15 +371,15 @@ score:
     catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 0.2
   facets:
-    access_clarity: 31.6
+    access_clarity: 42.1
     contract_governance: 23.5
     contract_quality: 56.7
-    developer_ergonomics: 23.8
+    developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 39.1
+    operational_transparency: 23.7
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -389,15 +392,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/screenshots/riot-games-2026-06-20T193125.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/riot-games/riot-games-2026-06-20T193125.png
 security:
 - kind: authentication
   name: Riot Games Authentication

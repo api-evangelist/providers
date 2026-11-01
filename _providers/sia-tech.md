@@ -1,0 +1,180 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 6.0
+  scored_at: '2026-10-31'
+api_count: 0
+artifact_total: 1
+common:
+- group: agent
+  href: https://artifacts.apis.io/sia-tech/well-known/sia-tech-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/sia-tech-well-known.yml
+- group: build
+  href: https://artifacts.apis.io/sia-tech/cli/sia-tech-cli.yml
+  title: ''
+  type: CLI
+  url: cli/sia-tech-cli.yml
+- group: agent
+  href: https://artifacts.apis.io/sia-tech/llms/sia-tech-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/sia-tech-llms.txt
+- group: other
+  href: https://artifacts.apis.io/sia-tech/hosts/sia-tech-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/sia-tech-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/sia-tech/vendors/sia-tech-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/sia-tech-vendors.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.sia.tech/
+- group: auth
+  href: https://artifacts.apis.io/sia-tech/security/sia-tech-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/sia-tech-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://sia.tech/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://devs.sia.storage/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.sia.tech/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://devs.sia.storage/docs/quickstart
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://devs.sia.storage/docs/quickstart
+- group: operate
+  title: ''
+  type: Support
+  url: https://sia.tech/support
+- group: company
+  title: ''
+  type: Blog
+  url: https://sia.tech/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/siafoundation
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://sia.tech/roadmap
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://sia.tech/store-your-data
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://sia.tech/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://sia.tech/privacy-policy
+coverage:
+  checked: '2026-10-28'
+  detail: Docs site renders via JavaScript and provides no machine‑readable OpenAPI spec.
+  evidence:
+  - status: 200
+    url: https://docs.sia.tech/
+  reason: js-rendered-docs
+  state: unreadable
+created: '2026-10-28'
+description: Sia provides decentralized cloud storage built on a blockchain-based network, enabling developers to encrypt, encode, distribute, and retrieve data securely across independent storage providers. The platform offers 50 GB of free storage, SDKs for multiple languages, and a suite of tools for building resilient, privacy‑preserving applications. Sia’s open network ensures users retain control of encryption keys while leveraging global redundancy and cryptographic proofs for data integrity.
+image: https://sia.tech/og/index.png
+layout: provider
+modified: '2026-10-28'
+name: Sia
+nav: Providers
+network: true
+overview: 'Sia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Decentralized Storage, Cloud Storage, Blockchain, and Open Source.
+
+
+  Sia''s developer surface includes CLI, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 12 more developer resources.'
+random_paper: 14
+score:
+  band: emerging
+  composite: 24.8
+  coverage:
+    artifact_dirs: 8
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 31.6
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 52.4
+    discoverability: 48.2
+    operational_transparency: 26.3
+  provenance:
+    mcp: unknown
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 13.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Sia Tech Domain Security
+  slug: sia-tech-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: sia-tech
+tags:
+- Company
+- Decentralized Storage
+- Cloud Storage
+- Blockchain
+- Open Source
+- Developer Tools
+website: https://sia.tech/
+---

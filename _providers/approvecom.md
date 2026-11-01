@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Procurement REST API (Tipalti Procurement, formerly Approve.com) for syncing purchase orders between an external system and Tipalti. Exposes GET purchase-order and Update purchase-order operations. JS
@@ -60,22 +62,22 @@ common:
   type: APIReference
   url: https://help.tipalti.com/hc/en-us/articles/30718248220823-Procurement-REST-API-documentation
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/approvecom/refs/heads/main/authentication/approvecom-authentication.yml
+  href: https://artifacts.apis.io/approvecom/authentication/approvecom-authentication.yml
   title: ''
   type: Authentication
   url: authentication/approvecom-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/approvecom/refs/heads/main/sandbox/approvecom-sandbox.yml
+  href: https://artifacts.apis.io/approvecom/sandbox/approvecom-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/approvecom-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/approvecom/refs/heads/main/conventions/approvecom-conventions.yml
+  href: https://artifacts.apis.io/approvecom/conventions/approvecom-conventions.yml
   title: ''
   type: Conventions
   url: conventions/approvecom-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/approvecom/refs/heads/main/security/approvecom-domain-security.yml
+  href: https://artifacts.apis.io/approvecom/security/approvecom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/approvecom-domain-security.yml
@@ -90,10 +92,10 @@ overview: 'Approve.com is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   Approve.com''s developer surface includes documentation, API reference, authentication, sandbox, and 4 more developer resources.'
-random_paper: 6
+random_paper: 4
 score:
   band: emerging
-  composite: 12.9
+  composite: 14.8
   coverage:
     artifact_dirs: 6
     catalog_earned: 35.0
@@ -101,29 +103,29 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 35.7
+    developer_ergonomics: 45.2
     discoverability: 62.5
     operational_transparency: 0.0
-  previous_composite: 12.8
+  previous_composite: 14.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/approvecom/refs/heads/main/screenshots/approvecom-2026-07-25T200843.png
+screenshot: https://apis.io/screenshots/approvecom/approvecom-2026-07-25T200843.png
 security:
 - kind: authentication
   name: Approvecom Authentication

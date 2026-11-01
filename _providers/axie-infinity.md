@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Read-only REST API for Axie Infinity: Origins community game data — list and fetch cards, runes, charms and items; list a user''s fighters and fighter configurations; read burned items; list seasons an'
@@ -47,7 +49,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axie-infinity/refs/heads/main/security/axie-infinity-domain-security.yml
+  href: https://artifacts.apis.io/axie-infinity/security/axie-infinity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/axie-infinity-domain-security.yml
@@ -100,42 +102,42 @@ common:
   type: PrivacyPolicy
   url: https://cdn.skymavis.com/files/skymavis-privacypolicy-10122024.pdf
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/axie-infinity/refs/heads/main/authentication/axie-infinity-authentication.yml
+  href: https://artifacts.apis.io/axie-infinity/authentication/axie-infinity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/axie-infinity-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/axie-infinity/refs/heads/main/conventions/axie-infinity-conventions.yml
+  href: https://artifacts.apis.io/axie-infinity/conventions/axie-infinity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/axie-infinity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/axie-infinity/refs/heads/main/errors/axie-infinity-problem-types.yml
+  href: https://artifacts.apis.io/axie-infinity/errors/axie-infinity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/axie-infinity-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/axie-infinity/refs/heads/main/rate-limits/axie-infinity-rate-limits.yml
+  href: https://artifacts.apis.io/axie-infinity/rate-limits/axie-infinity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/axie-infinity-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/axie-infinity/refs/heads/main/lifecycle/axie-infinity-lifecycle.yml
+  href: https://artifacts.apis.io/axie-infinity/lifecycle/axie-infinity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/axie-infinity-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/axie-infinity/refs/heads/main/conformance/axie-infinity-conformance.yml
+  href: https://artifacts.apis.io/axie-infinity/conformance/axie-infinity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/axie-infinity-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/axie-infinity/refs/heads/main/packages/axie-infinity-packages.yml
+  href: https://artifacts.apis.io/axie-infinity/packages/axie-infinity-packages.yml
   title: ''
   type: Packages
   url: packages/axie-infinity-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/axie-infinity/refs/heads/main/llms/axie-infinity-llms.txt
+  href: https://artifacts.apis.io/axie-infinity/llms/axie-infinity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/axie-infinity-llms.txt
@@ -150,30 +152,30 @@ overview: 'Axie Infinity is listed with 2 APIs on the [APIs.io](https://apis.io/
 
 
   Axie Infinity''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 0
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Axie Infinity Rate Limits
   slug: axie-infinity-rate-limits
 score:
   band: thin
-  composite: 27.5
+  composite: 27.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 69.6
-    operational_transparency: 2.6
-  previous_composite: 27.4
+    discoverability: 62.5
+    operational_transparency: 5.3
+  previous_composite: 27.1
   provenance:
     conformance: derived
   regulatory:
@@ -182,14 +184,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/axie-infinity/refs/heads/main/screenshots/axie-infinity-2026-08-07T162037.png
+screenshot: https://apis.io/screenshots/axie-infinity/axie-infinity-2026-08-07T162037.png
 security:
 - kind: authentication
   name: Axie Infinity Authentication

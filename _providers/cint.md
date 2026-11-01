@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.8
-  scored_at: '2026-10-17'
+  score: 46.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -173,15 +175,12 @@ arazzos:
 - description: Create a project and target group, check feasibility, then launch a fielding run.
   name: Launch a Cint Exchange Target Group
   slug: cint-launch-target-group
-artifact_total: 57
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Cint Webhooks
   slug: cint-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Demand Accounts API
   slug: open-cint-accounts-api
@@ -263,7 +262,7 @@ common:
   type: BlogRSS
   url: https://www.cint.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/capabilities/cint-capability-edges.yml
+  href: https://artifacts.apis.io/cint/capabilities/cint-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cint-capability-edges.yml
@@ -316,87 +315,87 @@ common:
   type: TrustCenter
   url: https://trust.cint.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/security/cint-trust-center.yml
+  href: https://artifacts.apis.io/cint/security/cint-trust-center.yml
   title: ''
   type: Compliance
   url: security/cint-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/security/cint-domain-security.yml
+  href: https://artifacts.apis.io/cint/security/cint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cint-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/agentic-access/cint-agentic-access.yml
+  href: https://artifacts.apis.io/cint/agentic-access/cint-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cint-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/authentication/cint-authentication.yml
+  href: https://artifacts.apis.io/cint/authentication/cint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cint-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/conventions/cint-conventions.yml
+  href: https://artifacts.apis.io/cint/conventions/cint-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cint-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/conventions/cint-conventions.yml
+  href: https://artifacts.apis.io/cint/conventions/cint-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/cint-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/errors/cint-problem-types.yml
+  href: https://artifacts.apis.io/cint/errors/cint-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cint-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/lifecycle/cint-lifecycle.yml
+  href: https://artifacts.apis.io/cint/lifecycle/cint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cint-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/changelog/cint-changelog.yml
+  href: https://artifacts.apis.io/cint/changelog/cint-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cint-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/conformance/cint-conformance.yml
+  href: https://artifacts.apis.io/cint/conformance/cint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cint-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/asyncapi/cint-webhooks.yml
+  href: https://artifacts.apis.io/cint/asyncapi/cint-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cint-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/data-model/cint-data-model.yml
+  href: https://artifacts.apis.io/cint/data-model/cint-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cint-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/mcp/cint-mcp.yml
+  href: https://artifacts.apis.io/cint/mcp/cint-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cint-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cint/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/llms/cint-llms.txt
+  href: https://artifacts.apis.io/cint/llms/cint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cint-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/overlays/cint-demand-overlay.yaml
+  href: https://artifacts.apis.io/cint/overlays/cint-demand-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cint-demand-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/arazzo/cint-launch-target-group.yml
+  href: https://artifacts.apis.io/cint/arazzo/cint-launch-target-group.yml
   title: ''
   type: Arazzo
   url: arazzo/cint-launch-target-group.yml
@@ -415,10 +414,10 @@ overview: 'Cint publishes 25 API contracts indexed on the [APIs.io](https://apis
 
 
   Cint''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 24 more developer resources.'
-random_paper: 12
+random_paper: 22
 score:
   band: developing
-  composite: 53.0
+  composite: 50.8
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -426,15 +425,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 58.3
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 52.9
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -451,13 +450,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/screenshots/cint-2026-07-25T205351.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cint/cint-2026-07-25T205351.png
 security:
 - kind: authentication
   name: Cint Authentication
@@ -471,6 +471,14 @@ security:
   name: Cint Trust Center
   slug: cint-trust-center
   summary_line: ISO 20252:2019, Cyber Essentials
+skill_count: 3
+skills:
+- name: Launch a survey Target Group on the Cint Exchange
+  slug: cint-launch-target-group
+- name: Subscribe to Cint webhook event notifications
+  slug: cint-manage-webhooks
+- name: Reconcile completes on the Cint Exchange
+  slug: cint-reconcile-completes
 slug: cint
 tags:
 - Company

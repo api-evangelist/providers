@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -102,11 +104,8 @@ apis:
   description: The Metrics API from Spring Boot — 3 operation(s) for metrics.
   name: Spring Boot Metrics API
   slug: spring-boot-metrics-api
-artifact_total: 41
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Spring Boot Actuator API
   slug: open-spring-boot-actuator
@@ -142,22 +141,22 @@ collections:
   slug: open-spring-boot-metrics-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/plans/spring-boot-plans-pricing.yml
+  href: https://artifacts.apis.io/spring-boot/plans/spring-boot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spring-boot-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/rate-limits/spring-boot-rate-limits.yml
+  href: https://artifacts.apis.io/spring-boot/rate-limits/spring-boot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spring-boot-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/finops/spring-boot-finops.yml
+  href: https://artifacts.apis.io/spring-boot/finops/spring-boot-finops.yml
   title: ''
   type: FinOps
   url: finops/spring-boot-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/capabilities/spring-boot-capability-edges.yml
+  href: https://artifacts.apis.io/spring-boot/capabilities/spring-boot-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spring-boot-capability-edges.yml
@@ -178,17 +177,17 @@ common:
   type: License
   url: https://github.com/codecentric/spring-boot-admin/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/agentic-access/spring-boot-agentic-access.yml
+  href: https://artifacts.apis.io/spring-boot/agentic-access/spring-boot-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spring-boot-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/security/spring-boot-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/spring-boot/security/spring-boot-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/spring-boot-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/security/spring-boot-domain-security.yml
+  href: https://artifacts.apis.io/spring-boot/security/spring-boot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spring-boot-domain-security.yml
@@ -241,7 +240,7 @@ common:
   type: Spring Initializr
   url: https://start.spring.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/vocabulary/spring-boot-vocabulary.yml
+  href: https://artifacts.apis.io/spring-boot/vocabulary/spring-boot-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/spring-boot-vocabulary.yml
@@ -261,7 +260,7 @@ finops:
 - has_sources: false
   method: generated
   name: Spring Boot Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: spring-boot-finops
   template: true
@@ -301,7 +300,7 @@ plans:
 - name: Spring Boot Plans Pricing
   plan_count: 3
   slug: spring-boot-plans-pricing
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Spring Boot Rate Limits
@@ -332,7 +331,7 @@ rules:
   slug: spring-boot-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.9
+  composite: 34.0
   coverage:
     artifact_dirs: 17
     catalog_earned: 67.0
@@ -340,18 +339,15 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 50.2
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 64.3
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 38.1
+    operational_transparency: 39.5
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -365,13 +361,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/screenshots/spring-boot-2026-06-20T194406.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spring-boot/spring-boot-2026-06-20T194406.png
 security:
 - kind: domain-security
   name: Spring Boot Domain Security

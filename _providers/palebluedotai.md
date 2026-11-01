@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: OpenAI-, Anthropic- and Gemini-compatible inference gateway. One API key and one base URL route requests across 131 listed models from 22 vendors, with cross-provider failover, prompt caching and per-
@@ -45,10 +47,10 @@ apis:
 - description: Administrative API for holders of a Management Key, covering API key listing/enable/disable, per-key spend quota, personal and organization wallet balances, and paginated or CSV usage-log export. Nine
   name: PBD TokenRouter Management API
   slug: pbd-tokenrouter-management-api
-artifact_total: 7
+artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/security/palebluedotai-domain-security.yml
+  href: https://artifacts.apis.io/palebluedotai/security/palebluedotai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/palebluedotai-domain-security.yml
@@ -105,67 +107,75 @@ common:
   type: GitHubOrganization
   url: https://github.com/TokenRouter-Tools
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/changelog/palebluedotai-changelog.yml
+  href: https://artifacts.apis.io/palebluedotai/changelog/palebluedotai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/palebluedotai-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/security/palebluedotai-trust-center.yml
+  href: https://artifacts.apis.io/palebluedotai/security/palebluedotai-trust-center.yml
   title: ''
   type: Compliance
   url: security/palebluedotai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/security/palebluedotai-trust-center.yml
+  href: https://artifacts.apis.io/palebluedotai/security/palebluedotai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/palebluedotai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/authentication/palebluedotai-authentication.yml
+  href: https://artifacts.apis.io/palebluedotai/authentication/palebluedotai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/palebluedotai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/errors/palebluedotai-error-codes.yml
+  href: https://artifacts.apis.io/palebluedotai/errors/palebluedotai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/palebluedotai-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/rate-limits/palebluedotai-rate-limits.yml
+  href: https://artifacts.apis.io/palebluedotai/rate-limits/palebluedotai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/palebluedotai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/plans/palebluedotai-plans-pricing.yml
+  href: https://artifacts.apis.io/palebluedotai/plans/palebluedotai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/palebluedotai-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/conventions/palebluedotai-conventions.yml
+  href: https://artifacts.apis.io/palebluedotai/conventions/palebluedotai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/palebluedotai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/conformance/palebluedotai-conformance.yml
+  href: https://artifacts.apis.io/palebluedotai/conformance/palebluedotai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/palebluedotai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/data-model/palebluedotai-data-model.yml
+  href: https://artifacts.apis.io/palebluedotai/data-model/palebluedotai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/palebluedotai-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/packages/palebluedotai-packages.yml
+  href: https://artifacts.apis.io/palebluedotai/packages/palebluedotai-packages.yml
   title: ''
   type: Packages
   url: packages/palebluedotai-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/llms/palebluedotai-llms.txt
+  href: https://artifacts.apis.io/palebluedotai/llms/palebluedotai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/palebluedotai-llms.txt
 created: '2026-08-26'
 description: PaleBlueDot AI is a Palo Alto, California headquartered AI compute and intelligence platform that supplies GPU infrastructure, dedicated clusters and model access at scale. Its developer-facing product is PBD TokenRouter (www.tokenrouter.com), a unified AI model gateway that fronts 131 currently listed models from 22 vendors behind a single API key and four wire formats - OpenAI Chat Completions, OpenAI Responses, Anthropic Messages and Google Gemini generateContent - alongside image, audio and video generation endpoints. TokenRouter layers cross-provider routing and failover, prompt caching, per-key spend quotas, organization-level usage analytics and a stated Zero Data Retention policy on top of those models, and publishes a documented Management API for API key, quota, wallet and usage-log administration. The TokenRouter platform is operated by Artemis Tokenrouter Inc.
+finops:
+- has_sources: true
+  method: derived
+  name: Palebluedotai Finops
+  primary_unit: 1m tokens
+  service_category: ''
+  slug: palebluedotai-finops
+  template: false
 image: https://www.palebluedot.ai/figma/pbd-home/logo.png
 layout: provider
 modified: '2026-08-26'
@@ -178,32 +188,35 @@ overview: 'PaleBlueDot.AI is listed with 2 APIs on the [APIs.io](https://apis.io
   PaleBlueDot.AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, changelog, and 19 more developer resources.'
 plans:
 - name: Palebluedotai Plans Pricing
-  plan_count: 2
+  plan_count: 7
   slug: palebluedotai-plans-pricing
-random_paper: 7
+- name: Palebluedotai Price Estimates
+  plan_count: 0
+  slug: palebluedotai-price-estimates
+random_paper: 3
 rate_limits:
 - limit_count: 10
   name: Palebluedotai Rate Limits
   slug: palebluedotai-rate-limits
 score:
   band: developing
-  composite: 42.4
+  composite: 48.9
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 57.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    artifact_dirs: 17
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 3.7
   facets:
-    access_clarity: 75.0
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 47.6
-    discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 42.3
+    developer_ergonomics: 57.1
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 45.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -213,14 +226,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/screenshots/palebluedotai-2026-09-02T150903.png
+screenshot: https://apis.io/screenshots/palebluedotai/palebluedotai-2026-09-02T150903.png
 security:
 - kind: authentication
   name: Palebluedotai Authentication

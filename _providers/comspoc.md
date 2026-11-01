@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: COMSPOC provides API access to space situational awareness data, but no machine‑readable contract was found.
@@ -32,17 +34,17 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/comspoc/refs/heads/main/llms/comspoc-llms.txt
+  href: https://artifacts.apis.io/comspoc/llms/comspoc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/comspoc-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/comspoc/refs/heads/main/hosts/comspoc-hosts.yml
+  href: https://artifacts.apis.io/comspoc/hosts/comspoc-hosts.yml
   title: ''
   type: Hosts
   url: hosts/comspoc-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/comspoc/refs/heads/main/security/comspoc-domain-security.yml
+  href: https://artifacts.apis.io/comspoc/security/comspoc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/comspoc-domain-security.yml
@@ -71,10 +73,10 @@ name: COMSPOC
 nav: Providers
 network: true
 overview: COMSPOC is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, SSA, Software, and Data.
-random_paper: 8
+random_paper: 12
 score:
   band: minimal
-  composite: 10.4
+  composite: 9.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 32.0
@@ -88,9 +90,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 10.4
+  previous_composite: 9.7
   provenance:
     mcp: unknown
   regulatory:
@@ -99,14 +101,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/comspoc/refs/heads/main/screenshots/comspoc-2026-10-11T103204.png
+screenshot: https://apis.io/screenshots/comspoc/comspoc-2026-10-11T103204.png
 security:
 - kind: domain-security
   name: Comspoc Domain Security

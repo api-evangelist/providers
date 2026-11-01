@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.3
-  scored_at: '2026-10-17'
+  score: 25.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,9 +53,6 @@ apis:
 artifact_total: 6
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: TrueAccord Recover Customers API
   slug: open-trueaccord-customers-api
 common:
@@ -62,7 +61,7 @@ common:
   type: Pricing
   url: https://www.trueaccord.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/plans/trueaccord-plans-pricing.yml
+  href: https://artifacts.apis.io/trueaccord/plans/trueaccord-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trueaccord-plans-pricing.yml
@@ -75,7 +74,7 @@ common:
   type: BlogRSS
   url: https://www.trueaccord.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/capabilities/trueaccord-capability-edges.yml
+  href: https://artifacts.apis.io/trueaccord/capabilities/trueaccord-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/trueaccord-capability-edges.yml
@@ -112,62 +111,62 @@ common:
   type: Compliance
   url: https://www.trueaccord.com/it-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/authentication/trueaccord-authentication.yml
+  href: https://artifacts.apis.io/trueaccord/authentication/trueaccord-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trueaccord-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/conventions/trueaccord-conventions.yml
+  href: https://artifacts.apis.io/trueaccord/conventions/trueaccord-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trueaccord-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/conventions/trueaccord-conventions.yml
+  href: https://artifacts.apis.io/trueaccord/conventions/trueaccord-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/trueaccord-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/errors/trueaccord-problem-types.yml
+  href: https://artifacts.apis.io/trueaccord/errors/trueaccord-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/trueaccord-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/lifecycle/trueaccord-lifecycle.yml
+  href: https://artifacts.apis.io/trueaccord/lifecycle/trueaccord-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trueaccord-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/conformance/trueaccord-conformance.yml
+  href: https://artifacts.apis.io/trueaccord/conformance/trueaccord-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trueaccord-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/data-model/trueaccord-data-model.yml
+  href: https://artifacts.apis.io/trueaccord/data-model/trueaccord-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trueaccord-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/mcp/trueaccord-mcp.yml
+  href: https://artifacts.apis.io/trueaccord/mcp/trueaccord-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/trueaccord-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/llms/trueaccord-llms.txt
+  href: https://artifacts.apis.io/trueaccord/llms/trueaccord-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trueaccord-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/overlays/trueaccord-recover-overlay.yaml
+  href: https://artifacts.apis.io/trueaccord/overlays/trueaccord-recover-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/trueaccord-recover-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/agentic-access/trueaccord-agentic-access.yml
+  href: https://artifacts.apis.io/trueaccord/agentic-access/trueaccord-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trueaccord-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/trueaccord/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -190,7 +189,7 @@ plans:
 random_paper: 12
 score:
   band: thin
-  composite: 35.3
+  composite: 37.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -198,15 +197,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 39.5
     contract_governance: 4.5
     contract_quality: 52.0
     developer_ergonomics: 42.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 33.1
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -222,19 +221,24 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 21.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/trueaccord/refs/heads/main/screenshots/trueaccord-2026-09-02T164334.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/trueaccord/trueaccord-2026-09-02T164334.png
 security:
 - kind: authentication
   name: Trueaccord Authentication
   slug: trueaccord-authentication
   summary_line: http · 1 scheme
+skill_count: 1
+skills:
+- name: Place a customer and debt, then track it
+  slug: trueaccord-place-and-track-debt
 slug: trueaccord
 tags:
 - Company

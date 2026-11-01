@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'OAuth-protected Model Context Protocol (JSON-RPC 2.0) server exposing Fibe''s consumer lending platform to AI agents. Advertised scopes: loan.read (read loan/eligibility information) and loan.apply (su'
@@ -42,27 +44,27 @@ apis:
 artifact_total: 4
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fibe/refs/heads/main/mcp/fibe-mcp.yml
+  href: https://artifacts.apis.io/fibe/mcp/fibe-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fibe-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fibe/refs/heads/main/authentication/fibe-authentication.yml
+  href: https://artifacts.apis.io/fibe/authentication/fibe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fibe-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fibe/refs/heads/main/scopes/fibe-scopes.yml
+  href: https://artifacts.apis.io/fibe/scopes/fibe-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fibe-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fibe/refs/heads/main/well-known/fibe-well-known.yml
+  href: https://artifacts.apis.io/fibe/well-known/fibe-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fibe-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fibe/refs/heads/main/conformance/fibe-conformance.yml
+  href: https://artifacts.apis.io/fibe/conformance/fibe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fibe-conformance.yml
@@ -71,12 +73,12 @@ common:
   type: Compliance
   url: https://www.fibe.in/about-us/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fibe/refs/heads/main/llms/fibe-llms.txt
+  href: https://artifacts.apis.io/fibe/llms/fibe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fibe-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fibe/refs/heads/main/security/fibe-domain-security.yml
+  href: https://artifacts.apis.io/fibe/security/fibe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fibe-domain-security.yml
@@ -120,15 +122,15 @@ overview: 'Fibe is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Fibe''s developer surface includes authentication, engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 10
+random_paper: 22
 scopes:
 - name: Fibe Scopes
   scope_count: 2
   slug: fibe-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 25.5
+  band: thin
+  composite: 26.5
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -136,13 +138,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 75.0
+    developer_ergonomics: 28.6
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -151,7 +153,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 25.4
+  previous_composite: 26.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -161,14 +163,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fibe/refs/heads/main/screenshots/fibe-2026-07-25T214400.png
+screenshot: https://apis.io/screenshots/fibe/fibe-2026-07-25T214400.png
 security:
 - kind: authentication
   name: Fibe Authentication

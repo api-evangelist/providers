@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.8
-  scored_at: '2026-10-17'
+  score: 24.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The University of Michigan's own Shibboleth SAML 2.0 identity provider, and the most unambiguously institution-operated machine-readable surface U-M publishes. GET https://shibboleth.umich.edu/idp/shi
@@ -61,6 +63,11 @@ apis:
   slug: university-of-michigan-ann-arbor-repository-api
 artifact_total: 16
 common:
+- group: other
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/capabilities/university-of-michigan-ann-arbor-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/university-of-michigan-ann-arbor-capability-edges.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -86,7 +93,7 @@ common:
   type: Support
   url: https://its.umich.edu/data/data-database/api-directory/support
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/authentication/university-of-michigan-ann-arbor-authentication.yml
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/authentication/university-of-michigan-ann-arbor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-michigan-ann-arbor-authentication.yml
@@ -151,77 +158,77 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-michigan/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/openapi/_original/university-of-michigan-ann-arbor-deep-blue-documents-oai-pmh-openapi.yml
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/openapi/_original/university-of-michigan-ann-arbor-deep-blue-documents-oai-pmh-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/university-of-michigan-ann-arbor-deep-blue-documents-oai-pmh-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/json-schema/university-of-michigan-ann-arbor-oai-pmh-schema.json
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/json-schema/university-of-michigan-ann-arbor-oai-pmh-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/university-of-michigan-ann-arbor-oai-pmh-schema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/examples/deep-blue-documents-oai-identify.xml
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/examples/deep-blue-documents-oai-identify.xml
   title: ''
   type: Examples
   url: examples/deep-blue-documents-oai-identify.xml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/vocabulary/university-of-michigan-ann-arbor-vocabulary.yml
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/vocabulary/university-of-michigan-ann-arbor-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/university-of-michigan-ann-arbor-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/rules/university-of-michigan-ann-arbor-rules.yml
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/rules/university-of-michigan-ann-arbor-rules.yml
   title: ''
   type: Rules
   url: rules/university-of-michigan-ann-arbor-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/errors/university-of-michigan-ann-arbor-errors.yml
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/errors/university-of-michigan-ann-arbor-errors.yml
   title: ''
   type: ErrorCodes
   url: errors/university-of-michigan-ann-arbor-errors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/scopes/university-of-michigan-ann-arbor-scopes.yml
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/scopes/university-of-michigan-ann-arbor-scopes.yml
   title: ''
   type: Scopes
   url: scopes/university-of-michigan-ann-arbor-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/conformance/university-of-michigan-ann-arbor-conformance.yml
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/conformance/university-of-michigan-ann-arbor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-michigan-ann-arbor-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/lifecycle/university-of-michigan-ann-arbor-lifecycle.yml
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/lifecycle/university-of-michigan-ann-arbor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/university-of-michigan-ann-arbor-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/security/university-of-michigan-ann-arbor-domain-security.yml
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/security/university-of-michigan-ann-arbor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-michigan-ann-arbor-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/plans/university-of-michigan-ann-arbor-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/plans/university-of-michigan-ann-arbor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-michigan-ann-arbor-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/rate-limits/university-of-michigan-ann-arbor-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/rate-limits/university-of-michigan-ann-arbor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-michigan-ann-arbor-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/finops/university-of-michigan-ann-arbor-finops.yml
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/finops/university-of-michigan-ann-arbor-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-michigan-ann-arbor-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/json-ld/university-of-michigan-ann-arbor-context.jsonld
+  href: https://artifacts.apis.io/university-of-michigan-ann-arbor/json-ld/university-of-michigan-ann-arbor-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/university-of-michigan-ann-arbor-context.jsonld
@@ -307,12 +314,12 @@ overview: 'University of Michigan-Ann Arbor publishes 7 API contracts indexed on
   The University of Michigan-Ann Arbor catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  University of Michigan-Ann Arbor''s developer surface includes documentation, support, authentication, code examples, and 33 more developer resources.'
+  University of Michigan-Ann Arbor''s developer surface includes documentation, support, authentication, code examples, and 34 more developer resources.'
 plans:
 - name: University Of Michigan Ann Arbor Plans Pricing
   plan_count: 2
   slug: university-of-michigan-ann-arbor-plans-pricing
-random_paper: 8
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: University Of Michigan Ann Arbor Rate Limits
@@ -337,22 +344,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.3
+  composite: 42.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 54.3
     catalog_earned_first_party: 5.0
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -10.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 44.7
     contract_quality: 58.2
     developer_ergonomics: 47.6
     discoverability: 57.1
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -360,7 +367,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 52.6
+  previous_composite: 42.6
   provenance:
     conformance: first-party
     contracts:
@@ -374,14 +381,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 38.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/screenshots/university-of-michigan-ann-arbor-2026-10-11T131446.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/university-of-michigan-ann-arbor/university-of-michigan-ann-arbor-2026-10-11T131446.png
 security:
 - kind: authentication
   name: University Of Michigan Ann Arbor Authentication

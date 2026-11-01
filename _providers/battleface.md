@@ -14,31 +14,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/battleface/refs/heads/main/llms/battleface-llms.txt
+  href: https://artifacts.apis.io/battleface/llms/battleface-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/battleface-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/battleface/refs/heads/main/hosts/battleface-hosts.yml
+  href: https://artifacts.apis.io/battleface/hosts/battleface-hosts.yml
   title: ''
   type: Hosts
   url: hosts/battleface-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/battleface/refs/heads/main/vendors/battleface-vendors.yml
+  href: https://artifacts.apis.io/battleface/vendors/battleface-vendors.yml
   title: ''
   type: Vendors
   url: vendors/battleface-vendors.yml
@@ -47,7 +49,7 @@ common:
   type: Newsroom
   url: https://www.battleface.com/en-us/media/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/battleface/refs/heads/main/security/battleface-domain-security.yml
+  href: https://artifacts.apis.io/battleface/security/battleface-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/battleface-domain-security.yml
@@ -103,10 +105,10 @@ overview: 'Battleface is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Battleface''s developer surface includes documentation, API reference, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 1
+random_paper: 3
 score:
   band: emerging
-  composite: 17.1
+  composite: 16.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -120,14 +122,14 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - global
-  previous_composite: 17.1
+  previous_composite: 16.4
   provenance:
     mcp: unknown
   regulatory:
@@ -136,14 +138,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/battleface/refs/heads/main/screenshots/battleface-2026-10-11T101624.png
+screenshot: https://apis.io/screenshots/battleface/battleface-2026-10-11T101624.png
 security:
 - kind: domain-security
   name: Battleface Domain Security

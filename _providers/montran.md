@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -231,11 +233,8 @@ apis:
   description: Virtual IBAN issuance and management
   name: Montran Virtual IBANs API
   slug: montran-virtual-ibans-api
-artifact_total: 185
+artifact_total: 184
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Montran Corporate Payments Portal Account Information API
   slug: open-montran-account-information-api
@@ -342,43 +341,47 @@ collections:
   name: Montran Corporate Payments Portal Account Information Virtual IBANs API
   slug: open-montran-virtual-ibans-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/montran/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/plans/montran-plans-pricing.yml
+  href: https://artifacts.apis.io/montran/plans/montran-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/montran-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/rate-limits/montran-rate-limits.yml
+  href: https://artifacts.apis.io/montran/rate-limits/montran-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/montran-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/finops/montran-finops.yml
+  href: https://artifacts.apis.io/montran/finops/montran-finops.yml
   title: ''
   type: FinOps
   url: finops/montran-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/capabilities/montran-capability-edges.yml
+  href: https://artifacts.apis.io/montran/capabilities/montran-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/montran-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/agentic-access/montran-agentic-access.yml
+  href: https://artifacts.apis.io/montran/agentic-access/montran-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/montran-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/security/montran-domain-security.yml
+  href: https://artifacts.apis.io/montran/security/montran-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/montran-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/authentication/montran-authentication.yml
+  href: https://artifacts.apis.io/montran/authentication/montran-authentication.yml
   title: ''
   type: Authentication
   url: authentication/montran-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/scopes/montran-scopes.yml
+  href: https://artifacts.apis.io/montran/scopes/montran-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/montran-scopes.yml
@@ -746,12 +749,12 @@ overview: 'Montran publishes 43 API contracts indexed on the [APIs.io](https://a
   The Montran catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Montran''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 14 more developer resources.'
+  Montran''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 15 more developer resources.'
 plans:
 - name: Montran Plans Pricing
   plan_count: 1
   slug: montran-plans-pricing
-random_paper: 19
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Montran Rate Limits
@@ -775,7 +778,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.1
+  composite: 39.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 56.3
@@ -783,15 +786,15 @@ score:
     catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.3
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 59.1
-    developer_ergonomics: 38.1
+    developer_ergonomics: 39.3
     discoverability: 69.6
     operational_transparency: 5.3
-  previous_composite: 39.7
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -805,13 +808,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 36.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/screenshots/montran-2026-06-20T185750.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/montran/montran-2026-06-20T185750.png
 security:
 - kind: authentication
   name: Montran Authentication

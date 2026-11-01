@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-17'
+  score: 26.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 23
   slug: bear-robotics-agentic-access
   summary_line: 23 operations · 23 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: The on-robot gRPC service for direct local control of a Bear robot, used where the cloud is not in the path. 23 RPCs covering drive/twist commands, odometry, battery and robot status, missions, settin
   name: Bear Base API
@@ -87,15 +89,12 @@ apis:
   description: Servi-specific operations
   name: Bear Robotics Servi API
   slug: bear-robotics-servi-api
-artifact_total: 23
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Bear Robotics Webhooks
   slug: bear-robotics-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bear Cloud Carti API
   slug: open-bear-robotics-carti-api
@@ -129,7 +128,7 @@ common:
   type: BlogRSS
   url: https://www.bearrobotics.ai/blog?format=rss
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/mcp/bear-robotics-mcp.yml
+  href: https://artifacts.apis.io/bear-robotics/mcp/bear-robotics-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bear-robotics-mcp.yml
@@ -178,87 +177,87 @@ common:
   type: PrivacyPolicy
   url: https://www.bearrobotics.ai/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/authentication/bear-robotics-authentication.yml
+  href: https://artifacts.apis.io/bear-robotics/authentication/bear-robotics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bear-robotics-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/conventions/bear-robotics-conventions.yml
+  href: https://artifacts.apis.io/bear-robotics/conventions/bear-robotics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bear-robotics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/errors/bear-robotics-problem-types.yml
+  href: https://artifacts.apis.io/bear-robotics/errors/bear-robotics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bear-robotics-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/lifecycle/bear-robotics-lifecycle.yml
+  href: https://artifacts.apis.io/bear-robotics/lifecycle/bear-robotics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bear-robotics-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/lifecycle/bear-robotics-lifecycle.yml
+  href: https://artifacts.apis.io/bear-robotics/lifecycle/bear-robotics-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/bear-robotics-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/changelog/bear-robotics-changelog.yml
+  href: https://artifacts.apis.io/bear-robotics/changelog/bear-robotics-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bear-robotics-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/conformance/bear-robotics-conformance.yml
+  href: https://artifacts.apis.io/bear-robotics/conformance/bear-robotics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bear-robotics-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/data-model/bear-robotics-data-model.yml
+  href: https://artifacts.apis.io/bear-robotics/data-model/bear-robotics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bear-robotics-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/packages/bear-robotics-packages.yml
+  href: https://artifacts.apis.io/bear-robotics/packages/bear-robotics-packages.yml
   title: ''
   type: Packages
   url: packages/bear-robotics-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/packages/bear-robotics-packages.yml
+  href: https://artifacts.apis.io/bear-robotics/packages/bear-robotics-packages.yml
   title: ''
   type: SDKs
   url: packages/bear-robotics-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/grpc/v1/bear-robotics-services-cloud-api_service.proto
+  href: https://artifacts.apis.io/bear-robotics/grpc/v1/bear-robotics-services-cloud-api_service.proto
   title: ''
   type: Protobuf
   url: grpc/v1/bear-robotics-services-cloud-api_service.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/overlays/bear-robotics-cloud-overlay.yaml
+  href: https://artifacts.apis.io/bear-robotics/overlays/bear-robotics-cloud-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bear-robotics-cloud-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/asyncapi/bear-robotics-webhooks.yml
+  href: https://artifacts.apis.io/bear-robotics/asyncapi/bear-robotics-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bear-robotics-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bear-robotics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/llms/bear-robotics-llms.txt
+  href: https://artifacts.apis.io/bear-robotics/llms/bear-robotics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bear-robotics-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/agentic-access/bear-robotics-agentic-access.yml
+  href: https://artifacts.apis.io/bear-robotics/agentic-access/bear-robotics-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bear-robotics-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/security/bear-robotics-domain-security.yml
+  href: https://artifacts.apis.io/bear-robotics/security/bear-robotics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bear-robotics-domain-security.yml
@@ -281,22 +280,22 @@ overview: 'Bear Robotics publishes 9 API contracts indexed on the [APIs.io](http
 random_paper: 4
 score:
   band: developing
-  composite: 45.1
+  composite: 47.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 56.1
     developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 34.2
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -304,7 +303,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 45.0
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,13 +320,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/screenshots/bear-robotics-2026-08-07T162236.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bear-robotics/bear-robotics-2026-08-07T162236.png
 security:
 - kind: authentication
   name: Bear Robotics Authentication
@@ -337,6 +337,16 @@ security:
   name: Bear Robotics Domain Security
   slug: bear-robotics-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: Dispatch a Servi delivery mission
+  slug: bear-robotics-dispatch-delivery-mission
+- name: Manage maps and locations
+  slug: bear-robotics-manage-maps-and-locations
+- name: Monitor fleet health
+  slug: bear-robotics-monitor-fleet-health
+- name: Receive robot events by webhook
+  slug: bear-robotics-receive-robot-events
 slug: bear-robotics
 tags:
 - Robotics

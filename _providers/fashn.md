@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,11 +52,8 @@ apis:
   description: The Predictions API from FASHN AI — 2 operation(s) for predictions.
   name: FASHN AI Predictions API
   slug: fashn-predictions-api
-artifact_total: 10
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: FASHN AI Predictions API
   slug: open-fashn-predictions-api
@@ -63,32 +62,32 @@ collections:
   slug: open-fashn
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fashn/refs/heads/main/plans/fashn-plans-pricing.yml
+  href: https://artifacts.apis.io/fashn/plans/fashn-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fashn-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fashn/refs/heads/main/rate-limits/fashn-rate-limits.yml
+  href: https://artifacts.apis.io/fashn/rate-limits/fashn-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fashn-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fashn/refs/heads/main/finops/fashn-finops.yml
+  href: https://artifacts.apis.io/fashn/finops/fashn-finops.yml
   title: ''
   type: FinOps
   url: finops/fashn-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fashn/refs/heads/main/agentic-access/fashn-agentic-access.yml
+  href: https://artifacts.apis.io/fashn/agentic-access/fashn-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fashn-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fashn/refs/heads/main/security/fashn-domain-security.yml
+  href: https://artifacts.apis.io/fashn/security/fashn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fashn-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fashn/refs/heads/main/authentication/fashn-authentication.yml
+  href: https://artifacts.apis.io/fashn/authentication/fashn-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fashn-authentication.yml
@@ -130,7 +129,7 @@ finops:
 - has_sources: false
   method: generated
   name: Fashn Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: fashn-finops
   template: true
@@ -155,7 +154,7 @@ rate_limits:
   slug: fashn-rate-limits
 score:
   band: thin
-  composite: 28.0
+  composite: 31.1
   coverage:
     artifact_dirs: 13
     catalog_earned: 38.0
@@ -163,35 +162,36 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 51.4
-    developer_ergonomics: 35.7
+    contract_quality: 55.7
+    developer_ergonomics: 40.5
     discoverability: 64.3
-    operational_transparency: 10.5
-  previous_composite: 29.5
+    operational_transparency: 13.2
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fashn/refs/heads/main/screenshots/fashn-2026-06-20T181047.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fashn/fashn-2026-06-20T181047.png
 security:
 - kind: authentication
   name: Fashn Authentication

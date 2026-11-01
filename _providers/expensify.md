@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,11 +52,8 @@ apis:
   description: The Integrations API from Expensify — 1 operation(s) for integrations.
   name: Expensify Integrations API
   slug: expensify-integrations-api
-artifact_total: 7
+artifact_total: 6
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Expensify Integration Server Integrations API
   slug: open-expensify-integrations-api
@@ -63,12 +62,12 @@ collections:
   slug: open-expensify
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/expensify/refs/heads/main/agentic-access/expensify-agentic-access.yml
+  href: https://artifacts.apis.io/expensify/agentic-access/expensify-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/expensify-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/expensify/refs/heads/main/security/expensify-domain-security.yml
+  href: https://artifacts.apis.io/expensify/security/expensify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/expensify-domain-security.yml
@@ -120,10 +119,10 @@ overview: 'Expensify publishes 2 API contracts indexed on the [APIs.io](https://
 
 
   Expensify''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 6 more developer resources.'
-random_paper: 19
+random_paper: 3
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 27.9
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -136,10 +135,10 @@ score:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 49.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 24.9
+    operational_transparency: 5.3
+  previous_composite: 27.9
   provenance:
     agentic_access: derived
     contracts:
@@ -153,13 +152,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/expensify/refs/heads/main/screenshots/expensify-2026-06-20T180939.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/expensify/expensify-2026-06-20T180939.png
 security:
 - kind: domain-security
   name: Expensify Domain Security

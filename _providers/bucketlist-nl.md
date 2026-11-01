@@ -9,91 +9,93 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.9
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 14.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://bucketlist.nl
   baseurl_source: spec
   description: The Droom Van De Dag API from Bucketlist.nl Dream of the Day API — 1 operation(s) for droom van de dag.
   name: Bucketlist.nl Dream of the Day API Droom Van De Dag API
   slug: bucketlist-nl-droom-van-de-dag-api
-artifact_total: 4
+artifact_total: 5
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://bucketlist.nl/feed.xml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/rules/bucketlist-nl-rules.yml
+  href: https://artifacts.apis.io/bucketlist-nl/rules/bucketlist-nl-rules.yml
   title: ''
   type: Spectral
   url: rules/bucketlist-nl-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/json-ld/bucketlist-nl-context.jsonld
+  href: https://artifacts.apis.io/bucketlist-nl/json-ld/bucketlist-nl-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bucketlist-nl-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/vocabulary/bucketlist-nl-vocabulary.yml
+  href: https://artifacts.apis.io/bucketlist-nl/vocabulary/bucketlist-nl-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bucketlist-nl-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bucketlist-nl/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/data-model/bucketlist-nl-data-model.yml
+  href: https://artifacts.apis.io/bucketlist-nl/data-model/bucketlist-nl-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bucketlist-nl-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/errors/bucketlist-nl-problem-types.yml
+  href: https://artifacts.apis.io/bucketlist-nl/errors/bucketlist-nl-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bucketlist-nl-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/conformance/bucketlist-nl-conformance.yml
+  href: https://artifacts.apis.io/bucketlist-nl/conformance/bucketlist-nl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bucketlist-nl-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/overlays/bucketlist-nl-droom-van-de-dag-overlay.yaml
+  href: https://artifacts.apis.io/bucketlist-nl/overlays/bucketlist-nl-droom-van-de-dag-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bucketlist-nl-droom-van-de-dag-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/llms/bucketlist-nl-llms.txt
+  href: https://artifacts.apis.io/bucketlist-nl/llms/bucketlist-nl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bucketlist-nl-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/well-known/bucketlist-nl-well-known.yml
+  href: https://artifacts.apis.io/bucketlist-nl/well-known/bucketlist-nl-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bucketlist-nl-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/hosts/bucketlist-nl-hosts.yml
+  href: https://artifacts.apis.io/bucketlist-nl/hosts/bucketlist-nl-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bucketlist-nl-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/vendors/bucketlist-nl-vendors.yml
+  href: https://artifacts.apis.io/bucketlist-nl/vendors/bucketlist-nl-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bucketlist-nl-vendors.yml
@@ -114,7 +116,7 @@ common:
   type: SignUp
   url: https://bucketlist.nl/registratie
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/security/bucketlist-nl-domain-security.yml
+  href: https://artifacts.apis.io/bucketlist-nl/security/bucketlist-nl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bucketlist-nl-domain-security.yml
@@ -162,7 +164,7 @@ overview: 'Bucketlist.nl Dream of the Day API publishes 1 API contract indexed o
 
 
   Bucketlist.nl Dream of the Day API''s developer surface includes signup flow, getting-started guide, support, and 20 more developer resources.'
-random_paper: 3
+random_paper: 1
 rules:
 - authorship: generated
   effective_rule_count: 53
@@ -178,7 +180,7 @@ rules:
   slug: bucketlist-nl-rules
 score:
   band: thin
-  composite: 32.2
+  composite: 31.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.8
@@ -186,13 +188,13 @@ score:
     catalog_gap: 77.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 22.0
     contract_quality: 48.1
     developer_ergonomics: 23.2
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -202,7 +204,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 32.1
+  previous_composite: 31.5
   provenance:
     conformance: derived
     contracts:
@@ -218,19 +220,23 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/screenshots/bucketlist-nl-2026-10-11T102619.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bucketlist-nl/bucketlist-nl-2026-10-11T102619.png
 security:
 - kind: domain-security
   name: Bucketlist Nl Domain Security
   slug: bucketlist-nl-domain-security
   summary_line: TLSv1.3
+skill_count: 1
+skills:
+- name: dream-of-the-day
+  slug: bucketlist-nl-dream-of-the-day
 slug: bucketlist-nl
 tags:
 - Company

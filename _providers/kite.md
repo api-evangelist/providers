@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: EVM-compatible JSON-RPC interface for Kite Chain mainnet (chain ID 2366, native token KITE), available over HTTPS and WSS from a global endpoint plus Virginia, Tokyo, and Ireland regional endpoints.
@@ -100,82 +102,82 @@ common:
   type: Whitepaper
   url: https://gokite.ai/kite-whitepaper
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/llms/kite-llms.txt
+  href: https://artifacts.apis.io/kite/llms/kite-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kite-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/mcp/kite-mcp.yml
+  href: https://artifacts.apis.io/kite/mcp/kite-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kite-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/cli/kite-cli.yml
+  href: https://artifacts.apis.io/kite/cli/kite-cli.yml
   title: ''
   type: CLI
   url: cli/kite-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/packages/kite-packages.yml
+  href: https://artifacts.apis.io/kite/packages/kite-packages.yml
   title: ''
   type: Packages
   url: packages/kite-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/packages/kite-packages.yml
+  href: https://artifacts.apis.io/kite/packages/kite-packages.yml
   title: ''
   type: SDKs
   url: packages/kite-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kite/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/changelog/kite-changelog.yml
+  href: https://artifacts.apis.io/kite/changelog/kite-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kite-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/lifecycle/kite-lifecycle.yml
+  href: https://artifacts.apis.io/kite/lifecycle/kite-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kite-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/conventions/kite-conventions.yml
+  href: https://artifacts.apis.io/kite/conventions/kite-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kite-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/conventions/kite-conventions.yml
+  href: https://artifacts.apis.io/kite/conventions/kite-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/kite-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/authentication/kite-authentication.yml
+  href: https://artifacts.apis.io/kite/authentication/kite-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kite-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/errors/kite-problem-types.yml
+  href: https://artifacts.apis.io/kite/errors/kite-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kite-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/conformance/kite-conformance.yml
+  href: https://artifacts.apis.io/kite/conformance/kite-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kite-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/sandbox/kite-sandbox.yml
+  href: https://artifacts.apis.io/kite/sandbox/kite-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kite-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/well-known/kite-well-known.yml
+  href: https://artifacts.apis.io/kite/well-known/kite-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kite-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/security/kite-domain-security.yml
+  href: https://artifacts.apis.io/kite/security/kite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kite-domain-security.yml
@@ -199,26 +201,26 @@ overview: 'Kite is listed with 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Kite''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, CLI, changelog, and 23 more developer resources.'
-random_paper: 11
+random_paper: 21
 score:
   band: thin
-  composite: 33.7
+  composite: 37.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 73.8
-    discoverability: 76.7
-    operational_transparency: 34.2
-  previous_composite: 33.2
+    developer_ergonomics: 81.0
+    discoverability: 70.0
+    operational_transparency: 36.8
+  previous_composite: 37.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -229,14 +231,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/screenshots/kite-2026-07-25T223907.png
+screenshot: https://apis.io/screenshots/kite/kite-2026-07-25T223907.png
 security:
 - kind: authentication
   name: Kite Authentication

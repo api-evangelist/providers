@@ -14,31 +14,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blackcircle/refs/heads/main/hosts/blackcircle-hosts.yml
+  href: https://artifacts.apis.io/blackcircle/hosts/blackcircle-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blackcircle-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blackcircle/refs/heads/main/vendors/blackcircle-vendors.yml
+  href: https://artifacts.apis.io/blackcircle/vendors/blackcircle-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blackcircle-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackcircle/refs/heads/main/security/blackcircle-domain-security.yml
+  href: https://artifacts.apis.io/blackcircle/security/blackcircle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blackcircle-domain-security.yml
@@ -86,7 +88,7 @@ overview: 'Blackcircle is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Blackcircle''s developer surface includes getting-started guide, signup flow, and 7 more developer resources.'
-random_paper: 13
+random_paper: 7
 score:
   band: emerging
   composite: 13.6
@@ -114,8 +116,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

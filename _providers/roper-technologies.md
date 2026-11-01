@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 9
 apis:
 - description: Aderant provides comprehensive business management software for law firms and professional services organizations. Its API surfaces support matter management, time and billing, financial reporting, bu
@@ -66,22 +68,22 @@ apis:
 artifact_total: 17
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/roper-technologies/refs/heads/main/plans/roper-technologies-plans-pricing.yml
+  href: https://artifacts.apis.io/roper-technologies/plans/roper-technologies-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/roper-technologies-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/roper-technologies/refs/heads/main/rate-limits/roper-technologies-rate-limits.yml
+  href: https://artifacts.apis.io/roper-technologies/rate-limits/roper-technologies-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/roper-technologies-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/roper-technologies/refs/heads/main/finops/roper-technologies-finops.yml
+  href: https://artifacts.apis.io/roper-technologies/finops/roper-technologies-finops.yml
   title: ''
   type: FinOps
   url: finops/roper-technologies-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/roper-technologies/refs/heads/main/security/roper-technologies-domain-security.yml
+  href: https://artifacts.apis.io/roper-technologies/security/roper-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/roper-technologies-domain-security.yml
@@ -98,22 +100,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/roper-technologies
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roper-technologies/refs/heads/main/vocabulary/roper-technologies-vocabulary.yml
+  href: https://artifacts.apis.io/roper-technologies/vocabulary/roper-technologies-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/roper-technologies-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roper-technologies/refs/heads/main/json-ld/roper-technologies-context.jsonld
+  href: https://artifacts.apis.io/roper-technologies/json-ld/roper-technologies-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/roper-technologies-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/roper-technologies/refs/heads/main/json-schema/roper-technologies-company-schema.json
+  href: https://artifacts.apis.io/roper-technologies/json-schema/roper-technologies-company-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/roper-technologies-company-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/roper-technologies/refs/heads/main/json-structure/roper-technologies-company-structure.json
+  href: https://artifacts.apis.io/roper-technologies/json-structure/roper-technologies-company-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/roper-technologies-company-structure.json
@@ -170,7 +172,7 @@ press:
 - date: ''
   title: Roper Technologies strengthens AI leadership with key ...
   url: https://www.ropertech.com/news-releases/news-release-details/roper-technologies-strengthens-ai-leadership-key-executive/
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Roper Technologies Rate Limits
@@ -197,7 +199,7 @@ score:
     catalog_gap: 63.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 23.5
@@ -205,15 +207,15 @@ score:
     developer_ergonomics: 9.5
     discoverability: 62.5
     operational_transparency: 5.3
-  previous_composite: 14.9
+  previous_composite: 13.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

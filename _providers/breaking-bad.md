@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,11 +64,8 @@ apis:
   description: Memorable quotes attributed to characters.
   name: Breaking Bad Quotes API
   slug: breaking-bad-quotes-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Breaking Bad Characters API
   slug: open-breaking-bad-characters-api
@@ -88,7 +87,7 @@ common:
   type: IssueTracker
   url: https://github.com/timbiles/Breaking-Bad--API/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/agentic-access/breaking-bad-agentic-access.yml
+  href: https://artifacts.apis.io/breaking-bad/agentic-access/breaking-bad-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/breaking-bad-agentic-access.yml
@@ -117,17 +116,17 @@ common:
   type: RateLimits
   url: https://github.com/timbiles/Breaking-Bad--API#readme
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/json-ld/breaking-bad-context.jsonld
+  href: https://artifacts.apis.io/breaking-bad/json-ld/breaking-bad-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/breaking-bad-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/vocabulary/breaking-bad-vocabulary.yml
+  href: https://artifacts.apis.io/breaking-bad/vocabulary/breaking-bad-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/breaking-bad-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/rules/breaking-bad-rules.yml
+  href: https://artifacts.apis.io/breaking-bad/rules/breaking-bad-rules.yml
   title: ''
   type: SpectralRules
   url: rules/breaking-bad-rules.yml
@@ -178,7 +177,7 @@ overview: 'Breaking Bad is listed with 4 APIs on the [APIs.io](https://apis.io/)
 
 
   The Breaking Bad catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 9
+random_paper: 23
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -235,14 +234,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/screenshots/breaking-bad-2026-06-20T173647.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/breaking-bad/breaking-bad-2026-06-20T173647.png
 slug: breaking-bad
 tags:
 - Video

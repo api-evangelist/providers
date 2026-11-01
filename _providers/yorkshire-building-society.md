@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.1
-  scored_at: '2026-10-17'
+  score: 43.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -163,119 +165,119 @@ apis:
   description: The Transactions API from Yorkshire Building Society — 3 operation(s) for transactions.
   name: Yorkshire Building Society Transactions API
   slug: yorkshire-building-society-transactions-api
-artifact_total: 29
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Yorkshire Building Society Events Webhooks
   slug: yorkshire-building-society-events-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/capabilities/yorkshire-building-society-capability-edges.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/capabilities/yorkshire-building-society-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/yorkshire-building-society-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/agentic-access/yorkshire-building-society-agentic-access.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/agentic-access/yorkshire-building-society-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/yorkshire-building-society-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/security/yorkshire-building-society-domain-security.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/security/yorkshire-building-society-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yorkshire-building-society-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/scopes/yorkshire-building-society-scopes.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/scopes/yorkshire-building-society-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/yorkshire-building-society-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/authentication/yorkshire-building-society-authentication.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/authentication/yorkshire-building-society-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yorkshire-building-society-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/well-known/yorkshire-building-society-well-known.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/well-known/yorkshire-building-society-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/yorkshire-building-society-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/conformance/yorkshire-building-society-conformance.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/conformance/yorkshire-building-society-conformance.yml
   title: ''
   type: Conformance
   url: conformance/yorkshire-building-society-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/errors/yorkshire-building-society-problem-types.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/errors/yorkshire-building-society-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/yorkshire-building-society-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/lifecycle/yorkshire-building-society-lifecycle.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/lifecycle/yorkshire-building-society-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yorkshire-building-society-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/conventions/yorkshire-building-society-conventions.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/conventions/yorkshire-building-society-conventions.yml
   title: ''
   type: Conventions
   url: conventions/yorkshire-building-society-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/conventions/yorkshire-building-society-conventions.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/conventions/yorkshire-building-society-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/yorkshire-building-society-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/sandbox/yorkshire-building-society-sandbox.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/sandbox/yorkshire-building-society-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/yorkshire-building-society-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/data-model/yorkshire-building-society-data-model.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/data-model/yorkshire-building-society-data-model.yml
   title: ''
   type: DataModel
   url: data-model/yorkshire-building-society-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/asyncapi/yorkshire-building-society-events-webhooks.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/asyncapi/yorkshire-building-society-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/yorkshire-building-society-events-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/mcp/yorkshire-building-society-mcp.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/mcp/yorkshire-building-society-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/yorkshire-building-society-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/mcp/yorkshire-building-society-tool-crosswalk.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/mcp/yorkshire-building-society-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/yorkshire-building-society-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/yorkshire-building-society/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/llms/yorkshire-building-society-llms.txt
+  href: https://artifacts.apis.io/yorkshire-building-society/llms/yorkshire-building-society-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yorkshire-building-society-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/overlays/yorkshire-building-society-account-information-api-overlay.yaml
+  href: https://artifacts.apis.io/yorkshire-building-society/overlays/yorkshire-building-society-account-information-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/yorkshire-building-society-account-information-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/overlays/yorkshire-building-society-payment-initiation-api-overlay.yaml
+  href: https://artifacts.apis.io/yorkshire-building-society/overlays/yorkshire-building-society-payment-initiation-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/yorkshire-building-society-payment-initiation-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/overlays/yorkshire-building-society-confirmation-of-funds-api-overlay.yaml
+  href: https://artifacts.apis.io/yorkshire-building-society/overlays/yorkshire-building-society-confirmation-of-funds-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/yorkshire-building-society-confirmation-of-funds-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/overlays/yorkshire-building-society-event-subscriptions-api-overlay.yaml
+  href: https://artifacts.apis.io/yorkshire-building-society/overlays/yorkshire-building-society-event-subscriptions-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/yorkshire-building-society-event-subscriptions-api-overlay.yaml
@@ -327,7 +329,7 @@ overview: 'Yorkshire Building Society publishes 24 API contracts indexed on the 
 
 
   Yorkshire Building Society''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, and 25 more developer resources.'
-random_paper: 12
+random_paper: 8
 scopes:
 - name: Yorkshire Building Society Scopes
   scope_count: 4
@@ -335,7 +337,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 44.8
+  composite: 44.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -343,13 +345,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 55.5
+    contract_quality: 54.9
     developer_ergonomics: 63.7
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -359,7 +361,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 44.7
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -380,13 +382,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/screenshots/yorkshire-building-society-2026-08-17T083019.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/yorkshire-building-society/yorkshire-building-society-2026-08-17T083019.png
 security:
 - kind: authentication
   name: Yorkshire Building Society Authentication
@@ -396,6 +399,12 @@ security:
   name: Yorkshire Building Society Domain Security
   slug: yorkshire-building-society-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Initiate a YBS domestic payment (PIS)
+  slug: yorkshire-building-society-initiate-domestic-payment
+- name: Retrieve YBS account and transaction data (AIS)
+  slug: yorkshire-building-society-retrieve-account-data
 slug: yorkshire-building-society
 tags:
 - Financial Services

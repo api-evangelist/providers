@@ -14,36 +14,38 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/artelon/refs/heads/main/llms/artelon-llms.txt
+  href: https://artifacts.apis.io/artelon/llms/artelon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/artelon-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/artelon/refs/heads/main/hosts/artelon-hosts.yml
+  href: https://artifacts.apis.io/artelon/hosts/artelon-hosts.yml
   title: ''
   type: Hosts
   url: hosts/artelon-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/artelon/refs/heads/main/vendors/artelon-vendors.yml
+  href: https://artifacts.apis.io/artelon/vendors/artelon-vendors.yml
   title: ''
   type: Vendors
   url: vendors/artelon-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/artelon/refs/heads/main/security/artelon-domain-security.yml
+  href: https://artifacts.apis.io/artelon/security/artelon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/artelon-domain-security.yml
@@ -68,10 +70,10 @@ name: Artelon
 nav: Providers
 network: true
 overview: Artelon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Orthopedic, Medical Devices, Synthetic Implants, and FlexBand.
-random_paper: 9
+random_paper: 13
 score:
   band: minimal
-  composite: 4.4
+  composite: 3.7
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -85,9 +87,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 4.4
+  previous_composite: 3.7
   provenance:
     mcp: unknown
   regulatory:
@@ -96,14 +98,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/artelon/refs/heads/main/screenshots/artelon-2026-10-11T100410.png
+screenshot: https://apis.io/screenshots/artelon/artelon-2026-10-11T100410.png
 security:
 - kind: domain-security
   name: Artelon Domain Security

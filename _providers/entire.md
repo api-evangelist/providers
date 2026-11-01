@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,9 +35,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -82,17 +84,17 @@ common:
   type: Compliance
   url: https://entire.io/dpa
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/llms/entire-llms.txt
+  href: https://artifacts.apis.io/entire/llms/entire-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/entire-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/well-known/entire-well-known.yml
+  href: https://artifacts.apis.io/entire/well-known/entire-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/entire-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/well-known/entire-security.txt
+  href: https://artifacts.apis.io/entire/well-known/entire-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/entire-security.txt
@@ -101,42 +103,42 @@ common:
   type: Security
   url: https://entire.io/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/security/entire-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/entire/security/entire-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/entire-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/security/entire-domain-security.yml
+  href: https://artifacts.apis.io/entire/security/entire-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/entire-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/conformance/entire-conformance.yml
+  href: https://artifacts.apis.io/entire/conformance/entire-conformance.yml
   title: ''
   type: Conformance
   url: conformance/entire-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/authentication/entire-authentication.yml
+  href: https://artifacts.apis.io/entire/authentication/entire-authentication.yml
   title: ''
   type: Authentication
   url: authentication/entire-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/packages/entire-packages.yml
+  href: https://artifacts.apis.io/entire/packages/entire-packages.yml
   title: ''
   type: Packages
   url: packages/entire-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/cli/entire-cli.yml
+  href: https://artifacts.apis.io/entire/cli/entire-cli.yml
   title: ''
   type: CLI
   url: cli/entire-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/entire/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/changelog/entire-changelog.yml
+  href: https://artifacts.apis.io/entire/changelog/entire-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/entire-changelog.yml
@@ -148,30 +150,30 @@ modified: '2026-10-06'
 name: Entire
 nav: Providers
 network: true
-overview: 'Entire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Developer Platform, Git, and Git Hosting.
+overview: 'Entire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Developer Platform, Version Control, and Git Hosting.
 
 
   Entire''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, authentication, CLI, changelog, and 16 more developer resources.'
-random_paper: 9
+random_paper: 23
 score:
   band: thin
-  composite: 31.5
+  composite: 34.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 55.4
-    operational_transparency: 23.7
-  previous_composite: 31.4
+    discoverability: 48.2
+    operational_transparency: 31.6
+  previous_composite: 34.5
   provenance:
     conformance: first-party
     skills: first-party
@@ -189,14 +191,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/entire/refs/heads/main/screenshots/entire-2026-07-25T213431.png
+screenshot: https://apis.io/screenshots/entire/entire-2026-07-25T213431.png
 security:
 - kind: authentication
   name: Entire Authentication
@@ -210,14 +212,17 @@ security:
   name: Entire Vulnerability Disclosure
   slug: entire-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 1
+skills:
+- name: Entire Skills
+  slug: entire-published-skills
 slug: entire
 tags:
 - Company
 - Developer Tools
 - Developer Platform
-- Git
-- Git Hosting
 - Version Control
+- Git Hosting
 - AI Agents
 - Agent Infrastructure
 - CLI

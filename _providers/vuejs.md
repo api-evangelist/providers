@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: 'Core Vue.js composition and options API for building reactive user interfaces. Provides reactivity primitives (ref, reactive, computed, watch), lifecycle hooks, component system, template directives, '
@@ -57,17 +59,17 @@ apis:
 artifact_total: 13
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vuejs/refs/heads/main/plans/vuejs-plans-pricing.yml
+  href: https://artifacts.apis.io/vuejs/plans/vuejs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vuejs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vuejs/refs/heads/main/rate-limits/vuejs-rate-limits.yml
+  href: https://artifacts.apis.io/vuejs/rate-limits/vuejs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vuejs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vuejs/refs/heads/main/finops/vuejs-finops.yml
+  href: https://artifacts.apis.io/vuejs/finops/vuejs-finops.yml
   title: ''
   type: FinOps
   url: finops/vuejs-finops.yml
@@ -120,17 +122,17 @@ common:
   type: Twitter
   url: https://twitter.com/vuejs
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vuejs/refs/heads/main/vocabulary/vuejs-vocabulary.yml
+  href: https://artifacts.apis.io/vuejs/vocabulary/vuejs-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/vuejs-vocabulary.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/vuejs/refs/heads/main/json-schema/vuejs-component-schema.json
+  href: https://artifacts.apis.io/vuejs/json-schema/vuejs-component-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/vuejs-component-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vuejs/refs/heads/main/json-ld/vuejs-context.jsonld
+  href: https://artifacts.apis.io/vuejs/json-ld/vuejs-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/vuejs-context.jsonld
@@ -144,7 +146,7 @@ finops:
 - has_sources: false
   method: generated
   name: Vuejs Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: vuejs-finops
   template: true
@@ -178,7 +180,7 @@ plans:
 - name: Vuejs Plans Pricing
   plan_count: 3
   slug: vuejs-plans-pricing
-random_paper: 7
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Vuejs Rate Limits
@@ -197,7 +199,7 @@ rules:
   slug: vuejs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.4
+  composite: 27.8
   coverage:
     artifact_dirs: 13
     catalog_earned: 51.8
@@ -205,29 +207,29 @@ score:
     catalog_gap: 63.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 23.5
     contract_quality: 17.2
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 67.9
     operational_transparency: 28.9
-  previous_composite: 28.9
+  previous_composite: 27.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vuejs/refs/heads/main/screenshots/vuejs-2026-06-20T201149.png
+screenshot: https://apis.io/screenshots/vuejs/vuejs-2026-06-20T201149.png
 slug: vuejs
 tags:
 - Component-Based

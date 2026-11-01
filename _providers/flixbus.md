@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'The partner-facing Flix API, published through the Flix Developer Portal. Documentation covers API references, getting-started guides, changelogs and example Postman collections for Flix distribution '
@@ -46,47 +48,47 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flixbus/refs/heads/main/security/flixbus-domain-security.yml
+  href: https://artifacts.apis.io/flixbus/security/flixbus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flixbus-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flixbus/refs/heads/main/security/flixbus-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/flixbus/security/flixbus-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/flixbus-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flixbus/refs/heads/main/well-known/flixbus-security.txt
+  href: https://artifacts.apis.io/flixbus/well-known/flixbus-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/flixbus-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flixbus/refs/heads/main/well-known/flixbus-well-known.yml
+  href: https://artifacts.apis.io/flixbus/well-known/flixbus-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/flixbus-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flixbus/refs/heads/main/authentication/flixbus-authentication.yml
+  href: https://artifacts.apis.io/flixbus/authentication/flixbus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flixbus-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flixbus/refs/heads/main/conformance/flixbus-conformance.yml
+  href: https://artifacts.apis.io/flixbus/conformance/flixbus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flixbus-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flixbus/refs/heads/main/lifecycle/flixbus-lifecycle.yml
+  href: https://artifacts.apis.io/flixbus/lifecycle/flixbus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flixbus-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flixbus/refs/heads/main/packages/flixbus-packages.yml
+  href: https://artifacts.apis.io/flixbus/packages/flixbus-packages.yml
   title: ''
   type: Packages
   url: packages/flixbus-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flixbus/refs/heads/main/llms/flixbus-llms.txt
+  href: https://artifacts.apis.io/flixbus/llms/flixbus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flixbus-llms.txt
@@ -143,10 +145,10 @@ overview: 'FlixBus is listed with 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   FlixBus'' developer surface includes authentication, documentation, signup flow, support, engineering blog, and 14 more developer resources.'
-random_paper: 17
+random_paper: 21
 score:
-  band: emerging
-  composite: 23.7
+  band: thin
+  composite: 27.9
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -159,16 +161,16 @@ score:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 38.1
     discoverability: 66.1
-    operational_transparency: 13.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - dach
     - europe
-  previous_composite: 23.7
+  previous_composite: 27.9
   provenance:
     conformance: first-party
   regulatory:
@@ -177,14 +179,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/flixbus/refs/heads/main/screenshots/flixbus-2026-08-07T165346.png
+screenshot: https://apis.io/screenshots/flixbus/flixbus-2026-08-07T165346.png
 security:
 - kind: authentication
   name: Flixbus Authentication

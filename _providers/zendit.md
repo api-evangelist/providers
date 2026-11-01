@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -85,7 +87,7 @@ apis:
   description: Digital gift cards and utility bill payments
   name: Zendit Vouchers API
   slug: zendit-vouchers-api
-artifact_total: 113
+artifact_total: 112
 collections:
 - collection_type: postman
   name: Zendit Account API
@@ -111,9 +113,6 @@ collections:
 - collection_type: postman
   name: Zendit Account Vouchers API
   slug: postman-zendit-vouchers-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zendit Account API
   slug: open-zendit-account-api
@@ -143,17 +142,17 @@ collections:
   slug: open-zendit-vouchers-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/plans/zendit-plans-pricing.yml
+  href: https://artifacts.apis.io/zendit/plans/zendit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zendit-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/rate-limits/zendit-rate-limits.yml
+  href: https://artifacts.apis.io/zendit/rate-limits/zendit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zendit-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/finops/zendit-finops.yml
+  href: https://artifacts.apis.io/zendit/finops/zendit-finops.yml
   title: ''
   type: FinOps
   url: finops/zendit-finops.yml
@@ -162,17 +161,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/zendit/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/agentic-access/zendit-agentic-access.yml
+  href: https://artifacts.apis.io/zendit/agentic-access/zendit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zendit-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/security/zendit-domain-security.yml
+  href: https://artifacts.apis.io/zendit/security/zendit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zendit-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/authentication/zendit-authentication.yml
+  href: https://artifacts.apis.io/zendit/authentication/zendit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zendit-authentication.yml
@@ -304,7 +303,7 @@ finops:
 - has_sources: false
   method: generated
   name: Zendit Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: zendit-finops
   template: true
@@ -469,7 +468,7 @@ plans:
 - name: Zendit Plans Pricing
   plan_count: 3
   slug: zendit-plans-pricing
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Zendit Rate Limits
@@ -499,7 +498,7 @@ rules:
   slug: zendit-rules
 score:
   band: thin
-  composite: 32.5
+  composite: 33.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 70.2
@@ -507,7 +506,7 @@ score:
     catalog_gap: 44.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 23.5
@@ -515,7 +514,7 @@ score:
     developer_ergonomics: 44.0
     discoverability: 71.4
     operational_transparency: 28.9
-  previous_composite: 34.0
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -529,13 +528,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/screenshots/zendit-2026-06-20T201909.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zendit/zendit-2026-06-20T201909.png
 security:
 - kind: authentication
   name: Zendit Authentication

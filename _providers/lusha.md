@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 63.1
-  scored_at: '2026-10-17'
+  score: 55.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 88
   slug: lusha-agentic-access
   summary_line: 88 operations · 28 acting
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://api.lusha.com
   baseurl_source: declared
@@ -393,15 +395,12 @@ apis:
     question: How do I get full details for companies returned by a prospecting search?
   phrasing_ops: 4
   slug: lusha-prospecting-search-enrich-api
-artifact_total: 44
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Lusha Webhooks
   slug: lusha-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Lusha API Documentation Account API
   slug: open-lusha-account-api
@@ -443,7 +442,7 @@ collections:
   slug: open-lusha-website-visits-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/capabilities/lusha-capability-edges.yml
+  href: https://artifacts.apis.io/lusha/capabilities/lusha-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lusha-capability-edges.yml
@@ -508,52 +507,52 @@ common:
   type: OpenAPI
   url: https://docs.lusha.com/_spec/apis/@v3/openapi.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/mcp/lusha-mcp.yml
+  href: https://artifacts.apis.io/lusha/mcp/lusha-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lusha-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/mcp/lusha-tool-crosswalk.yml
+  href: https://artifacts.apis.io/lusha/mcp/lusha-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/lusha-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lusha/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/agentic-access/lusha-agentic-access.yml
+  href: https://artifacts.apis.io/lusha/agentic-access/lusha-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lusha-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/authentication/lusha-authentication.yml
+  href: https://artifacts.apis.io/lusha/authentication/lusha-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lusha-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/scopes/lusha-scopes.yml
+  href: https://artifacts.apis.io/lusha/scopes/lusha-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lusha-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/conventions/lusha-conventions.yml
+  href: https://artifacts.apis.io/lusha/conventions/lusha-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lusha-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/errors/lusha-problem-types.yml
+  href: https://artifacts.apis.io/lusha/errors/lusha-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lusha-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/data-model/lusha-data-model.yml
+  href: https://artifacts.apis.io/lusha/data-model/lusha-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lusha-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/lifecycle/lusha-lifecycle.yml
+  href: https://artifacts.apis.io/lusha/lifecycle/lusha-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lusha-lifecycle.yml
@@ -566,7 +565,7 @@ common:
   type: Deprecation
   url: https://docs.lusha.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/changelog/lusha-changelog.yml
+  href: https://artifacts.apis.io/lusha/changelog/lusha-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lusha-changelog.yml
@@ -575,12 +574,12 @@ common:
   type: ChangeLog
   url: https://docs.lusha.com/changelog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/asyncapi/lusha-webhooks.yml
+  href: https://artifacts.apis.io/lusha/asyncapi/lusha-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lusha-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/conformance/lusha-conformance.yml
+  href: https://artifacts.apis.io/lusha/conformance/lusha-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lusha-conformance.yml
@@ -589,7 +588,7 @@ common:
   type: Compliance
   url: https://www.lusha.com/trust-center
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/security/lusha-trust-center.yml
+  href: https://artifacts.apis.io/lusha/security/lusha-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lusha-trust-center.yml
@@ -598,52 +597,52 @@ common:
   type: Security
   url: https://www.lusha.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/well-known/lusha-security.txt
+  href: https://artifacts.apis.io/lusha/well-known/lusha-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/lusha-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/security/lusha-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lusha/security/lusha-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lusha-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/security/lusha-domain-security.yml
+  href: https://artifacts.apis.io/lusha/security/lusha-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lusha-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/well-known/lusha-well-known.yml
+  href: https://artifacts.apis.io/lusha/well-known/lusha-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lusha-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/packages/lusha-packages.yml
+  href: https://artifacts.apis.io/lusha/packages/lusha-packages.yml
   title: ''
   type: Packages
   url: packages/lusha-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/sandbox/lusha-sandbox.yml
+  href: https://artifacts.apis.io/lusha/sandbox/lusha-sandbox.yml
   title: ''
   type: Console
   url: sandbox/lusha-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/plans/lusha-plans-pricing.yml
+  href: https://artifacts.apis.io/lusha/plans/lusha-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lusha-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/rate-limits/lusha-rate-limits.yml
+  href: https://artifacts.apis.io/lusha/rate-limits/lusha-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lusha-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/finops/lusha-finops.yml
+  href: https://artifacts.apis.io/lusha/finops/lusha-finops.yml
   title: ''
   type: FinOps
   url: finops/lusha-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/llms/lusha-llms.txt
+  href: https://artifacts.apis.io/lusha/llms/lusha-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lusha-llms.txt
@@ -655,12 +654,12 @@ created: '2026-05-08'
 description: Lusha is a B2B sales-intelligence platform that sells verified contact and company data, buying signals and AI recommendations to revenue teams. Its v3 REST API at api.lusha.com exposes 58 operations across thirteen resource families — Search, Enrich, Search & Enrich, Prospecting, Lookalikes, Buying Group, Contacts Tables, Companies Tables, Signals, Website Visits, Filters, Webhooks and Account — behind a single `api_key` header credential, on a search-then-enrich pattern where previews are free of PII and reveals spend credits. Lusha also ships a first-party hosted MCP server at mcp.lusha.com with 22 tools, OAuth 2.1 discovery and official Claude, ChatGPT and Codex connectors, plus HMAC-signed webhooks for real-time signal delivery.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Lusha Finops
   primary_unit: ''
-  service_category: Sales Intelligence
+  service_category: ''
   slug: lusha-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lusha.png
 layout: provider
 mcp_servers:
@@ -680,7 +679,7 @@ overview: 'Lusha publishes 19 API contracts indexed on the [APIs.io](https://api
   Lusha''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 39 more developer resources.'
 plans:
 - name: Lusha Plans Pricing
-  plan_count: 4
+  plan_count: 2
   slug: lusha-plans-pricing
 random_paper: 13
 rate_limits:
@@ -694,23 +693,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 71.7
+  composite: 71.3
   coverage:
     artifact_dirs: 28
-    catalog_earned: 64.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: -2.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 62.0
-    developer_ergonomics: 63.7
-    discoverability: 80.0
-    operational_transparency: 86.8
-  previous_composite: 72.7
+    contract_quality: 58.8
+    developer_ergonomics: 70.8
+    discoverability: 71.7
+    operational_transparency: 94.7
+  previous_composite: 73.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -731,13 +730,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/screenshots/lusha-2026-06-20T184813.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lusha/lusha-2026-06-20T184813.png
 security:
 - kind: authentication
   name: Lusha Authentication
@@ -755,6 +755,18 @@ security:
   name: Lusha Trust Center
   slug: lusha-trust-center
   summary_line: SOC 2 Type II
+skill_count: 5
+skills:
+- name: Map a buying group and persist it to a Lusha table
+  slug: lusha-buying-group-and-tables
+- name: Monitor buying signals for a set of accounts
+  slug: lusha-monitor-buying-signals
+- name: Build a target account and contact list with Lusha Prospecting
+  slug: lusha-prospect-target-accounts
+- name: Search and enrich a contact with Lusha
+  slug: lusha-search-and-enrich-contacts
+- name: Receive Lusha signals over webhooks
+  slug: lusha-webhook-subscriptions
 slug: lusha
 tags:
 - Sales Intelligence

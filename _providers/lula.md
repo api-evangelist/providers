@@ -39,8 +39,8 @@ name: Lula
 nav: Providers
 network: true
 overview: Lula is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Embedded Insurance, and Car Rental.
-random_paper: 12
-screenshot: https://raw.githubusercontent.com/api-evangelist/lula/refs/heads/main/screenshots/lula-2026-10-11T191329.png
+random_paper: 22
+screenshot: https://apis.io/screenshots/lula/lula-2026-10-11T191329.png
 slug: lula
 tags:
 - Company

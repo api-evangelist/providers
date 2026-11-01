@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'The SoftwareSuggest software catalog is a browsable and searchable index of over 50,000 B2B software products across 800+ categories. Users can filter by category, features, pricing model, deployment '
@@ -49,22 +51,22 @@ apis:
 artifact_total: 14
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/softwaresuggest/refs/heads/main/plans/softwaresuggest-plans-pricing.yml
+  href: https://artifacts.apis.io/softwaresuggest/plans/softwaresuggest-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/softwaresuggest-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/softwaresuggest/refs/heads/main/rate-limits/softwaresuggest-rate-limits.yml
+  href: https://artifacts.apis.io/softwaresuggest/rate-limits/softwaresuggest-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/softwaresuggest-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/softwaresuggest/refs/heads/main/finops/softwaresuggest-finops.yml
+  href: https://artifacts.apis.io/softwaresuggest/finops/softwaresuggest-finops.yml
   title: ''
   type: FinOps
   url: finops/softwaresuggest-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/softwaresuggest/refs/heads/main/security/softwaresuggest-domain-security.yml
+  href: https://artifacts.apis.io/softwaresuggest/security/softwaresuggest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/softwaresuggest-domain-security.yml
@@ -129,7 +131,7 @@ finops:
 - has_sources: false
   method: generated
   name: Softwaresuggest Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: softwaresuggest-finops
   template: true
@@ -166,7 +168,7 @@ plans:
 - name: Softwaresuggest Plans Pricing
   plan_count: 3
   slug: softwaresuggest-plans-pricing
-random_paper: 17
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Softwaresuggest Rate Limits
@@ -193,7 +195,7 @@ score:
     catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 9.8
@@ -208,21 +210,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 23.2
+  previous_composite: 21.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/softwaresuggest/refs/heads/main/screenshots/softwaresuggest-2026-10-11T192605.png
+screenshot: https://apis.io/screenshots/softwaresuggest/softwaresuggest-2026-10-11T192605.png
 security:
 - kind: domain-security
   name: Softwaresuggest Domain Security

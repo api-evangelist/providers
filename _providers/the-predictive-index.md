@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 25.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://integrations.predictiveindex.com
@@ -57,15 +59,12 @@ apis:
   description: The Jobs API from The Predictive Index — 1 operation(s) for jobs.
   name: The Predictive Index Jobs API
   slug: the-predictive-index-jobs-api
-artifact_total: 13
+artifact_total: 16
 asyncapis:
 - description: ''
   name: The Predictive Index Webhooks
   slug: the-predictive-index-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: The Predictive Index Integration Behavioral Assessments API
   slug: open-the-predictive-index-behavioral-assessments-api
@@ -79,12 +78,17 @@ collections:
   name: The Predictive Index Integration Behavioral Assessments Jobs API
   slug: open-the-predictive-index-jobs-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/the-predictive-index/plans/the-predictive-index-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/the-predictive-index-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.predictiveindex.com/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/capabilities/the-predictive-index-capability-edges.yml
+  href: https://artifacts.apis.io/the-predictive-index/capabilities/the-predictive-index-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/the-predictive-index-capability-edges.yml
@@ -93,12 +97,12 @@ common:
   type: Website
   url: https://www.predictiveindex.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/mcp/the-predictive-index-mcp.yml
+  href: https://artifacts.apis.io/the-predictive-index/mcp/the-predictive-index-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/the-predictive-index-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/security/the-predictive-index-domain-security.yml
+  href: https://artifacts.apis.io/the-predictive-index/security/the-predictive-index-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-predictive-index-domain-security.yml
@@ -119,22 +123,22 @@ common:
   type: GettingStarted
   url: https://developers.predictiveindex.com/getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/authentication/the-predictive-index-authentication.yml
+  href: https://artifacts.apis.io/the-predictive-index/authentication/the-predictive-index-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-predictive-index-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/conventions/the-predictive-index-conventions.yml
+  href: https://artifacts.apis.io/the-predictive-index/conventions/the-predictive-index-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-predictive-index-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/asyncapi/the-predictive-index-webhooks.yml
+  href: https://artifacts.apis.io/the-predictive-index/asyncapi/the-predictive-index-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/the-predictive-index-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/the-predictive-index/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -147,22 +151,22 @@ common:
   type: Security
   url: https://www.predictiveindex.com/security/responsible-disclosure/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/security/the-predictive-index-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/the-predictive-index/security/the-predictive-index-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/the-predictive-index-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/well-known/the-predictive-index-security.txt
+  href: https://artifacts.apis.io/the-predictive-index/well-known/the-predictive-index-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/the-predictive-index-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/well-known/the-predictive-index-well-known.yml
+  href: https://artifacts.apis.io/the-predictive-index/well-known/the-predictive-index-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/the-predictive-index-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/llms/the-predictive-index-llms.txt
+  href: https://artifacts.apis.io/the-predictive-index/llms/the-predictive-index-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-predictive-index-llms.txt
@@ -196,6 +200,14 @@ common:
   url: https://www.predictiveindex.com/privacy/
 created: '2026-07-17'
 description: The Predictive Index (PI) is a talent optimization platform that pairs 70+ years of behavioral science with software to help organizations hire, engage, and develop teams — behavioral and cognitive assessments, hiring and candidate screening, leadership development, employee engagement, and performance management. PI publishes a RESTful Integration API (on Azure API Management) that lets external systems such as ATS/HRIS platforms programmatically create candidates, send behavioral and cognitive assessments, retrieve jobs and results, and generate insight and coaching-guide reports — the same data that appears in the PI Portal software. Status-change notification webhooks push assessment completion events to listening systems. Backed by a $50M investment from General Catalyst.
+finops:
+- has_sources: true
+  method: derived
+  name: The Predictive Index Finops
+  primary_unit: annual subscription priced by headcount
+  service_category: ''
+  slug: the-predictive-index-finops
+  template: false
 image: https://media.predictiveindex.com/wp-content/uploads/2025/02/25165442/ThePredictiveIndex_Thumbnail-1.jpg
 layout: provider
 modified: '2026-10-06'
@@ -208,27 +220,34 @@ overview: 'The Predictive Index publishes 4 API contracts indexed on the [APIs.i
   The The Predictive Index catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  The Predictive Index''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 19 more developer resources.'
-random_paper: 16
+  The Predictive Index''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 20 more developer resources.'
+plans:
+- name: The Predictive Index Plans Pricing
+  plan_count: 1
+  slug: the-predictive-index-plans-pricing
+- name: The Predictive Index Price Estimates
+  plan_count: 0
+  slug: the-predictive-index-price-estimates
+random_paper: 2
 score:
   band: developing
-  composite: 43.6
+  composite: 52.4
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.8
   facets:
-    access_clarity: 31.6
+    access_clarity: 73.7
     contract_governance: 0.0
     contract_quality: 52.4
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 43.6
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 46.6
   provenance:
     contracts:
       callable: 100.0
@@ -243,13 +262,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-predictive-index/refs/heads/main/screenshots/the-predictive-index-2026-08-17T082339.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/the-predictive-index/the-predictive-index-2026-08-17T082339.png
 security:
 - kind: authentication
   name: The Predictive Index Authentication
@@ -263,6 +283,10 @@ security:
   name: The Predictive Index Vulnerability Disclosure
   slug: the-predictive-index-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 1
+skills:
+- name: Send a PI assessment to a candidate
+  slug: the-predictive-index-send-assessment
 slug: the-predictive-index
 tags:
 - Company

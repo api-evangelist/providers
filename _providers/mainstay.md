@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: AdmitHub/Mainstay REST API v1.0 for syncing student and employee records and engagement data between Mainstay and external systems, with Bearer API-token authentication.
@@ -91,27 +93,27 @@ common:
   type: Compliance
   url: https://mainstay.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mainstay/refs/heads/main/authentication/mainstay-authentication.yml
+  href: https://artifacts.apis.io/mainstay/authentication/mainstay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mainstay-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mainstay/refs/heads/main/conventions/mainstay-conventions.yml
+  href: https://artifacts.apis.io/mainstay/conventions/mainstay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mainstay-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mainstay/refs/heads/main/security/mainstay-domain-security.yml
+  href: https://artifacts.apis.io/mainstay/security/mainstay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mainstay-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mainstay/refs/heads/main/security/mainstay-trust-center.yml
+  href: https://artifacts.apis.io/mainstay/security/mainstay-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mainstay-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mainstay/refs/heads/main/llms/mainstay-llms.txt
+  href: https://artifacts.apis.io/mainstay/llms/mainstay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mainstay-llms.txt
@@ -127,10 +129,10 @@ overview: 'Mainstay is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Mainstay''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 12
+random_paper: 6
 score:
   band: thin
-  composite: 26.3
+  composite: 27.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -140,27 +142,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 26.3
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 27.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mainstay/refs/heads/main/screenshots/mainstay-2026-07-25T225921.png
+screenshot: https://apis.io/screenshots/mainstay/mainstay-2026-07-25T225921.png
 security:
 - kind: authentication
   name: Mainstay Authentication

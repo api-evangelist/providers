@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -73,11 +75,8 @@ apis:
   description: The Webhooks API from Pact — 1 operation(s) for webhooks.
   name: Pact Webhooks API
   slug: pact-webhooks-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Pact Broker Index API
   slug: open-pact-index-api
@@ -98,22 +97,22 @@ collections:
   slug: open-pact
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/plans/pact-plans-pricing.yml
+  href: https://artifacts.apis.io/pact/plans/pact-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pact-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/rate-limits/pact-rate-limits.yml
+  href: https://artifacts.apis.io/pact/rate-limits/pact-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pact-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/finops/pact-finops.yml
+  href: https://artifacts.apis.io/pact/finops/pact-finops.yml
   title: ''
   type: FinOps
   url: finops/pact-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/capabilities/pact-capability-edges.yml
+  href: https://artifacts.apis.io/pact/capabilities/pact-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pact-capability-edges.yml
@@ -138,17 +137,17 @@ common:
   type: License
   url: https://github.com/pact-foundation/pact_broker/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/agentic-access/pact-agentic-access.yml
+  href: https://artifacts.apis.io/pact/agentic-access/pact-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pact-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/security/pact-domain-security.yml
+  href: https://artifacts.apis.io/pact/security/pact-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pact-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/authentication/pact-authentication.yml
+  href: https://artifacts.apis.io/pact/authentication/pact-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pact-authentication.yml
@@ -186,7 +185,7 @@ finops:
 - has_sources: false
   method: generated
   name: Pact Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: pact-finops
   template: true
@@ -204,33 +203,30 @@ plans:
 - name: Pact Plans Pricing
   plan_count: 3
   slug: pact-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Pact Rate Limits
   slug: pact-rate-limits
 score:
   band: thin
-  composite: 31.8
+  composite: 26.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 33.0
     catalog_earned_first_party: 0.0
     catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 42.9
     developer_ergonomics: 28.6
     discoverability: 55.4
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 33.2
+    operational_transparency: 28.9
+  previous_composite: 26.8
   provenance:
     agentic_access: derived
     contracts:
@@ -244,13 +240,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/screenshots/pact-2026-06-20T191316.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pact/pact-2026-06-20T191316.png
 security:
 - kind: authentication
   name: Pact Authentication

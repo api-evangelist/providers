@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A live Azure API Management gateway operated by Solera Health on its own api.soleranetwork.com domain, used for payer, employer and digital-health-partner integrations into the HALO platform. Every an
@@ -79,42 +81,42 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/solera-health
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solera-health/refs/heads/main/security/solera-health-domain-security.yml
+  href: https://artifacts.apis.io/solera-health/security/solera-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/solera-health-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solera-health/refs/heads/main/security/solera-health-trust-center.yml
+  href: https://artifacts.apis.io/solera-health/security/solera-health-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/solera-health-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solera-health/refs/heads/main/conformance/solera-health-conformance.yml
+  href: https://artifacts.apis.io/solera-health/conformance/solera-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/solera-health-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/solera-health/refs/heads/main/packages/solera-health-packages.yml
+  href: https://artifacts.apis.io/solera-health/packages/solera-health-packages.yml
   title: ''
   type: Packages
   url: packages/solera-health-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solera-health/refs/heads/main/lifecycle/solera-health-lifecycle.yml
+  href: https://artifacts.apis.io/solera-health/lifecycle/solera-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/solera-health-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/solera-health/refs/heads/main/plans/solera-health-plans-pricing.yml
+  href: https://artifacts.apis.io/solera-health/plans/solera-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/solera-health-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/solera-health/refs/heads/main/rate-limits/solera-health-rate-limits.yml
+  href: https://artifacts.apis.io/solera-health/rate-limits/solera-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/solera-health-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/solera-health/refs/heads/main/llms/solera-health-llms.txt
+  href: https://artifacts.apis.io/solera-health/llms/solera-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/solera-health-llms.txt
@@ -155,7 +157,7 @@ rate_limits:
   slug: solera-health-rate-limits
 score:
   band: emerging
-  composite: 22.2
+  composite: 22.6
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -170,8 +172,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 22.2
+    operational_transparency: 5.3
+  previous_composite: 22.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -185,14 +187,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/solera-health/refs/heads/main/screenshots/solera-health-2026-09-02T160118.png
+screenshot: https://apis.io/screenshots/solera-health/solera-health-2026-09-02T160118.png
 security:
 - kind: domain-security
   name: Solera Health Domain Security

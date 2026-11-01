@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 23.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -91,11 +93,8 @@ apis:
   description: The service API from Isovalent — 2 operation(s) for service.
   name: Isovalent Service API
   slug: isovalent-service-api
-artifact_total: 24
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cilium bgp API
   slug: open-isovalent-bgp-api
@@ -125,7 +124,7 @@ collections:
   slug: open-isovalent-service-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/capabilities/isovalent-capability-edges.yml
+  href: https://artifacts.apis.io/isovalent/capabilities/isovalent-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/isovalent-capability-edges.yml
@@ -134,112 +133,112 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/cisco/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/security/isovalent-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/isovalent/security/isovalent-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/isovalent-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/security/isovalent-domain-security.yml
+  href: https://artifacts.apis.io/isovalent/security/isovalent-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/isovalent-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/agentic-access/isovalent-agentic-access.yml
+  href: https://artifacts.apis.io/isovalent/agentic-access/isovalent-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/isovalent-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/security/isovalent-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/isovalent/security/isovalent-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/isovalent-vulnerability-disclosure.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/packages/isovalent-packages.yml
+  href: https://artifacts.apis.io/isovalent/packages/isovalent-packages.yml
   title: ''
   type: Packages
   url: packages/isovalent-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/packages/isovalent-packages.yml
+  href: https://artifacts.apis.io/isovalent/packages/isovalent-packages.yml
   title: ''
   type: SDKs
   url: packages/isovalent-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/cli/isovalent-cli.yml
+  href: https://artifacts.apis.io/isovalent/cli/isovalent-cli.yml
   title: ''
   type: CLI
   url: cli/isovalent-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/authentication/isovalent-authentication.yml
+  href: https://artifacts.apis.io/isovalent/authentication/isovalent-authentication.yml
   title: ''
   type: Authentication
   url: authentication/isovalent-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/conventions/isovalent-conventions.yml
+  href: https://artifacts.apis.io/isovalent/conventions/isovalent-conventions.yml
   title: ''
   type: Conventions
   url: conventions/isovalent-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/errors/isovalent-problem-types.yml
+  href: https://artifacts.apis.io/isovalent/errors/isovalent-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/isovalent-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/lifecycle/isovalent-lifecycle.yml
+  href: https://artifacts.apis.io/isovalent/lifecycle/isovalent-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/isovalent-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/lifecycle/isovalent-lifecycle.yml
+  href: https://artifacts.apis.io/isovalent/lifecycle/isovalent-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/isovalent-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/conformance/isovalent-conformance.yml
+  href: https://artifacts.apis.io/isovalent/conformance/isovalent-conformance.yml
   title: ''
   type: Conformance
   url: conformance/isovalent-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/data-model/isovalent-data-model.yml
+  href: https://artifacts.apis.io/isovalent/data-model/isovalent-data-model.yml
   title: ''
   type: DataModel
   url: data-model/isovalent-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/changelog/isovalent-changelog.yml
+  href: https://artifacts.apis.io/isovalent/changelog/isovalent-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/isovalent-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/sandbox/isovalent-sandbox.yml
+  href: https://artifacts.apis.io/isovalent/sandbox/isovalent-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/isovalent-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/mcp/isovalent-mcp.yml
+  href: https://artifacts.apis.io/isovalent/mcp/isovalent-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/isovalent-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/llms/isovalent-llms.txt
+  href: https://artifacts.apis.io/isovalent/llms/isovalent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/isovalent-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/overlays/isovalent-cilium-agent-overlay.yaml
+  href: https://artifacts.apis.io/isovalent/overlays/isovalent-cilium-agent-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/isovalent-cilium-agent-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/overlays/isovalent-cilium-health-overlay.yaml
+  href: https://artifacts.apis.io/isovalent/overlays/isovalent-cilium-health-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/isovalent-cilium-health-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/isovalent/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/grpc/isovalent-hubble-observer.proto
+  href: https://artifacts.apis.io/isovalent/grpc/isovalent-hubble-observer.proto
   title: ''
   type: Protobuf
   url: grpc/isovalent-hubble-observer.proto
@@ -312,10 +311,10 @@ overview: 'Isovalent publishes 10 API contracts indexed on the [APIs.io](https:/
 
 
   Isovalent''s developer surface includes CLI, authentication, changelog, sandbox, documentation, API reference, getting-started guide, and 31 more developer resources.'
-random_paper: 13
+random_paper: 21
 score:
   band: developing
-  composite: 41.2
+  composite: 46.8
   coverage:
     artifact_dirs: 25
     catalog_earned: 37.0
@@ -323,15 +322,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 36.5
-    developer_ergonomics: 78.0
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 41.1
+    developer_ergonomics: 80.4
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,14 +346,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/screenshots/isovalent-2026-07-25T222948.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/isovalent/isovalent-2026-07-25T222948.png
 security:
 - kind: authentication
   name: Isovalent Authentication
@@ -368,6 +368,12 @@ security:
   name: Isovalent Vulnerability Disclosure
   slug: isovalent-vulnerability-disclosure
   summary_line: contact published
+skill_count: 2
+skills:
+- name: Inspect Cilium endpoints and identities
+  slug: isovalent-inspect-endpoints-and-identities
+- name: Observe network flows with Hubble
+  slug: isovalent-observe-network-flows-with-hubble
 slug: isovalent
 tags:
 - Company

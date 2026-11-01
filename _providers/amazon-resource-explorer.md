@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 32.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -70,6 +72,11 @@ apis:
   description: The Views API from Amazon Resource Explorer — 5 operation(s) for views.
   name: Amazon Resource Explorer Views API
   slug: amazon-resource-explorer-views-api
+- baseURL: https://resource-explorer-2.amazonaws.com
+  baseurl_source: declared
+  description: The Resource Explorer Operations API from Amazon Resource Explorer — 18 operation(s) for resource explorer operations.
+  name: Amazon Resource Explorer Resource Explorer Operations API
+  slug: amazon-resource-explorer-operations-api
 artifact_total: 47
 collections:
 - collection_type: postman
@@ -87,9 +94,6 @@ collections:
 - collection_type: postman
   name: Amazon Resource Explorer Index Views API
   slug: postman-amazon-resource-explorer-views-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Resource Explorer Index API
   slug: open-amazon-resource-explorer-index-api
@@ -110,17 +114,17 @@ collections:
   slug: open-amazon-resource-explorer
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/plans/amazon-resource-explorer-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-resource-explorer/plans/amazon-resource-explorer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-resource-explorer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/rate-limits/amazon-resource-explorer-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-resource-explorer/rate-limits/amazon-resource-explorer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-resource-explorer-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/finops/amazon-resource-explorer-finops.yml
+  href: https://artifacts.apis.io/amazon-resource-explorer/finops/amazon-resource-explorer-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-resource-explorer-finops.yml
@@ -133,27 +137,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-resource-explorer/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/agentic-access/amazon-resource-explorer-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-resource-explorer/agentic-access/amazon-resource-explorer-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-resource-explorer-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/security/amazon-resource-explorer-trust-center.yml
+  href: https://artifacts.apis.io/amazon-resource-explorer/security/amazon-resource-explorer-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-resource-explorer-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/security/amazon-resource-explorer-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-resource-explorer/security/amazon-resource-explorer-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-resource-explorer-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/security/amazon-resource-explorer-domain-security.yml
+  href: https://artifacts.apis.io/amazon-resource-explorer/security/amazon-resource-explorer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-resource-explorer-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/authentication/amazon-resource-explorer-authentication.yml
+  href: https://artifacts.apis.io/amazon-resource-explorer/authentication/amazon-resource-explorer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-resource-explorer-authentication.yml
@@ -210,117 +214,117 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-ld/amazon-resource-explorer-openapi-index-context.jsonld
+  href: https://artifacts.apis.io/amazon-resource-explorer/json-ld/amazon-resource-explorer-openapi-index-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-resource-explorer-openapi-index-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-ld/amazon-resource-explorer-openapi-resource-context.jsonld
+  href: https://artifacts.apis.io/amazon-resource-explorer/json-ld/amazon-resource-explorer-openapi-resource-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-resource-explorer-openapi-resource-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-ld/amazon-resource-explorer-openapi-search-request-context.jsonld
+  href: https://artifacts.apis.io/amazon-resource-explorer/json-ld/amazon-resource-explorer-openapi-search-request-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-resource-explorer-openapi-search-request-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-ld/amazon-resource-explorer-openapi-search-response-context.jsonld
+  href: https://artifacts.apis.io/amazon-resource-explorer/json-ld/amazon-resource-explorer-openapi-search-response-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-resource-explorer-openapi-search-response-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-ld/amazon-resource-explorer-openapi-view-context.jsonld
+  href: https://artifacts.apis.io/amazon-resource-explorer/json-ld/amazon-resource-explorer-openapi-view-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-resource-explorer-openapi-view-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-schema/amazon-resource-explorer-openapi-index-schema.json
+  href: https://artifacts.apis.io/amazon-resource-explorer/json-schema/amazon-resource-explorer-openapi-index-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-resource-explorer-openapi-index-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-schema/amazon-resource-explorer-openapi-resource-schema.json
+  href: https://artifacts.apis.io/amazon-resource-explorer/json-schema/amazon-resource-explorer-openapi-resource-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-resource-explorer-openapi-resource-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-schema/amazon-resource-explorer-openapi-search-request-schema.json
+  href: https://artifacts.apis.io/amazon-resource-explorer/json-schema/amazon-resource-explorer-openapi-search-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-resource-explorer-openapi-search-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-schema/amazon-resource-explorer-openapi-search-response-schema.json
+  href: https://artifacts.apis.io/amazon-resource-explorer/json-schema/amazon-resource-explorer-openapi-search-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-resource-explorer-openapi-search-response-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-schema/amazon-resource-explorer-openapi-view-schema.json
+  href: https://artifacts.apis.io/amazon-resource-explorer/json-schema/amazon-resource-explorer-openapi-view-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-resource-explorer-openapi-view-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-structure/amazon-resource-explorer-openapi-index-structure.json
+  href: https://artifacts.apis.io/amazon-resource-explorer/json-structure/amazon-resource-explorer-openapi-index-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-resource-explorer-openapi-index-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-structure/amazon-resource-explorer-openapi-resource-structure.json
+  href: https://artifacts.apis.io/amazon-resource-explorer/json-structure/amazon-resource-explorer-openapi-resource-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-resource-explorer-openapi-resource-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-structure/amazon-resource-explorer-openapi-search-request-structure.json
+  href: https://artifacts.apis.io/amazon-resource-explorer/json-structure/amazon-resource-explorer-openapi-search-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-resource-explorer-openapi-search-request-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-structure/amazon-resource-explorer-openapi-search-response-structure.json
+  href: https://artifacts.apis.io/amazon-resource-explorer/json-structure/amazon-resource-explorer-openapi-search-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-resource-explorer-openapi-search-response-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/json-structure/amazon-resource-explorer-openapi-view-structure.json
+  href: https://artifacts.apis.io/amazon-resource-explorer/json-structure/amazon-resource-explorer-openapi-view-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-resource-explorer-openapi-view-structure.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/examples/amazon-resource-explorer-openapi-index-example.json
+  href: https://artifacts.apis.io/amazon-resource-explorer/examples/amazon-resource-explorer-openapi-index-example.json
   title: ''
   type: Examples
   url: examples/amazon-resource-explorer-openapi-index-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/examples/amazon-resource-explorer-openapi-resource-example.json
+  href: https://artifacts.apis.io/amazon-resource-explorer/examples/amazon-resource-explorer-openapi-resource-example.json
   title: ''
   type: Examples
   url: examples/amazon-resource-explorer-openapi-resource-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/examples/amazon-resource-explorer-openapi-search-request-example.json
+  href: https://artifacts.apis.io/amazon-resource-explorer/examples/amazon-resource-explorer-openapi-search-request-example.json
   title: ''
   type: Examples
   url: examples/amazon-resource-explorer-openapi-search-request-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/examples/amazon-resource-explorer-openapi-search-response-example.json
+  href: https://artifacts.apis.io/amazon-resource-explorer/examples/amazon-resource-explorer-openapi-search-response-example.json
   title: ''
   type: Examples
   url: examples/amazon-resource-explorer-openapi-search-response-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/examples/amazon-resource-explorer-openapi-view-example.json
+  href: https://artifacts.apis.io/amazon-resource-explorer/examples/amazon-resource-explorer-openapi-view-example.json
   title: ''
   type: Examples
   url: examples/amazon-resource-explorer-openapi-view-example.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/rules/amazon-resource-explorer-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-resource-explorer/rules/amazon-resource-explorer-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-resource-explorer-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/vocabulary/amazon-resource-explorer-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-resource-explorer/vocabulary/amazon-resource-explorer-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-resource-explorer-vocabulary.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/openapi/_original/amazon-resource-explorer-openapi.yml
+  href: https://artifacts.apis.io/amazon-resource-explorer/openapi/_original/amazon-resource-explorer-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/amazon-resource-explorer-openapi.yml
@@ -343,11 +347,11 @@ examples:
   name: Amazon Resource Explorer Openapi View Example
   slug: amazon-resource-explorer-openapi-view-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Resource Explorer Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: amazon-resource-explorer-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-resource-explorer.png
@@ -409,7 +413,7 @@ modified: '2026-09-16'
 name: Amazon Resource Explorer
 nav: Providers
 network: true
-overview: 'Amazon Resource Explorer publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Index API, Resources API, Search API, and 2 more. Tagged areas include Discovery, Inventory, and Resource Management.
+overview: 'Amazon Resource Explorer publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Index API, Resources API, Search API, and 3 more. Tagged areas include Discovery, Inventory, and Resource Management.
 
 
   The Amazon Resource Explorer catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -418,9 +422,9 @@ overview: 'Amazon Resource Explorer publishes 5 API contracts indexed on the [AP
   Amazon Resource Explorer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, signup flow, code examples, and 39 more developer resources.'
 plans:
 - name: Amazon Resource Explorer Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: amazon-resource-explorer-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Amazon Resource Explorer Rate Limits
@@ -450,44 +454,45 @@ rules:
     warn: 16
   slug: amazon-resource-explorer-spectral-rules
 score:
-  band: developing
-  composite: 46.5
+  band: strong
+  composite: 56.8
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 52.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
+    artifact_dirs: 20
+    catalog_earned: 57.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -1.2
   facets:
-    access_clarity: 53.9
+    access_clarity: 73.7
     contract_governance: 27.3
-    contract_quality: 54.5
-    developer_ergonomics: 36.9
+    contract_quality: 58.8
+    developer_ergonomics: 51.2
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 48.0
+    operational_transparency: 39.5
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 5
+      marker_coverage: 16.7
+      total: 6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/screenshots/amazon-resource-explorer-2026-06-20T171809.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-resource-explorer/amazon-resource-explorer-2026-06-20T171809.png
 security:
 - kind: authentication
   name: Amazon Resource Explorer Authentication

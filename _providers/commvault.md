@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -165,7 +167,7 @@ apis:
   description: Create, manage, and execute automation workflows
   name: Commvault Workflows API
   slug: commvault-workflows-api
-artifact_total: 87
+artifact_total: 86
 collections:
 - collection_type: postman
   name: Commvault Automation Agents API
@@ -239,9 +241,6 @@ collections:
 - collection_type: postman
   name: Commvault Automation Agents Workflows API
   slug: postman-commvault-workflows-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Commvault Automation Agents API
   slug: open-commvault-agents-api
@@ -325,17 +324,17 @@ collections:
   slug: open-commvault-workflows-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/plans/commvault-plans-pricing.yml
+  href: https://artifacts.apis.io/commvault/plans/commvault-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/commvault-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/rate-limits/commvault-rate-limits.yml
+  href: https://artifacts.apis.io/commvault/rate-limits/commvault-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/commvault-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/finops/commvault-finops.yml
+  href: https://artifacts.apis.io/commvault/finops/commvault-finops.yml
   title: ''
   type: FinOps
   url: finops/commvault-finops.yml
@@ -348,17 +347,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/commvault/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/agentic-access/commvault-agentic-access.yml
+  href: https://artifacts.apis.io/commvault/agentic-access/commvault-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/commvault-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/security/commvault-domain-security.yml
+  href: https://artifacts.apis.io/commvault/security/commvault-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/commvault-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/authentication/commvault-authentication.yml
+  href: https://artifacts.apis.io/commvault/authentication/commvault-authentication.yml
   title: ''
   type: Authentication
   url: authentication/commvault-authentication.yml
@@ -407,17 +406,17 @@ common:
   type: TermsOfService
   url: https://www.commvault.com/terms-of-use
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/json-ld/commvault-context.jsonld
+  href: https://artifacts.apis.io/commvault/json-ld/commvault-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/commvault-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/json-schema/commvault-backup-job-schema.json
+  href: https://artifacts.apis.io/commvault/json-schema/commvault-backup-job-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/commvault-backup-job-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/json-schema/commvault-client-schema.json
+  href: https://artifacts.apis.io/commvault/json-schema/commvault-client-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/commvault-client-schema.json
@@ -460,7 +459,7 @@ plans:
 - name: Commvault Plans Pricing
   plan_count: 12
   slug: commvault-plans-pricing
-random_paper: 16
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Commvault Rate Limits
@@ -490,8 +489,8 @@ rules:
     warn: 5
   slug: commvault-rules
 score:
-  band: thin
-  composite: 37.7
+  band: developing
+  composite: 45.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 57.5
@@ -499,15 +498,15 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 42.1
     contract_governance: 13.6
-    contract_quality: 56.4
-    developer_ergonomics: 38.1
+    contract_quality: 53.8
+    developer_ergonomics: 50.0
     discoverability: 71.4
-    operational_transparency: 15.8
-  previous_composite: 39.2
+    operational_transparency: 26.3
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -520,14 +519,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/screenshots/commvault-2026-06-20T174828.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/commvault/commvault-2026-06-20T174828.png
 security:
 - kind: authentication
   name: Commvault Authentication

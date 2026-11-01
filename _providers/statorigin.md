@@ -9,21 +9,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
-    mcp_server: false
+    idempotency: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,62 +68,62 @@ apis:
 artifact_total: 12
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/agentic-access/statorigin-agentic-access.yml
+  href: https://artifacts.apis.io/statorigin/agentic-access/statorigin-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/statorigin-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/rules/statorigin-rules.yml
+  href: https://artifacts.apis.io/statorigin/rules/statorigin-rules.yml
   title: ''
   type: Spectral
   url: rules/statorigin-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/json-ld/statorigin-context.jsonld
+  href: https://artifacts.apis.io/statorigin/json-ld/statorigin-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/statorigin-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/vocabulary/statorigin-vocabulary.yml
+  href: https://artifacts.apis.io/statorigin/vocabulary/statorigin-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/statorigin-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/data-model/statorigin-data-model.yml
+  href: https://artifacts.apis.io/statorigin/data-model/statorigin-data-model.yml
   title: ''
   type: DataModel
   url: data-model/statorigin-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/errors/statorigin-problem-types.yml
+  href: https://artifacts.apis.io/statorigin/errors/statorigin-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/statorigin-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/conformance/statorigin-conformance.yml
+  href: https://artifacts.apis.io/statorigin/conformance/statorigin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/statorigin-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/llms/statorigin-llms.txt
+  href: https://artifacts.apis.io/statorigin/llms/statorigin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/statorigin-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/well-known/statorigin-well-known.yml
+  href: https://artifacts.apis.io/statorigin/well-known/statorigin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/statorigin-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/hosts/statorigin-hosts.yml
+  href: https://artifacts.apis.io/statorigin/hosts/statorigin-hosts.yml
   title: ''
   type: Hosts
   url: hosts/statorigin-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/vendors/statorigin-vendors.yml
+  href: https://artifacts.apis.io/statorigin/vendors/statorigin-vendors.yml
   title: ''
   type: Vendors
   url: vendors/statorigin-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/statorigin/refs/heads/main/security/statorigin-domain-security.yml
+  href: https://artifacts.apis.io/statorigin/security/statorigin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/statorigin-domain-security.yml
@@ -181,7 +183,7 @@ overview: 'StatOrigin publishes 6 API contracts indexed on the [APIs.io](https:/
 
 
   StatOrigin''s developer surface includes documentation, support, and 15 more developer resources.'
-random_paper: 14
+random_paper: 12
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -196,22 +198,24 @@ rules:
     warn: 1
   slug: statorigin-rules
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 31.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 59.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.3
-    catalog_max: 100.0
+    catalog_gap: 55.3
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
-    access_clarity: 57.1
+    access_clarity: 21.1
     contract_governance: 22.0
     contract_quality: 58.0
     developer_ergonomics: 14.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -227,12 +231,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Statorigin Domain Security

@@ -30,16 +30,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 59.4
-  scored_at: '2026-10-17'
+  score: 55.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +49,7 @@ agentic_access:
   operation_count: 9
   slug: stayingapi-agentic-access
   summary_line: 9 operations
-api_count: 2
+api_count: 1
 apis:
 - description: 'Hosted MCP server (Streamable HTTP, OAuth 2.1/PKCE) exposing 7 read-only tools mapping 1:1 to the REST endpoints: search_stays, check_availability, get_listing, get_price, compare_prices, get_reviews,'
   name: StayingAPI MCP Server
@@ -77,11 +79,8 @@ arazzos:
 - description: Find a property, compare its price across OTAs, and read the cheapest offer.
   name: StayingAPI — cross-OTA price comparison
   slug: stayingapi-cross-ota-price-comparison
-artifact_total: 18
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Staying Account API
   slug: open-stayingapi-account-api
@@ -92,37 +91,42 @@ collections:
   name: Staying Jobs API
   slug: open-stayingapi-jobs-api
 common:
+- group: other
+  href: https://artifacts.apis.io/stayingapi/capabilities/stayingapi-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/stayingapi-capability-edges.yml
 - group: company
   title: ''
   type: Website
   url: https://www.stayingapi.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/security/stayingapi-domain-security.yml
+  href: https://artifacts.apis.io/stayingapi/security/stayingapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stayingapi-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/agentic-access/stayingapi-agentic-access.yml
+  href: https://artifacts.apis.io/stayingapi/agentic-access/stayingapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stayingapi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/authentication/stayingapi-authentication.yml
+  href: https://artifacts.apis.io/stayingapi/authentication/stayingapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stayingapi-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/openapi/_original/stayingapi-openapi-original.json
+  href: https://artifacts.apis.io/stayingapi/openapi/_original/stayingapi-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/stayingapi-openapi-original.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/llms/stayingapi-llms.txt
+  href: https://artifacts.apis.io/stayingapi/llms/stayingapi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stayingapi-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/well-known/stayingapi-well-known.yml
+  href: https://artifacts.apis.io/stayingapi/well-known/stayingapi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stayingapi-well-known.yml
@@ -131,47 +135,47 @@ common:
   type: APICatalog
   url: https://stayingapi.com/.well-known/api-catalog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/mcp/stayingapi-mcp.yml
+  href: https://artifacts.apis.io/stayingapi/mcp/stayingapi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/stayingapi-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/mcp/stayingapi-tool-crosswalk.yml
+  href: https://artifacts.apis.io/stayingapi/mcp/stayingapi-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/stayingapi-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/stayingapi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/packages/stayingapi-packages.yml
+  href: https://artifacts.apis.io/stayingapi/packages/stayingapi-packages.yml
   title: ''
   type: Packages
   url: packages/stayingapi-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/packages/stayingapi-packages.yml
+  href: https://artifacts.apis.io/stayingapi/packages/stayingapi-packages.yml
   title: ''
   type: SDKs
   url: packages/stayingapi-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/scopes/stayingapi-scopes.yml
+  href: https://artifacts.apis.io/stayingapi/scopes/stayingapi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/stayingapi-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/conventions/stayingapi-conventions.yml
+  href: https://artifacts.apis.io/stayingapi/conventions/stayingapi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stayingapi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/errors/stayingapi-error-codes.yml
+  href: https://artifacts.apis.io/stayingapi/errors/stayingapi-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/stayingapi-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/lifecycle/stayingapi-lifecycle.yml
+  href: https://artifacts.apis.io/stayingapi/lifecycle/stayingapi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stayingapi-lifecycle.yml
@@ -184,7 +188,7 @@ common:
   type: Deprecation
   url: https://stayingapi.com/docs/stability
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/changelog/stayingapi-changelog.yml
+  href: https://artifacts.apis.io/stayingapi/changelog/stayingapi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/stayingapi-changelog.yml
@@ -193,7 +197,7 @@ common:
   type: ChangeLog
   url: https://stayingapi.com/changelog
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/sandbox/stayingapi-sandbox.yml
+  href: https://artifacts.apis.io/stayingapi/sandbox/stayingapi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/stayingapi-sandbox.yml
@@ -202,37 +206,37 @@ common:
   type: Console
   url: https://stayingapi.com/docs/try-it
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/conformance/stayingapi-conformance.yml
+  href: https://artifacts.apis.io/stayingapi/conformance/stayingapi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stayingapi-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/data-model/stayingapi-data-model.yml
+  href: https://artifacts.apis.io/stayingapi/data-model/stayingapi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stayingapi-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/overlays/stayingapi-openapi-overlay.yaml
+  href: https://artifacts.apis.io/stayingapi/overlays/stayingapi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stayingapi-openapi-overlay.yaml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/rate-limits/stayingapi-rate-limits.yml
+  href: https://artifacts.apis.io/stayingapi/rate-limits/stayingapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stayingapi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/plans/stayingapi-plans.yml
+  href: https://artifacts.apis.io/stayingapi/plans/stayingapi-plans.yml
   title: ''
   type: Plans
   url: plans/stayingapi-plans.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/arazzo/stayingapi-cross-ota-price-comparison.yml
+  href: https://artifacts.apis.io/stayingapi/arazzo/stayingapi-cross-ota-price-comparison.yml
   title: ''
   type: Arazzo
   url: arazzo/stayingapi-cross-ota-price-comparison.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/arazzo/stayingapi-availability-then-price.yml
+  href: https://artifacts.apis.io/stayingapi/arazzo/stayingapi-availability-then-price.yml
   title: ''
   type: Arazzo
   url: arazzo/stayingapi-availability-then-price.yml
@@ -282,6 +286,14 @@ common:
   url: https://stayingapi.com/privacy
 created: '2026-08-03'
 description: Unified accommodation-data API returning live search, availability, price, cross-OTA price comparison, and normalized reviews across Airbnb, Booking.com, Vrbo, and Google Hotels via a single normalized JSON schema, so one integration covers four platforms. Delivered over a nine-operation REST API, a hosted MCP server with seven read-only tools, and a typed TypeScript SDK, all drawing on one shared credit balance. Live calls are asynchronous — a scrape returns HTTP 202 with a jobId to poll — while a deterministic stay_test_ sandbox answers synchronously at zero credits. Failed, empty and blocked calls are never billed. Launched July 2026 with a published stability policy, a locked 35-code error catalog, an llms.txt, an RFC 9727 api-catalog and fourteen installable agent skills.
+finops:
+- has_sources: true
+  method: derived
+  name: Stayingapi Finops
+  primary_unit: credits
+  service_category: ''
+  slug: stayingapi-finops
+  template: false
 image: https://stayingapi.com/icon.svg
 layout: provider
 mcp_servers:
@@ -295,12 +307,15 @@ network: true
 overview: 'StayingAPI publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Data API, Jobs API, and 2 more. Tagged areas include Travel, Hospitality, accommodation-data, hotel-api, and Vacation Rentals.
 
 
-  StayingAPI''s developer surface includes authentication, changelog, sandbox, developer console, documentation, API reference, getting-started guide, and 34 more developer resources.'
+  StayingAPI''s developer surface includes authentication, changelog, sandbox, developer console, documentation, API reference, getting-started guide, and 35 more developer resources.'
 plans:
 - name: Stayingapi Plans
-  plan_count: 5
+  plan_count: 8
   slug: stayingapi-plans
-random_paper: 3
+- name: Stayingapi Price Estimates
+  plan_count: 0
+  slug: stayingapi-price-estimates
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Stayingapi Rate Limits
@@ -312,23 +327,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 64.9
+  composite: 65.8
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 61.0
+    artifact_dirs: 27
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 51.4
     developer_ergonomics: 76.2
-    discoverability: 85.0
-    operational_transparency: 73.7
-  previous_composite: 64.8
+    discoverability: 75.0
+    operational_transparency: 76.3
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -345,14 +360,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/screenshots/stayingapi-2026-08-17T080426.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stayingapi/stayingapi-2026-08-17T080426.png
 security:
 - kind: authentication
   name: Stayingapi Authentication
@@ -362,6 +377,36 @@ security:
   name: Stayingapi Domain Security
   slug: stayingapi-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 14
+skills:
+- name: stayingapi-availability-alert
+  slug: stayingapi-availability-alert
+- name: stayingapi-cheapest-link-resolver
+  slug: stayingapi-cheapest-link-resolver
+- name: stayingapi-comp-set-benchmark
+  slug: stayingapi-comp-set-benchmark
+- name: stayingapi-cross-ota-price-comparison
+  slug: stayingapi-cross-ota-price-comparison
+- name: stayingapi-event-radar
+  slug: stayingapi-event-radar
+- name: stayingapi-mcp-agent-scouting
+  slug: stayingapi-mcp-agent-scouting
+- name: stayingapi-mcp
+  slug: stayingapi-mcp
+- name: stayingapi-new-inventory-lead-gen
+  slug: stayingapi-new-inventory-lead-gen
+- name: stayingapi-portfolio-feed
+  slug: stayingapi-portfolio-feed
+- name: stayingapi-price-drop-watcher
+  slug: stayingapi-price-drop-watcher
+- name: stayingapi-rate-parity-monitor
+  slug: stayingapi-rate-parity-monitor
+- name: stayingapi-review-intelligence-digest
+  slug: stayingapi-review-intelligence-digest
+- name: stayingapi-search
+  slug: stayingapi-search
+- name: stayingapi-str-market-scan
+  slug: stayingapi-str-market-scan
 slug: stayingapi
 tags:
 - Travel

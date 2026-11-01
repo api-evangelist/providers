@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 12
 apis:
 - description: IATA NDC 21.3 AirShopping message. Flight shopping and availability search returning Virgin Atlantic offers, including calendar and multi-city itineraries. Documented publicly on VS NDC Connect; no ba
@@ -73,7 +75,7 @@ apis:
 - description: IATA NDC 21.3 OrderHistory message. Returns the change history of an order. This is the closest thing Virgin Atlantic publishes to a data-retrieval operation; it is per-order and is not a bulk export.
   name: Virgin Atlantic NDC OrderHistory API
   slug: virgin-atlantic-ndc-orderhistory-api
-artifact_total: 15
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Virgin Atlantic Orderchangenotif Webhooks
@@ -108,7 +110,7 @@ common:
   type: Authentication
   url: https://ndc.virginatlantic.com/help/how-to-start-your-build
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/authentication/virgin-atlantic-authentication.yml
+  href: https://artifacts.apis.io/virgin-atlantic/authentication/virgin-atlantic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/virgin-atlantic-authentication.yml
@@ -129,7 +131,7 @@ common:
   type: ChangeLog
   url: https://ndc.virginatlantic.com/product-release
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/changelog/virgin-atlantic-changelog.yml
+  href: https://artifacts.apis.io/virgin-atlantic/changelog/virgin-atlantic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/virgin-atlantic-changelog.yml
@@ -146,37 +148,37 @@ common:
   type: Blog
   url: https://ndc.virginatlantic.com/news
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/schemas/21_3_3_NDC_Schema.zip
+  href: https://artifacts.apis.io/virgin-atlantic/schemas/21_3_3_NDC_Schema.zip
   title: ''
   type: XMLSchema
   url: schemas/21_3_3_NDC_Schema.zip
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/conventions/virgin-atlantic-conventions.yml
+  href: https://artifacts.apis.io/virgin-atlantic/conventions/virgin-atlantic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/virgin-atlantic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/errors/virgin-atlantic-error-codes.yml
+  href: https://artifacts.apis.io/virgin-atlantic/errors/virgin-atlantic-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/virgin-atlantic-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/data-model/virgin-atlantic-data-model.yml
+  href: https://artifacts.apis.io/virgin-atlantic/data-model/virgin-atlantic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/virgin-atlantic-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/vocabulary/virgin-atlantic-vocabulary.yml
+  href: https://artifacts.apis.io/virgin-atlantic/vocabulary/virgin-atlantic-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/virgin-atlantic-vocabulary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/virgin-atlantic/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/asyncapi/virgin-atlantic-orderchangenotif-webhooks.yml
+  href: https://artifacts.apis.io/virgin-atlantic/asyncapi/virgin-atlantic-orderchangenotif-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/virgin-atlantic-orderchangenotif-webhooks.yml
@@ -185,37 +187,37 @@ common:
   type: Sandbox
   url: https://ndc.virginatlantic.com/docs/testing-your-build
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/sandbox/virgin-atlantic-sandbox.yml
+  href: https://artifacts.apis.io/virgin-atlantic/sandbox/virgin-atlantic-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/virgin-atlantic-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/lifecycle/virgin-atlantic-lifecycle.yml
+  href: https://artifacts.apis.io/virgin-atlantic/lifecycle/virgin-atlantic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/virgin-atlantic-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/conformance/virgin-atlantic-conformance.yml
+  href: https://artifacts.apis.io/virgin-atlantic/conformance/virgin-atlantic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/virgin-atlantic-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/packages/virgin-atlantic-packages.yml
+  href: https://artifacts.apis.io/virgin-atlantic/packages/virgin-atlantic-packages.yml
   title: ''
   type: Packages
   url: packages/virgin-atlantic-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/virgin-atlantic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/llms/virgin-atlantic-llms.txt
+  href: https://artifacts.apis.io/virgin-atlantic/llms/virgin-atlantic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/virgin-atlantic-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/security/virgin-atlantic-domain-security.yml
+  href: https://artifacts.apis.io/virgin-atlantic/security/virgin-atlantic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/virgin-atlantic-domain-security.yml
@@ -255,7 +257,7 @@ overview: 'Virgin Atlantic is listed with 12 APIs on the [APIs.io](https://apis.
 
 
   Virgin Atlantic''s developer surface includes developer portal, documentation, API reference, signup flow, authentication, getting-started guide, changelog, and 29 more developer resources.'
-random_paper: 8
+random_paper: 12
 score:
   band: developing
   composite: 45.4
@@ -296,14 +298,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/virgin-atlantic/refs/heads/main/screenshots/virgin-atlantic-2026-08-17T082754.png
+screenshot: https://apis.io/screenshots/virgin-atlantic/virgin-atlantic-2026-08-17T082754.png
 security:
 - kind: authentication
   name: Virgin Atlantic Authentication
@@ -313,6 +315,16 @@ security:
   name: Virgin Atlantic Domain Security
   slug: virgin-atlantic-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: virgin-atlantic-post-sale-seat-purchase
+  slug: virgin-atlantic-post-sale-seat-purchase
+- name: virgin-atlantic-receive-order-change-notifications
+  slug: virgin-atlantic-receive-order-change-notifications
+- name: virgin-atlantic-shop-price-and-book
+  slug: virgin-atlantic-shop-price-and-book
+- name: virgin-atlantic-voluntary-cancellation
+  slug: virgin-atlantic-voluntary-cancellation
 slug: virgin-atlantic
 tags:
 - Travel

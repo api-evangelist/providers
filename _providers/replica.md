@@ -24,21 +24,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 21
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/security/replica-domain-security.yml
+  href: https://artifacts.apis.io/replica/security/replica-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/replica-domain-security.yml
@@ -87,132 +89,132 @@ common:
   type: Login
   url: https://studio.replicahq.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/changelog/replica-changelog.yml
+  href: https://artifacts.apis.io/replica/changelog/replica-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/replica-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/llms/replica-llms.txt
+  href: https://artifacts.apis.io/replica/llms/replica-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/replica-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/vocabulary/replica-data-dictionary.yml
+  href: https://artifacts.apis.io/replica/vocabulary/replica-data-dictionary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/replica-data-dictionary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/data-model/replica-data-model.yml
+  href: https://artifacts.apis.io/replica/data-model/replica-data-model.yml
   title: ''
   type: DataModel
   url: data-model/replica-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/lifecycle/replica-lifecycle.yml
+  href: https://artifacts.apis.io/replica/lifecycle/replica-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/replica-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/conformance/replica-conformance.yml
+  href: https://artifacts.apis.io/replica/conformance/replica-conformance.yml
   title: ''
   type: Conformance
   url: conformance/replica-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/packages/replica-packages.yml
+  href: https://artifacts.apis.io/replica/packages/replica-packages.yml
   title: ''
   type: Packages
   url: packages/replica-packages.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-active-transportation.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-active-transportation.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-active-transportation.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-annual-average-daily-traffic-aadt.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-annual-average-daily-traffic-aadt.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-annual-average-daily-traffic-aadt.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-auto-tnc-trips.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-auto-tnc-trips.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-auto-tnc-trips.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-commercial-freight.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-commercial-freight.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-commercial-freight.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-consumer-spending-by-county-to-county-flows.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-consumer-spending-by-county-to-county-flows.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-consumer-spending-by-county-to-county-flows.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-consumer-spending-by-home-merchant-location.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-consumer-spending-by-home-merchant-location.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-consumer-spending-by-home-merchant-location.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-crash-data.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-crash-data.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-crash-data.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-daily-network-link-volumes.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-daily-network-link-volumes.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-daily-network-link-volumes.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-daily-o-d-data.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-daily-o-d-data.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-daily-o-d-data.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-daily-vmt.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-daily-vmt.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-daily-vmt.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-demographics-employment.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-demographics-employment.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-demographics-employment.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-disaggregate-trip-tables.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-disaggregate-trip-tables.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-disaggregate-trip-tables.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-free-flow-speed-per-network-link.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-free-flow-speed-per-network-link.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-free-flow-speed-per-network-link.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-hourly-auto-volume-profile.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-hourly-auto-volume-profile.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-hourly-auto-volume-profile.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-network-links.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-network-links.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-network-links.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-quarter-hourly-speed-profile-per-network-link-annual.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-quarter-hourly-speed-profile-per-network-link-annual.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-quarter-hourly-speed-profile-per-network-link-annual.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-transit.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-transit.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-transit.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-turning-movement-counts-tmcs.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-turning-movement-counts-tmcs.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-turning-movement-counts-tmcs.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/json-schema/replica-weekly-spend-by-merchant-location.json
+  href: https://artifacts.apis.io/replica/json-schema/replica-weekly-spend-by-merchant-location.json
   title: ''
   type: JSONSchema
   url: json-schema/replica-weekly-spend-by-merchant-location.json
@@ -291,25 +293,25 @@ overview: 'Replica is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Replica''s developer surface includes documentation, getting-started guide, support, engineering blog, changelog, and 33 more developer resources.'
-random_paper: 10
+random_paper: 16
 score:
   band: emerging
-  composite: 17.4
+  composite: 24.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 32.0
     catalog_earned_first_party: 5.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 34.2
     contract_governance: 33.3
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 58.3
-    operational_transparency: 18.4
+    developer_ergonomics: 28.6
+    discoverability: 48.2
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -317,7 +319,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 17.5
+  previous_composite: 24.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -326,15 +328,15 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/replica/refs/heads/main/screenshots/replica-2026-09-02T153457.png
+screenshot: https://apis.io/screenshots/replica/replica-2026-09-02T153457.png
 security:
 - kind: domain-security
   name: Replica Domain Security

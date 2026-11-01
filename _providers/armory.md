@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: derived
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.7
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 56
   slug: armory-agentic-access
   summary_line: 56 operations · 10 acting · 10 human-in-the-loop
-api_count: 7
+api_count: 6
 apis:
 - description: 'Armory Continuous Deployment ships the Spinnaker Gate API as its programmatic interface. Armory documents how to expose it for automation clients on a second Gate port (8085) secured with x509 client '
   name: Armory Continuous Deployment API (Spinnaker Gate)
@@ -157,15 +159,12 @@ apis:
   description: The vpc-controller API from Armory — 1 operation(s) for vpc-controller.
   name: Armory Vpc Controller API
   slug: armory-vpc-controller-api
-artifact_total: 50
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Armory Webhooks
   slug: armory-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Armory Scale Agent Dynamic Accounts Agent Accounts Controller API
   slug: open-armory-agent-accounts-controller-api
@@ -274,7 +273,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/armory
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/changelog/armory-changelog.yml
+  href: https://artifacts.apis.io/armory/changelog/armory-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/armory-changelog.yml
@@ -283,37 +282,37 @@ common:
   type: ReleaseNotes
   url: https://docs.armory.io/continuous-deployment/release-notes/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/agentic-access/armory-agentic-access.yml
+  href: https://artifacts.apis.io/armory/agentic-access/armory-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/armory-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/authentication/armory-authentication.yml
+  href: https://artifacts.apis.io/armory/authentication/armory-authentication.yml
   title: ''
   type: Authentication
   url: authentication/armory-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/conventions/armory-conventions.yml
+  href: https://artifacts.apis.io/armory/conventions/armory-conventions.yml
   title: ''
   type: Conventions
   url: conventions/armory-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/conventions/armory-conventions.yml
+  href: https://artifacts.apis.io/armory/conventions/armory-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/armory-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/errors/armory-problem-types.yml
+  href: https://artifacts.apis.io/armory/errors/armory-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/armory-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/data-model/armory-data-model.yml
+  href: https://artifacts.apis.io/armory/data-model/armory-data-model.yml
   title: ''
   type: DataModel
   url: data-model/armory-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/lifecycle/armory-lifecycle.yml
+  href: https://artifacts.apis.io/armory/lifecycle/armory-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/armory-lifecycle.yml
@@ -322,62 +321,62 @@ common:
   type: Deprecation
   url: https://docs.armory.io/continuous-deployment/feature-status/deprecations/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/overlays/armory-scale-agent-overlay.yaml
+  href: https://artifacts.apis.io/armory/overlays/armory-scale-agent-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/armory-scale-agent-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/conformance/armory-conformance.yml
+  href: https://artifacts.apis.io/armory/conformance/armory-conformance.yml
   title: ''
   type: Conformance
   url: conformance/armory-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/packages/armory-packages.yml
+  href: https://artifacts.apis.io/armory/packages/armory-packages.yml
   title: ''
   type: Packages
   url: packages/armory-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/packages/armory-packages.yml
+  href: https://artifacts.apis.io/armory/packages/armory-packages.yml
   title: ''
   type: SDKs
   url: packages/armory-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/cli/armory-cli.yml
+  href: https://artifacts.apis.io/armory/cli/armory-cli.yml
   title: ''
   type: CLI
   url: cli/armory-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/asyncapi/armory-webhooks.yml
+  href: https://artifacts.apis.io/armory/asyncapi/armory-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/armory-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/mcp/armory-mcp.yml
+  href: https://artifacts.apis.io/armory/mcp/armory-mcp.yml
   title: ''
   type: MCPCandidate
   url: mcp/armory-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/mcp/armory-tool-crosswalk.yml
+  href: https://artifacts.apis.io/armory/mcp/armory-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/armory-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/armory/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/llms/armory-llms.txt
+  href: https://artifacts.apis.io/armory/llms/armory-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/armory-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/well-known/armory-well-known.yml
+  href: https://artifacts.apis.io/armory/well-known/armory-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/armory-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/security/armory-domain-security.yml
+  href: https://artifacts.apis.io/armory/security/armory-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/armory-domain-security.yml
@@ -420,10 +419,10 @@ overview: 'Armory publishes 23 API contracts indexed on the [APIs.io](https://ap
 
 
   Armory''s developer surface includes documentation, API reference, getting-started guide, support, changelog, release notes, authentication, and 31 more developer resources.'
-random_paper: 6
+random_paper: 18
 score:
   band: thin
-  composite: 34.5
+  composite: 36.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 35.0
@@ -431,18 +430,15 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 44.6
-    developer_ergonomics: 68.5
+    contract_quality: 41.2
+    developer_ergonomics: 70.8
     discoverability: 62.5
-    operational_transparency: 34.2
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 34.4
+    operational_transparency: 36.8
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -459,13 +455,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/screenshots/armory-2026-08-07T161731.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/armory/armory-2026-08-07T161731.png
 security:
 - kind: authentication
   name: Armory Authentication
@@ -475,6 +472,14 @@ security:
   name: Armory Domain Security
   slug: armory-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Inspect what is actually deployed - applications, clusters, server groups, instances
+  slug: armory-inspect-deployed-topology
+- name: Manage Kubernetes accounts across Clouddriver and the Armory Scale Agent
+  slug: armory-manage-scale-agent-accounts
+- name: Submit a cloud operation and poll its task to completion
+  slug: armory-submit-operation-and-poll-task
 slug: armory
 tags:
 - Continuous Delivery

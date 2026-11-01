@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -95,7 +97,7 @@ apis:
   description: Operations for managing server logins and database users including role assignments and permission management.
   name: Sybase Users API
   slug: sybase-users-api
-artifact_total: 58
+artifact_total: 57
 collections:
 - collection_type: postman
   name: Sybase ASE REST Backups API
@@ -118,9 +120,6 @@ collections:
 - collection_type: postman
   name: Sybase ASE REST Backups Users API
   slug: postman-sybase-users-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sybase ASE REST API
   slug: open-sybase-ase-rest-api
@@ -147,22 +146,22 @@ collections:
   slug: open-sybase-users-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/rate-limits/sybase-rate-limits.yml
+  href: https://artifacts.apis.io/sybase/rate-limits/sybase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sybase-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/finops/sybase-finops.yml
+  href: https://artifacts.apis.io/sybase/finops/sybase-finops.yml
   title: ''
   type: FinOps
   url: finops/sybase-finops.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/plans/sybase-plans-pricing.yml
+  href: https://artifacts.apis.io/sybase/plans/sybase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sybase-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/capabilities/sybase-capability-edges.yml
+  href: https://artifacts.apis.io/sybase/capabilities/sybase-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sybase-capability-edges.yml
@@ -175,22 +174,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/sybase/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/agentic-access/sybase-agentic-access.yml
+  href: https://artifacts.apis.io/sybase/agentic-access/sybase-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sybase-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/security/sybase-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sybase/security/sybase-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sybase-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/security/sybase-domain-security.yml
+  href: https://artifacts.apis.io/sybase/security/sybase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sybase-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/authentication/sybase-authentication.yml
+  href: https://artifacts.apis.io/sybase/authentication/sybase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sybase-authentication.yml
@@ -281,12 +280,12 @@ examples:
   slug: sybase-list-databases-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Sybase Finops
   primary_unit: ''
-  service_category: Enterprise Database
+  service_category: ''
   slug: sybase-finops
-  template: false
+  template: true
 json_schemas:
 - name: Backup
   property_count: 8
@@ -364,7 +363,7 @@ plans:
 - name: Sybase Plans Pricing
   plan_count: 0
   slug: sybase-plans-pricing
-random_paper: 9
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Sybase Rate Limits
@@ -395,7 +394,7 @@ rules:
   slug: sybase-rules
 score:
   band: developing
-  composite: 40.9
+  composite: 51.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 39.5
@@ -403,15 +402,15 @@ score:
     catalog_gap: 75.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 13.6
     contract_quality: 53.8
-    developer_ergonomics: 41.7
+    developer_ergonomics: 65.5
     discoverability: 51.8
-    operational_transparency: 23.7
-  previous_composite: 42.4
+    operational_transparency: 52.6
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -425,13 +424,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/screenshots/sybase-2026-06-20T194816.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sybase/sybase-2026-06-20T194816.png
 security:
 - kind: authentication
   name: Sybase Authentication

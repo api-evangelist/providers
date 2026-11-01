@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.3
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 9
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 400
   slug: label-studio-agentic-access
   summary_line: 400 operations · 233 acting · 9 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://app.humansignal.com/api
   baseurl_source: declared
@@ -415,11 +417,8 @@ apis:
   description: The subpackage_workspaces.subpackage_workspaces/projects API from Label Studio — 1 operation(s) for subpackage_workspaces.subpackage_workspaces/projects.
   name: Label Studio Subpackage Workspaces.subpackage Workspaces/projects API
   slug: label-studio-subpackage-workspaces-subpackage-workspaces-projects-api
-artifact_total: 155
+artifact_total: 154
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API Reference subpackage_actions API
   slug: open-label-studio-subpackage-actions-api
@@ -641,22 +640,22 @@ collections:
   slug: open-label-studio
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/plans/label-studio-plans-pricing.yml
+  href: https://artifacts.apis.io/label-studio/plans/label-studio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/label-studio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/rate-limits/label-studio-rate-limits.yml
+  href: https://artifacts.apis.io/label-studio/rate-limits/label-studio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/label-studio-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/finops/label-studio-finops.yml
+  href: https://artifacts.apis.io/label-studio/finops/label-studio-finops.yml
   title: ''
   type: FinOps
   url: finops/label-studio-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/capabilities/label-studio-capability-edges.yml
+  href: https://artifacts.apis.io/label-studio/capabilities/label-studio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/label-studio-capability-edges.yml
@@ -681,17 +680,17 @@ common:
   type: License
   url: https://github.com/HumanSignal/label-studio/blob/develop/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/agentic-access/label-studio-agentic-access.yml
+  href: https://artifacts.apis.io/label-studio/agentic-access/label-studio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/label-studio-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/security/label-studio-domain-security.yml
+  href: https://artifacts.apis.io/label-studio/security/label-studio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/label-studio-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/authentication/label-studio-authentication.yml
+  href: https://artifacts.apis.io/label-studio/authentication/label-studio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/label-studio-authentication.yml
@@ -737,7 +736,7 @@ finops:
 - has_sources: false
   method: generated
   name: Label Studio Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: label-studio-finops
   template: true
@@ -759,14 +758,14 @@ plans:
 - name: Label Studio Plans Pricing
   plan_count: 3
   slug: label-studio-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Label Studio Rate Limits
   slug: label-studio-rate-limits
 score:
-  band: developing
-  composite: 41.6
+  band: thin
+  composite: 34.9
   coverage:
     artifact_dirs: 15
     catalog_earned: 43.0
@@ -774,18 +773,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 45.2
-    developer_ergonomics: 33.3
-    discoverability: 75.0
+    contract_quality: 41.8
+    developer_ergonomics: 35.7
+    discoverability: 73.2
     operational_transparency: 28.9
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 43.0
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -800,13 +796,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/screenshots/label-studio-2026-06-20T184236.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/label-studio/label-studio-2026-06-20T184236.png
 security:
 - kind: authentication
   name: Label Studio Authentication

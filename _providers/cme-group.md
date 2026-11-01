@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: A set of JSON RESTful web service APIs that provide access to product and instrument reference data for CME Group, BrokerTec, EBS, hosted partners, and CME Group-cleared markets. Supports OAuth-secure
@@ -61,22 +63,22 @@ apis:
 artifact_total: 14
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/plans/cme-group-plans-pricing.yml
+  href: https://artifacts.apis.io/cme-group/plans/cme-group-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cme-group-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/rate-limits/cme-group-rate-limits.yml
+  href: https://artifacts.apis.io/cme-group/rate-limits/cme-group-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cme-group-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/finops/cme-group-finops.yml
+  href: https://artifacts.apis.io/cme-group/finops/cme-group-finops.yml
   title: ''
   type: FinOps
   url: finops/cme-group-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/security/cme-group-domain-security.yml
+  href: https://artifacts.apis.io/cme-group/security/cme-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cme-group-domain-security.yml
@@ -85,67 +87,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/CMEGroupPublic
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/packages/cme-group-packages.yml
+  href: https://artifacts.apis.io/cme-group/packages/cme-group-packages.yml
   title: ''
   type: Packages
   url: packages/cme-group-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/packages/cme-group-packages.yml
+  href: https://artifacts.apis.io/cme-group/packages/cme-group-packages.yml
   title: ''
   type: SDKs
   url: packages/cme-group-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/well-known/cme-group-well-known.yml
+  href: https://artifacts.apis.io/cme-group/well-known/cme-group-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cme-group-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/authentication/cme-group-authentication.yml
+  href: https://artifacts.apis.io/cme-group/authentication/cme-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cme-group-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/scopes/cme-group-scopes.yml
+  href: https://artifacts.apis.io/cme-group/scopes/cme-group-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cme-group-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/errors/cme-group-problem-types.yml
+  href: https://artifacts.apis.io/cme-group/errors/cme-group-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cme-group-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/conventions/cme-group-conventions.yml
+  href: https://artifacts.apis.io/cme-group/conventions/cme-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cme-group-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/lifecycle/cme-group-lifecycle.yml
+  href: https://artifacts.apis.io/cme-group/lifecycle/cme-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cme-group-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/changelog/cme-group-changelog.yml
+  href: https://artifacts.apis.io/cme-group/changelog/cme-group-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cme-group-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/sandbox/cme-group-sandbox.yml
+  href: https://artifacts.apis.io/cme-group/sandbox/cme-group-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cme-group-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/conformance/cme-group-conformance.yml
+  href: https://artifacts.apis.io/cme-group/conformance/cme-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cme-group-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/llms/cme-group-llms.txt
+  href: https://artifacts.apis.io/cme-group/llms/cme-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cme-group-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/security/cme-group-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cme-group/security/cme-group-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cme-group-vulnerability-disclosure.yml
@@ -253,7 +255,7 @@ press:
 - date: ''
   title: CME Group and Silicon Data Partner to Launch First ...
   url: https://www.prnewswire.com/news-releases/cme-group-and-silicon-data-partner-to-launch-first-compute-futures-302769215.html
-random_paper: 9
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Cme Group Rate Limits
@@ -265,7 +267,7 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 40.5
+  composite: 40.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 41.0
@@ -273,15 +275,15 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
     discoverability: 62.5
-    operational_transparency: 36.8
-  previous_composite: 42.0
+    operational_transparency: 39.5
+  previous_composite: 40.8
   provenance:
     conformance: first-party
   regulatory:
@@ -290,14 +292,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/screenshots/cme-group-2026-06-20T174629.png
+screenshot: https://apis.io/screenshots/cme-group/cme-group-2026-06-20T174629.png
 security:
 - kind: authentication
   name: Cme Group Authentication

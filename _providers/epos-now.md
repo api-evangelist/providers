@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: Sales records (orders) captured at the point of sale.
   name: Epos Now Transactions API
   slug: epos-now-transactions-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: EposNow HQ REST Categories API
   slug: open-epos-now-categories-api
@@ -110,17 +109,17 @@ common:
   type: Pricing
   url: https://www.eposnow.com/us/pricing/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/capabilities/epos-now-capability-edges.yml
+  href: https://artifacts.apis.io/epos-now/capabilities/epos-now-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/epos-now-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/agentic-access/epos-now-agentic-access.yml
+  href: https://artifacts.apis.io/epos-now/agentic-access/epos-now-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/epos-now-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/authentication/epos-now-authentication.yml
+  href: https://artifacts.apis.io/epos-now/authentication/epos-now-authentication.yml
   title: ''
   type: Authentication
   url: authentication/epos-now-authentication.yml
@@ -137,17 +136,17 @@ common:
   type: Documentation
   url: https://developer.eposnowhq.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/plans/epos-now-plans-pricing.yml
+  href: https://artifacts.apis.io/epos-now/plans/epos-now-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/epos-now-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/rate-limits/epos-now-rate-limits.yml
+  href: https://artifacts.apis.io/epos-now/rate-limits/epos-now-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/epos-now-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/finops/epos-now-finops.yml
+  href: https://artifacts.apis.io/epos-now/finops/epos-now-finops.yml
   title: ''
   type: FinOps
   url: finops/epos-now-finops.yml
@@ -178,14 +177,14 @@ plans:
 - name: Epos Now Price Estimates
   plan_count: 0
   slug: epos-now-price-estimates
-random_paper: 10
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Epos Now Rate Limits
   slug: epos-now-rate-limits
 score:
   band: thin
-  composite: 32.5
+  composite: 32.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 52.0
@@ -193,15 +192,15 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
-    contract_quality: 51.2
+    contract_quality: 47.8
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 36.2
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     contracts:
@@ -215,13 +214,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/screenshots/epos-now-2026-07-25T213541.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/epos-now/epos-now-2026-07-25T213541.png
 security:
 - kind: authentication
   name: Epos Now Authentication

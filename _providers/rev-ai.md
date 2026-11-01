@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: Batch transcription API for pre-recorded audio files supporting uploads up to 2 GB (multipart) or 5 TB (source URL), with results typically available within 15 minutes.
@@ -60,12 +62,12 @@ apis:
 artifact_total: 13
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rev-ai/refs/heads/main/security/rev-ai-trust-center.yml
+  href: https://artifacts.apis.io/rev-ai/security/rev-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rev-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rev-ai/refs/heads/main/security/rev-ai-domain-security.yml
+  href: https://artifacts.apis.io/rev-ai/security/rev-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rev-ai-domain-security.yml
@@ -98,27 +100,27 @@ common:
   type: StatusPage
   url: https://status.rev.ai/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rev-ai/refs/heads/main/plans/rev-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/rev-ai/plans/rev-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rev-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rev-ai/refs/heads/main/rate-limits/rev-ai-rate-limits.yml
+  href: https://artifacts.apis.io/rev-ai/rate-limits/rev-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rev-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rev-ai/refs/heads/main/finops/rev-ai-finops.yml
+  href: https://artifacts.apis.io/rev-ai/finops/rev-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/rev-ai-finops.yml
 - group: company
-  href: https://raw.githubusercontent.com/api-evangelist/rev-ai/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/rev-ai/blogs/blogs.json
   title: ''
   type: BlogFeed
   url: blogs/blogs.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rev-ai/refs/heads/main/json-ld/rev-ai-context.jsonld
+  href: https://artifacts.apis.io/rev-ai/json-ld/rev-ai-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/rev-ai-context.jsonld
@@ -154,14 +156,14 @@ plans:
 - name: Rev Ai Plans Pricing
   plan_count: 3
   slug: rev-ai-plans-pricing
-random_paper: 8
+random_paper: 4
 rate_limits:
 - limit_count: 10
   name: Rev Ai Rate Limits
   slug: rev-ai-rate-limits
 score:
   band: emerging
-  composite: 21.0
+  composite: 21.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 54.0
@@ -169,29 +171,29 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 11.9
     discoverability: 71.4
-    operational_transparency: 26.3
-  previous_composite: 29.2
+    operational_transparency: 28.9
+  previous_composite: 21.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rev-ai/refs/heads/main/screenshots/rev-ai-2026-06-20T193043.png
+screenshot: https://apis.io/screenshots/rev-ai/rev-ai-2026-06-20T193043.png
 security:
 - kind: domain-security
   name: Rev Ai Domain Security

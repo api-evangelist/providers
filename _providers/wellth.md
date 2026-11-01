@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The production GraphQL API behind the Wellth member mobile app and the Wellth internal dashboard. Confirmed live at https://api.wellthapp.com/graphql: the endpoint is an Apollo Server deployment (stac'
@@ -42,7 +44,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wellth/refs/heads/main/security/wellth-domain-security.yml
+  href: https://artifacts.apis.io/wellth/security/wellth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wellth-domain-security.yml
@@ -79,12 +81,12 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/wellth_stock/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wellth/refs/heads/main/packages/wellth-packages.yml
+  href: https://artifacts.apis.io/wellth/packages/wellth-packages.yml
   title: ''
   type: Packages
   url: packages/wellth-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wellth/refs/heads/main/conformance/wellth-conformance.yml
+  href: https://artifacts.apis.io/wellth/conformance/wellth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wellth-conformance.yml
@@ -93,22 +95,22 @@ common:
   type: Compliance
   url: https://www.wellthapp.com/privacy-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wellth/refs/heads/main/lifecycle/wellth-lifecycle.yml
+  href: https://artifacts.apis.io/wellth/lifecycle/wellth-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wellth-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wellth/refs/heads/main/conventions/wellth-conventions.yml
+  href: https://artifacts.apis.io/wellth/conventions/wellth-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wellth-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wellth/refs/heads/main/errors/wellth-problem-types.yml
+  href: https://artifacts.apis.io/wellth/errors/wellth-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wellth-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wellth/refs/heads/main/llms/wellth-llms.txt
+  href: https://artifacts.apis.io/wellth/llms/wellth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wellth-llms.txt
@@ -138,26 +140,26 @@ overview: 'Wellth is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Wellth''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 18
+random_paper: 8
 score:
   band: emerging
-  composite: 19.4
+  composite: 19.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 19.3
+    operational_transparency: 21.1
+  previous_composite: 19.7
   provenance:
     conformance: first-party
   regulatory:
@@ -172,14 +174,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wellth/refs/heads/main/screenshots/wellth-2026-09-02T170611.png
+screenshot: https://apis.io/screenshots/wellth/wellth-2026-09-02T170611.png
 security:
 - kind: domain-security
   name: Wellth Domain Security

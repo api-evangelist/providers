@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,9 +61,6 @@ asyncapis:
   slug: teammates-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Teammates SmartTools Assign API
   slug: open-teammates-assign-api
 - collection_type: open
@@ -69,7 +68,7 @@ collections:
   slug: open-teammates-assignment-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/overlays/teammates-smarttools-overlay.yaml
+  href: https://artifacts.apis.io/teammates/overlays/teammates-smarttools-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/teammates-smarttools-overlay.yaml
@@ -134,47 +133,47 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/teammates-work/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/changelog/teammates-changelog.yml
+  href: https://artifacts.apis.io/teammates/changelog/teammates-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/teammates-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/llms/teammates-llms.txt
+  href: https://artifacts.apis.io/teammates/llms/teammates-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/teammates-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/mcp/teammates-mcp.yml
+  href: https://artifacts.apis.io/teammates/mcp/teammates-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/teammates-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/asyncapi/teammates-webhooks.yml
+  href: https://artifacts.apis.io/teammates/asyncapi/teammates-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/teammates-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/teammates/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/conventions/teammates-conventions.yml
+  href: https://artifacts.apis.io/teammates/conventions/teammates-conventions.yml
   title: ''
   type: Conventions
   url: conventions/teammates-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/data-model/teammates-data-model.yml
+  href: https://artifacts.apis.io/teammates/data-model/teammates-data-model.yml
   title: ''
   type: DataModel
   url: data-model/teammates-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/security/teammates-domain-security.yml
+  href: https://artifacts.apis.io/teammates/security/teammates-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teammates-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/agentic-access/teammates-agentic-access.yml
+  href: https://artifacts.apis.io/teammates/agentic-access/teammates-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/teammates-agentic-access.yml
@@ -193,10 +192,10 @@ overview: 'Teammates publishes 2 API contracts indexed on the [APIs.io](https://
 
 
   Teammates'' developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 18 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
-  band: thin
-  composite: 36.0
+  band: developing
+  composite: 42.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -204,15 +203,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 48.5
-    developer_ergonomics: 45.8
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 35.9
+    developer_ergonomics: 47.0
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -227,19 +226,24 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 11.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 17.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/screenshots/teammates-2026-08-17T082257.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/teammates/teammates-2026-08-17T082257.png
 security:
 - kind: domain-security
   name: Teammates Domain Security
   slug: teammates-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: Run a Teammates assignment
+  slug: teammates-run-assignment
 slug: teammates
 tags:
 - Company

@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 23.8
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.tastelabs.com
   baseurl_source: declared
@@ -55,9 +57,6 @@ apis:
 artifact_total: 9
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Taste Engine health API
   slug: open-taste-health-api
 - collection_type: open
@@ -68,12 +67,12 @@ collections:
   slug: open-taste-taste-engine-api-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/overlays/taste-taste-engine-overlay.yaml
+  href: https://artifacts.apis.io/taste/overlays/taste-taste-engine-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/taste-taste-engine-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/security/taste-domain-security.yml
+  href: https://artifacts.apis.io/taste/security/taste-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/taste-domain-security.yml
@@ -86,52 +85,52 @@ common:
   type: Blog
   url: https://tastelabs.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/authentication/taste-authentication.yml
+  href: https://artifacts.apis.io/taste/authentication/taste-authentication.yml
   title: ''
   type: Authentication
   url: authentication/taste-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/errors/taste-problem-types.yml
+  href: https://artifacts.apis.io/taste/errors/taste-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/taste-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/conventions/taste-conventions.yml
+  href: https://artifacts.apis.io/taste/conventions/taste-conventions.yml
   title: ''
   type: Conventions
   url: conventions/taste-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/data-model/taste-data-model.yml
+  href: https://artifacts.apis.io/taste/data-model/taste-data-model.yml
   title: ''
   type: DataModel
   url: data-model/taste-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/mcp/taste-mcp.yml
+  href: https://artifacts.apis.io/taste/mcp/taste-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/taste-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/taste/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/llms/taste-llms.txt
+  href: https://artifacts.apis.io/taste/llms/taste-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/taste-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/conformance/taste-conformance.yml
+  href: https://artifacts.apis.io/taste/conformance/taste-conformance.yml
   title: ''
   type: Conformance
   url: conformance/taste-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/well-known/taste-well-known.yml
+  href: https://artifacts.apis.io/taste/well-known/taste-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/taste-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/lifecycle/taste-lifecycle.yml
+  href: https://artifacts.apis.io/taste/lifecycle/taste-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/taste-lifecycle.yml
@@ -164,7 +163,7 @@ score:
     contract_governance: 4.5
     contract_quality: 39.6
     developer_ergonomics: 16.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   previous_composite: 20.3
   provenance:
@@ -182,13 +181,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/screenshots/taste-2026-09-02T162559.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/taste/taste-2026-09-02T162559.png
 security:
 - kind: authentication
   name: Taste Authentication
@@ -198,6 +198,10 @@ security:
   name: Taste Domain Security
   slug: taste-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Enhance a design prompt with brand guidelines
+  slug: taste-enhance-design-prompt
 slug: taste
 tags:
 - Company

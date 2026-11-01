@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,16 +36,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API over the Lightsprint workspace board — tasks, comments, projects, stacks, and cloud coding agents. Authenticated with OAuth 2.0 authorization-code tokens bound to a single workspace; the repo
   name: Lightsprint API
   slug: lightsprint-api
-artifact_total: 6
+artifact_total: 14
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/plans/lightsprint-plans-pricing.yml
+  href: https://artifacts.apis.io/lightsprint/plans/lightsprint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lightsprint-plans-pricing.yml
@@ -52,7 +54,7 @@ common:
   type: Website
   url: https://www.lightsprint.ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/mcp/lightsprint-mcp.yml
+  href: https://artifacts.apis.io/lightsprint/mcp/lightsprint-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lightsprint-mcp.yml
@@ -101,77 +103,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/SprintsAI
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/security/lightsprint-trust-center.yml
+  href: https://artifacts.apis.io/lightsprint/security/lightsprint-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lightsprint-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/security/lightsprint-domain-security.yml
+  href: https://artifacts.apis.io/lightsprint/security/lightsprint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lightsprint-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/authentication/lightsprint-authentication.yml
+  href: https://artifacts.apis.io/lightsprint/authentication/lightsprint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lightsprint-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/scopes/lightsprint-scopes.yml
+  href: https://artifacts.apis.io/lightsprint/scopes/lightsprint-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lightsprint-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/conventions/lightsprint-conventions.yml
+  href: https://artifacts.apis.io/lightsprint/conventions/lightsprint-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lightsprint-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/data-model/lightsprint-data-model.yml
+  href: https://artifacts.apis.io/lightsprint/data-model/lightsprint-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lightsprint-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/lifecycle/lightsprint-lifecycle.yml
+  href: https://artifacts.apis.io/lightsprint/lifecycle/lightsprint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lightsprint-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/conformance/lightsprint-conformance.yml
+  href: https://artifacts.apis.io/lightsprint/conformance/lightsprint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lightsprint-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/well-known/lightsprint-well-known.yml
+  href: https://artifacts.apis.io/lightsprint/well-known/lightsprint-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lightsprint-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/packages/lightsprint-packages.yml
+  href: https://artifacts.apis.io/lightsprint/packages/lightsprint-packages.yml
   title: ''
   type: Packages
   url: packages/lightsprint-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/packages/lightsprint-packages.yml
+  href: https://artifacts.apis.io/lightsprint/packages/lightsprint-packages.yml
   title: ''
   type: SDKs
   url: packages/lightsprint-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/cli/lightsprint-cli.yml
+  href: https://artifacts.apis.io/lightsprint/cli/lightsprint-cli.yml
   title: ''
   type: CLI
   url: cli/lightsprint-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/llms/lightsprint-llms.txt
+  href: https://artifacts.apis.io/lightsprint/llms/lightsprint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lightsprint-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lightsprint/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/plans/lightsprint-plans-pricing.yml
+  href: https://artifacts.apis.io/lightsprint/plans/lightsprint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lightsprint-plans-pricing.yml
@@ -193,6 +195,14 @@ common:
   url: https://x.com/lightsprintai
 created: '2026-07-17'
 description: Lightsprint is an AI-native product-development platform where developers, product managers, and designers plan, build, and ship together against a codebase a team already runs, rather than a greenfield prototype. Its three surfaces are Plan Mode, which turns plain-English requirements into structured, reviewable visual plans; infinite parallel cloud agents that execute those plans on the team's real repository using Anthropic, Cursor, or Codex models in managed cloud infrastructure instead of on a developer's machine; and per-change preview environments that give every pull request a live URL so non-engineers review a running app instead of a diff. Work is tracked on a workspace board of stacks, projects, tasks, and dependencies exposed through an OAuth 2.0 REST API, a `lightsprint` CLI, a set of published Claude Code Agent Skills, and an n8n community node. Lightsprint was founded by Ben Ong, Benedict Chan, and Heng Hong Lee, and went through Y Combinator's Spring 2026 batch.
+finops:
+- has_sources: true
+  method: derived
+  name: Lightsprint Finops
+  primary_unit: workspace
+  service_category: ''
+  slug: lightsprint-finops
+  template: false
 image: https://lightsprint.ai/favicon.svg
 layout: provider
 modified: '2026-07-19'
@@ -207,7 +217,10 @@ plans:
 - name: Lightsprint Plans Pricing
   plan_count: 3
   slug: lightsprint-plans-pricing
-random_paper: 20
+- name: Lightsprint Price Estimates
+  plan_count: 0
+  slug: lightsprint-price-estimates
+random_paper: 8
 scopes:
 - name: Lightsprint Scopes
   scope_count: 7
@@ -215,23 +228,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.9
+  composite: 43.7
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 49.0
+    artifact_dirs: 19
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 42.8
+  previous_composite: 42.2
   provenance:
     conformance: derived
     mcp: derived
@@ -242,14 +255,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/screenshots/lightsprint-2026-07-25T225137.png
+screenshot: https://apis.io/screenshots/lightsprint/lightsprint-2026-07-25T225137.png
 security:
 - kind: authentication
   name: Lightsprint Authentication
@@ -263,6 +276,20 @@ security:
   name: Lightsprint Trust Center
   slug: lightsprint-trust-center
   summary_line: SOC 2 Type II
+skill_count: 6
+skills:
+- name: claim
+  slug: lightsprint-claim
+- name: comment
+  slug: lightsprint-comment
+- name: create
+  slug: lightsprint-create
+- name: get
+  slug: lightsprint-get
+- name: tasks
+  slug: lightsprint-tasks
+- name: update
+  slug: lightsprint-update
 slug: lightsprint
 tags:
 - Company

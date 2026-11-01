@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
@@ -90,47 +92,47 @@ common:
   type: PrivacyPolicy
   url: https://www.cookieyes.com/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cookieyes/refs/heads/main/llms/cookieyes-llms.txt
+  href: https://artifacts.apis.io/cookieyes/llms/cookieyes-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cookieyes-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cookieyes/refs/heads/main/well-known/cookieyes-well-known.yml
+  href: https://artifacts.apis.io/cookieyes/well-known/cookieyes-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cookieyes-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cookieyes/refs/heads/main/mcp/cookieyes-mcp.yml
+  href: https://artifacts.apis.io/cookieyes/mcp/cookieyes-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cookieyes-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cookieyes/refs/heads/main/authentication/cookieyes-authentication.yml
+  href: https://artifacts.apis.io/cookieyes/authentication/cookieyes-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cookieyes-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cookieyes/refs/heads/main/scopes/cookieyes-scopes.yml
+  href: https://artifacts.apis.io/cookieyes/scopes/cookieyes-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cookieyes-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cookieyes/refs/heads/main/security/cookieyes-domain-security.yml
+  href: https://artifacts.apis.io/cookieyes/security/cookieyes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cookieyes-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cookieyes/refs/heads/main/security/cookieyes-trust-center.yml
+  href: https://artifacts.apis.io/cookieyes/security/cookieyes-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cookieyes-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cookieyes/refs/heads/main/security/cookieyes-trust-center.yml
+  href: https://artifacts.apis.io/cookieyes/security/cookieyes-trust-center.yml
   title: ''
   type: Compliance
   url: security/cookieyes-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cookieyes/refs/heads/main/conformance/cookieyes-conformance.yml
+  href: https://artifacts.apis.io/cookieyes/conformance/cookieyes-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cookieyes-conformance.yml
@@ -150,7 +152,7 @@ overview: 'Cookieyes is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cookieyes'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 3
+random_paper: 11
 scopes:
 - name: Cookieyes Scopes
   scope_count: 5
@@ -158,7 +160,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.8
+  composite: 34.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -168,13 +170,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 33.8
+  previous_composite: 34.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -188,14 +190,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cookieyes/refs/heads/main/screenshots/cookieyes-2026-07-25T210357.png
+screenshot: https://apis.io/screenshots/cookieyes/cookieyes-2026-07-25T210357.png
 security:
 - kind: authentication
   name: Cookieyes Authentication

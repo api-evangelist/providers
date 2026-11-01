@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.0
-  scored_at: '2026-10-17'
+  score: 25.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 288
   human_in_the_loop: 7
@@ -356,70 +358,75 @@ apis:
   description: The workspace_data_object API from ReqArchitect — 2 operation(s) for workspace_data_object.
   name: ReqArchitect Workspace Data Object API
   slug: archiet-workspace-data-object-api
-artifact_total: 70
+artifact_total: 74
 common:
+- group: commercial
+  href: https://artifacts.apis.io/archiet/plans/archiet-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/archiet-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/archiet/refs/heads/main/capabilities/archiet-capability-edges.yml
+  href: https://artifacts.apis.io/archiet/capabilities/archiet-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/archiet-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archiet/refs/heads/main/agentic-access/archiet-agentic-access.yml
+  href: https://artifacts.apis.io/archiet/agentic-access/archiet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/archiet-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archiet/refs/heads/main/rules/archiet-rules.yml
+  href: https://artifacts.apis.io/archiet/rules/archiet-rules.yml
   title: ''
   type: Spectral
   url: rules/archiet-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archiet/refs/heads/main/json-ld/archiet-context.jsonld
+  href: https://artifacts.apis.io/archiet/json-ld/archiet-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/archiet-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archiet/refs/heads/main/vocabulary/archiet-vocabulary.yml
+  href: https://artifacts.apis.io/archiet/vocabulary/archiet-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/archiet-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archiet/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/archiet/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archiet/refs/heads/main/data-model/archiet-data-model.yml
+  href: https://artifacts.apis.io/archiet/data-model/archiet-data-model.yml
   title: ''
   type: DataModel
   url: data-model/archiet-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archiet/refs/heads/main/errors/archiet-problem-types.yml
+  href: https://artifacts.apis.io/archiet/errors/archiet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/archiet-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archiet/refs/heads/main/conformance/archiet-conformance.yml
+  href: https://artifacts.apis.io/archiet/conformance/archiet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/archiet-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archiet/refs/heads/main/llms/archiet-llms.txt
+  href: https://artifacts.apis.io/archiet/llms/archiet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/archiet-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archiet/refs/heads/main/well-known/archiet-ifiok-security.txt
+  href: https://artifacts.apis.io/archiet/well-known/archiet-ifiok-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/archiet-ifiok-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archiet/refs/heads/main/well-known/archiet-well-known.yml
+  href: https://artifacts.apis.io/archiet/well-known/archiet-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/archiet-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/archiet/refs/heads/main/hosts/archiet-hosts.yml
+  href: https://artifacts.apis.io/archiet/hosts/archiet-hosts.yml
   title: ''
   type: Hosts
   url: hosts/archiet-hosts.yml
@@ -436,12 +443,12 @@ common:
   type: GettingStarted
   url: https://archiet.ai/docs/iyene-getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archiet/refs/heads/main/authentication/archiet-authentication.yml
+  href: https://artifacts.apis.io/archiet/authentication/archiet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/archiet-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archiet/refs/heads/main/security/archiet-domain-security.yml
+  href: https://artifacts.apis.io/archiet/security/archiet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/archiet-domain-security.yml
@@ -483,6 +490,14 @@ common:
   url: https://archiet.ai/contact
 created: '2026-10-16'
 description: ReqArchitect provides an Architecture Intelligence Platform that helps teams manage application portfolios, model architectures using ArchiMate, and generate production-ready code. The platform offers three modules – Iyene for portfolio and capability mapping, Etione for requirements-to-Archimate and C4 diagramming, and Ifiok for code generation. Users can start for free, explore pricing per seat, and access resources like blogs, stories, and a roadmap. Archiet aims to rationalize portfolios, visualize architecture, and streamline delivery with AI‑assisted features.
+finops:
+- has_sources: true
+  method: derived
+  name: Archiet Finops
+  primary_unit: ''
+  service_category: ''
+  slug: archiet-finops
+  template: true
 image: https://archiet.ai/og-image
 jsonld:
 - class_count: 11
@@ -500,8 +515,12 @@ overview: 'ReqArchitect publishes 65 API contracts indexed on the [APIs.io](http
   The ReqArchitect catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ReqArchitect''s developer surface includes documentation, getting-started guide, authentication, pricing, engineering blog, and 22 more developer resources.'
-random_paper: 10
+  ReqArchitect''s developer surface includes documentation, getting-started guide, authentication, pricing, engineering blog, and 23 more developer resources.'
+plans:
+- name: Archiet Plans Pricing
+  plan_count: 3
+  slug: archiet-plans-pricing
+random_paper: 16
 rules:
 - authorship: generated
   effective_rule_count: 50
@@ -517,21 +536,23 @@ rules:
   slug: archiet-rules
 score:
   band: developing
-  composite: 41.9
+  composite: 46.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 50.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 64.3
+    artifact_dirs: 20
+    catalog_earned: 62.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 6.3
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 22.0
-    contract_quality: 47.4
+    contract_quality: 45.1
     developer_ergonomics: 37.5
-    discoverability: 73.2
-    operational_transparency: 5.3
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -548,11 +569,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Archiet Authentication
@@ -562,6 +585,12 @@ security:
   name: Archiet Domain Security
   slug: archiet-domain-security
   summary_line: TLSv1.3
+skill_count: 2
+skills:
+- name: archiet-paystack-checkout-and-verify
+  slug: archiet-paystack-checkout-and-verify
+- name: archiet-webhooks-create-and-test
+  slug: archiet-webhooks-create-and-test
 slug: archiet
 tags:
 - Architecture

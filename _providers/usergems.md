@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 59.9
-  scored_at: '2026-10-17'
+  score: 55.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -84,7 +86,7 @@ apis:
 - description: Hosted remote MCP server that lets an agent in Claude, ChatGPT or any MCP-compatible client work against the customer's own UserGems workspace — searching accounts and prospects, pulling signal and sc
   name: UserGems MCP
   slug: usergems-mcp
-artifact_total: 57
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Usergems Webhooks
@@ -100,9 +102,6 @@ collections:
   name: UserGems Accounts Privacy API
   slug: postman-usergems-privacy-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: UserGems Accounts API
   slug: open-usergems-accounts-api
 - collection_type: open
@@ -116,7 +115,7 @@ collections:
   slug: open-usergems-privacy-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/capabilities/usergems-capability-edges.yml
+  href: https://artifacts.apis.io/usergems/capabilities/usergems-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/usergems-capability-edges.yml
@@ -125,82 +124,82 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/usergems/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/agentic-access/usergems-agentic-access.yml
+  href: https://artifacts.apis.io/usergems/agentic-access/usergems-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/usergems-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/security/usergems-trust-center.yml
+  href: https://artifacts.apis.io/usergems/security/usergems-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/usergems-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/security/usergems-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/usergems/security/usergems-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/usergems-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/security/usergems-domain-security.yml
+  href: https://artifacts.apis.io/usergems/security/usergems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/usergems-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/authentication/usergems-authentication.yml
+  href: https://artifacts.apis.io/usergems/authentication/usergems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/usergems-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/mcp/usergems-mcp.yml
+  href: https://artifacts.apis.io/usergems/mcp/usergems-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/usergems-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/mcp/usergems-tool-crosswalk.yml
+  href: https://artifacts.apis.io/usergems/mcp/usergems-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/usergems-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/scopes/usergems-scopes.yml
+  href: https://artifacts.apis.io/usergems/scopes/usergems-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/usergems-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/well-known/usergems-well-known.yml
+  href: https://artifacts.apis.io/usergems/well-known/usergems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/usergems-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/well-known/usergems-robots.txt
+  href: https://artifacts.apis.io/usergems/well-known/usergems-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/usergems-robots.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/llms/usergems-llms.txt
+  href: https://artifacts.apis.io/usergems/llms/usergems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/usergems-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/packages/usergems-packages.yml
+  href: https://artifacts.apis.io/usergems/packages/usergems-packages.yml
   title: ''
   type: Packages
   url: packages/usergems-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/conventions/usergems-conventions.yml
+  href: https://artifacts.apis.io/usergems/conventions/usergems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/usergems-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/errors/usergems-problem-types.yml
+  href: https://artifacts.apis.io/usergems/errors/usergems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/usergems-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/lifecycle/usergems-lifecycle.yml
+  href: https://artifacts.apis.io/usergems/lifecycle/usergems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/usergems-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/conformance/usergems-conformance.yml
+  href: https://artifacts.apis.io/usergems/conformance/usergems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/usergems-conformance.yml
@@ -213,17 +212,17 @@ common:
   type: Security
   url: https://www.usergems.com/legal-security/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/data-model/usergems-data-model.yml
+  href: https://artifacts.apis.io/usergems/data-model/usergems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/usergems-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/asyncapi/usergems-webhooks.yml
+  href: https://artifacts.apis.io/usergems/asyncapi/usergems-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/usergems-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/usergems/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -340,17 +339,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/usergems
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/plans/usergems-plans-pricing.yml
+  href: https://artifacts.apis.io/usergems/plans/usergems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/usergems-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/rate-limits/usergems-rate-limits.yml
+  href: https://artifacts.apis.io/usergems/rate-limits/usergems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/usergems-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/finops/usergems-finops.yml
+  href: https://artifacts.apis.io/usergems/finops/usergems-finops.yml
   title: ''
   type: FinOps
   url: finops/usergems-finops.yml
@@ -384,10 +383,10 @@ features:
 - Money-back ROI guarantee — $100K spend tied to $100K pipeline
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Usergems Finops
-  primary_unit: seat
-  service_category: Sales Intelligence and ABM
+  primary_unit: subscription
+  service_category: ''
   slug: usergems-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/usergems.png
@@ -446,9 +445,12 @@ overview: 'UserGems publishes 4 API contracts indexed on the [APIs.io](https://a
   UserGems'' developer surface includes authentication, API reference, getting-started guide, developer portal, documentation, signup flow, pricing, and 47 more developer resources.'
 plans:
 - name: Usergems Plans Pricing
-  plan_count: 1
+  plan_count: 6
   slug: usergems-plans-pricing
-random_paper: 17
+- name: Usergems Price Estimates
+  plan_count: 0
+  slug: usergems-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Usergems Rate Limits
@@ -485,22 +487,22 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 70.2
+  composite: 72.4
   coverage:
     artifact_dirs: 31
-    catalog_earned: 78.5
-    catalog_earned_first_party: 20.0
-    catalog_gap: 36.5
+    catalog_earned: 82.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 2.1
   facets:
-    access_clarity: 89.5
+    access_clarity: 100.0
     contract_governance: 31.8
     contract_quality: 73.3
     developer_ergonomics: 60.1
-    discoverability: 75.0
-    operational_transparency: 52.6
+    discoverability: 65.0
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -508,7 +510,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 70.1
+  previous_composite: 70.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -525,13 +527,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/screenshots/usergems-2026-06-20T200715.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/usergems/usergems-2026-06-20T200715.png
 security:
 - kind: authentication
   name: Usergems Authentication
@@ -549,6 +552,14 @@ security:
   name: Usergems Trust Center
   slug: usergems-trust-center
   summary_line: SOC 2 Type II, GDPR, CCPA, EU AI Act (limited risk)
+skill_count: 3
+skills:
+- name: Honor a UserGems data-subject erasure request
+  slug: usergems-honor-erasure-request
+- name: Manage UserGems target accounts
+  slug: usergems-manage-target-accounts
+- name: Track champion contacts in UserGems
+  slug: usergems-track-champion-contacts
 slug: usergems
 tags:
 - Sales Intelligence

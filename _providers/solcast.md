@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -75,7 +77,7 @@ apis:
   description: Typical Meteorological Year data computed from 2007 to 2023 satellite observations.
   name: Solcast TMY Data API
   slug: solcast-tmy-data-api
-artifact_total: 41
+artifact_total: 40
 collections:
 - collection_type: postman
   name: Solcast Aggregations API
@@ -95,9 +97,6 @@ collections:
 - collection_type: postman
   name: Solcast Aggregations TMY Data API
   slug: postman-solcast-tmy-data-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Solcast Aggregations API
   slug: open-solcast-aggregations-api
@@ -121,6 +120,11 @@ collections:
   slug: open-solcast
 common:
 - group: other
+  href: https://artifacts.apis.io/solcast/capabilities/solcast-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/solcast-capability-edges.yml
+- group: other
   title: ''
   type: ParentCompany
   url: https://apis.io/providers/dnv/
@@ -129,17 +133,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/solcast/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/agentic-access/solcast-agentic-access.yml
+  href: https://artifacts.apis.io/solcast/agentic-access/solcast-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/solcast-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/security/solcast-domain-security.yml
+  href: https://artifacts.apis.io/solcast/security/solcast-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/solcast-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/authentication/solcast-authentication.yml
+  href: https://artifacts.apis.io/solcast/authentication/solcast-authentication.yml
   title: ''
   type: Authentication
   url: authentication/solcast-authentication.yml
@@ -176,17 +180,17 @@ common:
   type: StatusPage
   url: https://status.solcast.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/plans/solcast-plans-pricing.yml
+  href: https://artifacts.apis.io/solcast/plans/solcast-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/solcast-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/rate-limits/solcast-rate-limits.yml
+  href: https://artifacts.apis.io/solcast/rate-limits/solcast-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/solcast-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/finops/solcast-finops.yml
+  href: https://artifacts.apis.io/solcast/finops/solcast-finops.yml
   title: ''
   type: FinOps
   url: finops/solcast-finops.yml
@@ -244,11 +248,11 @@ examples:
   name: Solcast List Pv Power Sites Example
   slug: solcast-list-pv-power-sites-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Solcast Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: solcast-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/solcast.png
@@ -288,12 +292,12 @@ overview: 'Solcast publishes 6 API contracts indexed on the [APIs.io](https://ap
   The Solcast catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Solcast''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, signup flow, changelog, and 17 more developer resources.'
+  Solcast''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, signup flow, changelog, and 18 more developer resources.'
 plans:
 - name: Solcast Plans Pricing
-  plan_count: 5
+  plan_count: 13
   slug: solcast-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 6
   name: Solcast Rate Limits
@@ -323,24 +327,24 @@ rules:
     warn: 12
   slug: solcast-rules
 score:
-  band: developing
-  composite: 51.2
+  band: strong
+  composite: 59.4
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 69.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    artifact_dirs: 19
+    catalog_earned: 78.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 76.3
     contract_governance: 27.3
-    contract_quality: 70.1
+    contract_quality: 66.7
     developer_ergonomics: 53.6
     discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 52.8
+    operational_transparency: 44.7
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     contracts:
@@ -353,14 +357,15 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 17.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 20.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/screenshots/solcast-2026-06-20T194150.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/solcast/solcast-2026-06-20T194150.png
 security:
 - kind: authentication
   name: Solcast Authentication

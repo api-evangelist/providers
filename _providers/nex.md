@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.4
-  scored_at: '2026-10-17'
+  score: 27.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -125,11 +127,8 @@ apis:
   description: The Timeline API from Nex — 1 operation(s) for timeline.
   name: Nex Timeline API
   slug: nex-timeline-api
-artifact_total: 38
+artifact_total: 43
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nex Developer AI Lists API
   slug: open-nex-ai-lists-api
@@ -179,13 +178,18 @@ collections:
   name: Nex Developer AI Lists Timeline API
   slug: open-nex-timeline-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/nex/plans/nex-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nex-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/capabilities/nex-capability-edges.yml
+  href: https://artifacts.apis.io/nex/capabilities/nex-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nex-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/overlays/nex-openapi-overlay.yaml
+  href: https://artifacts.apis.io/nex/overlays/nex-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nex-openapi-overlay.yaml
@@ -238,77 +242,85 @@ common:
   type: PrivacyPolicy
   url: https://nex.ai/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/llms/nex-llms.txt
+  href: https://artifacts.apis.io/nex/llms/nex-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nex-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/authentication/nex-authentication.yml
+  href: https://artifacts.apis.io/nex/authentication/nex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nex-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/scopes/nex-scopes.yml
+  href: https://artifacts.apis.io/nex/scopes/nex-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nex-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/mcp/nex-mcp.yml
+  href: https://artifacts.apis.io/nex/mcp/nex-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nex-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/cli/nex-cli.yml
+  href: https://artifacts.apis.io/nex/cli/nex-cli.yml
   title: ''
   type: CLI
   url: cli/nex-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/packages/nex-packages.yml
+  href: https://artifacts.apis.io/nex/packages/nex-packages.yml
   title: ''
   type: Packages
   url: packages/nex-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/errors/nex-problem-types.yml
+  href: https://artifacts.apis.io/nex/errors/nex-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nex-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/conventions/nex-conventions.yml
+  href: https://artifacts.apis.io/nex/conventions/nex-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nex-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/data-model/nex-data-model.yml
+  href: https://artifacts.apis.io/nex/data-model/nex-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nex-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/conformance/nex-conformance.yml
+  href: https://artifacts.apis.io/nex/conformance/nex-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nex-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/lifecycle/nex-lifecycle.yml
+  href: https://artifacts.apis.io/nex/lifecycle/nex-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nex-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nex/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/agentic-access/nex-agentic-access.yml
+  href: https://artifacts.apis.io/nex/agentic-access/nex-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nex-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/security/nex-domain-security.yml
+  href: https://artifacts.apis.io/nex/security/nex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nex-domain-security.yml
 created: '2026-07-17'
 description: 'Nex is the workflow execution and context layer for AI-native business operations — where AI workflows become reliable business software. It builds a unified context graph from a company''s connected tools (email, calendar, Slack, and CRMs like HubSpot, Salesforce, and Attio) plus ingested unstructured context, then grounds AI agents in that shared organizational memory. The Nex Developer API is a REST API over the context graph: define object types and attributes, create records and typed relationships, group them into lists, attach tasks and notes, read record timelines, ingest context, ask grounded natural-language questions, stream AI-derived insights over SSE, run full-text search, and trigger compounding intelligence jobs. Authentication is via scoped API keys, and organizational context is also exposed to agents through a first-party Model Context Protocol (MCP) server shipped as the nex CLI.'
+finops:
+- has_sources: true
+  method: derived
+  name: Nex Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: nex-finops
+  template: false
 image: https://raw.githubusercontent.com/nex-crm/docs/main/logo/nex-logo-light.svg
 layout: provider
 mcp_servers:
@@ -322,8 +334,15 @@ network: true
 overview: 'Nex publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including AI Lists API, Compounding API, Context API, and 13 more. Tagged areas include Company, AI Agents, Knowledge Graph, Context, and Memory.
 
 
-  Nex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 1
+  Nex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
+plans:
+- name: Nex Plans Pricing
+  plan_count: 2
+  slug: nex-plans-pricing
+- name: Nex Price Estimates
+  plan_count: 0
+  slug: nex-price-estimates
+random_paper: 19
 scopes:
 - name: Nex Scopes
   scope_count: 18
@@ -331,23 +350,23 @@ scopes:
   summary_line: 18 scopes
 score:
   band: developing
-  composite: 47.7
+  composite: 50.8
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 28
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 44.7
+    access_clarity: 73.7
     contract_governance: 4.5
-    contract_quality: 52.2
+    contract_quality: 49.1
     developer_ergonomics: 66.1
-    discoverability: 71.7
-    operational_transparency: 2.6
-  previous_composite: 47.6
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -364,13 +383,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/screenshots/nex-2026-08-07T185140.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nex/nex-2026-08-07T185140.png
 security:
 - kind: authentication
   name: Nex Authentication
@@ -380,6 +400,14 @@ security:
   name: Nex Domain Security
   slug: nex-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Ingest context and ask grounded questions
+  slug: nex-ingest-and-ask
+- name: Model an object type, create records, and connect them
+  slug: nex-model-the-graph
+- name: Group records into lists and attach tasks and notes
+  slug: nex-organize-with-lists-and-tasks
 slug: nex
 tags:
 - Company

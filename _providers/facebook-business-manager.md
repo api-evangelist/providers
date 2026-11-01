@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.1
-  scored_at: '2026-10-17'
+  score: 40.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -269,7 +271,7 @@ apis:
     question: Can I post a video to my Page from a file URL?
   phrasing_ops: 1
   slug: facebook-business-manager-videos-api
-artifact_total: 98
+artifact_total: 101
 asyncapis:
 - description: ''
   name: Facebook Business Manager Webhooks
@@ -317,9 +319,6 @@ collections:
 - collection_type: postman
   name: Facebook Business Manager Facebook Marketing Ad Accounts Videos API
   slug: postman-facebook-business-manager-videos-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Facebook Business Manager Facebook Marketing Ad Accounts API
   slug: open-facebook-business-manager-ad-accounts-api
@@ -370,12 +369,12 @@ collections:
   slug: open-facebook-pages
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/finops/facebook-business-manager-finops.yml
+  href: https://artifacts.apis.io/facebook-business-manager/finops/facebook-business-manager-finops.yml
   title: ''
   type: FinOps
   url: finops/facebook-business-manager-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/capabilities/facebook-business-manager-capability-edges.yml
+  href: https://artifacts.apis.io/facebook-business-manager/capabilities/facebook-business-manager-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/facebook-business-manager-capability-edges.yml
@@ -384,22 +383,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/facebook-business-manager/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/agentic-access/facebook-business-manager-agentic-access.yml
+  href: https://artifacts.apis.io/facebook-business-manager/agentic-access/facebook-business-manager-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/facebook-business-manager-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/security/facebook-business-manager-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/facebook-business-manager/security/facebook-business-manager-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/facebook-business-manager-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/security/facebook-business-manager-domain-security.yml
+  href: https://artifacts.apis.io/facebook-business-manager/security/facebook-business-manager-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/facebook-business-manager-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/authentication/facebook-business-manager-authentication.yml
+  href: https://artifacts.apis.io/facebook-business-manager/authentication/facebook-business-manager-authentication.yml
   title: ''
   type: Authentication
   url: authentication/facebook-business-manager-authentication.yml
@@ -492,117 +491,117 @@ common:
   type: MCPDocumentation
   url: https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/packages/facebook-business-manager-packages.yml
+  href: https://artifacts.apis.io/facebook-business-manager/packages/facebook-business-manager-packages.yml
   title: ''
   type: Packages
   url: packages/facebook-business-manager-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/packages/facebook-business-manager-packages.yml
+  href: https://artifacts.apis.io/facebook-business-manager/packages/facebook-business-manager-packages.yml
   title: ''
   type: SDKs
   url: packages/facebook-business-manager-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/well-known/facebook-business-manager-well-known.yml
+  href: https://artifacts.apis.io/facebook-business-manager/well-known/facebook-business-manager-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/facebook-business-manager-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/well-known/facebook-business-manager-security.txt
+  href: https://artifacts.apis.io/facebook-business-manager/well-known/facebook-business-manager-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/facebook-business-manager-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/mcp/facebook-business-manager-mcp.yml
+  href: https://artifacts.apis.io/facebook-business-manager/mcp/facebook-business-manager-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/facebook-business-manager-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/mcp/facebook-business-manager-tool-crosswalk.yml
+  href: https://artifacts.apis.io/facebook-business-manager/mcp/facebook-business-manager-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/facebook-business-manager-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/llms/facebook-business-manager-llms.txt
+  href: https://artifacts.apis.io/facebook-business-manager/llms/facebook-business-manager-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/facebook-business-manager-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/conformance/facebook-business-manager-conformance.yml
+  href: https://artifacts.apis.io/facebook-business-manager/conformance/facebook-business-manager-conformance.yml
   title: ''
   type: Conformance
   url: conformance/facebook-business-manager-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/conformance/facebook-business-manager-conformance.yml
+  href: https://artifacts.apis.io/facebook-business-manager/conformance/facebook-business-manager-conformance.yml
   title: ''
   type: Compliance
   url: conformance/facebook-business-manager-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/errors/facebook-business-manager-problem-types.yml
+  href: https://artifacts.apis.io/facebook-business-manager/errors/facebook-business-manager-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/facebook-business-manager-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/lifecycle/facebook-business-manager-lifecycle.yml
+  href: https://artifacts.apis.io/facebook-business-manager/lifecycle/facebook-business-manager-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/facebook-business-manager-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/lifecycle/facebook-business-manager-lifecycle.yml
+  href: https://artifacts.apis.io/facebook-business-manager/lifecycle/facebook-business-manager-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/facebook-business-manager-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/scopes/facebook-business-manager-scopes.yml
+  href: https://artifacts.apis.io/facebook-business-manager/scopes/facebook-business-manager-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/facebook-business-manager-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/security/facebook-business-manager-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/facebook-business-manager/security/facebook-business-manager-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/facebook-business-manager-vulnerability-disclosure.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/sandbox/facebook-business-manager-sandbox.yml
+  href: https://artifacts.apis.io/facebook-business-manager/sandbox/facebook-business-manager-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/facebook-business-manager-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/conventions/facebook-business-manager-conventions.yml
+  href: https://artifacts.apis.io/facebook-business-manager/conventions/facebook-business-manager-conventions.yml
   title: ''
   type: Conventions
   url: conventions/facebook-business-manager-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/changelog/facebook-business-manager-changelog.yml
+  href: https://artifacts.apis.io/facebook-business-manager/changelog/facebook-business-manager-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/facebook-business-manager-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/components/facebook-business-manager-components.yml
+  href: https://artifacts.apis.io/facebook-business-manager/components/facebook-business-manager-components.yml
   title: ''
   type: Components
   url: components/facebook-business-manager-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/data-model/facebook-business-manager-data-model.yml
+  href: https://artifacts.apis.io/facebook-business-manager/data-model/facebook-business-manager-data-model.yml
   title: ''
   type: DataModel
   url: data-model/facebook-business-manager-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/asyncapi/facebook-business-manager-webhooks.yml
+  href: https://artifacts.apis.io/facebook-business-manager/asyncapi/facebook-business-manager-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/facebook-business-manager-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/facebook-business-manager/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/plans/facebook-business-manager-plans-pricing.yml
+  href: https://artifacts.apis.io/facebook-business-manager/plans/facebook-business-manager-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/facebook-business-manager-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/rate-limits/facebook-business-manager-rate-limits.yml
+  href: https://artifacts.apis.io/facebook-business-manager/rate-limits/facebook-business-manager-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/facebook-business-manager-rate-limits.yml
@@ -630,12 +629,12 @@ created: '2024-01-01'
 description: APIs for managing Facebook Business accounts, advertising, pages, and assets across the Meta platform family. Facebook Business Manager exposes a deep catalog of Graph API surfaces for marketing, pages, conversions, business asset management, Instagram, insights, Messenger, catalogs, live video, Threads, and the WhatsApp Business Platform, all governed through a shared authentication and access model.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Facebook Business Manager Finops
   primary_unit: ''
-  service_category: Advertising / Business Management
+  service_category: ''
   slug: facebook-business-manager-finops
-  template: false
+  template: true
 image: https://www.facebook.com/images/fb_icon_325x325.png
 json_schemas:
 - name: Ad
@@ -758,7 +757,7 @@ plans:
 - name: Facebook Business Manager Plans Pricing
   plan_count: 3
   slug: facebook-business-manager-plans-pricing
-random_paper: 15
+random_paper: 3
 rate_limits:
 - limit_count: 11
   name: Facebook Business Manager Rate Limits
@@ -782,23 +781,28 @@ scopes:
   summary_line: 85 scopes
 score:
   band: exemplar
-  composite: 67.0
+  composite: 75.9
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 35
     catalog_earned: 64.3
     catalog_earned_first_party: 24.0
     catalog_gap: 50.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 56.6
+    access_clarity: 84.2
     contract_governance: 28.0
     contract_quality: 59.8
     developer_ergonomics: 83.9
-    discoverability: 75.0
-    operational_transparency: 76.3
-  previous_composite: 68.5
+    discoverability: 71.7
+    operational_transparency: 94.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 75.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -814,14 +818,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 41.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 45.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/screenshots/facebook-business-manager-2026-06-20T181003.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/facebook-business-manager/facebook-business-manager-2026-06-20T181003.png
 security:
 - kind: authentication
   name: Facebook Business Manager Authentication
@@ -835,6 +840,16 @@ security:
   name: Facebook Business Manager Vulnerability Disclosure
   slug: facebook-business-manager-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 4
+skills:
+- name: facebook-business-manager-build-custom-audience
+  slug: facebook-business-manager-build-custom-audience
+- name: facebook-business-manager-launch-ad-campaign
+  slug: facebook-business-manager-launch-ad-campaign
+- name: facebook-business-manager-publish-and-moderate-page-content
+  slug: facebook-business-manager-publish-and-moderate-page-content
+- name: facebook-business-manager-report-campaign-performance
+  slug: facebook-business-manager-report-campaign-performance
 slug: facebook-business-manager
 tags:
 - Advertising

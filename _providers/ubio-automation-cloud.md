@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST API for running automation jobs on the Automation Cloud. Clients create jobs against a service, supply initial and deferred inputs, poll job events, retrieve outputs, handle 3-D Secure challenges
@@ -45,7 +47,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/security/ubio-automation-cloud-domain-security.yml
+  href: https://artifacts.apis.io/ubio-automation-cloud/security/ubio-automation-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ubio-automation-cloud-domain-security.yml
@@ -70,67 +72,67 @@ common:
   type: APIReference
   url: https://protocol.automationcloud.net/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/packages/ubio-automation-cloud-packages.yml
+  href: https://artifacts.apis.io/ubio-automation-cloud/packages/ubio-automation-cloud-packages.yml
   title: ''
   type: Packages
   url: packages/ubio-automation-cloud-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/packages/ubio-automation-cloud-packages.yml
+  href: https://artifacts.apis.io/ubio-automation-cloud/packages/ubio-automation-cloud-packages.yml
   title: ''
   type: SDKs
   url: packages/ubio-automation-cloud-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/well-known/ubio-automation-cloud-well-known.yml
+  href: https://artifacts.apis.io/ubio-automation-cloud/well-known/ubio-automation-cloud-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ubio-automation-cloud-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/well-known/ubio-automation-cloud-openid-configuration.json
+  href: https://artifacts.apis.io/ubio-automation-cloud/well-known/ubio-automation-cloud-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/ubio-automation-cloud-openid-configuration.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/json-schema/ubio-automation-cloud-protocol-schema.json
+  href: https://artifacts.apis.io/ubio-automation-cloud/json-schema/ubio-automation-cloud-protocol-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/ubio-automation-cloud-protocol-schema.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/authentication/ubio-automation-cloud-authentication.yml
+  href: https://artifacts.apis.io/ubio-automation-cloud/authentication/ubio-automation-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ubio-automation-cloud-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/errors/ubio-automation-cloud-problem-types.yml
+  href: https://artifacts.apis.io/ubio-automation-cloud/errors/ubio-automation-cloud-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ubio-automation-cloud-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/mcp/ubio-automation-cloud-mcp.yml
+  href: https://artifacts.apis.io/ubio-automation-cloud/mcp/ubio-automation-cloud-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ubio-automation-cloud-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/llms/ubio-automation-cloud-llms.txt
+  href: https://artifacts.apis.io/ubio-automation-cloud/llms/ubio-automation-cloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ubio-automation-cloud-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/conformance/ubio-automation-cloud-conformance.yml
+  href: https://artifacts.apis.io/ubio-automation-cloud/conformance/ubio-automation-cloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ubio-automation-cloud-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/sandbox/ubio-automation-cloud-sandbox.yml
+  href: https://artifacts.apis.io/ubio-automation-cloud/sandbox/ubio-automation-cloud-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ubio-automation-cloud-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/conventions/ubio-automation-cloud-conventions.yml
+  href: https://artifacts.apis.io/ubio-automation-cloud/conventions/ubio-automation-cloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ubio-automation-cloud-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/data-model/ubio-automation-cloud-data-model.yml
+  href: https://artifacts.apis.io/ubio-automation-cloud/data-model/ubio-automation-cloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ubio-automation-cloud-data-model.yml
@@ -146,29 +148,29 @@ modified: '2026-07-21'
 name: UBIO Automation Cloud
 nav: Providers
 network: true
-overview: 'UBIO Automation Cloud is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, Web Automation, RPA, Travel, and Booking.
+overview: 'UBIO Automation Cloud is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, Browser Automation, RPA, Travel, and Booking.
 
 
   UBIO Automation Cloud''s developer surface includes API reference, authentication, sandbox, and 16 more developer resources.'
-random_paper: 11
+random_paper: 9
 score:
   band: emerging
-  composite: 13.0
+  composite: 20.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 26.2
+    developer_ergonomics: 33.3
     discoverability: 66.1
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -177,7 +179,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 12.9
+  previous_composite: 20.1
   provenance:
     conformance: derived
     mcp: derived
@@ -186,15 +188,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/screenshots/ubio-automation-cloud-2026-09-02T164916.png
+screenshot: https://apis.io/screenshots/ubio-automation-cloud/ubio-automation-cloud-2026-09-02T164916.png
 security:
 - kind: authentication
   name: Ubio Automation Cloud Authentication
@@ -207,7 +209,7 @@ security:
 slug: ubio-automation-cloud
 tags:
 - Automation
-- Web Automation
+- Browser Automation
 - RPA
 - Travel
 - Booking

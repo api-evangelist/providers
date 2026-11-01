@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The official Metacritic API, delivered through Fabric Origin (formerly IVA / Gracenote), provides structured access to Metascores, user scores, and individual critic reviews for movies and TV shows. R
@@ -42,17 +44,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/metacritic/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/metacritic/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/metacritic/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/metacritic/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/metacritic/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/metacritic/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -61,7 +63,7 @@ common:
   type: Blog
   url: https://www.metacritic.com/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metacritic/refs/heads/main/security/metacritic-domain-security.yml
+  href: https://artifacts.apis.io/metacritic/security/metacritic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/metacritic-domain-security.yml
@@ -124,37 +126,37 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 17.2
+  composite: 22.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.7
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 50.0
     discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 20.9
+  previous_composite: 22.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 19.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/metacritic/refs/heads/main/screenshots/metacritic-2026-06-20T185245.png
+screenshot: https://apis.io/screenshots/metacritic/metacritic-2026-06-20T185245.png
 security:
 - kind: domain-security
   name: Metacritic Domain Security

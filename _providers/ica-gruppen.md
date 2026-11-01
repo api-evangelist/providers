@@ -14,31 +14,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ica-gruppen/refs/heads/main/hosts/ica-gruppen-hosts.yml
+  href: https://artifacts.apis.io/ica-gruppen/hosts/ica-gruppen-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ica-gruppen-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ica-gruppen/refs/heads/main/vendors/ica-gruppen-vendors.yml
+  href: https://artifacts.apis.io/ica-gruppen/vendors/ica-gruppen-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ica-gruppen-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ica-gruppen/refs/heads/main/security/ica-gruppen-domain-security.yml
+  href: https://artifacts.apis.io/ica-gruppen/security/ica-gruppen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ica-gruppen-domain-security.yml
@@ -74,7 +76,7 @@ overview: 'ICA Gruppen is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   ICA Gruppen''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 15
+random_paper: 11
 score:
   band: minimal
   composite: 5.5
@@ -85,6 +87,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -92,6 +95,15 @@ score:
     developer_ergonomics: 9.5
     discoverability: 50.0
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - sweden
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  previous_composite: 5.5
   provenance:
     mcp: unknown
   regulatory:
@@ -100,8 +112,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

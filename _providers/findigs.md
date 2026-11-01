@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-17'
+  score: 35.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 8
   slug: findigs-agentic-access
   summary_line: 8 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.client.findigs.com
   baseurl_source: declared
@@ -62,7 +64,7 @@ apis:
   description: The Listings API from Findigs — 2 operation(s) for listings.
   name: Findigs Listings API
   slug: findigs-listings-api
-artifact_total: 12
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Findigs Webhooks
@@ -76,7 +78,7 @@ collections:
   slug: open-findigs-client-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/capabilities/findigs-capability-edges.yml
+  href: https://artifacts.apis.io/findigs/capabilities/findigs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/findigs-capability-edges.yml
@@ -101,7 +103,7 @@ common:
   type: Postman
   url: https://docs.getfindigs.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/_original/findigs-client-api-openapi.yml
+  href: https://artifacts.apis.io/findigs/openapi/_original/findigs-client-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/findigs-client-api-openapi.yml
@@ -138,98 +140,106 @@ common:
   type: Security
   url: https://www.findigs.com/legal/responsible-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/security/findigs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/findigs/security/findigs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/findigs-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/security/findigs-domain-security.yml
+  href: https://artifacts.apis.io/findigs/security/findigs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/findigs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/authentication/findigs-authentication.yml
+  href: https://artifacts.apis.io/findigs/authentication/findigs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/findigs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/conventions/findigs-conventions.yml
+  href: https://artifacts.apis.io/findigs/conventions/findigs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/findigs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/conformance/findigs-conformance.yml
+  href: https://artifacts.apis.io/findigs/conformance/findigs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/findigs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/errors/findigs-problem-types.yml
+  href: https://artifacts.apis.io/findigs/errors/findigs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/findigs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/data-model/findigs-data-model.yml
+  href: https://artifacts.apis.io/findigs/data-model/findigs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/findigs-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/lifecycle/findigs-lifecycle.yml
+  href: https://artifacts.apis.io/findigs/lifecycle/findigs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/findigs-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/asyncapi/findigs-webhooks.yml
+  href: https://artifacts.apis.io/findigs/asyncapi/findigs-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/findigs-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/sandbox/findigs-sandbox.yml
+  href: https://artifacts.apis.io/findigs/sandbox/findigs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/findigs-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/packages/findigs-packages.yml
+  href: https://artifacts.apis.io/findigs/packages/findigs-packages.yml
   title: ''
   type: Packages
   url: packages/findigs-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/plans/findigs-plans-pricing.yml
+  href: https://artifacts.apis.io/findigs/plans/findigs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/findigs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/rate-limits/findigs-rate-limits.yml
+  href: https://artifacts.apis.io/findigs/rate-limits/findigs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/findigs-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/examples/findigs-client-api-examples.yml
+  href: https://artifacts.apis.io/findigs/examples/findigs-client-api-examples.yml
   title: ''
   type: Examples
   url: examples/findigs-client-api-examples.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/findigs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/agentic-access/findigs-agentic-access.yml
+  href: https://artifacts.apis.io/findigs/agentic-access/findigs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/findigs-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/llms/findigs-llms.txt
+  href: https://artifacts.apis.io/findigs/llms/findigs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/findigs-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/overlays/findigs-client-api-overlay.yaml
+  href: https://artifacts.apis.io/findigs/overlays/findigs-client-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/findigs-client-api-overlay.yaml
 created: '2026-08-12'
 description: Findigs is a New York City based residential real estate decisioning platform that screens rental applicants for identity, income, employment, credit, criminal history, eviction records, documents and pets, then applies automated underwriting against each operator's own written policy criteria to render a full yes/no decision on every rental application rather than handing back raw screening reports. The platform spans screening, underwriting, policy optimization and post-lease performance data, is backed by a contractual fraud guarantee, and reports a median decision time of 3.4 hours across 400K+ rental units. Findigs publishes a machine-readable Client API — an OpenAPI 3.1.0 contract served from api.client.findigs.com covering listings, applications and applicant groups, authenticated with a scoped X-API-KEY header and paired with a sandbox environment and a terse webhook event surface — though the company states the Client API is closed to new clients and existing integrators
   should contact integrations@findigs.com.
+finops:
+- has_sources: true
+  method: derived
+  name: Findigs Finops
+  primary_unit: ''
+  service_category: ''
+  slug: findigs-finops
+  template: true
 image: https://www.findigs.com/opengraph-image?title=Resident%20screening%20and%20rental%20decisioning%20%7C%20Findigs&variant=home
 layout: provider
 modified: '2026-09-16'
@@ -245,32 +255,32 @@ overview: 'Findigs publishes 3 API contracts indexed on the [APIs.io](https://ap
   Findigs'' developer surface includes documentation, API reference, engineering blog, support, pricing, authentication, sandbox, and 26 more developer resources.'
 plans:
 - name: Findigs Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: findigs-plans-pricing
-random_paper: 14
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Findigs Rate Limits
   slug: findigs-rate-limits
 score:
   band: developing
-  composite: 52.9
+  composite: 48.3
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 27
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.3
   facets:
-    access_clarity: 69.7
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 60.3
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 52.9
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,13 +297,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 31.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/screenshots/findigs-2026-08-17T080925.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/findigs/findigs-2026-08-17T080925.png
 security:
 - kind: authentication
   name: Findigs Authentication
@@ -307,6 +318,12 @@ security:
   name: Findigs Vulnerability Disclosure
   slug: findigs-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 2
+skills:
+- name: Consume Findigs decision webhooks and reconcile state
+  slug: findigs-consume-decision-webhooks
+- name: Publish a Findigs listing and track its applications
+  slug: findigs-publish-and-track-listing
 slug: findigs
 tags:
 - rental-screening

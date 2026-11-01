@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,17 +50,17 @@ common:
   type: Twitter
   url: https://x.com/freshehr
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/freshehr/refs/heads/main/packages/freshehr-packages.yml
+  href: https://artifacts.apis.io/freshehr/packages/freshehr-packages.yml
   title: ''
   type: Packages
   url: packages/freshehr-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/freshehr/refs/heads/main/llms/freshehr-llms.txt
+  href: https://artifacts.apis.io/freshehr/llms/freshehr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/freshehr-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/freshehr/refs/heads/main/security/freshehr-domain-security.yml
+  href: https://artifacts.apis.io/freshehr/security/freshehr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/freshehr-domain-security.yml
@@ -89,10 +91,10 @@ name: freshEHR
 nav: Providers
 network: true
 overview: freshEHR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consulting, Health, Healthcare, and Clinical Informatics.
-random_paper: 19
+random_paper: 15
 score:
   band: minimal
-  composite: 6.6
+  composite: 7.0
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -107,7 +109,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -116,21 +118,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 6.6
+  previous_composite: 7.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/freshehr/refs/heads/main/screenshots/freshehr-2026-10-11T104700.png
+screenshot: https://apis.io/screenshots/freshehr/freshehr-2026-10-11T104700.png
 security:
 - kind: domain-security
   name: Freshehr Domain Security

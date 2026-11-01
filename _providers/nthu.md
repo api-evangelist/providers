@@ -22,19 +22,21 @@ agent_readiness:
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
   description: Authorization-code flow against NTHU Academic Information System accounts.
   name: National Tsing Hua University O Auth API
   slug: nthu-oauth-api
-artifact_total: 39
+artifact_total: 45
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NTHU Data Announcements API
   slug: open-nthu-announcements-api
@@ -93,6 +92,41 @@ collections:
   name: NTHU Data Announcements Newsletters API
   slug: open-nthu-newsletters-api
 common:
+- group: operate
+  href: https://artifacts.apis.io/nthu/lifecycle/nthu-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/nthu-lifecycle.yml
+- group: design
+  href: https://artifacts.apis.io/nthu/rules/nthu-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/nthu-rules.yml
+- group: design
+  href: https://artifacts.apis.io/nthu/rules/nthu-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/nthu-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/nthu/data-model/nthu-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/nthu-data-model.yml
+- group: auth
+  href: https://artifacts.apis.io/nthu/scopes/nthu-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/nthu-scopes.yml
+- group: design
+  href: https://artifacts.apis.io/nthu/errors/nthu-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/nthu-problem-types.yml
+- group: other
+  href: https://artifacts.apis.io/nthu/hosts/nthu-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/nthu-hosts.yml
 - group: company
   title: ''
   type: Website
@@ -162,62 +196,57 @@ common:
   type: License
   url: https://github.com/NTHU-SA/NTHU-Data-API/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/authentication/nthu-authentication.yml
+  href: https://artifacts.apis.io/nthu/authentication/nthu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nthu-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/scopes/nthu-scopes.yml
+  href: https://artifacts.apis.io/nthu/scopes/nthu-scopes.yml
   title: ''
   type: Scopes
   url: scopes/nthu-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/errors/nthu-errors.yml
-  title: ''
-  type: Errors
-  url: errors/nthu-errors.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/lifecycle/nthu-lifecycle.yml
+  href: https://artifacts.apis.io/nthu/lifecycle/nthu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nthu-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/conformance/nthu-conformance.yml
+  href: https://artifacts.apis.io/nthu/conformance/nthu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nthu-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/capabilities/nthu-capability-edges.yml
+  href: https://artifacts.apis.io/nthu/capabilities/nthu-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nthu-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/agentic-access/nthu-agentic-access.yml
+  href: https://artifacts.apis.io/nthu/agentic-access/nthu-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nthu-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/security/nthu-domain-security.yml
+  href: https://artifacts.apis.io/nthu/security/nthu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nthu-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/plans/nthu-plans-pricing.yml
+  href: https://artifacts.apis.io/nthu/plans/nthu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nthu-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/rate-limits/nthu-rate-limits.yml
+  href: https://artifacts.apis.io/nthu/rate-limits/nthu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nthu-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/finops/nthu-finops.yml
+  href: https://artifacts.apis.io/nthu/finops/nthu-finops.yml
   title: ''
   type: FinOps
   url: finops/nthu-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/nthu/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -243,10 +272,22 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nthu.png
 json_schemas:
 - name: AnnouncementDetail
   property_count: 5
+  slug: nthu-announcement-detail
+- name: AnnouncementDetail
+  property_count: 5
   slug: nthu-announcement
+- name: BusSchedule
+  property_count: 5
+  slug: nthu-bus-schedule
 - name: BusInfo
   property_count: 4
   slug: nthu-bus
+- name: BusStopsQueryResult
+  property_count: 5
+  slug: nthu-bus-stops-query-result
+- name: CourseData
+  property_count: 19
+  slug: nthu-course-data
 - name: CourseData
   property_count: 19
   slug: nthu-course
@@ -259,12 +300,21 @@ json_schemas:
 - name: EnergyElectricityInfo
   property_count: 5
   slug: nthu-energy
+- name: IdentityResource
+  property_count: 9
+  slug: nthu-identity-resource
+- name: LibraryRssItem
+  property_count: 8
+  slug: nthu-library-rss-item
 - name: LibrarySpace
   property_count: 5
   slug: nthu-library-space
 - name: LocationDetail
   property_count: 3
   slug: nthu-location
+- name: TokenResponse
+  property_count: 5
+  slug: nthu-token-response
 json_structures:
 - name: Nthu Bus Structure
   property_count: 4
@@ -297,12 +347,12 @@ overview: 'National Tsing Hua University publishes 4 API contracts indexed on th
   The National Tsing Hua University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  National Tsing Hua University''s developer surface includes documentation, API reference, support, GitHub presence, authentication, and 24 more developer resources.'
+  National Tsing Hua University''s developer surface includes documentation, API reference, support, GitHub presence, authentication, and 30 more developer resources.'
 plans:
 - name: Nthu Plans Pricing
   plan_count: 2
   slug: nthu-plans-pricing
-random_paper: 7
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Nthu Rate Limits
@@ -337,22 +387,22 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.7
+  composite: 36.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 59.8
+    artifact_dirs: 27
+    catalog_earned: 65.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.3
+    catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
-    contract_governance: 28.0
-    contract_quality: 49.6
-    developer_ergonomics: 28.6
+    contract_governance: 18.2
+    contract_quality: 55.5
+    developer_ergonomics: 33.3
     discoverability: 66.1
-    operational_transparency: 10.5
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -360,7 +410,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 39.8
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -369,19 +419,21 @@ score:
       derived: 1
       marker_coverage: 10.0
       total: 10
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/screenshots/nthu-2026-06-20T190502.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nthu/nthu-2026-06-20T190502.png
 security:
 - kind: authentication
   name: Nthu Authentication
@@ -390,7 +442,7 @@ security:
 - kind: domain-security
   name: Nthu Domain Security
   slug: nthu-domain-security
-  summary_line: TLSv1.3 · DNSSEC · DMARC
+  summary_line: TLSv1.2 · DNSSEC · DMARC
 slug: nthu
 tags:
 - Education

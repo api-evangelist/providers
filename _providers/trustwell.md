@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: Farm-to-fork traceability (FSMA 204)
   name: Trustwell Traceability API
   slug: trustwell-traceability-api
-artifact_total: 36
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Trustwell FoodLogiQ Compliance API
   slug: open-trustwell-compliance-api
@@ -108,42 +107,42 @@ collections:
   slug: open-trustwell-traceability-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/plans/trustwell-plans-pricing.yml
+  href: https://artifacts.apis.io/trustwell/plans/trustwell-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trustwell-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/rate-limits/trustwell-rate-limits.yml
+  href: https://artifacts.apis.io/trustwell/rate-limits/trustwell-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trustwell-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/finops/trustwell-finops.yml
+  href: https://artifacts.apis.io/trustwell/finops/trustwell-finops.yml
   title: ''
   type: FinOps
   url: finops/trustwell-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/capabilities/trustwell-capability-edges.yml
+  href: https://artifacts.apis.io/trustwell/capabilities/trustwell-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/trustwell-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/agentic-access/trustwell-agentic-access.yml
+  href: https://artifacts.apis.io/trustwell/agentic-access/trustwell-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trustwell-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/security/trustwell-trust-center.yml
+  href: https://artifacts.apis.io/trustwell/security/trustwell-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/trustwell-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/security/trustwell-domain-security.yml
+  href: https://artifacts.apis.io/trustwell/security/trustwell-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trustwell-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/authentication/trustwell-authentication.yml
+  href: https://artifacts.apis.io/trustwell/authentication/trustwell-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trustwell-authentication.yml
@@ -257,7 +256,7 @@ plans:
 - name: Trustwell Plans Pricing
   plan_count: 1
   slug: trustwell-plans-pricing
-random_paper: 2
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Trustwell Rate Limits
@@ -288,7 +287,7 @@ rules:
   slug: trustwell-rules
 score:
   band: thin
-  composite: 37.5
+  composite: 38.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 53.5
@@ -296,7 +295,7 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 13.6
@@ -304,7 +303,7 @@ score:
     developer_ergonomics: 33.3
     discoverability: 67.9
     operational_transparency: 5.3
-  previous_composite: 39.0
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -318,13 +317,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/screenshots/trustwell-2026-06-20T195809.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/trustwell/trustwell-2026-06-20T195809.png
 security:
 - kind: authentication
   name: Trustwell Authentication

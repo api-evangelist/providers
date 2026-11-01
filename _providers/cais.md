@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.2
-  scored_at: '2026-10-17'
+  score: 25.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: CAIS operates a remote Model Context Protocol server at https://mcp.caisgroup.com/mcp, announced 2026-05-19 as the first surface of the company's "Alts Engine" strategy and initially available to a se
@@ -44,47 +46,47 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cais/refs/heads/main/security/cais-domain-security.yml
+  href: https://artifacts.apis.io/cais/security/cais-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cais-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cais/refs/heads/main/mcp/cais-mcp.yml
+  href: https://artifacts.apis.io/cais/mcp/cais-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cais-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cais/refs/heads/main/well-known/cais-well-known.yml
+  href: https://artifacts.apis.io/cais/well-known/cais-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cais-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cais/refs/heads/main/authentication/cais-authentication.yml
+  href: https://artifacts.apis.io/cais/authentication/cais-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cais-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cais/refs/heads/main/scopes/cais-scopes.yml
+  href: https://artifacts.apis.io/cais/scopes/cais-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cais-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cais/refs/heads/main/conformance/cais-conformance.yml
+  href: https://artifacts.apis.io/cais/conformance/cais-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cais-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cais/refs/heads/main/conventions/cais-conventions.yml
+  href: https://artifacts.apis.io/cais/conventions/cais-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cais-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cais/refs/heads/main/errors/cais-problem-types.yml
+  href: https://artifacts.apis.io/cais/errors/cais-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cais-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cais/refs/heads/main/llms/cais-llms.txt
+  href: https://artifacts.apis.io/cais/llms/cais-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cais-llms.txt
@@ -173,17 +175,17 @@ overview: 'CAIS is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   CAIS''s developer surface includes authentication, documentation, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 20
+random_paper: 8
 scopes:
 - name: Cais Scopes
   scope_count: 12
   slug: cais-scopes
   summary_line: 12 scopes · authorizationCode
 score:
-  band: thin
-  composite: 26.7
+  band: emerging
+  composite: 25.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -195,7 +197,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 75.8
+    discoverability: 66.7
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -204,7 +206,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 26.7
+  previous_composite: 25.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -214,14 +216,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cais/refs/heads/main/screenshots/cais-2026-08-07T162901.png
+screenshot: https://apis.io/screenshots/cais/cais-2026-08-07T162901.png
 security:
 - kind: authentication
   name: Cais Authentication

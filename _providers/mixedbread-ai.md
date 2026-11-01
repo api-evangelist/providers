@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.2
-  scored_at: '2026-10-17'
+  score: 44.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -161,9 +163,6 @@ collections:
   name: Mixedbread admin stores API
   slug: postman-mixedbread-ai-stores-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Mixedbread Admin API
   slug: open-mixedbread-admin-api
 - collection_type: open
@@ -243,7 +242,7 @@ collections:
   slug: open-mixedbread-stores-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/capabilities/mixedbread-ai-capability-edges.yml
+  href: https://artifacts.apis.io/mixedbread-ai/capabilities/mixedbread-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mixedbread-ai-capability-edges.yml
@@ -256,17 +255,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/mixedbread/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/agentic-access/mixedbread-ai-agentic-access.yml
+  href: https://artifacts.apis.io/mixedbread-ai/agentic-access/mixedbread-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mixedbread-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/security/mixedbread-ai-domain-security.yml
+  href: https://artifacts.apis.io/mixedbread-ai/security/mixedbread-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mixedbread-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/authentication/mixedbread-ai-authentication.yml
+  href: https://artifacts.apis.io/mixedbread-ai/authentication/mixedbread-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mixedbread-ai-authentication.yml
@@ -363,17 +362,17 @@ common:
   type: Discord
   url: https://discord.gg/mixedbread
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/plans/mixedbread-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/mixedbread-ai/plans/mixedbread-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mixedbread-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/rate-limits/mixedbread-ai-rate-limits.yml
+  href: https://artifacts.apis.io/mixedbread-ai/rate-limits/mixedbread-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mixedbread-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/finops/mixedbread-ai-finops.yml
+  href: https://artifacts.apis.io/mixedbread-ai/finops/mixedbread-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/mixedbread-ai-finops.yml
@@ -391,10 +390,10 @@ examples:
   slug: mixedbread-stores-search-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Mixedbread Ai Finops
-  primary_unit: token
-  service_category: AI and Machine Learning
+  primary_unit: 1k queries
+  service_category: ''
   slug: mixedbread-ai-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mixedbread-ai.png
@@ -433,7 +432,10 @@ plans:
 - name: Mixedbread Ai Plans Pricing
   plan_count: 12
   slug: mixedbread-ai-plans-pricing
-random_paper: 16
+- name: Mixedbread Ai Price Estimates
+  plan_count: 0
+  slug: mixedbread-ai-price-estimates
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Mixedbread Ai Rate Limits
@@ -464,7 +466,7 @@ rules:
   slug: mixedbread-ai-rules
 score:
   band: developing
-  composite: 53.1
+  composite: 49.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 73.5
@@ -472,13 +474,13 @@ score:
     catalog_gap: 41.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.4
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 13.6
-    contract_quality: 59.5
+    contract_quality: 56.8
     developer_ergonomics: 63.1
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -488,7 +490,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 55.5
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     contracts:
@@ -503,13 +505,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/screenshots/mixedbread-ai-2026-08-17T124213.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mixedbread-ai/mixedbread-ai-2026-08-17T124213.png
 security:
 - kind: authentication
   name: Mixedbread Ai Authentication
@@ -527,7 +530,7 @@ tags:
 - Search
 - Retrieval
 - RAG
-- Vector Database
+- Vector Search
 - Multi-Modal
 - Parsing
 - Open Weights

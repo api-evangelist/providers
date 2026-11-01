@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: The university's own Shibboleth IdP, publishing signed SAML 2.0 metadata as a machine-readable EntityDescriptor. entityID https://idp.sussex.ac.uk/shibboleth, shibmd:Scope sussex.ac.uk, IDPSSODescript
@@ -67,7 +69,7 @@ common:
   type: IdentityFederation
   url: https://idp.sussex.ac.uk/idp/shibboleth
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/authentication/university-of-sussex-idp-saml-metadata.xml
+  href: https://artifacts.apis.io/university-of-sussex/authentication/university-of-sussex-idp-saml-metadata.xml
   title: ''
   type: SAMLMetadata
   url: authentication/university-of-sussex-idp-saml-metadata.xml
@@ -120,42 +122,42 @@ common:
   type: Publications
   url: https://www.sussex.ac.uk/research/publications
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/authentication/university-of-sussex-authentication.yml
+  href: https://artifacts.apis.io/university-of-sussex/authentication/university-of-sussex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-sussex-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/scopes/university-of-sussex-scopes.yml
+  href: https://artifacts.apis.io/university-of-sussex/scopes/university-of-sussex-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/university-of-sussex-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/conformance/university-of-sussex-domain-standards.yml
+  href: https://artifacts.apis.io/university-of-sussex/conformance/university-of-sussex-domain-standards.yml
   title: ''
   type: Conformance
   url: conformance/university-of-sussex-domain-standards.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/security/university-of-sussex-domain-security.yml
+  href: https://artifacts.apis.io/university-of-sussex/security/university-of-sussex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-sussex-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/plans/university-of-sussex-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-sussex/plans/university-of-sussex-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-sussex-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/rate-limits/university-of-sussex-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-sussex/rate-limits/university-of-sussex-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-sussex-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/finops/university-of-sussex-finops.yml
+  href: https://artifacts.apis.io/university-of-sussex/finops/university-of-sussex-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-sussex-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-sussex/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -185,8 +187,8 @@ coverage:
     url: https://api.sussex.ac.uk/
   - status: 404
     url: https://www.sussex.ac.uk/llms.txt
-  reason: tenant_only
-  state: gated
+  reason: tenant-only
+  state: none
 created: '2026-06-03'
 description: 'The University of Sussex is a research-intensive public university at Falmer near Brighton in the United Kingdom, a member of the Russell Group''s peer set of UK research institutions and ranked #247 in the QS World University Rankings 2025. Its programmable footprint is small and almost entirely indirect, and this profile says so rather than padding it. The one surface the university genuinely operates and publishes machine-readably is its own Shibboleth identity provider: idp.sussex.ac.uk serves signed SAML 2.0 metadata with an entityID of https://idp.sussex.ac.uk/shibboleth and a shibmd:Scope of sussex.ac.uk, running on a Sussex-controlled Azure deployment rather than a vendor''s multi-tenant service. Everything else that looks like a Sussex API is a vendor product running under a Sussex name: Okta for single sign-on at okta.sussex.ac.uk, Instructure Canvas for the VLE at canvas.sussex.ac.uk, Figshare for the research repository at sussex.figshare.com, and Ex Libris Primo
   for library discovery. Those relationships are recorded here as tenant surfaces because they are real institutional facts, but the contracts behind them belong to the vendors and are scored against the vendors'' own profiles. Sussex operates no public developer portal, publishes no OpenAPI of its own, and its GitHub organization has no public repositories. The former Sussex Research Online EPrints repository and its OAI-PMH endpoint have been decommissioned and now redirect to an HTML publications page.'
@@ -212,7 +214,7 @@ plans:
 - name: University Of Sussex Plans Pricing
   plan_count: 2
   slug: university-of-sussex-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: University Of Sussex Rate Limits
@@ -224,7 +226,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.4
+  composite: 21.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 44.0
@@ -232,14 +234,14 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 4.4
     developer_ergonomics: 35.7
     discoverability: 71.4
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -248,7 +250,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 27.4
+  previous_composite: 21.7
   provenance:
     conformance: first-party
   regulatory:
@@ -257,14 +259,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/screenshots/university-of-sussex-2026-06-20T200307.png
+screenshot: https://apis.io/screenshots/university-of-sussex/university-of-sussex-2026-06-20T200307.png
 security:
 - kind: authentication
   name: University Of Sussex Authentication

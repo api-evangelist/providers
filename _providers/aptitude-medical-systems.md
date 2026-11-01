@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API providing GraphQL access to Aptitude Medical Systems services.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aptitude-medical-systems/refs/heads/main/llms/aptitude-medical-systems-llms.txt
+  href: https://artifacts.apis.io/aptitude-medical-systems/llms/aptitude-medical-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aptitude-medical-systems-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aptitude-medical-systems/refs/heads/main/well-known/aptitude-medical-systems-well-known.yml
+  href: https://artifacts.apis.io/aptitude-medical-systems/well-known/aptitude-medical-systems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aptitude-medical-systems-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aptitude-medical-systems/refs/heads/main/hosts/aptitude-medical-systems-hosts.yml
+  href: https://artifacts.apis.io/aptitude-medical-systems/hosts/aptitude-medical-systems-hosts.yml
   title: ''
   type: Hosts
   url: hosts/aptitude-medical-systems-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aptitude-medical-systems/refs/heads/main/vendors/aptitude-medical-systems-vendors.yml
+  href: https://artifacts.apis.io/aptitude-medical-systems/vendors/aptitude-medical-systems-vendors.yml
   title: ''
   type: Vendors
   url: vendors/aptitude-medical-systems-vendors.yml
@@ -68,7 +70,7 @@ common:
   type: Documentation
   url: https://docs.aptitudemedical.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aptitude-medical-systems/refs/heads/main/security/aptitude-medical-systems-domain-security.yml
+  href: https://artifacts.apis.io/aptitude-medical-systems/security/aptitude-medical-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aptitude-medical-systems-domain-security.yml
@@ -88,12 +90,12 @@ overview: 'Aptitude Medical Systems is listed with 1 API on the [APIs.io](https:
 
 
   Aptitude Medical Systems'' developer surface includes support, documentation, and 8 more developer resources.'
-random_paper: 1
+random_paper: 17
 score:
   band: emerging
-  composite: 11.8
+  composite: 11.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -105,9 +107,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 75.0
+    discoverability: 67.9
     operational_transparency: 0.0
-  previous_composite: 11.8
+  previous_composite: 11.1
   provenance:
     mcp: derived
   regulatory:
@@ -116,14 +118,14 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aptitude-medical-systems/refs/heads/main/screenshots/aptitude-medical-systems-2026-10-11T100056.png
+screenshot: https://apis.io/screenshots/aptitude-medical-systems/aptitude-medical-systems-2026-10-11T100056.png
 security:
 - kind: domain-security
   name: Aptitude Medical Systems Domain Security

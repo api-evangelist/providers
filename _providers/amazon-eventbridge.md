@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-17'
+  score: 26.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -70,6 +72,41 @@ apis:
   description: Operations for managing rule targets.
   name: Amazon EventBridge Targets API
   slug: amazon-eventbridge-targets-api
+- baseURL: https://events.amazonaws.com
+  baseurl_source: declared
+  description: The Eventbridge Api Destination API from Amazon EventBridge — 5 operation(s) for eventbridge api destination.
+  name: Amazon EventBridge Eventbridge Api Destination API
+  slug: amazon-eventbridge-api-destination-api
+- baseURL: https://events.amazonaws.com
+  baseurl_source: declared
+  description: The Eventbridge Connection API from Amazon EventBridge — 5 operation(s) for eventbridge connection.
+  name: Amazon EventBridge Eventbridge Connection API
+  slug: amazon-eventbridge-connection-api
+- baseURL: https://events.amazonaws.com
+  baseurl_source: declared
+  description: The Eventbridge Endpoint API from Amazon EventBridge — 5 operation(s) for eventbridge endpoint.
+  name: Amazon EventBridge Eventbridge Endpoint API
+  slug: amazon-eventbridge-endpoint-api
+- baseURL: https://events.amazonaws.com
+  baseurl_source: declared
+  description: The Eventbridge Event Bus API from Amazon EventBridge — 4 operation(s) for eventbridge event bus.
+  name: Amazon EventBridge Eventbridge Event Bus API
+  slug: amazon-eventbridge-event-bus-api
+- baseURL: https://events.amazonaws.com
+  baseurl_source: declared
+  description: The Eventbridge Operations API from Amazon EventBridge — 14 operation(s) for eventbridge operations.
+  name: Amazon EventBridge Eventbridge Operations API
+  slug: amazon-eventbridge-operations-api
+- baseURL: https://events.amazonaws.com
+  baseurl_source: declared
+  description: The Eventbridge Partner Event Source API from Amazon EventBridge — 4 operation(s) for eventbridge partner event source.
+  name: Amazon EventBridge Eventbridge Partner Event Source API
+  slug: amazon-eventbridge-partner-event-source-api
+- baseURL: https://events.amazonaws.com
+  baseurl_source: declared
+  description: The Eventbridge Replay API from Amazon EventBridge — 4 operation(s) for eventbridge replay.
+  name: Amazon EventBridge Eventbridge Replay API
+  slug: amazon-eventbridge-replay-api
 arazzos:
 - description: Create a bus, resolve its ARN, then archive matching events from it.
   name: Amazon EventBridge Archive Event Bus
@@ -98,7 +135,7 @@ arazzos:
 - description: Inspect a bus's rules, delete a rule, then delete the custom event bus.
   name: Amazon EventBridge Teardown Event Bus
   slug: amazon-eventbridge-teardown-event-bus-workflow
-artifact_total: 139
+artifact_total: 146
 asyncapis:
 - description: Amazon EventBridge delivers events from event sources to targets based on rules you define. This AsyncAPI specification documents the event channels and message schemas for events delivered by EventBr
   name: Amazon EventBridge Event Delivery
@@ -107,9 +144,6 @@ collections:
 - collection_type: postman
   name: Amazon EventBridge API
   slug: postman-amazon-eventbridge
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon EventBridge Archives API
   slug: open-amazon-eventbridge-archives-api
@@ -130,17 +164,17 @@ collections:
   slug: open-amazon-eventbridge
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/plans/amazon-eventbridge-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/plans/amazon-eventbridge-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-eventbridge-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/rate-limits/amazon-eventbridge-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/rate-limits/amazon-eventbridge-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-eventbridge-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/finops/amazon-eventbridge-finops.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/finops/amazon-eventbridge-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-eventbridge-finops.yml
@@ -149,27 +183,27 @@ common:
   type: Website
   url: https://aws.amazon.com/eventbridge/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/agentic-access/amazon-eventbridge-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/agentic-access/amazon-eventbridge-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-eventbridge-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/security/amazon-eventbridge-trust-center.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/security/amazon-eventbridge-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-eventbridge-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/security/amazon-eventbridge-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/security/amazon-eventbridge-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-eventbridge-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/security/amazon-eventbridge-domain-security.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/security/amazon-eventbridge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-eventbridge-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/authentication/amazon-eventbridge-authentication.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/authentication/amazon-eventbridge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-eventbridge-authentication.yml
@@ -178,47 +212,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-eventbridge/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/arazzo/amazon-eventbridge-archive-event-bus-workflow.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/arazzo/amazon-eventbridge-archive-event-bus-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-eventbridge-archive-event-bus-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/arazzo/amazon-eventbridge-audit-bus-rules-workflow.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/arazzo/amazon-eventbridge-audit-bus-rules-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-eventbridge-audit-bus-rules-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/arazzo/amazon-eventbridge-create-and-verify-archive-workflow.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/arazzo/amazon-eventbridge-create-and-verify-archive-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-eventbridge-create-and-verify-archive-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/arazzo/amazon-eventbridge-create-rule-with-targets-workflow.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/arazzo/amazon-eventbridge-create-rule-with-targets-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-eventbridge-create-rule-with-targets-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/arazzo/amazon-eventbridge-decommission-rule-workflow.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/arazzo/amazon-eventbridge-decommission-rule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-eventbridge-decommission-rule-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/arazzo/amazon-eventbridge-inspect-rule-and-targets-workflow.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/arazzo/amazon-eventbridge-inspect-rule-and-targets-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-eventbridge-inspect-rule-and-targets-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/arazzo/amazon-eventbridge-provision-event-bus-routing-workflow.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/arazzo/amazon-eventbridge-provision-event-bus-routing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-eventbridge-provision-event-bus-routing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/arazzo/amazon-eventbridge-route-and-emit-event-workflow.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/arazzo/amazon-eventbridge-route-and-emit-event-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-eventbridge-route-and-emit-event-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/arazzo/amazon-eventbridge-teardown-event-bus-workflow.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/arazzo/amazon-eventbridge-teardown-event-bus-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-eventbridge-teardown-event-bus-workflow.yml
@@ -299,12 +333,12 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/rules/amazon-eventbridge-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-eventbridge/rules/amazon-eventbridge-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-eventbridge-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/vocabulary/amazon-eventbridge-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-eventbridge/vocabulary/amazon-eventbridge-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-eventbridge-vocabulary.yaml
@@ -413,13 +447,13 @@ features:
 - description: Send events to external HTTP endpoints via API Destinations
   name: API Destinations
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Eventbridge Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: gb
+  service_category: ''
   slug: amazon-eventbridge-finops
-  template: true
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 integrations:
 - description: Invoke Lambda functions in response to events
@@ -624,7 +658,7 @@ modified: '2026-09-16'
 name: Amazon EventBridge
 nav: Providers
 network: true
-overview: 'Amazon EventBridge publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Archives API, Event Buses API, Events API, and 2 more. Tagged areas include Amazon Web Services, Event Bus, Event-Driven, Event, and Integration.
+overview: 'Amazon EventBridge publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Archives API, Event Buses API, Events API, and 9 more. Tagged areas include Amazon Web Services, Event Bus, Event-Driven, Event, and Integration.
 
 
   The Amazon EventBridge catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -633,8 +667,11 @@ overview: 'Amazon EventBridge publishes 5 API contracts indexed on the [APIs.io]
   Amazon EventBridge''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 33 more developer resources.'
 plans:
 - name: Amazon Eventbridge Plans Pricing
-  plan_count: 3
+  plan_count: 11
   slug: amazon-eventbridge-plans-pricing
+- name: Amazon Eventbridge Price Estimates
+  plan_count: 0
+  slug: amazon-eventbridge-price-estimates
 random_paper: 10
 rate_limits:
 - limit_count: 5
@@ -677,44 +714,50 @@ rules:
     warn: 14
   slug: amazon-eventbridge-spectral-rules
 score:
-  band: strong
-  composite: 59.2
+  band: exemplar
+  composite: 69.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 69.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    artifact_dirs: 22
+    catalog_earned: 81.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.7
   facets:
-    access_clarity: 61.8
+    access_clarity: 100.0
     contract_governance: 27.3
-    contract_quality: 73.7
-    developer_ergonomics: 53.6
+    contract_quality: 71.5
+    developer_ergonomics: 65.5
     discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 60.7
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 5
+      marker_coverage: 58.3
+      total: 12
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/screenshots/amazon-eventbridge-2026-06-20T171644.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-eventbridge/amazon-eventbridge-2026-06-20T171644.png
 security:
 - kind: authentication
   name: Amazon Eventbridge Authentication

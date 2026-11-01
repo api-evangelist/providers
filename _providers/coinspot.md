@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.6
-  scored_at: '2026-10-17'
+  score: 27.5
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - baseURL: https://www.coinspot.com.au/api/v2
@@ -41,100 +43,100 @@ apis:
   description: The Trading API API from CoinSpot — 22 operation(s) for trading api.
   name: CoinSpot Trading API
   slug: coinspot-trading-api-api
-artifact_total: 9
+artifact_total: 10
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/rate-limits/coinspot-rate-limits.yml
+  href: https://artifacts.apis.io/coinspot/rate-limits/coinspot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/coinspot-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/plans/coinspot-plans-pricing.yml
+  href: https://artifacts.apis.io/coinspot/plans/coinspot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/coinspot-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/rules/coinspot-rules.yml
+  href: https://artifacts.apis.io/coinspot/rules/coinspot-rules.yml
   title: ''
   type: Spectral
   url: rules/coinspot-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/vocabulary/coinspot-vocabulary.yml
+  href: https://artifacts.apis.io/coinspot/vocabulary/coinspot-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/coinspot-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/conventions/coinspot-conventions.yml
+  href: https://artifacts.apis.io/coinspot/conventions/coinspot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/coinspot-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/authentication/coinspot-authentication.yml
+  href: https://artifacts.apis.io/coinspot/authentication/coinspot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coinspot-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/lifecycle/coinspot-lifecycle.yml
+  href: https://artifacts.apis.io/coinspot/lifecycle/coinspot-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/coinspot-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/lifecycle/coinspot-lifecycle.yml
+  href: https://artifacts.apis.io/coinspot/lifecycle/coinspot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coinspot-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/errors/coinspot-error-codes.yml
+  href: https://artifacts.apis.io/coinspot/errors/coinspot-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/coinspot-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/errors/coinspot-problem-types.yml
+  href: https://artifacts.apis.io/coinspot/errors/coinspot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/coinspot-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/conformance/coinspot-conformance.yml
+  href: https://artifacts.apis.io/coinspot/conformance/coinspot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coinspot-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/well-known/coinspot-security.txt
+  href: https://artifacts.apis.io/coinspot/well-known/coinspot-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/coinspot-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/well-known/coinspot-well-known.yml
+  href: https://artifacts.apis.io/coinspot/well-known/coinspot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/coinspot-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/hosts/coinspot-hosts.yml
+  href: https://artifacts.apis.io/coinspot/hosts/coinspot-hosts.yml
   title: ''
   type: Hosts
   url: hosts/coinspot-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/vendors/coinspot-vendors.yml
+  href: https://artifacts.apis.io/coinspot/vendors/coinspot-vendors.yml
   title: ''
   type: Vendors
   url: vendors/coinspot-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/packages/coinspot-packages.yml
+  href: https://artifacts.apis.io/coinspot/packages/coinspot-packages.yml
   title: ''
   type: SDKs
   url: packages/coinspot-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/packages/coinspot-packages.yml
+  href: https://artifacts.apis.io/coinspot/packages/coinspot-packages.yml
   title: ''
   type: Packages
   url: packages/coinspot-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/security/coinspot-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/coinspot/security/coinspot-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/coinspot-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coinspot/refs/heads/main/security/coinspot-domain-security.yml
+  href: https://artifacts.apis.io/coinspot/security/coinspot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coinspot-domain-security.yml
@@ -188,6 +190,14 @@ common:
   url: https://www.coinspot.com.au/Security
 created: '2026-10-13'
 description: 'CoinSpot is an Australian cryptocurrency exchange (coinspot.com.au, member since 2014) offering buy/sell, swap, market and OTC trading across hundreds of coins. It publishes the CoinSpot API V2 (BETA): an unauthenticated Public API for latest prices and order books, a full-access trading API (quotes, market and instant orders, cancels, coin withdrawals) and a Read Only API for balances and history, all signed with HMAC-SHA512. The legacy V1 API remains active.'
+finops:
+- has_sources: true
+  method: derived
+  name: Coinspot Finops
+  primary_unit: ''
+  service_category: ''
+  slug: coinspot-finops
+  template: true
 image: https://www.coinspot.com.au/public/img/rocket-thumb.png
 layout: provider
 modified: '2026-10-13'
@@ -205,7 +215,7 @@ plans:
 - name: Coinspot Plans Pricing
   plan_count: 5
   slug: coinspot-plans-pricing
-random_paper: 21
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Coinspot Rate Limits
@@ -225,14 +235,15 @@ rules:
   slug: coinspot-rules
 score:
   band: developing
-  composite: 43.6
+  composite: 44.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 65.8
     catalog_earned_first_party: 20.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 22.0
@@ -240,6 +251,14 @@ score:
     developer_ergonomics: 42.9
     discoverability: 73.2
     operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 44.3
   provenance:
     conformance: derived
     contracts:
@@ -254,11 +273,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Coinspot Authentication

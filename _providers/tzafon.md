@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,16 +37,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Lightcone API by Tzafon provides cloud browser and desktop computers operated by AI. It spans an agent Tasks API (start, stream, pause, resume, inject messages) driven by the Northstar computer-us
   name: Lightcone API
   slug: lightcone-api
-artifact_total: 6
+artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/plans/tzafon-plans-pricing.yml
+  href: https://artifacts.apis.io/tzafon/plans/tzafon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tzafon-plans-pricing.yml
@@ -53,7 +55,7 @@ common:
   type: Website
   url: https://www.lightcone.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/security/tzafon-domain-security.yml
+  href: https://artifacts.apis.io/tzafon/security/tzafon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tzafon-domain-security.yml
@@ -74,12 +76,12 @@ common:
   type: GettingStarted
   url: https://docs.lightcone.ai/guides/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/authentication/tzafon-authentication.yml
+  href: https://artifacts.apis.io/tzafon/authentication/tzafon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tzafon-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/changelog/tzafon-changelog.yml
+  href: https://artifacts.apis.io/tzafon/changelog/tzafon-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tzafon-changelog.yml
@@ -92,62 +94,62 @@ common:
   type: Deprecation
   url: https://docs.lightcone.ai/guides/changelog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/lifecycle/tzafon-lifecycle.yml
+  href: https://artifacts.apis.io/tzafon/lifecycle/tzafon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tzafon-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/conventions/tzafon-conventions.yml
+  href: https://artifacts.apis.io/tzafon/conventions/tzafon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tzafon-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/conventions/tzafon-conventions.yml
+  href: https://artifacts.apis.io/tzafon/conventions/tzafon-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/tzafon-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/errors/tzafon-problem-types.yml
+  href: https://artifacts.apis.io/tzafon/errors/tzafon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tzafon-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/rate-limits/tzafon-rate-limits.yml
+  href: https://artifacts.apis.io/tzafon/rate-limits/tzafon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tzafon-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/packages/tzafon-packages.yml
+  href: https://artifacts.apis.io/tzafon/packages/tzafon-packages.yml
   title: ''
   type: Packages
   url: packages/tzafon-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/packages/tzafon-packages.yml
+  href: https://artifacts.apis.io/tzafon/packages/tzafon-packages.yml
   title: ''
   type: SDKs
   url: packages/tzafon-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/cli/tzafon-cli.yml
+  href: https://artifacts.apis.io/tzafon/cli/tzafon-cli.yml
   title: ''
   type: CLI
   url: cli/tzafon-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/mcp/tzafon-mcp.yml
+  href: https://artifacts.apis.io/tzafon/mcp/tzafon-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tzafon-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/llms/tzafon-llms.txt
+  href: https://artifacts.apis.io/tzafon/llms/tzafon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tzafon-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/conformance/tzafon-conformance.yml
+  href: https://artifacts.apis.io/tzafon/conformance/tzafon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tzafon-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/data-model/tzafon-data-model.yml
+  href: https://artifacts.apis.io/tzafon/data-model/tzafon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tzafon-data-model.yml
@@ -177,6 +179,14 @@ common:
   url: https://docs.lightcone.ai/guides/troubleshooting
 created: '2026-07-17'
 description: 'Tzafon is a machine intelligence company with offices in San Francisco, Tel Aviv, and Zurich, advancing multimodality, high performance compute, and continuous learning. Its developer platform Lightcone is the computer-use API: cloud browsers and desktops operated by Northstar, a vision-language model trained with GUI reinforcement learning to see screens and act on them. Developers describe work in plain language and Northstar operates a computer from start to finish, or they drive computers directly through a REST API, official Python and TypeScript SDKs, a CLI, and an official MCP server -- with OpenAI-compatible Responses and Chat Completions endpoints for drop-in computer-use loops.'
+finops:
+- has_sources: true
+  method: derived
+  name: Tzafon Finops
+  primary_unit: million input tokens
+  service_category: ''
+  slug: tzafon-finops
+  template: false
 image: https://docs.lightcone.ai/og-image.jpg
 layout: provider
 mcp_servers:
@@ -195,30 +205,30 @@ plans:
 - name: Tzafon Plans Pricing
   plan_count: 8
   slug: tzafon-plans-pricing
-random_paper: 20
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Tzafon Rate Limits
   slug: tzafon-rate-limits
 score:
   band: developing
-  composite: 42.0
+  composite: 45.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 49.0
+    artifact_dirs: 19
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 65.8
+    access_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 6.5
     developer_ergonomics: 69.0
-    discoverability: 71.7
-    operational_transparency: 26.3
-  previous_composite: 35.6
+    discoverability: 65.0
+    operational_transparency: 44.7
+  previous_composite: 43.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -228,14 +238,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/screenshots/tzafon-2026-09-02T164705.png
+screenshot: https://apis.io/screenshots/tzafon/tzafon-2026-09-02T164705.png
 security:
 - kind: authentication
   name: Tzafon Authentication

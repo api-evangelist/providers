@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.4
-  scored_at: '2026-10-17'
+  score: 25.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 8
   slug: limitless-ai-agentic-access
   summary_line: 8 operations · 2 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Wearable AI pendant that captures ambient audio, transcribes it, and stores it as Lifelogs in the user's Limitless account.
   name: Limitless Pendant
@@ -72,11 +74,8 @@ apis:
   description: The Limitless Developer API API from Limitless — 1 operation(s) for limitless developer api.
   name: Limitless Developer API
   slug: limitless-ai-limitless-developer-api-api
-artifact_total: 21
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Limitless Developer Chats API
   slug: open-limitless-ai-chats-api
@@ -94,12 +93,12 @@ collections:
   slug: open-limitless-ai
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/agentic-access/limitless-ai-agentic-access.yml
+  href: https://artifacts.apis.io/limitless-ai/agentic-access/limitless-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/limitless-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/security/limitless-ai-domain-security.yml
+  href: https://artifacts.apis.io/limitless-ai/security/limitless-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/limitless-ai-domain-security.yml
@@ -124,17 +123,17 @@ common:
   type: OpenAPI
   url: https://api.limitless.ai/v1/openapi.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/plans/limitless-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/limitless-ai/plans/limitless-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/limitless-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/rate-limits/limitless-ai-rate-limits.yml
+  href: https://artifacts.apis.io/limitless-ai/rate-limits/limitless-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/limitless-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/finops/limitless-ai-finops.yml
+  href: https://artifacts.apis.io/limitless-ai/finops/limitless-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/limitless-ai-finops.yml
@@ -199,52 +198,52 @@ common:
   type: SourceCode
   url: https://github.com/limitless-ai-inc/limitless-api-examples
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/mcp/limitless-ai-mcp.yml
+  href: https://artifacts.apis.io/limitless-ai/mcp/limitless-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/limitless-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/limitless-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/llms/limitless-ai-llms.txt
+  href: https://artifacts.apis.io/limitless-ai/llms/limitless-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/limitless-ai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/authentication/limitless-ai-authentication.yml
+  href: https://artifacts.apis.io/limitless-ai/authentication/limitless-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/limitless-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/scopes/limitless-ai-scopes.yml
+  href: https://artifacts.apis.io/limitless-ai/scopes/limitless-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/limitless-ai-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/well-known/limitless-ai-openid-configuration.json
+  href: https://artifacts.apis.io/limitless-ai/well-known/limitless-ai-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/limitless-ai-openid-configuration.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/well-known/limitless-ai-well-known.yml
+  href: https://artifacts.apis.io/limitless-ai/well-known/limitless-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/limitless-ai-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/conventions/limitless-ai-conventions.yml
+  href: https://artifacts.apis.io/limitless-ai/conventions/limitless-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/limitless-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/conformance/limitless-ai-conformance.yml
+  href: https://artifacts.apis.io/limitless-ai/conformance/limitless-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/limitless-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/lifecycle/limitless-ai-lifecycle.yml
+  href: https://artifacts.apis.io/limitless-ai/lifecycle/limitless-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/limitless-ai-lifecycle.yml
@@ -253,22 +252,22 @@ common:
   type: Deprecation
   url: https://www.limitless.ai/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/errors/limitless-ai-problem-types.yml
+  href: https://artifacts.apis.io/limitless-ai/errors/limitless-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/limitless-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/data-model/limitless-ai-data-model.yml
+  href: https://artifacts.apis.io/limitless-ai/data-model/limitless-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/limitless-ai-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/packages/limitless-ai-packages.yml
+  href: https://artifacts.apis.io/limitless-ai/packages/limitless-ai-packages.yml
   title: ''
   type: Packages
   url: packages/limitless-ai-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/overlays/limitless-ai-developer-overlay.yaml
+  href: https://artifacts.apis.io/limitless-ai/overlays/limitless-ai-developer-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/limitless-ai-developer-overlay.yaml
@@ -300,7 +299,7 @@ plans:
 - name: Limitless Ai Plans Pricing
   plan_count: 1
   slug: limitless-ai-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Limitless Ai Rate Limits
@@ -312,23 +311,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.0
+  composite: 41.4
   coverage:
     artifact_dirs: 23
-    catalog_earned: 39.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.5
+  delta: -0.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 39.5
     contract_governance: 4.5
     contract_quality: 44.5
     developer_ergonomics: 56.5
-    discoverability: 71.7
-    operational_transparency: 15.8
-  previous_composite: 45.5
+    discoverability: 56.7
+    operational_transparency: 18.4
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -345,14 +344,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/screenshots/limitless-ai-2026-07-25T225205.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/limitless-ai/limitless-ai-2026-07-25T225205.png
 security:
 - kind: authentication
   name: Limitless Ai Authentication
@@ -362,6 +361,14 @@ security:
   name: Limitless Ai Domain Security
   slug: limitless-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Export and erase Limitless data
+  slug: limitless-ai-export-and-erase
+- name: Review Limitless Ask AI chats
+  slug: limitless-ai-review-ask-ai-chats
+- name: Search and read Limitless lifelogs
+  slug: limitless-ai-search-lifelogs
 slug: limitless-ai
 tags:
 - Artificial Intelligence

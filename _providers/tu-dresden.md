@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: An OpenAI-compatible LLM inference API operated by ZIH and ScaDS.AI Dresden/Leipzig for TU Dresden staff, students and ScaDS.AI affiliates, served from a LiteLLM proxy on the university's own network.
@@ -129,47 +131,47 @@ common:
   type: AITooling
   url: https://llm.scads.ai/docs/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/authentication/tu-dresden-authentication.yml
+  href: https://artifacts.apis.io/tu-dresden/authentication/tu-dresden-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tu-dresden-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/errors/tu-dresden-problem-types.yml
+  href: https://artifacts.apis.io/tu-dresden/errors/tu-dresden-problem-types.yml
   title: ''
   type: Errors
   url: errors/tu-dresden-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/conformance/tu-dresden-education-standards.yml
+  href: https://artifacts.apis.io/tu-dresden/conformance/tu-dresden-education-standards.yml
   title: ''
   type: Conformance
   url: conformance/tu-dresden-education-standards.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/security/tu-dresden-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tu-dresden/security/tu-dresden-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tu-dresden-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/security/tu-dresden-domain-security.yml
+  href: https://artifacts.apis.io/tu-dresden/security/tu-dresden-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tu-dresden-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/plans/tu-dresden-plans-pricing.yml
+  href: https://artifacts.apis.io/tu-dresden/plans/tu-dresden-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tu-dresden-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/rate-limits/tu-dresden-rate-limits.yml
+  href: https://artifacts.apis.io/tu-dresden/rate-limits/tu-dresden-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tu-dresden-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/finops/tu-dresden-finops.yml
+  href: https://artifacts.apis.io/tu-dresden/finops/tu-dresden-finops.yml
   title: ''
   type: FinOps
   url: finops/tu-dresden-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/tu-dresden/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -257,7 +259,7 @@ coverage:
     url: https://developer.tu-dresden.de/
   - status: 0
     url: https://gitlab.tu-dresden.de/
-  reason: auth_required
+  reason: auth-required
   state: gated
 created: '2026-06-03'
 description: 'Technische Universität Dresden (TUD) is a German public technical university in Dresden, Saxony, a member of TU9 and one of the institutions funded under the German Universities Excellence Strategy. Re-profiled on 2026-08-30 under the API Evangelist university pipeline, which settles WHO OPERATES a surface before crediting it to the institution. The June 2026 profile credited TU Dresden with five OpenAPI contracts and five extra apis[] entries; all five were one document — the Linked Open Data API of the Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden (SLUB), a separate Saxon state institution, served from data.slub-dresden.de and split by tag into five apparent surfaces. Worse, every one of those entries carried a baseURL of vvz.phil.tu-dresden.de, a host the specs never mention, which is why a hostname-based audit read them as institution-owned. Those contracts and the twenty-two schema, structure, JSON-LD, vocabulary, ruleset, example, collection
@@ -285,14 +287,14 @@ plans:
 - name: Tu Dresden Plans Pricing
   plan_count: 2
   slug: tu-dresden-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Tu Dresden Rate Limits
   slug: tu-dresden-rate-limits
 score:
-  band: emerging
-  composite: 25.7
+  band: thin
+  composite: 27.4
   coverage:
     artifact_dirs: 11
     catalog_earned: 45.0
@@ -300,14 +302,14 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 4.4
     developer_ergonomics: 35.7
     discoverability: 71.4
-    operational_transparency: 10.5
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -316,7 +318,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 32.6
+  previous_composite: 27.4
   provenance:
     conformance: first-party
   regulatory:
@@ -325,14 +327,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/screenshots/tu-dresden-2026-06-20T195822.png
+screenshot: https://apis.io/screenshots/tu-dresden/tu-dresden-2026-06-20T195822.png
 security:
 - kind: authentication
   name: Tu Dresden Authentication

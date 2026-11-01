@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: Key-authenticated REST API (v1) to list, search (including Pro semantic search) and retrieve agent skills with their security grades, list categories, read key usage statistics, and scan a skill (ZIP,
@@ -57,65 +59,65 @@ apis:
   description: The Stats API from Skills Directory — 1 operation(s) for stats.
   name: Skills Directory Stats API
   slug: skillsdirectory-com-stats-api
-artifact_total: 20
+artifact_total: 22
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/rate-limits/skillsdirectory-com-rate-limits.yml
+  href: https://artifacts.apis.io/skillsdirectory-com/rate-limits/skillsdirectory-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/skillsdirectory-com-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/plans/skillsdirectory-com-plans-pricing.yml
+  href: https://artifacts.apis.io/skillsdirectory-com/plans/skillsdirectory-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/skillsdirectory-com-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/authentication/skillsdirectory-com-authentication.yml
+  href: https://artifacts.apis.io/skillsdirectory-com/authentication/skillsdirectory-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skillsdirectory-com-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/errors/skillsdirectory-com-problem-types.yml
+  href: https://artifacts.apis.io/skillsdirectory-com/errors/skillsdirectory-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/skillsdirectory-com-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/rules/skillsdirectory-com-rules.yml
+  href: https://artifacts.apis.io/skillsdirectory-com/rules/skillsdirectory-com-rules.yml
   title: ''
   type: Spectral
   url: rules/skillsdirectory-com-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/json-ld/skillsdirectory-com-context.jsonld
+  href: https://artifacts.apis.io/skillsdirectory-com/json-ld/skillsdirectory-com-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/skillsdirectory-com-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/vocabulary/skillsdirectory-com-vocabulary.yml
+  href: https://artifacts.apis.io/skillsdirectory-com/vocabulary/skillsdirectory-com-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/skillsdirectory-com-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/data-model/skillsdirectory-com-data-model.yml
+  href: https://artifacts.apis.io/skillsdirectory-com/data-model/skillsdirectory-com-data-model.yml
   title: ''
   type: DataModel
   url: data-model/skillsdirectory-com-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/conformance/skillsdirectory-com-conformance.yml
+  href: https://artifacts.apis.io/skillsdirectory-com/conformance/skillsdirectory-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skillsdirectory-com-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/llms/skillsdirectory-com-llms.txt
+  href: https://artifacts.apis.io/skillsdirectory-com/llms/skillsdirectory-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skillsdirectory-com-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/hosts/skillsdirectory-com-hosts.yml
+  href: https://artifacts.apis.io/skillsdirectory-com/hosts/skillsdirectory-com-hosts.yml
   title: ''
   type: Hosts
   url: hosts/skillsdirectory-com-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/vendors/skillsdirectory-com-vendors.yml
+  href: https://artifacts.apis.io/skillsdirectory-com/vendors/skillsdirectory-com-vendors.yml
   title: ''
   type: Vendors
   url: vendors/skillsdirectory-com-vendors.yml
@@ -136,12 +138,12 @@ common:
   type: DeveloperPortal
   url: https://www.skillsdirectory.com/skills/for/developers
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/security/skillsdirectory-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/skillsdirectory-com/security/skillsdirectory-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/skillsdirectory-com-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skillsdirectory-com/refs/heads/main/security/skillsdirectory-com-domain-security.yml
+  href: https://artifacts.apis.io/skillsdirectory-com/security/skillsdirectory-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skillsdirectory-com-domain-security.yml
@@ -210,6 +212,14 @@ coverage:
   state: gated
 created: '2026-10-13'
 description: Skills Directory (skillsdirectory.com) is a security-first directory of agent skills for Claude, Claude Code and other coding agents. It indexes over 100,000 skills, scans each one automatically for credential reads, network exfiltration, unpinned remote code and prompt-injection vectors, and publishes a public A-F security grade. It offers a key-authenticated REST API (v1) for listing, searching and scanning skills, a public Registry API for CLI installers, live security-grade badges, and a hosted MCP server for Claude Code for Pro members.
+finops:
+- has_sources: true
+  method: derived
+  name: Skillsdirectory Com Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: skillsdirectory-com-finops
+  template: false
 image: https://www.skillsdirectory.com/og-image.png
 json_schemas:
 - name: GetApiRegistryResponse
@@ -252,7 +262,10 @@ plans:
 - name: Skillsdirectory Com Plans Pricing
   plan_count: 3
   slug: skillsdirectory-com-plans-pricing
-random_paper: 1
+- name: Skillsdirectory Com Price Estimates
+  plan_count: 0
+  slug: skillsdirectory-com-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Skillsdirectory Com Rate Limits
@@ -272,21 +285,23 @@ rules:
   slug: skillsdirectory-com-rules
 score:
   band: developing
-  composite: 50.5
+  composite: 52.5
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 89.8
+    artifact_dirs: 19
+    catalog_earned: 92.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 25.3
+    catalog_gap: 22.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 22.0
     contract_quality: 25.6
     developer_ergonomics: 52.4
-    discoverability: 80.0
+    discoverability: 76.7
     operational_transparency: 47.4
+  previous_composite: 50.9
   provenance:
     conformance: derived
     contracts:
@@ -301,11 +316,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Skillsdirectory Com Authentication

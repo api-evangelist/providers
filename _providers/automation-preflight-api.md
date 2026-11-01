@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 5
   slug: automation-preflight-api-agentic-access
   summary_line: 5 operations · 3 acting
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://preflight.tinyopsstudio.com
   baseurl_source: declared
@@ -67,11 +69,8 @@ apis:
   description: The Health API from Automation Preflight API — 1 operation(s) for health.
   name: Automation Preflight API Health API
   slug: automation-preflight-api-health-api
-artifact_total: 17
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TinyOps Automation Integration Preflight Acceptance Pack API
   slug: open-automation-preflight-api-acceptance-pack-api
@@ -86,17 +85,17 @@ collections:
   slug: open-automation-preflight-api-health-api
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/rules/automation-preflight-api-rules.yml
+  href: https://artifacts.apis.io/automation-preflight-api/rules/automation-preflight-api-rules.yml
   title: ''
   type: Spectral
   url: rules/automation-preflight-api-rules.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/hosts/automation-preflight-api-hosts.yml
+  href: https://artifacts.apis.io/automation-preflight-api/hosts/automation-preflight-api-hosts.yml
   title: ''
   type: Hosts
   url: hosts/automation-preflight-api-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/vendors/automation-preflight-api-vendors.yml
+  href: https://artifacts.apis.io/automation-preflight-api/vendors/automation-preflight-api-vendors.yml
   title: ''
   type: Vendors
   url: vendors/automation-preflight-api-vendors.yml
@@ -109,27 +108,27 @@ common:
   type: Website
   url: https://tinyopsstudio.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/mcp/automation-preflight-api-mcp.yml
+  href: https://artifacts.apis.io/automation-preflight-api/mcp/automation-preflight-api-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/automation-preflight-api-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/overlays/automation-preflight-api-direct-overlay.yaml
+  href: https://artifacts.apis.io/automation-preflight-api/overlays/automation-preflight-api-direct-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automation-preflight-api-direct-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/security/automation-preflight-api-domain-security.yml
+  href: https://artifacts.apis.io/automation-preflight-api/security/automation-preflight-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/automation-preflight-api-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/agentic-access/automation-preflight-api-agentic-access.yml
+  href: https://artifacts.apis.io/automation-preflight-api/agentic-access/automation-preflight-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/automation-preflight-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/authentication/automation-preflight-api-authentication.yml
+  href: https://artifacts.apis.io/automation-preflight-api/authentication/automation-preflight-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/automation-preflight-api-authentication.yml
@@ -170,17 +169,17 @@ common:
   type: PrivacyPolicy
   url: https://tinyopsstudio.com/privacy
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/a2a/automation-preflight-api-a2a.yml
+  href: https://artifacts.apis.io/automation-preflight-api/a2a/automation-preflight-api-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/automation-preflight-api-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/well-known/automation-preflight-api-well-known.yml
+  href: https://artifacts.apis.io/automation-preflight-api/well-known/automation-preflight-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/automation-preflight-api-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/llms/automation-preflight-api-llms.txt
+  href: https://artifacts.apis.io/automation-preflight-api/llms/automation-preflight-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/automation-preflight-api-llms.txt
@@ -189,57 +188,57 @@ common:
   type: LLMsTxt Source
   url: https://tinyopsstudio.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/automation-preflight-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/conventions/automation-preflight-api-conventions.yml
+  href: https://artifacts.apis.io/automation-preflight-api/conventions/automation-preflight-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/automation-preflight-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/errors/automation-preflight-api-problem-types.yml
+  href: https://artifacts.apis.io/automation-preflight-api/errors/automation-preflight-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/automation-preflight-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/lifecycle/automation-preflight-api-lifecycle.yml
+  href: https://artifacts.apis.io/automation-preflight-api/lifecycle/automation-preflight-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/automation-preflight-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/conformance/automation-preflight-api-conformance.yml
+  href: https://artifacts.apis.io/automation-preflight-api/conformance/automation-preflight-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/automation-preflight-api-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/data-model/automation-preflight-api-data-model.yml
+  href: https://artifacts.apis.io/automation-preflight-api/data-model/automation-preflight-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/automation-preflight-api-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/rate-limits/automation-preflight-api-rate-limits.yml
+  href: https://artifacts.apis.io/automation-preflight-api/rate-limits/automation-preflight-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/automation-preflight-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/plans/automation-preflight-api-plans.yml
+  href: https://artifacts.apis.io/automation-preflight-api/plans/automation-preflight-api-plans.yml
   title: ''
   type: Plans
   url: plans/automation-preflight-api-plans.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/sandbox/automation-preflight-api-sandbox.yml
+  href: https://artifacts.apis.io/automation-preflight-api/sandbox/automation-preflight-api-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/automation-preflight-api-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/examples/automation-preflight-api-analyze-example.json
+  href: https://artifacts.apis.io/automation-preflight-api/examples/automation-preflight-api-analyze-example.json
   title: ''
   type: Examples
   url: examples/automation-preflight-api-analyze-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/examples/automation-preflight-api-health-and-errors-example.json
+  href: https://artifacts.apis.io/automation-preflight-api/examples/automation-preflight-api-health-and-errors-example.json
   title: ''
   type: Examples
   url: examples/automation-preflight-api-health-and-errors-example.json
@@ -252,6 +251,14 @@ examples:
 - key_count: 2
   name: Automation Preflight Api Health And Errors Example
   slug: automation-preflight-api-health-and-errors-example
+finops:
+- has_sources: true
+  method: derived
+  name: Automation Preflight Api Finops
+  primary_unit: pack
+  service_category: ''
+  slug: automation-preflight-api-finops
+  template: false
 image: https://tinyopsstudio.com/assets/tinyops-logo-mark-v4.png
 layout: provider
 modified: '2026-08-09'
@@ -269,7 +276,7 @@ plans:
 - name: Automation Preflight Api Plans
   plan_count: 4
   slug: automation-preflight-api-plans
-random_paper: 16
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Automation Preflight Api Rate Limits
@@ -289,23 +296,23 @@ rules:
   slug: automation-preflight-api-rules
 score:
   band: developing
-  composite: 49.8
+  composite: 51.2
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 64.5
     catalog_earned_first_party: 20.0
     catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 1.0
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 47.3
     developer_ergonomics: 44.6
-    discoverability: 78.6
-    operational_transparency: 23.7
-  previous_composite: 49.2
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -322,13 +329,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/screenshots/automation-preflight-api-2026-08-17T080618.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/automation-preflight-api/automation-preflight-api-2026-08-17T080618.png
 security:
 - kind: authentication
   name: Automation Preflight Api Authentication
@@ -338,6 +346,12 @@ security:
   name: Automation Preflight Api Domain Security
   slug: automation-preflight-api-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: automation-preflight-api-acceptance-pack
+  slug: automation-preflight-api-acceptance-pack
+- name: automation-preflight-api-integration-preflight
+  slug: automation-preflight-api-integration-preflight
 slug: automation-preflight-api
 tags:
 - Automation

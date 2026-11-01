@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for the Willem ECG analysis platform (CE-marked Class IIa medical device). Supports bi-directional data exchange for ECG ingestion and cardiac-pattern analysis in EDF, HL7, DICOM, JSON, XML, and P
@@ -69,17 +71,17 @@ common:
   type: Compliance
   url: https://www.idoven.ai/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/idoven/refs/heads/main/conformance/idoven-conformance.yml
+  href: https://artifacts.apis.io/idoven/conformance/idoven-conformance.yml
   title: ''
   type: Conformance
   url: conformance/idoven-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/idoven/refs/heads/main/security/idoven-domain-security.yml
+  href: https://artifacts.apis.io/idoven/security/idoven-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/idoven-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/idoven/refs/heads/main/llms/idoven-llms.txt
+  href: https://artifacts.apis.io/idoven/llms/idoven-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/idoven-llms.txt
@@ -95,10 +97,10 @@ overview: 'IDOVEN is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   IDOVEN''s developer surface includes documentation, getting-started guide, engineering blog, and 7 more developer resources.'
-random_paper: 7
+random_paper: 21
 score:
   band: emerging
-  composite: 19.9
+  composite: 20.2
   coverage:
     artifact_dirs: 6
     catalog_earned: 37.0
@@ -111,15 +113,15 @@ score:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 73.2
+    developer_ergonomics: 23.8
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - spain
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 19.9
+  previous_composite: 20.2
   provenance:
     conformance: first-party
   regulatory:
@@ -128,14 +130,14 @@ score:
     regime: Health
     regime_id: health
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/idoven/refs/heads/main/screenshots/idoven-2026-07-25T222035.png
+screenshot: https://apis.io/screenshots/idoven/idoven-2026-07-25T222035.png
 security:
 - kind: domain-security
   name: Idoven Domain Security

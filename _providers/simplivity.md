@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.1
-  scored_at: '2026-10-17'
+  score: 22.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 3
@@ -93,11 +95,8 @@ apis:
   description: A virtual_machine represents a single virtual machine created within an HPE SimpliVity datastore.
   name: SimpliVity Virtual Machines API
   slug: simplivity-virtual-machines-api
-artifact_total: 25
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: HPE OmniStack REST backups API
   slug: open-simplivity-backups-api
@@ -130,7 +129,7 @@ collections:
   slug: open-simplivity-virtual-machines-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/capabilities/simplivity-capability-edges.yml
+  href: https://artifacts.apis.io/simplivity/capabilities/simplivity-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/simplivity-capability-edges.yml
@@ -155,12 +154,12 @@ common:
   type: License
   url: https://github.com/HewlettPackard/simplivity-python/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/security/simplivity-domain-security.yml
+  href: https://artifacts.apis.io/simplivity/security/simplivity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simplivity-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/agentic-access/simplivity-agentic-access.yml
+  href: https://artifacts.apis.io/simplivity/agentic-access/simplivity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/simplivity-agentic-access.yml
@@ -185,62 +184,62 @@ common:
   type: SourceCode
   url: https://github.com/HewlettPackard/simplivity-python
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/packages/simplivity-packages.yml
+  href: https://artifacts.apis.io/simplivity/packages/simplivity-packages.yml
   title: ''
   type: Packages
   url: packages/simplivity-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/packages/simplivity-packages.yml
+  href: https://artifacts.apis.io/simplivity/packages/simplivity-packages.yml
   title: ''
   type: SDKs
   url: packages/simplivity-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/mcp/simplivity-mcp.yml
+  href: https://artifacts.apis.io/simplivity/mcp/simplivity-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/simplivity-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/simplivity/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/llms/simplivity-llms.txt
+  href: https://artifacts.apis.io/simplivity/llms/simplivity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/simplivity-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/overlays/simplivity-omnistack-overlay.yaml
+  href: https://artifacts.apis.io/simplivity/overlays/simplivity-omnistack-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/simplivity-omnistack-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/conventions/simplivity-conventions.yml
+  href: https://artifacts.apis.io/simplivity/conventions/simplivity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/simplivity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/conformance/simplivity-conformance.yml
+  href: https://artifacts.apis.io/simplivity/conformance/simplivity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/simplivity-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/errors/simplivity-problem-types.yml
+  href: https://artifacts.apis.io/simplivity/errors/simplivity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/simplivity-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/data-model/simplivity-data-model.yml
+  href: https://artifacts.apis.io/simplivity/data-model/simplivity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/simplivity-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/lifecycle/simplivity-lifecycle.yml
+  href: https://artifacts.apis.io/simplivity/lifecycle/simplivity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/simplivity-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/lifecycle/simplivity-lifecycle.yml
+  href: https://artifacts.apis.io/simplivity/lifecycle/simplivity-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/simplivity-lifecycle.yml
@@ -256,7 +255,7 @@ overview: 'SimpliVity publishes 10 API contracts indexed on the [APIs.io](https:
 
 
   SimpliVity''s developer surface includes documentation, API reference, and 23 more developer resources.'
-random_paper: 14
+random_paper: 10
 scopes:
 - name: Simplivity Scopes
   scope_count: 2
@@ -264,26 +263,23 @@ scopes:
   summary_line: 2 scopes · password
 score:
   band: thin
-  composite: 31.2
+  composite: 29.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 36.9
     developer_ergonomics: 37.5
-    discoverability: 73.2
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 31.1
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 29.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,13 +296,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/screenshots/simplivity-2026-09-02T155554.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/simplivity/simplivity-2026-09-02T155554.png
 security:
 - kind: authentication
   name: Simplivity Authentication
@@ -316,6 +313,14 @@ security:
   name: Simplivity Domain Security
   slug: simplivity-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Back up and restore a SimpliVity virtual machine
+  slug: simplivity-backup-and-restore-vm
+- name: Create a backup policy and apply it to a VM
+  slug: simplivity-manage-backup-policy
+- name: Provision and manage a SimpliVity datastore
+  slug: simplivity-provision-datastore
 slug: simplivity
 tags:
 - Company

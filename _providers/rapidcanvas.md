@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Bearer-token REST API behind the RapidCanvas platform and the RC CLI. All CLI interactions are HTTPS calls to https://<host>/api/... No public OpenAPI reference is published; the OAuth authorization-s
@@ -42,12 +44,12 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/plans/rapidcanvas-plans-pricing.yml
+  href: https://artifacts.apis.io/rapidcanvas/plans/rapidcanvas-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rapidcanvas-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/security/rapidcanvas-domain-security.yml
+  href: https://artifacts.apis.io/rapidcanvas/security/rapidcanvas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rapidcanvas-domain-security.yml
@@ -96,52 +98,52 @@ common:
   type: TrustCenter
   url: https://trustcenter.rapidcanvas.ai/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/changelog/rapidcanvas-changelog.yml
+  href: https://artifacts.apis.io/rapidcanvas/changelog/rapidcanvas-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rapidcanvas-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/llms/rapidcanvas-llms.txt
+  href: https://artifacts.apis.io/rapidcanvas/llms/rapidcanvas-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rapidcanvas-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/well-known/rapidcanvas-well-known.yml
+  href: https://artifacts.apis.io/rapidcanvas/well-known/rapidcanvas-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rapidcanvas-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/authentication/rapidcanvas-authentication.yml
+  href: https://artifacts.apis.io/rapidcanvas/authentication/rapidcanvas-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rapidcanvas-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/scopes/rapidcanvas-scopes.yml
+  href: https://artifacts.apis.io/rapidcanvas/scopes/rapidcanvas-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/rapidcanvas-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/cli/rapidcanvas-cli.yml
+  href: https://artifacts.apis.io/rapidcanvas/cli/rapidcanvas-cli.yml
   title: ''
   type: CLI
   url: cli/rapidcanvas-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/errors/rapidcanvas-error-codes.yml
+  href: https://artifacts.apis.io/rapidcanvas/errors/rapidcanvas-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/rapidcanvas-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/conventions/rapidcanvas-conventions.yml
+  href: https://artifacts.apis.io/rapidcanvas/conventions/rapidcanvas-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rapidcanvas-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/lifecycle/rapidcanvas-lifecycle.yml
+  href: https://artifacts.apis.io/rapidcanvas/lifecycle/rapidcanvas-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rapidcanvas-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/security/rapidcanvas-trust-center.yml
+  href: https://artifacts.apis.io/rapidcanvas/security/rapidcanvas-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rapidcanvas-trust-center.yml
@@ -161,7 +163,7 @@ plans:
 - name: Rapidcanvas Plans Pricing
   plan_count: 0
   slug: rapidcanvas-plans-pricing
-random_paper: 20
+random_paper: 12
 scopes:
 - name: Rapidcanvas Scopes
   scope_count: 4
@@ -169,7 +171,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.3
+  composite: 31.2
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -177,29 +179,29 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 29.2
+  previous_composite: 31.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/screenshots/rapidcanvas-2026-09-02T152854.png
+screenshot: https://apis.io/screenshots/rapidcanvas/rapidcanvas-2026-09-02T152854.png
 security:
 - kind: authentication
   name: Rapidcanvas Authentication

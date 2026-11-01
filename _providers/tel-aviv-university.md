@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: 'Open Archives Initiative Protocol for Metadata Harvesting 2.0 service for the Tel Aviv University library record, served from TAU''s Ex Libris Alma tenant. Verified live and keyless on 2026-08-30: Iden'
@@ -102,32 +104,32 @@ common:
   type: Twitter
   url: https://x.com/telavivuni
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tel-aviv-university/refs/heads/main/conformance/tel-aviv-university-conformance.yml
+  href: https://artifacts.apis.io/tel-aviv-university/conformance/tel-aviv-university-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tel-aviv-university-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tel-aviv-university/refs/heads/main/security/tel-aviv-university-domain-security.yml
+  href: https://artifacts.apis.io/tel-aviv-university/security/tel-aviv-university-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tel-aviv-university-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tel-aviv-university/refs/heads/main/plans/tel-aviv-university-plans-pricing.yml
+  href: https://artifacts.apis.io/tel-aviv-university/plans/tel-aviv-university-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tel-aviv-university-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tel-aviv-university/refs/heads/main/rate-limits/tel-aviv-university-rate-limits.yml
+  href: https://artifacts.apis.io/tel-aviv-university/rate-limits/tel-aviv-university-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tel-aviv-university-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tel-aviv-university/refs/heads/main/finops/tel-aviv-university-finops.yml
+  href: https://artifacts.apis.io/tel-aviv-university/finops/tel-aviv-university-finops.yml
   title: ''
   type: FinOps
   url: finops/tel-aviv-university-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tel-aviv-university/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/tel-aviv-university/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -176,7 +178,7 @@ coverage:
     url: https://www.tau.ac.il/sitemap.xml
   - status: 0
     url: https://api.tau.ac.il/
-  reason: tenant_only
+  reason: tenant-only
   state: none
 created: '2026-06-03'
 description: 'Tel Aviv University (TAU / אוניברסיטת תל אביב) is Israel''s largest university, a public research institution in Tel Aviv with roughly 30,000 students across nine faculties, and a member of the Israeli research-university group served by the Inter-University Computation Center (IUCC). Re-profiled on 2026-08-30 with operator attribution settled before any artifact was saved: TAU operates NO central developer portal, NO open-data portal and NO institution-operated public API. api.tau.ac.il, developer.tau.ac.il, opendata.tau.ac.il and services.tau.ac.il do not resolve; data.tau.ac.il and digital.tau.ac.il resolve only as vanity redirects. Every machine-readable, callable surface TAU has is a vendor product deployed under the institution''s name and is recorded here as a TENANT relationship, not as TAU engineering: the Ex Libris Alma OAI-PMH 2.0 service and SRU 1.2 search service for the library record, the Ex Libris Primo VE discovery layer (institution code 972TAU_INST:TAU, branded
@@ -211,7 +213,7 @@ plans:
 - name: Tel Aviv University Plans Pricing
   plan_count: 2
   slug: tel-aviv-university-plans-pricing
-random_paper: 17
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Tel Aviv University Rate Limits
@@ -226,7 +228,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 18.2
@@ -242,7 +244,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 25.2
+  previous_composite: 19.1
   provenance:
     conformance: first-party
   regulatory:
@@ -251,14 +253,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tel-aviv-university/refs/heads/main/screenshots/tel-aviv-university-2026-06-20T195022.png
+screenshot: https://apis.io/screenshots/tel-aviv-university/tel-aviv-university-2026-06-20T195022.png
 security:
 - kind: domain-security
   name: Tel Aviv University Domain Security

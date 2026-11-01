@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-17'
+  score: 29.9
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - baseURL: http://192.168.0.95
@@ -61,11 +63,8 @@ apis:
   description: Device status and reboot
   name: Nine Fives System API
   slug: nine-fives-system-api
-artifact_total: 13
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nine Fives Programmable REST Attenuator API
   slug: open-nine-fives-attenuator-api
@@ -87,12 +86,12 @@ common:
   type: BlogRSS
   url: https://blog.ninefives.com/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/overlays/nine-fives-attenuator-overlay.yaml
+  href: https://artifacts.apis.io/nine-fives/overlays/nine-fives-attenuator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nine-fives-attenuator-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/security/nine-fives-domain-security.yml
+  href: https://artifacts.apis.io/nine-fives/security/nine-fives-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nine-fives-domain-security.yml
@@ -133,52 +132,52 @@ common:
   type: Website
   url: https://ninefives.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/authentication/nine-fives-authentication.yml
+  href: https://artifacts.apis.io/nine-fives/authentication/nine-fives-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nine-fives-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/conventions/nine-fives-conventions.yml
+  href: https://artifacts.apis.io/nine-fives/conventions/nine-fives-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nine-fives-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/errors/nine-fives-problem-types.yml
+  href: https://artifacts.apis.io/nine-fives/errors/nine-fives-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nine-fives-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/lifecycle/nine-fives-lifecycle.yml
+  href: https://artifacts.apis.io/nine-fives/lifecycle/nine-fives-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nine-fives-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/conformance/nine-fives-conformance.yml
+  href: https://artifacts.apis.io/nine-fives/conformance/nine-fives-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nine-fives-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/data-model/nine-fives-data-model.yml
+  href: https://artifacts.apis.io/nine-fives/data-model/nine-fives-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nine-fives-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/well-known/nine-fives-well-known.yml
+  href: https://artifacts.apis.io/nine-fives/well-known/nine-fives-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nine-fives-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/llms/nine-fives-llms.txt
+  href: https://artifacts.apis.io/nine-fives/llms/nine-fives-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nine-fives-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/mcp/nine-fives-mcp.yml
+  href: https://artifacts.apis.io/nine-fives/mcp/nine-fives-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nine-fives-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nine-fives/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -194,26 +193,26 @@ overview: 'Nine Fives is listed with 5 APIs on the [APIs.io](https://apis.io/) n
 
 
   Nine Fives'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 15 more developer resources.'
-random_paper: 0
+random_paper: 4
 score:
   band: thin
-  composite: 29.7
+  composite: 29.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 11.5
     developer_ergonomics: 58.9
-    discoverability: 80.0
+    discoverability: 71.4
     operational_transparency: 0.0
-  previous_composite: 29.6
+  previous_composite: 29.5
   provenance:
     conformance: first-party
     contracts:
@@ -229,13 +228,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/screenshots/nine-fives-2026-08-07T185318.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nine-fives/nine-fives-2026-08-07T185318.png
 security:
 - kind: authentication
   name: Nine Fives Authentication
@@ -245,6 +245,12 @@ security:
   name: Nine Fives Domain Security
   slug: nine-fives-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Set RF attenuation on a Nine Fives attenuator
+  slug: nine-fives-set-attenuation
+- name: Switch the RF path on a Nine Fives SPDT switch
+  slug: nine-fives-switch-rf-path
 slug: nine-fives
 tags:
 - Company

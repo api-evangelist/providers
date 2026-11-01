@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 49.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -56,88 +58,93 @@ apis:
   slug: aihubmix-openai-compatible-api
 artifact_total: 16
 common:
+- group: other
+  href: https://artifacts.apis.io/aihubmix/capabilities/aihubmix-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/aihubmix-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/agentic-access/aihubmix-agentic-access.yml
+  href: https://artifacts.apis.io/aihubmix/agentic-access/aihubmix-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aihubmix-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/rules/aihubmix-rules.yml
+  href: https://artifacts.apis.io/aihubmix/rules/aihubmix-rules.yml
   title: ''
   type: Spectral
   url: rules/aihubmix-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/json-ld/aihubmix-context.jsonld
+  href: https://artifacts.apis.io/aihubmix/json-ld/aihubmix-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/aihubmix-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/vocabulary/aihubmix-vocabulary.yml
+  href: https://artifacts.apis.io/aihubmix/vocabulary/aihubmix-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/aihubmix-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/data-model/aihubmix-data-model.yml
+  href: https://artifacts.apis.io/aihubmix/data-model/aihubmix-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aihubmix-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/cli/aihubmix-cli.yml
+  href: https://artifacts.apis.io/aihubmix/cli/aihubmix-cli.yml
   title: ''
   type: CLI
   url: cli/aihubmix-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/errors/aihubmix-problem-types.yml
+  href: https://artifacts.apis.io/aihubmix/errors/aihubmix-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aihubmix-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/conformance/aihubmix-conformance.yml
+  href: https://artifacts.apis.io/aihubmix/conformance/aihubmix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aihubmix-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/llms/aihubmix-llms.txt
+  href: https://artifacts.apis.io/aihubmix/llms/aihubmix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aihubmix-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/a2a/aihubmix-a2a.yml
+  href: https://artifacts.apis.io/aihubmix/a2a/aihubmix-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/aihubmix-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/well-known/aihubmix-well-known.yml
+  href: https://artifacts.apis.io/aihubmix/well-known/aihubmix-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aihubmix-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/hosts/aihubmix-hosts.yml
+  href: https://artifacts.apis.io/aihubmix/hosts/aihubmix-hosts.yml
   title: ''
   type: Hosts
   url: hosts/aihubmix-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/vendors/aihubmix-vendors.yml
+  href: https://artifacts.apis.io/aihubmix/vendors/aihubmix-vendors.yml
   title: ''
   type: Vendors
   url: vendors/aihubmix-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/packages/aihubmix-packages.yml
+  href: https://artifacts.apis.io/aihubmix/packages/aihubmix-packages.yml
   title: ''
   type: SDKs
   url: packages/aihubmix-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/packages/aihubmix-packages.yml
+  href: https://artifacts.apis.io/aihubmix/packages/aihubmix-packages.yml
   title: ''
   type: Packages
   url: packages/aihubmix-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/authentication/aihubmix-authentication.yml
+  href: https://artifacts.apis.io/aihubmix/authentication/aihubmix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aihubmix-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aihubmix/refs/heads/main/security/aihubmix-domain-security.yml
+  href: https://artifacts.apis.io/aihubmix/security/aihubmix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aihubmix-domain-security.yml
@@ -243,8 +250,8 @@ overview: 'AIHubMix publishes 4 API contracts indexed on the [APIs.io](https://a
   The AIHubMix catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  AIHubMix''s developer surface includes CLI, authentication, documentation, API reference, getting-started guide, engineering blog, changelog, and 25 more developer resources.'
-random_paper: 19
+  AIHubMix''s developer surface includes CLI, authentication, documentation, API reference, getting-started guide, engineering blog, changelog, and 26 more developer resources.'
+random_paper: 15
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -260,21 +267,23 @@ rules:
   slug: aihubmix-rules
 score:
   band: developing
-  composite: 52.2
+  composite: 52.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 60.8
     catalog_earned_first_party: 0.0
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 22.0
     contract_quality: 64.0
     developer_ergonomics: 73.8
-    discoverability: 71.7
+    discoverability: 68.3
     operational_transparency: 36.8
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -290,11 +299,13 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Aihubmix Authentication

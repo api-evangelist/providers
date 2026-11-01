@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,17 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/transparentbusiness/refs/heads/main/security/transparentbusiness-domain-security.yml
+  href: https://artifacts.apis.io/transparentbusiness/security/transparentbusiness-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/transparentbusiness-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/transparentbusiness/refs/heads/main/llms/transparentbusiness-llms.txt
+  href: https://artifacts.apis.io/transparentbusiness/llms/transparentbusiness-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/transparentbusiness-llms.txt
@@ -115,10 +117,10 @@ overview: 'TransparentBusiness is profiled on the [APIs.io](https://apis.io/) ne
 
 
   TransparentBusiness'' developer surface includes pricing, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 10
+random_paper: 14
 score:
   band: emerging
-  composite: 15.1
+  composite: 14.4
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -132,23 +134,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 15.1
+  previous_composite: 14.4
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/transparentbusiness/refs/heads/main/screenshots/transparentbusiness-2026-09-02T164133.png
+screenshot: https://apis.io/screenshots/transparentbusiness/transparentbusiness-2026-09-02T164133.png
 security:
 - kind: domain-security
   name: Transparentbusiness Domain Security

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API that extracts structured contact data from email signature text (parse), completes a known contact with verified details (enrich), retrieves canonical deduplicated person records, registers w
   name: Evercontact API
   slug: evercontact-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Evercontact Webhooks
@@ -108,77 +110,85 @@ common:
   type: Compliance
   url: https://www.evercontact.com/dpa-compliance.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/authentication/evercontact-authentication.yml
+  href: https://artifacts.apis.io/evercontact/authentication/evercontact-authentication.yml
   title: ''
   type: Authentication
   url: authentication/evercontact-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/conventions/evercontact-conventions.yml
+  href: https://artifacts.apis.io/evercontact/conventions/evercontact-conventions.yml
   title: ''
   type: Conventions
   url: conventions/evercontact-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/conventions/evercontact-conventions.yml
+  href: https://artifacts.apis.io/evercontact/conventions/evercontact-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/evercontact-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/asyncapi/evercontact-webhooks.yml
+  href: https://artifacts.apis.io/evercontact/asyncapi/evercontact-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/evercontact-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/mcp/evercontact-mcp.yml
+  href: https://artifacts.apis.io/evercontact/mcp/evercontact-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/evercontact-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/lifecycle/evercontact-lifecycle.yml
+  href: https://artifacts.apis.io/evercontact/lifecycle/evercontact-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/evercontact-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/conformance/evercontact-conformance.yml
+  href: https://artifacts.apis.io/evercontact/conformance/evercontact-conformance.yml
   title: ''
   type: Conformance
   url: conformance/evercontact-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/security/evercontact-domain-security.yml
+  href: https://artifacts.apis.io/evercontact/security/evercontact-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/evercontact-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/llms/evercontact-llms.txt
+  href: https://artifacts.apis.io/evercontact/llms/evercontact-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/evercontact-llms.txt
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/sandbox/evercontact-sandbox.yml
+  href: https://artifacts.apis.io/evercontact/sandbox/evercontact-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/evercontact-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/plans/evercontact-plans-pricing.yml
+  href: https://artifacts.apis.io/evercontact/plans/evercontact-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/evercontact-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/rate-limits/evercontact-rate-limits.yml
+  href: https://artifacts.apis.io/evercontact/rate-limits/evercontact-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/evercontact-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/packages/evercontact-packages.yml
+  href: https://artifacts.apis.io/evercontact/packages/evercontact-packages.yml
   title: ''
   type: Packages
   url: packages/evercontact-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/data-model/evercontact-data-model.yml
+  href: https://artifacts.apis.io/evercontact/data-model/evercontact-data-model.yml
   title: ''
   type: DataModel
   url: data-model/evercontact-data-model.yml
 created: '2026-07-17'
 description: Evercontact is an AI-powered contact intelligence platform that automatically extracts, enriches, and syncs contact data from email signatures across Google Workspace and Microsoft 365. A multilingual model parses names, titles, phone numbers, and postal addresses from the signature block of every email in 30+ languages, deduplicates and enriches the resulting person records, and continuously syndicates clean contacts to CRMs (Salesforce, HubSpot, Pipedrive, Zoho, Microsoft Dynamics, Attio) and address books. Evercontact also exposes a REST API (parse, enrich, contacts, webhooks, events) and a webhook event stream for custom integrations, with SOC 2 Type II, Google CASA Tier 2, and GDPR compliance.
+finops:
+- has_sources: true
+  method: derived
+  name: Evercontact Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: evercontact-finops
+  template: false
 image: https://www.evercontact.com/assets/favicon-32x32.png
 layout: provider
 modified: '2026-10-06'
@@ -194,32 +204,35 @@ overview: 'Evercontact is listed with 1 API on the [APIs.io](https://apis.io/) n
   Evercontact''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, authentication, and 22 more developer resources.'
 plans:
 - name: Evercontact Plans Pricing
-  plan_count: 5
+  plan_count: 6
   slug: evercontact-plans-pricing
-random_paper: 16
+- name: Evercontact Price Estimates
+  plan_count: 0
+  slug: evercontact-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Evercontact Rate Limits
   slug: evercontact-rate-limits
 score:
   band: strong
-  composite: 58.6
+  composite: 58.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 61.0
+    artifact_dirs: 19
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 44.2
+    contract_quality: 39.0
     developer_ergonomics: 52.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 65.8
-  previous_composite: 58.5
+  previous_composite: 56.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -233,14 +246,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/evercontact/refs/heads/main/screenshots/evercontact-2026-07-25T213720.png
+screenshot: https://apis.io/screenshots/evercontact/evercontact-2026-07-25T213720.png
 security:
 - kind: authentication
   name: Evercontact Authentication

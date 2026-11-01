@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-17'
+  score: 9.6
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Run SELECT-only ClickHouse SQL over a project's observability data via POST /v1/sql/query. Authenticates with a project API key as a bearer token, accepts a query plus typed {name:Type} parameters, an
@@ -46,7 +48,7 @@ apis:
 - description: 'The lower-level LaminarClient.evals surface for wiring evaluations into an existing pipeline: create an evaluation, pre-register each datapoint so a row is visible in the UI before the executor runs, '
   name: Laminar Evaluations API
   slug: laminar-evaluations-api
-artifact_total: 7
+artifact_total: 10
 common:
 - group: operate
   title: ''
@@ -65,7 +67,7 @@ common:
   type: License
   url: https://github.com/lmnr-ai/lmnr/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/security/laminar-domain-security.yml
+  href: https://artifacts.apis.io/laminar/security/laminar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/laminar-domain-security.yml
@@ -130,73 +132,81 @@ common:
   type: SelfHosted
   url: https://laminar.sh/docs/self-hosting/overview
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/packages/laminar-packages.yml
+  href: https://artifacts.apis.io/laminar/packages/laminar-packages.yml
   title: ''
   type: Packages
   url: packages/laminar-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/packages/laminar-packages.yml
+  href: https://artifacts.apis.io/laminar/packages/laminar-packages.yml
   title: ''
   type: SDKs
   url: packages/laminar-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/cli/laminar-cli.yml
+  href: https://artifacts.apis.io/laminar/cli/laminar-cli.yml
   title: ''
   type: CLI
   url: cli/laminar-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/mcp/laminar-mcp.yml
+  href: https://artifacts.apis.io/laminar/mcp/laminar-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/laminar-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/laminar/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/llms/laminar-llms.txt
+  href: https://artifacts.apis.io/laminar/llms/laminar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/laminar-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/authentication/laminar-authentication.yml
+  href: https://artifacts.apis.io/laminar/authentication/laminar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/laminar-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/conventions/laminar-conventions.yml
+  href: https://artifacts.apis.io/laminar/conventions/laminar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/laminar-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/changelog/laminar-changelog.yml
+  href: https://artifacts.apis.io/laminar/changelog/laminar-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/laminar-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/lifecycle/laminar-lifecycle.yml
+  href: https://artifacts.apis.io/laminar/lifecycle/laminar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/laminar-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/conformance/laminar-conformance.yml
+  href: https://artifacts.apis.io/laminar/conformance/laminar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/laminar-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/well-known/laminar-well-known.yml
+  href: https://artifacts.apis.io/laminar/well-known/laminar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/laminar-well-known.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/plans/laminar-plans.yml
+  href: https://artifacts.apis.io/laminar/plans/laminar-plans.yml
   title: ''
   type: Plans
   url: plans/laminar-plans.yml
 created: '2026-07-17'
 description: 'Laminar is an open-source, OpenTelemetry-native observability and debugging platform built for AI agents and LLM applications. It traces every LLM call, tool call, and sub-agent a run produces, renders each trace as a readable transcript rather than a raw span tree, and turns that data into answers: a record-and-replay Debugger that serves everything before your change from cache so each iteration takes seconds, and Signals that let you describe outcomes and failures in plain language and extract structured events across all traces for clustering and alerting. The platform adds evaluations, datasets and labeling queues, a playground, full-text search, custom dashboards, and read-only ClickHouse SQL over trace data from the UI, the lmnr-cli, or a hosted MCP server. Laminar ships TypeScript and Python SDKs with auto-instrumentation for the Vercel AI SDK, Claude Agent SDK, OpenAI Agents SDK, LangChain/LangGraph, Pydantic AI, Browser Use, Playwright and more, and can run as managed
   Laminar Cloud or fully self-hosted via Docker Compose or Kubernetes/Helm.'
+finops:
+- has_sources: true
+  method: derived
+  name: Laminar Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: laminar-finops
+  template: false
 image: https://laminar.sh/favicon.ico
 layout: provider
 mcp_servers:
@@ -215,29 +225,29 @@ plans:
 - name: Laminar Plans
   plan_count: 4
   slug: laminar-plans
-random_paper: 14
+- name: Laminar Price Estimates
+  plan_count: 0
+  slug: laminar-price-estimates
+random_paper: 20
 score:
   band: developing
-  composite: 46.3
+  composite: 47.7
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 52.0
+    artifact_dirs: 18
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 78.6
-    discoverability: 80.0
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 46.2
+    discoverability: 70.0
+    operational_transparency: 36.8
+  previous_composite: 46.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -248,14 +258,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/screenshots/laminar-2026-07-25T224445.png
+screenshot: https://apis.io/screenshots/laminar/laminar-2026-07-25T224445.png
 security:
 - kind: authentication
   name: Laminar Authentication
@@ -265,6 +275,10 @@ security:
   name: Laminar Domain Security
   slug: laminar-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: laminar
+  slug: laminar-laminar
 slug: laminar
 tags:
 - Observability

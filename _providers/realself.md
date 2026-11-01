@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.realself.com/v1
@@ -75,72 +77,72 @@ common:
   type: Security
   url: https://www.realself.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/well-known/realself-security.txt
+  href: https://artifacts.apis.io/realself/well-known/realself-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/realself-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/well-known/realself-well-known.yml
+  href: https://artifacts.apis.io/realself/well-known/realself-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/realself-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/security/realself-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/realself/security/realself-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/realself-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/security/realself-domain-security.yml
+  href: https://artifacts.apis.io/realself/security/realself-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/realself-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/authentication/realself-authentication.yml
+  href: https://artifacts.apis.io/realself/authentication/realself-authentication.yml
   title: ''
   type: Authentication
   url: authentication/realself-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/conventions/realself-conventions.yml
+  href: https://artifacts.apis.io/realself/conventions/realself-conventions.yml
   title: ''
   type: Conventions
   url: conventions/realself-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/errors/realself-problem-types.yml
+  href: https://artifacts.apis.io/realself/errors/realself-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/realself-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/lifecycle/realself-lifecycle.yml
+  href: https://artifacts.apis.io/realself/lifecycle/realself-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/realself-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/conformance/realself-conformance.yml
+  href: https://artifacts.apis.io/realself/conformance/realself-conformance.yml
   title: ''
   type: Conformance
   url: conformance/realself-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/data-model/realself-data-model.yml
+  href: https://artifacts.apis.io/realself/data-model/realself-data-model.yml
   title: ''
   type: DataModel
   url: data-model/realself-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/packages/realself-packages.yml
+  href: https://artifacts.apis.io/realself/packages/realself-packages.yml
   title: ''
   type: Packages
   url: packages/realself-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/plans/realself-plans-pricing.yml
+  href: https://artifacts.apis.io/realself/plans/realself-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/realself-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/rate-limits/realself-rate-limits.yml
+  href: https://artifacts.apis.io/realself/rate-limits/realself-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/realself-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/realself/refs/heads/main/llms/realself-llms.txt
+  href: https://artifacts.apis.io/realself/llms/realself-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/realself-llms.txt
@@ -179,14 +181,14 @@ plans:
 - name: Realself Plans Pricing
   plan_count: 0
   slug: realself-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Realself Rate Limits
   slug: realself-rate-limits
 score:
   band: thin
-  composite: 31.8
+  composite: 31.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 46.0
@@ -200,8 +202,8 @@ score:
     contract_governance: 4.5
     contract_quality: 52.1
     developer_ergonomics: 23.8
-    discoverability: 73.2
-    operational_transparency: 21.1
+    discoverability: 66.1
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -209,7 +211,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 31.8
+  previous_composite: 31.5
   provenance:
     conformance: derived
     mcp: derived
@@ -219,8 +221,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

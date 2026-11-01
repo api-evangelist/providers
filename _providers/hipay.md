@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.9
-  scored_at: '2026-10-17'
+  score: 31.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 55
   slug: hipay-agentic-access
   summary_line: 55 operations · 23 acting
-api_count: 12
+api_count: 9
 apis:
 - baseURL: https://api-gateway.hipay.com
   baseurl_source: declared
@@ -144,11 +146,8 @@ apis:
   description: Request a withdrawal from a HiPay account
   name: HiPay Withdrawal API
   slug: hipay-withdrawal-api
-artifact_total: 47
+artifact_total: 46
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Hipay Payment Gateway balance API
   slug: open-hipay-balance-api
@@ -211,17 +210,17 @@ collections:
   slug: open-hipay-withdrawal-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/agentic-access/hipay-agentic-access.yml
+  href: https://artifacts.apis.io/hipay/agentic-access/hipay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hipay-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/security/hipay-domain-security.yml
+  href: https://artifacts.apis.io/hipay/security/hipay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hipay-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/authentication/hipay-authentication.yml
+  href: https://artifacts.apis.io/hipay/authentication/hipay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hipay-authentication.yml
@@ -300,22 +299,22 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 27.9
+  composite: 28.9
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 45.0
     catalog_earned_first_party: 0.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 46.7
     developer_ergonomics: 38.1
     discoverability: 71.4
-    operational_transparency: 18.4
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -323,7 +322,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 34.8
+  previous_composite: 28.9
   provenance:
     agentic_access: derived
     contracts:
@@ -337,13 +336,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/screenshots/hipay-2026-06-20T182747.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hipay/hipay-2026-06-20T182747.png
 security:
 - kind: authentication
   name: Hipay Authentication

@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-17'
+  score: 18.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +42,7 @@ agentic_access:
   operation_count: 2
   slug: preply-agentic-access
   summary_line: 2 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://preply.com/api/chatgpt_openapi
   baseurl_source: declared
@@ -50,19 +52,16 @@ apis:
 artifact_total: 6
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Preply plugin Chatgpt Openapi API
   slug: open-preply-chatgpt-openapi-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/preply/refs/heads/main/skills/preply-find-a-tutor.md
+  href: https://artifacts.apis.io/preply/skills/preply-find-a-tutor.md
   title: ''
   type: AgentSkill
   url: skills/preply-find-a-tutor.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/preply/refs/heads/main/overlays/preply-openapi-overlay.yaml
+  href: https://artifacts.apis.io/preply/overlays/preply-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/preply-openapi-overlay.yaml
@@ -91,42 +90,42 @@ common:
   type: PrivacyPolicy
   url: https://termsofuse.preply.com/terms_of_use/en_PrivacyPolicy.pdf
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/preply/refs/heads/main/mcp/preply-mcp.yml
+  href: https://artifacts.apis.io/preply/mcp/preply-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/preply-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/preply/refs/heads/main/llms/preply-llms.txt
+  href: https://artifacts.apis.io/preply/llms/preply-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/preply-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/preply/refs/heads/main/well-known/preply-well-known.yml
+  href: https://artifacts.apis.io/preply/well-known/preply-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/preply-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/preply/refs/heads/main/well-known/preply-security.txt
+  href: https://artifacts.apis.io/preply/well-known/preply-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/preply-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/preply/refs/heads/main/conformance/preply-conformance.yml
+  href: https://artifacts.apis.io/preply/conformance/preply-conformance.yml
   title: ''
   type: Conformance
   url: conformance/preply-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/preply/refs/heads/main/lifecycle/preply-lifecycle.yml
+  href: https://artifacts.apis.io/preply/lifecycle/preply-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/preply-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/preply/refs/heads/main/agentic-access/preply-agentic-access.yml
+  href: https://artifacts.apis.io/preply/agentic-access/preply-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/preply-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/preply/refs/heads/main/security/preply-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/preply/security/preply-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/preply-vulnerability-disclosure.yml
@@ -135,7 +134,7 @@ common:
   type: Security
   url: https://preply.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/preply/refs/heads/main/security/preply-domain-security.yml
+  href: https://artifacts.apis.io/preply/security/preply-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/preply-domain-security.yml
@@ -151,26 +150,26 @@ overview: 'Preply publishes 1 API contract indexed on the [APIs.io](https://apis
 
 
   Preply''s developer surface includes engineering blog, support, and 16 more developer resources.'
-random_paper: 8
+random_paper: 20
 score:
   band: thin
-  composite: 34.5
+  composite: 27.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
-    catalog_max: 100.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 57.1
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 39.2
     developer_ergonomics: 8.9
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 34.5
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -187,14 +186,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/preply/refs/heads/main/screenshots/preply-2026-10-11T191642.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/preply/preply-2026-10-11T191642.png
 security:
 - kind: domain-security
   name: Preply Domain Security
@@ -204,6 +203,10 @@ security:
   name: Preply Vulnerability Disclosure
   slug: preply-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 1
+skills:
+- name: Find a Preply tutor
+  slug: preply-find-a-tutor
 slug: preply
 tags:
 - Company

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Bokun provides a GraphQL API for booking management and related operations.
@@ -32,37 +34,37 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bokun/refs/heads/main/well-known/bokun-bokun-security.txt
+  href: https://artifacts.apis.io/bokun/well-known/bokun-bokun-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bokun-bokun-security.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bokun/refs/heads/main/plans/bokun-plans-pricing.yml
+  href: https://artifacts.apis.io/bokun/plans/bokun-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bokun-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bokun/refs/heads/main/well-known/bokun-well-known.yml
+  href: https://artifacts.apis.io/bokun/well-known/bokun-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bokun-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bokun/refs/heads/main/hosts/bokun-hosts.yml
+  href: https://artifacts.apis.io/bokun/hosts/bokun-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bokun-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bokun/refs/heads/main/vendors/bokun-vendors.yml
+  href: https://artifacts.apis.io/bokun/vendors/bokun-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bokun-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bokun/refs/heads/main/packages/bokun-packages.yml
+  href: https://artifacts.apis.io/bokun/packages/bokun-packages.yml
   title: ''
   type: SDKs
   url: packages/bokun-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bokun/refs/heads/main/packages/bokun-packages.yml
+  href: https://artifacts.apis.io/bokun/packages/bokun-packages.yml
   title: ''
   type: Packages
   url: packages/bokun-packages.yml
@@ -87,7 +89,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/Bokun
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bokun/refs/heads/main/security/bokun-domain-security.yml
+  href: https://artifacts.apis.io/bokun/security/bokun-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bokun-domain-security.yml
@@ -151,7 +153,7 @@ plans:
 random_paper: 15
 score:
   band: thin
-  composite: 32.1
+  composite: 33.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 49.0
@@ -159,21 +161,24 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 36.8
+    operational_transparency: 47.4
+  previous_composite: 33.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

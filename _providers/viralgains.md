@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,12 +37,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viralgains/refs/heads/main/security/viralgains-domain-security.yml
+  href: https://artifacts.apis.io/viralgains/security/viralgains-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/viralgains-domain-security.yml
@@ -69,17 +71,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/ViralGains
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/viralgains/refs/heads/main/packages/viralgains-packages.yml
+  href: https://artifacts.apis.io/viralgains/packages/viralgains-packages.yml
   title: ''
   type: Packages
   url: packages/viralgains-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viralgains/refs/heads/main/llms/viralgains-llms.txt
+  href: https://artifacts.apis.io/viralgains/llms/viralgains-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/viralgains-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viralgains/refs/heads/main/conformance/viralgains-conformance.yml
+  href: https://artifacts.apis.io/viralgains/conformance/viralgains-conformance.yml
   title: ''
   type: Conformance
   url: conformance/viralgains-conformance.yml
@@ -88,12 +90,12 @@ common:
   type: Compliance
   url: https://www.viralgains.com/ccpa-compliance/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/viralgains/refs/heads/main/plans/viralgains-plans-pricing.yml
+  href: https://artifacts.apis.io/viralgains/plans/viralgains-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/viralgains-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/viralgains/refs/heads/main/rate-limits/viralgains-rate-limits.yml
+  href: https://artifacts.apis.io/viralgains/rate-limits/viralgains-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/viralgains-rate-limits.yml
@@ -138,23 +140,23 @@ rate_limits:
   slug: viralgains-rate-limits
 score:
   band: emerging
-  composite: 16.4
+  composite: 16.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 16.3
+    operational_transparency: 5.3
+  previous_composite: 16.7
   provenance:
     conformance: first-party
   regulatory:
@@ -167,14 +169,14 @@ score:
     regime: Health
     regime_id: health
     score: 24.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/viralgains/refs/heads/main/screenshots/viralgains-2026-09-02T165953.png
+screenshot: https://apis.io/screenshots/viralgains/viralgains-2026-09-02T165953.png
 security:
 - kind: domain-security
   name: Viralgains Domain Security

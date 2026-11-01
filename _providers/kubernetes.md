@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-10-17'
+  score: 28.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -129,7 +131,7 @@ arazzos:
 - description: Find pods that are not Running, read the failing pod's detail, tail its logs, and pull namespace events.
   name: Kubernetes Troubleshoot a Failing Pod
   slug: kubernetes-troubleshoot-pod-workflow
-artifact_total: 51
+artifact_total: 50
 asyncapis:
 - description: The Kubernetes Watch API provides a streaming event interface for receiving real-time notifications about changes to cluster resources. Clients subscribe to resource types and receive a stream of ADDE
   name: Kubernetes Watch Events
@@ -157,9 +159,6 @@ collections:
   name: Kubernetes Autoscaling Workloads API
   slug: postman-kubernetes-workloads-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Kubernetes API
   slug: open-kubernetes-api
 - collection_type: open
@@ -185,22 +184,22 @@ collections:
   slug: open-kubernetes-workloads-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/plans/kubernetes-plans-pricing.yml
+  href: https://artifacts.apis.io/kubernetes/plans/kubernetes-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kubernetes-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/rate-limits/kubernetes-rate-limits.yml
+  href: https://artifacts.apis.io/kubernetes/rate-limits/kubernetes-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kubernetes-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/finops/kubernetes-finops.yml
+  href: https://artifacts.apis.io/kubernetes/finops/kubernetes-finops.yml
   title: ''
   type: FinOps
   url: finops/kubernetes-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/capabilities/kubernetes-capability-edges.yml
+  href: https://artifacts.apis.io/kubernetes/capabilities/kubernetes-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kubernetes-capability-edges.yml
@@ -209,82 +208,82 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/kubernetes/overview
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/packages/kubernetes-packages.yml
+  href: https://artifacts.apis.io/kubernetes/packages/kubernetes-packages.yml
   title: ''
   type: Packages
   url: packages/kubernetes-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/well-known/kubernetes-well-known.yml
+  href: https://artifacts.apis.io/kubernetes/well-known/kubernetes-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kubernetes-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/mcp/kubernetes-mcp.yml
+  href: https://artifacts.apis.io/kubernetes/mcp/kubernetes-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kubernetes-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/llms/kubernetes-llms.txt
+  href: https://artifacts.apis.io/kubernetes/llms/kubernetes-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kubernetes-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/overlays/kubernetes-api-overlay.yaml
+  href: https://artifacts.apis.io/kubernetes/overlays/kubernetes-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kubernetes-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/conformance/kubernetes-conformance.yml
+  href: https://artifacts.apis.io/kubernetes/conformance/kubernetes-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kubernetes-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/errors/kubernetes-problem-types.yml
+  href: https://artifacts.apis.io/kubernetes/errors/kubernetes-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kubernetes-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/lifecycle/kubernetes-lifecycle.yml
+  href: https://artifacts.apis.io/kubernetes/lifecycle/kubernetes-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kubernetes-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/conventions/kubernetes-conventions.yml
+  href: https://artifacts.apis.io/kubernetes/conventions/kubernetes-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kubernetes-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/changelog/kubernetes-changelog.yml
+  href: https://artifacts.apis.io/kubernetes/changelog/kubernetes-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kubernetes-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/cli/kubernetes-cli.yml
+  href: https://artifacts.apis.io/kubernetes/cli/kubernetes-cli.yml
   title: ''
   type: CLI
   url: cli/kubernetes-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/data-model/kubernetes-data-model.yml
+  href: https://artifacts.apis.io/kubernetes/data-model/kubernetes-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kubernetes-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/agentic-access/kubernetes-agentic-access.yml
+  href: https://artifacts.apis.io/kubernetes/agentic-access/kubernetes-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kubernetes-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/security/kubernetes-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kubernetes/security/kubernetes-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kubernetes-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/security/kubernetes-domain-security.yml
+  href: https://artifacts.apis.io/kubernetes/security/kubernetes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kubernetes-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/authentication/kubernetes-authentication.yml
+  href: https://artifacts.apis.io/kubernetes/authentication/kubernetes-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kubernetes-authentication.yml
@@ -409,92 +408,92 @@ common:
   type: DeprecationPolicy
   url: https://kubernetes.io/docs/reference/using-api/deprecation-policy/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/json-schema/kubernetes-resource-schema.json
+  href: https://artifacts.apis.io/kubernetes/json-schema/kubernetes-resource-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/kubernetes-resource-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/json-ld/kubernetes-context.jsonld
+  href: https://artifacts.apis.io/kubernetes/json-ld/kubernetes-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/kubernetes-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-deploy-application-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-deploy-application-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-deploy-application-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-scale-deployment-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-scale-deployment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-scale-deployment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-rolling-update-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-rolling-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-rolling-update-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-troubleshoot-pod-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-troubleshoot-pod-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-troubleshoot-pod-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-restart-pod-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-restart-pod-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-restart-pod-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-run-one-off-pod-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-run-one-off-pod-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-run-one-off-pod-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-teardown-namespace-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-teardown-namespace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-teardown-namespace-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-autoscale-deployment-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-autoscale-deployment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-autoscale-deployment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-cluster-capacity-audit-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-cluster-capacity-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-cluster-capacity-audit-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-provision-cluster-role-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-provision-cluster-role-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-provision-cluster-role-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-expose-deployment-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-expose-deployment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-expose-deployment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-rotate-secret-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-rotate-secret-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-rotate-secret-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-config-rollout-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-config-rollout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-config-rollout-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-namespace-labeling-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-namespace-labeling-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-namespace-labeling-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-quarantine-pod-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-quarantine-pod-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-quarantine-pod-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/arazzo/kubernetes-retire-application-workflow.yml
+  href: https://artifacts.apis.io/kubernetes/arazzo/kubernetes-retire-application-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/kubernetes-retire-application-workflow.yml
@@ -504,7 +503,7 @@ finops:
 - has_sources: false
   method: generated
   name: Kubernetes Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: kubernetes-finops
   template: true
@@ -534,7 +533,7 @@ plans:
 - name: Kubernetes Plans Pricing
   plan_count: 3
   slug: kubernetes-plans-pricing
-random_paper: 2
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Kubernetes Rate Limits
@@ -565,7 +564,7 @@ rules:
   slug: kubernetes-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.3
+  composite: 48.7
   coverage:
     artifact_dirs: 31
     catalog_earned: 60.9
@@ -573,15 +572,15 @@ score:
     catalog_gap: 54.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 69.9
-    developer_ergonomics: 56.0
+    contract_quality: 66.6
+    developer_ergonomics: 59.0
     discoverability: 66.1
     operational_transparency: 47.4
-  previous_composite: 49.7
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -597,13 +596,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/screenshots/kubernetes-2026-06-20T184206.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kubernetes/kubernetes-2026-06-20T184206.png
 security:
 - kind: authentication
   name: Kubernetes Authentication

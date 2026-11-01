@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: documented
+    rate_limit_signal: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -45,7 +47,7 @@ agentic_access:
   summary_line: 17 operations · 15 acting
 api_count: 2
 apis:
-- baseURL: https://gateway.api-au.qbe.com/x-digital-brokers-qbe-anzo/api
+- baseURL: https://gateway.api-au.qbe.com/ctp-service
   baseurl_source: declared
   description: The CTP Switch API from QBE Insurance — 2 operation(s) for ctp switch.
   name: QBE Insurance CTP Switch API
@@ -55,6 +57,9 @@ apis:
   description: The Digital Brokers API from QBE Insurance — 15 operation(s) for digital brokers.
   name: QBE Insurance Digital Brokers API
   slug: qbe-digital-brokers-api
+- description: QBE North America's API Product Hub for agency and property-manager partners, offering Renters (HO4, multi-dwelling unit) and Homeowners APIs such as the real-time Homeowners Quote API; access is requ
+  name: QBE North America Partner API Hub
+  slug: qbe-north-america-partner-api
 arazzos:
 - description: Cancel an in-force QBE policy with a published cancellation reason code, confirm it, and attach the cancellation schedule.
   name: QBE policy cancellation
@@ -65,7 +70,7 @@ arazzos:
 - description: Create a commercial quote with QBE Australia, amend it, then convert it into a bound policy.
   name: QBE quote to bound policy
   slug: qbe-quote-to-bind
-artifact_total: 11
+artifact_total: 25
 collections:
 - collection_type: open
   name: ANZO Digital Brokers Experience API
@@ -74,32 +79,52 @@ collections:
   name: CTP Switch Service
   slug: open-qbe-ctp-switch-service
 common:
+- group: design
+  href: https://artifacts.apis.io/qbe/rules/qbe-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/qbe-rules.yml
+- group: design
+  href: https://artifacts.apis.io/qbe/json-ld/qbe-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/qbe-context.jsonld
+- group: other
+  href: https://artifacts.apis.io/qbe/overlays/qbe-ctp-switch-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qbe-ctp-switch-api-overlay.yaml
+- group: other
+  href: https://artifacts.apis.io/qbe/hosts/qbe-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/qbe-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/qbe/integrations/qbe-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/qbe-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/qbe/vendors/qbe-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/qbe-vendors.yml
 - group: company
   title: ''
   type: Blog
   url: https://www.qbe.com/newsroom
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/overlays/qbe-anzo-digital-brokers-overlay.yaml
-  title: ''
-  type: Overlay
-  url: overlays/qbe-anzo-digital-brokers-overlay.yaml
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/overlays/qbe-ctp-switch-service-overlay.yaml
-  title: ''
-  type: Overlay
-  url: overlays/qbe-ctp-switch-service-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/agentic-access/qbe-agentic-access.yml
+  href: https://artifacts.apis.io/qbe/agentic-access/qbe-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/qbe-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/security/qbe-domain-security.yml
+  href: https://artifacts.apis.io/qbe/security/qbe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qbe-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/authentication/qbe-authentication.yml
+  href: https://artifacts.apis.io/qbe/authentication/qbe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qbe-authentication.yml
@@ -152,117 +177,155 @@ common:
   type: Security
   url: https://www.qbe.com/responsible-disclosure-program
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/security/qbe-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/qbe/security/qbe-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/qbe-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/conventions/qbe-conventions.yml
+  href: https://artifacts.apis.io/qbe/conventions/qbe-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qbe-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/errors/qbe-problem-types.yml
+  href: https://artifacts.apis.io/qbe/errors/qbe-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qbe-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/lifecycle/qbe-lifecycle.yml
+  href: https://artifacts.apis.io/qbe/lifecycle/qbe-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qbe-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/conformance/qbe-conformance.yml
+  href: https://artifacts.apis.io/qbe/conformance/qbe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qbe-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/vocabulary/qbe-vocabulary.yml
+  href: https://artifacts.apis.io/qbe/vocabulary/qbe-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/qbe-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/data-model/qbe-data-model.yml
+  href: https://artifacts.apis.io/qbe/data-model/qbe-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qbe-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/sandbox/qbe-sandbox.yml
+  href: https://artifacts.apis.io/qbe/sandbox/qbe-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/qbe-sandbox.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/packages/qbe-packages.yml
-  title: ''
-  type: Packages
-  url: packages/qbe-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/mcp/qbe-mcp.yml
+  href: https://artifacts.apis.io/qbe/mcp/qbe-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/qbe-mcp.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/mcp/qbe-tool-crosswalk.yml
-  title: ''
-  type: ToolCrosswalk
-  url: mcp/qbe-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/llms/qbe-llms.txt
+  href: https://artifacts.apis.io/qbe/llms/qbe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qbe-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/qbe/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/arazzo/qbe-quote-to-bind.yml
+  href: https://artifacts.apis.io/qbe/arazzo/qbe-quote-to-bind.yml
   title: ''
   type: Arazzo
   url: arazzo/qbe-quote-to-bind.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/arazzo/qbe-endorse-and-bind.yml
+  href: https://artifacts.apis.io/qbe/arazzo/qbe-endorse-and-bind.yml
   title: ''
   type: Arazzo
   url: arazzo/qbe-endorse-and-bind.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/arazzo/qbe-cancel-policy.yml
+  href: https://artifacts.apis.io/qbe/arazzo/qbe-cancel-policy.yml
   title: ''
   type: Arazzo
   url: arazzo/qbe-cancel-policy.yml
 created: '2026-07-25'
 description: 'QBE Insurance Group Limited is a Sydney-headquartered, ASX-listed global general insurance and reinsurance group, tracing back to 1886 in Townsville, Queensland, and operating today across Australia Pacific, North America and International divisions including a Lloyd''s of London syndicate. QBE writes commercial and personal property and casualty lines — property, liability, motor and compulsory third party (CTP), workers compensation, marine, aviation, trade credit, crop and specialty — distributed overwhelmingly through brokers and agents rather than direct to consumers. Its API posture reflects that distribution model and is partner-gated by design: QBE Australia runs a real, publicly browsable Azure API Management developer portal at connect.api-au.qbe.com whose catalogue, operations, schemas and examples can be read anonymously, but every product requires an approved subscription (approvalRequired true) and the broker API is keyed to named partner platforms. The portal
   exposes genuine quote, bind, endorse, renew, cancel and refer operations for the commercial policy lifecycle — the four real insurance verbs, minus claims/FNOL, which QBE does not expose publicly. A separate QBE North America partner API hub at partnerportal-api.qbena.com serves an empty Azure APIM catalogue to anonymous callers but does publish seven named API products in its own content pages — Quote, Bind, Master Liability, Property Inquiry, Zip Code Validate and Reconciliation and Cancellation for Renters, plus Quote for Homeowners — behind a documented client-id/secret to JWT token exchange; no endpoints or specs are exposed. QBE Hong Kong documents a partner API behind qbe.com pages that are bot-blocked to anonymous fetchers. Australia is the home market; the Consumer Data Right was designated for general insurance and then deferred, so nothing here is compelled by regulation.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://avatars.githubusercontent.com/u/55916773?s=280&v=4
+json_schemas:
+- name: AuthPoliciesPolicyIdEndorsePost200ApplicationJsonResponse
+  property_count: 0
+  slug: qbe-auth-policies-policy-id-endorse-post200-application-json-response
+- name: AuthPoliciesPolicyIdReferPost200ApplicationJsonResponse
+  property_count: 0
+  slug: qbe-auth-policies-policy-id-refer-post200-application-json-response
+- name: AuthQuotesPost201ApplicationJsonResponse
+  property_count: 0
+  slug: qbe-auth-quotes-post201-application-json-response
+- name: AuthQuotesQuoteIdBindPost201ApplicationJsonResponse
+  property_count: 0
+  slug: qbe-auth-quotes-quote-id-bind-post201-application-json-response
+- name: AuthQuotesQuoteIdReferPost200ApplicationJsonResponse
+  property_count: 0
+  slug: qbe-auth-quotes-quote-id-refer-post200-application-json-response
+- name: Generated-2
+  property_count: 1
+  slug: qbe-generated-2
+jsonld:
+- class_count: 120
+  name: Qbe Context
+  property_count: 184
+  slug: qbe-context
 layout: provider
-modified: '2026-10-06'
+modified: '2026-10-20'
 name: QBE Insurance
 nav: Providers
 network: true
-overview: 'QBE Insurance publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: CTP Switch API and Digital Brokers API. Tagged areas include Insurance, Australia, Property and Casualty, Commercial Insurance, and Underwriting.
+overview: 'QBE Insurance publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including CTP Switch API, Digital Brokers API, and 1 more. Tagged areas include Insurance, Australia, Property and Casualty, Commercial Insurance, and Underwriting.
 
 
-  QBE Insurance''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, sandbox, and 27 more developer resources.'
-random_paper: 4
+  The QBE Insurance catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  QBE Insurance''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, support, sandbox, and 29 more developer resources.'
+plans:
+- name: Qbe Plans Pricing
+  plan_count: 0
+  slug: qbe-plans-pricing
+random_paper: 0
+rate_limits:
+- limit_count: 0
+  name: Qbe Rate Limits
+  slug: qbe-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: QBE Insurance API Rules
+  rule_count: 14
+  severity_counts:
+    error: 8
+    hint: 0
+    info: 3
+    warn: 3
+  slug: qbe-rules
 score:
-  band: thin
-  composite: 32.7
+  band: developing
+  composite: 39.3
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 38.3
+    artifact_dirs: 33
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.8
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: 0.0
   facets:
-    access_clarity: 27.6
-    contract_governance: 8.3
-    contract_quality: 15.2
+    access_clarity: 34.2
+    contract_governance: 22.0
+    contract_quality: 28.8
     developer_ergonomics: 66.1
-    discoverability: 66.1
-    operational_transparency: 13.2
+    discoverability: 57.1
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -270,7 +333,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 32.3
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,13 +350,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 27.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/screenshots/qbe-2026-09-02T152422.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/qbe/qbe-2026-09-02T152422.png
 security:
 - kind: authentication
   name: Qbe Authentication
@@ -307,6 +371,14 @@ security:
   name: Qbe Vulnerability Disclosure
   slug: qbe-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 3
+skills:
+- name: qbe-endorse-policy
+  slug: qbe-endorse-policy
+- name: qbe-quote-to-bind
+  slug: qbe-quote-to-bind
+- name: qbe-renew-or-cancel
+  slug: qbe-renew-or-cancel
 slug: qbe
 tags:
 - Insurance

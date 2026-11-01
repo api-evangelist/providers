@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,12 +63,12 @@ common:
   type: TermsOfService
   url: https://www.sensorum.ai/terms-of-use
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sensorum-health/refs/heads/main/security/sensorum-health-domain-security.yml
+  href: https://artifacts.apis.io/sensorum-health/security/sensorum-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sensorum-health-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sensorum-health/refs/heads/main/llms/sensorum-health-llms.txt
+  href: https://artifacts.apis.io/sensorum-health/llms/sensorum-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sensorum-health-llms.txt
@@ -82,10 +84,10 @@ overview: 'Sensorum Health is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Sensorum Health''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 5
+random_paper: 7
 score:
-  band: emerging
-  composite: 11.0
+  band: minimal
+  composite: 10.3
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -99,23 +101,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 11.0
+  previous_composite: 10.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sensorum-health/refs/heads/main/screenshots/sensorum-health-2026-09-02T154916.png
+screenshot: https://apis.io/screenshots/sensorum-health/sensorum-health-2026-09-02T154916.png
 security:
 - kind: domain-security
   name: Sensorum Health Domain Security

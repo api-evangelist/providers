@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Public-facing website of the Defense Threat Reduction Agency providing organizational information, leadership, news, and links to mission-area programs. The site does not expose a developer API.
@@ -51,22 +53,22 @@ apis:
 artifact_total: 8
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/defense-threat-reduction-agency/refs/heads/main/plans/defense-threat-reduction-agency-plans-pricing.yml
+  href: https://artifacts.apis.io/defense-threat-reduction-agency/plans/defense-threat-reduction-agency-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/defense-threat-reduction-agency-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/defense-threat-reduction-agency/refs/heads/main/rate-limits/defense-threat-reduction-agency-rate-limits.yml
+  href: https://artifacts.apis.io/defense-threat-reduction-agency/rate-limits/defense-threat-reduction-agency-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/defense-threat-reduction-agency-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/defense-threat-reduction-agency/refs/heads/main/finops/defense-threat-reduction-agency-finops.yml
+  href: https://artifacts.apis.io/defense-threat-reduction-agency/finops/defense-threat-reduction-agency-finops.yml
   title: ''
   type: FinOps
   url: finops/defense-threat-reduction-agency-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/defense-threat-reduction-agency/refs/heads/main/security/defense-threat-reduction-agency-domain-security.yml
+  href: https://artifacts.apis.io/defense-threat-reduction-agency/security/defense-threat-reduction-agency-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/defense-threat-reduction-agency-domain-security.yml
@@ -100,7 +102,7 @@ finops:
 - has_sources: false
   method: generated
   name: Defense Threat Reduction Agency Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: defense-threat-reduction-agency-finops
   template: true
@@ -118,14 +120,14 @@ plans:
 - name: Defense Threat Reduction Agency Plans Pricing
   plan_count: 3
   slug: defense-threat-reduction-agency-plans-pricing
-random_paper: 15
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Defense Threat Reduction Agency Rate Limits
   slug: defense-threat-reduction-agency-rate-limits
 score:
   band: emerging
-  composite: 12.4
+  composite: 12.5
   coverage:
     artifact_dirs: 6
     catalog_earned: 41.0
@@ -133,34 +135,34 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 63.4
+    discoverability: 64.3
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 14.0
+  previous_composite: 12.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/defense-threat-reduction-agency/refs/heads/main/screenshots/defense-threat-reduction-agency-2026-06-20T175842.png
+screenshot: https://apis.io/screenshots/defense-threat-reduction-agency/defense-threat-reduction-agency-2026-06-20T175842.png
 security:
 - kind: domain-security
   name: Defense Threat Reduction Agency Domain Security

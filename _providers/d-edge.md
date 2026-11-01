@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.7
-  scored_at: '2026-10-17'
+  score: 21.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation is behind a login wall; no public contract discovered.
@@ -36,27 +38,27 @@ common:
   type: BlogRSS
   url: https://www.d-edge.com/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/d-edge/refs/heads/main/well-known/d-edge-well-known.yml
+  href: https://artifacts.apis.io/d-edge/well-known/d-edge-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/d-edge-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/d-edge/refs/heads/main/hosts/d-edge-hosts.yml
+  href: https://artifacts.apis.io/d-edge/hosts/d-edge-hosts.yml
   title: ''
   type: Hosts
   url: hosts/d-edge-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/d-edge/refs/heads/main/vendors/d-edge-vendors.yml
+  href: https://artifacts.apis.io/d-edge/vendors/d-edge-vendors.yml
   title: ''
   type: Vendors
   url: vendors/d-edge-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/d-edge/refs/heads/main/packages/d-edge-packages.yml
+  href: https://artifacts.apis.io/d-edge/packages/d-edge-packages.yml
   title: ''
   type: SDKs
   url: packages/d-edge-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/d-edge/refs/heads/main/packages/d-edge-packages.yml
+  href: https://artifacts.apis.io/d-edge/packages/d-edge-packages.yml
   title: ''
   type: Packages
   url: packages/d-edge-packages.yml
@@ -77,7 +79,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/d-edge
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/d-edge/refs/heads/main/security/d-edge-domain-security.yml
+  href: https://artifacts.apis.io/d-edge/security/d-edge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/d-edge-domain-security.yml
@@ -112,7 +114,7 @@ overview: 'D-EDGE Hospitality Solutions is listed with 1 API on the [APIs.io](ht
 
 
   D-EDGE Hospitality Solutions'' developer surface includes pricing, documentation, engineering blog, support, and 10 more developer resources.'
-random_paper: 0
+random_paper: 22
 score:
   band: emerging
   composite: 15.1
@@ -123,7 +125,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -131,7 +133,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 53.6
     operational_transparency: 5.3
-  previous_composite: 15.0
+  previous_composite: 15.1
   provenance:
     mcp: unknown
   regulatory:
@@ -140,14 +142,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/d-edge/refs/heads/main/screenshots/d-edge-2026-10-11T103446.png
+screenshot: https://apis.io/screenshots/d-edge/d-edge-2026-10-11T103446.png
 security:
 - kind: domain-security
   name: D Edge Domain Security

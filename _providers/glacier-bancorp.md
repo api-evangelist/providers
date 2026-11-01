@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The OpenID Connect issuer Glacier Bank serves at connect.glacierbank.com for its Jack Henry Banno Digital Toolkit tenant. Issuer https://connect.glacierbank.com/a/consumer/api/v0/oidc; the base URL fo
@@ -42,12 +44,12 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/glacier-bancorp/refs/heads/main/finops/glacier-bancorp-finops.yml
+  href: https://artifacts.apis.io/glacier-bancorp/finops/glacier-bancorp-finops.yml
   title: ''
   type: FinOps
   url: finops/glacier-bancorp-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/glacier-bancorp/refs/heads/main/security/glacier-bancorp-domain-security.yml
+  href: https://artifacts.apis.io/glacier-bancorp/security/glacier-bancorp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/glacier-bancorp-domain-security.yml
@@ -60,37 +62,37 @@ common:
   type: Website
   url: https://www.glacierbancorp.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/glacier-bancorp/refs/heads/main/authentication/glacier-bancorp-authentication.yml
+  href: https://artifacts.apis.io/glacier-bancorp/authentication/glacier-bancorp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/glacier-bancorp-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/glacier-bancorp/refs/heads/main/scopes/glacier-bancorp-scopes.yml
+  href: https://artifacts.apis.io/glacier-bancorp/scopes/glacier-bancorp-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/glacier-bancorp-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/glacier-bancorp/refs/heads/main/conformance/glacier-bancorp-conformance.yml
+  href: https://artifacts.apis.io/glacier-bancorp/conformance/glacier-bancorp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/glacier-bancorp-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/glacier-bancorp/refs/heads/main/well-known/glacier-bancorp-well-known.yml
+  href: https://artifacts.apis.io/glacier-bancorp/well-known/glacier-bancorp-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/glacier-bancorp-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/glacier-bancorp/refs/heads/main/llms/glacier-bancorp-llms.txt
+  href: https://artifacts.apis.io/glacier-bancorp/llms/glacier-bancorp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/glacier-bancorp-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/glacier-bancorp/refs/heads/main/plans/glacier-bancorp-plans-pricing.yml
+  href: https://artifacts.apis.io/glacier-bancorp/plans/glacier-bancorp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/glacier-bancorp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/glacier-bancorp/refs/heads/main/rate-limits/glacier-bancorp-rate-limits.yml
+  href: https://artifacts.apis.io/glacier-bancorp/rate-limits/glacier-bancorp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/glacier-bancorp-rate-limits.yml
@@ -138,7 +140,7 @@ plans:
 - name: Glacier Bancorp Plans Pricing
   plan_count: 1
   slug: glacier-bancorp-plans-pricing
-random_paper: 17
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Glacier Bancorp Rate Limits
@@ -158,7 +160,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
@@ -166,7 +168,7 @@ score:
     developer_ergonomics: 16.7
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 24.9
+  previous_composite: 23.3
   provenance:
     conformance: first-party
   regulatory:
@@ -175,14 +177,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/glacier-bancorp/refs/heads/main/screenshots/glacier-bancorp-2026-10-11T104926.png
+screenshot: https://apis.io/screenshots/glacier-bancorp/glacier-bancorp-2026-10-11T104926.png
 security:
 - kind: authentication
   name: Glacier Bancorp Authentication

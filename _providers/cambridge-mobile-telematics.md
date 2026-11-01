@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: BlogRSS
   url: https://www.cmtelematics.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cambridge-mobile-telematics/refs/heads/main/security/cambridge-mobile-telematics-domain-security.yml
+  href: https://artifacts.apis.io/cambridge-mobile-telematics/security/cambridge-mobile-telematics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cambridge-mobile-telematics-domain-security.yml
@@ -82,17 +84,17 @@ common:
   type: TermsOfService
   url: https://www.cmtelematics.com/mobilelicense/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cambridge-mobile-telematics/refs/heads/main/conformance/cambridge-mobile-telematics-conformance.yml
+  href: https://artifacts.apis.io/cambridge-mobile-telematics/conformance/cambridge-mobile-telematics-conformance.yml
   title: ''
   type: Compliance
   url: conformance/cambridge-mobile-telematics-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cambridge-mobile-telematics/refs/heads/main/conformance/cambridge-mobile-telematics-conformance.yml
+  href: https://artifacts.apis.io/cambridge-mobile-telematics/conformance/cambridge-mobile-telematics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cambridge-mobile-telematics-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cambridge-mobile-telematics/refs/heads/main/llms/cambridge-mobile-telematics-llms.txt
+  href: https://artifacts.apis.io/cambridge-mobile-telematics/llms/cambridge-mobile-telematics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cambridge-mobile-telematics-llms.txt
@@ -108,10 +110,10 @@ overview: 'Cambridge Mobile Telematics is profiled on the [APIs.io](https://apis
 
 
   Cambridge Mobile Telematics'' developer surface includes developer portal, documentation, engineering blog, support, and 10 more developer resources.'
-random_paper: 9
+random_paper: 3
 score:
   band: emerging
-  composite: 20.7
+  composite: 22.9
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -121,13 +123,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 20.7
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 22.9
   provenance:
     conformance: first-party
   regulatory:
@@ -140,14 +142,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 27.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cambridge-mobile-telematics/refs/heads/main/screenshots/cambridge-mobile-telematics-2026-07-25T204305.png
+screenshot: https://apis.io/screenshots/cambridge-mobile-telematics/cambridge-mobile-telematics-2026-07-25T204305.png
 security:
 - kind: domain-security
   name: Cambridge Mobile Telematics Domain Security

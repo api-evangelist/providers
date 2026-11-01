@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +90,7 @@ press:
 - date: ''
   title: UHS News Releases | UHS, King of Prussia, PA
   url: https://uhs.com/news-releases/
-random_paper: 21
+random_paper: 5
 score:
   band: minimal
   composite: 7.7
@@ -107,12 +109,6 @@ score:
     developer_ergonomics: 2.4
     discoverability: 48.2
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 7.7
   regulatory:
     applies: true
@@ -120,8 +116,8 @@ score:
     regime: Health
     regime_id: health
     score: 3.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

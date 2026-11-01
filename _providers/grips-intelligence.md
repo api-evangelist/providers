@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST data API exposing Grips Intelligence e-commerce analytics. Requests are HTTPS POSTs carrying a GraphQL-style query envelope (query + variables), scoped by domain, date range, and country. Endpoin
@@ -98,37 +100,37 @@ common:
   type: GitHubOrganization
   url: https://github.com/gripsintelligence
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grips-intelligence/refs/heads/main/mcp/grips-intelligence-mcp.yml
+  href: https://artifacts.apis.io/grips-intelligence/mcp/grips-intelligence-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/grips-intelligence-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grips-intelligence/refs/heads/main/authentication/grips-intelligence-authentication.yml
+  href: https://artifacts.apis.io/grips-intelligence/authentication/grips-intelligence-authentication.yml
   title: ''
   type: Authentication
   url: authentication/grips-intelligence-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grips-intelligence/refs/heads/main/scopes/grips-intelligence-scopes.yml
+  href: https://artifacts.apis.io/grips-intelligence/scopes/grips-intelligence-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/grips-intelligence-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/grips-intelligence/refs/heads/main/conventions/grips-intelligence-conventions.yml
+  href: https://artifacts.apis.io/grips-intelligence/conventions/grips-intelligence-conventions.yml
   title: ''
   type: Conventions
   url: conventions/grips-intelligence-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grips-intelligence/refs/heads/main/well-known/grips-intelligence-well-known.yml
+  href: https://artifacts.apis.io/grips-intelligence/well-known/grips-intelligence-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/grips-intelligence-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/grips-intelligence/refs/heads/main/security/grips-intelligence-domain-security.yml
+  href: https://artifacts.apis.io/grips-intelligence/security/grips-intelligence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/grips-intelligence-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/grips-intelligence/refs/heads/main/llms/grips-intelligence-llms.txt
+  href: https://artifacts.apis.io/grips-intelligence/llms/grips-intelligence-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/grips-intelligence-llms.txt
@@ -156,23 +158,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 28.0
+  composite: 27.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 27.9
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 27.3
   provenance:
     mcp: first-party
   regulatory:
@@ -181,14 +183,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/grips-intelligence/refs/heads/main/screenshots/grips-intelligence-2026-07-25T220333.png
+screenshot: https://apis.io/screenshots/grips-intelligence/grips-intelligence-2026-07-25T220333.png
 security:
 - kind: authentication
   name: Grips Intelligence Authentication

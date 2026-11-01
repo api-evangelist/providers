@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-17'
+  score: 23.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -99,11 +101,8 @@ apis:
   description: Procurement - purchase orders and vendors.
   name: EZRentOut Purchase Orders API
   slug: ezrentout-purchase-orders-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: EZRentOut Assets API
   slug: open-ezrentout-assets-api
@@ -146,27 +145,27 @@ common:
   type: Pricing
   url: https://ezo.io/ezrentout/pricing/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/capabilities/ezrentout-capability-edges.yml
+  href: https://artifacts.apis.io/ezrentout/capabilities/ezrentout-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ezrentout-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/agentic-access/ezrentout-agentic-access.yml
+  href: https://artifacts.apis.io/ezrentout/agentic-access/ezrentout-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ezrentout-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/security/ezrentout-trust-center.yml
+  href: https://artifacts.apis.io/ezrentout/security/ezrentout-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ezrentout-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/security/ezrentout-domain-security.yml
+  href: https://artifacts.apis.io/ezrentout/security/ezrentout-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ezrentout-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/authentication/ezrentout-authentication.yml
+  href: https://artifacts.apis.io/ezrentout/authentication/ezrentout-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ezrentout-authentication.yml
@@ -183,17 +182,17 @@ common:
   type: Documentation
   url: https://ezo.io/ezrentout/developers/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/plans/ezrentout-plans-pricing.yml
+  href: https://artifacts.apis.io/ezrentout/plans/ezrentout-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ezrentout-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/rate-limits/ezrentout-rate-limits.yml
+  href: https://artifacts.apis.io/ezrentout/rate-limits/ezrentout-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ezrentout-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/finops/ezrentout-finops.yml
+  href: https://artifacts.apis.io/ezrentout/finops/ezrentout-finops.yml
   title: ''
   type: FinOps
   url: finops/ezrentout-finops.yml
@@ -228,14 +227,14 @@ plans:
 - name: Ezrentout Price Estimates
   plan_count: 0
   slug: ezrentout-price-estimates
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Ezrentout Rate Limits
   slug: ezrentout-rate-limits
 score:
   band: thin
-  composite: 36.3
+  composite: 37.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 57.0
@@ -243,7 +242,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
@@ -251,7 +250,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 37.8
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -265,13 +264,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/screenshots/ezrentout-2026-07-25T214101.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ezrentout/ezrentout-2026-07-25T214101.png
 security:
 - kind: authentication
   name: Ezrentout Authentication

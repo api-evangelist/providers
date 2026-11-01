@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.9
-  scored_at: '2026-10-17'
+  score: 44.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -195,15 +197,12 @@ apis:
   description: Manage the store locations attached to a wallet campaign. Locations drive geofenced lock-screen notifications that remind pass holders about a nearby store.
   name: Vibes Platform Wallet Store Locations API
   slug: vibes-platform-wallet-store-locations-api-api
-artifact_total: 64
+artifact_total: 68
 asyncapis:
 - description: ''
   name: Vibes Platform Webhooks
   slug: vibes-platform-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Vibes Connect HTTP Message API
   slug: open-vibes-connect
@@ -242,7 +241,7 @@ collections:
   slug: open-vibes-platform
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/finops/vibes-platform-finops.yml
+  href: https://artifacts.apis.io/vibes-platform/finops/vibes-platform-finops.yml
   title: ''
   type: FinOps
   url: finops/vibes-platform-finops.yml
@@ -251,127 +250,127 @@ common:
   type: BlogRSS
   url: https://www.vibes.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/capabilities/vibes-platform-capability-edges.yml
+  href: https://artifacts.apis.io/vibes-platform/capabilities/vibes-platform-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vibes-platform-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/overlays/vibes-platform-platform-api-overlay.yaml
+  href: https://artifacts.apis.io/vibes-platform/overlays/vibes-platform-platform-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vibes-platform-platform-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/overlays/vibes-platform-rcs-business-messaging-overlay.yaml
+  href: https://artifacts.apis.io/vibes-platform/overlays/vibes-platform-rcs-business-messaging-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vibes-platform-rcs-business-messaging-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/scopes/vibes-platform-scopes.yml
+  href: https://artifacts.apis.io/vibes-platform/scopes/vibes-platform-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vibes-platform-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/agentic-access/vibes-platform-agentic-access.yml
+  href: https://artifacts.apis.io/vibes-platform/agentic-access/vibes-platform-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vibes-platform-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/packages/vibes-platform-packages.yml
+  href: https://artifacts.apis.io/vibes-platform/packages/vibes-platform-packages.yml
   title: ''
   type: Packages
   url: packages/vibes-platform-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/packages/vibes-platform-packages.yml
+  href: https://artifacts.apis.io/vibes-platform/packages/vibes-platform-packages.yml
   title: ''
   type: SDKs
   url: packages/vibes-platform-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/llms/vibes-platform-llms.txt
+  href: https://artifacts.apis.io/vibes-platform/llms/vibes-platform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vibes-platform-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/conventions/vibes-platform-conventions.yml
+  href: https://artifacts.apis.io/vibes-platform/conventions/vibes-platform-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vibes-platform-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/conventions/vibes-platform-conventions.yml
+  href: https://artifacts.apis.io/vibes-platform/conventions/vibes-platform-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/vibes-platform-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/rate-limits/vibes-platform-rate-limits.yml
+  href: https://artifacts.apis.io/vibes-platform/rate-limits/vibes-platform-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vibes-platform-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/plans/vibes-platform-plans-pricing.yml
+  href: https://artifacts.apis.io/vibes-platform/plans/vibes-platform-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vibes-platform-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/errors/vibes-platform-problem-types.yml
+  href: https://artifacts.apis.io/vibes-platform/errors/vibes-platform-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vibes-platform-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/lifecycle/vibes-platform-lifecycle.yml
+  href: https://artifacts.apis.io/vibes-platform/lifecycle/vibes-platform-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vibes-platform-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/changelog/vibes-platform-changelog.yml
+  href: https://artifacts.apis.io/vibes-platform/changelog/vibes-platform-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vibes-platform-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/conformance/vibes-platform-conformance.yml
+  href: https://artifacts.apis.io/vibes-platform/conformance/vibes-platform-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vibes-platform-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/conformance/vibes-platform-conformance.yml
+  href: https://artifacts.apis.io/vibes-platform/conformance/vibes-platform-conformance.yml
   title: ''
   type: Compliance
   url: conformance/vibes-platform-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/data-model/vibes-platform-data-model.yml
+  href: https://artifacts.apis.io/vibes-platform/data-model/vibes-platform-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vibes-platform-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/components/vibes-platform-components.yml
+  href: https://artifacts.apis.io/vibes-platform/components/vibes-platform-components.yml
   title: ''
   type: Components
   url: components/vibes-platform-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/asyncapi/vibes-platform-webhooks.yml
+  href: https://artifacts.apis.io/vibes-platform/asyncapi/vibes-platform-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vibes-platform-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/mcp/vibes-platform-mcp.yml
+  href: https://artifacts.apis.io/vibes-platform/mcp/vibes-platform-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vibes-platform-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vibes-platform/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/security/vibes-platform-trust-center.yml
+  href: https://artifacts.apis.io/vibes-platform/security/vibes-platform-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vibes-platform-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/security/vibes-platform-domain-security.yml
+  href: https://artifacts.apis.io/vibes-platform/security/vibes-platform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vibes-platform-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/authentication/vibes-platform-authentication.yml
+  href: https://artifacts.apis.io/vibes-platform/authentication/vibes-platform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vibes-platform-authentication.yml
@@ -446,13 +445,13 @@ examples:
   name: Vibes Platform Listbroadcasts Example
   slug: vibes-platform-listBroadcasts-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Vibes Platform Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: vibes-platform-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vibes-platform.png
 json_schemas:
 - name: Broadcast
@@ -489,7 +488,10 @@ plans:
 - name: Vibes Platform Plans Pricing
   plan_count: 4
   slug: vibes-platform-plans-pricing
-random_paper: 21
+- name: Vibes Platform Price Estimates
+  plan_count: 0
+  slug: vibes-platform-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Vibes Platform Rate Limits
@@ -524,24 +526,29 @@ scopes:
   slug: vibes-platform-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: strong
-  composite: 65.1
+  band: exemplar
+  composite: 67.6
   coverage:
     artifact_dirs: 34
-    catalog_earned: 76.5
+    catalog_earned: 79.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 38.5
+    catalog_gap: 35.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.6
   facets:
-    access_clarity: 68.4
+    access_clarity: 76.3
     contract_governance: 31.8
     contract_quality: 63.7
-    developer_ergonomics: 61.3
-    discoverability: 78.6
+    developer_ergonomics: 66.1
+    discoverability: 71.4
     operational_transparency: 76.3
-  previous_composite: 66.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -558,13 +565,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/screenshots/vibes-platform-2026-06-20T201014.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vibes-platform/vibes-platform-2026-06-20T201014.png
 security:
 - kind: authentication
   name: Vibes Platform Authentication
@@ -578,6 +586,16 @@ security:
   name: Vibes Platform Trust Center
   slug: vibes-platform-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 4
+skills:
+- name: vibes-platform-manage-subscriber
+  slug: vibes-platform-manage-subscriber
+- name: vibes-platform-register-callbacks
+  slug: vibes-platform-register-callbacks
+- name: vibes-platform-send-broadcast
+  slug: vibes-platform-send-broadcast
+- name: vibes-platform-wallet-campaign
+  slug: vibes-platform-wallet-campaign
 slug: vibes-platform
 tags:
 - Mobile Marketing

@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -73,22 +75,22 @@ common:
   type: Compliance
   url: https://www.9fin.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/9fin/refs/heads/main/security/9fin-trust-center.yml
+  href: https://artifacts.apis.io/9fin/security/9fin-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/9fin-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/9fin/refs/heads/main/conformance/9fin-conformance.yml
+  href: https://artifacts.apis.io/9fin/conformance/9fin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/9fin-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/9fin/refs/heads/main/security/9fin-domain-security.yml
+  href: https://artifacts.apis.io/9fin/security/9fin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/9fin-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/9fin/refs/heads/main/llms/9fin-llms.txt
+  href: https://artifacts.apis.io/9fin/llms/9fin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/9fin-llms.txt
@@ -108,10 +110,10 @@ overview: '9FIN is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   9FIN''s developer surface includes engineering blog, changelog, signup flow, and 10 more developer resources.'
-random_paper: 0
+random_paper: 14
 score:
   band: emerging
-  composite: 22.3
+  composite: 21.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -119,14 +121,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 58.3
-    operational_transparency: 28.9
+    discoverability: 48.2
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -135,7 +137,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 22.2
+  previous_composite: 21.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -149,14 +151,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/9fin/refs/heads/main/screenshots/9fin-2026-07-25T181341.png
+screenshot: https://apis.io/screenshots/9fin/9fin-2026-07-25T181341.png
 security:
 - kind: domain-security
   name: 9Fin Domain Security

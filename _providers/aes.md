@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Mosaic is an AI-powered intelligent bidding application developed by Fluence (an AES and Siemens company) for optimizing energy market participation. Mosaic automates bidding strategies for battery en
@@ -45,17 +47,17 @@ apis:
 artifact_total: 29
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/plans/aes-plans-pricing.yml
+  href: https://artifacts.apis.io/aes/plans/aes-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aes-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/rate-limits/aes-rate-limits.yml
+  href: https://artifacts.apis.io/aes/rate-limits/aes-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aes-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/finops/aes-finops.yml
+  href: https://artifacts.apis.io/aes/finops/aes-finops.yml
   title: ''
   type: FinOps
   url: finops/aes-finops.yml
@@ -64,27 +66,27 @@ common:
   type: Website
   url: https://www.aes.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/security/aes-domain-security.yml
+  href: https://artifacts.apis.io/aes/security/aes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aes-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/llms/aes-llms.txt
+  href: https://artifacts.apis.io/aes/llms/aes-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aes-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/conformance/aes-conformance.yml
+  href: https://artifacts.apis.io/aes/conformance/aes-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aes-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/lifecycle/aes-lifecycle.yml
+  href: https://artifacts.apis.io/aes/lifecycle/aes-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aes-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/conventions/aes-conventions.yml
+  href: https://artifacts.apis.io/aes/conventions/aes-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aes-conventions.yml
@@ -228,14 +230,14 @@ press:
 - date: ''
   title: AES Deploys AI Safety Platform in U.S. Operations
   url: https://www.prnewswire.com/news-releases/aes-deploys-ai-safety-platform-in-us-operations-302711682.html
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Aes Rate Limits
   slug: aes-rate-limits
 score:
   band: emerging
-  composite: 19.3
+  composite: 20.0
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -243,15 +245,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 73.2
-    operational_transparency: 0.0
-  previous_composite: 20.9
+    discoverability: 66.1
+    operational_transparency: 10.5
+  previous_composite: 20.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -261,14 +263,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/screenshots/aes-2026-06-20T165545.png
+screenshot: https://apis.io/screenshots/aes/aes-2026-06-20T165545.png
 security:
 - kind: domain-security
   name: Aes Domain Security

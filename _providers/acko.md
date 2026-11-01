@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,82 +51,79 @@ apis:
   description: The APIs API from Acko — 3 operation(s) for apis.
   name: Acko APIs API
   slug: acko-apis-api
-artifact_total: 6
+artifact_total: 8
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Acko General Insurance Limited APIs API
   slug: open-acko-apis-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/overlays/acko-apisetu-overlay.yaml
+  href: https://artifacts.apis.io/acko/overlays/acko-apisetu-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/acko-apisetu-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/agentic-access/acko-agentic-access.yml
+  href: https://artifacts.apis.io/acko/agentic-access/acko-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/acko-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/authentication/acko-authentication.yml
+  href: https://artifacts.apis.io/acko/authentication/acko-authentication.yml
   title: ''
   type: Authentication
   url: authentication/acko-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/authentication/acko-authentication.yml
+  href: https://artifacts.apis.io/acko/authentication/acko-authentication.yml
   title: ''
   type: API Keys
   url: authentication/acko-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/conventions/acko-conventions.yml
+  href: https://artifacts.apis.io/acko/conventions/acko-conventions.yml
   title: ''
   type: Conventions
   url: conventions/acko-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/errors/acko-problem-types.yml
+  href: https://artifacts.apis.io/acko/errors/acko-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/acko-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/conformance/acko-conformance.yml
+  href: https://artifacts.apis.io/acko/conformance/acko-conformance.yml
   title: ''
   type: Conformance
   url: conformance/acko-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/data-model/acko-data-model.yml
+  href: https://artifacts.apis.io/acko/data-model/acko-data-model.yml
   title: ''
   type: DataModel
   url: data-model/acko-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/lifecycle/acko-lifecycle.yml
+  href: https://artifacts.apis.io/acko/lifecycle/acko-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/acko-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/mcp/acko-mcp.yml
+  href: https://artifacts.apis.io/acko/mcp/acko-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/acko-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/llms/acko-llms.txt
+  href: https://artifacts.apis.io/acko/llms/acko-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/acko-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/well-known/acko-well-known.yml
+  href: https://artifacts.apis.io/acko/well-known/acko-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/acko-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/acko/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/security/acko-domain-security.yml
+  href: https://artifacts.apis.io/acko/security/acko-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acko-domain-security.yml
@@ -172,10 +171,10 @@ overview: 'Acko publishes 1 API contract indexed on the [APIs.io](https://apis.i
 
 
   Acko''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 17 more developer resources.'
-random_paper: 18
+random_paper: 6
 score:
   band: thin
-  composite: 35.9
+  composite: 33.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -189,7 +188,7 @@ score:
     contract_governance: 4.5
     contract_quality: 50.2
     developer_ergonomics: 37.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -198,7 +197,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 35.9
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,13 +214,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/screenshots/acko-2026-07-25T181503.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/acko/acko-2026-07-25T181503.png
 security:
 - kind: authentication
   name: Acko Authentication
@@ -231,6 +231,14 @@ security:
   name: Acko Domain Security
   slug: acko-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Fetch an Acko car insurance certificate
+  slug: acko-fetch-car-insurance-certificate
+- name: Fetch an Acko health insurance certificate
+  slug: acko-fetch-health-insurance-certificate
+- name: Fetch an Acko two-wheeler insurance certificate
+  slug: acko-fetch-two-wheeler-insurance-certificate
 slug: acko
 tags:
 - Company

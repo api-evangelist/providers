@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: BlogRSS
   url: https://henryicarus.substack.com/feed
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/icarus/refs/heads/main/security/icarus-domain-security.yml
+  href: https://artifacts.apis.io/icarus/security/icarus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/icarus-domain-security.yml
@@ -58,12 +60,12 @@ name: Icarus
 nav: Providers
 network: true
 overview: Icarus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Defense, Surveillance, and Connectivity.
-random_paper: 9
+random_paper: 23
 score:
   band: minimal
   composite: 3.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -91,14 +93,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/icarus/refs/heads/main/screenshots/icarus-2026-07-25T222005.png
+screenshot: https://apis.io/screenshots/icarus/icarus-2026-07-25T222005.png
 security:
 - kind: domain-security
   name: Icarus Domain Security

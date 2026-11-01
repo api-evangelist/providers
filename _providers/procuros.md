@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 32.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: The Outgoing Transactions API from Procuros — 2 operation(s) for outgoing transactions.
   name: Procuros Outgoing Transactions API
   slug: procuros-outgoing-transactions-api
-artifact_total: 12
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Procuros All Transactions API
   slug: open-procuros-all-transactions-api
@@ -84,7 +83,7 @@ collections:
   slug: open-procuros-outgoing-transactions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/overlays/procuros-v2-overlay.yaml
+  href: https://artifacts.apis.io/procuros/overlays/procuros-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/procuros-v2-overlay.yaml
@@ -125,67 +124,67 @@ common:
   type: PrivacyPolicy
   url: https://procuros.io/data-processing
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/authentication/procuros-authentication.yml
+  href: https://artifacts.apis.io/procuros/authentication/procuros-authentication.yml
   title: ''
   type: Authentication
   url: authentication/procuros-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/agentic-access/procuros-agentic-access.yml
+  href: https://artifacts.apis.io/procuros/agentic-access/procuros-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/procuros-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/security/procuros-domain-security.yml
+  href: https://artifacts.apis.io/procuros/security/procuros-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/procuros-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/errors/procuros-problem-types.yml
+  href: https://artifacts.apis.io/procuros/errors/procuros-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/procuros-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/conventions/procuros-conventions.yml
+  href: https://artifacts.apis.io/procuros/conventions/procuros-conventions.yml
   title: ''
   type: Conventions
   url: conventions/procuros-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/lifecycle/procuros-lifecycle.yml
+  href: https://artifacts.apis.io/procuros/lifecycle/procuros-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/procuros-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/changelog/procuros-changelog.yml
+  href: https://artifacts.apis.io/procuros/changelog/procuros-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/procuros-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/sandbox/procuros-sandbox.yml
+  href: https://artifacts.apis.io/procuros/sandbox/procuros-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/procuros-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/conformance/procuros-conformance.yml
+  href: https://artifacts.apis.io/procuros/conformance/procuros-conformance.yml
   title: ''
   type: Conformance
   url: conformance/procuros-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/data-model/procuros-data-model.yml
+  href: https://artifacts.apis.io/procuros/data-model/procuros-data-model.yml
   title: ''
   type: DataModel
   url: data-model/procuros-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/mcp/procuros-mcp.yml
+  href: https://artifacts.apis.io/procuros/mcp/procuros-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/procuros-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/llms/procuros-llms.txt
+  href: https://artifacts.apis.io/procuros/llms/procuros-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/procuros-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/procuros/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -205,10 +204,10 @@ overview: 'Procuros publishes 4 API contracts indexed on the [APIs.io](https://a
 
 
   Procuros'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, sandbox, and 17 more developer resources.'
-random_paper: 13
+random_paper: 5
 score:
   band: developing
-  composite: 41.5
+  composite: 43.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -216,14 +215,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 51.0
     developer_ergonomics: 61.3
-    discoverability: 73.2
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -232,7 +231,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 41.4
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,13 +248,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/screenshots/procuros-2026-08-17T081343.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/procuros/procuros-2026-08-17T081343.png
 security:
 - kind: authentication
   name: Procuros Authentication
@@ -265,6 +265,12 @@ security:
   name: Procuros Domain Security
   slug: procuros-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Process incoming transactions
+  slug: procuros-process-incoming
+- name: Send a transaction to a trade partner
+  slug: procuros-send-transaction
 slug: procuros
 tags:
 - Company

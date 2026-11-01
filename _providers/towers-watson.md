@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Total compensation and rewards statements
   name: Towers Watson Total Rewards API
   slug: towers-watson-total-rewards-api
-artifact_total: 25
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WTW HR Portal Benefits API
   slug: open-towers-watson-benefits-api
@@ -95,37 +94,37 @@ collections:
   slug: open-wtw-hr-portal
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/plans/towers-watson-plans-pricing.yml
+  href: https://artifacts.apis.io/towers-watson/plans/towers-watson-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/towers-watson-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/rate-limits/towers-watson-rate-limits.yml
+  href: https://artifacts.apis.io/towers-watson/rate-limits/towers-watson-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/towers-watson-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/finops/towers-watson-finops.yml
+  href: https://artifacts.apis.io/towers-watson/finops/towers-watson-finops.yml
   title: ''
   type: FinOps
   url: finops/towers-watson-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/capabilities/towers-watson-capability-edges.yml
+  href: https://artifacts.apis.io/towers-watson/capabilities/towers-watson-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/towers-watson-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/agentic-access/towers-watson-agentic-access.yml
+  href: https://artifacts.apis.io/towers-watson/agentic-access/towers-watson-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/towers-watson-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/security/towers-watson-domain-security.yml
+  href: https://artifacts.apis.io/towers-watson/security/towers-watson-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/towers-watson-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/authentication/towers-watson-authentication.yml
+  href: https://artifacts.apis.io/towers-watson/authentication/towers-watson-authentication.yml
   title: ''
   type: Authentication
   url: authentication/towers-watson-authentication.yml
@@ -146,17 +145,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/wtw
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/rules/wtw-spectral-rules.yml
+  href: https://artifacts.apis.io/towers-watson/rules/wtw-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/wtw-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/vocabulary/towers-watson-vocabulary.yml
+  href: https://artifacts.apis.io/towers-watson/vocabulary/towers-watson-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/towers-watson-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/json-ld/towers-watson-context.jsonld
+  href: https://artifacts.apis.io/towers-watson/json-ld/towers-watson-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/towers-watson-context.jsonld
@@ -170,7 +169,7 @@ finops:
 - has_sources: false
   method: generated
   name: Towers Watson Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: towers-watson-finops
   template: true
@@ -220,7 +219,7 @@ press:
 - date: ''
   title: What an unforgettable Innovation Day London | AI Made Real ...
   url: https://www.instagram.com/reel/DYg0Pl2jvUE/
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Towers Watson Rate Limits
@@ -262,7 +261,7 @@ rules:
   slug: wtw-spectral-rules
 score:
   band: thin
-  composite: 27.5
+  composite: 29.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 55.0
@@ -270,15 +269,15 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 52.8
-    developer_ergonomics: 16.7
+    developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 29.1
+    operational_transparency: 13.2
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     contracts:
@@ -292,13 +291,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 14.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/screenshots/towers-watson-2026-10-11T193549.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/towers-watson/towers-watson-2026-10-11T193549.png
 security:
 - kind: authentication
   name: Towers Watson Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/erie-insurance/refs/heads/main/security/erie-insurance-domain-security.yml
+  href: https://artifacts.apis.io/erie-insurance/security/erie-insurance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/erie-insurance-domain-security.yml
@@ -86,27 +88,27 @@ common:
   type: Newsroom
   url: https://www.erieinsurance.com/newsroom
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/erie-insurance/refs/heads/main/packages/erie-insurance-packages.yml
+  href: https://artifacts.apis.io/erie-insurance/packages/erie-insurance-packages.yml
   title: ''
   type: Packages
   url: packages/erie-insurance-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/erie-insurance/refs/heads/main/plans/erie-insurance-plans-pricing.yml
+  href: https://artifacts.apis.io/erie-insurance/plans/erie-insurance-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/erie-insurance-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/erie-insurance/refs/heads/main/rate-limits/erie-insurance-rate-limits.yml
+  href: https://artifacts.apis.io/erie-insurance/rate-limits/erie-insurance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/erie-insurance-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/erie-insurance/refs/heads/main/lifecycle/erie-insurance-lifecycle.yml
+  href: https://artifacts.apis.io/erie-insurance/lifecycle/erie-insurance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/erie-insurance-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/erie-insurance/refs/heads/main/llms/erie-insurance-llms.txt
+  href: https://artifacts.apis.io/erie-insurance/llms/erie-insurance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/erie-insurance-llms.txt
@@ -160,14 +162,14 @@ press:
 - date: ''
   title: 'Erie CEO: AI Not Intended to Replace Company Employees'
   url: https://news.ambest.com/newscontent.aspx?refnum=274084&altsrc=23
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Erie Insurance Rate Limits
   slug: erie-insurance-rate-limits
 score:
   band: emerging
-  composite: 11.2
+  composite: 12.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 27.0
@@ -177,32 +179,32 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 11.2
+  previous_composite: 12.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/erie-insurance/refs/heads/main/screenshots/erie-insurance-2026-06-20T180813.png
+screenshot: https://apis.io/screenshots/erie-insurance/erie-insurance-2026-06-20T180813.png
 security:
 - kind: domain-security
   name: Erie Insurance Domain Security

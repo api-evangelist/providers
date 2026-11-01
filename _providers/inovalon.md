@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Authentication-gated API gateway host for the Inovalon ONE Platform. The host responds with HTTP 401 to unauthenticated requests; no public OpenAPI or docs surface was retrievable (corporate site is W
@@ -49,7 +51,7 @@ common:
   type: Website
   url: https://www.inovalon.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inovalon/refs/heads/main/security/inovalon-trust-center.yml
+  href: https://artifacts.apis.io/inovalon/security/inovalon-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/inovalon-trust-center.yml
@@ -58,17 +60,17 @@ common:
   type: Compliance
   url: https://trust.inovalon.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inovalon/refs/heads/main/conformance/inovalon-conformance.yml
+  href: https://artifacts.apis.io/inovalon/conformance/inovalon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/inovalon-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inovalon/refs/heads/main/security/inovalon-domain-security.yml
+  href: https://artifacts.apis.io/inovalon/security/inovalon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inovalon-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inovalon/refs/heads/main/llms/inovalon-llms.txt
+  href: https://artifacts.apis.io/inovalon/llms/inovalon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/inovalon-llms.txt
@@ -84,10 +86,10 @@ overview: 'Inovalon is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Inovalon''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 12
+random_paper: 6
 score:
   band: emerging
-  composite: 13.2
+  composite: 12.5
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -95,15 +97,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 12.7
+  previous_composite: 12.5
   provenance:
     conformance: first-party
   regulatory:
@@ -118,14 +120,14 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/inovalon/refs/heads/main/screenshots/inovalon-2026-10-11T185949.png
+screenshot: https://apis.io/screenshots/inovalon/inovalon-2026-10-11T185949.png
 security:
 - kind: domain-security
   name: Inovalon Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Xiaoe's Open API (开放API) for integrating store data and operations — users, products, orders, refunds, live broadcasts, learning/course data, marketing (coupons, group-buy, promoters) and points — int
@@ -46,7 +48,7 @@ asyncapis:
   slug: sem-message-push-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sem/refs/heads/main/security/sem-domain-security.yml
+  href: https://artifacts.apis.io/sem/security/sem-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sem-domain-security.yml
@@ -75,42 +77,42 @@ common:
   type: ChangeLog
   url: https://api-doc.xiaoe-tech.com/log.html
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sem/refs/heads/main/changelog/sem-changelog.yml
+  href: https://artifacts.apis.io/sem/changelog/sem-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sem-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sem/refs/heads/main/authentication/sem-authentication.yml
+  href: https://artifacts.apis.io/sem/authentication/sem-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sem-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sem/refs/heads/main/errors/sem-error-codes.yml
+  href: https://artifacts.apis.io/sem/errors/sem-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/sem-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sem/refs/heads/main/conventions/sem-conventions.yml
+  href: https://artifacts.apis.io/sem/conventions/sem-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sem-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sem/refs/heads/main/asyncapi/sem-message-push-webhooks.yml
+  href: https://artifacts.apis.io/sem/asyncapi/sem-message-push-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sem-message-push-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sem/refs/heads/main/packages/sem-packages.yml
+  href: https://artifacts.apis.io/sem/packages/sem-packages.yml
   title: ''
   type: Packages
   url: packages/sem-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sem/refs/heads/main/packages/sem-packages.yml
+  href: https://artifacts.apis.io/sem/packages/sem-packages.yml
   title: ''
   type: SDKs
   url: packages/sem-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sem/refs/heads/main/rate-limits/sem-rate-limits.yml
+  href: https://artifacts.apis.io/sem/rate-limits/sem-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sem-rate-limits.yml
@@ -129,7 +131,7 @@ overview: 'Xiaoe (小鹅通) is listed with 1 API on the [APIs.io](https://apis.
 
 
   Xiaoe (小鹅通)''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 10 more developer resources.'
-random_paper: 17
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Sem Rate Limits
@@ -166,14 +168,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sem/refs/heads/main/screenshots/sem-2026-09-02T154825.png
+screenshot: https://apis.io/screenshots/sem/sem-2026-09-02T154825.png
 security:
 - kind: authentication
   name: Sem Authentication

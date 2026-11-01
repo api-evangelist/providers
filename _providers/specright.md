@@ -31,6 +31,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -38,13 +40,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'REST API over Specright''s specification data. Forty-six operations across six areas: token issuance, specifications, spec families (BOM / finished good), suppliers, a generic /objects/{api-name} endpo'
   name: Specright API
   slug: specright-api
-artifact_total: 7
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -91,87 +93,87 @@ common:
   type: StatusPage
   url: https://status.specright.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/mcp/specright-mcp.yml
+  href: https://artifacts.apis.io/specright/mcp/specright-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/specright-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/well-known/specright-well-known.yml
+  href: https://artifacts.apis.io/specright/well-known/specright-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/specright-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/authentication/specright-authentication.yml
+  href: https://artifacts.apis.io/specright/authentication/specright-authentication.yml
   title: ''
   type: Authentication
   url: authentication/specright-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/scopes/specright-scopes.yml
+  href: https://artifacts.apis.io/specright/scopes/specright-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/specright-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/errors/specright-error-codes.yml
+  href: https://artifacts.apis.io/specright/errors/specright-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/specright-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/conventions/specright-conventions.yml
+  href: https://artifacts.apis.io/specright/conventions/specright-conventions.yml
   title: ''
   type: Conventions
   url: conventions/specright-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/data-model/specright-data-model.yml
+  href: https://artifacts.apis.io/specright/data-model/specright-data-model.yml
   title: ''
   type: DataModel
   url: data-model/specright-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/lifecycle/specright-lifecycle.yml
+  href: https://artifacts.apis.io/specright/lifecycle/specright-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/specright-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/changelog/specright-changelog.yml
+  href: https://artifacts.apis.io/specright/changelog/specright-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/specright-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/rate-limits/specright-rate-limits.yml
+  href: https://artifacts.apis.io/specright/rate-limits/specright-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/specright-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/plans/specright-plans-pricing.yml
+  href: https://artifacts.apis.io/specright/plans/specright-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/specright-plans-pricing.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/sandbox/specright-sandbox.yml
+  href: https://artifacts.apis.io/specright/sandbox/specright-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/specright-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/conformance/specright-conformance.yml
+  href: https://artifacts.apis.io/specright/conformance/specright-conformance.yml
   title: ''
   type: Conformance
   url: conformance/specright-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/packages/specright-packages.yml
+  href: https://artifacts.apis.io/specright/packages/specright-packages.yml
   title: ''
   type: Packages
   url: packages/specright-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/specright/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/llms/specright-llms.txt
+  href: https://artifacts.apis.io/specright/llms/specright-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/specright-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/security/specright-domain-security.yml
+  href: https://artifacts.apis.io/specright/security/specright-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/specright-domain-security.yml
@@ -195,7 +197,7 @@ plans:
 - name: Specright Plans Pricing
   plan_count: 3
   slug: specright-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Specright Rate Limits
@@ -207,9 +209,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.2
+  composite: 39.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -220,8 +222,8 @@ score:
     access_clarity: 63.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.0
-    discoverability: 68.3
+    developer_ergonomics: 54.2
+    discoverability: 65.0
     operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -230,7 +232,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 34.2
+  previous_composite: 39.2
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -241,14 +243,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/specright/refs/heads/main/screenshots/specright-2026-09-02T160357.png
+screenshot: https://apis.io/screenshots/specright/specright-2026-09-02T160357.png
 security:
 - kind: authentication
   name: Specright Authentication
@@ -258,6 +260,16 @@ security:
   name: Specright Domain Security
   slug: specright-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: specright-bulk-jobs
+  slug: specright-bulk-jobs
+- name: specright-discover-tenant-schema
+  slug: specright-discover-tenant-schema
+- name: specright-query-specifications
+  slug: specright-query-specifications
+- name: specright-upsert-records
+  slug: specright-upsert-records
 slug: specright
 tags:
 - Company

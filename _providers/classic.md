@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.2
-  scored_at: '2026-10-17'
+  score: 33.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.shapeshift.com
@@ -62,11 +64,8 @@ apis:
   description: The Swaps API from Classic — 3 operation(s) for swaps.
   name: Classic Swaps API
   slug: classic-swaps-api
-artifact_total: 13
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ShapeShift Public Affiliate API
   slug: open-classic-affiliate-api
@@ -120,77 +119,77 @@ common:
   type: PrivacyPolicy
   url: https://shapeshift.com/privacy-policy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/openapi/_original/classic-shapeshift-openapi-original.json
+  href: https://artifacts.apis.io/classic/openapi/_original/classic-shapeshift-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/classic-shapeshift-openapi-original.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/overlays/classic-shapeshift-overlay.yaml
+  href: https://artifacts.apis.io/classic/overlays/classic-shapeshift-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/classic-shapeshift-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/authentication/classic-authentication.yml
+  href: https://artifacts.apis.io/classic/authentication/classic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/classic-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/conventions/classic-conventions.yml
+  href: https://artifacts.apis.io/classic/conventions/classic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/classic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/errors/classic-problem-types.yml
+  href: https://artifacts.apis.io/classic/errors/classic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/classic-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/conformance/classic-conformance.yml
+  href: https://artifacts.apis.io/classic/conformance/classic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/classic-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/lifecycle/classic-lifecycle.yml
+  href: https://artifacts.apis.io/classic/lifecycle/classic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/classic-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/data-model/classic-data-model.yml
+  href: https://artifacts.apis.io/classic/data-model/classic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/classic-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/security/classic-domain-security.yml
+  href: https://artifacts.apis.io/classic/security/classic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/classic-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/packages/classic-packages.yml
+  href: https://artifacts.apis.io/classic/packages/classic-packages.yml
   title: ''
   type: Packages
   url: packages/classic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/packages/classic-packages.yml
+  href: https://artifacts.apis.io/classic/packages/classic-packages.yml
   title: ''
   type: SDKs
   url: packages/classic-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/well-known/classic-well-known.yml
+  href: https://artifacts.apis.io/classic/well-known/classic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/classic-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/mcp/classic-mcp.yml
+  href: https://artifacts.apis.io/classic/mcp/classic-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/classic-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/llms/classic-llms.txt
+  href: https://artifacts.apis.io/classic/llms/classic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/classic-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/classic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -206,10 +205,10 @@ overview: 'Classic publishes 5 API contracts indexed on the [APIs.io](https://ap
 
 
   Classic''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 12
+random_paper: 18
 score:
   band: thin
-  composite: 34.2
+  composite: 34.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -217,15 +216,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 44.8
     developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 34.1
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 34.5
   provenance:
     conformance: derived
     contracts:
@@ -241,13 +240,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/screenshots/classic-2026-07-25T205521.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/classic/classic-2026-07-25T205521.png
 security:
 - kind: authentication
   name: Classic Authentication
@@ -257,6 +257,12 @@ security:
   name: Classic Domain Security
   slug: classic-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Onboard a ShapeShift affiliate and read stats
+  slug: classic-affiliate-onboarding
+- name: Get and track a ShapeShift swap
+  slug: classic-swap-quote
 slug: classic
 tags:
 - Company

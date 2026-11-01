@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 31.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
   description: Retrieve the list of supported languages.
   name: DetectLanguage Languages API
   slug: detectlanguage-languages-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: DetectLanguage Account API
   slug: open-detectlanguage-account-api
@@ -75,6 +74,10 @@ collections:
   name: DetectLanguage Account Languages API
   slug: open-detectlanguage-languages-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/detectlanguage/overview
 - group: build
   title: ''
   type: GitHubOrganization
@@ -92,17 +95,17 @@ common:
   type: Regions
   url: https://detectlanguage.com/regions
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/agentic-access/detectlanguage-agentic-access.yml
+  href: https://artifacts.apis.io/detectlanguage/agentic-access/detectlanguage-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/detectlanguage-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/security/detectlanguage-domain-security.yml
+  href: https://artifacts.apis.io/detectlanguage/security/detectlanguage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/detectlanguage-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/authentication/detectlanguage-authentication.yml
+  href: https://artifacts.apis.io/detectlanguage/authentication/detectlanguage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/detectlanguage-authentication.yml
@@ -204,12 +207,12 @@ overview: 'DetectLanguage publishes 3 API contracts indexed on the [APIs.io](htt
   The DetectLanguage catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  DetectLanguage''s developer surface includes FAQ, authentication, documentation, pricing, signup flow, and 14 more developer resources.'
+  DetectLanguage''s developer surface includes FAQ, authentication, documentation, pricing, signup flow, and 15 more developer resources.'
 plans:
 - name: Plans
   plan_count: 7
   slug: plans
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -227,8 +230,8 @@ rules:
     warn: 4
   slug: detectlanguage-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.1
+  band: developing
+  composite: 40.6
   coverage:
     artifact_dirs: 15
     catalog_earned: 51.3
@@ -236,15 +239,15 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.2
   facets:
-    access_clarity: 46.1
+    access_clarity: 52.6
     contract_governance: 9.8
     contract_quality: 58.5
-    developer_ergonomics: 21.4
+    developer_ergonomics: 22.6
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 43.7
+    operational_transparency: 15.8
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -258,13 +261,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/screenshots/detectlanguage-2026-06-20T175940.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/detectlanguage/detectlanguage-2026-06-20T175940.png
 security:
 - kind: authentication
   name: Detectlanguage Authentication

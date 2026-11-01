@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -68,11 +70,8 @@ apis:
   description: The Run Flow API from Stacks Ai — 1 operation(s) for run flow.
   name: Stacks Ai Run Flow API
   slug: stacks-ai-run-flow-api
-artifact_total: 17
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: StackAI analytics API
   slug: open-stacks-ai-analytics-api
@@ -89,8 +88,13 @@ collections:
   name: StackAI analytics Run Flow API
   slug: open-stacks-ai-run-flow-api
 common:
+- group: other
+  href: https://artifacts.apis.io/stacks-ai/capabilities/stacks-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/stacks-ai-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/plans/stacks-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/stacks-ai/plans/stacks-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stacks-ai-plans-pricing.yml
@@ -99,32 +103,32 @@ common:
   type: Website
   url: https://www.stackai.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/skills/stacks-ai-build-knowledge-base.md
+  href: https://artifacts.apis.io/stacks-ai/skills/stacks-ai-build-knowledge-base.md
   title: ''
   type: AgentSkill
   url: skills/stacks-ai-build-knowledge-base.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/mcp/stacks-ai-mcp.yml
+  href: https://artifacts.apis.io/stacks-ai/mcp/stacks-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/stacks-ai-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/overlays/stacks-ai-openapi-overlay.yaml
+  href: https://artifacts.apis.io/stacks-ai/overlays/stacks-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/stacks-ai-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/security/stacks-ai-trust-center.yml
+  href: https://artifacts.apis.io/stacks-ai/security/stacks-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/stacks-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/security/stacks-ai-domain-security.yml
+  href: https://artifacts.apis.io/stacks-ai/security/stacks-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stacks-ai-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/agentic-access/stacks-ai-agentic-access.yml
+  href: https://artifacts.apis.io/stacks-ai/agentic-access/stacks-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stacks-ai-agentic-access.yml
@@ -177,17 +181,25 @@ common:
   type: Compliance
   url: https://trust.stackai.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/well-known/stacks-ai-well-known.yml
+  href: https://artifacts.apis.io/stacks-ai/well-known/stacks-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/stacks-ai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/llms/stacks-ai-llms.txt
+  href: https://artifacts.apis.io/stacks-ai/llms/stacks-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stacks-ai-llms.txt
 created: '2026-07-17'
 description: StackAI (Stack AI, Inc.) is an enterprise AI agent platform that lets teams build, deploy, and govern no-code agentic workflows at scale. Its visual Workflow Builder chains LLMs, knowledge bases, connections, and logic nodes into production agents that can be deployed as a REST API, chat assistant, form, or batch job. The public StackAI API runs deployed flows, manages Knowledge Bases and their file resources (upload, index, sync, cursor-paginated listing), and reads flow-run analytics. The platform targets regulated industries with SOC 2 Type II and ISO 27001 certifications, RBAC/SCIM governance, and multi-tenant, VPC, and on-premise deployment options. Backed by Lightspeed Venture Partners.
+finops:
+- has_sources: true
+  method: derived
+  name: Stacks Ai Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: stacks-ai-finops
+  template: false
 image: https://www.stackai.com/favicon.ico
 layout: provider
 modified: '2026-07-21'
@@ -197,36 +209,36 @@ network: true
 overview: 'Stacks Ai publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, Knowledge Base Resources API, Knowledge Base Sync API, and 2 more. Tagged areas include Company, Artificial Intelligence, Agents, LLM, and No-Code.
 
 
-  Stacks Ai''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 16 more developer resources.'
+  Stacks Ai''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 17 more developer resources.'
 plans:
 - name: Stacks Ai Plans Pricing
   plan_count: 2
   slug: stacks-ai-plans-pricing
-random_paper: 16
+random_paper: 8
 scopes:
 - name: Stacks Ai Scopes
   scope_count: 0
   slug: stacks-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 50.5
+  band: strong
+  composite: 54.9
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 45.0
+    artifact_dirs: 25
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.2
+  delta: 1.6
   facets:
-    access_clarity: 73.7
+    access_clarity: 89.5
     contract_governance: 18.2
-    contract_quality: 49.2
+    contract_quality: 45.8
     developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 46.3
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -242,14 +254,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 36.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/screenshots/stacks-ai-2026-08-17T082059.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stacks-ai/stacks-ai-2026-08-17T082059.png
 security:
 - kind: authentication
   name: Stacks Ai Authentication
@@ -263,6 +276,14 @@ security:
   name: Stacks Ai Trust Center
   slug: stacks-ai-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 3
+skills:
+- name: Build and populate a StackAI knowledge base
+  slug: stacks-ai-build-knowledge-base
+- name: Monitor StackAI flow-run analytics
+  slug: stacks-ai-monitor-flow-runs
+- name: Run a deployed StackAI flow
+  slug: stacks-ai-run-deployed-flow
 slug: stacks-ai
 tags:
 - Company

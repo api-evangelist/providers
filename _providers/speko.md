@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 60.5
-  scored_at: '2026-10-17'
+  score: 54.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -64,15 +66,12 @@ apis:
   description: The Voice API from Speko — 8 operation(s) for voice.
   name: Speko Voice API
   slug: speko-voice-api
-artifact_total: 15
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Speko Webhooks
   slug: speko-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Speko Agents API
   slug: open-speko-agents-api
@@ -87,7 +86,7 @@ collections:
   slug: open-speko-voice-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/plans/speko-plans-pricing.yml
+  href: https://artifacts.apis.io/speko/plans/speko-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/speko-plans-pricing.yml
@@ -96,7 +95,7 @@ common:
   type: Website
   url: https://speko.dev
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/overlays/speko-openapi-overlay.yaml
+  href: https://artifacts.apis.io/speko/overlays/speko-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/speko-openapi-overlay.yaml
@@ -149,32 +148,32 @@ common:
   type: Support
   url: mailto:founders@speko.ai
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/mcp/speko-mcp.yml
+  href: https://artifacts.apis.io/speko/mcp/speko-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/speko-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/packages/speko-packages.yml
+  href: https://artifacts.apis.io/speko/packages/speko-packages.yml
   title: ''
   type: Packages
   url: packages/speko-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/packages/speko-packages.yml
+  href: https://artifacts.apis.io/speko/packages/speko-packages.yml
   title: ''
   type: SDKs
   url: packages/speko-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/speko/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/lifecycle/speko-lifecycle.yml
+  href: https://artifacts.apis.io/speko/lifecycle/speko-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/speko-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/conformance/speko-conformance.yml
+  href: https://artifacts.apis.io/speko/conformance/speko-conformance.yml
   title: ''
   type: Conformance
   url: conformance/speko-conformance.yml
@@ -183,22 +182,30 @@ common:
   type: Compliance
   url: https://speko.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/authentication/speko-authentication.yml
+  href: https://artifacts.apis.io/speko/authentication/speko-authentication.yml
   title: ''
   type: Authentication
   url: authentication/speko-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/agentic-access/speko-agentic-access.yml
+  href: https://artifacts.apis.io/speko/agentic-access/speko-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/speko-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/security/speko-domain-security.yml
+  href: https://artifacts.apis.io/speko/security/speko-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/speko-domain-security.yml
 created: '2026-07-17'
 description: Speko is a voice-AI gateway - "one API for the whole voice stack." It continuously benchmarks speech-to-text, LLM, and text-to-speech providers and routes every call to the best provider for your language, latency, and cost intent, with transparent server-side failover. Developers ship voice agents in minutes over one REST API (no provider keys required, or bring your own), deploying to phone numbers, web widgets, or one-shot transcribe/synthesize/ complete calls. Speko is a Y Combinator (S26) company based in San Francisco, founded by Beknazar Abdikamalov. The platform advertises SOC 2 Type II, HIPAA, and GDPR posture and ships TypeScript and Python SDKs, a browser SDK, a LiveKit adapter, and a hosted MCP server.
+finops:
+- has_sources: true
+  method: derived
+  name: Speko Finops
+  primary_unit: cent on provider rate
+  service_category: ''
+  slug: speko-finops
+  template: false
 image: https://speko.ai/favicon.ico
 layout: provider
 mcp_servers:
@@ -223,22 +230,22 @@ plans:
 random_paper: 18
 score:
   band: strong
-  composite: 56.5
+  composite: 60.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.0
+  delta: 1.6
   facets:
-    access_clarity: 71.1
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 61.0
+    contract_quality: 58.7
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 26.3
+    discoverability: 65.0
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -246,7 +253,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 50.5
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -269,13 +276,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/screenshots/speko-2026-08-17T082025.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/speko/speko-2026-08-17T082025.png
 security:
 - kind: authentication
   name: Speko Authentication
@@ -285,6 +293,14 @@ security:
   name: Speko Domain Security
   slug: speko-domain-security
   summary_line: TLSv1.3
+skill_count: 3
+skills:
+- name: Create a voice agent and start a browser session
+  slug: speko-create-agent-and-session
+- name: Transcribe, complete, and synthesize with automatic provider routing
+  slug: speko-one-shot-voice
+- name: Place an outbound phone call and pull the call report
+  slug: speko-outbound-phone-call
 slug: speko
 tags:
 - Voice

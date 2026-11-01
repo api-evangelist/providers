@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -85,15 +87,12 @@ apis:
   description: Serviceable Zips
   name: Veho Zips API
   slug: veho-zips-api
-artifact_total: 31
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Veho Webhooks
   slug: veho-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Veho labels API
   slug: open-veho-labels-api
@@ -120,7 +119,7 @@ collections:
   slug: open-veho-zips-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/capabilities/veho-capability-edges.yml
+  href: https://artifacts.apis.io/veho/capabilities/veho-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/veho-capability-edges.yml
@@ -173,102 +172,102 @@ common:
   type: Compliance
   url: https://www.shipveho.com/security
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/changelog/veho-changelog.yml
+  href: https://artifacts.apis.io/veho/changelog/veho-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/veho-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/lifecycle/veho-lifecycle.yml
+  href: https://artifacts.apis.io/veho/lifecycle/veho-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/veho-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/lifecycle/veho-lifecycle.yml
+  href: https://artifacts.apis.io/veho/lifecycle/veho-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/veho-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/asyncapi/veho-webhooks.yml
+  href: https://artifacts.apis.io/veho/asyncapi/veho-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/veho-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/conventions/veho-conventions.yml
+  href: https://artifacts.apis.io/veho/conventions/veho-conventions.yml
   title: ''
   type: Conventions
   url: conventions/veho-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/errors/veho-problem-types.yml
+  href: https://artifacts.apis.io/veho/errors/veho-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/veho-problem-types.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/sandbox/veho-sandbox.yml
+  href: https://artifacts.apis.io/veho/sandbox/veho-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/veho-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/conformance/veho-conformance.yml
+  href: https://artifacts.apis.io/veho/conformance/veho-conformance.yml
   title: ''
   type: Conformance
   url: conformance/veho-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/packages/veho-packages.yml
+  href: https://artifacts.apis.io/veho/packages/veho-packages.yml
   title: ''
   type: Packages
   url: packages/veho-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/mcp/veho-mcp.yml
+  href: https://artifacts.apis.io/veho/mcp/veho-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/veho-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/llms/veho-llms.txt
+  href: https://artifacts.apis.io/veho/llms/veho-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/veho-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/overlays/veho-api-overlay.yaml
+  href: https://artifacts.apis.io/veho/overlays/veho-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/veho-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/data-model/veho-data-model.yml
+  href: https://artifacts.apis.io/veho/data-model/veho-data-model.yml
   title: ''
   type: DataModel
   url: data-model/veho-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/components/veho-components.yml
+  href: https://artifacts.apis.io/veho/components/veho-components.yml
   title: ''
   type: Components
   url: components/veho-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/veho/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/agentic-access/veho-agentic-access.yml
+  href: https://artifacts.apis.io/veho/agentic-access/veho-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/veho-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/security/veho-trust-center.yml
+  href: https://artifacts.apis.io/veho/security/veho-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/veho-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/security/veho-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/veho/security/veho-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/veho-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/security/veho-domain-security.yml
+  href: https://artifacts.apis.io/veho/security/veho-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/veho-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/authentication/veho-authentication.yml
+  href: https://artifacts.apis.io/veho/authentication/veho-authentication.yml
   title: ''
   type: Authentication
   url: authentication/veho-authentication.yml
@@ -312,10 +311,10 @@ overview: 'Veho publishes 8 API contracts indexed on the [APIs.io](https://apis.
 
 
   Veho''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, sandbox, and 26 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
-  band: strong
-  composite: 56.1
+  band: developing
+  composite: 53.7
   coverage:
     artifact_dirs: 26
     catalog_earned: 37.0
@@ -327,11 +326,11 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 63.4
+    contract_quality: 60.5
     developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 56.1
+    operational_transparency: 47.4
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -348,13 +347,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/screenshots/veho-2026-08-17T082724.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/veho/veho-2026-08-17T082724.png
 security:
 - kind: authentication
   name: Veho Authentication
@@ -372,6 +372,18 @@ security:
   name: Veho Trust Center
   slug: veho-trust-center
   summary_line: ISO 27001
+skill_count: 5
+skills:
+- name: Create a Veho order and download its shipping label
+  slug: veho-create-order-and-label
+- name: Quote a Veho shipment and check serviceability
+  slug: veho-quote-and-serviceability
+- name: Subscribe to Veho package events via webhooks
+  slug: veho-subscribe-to-package-events
+- name: Subscribe to Veho package-milestone webhooks
+  slug: veho-subscribe-to-webhooks
+- name: Track a Veho package
+  slug: veho-track-a-package
 slug: veho
 tags:
 - Company

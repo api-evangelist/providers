@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.3
-  scored_at: '2026-10-17'
+  score: 34.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -72,9 +74,6 @@ collections:
   name: DocuSeal Submissions Templates API
   slug: postman-docuseal-templates-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: DocuSeal Submissions API
   slug: open-docuseal-submissions-api
 - collection_type: open
@@ -89,27 +88,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/docuseal/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/agentic-access/docuseal-agentic-access.yml
+  href: https://artifacts.apis.io/docuseal/agentic-access/docuseal-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/docuseal-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/security/docuseal-trust-center.yml
+  href: https://artifacts.apis.io/docuseal/security/docuseal-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/docuseal-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/security/docuseal-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/docuseal/security/docuseal-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/docuseal-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/security/docuseal-domain-security.yml
+  href: https://artifacts.apis.io/docuseal/security/docuseal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/docuseal-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/authentication/docuseal-authentication.yml
+  href: https://artifacts.apis.io/docuseal/authentication/docuseal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/docuseal-authentication.yml
@@ -223,13 +222,13 @@ examples:
   name: Docuseal Create Template From Pdf Example
   slug: docuseal-create-template-from-pdf-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Docuseal Finops
-  primary_unit: ''
+  primary_unit: user
   service_category: ''
   slug: docuseal-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/docuseal.png
 json_schemas:
 - name: DocuSeal Submission
@@ -261,9 +260,12 @@ overview: 'DocuSeal publishes 3 API contracts indexed on the [APIs.io](https://a
   DocuSeal''s developer surface includes authentication, documentation, getting-started guide, API reference, engineering blog, changelog, pricing, and 24 more developer resources.'
 plans:
 - name: Docuseal Plans Pricing
-  plan_count: 5
+  plan_count: 8
   slug: docuseal-plans-pricing
-random_paper: 12
+- name: Docuseal Price Estimates
+  plan_count: 0
+  slug: docuseal-price-estimates
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Docuseal Rate Limits
@@ -282,23 +284,23 @@ rules:
   slug: docuseal-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.3
+  composite: 53.1
   coverage:
     artifact_dirs: 19
-    catalog_earned: 55.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 59.3
+    catalog_earned: 67.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 57.9
     contract_governance: 23.5
     contract_quality: 55.2
     developer_ergonomics: 47.6
-    discoverability: 68.3
-    operational_transparency: 34.2
-  previous_composite: 51.9
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
@@ -313,13 +315,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/screenshots/docuseal-2026-06-20T180122.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/docuseal/docuseal-2026-06-20T180122.png
 security:
 - kind: authentication
   name: Docuseal Authentication

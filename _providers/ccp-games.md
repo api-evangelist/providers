@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-17'
+  score: 25.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -198,11 +200,8 @@ apis:
   description: The Wars API from CCP Games — 3 operation(s) for wars.
   name: CCP Games Wars API
   slug: ccp-games-wars-api
-artifact_total: 68
+artifact_total: 70
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: EVE Swagger Incineration (ESI) - tranquility Alliance API
   slug: open-ccp-games-alliance-api
@@ -302,42 +301,42 @@ common:
   type: BlogRSS
   url: https://developers.eveonline.com/feed.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/capabilities/ccp-games-capability-edges.yml
+  href: https://artifacts.apis.io/ccp-games/capabilities/ccp-games-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ccp-games-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ccp-games/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/overlays/ccp-games-esi-overlay.yaml
+  href: https://artifacts.apis.io/ccp-games/overlays/ccp-games-esi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ccp-games-esi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/llms/ccp-games-llms.txt
+  href: https://artifacts.apis.io/ccp-games/llms/ccp-games-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ccp-games-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/mcp/ccp-games-mcp.yml
+  href: https://artifacts.apis.io/ccp-games/mcp/ccp-games-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ccp-games-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/data-model/ccp-games-data-model.yml
+  href: https://artifacts.apis.io/ccp-games/data-model/ccp-games-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ccp-games-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/conformance/ccp-games-conformance.yml
+  href: https://artifacts.apis.io/ccp-games/conformance/ccp-games-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ccp-games-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/changelog/ccp-games-changelog.yml
+  href: https://artifacts.apis.io/ccp-games/changelog/ccp-games-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ccp-games-changelog.yml
@@ -346,17 +345,17 @@ common:
   type: Deprecation
   url: https://docs.esi.evetech.net/docs/guidelines.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/lifecycle/ccp-games-lifecycle.yml
+  href: https://artifacts.apis.io/ccp-games/lifecycle/ccp-games-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ccp-games-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/conventions/ccp-games-conventions.yml
+  href: https://artifacts.apis.io/ccp-games/conventions/ccp-games-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ccp-games-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/errors/ccp-games-problem-types.yml
+  href: https://artifacts.apis.io/ccp-games/errors/ccp-games-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ccp-games-problem-types.yml
@@ -365,37 +364,37 @@ common:
   type: Security
   url: https://www.eveonline.com/article/responsible-disclosure-reporting-security-issues
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/well-known/ccp-games-security.txt
+  href: https://artifacts.apis.io/ccp-games/well-known/ccp-games-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ccp-games-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/well-known/ccp-games-well-known.yml
+  href: https://artifacts.apis.io/ccp-games/well-known/ccp-games-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ccp-games-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/security/ccp-games-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ccp-games/security/ccp-games-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ccp-games-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/security/ccp-games-domain-security.yml
+  href: https://artifacts.apis.io/ccp-games/security/ccp-games-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ccp-games-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/agentic-access/ccp-games-agentic-access.yml
+  href: https://artifacts.apis.io/ccp-games/agentic-access/ccp-games-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ccp-games-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/scopes/ccp-games-scopes.yml
+  href: https://artifacts.apis.io/ccp-games/scopes/ccp-games-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ccp-games-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/authentication/ccp-games-authentication.yml
+  href: https://artifacts.apis.io/ccp-games/authentication/ccp-games-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ccp-games-authentication.yml
@@ -447,7 +446,7 @@ overview: 'CCP Games publishes 31 API contracts indexed on the [APIs.io](https:/
 
 
   CCP Games'' developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 0
+random_paper: 16
 scopes:
 - name: Ccp Games Scopes
   scope_count: 70
@@ -455,7 +454,7 @@ scopes:
   summary_line: 70 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.5
+  composite: 43.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -463,21 +462,21 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 47.4
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 36.8
+    discoverability: 66.1
+    operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
     - nordics
-  previous_composite: 43.4
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -494,13 +493,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/screenshots/ccp-games-2026-07-25T204826.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ccp-games/ccp-games-2026-07-25T204826.png
 security:
 - kind: authentication
   name: Ccp Games Authentication
@@ -514,6 +514,14 @@ security:
   name: Ccp Games Vulnerability Disclosure
   slug: ccp-games-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Look up an EVE Online character and their org
+  slug: ccp-games-lookup-character
+- name: Pull EVE Online market data
+  slug: ccp-games-market-data
+- name: Read a character's wallet, assets, and skills
+  slug: ccp-games-read-character-wallet-and-assets
 slug: ccp-games
 tags:
 - Company

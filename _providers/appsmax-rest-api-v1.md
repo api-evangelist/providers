@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 21
   slug: appsmax-rest-api-v1-agentic-access
   summary_line: 21 operations · 6 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://telegram.appsmax.ru/api/v1
   baseurl_source: declared
@@ -89,14 +91,11 @@ apis:
   description: Подписчики и их сегментационные теги.
   name: AppsMax Subscribers API
   slug: appsmax-rest-api-v1-subscribers-api
-artifact_total: 27
+artifact_total: 31
 collections:
 - collection_type: postman
   name: AppsMax REST API v1 — Quickstart
   slug: postman-appsmax-rest-api-v1-quickstart
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AppsMax REST Access API
   slug: open-appsmax-rest-api-v1-access-api
@@ -126,22 +125,22 @@ collections:
   slug: open-appsmax-rest-api-v1-subscribers-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/mcp/appsmax-rest-api-v1-mcp.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/mcp/appsmax-rest-api-v1-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/appsmax-rest-api-v1-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/agentic-access/appsmax-rest-api-v1-agentic-access.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/agentic-access/appsmax-rest-api-v1-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/appsmax-rest-api-v1-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/security/appsmax-rest-api-v1-domain-security.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/security/appsmax-rest-api-v1-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/appsmax-rest-api-v1-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/authentication/appsmax-rest-api-v1-authentication.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/authentication/appsmax-rest-api-v1-authentication.yml
   title: ''
   type: Authentication
   url: authentication/appsmax-rest-api-v1-authentication.yml
@@ -194,82 +193,82 @@ common:
   type: Postman
   url: https://gitverse.ru/appsmax/appsmax-api-reference
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/conventions/appsmax-rest-api-v1-conventions.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/conventions/appsmax-rest-api-v1-conventions.yml
   title: ''
   type: Conventions
   url: conventions/appsmax-rest-api-v1-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/conventions/appsmax-rest-api-v1-conventions.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/conventions/appsmax-rest-api-v1-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/appsmax-rest-api-v1-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/errors/appsmax-rest-api-v1-problem-types.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/errors/appsmax-rest-api-v1-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/appsmax-rest-api-v1-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/lifecycle/appsmax-rest-api-v1-lifecycle.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/lifecycle/appsmax-rest-api-v1-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/appsmax-rest-api-v1-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/scopes/appsmax-rest-api-v1-scopes.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/scopes/appsmax-rest-api-v1-scopes.yml
   title: ''
   type: Scopes
   url: scopes/appsmax-rest-api-v1-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/conformance/appsmax-rest-api-v1-conformance.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/conformance/appsmax-rest-api-v1-conformance.yml
   title: ''
   type: Conformance
   url: conformance/appsmax-rest-api-v1-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/data-model/appsmax-rest-api-v1-data-model.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/data-model/appsmax-rest-api-v1-data-model.yml
   title: ''
   type: DataModel
   url: data-model/appsmax-rest-api-v1-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/packages/appsmax-rest-api-v1-packages.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/packages/appsmax-rest-api-v1-packages.yml
   title: ''
   type: Packages
   url: packages/appsmax-rest-api-v1-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/well-known/appsmax-rest-api-v1-well-known.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/well-known/appsmax-rest-api-v1-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/appsmax-rest-api-v1-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/llms/appsmax-rest-api-v1-llms.txt
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/llms/appsmax-rest-api-v1-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/appsmax-rest-api-v1-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/overlays/appsmax-rest-api-v1-rest-api-v1-overlay.yaml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/overlays/appsmax-rest-api-v1-rest-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsmax-rest-api-v1-rest-api-v1-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/rate-limits/appsmax-rest-api-v1-rate-limits.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/rate-limits/appsmax-rest-api-v1-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/appsmax-rest-api-v1-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/plans/appsmax-rest-api-v1-plans.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/plans/appsmax-rest-api-v1-plans.yml
   title: ''
   type: Plans
   url: plans/appsmax-rest-api-v1-plans.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/security/appsmax-rest-api-v1-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/appsmax-rest-api-v1/security/appsmax-rest-api-v1-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/appsmax-rest-api-v1-vulnerability-disclosure.yml
@@ -279,6 +278,14 @@ common:
   url: https://gitverse.ru/appsmax/appsmax-api-reference
 created: '2026-07-31'
 description: AppsMax.ru is a Russian-language SaaS platform for small business, communities and integrators, used to run customer requests, online booking, orders, mini apps, groups, channels, permitted messaging, GigaChat and integrations inside MAX and Telegram. Its developer surface is a single server-to-server REST API (v1) with a published OpenAPI 3.0.3 contract, an APIs.json index, an API Onboarding Descriptor and an llms.txt. AppsMax is not a product of, nor an official representative of, MAX, Telegram or GigaChat.
+finops:
+- has_sources: true
+  method: derived
+  name: Appsmax Rest Api V1 Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: appsmax-rest-api-v1-finops
+  template: false
 image: https://appsmax.ru/wp-content/themes/appsmax-site/assets/img/logo-appsmax.svg
 layout: provider
 modified: '2026-08-09'
@@ -293,7 +300,7 @@ plans:
 - name: Appsmax Rest Api V1 Plans
   plan_count: 5
   slug: appsmax-rest-api-v1-plans
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Appsmax Rest Api V1 Rate Limits
@@ -305,23 +312,23 @@ scopes:
   summary_line: 12 scopes
 score:
   band: strong
-  composite: 61.4
+  composite: 59.1
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 61.0
+    artifact_dirs: 25
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 51.3
     developer_ergonomics: 63.7
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 47.4
-  previous_composite: 61.7
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,13 +345,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/screenshots/appsmax-rest-api-v1-2026-08-17T080613.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/appsmax-rest-api-v1/appsmax-rest-api-v1-2026-08-17T080613.png
 security:
 - kind: authentication
   name: Appsmax Rest Api V1 Authentication
@@ -358,6 +366,16 @@ security:
   name: Appsmax Rest Api V1 Vulnerability Disclosure
   slug: appsmax-rest-api-v1-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 4
+skills:
+- name: Capture a customer request into AppsMax
+  slug: appsmax-rest-api-v1-capture-customer-request
+- name: Draft and launch an AppsMax campaign
+  slug: appsmax-rest-api-v1-draft-and-launch-campaign
+- name: Inventory an AppsMax bot estate
+  slug: appsmax-rest-api-v1-inventory-bot-estate
+- name: Sync subscribers into AppsMax
+  slug: appsmax-rest-api-v1-sync-subscribers
 slug: appsmax-rest-api-v1
 tags:
 - Company

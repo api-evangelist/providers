@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 35.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 26
   slug: n3rgy-agentic-access
   summary_line: 26 operations · 12 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api-v2.data.n3rgy.com
   baseurl_source: declared
@@ -111,14 +113,19 @@ apis:
   description: The Upload API from n3rgy — 4 operation(s) for upload.
   name: n3rgy Upload API
   slug: n3rgy-upload-api
-artifact_total: 25
+artifact_total: 31
 asyncapis:
 - description: ''
   name: N3Rgy Push Notifications Webhooks
   slug: n3rgy-push-notifications-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/n3rgy/plans/n3rgy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/n3rgy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/rate-limits/n3rgy-rate-limits.yml
+  href: https://artifacts.apis.io/n3rgy/rate-limits/n3rgy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/n3rgy-rate-limits.yml
@@ -127,37 +134,37 @@ common:
   type: BlogRSS
   url: https://www.n3rgy.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/capabilities/n3rgy-capability-edges.yml
+  href: https://artifacts.apis.io/n3rgy/capabilities/n3rgy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/n3rgy-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/overlays/n3rgy-customer-service-api-v2-overlay.yaml
+  href: https://artifacts.apis.io/n3rgy/overlays/n3rgy-customer-service-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/n3rgy-customer-service-api-v2-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/mcp/n3rgy-mcp.yml
+  href: https://artifacts.apis.io/n3rgy/mcp/n3rgy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/n3rgy-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/n3rgy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/agentic-access/n3rgy-agentic-access.yml
+  href: https://artifacts.apis.io/n3rgy/agentic-access/n3rgy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/n3rgy-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/security/n3rgy-domain-security.yml
+  href: https://artifacts.apis.io/n3rgy/security/n3rgy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/n3rgy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/authentication/n3rgy-authentication.yml
+  href: https://artifacts.apis.io/n3rgy/authentication/n3rgy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/n3rgy-authentication.yml
@@ -214,32 +221,32 @@ common:
   type: HelpCenter
   url: https://support.n3rgy.com/support/home
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/packages/n3rgy-packages.yml
+  href: https://artifacts.apis.io/n3rgy/packages/n3rgy-packages.yml
   title: ''
   type: Packages
   url: packages/n3rgy-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/well-known/n3rgy-well-known.yml
+  href: https://artifacts.apis.io/n3rgy/well-known/n3rgy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/n3rgy-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/llms/n3rgy-llms.txt
+  href: https://artifacts.apis.io/n3rgy/llms/n3rgy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/n3rgy-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/conformance/n3rgy-conformance.yml
+  href: https://artifacts.apis.io/n3rgy/conformance/n3rgy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/n3rgy-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/lifecycle/n3rgy-lifecycle.yml
+  href: https://artifacts.apis.io/n3rgy/lifecycle/n3rgy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/n3rgy-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/changelog/n3rgy-changelog.yml
+  href: https://artifacts.apis.io/n3rgy/changelog/n3rgy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/n3rgy-changelog.yml
@@ -268,6 +275,14 @@ examples:
 - key_count: 6
   name: N3Rgy Retrieve Consented Mpxns Example
   slug: n3rgy-retrieve-consented-mpxns-example
+finops:
+- has_sources: true
+  method: derived
+  name: N3Rgy Finops
+  primary_unit: ''
+  service_category: ''
+  slug: n3rgy-finops
+  template: true
 image: https://www.n3rgy.com/wp-content/uploads/2023/03/Group.png
 layout: provider
 modified: '2026-10-06'
@@ -280,30 +295,34 @@ overview: 'n3rgy publishes 13 API contracts indexed on the [APIs.io](https://api
   The n3rgy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  n3rgy''s developer surface includes authentication, documentation, signup flow, developer portal, pricing, support, changelog, and 21 more developer resources.'
-random_paper: 15
+  n3rgy''s developer surface includes authentication, documentation, signup flow, developer portal, pricing, support, changelog, and 22 more developer resources.'
+plans:
+- name: N3Rgy Plans Pricing
+  plan_count: 4
+  slug: n3rgy-plans-pricing
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: N3Rgy Rate Limits
   slug: n3rgy-rate-limits
 score:
-  band: developing
-  composite: 47.0
+  band: strong
+  composite: 59.0
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 26
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 38.2
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 59.4
-    developer_ergonomics: 35.1
+    developer_ergonomics: 51.8
     discoverability: 66.1
-    operational_transparency: 57.9
+    operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -312,7 +331,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 47.0
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -329,13 +348,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 36.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/screenshots/n3rgy-2026-08-07T184554.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/n3rgy/n3rgy-2026-08-07T184554.png
 security:
 - kind: authentication
   name: N3Rgy Authentication
@@ -345,6 +365,16 @@ security:
   name: N3Rgy Domain Security
   slug: n3rgy-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 4
+skills:
+- name: Run a DCC device inventory across a portfolio of properties
+  slug: n3rgy-check-estate-inventory
+- name: Unblock a property whose update frequencies are set to never
+  slug: n3rgy-fix-never-update-frequency
+- name: Pull half-hourly consumption for a consented property
+  slug: n3rgy-pull-property-consumption
+- name: Subscribe to push notifications instead of polling
+  slug: n3rgy-subscribe-push-notifications
 slug: n3rgy
 tags:
 - Energy

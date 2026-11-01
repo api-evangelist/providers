@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 29.3
-  scored_at: '2026-10-17'
+  score: 34.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,85 +50,85 @@ apis:
   description: The Game API from Chessigma — 2 operation(s) for game.
   name: Chessigma Game API
   slug: chessigma-game-api
-artifact_total: 13
+artifact_total: 15
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/agentic-access/chessigma-agentic-access.yml
+  href: https://artifacts.apis.io/chessigma/agentic-access/chessigma-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/chessigma-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/plans/chessigma-plans-pricing.yml
+  href: https://artifacts.apis.io/chessigma/plans/chessigma-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chessigma-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/rules/chessigma-rules.yml
+  href: https://artifacts.apis.io/chessigma/rules/chessigma-rules.yml
   title: ''
   type: Spectral
   url: rules/chessigma-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/json-ld/chessigma-context.jsonld
+  href: https://artifacts.apis.io/chessigma/json-ld/chessigma-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/chessigma-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/vocabulary/chessigma-vocabulary.yml
+  href: https://artifacts.apis.io/chessigma/vocabulary/chessigma-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/chessigma-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/chessigma/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/data-model/chessigma-data-model.yml
+  href: https://artifacts.apis.io/chessigma/data-model/chessigma-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chessigma-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/errors/chessigma-problem-types.yml
+  href: https://artifacts.apis.io/chessigma/errors/chessigma-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/chessigma-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/conformance/chessigma-conformance.yml
+  href: https://artifacts.apis.io/chessigma/conformance/chessigma-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chessigma-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/llms/chessigma-llms.txt
+  href: https://artifacts.apis.io/chessigma/llms/chessigma-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chessigma-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/well-known/chessigma-well-known.yml
+  href: https://artifacts.apis.io/chessigma/well-known/chessigma-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/chessigma-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/hosts/chessigma-hosts.yml
+  href: https://artifacts.apis.io/chessigma/hosts/chessigma-hosts.yml
   title: ''
   type: Hosts
   url: hosts/chessigma-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/vendors/chessigma-vendors.yml
+  href: https://artifacts.apis.io/chessigma/vendors/chessigma-vendors.yml
   title: ''
   type: Vendors
   url: vendors/chessigma-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/packages/chessigma-packages.yml
+  href: https://artifacts.apis.io/chessigma/packages/chessigma-packages.yml
   title: ''
   type: SDKs
   url: packages/chessigma-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/packages/chessigma-packages.yml
+  href: https://artifacts.apis.io/chessigma/packages/chessigma-packages.yml
   title: ''
   type: Packages
   url: packages/chessigma-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chessigma/refs/heads/main/security/chessigma-domain-security.yml
+  href: https://artifacts.apis.io/chessigma/security/chessigma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chessigma-domain-security.yml
@@ -160,6 +162,14 @@ common:
   url: https://www.chessigma.com/contact
 created: '2026-10-05'
 description: Chessigma provides a free, no‑auth API for chess game analysis and daily puzzles. Users can submit PGN games, retrieve engine analysis, calculate rating changes, and access training puzzles without signup or rate‑limited keys. The platform runs Stockfish in the browser, offering compute‑free, unlimited analysis for Chess.com, Lichess and uploaded PGN files.
+finops:
+- has_sources: true
+  method: derived
+  name: Chessigma Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: chessigma-finops
+  template: false
 image: https://www.chessigma.com/opengraph-image.png
 json_schemas:
 - name: DailyPuzzle
@@ -187,7 +197,7 @@ modified: '2026-10-05'
 name: Chessigma
 nav: Providers
 network: true
-overview: 'Chessigma publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Daily Puzzle API, Elo Calculator API, and Game API. Tagged areas include Company, Chess, Free, and NoAuth.
+overview: 'Chessigma publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Daily Puzzle API, Elo Calculator API, and Game API. Tagged areas include Company, Chess, Free, and No Auth.
 
 
   The Chessigma catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -198,7 +208,7 @@ plans:
 - name: Chessigma Plans Pricing
   plan_count: 5
   slug: chessigma-plans-pricing
-random_paper: 2
+random_paper: 12
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -214,21 +224,23 @@ rules:
   slug: chessigma-rules
 score:
   band: developing
-  composite: 44.1
+  composite: 45.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 69.8
+    artifact_dirs: 20
+    catalog_earned: 72.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 45.3
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 35.6
     contract_quality: 63.4
     developer_ergonomics: 25.6
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -245,21 +257,27 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Chessigma Domain Security
   slug: chessigma-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: chessigma-submit-and-retrieve-game
+  slug: chessigma-submit-and-retrieve-game
 slug: chessigma
 tags:
 - Company
 - Chess
 - Free
-- NoAuth
+- No Auth
 website: https://www.chessigma.com
 ---

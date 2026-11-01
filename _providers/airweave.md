@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 60.2
-  scored_at: '2026-10-17'
+  score: 54.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 27
   slug: airweave-agentic-access
   summary_line: 27 operations · 16 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.airweave.ai
   baseurl_source: declared
@@ -71,15 +73,12 @@ apis:
   description: The webhooks API from Airweave — 5 operation(s) for webhooks.
   name: Airweave Webhooks API
   slug: airweave-webhooks-api
-artifact_total: 18
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Airweave Webhooks
   slug: airweave-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API Reference collections API
   slug: open-airweave-collections-api
@@ -97,12 +96,12 @@ collections:
   slug: open-airweave-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/plans/airweave-plans-pricing.yml
+  href: https://artifacts.apis.io/airweave/plans/airweave-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/airweave-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/capabilities/airweave-capability-edges.yml
+  href: https://artifacts.apis.io/airweave/capabilities/airweave-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/airweave-capability-edges.yml
@@ -155,102 +154,110 @@ common:
   type: PrivacyPolicy
   url: https://airweave.ai/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/llms/airweave-llms.txt
+  href: https://artifacts.apis.io/airweave/llms/airweave-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/airweave-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/packages/airweave-packages.yml
+  href: https://artifacts.apis.io/airweave/packages/airweave-packages.yml
   title: ''
   type: Packages
   url: packages/airweave-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/packages/airweave-packages.yml
+  href: https://artifacts.apis.io/airweave/packages/airweave-packages.yml
   title: ''
   type: SDKs
   url: packages/airweave-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/cli/airweave-cli.yml
+  href: https://artifacts.apis.io/airweave/cli/airweave-cli.yml
   title: ''
   type: CLI
   url: cli/airweave-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/mcp/airweave-mcp.yml
+  href: https://artifacts.apis.io/airweave/mcp/airweave-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/airweave-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/airweave/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/well-known/airweave-well-known.yml
+  href: https://artifacts.apis.io/airweave/well-known/airweave-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/airweave-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/asyncapi/airweave-webhooks.yml
+  href: https://artifacts.apis.io/airweave/asyncapi/airweave-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/airweave-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/conventions/airweave-conventions.yml
+  href: https://artifacts.apis.io/airweave/conventions/airweave-conventions.yml
   title: ''
   type: Conventions
   url: conventions/airweave-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/errors/airweave-problem-types.yml
+  href: https://artifacts.apis.io/airweave/errors/airweave-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/airweave-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/lifecycle/airweave-lifecycle.yml
+  href: https://artifacts.apis.io/airweave/lifecycle/airweave-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/airweave-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/rate-limits/airweave-rate-limits.yml
+  href: https://artifacts.apis.io/airweave/rate-limits/airweave-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/airweave-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/conformance/airweave-conformance.yml
+  href: https://artifacts.apis.io/airweave/conformance/airweave-conformance.yml
   title: ''
   type: Conformance
   url: conformance/airweave-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/data-model/airweave-data-model.yml
+  href: https://artifacts.apis.io/airweave/data-model/airweave-data-model.yml
   title: ''
   type: DataModel
   url: data-model/airweave-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/components/airweave-components.yml
+  href: https://artifacts.apis.io/airweave/components/airweave-components.yml
   title: ''
   type: Components
   url: components/airweave-components.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/overlays/airweave-openapi-overlay.yaml
+  href: https://artifacts.apis.io/airweave/overlays/airweave-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/airweave-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/agentic-access/airweave-agentic-access.yml
+  href: https://artifacts.apis.io/airweave/agentic-access/airweave-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/airweave-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/security/airweave-domain-security.yml
+  href: https://artifacts.apis.io/airweave/security/airweave-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/airweave-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/authentication/airweave-authentication.yml
+  href: https://artifacts.apis.io/airweave/authentication/airweave-authentication.yml
   title: ''
   type: Authentication
   url: authentication/airweave-authentication.yml
 created: '2026-07-17'
 description: Airweave is an open-source (MIT) context-retrieval layer that lets AI agents and RAG pipelines search across 50+ connected apps and databases through a single API. It syncs data from sources like Slack, Notion, GitHub, Google Drive, and Postgres, then exposes instant (sub-second vector), classic (LLM-planned), and agentic (multi-step) search over unified collections. Query it via the REST API, official Python and TypeScript SDKs, a CLI, an embeddable Connect UI widget, or a hosted Model Context Protocol (MCP) server, with real-time Svix-backed webhooks for sync and source-connection lifecycle events.
+finops:
+- has_sources: true
+  method: derived
+  name: Airweave Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: airweave-finops
+  template: false
 image: https://github.com/airweave-ai.png
 layout: provider
 mcp_servers:
@@ -272,30 +279,33 @@ plans:
 - name: Airweave Plans Pricing
   plan_count: 4
   slug: airweave-plans-pricing
-random_paper: 16
+- name: Airweave Price Estimates
+  plan_count: 0
+  slug: airweave-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Airweave Rate Limits
   slug: airweave-rate-limits
 score:
   band: strong
-  composite: 54.6
+  composite: 59.1
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 61.0
+    artifact_dirs: 29
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 57.9
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 57.9
+    contract_quality: 54.6
     developer_ergonomics: 73.2
-    discoverability: 75.0
-    operational_transparency: 42.1
-  previous_composite: 48.2
+    discoverability: 65.0
+    operational_transparency: 44.7
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -312,13 +322,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/screenshots/airweave-2026-07-25T195446.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/airweave/airweave-2026-07-25T195446.png
 security:
 - kind: authentication
   name: Airweave Authentication
@@ -328,6 +339,12 @@ security:
   name: Airweave Domain Security
   slug: airweave-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Search an Airweave collection
+  slug: airweave-search
+- name: Set up a collection and connect a source
+  slug: airweave-setup
 slug: airweave
 tags:
 - Company

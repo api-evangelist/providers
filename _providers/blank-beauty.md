@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,41 +14,43 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.5
-  scored_at: '2026-10-17'
+  score: 7.6
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blank-beauty/refs/heads/main/llms/blank-beauty-llms.txt
+  href: https://artifacts.apis.io/blank-beauty/llms/blank-beauty-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blank-beauty-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blank-beauty/refs/heads/main/well-known/blank-beauty-well-known.yml
+  href: https://artifacts.apis.io/blank-beauty/well-known/blank-beauty-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blank-beauty-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blank-beauty/refs/heads/main/hosts/blank-beauty-hosts.yml
+  href: https://artifacts.apis.io/blank-beauty/hosts/blank-beauty-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blank-beauty-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blank-beauty/refs/heads/main/vendors/blank-beauty-vendors.yml
+  href: https://artifacts.apis.io/blank-beauty/vendors/blank-beauty-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blank-beauty-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blank-beauty/refs/heads/main/security/blank-beauty-domain-security.yml
+  href: https://artifacts.apis.io/blank-beauty/security/blank-beauty-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blank-beauty-domain-security.yml
@@ -96,10 +98,10 @@ overview: 'Blank Beauty is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Blank Beauty''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: minimal
-  composite: 10.0
+  composite: 9.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -113,9 +115,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 10.0
+  previous_composite: 9.3
   provenance:
     mcp: unknown
   regulatory:
@@ -124,8 +126,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

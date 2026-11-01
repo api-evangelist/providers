@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The Pulse §170.315(g)(10) ONC Certified FHIR API enables third-party application developers to register, authenticate, and integrate with providers using Harris Pulse EHR software. The documentation d
@@ -51,22 +53,22 @@ apis:
 artifact_total: 8
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/harris-ambulatory-care-enterprise/refs/heads/main/plans/harris-ambulatory-care-enterprise-plans-pricing.yml
+  href: https://artifacts.apis.io/harris-ambulatory-care-enterprise/plans/harris-ambulatory-care-enterprise-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/harris-ambulatory-care-enterprise-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/harris-ambulatory-care-enterprise/refs/heads/main/rate-limits/harris-ambulatory-care-enterprise-rate-limits.yml
+  href: https://artifacts.apis.io/harris-ambulatory-care-enterprise/rate-limits/harris-ambulatory-care-enterprise-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/harris-ambulatory-care-enterprise-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/harris-ambulatory-care-enterprise/refs/heads/main/finops/harris-ambulatory-care-enterprise-finops.yml
+  href: https://artifacts.apis.io/harris-ambulatory-care-enterprise/finops/harris-ambulatory-care-enterprise-finops.yml
   title: ''
   type: FinOps
   url: finops/harris-ambulatory-care-enterprise-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/harris-ambulatory-care-enterprise/refs/heads/main/security/harris-ambulatory-care-enterprise-domain-security.yml
+  href: https://artifacts.apis.io/harris-ambulatory-care-enterprise/security/harris-ambulatory-care-enterprise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/harris-ambulatory-care-enterprise-domain-security.yml
@@ -104,7 +106,7 @@ finops:
 - has_sources: false
   method: generated
   name: Harris Ambulatory Care Enterprise Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: harris-ambulatory-care-enterprise-finops
   template: true
@@ -119,7 +121,7 @@ plans:
 - name: Harris Ambulatory Care Enterprise Plans Pricing
   plan_count: 3
   slug: harris-ambulatory-care-enterprise-plans-pricing
-random_paper: 6
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Harris Ambulatory Care Enterprise Rate Limits
@@ -134,7 +136,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -142,21 +144,21 @@ score:
     developer_ergonomics: 9.5
     discoverability: 71.4
     operational_transparency: 7.9
-  previous_composite: 12.1
+  previous_composite: 10.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/harris-ambulatory-care-enterprise/refs/heads/main/screenshots/harris-ambulatory-care-enterprise-2026-06-20T182518.png
+screenshot: https://apis.io/screenshots/harris-ambulatory-care-enterprise/harris-ambulatory-care-enterprise-2026-06-20T182518.png
 security:
 - kind: domain-security
   name: Harris Ambulatory Care Enterprise Domain Security

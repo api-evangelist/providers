@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.7
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -62,11 +64,8 @@ apis:
   description: Refund settled FawryPay orders.
   name: Fawry Refunds API
   slug: fawry-refunds-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: FawryPay Server Installments API
   slug: open-fawry-installments-api
@@ -92,17 +91,17 @@ common:
   type: BlogRSS
   url: https://www.fawry.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/capabilities/fawry-capability-edges.yml
+  href: https://artifacts.apis.io/fawry/capabilities/fawry-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fawry-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/agentic-access/fawry-agentic-access.yml
+  href: https://artifacts.apis.io/fawry/agentic-access/fawry-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fawry-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/security/fawry-domain-security.yml
+  href: https://artifacts.apis.io/fawry/security/fawry-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fawry-domain-security.yml
@@ -278,25 +277,25 @@ overview: 'Fawry publishes 4 API contracts indexed on the [APIs.io](https://apis
 
 
   Fawry''s developer surface includes engineering blog, developer portal, getting-started guide, documentation, signup flow, support, code examples, and 35 more developer resources.'
-random_paper: 3
+random_paper: 1
 score:
   band: thin
-  composite: 28.5
+  composite: 30.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 48.6
-    developer_ergonomics: 52.4
+    developer_ergonomics: 54.8
     discoverability: 57.1
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -306,7 +305,7 @@ score:
     - africa
     - mena
     - north-africa
-  previous_composite: 28.0
+  previous_composite: 30.0
   provenance:
     agentic_access: derived
     contracts:
@@ -320,13 +319,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/screenshots/fawry-2026-06-20T181100.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fawry/fawry-2026-06-20T181100.png
 security:
 - kind: domain-security
   name: Fawry Domain Security

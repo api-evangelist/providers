@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 45
   slug: faa-agentic-access
   summary_line: 45 operations · 9 acting
-api_count: 4
+api_count: 5
 apis:
 - description: Notices to Air Missions retrieval API. Probe-confirmed live but gated — an unauthenticated GET returned HTTP 401 with the body {"message":"Unauthorized", "http_status_code":401} on 2026-07-28, while t
   name: FAA NOTAM API
@@ -189,7 +191,37 @@ apis:
 - description: The FAA System Wide Information Management (SWIM) program is a service-oriented information sharing platform that delivers real-time National Airspace System data to authorized consumers. SWIM publish
   name: FAA System Wide Information Management
   slug: swim
-artifact_total: 46
+- baseURL: https://external-api.faa.gov/notamapi/v1
+  baseurl_source: declared
+  description: The airport-events-controller API from Federal Aviation Administration — 1 operation(s) for airport-events-controller.
+  name: Federal Aviation Administration Airport Events Controller API
+  slug: faa-airport-events-controller-api
+- baseURL: https://external-api.faa.gov/notamapi/v1
+  baseurl_source: declared
+  description: The airport-status-information-controller API from Federal Aviation Administration — 1 operation(s) for airport-status-information-controller.
+  name: Federal Aviation Administration Airport Status Information Controller API
+  slug: faa-airport-status-information-controller-api
+- baseURL: https://external-api.faa.gov/notamapi/v1
+  baseurl_source: declared
+  description: The analytics-controller API from Federal Aviation Administration — 1 operation(s) for analytics-controller.
+  name: Federal Aviation Administration Analytics Controller API
+  slug: faa-analytics-controller-api
+- baseURL: https://external-api.faa.gov/notamapi/v1
+  baseurl_source: declared
+  description: The artcc-boundary-controller API from Federal Aviation Administration — 1 operation(s) for artcc-boundary-controller.
+  name: Federal Aviation Administration Artcc Boundary Controller API
+  slug: faa-artcc-boundary-controller-api
+- baseURL: https://external-api.faa.gov/notamapi/v1
+  baseurl_source: declared
+  description: The operations-plan-controller API from Federal Aviation Administration — 1 operation(s) for operations-plan-controller.
+  name: Federal Aviation Administration Operations Plan Controller API
+  slug: faa-operations-plan-controller-api
+- baseURL: https://external-api.faa.gov/notamapi/v1
+  baseurl_source: declared
+  description: The reset-db-controller API from Federal Aviation Administration — 1 operation(s) for reset-db-controller.
+  name: Federal Aviation Administration Reset Db Controller API
+  slug: faa-reset-db-controller-api
+artifact_total: 56
 asyncapis:
 - description: ''
   name: Faa Swim Event Surface
@@ -213,52 +245,52 @@ common:
   type: Pricing
   url: https://apim-api.apic4e.faa.gov/portal/environments/DEFAULT/apis/{id}/plans
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/capabilities/faa-capability-edges.yml
+  href: https://artifacts.apis.io/faa/capabilities/faa-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/faa-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/overlays/faa-aeronautic-product-release-api-overlay.yaml
+  href: https://artifacts.apis.io/faa/overlays/faa-aeronautic-product-release-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/faa-aeronautic-product-release-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/skills/faa-track-nasr-28-day-cycle.md
+  href: https://artifacts.apis.io/faa/skills/faa-track-nasr-28-day-cycle.md
   title: ''
   type: AgentSkill
   url: skills/faa-track-nasr-28-day-cycle.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/skills/faa-fetch-terminal-procedures-and-charts.md
+  href: https://artifacts.apis.io/faa/skills/faa-fetch-terminal-procedures-and-charts.md
   title: ''
   type: AgentSkill
   url: skills/faa-fetch-terminal-procedures-and-charts.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/overlays/faa-air-carrier-prd-api-overlay.yaml
+  href: https://artifacts.apis.io/faa/overlays/faa-air-carrier-prd-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/faa-air-carrier-prd-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/overlays/faa-safety-assurance-system-api-overlay.yaml
+  href: https://artifacts.apis.io/faa/overlays/faa-safety-assurance-system-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/faa-safety-assurance-system-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/agentic-access/faa-agentic-access.yml
+  href: https://artifacts.apis.io/faa/agentic-access/faa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/faa-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/security/faa-domain-security.yml
+  href: https://artifacts.apis.io/faa/security/faa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/faa-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/authentication/faa-authentication.yml
+  href: https://artifacts.apis.io/faa/authentication/faa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/faa-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/security/faa-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/faa/security/faa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/faa-vulnerability-disclosure.yml
@@ -267,17 +299,17 @@ common:
   type: Security
   url: https://www.faa.gov/web_policies/vulnerability_disclosure_policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/conventions/faa-conventions.yml
+  href: https://artifacts.apis.io/faa/conventions/faa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/faa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/errors/faa-problem-types.yml
+  href: https://artifacts.apis.io/faa/errors/faa-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/faa-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/lifecycle/faa-lifecycle.yml
+  href: https://artifacts.apis.io/faa/lifecycle/faa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/faa-lifecycle.yml
@@ -290,37 +322,37 @@ common:
   type: Deprecation
   url: https://nms.aim.faa.gov/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/conformance/faa-conformance.yml
+  href: https://artifacts.apis.io/faa/conformance/faa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/faa-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/data-model/faa-data-model.yml
+  href: https://artifacts.apis.io/faa/data-model/faa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/faa-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/plans/faa-plans.yml
+  href: https://artifacts.apis.io/faa/plans/faa-plans.yml
   title: ''
   type: Plans
   url: plans/faa-plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/rate-limits/faa-rate-limits.yml
+  href: https://artifacts.apis.io/faa/rate-limits/faa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/faa-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/packages/faa-packages.yml
+  href: https://artifacts.apis.io/faa/packages/faa-packages.yml
   title: ''
   type: Packages
   url: packages/faa-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/packages/faa-packages.yml
+  href: https://artifacts.apis.io/faa/packages/faa-packages.yml
   title: ''
   type: SDKs
   url: packages/faa-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/well-known/faa-well-known.yml
+  href: https://artifacts.apis.io/faa/well-known/faa-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/faa-well-known.yml
@@ -329,22 +361,22 @@ common:
   type: APICatalog
   url: https://apim-api.apic4e.faa.gov/portal/environments/DEFAULT/apis
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/mcp/faa-mcp.yml
+  href: https://artifacts.apis.io/faa/mcp/faa-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/faa-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/faa/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/llms/faa-llms.txt
+  href: https://artifacts.apis.io/faa/llms/faa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/faa-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/asyncapi/faa-swim-event-surface.yml
+  href: https://artifacts.apis.io/faa/asyncapi/faa-swim-event-surface.yml
   title: ''
   type: Events
   url: asyncapi/faa-swim-event-surface.yml
@@ -447,13 +479,21 @@ common:
 created: '2026-07-28'
 description: The Federal Aviation Administration (FAA) is the United States civil aviation authority, an operating administration of the U.S. Department of Transportation. It regulates and certificates aircraft, airmen, airports and air carriers, operates the National Airspace System and its air traffic control, and issues the aeronautical information the entire U.S. travel and aviation chain runs on — NOTAMs, TFRs, charts, the 28-day NASR subscription, aircraft registration and airport data. It sits upstream of commercial travel distribution rather than inside it — the FAA sells no inventory and is not a GDS, NDC or channel participant, but every airline, GDS, OTA, flight-planning app and drone service supplier in the United States consumes FAA data as a source of truth. Its API posture is genuinely mixed and honest reporting requires saying so. The Airport Status Web Service and the Aeronautic Product Release API are published under a Creative Commons Zero licence, answer unauthenticated
   over HTTPS, and ship real OpenAPI 3.0.1 documents through a public Gravitee developer portal at api.faa.gov. Alongside them the FAA runs a CKAN 2.11.4 catalog and two ArcGIS Open Data hubs with DCAT-US 1.1 feeds and bulk CSV/GeoJSON/KML export. But the NOTAM API, the Air Carrier Pilot Records Database API and SWIM are gated — client_id/client_secret headers, operator eligibility restricted by regulation, or an executed SWIM agreement — and LAANC drone authorization is reachable only through FAA-approved UAS Service Suppliers, never directly.
+finops:
+- has_sources: true
+  method: derived
+  name: Faa Finops
+  primary_unit: ''
+  service_category: ''
+  slug: faa-finops
+  template: true
 image: https://www.faa.gov/themes/custom/faa/favicon.png
 layout: provider
 modified: '2026-07-28'
 name: Federal Aviation Administration
 nav: Providers
 network: true
-overview: 'Federal Aviation Administration publishes 35 API contracts indexed on the [APIs.io](https://apis.io/) network, including Air Carrier API, Axhsubmitdiscrepancies API, Coded Instrument Flight Procedures (CIFP) API, and 32 more. Tagged areas include Travel, United States, Aviation, Airports, and Government.
+overview: 'Federal Aviation Administration publishes 41 API contracts indexed on the [APIs.io](https://apis.io/) network, including Air Carrier API, Axhsubmitdiscrepancies API, Coded Instrument Flight Procedures (CIFP) API, and 38 more. Tagged areas include Travel, United States, Aviation, Airports, and Government.
 
 
   The Federal Aviation Administration catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -464,27 +504,27 @@ plans:
 - name: Faa Plans
   plan_count: 5
   slug: faa-plans
-random_paper: 10
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Faa Rate Limits
   slug: faa-rate-limits
 score:
-  band: developing
-  composite: 53.7
+  band: strong
+  composite: 58.8
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 55.0
     catalog_earned_first_party: 20.0
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.0
+  delta: -0.2
   facets:
-    access_clarity: 63.2
+    access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 48.9
-    developer_ergonomics: 56.5
+    contract_quality: 48.1
+    developer_ergonomics: 66.1
     discoverability: 73.2
     operational_transparency: 60.5
   jurisdiction:
@@ -494,15 +534,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 51.7
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 94.7
+      callable: 96.0
       derived: 0
       marker_coverage: 0.0
-      total: 19
+      total: 25
     mcp: derived
     skills: derived
   regulatory:
@@ -511,13 +551,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/screenshots/faa-2026-08-07T165207.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/faa/faa-2026-08-07T165207.png
 security:
 - kind: authentication
   name: Faa Authentication
@@ -531,6 +572,14 @@ security:
   name: Faa Vulnerability Disclosure
   slug: faa-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 3
+skills:
+- name: Check US airport delays and ground stops
+  slug: faa-check-airport-delays
+- name: Fetch FAA terminal procedures and VFR/IFR charts
+  slug: faa-fetch-terminal-procedures-and-charts
+- name: Track and download the NASR 28-day subscription
+  slug: faa-track-nasr-28-day-cycle
 slug: faa
 tags:
 - Travel

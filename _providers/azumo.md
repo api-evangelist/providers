@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,37 +53,37 @@ common:
   type: BlogRSS
   url: https://azumo.com/insights/rss.xml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/azumo/refs/heads/main/agentic-access/azumo-agentic-access.yml
+  href: https://artifacts.apis.io/azumo/agentic-access/azumo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/azumo-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/azumo/refs/heads/main/plans/azumo-plans-pricing.yml
+  href: https://artifacts.apis.io/azumo/plans/azumo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/azumo-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azumo/refs/heads/main/rules/azumo-rules.yml
+  href: https://artifacts.apis.io/azumo/rules/azumo-rules.yml
   title: ''
   type: Spectral
   url: rules/azumo-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/azumo/refs/heads/main/conformance/azumo-conformance.yml
+  href: https://artifacts.apis.io/azumo/conformance/azumo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/azumo-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/azumo/refs/heads/main/llms/azumo-llms.txt
+  href: https://artifacts.apis.io/azumo/llms/azumo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/azumo-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azumo/refs/heads/main/hosts/azumo-hosts.yml
+  href: https://artifacts.apis.io/azumo/hosts/azumo-hosts.yml
   title: ''
   type: Hosts
   url: hosts/azumo-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azumo/refs/heads/main/vendors/azumo-vendors.yml
+  href: https://artifacts.apis.io/azumo/vendors/azumo-vendors.yml
   title: ''
   type: Vendors
   url: vendors/azumo-vendors.yml
@@ -102,7 +104,7 @@ common:
   type: GettingStarted
   url: https://azumo.com/artificial-intelligence/ai-agent-development-service/hr
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azumo/refs/heads/main/security/azumo-domain-security.yml
+  href: https://artifacts.apis.io/azumo/security/azumo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/azumo-domain-security.yml
@@ -129,7 +131,7 @@ plans:
 - name: Azumo Plans Pricing
   plan_count: 3
   slug: azumo-plans-pricing
-random_paper: 6
+random_paper: 4
 rules:
 - authorship: generated
   effective_rule_count: 48
@@ -144,8 +146,8 @@ rules:
     warn: 1
   slug: azumo-rules
 score:
-  band: thin
-  composite: 26.7
+  band: emerging
+  composite: 25.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 48.5
@@ -153,15 +155,15 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.7
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 31.8
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 10.5
-  previous_composite: 24.0
+  previous_composite: 25.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -172,14 +174,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/azumo/refs/heads/main/screenshots/azumo-2026-10-11T101336.png
+screenshot: https://apis.io/screenshots/azumo/azumo-2026-10-11T101336.png
 security:
 - kind: domain-security
   name: Azumo Domain Security

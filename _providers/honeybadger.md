@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.2
-  scored_at: '2026-10-17'
+  score: 39.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -84,15 +86,12 @@ apis:
   description: The Source Maps API from Honeybadger — 1 operation(s) for source maps.
   name: Honeybadger Source Maps API
   slug: honeybadger-source-maps-api
-artifact_total: 25
+artifact_total: 24
 asyncapis:
 - description: AsyncAPI description of the outbound webhook notifications Honeybadger delivers to subscriber URLs that have been configured via Project Settings > Alerts & Integrations. This surface covers the gener
   name: Honeybadger Outbound Webhook Notifications
   slug: honeybadger-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Honeybadger Check In API
   slug: open-honeybadger-check-in-api
@@ -116,27 +115,27 @@ collections:
   slug: open-honeybadger
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/capabilities/honeybadger-capability-edges.yml
+  href: https://artifacts.apis.io/honeybadger/capabilities/honeybadger-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/honeybadger-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/agentic-access/honeybadger-agentic-access.yml
+  href: https://artifacts.apis.io/honeybadger/agentic-access/honeybadger-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/honeybadger-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/security/honeybadger-trust-center.yml
+  href: https://artifacts.apis.io/honeybadger/security/honeybadger-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/honeybadger-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/security/honeybadger-domain-security.yml
+  href: https://artifacts.apis.io/honeybadger/security/honeybadger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/honeybadger-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/authentication/honeybadger-authentication.yml
+  href: https://artifacts.apis.io/honeybadger/authentication/honeybadger-authentication.yml
   title: ''
   type: Authentication
   url: authentication/honeybadger-authentication.yml
@@ -206,7 +205,7 @@ overview: 'Honeybadger publishes 9 API contracts indexed on the [APIs.io](https:
 
 
   Honeybadger''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 10 more developer resources.'
-random_paper: 16
+random_paper: 8
 rules:
 - authorship: generated
   effective_rule_count: 35
@@ -222,7 +221,7 @@ rules:
   slug: honeybadger-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 34.4
+  composite: 34.6
   coverage:
     artifact_dirs: 15
     catalog_earned: 40.8
@@ -230,15 +229,15 @@ score:
     catalog_gap: 74.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 11.4
-    contract_quality: 54.3
+    contract_quality: 52.5
     developer_ergonomics: 28.6
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 34.3
+    discoverability: 71.7
+    operational_transparency: 5.3
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -253,13 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/screenshots/honeybadger-2026-06-20T182819.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/honeybadger/honeybadger-2026-06-20T182819.png
 security:
 - kind: authentication
   name: Honeybadger Authentication

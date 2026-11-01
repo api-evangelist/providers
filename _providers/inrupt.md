@@ -29,17 +29,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.7
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 48.0
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: The ESS Pod Storage Service implements the Solid Protocol over HTTP — LDP-style container and resource CRUD in RDF (Turtle, JSON-LD) and binary form, with Access Control Policy (ACP) resources, canoni
   name: Inrupt Pod Storage API (Solid Protocol)
@@ -71,7 +73,7 @@ apis:
   description: Subscription Management
   name: Inrupt Subscription API
   slug: inrupt-subscription-api
-artifact_total: 17
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Inrupt Notifications Webhooks
@@ -142,123 +144,131 @@ common:
   type: TrustCenter
   url: https://www.inrupt.com/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/conformance/inrupt-conformance.yml
+  href: https://artifacts.apis.io/inrupt/conformance/inrupt-conformance.yml
   title: ''
   type: Compliance
   url: conformance/inrupt-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/llms/inrupt-llms.txt
+  href: https://artifacts.apis.io/inrupt/llms/inrupt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/inrupt-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/packages/inrupt-packages.yml
+  href: https://artifacts.apis.io/inrupt/packages/inrupt-packages.yml
   title: ''
   type: Packages
   url: packages/inrupt-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/packages/inrupt-packages.yml
+  href: https://artifacts.apis.io/inrupt/packages/inrupt-packages.yml
   title: ''
   type: SDKs
   url: packages/inrupt-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/well-known/inrupt-well-known.yml
+  href: https://artifacts.apis.io/inrupt/well-known/inrupt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/inrupt-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/mcp/inrupt-mcp.yml
+  href: https://artifacts.apis.io/inrupt/mcp/inrupt-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/inrupt-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/mcp/inrupt-tool-crosswalk.yml
+  href: https://artifacts.apis.io/inrupt/mcp/inrupt-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/inrupt-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/inrupt/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/conformance/inrupt-conformance.yml
+  href: https://artifacts.apis.io/inrupt/conformance/inrupt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/inrupt-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/errors/inrupt-problem-types.yml
+  href: https://artifacts.apis.io/inrupt/errors/inrupt-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/inrupt-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/lifecycle/inrupt-lifecycle.yml
+  href: https://artifacts.apis.io/inrupt/lifecycle/inrupt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/inrupt-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/changelog/inrupt-changelog.yml
+  href: https://artifacts.apis.io/inrupt/changelog/inrupt-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/inrupt-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/scopes/inrupt-scopes.yml
+  href: https://artifacts.apis.io/inrupt/scopes/inrupt-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/inrupt-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/authentication/inrupt-authentication.yml
+  href: https://artifacts.apis.io/inrupt/authentication/inrupt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/inrupt-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/security/inrupt-domain-security.yml
+  href: https://artifacts.apis.io/inrupt/security/inrupt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inrupt-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/security/inrupt-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/inrupt/security/inrupt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/inrupt-vulnerability-disclosure.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/sandbox/inrupt-sandbox.yml
+  href: https://artifacts.apis.io/inrupt/sandbox/inrupt-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/inrupt-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/conventions/inrupt-conventions.yml
+  href: https://artifacts.apis.io/inrupt/conventions/inrupt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/inrupt-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/data-model/inrupt-data-model.yml
+  href: https://artifacts.apis.io/inrupt/data-model/inrupt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/inrupt-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/asyncapi/inrupt-notifications-webhooks.yml
+  href: https://artifacts.apis.io/inrupt/asyncapi/inrupt-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/inrupt-notifications-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/plans/inrupt-plans-pricing.yml
+  href: https://artifacts.apis.io/inrupt/plans/inrupt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/inrupt-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/rate-limits/inrupt-rate-limits.yml
+  href: https://artifacts.apis.io/inrupt/rate-limits/inrupt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/inrupt-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/overlays/inrupt-notification-overlay.yaml
+  href: https://artifacts.apis.io/inrupt/overlays/inrupt-notification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/inrupt-notification-overlay.yaml
 created: '2026-08-23'
 description: Inrupt is the enterprise company founded by Sir Tim Berners-Lee and John Bruce to commercialize Solid, the open decentralized-data specification he created at MIT. Its flagship product is the Enterprise Solid Server (ESS), a Kubernetes-deployed platform of cooperating services that gives each person or organization a Pod — a personal data store with fine-grained access control, auditing, and W3C Verifiable-Credential-based Access Requests and Grants. ESS ships an Access Grant service, an Authorization service using Access Control Policies (ACP), a Pod Storage service implementing the Solid Protocol, a Notification Delivery service that pushes signed webhooks to remote HTTPS endpoints, a Platform Management service with a token-exchange and admin provisioning API, an optional hybrid keyword-plus-semantic Search service, and — since ESS 3.0 — an MCP Resource Service exposing consent-mediated tools to AI agents. Inrupt also runs PodSpaces, a hosted developer-preview deployment
   of ESS, and publishes first-party JavaScript and Java client SDKs.
+finops:
+- has_sources: true
+  method: derived
+  name: Inrupt Finops
+  primary_unit: ''
+  service_category: ''
+  slug: inrupt-finops
+  template: true
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
@@ -280,7 +290,7 @@ plans:
 - name: Inrupt Plans Pricing
   plan_count: 0
   slug: inrupt-plans-pricing
-random_paper: 14
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Inrupt Rate Limits
@@ -292,9 +302,9 @@ scopes:
   summary_line: 3 scopes
 score:
   band: strong
-  composite: 61.0
+  composite: 61.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -306,9 +316,9 @@ score:
     contract_governance: 18.2
     contract_quality: 51.3
     developer_ergonomics: 73.2
-    discoverability: 68.3
-    operational_transparency: 92.1
-  previous_composite: 61.0
+    discoverability: 65.0
+    operational_transparency: 94.7
+  previous_composite: 61.7
   provenance:
     conformance: first-party
     contracts:
@@ -324,13 +334,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 41.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/screenshots/inrupt-2026-09-02T145900.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/inrupt/inrupt-2026-09-02T145900.png
 security:
 - kind: authentication
   name: Inrupt Authentication
@@ -348,6 +359,12 @@ security:
   name: Inrupt Trust Center
   slug: inrupt-trust-center
   summary_line: ISO/IEC 27001:2022
+skill_count: 2
+skills:
+- name: inrupt-agent-request-consent
+  slug: inrupt-agent-request-consent
+- name: inrupt-subscribe-to-pod-events
+  slug: inrupt-subscribe-to-pod-events
 slug: inrupt
 tags:
 - Company

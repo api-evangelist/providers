@@ -13,7 +13,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 37.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -101,11 +102,8 @@ apis:
   description: Webhook endpoint management and deliveries.
   name: Polar Webhooks API
   slug: polar-sh-webhooks-api
-artifact_total: 31
+artifact_total: 30
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Polar benefits API
   slug: open-polar-sh-benefits-api
@@ -144,22 +142,22 @@ collections:
   slug: open-polar-sh
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/capabilities/polar-sh-capability-edges.yml
+  href: https://artifacts.apis.io/polar-sh/capabilities/polar-sh-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/polar-sh-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/agentic-access/polar-sh-agentic-access.yml
+  href: https://artifacts.apis.io/polar-sh/agentic-access/polar-sh-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/polar-sh-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/security/polar-sh-domain-security.yml
+  href: https://artifacts.apis.io/polar-sh/security/polar-sh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/polar-sh-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/authentication/polar-sh-authentication.yml
+  href: https://artifacts.apis.io/polar-sh/authentication/polar-sh-authentication.yml
   title: ''
   type: Authentication
   url: authentication/polar-sh-authentication.yml
@@ -180,17 +178,17 @@ common:
   type: Documentation
   url: https://polar.sh/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/plans/polar-sh-plans-pricing.yml
+  href: https://artifacts.apis.io/polar-sh/plans/polar-sh-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/polar-sh-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/rate-limits/polar-sh-rate-limits.yml
+  href: https://artifacts.apis.io/polar-sh/rate-limits/polar-sh-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/polar-sh-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/finops/polar-sh-finops.yml
+  href: https://artifacts.apis.io/polar-sh/finops/polar-sh-finops.yml
   title: ''
   type: FinOps
   url: finops/polar-sh-finops.yml
@@ -233,7 +231,7 @@ rate_limits:
   slug: polar-sh-rate-limits
 score:
   band: thin
-  composite: 26.7
+  composite: 26.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 43.0
@@ -241,15 +239,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 44.7
-    developer_ergonomics: 25.0
-    discoverability: 68.3
-    operational_transparency: 10.5
-  previous_composite: 35.0
+    developer_ergonomics: 32.1
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 26.2
   provenance:
     agentic_access: derived
     contracts:
@@ -264,13 +262,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/screenshots/polar-sh-2026-09-02T151641.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/polar-sh/polar-sh-2026-09-02T151641.png
 security:
 - kind: authentication
   name: Polar Sh Authentication

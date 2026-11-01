@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 19.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://farmer.vuestorefront.cloud
@@ -127,11 +129,8 @@ apis:
   description: The v2.2/instance/{namespace}/pods API from Alokai (formerly Vue Storefront) — 1 operation(s) for v2.2/instance/{namespace}/pods.
   name: Alokai (formerly Vue Storefront) v2.2/instance/{namespace}/pods API
   slug: alokai-formerly-vue-storefront-v2-2-instance-namespace-pods-api
-artifact_total: 39
+artifact_total: 42
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: farmer cdn API
   slug: open-alokai-formerly-vue-storefront-cdn-api
@@ -187,18 +186,23 @@ collections:
   name: farmer cdn v2.2/instance/{namespace}/pods API
   slug: open-alokai-formerly-vue-storefront-v2-2-instance-namespace-pods-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/plans/alokai-formerly-vue-storefront-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/alokai-formerly-vue-storefront-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/capabilities/alokai-formerly-vue-storefront-capability-edges.yml
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/capabilities/alokai-formerly-vue-storefront-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/alokai-formerly-vue-storefront-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/mcp/alokai-formerly-vue-storefront-mcp.yml
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/mcp/alokai-formerly-vue-storefront-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/alokai-formerly-vue-storefront-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/overlays/alokai-formerly-vue-storefront-cloud-overlay.yaml
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/overlays/alokai-formerly-vue-storefront-cloud-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alokai-formerly-vue-storefront-cloud-overlay.yaml
@@ -255,22 +259,22 @@ common:
   type: StatusPage
   url: https://status.alokai.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/packages/alokai-formerly-vue-storefront-packages.yml
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/packages/alokai-formerly-vue-storefront-packages.yml
   title: ''
   type: Packages
   url: packages/alokai-formerly-vue-storefront-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/packages/alokai-formerly-vue-storefront-packages.yml
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/packages/alokai-formerly-vue-storefront-packages.yml
   title: ''
   type: SDKs
   url: packages/alokai-formerly-vue-storefront-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/cli/alokai-formerly-vue-storefront-cli.yml
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/cli/alokai-formerly-vue-storefront-cli.yml
   title: ''
   type: CLI
   url: cli/alokai-formerly-vue-storefront-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/components/alokai-formerly-vue-storefront-components.yml
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/components/alokai-formerly-vue-storefront-components.yml
   title: ''
   type: Components
   url: components/alokai-formerly-vue-storefront-components.yml
@@ -279,47 +283,55 @@ common:
   type: ChangeLog
   url: https://docs.alokai.com/alokai-changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/changelog/alokai-formerly-vue-storefront-changelog.yml
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/changelog/alokai-formerly-vue-storefront-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/alokai-formerly-vue-storefront-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/lifecycle/alokai-formerly-vue-storefront-lifecycle.yml
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/lifecycle/alokai-formerly-vue-storefront-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alokai-formerly-vue-storefront-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/conventions/alokai-formerly-vue-storefront-conventions.yml
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/conventions/alokai-formerly-vue-storefront-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alokai-formerly-vue-storefront-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/conformance/alokai-formerly-vue-storefront-conformance.yml
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/conformance/alokai-formerly-vue-storefront-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alokai-formerly-vue-storefront-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/llms/alokai-formerly-vue-storefront-llms.txt
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/llms/alokai-formerly-vue-storefront-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alokai-formerly-vue-storefront-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/well-known/alokai-formerly-vue-storefront-well-known.yml
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/well-known/alokai-formerly-vue-storefront-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alokai-formerly-vue-storefront-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/security/alokai-formerly-vue-storefront-domain-security.yml
+  href: https://artifacts.apis.io/alokai-formerly-vue-storefront/security/alokai-formerly-vue-storefront-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alokai-formerly-vue-storefront-domain-security.yml
 created: '2026-07-17'
 description: Alokai (formerly Vue Storefront) is a Frontend-as-a-Service platform for composable, headless commerce. It connects enterprise ecommerce backends (SAP Commerce Cloud, Salesforce, Adobe Commerce/Magento, commercetools, BigCommerce, Shopware and others) to fast, customizable storefronts through the Alokai SDK, a server-side Middleware layer, a Unified Data Layer, the StorefrontUI component library, and Alokai Cloud hosting managed via the Alokai Console. The Alokai Cloud API ("farmer", OpenAPI 3.0) programmatically manages cloud instances, deployments, pods, ingresses, CDN cache and environment variables, authenticated with X-Api-Key and X-User-Id headers.
+finops:
+- has_sources: true
+  method: derived
+  name: Alokai Formerly Vue Storefront Finops
+  primary_unit: ''
+  service_category: ''
+  slug: alokai-formerly-vue-storefront-finops
+  template: true
 image: https://images.contentstack.io/v3/assets/bltb1a38d5d52a9d1a1/bltd2e8b4aaef77df33/65f899d60c744de1117c17ef/OG_Product_Overview_(1).png
 layout: provider
 modified: '2026-07-17'
@@ -329,27 +341,31 @@ network: true
 overview: 'Alokai (formerly Vue Storefront) publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including cdn API, deploy_check API, Flush Cache API, and 15 more. Tagged areas include Company, Software-as-a-Service, E-Commerce, Composable Commerce, and Headless Commerce.
 
 
-  Alokai (formerly Vue Storefront)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
-random_paper: 6
+  Alokai (formerly Vue Storefront)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
+plans:
+- name: Alokai Formerly Vue Storefront Plans Pricing
+  plan_count: 1
+  slug: alokai-formerly-vue-storefront-plans-pricing
+random_paper: 14
 score:
   band: developing
-  composite: 46.6
+  composite: 50.3
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.3
   facets:
-    access_clarity: 44.7
+    access_clarity: 65.8
     contract_governance: 4.5
-    contract_quality: 39.9
+    contract_quality: 36.5
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 46.5
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 46.0
   provenance:
     conformance: derived
     contracts:
@@ -365,13 +381,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/screenshots/alokai-formerly-vue-storefront-2026-07-25T195748.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/alokai-formerly-vue-storefront/alokai-formerly-vue-storefront-2026-07-25T195748.png
 security:
 - kind: authentication
   name: Alokai Formerly Vue Storefront Authentication
@@ -381,6 +398,12 @@ security:
   name: Alokai Formerly Vue Storefront Domain Security
   slug: alokai-formerly-vue-storefront-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Invalidate Alokai Cloud CDN cache
+  slug: alokai-invalidate-cdn-cache
+- name: Verify an Alokai Cloud deployment and check instance health
+  slug: alokai-verify-deployment-and-check-health
 slug: alokai-formerly-vue-storefront
 tags:
 - Company

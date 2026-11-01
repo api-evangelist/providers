@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'RESTful Web API for managing TeamViewer users, devices, device groups, sessions, session history, and meetings within a TeamViewer company account. Authentication uses OAuth 2.0 bearer tokens (either '
@@ -48,12 +50,12 @@ common:
   type: Blog
   url: https://www.teamviewer.com/en-us/insights/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teamviewer/refs/heads/main/security/teamviewer-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/teamviewer/security/teamviewer-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/teamviewer-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teamviewer/refs/heads/main/security/teamviewer-domain-security.yml
+  href: https://artifacts.apis.io/teamviewer/security/teamviewer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teamviewer-domain-security.yml
@@ -101,10 +103,10 @@ overview: 'TeamViewer is listed with 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   TeamViewer''s developer surface includes engineering blog, documentation, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 3
+random_paper: 1
 score:
   band: emerging
-  composite: 17.8
+  composite: 19.5
   coverage:
     artifact_dirs: 5
     catalog_earned: 37.0
@@ -112,29 +114,29 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 17.2
+    operational_transparency: 15.8
+  previous_composite: 19.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/teamviewer/refs/heads/main/screenshots/teamviewer-2026-06-20T195000.png
+screenshot: https://apis.io/screenshots/teamviewer/teamviewer-2026-06-20T195000.png
 security:
 - kind: domain-security
   name: Teamviewer Domain Security

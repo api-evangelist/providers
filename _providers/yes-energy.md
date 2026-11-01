@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: DataSignals is Yes Energy's REST API for automated access to its North American wholesale power market data — nodal prices, transmission, generation, outages, constraints, weather, and fuels — coverin
@@ -43,37 +45,37 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yes-energy/refs/heads/main/security/yes-energy-domain-security.yml
+  href: https://artifacts.apis.io/yes-energy/security/yes-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yes-energy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yes-energy/refs/heads/main/authentication/yes-energy-authentication.yml
+  href: https://artifacts.apis.io/yes-energy/authentication/yes-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yes-energy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yes-energy/refs/heads/main/conventions/yes-energy-conventions.yml
+  href: https://artifacts.apis.io/yes-energy/conventions/yes-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/yes-energy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yes-energy/refs/heads/main/lifecycle/yes-energy-lifecycle.yml
+  href: https://artifacts.apis.io/yes-energy/lifecycle/yes-energy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yes-energy-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yes-energy/refs/heads/main/conformance/yes-energy-conformance.yml
+  href: https://artifacts.apis.io/yes-energy/conformance/yes-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/yes-energy-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yes-energy/refs/heads/main/packages/yes-energy-packages.yml
+  href: https://artifacts.apis.io/yes-energy/packages/yes-energy-packages.yml
   title: ''
   type: Packages
   url: packages/yes-energy-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yes-energy/refs/heads/main/llms/yes-energy-llms.txt
+  href: https://artifacts.apis.io/yes-energy/llms/yes-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yes-energy-llms.txt
@@ -158,10 +160,10 @@ overview: 'Yes Energy is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Yes Energy''s developer surface includes authentication, support, documentation, signup flow, pricing, engineering blog, product news, and 17 more developer resources.'
-random_paper: 20
+random_paper: 0
 score:
   band: emerging
-  composite: 20.9
+  composite: 22.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -174,9 +176,9 @@ score:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 22.6
-    discoverability: 74.1
-    operational_transparency: 7.9
+    developer_ergonomics: 28.6
+    discoverability: 67.9
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -184,7 +186,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 20.9
+  previous_composite: 22.5
   provenance:
     conformance: derived
   regulatory:
@@ -193,14 +195,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 17.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/yes-energy/refs/heads/main/screenshots/yes-energy-2026-09-02T171246.png
+screenshot: https://apis.io/screenshots/yes-energy/yes-energy-2026-09-02T171246.png
 security:
 - kind: authentication
   name: Yes Energy Authentication

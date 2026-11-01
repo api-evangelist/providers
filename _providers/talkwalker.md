@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
+  score: 28.3
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - baseURL: https://api.talkwalker.com
@@ -96,70 +98,70 @@ apis:
   description: The Topic API API from Talkwalker — 4 operation(s) for topic api.
   name: Talkwalker Topic API
   slug: talkwalker-topic-api-api
-artifact_total: 17
+artifact_total: 21
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/capabilities/talkwalker-capability-edges.yml
+  href: https://artifacts.apis.io/talkwalker/capabilities/talkwalker-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/talkwalker-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/overlays/talkwalker-search-overlay.yaml
+  href: https://artifacts.apis.io/talkwalker/overlays/talkwalker-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/talkwalker-search-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/skills/talkwalker-export-project-mentions.md
+  href: https://artifacts.apis.io/talkwalker/skills/talkwalker-export-project-mentions.md
   title: ''
   type: AgentSkill
   url: skills/talkwalker-export-project-mentions.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/overlays/talkwalker-streaming-overlay.yaml
+  href: https://artifacts.apis.io/talkwalker/overlays/talkwalker-streaming-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/talkwalker-streaming-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/skills/talkwalker-stream-and-resume.md
+  href: https://artifacts.apis.io/talkwalker/skills/talkwalker-stream-and-resume.md
   title: ''
   type: AgentSkill
   url: skills/talkwalker-stream-and-resume.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/overlays/talkwalker-histogram-overlay.yaml
+  href: https://artifacts.apis.io/talkwalker/overlays/talkwalker-histogram-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/talkwalker-histogram-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/skills/talkwalker-reproduce-dashboard-widgets.md
+  href: https://artifacts.apis.io/talkwalker/skills/talkwalker-reproduce-dashboard-widgets.md
   title: ''
   type: AgentSkill
   url: skills/talkwalker-reproduce-dashboard-widgets.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/overlays/talkwalker-resources-overlay.yaml
+  href: https://artifacts.apis.io/talkwalker/overlays/talkwalker-resources-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/talkwalker-resources-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/overlays/talkwalker-documents-overlay.yaml
+  href: https://artifacts.apis.io/talkwalker/overlays/talkwalker-documents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/talkwalker-documents-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/skills/talkwalker-import-documents.md
+  href: https://artifacts.apis.io/talkwalker/skills/talkwalker-import-documents.md
   title: ''
   type: AgentSkill
   url: skills/talkwalker-import-documents.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/overlays/talkwalker-image-overlay.yaml
+  href: https://artifacts.apis.io/talkwalker/overlays/talkwalker-image-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/talkwalker-image-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/authentication/talkwalker-authentication.yml
+  href: https://artifacts.apis.io/talkwalker/authentication/talkwalker-authentication.yml
   title: ''
   type: Authentication
   url: authentication/talkwalker-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/security/talkwalker-domain-security.yml
+  href: https://artifacts.apis.io/talkwalker/security/talkwalker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/talkwalker-domain-security.yml
@@ -192,17 +194,17 @@ common:
   type: X
   url: https://x.com/Talkwalker
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/plans/talkwalker-plans-pricing.yml
+  href: https://artifacts.apis.io/talkwalker/plans/talkwalker-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/talkwalker-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/rate-limits/talkwalker-rate-limits.yml
+  href: https://artifacts.apis.io/talkwalker/rate-limits/talkwalker-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/talkwalker-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/finops/talkwalker-finops.yml
+  href: https://artifacts.apis.io/talkwalker/finops/talkwalker-finops.yml
   title: ''
   type: FinOps
   url: finops/talkwalker-finops.yml
@@ -235,60 +237,60 @@ common:
   type: StatusPage
   url: https://status.talkwalker.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/conventions/talkwalker-conventions.yml
+  href: https://artifacts.apis.io/talkwalker/conventions/talkwalker-conventions.yml
   title: ''
   type: Conventions
   url: conventions/talkwalker-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/errors/talkwalker-problem-types.yml
+  href: https://artifacts.apis.io/talkwalker/errors/talkwalker-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/talkwalker-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/lifecycle/talkwalker-lifecycle.yml
+  href: https://artifacts.apis.io/talkwalker/lifecycle/talkwalker-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/talkwalker-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/conformance/talkwalker-conformance.yml
+  href: https://artifacts.apis.io/talkwalker/conformance/talkwalker-conformance.yml
   title: ''
   type: Conformance
   url: conformance/talkwalker-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/data-model/talkwalker-data-model.yml
+  href: https://artifacts.apis.io/talkwalker/data-model/talkwalker-data-model.yml
   title: ''
   type: DataModel
   url: data-model/talkwalker-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/sandbox/talkwalker-sandbox.yml
+  href: https://artifacts.apis.io/talkwalker/sandbox/talkwalker-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/talkwalker-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/packages/talkwalker-packages.yml
+  href: https://artifacts.apis.io/talkwalker/packages/talkwalker-packages.yml
   title: ''
   type: Packages
   url: packages/talkwalker-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/mcp/talkwalker-mcp.yml
+  href: https://artifacts.apis.io/talkwalker/mcp/talkwalker-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/talkwalker-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/llms/talkwalker-llms.txt
+  href: https://artifacts.apis.io/talkwalker/llms/talkwalker-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/talkwalker-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/talkwalker/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-06-13'
 description: Talkwalker is a social media analytics and listening platform that provides REST APIs for tracking brand mentions, analyzing sentiment, measuring campaign performance, and monitoring competitors across 150 million websites and 10+ social networks. The API suite covers search, streaming, histograms, document management, image detection, topic management, and custom metrics.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Talkwalker Finops
   primary_unit: ''
   service_category: ''
@@ -315,7 +317,7 @@ rate_limits:
   slug: talkwalker-rate-limits
 score:
   band: developing
-  composite: 53.2
+  composite: 52.7
   coverage:
     artifact_dirs: 24
     catalog_earned: 64.0
@@ -323,15 +325,15 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 43.5
     developer_ergonomics: 66.1
     discoverability: 71.4
-    operational_transparency: 44.7
-  previous_composite: 54.7
+    operational_transparency: 52.6
+  previous_composite: 52.7
   provenance:
     conformance: derived
     contracts:
@@ -347,13 +349,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/screenshots/talkwalker-2026-06-20T194908.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/talkwalker/talkwalker-2026-06-20T194908.png
 security:
 - kind: authentication
   name: Talkwalker Authentication
@@ -363,6 +366,16 @@ security:
   name: Talkwalker Domain Security
   slug: talkwalker-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Export brand mentions from a Talkwalker project
+  slug: talkwalker-export-project-mentions
+- name: Import your own documents and custom metrics into a Talkwalker project
+  slug: talkwalker-import-documents
+- name: Reproduce Talkwalker dashboard widgets with the Histogram API
+  slug: talkwalker-reproduce-dashboard-widgets
+- name: Monitor mentions in real time with a resumable Talkwalker collector
+  slug: talkwalker-stream-and-resume
 slug: talkwalker
 tags:
 - Social Media Analytics

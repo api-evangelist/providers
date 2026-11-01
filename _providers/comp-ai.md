@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -17,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.3
-  scored_at: '2026-10-17'
+  score: 37.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 246
@@ -209,35 +210,40 @@ apis:
   description: Manage third-party vendors, global vendor search, risk assessment triggers, and Trust Center vendor visibility.
   name: Comp AI Vendors API
   slug: comp-ai-vendors-api
-artifact_total: 47
+artifact_total: 54
 common:
+- group: commercial
+  href: https://artifacts.apis.io/comp-ai/plans/comp-ai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/comp-ai-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/heads/main/agentic-access/comp-ai-agentic-access.yml
+  href: https://artifacts.apis.io/comp-ai/agentic-access/comp-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/comp-ai-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/heads/main/rules/comp-ai-rules.yml
+  href: https://artifacts.apis.io/comp-ai/rules/comp-ai-rules.yml
   title: ''
   type: Spectral
   url: rules/comp-ai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/heads/main/json-ld/comp-ai-context.jsonld
+  href: https://artifacts.apis.io/comp-ai/json-ld/comp-ai-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/comp-ai-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/heads/main/vocabulary/comp-ai-vocabulary.yml
+  href: https://artifacts.apis.io/comp-ai/vocabulary/comp-ai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/comp-ai-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/comp-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/heads/main/data-model/comp-ai-data-model.yml
+  href: https://artifacts.apis.io/comp-ai/data-model/comp-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/comp-ai-data-model.yml
@@ -246,32 +252,32 @@ common:
   type: Compliance
   url: https://security.trycomp.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/heads/main/authentication/comp-ai-authentication.yml
+  href: https://artifacts.apis.io/comp-ai/authentication/comp-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/comp-ai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/heads/main/errors/comp-ai-problem-types.yml
+  href: https://artifacts.apis.io/comp-ai/errors/comp-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/comp-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/heads/main/conformance/comp-ai-conformance.yml
+  href: https://artifacts.apis.io/comp-ai/conformance/comp-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/comp-ai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/heads/main/well-known/comp-ai-well-known.yml
+  href: https://artifacts.apis.io/comp-ai/well-known/comp-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/comp-ai-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/heads/main/hosts/comp-ai-hosts.yml
+  href: https://artifacts.apis.io/comp-ai/hosts/comp-ai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/comp-ai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/heads/main/vendors/comp-ai-vendors.yml
+  href: https://artifacts.apis.io/comp-ai/vendors/comp-ai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/comp-ai-vendors.yml
@@ -308,12 +314,12 @@ common:
   type: GettingStarted
   url: https://www.trycomp.ai/docs/integrations/oauth-setup
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/heads/main/security/comp-ai-trust-center.yml
+  href: https://artifacts.apis.io/comp-ai/security/comp-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/comp-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/heads/main/security/comp-ai-domain-security.yml
+  href: https://artifacts.apis.io/comp-ai/security/comp-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/comp-ai-domain-security.yml
@@ -332,6 +338,14 @@ coverage:
   state: none
 created: '2026-10-09'
 description: Comp AI provides AI‑driven compliance automation for SOC 2, ISO 27001, HIPAA and GDPR. Their platform automates evidence collection, policy management and audit readiness, offering a dashboard, integrations with over 580 services and a security‑first architecture. Backed by a $34 M Series A, Comp AI serves fast‑growing SaaS teams to achieve compliance faster and at lower cost.
+finops:
+- has_sources: true
+  method: derived
+  name: Comp Ai Finops
+  primary_unit: ''
+  service_category: ''
+  slug: comp-ai-finops
+  template: true
 image: https://www.trycomp.ai/og.webp
 json_schemas:
 - name: CreateRiskDto
@@ -368,8 +382,12 @@ overview: 'Comp AI publishes 35 API contracts indexed on the [APIs.io](https://a
   The Comp AI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Comp AI''s developer surface includes authentication, pricing, documentation, API reference, getting-started guide, and 19 more developer resources.'
-random_paper: 18
+  Comp AI''s developer surface includes authentication, pricing, documentation, API reference, getting-started guide, and 20 more developer resources.'
+plans:
+- name: Comp Ai Plans Pricing
+  plan_count: 0
+  slug: comp-ai-plans-pricing
+random_paper: 6
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -385,21 +403,23 @@ rules:
   slug: comp-ai-rules
 score:
   band: developing
-  composite: 47.2
+  composite: 45.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 35.6
-    contract_quality: 61.9
+    contract_quality: 60.5
     developer_ergonomics: 42.3
     discoverability: 67.9
     operational_transparency: 15.8
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -422,11 +442,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Comp Ai Authentication
@@ -440,6 +462,18 @@ security:
   name: Comp Ai Trust Center
   slug: comp-ai-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
+skill_count: 5
+skills:
+- name: comp-ai-attachment-upload-and-download
+  slug: comp-ai-attachment-upload-and-download
+- name: comp-ai-create-and-approve-task
+  slug: comp-ai-create-and-approve-task
+- name: comp-ai-create-and-test-connection
+  slug: comp-ai-create-and-test-connection
+- name: comp-ai-create-update-delete-automation
+  slug: comp-ai-create-update-delete-automation
+- name: comp-ai-task-management-create-update-delete
+  slug: comp-ai-task-management-create-update-delete
 slug: comp-ai
 tags:
 - Compliance

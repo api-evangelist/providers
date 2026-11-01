@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 31.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -142,14 +144,14 @@ arazzos:
 - description: 'Ki''s slip extraction pipeline: register the slip upload, execute the extraction job, poll it to completion, read the result and promote it into a quote. Every operationId exists verbatim in the refere'
   name: Ki — turn a broker slip into a quote
   slug: ki-insurance-slip-to-quote
-artifact_total: 25
+artifact_total: 29
 collections:
 - collection_type: open
   name: Ki Broker Trading Platform API (observed)
   slug: open-ki-insurance-broker-platform
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/overlays/ki-insurance-broker-platform-overlay.yaml
+  href: https://artifacts.apis.io/ki-insurance/overlays/ki-insurance-broker-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ki-insurance-broker-platform-overlay.yaml
@@ -186,7 +188,7 @@ common:
   type: CookiePolicy
   url: https://app.ki-insurance.com/policies/2025/Ki_Cookie_Policy.pdf
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/authentication/ki-insurance-authentication.yml
+  href: https://artifacts.apis.io/ki-insurance/authentication/ki-insurance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ki-insurance-authentication.yml
@@ -195,77 +197,77 @@ common:
   type: OpenIDConnect
   url: https://login.ki-insurance.com/.well-known/openid-configuration
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/scopes/ki-insurance-scopes.yml
+  href: https://artifacts.apis.io/ki-insurance/scopes/ki-insurance-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ki-insurance-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/well-known/ki-insurance-well-known.yml
+  href: https://artifacts.apis.io/ki-insurance/well-known/ki-insurance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ki-insurance-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/security/ki-insurance-domain-security.yml
+  href: https://artifacts.apis.io/ki-insurance/security/ki-insurance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ki-insurance-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/conformance/ki-insurance-conformance.yml
+  href: https://artifacts.apis.io/ki-insurance/conformance/ki-insurance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ki-insurance-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/lifecycle/ki-insurance-lifecycle.yml
+  href: https://artifacts.apis.io/ki-insurance/lifecycle/ki-insurance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ki-insurance-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/conventions/ki-insurance-conventions.yml
+  href: https://artifacts.apis.io/ki-insurance/conventions/ki-insurance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ki-insurance-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/errors/ki-insurance-problem-types.yml
+  href: https://artifacts.apis.io/ki-insurance/errors/ki-insurance-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ki-insurance-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/data-model/ki-insurance-data-model.yml
+  href: https://artifacts.apis.io/ki-insurance/data-model/ki-insurance-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ki-insurance-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/llms/ki-insurance-llms.txt
+  href: https://artifacts.apis.io/ki-insurance/llms/ki-insurance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ki-insurance-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ki-insurance/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/mcp/ki-insurance-mcp.yml
+  href: https://artifacts.apis.io/ki-insurance/mcp/ki-insurance-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ki-insurance-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/mcp/ki-insurance-tool-crosswalk.yml
+  href: https://artifacts.apis.io/ki-insurance/mcp/ki-insurance-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ki-insurance-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/agentic-access/ki-insurance-agentic-access.yml
+  href: https://artifacts.apis.io/ki-insurance/agentic-access/ki-insurance-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ki-insurance-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/arazzo/ki-insurance-quote-and-price.yml
+  href: https://artifacts.apis.io/ki-insurance/arazzo/ki-insurance-quote-and-price.yml
   title: ''
   type: Arazzo
   url: arazzo/ki-insurance-quote-and-price.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/arazzo/ki-insurance-slip-to-quote.yml
+  href: https://artifacts.apis.io/ki-insurance/arazzo/ki-insurance-slip-to-quote.yml
   title: ''
   type: Arazzo
   url: arazzo/ki-insurance-slip-to-quote.yml
@@ -294,7 +296,7 @@ overview: 'Ki Insurance publishes 18 API contracts indexed on the [APIs.io](http
 
 
   Ki Insurance''s developer surface includes engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 15
+random_paper: 1
 scopes:
 - name: Ki Insurance Scopes
   scope_count: 14
@@ -302,7 +304,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.5
+  composite: 24.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -312,12 +314,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 14.3
     developer_ergonomics: 16.1
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -326,7 +328,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 21.5
+  previous_composite: 24.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -343,13 +345,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/screenshots/ki-insurance-2026-07-25T223715.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ki-insurance/ki-insurance-2026-07-25T223715.png
 security:
 - kind: authentication
   name: Ki Insurance Authentication
@@ -359,6 +362,16 @@ security:
   name: Ki Insurance Domain Security
   slug: ki-insurance-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Take an indication through to a firm order note
+  slug: ki-insurance-indication-to-firm-order
+- name: Review the Ki broker pipeline
+  slug: ki-insurance-pipeline-review
+- name: Quote a risk and run Ki's follow algorithm
+  slug: ki-insurance-quote-and-price
+- name: Turn a broker slip into a Ki quote
+  slug: ki-insurance-slip-to-quote
 slug: ki-insurance
 tags:
 - Insurance

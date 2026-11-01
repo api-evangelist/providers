@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.3
-  scored_at: '2026-10-17'
+  score: 45.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -84,11 +86,8 @@ apis:
   description: Segments that split report data into categories.
   name: ezoic Segments API
   slug: ezoic-segments-api
-artifact_total: 20
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ezoic Subscriptions Server-to-Server REST Access API
   slug: open-ezoic-access-api
@@ -100,22 +99,22 @@ collections:
   slug: open-ezoic-purchases-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/overlays/ezoic-big-data-analytics-overlay.yaml
+  href: https://artifacts.apis.io/ezoic/overlays/ezoic-big-data-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ezoic-big-data-analytics-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/skills/ezoic-pull-analytics-report.md
+  href: https://artifacts.apis.io/ezoic/skills/ezoic-pull-analytics-report.md
   title: ''
   type: AgentSkill
   url: skills/ezoic-pull-analytics-report.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/skills/ezoic-build-custom-report.md
+  href: https://artifacts.apis.io/ezoic/skills/ezoic-build-custom-report.md
   title: ''
   type: AgentSkill
   url: skills/ezoic-build-custom-report.md
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/overlays/ezoic-subscriptions-overlay.yaml
+  href: https://artifacts.apis.io/ezoic/overlays/ezoic-subscriptions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ezoic-subscriptions-overlay.yaml
@@ -180,97 +179,97 @@ common:
   type: PrivacyPolicy
   url: https://www.ezoic.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/mcp/ezoic-mcp.yml
+  href: https://artifacts.apis.io/ezoic/mcp/ezoic-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ezoic-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/mcp/ezoic-tool-crosswalk.yml
+  href: https://artifacts.apis.io/ezoic/mcp/ezoic-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ezoic-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/llms/ezoic-llms.txt
+  href: https://artifacts.apis.io/ezoic/llms/ezoic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ezoic-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/well-known/ezoic-well-known.yml
+  href: https://artifacts.apis.io/ezoic/well-known/ezoic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ezoic-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/scopes/ezoic-scopes.yml
+  href: https://artifacts.apis.io/ezoic/scopes/ezoic-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ezoic-scopes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/sandbox/ezoic-sandbox.yml
+  href: https://artifacts.apis.io/ezoic/sandbox/ezoic-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ezoic-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/plans/ezoic-plans-pricing.yml
+  href: https://artifacts.apis.io/ezoic/plans/ezoic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ezoic-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/rate-limits/ezoic-rate-limits.yml
+  href: https://artifacts.apis.io/ezoic/rate-limits/ezoic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ezoic-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/packages/ezoic-packages.yml
+  href: https://artifacts.apis.io/ezoic/packages/ezoic-packages.yml
   title: ''
   type: Packages
   url: packages/ezoic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/packages/ezoic-packages.yml
+  href: https://artifacts.apis.io/ezoic/packages/ezoic-packages.yml
   title: ''
   type: SDKs
   url: packages/ezoic-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/authentication/ezoic-authentication.yml
+  href: https://artifacts.apis.io/ezoic/authentication/ezoic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ezoic-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/conventions/ezoic-conventions.yml
+  href: https://artifacts.apis.io/ezoic/conventions/ezoic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ezoic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/errors/ezoic-problem-types.yml
+  href: https://artifacts.apis.io/ezoic/errors/ezoic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ezoic-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/lifecycle/ezoic-lifecycle.yml
+  href: https://artifacts.apis.io/ezoic/lifecycle/ezoic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ezoic-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/conformance/ezoic-conformance.yml
+  href: https://artifacts.apis.io/ezoic/conformance/ezoic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ezoic-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/data-model/ezoic-data-model.yml
+  href: https://artifacts.apis.io/ezoic/data-model/ezoic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ezoic-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/components/ezoic-components.yml
+  href: https://artifacts.apis.io/ezoic/components/ezoic-components.yml
   title: ''
   type: Components
   url: components/ezoic-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ezoic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/agentic-access/ezoic-agentic-access.yml
+  href: https://artifacts.apis.io/ezoic/agentic-access/ezoic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ezoic-agentic-access.yml
@@ -279,12 +278,12 @@ common:
   type: Security
   url: https://www.ezoic.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/security/ezoic-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ezoic/security/ezoic-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ezoic-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/security/ezoic-domain-security.yml
+  href: https://artifacts.apis.io/ezoic/security/ezoic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ezoic-domain-security.yml
@@ -295,6 +294,14 @@ common:
 created: '2026-07-17'
 description: 'Ezoic is a website monetization and audience-growth platform for publishers, and a performance advertising marketplace for brands. Publishers integrate EzoicAds (via JavaScript, mobile SDKs for Android/iOS/Flutter/React Native/Unity, or framework SDKs for Angular/React/Vue) to run native, sticky, video, anchor, rewarded, and interstitial ad formats across 5,000+ premium sites. Beyond ads, Ezoic offers first-party Identity (ezID), Visitor Accounts (ezAuth), Ezoic Subscriptions (paywalls, donations, and a server-to-server REST API for verifying reader access), a Web Games ad SDK, and Custom Events into its Big Data Analytics platform. Its developer surface is a single API gateway (api-gateway.ezoic.com) fronting three services enabled individually from the dashboard and sharing one developerKey — Big Data Analytics for reports, segments and custom data; CDN for cache clearing and purging; and Subscriptions for server-side reader entitlement checks. Ezoic also runs three hosted
   MCP servers: a read-only Analytics server over OAuth, an anonymous Setup Assistant listed in the official MCP Registry as com.ezoic/setup, and an OAuth-gated endpoint on bidsystem.ai, its performance advertising platform for brands.'
+finops:
+- has_sources: true
+  method: derived
+  name: Ezoic Finops
+  primary_unit: ''
+  service_category: ''
+  slug: ezoic-finops
+  template: true
 image: https://www.ezoic.com/wp-content/uploads/2021/03/ezoic-logo.png
 layout: provider
 mcp_servers:
@@ -311,7 +318,7 @@ overview: 'ezoic publishes 8 API contracts indexed on the [APIs.io](https://apis
   ezoic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
 plans:
 - name: Ezoic Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: ezoic-plans-pricing
 random_paper: 10
 rate_limits:
@@ -325,30 +332,30 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 53.1
+  composite: 50.3
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 26
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
-    access_clarity: 69.7
+    access_clarity: 65.8
     contract_governance: 18.2
-    contract_quality: 27.2
+    contract_quality: 18.6
     developer_ergonomics: 74.4
-    discoverability: 75.0
-    operational_transparency: 36.8
-  previous_composite: 53.1
+    discoverability: 65.0
+    operational_transparency: 39.5
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 4
-      marker_coverage: 87.5
+      derived: 0
+      marker_coverage: 37.5
       total: 8
     mcp: first-party
     skills: derived
@@ -358,13 +365,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/screenshots/ezoic-2026-07-25T214052.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ezoic/ezoic-2026-07-25T214052.png
 security:
 - kind: authentication
   name: Ezoic Authentication
@@ -378,6 +386,16 @@ security:
   name: Ezoic Vulnerability Disclosure
   slug: ezoic-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 4
+skills:
+- name: Build a custom Ezoic report with a segment
+  slug: ezoic-build-custom-report
+- name: Pull an Ezoic analytics report
+  slug: ezoic-pull-analytics-report
+- name: Clear or purge the Ezoic CDN cache
+  slug: ezoic-purge-cdn-cache
+- name: Verify an Ezoic Subscriptions reader's access
+  slug: ezoic-verify-reader-access
 slug: ezoic
 tags:
 - Company

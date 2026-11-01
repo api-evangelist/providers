@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Commercial charge point search API returning Zapmap's aggregated charging location data for over 50,000 public charging locations across the UK and Ireland — location, availability status (in use / ou
@@ -49,37 +51,37 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zapmap/refs/heads/main/security/zapmap-domain-security.yml
+  href: https://artifacts.apis.io/zapmap/security/zapmap-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zapmap-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zapmap/refs/heads/main/authentication/zapmap-authentication.yml
+  href: https://artifacts.apis.io/zapmap/authentication/zapmap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zapmap-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zapmap/refs/heads/main/conventions/zapmap-conventions.yml
+  href: https://artifacts.apis.io/zapmap/conventions/zapmap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zapmap-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zapmap/refs/heads/main/errors/zapmap-error-codes.yml
+  href: https://artifacts.apis.io/zapmap/errors/zapmap-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/zapmap-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zapmap/refs/heads/main/lifecycle/zapmap-lifecycle.yml
+  href: https://artifacts.apis.io/zapmap/lifecycle/zapmap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zapmap-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zapmap/refs/heads/main/conformance/zapmap-conformance.yml
+  href: https://artifacts.apis.io/zapmap/conformance/zapmap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zapmap-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zapmap/refs/heads/main/llms/zapmap-llms.txt
+  href: https://artifacts.apis.io/zapmap/llms/zapmap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zapmap-llms.txt
@@ -140,7 +142,7 @@ overview: 'Zapmap is listed with 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Zapmap''s developer surface includes authentication, documentation, support, engineering blog, and 14 more developer resources.'
-random_paper: 11
+random_paper: 1
 score:
   band: emerging
   composite: 20.4
@@ -176,14 +178,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zapmap/refs/heads/main/screenshots/zapmap-2026-09-02T171446.png
+screenshot: https://apis.io/screenshots/zapmap/zapmap-2026-09-02T171446.png
 security:
 - kind: authentication
   name: Zapmap Authentication

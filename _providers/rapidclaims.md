@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,17 +67,17 @@ common:
   type: Compliance
   url: https://www.rapidclaims.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rapidclaims/refs/heads/main/security/rapidclaims-domain-security.yml
+  href: https://artifacts.apis.io/rapidclaims/security/rapidclaims-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rapidclaims-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rapidclaims/refs/heads/main/conformance/rapidclaims-conformance.yml
+  href: https://artifacts.apis.io/rapidclaims/conformance/rapidclaims-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rapidclaims-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rapidclaims/refs/heads/main/well-known/rapidclaims-well-known.yml
+  href: https://artifacts.apis.io/rapidclaims/well-known/rapidclaims-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rapidclaims-well-known.yml
@@ -91,7 +93,7 @@ overview: 'RapidClaims is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   RapidClaims'' developer surface includes engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 17
+random_paper: 9
 score:
   band: emerging
   composite: 16.7
@@ -125,14 +127,14 @@ score:
     regime: Health
     regime_id: health
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rapidclaims/refs/heads/main/screenshots/rapidclaims-2026-09-02T152852.png
+screenshot: https://apis.io/screenshots/rapidclaims/rapidclaims-2026-09-02T152852.png
 security:
 - kind: domain-security
   name: Rapidclaims Domain Security

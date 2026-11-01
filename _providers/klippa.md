@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Flagship REST API for end-to-end document AI — OCR, classification, extraction, conversion (JSON/XML/PDF/CSV/XLSX/UBL), verification, fraud detection, anonymization. API-key auth.
@@ -48,12 +50,12 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klippa/refs/heads/main/security/klippa-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/klippa/security/klippa-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/klippa-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klippa/refs/heads/main/security/klippa-domain-security.yml
+  href: https://artifacts.apis.io/klippa/security/klippa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/klippa-domain-security.yml
@@ -74,17 +76,17 @@ common:
   type: GitHub
   url: https://github.com/klippa-app
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/klippa/refs/heads/main/plans/klippa-plans-pricing.yml
+  href: https://artifacts.apis.io/klippa/plans/klippa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/klippa-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/klippa/refs/heads/main/rate-limits/klippa-rate-limits.yml
+  href: https://artifacts.apis.io/klippa/rate-limits/klippa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/klippa-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/klippa/refs/heads/main/finops/klippa-finops.yml
+  href: https://artifacts.apis.io/klippa/finops/klippa-finops.yml
   title: ''
   type: FinOps
   url: finops/klippa-finops.yml
@@ -98,7 +100,7 @@ finops:
 - has_sources: true
   method: generated
   name: Klippa Finops
-  primary_unit: ''
+  primary_unit: document / verification
   service_category: Document AI
   slug: klippa-finops
   template: false
@@ -116,49 +118,49 @@ plans:
 - name: Klippa Plans Pricing
   plan_count: 5
   slug: klippa-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Klippa Rate Limits
   slug: klippa-rate-limits
 score:
-  band: minimal
-  composite: 10.9
+  band: emerging
+  composite: 16.9
   coverage:
     artifact_dirs: 8
-    catalog_earned: 45.0
+    catalog_earned: 48.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 7.9
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 11.9
     discoverability: 71.4
-    operational_transparency: 10.5
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 12.4
+  previous_composite: 15.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/klippa/refs/heads/main/screenshots/klippa-2026-06-20T184105.png
+screenshot: https://apis.io/screenshots/klippa/klippa-2026-06-20T184105.png
 security:
 - kind: domain-security
   name: Klippa Domain Security

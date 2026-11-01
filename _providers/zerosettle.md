@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 26.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.zerosettle.io/v1
@@ -98,11 +100,8 @@ apis:
   description: Unified offer + subscription-state resolver (SDK 1.2+)
   name: ZeroSettle User Offer API
   slug: zerosettle-user-offer-api
-artifact_total: 27
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ZeroSettle IAP Cancel Flow API
   slug: open-zerosettle-cancel-flow-api
@@ -140,8 +139,13 @@ collections:
   name: ZeroSettle IAP Cancel Flow User Offer API
   slug: open-zerosettle-user-offer-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/zerosettle/plans/zerosettle-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/zerosettle-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/capabilities/zerosettle-capability-edges.yml
+  href: https://artifacts.apis.io/zerosettle/capabilities/zerosettle-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zerosettle-capability-edges.yml
@@ -150,77 +154,77 @@ common:
   type: Website
   url: https://www.zerosettle.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/mcp/zerosettle-mcp.yml
+  href: https://artifacts.apis.io/zerosettle/mcp/zerosettle-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/zerosettle-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/overlays/zerosettle-openapi-overlay.yaml
+  href: https://artifacts.apis.io/zerosettle/overlays/zerosettle-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zerosettle-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/security/zerosettle-domain-security.yml
+  href: https://artifacts.apis.io/zerosettle/security/zerosettle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zerosettle-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/authentication/zerosettle-authentication.yml
+  href: https://artifacts.apis.io/zerosettle/authentication/zerosettle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zerosettle-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/packages/zerosettle-packages.yml
+  href: https://artifacts.apis.io/zerosettle/packages/zerosettle-packages.yml
   title: ''
   type: Packages
   url: packages/zerosettle-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/packages/zerosettle-packages.yml
+  href: https://artifacts.apis.io/zerosettle/packages/zerosettle-packages.yml
   title: ''
   type: SDKs
   url: packages/zerosettle-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/well-known/zerosettle-well-known.yml
+  href: https://artifacts.apis.io/zerosettle/well-known/zerosettle-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zerosettle-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/llms/zerosettle-llms.txt
+  href: https://artifacts.apis.io/zerosettle/llms/zerosettle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zerosettle-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/conformance/zerosettle-conformance.yml
+  href: https://artifacts.apis.io/zerosettle/conformance/zerosettle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zerosettle-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/lifecycle/zerosettle-lifecycle.yml
+  href: https://artifacts.apis.io/zerosettle/lifecycle/zerosettle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zerosettle-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/lifecycle/zerosettle-lifecycle.yml
+  href: https://artifacts.apis.io/zerosettle/lifecycle/zerosettle-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/zerosettle-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/conventions/zerosettle-conventions.yml
+  href: https://artifacts.apis.io/zerosettle/conventions/zerosettle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zerosettle-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/changelog/zerosettle-changelog.yml
+  href: https://artifacts.apis.io/zerosettle/changelog/zerosettle-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zerosettle-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/sandbox/zerosettle-sandbox.yml
+  href: https://artifacts.apis.io/zerosettle/sandbox/zerosettle-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/zerosettle-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zerosettle/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -274,6 +278,14 @@ common:
   url: mailto:support@zerosettle.io
 created: '2026-07-17'
 description: ZeroSettle is a Y Combinator-backed subscription revenue platform that lets iOS, Android, Flutter, and React Native app developers offer direct web billing as an alternative to App Store and Google Play in-app purchase — the pitch is "keep 85% of your revenue, not 70%." As Merchant of Record (on Stripe Connect, or BYOS), it handles web checkout, entitlements, subscription lifecycle, StoreKit transaction syncing, retention cancel flows, upgrade/migration offers, and compliance external-purchase reporting. The ZeroSettle IAP API (REST/JSON, X-ZeroSettle-Key auth) powers all of its client SDKs, with a free tier plus a $29/month Pro plan.
+finops:
+- has_sources: true
+  method: derived
+  name: Zerosettle Finops
+  primary_unit: account
+  service_category: ''
+  slug: zerosettle-finops
+  template: false
 image: https://zerosettle.io/images/favicon/favicon.ico
 layout: provider
 modified: '2026-07-21'
@@ -283,27 +295,34 @@ network: true
 overview: 'ZeroSettle publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Cancel Flow API, Checkout API, Entitlements API, and 9 more. Tagged areas include Company, Payments, In-App Purchase, Subscription, and Merchant of Record.
 
 
-  ZeroSettle''s developer surface includes authentication, changelog, sandbox, documentation, API reference, quickstart, signup flow, and 22 more developer resources.'
-random_paper: 5
+  ZeroSettle''s developer surface includes authentication, changelog, sandbox, documentation, API reference, quickstart, signup flow, and 23 more developer resources.'
+plans:
+- name: Zerosettle Plans Pricing
+  plan_count: 6
+  slug: zerosettle-plans-pricing
+- name: Zerosettle Price Estimates
+  plan_count: 0
+  slug: zerosettle-price-estimates
+random_paper: 1
 score:
-  band: developing
-  composite: 45.7
+  band: strong
+  composite: 55.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 38.2
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 51.8
     developer_ergonomics: 70.8
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 45.7
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 47.4
   provenance:
     conformance: derived
     contracts:
@@ -319,13 +338,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/screenshots/zerosettle-2026-08-17T083101.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zerosettle/zerosettle-2026-08-17T083101.png
 security:
 - kind: authentication
   name: Zerosettle Authentication
@@ -335,6 +355,14 @@ security:
   name: Zerosettle Domain Security
   slug: zerosettle-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: create-web-checkout
+  slug: create-web-checkout
+- name: manage-subscription-retention
+  slug: manage-subscription-retention
+- name: verify-entitlement
+  slug: verify-entitlement
 slug: zerosettle
 tags:
 - Company

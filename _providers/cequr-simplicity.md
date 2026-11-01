@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation not publicly machine‑readable; only HTML guides are available.
@@ -32,12 +34,12 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cequr-simplicity/refs/heads/main/hosts/cequr-simplicity-hosts.yml
+  href: https://artifacts.apis.io/cequr-simplicity/hosts/cequr-simplicity-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cequr-simplicity-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cequr-simplicity/refs/heads/main/vendors/cequr-simplicity-vendors.yml
+  href: https://artifacts.apis.io/cequr-simplicity/vendors/cequr-simplicity-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cequr-simplicity-vendors.yml
@@ -50,7 +52,7 @@ common:
   type: Leadership
   url: https://myceqursimplicity.com/leadership/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cequr-simplicity/refs/heads/main/security/cequr-simplicity-domain-security.yml
+  href: https://artifacts.apis.io/cequr-simplicity/security/cequr-simplicity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cequr-simplicity-domain-security.yml
@@ -99,7 +101,7 @@ overview: 'CeQur Simplicity is listed with 1 API on the [APIs.io](https://apis.i
 
 
   CeQur Simplicity''s developer surface includes pricing, documentation, getting-started guide, support, engineering blog, and 6 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: emerging
   composite: 15.2
@@ -110,6 +112,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -117,6 +120,7 @@ score:
     developer_ergonomics: 28.6
     discoverability: 58.9
     operational_transparency: 0.0
+  previous_composite: 15.2
   provenance:
     mcp: unknown
   regulatory:
@@ -125,8 +129,9 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

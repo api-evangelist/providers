@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.3
-  scored_at: '2026-10-17'
+  score: 25.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -171,9 +173,6 @@ collections:
   name: Azure Quantum Management API
   slug: postman-azure-quantum-resource-manager-openapi
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Azure Quantum Workspace Services
   slug: open-azure-quantum-data-plane
 - collection_type: open
@@ -200,32 +199,32 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/capabilities/microsoft-quantum-capability-edges.yml
+  href: https://artifacts.apis.io/microsoft-quantum/capabilities/microsoft-quantum-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microsoft-quantum-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/agentic-access/microsoft-quantum-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-quantum/agentic-access/microsoft-quantum-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-quantum-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/security/microsoft-quantum-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/microsoft-quantum/security/microsoft-quantum-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-quantum-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/security/microsoft-quantum-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-quantum/security/microsoft-quantum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-quantum-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/authentication/microsoft-quantum-authentication.yml
+  href: https://artifacts.apis.io/microsoft-quantum/authentication/microsoft-quantum-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-quantum-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/scopes/microsoft-quantum-scopes.yml
+  href: https://artifacts.apis.io/microsoft-quantum/scopes/microsoft-quantum-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-quantum-scopes.yml
@@ -234,32 +233,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-azure-quantum/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/arazzo/microsoft-quantum-cancel-running-job-workflow.yml
+  href: https://artifacts.apis.io/microsoft-quantum/arazzo/microsoft-quantum-cancel-running-job-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-quantum-cancel-running-job-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/arazzo/microsoft-quantum-discover-available-target-workflow.yml
+  href: https://artifacts.apis.io/microsoft-quantum/arazzo/microsoft-quantum-discover-available-target-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-quantum-discover-available-target-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/arazzo/microsoft-quantum-quota-capacity-check-workflow.yml
+  href: https://artifacts.apis.io/microsoft-quantum/arazzo/microsoft-quantum-quota-capacity-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-quantum-quota-capacity-check-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/arazzo/microsoft-quantum-session-lifecycle-workflow.yml
+  href: https://artifacts.apis.io/microsoft-quantum/arazzo/microsoft-quantum-session-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-quantum-session-lifecycle-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/arazzo/microsoft-quantum-submit-job-poll-results-workflow.yml
+  href: https://artifacts.apis.io/microsoft-quantum/arazzo/microsoft-quantum-submit-job-poll-results-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-quantum-submit-job-poll-results-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/arazzo/microsoft-quantum-workspace-bootstrap-workflow.yml
+  href: https://artifacts.apis.io/microsoft-quantum/arazzo/microsoft-quantum-workspace-bootstrap-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-quantum-workspace-bootstrap-workflow.yml
@@ -492,17 +491,17 @@ common:
   type: Forums
   url: https://learn.microsoft.com/en-us/answers/tags/3/azure-quantum
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/plans/microsoft-quantum-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-quantum/plans/microsoft-quantum-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-quantum-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/rate-limits/microsoft-quantum-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-quantum/rate-limits/microsoft-quantum-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-quantum-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/finops/microsoft-quantum-finops.yml
+  href: https://artifacts.apis.io/microsoft-quantum/finops/microsoft-quantum-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-quantum-finops.yml
@@ -533,10 +532,10 @@ features:
 - Azure-native integrations (RBAC, Entra ID, Storage, Monitor) and per-region provider availability
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Microsoft Quantum Finops
-  primary_unit: ''
-  service_category: Quantum Computing
+  primary_unit: 1-qubit-gate shot
+  service_category: ''
   slug: microsoft-quantum-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-quantum.png
@@ -569,9 +568,12 @@ overview: 'Microsoft Azure Quantum publishes 8 API contracts indexed on the [API
   Microsoft Azure Quantum''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, pricing, signup flow, and 67 more developer resources.'
 plans:
 - name: Microsoft Quantum Plans Pricing
-  plan_count: 9
+  plan_count: 10
   slug: microsoft-quantum-plans-pricing
-random_paper: 2
+- name: Microsoft Quantum Price Estimates
+  plan_count: 0
+  slug: microsoft-quantum-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 8
   name: Microsoft Quantum Rate Limits
@@ -595,23 +597,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials/implicit
 score:
   band: strong
-  composite: 59.8
+  composite: 64.9
   coverage:
     artifact_dirs: 21
-    catalog_earned: 55.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 59.8
+    catalog_earned: 67.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 47.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 9.8
     contract_quality: 54.5
     developer_ergonomics: 67.9
     discoverability: 64.3
-    operational_transparency: 44.7
-  previous_composite: 68.1
+    operational_transparency: 55.3
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     contracts:
@@ -625,13 +627,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/screenshots/microsoft-quantum-2026-06-20T185529.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-quantum/microsoft-quantum-2026-06-20T185529.png
 security:
 - kind: authentication
   name: Microsoft Quantum Authentication

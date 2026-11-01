@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,11 +50,8 @@ apis:
   description: Police brutality incident records from the 2020 George Floyd protests
   name: 2020 Police Brutality Incidents API
   slug: 2020-police-brutality-incidents-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 2020 Police Brutality Incidents API
   slug: open-2020-police-brutality-incidents-api
@@ -61,17 +60,17 @@ collections:
   slug: open-2020-police-brutality
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/plans/2020-police-brutality-plans-pricing.yml
+  href: https://artifacts.apis.io/2020-police-brutality/plans/2020-police-brutality-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/2020-police-brutality-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/rate-limits/2020-police-brutality-rate-limits.yml
+  href: https://artifacts.apis.io/2020-police-brutality/rate-limits/2020-police-brutality-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/2020-police-brutality-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/finops/2020-police-brutality-finops.yml
+  href: https://artifacts.apis.io/2020-police-brutality/finops/2020-police-brutality-finops.yml
   title: ''
   type: FinOps
   url: finops/2020-police-brutality-finops.yml
@@ -92,7 +91,7 @@ common:
   type: License
   url: https://github.com/2020PB/police-brutality/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/agentic-access/2020-police-brutality-agentic-access.yml
+  href: https://artifacts.apis.io/2020-police-brutality/agentic-access/2020-police-brutality-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/2020-police-brutality-agentic-access.yml
@@ -109,12 +108,12 @@ common:
   type: Documentation
   url: https://github.com/2020PB/police-brutality/blob/main/README.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/rules/2020-police-brutality-spectral-rules.yml
+  href: https://artifacts.apis.io/2020-police-brutality/rules/2020-police-brutality-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/2020-police-brutality-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/vocabulary/2020-police-brutality-vocabulary.yaml
+  href: https://artifacts.apis.io/2020-police-brutality/vocabulary/2020-police-brutality-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/2020-police-brutality-vocabulary.yaml
@@ -144,7 +143,7 @@ finops:
 - has_sources: false
   method: generated
   name: 2020 Police Brutality Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: 2020-police-brutality-finops
   template: true
@@ -184,7 +183,7 @@ plans:
 - name: 2020 Police Brutality Plans Pricing
   plan_count: 3
   slug: 2020-police-brutality-plans-pricing
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: 2020 Police Brutality Rate Limits
@@ -215,7 +214,7 @@ rules:
   slug: 2020-police-brutality-spectral-rules
 score:
   band: emerging
-  composite: 24.0
+  composite: 21.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 67.0
@@ -223,18 +222,15 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 26.7
     developer_ergonomics: 9.5
     discoverability: 57.1
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 22.7
+    operational_transparency: 28.9
+  previous_composite: 21.6
   provenance:
     agentic_access: derived
     contracts:
@@ -248,14 +244,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/screenshots/2020-police-brutality-2026-06-20T162626.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/2020-police-brutality/2020-police-brutality-2026-06-20T162626.png
 slug: 2020-police-brutality
 tags:
 - Brutality

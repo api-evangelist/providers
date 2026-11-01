@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 27.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: Industrial product catalog operations
   name: Applied Industrial Technologies Products API
   slug: applied-industrial-technologies-products-api
-artifact_total: 17
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Applied Industrial Technologies Product Catalog Orders API
   slug: open-applied-industrial-technologies-orders-api
@@ -67,37 +66,37 @@ collections:
   slug: open-applied-industrial-technologies-products-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/applied-industrial-technologies/refs/heads/main/plans/applied-industrial-technologies-plans-pricing.yml
+  href: https://artifacts.apis.io/applied-industrial-technologies/plans/applied-industrial-technologies-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/applied-industrial-technologies-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/applied-industrial-technologies/refs/heads/main/rate-limits/applied-industrial-technologies-rate-limits.yml
+  href: https://artifacts.apis.io/applied-industrial-technologies/rate-limits/applied-industrial-technologies-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/applied-industrial-technologies-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/applied-industrial-technologies/refs/heads/main/finops/applied-industrial-technologies-finops.yml
+  href: https://artifacts.apis.io/applied-industrial-technologies/finops/applied-industrial-technologies-finops.yml
   title: ''
   type: FinOps
   url: finops/applied-industrial-technologies-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/applied-industrial-technologies/refs/heads/main/security/applied-industrial-technologies-domain-security.yml
+  href: https://artifacts.apis.io/applied-industrial-technologies/security/applied-industrial-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/applied-industrial-technologies-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/applied-industrial-technologies/refs/heads/main/capabilities/applied-industrial-technologies-capability-edges.yml
+  href: https://artifacts.apis.io/applied-industrial-technologies/capabilities/applied-industrial-technologies-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/applied-industrial-technologies-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/applied-industrial-technologies/refs/heads/main/agentic-access/applied-industrial-technologies-agentic-access.yml
+  href: https://artifacts.apis.io/applied-industrial-technologies/agentic-access/applied-industrial-technologies-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/applied-industrial-technologies-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/applied-industrial-technologies/refs/heads/main/authentication/applied-industrial-technologies-authentication.yml
+  href: https://artifacts.apis.io/applied-industrial-technologies/authentication/applied-industrial-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/applied-industrial-technologies-authentication.yml
@@ -137,7 +136,7 @@ finops:
 - has_sources: false
   method: generated
   name: Applied Industrial Technologies Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: applied-industrial-technologies-finops
   template: true
@@ -187,7 +186,7 @@ press:
 - date: ''
   title: AIT Applied Industrial Technologies, Inc. Stock Price & ...
   url: https://seekingalpha.com/symbol/AIT
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Applied Industrial Technologies Rate Limits
@@ -218,7 +217,7 @@ rules:
   slug: applied-industrial-technologies-spectral-rules
 score:
   band: emerging
-  composite: 17.2
+  composite: 17.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 54.4
@@ -226,7 +225,7 @@ score:
     catalog_gap: 60.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 27.3
@@ -234,7 +233,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 18.7
+  previous_composite: 17.9
   provenance:
     agentic_access: derived
     contracts:
@@ -248,12 +247,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Applied Industrial Technologies Authentication

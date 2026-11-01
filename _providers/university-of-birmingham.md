@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-17'
+  score: 22.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,11 +74,8 @@ apis:
 - description: canvas.bham.ac.uk is the University's virtual learning environment, an Instructure Canvas tenancy — the hostname CNAMEs to birmingham-vanity.instructure.com. Canvas ships an LTI platform and an LMS RE
   name: Canvas virtual learning environment (Instructure tenancy)
   slug: canvas-vle
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: English Constructicon Constructions API
   slug: open-university-of-birmingham-constructions-api
@@ -142,67 +141,67 @@ common:
   type: AIPolicy
   url: https://www.birmingham.ac.uk/libraries/education-excellence/gai
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/conformance/university-of-birmingham-conformance.yml
+  href: https://artifacts.apis.io/university-of-birmingham/conformance/university-of-birmingham-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-birmingham-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/authentication/university-of-birmingham-authentication.yml
+  href: https://artifacts.apis.io/university-of-birmingham/authentication/university-of-birmingham-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-birmingham-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/lifecycle/university-of-birmingham-lifecycle.yml
+  href: https://artifacts.apis.io/university-of-birmingham/lifecycle/university-of-birmingham-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/university-of-birmingham-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/errors/university-of-birmingham-errors.yml
+  href: https://artifacts.apis.io/university-of-birmingham/errors/university-of-birmingham-errors.yml
   title: ''
   type: ErrorCatalog
   url: errors/university-of-birmingham-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/vocabulary/university-of-birmingham-vocabulary.yml
+  href: https://artifacts.apis.io/university-of-birmingham/vocabulary/university-of-birmingham-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/university-of-birmingham-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/json-ld/university-of-birmingham-context.jsonld
+  href: https://artifacts.apis.io/university-of-birmingham/json-ld/university-of-birmingham-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/university-of-birmingham-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/rules/university-of-birmingham-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/university-of-birmingham/rules/university-of-birmingham-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/university-of-birmingham-jsonschema-spectral-rules.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/agentic-access/university-of-birmingham-agentic-access.yml
+  href: https://artifacts.apis.io/university-of-birmingham/agentic-access/university-of-birmingham-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-birmingham-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/security/university-of-birmingham-domain-security.yml
+  href: https://artifacts.apis.io/university-of-birmingham/security/university-of-birmingham-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-birmingham-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/plans/university-of-birmingham-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-birmingham/plans/university-of-birmingham-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-birmingham-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/rate-limits/university-of-birmingham-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-birmingham/rate-limits/university-of-birmingham-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-birmingham-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/finops/university-of-birmingham-finops.yml
+  href: https://artifacts.apis.io/university-of-birmingham/finops/university-of-birmingham-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-birmingham-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-birmingham/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -251,7 +250,7 @@ plans:
 - name: University Of Birmingham Plans Pricing
   plan_count: 2
   slug: university-of-birmingham-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: University Of Birmingham Rate Limits
@@ -281,7 +280,7 @@ rules:
   slug: university-of-birmingham-rules
 score:
   band: thin
-  composite: 36.8
+  composite: 37.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 57.2
@@ -289,14 +288,14 @@ score:
     catalog_gap: 57.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 23.5
     contract_quality: 58.4
     developer_ergonomics: 32.1
     discoverability: 57.1
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -305,7 +304,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 38.3
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -320,14 +319,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/screenshots/university-of-birmingham-2026-06-20T200137.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/university-of-birmingham/university-of-birmingham-2026-06-20T200137.png
 security:
 - kind: authentication
   name: University Of Birmingham Authentication

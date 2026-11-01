@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.5
-  scored_at: '2026-10-17'
+  score: 24.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -94,15 +96,12 @@ apis:
   description: The Api API from Vooma — 0 operation(s) for api.
   name: Vooma API
   slug: vooma-api-api
-artifact_total: 25
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Vooma Webhooks
   slug: vooma-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: api Carriers API
   slug: open-vooma-carriers-api
@@ -132,22 +131,22 @@ collections:
   slug: open-vooma-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/capabilities/vooma-capability-edges.yml
+  href: https://artifacts.apis.io/vooma/capabilities/vooma-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vooma-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/security/vooma-domain-security.yml
+  href: https://artifacts.apis.io/vooma/security/vooma-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vooma-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/agentic-access/vooma-agentic-access.yml
+  href: https://artifacts.apis.io/vooma/agentic-access/vooma-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vooma-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/authentication/vooma-authentication.yml
+  href: https://artifacts.apis.io/vooma/authentication/vooma-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vooma-authentication.yml
@@ -208,52 +207,52 @@ common:
   type: Compliance
   url: https://www.vooma.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/llms/vooma-llms.txt
+  href: https://artifacts.apis.io/vooma/llms/vooma-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vooma-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/mcp/vooma-mcp.yml
+  href: https://artifacts.apis.io/vooma/mcp/vooma-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vooma-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/asyncapi/vooma-webhooks.yml
+  href: https://artifacts.apis.io/vooma/asyncapi/vooma-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vooma-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/conformance/vooma-conformance.yml
+  href: https://artifacts.apis.io/vooma/conformance/vooma-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vooma-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/lifecycle/vooma-lifecycle.yml
+  href: https://artifacts.apis.io/vooma/lifecycle/vooma-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vooma-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/conventions/vooma-conventions.yml
+  href: https://artifacts.apis.io/vooma/conventions/vooma-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vooma-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/data-model/vooma-data-model.yml
+  href: https://artifacts.apis.io/vooma/data-model/vooma-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vooma-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/packages/vooma-packages.yml
+  href: https://artifacts.apis.io/vooma/packages/vooma-packages.yml
   title: ''
   type: Packages
   url: packages/vooma-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vooma/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/overlays/vooma-openapi-overlay.yaml
+  href: https://artifacts.apis.io/vooma/overlays/vooma-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vooma-openapi-overlay.yaml
@@ -275,23 +274,23 @@ overview: 'Vooma publishes 10 API contracts indexed on the [APIs.io](https://api
 random_paper: 18
 score:
   band: developing
-  composite: 46.8
+  composite: 47.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 51.1
+    contract_quality: 52.5
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 46.8
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,7 +298,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 10
+      total: 9
     mcp: derived
     skills: derived
   regulatory:
@@ -308,13 +307,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/screenshots/vooma-2026-08-17T082822.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vooma/vooma-2026-08-17T082822.png
 security:
 - kind: authentication
   name: Vooma Authentication
@@ -328,6 +328,16 @@ security:
   name: Vooma Trust Center
   slug: vooma-trust-center
   summary_line: SOC 2
+skill_count: 4
+skills:
+- name: Maintain the carrier, customer, location, and contact directory
+  slug: vooma-maintain-directory
+- name: Search quotes and reconcile them to shipments
+  slug: vooma-search-and-reconcile-quotes
+- name: Sync shipments from your TMS into Vooma
+  slug: vooma-sync-shipments-from-tms
+- name: Track a movement and schedule stop appointments
+  slug: vooma-track-a-movement
 slug: vooma
 tags:
 - Company

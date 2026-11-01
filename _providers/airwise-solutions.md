@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'API for UAS services including flight planning, real-time tracking, airspace restrictions and UTM coordination. Reference documentation requires a sign-in with an AirWise developer account; no public '
@@ -32,7 +34,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airwise-solutions/refs/heads/main/security/airwise-solutions-domain-security.yml
+  href: https://artifacts.apis.io/airwise-solutions/security/airwise-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/airwise-solutions-domain-security.yml
@@ -45,32 +47,32 @@ common:
   type: DeveloperPortal
   url: https://developer.airwisesolutions.app/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airwise-solutions/refs/heads/main/llms/airwise-solutions-llms.txt
+  href: https://artifacts.apis.io/airwise-solutions/llms/airwise-solutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/airwise-solutions-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airwise-solutions/refs/heads/main/well-known/airwise-solutions-well-known.yml
+  href: https://artifacts.apis.io/airwise-solutions/well-known/airwise-solutions-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/airwise-solutions-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airwise-solutions/refs/heads/main/conformance/airwise-solutions-conformance.yml
+  href: https://artifacts.apis.io/airwise-solutions/conformance/airwise-solutions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/airwise-solutions-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/airwise-solutions/refs/heads/main/packages/airwise-solutions-packages.yml
+  href: https://artifacts.apis.io/airwise-solutions/packages/airwise-solutions-packages.yml
   title: ''
   type: Packages
   url: packages/airwise-solutions-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/airwise-solutions/refs/heads/main/plans/airwise-solutions-plans-pricing.yml
+  href: https://artifacts.apis.io/airwise-solutions/plans/airwise-solutions-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/airwise-solutions-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/airwise-solutions/refs/heads/main/rate-limits/airwise-solutions-rate-limits.yml
+  href: https://artifacts.apis.io/airwise-solutions/rate-limits/airwise-solutions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/airwise-solutions-rate-limits.yml
@@ -136,14 +138,14 @@ plans:
 - name: Airwise Solutions Plans Pricing
   plan_count: 0
   slug: airwise-solutions-plans-pricing
-random_paper: 5
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Airwise Solutions Rate Limits
   slug: airwise-solutions-rate-limits
 score:
   band: emerging
-  composite: 23.8
+  composite: 23.1
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -151,15 +153,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 23.7
+  previous_composite: 23.1
   provenance:
     conformance: first-party
   regulatory:
@@ -168,14 +170,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/airwise-solutions/refs/heads/main/screenshots/airwise-solutions-2026-10-11T093454.png
+screenshot: https://apis.io/screenshots/airwise-solutions/airwise-solutions-2026-10-11T093454.png
 security:
 - kind: authentication
   name: Airwise Solutions Authentication

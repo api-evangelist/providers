@@ -31,59 +31,71 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.1
-  scored_at: '2026-10-17'
+  score: 17.6
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 4
+artifact_total: 6
 common:
+- group: other
+  href: https://artifacts.apis.io/hcf/hosts/hcf-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/hcf-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/hcf/vendors/hcf-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/hcf-vendors.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hcf/refs/heads/main/well-known/hcf-well-known.yml
+  href: https://artifacts.apis.io/hcf/well-known/hcf-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hcf-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hcf/refs/heads/main/well-known/hcf-openid-configuration.json
+  href: https://artifacts.apis.io/hcf/well-known/hcf-openid-configuration.json
   title: ''
   type: OpenIDConfiguration
   url: well-known/hcf-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hcf/refs/heads/main/well-known/hcf-oauth-authorization-server.json
+  href: https://artifacts.apis.io/hcf/well-known/hcf-oauth-authorization-server.json
   title: ''
   type: OAuthAuthorizationServer
   url: well-known/hcf-oauth-authorization-server.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hcf/refs/heads/main/authentication/hcf-authentication.yml
+  href: https://artifacts.apis.io/hcf/authentication/hcf-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hcf-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hcf/refs/heads/main/scopes/hcf-scopes.yml
+  href: https://artifacts.apis.io/hcf/scopes/hcf-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hcf-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hcf/refs/heads/main/conformance/hcf-conformance.yml
+  href: https://artifacts.apis.io/hcf/conformance/hcf-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hcf-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hcf/refs/heads/main/security/hcf-domain-security.yml
+  href: https://artifacts.apis.io/hcf/security/hcf-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hcf-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hcf/refs/heads/main/security/hcf-trust-center.yml
+  href: https://artifacts.apis.io/hcf/security/hcf-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/hcf-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hcf/refs/heads/main/llms/hcf-llms.txt
+  href: https://artifacts.apis.io/hcf/llms/hcf-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hcf-llms.txt
@@ -186,17 +198,25 @@ common:
 created: '2026-07-25'
 description: 'HCF — The Hospitals Contribution Fund of Australia Limited (ABN 68 000 026 746, AFSL 241 414), founded in 1932 and headquartered in Sydney — is Australia''s largest not-for-profit health fund, covering over 2 million members. It underwrites private health insurance (hospital, extras and ambulance cover) and Overseas Visitors Health Cover, and distributes life and Recover Cover products (life protect, income protect, critical illness), travel, pet, home, car and landlord insurance, plus the Flip accidental-injury brand, alongside its own HCF dental and eyecare centres and the HCF Research Foundation. As a carrier in Australian private health insurance, HCF publishes NO public, self-serve developer API and no developer portal: probes of developer.hcf.com.au, developers.hcf.com.au and docs.hcf.com.au do not resolve, and /developers, /developer, /api-docs, /partners and /integrations on www.hcf.com.au all return 404. Member and provider integration runs through channels HCF does
   not itself expose as an API — point-of-service extras claiming over third-party HICAPS VX, HICAPS Trinity and CommBank Smart Health terminals, Medicare Benefit Statements for medical gap claims, the My Membership app and online member services behind an Okta-backed sign-in at id.hcf.com.au, and four login-gated ASP.NET provider portals (hospital, medical, dental and ancillary) at www.hcf.com.au/provider-portals which are web applications rather than machine interfaces. The only machine-readable surface HCF answers on is that Okta tenant''s OIDC and RFC 8414 discovery metadata, captured in this record. No ACORD reference of any kind appears on the site, which is consistent with private health insurance sitting outside the general-insurance ACORD/AL3 world, and Australia''s Consumer Data Right — designated for general insurance and then deferred — never reached health insurance at all. The record here is deliberately an honest stub: this is a partner-gated, no-public-API carrier.'
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://www.hcf.com.au/content/dam/hcf/images/placeholder/logo_hcf1.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-10-21'
 name: HCF
 nav: Providers
 network: true
 overview: 'HCF is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, Health Insurance, Life Insurance, and Travel Insurance.
 
 
-  HCF''s developer surface includes authentication, support, YouTube channel, engineering blog, and 29 more developer resources.'
-random_paper: 19
+  HCF''s developer surface includes authentication, support, YouTube channel, engineering blog, and 31 more developer resources.'
+plans:
+- name: Hcf Plans Pricing
+  plan_count: 0
+  slug: hcf-plans-pricing
+random_paper: 17
+rate_limits:
+- limit_count: 0
+  name: Hcf Rate Limits
+  slug: hcf-rate-limits
 scopes:
 - name: Hcf Scopes
   scope_count: 83
@@ -204,9 +224,9 @@ scopes:
   summary_line: 83 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 22.3
+  composite: 22.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 17
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -214,11 +234,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -227,23 +247,24 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 22.3
+  previous_composite: 22.9
   provenance:
     conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hcf/refs/heads/main/screenshots/hcf-2026-10-11T185545.png
+screenshot: https://apis.io/screenshots/hcf/hcf-2026-10-11T185545.png
 security:
 - kind: authentication
   name: Hcf Authentication

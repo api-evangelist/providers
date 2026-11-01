@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.kitchenstories.io/api
@@ -222,11 +224,8 @@ apis:
   description: The Videos API from Kitchen Stories — 5 operation(s) for videos.
   name: Kitchen Stories Videos API
   slug: kitchenstories-videos-api
-artifact_total: 77
+artifact_total: 80
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kitchen Stories Internal Articles Admin API
   slug: open-kitchenstories-articles-admin-api
@@ -340,27 +339,27 @@ collections:
   slug: open-kitchenstories-videos-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/capabilities/kitchenstories-capability-edges.yml
+  href: https://artifacts.apis.io/kitchenstories/capabilities/kitchenstories-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kitchenstories-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/skills/kitchenstories-community-engagement.md
+  href: https://artifacts.apis.io/kitchenstories/skills/kitchenstories-community-engagement.md
   title: ''
   type: AgentSkill
   url: skills/kitchenstories-community-engagement.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/mcp/kitchenstories-mcp.yml
+  href: https://artifacts.apis.io/kitchenstories/mcp/kitchenstories-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kitchenstories-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/overlays/kitchenstories-internal-overlay.yaml
+  href: https://artifacts.apis.io/kitchenstories/overlays/kitchenstories-internal-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kitchenstories-internal-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/security/kitchenstories-domain-security.yml
+  href: https://artifacts.apis.io/kitchenstories/security/kitchenstories-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kitchenstories-domain-security.yml
@@ -417,17 +416,17 @@ common:
   type: Imprint
   url: https://www.kitchenstories.com/en/imprint
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/llms/kitchenstories-llms.txt
+  href: https://artifacts.apis.io/kitchenstories/llms/kitchenstories-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kitchenstories-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/packages/kitchenstories-packages.yml
+  href: https://artifacts.apis.io/kitchenstories/packages/kitchenstories-packages.yml
   title: ''
   type: Packages
   url: packages/kitchenstories-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/well-known/kitchenstories-well-known.yml
+  href: https://artifacts.apis.io/kitchenstories/well-known/kitchenstories-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kitchenstories-well-known.yml
@@ -443,10 +442,10 @@ overview: 'Kitchen Stories publishes 37 API contracts indexed on the [APIs.io](h
 
 
   Kitchen Stories'' developer surface includes support, engineering blog, signup flow, pricing, and 17 more developer resources.'
-random_paper: 1
+random_paper: 7
 score:
   band: thin
-  composite: 38.8
+  composite: 34.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -454,14 +453,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 45.8
+    contract_quality: 43.3
     developer_ergonomics: 28.0
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -470,7 +469,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 38.7
+  previous_composite: 34.6
   provenance:
     conformance: derived
     contracts:
@@ -486,13 +485,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/screenshots/kitchenstories-2026-07-25T223912.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kitchenstories/kitchenstories-2026-07-25T223912.png
 security:
 - kind: authentication
   name: Kitchenstories Authentication
@@ -502,6 +502,16 @@ security:
   name: Kitchenstories Domain Security
   slug: kitchenstories-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: kitchenstories-community-engagement
+  slug: kitchenstories-community-engagement
+- name: kitchenstories-cookbook-management
+  slug: kitchenstories-cookbook-management
+- name: kitchenstories-meal-planning
+  slug: kitchenstories-meal-planning
+- name: kitchenstories-recipe-discovery
+  slug: kitchenstories-recipe-discovery
 slug: kitchenstories
 tags:
 - Company

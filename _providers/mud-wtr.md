@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: 'Universal Commerce Protocol (UCP) shopping service, exposed over MCP at https://mudwtr.com/api/ucp/mcp. Server identifies itself as "universal-commerce" 0.1.0 speaking MCP protocol 2025-06-18 and UCP '
@@ -51,10 +53,10 @@ apis:
 - description: 'Anonymous read-only JSON over the storefront: /products.json and /collections.json for the catalog, /products/{handle}.json and /collections/{handle}/products.json for single resources, and /cart.js f'
   name: MUD\WTR Storefront JSON Endpoints
   slug: mud-wtr-storefront-json
-artifact_total: 10
+artifact_total: 13
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/security/mud-wtr-domain-security.yml
+  href: https://artifacts.apis.io/mud-wtr/security/mud-wtr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mud-wtr-domain-security.yml
@@ -87,87 +89,87 @@ common:
   type: Wholesale
   url: https://mudwtr.com/pages/wholesale
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/llms/mud-wtr-llms.txt
+  href: https://artifacts.apis.io/mud-wtr/llms/mud-wtr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mud-wtr-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/llms/mud-wtr-agents.md
+  href: https://artifacts.apis.io/mud-wtr/llms/mud-wtr-agents.md
   title: ''
   type: AgentInstructions
   url: llms/mud-wtr-agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/well-known/mud-wtr-well-known.yml
+  href: https://artifacts.apis.io/mud-wtr/well-known/mud-wtr-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mud-wtr-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/authentication/mud-wtr-authentication.yml
+  href: https://artifacts.apis.io/mud-wtr/authentication/mud-wtr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mud-wtr-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/scopes/mud-wtr-scopes.yml
+  href: https://artifacts.apis.io/mud-wtr/scopes/mud-wtr-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mud-wtr-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/conformance/mud-wtr-conformance.yml
+  href: https://artifacts.apis.io/mud-wtr/conformance/mud-wtr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mud-wtr-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/lifecycle/mud-wtr-lifecycle.yml
+  href: https://artifacts.apis.io/mud-wtr/lifecycle/mud-wtr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mud-wtr-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/conventions/mud-wtr-conventions.yml
+  href: https://artifacts.apis.io/mud-wtr/conventions/mud-wtr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mud-wtr-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/conventions/mud-wtr-conventions.yml
+  href: https://artifacts.apis.io/mud-wtr/conventions/mud-wtr-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/mud-wtr-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/errors/mud-wtr-problem-types.yml
+  href: https://artifacts.apis.io/mud-wtr/errors/mud-wtr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mud-wtr-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/rate-limits/mud-wtr-rate-limits.yml
+  href: https://artifacts.apis.io/mud-wtr/rate-limits/mud-wtr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mud-wtr-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/plans/mud-wtr-plans-pricing.yml
+  href: https://artifacts.apis.io/mud-wtr/plans/mud-wtr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mud-wtr-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mud-wtr/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/data-model/mud-wtr-data-model.yml
+  href: https://artifacts.apis.io/mud-wtr/data-model/mud-wtr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mud-wtr-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/mcp/mud-wtr-tool-crosswalk.yml
+  href: https://artifacts.apis.io/mud-wtr/mcp/mud-wtr-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/mud-wtr-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/mcp/mud-wtr-mcp.yml
+  href: https://artifacts.apis.io/mud-wtr/mcp/mud-wtr-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mud-wtr-mcp.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/graphql/mud-wtr-storefront.graphql
+  href: https://artifacts.apis.io/mud-wtr/graphql/mud-wtr-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/mud-wtr-storefront.graphql
@@ -191,7 +193,7 @@ plans:
 - name: Mud Wtr Plans Pricing
   plan_count: 0
   slug: mud-wtr-plans-pricing
-random_paper: 16
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Mud Wtr Rate Limits
@@ -203,7 +205,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 24.6
+  composite: 23.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 35.0
@@ -211,15 +213,15 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 9.3
     developer_ergonomics: 16.1
-    discoverability: 71.7
+    discoverability: 61.7
     operational_transparency: 0.0
-  previous_composite: 24.5
+  previous_composite: 23.6
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -230,14 +232,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mud-wtr/refs/heads/main/screenshots/mud-wtr-2026-09-02T150657.png
+screenshot: https://apis.io/screenshots/mud-wtr/mud-wtr-2026-09-02T150657.png
 security:
 - kind: authentication
   name: Mud Wtr Authentication
@@ -247,6 +249,14 @@ security:
   name: Mud Wtr Domain Security
   slug: mud-wtr-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: mud-wtr-agent-checkout
+  slug: mud-wtr-agent-checkout
+- name: mud-wtr-browse-catalog
+  slug: mud-wtr-browse-catalog
+- name: mud-wtr-build-cart
+  slug: mud-wtr-build-cart
 slug: mud-wtr
 tags:
 - Company

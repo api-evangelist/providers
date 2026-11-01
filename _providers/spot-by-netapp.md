@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -96,7 +98,7 @@ apis:
   description: The Ocean AWS API from Spot by NetApp — 3 operation(s) for ocean aws.
   name: Spot by NetApp Ocean AWS API
   slug: spot-by-netapp-ocean-aws-api
-artifact_total: 46
+artifact_total: 45
 collections:
 - collection_type: postman
   name: Spot by NetApp Audit Service API
@@ -128,9 +130,6 @@ collections:
 - collection_type: postman
   name: Spot by NetApp Audit Service Ocean AWS API
   slug: postman-spot-by-netapp-ocean-aws-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Spot by NetApp Audit Service API
   slug: open-spot-by-netapp-audit-service-api
@@ -166,22 +165,22 @@ collections:
   slug: open-spot-by-netapp
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/plans/spot-by-netapp-plans-pricing.yml
+  href: https://artifacts.apis.io/spot-by-netapp/plans/spot-by-netapp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spot-by-netapp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/rate-limits/spot-by-netapp-rate-limits.yml
+  href: https://artifacts.apis.io/spot-by-netapp/rate-limits/spot-by-netapp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spot-by-netapp-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/finops/spot-by-netapp-finops.yml
+  href: https://artifacts.apis.io/spot-by-netapp/finops/spot-by-netapp-finops.yml
   title: ''
   type: FinOps
   url: finops/spot-by-netapp-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/capabilities/spot-by-netapp-capability-edges.yml
+  href: https://artifacts.apis.io/spot-by-netapp/capabilities/spot-by-netapp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spot-by-netapp-capability-edges.yml
@@ -190,17 +189,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/spot-by-netapp/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/agentic-access/spot-by-netapp-agentic-access.yml
+  href: https://artifacts.apis.io/spot-by-netapp/agentic-access/spot-by-netapp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spot-by-netapp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/security/spot-by-netapp-domain-security.yml
+  href: https://artifacts.apis.io/spot-by-netapp/security/spot-by-netapp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spot-by-netapp-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/authentication/spot-by-netapp-authentication.yml
+  href: https://artifacts.apis.io/spot-by-netapp/authentication/spot-by-netapp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spot-by-netapp-authentication.yml
@@ -281,7 +280,7 @@ finops:
 - has_sources: false
   method: generated
   name: Spot By Netapp Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: spot-by-netapp-finops
   template: true
@@ -318,7 +317,7 @@ plans:
 - name: Spot By Netapp Plans Pricing
   plan_count: 3
   slug: spot-by-netapp-plans-pricing
-random_paper: 3
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Spot By Netapp Rate Limits
@@ -349,7 +348,7 @@ rules:
   slug: spot-by-netapp-rules
 score:
   band: developing
-  composite: 40.7
+  composite: 44.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 55.5
@@ -357,15 +356,15 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 21.1
     contract_governance: 13.6
-    contract_quality: 56.6
-    developer_ergonomics: 77.4
+    contract_quality: 53.2
+    developer_ergonomics: 84.5
     discoverability: 66.1
     operational_transparency: 13.2
-  previous_composite: 42.2
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -379,13 +378,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/screenshots/spot-by-netapp-2026-06-20T194351.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spot-by-netapp/spot-by-netapp-2026-06-20T194351.png
 security:
 - kind: authentication
   name: Spot By Netapp Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -45,7 +47,7 @@ common:
   type: Support
   url: https://support.quest.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quest-software-inc/refs/heads/main/security/quest-software-inc-domain-security.yml
+  href: https://artifacts.apis.io/quest-software-inc/security/quest-software-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quest-software-inc-domain-security.yml
@@ -61,10 +63,10 @@ overview: 'Quest Software is profiled on the [APIs.io](https://apis.io/) network
 
 
   Quest Software''s developer surface includes support and 2 more developer resources.'
-random_paper: 15
+random_paper: 17
 score:
   band: minimal
-  composite: 3.4
+  composite: 4.4
   coverage:
     artifact_dirs: 3
     catalog_earned: 27.0
@@ -77,7 +79,7 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 4.8
     discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
@@ -85,21 +87,21 @@ score:
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 3.4
+  previous_composite: 4.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/quest-software-inc/refs/heads/main/screenshots/quest-software-inc-2026-10-11T113110.png
+screenshot: https://apis.io/screenshots/quest-software-inc/quest-software-inc-2026-10-11T113110.png
 security:
 - kind: domain-security
   name: Quest Software Inc Domain Security

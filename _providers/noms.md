@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.1
-  scored_at: '2026-10-17'
+  score: 36.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 11
   slug: noms-agentic-access
   summary_line: 11 operations · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - description: REST API for nutrition data covering 3.7M foods and 298K brands.
   name: Noms API
@@ -66,90 +68,95 @@ apis:
   description: Your **account's** usage against its quota for the current window — the total across every key you hold, which is what enforcement compares against. Poll it to see where you stand before hitting the l
   name: Noms Usage API
   slug: noms-usage-api
-artifact_total: 15
+artifact_total: 16
 common:
+- group: other
+  href: https://artifacts.apis.io/noms/capabilities/noms-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/noms-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/agentic-access/noms-agentic-access.yml
+  href: https://artifacts.apis.io/noms/agentic-access/noms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/noms-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/rate-limits/noms-rate-limits.yml
+  href: https://artifacts.apis.io/noms/rate-limits/noms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/noms-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/plans/noms-plans-pricing.yml
+  href: https://artifacts.apis.io/noms/plans/noms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/noms-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/rules/noms-rules.yml
+  href: https://artifacts.apis.io/noms/rules/noms-rules.yml
   title: ''
   type: Spectral
   url: rules/noms-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/json-ld/noms-context.jsonld
+  href: https://artifacts.apis.io/noms/json-ld/noms-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/noms-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/vocabulary/noms-vocabulary.yml
+  href: https://artifacts.apis.io/noms/vocabulary/noms-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/noms-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/data-model/noms-data-model.yml
+  href: https://artifacts.apis.io/noms/data-model/noms-data-model.yml
   title: ''
   type: DataModel
   url: data-model/noms-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/conventions/noms-conventions.yml
+  href: https://artifacts.apis.io/noms/conventions/noms-conventions.yml
   title: ''
   type: Conventions
   url: conventions/noms-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/security/noms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/noms/security/noms-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/noms-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/authentication/noms-authentication.yml
+  href: https://artifacts.apis.io/noms/authentication/noms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/noms-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/errors/noms-problem-types.yml
+  href: https://artifacts.apis.io/noms/errors/noms-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/noms-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/conformance/noms-conformance.yml
+  href: https://artifacts.apis.io/noms/conformance/noms-conformance.yml
   title: ''
   type: Conformance
   url: conformance/noms-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/llms/noms-llms.txt
+  href: https://artifacts.apis.io/noms/llms/noms-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/noms-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/well-known/noms-security.txt
+  href: https://artifacts.apis.io/noms/well-known/noms-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/noms-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/well-known/noms-well-known.yml
+  href: https://artifacts.apis.io/noms/well-known/noms-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/noms-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/hosts/noms-hosts.yml
+  href: https://artifacts.apis.io/noms/hosts/noms-hosts.yml
   title: ''
   type: Hosts
   url: hosts/noms-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/vendors/noms-vendors.yml
+  href: https://artifacts.apis.io/noms/vendors/noms-vendors.yml
   title: ''
   type: Vendors
   url: vendors/noms-vendors.yml
@@ -162,12 +169,12 @@ common:
   type: APIReference
   url: https://noms.sh/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/security/noms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/noms/security/noms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/noms-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/security/noms-domain-security.yml
+  href: https://artifacts.apis.io/noms/security/noms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/noms-domain-security.yml
@@ -213,6 +220,14 @@ common:
   url: https://www.postman.com/noms-sh/noms-api/collection/r0dxcen/noms-api
 created: '2026-09-28'
 description: Noms provides a comprehensive nutrition data API covering 3.7 million foods and 298,000 brands across 230 countries. The service offers detailed nutrient information, barcode lookup, and food images, all accessible via a RESTful interface. It includes a free tier with no credit card required, extensive documentation, and support resources to help developers integrate nutritional data into applications.
+finops:
+- has_sources: true
+  method: derived
+  name: Noms Finops
+  primary_unit: ''
+  service_category: ''
+  slug: noms-finops
+  template: true
 image: https://noms.sh/og-image.png
 jsonld:
 - class_count: 27
@@ -230,12 +245,12 @@ overview: 'Noms publishes 7 API contracts indexed on the [APIs.io](https://apis.
   The Noms catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Noms'' developer surface includes authentication, API reference, documentation, getting-started guide, pricing, signup flow, support, and 24 more developer resources.'
+  Noms'' developer surface includes authentication, API reference, documentation, getting-started guide, pricing, signup flow, support, and 25 more developer resources.'
 plans:
 - name: Noms Plans Pricing
   plan_count: 4
   slug: noms-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Noms Rate Limits
@@ -255,21 +270,21 @@ rules:
   slug: noms-rules
 score:
   band: strong
-  composite: 57.3
+  composite: 57.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 77.0
     catalog_earned_first_party: 24.0
     catalog_gap: 38.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 19.7
     contract_quality: 62.9
     developer_ergonomics: 50.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 42.1
   previous_composite: 57.2
   provenance:
@@ -287,13 +302,14 @@ score:
     regime: Health
     regime_id: health
     score: 24.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/noms/refs/heads/main/screenshots/noms-2026-10-11T111622.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/noms/noms-2026-10-11T111622.png
 security:
 - kind: authentication
   name: Noms Authentication

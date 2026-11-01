@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.2
-  scored_at: '2026-10-17'
+  score: 27.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app.visotrust.com/api/v1
@@ -97,15 +99,12 @@ apis:
   description: The client-api-webhook-rest-resource API from VISO Trust (Protecht) — 2 operation(s) for client-api-webhook-rest-resource.
   name: VISO Trust (Protecht) Client API Webhook Rest Resource API
   slug: viso-trust-protecht-client-api-webhook-rest-resource-api
-artifact_total: 30
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Viso Trust Protecht Webhooks
   slug: viso-trust-protecht-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: VISO TRUST API Documentation client-api-assessment-rest-resource API
   slug: open-viso-trust-protecht-client-api-assessment-rest-resource-api
@@ -152,12 +151,12 @@ common:
   type: BlogRSS
   url: https://visotrust.com/resource-types/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/capabilities/viso-trust-protecht-capability-edges.yml
+  href: https://artifacts.apis.io/viso-trust-protecht/capabilities/viso-trust-protecht-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/viso-trust-protecht-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/openapi/_original/viso-trust-protecht-openapi-original.json
+  href: https://artifacts.apis.io/viso-trust-protecht/openapi/_original/viso-trust-protecht-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/viso-trust-protecht-openapi-original.json
@@ -174,52 +173,52 @@ common:
   type: GettingStarted
   url: https://docs.visotrust.com/getting-started/quick-start
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/authentication/viso-trust-protecht-authentication.yml
+  href: https://artifacts.apis.io/viso-trust-protecht/authentication/viso-trust-protecht-authentication.yml
   title: ''
   type: Authentication
   url: authentication/viso-trust-protecht-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/mcp/viso-trust-protecht-mcp.yml
+  href: https://artifacts.apis.io/viso-trust-protecht/mcp/viso-trust-protecht-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/viso-trust-protecht-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/llms/viso-trust-protecht-llms.txt
+  href: https://artifacts.apis.io/viso-trust-protecht/llms/viso-trust-protecht-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/viso-trust-protecht-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/asyncapi/viso-trust-protecht-webhooks.yml
+  href: https://artifacts.apis.io/viso-trust-protecht/asyncapi/viso-trust-protecht-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/viso-trust-protecht-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/viso-trust-protecht/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/overlays/viso-trust-protecht-openapi-overlay.yaml
+  href: https://artifacts.apis.io/viso-trust-protecht/overlays/viso-trust-protecht-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/viso-trust-protecht-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/conventions/viso-trust-protecht-conventions.yml
+  href: https://artifacts.apis.io/viso-trust-protecht/conventions/viso-trust-protecht-conventions.yml
   title: ''
   type: Conventions
   url: conventions/viso-trust-protecht-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/data-model/viso-trust-protecht-data-model.yml
+  href: https://artifacts.apis.io/viso-trust-protecht/data-model/viso-trust-protecht-data-model.yml
   title: ''
   type: DataModel
   url: data-model/viso-trust-protecht-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/conformance/viso-trust-protecht-conformance.yml
+  href: https://artifacts.apis.io/viso-trust-protecht/conformance/viso-trust-protecht-conformance.yml
   title: ''
   type: Conformance
   url: conformance/viso-trust-protecht-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/lifecycle/viso-trust-protecht-lifecycle.yml
+  href: https://artifacts.apis.io/viso-trust-protecht/lifecycle/viso-trust-protecht-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/viso-trust-protecht-lifecycle.yml
@@ -228,12 +227,12 @@ common:
   type: StatusPage
   url: https://status.visotrust.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/changelog/viso-trust-protecht-changelog.yml
+  href: https://artifacts.apis.io/viso-trust-protecht/changelog/viso-trust-protecht-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/viso-trust-protecht-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/security/viso-trust-protecht-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/viso-trust-protecht/security/viso-trust-protecht-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/viso-trust-protecht-vulnerability-disclosure.yml
@@ -242,7 +241,7 @@ common:
   type: Security
   url: https://docs.visotrust.com/resources/security-and-privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/security/viso-trust-protecht-domain-security.yml
+  href: https://artifacts.apis.io/viso-trust-protecht/security/viso-trust-protecht-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/viso-trust-protecht-domain-security.yml
@@ -277,10 +276,10 @@ overview: 'VISO Trust (Protecht) publishes 12 API contracts indexed on the [APIs
 
 
   VISO Trust (Protecht)''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, changelog, support, and 18 more developer resources.'
-random_paper: 10
+random_paper: 22
 score:
   band: developing
-  composite: 40.5
+  composite: 39.7
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -288,15 +287,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 4.5
-    contract_quality: 51.8
-    developer_ergonomics: 44.6
-    discoverability: 73.2
+    contract_quality: 51.2
+    developer_ergonomics: 49.4
+    discoverability: 65.0
     operational_transparency: 50.0
-  previous_composite: 40.0
+  previous_composite: 39.7
   provenance:
     conformance: derived
     contracts:
@@ -312,13 +311,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/screenshots/viso-trust-protecht-2026-08-17T082805.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/viso-trust-protecht/viso-trust-protecht-2026-08-17T082805.png
 security:
 - kind: authentication
   name: Viso Trust Protecht Authentication
@@ -332,6 +332,14 @@ security:
   name: Viso Trust Protecht Vulnerability Disclosure
   slug: viso-trust-protecht-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 3
+skills:
+- name: Onboard a vendor and start an assessment
+  slug: viso-trust-protecht-onboard-vendor
+- name: Look up a vendor's risk summary
+  slug: viso-trust-protecht-pull-risk-summary
+- name: Register a webhook for assessment events
+  slug: viso-trust-protecht-register-webhook
 slug: viso-trust-protecht
 tags:
 - Company

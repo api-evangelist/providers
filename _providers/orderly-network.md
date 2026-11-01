@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.0
-  scored_at: '2026-10-17'
+  score: 28.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 4
@@ -63,15 +65,12 @@ apis:
   description: The public API from Orderly Network — 97 operation(s) for public.
   name: Orderly Network Public API
   slug: orderly-network-public-api
-artifact_total: 14
+artifact_total: 16
 asyncapis:
 - description: Real-time WebSocket streams for Orderly Network. Public streams carry market data (orderbook, trades, ticker, klines); private streams carry authenticated account, balance, position, and execution-rep
   name: Orderly Network WebSocket API
   slug: orderly-network-websocket-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: EVM admin API
   slug: open-orderly-network-admin-api
@@ -86,7 +85,7 @@ collections:
   slug: open-orderly-network-public-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/overlays/orderly-network-evm-overlay.yaml
+  href: https://artifacts.apis.io/orderly-network/overlays/orderly-network-evm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/orderly-network-evm-overlay.yaml
@@ -127,97 +126,97 @@ common:
   type: PrivacyPolicy
   url: https://orderly.network/docs/introduction/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/llms/orderly-network-llms.txt
+  href: https://artifacts.apis.io/orderly-network/llms/orderly-network-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/orderly-network-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/packages/orderly-network-packages.yml
+  href: https://artifacts.apis.io/orderly-network/packages/orderly-network-packages.yml
   title: ''
   type: Packages
   url: packages/orderly-network-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/packages/orderly-network-packages.yml
+  href: https://artifacts.apis.io/orderly-network/packages/orderly-network-packages.yml
   title: ''
   type: SDKs
   url: packages/orderly-network-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/cli/orderly-network-cli.yml
+  href: https://artifacts.apis.io/orderly-network/cli/orderly-network-cli.yml
   title: ''
   type: CLI
   url: cli/orderly-network-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/components/orderly-network-components.yml
+  href: https://artifacts.apis.io/orderly-network/components/orderly-network-components.yml
   title: ''
   type: Components
   url: components/orderly-network-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/mcp/orderly-network-mcp.yml
+  href: https://artifacts.apis.io/orderly-network/mcp/orderly-network-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/orderly-network-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/orderly-network/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/authentication/orderly-network-authentication.yml
+  href: https://artifacts.apis.io/orderly-network/authentication/orderly-network-authentication.yml
   title: ''
   type: Authentication
   url: authentication/orderly-network-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/conventions/orderly-network-conventions.yml
+  href: https://artifacts.apis.io/orderly-network/conventions/orderly-network-conventions.yml
   title: ''
   type: Conventions
   url: conventions/orderly-network-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/errors/orderly-network-error-codes.yml
+  href: https://artifacts.apis.io/orderly-network/errors/orderly-network-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/orderly-network-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/data-model/orderly-network-data-model.yml
+  href: https://artifacts.apis.io/orderly-network/data-model/orderly-network-data-model.yml
   title: ''
   type: DataModel
   url: data-model/orderly-network-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/conformance/orderly-network-conformance.yml
+  href: https://artifacts.apis.io/orderly-network/conformance/orderly-network-conformance.yml
   title: ''
   type: Conformance
   url: conformance/orderly-network-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/lifecycle/orderly-network-lifecycle.yml
+  href: https://artifacts.apis.io/orderly-network/lifecycle/orderly-network-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/orderly-network-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/changelog/orderly-network-changelog.yml
+  href: https://artifacts.apis.io/orderly-network/changelog/orderly-network-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/orderly-network-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/sandbox/orderly-network-sandbox.yml
+  href: https://artifacts.apis.io/orderly-network/sandbox/orderly-network-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/orderly-network-sandbox.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/asyncapi/orderly-network-websocket-asyncapi.yml
+  href: https://artifacts.apis.io/orderly-network/asyncapi/orderly-network-websocket-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/orderly-network-websocket-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/asyncapi/orderly-network-websocket-asyncapi.yml
+  href: https://artifacts.apis.io/orderly-network/asyncapi/orderly-network-websocket-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/orderly-network-websocket-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/agentic-access/orderly-network-agentic-access.yml
+  href: https://artifacts.apis.io/orderly-network/agentic-access/orderly-network-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/orderly-network-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/security/orderly-network-domain-security.yml
+  href: https://artifacts.apis.io/orderly-network/security/orderly-network-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/orderly-network-domain-security.yml
@@ -247,9 +246,9 @@ overview: 'Orderly Network publishes 4 API contracts indexed on the [APIs.io](ht
 random_paper: 8
 score:
   band: developing
-  composite: 44.0
+  composite: 43.9
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -259,11 +258,11 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 50.3
+    contract_quality: 49.9
     developer_ergonomics: 80.4
-    discoverability: 75.0
-    operational_transparency: 26.3
-  previous_composite: 44.0
+    discoverability: 65.0
+    operational_transparency: 28.9
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -280,13 +279,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/screenshots/orderly-network-2026-08-07T190918.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/orderly-network/orderly-network-2026-08-07T190918.png
 security:
 - kind: authentication
   name: Orderly Network Authentication
@@ -296,6 +296,14 @@ security:
   name: Orderly Network Domain Security
   slug: orderly-network-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Register an account and Orderly Key
+  slug: orderly-network-account-onboarding
+- name: Read market data and positions
+  slug: orderly-network-market-data
+- name: Place and manage a perpetual-futures order
+  slug: orderly-network-place-and-manage-order
 slug: orderly-network
 tags:
 - Company

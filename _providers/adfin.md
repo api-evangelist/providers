@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,18 +36,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Invoicing, payments and credit-control API — customers, invoices, payment requests, direct-debit mandates, payments and signed webhooks.
   name: Adfin API
   slug: adfin-api
-artifact_total: 5
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Adfin Webhooks
   slug: adfin-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/adfin/plans/adfin-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/adfin-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -103,72 +110,80 @@ common:
   type: PrivacyPolicy
   url: https://adfin.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adfin/refs/heads/main/authentication/adfin-authentication.yml
+  href: https://artifacts.apis.io/adfin/authentication/adfin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adfin-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adfin/refs/heads/main/conventions/adfin-conventions.yml
+  href: https://artifacts.apis.io/adfin/conventions/adfin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adfin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adfin/refs/heads/main/conventions/adfin-conventions.yml
+  href: https://artifacts.apis.io/adfin/conventions/adfin-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/adfin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adfin/refs/heads/main/asyncapi/adfin-webhooks.yml
+  href: https://artifacts.apis.io/adfin/asyncapi/adfin-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/adfin-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adfin/refs/heads/main/packages/adfin-packages.yml
+  href: https://artifacts.apis.io/adfin/packages/adfin-packages.yml
   title: ''
   type: Packages
   url: packages/adfin-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adfin/refs/heads/main/packages/adfin-packages.yml
+  href: https://artifacts.apis.io/adfin/packages/adfin-packages.yml
   title: ''
   type: SDKs
   url: packages/adfin-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adfin/refs/heads/main/mcp/adfin-mcp.yml
+  href: https://artifacts.apis.io/adfin/mcp/adfin-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/adfin-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adfin/refs/heads/main/llms/adfin-llms.txt
+  href: https://artifacts.apis.io/adfin/llms/adfin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adfin-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adfin/refs/heads/main/well-known/adfin-well-known.yml
+  href: https://artifacts.apis.io/adfin/well-known/adfin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adfin-well-known.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/adfin/refs/heads/main/sandbox/adfin-sandbox.yml
+  href: https://artifacts.apis.io/adfin/sandbox/adfin-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/adfin-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adfin/refs/heads/main/data-model/adfin-data-model.yml
+  href: https://artifacts.apis.io/adfin/data-model/adfin-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adfin-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adfin/refs/heads/main/conformance/adfin-conformance.yml
+  href: https://artifacts.apis.io/adfin/conformance/adfin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adfin-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adfin/refs/heads/main/security/adfin-domain-security.yml
+  href: https://artifacts.apis.io/adfin/security/adfin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adfin-domain-security.yml
 created: '2026-07-17'
 description: Adfin is a London-based fintech that combines payment collection and AI-powered credit control so businesses get paid faster. Its developer platform exposes invoicing, payments and credit-control APIs — create and activate invoices, issue payment requests with hosted payment pages, set up direct-debit mandates, and reconcile payments — plus signed webhooks for real-time invoice, mandate and payment events. Authentication is OAuth 2.0 (client-credentials for platforms, authorization-code for biller authorization), with an official Node.js SDK and a first-party MCP server for agent-driven invoicing. Adfin is a portfolio company of Index Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Adfin Finops
+  primary_unit: card payment
+  service_category: ''
+  slug: adfin-finops
+  template: false
 image: https://assets.adfin.com/frontend-resources/favicon/web-app-manifest-512x512.png
 layout: provider
 mcp_servers:
@@ -185,26 +200,33 @@ overview: 'Adfin is listed with 1 API on the [APIs.io](https://apis.io/) network
   The Adfin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Adfin''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 20 more developer resources.'
-random_paper: 8
+  Adfin''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 21 more developer resources.'
+plans:
+- name: Adfin Plans Pricing
+  plan_count: 11
+  slug: adfin-plans-pricing
+- name: Adfin Price Estimates
+  plan_count: 0
+  slug: adfin-price-estimates
+random_paper: 10
 score:
-  band: developing
-  composite: 43.0
+  band: strong
+  composite: 54.8
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 18
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 38.2
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 54.8
-    discoverability: 75.0
-    operational_transparency: 26.3
+    developer_ergonomics: 71.4
+    discoverability: 65.0
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -213,7 +235,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 42.9
+  previous_composite: 46.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -223,14 +245,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/adfin/refs/heads/main/screenshots/adfin-2026-07-25T181629.png
+screenshot: https://apis.io/screenshots/adfin/adfin-2026-07-25T181629.png
 security:
 - kind: authentication
   name: Adfin Authentication

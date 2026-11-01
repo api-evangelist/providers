@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.4
-  scored_at: '2026-10-17'
+  score: 54.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -114,11 +116,8 @@ apis:
   description: Resource containers scoped to an account.
   name: The San Francisco Compute Company Workspaces API
   slug: the-san-francisco-compute-company-workspaces-api
-artifact_total: 33
+artifact_total: 36
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: sfc-api Account API
   slug: open-the-san-francisco-compute-company-account-api
@@ -171,7 +170,7 @@ common:
   type: BlogRSS
   url: https://sfcompute.com/news/rss.xml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/plans/the-san-francisco-compute-company-plans-pricing.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/plans/the-san-francisco-compute-company-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/the-san-francisco-compute-company-plans-pricing.yml
@@ -180,7 +179,7 @@ common:
   type: Website
   url: https://www.sfcompute.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/capabilities/the-san-francisco-compute-company-capability-edges.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/capabilities/the-san-francisco-compute-company-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/the-san-francisco-compute-company-capability-edges.yml
@@ -249,57 +248,57 @@ common:
   type: Twitter
   url: https://twitter.com/sfcompute
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/packages/the-san-francisco-compute-company-packages.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/packages/the-san-francisco-compute-company-packages.yml
   title: ''
   type: Packages
   url: packages/the-san-francisco-compute-company-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/packages/the-san-francisco-compute-company-packages.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/packages/the-san-francisco-compute-company-packages.yml
   title: ''
   type: SDKs
   url: packages/the-san-francisco-compute-company-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/cli/the-san-francisco-compute-company-cli.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/cli/the-san-francisco-compute-company-cli.yml
   title: ''
   type: CLI
   url: cli/the-san-francisco-compute-company-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/mcp/the-san-francisco-compute-company-mcp.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/mcp/the-san-francisco-compute-company-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/the-san-francisco-compute-company-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/llms/the-san-francisco-compute-company-llms.txt
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/llms/the-san-francisco-compute-company-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-san-francisco-compute-company-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/well-known/the-san-francisco-compute-company-well-known.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/well-known/the-san-francisco-compute-company-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/the-san-francisco-compute-company-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/authentication/the-san-francisco-compute-company-authentication.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/authentication/the-san-francisco-compute-company-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-san-francisco-compute-company-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/conventions/the-san-francisco-compute-company-conventions.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/conventions/the-san-francisco-compute-company-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-san-francisco-compute-company-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/conventions/the-san-francisco-compute-company-conventions.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/conventions/the-san-francisco-compute-company-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/the-san-francisco-compute-company-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/errors/the-san-francisco-compute-company-problem-types.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/errors/the-san-francisco-compute-company-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/the-san-francisco-compute-company-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/lifecycle/the-san-francisco-compute-company-lifecycle.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/lifecycle/the-san-francisco-compute-company-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/the-san-francisco-compute-company-lifecycle.yml
@@ -308,42 +307,50 @@ common:
   type: Deprecation
   url: https://docs.sfcompute.com/preview/roadmap
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/changelog/the-san-francisco-compute-company-changelog.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/changelog/the-san-francisco-compute-company-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/the-san-francisco-compute-company-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/data-model/the-san-francisco-compute-company-data-model.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/data-model/the-san-francisco-compute-company-data-model.yml
   title: ''
   type: DataModel
   url: data-model/the-san-francisco-compute-company-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/conformance/the-san-francisco-compute-company-conformance.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/conformance/the-san-francisco-compute-company-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-san-francisco-compute-company-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/overlays/the-san-francisco-compute-company-openapi-overlay.yaml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/overlays/the-san-francisco-compute-company-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-san-francisco-compute-company-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/security/the-san-francisco-compute-company-domain-security.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/security/the-san-francisco-compute-company-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-san-francisco-compute-company-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/skills/the-san-francisco-compute-company-sf-cli.md
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/skills/the-san-francisco-compute-company-sf-cli.md
   title: ''
   type: AgentSkill
   url: skills/the-san-francisco-compute-company-sf-cli.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/agentic-access/the-san-francisco-compute-company-agentic-access.yml
+  href: https://artifacts.apis.io/the-san-francisco-compute-company/agentic-access/the-san-francisco-compute-company-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/the-san-francisco-compute-company-agentic-access.yml
 created: '2026-07-17'
 description: The San Francisco Compute Company (SF Compute) runs large-scale, vetted GPU clusters and operates a compute marketplace where buyers reserve H100/H200 capacity by the hour and sellers resell unused compute back into the market with no long-term lock-in. Its public preview REST API (api.sfcompute.com, base path /preview/v2) and the `sf` CLI let developers buy and sell compute via orders and an orderbook, manage pools of reserved balance, launch and operate GPU instances from images and templates, run procurements and deployments, and organize resources across workspaces with roles, grants, and tags. Authentication is a Bearer token (sk_live_ API key). The API is documented on a Mintlify docs site with a per-operation OpenAPI reference, an llms.txt index, and an official agent skill.
+finops:
+- has_sources: true
+  method: derived
+  name: The San Francisco Compute Company Finops
+  primary_unit: gpu/hr
+  service_category: ''
+  slug: the-san-francisco-compute-company-finops
+  template: false
 image: https://sfcompute.com/icon.svg
 layout: provider
 modified: '2026-10-06'
@@ -358,26 +365,26 @@ plans:
 - name: The San Francisco Compute Company Plans Pricing
   plan_count: 3
   slug: the-san-francisco-compute-company-plans-pricing
-random_paper: 21
+random_paper: 11
 score:
   band: strong
-  composite: 57.2
+  composite: 59.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 67.1
+    access_clarity: 81.6
     contract_governance: 4.5
-    contract_quality: 54.4
+    contract_quality: 51.0
     developer_ergonomics: 78.6
-    discoverability: 71.7
-    operational_transparency: 47.4
-  previous_composite: 57.1
+    discoverability: 66.1
+    operational_transparency: 50.0
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -394,13 +401,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/screenshots/the-san-francisco-compute-company-2026-08-17T082343.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/the-san-francisco-compute-company/the-san-francisco-compute-company-2026-08-17T082343.png
 security:
 - kind: authentication
   name: The San Francisco Compute Company Authentication
@@ -410,6 +418,14 @@ security:
   name: The San Francisco Compute Company Domain Security
   slug: the-san-francisco-compute-company-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Buy compute and launch a GPU instance
+  slug: the-san-francisco-compute-company-buy-and-launch
+- name: Resell idle compute capacity
+  slug: the-san-francisco-compute-company-sell-idle-compute
+- name: sf-cli
+  slug: the-san-francisco-compute-company-sf-cli
 slug: the-san-francisco-compute-company
 tags:
 - Company

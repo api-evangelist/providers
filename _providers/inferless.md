@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: The Model Management API from Inferless — 2 operation(s) for model management.
   name: Inferless Model Management API
   slug: inferless-model-management-api
-artifact_total: 12
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Inferless Inference API
   slug: open-inferless-inference-api
@@ -75,22 +74,22 @@ common:
   type: Pricing
   url: https://www.inferless.com/pricing
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/capabilities/inferless-capability-edges.yml
+  href: https://artifacts.apis.io/inferless/capabilities/inferless-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/inferless-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/agentic-access/inferless-agentic-access.yml
+  href: https://artifacts.apis.io/inferless/agentic-access/inferless-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/inferless-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/security/inferless-domain-security.yml
+  href: https://artifacts.apis.io/inferless/security/inferless-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inferless-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/authentication/inferless-authentication.yml
+  href: https://artifacts.apis.io/inferless/authentication/inferless-authentication.yml
   title: ''
   type: Authentication
   url: authentication/inferless-authentication.yml
@@ -111,17 +110,17 @@ common:
   type: Documentation
   url: https://docs.inferless.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/plans/inferless-plans-pricing.yml
+  href: https://artifacts.apis.io/inferless/plans/inferless-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/inferless-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/rate-limits/inferless-rate-limits.yml
+  href: https://artifacts.apis.io/inferless/rate-limits/inferless-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/inferless-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/finops/inferless-finops.yml
+  href: https://artifacts.apis.io/inferless/finops/inferless-finops.yml
   title: ''
   type: FinOps
   url: finops/inferless-finops.yml
@@ -153,14 +152,14 @@ plans:
 - name: Inferless Plans Pricing
   plan_count: 9
   slug: inferless-plans-pricing
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Inferless Rate Limits
   slug: inferless-rate-limits
 score:
   band: thin
-  composite: 34.7
+  composite: 35.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 52.0
@@ -168,15 +167,15 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 52.7
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 36.1
+    operational_transparency: 13.2
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -190,13 +189,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/screenshots/inferless-2026-06-20T183328.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/inferless/inferless-2026-06-20T183328.png
 security:
 - kind: authentication
   name: Inferless Authentication

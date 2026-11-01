@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://time.now/developer/api
@@ -49,9 +51,6 @@ apis:
 artifact_total: 7
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Sunrise.am World Time Ip API
   slug: open-sunrise-atelier-ip-api
 - collection_type: open
@@ -63,27 +62,27 @@ common:
   type: Blog
   url: https://sunrise.am/articles/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sunrise-atelier/refs/heads/main/mcp/sunrise-atelier-mcp.yml
+  href: https://artifacts.apis.io/sunrise-atelier/mcp/sunrise-atelier-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sunrise-atelier-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sunrise-atelier/refs/heads/main/overlays/sunrise-atelier-world-time-overlay.yaml
+  href: https://artifacts.apis.io/sunrise-atelier/overlays/sunrise-atelier-world-time-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sunrise-atelier-world-time-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sunrise-atelier/refs/heads/main/security/sunrise-atelier-domain-security.yml
+  href: https://artifacts.apis.io/sunrise-atelier/security/sunrise-atelier-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sunrise-atelier-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sunrise-atelier/refs/heads/main/llms/sunrise-atelier-llms.txt
+  href: https://artifacts.apis.io/sunrise-atelier/llms/sunrise-atelier-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sunrise-atelier-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sunrise-atelier/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sunrise-atelier/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -119,26 +118,26 @@ overview: 'Sunrise Atelier publishes 2 API contracts indexed on the [APIs.io](ht
 
 
   Sunrise Atelier''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 2
+random_paper: 4
 score:
-  band: developing
-  composite: 42.3
+  band: thin
+  composite: 34.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
-    catalog_max: 100.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 57.1
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 49.0
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 41.8
+  previous_composite: 34.4
   provenance:
     conformance: derived
     contracts:
@@ -154,14 +153,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/sunrise-atelier/refs/heads/main/screenshots/sunrise-atelier-2026-09-02T161146.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sunrise-atelier/sunrise-atelier-2026-09-02T161146.png
 security:
 - kind: authentication
   name: Sunrise Atelier Authentication
@@ -171,6 +170,10 @@ security:
   name: Sunrise Atelier Domain Security
   slug: sunrise-atelier-domain-security
   summary_line: TLSv1.3
+skill_count: 1
+skills:
+- name: sunrise-atelier-get-current-time
+  slug: sunrise-atelier-get-current-time
 slug: sunrise-atelier
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The Vidyard Dashboard API provides full CRUD access to your Vidyard account assets including players, videos, chapters, organizations, teams, users, roles, events, campaigns, tags, webhooks, embeds, a
@@ -45,24 +47,24 @@ apis:
 - description: The Analytics Webhook API allows subscribing to and streaming video view data from Vidyard to an external application. View events are delivered as HTTP POST requests in JSON format to a configured en
   name: Vidyard Analytics Webhook API
   slug: vidyard-analytics-webhook-api
-artifact_total: 12
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Vidyard Webhooks
   slug: vidyard-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/security/vidyard-trust-center.yml
+  href: https://artifacts.apis.io/vidyard/security/vidyard-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vidyard-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/security/vidyard-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/vidyard/security/vidyard-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vidyard-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/security/vidyard-domain-security.yml
+  href: https://artifacts.apis.io/vidyard/security/vidyard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vidyard-domain-security.yml
@@ -99,92 +101,92 @@ common:
   type: X
   url: https://x.com/vidyard
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/plans/vidyard-plans-pricing.yml
+  href: https://artifacts.apis.io/vidyard/plans/vidyard-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vidyard-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/rate-limits/vidyard-rate-limits.yml
+  href: https://artifacts.apis.io/vidyard/rate-limits/vidyard-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vidyard-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/finops/vidyard-finops.yml
+  href: https://artifacts.apis.io/vidyard/finops/vidyard-finops.yml
   title: ''
   type: FinOps
   url: finops/vidyard-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/a2a/vidyard-a2a.yml
+  href: https://artifacts.apis.io/vidyard/a2a/vidyard-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/vidyard-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/llms/vidyard-llms.txt
+  href: https://artifacts.apis.io/vidyard/llms/vidyard-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vidyard-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/well-known/vidyard-well-known.yml
+  href: https://artifacts.apis.io/vidyard/well-known/vidyard-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vidyard-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/authentication/vidyard-authentication.yml
+  href: https://artifacts.apis.io/vidyard/authentication/vidyard-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vidyard-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/errors/vidyard-problem-types.yml
+  href: https://artifacts.apis.io/vidyard/errors/vidyard-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vidyard-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/conventions/vidyard-conventions.yml
+  href: https://artifacts.apis.io/vidyard/conventions/vidyard-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vidyard-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/data-model/vidyard-data-model.yml
+  href: https://artifacts.apis.io/vidyard/data-model/vidyard-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vidyard-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/asyncapi/vidyard-webhooks.yml
+  href: https://artifacts.apis.io/vidyard/asyncapi/vidyard-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vidyard-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/conformance/vidyard-conformance.yml
+  href: https://artifacts.apis.io/vidyard/conformance/vidyard-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vidyard-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/lifecycle/vidyard-lifecycle.yml
+  href: https://artifacts.apis.io/vidyard/lifecycle/vidyard-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vidyard-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/changelog/vidyard-changelog.yml
+  href: https://artifacts.apis.io/vidyard/changelog/vidyard-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vidyard-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/packages/vidyard-packages.yml
+  href: https://artifacts.apis.io/vidyard/packages/vidyard-packages.yml
   title: ''
   type: Packages
   url: packages/vidyard-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/packages/vidyard-packages.yml
+  href: https://artifacts.apis.io/vidyard/packages/vidyard-packages.yml
   title: ''
   type: SDKs
   url: packages/vidyard-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/cli/vidyard-cli.yml
+  href: https://artifacts.apis.io/vidyard/cli/vidyard-cli.yml
   title: ''
   type: CLI
   url: cli/vidyard-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/components/vidyard-components.yml
+  href: https://artifacts.apis.io/vidyard/components/vidyard-components.yml
   title: ''
   type: Components
   url: components/vidyard-components.yml
@@ -239,13 +241,13 @@ common:
 created: '2026-06-12'
 description: Vidyard is a video platform for business that provides REST APIs for managing video libraries, generating sharing links, tracking viewer analytics, and integrating with CRM and marketing tools. The Dashboard API enables programmatic control over players, videos, chapters, organizations, teams, users, events, campaigns, webhooks, and more. The Video Agent API supports AI-powered personalized video creation workflows, and the Analytics Webhook API streams real-time viewer data to external systems.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Vidyard Finops
-  primary_unit: ''
+  primary_unit: seat
   service_category: ''
   slug: vidyard-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vidyard.png
 jsonld:
 - class_count: 6
@@ -266,32 +268,40 @@ overview: 'Vidyard is listed with 3 APIs on the [APIs.io](https://apis.io/) netw
   Vidyard''s developer surface includes documentation, GitHub presence, engineering blog, pricing, authentication, changelog, CLI, and 34 more developer resources.'
 plans:
 - name: Vidyard Plans Pricing
-  plan_count: 4
+  plan_count: 5
   slug: vidyard-plans-pricing
-random_paper: 7
+- name: Vidyard Price Estimates
+  plan_count: 0
+  slug: vidyard-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Vidyard Rate Limits
   slug: vidyard-rate-limits
 score:
   band: exemplar
-  composite: 69.5
+  composite: 71.8
   coverage:
     artifact_dirs: 24
-    catalog_earned: 75.0
+    catalog_earned: 78.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 40.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 53.2
     developer_ergonomics: 76.2
-    discoverability: 78.6
-    operational_transparency: 76.3
-  previous_composite: 71.5
+    discoverability: 71.4
+    operational_transparency: 86.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 70.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -305,14 +315,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vidyard/refs/heads/main/screenshots/vidyard-2026-06-20T201023.png
+screenshot: https://apis.io/screenshots/vidyard/vidyard-2026-06-20T201023.png
 security:
 - kind: authentication
   name: Vidyard Authentication

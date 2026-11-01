@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-10-17'
+  score: 33.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 6
@@ -153,15 +155,12 @@ apis:
   description: Webhook Endpoints
   name: NinjaOne Webhooks API
   slug: ninjaone-webhooks-api
-artifact_total: 52
+artifact_total: 57
 asyncapis:
 - description: ''
   name: Ninjaone Webhooks
   slug: ninjaone-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NinjaOne Public API 2.0 Asset Tags API
   slug: open-ninjaone-asset-tags-api
@@ -229,28 +228,33 @@ collections:
   name: NinjaOne Public API 2.0 Asset Tags webhooks API
   slug: open-ninjaone-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/ninjaone/plans/ninjaone-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ninjaone-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/capabilities/ninjaone-capability-edges.yml
+  href: https://artifacts.apis.io/ninjaone/capabilities/ninjaone-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ninjaone-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/overlays/ninjaone-openapi-overlay.yaml
+  href: https://artifacts.apis.io/ninjaone/overlays/ninjaone-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ninjaone-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/security/ninjaone-trust-center.yml
+  href: https://artifacts.apis.io/ninjaone/security/ninjaone-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ninjaone-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/security/ninjaone-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ninjaone/security/ninjaone-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ninjaone-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/security/ninjaone-domain-security.yml
+  href: https://artifacts.apis.io/ninjaone/security/ninjaone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ninjaone-domain-security.yml
@@ -275,12 +279,12 @@ common:
   type: GettingStarted
   url: https://www.ninjaone.com/docs/application-programming-interface-api/public-api-operations/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/authentication/ninjaone-authentication.yml
+  href: https://artifacts.apis.io/ninjaone/authentication/ninjaone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ninjaone-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/scopes/ninjaone-scopes.yml
+  href: https://artifacts.apis.io/ninjaone/scopes/ninjaone-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ninjaone-scopes.yml
@@ -309,7 +313,7 @@ common:
   type: StatusPage
   url: https://status.ninjaone.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/lifecycle/ninjaone-lifecycle.yml
+  href: https://artifacts.apis.io/ninjaone/lifecycle/ninjaone-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ninjaone-lifecycle.yml
@@ -322,17 +326,17 @@ common:
   type: Security
   url: https://www.ninjaone.com/.well-known/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/mcp/ninjaone-mcp.yml
+  href: https://artifacts.apis.io/ninjaone/mcp/ninjaone-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ninjaone-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ninjaone/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/packages/ninjaone-packages.yml
+  href: https://artifacts.apis.io/ninjaone/packages/ninjaone-packages.yml
   title: ''
   type: Packages
   url: packages/ninjaone-packages.yml
@@ -341,22 +345,30 @@ common:
   type: Postman
   url: https://www.postman.com/ninjaone/ninjaone-api-workspace/collection/8gh1ujj/ninjaone-public-api-2-0
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/llms/ninjaone-llms.txt
+  href: https://artifacts.apis.io/ninjaone/llms/ninjaone-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ninjaone-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/well-known/ninjaone-well-known.yml
+  href: https://artifacts.apis.io/ninjaone/well-known/ninjaone-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ninjaone-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/well-known/ninjaone-security.txt
+  href: https://artifacts.apis.io/ninjaone/well-known/ninjaone-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ninjaone-security.txt
 created: '2026-07-17'
 description: NinjaOne is a unified IT operations and endpoint management platform for enterprise IT teams and managed service providers (MSPs), combining remote monitoring and management (RMM), endpoint management, patch management, remote access, backup, mobile device management, IT asset management, vulnerability management, endpoint security, IT documentation, and ticketing in a single cloud-native platform. Founded in 2013 as NinjaRMM, the company manages over five million endpoints across 30,000+ customers. The NinjaOne Public API 2.0 is an OAuth 2.0-secured REST API (client-credentials, authorization-code and refresh-token grants) that exposes organizations, devices, groups, queries, management actions, ticketing, users, locations, backup, custom fields, knowledge base, documents, checklists, vulnerability management, and webhooks for building integrations on top of the platform.
+finops:
+- has_sources: true
+  method: derived
+  name: Ninjaone Finops
+  primary_unit: device/endpoint
+  service_category: ''
+  slug: ninjaone-finops
+  template: false
 image: https://www.ninjaone.com/wp-content/uploads/2026/01/homepage-repositioning-social-share-1024x535.jpg
 layout: provider
 modified: '2026-07-20'
@@ -369,32 +381,39 @@ overview: 'NinjaOne publishes 22 API contracts indexed on the [APIs.io](https://
   The NinjaOne catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  NinjaOne''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, engineering blog, and 22 more developer resources.'
-random_paper: 14
+  NinjaOne''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, engineering blog, and 23 more developer resources.'
+plans:
+- name: Ninjaone Plans Pricing
+  plan_count: 1
+  slug: ninjaone-plans-pricing
+- name: Ninjaone Price Estimates
+  plan_count: 0
+  slug: ninjaone-price-estimates
+random_paper: 10
 scopes:
 - name: Ninjaone Scopes
   scope_count: 4
   slug: ninjaone-scopes
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 50.0
+  band: strong
+  composite: 56.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 47.4
+    access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 49.7
-    developer_ergonomics: 56.5
-    discoverability: 73.2
+    contract_quality: 48.9
+    developer_ergonomics: 58.9
+    discoverability: 66.1
     operational_transparency: 39.5
-  previous_composite: 49.9
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -411,13 +430,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/screenshots/ninjaone-2026-08-07T185326.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ninjaone/ninjaone-2026-08-07T185326.png
 security:
 - kind: authentication
   name: Ninjaone Authentication
@@ -435,6 +455,14 @@ security:
   name: Ninjaone Trust Center
   slug: ninjaone-trust-center
   summary_line: HIPAA, FedRAMP, GDPR
+skill_count: 3
+skills:
+- name: Configure activity webhooks
+  slug: ninjaone-configure-webhook
+- name: Create and comment on a helpdesk ticket
+  slug: ninjaone-create-ticket
+- name: Inventory organizations and devices
+  slug: ninjaone-inventory-devices
 slug: ninjaone
 tags:
 - Company

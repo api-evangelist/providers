@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: AI Habitat simulation framework for embodied AI research, including Habitat-Sim (high-performance 3D simulator) and Habitat-Lab (modular training library). Supports navigation, manipulation, and human
@@ -42,7 +44,7 @@ apis:
 artifact_total: 53
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/finops/ai-habitat-finops.yml
+  href: https://artifacts.apis.io/ai-habitat/finops/ai-habitat-finops.yml
   title: ''
   type: FinOps
   url: finops/ai-habitat-finops.yml
@@ -51,7 +53,7 @@ common:
   type: Website
   url: https://aihabitat.org/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/security/ai-habitat-domain-security.yml
+  href: https://artifacts.apis.io/ai-habitat/security/ai-habitat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ai-habitat-domain-security.yml
@@ -96,42 +98,42 @@ common:
   type: Tools
   url: https://github.com/facebookresearch/partnr-planner
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/packages/ai-habitat-packages.yml
+  href: https://artifacts.apis.io/ai-habitat/packages/ai-habitat-packages.yml
   title: ''
   type: Packages
   url: packages/ai-habitat-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/packages/ai-habitat-packages.yml
+  href: https://artifacts.apis.io/ai-habitat/packages/ai-habitat-packages.yml
   title: ''
   type: SDKs
   url: packages/ai-habitat-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/llms/ai-habitat-llms.txt
+  href: https://artifacts.apis.io/ai-habitat/llms/ai-habitat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ai-habitat-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/lifecycle/ai-habitat-lifecycle.yml
+  href: https://artifacts.apis.io/ai-habitat/lifecycle/ai-habitat-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ai-habitat-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/lifecycle/ai-habitat-lifecycle.yml
+  href: https://artifacts.apis.io/ai-habitat/lifecycle/ai-habitat-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/ai-habitat-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/changelog/ai-habitat-changelog.yml
+  href: https://artifacts.apis.io/ai-habitat/changelog/ai-habitat-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ai-habitat-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/cli/ai-habitat-cli.yml
+  href: https://artifacts.apis.io/ai-habitat/cli/ai-habitat-cli.yml
   title: ''
   type: CLI
   url: cli/ai-habitat-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/sandbox/ai-habitat-sandbox.yml
+  href: https://artifacts.apis.io/ai-habitat/sandbox/ai-habitat-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ai-habitat-sandbox.yml
@@ -140,47 +142,47 @@ common:
   type: Playground
   url: https://aihabitat.org/demo
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/conformance/ai-habitat-conformance.yml
+  href: https://artifacts.apis.io/ai-habitat/conformance/ai-habitat-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ai-habitat-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/data-model/ai-habitat-data-model.yml
+  href: https://artifacts.apis.io/ai-habitat/data-model/ai-habitat-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ai-habitat-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/security/ai-habitat-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ai-habitat/security/ai-habitat-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ai-habitat-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/security/ai-habitat-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ai-habitat/security/ai-habitat-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/ai-habitat-vulnerability-disclosure.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/plans/ai-habitat-plans-pricing.yml
+  href: https://artifacts.apis.io/ai-habitat/plans/ai-habitat-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ai-habitat-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/rate-limits/ai-habitat-rate-limits.yml
+  href: https://artifacts.apis.io/ai-habitat/rate-limits/ai-habitat-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ai-habitat-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/vocabulary/ai-habitat-vocabulary.yaml
+  href: https://artifacts.apis.io/ai-habitat/vocabulary/ai-habitat-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/ai-habitat-vocabulary.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/json-schema/ai-habitat-simulator-config-schema.json
+  href: https://artifacts.apis.io/ai-habitat/json-schema/ai-habitat-simulator-config-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/ai-habitat-simulator-config-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/rules/ai-habitat-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/ai-habitat/rules/ai-habitat-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/ai-habitat-jsonschema-spectral-rules.yml
@@ -256,7 +258,7 @@ finops:
 - has_sources: false
   method: generated
   name: Ai Habitat Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: ai-habitat-finops
   template: true
@@ -345,7 +347,7 @@ plans:
 - name: Ai Habitat Plans Pricing
   plan_count: 0
   slug: ai-habitat-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Ai Habitat Rate Limits
@@ -364,7 +366,7 @@ rules:
   slug: ai-habitat-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.9
+  composite: 32.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 50.8
@@ -372,15 +374,15 @@ score:
     catalog_gap: 64.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 23.5
     contract_quality: 14.7
     developer_ergonomics: 73.8
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 39.5
-  previous_composite: 34.4
+  previous_composite: 32.2
   provenance:
     conformance: first-party
   regulatory:
@@ -389,14 +391,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/screenshots/ai-habitat-2026-06-20T170703.png
+screenshot: https://apis.io/screenshots/ai-habitat/ai-habitat-2026-06-20T170703.png
 security:
 - kind: domain-security
   name: Ai Habitat Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 25.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 3
@@ -128,40 +130,40 @@ apis:
   description: Report the running version of the Ingest API.
   name: Centaur Labs Version API
   slug: centaur-labs-version-api
-artifact_total: 44
+artifact_total: 46
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/agentic-access/centaur-labs-agentic-access.yml
+  href: https://artifacts.apis.io/centaur-labs/agentic-access/centaur-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/centaur-labs-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/rules/centaur-labs-rules.yml
+  href: https://artifacts.apis.io/centaur-labs/rules/centaur-labs-rules.yml
   title: ''
   type: Spectral
   url: rules/centaur-labs-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/json-ld/centaur-labs-context.jsonld
+  href: https://artifacts.apis.io/centaur-labs/json-ld/centaur-labs-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/centaur-labs-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/vocabulary/centaur-labs-vocabulary.yml
+  href: https://artifacts.apis.io/centaur-labs/vocabulary/centaur-labs-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/centaur-labs-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/errors/centaur-labs-problem-types.yml
+  href: https://artifacts.apis.io/centaur-labs/errors/centaur-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/centaur-labs-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/hosts/centaur-labs-hosts.yml
+  href: https://artifacts.apis.io/centaur-labs/hosts/centaur-labs-hosts.yml
   title: ''
   type: Hosts
   url: hosts/centaur-labs-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/vendors/centaur-labs-vendors.yml
+  href: https://artifacts.apis.io/centaur-labs/vendors/centaur-labs-vendors.yml
   title: ''
   type: Vendors
   url: vendors/centaur-labs-vendors.yml
@@ -218,22 +220,22 @@ common:
   type: ChangeLog
   url: https://docs.centaurlabs.com/changelog/welcome-to-centaur
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/conformance/centaur-labs-conformance.yml
+  href: https://artifacts.apis.io/centaur-labs/conformance/centaur-labs-conformance.yml
   title: ''
   type: Compliance
   url: conformance/centaur-labs-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/security/centaur-labs-trust-center.yml
+  href: https://artifacts.apis.io/centaur-labs/security/centaur-labs-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/centaur-labs-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/security/centaur-labs-domain-security.yml
+  href: https://artifacts.apis.io/centaur-labs/security/centaur-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/centaur-labs-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/well-known/centaur-labs-well-known.yml
+  href: https://artifacts.apis.io/centaur-labs/well-known/centaur-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/centaur-labs-well-known.yml
@@ -321,7 +323,7 @@ overview: 'Centaur Labs publishes 17 API contracts indexed on the [APIs.io](http
 
 
   Centaur Labs'' developer surface includes sandbox, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 17 more developer resources.'
-random_paper: 7
+random_paper: 17
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -337,7 +339,7 @@ rules:
   slug: centaur-labs-rules
 score:
   band: developing
-  composite: 46.8
+  composite: 53.4
   coverage:
     artifact_dirs: 23
     catalog_earned: 65.8
@@ -345,15 +347,15 @@ score:
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 20.2
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 35.6
-    contract_quality: 66.5
-    developer_ergonomics: 44.6
-    discoverability: 80.4
-    operational_transparency: 15.8
-  previous_composite: 26.6
+    contract_quality: 66.1
+    developer_ergonomics: 66.1
+    discoverability: 73.2
+    operational_transparency: 23.7
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -370,13 +372,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/screenshots/centaur-labs-2026-07-25T204921.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/centaur-labs/centaur-labs-2026-07-25T204921.png
 security:
 - kind: authentication
   name: Centaur Labs Authentication
@@ -390,6 +393,12 @@ security:
   name: Centaur Labs Trust Center
   slug: centaur-labs-trust-center
   summary_line: SOC 2 Type II, HIPAA
+skill_count: 2
+skills:
+- name: download-labeling-results
+  slug: centaur-labs-download-labeling-results
+- name: import-data-for-labeling
+  slug: centaur-labs-import-data-for-labeling
 slug: centaur-labs
 tags:
 - Company

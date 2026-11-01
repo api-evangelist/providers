@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 18.6
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -46,27 +48,27 @@ common:
   type: Login
   url: https://treasury.app/login
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/treasury/refs/heads/main/mcp/treasury-mcp.yml
+  href: https://artifacts.apis.io/treasury/mcp/treasury-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/treasury-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/treasury/refs/heads/main/well-known/treasury-well-known.yml
+  href: https://artifacts.apis.io/treasury/well-known/treasury-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/treasury-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/treasury/refs/heads/main/authentication/treasury-authentication.yml
+  href: https://artifacts.apis.io/treasury/authentication/treasury-authentication.yml
   title: ''
   type: Authentication
   url: authentication/treasury-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/treasury/refs/heads/main/scopes/treasury-scopes.yml
+  href: https://artifacts.apis.io/treasury/scopes/treasury-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/treasury-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/treasury/refs/heads/main/security/treasury-domain-security.yml
+  href: https://artifacts.apis.io/treasury/security/treasury-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/treasury-domain-security.yml
@@ -86,7 +88,7 @@ overview: 'Treasury is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Treasury''s developer surface includes authentication and 6 more developer resources.'
-random_paper: 15
+random_paper: 7
 scopes:
 - name: Treasury Scopes
   scope_count: 1
@@ -94,7 +96,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: minimal
-  composite: 9.4
+  composite: 10.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -102,15 +104,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 51.7
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 9.3
+  previous_composite: 10.3
   provenance:
     mcp: first-party
   regulatory:
@@ -119,14 +121,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/treasury/refs/heads/main/screenshots/treasury-2026-09-02T164153.png
+screenshot: https://apis.io/screenshots/treasury/treasury-2026-09-02T164153.png
 security:
 - kind: authentication
   name: Treasury Authentication

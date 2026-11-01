@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
@@ -65,42 +67,42 @@ common:
   type: PrivacyPolicy
   url: https://www.andersonsinc.com/privacy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/andersons/refs/heads/main/well-known/andersons-well-known.yml
+  href: https://artifacts.apis.io/andersons/well-known/andersons-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/andersons-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/andersons/refs/heads/main/authentication/andersons-authentication.yml
+  href: https://artifacts.apis.io/andersons/authentication/andersons-authentication.yml
   title: ''
   type: Authentication
   url: authentication/andersons-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/andersons/refs/heads/main/scopes/andersons-scopes.yml
+  href: https://artifacts.apis.io/andersons/scopes/andersons-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/andersons-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/andersons/refs/heads/main/conformance/andersons-conformance.yml
+  href: https://artifacts.apis.io/andersons/conformance/andersons-conformance.yml
   title: ''
   type: Conformance
   url: conformance/andersons-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/andersons/refs/heads/main/security/andersons-domain-security.yml
+  href: https://artifacts.apis.io/andersons/security/andersons-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/andersons-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/andersons/refs/heads/main/plans/andersons-plans-pricing.yml
+  href: https://artifacts.apis.io/andersons/plans/andersons-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/andersons-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/andersons/refs/heads/main/rate-limits/andersons-rate-limits.yml
+  href: https://artifacts.apis.io/andersons/rate-limits/andersons-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/andersons-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/andersons/refs/heads/main/llms/andersons-llms.txt
+  href: https://artifacts.apis.io/andersons/llms/andersons-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/andersons-llms.txt
@@ -155,7 +157,7 @@ press:
 - date: ''
   title: The Andersons, Inc. Reports First Quarter Results
   url: https://www.prnewswire.com/news-releases/the-andersons-inc-reports-first-quarter-results-302762937.html
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Andersons Rate Limits
@@ -167,9 +169,9 @@ scopes:
   summary_line: 9 scopes
 score:
   band: emerging
-  composite: 18.8
+  composite: 18.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -181,8 +183,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -190,7 +192,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 18.8
+  previous_composite: 18.4
   provenance:
     conformance: first-party
   regulatory:
@@ -199,14 +201,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/andersons/refs/heads/main/screenshots/andersons-2026-06-20T171949.png
+screenshot: https://apis.io/screenshots/andersons/andersons-2026-06-20T171949.png
 security:
 - kind: authentication
   name: Andersons Authentication

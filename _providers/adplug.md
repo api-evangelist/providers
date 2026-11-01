@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.2
-  scored_at: '2026-10-17'
+  score: 26.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -66,84 +68,84 @@ apis:
   description: The Webhooks API from AdPlug — 2 operation(s) for webhooks.
   name: AdPlug Webhooks API
   slug: adplug-webhooks-api
-artifact_total: 13
+artifact_total: 18
 common:
 - group: docs
   title: ''
   type: Documentation
   url: https://adplug.app/guides/google-ads
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/agentic-access/adplug-agentic-access.yml
+  href: https://artifacts.apis.io/adplug/agentic-access/adplug-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adplug-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/plans/adplug-plans-pricing.yml
+  href: https://artifacts.apis.io/adplug/plans/adplug-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adplug-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/rules/adplug-rules.yml
+  href: https://artifacts.apis.io/adplug/rules/adplug-rules.yml
   title: ''
   type: Spectral
   url: rules/adplug-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/json-ld/adplug-context.jsonld
+  href: https://artifacts.apis.io/adplug/json-ld/adplug-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adplug-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/vocabulary/adplug-vocabulary.yml
+  href: https://artifacts.apis.io/adplug/vocabulary/adplug-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/adplug-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/adplug/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/data-model/adplug-data-model.yml
+  href: https://artifacts.apis.io/adplug/data-model/adplug-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adplug-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/errors/adplug-problem-types.yml
+  href: https://artifacts.apis.io/adplug/errors/adplug-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adplug-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/conformance/adplug-conformance.yml
+  href: https://artifacts.apis.io/adplug/conformance/adplug-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adplug-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/llms/adplug-llms.txt
+  href: https://artifacts.apis.io/adplug/llms/adplug-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adplug-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/well-known/adplug-well-known.yml
+  href: https://artifacts.apis.io/adplug/well-known/adplug-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adplug-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/hosts/adplug-hosts.yml
+  href: https://artifacts.apis.io/adplug/hosts/adplug-hosts.yml
   title: ''
   type: Hosts
   url: hosts/adplug-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/vendors/adplug-vendors.yml
+  href: https://artifacts.apis.io/adplug/vendors/adplug-vendors.yml
   title: ''
   type: Vendors
   url: vendors/adplug-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/authentication/adplug-authentication.yml
+  href: https://artifacts.apis.io/adplug/authentication/adplug-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adplug-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adplug/refs/heads/main/security/adplug-domain-security.yml
+  href: https://artifacts.apis.io/adplug/security/adplug-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adplug-domain-security.yml
@@ -181,6 +183,14 @@ common:
   url: https://www.postman.com/adplug/workspace
 created: '2026-10-15'
 description: AdPlug provides AI‑powered Marketing Cloud Platforms (MCP) that integrate with Google Ads, LinkedIn Ads, Microsoft Ads, and Google Search Console. It enables agencies and PPC specialists to audit, safely edit, and automate campaign data across multiple accounts using large language models like Claude and ChatGPT. The platform offers multi‑account management, audit logs, team seats, and a suite of guides and resources for performance optimization.
+finops:
+- has_sources: true
+  method: derived
+  name: Adplug Finops
+  primary_unit: seat
+  service_category: ''
+  slug: adplug-finops
+  template: false
 image: https://adplug.app/opengraph-image?2e27cb39d30c0e91
 jsonld:
 - class_count: 3
@@ -203,7 +213,10 @@ plans:
 - name: Adplug Plans Pricing
   plan_count: 4
   slug: adplug-plans-pricing
-random_paper: 21
+- name: Adplug Price Estimates
+  plan_count: 0
+  slug: adplug-price-estimates
+random_paper: 13
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -219,21 +232,23 @@ rules:
   slug: adplug-rules
 score:
   band: developing
-  composite: 46.2
+  composite: 47.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 54.8
+    artifact_dirs: 21
+    catalog_earned: 57.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 35.6
     contract_quality: 43.5
     developer_ergonomics: 39.9
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 5.3
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -254,11 +269,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Adplug Authentication
@@ -268,6 +285,14 @@ security:
   name: Adplug Domain Security
   slug: adplug-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: adplug-manage-paddle-subscription
+  slug: adplug-manage-paddle-subscription
+- name: adplug-oauth-authorization
+  slug: adplug-oauth-authorization
+- name: adplug-oauth-legacy-compat-flow
+  slug: adplug-oauth-legacy-compat-flow
 slug: adplug
 tags:
 - PPC

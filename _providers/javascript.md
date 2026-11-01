@@ -4,6 +4,6 @@ layout: provider
 name: javascript
 nav: Providers
 network: true
-random_paper: 1
+random_paper: 23
 slug: javascript
 ---

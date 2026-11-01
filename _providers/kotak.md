@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Kotak Mahindra Bank enterprise open-banking API platform. A curated corporate banking API stack of 39 published API products across six categories — Account Services, Payment Services, Collection '
@@ -95,47 +97,47 @@ common:
   type: Partners
   url: https://api.kotak.bank.in/connectedbanking
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kotak/refs/heads/main/sandbox/kotak-sandbox.yml
+  href: https://artifacts.apis.io/kotak/sandbox/kotak-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kotak-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kotak/refs/heads/main/authentication/kotak-authentication.yml
+  href: https://artifacts.apis.io/kotak/authentication/kotak-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kotak-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kotak/refs/heads/main/conventions/kotak-conventions.yml
+  href: https://artifacts.apis.io/kotak/conventions/kotak-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kotak-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kotak/refs/heads/main/conformance/kotak-conformance.yml
+  href: https://artifacts.apis.io/kotak/conformance/kotak-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kotak-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kotak/refs/heads/main/packages/kotak-packages.yml
+  href: https://artifacts.apis.io/kotak/packages/kotak-packages.yml
   title: ''
   type: Packages
   url: packages/kotak-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kotak/refs/heads/main/well-known/kotak-well-known.yml
+  href: https://artifacts.apis.io/kotak/well-known/kotak-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kotak-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kotak/refs/heads/main/well-known/kotak-api-catalog.json
+  href: https://artifacts.apis.io/kotak/well-known/kotak-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/kotak-api-catalog.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kotak/refs/heads/main/security/kotak-domain-security.yml
+  href: https://artifacts.apis.io/kotak/security/kotak-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kotak-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kotak/refs/heads/main/llms/kotak-llms.txt
+  href: https://artifacts.apis.io/kotak/llms/kotak-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kotak-llms.txt
@@ -155,7 +157,7 @@ overview: 'Kotak Mahindra Bank is listed with 1 API on the [APIs.io](https://api
 random_paper: 10
 score:
   band: thin
-  composite: 26.7
+  composite: 27.9
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -168,8 +170,8 @@ score:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 52.4
-    discoverability: 73.2
+    developer_ergonomics: 61.9
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -178,7 +180,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 26.7
+  previous_composite: 27.9
   provenance:
     conformance: first-party
   regulatory:
@@ -191,14 +193,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kotak/refs/heads/main/screenshots/kotak-2026-07-25T224245.png
+screenshot: https://apis.io/screenshots/kotak/kotak-2026-07-25T224245.png
 security:
 - kind: authentication
   name: Kotak Authentication

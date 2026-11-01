@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.6
-  scored_at: '2026-10-17'
+  score: 33.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -131,9 +133,6 @@ collections:
   name: WunderGraph Cosmo Platform Analytics Subgraphs API
   slug: postman-wundergraph-subgraphs-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: WunderGraph Cosmo Platform Analytics API
   slug: open-wundergraph-analytics-api
 - collection_type: open
@@ -168,6 +167,11 @@ collections:
   slug: open-wundergraph-subgraphs-api
 common:
 - group: commercial
+  href: https://artifacts.apis.io/wundergraph/plans/wundergraph-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/wundergraph-plans-pricing.yml
+- group: commercial
   title: ''
   type: License
   url: https://github.com/wundergraph/cosmo/blob/main/LICENSE
@@ -188,17 +192,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/wundergraph/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/agentic-access/wundergraph-agentic-access.yml
+  href: https://artifacts.apis.io/wundergraph/agentic-access/wundergraph-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wundergraph-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/security/wundergraph-domain-security.yml
+  href: https://artifacts.apis.io/wundergraph/security/wundergraph-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wundergraph-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/authentication/wundergraph-authentication.yml
+  href: https://artifacts.apis.io/wundergraph/authentication/wundergraph-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wundergraph-authentication.yml
@@ -287,7 +291,7 @@ common:
   type: Examples
   url: https://github.com/wundergraph/cosmo-federation-demos
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/mcp/wundergraph-mcp.yml
+  href: https://artifacts.apis.io/wundergraph/mcp/wundergraph-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/wundergraph-mcp.yml
@@ -300,32 +304,32 @@ common:
   type: LlmsText
   url: https://cosmo-docs.wundergraph.com/llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/grpc/wundergraph-platform.proto
+  href: https://artifacts.apis.io/wundergraph/grpc/wundergraph-platform.proto
   title: ''
   type: Protobuf
   url: grpc/wundergraph-platform.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/grpc/wundergraph-protobuf.yml
+  href: https://artifacts.apis.io/wundergraph/grpc/wundergraph-protobuf.yml
   title: ''
   type: gRPC
   url: grpc/wundergraph-protobuf.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/security/wundergraph-cloud-domain-security.yml
+  href: https://artifacts.apis.io/wundergraph/security/wundergraph-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wundergraph-cloud-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/plans/wundergraph-cloud-plans.md
+  href: https://artifacts.apis.io/wundergraph/plans/wundergraph-cloud-plans.md
   title: ''
   type: Plans
   url: plans/wundergraph-cloud-plans.md
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/rate-limits/wundergraph-cloud-rate-limits.md
+  href: https://artifacts.apis.io/wundergraph/rate-limits/wundergraph-cloud-rate-limits.md
   title: ''
   type: RateLimits
   url: rate-limits/wundergraph-cloud-rate-limits.md
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/finops/wundergraph-cloud-finops.md
+  href: https://artifacts.apis.io/wundergraph/finops/wundergraph-cloud-finops.md
   title: ''
   type: FinOps
   url: finops/wundergraph-cloud-finops.md
@@ -364,13 +368,13 @@ features:
 - name: Schema Registry
 - name: Schema Usage Reporting
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Wundergraph Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: wundergraph-finops
-  template: true
+  template: false
 graphqls:
 - description: The WunderGraph Cosmo Platform API provides programmatic access to manage federated GraphQL architectures at scale. It powers the Cosmo CLI (wgc) and Cosmo Studio, enabling management of federated gra
   name: WunderGraph GraphQL API
@@ -427,12 +431,15 @@ overview: 'WunderGraph is listed with 11 APIs on the [APIs.io](https://apis.io/)
   The WunderGraph catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  WunderGraph''s developer surface includes changelog, authentication, pricing, engineering blog, CLI, support, documentation, and 32 more developer resources.'
+  WunderGraph''s developer surface includes changelog, authentication, pricing, engineering blog, CLI, support, documentation, and 33 more developer resources.'
 plans:
 - name: Wundergraph Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: wundergraph-plans-pricing
-random_paper: 3
+- name: Wundergraph Price Estimates
+  plan_count: 0
+  slug: wundergraph-price-estimates
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Wundergraph Rate Limits
@@ -450,24 +457,24 @@ rules:
     warn: 3
   slug: wundergraph-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 51.5
+  band: strong
+  composite: 57.8
   coverage:
     artifact_dirs: 21
-    catalog_earned: 61.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.8
+    catalog_earned: 73.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 41.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 68.4
+    access_clarity: 100.0
     contract_governance: 9.8
-    contract_quality: 30.7
+    contract_quality: 27.7
     developer_ergonomics: 62.4
     discoverability: 68.3
     operational_transparency: 63.2
-  previous_composite: 53.0
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     contracts:
@@ -482,13 +489,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/screenshots/wundergraph-2026-06-20T201655.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wundergraph/wundergraph-2026-06-20T201655.png
 security:
 - kind: authentication
   name: Wundergraph Authentication

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The agent-facing commerce surface for the UrbanStems store, implementing the Universal Commerce Protocol (dev.ucp.shopping) over MCP. Thirteen tools cover catalog search and lookup, product detail, ca
@@ -32,10 +34,10 @@ apis:
 - description: The read-only storefront JSON endpoints UrbanStems documents for agents in its own /llms.txt and /agents.md — product JSON at /products/{handle}.json, collection product listings at /collections/{hand
   name: UrbanStems Storefront JSON API
   slug: urbanstems-storefront-json-api
-artifact_total: 8
+artifact_total: 11
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/security/urbanstems-domain-security.yml
+  href: https://artifacts.apis.io/urbanstems/security/urbanstems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/urbanstems-domain-security.yml
@@ -80,82 +82,82 @@ common:
   type: GitHubOrganization
   url: https://github.com/urbanstems
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/mcp/urbanstems-mcp.yml
+  href: https://artifacts.apis.io/urbanstems/mcp/urbanstems-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/urbanstems-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/mcp/urbanstems-tool-crosswalk.yml
+  href: https://artifacts.apis.io/urbanstems/mcp/urbanstems-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/urbanstems-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/llms/urbanstems-llms.txt
+  href: https://artifacts.apis.io/urbanstems/llms/urbanstems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/urbanstems-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/well-known/urbanstems-well-known.yml
+  href: https://artifacts.apis.io/urbanstems/well-known/urbanstems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/urbanstems-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/authentication/urbanstems-authentication.yml
+  href: https://artifacts.apis.io/urbanstems/authentication/urbanstems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/urbanstems-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/scopes/urbanstems-scopes.yml
+  href: https://artifacts.apis.io/urbanstems/scopes/urbanstems-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/urbanstems-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/conventions/urbanstems-conventions.yml
+  href: https://artifacts.apis.io/urbanstems/conventions/urbanstems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/urbanstems-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/conventions/urbanstems-conventions.yml
+  href: https://artifacts.apis.io/urbanstems/conventions/urbanstems-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/urbanstems-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/errors/urbanstems-problem-types.yml
+  href: https://artifacts.apis.io/urbanstems/errors/urbanstems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/urbanstems-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/rate-limits/urbanstems-rate-limits.yml
+  href: https://artifacts.apis.io/urbanstems/rate-limits/urbanstems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/urbanstems-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/plans/urbanstems-plans-pricing.yml
+  href: https://artifacts.apis.io/urbanstems/plans/urbanstems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/urbanstems-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/lifecycle/urbanstems-lifecycle.yml
+  href: https://artifacts.apis.io/urbanstems/lifecycle/urbanstems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/urbanstems-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/conformance/urbanstems-conformance.yml
+  href: https://artifacts.apis.io/urbanstems/conformance/urbanstems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/urbanstems-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/data-model/urbanstems-data-model.yml
+  href: https://artifacts.apis.io/urbanstems/data-model/urbanstems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/urbanstems-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/urbanstems/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/packages/urbanstems-packages.yml
+  href: https://artifacts.apis.io/urbanstems/packages/urbanstems-packages.yml
   title: ''
   type: Packages
   url: packages/urbanstems-packages.yml
@@ -179,7 +181,7 @@ plans:
 - name: Urbanstems Plans Pricing
   plan_count: 0
   slug: urbanstems-plans-pricing
-random_paper: 14
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Urbanstems Rate Limits
@@ -191,7 +193,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 25.0
+  composite: 24.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 32.0
@@ -199,15 +201,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 66.7
-    operational_transparency: 2.6
-  previous_composite: 24.9
+    discoverability: 56.7
+    operational_transparency: 5.3
+  previous_composite: 24.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -218,14 +220,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/urbanstems/refs/heads/main/screenshots/urbanstems-2026-10-11T131535.png
+screenshot: https://apis.io/screenshots/urbanstems/urbanstems-2026-10-11T131535.png
 security:
 - kind: authentication
   name: Urbanstems Authentication
@@ -235,6 +237,14 @@ security:
   name: Urbanstems Domain Security
   slug: urbanstems-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: urbanstems-build-a-gift-order
+  slug: urbanstems-build-a-gift-order
+- name: urbanstems-complete-purchase-safely
+  slug: urbanstems-complete-purchase-safely
+- name: urbanstems-find-flowers
+  slug: urbanstems-find-flowers
 slug: urbanstems
 tags:
 - Company

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.1
-  scored_at: '2026-10-17'
+  score: 32.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 16
   slug: ssen-agentic-access
   summary_line: 16 operations
-api_count: 2
+api_count: 1
 apis:
 - description: The public CKAN 2.10.10 Action API behind the SSEN Distribution Data Portal, serving 45 open datasets covering substations, LV feeder smart meter half-hourly usage, the Embedded Capacity Register, fle
   name: SSEN Distribution Data Portal API
@@ -64,74 +66,74 @@ apis:
   description: API to work on records
   name: Scottish and Southern Electricity Networks Dataset API
   slug: ssen-dataset-api
-artifact_total: 11
+artifact_total: 14
 collections:
 - collection_type: open
   name: Explore API
   slug: open-ssen-transmission-opendatasoft-explore-v2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/overlays/ssen-transmission-opendatasoft-explore-v2.1-overlay.yaml
+  href: https://artifacts.apis.io/ssen/overlays/ssen-transmission-opendatasoft-explore-v2.1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ssen-transmission-opendatasoft-explore-v2.1-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/agentic-access/ssen-agentic-access.yml
+  href: https://artifacts.apis.io/ssen/agentic-access/ssen-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ssen-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/security/ssen-domain-security.yml
+  href: https://artifacts.apis.io/ssen/security/ssen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ssen-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/authentication/ssen-authentication.yml
+  href: https://artifacts.apis.io/ssen/authentication/ssen-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ssen-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/conventions/ssen-conventions.yml
+  href: https://artifacts.apis.io/ssen/conventions/ssen-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ssen-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/errors/ssen-problem-types.yml
+  href: https://artifacts.apis.io/ssen/errors/ssen-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ssen-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/rate-limits/ssen-rate-limits.yml
+  href: https://artifacts.apis.io/ssen/rate-limits/ssen-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ssen-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/lifecycle/ssen-lifecycle.yml
+  href: https://artifacts.apis.io/ssen/lifecycle/ssen-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ssen-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/conformance/ssen-conformance.yml
+  href: https://artifacts.apis.io/ssen/conformance/ssen-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ssen-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/data-model/ssen-data-model.yml
+  href: https://artifacts.apis.io/ssen/data-model/ssen-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ssen-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/well-known/ssen-well-known.yml
+  href: https://artifacts.apis.io/ssen/well-known/ssen-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ssen-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/well-known/ssen-security.txt
+  href: https://artifacts.apis.io/ssen/well-known/ssen-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ssen-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/security/ssen-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ssen/security/ssen-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ssen-vulnerability-disclosure.yml
@@ -140,17 +142,17 @@ common:
   type: Security
   url: https://ssentransmission.opendatasoft.com/.well-known/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/mcp/ssen-mcp.yml
+  href: https://artifacts.apis.io/ssen/mcp/ssen-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ssen-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ssen/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/llms/ssen-llms.txt
+  href: https://artifacts.apis.io/ssen/llms/ssen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ssen-llms.txt
@@ -243,7 +245,7 @@ overview: 'Scottish and Southern Electricity Networks publishes 5 API contracts 
 
 
   Scottish and Southern Electricity Networks'' developer surface includes authentication, getting-started guide, support, engineering blog, signup flow, documentation, developer portal, and 29 more developer resources.'
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Ssen Rate Limits
@@ -264,8 +266,8 @@ score:
     contract_governance: 4.5
     contract_quality: 51.4
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 31.6
+    discoverability: 66.1
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -291,14 +293,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/screenshots/ssen-2026-08-17T082055.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ssen/ssen-2026-08-17T082055.png
 security:
 - kind: authentication
   name: Ssen Authentication
@@ -312,6 +314,14 @@ security:
   name: Ssen Vulnerability Disclosure
   slug: ssen-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 3
+skills:
+- name: Discover SSEN Transmission datasets
+  slug: ssen-discover-transmission-datasets
+- name: Pull SSEN Transmission records in bulk
+  slug: ssen-export-transmission-records
+- name: Harvest the SSEN catalog as DCAT
+  slug: ssen-harvest-catalog-dcat
 slug: ssen
 tags:
 - Energy

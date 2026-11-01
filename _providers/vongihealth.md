@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -49,22 +51,22 @@ common:
   type: Support
   url: https://www.slan-health.com/contact-us.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vongihealth/refs/heads/main/security/vongihealth-domain-security.yml
+  href: https://artifacts.apis.io/vongihealth/security/vongihealth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vongihealth-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vongihealth/refs/heads/main/conformance/vongihealth-conformance.yml
+  href: https://artifacts.apis.io/vongihealth/conformance/vongihealth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vongihealth-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vongihealth/refs/heads/main/conformance/vongihealth-conformance.yml
+  href: https://artifacts.apis.io/vongihealth/conformance/vongihealth-conformance.yml
   title: ''
   type: Compliance
   url: conformance/vongihealth-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vongihealth/refs/heads/main/llms/vongihealth-llms.txt
+  href: https://artifacts.apis.io/vongihealth/llms/vongihealth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vongihealth-llms.txt
@@ -80,10 +82,10 @@ overview: 'Vongi Health (芝兰健康) is profiled on the [APIs.io](https://apis
 
 
   Vongi Health (芝兰健康)''s developer surface includes support and 6 more developer resources.'
-random_paper: 11
+random_paper: 1
 score:
   band: minimal
-  composite: 10.3
+  composite: 9.6
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -97,7 +99,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -106,7 +108,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 10.3
+  previous_composite: 9.6
   provenance:
     conformance: first-party
   regulatory:
@@ -115,14 +117,14 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vongihealth/refs/heads/main/screenshots/vongihealth-2026-09-02T170235.png
+screenshot: https://apis.io/screenshots/vongihealth/vongihealth-2026-09-02T170235.png
 security:
 - kind: domain-security
   name: Vongihealth Domain Security

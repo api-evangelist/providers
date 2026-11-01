@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Atlas is the Abios REST and WebSocket data API delivering fixtures, live match state, historical stats, players, teams, tournaments, and series across covered esports titles. Designed as a developer-f
@@ -48,17 +50,17 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/abios-gaming/refs/heads/main/plans/abios-gaming-plans-pricing.yml
+  href: https://artifacts.apis.io/abios-gaming/plans/abios-gaming-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/abios-gaming-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/abios-gaming/refs/heads/main/rate-limits/abios-gaming-rate-limits.yml
+  href: https://artifacts.apis.io/abios-gaming/rate-limits/abios-gaming-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/abios-gaming-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/abios-gaming/refs/heads/main/finops/abios-gaming-finops.yml
+  href: https://artifacts.apis.io/abios-gaming/finops/abios-gaming-finops.yml
   title: ''
   type: FinOps
   url: finops/abios-gaming-finops.yml
@@ -71,7 +73,7 @@ common:
   type: BlogRSS
   url: https://abiosgaming.com/press/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/abios-gaming/refs/heads/main/security/abios-gaming-domain-security.yml
+  href: https://artifacts.apis.io/abios-gaming/security/abios-gaming-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/abios-gaming-domain-security.yml
@@ -139,14 +141,14 @@ plans:
 - name: Abios Gaming Plans Pricing
   plan_count: 1
   slug: abios-gaming-plans-pricing
-random_paper: 10
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Abios Gaming Rate Limits
   slug: abios-gaming-rate-limits
 score:
   band: emerging
-  composite: 11.3
+  composite: 18.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 44.0
@@ -154,12 +156,12 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.5
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 19.0
     discoverability: 78.6
     operational_transparency: 10.5
   jurisdiction:
@@ -170,21 +172,21 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 16.8
+  previous_composite: 18.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 13.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/abios-gaming/refs/heads/main/screenshots/abios-gaming-2026-06-20T163209.png
+screenshot: https://apis.io/screenshots/abios-gaming/abios-gaming-2026-06-20T163209.png
 security:
 - kind: domain-security
   name: Abios Gaming Domain Security

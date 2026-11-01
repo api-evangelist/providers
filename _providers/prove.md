@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.0
-  scored_at: '2026-10-17'
+  score: 42.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -80,11 +82,8 @@ apis:
   description: Unified Authentication possession and trust evaluation.
   name: Prove Trust Score API
   slug: prove-trust-score-api
-artifact_total: 48
+artifact_total: 50
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Prove Auth API
   slug: open-prove-auth-api
@@ -111,62 +110,62 @@ collections:
   slug: open-prove
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/scopes/prove-scopes.yml
+  href: https://artifacts.apis.io/prove/scopes/prove-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/prove-scopes.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/plans/prove-plans-pricing.yml
+  href: https://artifacts.apis.io/prove/plans/prove-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/prove-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/rate-limits/prove-rate-limits.yml
+  href: https://artifacts.apis.io/prove/rate-limits/prove-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/prove-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/well-known/prove-status-security.txt
+  href: https://artifacts.apis.io/prove/well-known/prove-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/prove-status-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/rules/prove-rules.yml
+  href: https://artifacts.apis.io/prove/rules/prove-rules.yml
   title: ''
   type: Spectral
   url: rules/prove-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/json-ld/prove-context.jsonld
+  href: https://artifacts.apis.io/prove/json-ld/prove-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/prove-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/vocabulary/prove-vocabulary.yml
+  href: https://artifacts.apis.io/prove/vocabulary/prove-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/prove-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/prove/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/data-model/prove-data-model.yml
+  href: https://artifacts.apis.io/prove/data-model/prove-data-model.yml
   title: ''
   type: DataModel
   url: data-model/prove-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/conventions/prove-conventions.yml
+  href: https://artifacts.apis.io/prove/conventions/prove-conventions.yml
   title: ''
   type: Conventions
   url: conventions/prove-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/sandbox/prove-sandbox.yml
+  href: https://artifacts.apis.io/prove/sandbox/prove-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/prove-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/security/prove-trust-center.yml
+  href: https://artifacts.apis.io/prove/security/prove-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/prove-trust-center.yml
@@ -175,62 +174,62 @@ common:
   type: StatusPage
   url: https://status.prove.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/lifecycle/prove-lifecycle.yml
+  href: https://artifacts.apis.io/prove/lifecycle/prove-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/prove-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/errors/prove-problem-types.yml
+  href: https://artifacts.apis.io/prove/errors/prove-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/prove-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/conformance/prove-conformance.yml
+  href: https://artifacts.apis.io/prove/conformance/prove-conformance.yml
   title: ''
   type: Conformance
   url: conformance/prove-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/overlays/prove-auth-api-overlay.yaml
+  href: https://artifacts.apis.io/prove/overlays/prove-auth-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/prove-auth-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/llms/prove-llms.txt
+  href: https://artifacts.apis.io/prove/llms/prove-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/prove-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/mcp/prove-tool-crosswalk.yml
+  href: https://artifacts.apis.io/prove/mcp/prove-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/prove-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/mcp/prove-mcp.yml
+  href: https://artifacts.apis.io/prove/mcp/prove-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/prove-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/well-known/prove-well-known.yml
+  href: https://artifacts.apis.io/prove/well-known/prove-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/prove-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/hosts/prove-hosts.yml
+  href: https://artifacts.apis.io/prove/hosts/prove-hosts.yml
   title: ''
   type: Hosts
   url: hosts/prove-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/vendors/prove-vendors.yml
+  href: https://artifacts.apis.io/prove/vendors/prove-vendors.yml
   title: ''
   type: Vendors
   url: vendors/prove-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/packages/prove-packages.yml
+  href: https://artifacts.apis.io/prove/packages/prove-packages.yml
   title: ''
   type: SDKs
   url: packages/prove-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/packages/prove-packages.yml
+  href: https://artifacts.apis.io/prove/packages/prove-packages.yml
   title: ''
   type: Packages
   url: packages/prove-packages.yml
@@ -239,22 +238,22 @@ common:
   type: Leadership
   url: https://www.prove.com/leadership
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/capabilities/prove-capability-edges.yml
+  href: https://artifacts.apis.io/prove/capabilities/prove-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/prove-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/agentic-access/prove-agentic-access.yml
+  href: https://artifacts.apis.io/prove/agentic-access/prove-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/prove-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/security/prove-domain-security.yml
+  href: https://artifacts.apis.io/prove/security/prove-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prove-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/authentication/prove-authentication.yml
+  href: https://artifacts.apis.io/prove/authentication/prove-authentication.yml
   title: ''
   type: Authentication
   url: authentication/prove-authentication.yml
@@ -275,7 +274,7 @@ common:
   type: Documentation
   url: https://developer.prove.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/finops/prove-finops.yml
+  href: https://artifacts.apis.io/prove/finops/prove-finops.yml
   title: ''
   type: FinOps
   url: finops/prove-finops.yml
@@ -407,7 +406,7 @@ plans:
 - name: Prove Plans Pricing
   plan_count: 0
   slug: prove-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Prove Rate Limits
@@ -431,8 +430,8 @@ scopes:
   slug: prove-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 49.6
+  band: strong
+  composite: 54.3
   coverage:
     artifact_dirs: 33
     catalog_earned: 62.8
@@ -440,15 +439,15 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 22.0
     contract_quality: 62.7
-    developer_ergonomics: 49.4
-    discoverability: 76.7
-    operational_transparency: 18.4
-  previous_composite: 50.1
+    developer_ergonomics: 66.1
+    discoverability: 66.7
+    operational_transparency: 31.6
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -465,13 +464,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/screenshots/prove-2026-09-02T152234.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/prove/prove-2026-09-02T152234.png
 security:
 - kind: authentication
   name: Prove Authentication
@@ -485,6 +485,14 @@ security:
   name: Prove Trust Center
   slug: prove-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: prove-identity-manager-enroll
+  slug: prove-identity-manager-enroll
+- name: prove-prefill-verify-identity
+  slug: prove-prefill-verify-identity
+- name: prove-unified-authentication
+  slug: prove-unified-authentication
 slug: prove
 tags:
 - Identity Verification

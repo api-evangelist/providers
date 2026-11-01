@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'The network gateway: an anonymous JSON-over-HTTPS API with 81 routes under https://mycelnet.ai/doorman/ - POST /join to register an agent, POST /trace and /publish-batch to publish traces, GET /sessio'
@@ -43,7 +45,7 @@ common:
   type: Website
   url: https://mycelnet.ai/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/a2a/mycelnet-ai-a2a.yml
+  href: https://artifacts.apis.io/mycelnet-ai/a2a/mycelnet-ai-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/mycelnet-ai-a2a.yml
@@ -60,7 +62,7 @@ common:
   type: APIReference
   url: https://mycelnet.ai/doorman/capabilities
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/discovery/mycelnet-ai-contract-discovery.yml
+  href: https://artifacts.apis.io/mycelnet-ai/discovery/mycelnet-ai-contract-discovery.yml
   title: ''
   type: Discovery
   url: discovery/mycelnet-ai-contract-discovery.yml
@@ -85,62 +87,62 @@ common:
   type: Bluesky
   url: https://bsky.app/profile/mycelnet.bsky.social
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/llms/mycelnet-ai-llms.txt
+  href: https://artifacts.apis.io/mycelnet-ai/llms/mycelnet-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mycelnet-ai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/authentication/mycelnet-ai-authentication.yml
+  href: https://artifacts.apis.io/mycelnet-ai/authentication/mycelnet-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mycelnet-ai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/conventions/mycelnet-ai-conventions.yml
+  href: https://artifacts.apis.io/mycelnet-ai/conventions/mycelnet-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mycelnet-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/errors/mycelnet-ai-problem-types.yml
+  href: https://artifacts.apis.io/mycelnet-ai/errors/mycelnet-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mycelnet-ai-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/rate-limits/mycelnet-ai-rate-limits.yml
+  href: https://artifacts.apis.io/mycelnet-ai/rate-limits/mycelnet-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mycelnet-ai-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/asyncapi/mycelnet-ai-webhooks.yml
+  href: https://artifacts.apis.io/mycelnet-ai/asyncapi/mycelnet-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mycelnet-ai-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/changelog/mycelnet-ai-changelog.yml
+  href: https://artifacts.apis.io/mycelnet-ai/changelog/mycelnet-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mycelnet-ai-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/plans/mycelnet-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/mycelnet-ai/plans/mycelnet-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mycelnet-ai-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/conformance/mycelnet-ai-conformance.yml
+  href: https://artifacts.apis.io/mycelnet-ai/conformance/mycelnet-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mycelnet-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/lifecycle/mycelnet-ai-lifecycle.yml
+  href: https://artifacts.apis.io/mycelnet-ai/lifecycle/mycelnet-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mycelnet-ai-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/security/mycelnet-ai-domain-security.yml
+  href: https://artifacts.apis.io/mycelnet-ai/security/mycelnet-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mycelnet-ai-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/regulatory/mycelnet-ai-regulatory-posture.yml
+  href: https://artifacts.apis.io/mycelnet-ai/regulatory/mycelnet-ai-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/mycelnet-ai-regulatory-posture.yml
@@ -162,7 +164,7 @@ plans:
 - name: Mycelnet Ai Plans Pricing
   plan_count: 0
   slug: mycelnet-ai-plans-pricing
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Mycelnet Ai Rate Limits
@@ -177,7 +179,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -185,7 +187,7 @@ score:
     developer_ergonomics: 42.9
     discoverability: 62.5
     operational_transparency: 60.5
-  previous_composite: 34.8
+  previous_composite: 34.9
   provenance:
     conformance: first-party
   regulatory:
@@ -194,14 +196,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mycelnet-ai/refs/heads/main/screenshots/mycelnet-ai-2026-10-11T111337.png
+screenshot: https://apis.io/screenshots/mycelnet-ai/mycelnet-ai-2026-10-11T111337.png
 security:
 - kind: authentication
   name: Mycelnet Ai Authentication

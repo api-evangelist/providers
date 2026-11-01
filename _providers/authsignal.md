@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -123,11 +125,8 @@ apis:
   description: The Users API from Authsignal — 2 operation(s) for users.
   name: Authsignal Users API
   slug: authsignal-users-api
-artifact_total: 36
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Authsignal Server Actions API
   slug: open-authsignal-actions-api
@@ -151,22 +150,22 @@ collections:
   slug: open-authsignal
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/plans/authsignal-plans-pricing.yml
+  href: https://artifacts.apis.io/authsignal/plans/authsignal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/authsignal-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/rate-limits/authsignal-rate-limits.yml
+  href: https://artifacts.apis.io/authsignal/rate-limits/authsignal-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/authsignal-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/finops/authsignal-finops.yml
+  href: https://artifacts.apis.io/authsignal/finops/authsignal-finops.yml
   title: ''
   type: FinOps
   url: finops/authsignal-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/capabilities/authsignal-capability-edges.yml
+  href: https://artifacts.apis.io/authsignal/capabilities/authsignal-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/authsignal-capability-edges.yml
@@ -183,17 +182,17 @@ common:
   type: License
   url: https://github.com/authsignal/authsignal-node/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/agentic-access/authsignal-agentic-access.yml
+  href: https://artifacts.apis.io/authsignal/agentic-access/authsignal-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/authsignal-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/security/authsignal-domain-security.yml
+  href: https://artifacts.apis.io/authsignal/security/authsignal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/authsignal-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/authentication/authsignal-authentication.yml
+  href: https://artifacts.apis.io/authsignal/authentication/authsignal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/authsignal-authentication.yml
@@ -260,7 +259,7 @@ rate_limits:
   slug: authsignal-rate-limits
 score:
   band: thin
-  composite: 28.1
+  composite: 29.1
   coverage:
     artifact_dirs: 14
     catalog_earned: 41.0
@@ -268,18 +267,15 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 46.9
+    contract_quality: 45.9
     developer_ergonomics: 23.8
     discoverability: 73.2
     operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 34.1
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -293,13 +289,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 11.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/screenshots/authsignal-2026-06-20T172610.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/authsignal/authsignal-2026-06-20T172610.png
 security:
 - kind: authentication
   name: Authsignal Authentication

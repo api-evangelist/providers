@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.2
-  scored_at: '2026-10-17'
+  score: 50.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation is available but machine‑readable specifications were not found.
@@ -60,45 +62,50 @@ apis:
   description: Search workflow runs by query.
   name: Clay953f Workflows Runs API
   slug: clay953f-workflowsruns-api
-artifact_total: 13
+artifact_total: 18
 common:
+- group: other
+  href: https://artifacts.apis.io/clay953f/capabilities/clay953f-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/clay953f-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/plans/clay953f-plans-pricing.yml
+  href: https://artifacts.apis.io/clay953f/plans/clay953f-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/clay953f-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/rules/clay953f-rules.yml
+  href: https://artifacts.apis.io/clay953f/rules/clay953f-rules.yml
   title: ''
   type: Spectral
   url: rules/clay953f-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/json-ld/clay953f-context.jsonld
+  href: https://artifacts.apis.io/clay953f/json-ld/clay953f-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/clay953f-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/vocabulary/clay953f-vocabulary.yml
+  href: https://artifacts.apis.io/clay953f/vocabulary/clay953f-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/clay953f-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/clay953f/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/data-model/clay953f-data-model.yml
+  href: https://artifacts.apis.io/clay953f/data-model/clay953f-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clay953f-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/changelog/clay953f-changelog.yml
+  href: https://artifacts.apis.io/clay953f/changelog/clay953f-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/clay953f-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/conventions/clay953f-conventions.yml
+  href: https://artifacts.apis.io/clay953f/conventions/clay953f-conventions.yml
   title: ''
   type: Conventions
   url: conventions/clay953f-conventions.yml
@@ -107,62 +114,62 @@ common:
   type: Security
   url: https://trust.clay.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/authentication/clay953f-authentication.yml
+  href: https://artifacts.apis.io/clay953f/authentication/clay953f-authentication.yml
   title: ''
   type: Authentication
   url: authentication/clay953f-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/errors/clay953f-problem-types.yml
+  href: https://artifacts.apis.io/clay953f/errors/clay953f-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clay953f-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/conformance/clay953f-conformance.yml
+  href: https://artifacts.apis.io/clay953f/conformance/clay953f-conformance.yml
   title: ''
   type: Conformance
   url: conformance/clay953f-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/llms/clay953f-llms.txt
+  href: https://artifacts.apis.io/clay953f/llms/clay953f-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/clay953f-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/a2a/clay953f-a2a.yml
+  href: https://artifacts.apis.io/clay953f/a2a/clay953f-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/clay953f-a2a.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/well-known/clay953f-status-security.txt
+  href: https://artifacts.apis.io/clay953f/well-known/clay953f-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/clay953f-status-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/well-known/clay953f-security.txt
+  href: https://artifacts.apis.io/clay953f/well-known/clay953f-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/clay953f-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/well-known/clay953f-community-security.txt
+  href: https://artifacts.apis.io/clay953f/well-known/clay953f-community-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/clay953f-community-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/well-known/clay953f-clay-security.txt
+  href: https://artifacts.apis.io/clay953f/well-known/clay953f-clay-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/clay953f-clay-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/well-known/clay953f-well-known.yml
+  href: https://artifacts.apis.io/clay953f/well-known/clay953f-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/clay953f-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/hosts/clay953f-hosts.yml
+  href: https://artifacts.apis.io/clay953f/hosts/clay953f-hosts.yml
   title: ''
   type: Hosts
   url: hosts/clay953f-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/vendors/clay953f-vendors.yml
+  href: https://artifacts.apis.io/clay953f/vendors/clay953f-vendors.yml
   title: ''
   type: Vendors
   url: vendors/clay953f-vendors.yml
@@ -211,12 +218,12 @@ common:
   type: APIReference
   url: https://developers.clay.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/security/clay953f-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/clay953f/security/clay953f-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/clay953f-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/security/clay953f-domain-security.yml
+  href: https://artifacts.apis.io/clay953f/security/clay953f-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clay953f-domain-security.yml
@@ -234,6 +241,14 @@ coverage:
   state: unreadable
 created: '2026-10-08'
 description: Clay is a data infrastructure platform that aggregates over 150 premium data sources and AI research agents into a single system, enabling users to run agentic workflows and launch go‑to‑market (GTM) plays that turn insights into revenue. It offers a 14‑day free trial with no credit card required, targeting marketers, sales teams, and product managers seeking automated growth workflows.
+finops:
+- has_sources: true
+  method: derived
+  name: Clay953F Finops
+  primary_unit: seat
+  service_category: ''
+  slug: clay953f-finops
+  template: false
 image: https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a3ab15061812432ead96f56_Clay_Homepage_og-image%201000.png
 jsonld:
 - class_count: 48
@@ -251,12 +266,15 @@ overview: 'Clay953f publishes 7 API contracts indexed on the [APIs.io](https://a
   The Clay953f catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Clay953f''s developer surface includes changelog, authentication, sandbox, pricing, engineering blog, getting-started guide, API reference, and 28 more developer resources.'
+  Clay953f''s developer surface includes changelog, authentication, sandbox, pricing, engineering blog, getting-started guide, API reference, and 29 more developer resources.'
 plans:
 - name: Clay953F Plans Pricing
   plan_count: 3
   slug: clay953f-plans-pricing
-random_paper: 6
+- name: Clay953F Price Estimates
+  plan_count: 0
+  slug: clay953f-price-estimates
+random_paper: 16
 rules:
 - authorship: generated
   effective_rule_count: 58
@@ -271,22 +289,24 @@ rules:
     warn: 1
   slug: clay953f-rules
 score:
-  band: developing
-  composite: 53.0
+  band: strong
+  composite: 54.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 55.8
+    artifact_dirs: 22
+    catalog_earned: 58.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 59.3
+    catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 68.4
     contract_governance: 35.6
     contract_quality: 56.9
     developer_ergonomics: 42.3
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 50.0
+  previous_composite: 53.0
   provenance:
     conformance: first-party
     contracts:
@@ -308,11 +328,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Clay953F Authentication
@@ -326,6 +348,14 @@ security:
   name: Clay953F Vulnerability Disclosure
   slug: clay953f-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: clay953f-search-run-filtered
+  slug: clay953f-search-run-filtered
+- name: clay953f-search-workflow-runs
+  slug: clay953f-search-workflow-runs
+- name: clay953f-start-routine-batch
+  slug: clay953f-start-routine-batch
 slug: clay953f
 tags:
 - Data Marketplace

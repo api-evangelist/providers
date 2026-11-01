@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,20 +38,20 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Resource-oriented REST API to manage integrations, providers, sessions, portals, skills, identities and MCP access programmatically. Bearer API-key auth, cursor pagination, date-based versioning; 466 '
   name: Metorial API
   slug: metorial-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: company
   title: ''
   type: Website
   url: https://www.metorial.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/security/metorial-trust-center.yml
+  href: https://artifacts.apis.io/metorial/security/metorial-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/metorial-trust-center.yml
@@ -62,7 +64,7 @@ common:
   type: SecurityCenter
   url: https://metorial.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/security/metorial-domain-security.yml
+  href: https://artifacts.apis.io/metorial/security/metorial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/metorial-domain-security.yml
@@ -103,87 +105,87 @@ common:
   type: Blog
   url: https://metorial.com/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/llms/metorial-llms.txt
+  href: https://artifacts.apis.io/metorial/llms/metorial-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/metorial-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/packages/metorial-packages.yml
+  href: https://artifacts.apis.io/metorial/packages/metorial-packages.yml
   title: ''
   type: Packages
   url: packages/metorial-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/packages/metorial-packages.yml
+  href: https://artifacts.apis.io/metorial/packages/metorial-packages.yml
   title: ''
   type: SDKs
   url: packages/metorial-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/cli/metorial-cli.yml
+  href: https://artifacts.apis.io/metorial/cli/metorial-cli.yml
   title: ''
   type: CLI
   url: cli/metorial-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/mcp/metorial-mcp.yml
+  href: https://artifacts.apis.io/metorial/mcp/metorial-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/metorial-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/authentication/metorial-authentication.yml
+  href: https://artifacts.apis.io/metorial/authentication/metorial-authentication.yml
   title: ''
   type: Authentication
   url: authentication/metorial-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/conventions/metorial-conventions.yml
+  href: https://artifacts.apis.io/metorial/conventions/metorial-conventions.yml
   title: ''
   type: Conventions
   url: conventions/metorial-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/errors/metorial-problem-types.yml
+  href: https://artifacts.apis.io/metorial/errors/metorial-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/metorial-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/lifecycle/metorial-lifecycle.yml
+  href: https://artifacts.apis.io/metorial/lifecycle/metorial-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/metorial-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/lifecycle/metorial-lifecycle.yml
+  href: https://artifacts.apis.io/metorial/lifecycle/metorial-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/metorial-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/rate-limits/metorial-rate-limits.yml
+  href: https://artifacts.apis.io/metorial/rate-limits/metorial-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/metorial-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/conformance/metorial-conformance.yml
+  href: https://artifacts.apis.io/metorial/conformance/metorial-conformance.yml
   title: ''
   type: Conformance
   url: conformance/metorial-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/data-model/metorial-data-model.yml
+  href: https://artifacts.apis.io/metorial/data-model/metorial-data-model.yml
   title: ''
   type: DataModel
   url: data-model/metorial-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/sandbox/metorial-sandbox.yml
+  href: https://artifacts.apis.io/metorial/sandbox/metorial-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/metorial-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/well-known/metorial-well-known.yml
+  href: https://artifacts.apis.io/metorial/well-known/metorial-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/metorial-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/well-known/metorial-api-catalog.json
+  href: https://artifacts.apis.io/metorial/well-known/metorial-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/metorial-api-catalog.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/metorial/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -199,30 +201,30 @@ overview: 'Metorial is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Metorial''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, CLI, and 24 more developer resources.'
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Metorial Rate Limits
   slug: metorial-rate-limits
 score:
-  band: thin
-  composite: 35.3
+  band: developing
+  composite: 40.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 66.1
-    discoverability: 71.7
-    operational_transparency: 50.0
-  previous_composite: 35.2
+    developer_ergonomics: 75.6
+    discoverability: 66.1
+    operational_transparency: 60.5
+  previous_composite: 40.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -233,14 +235,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/screenshots/metorial-2026-08-07T172725.png
+screenshot: https://apis.io/screenshots/metorial/metorial-2026-08-07T172725.png
 security:
 - kind: authentication
   name: Metorial Authentication
@@ -254,6 +256,12 @@ security:
   name: Metorial Trust Center
   slug: metorial-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 2
+skills:
+- name: Deploy a Metorial provider and open an agent session
+  slug: metorial-deploy-provider-and-open-session
+- name: Create a Magic MCP endpoint and issue a scoped token
+  slug: metorial-magic-mcp-endpoint
 slug: metorial
 tags:
 - Company

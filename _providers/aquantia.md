@@ -28,8 +28,8 @@ name: Aquantia
 nav: Providers
 network: true
 overview: Aquantia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Networking, Ethernet, and Hardware.
-random_paper: 16
-screenshot: https://raw.githubusercontent.com/api-evangelist/aquantia/refs/heads/main/screenshots/aquantia-2026-07-25T200954.png
+random_paper: 12
+screenshot: https://apis.io/screenshots/aquantia/aquantia-2026-07-25T200954.png
 slug: aquantia
 tags:
 - Company

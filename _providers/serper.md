@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.3
-  scored_at: '2026-10-17'
+  score: 32.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -114,11 +116,8 @@ apis:
   description: Webpage content extraction
   name: Serper Scrape API
   slug: serper-scrape-api
-artifact_total: 41
+artifact_total: 44
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Serper Google Search Autocomplete API
   slug: open-serper-autocomplete-api
@@ -151,22 +150,22 @@ collections:
   slug: open-serper-videos-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/overlays/serper-webpage-scrape-api-overlay.yaml
+  href: https://artifacts.apis.io/serper/overlays/serper-webpage-scrape-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/serper-webpage-scrape-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/agentic-access/serper-agentic-access.yml
+  href: https://artifacts.apis.io/serper/agentic-access/serper-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/serper-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/security/serper-domain-security.yml
+  href: https://artifacts.apis.io/serper/security/serper-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/serper-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/authentication/serper-authentication.yml
+  href: https://artifacts.apis.io/serper/authentication/serper-authentication.yml
   title: ''
   type: Authentication
   url: authentication/serper-authentication.yml
@@ -191,52 +190,52 @@ common:
   type: Pricing
   url: https://serper.dev/#pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/plans/serper-plans-pricing.yml
+  href: https://artifacts.apis.io/serper/plans/serper-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/serper-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/rate-limits/serper-rate-limits.yml
+  href: https://artifacts.apis.io/serper/rate-limits/serper-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/serper-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/finops/serper-finops.yml
+  href: https://artifacts.apis.io/serper/finops/serper-finops.yml
   title: ''
   type: FinOps
   url: finops/serper-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/packages/serper-packages.yml
+  href: https://artifacts.apis.io/serper/packages/serper-packages.yml
   title: ''
   type: Packages
   url: packages/serper-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/well-known/serper-well-known.yml
+  href: https://artifacts.apis.io/serper/well-known/serper-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/serper-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/mcp/serper-mcp.yml
+  href: https://artifacts.apis.io/serper/mcp/serper-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/serper-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/llms/serper-llms.txt
+  href: https://artifacts.apis.io/serper/llms/serper-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/serper-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/conformance/serper-conformance.yml
+  href: https://artifacts.apis.io/serper/conformance/serper-conformance.yml
   title: ''
   type: Conformance
   url: conformance/serper-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/errors/serper-problem-types.yml
+  href: https://artifacts.apis.io/serper/errors/serper-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/serper-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/lifecycle/serper-lifecycle.yml
+  href: https://artifacts.apis.io/serper/lifecycle/serper-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/serper-lifecycle.yml
@@ -245,17 +244,17 @@ common:
   type: StatusPage
   url: https://serper.betteruptime.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/conventions/serper-conventions.yml
+  href: https://artifacts.apis.io/serper/conventions/serper-conventions.yml
   title: ''
   type: Conventions
   url: conventions/serper-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/data-model/serper-data-model.yml
+  href: https://artifacts.apis.io/serper/data-model/serper-data-model.yml
   title: ''
   type: DataModel
   url: data-model/serper-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/serper/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -325,13 +324,13 @@ examples:
   name: Serper Web Search Example
   slug: serper-web-search-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Serper Finops
-  primary_unit: ''
+  primary_unit: queries
   service_category: ''
   slug: serper-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/serper.png
 json_schemas:
 - name: Serper Search Request
@@ -361,7 +360,7 @@ plans:
 - name: Serper Plans Pricing
   plan_count: 5
   slug: serper-plans-pricing
-random_paper: 19
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Serper Rate Limits
@@ -380,23 +379,23 @@ rules:
   slug: serper-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 54.8
+  composite: 59.5
   coverage:
     artifact_dirs: 27
-    catalog_earned: 75.3
+    catalog_earned: 78.3
     catalog_earned_first_party: 24.0
-    catalog_gap: 39.8
+    catalog_gap: 36.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 71.1
+    access_clarity: 84.2
     contract_governance: 14.4
     contract_quality: 52.5
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 56.3
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -413,13 +412,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/screenshots/serper-2026-06-20T193723.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/serper/serper-2026-06-20T193723.png
 security:
 - kind: authentication
   name: Serper Authentication
@@ -429,6 +429,16 @@ security:
   name: Serper Domain Security
   slug: serper-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: serper-local-business-lookup
+  slug: serper-local-business-lookup
+- name: serper-serp-monitoring
+  slug: serper-serp-monitoring
+- name: serper-visual-product-lookup
+  slug: serper-visual-product-lookup
+- name: serper-web-research
+  slug: serper-web-research
 slug: serper
 tags:
 - Search
@@ -444,7 +454,6 @@ tags:
 - Reviews
 - Lens
 - Web Scraping
-- SERP API
 - Web Search
 - Agents
 - Patents

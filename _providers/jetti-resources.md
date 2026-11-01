@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,17 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jetti-resources/refs/heads/main/security/jetti-resources-domain-security.yml
+  href: https://artifacts.apis.io/jetti-resources/security/jetti-resources-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jetti-resources-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jetti-resources/refs/heads/main/llms/jetti-resources-llms.txt
+  href: https://artifacts.apis.io/jetti-resources/llms/jetti-resources-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jetti-resources-llms.txt
@@ -136,10 +138,10 @@ overview: 'Jetti Resources is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Jetti Resources'' developer surface includes product news, support, and 14 more developer resources.'
-random_paper: 14
+random_paper: 16
 score:
   band: minimal
-  composite: 9.8
+  composite: 9.9
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -153,23 +155,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 9.8
+  previous_composite: 9.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jetti-resources/refs/heads/main/screenshots/jetti-resources-2026-10-11T105926.png
+screenshot: https://apis.io/screenshots/jetti-resources/jetti-resources-2026-10-11T105926.png
 security:
 - kind: domain-security
   name: Jetti Resources Domain Security

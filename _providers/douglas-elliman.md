@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/douglas-elliman/refs/heads/main/security/douglas-elliman-domain-security.yml
+  href: https://artifacts.apis.io/douglas-elliman/security/douglas-elliman-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/douglas-elliman-domain-security.yml
@@ -94,17 +96,17 @@ common:
   type: Contact
   url: https://www.elliman.com/offices
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/douglas-elliman/refs/heads/main/conformance/douglas-elliman-conformance.yml
+  href: https://artifacts.apis.io/douglas-elliman/conformance/douglas-elliman-conformance.yml
   title: ''
   type: Conformance
   url: conformance/douglas-elliman-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/douglas-elliman/refs/heads/main/lifecycle/douglas-elliman-lifecycle.yml
+  href: https://artifacts.apis.io/douglas-elliman/lifecycle/douglas-elliman-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/douglas-elliman-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/douglas-elliman/refs/heads/main/llms/douglas-elliman-llms.txt
+  href: https://artifacts.apis.io/douglas-elliman/llms/douglas-elliman-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/douglas-elliman-llms.txt
@@ -137,10 +139,10 @@ overview: 'Douglas Elliman is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Douglas Elliman''s developer surface includes engineering blog and 20 more developer resources.'
-random_paper: 16
+random_paper: 22
 score:
   band: emerging
-  composite: 11.7
+  composite: 12.1
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -148,14 +150,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 49.1
-    operational_transparency: 2.6
+    discoverability: 50.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -163,7 +165,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 11.6
+  previous_composite: 12.1
   provenance:
     conformance: first-party
   regulatory:
@@ -172,14 +174,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/douglas-elliman/refs/heads/main/screenshots/douglas-elliman-2026-08-07T164508.png
+screenshot: https://apis.io/screenshots/douglas-elliman/douglas-elliman-2026-08-07T164508.png
 security:
 - kind: domain-security
   name: Douglas Elliman Domain Security

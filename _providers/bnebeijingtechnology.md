@@ -14,31 +14,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bnebeijingtechnology/refs/heads/main/hosts/bnebeijingtechnology-hosts.yml
+  href: https://artifacts.apis.io/bnebeijingtechnology/hosts/bnebeijingtechnology-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bnebeijingtechnology-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bnebeijingtechnology/refs/heads/main/vendors/bnebeijingtechnology-vendors.yml
+  href: https://artifacts.apis.io/bnebeijingtechnology/vendors/bnebeijingtechnology-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bnebeijingtechnology-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bnebeijingtechnology/refs/heads/main/security/bnebeijingtechnology-domain-security.yml
+  href: https://artifacts.apis.io/bnebeijingtechnology/security/bnebeijingtechnology-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bnebeijingtechnology-domain-security.yml
@@ -91,8 +93,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

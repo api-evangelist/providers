@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The Web Summit attendee platform provides conference scheduling, attendee discovery, and networking capabilities through the Web Summit mobile app and web portal. Attendees can browse sessions, discov
@@ -48,22 +50,22 @@ apis:
 artifact_total: 22
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/web-summit/refs/heads/main/plans/web-summit-plans-pricing.yml
+  href: https://artifacts.apis.io/web-summit/plans/web-summit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/web-summit-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/web-summit/refs/heads/main/rate-limits/web-summit-rate-limits.yml
+  href: https://artifacts.apis.io/web-summit/rate-limits/web-summit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/web-summit-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/web-summit/refs/heads/main/finops/web-summit-finops.yml
+  href: https://artifacts.apis.io/web-summit/finops/web-summit-finops.yml
   title: ''
   type: FinOps
   url: finops/web-summit-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/web-summit/refs/heads/main/security/web-summit-domain-security.yml
+  href: https://artifacts.apis.io/web-summit/security/web-summit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/web-summit-domain-security.yml
@@ -146,7 +148,7 @@ finops:
 - has_sources: false
   method: generated
   name: Web Summit Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: web-summit-finops
   template: true
@@ -168,7 +170,7 @@ plans:
 - name: Web Summit Plans Pricing
   plan_count: 3
   slug: web-summit-plans-pricing
-random_paper: 0
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Web Summit Rate Limits
@@ -183,7 +185,7 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
@@ -191,21 +193,21 @@ score:
     developer_ergonomics: 16.7
     discoverability: 66.7
     operational_transparency: 13.2
-  previous_composite: 23.5
+  previous_composite: 22.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/web-summit/refs/heads/main/screenshots/web-summit-2026-06-20T201325.png
+screenshot: https://apis.io/screenshots/web-summit/web-summit-2026-06-20T201325.png
 security:
 - kind: domain-security
   name: Web Summit Domain Security

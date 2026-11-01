@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-17'
+  score: 18.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.sleeper.app/v1
@@ -76,11 +78,8 @@ apis:
   description: The Users API from Sleeper — 1 operation(s) for users.
   name: Sleeper Users API
   slug: sleeper-users-api
-artifact_total: 19
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sleeper Drafts API
   slug: open-sleeper-drafts-api
@@ -111,7 +110,7 @@ common:
   type: Website
   url: https://www.sleeper.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/security/sleeper-domain-security.yml
+  href: https://artifacts.apis.io/sleeper/security/sleeper-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sleeper-domain-security.yml
@@ -148,62 +147,62 @@ common:
   type: PrivacyPolicy
   url: https://sleeper.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/authentication/sleeper-authentication.yml
+  href: https://artifacts.apis.io/sleeper/authentication/sleeper-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sleeper-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/errors/sleeper-problem-types.yml
+  href: https://artifacts.apis.io/sleeper/errors/sleeper-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sleeper-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/conventions/sleeper-conventions.yml
+  href: https://artifacts.apis.io/sleeper/conventions/sleeper-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sleeper-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/data-model/sleeper-data-model.yml
+  href: https://artifacts.apis.io/sleeper/data-model/sleeper-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sleeper-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/mcp/sleeper-mcp.yml
+  href: https://artifacts.apis.io/sleeper/mcp/sleeper-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sleeper-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/llms/sleeper-llms.txt
+  href: https://artifacts.apis.io/sleeper/llms/sleeper-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sleeper-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/overlays/sleeper-openapi-overlay.yaml
+  href: https://artifacts.apis.io/sleeper/overlays/sleeper-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sleeper-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/conformance/sleeper-conformance.yml
+  href: https://artifacts.apis.io/sleeper/conformance/sleeper-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sleeper-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/lifecycle/sleeper-lifecycle.yml
+  href: https://artifacts.apis.io/sleeper/lifecycle/sleeper-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sleeper-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/well-known/sleeper-well-known.yml
+  href: https://artifacts.apis.io/sleeper/well-known/sleeper-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sleeper-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/packages/sleeper-packages.yml
+  href: https://artifacts.apis.io/sleeper/packages/sleeper-packages.yml
   title: ''
   type: Packages
   url: packages/sleeper-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sleeper/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -219,26 +218,26 @@ overview: 'Sleeper publishes 8 API contracts indexed on the [APIs.io](https://ap
 
 
   Sleeper''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 4
+random_paper: 8
 score:
   band: thin
-  composite: 28.6
+  composite: 27.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 12.3
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 28.5
+  previous_composite: 27.9
   provenance:
     conformance: derived
     contracts:
@@ -254,14 +253,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/screenshots/sleeper-2026-09-02T155833.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sleeper/sleeper-2026-09-02T155833.png
 security:
 - kind: authentication
   name: Sleeper Authentication
@@ -271,6 +270,14 @@ security:
   name: Sleeper Domain Security
   slug: sleeper-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Read a draft's picks and trends
+  slug: sleeper-draft-results
+- name: Get a league's teams and weekly matchups
+  slug: sleeper-league-standings
+- name: Find a user's leagues and drafts
+  slug: sleeper-user-leagues
 slug: sleeper
 tags:
 - Company

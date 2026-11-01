@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 17.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 42
   slug: aristamd-agentic-access
   summary_line: 42 operations · 21 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.aristamd.com
   baseurl_source: declared
@@ -104,11 +106,8 @@ apis:
   description: The Workup Checklists API from AristaMD — 3 operation(s) for workup checklists.
   name: AristaMD Workup Checklists API
   slug: aristamd-workup-checklists-api
-artifact_total: 30
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Arista MD Comments API
   slug: open-aristamd-comments-api
@@ -147,17 +146,17 @@ collections:
   slug: open-aristamd-workup-checklists-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/capabilities/aristamd-capability-edges.yml
+  href: https://artifacts.apis.io/aristamd/capabilities/aristamd-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/aristamd-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/mcp/aristamd-mcp.yml
+  href: https://artifacts.apis.io/aristamd/mcp/aristamd-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/aristamd-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/overlays/aristamd-api-overlay.yaml
+  href: https://artifacts.apis.io/aristamd/overlays/aristamd-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/aristamd-api-overlay.yaml
@@ -190,17 +189,17 @@ common:
   type: Compliance
   url: https://www.aristamd.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/security/aristamd-trust-center.yml
+  href: https://artifacts.apis.io/aristamd/security/aristamd-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/aristamd-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/security/aristamd-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aristamd/security/aristamd-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aristamd-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/security/aristamd-domain-security.yml
+  href: https://artifacts.apis.io/aristamd/security/aristamd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aristamd-domain-security.yml
@@ -217,52 +216,52 @@ common:
   type: Blog
   url: https://www.aristamd.com/thought-leadership/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/authentication/aristamd-authentication.yml
+  href: https://artifacts.apis.io/aristamd/authentication/aristamd-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aristamd-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/conformance/aristamd-conformance.yml
+  href: https://artifacts.apis.io/aristamd/conformance/aristamd-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aristamd-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/conventions/aristamd-conventions.yml
+  href: https://artifacts.apis.io/aristamd/conventions/aristamd-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aristamd-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/lifecycle/aristamd-lifecycle.yml
+  href: https://artifacts.apis.io/aristamd/lifecycle/aristamd-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aristamd-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/errors/aristamd-problem-types.yml
+  href: https://artifacts.apis.io/aristamd/errors/aristamd-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aristamd-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/data-model/aristamd-data-model.yml
+  href: https://artifacts.apis.io/aristamd/data-model/aristamd-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aristamd-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/packages/aristamd-packages.yml
+  href: https://artifacts.apis.io/aristamd/packages/aristamd-packages.yml
   title: ''
   type: Packages
   url: packages/aristamd-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/llms/aristamd-llms.txt
+  href: https://artifacts.apis.io/aristamd/llms/aristamd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aristamd-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aristamd/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/agentic-access/aristamd-agentic-access.yml
+  href: https://artifacts.apis.io/aristamd/agentic-access/aristamd-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aristamd-agentic-access.yml
@@ -278,7 +277,7 @@ overview: 'AristaMD publishes 12 API contracts indexed on the [APIs.io](https://
 
 
   AristaMD''s developer surface includes signup flow, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 17
+random_paper: 13
 score:
   band: thin
   composite: 34.8
@@ -293,10 +292,10 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 37.6
+    contract_quality: 36.3
     developer_ergonomics: 20.8
-    discoverability: 73.2
-    operational_transparency: 13.2
+    discoverability: 66.1
+    operational_transparency: 15.8
   previous_composite: 34.8
   provenance:
     agentic_access: derived
@@ -314,13 +313,14 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/screenshots/aristamd-2026-08-07T161715.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aristamd/aristamd-2026-08-07T161715.png
 security:
 - kind: authentication
   name: Aristamd Authentication
@@ -338,6 +338,14 @@ security:
   name: Aristamd Trust Center
   slug: aristamd-trust-center
   summary_line: SOC 2
+skill_count: 3
+skills:
+- name: Submit an eConsult to a specialist
+  slug: aristamd-submit-econsult
+- name: Sync patients into AristaMD from an EHR
+  slug: aristamd-sync-patients-from-ehr
+- name: Triage and work the eConsult queue as a specialist
+  slug: aristamd-triage-econsult-queue
 slug: aristamd
 tags:
 - Company

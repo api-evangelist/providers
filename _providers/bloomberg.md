@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -73,7 +75,7 @@ apis:
 - description: 'Bloomberg''s flagship subscription product — a desktop application delivering real-time market data, news, analytics, trading, messaging, and research to financial professionals globally. The Terminal '
   name: Bloomberg Terminal
   slug: bloomberg-terminal
-artifact_total: 78
+artifact_total: 80
 asyncapis:
 - description: Event surface of the Bloomberg Open API (BLPAPI) Subscription paradigm. Clients call Session.subscribe(SubscriptionList) over a BLPAPI SDK session (Desktop API localhost:8194 or SAPI/B-PIPE host); str
   name: Bloomberg BLPAPI Market Data Subscriptions
@@ -110,9 +112,6 @@ collections:
   name: Bloomberg BLPAPI Core Field Discovery VWAP API
   slug: postman-bloomberg-vwap-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Bloomberg BLPAPI Core Field Discovery API
   slug: open-bloomberg-field-discovery-api
 - collection_type: open
@@ -146,18 +145,23 @@ collections:
   name: Bloomberg BLPAPI Core
   slug: open-blpapi-core
 common:
+- group: other
+  href: https://artifacts.apis.io/bloomberg/capabilities/bloomberg-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bloomberg-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/plans/bloomberg-plans-pricing.yml
+  href: https://artifacts.apis.io/bloomberg/plans/bloomberg-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bloomberg-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/rate-limits/bloomberg-rate-limits.yml
+  href: https://artifacts.apis.io/bloomberg/rate-limits/bloomberg-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bloomberg-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/finops/bloomberg-finops.yml
+  href: https://artifacts.apis.io/bloomberg/finops/bloomberg-finops.yml
   title: ''
   type: FinOps
   url: finops/bloomberg-finops.yml
@@ -170,17 +174,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/bloomberg/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/agentic-access/bloomberg-agentic-access.yml
+  href: https://artifacts.apis.io/bloomberg/agentic-access/bloomberg-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bloomberg-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/security/bloomberg-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bloomberg/security/bloomberg-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bloomberg-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/security/bloomberg-domain-security.yml
+  href: https://artifacts.apis.io/bloomberg/security/bloomberg-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bloomberg-domain-security.yml
@@ -225,12 +229,12 @@ common:
   type: Support
   url: https://www.bloomberg.com/professional/support/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/rules/bloomberg-spectral-rules.yml
+  href: https://artifacts.apis.io/bloomberg/rules/bloomberg-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/bloomberg-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/vocabulary/bloomberg-vocabulary.yaml
+  href: https://artifacts.apis.io/bloomberg/vocabulary/bloomberg-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/bloomberg-vocabulary.yaml
@@ -247,77 +251,77 @@ common:
   type: Security
   url: https://www.bloomberg.com/responsible-disclosure
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/packages/bloomberg-packages.yml
+  href: https://artifacts.apis.io/bloomberg/packages/bloomberg-packages.yml
   title: ''
   type: Packages
   url: packages/bloomberg-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/well-known/bloomberg-well-known.yml
+  href: https://artifacts.apis.io/bloomberg/well-known/bloomberg-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bloomberg-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/well-known/bloomberg-security.txt
+  href: https://artifacts.apis.io/bloomberg/well-known/bloomberg-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bloomberg-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/mcp/bloomberg-mcp.yml
+  href: https://artifacts.apis.io/bloomberg/mcp/bloomberg-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bloomberg-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/llms/bloomberg-llms.txt
+  href: https://artifacts.apis.io/bloomberg/llms/bloomberg-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bloomberg-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/conformance/bloomberg-conformance.yml
+  href: https://artifacts.apis.io/bloomberg/conformance/bloomberg-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bloomberg-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/errors/bloomberg-problem-types.yml
+  href: https://artifacts.apis.io/bloomberg/errors/bloomberg-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bloomberg-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/lifecycle/bloomberg-lifecycle.yml
+  href: https://artifacts.apis.io/bloomberg/lifecycle/bloomberg-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bloomberg-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/scopes/bloomberg-scopes.yml
+  href: https://artifacts.apis.io/bloomberg/scopes/bloomberg-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bloomberg-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/authentication/bloomberg-authentication.yml
+  href: https://artifacts.apis.io/bloomberg/authentication/bloomberg-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bloomberg-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/conventions/bloomberg-conventions.yml
+  href: https://artifacts.apis.io/bloomberg/conventions/bloomberg-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bloomberg-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/changelog/bloomberg-changelog.yml
+  href: https://artifacts.apis.io/bloomberg/changelog/bloomberg-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bloomberg-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/data-model/bloomberg-data-model.yml
+  href: https://artifacts.apis.io/bloomberg/data-model/bloomberg-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bloomberg-data-model.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/asyncapi/bloomberg-market-data-asyncapi.yml
+  href: https://artifacts.apis.io/bloomberg/asyncapi/bloomberg-market-data-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/bloomberg-market-data-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bloomberg/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -581,12 +585,12 @@ overview: 'Bloomberg publishes 9 API contracts indexed on the [APIs.io](https://
   The Bloomberg catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Bloomberg''s developer surface includes developer portal, documentation, getting-started guide, support, API reference, engineering blog, authentication, and 67 more developer resources.'
+  Bloomberg''s developer surface includes developer portal, documentation, getting-started guide, support, API reference, engineering blog, authentication, and 68 more developer resources.'
 plans:
 - name: Bloomberg Plans Pricing
   plan_count: 2
   slug: bloomberg-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Bloomberg Rate Limits
@@ -622,23 +626,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
   band: strong
-  composite: 54.8
+  composite: 58.5
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 34
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 45.5
     contract_quality: 61.1
     developer_ergonomics: 67.3
     discoverability: 57.1
-    operational_transparency: 36.8
-  previous_composite: 56.3
+    operational_transparency: 39.5
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -655,13 +659,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bloomberg/bloomberg-2026-06-20T173403.png
 security:
 - kind: authentication
   name: Bloomberg Authentication
@@ -675,6 +680,14 @@ security:
   name: Bloomberg Vulnerability Disclosure
   slug: bloomberg-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Pull historical and intraday time series
+  slug: bloomberg-historical-analysis
+- name: Stream real-time market data
+  slug: bloomberg-market-data-stream
+- name: Look up reference data for securities
+  slug: bloomberg-reference-data-snapshot
 slug: bloomberg
 tags:
 - Analytics

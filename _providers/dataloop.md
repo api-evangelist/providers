@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Dataloop (Dell Data Orchestration Engine) platform REST API. Every part of the platform — projects, datasets, items, annotations, recipes and ontologies, tasks and assignments, packages, services,
@@ -47,7 +49,7 @@ asyncapis:
   slug: dataloop-platform-events
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/security/dataloop-domain-security.yml
+  href: https://artifacts.apis.io/dataloop/security/dataloop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dataloop-domain-security.yml
@@ -56,7 +58,7 @@ common:
   type: Security
   url: https://dataloop.ai/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/security/dataloop-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dataloop/security/dataloop-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dataloop-vulnerability-disclosure.yml
@@ -109,7 +111,7 @@ common:
   type: Compliance
   url: https://docs.dataloop.ai/docs/compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/security/dataloop-trust-center.yml
+  href: https://artifacts.apis.io/dataloop/security/dataloop-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dataloop-trust-center.yml
@@ -122,72 +124,72 @@ common:
   type: Deprecation
   url: https://docs.dataloop.ai/docs/deprecations
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/changelog/dataloop-changelog.yml
+  href: https://artifacts.apis.io/dataloop/changelog/dataloop-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dataloop-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/lifecycle/dataloop-lifecycle.yml
+  href: https://artifacts.apis.io/dataloop/lifecycle/dataloop-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dataloop-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/authentication/dataloop-authentication.yml
+  href: https://artifacts.apis.io/dataloop/authentication/dataloop-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dataloop-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/conventions/dataloop-conventions.yml
+  href: https://artifacts.apis.io/dataloop/conventions/dataloop-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dataloop-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/errors/dataloop-problem-types.yml
+  href: https://artifacts.apis.io/dataloop/errors/dataloop-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dataloop-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/conformance/dataloop-conformance.yml
+  href: https://artifacts.apis.io/dataloop/conformance/dataloop-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dataloop-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/packages/dataloop-packages.yml
+  href: https://artifacts.apis.io/dataloop/packages/dataloop-packages.yml
   title: ''
   type: Packages
   url: packages/dataloop-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/packages/dataloop-packages.yml
+  href: https://artifacts.apis.io/dataloop/packages/dataloop-packages.yml
   title: ''
   type: SDKs
   url: packages/dataloop-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/cli/dataloop-cli.yml
+  href: https://artifacts.apis.io/dataloop/cli/dataloop-cli.yml
   title: ''
   type: CLI
   url: cli/dataloop-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/components/dataloop-components.yml
+  href: https://artifacts.apis.io/dataloop/components/dataloop-components.yml
   title: ''
   type: Components
   url: components/dataloop-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/data-model/dataloop-data-model.yml
+  href: https://artifacts.apis.io/dataloop/data-model/dataloop-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dataloop-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/mcp/dataloop-mcp.yml
+  href: https://artifacts.apis.io/dataloop/mcp/dataloop-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dataloop-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/llms/dataloop-llms.txt
+  href: https://artifacts.apis.io/dataloop/llms/dataloop-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dataloop-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/asyncapi/dataloop-platform-events.yml
+  href: https://artifacts.apis.io/dataloop/asyncapi/dataloop-platform-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/dataloop-platform-events.yml
@@ -210,26 +212,26 @@ overview: 'DataLoop is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   DataLoop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 25 more developer resources.'
-random_paper: 16
+random_paper: 12
 score:
   band: developing
-  composite: 50.8
+  composite: 53.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 71.7
-    operational_transparency: 60.5
-  previous_composite: 51.2
+    discoverability: 65.0
+    operational_transparency: 63.2
+  previous_composite: 53.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -243,14 +245,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/screenshots/dataloop-2026-08-07T164125.png
+screenshot: https://apis.io/screenshots/dataloop/dataloop-2026-08-07T164125.png
 security:
 - kind: authentication
   name: Dataloop Authentication

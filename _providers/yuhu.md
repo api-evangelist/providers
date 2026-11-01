@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'REST API (v1) for integration partners to synchronize property-management data with Yuhu: companies, sites/projects, buildings, unit types, units, site staff, roles and permissions, leases, tenants, s'
@@ -46,7 +48,7 @@ common:
   type: Website
   url: https://yuhu.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yuhu/refs/heads/main/security/yuhu-domain-security.yml
+  href: https://artifacts.apis.io/yuhu/security/yuhu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yuhu-domain-security.yml
@@ -95,52 +97,52 @@ common:
   type: Compliance
   url: https://happy.co/press/happyco-announces-soc-2-type-ii-security-certification
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yuhu/refs/heads/main/authentication/yuhu-authentication.yml
+  href: https://artifacts.apis.io/yuhu/authentication/yuhu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/yuhu-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yuhu/refs/heads/main/rate-limits/yuhu-rate-limits.yml
+  href: https://artifacts.apis.io/yuhu/rate-limits/yuhu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/yuhu-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yuhu/refs/heads/main/conventions/yuhu-conventions.yml
+  href: https://artifacts.apis.io/yuhu/conventions/yuhu-conventions.yml
   title: ''
   type: Conventions
   url: conventions/yuhu-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yuhu/refs/heads/main/conventions/yuhu-conventions.yml
+  href: https://artifacts.apis.io/yuhu/conventions/yuhu-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/yuhu-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yuhu/refs/heads/main/lifecycle/yuhu-lifecycle.yml
+  href: https://artifacts.apis.io/yuhu/lifecycle/yuhu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yuhu-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yuhu/refs/heads/main/conformance/yuhu-conformance.yml
+  href: https://artifacts.apis.io/yuhu/conformance/yuhu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/yuhu-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yuhu/refs/heads/main/well-known/yuhu-well-known.yml
+  href: https://artifacts.apis.io/yuhu/well-known/yuhu-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/yuhu-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yuhu/refs/heads/main/mcp/yuhu-mcp.yml
+  href: https://artifacts.apis.io/yuhu/mcp/yuhu-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/yuhu-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yuhu/refs/heads/main/data-model/yuhu-data-model.yml
+  href: https://artifacts.apis.io/yuhu/data-model/yuhu-data-model.yml
   title: ''
   type: DataModel
   url: data-model/yuhu-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yuhu/refs/heads/main/llms/yuhu-llms.txt
+  href: https://artifacts.apis.io/yuhu/llms/yuhu-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/yuhu-llms.txt
@@ -156,14 +158,14 @@ overview: 'Yuhu is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Yuhu''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 19
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Yuhu Rate Limits
   slug: yuhu-rate-limits
 score:
   band: thin
-  composite: 29.0
+  composite: 33.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 49.0
@@ -173,13 +175,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 31.6
-  previous_composite: 29.0
+  previous_composite: 33.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -188,15 +190,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 23.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 26.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/yuhu/refs/heads/main/screenshots/yuhu-2026-09-02T171359.png
+screenshot: https://apis.io/screenshots/yuhu/yuhu-2026-09-02T171359.png
 security:
 - kind: authentication
   name: Yuhu Authentication

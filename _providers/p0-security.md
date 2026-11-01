@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-17'
+  score: 24.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -57,9 +59,6 @@ apis:
 artifact_total: 10
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: P0 Just-in-Time Access Command API
   slug: open-p0-security-command-api
 - collection_type: open
@@ -71,7 +70,7 @@ common:
   type: BlogRSS
   url: https://p0.dev/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/capabilities/p0-security-capability-edges.yml
+  href: https://artifacts.apis.io/p0-security/capabilities/p0-security-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/p0-security-capability-edges.yml
@@ -80,12 +79,12 @@ common:
   type: Website
   url: https://p0.dev
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/security/p0-security-domain-security.yml
+  href: https://artifacts.apis.io/p0-security/security/p0-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/p0-security-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/agentic-access/p0-security-agentic-access.yml
+  href: https://artifacts.apis.io/p0-security/agentic-access/p0-security-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/p0-security-agentic-access.yml
@@ -138,67 +137,67 @@ common:
   type: TrustCenter
   url: https://p0.dev/trust-center/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/security/p0-security-trust-center.yml
+  href: https://artifacts.apis.io/p0-security/security/p0-security-trust-center.yml
   title: ''
   type: Compliance
   url: security/p0-security-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/conformance/p0-security-conformance.yml
+  href: https://artifacts.apis.io/p0-security/conformance/p0-security-conformance.yml
   title: ''
   type: Conformance
   url: conformance/p0-security-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/packages/p0-security-packages.yml
+  href: https://artifacts.apis.io/p0-security/packages/p0-security-packages.yml
   title: ''
   type: Packages
   url: packages/p0-security-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/cli/p0-security-cli.yml
+  href: https://artifacts.apis.io/p0-security/cli/p0-security-cli.yml
   title: ''
   type: CLI
   url: cli/p0-security-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/mcp/p0-security-mcp.yml
+  href: https://artifacts.apis.io/p0-security/mcp/p0-security-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/p0-security-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/llms/p0-security-llms.txt
+  href: https://artifacts.apis.io/p0-security/llms/p0-security-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/p0-security-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/changelog/p0-security-changelog.yml
+  href: https://artifacts.apis.io/p0-security/changelog/p0-security-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/p0-security-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/lifecycle/p0-security-lifecycle.yml
+  href: https://artifacts.apis.io/p0-security/lifecycle/p0-security-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/p0-security-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/conventions/p0-security-conventions.yml
+  href: https://artifacts.apis.io/p0-security/conventions/p0-security-conventions.yml
   title: ''
   type: Conventions
   url: conventions/p0-security-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/errors/p0-security-problem-types.yml
+  href: https://artifacts.apis.io/p0-security/errors/p0-security-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/p0-security-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/data-model/p0-security-data-model.yml
+  href: https://artifacts.apis.io/p0-security/data-model/p0-security-data-model.yml
   title: ''
   type: DataModel
   url: data-model/p0-security-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/overlays/p0-security-jit-overlay.yaml
+  href: https://artifacts.apis.io/p0-security/overlays/p0-security-jit-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/p0-security-jit-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/p0-security/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -219,26 +218,26 @@ overview: 'P0 Security publishes 2 API contracts indexed on the [APIs.io](https:
 
 
   P0 Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 23 more developer resources.'
-random_paper: 15
+random_paper: 13
 score:
   band: developing
-  composite: 42.6
+  composite: 49.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 50.2
-    developer_ergonomics: 61.3
-    discoverability: 71.7
-    operational_transparency: 18.4
-  previous_composite: 42.5
+    developer_ergonomics: 66.1
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -254,14 +253,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/screenshots/p0-security-2026-08-07T191227.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/p0-security/p0-security-2026-08-07T191227.png
 security:
 - kind: authentication
   name: P0 Security Authentication
@@ -275,6 +275,10 @@ security:
   name: P0 Security Trust Center
   slug: p0-security-trust-center
   summary_line: SOC 2 Type II
+skill_count: 1
+skills:
+- name: Request and approve just-in-time access with P0
+  slug: p0-security-request-and-approve-access
 slug: p0-security
 tags:
 - Company

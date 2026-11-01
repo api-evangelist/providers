@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lanzajet/refs/heads/main/security/lanzajet-domain-security.yml
+  href: https://artifacts.apis.io/lanzajet/security/lanzajet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lanzajet-domain-security.yml
@@ -103,12 +105,12 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/lanzajet_stock/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lanzajet/refs/heads/main/well-known/lanzajet-well-known.yml
+  href: https://artifacts.apis.io/lanzajet/well-known/lanzajet-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/lanzajet-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lanzajet/refs/heads/main/llms/lanzajet-llms.txt
+  href: https://artifacts.apis.io/lanzajet/llms/lanzajet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lanzajet-llms.txt
@@ -125,10 +127,10 @@ overview: 'LanzaJet is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   LanzaJet''s developer surface includes product news and 17 more developer resources.'
-random_paper: 21
+random_paper: 17
 score:
   band: minimal
-  composite: 9.6
+  composite: 9.0
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -142,23 +144,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 56.3
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 9.6
+  previous_composite: 9.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lanzajet/refs/heads/main/screenshots/lanzajet-2026-08-07T171459.png
+screenshot: https://apis.io/screenshots/lanzajet/lanzajet-2026-08-07T171459.png
 security:
 - kind: domain-security
   name: Lanzajet Domain Security

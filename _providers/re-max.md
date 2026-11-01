@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - baseURL: https://api.datahub.remax.eu/external
@@ -50,14 +52,14 @@ apis:
 - description: The RE/MAX Europe marketing site at remax.eu runs WordPress and exposes the WordPress REST API anonymously at /wp-json/. The route descriptor published there is the only self-describing, machine-reada
   name: RE/MAX Europe Site API (WordPress REST)
   slug: re-max-eu-site-api
-artifact_total: 6
+artifact_total: 8
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://news.remax.com/feed
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/security/re-max-domain-security.yml
+  href: https://artifacts.apis.io/re-max/security/re-max-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/re-max-domain-security.yml
@@ -74,72 +76,72 @@ common:
   type: PrivacyPolicy
   url: https://www.remax.eu/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/authentication/re-max-authentication.yml
+  href: https://artifacts.apis.io/re-max/authentication/re-max-authentication.yml
   title: ''
   type: Authentication
   url: authentication/re-max-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/conventions/re-max-conventions.yml
+  href: https://artifacts.apis.io/re-max/conventions/re-max-conventions.yml
   title: ''
   type: Conventions
   url: conventions/re-max-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/errors/re-max-error-codes.yml
+  href: https://artifacts.apis.io/re-max/errors/re-max-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/re-max-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/lifecycle/re-max-lifecycle.yml
+  href: https://artifacts.apis.io/re-max/lifecycle/re-max-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/re-max-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/conformance/re-max-conformance.yml
+  href: https://artifacts.apis.io/re-max/conformance/re-max-conformance.yml
   title: ''
   type: Conformance
   url: conformance/re-max-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/data-model/re-max-data-model.yml
+  href: https://artifacts.apis.io/re-max/data-model/re-max-data-model.yml
   title: ''
   type: DataModel
   url: data-model/re-max-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/packages/re-max-packages.yml
+  href: https://artifacts.apis.io/re-max/packages/re-max-packages.yml
   title: ''
   type: Packages
   url: packages/re-max-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/sandbox/re-max-sandbox.yml
+  href: https://artifacts.apis.io/re-max/sandbox/re-max-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/re-max-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/mcp/re-max-mcp.yml
+  href: https://artifacts.apis.io/re-max/mcp/re-max-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/re-max-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/well-known/re-max-well-known.yml
+  href: https://artifacts.apis.io/re-max/well-known/re-max-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/re-max-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/well-known/re-max-eu-wp-json.json
+  href: https://artifacts.apis.io/re-max/well-known/re-max-eu-wp-json.json
   title: ''
   type: APICatalog
   url: well-known/re-max-eu-wp-json.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/llms/re-max-llms.txt
+  href: https://artifacts.apis.io/re-max/llms/re-max-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/re-max-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/llms/re-max-eu-site-llms.txt
+  href: https://artifacts.apis.io/re-max/llms/re-max-eu-site-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/re-max-eu-site-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/re-max/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -189,12 +191,12 @@ overview: 'RE/MAX is listed with 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   RE/MAX''s developer surface includes authentication, sandbox, engineering blog, documentation, and 22 more developer resources.'
-random_paper: 14
+random_paper: 10
 score:
   band: emerging
-  composite: 18.8
+  composite: 20.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -202,11 +204,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 47.0
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -215,7 +217,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 18.8
+  previous_composite: 20.5
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -225,15 +227,15 @@ score:
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 19.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/screenshots/re-max-2026-09-02T152939.png
+screenshot: https://apis.io/screenshots/re-max/re-max-2026-09-02T152939.png
 security:
 - kind: authentication
   name: Re Max Authentication
@@ -243,6 +245,12 @@ security:
   name: Re Max Domain Security
   slug: re-max-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: RE/MAX Europe agent lifecycle (person, title, team)
+  slug: re-max-datahub-agent-lifecycle
+- name: Publish a RE/MAX Europe listing with images
+  slug: re-max-publish-listing
 slug: re-max
 tags:
 - Real Estate

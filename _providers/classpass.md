@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'ClassPass''s named partner integration API for studios and their scheduling/booking software. Per ClassPass partner-marketing pages and integration-partner help centers (e.g. studio scheduling vendors '
@@ -53,7 +55,7 @@ common:
   type: BlogRSS
   url: https://classpass.com/blog/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/classpass/refs/heads/main/security/classpass-domain-security.yml
+  href: https://artifacts.apis.io/classpass/security/classpass-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/classpass-domain-security.yml
@@ -78,7 +80,7 @@ common:
   type: BookingIntegrations
   url: https://classpass.com/partners/classpass-booking-integrations
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/classpass/refs/heads/main/plans/classpass-plans-pricing.yml
+  href: https://artifacts.apis.io/classpass/plans/classpass-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/classpass-plans-pricing.yml
@@ -98,7 +100,7 @@ plans:
 - name: Classpass Plans Pricing
   plan_count: 2
   slug: classpass-plans-pricing
-random_paper: 5
+random_paper: 13
 score:
   band: emerging
   composite: 12.1
@@ -109,7 +111,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -117,21 +119,21 @@ score:
     developer_ergonomics: 33.3
     discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 14.2
+  previous_composite: 12.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/classpass/refs/heads/main/screenshots/classpass-2026-07-25T205520.png
+screenshot: https://apis.io/screenshots/classpass/classpass-2026-07-25T205520.png
 security:
 - kind: domain-security
   name: Classpass Domain Security

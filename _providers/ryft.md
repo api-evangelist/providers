@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.6
-  scored_at: '2026-10-17'
+  score: 37.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://ingest.ryft.io
@@ -44,9 +45,6 @@ apis:
   slug: ryft-ingest-api
 artifact_total: 6
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ryft Ingest API
   slug: open-ryft-ingest-api
@@ -60,7 +58,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/cyera/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/security/ryft-domain-security.yml
+  href: https://artifacts.apis.io/ryft/security/ryft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ryft-domain-security.yml
@@ -105,37 +103,37 @@ common:
   type: SignUp
   url: https://app.ryft.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/authentication/ryft-authentication.yml
+  href: https://artifacts.apis.io/ryft/authentication/ryft-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ryft-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/mcp/ryft-mcp.yml
+  href: https://artifacts.apis.io/ryft/mcp/ryft-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ryft-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ryft/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/llms/ryft-llms.txt
+  href: https://artifacts.apis.io/ryft/llms/ryft-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ryft-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/well-known/ryft-well-known.yml
+  href: https://artifacts.apis.io/ryft/well-known/ryft-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ryft-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/conventions/ryft-conventions.yml
+  href: https://artifacts.apis.io/ryft/conventions/ryft-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ryft-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/conformance/ryft-conformance.yml
+  href: https://artifacts.apis.io/ryft/conformance/ryft-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ryft-conformance.yml
@@ -144,7 +142,7 @@ common:
   type: Compliance
   url: https://docs.ryft.io/administration/security-and-privacy
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/overlays/ryft-ingest-overlay.yaml
+  href: https://artifacts.apis.io/ryft/overlays/ryft-ingest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ryft-ingest-overlay.yaml
@@ -164,12 +162,12 @@ overview: 'Ryft publishes 1 API contract indexed on the [APIs.io](https://apis.i
 
 
   Ryft''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 15 more developer resources.'
-random_paper: 13
+random_paper: 21
 score:
   band: developing
-  composite: 42.5
+  composite: 43.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -177,13 +175,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 51.4
     developer_ergonomics: 58.9
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 42.5
+  previous_composite: 43.6
   provenance:
     conformance: first-party
     contracts:
@@ -205,13 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/screenshots/ryft-2026-08-17T081702.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ryft/ryft-2026-08-17T081702.png
 security:
 - kind: authentication
   name: Ryft Authentication
@@ -221,6 +220,10 @@ security:
   name: Ryft Domain Security
   slug: ryft-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 1
+skills:
+- name: Push query data to Ryft
+  slug: ryft-push-query-data
 slug: ryft
 tags:
 - Company

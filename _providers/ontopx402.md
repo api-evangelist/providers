@@ -25,15 +25,17 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 36.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://ontopx402.com
   baseurl_source: spec
@@ -45,15 +47,15 @@ apis:
   description: The leaderboard API from OnTopX402 — 2 operation(s) for leaderboard.
   name: OnTopX402 Leaderboard API
   slug: ontopx402-leaderboard-api
-artifact_total: 7
+artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ontopx402/refs/heads/main/security/ontopx402-domain-security.yml
+  href: https://artifacts.apis.io/ontopx402/security/ontopx402-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ontopx402-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ontopx402/refs/heads/main/llms/ontopx402-llms.txt
+  href: https://artifacts.apis.io/ontopx402/llms/ontopx402-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ontopx402-llms.txt
@@ -62,57 +64,57 @@ common:
   type: Website
   url: https://ontopx402.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ontopx402/refs/heads/main/finops/ontopx402-x402-challenge.json
+  href: https://artifacts.apis.io/ontopx402/finops/ontopx402-x402-challenge.json
   title: ''
   type: FinOps
   url: finops/ontopx402-x402-challenge.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ontopx402/refs/heads/main/authentication/ontopx402-authentication.yml
+  href: https://artifacts.apis.io/ontopx402/authentication/ontopx402-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ontopx402-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontopx402/refs/heads/main/conventions/ontopx402-conventions.yml
+  href: https://artifacts.apis.io/ontopx402/conventions/ontopx402-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ontopx402-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontopx402/refs/heads/main/conventions/ontopx402-conventions.yml
+  href: https://artifacts.apis.io/ontopx402/conventions/ontopx402-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ontopx402-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontopx402/refs/heads/main/errors/ontopx402-problem-types.yml
+  href: https://artifacts.apis.io/ontopx402/errors/ontopx402-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ontopx402-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontopx402/refs/heads/main/conformance/ontopx402-conformance.yml
+  href: https://artifacts.apis.io/ontopx402/conformance/ontopx402-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ontopx402-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontopx402/refs/heads/main/data-model/ontopx402-data-model.yml
+  href: https://artifacts.apis.io/ontopx402/data-model/ontopx402-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ontopx402-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ontopx402/refs/heads/main/plans/ontopx402-plans-pricing.yml
+  href: https://artifacts.apis.io/ontopx402/plans/ontopx402-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ontopx402-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ontopx402/refs/heads/main/rate-limits/ontopx402-rate-limits.yml
+  href: https://artifacts.apis.io/ontopx402/rate-limits/ontopx402-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ontopx402-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ontopx402/refs/heads/main/lifecycle/ontopx402-lifecycle.yml
+  href: https://artifacts.apis.io/ontopx402/lifecycle/ontopx402-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ontopx402-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ontopx402/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ontopx402/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -139,30 +141,30 @@ plans:
 - name: Ontopx402 Plans Pricing
   plan_count: 1
   slug: ontopx402-plans-pricing
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Ontopx402 Rate Limits
   slug: ontopx402-rate-limits
 score:
   band: thin
-  composite: 31.5
+  composite: 31.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 53.2
     developer_ergonomics: 30.4
-    discoverability: 66.1
+    discoverability: 53.6
     operational_transparency: 0.0
-  previous_composite: 30.9
+  previous_composite: 31.5
   provenance:
     conformance: derived
     contracts:
@@ -178,13 +180,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ontopx402/refs/heads/main/screenshots/ontopx402-2026-09-02T150847.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ontopx402/ontopx402-2026-09-02T150847.png
 security:
 - kind: authentication
   name: Ontopx402 Authentication
@@ -194,6 +197,12 @@ security:
   name: Ontopx402 Domain Security
   slug: ontopx402-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: ontopx402-bid-for-rank
+  slug: ontopx402-bid-for-rank
+- name: ontopx402-read-the-board
+  slug: ontopx402-read-the-board
 slug: ontopx402
 tags:
 - x402

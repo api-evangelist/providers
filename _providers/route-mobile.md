@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 37.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -214,7 +216,7 @@ apis:
   description: Configure event webhooks for email delivery events
   name: Route Mobile Webhooks API
   slug: route-mobile-webhooks-api
-artifact_total: 44
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Route Mobile Webhooks
@@ -245,7 +247,7 @@ common:
   type: BlogRSS
   url: https://routemobile.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/capabilities/route-mobile-capability-edges.yml
+  href: https://artifacts.apis.io/route-mobile/capabilities/route-mobile-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/route-mobile-capability-edges.yml
@@ -254,47 +256,47 @@ common:
   type: IssueTracker
   url: https://github.com/routemobile/WhatsApp-Business-API/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/agentic-access/route-mobile-agentic-access.yml
+  href: https://artifacts.apis.io/route-mobile/agentic-access/route-mobile-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/route-mobile-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/security/route-mobile-domain-security.yml
+  href: https://artifacts.apis.io/route-mobile/security/route-mobile-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/route-mobile-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/authentication/route-mobile-authentication.yml
+  href: https://artifacts.apis.io/route-mobile/authentication/route-mobile-authentication.yml
   title: ''
   type: Authentication
   url: authentication/route-mobile-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/conventions/route-mobile-conventions.yml
+  href: https://artifacts.apis.io/route-mobile/conventions/route-mobile-conventions.yml
   title: ''
   type: Conventions
   url: conventions/route-mobile-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/rate-limits/route-mobile-rate-limits.yml
+  href: https://artifacts.apis.io/route-mobile/rate-limits/route-mobile-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/route-mobile-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/errors/route-mobile-error-codes.yml
+  href: https://artifacts.apis.io/route-mobile/errors/route-mobile-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/route-mobile-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/errors/route-mobile-problem-types.yml
+  href: https://artifacts.apis.io/route-mobile/errors/route-mobile-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/route-mobile-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/lifecycle/route-mobile-lifecycle.yml
+  href: https://artifacts.apis.io/route-mobile/lifecycle/route-mobile-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/route-mobile-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/conformance/route-mobile-conformance.yml
+  href: https://artifacts.apis.io/route-mobile/conformance/route-mobile-conformance.yml
   title: ''
   type: Conformance
   url: conformance/route-mobile-conformance.yml
@@ -303,62 +305,62 @@ common:
   type: Compliance
   url: https://routemobile.com/company-profile/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/asyncapi/route-mobile-webhooks.yml
+  href: https://artifacts.apis.io/route-mobile/asyncapi/route-mobile-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/route-mobile-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/route-mobile/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/mcp/route-mobile-mcp.yml
+  href: https://artifacts.apis.io/route-mobile/mcp/route-mobile-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/route-mobile-mcp.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/sandbox/route-mobile-sandbox.yml
+  href: https://artifacts.apis.io/route-mobile/sandbox/route-mobile-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/route-mobile-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/data-model/route-mobile-data-model.yml
+  href: https://artifacts.apis.io/route-mobile/data-model/route-mobile-data-model.yml
   title: ''
   type: DataModel
   url: data-model/route-mobile-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/packages/route-mobile-packages.yml
+  href: https://artifacts.apis.io/route-mobile/packages/route-mobile-packages.yml
   title: ''
   type: Packages
   url: packages/route-mobile-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/llms/route-mobile-llms.txt
+  href: https://artifacts.apis.io/route-mobile/llms/route-mobile-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/route-mobile-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/overlays/route-mobile-sms-overlay.yaml
+  href: https://artifacts.apis.io/route-mobile/overlays/route-mobile-sms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/route-mobile-sms-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/overlays/route-mobile-whatsapp-business-overlay.yaml
+  href: https://artifacts.apis.io/route-mobile/overlays/route-mobile-whatsapp-business-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/route-mobile-whatsapp-business-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/overlays/route-mobile-rcs-overlay.yaml
+  href: https://artifacts.apis.io/route-mobile/overlays/route-mobile-rcs-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/route-mobile-rcs-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/overlays/route-mobile-viber-overlay.yaml
+  href: https://artifacts.apis.io/route-mobile/overlays/route-mobile-viber-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/route-mobile-viber-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/overlays/route-mobile-sendclean-email-overlay.yaml
+  href: https://artifacts.apis.io/route-mobile/overlays/route-mobile-sendclean-email-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/route-mobile-sendclean-email-overlay.yaml
@@ -435,14 +437,14 @@ overview: 'Route Mobile publishes 34 API contracts indexed on the [APIs.io](http
 
 
   Route Mobile''s developer surface includes engineering blog, authentication, sandbox, getting-started guide, support, documentation, signup flow, and 33 more developer resources.'
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 6
   name: Route Mobile Rate Limits
   slug: route-mobile-rate-limits
 score:
-  band: developing
-  composite: 51.6
+  band: strong
+  composite: 55.4
   coverage:
     artifact_dirs: 23
     catalog_earned: 52.0
@@ -454,10 +456,10 @@ score:
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 59.8
-    developer_ergonomics: 56.5
+    contract_quality: 59.6
+    developer_ergonomics: 70.8
     discoverability: 78.6
-    operational_transparency: 42.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -465,7 +467,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 51.6
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -486,13 +488,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/screenshots/route-mobile-2026-08-17T081637.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/route-mobile/route-mobile-2026-08-17T081637.png
 security:
 - kind: authentication
   name: Route Mobile Authentication
@@ -502,6 +505,18 @@ security:
   name: Route Mobile Domain Security
   slug: route-mobile-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Launch an RCS rich message campaign with Route Mobile
+  slug: route-mobile-rcs-rich-messaging
+- name: Send SMS and run an OTP verification with Route Mobile
+  slug: route-mobile-send-sms-and-verify-otp
+- name: Send transactional email and wire event webhooks with SendClean
+  slug: route-mobile-sendclean-transactional-email
+- name: Run a Viber Business Messages campaign and pull reports with Route Mobile
+  slug: route-mobile-viber-campaign-and-reporting
+- name: Send a WhatsApp template or session message with Route Mobile
+  slug: route-mobile-whatsapp-template-messaging
 slug: route-mobile
 tags:
 - Telecommunications

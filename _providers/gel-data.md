@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/heads/main/plans/gel-data-plans-pricing.yml
+  href: https://artifacts.apis.io/gel-data/plans/gel-data-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gel-data-plans-pricing.yml
@@ -107,52 +109,52 @@ common:
   type: Webhooks
   url: https://docs.geldata.com/reference/auth/webhooks
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/heads/main/packages/gel-data-packages.yml
+  href: https://artifacts.apis.io/gel-data/packages/gel-data-packages.yml
   title: ''
   type: Packages
   url: packages/gel-data-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/heads/main/packages/gel-data-packages.yml
+  href: https://artifacts.apis.io/gel-data/packages/gel-data-packages.yml
   title: ''
   type: SDKs
   url: packages/gel-data-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/heads/main/mcp/gel-data-mcp.yml
+  href: https://artifacts.apis.io/gel-data/mcp/gel-data-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/gel-data-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/heads/main/cli/gel-data-cli.yml
+  href: https://artifacts.apis.io/gel-data/cli/gel-data-cli.yml
   title: ''
   type: CLI
   url: cli/gel-data-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/heads/main/authentication/gel-data-authentication.yml
+  href: https://artifacts.apis.io/gel-data/authentication/gel-data-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gel-data-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/heads/main/conformance/gel-data-conformance.yml
+  href: https://artifacts.apis.io/gel-data/conformance/gel-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gel-data-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/heads/main/lifecycle/gel-data-lifecycle.yml
+  href: https://artifacts.apis.io/gel-data/lifecycle/gel-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gel-data-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/heads/main/changelog/gel-data-changelog.yml
+  href: https://artifacts.apis.io/gel-data/changelog/gel-data-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gel-data-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/heads/main/llms/gel-data-llms.txt
+  href: https://artifacts.apis.io/gel-data/llms/gel-data-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gel-data-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/heads/main/security/gel-data-domain-security.yml
+  href: https://artifacts.apis.io/gel-data/security/gel-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gel-data-domain-security.yml
@@ -176,10 +178,10 @@ plans:
 - name: Gel Data Plans Pricing
   plan_count: 3
   slug: gel-data-plans-pricing
-random_paper: 19
+random_paper: 23
 score:
-  band: thin
-  composite: 39.2
+  band: developing
+  composite: 41.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 39.0
@@ -187,15 +189,15 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
-    access_clarity: 63.2
+    access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 55.0
-    operational_transparency: 26.3
-  previous_composite: 32.8
+    discoverability: 48.3
+    operational_transparency: 28.9
+  previous_composite: 41.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -205,14 +207,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/heads/main/screenshots/gel-data-2026-07-25T215722.png
+screenshot: https://apis.io/screenshots/gel-data/gel-data-2026-07-25T215722.png
 security:
 - kind: authentication
   name: Gel Data Authentication
@@ -232,7 +234,7 @@ tags:
 - GraphQL
 - Authentication
 - Artificial Intelligence
-- Vector Database
+- Vector Search
 - Developer Tools
 website: https://www.geldata.com/
 ---

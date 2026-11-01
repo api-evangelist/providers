@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +55,7 @@ common:
   type: Support
   url: https://preveta.com/contact-us/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/preveta/refs/heads/main/security/preveta-domain-security.yml
+  href: https://artifacts.apis.io/preveta/security/preveta-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/preveta-domain-security.yml
@@ -69,7 +71,7 @@ overview: 'Preveta is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Preveta''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 11
+random_paper: 15
 score:
   band: minimal
   composite: 7.7
@@ -95,14 +97,14 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/preveta/refs/heads/main/screenshots/preveta-2026-09-02T151958.png
+screenshot: https://apis.io/screenshots/preveta/preveta-2026-09-02T151958.png
 security:
 - kind: domain-security
   name: Preveta Domain Security

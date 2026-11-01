@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.7
-  scored_at: '2026-10-17'
+  score: 41.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -87,11 +89,8 @@ apis:
   description: OData data service for report row and summary data
   name: Crystal Reports O Data API
   slug: crystal-reports-odata-api
-artifact_total: 116
+artifact_total: 115
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SAP Crystal Reports RESTful Web Services Authentication API
   slug: open-crystal-reports-authentication-api
@@ -115,37 +114,37 @@ collections:
   slug: open-crystal-reports-repository-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/plans/crystal-reports-plans-pricing.yml
+  href: https://artifacts.apis.io/crystal-reports/plans/crystal-reports-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/crystal-reports-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/rate-limits/crystal-reports-rate-limits.yml
+  href: https://artifacts.apis.io/crystal-reports/rate-limits/crystal-reports-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/crystal-reports-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/finops/crystal-reports-finops.yml
+  href: https://artifacts.apis.io/crystal-reports/finops/crystal-reports-finops.yml
   title: ''
   type: FinOps
   url: finops/crystal-reports-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/agentic-access/crystal-reports-agentic-access.yml
+  href: https://artifacts.apis.io/crystal-reports/agentic-access/crystal-reports-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/crystal-reports-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/security/crystal-reports-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/crystal-reports/security/crystal-reports-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/crystal-reports-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/security/crystal-reports-domain-security.yml
+  href: https://artifacts.apis.io/crystal-reports/security/crystal-reports-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crystal-reports-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/authentication/crystal-reports-authentication.yml
+  href: https://artifacts.apis.io/crystal-reports/authentication/crystal-reports-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crystal-reports-authentication.yml
@@ -270,7 +269,7 @@ finops:
 - has_sources: true
   method: generated
   name: Crystal Reports Finops
-  primary_unit: ''
+  primary_unit: seat
   service_category: Business Intelligence
   slug: crystal-reports-finops
   template: false
@@ -470,24 +469,24 @@ rules:
     warn: 6
   slug: crystal-reports-spectral-rules
 score:
-  band: emerging
-  composite: 24.5
+  band: thin
+  composite: 34.1
   coverage:
     artifact_dirs: 18
-    catalog_earned: 54.5
+    catalog_earned: 57.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.5
+    catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 34.2
     contract_governance: 13.6
     contract_quality: 24.0
-    developer_ergonomics: 14.3
-    discoverability: 65.0
-    operational_transparency: 5.3
-  previous_composite: 26.0
+    developer_ergonomics: 45.2
+    discoverability: 62.5
+    operational_transparency: 15.8
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -502,13 +501,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/screenshots/crystal-reports-2026-06-20T175319.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/crystal-reports/crystal-reports-2026-06-20T175319.png
 security:
 - kind: authentication
   name: Crystal Reports Authentication

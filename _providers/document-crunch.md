@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -45,7 +47,7 @@ common:
   type: Blog
   url: https://www.documentcrunch.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/document-crunch/refs/heads/main/security/document-crunch-trust-center.yml
+  href: https://artifacts.apis.io/document-crunch/security/document-crunch-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/document-crunch-trust-center.yml
@@ -54,7 +56,7 @@ common:
   type: Compliance
   url: https://www.documentcrunch.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/document-crunch/refs/heads/main/security/document-crunch-domain-security.yml
+  href: https://artifacts.apis.io/document-crunch/security/document-crunch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/document-crunch-domain-security.yml
@@ -86,7 +88,7 @@ overview: 'Document Crunch is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Document Crunch''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 11
+random_paper: 15
 score:
   band: emerging
   composite: 15.6
@@ -112,14 +114,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/document-crunch/refs/heads/main/screenshots/document-crunch-2026-07-25T212223.png
+screenshot: https://apis.io/screenshots/document-crunch/document-crunch-2026-07-25T212223.png
 security:
 - kind: domain-security
   name: Document Crunch Domain Security

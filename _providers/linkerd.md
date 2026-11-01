@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -94,11 +96,8 @@ apis:
   description: Real-time traffic inspection
   name: Linkerd Tap API
   slug: linkerd-tap-api
-artifact_total: 36
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Linkerd Proxy Admin Discovery API
   slug: open-linkerd-discovery-api
@@ -136,23 +135,27 @@ collections:
   name: Linkerd Viz Metrics API
   slug: open-linkerd-viz-metrics
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/linkerd/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/plans/linkerd-plans-pricing.yml
+  href: https://artifacts.apis.io/linkerd/plans/linkerd-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/linkerd-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/rate-limits/linkerd-rate-limits.yml
+  href: https://artifacts.apis.io/linkerd/rate-limits/linkerd-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/linkerd-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/finops/linkerd-finops.yml
+  href: https://artifacts.apis.io/linkerd/finops/linkerd-finops.yml
   title: ''
   type: FinOps
   url: finops/linkerd-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/capabilities/linkerd-capability-edges.yml
+  href: https://artifacts.apis.io/linkerd/capabilities/linkerd-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/linkerd-capability-edges.yml
@@ -169,12 +172,12 @@ common:
   type: License
   url: https://github.com/linkerd/linkerd2-proxy-api/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/agentic-access/linkerd-agentic-access.yml
+  href: https://artifacts.apis.io/linkerd/agentic-access/linkerd-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/linkerd-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/security/linkerd-domain-security.yml
+  href: https://artifacts.apis.io/linkerd/security/linkerd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/linkerd-domain-security.yml
@@ -183,12 +186,12 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/linkerd
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/json-ld/linkerd-context.jsonld
+  href: https://artifacts.apis.io/linkerd/json-ld/linkerd-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/linkerd-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/json-schema/service-profile.json
+  href: https://artifacts.apis.io/linkerd/json-schema/service-profile.json
   title: ''
   type: JSONSchema
   url: json-schema/service-profile.json
@@ -299,12 +302,12 @@ overview: 'Linkerd publishes 11 API contracts indexed on the [APIs.io](https://a
   The Linkerd catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Linkerd''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, release notes, Stack Overflow tag, and 21 more developer resources.'
+  Linkerd''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, release notes, Stack Overflow tag, and 22 more developer resources.'
 plans:
 - name: Linkerd Plans Pricing
   plan_count: 5
   slug: linkerd-plans-pricing
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Linkerd Rate Limits
@@ -323,7 +326,7 @@ rules:
   slug: linkerd-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.7
+  composite: 38.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 53.3
@@ -331,18 +334,15 @@ score:
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.3
   facets:
-    access_clarity: 18.4
+    access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 51.3
-    developer_ergonomics: 35.7
+    developer_ergonomics: 36.9
     discoverability: 53.6
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 37.0
+    operational_transparency: 39.5
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -355,14 +355,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/screenshots/linkerd-2026-06-20T184545.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/linkerd/linkerd-2026-06-20T184545.png
 security:
 - kind: domain-security
   name: Linkerd Domain Security

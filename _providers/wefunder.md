@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.9
-  scored_at: '2026-10-17'
+  score: 52.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 3
@@ -108,15 +110,12 @@ apis:
   description: The Users API from Wefunder — 1 operation(s) for users.
   name: Wefunder Users API
   slug: wefunder-users-api
-artifact_total: 32
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Wefunder Webhooks
   slug: wefunder-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Wefunder API v2 Activity API
   slug: open-wefunder-activity-api
@@ -157,18 +156,23 @@ collections:
   name: Wefunder API v2 Activity Users API
   slug: open-wefunder-users-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/wefunder/plans/wefunder-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/wefunder-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/capabilities/wefunder-capability-edges.yml
+  href: https://artifacts.apis.io/wefunder/capabilities/wefunder-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/wefunder-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/overlays/wefunder-api-overlay.yaml
+  href: https://artifacts.apis.io/wefunder/overlays/wefunder-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wefunder-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/security/wefunder-domain-security.yml
+  href: https://artifacts.apis.io/wefunder/security/wefunder-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wefunder-domain-security.yml
@@ -217,92 +221,100 @@ common:
   type: SignUp
   url: https://wefunder.com/signup
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/packages/wefunder-packages.yml
+  href: https://artifacts.apis.io/wefunder/packages/wefunder-packages.yml
   title: ''
   type: Packages
   url: packages/wefunder-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/packages/wefunder-packages.yml
+  href: https://artifacts.apis.io/wefunder/packages/wefunder-packages.yml
   title: ''
   type: SDKs
   url: packages/wefunder-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/well-known/wefunder-well-known.yml
+  href: https://artifacts.apis.io/wefunder/well-known/wefunder-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wefunder-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/mcp/wefunder-mcp.yml
+  href: https://artifacts.apis.io/wefunder/mcp/wefunder-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wefunder-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/llms/wefunder-llms.txt
+  href: https://artifacts.apis.io/wefunder/llms/wefunder-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wefunder-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/conformance/wefunder-conformance.yml
+  href: https://artifacts.apis.io/wefunder/conformance/wefunder-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wefunder-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/errors/wefunder-problem-types.yml
+  href: https://artifacts.apis.io/wefunder/errors/wefunder-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wefunder-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/lifecycle/wefunder-lifecycle.yml
+  href: https://artifacts.apis.io/wefunder/lifecycle/wefunder-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wefunder-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/sandbox/wefunder-sandbox.yml
+  href: https://artifacts.apis.io/wefunder/sandbox/wefunder-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/wefunder-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/conventions/wefunder-conventions.yml
+  href: https://artifacts.apis.io/wefunder/conventions/wefunder-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wefunder-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/conventions/wefunder-conventions.yml
+  href: https://artifacts.apis.io/wefunder/conventions/wefunder-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/wefunder-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/asyncapi/wefunder-webhooks.yml
+  href: https://artifacts.apis.io/wefunder/asyncapi/wefunder-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/wefunder-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/data-model/wefunder-data-model.yml
+  href: https://artifacts.apis.io/wefunder/data-model/wefunder-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wefunder-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wefunder/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/agentic-access/wefunder-agentic-access.yml
+  href: https://artifacts.apis.io/wefunder/agentic-access/wefunder-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wefunder-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/authentication/wefunder-authentication.yml
+  href: https://artifacts.apis.io/wefunder/authentication/wefunder-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wefunder-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/scopes/wefunder-scopes.yml
+  href: https://artifacts.apis.io/wefunder/scopes/wefunder-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/wefunder-scopes.yml
 created: '2026-07-17'
 description: Wefunder is the largest SEC-registered funding portal, the home of the Community Round — a Public Benefit Corporation (YC W13) that has helped 4,400+ founders raise over $1B from more than one million everyday investors since 2012, with notable raises from Mercury, Substack, and Replit. Its OAuth 2.0 Wefunder API v2 (api.wefunder.com) exposes public offerings, investments, campaigns, syndicates, write intents, and campaign attribution with signed webhooks, backed by an official TypeScript SDK (@wefunder/sdk) and PKCE-first authorization.
+finops:
+- has_sources: true
+  method: derived
+  name: Wefunder Finops
+  primary_unit: of funds successfully raised
+  service_category: ''
+  slug: wefunder-finops
+  template: false
 image: https://wefunder.com/favicon.ico
 layout: provider
 modified: '2026-07-21'
@@ -315,32 +327,39 @@ overview: 'Wefunder publishes 13 API contracts indexed on the [APIs.io](https://
   The Wefunder catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Wefunder''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 6
+  Wefunder''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+plans:
+- name: Wefunder Plans Pricing
+  plan_count: 4
+  slug: wefunder-plans-pricing
+- name: Wefunder Price Estimates
+  plan_count: 0
+  slug: wefunder-price-estimates
+random_paper: 0
 scopes:
 - name: Wefunder Scopes
   scope_count: 16
   slug: wefunder-scopes
   summary_line: 16 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 50.7
+  band: strong
+  composite: 56.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 58.8
     developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 50.7
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -357,13 +376,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/screenshots/wefunder-2026-08-17T082859.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wefunder/wefunder-2026-08-17T082859.png
 security:
 - kind: authentication
   name: Wefunder Authentication
@@ -373,6 +393,14 @@ security:
   name: Wefunder Domain Security
   slug: wefunder-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Track campaign attribution with webhooks
+  slug: wefunder-attribution-webhooks
+- name: Browse public offerings on Wefunder
+  slug: wefunder-browse-offerings
+- name: Manage a Wefunder syndicate
+  slug: wefunder-manage-syndicate
 slug: wefunder
 tags:
 - Company

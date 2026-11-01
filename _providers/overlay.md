@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.overlay.market
@@ -53,9 +55,6 @@ apis:
   slug: overlay-markets-api
 artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Overlay Market Data Aggregator API
   slug: open-overlay-aggregator-api
@@ -95,72 +94,72 @@ common:
   type: Whitepaper
   url: https://redrct.overlay.market/whitepaper
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/openapi/_original/overlay-openapi.yml
+  href: https://artifacts.apis.io/overlay/openapi/_original/overlay-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/overlay-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/authentication/overlay-authentication.yml
+  href: https://artifacts.apis.io/overlay/authentication/overlay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/overlay-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/conventions/overlay-conventions.yml
+  href: https://artifacts.apis.io/overlay/conventions/overlay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/overlay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/errors/overlay-problem-types.yml
+  href: https://artifacts.apis.io/overlay/errors/overlay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/overlay-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/lifecycle/overlay-lifecycle.yml
+  href: https://artifacts.apis.io/overlay/lifecycle/overlay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/overlay-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/conformance/overlay-conformance.yml
+  href: https://artifacts.apis.io/overlay/conformance/overlay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/overlay-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/data-model/overlay-data-model.yml
+  href: https://artifacts.apis.io/overlay/data-model/overlay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/overlay-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/overlays/overlay-openapi-overlay.yaml
+  href: https://artifacts.apis.io/overlay/overlays/overlay-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/overlay-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/llms/overlay-llms.txt
+  href: https://artifacts.apis.io/overlay/llms/overlay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/overlay-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/mcp/overlay-mcp.yml
+  href: https://artifacts.apis.io/overlay/mcp/overlay-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/overlay-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/packages/overlay-packages.yml
+  href: https://artifacts.apis.io/overlay/packages/overlay-packages.yml
   title: ''
   type: Packages
   url: packages/overlay-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/packages/overlay-packages.yml
+  href: https://artifacts.apis.io/overlay/packages/overlay-packages.yml
   title: ''
   type: SDKs
   url: packages/overlay-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/skills/overlay-market.md
+  href: https://artifacts.apis.io/overlay/skills/overlay-market.md
   title: ''
   type: AgentSkill
   url: skills/overlay-market.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/security/overlay-domain-security.yml
+  href: https://artifacts.apis.io/overlay/security/overlay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/overlay-domain-security.yml
@@ -176,26 +175,26 @@ overview: 'Overlay publishes 3 API contracts indexed on the [APIs.io](https://ap
 
 
   Overlay''s developer surface includes documentation, API reference, support, authentication, and 17 more developer resources.'
-random_paper: 0
+random_paper: 2
 score:
   band: thin
-  composite: 30.1
+  composite: 29.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
-    catalog_max: 100.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 30.0
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 29.7
   provenance:
     conformance: derived
     contracts:
@@ -211,14 +210,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/screenshots/overlay-2026-08-07T191129.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/overlay/overlay-2026-08-07T191129.png
 security:
 - kind: authentication
   name: Overlay Authentication
@@ -228,6 +227,10 @@ security:
   name: Overlay Domain Security
   slug: overlay-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: overlay-market
+  slug: overlay-market
 slug: overlay
 tags:
 - Company

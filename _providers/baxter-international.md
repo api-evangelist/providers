@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Baxter's DeviceBridge is a cloud-based platform that enables secure data transfer from Baxter medical devices to hospital IT systems including electronic medical records (EMRs). It supports clinical d
@@ -42,12 +44,12 @@ apis:
 artifact_total: 23
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/security/baxter-international-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/baxter-international/security/baxter-international-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/baxter-international-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/security/baxter-international-domain-security.yml
+  href: https://artifacts.apis.io/baxter-international/security/baxter-international-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/baxter-international-domain-security.yml
@@ -80,17 +82,17 @@ common:
   type: TermsOfService
   url: https://www.baxter.com/terms-use
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/rules/baxter-spectral-rules.yml
+  href: https://artifacts.apis.io/baxter-international/rules/baxter-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/baxter-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/vocabulary/baxter-vocabulary.yaml
+  href: https://artifacts.apis.io/baxter-international/vocabulary/baxter-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/baxter-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/json-ld/baxter-context.jsonld
+  href: https://artifacts.apis.io/baxter-international/json-ld/baxter-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/baxter-context.jsonld
@@ -99,47 +101,47 @@ common:
   type: Blog
   url: https://www.baxter.com/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/security/baxter-international-trust-center.yml
+  href: https://artifacts.apis.io/baxter-international/security/baxter-international-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/baxter-international-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/conformance/baxter-international-conformance.yml
+  href: https://artifacts.apis.io/baxter-international/conformance/baxter-international-conformance.yml
   title: ''
   type: Conformance
   url: conformance/baxter-international-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/packages/baxter-international-packages.yml
+  href: https://artifacts.apis.io/baxter-international/packages/baxter-international-packages.yml
   title: ''
   type: Packages
   url: packages/baxter-international-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/packages/baxter-international-packages.yml
+  href: https://artifacts.apis.io/baxter-international/packages/baxter-international-packages.yml
   title: ''
   type: SDKs
   url: packages/baxter-international-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/lifecycle/baxter-international-lifecycle.yml
+  href: https://artifacts.apis.io/baxter-international/lifecycle/baxter-international-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/baxter-international-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/llms/baxter-international-llms.txt
+  href: https://artifacts.apis.io/baxter-international/llms/baxter-international-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/baxter-international-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/plans/baxter-international-plans-pricing.yml
+  href: https://artifacts.apis.io/baxter-international/plans/baxter-international-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/baxter-international-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/rate-limits/baxter-international-rate-limits.yml
+  href: https://artifacts.apis.io/baxter-international/rate-limits/baxter-international-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/baxter-international-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/finops/baxter-international-finops.yml
+  href: https://artifacts.apis.io/baxter-international/finops/baxter-international-finops.yml
   title: ''
   type: FinOps
   url: finops/baxter-international-finops.yml
@@ -168,7 +170,7 @@ finops:
 - has_sources: true
   method: generated
   name: Baxter International Finops
-  primary_unit: ''
+  primary_unit: device
   service_category: Healthcare / Medical Device Connectivity
   slug: baxter-international-finops
   template: false
@@ -219,7 +221,7 @@ press:
 - date: ''
   title: Baxter CIO Rusty Patel on Resilience and AI in Healthcare
   url: https://www.linkedin.com/posts/peter-high-07a94a1_baxter-cio-rusty-patel-on-connected-care-activity-7370850642262728704-1ZlC
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Baxter International Rate Limits
@@ -238,23 +240,23 @@ rules:
   slug: baxter-spectral-rules
 score:
   band: thin
-  composite: 29.1
+  composite: 32.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 47.0
+    artifact_dirs: 21
+    catalog_earned: 50.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.9
+  delta: 1.6
   facets:
-    access_clarity: 39.5
+    access_clarity: 57.9
     contract_governance: 39.4
     contract_quality: 10.7
     developer_ergonomics: 23.8
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 10.5
-  previous_composite: 33.0
+  previous_composite: 30.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -263,15 +265,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 20.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 23.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/screenshots/baxter-international-2026-06-20T173048.png
+screenshot: https://apis.io/screenshots/baxter-international/baxter-international-2026-06-20T173048.png
 security:
 - kind: domain-security
   name: Baxter International Domain Security

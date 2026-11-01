@@ -14,7 +14,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -30,15 +30,17 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.2
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 41.5
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://sms.cresclab.com/api
   baseurl_source: declared
@@ -65,15 +67,12 @@ apis:
   description: The MAAC Go API API from Crescendo Lab — 0 operation(s) for maac go api.
   name: Crescendo Lab MAAC Go API
   slug: crescendo-lab-maac-go-api-api
-artifact_total: 16
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Crescendo Lab Maacgo Webhooks
   slug: crescendo-lab-maacgo-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MAAC Go Broadcast API
   slug: open-crescendo-lab-broadcast-api
@@ -87,12 +86,17 @@ collections:
   name: MAAC Go Broadcast Teams API
   slug: open-crescendo-lab-teams-api
 common:
+- group: other
+  href: https://artifacts.apis.io/crescendo-lab/capabilities/crescendo-lab-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/crescendo-lab-capability-edges.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://blog.cresclab.com/zh-tw/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/overlays/crescendo-lab-maacgo-overlay.yaml
+  href: https://artifacts.apis.io/crescendo-lab/overlays/crescendo-lab-maacgo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crescendo-lab-maacgo-overlay.yaml
@@ -141,47 +145,47 @@ common:
   type: GitHubOrganization
   url: https://github.com/Crescendo-Lab
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/llms/crescendo-lab-llms.txt
+  href: https://artifacts.apis.io/crescendo-lab/llms/crescendo-lab-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crescendo-lab-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/packages/crescendo-lab-packages.yml
+  href: https://artifacts.apis.io/crescendo-lab/packages/crescendo-lab-packages.yml
   title: ''
   type: SDKs
   url: packages/crescendo-lab-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/packages/crescendo-lab-packages.yml
+  href: https://artifacts.apis.io/crescendo-lab/packages/crescendo-lab-packages.yml
   title: ''
   type: Packages
   url: packages/crescendo-lab-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/cli/crescendo-lab-cli.yml
+  href: https://artifacts.apis.io/crescendo-lab/cli/crescendo-lab-cli.yml
   title: ''
   type: CLI
   url: cli/crescendo-lab-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/mcp/crescendo-lab-mcp.yml
+  href: https://artifacts.apis.io/crescendo-lab/mcp/crescendo-lab-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/crescendo-lab-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/mcp/crescendo-lab-tool-crosswalk.yml
+  href: https://artifacts.apis.io/crescendo-lab/mcp/crescendo-lab-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/crescendo-lab-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/crescendo-lab/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/plans/crescendo-lab-plans-pricing.yml
+  href: https://artifacts.apis.io/crescendo-lab/plans/crescendo-lab-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/crescendo-lab-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/rate-limits/crescendo-lab-rate-limits.yml
+  href: https://artifacts.apis.io/crescendo-lab/rate-limits/crescendo-lab-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/crescendo-lab-rate-limits.yml
@@ -194,32 +198,40 @@ common:
   type: GettingStarted
   url: https://sms.cresclab.com/developers.html
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/sandbox/crescendo-lab-sandbox.yml
+  href: https://artifacts.apis.io/crescendo-lab/sandbox/crescendo-lab-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/crescendo-lab-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/authentication/crescendo-lab-authentication.yml
+  href: https://artifacts.apis.io/crescendo-lab/authentication/crescendo-lab-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crescendo-lab-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/conventions/crescendo-lab-conventions.yml
+  href: https://artifacts.apis.io/crescendo-lab/conventions/crescendo-lab-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crescendo-lab-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/conventions/crescendo-lab-conventions.yml
+  href: https://artifacts.apis.io/crescendo-lab/conventions/crescendo-lab-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/crescendo-lab-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/security/crescendo-lab-domain-security.yml
+  href: https://artifacts.apis.io/crescendo-lab/security/crescendo-lab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crescendo-lab-domain-security.yml
 created: '2026-07-17'
 description: Crescendo Lab is a Taiwan-based, Asia-leading AI omnichannel customer communication software company (cresclab.com) serving 800+ global brands, and a LINE Biz-Solutions Gold Partner. Its platform spans MAAC (AI marketing automation), CAAC (conversational applications), and DAAC (data intelligence) across LINE, WhatsApp, SMS, email, and social channels. Its developer-facing surface is MAAC Go (sms.cresclab.com) — a self-serve, NCC-compliant Taiwan SMS API with a published OpenAPI spec, first-party Node/Python SDKs, a CLI, an official MCP server, and delivery webhooks. Surfaced as a 500 Global portfolio company and enriched into the API Evangelist network.
+finops:
+- has_sources: true
+  method: derived
+  name: Crescendo Lab Finops
+  primary_unit: sms segment
+  service_category: ''
+  slug: crescendo-lab-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crescendo-lab.png
 layout: provider
 mcp_servers:
@@ -236,34 +248,37 @@ overview: 'Crescendo Lab publishes 5 API contracts indexed on the [APIs.io](http
   The Crescendo Lab catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Crescendo Lab''s developer surface includes documentation, engineering blog, pricing, signup flow, CLI, API reference, getting-started guide, and 22 more developer resources.'
+  Crescendo Lab''s developer surface includes documentation, engineering blog, pricing, signup flow, CLI, API reference, getting-started guide, and 23 more developer resources.'
 plans:
 - name: Crescendo Lab Plans Pricing
   plan_count: 8
   slug: crescendo-lab-plans-pricing
-random_paper: 0
+- name: Crescendo Lab Price Estimates
+  plan_count: 0
+  slug: crescendo-lab-price-estimates
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Crescendo Lab Rate Limits
   slug: crescendo-lab-rate-limits
 score:
   band: strong
-  composite: 54.6
+  composite: 57.2
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 57.0
+    artifact_dirs: 28
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 1.0
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 48.5
+    contract_quality: 50.9
     developer_ergonomics: 80.4
-    discoverability: 71.7
-    operational_transparency: 31.6
+    discoverability: 65.0
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -271,14 +286,14 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 54.7
+  previous_composite: 56.2
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 4
     mcp: first-party
     skills: derived
   regulatory:
@@ -287,13 +302,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/screenshots/crescendo-lab-2026-07-25T210727.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/crescendo-lab/crescendo-lab-2026-07-25T210727.png
 security:
 - kind: authentication
   name: Crescendo Lab Authentication
@@ -303,6 +319,16 @@ security:
   name: Crescendo Lab Domain Security
   slug: crescendo-lab-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: send-broadcast-campaign
+  slug: crescendo-lab-broadcast
+- name: manage-contacts
+  slug: crescendo-lab-manage-contacts
+- name: send-transactional-sms
+  slug: crescendo-lab-send-sms
+- name: attribute-sms-cost-by-team
+  slug: crescendo-lab-team-cost-attribution
 slug: crescendo-lab
 tags:
 - Company

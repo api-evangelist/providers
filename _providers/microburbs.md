@@ -9,22 +9,24 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.4
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 34.5
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.microburbs.com.au
   baseurl_source: declared
@@ -201,40 +203,40 @@ apis:
   description: Street-level price forecasts.
   name: Microburbs Suburb - Street Forecasts API
   slug: microburbs-suburb-street-forecasts-api
-artifact_total: 40
+artifact_total: 44
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microburbs/refs/heads/main/plans/microburbs-plans-pricing.yml
+  href: https://artifacts.apis.io/microburbs/plans/microburbs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microburbs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microburbs/refs/heads/main/rate-limits/microburbs-rate-limits.yml
+  href: https://artifacts.apis.io/microburbs/rate-limits/microburbs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microburbs-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microburbs/refs/heads/main/mcp/microburbs-mcp.yml
+  href: https://artifacts.apis.io/microburbs/mcp/microburbs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/microburbs-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microburbs/refs/heads/main/overlays/microburbs-openapi-overlay.yaml
+  href: https://artifacts.apis.io/microburbs/overlays/microburbs-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microburbs-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microburbs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/microburbs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microburbs/refs/heads/main/security/microburbs-domain-security.yml
+  href: https://artifacts.apis.io/microburbs/security/microburbs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microburbs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microburbs/refs/heads/main/authentication/microburbs-authentication.yml
+  href: https://artifacts.apis.io/microburbs/authentication/microburbs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microburbs-authentication.yml
@@ -243,7 +245,7 @@ common:
   type: Website
   url: https://www.microburbs.com.au
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microburbs/refs/heads/main/well-known/microburbs-well-known.yml
+  href: https://artifacts.apis.io/microburbs/well-known/microburbs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/microburbs-well-known.yml
@@ -277,6 +279,14 @@ common:
   url: https://www.microburbs.com.au/faqs
 created: '2026-09-14'
 description: 'Microburbs is an Australian property and location-intelligence API: 173 read-only operations spanning property valuations (AVM), sale and rent history, comparable sales, environmental and neighbourhood risk overlays, zoning and development, schools, transport, demographics and suburb screening -- keyed to ABS statistical geography and G-NAF addresses, and mirrored as a hosted MCP server of 174 tools with per-call cent metering.'
+finops:
+- has_sources: true
+  method: derived
+  name: Microburbs Finops
+  primary_unit: ''
+  service_category: ''
+  slug: microburbs-finops
+  template: true
 layout: provider
 mcp_servers:
 - description: Australian property and suburb data as native MCP tools -- valuations, sale and rent history, comparables, risk overlays, zoning, schools, transport and demographics for every Australian address (GNAF
@@ -292,30 +302,30 @@ overview: 'Microburbs publishes 35 API contracts indexed on the [APIs.io](https:
   Microburbs'' developer surface includes authentication, pricing, signup flow, support, FAQ, and 11 more developer resources.'
 plans:
 - name: Microburbs Plans Pricing
-  plan_count: 0
+  plan_count: 2
   slug: microburbs-plans-pricing
-random_paper: 2
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Microburbs Rate Limits
   slug: microburbs-rate-limits
 score:
   band: developing
-  composite: 39.7
+  composite: 43.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 35.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    artifact_dirs: 23
+    catalog_earned: 43.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.3
   facets:
-    access_clarity: 44.7
+    access_clarity: 65.8
     contract_governance: 0.0
     contract_quality: 53.0
     developer_ergonomics: 44.6
-    discoverability: 71.7
+    discoverability: 68.3
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -324,7 +334,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 39.6
+  previous_composite: 39.3
   provenance:
     conformance: derived
     contracts:
@@ -340,14 +350,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/microburbs/refs/heads/main/screenshots/microburbs-2026-10-11T111115.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microburbs/microburbs-2026-10-11T111115.png
 security:
 - kind: authentication
   name: Microburbs Authentication
@@ -357,6 +367,14 @@ security:
   name: Microburbs Domain Security
   slug: microburbs-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: microburbs-property-risk
+  slug: microburbs-property-risk
+- name: microburbs-property-valuation
+  slug: microburbs-property-valuation
+- name: microburbs-suburb-screening
+  slug: microburbs-suburb-screening
 slug: microburbs
 tags:
 - Property Data

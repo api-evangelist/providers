@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,15 +27,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 26.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -80,6 +82,61 @@ apis:
   description: Resource metadata labels
   name: Amazon Fraud Detector Tags API
   slug: amazon-fraud-detector-tags-api
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: The Fraud Detector Batch Import Job API from Amazon Fraud Detector — 4 operation(s) for fraud detector batch import job.
+  name: Amazon Fraud Detector Fraud Detector Batch Import Job API
+  slug: amazon-fraud-detector-batch-import-job-api
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: The Fraud Detector Batch Prediction Job API from Amazon Fraud Detector — 4 operation(s) for fraud detector batch prediction job.
+  name: Amazon Fraud Detector Fraud Detector Batch Prediction Job API
+  slug: amazon-fraud-detector-batch-prediction-job-api
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: The Fraud Detector Detector Version API from Amazon Fraud Detector — 4 operation(s) for fraud detector detector version.
+  name: Amazon Fraud Detector Fraud Detector Detector Version API
+  slug: amazon-fraud-detector-detector-version-api
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: The Fraud Detector Entity Type API from Amazon Fraud Detector — 3 operation(s) for fraud detector entity type.
+  name: Amazon Fraud Detector Fraud Detector Entity Type API
+  slug: amazon-fraud-detector-entity-type-api
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: The Fraud Detector Event API from Amazon Fraud Detector — 4 operation(s) for fraud detector event.
+  name: Amazon Fraud Detector Fraud Detector Event API
+  slug: amazon-fraud-detector-event-api
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: The Fraud Detector External Model API from Amazon Fraud Detector — 3 operation(s) for fraud detector external model.
+  name: Amazon Fraud Detector Fraud Detector External Model API
+  slug: amazon-fraud-detector-external-model-api
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: The Fraud Detector List API from Amazon Fraud Detector — 3 operation(s) for fraud detector list.
+  name: Amazon Fraud Detector Fraud Detector List API
+  slug: amazon-fraud-detector-list-api
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: The Fraud Detector Model Version API from Amazon Fraud Detector — 5 operation(s) for fraud detector model version.
+  name: Amazon Fraud Detector Fraud Detector Model Version API
+  slug: amazon-fraud-detector-model-version-api
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: The Fraud Detector Operations API from Amazon Fraud Detector — 15 operation(s) for fraud detector operations.
+  name: Amazon Fraud Detector Fraud Detector Operations API
+  slug: amazon-fraud-detector-operations-api
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: The Fraud Detector Outcome API from Amazon Fraud Detector — 3 operation(s) for fraud detector outcome.
+  name: Amazon Fraud Detector Fraud Detector Outcome API
+  slug: amazon-fraud-detector-outcome-api
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: The Fraud Detector Variable API from Amazon Fraud Detector — 6 operation(s) for fraud detector variable.
+  name: Amazon Fraud Detector Fraud Detector Variable API
+  slug: amazon-fraud-detector-variable-api
 arazzos:
 - description: Create a DETECTORPL rule for a detector and read the detector's rules back to confirm it.
   name: Amazon Fraud Detector Author Rule
@@ -105,14 +162,11 @@ arazzos:
 - description: Assign tags to a Fraud Detector resource and read its tags back to confirm they were applied.
   name: Amazon Fraud Detector Tag and Audit Resource
   slug: amazon-fraud-detector-tag-and-audit-resource-workflow
-artifact_total: 64
+artifact_total: 74
 collections:
 - collection_type: postman
   name: Amazon Fraud Detector API
   slug: postman-amazon-fraud-detector
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Fraud Detector Detectors API
   slug: open-amazon-fraud-detector-detectors-api
@@ -139,47 +193,47 @@ collections:
   slug: open-amazon-fraud-detector
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/plans/amazon-fraud-detector-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/plans/amazon-fraud-detector-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-fraud-detector-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/rate-limits/amazon-fraud-detector-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/rate-limits/amazon-fraud-detector-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-fraud-detector-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/finops/amazon-fraud-detector-finops.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/finops/amazon-fraud-detector-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-fraud-detector-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/capabilities/amazon-fraud-detector-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/capabilities/amazon-fraud-detector-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-fraud-detector-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/agentic-access/amazon-fraud-detector-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/agentic-access/amazon-fraud-detector-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-fraud-detector-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/security/amazon-fraud-detector-trust-center.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/security/amazon-fraud-detector-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-fraud-detector-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/security/amazon-fraud-detector-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/security/amazon-fraud-detector-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-fraud-detector-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/security/amazon-fraud-detector-domain-security.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/security/amazon-fraud-detector-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-fraud-detector-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/authentication/amazon-fraud-detector-authentication.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/authentication/amazon-fraud-detector-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-fraud-detector-authentication.yml
@@ -188,42 +242,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-fraud-detector/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-author-rule-workflow.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/arazzo/amazon-fraud-detector-author-rule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-author-rule-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-bootstrap-event-type-workflow.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/arazzo/amazon-fraud-detector-bootstrap-event-type-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-bootstrap-event-type-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-decommission-detector-workflow.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/arazzo/amazon-fraud-detector-decommission-detector-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-decommission-detector-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-detector-pipeline-workflow.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/arazzo/amazon-fraud-detector-detector-pipeline-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-detector-pipeline-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-inventory-models-detectors-workflow.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/arazzo/amazon-fraud-detector-inventory-models-detectors-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-inventory-models-detectors-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-provision-model-detector-workflow.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/arazzo/amazon-fraud-detector-provision-model-detector-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-provision-model-detector-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-score-event-and-tag-workflow.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/arazzo/amazon-fraud-detector-score-event-and-tag-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-score-event-and-tag-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/arazzo/amazon-fraud-detector-tag-and-audit-resource-workflow.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/arazzo/amazon-fraud-detector-tag-and-audit-resource-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fraud-detector-tag-and-audit-resource-workflow.yml
@@ -280,17 +334,17 @@ common:
   type: StackOverflow
   url: https://stackoverflow.com/questions/tagged/amazon-fraud-detector
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/rules/amazon-fraud-detector-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-fraud-detector/rules/amazon-fraud-detector-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-fraud-detector-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/vocabulary/amazon-fraud-detector-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-fraud-detector/vocabulary/amazon-fraud-detector-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-fraud-detector-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/json-ld/amazon-fraud-detector-context.jsonld
+  href: https://artifacts.apis.io/amazon-fraud-detector/json-ld/amazon-fraud-detector-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-fraud-detector-context.jsonld
@@ -328,13 +382,13 @@ features:
 - description: Ingest historical labeled events to continuously improve model accuracy over time.
   name: Event Ingestion
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Fraud Detector Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: prediction
+  service_category: ''
   slug: amazon-fraud-detector-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-fraud-detector.png
 json_schemas:
 - name: Detector
@@ -378,7 +432,7 @@ modified: '2026-05-19'
 name: Amazon Fraud Detector
 nav: Providers
 network: true
-overview: 'Amazon Fraud Detector publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Detectors API, Event Types API, Labels API, and 4 more. Tagged areas include Financial Services, Fraud Prevention, Machine Learning, and Security.
+overview: 'Amazon Fraud Detector publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Detectors API, Event Types API, Labels API, and 15 more. Tagged areas include Financial Services, Fraud Prevention, Machine Learning, and Security.
 
 
   The Amazon Fraud Detector catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -387,7 +441,7 @@ overview: 'Amazon Fraud Detector publishes 7 API contracts indexed on the [APIs.
   Amazon Fraud Detector''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
 plans:
 - name: Amazon Fraud Detector Plans Pricing
-  plan_count: 3
+  plan_count: 7
   slug: amazon-fraud-detector-plans-pricing
 random_paper: 12
 rate_limits:
@@ -420,43 +474,49 @@ rules:
   slug: amazon-fraud-detector-spectral-rules
 score:
   band: strong
-  composite: 54.5
+  composite: 65.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 67.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    artifact_dirs: 22
+    catalog_earned: 79.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 2.1
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 69.4
-    developer_ergonomics: 53.6
+    contract_quality: 70.2
+    developer_ergonomics: 65.5
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 56.0
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 7
+      marker_coverage: 61.1
+      total: 18
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/screenshots/amazon-fraud-detector-2026-06-20T171653.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-fraud-detector/amazon-fraud-detector-2026-06-20T171653.png
 security:
 - kind: authentication
   name: Amazon Fraud Detector Authentication

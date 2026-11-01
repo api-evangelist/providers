@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,20 +37,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Single GraphQL API for the Edvisor.io education-recruitment platform, covering students, quotes, school offerings, enrollments, invoices, and agency/school company management. Bearer API-key authentic
   name: Edvisor.io GraphQL API
   slug: edvisorio-graphql-api
-artifact_total: 4
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Edvisorio Webhooks
   slug: edvisorio-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/edvisorio/plans/edvisorio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/edvisorio-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/security/edvisorio-domain-security.yml
+  href: https://artifacts.apis.io/edvisorio/security/edvisorio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/edvisorio-domain-security.yml
@@ -73,62 +80,62 @@ common:
   type: GettingStarted
   url: https://docs.edvisor.io/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/graphql/edvisorio-api-v2-graphql.graphql
+  href: https://artifacts.apis.io/edvisorio/graphql/edvisorio-api-v2-graphql.graphql
   title: ''
   type: GraphQL
   url: graphql/edvisorio-api-v2-graphql.graphql
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/asyncapi/edvisorio-webhooks.yml
+  href: https://artifacts.apis.io/edvisorio/asyncapi/edvisorio-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/edvisorio-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/authentication/edvisorio-authentication.yml
+  href: https://artifacts.apis.io/edvisorio/authentication/edvisorio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/edvisorio-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/conventions/edvisorio-conventions.yml
+  href: https://artifacts.apis.io/edvisorio/conventions/edvisorio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/edvisorio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/errors/edvisorio-problem-types.yml
+  href: https://artifacts.apis.io/edvisorio/errors/edvisorio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/edvisorio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/data-model/edvisorio-data-model.yml
+  href: https://artifacts.apis.io/edvisorio/data-model/edvisorio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/edvisorio-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/packages/edvisorio-packages.yml
+  href: https://artifacts.apis.io/edvisorio/packages/edvisorio-packages.yml
   title: ''
   type: Packages
   url: packages/edvisorio-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/components/edvisorio-components.yml
+  href: https://artifacts.apis.io/edvisorio/components/edvisorio-components.yml
   title: ''
   type: Components
   url: components/edvisorio-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/mcp/edvisorio-mcp.yml
+  href: https://artifacts.apis.io/edvisorio/mcp/edvisorio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/edvisorio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/llms/edvisorio-llms.txt
+  href: https://artifacts.apis.io/edvisorio/llms/edvisorio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/edvisorio-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/lifecycle/edvisorio-lifecycle.yml
+  href: https://artifacts.apis.io/edvisorio/lifecycle/edvisorio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/edvisorio-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/conformance/edvisorio-conformance.yml
+  href: https://artifacts.apis.io/edvisorio/conformance/edvisorio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/edvisorio-conformance.yml
@@ -137,12 +144,12 @@ common:
   type: Compliance
   url: https://edvisor.io/privacy
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/sandbox/edvisorio-sandbox.yml
+  href: https://artifacts.apis.io/edvisorio/sandbox/edvisorio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/edvisorio-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/edvisorio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -180,6 +187,14 @@ common:
   url: https://edvisor.io/privacy
 created: '2026-07-17'
 description: Edvisor.io is a B2B international-education recruitment platform that connects education agencies with 700+ partner schools across 80+ countries. Agencies browse school portfolios with live pricing, build and send student quotes, manage the student journey from inquiry through enrollment, and track commissions and invoices; schools distribute programs to 5,000+ active agencies, grow and manage their agency network, and analyze their enrollment pipeline. The platform has processed over $2B in tuition. Edvisor exposes a GraphQL API at api-v2.edvisor.io/graphql (226 queries, 203 mutations, Bearer API-key auth) plus webhooks for two-way synchronization with external CRM and back-office systems.
+finops:
+- has_sources: true
+  method: derived
+  name: Edvisorio Finops
+  primary_unit: campus
+  service_category: ''
+  slug: edvisorio-finops
+  template: false
 image: https://www.edvisor.io/images/og-image.png
 layout: provider
 modified: '2026-07-19'
@@ -192,27 +207,31 @@ overview: 'Edvisor.io is listed with 1 API on the [APIs.io](https://apis.io/) ne
   The Edvisor.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Edvisor.io''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 12
+  Edvisor.io''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, pricing, and 23 more developer resources.'
+plans:
+- name: Edvisorio Plans Pricing
+  plan_count: 4
+  slug: edvisorio-plans-pricing
+random_paper: 20
 score:
   band: developing
-  composite: 46.3
+  composite: 53.9
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 52.6
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 46.9
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 46.3
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 46.0
   provenance:
     conformance: derived
     mcp: derived
@@ -227,14 +246,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/edvisorio/refs/heads/main/screenshots/edvisorio-2026-07-25T212910.png
+screenshot: https://apis.io/screenshots/edvisorio/edvisorio-2026-07-25T212910.png
 security:
 - kind: authentication
   name: Edvisorio Authentication
@@ -244,6 +263,12 @@ security:
   name: Edvisorio Domain Security
   slug: edvisorio-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Create a student and build a quote (Edvisor.io)
+  slug: edvisorio-create-and-quote-student
+- name: Keep an external CRM in sync with Edvisor.io (webhooks + polling)
+  slug: edvisorio-sync-via-webhooks
 slug: edvisorio
 tags:
 - Company

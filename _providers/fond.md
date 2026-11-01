@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fond/refs/heads/main/security/fond-domain-security.yml
+  href: https://artifacts.apis.io/fond/security/fond-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fond-domain-security.yml
@@ -66,12 +68,12 @@ overview: 'Fond is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Fond''s developer surface includes documentation, engineering blog, and 2 more developer resources.'
-random_paper: 5
+random_paper: 15
 score:
   band: minimal
-  composite: 5.0
+  composite: 5.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -82,24 +84,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.7
+    developer_ergonomics: 11.9
     discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 5.0
+  previous_composite: 5.3
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fond/refs/heads/main/screenshots/fond-2026-07-25T214919.png
+screenshot: https://apis.io/screenshots/fond/fond-2026-07-25T214919.png
 security:
 - kind: domain-security
   name: Fond Domain Security

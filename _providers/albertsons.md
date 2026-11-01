@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 32.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -63,11 +65,8 @@ apis:
   description: Generate and retrieve performance reports.
   name: albertsons Reporting API
   slug: albertsons-reporting-api
-artifact_total: 63
+artifact_total: 62
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Albertsons Media Collective Audiences API
   slug: open-albertsons-audiences-api
@@ -85,32 +84,32 @@ collections:
   slug: open-albertsons-retail-media-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/plans/albertsons-plans-pricing.yml
+  href: https://artifacts.apis.io/albertsons/plans/albertsons-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/albertsons-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/rate-limits/albertsons-rate-limits.yml
+  href: https://artifacts.apis.io/albertsons/rate-limits/albertsons-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/albertsons-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/finops/albertsons-finops.yml
+  href: https://artifacts.apis.io/albertsons/finops/albertsons-finops.yml
   title: ''
   type: FinOps
   url: finops/albertsons-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/agentic-access/albertsons-agentic-access.yml
+  href: https://artifacts.apis.io/albertsons/agentic-access/albertsons-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/albertsons-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/security/albertsons-domain-security.yml
+  href: https://artifacts.apis.io/albertsons/security/albertsons-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/albertsons-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/authentication/albertsons-authentication.yml
+  href: https://artifacts.apis.io/albertsons/authentication/albertsons-authentication.yml
   title: ''
   type: Authentication
   url: authentication/albertsons-authentication.yml
@@ -143,27 +142,27 @@ common:
   type: Support
   url: https://www.albertsons.com/contact-us.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/lifecycle/albertsons-lifecycle.yml
+  href: https://artifacts.apis.io/albertsons/lifecycle/albertsons-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/albertsons-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/llms/albertsons-llms.txt
+  href: https://artifacts.apis.io/albertsons/llms/albertsons-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/albertsons-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/rules/albertsons-spectral-rules.yml
+  href: https://artifacts.apis.io/albertsons/rules/albertsons-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/albertsons-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/vocabulary/albertsons-vocabulary.yaml
+  href: https://artifacts.apis.io/albertsons/vocabulary/albertsons-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/albertsons-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/json-ld/albertsons-retail-media-api-context.jsonld
+  href: https://artifacts.apis.io/albertsons/json-ld/albertsons-retail-media-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/albertsons-retail-media-api-context.jsonld
@@ -328,7 +327,7 @@ plans:
 - name: Albertsons Plans Pricing
   plan_count: 0
   slug: albertsons-plans-pricing
-random_paper: 7
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Albertsons Rate Limits
@@ -359,7 +358,7 @@ rules:
   slug: albertsons-spectral-rules
 score:
   band: thin
-  composite: 27.5
+  composite: 30.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 69.0
@@ -367,15 +366,15 @@ score:
     catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 28.6
-    developer_ergonomics: 25.0
+    developer_ergonomics: 35.7
     discoverability: 71.4
     operational_transparency: 0.0
-  previous_composite: 29.0
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -390,13 +389,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/screenshots/albertsons-2026-10-11T140809.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/albertsons/albertsons-2026-10-11T140809.png
 security:
 - kind: authentication
   name: Albertsons Authentication

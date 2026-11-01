@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.9
-  scored_at: '2026-10-17'
+  score: 39.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: User profile operations
   name: Unsplash Users API
   slug: unsplash-users-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Unsplash Collections API
   slug: open-unsplash-collections-api
@@ -110,43 +109,52 @@ collections:
   name: Unsplash API
   slug: open-unsplash
 common:
+- group: other
+  href: https://artifacts.apis.io/unsplash/capabilities/unsplash-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/unsplash-capability-edges.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/unsplash/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/plans/unsplash-plans-pricing.yml
+  href: https://artifacts.apis.io/unsplash/plans/unsplash-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/unsplash-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/rate-limits/unsplash-rate-limits.yml
+  href: https://artifacts.apis.io/unsplash/rate-limits/unsplash-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/unsplash-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/finops/unsplash-finops.yml
+  href: https://artifacts.apis.io/unsplash/finops/unsplash-finops.yml
   title: ''
   type: FinOps
   url: finops/unsplash-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/agentic-access/unsplash-agentic-access.yml
+  href: https://artifacts.apis.io/unsplash/agentic-access/unsplash-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/unsplash-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/security/unsplash-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/unsplash/security/unsplash-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/unsplash-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/security/unsplash-domain-security.yml
+  href: https://artifacts.apis.io/unsplash/security/unsplash-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unsplash-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/authentication/unsplash-authentication.yml
+  href: https://artifacts.apis.io/unsplash/authentication/unsplash-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unsplash-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/scopes/unsplash-scopes.yml
+  href: https://artifacts.apis.io/unsplash/scopes/unsplash-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/unsplash-scopes.yml
@@ -203,7 +211,7 @@ finops:
 - has_sources: false
   method: generated
   name: Unsplash Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: unsplash-finops
   template: true
@@ -236,12 +244,12 @@ overview: 'Unsplash publishes 7 API contracts indexed on the [APIs.io](https://a
   The Unsplash catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Unsplash''s developer surface includes authentication, documentation, GitHub presence, changelog, engineering blog, and 13 more developer resources.'
+  Unsplash''s developer surface includes authentication, documentation, GitHub presence, changelog, engineering blog, and 15 more developer resources.'
 plans:
 - name: Unsplash Plans Pricing
   plan_count: 3
   slug: unsplash-plans-pricing
-random_paper: 20
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Unsplash Rate Limits
@@ -276,24 +284,24 @@ scopes:
   slug: unsplash-scopes
   summary_line: 8 scopes · authorizationCode
 score:
-  band: thin
-  composite: 38.6
+  band: developing
+  composite: 39.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 68.4
     catalog_earned_first_party: 0.0
     catalog_gap: 46.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.2
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
-    contract_quality: 65.9
-    developer_ergonomics: 23.8
-    discoverability: 68.3
-    operational_transparency: 28.9
-  previous_composite: 40.1
+    contract_quality: 62.5
+    developer_ergonomics: 25.0
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -308,13 +316,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/screenshots/unsplash-2026-08-17T082634.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/unsplash/unsplash-2026-08-17T082634.png
 security:
 - kind: authentication
   name: Unsplash Authentication

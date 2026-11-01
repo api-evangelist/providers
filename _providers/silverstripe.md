@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'SilverStripe''s GraphQL API provides a content API layer for getting data in and out of the CMS. It supports schema generation from DataObject models, custom types and queries, and extensible schemas. '
@@ -65,7 +67,7 @@ common:
   type: License
   url: https://github.com/silverstripe/silverstripe-restfulserver/blob/3/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silverstripe/refs/heads/main/security/silverstripe-domain-security.yml
+  href: https://artifacts.apis.io/silverstripe/security/silverstripe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/silverstripe-domain-security.yml
@@ -110,17 +112,17 @@ common:
   type: ChangeLog
   url: https://docs.silverstripe.org/en/6/changelogs/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/silverstripe/refs/heads/main/plans/silverstripe-plans-pricing.yml
+  href: https://artifacts.apis.io/silverstripe/plans/silverstripe-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/silverstripe-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/silverstripe/refs/heads/main/rate-limits/silverstripe-rate-limits.yml
+  href: https://artifacts.apis.io/silverstripe/rate-limits/silverstripe-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/silverstripe-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/silverstripe/refs/heads/main/finops/silverstripe-finops.yml
+  href: https://artifacts.apis.io/silverstripe/finops/silverstripe-finops.yml
   title: ''
   type: FinOps
   url: finops/silverstripe-finops.yml
@@ -159,7 +161,7 @@ rate_limits:
   slug: silverstripe-rate-limits
 score:
   band: thin
-  composite: 32.2
+  composite: 31.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 42.0
@@ -167,32 +169,29 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.2
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 39.4
-    developer_ergonomics: 28.6
+    developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 44.7
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 38.4
+  previous_composite: 31.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/silverstripe/refs/heads/main/screenshots/silverstripe-2026-06-20T193925.png
+screenshot: https://apis.io/screenshots/silverstripe/silverstripe-2026-06-20T193925.png
 security:
 - kind: domain-security
   name: Silverstripe Domain Security

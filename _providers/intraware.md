@@ -19,7 +19,7 @@ name: Intraware
 nav: Providers
 network: true
 overview: Intraware is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software Delivery, Electronic Software Delivery, Software License Management, and Entitlement Management.
-random_paper: 5
+random_paper: 13
 slug: intraware
 tags:
 - Company

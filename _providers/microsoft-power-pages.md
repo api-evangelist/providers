@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -58,11 +60,8 @@ apis:
   description: The Tables API from Microsoft Power Pages — 2 operation(s) for tables.
   name: Microsoft Power Pages Tables API
   slug: microsoft-power-pages-tables-api
-artifact_total: 14
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Microsoft Power Pages Web Records API
   slug: open-microsoft-power-pages-records-api
@@ -74,37 +73,37 @@ collections:
   slug: open-microsoft-power-pages
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-pages/refs/heads/main/plans/microsoft-power-pages-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-power-pages/plans/microsoft-power-pages-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-power-pages-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-pages/refs/heads/main/rate-limits/microsoft-power-pages-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-power-pages/rate-limits/microsoft-power-pages-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-power-pages-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-pages/refs/heads/main/finops/microsoft-power-pages-finops.yml
+  href: https://artifacts.apis.io/microsoft-power-pages/finops/microsoft-power-pages-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-power-pages-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-pages/refs/heads/main/agentic-access/microsoft-power-pages-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-power-pages/agentic-access/microsoft-power-pages-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-power-pages-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-pages/refs/heads/main/security/microsoft-power-pages-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/microsoft-power-pages/security/microsoft-power-pages-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-power-pages-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-pages/refs/heads/main/security/microsoft-power-pages-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-power-pages/security/microsoft-power-pages-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-power-pages-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-pages/refs/heads/main/authentication/microsoft-power-pages-authentication.yml
+  href: https://artifacts.apis.io/microsoft-power-pages/authentication/microsoft-power-pages-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-power-pages-authentication.yml
@@ -154,7 +153,7 @@ finops:
 - has_sources: false
   method: generated
   name: Microsoft Power Pages Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: microsoft-power-pages-finops
   template: true
@@ -172,14 +171,14 @@ plans:
 - name: Microsoft Power Pages Plans Pricing
   plan_count: 3
   slug: microsoft-power-pages-plans-pricing
-random_paper: 1
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Microsoft Power Pages Rate Limits
   slug: microsoft-power-pages-rate-limits
 score:
   band: thin
-  composite: 34.1
+  composite: 38.3
   coverage:
     artifact_dirs: 11
     catalog_earned: 41.0
@@ -187,15 +186,15 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 46.2
-    developer_ergonomics: 38.1
+    contract_quality: 43.5
+    developer_ergonomics: 50.0
     discoverability: 69.6
-    operational_transparency: 10.5
-  previous_composite: 35.6
+    operational_transparency: 23.7
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -209,13 +208,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-pages/refs/heads/main/screenshots/microsoft-power-pages-2026-06-20T185523.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-power-pages/microsoft-power-pages-2026-06-20T185523.png
 security:
 - kind: authentication
   name: Microsoft Power Pages Authentication

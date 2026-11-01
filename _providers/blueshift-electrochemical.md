@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,22 +25,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift-electrochemical/refs/heads/main/hosts/blueshift-electrochemical-hosts.yml
+  href: https://artifacts.apis.io/blueshift-electrochemical/hosts/blueshift-electrochemical-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blueshift-electrochemical-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift-electrochemical/refs/heads/main/vendors/blueshift-electrochemical-vendors.yml
+  href: https://artifacts.apis.io/blueshift-electrochemical/vendors/blueshift-electrochemical-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blueshift-electrochemical-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blueshift-electrochemical/refs/heads/main/security/blueshift-electrochemical-domain-security.yml
+  href: https://artifacts.apis.io/blueshift-electrochemical/security/blueshift-electrochemical-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blueshift-electrochemical-domain-security.yml
@@ -54,7 +56,7 @@ name: BlueShift Electrochemical
 nav: Providers
 network: true
 overview: BlueShift Electrochemical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Electrochemical, Battery, and Cleantech.
-random_paper: 9
+random_paper: 15
 score:
   band: minimal
   composite: 3.2
@@ -73,12 +75,6 @@ score:
     developer_ergonomics: 0.0
     discoverability: 44.6
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
   previous_composite: 3.2
   regulatory:
     applies: true
@@ -86,8 +82,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

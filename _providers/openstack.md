@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -139,11 +141,8 @@ apis:
   description: API version discovery.
   name: OpenStack Versions API
   slug: openstack-versions-api
-artifact_total: 48
+artifact_total: 47
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenStack Identity (Keystone) API v3 Domains API
   slug: open-openstack-domains-api
@@ -194,37 +193,37 @@ collections:
   slug: open-openstack-versions-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/plans/openstack-plans-pricing.yml
+  href: https://artifacts.apis.io/openstack/plans/openstack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openstack-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/rate-limits/openstack-rate-limits.yml
+  href: https://artifacts.apis.io/openstack/rate-limits/openstack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openstack-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/finops/openstack-finops.yml
+  href: https://artifacts.apis.io/openstack/finops/openstack-finops.yml
   title: ''
   type: FinOps
   url: finops/openstack-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/capabilities/openstack-capability-edges.yml
+  href: https://artifacts.apis.io/openstack/capabilities/openstack-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/openstack-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/agentic-access/openstack-agentic-access.yml
+  href: https://artifacts.apis.io/openstack/agentic-access/openstack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openstack-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/security/openstack-domain-security.yml
+  href: https://artifacts.apis.io/openstack/security/openstack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openstack-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/authentication/openstack-authentication.yml
+  href: https://artifacts.apis.io/openstack/authentication/openstack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openstack-authentication.yml
@@ -312,7 +311,7 @@ plans:
 - name: Openstack Plans Pricing
   plan_count: 1
   slug: openstack-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Openstack Rate Limits
@@ -331,7 +330,7 @@ rules:
   slug: openstack-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.1
+  composite: 36.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 57.7
@@ -339,15 +338,15 @@ score:
     catalog_gap: 57.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 54.7
+    contract_quality: 51.6
     developer_ergonomics: 50.0
     discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 37.6
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -361,13 +360,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/screenshots/openstack-2026-06-20T191039.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openstack/openstack-2026-06-20T191039.png
 security:
 - kind: authentication
   name: Openstack Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.8
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://prod-public-api.getrentcheck.com
@@ -192,11 +194,8 @@ apis:
   description: The oAuth2 API from RentCheck — 8 operation(s) for oauth2.
   name: RentCheck O Auth2 API
   slug: rentcheck-oauth2-api
-artifact_total: 65
+artifact_total: 68
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: RentCheck REST Account Settings API
   slug: open-rentcheck-account-settings-api
@@ -291,38 +290,43 @@ collections:
   name: RentCheck REST Account Settings Work Orders V2 API
   slug: open-rentcheck-work-orders-v2-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/rentcheck/plans/rentcheck-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rentcheck-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/capabilities/rentcheck-capability-edges.yml
+  href: https://artifacts.apis.io/rentcheck/capabilities/rentcheck-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rentcheck-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/overlays/rentcheck-openapi-overlay.yaml
+  href: https://artifacts.apis.io/rentcheck/overlays/rentcheck-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rentcheck-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/authentication/rentcheck-authentication.yml
+  href: https://artifacts.apis.io/rentcheck/authentication/rentcheck-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rentcheck-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/security/rentcheck-domain-security.yml
+  href: https://artifacts.apis.io/rentcheck/security/rentcheck-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rentcheck-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/conventions/rentcheck-conventions.yml
+  href: https://artifacts.apis.io/rentcheck/conventions/rentcheck-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rentcheck-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/errors/rentcheck-problem-types.yml
+  href: https://artifacts.apis.io/rentcheck/errors/rentcheck-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rentcheck-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/lifecycle/rentcheck-lifecycle.yml
+  href: https://artifacts.apis.io/rentcheck/lifecycle/rentcheck-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rentcheck-lifecycle.yml
@@ -331,37 +335,37 @@ common:
   type: Deprecation
   url: https://help.getrentcheck.com/en/articles/9045668-rentcheck-api-updates
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/conformance/rentcheck-conformance.yml
+  href: https://artifacts.apis.io/rentcheck/conformance/rentcheck-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rentcheck-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/data-model/rentcheck-data-model.yml
+  href: https://artifacts.apis.io/rentcheck/data-model/rentcheck-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rentcheck-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/mcp/rentcheck-mcp.yml
+  href: https://artifacts.apis.io/rentcheck/mcp/rentcheck-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rentcheck-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/llms/rentcheck-llms.txt
+  href: https://artifacts.apis.io/rentcheck/llms/rentcheck-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rentcheck-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/skills/rentcheck-schedule-inspection.md
+  href: https://artifacts.apis.io/rentcheck/skills/rentcheck-schedule-inspection.md
   title: ''
   type: AgentSkill
   url: skills/rentcheck-schedule-inspection.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/skills/rentcheck-process-inspection-results.md
+  href: https://artifacts.apis.io/rentcheck/skills/rentcheck-process-inspection-results.md
   title: ''
   type: AgentSkill
   url: skills/rentcheck-process-inspection-results.md
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/changelog/rentcheck-changelog.yml
+  href: https://artifacts.apis.io/rentcheck/changelog/rentcheck-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rentcheck-changelog.yml
@@ -419,6 +423,14 @@ common:
   url: https://getrentcheck.com/
 created: '2026-07-17'
 description: RentCheck is a resident-led property inspection platform used by 1,000+ property management companies to run guided move-in, move-out, routine, and maintenance inspections that residents complete from their smartphone, producing standardized, time-stamped photo reports. Its REST API (OpenAPI 3.1, 160 paths / 217 operations) lets developers pull property, unit, building, community, and resident data, schedule and create inspections from customizable templates, review inspection features and photos, flag maintenance issues, and wire results into property-management systems such as AppFolio, Rent Manager, Rentvine, Buildium, Latchel, and Zapier.
+finops:
+- has_sources: true
+  method: derived
+  name: Rentcheck Finops
+  primary_unit: ''
+  service_category: ''
+  slug: rentcheck-finops
+  template: true
 image: https://cdn.prod.website-files.com/64c252917dda086383e12e96/6945920e3577a32b09f7b34d_RentCheck_Open_Graph.png
 layout: provider
 modified: '2026-07-20'
@@ -428,27 +440,31 @@ network: true
 overview: 'RentCheck publishes 31 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Settings API, Automations API, Buildings API, and 28 more. Tagged areas include Company, Property Management, Property Inspection, Real Estate, and PropTech.
 
 
-  RentCheck''s developer surface includes authentication, changelog, documentation, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 5
+  RentCheck''s developer surface includes authentication, changelog, documentation, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
+plans:
+- name: Rentcheck Plans Pricing
+  plan_count: 3
+  slug: rentcheck-plans-pricing
+random_paper: 15
 score:
   band: developing
-  composite: 50.3
+  composite: 52.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 38.2
+    access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 56.4
-    developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 50.3
+    contract_quality: 53.8
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 46.5
   provenance:
     conformance: derived
     contracts:
@@ -464,13 +480,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 72.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/screenshots/rentcheck-2026-08-17T081520.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rentcheck/rentcheck-2026-08-17T081520.png
 security:
 - kind: authentication
   name: Rentcheck Authentication
@@ -480,6 +497,12 @@ security:
   name: Rentcheck Domain Security
   slug: rentcheck-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 2
+skills:
+- name: Process RentCheck inspection results
+  slug: rentcheck-process-inspection-results
+- name: Schedule a RentCheck inspection
+  slug: rentcheck-schedule-inspection
 slug: rentcheck
 tags:
 - Company

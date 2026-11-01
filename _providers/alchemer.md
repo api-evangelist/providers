@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RESTful API v5 for managing surveys, responses, contacts, campaigns, and account resources within the Alchemer enterprise survey platform.
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alchemer/refs/heads/main/security/alchemer-domain-security.yml
+  href: https://artifacts.apis.io/alchemer/security/alchemer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alchemer-domain-security.yml
@@ -83,17 +85,17 @@ common:
   type: X
   url: https://twitter.com/AlchemerHQ
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alchemer/refs/heads/main/plans/alchemer-plans-pricing.yml
+  href: https://artifacts.apis.io/alchemer/plans/alchemer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/alchemer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/alchemer/refs/heads/main/rate-limits/alchemer-rate-limits.yml
+  href: https://artifacts.apis.io/alchemer/rate-limits/alchemer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/alchemer-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alchemer/refs/heads/main/finops/alchemer-finops.yml
+  href: https://artifacts.apis.io/alchemer/finops/alchemer-finops.yml
   title: ''
   type: FinOps
   url: finops/alchemer-finops.yml
@@ -121,7 +123,7 @@ plans:
 - name: Alchemer Plans Pricing
   plan_count: 4
   slug: alchemer-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 6
   name: Alchemer Rate Limits
@@ -136,7 +138,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
@@ -144,21 +146,21 @@ score:
     developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 28.5
+  previous_composite: 20.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alchemer/refs/heads/main/screenshots/alchemer-2026-06-20T171513.png
+screenshot: https://apis.io/screenshots/alchemer/alchemer-2026-06-20T171513.png
 security:
 - kind: domain-security
   name: Alchemer Domain Security

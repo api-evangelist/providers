@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.1
-  scored_at: '2026-10-17'
+  score: 23.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.cargomatic.com
@@ -63,11 +65,8 @@ apis:
   description: Endpoints for managing shipment stops
   name: Cargomatic Stops API
   slug: cargomatic-stops-api
-artifact_total: 13
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cargomatic Public Authorization API
   slug: open-cargomatic-authorization-api
@@ -85,12 +84,12 @@ collections:
   slug: open-cargomatic-stops-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/capabilities/cargomatic-capability-edges.yml
+  href: https://artifacts.apis.io/cargomatic/capabilities/cargomatic-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cargomatic-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/overlays/cargomatic-public-api-overlay.yaml
+  href: https://artifacts.apis.io/cargomatic/overlays/cargomatic-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cargomatic-public-api-overlay.yaml
@@ -155,62 +154,62 @@ common:
   type: SupportEmail
   url: mailto:apisupport@cargomatic.com
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/openapi/_original/cargomatic-openapi-original.yml
+  href: https://artifacts.apis.io/cargomatic/openapi/_original/cargomatic-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/cargomatic-openapi-original.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/authentication/cargomatic-authentication.yml
+  href: https://artifacts.apis.io/cargomatic/authentication/cargomatic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cargomatic-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/errors/cargomatic-problem-types.yml
+  href: https://artifacts.apis.io/cargomatic/errors/cargomatic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cargomatic-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/conventions/cargomatic-conventions.yml
+  href: https://artifacts.apis.io/cargomatic/conventions/cargomatic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cargomatic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/conformance/cargomatic-conformance.yml
+  href: https://artifacts.apis.io/cargomatic/conformance/cargomatic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cargomatic-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/data-model/cargomatic-data-model.yml
+  href: https://artifacts.apis.io/cargomatic/data-model/cargomatic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cargomatic-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/lifecycle/cargomatic-lifecycle.yml
+  href: https://artifacts.apis.io/cargomatic/lifecycle/cargomatic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cargomatic-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/sandbox/cargomatic-sandbox.yml
+  href: https://artifacts.apis.io/cargomatic/sandbox/cargomatic-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cargomatic-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/mcp/cargomatic-mcp.yml
+  href: https://artifacts.apis.io/cargomatic/mcp/cargomatic-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cargomatic-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/llms/cargomatic-llms.txt
+  href: https://artifacts.apis.io/cargomatic/llms/cargomatic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cargomatic-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/security/cargomatic-domain-security.yml
+  href: https://artifacts.apis.io/cargomatic/security/cargomatic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cargomatic-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cargomatic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -226,10 +225,10 @@ overview: 'Cargomatic publishes 5 API contracts indexed on the [APIs.io](https:/
 
 
   Cargomatic''s developer surface includes documentation, API reference, support, FAQ, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 16
+random_paper: 18
 score:
   band: thin
-  composite: 32.7
+  composite: 39.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -237,14 +236,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 47.4
-    developer_ergonomics: 25.6
-    discoverability: 73.2
-    operational_transparency: 2.6
+    contract_quality: 48.1
+    developer_ergonomics: 54.2
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -252,14 +251,14 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 32.6
+  previous_composite: 39.0
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 11
     mcp: derived
     skills: derived
   regulatory:
@@ -268,13 +267,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/screenshots/cargomatic-2026-07-25T204608.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cargomatic/cargomatic-2026-07-25T204608.png
 security:
 - kind: authentication
   name: Cargomatic Authentication
@@ -284,6 +284,12 @@ security:
   name: Cargomatic Domain Security
   slug: cargomatic-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Accept a shipment and dispatch a driver with Cargomatic
+  slug: cargomatic-carrier-dispatch
+- name: Quote, order, and create a shipment with Cargomatic
+  slug: cargomatic-quote-to-shipment
 slug: cargomatic
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'IBM Cloud Kubernetes Service is a managed Kubernetes offering that delivers powerful tools, an intuitive user experience, and built-in security for rapid delivery of applications that can be bound to '
@@ -42,17 +44,17 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-cloud-kubernetes/refs/heads/main/plans/ibm-cloud-kubernetes-plans-pricing.yml
+  href: https://artifacts.apis.io/ibm-cloud-kubernetes/plans/ibm-cloud-kubernetes-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ibm-cloud-kubernetes-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-cloud-kubernetes/refs/heads/main/rate-limits/ibm-cloud-kubernetes-rate-limits.yml
+  href: https://artifacts.apis.io/ibm-cloud-kubernetes/rate-limits/ibm-cloud-kubernetes-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ibm-cloud-kubernetes-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-cloud-kubernetes/refs/heads/main/finops/ibm-cloud-kubernetes-finops.yml
+  href: https://artifacts.apis.io/ibm-cloud-kubernetes/finops/ibm-cloud-kubernetes-finops.yml
   title: ''
   type: FinOps
   url: finops/ibm-cloud-kubernetes-finops.yml
@@ -61,12 +63,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/ibm/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-cloud-kubernetes/refs/heads/main/security/ibm-cloud-kubernetes-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ibm-cloud-kubernetes/security/ibm-cloud-kubernetes-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ibm-cloud-kubernetes-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-cloud-kubernetes/refs/heads/main/security/ibm-cloud-kubernetes-domain-security.yml
+  href: https://artifacts.apis.io/ibm-cloud-kubernetes/security/ibm-cloud-kubernetes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ibm-cloud-kubernetes-domain-security.yml
@@ -103,7 +105,7 @@ common:
   type: Signup
   url: https://cloud.ibm.com/registration
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ibm-cloud-kubernetes/refs/heads/main/rules/ibm-cloud-kubernetes-rules.yml
+  href: https://artifacts.apis.io/ibm-cloud-kubernetes/rules/ibm-cloud-kubernetes-rules.yml
   title: ''
   type: Rules
   url: rules/ibm-cloud-kubernetes-rules.yml
@@ -113,7 +115,7 @@ finops:
 - has_sources: false
   method: generated
   name: Ibm Cloud Kubernetes Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: ibm-cloud-kubernetes-finops
   template: true
@@ -134,7 +136,7 @@ plans:
 - name: Ibm Cloud Kubernetes Plans Pricing
   plan_count: 3
   slug: ibm-cloud-kubernetes-plans-pricing
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Ibm Cloud Kubernetes Rate Limits
@@ -153,7 +155,7 @@ rules:
   slug: ibm-cloud-kubernetes-rules
 score:
   band: emerging
-  composite: 19.7
+  composite: 21.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 38.0
@@ -161,29 +163,29 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 21.2
+    operational_transparency: 39.5
+  previous_composite: 21.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-cloud-kubernetes/refs/heads/main/screenshots/ibm-cloud-kubernetes-2026-06-20T183124.png
+screenshot: https://apis.io/screenshots/ibm-cloud-kubernetes/ibm-cloud-kubernetes-2026-06-20T183124.png
 security:
 - kind: domain-security
   name: Ibm Cloud Kubernetes Domain Security

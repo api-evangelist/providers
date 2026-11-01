@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.9
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 34.4
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - baseURL: https://pms.rentalready.io/api/v3/
   baseurl_source: declared
@@ -349,25 +351,25 @@ apis:
   description: The Vouchers API from GuestReady — 2 operation(s) for vouchers.
   name: GuestReady Vouchers API
   slug: guestready-vouchers-api
-artifact_total: 68
+artifact_total: 74
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/capabilities/guestready-capability-edges.yml
+  href: https://artifacts.apis.io/guestready/capabilities/guestready-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/guestready-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/security/guestready-domain-security.yml
+  href: https://artifacts.apis.io/guestready/security/guestready-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/guestready-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/scopes/guestready-scopes.yml
+  href: https://artifacts.apis.io/guestready/scopes/guestready-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/guestready-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/authentication/guestready-authentication.yml
+  href: https://artifacts.apis.io/guestready/authentication/guestready-authentication.yml
   title: ''
   type: Authentication
   url: authentication/guestready-authentication.yml
@@ -412,83 +414,91 @@ common:
   type: FAQ
   url: https://www.guestready.com/faq/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/llms/guestready-llms.txt
+  href: https://artifacts.apis.io/guestready/llms/guestready-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/guestready-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/mcp/guestready-mcp.yml
+  href: https://artifacts.apis.io/guestready/mcp/guestready-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/guestready-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/mcp/guestready-tool-crosswalk.yml
+  href: https://artifacts.apis.io/guestready/mcp/guestready-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/guestready-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/conventions/guestready-conventions.yml
+  href: https://artifacts.apis.io/guestready/conventions/guestready-conventions.yml
   title: ''
   type: Conventions
   url: conventions/guestready-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/errors/guestready-problem-types.yml
+  href: https://artifacts.apis.io/guestready/errors/guestready-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/guestready-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/lifecycle/guestready-lifecycle.yml
+  href: https://artifacts.apis.io/guestready/lifecycle/guestready-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/guestready-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/changelog/guestready-changelog.yml
+  href: https://artifacts.apis.io/guestready/changelog/guestready-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/guestready-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/conformance/guestready-conformance.yml
+  href: https://artifacts.apis.io/guestready/conformance/guestready-conformance.yml
   title: ''
   type: Conformance
   url: conformance/guestready-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/data-model/guestready-data-model.yml
+  href: https://artifacts.apis.io/guestready/data-model/guestready-data-model.yml
   title: ''
   type: DataModel
   url: data-model/guestready-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/components/guestready-components.yml
+  href: https://artifacts.apis.io/guestready/components/guestready-components.yml
   title: ''
   type: Components
   url: components/guestready-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/packages/guestready-packages.yml
+  href: https://artifacts.apis.io/guestready/packages/guestready-packages.yml
   title: ''
   type: Packages
   url: packages/guestready-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/plans/guestready-plans-pricing.yml
+  href: https://artifacts.apis.io/guestready/plans/guestready-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/guestready-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/rate-limits/guestready-rate-limits.yml
+  href: https://artifacts.apis.io/guestready/rate-limits/guestready-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/guestready-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/overlays/guestready-rentalready-overlay.yaml
+  href: https://artifacts.apis.io/guestready/overlays/guestready-rentalready-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/guestready-rentalready-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/guestready/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-22'
 description: 'GuestReady is a full-service short-term and mid-term rental hospitality management company operating across Europe and the Middle East (United Kingdom, France, Portugal, Spain, Switzerland and the UAE), managing Airbnb, Booking.com, Vrbo and direct-booking properties on behalf of owners and investors — listing optimisation, dynamic pricing, guest communication, cleaning, maintenance and on-the-ground operations. GuestReady Group is also the author of RentalReady, the property management system (PMS) it originally built for its own operations and now sells to external property managers. RentalReady is the group''s developer-facing surface: a 252-operation OpenAPI 3.0.3 REST API at pms.rentalready.io/api/v3/ covering rentals, reservations, calendar, pricing, missions, issues, conversations, reviews, owners, invoicing and payments, secured with OAuth 2.0 authorization-code flow and 50+ granular scopes, plus a Model Context Protocol (MCP) server that connects AI agents to live
   PMS data.'
+finops:
+- has_sources: true
+  method: derived
+  name: Guestready Finops
+  primary_unit: ''
+  service_category: ''
+  slug: guestready-finops
+  template: true
 image: https://d1od3nh65mn5zb.cloudfront.net/app/uploads/2024/06/18144540/Template-1-Homepage.png
 layout: provider
 mcp_servers:
@@ -507,7 +517,7 @@ plans:
 - name: Guestready Plans Pricing
   plan_count: 0
   slug: guestready-plans-pricing
-random_paper: 7
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Guestready Rate Limits
@@ -519,23 +529,23 @@ scopes:
   summary_line: 54 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.4
+  composite: 42.0
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 48.0
+    artifact_dirs: 25
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.5
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 42.1
+    contract_quality: 38.7
     developer_ergonomics: 39.9
-    discoverability: 76.7
-    operational_transparency: 39.5
-  previous_composite: 43.9
+    discoverability: 65.0
+    operational_transparency: 42.1
+  previous_composite: 42.5
   provenance:
     conformance: derived
     contracts:
@@ -551,13 +561,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/screenshots/guestready-2026-09-02T145653.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/guestready/guestready-2026-09-02T145653.png
 security:
 - kind: authentication
   name: Guestready Authentication
@@ -567,6 +578,18 @@ security:
   name: Guestready Domain Security
   slug: guestready-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 5
+skills:
+- name: guestready-handle-guest-messages-and-issues
+  slug: guestready-handle-guest-messages-and-issues
+- name: guestready-manage-a-reservation
+  slug: guestready-manage-a-reservation
+- name: guestready-onboard-a-property
+  slug: guestready-onboard-a-property
+- name: guestready-reconcile-payments
+  slug: guestready-reconcile-payments
+- name: guestready-sync-calendar-and-pricing
+  slug: guestready-sync-calendar-and-pricing
 slug: guestready
 tags:
 - Property Management

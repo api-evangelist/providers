@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,16 +38,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'REST/JSON API for text-to-speech synthesis, audio and SRT subtitle download, and voice listing. Uses x-api-key header auth. Endpoints: POST /api/v1/tts, GET /api/audio/{file_id}, GET /api/srt/{file_id'
   name: FreeTTS REST API
   slug: freetts-rest-api
-artifact_total: 6
+artifact_total: 8
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/freetts/refs/heads/main/rate-limits/freetts-rate-limits.yml
+  href: https://artifacts.apis.io/freetts/rate-limits/freetts-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/freetts-rate-limits.yml
@@ -54,7 +56,7 @@ common:
   type: Website
   url: https://www.freetts.org/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/freetts/refs/heads/main/security/freetts-domain-security.yml
+  href: https://artifacts.apis.io/freetts/security/freetts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/freetts-domain-security.yml
@@ -87,37 +89,45 @@ common:
   type: Blog
   url: https://freetts.org/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/freetts/refs/heads/main/llms/freetts-llms.txt
+  href: https://artifacts.apis.io/freetts/llms/freetts-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/freetts-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/freetts/refs/heads/main/packages/freetts-packages.yml
+  href: https://artifacts.apis.io/freetts/packages/freetts-packages.yml
   title: ''
   type: Packages
   url: packages/freetts-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/freetts/refs/heads/main/plans/freetts-plans-pricing.yml
+  href: https://artifacts.apis.io/freetts/plans/freetts-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/freetts-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/freetts/refs/heads/main/lifecycle/freetts-lifecycle.yml
+  href: https://artifacts.apis.io/freetts/lifecycle/freetts-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/freetts-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/freetts/refs/heads/main/conformance/freetts-conformance.yml
+  href: https://artifacts.apis.io/freetts/conformance/freetts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/freetts-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/freetts/refs/heads/main/components/freetts-components.yml
+  href: https://artifacts.apis.io/freetts/components/freetts-components.yml
   title: ''
   type: Components
   url: components/freetts-components.yml
 created: '2026-08-28'
 description: 'Cloud text-to-speech / AI voice service (freetts.org) offering neural voices across 75+ languages via a small REST/JSON API, plus speech-to-text, AI video and voiceover, audiobook generation, an SRT subtitle surface, and first-party Chrome, Edge and Firefox extensions. Built and operated by Outline Technologies (outline.ad), bootstrapped, founded 2025, hosted on Hetzner in Falkenstein DE behind Cloudflare. The API is a proxy over third-party neural TTS: the live GET /api/voices catalogue probed 2026-08-28 returned 1,410 voices across 152 locales sourced from Google (788), Microsoft Edge (318) and Microsoft Azure (304), of which the 318 Edge voices are the free tier. FreeTTS publishes no OpenAPI, no apis.json, no MCP server and no agent card.'
+finops:
+- has_sources: true
+  method: derived
+  name: Freetts Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: freetts-finops
+  template: false
 image: https://freetts.org/images/og-image.webp
 json_schemas:
 - name: FreeTTS Voice
@@ -136,30 +146,33 @@ plans:
 - name: Freetts Plans Pricing
   plan_count: 3
   slug: freetts-plans-pricing
-random_paper: 17
+- name: Freetts Price Estimates
+  plan_count: 0
+  slug: freetts-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Freetts Rate Limits
   slug: freetts-rate-limits
 score:
   band: developing
-  composite: 43.1
+  composite: 44.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 66.4
+    artifact_dirs: 20
+    catalog_earned: 69.4
     catalog_earned_first_party: 24.0
-    catalog_gap: 48.6
+    catalog_gap: 45.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 7.2
     developer_ergonomics: 57.1
     discoverability: 73.2
     operational_transparency: 31.6
-  previous_composite: 43.4
+  previous_composite: 43.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -169,14 +182,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/freetts/refs/heads/main/screenshots/freetts-2026-09-02T145541.png
+screenshot: https://apis.io/screenshots/freetts/freetts-2026-09-02T145541.png
 security:
 - kind: authentication
   name: Freetts Authentication

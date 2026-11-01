@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Public GraphQL Subgraph API (served via The Graph) for querying Superfluid protocol state — streams/flows, distribution pools, accounts, SuperTokens, token statistics, and events — across supported EV
@@ -81,32 +83,32 @@ common:
   type: PrivacyPolicy
   url: https://superfluidorg.notion.site/Privacy-Policy-3574b6e22ae980b7ada5c70bab11719c
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/superfluid/refs/heads/main/packages/superfluid-packages.yml
+  href: https://artifacts.apis.io/superfluid/packages/superfluid-packages.yml
   title: ''
   type: SDKs
   url: packages/superfluid-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/superfluid/refs/heads/main/packages/superfluid-packages.yml
+  href: https://artifacts.apis.io/superfluid/packages/superfluid-packages.yml
   title: ''
   type: Packages
   url: packages/superfluid-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superfluid/refs/heads/main/components/superfluid-components.yml
+  href: https://artifacts.apis.io/superfluid/components/superfluid-components.yml
   title: ''
   type: Components
   url: components/superfluid-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superfluid/refs/heads/main/well-known/superfluid-well-known.yml
+  href: https://artifacts.apis.io/superfluid/well-known/superfluid-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/superfluid-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superfluid/refs/heads/main/llms/superfluid-llms.txt
+  href: https://artifacts.apis.io/superfluid/llms/superfluid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/superfluid-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superfluid/refs/heads/main/security/superfluid-domain-security.yml
+  href: https://artifacts.apis.io/superfluid/security/superfluid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/superfluid-domain-security.yml
@@ -126,12 +128,12 @@ overview: 'Superfluid is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Superfluid''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, and 12 more developer resources.'
-random_paper: 13
+random_paper: 11
 score:
   band: emerging
-  composite: 21.3
+  composite: 20.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -143,23 +145,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 21.3
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 20.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/superfluid/refs/heads/main/screenshots/superfluid-2026-09-02T161227.png
+screenshot: https://apis.io/screenshots/superfluid/superfluid-2026-09-02T161227.png
 security:
 - kind: domain-security
   name: Superfluid Domain Security

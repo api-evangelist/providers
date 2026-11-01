@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aents/refs/heads/main/security/aents-domain-security.yml
+  href: https://artifacts.apis.io/aents/security/aents-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aents-domain-security.yml
@@ -89,17 +91,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/AENTS
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aents/refs/heads/main/plans/aents-plans-pricing.yml
+  href: https://artifacts.apis.io/aents/plans/aents-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aents-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aents/refs/heads/main/rate-limits/aents-rate-limits.yml
+  href: https://artifacts.apis.io/aents/rate-limits/aents-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aents-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aents/refs/heads/main/llms/aents-llms.txt
+  href: https://artifacts.apis.io/aents/llms/aents-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aents-llms.txt
@@ -145,7 +147,7 @@ rate_limits:
   slug: aents-rate-limits
 score:
   band: emerging
-  composite: 13.1
+  composite: 14.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -155,12 +157,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 49.1
-    operational_transparency: 2.6
+    discoverability: 50.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -168,21 +170,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 13.1
+  previous_composite: 14.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aents/refs/heads/main/screenshots/aents-2026-10-11T092915.png
+screenshot: https://apis.io/screenshots/aents/aents-2026-10-11T092915.png
 security:
 - kind: domain-security
   name: Aents Domain Security

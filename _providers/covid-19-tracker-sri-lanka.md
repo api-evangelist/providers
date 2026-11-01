@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Provides situation of the COVID-19 patients reported in Sri Lanka
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/covid-19-tracker-sri-lanka/refs/heads/main/security/covid-19-tracker-sri-lanka-domain-security.yml
+  href: https://artifacts.apis.io/covid-19-tracker-sri-lanka/security/covid-19-tracker-sri-lanka-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/covid-19-tracker-sri-lanka-domain-security.yml
@@ -62,10 +64,10 @@ name: COVID-19 Tracker Sri Lanka
 nav: Providers
 network: true
 overview: COVID-19 Tracker Sri Lanka is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 0
+random_paper: 20
 score:
   band: minimal
-  composite: 3.5
+  composite: 5.4
   coverage:
     artifact_dirs: 3
     catalog_earned: 22.0
@@ -78,24 +80,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 9.5
     discoverability: 46.4
     operational_transparency: 0.0
-  previous_composite: 3.5
+  previous_composite: 5.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/covid-19-tracker-sri-lanka/refs/heads/main/screenshots/covid-19-tracker-sri-lanka-2026-06-20T175154.png
+screenshot: https://apis.io/screenshots/covid-19-tracker-sri-lanka/covid-19-tracker-sri-lanka-2026-06-20T175154.png
 security:
 - kind: domain-security
   name: Covid 19 Tracker Sri Lanka Domain Security

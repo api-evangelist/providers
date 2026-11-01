@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 36.6
-  scored_at: '2026-10-17'
+  score: 39.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -79,11 +82,8 @@ apis:
   description: Vehicle year/make/model lookup and fitment
   name: Advance Auto Parts Vehicles API
   slug: advance-auto-parts-vehicles-api
-artifact_total: 112
+artifact_total: 111
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Advance Auto Parts Catalog Cart API
   slug: open-advance-auto-parts-cart-api
@@ -112,73 +112,77 @@ collections:
   name: Advance Auto Parts Catalog Cart Vehicles API
   slug: open-advance-auto-parts-vehicles-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/advance-auto-parts/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/plans/advance-auto-parts-plans-pricing.yml
+  href: https://artifacts.apis.io/advance-auto-parts/plans/advance-auto-parts-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/advance-auto-parts-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/rate-limits/advance-auto-parts-rate-limits.yml
+  href: https://artifacts.apis.io/advance-auto-parts/rate-limits/advance-auto-parts-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/advance-auto-parts-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/finops/advance-auto-parts-finops.yml
+  href: https://artifacts.apis.io/advance-auto-parts/finops/advance-auto-parts-finops.yml
   title: ''
   type: FinOps
   url: finops/advance-auto-parts-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/packages/advance-auto-parts-packages.yml
+  href: https://artifacts.apis.io/advance-auto-parts/packages/advance-auto-parts-packages.yml
   title: ''
   type: Packages
   url: packages/advance-auto-parts-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/security/advance-auto-parts-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/advance-auto-parts/security/advance-auto-parts-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/advance-auto-parts-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/security/advance-auto-parts-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/advance-auto-parts/security/advance-auto-parts-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/advance-auto-parts-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/conformance/advance-auto-parts-conformance.yml
+  href: https://artifacts.apis.io/advance-auto-parts/conformance/advance-auto-parts-conformance.yml
   title: ''
   type: Conformance
   url: conformance/advance-auto-parts-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/lifecycle/advance-auto-parts-lifecycle.yml
+  href: https://artifacts.apis.io/advance-auto-parts/lifecycle/advance-auto-parts-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/advance-auto-parts-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/llms/advance-auto-parts-llms.txt
+  href: https://artifacts.apis.io/advance-auto-parts/llms/advance-auto-parts-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/advance-auto-parts-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/capabilities/advance-auto-parts-capability-edges.yml
+  href: https://artifacts.apis.io/advance-auto-parts/capabilities/advance-auto-parts-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/advance-auto-parts-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/agentic-access/advance-auto-parts-agentic-access.yml
+  href: https://artifacts.apis.io/advance-auto-parts/agentic-access/advance-auto-parts-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/advance-auto-parts-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/security/advance-auto-parts-domain-security.yml
+  href: https://artifacts.apis.io/advance-auto-parts/security/advance-auto-parts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/advance-auto-parts-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/authentication/advance-auto-parts-authentication.yml
+  href: https://artifacts.apis.io/advance-auto-parts/authentication/advance-auto-parts-authentication.yml
   title: ''
   type: Authentication
   url: authentication/advance-auto-parts-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/scopes/advance-auto-parts-scopes.yml
+  href: https://artifacts.apis.io/advance-auto-parts/scopes/advance-auto-parts-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/advance-auto-parts-scopes.yml
@@ -489,7 +493,7 @@ overview: 'Advance Auto Parts publishes 7 API contracts indexed on the [APIs.io]
   The Advance Auto Parts catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Advance Auto Parts'' developer surface includes authentication, developer portal, support, engineering blog, signup flow, and 19 more developer resources.'
+  Advance Auto Parts'' developer surface includes authentication, developer portal, support, engineering blog, signup flow, and 20 more developer resources.'
 plans:
 - name: Advance Auto Parts Plans Pricing
   plan_count: 1
@@ -510,7 +514,7 @@ press:
 - date: ''
   title: Advance Auto Parts reshapes footprint and 2025 results
   url: https://www.stocktitan.net/sec-filings/AAP/10-k-advance-auto-parts-inc-files-annual-report-a1f015e6e77e.html
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Advance Auto Parts Rate Limits
@@ -546,7 +550,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.5
+  composite: 47.7
   coverage:
     artifact_dirs: 28
     catalog_earned: 63.4
@@ -554,15 +558,15 @@ score:
     catalog_gap: 51.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.2
   facets:
-    access_clarity: 22.4
+    access_clarity: 39.5
     contract_governance: 27.3
     contract_quality: 62.3
-    developer_ergonomics: 29.8
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 43.0
+    developer_ergonomics: 39.3
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -577,14 +581,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 40.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/screenshots/advance-auto-parts-2026-06-20T165218.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/advance-auto-parts/advance-auto-parts-2026-06-20T165218.png
 security:
 - kind: authentication
   name: Advance Auto Parts Authentication

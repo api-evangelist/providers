@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.6
-  scored_at: '2026-10-17'
+  score: 20.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: LSE operates its own SAML2 Shibboleth identity provider for staff, students and library resource access, registered in the UK Access Management Federation under entityID https://lse.ac.uk/idp with the
@@ -91,32 +93,32 @@ common:
   type: AIPolicy
   url: https://info.lse.ac.uk/staff/divisions/Eden-Centre/Artificial-Intelligence-Education-and-Assessment/School-position-on-generative-AI
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/authentication/lse-authentication.yml
+  href: https://artifacts.apis.io/lse/authentication/lse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lse-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/conformance/lse-domain-standards.yml
+  href: https://artifacts.apis.io/lse/conformance/lse-domain-standards.yml
   title: ''
   type: Conformance
   url: conformance/lse-domain-standards.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/vocabulary/lse-vocabulary.yml
+  href: https://artifacts.apis.io/lse/vocabulary/lse-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/lse-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/lifecycle/lse-lifecycle.yml
+  href: https://artifacts.apis.io/lse/lifecycle/lse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lse-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/errors/lse-errors.yml
+  href: https://artifacts.apis.io/lse/errors/lse-errors.yml
   title: ''
   type: Errors
   url: errors/lse-errors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/security/lse-domain-security.yml
+  href: https://artifacts.apis.io/lse/security/lse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lse-domain-security.yml
@@ -129,22 +131,22 @@ common:
   type: Twitter
   url: https://twitter.com/LSEnews
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/plans/lse-plans-pricing.yml
+  href: https://artifacts.apis.io/lse/plans/lse-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lse-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/rate-limits/lse-rate-limits.yml
+  href: https://artifacts.apis.io/lse/rate-limits/lse-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lse-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/finops/lse-finops.yml
+  href: https://artifacts.apis.io/lse/finops/lse-finops.yml
   title: ''
   type: FinOps
   url: finops/lse-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/lse/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -157,7 +159,7 @@ common:
   type: BlogRSS
   url: https://blogs.lse.ac.uk/feed/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/json-ld/lse-context.jsonld
+  href: https://artifacts.apis.io/lse/json-ld/lse-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/lse-context.jsonld
@@ -202,14 +204,14 @@ plans:
 - name: Lse Plans Pricing
   plan_count: 2
   slug: lse-plans-pricing
-random_paper: 16
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Lse Rate Limits
   slug: lse-rate-limits
 score:
-  band: emerging
-  composite: 25.4
+  band: thin
+  composite: 26.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 58.5
@@ -217,12 +219,12 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 15.2
     contract_quality: 25.3
-    developer_ergonomics: 22.6
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 5.3
   jurisdiction:
@@ -233,7 +235,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 32.1
+  previous_composite: 26.4
   provenance:
     conformance: first-party
     contracts:
@@ -247,13 +249,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/screenshots/lse-2026-06-20T184742.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lse/lse-2026-06-20T184742.png
 security:
 - kind: authentication
   name: Lse Authentication

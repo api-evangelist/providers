@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'The partner-facing H&R Block integration surface — tax-data import from financial institutions, payroll providers and employer solutions. No public contract, reference or portal is reachable: api.hrbl'
@@ -45,7 +47,7 @@ apis:
 artifact_total: 9
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/finops/hanr-block-finops.yml
+  href: https://artifacts.apis.io/hanr-block/finops/hanr-block-finops.yml
   title: ''
   type: FinOps
   url: finops/hanr-block-finops.yml
@@ -78,27 +80,27 @@ common:
   type: PrivacyPolicy
   url: https://www.hrblock.com/universal/digital-online-mobile-privacy-principles/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/authentication/hanr-block-authentication.yml
+  href: https://artifacts.apis.io/hanr-block/authentication/hanr-block-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hanr-block-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/scopes/hanr-block-scopes.yml
+  href: https://artifacts.apis.io/hanr-block/scopes/hanr-block-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hanr-block-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/well-known/hanr-block-openid-configuration.json
+  href: https://artifacts.apis.io/hanr-block/well-known/hanr-block-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/hanr-block-openid-configuration.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/well-known/hanr-block-well-known.yml
+  href: https://artifacts.apis.io/hanr-block/well-known/hanr-block-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hanr-block-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/conformance/hanr-block-conformance.yml
+  href: https://artifacts.apis.io/hanr-block/conformance/hanr-block-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hanr-block-conformance.yml
@@ -107,32 +109,32 @@ common:
   type: Security
   url: https://www.hrblock.com/responsible-disclosure-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/security/hanr-block-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hanr-block/security/hanr-block-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hanr-block-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/security/hanr-block-domain-security.yml
+  href: https://artifacts.apis.io/hanr-block/security/hanr-block-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hanr-block-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/lifecycle/hanr-block-lifecycle.yml
+  href: https://artifacts.apis.io/hanr-block/lifecycle/hanr-block-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hanr-block-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/llms/hanr-block-llms.txt
+  href: https://artifacts.apis.io/hanr-block/llms/hanr-block-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hanr-block-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/plans/hanr-block-plans-pricing.yml
+  href: https://artifacts.apis.io/hanr-block/plans/hanr-block-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hanr-block-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/rate-limits/hanr-block-rate-limits.yml
+  href: https://artifacts.apis.io/hanr-block/rate-limits/hanr-block-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hanr-block-rate-limits.yml
@@ -142,7 +144,7 @@ finops:
 - has_sources: true
   method: generated
   name: Hanr Block Finops
-  primary_unit: ''
+  primary_unit: partner-agreement
   service_category: Tax Preparation / Financial Services Partner API
   slug: hanr-block-finops
   template: false
@@ -160,7 +162,7 @@ plans:
 - name: Hanr Block Plans Pricing
   plan_count: 1
   slug: hanr-block-plans-pricing
-random_paper: 3
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Hanr Block Rate Limits
@@ -171,24 +173,24 @@ scopes:
   slug: hanr-block-scopes
   summary_line: 7 scopes
 score:
-  band: emerging
-  composite: 25.3
+  band: thin
+  composite: 28.6
   coverage:
     artifact_dirs: 16
-    catalog_earned: 41.0
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 32.9
+    access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 26.8
+    operational_transparency: 21.1
+  previous_composite: 27.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -198,14 +200,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hanr-block/refs/heads/main/screenshots/hanr-block-2026-06-20T182508.png
+screenshot: https://apis.io/screenshots/hanr-block/hanr-block-2026-06-20T182508.png
 security:
 - kind: authentication
   name: Hanr Block Authentication

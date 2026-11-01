@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Automated, programmatic access to the same AI creative-evaluation engine behind the Brainsuite application. Partners and enterprise customers upload assets (or supply asset URLs), declare attributes s
@@ -32,12 +34,12 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aimpower/refs/heads/main/plans/aimpower-plans-pricing.yml
+  href: https://artifacts.apis.io/aimpower/plans/aimpower-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aimpower-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aimpower/refs/heads/main/rate-limits/aimpower-rate-limits.yml
+  href: https://artifacts.apis.io/aimpower/rate-limits/aimpower-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aimpower-rate-limits.yml
@@ -46,7 +48,7 @@ common:
   type: BlogRSS
   url: https://brainsuite.ai/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aimpower/refs/heads/main/security/aimpower-domain-security.yml
+  href: https://artifacts.apis.io/aimpower/security/aimpower-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aimpower-domain-security.yml
@@ -91,27 +93,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/brainsuite-gmbh/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aimpower/refs/heads/main/changelog/aimpower-changelog.yml
+  href: https://artifacts.apis.io/aimpower/changelog/aimpower-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aimpower-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aimpower/refs/heads/main/lifecycle/aimpower-lifecycle.yml
+  href: https://artifacts.apis.io/aimpower/lifecycle/aimpower-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aimpower-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aimpower/refs/heads/main/conformance/aimpower-conformance.yml
+  href: https://artifacts.apis.io/aimpower/conformance/aimpower-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aimpower-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aimpower/refs/heads/main/packages/aimpower-packages.yml
+  href: https://artifacts.apis.io/aimpower/packages/aimpower-packages.yml
   title: ''
   type: Packages
   url: packages/aimpower-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aimpower/refs/heads/main/llms/aimpower-llms.txt
+  href: https://artifacts.apis.io/aimpower/llms/aimpower-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aimpower-llms.txt
@@ -131,7 +133,7 @@ plans:
 - name: Aimpower Plans Pricing
   plan_count: 4
   slug: aimpower-plans-pricing
-random_paper: 10
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Aimpower Rate Limits
@@ -143,7 +145,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 31.7
+  composite: 33.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 49.0
@@ -151,9 +153,9 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 65.8
+    access_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
@@ -167,7 +169,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 31.6
+  previous_composite: 33.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -180,15 +182,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 32.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aimpower/refs/heads/main/screenshots/aimpower-2026-10-11T093322.png
+screenshot: https://apis.io/screenshots/aimpower/aimpower-2026-10-11T093322.png
 security:
 - kind: authentication
   name: Aimpower Authentication

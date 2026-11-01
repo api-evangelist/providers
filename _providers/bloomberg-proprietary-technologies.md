@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Bloomberg's proprietary socket-based API protocol for accessing Bloomberg data, providing a high-performance connectivity layer between client applications and Bloomberg's data infrastructure.
@@ -48,17 +50,17 @@ apis:
 artifact_total: 16
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-proprietary-technologies/refs/heads/main/plans/bloomberg-proprietary-technologies-plans-pricing.yml
+  href: https://artifacts.apis.io/bloomberg-proprietary-technologies/plans/bloomberg-proprietary-technologies-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bloomberg-proprietary-technologies-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-proprietary-technologies/refs/heads/main/rate-limits/bloomberg-proprietary-technologies-rate-limits.yml
+  href: https://artifacts.apis.io/bloomberg-proprietary-technologies/rate-limits/bloomberg-proprietary-technologies-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bloomberg-proprietary-technologies-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-proprietary-technologies/refs/heads/main/finops/bloomberg-proprietary-technologies-finops.yml
+  href: https://artifacts.apis.io/bloomberg-proprietary-technologies/finops/bloomberg-proprietary-technologies-finops.yml
   title: ''
   type: FinOps
   url: finops/bloomberg-proprietary-technologies-finops.yml
@@ -71,7 +73,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/bloomberg/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-proprietary-technologies/refs/heads/main/security/bloomberg-proprietary-technologies-domain-security.yml
+  href: https://artifacts.apis.io/bloomberg-proprietary-technologies/security/bloomberg-proprietary-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bloomberg-proprietary-technologies-domain-security.yml
@@ -118,7 +120,7 @@ finops:
 - has_sources: false
   method: generated
   name: Bloomberg Proprietary Technologies Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: bloomberg-proprietary-technologies-finops
   template: true
@@ -136,14 +138,14 @@ plans:
 - name: Bloomberg Proprietary Technologies Plans Pricing
   plan_count: 3
   slug: bloomberg-proprietary-technologies-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Bloomberg Proprietary Technologies Rate Limits
   slug: bloomberg-proprietary-technologies-rate-limits
 score:
   band: emerging
-  composite: 23.9
+  composite: 24.3
   coverage:
     artifact_dirs: 6
     catalog_earned: 41.0
@@ -151,29 +153,29 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 23.8
     discoverability: 62.5
-    operational_transparency: 10.5
-  previous_composite: 25.5
+    operational_transparency: 13.2
+  previous_composite: 24.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-proprietary-technologies/refs/heads/main/screenshots/bloomberg-proprietary-technologies-2026-06-20T173458.png
+screenshot: https://apis.io/screenshots/bloomberg-proprietary-technologies/bloomberg-proprietary-technologies-2026-06-20T173458.png
 security:
 - kind: domain-security
   name: Bloomberg Proprietary Technologies Domain Security

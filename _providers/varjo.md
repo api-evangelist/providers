@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,37 +95,37 @@ common:
   type: Login
   url: https://account.varjo.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/varjo/refs/heads/main/llms/varjo-llms.txt
+  href: https://artifacts.apis.io/varjo/llms/varjo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/varjo-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/varjo/refs/heads/main/packages/varjo-packages.yml
+  href: https://artifacts.apis.io/varjo/packages/varjo-packages.yml
   title: ''
   type: Packages
   url: packages/varjo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/varjo/refs/heads/main/packages/varjo-packages.yml
+  href: https://artifacts.apis.io/varjo/packages/varjo-packages.yml
   title: ''
   type: SDKs
   url: packages/varjo-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/varjo/refs/heads/main/changelog/varjo-changelog.yml
+  href: https://artifacts.apis.io/varjo/changelog/varjo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/varjo-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/varjo/refs/heads/main/lifecycle/varjo-lifecycle.yml
+  href: https://artifacts.apis.io/varjo/lifecycle/varjo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/varjo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/varjo/refs/heads/main/conformance/varjo-conformance.yml
+  href: https://artifacts.apis.io/varjo/conformance/varjo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/varjo-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/varjo/refs/heads/main/security/varjo-domain-security.yml
+  href: https://artifacts.apis.io/varjo/security/varjo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/varjo-domain-security.yml
@@ -142,9 +144,9 @@ overview: 'Varjo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 18
 score:
   band: thin
-  composite: 26.6
+  composite: 27.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -152,12 +154,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 55.4
-    operational_transparency: 18.4
+    discoverability: 48.2
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -166,7 +168,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 26.6
+  previous_composite: 27.6
   provenance:
     conformance: first-party
   regulatory:
@@ -175,14 +177,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/varjo/refs/heads/main/screenshots/varjo-2026-09-02T165449.png
+screenshot: https://apis.io/screenshots/varjo/varjo-2026-09-02T165449.png
 security:
 - kind: domain-security
   name: Varjo Domain Security

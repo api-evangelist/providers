@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,12 +75,12 @@ common:
   type: StatusPage
   url: https://status.easol.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/easol/refs/heads/main/lifecycle/easol-lifecycle.yml
+  href: https://artifacts.apis.io/easol/lifecycle/easol-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/easol-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/easol/refs/heads/main/security/easol-domain-security.yml
+  href: https://artifacts.apis.io/easol/security/easol-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/easol-domain-security.yml
@@ -120,14 +122,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/easol/refs/heads/main/screenshots/easol-2026-08-07T164642.png
+screenshot: https://apis.io/screenshots/easol/easol-2026-08-07T164642.png
 security:
 - kind: domain-security
   name: Easol Domain Security

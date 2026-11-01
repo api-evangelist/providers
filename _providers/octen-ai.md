@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.1
-  scored_at: '2026-10-17'
+  score: 57.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 18
   slug: octen-ai-agentic-access
   summary_line: 18 operations · 15 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Hosted Model Context Protocol server exposing Octen broad_search, search, image_search, video_search and extract tools at https://mcp.octen.ai/mcp (x-api-key or OAuth), also runnable locally via npx o
   name: Octen MCP Server
@@ -117,65 +119,70 @@ apis:
   description: The Chat Completions API from Octen — 1 operation(s) for chat completions.
   name: Octen Chat Completions API
   slug: octen-ai-chat-completions-api
-artifact_total: 32
+artifact_total: 38
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/overlays/octen-ai-openapi-overlay.yaml
+  href: https://artifacts.apis.io/octen-ai/capabilities/octen-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/octen-ai-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/octen-ai/overlays/octen-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/octen-ai-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/agentic-access/octen-ai-agentic-access.yml
+  href: https://artifacts.apis.io/octen-ai/agentic-access/octen-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/octen-ai-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/rate-limits/octen-ai-rate-limits.yml
+  href: https://artifacts.apis.io/octen-ai/rate-limits/octen-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/octen-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/plans/octen-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/octen-ai/plans/octen-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/octen-ai-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/rules/octen-ai-rules.yml
+  href: https://artifacts.apis.io/octen-ai/rules/octen-ai-rules.yml
   title: ''
   type: Spectral
   url: rules/octen-ai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/json-ld/octen-ai-context.jsonld
+  href: https://artifacts.apis.io/octen-ai/json-ld/octen-ai-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/octen-ai-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/vocabulary/octen-ai-vocabulary.yml
+  href: https://artifacts.apis.io/octen-ai/vocabulary/octen-ai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/octen-ai-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/octen-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/data-model/octen-ai-data-model.yml
+  href: https://artifacts.apis.io/octen-ai/data-model/octen-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/octen-ai-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/cli/octen-ai-cli.yml
+  href: https://artifacts.apis.io/octen-ai/cli/octen-ai-cli.yml
   title: ''
   type: CLI
   url: cli/octen-ai-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/changelog/octen-ai-changelog.yml
+  href: https://artifacts.apis.io/octen-ai/changelog/octen-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/octen-ai-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/conventions/octen-ai-conventions.yml
+  href: https://artifacts.apis.io/octen-ai/conventions/octen-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/octen-ai-conventions.yml
@@ -184,7 +191,7 @@ common:
   type: Compliance
   url: https://docs.octen.ai/resources/security-&-compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/security/octen-ai-trust-center.yml
+  href: https://artifacts.apis.io/octen-ai/security/octen-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/octen-ai-trust-center.yml
@@ -193,67 +200,67 @@ common:
   type: StatusPage
   url: https://status.octen.ai
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/lifecycle/octen-ai-lifecycle.yml
+  href: https://artifacts.apis.io/octen-ai/lifecycle/octen-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/octen-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/errors/octen-ai-problem-types.yml
+  href: https://artifacts.apis.io/octen-ai/errors/octen-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/octen-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/conformance/octen-ai-conformance.yml
+  href: https://artifacts.apis.io/octen-ai/conformance/octen-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/octen-ai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/llms/octen-ai-llms.txt
+  href: https://artifacts.apis.io/octen-ai/llms/octen-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/octen-ai-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/a2a/octen-ai-a2a.yml
+  href: https://artifacts.apis.io/octen-ai/a2a/octen-ai-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/octen-ai-a2a.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/mcp/octen-ai-tool-crosswalk.yml
+  href: https://artifacts.apis.io/octen-ai/mcp/octen-ai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/octen-ai-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/mcp/octen-ai-mcp.yml
+  href: https://artifacts.apis.io/octen-ai/mcp/octen-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/octen-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/well-known/octen-ai-well-known.yml
+  href: https://artifacts.apis.io/octen-ai/well-known/octen-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/octen-ai-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/hosts/octen-ai-hosts.yml
+  href: https://artifacts.apis.io/octen-ai/hosts/octen-ai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/octen-ai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/vendors/octen-ai-vendors.yml
+  href: https://artifacts.apis.io/octen-ai/vendors/octen-ai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/octen-ai-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/packages/octen-ai-packages.yml
+  href: https://artifacts.apis.io/octen-ai/packages/octen-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/octen-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/packages/octen-ai-packages.yml
+  href: https://artifacts.apis.io/octen-ai/packages/octen-ai-packages.yml
   title: ''
   type: Packages
   url: packages/octen-ai-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/authentication/octen-ai-authentication.yml
+  href: https://artifacts.apis.io/octen-ai/authentication/octen-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/octen-ai-authentication.yml
@@ -314,12 +321,20 @@ common:
   type: Support
   url: mailto:support@octen.ai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/security/octen-ai-domain-security.yml
+  href: https://artifacts.apis.io/octen-ai/security/octen-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/octen-ai-domain-security.yml
 created: '2026-10-07'
 description: Octen (Octen.AI) is an AI-native web search and retrieval platform built for LLM applications and agents. Its REST API at api.octen.ai exposes Broad Search (multi-angle query decomposition), Web Search, News Search, Business Search, Image Search, Video Search, URL Extract, text and vision-language Embeddings, Answer, Deep Research, Grounded Generation, and an OpenAI/Anthropic-compatible Model Gateway, alongside a hosted MCP server (mcp.octen.ai), a CLI, a Python SDK, and published agent skills.
+finops:
+- has_sources: true
+  method: derived
+  name: Octen Ai Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: octen-ai-finops
+  template: false
 image: https://octen.ai/_next/static/media/octen-cover.dc74905e.png
 json_schemas:
 - name: BusinessSearchRequest
@@ -360,12 +375,15 @@ overview: 'Octen publishes 17 API contracts indexed on the [APIs.io](https://api
   The Octen catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Octen''s developer surface includes CLI, changelog, authentication, documentation, API reference, getting-started guide, signup flow, and 36 more developer resources.'
+  Octen''s developer surface includes CLI, changelog, authentication, documentation, API reference, getting-started guide, signup flow, and 37 more developer resources.'
 plans:
 - name: Octen Ai Plans Pricing
   plan_count: 5
   slug: octen-ai-plans-pricing
-random_paper: 14
+- name: Octen Ai Price Estimates
+  plan_count: 0
+  slug: octen-ai-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 17
   name: Octen Ai Rate Limits
@@ -385,23 +403,23 @@ rules:
   slug: octen-ai-rules
 score:
   band: exemplar
-  composite: 71.5
+  composite: 72.8
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 86.8
+    artifact_dirs: 32
+    catalog_earned: 89.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 28.3
+    catalog_gap: 25.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.3
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 35.6
     contract_quality: 66.8
     developer_ergonomics: 73.2
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 68.4
-  previous_composite: 71.2
+  previous_composite: 71.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -424,13 +442,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/octen-ai/refs/heads/main/screenshots/octen-ai-2026-10-11T111925.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/octen-ai/octen-ai-2026-10-11T111925.png
 security:
 - kind: authentication
   name: Octen Ai Authentication
@@ -444,6 +463,16 @@ security:
   name: Octen Ai Trust Center
   slug: octen-ai-trust-center
   summary_line: SOC 2 Type II (Certified), HIPAA (In progress)
+skill_count: 4
+skills:
+- name: octen-ai-broad-search-research
+  slug: octen-ai-broad-search-research
+- name: octen-ai-deep-research-report
+  slug: octen-ai-deep-research-report
+- name: octen-ai-grounded-chat
+  slug: octen-ai-grounded-chat
+- name: octen-ai-web-search-with-content
+  slug: octen-ai-web-search-with-content
 slug: octen-ai
 tags:
 - Search

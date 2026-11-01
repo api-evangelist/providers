@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.9
-  scored_at: '2026-10-17'
+  score: 33.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 64
@@ -77,15 +79,12 @@ apis:
   description: The Webhooks API from Securitize — 4 operation(s) for webhooks.
   name: Securitize Webhooks API
   slug: securitize-webhooks-api
-artifact_total: 21
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Securitize Webhooks
   slug: securitize-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Securitize Domains APAC API
   slug: open-securitize-apac-api
@@ -106,7 +105,7 @@ collections:
   slug: open-securitize-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/capabilities/securitize-capability-edges.yml
+  href: https://artifacts.apis.io/securitize/capabilities/securitize-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/securitize-capability-edges.yml
@@ -155,87 +154,87 @@ common:
   type: Security
   url: https://securitize.io/bug-bounty
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/security/securitize-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/securitize/security/securitize-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/securitize-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/security/securitize-domain-security.yml
+  href: https://artifacts.apis.io/securitize/security/securitize-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/securitize-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/authentication/securitize-authentication.yml
+  href: https://artifacts.apis.io/securitize/authentication/securitize-authentication.yml
   title: ''
   type: Authentication
   url: authentication/securitize-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/scopes/securitize-scopes.yml
+  href: https://artifacts.apis.io/securitize/scopes/securitize-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/securitize-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/conformance/securitize-conformance.yml
+  href: https://artifacts.apis.io/securitize/conformance/securitize-conformance.yml
   title: ''
   type: Conformance
   url: conformance/securitize-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/conventions/securitize-conventions.yml
+  href: https://artifacts.apis.io/securitize/conventions/securitize-conventions.yml
   title: ''
   type: Conventions
   url: conventions/securitize-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/lifecycle/securitize-lifecycle.yml
+  href: https://artifacts.apis.io/securitize/lifecycle/securitize-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/securitize-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/errors/securitize-problem-types.yml
+  href: https://artifacts.apis.io/securitize/errors/securitize-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/securitize-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/data-model/securitize-data-model.yml
+  href: https://artifacts.apis.io/securitize/data-model/securitize-data-model.yml
   title: ''
   type: DataModel
   url: data-model/securitize-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/sandbox/securitize-sandbox.yml
+  href: https://artifacts.apis.io/securitize/sandbox/securitize-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/securitize-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/packages/securitize-packages.yml
+  href: https://artifacts.apis.io/securitize/packages/securitize-packages.yml
   title: ''
   type: Packages
   url: packages/securitize-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/mcp/securitize-mcp.yml
+  href: https://artifacts.apis.io/securitize/mcp/securitize-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/securitize-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/mcp/securitize-tool-crosswalk.yml
+  href: https://artifacts.apis.io/securitize/mcp/securitize-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/securitize-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/asyncapi/securitize-webhooks.yml
+  href: https://artifacts.apis.io/securitize/asyncapi/securitize-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/securitize-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/securitize/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/agentic-access/securitize-agentic-access.yml
+  href: https://artifacts.apis.io/securitize/agentic-access/securitize-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/securitize-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/overlays/securitize-domains-overlay.yaml
+  href: https://artifacts.apis.io/securitize/overlays/securitize-domains-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/securitize-domains-overlay.yaml
@@ -259,7 +258,7 @@ overview: 'Securitize publishes 7 API contracts indexed on the [APIs.io](https:/
 
 
   Securitize''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 17
+random_paper: 15
 scopes:
 - name: Securitize Scopes
   scope_count: 3
@@ -267,23 +266,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 42.5
+  composite: 40.3
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
-    contract_quality: 51.0
-    developer_ergonomics: 63.7
-    discoverability: 75.0
-    operational_transparency: 21.1
-  previous_composite: 42.4
+    contract_quality: 47.7
+    developer_ergonomics: 70.8
+    discoverability: 65.0
+    operational_transparency: 23.7
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,13 +299,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/screenshots/securitize-2026-08-17T081751.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/securitize/securitize-2026-08-17T081751.png
 security:
 - kind: authentication
   name: Securitize Authentication
@@ -320,6 +320,16 @@ security:
   name: Securitize Vulnerability Disclosure
   slug: securitize-vulnerability-disclosure
   summary_line: contact published
+skill_count: 4
+skills:
+- name: Add Securitize iD sign-in and read verified investor identity
+  slug: securitize-connect-identity
+- name: Fund an investment and issue digital securities on-chain
+  slug: securitize-issue-and-settle-tokens
+- name: Onboard an investor onto a Securitize domain
+  slug: securitize-onboard-investor
+- name: Register Travel Rule counterparties and subscribe to investor events
+  slug: securitize-travel-rule-and-webhooks
 slug: securitize
 tags:
 - Tokenization

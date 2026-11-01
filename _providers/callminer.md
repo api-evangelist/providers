@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Asynchronously add or update media and metadata for audio and text-based contacts in a CallMiner Eureka tenant. Hosted on the regional CallMiner API host and protected by OAuth 2.0 client credentials '
@@ -48,12 +50,12 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/callminer/refs/heads/main/security/callminer-trust-center.yml
+  href: https://artifacts.apis.io/callminer/security/callminer-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/callminer-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/callminer/refs/heads/main/security/callminer-domain-security.yml
+  href: https://artifacts.apis.io/callminer/security/callminer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/callminer-domain-security.yml
@@ -98,57 +100,57 @@ common:
   type: Compliance
   url: https://callminer.com/our-company-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/callminer/refs/heads/main/authentication/callminer-authentication.yml
+  href: https://artifacts.apis.io/callminer/authentication/callminer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/callminer-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/callminer/refs/heads/main/scopes/callminer-scopes.yml
+  href: https://artifacts.apis.io/callminer/scopes/callminer-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/callminer-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/callminer/refs/heads/main/well-known/callminer-well-known.yml
+  href: https://artifacts.apis.io/callminer/well-known/callminer-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/callminer-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/callminer/refs/heads/main/conformance/callminer-conformance.yml
+  href: https://artifacts.apis.io/callminer/conformance/callminer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/callminer-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/callminer/refs/heads/main/lifecycle/callminer-lifecycle.yml
+  href: https://artifacts.apis.io/callminer/lifecycle/callminer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/callminer-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/callminer/refs/heads/main/llms/callminer-llms.txt
+  href: https://artifacts.apis.io/callminer/llms/callminer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/callminer-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/callminer/refs/heads/main/packages/callminer-packages.yml
+  href: https://artifacts.apis.io/callminer/packages/callminer-packages.yml
   title: ''
   type: Packages
   url: packages/callminer-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/callminer/refs/heads/main/conventions/callminer-conventions.yml
+  href: https://artifacts.apis.io/callminer/conventions/callminer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/callminer-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/callminer/refs/heads/main/data-model/callminer-data-model.yml
+  href: https://artifacts.apis.io/callminer/data-model/callminer-data-model.yml
   title: ''
   type: DataModel
   url: data-model/callminer-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/callminer/refs/heads/main/plans/callminer-plans-pricing.yml
+  href: https://artifacts.apis.io/callminer/plans/callminer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/callminer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/callminer/refs/heads/main/rate-limits/callminer-rate-limits.yml
+  href: https://artifacts.apis.io/callminer/rate-limits/callminer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/callminer-rate-limits.yml
@@ -182,7 +184,7 @@ plans:
 - name: Callminer Plans Pricing
   plan_count: 0
   slug: callminer-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Callminer Rate Limits
@@ -194,7 +196,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 25.9
+  composite: 25.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -202,15 +204,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 25.8
+  previous_composite: 25.2
   provenance:
     conformance: first-party
   regulatory:
@@ -219,14 +221,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/callminer/refs/heads/main/screenshots/callminer-2026-09-02T145006.png
+screenshot: https://apis.io/screenshots/callminer/callminer-2026-09-02T145006.png
 security:
 - kind: authentication
   name: Callminer Authentication

@@ -24,22 +24,24 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 18.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Authenticated remote MCP server that lets AI models and agents access a user's Volt (WhatsApp) data — contacts, chats, messages, groups, and lists.
   name: Volt MCP Server
   slug: volt-mcp-server
-artifact_total: 4
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -58,32 +60,32 @@ common:
   type: Blog
   url: https://voltchat.com/blog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/volt/refs/heads/main/changelog/volt-changelog.yml
+  href: https://artifacts.apis.io/volt/changelog/volt-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/volt-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/volt/refs/heads/main/mcp/volt-mcp.yml
+  href: https://artifacts.apis.io/volt/mcp/volt-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/volt-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/volt/refs/heads/main/authentication/volt-authentication.yml
+  href: https://artifacts.apis.io/volt/authentication/volt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/volt-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/volt/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/volt/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/volt/refs/heads/main/security/volt-domain-security.yml
+  href: https://artifacts.apis.io/volt/security/volt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/volt-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/volt/refs/heads/main/llms/volt-llms.txt
+  href: https://artifacts.apis.io/volt/llms/volt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/volt-llms.txt
@@ -103,26 +105,26 @@ overview: 'Volt is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Volt''s developer surface includes documentation, pricing, engineering blog, changelog, authentication, and 5 more developer resources.'
-random_paper: 13
+random_paper: 21
 score:
   band: emerging
-  composite: 16.3
+  composite: 15.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 25.6
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 15.8
-  previous_composite: 16.2
+  previous_composite: 15.3
   provenance:
     mcp: first-party
     skills: derived
@@ -132,14 +134,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/volt/refs/heads/main/screenshots/volt-2026-09-02T170217.png
+screenshot: https://apis.io/screenshots/volt/volt-2026-09-02T170217.png
 security:
 - kind: authentication
   name: Volt Authentication
@@ -149,6 +151,12 @@ security:
   name: Volt Domain Security
   slug: volt-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 2
+skills:
+- name: Create and manage a WhatsApp group via Volt
+  slug: volt-manage-whatsapp-group
+- name: Send a WhatsApp message via Volt
+  slug: volt-send-whatsapp-message
 slug: volt
 tags:
 - Company

@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'The Tailor Platform control plane. A single tailor.v1.OperatorService with 254 RPCs covering organizations, folders, teams, access grants, IP restrictions, workspaces, applications and every platform '
@@ -49,7 +51,7 @@ apis:
 - description: HTTP endpoints Tailor provisions for external systems to trigger executor operations inside a workspace. Accepts application/json and application/x-www-form-urlencoded, is rate limited to 100 requests
   name: Tailor Executor Incoming Webhook API
   slug: tailor-executor-incoming-webhook-api
-artifact_total: 12
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Tailor Webhooks
@@ -100,142 +102,150 @@ common:
   type: PrivacyPolicy
   url: https://www.tailor.tech/privacy
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/grpc/tailor-grpc.yml
+  href: https://artifacts.apis.io/tailor/grpc/tailor-grpc.yml
   title: ''
   type: Protobuf
   url: grpc/tailor-grpc.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/packages/tailor-packages.yml
+  href: https://artifacts.apis.io/tailor/packages/tailor-packages.yml
   title: ''
   type: Packages
   url: packages/tailor-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/packages/tailor-packages.yml
+  href: https://artifacts.apis.io/tailor/packages/tailor-packages.yml
   title: ''
   type: SDKs
   url: packages/tailor-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/cli/tailor-cli.yml
+  href: https://artifacts.apis.io/tailor/cli/tailor-cli.yml
   title: ''
   type: CLI
   url: cli/tailor-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/mcp/tailor-mcp.yml
+  href: https://artifacts.apis.io/tailor/mcp/tailor-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tailor-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/mcp/tailor-tool-crosswalk.yml
+  href: https://artifacts.apis.io/tailor/mcp/tailor-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tailor-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tailor/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/llms/tailor-llms.txt
+  href: https://artifacts.apis.io/tailor/llms/tailor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tailor-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/well-known/tailor-well-known.yml
+  href: https://artifacts.apis.io/tailor/well-known/tailor-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tailor-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/authentication/tailor-authentication.yml
+  href: https://artifacts.apis.io/tailor/authentication/tailor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tailor-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/scopes/tailor-scopes.yml
+  href: https://artifacts.apis.io/tailor/scopes/tailor-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tailor-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/conformance/tailor-conformance.yml
+  href: https://artifacts.apis.io/tailor/conformance/tailor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tailor-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/conformance/tailor-conformance.yml
+  href: https://artifacts.apis.io/tailor/conformance/tailor-conformance.yml
   title: ''
   type: Compliance
   url: conformance/tailor-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/errors/tailor-problem-types.yml
+  href: https://artifacts.apis.io/tailor/errors/tailor-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tailor-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/lifecycle/tailor-lifecycle.yml
+  href: https://artifacts.apis.io/tailor/lifecycle/tailor-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tailor-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/lifecycle/tailor-lifecycle.yml
+  href: https://artifacts.apis.io/tailor/lifecycle/tailor-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/tailor-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/changelog/tailor-changelog.yml
+  href: https://artifacts.apis.io/tailor/changelog/tailor-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tailor-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/conventions/tailor-conventions.yml
+  href: https://artifacts.apis.io/tailor/conventions/tailor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tailor-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/sandbox/tailor-sandbox.yml
+  href: https://artifacts.apis.io/tailor/sandbox/tailor-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tailor-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/components/tailor-components.yml
+  href: https://artifacts.apis.io/tailor/components/tailor-components.yml
   title: ''
   type: Components
   url: components/tailor-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/data-model/tailor-data-model.yml
+  href: https://artifacts.apis.io/tailor/data-model/tailor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tailor-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/asyncapi/tailor-webhooks.yml
+  href: https://artifacts.apis.io/tailor/asyncapi/tailor-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tailor-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/rate-limits/tailor-rate-limits.yml
+  href: https://artifacts.apis.io/tailor/rate-limits/tailor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tailor-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/plans/tailor-plans-pricing.yml
+  href: https://artifacts.apis.io/tailor/plans/tailor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tailor-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/security/tailor-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tailor/security/tailor-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/tailor-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/security/tailor-trust-center.yml
+  href: https://artifacts.apis.io/tailor/security/tailor-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tailor-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/security/tailor-domain-security.yml
+  href: https://artifacts.apis.io/tailor/security/tailor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tailor-domain-security.yml
 created: '2026-08-29'
 description: Tailor Technologies builds Tailor Platform, a headless, API-first ERP for retail, e-commerce and manufacturing operators. Its control plane is exposed as a single 254-RPC ConnectRPC service published as Protocol Buffers, and every application built on it gets an automatically generated GraphQL API over TailorDB with resolvers, pipelines, executors, workflows, an auth service and an OpenAI-compatible AI Gateway. The company ships a TypeScript SDK, a CLI, a Terraform provider, a React application framework (AppShell) and a first-party MCP server, and publishes llms.txt on both its marketing and documentation hosts. Tailor is a Y Combinator (S22) company and has raised $37M through Series A.
+finops:
+- has_sources: true
+  method: derived
+  name: Tailor Finops
+  primary_unit: ''
+  service_category: ''
+  slug: tailor-finops
+  template: true
 image: https://www.tailor.tech/og.jpg
 layout: provider
 mcp_servers:
@@ -257,7 +267,7 @@ plans:
 - name: Tailor Plans Pricing
   plan_count: 0
   slug: tailor-plans-pricing
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Tailor Rate Limits
@@ -269,23 +279,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 54.9
+  composite: 55.9
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 39.5
     contract_governance: 18.2
-    contract_quality: 44.2
+    contract_quality: 39.0
     developer_ergonomics: 85.7
-    discoverability: 76.7
-    operational_transparency: 65.8
-  previous_composite: 54.8
+    discoverability: 70.0
+    operational_transparency: 68.4
+  previous_composite: 55.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -296,14 +306,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tailor/refs/heads/main/screenshots/tailor-2026-10-11T130613.png
+screenshot: https://apis.io/screenshots/tailor/tailor-2026-10-11T130613.png
 security:
 - kind: authentication
   name: Tailor Authentication
@@ -321,6 +331,16 @@ security:
   name: Tailor Trust Center
   slug: tailor-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP
+skill_count: 4
+skills:
+- name: tailor-executor-webhook-integration
+  slug: tailor-executor-webhook-integration
+- name: tailor-provision-workspace
+  slug: tailor-provision-workspace
+- name: tailor-safe-schema-migration
+  slug: tailor-safe-schema-migration
+- name: tailor
+  slug: tailor-sdk-skill
 slug: tailor
 tags:
 - Company

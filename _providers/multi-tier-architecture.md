@@ -4,6 +4,6 @@ layout: provider
 name: multi-tier-architecture
 nav: Providers
 network: true
-random_paper: 10
+random_paper: 12
 slug: multi-tier-architecture
 ---

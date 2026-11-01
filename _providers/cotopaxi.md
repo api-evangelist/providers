@@ -24,21 +24,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-17'
+  score: 14.2
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cotopaxi/refs/heads/main/security/cotopaxi-domain-security.yml
+  href: https://artifacts.apis.io/cotopaxi/security/cotopaxi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cotopaxi-domain-security.yml
@@ -47,27 +49,27 @@ common:
   type: Website
   url: https://www.cotopaxi.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cotopaxi/refs/heads/main/mcp/cotopaxi-mcp.yml
+  href: https://artifacts.apis.io/cotopaxi/mcp/cotopaxi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cotopaxi-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cotopaxi/refs/heads/main/well-known/cotopaxi-well-known.yml
+  href: https://artifacts.apis.io/cotopaxi/well-known/cotopaxi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cotopaxi-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cotopaxi/refs/heads/main/authentication/cotopaxi-authentication.yml
+  href: https://artifacts.apis.io/cotopaxi/authentication/cotopaxi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cotopaxi-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cotopaxi/refs/heads/main/scopes/cotopaxi-scopes.yml
+  href: https://artifacts.apis.io/cotopaxi/scopes/cotopaxi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cotopaxi-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cotopaxi/refs/heads/main/conformance/cotopaxi-conformance.yml
+  href: https://artifacts.apis.io/cotopaxi/conformance/cotopaxi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cotopaxi-conformance.yml
@@ -103,7 +105,7 @@ overview: 'Cotopaxi is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cotopaxi''s developer surface includes authentication, support, signup flow, and 8 more developer resources.'
-random_paper: 13
+random_paper: 7
 scopes:
 - name: Cotopaxi Scopes
   scope_count: 4
@@ -111,7 +113,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.4
+  composite: 20.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -119,15 +121,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 51.7
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 20.3
+  previous_composite: 20.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -137,14 +139,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cotopaxi/refs/heads/main/screenshots/cotopaxi-2026-07-25T210504.png
+screenshot: https://apis.io/screenshots/cotopaxi/cotopaxi-2026-07-25T210504.png
 security:
 - kind: authentication
   name: Cotopaxi Authentication

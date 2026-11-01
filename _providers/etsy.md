@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.8
-  scored_at: '2026-10-17'
+  score: 34.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -237,7 +239,7 @@ arazzos:
 - description: Fetch a user profile, then resolve the shop that user owns.
   name: Etsy User Shop Profile
   slug: etsy-user-shop-profile-workflow
-artifact_total: 346
+artifact_total: 345
 asyncapis:
 - description: AsyncAPI description of Etsy's outbound webhook surface for the Open API v3. Etsy delivers event notifications by issuing HTTP POST requests with a JSON body to a subscriber-configured callback URL. S
   name: Etsy Open API v3 Webhooks
@@ -246,9 +248,6 @@ collections:
 - collection_type: postman
   name: Etsy Open API v3
   slug: postman-etsy-openapi-original
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Etsy Open API v3 BuyerTaxonomy API
   slug: open-etsy-buyertaxonomy-api
@@ -329,7 +328,7 @@ collections:
   slug: open-etsy-useraddress-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/capabilities/etsy-capability-edges.yml
+  href: https://artifacts.apis.io/etsy/capabilities/etsy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/etsy-capability-edges.yml
@@ -346,27 +345,27 @@ common:
   type: CodeOfConduct
   url: https://github.com/etsy/.github/blob/main/CODE_OF_CONDUCT.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/agentic-access/etsy-agentic-access.yml
+  href: https://artifacts.apis.io/etsy/agentic-access/etsy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/etsy-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/security/etsy-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/etsy/security/etsy-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/etsy-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/security/etsy-domain-security.yml
+  href: https://artifacts.apis.io/etsy/security/etsy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/etsy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/authentication/etsy-authentication.yml
+  href: https://artifacts.apis.io/etsy/authentication/etsy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/etsy-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/scopes/etsy-scopes.yml
+  href: https://artifacts.apis.io/etsy/scopes/etsy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/etsy-scopes.yml
@@ -375,92 +374,92 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/etsy/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-clone-image-to-new-listing-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-clone-image-to-new-listing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-clone-image-to-new-listing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-create-return-policy-and-listing-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-create-return-policy-and-listing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-create-return-policy-and-listing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-create-shipping-profile-and-listing-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-create-shipping-profile-and-listing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-create-shipping-profile-and-listing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-fulfill-receipt-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-fulfill-receipt-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-fulfill-receipt-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-get-my-shop-listings-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-get-my-shop-listings-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-get-my-shop-listings-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-listing-reviews-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-listing-reviews-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-listing-reviews-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-listing-with-inventory-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-listing-with-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-listing-with-inventory-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-organize-listing-into-section-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-organize-listing-into-section-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-organize-listing-into-section-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-process-unshipped-orders-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-process-unshipped-orders-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-process-unshipped-orders-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-publish-physical-listing-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-publish-physical-listing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-publish-physical-listing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-receipt-listings-detail-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-receipt-listings-detail-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-receipt-listings-detail-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-receipt-with-transactions-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-receipt-with-transactions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-receipt-with-transactions-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-reprice-listing-inventory-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-reprice-listing-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-reprice-listing-inventory-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-shop-reviews-overview-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-shop-reviews-overview-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-shop-reviews-overview-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-shop-shipping-profiles-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-shop-shipping-profiles-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-shop-shipping-profiles-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-shop-transactions-report-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-shop-transactions-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-shop-transactions-report-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-update-shop-storefront-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-update-shop-storefront-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-update-shop-storefront-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/arazzo/etsy-user-shop-profile-workflow.yml
+  href: https://artifacts.apis.io/etsy/arazzo/etsy-user-shop-profile-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/etsy-user-shop-profile-workflow.yml
@@ -525,27 +524,27 @@ common:
   type: CodeOfConduct
   url: https://etsy.github.io/codeofconduct.html
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/plans/etsy-plans-pricing.yml
+  href: https://artifacts.apis.io/etsy/plans/etsy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/etsy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/rate-limits/etsy-rate-limits.yml
+  href: https://artifacts.apis.io/etsy/rate-limits/etsy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/etsy-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/finops/etsy-finops.yml
+  href: https://artifacts.apis.io/etsy/finops/etsy-finops.yml
   title: ''
   type: FinOps
   url: finops/etsy-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/vocabulary/etsy-vocabulary.yml
+  href: https://artifacts.apis.io/etsy/vocabulary/etsy-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/etsy-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/rules/etsy-rules.yml
+  href: https://artifacts.apis.io/etsy/rules/etsy-rules.yml
   title: ''
   type: SpectralRules
   url: rules/etsy-rules.yml
@@ -1374,7 +1373,7 @@ plans:
 - name: Etsy Plans Pricing
   plan_count: 3
   slug: etsy-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Etsy Rate Limits
@@ -1422,7 +1421,7 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.3
+  composite: 52.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 58.0
@@ -1430,15 +1429,15 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 27.3
     contract_quality: 67.6
     developer_ergonomics: 44.0
     discoverability: 57.1
-    operational_transparency: 36.8
-  previous_composite: 58.7
+    operational_transparency: 55.3
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1452,13 +1451,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 36.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/screenshots/etsy-2026-06-20T180847.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/etsy/etsy-2026-06-20T180847.png
 security:
 - kind: authentication
   name: Etsy Authentication

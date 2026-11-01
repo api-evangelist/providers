@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: Trades, vessels, and other observed fact data.
   name: Kpler Facts API
   slug: kpler-facts-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kpler Direct Access Aggregations API
   slug: open-kpler-aggregations-api
@@ -85,17 +84,17 @@ collections:
   slug: open-kpler-facts-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/agentic-access/kpler-agentic-access.yml
+  href: https://artifacts.apis.io/kpler/agentic-access/kpler-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kpler-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/security/kpler-domain-security.yml
+  href: https://artifacts.apis.io/kpler/security/kpler-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kpler-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/authentication/kpler-authentication.yml
+  href: https://artifacts.apis.io/kpler/authentication/kpler-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kpler-authentication.yml
@@ -120,17 +119,17 @@ common:
   type: PostmanPublicWorkspace
   url: https://www.postman.com/kplerdev
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/plans/kpler-plans-pricing.yml
+  href: https://artifacts.apis.io/kpler/plans/kpler-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kpler-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/rate-limits/kpler-rate-limits.yml
+  href: https://artifacts.apis.io/kpler/rate-limits/kpler-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kpler-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/finops/kpler-finops.yml
+  href: https://artifacts.apis.io/kpler/finops/kpler-finops.yml
   title: ''
   type: FinOps
   url: finops/kpler-finops.yml
@@ -165,7 +164,7 @@ rate_limits:
   slug: kpler-rate-limits
 score:
   band: thin
-  composite: 28.2
+  composite: 28.9
   coverage:
     artifact_dirs: 11
     catalog_earned: 43.0
@@ -173,7 +172,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -181,7 +180,7 @@ score:
     developer_ergonomics: 38.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 36.5
+  previous_composite: 28.9
   provenance:
     agentic_access: derived
     contracts:
@@ -195,13 +194,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/screenshots/kpler-2026-07-25T224256.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kpler/kpler-2026-07-25T224256.png
 security:
 - kind: authentication
   name: Kpler Authentication

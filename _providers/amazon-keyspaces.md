@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -55,6 +57,16 @@ apis:
   description: Cassandra table management
   name: Amazon Keyspaces Tables API
   slug: amazon-keyspaces-tables-api
+- baseURL: https://cassandra.amazonaws.com
+  baseurl_source: declared
+  description: The Keyspaces Operations API from Amazon Keyspaces — 4 operation(s) for keyspaces operations.
+  name: Amazon Keyspaces Keyspaces Operations API
+  slug: amazon-keyspaces-operations-api
+- baseURL: https://cassandra.amazonaws.com
+  baseurl_source: declared
+  description: The Keyspaces Type API from Amazon Keyspaces — 4 operation(s) for keyspaces type.
+  name: Amazon Keyspaces Keyspaces Type API
+  slug: amazon-keyspaces-type-api
 arazzos:
 - description: Read a source table's schema and create a new table from it in a target keyspace.
   name: Amazon Keyspaces Clone Table Schema
@@ -74,14 +86,11 @@ arazzos:
 - description: Add columns to an existing table and wait for it to return to ACTIVE.
   name: Amazon Keyspaces Update Table Schema
   slug: amazon-keyspaces-update-table-schema-workflow
-artifact_total: 40
+artifact_total: 41
 collections:
 - collection_type: postman
   name: Amazon Keyspaces API
   slug: postman-amazon-keyspaces
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Keyspaces API
   slug: open-amazon-keyspaces-keyspaces-api
@@ -92,18 +101,23 @@ collections:
   name: Amazon Keyspaces API
   slug: open-amazon-keyspaces
 common:
+- group: other
+  href: https://artifacts.apis.io/amazon-keyspaces/capabilities/amazon-keyspaces-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-keyspaces-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/plans/amazon-keyspaces-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-keyspaces/plans/amazon-keyspaces-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-keyspaces-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/rate-limits/amazon-keyspaces-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-keyspaces/rate-limits/amazon-keyspaces-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-keyspaces-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/finops/amazon-keyspaces-finops.yml
+  href: https://artifacts.apis.io/amazon-keyspaces/finops/amazon-keyspaces-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-keyspaces-finops.yml
@@ -112,27 +126,27 @@ common:
   type: Website
   url: https://aws.amazon.com/keyspaces/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/agentic-access/amazon-keyspaces-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-keyspaces/agentic-access/amazon-keyspaces-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-keyspaces-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/security/amazon-keyspaces-trust-center.yml
+  href: https://artifacts.apis.io/amazon-keyspaces/security/amazon-keyspaces-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-keyspaces-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/security/amazon-keyspaces-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-keyspaces/security/amazon-keyspaces-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-keyspaces-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/security/amazon-keyspaces-domain-security.yml
+  href: https://artifacts.apis.io/amazon-keyspaces/security/amazon-keyspaces-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-keyspaces-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/authentication/amazon-keyspaces-authentication.yml
+  href: https://artifacts.apis.io/amazon-keyspaces/authentication/amazon-keyspaces-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-keyspaces-authentication.yml
@@ -141,32 +155,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-keyspaces/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/arazzo/amazon-keyspaces-clone-table-workflow.yml
+  href: https://artifacts.apis.io/amazon-keyspaces/arazzo/amazon-keyspaces-clone-table-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-keyspaces-clone-table-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/arazzo/amazon-keyspaces-decommission-keyspace-workflow.yml
+  href: https://artifacts.apis.io/amazon-keyspaces/arazzo/amazon-keyspaces-decommission-keyspace-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-keyspaces-decommission-keyspace-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/arazzo/amazon-keyspaces-keyspace-inventory-workflow.yml
+  href: https://artifacts.apis.io/amazon-keyspaces/arazzo/amazon-keyspaces-keyspace-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-keyspaces-keyspace-inventory-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/arazzo/amazon-keyspaces-provision-table-workflow.yml
+  href: https://artifacts.apis.io/amazon-keyspaces/arazzo/amazon-keyspaces-provision-table-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-keyspaces-provision-table-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/arazzo/amazon-keyspaces-restore-table-workflow.yml
+  href: https://artifacts.apis.io/amazon-keyspaces/arazzo/amazon-keyspaces-restore-table-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-keyspaces-restore-table-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/arazzo/amazon-keyspaces-update-table-schema-workflow.yml
+  href: https://artifacts.apis.io/amazon-keyspaces/arazzo/amazon-keyspaces-update-table-schema-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-keyspaces-update-table-schema-workflow.yml
@@ -235,12 +249,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/aws
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/rules/amazon-keyspaces-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-keyspaces/rules/amazon-keyspaces-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-keyspaces-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/vocabulary/amazon-keyspaces-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-keyspaces/vocabulary/amazon-keyspaces-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-keyspaces-vocabulary.yaml
@@ -267,11 +281,11 @@ features:
 - description: Choose on-demand or provisioned capacity mode with auto scaling for predictable workloads.
   name: Capacity Modes
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Keyspaces Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: amazon-keyspaces-finops
   template: true
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
@@ -299,18 +313,18 @@ modified: '2026-09-16'
 name: Amazon Keyspaces
 nav: Providers
 network: true
-overview: 'Amazon Keyspaces publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network, including Tables API, and 1 more. Tagged areas include Cassandra, Database, Managed Database, NoSQL, and Wide Column.
+overview: 'Amazon Keyspaces publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Tables API, Keyspaces Operations API, and 2 more. Tagged areas include Cassandra, Database, Managed Database, NoSQL, and Wide Column.
 
 
   The Amazon Keyspaces catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Keyspaces'' developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 27 more developer resources.'
+  Amazon Keyspaces'' developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 28 more developer resources.'
 plans:
 - name: Amazon Keyspaces Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: amazon-keyspaces-plans-pricing
-random_paper: 9
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Amazon Keyspaces Rate Limits
@@ -341,43 +355,49 @@ rules:
   slug: amazon-keyspaces-spectral-rules
 score:
   band: strong
-  composite: 60.7
+  composite: 62.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 66.0
+    artifact_dirs: 22
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: -5.7
   facets:
-    access_clarity: 68.4
+    access_clarity: 60.5
     contract_governance: 27.3
-    contract_quality: 61.0
-    developer_ergonomics: 77.4
+    contract_quality: 62.8
+    developer_ergonomics: 79.8
     discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 62.3
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 68.2
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 2
+      marker_coverage: 50.0
+      total: 4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/screenshots/amazon-keyspaces-2026-06-20T171716.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-keyspaces/amazon-keyspaces-2026-06-20T171716.png
 security:
 - kind: authentication
   name: Amazon Keyspaces Authentication

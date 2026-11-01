@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-17'
+  score: 28.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 233
   slug: smokeball-agentic-access
   summary_line: 233 operations · 118 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.smokeball.com
   baseurl_source: declared
@@ -215,11 +217,8 @@ apis:
   description: The Webhooks API from Smokeball — 4 operation(s) for webhooks.
   name: Smokeball Webhooks API
   slug: smokeball-webhooks-api
-artifact_total: 112
+artifact_total: 111
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Smokeball Activity Codes API
   slug: open-smokeball-activity-codes-api
@@ -324,7 +323,7 @@ collections:
   slug: open-smokeball-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/smokeball/refs/heads/main/capabilities/smokeball-capability-edges.yml
+  href: https://artifacts.apis.io/smokeball/capabilities/smokeball-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/smokeball-capability-edges.yml
@@ -333,17 +332,17 @@ common:
   type: IssueTracker
   url: https://github.com/smokeballdev/api-docs/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smokeball/refs/heads/main/agentic-access/smokeball-agentic-access.yml
+  href: https://artifacts.apis.io/smokeball/agentic-access/smokeball-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/smokeball-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smokeball/refs/heads/main/security/smokeball-domain-security.yml
+  href: https://artifacts.apis.io/smokeball/security/smokeball-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/smokeball-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smokeball/refs/heads/main/authentication/smokeball-authentication.yml
+  href: https://artifacts.apis.io/smokeball/authentication/smokeball-authentication.yml
   title: ''
   type: Authentication
   url: authentication/smokeball-authentication.yml
@@ -368,7 +367,7 @@ common:
   type: Blog
   url: https://www.smokeball.com/blog
 - group: company
-  href: https://raw.githubusercontent.com/api-evangelist/smokeball/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/smokeball/blogs/blogs.json
   title: ''
   type: BlogFeed
   url: blogs/blogs.json
@@ -385,17 +384,17 @@ common:
   type: X
   url: https://x.com/smokeballnews
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/smokeball/refs/heads/main/plans/smokeball-plans-pricing.yml
+  href: https://artifacts.apis.io/smokeball/plans/smokeball-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/smokeball-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/smokeball/refs/heads/main/rate-limits/smokeball-rate-limits.yml
+  href: https://artifacts.apis.io/smokeball/rate-limits/smokeball-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/smokeball-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/smokeball/refs/heads/main/finops/smokeball-finops.yml
+  href: https://artifacts.apis.io/smokeball/finops/smokeball-finops.yml
   title: ''
   type: FinOps
   url: finops/smokeball-finops.yml
@@ -538,7 +537,7 @@ plans:
 - name: Smokeball Plans Pricing
   plan_count: 4
   slug: smokeball-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Smokeball Rate Limits
@@ -557,7 +556,7 @@ rules:
   slug: smokeball-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.2
+  composite: 36.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 63.2
@@ -565,15 +564,15 @@ score:
     catalog_gap: 51.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.9
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 23.5
-    contract_quality: 64.1
-    developer_ergonomics: 11.9
+    contract_quality: 60.7
+    developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 43.1
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -587,13 +586,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/smokeball/refs/heads/main/screenshots/smokeball-2026-06-20T194100.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/smokeball/smokeball-2026-06-20T194100.png
 security:
 - kind: authentication
   name: Smokeball Authentication

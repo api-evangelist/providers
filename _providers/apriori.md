@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: http://localhost/api
@@ -47,11 +49,8 @@ apis:
   description: Workflows Controller
   name: aPriori Workflow API
   slug: apriori-workflow-api
-artifact_total: 8
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: aP Connect REST Agent API
   slug: open-apriori-agent-api
@@ -59,8 +58,13 @@ collections:
   name: aP Connect Agent REST Workflow API
   slug: open-apriori-workflow-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/apriori/plans/apriori-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apriori-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/overlays/apriori-ap-connect-agent-overlay.yaml
+  href: https://artifacts.apis.io/apriori/overlays/apriori-ap-connect-agent-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/apriori-ap-connect-agent-overlay.yaml
@@ -109,82 +113,90 @@ common:
   type: TermsOfService
   url: https://www.apriori.com/legal-notice/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/security/apriori-trust-center.yml
+  href: https://artifacts.apis.io/apriori/security/apriori-trust-center.yml
   title: ''
   type: Compliance
   url: security/apriori-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/security/apriori-trust-center.yml
+  href: https://artifacts.apis.io/apriori/security/apriori-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/apriori-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/security/apriori-domain-security.yml
+  href: https://artifacts.apis.io/apriori/security/apriori-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apriori-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/authentication/apriori-authentication.yml
+  href: https://artifacts.apis.io/apriori/authentication/apriori-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apriori-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/conventions/apriori-conventions.yml
+  href: https://artifacts.apis.io/apriori/conventions/apriori-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apriori-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/conformance/apriori-conformance.yml
+  href: https://artifacts.apis.io/apriori/conformance/apriori-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apriori-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/errors/apriori-problem-types.yml
+  href: https://artifacts.apis.io/apriori/errors/apriori-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apriori-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/lifecycle/apriori-lifecycle.yml
+  href: https://artifacts.apis.io/apriori/lifecycle/apriori-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apriori-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/changelog/apriori-changelog.yml
+  href: https://artifacts.apis.io/apriori/changelog/apriori-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/apriori-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/data-model/apriori-data-model.yml
+  href: https://artifacts.apis.io/apriori/data-model/apriori-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apriori-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/mcp/apriori-mcp.yml
+  href: https://artifacts.apis.io/apriori/mcp/apriori-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/apriori-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/mcp/apriori-tool-crosswalk.yml
+  href: https://artifacts.apis.io/apriori/mcp/apriori-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/apriori-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/apriori/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/llms/apriori-llms.txt
+  href: https://artifacts.apis.io/apriori/llms/apriori-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apriori-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/well-known/apriori-well-known.yml
+  href: https://artifacts.apis.io/apriori/well-known/apriori-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apriori-well-known.yml
 created: '2026-08-06'
 description: aPriori Technologies is a manufacturing insights software company founded in 2003 that simulates how a product will actually be made. Its platform ingests CAD geometry and returns should-cost estimates, design-for-manufacturability (DFM) guidance, routing and cycle-time analysis, and manufacturing carbon figures, so design, cost, sourcing and sustainability teams can act on production economics before tooling is cut. The product family covers aP Pro, aP Design, aP Generate, aP Analytics, aP Workspace and aiSource, delivered as aPriori Cloud or on-premise. Its public integration surface is aP Connect — a PLM/file-system connector plus a customer-installed Agent that carries a documented REST API for listing workflows, invoking REST-driven costing jobs, polling job state and retrieving per-part costing results, used to wire aPriori into Windchill, Teamcenter and file-system pipelines.
+finops:
+- has_sources: true
+  method: derived
+  name: Apriori Finops
+  primary_unit: ''
+  service_category: ''
+  slug: apriori-finops
+  template: true
 image: https://www.apriori.com/wp-content/uploads/2021/08/manufacturing-simulation-software-expert-partnership.jpg
 layout: provider
 modified: '2026-08-06'
@@ -194,27 +206,31 @@ network: true
 overview: 'aPriori publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Agent API and Workflow API. Tagged areas include Company, Manufacturing, product-cost-management, design-for-manufacturability, and should-cost.
 
 
-  aPriori''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 20 more developer resources.'
-random_paper: 10
+  aPriori''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
+plans:
+- name: Apriori Plans Pricing
+  plan_count: 0
+  slug: apriori-plans-pricing
+random_paper: 14
 score:
   band: developing
-  composite: 40.6
+  composite: 42.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 21
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 39.9
-    developer_ergonomics: 47.0
-    discoverability: 64.3
+    developer_ergonomics: 49.4
+    discoverability: 57.1
     operational_transparency: 15.8
-  previous_composite: 40.5
+  previous_composite: 42.4
   provenance:
     conformance: derived
     contracts:
@@ -230,13 +246,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/screenshots/apriori-2026-08-07T161510.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apriori/apriori-2026-08-07T161510.png
 security:
 - kind: authentication
   name: Apriori Authentication
@@ -250,6 +267,14 @@ security:
   name: Apriori Trust Center
   slug: apriori-trust-center
   summary_line: ISO/IEC 27001, SOC 2, GDPR
+skill_count: 3
+skills:
+- name: Monitor an aP Connect Agent and its jobs
+  slug: apriori-monitor-an-agent-and-its-jobs
+- name: Run a REST-driven costing job and collect results
+  slug: apriori-run-a-rest-driven-costing-job
+- name: Shut down an aP Connect Agent safely
+  slug: apriori-shut-down-an-agent-safely
 slug: apriori
 tags:
 - Company

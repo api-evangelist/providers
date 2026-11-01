@@ -14,21 +14,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/asocs/refs/heads/main/hosts/asocs-hosts.yml
+  href: https://artifacts.apis.io/asocs/hosts/asocs-hosts.yml
   title: ''
   type: Hosts
   url: hosts/asocs-hosts.yml
@@ -57,7 +59,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/asocscloud
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/asocs/refs/heads/main/security/asocs-domain-security.yml
+  href: https://artifacts.apis.io/asocs/security/asocs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/asocs-domain-security.yml
@@ -112,14 +114,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/asocs/refs/heads/main/screenshots/asocs-2026-10-11T100542.png
+screenshot: https://apis.io/screenshots/asocs/asocs-2026-10-11T100542.png
 security:
 - kind: domain-security
   name: Asocs Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The core jQuery API for DOM manipulation, event handling, AJAX, effects, animation, and other JavaScript utilities. Documents selectors, methods, and events for working with the DOM in a cross-browser
@@ -45,22 +47,22 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jquery/refs/heads/main/plans/jquery-plans-pricing.yml
+  href: https://artifacts.apis.io/jquery/plans/jquery-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jquery-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jquery/refs/heads/main/rate-limits/jquery-rate-limits.yml
+  href: https://artifacts.apis.io/jquery/rate-limits/jquery-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jquery-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jquery/refs/heads/main/finops/jquery-finops.yml
+  href: https://artifacts.apis.io/jquery/finops/jquery-finops.yml
   title: ''
   type: FinOps
   url: finops/jquery-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jquery/refs/heads/main/security/jquery-domain-security.yml
+  href: https://artifacts.apis.io/jquery/security/jquery-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jquery-domain-security.yml
@@ -110,7 +112,7 @@ finops:
 - has_sources: false
   method: generated
   name: Jquery Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: jquery-finops
   template: true
@@ -128,14 +130,14 @@ plans:
 - name: Jquery Plans Pricing
   plan_count: 3
   slug: jquery-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Jquery Rate Limits
   slug: jquery-rate-limits
 score:
   band: emerging
-  composite: 13.4
+  composite: 14.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 38.0
@@ -143,29 +145,29 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 33.3
+    developer_ergonomics: 35.7
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 15.0
+    operational_transparency: 13.2
+  previous_composite: 14.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jquery/refs/heads/main/screenshots/jquery-2026-06-20T183810.png
+screenshot: https://apis.io/screenshots/jquery/jquery-2026-06-20T183810.png
 security:
 - kind: domain-security
   name: Jquery Domain Security

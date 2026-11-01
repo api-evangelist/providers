@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credi2/refs/heads/main/security/credi2-domain-security.yml
+  href: https://artifacts.apis.io/credi2/security/credi2-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/credi2-domain-security.yml
@@ -58,7 +60,7 @@ common:
   type: PrivacyPolicy
   url: https://www.credi2.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/credi2/refs/heads/main/security/credi2-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/credi2/security/credi2-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/credi2-vulnerability-disclosure.yml
@@ -71,7 +73,7 @@ common:
   type: Compliance
   url: https://www.credi2.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/credi2/refs/heads/main/conformance/credi2-conformance.yml
+  href: https://artifacts.apis.io/credi2/conformance/credi2-conformance.yml
   title: ''
   type: Conformance
   url: conformance/credi2-conformance.yml
@@ -91,7 +93,7 @@ overview: 'Credi2 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Credi2''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 19
+random_paper: 17
 score:
   band: emerging
   composite: 13.5
@@ -119,14 +121,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/credi2/refs/heads/main/screenshots/credi2-2026-07-25T210713.png
+screenshot: https://apis.io/screenshots/credi2/credi2-2026-07-25T210713.png
 security:
 - kind: domain-security
   name: Credi2 Domain Security

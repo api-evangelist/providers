@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.4
-  scored_at: '2026-10-17'
+  score: 21.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://developer-mission.saildrone.com
@@ -51,11 +53,8 @@ apis:
   description: Mission time-series data across vehicle, atmospheric, oceanographic, and biogeochemical datasets
   name: Saildrone Time Series API
   slug: saildrone-time-series-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Saildrone Mission Authentication API
   slug: open-saildrone-authentication-api
@@ -67,7 +66,7 @@ collections:
   slug: open-saildrone-time-series-api
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/security/saildrone-domain-security.yml
+  href: https://artifacts.apis.io/saildrone/security/saildrone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/saildrone-domain-security.yml
@@ -160,22 +159,22 @@ common:
   type: YouTube
   url: https://www.youtube.com/@saildrone
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/plans/saildrone-plans-pricing.yml
+  href: https://artifacts.apis.io/saildrone/plans/saildrone-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/saildrone-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/rate-limits/saildrone-rate-limits.yml
+  href: https://artifacts.apis.io/saildrone/rate-limits/saildrone-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/saildrone-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/finops/saildrone-finops.yml
+  href: https://artifacts.apis.io/saildrone/finops/saildrone-finops.yml
   title: ''
   type: FinOps
   url: finops/saildrone-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/vocabulary/saildrone-vocabulary.yml
+  href: https://artifacts.apis.io/saildrone/vocabulary/saildrone-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/saildrone-vocabulary.yml
@@ -233,7 +232,7 @@ plans:
 - name: Saildrone Plans Pricing
   plan_count: 4
   slug: saildrone-plans-pricing
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Saildrone Rate Limits
@@ -263,24 +262,24 @@ rules:
     warn: 2
   slug: saildrone-rules
 score:
-  band: thin
-  composite: 28.6
+  band: emerging
+  composite: 17.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
-    contract_quality: 60.6
+    contract_quality: 14.3
     developer_ergonomics: 11.9
-    discoverability: 58.0
+    discoverability: 58.9
     operational_transparency: 13.2
-  previous_composite: 36.8
+  previous_composite: 17.8
   provenance:
     contracts:
       callable: 0.0
@@ -293,13 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/screenshots/saildrone-2026-06-20T193333.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/saildrone/saildrone-2026-06-20T193333.png
 security:
 - kind: domain-security
   name: Saildrone Domain Security

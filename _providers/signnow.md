@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -104,9 +106,6 @@ collections:
   name: SignNow REST Authentication Webhooks API
   slug: postman-signnow-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: SignNow REST Authentication API
   slug: open-signnow-authentication-api
 - collection_type: open
@@ -132,22 +131,22 @@ collections:
   slug: open-signnow
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/plans/signnow-plans-pricing.yml
+  href: https://artifacts.apis.io/signnow/plans/signnow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/signnow-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/rate-limits/signnow-rate-limits.yml
+  href: https://artifacts.apis.io/signnow/rate-limits/signnow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/signnow-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/finops/signnow-finops.yml
+  href: https://artifacts.apis.io/signnow/finops/signnow-finops.yml
   title: ''
   type: FinOps
   url: finops/signnow-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/capabilities/signnow-capability-edges.yml
+  href: https://artifacts.apis.io/signnow/capabilities/signnow-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/signnow-capability-edges.yml
@@ -160,17 +159,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/signnow/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/agentic-access/signnow-agentic-access.yml
+  href: https://artifacts.apis.io/signnow/agentic-access/signnow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/signnow-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/security/signnow-domain-security.yml
+  href: https://artifacts.apis.io/signnow/security/signnow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/signnow-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/authentication/signnow-authentication.yml
+  href: https://artifacts.apis.io/signnow/authentication/signnow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/signnow-authentication.yml
@@ -228,13 +227,13 @@ examples:
   name: Signnow Upload Document Example
   slug: signnow-upload-document-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Signnow Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: month / billed annually
+  service_category: ''
   slug: signnow-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/signnow.png
 json_schemas:
 - name: SignNow Document
@@ -270,9 +269,12 @@ overview: 'SignNow publishes 7 API contracts indexed on the [APIs.io](https://ap
   SignNow''s developer surface includes authentication, documentation, release notes, pricing, engineering blog, and 15 more developer resources.'
 plans:
 - name: Signnow Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: signnow-plans-pricing
-random_paper: 3
+- name: Signnow Price Estimates
+  plan_count: 0
+  slug: signnow-price-estimates
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Signnow Rate Limits
@@ -303,23 +305,23 @@ rules:
   slug: signnow-rules
 score:
   band: developing
-  composite: 41.0
+  composite: 50.8
   coverage:
     artifact_dirs: 21
-    catalog_earned: 50.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 64.5
+    catalog_earned: 62.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 71.1
     contract_governance: 13.6
     contract_quality: 54.6
     developer_ergonomics: 45.2
-    discoverability: 60.0
-    operational_transparency: 36.8
-  previous_composite: 42.5
+    discoverability: 56.7
+    operational_transparency: 39.5
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     contracts:
@@ -333,14 +335,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/screenshots/signnow-2026-06-20T193914.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/signnow/signnow-2026-06-20T193914.png
 security:
 - kind: authentication
   name: Signnow Authentication

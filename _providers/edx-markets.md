@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The EDX Markets institutional trading interface, delivered over the FIX protocol: FIX 5.0 SP2 order entry and drop copy plus FIX and binary (SBE) market data over a FIXT.1.1 session inside a mutually '
@@ -82,52 +84,52 @@ common:
   type: PrivacyPolicy
   url: https://edxmarkets.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/edx-markets/refs/heads/main/authentication/edx-markets-authentication.yml
+  href: https://artifacts.apis.io/edx-markets/authentication/edx-markets-authentication.yml
   title: ''
   type: Authentication
   url: authentication/edx-markets-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edx-markets/refs/heads/main/conventions/edx-markets-conventions.yml
+  href: https://artifacts.apis.io/edx-markets/conventions/edx-markets-conventions.yml
   title: ''
   type: Conventions
   url: conventions/edx-markets-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edx-markets/refs/heads/main/conformance/edx-markets-conformance.yml
+  href: https://artifacts.apis.io/edx-markets/conformance/edx-markets-conformance.yml
   title: ''
   type: Conformance
   url: conformance/edx-markets-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edx-markets/refs/heads/main/errors/edx-markets-error-codes.yml
+  href: https://artifacts.apis.io/edx-markets/errors/edx-markets-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/edx-markets-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/edx-markets/refs/heads/main/rate-limits/edx-markets-rate-limits.yml
+  href: https://artifacts.apis.io/edx-markets/rate-limits/edx-markets-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/edx-markets-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/edx-markets/refs/heads/main/sandbox/edx-markets-sandbox.yml
+  href: https://artifacts.apis.io/edx-markets/sandbox/edx-markets-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/edx-markets-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/edx-markets/refs/heads/main/changelog/edx-markets-changelog.yml
+  href: https://artifacts.apis.io/edx-markets/changelog/edx-markets-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/edx-markets-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edx-markets/refs/heads/main/lifecycle/edx-markets-lifecycle.yml
+  href: https://artifacts.apis.io/edx-markets/lifecycle/edx-markets-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/edx-markets-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/edx-markets/refs/heads/main/security/edx-markets-domain-security.yml
+  href: https://artifacts.apis.io/edx-markets/security/edx-markets-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/edx-markets-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/edx-markets/refs/heads/main/llms/edx-markets-llms.txt
+  href: https://artifacts.apis.io/edx-markets/llms/edx-markets-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/edx-markets-llms.txt
@@ -143,14 +145,14 @@ overview: 'EDX Markets is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   EDX Markets'' developer surface includes documentation, API reference, support, engineering blog, signup flow, pricing, authentication, and 13 more developer resources.'
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Edx Markets Rate Limits
   slug: edx-markets-rate-limits
 score:
   band: thin
-  composite: 33.2
+  composite: 32.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 40.0
@@ -158,20 +160,20 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - singapore
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 33.1
+  previous_composite: 32.5
   provenance:
     conformance: first-party
   regulatory:
@@ -180,14 +182,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/edx-markets/refs/heads/main/screenshots/edx-markets-2026-07-25T212920.png
+screenshot: https://apis.io/screenshots/edx-markets/edx-markets-2026-07-25T212920.png
 security:
 - kind: authentication
   name: Edx Markets Authentication

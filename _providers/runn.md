@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-17'
+  score: 38.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 9
@@ -198,50 +200,55 @@ apis:
   description: The Workstreams API from Runn — 2 operation(s) for workstreams.
   name: Runn Workstreams API
   slug: runn-workstreams-api
-artifact_total: 48
+artifact_total: 50
 common:
+- group: other
+  href: https://artifacts.apis.io/runn/capabilities/runn-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/runn-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/agentic-access/runn-agentic-access.yml
+  href: https://artifacts.apis.io/runn/agentic-access/runn-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/runn-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/rate-limits/runn-rate-limits.yml
+  href: https://artifacts.apis.io/runn/rate-limits/runn-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/runn-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/plans/runn-plans-pricing.yml
+  href: https://artifacts.apis.io/runn/plans/runn-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/runn-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/rules/runn-rules.yml
+  href: https://artifacts.apis.io/runn/rules/runn-rules.yml
   title: ''
   type: Spectral
   url: rules/runn-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/json-ld/runn-context.jsonld
+  href: https://artifacts.apis.io/runn/json-ld/runn-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/runn-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/vocabulary/runn-vocabulary.yml
+  href: https://artifacts.apis.io/runn/vocabulary/runn-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/runn-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/runn/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/data-model/runn-data-model.yml
+  href: https://artifacts.apis.io/runn/data-model/runn-data-model.yml
   title: ''
   type: DataModel
   url: data-model/runn-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/conventions/runn-conventions.yml
+  href: https://artifacts.apis.io/runn/conventions/runn-conventions.yml
   title: ''
   type: Conventions
   url: conventions/runn-conventions.yml
@@ -250,47 +257,47 @@ common:
   type: Compliance
   url: https://trust.runn.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/security/runn-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/runn/security/runn-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/runn-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/lifecycle/runn-lifecycle.yml
+  href: https://artifacts.apis.io/runn/lifecycle/runn-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/runn-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/errors/runn-problem-types.yml
+  href: https://artifacts.apis.io/runn/errors/runn-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/runn-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/conformance/runn-conformance.yml
+  href: https://artifacts.apis.io/runn/conformance/runn-conformance.yml
   title: ''
   type: Conformance
   url: conformance/runn-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/llms/runn-llms.txt
+  href: https://artifacts.apis.io/runn/llms/runn-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/runn-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/well-known/runn-help-security.txt
+  href: https://artifacts.apis.io/runn/well-known/runn-help-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/runn-help-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/well-known/runn-well-known.yml
+  href: https://artifacts.apis.io/runn/well-known/runn-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/runn-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/hosts/runn-hosts.yml
+  href: https://artifacts.apis.io/runn/hosts/runn-hosts.yml
   title: ''
   type: Hosts
   url: hosts/runn-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/vendors/runn-vendors.yml
+  href: https://artifacts.apis.io/runn/vendors/runn-vendors.yml
   title: ''
   type: Vendors
   url: vendors/runn-vendors.yml
@@ -303,22 +310,22 @@ common:
   type: Leadership
   url: https://www.runn.io/team/iryna-viter
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/authentication/runn-authentication.yml
+  href: https://artifacts.apis.io/runn/authentication/runn-authentication.yml
   title: ''
   type: Authentication
   url: authentication/runn-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/security/runn-trust-center.yml
+  href: https://artifacts.apis.io/runn/security/runn-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/runn-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/security/runn-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/runn/security/runn-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/runn-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runn/refs/heads/main/security/runn-domain-security.yml
+  href: https://artifacts.apis.io/runn/security/runn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/runn-domain-security.yml
@@ -369,6 +376,14 @@ coverage:
   state: gated
 created: '2026-10-14'
 description: Runn provides resource management and capacity planning software for teams handling technical projects. It helps organizations forecast staffing needs, schedule resources, track project progress, and analyze financials. Runn integrates with various tools and offers APIs for automating workflows, making it suitable for engineering, consulting, and agency environments. The platform emphasizes capacity planning, resource allocation, and data-driven decision making to improve efficiency and avoid burnout.
+finops:
+- has_sources: true
+  method: derived
+  name: Runn Finops
+  primary_unit: seat
+  service_category: ''
+  slug: runn-finops
+  template: false
 json_schemas:
 - name: ActualTimeEntry
   property_count: 10
@@ -398,18 +413,18 @@ modified: '2026-10-14'
 name: Runn
 nav: Providers
 network: true
-overview: 'Runn publishes 33 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity Log API, Actuals API, Assignments API, and 30 more. Tagged areas include Company, Resource-Management, Capacity-Planning, and Project-Management.
+overview: 'Runn publishes 33 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activity Log API, Actuals API, Assignments API, and 30 more. Tagged areas include Company, Resource Management, Capacity-Planning, and Project Management.
 
 
   The Runn catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Runn''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
+  Runn''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
 plans:
 - name: Runn Plans Pricing
   plan_count: 3
   slug: runn-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Runn Rate Limits
@@ -429,21 +444,23 @@ rules:
   slug: runn-rules
 score:
   band: strong
-  composite: 63.1
+  composite: 59.9
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 75.8
+    artifact_dirs: 24
+    catalog_earned: 78.8
     catalog_earned_first_party: 20.0
-    catalog_gap: 39.3
+    catalog_gap: 36.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.5
   facets:
-    access_clarity: 78.9
+    access_clarity: 86.8
     contract_governance: 22.0
-    contract_quality: 64.7
+    contract_quality: 61.3
     developer_ergonomics: 49.4
-    discoverability: 62.5
+    discoverability: 55.4
     operational_transparency: 47.4
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -460,11 +477,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 38.9
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Runn Authentication
@@ -482,11 +501,15 @@ security:
   name: Runn Trust Center
   slug: runn-trust-center
   summary_line: SOC 2
+skill_count: 1
+skills:
+- name: runn-create-client
+  slug: runn-create-client
 slug: runn
 tags:
 - Company
-- Resource-Management
+- Resource Management
 - Capacity-Planning
-- Project-Management
+- Project Management
 website: https://www.runn.io
 ---

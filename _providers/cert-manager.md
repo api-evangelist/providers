@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: The cert-manager API extends the Kubernetes API with custom resources including Certificate, Issuer, ClusterIssuer, CertificateRequest, and Order. These resources allow declarative management of TLS c
@@ -57,17 +59,17 @@ apis:
 artifact_total: 14
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cert-manager/refs/heads/main/plans/cert-manager-plans-pricing.yml
+  href: https://artifacts.apis.io/cert-manager/plans/cert-manager-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cert-manager-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cert-manager/refs/heads/main/rate-limits/cert-manager-rate-limits.yml
+  href: https://artifacts.apis.io/cert-manager/rate-limits/cert-manager-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cert-manager-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cert-manager/refs/heads/main/finops/cert-manager-finops.yml
+  href: https://artifacts.apis.io/cert-manager/finops/cert-manager-finops.yml
   title: ''
   type: FinOps
   url: finops/cert-manager-finops.yml
@@ -92,7 +94,7 @@ common:
   type: License
   url: https://github.com/cert-manager/cert-manager/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cert-manager/refs/heads/main/security/cert-manager-domain-security.yml
+  href: https://artifacts.apis.io/cert-manager/security/cert-manager-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cert-manager-domain-security.yml
@@ -129,17 +131,17 @@ common:
   type: ChangeLog
   url: https://github.com/cert-manager/cert-manager/releases
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cert-manager/refs/heads/main/json-schema/cert-manager-certificate-schema.json
+  href: https://artifacts.apis.io/cert-manager/json-schema/cert-manager-certificate-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cert-manager-certificate-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cert-manager/refs/heads/main/json-schema/cert-manager-issuer-schema.json
+  href: https://artifacts.apis.io/cert-manager/json-schema/cert-manager-issuer-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cert-manager-issuer-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cert-manager/refs/heads/main/json-ld/cert-manager-context.jsonld
+  href: https://artifacts.apis.io/cert-manager/json-ld/cert-manager-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cert-manager-context.jsonld
@@ -149,7 +151,7 @@ finops:
 - has_sources: false
   method: generated
   name: Cert Manager Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: cert-manager-finops
   template: true
@@ -182,7 +184,7 @@ plans:
 - name: Cert Manager Plans Pricing
   plan_count: 3
   slug: cert-manager-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Cert Manager Rate Limits
@@ -201,7 +203,7 @@ rules:
   slug: cert-manager-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.1
+  composite: 26.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 61.3
@@ -209,32 +211,29 @@ score:
     catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 22.7
-    developer_ergonomics: 31.0
+    developer_ergonomics: 33.3
     discoverability: 69.6
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 34.4
+    operational_transparency: 39.5
+  previous_composite: 26.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cert-manager/refs/heads/main/screenshots/cert-manager-2026-06-20T174140.png
+screenshot: https://apis.io/screenshots/cert-manager/cert-manager-2026-06-20T174140.png
 security:
 - kind: domain-security
   name: Cert Manager Domain Security

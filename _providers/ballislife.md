@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.5
-  scored_at: '2026-10-17'
+  score: 7.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL API endpoint discovered at shop.ballislife.com, but ownership could not be verified as belonging to Ballislife.
@@ -36,22 +38,22 @@ common:
   type: BlogRSS
   url: https://ballislife.com/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ballislife/refs/heads/main/llms/ballislife-llms.txt
+  href: https://artifacts.apis.io/ballislife/llms/ballislife-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ballislife-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ballislife/refs/heads/main/well-known/ballislife-well-known.yml
+  href: https://artifacts.apis.io/ballislife/well-known/ballislife-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ballislife-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ballislife/refs/heads/main/hosts/ballislife-hosts.yml
+  href: https://artifacts.apis.io/ballislife/hosts/ballislife-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ballislife-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ballislife/refs/heads/main/vendors/ballislife-vendors.yml
+  href: https://artifacts.apis.io/ballislife/vendors/ballislife-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ballislife-vendors.yml
@@ -76,7 +78,7 @@ common:
   type: Newsroom
   url: https://ballislife.com/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ballislife/refs/heads/main/security/ballislife-domain-security.yml
+  href: https://artifacts.apis.io/ballislife/security/ballislife-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ballislife-domain-security.yml
@@ -96,10 +98,10 @@ overview: 'Ballislife is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Ballislife''s developer surface includes signup flow, pricing, and 10 more developer resources.'
-random_paper: 13
+random_paper: 15
 score:
   band: emerging
-  composite: 14.4
+  composite: 13.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -113,9 +115,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 14.4
+  previous_composite: 13.7
   provenance:
     mcp: unknown
   regulatory:
@@ -124,14 +126,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ballislife/refs/heads/main/screenshots/ballislife-2026-10-11T101503.png
+screenshot: https://apis.io/screenshots/ballislife/ballislife-2026-10-11T101503.png
 security:
 - kind: domain-security
   name: Ballislife Domain Security

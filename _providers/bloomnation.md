@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: BlogRSS
   url: https://www.bloomnation.com/join/feed/podcast/bloomnation/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomnation/refs/heads/main/security/bloomnation-domain-security.yml
+  href: https://artifacts.apis.io/bloomnation/security/bloomnation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bloomnation-domain-security.yml
@@ -85,7 +87,7 @@ overview: 'BloomNation is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   BloomNation''s developer surface includes support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 20
+random_paper: 10
 score:
   band: emerging
   composite: 12.0
@@ -111,14 +113,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bloomnation/refs/heads/main/screenshots/bloomnation-2026-10-11T183833.png
+screenshot: https://apis.io/screenshots/bloomnation/bloomnation-2026-10-11T183833.png
 security:
 - kind: domain-security
   name: Bloomnation Domain Security

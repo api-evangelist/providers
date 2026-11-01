@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 65.1
-  scored_at: '2026-10-17'
+  score: 62.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: wss://ws.rhombussystems.com:8443/websocket
@@ -365,34 +367,34 @@ apis:
   description: The Webhook Integrations Webservice API from Rhombus Systems — 7 operation(s) for webhook integrations webservice.
   name: Rhombus Systems Webhook Integrations Webservice API
   slug: rhombus-systems-webhook-integrations-webservice-api
-artifact_total: 73
+artifact_total: 84
 asyncapis:
 - description: ''
   name: Rhombus Systems Webhooks
   slug: rhombus-systems-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/capabilities/rhombus-systems-capability-edges.yml
+  href: https://artifacts.apis.io/rhombus-systems/capabilities/rhombus-systems-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rhombus-systems-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/overlays/rhombus-systems-openapi-overlay.yaml
+  href: https://artifacts.apis.io/rhombus-systems/overlays/rhombus-systems-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rhombus-systems-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/security/rhombus-systems-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/rhombus-systems/security/rhombus-systems-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rhombus-systems-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/security/rhombus-systems-domain-security.yml
+  href: https://artifacts.apis.io/rhombus-systems/security/rhombus-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rhombus-systems-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/authentication/rhombus-systems-authentication.yml
+  href: https://artifacts.apis.io/rhombus-systems/authentication/rhombus-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rhombus-systems-authentication.yml
@@ -453,133 +455,141 @@ common:
   type: TrustCenter
   url: https://www.rhombus.com/trust/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/security/rhombus-systems-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/rhombus-systems/security/rhombus-systems-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/rhombus-systems-vulnerability-disclosure.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/packages/rhombus-systems-packages.yml
+  href: https://artifacts.apis.io/rhombus-systems/packages/rhombus-systems-packages.yml
   title: ''
   type: Packages
   url: packages/rhombus-systems-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/packages/rhombus-systems-packages.yml
+  href: https://artifacts.apis.io/rhombus-systems/packages/rhombus-systems-packages.yml
   title: ''
   type: SDKs
   url: packages/rhombus-systems-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/cli/rhombus-systems-cli.yml
+  href: https://artifacts.apis.io/rhombus-systems/cli/rhombus-systems-cli.yml
   title: ''
   type: CLI
   url: cli/rhombus-systems-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/components/rhombus-systems-components.yml
+  href: https://artifacts.apis.io/rhombus-systems/components/rhombus-systems-components.yml
   title: ''
   type: Components
   url: components/rhombus-systems-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/well-known/rhombus-systems-well-known.yml
+  href: https://artifacts.apis.io/rhombus-systems/well-known/rhombus-systems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rhombus-systems-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/well-known/rhombus-systems-api-catalog.json
+  href: https://artifacts.apis.io/rhombus-systems/well-known/rhombus-systems-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/rhombus-systems-api-catalog.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/well-known/rhombus-systems-security.txt
+  href: https://artifacts.apis.io/rhombus-systems/well-known/rhombus-systems-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/rhombus-systems-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/mcp/rhombus-systems-mcp.yml
+  href: https://artifacts.apis.io/rhombus-systems/mcp/rhombus-systems-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/rhombus-systems-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/mcp/rhombus-systems-tool-crosswalk.yml
+  href: https://artifacts.apis.io/rhombus-systems/mcp/rhombus-systems-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/rhombus-systems-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/a2a/rhombus-systems-a2a.yml
+  href: https://artifacts.apis.io/rhombus-systems/a2a/rhombus-systems-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/rhombus-systems-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rhombus-systems/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/llms/rhombus-systems-llms.txt
+  href: https://artifacts.apis.io/rhombus-systems/llms/rhombus-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rhombus-systems-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/conformance/rhombus-systems-conformance.yml
+  href: https://artifacts.apis.io/rhombus-systems/conformance/rhombus-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rhombus-systems-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/conformance/rhombus-systems-conformance.yml
+  href: https://artifacts.apis.io/rhombus-systems/conformance/rhombus-systems-conformance.yml
   title: ''
   type: Compliance
   url: conformance/rhombus-systems-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/errors/rhombus-systems-problem-types.yml
+  href: https://artifacts.apis.io/rhombus-systems/errors/rhombus-systems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rhombus-systems-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/lifecycle/rhombus-systems-lifecycle.yml
+  href: https://artifacts.apis.io/rhombus-systems/lifecycle/rhombus-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rhombus-systems-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/lifecycle/rhombus-systems-lifecycle.yml
+  href: https://artifacts.apis.io/rhombus-systems/lifecycle/rhombus-systems-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/rhombus-systems-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/conventions/rhombus-systems-conventions.yml
+  href: https://artifacts.apis.io/rhombus-systems/conventions/rhombus-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rhombus-systems-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/changelog/rhombus-systems-changelog.yml
+  href: https://artifacts.apis.io/rhombus-systems/changelog/rhombus-systems-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rhombus-systems-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/data-model/rhombus-systems-data-model.yml
+  href: https://artifacts.apis.io/rhombus-systems/data-model/rhombus-systems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rhombus-systems-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/plans/rhombus-systems-plans-pricing.yml
+  href: https://artifacts.apis.io/rhombus-systems/plans/rhombus-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rhombus-systems-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/rate-limits/rhombus-systems-rate-limits.yml
+  href: https://artifacts.apis.io/rhombus-systems/rate-limits/rhombus-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rhombus-systems-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/asyncapi/rhombus-systems-webhooks.yml
+  href: https://artifacts.apis.io/rhombus-systems/asyncapi/rhombus-systems-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/rhombus-systems-webhooks.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/asyncapi/rhombus-systems-console-websocket-asyncapi.json
+  href: https://artifacts.apis.io/rhombus-systems/asyncapi/rhombus-systems-console-websocket-asyncapi.json
   title: ''
   type: AsyncAPI
   url: asyncapi/rhombus-systems-console-websocket-asyncapi.json
 created: '2026-08-26'
 description: 'Rhombus Systems is a Sacramento, California enterprise physical-security platform that unifies AI-powered security cameras, door access control, environmental and IoT sensors, audio gateways and TMA Five Diamond alarm monitoring in a single cloud console. The platform is API-first: every feature in the web console, mobile apps and firmware is backed by the same public REST API, which publishes an OpenAPI 3.0 contract of 952 operations across 64 service groups covering cameras and video streaming, access control credentials and doors, lockdown plans, face recognition, license plate and vehicle recognition, scene query, occupancy and reporting, policy alerts, webhooks, partner/MSP org management, and SAML SSO with SCIM provisioning. Rhombus also ships an AsyncAPI 3.0 contract for its STOMP-over-WebSocket change-event stream, an RFC 9727 API catalog, RFC 9728/8414 OAuth discovery, an A2A agent card, an llms.txt family, a Model Context Protocol server, a Go CLI, a React SDK, and
   a published Claude Code skills library.'
+finops:
+- has_sources: true
+  method: derived
+  name: Rhombus Systems Finops
+  primary_unit: camera
+  service_category: ''
+  slug: rhombus-systems-finops
+  template: false
 image: https://rhombus.com/img/meta-homepage.png
 layout: provider
 mcp_servers:
@@ -599,7 +609,7 @@ overview: 'Rhombus Systems publishes 65 API contracts indexed on the [APIs.io](h
   Rhombus Systems'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 37 more developer resources.'
 plans:
 - name: Rhombus Systems Plans Pricing
-  plan_count: 4
+  plan_count: 12
   slug: rhombus-systems-plans-pricing
 random_paper: 21
 rate_limits:
@@ -607,24 +617,24 @@ rate_limits:
   name: Rhombus Systems Rate Limits
   slug: rhombus-systems-rate-limits
 score:
-  band: strong
-  composite: 64.0
+  band: exemplar
+  composite: 69.8
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 49.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 78.9
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 58.2
-    developer_ergonomics: 59.5
-    discoverability: 75.0
-    operational_transparency: 52.6
-  previous_composite: 63.9
+    developer_ergonomics: 78.6
+    discoverability: 65.0
+    operational_transparency: 63.2
+  previous_composite: 68.2
   provenance:
     conformance: first-party
     contracts:
@@ -640,13 +650,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/screenshots/rhombus-systems-2026-09-02T153758.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rhombus-systems/rhombus-systems-2026-09-02T153758.png
 security:
 - kind: authentication
   name: Rhombus Systems Authentication
@@ -664,6 +675,28 @@ security:
   name: Rhombus Systems Trust Center
   slug: rhombus-systems-trust-center
   summary_line: SOC 2, GDPR, HIPAA, PCI, BIPA, PIPEDA, CMMC, NIST, CJIS, NDAA, TAA
+skill_count: 10
+skills:
+- name: rhombus-cli
+  slug: rhombus-systems-cli-skill
+- name: rhombus-cross-client-reporting
+  slug: rhombus-systems-cross-client-reporting
+- name: rhombus-deployment-context
+  slug: rhombus-systems-deployment-context
+- name: rhombus-edge-streaming
+  slug: rhombus-systems-edge-streaming
+- name: rhombus-mind
+  slug: rhombus-systems-mind
+- name: rhombus-partner-cli
+  slug: rhombus-systems-partner-cli
+- name: rhombus-partner-onboarding
+  slug: rhombus-systems-partner-onboarding
+- name: rhombus-api
+  slug: rhombus-systems-rhombus-api
+- name: rhombus-sdk-codegen
+  slug: rhombus-systems-sdk-codegen
+- name: rhombus-webhook-receiver
+  slug: rhombus-systems-webhook-receiver
 slug: rhombus-systems
 tags:
 - Physical Security

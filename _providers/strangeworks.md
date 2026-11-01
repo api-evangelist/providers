@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The GraphQL API the Strangeworks Python SDK is built on. Exposes the workspace a user's API key belongs to, the compute backends available to it, and mutations for uploading workspace files, initiatin
@@ -46,7 +48,7 @@ apis:
 - description: The product-side GraphQL API used by compute products published on the Strangeworks platform to register and update backends, create and update jobs, upload job files, store resource configuration, an
   name: Strangeworks Products GraphQL API
   slug: products
-artifact_total: 6
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Strangeworks Webhooks
@@ -93,82 +95,82 @@ common:
   type: GitHubOrganization
   url: https://github.com/strangeworks
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/changelog/strangeworks-changelog.yml
+  href: https://artifacts.apis.io/strangeworks/changelog/strangeworks-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/strangeworks-changelog.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/graphql/strangeworks-sdk.graphql
+  href: https://artifacts.apis.io/strangeworks/graphql/strangeworks-sdk.graphql
   title: ''
   type: GraphQL
   url: graphql/strangeworks-sdk.graphql
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/packages/strangeworks-packages.yml
+  href: https://artifacts.apis.io/strangeworks/packages/strangeworks-packages.yml
   title: ''
   type: Packages
   url: packages/strangeworks-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/packages/strangeworks-packages.yml
+  href: https://artifacts.apis.io/strangeworks/packages/strangeworks-packages.yml
   title: ''
   type: SDKs
   url: packages/strangeworks-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/llms/strangeworks-llms.txt
+  href: https://artifacts.apis.io/strangeworks/llms/strangeworks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/strangeworks-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/authentication/strangeworks-authentication.yml
+  href: https://artifacts.apis.io/strangeworks/authentication/strangeworks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/strangeworks-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/conventions/strangeworks-conventions.yml
+  href: https://artifacts.apis.io/strangeworks/conventions/strangeworks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/strangeworks-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/errors/strangeworks-problem-types.yml
+  href: https://artifacts.apis.io/strangeworks/errors/strangeworks-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/strangeworks-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/lifecycle/strangeworks-lifecycle.yml
+  href: https://artifacts.apis.io/strangeworks/lifecycle/strangeworks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/strangeworks-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/conformance/strangeworks-conformance.yml
+  href: https://artifacts.apis.io/strangeworks/conformance/strangeworks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/strangeworks-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/data-model/strangeworks-data-model.yml
+  href: https://artifacts.apis.io/strangeworks/data-model/strangeworks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/strangeworks-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/asyncapi/strangeworks-webhooks.yml
+  href: https://artifacts.apis.io/strangeworks/asyncapi/strangeworks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/strangeworks-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/mcp/strangeworks-mcp.yml
+  href: https://artifacts.apis.io/strangeworks/mcp/strangeworks-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/strangeworks-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/mcp/strangeworks-tool-crosswalk.yml
+  href: https://artifacts.apis.io/strangeworks/mcp/strangeworks-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/strangeworks-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/strangeworks/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/security/strangeworks-domain-security.yml
+  href: https://artifacts.apis.io/strangeworks/security/strangeworks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/strangeworks-domain-security.yml
@@ -194,7 +196,7 @@ overview: 'Strangeworks is listed with 3 APIs on the [APIs.io](https://apis.io/)
 random_paper: 2
 score:
   band: developing
-  composite: 43.3
+  composite: 42.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -202,15 +204,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -1.4
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 46.9
     developer_ergonomics: 58.9
-    discoverability: 78.6
-    operational_transparency: 26.3
-  previous_composite: 42.7
+    discoverability: 71.4
+    operational_transparency: 28.9
+  previous_composite: 44.3
   provenance:
     conformance: derived
     mcp: derived
@@ -221,14 +223,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/screenshots/strangeworks-2026-08-17T082131.png
+screenshot: https://apis.io/screenshots/strangeworks/strangeworks-2026-08-17T082131.png
 security:
 - kind: authentication
   name: Strangeworks Authentication
@@ -238,6 +240,14 @@ security:
   name: Strangeworks Domain Security
   slug: strangeworks-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Discover which Strangeworks compute backends are available and online
+  slug: strangeworks-discover-backends
+- name: Submit a compute job to a Strangeworks resource and poll it to completion
+  slug: strangeworks-submit-and-poll-job
+- name: Subscribe to Strangeworks job events instead of polling
+  slug: strangeworks-webhook-job-events
 slug: strangeworks
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: 'Franchise Sales / Development module (path segment "fs"). Import and export franchise development leads, prospects, and the franchise sales pipeline used to recruit and qualify new franchisees. Exact '
@@ -58,17 +60,17 @@ common:
   type: BlogRSS
   url: https://www.franconnect.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/franconnect/refs/heads/main/security/franconnect-trust-center.yml
+  href: https://artifacts.apis.io/franconnect/security/franconnect-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/franconnect-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/franconnect/refs/heads/main/security/franconnect-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/franconnect/security/franconnect-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/franconnect-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/franconnect/refs/heads/main/security/franconnect-domain-security.yml
+  href: https://artifacts.apis.io/franconnect/security/franconnect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/franconnect-domain-security.yml
@@ -89,7 +91,7 @@ common:
   type: Documentation
   url: https://marketplace.franconnect.net/api-detail.html
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/franconnect/refs/heads/main/plans/franconnect-plans-pricing.yml
+  href: https://artifacts.apis.io/franconnect/plans/franconnect-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/franconnect-plans-pricing.yml
@@ -101,7 +103,7 @@ modified: '2026-10-06'
 name: FranConnect
 nav: Providers
 network: true
-overview: 'FranConnect is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Franchise Management, Franchise Development, Franchise Operations, Field Operations, and Multi-Location.
+overview: 'FranConnect is listed with 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Franchise Management, Franchise Development, Field Operations, Multi-Location, and CRM.
 
 
   FranConnect''s developer surface includes documentation and 8 more developer resources.'
@@ -109,10 +111,10 @@ plans:
 - name: Franconnect Plans Pricing
   plan_count: 1
   slug: franconnect-plans-pricing
-random_paper: 3
+random_paper: 17
 score:
   band: emerging
-  composite: 13.4
+  composite: 14.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 42.0
@@ -120,29 +122,29 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 71.4
-    operational_transparency: 0.0
-  previous_composite: 16.0
+    operational_transparency: 10.5
+  previous_composite: 14.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/franconnect/refs/heads/main/screenshots/franconnect-2026-07-25T215117.png
+screenshot: https://apis.io/screenshots/franconnect/franconnect-2026-07-25T215117.png
 security:
 - kind: domain-security
   name: Franconnect Domain Security
@@ -160,7 +162,6 @@ slug: franconnect
 tags:
 - Franchise Management
 - Franchise Development
-- Franchise Operations
 - Field Operations
 - Multi-Location
 - CRM

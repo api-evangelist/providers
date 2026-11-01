@@ -12,7 +12,8 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -21,21 +22,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 65.6
-  scored_at: '2026-10-17'
+  score: 52.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -163,15 +166,12 @@ apis:
     question: Which users can I see through the API?
   phrasing_ops: 1
   slug: unbounce-users-api
-artifact_total: 64
+artifact_total: 68
 asyncapis:
 - description: ''
   name: Unbounce Webhooks
   slug: unbounce-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Unbounce REST Accounts API
   slug: open-unbounce-accounts-api
@@ -198,7 +198,7 @@ collections:
   slug: open-unbounce
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/capabilities/unbounce-capability-edges.yml
+  href: https://artifacts.apis.io/unbounce/capabilities/unbounce-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/unbounce-capability-edges.yml
@@ -207,32 +207,32 @@ common:
   type: License
   url: https://github.com/unbounce/agent-plugins/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/agentic-access/unbounce-agentic-access.yml
+  href: https://artifacts.apis.io/unbounce/agentic-access/unbounce-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/unbounce-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/security/unbounce-trust-center.yml
+  href: https://artifacts.apis.io/unbounce/security/unbounce-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/unbounce-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/security/unbounce-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/unbounce/security/unbounce-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/unbounce-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/security/unbounce-domain-security.yml
+  href: https://artifacts.apis.io/unbounce/security/unbounce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unbounce-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/authentication/unbounce-authentication.yml
+  href: https://artifacts.apis.io/unbounce/authentication/unbounce-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unbounce-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/scopes/unbounce-scopes.yml
+  href: https://artifacts.apis.io/unbounce/scopes/unbounce-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/unbounce-scopes.yml
@@ -285,62 +285,62 @@ common:
   type: Community
   url: https://community.unbounce.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/raml/unbounce-api-v0.4.raml
+  href: https://artifacts.apis.io/unbounce/raml/unbounce-api-v0.4.raml
   title: ''
   type: RAML
   url: raml/unbounce-api-v0.4.raml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/json-schema/_index.yml
+  href: https://artifacts.apis.io/unbounce/json-schema/_index.yml
   title: ''
   type: JSONSchema
   url: json-schema/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/unbounce/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/mcp/unbounce-mcp.yml
+  href: https://artifacts.apis.io/unbounce/mcp/unbounce-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/unbounce-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/mcp/unbounce-tool-crosswalk.yml
+  href: https://artifacts.apis.io/unbounce/mcp/unbounce-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/unbounce-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/unbounce/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/llms/unbounce-llms.txt
+  href: https://artifacts.apis.io/unbounce/llms/unbounce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unbounce-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/well-known/unbounce-well-known.yml
+  href: https://artifacts.apis.io/unbounce/well-known/unbounce-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/unbounce-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/packages/unbounce-packages.yml
+  href: https://artifacts.apis.io/unbounce/packages/unbounce-packages.yml
   title: ''
   type: Packages
   url: packages/unbounce-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/conventions/unbounce-conventions.yml
+  href: https://artifacts.apis.io/unbounce/conventions/unbounce-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unbounce-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/errors/unbounce-problem-types.yml
+  href: https://artifacts.apis.io/unbounce/errors/unbounce-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/unbounce-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/conformance/unbounce-conformance.yml
+  href: https://artifacts.apis.io/unbounce/conformance/unbounce-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unbounce-conformance.yml
@@ -353,7 +353,7 @@ common:
   type: Security
   url: https://unbounce.com/security/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/lifecycle/unbounce-lifecycle.yml
+  href: https://artifacts.apis.io/unbounce/lifecycle/unbounce-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unbounce-lifecycle.yml
@@ -362,27 +362,27 @@ common:
   type: StatusPage
   url: https://status.unbounce.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/changelog/unbounce-changelog.yml
+  href: https://artifacts.apis.io/unbounce/changelog/unbounce-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/unbounce-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/data-model/unbounce-data-model.yml
+  href: https://artifacts.apis.io/unbounce/data-model/unbounce-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unbounce-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/asyncapi/unbounce-webhooks.yml
+  href: https://artifacts.apis.io/unbounce/asyncapi/unbounce-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/unbounce-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/plans/unbounce-plans-pricing.yml
+  href: https://artifacts.apis.io/unbounce/plans/unbounce-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/unbounce-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/rate-limits/unbounce-rate-limits.yml
+  href: https://artifacts.apis.io/unbounce/rate-limits/unbounce-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/unbounce-rate-limits.yml
@@ -467,6 +467,14 @@ examples:
 - key_count: 5
   name: Unbounce Users Self_Get
   slug: unbounce-users-self_get
+finops:
+- has_sources: true
+  method: derived
+  name: Unbounce Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: unbounce-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unbounce.png
 json_schemas:
 - name: Unbounce Account
@@ -543,7 +551,10 @@ plans:
 - name: Unbounce Plans Pricing
   plan_count: 6
   slug: unbounce-plans-pricing
-random_paper: 5
+- name: Unbounce Price Estimates
+  plan_count: 0
+  slug: unbounce-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Unbounce Rate Limits
@@ -555,23 +566,28 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 68.6
+  composite: 71.5
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 57.0
+    artifact_dirs: 31
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 56.4
     developer_ergonomics: 71.4
-    discoverability: 68.3
-    operational_transparency: 73.7
-  previous_composite: 68.5
+    discoverability: 65.0
+    operational_transparency: 76.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - canada
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 69.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -588,14 +604,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/screenshots/unbounce-2026-06-20T200015.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/unbounce/unbounce-2026-06-20T200015.png
 security:
 - kind: authentication
   name: Unbounce Authentication
@@ -613,6 +629,14 @@ security:
   name: Unbounce Trust Center
   slug: unbounce-trust-center
   summary_line: PCI DSS
+skill_count: 3
+skills:
+- name: mcp-feedback
+  slug: unbounce-mcp-feedback
+- name: mcp-modernize
+  slug: unbounce-mcp-modernize
+- name: mcp-page-authoring
+  slug: unbounce-mcp-page-authoring
 slug: unbounce
 tags:
 - Landing Pages

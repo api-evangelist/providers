@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,11 +65,8 @@ apis:
   description: Identify dates with absent satellite fire detection data
   name: NASA FIRMS Missing Data API
   slug: nasa-firms-missing-data-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NASA FIRMS Area Fire Detections API
   slug: open-nasa-firms-area-fire-detections-api
@@ -82,12 +81,12 @@ collections:
   slug: open-nasa-firms-missing-data-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/agentic-access/nasa-firms-agentic-access.yml
+  href: https://artifacts.apis.io/nasa-firms/agentic-access/nasa-firms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nasa-firms-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/security/nasa-firms-domain-security.yml
+  href: https://artifacts.apis.io/nasa-firms/security/nasa-firms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nasa-firms-domain-security.yml
@@ -128,27 +127,27 @@ common:
   type: Contact
   url: https://firms.modaps.eosdis.nasa.gov/contact/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/plans/nasa-firms-plans-pricing.yml
+  href: https://artifacts.apis.io/nasa-firms/plans/nasa-firms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nasa-firms-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/rate-limits/nasa-firms-rate-limits.yml
+  href: https://artifacts.apis.io/nasa-firms/rate-limits/nasa-firms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nasa-firms-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/finops/nasa-firms-finops.yml
+  href: https://artifacts.apis.io/nasa-firms/finops/nasa-firms-finops.yml
   title: ''
   type: FinOps
   url: finops/nasa-firms-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/vocabulary/nasa-firms-vocabulary.yml
+  href: https://artifacts.apis.io/nasa-firms/vocabulary/nasa-firms-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/nasa-firms-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/json-ld/nasa-firms-context.jsonld
+  href: https://artifacts.apis.io/nasa-firms/json-ld/nasa-firms-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/nasa-firms-context.jsonld
@@ -201,7 +200,7 @@ plans:
 - name: Nasa Firms Plans Pricing
   plan_count: 2
   slug: nasa-firms-plans-pricing
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Nasa Firms Rate Limits
@@ -228,7 +227,7 @@ score:
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 23.5
@@ -236,7 +235,7 @@ score:
     developer_ergonomics: 35.7
     discoverability: 57.1
     operational_transparency: 10.5
-  previous_composite: 44.4
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -250,14 +249,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/screenshots/nasa-firms-2026-06-20T185947.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nasa-firms/nasa-firms-2026-06-20T185947.png
 security:
 - kind: domain-security
   name: Nasa Firms Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 245
   human_in_the_loop: 5
@@ -95,11 +97,8 @@ apis:
   description: The user API from Forgejo — 54 operation(s) for user.
   name: Forgejo User API
   slug: forgejo-user-api
-artifact_total: 290
+artifact_total: 289
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Forgejo activitypub API
   slug: open-forgejo-activitypub-api
@@ -132,27 +131,27 @@ collections:
   slug: open-forgejo-user-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/capabilities/forgejo-capability-edges.yml
+  href: https://artifacts.apis.io/forgejo/capabilities/forgejo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/forgejo-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/agentic-access/forgejo-agentic-access.yml
+  href: https://artifacts.apis.io/forgejo/agentic-access/forgejo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/forgejo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/security/forgejo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/forgejo/security/forgejo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/forgejo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/security/forgejo-domain-security.yml
+  href: https://artifacts.apis.io/forgejo/security/forgejo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forgejo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/authentication/forgejo-authentication.yml
+  href: https://artifacts.apis.io/forgejo/authentication/forgejo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/forgejo-authentication.yml
@@ -189,17 +188,17 @@ common:
   type: Pricing
   url: https://forgejo.org
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/plans/forgejo-plans-pricing.yml
+  href: https://artifacts.apis.io/forgejo/plans/forgejo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/forgejo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/rate-limits/forgejo-rate-limits.yml
+  href: https://artifacts.apis.io/forgejo/rate-limits/forgejo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/forgejo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/finops/forgejo-finops.yml
+  href: https://artifacts.apis.io/forgejo/finops/forgejo-finops.yml
   title: ''
   type: FinOps
   url: finops/forgejo-finops.yml
@@ -1012,7 +1011,7 @@ modified: '2026-06-13'
 name: Forgejo
 nav: Providers
 network: true
-overview: 'Forgejo publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activitypub API, Admin API, Issue API, and 7 more. Tagged areas include Git, Version Control, Self-Hosted, DevOps, and CI/CD.
+overview: 'Forgejo publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Activitypub API, Admin API, Issue API, and 7 more. Tagged areas include Version Control, Self-Hosted, DevOps, CI/CD, and Open Source.
 
 
   The Forgejo catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -1023,7 +1022,7 @@ plans:
 - name: Forgejo Plans Pricing
   plan_count: 2
   slug: forgejo-plans-pricing
-random_paper: 0
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Forgejo Rate Limits
@@ -1042,7 +1041,7 @@ rules:
   slug: forgejo-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.2
+  composite: 29.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 42.3
@@ -1050,15 +1049,15 @@ score:
     catalog_gap: 72.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 43.6
+    contract_quality: 38.1
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 13.2
-  previous_composite: 34.5
+    operational_transparency: 31.6
+  previous_composite: 29.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1072,13 +1071,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/screenshots/forgejo-2026-06-20T181426.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/forgejo/forgejo-2026-06-20T181426.png
 security:
 - kind: authentication
   name: Forgejo Authentication
@@ -1094,7 +1094,6 @@ security:
   summary_line: security.txt · contact published
 slug: forgejo
 tags:
-- Git
 - Version Control
 - Self-Hosted
 - DevOps

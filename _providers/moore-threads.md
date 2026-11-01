@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: HTTP and WebSocket speech synthesis. A non-streaming POST /api/v1/tts/generate returns a complete wav/mp3 for up to 300 characters; a WebSocket /api/v2/tts/stream_generate streams base64 PCM chunks wi
@@ -52,7 +54,7 @@ apis:
 - description: An LLM inference endpoint operated on Moore Threads MTT S5000 GPUs and sold as a subscription for AI coding tools. It speaks two wire protocols from one host — the Anthropic Messages protocol at the r
   name: KUAE Cloud Coding Plan API
   slug: kuae-cloud-coding-plan-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Moore Threads Webhooks
@@ -107,83 +109,91 @@ common:
   type: PrivacyPolicy
   url: https://www.mthreads.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/authentication/moore-threads-authentication.yml
+  href: https://artifacts.apis.io/moore-threads/authentication/moore-threads-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moore-threads-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/errors/moore-threads-error-codes.yml
+  href: https://artifacts.apis.io/moore-threads/errors/moore-threads-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/moore-threads-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/conventions/moore-threads-conventions.yml
+  href: https://artifacts.apis.io/moore-threads/conventions/moore-threads-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moore-threads-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/rate-limits/moore-threads-rate-limits.yml
+  href: https://artifacts.apis.io/moore-threads/rate-limits/moore-threads-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/moore-threads-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/plans/moore-threads-plans-pricing.yml
+  href: https://artifacts.apis.io/moore-threads/plans/moore-threads-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moore-threads-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/packages/moore-threads-packages.yml
+  href: https://artifacts.apis.io/moore-threads/packages/moore-threads-packages.yml
   title: ''
   type: Packages
   url: packages/moore-threads-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/packages/moore-threads-packages.yml
+  href: https://artifacts.apis.io/moore-threads/packages/moore-threads-packages.yml
   title: ''
   type: SDKs
   url: packages/moore-threads-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/llms/moore-threads-llms.txt
+  href: https://artifacts.apis.io/moore-threads/llms/moore-threads-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moore-threads-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/lifecycle/moore-threads-lifecycle.yml
+  href: https://artifacts.apis.io/moore-threads/lifecycle/moore-threads-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moore-threads-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/changelog/moore-threads-changelog.yml
+  href: https://artifacts.apis.io/moore-threads/changelog/moore-threads-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/moore-threads-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/conformance/moore-threads-conformance.yml
+  href: https://artifacts.apis.io/moore-threads/conformance/moore-threads-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moore-threads-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/security/moore-threads-domain-security.yml
+  href: https://artifacts.apis.io/moore-threads/security/moore-threads-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moore-threads-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/asyncapi/moore-threads-webhooks.yml
+  href: https://artifacts.apis.io/moore-threads/asyncapi/moore-threads-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/moore-threads-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/sandbox/moore-threads-sandbox.yml
+  href: https://artifacts.apis.io/moore-threads/sandbox/moore-threads-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/moore-threads-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/components/moore-threads-components.yml
+  href: https://artifacts.apis.io/moore-threads/components/moore-threads-components.yml
   title: ''
   type: Components
   url: components/moore-threads-components.yml
 created: '2026-08-26'
 description: 'Moore Threads (摩尔线程智能科技) is a Chinese GPU company founded in June 2020 that builds full-function GPUs and the MUSA (Meta-computing Unified System Architecture) software stack — a CUDA-alternative programming environment covering the MUSA SDK, muDNN, muBLAS, MCCL, Triton-MUSA and the Musify CUDA-porting toolkit. Alongside the silicon and the SDK it operates a small but real public API surface: the AIBook speech platform (HTTP and WebSocket text-to-speech, streaming and recording-file speech recognition, and streaming voice conversion on aibook-api.mthreads.com), the KUAE Cloud (夸娥云) Coding Plan — an OpenAI- and Anthropic-compatible LLM inference endpoint at coding-plan-endpoint.kuaecloud.net serving GLM-4.7 on MTT S5000 GPUs — and the "摩影元像" digital-human Web SDK distributed on npm as `mtai`. None of these surfaces publishes a machine-readable contract; every operation is documented as prose, parameter tables and curl/Python samples on docs.mthreads.com, and access tokens are
   issued by contacting sales.'
+finops:
+- has_sources: true
+  method: derived
+  name: Moore Threads Finops
+  primary_unit: ''
+  service_category: ''
+  slug: moore-threads-finops
+  template: true
 image: https://www.mthreads.com/favicon/logo.png
 layout: provider
 modified: '2026-08-26'
@@ -207,23 +217,23 @@ rate_limits:
   name: Moore Threads Rate Limits
   slug: moore-threads-rate-limits
 score:
-  band: developing
-  composite: 48.1
+  band: strong
+  composite: 55.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.8
+  delta: 0.0
   facets:
-    access_clarity: 59.2
+    access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 58.3
+    developer_ergonomics: 71.4
     discoverability: 71.4
-    operational_transparency: 57.9
+    operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -231,7 +241,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 46.3
+  previous_composite: 55.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -240,15 +250,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 22.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/screenshots/moore-threads-2026-09-02T150738.png
+screenshot: https://apis.io/screenshots/moore-threads/moore-threads-2026-09-02T150738.png
 security:
 - kind: authentication
   name: Moore Threads Authentication

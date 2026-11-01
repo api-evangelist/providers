@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: GraphQL API for MSPs covering clients, tickets, assets, users, invoices, knowledge base, and service catalog. US and EU data centers.
@@ -44,8 +46,13 @@ apis:
 - description: GraphQL API for internal IT teams covering assets, tickets, users, knowledge base, service catalog, and IT documentation. US and EU data centers.
   name: SuperOps IT GraphQL API
   slug: superops-it-graphql-api
-artifact_total: 7
+artifact_total: 11
 common:
+- group: commercial
+  href: https://artifacts.apis.io/superops/plans/superops-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/superops-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -95,32 +102,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/superopsai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superops/refs/heads/main/authentication/superops-authentication.yml
+  href: https://artifacts.apis.io/superops/authentication/superops-authentication.yml
   title: ''
   type: Authentication
   url: authentication/superops-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superops/refs/heads/main/conventions/superops-conventions.yml
+  href: https://artifacts.apis.io/superops/conventions/superops-conventions.yml
   title: ''
   type: Conventions
   url: conventions/superops-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/superops/refs/heads/main/rate-limits/superops-rate-limits.yml
+  href: https://artifacts.apis.io/superops/rate-limits/superops-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/superops-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superops/refs/heads/main/errors/superops-error-codes.yml
+  href: https://artifacts.apis.io/superops/errors/superops-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/superops-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superops/refs/heads/main/lifecycle/superops-lifecycle.yml
+  href: https://artifacts.apis.io/superops/lifecycle/superops-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/superops-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superops/refs/heads/main/conformance/superops-conformance.yml
+  href: https://artifacts.apis.io/superops/conformance/superops-conformance.yml
   title: ''
   type: Conformance
   url: conformance/superops-conformance.yml
@@ -129,12 +136,12 @@ common:
   type: Compliance
   url: https://superops.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superops/refs/heads/main/security/superops-trust-center.yml
+  href: https://artifacts.apis.io/superops/security/superops-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/superops-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superops/refs/heads/main/security/superops-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/superops/security/superops-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/superops-vulnerability-disclosure.yml
@@ -143,32 +150,40 @@ common:
   type: Security
   url: https://superops.com/security/responsible-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superops/refs/heads/main/security/superops-domain-security.yml
+  href: https://artifacts.apis.io/superops/security/superops-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/superops-domain-security.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/superops/refs/heads/main/changelog/superops-changelog.yml
+  href: https://artifacts.apis.io/superops/changelog/superops-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/superops-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superops/refs/heads/main/mcp/superops-mcp.yml
+  href: https://artifacts.apis.io/superops/mcp/superops-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/superops-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superops/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/superops/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superops/refs/heads/main/llms/superops-llms.txt
+  href: https://artifacts.apis.io/superops/llms/superops-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/superops-llms.txt
 created: '2026-07-17'
 description: SuperOps is a unified PSA (Professional Services Automation) and RMM (Remote Monitoring and Management) platform for managed service providers (MSPs) and internal IT teams, spanning service desk and ticketing, endpoint monitoring, patch management, asset and IT documentation, project management, billing and invoicing, and AI-assisted operations. SuperOps exposes a public GraphQL API with separate MSP and IT surfaces across US and EU data centers, giving programmatic access to clients, tickets, assets, users, invoices, knowledge base, and service catalog data. Requests authenticate with a bearer API token plus a CustomerSubDomain header and are limited to 800 requests per minute.
+finops:
+- has_sources: true
+  method: derived
+  name: Superops Finops
+  primary_unit: ''
+  service_category: ''
+  slug: superops-finops
+  template: true
 image: https://us-west-2.graphassets.com/AsRMKMrtKTFW6TGbr4KgUz/cmo8lbrrc1xga07n3l58jhure
 layout: provider
 modified: '2026-07-21'
@@ -178,31 +193,35 @@ network: true
 overview: 'SuperOps is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, It Management Software, PSA, RMM, and MSP.
 
 
-  SuperOps'' developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 17
+  SuperOps'' developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
+plans:
+- name: Superops Plans Pricing
+  plan_count: 2
+  slug: superops-plans-pricing
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Superops Rate Limits
   slug: superops-rate-limits
 score:
   band: developing
-  composite: 43.9
+  composite: 48.8
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 18
+    catalog_earned: 53.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 60.5
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 57.9
-  previous_composite: 43.9
+    discoverability: 66.1
+    operational_transparency: 68.4
+  previous_composite: 44.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -219,14 +238,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/superops/refs/heads/main/screenshots/superops-2026-09-02T161249.png
+screenshot: https://apis.io/screenshots/superops/superops-2026-09-02T161249.png
 security:
 - kind: authentication
   name: Superops Authentication
@@ -244,6 +263,12 @@ security:
   name: Superops Trust Center
   slug: superops-trust-center
   summary_line: SOC 2 Type 2, ISO 27001, HIPAA, GDPR
+skill_count: 2
+skills:
+- name: Manage SuperOps clients and invoices
+  slug: superops-manage-clients-and-invoices
+- name: Manage SuperOps service desk tickets
+  slug: superops-manage-tickets
 slug: superops
 tags:
 - Company

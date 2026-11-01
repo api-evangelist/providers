@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: JWT-authenticated REST and webhook API for employee-transport integration. Partners authenticate at api.moveinsync.com/auth/token (OAuth2 client-credentials over HTTP Basic) to obtain a 24-hour JWT, t
@@ -46,22 +48,22 @@ asyncapis:
   slug: moveinsync-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moveinsync/refs/heads/main/authentication/moveinsync-authentication.yml
+  href: https://artifacts.apis.io/moveinsync/authentication/moveinsync-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moveinsync-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moveinsync/refs/heads/main/conventions/moveinsync-conventions.yml
+  href: https://artifacts.apis.io/moveinsync/conventions/moveinsync-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moveinsync-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moveinsync/refs/heads/main/asyncapi/moveinsync-webhooks.yml
+  href: https://artifacts.apis.io/moveinsync/asyncapi/moveinsync-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/moveinsync-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moveinsync/refs/heads/main/conformance/moveinsync-conformance.yml
+  href: https://artifacts.apis.io/moveinsync/conformance/moveinsync-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moveinsync-conformance.yml
@@ -70,17 +72,17 @@ common:
   type: Compliance
   url: https://moveinsync.com/us
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moveinsync/refs/heads/main/llms/moveinsync-llms.txt
+  href: https://artifacts.apis.io/moveinsync/llms/moveinsync-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moveinsync-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moveinsync/refs/heads/main/well-known/moveinsync-well-known.yml
+  href: https://artifacts.apis.io/moveinsync/well-known/moveinsync-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/moveinsync-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moveinsync/refs/heads/main/security/moveinsync-domain-security.yml
+  href: https://artifacts.apis.io/moveinsync/security/moveinsync-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moveinsync-domain-security.yml
@@ -127,12 +129,12 @@ overview: 'MoveInSync is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   MoveInSync''s developer surface includes authentication, documentation, support, engineering blog, and 11 more developer resources.'
-random_paper: 21
+random_paper: 19
 score:
   band: thin
-  composite: 35.8
+  composite: 35.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -144,9 +146,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 38.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 35.8
+  previous_composite: 35.1
   provenance:
     conformance: first-party
   regulatory:
@@ -155,14 +157,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/moveinsync/refs/heads/main/screenshots/moveinsync-2026-08-07T184350.png
+screenshot: https://apis.io/screenshots/moveinsync/moveinsync-2026-08-07T184350.png
 security:
 - kind: authentication
   name: Moveinsync Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Create and retrieve shipment notifications (EDI 856) containing containerized data, tracking numbers, and fulfillment details for shipped order items.
   name: Toys R Us Shipments API
   slug: toys-r-us-shipments-api
-artifact_total: 25
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Toys R Us Commerce Acknowledgements API
   slug: open-toys-r-us-acknowledgements-api
@@ -95,37 +94,37 @@ collections:
   slug: open-toys-r-us-shipments-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/plans/toys-r-us-plans-pricing.yml
+  href: https://artifacts.apis.io/toys-r-us/plans/toys-r-us-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/toys-r-us-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/rate-limits/toys-r-us-rate-limits.yml
+  href: https://artifacts.apis.io/toys-r-us/rate-limits/toys-r-us-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/toys-r-us-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/finops/toys-r-us-finops.yml
+  href: https://artifacts.apis.io/toys-r-us/finops/toys-r-us-finops.yml
   title: ''
   type: FinOps
   url: finops/toys-r-us-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/capabilities/toys-r-us-capability-edges.yml
+  href: https://artifacts.apis.io/toys-r-us/capabilities/toys-r-us-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/toys-r-us-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/agentic-access/toys-r-us-agentic-access.yml
+  href: https://artifacts.apis.io/toys-r-us/agentic-access/toys-r-us-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/toys-r-us-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/security/toys-r-us-domain-security.yml
+  href: https://artifacts.apis.io/toys-r-us/security/toys-r-us-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/toys-r-us-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/authentication/toys-r-us-authentication.yml
+  href: https://artifacts.apis.io/toys-r-us/authentication/toys-r-us-authentication.yml
   title: ''
   type: Authentication
   url: authentication/toys-r-us-authentication.yml
@@ -166,7 +165,7 @@ finops:
 - has_sources: false
   method: generated
   name: Toys R Us Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: toys-r-us-finops
   template: true
@@ -216,7 +215,7 @@ press:
 - date: ''
   title: Toys 'R' Us calls AI-made video successful despite criticism
   url: https://www.nbcnews.com/tech/internet/toys-r-us-ai-video-ad-controversy-explained-commercial-rcna159030
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Toys R Us Rate Limits
@@ -247,7 +246,7 @@ rules:
   slug: toys-r-us-rules
 score:
   band: thin
-  composite: 36.0
+  composite: 34.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 65.4
@@ -255,7 +254,7 @@ score:
     catalog_gap: 49.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
@@ -263,7 +262,7 @@ score:
     developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 37.5
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -277,13 +276,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/screenshots/toys-r-us-2026-06-20T195516.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/toys-r-us/toys-r-us-2026-06-20T195516.png
 security:
 - kind: authentication
   name: Toys R Us Authentication

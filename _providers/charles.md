@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 23
   slug: charles-agentic-access
   summary_line: 23 operations · 5 acting
-api_count: 6
+api_count: 5
 apis:
 - baseURL: https://lindat.mff.cuni.cz/services/translation/api/v2
   baseurl_source: declared
@@ -108,11 +110,8 @@ apis:
 - description: cuni.figshare.com is a Figshare tenancy for Charles University; DNS resolves it by CNAME to figshare.com. The host answered an AWS WAF bot challenge (HTTP 202, empty body) on 2026-09-01, so the tenanc
   name: Charles University Figshare — Figshare tenancy
   slug: figshare-repository
-artifact_total: 42
+artifact_total: 41
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LINDAT Translation languages API
   slug: open-charles-languages-api
@@ -188,42 +187,42 @@ common:
   type: SecurityTxt
   url: https://www.cuni.cz/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/security/charles-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/charles/security/charles-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/charles-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/security/charles-domain-security.yml
+  href: https://artifacts.apis.io/charles/security/charles-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/charles-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/agentic-access/charles-agentic-access.yml
+  href: https://artifacts.apis.io/charles/agentic-access/charles-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/charles-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/conformance/charles-education-standards-conformance.yml
+  href: https://artifacts.apis.io/charles/conformance/charles-education-standards-conformance.yml
   title: ''
   type: Conformance
   url: conformance/charles-education-standards-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/plans/charles-plans-pricing.yml
+  href: https://artifacts.apis.io/charles/plans/charles-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/charles-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/rate-limits/charles-rate-limits.yml
+  href: https://artifacts.apis.io/charles/rate-limits/charles-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/charles-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/finops/charles-finops.yml
+  href: https://artifacts.apis.io/charles/finops/charles-finops.yml
   title: ''
   type: FinOps
   url: finops/charles-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/charles/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -299,7 +298,7 @@ plans:
 - name: Charles Plans Pricing
   plan_count: 2
   slug: charles-plans-pricing
-random_paper: 12
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Charles Rate Limits
@@ -329,7 +328,7 @@ rules:
   slug: charles-rules
 score:
   band: thin
-  composite: 32.9
+  composite: 35.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 55.3
@@ -337,21 +336,21 @@ score:
     catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 48.6
     developer_ergonomics: 33.3
     discoverability: 82.1
-    operational_transparency: 7.9
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - cee
     - europe
-  previous_composite: 39.0
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -366,13 +365,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/screenshots/charles-2026-06-20T174227.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/charles/charles-2026-06-20T174227.png
 security:
 - kind: domain-security
   name: Charles Domain Security

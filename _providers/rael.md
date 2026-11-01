@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Rael's agent-facing commerce interface. The store implements the Universal Commerce Protocol (UCP) 2026-04-08 and exposes it over MCP at https://www.getrael.com/api/ucp/mcp. An anonymous tools/list re
@@ -45,79 +47,79 @@ apis:
 - description: The Shopify Storefront GraphQL API as served on Rael's own domain, anonymous and fully introspectable. A live IntrospectionQuery returned 422 types with QueryRoot (34 query fields) and Mutation (41 mu
   name: Rael Storefront GraphQL API
   slug: rael-storefront-graphql
-artifact_total: 8
+artifact_total: 10
 common:
 - group: company
   title: ''
   type: Website
   url: https://www.getrael.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/llms/rael-llms.txt
+  href: https://artifacts.apis.io/rael/llms/rael-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rael-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/mcp/rael-mcp.yml
+  href: https://artifacts.apis.io/rael/mcp/rael-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/rael-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/well-known/rael-well-known.yml
+  href: https://artifacts.apis.io/rael/well-known/rael-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rael-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/authentication/rael-authentication.yml
+  href: https://artifacts.apis.io/rael/authentication/rael-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rael-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/scopes/rael-scopes.yml
+  href: https://artifacts.apis.io/rael/scopes/rael-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/rael-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/conformance/rael-conformance.yml
+  href: https://artifacts.apis.io/rael/conformance/rael-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rael-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/conventions/rael-conventions.yml
+  href: https://artifacts.apis.io/rael/conventions/rael-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rael-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/errors/rael-problem-types.yml
+  href: https://artifacts.apis.io/rael/errors/rael-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rael-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/lifecycle/rael-lifecycle.yml
+  href: https://artifacts.apis.io/rael/lifecycle/rael-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rael-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/rate-limits/rael-rate-limits.yml
+  href: https://artifacts.apis.io/rael/rate-limits/rael-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rael-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/plans/rael-plans-pricing.yml
+  href: https://artifacts.apis.io/rael/plans/rael-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rael-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/data-model/rael-data-model.yml
+  href: https://artifacts.apis.io/rael/data-model/rael-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rael-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rael/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/security/rael-domain-security.yml
+  href: https://artifacts.apis.io/rael/security/rael-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rael-domain-security.yml
@@ -146,22 +148,22 @@ common:
   type: PrivacyPolicy
   url: https://www.getrael.com/policies/privacy-policy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/graphql/rael-storefront.graphql
+  href: https://artifacts.apis.io/rael/graphql/rael-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/rael-storefront.graphql
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/mcp/rael-tool-crosswalk.yml
+  href: https://artifacts.apis.io/rael/mcp/rael-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/rael-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/conventions/rael-conventions.yml
+  href: https://artifacts.apis.io/rael/conventions/rael-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/rael-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/packages/rael-packages.yml
+  href: https://artifacts.apis.io/rael/packages/rael-packages.yml
   title: ''
   type: Packages
   url: packages/rael-packages.yml
@@ -190,7 +192,7 @@ plans:
 - name: Rael Plans Pricing
   plan_count: 0
   slug: rael-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Rael Rate Limits
@@ -202,7 +204,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 28.3
+  composite: 27.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -216,9 +218,9 @@ score:
     contract_governance: 18.2
     contract_quality: 10.4
     developer_ergonomics: 30.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 28.3
+  previous_composite: 27.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -229,14 +231,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rael/refs/heads/main/screenshots/rael-2026-09-02T152824.png
+screenshot: https://apis.io/screenshots/rael/rael-2026-09-02T152824.png
 security:
 - kind: authentication
   name: Rael Authentication
@@ -246,6 +248,12 @@ security:
   name: Rael Domain Security
   slug: rael-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: rael-agent-purchase
+  slug: rael-agent-purchase
+- name: rael-catalog-lookup
+  slug: rael-catalog-lookup
 slug: rael
 tags:
 - Company

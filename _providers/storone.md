@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,13 +39,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The S1 REST API manages a StorONE storage system: create and manage applications, volumes, snapshots, shares, file systems and object stores; register hosts and mappings; configure NAS servers, floati'
   name: StorONE S1 REST API
   slug: storone-s1-rest-api
-artifact_total: 8
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Storone Notifications Events
@@ -90,87 +92,87 @@ common:
   type: SignUp
   url: https://www.storone.com/request-a-demo/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/well-known/storone-well-known.yml
+  href: https://artifacts.apis.io/storone/well-known/storone-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/storone-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/mcp/storone-mcp.yml
+  href: https://artifacts.apis.io/storone/mcp/storone-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/storone-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/llms/storone-llms.txt
+  href: https://artifacts.apis.io/storone/llms/storone-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/storone-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/authentication/storone-authentication.yml
+  href: https://artifacts.apis.io/storone/authentication/storone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/storone-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/scopes/storone-scopes.yml
+  href: https://artifacts.apis.io/storone/scopes/storone-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/storone-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/conventions/storone-conventions.yml
+  href: https://artifacts.apis.io/storone/conventions/storone-conventions.yml
   title: ''
   type: Conventions
   url: conventions/storone-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/errors/storone-problem-types.yml
+  href: https://artifacts.apis.io/storone/errors/storone-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/storone-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/lifecycle/storone-lifecycle.yml
+  href: https://artifacts.apis.io/storone/lifecycle/storone-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/storone-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/changelog/storone-changelog.yml
+  href: https://artifacts.apis.io/storone/changelog/storone-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/storone-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/cli/storone-cli.yml
+  href: https://artifacts.apis.io/storone/cli/storone-cli.yml
   title: ''
   type: CLI
   url: cli/storone-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/data-model/storone-data-model.yml
+  href: https://artifacts.apis.io/storone/data-model/storone-data-model.yml
   title: ''
   type: DataModel
   url: data-model/storone-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/conformance/storone-conformance.yml
+  href: https://artifacts.apis.io/storone/conformance/storone-conformance.yml
   title: ''
   type: Conformance
   url: conformance/storone-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/plans/storone-plans-pricing.yml
+  href: https://artifacts.apis.io/storone/plans/storone-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/storone-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/rate-limits/storone-rate-limits.yml
+  href: https://artifacts.apis.io/storone/rate-limits/storone-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/storone-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/packages/storone-packages.yml
+  href: https://artifacts.apis.io/storone/packages/storone-packages.yml
   title: ''
   type: Packages
   url: packages/storone-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/storone/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/security/storone-domain-security.yml
+  href: https://artifacts.apis.io/storone/security/storone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/storone-domain-security.yml
@@ -201,7 +203,7 @@ plans:
 - name: Storone Plans Pricing
   plan_count: 0
   slug: storone-plans-pricing
-random_paper: 8
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Storone Rate Limits
@@ -212,8 +214,8 @@ scopes:
   slug: storone-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 34.0
+  band: developing
+  composite: 43.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -223,13 +225,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 54.2
-    discoverability: 75.0
+    developer_ergonomics: 56.5
+    discoverability: 65.0
     operational_transparency: 15.8
-  previous_composite: 34.0
+  previous_composite: 43.8
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -239,15 +241,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 39.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/screenshots/storone-2026-09-02T160936.png
+screenshot: https://apis.io/screenshots/storone/storone-2026-09-02T160936.png
 security:
 - kind: authentication
   name: Storone Authentication
@@ -257,6 +259,16 @@ security:
   name: Storone Domain Security
   slug: storone-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: storone-monitor-capacity-and-health
+  slug: storone-monitor-capacity-and-health
+- name: storone-provision-block-volume
+  slug: storone-provision-block-volume
+- name: storone-provision-nas-and-object
+  slug: storone-provision-nas-and-object
+- name: storone-snapshot-and-restore
+  slug: storone-snapshot-and-restore
 slug: storone
 tags:
 - Storage

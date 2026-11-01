@@ -14,26 +14,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ash-wellness/refs/heads/main/hosts/ash-wellness-hosts.yml
+  href: https://artifacts.apis.io/ash-wellness/hosts/ash-wellness-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ash-wellness-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ash-wellness/refs/heads/main/vendors/ash-wellness-vendors.yml
+  href: https://artifacts.apis.io/ash-wellness/vendors/ash-wellness-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ash-wellness-vendors.yml
@@ -50,7 +52,7 @@ common:
   type: DeveloperPortal
   url: https://docs.ashwellness.io/password
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ash-wellness/refs/heads/main/security/ash-wellness-domain-security.yml
+  href: https://artifacts.apis.io/ash-wellness/security/ash-wellness-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ash-wellness-domain-security.yml
@@ -98,7 +100,7 @@ overview: 'Ash Wellness is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Ash Wellness'' developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
-random_paper: 6
+random_paper: 14
 score:
   band: emerging
   composite: 16.4
@@ -126,14 +128,14 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ash-wellness/refs/heads/main/screenshots/ash-wellness-2026-10-11T100536.png
+screenshot: https://apis.io/screenshots/ash-wellness/ash-wellness-2026-10-11T100536.png
 security:
 - kind: domain-security
   name: Ash Wellness Domain Security

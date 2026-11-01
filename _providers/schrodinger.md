@@ -9,35 +9,74 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 18.0
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 15
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/schrodinger/refs/heads/main/security/schrodinger-domain-security.yml
+  href: https://artifacts.apis.io/schrodinger/well-known/schrodinger-www-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/schrodinger-www-security.txt
+- group: agent
+  href: https://artifacts.apis.io/schrodinger/well-known/schrodinger-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/schrodinger-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/schrodinger/hosts/schrodinger-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/schrodinger-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/schrodinger/packages/schrodinger-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/schrodinger-packages.yml
+- group: build
+  href: https://artifacts.apis.io/schrodinger/packages/schrodinger-packages.yml
+  title: ''
+  type: Packages
+  url: packages/schrodinger-packages.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.schrodinger.com/terms-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.schrodinger.com/privacy-policies/
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.schrodinger.com/company/team/
+- group: auth
+  href: https://artifacts.apis.io/schrodinger/security/schrodinger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/schrodinger-domain-security.yml
@@ -217,18 +256,24 @@ common:
   title: ''
   type: Blog
   url: https://www.schrodinger.com/news/
-- group: company
+- group: start
   title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/schrodinger
-- group: company
+  type: Login
+  url: https://my.schrodinger.com/
+- group: start
   title: ''
-  type: Twitter
-  url: https://twitter.com/SchrodingerInc
-- group: learn
-  title: ''
-  type: YouTube
-  url: https://www.youtube.com/@SchrodingerTV
+  type: SignUp
+  url: https://my.schrodinger.com/request-account
+coverage:
+  checked: '2026-10-20'
+  detail: Schrödinger publishes no HTTP API or contract; its developer surface is the Python API bundled with the licensed Suite, and access starts at a my.schrodinger.com account request.
+  evidence:
+  - status: 200
+    url: https://my.schrodinger.com/request-account
+  - status: 200
+    url: https://learn.schrodinger.com/public/python_api/2026-1/intro.html
+  reason: sales-gate
+  state: gated
 created: '2026-05-24'
 description: 'Schrödinger is a New York-headquartered (NASDAQ: SDGR) computational science company that develops a physics-based and AI-driven molecular simulation platform used across drug discovery and materials science. Its flagship desktop modeling environment is Maestro (MS Maestro for materials science), which integrates a deep stack of computational tools — Glide (docking), FEP+ (free energy perturbation), Desmond (molecular dynamics), Jaguar (quantum chemistry), Prime (protein structure prediction), BioLuminate (biologics), LigPrep, QikProp, SiteMap, and WaterMap — together with the Schrödinger-maintained PyMOL visualization system. LiveDesign is the cloud-native enterprise design lab where chemists, biologists, and program teams collaborate on molecules, run computational workflows, and integrate experimental data; it exposes a snap-in API framework for connecting in-house and third-party tooling. The Schrödinger Python API (current release 2026-1) is the primary developer surface,
   providing programmatic access to molecular structures, Maestro automation, jobcontrol, Glide, FEP+, Desmond, Jaguar, MacroModel, Prime, BioLuminate, and LiveDesign integration (login, export, dataset and column management). Schrödinger also ships KNIME extensions, command-line drivers for every computational product, and maintains a meaningful open-source footprint on GitHub — including PyMOL, maeparser, coordgenlibs, sketcher, gpusimilarity, csmiles, and the fixed-data-table-2 React component. The business has two segments — software licensing to global pharma, biotech, and materials companies, and a co-developed and proprietary drug discovery pipeline. There is no public developer signup or self-serve REST API; access to the platform, Python API, and LiveDesign is gated through commercial licensing and the my.schrodinger.com customer portal.'
@@ -249,33 +294,33 @@ features:
 - Access is gated through commercial licensing and the my.schrodinger.com customer portal; no self-serve public REST API and no public developer signup
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/schrodinger.png
 layout: provider
-modified: '2026-05-24'
+modified: '2026-10-20'
 name: Schrödinger
 nav: Providers
 network: true
 overview: 'Schrödinger is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Drug Discovery, Computational Chemistry, Molecular Simulation, Physics-Based Modeling, and Free Energy Perturbation.
 
 
-  Schrödinger''s developer surface includes developer portal, documentation, support, training material, tooling, engineering blog, YouTube channel, and 41 more developer resources.'
-random_paper: 10
+  Schrödinger''s developer surface includes developer portal, documentation, support, training material, tooling, engineering blog, signup flow, and 48 more developer resources.'
+random_paper: 0
 score:
-  band: minimal
-  composite: 9.4
+  band: emerging
+  composite: 21.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.2
-    discoverability: 49.1
-    operational_transparency: 2.6
+    developer_ergonomics: 33.3
+    discoverability: 51.8
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -283,21 +328,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 9.3
+  previous_composite: 21.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 15.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/schrodinger/refs/heads/main/screenshots/schrodinger-2026-06-20T193532.png
+screenshot: https://apis.io/screenshots/schrodinger/schrodinger-2026-06-20T193532.png
 security:
 - kind: domain-security
   name: Schrodinger Domain Security

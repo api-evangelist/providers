@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A live, OAuth-gated Model Context Protocol endpoint served from Seyond's own corporate host at https://seyond.com/wp-json/mcp/mcp-oauth-server. It is provided by the WordPress MCP adapter running on s
@@ -97,82 +99,82 @@ common:
   type: Products
   url: https://seyond.com/products/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/packages/innovusion-packages.yml
+  href: https://artifacts.apis.io/innovusion/packages/innovusion-packages.yml
   title: ''
   type: Packages
   url: packages/innovusion-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/packages/innovusion-packages.yml
+  href: https://artifacts.apis.io/innovusion/packages/innovusion-packages.yml
   title: ''
   type: SDKs
   url: packages/innovusion-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/cli/innovusion-cli.yml
+  href: https://artifacts.apis.io/innovusion/cli/innovusion-cli.yml
   title: ''
   type: CLI
   url: cli/innovusion-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/changelog/innovusion-changelog.yml
+  href: https://artifacts.apis.io/innovusion/changelog/innovusion-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/innovusion-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/mcp/innovusion-mcp.yml
+  href: https://artifacts.apis.io/innovusion/mcp/innovusion-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/innovusion-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/well-known/innovusion-well-known.yml
+  href: https://artifacts.apis.io/innovusion/well-known/innovusion-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/innovusion-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/authentication/innovusion-authentication.yml
+  href: https://artifacts.apis.io/innovusion/authentication/innovusion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/innovusion-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/scopes/innovusion-scopes.yml
+  href: https://artifacts.apis.io/innovusion/scopes/innovusion-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/innovusion-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/conventions/innovusion-conventions.yml
+  href: https://artifacts.apis.io/innovusion/conventions/innovusion-conventions.yml
   title: ''
   type: Conventions
   url: conventions/innovusion-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/errors/innovusion-problem-types.yml
+  href: https://artifacts.apis.io/innovusion/errors/innovusion-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/innovusion-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/lifecycle/innovusion-lifecycle.yml
+  href: https://artifacts.apis.io/innovusion/lifecycle/innovusion-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/innovusion-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/conformance/innovusion-conformance.yml
+  href: https://artifacts.apis.io/innovusion/conformance/innovusion-conformance.yml
   title: ''
   type: Conformance
   url: conformance/innovusion-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/security/innovusion-domain-security.yml
+  href: https://artifacts.apis.io/innovusion/security/innovusion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/innovusion-domain-security.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/rate-limits/innovusion-rate-limits.yml
+  href: https://artifacts.apis.io/innovusion/rate-limits/innovusion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/innovusion-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/plans/innovusion-plans-pricing.yml
+  href: https://artifacts.apis.io/innovusion/plans/innovusion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/innovusion-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/llms/innovusion-llms.txt
+  href: https://artifacts.apis.io/innovusion/llms/innovusion-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/innovusion-llms.txt
@@ -196,7 +198,7 @@ plans:
 - name: Innovusion Plans Pricing
   plan_count: 0
   slug: innovusion-plans-pricing
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Innovusion Rate Limits
@@ -216,15 +218,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 54.8
-    discoverability: 68.3
-    operational_transparency: 18.4
-  previous_composite: 29.4
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 29.5
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -234,14 +236,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/screenshots/innovusion-2026-09-02T145906.png
+screenshot: https://apis.io/screenshots/innovusion/innovusion-2026-09-02T145906.png
 security:
 - kind: authentication
   name: Innovusion Authentication

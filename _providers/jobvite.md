@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'REST APIs for exchanging candidate, requisition, and application data between Jobvite and external systems in JSON format. Includes the Onboard New Hire API for pushing employee data into the Jobvite '
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jobvite/refs/heads/main/security/jobvite-domain-security.yml
+  href: https://artifacts.apis.io/jobvite/security/jobvite-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jobvite-domain-security.yml
@@ -93,10 +95,10 @@ overview: 'Jobvite is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Jobvite''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 7
+random_paper: 11
 score:
   band: emerging
-  composite: 13.1
+  composite: 13.4
   coverage:
     artifact_dirs: 5
     catalog_earned: 37.0
@@ -111,22 +113,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 13.1
+    operational_transparency: 5.3
+  previous_composite: 13.4
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jobvite/refs/heads/main/screenshots/jobvite-2026-06-20T183746.png
+screenshot: https://apis.io/screenshots/jobvite/jobvite-2026-06-20T183746.png
 security:
 - kind: domain-security
   name: Jobvite Domain Security

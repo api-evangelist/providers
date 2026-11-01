@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.7
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -114,15 +116,12 @@ apis:
   description: The webhooks API from Fixie — 2 operation(s) for webhooks.
   name: Fixie Webhooks API
   slug: fixie-webhooks-api
-artifact_total: 36
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Fixie Webhooks
   slug: fixie-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ultravox accounts API
   slug: open-fixie-accounts-api
@@ -167,57 +166,57 @@ collections:
   slug: open-fixie-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/plans/fixie-plans-pricing.yml
+  href: https://artifacts.apis.io/fixie/plans/fixie-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fixie-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/capabilities/fixie-capability-edges.yml
+  href: https://artifacts.apis.io/fixie/capabilities/fixie-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fixie-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/mcp/fixie-mcp.yml
+  href: https://artifacts.apis.io/fixie/mcp/fixie-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fixie-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/overlays/fixie-ultravox-overlay.yaml
+  href: https://artifacts.apis.io/fixie/overlays/fixie-ultravox-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fixie-ultravox-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/security/fixie-domain-security.yml
+  href: https://artifacts.apis.io/fixie/security/fixie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fixie-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/security/fixie-trust-center.yml
+  href: https://artifacts.apis.io/fixie/security/fixie-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fixie-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/packages/fixie-packages.yml
+  href: https://artifacts.apis.io/fixie/packages/fixie-packages.yml
   title: ''
   type: Packages
   url: packages/fixie-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/packages/fixie-packages.yml
+  href: https://artifacts.apis.io/fixie/packages/fixie-packages.yml
   title: ''
   type: SDKs
   url: packages/fixie-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/changelog/fixie-changelog.yml
+  href: https://artifacts.apis.io/fixie/changelog/fixie-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fixie-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fixie/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/llms/fixie-llms.txt
+  href: https://artifacts.apis.io/fixie/llms/fixie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fixie-llms.txt
@@ -230,7 +229,7 @@ common:
   type: Deprecation
   url: https://docs.ultravox.ai/changelog/deprecation
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/asyncapi/fixie-webhooks.yml
+  href: https://artifacts.apis.io/fixie/asyncapi/fixie-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fixie-webhooks.yml
@@ -288,6 +287,14 @@ common:
   url: https://ultravox.ai/
 created: '2026-07-17'
 description: Fixie is the company behind Ultravox Realtime, a speech-native voice AI platform for building natural, low-latency conversational voice agents. Rather than transcribing speech to text first, Ultravox processes audio directly to preserve tone, cadence, and pitch while cutting latency. The Ultravox Realtime REST API (api.ultravox.ai) lets developers create reusable agents, start and manage calls, define custom and built-in tools, clone and manage voices, build RAG corpora, wire telephony (Twilio, Telnyx, Plivo, SIP), and subscribe to call-lifecycle webhooks. Client SDKs ship for JavaScript, Python, Flutter/Dart, React Native, Kotlin/Android, and Swift/iOS. Fixie was backed by Redpoint Ventures; fixie.ai now redirects to ultravox.ai and its open models are published under the fixie-ai organization on Hugging Face.
+finops:
+- has_sources: true
+  method: derived
+  name: Fixie Finops
+  primary_unit: minute
+  service_category: ''
+  slug: fixie-finops
+  template: false
 image: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-ultravox-openapi-original.yml
 layout: provider
 modified: '2026-07-19'
@@ -311,23 +318,23 @@ plans:
 random_paper: 5
 score:
   band: strong
-  composite: 57.6
+  composite: 59.7
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 53.9
+    contract_quality: 50.5
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 57.9
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,13 +351,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/screenshots/fixie-2026-07-25T214652.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fixie/fixie-2026-07-25T214652.png
 security:
 - kind: authentication
   name: Fixie Authentication
@@ -364,6 +372,12 @@ security:
   name: Fixie Trust Center
   slug: fixie-trust-center
   summary_line: trust center published
+skill_count: 2
+skills:
+- name: Create a voice agent and start a call
+  slug: fixie-create-agent-and-call
+- name: Subscribe to call webhooks and fetch recordings
+  slug: fixie-webhooks-and-recording
 slug: fixie
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.3
-  scored_at: '2026-10-17'
+  score: 5.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'REST/JSON API for managing NS1 (IBM NS1 Connect) authoritative DNS: zones, records, answers and filter chains, monitoring jobs, notification lists, data sources and feeds, account/team/user/API-key ma'
@@ -48,7 +50,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/ibm/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/security/ns1-domain-security.yml
+  href: https://artifacts.apis.io/ns1/security/ns1-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ns1-domain-security.yml
@@ -73,52 +75,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/ns1
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/authentication/ns1-authentication.yml
+  href: https://artifacts.apis.io/ns1/authentication/ns1-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ns1-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/conventions/ns1-conventions.yml
+  href: https://artifacts.apis.io/ns1/conventions/ns1-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ns1-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/errors/ns1-error-codes.yml
+  href: https://artifacts.apis.io/ns1/errors/ns1-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ns1-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/lifecycle/ns1-lifecycle.yml
+  href: https://artifacts.apis.io/ns1/lifecycle/ns1-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ns1-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/packages/ns1-packages.yml
+  href: https://artifacts.apis.io/ns1/packages/ns1-packages.yml
   title: ''
   type: Packages
   url: packages/ns1-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/packages/ns1-packages.yml
+  href: https://artifacts.apis.io/ns1/packages/ns1-packages.yml
   title: ''
   type: SDKs
   url: packages/ns1-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/cli/ns1-cli.yml
+  href: https://artifacts.apis.io/ns1/cli/ns1-cli.yml
   title: ''
   type: CLI
   url: cli/ns1-cli.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/grpc/ns1-bulkbeacon.proto
+  href: https://artifacts.apis.io/ns1/grpc/ns1-bulkbeacon.proto
   title: ''
   type: Protobuf
   url: grpc/ns1-bulkbeacon.proto
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/well-known/ns1-well-known.yml
+  href: https://artifacts.apis.io/ns1/well-known/ns1-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ns1-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/llms/ns1-llms.txt
+  href: https://artifacts.apis.io/ns1/llms/ns1-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ns1-llms.txt
@@ -137,7 +139,7 @@ overview: 'NS1 is listed with 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 10
 score:
   band: emerging
-  composite: 23.6
+  composite: 17.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -149,25 +151,25 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 23.6
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 17.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/screenshots/ns1-2026-08-07T185658.png
+screenshot: https://apis.io/screenshots/ns1/ns1-2026-08-07T185658.png
 security:
 - kind: authentication
   name: Ns1 Authentication

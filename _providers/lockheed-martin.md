@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  href: https://artifacts.apis.io/lockheed-martin/hosts/lockheed-martin-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/lockheed-martin-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/lockheed-martin/vendors/lockheed-martin-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/lockheed-martin-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.lockheedmartin.com/en-us/suppliers/business-area-procurement/aeronautics/terms-and-conditions.html
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.lockheedmartin.com/en-au/leadership/jeremy-king.html
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.lockheedmartin.com/en-us/suppliers/documentation/2026tandc.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lockheed-martin/refs/heads/main/security/lockheed-martin-domain-security.yml
+  href: https://artifacts.apis.io/lockheed-martin/security/lockheed-martin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lockheed-martin-domain-security.yml
@@ -69,18 +93,40 @@ common:
   title: ''
   type: Blog
   url: https://news.lockheedmartin.com
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.lockheedmartin.com/en-us/contact/privacy-center.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.lockheedmartin.com/en-us/contact.html
+coverage:
+  checked: '2026-10-20'
+  detail: Lockheed Martin publishes no developer portal or API; api.lockheedmartin.com and developer.lockheedmartin.com do not resolve, no OpenAPI/llms.txt is served on www.lockheedmartin.com, and its only public technical surface is open-source code in github.com/lmco.
+  evidence:
+  - status: 0
+    url: https://api.lockheedmartin.com
+  - status: 0
+    url: https://developer.lockheedmartin.com
+  - status: 404
+    url: https://www.lockheedmartin.com/openapi.json
+  - status: 404
+    url: https://www.lockheedmartin.com/llms.txt
+  reason: no-developer-program
+  state: none
 created: '2026-03-21'
-description: Lockheed Martin is a leading global security, defense, and aerospace contractor. This repository captures the public APIs, developer tools, and machine-readable API artifacts where they exist for Lockheed Martin.
+description: Lockheed Martin is a global security, defense, and aerospace company headquartered in Bethesda, Maryland, building aircraft, missiles, space systems, and mission software for government customers. It publishes no public developer program or API; its public technical footprint is open-source work in the lmco GitHub organization (e.g. Laika BOSS, Hoppr, Dependency-Track forks).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lockheed-martin.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-10-20'
 name: Lockheed Martin
 nav: Providers
 network: true
-overview: 'Lockheed Martin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Aerospace, Security, and Fortune 500.
+overview: 'Lockheed Martin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Aerospace, Security, Fortune 500, and Open Source.
 
 
-  Lockheed Martin''s developer surface includes engineering blog and 7 more developer resources.'
+  Lockheed Martin''s developer surface includes documentation, engineering blog, support, and 12 more developer resources.'
 press:
 - date: ''
   title: Search our Job Opportunities at Lockheed Martin Corporation
@@ -97,50 +143,59 @@ press:
 - date: ''
   title: Lockheed Martin
   url: https://en.wikipedia.org/wiki/Lockheed_Martin
-random_paper: 9
+random_paper: 15
 score:
-  band: minimal
-  composite: 3.5
+  band: emerging
+  composite: 13.5
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 22.0
+    artifact_dirs: 10
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 93.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 40.2
-    operational_transparency: 2.6
-  previous_composite: 3.4
+    developer_ergonomics: 16.7
+    discoverability: 51.8
+    operational_transparency: 5.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 13.5
   regulatory:
     applies: true
-    matched_via: fallback
-    regime: Horizontal (data, software, accessibility, platform)
-    regime_id: horizontal
-    score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 13.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lockheed-martin/refs/heads/main/screenshots/lockheed-martin-2026-06-20T184639.png
+screenshot: https://apis.io/screenshots/lockheed-martin/lockheed-martin-2026-06-20T184639.png
 security:
 - kind: domain-security
   name: Lockheed Martin Domain Security
   slug: lockheed-martin-domain-security
-  summary_line: TLSv1.3
+  summary_line: TLSv1.3 · DMARC
 slug: lockheed-martin
 tags:
 - Defense
 - Aerospace
 - Security
 - Fortune 500
+- Open Source
+- Government
 website: https://www.lockheedmartin.com
 ---

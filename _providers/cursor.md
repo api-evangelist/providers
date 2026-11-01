@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.1
-  scored_at: '2026-10-17'
+  score: 28.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -87,15 +89,12 @@ apis:
   description: Daily usage and granular usage event data
   name: Cursor Usage API
   slug: cursor-usage-api
-artifact_total: 35
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Cursor Webhooks
   slug: cursor-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cursor Admin API
   slug: open-cursor-admin-api
@@ -118,48 +117,53 @@ collections:
   name: Cursor Admin Audit Logs Usage API
   slug: open-cursor-usage-api
 common:
+- group: other
+  href: https://artifacts.apis.io/cursor/capabilities/cursor-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cursor-capability-edges.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/rules/cursor-rules.yml
+  href: https://artifacts.apis.io/cursor/rules/cursor-rules.yml
   title: ''
   type: Spectral
   url: rules/cursor-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/rules/cursor-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/cursor/rules/cursor-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/cursor-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/rules/cursor-admin-api-rules.yml
+  href: https://artifacts.apis.io/cursor/rules/cursor-admin-api-rules.yml
   title: ''
   type: Spectral
   url: rules/cursor-admin-api-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/json-ld/cursor-context.jsonld
+  href: https://artifacts.apis.io/cursor/json-ld/cursor-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cursor-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/vocabulary/cursor-vocabulary.yml
+  href: https://artifacts.apis.io/cursor/vocabulary/cursor-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cursor-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cursor/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/asyncapi/cursor-webhooks.yml
+  href: https://artifacts.apis.io/cursor/asyncapi/cursor-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cursor-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/data-model/cursor-data-model.yml
+  href: https://artifacts.apis.io/cursor/data-model/cursor-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cursor-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/changelog/cursor-changelog.yml
+  href: https://artifacts.apis.io/cursor/changelog/cursor-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cursor-changelog.yml
@@ -168,47 +172,47 @@ common:
   type: Compliance
   url: https://cursor.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/security/cursor-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cursor/security/cursor-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/cursor-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/conformance/cursor-conformance.yml
+  href: https://artifacts.apis.io/cursor/conformance/cursor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cursor-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/overlays/cursor-audit-logs-api-overlay.yaml
+  href: https://artifacts.apis.io/cursor/overlays/cursor-audit-logs-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cursor-audit-logs-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/llms/cursor-llms.txt
+  href: https://artifacts.apis.io/cursor/llms/cursor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cursor-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/well-known/cursor-status-security.txt
+  href: https://artifacts.apis.io/cursor/well-known/cursor-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cursor-status-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/well-known/cursor-security.txt
+  href: https://artifacts.apis.io/cursor/well-known/cursor-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cursor-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/well-known/cursor-well-known.yml
+  href: https://artifacts.apis.io/cursor/well-known/cursor-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cursor-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/hosts/cursor-hosts.yml
+  href: https://artifacts.apis.io/cursor/hosts/cursor-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cursor-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/vendors/cursor-vendors.yml
+  href: https://artifacts.apis.io/cursor/vendors/cursor-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cursor-vendors.yml
@@ -233,27 +237,27 @@ common:
   type: GettingStarted
   url: https://cursor.com/docs/get-started/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/security/cursor-trust-center.yml
+  href: https://artifacts.apis.io/cursor/security/cursor-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cursor-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/agentic-access/cursor-agentic-access.yml
+  href: https://artifacts.apis.io/cursor/agentic-access/cursor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cursor-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/security/cursor-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cursor/security/cursor-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cursor-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/security/cursor-domain-security.yml
+  href: https://artifacts.apis.io/cursor/security/cursor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cursor-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/authentication/cursor-authentication.yml
+  href: https://artifacts.apis.io/cursor/authentication/cursor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cursor-authentication.yml
@@ -278,17 +282,17 @@ common:
   type: Pricing
   url: https://cursor.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/plans/cursor-plans-pricing.yml
+  href: https://artifacts.apis.io/cursor/plans/cursor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cursor-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/rate-limits/cursor-rate-limits.yml
+  href: https://artifacts.apis.io/cursor/rate-limits/cursor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cursor-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/finops/cursor-finops.yml
+  href: https://artifacts.apis.io/cursor/finops/cursor-finops.yml
   title: ''
   type: FinOps
   url: finops/cursor-finops.yml
@@ -304,10 +308,10 @@ created: '2026-05-08'
 description: 'Cursor is an AI-first code editor by Anysphere, forked from VS Code, with deep AI integration: agentic edits, codebase chat, autocomplete, and tab-completion. Offers a hosted plan with model access and team management. Cursor exposes a public Admin API, Analytics API, AI Code Tracking API, Cloud Agents API, and a TypeScript SDK.'
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Cursor Finops
-  primary_unit: ''
-  service_category: AI
+  primary_unit: user
+  service_category: ''
   slug: cursor-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cursor.png
@@ -340,12 +344,15 @@ overview: 'Cursor publishes 10 API contracts indexed on the [APIs.io](https://ap
   The Cursor catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Cursor''s developer surface includes changelog, support, getting-started guide, authentication, documentation, pricing, engineering blog, and 32 more developer resources.'
+  Cursor''s developer surface includes changelog, support, getting-started guide, authentication, documentation, pricing, engineering blog, and 33 more developer resources.'
 plans:
 - name: Cursor Plans Pricing
   plan_count: 4
   slug: cursor-plans-pricing
-random_paper: 10
+- name: Cursor Price Estimates
+  plan_count: 0
+  slug: cursor-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Cursor Rate Limits
@@ -388,23 +395,23 @@ rules:
   slug: cursor-rules
 score:
   band: strong
-  composite: 59.1
+  composite: 63.2
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 73.4
+    artifact_dirs: 29
+    catalog_earned: 76.4
     catalog_earned_first_party: 12.0
-    catalog_gap: 41.6
+    catalog_gap: 38.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.9
+  delta: 1.6
   facets:
-    access_clarity: 68.4
+    access_clarity: 86.8
     contract_governance: 31.8
-    contract_quality: 64.4
-    developer_ergonomics: 32.7
+    contract_quality: 63.0
+    developer_ergonomics: 42.3
     discoverability: 73.2
-    operational_transparency: 57.9
-  previous_composite: 62.0
+    operational_transparency: 60.5
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -421,13 +428,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/screenshots/cursor-2026-06-20T175349.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cursor/cursor-2026-06-20T175349.png
 security:
 - kind: authentication
   name: Cursor Authentication
@@ -445,6 +453,14 @@ security:
   name: Cursor Trust Center
   slug: cursor-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 3
+skills:
+- name: cursor-manage-repo-blocklists
+  slug: cursor-manage-repo-blocklists
+- name: cursor-remove-team-member
+  slug: cursor-remove-team-member
+- name: cursor-spend-management
+  slug: cursor-spend-management
 slug: cursor
 tags:
 - Artificial Intelligence

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -57,11 +59,8 @@ apis:
   description: API key verification
   name: Geckoboard Health API
   slug: geckoboard-health-api
-artifact_total: 12
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Geckoboard Datasets API
   slug: open-geckoboard-datasets-api
@@ -73,32 +72,32 @@ collections:
   slug: open-geckoboard
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/capabilities/geckoboard-capability-edges.yml
+  href: https://artifacts.apis.io/geckoboard/capabilities/geckoboard-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/geckoboard-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/agentic-access/geckoboard-agentic-access.yml
+  href: https://artifacts.apis.io/geckoboard/agentic-access/geckoboard-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/geckoboard-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/security/geckoboard-trust-center.yml
+  href: https://artifacts.apis.io/geckoboard/security/geckoboard-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/geckoboard-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/security/geckoboard-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/geckoboard/security/geckoboard-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/geckoboard-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/security/geckoboard-domain-security.yml
+  href: https://artifacts.apis.io/geckoboard/security/geckoboard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/geckoboard-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/authentication/geckoboard-authentication.yml
+  href: https://artifacts.apis.io/geckoboard/authentication/geckoboard-authentication.yml
   title: ''
   type: Authentication
   url: authentication/geckoboard-authentication.yml
@@ -150,10 +149,10 @@ overview: 'Geckoboard publishes 3 API contracts indexed on the [APIs.io](https:/
 
 
   Geckoboard''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 7
+random_paper: 9
 score:
   band: thin
-  composite: 32.6
+  composite: 36.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -166,10 +165,10 @@ score:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 49.6
-    developer_ergonomics: 22.6
+    developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 32.6
+    operational_transparency: 31.6
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -183,13 +182,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/screenshots/geckoboard-2026-06-20T181707.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/geckoboard/geckoboard-2026-06-20T181707.png
 security:
 - kind: authentication
   name: Geckoboard Authentication

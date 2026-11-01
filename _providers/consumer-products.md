@@ -4,6 +4,6 @@ layout: provider
 name: consumer-products
 nav: Providers
 network: true
-random_paper: 1
+random_paper: 5
 slug: consumer-products
 ---

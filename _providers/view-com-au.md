@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.5
-  scored_at: '2026-10-17'
+  score: 15.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,10 +50,10 @@ apis:
 - description: A publicly reachable, unauthenticated Model Context Protocol server (streamable HTTP, serverInfo name "view-com-au-mcp-server" version 1.0.0, protocol 2024-11-05) exposing three tools over View.com.au
   name: View.com.au Property MCP Server
   slug: view-com-au-property-mcp-server
-artifact_total: 9
+artifact_total: 12
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/view-com-au/refs/heads/main/rate-limits/view-com-au-rate-limits.yml
+  href: https://artifacts.apis.io/view-com-au/rate-limits/view-com-au-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/view-com-au-rate-limits.yml
@@ -60,47 +62,47 @@ common:
   type: BlogRSS
   url: https://view.com.au/news/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/view-com-au/refs/heads/main/authentication/view-com-au-authentication.yml
+  href: https://artifacts.apis.io/view-com-au/authentication/view-com-au-authentication.yml
   title: ''
   type: Authentication
   url: authentication/view-com-au-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/view-com-au/refs/heads/main/conformance/view-com-au-conformance.yml
+  href: https://artifacts.apis.io/view-com-au/conformance/view-com-au-conformance.yml
   title: ''
   type: Conformance
   url: conformance/view-com-au-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/view-com-au/refs/heads/main/lifecycle/view-com-au-lifecycle.yml
+  href: https://artifacts.apis.io/view-com-au/lifecycle/view-com-au-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/view-com-au-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/view-com-au/refs/heads/main/llms/view-com-au-llms.txt
+  href: https://artifacts.apis.io/view-com-au/llms/view-com-au-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/view-com-au-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/view-com-au/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/view-com-au/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/view-com-au/refs/heads/main/skills/view-com-au-property-search.md
+  href: https://artifacts.apis.io/view-com-au/skills/view-com-au-property-search.md
   title: ''
   type: AgentSkill
   url: skills/view-com-au-property-search.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/view-com-au/refs/heads/main/skills/view-com-au-listing-detail.md
+  href: https://artifacts.apis.io/view-com-au/skills/view-com-au-listing-detail.md
   title: ''
   type: AgentSkill
   url: skills/view-com-au-listing-detail.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/view-com-au/refs/heads/main/skills/view-com-au-off-market-lookup.md
+  href: https://artifacts.apis.io/view-com-au/skills/view-com-au-off-market-lookup.md
   title: ''
   type: AgentSkill
   url: skills/view-com-au-off-market-lookup.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/view-com-au/refs/heads/main/security/view-com-au-domain-security.yml
+  href: https://artifacts.apis.io/view-com-au/security/view-com-au-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/view-com-au-domain-security.yml
@@ -190,7 +192,7 @@ rate_limits:
   slug: view-com-au-rate-limits
 score:
   band: emerging
-  composite: 25.2
+  composite: 24.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 45.0
@@ -198,14 +200,14 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 6.5
     developer_ergonomics: 20.8
-    discoverability: 75.0
-    operational_transparency: 23.7
+    discoverability: 65.0
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -213,7 +215,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 25.1
+  previous_composite: 24.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,14 +227,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/view-com-au/refs/heads/main/screenshots/view-com-au-2026-10-11T194156.png
+screenshot: https://apis.io/screenshots/view-com-au/view-com-au-2026-10-11T194156.png
 security:
 - kind: authentication
   name: View Com Au Authentication
@@ -242,6 +244,14 @@ security:
   name: View Com Au Domain Security
   slug: view-com-au-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Retrieve a full View.com.au listing
+  slug: view-com-au-listing-detail
+- name: Look up an off-market property on View.com.au
+  slug: view-com-au-off-market-lookup
+- name: Search Australian property listings on View.com.au
+  slug: view-com-au-property-search
 slug: view-com-au
 tags:
 - Real Estate

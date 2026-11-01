@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: 'ONC Certified FHIR R4 (v4.0.1) API implementing US Core 6.1.0, SMART App Launch 2.0.0, and Bulk Data Access 1.0.1. Provides read and search access across 47 FHIR resource types (Patient, Observation, '
@@ -48,30 +50,30 @@ apis:
 - description: Proprietary bi-directional imaging integration API for order receipt and study transmission across imaging providers, supporting 100,000+ medical professionals.
   name: Practice Fusion Imaging API
   slug: practice-fusion-imaging-api
-artifact_total: 11
+artifact_total: 16
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/security/practice-fusion-domain-security.yml
+  href: https://artifacts.apis.io/practice-fusion/security/practice-fusion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/practice-fusion-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/authentication/practice-fusion-authentication.yml
+  href: https://artifacts.apis.io/practice-fusion/authentication/practice-fusion-authentication.yml
   title: ''
   type: Authentication
   url: authentication/practice-fusion-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/scopes/practice-fusion-scopes.yml
+  href: https://artifacts.apis.io/practice-fusion/scopes/practice-fusion-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/practice-fusion-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/well-known/practice-fusion-well-known.yml
+  href: https://artifacts.apis.io/practice-fusion/well-known/practice-fusion-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/practice-fusion-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/conformance/practice-fusion-conformance.yml
+  href: https://artifacts.apis.io/practice-fusion/conformance/practice-fusion-conformance.yml
   title: ''
   type: Conformance
   url: conformance/practice-fusion-conformance.yml
@@ -80,37 +82,37 @@ common:
   type: Compliance
   url: https://www.practicefusion.com/onc-certified-ehr/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/errors/practice-fusion-problem-types.yml
+  href: https://artifacts.apis.io/practice-fusion/errors/practice-fusion-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/practice-fusion-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/lifecycle/practice-fusion-lifecycle.yml
+  href: https://artifacts.apis.io/practice-fusion/lifecycle/practice-fusion-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/practice-fusion-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/conventions/practice-fusion-conventions.yml
+  href: https://artifacts.apis.io/practice-fusion/conventions/practice-fusion-conventions.yml
   title: ''
   type: Conventions
   url: conventions/practice-fusion-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/conventions/practice-fusion-conventions.yml
+  href: https://artifacts.apis.io/practice-fusion/conventions/practice-fusion-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/practice-fusion-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/data-model/practice-fusion-data-model.yml
+  href: https://artifacts.apis.io/practice-fusion/data-model/practice-fusion-data-model.yml
   title: ''
   type: DataModel
   url: data-model/practice-fusion-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/mcp/practice-fusion-mcp.yml
+  href: https://artifacts.apis.io/practice-fusion/mcp/practice-fusion-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/practice-fusion-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/llms/practice-fusion-llms.txt
+  href: https://artifacts.apis.io/practice-fusion/llms/practice-fusion-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/practice-fusion-llms.txt
@@ -163,37 +165,37 @@ common:
   type: PrivacyPolicy
   url: https://www.practicefusion.com/pages/privacy-policy.html
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/packages/practice-fusion-packages.yml
+  href: https://artifacts.apis.io/practice-fusion/packages/practice-fusion-packages.yml
   title: ''
   type: Packages
   url: packages/practice-fusion-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/plans/practice-fusion-plans-pricing.yml
+  href: https://artifacts.apis.io/practice-fusion/plans/practice-fusion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/practice-fusion-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/rate-limits/practice-fusion-rate-limits.yml
+  href: https://artifacts.apis.io/practice-fusion/rate-limits/practice-fusion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/practice-fusion-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/changelog/practice-fusion-changelog.yml
+  href: https://artifacts.apis.io/practice-fusion/changelog/practice-fusion-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/practice-fusion-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/practice-fusion/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/security/practice-fusion-trust-center.yml
+  href: https://artifacts.apis.io/practice-fusion/security/practice-fusion-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/practice-fusion-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/security/practice-fusion-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/practice-fusion/security/practice-fusion-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/practice-fusion-vulnerability-disclosure.yml
@@ -227,6 +229,14 @@ common:
   url: https://help.practicefusion.com/s/article/using-fhir-in-practice-fusion
 created: '2026-07-17'
 description: Practice Fusion is a cloud-based electronic health record (EHR) platform for independent ambulatory medical practices, serving roughly 6.4% of U.S. ambulatory practices with more than 43 million clinical records and around 5 million patient visits per month. Its developer surface centers on an ONC Certified Health IT FHIR R4 (Patient Data Sharing / PDS) API implementing US Core 6.1.0, SMART App Launch 2.0.0, and Bulk Data Access 1.0.1 over SMART-on-FHIR OAuth2, alongside proprietary bi-directional Labs and Imaging APIs and a partner marketplace of 600+ integrated companies.
+finops:
+- has_sources: true
+  method: derived
+  name: Practice Fusion Finops
+  primary_unit: provider
+  service_category: ''
+  slug: practice-fusion-finops
+  template: false
 image: https://www.practicefusion.com/assets/img/practice-fusion-logo.png
 layout: provider
 modified: '2026-08-14'
@@ -239,9 +249,9 @@ overview: 'Practice Fusion is listed with 4 APIs on the [APIs.io](https://apis.i
   Practice Fusion''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, engineering blog, and 32 more developer resources.'
 plans:
 - name: Practice Fusion Plans Pricing
-  plan_count: 8
+  plan_count: 2
   slug: practice-fusion-plans-pricing
-random_paper: 8
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Practice Fusion Rate Limits
@@ -253,23 +263,28 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.4
+  composite: 58.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 52.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    artifact_dirs: 21
+    catalog_earned: 51.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 89.5
     contract_governance: 18.2
     contract_quality: 32.3
-    developer_ergonomics: 56.5
-    discoverability: 78.6
-    operational_transparency: 44.7
-  previous_composite: 57.4
+    developer_ergonomics: 58.9
+    discoverability: 71.4
+    operational_transparency: 47.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 58.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -284,14 +299,14 @@ score:
     regime: Health
     regime_id: health
     score: 46.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/screenshots/practice-fusion-2026-08-17T081329.png
+screenshot: https://apis.io/screenshots/practice-fusion/practice-fusion-2026-08-17T081329.png
 security:
 - kind: authentication
   name: Practice Fusion Authentication
@@ -309,6 +324,16 @@ security:
   name: Practice Fusion Trust Center
   slug: practice-fusion-trust-center
   summary_line: SOC 2 Type 2, EHNAC accreditation, EPCS certification, ISO 9001:2015, ONC Certification Rule (Certified Health IT), HIPAA
+skill_count: 4
+skills:
+- name: Run a Practice Fusion FHIR Bulk Data group export
+  slug: practice-fusion-bulk-export
+- name: Retrieve clinical documents and provenance from Practice Fusion
+  slug: practice-fusion-clinical-documents
+- name: Connect to a Practice Fusion FHIR endpoint with SMART on FHIR
+  slug: practice-fusion-connect-smart
+- name: Assemble a patient chart summary from Practice Fusion
+  slug: practice-fusion-patient-chart-summary
 slug: practice-fusion
 tags:
 - Company

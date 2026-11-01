@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API delivering airspace data and services for UAS applications — B4UFLY airspace briefings, LAANC SDSP operations and authorizations, ASL and ephemeral operations, surface/risk/routing, elevation
   name: AirHub API
   slug: airhub-api
-artifact_total: 4
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -102,67 +104,67 @@ common:
   type: PrivacyPolicy
   url: https://airspacelink.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/llms/airspace-link-llms.txt
+  href: https://artifacts.apis.io/airspace-link/llms/airspace-link-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/airspace-link-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/authentication/airspace-link-authentication.yml
+  href: https://artifacts.apis.io/airspace-link/authentication/airspace-link-authentication.yml
   title: ''
   type: Authentication
   url: authentication/airspace-link-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/scopes/airspace-link-scopes.yml
+  href: https://artifacts.apis.io/airspace-link/scopes/airspace-link-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/airspace-link-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/conventions/airspace-link-conventions.yml
+  href: https://artifacts.apis.io/airspace-link/conventions/airspace-link-conventions.yml
   title: ''
   type: Conventions
   url: conventions/airspace-link-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/errors/airspace-link-problem-types.yml
+  href: https://artifacts.apis.io/airspace-link/errors/airspace-link-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/airspace-link-problem-types.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/sandbox/airspace-link-sandbox.yml
+  href: https://artifacts.apis.io/airspace-link/sandbox/airspace-link-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/airspace-link-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/lifecycle/airspace-link-lifecycle.yml
+  href: https://artifacts.apis.io/airspace-link/lifecycle/airspace-link-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/airspace-link-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/mcp/airspace-link-mcp.yml
+  href: https://artifacts.apis.io/airspace-link/mcp/airspace-link-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/airspace-link-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/conformance/airspace-link-conformance.yml
+  href: https://artifacts.apis.io/airspace-link/conformance/airspace-link-conformance.yml
   title: ''
   type: Conformance
   url: conformance/airspace-link-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/well-known/airspace-link-well-known.yml
+  href: https://artifacts.apis.io/airspace-link/well-known/airspace-link-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/airspace-link-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/data-model/airspace-link-data-model.yml
+  href: https://artifacts.apis.io/airspace-link/data-model/airspace-link-data-model.yml
   title: ''
   type: DataModel
   url: data-model/airspace-link-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/security/airspace-link-domain-security.yml
+  href: https://artifacts.apis.io/airspace-link/security/airspace-link-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/airspace-link-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/airspace-link/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -178,7 +180,7 @@ overview: 'Airspace Link is listed with 1 API on the [APIs.io](https://apis.io/)
 
 
   Airspace Link''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 17
+random_paper: 19
 scopes:
 - name: Airspace Link Scopes
   scope_count: 15
@@ -186,7 +188,7 @@ scopes:
   summary_line: 15 scopes
 score:
   band: thin
-  composite: 33.3
+  composite: 36.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -194,15 +196,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 33.2
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 36.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -213,14 +215,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/screenshots/airspace-link-2026-07-25T195436.png
+screenshot: https://apis.io/screenshots/airspace-link/airspace-link-2026-07-25T195436.png
 security:
 - kind: authentication
   name: Airspace Link Authentication
@@ -230,6 +232,12 @@ security:
   name: Airspace Link Domain Security
   slug: airspace-link-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Get a B4UFLY airspace briefing
+  slug: airspace-link-b4ufly-briefing
+- name: Submit and track a LAANC authorization
+  slug: airspace-link-laanc-authorization
 slug: airspace-link
 tags:
 - Company

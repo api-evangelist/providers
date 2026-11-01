@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: derived
-    idempotency: na
-    mcp_server: templated
+    idempotency: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.6
-  scored_at: '2026-10-17'
+  score: 49.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -204,7 +206,7 @@ apis:
   description: User account and subscription information
   name: EODHD User API
   slug: eodhd-user-api
-artifact_total: 54
+artifact_total: 67
 asyncapis:
 - description: Real-time streaming of US equity trades and quotes, forex, and cryptocurrency prices over WebSockets with sub-50ms latency. Authenticates with the same api_token used by the REST API (validated during
   name: EODHD WebSockets Real-Time API
@@ -217,9 +219,6 @@ collections:
   name: EODHD Financial Data API
   slug: postman-eodhd-financial-data
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: EODHD End-Of-Day Historical Data Eod API
   slug: open-eodhd-eod-api
 - collection_type: open
@@ -230,12 +229,12 @@ collections:
   slug: open-eodhd-financial-data
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/plans/eodhd-plans-pricing.yml
+  href: https://artifacts.apis.io/eodhd/plans/eodhd-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eodhd-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/finops/eodhd-finops.yml
+  href: https://artifacts.apis.io/eodhd/finops/eodhd-finops.yml
   title: ''
   type: FinOps
   url: finops/eodhd-finops.yml
@@ -244,102 +243,102 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/eodhd/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/agentic-access/eodhd-agentic-access.yml
+  href: https://artifacts.apis.io/eodhd/agentic-access/eodhd-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eodhd-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/security/eodhd-domain-security.yml
+  href: https://artifacts.apis.io/eodhd/security/eodhd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eodhd-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/authentication/eodhd-authentication.yml
+  href: https://artifacts.apis.io/eodhd/authentication/eodhd-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eodhd-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/scopes/eodhd-scopes.yml
+  href: https://artifacts.apis.io/eodhd/scopes/eodhd-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/eodhd-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/packages/eodhd-packages.yml
+  href: https://artifacts.apis.io/eodhd/packages/eodhd-packages.yml
   title: ''
   type: Packages
   url: packages/eodhd-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/packages/eodhd-packages.yml
+  href: https://artifacts.apis.io/eodhd/packages/eodhd-packages.yml
   title: ''
   type: SDKs
   url: packages/eodhd-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/well-known/eodhd-well-known.yml
+  href: https://artifacts.apis.io/eodhd/well-known/eodhd-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/eodhd-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/mcp/eodhd-tool-crosswalk.yml
+  href: https://artifacts.apis.io/eodhd/mcp/eodhd-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/eodhd-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/llms/eodhd-llms.txt
+  href: https://artifacts.apis.io/eodhd/llms/eodhd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eodhd-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/overlays/eodhd-financial-data-overlay.yaml
+  href: https://artifacts.apis.io/eodhd/overlays/eodhd-financial-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eodhd-financial-data-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/overlays/eodhd-eod-api-overlay.yaml
+  href: https://artifacts.apis.io/eodhd/overlays/eodhd-eod-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eodhd-eod-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/conformance/eodhd-conformance.yml
+  href: https://artifacts.apis.io/eodhd/conformance/eodhd-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eodhd-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/errors/eodhd-problem-types.yml
+  href: https://artifacts.apis.io/eodhd/errors/eodhd-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eodhd-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/lifecycle/eodhd-lifecycle.yml
+  href: https://artifacts.apis.io/eodhd/lifecycle/eodhd-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eodhd-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/sandbox/eodhd-sandbox.yml
+  href: https://artifacts.apis.io/eodhd/sandbox/eodhd-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/eodhd-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/conventions/eodhd-conventions.yml
+  href: https://artifacts.apis.io/eodhd/conventions/eodhd-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eodhd-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/changelog/eodhd-changelog.yml
+  href: https://artifacts.apis.io/eodhd/changelog/eodhd-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/eodhd-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/components/eodhd-components.yml
+  href: https://artifacts.apis.io/eodhd/components/eodhd-components.yml
   title: ''
   type: Components
   url: components/eodhd-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/data-model/eodhd-data-model.yml
+  href: https://artifacts.apis.io/eodhd/data-model/eodhd-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eodhd-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/rate-limits/eodhd-rate-limits.yml
+  href: https://artifacts.apis.io/eodhd/rate-limits/eodhd-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eodhd-rate-limits.yml
@@ -420,7 +419,7 @@ common:
   type: TermsOfService
   url: https://eodhd.com/financial-apis/terms-conditions
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/mcp/eodhd-mcp.yml
+  href: https://artifacts.apis.io/eodhd/mcp/eodhd-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/eodhd-mcp.yml
@@ -429,7 +428,7 @@ common:
   type: MCPServer
   url: https://eodhd.com/financial-apis-blog/eodhd-mcp-server-update-75-tools-oauth-and-api-versioning
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/eodhd/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -445,10 +444,10 @@ created: '2025-02-24'
 description: Access historical end-of-day stock prices, intraday data, US stock options, and real-time prices with free and advanced plans. EODHD provides financial data for 150,000+ tickers, including stocks, ETFs, funds, and currencies worldwide, through 68+ REST endpoints, WebSocket streaming, an official OpenAPI 3.1.0 specification, an OAuth-secured MCP server with 86 tools, and a published Claude Skills plugin.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Eodhd Finops
-  primary_unit: ''
-  service_category: Market Data
+  primary_unit: add-on
+  service_category: ''
   slug: eodhd-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eodhd.png
@@ -481,9 +480,12 @@ overview: 'EODHD publishes 35 API contracts indexed on the [APIs.io](https://api
   EODHD''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, pricing, and 40 more developer resources.'
 plans:
 - name: Eodhd Plans Pricing
-  plan_count: 6
+  plan_count: 23
   slug: eodhd-plans-pricing
-random_paper: 10
+- name: Eodhd Price Estimates
+  plan_count: 0
+  slug: eodhd-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Eodhd Rate Limits
@@ -507,23 +509,23 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: strong
-  composite: 55.9
+  composite: 62.9
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 46.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 68.8
+    artifact_dirs: 33
+    catalog_earned: 58.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 14.4
     contract_quality: 56.5
     developer_ergonomics: 83.3
-    discoverability: 68.3
-    operational_transparency: 26.3
-  previous_composite: 57.4
+    discoverability: 71.7
+    operational_transparency: 28.9
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -540,14 +542,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/screenshots/eodhd-2026-06-20T180745.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/eodhd/eodhd-2026-06-20T180745.png
 security:
 - kind: authentication
   name: Eodhd Authentication
@@ -557,6 +559,34 @@ security:
   name: Eodhd Domain Security
   slug: eodhd-domain-security
   summary_line: TLSv1.2
+skill_count: 13
+skills:
+- name: eodhd-analyze
+  slug: eodhd-analyze
+- name: eodhd-api
+  slug: eodhd-api
+- name: company-brief
+  slug: eodhd-company-brief
+- name: eodhd-compare
+  slug: eodhd-compare
+- name: earnings-monitor
+  slug: eodhd-earnings-monitor
+- name: macro-dashboard
+  slug: eodhd-macro-dashboard
+- name: eodhd-macro
+  slug: eodhd-macro
+- name: market-overview
+  slug: eodhd-market-overview
+- name: eodhd-market
+  slug: eodhd-market
+- name: options-analyzer
+  slug: eodhd-options-analyzer
+- name: portfolio-risk
+  slug: eodhd-portfolio-risk
+- name: eodhd-screen
+  slug: eodhd-screen
+- name: stock-screener
+  slug: eodhd-stock-screener
 slug: eodhd
 tags:
 - Finance

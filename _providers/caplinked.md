@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RESTful JSON API for CapLinked virtual data rooms, secured by HMAC-SHA256 request signing. Manage organizations, teams, workspaces, folders, files, groups, permissions, uploads, downloads, watermarks,
@@ -44,12 +46,12 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/security/caplinked-trust-center.yml
+  href: https://artifacts.apis.io/caplinked/security/caplinked-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/caplinked-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/security/caplinked-domain-security.yml
+  href: https://artifacts.apis.io/caplinked/security/caplinked-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/caplinked-domain-security.yml
@@ -118,57 +120,57 @@ common:
   type: ChangeLog
   url: https://developer.caplinked.com/api-changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/changelog/caplinked-changelog.yml
+  href: https://artifacts.apis.io/caplinked/changelog/caplinked-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/caplinked-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/packages/caplinked-packages.yml
+  href: https://artifacts.apis.io/caplinked/packages/caplinked-packages.yml
   title: ''
   type: Packages
   url: packages/caplinked-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/packages/caplinked-packages.yml
+  href: https://artifacts.apis.io/caplinked/packages/caplinked-packages.yml
   title: ''
   type: SDKs
   url: packages/caplinked-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/authentication/caplinked-authentication.yml
+  href: https://artifacts.apis.io/caplinked/authentication/caplinked-authentication.yml
   title: ''
   type: Authentication
   url: authentication/caplinked-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/conventions/caplinked-conventions.yml
+  href: https://artifacts.apis.io/caplinked/conventions/caplinked-conventions.yml
   title: ''
   type: Conventions
   url: conventions/caplinked-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/data-model/caplinked-data-model.yml
+  href: https://artifacts.apis.io/caplinked/data-model/caplinked-data-model.yml
   title: ''
   type: DataModel
   url: data-model/caplinked-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/sandbox/caplinked-sandbox.yml
+  href: https://artifacts.apis.io/caplinked/sandbox/caplinked-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/caplinked-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/lifecycle/caplinked-lifecycle.yml
+  href: https://artifacts.apis.io/caplinked/lifecycle/caplinked-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/caplinked-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/conformance/caplinked-conformance.yml
+  href: https://artifacts.apis.io/caplinked/conformance/caplinked-conformance.yml
   title: ''
   type: Conformance
   url: conformance/caplinked-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/mcp/caplinked-mcp.yml
+  href: https://artifacts.apis.io/caplinked/mcp/caplinked-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/caplinked-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/llms/caplinked-llms.txt
+  href: https://artifacts.apis.io/caplinked/llms/caplinked-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/caplinked-llms.txt
@@ -184,12 +186,12 @@ overview: 'Caplinked is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Caplinked''s developer surface includes documentation, getting-started guide, signup flow, engineering blog, pricing, support, changelog, and 22 more developer resources.'
-random_paper: 15
+random_paper: 3
 score:
-  band: thin
-  composite: 29.8
+  band: developing
+  composite: 40.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -197,13 +199,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 34.2
-  previous_composite: 29.8
+    developer_ergonomics: 64.3
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 40.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -218,15 +220,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/caplinked/refs/heads/main/screenshots/caplinked-2026-07-25T204422.png
+screenshot: https://apis.io/screenshots/caplinked/caplinked-2026-07-25T204422.png
 security:
 - kind: authentication
   name: Caplinked Authentication
@@ -250,7 +252,6 @@ tags:
 - Mergers and Acquisitions
 - Digital Rights Management
 - Compliance
-- Data Room
 - Security
 website: https://caplinked.com
 ---

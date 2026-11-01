@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.3
-  scored_at: '2026-10-17'
+  score: 35.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -59,7 +61,7 @@ apis:
   description: Operations for managing resource tags
   name: Amazon AppFlow Tags API
   slug: amazon-appflow-tags-api
-artifact_total: 216
+artifact_total: 217
 collections:
 - collection_type: postman
   name: Amazon AppFlow Connectors API
@@ -71,9 +73,6 @@ collections:
   name: Amazon AppFlow Connectors Tags API
   slug: postman-amazon-appflow-tags-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Amazon AppFlow Connectors API
   slug: open-amazon-appflow-connectors-api
 - collection_type: open
@@ -83,6 +82,11 @@ collections:
   name: Amazon AppFlow Connectors Tags API
   slug: open-amazon-appflow-tags-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/amazon-appflow/plans/amazon-appflow-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-appflow-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -92,22 +96,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-appflow/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/agentic-access/amazon-appflow-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-appflow/agentic-access/amazon-appflow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-appflow-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/security/amazon-appflow-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-appflow/security/amazon-appflow-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-appflow-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/security/amazon-appflow-domain-security.yml
+  href: https://artifacts.apis.io/amazon-appflow/security/amazon-appflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-appflow-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/authentication/amazon-appflow-authentication.yml
+  href: https://artifacts.apis.io/amazon-appflow/authentication/amazon-appflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-appflow-authentication.yml
@@ -184,57 +188,57 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/rules/amazon-appflow-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-appflow/rules/amazon-appflow-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-appflow-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/vocabulary/amazon-appflow-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-appflow/vocabulary/amazon-appflow-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-appflow-vocabulary.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/packages/amazon-appflow-packages.yml
+  href: https://artifacts.apis.io/amazon-appflow/packages/amazon-appflow-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-appflow-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/well-known/amazon-appflow-well-known.yml
+  href: https://artifacts.apis.io/amazon-appflow/well-known/amazon-appflow-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-appflow-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/well-known/amazon-appflow-security.txt
+  href: https://artifacts.apis.io/amazon-appflow/well-known/amazon-appflow-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-appflow-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/mcp/amazon-appflow-mcp.yml
+  href: https://artifacts.apis.io/amazon-appflow/mcp/amazon-appflow-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-appflow-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/llms/amazon-appflow-llms.txt
+  href: https://artifacts.apis.io/amazon-appflow/llms/amazon-appflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-appflow-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/overlays/amazon-appflow-openapi-overlay.yaml
+  href: https://artifacts.apis.io/amazon-appflow/overlays/amazon-appflow-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-appflow-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/conformance/amazon-appflow-conformance.yml
+  href: https://artifacts.apis.io/amazon-appflow/conformance/amazon-appflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-appflow-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/errors/amazon-appflow-problem-types.yml
+  href: https://artifacts.apis.io/amazon-appflow/errors/amazon-appflow-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-appflow-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/lifecycle/amazon-appflow-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-appflow/lifecycle/amazon-appflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-appflow-lifecycle.yml
@@ -433,6 +437,14 @@ features:
   name: KMS Encryption
 - description: Transfer data privately over AWS PrivateLink without traversing the public internet.
   name: Private Link Support
+finops:
+- has_sources: true
+  method: derived
+  name: Amazon Appflow Finops
+  primary_unit: flow run
+  service_category: ''
+  slug: amazon-appflow-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-appflow.png
 integrations:
 - description: Bidirectional data transfer between Salesforce CRM and AWS services.
@@ -819,8 +831,12 @@ overview: 'Amazon AppFlow is listed with 3 APIs on the [APIs.io](https://apis.io
   The Amazon AppFlow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon AppFlow''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 28 more developer resources.'
-random_paper: 0
+  Amazon AppFlow''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 29 more developer resources.'
+plans:
+- name: Amazon Appflow Plans Pricing
+  plan_count: 2
+  slug: amazon-appflow-plans-pricing
+random_paper: 12
 rules:
 - authorship: generated
   effective_rule_count: 6
@@ -846,24 +862,24 @@ rules:
     warn: 21
   slug: amazon-appflow-spectral-rules
 score:
-  band: developing
-  composite: 49.3
+  band: strong
+  composite: 55.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 69.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    artifact_dirs: 27
+    catalog_earned: 80.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 35.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 52.6
+    access_clarity: 81.6
     contract_governance: 31.8
     contract_quality: 31.6
     developer_ergonomics: 65.5
-    discoverability: 78.6
-    operational_transparency: 28.9
-  previous_composite: 49.2
+    discoverability: 71.4
+    operational_transparency: 31.6
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -879,13 +895,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/screenshots/amazon-appflow-2026-07-25T195916.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-appflow/amazon-appflow-2026-07-25T195916.png
 security:
 - kind: authentication
   name: Amazon Appflow Authentication

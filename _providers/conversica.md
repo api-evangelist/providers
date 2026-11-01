@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,7 +58,7 @@ apis:
   description: Posting Lead object data into the Conversica Platform.
   name: Conversica Leads API
   slug: conversica-leads-api
-artifact_total: 19
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Conversica Webhooks
@@ -67,7 +69,7 @@ collections:
   slug: open-conversica-integrations-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/overlays/conversica-integrations-api-overlay.yaml
+  href: https://artifacts.apis.io/conversica/overlays/conversica-integrations-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/conversica-integrations-api-overlay.yaml
@@ -112,12 +114,12 @@ common:
   type: Security
   url: https://www.conversica.com/legal-info/responsible-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/security/conversica-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/conversica/security/conversica-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/conversica-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/security/conversica-trust-center.yml
+  href: https://artifacts.apis.io/conversica/security/conversica-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/conversica-trust-center.yml
@@ -126,27 +128,27 @@ common:
   type: Compliance
   url: https://trust.conversica.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/security/conversica-domain-security.yml
+  href: https://artifacts.apis.io/conversica/security/conversica-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/conversica-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/authentication/conversica-authentication.yml
+  href: https://artifacts.apis.io/conversica/authentication/conversica-authentication.yml
   title: ''
   type: Authentication
   url: authentication/conversica-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/conventions/conversica-conventions.yml
+  href: https://artifacts.apis.io/conversica/conventions/conversica-conventions.yml
   title: ''
   type: Conventions
   url: conventions/conversica-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/conformance/conversica-conformance.yml
+  href: https://artifacts.apis.io/conversica/conformance/conversica-conformance.yml
   title: ''
   type: Conformance
   url: conformance/conversica-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/lifecycle/conversica-lifecycle.yml
+  href: https://artifacts.apis.io/conversica/lifecycle/conversica-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/conversica-lifecycle.yml
@@ -155,67 +157,67 @@ common:
   type: Deprecation
   url: https://www.conversica.com/legal-info/conversica-api-terms-of-service
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/errors/conversica-problem-types.yml
+  href: https://artifacts.apis.io/conversica/errors/conversica-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/conversica-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/asyncapi/conversica-webhooks.yml
+  href: https://artifacts.apis.io/conversica/asyncapi/conversica-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/conversica-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/vocabulary/conversica-conversation-vocabulary.yml
+  href: https://artifacts.apis.io/conversica/vocabulary/conversica-conversation-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/conversica-conversation-vocabulary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/conversica/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/data-model/conversica-data-model.yml
+  href: https://artifacts.apis.io/conversica/data-model/conversica-data-model.yml
   title: ''
   type: DataModel
   url: data-model/conversica-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/sandbox/conversica-sandbox.yml
+  href: https://artifacts.apis.io/conversica/sandbox/conversica-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/conversica-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/components/conversica-components.yml
+  href: https://artifacts.apis.io/conversica/components/conversica-components.yml
   title: ''
   type: Components
   url: components/conversica-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/packages/conversica-packages.yml
+  href: https://artifacts.apis.io/conversica/packages/conversica-packages.yml
   title: ''
   type: Packages
   url: packages/conversica-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/rate-limits/conversica-rate-limits.yml
+  href: https://artifacts.apis.io/conversica/rate-limits/conversica-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/conversica-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/plans/conversica-plans-pricing.yml
+  href: https://artifacts.apis.io/conversica/plans/conversica-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/conversica-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/conversica/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/llms/conversica-llms.txt
+  href: https://artifacts.apis.io/conversica/llms/conversica-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/conversica-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/agentic-access/conversica-agentic-access.yml
+  href: https://artifacts.apis.io/conversica/agentic-access/conversica-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/conversica-agentic-access.yml
@@ -246,6 +248,14 @@ examples:
 - key_count: 7
   name: Conversica Message Sent
   slug: conversica-message-sent
+finops:
+- has_sources: true
+  method: derived
+  name: Conversica Finops
+  primary_unit: ''
+  service_category: ''
+  slug: conversica-finops
+  template: true
 image: https://cdn.prod.website-files.com/685300c814434f10e21dadd0/687ab25d596cea9ade1ebbc6_logo.png
 layout: provider
 modified: '2026-09-16'
@@ -270,31 +280,31 @@ rate_limits:
   slug: conversica-rate-limits
 score:
   band: developing
-  composite: 40.2
+  composite: 42.2
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 42.0
     catalog_earned_first_party: 5.0
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 19.7
-    contract_quality: 22.9
+    contract_quality: 25.3
     developer_ergonomics: 56.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 40.2
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 2
+      derived: 1
       marker_coverage: 100.0
-      total: 2
+      total: 1
     mcp: derived
     skills: derived
   regulatory:
@@ -303,13 +313,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/screenshots/conversica-2026-08-07T163802.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/conversica/conversica-2026-08-07T163802.png
 security:
 - kind: authentication
   name: Conversica Authentication
@@ -327,6 +338,12 @@ security:
   name: Conversica Trust Center
   slug: conversica-trust-center
   summary_line: SOC 2 Type II, ISO 27001, GDPR
+skill_count: 2
+skills:
+- name: Post a lead to a Conversica Assistant
+  slug: conversica-post-lead
+- name: Receive Conversica message and lead-update webhooks
+  slug: conversica-receive-conversation-events
 slug: conversica
 tags:
 - Company

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,27 +25,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cuemarc/refs/heads/main/plans/cuemarc-plans-pricing.yml
+  href: https://artifacts.apis.io/cuemarc/plans/cuemarc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cuemarc-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cuemarc/refs/heads/main/llms/cuemarc-llms.txt
+  href: https://artifacts.apis.io/cuemarc/llms/cuemarc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cuemarc-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cuemarc/refs/heads/main/hosts/cuemarc-hosts.yml
+  href: https://artifacts.apis.io/cuemarc/hosts/cuemarc-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cuemarc-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cuemarc/refs/heads/main/vendors/cuemarc-vendors.yml
+  href: https://artifacts.apis.io/cuemarc/vendors/cuemarc-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cuemarc-vendors.yml
@@ -56,7 +58,7 @@ common:
   type: Leadership
   url: https://cuemarc.com/home/team
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cuemarc/refs/heads/main/security/cuemarc-domain-security.yml
+  href: https://artifacts.apis.io/cuemarc/security/cuemarc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cuemarc-domain-security.yml
@@ -107,7 +109,7 @@ modified: '2026-10-16'
 name: Cuemarc
 nav: Providers
 network: true
-overview: 'Cuemarc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Reputation-Management, Marketing, and LLM.
+overview: 'Cuemarc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Reputation Management, Marketing, and LLM.
 
 
   Cuemarc''s developer surface includes engineering blog, pricing, signup flow, support, and 11 more developer resources.'
@@ -115,10 +117,10 @@ plans:
 - name: Cuemarc Plans Pricing
   plan_count: 3
   slug: cuemarc-plans-pricing
-random_paper: 10
+random_paper: 16
 score:
   band: emerging
-  composite: 22.2
+  composite: 21.5
   coverage:
     artifact_dirs: 8
     catalog_earned: 39.0
@@ -126,13 +128,15 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 58.9
+    discoverability: 51.8
     operational_transparency: 0.0
+  previous_composite: 21.5
   provenance:
     mcp: derived
   regulatory:
@@ -141,8 +145,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -156,7 +161,7 @@ slug: cuemarc
 tags:
 - Company
 - Artificial Intelligence
-- Reputation-Management
+- Reputation Management
 - Marketing
 - LLM
 website: https://cuemarc.com/

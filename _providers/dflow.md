@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-17'
+  score: 29.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -80,15 +82,12 @@ apis:
   description: Venue endpoints
   name: DFlow Venues API
   slug: dflow-venues-api
-artifact_total: 20
+artifact_total: 21
 asyncapis:
 - description: DERIVED event surface for the DFlow Trading API real-time WebSocket streams. Modeled by API Evangelist from the published DFlow docs (https://pond.dflow.net/resources/trading-api/websockets/overview a
   name: DFlow Trading API WebSocket Streams
   slug: dflow-trading-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: DFlow Aggregator admin API
   slug: open-dflow-admin-api
@@ -116,7 +115,7 @@ common:
   type: Blog
   url: https://dflow.net/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/overlays/dflow-aggregator-overlay.yaml
+  href: https://artifacts.apis.io/dflow/overlays/dflow-aggregator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dflow-aggregator-overlay.yaml
@@ -153,77 +152,77 @@ common:
   type: SignUp
   url: https://forms.gle/eX3cghbMF8VBB9qa9
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/llms/dflow-llms.txt
+  href: https://artifacts.apis.io/dflow/llms/dflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dflow-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/mcp/dflow-mcp.yml
+  href: https://artifacts.apis.io/dflow/mcp/dflow-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dflow-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/skills/dflow-spot-trading.md
+  href: https://artifacts.apis.io/dflow/skills/dflow-spot-trading.md
   title: ''
   type: AgentSkill
   url: skills/dflow-spot-trading.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/skills/dflow-platform-fees.md
+  href: https://artifacts.apis.io/dflow/skills/dflow-platform-fees.md
   title: ''
   type: AgentSkill
   url: skills/dflow-platform-fees.md
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/cli/dflow-cli.yml
+  href: https://artifacts.apis.io/dflow/cli/dflow-cli.yml
   title: ''
   type: CLI
   url: cli/dflow-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/packages/dflow-packages.yml
+  href: https://artifacts.apis.io/dflow/packages/dflow-packages.yml
   title: ''
   type: Packages
   url: packages/dflow-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/authentication/dflow-authentication.yml
+  href: https://artifacts.apis.io/dflow/authentication/dflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dflow-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/conventions/dflow-conventions.yml
+  href: https://artifacts.apis.io/dflow/conventions/dflow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dflow-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/errors/dflow-problem-types.yml
+  href: https://artifacts.apis.io/dflow/errors/dflow-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dflow-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/conformance/dflow-conformance.yml
+  href: https://artifacts.apis.io/dflow/conformance/dflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dflow-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/lifecycle/dflow-lifecycle.yml
+  href: https://artifacts.apis.io/dflow/lifecycle/dflow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dflow-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/sandbox/dflow-sandbox.yml
+  href: https://artifacts.apis.io/dflow/sandbox/dflow-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dflow-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/data-model/dflow-data-model.yml
+  href: https://artifacts.apis.io/dflow/data-model/dflow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dflow-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/agentic-access/dflow-agentic-access.yml
+  href: https://artifacts.apis.io/dflow/agentic-access/dflow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dflow-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/security/dflow-domain-security.yml
+  href: https://artifacts.apis.io/dflow/security/dflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dflow-domain-security.yml
@@ -257,15 +256,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 52.3
     developer_ergonomics: 78.6
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 37.8
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -282,13 +281,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/screenshots/dflow-2026-07-25T211845.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dflow/dflow-2026-07-25T211845.png
 security:
 - kind: authentication
   name: Dflow Authentication
@@ -298,6 +298,12 @@ security:
   name: Dflow Domain Security
   slug: dflow-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: dflow-platform-fees
+  slug: dflow-platform-fees
+- name: dflow-spot-trading
+  slug: dflow-spot-trading
 slug: dflow
 tags:
 - Company

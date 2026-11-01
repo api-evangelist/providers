@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Tenant-scoped RESTful API for programmatic management of an organization's MCP infrastructure — MCP server/connector management, user operations, audit logs, and analytics. Authenticated with an x-run
@@ -78,42 +80,42 @@ common:
   type: PrivacyPolicy
   url: https://runlayer.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runlayer/refs/heads/main/llms/runlayer-llms.txt
+  href: https://artifacts.apis.io/runlayer/llms/runlayer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/runlayer-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/runlayer/refs/heads/main/packages/runlayer-packages.yml
+  href: https://artifacts.apis.io/runlayer/packages/runlayer-packages.yml
   title: ''
   type: Packages
   url: packages/runlayer-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/runlayer/refs/heads/main/packages/runlayer-packages.yml
+  href: https://artifacts.apis.io/runlayer/packages/runlayer-packages.yml
   title: ''
   type: SDKs
   url: packages/runlayer-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/runlayer/refs/heads/main/cli/runlayer-cli.yml
+  href: https://artifacts.apis.io/runlayer/cli/runlayer-cli.yml
   title: ''
   type: CLI
   url: cli/runlayer-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/runlayer/refs/heads/main/mcp/runlayer-mcp.yml
+  href: https://artifacts.apis.io/runlayer/mcp/runlayer-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/runlayer-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runlayer/refs/heads/main/authentication/runlayer-authentication.yml
+  href: https://artifacts.apis.io/runlayer/authentication/runlayer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/runlayer-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runlayer/refs/heads/main/conventions/runlayer-conventions.yml
+  href: https://artifacts.apis.io/runlayer/conventions/runlayer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/runlayer-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runlayer/refs/heads/main/conformance/runlayer-conformance.yml
+  href: https://artifacts.apis.io/runlayer/conformance/runlayer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/runlayer-conformance.yml
@@ -122,22 +124,22 @@ common:
   type: Compliance
   url: https://trust.runlayer.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runlayer/refs/heads/main/security/runlayer-trust-center.yml
+  href: https://artifacts.apis.io/runlayer/security/runlayer-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/runlayer-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/runlayer/refs/heads/main/security/runlayer-domain-security.yml
+  href: https://artifacts.apis.io/runlayer/security/runlayer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/runlayer-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runlayer/refs/heads/main/errors/runlayer-error-codes.yml
+  href: https://artifacts.apis.io/runlayer/errors/runlayer-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/runlayer-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/runlayer/refs/heads/main/lifecycle/runlayer-lifecycle.yml
+  href: https://artifacts.apis.io/runlayer/lifecycle/runlayer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/runlayer-lifecycle.yml
@@ -157,12 +159,12 @@ overview: 'Runlayer is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Runlayer''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, authentication, and 15 more developer resources.'
-random_paper: 2
+random_paper: 18
 score:
   band: thin
-  composite: 32.9
+  composite: 32.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -174,9 +176,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 71.7
-    operational_transparency: 2.6
-  previous_composite: 32.9
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 32.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -192,14 +194,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/runlayer/refs/heads/main/screenshots/runlayer-2026-09-02T154208.png
+screenshot: https://apis.io/screenshots/runlayer/runlayer-2026-09-02T154208.png
 security:
 - kind: authentication
   name: Runlayer Authentication

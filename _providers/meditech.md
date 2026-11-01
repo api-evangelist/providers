@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -87,11 +89,8 @@ apis:
   description: US Core Patient resources
   name: meditech Patient API
   slug: meditech-patient-api
-artifact_total: 30
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Meditech Expanse FHIR R4 Allergy API
   slug: open-meditech-allergy-api
@@ -121,42 +120,42 @@ collections:
   slug: open-meditech-patient-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/agentic-access/meditech-agentic-access.yml
+  href: https://artifacts.apis.io/meditech/agentic-access/meditech-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/meditech-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/security/meditech-domain-security.yml
+  href: https://artifacts.apis.io/meditech/security/meditech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meditech-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/conformance/meditech-greenfield-conformance.yml
+  href: https://artifacts.apis.io/meditech/conformance/meditech-greenfield-conformance.yml
   title: ''
   type: Conformance
   url: conformance/meditech-greenfield-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/conformance/meditech-greenfield-capabilitystatement.json
+  href: https://artifacts.apis.io/meditech/conformance/meditech-greenfield-capabilitystatement.json
   title: ''
   type: CapabilityStatement
   url: conformance/meditech-greenfield-capabilitystatement.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/well-known/meditech-greenfield-smart-configuration.json
+  href: https://artifacts.apis.io/meditech/well-known/meditech-greenfield-smart-configuration.json
   title: ''
   type: WellKnown
   url: well-known/meditech-greenfield-smart-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/authentication/meditech-greenfield-oauth.yml
+  href: https://artifacts.apis.io/meditech/authentication/meditech-greenfield-oauth.yml
   title: ''
   type: Authentication
   url: authentication/meditech-greenfield-oauth.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/authentication/meditech-authentication.yml
+  href: https://artifacts.apis.io/meditech/authentication/meditech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/meditech-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/scopes/meditech-scopes.yml
+  href: https://artifacts.apis.io/meditech/scopes/meditech-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/meditech-scopes.yml
@@ -241,122 +240,122 @@ common:
   type: JSONLDContext
   url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/json-ld/meditech-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/collections/meditech-fhir.postman_collection.json
+  href: https://artifacts.apis.io/meditech/collections/meditech-fhir.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/meditech-fhir.postman_collection.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/collections/meditech-fhir.opencollection.json
+  href: https://artifacts.apis.io/meditech/collections/meditech-fhir.opencollection.json
   title: ''
   type: OpenCollection
   url: collections/meditech-fhir.opencollection.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/well-known/meditech-well-known.yml
+  href: https://artifacts.apis.io/meditech/well-known/meditech-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/meditech-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/mcp/meditech-mcp.yml
+  href: https://artifacts.apis.io/meditech/mcp/meditech-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/meditech-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/llms/meditech-llms.txt
+  href: https://artifacts.apis.io/meditech/llms/meditech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meditech-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/overlays/meditech-allergy-api-overlay.yaml
+  href: https://artifacts.apis.io/meditech/overlays/meditech-allergy-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/meditech-allergy-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/overlays/meditech-capability-api-overlay.yaml
+  href: https://artifacts.apis.io/meditech/overlays/meditech-capability-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/meditech-capability-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/overlays/meditech-condition-api-overlay.yaml
+  href: https://artifacts.apis.io/meditech/overlays/meditech-condition-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/meditech-condition-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/overlays/meditech-diagnostic-api-overlay.yaml
+  href: https://artifacts.apis.io/meditech/overlays/meditech-diagnostic-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/meditech-diagnostic-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/overlays/meditech-encounter-api-overlay.yaml
+  href: https://artifacts.apis.io/meditech/overlays/meditech-encounter-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/meditech-encounter-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/overlays/meditech-medication-api-overlay.yaml
+  href: https://artifacts.apis.io/meditech/overlays/meditech-medication-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/meditech-medication-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/overlays/meditech-observation-api-overlay.yaml
+  href: https://artifacts.apis.io/meditech/overlays/meditech-observation-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/meditech-observation-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/overlays/meditech-patient-api-overlay.yaml
+  href: https://artifacts.apis.io/meditech/overlays/meditech-patient-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/meditech-patient-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/errors/meditech-problem-types.yml
+  href: https://artifacts.apis.io/meditech/errors/meditech-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/meditech-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/lifecycle/meditech-lifecycle.yml
+  href: https://artifacts.apis.io/meditech/lifecycle/meditech-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/meditech-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/changelog/meditech-changelog.yml
+  href: https://artifacts.apis.io/meditech/changelog/meditech-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/meditech-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/security/meditech-trust-center.yml
+  href: https://artifacts.apis.io/meditech/security/meditech-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/meditech-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/security/meditech-trust-center.yml
+  href: https://artifacts.apis.io/meditech/security/meditech-trust-center.yml
   title: ''
   type: Compliance
   url: security/meditech-trust-center.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/sandbox/meditech-sandbox.yml
+  href: https://artifacts.apis.io/meditech/sandbox/meditech-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/meditech-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/conventions/meditech-conventions.yml
+  href: https://artifacts.apis.io/meditech/conventions/meditech-conventions.yml
   title: ''
   type: Conventions
   url: conventions/meditech-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/data-model/meditech-data-model.yml
+  href: https://artifacts.apis.io/meditech/data-model/meditech-data-model.yml
   title: ''
   type: DataModel
   url: data-model/meditech-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/plans/meditech-plans-pricing.yml
+  href: https://artifacts.apis.io/meditech/plans/meditech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/meditech-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/rate-limits/meditech-rate-limits.yml
+  href: https://artifacts.apis.io/meditech/rate-limits/meditech-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/meditech-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/meditech/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -370,6 +369,14 @@ common:
   url: https://home.meditech.com/en/d/restapiresources/pages/apiterms.htm
 created: '2026-05-04'
 description: MEDITECH (Medical Information Technology, Inc.) is an electronic health record vendor serving community hospitals and health systems, primarily through its MEDITECH Expanse platform. Its API program is delivered through the Greenfield Workspace — a registration-gated developer environment where approved app developers get interactive documentation and a sandbox to execute APIs against a real MEDITECH EHR. Published surfaces are US Core FHIR R4 (view-only patient-facing data, USCDI v1, DSTU2/R4 compatible) and FHIR Scheduling APIs. MEDITECH also operates Traverse Exchange, its national data exchange network and TEFCA on-ramp, connecting 700+ facilities across 41 US states plus Canadian deployments.
+finops:
+- has_sources: true
+  method: derived
+  name: Meditech Finops
+  primary_unit: ''
+  service_category: ''
+  slug: meditech-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meditech.png
 json_schemas:
 - name: Meditech FHIR R4 Patient
@@ -396,7 +403,7 @@ plans:
 - name: Meditech Plans Pricing
   plan_count: 0
   slug: meditech-plans-pricing
-random_paper: 21
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Meditech Rate Limits
@@ -420,9 +427,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.6
+  composite: 45.5
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 30
     catalog_earned: 53.7
     catalog_earned_first_party: 0.0
     catalog_gap: 61.4
@@ -433,10 +440,10 @@ score:
     access_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 27.6
-    developer_ergonomics: 57.7
+    developer_ergonomics: 67.3
     discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 43.6
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -453,14 +460,14 @@ score:
     regime: Health
     regime_id: health
     score: 47.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/screenshots/meditech-2026-06-20T185121.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/meditech/meditech-2026-06-20T185121.png
 security:
 - kind: authentication
   name: Meditech Authentication
@@ -478,6 +485,12 @@ security:
   name: Meditech Trust Center
   slug: meditech-trust-center
   summary_line: ONC Health IT Certification (2015 Edition Cures Update)
+skill_count: 2
+skills:
+- name: meditech-patient-clinical-summary
+  slug: meditech-patient-clinical-summary
+- name: meditech-patient-record-search
+  slug: meditech-patient-record-search
 slug: meditech
 tags:
 - Company

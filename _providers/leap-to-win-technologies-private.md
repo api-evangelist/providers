@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Undocumented, authentication-required API gateway serving the Propico web application. Observed on 2026-07-19: an unauthenticated GET /health returns 200 and reports a gateway fronting four internal s'
@@ -78,12 +80,12 @@ common:
   type: Twitter
   url: https://twitter.com/propico_in
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leap-to-win-technologies-private/refs/heads/main/llms/leap-to-win-technologies-private-llms.txt
+  href: https://artifacts.apis.io/leap-to-win-technologies-private/llms/leap-to-win-technologies-private-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leap-to-win-technologies-private-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leap-to-win-technologies-private/refs/heads/main/security/leap-to-win-technologies-private-domain-security.yml
+  href: https://artifacts.apis.io/leap-to-win-technologies-private/security/leap-to-win-technologies-private-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leap-to-win-technologies-private-domain-security.yml
@@ -100,10 +102,10 @@ overview: 'Leap To Win Technologies Private publishes no API. The 1 entry listed
 
 
   Leap To Win Technologies Private''s developer surface includes support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 16
+random_paper: 14
 score:
-  band: minimal
-  composite: 5.6
+  band: emerging
+  composite: 14.2
   coverage:
     artifact_dirs: 6
     catalog_earned: 37.0
@@ -113,11 +115,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 73.2
+    developer_ergonomics: 7.1
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -126,21 +128,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 5.6
+  previous_composite: 14.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 5.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 12.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/leap-to-win-technologies-private/refs/heads/main/screenshots/leap-to-win-technologies-private-2026-07-25T224746.png
+screenshot: https://apis.io/screenshots/leap-to-win-technologies-private/leap-to-win-technologies-private-2026-07-25T224746.png
 security:
 - kind: domain-security
   name: Leap To Win Technologies Private Domain Security

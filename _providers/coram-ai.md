@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,15 +26,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 30.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -84,11 +86,18 @@ apis:
   description: Bulk-import your school reunification roster — schools, students (with guardians), teachers, staff, and class sections — programmatically, the API equivalent of the in-app CSV upload. Each import is a
   name: Coram Ai Reunification API
   slug: coram-ai-reunification-api
-artifact_total: 20
+- baseURL: https://api.coram.ai/developer-api
+  baseurl_source: declared
+  description: View user credentials and assign or remove cards.
+  name: Coram Ai Credentials API
+  slug: coram-ai-credentials-api
+- baseURL: https://api.coram.ai/developer-api
+  baseurl_source: declared
+  description: Choose which doors users can unlock and when.
+  name: Coram Ai Permissions API
+  slug: coram-ai-permissions-api
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Coram alerts API
   slug: open-coram-ai-alerts-api
@@ -131,57 +140,57 @@ common:
   type: GettingStarted
   url: https://developer.coram.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/authentication/coram-ai-authentication.yml
+  href: https://artifacts.apis.io/coram-ai/authentication/coram-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coram-ai-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/mcp/coram-ai-mcp.yml
+  href: https://artifacts.apis.io/coram-ai/mcp/coram-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/coram-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/coram-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/agentic-access/coram-ai-agentic-access.yml
+  href: https://artifacts.apis.io/coram-ai/agentic-access/coram-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/coram-ai-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/conventions/coram-ai-conventions.yml
+  href: https://artifacts.apis.io/coram-ai/conventions/coram-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/coram-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/errors/coram-ai-error-codes.yml
+  href: https://artifacts.apis.io/coram-ai/errors/coram-ai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/coram-ai-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/data-model/coram-ai-data-model.yml
+  href: https://artifacts.apis.io/coram-ai/data-model/coram-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/coram-ai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/conformance/coram-ai-conformance.yml
+  href: https://artifacts.apis.io/coram-ai/conformance/coram-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coram-ai-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/overlays/coram-ai-openapi-overlay.yaml
+  href: https://artifacts.apis.io/coram-ai/overlays/coram-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coram-ai-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/llms/coram-ai-llms.txt
+  href: https://artifacts.apis.io/coram-ai/llms/coram-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coram-ai-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/lifecycle/coram-ai-lifecycle.yml
+  href: https://artifacts.apis.io/coram-ai/lifecycle/coram-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coram-ai-lifecycle.yml
@@ -190,12 +199,12 @@ common:
   type: StatusPage
   url: https://status.coram.ai
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/changelog/coram-ai-changelog.yml
+  href: https://artifacts.apis.io/coram-ai/changelog/coram-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/coram-ai-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/security/coram-ai-domain-security.yml
+  href: https://artifacts.apis.io/coram-ai/security/coram-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coram-ai-domain-security.yml
@@ -231,14 +240,14 @@ modified: '2026-07-18'
 name: Coram Ai
 nav: Providers
 network: true
-overview: 'Coram Ai publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Camera Groups API, Cameras API, and 5 more. Tagged areas include Company, Physical Security, Video Surveillance, Access Control, and Artificial Intelligence.
+overview: 'Coram Ai publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alerts API, Camera Groups API, Cameras API, and 7 more. Tagged areas include Company, Physical Security, Video Surveillance, Access Control, and Artificial Intelligence.
 
 
   Coram Ai''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 17 more developer resources.'
-random_paper: 7
+random_paper: 9
 score:
   band: developing
-  composite: 41.0
+  composite: 43.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -248,13 +257,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 50.5
+    contract_quality: 49.5
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 31.6
-  previous_composite: 41.0
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -262,7 +271,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 18
     mcp: derived
     skills: derived
   regulatory:
@@ -271,13 +280,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/screenshots/coram-ai-2026-07-25T210425.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/coram-ai/coram-ai-2026-07-25T210425.png
 security:
 - kind: authentication
   name: Coram Ai Authentication
@@ -287,6 +297,14 @@ security:
   name: Coram Ai Domain Security
   slug: coram-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Respond to an access-control event
+  slug: coram-ai-access-control-response
+- name: Manage the firearm alert lifecycle
+  slug: coram-ai-firearm-alert-lifecycle
+- name: Onboard Coram camera infrastructure
+  slug: coram-ai-onboard-camera-infrastructure
 slug: coram-ai
 tags:
 - Company

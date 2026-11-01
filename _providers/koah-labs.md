@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,13 +38,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Beta REST API for Koah publisher team accounts. Resource-oriented URLs, JSON responses, standard HTTP verbs and status codes, Bearer token authentication. Covers publisher CRUD and daily reporting for
   name: Koah API
   slug: koah-api
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -93,92 +95,92 @@ common:
   type: ChangeLog
   url: https://www.koahlabs.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/changelog/koah-labs-changelog.yml
+  href: https://artifacts.apis.io/koah-labs/changelog/koah-labs-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/koah-labs-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/packages/koah-labs-packages.yml
+  href: https://artifacts.apis.io/koah-labs/packages/koah-labs-packages.yml
   title: ''
   type: Packages
   url: packages/koah-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/packages/koah-labs-packages.yml
+  href: https://artifacts.apis.io/koah-labs/packages/koah-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/koah-labs-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/koah-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/llms/koah-labs-llms.txt
+  href: https://artifacts.apis.io/koah-labs/llms/koah-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/koah-labs-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/authentication/koah-labs-authentication.yml
+  href: https://artifacts.apis.io/koah-labs/authentication/koah-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/koah-labs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/errors/koah-labs-problem-types.yml
+  href: https://artifacts.apis.io/koah-labs/errors/koah-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/koah-labs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/conventions/koah-labs-conventions.yml
+  href: https://artifacts.apis.io/koah-labs/conventions/koah-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/koah-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/conventions/koah-labs-conventions.yml
+  href: https://artifacts.apis.io/koah-labs/conventions/koah-labs-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/koah-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/lifecycle/koah-labs-lifecycle.yml
+  href: https://artifacts.apis.io/koah-labs/lifecycle/koah-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/koah-labs-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/lifecycle/koah-labs-lifecycle.yml
+  href: https://artifacts.apis.io/koah-labs/lifecycle/koah-labs-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/koah-labs-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/sandbox/koah-labs-sandbox.yml
+  href: https://artifacts.apis.io/koah-labs/sandbox/koah-labs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/koah-labs-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/rate-limits/koah-labs-rate-limits.yml
+  href: https://artifacts.apis.io/koah-labs/rate-limits/koah-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/koah-labs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/plans/koah-labs-plans-pricing.yml
+  href: https://artifacts.apis.io/koah-labs/plans/koah-labs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/koah-labs-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/components/koah-labs-components.yml
+  href: https://artifacts.apis.io/koah-labs/components/koah-labs-components.yml
   title: ''
   type: Components
   url: components/koah-labs-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/data-model/koah-labs-data-model.yml
+  href: https://artifacts.apis.io/koah-labs/data-model/koah-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/koah-labs-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/conformance/koah-labs-conformance.yml
+  href: https://artifacts.apis.io/koah-labs/conformance/koah-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/koah-labs-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/security/koah-labs-domain-security.yml
+  href: https://artifacts.apis.io/koah-labs/security/koah-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/koah-labs-domain-security.yml
@@ -202,30 +204,30 @@ plans:
 - name: Koah Labs Plans Pricing
   plan_count: 0
   slug: koah-labs-plans-pricing
-random_paper: 2
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Koah Labs Rate Limits
   slug: koah-labs-rate-limits
 score:
   band: thin
-  composite: 34.0
+  composite: 36.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 78.6
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 33.9
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 36.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -236,14 +238,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/screenshots/koah-labs-2026-07-25T224018.png
+screenshot: https://apis.io/screenshots/koah-labs/koah-labs-2026-07-25T224018.png
 security:
 - kind: authentication
   name: Koah Labs Authentication
@@ -253,6 +255,10 @@ security:
   name: Koah Labs Domain Security
   slug: koah-labs-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: koah-integration
+  slug: koah-labs-koah-integration
 slug: koah-labs
 tags:
 - Company

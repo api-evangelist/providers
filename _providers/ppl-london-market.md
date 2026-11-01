@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-10-17'
+  score: 29.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -111,7 +113,7 @@ apis:
   description: The version API from PPL — 1 operation(s) for version.
   name: PPL Version API
   slug: ppl-london-market-version-api
-artifact_total: 22
+artifact_total: 27
 collections:
 - collection_type: open
   name: document
@@ -130,107 +132,107 @@ collections:
   slug: open-ppl-london-market-submissions
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/capabilities/ppl-london-market-capability-edges.yml
+  href: https://artifacts.apis.io/ppl-london-market/capabilities/ppl-london-market-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ppl-london-market-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/overlays/ppl-london-market-placements-overlay.yaml
+  href: https://artifacts.apis.io/ppl-london-market/overlays/ppl-london-market-placements-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ppl-london-market-placements-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/overlays/ppl-london-market-submissions-overlay.yaml
+  href: https://artifacts.apis.io/ppl-london-market/overlays/ppl-london-market-submissions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ppl-london-market-submissions-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/overlays/ppl-london-market-organisations-overlay.yaml
+  href: https://artifacts.apis.io/ppl-london-market/overlays/ppl-london-market-organisations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ppl-london-market-organisations-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/overlays/ppl-london-market-documents-overlay.yaml
+  href: https://artifacts.apis.io/ppl-london-market/overlays/ppl-london-market-documents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ppl-london-market-documents-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/overlays/ppl-london-market-events-overlay.yaml
+  href: https://artifacts.apis.io/ppl-london-market/overlays/ppl-london-market-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ppl-london-market-events-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/authentication/ppl-london-market-authentication.yml
+  href: https://artifacts.apis.io/ppl-london-market/authentication/ppl-london-market-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ppl-london-market-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/scopes/ppl-london-market-scopes.yml
+  href: https://artifacts.apis.io/ppl-london-market/scopes/ppl-london-market-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ppl-london-market-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/conventions/ppl-london-market-conventions.yml
+  href: https://artifacts.apis.io/ppl-london-market/conventions/ppl-london-market-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ppl-london-market-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/conventions/ppl-london-market-conventions.yml
+  href: https://artifacts.apis.io/ppl-london-market/conventions/ppl-london-market-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ppl-london-market-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/errors/ppl-london-market-problem-types.yml
+  href: https://artifacts.apis.io/ppl-london-market/errors/ppl-london-market-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ppl-london-market-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/lifecycle/ppl-london-market-lifecycle.yml
+  href: https://artifacts.apis.io/ppl-london-market/lifecycle/ppl-london-market-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ppl-london-market-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/conformance/ppl-london-market-conformance.yml
+  href: https://artifacts.apis.io/ppl-london-market/conformance/ppl-london-market-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ppl-london-market-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/sandbox/ppl-london-market-sandbox.yml
+  href: https://artifacts.apis.io/ppl-london-market/sandbox/ppl-london-market-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ppl-london-market-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/data-model/ppl-london-market-data-model.yml
+  href: https://artifacts.apis.io/ppl-london-market/data-model/ppl-london-market-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ppl-london-market-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/mcp/ppl-london-market-mcp.yml
+  href: https://artifacts.apis.io/ppl-london-market/mcp/ppl-london-market-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ppl-london-market-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/mcp/ppl-london-market-tool-crosswalk.yml
+  href: https://artifacts.apis.io/ppl-london-market/mcp/ppl-london-market-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/ppl-london-market-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ppl-london-market/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/llms/ppl-london-market-llms.txt
+  href: https://artifacts.apis.io/ppl-london-market/llms/ppl-london-market-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ppl-london-market-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/well-known/ppl-london-market-well-known.yml
+  href: https://artifacts.apis.io/ppl-london-market/well-known/ppl-london-market-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ppl-london-market-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/packages/ppl-london-market-packages.yml
+  href: https://artifacts.apis.io/ppl-london-market/packages/ppl-london-market-packages.yml
   title: ''
   type: Packages
   url: packages/ppl-london-market-packages.yml
@@ -243,12 +245,12 @@ common:
   type: Postman
   url: https://developer.pplnextgen.com/Explore-Innovate
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/agentic-access/ppl-london-market-agentic-access.yml
+  href: https://artifacts.apis.io/ppl-london-market/agentic-access/ppl-london-market-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ppl-london-market-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/security/ppl-london-market-domain-security.yml
+  href: https://artifacts.apis.io/ppl-london-market/security/ppl-london-market-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ppl-london-market-domain-security.yml
@@ -341,7 +343,7 @@ overview: 'PPL publishes 13 API contracts indexed on the [APIs.io](https://apis.
 
 
   PPL''s developer surface includes authentication, sandbox, getting-started guide, documentation, API reference, signup flow, support, and 37 more developer resources.'
-random_paper: 0
+random_paper: 12
 scopes:
 - name: Ppl London Market Scopes
   scope_count: 1
@@ -349,7 +351,7 @@ scopes:
   summary_line: 1 scope · authorizationCode/onBehalfOf/clientCredentials
 score:
   band: developing
-  composite: 45.3
+  composite: 44.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -361,9 +363,9 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 48.9
+    contract_quality: 45.5
     developer_ergonomics: 70.8
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -373,7 +375,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 45.3
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -390,13 +392,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/screenshots/ppl-london-market-2026-08-17T081327.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ppl-london-market/ppl-london-market-2026-08-17T081327.png
 security:
 - kind: authentication
   name: Ppl London Market Authentication
@@ -406,6 +409,18 @@ security:
   name: Ppl London Market Domain Security
   slug: ppl-london-market-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Manage Market Reform Contract documents
+  slug: ppl-london-market-manage-contract-documents
+- name: Place a risk on PPL — placement to bound contract
+  slug: ppl-london-market-place-a-risk
+- name: Poll PPL notifications and the transaction log
+  slug: ppl-london-market-poll-notifications
+- name: Resolve London Market reference data before placing
+  slug: ppl-london-market-resolve-reference-data
+- name: Respond to a broker submission as an underwriter
+  slug: ppl-london-market-respond-to-submission
 slug: ppl-london-market
 tags:
 - Insurance

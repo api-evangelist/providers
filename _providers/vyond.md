@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-10-17'
+  score: 23.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 20
   slug: vyond-agentic-access
   summary_line: 20 operations · 10 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.vyond.com
   baseurl_source: declared
@@ -95,15 +97,12 @@ arazzos:
 - description: Register a webhook subscription for Turbo events, submit a text prompt to Turbo, and poll the task as a fallback until it reaches a terminal status.
   name: Turbo text-to-video with a webhook subscription
   slug: vyond-turbo-with-webhook
-artifact_total: 29
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Vyond Webhooks
   slug: vyond-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Vyond API Documentation Content Generation API
   slug: open-vyond-content-generation-api
@@ -137,27 +136,27 @@ common:
   type: BlogRSS
   url: https://www.vyond.com/feed/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/plans/vyond-plans-pricing.yml
+  href: https://artifacts.apis.io/vyond/plans/vyond-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vyond-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/capabilities/vyond-capability-edges.yml
+  href: https://artifacts.apis.io/vyond/capabilities/vyond-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vyond-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/agentic-access/vyond-agentic-access.yml
+  href: https://artifacts.apis.io/vyond/agentic-access/vyond-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vyond-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/security/vyond-domain-security.yml
+  href: https://artifacts.apis.io/vyond/security/vyond-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vyond-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/authentication/vyond-authentication.yml
+  href: https://artifacts.apis.io/vyond/authentication/vyond-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vyond-authentication.yml
@@ -222,97 +221,105 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/vyond_stock/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/packages/vyond-packages.yml
+  href: https://artifacts.apis.io/vyond/packages/vyond-packages.yml
   title: ''
   type: Packages
   url: packages/vyond-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/well-known/vyond-well-known.yml
+  href: https://artifacts.apis.io/vyond/well-known/vyond-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vyond-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/mcp/vyond-mcp.yml
+  href: https://artifacts.apis.io/vyond/mcp/vyond-mcp.yml
   title: ''
   type: MCPCandidate
   url: mcp/vyond-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/llms/vyond-llms.txt
+  href: https://artifacts.apis.io/vyond/llms/vyond-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vyond-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/overlays/vyond-api-overlay.yaml
+  href: https://artifacts.apis.io/vyond/overlays/vyond-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vyond-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/conformance/vyond-conformance.yml
+  href: https://artifacts.apis.io/vyond/conformance/vyond-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vyond-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/errors/vyond-problem-types.yml
+  href: https://artifacts.apis.io/vyond/errors/vyond-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vyond-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/lifecycle/vyond-lifecycle.yml
+  href: https://artifacts.apis.io/vyond/lifecycle/vyond-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vyond-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/scopes/vyond-scopes.yml
+  href: https://artifacts.apis.io/vyond/scopes/vyond-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vyond-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/conventions/vyond-conventions.yml
+  href: https://artifacts.apis.io/vyond/conventions/vyond-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vyond-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/security/vyond-trust-center.yml
+  href: https://artifacts.apis.io/vyond/security/vyond-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vyond-trust-center.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/changelog/vyond-changelog.yml
+  href: https://artifacts.apis.io/vyond/changelog/vyond-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vyond-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/data-model/vyond-data-model.yml
+  href: https://artifacts.apis.io/vyond/data-model/vyond-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vyond-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/asyncapi/vyond-webhooks.yml
+  href: https://artifacts.apis.io/vyond/asyncapi/vyond-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vyond-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vyond/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/arazzo/vyond-generate-and-export-video.yml
+  href: https://artifacts.apis.io/vyond/arazzo/vyond-generate-and-export-video.yml
   title: ''
   type: Arazzo
   url: arazzo/vyond-generate-and-export-video.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/arazzo/vyond-turbo-with-webhook.yml
+  href: https://artifacts.apis.io/vyond/arazzo/vyond-turbo-with-webhook.yml
   title: ''
   type: Arazzo
   url: arazzo/vyond-turbo-with-webhook.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/arazzo/vyond-scim-provision-user.yml
+  href: https://artifacts.apis.io/vyond/arazzo/vyond-scim-provision-user.yml
   title: ''
   type: Arazzo
   url: arazzo/vyond-scim-provision-user.yml
 created: '2026-08-05'
 description: 'Vyond is a business video creation platform — formerly GoAnimate — used by enterprise learning, HR, sales enablement and internal-communications teams to produce animated, AI-avatar, mixed-media and screen-recorded video. Alongside the Vyond Studio web application and the generative Vyond Go and Turbo products, Vyond publishes a public OpenAPI 3.0 contract at api.vyond.com/doc/ covering two distinct surfaces: a versioned REST API (/rest/{version}/) for content generation, Turbo text-to-video tasks, video export, parameter lookup and HMAC-signed webhook subscriptions, and a SCIM 2.0 API (/scim/v2/) for enterprise user provisioning against identity providers such as Okta. Access is bearer-token based — API tokens for SCIM, OAuth 2.0 access tokens for REST — and is scoped per feature (VYOND_GO, VIDEO_EXPORT).'
+finops:
+- has_sources: true
+  method: derived
+  name: Vyond Finops
+  primary_unit: user
+  service_category: ''
+  slug: vyond-finops
+  template: false
 image: https://www.vyond.com/wp-content/uploads/2025/05/vyond-social-promo-card-1200x630-1.webp
 layout: provider
 modified: '2026-10-06'
@@ -333,7 +340,7 @@ plans:
 - name: Vyond Price Estimates
   plan_count: 0
   slug: vyond-price-estimates
-random_paper: 10
+random_paper: 8
 scopes:
 - name: Vyond Scopes
   scope_count: 2
@@ -341,23 +348,28 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 60.4
+  composite: 58.0
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 49.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 58.6
+    contract_quality: 53.9
     developer_ergonomics: 49.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 60.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -382,13 +394,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/screenshots/vyond-2026-08-17T082830.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vyond/vyond-2026-08-17T082830.png
 security:
 - kind: authentication
   name: Vyond Authentication
@@ -402,6 +415,16 @@ security:
   name: Vyond Trust Center
   slug: vyond-trust-center
   summary_line: ISO/IEC 27001:2022, FedRAMP, PCI DSS Level 1, EU-U.S. Data Privacy Framework, Swiss-U.S. Data Privacy Framework, GDPR, CCPA, VPAT / Section 508 (ACR)
+skill_count: 4
+skills:
+- name: Generate a Vyond video and export it
+  slug: vyond-generate-and-export-video
+- name: Provision Vyond users over SCIM 2.0
+  slug: vyond-scim-user-provisioning
+- name: Generate a video from a text prompt with Vyond Turbo
+  slug: vyond-turbo-text-to-video
+- name: Subscribe to Vyond webhooks and verify the signature
+  slug: vyond-verify-webhook-signature
 slug: vyond
 tags:
 - Video

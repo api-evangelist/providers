@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/4dbios/refs/heads/main/security/4dbios-domain-security.yml
+  href: https://artifacts.apis.io/4dbios/security/4dbios-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/4dbios-domain-security.yml
@@ -53,17 +55,17 @@ common:
   type: Login
   url: https://openapi.4d-bios.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/4dbios/refs/heads/main/plans/4dbios-plans-pricing.yml
+  href: https://artifacts.apis.io/4dbios/plans/4dbios-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/4dbios-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/4dbios/refs/heads/main/rate-limits/4dbios-rate-limits.yml
+  href: https://artifacts.apis.io/4dbios/rate-limits/4dbios-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/4dbios-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/4dbios/refs/heads/main/llms/4dbios-llms.txt
+  href: https://artifacts.apis.io/4dbios/llms/4dbios-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/4dbios-llms.txt
@@ -98,14 +100,14 @@ plans:
 - name: 4Dbios Plans Pricing
   plan_count: 0
   slug: 4dbios-plans-pricing
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: 4Dbios Rate Limits
   slug: 4dbios-rate-limits
 score:
-  band: minimal
-  composite: 10.5
+  band: emerging
+  composite: 12.4
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -113,29 +115,29 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 22.4
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 10.4
+  previous_composite: 12.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 13.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/4dbios/refs/heads/main/screenshots/4dbios-2026-10-11T092248.png
+screenshot: https://apis.io/screenshots/4dbios/4dbios-2026-10-11T092248.png
 security:
 - kind: domain-security
   name: 4Dbios Domain Security

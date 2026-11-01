@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pliops/refs/heads/main/security/pliops-domain-security.yml
+  href: https://artifacts.apis.io/pliops/security/pliops-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pliops-domain-security.yml
@@ -52,22 +54,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/pliops
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pliops/refs/heads/main/packages/pliops-packages.yml
+  href: https://artifacts.apis.io/pliops/packages/pliops-packages.yml
   title: ''
   type: Packages
   url: packages/pliops-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pliops/refs/heads/main/llms/pliops-llms.txt
+  href: https://artifacts.apis.io/pliops/llms/pliops-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pliops-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pliops/refs/heads/main/plans/pliops-plans-pricing.yml
+  href: https://artifacts.apis.io/pliops/plans/pliops-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pliops-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pliops/refs/heads/main/rate-limits/pliops-rate-limits.yml
+  href: https://artifacts.apis.io/pliops/rate-limits/pliops-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pliops-rate-limits.yml
@@ -99,14 +101,14 @@ plans:
 - name: Pliops Plans Pricing
   plan_count: 0
   slug: pliops-plans-pricing
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Pliops Rate Limits
   slug: pliops-rate-limits
 score:
   band: minimal
-  composite: 4.4
+  composite: 4.1
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -120,8 +122,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -130,21 +132,21 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 4.4
+  previous_composite: 4.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pliops/refs/heads/main/screenshots/pliops-2026-10-11T191416.png
+screenshot: https://apis.io/screenshots/pliops/pliops-2026-10-11T191416.png
 security:
 - kind: domain-security
   name: Pliops Domain Security

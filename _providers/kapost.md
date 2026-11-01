@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,13 +39,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Versioned REST Content API with 67 documented operations across content, collections, comments, reminders, tasks, visibility, ideas, initiatives, custom fields, content types, destinations, membership
   name: Kapost Content API
   slug: kapost-content-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Kapost Webhooks
@@ -82,32 +84,32 @@ common:
   type: Blog
   url: https://uplandsoftware.com/kapost/resources/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/authentication/kapost-authentication.yml
+  href: https://artifacts.apis.io/kapost/authentication/kapost-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kapost-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/asyncapi/kapost-webhooks.yml
+  href: https://artifacts.apis.io/kapost/asyncapi/kapost-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kapost-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/conventions/kapost-conventions.yml
+  href: https://artifacts.apis.io/kapost/conventions/kapost-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kapost-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/packages/kapost-packages.yml
+  href: https://artifacts.apis.io/kapost/packages/kapost-packages.yml
   title: ''
   type: Packages
   url: packages/kapost-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/security/kapost-domain-security.yml
+  href: https://artifacts.apis.io/kapost/security/kapost-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kapost-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/llms/kapost-llms.txt
+  href: https://artifacts.apis.io/kapost/llms/kapost-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kapost-llms.txt
@@ -120,22 +122,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/kapost
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/sandbox/kapost-sandbox.yml
+  href: https://artifacts.apis.io/kapost/sandbox/kapost-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kapost-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/components/kapost-components.yml
+  href: https://artifacts.apis.io/kapost/components/kapost-components.yml
   title: ''
   type: Components
   url: components/kapost-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/data-model/kapost-data-model.yml
+  href: https://artifacts.apis.io/kapost/data-model/kapost-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kapost-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/conformance/kapost-conformance.yml
+  href: https://artifacts.apis.io/kapost/conformance/kapost-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kapost-conformance.yml
@@ -144,27 +146,35 @@ common:
   type: Compliance
   url: https://trust.uplandsoftware.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/security/kapost-trust-center.yml
+  href: https://artifacts.apis.io/kapost/security/kapost-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kapost-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/lifecycle/kapost-lifecycle.yml
+  href: https://artifacts.apis.io/kapost/lifecycle/kapost-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kapost-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/plans/kapost-plans-pricing.yml
+  href: https://artifacts.apis.io/kapost/plans/kapost-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kapost-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/rate-limits/kapost-rate-limits.yml
+  href: https://artifacts.apis.io/kapost/rate-limits/kapost-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kapost-rate-limits.yml
 created: '2026-07-17'
 description: Kapost is a content operations platform — now part of Upland Software — that lets B2B marketing teams plan, produce, distribute, and analyze content across the customer journey through its Canvas, Studio, Gallery, and Insights modules. Kapost exposes a versioned REST Content API (/api/v1) secured with HTTP Basic authentication using a per-user API token and returning JSON, plus outbound content webhooks (create/update/publish/delete), an XML-RPC interface, and a first-party WordPress plugin for publishing content from Kapost to WordPress sites. This profile was enriched from Kapost's live developer portal.
+finops:
+- has_sources: true
+  method: derived
+  name: Kapost Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: kapost-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kapost.png
 layout: provider
 modified: '2026-08-13'
@@ -180,32 +190,35 @@ overview: 'Kapost is listed with 1 API on the [APIs.io](https://apis.io/) networ
   Kapost''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
 plans:
 - name: Kapost Plans Pricing
-  plan_count: 0
+  plan_count: 5
   slug: kapost-plans-pricing
-random_paper: 20
+- name: Kapost Price Estimates
+  plan_count: 0
+  slug: kapost-price-estimates
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Kapost Rate Limits
   slug: kapost-rate-limits
 score:
   band: developing
-  composite: 41.6
+  composite: 50.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 32.9
+    access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 41.5
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 42.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -219,14 +232,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kapost/refs/heads/main/screenshots/kapost-2026-07-25T223456.png
+screenshot: https://apis.io/screenshots/kapost/kapost-2026-07-25T223456.png
 security:
 - kind: authentication
   name: Kapost Authentication

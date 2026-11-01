@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The ISNetworld API is a RESTful, bearer-token authenticated HTTP API that lets ISN subscribers download their own ISNetworld data — company profile scorecards, connected contractor lists and related c
@@ -44,13 +46,51 @@ apis:
   slug: isnetworld-api
 artifact_total: 7
 common:
+- group: auth
+  href: https://artifacts.apis.io/isn/security/isn-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/isn-trust-center.yml
+- group: auth
+  href: https://artifacts.apis.io/isn/security/isn-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/isn-vulnerability-disclosure.yml
+- group: auth
+  href: https://artifacts.apis.io/isn/security/isn-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/isn-vulnerability-disclosure.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/isn/refs/heads/main/rate-limits/isn-rate-limits.yml
+  href: https://artifacts.apis.io/isn/lifecycle/isn-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/isn-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/isn/hosts/isn-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/isn-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/isn/vendors/isn-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/isn-vendors.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.isnetworld.com/en/leadership
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.isnetworld.com/
+- group: operate
+  href: https://artifacts.apis.io/isn/rate-limits/isn-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/isn-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/isn/refs/heads/main/security/isn-domain-security.yml
+  href: https://artifacts.apis.io/isn/security/isn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/isn-domain-security.yml
@@ -95,22 +135,21 @@ common:
   type: Compliance
   url: https://www.isnetworld.com/en/trust-center
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/isn/refs/heads/main/conformance/isn-conformance.yml
+  href: https://artifacts.apis.io/isn/conformance/isn-conformance.yml
   title: ''
   type: Conformance
   url: conformance/isn-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/isn/refs/heads/main/plans/isn-plans-pricing.yml
+  href: https://artifacts.apis.io/isn/plans/isn-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/isn-plans-pricing.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/isn/refs/heads/main/llms/isn-llms.txt
+- group: operate
   title: ''
-  type: LLMsTxt
-  url: llms/isn-llms.txt
+  type: HelpCenter
+  url: https://help.isnetworld.com/s/
 coverage:
-  checked: '2026-08-23'
+  checked: '2026-10-20'
   detail: ISN runs a live production REST API at api.isnetworld.com — GET /token, /validate-token, /1.0/VendorConnections/ConnectedContractors and /1.0/CompanyProfile/Scorecard/{isnId} all answer HTTP 401 against a 404 control — but its only reference surface is the API's own /help endpoint, which is itself authentication-gated, plus a Developer Integration Guide PDF issued to subscribers; the word "API" does not appear anywhere on the public isnetworld.com site or in its 916-URL sitemap.
   evidence:
   - status: 401
@@ -120,7 +159,7 @@ coverage:
   - status: 404
     url: https://api.isnetworld.com/openapi.json
   - status: 200
-    url: https://www.isnetworld.com/en/faqs
+    url: https://help.isnetworld.com/s/
   reason: customer-only-docs
   state: gated
 created: '2026-08-23'
@@ -128,28 +167,28 @@ description: ISN Software Corporation, which trades as ISN, is a Dallas, Texas b
   data into internal systems, but the API is documented only to customers and there is no public developer portal, OpenAPI description, or SDK.
 image: https://www.isnetworld.com/themes/custom/isn/touch-icon-512.png
 layout: provider
-modified: '2026-08-23'
+modified: '2026-10-20'
 name: ISN
 nav: Providers
 network: true
 overview: 'ISN is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Contractor Management, Supplier Management, Health Safety and Environment, and Risk Management.
 
 
-  ISN''s developer surface includes support, engineering blog, signup flow, and 12 more developer resources.'
+  ISN''s developer surface includes documentation, support, engineering blog, signup flow, and 19 more developer resources.'
 plans:
 - name: Isn Plans Pricing
   plan_count: 0
   slug: isn-plans-pricing
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Isn Rate Limits
   slug: isn-rate-limits
 score:
-  band: emerging
-  composite: 24.0
+  band: thin
+  composite: 29.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -160,10 +199,10 @@ score:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 66.1
-    operational_transparency: 0.0
-  previous_composite: 24.0
+    developer_ergonomics: 28.6
+    discoverability: 67.9
+    operational_transparency: 18.4
+  previous_composite: 29.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -172,15 +211,15 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 26.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 31.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/isn/refs/heads/main/screenshots/isn-2026-09-02T145928.png
+screenshot: https://apis.io/screenshots/isn/isn-2026-09-02T145928.png
 security:
 - kind: authentication
   name: Isn Authentication

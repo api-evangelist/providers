@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-17'
+  score: 35.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,11 +65,8 @@ apis:
   description: Trade credit insurance policy management operations
   name: Allianz Trade Policy API
   slug: allianz-trade-online-policy-api
-artifact_total: 102
+artifact_total: 101
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Allianz Trade Claims API
   slug: open-allianz-trade-online-claims-api
@@ -82,27 +81,27 @@ collections:
   slug: open-allianz-trade-online-policy-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/overlays/allianz-trade-online-claims-overlay.yaml
+  href: https://artifacts.apis.io/allianz-trade-online/overlays/allianz-trade-online-claims-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/allianz-trade-online-claims-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/agentic-access/allianz-trade-online-agentic-access.yml
+  href: https://artifacts.apis.io/allianz-trade-online/agentic-access/allianz-trade-online-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/allianz-trade-online-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/security/allianz-trade-online-domain-security.yml
+  href: https://artifacts.apis.io/allianz-trade-online/security/allianz-trade-online-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allianz-trade-online-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/authentication/allianz-trade-online-authentication.yml
+  href: https://artifacts.apis.io/allianz-trade-online/authentication/allianz-trade-online-authentication.yml
   title: ''
   type: Authentication
   url: authentication/allianz-trade-online-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/scopes/allianz-trade-online-scopes.yml
+  href: https://artifacts.apis.io/allianz-trade-online/scopes/allianz-trade-online-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/allianz-trade-online-scopes.yml
@@ -131,47 +130,47 @@ common:
   type: Support
   url: mailto:api@allianz-trade.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/rules/allianz-trade-online-spectral-rules.yml
+  href: https://artifacts.apis.io/allianz-trade-online/rules/allianz-trade-online-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/allianz-trade-online-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/vocabulary/allianz-trade-online-vocabulary.yaml
+  href: https://artifacts.apis.io/allianz-trade-online/vocabulary/allianz-trade-online-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/allianz-trade-online-vocabulary.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/packages/allianz-trade-online-packages.yml
+  href: https://artifacts.apis.io/allianz-trade-online/packages/allianz-trade-online-packages.yml
   title: ''
   type: Packages
   url: packages/allianz-trade-online-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/well-known/allianz-trade-online-well-known.yml
+  href: https://artifacts.apis.io/allianz-trade-online/well-known/allianz-trade-online-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/allianz-trade-online-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/mcp/allianz-trade-online-mcp.yml
+  href: https://artifacts.apis.io/allianz-trade-online/mcp/allianz-trade-online-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/allianz-trade-online-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/llms/allianz-trade-online-llms.txt
+  href: https://artifacts.apis.io/allianz-trade-online/llms/allianz-trade-online-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/allianz-trade-online-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/conformance/allianz-trade-online-conformance.yml
+  href: https://artifacts.apis.io/allianz-trade-online/conformance/allianz-trade-online-conformance.yml
   title: ''
   type: Conformance
   url: conformance/allianz-trade-online-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/errors/allianz-trade-online-problem-types.yml
+  href: https://artifacts.apis.io/allianz-trade-online/errors/allianz-trade-online-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/allianz-trade-online-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/lifecycle/allianz-trade-online-lifecycle.yml
+  href: https://artifacts.apis.io/allianz-trade-online/lifecycle/allianz-trade-online-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/allianz-trade-online-lifecycle.yml
@@ -438,7 +437,7 @@ overview: 'Allianz Trade is listed with 4 APIs on the [APIs.io](https://apis.io/
 
 
   Allianz Trade''s developer surface includes authentication, developer portal, getting-started guide, documentation, changelog, support, and 14 more developer resources.'
-random_paper: 8
+random_paper: 18
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -470,7 +469,7 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: thin
-  composite: 31.3
+  composite: 31.8
   coverage:
     artifact_dirs: 23
     catalog_earned: 66.0
@@ -478,15 +477,15 @@ score:
     catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 31.8
     contract_quality: 29.8
     developer_ergonomics: 47.6
-    discoverability: 71.4
+    discoverability: 70.0
     operational_transparency: 15.8
-  previous_composite: 31.2
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -502,13 +501,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 29.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/screenshots/allianz-trade-online-2026-07-25T195702.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/allianz-trade-online/allianz-trade-online-2026-07-25T195702.png
 security:
 - kind: authentication
   name: Allianz Trade Online Authentication

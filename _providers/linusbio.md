@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,13 +38,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The agent-callable commerce surface for LinusBio''s Traced environmental exposure test, served from the traced.life storefront. It implements the Universal Commerce Protocol (UCP) 2026-04-08 over MCP: '
   name: Traced UCP Commerce (MCP)
   slug: linusbio-traced-ucp-commerce
-artifact_total: 7
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -77,72 +79,72 @@ common:
   type: GettingStarted
   url: https://traced.life/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/llms/linusbio-llms.txt
+  href: https://artifacts.apis.io/linusbio/llms/linusbio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/linusbio-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/well-known/linusbio-well-known.yml
+  href: https://artifacts.apis.io/linusbio/well-known/linusbio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/linusbio-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/mcp/linusbio-traced-mcp.yml
+  href: https://artifacts.apis.io/linusbio/mcp/linusbio-traced-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/linusbio-traced-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/authentication/linusbio-authentication.yml
+  href: https://artifacts.apis.io/linusbio/authentication/linusbio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/linusbio-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/scopes/linusbio-scopes.yml
+  href: https://artifacts.apis.io/linusbio/scopes/linusbio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/linusbio-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/conventions/linusbio-conventions.yml
+  href: https://artifacts.apis.io/linusbio/conventions/linusbio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/linusbio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/conventions/linusbio-conventions.yml
+  href: https://artifacts.apis.io/linusbio/conventions/linusbio-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/linusbio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/conformance/linusbio-conformance.yml
+  href: https://artifacts.apis.io/linusbio/conformance/linusbio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/linusbio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/lifecycle/linusbio-lifecycle.yml
+  href: https://artifacts.apis.io/linusbio/lifecycle/linusbio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/linusbio-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/plans/linusbio-plans-pricing.yml
+  href: https://artifacts.apis.io/linusbio/plans/linusbio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/linusbio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/rate-limits/linusbio-rate-limits.yml
+  href: https://artifacts.apis.io/linusbio/rate-limits/linusbio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/linusbio-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/security/linusbio-domain-security.yml
+  href: https://artifacts.apis.io/linusbio/security/linusbio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/linusbio-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/linusbio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/conformance/linusbio-conformance.yml
+  href: https://artifacts.apis.io/linusbio/conformance/linusbio-conformance.yml
   title: ''
   type: Compliance
   url: conformance/linusbio-conformance.yml
@@ -167,7 +169,7 @@ plans:
 - name: Linusbio Plans Pricing
   plan_count: 0
   slug: linusbio-plans-pricing
-random_paper: 11
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Linusbio Rate Limits
@@ -179,7 +181,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 32.5
+  composite: 31.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 45.0
@@ -187,13 +189,13 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.3
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -202,7 +204,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 32.4
+  previous_composite: 31.5
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -213,14 +215,14 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/screenshots/linusbio-2026-09-02T150259.png
+screenshot: https://apis.io/screenshots/linusbio/linusbio-2026-09-02T150259.png
 security:
 - kind: authentication
   name: Linusbio Authentication
@@ -230,6 +232,10 @@ security:
   name: Linusbio Domain Security
   slug: linusbio-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: order-traced-exposure-test
+  slug: linusbio-order-traced-test
 slug: linusbio
 tags:
 - Company

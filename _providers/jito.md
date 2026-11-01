@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.7
-  scored_at: '2026-10-17'
+  score: 17.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -79,15 +81,12 @@ apis:
   description: Direct sendTransaction proxy to validator leaders.
   name: Jito Labs Transactions API
   slug: jito-transactions-api
-artifact_total: 80
+artifact_total: 79
 asyncapis:
 - description: 'Real-time streaming endpoints exposed by Jito infrastructure: the WebSocket bundle tip stream and the gRPC ShredStream for low-latency Solana shred delivery. These are the canonical out-of-band feeds '
   name: Jito Streaming Surfaces
   slug: jito-streaming-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Jito Block Engine JSON-RPC API
   slug: open-jito-block-engine
@@ -113,12 +112,12 @@ common:
   type: Website
   url: https://jito.wtf
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/agentic-access/jito-agentic-access.yml
+  href: https://artifacts.apis.io/jito/agentic-access/jito-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/jito-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/security/jito-domain-security.yml
+  href: https://artifacts.apis.io/jito/security/jito-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jito-domain-security.yml
@@ -247,32 +246,32 @@ common:
   type: Forums
   url: https://discord.gg/jito
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/rules/jito-rules.yml
+  href: https://artifacts.apis.io/jito/rules/jito-rules.yml
   title: ''
   type: SpectralRules
   url: rules/jito-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/vocabulary/jito-vocabulary.yml
+  href: https://artifacts.apis.io/jito/vocabulary/jito-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/jito-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/json-ld/jito-context.jsonld
+  href: https://artifacts.apis.io/jito/json-ld/jito-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/jito-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/plans/jito-plans-pricing.yml
+  href: https://artifacts.apis.io/jito/plans/jito-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jito-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/rate-limits/jito-rate-limits.yml
+  href: https://artifacts.apis.io/jito/rate-limits/jito-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jito-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/finops/jito-finops.yml
+  href: https://artifacts.apis.io/jito/finops/jito-finops.yml
   title: ''
   type: FinOps
   url: finops/jito-finops.yml
@@ -390,7 +389,7 @@ plans:
 - name: Jito Plans Pricing
   plan_count: 3
   slug: jito-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Jito Rate Limits
@@ -433,7 +432,7 @@ rules:
   slug: jito-rules
 score:
   band: thin
-  composite: 37.6
+  composite: 38.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 61.0
@@ -441,7 +440,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
@@ -449,7 +448,7 @@ score:
     developer_ergonomics: 57.1
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 42.7
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -463,13 +462,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/screenshots/jito-2026-06-20T183736.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/jito/jito-2026-06-20T183736.png
 security:
 - kind: domain-security
   name: Jito Domain Security

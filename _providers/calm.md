@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.5
-  scored_at: '2026-10-17'
+  score: 23.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,11 +55,8 @@ apis:
   description: Link and cancel partner-user Calm subscriptions.
   name: Calm Subscriptions API
   slug: calm-subscriptions-api
-artifact_total: 33
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Calm Partner Authentication API
   slug: open-calm-authentication-api
@@ -68,13 +67,18 @@ collections:
   name: Calm Partner Authentication Subscriptions API
   slug: open-calm-subscriptions-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/calm/plans/calm-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/calm-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/capabilities/calm-capability-edges.yml
+  href: https://artifacts.apis.io/calm/capabilities/calm-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/calm-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/overlays/calm-partner-api-overlay.yaml
+  href: https://artifacts.apis.io/calm/overlays/calm-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/calm-partner-api-overlay.yaml
@@ -111,92 +115,92 @@ common:
   type: Pricing
   url: https://business.calm.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/openapi/_original/calm-partner-api-openapi.yml
+  href: https://artifacts.apis.io/calm/openapi/_original/calm-partner-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/calm-partner-api-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/authentication/calm-authentication.yml
+  href: https://artifacts.apis.io/calm/authentication/calm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/calm-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/scopes/calm-scopes.yml
+  href: https://artifacts.apis.io/calm/scopes/calm-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/calm-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/agentic-access/calm-agentic-access.yml
+  href: https://artifacts.apis.io/calm/agentic-access/calm-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/calm-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/security/calm-domain-security.yml
+  href: https://artifacts.apis.io/calm/security/calm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/calm-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/well-known/calm-well-known.yml
+  href: https://artifacts.apis.io/calm/well-known/calm-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/calm-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/conventions/calm-conventions.yml
+  href: https://artifacts.apis.io/calm/conventions/calm-conventions.yml
   title: ''
   type: Conventions
   url: conventions/calm-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/errors/calm-problem-types.yml
+  href: https://artifacts.apis.io/calm/errors/calm-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/calm-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/conformance/calm-conformance.yml
+  href: https://artifacts.apis.io/calm/conformance/calm-conformance.yml
   title: ''
   type: Conformance
   url: conformance/calm-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/lifecycle/calm-lifecycle.yml
+  href: https://artifacts.apis.io/calm/lifecycle/calm-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/calm-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/data-model/calm-data-model.yml
+  href: https://artifacts.apis.io/calm/data-model/calm-data-model.yml
   title: ''
   type: DataModel
   url: data-model/calm-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/sandbox/calm-sandbox.yml
+  href: https://artifacts.apis.io/calm/sandbox/calm-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/calm-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/mcp/calm-mcp.yml
+  href: https://artifacts.apis.io/calm/mcp/calm-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/calm-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/llms/calm-llms.txt
+  href: https://artifacts.apis.io/calm/llms/calm-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/calm-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/calm/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/agentic-access/calm-agentic-access.yml
+  href: https://artifacts.apis.io/calm/agentic-access/calm-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/calm-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/security/calm-domain-security.yml
+  href: https://artifacts.apis.io/calm/security/calm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/calm-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/authentication/calm-authentication.yml
+  href: https://artifacts.apis.io/calm/authentication/calm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/calm-authentication.yml
@@ -293,7 +297,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/calm
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/security/calm-domain-security.yml
+  href: https://artifacts.apis.io/calm/security/calm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/calm-domain-security.yml
@@ -374,22 +378,22 @@ common:
   type: Contact
   url: https://health.calm.com/contact
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/agentic-access/calm-agentic-access.yml
+  href: https://artifacts.apis.io/calm/agentic-access/calm-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/calm-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/security/calm-domain-security.yml
+  href: https://artifacts.apis.io/calm/security/calm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/calm-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/authentication/calm-authentication.yml
+  href: https://artifacts.apis.io/calm/authentication/calm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/calm-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/security/calm-domain-security.yml
+  href: https://artifacts.apis.io/calm/security/calm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/calm-domain-security.yml
@@ -422,6 +426,14 @@ features:
 - Partner Portal for administration, reporting, and segmentation
 - iOS and Android apps plus a web experience at calm.com
 - Available on Apple Watch, Apple TV, and Amazon Alexa
+finops:
+- has_sources: true
+  method: derived
+  name: Calm Finops
+  primary_unit: ''
+  service_category: ''
+  slug: calm-finops
+  template: true
 image: https://www.calm.com/favicon.ico
 json_schemas:
 - name: Calm Eligibility File Row
@@ -446,8 +458,12 @@ overview: 'Calm publishes 2 API contracts indexed on the [APIs.io](https://apis.
   The Calm catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Calm''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 68 more developer resources.'
-random_paper: 17
+  Calm''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 69 more developer resources.'
+plans:
+- name: Calm Plans Pricing
+  plan_count: 0
+  slug: calm-plans-pricing
+random_paper: 5
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -467,23 +483,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.1
+  composite: 52.7
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 28
     catalog_earned: 48.3
     catalog_earned_first_party: 0.0
     catalog_gap: 66.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 44.7
+    access_clarity: 52.6
     contract_governance: 14.4
     contract_quality: 56.0
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    operational_transparency: 18.4
-  previous_composite: 50.0
+    discoverability: 67.9
+    operational_transparency: 21.1
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -499,14 +515,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 36.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/screenshots/calm-2026-07-25T204251.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/calm/calm-2026-07-25T204251.png
 security:
 - kind: authentication
   name: Calm Authentication
@@ -516,6 +533,10 @@ security:
   name: Calm Domain Security
   slug: calm-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Provision and cancel a Calm subscription for a partner user
+  slug: calm-provision-and-cancel
 slug: calm
 tags:
 - Company

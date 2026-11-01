@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The Blue Origin Shop storefront exposes an anonymous Model Context Protocol endpoint at https://shop.blueorigin.com/api/mcp. A live tools/list returned five tools with full JSON Schema draft 2020-12 i
@@ -50,7 +52,7 @@ apis:
 - description: bodp.blueorigin.com is the Blue Origin Data Portal, a second Salesforce Experience Cloud community on the same Salesforce org as the payloads customer portal. Like that portal it publishes no document
   name: Blue Origin Data Portal (BODP) Platform API
   slug: blue-origin-data-portal-bodp-platform-api
-artifact_total: 8
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -85,67 +87,67 @@ common:
   type: SignUp
   url: https://shop.blueorigin.com/account/register
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blue-origin/refs/heads/main/mcp/blue-origin-mcp.yml
+  href: https://artifacts.apis.io/blue-origin/mcp/blue-origin-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/blue-origin-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blue-origin/refs/heads/main/llms/blue-origin-shop-llms.txt
+  href: https://artifacts.apis.io/blue-origin/llms/blue-origin-shop-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blue-origin-shop-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blue-origin/refs/heads/main/llms/blue-origin-llms.txt
+  href: https://artifacts.apis.io/blue-origin/llms/blue-origin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blue-origin-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blue-origin/refs/heads/main/well-known/blue-origin-well-known.yml
+  href: https://artifacts.apis.io/blue-origin/well-known/blue-origin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blue-origin-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blue-origin/refs/heads/main/well-known/blue-origin-shop-openid-configuration.json
+  href: https://artifacts.apis.io/blue-origin/well-known/blue-origin-shop-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/blue-origin-shop-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blue-origin/refs/heads/main/authentication/blue-origin-authentication.yml
+  href: https://artifacts.apis.io/blue-origin/authentication/blue-origin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blue-origin-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blue-origin/refs/heads/main/scopes/blue-origin-scopes.yml
+  href: https://artifacts.apis.io/blue-origin/scopes/blue-origin-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/blue-origin-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blue-origin/refs/heads/main/conventions/blue-origin-conventions.yml
+  href: https://artifacts.apis.io/blue-origin/conventions/blue-origin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blue-origin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blue-origin/refs/heads/main/errors/blue-origin-problem-types.yml
+  href: https://artifacts.apis.io/blue-origin/errors/blue-origin-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/blue-origin-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blue-origin/refs/heads/main/lifecycle/blue-origin-lifecycle.yml
+  href: https://artifacts.apis.io/blue-origin/lifecycle/blue-origin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blue-origin-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blue-origin/refs/heads/main/conformance/blue-origin-conformance.yml
+  href: https://artifacts.apis.io/blue-origin/conformance/blue-origin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blue-origin-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blue-origin/refs/heads/main/security/blue-origin-domain-security.yml
+  href: https://artifacts.apis.io/blue-origin/security/blue-origin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blue-origin-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blue-origin/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/blue-origin/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -166,7 +168,7 @@ overview: 'Blue Origin is listed with 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Blue Origin''s developer surface includes engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 17
+random_paper: 13
 scopes:
 - name: Blue Origin Scopes
   scope_count: 38
@@ -174,7 +176,7 @@ scopes:
   summary_line: 38 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.5
+  composite: 22.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 40.0
@@ -184,18 +186,18 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 14.9
-    discoverability: 80.0
-    operational_transparency: 2.6
+    developer_ergonomics: 16.1
+    discoverability: 70.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 20.5
+  previous_composite: 22.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -205,15 +207,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 34.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/blue-origin/refs/heads/main/screenshots/blue-origin-2026-10-11T183831.png
+screenshot: https://apis.io/screenshots/blue-origin/blue-origin-2026-10-11T183831.png
 security:
 - kind: authentication
   name: Blue Origin Authentication
@@ -223,6 +225,12 @@ security:
   name: Blue Origin Domain Security
   slug: blue-origin-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Build a Blue Origin Shop cart and hand off to buyer-approved checkout
+  slug: blue-origin-shop-build-cart-and-checkout
+- name: Find Blue Origin Shop products and answer store questions
+  slug: blue-origin-shop-find-products
 slug: blue-origin
 tags:
 - Company

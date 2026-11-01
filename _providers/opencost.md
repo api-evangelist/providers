@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,11 +65,8 @@ apis:
   description: The CustomCost API from OpenCost — 2 operation(s) for customcost.
   name: OpenCost CustomCost API
   slug: opencost-customcost-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenCost Allocation API
   slug: open-opencost-allocation-api
@@ -85,32 +84,32 @@ collections:
   slug: open-opencost
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/plans/opencost-plans-pricing.yml
+  href: https://artifacts.apis.io/opencost/plans/opencost-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/opencost-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/rate-limits/opencost-rate-limits.yml
+  href: https://artifacts.apis.io/opencost/rate-limits/opencost-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/opencost-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/finops/opencost-finops.yml
+  href: https://artifacts.apis.io/opencost/finops/opencost-finops.yml
   title: ''
   type: FinOps
   url: finops/opencost-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/capabilities/opencost-capability-edges.yml
+  href: https://artifacts.apis.io/opencost/capabilities/opencost-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/opencost-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/agentic-access/opencost-agentic-access.yml
+  href: https://artifacts.apis.io/opencost/agentic-access/opencost-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/opencost-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/security/opencost-domain-security.yml
+  href: https://artifacts.apis.io/opencost/security/opencost-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opencost-domain-security.yml
@@ -140,7 +139,7 @@ finops:
 - has_sources: false
   method: generated
   name: Opencost Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: opencost-finops
   template: true
@@ -176,7 +175,7 @@ plans:
 - name: Opencost Plans Pricing
   plan_count: 3
   slug: opencost-plans-pricing
-random_paper: 17
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Opencost Rate Limits
@@ -195,7 +194,7 @@ rules:
   slug: opencost-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 23.8
+  composite: 24.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 55.3
@@ -203,15 +202,15 @@ score:
     catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 49.0
     developer_ergonomics: 11.9
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 22.2
+    operational_transparency: 13.2
+  previous_composite: 24.2
   provenance:
     agentic_access: derived
     contracts:
@@ -225,14 +224,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/screenshots/opencost-2026-06-20T190924.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/opencost/opencost-2026-06-20T190924.png
 security:
 - kind: domain-security
   name: Opencost Domain Security

@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-17'
+  score: 25.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: Push first-party custom events into Whippy.
   name: Whippy Webhooks API
   slug: whippy-webhooks-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Whippy Public Campaigns API
   slug: open-whippy-campaigns-api
@@ -115,22 +114,22 @@ common:
   type: Pricing
   url: https://www.whippy.ai/pricing
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/capabilities/whippy-capability-edges.yml
+  href: https://artifacts.apis.io/whippy/capabilities/whippy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/whippy-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/agentic-access/whippy-agentic-access.yml
+  href: https://artifacts.apis.io/whippy/agentic-access/whippy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/whippy-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/security/whippy-domain-security.yml
+  href: https://artifacts.apis.io/whippy/security/whippy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/whippy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/authentication/whippy-authentication.yml
+  href: https://artifacts.apis.io/whippy/authentication/whippy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/whippy-authentication.yml
@@ -147,17 +146,17 @@ common:
   type: Documentation
   url: https://docs.whippy.ai
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/plans/whippy-plans-pricing.yml
+  href: https://artifacts.apis.io/whippy/plans/whippy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/whippy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/rate-limits/whippy-rate-limits.yml
+  href: https://artifacts.apis.io/whippy/rate-limits/whippy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/whippy-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/finops/whippy-finops.yml
+  href: https://artifacts.apis.io/whippy/finops/whippy-finops.yml
   title: ''
   type: FinOps
   url: finops/whippy-finops.yml
@@ -169,10 +168,10 @@ created: '2026-06-20'
 description: Whippy is an AI-powered customer communication platform unifying SMS, email, voice, and fax into a single omnichannel inbox. Its public REST API (X-WHIPPY-KEY header) lets developers send messages, manage contacts and conversations, run campaigns and automated sequences, configure channels, and subscribe to webhooks.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Whippy Finops
-  primary_unit: ''
-  service_category: Communication and Messaging
+  primary_unit: subscription
+  service_category: ''
   slug: whippy-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/whippy.png
@@ -196,30 +195,30 @@ plans:
 - name: Whippy Price Estimates
   plan_count: 0
   slug: whippy-price-estimates
-random_paper: 13
+random_paper: 1
 rate_limits:
 - limit_count: 12
   name: Whippy Rate Limits
   slug: whippy-rate-limits
 score:
-  band: developing
-  composite: 39.9
+  band: thin
+  composite: 37.6
   coverage:
     artifact_dirs: 14
-    catalog_earned: 61.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.5
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 49.8
-    developer_ergonomics: 27.4
-    discoverability: 68.3
+    contract_quality: 48.6
+    developer_ergonomics: 32.1
+    discoverability: 66.1
     operational_transparency: 31.6
-  previous_composite: 41.5
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -234,13 +233,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 9.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/screenshots/whippy-2026-06-20T201440.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/whippy/whippy-2026-06-20T201440.png
 security:
 - kind: authentication
   name: Whippy Authentication

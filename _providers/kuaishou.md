@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The Kuaishou Open Platform (快手开放平台) exposes a JSON HTTP API for third-party applications, mini programs and merchant tools built on Kuaishou. Access is granted through a standard OAuth 2.0 authorizati
@@ -45,10 +47,10 @@ apis:
 - description: Kling AI (可灵) is Kuaishou Technology's generative video and image platform, launched in June 2024 and, by the company's own account, responsible for over 600 million generated videos and 30,000+ enter
   name: Kling AI API
   slug: kling-ai
-artifact_total: 9
+artifact_total: 10
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/security/kuaishou-domain-security.yml
+  href: https://artifacts.apis.io/kuaishou/security/kuaishou-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kuaishou-domain-security.yml
@@ -81,87 +83,87 @@ common:
   type: PrivacyPolicy
   url: https://www.kuaishou.com/about/policy?tab=privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/authentication/kuaishou-authentication.yml
+  href: https://artifacts.apis.io/kuaishou/authentication/kuaishou-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kuaishou-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/errors/kuaishou-error-codes.yml
+  href: https://artifacts.apis.io/kuaishou/errors/kuaishou-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kuaishou-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/conventions/kuaishou-conventions.yml
+  href: https://artifacts.apis.io/kuaishou/conventions/kuaishou-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kuaishou-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/conformance/kuaishou-conformance.yml
+  href: https://artifacts.apis.io/kuaishou/conformance/kuaishou-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kuaishou-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/packages/kuaishou-packages.yml
+  href: https://artifacts.apis.io/kuaishou/packages/kuaishou-packages.yml
   title: ''
   type: Packages
   url: packages/kuaishou-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/packages/kuaishou-packages.yml
+  href: https://artifacts.apis.io/kuaishou/packages/kuaishou-packages.yml
   title: ''
   type: SDKs
   url: packages/kuaishou-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/llms/kuaishou-llms.txt
+  href: https://artifacts.apis.io/kuaishou/llms/kuaishou-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kuaishou-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/well-known/kuaishou-well-known.yml
+  href: https://artifacts.apis.io/kuaishou/well-known/kuaishou-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kuaishou-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/mcp/kuaishou-kling-mcp.yml
+  href: https://artifacts.apis.io/kuaishou/mcp/kuaishou-kling-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kuaishou-kling-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/scopes/kuaishou-scopes.yml
+  href: https://artifacts.apis.io/kuaishou/scopes/kuaishou-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kuaishou-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kuaishou/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/cli/kuaishou-cli.yml
+  href: https://artifacts.apis.io/kuaishou/cli/kuaishou-cli.yml
   title: ''
   type: CLI
   url: cli/kuaishou-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/components/kuaishou-components.yml
+  href: https://artifacts.apis.io/kuaishou/components/kuaishou-components.yml
   title: ''
   type: Components
   url: components/kuaishou-components.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/plans/kuaishou-plans-pricing.yml
+  href: https://artifacts.apis.io/kuaishou/plans/kuaishou-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kuaishou-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/rate-limits/kuaishou-rate-limits.yml
+  href: https://artifacts.apis.io/kuaishou/rate-limits/kuaishou-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kuaishou-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/lifecycle/kuaishou-lifecycle.yml
+  href: https://artifacts.apis.io/kuaishou/lifecycle/kuaishou-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kuaishou-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/changelog/kuaishou-changelog.yml
+  href: https://artifacts.apis.io/kuaishou/changelog/kuaishou-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kuaishou-changelog.yml
@@ -206,7 +208,7 @@ plans:
 - name: Kuaishou Plans Pricing
   plan_count: 0
   slug: kuaishou-plans-pricing
-random_paper: 15
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Kuaishou Rate Limits
@@ -218,22 +220,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 29.6
+  composite: 33.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 63.7
-    discoverability: 76.7
-    operational_transparency: 18.4
+    developer_ergonomics: 73.2
+    discoverability: 70.0
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -241,7 +243,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 30.0
+  previous_composite: 33.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -252,14 +254,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kuaishou/refs/heads/main/screenshots/kuaishou-2026-07-25T224317.png
+screenshot: https://apis.io/screenshots/kuaishou/kuaishou-2026-07-25T224317.png
 security:
 - kind: authentication
   name: Kuaishou Authentication
@@ -269,6 +271,10 @@ security:
   name: Kuaishou Domain Security
   slug: kuaishou-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: kling-generate-and-poll
+  slug: kuaishou-kling-generate-and-poll
 slug: kuaishou
 tags:
 - Company

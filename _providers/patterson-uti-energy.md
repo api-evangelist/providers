@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/patterson-uti-energy/refs/heads/main/security/patterson-uti-energy-domain-security.yml
+  href: https://artifacts.apis.io/patterson-uti-energy/security/patterson-uti-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/patterson-uti-energy-domain-security.yml
@@ -78,7 +80,7 @@ press:
 - date: ''
   title: PATTERSON UTI ENERGY INC Earnings Call Transcript ...
   url: https://www.stockinsights.ai/us/PTEN/earnings-transcript/fy25-q3-ad15
-random_paper: 2
+random_paper: 6
 score:
   band: minimal
   composite: 3.4
@@ -104,14 +106,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/patterson-uti-energy/refs/heads/main/screenshots/patterson-uti-energy-2026-06-20T191445.png
+screenshot: https://apis.io/screenshots/patterson-uti-energy/patterson-uti-energy-2026-06-20T191445.png
 security:
 - kind: domain-security
   name: Patterson Uti Energy Domain Security

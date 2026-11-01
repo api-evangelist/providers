@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,11 +55,8 @@ apis:
   description: Submit and manage SQL queries
   name: Trino Queries API
   slug: trino-queries-api
-artifact_total: 182
+artifact_total: 181
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Trino Client REST API
   slug: open-trino-client-api
@@ -69,32 +68,32 @@ collections:
   slug: open-trino-queries-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/plans/trino-plans-pricing.yml
+  href: https://artifacts.apis.io/trino/plans/trino-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trino-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/rate-limits/trino-rate-limits.yml
+  href: https://artifacts.apis.io/trino/rate-limits/trino-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trino-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/finops/trino-finops.yml
+  href: https://artifacts.apis.io/trino/finops/trino-finops.yml
   title: ''
   type: FinOps
   url: finops/trino-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/capabilities/trino-capability-edges.yml
+  href: https://artifacts.apis.io/trino/capabilities/trino-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/trino-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/agentic-access/trino-agentic-access.yml
+  href: https://artifacts.apis.io/trino/agentic-access/trino-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trino-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/security/trino-domain-security.yml
+  href: https://artifacts.apis.io/trino/security/trino-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trino-domain-security.yml
@@ -123,22 +122,22 @@ common:
   type: CLI
   url: https://github.com/trinodb/trino-admin
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/json-ld/trino-context.jsonld
+  href: https://artifacts.apis.io/trino/json-ld/trino-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/trino-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/json-schema/trino-query-results-schema.json
+  href: https://artifacts.apis.io/trino/json-schema/trino-query-results-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/trino-query-results-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/vocabulary/trino-vocabulary.yml
+  href: https://artifacts.apis.io/trino/vocabulary/trino-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/trino-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/rules/trino-rules.yml
+  href: https://artifacts.apis.io/trino/rules/trino-rules.yml
   title: ''
   type: SpectralRules
   url: rules/trino-rules.yml
@@ -321,7 +320,7 @@ finops:
 - has_sources: false
   method: generated
   name: Trino Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: trino-finops
   template: true
@@ -393,7 +392,7 @@ plans:
 - name: Trino Plans Pricing
   plan_count: 3
   slug: trino-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Trino Rate Limits
@@ -424,7 +423,7 @@ rules:
   slug: trino-rules
 score:
   band: thin
-  composite: 34.1
+  composite: 34.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 58.0
@@ -432,7 +431,7 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
@@ -440,7 +439,7 @@ score:
     developer_ergonomics: 35.7
     discoverability: 57.1
     operational_transparency: 39.5
-  previous_composite: 35.6
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -454,13 +453,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/screenshots/trino-2026-06-20T195720.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/trino/trino-2026-06-20T195720.png
 security:
 - kind: domain-security
   name: Trino Domain Security

@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 45.5
-  scored_at: '2026-10-17'
+  score: 45.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 1
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 272
   slug: dependency-track-agentic-access
   summary_line: 272 operations · 137 acting · 1 human-in-the-loop
-api_count: 4
+api_count: 2
 apis:
 - description: Protocol Buffers (proto3, package org.dependencytrack.notification.v1) message definitions for Dependency-Track notification payloads, published in the DependencyTrack/docs repository. The file define
   name: Dependency-Track Notifications
@@ -272,115 +274,115 @@ apis:
   description: Endpoints related to workload identity providers
   name: Dependency-Track Workload Identity Providers API
   slug: dependency-track-workload-identity-providers-api
-artifact_total: 68
+artifact_total: 74
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/agentic-access/dependency-track-agentic-access.yml
+  href: https://artifacts.apis.io/dependency-track/agentic-access/dependency-track-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dependency-track-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/plans/dependency-track-plans-pricing.yml
+  href: https://artifacts.apis.io/dependency-track/plans/dependency-track-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dependency-track-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/rules/dependency-track-rules.yml
+  href: https://artifacts.apis.io/dependency-track/rules/dependency-track-rules.yml
   title: ''
   type: Spectral
   url: rules/dependency-track-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/rules/dependency-track-dependency-track-spectral-rules.yml
+  href: https://artifacts.apis.io/dependency-track/rules/dependency-track-dependency-track-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/dependency-track-dependency-track-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/json-ld/dependency-track-context.jsonld
+  href: https://artifacts.apis.io/dependency-track/json-ld/dependency-track-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dependency-track-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/vocabulary/dependency-track-vocabulary.yml
+  href: https://artifacts.apis.io/dependency-track/vocabulary/dependency-track-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/dependency-track-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dependency-track/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/data-model/dependency-track-data-model.yml
+  href: https://artifacts.apis.io/dependency-track/data-model/dependency-track-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dependency-track-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/conventions/dependency-track-conventions.yml
+  href: https://artifacts.apis.io/dependency-track/conventions/dependency-track-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dependency-track-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/lifecycle/dependency-track-lifecycle.yml
+  href: https://artifacts.apis.io/dependency-track/lifecycle/dependency-track-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/dependency-track-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/lifecycle/dependency-track-lifecycle.yml
+  href: https://artifacts.apis.io/dependency-track/lifecycle/dependency-track-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dependency-track-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/errors/dependency-track-problem-types.yml
+  href: https://artifacts.apis.io/dependency-track/errors/dependency-track-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dependency-track-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/conformance/dependency-track-conformance.yml
+  href: https://artifacts.apis.io/dependency-track/conformance/dependency-track-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dependency-track-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/overlays/dependency-track-v1-overlay.yaml
+  href: https://artifacts.apis.io/dependency-track/overlays/dependency-track-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dependency-track-v1-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/well-known/dependency-track-owasp-security.txt
+  href: https://artifacts.apis.io/dependency-track/well-known/dependency-track-owasp-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/dependency-track-owasp-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/well-known/dependency-track-well-known.yml
+  href: https://artifacts.apis.io/dependency-track/well-known/dependency-track-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dependency-track-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/hosts/dependency-track-hosts.yml
+  href: https://artifacts.apis.io/dependency-track/hosts/dependency-track-hosts.yml
   title: ''
   type: Hosts
   url: hosts/dependency-track-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/vendors/dependency-track-vendors.yml
+  href: https://artifacts.apis.io/dependency-track/vendors/dependency-track-vendors.yml
   title: ''
   type: Vendors
   url: vendors/dependency-track-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/packages/dependency-track-packages.yml
+  href: https://artifacts.apis.io/dependency-track/packages/dependency-track-packages.yml
   title: ''
   type: SDKs
   url: packages/dependency-track-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/packages/dependency-track-packages.yml
+  href: https://artifacts.apis.io/dependency-track/packages/dependency-track-packages.yml
   title: ''
   type: Packages
   url: packages/dependency-track-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/authentication/dependency-track-authentication.yml
+  href: https://artifacts.apis.io/dependency-track/authentication/dependency-track-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dependency-track-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/security/dependency-track-domain-security.yml
+  href: https://artifacts.apis.io/dependency-track/security/dependency-track-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dependency-track-domain-security.yml
@@ -446,6 +448,14 @@ common:
   url: https://www.linkedin.com/company/owasp-dependency-track
 created: '2026-10-09'
 description: Dependency-Track is an OWASP flagship open source Component Analysis platform for Software Bill of Materials (SBOM) analysis. Per its site, over 20,000 organizations use it to inventory components, find vulnerabilities, and enforce policy across the software supply chain. It is self-hosted (distributed as Docker images) and exposes a REST API, documented with OpenAPI/Swagger, on each deployed instance at /api.
+finops:
+- has_sources: true
+  method: derived
+  name: Dependency Track Finops
+  primary_unit: ''
+  service_category: ''
+  slug: dependency-track-finops
+  template: true
 image: https://dependencytrack.org/assets/images/social-card-og.png
 json_schemas:
 - name: clone-project-request
@@ -505,7 +515,7 @@ plans:
 - name: Dependency Track Plans Pricing
   plan_count: 1
   slug: dependency-track-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Dependency Track Rate Limits
@@ -538,23 +548,23 @@ rules:
   slug: dependency-track-rules
 score:
   band: developing
-  composite: 46.6
+  composite: 46.2
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 68.8
+    artifact_dirs: 29
+    catalog_earned: 65.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 46.3
+    catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.0
+  delta: -0.6
   facets:
     access_clarity: 21.1
     contract_governance: 35.6
-    contract_quality: 64.8
+    contract_quality: 61.4
     developer_ergonomics: 56.5
-    discoverability: 62.5
-    operational_transparency: 28.9
-  previous_composite: 49.6
+    discoverability: 57.1
+    operational_transparency: 39.5
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -571,13 +581,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/dependency-track/refs/heads/main/screenshots/dependency-track-2026-10-11T103651.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dependency-track/dependency-track-2026-10-11T103651.png
 security:
 - kind: authentication
   name: Dependency Track Authentication
@@ -587,6 +598,18 @@ security:
   name: Dependency Track Domain Security
   slug: dependency-track-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: export-sbom-and-vex
+  slug: dependency-track-export-sbom-and-vex
+- name: find-projects-affected-by-a-vulnerability
+  slug: dependency-track-find-projects-affected-by-a-vulnerability
+- name: provision-a-service-account-api-key
+  slug: dependency-track-provision-a-service-account-api-key
+- name: triage-a-finding
+  slug: dependency-track-triage-a-finding
+- name: upload-sbom-and-review-findings
+  slug: dependency-track-upload-sbom-and-review-findings
 slug: dependency-track
 tags:
 - Company

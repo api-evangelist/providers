@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The OAuth 2.0 authorization surface in front of the Introhive platform. Introhive publishes an RFC 8414 OAuth 2.0 Authorization Server Metadata document at /.well-known/oauth-authorization-server on e
@@ -95,37 +97,37 @@ common:
   type: YouTube
   url: https://www.youtube.com/channel/UCs-fQFJtaAnsQge3G8smXOw
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/introhive/refs/heads/main/well-known/introhive-well-known.yml
+  href: https://artifacts.apis.io/introhive/well-known/introhive-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/introhive-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/introhive/refs/heads/main/authentication/introhive-authentication.yml
+  href: https://artifacts.apis.io/introhive/authentication/introhive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/introhive-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/introhive/refs/heads/main/conformance/introhive-conformance.yml
+  href: https://artifacts.apis.io/introhive/conformance/introhive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/introhive-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/introhive/refs/heads/main/security/introhive-domain-security.yml
+  href: https://artifacts.apis.io/introhive/security/introhive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/introhive-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/introhive/refs/heads/main/security/introhive-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/introhive/security/introhive-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/introhive-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/introhive/refs/heads/main/security/introhive-trust-center.yml
+  href: https://artifacts.apis.io/introhive/security/introhive-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/introhive-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/introhive/refs/heads/main/llms/introhive-llms.txt
+  href: https://artifacts.apis.io/introhive/llms/introhive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/introhive-llms.txt
@@ -141,10 +143,10 @@ overview: 'Introhive is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Introhive''s developer surface includes support, engineering blog, YouTube channel, authentication, and 16 more developer resources.'
-random_paper: 16
+random_paper: 0
 score:
   band: emerging
-  composite: 24.0
+  composite: 25.0
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -154,18 +156,18 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 73.2
-    operational_transparency: 13.2
+    discoverability: 66.1
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - canada
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 24.0
+  previous_composite: 25.0
   provenance:
     conformance: first-party
   regulatory:
@@ -174,14 +176,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/introhive/refs/heads/main/screenshots/introhive-2026-08-07T170750.png
+screenshot: https://apis.io/screenshots/introhive/introhive-2026-08-07T170750.png
 security:
 - kind: authentication
   name: Introhive Authentication

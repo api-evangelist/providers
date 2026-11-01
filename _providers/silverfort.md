@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Silverfort REST API (internally the "Raven" service) exposes user and resource risk read and write, service-account inventory and insights, policy control, and enrollment. Access is controlled by '
@@ -46,7 +48,7 @@ common:
   type: BlogRSS
   url: https://www.silverfort.com/feed/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silverfort/refs/heads/main/lifecycle/silverfort-lifecycle.yml
+  href: https://artifacts.apis.io/silverfort/lifecycle/silverfort-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/silverfort-lifecycle.yml
@@ -55,22 +57,22 @@ common:
   type: StatusPage
   url: https://status.silverfort.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silverfort/refs/heads/main/conformance/silverfort-conformance.yml
+  href: https://artifacts.apis.io/silverfort/conformance/silverfort-conformance.yml
   title: ''
   type: Conformance
   url: conformance/silverfort-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silverfort/refs/heads/main/conformance/silverfort-conformance.yml
+  href: https://artifacts.apis.io/silverfort/conformance/silverfort-conformance.yml
   title: ''
   type: Compliance
   url: conformance/silverfort-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silverfort/refs/heads/main/security/silverfort-trust-center.yml
+  href: https://artifacts.apis.io/silverfort/security/silverfort-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/silverfort-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silverfort/refs/heads/main/security/silverfort-domain-security.yml
+  href: https://artifacts.apis.io/silverfort/security/silverfort-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/silverfort-domain-security.yml
@@ -115,7 +117,7 @@ common:
   type: PrivacyPolicy
   url: https://www.silverfort.com/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/silverfort/refs/heads/main/llms/silverfort-llms.txt
+  href: https://artifacts.apis.io/silverfort/llms/silverfort-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/silverfort-llms.txt
@@ -144,10 +146,10 @@ overview: 'Silverfort is listed with 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Silverfort''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 4
+random_paper: 0
 score:
-  band: emerging
-  composite: 25.7
+  band: thin
+  composite: 29.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -160,9 +162,9 @@ score:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 73.2
-    operational_transparency: 18.4
+    developer_ergonomics: 23.8
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -170,7 +172,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 25.7
+  previous_composite: 29.7
   provenance:
     conformance: first-party
   regulatory:
@@ -185,14 +187,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/silverfort/refs/heads/main/screenshots/silverfort-2026-09-02T155514.png
+screenshot: https://apis.io/screenshots/silverfort/silverfort-2026-09-02T155514.png
 security:
 - kind: domain-security
   name: Silverfort Domain Security

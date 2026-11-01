@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: 'Automatic Speech Recognition as a Service — convert speech to text in real time over a gRPC streaming API (Recognizer service), with wordsets, training and ForgetMe operations. Secured with OAuth 2.0 '
@@ -58,7 +60,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/microsoft/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuance/refs/heads/main/security/nuance-domain-security.yml
+  href: https://artifacts.apis.io/nuance/security/nuance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nuance-domain-security.yml
@@ -91,42 +93,42 @@ common:
   type: SignUp
   url: https://mix.nuance.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuance/refs/heads/main/authentication/nuance-authentication.yml
+  href: https://artifacts.apis.io/nuance/authentication/nuance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nuance-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nuance/refs/heads/main/packages/nuance-packages.yml
+  href: https://artifacts.apis.io/nuance/packages/nuance-packages.yml
   title: ''
   type: Packages
   url: packages/nuance-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nuance/refs/heads/main/packages/nuance-packages.yml
+  href: https://artifacts.apis.io/nuance/packages/nuance-packages.yml
   title: ''
   type: SDKs
   url: packages/nuance-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nuance/refs/heads/main/cli/nuance-cli.yml
+  href: https://artifacts.apis.io/nuance/cli/nuance-cli.yml
   title: ''
   type: CLI
   url: cli/nuance-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nuance/refs/heads/main/conventions/nuance-conventions.yml
+  href: https://artifacts.apis.io/nuance/conventions/nuance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nuance-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nuance/refs/heads/main/conformance/nuance-conformance.yml
+  href: https://artifacts.apis.io/nuance/conformance/nuance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nuance-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nuance/refs/heads/main/mcp/nuance-mcp.yml
+  href: https://artifacts.apis.io/nuance/mcp/nuance-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nuance-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nuance/refs/heads/main/llms/nuance-llms.txt
+  href: https://artifacts.apis.io/nuance/llms/nuance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nuance-llms.txt
@@ -142,10 +144,10 @@ overview: 'Nuance is listed with 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Nuance''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 11 more developer resources.'
-random_paper: 18
+random_paper: 10
 score:
   band: emerging
-  composite: 25.1
+  composite: 24.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 40.0
@@ -159,9 +161,9 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 85.7
-    operational_transparency: 2.6
-  previous_composite: 25.1
+    discoverability: 78.6
+    operational_transparency: 5.3
+  previous_composite: 24.8
   provenance:
     conformance: derived
     mcp: derived
@@ -171,14 +173,14 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nuance/refs/heads/main/screenshots/nuance-2026-08-07T185712.png
+screenshot: https://apis.io/screenshots/nuance/nuance-2026-08-07T185712.png
 security:
 - kind: authentication
   name: Nuance Authentication

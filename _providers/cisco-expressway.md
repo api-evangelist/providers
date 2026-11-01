@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -177,7 +179,7 @@ arazzos:
 - description: Inspect zone connectivity, active calls, and recent call history together.
   name: Cisco Expressway Zone Health Investigation
   slug: cisco-expressway-zone-health-investigation-workflow
-artifact_total: 71
+artifact_total: 70
 collections:
 - collection_type: postman
   name: Cisco Expressway Configuration API
@@ -185,9 +187,6 @@ collections:
 - collection_type: postman
   name: Cisco Expressway Status API
   slug: postman-cisco-expressway-status-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cisco Expressway Configuration Admin Account API
   slug: open-cisco-expressway-admin-account-api
@@ -244,22 +243,22 @@ collections:
   slug: open-cisco-expressway-zones-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/plans/cisco-expressway-plans-pricing.yml
+  href: https://artifacts.apis.io/cisco-expressway/plans/cisco-expressway-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cisco-expressway-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/rate-limits/cisco-expressway-rate-limits.yml
+  href: https://artifacts.apis.io/cisco-expressway/rate-limits/cisco-expressway-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cisco-expressway-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/finops/cisco-expressway-finops.yml
+  href: https://artifacts.apis.io/cisco-expressway/finops/cisco-expressway-finops.yml
   title: ''
   type: FinOps
   url: finops/cisco-expressway-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/capabilities/cisco-expressway-capability-edges.yml
+  href: https://artifacts.apis.io/cisco-expressway/capabilities/cisco-expressway-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cisco-expressway-capability-edges.yml
@@ -268,22 +267,22 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/webex/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/agentic-access/cisco-expressway-agentic-access.yml
+  href: https://artifacts.apis.io/cisco-expressway/agentic-access/cisco-expressway-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cisco-expressway-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/security/cisco-expressway-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cisco-expressway/security/cisco-expressway-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cisco-expressway-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/security/cisco-expressway-domain-security.yml
+  href: https://artifacts.apis.io/cisco-expressway/security/cisco-expressway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cisco-expressway-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/authentication/cisco-expressway-authentication.yml
+  href: https://artifacts.apis.io/cisco-expressway/authentication/cisco-expressway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cisco-expressway-authentication.yml
@@ -292,77 +291,77 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/cisco-expressway/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/arazzo/cisco-expressway-active-call-troubleshooting-workflow.yml
+  href: https://artifacts.apis.io/cisco-expressway/arazzo/cisco-expressway-active-call-troubleshooting-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cisco-expressway-active-call-troubleshooting-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/arazzo/cisco-expressway-capacity-registrations-audit-workflow.yml
+  href: https://artifacts.apis.io/cisco-expressway/arazzo/cisco-expressway-capacity-registrations-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cisco-expressway-capacity-registrations-audit-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/arazzo/cisco-expressway-create-dial-plan-transform-workflow.yml
+  href: https://artifacts.apis.io/cisco-expressway/arazzo/cisco-expressway-create-dial-plan-transform-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cisco-expressway-create-dial-plan-transform-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/arazzo/cisco-expressway-create-dns-zone-routing-workflow.yml
+  href: https://artifacts.apis.io/cisco-expressway/arazzo/cisco-expressway-create-dns-zone-routing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cisco-expressway-create-dns-zone-routing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/arazzo/cisco-expressway-licensing-compliance-check-workflow.yml
+  href: https://artifacts.apis.io/cisco-expressway/arazzo/cisco-expressway-licensing-compliance-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cisco-expressway-licensing-compliance-check-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/arazzo/cisco-expressway-onboard-neighbor-zone-routing-workflow.yml
+  href: https://artifacts.apis.io/cisco-expressway/arazzo/cisco-expressway-onboard-neighbor-zone-routing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cisco-expressway-onboard-neighbor-zone-routing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/arazzo/cisco-expressway-pre-upgrade-health-check-workflow.yml
+  href: https://artifacts.apis.io/cisco-expressway/arazzo/cisco-expressway-pre-upgrade-health-check-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cisco-expressway-pre-upgrade-health-check-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/arazzo/cisco-expressway-provision-dns-server-workflow.yml
+  href: https://artifacts.apis.io/cisco-expressway/arazzo/cisco-expressway-provision-dns-server-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cisco-expressway-provision-dns-server-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/arazzo/cisco-expressway-provision-ntp-server-workflow.yml
+  href: https://artifacts.apis.io/cisco-expressway/arazzo/cisco-expressway-provision-ntp-server-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cisco-expressway-provision-ntp-server-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/arazzo/cisco-expressway-rotate-admin-password-workflow.yml
+  href: https://artifacts.apis.io/cisco-expressway/arazzo/cisco-expressway-rotate-admin-password-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cisco-expressway-rotate-admin-password-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/arazzo/cisco-expressway-setup-traversal-pair-workflow.yml
+  href: https://artifacts.apis.io/cisco-expressway/arazzo/cisco-expressway-setup-traversal-pair-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cisco-expressway-setup-traversal-pair-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/arazzo/cisco-expressway-system-upgrade-workflow.yml
+  href: https://artifacts.apis.io/cisco-expressway/arazzo/cisco-expressway-system-upgrade-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cisco-expressway-system-upgrade-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/arazzo/cisco-expressway-update-sip-configuration-workflow.yml
+  href: https://artifacts.apis.io/cisco-expressway/arazzo/cisco-expressway-update-sip-configuration-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cisco-expressway-update-sip-configuration-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/arazzo/cisco-expressway-upgrade-progress-monitor-workflow.yml
+  href: https://artifacts.apis.io/cisco-expressway/arazzo/cisco-expressway-upgrade-progress-monitor-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cisco-expressway-upgrade-progress-monitor-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/arazzo/cisco-expressway-zone-health-investigation-workflow.yml
+  href: https://artifacts.apis.io/cisco-expressway/arazzo/cisco-expressway-zone-health-investigation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/cisco-expressway-zone-health-investigation-workflow.yml
@@ -435,7 +434,7 @@ common:
   type: Compatibility
   url: https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/products-device-support-tables-list.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/rules/cisco-expressway-rules.yml
+  href: https://artifacts.apis.io/cisco-expressway/rules/cisco-expressway-rules.yml
   title: ''
   type: Spectral
   url: rules/cisco-expressway-rules.yml
@@ -493,7 +492,7 @@ plans:
 - name: Cisco Expressway Plans Pricing
   plan_count: 1
   slug: cisco-expressway-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Cisco Expressway Rate Limits
@@ -524,7 +523,7 @@ rules:
   slug: cisco-expressway-rules
 score:
   band: developing
-  composite: 51.5
+  composite: 51.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 62.5
@@ -532,15 +531,15 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 13.6
-    contract_quality: 63.4
+    contract_quality: 60.0
     developer_ergonomics: 58.3
     discoverability: 66.1
-    operational_transparency: 39.5
-  previous_composite: 53.0
+    operational_transparency: 52.6
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     contracts:
@@ -554,13 +553,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/screenshots/cisco-expressway-2026-06-20T174356.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cisco-expressway/cisco-expressway-2026-06-20T174356.png
 security:
 - kind: authentication
   name: Cisco Expressway Authentication

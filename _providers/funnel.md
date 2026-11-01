@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.7
-  scored_at: '2026-10-17'
+  score: 43.6
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'The Funnel Control Plane API provides configuration-management operations for a Funnel subscription — workspaces, data sources, custom dimensions and metrics, and data exports to BigQuery, Snowflake, '
@@ -47,7 +49,7 @@ apis:
 - description: The Funnel File Import Webhook API is a documented inbound HTTP endpoint that lets a customer hand Funnel links to data files for ingestion into a File Import data source. A per-source webhook URL and
   name: Funnel File Import Webhook API
   slug: funnel-file-import-webhook-api
-artifact_total: 11
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Funnel Webhooks
@@ -102,42 +104,42 @@ common:
   type: StatusPage
   url: https://status.funnel.io
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/packages/funnel-packages.yml
+  href: https://artifacts.apis.io/funnel/packages/funnel-packages.yml
   title: ''
   type: Packages
   url: packages/funnel-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/packages/funnel-packages.yml
+  href: https://artifacts.apis.io/funnel/packages/funnel-packages.yml
   title: ''
   type: SDKs
   url: packages/funnel-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/authentication/funnel-authentication.yml
+  href: https://artifacts.apis.io/funnel/authentication/funnel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/funnel-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/conventions/funnel-conventions.yml
+  href: https://artifacts.apis.io/funnel/conventions/funnel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/funnel-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/data-model/funnel-data-model.yml
+  href: https://artifacts.apis.io/funnel/data-model/funnel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/funnel-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/lifecycle/funnel-lifecycle.yml
+  href: https://artifacts.apis.io/funnel/lifecycle/funnel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/funnel-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/changelog/funnel-changelog.yml
+  href: https://artifacts.apis.io/funnel/changelog/funnel-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/funnel-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/conformance/funnel-conformance.yml
+  href: https://artifacts.apis.io/funnel/conformance/funnel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/funnel-conformance.yml
@@ -146,57 +148,57 @@ common:
   type: Compliance
   url: https://funnel.io/funnel-information-security-overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/security/funnel-trust-center.yml
+  href: https://artifacts.apis.io/funnel/security/funnel-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/funnel-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/security/funnel-domain-security.yml
+  href: https://artifacts.apis.io/funnel/security/funnel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/funnel-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/llms/funnel-llms.txt
+  href: https://artifacts.apis.io/funnel/llms/funnel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/funnel-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/well-known/funnel-well-known.yml
+  href: https://artifacts.apis.io/funnel/well-known/funnel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/funnel-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/mcp/funnel-mcp.yml
+  href: https://artifacts.apis.io/funnel/mcp/funnel-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/funnel-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/scopes/funnel-scopes.yml
+  href: https://artifacts.apis.io/funnel/scopes/funnel-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/funnel-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/errors/funnel-problem-types.yml
+  href: https://artifacts.apis.io/funnel/errors/funnel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/funnel-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/rate-limits/funnel-rate-limits.yml
+  href: https://artifacts.apis.io/funnel/rate-limits/funnel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/funnel-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/plans/funnel-plans-pricing.yml
+  href: https://artifacts.apis.io/funnel/plans/funnel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/funnel-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/asyncapi/funnel-webhooks.yml
+  href: https://artifacts.apis.io/funnel/asyncapi/funnel-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/funnel-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/funnel/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -215,6 +217,14 @@ common:
 created: '2026-07-17'
 description: Funnel (funnel.io) is a marketing intelligence and marketing data hub that helps agencies and brands become more data-driven. It connects to hundreds of advertising, analytics, CRM, and social data platforms, then automatically collects, normalizes, and transforms that marketing data into a single, business-ready model. Funnel exports the harmonized data to cloud data warehouses (BigQuery, Snowflake), Google Cloud Storage, BI and visualization tools, and back to ad platforms, and layers on advanced marketing measurement (Marketing Mix Modeling and Multi-Touch Attribution) plus dashboards and reporting. Programmatic configuration is exposed through the Funnel Control Plane API, consumed via an official Terraform provider and an OAuth 2.0 client-credentials (Auth0) system-user flow, with regional US and EU data residency. Funnel also ships a first-party hosted MCP server (Funnel MCP) that exposes six read-only tools over OAuth to Claude, ChatGPT, Cursor and other MCP clients,
   plus a documented inbound file-import webhook API. Funnel publishes no OpenAPI or AsyncAPI for any of the three surfaces.
+finops:
+- has_sources: true
+  method: derived
+  name: Funnel Finops
+  primary_unit: estimate at $500k–$1m average monthly ad spend
+  service_category: ''
+  slug: funnel-finops
+  template: false
 image: https://funnel.io/hubfs/Blog%20images.006.jpeg
 layout: provider
 mcp_servers:
@@ -234,9 +244,12 @@ overview: 'Funnel is listed with 3 APIs on the [APIs.io](https://apis.io/) netwo
   Funnel''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 28 more developer resources.'
 plans:
 - name: Funnel Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: funnel-plans-pricing
-random_paper: 10
+- name: Funnel Price Estimates
+  plan_count: 0
+  slug: funnel-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Funnel Rate Limits
@@ -248,23 +261,28 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.6
+  composite: 59.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 52.0
+    artifact_dirs: 22
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 44.2
-    developer_ergonomics: 49.4
-    discoverability: 80.0
-    operational_transparency: 42.1
-  previous_composite: 58.5
+    contract_quality: 39.0
+    developer_ergonomics: 56.5
+    discoverability: 70.0
+    operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - sweden
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 58.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -275,14 +293,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/funnel/refs/heads/main/screenshots/funnel-2026-07-25T215322.png
+screenshot: https://apis.io/screenshots/funnel/funnel-2026-07-25T215322.png
 security:
 - kind: authentication
   name: Funnel Authentication
@@ -296,6 +314,12 @@ security:
   name: Funnel Trust Center
   slug: funnel-trust-center
   summary_line: ISO 27001:2022, SOC 2 Type II, CSA STAR Level 1
+skill_count: 2
+skills:
+- name: Provision Funnel workspaces, data sources and exports
+  slug: funnel-provision-control-plane
+- name: Query Funnel marketing data over MCP
+  slug: funnel-query-marketing-data
 slug: funnel
 tags:
 - Company

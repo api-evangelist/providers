@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-17'
+  score: 29.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -75,15 +77,12 @@ apis:
   description: We support generating a Quote for a potential Order as well as confirming that Quote to place an Order.
   name: Airspace Technologies Quotes API
   slug: airspace-technologies-quotes-api
-artifact_total: 18
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Airspace Technologies Webhooks
   slug: airspace-technologies-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Airspace API Documentation Address Books API
   slug: open-airspace-technologies-address-books-api
@@ -104,12 +103,12 @@ collections:
   slug: open-airspace-technologies-quotes-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/capabilities/airspace-technologies-capability-edges.yml
+  href: https://artifacts.apis.io/airspace-technologies/capabilities/airspace-technologies-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/airspace-technologies-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/overlays/airspace-technologies-v3-overlay.yaml
+  href: https://artifacts.apis.io/airspace-technologies/overlays/airspace-technologies-v3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/airspace-technologies-v3-overlay.yaml
@@ -154,7 +153,7 @@ common:
   type: StatusPage
   url: https://airspace.statuspage.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/security/airspace-technologies-trust-center.yml
+  href: https://artifacts.apis.io/airspace-technologies/security/airspace-technologies-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/airspace-technologies-trust-center.yml
@@ -163,67 +162,67 @@ common:
   type: Compliance
   url: https://trust.airspace.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/security/airspace-technologies-domain-security.yml
+  href: https://artifacts.apis.io/airspace-technologies/security/airspace-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/airspace-technologies-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/authentication/airspace-technologies-authentication.yml
+  href: https://artifacts.apis.io/airspace-technologies/authentication/airspace-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/airspace-technologies-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/conventions/airspace-technologies-conventions.yml
+  href: https://artifacts.apis.io/airspace-technologies/conventions/airspace-technologies-conventions.yml
   title: ''
   type: Conventions
   url: conventions/airspace-technologies-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/errors/airspace-technologies-problem-types.yml
+  href: https://artifacts.apis.io/airspace-technologies/errors/airspace-technologies-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/airspace-technologies-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/lifecycle/airspace-technologies-lifecycle.yml
+  href: https://artifacts.apis.io/airspace-technologies/lifecycle/airspace-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/airspace-technologies-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/conformance/airspace-technologies-conformance.yml
+  href: https://artifacts.apis.io/airspace-technologies/conformance/airspace-technologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/airspace-technologies-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/data-model/airspace-technologies-data-model.yml
+  href: https://artifacts.apis.io/airspace-technologies/data-model/airspace-technologies-data-model.yml
   title: ''
   type: DataModel
   url: data-model/airspace-technologies-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/sandbox/airspace-technologies-sandbox.yml
+  href: https://artifacts.apis.io/airspace-technologies/sandbox/airspace-technologies-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/airspace-technologies-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/asyncapi/airspace-technologies-webhooks.yml
+  href: https://artifacts.apis.io/airspace-technologies/asyncapi/airspace-technologies-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/airspace-technologies-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/mcp/airspace-technologies-mcp.yml
+  href: https://artifacts.apis.io/airspace-technologies/mcp/airspace-technologies-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/airspace-technologies-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/llms/airspace-technologies-llms.txt
+  href: https://artifacts.apis.io/airspace-technologies/llms/airspace-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/airspace-technologies-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/agentic-access/airspace-technologies-agentic-access.yml
+  href: https://artifacts.apis.io/airspace-technologies/agentic-access/airspace-technologies-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/airspace-technologies-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/airspace-technologies/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -242,10 +241,10 @@ overview: 'Airspace Technologies publishes 6 API contracts indexed on the [APIs.
 
 
   Airspace Technologies'' developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 13
+random_paper: 9
 score:
   band: developing
-  composite: 48.3
+  composite: 49.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -253,15 +252,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 18.2
-    contract_quality: 60.7
+    contract_quality: 58.2
     developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 48.2
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -286,13 +285,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/screenshots/airspace-technologies-2026-07-25T195443.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/airspace-technologies/airspace-technologies-2026-07-25T195443.png
 security:
 - kind: authentication
   name: Airspace Technologies Authentication
@@ -306,6 +306,14 @@ security:
   name: Airspace Technologies Trust Center
   slug: airspace-technologies-trust-center
   summary_line: ISO 27001, HIPAA, GDPR
+skill_count: 3
+skills:
+- name: Create and track a shipment order
+  slug: airspace-technologies-create-and-track-order
+- name: Generate a shipping quote
+  slug: airspace-technologies-generate-quote
+- name: Monitor active shipments
+  slug: airspace-technologies-monitor-shipments
 slug: airspace-technologies
 tags:
 - Company

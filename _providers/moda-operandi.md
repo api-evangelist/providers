@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The first-party GraphQL API that powers search, browse and merchandising on modaoperandi.com. It is referenced by the storefront's own client bundle as SEARCH_API_GRAPHQL_ENDPOINT, answers anonymous i
   name: Moda Operandi Search API
   slug: search-api
-artifact_total: 6
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -72,72 +74,72 @@ common:
   type: Blog
   url: https://www.modaoperandi.com/editorial/the-edits
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/moda-operandi/refs/heads/main/graphql/moda-operandi-search-schema.graphql
+  href: https://artifacts.apis.io/moda-operandi/graphql/moda-operandi-search-schema.graphql
   title: ''
   type: GraphQL
   url: graphql/moda-operandi-search-schema.graphql
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moda-operandi/refs/heads/main/authentication/moda-operandi-authentication.yml
+  href: https://artifacts.apis.io/moda-operandi/authentication/moda-operandi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moda-operandi-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moda-operandi/refs/heads/main/conventions/moda-operandi-conventions.yml
+  href: https://artifacts.apis.io/moda-operandi/conventions/moda-operandi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/moda-operandi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moda-operandi/refs/heads/main/data-model/moda-operandi-data-model.yml
+  href: https://artifacts.apis.io/moda-operandi/data-model/moda-operandi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moda-operandi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moda-operandi/refs/heads/main/errors/moda-operandi-problem-types.yml
+  href: https://artifacts.apis.io/moda-operandi/errors/moda-operandi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/moda-operandi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moda-operandi/refs/heads/main/lifecycle/moda-operandi-lifecycle.yml
+  href: https://artifacts.apis.io/moda-operandi/lifecycle/moda-operandi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/moda-operandi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moda-operandi/refs/heads/main/conformance/moda-operandi-conformance.yml
+  href: https://artifacts.apis.io/moda-operandi/conformance/moda-operandi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moda-operandi-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moda-operandi/refs/heads/main/packages/moda-operandi-packages.yml
+  href: https://artifacts.apis.io/moda-operandi/packages/moda-operandi-packages.yml
   title: ''
   type: Packages
   url: packages/moda-operandi-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moda-operandi/refs/heads/main/components/moda-operandi-components.yml
+  href: https://artifacts.apis.io/moda-operandi/components/moda-operandi-components.yml
   title: ''
   type: Components
   url: components/moda-operandi-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moda-operandi/refs/heads/main/llms/moda-operandi-llms.txt
+  href: https://artifacts.apis.io/moda-operandi/llms/moda-operandi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moda-operandi-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moda-operandi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/moda-operandi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/moda-operandi/refs/heads/main/plans/moda-operandi-plans-pricing.yml
+  href: https://artifacts.apis.io/moda-operandi/plans/moda-operandi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moda-operandi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/moda-operandi/refs/heads/main/rate-limits/moda-operandi-rate-limits.yml
+  href: https://artifacts.apis.io/moda-operandi/rate-limits/moda-operandi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/moda-operandi-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moda-operandi/refs/heads/main/security/moda-operandi-domain-security.yml
+  href: https://artifacts.apis.io/moda-operandi/security/moda-operandi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moda-operandi-domain-security.yml
@@ -161,14 +163,14 @@ plans:
 - name: Moda Operandi Plans Pricing
   plan_count: 0
   slug: moda-operandi-plans-pricing
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Moda Operandi Rate Limits
   slug: moda-operandi-rate-limits
 score:
   band: thin
-  composite: 28.7
+  composite: 29.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -176,14 +178,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 35.1
     developer_ergonomics: 20.8
     discoverability: 66.1
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -191,7 +193,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 28.6
+  previous_composite: 29.0
   provenance:
     conformance: derived
     mcp: derived
@@ -202,14 +204,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/moda-operandi/refs/heads/main/screenshots/moda-operandi-2026-09-02T150616.png
+screenshot: https://apis.io/screenshots/moda-operandi/moda-operandi-2026-09-02T150616.png
 security:
 - kind: authentication
   name: Moda Operandi Authentication
@@ -219,6 +221,14 @@ security:
   name: Moda Operandi Domain Security
   slug: moda-operandi-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Browse the Moda Operandi catalog with facets and pagination
+  slug: moda-operandi-browse-catalog
+- name: Search and autocomplete against Moda Operandi
+  slug: moda-operandi-search-and-discover
+- name: Work with Moda Operandi trunkshows and looks
+  slug: moda-operandi-trunkshows
 slug: moda-operandi
 tags:
 - Company

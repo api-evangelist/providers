@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,23 +28,25 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 4.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'On-robot REST API (served by the RO1 control box on /api/v1, Bearer-token auth) for controlling arm position and motion, the gripper/end-effector, cameras, routines, teleoperation, the recorder, I/O, '
   name: RO1 Robotics REST API
   slug: ro1-robotics-rest-api
-artifact_total: 3
+artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/security/standard-bots-domain-security.yml
+  href: https://artifacts.apis.io/standard-bots/security/standard-bots-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/standard-bots-domain-security.yml
@@ -89,67 +91,67 @@ common:
   type: PrivacyPolicy
   url: https://standardbots.com/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/packages/standard-bots-packages.yml
+  href: https://artifacts.apis.io/standard-bots/packages/standard-bots-packages.yml
   title: ''
   type: Packages
   url: packages/standard-bots-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/packages/standard-bots-packages.yml
+  href: https://artifacts.apis.io/standard-bots/packages/standard-bots-packages.yml
   title: ''
   type: SDKs
   url: packages/standard-bots-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/authentication/standard-bots-authentication.yml
+  href: https://artifacts.apis.io/standard-bots/authentication/standard-bots-authentication.yml
   title: ''
   type: Authentication
   url: authentication/standard-bots-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/conventions/standard-bots-conventions.yml
+  href: https://artifacts.apis.io/standard-bots/conventions/standard-bots-conventions.yml
   title: ''
   type: Conventions
   url: conventions/standard-bots-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/errors/standard-bots-error-codes.yml
+  href: https://artifacts.apis.io/standard-bots/errors/standard-bots-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/standard-bots-error-codes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/mcp/standard-bots-mcp.yml
+  href: https://artifacts.apis.io/standard-bots/mcp/standard-bots-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/standard-bots-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/data-model/standard-bots-data-model.yml
+  href: https://artifacts.apis.io/standard-bots/data-model/standard-bots-data-model.yml
   title: ''
   type: DataModel
   url: data-model/standard-bots-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/lifecycle/standard-bots-lifecycle.yml
+  href: https://artifacts.apis.io/standard-bots/lifecycle/standard-bots-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/standard-bots-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/conformance/standard-bots-conformance.yml
+  href: https://artifacts.apis.io/standard-bots/conformance/standard-bots-conformance.yml
   title: ''
   type: Conformance
   url: conformance/standard-bots-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/sandbox/standard-bots-sandbox.yml
+  href: https://artifacts.apis.io/standard-bots/sandbox/standard-bots-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/standard-bots-sandbox.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/grpc/standard-bots-external-control.proto
+  href: https://artifacts.apis.io/standard-bots/grpc/standard-bots-external-control.proto
   title: ''
   type: Protobuf
   url: grpc/standard-bots-external-control.proto
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/llms/standard-bots-llms.txt
+  href: https://artifacts.apis.io/standard-bots/llms/standard-bots-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/standard-bots-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/standard-bots/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -168,7 +170,7 @@ overview: 'Standard Bots is listed with 1 API on the [APIs.io](https://apis.io/)
 random_paper: 14
 score:
   band: thin
-  composite: 29.8
+  composite: 28.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -176,15 +178,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 24.0
-    developer_ergonomics: 44.6
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 29.7
+    contract_quality: 0.0
+    developer_ergonomics: 61.3
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 28.1
   provenance:
     conformance: derived
     mcp: derived
@@ -195,14 +197,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/standard-bots/refs/heads/main/screenshots/standard-bots-2026-09-02T160741.png
+screenshot: https://apis.io/screenshots/standard-bots/standard-bots-2026-09-02T160741.png
 security:
 - kind: authentication
   name: Standard Bots Authentication
@@ -212,6 +214,14 @@ security:
   name: Standard Bots Domain Security
   slug: standard-bots-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: RO1 emergency stop and recover
+  slug: standard-bots-estop-and-recover
+- name: RO1 pick-and-place move
+  slug: standard-bots-pick-and-place
+- name: RO1 run a routine
+  slug: standard-bots-run-routine
 slug: standard-bots
 tags:
 - Company

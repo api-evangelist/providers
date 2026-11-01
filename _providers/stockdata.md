@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,7 +63,7 @@ apis:
   description: Real-time and historical stock market price data
   name: StockData Stock Data API
   slug: stockdata-stock-data-api
-artifact_total: 25
+artifact_total: 28
 collections:
 - collection_type: postman
   name: StockData Entities API
@@ -72,9 +74,6 @@ collections:
 - collection_type: postman
   name: StockData Entities Stock Data API
   slug: postman-stockdata-stock-data-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: StockData Entities API
   slug: open-stockdata-entities-api
@@ -89,7 +88,7 @@ collections:
   slug: open-stockdata
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/finops/stockdata-finops.yml
+  href: https://artifacts.apis.io/stockdata/finops/stockdata-finops.yml
   title: ''
   type: FinOps
   url: finops/stockdata-finops.yml
@@ -98,112 +97,112 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/stockdata/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/agentic-access/stockdata-agentic-access.yml
+  href: https://artifacts.apis.io/stockdata/agentic-access/stockdata-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stockdata-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/security/stockdata-domain-security.yml
+  href: https://artifacts.apis.io/stockdata/security/stockdata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stockdata-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/authentication/stockdata-authentication.yml
+  href: https://artifacts.apis.io/stockdata/authentication/stockdata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stockdata-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/mcp/stockdata-mcp.yml
+  href: https://artifacts.apis.io/stockdata/mcp/stockdata-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/stockdata-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/llms/stockdata-llms.txt
+  href: https://artifacts.apis.io/stockdata/llms/stockdata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stockdata-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/conventions/stockdata-conventions.yml
+  href: https://artifacts.apis.io/stockdata/conventions/stockdata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stockdata-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/errors/stockdata-problem-types.yml
+  href: https://artifacts.apis.io/stockdata/errors/stockdata-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/stockdata-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/conformance/stockdata-conformance.yml
+  href: https://artifacts.apis.io/stockdata/conformance/stockdata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stockdata-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/lifecycle/stockdata-lifecycle.yml
+  href: https://artifacts.apis.io/stockdata/lifecycle/stockdata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stockdata-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/data-model/stockdata-data-model.yml
+  href: https://artifacts.apis.io/stockdata/data-model/stockdata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/stockdata-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/stockdata/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/vocabulary/stockdata-vocabulary.yml
+  href: https://artifacts.apis.io/stockdata/vocabulary/stockdata-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/stockdata-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/rate-limits/stockdata-rate-limits.yml
+  href: https://artifacts.apis.io/stockdata/rate-limits/stockdata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stockdata-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/plans/stockdata-plans-pricing.yml
+  href: https://artifacts.apis.io/stockdata/plans/stockdata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stockdata-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/rules/stockdata-rules.yml
+  href: https://artifacts.apis.io/stockdata/rules/stockdata-rules.yml
   title: ''
   type: SpectralRules
   url: rules/stockdata-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/json-schema/stockdata-quote-schema.json
+  href: https://artifacts.apis.io/stockdata/json-schema/stockdata-quote-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/stockdata-quote-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/json-schema/stockdata-news-article-schema.json
+  href: https://artifacts.apis.io/stockdata/json-schema/stockdata-news-article-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/stockdata-news-article-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/json-structure/stockdata-quote-structure.json
+  href: https://artifacts.apis.io/stockdata/json-structure/stockdata-quote-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/stockdata-quote-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/json-ld/stockdata-context.jsonld
+  href: https://artifacts.apis.io/stockdata/json-ld/stockdata-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/stockdata-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/examples/stockdata-get-stock-quote-example.json
+  href: https://artifacts.apis.io/stockdata/examples/stockdata-get-stock-quote-example.json
   title: ''
   type: Examples
   url: examples/stockdata-get-stock-quote-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/examples/stockdata-get-financial-news-example.json
+  href: https://artifacts.apis.io/stockdata/examples/stockdata-get-financial-news-example.json
   title: ''
   type: Examples
   url: examples/stockdata-get-financial-news-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/collections/stockdata.postman_collection.json
+  href: https://artifacts.apis.io/stockdata/collections/stockdata.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/stockdata.postman_collection.json
@@ -265,13 +264,13 @@ examples:
   name: Stockdata Get Stock Quote Example
   slug: stockdata-get-stock-quote-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Stockdata Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: stockdata-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stockdata.png
 json_schemas:
 - name: StockData News Article
@@ -303,9 +302,12 @@ overview: 'StockData publishes 3 API contracts indexed on the [APIs.io](https://
   StockData''s developer surface includes authentication, code examples, developer portal, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
 plans:
 - name: Stockdata Plans Pricing
-  plan_count: 5
+  plan_count: 10
   slug: stockdata-plans-pricing
-random_paper: 12
+- name: Stockdata Price Estimates
+  plan_count: 0
+  slug: stockdata-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 6
   name: Stockdata Rate Limits
@@ -336,23 +338,23 @@ rules:
   slug: stockdata-rules
 score:
   band: strong
-  composite: 56.0
+  composite: 58.9
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 78.0
+    artifact_dirs: 28
+    catalog_earned: 81.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 37.0
+    catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 31.8
     contract_quality: 59.0
     developer_ergonomics: 57.7
     discoverability: 66.1
     operational_transparency: 31.6
-  previous_composite: 57.5
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -369,14 +371,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/screenshots/stockdata-2026-06-20T194552.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stockdata/stockdata-2026-06-20T194552.png
 security:
 - kind: authentication
   name: Stockdata Authentication
@@ -386,6 +388,14 @@ security:
   name: Stockdata Domain Security
   slug: stockdata-domain-security
   summary_line: TLSv1.3 · DNSSEC
+skill_count: 3
+skills:
+- name: Discover entities and build symbol filters
+  slug: stockdata-entity-discovery
+- name: Monitor financial news and sentiment for a watchlist
+  slug: stockdata-news-sentiment-monitor
+- name: Get quotes and price history for US-listed stocks
+  slug: stockdata-quote-and-history
 slug: stockdata
 tags:
 - Finance

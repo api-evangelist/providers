@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.2
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 155
   human_in_the_loop: 0
@@ -198,130 +200,135 @@ apis:
   description: The Check Ins API from publiq — 3 operation(s) for check ins.
   name: publiq Check Ins API
   slug: publiq-check-ins-api
-artifact_total: 50
+artifact_total: 58
 common:
+- group: other
+  href: https://artifacts.apis.io/publiq/capabilities/publiq-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/publiq-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/agentic-access/publiq-agentic-access.yml
+  href: https://artifacts.apis.io/publiq/agentic-access/publiq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/publiq-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/plans/publiq-plans-pricing.yml
+  href: https://artifacts.apis.io/publiq/plans/publiq-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/publiq-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/rules/publiq-rules.yml
+  href: https://artifacts.apis.io/publiq/rules/publiq-rules.yml
   title: ''
   type: Spectral
   url: rules/publiq-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/rules/publiq-apidocs-spectral-rules.yml
+  href: https://artifacts.apis.io/publiq/rules/publiq-apidocs-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/publiq-apidocs-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/json-ld/publiq-context.jsonld
+  href: https://artifacts.apis.io/publiq/json-ld/publiq-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/publiq-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/vocabulary/publiq-vocabulary.yml
+  href: https://artifacts.apis.io/publiq/vocabulary/publiq-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/publiq-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/publiq/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/data-model/publiq-data-model.yml
+  href: https://artifacts.apis.io/publiq/data-model/publiq-data-model.yml
   title: ''
   type: DataModel
   url: data-model/publiq-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/components/publiq-components.yml
+  href: https://artifacts.apis.io/publiq/components/publiq-components.yml
   title: ''
   type: Components
   url: components/publiq-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/changelog/publiq-changelog.yml
+  href: https://artifacts.apis.io/publiq/changelog/publiq-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/publiq-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/conventions/publiq-conventions.yml
+  href: https://artifacts.apis.io/publiq/conventions/publiq-conventions.yml
   title: ''
   type: Conventions
   url: conventions/publiq-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/sandbox/publiq-sandbox.yml
+  href: https://artifacts.apis.io/publiq/sandbox/publiq-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/publiq-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/lifecycle/publiq-lifecycle.yml
+  href: https://artifacts.apis.io/publiq/lifecycle/publiq-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/publiq-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/lifecycle/publiq-lifecycle.yml
+  href: https://artifacts.apis.io/publiq/lifecycle/publiq-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/publiq-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/errors/publiq-problem-types.yml
+  href: https://artifacts.apis.io/publiq/errors/publiq-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/publiq-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/conformance/publiq-conformance.yml
+  href: https://artifacts.apis.io/publiq/conformance/publiq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/publiq-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/overlays/publiq-museumpassmusees-partner-overlay.yaml
+  href: https://artifacts.apis.io/publiq/overlays/publiq-museumpassmusees-partner-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/publiq-museumpassmusees-partner-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/well-known/publiq-search-security.txt
+  href: https://artifacts.apis.io/publiq/well-known/publiq-search-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/publiq-search-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/well-known/publiq-platform-security.txt
+  href: https://artifacts.apis.io/publiq/well-known/publiq-platform-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/publiq-platform-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/well-known/publiq-partner-api-security.txt
+  href: https://artifacts.apis.io/publiq/well-known/publiq-partner-api-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/publiq-partner-api-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/well-known/publiq-io-security.txt
+  href: https://artifacts.apis.io/publiq/well-known/publiq-io-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/publiq-io-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/well-known/publiq-api-security.txt
+  href: https://artifacts.apis.io/publiq/well-known/publiq-api-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/publiq-api-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/well-known/publiq-well-known.yml
+  href: https://artifacts.apis.io/publiq/well-known/publiq-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/publiq-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/hosts/publiq-hosts.yml
+  href: https://artifacts.apis.io/publiq/hosts/publiq-hosts.yml
   title: ''
   type: Hosts
   url: hosts/publiq-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/vendors/publiq-vendors.yml
+  href: https://artifacts.apis.io/publiq/vendors/publiq-vendors.yml
   title: ''
   type: Vendors
   url: vendors/publiq-vendors.yml
@@ -330,12 +337,12 @@ common:
   type: GettingStarted
   url: https://docs.publiq.be/#getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/scopes/publiq-scopes.yml
+  href: https://artifacts.apis.io/publiq/scopes/publiq-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/publiq-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/authentication/publiq-authentication.yml
+  href: https://artifacts.apis.io/publiq/authentication/publiq-authentication.yml
   title: ''
   type: Authentication
   url: authentication/publiq-authentication.yml
@@ -408,7 +415,7 @@ common:
   type: YouTube
   url: https://www.youtube.com/channel/UCKeWkGEBy9Kc6pQ2GOfF_Ug
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/security/publiq-domain-security.yml
+  href: https://artifacts.apis.io/publiq/security/publiq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/publiq-domain-security.yml
@@ -418,6 +425,14 @@ common:
   url: https://github.com/cultuurnet/apidocs/blob/253bb51def286cc4c19066c0724525ab997aee60/.spectral.json
 created: '2026-10-09'
 description: publiq vzw is a Belgian (Flemish) non-profit organisation that stimulates active participation in culture, sport and leisure by making event and activity information accessible. It runs products such as UiTdatabank (the Flemish database of cultural and leisure events), UiTPAS (a leisure discount and savings pass) and museumPASSmusées, and offers the publiq platform through which developers register integrations and receive client credentials for its APIs, including the UiTdatabank Entry API and Search API, the UiTPAS API and the museumPASSmusées API, plus plug-and-play widgets. Documentation, OpenAPI files and Postman collections are published on docs.publiq.be.
+finops:
+- has_sources: true
+  method: derived
+  name: Publiq Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: publiq-finops
+  template: false
 image: https://www.publiq.be/img/svg/logo-white.svg
 json_schemas:
 - name: CardSystemMembership
@@ -460,12 +475,15 @@ overview: 'publiq publishes 33 API contracts indexed on the [APIs.io](https://ap
   The publiq catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  publiq''s developer surface includes changelog, sandbox, getting-started guide, authentication, documentation, support, engineering blog, and 40 more developer resources.'
+  publiq''s developer surface includes changelog, sandbox, getting-started guide, authentication, documentation, support, engineering blog, and 41 more developer resources.'
 plans:
 - name: Publiq Plans Pricing
   plan_count: 2
   slug: publiq-plans-pricing
-random_paper: 15
+- name: Publiq Price Estimates
+  plan_count: 0
+  slug: publiq-price-estimates
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Publiq Rate Limits
@@ -502,19 +520,19 @@ scopes:
   summary_line: 4 scopes
 score:
   band: exemplar
-  composite: 71.5
+  composite: 69.9
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 87.3
+    artifact_dirs: 31
+    catalog_earned: 90.3
     catalog_earned_first_party: 26.0
-    catalog_gap: 27.8
+    catalog_gap: 24.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.1
+  delta: 1.6
   facets:
-    access_clarity: 65.8
+    access_clarity: 73.7
     contract_governance: 76.5
-    contract_quality: 69.2
+    contract_quality: 66.9
     developer_ergonomics: 58.9
     discoverability: 71.4
     operational_transparency: 55.3
@@ -526,7 +544,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 68.4
+  previous_composite: 68.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -543,13 +561,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/publiq/refs/heads/main/screenshots/publiq-2026-10-11T112927.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/publiq/publiq-2026-10-11T112927.png
 security:
 - kind: authentication
   name: Publiq Authentication
@@ -559,6 +578,20 @@ security:
   name: Publiq Domain Security
   slug: publiq-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 6
+skills:
+- name: check-in-a-uitpas-passholder
+  slug: publiq-check-in-a-uitpas-passholder
+- name: create-and-publish-an-event
+  slug: publiq-create-and-publish-an-event
+- name: redeem-a-uitpas-reward
+  slug: publiq-redeem-a-uitpas-reward
+- name: register-a-museum-visit
+  slug: publiq-register-a-museum-visit
+- name: register-a-uitpas-ticket-sale
+  slug: publiq-register-a-uitpas-ticket-sale
+- name: search-uitdatabank-events
+  slug: publiq-search-uitdatabank-events
 slug: publiq
 tags:
 - Company

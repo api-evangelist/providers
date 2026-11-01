@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -66,7 +68,7 @@ apis:
   description: The Websites API from Brandcast — 13 operation(s) for websites.
   name: Brandcast Websites API
   slug: brandcast-websites-api
-artifact_total: 15
+artifact_total: 20
 collections:
 - collection_type: open
   name: Brandcast Account API
@@ -82,27 +84,32 @@ collections:
   slug: open-brandcast-websites
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/overlays/brandcast-websites-overlay.yaml
+  href: https://artifacts.apis.io/brandcast/capabilities/brandcast-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/brandcast-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/brandcast/overlays/brandcast-websites-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brandcast-websites-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/overlays/brandcast-templates-overlay.yaml
+  href: https://artifacts.apis.io/brandcast/overlays/brandcast-templates-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brandcast-templates-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/overlays/brandcast-salesforce-overlay.yaml
+  href: https://artifacts.apis.io/brandcast/overlays/brandcast-salesforce-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brandcast-salesforce-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/overlays/brandcast-account-overlay.yaml
+  href: https://artifacts.apis.io/brandcast/overlays/brandcast-account-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brandcast-account-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/agentic-access/brandcast-agentic-access.yml
+  href: https://artifacts.apis.io/brandcast/agentic-access/brandcast-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/brandcast-agentic-access.yml
@@ -115,17 +122,17 @@ common:
   type: Documentation
   url: https://developer.brandcast.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/authentication/brandcast-authentication.yml
+  href: https://artifacts.apis.io/brandcast/authentication/brandcast-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brandcast-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/security/brandcast-domain-security.yml
+  href: https://artifacts.apis.io/brandcast/security/brandcast-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brandcast-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/llms/brandcast-llms.txt
+  href: https://artifacts.apis.io/brandcast/llms/brandcast-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brandcast-llms.txt
@@ -158,62 +165,70 @@ common:
   type: PrivacyPolicy
   url: https://www.sites.design/privacy-policy/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/conventions/brandcast-conventions.yml
+  href: https://artifacts.apis.io/brandcast/conventions/brandcast-conventions.yml
   title: ''
   type: Conventions
   url: conventions/brandcast-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/errors/brandcast-problem-types.yml
+  href: https://artifacts.apis.io/brandcast/errors/brandcast-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/brandcast-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/data-model/brandcast-data-model.yml
+  href: https://artifacts.apis.io/brandcast/data-model/brandcast-data-model.yml
   title: ''
   type: DataModel
   url: data-model/brandcast-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/lifecycle/brandcast-lifecycle.yml
+  href: https://artifacts.apis.io/brandcast/lifecycle/brandcast-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brandcast-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/changelog/brandcast-changelog.yml
+  href: https://artifacts.apis.io/brandcast/changelog/brandcast-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/brandcast-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/conformance/brandcast-conformance.yml
+  href: https://artifacts.apis.io/brandcast/conformance/brandcast-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brandcast-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/security/brandcast-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/brandcast/security/brandcast-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/brandcast-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/security/brandcast-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/brandcast/security/brandcast-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/brandcast-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/brandcast/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/plans/brandcast-plans-pricing.yml
+  href: https://artifacts.apis.io/brandcast/plans/brandcast-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/brandcast-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/rate-limits/brandcast-rate-limits.yml
+  href: https://artifacts.apis.io/brandcast/rate-limits/brandcast-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/brandcast-rate-limits.yml
 created: '2026-07-17'
 description: Brandcast is a no-code digital customer experience and website platform, founded in 2013 and backed by Shasta Ventures, that fuses web design, content creation, and brand asset management into a single system. Business and marketing teams use its Design Studio to build and maintain branded websites, sales proposals, brochures, and content programs, with Salesforce integration for personalized, trackable sites. The Brandcast API opens the Design Studio to developers to create websites from templates and update site content, authenticated with an API key sent in the x-api-key header over HTTPS. Brandcast's website product has since been rebranded as "Sites" and joined Vev; the developer API portal remains at developer.brandcast.io.
+finops:
+- has_sources: true
+  method: derived
+  name: Brandcast Finops
+  primary_unit: ''
+  service_category: ''
+  slug: brandcast-finops
+  template: true
 image: https://brandcast-cdn.global.ssl.fastly.net/61c3bb24-acd1-4c34-a5e0-3af04a2afb9a/71efcf85-6914-4a7e-9e50-1667c8d865f7/3c7a4af9ee3e6c75f4a0153bd866a9d9/brandcast.png
 layout: provider
 modified: '2026-08-13'
@@ -223,35 +238,35 @@ network: true
 overview: 'Brandcast publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Salesforce API, Templates API, and 1 more. Tagged areas include Company, Enterprise Software, No-Code, Website Builder, and Content Management.
 
 
-  Brandcast''s developer surface includes documentation, authentication, getting-started guide, support, changelog, and 23 more developer resources.'
+  Brandcast''s developer surface includes documentation, authentication, getting-started guide, support, changelog, and 24 more developer resources.'
 plans:
 - name: Brandcast Plans Pricing
   plan_count: 0
   slug: brandcast-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Brandcast Rate Limits
   slug: brandcast-rate-limits
 score:
   band: developing
-  composite: 46.5
+  composite: 45.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 54.8
+    contract_quality: 51.4
     developer_ergonomics: 56.5
-    discoverability: 78.6
-    operational_transparency: 28.9
-  previous_composite: 46.4
+    discoverability: 71.4
+    operational_transparency: 31.6
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,13 +283,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/screenshots/brandcast-2026-07-25T203717.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/brandcast/brandcast-2026-07-25T203717.png
 security:
 - kind: authentication
   name: Brandcast Authentication
@@ -292,6 +308,16 @@ security:
   name: Brandcast Trust Center
   slug: brandcast-trust-center
   summary_line: count, named, note
+skill_count: 4
+skills:
+- name: brandcast-create-website-from-template
+  slug: brandcast-create-website-from-template
+- name: brandcast-publish-website
+  slug: brandcast-publish-website
+- name: brandcast-salesforce-tracking
+  slug: brandcast-salesforce-tracking
+- name: brandcast-update-website-content
+  slug: brandcast-update-website-content
 slug: brandcast
 tags:
 - Company

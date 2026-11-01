@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nabla-bio/refs/heads/main/security/nabla-bio-domain-security.yml
+  href: https://artifacts.apis.io/nabla-bio/security/nabla-bio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nabla-bio-domain-security.yml
@@ -72,22 +74,22 @@ common:
   type: PrivacyPolicy
   url: https://www.nabla.bio/privacy-policy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nabla-bio/refs/heads/main/plans/nabla-bio-plans-pricing.yml
+  href: https://artifacts.apis.io/nabla-bio/plans/nabla-bio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nabla-bio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nabla-bio/refs/heads/main/rate-limits/nabla-bio-rate-limits.yml
+  href: https://artifacts.apis.io/nabla-bio/rate-limits/nabla-bio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nabla-bio-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nabla-bio/refs/heads/main/packages/nabla-bio-packages.yml
+  href: https://artifacts.apis.io/nabla-bio/packages/nabla-bio-packages.yml
   title: ''
   type: Packages
   url: packages/nabla-bio-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nabla-bio/refs/heads/main/llms/nabla-bio-llms.txt
+  href: https://artifacts.apis.io/nabla-bio/llms/nabla-bio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nabla-bio-llms.txt
@@ -121,14 +123,14 @@ plans:
 - name: Nabla Bio Plans Pricing
   plan_count: 0
   slug: nabla-bio-plans-pricing
-random_paper: 11
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Nabla Bio Rate Limits
   slug: nabla-bio-rate-limits
 score:
   band: minimal
-  composite: 6.7
+  composite: 6.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 25.0
@@ -136,29 +138,29 @@ score:
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 52.7
+    discoverability: 46.4
     operational_transparency: 0.0
-  previous_composite: 6.6
+  previous_composite: 6.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nabla-bio/refs/heads/main/screenshots/nabla-bio-2026-09-02T150715.png
+screenshot: https://apis.io/screenshots/nabla-bio/nabla-bio-2026-09-02T150715.png
 security:
 - kind: domain-security
   name: Nabla Bio Domain Security

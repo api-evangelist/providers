@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-17'
+  score: 14.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,11 +68,8 @@ apis:
   description: Retrieve security events and audit logs.
   name: Arthur J. Gallagher Events API
   slug: arthur-j-gallagher-events-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Gallagher Command Centre REST Access Groups API
   slug: open-arthur-j-gallagher-access-groups-api
@@ -88,17 +87,17 @@ collections:
   slug: open-gallagher-command-centre-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/plans/arthur-j-gallagher-plans-pricing.yml
+  href: https://artifacts.apis.io/arthur-j-gallagher/plans/arthur-j-gallagher-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/arthur-j-gallagher-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/rate-limits/arthur-j-gallagher-rate-limits.yml
+  href: https://artifacts.apis.io/arthur-j-gallagher/rate-limits/arthur-j-gallagher-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/arthur-j-gallagher-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/finops/arthur-j-gallagher-finops.yml
+  href: https://artifacts.apis.io/arthur-j-gallagher/finops/arthur-j-gallagher-finops.yml
   title: ''
   type: FinOps
   url: finops/arthur-j-gallagher-finops.yml
@@ -107,17 +106,17 @@ common:
   type: Blog
   url: https://developer.gallagherbassett.com/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/capabilities/arthur-j-gallagher-capability-edges.yml
+  href: https://artifacts.apis.io/arthur-j-gallagher/capabilities/arthur-j-gallagher-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/arthur-j-gallagher-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/agentic-access/arthur-j-gallagher-agentic-access.yml
+  href: https://artifacts.apis.io/arthur-j-gallagher/agentic-access/arthur-j-gallagher-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/arthur-j-gallagher-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/security/arthur-j-gallagher-domain-security.yml
+  href: https://artifacts.apis.io/arthur-j-gallagher/security/arthur-j-gallagher-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arthur-j-gallagher-domain-security.yml
@@ -152,7 +151,7 @@ finops:
 - has_sources: false
   method: generated
   name: Arthur J Gallagher Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: arthur-j-gallagher-finops
   template: true
@@ -187,18 +186,18 @@ press:
   url: https://www.investing.com/news/earnings/arthur-j-gallagher-earnings-on-deck-as-ai-worries-meet-revenue-growth-93CH-4650464
 - date: ''
   title: Two-thirds of organizations invest in AI training as adoption ...
-  url: https://www.prnewswire.com/news-releases/two-thirds-of-organizations-invest-in-ai-training-as-adoption-accelerates
+  url: https://www.prnewswire.com/news-releases/two-thirds-of-organizations-invest-in-ai-training-as-adoption-accelerates---but-governance-gaps-remain-302722954.html
 - date: ''
   title: Gallagher launches Blueprint AI risk scoring framework
   url: https://www.stocktitan.net/news/AJG/gallagher-launches-gallagher-blueprint-pairing-ai-and-expert-insight-rikhjs4fhwpo.html
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Arthur J Gallagher Rate Limits
   slug: arthur-j-gallagher-rate-limits
 score:
   band: emerging
-  composite: 21.8
+  composite: 22.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 38.0
@@ -206,20 +205,20 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 42.2
     developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 19.7
+  previous_composite: 22.1
   provenance:
     agentic_access: derived
     contracts:
@@ -233,14 +232,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/screenshots/arthur-j-gallagher-2026-06-20T172441.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/arthur-j-gallagher/arthur-j-gallagher-2026-06-20T172441.png
 security:
 - kind: domain-security
   name: Arthur J Gallagher Domain Security

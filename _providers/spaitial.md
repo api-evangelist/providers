@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.7
-  scored_at: '2026-10-17'
+  score: 51.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -66,15 +68,12 @@ apis:
   description: World generation endpoints
   name: SpAItial Worlds API
   slug: spaitial-worlds-api
-artifact_total: 15
+artifact_total: 20
 asyncapis:
 - description: Webhook event surface for the SpAItial Developer API. Set webhook.url on POST /v1/worlds to receive an HTTPS callback when a world-generation job (or a mesh export) reaches a terminal state. Deliverie
   name: SpAItial Developer API Webhooks
   slug: spaitial-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SpAItial Developer files API
   slug: open-spaitial-files-api
@@ -88,102 +87,107 @@ collections:
   name: SpAItial Developer files worlds API
   slug: open-spaitial-worlds-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/spaitial/plans/spaitial-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/spaitial-plans-pricing.yml
 - group: company
   title: ''
   type: Website
   url: https://www.spaitial.ai/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/overlays/spaitial-developer-api-overlay.yaml
+  href: https://artifacts.apis.io/spaitial/overlays/spaitial-developer-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spaitial-developer-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/agentic-access/spaitial-agentic-access.yml
+  href: https://artifacts.apis.io/spaitial/agentic-access/spaitial-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spaitial-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/security/spaitial-domain-security.yml
+  href: https://artifacts.apis.io/spaitial/security/spaitial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spaitial-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/authentication/spaitial-authentication.yml
+  href: https://artifacts.apis.io/spaitial/authentication/spaitial-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spaitial-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/scopes/spaitial-scopes.yml
+  href: https://artifacts.apis.io/spaitial/scopes/spaitial-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/spaitial-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/conventions/spaitial-conventions.yml
+  href: https://artifacts.apis.io/spaitial/conventions/spaitial-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spaitial-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/conventions/spaitial-conventions.yml
+  href: https://artifacts.apis.io/spaitial/conventions/spaitial-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/spaitial-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/errors/spaitial-problem-types.yml
+  href: https://artifacts.apis.io/spaitial/errors/spaitial-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spaitial-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/lifecycle/spaitial-lifecycle.yml
+  href: https://artifacts.apis.io/spaitial/lifecycle/spaitial-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spaitial-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/changelog/spaitial-changelog.yml
+  href: https://artifacts.apis.io/spaitial/changelog/spaitial-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/spaitial-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/sandbox/spaitial-sandbox.yml
+  href: https://artifacts.apis.io/spaitial/sandbox/spaitial-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/spaitial-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/data-model/spaitial-data-model.yml
+  href: https://artifacts.apis.io/spaitial/data-model/spaitial-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spaitial-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/conformance/spaitial-conformance.yml
+  href: https://artifacts.apis.io/spaitial/conformance/spaitial-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spaitial-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/packages/spaitial-packages.yml
+  href: https://artifacts.apis.io/spaitial/packages/spaitial-packages.yml
   title: ''
   type: Packages
   url: packages/spaitial-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/well-known/spaitial-well-known.yml
+  href: https://artifacts.apis.io/spaitial/well-known/spaitial-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spaitial-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/llms/spaitial-llms.txt
+  href: https://artifacts.apis.io/spaitial/llms/spaitial-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spaitial-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/asyncapi/spaitial-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/spaitial/asyncapi/spaitial-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/spaitial-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/asyncapi/spaitial-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/spaitial/asyncapi/spaitial-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/spaitial-webhooks-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/spaitial/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -237,6 +241,14 @@ common:
   url: https://docs.spaitial.ai/overview/release-notes
 created: '2026-07-17'
 description: SpAItial (SpAItial Ltd, London) is a frontier spatial-AI lab building Echo, a world-model family that turns text prompts, images, and 360-degree panoramas into persistent, explorable 3D Gaussian Splat worlds (SPZ/SOG, plus mesh exports). SpAItial ships a public REST Developer API at api.spaitial.ai for programmatic world generation, panorama editing, file upload, and mesh export, an official hosted Model Context Protocol (MCP) server for AI agents, and an installable Agent Skill for coding assistants. It is a portfolio company of Speedinvest. This profile was enriched from the live OpenAPI spec, docs, llms.txt, and MCP server card.
+finops:
+- has_sources: true
+  method: derived
+  name: Spaitial Finops
+  primary_unit: credits
+  service_category: ''
+  slug: spaitial-finops
+  template: false
 image: https://spaitial.ai/og-image-default.png
 layout: provider
 mcp_servers:
@@ -253,32 +265,36 @@ overview: 'SpAItial publishes 4 API contracts indexed on the [APIs.io](https://a
   The SpAItial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  SpAItial''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, pricing, and 25 more developer resources.'
-random_paper: 19
+  SpAItial''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, pricing, and 26 more developer resources.'
+plans:
+- name: Spaitial Plans Pricing
+  plan_count: 4
+  slug: spaitial-plans-pricing
+random_paper: 15
 scopes:
 - name: Spaitial Scopes
   scope_count: 5
   slug: spaitial-scopes
   summary_line: 5 scopes
 score:
-  band: developing
-  composite: 47.3
+  band: strong
+  composite: 55.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 50.3
     developer_ergonomics: 61.3
-    discoverability: 75.0
-    operational_transparency: 31.6
-  previous_composite: 47.6
+    discoverability: 65.0
+    operational_transparency: 34.2
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,13 +311,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/screenshots/spaitial-2026-08-17T125348.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spaitial/spaitial-2026-08-17T125348.png
 security:
 - kind: authentication
   name: Spaitial Authentication
@@ -311,6 +328,16 @@ security:
   name: Spaitial Domain Security
   slug: spaitial-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: spaitial-create-world-from-image
+  slug: spaitial-create-world-from-image
+- name: spaitial-create-world-from-text
+  slug: spaitial-create-world-from-text
+- name: spaitial-edit-panorama-loop
+  slug: spaitial-edit-panorama-loop
+- name: spaitial-export-mesh
+  slug: spaitial-export-mesh
 slug: spaitial
 tags:
 - Company

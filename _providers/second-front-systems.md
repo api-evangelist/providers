@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -41,12 +43,12 @@ common:
   type: BlogRSS
   url: https://www.secondfront.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/second-front-systems/refs/heads/main/security/second-front-systems-trust-center.yml
+  href: https://artifacts.apis.io/second-front-systems/security/second-front-systems-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/second-front-systems-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/second-front-systems/refs/heads/main/security/second-front-systems-domain-security.yml
+  href: https://artifacts.apis.io/second-front-systems/security/second-front-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/second-front-systems-domain-security.yml
@@ -79,7 +81,7 @@ common:
   type: PrivacyPolicy
   url: https://www.secondfront.com/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/second-front-systems/refs/heads/main/llms/second-front-systems-llms.txt
+  href: https://artifacts.apis.io/second-front-systems/llms/second-front-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/second-front-systems-llms.txt
@@ -95,10 +97,10 @@ overview: 'Second Front Systems is profiled on the [APIs.io](https://apis.io/) n
 
 
   Second Front Systems'' developer surface includes documentation, support, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 3
+random_paper: 7
 score:
   band: emerging
-  composite: 17.0
+  composite: 16.3
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -112,23 +114,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 17.0
+  previous_composite: 16.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/second-front-systems/refs/heads/main/screenshots/second-front-systems-2026-09-02T154657.png
+screenshot: https://apis.io/screenshots/second-front-systems/second-front-systems-2026-09-02T154657.png
 security:
 - kind: domain-security
   name: Second Front Systems Domain Security

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/on-me/refs/heads/main/security/on-me-domain-security.yml
+  href: https://artifacts.apis.io/on-me/security/on-me-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/on-me-domain-security.yml
@@ -76,17 +78,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/onmegifting
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/on-me/refs/heads/main/plans/on-me-plans-pricing.yml
+  href: https://artifacts.apis.io/on-me/plans/on-me-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/on-me-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/on-me/refs/heads/main/rate-limits/on-me-rate-limits.yml
+  href: https://artifacts.apis.io/on-me/rate-limits/on-me-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/on-me-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/on-me/refs/heads/main/llms/on-me-llms.txt
+  href: https://artifacts.apis.io/on-me/llms/on-me-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/on-me-llms.txt
@@ -122,14 +124,14 @@ plans:
 - name: On Me Plans Pricing
   plan_count: 0
   slug: on-me-plans-pricing
-random_paper: 14
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: On Me Rate Limits
   slug: on-me-rate-limits
 score:
   band: emerging
-  composite: 13.1
+  composite: 12.7
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -143,23 +145,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 13.1
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 12.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/on-me/refs/heads/main/screenshots/on-me-2026-09-02T150844.png
+screenshot: https://apis.io/screenshots/on-me/on-me-2026-09-02T150844.png
 security:
 - kind: domain-security
   name: On Me Domain Security

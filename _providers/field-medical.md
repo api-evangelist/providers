@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'An anonymous, read-oriented Model Context Protocol endpoint served from Field Medical''s own corporate domain. It is provided by the Wix website platform (Wix Site MCP), not authored by Field Medical, '
@@ -44,7 +46,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/field-medical/refs/heads/main/security/field-medical-domain-security.yml
+  href: https://artifacts.apis.io/field-medical/security/field-medical-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/field-medical-domain-security.yml
@@ -73,32 +75,32 @@ common:
   type: Investors
   url: https://www.fieldmedicalinc.com/investors
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/field-medical/refs/heads/main/mcp/field-medical-mcp.yml
+  href: https://artifacts.apis.io/field-medical/mcp/field-medical-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/field-medical-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/field-medical/refs/heads/main/llms/field-medical-llms.txt
+  href: https://artifacts.apis.io/field-medical/llms/field-medical-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/field-medical-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/field-medical/refs/heads/main/authentication/field-medical-authentication.yml
+  href: https://artifacts.apis.io/field-medical/authentication/field-medical-authentication.yml
   title: ''
   type: Authentication
   url: authentication/field-medical-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/field-medical/refs/heads/main/conformance/field-medical-conformance.yml
+  href: https://artifacts.apis.io/field-medical/conformance/field-medical-conformance.yml
   title: ''
   type: Conformance
   url: conformance/field-medical-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/field-medical/refs/heads/main/rate-limits/field-medical-rate-limits.yml
+  href: https://artifacts.apis.io/field-medical/rate-limits/field-medical-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/field-medical-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/field-medical/refs/heads/main/plans/field-medical-plans-pricing.yml
+  href: https://artifacts.apis.io/field-medical/plans/field-medical-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/field-medical-plans-pricing.yml
@@ -122,16 +124,16 @@ plans:
 - name: Field Medical Plans Pricing
   plan_count: 0
   slug: field-medical-plans-pricing
-random_paper: 4
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Field Medical Rate Limits
   slug: field-medical-rate-limits
 score:
   band: emerging
-  composite: 14.6
+  composite: 13.6
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -143,9 +145,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 14.6
+  previous_composite: 13.6
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -155,14 +157,14 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/field-medical/refs/heads/main/screenshots/field-medical-2026-09-02T145507.png
+screenshot: https://apis.io/screenshots/field-medical/field-medical-2026-09-02T145507.png
 security:
 - kind: authentication
   name: Field Medical Authentication

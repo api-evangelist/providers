@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -84,11 +86,8 @@ apis:
   description: The Task API from GP Connect — 1 operation(s) for task.
   name: GP Connect Task API
   slug: gp-connect-task-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: gp-connect-access-record-structured-fhir Appointment API
   slug: open-gp-connect-appointment-api
@@ -116,22 +115,22 @@ common:
   type: Website
   url: https://www.nhs.uk/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/capabilities/gp-connect-capability-edges.yml
+  href: https://artifacts.apis.io/gp-connect/capabilities/gp-connect-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gp-connect-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/agentic-access/gp-connect-agentic-access.yml
+  href: https://artifacts.apis.io/gp-connect/agentic-access/gp-connect-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gp-connect-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/security/gp-connect-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gp-connect/security/gp-connect-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gp-connect-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/security/gp-connect-domain-security.yml
+  href: https://artifacts.apis.io/gp-connect/security/gp-connect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gp-connect-domain-security.yml
@@ -184,17 +183,17 @@ common:
   type: ClinicalSafety
   url: https://digital.nhs.uk/services/clinical-safety
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/plans/gp-connect-plans.yml
+  href: https://artifacts.apis.io/gp-connect/plans/gp-connect-plans.yml
   title: ''
   type: Plans
   url: plans/gp-connect-plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/rate-limits/gp-connect-rate-limits.yml
+  href: https://artifacts.apis.io/gp-connect/rate-limits/gp-connect-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gp-connect-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/finops/gp-connect-finops.yml
+  href: https://artifacts.apis.io/gp-connect/finops/gp-connect-finops.yml
   title: ''
   type: FinOps
   url: finops/gp-connect-finops.yml
@@ -231,14 +230,14 @@ plans:
 - name: Gp Connect Plans
   plan_count: 3
   slug: gp-connect-plans
-random_paper: 16
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Gp Connect Rate Limits
   slug: gp-connect-rate-limits
 score:
   band: thin
-  composite: 36.3
+  composite: 38.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 51.0
@@ -246,14 +245,14 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 48.3
     developer_ergonomics: 54.8
     discoverability: 71.4
-    operational_transparency: 13.2
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -262,7 +261,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 44.6
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -276,13 +275,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/screenshots/gp-connect-2026-07-25T220156.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gp-connect/gp-connect-2026-07-25T220156.png
 security:
 - kind: domain-security
   name: Gp Connect Domain Security

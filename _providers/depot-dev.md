@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -66,11 +68,8 @@ apis:
   description: Manage Depot projects and project tokens (depot.core.v1.ProjectService).
   name: Depot ProjectService API
   slug: depot-dev-projectservice-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Depot BuildKitService API
   slug: open-depot-dev-buildkitservice-api
@@ -85,22 +84,22 @@ collections:
   slug: open-depot-dev
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/capabilities/depot-dev-capability-edges.yml
+  href: https://artifacts.apis.io/depot-dev/capabilities/depot-dev-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/depot-dev-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/agentic-access/depot-dev-agentic-access.yml
+  href: https://artifacts.apis.io/depot-dev/agentic-access/depot-dev-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/depot-dev-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/security/depot-dev-domain-security.yml
+  href: https://artifacts.apis.io/depot-dev/security/depot-dev-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/depot-dev-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/authentication/depot-dev-authentication.yml
+  href: https://artifacts.apis.io/depot-dev/authentication/depot-dev-authentication.yml
   title: ''
   type: Authentication
   url: authentication/depot-dev-authentication.yml
@@ -121,17 +120,17 @@ common:
   type: Documentation
   url: https://depot.dev/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/plans/depot-dev-plans-pricing.yml
+  href: https://artifacts.apis.io/depot-dev/plans/depot-dev-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/depot-dev-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/rate-limits/depot-dev-rate-limits.yml
+  href: https://artifacts.apis.io/depot-dev/rate-limits/depot-dev-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/depot-dev-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/finops/depot-dev-finops.yml
+  href: https://artifacts.apis.io/depot-dev/finops/depot-dev-finops.yml
   title: ''
   type: FinOps
   url: finops/depot-dev-finops.yml
@@ -163,14 +162,14 @@ plans:
 - name: Depot Dev Plans Pricing
   plan_count: 4
   slug: depot-dev-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Depot Dev Rate Limits
   slug: depot-dev-rate-limits
 score:
-  band: emerging
-  composite: 25.8
+  band: thin
+  composite: 26.9
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -178,15 +177,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: -0.6
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 44.1
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 34.1
+    operational_transparency: 13.2
+  previous_composite: 27.5
   provenance:
     agentic_access: derived
     contracts:
@@ -200,13 +199,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/screenshots/depot-dev-2026-06-20T175928.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/depot-dev/depot-dev-2026-06-20T175928.png
 security:
 - kind: authentication
   name: Depot Dev Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 20.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 16
   slug: azure-container-instances-agentic-access
   summary_line: 16 operations · 8 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://management.azure.com
   baseurl_source: spec
@@ -64,11 +66,8 @@ apis:
   description: Operations operations
   name: Azure Container Instances Operations API
   slug: microsoft-azure-container-instances-operations-api
-artifact_total: 102
+artifact_total: 101
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ContainerInstanceManagementClient Operations API
   slug: open-azure-container-instances-operations-api
@@ -77,22 +76,22 @@ collections:
   slug: open-azure-container-instances-subscriptions-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/plans/azure-container-instances-plans-pricing.yml
+  href: https://artifacts.apis.io/azure-container-instances/plans/azure-container-instances-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/azure-container-instances-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/rate-limits/azure-container-instances-rate-limits.yml
+  href: https://artifacts.apis.io/azure-container-instances/rate-limits/azure-container-instances-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/azure-container-instances-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/finops/azure-container-instances-finops.yml
+  href: https://artifacts.apis.io/azure-container-instances/finops/azure-container-instances-finops.yml
   title: ''
   type: FinOps
   url: finops/azure-container-instances-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/capabilities/azure-container-instances-capability-edges.yml
+  href: https://artifacts.apis.io/azure-container-instances/capabilities/azure-container-instances-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/azure-container-instances-capability-edges.yml
@@ -113,27 +112,27 @@ common:
   type: LlmsText
   url: https://portal.azure.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/agentic-access/azure-container-instances-agentic-access.yml
+  href: https://artifacts.apis.io/azure-container-instances/agentic-access/azure-container-instances-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/azure-container-instances-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/security/azure-container-instances-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/azure-container-instances/security/azure-container-instances-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/azure-container-instances-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/security/azure-container-instances-domain-security.yml
+  href: https://artifacts.apis.io/azure-container-instances/security/azure-container-instances-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/azure-container-instances-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/authentication/azure-container-instances-authentication.yml
+  href: https://artifacts.apis.io/azure-container-instances/authentication/azure-container-instances-authentication.yml
   title: ''
   type: Authentication
   url: authentication/azure-container-instances-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/scopes/azure-container-instances-scopes.yml
+  href: https://artifacts.apis.io/azure-container-instances/scopes/azure-container-instances-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/azure-container-instances-scopes.yml
@@ -269,11 +268,11 @@ examples:
   name: Azure Container Instances Logs Example
   slug: azure-container-instances-logs-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Azure Container Instances Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: azure-container-instances-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/azure-container-instances.png
@@ -466,9 +465,9 @@ overview: 'Azure Container Instances publishes 4 API contracts indexed on the [A
   Azure Container Instances'' developer surface includes developer portal, authentication, documentation, pricing, engineering blog, signup flow, support, and 17 more developer resources.'
 plans:
 - name: Azure Container Instances Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: azure-container-instances-plans-pricing
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Azure Container Instances Rate Limits
@@ -504,23 +503,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 51.9
+  composite: 50.5
   coverage:
     artifact_dirs: 19
-    catalog_earned: 58.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -6.3
   facets:
-    access_clarity: 52.6
+    access_clarity: 44.7
     contract_governance: 27.3
     contract_quality: 49.0
     developer_ergonomics: 50.0
     discoverability: 71.4
-    operational_transparency: 26.3
-  previous_composite: 53.4
+    operational_transparency: 39.5
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     contracts:
@@ -534,13 +533,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/screenshots/azure-container-instances-2026-06-20T172844.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/azure-container-instances/azure-container-instances-2026-06-20T172844.png
 security:
 - kind: authentication
   name: Azure Container Instances Authentication

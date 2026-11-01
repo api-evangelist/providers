@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rex-inc/refs/heads/main/security/rex-inc-domain-security.yml
+  href: https://artifacts.apis.io/rex-inc/security/rex-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rex-inc-domain-security.yml
@@ -85,7 +87,7 @@ overview: 'Rex is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Rex''s developer surface includes developer portal, engineering blog, support, and 6 more developer resources.'
-random_paper: 12
+random_paper: 22
 score:
   band: emerging
   composite: 12.1
@@ -111,14 +113,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rex-inc/refs/heads/main/screenshots/rex-inc-2026-09-02T153738.png
+screenshot: https://apis.io/screenshots/rex-inc/rex-inc-2026-09-02T153738.png
 security:
 - kind: domain-security
   name: Rex Inc Domain Security

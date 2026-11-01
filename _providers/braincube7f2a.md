@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation not publicly available; no machine-readable contract discovered.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/braincube7f2a/refs/heads/main/llms/braincube7f2a-llms.txt
+  href: https://artifacts.apis.io/braincube7f2a/llms/braincube7f2a-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/braincube7f2a-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/braincube7f2a/refs/heads/main/well-known/braincube7f2a-well-known.yml
+  href: https://artifacts.apis.io/braincube7f2a/well-known/braincube7f2a-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/braincube7f2a-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/braincube7f2a/refs/heads/main/hosts/braincube7f2a-hosts.yml
+  href: https://artifacts.apis.io/braincube7f2a/hosts/braincube7f2a-hosts.yml
   title: ''
   type: Hosts
   url: hosts/braincube7f2a-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/braincube7f2a/refs/heads/main/vendors/braincube7f2a-vendors.yml
+  href: https://artifacts.apis.io/braincube7f2a/vendors/braincube7f2a-vendors.yml
   title: ''
   type: Vendors
   url: vendors/braincube7f2a-vendors.yml
@@ -64,7 +66,7 @@ common:
   type: PrivacyPolicy
   url: https://braincube.com/privacy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/braincube7f2a/refs/heads/main/security/braincube7f2a-domain-security.yml
+  href: https://artifacts.apis.io/braincube7f2a/security/braincube7f2a-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/braincube7f2a-domain-security.yml
@@ -88,11 +90,11 @@ modified: '2026-10-03'
 name: Braincube7f2a
 nav: Providers
 network: true
-overview: Braincube7f2a is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Industrial AI, Process Optimization, Manufacturing, and Real-time Analytics.
-random_paper: 11
+overview: Braincube7f2a is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Industrial AI, Process Optimization, Manufacturing, and Real-Time Analytics.
+random_paper: 19
 score:
   band: emerging
-  composite: 13.6
+  composite: 12.9
   coverage:
     artifact_dirs: 5
     catalog_earned: 32.0
@@ -100,23 +102,23 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 12.7
+  previous_composite: 12.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -133,6 +135,6 @@ tags:
 - Industrial AI
 - Process Optimization
 - Manufacturing
-- Real-time Analytics
+- Real-Time Analytics
 website: https://braincube.com
 ---

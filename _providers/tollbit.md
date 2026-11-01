@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.7
-  scored_at: '2026-10-17'
+  score: 40.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://gateway.tollbit.com
@@ -67,15 +69,12 @@ apis:
   description: The Tollbit Subdomain API from Tollbit — 1 operation(s) for tollbit subdomain.
   name: Tollbit Subdomain API
   slug: tollbit-tollbit-subdomain-api
-artifact_total: 22
+artifact_total: 23
 asyncapis:
 - description: TollBit pushes real-time webhook notifications to subscriber applications when content becomes available (created or updated) from TollBit publisher properties, so consumers do not have to poll. Deliv
   name: TollBit Content Events (Webhooks)
   slug: tollbit-content-events-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TollBit Auth Tokens API
   slug: open-tollbit-auth-tokens-api
@@ -111,77 +110,77 @@ collections:
   slug: open-tollbit-tollbit-subdomain-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/capabilities/tollbit-capability-edges.yml
+  href: https://artifacts.apis.io/tollbit/capabilities/tollbit-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tollbit-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/overlays/tollbit-openapi-overlay.yaml
+  href: https://artifacts.apis.io/tollbit/overlays/tollbit-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tollbit-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/security/tollbit-domain-security.yml
+  href: https://artifacts.apis.io/tollbit/security/tollbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tollbit-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/authentication/tollbit-authentication.yml
+  href: https://artifacts.apis.io/tollbit/authentication/tollbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tollbit-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/packages/tollbit-packages.yml
+  href: https://artifacts.apis.io/tollbit/packages/tollbit-packages.yml
   title: ''
   type: Packages
   url: packages/tollbit-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/packages/tollbit-packages.yml
+  href: https://artifacts.apis.io/tollbit/packages/tollbit-packages.yml
   title: ''
   type: SDKs
   url: packages/tollbit-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/cli/tollbit-cli.yml
+  href: https://artifacts.apis.io/tollbit/cli/tollbit-cli.yml
   title: ''
   type: CLI
   url: cli/tollbit-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/mcp/tollbit-mcp.yml
+  href: https://artifacts.apis.io/tollbit/mcp/tollbit-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tollbit-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/llms/tollbit-llms.txt
+  href: https://artifacts.apis.io/tollbit/llms/tollbit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tollbit-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/components/tollbit-components.yml
+  href: https://artifacts.apis.io/tollbit/components/tollbit-components.yml
   title: ''
   type: Components
   url: components/tollbit-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/conformance/tollbit-conformance.yml
+  href: https://artifacts.apis.io/tollbit/conformance/tollbit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tollbit-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/lifecycle/tollbit-lifecycle.yml
+  href: https://artifacts.apis.io/tollbit/lifecycle/tollbit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tollbit-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/conventions/tollbit-conventions.yml
+  href: https://artifacts.apis.io/tollbit/conventions/tollbit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tollbit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/conventions/tollbit-conventions.yml
+  href: https://artifacts.apis.io/tollbit/conventions/tollbit-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/tollbit-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tollbit/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -253,10 +252,10 @@ overview: 'Tollbit publishes 6 API contracts indexed on the [APIs.io](https://ap
 
 
   Tollbit''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 20 more developer resources.'
-random_paper: 14
+random_paper: 18
 score:
   band: developing
-  composite: 42.1
+  composite: 46.5
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -264,15 +263,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 55.7
-    developer_ergonomics: 57.6
-    discoverability: 71.7
-    operational_transparency: 10.5
-  previous_composite: 42.0
+    developer_ergonomics: 77.9
+    discoverability: 65.0
+    operational_transparency: 13.2
+  previous_composite: 46.5
   provenance:
     conformance: derived
     contracts:
@@ -288,13 +287,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/screenshots/tollbit-2026-08-17T082402.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tollbit/tollbit-2026-08-17T082402.png
 security:
 - kind: authentication
   name: Tollbit Authentication
@@ -304,6 +304,12 @@ security:
   name: Tollbit Domain Security
   slug: tollbit-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: tollbit-index-property-catalog
+  slug: tollbit-index-property-catalog
+- name: tollbit-licensed-search-to-content
+  slug: tollbit-licensed-search-to-content
 slug: tollbit
 tags:
 - Company

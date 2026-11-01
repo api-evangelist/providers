@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 21.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.sidequestvr.com
@@ -62,11 +64,8 @@ apis:
   description: The OAuth2 API from SideQuest — 3 operation(s) for oauth2.
   name: SideQuest O Auth2 API
   slug: sidequest-oauth2-api
-artifact_total: 14
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SideQuest Apps API
   slug: open-sidequest-apps-api
@@ -92,72 +91,72 @@ common:
   type: Website
   url: https://www.sidequestvr.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/_original/sidequest-openapi.json
+  href: https://artifacts.apis.io/sidequest/openapi/_original/sidequest-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/sidequest-openapi.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/authentication/sidequest-authentication.yml
+  href: https://artifacts.apis.io/sidequest/authentication/sidequest-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sidequest-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/scopes/sidequest-scopes.yml
+  href: https://artifacts.apis.io/sidequest/scopes/sidequest-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sidequest-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/conventions/sidequest-conventions.yml
+  href: https://artifacts.apis.io/sidequest/conventions/sidequest-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sidequest-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/errors/sidequest-problem-types.yml
+  href: https://artifacts.apis.io/sidequest/errors/sidequest-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sidequest-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/lifecycle/sidequest-lifecycle.yml
+  href: https://artifacts.apis.io/sidequest/lifecycle/sidequest-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sidequest-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/conformance/sidequest-conformance.yml
+  href: https://artifacts.apis.io/sidequest/conformance/sidequest-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sidequest-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/data-model/sidequest-data-model.yml
+  href: https://artifacts.apis.io/sidequest/data-model/sidequest-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sidequest-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/overlays/sidequest-openapi-overlay.yaml
+  href: https://artifacts.apis.io/sidequest/overlays/sidequest-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sidequest-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/mcp/sidequest-mcp.yml
+  href: https://artifacts.apis.io/sidequest/mcp/sidequest-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sidequest-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sidequest/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/llms/sidequest-llms.txt
+  href: https://artifacts.apis.io/sidequest/llms/sidequest-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sidequest-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/packages/sidequest-packages.yml
+  href: https://artifacts.apis.io/sidequest/packages/sidequest-packages.yml
   title: ''
   type: Packages
   url: packages/sidequest-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/security/sidequest-domain-security.yml
+  href: https://artifacts.apis.io/sidequest/security/sidequest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sidequest-domain-security.yml
@@ -181,7 +180,7 @@ overview: 'SideQuest publishes 5 API contracts indexed on the [APIs.io](https://
 
 
   SideQuest''s developer surface includes engineering blog, authentication, documentation, and 15 more developer resources.'
-random_paper: 15
+random_paper: 23
 scopes:
 - name: Sidequest Scopes
   scope_count: 13
@@ -189,7 +188,7 @@ scopes:
   summary_line: 13 scopes
 score:
   band: thin
-  composite: 26.9
+  composite: 28.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -197,15 +196,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 45.9
-    developer_ergonomics: 32.7
-    discoverability: 73.2
+    developer_ergonomics: 42.3
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 26.3
+  previous_composite: 28.8
   provenance:
     conformance: derived
     contracts:
@@ -221,13 +220,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/screenshots/sidequest-2026-09-02T155400.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sidequest/sidequest-2026-09-02T155400.png
 security:
 - kind: authentication
   name: Sidequest Authentication
@@ -237,6 +237,12 @@ security:
   name: Sidequest Domain Security
   slug: sidequest-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Log a user in and read their app achievements
+  slug: sidequest-login-and-read-achievements
+- name: Search the SideQuest VR app catalog
+  slug: sidequest-search-vr-apps
 slug: sidequest
 tags:
 - Company

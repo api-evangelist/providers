@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-10-17'
+  score: 37.6
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - baseURL: https://sight.inspectorio.com
@@ -163,15 +165,12 @@ apis:
   description: The Upload File API from Inspectorio — 1 operation(s) for upload file.
   name: Inspectorio Upload File API
   slug: inspectorio-upload-file-api
-artifact_total: 56
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Inspectorio Webhooks
   slug: inspectorio-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: File Management ANALYTICS API
   slug: open-inspectorio-analytics-api
@@ -248,6 +247,10 @@ collections:
   name: File Management ANALYTICS Upload File API
   slug: open-inspectorio-upload-file-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/inspectorio/overview
 - group: company
   title: ''
   type: Blog
@@ -257,12 +260,12 @@ common:
   type: BlogRSS
   url: https://www.inspectorio.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/capabilities/inspectorio-capability-edges.yml
+  href: https://artifacts.apis.io/inspectorio/capabilities/inspectorio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/inspectorio-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/overlays/inspectorio-fms-overlay.yaml
+  href: https://artifacts.apis.io/inspectorio/overlays/inspectorio-fms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/inspectorio-fms-overlay.yaml
@@ -311,102 +314,102 @@ common:
   type: StatusPage
   url: https://status.inspectorio.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/authentication/inspectorio-authentication.yml
+  href: https://artifacts.apis.io/inspectorio/authentication/inspectorio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/inspectorio-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/security/inspectorio-domain-security.yml
+  href: https://artifacts.apis.io/inspectorio/security/inspectorio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inspectorio-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/security/inspectorio-trust-center.yml
+  href: https://artifacts.apis.io/inspectorio/security/inspectorio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/inspectorio-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/security/inspectorio-trust-center.yml
+  href: https://artifacts.apis.io/inspectorio/security/inspectorio-trust-center.yml
   title: ''
   type: Compliance
   url: security/inspectorio-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/security/inspectorio-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/inspectorio/security/inspectorio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/inspectorio-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/security/inspectorio-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/inspectorio/security/inspectorio-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/inspectorio-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/errors/inspectorio-problem-types.yml
+  href: https://artifacts.apis.io/inspectorio/errors/inspectorio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/inspectorio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/conventions/inspectorio-conventions.yml
+  href: https://artifacts.apis.io/inspectorio/conventions/inspectorio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/inspectorio-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/changelog/inspectorio-changelog.yml
+  href: https://artifacts.apis.io/inspectorio/changelog/inspectorio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/inspectorio-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/lifecycle/inspectorio-lifecycle.yml
+  href: https://artifacts.apis.io/inspectorio/lifecycle/inspectorio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/inspectorio-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/lifecycle/inspectorio-lifecycle.yml
+  href: https://artifacts.apis.io/inspectorio/lifecycle/inspectorio-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/inspectorio-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/asyncapi/inspectorio-webhooks.yml
+  href: https://artifacts.apis.io/inspectorio/asyncapi/inspectorio-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/inspectorio-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/mcp/inspectorio-mcp.yml
+  href: https://artifacts.apis.io/inspectorio/mcp/inspectorio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/inspectorio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/llms/inspectorio-llms.txt
+  href: https://artifacts.apis.io/inspectorio/llms/inspectorio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/inspectorio-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/conformance/inspectorio-conformance.yml
+  href: https://artifacts.apis.io/inspectorio/conformance/inspectorio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/inspectorio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/data-model/inspectorio-data-model.yml
+  href: https://artifacts.apis.io/inspectorio/data-model/inspectorio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/inspectorio-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/sandbox/inspectorio-sandbox.yml
+  href: https://artifacts.apis.io/inspectorio/sandbox/inspectorio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/inspectorio-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/packages/inspectorio-packages.yml
+  href: https://artifacts.apis.io/inspectorio/packages/inspectorio-packages.yml
   title: ''
   type: Packages
   url: packages/inspectorio-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/well-known/inspectorio-well-known.yml
+  href: https://artifacts.apis.io/inspectorio/well-known/inspectorio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/inspectorio-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/inspectorio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -424,11 +427,11 @@ overview: 'Inspectorio publishes 25 API contracts indexed on the [APIs.io](https
   The Inspectorio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Inspectorio''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, changelog, and 28 more developer resources.'
-random_paper: 11
+  Inspectorio''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, authentication, changelog, and 29 more developer resources.'
+random_paper: 23
 score:
   band: strong
-  composite: 55.8
+  composite: 55.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -436,15 +439,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.2
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 57.5
-    developer_ergonomics: 61.3
-    discoverability: 78.6
+    contract_quality: 54.2
+    developer_ergonomics: 67.3
+    discoverability: 71.4
     operational_transparency: 57.9
-  previous_composite: 55.7
+  previous_composite: 55.0
   provenance:
     conformance: derived
     contracts:
@@ -464,13 +467,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/screenshots/inspectorio-2026-07-25T222543.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/inspectorio/inspectorio-2026-07-25T222543.png
 security:
 - kind: authentication
   name: Inspectorio Authentication
@@ -488,6 +492,14 @@ security:
   name: Inspectorio Trust Center
   slug: inspectorio-trust-center
   summary_line: ISO 27001, GDPR
+skill_count: 3
+skills:
+- name: Retrieve compliance assessments and reports
+  slug: inspectorio-compliance-reports
+- name: Sync product, item, material and BOM data
+  slug: inspectorio-customer-data-sync
+- name: Manage Inspectorio lab tests
+  slug: inspectorio-lab-tests
 slug: inspectorio
 tags:
 - Supply Chain

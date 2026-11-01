@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -49,7 +51,7 @@ common:
   type: Blog
   url: https://www.swisseducation.com/en/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swiss-education-group/refs/heads/main/security/swiss-education-group-domain-security.yml
+  href: https://artifacts.apis.io/swiss-education-group/security/swiss-education-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/swiss-education-group-domain-security.yml
@@ -65,7 +67,7 @@ overview: 'Swiss Education Group is profiled on the [APIs.io](https://apis.io/) 
 
 
   Swiss Education Group''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 16
+random_paper: 12
 score:
   band: minimal
   composite: 6.1
@@ -99,14 +101,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/swiss-education-group/refs/heads/main/screenshots/swiss-education-group-2026-09-02T161421.png
+screenshot: https://apis.io/screenshots/swiss-education-group/swiss-education-group-2026-09-02T161421.png
 security:
 - kind: domain-security
   name: Swiss Education Group Domain Security

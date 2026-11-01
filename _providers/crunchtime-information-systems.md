@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 27.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -234,50 +236,55 @@ apis:
   description: The Vendor Service is used to create/review records of all Vendors that can be used to record expenses in Crunchtime. Typically, a third-party system is the system of record for Vendors and vendor dat
   name: Crunchtime Information Systems Vendor Service API
   slug: crunchtime-information-systems-vendor-service-api
-artifact_total: 54
+artifact_total: 58
 common:
+- group: other
+  href: https://artifacts.apis.io/crunchtime-information-systems/capabilities/crunchtime-information-systems-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/crunchtime-information-systems-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/agentic-access/crunchtime-information-systems-agentic-access.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/agentic-access/crunchtime-information-systems-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/crunchtime-information-systems-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/rules/crunchtime-information-systems-rules.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/rules/crunchtime-information-systems-rules.yml
   title: ''
   type: Spectral
   url: rules/crunchtime-information-systems-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/json-ld/crunchtime-information-systems-context.jsonld
+  href: https://artifacts.apis.io/crunchtime-information-systems/json-ld/crunchtime-information-systems-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/crunchtime-information-systems-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/vocabulary/crunchtime-information-systems-vocabulary.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/vocabulary/crunchtime-information-systems-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/crunchtime-information-systems-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/data-model/crunchtime-information-systems-data-model.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/data-model/crunchtime-information-systems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/crunchtime-information-systems-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/errors/crunchtime-information-systems-problem-types.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/errors/crunchtime-information-systems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/crunchtime-information-systems-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/conformance/crunchtime-information-systems-conformance.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/conformance/crunchtime-information-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crunchtime-information-systems-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/hosts/crunchtime-information-systems-hosts.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/hosts/crunchtime-information-systems-hosts.yml
   title: ''
   type: Hosts
   url: hosts/crunchtime-information-systems-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/vendors/crunchtime-information-systems-vendors.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/vendors/crunchtime-information-systems-vendors.yml
   title: ''
   type: Vendors
   url: vendors/crunchtime-information-systems-vendors.yml
@@ -342,52 +349,52 @@ common:
   type: Compliance
   url: https://trust.crunchtime.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/llms/crunchtime-information-systems-llms.txt
+  href: https://artifacts.apis.io/crunchtime-information-systems/llms/crunchtime-information-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crunchtime-information-systems-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/authentication/crunchtime-information-systems-authentication.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/authentication/crunchtime-information-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crunchtime-information-systems-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/conventions/crunchtime-information-systems-conventions.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/conventions/crunchtime-information-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crunchtime-information-systems-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/rate-limits/crunchtime-information-systems-rate-limits.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/rate-limits/crunchtime-information-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/crunchtime-information-systems-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/changelog/crunchtime-information-systems-changelog.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/changelog/crunchtime-information-systems-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/crunchtime-information-systems-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/sandbox/crunchtime-information-systems-sandbox.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/sandbox/crunchtime-information-systems-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/crunchtime-information-systems-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/mcp/crunchtime-information-systems-mcp.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/mcp/crunchtime-information-systems-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/crunchtime-information-systems-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/security/crunchtime-information-systems-trust-center.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/security/crunchtime-information-systems-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/crunchtime-information-systems-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/security/crunchtime-information-systems-domain-security.yml
+  href: https://artifacts.apis.io/crunchtime-information-systems/security/crunchtime-information-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crunchtime-information-systems-domain-security.yml
@@ -438,8 +445,8 @@ overview: 'Crunchtime Information Systems publishes 38 API contracts indexed on 
   The Crunchtime Information Systems catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Crunchtime Information Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
-random_paper: 0
+  Crunchtime Information Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Crunchtime Information Systems Rate Limits
@@ -459,21 +466,21 @@ rules:
   slug: crunchtime-information-systems-rules
 score:
   band: strong
-  composite: 56.3
+  composite: 58.9
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 73.8
     catalog_earned_first_party: 8.0
     catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 27.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 22.0
     contract_quality: 61.6
-    developer_ergonomics: 53.0
-    discoverability: 80.4
+    developer_ergonomics: 66.1
+    discoverability: 73.2
     operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -482,7 +489,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 28.6
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -499,13 +506,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/screenshots/crunchtime-information-systems-2026-07-25T210822.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/crunchtime-information-systems/crunchtime-information-systems-2026-07-25T210822.png
 security:
 - kind: authentication
   name: Crunchtime Information Systems Authentication
@@ -519,6 +527,16 @@ security:
   name: Crunchtime Information Systems Trust Center
   slug: crunchtime-information-systems-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 4
+skills:
+- name: Incrementally pull changed records
+  slug: crunchtime-information-systems-incremental-pull
+- name: Onboard a new employee
+  slug: crunchtime-information-systems-onboard-employee
+- name: Sync physical inventory counts
+  slug: crunchtime-information-systems-sync-inventory
+- name: Terminate an employee
+  slug: crunchtime-information-systems-terminate-employee
 slug: crunchtime-information-systems
 tags:
 - Company

@@ -24,29 +24,31 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.4
-  scored_at: '2026-10-17'
+  score: 32.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Advisor API connects advisor applications to Wealth.com, exposing client, asset, document, contact, quiz, AI-notes, client-group and top-account resources over JSON HTTPS, with OAuth2 (authorizati
   name: Wealth.com Advisor API
   slug: wealthcom-advisor-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Wealthcom Webhooks
   slug: wealthcom-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/plans/wealthcom-plans-pricing.yml
+  href: https://artifacts.apis.io/wealthcom/plans/wealthcom-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wealthcom-plans-pricing.yml
@@ -71,32 +73,32 @@ common:
   type: GettingStarted
   url: https://developer.wealth.com/advisor/authentication
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/authentication/wealthcom-authentication.yml
+  href: https://artifacts.apis.io/wealthcom/authentication/wealthcom-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wealthcom-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/scopes/wealthcom-scopes.yml
+  href: https://artifacts.apis.io/wealthcom/scopes/wealthcom-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/wealthcom-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/asyncapi/wealthcom-webhooks.yml
+  href: https://artifacts.apis.io/wealthcom/asyncapi/wealthcom-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/wealthcom-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/conventions/wealthcom-conventions.yml
+  href: https://artifacts.apis.io/wealthcom/conventions/wealthcom-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wealthcom-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/rate-limits/wealthcom-rate-limits.yml
+  href: https://artifacts.apis.io/wealthcom/rate-limits/wealthcom-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wealthcom-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/lifecycle/wealthcom-lifecycle.yml
+  href: https://artifacts.apis.io/wealthcom/lifecycle/wealthcom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wealthcom-lifecycle.yml
@@ -105,17 +107,17 @@ common:
   type: StatusPage
   url: https://status.wealth.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/errors/wealthcom-problem-types.yml
+  href: https://artifacts.apis.io/wealthcom/errors/wealthcom-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wealthcom-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/data-model/wealthcom-data-model.yml
+  href: https://artifacts.apis.io/wealthcom/data-model/wealthcom-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wealthcom-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/conformance/wealthcom-conformance.yml
+  href: https://artifacts.apis.io/wealthcom/conformance/wealthcom-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wealthcom-conformance.yml
@@ -124,22 +126,22 @@ common:
   type: Compliance
   url: https://trust.wealth.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/security/wealthcom-trust-center.yml
+  href: https://artifacts.apis.io/wealthcom/security/wealthcom-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wealthcom-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/security/wealthcom-domain-security.yml
+  href: https://artifacts.apis.io/wealthcom/security/wealthcom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wealthcom-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/well-known/wealthcom-well-known.yml
+  href: https://artifacts.apis.io/wealthcom/well-known/wealthcom-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wealthcom-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/llms/wealthcom-llms.txt
+  href: https://artifacts.apis.io/wealthcom/llms/wealthcom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wealthcom-llms.txt
@@ -173,6 +175,14 @@ common:
   url: https://www.wealth.com/legal-policies/#privacy-content
 created: '2026-07-17'
 description: Wealth.com is the industry-leading estate and tax planning platform for financial advisors, unifying estate document creation, tax intelligence, and its proprietary Ester AI assistant to help advisors deliver sophisticated planning at scale. For developers, Wealth.com publishes an Advisor API (OAuth2, JSON over HTTPS) that connects advisor applications to the platform for managing clients, assets, documents, contacts, quizzes, and AI notes, plus a webhook surface for real-time events and an Onboarding API for partner-referred client onboarding. A separate SFTP interface supports bulk data exchange. The company is backed by GV (Google Ventures) and integrates with Salesforce, Orion, Redtail, Wealthbox, Addepar, eMoney, and other advisor tools.
+finops:
+- has_sources: true
+  method: derived
+  name: Wealthcom Finops
+  primary_unit: ''
+  service_category: ''
+  slug: wealthcom-finops
+  template: true
 image: https://www.wealth.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -194,7 +204,7 @@ plans:
 - name: Wealthcom Plans Pricing
   plan_count: 3
   slug: wealthcom-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Wealthcom Rate Limits
@@ -206,23 +216,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 55.6
+  composite: 57.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 0.0
   facets:
-    access_clarity: 78.9
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 75.0
+    discoverability: 66.1
     operational_transparency: 44.7
-  previous_composite: 49.3
+  previous_composite: 57.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -232,14 +242,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/screenshots/wealthcom-2026-08-17T082848.png
+screenshot: https://apis.io/screenshots/wealthcom/wealthcom-2026-08-17T082848.png
 security:
 - kind: authentication
   name: Wealthcom Authentication

@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: true
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.9
-  scored_at: '2026-10-17'
+  score: 25.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,7 +76,7 @@ apis:
   description: The SQL DB API from Soveren — 5 operation(s) for sql db.
   name: Soveren SQL DB API
   slug: soveren-sql-db-api
-artifact_total: 18
+artifact_total: 19
 asyncapis:
 - description: Soveren delivers data-security events to a subscriber endpoint via outbound webhooks. Soveren POSTs an event object to a URL configured in the app under Integrations - Webhook. When a signing token is
   name: Soveren Events (Webhooks)
@@ -83,9 +85,6 @@ asyncapis:
   name: Soveren Webhooks
   slug: soveren-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Soveren Object Assets API
   slug: open-soveren-assets-api
@@ -105,6 +104,11 @@ collections:
   name: Soveren Object Assets SQL DB API
   slug: open-soveren-sql-db-api
 common:
+- group: other
+  href: https://artifacts.apis.io/soveren/capabilities/soveren-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/soveren-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -146,77 +150,77 @@ common:
   type: TermsOfService
   url: https://assets.website-files.com/60ebf6ae3b0fe3c5e739324f/60ebf6ae3b0fe306a53933ce_Soveren_Website_Terms_of_Use_20102020.pdf
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/_original/soveren-object-api-openapi.yml
+  href: https://artifacts.apis.io/soveren/openapi/_original/soveren-object-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/soveren-object-api-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/asyncapi/soveren-events-asyncapi.yml
+  href: https://artifacts.apis.io/soveren/asyncapi/soveren-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/soveren-events-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/asyncapi/soveren-webhooks.yml
+  href: https://artifacts.apis.io/soveren/asyncapi/soveren-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/soveren-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/authentication/soveren-authentication.yml
+  href: https://artifacts.apis.io/soveren/authentication/soveren-authentication.yml
   title: ''
   type: Authentication
   url: authentication/soveren-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/conventions/soveren-conventions.yml
+  href: https://artifacts.apis.io/soveren/conventions/soveren-conventions.yml
   title: ''
   type: Conventions
   url: conventions/soveren-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/errors/soveren-problem-types.yml
+  href: https://artifacts.apis.io/soveren/errors/soveren-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/soveren-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/data-model/soveren-data-model.yml
+  href: https://artifacts.apis.io/soveren/data-model/soveren-data-model.yml
   title: ''
   type: DataModel
   url: data-model/soveren-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/conformance/soveren-conformance.yml
+  href: https://artifacts.apis.io/soveren/conformance/soveren-conformance.yml
   title: ''
   type: Conformance
   url: conformance/soveren-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/lifecycle/soveren-lifecycle.yml
+  href: https://artifacts.apis.io/soveren/lifecycle/soveren-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/soveren-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/mcp/soveren-mcp.yml
+  href: https://artifacts.apis.io/soveren/mcp/soveren-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/soveren-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/soveren/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/agentic-access/soveren-agentic-access.yml
+  href: https://artifacts.apis.io/soveren/agentic-access/soveren-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/soveren-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/llms/soveren-llms.txt
+  href: https://artifacts.apis.io/soveren/llms/soveren-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/soveren-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/overlays/soveren-object-api-overlay.yaml
+  href: https://artifacts.apis.io/soveren/overlays/soveren-object-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/soveren-object-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/security/soveren-domain-security.yml
+  href: https://artifacts.apis.io/soveren/security/soveren-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/soveren-domain-security.yml
@@ -234,13 +238,13 @@ overview: 'Soveren publishes 6 API contracts indexed on the [APIs.io](https://ap
   The Soveren catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Soveren''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 0
+  Soveren''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 19 more developer resources.'
+random_paper: 2
 score:
   band: developing
-  composite: 39.6
+  composite: 41.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -248,13 +252,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 53.4
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 39.6
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,14 +275,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/screenshots/soveren-2026-08-17T082012.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/soveren/soveren-2026-08-17T082012.png
 security:
 - kind: authentication
   name: Soveren Authentication
@@ -288,6 +292,12 @@ security:
   name: Soveren Domain Security
   slug: soveren-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Audit S3, Kafka, and SQL data stores
+  slug: soveren-audit-datastores
+- name: Inventory sensitive data across the environment
+  slug: soveren-inventory-sensitive-data
 slug: soveren
 tags:
 - Company

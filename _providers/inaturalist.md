@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 105
   slug: inaturalist-agentic-access
   summary_line: 105 operations · 51 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The next-generation iNaturalist API (v2) currently in development, designed to eventually replace v0 and v1 endpoints. Provides access to observation data with improved performance and response format
   name: iNaturalist API v2
@@ -148,11 +150,8 @@ apis:
   description: JSON for observation tiles
   name: iNaturalist UTFGrid API
   slug: inaturalist-utfgrid-api
-artifact_total: 225
+artifact_total: 224
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: iNaturalist Annotations API
   slug: open-inaturalist-annotations-api
@@ -215,17 +214,17 @@ collections:
   slug: open-inaturalist-utfgrid-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/inaturalist/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/inaturalist/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/inaturalist/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/inaturalist/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/inaturalist/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/inaturalist/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -234,17 +233,17 @@ common:
   type: Website
   url: https://www.inaturalist.org/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inaturalist/refs/heads/main/agentic-access/inaturalist-agentic-access.yml
+  href: https://artifacts.apis.io/inaturalist/agentic-access/inaturalist-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/inaturalist-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inaturalist/refs/heads/main/security/inaturalist-domain-security.yml
+  href: https://artifacts.apis.io/inaturalist/security/inaturalist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inaturalist-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inaturalist/refs/heads/main/authentication/inaturalist-authentication.yml
+  href: https://artifacts.apis.io/inaturalist/authentication/inaturalist-authentication.yml
   title: ''
   type: Authentication
   url: authentication/inaturalist-authentication.yml
@@ -859,7 +858,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -878,7 +877,7 @@ rules:
   slug: inaturalist-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.1
+  composite: 38.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 52.3
@@ -886,15 +885,15 @@ score:
     catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 48.3
+    contract_quality: 45.8
     developer_ergonomics: 42.9
     discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 43.1
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -908,13 +907,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/inaturalist/refs/heads/main/screenshots/inaturalist-2026-06-20T183309.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/inaturalist/inaturalist-2026-06-20T183309.png
 security:
 - kind: authentication
   name: Inaturalist Authentication

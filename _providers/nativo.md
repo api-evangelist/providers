@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 9.2
-  scored_at: '2026-10-17'
+  score: 12.6
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Nativo API V3 is the platform REST API for the Nativo advertising platform. It exposes CRUD trafficking resources (advertisers, campaigns, budgets, ads, creatives, placements, targeting parameters
@@ -45,14 +47,14 @@ apis:
 - description: A BETA GET endpoint that returns a Nativo native display ad as a programmatic response so a publisher can render the ad in its own technology rather than through the Nativo tag or SDK. The request req
   name: Nativo Ad Serving API (BETA)
   slug: nativo-ad-serving-api
-artifact_total: 7
+artifact_total: 8
 common:
 - group: other
   title: ''
   type: ParentCompany
   url: https://apis.io/providers/life360/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/security/nativo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nativo/security/nativo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nativo-vulnerability-disclosure.yml
@@ -109,92 +111,100 @@ common:
   type: StatusPage
   url: https://status.nativo.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/lifecycle/nativo-lifecycle.yml
+  href: https://artifacts.apis.io/nativo/lifecycle/nativo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nativo-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/lifecycle/nativo-lifecycle.yml
+  href: https://artifacts.apis.io/nativo/lifecycle/nativo-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/nativo-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/authentication/nativo-authentication.yml
+  href: https://artifacts.apis.io/nativo/authentication/nativo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nativo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/conventions/nativo-conventions.yml
+  href: https://artifacts.apis.io/nativo/conventions/nativo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nativo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/errors/nativo-problem-types.yml
+  href: https://artifacts.apis.io/nativo/errors/nativo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nativo-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/rate-limits/nativo-rate-limits.yml
+  href: https://artifacts.apis.io/nativo/rate-limits/nativo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nativo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/plans/nativo-plans-pricing.yml
+  href: https://artifacts.apis.io/nativo/plans/nativo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nativo-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/packages/nativo-packages.yml
+  href: https://artifacts.apis.io/nativo/packages/nativo-packages.yml
   title: ''
   type: Packages
   url: packages/nativo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/packages/nativo-packages.yml
+  href: https://artifacts.apis.io/nativo/packages/nativo-packages.yml
   title: ''
   type: SDKs
   url: packages/nativo-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/llms/nativo-llms.txt
+  href: https://artifacts.apis.io/nativo/llms/nativo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nativo-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/conformance/nativo-conformance.yml
+  href: https://artifacts.apis.io/nativo/conformance/nativo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nativo-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/conformance/nativo-conformance.yml
+  href: https://artifacts.apis.io/nativo/conformance/nativo-conformance.yml
   title: ''
   type: Compliance
   url: conformance/nativo-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/security/nativo-domain-security.yml
+  href: https://artifacts.apis.io/nativo/security/nativo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nativo-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/data-model/nativo-data-model.yml
+  href: https://artifacts.apis.io/nativo/data-model/nativo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nativo-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/changelog/nativo-changelog.yml
+  href: https://artifacts.apis.io/nativo/changelog/nativo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nativo-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/sandbox/nativo-sandbox.yml
+  href: https://artifacts.apis.io/nativo/sandbox/nativo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nativo-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/security/nativo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nativo/security/nativo-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/nativo-vulnerability-disclosure.yml
 created: '2026-08-26'
 description: Nativo is a native advertising and content-distribution technology company (El Segundo, California) that runs a native ad exchange and licenses a white-label ad server used by publishers to sell and serve sponsored content, native display, native video and story ad formats across a network of more than 20,000 apps and sites. Its platform spans an SSP, a curation marketplace, a self-serve buying console, a SaaS ad renderer, and the SPARC and Brand Rank products. Nativo was acquired by Life360 and the acquisition closed on 5 January 2026; the corporate site now resolves to ads.life360.com ("Life360 Ads featuring Nativo"), while the developer surface remains on nativo.com hosts. The public developer surface is a REST Nativo API V3 at api.nativo.com/v3 covering advertisers, campaigns, budgets, ads, creatives, placements, targeting and six reporting resources; a BETA Ad Serving API on jadserve.postrelease.com; and first-party mobile ad SDKs for iOS, Android and React Native.
+finops:
+- has_sources: true
+  method: derived
+  name: Nativo Finops
+  primary_unit: ''
+  service_category: ''
+  slug: nativo-finops
+  template: true
 image: https://cdn.prod.website-files.com/62348aef92bf092b84891591/6297b07786c9a646645a6a52_Nativo-Open-Graph.png
 layout: provider
 modified: '2026-08-26'
@@ -209,30 +219,30 @@ plans:
 - name: Nativo Plans Pricing
   plan_count: 0
   slug: nativo-plans-pricing
-random_paper: 19
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Nativo Rate Limits
   slug: nativo-rate-limits
 score:
   band: developing
-  composite: 43.6
+  composite: 46.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 6.5
-    developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 73.7
-  previous_composite: 43.5
+    developer_ergonomics: 71.4
+    discoverability: 66.1
+    operational_transparency: 76.3
+  previous_composite: 46.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -242,14 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nativo/refs/heads/main/screenshots/nativo-2026-09-02T150725.png
+screenshot: https://apis.io/screenshots/nativo/nativo-2026-09-02T150725.png
 security:
 - kind: authentication
   name: Nativo Authentication

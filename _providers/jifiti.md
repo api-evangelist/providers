@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-17'
+  score: 6.0
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Jifiti's Buy Now Pay Later API enables merchants and lenders to offer split payment and consumer financing options, including one-time loans and revolving lines of credit.
@@ -45,7 +47,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jifiti/refs/heads/main/security/jifiti-trust-center.yml
+  href: https://artifacts.apis.io/jifiti/security/jifiti-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/jifiti-trust-center.yml
@@ -54,17 +56,17 @@ common:
   type: Compliance
   url: https://www.jifiti.com/compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jifiti/refs/heads/main/conformance/jifiti-conformance.yml
+  href: https://artifacts.apis.io/jifiti/conformance/jifiti-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jifiti-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jifiti/refs/heads/main/security/jifiti-domain-security.yml
+  href: https://artifacts.apis.io/jifiti/security/jifiti-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jifiti-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jifiti/refs/heads/main/lifecycle/jifiti-lifecycle.yml
+  href: https://artifacts.apis.io/jifiti/lifecycle/jifiti-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jifiti-lifecycle.yml
@@ -73,22 +75,22 @@ common:
   type: StatusPage
   url: https://status.jifiti.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jifiti/refs/heads/main/plans/jifiti-plans-pricing.yml
+  href: https://artifacts.apis.io/jifiti/plans/jifiti-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jifiti-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jifiti/refs/heads/main/rate-limits/jifiti-rate-limits.yml
+  href: https://artifacts.apis.io/jifiti/rate-limits/jifiti-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jifiti-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jifiti/refs/heads/main/finops/jifiti-finops.yml
+  href: https://artifacts.apis.io/jifiti/finops/jifiti-finops.yml
   title: ''
   type: FinOps
   url: finops/jifiti-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jifiti/refs/heads/main/llms/jifiti-llms.txt
+  href: https://artifacts.apis.io/jifiti/llms/jifiti-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jifiti-llms.txt
@@ -144,7 +146,7 @@ finops:
 - has_sources: false
   method: generated
   name: Jifiti Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: jifiti-finops
   template: true
@@ -162,14 +164,14 @@ plans:
 - name: Jifiti Plans Pricing
   plan_count: 0
   slug: jifiti-plans-pricing
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Jifiti Rate Limits
   slug: jifiti-rate-limits
 score:
   band: emerging
-  composite: 23.0
+  composite: 22.3
   coverage:
     artifact_dirs: 14
     catalog_earned: 32.0
@@ -177,15 +179,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 15.8
-  previous_composite: 24.6
+  previous_composite: 22.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -201,14 +203,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 18.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jifiti/refs/heads/main/screenshots/jifiti-2026-06-20T183731.png
+screenshot: https://apis.io/screenshots/jifiti/jifiti-2026-06-20T183731.png
 security:
 - kind: domain-security
   name: Jifiti Domain Security

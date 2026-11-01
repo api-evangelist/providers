@@ -14,21 +14,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apollotherapeutics/refs/heads/main/hosts/apollotherapeutics-hosts.yml
+  href: https://artifacts.apis.io/apollotherapeutics/hosts/apollotherapeutics-hosts.yml
   title: ''
   type: Hosts
   url: hosts/apollotherapeutics-hosts.yml
@@ -49,7 +51,7 @@ common:
   type: Leadership
   url: https://www.apollotx.com/team/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apollotherapeutics/refs/heads/main/security/apollotherapeutics-domain-security.yml
+  href: https://artifacts.apis.io/apollotherapeutics/security/apollotherapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apollotherapeutics-domain-security.yml
@@ -73,12 +75,12 @@ name: Apollotherapeutics
 nav: Providers
 network: true
 overview: Apollotherapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharma, Portfolio, R&D, and Investor.
-random_paper: 8
+random_paper: 0
 score:
   band: minimal
   composite: 8.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -101,14 +103,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/apollotherapeutics/refs/heads/main/screenshots/apollotherapeutics-2026-10-11T095947.png
+screenshot: https://apis.io/screenshots/apollotherapeutics/apollotherapeutics-2026-10-11T095947.png
 security:
 - kind: domain-security
   name: Apollotherapeutics Domain Security

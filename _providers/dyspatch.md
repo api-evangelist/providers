@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.2
-  scored_at: '2026-10-17'
+  score: 36.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -146,15 +148,12 @@ apis:
   description: The Workspaces API from Dyspatch — 2 operation(s) for workspaces.
   name: Dyspatch Workspaces API
   slug: dyspatch-workspaces-api
-artifact_total: 49
+artifact_total: 54
 asyncapis:
 - description: ''
   name: Dyspatch Webhooks
   slug: dyspatch-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Dyspatch Blocks API
   slug: open-dyspatch-blocks-api
@@ -216,6 +215,15 @@ collections:
   name: Dyspatch Blocks Workspaces API
   slug: open-dyspatch-workspaces-api
 common:
+- group: other
+  href: https://artifacts.apis.io/dyspatch/capabilities/dyspatch-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dyspatch-capability-edges.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/dyspatch/overview
 - group: company
   title: ''
   type: BlogRSS
@@ -277,117 +285,125 @@ common:
   type: StatusPage
   url: https://status.dyspatch.io
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/changelog/dyspatch-changelog.yml
+  href: https://artifacts.apis.io/dyspatch/changelog/dyspatch-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dyspatch-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/lifecycle/dyspatch-lifecycle.yml
+  href: https://artifacts.apis.io/dyspatch/lifecycle/dyspatch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dyspatch-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/authentication/dyspatch-authentication.yml
+  href: https://artifacts.apis.io/dyspatch/authentication/dyspatch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dyspatch-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/conventions/dyspatch-conventions.yml
+  href: https://artifacts.apis.io/dyspatch/conventions/dyspatch-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dyspatch-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/errors/dyspatch-problem-types.yml
+  href: https://artifacts.apis.io/dyspatch/errors/dyspatch-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dyspatch-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/data-model/dyspatch-data-model.yml
+  href: https://artifacts.apis.io/dyspatch/data-model/dyspatch-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dyspatch-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/conformance/dyspatch-conformance.yml
+  href: https://artifacts.apis.io/dyspatch/conformance/dyspatch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dyspatch-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/overlays/dyspatch-openapi-overlay.yaml
+  href: https://artifacts.apis.io/dyspatch/overlays/dyspatch-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dyspatch-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/packages/dyspatch-packages.yml
+  href: https://artifacts.apis.io/dyspatch/packages/dyspatch-packages.yml
   title: ''
   type: Packages
   url: packages/dyspatch-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/packages/dyspatch-packages.yml
+  href: https://artifacts.apis.io/dyspatch/packages/dyspatch-packages.yml
   title: ''
   type: SDKs
   url: packages/dyspatch-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/mcp/dyspatch-mcp.yml
+  href: https://artifacts.apis.io/dyspatch/mcp/dyspatch-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dyspatch-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/mcp/dyspatch-tool-crosswalk.yml
+  href: https://artifacts.apis.io/dyspatch/mcp/dyspatch-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/dyspatch-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dyspatch/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/llms/dyspatch-llms.txt
+  href: https://artifacts.apis.io/dyspatch/llms/dyspatch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dyspatch-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/plans/dyspatch-plans-pricing.yml
+  href: https://artifacts.apis.io/dyspatch/plans/dyspatch-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dyspatch-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/rate-limits/dyspatch-rate-limits.yml
+  href: https://artifacts.apis.io/dyspatch/rate-limits/dyspatch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dyspatch-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/asyncapi/dyspatch-webhooks.yml
+  href: https://artifacts.apis.io/dyspatch/asyncapi/dyspatch-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/dyspatch-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/well-known/dyspatch-security.txt
+  href: https://artifacts.apis.io/dyspatch/well-known/dyspatch-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/dyspatch-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/security/dyspatch-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dyspatch/security/dyspatch-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dyspatch-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/security/dyspatch-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dyspatch/security/dyspatch-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/dyspatch-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/security/dyspatch-domain-security.yml
+  href: https://artifacts.apis.io/dyspatch/security/dyspatch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dyspatch-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/agentic-access/dyspatch-agentic-access.yml
+  href: https://artifacts.apis.io/dyspatch/agentic-access/dyspatch-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dyspatch-agentic-access.yml
 created: '2026-07-17'
 description: Dyspatch is an email template management and production platform that lets marketing, design, and engineering teams build, collaborate on, approve, localize, and publish transactional and marketing messages without hand-coding HTML. Content is authored in DML (Dyspatch Markup Language) using a modular, no-code drag-and-drop builder with reusable blocks and themes, then published to any ESP (Salesforce, HubSpot, Braze, Marketo, and others). Dyspatch also covers SMS, push, voice, and Live Activity messages, AMP for Email, and large-scale localization across hundreds of languages. The public REST API at api.dyspatch.io exposes published templates, drafts with an approval workflow, localizations and translations, customer profiles, themes, blocks, and tags, and is versioned by date through the Accept header. Dyspatch ships official OpenAPI-generated SDKs for six languages, a published MCP server, webhooks, and Agent Skills. Dyspatch is backed by Y Combinator.
+finops:
+- has_sources: true
+  method: derived
+  name: Dyspatch Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: dyspatch-finops
+  template: false
 image: https://www.dyspatch.io/wp-content/uploads/2025/04/fb-share-1.png
 layout: provider
 mcp_servers:
@@ -404,35 +420,38 @@ overview: 'Dyspatch publishes 20 API contracts indexed on the [APIs.io](https://
   The Dyspatch catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dyspatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 30 more developer resources.'
+  Dyspatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 32 more developer resources.'
 plans:
 - name: Dyspatch Plans Pricing
   plan_count: 3
   slug: dyspatch-plans-pricing
-random_paper: 6
+- name: Dyspatch Price Estimates
+  plan_count: 0
+  slug: dyspatch-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Dyspatch Rate Limits
   slug: dyspatch-rate-limits
 score:
   band: strong
-  composite: 58.3
+  composite: 60.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
-    access_clarity: 63.2
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 62.3
-    developer_ergonomics: 66.1
-    discoverability: 71.7
-    operational_transparency: 52.6
-  previous_composite: 58.3
+    contract_quality: 59.6
+    developer_ergonomics: 67.3
+    discoverability: 65.0
+    operational_transparency: 55.3
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -449,13 +468,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/screenshots/dyspatch-2026-07-25T212608.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dyspatch/dyspatch-2026-07-25T212608.png
 security:
 - kind: authentication
   name: Dyspatch Authentication
@@ -469,6 +489,16 @@ security:
   name: Dyspatch Vulnerability Disclosure
   slug: dyspatch-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 4
+skills:
+- name: Move a Dyspatch draft through approval
+  slug: dyspatch-approve-and-publish-draft
+- name: email-campaign-brief-dyspatch
+  slug: dyspatch-email-campaign-brief
+- name: Localize a Dyspatch draft
+  slug: dyspatch-localize-draft
+- name: Render a published Dyspatch template
+  slug: dyspatch-render-published-template
 slug: dyspatch
 tags:
 - Company

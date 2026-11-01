@@ -12,7 +12,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 61.8
-  scored_at: '2026-10-17'
+  score: 60.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 4
@@ -576,15 +578,12 @@ apis:
 - description: 'The X Ads API enables programmatic management of advertising campaigns on the X platform including campaign creation and scheduling, custom audience building, creative management (draft posts, cards, '
   name: X Ads API
   slug: x-ads-api
-artifact_total: 39
+artifact_total: 40
 asyncapis:
 - description: ''
   name: X Webhooks
   slug: x-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: X API v2 Posts API
   slug: open-x-posts-api
@@ -599,12 +598,12 @@ collections:
   slug: open-x
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/capabilities/x-capability-edges.yml
+  href: https://artifacts.apis.io/x/capabilities/x-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/x-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/skills/x-x-skill.md
+  href: https://artifacts.apis.io/x/skills/x-x-skill.md
   title: ''
   type: AgentSkill
   url: skills/x-x-skill.md
@@ -613,157 +612,157 @@ common:
   type: Website
   url: https://x.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/_original/x-api-v2-openapi.json
+  href: https://artifacts.apis.io/x/openapi/_original/x-api-v2-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/x-api-v2-openapi.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/authentication/x-authentication.yml
+  href: https://artifacts.apis.io/x/authentication/x-authentication.yml
   title: ''
   type: Authentication
   url: authentication/x-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/scopes/x-scopes.yml
+  href: https://artifacts.apis.io/x/scopes/x-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/x-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/agentic-access/x-agentic-access.yml
+  href: https://artifacts.apis.io/x/agentic-access/x-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/x-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/packages/x-packages.yml
+  href: https://artifacts.apis.io/x/packages/x-packages.yml
   title: ''
   type: Packages
   url: packages/x-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/packages/x-packages.yml
+  href: https://artifacts.apis.io/x/packages/x-packages.yml
   title: ''
   type: SDKs
   url: packages/x-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/cli/x-cli.yml
+  href: https://artifacts.apis.io/x/cli/x-cli.yml
   title: ''
   type: CLI
   url: cli/x-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/components/x-components.yml
+  href: https://artifacts.apis.io/x/components/x-components.yml
   title: ''
   type: Components
   url: components/x-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/sandbox/x-sandbox.yml
+  href: https://artifacts.apis.io/x/sandbox/x-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/x-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/mcp/x-mcp.yml
+  href: https://artifacts.apis.io/x/mcp/x-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/x-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/mcp/x-tool-crosswalk.yml
+  href: https://artifacts.apis.io/x/mcp/x-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/x-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/a2a/x-a2a.yml
+  href: https://artifacts.apis.io/x/a2a/x-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/x-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/x/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/llms/x-llms.txt
+  href: https://artifacts.apis.io/x/llms/x-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/x-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/well-known/x-well-known.yml
+  href: https://artifacts.apis.io/x/well-known/x-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/x-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/well-known/x-security.txt
+  href: https://artifacts.apis.io/x/well-known/x-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/x-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/conformance/x-conformance.yml
+  href: https://artifacts.apis.io/x/conformance/x-conformance.yml
   title: ''
   type: Conformance
   url: conformance/x-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/errors/x-problem-types.yml
+  href: https://artifacts.apis.io/x/errors/x-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/x-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/conventions/x-conventions.yml
+  href: https://artifacts.apis.io/x/conventions/x-conventions.yml
   title: ''
   type: Conventions
   url: conventions/x-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/conventions/x-conventions.yml
+  href: https://artifacts.apis.io/x/conventions/x-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/x-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/data-model/x-data-model.yml
+  href: https://artifacts.apis.io/x/data-model/x-data-model.yml
   title: ''
   type: DataModel
   url: data-model/x-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/asyncapi/x-webhooks.yml
+  href: https://artifacts.apis.io/x/asyncapi/x-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/x-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/lifecycle/x-lifecycle.yml
+  href: https://artifacts.apis.io/x/lifecycle/x-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/x-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/changelog/x-changelog.yml
+  href: https://artifacts.apis.io/x/changelog/x-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/x-changelog.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/overlays/x-api-v2-overlay.yaml
+  href: https://artifacts.apis.io/x/overlays/x-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/x-api-v2-overlay.yaml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/plans/x-plans-pricing.yml
+  href: https://artifacts.apis.io/x/plans/x-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/x-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/rate-limits/x-rate-limits.yml
+  href: https://artifacts.apis.io/x/rate-limits/x-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/x-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/finops/x-finops.yml
+  href: https://artifacts.apis.io/x/finops/x-finops.yml
   title: ''
   type: FinOps
   url: finops/x-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/security/x-domain-security.yml
+  href: https://artifacts.apis.io/x/security/x-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/x-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/security/x-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/x/security/x-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/x-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/security/x-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/x/security/x-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/x-vulnerability-disclosure.yml
@@ -822,13 +821,13 @@ common:
 created: '2025-08-14'
 description: X (formerly Twitter) operates the X Developer Platform, the programmable interface to the public conversation on X. The X API v2 is a 190-operation REST surface covering Posts, Users, Direct Messages, the encrypted Chat API, Lists, Spaces, Media, Communities, Community Notes, Broadcasts, News, Trends, Articles and Bots, plus a substantial real-time layer — filtered stream, firehose and sample volume streams, compliance streams, Account Activity webhooks and the X Activity API. X publishes a machine-readable OpenAPI at api.x.com/2/openapi.json, an llms.txt family, an AGENTS.md, an agentskills.io skill, an A2A agent card and two hosted MCP servers. Access is sold pay-per-usage in prepaid credits rather than by subscription tier, with an Enterprise agreement for volume above the published cap.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: X Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: resource
+  service_category: ''
   slug: x-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/x.png
 layout: provider
 mcp_servers:
@@ -848,9 +847,12 @@ overview: 'X publishes 24 API contracts indexed on the [APIs.io](https://apis.io
   X''s developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, getting-started guide, and 40 more developer resources.'
 plans:
 - name: X Plans Pricing
-  plan_count: 2
+  plan_count: 7
   slug: x-plans-pricing
-random_paper: 10
+- name: X Price Estimates
+  plan_count: 0
+  slug: x-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 17
   name: X Rate Limits
@@ -862,23 +864,23 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.4
+  composite: 73.1
   coverage:
     artifact_dirs: 30
-    catalog_earned: 57.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 3.7
   facets:
-    access_clarity: 65.8
+    access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 57.6
-    developer_ergonomics: 76.2
-    discoverability: 75.0
-    operational_transparency: 76.3
-  previous_composite: 70.9
+    contract_quality: 55.4
+    developer_ergonomics: 88.1
+    discoverability: 65.0
+    operational_transparency: 94.7
+  previous_composite: 69.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -895,13 +897,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/screenshots/x-2026-06-20T201653.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/x/x-2026-06-20T201653.png
 security:
 - kind: authentication
   name: X Authentication
@@ -915,6 +918,10 @@ security:
   name: X Vulnerability Disclosure
   slug: x-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 1
+skills:
+- name: X
+  slug: x-x-skill
 slug: x
 tags:
 - Spaces

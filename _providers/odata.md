@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.4
-  scored_at: '2026-10-17'
+  score: 24.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Standard OData service endpoints including service document, metadata document, entity set CRUD operations, and batch processing as defined by the OData v4.01 specification.
@@ -54,11 +56,8 @@ apis:
   description: The OData Service API API from OData — 3 operation(s) for odata service api.
   name: OData Service API
   slug: odata-odata-service-api-api
-artifact_total: 13
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OData Service $Batch API
   slug: open-odata-batch-api
@@ -70,22 +69,22 @@ collections:
   slug: open-odata-odata-service-api-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/odata/refs/heads/main/plans/odata-plans-pricing.yml
+  href: https://artifacts.apis.io/odata/plans/odata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/odata-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/odata/refs/heads/main/rate-limits/odata-rate-limits.yml
+  href: https://artifacts.apis.io/odata/rate-limits/odata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/odata-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/odata/refs/heads/main/finops/odata-finops.yml
+  href: https://artifacts.apis.io/odata/finops/odata-finops.yml
   title: ''
   type: FinOps
   url: finops/odata-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/odata/refs/heads/main/security/odata-domain-security.yml
+  href: https://artifacts.apis.io/odata/security/odata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/odata-domain-security.yml
@@ -119,7 +118,7 @@ finops:
 - has_sources: false
   method: generated
   name: Odata Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: odata-finops
   template: true
@@ -141,14 +140,14 @@ plans:
 - name: Odata Plans Pricing
   plan_count: 3
   slug: odata-plans-pricing
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Odata Rate Limits
   slug: odata-rate-limits
 score:
   band: emerging
-  composite: 24.8
+  composite: 25.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 38.0
@@ -156,15 +155,15 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 48.4
+    contract_quality: 45.7
     developer_ergonomics: 31.0
     discoverability: 56.7
-    operational_transparency: 10.5
-  previous_composite: 26.3
+    operational_transparency: 13.2
+  previous_composite: 25.2
   provenance:
     contracts:
       callable: 100.0
@@ -177,13 +176,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/odata/refs/heads/main/screenshots/odata-2026-06-20T190618.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/odata/odata-2026-06-20T190618.png
 security:
 - kind: domain-security
   name: Odata Domain Security

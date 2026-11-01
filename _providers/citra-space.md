@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Citra Space provides a developer portal with API reference and pricing information.
@@ -158,65 +160,65 @@ apis:
 - description: The weather API from Citra Space — 1 operation(s) for weather.
   name: Citra Space Weather API
   slug: citra-space-weather-api
-artifact_total: 49
+artifact_total: 54
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/citra-space/refs/heads/main/plans/citra-space-plans-pricing.yml
+  href: https://artifacts.apis.io/citra-space/plans/citra-space-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/citra-space-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/citra-space/refs/heads/main/rules/citra-space-rules.yml
+  href: https://artifacts.apis.io/citra-space/rules/citra-space-rules.yml
   title: ''
   type: Spectral
   url: rules/citra-space-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/citra-space/refs/heads/main/json-ld/citra-space-context.jsonld
+  href: https://artifacts.apis.io/citra-space/json-ld/citra-space-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/citra-space-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/citra-space/refs/heads/main/vocabulary/citra-space-vocabulary.yml
+  href: https://artifacts.apis.io/citra-space/vocabulary/citra-space-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/citra-space-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/citra-space/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/citra-space/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/citra-space/refs/heads/main/data-model/citra-space-data-model.yml
+  href: https://artifacts.apis.io/citra-space/data-model/citra-space-data-model.yml
   title: ''
   type: DataModel
   url: data-model/citra-space-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/citra-space/refs/heads/main/conventions/citra-space-conventions.yml
+  href: https://artifacts.apis.io/citra-space/conventions/citra-space-conventions.yml
   title: ''
   type: Conventions
   url: conventions/citra-space-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/citra-space/refs/heads/main/authentication/citra-space-authentication.yml
+  href: https://artifacts.apis.io/citra-space/authentication/citra-space-authentication.yml
   title: ''
   type: Authentication
   url: authentication/citra-space-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/citra-space/refs/heads/main/errors/citra-space-problem-types.yml
+  href: https://artifacts.apis.io/citra-space/errors/citra-space-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/citra-space-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/citra-space/refs/heads/main/conformance/citra-space-conformance.yml
+  href: https://artifacts.apis.io/citra-space/conformance/citra-space-conformance.yml
   title: ''
   type: Conformance
   url: conformance/citra-space-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/citra-space/refs/heads/main/hosts/citra-space-hosts.yml
+  href: https://artifacts.apis.io/citra-space/hosts/citra-space-hosts.yml
   title: ''
   type: Hosts
   url: hosts/citra-space-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/citra-space/refs/heads/main/vendors/citra-space-vendors.yml
+  href: https://artifacts.apis.io/citra-space/vendors/citra-space-vendors.yml
   title: ''
   type: Vendors
   url: vendors/citra-space-vendors.yml
@@ -237,7 +239,7 @@ common:
   type: Documentation
   url: https://docs.citra.space/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/citra-space/refs/heads/main/security/citra-space-domain-security.yml
+  href: https://artifacts.apis.io/citra-space/security/citra-space-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/citra-space-domain-security.yml
@@ -277,7 +279,7 @@ plans:
 - name: Citra Space Plans Pricing
   plan_count: 5
   slug: citra-space-plans-pricing
-random_paper: 0
+random_paper: 20
 rules:
 - authorship: generated
   effective_rule_count: 50
@@ -293,7 +295,7 @@ rules:
   slug: citra-space-rules
 score:
   band: thin
-  composite: 38.7
+  composite: 36.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 60.8
@@ -301,13 +303,15 @@ score:
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 22.0
-    contract_quality: 50.0
+    contract_quality: 48.7
     developer_ergonomics: 35.1
     discoverability: 57.1
     operational_transparency: 5.3
+  previous_composite: 36.9
   provenance:
     conformance: derived
     contracts:
@@ -323,11 +327,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Citra Space Authentication
@@ -337,6 +343,18 @@ security:
   name: Citra Space Domain Security
   slug: citra-space-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: citra-space-create-and-retrieve-mission
+  slug: citra-space-create-and-retrieve-mission
+- name: citra-space-get-satellite-close-approaches
+  slug: citra-space-get-satellite-close-approaches
+- name: citra-space-manage-alert-subscriptions
+  slug: citra-space-manage-alert-subscriptions
+- name: citra-space-manage-group-members
+  slug: citra-space-manage-group-members
+- name: citra-space-observe-optical-workflow
+  slug: citra-space-observe-optical-workflow
 slug: citra-space
 tags:
 - Space Domain Awareness

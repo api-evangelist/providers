@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -90,11 +92,8 @@ apis:
   description: Authorization form templates for formatting customer authorization forms
   name: UtilityAPI Templates API
   slug: utilityapi-templates-api
-artifact_total: 36
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Utility Accounting API
   slug: open-utilityapi-accounting-api
@@ -126,33 +125,37 @@ collections:
   name: UtilityAPI
   slug: open-utilityapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/utilityapi/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/plans/utilityapi-plans-pricing.yml
+  href: https://artifacts.apis.io/utilityapi/plans/utilityapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/utilityapi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/rate-limits/utilityapi-rate-limits.yml
+  href: https://artifacts.apis.io/utilityapi/rate-limits/utilityapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/utilityapi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/finops/utilityapi-finops.yml
+  href: https://artifacts.apis.io/utilityapi/finops/utilityapi-finops.yml
   title: ''
   type: FinOps
   url: finops/utilityapi-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/agentic-access/utilityapi-agentic-access.yml
+  href: https://artifacts.apis.io/utilityapi/agentic-access/utilityapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/utilityapi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/security/utilityapi-domain-security.yml
+  href: https://artifacts.apis.io/utilityapi/security/utilityapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/utilityapi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/authentication/utilityapi-authentication.yml
+  href: https://artifacts.apis.io/utilityapi/authentication/utilityapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/utilityapi-authentication.yml
@@ -208,7 +211,7 @@ finops:
 - has_sources: false
   method: generated
   name: Utilityapi Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: utilityapi-finops
   template: true
@@ -243,12 +246,12 @@ overview: 'UtilityAPI publishes 9 API contracts indexed on the [APIs.io](https:/
   The UtilityAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  UtilityAPI''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 10 more developer resources.'
+  UtilityAPI''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 11 more developer resources.'
 plans:
 - name: Utilityapi Plans Pricing
   plan_count: 3
   slug: utilityapi-plans-pricing
-random_paper: 2
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Utilityapi Rate Limits
@@ -279,7 +282,7 @@ rules:
   slug: utilityapi-rules
 score:
   band: thin
-  composite: 38.5
+  composite: 38.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 69.0
@@ -287,15 +290,15 @@ score:
     catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.2
   facets:
     access_clarity: 31.6
     contract_governance: 27.3
-    contract_quality: 67.0
-    developer_ergonomics: 23.8
+    contract_quality: 63.6
+    developer_ergonomics: 25.0
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 40.0
+    operational_transparency: 13.2
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -309,13 +312,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/screenshots/utilityapi-2026-06-20T200729.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/utilityapi/utilityapi-2026-06-20T200729.png
 security:
 - kind: authentication
   name: Utilityapi Authentication

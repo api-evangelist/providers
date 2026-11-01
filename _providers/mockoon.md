@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 16.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,11 +53,8 @@ apis:
   description: Inspect and reset data buckets defined in the mock environment.
   name: Mockoon Data Buckets API
   slug: mockoon-data-buckets-api
-artifact_total: 11
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mockoon Admin Data Buckets API
   slug: open-mockoon-data-buckets-api
@@ -64,17 +63,17 @@ collections:
   slug: open-mockoon
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/plans/mockoon-plans-pricing.yml
+  href: https://artifacts.apis.io/mockoon/plans/mockoon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mockoon-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/rate-limits/mockoon-rate-limits.yml
+  href: https://artifacts.apis.io/mockoon/rate-limits/mockoon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mockoon-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/finops/mockoon-finops.yml
+  href: https://artifacts.apis.io/mockoon/finops/mockoon-finops.yml
   title: ''
   type: FinOps
   url: finops/mockoon-finops.yml
@@ -95,17 +94,17 @@ common:
   type: License
   url: https://github.com/mockoon/mockoon/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/agentic-access/mockoon-agentic-access.yml
+  href: https://artifacts.apis.io/mockoon/agentic-access/mockoon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mockoon-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/security/mockoon-trust-center.yml
+  href: https://artifacts.apis.io/mockoon/security/mockoon-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mockoon-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/security/mockoon-domain-security.yml
+  href: https://artifacts.apis.io/mockoon/security/mockoon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mockoon-domain-security.yml
@@ -147,7 +146,7 @@ finops:
 - has_sources: false
   method: generated
   name: Mockoon Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: mockoon-finops
   template: true
@@ -165,14 +164,14 @@ plans:
 - name: Mockoon Plans Pricing
   plan_count: 3
   slug: mockoon-plans-pricing
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Mockoon Rate Limits
   slug: mockoon-rate-limits
 score:
   band: thin
-  composite: 31.2
+  composite: 27.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 38.0
@@ -180,18 +179,15 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 41.6
     developer_ergonomics: 23.8
     discoverability: 64.3
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 32.6
+    operational_transparency: 28.9
+  previous_composite: 27.9
   provenance:
     agentic_access: derived
     contracts:
@@ -205,14 +201,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/screenshots/mockoon-2026-06-20T185637.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mockoon/mockoon-2026-06-20T185637.png
 security:
 - kind: domain-security
   name: Mockoon Domain Security

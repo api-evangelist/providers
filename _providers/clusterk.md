@@ -24,8 +24,8 @@ name: Clusterk
 nav: Providers
 network: true
 overview: Clusterk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Cloud Computing, Cost Optimization, and EC2 Spot Instances.
-random_paper: 19
-screenshot: https://raw.githubusercontent.com/api-evangelist/clusterk/refs/heads/main/screenshots/clusterk-2026-07-25T205738.png
+random_paper: 13
+screenshot: https://apis.io/screenshots/clusterk/clusterk-2026-07-25T205738.png
 slug: clusterk
 tags:
 - Company

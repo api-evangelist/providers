@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.3
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 28.4
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://spectrumoutage.us/api/v1
   baseurl_source: declared
@@ -59,7 +61,7 @@ apis:
   description: Dashboard and aggregate statistics
   name: SpectrumOutage API Stats API
   slug: spectrumoutage-api-stats-api
-artifact_total: 9
+artifact_total: 13
 collections:
 - collection_type: open
   name: SpectrumOutage API
@@ -74,22 +76,22 @@ common:
   type: Website
   url: https://www.spectrumoutage.us/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/spectrumoutage-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/overlays/spectrumoutage-api-openapi-overlay.yaml
+  href: https://artifacts.apis.io/spectrumoutage-api/overlays/spectrumoutage-api-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/spectrumoutage-api-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/security/spectrumoutage-api-domain-security.yml
+  href: https://artifacts.apis.io/spectrumoutage-api/security/spectrumoutage-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spectrumoutage-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/authentication/spectrumoutage-api-authentication.yml
+  href: https://artifacts.apis.io/spectrumoutage-api/authentication/spectrumoutage-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spectrumoutage-api-authentication.yml
@@ -146,52 +148,60 @@ common:
   type: ChangeLog
   url: https://spectrumoutage.us/support-us
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/changelog/spectrumoutage-api-changelog.yml
+  href: https://artifacts.apis.io/spectrumoutage-api/changelog/spectrumoutage-api-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/spectrumoutage-api-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/conventions/spectrumoutage-api-conventions.yml
+  href: https://artifacts.apis.io/spectrumoutage-api/conventions/spectrumoutage-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spectrumoutage-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/errors/spectrumoutage-api-problem-types.yml
+  href: https://artifacts.apis.io/spectrumoutage-api/errors/spectrumoutage-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spectrumoutage-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/lifecycle/spectrumoutage-api-lifecycle.yml
+  href: https://artifacts.apis.io/spectrumoutage-api/lifecycle/spectrumoutage-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spectrumoutage-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/conformance/spectrumoutage-api-conformance.yml
+  href: https://artifacts.apis.io/spectrumoutage-api/conformance/spectrumoutage-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spectrumoutage-api-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/data-model/spectrumoutage-api-data-model.yml
+  href: https://artifacts.apis.io/spectrumoutage-api/data-model/spectrumoutage-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spectrumoutage-api-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/rate-limits/spectrumoutage-api-rate-limits.yml
+  href: https://artifacts.apis.io/spectrumoutage-api/rate-limits/spectrumoutage-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spectrumoutage-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/plans/spectrumoutage-api-plans-pricing.yml
+  href: https://artifacts.apis.io/spectrumoutage-api/plans/spectrumoutage-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spectrumoutage-api-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/packages/spectrumoutage-api-packages.yml
+  href: https://artifacts.apis.io/spectrumoutage-api/packages/spectrumoutage-api-packages.yml
   title: ''
   type: Packages
   url: packages/spectrumoutage-api-packages.yml
 created: '2026-07-17'
 description: 'Community-powered REST API for live Spectrum internet, TV, and phone outage data across the United States, published by SpectrumOutage.us — an independent outage tracker with no affiliation to Charter Communications or Spectrum. The v1 API exposes eight operations over crowdsourced outage reports: national dashboard statistics with an hourly timeline and service breakdown, a paginated report feed, outage submission, city and state lookups by slug, ZIP-code status (issues_reported / all_clear) with the reports behind it, and map pin/cluster data over a 1h, 24h or 48h window. Access is a bearer API key issued manually by email, or through a free RapidAPI plan; the provider also publishes an OpenAPI 3.0.3 specification, an agent-facing llm.txt on both hosts, a Postman collection, and an open outage dataset mirrored to GitHub, Hugging Face, Kaggle and Figshare.'
+finops:
+- has_sources: true
+  method: derived
+  name: Spectrumoutage Api Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: spectrumoutage-api-finops
+  template: false
 image: https://spectrumoutage.us/icons/icon-192.png
 layout: provider
 modified: '2026-10-06'
@@ -206,16 +216,16 @@ plans:
 - name: Spectrumoutage Api Plans Pricing
   plan_count: 1
   slug: spectrumoutage-api-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Spectrumoutage Api Rate Limits
   slug: spectrumoutage-api-rate-limits
 score:
   band: developing
-  composite: 48.6
+  composite: 51.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 56.0
     catalog_earned_first_party: 16.0
     catalog_gap: 59.0
@@ -223,13 +233,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 1.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 51.9
-    developer_ergonomics: 57.7
-    discoverability: 78.6
-    operational_transparency: 39.5
-  previous_composite: 47.6
+    developer_ergonomics: 63.7
+    discoverability: 73.2
+    operational_transparency: 42.1
+  previous_composite: 50.8
   provenance:
     conformance: derived
     contracts:
@@ -245,13 +255,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/screenshots/spectrumoutage-api-2026-08-17T082021.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spectrumoutage-api/spectrumoutage-api-2026-08-17T082021.png
 security:
 - kind: authentication
   name: Spectrumoutage Api Authentication
@@ -261,6 +272,14 @@ security:
   name: Spectrumoutage Api Domain Security
   slug: spectrumoutage-api-domain-security
   summary_line: TLSv1.2
+skill_count: 3
+skills:
+- name: Check Spectrum outage status for a location
+  slug: spectrumoutage-api-check-outage-status
+- name: Map and trend Spectrum outage activity
+  slug: spectrumoutage-api-map-outage-activity
+- name: Submit a Spectrum outage report
+  slug: spectrumoutage-api-submit-outage-report
 slug: spectrumoutage-api
 tags:
 - Spectrum

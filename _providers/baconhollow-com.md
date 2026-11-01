@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Anonymous A2A 0.3.0 agent at https://baconhollow.com (JSON-RPC, POST only). Four skills: portfolio-status, weather-forecast-edge, market-scan and oracle-picks. message/send and tasks/get are implement'
@@ -32,7 +34,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/baconhollow-com/refs/heads/main/security/baconhollow-com-domain-security.yml
+  href: https://artifacts.apis.io/baconhollow-com/security/baconhollow-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/baconhollow-com-domain-security.yml
@@ -41,52 +43,52 @@ common:
   type: Website
   url: https://baconhollow.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/baconhollow-com/refs/heads/main/a2a/baconhollow-com-a2a.yml
+  href: https://artifacts.apis.io/baconhollow-com/a2a/baconhollow-com-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/baconhollow-com-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/baconhollow-com/refs/heads/main/well-known/baconhollow-com-well-known.yml
+  href: https://artifacts.apis.io/baconhollow-com/well-known/baconhollow-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/baconhollow-com-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/baconhollow-com/refs/heads/main/authentication/baconhollow-com-authentication.yml
+  href: https://artifacts.apis.io/baconhollow-com/authentication/baconhollow-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/baconhollow-com-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/baconhollow-com/refs/heads/main/conformance/baconhollow-com-conformance.yml
+  href: https://artifacts.apis.io/baconhollow-com/conformance/baconhollow-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/baconhollow-com-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/baconhollow-com/refs/heads/main/lifecycle/baconhollow-com-lifecycle.yml
+  href: https://artifacts.apis.io/baconhollow-com/lifecycle/baconhollow-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/baconhollow-com-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/baconhollow-com/refs/heads/main/llms/baconhollow-com-llms.txt
+  href: https://artifacts.apis.io/baconhollow-com/llms/baconhollow-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/baconhollow-com-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/baconhollow-com/refs/heads/main/plans/baconhollow-com-plans-pricing.yml
+  href: https://artifacts.apis.io/baconhollow-com/plans/baconhollow-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/baconhollow-com-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/baconhollow-com/refs/heads/main/rate-limits/baconhollow-com-rate-limits.yml
+  href: https://artifacts.apis.io/baconhollow-com/rate-limits/baconhollow-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/baconhollow-com-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/baconhollow-com/refs/heads/main/packages/baconhollow-com-packages.yml
+  href: https://artifacts.apis.io/baconhollow-com/packages/baconhollow-com-packages.yml
   title: ''
   type: Packages
   url: packages/baconhollow-com-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/baconhollow-com/refs/heads/main/regulatory/baconhollow-com-regulatory-posture.yml
+  href: https://artifacts.apis.io/baconhollow-com/regulatory/baconhollow-com-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/baconhollow-com-regulatory-posture.yml
@@ -105,7 +107,7 @@ plans:
 - name: Baconhollow Com Plans Pricing
   plan_count: 0
   slug: baconhollow-com-plans-pricing
-random_paper: 0
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Baconhollow Com Rate Limits
@@ -120,7 +122,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
@@ -128,7 +130,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 53.6
     operational_transparency: 0.0
-  previous_composite: 10.1
+  previous_composite: 10.2
   provenance:
     conformance: first-party
   regulatory:
@@ -137,14 +139,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/baconhollow-com/refs/heads/main/screenshots/baconhollow-com-2026-10-11T182020.png
+screenshot: https://apis.io/screenshots/baconhollow-com/baconhollow-com-2026-10-11T182020.png
 security:
 - kind: authentication
   name: Baconhollow Com Authentication

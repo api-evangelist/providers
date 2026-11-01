@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: WABCO's fleet management and telematics capabilities, now delivered through ZF's Commercial Vehicle Control Systems division. Provides remote diagnostics, vehicle connectivity, real-time fleet trackin
@@ -42,17 +44,17 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wabco-holdings/refs/heads/main/plans/wabco-holdings-plans-pricing.yml
+  href: https://artifacts.apis.io/wabco-holdings/plans/wabco-holdings-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wabco-holdings-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wabco-holdings/refs/heads/main/rate-limits/wabco-holdings-rate-limits.yml
+  href: https://artifacts.apis.io/wabco-holdings/rate-limits/wabco-holdings-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wabco-holdings-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wabco-holdings/refs/heads/main/finops/wabco-holdings-finops.yml
+  href: https://artifacts.apis.io/wabco-holdings/finops/wabco-holdings-finops.yml
   title: ''
   type: FinOps
   url: finops/wabco-holdings-finops.yml
@@ -61,7 +63,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/zf-friedrichshafen/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wabco-holdings/refs/heads/main/security/wabco-holdings-domain-security.yml
+  href: https://artifacts.apis.io/wabco-holdings/security/wabco-holdings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wabco-holdings-domain-security.yml
@@ -91,7 +93,7 @@ finops:
 - has_sources: false
   method: generated
   name: Wabco Holdings Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: wabco-holdings-finops
   template: true
@@ -133,14 +135,14 @@ press:
 - date: ''
   title: WABCO Holdings Inc. Business Report FY ended Dec. 2017
   url: https://www.marklines.com/en/top500/cf/s500_370_hl2017
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Wabco Holdings Rate Limits
   slug: wabco-holdings-rate-limits
 score:
   band: emerging
-  composite: 15.6
+  composite: 16.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 51.0
@@ -148,29 +150,29 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 20.2
+    developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 17.1
+    operational_transparency: 13.2
+  previous_composite: 16.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wabco-holdings/refs/heads/main/screenshots/wabco-holdings-2026-06-20T201202.png
+screenshot: https://apis.io/screenshots/wabco-holdings/wabco-holdings-2026-06-20T201202.png
 security:
 - kind: domain-security
   name: Wabco Holdings Domain Security

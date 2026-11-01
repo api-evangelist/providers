@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.5
-  scored_at: '2026-10-17'
+  score: 28.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.vers.sh
@@ -97,11 +99,8 @@ apis:
   description: The vms API from Vers — 2 operation(s) for vms.
   name: Vers Vms API
   slug: vers-vms-api
-artifact_total: 28
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Orchestrator Control Plane commit_tags API
   slug: open-vers-commit-tags-api
@@ -139,13 +138,18 @@ collections:
   name: Orchestrator Control Plane commit_tags vms API
   slug: open-vers-vms-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/vers/plans/vers-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vers-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/capabilities/vers-capability-edges.yml
+  href: https://artifacts.apis.io/vers/capabilities/vers-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vers-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/overlays/vers-orchestrator-overlay.yaml
+  href: https://artifacts.apis.io/vers/overlays/vers-orchestrator-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vers-orchestrator-overlay.yaml
@@ -194,77 +198,85 @@ common:
   type: PrivacyPolicy
   url: https://vers.sh/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/authentication/vers-authentication.yml
+  href: https://artifacts.apis.io/vers/authentication/vers-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vers-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/security/vers-domain-security.yml
+  href: https://artifacts.apis.io/vers/security/vers-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vers-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/packages/vers-packages.yml
+  href: https://artifacts.apis.io/vers/packages/vers-packages.yml
   title: ''
   type: Packages
   url: packages/vers-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/packages/vers-packages.yml
+  href: https://artifacts.apis.io/vers/packages/vers-packages.yml
   title: ''
   type: SDKs
   url: packages/vers-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/cli/vers-cli.yml
+  href: https://artifacts.apis.io/vers/cli/vers-cli.yml
   title: ''
   type: CLI
   url: cli/vers-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/mcp/vers-mcp.yml
+  href: https://artifacts.apis.io/vers/mcp/vers-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vers-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/llms/vers-llms.txt
+  href: https://artifacts.apis.io/vers/llms/vers-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vers-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/conventions/vers-conventions.yml
+  href: https://artifacts.apis.io/vers/conventions/vers-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vers-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/conventions/vers-conventions.yml
+  href: https://artifacts.apis.io/vers/conventions/vers-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/vers-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/errors/vers-problem-types.yml
+  href: https://artifacts.apis.io/vers/errors/vers-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vers-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/lifecycle/vers-lifecycle.yml
+  href: https://artifacts.apis.io/vers/lifecycle/vers-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vers-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/conformance/vers-conformance.yml
+  href: https://artifacts.apis.io/vers/conformance/vers-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vers-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/data-model/vers-data-model.yml
+  href: https://artifacts.apis.io/vers/data-model/vers-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vers-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vers/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Vers is "git for running compute" — a branchable microVM platform from HD Research (hdresearch) that lets you fork a live virtual machine (memory, processes, sockets and all) in roughly 258 microseconds, commit its state as an immutable content-addressable snapshot, and restore or branch that snapshot anywhere. Built for AI agent swarms, parallel scenario and database-state testing, CI preview environments, and time-travel debugging, Vers exposes a 63-operation Orchestrator Control Plane API (OpenAPI 3.1) behind a bearer API key, plus a git-style CLI, official SDKs for nine languages, and two Model Context Protocol servers so coding agents can drive compute directly.
+finops:
+- has_sources: true
+  method: derived
+  name: Vers Finops
+  primary_unit: vcpu-hour
+  service_category: ''
+  slug: vers-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vers.png
 layout: provider
 mcp_servers:
@@ -278,27 +290,31 @@ network: true
 overview: 'Vers publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Commit Tags API, Commits API, Deploy API, and 9 more. Tagged areas include Company, Compute, Virtualization, MicroVM, and Orchestration.
 
 
-  Vers'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 8
+  Vers'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
+plans:
+- name: Vers Plans Pricing
+  plan_count: 2
+  slug: vers-plans-pricing
+random_paper: 16
 score:
   band: developing
-  composite: 39.6
+  composite: 46.6
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 28
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 34.2
+    access_clarity: 63.2
     contract_governance: 4.5
-    contract_quality: 41.8
-    developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 39.5
+    contract_quality: 40.8
+    developer_ergonomics: 73.2
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 40.8
   provenance:
     conformance: derived
     contracts:
@@ -314,13 +330,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/screenshots/vers-2026-08-17T082735.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vers/vers-2026-08-17T082735.png
 security:
 - kind: authentication
   name: Vers Authentication
@@ -330,6 +347,14 @@ security:
   name: Vers Domain Security
   slug: vers-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 3
+skills:
+- name: Branch a VM into parallel agent workers
+  slug: vers-branch-and-parallel-agents
+- name: Deploy a GitHub repo to a fresh VM
+  slug: vers-deploy-github-repo
+- name: Snapshot and restore VM state
+  slug: vers-snapshot-and-restore
 slug: vers
 tags:
 - Company

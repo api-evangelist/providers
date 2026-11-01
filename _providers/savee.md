@@ -1,6 +1,7 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -9,22 +10,24 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 57.8
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 50.9
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.savee.com/v1
   baseurl_source: declared
@@ -51,34 +54,34 @@ apis:
   description: The User API from Savee — 1 operation(s) for user.
   name: Savee User API
   slug: savee-user-api
-artifact_total: 12
+artifact_total: 14
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://inspire.savee.com/rss/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/security/savee-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/savee/security/savee-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/savee-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/security/savee-domain-security.yml
+  href: https://artifacts.apis.io/savee/security/savee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/savee-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/authentication/savee-authentication.yml
+  href: https://artifacts.apis.io/savee/authentication/savee-authentication.yml
   title: ''
   type: Authentication
   url: authentication/savee-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/scopes/savee-scopes.yml
+  href: https://artifacts.apis.io/savee/scopes/savee-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/savee-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/llms/savee-llms.txt
+  href: https://artifacts.apis.io/savee/llms/savee-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/savee-llms.txt
@@ -91,67 +94,67 @@ common:
   type: DeveloperPortal
   url: https://docs.savee.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/mcp/savee-mcp.yml
+  href: https://artifacts.apis.io/savee/mcp/savee-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/savee-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/mcp/savee-tool-crosswalk.yml
+  href: https://artifacts.apis.io/savee/mcp/savee-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/savee-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/well-known/savee-well-known.yml
+  href: https://artifacts.apis.io/savee/well-known/savee-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/savee-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/well-known/savee-security.txt
+  href: https://artifacts.apis.io/savee/well-known/savee-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/savee-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/security/savee-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/savee/security/savee-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/savee-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/conformance/savee-conformance.yml
+  href: https://artifacts.apis.io/savee/conformance/savee-conformance.yml
   title: ''
   type: Conformance
   url: conformance/savee-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/errors/savee-problem-types.yml
+  href: https://artifacts.apis.io/savee/errors/savee-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/savee-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/lifecycle/savee-lifecycle.yml
+  href: https://artifacts.apis.io/savee/lifecycle/savee-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/savee-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/conventions/savee-conventions.yml
+  href: https://artifacts.apis.io/savee/conventions/savee-conventions.yml
   title: ''
   type: Conventions
   url: conventions/savee-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/data-model/savee-data-model.yml
+  href: https://artifacts.apis.io/savee/data-model/savee-data-model.yml
   title: ''
   type: DataModel
   url: data-model/savee-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/savee/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/plans/savee-plans-pricing.yml
+  href: https://artifacts.apis.io/savee/plans/savee-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/savee-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/rate-limits/savee-rate-limits.yml
+  href: https://artifacts.apis.io/savee/rate-limits/savee-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/savee-rate-limits.yml
@@ -197,6 +200,14 @@ common:
   url: https://savee.com/join
 created: '2026-08-26'
 description: 'Savee is a curated visual-inspiration platform for designers. Its public surface is programmatic two ways: a read-only REST API — an OpenAPI 3.1 contract of 10 GET operations and 12 schemas served live from api.savee.com/v1/openapi.json, authenticated with a personal access token or OAuth 2.1 — and an official hosted MCP server at mcp.savee.com/mcp with twelve tools (eight read, four opt-in write) behind spec-conformant OAuth 2.1 with PKCE. Both require an active Savee subscription.'
+finops:
+- has_sources: true
+  method: derived
+  name: Savee Finops
+  primary_unit: ''
+  service_category: ''
+  slug: savee-finops
+  template: true
 image: https://m.savee-cdn.com/img/default-og-image.jpg
 layout: provider
 mcp_servers:
@@ -227,23 +238,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.0
+  composite: 58.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 64.0
+    artifact_dirs: 22
+    catalog_earned: 61.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 50.2
     developer_ergonomics: 64.3
-    discoverability: 80.0
-    operational_transparency: 44.7
-  previous_composite: 59.4
+    discoverability: 65.0
+    operational_transparency: 47.4
+  previous_composite: 59.3
   provenance:
     conformance: first-party
     contracts:
@@ -259,14 +270,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/screenshots/savee-2026-09-02T154444.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/savee/savee-2026-09-02T154444.png
 security:
 - kind: authentication
   name: Savee Authentication
@@ -280,6 +291,10 @@ security:
   name: Savee Vulnerability Disclosure
   slug: savee-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 1
+skills:
+- name: api
+  slug: savee-api-skill
 slug: savee
 tags:
 - Design

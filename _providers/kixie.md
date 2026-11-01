@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'The primary Kixie automation surface. A single POST endpoint on the apig.kixie.com gateway that dispatches on an `eventname` discriminator in the JSON body — `call` (place an outbound call through an '
@@ -48,7 +50,7 @@ apis:
 - description: 'A read-only lookup that returns the current presence of a Kixie agent by email address — whether the agent''s device is registered (logged in) and whether the agent is currently on a call — wrapped in '
   name: Kixie Agent Status API
   slug: kixie-agent-status-api
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Kixie Webhooks
@@ -127,83 +129,91 @@ common:
   type: StatusPage
   url: https://status.kixie.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/lifecycle/kixie-lifecycle.yml
+  href: https://artifacts.apis.io/kixie/lifecycle/kixie-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kixie-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/changelog/kixie-changelog.yml
+  href: https://artifacts.apis.io/kixie/changelog/kixie-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kixie-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/authentication/kixie-authentication.yml
+  href: https://artifacts.apis.io/kixie/authentication/kixie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kixie-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/conventions/kixie-conventions.yml
+  href: https://artifacts.apis.io/kixie/conventions/kixie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kixie-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/rate-limits/kixie-rate-limits.yml
+  href: https://artifacts.apis.io/kixie/rate-limits/kixie-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kixie-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/plans/kixie-plans-pricing.yml
+  href: https://artifacts.apis.io/kixie/plans/kixie-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kixie-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/asyncapi/kixie-webhooks.yml
+  href: https://artifacts.apis.io/kixie/asyncapi/kixie-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kixie-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/data-model/kixie-data-model.yml
+  href: https://artifacts.apis.io/kixie/data-model/kixie-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kixie-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/packages/kixie-packages.yml
+  href: https://artifacts.apis.io/kixie/packages/kixie-packages.yml
   title: ''
   type: Packages
   url: packages/kixie-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/conformance/kixie-conformance.yml
+  href: https://artifacts.apis.io/kixie/conformance/kixie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kixie-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/security/kixie-domain-security.yml
+  href: https://artifacts.apis.io/kixie/security/kixie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kixie-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/security/kixie-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kixie/security/kixie-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kixie-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/security/kixie-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kixie/security/kixie-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/kixie-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/security/kixie-trust-center.yml
+  href: https://artifacts.apis.io/kixie/security/kixie-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kixie-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/llms/kixie-llms.txt
+  href: https://artifacts.apis.io/kixie/llms/kixie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kixie-llms.txt
 created: '2026-08-12'
 description: 'Kixie is a Los Angeles based sales-engagement and revenue-communications platform built around PowerCall, a multi-line power dialer, business phone service and SMS/MMS product that plugs bi-directionally into HubSpot, Salesforce, Pipedrive, Zoho and GoHighLevel. Its public developer surface is a small, event-oriented HTTP API served from the apig.kixie.com gateway: a single POST /app/event endpoint that dispatches on an eventname discriminator to place calls, send SMS and Team SMS, add and remove contacts from PowerLists, push numbers into and out of calling queues and cadences; a webhook management API for creating, listing, updating and deleting the eight documented event webhooks; and an agent-status lookup. Authentication is a single account scoped API key plus a Business ID, and the platform publishes a documented daily usage cap of 10,000 API calls per account. Kixie publishes no OpenAPI, AsyncAPI or GraphQL contract and ships no first-party client SDKs; the reference
   is human-readable HTML on developer.kixie.com and in the Zendesk help center.'
+finops:
+- has_sources: true
+  method: derived
+  name: Kixie Finops
+  primary_unit: ''
+  service_category: ''
+  slug: kixie-finops
+  template: true
 image: https://www.kixie.com/wp-content/uploads/2026/02/Kixie-Logo-Light.png
 layout: provider
 modified: '2026-10-06'
@@ -228,9 +238,9 @@ rate_limits:
   slug: kixie-rate-limits
 score:
   band: strong
-  composite: 57.6
+  composite: 60.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
@@ -238,13 +248,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 73.7
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 59.5
+    developer_ergonomics: 61.9
     discoverability: 71.4
-    operational_transparency: 73.7
-  previous_composite: 57.6
+    operational_transparency: 76.3
+  previous_composite: 60.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -254,14 +264,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kixie/refs/heads/main/screenshots/kixie-2026-08-17T081010.png
+screenshot: https://apis.io/screenshots/kixie/kixie-2026-08-17T081010.png
 security:
 - kind: authentication
   name: Kixie Authentication

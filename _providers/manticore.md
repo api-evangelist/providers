@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 10
   slug: manticore-agentic-access
   summary_line: 10 operations · 9 acting
-api_count: 4
+api_count: 2
 apis:
 - baseURL: http://127.0.0.1:9308/
   baseurl_source: declared
@@ -58,11 +60,8 @@ apis:
   description: The utils API from Manticore Search — 1 operation(s) for utils.
   name: Manticore Search Utils API
   slug: manticore-utils-api
-artifact_total: 69
+artifact_total: 68
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Manticore Search Client Index API
   slug: open-manticore-index-api
@@ -74,12 +73,12 @@ collections:
   slug: open-manticore-utils-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/agentic-access/manticore-agentic-access.yml
+  href: https://artifacts.apis.io/manticore/agentic-access/manticore-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/manticore-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/security/manticore-domain-security.yml
+  href: https://artifacts.apis.io/manticore/security/manticore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/manticore-domain-security.yml
@@ -112,17 +111,17 @@ common:
   type: X
   url: https://twitter.com/manticoresearch
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/plans/manticore-plans-pricing.yml
+  href: https://artifacts.apis.io/manticore/plans/manticore-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/manticore-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/rate-limits/manticore-rate-limits.yml
+  href: https://artifacts.apis.io/manticore/rate-limits/manticore-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/manticore-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/finops/manticore-finops.yml
+  href: https://artifacts.apis.io/manticore/finops/manticore-finops.yml
   title: ''
   type: FinOps
   url: finops/manticore-finops.yml
@@ -325,7 +324,7 @@ plans:
 - name: Manticore Plans Pricing
   plan_count: 3
   slug: manticore-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Manticore Rate Limits
@@ -344,23 +343,23 @@ rules:
   slug: manticore-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.6
+  composite: 26.8
   coverage:
     artifact_dirs: 17
-    catalog_earned: 56.3
+    catalog_earned: 53.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.8
+    catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.8
+  delta: -0.5
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 48.8
-    developer_ergonomics: 2.4
-    discoverability: 71.4
+    developer_ergonomics: 11.9
+    discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 35.4
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     contracts:
@@ -374,13 +373,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/screenshots/manticore-2026-06-20T184929.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/manticore/manticore-2026-06-20T184929.png
 security:
 - kind: domain-security
   name: Manticore Domain Security

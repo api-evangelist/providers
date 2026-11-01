@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -90,37 +92,37 @@ common:
   type: Security
   url: https://www.philo.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/philo/refs/heads/main/well-known/philo-security.txt
+  href: https://artifacts.apis.io/philo/well-known/philo-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/philo-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/philo/refs/heads/main/well-known/philo-well-known.yml
+  href: https://artifacts.apis.io/philo/well-known/philo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/philo-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/philo/refs/heads/main/security/philo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/philo/security/philo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/philo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/philo/refs/heads/main/security/philo-domain-security.yml
+  href: https://artifacts.apis.io/philo/security/philo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/philo-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/philo/refs/heads/main/conformance/philo-conformance.yml
+  href: https://artifacts.apis.io/philo/conformance/philo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/philo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/philo/refs/heads/main/lifecycle/philo-lifecycle.yml
+  href: https://artifacts.apis.io/philo/lifecycle/philo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/philo-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/philo/refs/heads/main/llms/philo-llms.txt
+  href: https://artifacts.apis.io/philo/llms/philo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/philo-llms.txt
@@ -157,7 +159,7 @@ overview: 'Philo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 12
 score:
   band: emerging
-  composite: 20.8
+  composite: 22.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -172,8 +174,8 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 15.8
-  previous_composite: 20.8
+    operational_transparency: 31.6
+  previous_composite: 22.9
   provenance:
     conformance: first-party
   regulatory:
@@ -182,14 +184,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/philo/refs/heads/main/screenshots/philo-2026-09-02T151142.png
+screenshot: https://apis.io/screenshots/philo/philo-2026-09-02T151142.png
 security:
 - kind: domain-security
   name: Philo Domain Security

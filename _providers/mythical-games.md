@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,20 +27,22 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 4.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: gRPC/Protobuf API of the Mythical Platform (Saga SDK) for issuing, transferring, and burning game items and currencies, managing item/currency types and minting, creating marketplace listings and offe
   name: Mythical Saga Platform API
   slug: mythical-saga-platform-api
-artifact_total: 3
+artifact_total: 5
 common:
 - group: operate
   title: ''
@@ -63,67 +65,67 @@ common:
   type: SourceCode
   url: https://github.com/MythicalGames/saga-sdk-proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mythical-games/refs/heads/main/grpc/saga/
+  href: https://artifacts.apis.io/mythical-games/grpc/saga/
   title: ''
   type: Protobuf
   url: grpc/saga/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mythical-games/refs/heads/main/packages/mythical-games-packages.yml
+  href: https://artifacts.apis.io/mythical-games/packages/mythical-games-packages.yml
   title: ''
   type: Packages
   url: packages/mythical-games-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mythical-games/refs/heads/main/packages/mythical-games-packages.yml
+  href: https://artifacts.apis.io/mythical-games/packages/mythical-games-packages.yml
   title: ''
   type: SDKs
   url: packages/mythical-games-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mythical-games/refs/heads/main/mcp/mythical-games-mcp.yml
+  href: https://artifacts.apis.io/mythical-games/mcp/mythical-games-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mythical-games-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mythical-games/refs/heads/main/authentication/mythical-games-authentication.yml
+  href: https://artifacts.apis.io/mythical-games/authentication/mythical-games-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mythical-games-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mythical-games/refs/heads/main/errors/mythical-games-error-codes.yml
+  href: https://artifacts.apis.io/mythical-games/errors/mythical-games-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/mythical-games-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mythical-games/refs/heads/main/conventions/mythical-games-conventions.yml
+  href: https://artifacts.apis.io/mythical-games/conventions/mythical-games-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mythical-games-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mythical-games/refs/heads/main/data-model/mythical-games-data-model.yml
+  href: https://artifacts.apis.io/mythical-games/data-model/mythical-games-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mythical-games-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mythical-games/refs/heads/main/conformance/mythical-games-conformance.yml
+  href: https://artifacts.apis.io/mythical-games/conformance/mythical-games-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mythical-games-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mythical-games/refs/heads/main/security/mythical-games-domain-security.yml
+  href: https://artifacts.apis.io/mythical-games/security/mythical-games-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mythical-games-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mythical-games/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mythical-games/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mythical-games/refs/heads/main/llms/mythical-games-llms.txt
+  href: https://artifacts.apis.io/mythical-games/llms/mythical-games-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mythical-games-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mythical-games/refs/heads/main/lifecycle/mythical-games-lifecycle.yml
+  href: https://artifacts.apis.io/mythical-games/lifecycle/mythical-games-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mythical-games-lifecycle.yml
@@ -159,26 +161,26 @@ overview: 'Mythical Games is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Mythical Games'' developer surface includes authentication, engineering blog, and 21 more developer resources.'
-random_paper: 21
+random_paper: 13
 score:
-  band: thin
-  composite: 26.7
+  band: emerging
+  composite: 20.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 32.7
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 26.6
+  previous_composite: 20.0
   provenance:
     conformance: derived
     mcp: derived
@@ -189,14 +191,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mythical-games/refs/heads/main/screenshots/mythical-games-2026-08-07T184545.png
+screenshot: https://apis.io/screenshots/mythical-games/mythical-games-2026-08-07T184545.png
 security:
 - kind: authentication
   name: Mythical Games Authentication
@@ -206,6 +208,12 @@ security:
   name: Mythical Games Domain Security
   slug: mythical-games-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Issue and transfer a game item (Saga)
+  slug: mythical-games-issue-and-transfer-item
+- name: List an item and complete a sale (Saga marketplace)
+  slug: mythical-games-list-and-sell
 slug: mythical-games
 tags:
 - Company

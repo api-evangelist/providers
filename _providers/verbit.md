@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,20 +37,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Programmatic access to Verbit''s transcription and captioning platform: live booking / real-time captioning, post-production transcription jobs, caption control, search, and AI insights.'
   name: Verbit Platform API
   slug: verbit-platform-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Verbit Webhooks
   slug: verbit-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/plans/verbit-plans-pricing.yml
+  href: https://artifacts.apis.io/verbit/plans/verbit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/verbit-plans-pricing.yml
@@ -57,17 +59,17 @@ common:
   type: BlogRSS
   url: https://verbit.ai/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/mcp/verbit-mcp.yml
+  href: https://artifacts.apis.io/verbit/mcp/verbit-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/verbit-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/security/verbit-trust-center.yml
+  href: https://artifacts.apis.io/verbit/security/verbit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/verbit-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/security/verbit-domain-security.yml
+  href: https://artifacts.apis.io/verbit/security/verbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/verbit-domain-security.yml
@@ -96,7 +98,7 @@ common:
   type: GettingStarted
   url: https://verbit.readme.io/docs/getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/authentication/verbit-authentication.yml
+  href: https://artifacts.apis.io/verbit/authentication/verbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/verbit-authentication.yml
@@ -133,77 +135,85 @@ common:
   type: StatusPage
   url: https://verbit.statuspal.io/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/changelog/verbit-changelog.yml
+  href: https://artifacts.apis.io/verbit/changelog/verbit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/verbit-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/lifecycle/verbit-lifecycle.yml
+  href: https://artifacts.apis.io/verbit/lifecycle/verbit-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/verbit-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/lifecycle/verbit-lifecycle.yml
+  href: https://artifacts.apis.io/verbit/lifecycle/verbit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/verbit-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/llms/verbit-llms.txt
+  href: https://artifacts.apis.io/verbit/llms/verbit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/verbit-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/packages/verbit-packages.yml
+  href: https://artifacts.apis.io/verbit/packages/verbit-packages.yml
   title: ''
   type: Packages
   url: packages/verbit-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/packages/verbit-packages.yml
+  href: https://artifacts.apis.io/verbit/packages/verbit-packages.yml
   title: ''
   type: SDKs
   url: packages/verbit-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/errors/verbit-error-codes.yml
+  href: https://artifacts.apis.io/verbit/errors/verbit-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/verbit-error-codes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/sandbox/verbit-sandbox.yml
+  href: https://artifacts.apis.io/verbit/sandbox/verbit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/verbit-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/components/verbit-components.yml
+  href: https://artifacts.apis.io/verbit/components/verbit-components.yml
   title: ''
   type: Components
   url: components/verbit-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/data-model/verbit-data-model.yml
+  href: https://artifacts.apis.io/verbit/data-model/verbit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/verbit-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/asyncapi/verbit-webhooks.yml
+  href: https://artifacts.apis.io/verbit/asyncapi/verbit-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/verbit-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/conformance/verbit-conformance.yml
+  href: https://artifacts.apis.io/verbit/conformance/verbit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/verbit-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/conventions/verbit-conventions.yml
+  href: https://artifacts.apis.io/verbit/conventions/verbit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/verbit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/conventions/verbit-conventions.yml
+  href: https://artifacts.apis.io/verbit/conventions/verbit-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/verbit-conventions.yml
 created: '2026-07-17'
 description: Verbit is an AI-based transcription and captioning company whose platform pairs a state-of-the-art automatic speech recognition (ASR) engine with professional human review to deliver accurate transcripts and captions for legal, courtroom, media & entertainment, higher education, corporate, and government use cases. Verbit exposes a developer platform (Verbit Platform API v3) covering live booking and real-time captioning over WebSocket, post-production transcription jobs, a Caption Control API for managing live sessions, a Search API for indexing caption/transcript assets, and an Insights (Gen V) API that generates AI summaries, keywords, quizzes, and chapters. Authentication uses a short-lived JWT bearer token minted from a customer API key. Backed by HV Capital and Sapphire Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Verbit Finops
+  primary_unit: ''
+  service_category: ''
+  slug: verbit-finops
+  template: true
 image: https://verbit.ai/wp-content/themes/verbit/images/logo-final2.svg
 layout: provider
 modified: '2026-10-06'
@@ -221,26 +231,26 @@ plans:
 - name: Verbit Plans Pricing
   plan_count: 10
   slug: verbit-plans-pricing
-random_paper: 14
+random_paper: 4
 score:
-  band: developing
-  composite: 53.8
+  band: strong
+  composite: 59.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 0.0
   facets:
-    access_clarity: 78.9
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 52.4
-    discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 47.5
+    developer_ergonomics: 71.4
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 59.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -250,14 +260,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/verbit/refs/heads/main/screenshots/verbit-2026-08-17T082729.png
+screenshot: https://apis.io/screenshots/verbit/verbit-2026-08-17T082729.png
 security:
 - kind: authentication
   name: Verbit Authentication

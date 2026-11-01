@@ -14,31 +14,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/big-shot-pictures/refs/heads/main/security/big-shot-pictures-domain-security.yml
+  href: https://artifacts.apis.io/big-shot-pictures/security/big-shot-pictures-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/big-shot-pictures-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/big-shot-pictures/refs/heads/main/hosts/big-shot-pictures-hosts.yml
+  href: https://artifacts.apis.io/big-shot-pictures/hosts/big-shot-pictures-hosts.yml
   title: ''
   type: Hosts
   url: hosts/big-shot-pictures-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/big-shot-pictures/refs/heads/main/vendors/big-shot-pictures-vendors.yml
+  href: https://artifacts.apis.io/big-shot-pictures/vendors/big-shot-pictures-vendors.yml
   title: ''
   type: Vendors
   url: vendors/big-shot-pictures-vendors.yml
@@ -67,7 +69,7 @@ name: Big Shot Pictures
 nav: Providers
 network: true
 overview: Big Shot Pictures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Entertainment, Film, Media, and Studio.
-random_paper: 5
+random_paper: 17
 score:
   band: minimal
   composite: 4.1
@@ -95,14 +97,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/big-shot-pictures/refs/heads/main/screenshots/big-shot-pictures-2026-10-11T102123.png
+screenshot: https://apis.io/screenshots/big-shot-pictures/big-shot-pictures-2026-10-11T102123.png
 security:
 - kind: domain-security
   name: Big Shot Pictures Domain Security

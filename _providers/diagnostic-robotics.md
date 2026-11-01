@@ -31,15 +31,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.2
-  scored_at: '2026-10-17'
-api_count: 6
+  score: 32.5
+  scored_at: '2026-10-31'
+api_count: 3
 apis:
 - baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
   baseurl_source: declared
@@ -101,7 +103,7 @@ apis:
   description: The Widgets API API from Diagnostic Robotics — 4 operation(s) for widgets api.
   name: Diagnostic Robotics Widgets API
   slug: diagnostic-robotics-widgets-api-api
-artifact_total: 21
+artifact_total: 28
 collections:
 - collection_type: open
   name: Diagnostic Robotics API
@@ -114,22 +116,22 @@ collections:
   slug: open-diagnostic-robotics-symptom-search
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/capabilities/diagnostic-robotics-capability-edges.yml
+  href: https://artifacts.apis.io/diagnostic-robotics/capabilities/diagnostic-robotics-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/diagnostic-robotics-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/overlays/diagnostic-robotics-precision-population-health-overlay.yaml
+  href: https://artifacts.apis.io/diagnostic-robotics/overlays/diagnostic-robotics-precision-population-health-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/diagnostic-robotics-precision-population-health-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/overlays/diagnostic-robotics-patient-questionnaire-overlay.yaml
+  href: https://artifacts.apis.io/diagnostic-robotics/overlays/diagnostic-robotics-patient-questionnaire-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/diagnostic-robotics-patient-questionnaire-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/overlays/diagnostic-robotics-symptom-search-overlay.yaml
+  href: https://artifacts.apis.io/diagnostic-robotics/overlays/diagnostic-robotics-symptom-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/diagnostic-robotics-symptom-search-overlay.yaml
@@ -178,7 +180,7 @@ common:
   type: StatusPage
   url: https://diagnosticrobotics.statuspage.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/security/diagnostic-robotics-trust-center.yml
+  href: https://artifacts.apis.io/diagnostic-robotics/security/diagnostic-robotics-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/diagnostic-robotics-trust-center.yml
@@ -195,77 +197,85 @@ common:
   type: Twitter
   url: https://x.com/DiagnosticRobo
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/authentication/diagnostic-robotics-authentication.yml
+  href: https://artifacts.apis.io/diagnostic-robotics/authentication/diagnostic-robotics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/diagnostic-robotics-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/scopes/diagnostic-robotics-scopes.yml
+  href: https://artifacts.apis.io/diagnostic-robotics/scopes/diagnostic-robotics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/diagnostic-robotics-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/conventions/diagnostic-robotics-conventions.yml
+  href: https://artifacts.apis.io/diagnostic-robotics/conventions/diagnostic-robotics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/diagnostic-robotics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/errors/diagnostic-robotics-problem-types.yml
+  href: https://artifacts.apis.io/diagnostic-robotics/errors/diagnostic-robotics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/diagnostic-robotics-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/lifecycle/diagnostic-robotics-lifecycle.yml
+  href: https://artifacts.apis.io/diagnostic-robotics/lifecycle/diagnostic-robotics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/diagnostic-robotics-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/conformance/diagnostic-robotics-conformance.yml
+  href: https://artifacts.apis.io/diagnostic-robotics/conformance/diagnostic-robotics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/diagnostic-robotics-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/data-model/diagnostic-robotics-data-model.yml
+  href: https://artifacts.apis.io/diagnostic-robotics/data-model/diagnostic-robotics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/diagnostic-robotics-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/components/diagnostic-robotics-components.yml
+  href: https://artifacts.apis.io/diagnostic-robotics/components/diagnostic-robotics-components.yml
   title: ''
   type: Components
   url: components/diagnostic-robotics-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/sandbox/diagnostic-robotics-sandbox.yml
+  href: https://artifacts.apis.io/diagnostic-robotics/sandbox/diagnostic-robotics-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/diagnostic-robotics-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/security/diagnostic-robotics-domain-security.yml
+  href: https://artifacts.apis.io/diagnostic-robotics/security/diagnostic-robotics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/diagnostic-robotics-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/plans/diagnostic-robotics-plans-pricing.yml
+  href: https://artifacts.apis.io/diagnostic-robotics/plans/diagnostic-robotics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/diagnostic-robotics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/rate-limits/diagnostic-robotics-rate-limits.yml
+  href: https://artifacts.apis.io/diagnostic-robotics/rate-limits/diagnostic-robotics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/diagnostic-robotics-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/llms/diagnostic-robotics-llms.txt
+  href: https://artifacts.apis.io/diagnostic-robotics/llms/diagnostic-robotics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/diagnostic-robotics-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/diagnostic-robotics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-12'
 description: 'Diagnostic Robotics is a Tel Aviv and Boston based clinical AI company whose platform turns medical claims, EHR and FHIR data into predictive risk stratification, actionable next steps and automated care operations for health plans, providers and care organizations. The company publishes two public developer projects on a Stoplight-hosted documentation portal: a Patient Questionnaire / triage API that walks a patient through symptom search, adaptive questioning and a triage outcome, and a Proactive Patient Risk Feed (Precision Population Health) API that ingests FHIR R4 US Core, CCLF and custom claims datasets and returns ranked risk lists, per-patient risk profiles, HCC/RAF risk-adjustment gaps and embeddable widgets. Access is OAuth 2.0 client-credentials or API key and is provisioned per customer on a dedicated per-client subdomain.'
+finops:
+- has_sources: true
+  method: derived
+  name: Diagnostic Robotics Finops
+  primary_unit: ''
+  service_category: ''
+  slug: diagnostic-robotics-finops
+  template: true
 image: https://storage.googleapis.com/gpt-engineer-file-uploads/fKseK09ayVTXZOhSuXAlVH1splM2/social-images/social-1781800345789-Screenshot_2026-06-18_at_19.32.17.webp
 layout: provider
 modified: '2026-08-12'
@@ -280,7 +290,7 @@ plans:
 - name: Diagnostic Robotics Plans Pricing
   plan_count: 0
   slug: diagnostic-robotics-plans-pricing
-random_paper: 17
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Diagnostic Robotics Rate Limits
@@ -292,9 +302,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.0
+  composite: 48.1
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -307,8 +317,8 @@ score:
     contract_quality: 43.2
     developer_ergonomics: 66.1
     discoverability: 71.4
-    operational_transparency: 18.4
-  previous_composite: 47.0
+    operational_transparency: 21.1
+  previous_composite: 48.1
   provenance:
     conformance: first-party
     contracts:
@@ -328,13 +338,14 @@ score:
     regime: Health
     regime_id: health
     score: 43.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/screenshots/diagnostic-robotics-2026-08-17T080902.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/diagnostic-robotics/diagnostic-robotics-2026-08-17T080902.png
 security:
 - kind: authentication
   name: Diagnostic Robotics Authentication
@@ -348,6 +359,20 @@ security:
   name: Diagnostic Robotics Trust Center
   slug: diagnostic-robotics-trust-center
   summary_line: HIPAA, ISO 27001, ISO 27799, SOC 2 Type II
+skill_count: 6
+skills:
+- name: Authenticate against the Diagnostic Robotics Precision Population Health API
+  slug: diagnostic-robotics-authenticate
+- name: Close HCC / RAF risk-adjustment gaps with Diagnostic Robotics
+  slug: diagnostic-robotics-close-risk-adjustment-gaps
+- name: Embed a Diagnostic Robotics population-health widget
+  slug: diagnostic-robotics-embed-a-widget
+- name: Run a Diagnostic Robotics patient triage questionnaire
+  slug: diagnostic-robotics-run-a-triage-questionnaire
+- name: Upload a claims or EHR dataset to Diagnostic Robotics
+  slug: diagnostic-robotics-upload-claims-dataset
+- name: Work a Diagnostic Robotics actionable risk list
+  slug: diagnostic-robotics-work-the-risk-list
 slug: diagnostic-robotics
 tags:
 - Health

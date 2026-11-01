@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -48,7 +50,7 @@ common:
   type: BlogRSS
   url: https://www.coadjute.com/resources/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lifetise/refs/heads/main/security/lifetise-domain-security.yml
+  href: https://artifacts.apis.io/lifetise/security/lifetise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lifetise-domain-security.yml
@@ -57,7 +59,7 @@ common:
   type: Website
   url: https://www.coadjute.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lifetise/refs/heads/main/authentication/lifetise-authentication.yml
+  href: https://artifacts.apis.io/lifetise/authentication/lifetise-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lifetise-authentication.yml
@@ -66,17 +68,17 @@ common:
   type: OpenIDConnectDiscovery
   url: https://auth.coadjute.com/.well-known/openid-configuration
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lifetise/refs/heads/main/scopes/lifetise-scopes.yml
+  href: https://artifacts.apis.io/lifetise/scopes/lifetise-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lifetise-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lifetise/refs/heads/main/well-known/lifetise-well-known.yml
+  href: https://artifacts.apis.io/lifetise/well-known/lifetise-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lifetise-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lifetise/refs/heads/main/conformance/lifetise-conformance.yml
+  href: https://artifacts.apis.io/lifetise/conformance/lifetise-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lifetise-conformance.yml
@@ -85,12 +87,12 @@ common:
   type: Compliance
   url: https://www.coadjute.com/our-technology
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lifetise/refs/heads/main/lifecycle/lifetise-lifecycle.yml
+  href: https://artifacts.apis.io/lifetise/lifecycle/lifetise-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lifetise-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lifetise/refs/heads/main/llms/lifetise-llms.txt
+  href: https://artifacts.apis.io/lifetise/llms/lifetise-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lifetise-llms.txt
@@ -155,7 +157,7 @@ overview: 'Coadjute is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Coadjute''s developer surface includes engineering blog, authentication, support, pricing, and 20 more developer resources.'
-random_paper: 17
+random_paper: 13
 scopes:
 - name: Lifetise Scopes
   scope_count: 14
@@ -163,7 +165,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode/implicit
 score:
   band: thin
-  composite: 26.8
+  composite: 27.7
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -171,14 +173,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 55.4
-    operational_transparency: 18.4
+    discoverability: 48.2
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -187,7 +189,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 26.7
+  previous_composite: 27.7
   provenance:
     conformance: first-party
   regulatory:
@@ -196,14 +198,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lifetise/refs/heads/main/screenshots/lifetise-2026-08-07T171648.png
+screenshot: https://apis.io/screenshots/lifetise/lifetise-2026-08-07T171648.png
 security:
 - kind: authentication
   name: Lifetise Authentication

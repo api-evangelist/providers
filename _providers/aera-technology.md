@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'An authenticated Model Context Protocol (MCP) endpoint served from Aera Technology''s own corporate WordPress host. Anonymous discovery works: the site publishes RFC 9728 protected-resource metadata an'
@@ -72,7 +74,7 @@ common:
   type: PrivacyPolicy
   url: https://www.aeratechnology.com/aera-security-privacy-documentation/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aera-technology/refs/heads/main/security/aera-technology-trust-center.yml
+  href: https://artifacts.apis.io/aera-technology/security/aera-technology-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/aera-technology-trust-center.yml
@@ -89,52 +91,52 @@ common:
   type: Partners
   url: https://www.aeratechnology.com/partners/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aera-technology/refs/heads/main/well-known/aera-technology-well-known.yml
+  href: https://artifacts.apis.io/aera-technology/well-known/aera-technology-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aera-technology-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aera-technology/refs/heads/main/llms/aera-technology-llms.txt
+  href: https://artifacts.apis.io/aera-technology/llms/aera-technology-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aera-technology-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aera-technology/refs/heads/main/lifecycle/aera-technology-lifecycle.yml
+  href: https://artifacts.apis.io/aera-technology/lifecycle/aera-technology-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aera-technology-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aera-technology/refs/heads/main/conformance/aera-technology-conformance.yml
+  href: https://artifacts.apis.io/aera-technology/conformance/aera-technology-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aera-technology-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aera-technology/refs/heads/main/security/aera-technology-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aera-technology/security/aera-technology-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aera-technology-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aera-technology/refs/heads/main/security/aera-technology-domain-security.yml
+  href: https://artifacts.apis.io/aera-technology/security/aera-technology-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aera-technology-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aera-technology/refs/heads/main/mcp/aera-technology-mcp.yml
+  href: https://artifacts.apis.io/aera-technology/mcp/aera-technology-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/aera-technology-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aera-technology/refs/heads/main/authentication/aera-technology-authentication.yml
+  href: https://artifacts.apis.io/aera-technology/authentication/aera-technology-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aera-technology-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aera-technology/refs/heads/main/scopes/aera-technology-scopes.yml
+  href: https://artifacts.apis.io/aera-technology/scopes/aera-technology-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aera-technology-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aera-technology/refs/heads/main/errors/aera-technology-problem-types.yml
+  href: https://artifacts.apis.io/aera-technology/errors/aera-technology-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aera-technology-problem-types.yml
@@ -168,7 +170,7 @@ overview: 'Aera Technology is listed with 1 API on the [APIs.io](https://apis.io
 
 
   Aera Technology''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 20
+random_paper: 2
 scopes:
 - name: Aera Technology Scopes
   scope_count: 1
@@ -176,7 +178,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 28.3
+  composite: 27.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -184,15 +186,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 26.3
-  previous_composite: 28.2
+  previous_composite: 27.3
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -208,14 +210,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aera-technology/refs/heads/main/screenshots/aera-technology-2026-10-11T092922.png
+screenshot: https://apis.io/screenshots/aera-technology/aera-technology-2026-10-11T092922.png
 security:
 - kind: authentication
   name: Aera Technology Authentication

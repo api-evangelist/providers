@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: PitchMe advertises a "Custom Integration via API" for connecting any ATS or recruitment platform not covered by its native marketplace connectors. As of 2026-08-14 the company publishes no developer p
@@ -41,7 +43,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pitchme/refs/heads/main/security/pitchme-domain-security.yml
+  href: https://artifacts.apis.io/pitchme/security/pitchme-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pitchme-domain-security.yml
@@ -66,12 +68,12 @@ common:
   type: BlogRSS
   url: https://blog.pitchme.co/feed
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pitchme/refs/heads/main/llms/pitchme-llms.txt
+  href: https://artifacts.apis.io/pitchme/llms/pitchme-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pitchme-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pitchme/refs/heads/main/conformance/pitchme-conformance.yml
+  href: https://artifacts.apis.io/pitchme/conformance/pitchme-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pitchme-conformance.yml
@@ -80,12 +82,12 @@ common:
   type: Compliance
   url: https://pitchme.co/integrations
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pitchme/refs/heads/main/plans/pitchme-plans-pricing.yml
+  href: https://artifacts.apis.io/pitchme/plans/pitchme-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pitchme-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pitchme/refs/heads/main/rate-limits/pitchme-rate-limits.yml
+  href: https://artifacts.apis.io/pitchme/rate-limits/pitchme-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pitchme-rate-limits.yml
@@ -119,7 +121,7 @@ plans:
 - name: Pitchme Plans Pricing
   plan_count: 0
   slug: pitchme-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Pitchme Rate Limits
@@ -158,14 +160,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pitchme/refs/heads/main/screenshots/pitchme-2026-09-02T151324.png
+screenshot: https://apis.io/screenshots/pitchme/pitchme-2026-09-02T151324.png
 security:
 - kind: domain-security
   name: Pitchme Domain Security

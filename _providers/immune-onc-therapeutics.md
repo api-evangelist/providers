@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,22 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/immune-onc-therapeutics/refs/heads/main/security/immune-onc-therapeutics-domain-security.yml
+  href: https://artifacts.apis.io/immune-onc-therapeutics/security/immune-onc-therapeutics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/immune-onc-therapeutics-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/immune-onc-therapeutics/refs/heads/main/well-known/immune-onc-therapeutics-well-known.yml
+  href: https://artifacts.apis.io/immune-onc-therapeutics/well-known/immune-onc-therapeutics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/immune-onc-therapeutics-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/immune-onc-therapeutics/refs/heads/main/llms/immune-onc-therapeutics-llms.txt
+  href: https://artifacts.apis.io/immune-onc-therapeutics/llms/immune-onc-therapeutics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/immune-onc-therapeutics-llms.txt
@@ -124,12 +126,12 @@ overview: 'Immune-Onc Therapeutics is profiled on the [APIs.io](https://apis.io/
 
 
   Immune-Onc Therapeutics'' developer surface includes product news, engineering blog, and 16 more developer resources.'
-random_paper: 4
+random_paper: 6
 score:
   band: minimal
-  composite: 5.0
+  composite: 4.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -141,7 +143,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 56.3
+    discoverability: 50.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -150,21 +152,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 5.0
+  previous_composite: 4.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/immune-onc-therapeutics/refs/heads/main/screenshots/immune-onc-therapeutics-2026-08-07T170626.png
+screenshot: https://apis.io/screenshots/immune-onc-therapeutics/immune-onc-therapeutics-2026-08-07T170626.png
 security:
 - kind: domain-security
   name: Immune Onc Therapeutics Domain Security

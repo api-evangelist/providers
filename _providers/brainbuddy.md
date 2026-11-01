@@ -14,26 +14,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brainbuddy/refs/heads/main/hosts/brainbuddy-hosts.yml
+  href: https://artifacts.apis.io/brainbuddy/hosts/brainbuddy-hosts.yml
   title: ''
   type: Hosts
   url: hosts/brainbuddy-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brainbuddy/refs/heads/main/vendors/brainbuddy-vendors.yml
+  href: https://artifacts.apis.io/brainbuddy/vendors/brainbuddy-vendors.yml
   title: ''
   type: Vendors
   url: vendors/brainbuddy-vendors.yml
@@ -42,7 +44,7 @@ common:
   type: PrivacyPolicy
   url: https://www.brainbuddyapp.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brainbuddy/refs/heads/main/security/brainbuddy-domain-security.yml
+  href: https://artifacts.apis.io/brainbuddy/security/brainbuddy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brainbuddy-domain-security.yml
@@ -94,8 +96,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

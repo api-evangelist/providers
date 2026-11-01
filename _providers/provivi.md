@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The KeystoneJS 5 headless-CMS GraphQL backend that serves the provivi.com marketing site. It exposes 199 types, 83 query fields and 122 mutation fields covering the site's content model — Article, Pre
@@ -44,7 +46,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/provivi/refs/heads/main/security/provivi-domain-security.yml
+  href: https://artifacts.apis.io/provivi/security/provivi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/provivi-domain-security.yml
@@ -93,57 +95,57 @@ common:
   type: YouTube
   url: https://www.youtube.com/channel/UCyb-kB-BI_xMpXO3bzmjrBA
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/provivi/refs/heads/main/graphql/provivi-content-schema.graphql
+  href: https://artifacts.apis.io/provivi/graphql/provivi-content-schema.graphql
   title: ''
   type: GraphQL
   url: graphql/provivi-content-schema.graphql
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/provivi/refs/heads/main/authentication/provivi-authentication.yml
+  href: https://artifacts.apis.io/provivi/authentication/provivi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/provivi-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/provivi/refs/heads/main/conventions/provivi-conventions.yml
+  href: https://artifacts.apis.io/provivi/conventions/provivi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/provivi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/provivi/refs/heads/main/data-model/provivi-data-model.yml
+  href: https://artifacts.apis.io/provivi/data-model/provivi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/provivi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/provivi/refs/heads/main/errors/provivi-problem-types.yml
+  href: https://artifacts.apis.io/provivi/errors/provivi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/provivi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/provivi/refs/heads/main/conformance/provivi-conformance.yml
+  href: https://artifacts.apis.io/provivi/conformance/provivi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/provivi-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/provivi/refs/heads/main/lifecycle/provivi-lifecycle.yml
+  href: https://artifacts.apis.io/provivi/lifecycle/provivi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/provivi-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/provivi/refs/heads/main/plans/provivi-plans-pricing.yml
+  href: https://artifacts.apis.io/provivi/plans/provivi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/provivi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/provivi/refs/heads/main/rate-limits/provivi-rate-limits.yml
+  href: https://artifacts.apis.io/provivi/rate-limits/provivi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/provivi-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/provivi/refs/heads/main/llms/provivi-llms.txt
+  href: https://artifacts.apis.io/provivi/llms/provivi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/provivi-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/provivi/refs/heads/main/packages/provivi-packages.yml
+  href: https://artifacts.apis.io/provivi/packages/provivi-packages.yml
   title: ''
   type: Packages
   url: packages/provivi-packages.yml
@@ -167,14 +169,14 @@ plans:
 - name: Provivi Plans Pricing
   plan_count: 0
   slug: provivi-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Provivi Rate Limits
   slug: provivi-rate-limits
 score:
   band: emerging
-  composite: 25.4
+  composite: 25.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -188,9 +190,9 @@ score:
     contract_governance: 4.5
     contract_quality: 35.1
     developer_ergonomics: 19.0
-    discoverability: 67.0
+    discoverability: 67.9
     operational_transparency: 0.0
-  previous_composite: 25.4
+  previous_composite: 25.5
   provenance:
     conformance: derived
   regulatory:
@@ -199,14 +201,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/provivi/refs/heads/main/screenshots/provivi-2026-09-02T152245.png
+screenshot: https://apis.io/screenshots/provivi/provivi-2026-09-02T152245.png
 security:
 - kind: authentication
   name: Provivi Authentication

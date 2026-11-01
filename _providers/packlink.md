@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.0
-  scored_at: '2026-10-17'
+  score: 21.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -74,15 +76,12 @@ apis:
   description: Create shipments, print labels, and track parcels.
   name: Packlink Shipments API
   slug: packlink-shipments-api
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Packlink Webhooks
   slug: packlink-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Packlink PRO Shipping Clients API
   slug: open-packlink-clients-api
@@ -103,12 +102,12 @@ collections:
   slug: open-packlink-shipments-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/capabilities/packlink-capability-edges.yml
+  href: https://artifacts.apis.io/packlink/capabilities/packlink-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/packlink-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/overlays/packlink-openapi-overlay.yaml
+  href: https://artifacts.apis.io/packlink/overlays/packlink-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/packlink-openapi-overlay.yaml
@@ -145,72 +144,72 @@ common:
   type: PrivacyPolicy
   url: https://packlink.com/en-GB/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/authentication/packlink-authentication.yml
+  href: https://artifacts.apis.io/packlink/authentication/packlink-authentication.yml
   title: ''
   type: Authentication
   url: authentication/packlink-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/agentic-access/packlink-agentic-access.yml
+  href: https://artifacts.apis.io/packlink/agentic-access/packlink-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/packlink-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/mcp/packlink-mcp.yml
+  href: https://artifacts.apis.io/packlink/mcp/packlink-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/packlink-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/conventions/packlink-conventions.yml
+  href: https://artifacts.apis.io/packlink/conventions/packlink-conventions.yml
   title: ''
   type: Conventions
   url: conventions/packlink-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/lifecycle/packlink-lifecycle.yml
+  href: https://artifacts.apis.io/packlink/lifecycle/packlink-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/packlink-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/errors/packlink-problem-types.yml
+  href: https://artifacts.apis.io/packlink/errors/packlink-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/packlink-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/data-model/packlink-data-model.yml
+  href: https://artifacts.apis.io/packlink/data-model/packlink-data-model.yml
   title: ''
   type: DataModel
   url: data-model/packlink-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/conformance/packlink-conformance.yml
+  href: https://artifacts.apis.io/packlink/conformance/packlink-conformance.yml
   title: ''
   type: Conformance
   url: conformance/packlink-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/packages/packlink-packages.yml
+  href: https://artifacts.apis.io/packlink/packages/packlink-packages.yml
   title: ''
   type: Packages
   url: packages/packlink-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/packages/packlink-packages.yml
+  href: https://artifacts.apis.io/packlink/packages/packlink-packages.yml
   title: ''
   type: SDKs
   url: packages/packlink-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/asyncapi/packlink-webhooks.yml
+  href: https://artifacts.apis.io/packlink/asyncapi/packlink-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/packlink-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/packlink/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/llms/packlink-llms.txt
+  href: https://artifacts.apis.io/packlink/llms/packlink-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/packlink-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/security/packlink-domain-security.yml
+  href: https://artifacts.apis.io/packlink/security/packlink-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/packlink-domain-security.yml
@@ -229,10 +228,10 @@ overview: 'Packlink is listed with 6 APIs on the [APIs.io](https://apis.io/) net
 
 
   Packlink''s developer surface includes developer portal, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 9
+random_paper: 5
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 29.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -242,13 +241,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 21.1
     developer_ergonomics: 37.5
-    discoverability: 78.6
-    operational_transparency: 10.5
-  previous_composite: 26.1
+    discoverability: 71.4
+    operational_transparency: 13.2
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,13 +264,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/screenshots/packlink-2026-08-07T191246.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/packlink/packlink-2026-08-07T191246.png
 security:
 - kind: authentication
   name: Packlink Authentication
@@ -281,6 +281,12 @@ security:
   name: Packlink Domain Security
   slug: packlink-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Quote carrier services and create a shipment
+  slug: packlink-quote-and-ship
+- name: Track a shipment and sync status
+  slug: packlink-track-shipment
 slug: packlink
 tags:
 - Company

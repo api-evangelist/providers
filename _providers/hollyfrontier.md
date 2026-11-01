@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -47,12 +49,12 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/hollyfrontier
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hollyfrontier/refs/heads/main/security/hollyfrontier-domain-security.yml
+  href: https://artifacts.apis.io/hollyfrontier/security/hollyfrontier-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hollyfrontier-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hollyfrontier/refs/heads/main/llms/hollyfrontier-llms.txt
+  href: https://artifacts.apis.io/hollyfrontier/llms/hollyfrontier-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hollyfrontier-llms.txt
@@ -97,7 +99,7 @@ press:
 - date: ''
   title: HollyFrontier Corporation Third Quarter 2021 Earnings ...
   url: http://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2021-10-4-hollyfrontier-corporation-third-quarter-2021-earnings-release-and-conference-webcast
-random_paper: 17
+random_paper: 9
 score:
   band: minimal
   composite: 3.6
@@ -130,14 +132,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hollyfrontier/refs/heads/main/screenshots/hollyfrontier-2026-07-25T221320.png
+screenshot: https://apis.io/screenshots/hollyfrontier/hollyfrontier-2026-07-25T221320.png
 security:
 - kind: domain-security
   name: Hollyfrontier Domain Security

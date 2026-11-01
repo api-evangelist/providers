@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.0
-  scored_at: '2026-10-17'
+  score: 44.8
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Redox's modern FHIR API for exchanging clinical and administrative healthcare data across the Redox network using HL7 FHIR resources and notifications, authenticated with OAuth2.
@@ -52,19 +54,19 @@ apis:
 - description: 'redox-hl7-v2 is Redox''s open-source JavaScript library for parsing and generating HL7 v2 messages, useful for teams integrating with legacy hospital interfaces or building tools that bridge HL7v2 and '
   name: Redox HL7 v2 Library
   slug: redox-hl7-v2-library
-artifact_total: 57
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Redox Webhooks
   slug: redox-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/security/redox-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/redox/security/redox-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/redox-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/security/redox-domain-security.yml
+  href: https://artifacts.apis.io/redox/security/redox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/redox-domain-security.yml
@@ -117,82 +119,82 @@ common:
   type: Compliance
   url: https://redoxengine.com/platform-security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/authentication/redox-authentication.yml
+  href: https://artifacts.apis.io/redox/authentication/redox-authentication.yml
   title: ''
   type: Authentication
   url: authentication/redox-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/scopes/redox-scopes.yml
+  href: https://artifacts.apis.io/redox/scopes/redox-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/redox-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/well-known/redox-well-known.yml
+  href: https://artifacts.apis.io/redox/well-known/redox-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/redox-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/conformance/redox-conformance.yml
+  href: https://artifacts.apis.io/redox/conformance/redox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/redox-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/lifecycle/redox-lifecycle.yml
+  href: https://artifacts.apis.io/redox/lifecycle/redox-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/redox-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/conventions/redox-conventions.yml
+  href: https://artifacts.apis.io/redox/conventions/redox-conventions.yml
   title: ''
   type: Conventions
   url: conventions/redox-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/packages/redox-packages.yml
+  href: https://artifacts.apis.io/redox/packages/redox-packages.yml
   title: ''
   type: Packages
   url: packages/redox-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/packages/redox-packages.yml
+  href: https://artifacts.apis.io/redox/packages/redox-packages.yml
   title: ''
   type: SDKs
   url: packages/redox-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/llms/redox-llms.txt
+  href: https://artifacts.apis.io/redox/llms/redox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/redox-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/mcp/redox-mcp.yml
+  href: https://artifacts.apis.io/redox/mcp/redox-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/redox-mcp.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/rate-limits/redox-rate-limits.yml
+  href: https://artifacts.apis.io/redox/rate-limits/redox-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/redox-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/errors/redox-problem-types.yml
+  href: https://artifacts.apis.io/redox/errors/redox-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/redox-problem-types.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/sandbox/redox-sandbox.yml
+  href: https://artifacts.apis.io/redox/sandbox/redox-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/redox-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/changelog/redox-changelog.yml
+  href: https://artifacts.apis.io/redox/changelog/redox-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/redox-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/asyncapi/redox-webhooks.yml
+  href: https://artifacts.apis.io/redox/asyncapi/redox-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/redox-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/plans/redox-plans-pricing.yml
+  href: https://artifacts.apis.io/redox/plans/redox-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/redox-plans-pricing.yml
@@ -205,7 +207,7 @@ common:
   type: PrivacyPolicy
   url: https://redoxengine.com/legal/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/security/redox-domain-security.yml
+  href: https://artifacts.apis.io/redox/security/redox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/redox-domain-security.yml
@@ -294,7 +296,7 @@ common:
   type: YouTube
   url: https://www.youtube.com/c/RedoxEngine
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/security/redox-domain-security.yml
+  href: https://artifacts.apis.io/redox/security/redox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/redox-domain-security.yml
@@ -321,6 +323,14 @@ features:
   name: Environments and Promotions
 - description: HITRUST r2 certified on AWS and GCP and SOC 2 Type 2 compliant security posture across the platform.
   name: HITRUST and SOC 2
+finops:
+- has_sources: true
+  method: derived
+  name: Redox Finops
+  primary_unit: ''
+  service_category: ''
+  slug: redox-finops
+  template: true
 image: https://redoxengine.com/wp-content/uploads/2023/01/redox-logo.png
 integrations:
 - description: Bi-directional connectivity to Epic EHR for clinical, ADT, scheduling, orders, and results workflows.
@@ -377,7 +387,7 @@ overview: 'Redox is listed with 5 APIs on the [APIs.io](https://apis.io/) networ
   Redox''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 48 more developer resources.'
 plans:
 - name: Redox Plans Pricing
-  plan_count: 0
+  plan_count: 1
   slug: redox-plans-pricing
 random_paper: 18
 rate_limits:
@@ -391,22 +401,22 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.8
+  composite: 64.0
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 43.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 72.0
+    artifact_dirs: 21
+    catalog_earned: 51.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.3
   facets:
-    access_clarity: 47.4
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 71.7
-    operational_transparency: 73.7
+    discoverability: 61.7
+    operational_transparency: 76.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -414,7 +424,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 57.7
+  previous_composite: 59.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -432,14 +442,14 @@ score:
     regime: Health
     regime_id: health
     score: 47.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/screenshots/redox-2026-06-20T192731.png
+screenshot: https://apis.io/screenshots/redox/redox-2026-06-20T192731.png
 security:
 - kind: authentication
   name: Redox Authentication

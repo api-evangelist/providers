@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Xbox Live Services provides APIs for achievements, leaderboards, multiplayer, matchmaking, social features, presence, and cloud saves. Game developers can integrate Xbox Live features for player ident
@@ -45,17 +47,17 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-xbox/refs/heads/main/plans/microsoft-xbox-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-xbox/plans/microsoft-xbox-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-xbox-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-xbox/refs/heads/main/rate-limits/microsoft-xbox-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-xbox/rate-limits/microsoft-xbox-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-xbox-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-xbox/refs/heads/main/finops/microsoft-xbox-finops.yml
+  href: https://artifacts.apis.io/microsoft-xbox/finops/microsoft-xbox-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-xbox-finops.yml
@@ -64,12 +66,12 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-xbox/refs/heads/main/security/microsoft-xbox-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/microsoft-xbox/security/microsoft-xbox-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-xbox-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-xbox/refs/heads/main/security/microsoft-xbox-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-xbox/security/microsoft-xbox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-xbox-domain-security.yml
@@ -103,7 +105,7 @@ finops:
 - has_sources: false
   method: generated
   name: Microsoft Xbox Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: microsoft-xbox-finops
   template: true
@@ -121,14 +123,14 @@ plans:
 - name: Microsoft Xbox Plans Pricing
   plan_count: 3
   slug: microsoft-xbox-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Microsoft Xbox Rate Limits
   slug: microsoft-xbox-rate-limits
 score:
   band: emerging
-  composite: 20.5
+  composite: 22.2
   coverage:
     artifact_dirs: 6
     catalog_earned: 38.0
@@ -136,29 +138,29 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 31.0
     discoverability: 64.3
-    operational_transparency: 10.5
-  previous_composite: 22.0
+    operational_transparency: 23.7
+  previous_composite: 22.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-xbox/refs/heads/main/screenshots/microsoft-xbox-2026-06-20T185546.png
+screenshot: https://apis.io/screenshots/microsoft-xbox/microsoft-xbox-2026-06-20T185546.png
 security:
 - kind: domain-security
   name: Microsoft Xbox Domain Security

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,11 +74,8 @@ apis:
   description: The Reference API from Forex — 1 operation(s) for reference.
   name: Forex Reference API
   slug: forex-reference-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Open Exchange Rates Account API
   slug: open-forex-account-api
@@ -91,32 +90,32 @@ collections:
   slug: open-forex
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/plans/forex-plans-pricing.yml
+  href: https://artifacts.apis.io/forex/plans/forex-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/forex-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/rate-limits/forex-rate-limits.yml
+  href: https://artifacts.apis.io/forex/rate-limits/forex-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/forex-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/finops/forex-finops.yml
+  href: https://artifacts.apis.io/forex/finops/forex-finops.yml
   title: ''
   type: FinOps
   url: finops/forex-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/agentic-access/forex-agentic-access.yml
+  href: https://artifacts.apis.io/forex/agentic-access/forex-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/forex-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/security/forex-domain-security.yml
+  href: https://artifacts.apis.io/forex/security/forex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forex-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/authentication/forex-authentication.yml
+  href: https://artifacts.apis.io/forex/authentication/forex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/forex-authentication.yml
@@ -126,7 +125,7 @@ finops:
 - has_sources: false
   method: generated
   name: Forex Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: forex-finops
   template: true
@@ -151,7 +150,7 @@ rate_limits:
   slug: forex-rate-limits
 score:
   band: thin
-  composite: 27.7
+  composite: 30.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 41.0
@@ -159,15 +158,15 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 41.0
-    developer_ergonomics: 15.5
+    developer_ergonomics: 21.4
     discoverability: 62.5
-    operational_transparency: 18.4
-  previous_composite: 29.3
+    operational_transparency: 28.9
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -181,14 +180,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/screenshots/forex-2026-06-20T181424.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/forex/forex-2026-06-20T181424.png
 security:
 - kind: authentication
   name: Forex Authentication

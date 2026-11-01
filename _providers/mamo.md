@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://business.mamopay.com/manage_api/v1
@@ -98,7 +100,7 @@ apis:
   description: The Webhooks API from Mamo — 2 operation(s) for webhooks.
   name: Mamo Webhooks API
   slug: mamo-webhooks-api
-artifact_total: 42
+artifact_total: 46
 asyncapis:
 - description: Webhook event surface for the Mamo Business API. Merchants register a webhook URL via POST /webhooks with a set of enabled_events; Mamo POSTs a JSON event payload to that URL when the corresponding ev
   name: Mamo Business Webhooks
@@ -141,9 +143,6 @@ collections:
   name: Mamo Business Business Details Webhooks API
   slug: postman-mamo-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Mamo Business Business Details API
   slug: open-mamo-business-details-api
 - collection_type: open
@@ -180,18 +179,23 @@ collections:
   name: Mamo Business Business Details Webhooks API
   slug: open-mamo-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/mamo/plans/mamo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mamo-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/capabilities/mamo-capability-edges.yml
+  href: https://artifacts.apis.io/mamo/capabilities/mamo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mamo-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/mcp/mamo-mcp.yml
+  href: https://artifacts.apis.io/mamo/mcp/mamo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mamo-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/overlays/mamo-openapi-overlay.yaml
+  href: https://artifacts.apis.io/mamo/overlays/mamo-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mamo-openapi-overlay.yaml
@@ -200,7 +204,7 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/mamo/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/security/mamo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mamo/security/mamo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mamo-vulnerability-disclosure.yml
@@ -209,7 +213,7 @@ common:
   type: Security
   url: https://www.mamopay.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/security/mamo-domain-security.yml
+  href: https://artifacts.apis.io/mamo/security/mamo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mamo-domain-security.yml
@@ -278,27 +282,27 @@ common:
   type: PrivacyPolicy
   url: https://mamopay.com/legal/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/llms/mamo-llms.txt
+  href: https://artifacts.apis.io/mamo/llms/mamo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mamo-llms.txt
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/sandbox/mamo-sandbox.yml
+  href: https://artifacts.apis.io/mamo/sandbox/mamo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mamo-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/lifecycle/mamo-lifecycle.yml
+  href: https://artifacts.apis.io/mamo/lifecycle/mamo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mamo-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/changelog/mamo-changelog.yml
+  href: https://artifacts.apis.io/mamo/changelog/mamo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mamo-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mamo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -307,7 +311,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/mamopay
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/security/mamo-trust-center.yml
+  href: https://artifacts.apis.io/mamo/security/mamo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mamo-trust-center.yml
@@ -317,6 +321,14 @@ common:
   url: https://www.mamopay.com/security
 created: '2026-07-17'
 description: Mamo is a UAE-based fintech platform (Mamo Pay / Mamo Business) offering integrated payment solutions for businesses across the Gulf. Its products include hosted payment links and checkout, subscriptions and recurring billing, merchant-initiated charges with saved cards, refunds/captures/holds, invoicing, global payouts and disbursements to recipients, virtual and physical corporate cards with expense management, and partner cards for instant payouts. The Mamo Business API is a REST/JSON API hosted on readme.io that lets merchants automate payment link generation, charges, subscriptions, disbursements, recipients, card transactions, expenses, and webhooks. The platform serves 4,000+ businesses and has processed over AED 12 billion in total payment volume.
+finops:
+- has_sources: true
+  method: derived
+  name: Mamo Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: mamo-finops
+  template: false
 image: https://cdn.prod.website-files.com/62662ec945767b19355b5c00/695f9da901d5bfde3a81193b_Website%20thumbnail2.png
 layout: provider
 modified: '2026-07-20'
@@ -329,26 +341,30 @@ overview: 'Mamo publishes 12 API contracts indexed on the [APIs.io](https://apis
   The Mamo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mamo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 24 more developer resources.'
-random_paper: 8
+  Mamo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 25 more developer resources.'
+plans:
+- name: Mamo Plans Pricing
+  plan_count: 6
+  slug: mamo-plans-pricing
+random_paper: 18
 score:
-  band: developing
-  composite: 53.8
+  band: exemplar
+  composite: 67.9
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 53.9
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 63.0
-    developer_ergonomics: 42.3
-    discoverability: 73.2
-    operational_transparency: 28.9
+    contract_quality: 59.6
+    developer_ergonomics: 67.3
+    discoverability: 66.1
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -357,7 +373,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 53.8
+  previous_composite: 60.0
   provenance:
     conformance: first-party
     contracts:
@@ -373,13 +389,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/screenshots/mamo-2026-07-25T230010.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mamo/mamo-2026-07-25T230010.png
 security:
 - kind: authentication
   name: Mamo Authentication
@@ -397,6 +414,14 @@ security:
   name: Mamo Trust Center
   slug: mamo-trust-center
   summary_line: PCI DSS
+skill_count: 3
+skills:
+- name: Charge a saved card and refund
+  slug: mamo-charge-and-refund
+- name: Create and track a Mamo payment link
+  slug: mamo-create-payment-link
+- name: Pay out to a recipient
+  slug: mamo-payouts
 slug: mamo
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -85,11 +87,8 @@ apis:
   description: The Workspaces API from Intralinks — 2 operation(s) for workspaces.
   name: Intralinks Workspaces API
   slug: intralinks-workspaces-api
-artifact_total: 34
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Intralinks API
   slug: open-intralinks-api
@@ -119,17 +118,17 @@ collections:
   slug: open-intralinks-workspaces-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/plans/intralinks-plans-pricing.yml
+  href: https://artifacts.apis.io/intralinks/plans/intralinks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/intralinks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/rate-limits/intralinks-rate-limits.yml
+  href: https://artifacts.apis.io/intralinks/rate-limits/intralinks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/intralinks-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/finops/intralinks-finops.yml
+  href: https://artifacts.apis.io/intralinks/finops/intralinks-finops.yml
   title: ''
   type: FinOps
   url: finops/intralinks-finops.yml
@@ -142,22 +141,22 @@ common:
   type: Website
   url: https://www.intralinks.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/capabilities/intralinks-capability-edges.yml
+  href: https://artifacts.apis.io/intralinks/capabilities/intralinks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/intralinks-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/agentic-access/intralinks-agentic-access.yml
+  href: https://artifacts.apis.io/intralinks/agentic-access/intralinks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/intralinks-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/security/intralinks-domain-security.yml
+  href: https://artifacts.apis.io/intralinks/security/intralinks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/intralinks-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/authentication/intralinks-authentication.yml
+  href: https://artifacts.apis.io/intralinks/authentication/intralinks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/intralinks-authentication.yml
@@ -187,7 +186,7 @@ finops:
 - has_sources: false
   method: generated
   name: Intralinks Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: intralinks-finops
   template: true
@@ -238,7 +237,7 @@ plans:
 - name: Intralinks Plans Pricing
   plan_count: 3
   slug: intralinks-plans-pricing
-random_paper: 9
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Intralinks Rate Limits
@@ -257,23 +256,23 @@ rules:
   slug: intralinks-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.9
+  composite: 32.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 50.3
     catalog_earned_first_party: 0.0
     catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
-    contract_quality: 60.8
-    developer_ergonomics: 42.9
+    contract_quality: 57.4
+    developer_ergonomics: 47.6
     discoverability: 48.2
     operational_transparency: 7.9
-  previous_composite: 33.4
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -287,13 +286,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/screenshots/intralinks-2026-06-20T183611.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/intralinks/intralinks-2026-06-20T183611.png
 security:
 - kind: authentication
   name: Intralinks Authentication

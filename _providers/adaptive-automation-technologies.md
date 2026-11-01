@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'The Adaptive Client API is a sixteen-operation REST API under /api/v3/client that exposes an Adaptive workspace to external systems: list users, resources, endpoints, authorizations, scripts and teams'
@@ -32,14 +34,14 @@ apis:
 - description: Adaptive ships a built-in Model Context Protocol server that lets AI agents — Claude, Cursor, VS Code and other MCP clients — work with an Adaptive workspace. Interactive clients connect to https://<w
   name: Adaptive MCP Server
   slug: adaptive-automation-technologies-mcp-server
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Adaptive Automation Technologies Webhooks
   slug: adaptive-automation-technologies-webhooks
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/rate-limits/adaptive-automation-technologies-rate-limits.yml
+  href: https://artifacts.apis.io/adaptive-automation-technologies/rate-limits/adaptive-automation-technologies-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adaptive-automation-technologies-rate-limits.yml
@@ -92,68 +94,76 @@ common:
   type: PrivacyPolicy
   url: https://adaptive.live/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/security/adaptive-automation-technologies-trust-center.yml
+  href: https://artifacts.apis.io/adaptive-automation-technologies/security/adaptive-automation-technologies-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/adaptive-automation-technologies-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/llms/adaptive-automation-technologies-llms.txt
+  href: https://artifacts.apis.io/adaptive-automation-technologies/llms/adaptive-automation-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adaptive-automation-technologies-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/packages/adaptive-automation-technologies-packages.yml
+  href: https://artifacts.apis.io/adaptive-automation-technologies/packages/adaptive-automation-technologies-packages.yml
   title: ''
   type: Packages
   url: packages/adaptive-automation-technologies-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/packages/adaptive-automation-technologies-packages.yml
+  href: https://artifacts.apis.io/adaptive-automation-technologies/packages/adaptive-automation-technologies-packages.yml
   title: ''
   type: SDKs
   url: packages/adaptive-automation-technologies-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/cli/adaptive-automation-technologies-cli.yml
+  href: https://artifacts.apis.io/adaptive-automation-technologies/cli/adaptive-automation-technologies-cli.yml
   title: ''
   type: CLI
   url: cli/adaptive-automation-technologies-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/changelog/adaptive-automation-technologies-changelog.yml
+  href: https://artifacts.apis.io/adaptive-automation-technologies/changelog/adaptive-automation-technologies-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/adaptive-automation-technologies-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/lifecycle/adaptive-automation-technologies-lifecycle.yml
+  href: https://artifacts.apis.io/adaptive-automation-technologies/lifecycle/adaptive-automation-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adaptive-automation-technologies-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/conformance/adaptive-automation-technologies-conformance.yml
+  href: https://artifacts.apis.io/adaptive-automation-technologies/conformance/adaptive-automation-technologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adaptive-automation-technologies-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/conformance/adaptive-automation-technologies-conformance.yml
+  href: https://artifacts.apis.io/adaptive-automation-technologies/conformance/adaptive-automation-technologies-conformance.yml
   title: ''
   type: Compliance
   url: conformance/adaptive-automation-technologies-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/asyncapi/adaptive-automation-technologies-webhooks.yml
+  href: https://artifacts.apis.io/adaptive-automation-technologies/asyncapi/adaptive-automation-technologies-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/adaptive-automation-technologies-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/plans/adaptive-automation-technologies-plans-pricing.yml
+  href: https://artifacts.apis.io/adaptive-automation-technologies/plans/adaptive-automation-technologies-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adaptive-automation-technologies-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/security/adaptive-automation-technologies-domain-security.yml
+  href: https://artifacts.apis.io/adaptive-automation-technologies/security/adaptive-automation-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adaptive-automation-technologies-domain-security.yml
 created: '2026-09-07'
 description: 'Adaptive Automation Technologies, Inc. — trading as Adaptive (adaptive.live) — builds a privileged access management and data security platform that brokers credential-less, fully audited access to databases, Kubernetes clusters, virtual machines, cloud accounts, network appliances and internal web services for both human operators and autonomous AI agents. The platform is sold as three surfaces: Bastion/Stratos (just-in-time infrastructure and browser access with SSO and MFA), Exo (a secure agent harness with a tools/MCP registry, scoped networking and guardrails), and a shared trust layer covering authorization, audit, data masking, database activity monitoring, discovery and classification, and compliance reporting. Adaptive exposes a documented sixteen-operation REST Client API at /api/v3/client, a built-in remote MCP server secured by OAuth with RFC 7591 dynamic client registration, a cross-platform CLI, and first-party Terraform and Pulumi providers. It runs as managed
   cloud on app.adaptive.live or self-hosted on Kubernetes, Docker or an air-gapped VM.'
+finops:
+- has_sources: true
+  method: derived
+  name: Adaptive Automation Technologies Finops
+  primary_unit: ''
+  service_category: ''
+  slug: adaptive-automation-technologies-finops
+  template: true
 image: https://adaptive.live/og/adaptive.png
 layout: provider
 mcp_servers:
@@ -175,7 +185,7 @@ plans:
 - name: Adaptive Automation Technologies Plans Pricing
   plan_count: 0
   slug: adaptive-automation-technologies-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Adaptive Automation Technologies Rate Limits
@@ -187,9 +197,9 @@ scopes:
   summary_line: 10 scopes
 score:
   band: developing
-  composite: 52.8
+  composite: 52.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -201,9 +211,9 @@ score:
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 75.0
-    operational_transparency: 26.3
-  previous_composite: 52.8
+    discoverability: 65.0
+    operational_transparency: 28.9
+  previous_composite: 52.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -213,14 +223,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-automation-technologies/refs/heads/main/screenshots/adaptive-automation-technologies-2026-10-11T092735.png
+screenshot: https://apis.io/screenshots/adaptive-automation-technologies/adaptive-automation-technologies-2026-10-11T092735.png
 security:
 - kind: authentication
   name: Adaptive Automation Technologies Authentication

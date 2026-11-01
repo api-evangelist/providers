@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Hosted, OAuth-secured Model Context Protocol (MCP) server that gives AI agents access to YouArt's catalog of 60+ image, video, audio, and TTS models plus its node-based workflow builder, asset library
@@ -46,7 +48,7 @@ common:
   type: Blog
   url: https://youart.ai/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/youart/refs/heads/main/security/youart-domain-security.yml
+  href: https://artifacts.apis.io/youart/security/youart-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/youart-domain-security.yml
@@ -83,17 +85,17 @@ common:
   type: Support
   url: https://youart.typeform.com/enterprise
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/youart/refs/heads/main/mcp/youart-mcp.yml
+  href: https://artifacts.apis.io/youart/mcp/youart-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/youart-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/youart/refs/heads/main/llms/youart-llms.txt
+  href: https://artifacts.apis.io/youart/llms/youart-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/youart-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/youart/refs/heads/main/authentication/youart-authentication.yml
+  href: https://artifacts.apis.io/youart/authentication/youart-authentication.yml
   title: ''
   type: Authentication
   url: authentication/youart-authentication.yml
@@ -113,26 +115,26 @@ overview: 'Youart is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Youart''s developer surface includes engineering blog, documentation, API reference, pricing, support, authentication, and 7 more developer resources.'
-random_paper: 16
+random_paper: 4
 score:
   band: emerging
-  composite: 22.0
+  composite: 21.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 40.5
-    discoverability: 75.0
+    developer_ergonomics: 45.2
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 21.8
+  previous_composite: 21.9
   provenance:
     mcp: first-party
   regulatory:
@@ -141,14 +143,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/youart/refs/heads/main/screenshots/youart-2026-09-02T171325.png
+screenshot: https://apis.io/screenshots/youart/youart-2026-09-02T171325.png
 security:
 - kind: authentication
   name: Youart Authentication

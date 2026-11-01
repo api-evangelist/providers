@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 66.9
-  scored_at: '2026-10-17'
+  score: 62.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 7
   slug: allowance-agentic-access
   summary_line: 7 operations · 3 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.useallowance.com/v1
   baseurl_source: declared
@@ -62,15 +64,12 @@ arazzos:
 - description: Create a spending mandate, wait for the human owner to approve it, then request a single-use virtual card for a specific purchase against the active mandate.
   name: Approve a mandate and issue a virtual card
   slug: allowance-mandate-to-card
-artifact_total: 14
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Allowance Webhooks
   slug: allowance-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Allowance Mandates API
   slug: open-allowance-mandates-api
@@ -81,6 +80,11 @@ collections:
   name: Allowance Mandates Status API
   slug: open-allowance-status-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/allowance/plans/allowance-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/allowance-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -90,27 +94,27 @@ common:
   type: Website
   url: https://useallowance.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/overlays/allowance-openapi-overlay.yaml
+  href: https://artifacts.apis.io/allowance/overlays/allowance-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/allowance-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/security/allowance-domain-security.yml
+  href: https://artifacts.apis.io/allowance/security/allowance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allowance-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/agentic-access/allowance-agentic-access.yml
+  href: https://artifacts.apis.io/allowance/agentic-access/allowance-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/allowance-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/scopes/allowance-scopes.yml
+  href: https://artifacts.apis.io/allowance/scopes/allowance-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/allowance-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/authentication/allowance-authentication.yml
+  href: https://artifacts.apis.io/allowance/authentication/allowance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/allowance-authentication.yml
@@ -159,82 +163,90 @@ common:
   type: StatusPage
   url: https://useallowance.com/status.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/llms/allowance-llms.txt
+  href: https://artifacts.apis.io/allowance/llms/allowance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/allowance-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/mcp/allowance-mcp.yml
+  href: https://artifacts.apis.io/allowance/mcp/allowance-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/allowance-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/skills/allowance-purchase.md
+  href: https://artifacts.apis.io/allowance/skills/allowance-purchase.md
   title: ''
   type: AgentSkill
   url: skills/allowance-purchase.md
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/packages/allowance-packages.yml
+  href: https://artifacts.apis.io/allowance/packages/allowance-packages.yml
   title: ''
   type: Packages
   url: packages/allowance-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/cli/allowance-cli.yml
+  href: https://artifacts.apis.io/allowance/cli/allowance-cli.yml
   title: ''
   type: CLI
   url: cli/allowance-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/well-known/allowance-well-known.yml
+  href: https://artifacts.apis.io/allowance/well-known/allowance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/allowance-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/conformance/allowance-conformance.yml
+  href: https://artifacts.apis.io/allowance/conformance/allowance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/allowance-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/errors/allowance-problem-types.yml
+  href: https://artifacts.apis.io/allowance/errors/allowance-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/allowance-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/errors/allowance-decline-codes.yml
+  href: https://artifacts.apis.io/allowance/errors/allowance-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/allowance-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/lifecycle/allowance-lifecycle.yml
+  href: https://artifacts.apis.io/allowance/lifecycle/allowance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/allowance-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/conventions/allowance-conventions.yml
+  href: https://artifacts.apis.io/allowance/conventions/allowance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/allowance-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/conventions/allowance-conventions.yml
+  href: https://artifacts.apis.io/allowance/conventions/allowance-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/allowance-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/data-model/allowance-data-model.yml
+  href: https://artifacts.apis.io/allowance/data-model/allowance-data-model.yml
   title: ''
   type: DataModel
   url: data-model/allowance-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/asyncapi/allowance-webhooks.yml
+  href: https://artifacts.apis.io/allowance/asyncapi/allowance-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/allowance-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/arazzo/allowance-mandate-to-card.yml
+  href: https://artifacts.apis.io/allowance/arazzo/allowance-mandate-to-card.yml
   title: ''
   type: Arazzo
   url: arazzo/allowance-mandate-to-card.yml
 created: '2026-07-17'
 description: Allowance is a consumer trust layer for AI agent payments, backed by Y Combinator. It lets people give AI agents limited, revocable spending power without ever sharing a real credit card number. An agent proposes a spending mandate (a permission object with a budget, merchant and category restrictions, and a time limit); the human owner approves it from the Allowance iOS app; and Allowance then issues single-use virtual cards (PAN, expiry, CVV) that are amount-capped, merchant-locked, and short-lived so the agent can complete checkout autonomously within the approved rules. Allowance exposes a pre-launch OpenAPI 3.1 REST API, a hosted remote MCP server, a published agent SKILL.md, a CLI (PyPI and npm), plus ChatGPT and Claude connectors. The mandate model is designed as a natural precursor to the AP2 Agent Payments Protocol.
+finops:
+- has_sources: true
+  method: derived
+  name: Allowance Finops
+  primary_unit: ''
+  service_category: ''
+  slug: allowance-finops
+  template: true
 image: https://useallowance.com/assets/logo.png
 layout: provider
 mcp_servers:
@@ -251,8 +263,12 @@ overview: 'Allowance publishes 3 API contracts indexed on the [APIs.io](https://
   The Allowance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Allowance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 4
+  Allowance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
+plans:
+- name: Allowance Plans Pricing
+  plan_count: 2
+  slug: allowance-plans-pricing
+random_paper: 14
 scopes:
 - name: Allowance Scopes
   scope_count: 3
@@ -260,23 +276,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.1
+  composite: 53.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 3.6
   facets:
-    access_clarity: 44.7
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 55.5
     developer_ergonomics: 71.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 23.7
-  previous_composite: 52.0
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -293,13 +309,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/screenshots/allowance-2026-07-25T195707.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/allowance/allowance-2026-07-25T195707.png
 security:
 - kind: authentication
   name: Allowance Authentication

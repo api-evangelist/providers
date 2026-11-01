@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - description: Create, retrieve, update, renew, replace, and convert physical and virtual cards; manage card status, cardholder details, card images, encrypted card data, and bulk card creation. The core issuing sur
@@ -76,52 +78,52 @@ asyncapis:
   slug: thredd-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/security/thredd-domain-security.yml
+  href: https://artifacts.apis.io/thredd/security/thredd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thredd-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/authentication/thredd-authentication.yml
+  href: https://artifacts.apis.io/thredd/authentication/thredd-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thredd-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/scopes/thredd-scopes.yml
+  href: https://artifacts.apis.io/thredd/scopes/thredd-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/thredd-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/conventions/thredd-conventions.yml
+  href: https://artifacts.apis.io/thredd/conventions/thredd-conventions.yml
   title: ''
   type: Conventions
   url: conventions/thredd-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/conventions/thredd-conventions.yml
+  href: https://artifacts.apis.io/thredd/conventions/thredd-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/thredd-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/errors/thredd-problem-types.yml
+  href: https://artifacts.apis.io/thredd/errors/thredd-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/thredd-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/changelog/thredd-changelog.yml
+  href: https://artifacts.apis.io/thredd/changelog/thredd-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/thredd-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/sandbox/thredd-sandbox.yml
+  href: https://artifacts.apis.io/thredd/sandbox/thredd-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/thredd-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/conformance/thredd-conformance.yml
+  href: https://artifacts.apis.io/thredd/conformance/thredd-conformance.yml
   title: ''
   type: Conformance
   url: conformance/thredd-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/lifecycle/thredd-lifecycle.yml
+  href: https://artifacts.apis.io/thredd/lifecycle/thredd-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/thredd-lifecycle.yml
@@ -130,17 +132,17 @@ common:
   type: StatusPage
   url: https://thredd.statuspage.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/asyncapi/thredd-webhooks.yml
+  href: https://artifacts.apis.io/thredd/asyncapi/thredd-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/thredd-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/mcp/thredd-mcp.yml
+  href: https://artifacts.apis.io/thredd/mcp/thredd-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/thredd-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/llms/thredd-llms.txt
+  href: https://artifacts.apis.io/thredd/llms/thredd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thredd-llms.txt
@@ -196,15 +198,15 @@ overview: 'Thredd is listed with 10 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Thredd''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 16 more developer resources.'
-random_paper: 19
+random_paper: 11
 scopes:
 - name: Thredd Scopes
   scope_count: 6
   slug: thredd-scopes
   summary_line: 6 scopes
 score:
-  band: thin
-  composite: 37.9
+  band: developing
+  composite: 43.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 40.0
@@ -212,13 +214,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 32.1
-    discoverability: 78.6
+    developer_ergonomics: 57.1
+    discoverability: 71.4
     operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -228,7 +230,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 37.8
+  previous_composite: 43.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -242,14 +244,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/thredd/refs/heads/main/screenshots/thredd-2026-08-17T082352.png
+screenshot: https://apis.io/screenshots/thredd/thredd-2026-08-17T082352.png
 security:
 - kind: authentication
   name: Thredd Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: REST/JSON API backing the Estuary Flow web dashboard and flowctl CLI. Manages captures, collections, materializations, derivations, drafts, publications, tenants, and role grants. Authenticated with a
@@ -51,17 +53,17 @@ apis:
 artifact_total: 8
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/estuary-flow/refs/heads/main/plans/estuary-flow-plans-pricing.yml
+  href: https://artifacts.apis.io/estuary-flow/plans/estuary-flow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/estuary-flow-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/estuary-flow/refs/heads/main/rate-limits/estuary-flow-rate-limits.yml
+  href: https://artifacts.apis.io/estuary-flow/rate-limits/estuary-flow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/estuary-flow-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/estuary-flow/refs/heads/main/finops/estuary-flow-finops.yml
+  href: https://artifacts.apis.io/estuary-flow/finops/estuary-flow-finops.yml
   title: ''
   type: FinOps
   url: finops/estuary-flow-finops.yml
@@ -78,7 +80,7 @@ common:
   type: ContributionGuide
   url: https://github.com/estuary/flow/blob/master/CONTRIBUTING.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/estuary-flow/refs/heads/main/security/estuary-flow-domain-security.yml
+  href: https://artifacts.apis.io/estuary-flow/security/estuary-flow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/estuary-flow-domain-security.yml
@@ -170,14 +172,14 @@ plans:
 - name: Estuary Flow Plans Pricing
   plan_count: 1
   slug: estuary-flow-plans-pricing
-random_paper: 12
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Estuary Flow Rate Limits
   slug: estuary-flow-rate-limits
 score:
   band: thin
-  composite: 29.7
+  composite: 31.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 44.0
@@ -185,29 +187,29 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
     discoverability: 78.6
     operational_transparency: 26.3
-  previous_composite: 35.7
+  previous_composite: 31.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/estuary-flow/refs/heads/main/screenshots/estuary-flow-2026-06-20T180830.png
+screenshot: https://apis.io/screenshots/estuary-flow/estuary-flow-2026-06-20T180830.png
 security:
 - kind: domain-security
   name: Estuary Flow Domain Security

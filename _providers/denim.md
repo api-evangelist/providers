@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.2
-  scored_at: '2026-10-17'
+  score: 25.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 9
@@ -75,11 +77,8 @@ apis:
   description: Transactions are payments incoming, outgoing, netting, and adjustments. Transactions are are generally applied towards obligations.
   name: Denim Transactions API
   slug: denim-transactions-api
-artifact_total: 16
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Denim Public API Reference Documentation Companies API
   slug: open-denim-companies-api
@@ -99,8 +98,13 @@ collections:
   name: Denim Public API Reference Documentation Companies Transactions API
   slug: open-denim-transactions-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/denim/plans/denim-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/denim-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/capabilities/denim-capability-edges.yml
+  href: https://artifacts.apis.io/denim/capabilities/denim-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/denim-capability-edges.yml
@@ -157,72 +161,80 @@ common:
   type: StatusPage
   url: https://status.denim.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/authentication/denim-authentication.yml
+  href: https://artifacts.apis.io/denim/authentication/denim-authentication.yml
   title: ''
   type: Authentication
   url: authentication/denim-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/agentic-access/denim-agentic-access.yml
+  href: https://artifacts.apis.io/denim/agentic-access/denim-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/denim-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/security/denim-domain-security.yml
+  href: https://artifacts.apis.io/denim/security/denim-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/denim-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/conventions/denim-conventions.yml
+  href: https://artifacts.apis.io/denim/conventions/denim-conventions.yml
   title: ''
   type: Conventions
   url: conventions/denim-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/data-model/denim-data-model.yml
+  href: https://artifacts.apis.io/denim/data-model/denim-data-model.yml
   title: ''
   type: DataModel
   url: data-model/denim-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/mcp/denim-mcp.yml
+  href: https://artifacts.apis.io/denim/mcp/denim-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/denim-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/overlays/denim-openapi-overlay.yaml
+  href: https://artifacts.apis.io/denim/overlays/denim-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/denim-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/llms/denim-llms.txt
+  href: https://artifacts.apis.io/denim/llms/denim-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/denim-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/conformance/denim-conformance.yml
+  href: https://artifacts.apis.io/denim/conformance/denim-conformance.yml
   title: ''
   type: Conformance
   url: conformance/denim-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/lifecycle/denim-lifecycle.yml
+  href: https://artifacts.apis.io/denim/lifecycle/denim-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/denim-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/well-known/denim-well-known.yml
+  href: https://artifacts.apis.io/denim/well-known/denim-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/denim-well-known.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/sandbox/denim-sandbox.yml
+  href: https://artifacts.apis.io/denim/sandbox/denim-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/denim-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/denim/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Denim (denim.com, formerly Axle Payments) is an all-in-one financial and back-office platform for freight brokers, trucking companies, and 3PLs. It provides freight factoring, invoicing, collections, carrier payments, and a fuel card, automating the broker back office and syncing two ways with transportation management systems. The Denim Public API (OpenAPI 3.0) exposes freight loads (jobs), debtors, payees, companies, factoring companies, and transactions, secured with an x-api-key header, so partners can create and quote jobs, onboard debtor/payee relationships, and reconcile transactions programmatically. Added to the API Evangelist network as a portfolio-company lead and enriched from the provider's public developer surface.
+finops:
+- has_sources: true
+  method: derived
+  name: Denim Finops
+  primary_unit: user
+  service_category: ''
+  slug: denim-finops
+  template: false
 image: https://app.denim.com/apple-touch-icon.png
 layout: provider
 modified: '2026-07-18'
@@ -232,27 +244,34 @@ network: true
 overview: 'Denim publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Companies API, Debtors API, Jobs API, and 3 more. Tagged areas include Company, Freight, Factoring, Payments, and Logistics.
 
 
-  Denim''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 19
+  Denim''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+plans:
+- name: Denim Plans Pricing
+  plan_count: 12
+  slug: denim-plans-pricing
+- name: Denim Price Estimates
+  plan_count: 0
+  slug: denim-price-estimates
+random_paper: 21
 score:
   band: developing
-  composite: 44.0
+  composite: 52.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 52.9
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 7.9
-  previous_composite: 44.0
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -269,13 +288,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/screenshots/denim-2026-07-25T211718.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/denim/denim-2026-07-25T211718.png
 security:
 - kind: authentication
   name: Denim Authentication
@@ -285,6 +305,12 @@ security:
   name: Denim Domain Security
   slug: denim-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Create and quote a freight job
+  slug: denim-create-and-quote-job
+- name: Onboard a debtor and a payee relationship
+  slug: denim-onboard-debtor-and-payee
 slug: denim
 tags:
 - Company

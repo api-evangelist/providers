@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.1
-  scored_at: '2026-10-17'
+  score: 34.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,32 +52,29 @@ apis:
   description: '**Required**: Core APIs to implement to support OFREP. *This is the minimum set of APIs required for a flag management system to be OFREP compatible.*'
   name: OpenFeature OFREP Core API
   slug: openfeature-ofrep-core-api
-artifact_total: 10
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenFeature Remote Evaluation Protocol (OFREP) OFREP Core API
   slug: open-openfeature-ofrep-core-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/plans/openfeature-plans-pricing.yml
+  href: https://artifacts.apis.io/openfeature/plans/openfeature-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openfeature-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/rate-limits/openfeature-rate-limits.yml
+  href: https://artifacts.apis.io/openfeature/rate-limits/openfeature-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openfeature-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/finops/openfeature-finops.yml
+  href: https://artifacts.apis.io/openfeature/finops/openfeature-finops.yml
   title: ''
   type: FinOps
   url: finops/openfeature-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/capabilities/openfeature-capability-edges.yml
+  href: https://artifacts.apis.io/openfeature/capabilities/openfeature-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/openfeature-capability-edges.yml
@@ -84,17 +83,17 @@ common:
   type: Website
   url: https://www.openfeature.dev/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/agentic-access/openfeature-agentic-access.yml
+  href: https://artifacts.apis.io/openfeature/agentic-access/openfeature-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openfeature-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/security/openfeature-domain-security.yml
+  href: https://artifacts.apis.io/openfeature/security/openfeature-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openfeature-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/authentication/openfeature-authentication.yml
+  href: https://artifacts.apis.io/openfeature/authentication/openfeature-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openfeature-authentication.yml
@@ -124,7 +123,7 @@ finops:
 - has_sources: false
   method: generated
   name: Openfeature Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: openfeature-finops
   template: true
@@ -145,7 +144,7 @@ plans:
 - name: Openfeature Plans Pricing
   plan_count: 3
   slug: openfeature-plans-pricing
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Openfeature Rate Limits
@@ -165,7 +164,7 @@ rules:
   slug: openfeature-protocol-spectral-rules
 score:
   band: thin
-  composite: 28.3
+  composite: 29.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 43.0
@@ -173,7 +172,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 15.2
@@ -181,7 +180,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 64.3
     operational_transparency: 13.2
-  previous_composite: 28.0
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     contracts:
@@ -195,13 +194,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/screenshots/openfeature-2026-06-20T191000.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openfeature/openfeature-2026-06-20T191000.png
 security:
 - kind: authentication
   name: Openfeature Authentication

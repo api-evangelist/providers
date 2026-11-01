@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 27.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 10
@@ -99,11 +101,8 @@ apis:
   description: The User Management API from Qualio — 7 operation(s) for user management.
   name: Qualio User Management API
   slug: qualio-user-management-api
-artifact_total: 28
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Qualio Developer Audit Trail API
   slug: open-qualio-audit-trail-api
@@ -139,12 +138,12 @@ collections:
   slug: open-qualio-user-management-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/plans/qualio-plans-pricing.yml
+  href: https://artifacts.apis.io/qualio/plans/qualio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qualio-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/capabilities/qualio-capability-edges.yml
+  href: https://artifacts.apis.io/qualio/capabilities/qualio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/qualio-capability-edges.yml
@@ -165,57 +164,57 @@ common:
   type: GettingStarted
   url: https://docs.qualio.com/en/articles/12604878-qualio-developer-api
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/authentication/qualio-authentication.yml
+  href: https://artifacts.apis.io/qualio/authentication/qualio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qualio-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/_original/qualio-openapi.json
+  href: https://artifacts.apis.io/qualio/openapi/_original/qualio-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/qualio-openapi.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/conventions/qualio-conventions.yml
+  href: https://artifacts.apis.io/qualio/conventions/qualio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qualio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/errors/qualio-problem-types.yml
+  href: https://artifacts.apis.io/qualio/errors/qualio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qualio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/data-model/qualio-data-model.yml
+  href: https://artifacts.apis.io/qualio/data-model/qualio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qualio-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/mcp/qualio-mcp.yml
+  href: https://artifacts.apis.io/qualio/mcp/qualio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/qualio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/qualio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/agentic-access/qualio-agentic-access.yml
+  href: https://artifacts.apis.io/qualio/agentic-access/qualio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/qualio-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/overlays/qualio-openapi-overlay.yaml
+  href: https://artifacts.apis.io/qualio/overlays/qualio-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qualio-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/llms/qualio-llms.txt
+  href: https://artifacts.apis.io/qualio/llms/qualio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qualio-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/lifecycle/qualio-lifecycle.yml
+  href: https://artifacts.apis.io/qualio/lifecycle/qualio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qualio-lifecycle.yml
@@ -224,7 +223,7 @@ common:
   type: StatusPage
   url: https://status.qualio.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/conformance/qualio-conformance.yml
+  href: https://artifacts.apis.io/qualio/conformance/qualio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qualio-conformance.yml
@@ -233,12 +232,12 @@ common:
   type: Compliance
   url: https://www.qualio.com/quality-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/security/qualio-trust-center.yml
+  href: https://artifacts.apis.io/qualio/security/qualio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/qualio-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/security/qualio-domain-security.yml
+  href: https://artifacts.apis.io/qualio/security/qualio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qualio-domain-security.yml
@@ -272,6 +271,14 @@ common:
   url: https://qualio.com
 created: '2026-07-17'
 description: Qualio is an AI-powered quality management system (QMS) and compliance platform built for life sciences companies — medical devices, pharmaceuticals, biotech, software as a medical device (SaMD), cosmetics, cannabis and contract research organizations. It unifies document control, quality events (CAPAs, deviations, non-conformances), training records, design controls, risk and change management, supplier management, audits and compliance intelligence in one audit-ready system. Qualio exposes a RESTful Developer API (OpenAPI 3.1.0, base URL https://api.qualio.com) providing secure, API-key-authenticated programmatic access to documents, events, training, users, suppliers, design controls and compliance data, letting teams automate quality processes and integrate the QMS with the rest of their toolchain.
+finops:
+- has_sources: true
+  method: derived
+  name: Qualio Finops
+  primary_unit: ''
+  service_category: ''
+  slug: qualio-finops
+  template: true
 image: https://www.qualio.com/hubfs/qualio-logo.svg
 layout: provider
 modified: '2026-07-20'
@@ -286,12 +293,12 @@ plans:
 - name: Qualio Plans Pricing
   plan_count: 3
   slug: qualio-plans-pricing
-random_paper: 13
+random_paper: 3
 score:
-  band: developing
-  composite: 50.0
+  band: strong
+  composite: 55.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -299,13 +306,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 78.9
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 53.0
-    developer_ergonomics: 42.3
-    discoverability: 73.2
+    contract_quality: 50.9
+    developer_ergonomics: 58.9
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 50.0
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -322,13 +329,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/screenshots/qualio-2026-08-17T081435.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/qualio/qualio-2026-08-17T081435.png
 security:
 - kind: authentication
   name: Qualio Authentication
@@ -342,6 +350,14 @@ security:
   name: Qualio Trust Center
   slug: qualio-trust-center
   summary_line: ISO 9001, ISO 27001, ISO 27701
+skill_count: 3
+skills:
+- name: Qualio document control
+  slug: qualio-document-control
+- name: Qualio quality events
+  slug: qualio-quality-events
+- name: Qualio supplier management
+  slug: qualio-supplier-management
 slug: qualio
 tags:
 - Company
@@ -349,7 +365,6 @@ tags:
 - Life Sciences
 - Compliance
 - Document Control
-- QMS
 - Regulatory
 - Medical Devices
 website: https://qualio.com

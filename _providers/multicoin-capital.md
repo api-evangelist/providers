@@ -21,7 +21,7 @@ modified: '2026-10-06'
 name: Multicoin Capital
 nav: Providers
 network: true
-random_paper: 21
+random_paper: 7
 slug: multicoin-capital
 tags:
 - Venture Capital

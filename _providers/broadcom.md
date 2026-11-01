@@ -13,9 +13,8 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -29,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 44.3
-  scored_at: '2026-10-17'
+  score: 37.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -146,11 +147,8 @@ apis:
   description: Workload domain lifecycle management
   name: Broadcom Workload Domains API
   slug: broadcom-workload-domains-api
-artifact_total: 60
+artifact_total: 64
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Broadcom Operations for Applications REST Alerts API
   slug: open-broadcom-alerts-api
@@ -222,92 +220,92 @@ collections:
   slug: open-broadcom-workload-domains-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/finops/broadcom-finops.yml
+  href: https://artifacts.apis.io/broadcom/finops/broadcom-finops.yml
   title: ''
   type: FinOps
   url: finops/broadcom-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/rate-limits/broadcom-rate-limits.yml
+  href: https://artifacts.apis.io/broadcom/rate-limits/broadcom-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/broadcom-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/plans/broadcom-plans-pricing.yml
+  href: https://artifacts.apis.io/broadcom/plans/broadcom-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/broadcom-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/rules/broadcom-rules.yml
+  href: https://artifacts.apis.io/broadcom/rules/broadcom-rules.yml
   title: ''
   type: Spectral
   url: rules/broadcom-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/rules/broadcom-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/broadcom/rules/broadcom-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/broadcom-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/vocabulary/broadcom-vocabulary.yml
+  href: https://artifacts.apis.io/broadcom/vocabulary/broadcom-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/broadcom-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/broadcom/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/data-model/broadcom-data-model.yml
+  href: https://artifacts.apis.io/broadcom/data-model/broadcom-data-model.yml
   title: ''
   type: DataModel
   url: data-model/broadcom-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/conventions/broadcom-conventions.yml
+  href: https://artifacts.apis.io/broadcom/conventions/broadcom-conventions.yml
   title: ''
   type: Conventions
   url: conventions/broadcom-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/lifecycle/broadcom-lifecycle.yml
+  href: https://artifacts.apis.io/broadcom/lifecycle/broadcom-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/broadcom-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/lifecycle/broadcom-lifecycle.yml
+  href: https://artifacts.apis.io/broadcom/lifecycle/broadcom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/broadcom-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/errors/broadcom-problem-types.yml
+  href: https://artifacts.apis.io/broadcom/errors/broadcom-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/broadcom-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/conformance/broadcom-conformance.yml
+  href: https://artifacts.apis.io/broadcom/conformance/broadcom-conformance.yml
   title: ''
   type: Conformance
   url: conformance/broadcom-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/a2a/broadcom-a2a.yml
+  href: https://artifacts.apis.io/broadcom/a2a/broadcom-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/broadcom-a2a.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/well-known/broadcom-apis-security.txt
+  href: https://artifacts.apis.io/broadcom/well-known/broadcom-apis-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/broadcom-apis-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/well-known/broadcom-well-known.yml
+  href: https://artifacts.apis.io/broadcom/well-known/broadcom-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/broadcom-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/hosts/broadcom-hosts.yml
+  href: https://artifacts.apis.io/broadcom/hosts/broadcom-hosts.yml
   title: ''
   type: Hosts
   url: hosts/broadcom-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/vendors/broadcom-vendors.yml
+  href: https://artifacts.apis.io/broadcom/vendors/broadcom-vendors.yml
   title: ''
   type: Vendors
   url: vendors/broadcom-vendors.yml
@@ -352,22 +350,22 @@ common:
   type: Website
   url: https://broadcom.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/capabilities/broadcom-capability-edges.yml
+  href: https://artifacts.apis.io/broadcom/capabilities/broadcom-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/broadcom-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/agentic-access/broadcom-agentic-access.yml
+  href: https://artifacts.apis.io/broadcom/agentic-access/broadcom-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/broadcom-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/security/broadcom-domain-security.yml
+  href: https://artifacts.apis.io/broadcom/security/broadcom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/broadcom-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/authentication/broadcom-authentication.yml
+  href: https://artifacts.apis.io/broadcom/authentication/broadcom-authentication.yml
   title: ''
   type: Authentication
   url: authentication/broadcom-authentication.yml
@@ -409,7 +407,7 @@ finops:
 - has_sources: true
   method: generated
   name: Broadcom Finops
-  primary_unit: ''
+  primary_unit: license-year
   service_category: Enterprise Software & Infrastructure
   slug: broadcom-finops
   template: false
@@ -473,7 +471,7 @@ press:
 - date: ''
   title: News Releases - Broadcom News and Stories
   url: https://news.broadcom.com/releases
-random_paper: 3
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Broadcom Rate Limits
@@ -504,23 +502,23 @@ rules:
   slug: broadcom-rules
 score:
   band: developing
-  composite: 46.0
+  composite: 48.2
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 62.8
+    artifact_dirs: 29
+    catalog_earned: 65.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.3
+    catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.0
+  delta: 1.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 36.8
     contract_governance: 22.0
-    contract_quality: 63.3
+    contract_quality: 61.4
     developer_ergonomics: 47.0
     discoverability: 64.3
-    operational_transparency: 44.7
-  previous_composite: 51.0
+    operational_transparency: 47.4
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -537,13 +535,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/screenshots/broadcom-2026-06-20T173721.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/broadcom/broadcom-2026-06-20T173721.png
 security:
 - kind: authentication
   name: Broadcom Authentication
@@ -553,6 +552,18 @@ security:
   name: Broadcom Domain Security
   slug: broadcom-domain-security
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
+skill_count: 5
+skills:
+- name: broadcom-alerts-manage
+  slug: broadcom-alerts-manage
+- name: broadcom-api-tokens-create-and-list
+  slug: broadcom-api-tokens-create-and-list
+- name: broadcom-events-list-and-create
+  slug: broadcom-events-list-and-create
+- name: broadcom-network-pools-create
+  slug: broadcom-network-pools-create
+- name: broadcom-session-create-and-delete
+  slug: broadcom-session-create-and-delete
 slug: broadcom
 tags:
 - Cloud Infrastructure

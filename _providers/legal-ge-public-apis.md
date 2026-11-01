@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: derived
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 35.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 6
   slug: legal-ge-public-apis-agentic-access
   summary_line: 6 operations · 1 acting
-api_count: 4
+api_count: 1
 apis:
 - baseURL: https://legal.ge
   baseurl_source: spec
@@ -55,11 +57,13 @@ apis:
   description: Map a free-text legal question to practice areas, and optionally to ranked verified specialists.
   name: legal.ge Public APIs Matching API
   slug: legal-ge-public-apis-matching-api
-artifact_total: 11
+- baseURL: https://legal.ge
+  baseurl_source: spec
+  description: The Law API from legal.ge Public APIs — 3 operation(s) for law.
+  name: legal.ge Public APIs Law API
+  slug: legal-ge-public-apis-law-api
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: legal.ge Public Directory API
   slug: open-legal-ge-public-apis-directory-api
@@ -67,17 +71,22 @@ collections:
   name: legal.ge Public Matching API
   slug: open-legal-ge-public-apis-matching-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/legal-ge-public-apis/plans/legal-ge-public-apis-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/legal-ge-public-apis-plans-pricing.yml
 - group: company
   title: ''
   type: Website
   url: https://www.legal.ge/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/security/legal-ge-public-apis-domain-security.yml
+  href: https://artifacts.apis.io/legal-ge-public-apis/security/legal-ge-public-apis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/legal-ge-public-apis-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/agentic-access/legal-ge-public-apis-agentic-access.yml
+  href: https://artifacts.apis.io/legal-ge-public-apis/agentic-access/legal-ge-public-apis-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/legal-ge-public-apis-agentic-access.yml
@@ -122,77 +131,77 @@ common:
   type: PrivacyPolicy
   url: https://legal.ge/privacy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/openapi/_original/legal-ge-public-apis-openapi.yml
+  href: https://artifacts.apis.io/legal-ge-public-apis/openapi/_original/legal-ge-public-apis-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/legal-ge-public-apis-openapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/llms/legal-ge-public-apis-llms.txt
+  href: https://artifacts.apis.io/legal-ge-public-apis/llms/legal-ge-public-apis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/legal-ge-public-apis-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/mcp/legal-ge-public-apis-mcp.yml
+  href: https://artifacts.apis.io/legal-ge-public-apis/mcp/legal-ge-public-apis-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/legal-ge-public-apis-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/mcp/legal-ge-public-apis-tool-crosswalk.yml
+  href: https://artifacts.apis.io/legal-ge-public-apis/mcp/legal-ge-public-apis-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/legal-ge-public-apis-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/legal-ge-public-apis/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/authentication/legal-ge-public-apis-authentication.yml
+  href: https://artifacts.apis.io/legal-ge-public-apis/authentication/legal-ge-public-apis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/legal-ge-public-apis-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/conventions/legal-ge-public-apis-conventions.yml
+  href: https://artifacts.apis.io/legal-ge-public-apis/conventions/legal-ge-public-apis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/legal-ge-public-apis-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/errors/legal-ge-public-apis-problem-types.yml
+  href: https://artifacts.apis.io/legal-ge-public-apis/errors/legal-ge-public-apis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/legal-ge-public-apis-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/rate-limits/legal-ge-public-apis-rate-limits.yml
+  href: https://artifacts.apis.io/legal-ge-public-apis/rate-limits/legal-ge-public-apis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/legal-ge-public-apis-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/data-model/legal-ge-public-apis-data-model.yml
+  href: https://artifacts.apis.io/legal-ge-public-apis/data-model/legal-ge-public-apis-data-model.yml
   title: ''
   type: DataModel
   url: data-model/legal-ge-public-apis-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/examples/legal-ge-public-apis-examples.yml
+  href: https://artifacts.apis.io/legal-ge-public-apis/examples/legal-ge-public-apis-examples.yml
   title: ''
   type: Examples
   url: examples/legal-ge-public-apis-examples.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/lifecycle/legal-ge-public-apis-lifecycle.yml
+  href: https://artifacts.apis.io/legal-ge-public-apis/lifecycle/legal-ge-public-apis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/legal-ge-public-apis-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/conformance/legal-ge-public-apis-conformance.yml
+  href: https://artifacts.apis.io/legal-ge-public-apis/conformance/legal-ge-public-apis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/legal-ge-public-apis-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/packages/legal-ge-public-apis-packages.yml
+  href: https://artifacts.apis.io/legal-ge-public-apis/packages/legal-ge-public-apis-packages.yml
   title: ''
   type: Packages
   url: packages/legal-ge-public-apis-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/overlays/legal-ge-public-apis-openapi-overlay.yaml
+  href: https://artifacts.apis.io/legal-ge-public-apis/overlays/legal-ge-public-apis-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/legal-ge-public-apis-openapi-overlay.yaml
@@ -206,6 +215,14 @@ examples:
 - key_count: 4
   name: Legal Ge Public Apis Classify Response
   slug: legal-ge-public-apis-classify-response
+finops:
+- has_sources: true
+  method: derived
+  name: Legal Ge Public Apis Finops
+  primary_unit: profile
+  service_category: ''
+  slug: legal-ge-public-apis-finops
+  template: false
 image: https://legal.ge/apple-touch-icon.png
 layout: provider
 mcp_servers:
@@ -216,34 +233,38 @@ modified: '2026-08-09'
 name: legal.ge Public APIs
 nav: Providers
 network: true
-overview: 'legal.ge Public APIs publishes 2 API contracts indexed on the [APIs.io](https://apis.io/) network: Directory API and Matching API. Tagged areas include Legal, Law, Legal Services, Directory, and Georgia.
+overview: 'legal.ge Public APIs publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Directory API, Matching API, and Law API. Tagged areas include Legal, Law, Legal Services, Directory, and Georgia.
 
 
-  legal.ge Public APIs'' developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 10
+  legal.ge Public APIs'' developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
+plans:
+- name: Legal Ge Public Apis Plans Pricing
+  plan_count: 10
+  slug: legal-ge-public-apis-plans-pricing
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Legal Ge Public Apis Rate Limits
   slug: legal-ge-public-apis-rate-limits
 score:
   band: developing
-  composite: 41.0
+  composite: 48.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 47.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 68.0
+    artifact_dirs: 23
+    catalog_earned: 59.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 7.4
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 47.7
+    contract_quality: 48.0
     developer_ergonomics: 37.5
-    discoverability: 69.6
-    operational_transparency: 34.2
-  previous_composite: 40.4
+    discoverability: 56.7
+    operational_transparency: 36.8
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,7 +272,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 6
     mcp: first-party
     skills: derived
   regulatory:
@@ -260,13 +281,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/screenshots/legal-ge-public-apis-2026-08-17T081028.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/legal-ge-public-apis/legal-ge-public-apis-2026-08-17T081028.png
 security:
 - kind: authentication
   name: Legal Ge Public Apis Authentication
@@ -276,6 +298,14 @@ security:
   name: Legal Ge Public Apis Domain Security
   slug: legal-ge-public-apis-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Classify a legal question into Georgian practice areas
+  slug: legal-ge-public-apis-classify-a-legal-question
+- name: Find a verified legal specialist in Georgia
+  slug: legal-ge-public-apis-find-a-verified-specialist
+- name: Look up a specialist by name and reveal a contact field
+  slug: legal-ge-public-apis-look-up-a-specialist-by-name
 slug: legal-ge-public-apis
 tags:
 - Legal

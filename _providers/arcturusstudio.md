@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arcturusstudio/refs/heads/main/hosts/arcturusstudio-hosts.yml
+  href: https://artifacts.apis.io/arcturusstudio/hosts/arcturusstudio-hosts.yml
   title: ''
   type: Hosts
   url: hosts/arcturusstudio-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arcturusstudio/refs/heads/main/vendors/arcturusstudio-vendors.yml
+  href: https://artifacts.apis.io/arcturusstudio/vendors/arcturusstudio-vendors.yml
   title: ''
   type: Vendors
   url: vendors/arcturusstudio-vendors.yml
@@ -46,7 +48,7 @@ common:
   type: Newsroom
   url: https://arcturus.studio/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arcturusstudio/refs/heads/main/security/arcturusstudio-domain-security.yml
+  href: https://artifacts.apis.io/arcturusstudio/security/arcturusstudio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arcturusstudio-domain-security.yml
@@ -70,7 +72,7 @@ name: Arcturusstudio
 nav: Providers
 network: true
 overview: Arcturusstudio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, 3DVideo, Artificial Intelligence, and Broadcasting.
-random_paper: 13
+random_paper: 17
 score:
   band: minimal
   composite: 5.8
@@ -96,14 +98,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/arcturusstudio/refs/heads/main/screenshots/arcturusstudio-2026-10-11T100214.png
+screenshot: https://apis.io/screenshots/arcturusstudio/arcturusstudio-2026-10-11T100214.png
 security:
 - kind: domain-security
   name: Arcturusstudio Domain Security

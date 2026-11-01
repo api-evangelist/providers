@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 59.5
-  scored_at: '2026-10-17'
+  score: 53.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -46,7 +48,7 @@ agentic_access:
   operation_count: 29
   slug: zillapi-agentic-access
   summary_line: 29 operations · 3 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.zillapi.com
   baseurl_source: declared
@@ -83,15 +85,12 @@ apis:
   description: The Webhooks API from Zillapi — 3 operation(s) for webhooks.
   name: Zillapi Webhooks API
   slug: zillapi-webhooks-api
-artifact_total: 25
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Zillapi Webhooks
   slug: zillapi-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 'Zillapi: Zillow property data Account API'
   slug: open-zillapi-account-api
@@ -119,82 +118,82 @@ common:
   type: Website
   url: https://www.zillapi.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/capabilities/zillapi-capability-edges.yml
+  href: https://artifacts.apis.io/zillapi/capabilities/zillapi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zillapi-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/skills/zillapi-get-zestimate.md
+  href: https://artifacts.apis.io/zillapi/skills/zillapi-get-zestimate.md
   title: ''
   type: AgentSkill
   url: skills/zillapi-get-zestimate.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zillapi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/mcp/zillapi-mcp.yml
+  href: https://artifacts.apis.io/zillapi/mcp/zillapi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/zillapi-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/mcp/zillapi-server.json
+  href: https://artifacts.apis.io/zillapi/mcp/zillapi-server.json
   title: ''
   type: MCPServer
   url: mcp/zillapi-server.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/overlays/zillapi-openapi-overlay.yaml
+  href: https://artifacts.apis.io/zillapi/overlays/zillapi-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/zillapi-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/security/zillapi-domain-security.yml
+  href: https://artifacts.apis.io/zillapi/security/zillapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zillapi-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/agentic-access/zillapi-agentic-access.yml
+  href: https://artifacts.apis.io/zillapi/agentic-access/zillapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zillapi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/authentication/zillapi-authentication.yml
+  href: https://artifacts.apis.io/zillapi/authentication/zillapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zillapi-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/scopes/zillapi-scopes.yml
+  href: https://artifacts.apis.io/zillapi/scopes/zillapi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zillapi-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/conventions/zillapi-conventions.yml
+  href: https://artifacts.apis.io/zillapi/conventions/zillapi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zillapi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/errors/zillapi-error-codes.yml
+  href: https://artifacts.apis.io/zillapi/errors/zillapi-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/zillapi-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/lifecycle/zillapi-lifecycle.yml
+  href: https://artifacts.apis.io/zillapi/lifecycle/zillapi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zillapi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/conformance/zillapi-conformance.yml
+  href: https://artifacts.apis.io/zillapi/conformance/zillapi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zillapi-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/packages/zillapi-packages.yml
+  href: https://artifacts.apis.io/zillapi/packages/zillapi-packages.yml
   title: ''
   type: Packages
   url: packages/zillapi-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/well-known/zillapi-well-known.yml
+  href: https://artifacts.apis.io/zillapi/well-known/zillapi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zillapi-well-known.yml
@@ -203,22 +202,22 @@ common:
   type: APICatalog
   url: https://zillapi.com/.well-known/api-catalog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/asyncapi/zillapi-webhooks.yml
+  href: https://artifacts.apis.io/zillapi/asyncapi/zillapi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/zillapi-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/rate-limits/zillapi-rate-limits.yml
+  href: https://artifacts.apis.io/zillapi/rate-limits/zillapi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zillapi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/plans/zillapi-plans.yml
+  href: https://artifacts.apis.io/zillapi/plans/zillapi-plans.yml
   title: ''
   type: Plans
   url: plans/zillapi-plans.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/security/zillapi-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zillapi/security/zillapi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zillapi-vulnerability-disclosure.yml
@@ -276,6 +275,14 @@ common:
   url: mailto:hello@zillapi.com
 created: '2026-07-13'
 description: Independent third-party provider of Zillow-sourced U.S. residential property data via a REST API, hosted MCP server, and agent skills. Returns ~300+ fields per property including price, Zestimate, rent Zestimate, photos, schools, taxes, and full price history, plus listing search, building extraction, async batch jobs, and signed webhooks.
+finops:
+- has_sources: true
+  method: derived
+  name: Zillapi Finops
+  primary_unit: 1,000 credits
+  service_category: ''
+  slug: zillapi-finops
+  template: false
 image: https://zillapi.com/og.png
 layout: provider
 mcp_servers:
@@ -298,9 +305,12 @@ overview: 'Zillapi publishes 7 API contracts indexed on the [APIs.io](https://ap
   Zillapi''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Zillapi Plans
-  plan_count: 4
+  plan_count: 9
   slug: zillapi-plans
-random_paper: 9
+- name: Zillapi Price Estimates
+  plan_count: 0
+  slug: zillapi-price-estimates
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Zillapi Rate Limits
@@ -312,23 +322,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 63.9
+  composite: 66.2
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 61.0
+    artifact_dirs: 28
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 60.8
     developer_ergonomics: 64.3
-    discoverability: 85.0
-    operational_transparency: 52.6
-  previous_composite: 63.8
+    discoverability: 81.7
+    operational_transparency: 55.3
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -345,13 +355,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/screenshots/zillapi-2026-08-17T083106.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zillapi/zillapi-2026-08-17T083106.png
 security:
 - kind: authentication
   name: Zillapi Authentication
@@ -365,6 +376,18 @@ security:
   name: Zillapi Vulnerability Disclosure
   slug: zillapi-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 5
+skills:
+- name: get-zestimate
+  slug: zillapi-get-zestimate
+- name: lookup-zillow-property
+  slug: zillapi-lookup-zillow-property
+- name: zillow
+  slug: zillapi-plugin-zillow
+- name: search-zillow-listings
+  slug: zillapi-search-zillow-listings
+- name: verify-zillow-webhook
+  slug: zillapi-verify-zillow-webhook
 slug: zillapi
 tags:
 - Real Estate

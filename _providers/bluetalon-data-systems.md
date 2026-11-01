@@ -19,7 +19,7 @@ name: BlueTalon Data Systems
 nav: Providers
 network: true
 overview: BlueTalon Data Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Security, Access Control, Data Governance, and Data Masking.
-random_paper: 14
+random_paper: 2
 slug: bluetalon-data-systems
 tags:
 - Company

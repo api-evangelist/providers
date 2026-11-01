@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Aon Insights publishes research, reports, and the "On Aon" podcast across Trade, Technology, Weather, and Workforce themes, framed by "From navigating climate change to workforce resilience, today's l
@@ -41,12 +43,12 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aon/refs/heads/main/security/aon-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aon/security/aon-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aon-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aon/refs/heads/main/security/aon-domain-security.yml
+  href: https://artifacts.apis.io/aon/security/aon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aon-domain-security.yml
@@ -122,12 +124,12 @@ overview: 'Aon is listed with 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Aon''s developer surface includes YouTube channel and 16 more developer resources.'
-random_paper: 10
+random_paper: 6
 score:
   band: minimal
-  composite: 6.8
+  composite: 8.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -139,8 +141,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 58.0
-    operational_transparency: 0.0
+    discoverability: 58.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -149,21 +151,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 6.8
+  previous_composite: 8.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 10.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aon/refs/heads/main/screenshots/aon-2026-06-20T172037.png
+screenshot: https://apis.io/screenshots/aon/aon-2026-06-20T172037.png
 security:
 - kind: domain-security
   name: Aon Domain Security

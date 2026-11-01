@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for Beducated platform offering course data and user management.
@@ -32,17 +34,17 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beducated/refs/heads/main/vendors/beducated-vendors.yml
+  href: https://artifacts.apis.io/beducated/vendors/beducated-vendors.yml
   title: ''
   type: Vendors
   url: vendors/beducated-vendors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beducated/refs/heads/main/conformance/beducated-conformance.yml
+  href: https://artifacts.apis.io/beducated/conformance/beducated-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beducated-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beducated/refs/heads/main/hosts/beducated-hosts.yml
+  href: https://artifacts.apis.io/beducated/hosts/beducated-hosts.yml
   title: ''
   type: Hosts
   url: hosts/beducated-hosts.yml
@@ -59,7 +61,7 @@ common:
   type: Login
   url: https://my.beducated.com/login/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beducated/refs/heads/main/security/beducated-domain-security.yml
+  href: https://artifacts.apis.io/beducated/security/beducated-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beducated-domain-security.yml
@@ -107,7 +109,7 @@ overview: 'Beducated is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Beducated''s developer surface includes support, documentation, getting-started guide, and 10 more developer resources.'
-random_paper: 5
+random_paper: 17
 score:
   band: emerging
   composite: 20.2
@@ -136,14 +138,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/beducated/refs/heads/main/screenshots/beducated-2026-10-11T101725.png
+screenshot: https://apis.io/screenshots/beducated/beducated-2026-10-11T101725.png
 security:
 - kind: domain-security
   name: Beducated Domain Security

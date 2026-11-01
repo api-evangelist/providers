@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,9 +83,6 @@ apis:
 artifact_total: 19
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-bank-of-sydney-banking-account-balances-api
 - collection_type: open
@@ -106,17 +105,17 @@ collections:
   slug: open-bank-of-sydney-banking-products-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/capabilities/bank-of-sydney-capability-edges.yml
+  href: https://artifacts.apis.io/bank-of-sydney/capabilities/bank-of-sydney-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bank-of-sydney-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/agentic-access/bank-of-sydney-agentic-access.yml
+  href: https://artifacts.apis.io/bank-of-sydney/agentic-access/bank-of-sydney-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bank-of-sydney-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/security/bank-of-sydney-domain-security.yml
+  href: https://artifacts.apis.io/bank-of-sydney/security/bank-of-sydney-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bank-of-sydney-domain-security.yml
@@ -141,62 +140,62 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/bank-of-sydney
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/authentication/bank-of-sydney-authentication.yml
+  href: https://artifacts.apis.io/bank-of-sydney/authentication/bank-of-sydney-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bank-of-sydney-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/scopes/bank-of-sydney-scopes.yml
+  href: https://artifacts.apis.io/bank-of-sydney/scopes/bank-of-sydney-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bank-of-sydney-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/conventions/bank-of-sydney-conventions.yml
+  href: https://artifacts.apis.io/bank-of-sydney/conventions/bank-of-sydney-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bank-of-sydney-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/errors/bank-of-sydney-problem-types.yml
+  href: https://artifacts.apis.io/bank-of-sydney/errors/bank-of-sydney-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bank-of-sydney-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/lifecycle/bank-of-sydney-lifecycle.yml
+  href: https://artifacts.apis.io/bank-of-sydney/lifecycle/bank-of-sydney-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bank-of-sydney-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/lifecycle/bank-of-sydney-lifecycle.yml
+  href: https://artifacts.apis.io/bank-of-sydney/lifecycle/bank-of-sydney-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/bank-of-sydney-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/conformance/bank-of-sydney-conformance.yml
+  href: https://artifacts.apis.io/bank-of-sydney/conformance/bank-of-sydney-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bank-of-sydney-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/data-model/bank-of-sydney-data-model.yml
+  href: https://artifacts.apis.io/bank-of-sydney/data-model/bank-of-sydney-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bank-of-sydney-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/mcp/bank-of-sydney-mcp.yml
+  href: https://artifacts.apis.io/bank-of-sydney/mcp/bank-of-sydney-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bank-of-sydney-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/overlays/bank-of-sydney-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/bank-of-sydney/overlays/bank-of-sydney-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bank-of-sydney-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/llms/bank-of-sydney-llms.txt
+  href: https://artifacts.apis.io/bank-of-sydney/llms/bank-of-sydney-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bank-of-sydney-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/skills/bank-of-sydney-product-reference-data.md
+  href: https://artifacts.apis.io/bank-of-sydney/skills/bank-of-sydney-product-reference-data.md
   title: ''
   type: AgentSkill
   url: skills/bank-of-sydney-product-reference-data.md
@@ -212,7 +211,7 @@ overview: 'Bank of Sydney publishes 7 API contracts indexed on the [APIs.io](htt
 
 
   Bank of Sydney''s developer surface includes documentation, getting-started guide, API reference, authentication, and 16 more developer resources.'
-random_paper: 19
+random_paper: 15
 scopes:
 - name: Bank Of Sydney Scopes
   scope_count: 5
@@ -220,7 +219,7 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 30.4
+  composite: 31.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -243,7 +242,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 30.4
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -260,13 +259,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/screenshots/bank-of-sydney-2026-07-21T130910.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bank-of-sydney/bank-of-sydney-2026-07-21T130910.png
 security:
 - kind: authentication
   name: Bank Of Sydney Authentication
@@ -276,6 +276,10 @@ security:
   name: Bank Of Sydney Domain Security
   slug: bank-of-sydney-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: Get Bank of Sydney banking product reference data
+  slug: bank-of-sydney-product-reference-data
 slug: bank-of-sydney
 tags:
 - Finance

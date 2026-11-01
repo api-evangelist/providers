@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: WHU's federated login, published as a SAML 2.0 EntityDescriptor at https://idp.whu.edu.cn/idp/shibboleth (HTTP 200, application/xml, 14,864 bytes). Declares HTTP-Redirect, HTTP-POST and POST-SimpleSig
@@ -64,7 +66,7 @@ apis:
 artifact_total: 15
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wuhan/refs/heads/main/security/wuhan-domain-security.yml
+  href: https://artifacts.apis.io/wuhan/security/wuhan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wuhan-domain-security.yml
@@ -101,37 +103,37 @@ common:
   type: OpenData
   url: ftp://igs.gnsswhu.cn/pub/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wuhan/refs/heads/main/authentication/wuhan-authentication.yml
+  href: https://artifacts.apis.io/wuhan/authentication/wuhan-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wuhan-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wuhan/refs/heads/main/scopes/wuhan-scopes.yml
+  href: https://artifacts.apis.io/wuhan/scopes/wuhan-scopes.yml
   title: ''
   type: Scopes
   url: scopes/wuhan-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wuhan/refs/heads/main/conformance/wuhan-conformance.yml
+  href: https://artifacts.apis.io/wuhan/conformance/wuhan-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wuhan-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wuhan/refs/heads/main/plans/wuhan-plans-pricing.yml
+  href: https://artifacts.apis.io/wuhan/plans/wuhan-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wuhan-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wuhan/refs/heads/main/rate-limits/wuhan-rate-limits.yml
+  href: https://artifacts.apis.io/wuhan/rate-limits/wuhan-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wuhan-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wuhan/refs/heads/main/finops/wuhan-finops.yml
+  href: https://artifacts.apis.io/wuhan/finops/wuhan-finops.yml
   title: ''
   type: FinOps
   url: finops/wuhan-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wuhan/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/wuhan/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -182,7 +184,7 @@ coverage:
     url: https://api.datacite.org/clients?query=Wuhan%20University
   - status: 200
     url: https://api.ror.org/v2/organizations/033vjfk17
-  reason: no_public_api
+  reason: no-developer-program
   state: none
 created: '2026-06-03'
 description: 'Wuhan University (武汉大学, WHU), founded in 1893 in Wuhan, Hubei, is a comprehensive public research university under China''s Ministry of Education, a Double First-Class and former Project 985 institution, and is strongest in surveying, remote sensing, geoinformatics and GNSS. It operates no public developer portal, no open data portal and no documented public API: api., data., open. and developer. under whu.edu.cn do not resolve, /.well-known/apis.json, llms.txt, security.txt, robots.txt and sitemap.xml all return 404 on both the Chinese and English sites, and no OpenAPI, AsyncAPI or GraphQL contract exists anywhere in this profile. What it does operate, on its own CERNET address space, is an identity estate and a bulk research-data archive. Wuhan University runs a Shibboleth SAML 2.0 identity provider registered in CARSI, China''s national research-and-education federation and a production eduGAIN member, and a campus CAS single-sign-on server that publishes a live OpenID Connect
@@ -229,7 +231,7 @@ scopes:
   summary_line: 6 scopes
 score:
   band: emerging
-  composite: 18.3
+  composite: 18.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 52.0
@@ -237,14 +239,14 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 21.4
     discoverability: 71.4
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -252,7 +254,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 24.3
+  previous_composite: 18.6
   provenance:
     conformance: first-party
   regulatory:
@@ -261,14 +263,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wuhan/refs/heads/main/screenshots/wuhan-2026-06-20T201647.png
+screenshot: https://apis.io/screenshots/wuhan/wuhan-2026-06-20T201647.png
 security:
 - kind: authentication
   name: Wuhan Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: OpenStack-compatible REST API for Platform9 Private Cloud Director, covering Keystone identity/authentication, Nova compute, Cinder block storage, Neutron networking, Glance images, and a Kubernetes s
@@ -99,52 +101,52 @@ common:
   type: Deprecation
   url: https://docs.platform9.com/private-cloud-director/getting-started/host-operating-system-support-matrix
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/platform9/refs/heads/main/llms/platform9-llms.txt
+  href: https://artifacts.apis.io/platform9/llms/platform9-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/platform9-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/platform9/refs/heads/main/authentication/platform9-authentication.yml
+  href: https://artifacts.apis.io/platform9/authentication/platform9-authentication.yml
   title: ''
   type: Authentication
   url: authentication/platform9-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/platform9/refs/heads/main/cli/platform9-cli.yml
+  href: https://artifacts.apis.io/platform9/cli/platform9-cli.yml
   title: ''
   type: CLI
   url: cli/platform9-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/platform9/refs/heads/main/packages/platform9-packages.yml
+  href: https://artifacts.apis.io/platform9/packages/platform9-packages.yml
   title: ''
   type: Packages
   url: packages/platform9-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/platform9/refs/heads/main/conventions/platform9-conventions.yml
+  href: https://artifacts.apis.io/platform9/conventions/platform9-conventions.yml
   title: ''
   type: Conventions
   url: conventions/platform9-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/platform9/refs/heads/main/conformance/platform9-conformance.yml
+  href: https://artifacts.apis.io/platform9/conformance/platform9-conformance.yml
   title: ''
   type: Conformance
   url: conformance/platform9-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/platform9/refs/heads/main/conformance/platform9-conformance.yml
+  href: https://artifacts.apis.io/platform9/conformance/platform9-conformance.yml
   title: ''
   type: Compliance
   url: conformance/platform9-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/platform9/refs/heads/main/lifecycle/platform9-lifecycle.yml
+  href: https://artifacts.apis.io/platform9/lifecycle/platform9-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/platform9-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/platform9/refs/heads/main/changelog/platform9-changelog.yml
+  href: https://artifacts.apis.io/platform9/changelog/platform9-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/platform9-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/platform9/refs/heads/main/security/platform9-domain-security.yml
+  href: https://artifacts.apis.io/platform9/security/platform9-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/platform9-domain-security.yml
@@ -160,10 +162,10 @@ overview: 'Platform9 is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Platform9''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 2
+random_paper: 14
 score:
   band: thin
-  composite: 37.8
+  composite: 37.4
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -171,15 +173,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 37.7
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 37.4
   provenance:
     conformance: first-party
   regulatory:
@@ -188,14 +190,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/platform9/refs/heads/main/screenshots/platform9-2026-09-02T151434.png
+screenshot: https://apis.io/screenshots/platform9/platform9-2026-09-02T151434.png
 security:
 - kind: authentication
   name: Platform9 Authentication

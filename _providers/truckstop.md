@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: REST API for posting, updating, refreshing, and deleting loads on the Truckstop load board. Includes Load Boost for promoted visibility, pause/unpause for BIN loads, and tender management for booked l
@@ -63,7 +65,7 @@ apis:
 artifact_total: 12
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truckstop/refs/heads/main/security/truckstop-domain-security.yml
+  href: https://artifacts.apis.io/truckstop/security/truckstop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/truckstop-domain-security.yml
@@ -100,17 +102,17 @@ common:
   type: X
   url: https://x.com/trckstopdotcom
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/truckstop/refs/heads/main/plans/truckstop-plans-pricing.yml
+  href: https://artifacts.apis.io/truckstop/plans/truckstop-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/truckstop-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/truckstop/refs/heads/main/rate-limits/truckstop-rate-limits.yml
+  href: https://artifacts.apis.io/truckstop/rate-limits/truckstop-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/truckstop-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/truckstop/refs/heads/main/finops/truckstop-finops.yml
+  href: https://artifacts.apis.io/truckstop/finops/truckstop-finops.yml
   title: ''
   type: FinOps
   url: finops/truckstop-finops.yml
@@ -138,14 +140,14 @@ plans:
 - name: Truckstop Plans Pricing
   plan_count: 13
   slug: truckstop-plans-pricing
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Truckstop Rate Limits
   slug: truckstop-rate-limits
 score:
   band: emerging
-  composite: 18.6
+  composite: 19.6
   coverage:
     artifact_dirs: 8
     catalog_earned: 43.0
@@ -153,29 +155,29 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 24.0
     developer_ergonomics: 11.9
     discoverability: 71.4
-    operational_transparency: 13.2
-  previous_composite: 24.3
+    operational_transparency: 21.1
+  previous_composite: 19.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 5.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/truckstop/refs/heads/main/screenshots/truckstop-2026-06-20T195750.png
+screenshot: https://apis.io/screenshots/truckstop/truckstop-2026-06-20T195750.png
 security:
 - kind: domain-security
   name: Truckstop Domain Security

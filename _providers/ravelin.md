@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-10-17'
+  score: 24.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -102,11 +104,8 @@ apis:
   description: Voucher, promo, and payment-method voucher events.
   name: Ravelin Vouchers API
   slug: ravelin-vouchers-api
-artifact_total: 55
+artifact_total: 54
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ravelin Server 3D Secure API
   slug: open-ravelin-3d-secure-api
@@ -151,22 +150,22 @@ collections:
   slug: open-ravelin-vouchers-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ravelin/refs/heads/main/agentic-access/ravelin-agentic-access.yml
+  href: https://artifacts.apis.io/ravelin/agentic-access/ravelin-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ravelin-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ravelin/refs/heads/main/security/ravelin-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ravelin/security/ravelin-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ravelin-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ravelin/refs/heads/main/security/ravelin-domain-security.yml
+  href: https://artifacts.apis.io/ravelin/security/ravelin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ravelin-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ravelin/refs/heads/main/authentication/ravelin-authentication.yml
+  href: https://artifacts.apis.io/ravelin/authentication/ravelin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ravelin-authentication.yml
@@ -322,10 +321,10 @@ overview: 'Ravelin publishes 12 API contracts indexed on the [APIs.io](https://a
 
 
   Ravelin''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 25 more developer resources.'
-random_paper: 5
+random_paper: 9
 score:
-  band: thin
-  composite: 36.3
+  band: developing
+  composite: 47.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -333,14 +332,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 50.8
     developer_ergonomics: 61.9
     discoverability: 66.1
-    operational_transparency: 2.6
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -349,7 +348,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 36.2
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -362,14 +361,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 19.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 25.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ravelin/refs/heads/main/screenshots/ravelin-2026-06-20T192610.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ravelin/ravelin-2026-06-20T192610.png
 security:
 - kind: authentication
   name: Ravelin Authentication

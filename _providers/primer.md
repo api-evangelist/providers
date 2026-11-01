@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.4
-  scored_at: '2026-10-17'
+  score: 34.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: The Payments API API from Primer — 8 operation(s) for payments api.
   name: Primer Payments API
   slug: primer-payments-api-api
-artifact_total: 53
+artifact_total: 52
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Primer Client Session API API
   slug: open-primer-client-session-api-api
@@ -90,33 +89,37 @@ collections:
   name: Primer Client Session API Payments API API
   slug: open-primer-payments-api-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/primer/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/capabilities/primer-capability-edges.yml
+  href: https://artifacts.apis.io/primer/capabilities/primer-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/primer-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/agentic-access/primer-agentic-access.yml
+  href: https://artifacts.apis.io/primer/agentic-access/primer-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/primer-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/security/primer-trust-center.yml
+  href: https://artifacts.apis.io/primer/security/primer-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/primer-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/security/primer-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/primer/security/primer-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/primer-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/security/primer-domain-security.yml
+  href: https://artifacts.apis.io/primer/security/primer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/primer-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/authentication/primer-authentication.yml
+  href: https://artifacts.apis.io/primer/authentication/primer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/primer-authentication.yml
@@ -157,52 +160,52 @@ common:
   type: ChangeLog
   url: https://primer.io/docs/changelogs/android-sdk
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/plans/primer-plans-pricing.yml
+  href: https://artifacts.apis.io/primer/plans/primer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/primer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/rate-limits/primer-rate-limits.yml
+  href: https://artifacts.apis.io/primer/rate-limits/primer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/primer-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/finops/primer-finops.yml
+  href: https://artifacts.apis.io/primer/finops/primer-finops.yml
   title: ''
   type: FinOps
   url: finops/primer-finops.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/json-schema/primer-clientsession.json
+  href: https://artifacts.apis.io/primer/json-schema/primer-clientsession.json
   title: ''
   type: JSONSchema
   url: json-schema/primer-clientsession.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/json-schema/primer-paymentcreation.json
+  href: https://artifacts.apis.io/primer/json-schema/primer-paymentcreation.json
   title: ''
   type: JSONSchema
   url: json-schema/primer-paymentcreation.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/json-schema/primer-payment.json
+  href: https://artifacts.apis.io/primer/json-schema/primer-payment.json
   title: ''
   type: JSONSchema
   url: json-schema/primer-payment.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/json-schema/primer-paymentrefund.json
+  href: https://artifacts.apis.io/primer/json-schema/primer-paymentrefund.json
   title: ''
   type: JSONSchema
   url: json-schema/primer-paymentrefund.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/json-schema/primer-paymentcapture.json
+  href: https://artifacts.apis.io/primer/json-schema/primer-paymentcapture.json
   title: ''
   type: JSONSchema
   url: json-schema/primer-paymentcapture.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/vocabulary/primer-vocabulary.yml
+  href: https://artifacts.apis.io/primer/vocabulary/primer-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/primer-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/json-ld/primer-context.jsonld
+  href: https://artifacts.apis.io/primer/json-ld/primer-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/primer-context.jsonld
@@ -331,12 +334,12 @@ overview: 'Primer publishes 5 API contracts indexed on the [APIs.io](https://api
   The Primer catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Primer''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 20 more developer resources.'
+  Primer''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 21 more developer resources.'
 plans:
 - name: Primer Plans Pricing
   plan_count: 2
   slug: primer-plans-pricing
-random_paper: 17
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Primer Rate Limits
@@ -355,23 +358,23 @@ rules:
   slug: primer-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 39.8
+  composite: 42.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 60.8
     catalog_earned_first_party: 0.0
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.2
   facets:
     access_clarity: 23.7
     contract_governance: 23.5
     contract_quality: 55.2
-    developer_ergonomics: 31.0
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 42.1
-  previous_composite: 46.7
+    operational_transparency: 55.3
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -385,13 +388,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/screenshots/primer-2026-06-20T192104.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/primer/primer-2026-06-20T192104.png
 security:
 - kind: authentication
   name: Primer Authentication

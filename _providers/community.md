@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 31.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -65,15 +67,12 @@ apis:
   description: The tags API from Community — 4 operation(s) for tags.
   name: Community Tags API
   slug: community-tags-api
-artifact_total: 16
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Community Webhooks
   slug: community-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Async REST member-data API
   slug: open-community-member-data-api
@@ -85,7 +84,7 @@ collections:
   slug: open-community-tags-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/capabilities/community-capability-edges.yml
+  href: https://artifacts.apis.io/community/capabilities/community-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/community-capability-edges.yml
@@ -106,22 +105,22 @@ common:
   type: GettingStarted
   url: https://developer.community.com/reference/getting-started-with-your-api
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/llms/community-llms.txt
+  href: https://artifacts.apis.io/community/llms/community-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/community-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/mcp/community-mcp.yml
+  href: https://artifacts.apis.io/community/mcp/community-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/community-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/overlays/community-async-overlay.yaml
+  href: https://artifacts.apis.io/community/overlays/community-async-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/community-async-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/conformance/community-conformance.yml
+  href: https://artifacts.apis.io/community/conformance/community-conformance.yml
   title: ''
   type: Conformance
   url: conformance/community-conformance.yml
@@ -130,72 +129,72 @@ common:
   type: Compliance
   url: https://trust.community.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/errors/community-problem-types.yml
+  href: https://artifacts.apis.io/community/errors/community-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/community-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/lifecycle/community-lifecycle.yml
+  href: https://artifacts.apis.io/community/lifecycle/community-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/community-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/conventions/community-conventions.yml
+  href: https://artifacts.apis.io/community/conventions/community-conventions.yml
   title: ''
   type: Conventions
   url: conventions/community-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/data-model/community-data-model.yml
+  href: https://artifacts.apis.io/community/data-model/community-data-model.yml
   title: ''
   type: DataModel
   url: data-model/community-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/asyncapi/community-webhooks.yml
+  href: https://artifacts.apis.io/community/asyncapi/community-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/community-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/community/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/agentic-access/community-agentic-access.yml
+  href: https://artifacts.apis.io/community/agentic-access/community-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/community-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/security/community-trust-center.yml
+  href: https://artifacts.apis.io/community/security/community-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/community-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/security/community-domain-security.yml
+  href: https://artifacts.apis.io/community/security/community-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/community-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/scopes/community-scopes.yml
+  href: https://artifacts.apis.io/community/scopes/community-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/community-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/authentication/community-authentication.yml
+  href: https://artifacts.apis.io/community/authentication/community-authentication.yml
   title: ''
   type: Authentication
   url: authentication/community-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/packages/community-packages.yml
+  href: https://artifacts.apis.io/community/packages/community-packages.yml
   title: ''
   type: Packages
   url: packages/community-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/plans/community-plans-pricing.yml
+  href: https://artifacts.apis.io/community/plans/community-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/community-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/rate-limits/community-rate-limits.yml
+  href: https://artifacts.apis.io/community/rate-limits/community-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/community-rate-limits.yml
@@ -233,6 +232,14 @@ common:
   url: https://community.com/
 created: '2026-07-17'
 description: 'Community is a conversational messaging platform that lets brands, creators, artists, sports teams, media companies, and political organizations reach their audiences directly over SMS, MMS, WhatsApp, Apple Messages for Business, and RCS. Founded in 2019 and remote-first, Community pairs a campaign-and-flows product with a developer surface: an Async REST API to send Direct Messages, create and update members, set custom member data, manage subcommunities (tags), and opt members out; a Data Export API for member, campaign, and link analytics snapshots; and outbound webhooks for inbound/outbound messages and member lifecycle events. API access is provisioned per account by the Community team rather than self-serve.'
+finops:
+- has_sources: true
+  method: derived
+  name: Community Finops
+  primary_unit: ''
+  service_category: ''
+  slug: community-finops
+  template: true
 image: https://community.com/og-image.jpg
 layout: provider
 modified: '2026-08-13'
@@ -250,7 +257,7 @@ plans:
 - name: Community Plans Pricing
   plan_count: 3
   slug: community-plans-pricing
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Community Rate Limits
@@ -261,10 +268,10 @@ scopes:
   slug: community-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 54.1
+  band: strong
+  composite: 54.7
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -275,10 +282,10 @@ score:
     access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 54.2
-    developer_ergonomics: 44.6
-    discoverability: 73.2
+    developer_ergonomics: 58.9
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 54.1
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,13 +302,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/screenshots/community-2026-07-25T210140.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/community/community-2026-07-25T210140.png
 security:
 - kind: authentication
   name: Community Authentication
@@ -315,6 +323,12 @@ security:
   name: Community Trust Center
   slug: community-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 2
+skills:
+- name: Onboard and segment a Community member
+  slug: community-onboard-and-segment-member
+- name: Send a direct message to a Community member
+  slug: community-send-direct-message
 slug: community
 tags:
 - Messaging

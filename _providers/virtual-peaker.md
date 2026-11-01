@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.2
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -84,7 +86,7 @@ apis:
   description: 'All of the endpoints below allow the Device Partner to publish data to the Virtual Peaker platform, which avoids Virtual Peaker having to constantly poll the data when there haven''t been any changes. '
   name: Virtual Peaker Publishing API
   slug: virtual-peaker-publishing-api
-artifact_total: 16
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Virtual Peaker Gravity Connect Webhooks
@@ -101,42 +103,42 @@ collections:
   slug: open-virtual-peaker-gravity-connect-vpp-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/capabilities/virtual-peaker-capability-edges.yml
+  href: https://artifacts.apis.io/virtual-peaker/capabilities/virtual-peaker-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/virtual-peaker-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/overlays/virtual-peaker-gravity-connect-device-partner-api-overlay.yaml
+  href: https://artifacts.apis.io/virtual-peaker/overlays/virtual-peaker-gravity-connect-device-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/virtual-peaker-gravity-connect-device-partner-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/overlays/virtual-peaker-gravity-connect-vpp-api-overlay.yaml
+  href: https://artifacts.apis.io/virtual-peaker/overlays/virtual-peaker-gravity-connect-vpp-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/virtual-peaker-gravity-connect-vpp-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/mcp/virtual-peaker-mcp.yml
+  href: https://artifacts.apis.io/virtual-peaker/mcp/virtual-peaker-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/virtual-peaker-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/agentic-access/virtual-peaker-agentic-access.yml
+  href: https://artifacts.apis.io/virtual-peaker/agentic-access/virtual-peaker-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/virtual-peaker-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/security/virtual-peaker-domain-security.yml
+  href: https://artifacts.apis.io/virtual-peaker/security/virtual-peaker-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/virtual-peaker-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/scopes/virtual-peaker-scopes.yml
+  href: https://artifacts.apis.io/virtual-peaker/scopes/virtual-peaker-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/virtual-peaker-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/authentication/virtual-peaker-authentication.yml
+  href: https://artifacts.apis.io/virtual-peaker/authentication/virtual-peaker-authentication.yml
   title: ''
   type: Authentication
   url: authentication/virtual-peaker-authentication.yml
@@ -209,7 +211,7 @@ common:
   type: LLMsTxt
   url: https://virtual-peaker.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/llms/virtual-peaker-llms.txt
+  href: https://artifacts.apis.io/virtual-peaker/llms/virtual-peaker-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/virtual-peaker-llms.txt
@@ -218,52 +220,52 @@ common:
   type: llmsTxt
   url: https://virtual-peaker.com/llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/conventions/virtual-peaker-conventions.yml
+  href: https://artifacts.apis.io/virtual-peaker/conventions/virtual-peaker-conventions.yml
   title: ''
   type: Conventions
   url: conventions/virtual-peaker-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/errors/virtual-peaker-problem-types.yml
+  href: https://artifacts.apis.io/virtual-peaker/errors/virtual-peaker-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/virtual-peaker-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/lifecycle/virtual-peaker-lifecycle.yml
+  href: https://artifacts.apis.io/virtual-peaker/lifecycle/virtual-peaker-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/virtual-peaker-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/changelog/virtual-peaker-changelog.yml
+  href: https://artifacts.apis.io/virtual-peaker/changelog/virtual-peaker-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/virtual-peaker-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/conformance/virtual-peaker-conformance.yml
+  href: https://artifacts.apis.io/virtual-peaker/conformance/virtual-peaker-conformance.yml
   title: ''
   type: Conformance
   url: conformance/virtual-peaker-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/data-model/virtual-peaker-data-model.yml
+  href: https://artifacts.apis.io/virtual-peaker/data-model/virtual-peaker-data-model.yml
   title: ''
   type: DataModel
   url: data-model/virtual-peaker-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/sandbox/virtual-peaker-sandbox.yml
+  href: https://artifacts.apis.io/virtual-peaker/sandbox/virtual-peaker-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/virtual-peaker-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/asyncapi/virtual-peaker-gravity-connect-webhooks.yml
+  href: https://artifacts.apis.io/virtual-peaker/asyncapi/virtual-peaker-gravity-connect-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/virtual-peaker-gravity-connect-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/virtual-peaker/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/packages/virtual-peaker-packages.yml
+  href: https://artifacts.apis.io/virtual-peaker/packages/virtual-peaker-packages.yml
   title: ''
   type: Packages
   url: packages/virtual-peaker-packages.yml
@@ -283,7 +285,7 @@ overview: 'Virtual Peaker publishes 8 API contracts indexed on the [APIs.io](htt
 
 
   Virtual Peaker''s developer surface includes authentication, documentation, API reference, engineering blog, support, getting-started guide, changelog, and 30 more developer resources.'
-random_paper: 0
+random_paper: 12
 scopes:
 - name: Virtual Peaker Scopes
   scope_count: 3
@@ -291,7 +293,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 46.4
+  composite: 48.2
   coverage:
     artifact_dirs: 26
     catalog_earned: 37.0
@@ -301,12 +303,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 53.1
+    contract_quality: 50.6
     developer_ergonomics: 61.3
     discoverability: 73.2
-    operational_transparency: 26.3
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -314,7 +316,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 46.4
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -331,13 +333,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/screenshots/virtual-peaker-2026-08-17T082758.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/virtual-peaker/virtual-peaker-2026-08-17T082758.png
 security:
 - kind: authentication
   name: Virtual Peaker Authentication
@@ -347,6 +350,16 @@ security:
   name: Virtual Peaker Domain Security
   slug: virtual-peaker-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Dispatch and settle a demand response event over Gravity Connect
+  slug: virtual-peaker-dispatch-demand-response-event
+- name: Enroll a DER device via Gravity Connect OAuth Device Discovery
+  slug: virtual-peaker-oauth-device-enrollment
+- name: Enroll utility-commissioned devices with Gravity Connect pairing codes
+  slug: virtual-peaker-pairing-code-enrollment
+- name: Publish device telemetry to Virtual Peaker with HMAC signing
+  slug: virtual-peaker-publish-device-telemetry
 slug: virtual-peaker
 tags:
 - Energy

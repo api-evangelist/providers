@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 2.9
-  scored_at: '2026-10-17'
+  score: 6.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API documentation is available at the provider's docs site.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oneidentity/refs/heads/main/hosts/oneidentity-hosts.yml
+  href: https://artifacts.apis.io/oneidentity/hosts/oneidentity-hosts.yml
   title: ''
   type: Hosts
   url: hosts/oneidentity-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oneidentity/refs/heads/main/vendors/oneidentity-vendors.yml
+  href: https://artifacts.apis.io/oneidentity/vendors/oneidentity-vendors.yml
   title: ''
   type: Vendors
   url: vendors/oneidentity-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oneidentity/refs/heads/main/packages/oneidentity-packages.yml
+  href: https://artifacts.apis.io/oneidentity/packages/oneidentity-packages.yml
   title: ''
   type: SDKs
   url: packages/oneidentity-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oneidentity/refs/heads/main/packages/oneidentity-packages.yml
+  href: https://artifacts.apis.io/oneidentity/packages/oneidentity-packages.yml
   title: ''
   type: Packages
   url: packages/oneidentity-packages.yml
@@ -64,7 +66,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/OneIdentity
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oneidentity/refs/heads/main/security/oneidentity-domain-security.yml
+  href: https://artifacts.apis.io/oneidentity/security/oneidentity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oneidentity-domain-security.yml
@@ -91,7 +93,7 @@ overview: 'One Identity is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   One Identity''s developer surface includes documentation and 8 more developer resources.'
-random_paper: 8
+random_paper: 20
 score:
   band: minimal
   composite: 9.3
@@ -102,7 +104,7 @@ score:
     catalog_gap: 95.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -110,7 +112,7 @@ score:
     developer_ergonomics: 16.7
     discoverability: 42.9
     operational_transparency: 5.3
-  previous_composite: 9.2
+  previous_composite: 9.3
   provenance:
     mcp: unknown
   regulatory:
@@ -119,8 +121,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

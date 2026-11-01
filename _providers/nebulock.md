@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -71,11 +73,8 @@ arazzos:
 - description: Validate rule content, create it inactive, then activate it.
   name: Validate and deploy a Nebulock detection rule
   slug: nebulock-validate-and-deploy-rule
-artifact_total: 14
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nebulock Public Entities API
   slug: open-nebulock-entities-api
@@ -90,7 +89,7 @@ collections:
   slug: open-nebulock-rules-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/capabilities/nebulock-capability-edges.yml
+  href: https://artifacts.apis.io/nebulock/capabilities/nebulock-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nebulock-capability-edges.yml
@@ -127,77 +126,77 @@ common:
   type: TrustCenter
   url: https://trust.nebulock.io/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/openapi/_original/nebulock-openapi.yml
+  href: https://artifacts.apis.io/nebulock/openapi/_original/nebulock-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/nebulock-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/authentication/nebulock-authentication.yml
+  href: https://artifacts.apis.io/nebulock/authentication/nebulock-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nebulock-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/agentic-access/nebulock-agentic-access.yml
+  href: https://artifacts.apis.io/nebulock/agentic-access/nebulock-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nebulock-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/security/nebulock-domain-security.yml
+  href: https://artifacts.apis.io/nebulock/security/nebulock-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nebulock-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/mcp/nebulock-mcp.yml
+  href: https://artifacts.apis.io/nebulock/mcp/nebulock-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nebulock-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/overlays/nebulock-overlay.yaml
+  href: https://artifacts.apis.io/nebulock/overlays/nebulock-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nebulock-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/conformance/nebulock-conformance.yml
+  href: https://artifacts.apis.io/nebulock/conformance/nebulock-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nebulock-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/errors/nebulock-problem-types.yml
+  href: https://artifacts.apis.io/nebulock/errors/nebulock-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nebulock-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/lifecycle/nebulock-lifecycle.yml
+  href: https://artifacts.apis.io/nebulock/lifecycle/nebulock-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nebulock-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/conventions/nebulock-conventions.yml
+  href: https://artifacts.apis.io/nebulock/conventions/nebulock-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nebulock-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/data-model/nebulock-data-model.yml
+  href: https://artifacts.apis.io/nebulock/data-model/nebulock-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nebulock-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/llms/nebulock-llms.txt
+  href: https://artifacts.apis.io/nebulock/llms/nebulock-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nebulock-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nebulock/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/arazzo/nebulock-run-hunt-and-report.yml
+  href: https://artifacts.apis.io/nebulock/arazzo/nebulock-run-hunt-and-report.yml
   title: ''
   type: Arazzo
   url: arazzo/nebulock-run-hunt-and-report.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/arazzo/nebulock-validate-and-deploy-rule.yml
+  href: https://artifacts.apis.io/nebulock/arazzo/nebulock-validate-and-deploy-rule.yml
   title: ''
   type: Arazzo
   url: arazzo/nebulock-validate-and-deploy-rule.yml
@@ -217,10 +216,10 @@ overview: 'Nebulock publishes 4 API contracts indexed on the [APIs.io](https://a
 
 
   Nebulock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 15
+random_paper: 11
 score:
   band: thin
-  composite: 28.8
+  composite: 32.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -232,11 +231,11 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 4.5
-    contract_quality: 49.0
-    developer_ergonomics: 32.7
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 28.8
+    contract_quality: 47.8
+    developer_ergonomics: 49.4
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,13 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/screenshots/nebulock-2026-08-07T184813.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nebulock/nebulock-2026-08-07T184813.png
 security:
 - kind: authentication
   name: Nebulock Authentication
@@ -269,6 +269,14 @@ security:
   name: Nebulock Domain Security
   slug: nebulock-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Author and deploy Nebulock detection rules
+  slug: nebulock-manage-detection-rules
+- name: Run a threat hunt and generate a report
+  slug: nebulock-run-a-hunt
+- name: Triage Nebulock security findings
+  slug: nebulock-triage-findings
 slug: nebulock
 tags:
 - Company

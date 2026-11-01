@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Developer portal for Avero providing API documentation and resources.
@@ -36,27 +38,27 @@ common:
   type: Pricing
   url: https://averoinc.com/packages/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/avero/refs/heads/main/plans/avero-plans-pricing.yml
+  href: https://artifacts.apis.io/avero/plans/avero-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/avero-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avero/refs/heads/main/well-known/avero-status-security.txt
+  href: https://artifacts.apis.io/avero/well-known/avero-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/avero-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avero/refs/heads/main/well-known/avero-well-known.yml
+  href: https://artifacts.apis.io/avero/well-known/avero-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/avero-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avero/refs/heads/main/hosts/avero-hosts.yml
+  href: https://artifacts.apis.io/avero/hosts/avero-hosts.yml
   title: ''
   type: Hosts
   url: hosts/avero-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avero/refs/heads/main/vendors/avero-vendors.yml
+  href: https://artifacts.apis.io/avero/vendors/avero-vendors.yml
   title: ''
   type: Vendors
   url: vendors/avero-vendors.yml
@@ -81,7 +83,7 @@ common:
   type: Documentation
   url: https://developer.averoinc.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avero/refs/heads/main/security/avero-domain-security.yml
+  href: https://artifacts.apis.io/avero/security/avero-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/avero-domain-security.yml
@@ -119,7 +121,7 @@ plans:
 random_paper: 13
 score:
   band: emerging
-  composite: 23.5
+  composite: 24.8
   coverage:
     artifact_dirs: 6
     catalog_earned: 37.0
@@ -127,29 +129,29 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 44.6
-    operational_transparency: 15.8
-  previous_composite: 21.3
+    operational_transparency: 26.3
+  previous_composite: 24.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/avero/refs/heads/main/screenshots/avero-2026-10-11T101155.png
+screenshot: https://apis.io/screenshots/avero/avero-2026-10-11T101155.png
 security:
 - kind: domain-security
   name: Avero Domain Security

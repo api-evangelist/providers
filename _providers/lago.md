@@ -24,18 +24,20 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.6
-  scored_at: '2026-10-17'
+  score: 31.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -130,11 +132,68 @@ apis:
   description: Everything about Webhooks
   name: Lago Webhooks API
   slug: lago-webhooks-api
-artifact_total: 46
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Activity logs
+  name: Lago Activity Logs API
+  slug: lago-activity-logs-api
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about API logs
+  name: Lago API Logs API
+  slug: lago-api-logs-api
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Billing Entities
+  name: Lago Billing Entities API
+  slug: lago-billing-entities-api
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Entitlement collection
+  name: Lago Entitlements API
+  slug: lago-entitlements-api
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Feature collection
+  name: Lago Features API
+  slug: lago-features-api
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: The Lago API Documentation API from Lago — 0 operation(s) for lago api documentation.
+  name: Lago Lago API Documentation API
+  slug: lago-lago-api-documentation-api
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Order form collection
+  name: Lago Order Forms API
+  slug: lago-order-forms-api
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Order collection
+  name: Lago Orders API
+  slug: lago-orders-api
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Payment Methods
+  name: Lago Payment Methods API
+  slug: lago-payment-methods-api
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Payment receipts
+  name: Lago Payment Receipts API
+  slug: lago-payment-receipts-api
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Payments
+  name: Lago Payments API
+  slug: lago-payments-api
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Quote collection
+  name: Lago Quotes API
+  slug: lago-quotes-api
+artifact_total: 57
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Lago API documentation Add_ons API
   slug: open-lago-add-ons-api
@@ -191,47 +250,47 @@ collections:
   slug: open-lago
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/plans/lago-plans-pricing.yml
+  href: https://artifacts.apis.io/lago/plans/lago-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lago-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/rate-limits/lago-rate-limits.yml
+  href: https://artifacts.apis.io/lago/rate-limits/lago-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lago-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/finops/lago-finops.yml
+  href: https://artifacts.apis.io/lago/finops/lago-finops.yml
   title: ''
   type: FinOps
   url: finops/lago-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/capabilities/lago-capability-edges.yml
+  href: https://artifacts.apis.io/lago/capabilities/lago-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lago-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/agentic-access/lago-agentic-access.yml
+  href: https://artifacts.apis.io/lago/agentic-access/lago-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lago-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/security/lago-trust-center.yml
+  href: https://artifacts.apis.io/lago/security/lago-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lago-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/security/lago-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lago/security/lago-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lago-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/security/lago-domain-security.yml
+  href: https://artifacts.apis.io/lago/security/lago-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lago-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/authentication/lago-authentication.yml
+  href: https://artifacts.apis.io/lago/authentication/lago-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lago-authentication.yml
@@ -273,7 +332,7 @@ finops:
 - has_sources: false
   method: generated
   name: Lago Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: lago-finops
   template: true
@@ -287,7 +346,7 @@ modified: '2026-05-19'
 name: Lago
 nav: Providers
 network: true
-overview: 'Lago publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Add_ons API, Analytics API, Billable_metrics API, and 14 more. Tagged areas include Billing, Metering, Open Source, and Usage-Based.
+overview: 'Lago publishes 29 API contracts indexed on the [APIs.io](https://apis.io/) network, including Add_ons API, Analytics API, Billable_metrics API, and 26 more. Tagged areas include Billing, Metering, Open Source, and Usage-Based.
 
 
   The Lago catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -298,7 +357,7 @@ plans:
 - name: Lago Plans Pricing
   plan_count: 3
   slug: lago-plans-pricing
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Lago Rate Limits
@@ -318,30 +377,30 @@ rules:
   slug: lago-lago-openapi-spectral-rules
 score:
   band: thin
-  composite: 38.4
+  composite: 39.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 43.0
     catalog_earned_first_party: 15.0
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.9
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 45.5
-    contract_quality: 56.8
-    developer_ergonomics: 30.2
-    discoverability: 50.0
-    operational_transparency: 10.5
-  previous_composite: 34.5
+    contract_quality: 53.3
+    developer_ergonomics: 42.1
+    discoverability: 46.4
+    operational_transparency: 23.7
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 17
+      total: 46
     mcp: first-party
   regulatory:
     applies: true
@@ -349,13 +408,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/screenshots/lago-2026-06-20T184248.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lago/lago-2026-06-20T184248.png
 security:
 - kind: authentication
   name: Lago Authentication

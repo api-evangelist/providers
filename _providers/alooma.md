@@ -12,12 +12,12 @@ api_count: 0
 artifact_total: 0
 common:
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alooma/refs/heads/main/packages/alooma-packages.yml
+  href: https://artifacts.apis.io/alooma/packages/alooma-packages.yml
   title: ''
   type: Packages
   url: packages/alooma-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alooma/refs/heads/main/packages/alooma-packages.yml
+  href: https://artifacts.apis.io/alooma/packages/alooma-packages.yml
   title: ''
   type: SDKs
   url: packages/alooma-packages.yml
@@ -30,7 +30,7 @@ name: Alooma
 nav: Providers
 network: true
 overview: Alooma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ETL, Data Integration, Data Pipeline, and Data Warehouse.
-random_paper: 17
+random_paper: 9
 slug: alooma
 tags:
 - Company

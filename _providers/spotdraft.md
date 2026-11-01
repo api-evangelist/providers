@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.5
-  scored_at: '2026-10-17'
+  score: 27.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 1
@@ -285,7 +287,7 @@ apis:
   description: List users, list roles, manage role membership, invite users, and update user access across public API versions.
   name: SpotDraft V2 Users API
   slug: spotdraft-v2-users-api
-artifact_total: 165
+artifact_total: 164
 collections:
 - collection_type: postman
   name: SpotDraft V1 Contract APIs API
@@ -431,9 +433,6 @@ collections:
 - collection_type: postman
   name: SpotDraft V1 Contract APIs V2 Users API
   slug: postman-spotdraft-v2-users-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SpotDraft V1 Contract APIs API
   slug: open-spotdraft-v1-contract-apis-api
@@ -583,22 +582,22 @@ collections:
   slug: open-spotdraft
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/plans/spotdraft-plans-pricing.yml
+  href: https://artifacts.apis.io/spotdraft/plans/spotdraft-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spotdraft-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/rate-limits/spotdraft-rate-limits.yml
+  href: https://artifacts.apis.io/spotdraft/rate-limits/spotdraft-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spotdraft-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/finops/spotdraft-finops.yml
+  href: https://artifacts.apis.io/spotdraft/finops/spotdraft-finops.yml
   title: ''
   type: FinOps
   url: finops/spotdraft-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/capabilities/spotdraft-capability-edges.yml
+  href: https://artifacts.apis.io/spotdraft/capabilities/spotdraft-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spotdraft-capability-edges.yml
@@ -607,22 +606,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/spotdraft/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/agentic-access/spotdraft-agentic-access.yml
+  href: https://artifacts.apis.io/spotdraft/agentic-access/spotdraft-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spotdraft-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/security/spotdraft-trust-center.yml
+  href: https://artifacts.apis.io/spotdraft/security/spotdraft-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/spotdraft-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/security/spotdraft-domain-security.yml
+  href: https://artifacts.apis.io/spotdraft/security/spotdraft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spotdraft-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/authentication/spotdraft-authentication.yml
+  href: https://artifacts.apis.io/spotdraft/authentication/spotdraft-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spotdraft-authentication.yml
@@ -713,12 +712,12 @@ examples:
   slug: spotdraft-webhook-event-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Spotdraft Finops
   primary_unit: ''
-  service_category: Business Applications
+  service_category: ''
   slug: spotdraft-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spotdraft.png
 json_schemas:
 - name: SpotDraft Clickwrap
@@ -758,9 +757,9 @@ overview: 'SpotDraft publishes 48 API contracts indexed on the [APIs.io](https:/
   SpotDraft''s developer surface includes authentication, documentation, support, pricing, signup flow, engineering blog, GitHub presence, and 20 more developer resources.'
 plans:
 - name: Spotdraft Plans Pricing
-  plan_count: 4
+  plan_count: 0
   slug: spotdraft-plans-pricing
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Spotdraft Rate Limits
@@ -791,21 +790,21 @@ rules:
   slug: spotdraft-rules
 score:
   band: developing
-  composite: 43.7
+  composite: 46.8
   coverage:
     artifact_dirs: 20
-    catalog_earned: 66.0
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: -6.3
   facets:
-    access_clarity: 35.5
+    access_clarity: 52.6
     contract_governance: 27.3
-    contract_quality: 62.0
+    contract_quality: 61.3
     developer_ergonomics: 29.8
-    discoverability: 67.0
+    discoverability: 67.9
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -814,7 +813,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 49.3
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     contracts:
@@ -827,14 +826,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: falling
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/screenshots/spotdraft-2026-06-20T194352.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spotdraft/spotdraft-2026-06-20T194352.png
 security:
 - kind: authentication
   name: Spotdraft Authentication

@@ -27,17 +27,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 58.0
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 52.1
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: The original Cobot REST API, still available and still the only surface that carries the webhook subscription API. Documented per-resource on dev.cobot.me/api-docs; Cobot directs new integrations to A
   name: Cobot API v1 (legacy)
@@ -255,15 +257,12 @@ apis:
   description: Confirms if a given email address is free to take.
   name: Cobot User Email Preview API
   slug: cobot-user-email-preview-api
-artifact_total: 90
+artifact_total: 95
 asyncapis:
 - description: ''
   name: Cobot Webhooks
   slug: cobot-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cobot Allocation API
   slug: open-cobot-allocation-api
@@ -385,13 +384,18 @@ collections:
   name: Cobot User API
   slug: open-cobot-user-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/cobot/plans/cobot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cobot-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/capabilities/cobot-capability-edges.yml
+  href: https://artifacts.apis.io/cobot/capabilities/cobot-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cobot-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/overlays/cobot-api2-overlay.yaml
+  href: https://artifacts.apis.io/cobot/overlays/cobot-api2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cobot-api2-overlay.yaml
@@ -464,92 +468,100 @@ common:
   type: ChangeLog
   url: https://www.cobot.me/pages/api_changes
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/packages/cobot-packages.yml
+  href: https://artifacts.apis.io/cobot/packages/cobot-packages.yml
   title: ''
   type: Packages
   url: packages/cobot-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/packages/cobot-packages.yml
+  href: https://artifacts.apis.io/cobot/packages/cobot-packages.yml
   title: ''
   type: SDKs
   url: packages/cobot-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/well-known/cobot-well-known.yml
+  href: https://artifacts.apis.io/cobot/well-known/cobot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cobot-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/llms/cobot-llms.txt
+  href: https://artifacts.apis.io/cobot/llms/cobot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cobot-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/mcp/cobot-mcp.yml
+  href: https://artifacts.apis.io/cobot/mcp/cobot-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cobot-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/mcp/cobot-tool-crosswalk.yml
+  href: https://artifacts.apis.io/cobot/mcp/cobot-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/cobot-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/asyncapi/cobot-webhooks.yml
+  href: https://artifacts.apis.io/cobot/asyncapi/cobot-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cobot-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cobot/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/conventions/cobot-conventions.yml
+  href: https://artifacts.apis.io/cobot/conventions/cobot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cobot-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/conformance/cobot-conformance.yml
+  href: https://artifacts.apis.io/cobot/conformance/cobot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cobot-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/errors/cobot-problem-types.yml
+  href: https://artifacts.apis.io/cobot/errors/cobot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cobot-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/lifecycle/cobot-lifecycle.yml
+  href: https://artifacts.apis.io/cobot/lifecycle/cobot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cobot-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/data-model/cobot-data-model.yml
+  href: https://artifacts.apis.io/cobot/data-model/cobot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cobot-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/changelog/cobot-changelog.yml
+  href: https://artifacts.apis.io/cobot/changelog/cobot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cobot-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/security/cobot-domain-security.yml
+  href: https://artifacts.apis.io/cobot/security/cobot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cobot-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/authentication/cobot-authentication.yml
+  href: https://artifacts.apis.io/cobot/authentication/cobot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cobot-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/scopes/cobot-scopes.yml
+  href: https://artifacts.apis.io/cobot/scopes/cobot-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cobot-scopes.yml
 created: '2026-08-09'
 description: 'Cobot is coworking and flexible-workspace management software, built and operated by Upstream - Agile GmbH in Berlin, Germany. It runs the day-to-day of a coworking space or space network from one platform: memberships and plans, resource and meeting-room bookings, drop-in passes, events and ticketing, check-ins, automated invoicing and online payments, a white-label member portal and mobile app, analytics, and door access-control integrations (Kisi, Salto KS, Tapkey, Sensorberg, dormakaba Exivo). Cobot publishes a genuinely open developer surface: a 134-operation OpenAPI 3.1 contract for API 2 that follows the JSON:API standard, a legacy v1 REST API with a documented webhook event catalog, OAuth 2.0 with authorization-code + PKCE and dynamic client registration, OpenID Connect, an RFC 9727 api-catalog document, RFC 9728 protected-resource metadata, an llms.txt, and an OAuth-protected hosted MCP server at api.cobot.me/mcp.'
+finops:
+- has_sources: true
+  method: derived
+  name: Cobot Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: cobot-finops
+  template: false
 image: https://dev.cobot.me/api2_logo.webp
 layout: provider
 mcp_servers:
@@ -566,7 +578,14 @@ overview: 'Cobot publishes 44 API contracts indexed on the [APIs.io](https://api
   The Cobot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cobot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Cobot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+plans:
+- name: Cobot Plans Pricing
+  plan_count: 5
+  slug: cobot-plans-pricing
+- name: Cobot Price Estimates
+  plan_count: 0
+  slug: cobot-price-estimates
 random_paper: 7
 scopes:
 - name: Cobot Scopes
@@ -574,23 +593,23 @@ scopes:
   slug: cobot-scopes
   summary_line: 60 scopes · authorizationCode
 score:
-  band: developing
-  composite: 51.7
+  band: strong
+  composite: 61.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.3
   facets:
-    access_clarity: 38.2
+    access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 60.6
+    contract_quality: 58.4
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 34.2
+    discoverability: 65.0
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -599,7 +618,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 51.7
+  previous_composite: 54.2
   provenance:
     conformance: first-party
     contracts:
@@ -615,13 +634,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/screenshots/cobot-2026-08-17T080822.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cobot/cobot-2026-08-17T080822.png
 security:
 - kind: authentication
   name: Cobot Authentication
@@ -631,6 +651,14 @@ security:
   name: Cobot Domain Security
   slug: cobot-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: cobot-book-a-meeting-room
+  slug: cobot-book-a-meeting-room
+- name: cobot-check-in-a-member
+  slug: cobot-check-in-a-member
+- name: cobot-invoice-a-member
+  slug: cobot-invoice-a-member
 slug: cobot
 tags:
 - Company

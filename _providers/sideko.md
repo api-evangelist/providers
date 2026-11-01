@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 20.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -142,9 +144,6 @@ collections:
   name: Sideko API Projects SDK Generation API
   slug: postman-sideko-sdk-generation-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Sideko API Projects API
   slug: open-sideko-api-projects-api
 - collection_type: open
@@ -173,27 +172,27 @@ collections:
   slug: open-sideko
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/plans/sideko-plans-pricing.yml
+  href: https://artifacts.apis.io/sideko/plans/sideko-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sideko-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/rate-limits/sideko-rate-limits.yml
+  href: https://artifacts.apis.io/sideko/rate-limits/sideko-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sideko-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/finops/sideko-finops.yml
+  href: https://artifacts.apis.io/sideko/finops/sideko-finops.yml
   title: ''
   type: FinOps
   url: finops/sideko-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/capabilities/sideko-capability-edges.yml
+  href: https://artifacts.apis.io/sideko/capabilities/sideko-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sideko-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/vendor-facets/sideko-vendor-facets.yml
+  href: https://artifacts.apis.io/sideko/vendor-facets/sideko-vendor-facets.yml
   title: ''
   type: VendorFacets
   url: vendor-facets/sideko-vendor-facets.yml
@@ -202,17 +201,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/sideko/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/agentic-access/sideko-agentic-access.yml
+  href: https://artifacts.apis.io/sideko/agentic-access/sideko-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sideko-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/security/sideko-domain-security.yml
+  href: https://artifacts.apis.io/sideko/security/sideko-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sideko-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/authentication/sideko-authentication.yml
+  href: https://artifacts.apis.io/sideko/authentication/sideko-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sideko-authentication.yml
@@ -273,10 +272,10 @@ examples:
   slug: sideko-trigger-sdk-generation-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Sideko Finops
-  primary_unit: ''
-  service_category: Developer Tools
+  primary_unit: subscription
+  service_category: ''
   slug: sideko-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sideko.png
@@ -315,7 +314,10 @@ plans:
 - name: Sideko Plans Pricing
   plan_count: 3
   slug: sideko-plans-pricing
-random_paper: 1
+- name: Sideko Price Estimates
+  plan_count: 0
+  slug: sideko-price-estimates
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Sideko Rate Limits
@@ -346,23 +348,23 @@ rules:
   slug: sideko-rules
 score:
   band: developing
-  composite: 40.4
+  composite: 53.9
   coverage:
     artifact_dirs: 21
-    catalog_earned: 66.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_earned: 78.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 31.6
+    access_clarity: 84.2
     contract_governance: 27.3
-    contract_quality: 71.8
+    contract_quality: 68.4
     developer_ergonomics: 32.1
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 41.9
+    operational_transparency: 26.3
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     contracts:
@@ -375,14 +377,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 22.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/screenshots/sideko-2026-06-20T193853.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sideko/sideko-2026-06-20T193853.png
 security:
 - kind: authentication
   name: Sideko Authentication

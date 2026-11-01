@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,22 +35,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 17
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/plans/autoliv-plans-pricing.yml
+  href: https://artifacts.apis.io/autoliv/plans/autoliv-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/autoliv-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/rate-limits/autoliv-rate-limits.yml
+  href: https://artifacts.apis.io/autoliv/rate-limits/autoliv-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/autoliv-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/finops/autoliv-finops.yml
+  href: https://artifacts.apis.io/autoliv/finops/autoliv-finops.yml
   title: ''
   type: FinOps
   url: finops/autoliv-finops.yml
@@ -57,7 +59,7 @@ common:
   type: BlogRSS
   url: https://www.autoliv.com/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/security/autoliv-domain-security.yml
+  href: https://artifacts.apis.io/autoliv/security/autoliv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autoliv-domain-security.yml
@@ -134,14 +136,14 @@ press:
 - date: ''
   title: NANGA SYSTEMS' Post
   url: https://www.linkedin.com/posts/nanga-systems_the-recent-press-release-that-autoliv-is-activity-7445439948893184000-nIRn
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Autoliv Rate Limits
   slug: autoliv-rate-limits
 score:
   band: minimal
-  composite: 5.5
+  composite: 5.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 31.0
@@ -149,29 +151,29 @@ score:
     catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 48.2
-    operational_transparency: 7.9
-  previous_composite: 7.0
+    operational_transparency: 10.5
+  previous_composite: 5.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/screenshots/autoliv-2026-06-20T172646.png
+screenshot: https://apis.io/screenshots/autoliv/autoliv-2026-06-20T172646.png
 security:
 - kind: domain-security
   name: Autoliv Domain Security

@@ -28,17 +28,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.4
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 29.5
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: REST management API for the Skyvia platform. Programmatically read and control account users and invitations, workspaces and workspace membership, on-premise agents, data-source connections, data inte
   name: Skyvia Public API
@@ -52,7 +54,7 @@ apis:
 - description: Inbound webhook surface for Skyvia Automation. Each automation with a Webhook trigger is assigned a Skyvia-issued base URL plus a user-defined event name; an external application POSTs its event paylo
   name: Skyvia Automation Webhook Triggers
   slug: skyvia-automation-webhook-triggers
-artifact_total: 20
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Skyvia Automation Webhooks
@@ -140,7 +142,7 @@ common:
   type: ChangeLog
   url: https://docs.skyvia.com/recent-releases/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/changelog/skyvia-changelog.yml
+  href: https://artifacts.apis.io/skyvia/changelog/skyvia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/skyvia-changelog.yml
@@ -149,97 +151,105 @@ common:
   type: Compliance
   url: https://skyvia.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/security/skyvia-trust-center.yml
+  href: https://artifacts.apis.io/skyvia/security/skyvia-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/skyvia-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/llms/skyvia-llms.txt
+  href: https://artifacts.apis.io/skyvia/llms/skyvia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/skyvia-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/mcp/skyvia-mcp.yml
+  href: https://artifacts.apis.io/skyvia/mcp/skyvia-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/skyvia-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/authentication/skyvia-authentication.yml
+  href: https://artifacts.apis.io/skyvia/authentication/skyvia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skyvia-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/scopes/skyvia-scopes.yml
+  href: https://artifacts.apis.io/skyvia/scopes/skyvia-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/skyvia-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/conventions/skyvia-conventions.yml
+  href: https://artifacts.apis.io/skyvia/conventions/skyvia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/skyvia-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/lifecycle/skyvia-lifecycle.yml
+  href: https://artifacts.apis.io/skyvia/lifecycle/skyvia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/skyvia-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/conformance/skyvia-conformance.yml
+  href: https://artifacts.apis.io/skyvia/conformance/skyvia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skyvia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/errors/skyvia-problem-types.yml
+  href: https://artifacts.apis.io/skyvia/errors/skyvia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/skyvia-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/data-model/skyvia-data-model.yml
+  href: https://artifacts.apis.io/skyvia/data-model/skyvia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/skyvia-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/security/skyvia-domain-security.yml
+  href: https://artifacts.apis.io/skyvia/security/skyvia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skyvia-domain-security.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/sandbox/skyvia-sandbox.yml
+  href: https://artifacts.apis.io/skyvia/sandbox/skyvia-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/skyvia-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/plans/skyvia-plans-pricing.yml
+  href: https://artifacts.apis.io/skyvia/plans/skyvia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/skyvia-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/rate-limits/skyvia-rate-limits.yml
+  href: https://artifacts.apis.io/skyvia/rate-limits/skyvia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/skyvia-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/asyncapi/skyvia-automation-webhooks.yml
+  href: https://artifacts.apis.io/skyvia/asyncapi/skyvia-automation-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/skyvia-automation-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/skyvia/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/packages/skyvia-packages.yml
+  href: https://artifacts.apis.io/skyvia/packages/skyvia-packages.yml
   title: ''
   type: Packages
   url: packages/skyvia-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/packages/skyvia-packages.yml
+  href: https://artifacts.apis.io/skyvia/packages/skyvia-packages.yml
   title: ''
   type: SDKs
   url: packages/skyvia-packages.yml
 created: '2026-08-12'
 description: 'Skyvia is a no-code cloud data platform from Devart covering five products on one account: Data Integration (import, export, replication, synchronization, data flow and control flow across 200+ cloud apps and databases), Automation (trigger-driven business process automation with schedule, polling-connection and HMAC-verified webhook triggers), Backup (cloud-to-cloud snapshot backup and restore), Query (an online SQL client and visual query builder), and Connect (a connectivity-as-a-service layer that publishes any connected data source as an OData endpoint, a SQL endpoint, or an MCP endpoint for AI agents). Skyvia also ships a public REST management API at api.skyvia.com that lets you drive accounts, workspaces, agents, connections, integrations, automations, backups and Connect endpoints programmatically with a scoped, expiring API token.'
+finops:
+- has_sources: true
+  method: derived
+  name: Skyvia Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: skyvia-finops
+  template: false
 image: https://skyvia.com/assets/img/meta-img/meta-image.png
 layout: provider
 mcp_servers:
@@ -259,9 +269,12 @@ overview: 'Skyvia publishes 4 API contracts indexed on the [APIs.io](https://api
   Skyvia''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 plans:
 - name: Skyvia Plans Pricing
-  plan_count: 0
+  plan_count: 18
   slug: skyvia-plans-pricing
-random_paper: 3
+- name: Skyvia Price Estimates
+  plan_count: 0
+  slug: skyvia-price-estimates
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Skyvia Rate Limits
@@ -272,24 +285,24 @@ scopes:
   slug: skyvia-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 47.9
+  band: strong
+  composite: 59.8
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 53.9
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 63.7
-    discoverability: 75.0
-    operational_transparency: 15.8
-  previous_composite: 47.8
+    developer_ergonomics: 73.2
+    discoverability: 65.0
+    operational_transparency: 23.7
+  previous_composite: 51.9
   provenance:
     conformance: first-party
     contracts:
@@ -305,13 +318,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/screenshots/skyvia-2026-08-17T081918.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/skyvia/skyvia-2026-08-17T081918.png
 security:
 - kind: authentication
   name: Skyvia Authentication
@@ -325,6 +339,18 @@ security:
   name: Skyvia Trust Center
   slug: skyvia-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
+skill_count: 5
+skills:
+- name: Audit and control Skyvia Connect endpoints
+  slug: skyvia-audit-connect-endpoints
+- name: Trigger a Skyvia backup snapshot and verify it completed
+  slug: skyvia-backup-and-verify
+- name: Manage Skyvia account and workspace access
+  slug: skyvia-manage-workspace-access
+- name: Query business data through a Skyvia Connect MCP endpoint
+  slug: skyvia-query-data-via-mcp-endpoint
+- name: Run a Skyvia integration and monitor it to completion
+  slug: skyvia-run-and-monitor-integration
 slug: skyvia
 tags:
 - Data Integration

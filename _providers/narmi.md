@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: derived
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.6
-  scored_at: '2026-10-17'
+  score: 40.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 2
@@ -270,7 +273,7 @@ arazzos:
 - description: Authenticate, list accounts, read balances, and pull an account's transactions.
   name: Read Narmi accounts, balances, and transactions
   slug: narmi-read-accounts
-artifact_total: 264
+artifact_total: 267
 asyncapis:
 - description: ''
   name: Narmi Webhooks
@@ -409,9 +412,6 @@ collections:
   name: Narmi Public account balances wires API
   slug: postman-narmi-wires-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Narmi Public account balances API
   slug: open-narmi-account-balances-api
 - collection_type: open
@@ -545,37 +545,37 @@ collections:
   slug: open-narmi-wires-api
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/rules/narmi-rules.yml
+  href: https://artifacts.apis.io/narmi/rules/narmi-rules.yml
   title: ''
   type: Spectral
   url: rules/narmi-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/json-ld/narmi-context.jsonld
+  href: https://artifacts.apis.io/narmi/json-ld/narmi-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/narmi-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/vocabulary/narmi-vocabulary.yml
+  href: https://artifacts.apis.io/narmi/vocabulary/narmi-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/narmi-vocabulary.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/lifecycle/narmi-lifecycle.yml
+  href: https://artifacts.apis.io/narmi/lifecycle/narmi-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/narmi-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/hosts/narmi-hosts.yml
+  href: https://artifacts.apis.io/narmi/hosts/narmi-hosts.yml
   title: ''
   type: Hosts
   url: hosts/narmi-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/integrations/narmi-integration-edges.yml
+  href: https://artifacts.apis.io/narmi/integrations/narmi-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/narmi-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/vendors/narmi-vendors.yml
+  href: https://artifacts.apis.io/narmi/vendors/narmi-vendors.yml
   title: ''
   type: Vendors
   url: vendors/narmi-vendors.yml
@@ -588,17 +588,17 @@ common:
   type: Pricing
   url: https://www.narmi.com/variable-pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/plans/narmi-plans-pricing.yml
+  href: https://artifacts.apis.io/narmi/plans/narmi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/narmi-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/capabilities/narmi-capability-edges.yml
+  href: https://artifacts.apis.io/narmi/capabilities/narmi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/narmi-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/overlays/narmi-public-overlay.yaml
+  href: https://artifacts.apis.io/narmi/overlays/narmi-public-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/narmi-public-overlay.yaml
@@ -651,92 +651,92 @@ common:
   type: SignUp
   url: https://www.narmi.com/request-a-demo
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/changelog/narmi-changelog.yml
+  href: https://artifacts.apis.io/narmi/changelog/narmi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/narmi-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/authentication/narmi-authentication.yml
+  href: https://artifacts.apis.io/narmi/authentication/narmi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/narmi-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/scopes/narmi-scopes.yml
+  href: https://artifacts.apis.io/narmi/scopes/narmi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/narmi-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/agentic-access/narmi-agentic-access.yml
+  href: https://artifacts.apis.io/narmi/agentic-access/narmi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/narmi-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/packages/narmi-packages.yml
+  href: https://artifacts.apis.io/narmi/packages/narmi-packages.yml
   title: ''
   type: Packages
   url: packages/narmi-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/packages/narmi-packages.yml
+  href: https://artifacts.apis.io/narmi/packages/narmi-packages.yml
   title: ''
   type: SDKs
   url: packages/narmi-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/mcp/narmi-mcp.yml
+  href: https://artifacts.apis.io/narmi/mcp/narmi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/narmi-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/llms/narmi-llms.txt
+  href: https://artifacts.apis.io/narmi/llms/narmi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/narmi-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/conventions/narmi-conventions.yml
+  href: https://artifacts.apis.io/narmi/conventions/narmi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/narmi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/conventions/narmi-conventions.yml
+  href: https://artifacts.apis.io/narmi/conventions/narmi-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/narmi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/errors/narmi-problem-types.yml
+  href: https://artifacts.apis.io/narmi/errors/narmi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/narmi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/conformance/narmi-conformance.yml
+  href: https://artifacts.apis.io/narmi/conformance/narmi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/narmi-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/lifecycle/narmi-lifecycle.yml
+  href: https://artifacts.apis.io/narmi/lifecycle/narmi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/narmi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/data-model/narmi-data-model.yml
+  href: https://artifacts.apis.io/narmi/data-model/narmi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/narmi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/components/narmi-components.yml
+  href: https://artifacts.apis.io/narmi/components/narmi-components.yml
   title: ''
   type: Components
   url: components/narmi-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/sandbox/narmi-sandbox.yml
+  href: https://artifacts.apis.io/narmi/sandbox/narmi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/narmi-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/asyncapi/narmi-webhooks.yml
+  href: https://artifacts.apis.io/narmi/asyncapi/narmi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/narmi-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/narmi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -745,27 +745,35 @@ common:
   type: Security
   url: https://www.narmi.com/policies/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/security/narmi-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/narmi/security/narmi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/narmi-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/security/narmi-domain-security.yml
+  href: https://artifacts.apis.io/narmi/security/narmi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/narmi-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/arazzo/narmi-read-accounts.yml
+  href: https://artifacts.apis.io/narmi/arazzo/narmi-read-accounts.yml
   title: ''
   type: Arazzo
   url: arazzo/narmi-read-accounts.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/arazzo/narmi-originate-ach-payment.yml
+  href: https://artifacts.apis.io/narmi/arazzo/narmi-originate-ach-payment.yml
   title: ''
   type: Arazzo
   url: arazzo/narmi-originate-ach-payment.yml
 created: '2026-07-17'
 description: Narmi is a digital banking platform for community banks and credit unions in the United States. The Narmi One platform unifies consumer and business digital banking, omnichannel account opening (Narmi Grow), instant payments over FedNow (Narmi Now), fraud prevention (Narmi Guard), lending (Narmi Lend), a digital back-office (Narmi Command), an API-driven open architecture (Narmi Open), and agentic AI capabilities (Narmi AI). Narmi integrates with major core banking systems including Corelation Keystone, Symitar, Jack Henry Silverlake, Fiserv DNA/Premier, FIS Horizon/IBS, and COCC. The Narmi Public API is a REST API (OAuth 2.0, 189 operations) exposing accounts, balances, transactions, cards, ACH, Fedwire, FedNow, SWIFT wires, deposits, alerts, and messaging. Narmi launched the first MCP server deployed by a U.S. bank (with Grasshopper Bank, August 2025).
+finops:
+- has_sources: true
+  method: derived
+  name: Narmi Finops
+  primary_unit: narmi function
+  service_category: ''
+  slug: narmi-finops
+  template: false
 image: https://cdn.prod.website-files.com/6155dc277c0e6923df412e1b/6192c6364208f389eb6285e2_Narmi_OG-image-main.jpg
 json_schemas:
 - name: AccountAlertRuleRequest
@@ -1171,23 +1179,23 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 66.7
+  composite: 67.9
   coverage:
-    artifact_dirs: 35
-    catalog_earned: 74.8
+    artifact_dirs: 36
+    catalog_earned: 77.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.3
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.8
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 22.0
-    contract_quality: 75.0
+    contract_quality: 72.6
     developer_ergonomics: 74.4
-    discoverability: 75.0
-    operational_transparency: 44.7
-  previous_composite: 59.9
+    discoverability: 66.7
+    operational_transparency: 47.4
+  previous_composite: 66.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1204,13 +1212,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 36.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/screenshots/narmi-2026-08-07T184633.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/narmi/narmi-2026-08-07T184633.png
 security:
 - kind: authentication
   name: Narmi Authentication
@@ -1224,6 +1233,14 @@ security:
   name: Narmi Vulnerability Disclosure
   slug: narmi-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 3
+skills:
+- name: manage-card-controls
+  slug: narmi-manage-card-controls
+- name: originate-ach-payment
+  slug: narmi-originate-ach-payment
+- name: read-accounts-and-transactions
+  slug: narmi-read-accounts-and-transactions
 slug: narmi
 tags:
 - Company

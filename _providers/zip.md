@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Zip Procurement API is a REST-based interface for automating and integrating enterprise procurement workflows. It provides endpoints for managing intake requests, vendor onboarding, approval routi
@@ -42,12 +44,12 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zip/refs/heads/main/security/zip-trust-center.yml
+  href: https://artifacts.apis.io/zip/security/zip-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/zip-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zip/refs/heads/main/security/zip-domain-security.yml
+  href: https://artifacts.apis.io/zip/security/zip-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zip-domain-security.yml
@@ -84,27 +86,27 @@ common:
   type: X
   url: https://x.com/theziphq
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zip/refs/heads/main/plans/zip-plans-pricing.yml
+  href: https://artifacts.apis.io/zip/plans/zip-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zip-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zip/refs/heads/main/rate-limits/zip-rate-limits.yml
+  href: https://artifacts.apis.io/zip/rate-limits/zip-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zip-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zip/refs/heads/main/finops/zip-finops.yml
+  href: https://artifacts.apis.io/zip/finops/zip-finops.yml
   title: ''
   type: FinOps
   url: finops/zip-finops.yml
 - group: company
-  href: https://raw.githubusercontent.com/api-evangelist/zip/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/zip/blogs/blogs.json
   title: ''
   type: BlogPosts
   url: blogs/blogs.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zip/refs/heads/main/json-ld/zip-context.jsonld
+  href: https://artifacts.apis.io/zip/json-ld/zip-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/zip-context.jsonld
@@ -140,7 +142,7 @@ plans:
 - name: Zip Plans Pricing
   plan_count: 1
   slug: zip-plans-pricing
-random_paper: 9
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Zip Rate Limits
@@ -149,13 +151,13 @@ score:
   band: thin
   composite: 26.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 52.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -163,21 +165,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 32.9
+  previous_composite: 26.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zip/refs/heads/main/screenshots/zip-2026-06-20T201914.png
+screenshot: https://apis.io/screenshots/zip/zip-2026-06-20T201914.png
 security:
 - kind: domain-security
   name: Zip Domain Security

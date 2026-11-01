@@ -15,7 +15,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,16 +28,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 43.3
-  scored_at: '2026-10-17'
+  score: 37.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 0
@@ -393,7 +394,57 @@ apis:
   description: The OAuth API from Connecteam — 1 operation(s) for oauth.
   name: Connecteam O Auth API
   slug: connecteam-oauth-api
-artifact_total: 79
+- baseURL: https://api.connecteam.com
+  baseurl_source: declared
+  description: The Company Policies:v1:PayRulePolicyPayRules API from Connecteam — 1 operation(s) for company policies:v1:payrulepolicypayrules.
+  name: Connecteam Company Policies:v1:PayRulePolicyPayRules API
+  slug: connecteam-company-policies-v1-payrulepolicypayrules-api
+- baseURL: https://api.connecteam.com
+  baseurl_source: declared
+  description: The Company Policies:v1:PayRules API from Connecteam — 1 operation(s) for company policies:v1:payrules.
+  name: Connecteam Company Policies:v1:PayRules API
+  slug: connecteam-company-policies-v1-payrules-api
+- baseURL: https://api.connecteam.com
+  baseurl_source: declared
+  description: The Company Policies:v1:SchedulingRuleAssignment API from Connecteam — 1 operation(s) for company policies:v1:schedulingruleassignment.
+  name: Connecteam Company Policies:v1:SchedulingRuleAssignment API
+  slug: connecteam-company-policies-v1-schedulingruleassignment-api
+- baseURL: https://api.connecteam.com
+  baseurl_source: declared
+  description: The Company Policies:v1:SchedulingRulePolicies API from Connecteam — 1 operation(s) for company policies:v1:schedulingrulepolicies.
+  name: Connecteam Company Policies:v1:SchedulingRulePolicies API
+  slug: connecteam-company-policies-v1-schedulingrulepolicies-api
+- baseURL: https://api.connecteam.com
+  baseurl_source: declared
+  description: The Company Policies:v1:SchedulingRulePolicy API from Connecteam — 1 operation(s) for company policies:v1:schedulingrulepolicy.
+  name: Connecteam Company Policies:v1:SchedulingRulePolicy API
+  slug: connecteam-company-policies-v1-schedulingrulepolicy-api
+- baseURL: https://api.connecteam.com
+  baseurl_source: declared
+  description: The Company Policies:v1:UserCustomSchedulingRulePolicies API from Connecteam — 1 operation(s) for company policies:v1:usercustomschedulingrulepolicies.
+  name: Connecteam Company Policies:v1:UserCustomSchedulingRulePolicies API
+  slug: connecteam-company-policies-v1-usercustomschedulingrulepolicies-api
+- baseURL: https://api.connecteam.com
+  baseurl_source: declared
+  description: The Company Policies:v1:UserWorkingHours API from Connecteam — 1 operation(s) for company policies:v1:userworkinghours.
+  name: Connecteam Company Policies:v1:UserWorkingHours API
+  slug: connecteam-company-policies-v1-userworkinghours-api
+- baseURL: https://api.connecteam.com
+  baseurl_source: declared
+  description: The Company Policies:v1:WorkingHoursAssignment API from Connecteam — 2 operation(s) for company policies:v1:workinghoursassignment.
+  name: Connecteam Company Policies:v1:WorkingHoursAssignment API
+  slug: connecteam-company-policies-v1-workinghoursassignment-api
+- baseURL: https://api.connecteam.com
+  baseurl_source: declared
+  description: The Company Policies:v1:WorkingHoursPolicies API from Connecteam — 1 operation(s) for company policies:v1:workinghourspolicies.
+  name: Connecteam Company Policies:v1:WorkingHoursPolicies API
+  slug: connecteam-company-policies-v1-workinghourspolicies-api
+- baseURL: https://api.connecteam.com
+  baseurl_source: declared
+  description: The Documents:v1:Documents API from Connecteam — 3 operation(s) for documents:v1:documents.
+  name: Connecteam Documents:v1:Documents API
+  slug: connecteam-documents-v1-documents-api
+artifact_total: 97
 asyncapis:
 - description: ''
   name: Connecteam Events Webhooks
@@ -404,27 +455,27 @@ collections:
   slug: open-connecteam-openapi-original
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/capabilities/connecteam-capability-edges.yml
+  href: https://artifacts.apis.io/connecteam/capabilities/connecteam-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/connecteam-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/agentic-access/connecteam-agentic-access.yml
+  href: https://artifacts.apis.io/connecteam/agentic-access/connecteam-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/connecteam-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/security/connecteam-domain-security.yml
+  href: https://artifacts.apis.io/connecteam/security/connecteam-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/connecteam-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/scopes/connecteam-scopes.yml
+  href: https://artifacts.apis.io/connecteam/scopes/connecteam-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/connecteam-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/authentication/connecteam-authentication.yml
+  href: https://artifacts.apis.io/connecteam/authentication/connecteam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/connecteam-authentication.yml
@@ -493,7 +544,7 @@ common:
   type: ChangeLog
   url: https://developer.connecteam.com/changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/security/connecteam-trust-center.yml
+  href: https://artifacts.apis.io/connecteam/security/connecteam-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/connecteam-trust-center.yml
@@ -502,87 +553,95 @@ common:
   type: Compliance
   url: https://connecteam.com/trust-center/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/llms/connecteam-llms.txt
+  href: https://artifacts.apis.io/connecteam/llms/connecteam-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/connecteam-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/well-known/connecteam-well-known.yml
+  href: https://artifacts.apis.io/connecteam/well-known/connecteam-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/connecteam-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/well-known/connecteam-api-catalog.json
+  href: https://artifacts.apis.io/connecteam/well-known/connecteam-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/connecteam-api-catalog.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/packages/connecteam-packages.yml
+  href: https://artifacts.apis.io/connecteam/packages/connecteam-packages.yml
   title: ''
   type: Packages
   url: packages/connecteam-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/conventions/connecteam-conventions.yml
+  href: https://artifacts.apis.io/connecteam/conventions/connecteam-conventions.yml
   title: ''
   type: Conventions
   url: conventions/connecteam-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/rate-limits/connecteam-rate-limits.yml
+  href: https://artifacts.apis.io/connecteam/rate-limits/connecteam-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/connecteam-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/plans/connecteam-plans.yml
+  href: https://artifacts.apis.io/connecteam/plans/connecteam-plans.yml
   title: ''
   type: Plans
   url: plans/connecteam-plans.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/errors/connecteam-problem-types.yml
+  href: https://artifacts.apis.io/connecteam/errors/connecteam-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/connecteam-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/lifecycle/connecteam-lifecycle.yml
+  href: https://artifacts.apis.io/connecteam/lifecycle/connecteam-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/connecteam-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/changelog/connecteam-changelog.yml
+  href: https://artifacts.apis.io/connecteam/changelog/connecteam-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/connecteam-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/conformance/connecteam-conformance.yml
+  href: https://artifacts.apis.io/connecteam/conformance/connecteam-conformance.yml
   title: ''
   type: Conformance
   url: conformance/connecteam-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/data-model/connecteam-data-model.yml
+  href: https://artifacts.apis.io/connecteam/data-model/connecteam-data-model.yml
   title: ''
   type: DataModel
   url: data-model/connecteam-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/overlays/connecteam-api-overlay.yaml
+  href: https://artifacts.apis.io/connecteam/overlays/connecteam-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/connecteam-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/connecteam/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/asyncapi/connecteam-events-webhooks.yml
+  href: https://artifacts.apis.io/connecteam/asyncapi/connecteam-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/connecteam-events-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/mcp/connecteam-mcp.yml
+  href: https://artifacts.apis.io/connecteam/mcp/connecteam-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/connecteam-mcp.yml
 created: '2026-08-01'
 description: Connecteam is a mobile-first workforce management platform for deskless and non-desk teams, bundling time clock and GPS timesheets, job scheduling, task boards, digital forms and checklists, chat and company communication, HR onboarding, time off, pay rates and sales data into three purchasable hubs (Operations, Communications, HR & Skills). Its public REST API at api.connecteam.com is described by an OpenAPI 3.1 contract covering 145 operations across 98 paths, authenticated either with a company X-API-KEY header or OAuth 2.0 client-credentials tokens scoped across 61 named permissions, and it declares 41 webhook events for time activity, shifts, users, tasks, forms and chat. API access is gated to the Expert plan and above, with per-plan rate limits surfaced in x-ratelimit-* response headers.
+finops:
+- has_sources: true
+  method: derived
+  name: Connecteam Finops
+  primary_unit: first 30 users
+  service_category: ''
+  slug: connecteam-finops
+  template: false
 image: https://connecteam.com/wp-content/uploads/2024/03/Share-image-homepage.png
 layout: provider
 mcp_servers:
@@ -593,7 +652,7 @@ modified: '2026-09-16'
 name: Connecteam
 nav: Providers
 network: true
-overview: 'Connecteam publishes 69 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Assets:v1:Asset API, Attachments:v1:Files API, and 66 more. Tagged areas include Company, Workforce Management, Human Resources, Time Tracking, and Scheduling.
+overview: 'Connecteam publishes 79 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Assets:v1:Asset API, Attachments:v1:Files API, and 76 more. Tagged areas include Company, Workforce Management, Human Resources, Time Tracking, and Scheduling.
 
 
   The Connecteam catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -602,9 +661,12 @@ overview: 'Connecteam publishes 69 API contracts indexed on the [APIs.io](https:
   Connecteam''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
 plans:
 - name: Connecteam Plans
-  plan_count: 5
+  plan_count: 14
   slug: connecteam-plans
-random_paper: 19
+- name: Connecteam Price Estimates
+  plan_count: 0
+  slug: connecteam-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 6
   name: Connecteam Rate Limits
@@ -616,23 +678,23 @@ scopes:
   summary_line: 62 scopes · clientCredentials
 score:
   band: strong
-  composite: 62.8
+  composite: 66.3
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 61.0
+    artifact_dirs: 27
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 61.3
-    developer_ergonomics: 39.9
-    discoverability: 75.0
-    operational_transparency: 73.7
-  previous_composite: 62.8
+    contract_quality: 58.2
+    developer_ergonomics: 58.9
+    discoverability: 65.0
+    operational_transparency: 76.3
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -640,7 +702,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 69
+      total: 146
     mcp: first-party
     skills: derived
   regulatory:
@@ -649,13 +711,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/screenshots/connecteam-2026-08-07T163740.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/connecteam/connecteam-2026-08-07T163740.png
 security:
 - kind: authentication
   name: Connecteam Authentication
@@ -669,6 +732,20 @@ security:
   name: Connecteam Trust Center
   slug: connecteam-trust-center
   summary_line: SOC 2 Type 2, ISO/IEC 27001, GDPR, HIPAA, CCPA, PCI DSS
+skill_count: 6
+skills:
+- name: Build and publish a shift schedule
+  slug: connecteam-build-a-schedule
+- name: Collect and export digital form submissions
+  slug: connecteam-collect-form-submissions
+- name: Manage time-off policies, balances and requests
+  slug: connecteam-manage-time-off
+- name: Onboard a new employee into Connecteam
+  slug: connecteam-onboard-employee
+- name: Subscribe to Connecteam webhooks
+  slug: connecteam-subscribe-to-events
+- name: Clock employees in and out and reconcile timesheets
+  slug: connecteam-time-clock-timesheets
 slug: connecteam
 tags:
 - Company

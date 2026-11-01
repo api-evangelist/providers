@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.tenfold.com
@@ -77,15 +79,12 @@ apis:
   description: Users, current-user profile, and settings
   name: Tenfold Users API
   slug: tenfold-users-api
-artifact_total: 19
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Tenfold Webhooks
   slug: tenfold-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tenfold Analytics API
   slug: open-tenfold-analytics-api
@@ -120,12 +119,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/liveperson/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/capabilities/tenfold-capability-edges.yml
+  href: https://artifacts.apis.io/tenfold/capabilities/tenfold-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tenfold-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/overlays/tenfold-openapi-overlay.yaml
+  href: https://artifacts.apis.io/tenfold/overlays/tenfold-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tenfold-openapi-overlay.yaml
@@ -146,32 +145,32 @@ common:
   type: Documentation
   url: https://docs.tenfold.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/authentication/tenfold-authentication.yml
+  href: https://artifacts.apis.io/tenfold/authentication/tenfold-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tenfold-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/mcp/tenfold-mcp.yml
+  href: https://artifacts.apis.io/tenfold/mcp/tenfold-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/tenfold-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tenfold/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/asyncapi/tenfold-webhooks.yml
+  href: https://artifacts.apis.io/tenfold/asyncapi/tenfold-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tenfold-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/lifecycle/tenfold-lifecycle.yml
+  href: https://artifacts.apis.io/tenfold/lifecycle/tenfold-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/tenfold-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/llms/tenfold-llms.txt
+  href: https://artifacts.apis.io/tenfold/llms/tenfold-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tenfold-llms.txt
@@ -190,10 +189,10 @@ overview: 'Tenfold publishes 8 API contracts indexed on the [APIs.io](https://ap
 
 
   Tenfold''s developer surface includes engineering blog, API reference, documentation, authentication, and 10 more developer resources.'
-random_paper: 0
+random_paper: 4
 score:
   band: thin
-  composite: 29.3
+  composite: 29.1
   coverage:
     artifact_dirs: 26
     catalog_earned: 37.0
@@ -201,15 +200,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 49.1
+    contract_quality: 48.2
     developer_ergonomics: 42.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 28.7
+  previous_composite: 29.1
   provenance:
     conformance: derived
     contracts:
@@ -225,18 +224,25 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/screenshots/tenfold-2026-09-02T163056.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tenfold/tenfold-2026-09-02T163056.png
 security:
 - kind: authentication
   name: Tenfold Authentication
   slug: tenfold-authentication
   summary_line: oauth2/http · 3 schemes
+skill_count: 2
+skills:
+- name: Pull call analytics and transcripts
+  slug: tenfold-call-analytics-and-transcripts
+- name: Click-to-call and log to CRM
+  slug: tenfold-click-to-call-and-log
 slug: tenfold
 tags:
 - Company

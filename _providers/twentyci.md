@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 24.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -89,7 +91,7 @@ apis:
   description: '- New Instructions, SSTC''s and PCD''s for a Specific Timeframe'
   name: TwentyCi UK Housing Market Metrics API
   slug: twentyci-uk-housing-market-metrics-api
-artifact_total: 15
+artifact_total: 21
 collections:
 - collection_type: open
   name: TwentyAPI (TwentyCi) OAuth 2.0 Token API
@@ -99,57 +101,57 @@ collections:
   slug: open-twentyci-twentyapi
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/agentic-access/twentyci-agentic-access.yml
+  href: https://artifacts.apis.io/twentyci/agentic-access/twentyci-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/twentyci-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/security/twentyci-domain-security.yml
+  href: https://artifacts.apis.io/twentyci/security/twentyci-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/twentyci-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/scopes/twentyci-scopes.yml
+  href: https://artifacts.apis.io/twentyci/scopes/twentyci-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/twentyci-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/authentication/twentyci-authentication.yml
+  href: https://artifacts.apis.io/twentyci/authentication/twentyci-authentication.yml
   title: ''
   type: Authentication
   url: authentication/twentyci-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/vocabulary/twentyci-vocabulary.yml
+  href: https://artifacts.apis.io/twentyci/vocabulary/twentyci-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/twentyci-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/conventions/twentyci-conventions.yml
+  href: https://artifacts.apis.io/twentyci/conventions/twentyci-conventions.yml
   title: ''
   type: Conventions
   url: conventions/twentyci-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/errors/twentyci-problem-types.yml
+  href: https://artifacts.apis.io/twentyci/errors/twentyci-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/twentyci-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/examples/twentyci-examples.yml
+  href: https://artifacts.apis.io/twentyci/examples/twentyci-examples.yml
   title: ''
   type: Examples
   url: examples/twentyci-examples.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/data-model/twentyci-data-model.yml
+  href: https://artifacts.apis.io/twentyci/data-model/twentyci-data-model.yml
   title: ''
   type: DataModel
   url: data-model/twentyci-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/lifecycle/twentyci-lifecycle.yml
+  href: https://artifacts.apis.io/twentyci/lifecycle/twentyci-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/twentyci-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/conformance/twentyci-conformance.yml
+  href: https://artifacts.apis.io/twentyci/conformance/twentyci-conformance.yml
   title: ''
   type: Conformance
   url: conformance/twentyci-conformance.yml
@@ -158,32 +160,32 @@ common:
   type: Compliance
   url: https://www.twentyci.co.uk/privacy-policy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/packages/twentyci-packages.yml
+  href: https://artifacts.apis.io/twentyci/packages/twentyci-packages.yml
   title: ''
   type: Packages
   url: packages/twentyci-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/mcp/twentyci-mcp.yml
+  href: https://artifacts.apis.io/twentyci/mcp/twentyci-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/twentyci-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/twentyci/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/llms/twentyci-llms.txt
+  href: https://artifacts.apis.io/twentyci/llms/twentyci-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/twentyci-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/overlays/twentyci-twentyapi-overlay.yaml
+  href: https://artifacts.apis.io/twentyci/overlays/twentyci-twentyapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/twentyci-twentyapi-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/overlays/twentyci-twentyapi-oauth-overlay.yaml
+  href: https://artifacts.apis.io/twentyci/overlays/twentyci-twentyapi-oauth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/twentyci-twentyapi-oauth-overlay.yaml
@@ -268,7 +270,7 @@ overview: 'TwentyCi publishes 9 API contracts indexed on the [APIs.io](https://a
 
 
   TwentyCi''s developer surface includes authentication, code examples, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
-random_paper: 7
+random_paper: 23
 scopes:
 - name: Twentyci Scopes
   scope_count: 1
@@ -276,7 +278,7 @@ scopes:
   summary_line: 1 scope · password
 score:
   band: thin
-  composite: 32.6
+  composite: 32.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 42.0
@@ -284,14 +286,14 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 33.3
     contract_quality: 16.4
     developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -300,7 +302,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 32.5
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -317,13 +319,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/screenshots/twentyci-2026-09-02T164620.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/twentyci/twentyci-2026-09-02T164620.png
 security:
 - kind: authentication
   name: Twentyci Authentication
@@ -333,6 +336,20 @@ security:
   name: Twentyci Domain Security
   slug: twentyci-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 6
+skills:
+- name: Authenticate against TwentyAPI and make a first call
+  slug: twentyci-authenticate
+- name: Benchmark estate and letting agent brands
+  slug: twentyci-benchmark-agent-brands
+- name: Enrich a property record with neighbourhood context
+  slug: twentyci-enrich-a-property-record
+- name: Read the UK housing market and retail propensity
+  slug: twentyci-market-and-propensity
+- name: Track home-mover triggers
+  slug: twentyci-track-homemover-triggers
+- name: Value a UK property with the TwentyCi AVM
+  slug: twentyci-value-a-property
 slug: twentyci
 tags:
 - Real Estate

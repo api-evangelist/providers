@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-17'
+  score: 0.0
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -85,7 +87,7 @@ common:
   type: TermsOfService
   url: https://plakar.io/legal-notice/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/security/plakar-trust-center.yml
+  href: https://artifacts.apis.io/plakar/security/plakar-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/plakar-trust-center.yml
@@ -94,47 +96,47 @@ common:
   type: Compliance
   url: https://trust.plakar.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/security/plakar-domain-security.yml
+  href: https://artifacts.apis.io/plakar/security/plakar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/plakar-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/packages/plakar-packages.yml
+  href: https://artifacts.apis.io/plakar/packages/plakar-packages.yml
   title: ''
   type: Packages
   url: packages/plakar-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/packages/plakar-packages.yml
+  href: https://artifacts.apis.io/plakar/packages/plakar-packages.yml
   title: ''
   type: SDKs
   url: packages/plakar-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/cli/plakar-cli.yml
+  href: https://artifacts.apis.io/plakar/cli/plakar-cli.yml
   title: ''
   type: CLI
   url: cli/plakar-cli.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/grpc/plakar-connectors.proto
+  href: https://artifacts.apis.io/plakar/grpc/plakar-connectors.proto
   title: ''
   type: Protobuf
   url: grpc/plakar-connectors.proto
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/conformance/plakar-conformance.yml
+  href: https://artifacts.apis.io/plakar/conformance/plakar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/plakar-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/lifecycle/plakar-lifecycle.yml
+  href: https://artifacts.apis.io/plakar/lifecycle/plakar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/plakar-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/changelog/plakar-changelog.yml
+  href: https://artifacts.apis.io/plakar/changelog/plakar-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/plakar-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/llms/plakar-llms.txt
+  href: https://artifacts.apis.io/plakar/llms/plakar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/plakar-llms.txt
@@ -150,10 +152,10 @@ overview: 'Plakar is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Plakar''s developer surface includes engineering blog, documentation, getting-started guide, support, CLI, changelog, and 17 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: thin
-  composite: 36.2
+  composite: 30.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -165,11 +167,11 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 55.4
-    operational_transparency: 26.3
-  previous_composite: 36.2
+    discoverability: 48.2
+    operational_transparency: 36.8
+  previous_composite: 30.9
   provenance:
     conformance: first-party
   regulatory:
@@ -178,14 +180,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/screenshots/plakar-2026-09-02T151356.png
+screenshot: https://apis.io/screenshots/plakar/plakar-2026-09-02T151356.png
 security:
 - kind: domain-security
   name: Plakar Domain Security

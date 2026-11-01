@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'OpenArt''s remote Model Context Protocol server, letting AI agents generate and edit images and video, discover models, manage the library and projects, and check account credits — authorized with the '
@@ -42,42 +44,42 @@ apis:
 artifact_total: 5
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openart/refs/heads/main/mcp/openart-mcp.yml
+  href: https://artifacts.apis.io/openart/mcp/openart-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/openart-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openart/refs/heads/main/authentication/openart-authentication.yml
+  href: https://artifacts.apis.io/openart/authentication/openart-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openart-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openart/refs/heads/main/scopes/openart-scopes.yml
+  href: https://artifacts.apis.io/openart/scopes/openart-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/openart-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openart/refs/heads/main/well-known/openart-well-known.yml
+  href: https://artifacts.apis.io/openart/well-known/openart-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/openart-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openart/refs/heads/main/conformance/openart-conformance.yml
+  href: https://artifacts.apis.io/openart/conformance/openart-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openart-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openart/refs/heads/main/conventions/openart-conventions.yml
+  href: https://artifacts.apis.io/openart/conventions/openart-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openart-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openart/refs/heads/main/llms/openart-llms.txt
+  href: https://artifacts.apis.io/openart/llms/openart-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openart-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openart/refs/heads/main/security/openart-domain-security.yml
+  href: https://artifacts.apis.io/openart/security/openart-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openart-domain-security.yml
@@ -133,7 +135,7 @@ overview: 'Openart is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Openart''s developer surface includes authentication, documentation, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 13
+random_paper: 17
 scopes:
 - name: Openart Scopes
   scope_count: 1
@@ -141,23 +143,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 29.1
+  composite: 28.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 29.5
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 28.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -167,14 +169,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/openart/refs/heads/main/screenshots/openart-2026-08-07T190531.png
+screenshot: https://apis.io/screenshots/openart/openart-2026-08-07T190531.png
 security:
 - kind: authentication
   name: Openart Authentication

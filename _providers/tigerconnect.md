@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,22 +59,22 @@ common:
   type: PrivacyPolicy
   url: https://tigerconnect.com/privacy-notice/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tigerconnect/refs/heads/main/changelog/tigerconnect-changelog.yml
+  href: https://artifacts.apis.io/tigerconnect/changelog/tigerconnect-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tigerconnect-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tigerconnect/refs/heads/main/lifecycle/tigerconnect-lifecycle.yml
+  href: https://artifacts.apis.io/tigerconnect/lifecycle/tigerconnect-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tigerconnect-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tigerconnect/refs/heads/main/llms/tigerconnect-llms.txt
+  href: https://artifacts.apis.io/tigerconnect/llms/tigerconnect-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tigerconnect-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tigerconnect/refs/heads/main/security/tigerconnect-domain-security.yml
+  href: https://artifacts.apis.io/tigerconnect/security/tigerconnect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tigerconnect-domain-security.yml
@@ -88,10 +90,10 @@ overview: 'Tigerconnect is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Tigerconnect''s developer surface includes engineering blog, support, changelog, and 6 more developer resources.'
-random_paper: 9
+random_paper: 13
 score:
-  band: minimal
-  composite: 6.5
+  band: emerging
+  composite: 12.3
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -99,29 +101,29 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 55.4
+    developer_ergonomics: 7.1
+    discoverability: 48.2
     operational_transparency: 15.8
-  previous_composite: 6.4
+  previous_composite: 12.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 10.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tigerconnect/refs/heads/main/screenshots/tigerconnect-2026-09-02T163735.png
+screenshot: https://apis.io/screenshots/tigerconnect/tigerconnect-2026-09-02T163735.png
 security:
 - kind: domain-security
   name: Tigerconnect Domain Security

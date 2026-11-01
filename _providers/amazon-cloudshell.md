@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for creating and managing CloudShell environments — browser-based terminal sessions for AWS resource management.
@@ -41,17 +43,17 @@ apis:
 artifact_total: 18
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/security/amazon-cloudshell-trust-center.yml
+  href: https://artifacts.apis.io/amazon-cloudshell/security/amazon-cloudshell-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-cloudshell-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/security/amazon-cloudshell-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-cloudshell/security/amazon-cloudshell-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-cloudshell-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/security/amazon-cloudshell-domain-security.yml
+  href: https://artifacts.apis.io/amazon-cloudshell/security/amazon-cloudshell-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-cloudshell-domain-security.yml
@@ -116,47 +118,47 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/rules/amazon-cloudshell-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-cloudshell/rules/amazon-cloudshell-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-cloudshell-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/vocabulary/amazon-cloudshell-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-cloudshell/vocabulary/amazon-cloudshell-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-cloudshell-vocabulary.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/llms/amazon-cloudshell-llms.txt
+  href: https://artifacts.apis.io/amazon-cloudshell/llms/amazon-cloudshell-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-cloudshell-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/well-known/amazon-cloudshell-security.txt
+  href: https://artifacts.apis.io/amazon-cloudshell/well-known/amazon-cloudshell-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-cloudshell-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/well-known/amazon-cloudshell-well-known.yml
+  href: https://artifacts.apis.io/amazon-cloudshell/well-known/amazon-cloudshell-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-cloudshell-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/packages/amazon-cloudshell-packages.yml
+  href: https://artifacts.apis.io/amazon-cloudshell/packages/amazon-cloudshell-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-cloudshell-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/mcp/amazon-cloudshell-mcp.yml
+  href: https://artifacts.apis.io/amazon-cloudshell/mcp/amazon-cloudshell-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-cloudshell-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/conformance/amazon-cloudshell-conformance.yml
+  href: https://artifacts.apis.io/amazon-cloudshell/conformance/amazon-cloudshell-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-cloudshell-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/lifecycle/amazon-cloudshell-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-cloudshell/lifecycle/amazon-cloudshell-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-cloudshell-lifecycle.yml
@@ -195,7 +197,7 @@ overview: 'Amazon CloudShell is listed with 1 API on the [APIs.io](https://apis.
 
 
   Amazon CloudShell''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 20 more developer resources.'
-random_paper: 2
+random_paper: 10
 rules:
 - authorship: unmarked
   effective_rule_count: 19
@@ -209,24 +211,24 @@ rules:
     warn: 6
   slug: amazon-cloudshell-spectral-rules
 score:
-  band: thin
-  composite: 34.5
+  band: developing
+  composite: 39.3
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 39.8
     catalog_earned_first_party: 0.0
     catalog_gap: 75.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.0
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 28.0
     contract_quality: 0.0
-    developer_ergonomics: 40.5
-    discoverability: 64.3
-    operational_transparency: 18.4
-  previous_composite: 37.5
+    developer_ergonomics: 59.5
+    discoverability: 57.1
+    operational_transparency: 31.6
+  previous_composite: 39.3
   provenance:
     conformance: derived
     mcp: derived
@@ -236,14 +238,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/screenshots/amazon-cloudshell-2026-07-25T195948.png
+screenshot: https://apis.io/screenshots/amazon-cloudshell/amazon-cloudshell-2026-07-25T195948.png
 security:
 - kind: domain-security
   name: Amazon Cloudshell Domain Security

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -32,7 +34,7 @@ common:
   type: Blog
   url: https://www.vipkid.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vipkid/refs/heads/main/security/vipkid-domain-security.yml
+  href: https://artifacts.apis.io/vipkid/security/vipkid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vipkid-domain-security.yml
@@ -69,32 +71,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/VIPKID-OpenSource
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vipkid/refs/heads/main/packages/vipkid-packages.yml
+  href: https://artifacts.apis.io/vipkid/packages/vipkid-packages.yml
   title: ''
   type: Packages
   url: packages/vipkid-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vipkid/refs/heads/main/conformance/vipkid-conformance.yml
+  href: https://artifacts.apis.io/vipkid/conformance/vipkid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vipkid-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vipkid/refs/heads/main/conformance/vipkid-conformance.yml
+  href: https://artifacts.apis.io/vipkid/conformance/vipkid-conformance.yml
   title: ''
   type: Compliance
   url: conformance/vipkid-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vipkid/refs/heads/main/llms/vipkid-llms.txt
+  href: https://artifacts.apis.io/vipkid/llms/vipkid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vipkid-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vipkid/refs/heads/main/plans/vipkid-plans-pricing.yml
+  href: https://artifacts.apis.io/vipkid/plans/vipkid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vipkid-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vipkid/refs/heads/main/rate-limits/vipkid-rate-limits.yml
+  href: https://artifacts.apis.io/vipkid/rate-limits/vipkid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vipkid-rate-limits.yml
@@ -132,14 +134,14 @@ plans:
 - name: Vipkid Plans Pricing
   plan_count: 0
   slug: vipkid-plans-pricing
-random_paper: 9
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Vipkid Rate Limits
   slug: vipkid-rate-limits
 score:
   band: emerging
-  composite: 15.8
+  composite: 16.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -147,14 +149,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -162,7 +164,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 15.3
+  previous_composite: 16.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -172,14 +174,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vipkid/refs/heads/main/screenshots/vipkid-2026-10-11T133013.png
+screenshot: https://apis.io/screenshots/vipkid/vipkid-2026-10-11T133013.png
 security:
 - kind: domain-security
   name: Vipkid Domain Security

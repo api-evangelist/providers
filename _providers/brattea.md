@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,32 +25,32 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brattea/refs/heads/main/security/brattea-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/brattea/security/brattea-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/brattea-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brattea/refs/heads/main/well-known/brattea-well-known.yml
+  href: https://artifacts.apis.io/brattea/well-known/brattea-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/brattea-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brattea/refs/heads/main/hosts/brattea-hosts.yml
+  href: https://artifacts.apis.io/brattea/hosts/brattea-hosts.yml
   title: ''
   type: Hosts
   url: hosts/brattea-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brattea/refs/heads/main/security/brattea-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/brattea/security/brattea-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/brattea-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brattea/refs/heads/main/security/brattea-domain-security.yml
+  href: https://artifacts.apis.io/brattea/security/brattea-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brattea-domain-security.yml
@@ -72,7 +74,7 @@ name: Brattea
 nav: Providers
 network: true
 overview: Brattea is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical, Technology, China, and Healthcare.
-random_paper: 13
+random_paper: 19
 score:
   band: minimal
   composite: 5.4
@@ -105,8 +107,8 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

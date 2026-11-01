@@ -20,6 +20,6 @@ layout: provider
 name: analytics
 nav: Providers
 network: true
-random_paper: 0
+random_paper: 8
 slug: analytics
 ---

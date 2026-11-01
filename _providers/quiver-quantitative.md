@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.2
-  scored_at: '2026-10-17'
+  score: 19.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 53
   slug: quiver-quantitative-agentic-access
   summary_line: 53 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.quiverquant.com
   baseurl_source: declared
@@ -53,7 +55,7 @@ apis:
   description: The Tier New Constructs Ratings API from Quiver Quantitative — 1 operation(s) for tier new constructs ratings.
   name: Quiver Quantitative Tier New Constructs Ratings API
   slug: quiver-quantitative-tier-new-constructs-ratings-api
-artifact_total: 7
+artifact_total: 8
 common:
 - group: commercial
   title: ''
@@ -64,32 +66,32 @@ common:
   type: PrivacyPolicy
   url: https://www.quiverquant.com/privacypolicy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/agentic-access/quiver-quantitative-agentic-access.yml
+  href: https://artifacts.apis.io/quiver-quantitative/agentic-access/quiver-quantitative-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/quiver-quantitative-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/quiver-quantitative/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/data-model/quiver-quantitative-data-model.yml
+  href: https://artifacts.apis.io/quiver-quantitative/data-model/quiver-quantitative-data-model.yml
   title: ''
   type: DataModel
   url: data-model/quiver-quantitative-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/conformance/quiver-quantitative-conformance.yml
+  href: https://artifacts.apis.io/quiver-quantitative/conformance/quiver-quantitative-conformance.yml
   title: ''
   type: Conformance
   url: conformance/quiver-quantitative-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/overlays/quiver-quantitative-openapi-overlay.yaml
+  href: https://artifacts.apis.io/quiver-quantitative/overlays/quiver-quantitative-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/quiver-quantitative-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/llms/quiver-quantitative-llms.txt
+  href: https://artifacts.apis.io/quiver-quantitative/llms/quiver-quantitative-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/quiver-quantitative-llms.txt
@@ -98,12 +100,12 @@ common:
   type: Newsroom
   url: https://www.quiverquant.com/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/authentication/quiver-quantitative-authentication.yml
+  href: https://artifacts.apis.io/quiver-quantitative/authentication/quiver-quantitative-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quiver-quantitative-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/security/quiver-quantitative-domain-security.yml
+  href: https://artifacts.apis.io/quiver-quantitative/security/quiver-quantitative-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quiver-quantitative-domain-security.yml
@@ -143,10 +145,10 @@ overview: 'Quiver Quantitative publishes 4 API contracts indexed on the [APIs.io
 
 
   Quiver Quantitative''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 0
+random_paper: 8
 score:
   band: thin
-  composite: 34.7
+  composite: 34.6
   coverage:
     artifact_dirs: 15
     catalog_earned: 32.0
@@ -154,13 +156,13 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 45.3
     developer_ergonomics: 32.7
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 0.0
   previous_composite: 34.6
   provenance:
@@ -179,13 +181,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/screenshots/quiver-quantitative-2026-10-11T113047.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/quiver-quantitative/quiver-quantitative-2026-10-11T113047.png
 security:
 - kind: authentication
   name: Quiver Quantitative Authentication
@@ -195,6 +198,10 @@ security:
   name: Quiver Quantitative Domain Security
   slug: quiver-quantitative-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: quiver-quantitative-login-logout
+  slug: quiver-quantitative-login-logout
 slug: quiver-quantitative
 tags:
 - Company

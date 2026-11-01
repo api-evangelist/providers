@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-17'
+  score: 31.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://clinicalauditai.com/api/v1
@@ -41,40 +43,40 @@ apis:
   description: API health checks
   name: ClinicalAuditAI Health API
   slug: clinicalauditai-health-api
-artifact_total: 5
+artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/clinicalauditai/refs/heads/main/plans/clinicalauditai-plans-pricing.yml
+  href: https://artifacts.apis.io/clinicalauditai/plans/clinicalauditai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/clinicalauditai-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/clinicalauditai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/clinicalauditai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clinicalauditai/refs/heads/main/data-model/clinicalauditai-data-model.yml
+  href: https://artifacts.apis.io/clinicalauditai/data-model/clinicalauditai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/clinicalauditai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/clinicalauditai/refs/heads/main/errors/clinicalauditai-problem-types.yml
+  href: https://artifacts.apis.io/clinicalauditai/errors/clinicalauditai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/clinicalauditai-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clinicalauditai/refs/heads/main/hosts/clinicalauditai-hosts.yml
+  href: https://artifacts.apis.io/clinicalauditai/hosts/clinicalauditai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/clinicalauditai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/clinicalauditai/refs/heads/main/vendors/clinicalauditai-vendors.yml
+  href: https://artifacts.apis.io/clinicalauditai/vendors/clinicalauditai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/clinicalauditai-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clinicalauditai/refs/heads/main/security/clinicalauditai-domain-security.yml
+  href: https://artifacts.apis.io/clinicalauditai/security/clinicalauditai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clinicalauditai-domain-security.yml
@@ -117,10 +119,10 @@ plans:
 - name: Clinicalauditai Plans Pricing
   plan_count: 2
   slug: clinicalauditai-plans-pricing
-random_paper: 6
+random_paper: 8
 score:
   band: thin
-  composite: 30.3
+  composite: 31.0
   coverage:
     artifact_dirs: 12
     catalog_earned: 38.0
@@ -128,6 +130,7 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
@@ -135,6 +138,7 @@ score:
     developer_ergonomics: 16.1
     discoverability: 53.6
     operational_transparency: 0.0
+  previous_composite: 31.0
   provenance:
     contracts:
       callable: 100.0
@@ -149,16 +153,22 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Clinicalauditai Domain Security
   slug: clinicalauditai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: clinicalauditai-create-and-retrieve-audit
+  slug: clinicalauditai-create-and-retrieve-audit
 slug: clinicalauditai
 tags:
 - Company

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: Blog
   url: https://quickpic.co.za/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quickpic/refs/heads/main/security/quickpic-domain-security.yml
+  href: https://artifacts.apis.io/quickpic/security/quickpic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quickpic-domain-security.yml
@@ -50,7 +52,7 @@ common:
   type: Website
   url: https://quickpic.co.za
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quickpic/refs/heads/main/well-known/quickpic-well-known.yml
+  href: https://artifacts.apis.io/quickpic/well-known/quickpic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/quickpic-well-known.yml
@@ -66,7 +68,7 @@ overview: 'quickpic is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   quickpic''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 21
+random_paper: 17
 score:
   band: minimal
   composite: 2.1
@@ -77,7 +79,7 @@ score:
     catalog_gap: 98.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -92,21 +94,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 2.5
+  previous_composite: 2.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/quickpic/refs/heads/main/screenshots/quickpic-2026-09-02T152652.png
+screenshot: https://apis.io/screenshots/quickpic/quickpic-2026-09-02T152652.png
 security:
 - kind: domain-security
   name: Quickpic Domain Security

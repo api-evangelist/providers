@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,21 +35,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Sumsub's REST API provides programmatic access to a full-stack verification platform spanning identity verification (KYC), business verification (KYB), AML screening, transaction monitoring, Travel Ru
   name: Sumsub API
   slug: sumsub-api
-artifact_total: 32
+artifact_total: 33
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sumsub/refs/heads/main/security/sumsub-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sumsub/security/sumsub-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sumsub-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sumsub/refs/heads/main/security/sumsub-domain-security.yml
+  href: https://artifacts.apis.io/sumsub/security/sumsub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sumsub-domain-security.yml
@@ -156,17 +158,17 @@ common:
   type: YouTube
   url: https://www.youtube.com/c/Sumsub
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sumsub/refs/heads/main/plans/sumsub-plans-pricing.yml
+  href: https://artifacts.apis.io/sumsub/plans/sumsub-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sumsub-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sumsub/refs/heads/main/rate-limits/sumsub-rate-limits.yml
+  href: https://artifacts.apis.io/sumsub/rate-limits/sumsub-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sumsub-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sumsub/refs/heads/main/finops/sumsub-finops.yml
+  href: https://artifacts.apis.io/sumsub/finops/sumsub-finops.yml
   title: ''
   type: FinOps
   url: finops/sumsub-finops.yml
@@ -194,13 +196,13 @@ features:
 - description: First-party SDKs for iOS, Android, React Native, and the web to embed verification into native apps.
   name: Web and Mobile SDKs
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Sumsub Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: verification
+  service_category: ''
   slug: sumsub-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sumsub.png
 integrations:
 - description: Integrate Sumsub with Auth0 to verify users before issuing authorization tokens.
@@ -228,26 +230,29 @@ overview: 'Sumsub is listed with 1 API on the [APIs.io](https://apis.io/) networ
   Sumsub''s developer surface includes documentation, API reference, getting-started guide, developer console, signup flow, changelog, engineering blog, and 24 more developer resources.'
 plans:
 - name: Sumsub Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: sumsub-plans-pricing
-random_paper: 11
+- name: Sumsub Price Estimates
+  plan_count: 0
+  slug: sumsub-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Sumsub Rate Limits
   slug: sumsub-rate-limits
 score:
   band: developing
-  composite: 42.1
+  composite: 48.5
   coverage:
     artifact_dirs: 8
-    catalog_earned: 43.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 76.2
@@ -261,21 +266,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 50.4
+  previous_composite: 46.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sumsub/refs/heads/main/screenshots/sumsub-2026-06-20T194718.png
+screenshot: https://apis.io/screenshots/sumsub/sumsub-2026-06-20T194718.png
 security:
 - kind: domain-security
   name: Sumsub Domain Security

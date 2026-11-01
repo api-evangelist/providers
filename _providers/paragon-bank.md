@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: verified
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 36.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -214,34 +216,34 @@ apis:
   description: The Transactions API from Paragon Bank — 2 operation(s) for transactions.
   name: Paragon Bank Transactions API
   slug: paragon-bank-transactions-api
-artifact_total: 40
+artifact_total: 43
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-opendata-standard
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/capabilities/paragon-bank-capability-edges.yml
+  href: https://artifacts.apis.io/paragon-bank/capabilities/paragon-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/paragon-bank-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/agentic-access/paragon-bank-agentic-access.yml
+  href: https://artifacts.apis.io/paragon-bank/agentic-access/paragon-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/paragon-bank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/security/paragon-bank-domain-security.yml
+  href: https://artifacts.apis.io/paragon-bank/security/paragon-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paragon-bank-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/scopes/paragon-bank-scopes.yml
+  href: https://artifacts.apis.io/paragon-bank/scopes/paragon-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/paragon-bank-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/authentication/paragon-bank-authentication.yml
+  href: https://artifacts.apis.io/paragon-bank/authentication/paragon-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paragon-bank-authentication.yml
@@ -274,67 +276,67 @@ common:
   type: TermsOfService
   url: https://www.paragonbank.co.uk/resources/paragonbank/documents/savings/general-terms-and-conditions
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/errors/paragon-bank-problem-types.yml
+  href: https://artifacts.apis.io/paragon-bank/errors/paragon-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/paragon-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/conformance/paragon-bank-conformance.yml
+  href: https://artifacts.apis.io/paragon-bank/conformance/paragon-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paragon-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/conventions/paragon-bank-conventions.yml
+  href: https://artifacts.apis.io/paragon-bank/conventions/paragon-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/paragon-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/conventions/paragon-bank-conventions.yml
+  href: https://artifacts.apis.io/paragon-bank/conventions/paragon-bank-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/paragon-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/lifecycle/paragon-bank-lifecycle.yml
+  href: https://artifacts.apis.io/paragon-bank/lifecycle/paragon-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/paragon-bank-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/mcp/paragon-bank-mcp.yml
+  href: https://artifacts.apis.io/paragon-bank/mcp/paragon-bank-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/paragon-bank-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/mcp/paragon-bank-tool-crosswalk.yml
+  href: https://artifacts.apis.io/paragon-bank/mcp/paragon-bank-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/paragon-bank-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/llms/paragon-bank-llms.txt
+  href: https://artifacts.apis.io/paragon-bank/llms/paragon-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paragon-bank-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/paragon-bank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/overlays/paragon-bank-account-info-overlay.yaml
+  href: https://artifacts.apis.io/paragon-bank/overlays/paragon-bank-account-info-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paragon-bank-account-info-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/overlays/paragon-bank-payment-initiation-overlay.yaml
+  href: https://artifacts.apis.io/paragon-bank/overlays/paragon-bank-payment-initiation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paragon-bank-payment-initiation-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/overlays/paragon-bank-confirmation-funds-overlay.yaml
+  href: https://artifacts.apis.io/paragon-bank/overlays/paragon-bank-confirmation-funds-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paragon-bank-confirmation-funds-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/overlays/paragon-bank-opendata-overlay.yaml
+  href: https://artifacts.apis.io/paragon-bank/overlays/paragon-bank-opendata-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paragon-bank-opendata-overlay.yaml
@@ -355,7 +357,7 @@ overview: 'Paragon Bank publishes 34 API contracts indexed on the [APIs.io](http
 
 
   Paragon Bank''s developer surface includes authentication, support, pricing, and 22 more developer resources.'
-random_paper: 13
+random_paper: 1
 scopes:
 - name: Paragon Bank Scopes
   scope_count: 3
@@ -363,7 +365,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 31.9
+  composite: 31.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 35.0
@@ -377,7 +379,7 @@ score:
     contract_governance: 4.5
     contract_quality: 46.9
     developer_ergonomics: 35.1
-    discoverability: 69.6
+    discoverability: 61.7
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -387,7 +389,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 31.9
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -408,13 +410,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/paragon-bank/refs/heads/main/screenshots/paragon-bank-2026-10-11T192119.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/paragon-bank/paragon-bank-2026-10-11T192119.png
 security:
 - kind: authentication
   name: Paragon Bank Authentication
@@ -424,6 +427,14 @@ security:
   name: Paragon Bank Domain Security
   slug: paragon-bank-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Access customer account and transaction data (AIS)
+  slug: paragon-bank-access-account-information
+- name: Confirm available funds (CBPII)
+  slug: paragon-bank-confirm-funds
+- name: Initiate a domestic payment (PIS)
+  slug: paragon-bank-initiate-domestic-payment
 slug: paragon-bank
 tags:
 - Financial Services

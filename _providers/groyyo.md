@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,22 +36,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/groyyo/refs/heads/main/plans/groyyo-plans-pricing.yml
+  href: https://artifacts.apis.io/groyyo/plans/groyyo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/groyyo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/groyyo/refs/heads/main/rate-limits/groyyo-rate-limits.yml
+  href: https://artifacts.apis.io/groyyo/rate-limits/groyyo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/groyyo-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groyyo/refs/heads/main/security/groyyo-domain-security.yml
+  href: https://artifacts.apis.io/groyyo/security/groyyo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/groyyo-domain-security.yml
@@ -70,7 +72,7 @@ common:
   type: Login
   url: https://groyyo.com/kyc-login
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groyyo/refs/heads/main/llms/groyyo-llms.txt
+  href: https://artifacts.apis.io/groyyo/llms/groyyo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/groyyo-llms.txt
@@ -108,14 +110,14 @@ plans:
 - name: Groyyo Plans Pricing
   plan_count: 0
   slug: groyyo-plans-pricing
-random_paper: 21
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Groyyo Rate Limits
   slug: groyyo-rate-limits
 score:
   band: minimal
-  composite: 8.4
+  composite: 9.7
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -123,9 +125,9 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
@@ -138,21 +140,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 8.3
+  previous_composite: 9.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/groyyo/refs/heads/main/screenshots/groyyo-2026-09-02T145638.png
+screenshot: https://apis.io/screenshots/groyyo/groyyo-2026-09-02T145638.png
 security:
 - kind: domain-security
   name: Groyyo Domain Security

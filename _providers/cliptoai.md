@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Clipto.AI provides API for transcription, search and media organization.
@@ -32,17 +34,17 @@ apis:
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cliptoai/refs/heads/main/plans/cliptoai-plans-pricing.yml
+  href: https://artifacts.apis.io/cliptoai/plans/cliptoai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cliptoai-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cliptoai/refs/heads/main/hosts/cliptoai-hosts.yml
+  href: https://artifacts.apis.io/cliptoai/hosts/cliptoai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cliptoai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cliptoai/refs/heads/main/vendors/cliptoai-vendors.yml
+  href: https://artifacts.apis.io/cliptoai/vendors/cliptoai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cliptoai-vendors.yml
@@ -71,7 +73,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/forgeglobal
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cliptoai/refs/heads/main/security/cliptoai-domain-security.yml
+  href: https://artifacts.apis.io/cliptoai/security/cliptoai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cliptoai-domain-security.yml
@@ -105,7 +107,7 @@ plans:
 - name: Cliptoai Plans Pricing
   plan_count: 2
   slug: cliptoai-plans-pricing
-random_paper: 17
+random_paper: 13
 score:
   band: emerging
   composite: 18.9
@@ -116,6 +118,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
@@ -123,6 +126,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 5.3
+  previous_composite: 18.9
   provenance:
     mcp: unknown
   regulatory:
@@ -131,8 +135,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

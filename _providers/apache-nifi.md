@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 18.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 3
@@ -51,31 +53,95 @@ apis:
 - description: MiNiFi is a lightweight agent for edge data collection that is a subproject of NiFi. MiNiFi C++ (nifi-minifi-cpp) provides a small-footprint agent for IoT edge data collection with local processing an
   name: Apache MiNiFi
   slug: apache-minifi
-- baseURL_template: http://{host}:{port}/nifi-api
-  baseurl_source: spec_template
-  description: Authentication and access token management
+- description: Authentication and access token management
   name: Apache NiFi Access API
   slug: apache-nifi-access-api
-- baseURL_template: http://{host}:{port}/nifi-api
-  baseurl_source: spec_template
-  description: Manage connections between processors
+- description: Manage connections between processors
   name: Apache NiFi Connections API
   slug: apache-nifi-connections-api
-- baseURL_template: http://{host}:{port}/nifi-api
-  baseurl_source: spec_template
-  description: Manage shared controller services
+- description: Manage shared controller services
   name: Apache NiFi Controller Services API
   slug: apache-nifi-controller-services-api
-- baseURL_template: http://{host}:{port}/nifi-api
-  baseurl_source: spec_template
-  description: Read overall flow status and process group hierarchy
+- description: Read overall flow status and process group hierarchy
   name: Apache NiFi Flow API
   slug: apache-nifi-flow-api
-artifact_total: 43
+- description: The Authentication API from Apache NiFi — 1 operation(s) for authentication.
+  name: Apache NiFi Authentication API
+  slug: apache-nifi-authentication-api
+- description: The Connectors API from Apache NiFi — 37 operation(s) for connectors.
+  name: Apache NiFi Connectors API
+  slug: apache-nifi-connectors-api
+- description: The Controller API from Apache NiFi — 34 operation(s) for controller.
+  name: Apache NiFi Controller API
+  slug: apache-nifi-controller-api
+- description: The Counters API from Apache NiFi — 2 operation(s) for counters.
+  name: Apache NiFi Counters API
+  slug: apache-nifi-counters-api
+- description: The DataTransfer API from Apache NiFi — 5 operation(s) for datatransfer.
+  name: Apache NiFi Data Transfer API
+  slug: apache-nifi-datatransfer-api
+- description: The FlowFileQueues API from Apache NiFi — 6 operation(s) for flowfilequeues.
+  name: Apache NiFi Flow File Queues API
+  slug: apache-nifi-flowfilequeues-api
+- description: The Funnels API from Apache NiFi — 1 operation(s) for funnels.
+  name: Apache NiFi Funnels API
+  slug: apache-nifi-funnels-api
+- description: The InputPorts API from Apache NiFi — 3 operation(s) for inputports.
+  name: Apache NiFi Input Ports API
+  slug: apache-nifi-inputports-api
+- description: The Labels API from Apache NiFi — 1 operation(s) for labels.
+  name: Apache NiFi Labels API
+  slug: apache-nifi-labels-api
+- description: The OutputPorts API from Apache NiFi — 3 operation(s) for outputports.
+  name: Apache NiFi Output Ports API
+  slug: apache-nifi-outputports-api
+- description: The ParameterContexts API from Apache NiFi — 8 operation(s) for parametercontexts.
+  name: Apache NiFi Parameter Contexts API
+  slug: apache-nifi-parametercontexts-api
+- description: The ParameterProviders API from Apache NiFi — 12 operation(s) for parameterproviders.
+  name: Apache NiFi Parameter Providers API
+  slug: apache-nifi-parameterproviders-api
+- description: The Policies API from Apache NiFi — 3 operation(s) for policies.
+  name: Apache NiFi Policies API
+  slug: apache-nifi-policies-api
+- description: The ProcessGroups API from Apache NiFi — 22 operation(s) for processgroups.
+  name: Apache NiFi Process Groups API
+  slug: apache-nifi-processgroups-api
+- description: The Processors API from Apache NiFi — 14 operation(s) for processors.
+  name: Apache NiFi Processors API
+  slug: apache-nifi-processors-api
+- description: The Provenance API from Apache NiFi — 5 operation(s) for provenance.
+  name: Apache NiFi Provenance API
+  slug: apache-nifi-provenance-api
+- description: The ProvenanceEvents API from Apache NiFi — 6 operation(s) for provenanceevents.
+  name: Apache NiFi Provenance Events API
+  slug: apache-nifi-provenanceevents-api
+- description: The RemoteProcessGroups API from Apache NiFi — 9 operation(s) for remoteprocessgroups.
+  name: Apache NiFi Remote Process Groups API
+  slug: apache-nifi-remoteprocessgroups-api
+- description: The ReportingTasks API from Apache NiFi — 9 operation(s) for reportingtasks.
+  name: Apache NiFi Reporting Tasks API
+  slug: apache-nifi-reportingtasks-api
+- description: The Resources API from Apache NiFi — 1 operation(s) for resources.
+  name: Apache NiFi Resources API
+  slug: apache-nifi-resources-api
+- description: The SiteToSite API from Apache NiFi — 2 operation(s) for sitetosite.
+  name: Apache NiFi Site To Site API
+  slug: apache-nifi-sitetosite-api
+- description: The Snippets API from Apache NiFi — 2 operation(s) for snippets.
+  name: Apache NiFi Snippets API
+  slug: apache-nifi-snippets-api
+- description: The SystemDiagnostics API from Apache NiFi — 2 operation(s) for systemdiagnostics.
+  name: Apache NiFi System Diagnostics API
+  slug: apache-nifi-systemdiagnostics-api
+- description: The Tenants API from Apache NiFi — 5 operation(s) for tenants.
+  name: Apache NiFi Tenants API
+  slug: apache-nifi-tenants-api
+- description: The Versions API from Apache NiFi — 13 operation(s) for versions.
+  name: Apache NiFi Versions API
+  slug: apache-nifi-versions-api
+artifact_total: 67
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache NiFi REST Access API
   slug: open-apache-nifi-access-api
@@ -93,22 +159,22 @@ collections:
   slug: open-apache-nifi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/plans/apache-nifi-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-nifi/plans/apache-nifi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-nifi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/rate-limits/apache-nifi-rate-limits.yml
+  href: https://artifacts.apis.io/apache-nifi/rate-limits/apache-nifi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-nifi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/finops/apache-nifi-finops.yml
+  href: https://artifacts.apis.io/apache-nifi/finops/apache-nifi-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-nifi-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/capabilities/apache-nifi-capability-edges.yml
+  href: https://artifacts.apis.io/apache-nifi/capabilities/apache-nifi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/apache-nifi-capability-edges.yml
@@ -133,22 +199,22 @@ common:
   type: License
   url: https://github.com/apache/nifi/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/agentic-access/apache-nifi-agentic-access.yml
+  href: https://artifacts.apis.io/apache-nifi/agentic-access/apache-nifi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-nifi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/security/apache-nifi-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-nifi/security/apache-nifi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-nifi-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/security/apache-nifi-domain-security.yml
+  href: https://artifacts.apis.io/apache-nifi/security/apache-nifi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-nifi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/authentication/apache-nifi-authentication.yml
+  href: https://artifacts.apis.io/apache-nifi/authentication/apache-nifi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apache-nifi-authentication.yml
@@ -227,7 +293,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Nifi Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-nifi-finops
   template: true
@@ -254,7 +320,7 @@ modified: '2026-04-19'
 name: Apache NiFi
 nav: Providers
 network: true
-overview: 'Apache NiFi publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access API, Connections API, Controller Services API, and 3 more. Tagged areas include Data Integration, Dataflows, ETL, IoT, and Streaming.
+overview: 'Apache NiFi publishes 31 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access API, Connections API, Controller Services API, and 28 more. Tagged areas include Data Integration, Dataflows, ETL, IoT, and Streaming.
 
 
   Apache NiFi''s developer surface includes authentication, developer portal, engineering blog, and 22 more developer resources.'
@@ -269,46 +335,44 @@ rate_limits:
   slug: apache-nifi-rate-limits
 score:
   band: thin
-  composite: 38.6
+  composite: 35.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.2
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
-    contract_quality: 42.2
-    developer_ergonomics: 47.6
+    contract_quality: 40.7
+    developer_ergonomics: 50.0
     discoverability: 57.1
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 75.0
-  previous_composite: 39.9
+    operational_transparency: 39.5
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 34
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/screenshots/apache-nifi-2026-06-20T172124.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-nifi/apache-nifi-2026-06-20T172124.png
 security:
 - kind: authentication
   name: Apache Nifi Authentication

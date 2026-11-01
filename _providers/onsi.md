@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.1
-  scored_at: '2026-10-17'
+  score: 35.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -56,11 +58,8 @@ apis:
   description: The pay API from Onsi — 9 operation(s) for pay.
   name: Onsi Pay API
   slug: onsi-pay-api
-artifact_total: 9
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: BMO Partner members API
   slug: open-onsi-members-api
@@ -69,12 +68,12 @@ collections:
   slug: open-onsi-pay-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/capabilities/onsi-capability-edges.yml
+  href: https://artifacts.apis.io/onsi/capabilities/onsi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/onsi-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/overlays/onsi-overlay.yaml
+  href: https://artifacts.apis.io/onsi/overlays/onsi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/onsi-overlay.yaml
@@ -119,77 +118,77 @@ common:
   type: ChangeLog
   url: https://docs.onsi.com/docs/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/changelog/onsi-changelog.yml
+  href: https://artifacts.apis.io/onsi/changelog/onsi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/onsi-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/llms/onsi-llms.txt
+  href: https://artifacts.apis.io/onsi/llms/onsi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/onsi-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/authentication/onsi-authentication.yml
+  href: https://artifacts.apis.io/onsi/authentication/onsi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/onsi-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/conventions/onsi-conventions.yml
+  href: https://artifacts.apis.io/onsi/conventions/onsi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/onsi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/conventions/onsi-conventions.yml
+  href: https://artifacts.apis.io/onsi/conventions/onsi-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/onsi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/errors/onsi-error-codes.yml
+  href: https://artifacts.apis.io/onsi/errors/onsi-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/onsi-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/rate-limits/onsi-rate-limits.yml
+  href: https://artifacts.apis.io/onsi/rate-limits/onsi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/onsi-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/lifecycle/onsi-lifecycle.yml
+  href: https://artifacts.apis.io/onsi/lifecycle/onsi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/onsi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/conformance/onsi-conformance.yml
+  href: https://artifacts.apis.io/onsi/conformance/onsi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/onsi-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/data-model/onsi-data-model.yml
+  href: https://artifacts.apis.io/onsi/data-model/onsi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/onsi-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/sandbox/onsi-sandbox.yml
+  href: https://artifacts.apis.io/onsi/sandbox/onsi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/onsi-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/mcp/onsi-mcp.yml
+  href: https://artifacts.apis.io/onsi/mcp/onsi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/onsi-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/onsi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/security/onsi-domain-security.yml
+  href: https://artifacts.apis.io/onsi/security/onsi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onsi-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/agentic-access/onsi-agentic-access.yml
+  href: https://artifacts.apis.io/onsi/agentic-access/onsi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/onsi-agentic-access.yml
@@ -205,14 +204,14 @@ overview: 'Onsi publishes 2 API contracts indexed on the [APIs.io](https://apis.
 
 
   Onsi''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 20 more developer resources.'
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Onsi Rate Limits
   slug: onsi-rate-limits
 score:
   band: developing
-  composite: 41.8
+  composite: 41.3
   coverage:
     artifact_dirs: 23
     catalog_earned: 45.0
@@ -224,11 +223,11 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 46.6
+    contract_quality: 44.5
     developer_ergonomics: 66.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 36.8
-  previous_composite: 41.8
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,13 +244,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/screenshots/onsi-2026-08-07T190412.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/onsi/onsi-2026-08-07T190412.png
 security:
 - kind: authentication
   name: Onsi Authentication
@@ -261,6 +261,16 @@ security:
   name: Onsi Domain Security
   slug: onsi-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Run an on-demand pay withdrawal
+  slug: onsi-embedded-pay-withdrawal
+- name: Process end-of-cycle pay deductions
+  slug: onsi-end-of-cycle
+- name: Manage benefit-program members
+  slug: onsi-manage-members
+- name: Sync a full member list via CSV job
+  slug: onsi-sync-member-list-csv
 slug: onsi
 tags:
 - Company

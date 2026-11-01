@@ -39,8 +39,8 @@ overview: 'Barefoot Networks is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Barefoot Networks'' developer surface includes documentation and 3 more developer resources.'
-random_paper: 6
-screenshot: https://raw.githubusercontent.com/api-evangelist/barefoot-networks/refs/heads/main/screenshots/barefoot-networks-2026-07-25T202406.png
+random_paper: 12
+screenshot: https://apis.io/screenshots/barefoot-networks/barefoot-networks-2026-07-25T202406.png
 slug: barefoot-networks
 tags:
 - Company

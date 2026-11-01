@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.euw1.velaris.io
@@ -107,11 +109,8 @@ apis:
   description: The Users API from Velaris — 2 operation(s) for users.
   name: Velaris Users API
   slug: velaris-users-api
-artifact_total: 34
+artifact_total: 38
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Velaris Public Activity API
   slug: open-velaris-activity-api
@@ -156,12 +155,12 @@ collections:
   slug: open-velaris-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/plans/velaris-plans-pricing.yml
+  href: https://artifacts.apis.io/velaris/plans/velaris-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/velaris-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/capabilities/velaris-capability-edges.yml
+  href: https://artifacts.apis.io/velaris/capabilities/velaris-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/velaris-capability-edges.yml
@@ -210,37 +209,37 @@ common:
   type: ChangeLog
   url: https://www.velaris.io/resources/product-updates
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/changelog/velaris-changelog.yml
+  href: https://artifacts.apis.io/velaris/changelog/velaris-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/velaris-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/security/velaris-domain-security.yml
+  href: https://artifacts.apis.io/velaris/security/velaris-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/velaris-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/authentication/velaris-authentication.yml
+  href: https://artifacts.apis.io/velaris/authentication/velaris-authentication.yml
   title: ''
   type: Authentication
   url: authentication/velaris-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/llms/velaris-llms.txt
+  href: https://artifacts.apis.io/velaris/llms/velaris-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/velaris-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/mcp/velaris-mcp.yml
+  href: https://artifacts.apis.io/velaris/mcp/velaris-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/velaris-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/overlays/velaris-openapi-overlay.yaml
+  href: https://artifacts.apis.io/velaris/overlays/velaris-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/velaris-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/conformance/velaris-conformance.yml
+  href: https://artifacts.apis.io/velaris/conformance/velaris-conformance.yml
   title: ''
   type: Conformance
   url: conformance/velaris-conformance.yml
@@ -249,32 +248,32 @@ common:
   type: Compliance
   url: https://www.velaris.io/velaris-security-portal
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/errors/velaris-problem-types.yml
+  href: https://artifacts.apis.io/velaris/errors/velaris-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/velaris-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/lifecycle/velaris-lifecycle.yml
+  href: https://artifacts.apis.io/velaris/lifecycle/velaris-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/velaris-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/conventions/velaris-conventions.yml
+  href: https://artifacts.apis.io/velaris/conventions/velaris-conventions.yml
   title: ''
   type: Conventions
   url: conventions/velaris-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/data-model/velaris-data-model.yml
+  href: https://artifacts.apis.io/velaris/data-model/velaris-data-model.yml
   title: ''
   type: DataModel
   url: data-model/velaris-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/security/velaris-trust-center.yml
+  href: https://artifacts.apis.io/velaris/security/velaris-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/velaris-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/security/velaris-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/velaris/security/velaris-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/velaris-vulnerability-disclosure.yml
@@ -283,12 +282,20 @@ common:
   type: Security
   url: https://www.velaris.io/velaris-security-portal
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/velaris/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Velaris is an AI-native Customer Success platform for mid-market and enterprise B2B SaaS teams, centralizing customer data, health scoring, churn and expansion signals, and lifecycle automation with AI agents and a Copilot workspace assistant. Its Public API (developers.velaris.io) exposes organizations, accounts, contacts, opportunities, risks, custom objects, activities, notes, tickets, tasks, users, surveys, currencies, and lifecycle stages over REST with user-scoped bearer tokens. Velaris is a Battery Ventures portfolio company.
+finops:
+- has_sources: true
+  method: derived
+  name: Velaris Finops
+  primary_unit: ''
+  service_category: ''
+  slug: velaris-finops
+  template: true
 image: https://cdn.prod.website-files.com/6082c882cae3781954fcc067/68907364a5c043be5750b3ea_velaris-favicon.png
 layout: provider
 modified: '2026-07-21'
@@ -303,26 +310,26 @@ plans:
 - name: Velaris Plans Pricing
   plan_count: 1
   slug: velaris-plans-pricing
-random_paper: 10
+random_paper: 14
 score:
   band: developing
-  composite: 51.7
+  composite: 52.9
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 0.0
   facets:
-    access_clarity: 75.0
+    access_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 48.7
+    contract_quality: 48.2
     developer_ergonomics: 48.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 47.4
+  previous_composite: 52.9
   provenance:
     conformance: first-party
     contracts:
@@ -342,13 +349,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/screenshots/velaris-2026-08-17T082724.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/velaris/velaris-2026-08-17T082724.png
 security:
 - kind: authentication
   name: Velaris Authentication
@@ -366,6 +374,16 @@ security:
   name: Velaris Trust Center
   slug: velaris-trust-center
   summary_line: ISO 27001:2022, SOC 2 Type II, GDPR
+skill_count: 4
+skills:
+- name: Log customer engagement (activities and notes)
+  slug: velaris-log-engagement
+- name: Track and manage customer risks
+  slug: velaris-manage-risks
+- name: Create and work customer tickets
+  slug: velaris-manage-tickets
+- name: Read and search the customer portfolio (V2)
+  slug: velaris-read-customer-portfolio
 slug: velaris
 tags:
 - Customer Success

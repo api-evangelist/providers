@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upswing/refs/heads/main/security/upswing-domain-security.yml
+  href: https://artifacts.apis.io/upswing/security/upswing-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upswing-domain-security.yml
@@ -72,17 +74,17 @@ common:
   type: Contact
   url: mailto:contact@upswing.one
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upswing/refs/heads/main/llms/upswing-llms.txt
+  href: https://artifacts.apis.io/upswing/llms/upswing-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upswing-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upswing/refs/heads/main/well-known/upswing-well-known.yml
+  href: https://artifacts.apis.io/upswing/well-known/upswing-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/upswing-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upswing/refs/heads/main/authentication/upswing-authentication.yml
+  href: https://artifacts.apis.io/upswing/authentication/upswing-authentication.yml
   title: ''
   type: Authentication
   url: authentication/upswing-authentication.yml
@@ -106,10 +108,10 @@ overview: 'Upswing is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Upswing''s developer surface includes engineering blog, authentication, support, and 10 more developer resources.'
-random_paper: 11
+random_paper: 13
 score:
   band: minimal
-  composite: 8.0
+  composite: 9.6
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -122,9 +124,9 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 55.4
-    operational_transparency: 2.6
+    developer_ergonomics: 28.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -132,21 +134,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 8.0
+  previous_composite: 9.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 9.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/upswing/refs/heads/main/screenshots/upswing-2026-09-02T165126.png
+screenshot: https://apis.io/screenshots/upswing/upswing-2026-09-02T165126.png
 security:
 - kind: authentication
   name: Upswing Authentication

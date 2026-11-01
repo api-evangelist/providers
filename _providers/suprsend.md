@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.1
-  scored_at: '2026-10-17'
+  score: 29.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 4
@@ -211,9 +213,6 @@ collections:
   name: SuprSend Broadcast Ws Signing Key API
   slug: postman-suprsend-ws-signing-key-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: SuprSend Broadcast API
   slug: open-suprsend-broadcast-api
 - collection_type: open
@@ -274,27 +273,32 @@ collections:
   name: SuprSend Broadcast Ws Signing Key API
   slug: open-suprsend-ws-signing-key-api
 common:
+- group: other
+  href: https://artifacts.apis.io/suprsend/capabilities/suprsend-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/suprsend-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/suprsend/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/agentic-access/suprsend-agentic-access.yml
+  href: https://artifacts.apis.io/suprsend/agentic-access/suprsend-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/suprsend-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/security/suprsend-trust-center.yml
+  href: https://artifacts.apis.io/suprsend/security/suprsend-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/suprsend-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/security/suprsend-domain-security.yml
+  href: https://artifacts.apis.io/suprsend/security/suprsend-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/suprsend-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/authentication/suprsend-authentication.yml
+  href: https://artifacts.apis.io/suprsend/authentication/suprsend-authentication.yml
   title: ''
   type: Authentication
   url: authentication/suprsend-authentication.yml
@@ -335,50 +339,50 @@ common:
   type: StatusPage
   url: https://status.suprsend.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/plans/suprsend-plans-pricing.yml
+  href: https://artifacts.apis.io/suprsend/plans/suprsend-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/suprsend-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/rate-limits/suprsend-rate-limits.yml
+  href: https://artifacts.apis.io/suprsend/rate-limits/suprsend-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/suprsend-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/finops/suprsend-finops.yml
+  href: https://artifacts.apis.io/suprsend/finops/suprsend-finops.yml
   title: ''
   type: FinOps
   url: finops/suprsend-finops.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/json-schema/suprsend-schema.json
+  href: https://artifacts.apis.io/suprsend/json-schema/suprsend-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/suprsend-schema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/examples/suprsend-examples.json
+  href: https://artifacts.apis.io/suprsend/examples/suprsend-examples.json
   title: ''
   type: Examples
   url: examples/suprsend-examples.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/vocabulary/suprsend-vocabulary.yml
+  href: https://artifacts.apis.io/suprsend/vocabulary/suprsend-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/suprsend-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/json-ld/suprsend-context.jsonld
+  href: https://artifacts.apis.io/suprsend/json-ld/suprsend-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/suprsend-context.jsonld
 created: '2026-06-12'
 description: SuprSend is a notification infrastructure platform that enables engineering teams to build, manage, and scale multi-channel notifications through a single unified API. It supports delivery across email, SMS, push notifications, in-app inbox, WhatsApp, Slack, and Microsoft Teams without requiring separate integrations for each channel. The platform provides workflow orchestration, template management, user preference management, smart channel routing with vendor fallback, and real-time delivery logs. SuprSend also offers a Management API for programmatic control of workflows and templates, a CLI for asset synchronization, and an MCP server enabling AI agents to interact with notification infrastructure through tool calling.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Suprsend Finops
-  primary_unit: ''
+  primary_unit: notifications
   service_category: ''
   slug: suprsend-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/suprsend.png
 json_schemas:
 - name: SuprSend API Schemas
@@ -400,12 +404,15 @@ overview: 'SuprSend publishes 21 API contracts indexed on the [APIs.io](https://
   The SuprSend catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SuprSend''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, code examples, and 15 more developer resources.'
+  SuprSend''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, code examples, and 16 more developer resources.'
 plans:
 - name: Suprsend Plans Pricing
   plan_count: 4
   slug: suprsend-plans-pricing
-random_paper: 4
+- name: Suprsend Price Estimates
+  plan_count: 0
+  slug: suprsend-price-estimates
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Suprsend Rate Limits
@@ -424,23 +431,23 @@ rules:
   slug: suprsend-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.4
+  composite: 47.7
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 61.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.3
+    artifact_dirs: 19
+    catalog_earned: 73.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.4
+  delta: 1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 57.9
     contract_governance: 23.5
     contract_quality: 61.8
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 34.2
-  previous_composite: 53.8
+    operational_transparency: 44.7
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     contracts:
@@ -454,13 +461,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 18.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/screenshots/suprsend-2026-06-20T194803.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/suprsend/suprsend-2026-06-20T194803.png
 security:
 - kind: authentication
   name: Suprsend Authentication

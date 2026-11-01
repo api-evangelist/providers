@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sage-geosystems/refs/heads/main/security/sage-geosystems-domain-security.yml
+  href: https://artifacts.apis.io/sage-geosystems/security/sage-geosystems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sage-geosystems-domain-security.yml
@@ -75,7 +77,7 @@ common:
   type: YouTube
   url: https://www.youtube.com/@sagegeosystems
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sage-geosystems/refs/heads/main/llms/sage-geosystems-llms.txt
+  href: https://artifacts.apis.io/sage-geosystems/llms/sage-geosystems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sage-geosystems-llms.txt
@@ -109,7 +111,7 @@ overview: 'Sage Geosystems is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Sage Geosystems'' developer surface includes engineering blog, support, YouTube channel, and 7 more developer resources.'
-random_paper: 6
+random_paper: 8
 score:
   band: minimal
   composite: 10.2
@@ -135,14 +137,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 11.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sage-geosystems/refs/heads/main/screenshots/sage-geosystems-2026-09-02T154256.png
+screenshot: https://apis.io/screenshots/sage-geosystems/sage-geosystems-2026-09-02T154256.png
 security:
 - kind: domain-security
   name: Sage Geosystems Domain Security

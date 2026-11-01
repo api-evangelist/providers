@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Token-authenticated REST API for the Finite State platform, served under /api/public/v0 on the platform host. Interactive Swagger documentation is published per organization at https://[org].finitesta
@@ -46,14 +48,14 @@ apis:
 - description: 'GraphQL API historically documented at https://platform.finitestate.io/api/v1/graphql and still the transport used by the official Python SDK, which authenticates via a client-credentials exchange at '
   name: Finite State GraphQL API
   slug: graphql-api
-artifact_total: 5
+artifact_total: 8
 common:
 - group: company
   title: ''
   type: Blog
   url: https://finitestate.io/feed
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/mcp/finite-state-mcp.yml
+  href: https://artifacts.apis.io/finite-state/mcp/finite-state-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/finite-state-mcp.yml
@@ -134,77 +136,77 @@ common:
   type: ChangeLog
   url: https://docs.finitestate.io/changelog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/a2a/finite-state-a2a.yml
+  href: https://artifacts.apis.io/finite-state/a2a/finite-state-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/finite-state-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/llms/finite-state-llms.txt
+  href: https://artifacts.apis.io/finite-state/llms/finite-state-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/finite-state-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/well-known/finite-state-well-known.yml
+  href: https://artifacts.apis.io/finite-state/well-known/finite-state-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/finite-state-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/packages/finite-state-packages.yml
+  href: https://artifacts.apis.io/finite-state/packages/finite-state-packages.yml
   title: ''
   type: Packages
   url: packages/finite-state-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/packages/finite-state-packages.yml
+  href: https://artifacts.apis.io/finite-state/packages/finite-state-packages.yml
   title: ''
   type: SDKs
   url: packages/finite-state-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/cli/finite-state-cli.yml
+  href: https://artifacts.apis.io/finite-state/cli/finite-state-cli.yml
   title: ''
   type: CLI
   url: cli/finite-state-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/authentication/finite-state-authentication.yml
+  href: https://artifacts.apis.io/finite-state/authentication/finite-state-authentication.yml
   title: ''
   type: Authentication
   url: authentication/finite-state-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/conventions/finite-state-conventions.yml
+  href: https://artifacts.apis.io/finite-state/conventions/finite-state-conventions.yml
   title: ''
   type: Conventions
   url: conventions/finite-state-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/errors/finite-state-problem-types.yml
+  href: https://artifacts.apis.io/finite-state/errors/finite-state-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/finite-state-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/conformance/finite-state-conformance.yml
+  href: https://artifacts.apis.io/finite-state/conformance/finite-state-conformance.yml
   title: ''
   type: Conformance
   url: conformance/finite-state-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/lifecycle/finite-state-lifecycle.yml
+  href: https://artifacts.apis.io/finite-state/lifecycle/finite-state-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/finite-state-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/lifecycle/finite-state-lifecycle.yml
+  href: https://artifacts.apis.io/finite-state/lifecycle/finite-state-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/finite-state-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/security/finite-state-domain-security.yml
+  href: https://artifacts.apis.io/finite-state/security/finite-state-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/finite-state-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/data-model/finite-state-data-model.yml
+  href: https://artifacts.apis.io/finite-state/data-model/finite-state-data-model.yml
   title: ''
   type: DataModel
   url: data-model/finite-state-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/finite-state/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -220,10 +222,10 @@ overview: 'Finite State is listed with 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Finite State''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 29 more developer resources.'
-random_paper: 19
+random_paper: 5
 score:
-  band: thin
-  composite: 37.9
+  band: developing
+  composite: 40.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -231,18 +233,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 57.7
-    discoverability: 78.6
-    operational_transparency: 34.2
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 37.8
+    developer_ergonomics: 73.2
+    discoverability: 71.4
+    operational_transparency: 44.7
+  previous_composite: 40.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -253,14 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/screenshots/finite-state-2026-08-07T165305.png
+screenshot: https://apis.io/screenshots/finite-state/finite-state-2026-08-07T165305.png
 security:
 - kind: authentication
   name: Finite State Authentication
@@ -270,6 +269,14 @@ security:
   name: Finite State Domain Security
   slug: finite-state-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Browse and retrieve Finite State content
+  slug: finite-state-browse-content
+- name: Discover the Finite State agent surface
+  slug: finite-state-discover-surface
+- name: Search Finite State content
+  slug: finite-state-search-content
 slug: finite-state
 tags:
 - Product Security

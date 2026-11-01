@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -73,11 +75,8 @@ apis:
   description: Sessions
   name: Log10 Sessions API
   slug: log10-sessions-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Log10 Feedback API Spec Completions API
   slug: open-log10-completions-api
@@ -92,27 +91,27 @@ collections:
   slug: open-log10-sessions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/capabilities/log10-capability-edges.yml
+  href: https://artifacts.apis.io/log10/capabilities/log10-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/log10-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/agentic-access/log10-agentic-access.yml
+  href: https://artifacts.apis.io/log10/agentic-access/log10-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/log10-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/security/log10-trust-center.yml
+  href: https://artifacts.apis.io/log10/security/log10-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/log10-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/security/log10-domain-security.yml
+  href: https://artifacts.apis.io/log10/security/log10-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/log10-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/authentication/log10-authentication.yml
+  href: https://artifacts.apis.io/log10/authentication/log10-authentication.yml
   title: ''
   type: Authentication
   url: authentication/log10-authentication.yml
@@ -149,47 +148,47 @@ common:
   type: X
   url: https://x.com/log10io
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/plans/log10-plans-pricing.yml
+  href: https://artifacts.apis.io/log10/plans/log10-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/log10-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/rate-limits/log10-rate-limits.yml
+  href: https://artifacts.apis.io/log10/rate-limits/log10-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/log10-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/finops/log10-finops.yml
+  href: https://artifacts.apis.io/log10/finops/log10-finops.yml
   title: ''
   type: FinOps
   url: finops/log10-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/vocabulary/log10-vocabulary.yml
+  href: https://artifacts.apis.io/log10/vocabulary/log10-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/log10-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/json-ld/log10-context.jsonld
+  href: https://artifacts.apis.io/log10/json-ld/log10-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/log10-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/json-schema/completion.json
+  href: https://artifacts.apis.io/log10/json-schema/completion.json
   title: ''
   type: JSONSchema
   url: json-schema/completion.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/json-schema/feedback.json
+  href: https://artifacts.apis.io/log10/json-schema/feedback.json
   title: ''
   type: JSONSchema
   url: json-schema/feedback.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/json-schema/feedback-task.json
+  href: https://artifacts.apis.io/log10/json-schema/feedback-task.json
   title: ''
   type: JSONSchema
   url: json-schema/feedback-task.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/json-schema/session.json
+  href: https://artifacts.apis.io/log10/json-schema/session.json
   title: ''
   type: JSONSchema
   url: json-schema/session.json
@@ -252,7 +251,7 @@ plans:
 - name: Log10 Plans Pricing
   plan_count: 0
   slug: log10-plans-pricing
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Log10 Rate Limits
@@ -271,7 +270,7 @@ rules:
   slug: log10-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.1
+  composite: 33.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 52.8
@@ -279,15 +278,15 @@ score:
     catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.9
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 23.5
     contract_quality: 48.7
-    developer_ergonomics: 16.7
+    developer_ergonomics: 23.8
     discoverability: 57.1
     operational_transparency: 26.3
-  previous_composite: 38.0
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -301,13 +300,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/screenshots/log10-2026-06-20T184646.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/log10/log10-2026-06-20T184646.png
 security:
 - kind: authentication
   name: Log10 Authentication

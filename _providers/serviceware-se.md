@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: BlogRSS
   url: https://serviceware-se.com/en/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/serviceware-se/refs/heads/main/security/serviceware-se-domain-security.yml
+  href: https://artifacts.apis.io/serviceware-se/security/serviceware-se-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/serviceware-se-domain-security.yml
@@ -77,7 +79,7 @@ overview: 'Serviceware SE is profiled on the [APIs.io](https://apis.io/) network
 
 
   Serviceware SE''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 15
+random_paper: 5
 score:
   band: minimal
   composite: 7.5
@@ -111,14 +113,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/serviceware-se/refs/heads/main/screenshots/serviceware-se-2026-09-02T155009.png
+screenshot: https://apis.io/screenshots/serviceware-se/serviceware-se-2026-09-02T155009.png
 security:
 - kind: domain-security
   name: Serviceware Se Domain Security
@@ -131,7 +133,7 @@ tags:
 - IT Financial Management
 - Corporate Performance Management
 - Knowledge Management
-- Field Service
+- Field Service Management
 - Enterprise Software
 - Germany
 website: https://serviceware-se.com

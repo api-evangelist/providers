@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -122,11 +124,8 @@ apis:
   description: The Votes API from Canny — 4 operation(s) for votes.
   name: Canny Votes API
   slug: canny-votes-api
-artifact_total: 36
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Canny REST Autopilot API
   slug: open-canny-autopilot-api
@@ -177,22 +176,22 @@ collections:
   slug: open-canny
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/canny/refs/heads/main/capabilities/canny-capability-edges.yml
+  href: https://artifacts.apis.io/canny/capabilities/canny-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/canny-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/canny/refs/heads/main/agentic-access/canny-agentic-access.yml
+  href: https://artifacts.apis.io/canny/agentic-access/canny-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/canny-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/canny/refs/heads/main/security/canny-domain-security.yml
+  href: https://artifacts.apis.io/canny/security/canny-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/canny-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/canny/refs/heads/main/authentication/canny-authentication.yml
+  href: https://artifacts.apis.io/canny/authentication/canny-authentication.yml
   title: ''
   type: Authentication
   url: authentication/canny-authentication.yml
@@ -251,7 +250,7 @@ overview: 'Canny publishes 16 API contracts indexed on the [APIs.io](https://api
 random_paper: 9
 score:
   band: thin
-  composite: 33.3
+  composite: 32.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -266,8 +265,8 @@ score:
     contract_quality: 43.5
     developer_ergonomics: 45.2
     discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 33.3
+    operational_transparency: 5.3
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -281,13 +280,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/canny/refs/heads/main/screenshots/canny-2026-06-20T173923.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/canny/canny-2026-06-20T173923.png
 security:
 - kind: authentication
   name: Canny Authentication

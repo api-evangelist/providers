@@ -2,7 +2,7 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 58.4
-  scored_at: '2026-10-17'
+  score: 60.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 2
@@ -126,105 +128,115 @@ apis:
   description: The vpcs API from GMI Cloud — 2 operation(s) for vpcs.
   name: GMI Cloud Vpcs API
   slug: gmi-cloud-vpcs-api
-artifact_total: 44
+artifact_total: 46
 common:
+- group: commercial
+  href: https://artifacts.apis.io/gmi-cloud/plans/gmi-cloud-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/gmi-cloud-plans-pricing.yml
+- group: other
+  href: https://artifacts.apis.io/gmi-cloud/capabilities/gmi-cloud-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gmi-cloud-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/agentic-access/gmi-cloud-agentic-access.yml
+  href: https://artifacts.apis.io/gmi-cloud/agentic-access/gmi-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gmi-cloud-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/rate-limits/gmi-cloud-rate-limits.yml
+  href: https://artifacts.apis.io/gmi-cloud/rate-limits/gmi-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gmi-cloud-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/rules/gmi-cloud-rules.yml
+  href: https://artifacts.apis.io/gmi-cloud/rules/gmi-cloud-rules.yml
   title: ''
   type: Spectral
   url: rules/gmi-cloud-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/json-ld/gmi-cloud-context.jsonld
+  href: https://artifacts.apis.io/gmi-cloud/json-ld/gmi-cloud-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/gmi-cloud-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/vocabulary/gmi-cloud-vocabulary.yml
+  href: https://artifacts.apis.io/gmi-cloud/vocabulary/gmi-cloud-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/gmi-cloud-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/data-model/gmi-cloud-data-model.yml
+  href: https://artifacts.apis.io/gmi-cloud/data-model/gmi-cloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gmi-cloud-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/conventions/gmi-cloud-conventions.yml
+  href: https://artifacts.apis.io/gmi-cloud/conventions/gmi-cloud-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/gmi-cloud-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/conventions/gmi-cloud-conventions.yml
+  href: https://artifacts.apis.io/gmi-cloud/conventions/gmi-cloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gmi-cloud-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/errors/gmi-cloud-problem-types.yml
+  href: https://artifacts.apis.io/gmi-cloud/errors/gmi-cloud-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gmi-cloud-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/conformance/gmi-cloud-conformance.yml
+  href: https://artifacts.apis.io/gmi-cloud/conformance/gmi-cloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gmi-cloud-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/llms/gmi-cloud-llms.txt
+  href: https://artifacts.apis.io/gmi-cloud/llms/gmi-cloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gmi-cloud-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/a2a/gmi-cloud-a2a.yml
+  href: https://artifacts.apis.io/gmi-cloud/a2a/gmi-cloud-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/gmi-cloud-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/mcp/gmi-cloud-mcp.yml
+  href: https://artifacts.apis.io/gmi-cloud/mcp/gmi-cloud-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/gmi-cloud-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/well-known/gmi-cloud-well-known.yml
+  href: https://artifacts.apis.io/gmi-cloud/well-known/gmi-cloud-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gmi-cloud-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/hosts/gmi-cloud-hosts.yml
+  href: https://artifacts.apis.io/gmi-cloud/hosts/gmi-cloud-hosts.yml
   title: ''
   type: Hosts
   url: hosts/gmi-cloud-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/vendors/gmi-cloud-vendors.yml
+  href: https://artifacts.apis.io/gmi-cloud/vendors/gmi-cloud-vendors.yml
   title: ''
   type: Vendors
   url: vendors/gmi-cloud-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/packages/gmi-cloud-packages.yml
+  href: https://artifacts.apis.io/gmi-cloud/packages/gmi-cloud-packages.yml
   title: ''
   type: SDKs
   url: packages/gmi-cloud-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/packages/gmi-cloud-packages.yml
+  href: https://artifacts.apis.io/gmi-cloud/packages/gmi-cloud-packages.yml
   title: ''
   type: Packages
   url: packages/gmi-cloud-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/authentication/gmi-cloud-authentication.yml
+  href: https://artifacts.apis.io/gmi-cloud/authentication/gmi-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gmi-cloud-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gmi-cloud/refs/heads/main/security/gmi-cloud-domain-security.yml
+  href: https://artifacts.apis.io/gmi-cloud/security/gmi-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gmi-cloud-domain-security.yml
@@ -274,6 +286,14 @@ common:
   url: https://console.gmicloud.ai/
 created: '2026-10-13'
 description: GMI Cloud is a GPU cloud and AI inference provider offering the Inference Engine (OpenAI-compatible LLM, image and video model APIs at api.gmi-serving.com), the Cluster Engine for GPU containers, bare-metal and VPC infrastructure, and GMI Sandbox for isolated code execution. Its control-plane APIs are served from console.gmicloud.ai and documented at docs.gmicloud.ai.
+finops:
+- has_sources: true
+  method: derived
+  name: Gmi Cloud Finops
+  primary_unit: gpu-hour
+  service_category: ''
+  slug: gmi-cloud-finops
+  template: false
 image: https://www.gmicloud.ai/_next/static/media/gmi-cloud.0t7b2ghyy4szj.png
 json_schemas:
 - name: authTokenResponse
@@ -350,8 +370,12 @@ overview: 'GMI Cloud publishes 19 API contracts indexed on the [APIs.io](https:/
   The GMI Cloud catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  GMI Cloud''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, and 25 more developer resources.'
-random_paper: 17
+  GMI Cloud''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, and 27 more developer resources.'
+plans:
+- name: Gmi Cloud Plans Pricing
+  plan_count: 5
+  slug: gmi-cloud-plans-pricing
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Gmi Cloud Rate Limits
@@ -370,22 +394,24 @@ rules:
     warn: 4
   slug: gmi-cloud-rules
 score:
-  band: developing
-  composite: 53.1
+  band: strong
+  composite: 59.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 77.8
-    catalog_earned_first_party: 12.0
-    catalog_gap: 37.3
+    artifact_dirs: 24
+    catalog_earned: 92.8
+    catalog_earned_first_party: 24.0
+    catalog_gap: 22.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 22.0
-    contract_quality: 65.5
+    contract_quality: 62.1
     developer_ergonomics: 59.5
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 36.8
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -401,11 +427,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Gmi Cloud Authentication

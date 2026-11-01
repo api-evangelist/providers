@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 4
+artifact_total: 5
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/passionfroot/refs/heads/main/rate-limits/passionfroot-rate-limits.yml
+  href: https://artifacts.apis.io/passionfroot/rate-limits/passionfroot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/passionfroot-rate-limits.yml
@@ -82,7 +84,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/passionfroot
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/passionfroot/refs/heads/main/security/passionfroot-domain-security.yml
+  href: https://artifacts.apis.io/passionfroot/security/passionfroot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/passionfroot-domain-security.yml
@@ -95,42 +97,42 @@ common:
   type: Compliance
   url: https://help.passionfroot.me/en/articles/11570259-gdpr-passionfroot
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/passionfroot/refs/heads/main/llms/passionfroot-llms.txt
+  href: https://artifacts.apis.io/passionfroot/llms/passionfroot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/passionfroot-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/passionfroot/refs/heads/main/packages/passionfroot-packages.yml
+  href: https://artifacts.apis.io/passionfroot/packages/passionfroot-packages.yml
   title: ''
   type: Packages
   url: packages/passionfroot-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/passionfroot/refs/heads/main/mcp/passionfroot-mcp.yml
+  href: https://artifacts.apis.io/passionfroot/mcp/passionfroot-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/passionfroot-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/passionfroot/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/passionfroot/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/passionfroot/refs/heads/main/changelog/passionfroot-changelog.yml
+  href: https://artifacts.apis.io/passionfroot/changelog/passionfroot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/passionfroot-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/passionfroot/refs/heads/main/lifecycle/passionfroot-lifecycle.yml
+  href: https://artifacts.apis.io/passionfroot/lifecycle/passionfroot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/passionfroot-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/passionfroot/refs/heads/main/conformance/passionfroot-conformance.yml
+  href: https://artifacts.apis.io/passionfroot/conformance/passionfroot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/passionfroot-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/passionfroot/refs/heads/main/plans/passionfroot-plans-pricing.yml
+  href: https://artifacts.apis.io/passionfroot/plans/passionfroot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/passionfroot-plans-pricing.yml
@@ -169,16 +171,16 @@ plans:
 - name: Passionfroot Plans Pricing
   plan_count: 1
   slug: passionfroot-plans-pricing
-random_paper: 21
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Passionfroot Rate Limits
   slug: passionfroot-rate-limits
 score:
   band: thin
-  composite: 30.0
+  composite: 29.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 35.0
     catalog_earned_first_party: 8.0
     catalog_gap: 80.0
@@ -190,8 +192,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 55.0
-    operational_transparency: 34.2
+    discoverability: 48.3
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -200,7 +202,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 30.0
+  previous_composite: 29.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -215,19 +217,23 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/passionfroot/refs/heads/main/screenshots/passionfroot-2026-08-07T191536.png
+screenshot: https://apis.io/screenshots/passionfroot/passionfroot-2026-08-07T191536.png
 security:
 - kind: domain-security
   name: Passionfroot Domain Security
   slug: passionfroot-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: postgres-query
+  slug: passionfroot-postgres-query
 slug: passionfroot
 tags:
 - Company

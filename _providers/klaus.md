@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.8
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 25.3
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - baseURL: https://yoursubdomain.zendesk.com/qa
   baseurl_source: declared
@@ -49,11 +51,8 @@ apis:
   description: The PublicExportApi API from Klaus — 18 operation(s) for publicexportapi.
   name: Klaus PublicExportApi API
   slug: klaus-publicexportapi-api
-artifact_total: 11
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Public Export PubImportApi API
   slug: open-klaus-pubimportapi-api
@@ -62,7 +61,7 @@ collections:
   slug: open-klaus-publicexportapi-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/plans/klaus-plans-pricing.yml
+  href: https://artifacts.apis.io/klaus/plans/klaus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/klaus-plans-pricing.yml
@@ -71,12 +70,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/zendesk/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/capabilities/klaus-capability-edges.yml
+  href: https://artifacts.apis.io/klaus/capabilities/klaus-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/klaus-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/overlays/klaus-public-export-api-overlay.yaml
+  href: https://artifacts.apis.io/klaus/overlays/klaus-public-export-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/klaus-public-export-api-overlay.yaml
@@ -157,82 +156,90 @@ common:
   type: TrustCenter
   url: https://www.zendesk.com/trust-center/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/security/klaus-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/klaus/security/klaus-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/klaus-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/security/klaus-domain-security.yml
+  href: https://artifacts.apis.io/klaus/security/klaus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/klaus-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/authentication/klaus-authentication.yml
+  href: https://artifacts.apis.io/klaus/authentication/klaus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/klaus-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/conventions/klaus-conventions.yml
+  href: https://artifacts.apis.io/klaus/conventions/klaus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/klaus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/conventions/klaus-conventions.yml
+  href: https://artifacts.apis.io/klaus/conventions/klaus-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/klaus-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/rate-limits/klaus-rate-limits.yml
+  href: https://artifacts.apis.io/klaus/rate-limits/klaus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/klaus-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/errors/klaus-problem-types.yml
+  href: https://artifacts.apis.io/klaus/errors/klaus-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/klaus-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/lifecycle/klaus-lifecycle.yml
+  href: https://artifacts.apis.io/klaus/lifecycle/klaus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/klaus-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/changelog/klaus-changelog.yml
+  href: https://artifacts.apis.io/klaus/changelog/klaus-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/klaus-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/conformance/klaus-conformance.yml
+  href: https://artifacts.apis.io/klaus/conformance/klaus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/klaus-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/data-model/klaus-data-model.yml
+  href: https://artifacts.apis.io/klaus/data-model/klaus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/klaus-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/mcp/klaus-mcp.yml
+  href: https://artifacts.apis.io/klaus/mcp/klaus-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/klaus-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/llms/klaus-llms.txt
+  href: https://artifacts.apis.io/klaus/llms/klaus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/klaus-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/well-known/klaus-well-known.yml
+  href: https://artifacts.apis.io/klaus/well-known/klaus-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/klaus-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/klaus/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Klaus is an AI-powered conversation review and quality assurance (QA) platform for customer support teams, founded in Tallinn, Estonia in 2019 and acquired by Zendesk in 2023, where it now ships as Zendesk QA. The product samples support conversations from connected help desks, scores them against configurable scorecards and rating categories, runs AutoQA checks, tracks disputes and calibration sessions, measures CSAT, and delivers coaching, quizzes and agent-performance dashboards. Klaus exposes two public REST APIs — a Public Import API for pushing conversations and users into QA from a custom help desk, and a Public Export API for pulling reviews, AutoQA ratings, CSAT, disputes, calibration sessions, scorecards, quizzes and users back out for external analysis. Both are documented as Swagger 2.0 specifications at pub.klausapp.com and authenticated with a bearer API token issued from a Zendesk QA custom integration.
+finops:
+- has_sources: true
+  method: derived
+  name: Klaus Finops
+  primary_unit: agent
+  service_category: ''
+  slug: klaus-finops
+  template: false
 image: https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/zendesk-image.png
 layout: provider
 modified: '2026-07-19'
@@ -247,6 +254,9 @@ plans:
 - name: Klaus Plans Pricing
   plan_count: 11
   slug: klaus-plans-pricing
+- name: Klaus Price Estimates
+  plan_count: 0
+  slug: klaus-price-estimates
 random_paper: 16
 rate_limits:
 - limit_count: 4
@@ -254,23 +264,23 @@ rate_limits:
   slug: klaus-rate-limits
 score:
   band: strong
-  composite: 60.9
+  composite: 63.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.0
+  delta: 1.1
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 41.6
     developer_ergonomics: 58.9
-    discoverability: 78.6
-    operational_transparency: 76.3
-  previous_composite: 53.9
+    discoverability: 66.1
+    operational_transparency: 86.8
+  previous_composite: 62.2
   provenance:
     conformance: derived
     contracts:
@@ -286,13 +296,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/screenshots/klaus-2026-07-25T223939.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/klaus/klaus-2026-07-25T223939.png
 security:
 - kind: authentication
   name: Klaus Authentication
@@ -310,6 +321,18 @@ security:
   name: Klaus Trust Center
   slug: klaus-trust-center
   summary_line: SOC 2 Type II, ISO 27001:2022, ISO 27017:2015, ISO 27018:2019, ISO 27701:2019, ISO 42001, FedRAMP LI-SaaS, CSA STAR AI Levels 1 & 2, HIPAA (BAA available), HDS
+skill_count: 5
+skills:
+- name: Export AutoQA ratings and CSAT from Zendesk QA
+  slug: klaus-export-autoqa-and-csat
+- name: Export Zendesk QA quiz results and leaderboards
+  slug: klaus-export-quiz-results
+- name: Export Zendesk QA reviews for external analysis
+  slug: klaus-export-reviews
+- name: Import conversations and users into Zendesk QA
+  slug: klaus-import-conversations
+- name: Investigate a customer's conversations and their review history
+  slug: klaus-investigate-customer-conversations
 slug: klaus
 tags:
 - Company

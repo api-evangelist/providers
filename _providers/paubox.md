@@ -16,7 +16,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: near-conformant
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 63.3
-  scored_at: '2026-10-17'
+  score: 59.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -320,7 +322,7 @@ apis:
     question: Which links were included in the emails of a sent campaign, with their tracking info?
   phrasing_ops: 1
   slug: paubox-tracking-links-api
-artifact_total: 75
+artifact_total: 80
 asyncapis:
 - description: ''
   name: Paubox Email Webhooks
@@ -331,47 +333,47 @@ common:
   type: Security
   url: https://www.paubox.com/.well-known/security.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/integrations/paubox-integration-edges.yml
+  href: https://artifacts.apis.io/paubox/integrations/paubox-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/paubox-integration-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/agentic-access/paubox-agentic-access.yml
+  href: https://artifacts.apis.io/paubox/agentic-access/paubox-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/paubox-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/rules/paubox-rules.yml
+  href: https://artifacts.apis.io/paubox/rules/paubox-rules.yml
   title: ''
   type: Spectral
   url: rules/paubox-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/json-ld/paubox-context.jsonld
+  href: https://artifacts.apis.io/paubox/json-ld/paubox-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/paubox-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/vocabulary/paubox-vocabulary.yml
+  href: https://artifacts.apis.io/paubox/vocabulary/paubox-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/paubox-vocabulary.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/security/paubox-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/paubox/security/paubox-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/paubox-vulnerability-disclosure.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/lifecycle/paubox-lifecycle.yml
+  href: https://artifacts.apis.io/paubox/lifecycle/paubox-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/paubox-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/hosts/paubox-hosts.yml
+  href: https://artifacts.apis.io/paubox/hosts/paubox-hosts.yml
   title: ''
   type: Hosts
   url: hosts/paubox-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/vendors/paubox-vendors.yml
+  href: https://artifacts.apis.io/paubox/vendors/paubox-vendors.yml
   title: ''
   type: Vendors
   url: vendors/paubox-vendors.yml
@@ -380,22 +382,22 @@ common:
   type: BlogRSS
   url: https://www.paubox.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/capabilities/paubox-capability-edges.yml
+  href: https://artifacts.apis.io/paubox/capabilities/paubox-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/paubox-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/overlays/paubox-email-api-overlay.yaml
+  href: https://artifacts.apis.io/paubox/overlays/paubox-email-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paubox-email-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/overlays/paubox-marketing-api-overlay.yaml
+  href: https://artifacts.apis.io/paubox/overlays/paubox-marketing-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paubox-marketing-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/overlays/paubox-forms-api-overlay.yaml
+  href: https://artifacts.apis.io/paubox/overlays/paubox-forms-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paubox-forms-api-overlay.yaml
@@ -464,97 +466,97 @@ common:
   type: Compliance
   url: https://www.paubox.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/security/paubox-trust-center.yml
+  href: https://artifacts.apis.io/paubox/security/paubox-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/paubox-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/llms/paubox-llms.txt
+  href: https://artifacts.apis.io/paubox/llms/paubox-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paubox-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/a2a/paubox-a2a.yml
+  href: https://artifacts.apis.io/paubox/a2a/paubox-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/paubox-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/paubox/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/mcp/paubox-mcp.yml
+  href: https://artifacts.apis.io/paubox/mcp/paubox-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/paubox-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/packages/paubox-packages.yml
+  href: https://artifacts.apis.io/paubox/packages/paubox-packages.yml
   title: ''
   type: Packages
   url: packages/paubox-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/packages/paubox-packages.yml
+  href: https://artifacts.apis.io/paubox/packages/paubox-packages.yml
   title: ''
   type: SDKs
   url: packages/paubox-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/cli/paubox-cli.yml
+  href: https://artifacts.apis.io/paubox/cli/paubox-cli.yml
   title: ''
   type: CLI
   url: cli/paubox-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/authentication/paubox-authentication.yml
+  href: https://artifacts.apis.io/paubox/authentication/paubox-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paubox-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/conventions/paubox-conventions.yml
+  href: https://artifacts.apis.io/paubox/conventions/paubox-conventions.yml
   title: ''
   type: Conventions
   url: conventions/paubox-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/errors/paubox-problem-types.yml
+  href: https://artifacts.apis.io/paubox/errors/paubox-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/paubox-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/lifecycle/paubox-lifecycle.yml
+  href: https://artifacts.apis.io/paubox/lifecycle/paubox-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/paubox-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/conformance/paubox-conformance.yml
+  href: https://artifacts.apis.io/paubox/conformance/paubox-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paubox-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/security/paubox-domain-security.yml
+  href: https://artifacts.apis.io/paubox/security/paubox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paubox-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/plans/paubox-plans-pricing.yml
+  href: https://artifacts.apis.io/paubox/plans/paubox-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/paubox-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/rate-limits/paubox-rate-limits.yml
+  href: https://artifacts.apis.io/paubox/rate-limits/paubox-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/paubox-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/data-model/paubox-data-model.yml
+  href: https://artifacts.apis.io/paubox/data-model/paubox-data-model.yml
   title: ''
   type: DataModel
   url: data-model/paubox-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/asyncapi/paubox-email-webhooks.yml
+  href: https://artifacts.apis.io/paubox/asyncapi/paubox-email-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/paubox-email-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/well-known/paubox-well-known.yml
+  href: https://artifacts.apis.io/paubox/well-known/paubox-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/paubox-well-known.yml
@@ -565,6 +567,14 @@ common:
 created: '2026-08-26'
 description: Paubox is a HIPAA compliant, HITRUST certified email infrastructure company serving healthcare organizations in the United States. Its products encrypt outbound email without recipient portals, passwords, or plugins, and work alongside Google Workspace and Microsoft 365. The developer surface is three REST APIs on api.paubox.com — the Paubox Email API for transactional email (send, bulk send, message receipt, Handlebars dynamic templates, templated messages) with an SMTP relay alternative at smtp.paubox.com:587; the Paubox Marketing API for HIPAA compliant campaign mailings, drip campaigns, subscribers, subscription lists, tracking links and campaign analytics; and the Paubox Forms API for building, hosting and processing secure patient intake forms with public respondent endpoints and scoped management endpoints. Paubox publishes OpenAPI 3.0 definitions for all three, official SDKs for ten languages, a Node-based CLI, delivery webhooks, an llms.txt, an A2A agent card, a published
   Agent Skill, and a hosted MCP server at mcp.paubox.com exposing 30 tools across email, forms and marketing.
+finops:
+- has_sources: true
+  method: derived
+  name: Paubox Finops
+  primary_unit: emails
+  service_category: ''
+  slug: paubox-finops
+  template: false
 image: https://www.paubox.com/hubfs/Logos/Paubox_Primary_color.svg
 json_schemas:
 - name: BulkCreateResponse
@@ -743,9 +753,9 @@ overview: 'Paubox publishes 13 API contracts indexed on the [APIs.io](https://ap
   Paubox''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 44 more developer resources.'
 plans:
 - name: Paubox Plans Pricing
-  plan_count: 6
+  plan_count: 2
   slug: paubox-plans-pricing
-random_paper: 17
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Paubox Rate Limits
@@ -765,23 +775,23 @@ rules:
   slug: paubox-rules
 score:
   band: exemplar
-  composite: 77.0
+  composite: 76.2
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 89.8
-    catalog_earned_first_party: 24.0
-    catalog_gap: 25.3
+    artifact_dirs: 32
+    catalog_earned: 88.8
+    catalog_earned_first_party: 20.0
+    catalog_gap: 26.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.6
+  delta: -0.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 89.5
     contract_governance: 35.6
-    contract_quality: 73.5
+    contract_quality: 72.4
     developer_ergonomics: 78.6
-    discoverability: 80.0
-    operational_transparency: 76.3
-  previous_composite: 68.4
+    discoverability: 70.0
+    operational_transparency: 78.9
+  previous_composite: 76.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -806,13 +816,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/screenshots/paubox-2026-09-02T150917.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/paubox/paubox-2026-09-02T150917.png
 security:
 - kind: authentication
   name: Paubox Authentication
@@ -830,6 +841,16 @@ security:
   name: Paubox Trust Center
   slug: paubox-trust-center
   summary_line: HITRUST, HIPAA / HITECH business associate
+skill_count: 4
+skills:
+- name: paubox-collect-form-submissions
+  slug: paubox-collect-form-submissions
+- name: paubox
+  slug: paubox-provider-published-skill
+- name: paubox-run-marketing-campaign
+  slug: paubox-run-marketing-campaign
+- name: paubox-send-hipaa-email
+  slug: paubox-send-hipaa-email
 slug: paubox
 tags:
 - Email

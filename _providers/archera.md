@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.3
-  scored_at: '2026-10-17'
+  score: 45.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -92,11 +94,8 @@ apis:
   description: OAuth 2.0 authorization endpoints for third-party integrations
   name: Archera O Auth API
   slug: archera-oauth-api
-artifact_total: 26
+artifact_total: 30
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Archera.ai Commitment Plans API
   slug: open-archera-commitment-plans-api
@@ -125,17 +124,22 @@ collections:
   name: Archera.ai Commitment Plans Well-Known API
   slug: open-archera-well-known-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/archera/plans/archera-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/archera-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.archera.ai/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/capabilities/archera-capability-edges.yml
+  href: https://artifacts.apis.io/archera/capabilities/archera-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/archera-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/overlays/archera-openapi-overlay.yaml
+  href: https://artifacts.apis.io/archera/overlays/archera-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/archera-openapi-overlay.yaml
@@ -160,42 +164,42 @@ common:
   type: GettingStarted
   url: https://docs.archera.ai/getting-started/how-to-sign-up-with-archera
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/authentication/archera-authentication.yml
+  href: https://artifacts.apis.io/archera/authentication/archera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/archera-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/scopes/archera-scopes.yml
+  href: https://artifacts.apis.io/archera/scopes/archera-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/archera-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/mcp/archera-mcp.yml
+  href: https://artifacts.apis.io/archera/mcp/archera-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/archera-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/well-known/archera-well-known.yml
+  href: https://artifacts.apis.io/archera/well-known/archera-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/archera-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/conventions/archera-conventions.yml
+  href: https://artifacts.apis.io/archera/conventions/archera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/archera-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/errors/archera-problem-types.yml
+  href: https://artifacts.apis.io/archera/errors/archera-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/archera-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/lifecycle/archera-lifecycle.yml
+  href: https://artifacts.apis.io/archera/lifecycle/archera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/archera-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/conformance/archera-conformance.yml
+  href: https://artifacts.apis.io/archera/conformance/archera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/archera-conformance.yml
@@ -204,32 +208,32 @@ common:
   type: Compliance
   url: https://www.archera.ai/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/security/archera-trust-center.yml
+  href: https://artifacts.apis.io/archera/security/archera-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/archera-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/security/archera-domain-security.yml
+  href: https://artifacts.apis.io/archera/security/archera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/archera-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/data-model/archera-data-model.yml
+  href: https://artifacts.apis.io/archera/data-model/archera-data-model.yml
   title: ''
   type: DataModel
   url: data-model/archera-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/agentic-access/archera-agentic-access.yml
+  href: https://artifacts.apis.io/archera/agentic-access/archera-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/archera-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/archera/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/llms/archera-llms.txt
+  href: https://artifacts.apis.io/archera/llms/archera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/archera-llms.txt
@@ -263,6 +267,14 @@ common:
   url: https://www.archera.ai/privacy
 created: '2026-07-17'
 description: Archera is a cloud financial operations (FinOps) platform that helps organizations reduce cloud spend by 20-30% through intelligent commitment management and insured, short-term cloud commitments across AWS, Azure, and Google Cloud. Its Guaranteed Commitments (Guaranteed Savings Plans, Guaranteed Reserved Instances, and Guaranteed Committed Use Discounts) provide flexible terms as short as 30 days with risk protection for unused capacity. The Archera Public API exposes commitment plans, commitments, exchanges, metrics, resources, orgs, and uploads over a REST v1 interface authenticated with an API key or OAuth 2.0 (Authorization Code + PKCE), and Archera operates a hosted remote MCP server so AI assistants can query cloud cost data and optimization recommendations directly. A Partner API supports onboarding customers and creating marketplace offers via AWS CPPO, Microsoft MPO, and Google MCPO.
+finops:
+- has_sources: true
+  method: derived
+  name: Archera Finops
+  primary_unit: platform
+  service_category: ''
+  slug: archera-finops
+  template: false
 image: https://cdn.prod.website-files.com/66df18fcc90988b3a2c38285/677d4bc397e85ea0e180addb_1654705931-website-link-preview.avif
 layout: provider
 mcp_servers:
@@ -276,8 +288,12 @@ network: true
 overview: 'Archera publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Commitment Plans API, Commitments API, Exchanges API, and 7 more. Tagged areas include Company, Developer Tools, FinOps, Cloud Cost Management, and Cloud Commitments.
 
 
-  Archera''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 23 more developer resources.'
-random_paper: 0
+  Archera''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 24 more developer resources.'
+plans:
+- name: Archera Plans Pricing
+  plan_count: 2
+  slug: archera-plans-pricing
+random_paper: 6
 scopes:
 - name: Archera Scopes
   scope_count: 4
@@ -285,23 +301,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.2
+  composite: 52.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.8
   facets:
-    access_clarity: 53.9
+    access_clarity: 89.5
     contract_governance: 18.2
     contract_quality: 40.1
-    developer_ergonomics: 54.2
-    discoverability: 75.0
+    developer_ergonomics: 58.9
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 44.2
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -318,13 +334,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/screenshots/archera-2026-07-25T201044.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/archera/archera-2026-07-25T201044.png
 security:
 - kind: authentication
   name: Archera Authentication
@@ -338,6 +355,14 @@ security:
   name: Archera Trust Center
   slug: archera-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 3
+skills:
+- name: Review and apply a recommended commitment plan
+  slug: archera-apply-recommended-plan
+- name: Optimize commitments via exchange recommendations
+  slug: archera-optimize-exchanges
+- name: Review cloud commitment coverage and savings
+  slug: archera-review-commitment-coverage
 slug: archera
 tags:
 - Company

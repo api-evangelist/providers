@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.0
-  scored_at: '2026-10-17'
-api_count: 5
+  score: 35.4
+  scored_at: '2026-10-31'
+api_count: 3
 apis:
 - description: Referral coupon API published as a public Postman collection. Checks and burns coupons for a referrer or a newly referred prospect, authenticated by a SHA-256 hash of the coupon code concatenated with
   name: Splio Referral API
@@ -126,49 +128,49 @@ apis:
   description: The Universe API from Splio — 2 operation(s) for universe.
   name: Splio Universe API
   slug: splio-universe-api
-artifact_total: 22
+artifact_total: 27
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://splio.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/capabilities/splio-capability-edges.yml
+  href: https://artifacts.apis.io/splio/capabilities/splio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/splio-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/overlays/splio-customer-platform-overlay.yaml
+  href: https://artifacts.apis.io/splio/overlays/splio-customer-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splio-customer-platform-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/overlays/splio-messaging-api-overlay.yaml
+  href: https://artifacts.apis.io/splio/overlays/splio-messaging-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splio-messaging-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/overlays/splio-campaign-api-v1-overlay.yaml
+  href: https://artifacts.apis.io/splio/overlays/splio-campaign-api-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splio-campaign-api-v1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/overlays/splio-campaign-api-overlay.yaml
+  href: https://artifacts.apis.io/splio/overlays/splio-campaign-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splio-campaign-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/overlays/splio-content-api-overlay.yaml
+  href: https://artifacts.apis.io/splio/overlays/splio-content-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splio-content-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/overlays/splio-interactions-api-overlay.yaml
+  href: https://artifacts.apis.io/splio/overlays/splio-interactions-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/splio-interactions-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/security/splio-domain-security.yml
+  href: https://artifacts.apis.io/splio/security/splio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/splio-domain-security.yml
@@ -241,102 +243,110 @@ common:
   type: ChangeLog
   url: https://helpcenter.splio.com/kb/en/splio-product-updates-405810
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/llms/splio-llms.txt
+  href: https://artifacts.apis.io/splio/llms/splio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/splio-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/well-known/splio-well-known.yml
+  href: https://artifacts.apis.io/splio/well-known/splio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/splio-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/well-known/splio-api-catalog.json
+  href: https://artifacts.apis.io/splio/well-known/splio-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/splio-api-catalog.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/authentication/splio-authentication.yml
+  href: https://artifacts.apis.io/splio/authentication/splio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/splio-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/conventions/splio-conventions.yml
+  href: https://artifacts.apis.io/splio/conventions/splio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/splio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/conventions/splio-conventions.yml
+  href: https://artifacts.apis.io/splio/conventions/splio-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/splio-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/lifecycle/splio-lifecycle.yml
+  href: https://artifacts.apis.io/splio/lifecycle/splio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/splio-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/lifecycle/splio-lifecycle.yml
+  href: https://artifacts.apis.io/splio/lifecycle/splio-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/splio-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/conformance/splio-conformance.yml
+  href: https://artifacts.apis.io/splio/conformance/splio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/splio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/errors/splio-problem-types.yml
+  href: https://artifacts.apis.io/splio/errors/splio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/splio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/data-model/splio-data-model.yml
+  href: https://artifacts.apis.io/splio/data-model/splio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/splio-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/packages/splio-packages.yml
+  href: https://artifacts.apis.io/splio/packages/splio-packages.yml
   title: ''
   type: Packages
   url: packages/splio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/packages/splio-packages.yml
+  href: https://artifacts.apis.io/splio/packages/splio-packages.yml
   title: ''
   type: SDKs
   url: packages/splio-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/conformance/splio-conformance.yml
+  href: https://artifacts.apis.io/splio/conformance/splio-conformance.yml
   title: ''
   type: Compliance
   url: conformance/splio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/components/splio-components.yml
+  href: https://artifacts.apis.io/splio/components/splio-components.yml
   title: ''
   type: Components
   url: components/splio-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/rate-limits/splio-rate-limits.yml
+  href: https://artifacts.apis.io/splio/rate-limits/splio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/splio-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/plans/splio-plans-pricing.yml
+  href: https://artifacts.apis.io/splio/plans/splio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/splio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/changelog/splio-changelog.yml
+  href: https://artifacts.apis.io/splio/changelog/splio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/splio-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/splio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-29'
 description: Splio is a Paris-headquartered customer marketing platform for retail, e-commerce, restaurant and travel brands, combining a Customer Data Platform, omnichannel marketing automation (email, SMS, WhatsApp, push), loyalty and rewards programs, mobile wallet cards and Tinyclues-derived predictive AI targeting into one "Splio Customer Platform". Brands integrate it through a JWT-authenticated REST API on api.splio.com covering contacts, custom fields, blacklists, orders, abandoned carts, products, stores, targeting groups and filters, loyalty members, points, tiers, programs and reward grant/burn, plus separate Messaging, Campaign, Content and Interactions APIs, a Datahub SFTP/CSV import path, and packaged connectors for Shopify, Magento, PrestaShop, Meta/Google/TikTok/Snapchat Ads, Criteo, Zendesk, OneSignal and Make.
+finops:
+- has_sources: true
+  method: derived
+  name: Splio Finops
+  primary_unit: ''
+  service_category: ''
+  slug: splio-finops
+  template: true
 image: https://splio.com/wp-content/uploads/2022/05/3250_Splio_Logo_RGB-2.png
 layout: provider
 modified: '2026-10-06'
@@ -351,16 +361,16 @@ plans:
 - name: Splio Plans Pricing
   plan_count: 0
   slug: splio-plans-pricing
-random_paper: 1
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Splio Rate Limits
   slug: splio-rate-limits
 score:
-  band: developing
-  composite: 51.6
+  band: strong
+  composite: 56.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -370,10 +380,10 @@ score:
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 50.5
-    developer_ergonomics: 51.8
-    discoverability: 78.6
-    operational_transparency: 50.0
+    contract_quality: 49.7
+    developer_ergonomics: 70.8
+    discoverability: 71.4
+    operational_transparency: 81.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -382,7 +392,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 51.6
+  previous_composite: 56.5
   provenance:
     conformance: first-party
     contracts:
@@ -402,13 +412,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/screenshots/splio-2026-09-02T160514.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/splio/splio-2026-09-02T160514.png
 security:
 - kind: authentication
   name: Splio Authentication
@@ -418,6 +429,16 @@ security:
   name: Splio Domain Security
   slug: splio-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: splio-enroll-loyalty-member
+  slug: splio-enroll-loyalty-member
+- name: splio-manage-consent-and-suppression
+  slug: splio-manage-consent-and-suppression
+- name: splio-send-transactional-email
+  slug: splio-send-transactional-email
+- name: splio-sync-ecommerce-data
+  slug: splio-sync-ecommerce-data
 slug: splio
 tags:
 - Marketing Automation

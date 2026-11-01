@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Enterprise API for partner organisations covering fiat<>crypto trading on India INR rails (deposits via Cards/UPI/NEFT/IMPS/RTGS), automated KYC verification (Aadhar/PAN/VoterID/Passport), crypto<>cry
@@ -50,7 +52,7 @@ common:
   type: Blog
   url: https://www.vauld.com/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vauld/refs/heads/main/security/vauld-domain-security.yml
+  href: https://artifacts.apis.io/vauld/security/vauld-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vauld-domain-security.yml
@@ -87,47 +89,47 @@ common:
   type: Pricing
   url: https://vauld.com/fees
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vauld/refs/heads/main/authentication/vauld-authentication.yml
+  href: https://artifacts.apis.io/vauld/authentication/vauld-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vauld-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vauld/refs/heads/main/conventions/vauld-conventions.yml
+  href: https://artifacts.apis.io/vauld/conventions/vauld-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vauld-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vauld/refs/heads/main/asyncapi/vauld-webhooks.yml
+  href: https://artifacts.apis.io/vauld/asyncapi/vauld-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vauld-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/vauld/refs/heads/main/sandbox/vauld-sandbox.yml
+  href: https://artifacts.apis.io/vauld/sandbox/vauld-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vauld-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vauld/refs/heads/main/errors/vauld-problem-types.yml
+  href: https://artifacts.apis.io/vauld/errors/vauld-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vauld-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vauld/refs/heads/main/components/vauld-components.yml
+  href: https://artifacts.apis.io/vauld/components/vauld-components.yml
   title: ''
   type: Components
   url: components/vauld-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vauld/refs/heads/main/conformance/vauld-conformance.yml
+  href: https://artifacts.apis.io/vauld/conformance/vauld-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vauld-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vauld/refs/heads/main/lifecycle/vauld-lifecycle.yml
+  href: https://artifacts.apis.io/vauld/lifecycle/vauld-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vauld-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vauld/refs/heads/main/llms/vauld-llms.txt
+  href: https://artifacts.apis.io/vauld/llms/vauld-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vauld-llms.txt
@@ -149,7 +151,7 @@ overview: 'Vauld is listed with 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 12
 score:
   band: thin
-  composite: 28.6
+  composite: 31.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -157,14 +159,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 54.8
     discoverability: 66.1
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -174,7 +176,7 @@ score:
     regions:
     - india-south-asia
     - southeast-asia
-  previous_composite: 28.1
+  previous_composite: 31.0
   provenance:
     conformance: derived
   regulatory:
@@ -183,14 +185,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vauld/refs/heads/main/screenshots/vauld-2026-09-02T165505.png
+screenshot: https://apis.io/screenshots/vauld/vauld-2026-09-02T165505.png
 security:
 - kind: authentication
   name: Vauld Authentication

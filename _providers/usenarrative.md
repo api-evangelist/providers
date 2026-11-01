@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 31.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 24
   slug: usenarrative-agentic-access
   summary_line: 24 operations · 10 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.narrative-sports.com
   baseurl_source: declared
@@ -74,11 +76,8 @@ apis:
   description: The Tasks API from Narrative Sports — 8 operation(s) for tasks.
   name: Narrative Sports Tasks API
   slug: usenarrative-tasks-api
-artifact_total: 17
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Narrative Sports Health API
   slug: open-usenarrative-health-api
@@ -99,7 +98,7 @@ collections:
   slug: open-usenarrative-tasks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/plans/usenarrative-plans-pricing.yml
+  href: https://artifacts.apis.io/usenarrative/plans/usenarrative-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/usenarrative-plans-pricing.yml
@@ -156,67 +155,75 @@ common:
   type: GitHubOrganization
   url: https://github.com/Narrative-Sports
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/llms/usenarrative-llms.txt
+  href: https://artifacts.apis.io/usenarrative/llms/usenarrative-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/usenarrative-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/mcp/usenarrative-mcp.yml
+  href: https://artifacts.apis.io/usenarrative/mcp/usenarrative-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/usenarrative-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/errors/usenarrative-problem-types.yml
+  href: https://artifacts.apis.io/usenarrative/errors/usenarrative-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/usenarrative-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/conventions/usenarrative-conventions.yml
+  href: https://artifacts.apis.io/usenarrative/conventions/usenarrative-conventions.yml
   title: ''
   type: Conventions
   url: conventions/usenarrative-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/lifecycle/usenarrative-lifecycle.yml
+  href: https://artifacts.apis.io/usenarrative/lifecycle/usenarrative-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/usenarrative-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/conformance/usenarrative-conformance.yml
+  href: https://artifacts.apis.io/usenarrative/conformance/usenarrative-conformance.yml
   title: ''
   type: Conformance
   url: conformance/usenarrative-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/data-model/usenarrative-data-model.yml
+  href: https://artifacts.apis.io/usenarrative/data-model/usenarrative-data-model.yml
   title: ''
   type: DataModel
   url: data-model/usenarrative-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/overlays/usenarrative-sports-overlay.yaml
+  href: https://artifacts.apis.io/usenarrative/overlays/usenarrative-sports-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/usenarrative-sports-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/usenarrative/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/security/usenarrative-domain-security.yml
+  href: https://artifacts.apis.io/usenarrative/security/usenarrative-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/usenarrative-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/agentic-access/usenarrative-agentic-access.yml
+  href: https://artifacts.apis.io/usenarrative/agentic-access/usenarrative-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/usenarrative-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/authentication/usenarrative-authentication.yml
+  href: https://artifacts.apis.io/usenarrative/authentication/usenarrative-authentication.yml
   title: ''
   type: Authentication
   url: authentication/usenarrative-authentication.yml
 created: '2026-07-17'
 description: Narrative Sports (Narrative AI Inc., YC Fall 2025, listed by Y Combinator as "usenarrative") is an AI-powered sports content platform that automates the creation and distribution of broadcast-ready highlight videos for broadcasters, teams, and leagues. Its API ingests live SRT streams for soccer and MMA, detects key moments in real time, and returns rendered clips in multiple aspect ratios, single-game recaps, multi-game highlight packages, and OTIO edit timelines.
+finops:
+- has_sources: true
+  method: derived
+  name: Usenarrative Finops
+  primary_unit: ''
+  service_category: ''
+  slug: usenarrative-finops
+  template: true
 image: https://narrative-sports.com/largelogofrontend_white2.png
 layout: provider
 modified: '2026-07-21'
@@ -231,26 +238,26 @@ plans:
 - name: Usenarrative Plans Pricing
   plan_count: 1
   slug: usenarrative-plans-pricing
-random_paper: 7
+random_paper: 9
 score:
   band: developing
-  composite: 43.9
+  composite: 47.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.2
+  delta: 0.0
   facets:
-    access_clarity: 59.2
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 46.1
-    developer_ergonomics: 49.4
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 39.7
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,13 +274,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/screenshots/usenarrative-2026-08-17T082657.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/usenarrative/usenarrative-2026-08-17T082657.png
 security:
 - kind: authentication
   name: Usenarrative Authentication
@@ -283,6 +291,14 @@ security:
   name: Usenarrative Domain Security
   slug: usenarrative-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Create a single-game recap
+  slug: usenarrative-game-recap
+- name: Build a multi-game highlight package
+  slug: usenarrative-highlight-package
+- name: Process a live sports stream into highlights
+  slug: usenarrative-live-highlights
 slug: usenarrative
 tags:
 - Sports

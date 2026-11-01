@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'RESTful API (v1) to automate outbound payments from your own Telleroo account: manage recipients, query accounts and transactions, and create bank transfers (to a saved recipient or adhoc). Token auth'
@@ -42,12 +44,17 @@ apis:
 - description: 'RESTful Embedded Payments API (v3) to build Telleroo into your own platform: authorize against client companies over OAuth 2.0 (authorization code, scope "create"), enumerate companies and accounts, a'
   name: Telleroo Partner API
   slug: telleroo-partner-api
-artifact_total: 6
+artifact_total: 9
 asyncapis:
 - description: Outbound webhook events emitted by the Telleroo Business API (v1) and Partner API (v3). Each delivery is an HTTP POST to the subscriber URL configured in the Telleroo dashboard and carries a subscribe
   name: Telleroo Webhooks
   slug: telleroo-webhooks-asyncapi
 common:
+- group: commercial
+  href: https://artifacts.apis.io/telleroo/plans/telleroo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/telleroo-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -105,82 +112,90 @@ common:
   type: PrivacyPolicy
   url: https://www.telleroo.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/llms/telleroo-llms.txt
+  href: https://artifacts.apis.io/telleroo/llms/telleroo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/telleroo-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/authentication/telleroo-authentication.yml
+  href: https://artifacts.apis.io/telleroo/authentication/telleroo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/telleroo-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/scopes/telleroo-scopes.yml
+  href: https://artifacts.apis.io/telleroo/scopes/telleroo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/telleroo-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/conventions/telleroo-conventions.yml
+  href: https://artifacts.apis.io/telleroo/conventions/telleroo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/telleroo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/conventions/telleroo-conventions.yml
+  href: https://artifacts.apis.io/telleroo/conventions/telleroo-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/telleroo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/errors/telleroo-problem-types.yml
+  href: https://artifacts.apis.io/telleroo/errors/telleroo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/telleroo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/lifecycle/telleroo-lifecycle.yml
+  href: https://artifacts.apis.io/telleroo/lifecycle/telleroo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/telleroo-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/lifecycle/telleroo-lifecycle.yml
+  href: https://artifacts.apis.io/telleroo/lifecycle/telleroo-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/telleroo-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/sandbox/telleroo-sandbox.yml
+  href: https://artifacts.apis.io/telleroo/sandbox/telleroo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/telleroo-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/conformance/telleroo-conformance.yml
+  href: https://artifacts.apis.io/telleroo/conformance/telleroo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/telleroo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/data-model/telleroo-data-model.yml
+  href: https://artifacts.apis.io/telleroo/data-model/telleroo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/telleroo-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/security/telleroo-domain-security.yml
+  href: https://artifacts.apis.io/telleroo/security/telleroo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/telleroo-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/asyncapi/telleroo-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/telleroo/asyncapi/telleroo-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/telleroo-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/asyncapi/telleroo-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/telleroo/asyncapi/telleroo-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/telleroo-webhooks-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/mcp/telleroo-mcp.yml
+  href: https://artifacts.apis.io/telleroo/mcp/telleroo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/telleroo-mcp.yml
 created: '2026-07-17'
 description: 'Telleroo is a UK bulk payments platform that automates supplier and payroll payments for businesses, accountants and bookkeepers. It provisions a ring-fenced e-money wallet in the customer''s name and sends bulk Faster Payments 24/7 (including bank holidays), plus international payments in 25+ currencies over SEPA, ACH and SWIFT. Built-in fraud controls include Confirmation of Payee, new/updated payee alerts and multi-level approval workflows, and it integrates with accounting and payroll software such as Xero, QuickBooks, Employment Hero and Staffology. Telleroo exposes two RESTful APIs: a Business API (v1, token auth) for automating outbound payments from your own account, and a Partner/Embedded Payments API (v3, OAuth 2.0) for building pay runs into your own platform on behalf of client companies. Both support idempotent requests, real-time webhooks and a dedicated sandbox environment.'
+finops:
+- has_sources: true
+  method: derived
+  name: Telleroo Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: telleroo-finops
+  template: false
 image: https://www.telleroo.com/favicon.ico
 layout: provider
 modified: '2026-07-21'
@@ -193,32 +208,39 @@ overview: 'Telleroo is listed with 2 APIs on the [APIs.io](https://apis.io/) net
   The Telleroo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Telleroo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 12
+  Telleroo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+plans:
+- name: Telleroo Plans Pricing
+  plan_count: 7
+  slug: telleroo-plans-pricing
+- name: Telleroo Price Estimates
+  plan_count: 0
+  slug: telleroo-price-estimates
+random_paper: 6
 scopes:
 - name: Telleroo Scopes
   scope_count: 1
   slug: telleroo-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 45.3
+  band: strong
+  composite: 54.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 19
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 60.7
-    discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 45.3
+    developer_ergonomics: 64.3
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 46.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -228,14 +250,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 33.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/screenshots/telleroo-2026-08-17T082305.png
+screenshot: https://apis.io/screenshots/telleroo/telleroo-2026-08-17T082305.png
 security:
 - kind: authentication
   name: Telleroo Authentication

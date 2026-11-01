@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,32 +25,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datasynca/refs/heads/main/llms/datasynca-llms.txt
+  href: https://artifacts.apis.io/datasynca/llms/datasynca-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/datasynca-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datasynca/refs/heads/main/well-known/datasynca-well-known.yml
+  href: https://artifacts.apis.io/datasynca/well-known/datasynca-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/datasynca-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/datasynca/refs/heads/main/hosts/datasynca-hosts.yml
+  href: https://artifacts.apis.io/datasynca/hosts/datasynca-hosts.yml
   title: ''
   type: Hosts
   url: hosts/datasynca-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/datasynca/refs/heads/main/vendors/datasynca-vendors.yml
+  href: https://artifacts.apis.io/datasynca/vendors/datasynca-vendors.yml
   title: ''
   type: Vendors
   url: vendors/datasynca-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datasynca/refs/heads/main/security/datasynca-domain-security.yml
+  href: https://artifacts.apis.io/datasynca/security/datasynca-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datasynca-domain-security.yml
@@ -104,10 +106,10 @@ overview: 'DataSynca is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   DataSynca''s developer surface includes documentation, API reference, getting-started guide, support, and 9 more developer resources.'
-random_paper: 6
+random_paper: 16
 score:
   band: emerging
-  composite: 18.4
+  composite: 17.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 25.0
@@ -115,13 +117,15 @@ score:
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 51.8
+    discoverability: 44.6
     operational_transparency: 0.0
+  previous_composite: 17.7
   provenance:
     mcp: derived
   regulatory:
@@ -130,8 +134,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

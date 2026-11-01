@@ -25,22 +25,24 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-17'
+  score: 25.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST-first JSON API to Contently's vetted creative network and project workflow. Search creators, open NDA-scoped projects, brief and message contributors, submit draft reviews, approve and pay out wo
   name: Contently Talent API
   slug: contently-talent-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Contently Webhooks
@@ -91,68 +93,76 @@ common:
   type: Security
   url: https://contently.com/trust/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/security/contently-trust-center.yml
+  href: https://artifacts.apis.io/contently/security/contently-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/contently-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/security/contently-domain-security.yml
+  href: https://artifacts.apis.io/contently/security/contently-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/contently-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/security/contently-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/contently/security/contently-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/contently-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/lifecycle/contently-lifecycle.yml
+  href: https://artifacts.apis.io/contently/lifecycle/contently-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/contently-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/authentication/contently-authentication.yml
+  href: https://artifacts.apis.io/contently/authentication/contently-authentication.yml
   title: ''
   type: Authentication
   url: authentication/contently-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/asyncapi/contently-webhooks.yml
+  href: https://artifacts.apis.io/contently/asyncapi/contently-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/contently-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/conventions/contently-conventions.yml
+  href: https://artifacts.apis.io/contently/conventions/contently-conventions.yml
   title: ''
   type: Conventions
   url: conventions/contently-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/conformance/contently-conformance.yml
+  href: https://artifacts.apis.io/contently/conformance/contently-conformance.yml
   title: ''
   type: Conformance
   url: conformance/contently-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/plans/contently-plans-pricing.yml
+  href: https://artifacts.apis.io/contently/plans/contently-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/contently-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/rate-limits/contently-rate-limits.yml
+  href: https://artifacts.apis.io/contently/rate-limits/contently-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/contently-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/packages/contently-packages.yml
+  href: https://artifacts.apis.io/contently/packages/contently-packages.yml
   title: ''
   type: Packages
   url: packages/contently-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/llms/contently-llms.txt
+  href: https://artifacts.apis.io/contently/llms/contently-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/contently-llms.txt
 created: '2026-07-17'
 description: Contently is an end-to-end content marketing platform pairing enterprise content operations software with a vetted global network of 10,000+ freelance writers, editors, designers, and strategists, positioned for regulated industries such as financial services, healthcare, and insurance. Brands use Contently to plan editorial calendars, source and manage creative talent, run review-and-approval workflows with credentialed reviewers, publish across channels, and measure content performance. For developers Contently documents the Talent API, a REST-first JSON API secured with scoped OAuth2 that lets teams search vetted creators, open NDA-scoped projects, brief and message contributors, submit draft reviews, approve and pay out work, and check funded balances, with state-change webhooks over Slack, Teams, or raw HTTP. Contently also advertises an MCP server registering six tools, though no endpoint is published. No OpenAPI specification, reference documentation, or developer portal
   is published; API access is obtained through a sales conversation. Contently maintains SOC 2 Type II, GDPR, CCPA, HIPAA (BAA), and FINRA reviewer-pool posture with a published controls matrix.
+finops:
+- has_sources: true
+  method: derived
+  name: Contently Finops
+  primary_unit: ''
+  service_category: ''
+  slug: contently-finops
+  template: true
 image: https://contently.com/wp-content/themes/contently-redesign-theme/assets/images/brand/og-default-1200x630.png
 layout: provider
 modified: '2026-08-13'
@@ -170,16 +180,16 @@ plans:
 - name: Contently Plans Pricing
   plan_count: 0
   slug: contently-plans-pricing
-random_paper: 2
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Contently Rate Limits
   slug: contently-rate-limits
 score:
   band: developing
-  composite: 40.8
+  composite: 41.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -187,13 +197,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 35.7
-    discoverability: 73.2
-    operational_transparency: 21.1
-  previous_composite: 40.8
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 41.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -211,14 +221,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/screenshots/contently-2026-07-25T210335.png
+screenshot: https://apis.io/screenshots/contently/contently-2026-07-25T210335.png
 security:
 - kind: authentication
   name: Contently Authentication

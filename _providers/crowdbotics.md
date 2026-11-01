@@ -14,51 +14,53 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crowdbotics/refs/heads/main/llms/crowdbotics-llms.txt
+  href: https://artifacts.apis.io/crowdbotics/llms/crowdbotics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crowdbotics-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crowdbotics/refs/heads/main/well-known/crowdbotics-status-security.txt
+  href: https://artifacts.apis.io/crowdbotics/well-known/crowdbotics-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/crowdbotics-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crowdbotics/refs/heads/main/well-known/crowdbotics-well-known.yml
+  href: https://artifacts.apis.io/crowdbotics/well-known/crowdbotics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/crowdbotics-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crowdbotics/refs/heads/main/hosts/crowdbotics-hosts.yml
+  href: https://artifacts.apis.io/crowdbotics/hosts/crowdbotics-hosts.yml
   title: ''
   type: Hosts
   url: hosts/crowdbotics-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crowdbotics/refs/heads/main/vendors/crowdbotics-vendors.yml
+  href: https://artifacts.apis.io/crowdbotics/vendors/crowdbotics-vendors.yml
   title: ''
   type: Vendors
   url: vendors/crowdbotics-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crowdbotics/refs/heads/main/packages/crowdbotics-packages.yml
+  href: https://artifacts.apis.io/crowdbotics/packages/crowdbotics-packages.yml
   title: ''
   type: SDKs
   url: packages/crowdbotics-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crowdbotics/refs/heads/main/packages/crowdbotics-packages.yml
+  href: https://artifacts.apis.io/crowdbotics/packages/crowdbotics-packages.yml
   title: ''
   type: Packages
   url: packages/crowdbotics-packages.yml
@@ -75,7 +77,7 @@ common:
   type: Leadership
   url: https://crowdbotics.com/leadership/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crowdbotics/refs/heads/main/security/crowdbotics-domain-security.yml
+  href: https://artifacts.apis.io/crowdbotics/security/crowdbotics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crowdbotics-domain-security.yml
@@ -128,14 +130,14 @@ modified: '2026-10-11'
 name: Crowdbotics
 nav: Providers
 network: true
-overview: 'Crowdbotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Platform, Software Modernization, and Low-code.
+overview: 'Crowdbotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Platform, Software Modernization, and Low-Code.
 
 
   Crowdbotics'' developer surface includes documentation, engineering blog, support, pricing, and 14 more developer resources.'
-random_paper: 21
+random_paper: 11
 score:
   band: emerging
-  composite: 18.7
+  composite: 19.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -143,13 +145,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 58.9
-    operational_transparency: 15.8
+    discoverability: 51.8
+    operational_transparency: 26.3
+  previous_composite: 19.3
   provenance:
     mcp: unknown
   regulatory:
@@ -158,8 +162,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -175,6 +180,6 @@ tags:
 - Artificial Intelligence
 - Platform
 - Software Modernization
-- Low-code
+- Low-Code
 website: https://crowdbotics.com
 ---

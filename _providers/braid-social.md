@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -54,7 +56,7 @@ common:
   type: Support
   url: https://www.trybraid.io/support
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/braid-social/refs/heads/main/plans/braid-social-plans-pricing.yml
+  href: https://artifacts.apis.io/braid-social/plans/braid-social-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/braid-social-plans-pricing.yml
@@ -63,22 +65,22 @@ common:
   type: Pricing
   url: https://www.trybraid.io/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/braid-social/refs/heads/main/rate-limits/braid-social-rate-limits.yml
+  href: https://artifacts.apis.io/braid-social/rate-limits/braid-social-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/braid-social-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/braid-social/refs/heads/main/lifecycle/braid-social-lifecycle.yml
+  href: https://artifacts.apis.io/braid-social/lifecycle/braid-social-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/braid-social-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/braid-social/refs/heads/main/security/braid-social-domain-security.yml
+  href: https://artifacts.apis.io/braid-social/security/braid-social-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/braid-social-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/braid-social/refs/heads/main/llms/braid-social-llms.txt
+  href: https://artifacts.apis.io/braid-social/llms/braid-social-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/braid-social-llms.txt
@@ -115,16 +117,16 @@ plans:
 - name: Braid Social Plans Pricing
   plan_count: 3
   slug: braid-social-plans-pricing
-random_paper: 6
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Braid Social Rate Limits
   slug: braid-social-rate-limits
 score:
   band: emerging
-  composite: 13.4
+  composite: 12.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
@@ -136,23 +138,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 13.4
+  previous_composite: 12.7
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/braid-social/refs/heads/main/screenshots/braid-social-2026-07-25T203659.png
+screenshot: https://apis.io/screenshots/braid-social/braid-social-2026-07-25T203659.png
 security:
 - kind: domain-security
   name: Braid Social Domain Security

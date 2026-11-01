@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -69,17 +71,17 @@ common:
   type: TermsOfService
   url: https://www.cargobase.com/terms-and-conditions
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cargobase/refs/heads/main/well-known/cargobase-security.txt
+  href: https://artifacts.apis.io/cargobase/well-known/cargobase-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cargobase-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cargobase/refs/heads/main/well-known/cargobase-well-known.yml
+  href: https://artifacts.apis.io/cargobase/well-known/cargobase-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cargobase-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cargobase/refs/heads/main/security/cargobase-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cargobase/security/cargobase-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cargobase-vulnerability-disclosure.yml
@@ -88,12 +90,12 @@ common:
   type: Security
   url: https://www.cargobase.com/responsible-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cargobase/refs/heads/main/security/cargobase-domain-security.yml
+  href: https://artifacts.apis.io/cargobase/security/cargobase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cargobase-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cargobase/refs/heads/main/conformance/cargobase-conformance.yml
+  href: https://artifacts.apis.io/cargobase/conformance/cargobase-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cargobase-conformance.yml
@@ -102,7 +104,7 @@ common:
   type: Compliance
   url: https://www.cargobase.com/blog/cargobase-achieves-iso-27001-certification
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cargobase/refs/heads/main/llms/cargobase-llms.txt
+  href: https://artifacts.apis.io/cargobase/llms/cargobase-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cargobase-llms.txt
@@ -118,26 +120,26 @@ overview: 'Cargobase is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cargobase''s developer surface includes getting-started guide, support, engineering blog, signup flow, and 12 more developer resources.'
-random_paper: 11
+random_paper: 23
 score:
   band: emerging
-  composite: 20.8
+  composite: 22.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 10.5
-  previous_composite: 20.7
+  previous_composite: 22.7
   provenance:
     conformance: first-party
   regulatory:
@@ -150,14 +152,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cargobase/refs/heads/main/screenshots/cargobase-2026-07-25T204603.png
+screenshot: https://apis.io/screenshots/cargobase/cargobase-2026-07-25T204603.png
 security:
 - kind: domain-security
   name: Cargobase Domain Security

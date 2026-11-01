@@ -4,6 +4,6 @@ layout: provider
 name: cqrs
 nav: Providers
 network: true
-random_paper: 1
+random_paper: 9
 slug: cqrs
 ---

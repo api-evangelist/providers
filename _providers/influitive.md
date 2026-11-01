@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.influitive.com
@@ -42,81 +44,88 @@ apis:
   description: The Events API from Influitive — 1 operation(s) for events.
   name: Influitive Events API
   slug: influitive-events-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Influitive Webhooks
   slug: influitive-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: do-not-delete Events API
   slug: open-influitive-events-api
 common:
+- group: other
+  href: https://artifacts.apis.io/influitive/capabilities/influitive-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/influitive-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/influitive/plans/influitive-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/influitive-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/authentication/influitive-authentication.yml
+  href: https://artifacts.apis.io/influitive/authentication/influitive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/influitive-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/conventions/influitive-conventions.yml
+  href: https://artifacts.apis.io/influitive/conventions/influitive-conventions.yml
   title: ''
   type: Conventions
   url: conventions/influitive-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/errors/influitive-problem-types.yml
+  href: https://artifacts.apis.io/influitive/errors/influitive-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/influitive-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/asyncapi/influitive-webhooks.yml
+  href: https://artifacts.apis.io/influitive/asyncapi/influitive-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/influitive-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/mcp/influitive-mcp.yml
+  href: https://artifacts.apis.io/influitive/mcp/influitive-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/influitive-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/llms/influitive-llms.txt
+  href: https://artifacts.apis.io/influitive/llms/influitive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/influitive-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/overlays/influitive-events-overlay.yaml
+  href: https://artifacts.apis.io/influitive/overlays/influitive-events-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/influitive-events-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/conformance/influitive-conformance.yml
+  href: https://artifacts.apis.io/influitive/conformance/influitive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/influitive-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/data-model/influitive-data-model.yml
+  href: https://artifacts.apis.io/influitive/data-model/influitive-data-model.yml
   title: ''
   type: DataModel
   url: data-model/influitive-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/lifecycle/influitive-lifecycle.yml
+  href: https://artifacts.apis.io/influitive/lifecycle/influitive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/influitive-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/well-known/influitive-well-known.yml
+  href: https://artifacts.apis.io/influitive/well-known/influitive-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/influitive-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/influitive/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/security/influitive-domain-security.yml
+  href: https://artifacts.apis.io/influitive/security/influitive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/influitive-domain-security.yml
@@ -162,6 +171,14 @@ common:
   url: https://influitive.com
 created: '2026-07-17'
 description: Influitive is a Toronto-based SaaS company that provides a customer advocacy, community, and engagement platform (historically branded AdvocateHub) that helps B2B companies discover, mobilize, and reward their customer advocates. The platform runs gamified challenges, guided customer journeys, referral and reference programs, reviews and social amplification, discussions, ideation, and loyalty rewards. Influitive exposes a small public HTTP API — the Events endpoint — that lets external systems log an event or act of advocacy and award points to an advocate, plus a catalog of outbound webhooks that notify integrations when advocacy, challenge, reward, referral, discussion, and profile events occur inside a hub. Developer documentation is published on a ReadMe-hosted portal at influitive.readme.io.
+finops:
+- has_sources: true
+  method: derived
+  name: Influitive Finops
+  primary_unit: ''
+  service_category: ''
+  slug: influitive-finops
+  template: true
 image: https://influitive.com/wp-content/uploads/2021/05/influitive-logo.png
 layout: provider
 modified: '2026-07-19'
@@ -174,25 +191,29 @@ overview: 'Influitive publishes 1 API contract indexed on the [APIs.io](https://
   The Influitive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Influitive''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 9
+  Influitive''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
+plans:
+- name: Influitive Plans Pricing
+  plan_count: 2
+  slug: influitive-plans-pricing
+random_paper: 7
 score:
   band: developing
-  composite: 40.0
+  composite: 46.8
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 44.7
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 58.8
-    developer_ergonomics: 33.9
-    discoverability: 73.2
+    developer_ergonomics: 47.0
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -201,7 +222,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 39.9
+  previous_composite: 42.6
   provenance:
     conformance: derived
     contracts:
@@ -217,13 +238,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/screenshots/influitive-2026-07-25T222413.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/influitive/influitive-2026-07-25T222413.png
 security:
 - kind: authentication
   name: Influitive Authentication
@@ -233,6 +255,10 @@ security:
   name: Influitive Domain Security
   slug: influitive-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Log an event and award advocacy points
+  slug: influitive-log-advocacy-event
 slug: influitive
 tags:
 - Company

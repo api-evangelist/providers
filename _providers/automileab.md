@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-17'
+  score: 22.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 218
   human_in_the_loop: 25
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 455
   slug: automileab-agentic-access
   summary_line: 455 operations · 218 acting · 25 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.automile.com
   baseurl_source: declared
@@ -426,52 +428,52 @@ apis:
 artifact_total: 83
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automileab/refs/heads/main/capabilities/automileab-capability-edges.yml
+  href: https://artifacts.apis.io/automileab/capabilities/automileab-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/automileab-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automileab/refs/heads/main/agentic-access/automileab-agentic-access.yml
+  href: https://artifacts.apis.io/automileab/agentic-access/automileab-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/automileab-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automileab/refs/heads/main/rules/automileab-rules.yml
+  href: https://artifacts.apis.io/automileab/rules/automileab-rules.yml
   title: ''
   type: Spectral
   url: rules/automileab-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automileab/refs/heads/main/data-model/automileab-data-model.yml
+  href: https://artifacts.apis.io/automileab/data-model/automileab-data-model.yml
   title: ''
   type: DataModel
   url: data-model/automileab-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automileab/refs/heads/main/errors/automileab-problem-types.yml
+  href: https://artifacts.apis.io/automileab/errors/automileab-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/automileab-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automileab/refs/heads/main/conformance/automileab-conformance.yml
+  href: https://artifacts.apis.io/automileab/conformance/automileab-conformance.yml
   title: ''
   type: Conformance
   url: conformance/automileab-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automileab/refs/heads/main/hosts/automileab-hosts.yml
+  href: https://artifacts.apis.io/automileab/hosts/automileab-hosts.yml
   title: ''
   type: Hosts
   url: hosts/automileab-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/automileab/refs/heads/main/scopes/automileab-scopes.yml
+  href: https://artifacts.apis.io/automileab/scopes/automileab-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/automileab-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/automileab/refs/heads/main/authentication/automileab-authentication.yml
+  href: https://artifacts.apis.io/automileab/authentication/automileab-authentication.yml
   title: ''
   type: Authentication
   url: authentication/automileab-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/automileab/refs/heads/main/security/automileab-domain-security.yml
+  href: https://artifacts.apis.io/automileab/security/automileab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/automileab-domain-security.yml
@@ -539,7 +541,7 @@ scopes:
   summary_line: 2 scopes · implicit
 score:
   band: thin
-  composite: 37.3
+  composite: 32.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 36.5
@@ -547,15 +549,15 @@ score:
     catalog_gap: 78.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 39.6
+    contract_quality: 36.2
     developer_ergonomics: 40.5
     discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 37.2
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -571,13 +573,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/automileab/refs/heads/main/screenshots/automileab-2026-10-11T100944.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/automileab/automileab-2026-10-11T100944.png
 security:
 - kind: authentication
   name: Automileab Authentication

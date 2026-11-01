@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 21.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -59,11 +61,8 @@ apis:
   description: Subscriptions that push tracking and ETA updates to a customer endpoint. (Modeled.)
   name: Wakeo Webhooks API
   slug: wakeo-webhooks-api
-artifact_total: 14
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Wakeo Visibility Shipments API
   slug: open-wakeo-shipments-api
@@ -78,22 +77,22 @@ collections:
   slug: open-wakeo
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/capabilities/wakeo-capability-edges.yml
+  href: https://artifacts.apis.io/wakeo/capabilities/wakeo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/wakeo-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/agentic-access/wakeo-agentic-access.yml
+  href: https://artifacts.apis.io/wakeo/agentic-access/wakeo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wakeo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/security/wakeo-domain-security.yml
+  href: https://artifacts.apis.io/wakeo/security/wakeo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wakeo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/authentication/wakeo-authentication.yml
+  href: https://artifacts.apis.io/wakeo/authentication/wakeo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wakeo-authentication.yml
@@ -110,17 +109,17 @@ common:
   type: Documentation
   url: https://docs.wakeo.co/docs/getting-started
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/plans/wakeo-plans-pricing.yml
+  href: https://artifacts.apis.io/wakeo/plans/wakeo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wakeo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/rate-limits/wakeo-rate-limits.yml
+  href: https://artifacts.apis.io/wakeo/rate-limits/wakeo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wakeo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/finops/wakeo-finops.yml
+  href: https://artifacts.apis.io/wakeo/finops/wakeo-finops.yml
   title: ''
   type: FinOps
   url: finops/wakeo-finops.yml
@@ -159,7 +158,7 @@ rate_limits:
   slug: wakeo-rate-limits
 score:
   band: emerging
-  composite: 18.7
+  composite: 12.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 41.0
@@ -167,12 +166,12 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.4
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
-    contract_quality: 31.8
-    developer_ergonomics: 20.2
+    contract_quality: 0.0
+    developer_ergonomics: 25.0
     discoverability: 66.1
     operational_transparency: 5.3
   jurisdiction:
@@ -183,7 +182,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 25.1
+  previous_composite: 12.4
   provenance:
     agentic_access: derived
     contracts:
@@ -197,13 +196,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/screenshots/wakeo-2026-09-02T170501.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wakeo/wakeo-2026-09-02T170501.png
 security:
 - kind: authentication
   name: Wakeo Authentication

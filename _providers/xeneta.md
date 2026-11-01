@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-17'
+  score: 23.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Airline reports API (Selfie) serving rates, chargeable weight, load factor, and capacity reports as CSV files in ZIP archives. Airlines use a branded host (https://{airline}.useselfie.com/api/selfie/v
@@ -50,11 +52,8 @@ apis:
   description: The Ocean API from Xeneta — 13 operation(s) for ocean.
   name: Xeneta Ocean API
   slug: xeneta-ocean-api
-artifact_total: 9
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: xeneta-api-30 Air API
   slug: open-xeneta-air-api
@@ -67,22 +66,22 @@ common:
   type: BlogRSS
   url: https://www.xeneta.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/capabilities/xeneta-capability-edges.yml
+  href: https://artifacts.apis.io/xeneta/capabilities/xeneta-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/xeneta-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/overlays/xeneta-api-30-overlay.yaml
+  href: https://artifacts.apis.io/xeneta/overlays/xeneta-api-30-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/xeneta-api-30-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/security/xeneta-domain-security.yml
+  href: https://artifacts.apis.io/xeneta/security/xeneta-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xeneta-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/authentication/xeneta-authentication.yml
+  href: https://artifacts.apis.io/xeneta/authentication/xeneta-authentication.yml
   title: ''
   type: Authentication
   url: authentication/xeneta-authentication.yml
@@ -135,42 +134,42 @@ common:
   type: Compliance
   url: https://www.xeneta.com/xeneta-data-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/security/xeneta-trust-center.yml
+  href: https://artifacts.apis.io/xeneta/security/xeneta-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/xeneta-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/packages/xeneta-packages.yml
+  href: https://artifacts.apis.io/xeneta/packages/xeneta-packages.yml
   title: ''
   type: Packages
   url: packages/xeneta-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/well-known/xeneta-well-known.yml
+  href: https://artifacts.apis.io/xeneta/well-known/xeneta-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/xeneta-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/mcp/xeneta-mcp.yml
+  href: https://artifacts.apis.io/xeneta/mcp/xeneta-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/xeneta-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/llms/xeneta-llms.txt
+  href: https://artifacts.apis.io/xeneta/llms/xeneta-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xeneta-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/conformance/xeneta-conformance.yml
+  href: https://artifacts.apis.io/xeneta/conformance/xeneta-conformance.yml
   title: ''
   type: Conformance
   url: conformance/xeneta-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/errors/xeneta-problem-types.yml
+  href: https://artifacts.apis.io/xeneta/errors/xeneta-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/xeneta-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/lifecycle/xeneta-lifecycle.yml
+  href: https://artifacts.apis.io/xeneta/lifecycle/xeneta-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/xeneta-lifecycle.yml
@@ -179,22 +178,22 @@ common:
   type: Deprecation
   url: https://help.xeneta.com/reference/versioning
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/conventions/xeneta-conventions.yml
+  href: https://artifacts.apis.io/xeneta/conventions/xeneta-conventions.yml
   title: ''
   type: Conventions
   url: conventions/xeneta-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/changelog/xeneta-changelog.yml
+  href: https://artifacts.apis.io/xeneta/changelog/xeneta-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/xeneta-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/data-model/xeneta-data-model.yml
+  href: https://artifacts.apis.io/xeneta/data-model/xeneta-data-model.yml
   title: ''
   type: DataModel
   url: data-model/xeneta-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/xeneta/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -210,12 +209,12 @@ overview: 'Xeneta publishes 3 API contracts indexed on the [APIs.io](https://api
 
 
   Xeneta''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 23 more developer resources.'
-random_paper: 7
+random_paper: 21
 score:
   band: developing
-  composite: 41.9
+  composite: 47.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -223,12 +222,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 49.0
-    developer_ergonomics: 37.5
-    discoverability: 73.2
-    operational_transparency: 22.4
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -237,7 +236,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 41.9
+  previous_composite: 47.7
   provenance:
     conformance: first-party
     contracts:
@@ -253,14 +252,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 27.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/screenshots/xeneta-2026-08-17T083005.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/xeneta/xeneta-2026-08-17T083005.png
 security:
 - kind: authentication
   name: Xeneta Authentication
@@ -274,6 +273,14 @@ security:
   name: Xeneta Trust Center
   slug: xeneta-trust-center
   summary_line: ISO 27001:2022
+skill_count: 3
+skills:
+- name: Pull air freight market rates
+  slug: xeneta-air-market-rates
+- name: Assess carrier performance on a corridor
+  slug: xeneta-assess-carrier-performance
+- name: Benchmark ocean freight rates against the market
+  slug: xeneta-benchmark-ocean-rates
 slug: xeneta
 tags:
 - Freight

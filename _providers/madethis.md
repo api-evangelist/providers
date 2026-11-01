@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/madethis/refs/heads/main/rate-limits/madethis-rate-limits.yml
+  href: https://artifacts.apis.io/madethis/rate-limits/madethis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/madethis-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madethis/refs/heads/main/security/madethis-domain-security.yml
+  href: https://artifacts.apis.io/madethis/security/madethis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/madethis-domain-security.yml
@@ -67,32 +69,32 @@ common:
   type: PrivacyPolicy
   url: https://madethis.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/madethis/refs/heads/main/llms/madethis-llms.txt
+  href: https://artifacts.apis.io/madethis/llms/madethis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/madethis-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/madethis/refs/heads/main/well-known/madethis-well-known.yml
+  href: https://artifacts.apis.io/madethis/well-known/madethis-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/madethis-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madethis/refs/heads/main/authentication/madethis-authentication.yml
+  href: https://artifacts.apis.io/madethis/authentication/madethis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/madethis-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madethis/refs/heads/main/scopes/madethis-scopes.yml
+  href: https://artifacts.apis.io/madethis/scopes/madethis-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/madethis-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madethis/refs/heads/main/conformance/madethis-conformance.yml
+  href: https://artifacts.apis.io/madethis/conformance/madethis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/madethis-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/madethis/refs/heads/main/plans/madethis-plans-pricing.yml
+  href: https://artifacts.apis.io/madethis/plans/madethis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/madethis-plans-pricing.yml
@@ -137,7 +139,7 @@ plans:
 - name: Madethis Plans Pricing
   plan_count: 4
   slug: madethis-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Madethis Rate Limits
@@ -148,8 +150,8 @@ scopes:
   slug: madethis-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 26.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 39.0
@@ -159,11 +161,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 71.1
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -172,7 +174,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 26.1
+  previous_composite: 26.5
   provenance:
     conformance: derived
     mcp: derived
@@ -182,14 +184,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/madethis/refs/heads/main/screenshots/madethis-2026-07-25T225830.png
+screenshot: https://apis.io/screenshots/madethis/madethis-2026-07-25T225830.png
 security:
 - kind: authentication
   name: Madethis Authentication

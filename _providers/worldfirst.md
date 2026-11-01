@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The WorldFirst Enterprise Solution (World Account) API — a RESTful, JSON, signed-request interface covering customer onboarding, account and beneficiary management, statements, foreign exchange, trans
@@ -54,7 +56,7 @@ asyncapis:
   slug: worldfirst-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/worldfirst/refs/heads/main/security/worldfirst-domain-security.yml
+  href: https://artifacts.apis.io/worldfirst/security/worldfirst-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/worldfirst-domain-security.yml
@@ -111,42 +113,42 @@ common:
   type: HelpCenter
   url: https://www.worldfirst.com/help-center/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/worldfirst/refs/heads/main/llms/worldfirst-llms.txt
+  href: https://artifacts.apis.io/worldfirst/llms/worldfirst-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/worldfirst-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/worldfirst/refs/heads/main/authentication/worldfirst-authentication.yml
+  href: https://artifacts.apis.io/worldfirst/authentication/worldfirst-authentication.yml
   title: ''
   type: Authentication
   url: authentication/worldfirst-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worldfirst/refs/heads/main/conventions/worldfirst-conventions.yml
+  href: https://artifacts.apis.io/worldfirst/conventions/worldfirst-conventions.yml
   title: ''
   type: Conventions
   url: conventions/worldfirst-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worldfirst/refs/heads/main/errors/worldfirst-problem-types.yml
+  href: https://artifacts.apis.io/worldfirst/errors/worldfirst-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/worldfirst-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worldfirst/refs/heads/main/asyncapi/worldfirst-webhooks.yml
+  href: https://artifacts.apis.io/worldfirst/asyncapi/worldfirst-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/worldfirst-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/worldfirst/refs/heads/main/sandbox/worldfirst-sandbox.yml
+  href: https://artifacts.apis.io/worldfirst/sandbox/worldfirst-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/worldfirst-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worldfirst/refs/heads/main/lifecycle/worldfirst-lifecycle.yml
+  href: https://artifacts.apis.io/worldfirst/lifecycle/worldfirst-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/worldfirst-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/worldfirst/refs/heads/main/conformance/worldfirst-conformance.yml
+  href: https://artifacts.apis.io/worldfirst/conformance/worldfirst-conformance.yml
   title: ''
   type: Conformance
   url: conformance/worldfirst-conformance.yml
@@ -166,10 +168,10 @@ overview: 'WorldFirst is listed with 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   WorldFirst''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 4
+random_paper: 0
 score:
-  band: thin
-  composite: 39.1
+  band: developing
+  composite: 40.7
   coverage:
     artifact_dirs: 13
     catalog_earned: 40.0
@@ -179,11 +181,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 59.5
-    discoverability: 78.6
+    developer_ergonomics: 64.3
+    discoverability: 71.4
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -193,7 +195,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 39.1
+  previous_composite: 40.7
   provenance:
     conformance: derived
   regulatory:
@@ -202,14 +204,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/worldfirst/refs/heads/main/screenshots/worldfirst-2026-08-17T083002.png
+screenshot: https://apis.io/screenshots/worldfirst/worldfirst-2026-08-17T083002.png
 security:
 - kind: authentication
   name: Worldfirst Authentication

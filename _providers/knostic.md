@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.2
-  scored_at: '2026-10-17'
+  score: 35.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -66,11 +68,8 @@ apis:
   description: AI agent skills (SKILL.md) discovered and scanned by AgentMesh
   name: Knostic Skills API
   slug: knostic-skills-api
-artifact_total: 18
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Knostic AgentMesh extensions API
   slug: open-knostic-extensions-api
@@ -89,7 +88,7 @@ common:
   type: Pricing
   url: https://www.knostic.ai/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/plans/knostic-plans-pricing.yml
+  href: https://artifacts.apis.io/knostic/plans/knostic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/knostic-plans-pricing.yml
@@ -98,22 +97,22 @@ common:
   type: BlogRSS
   url: https://www.knostic.ai/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/capabilities/knostic-capability-edges.yml
+  href: https://artifacts.apis.io/knostic/capabilities/knostic-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/knostic-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/mcp/knostic-mcp.yml
+  href: https://artifacts.apis.io/knostic/mcp/knostic-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/knostic-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/overlays/knostic-agentmesh-overlay.yaml
+  href: https://artifacts.apis.io/knostic/overlays/knostic-agentmesh-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/knostic-agentmesh-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/agentic-access/knostic-agentic-access.yml
+  href: https://artifacts.apis.io/knostic/agentic-access/knostic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/knostic-agentic-access.yml
@@ -166,82 +165,82 @@ common:
   type: Compliance
   url: https://security.knostic.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/security/knostic-trust-center.yml
+  href: https://artifacts.apis.io/knostic/security/knostic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/knostic-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/security/knostic-domain-security.yml
+  href: https://artifacts.apis.io/knostic/security/knostic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/knostic-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/authentication/knostic-authentication.yml
+  href: https://artifacts.apis.io/knostic/authentication/knostic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/knostic-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/conventions/knostic-conventions.yml
+  href: https://artifacts.apis.io/knostic/conventions/knostic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/knostic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/errors/knostic-problem-types.yml
+  href: https://artifacts.apis.io/knostic/errors/knostic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/knostic-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/rate-limits/knostic-rate-limits.yml
+  href: https://artifacts.apis.io/knostic/rate-limits/knostic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/knostic-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/conformance/knostic-conformance.yml
+  href: https://artifacts.apis.io/knostic/conformance/knostic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/knostic-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/lifecycle/knostic-lifecycle.yml
+  href: https://artifacts.apis.io/knostic/lifecycle/knostic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/knostic-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/changelog/knostic-changelog.yml
+  href: https://artifacts.apis.io/knostic/changelog/knostic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/knostic-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/data-model/knostic-data-model.yml
+  href: https://artifacts.apis.io/knostic/data-model/knostic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/knostic-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/packages/knostic-packages.yml
+  href: https://artifacts.apis.io/knostic/packages/knostic-packages.yml
   title: ''
   type: Packages
   url: packages/knostic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/cli/knostic-cli.yml
+  href: https://artifacts.apis.io/knostic/cli/knostic-cli.yml
   title: ''
   type: CLI
   url: cli/knostic-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/sandbox/knostic-sandbox.yml
+  href: https://artifacts.apis.io/knostic/sandbox/knostic-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/knostic-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/knostic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/llms/knostic-llms.txt
+  href: https://artifacts.apis.io/knostic/llms/knostic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/knostic-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/examples/knostic-list-skills-response.json
+  href: https://artifacts.apis.io/knostic/examples/knostic-list-skills-response.json
   title: ''
   type: Examples
   url: examples/knostic-list-skills-response.json
@@ -257,6 +256,14 @@ examples:
 - key_count: 4
   name: Knostic List Skills Response
   slug: knostic-list-skills-response
+finops:
+- has_sources: true
+  method: derived
+  name: Knostic Finops
+  primary_unit: user
+  service_category: ''
+  slug: knostic-finops
+  template: false
 image: https://www.knostic.ai/og-image.png
 layout: provider
 modified: '2026-10-06'
@@ -271,30 +278,33 @@ plans:
 - name: Knostic Plans Pricing
   plan_count: 6
   slug: knostic-plans-pricing
-random_paper: 15
+- name: Knostic Price Estimates
+  plan_count: 0
+  slug: knostic-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Knostic Rate Limits
   slug: knostic-rate-limits
 score:
   band: strong
-  composite: 56.2
+  composite: 64.7
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 61.0
+    artifact_dirs: 28
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.5
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 56.6
-    developer_ergonomics: 40.5
-    discoverability: 73.2
-    operational_transparency: 60.5
-  previous_composite: 47.7
+    developer_ergonomics: 66.7
+    discoverability: 66.1
+    operational_transparency: 63.2
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -315,13 +325,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/screenshots/knostic-2026-07-25T224003.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/knostic/knostic-2026-07-25T224003.png
 security:
 - kind: authentication
   name: Knostic Authentication
@@ -335,6 +346,14 @@ security:
   name: Knostic Trust Center
   slug: knostic-trust-center
   summary_line: SOC 2 Type 2
+skill_count: 3
+skills:
+- name: knostic-audit-agent-supply-chain
+  slug: knostic-audit-agent-supply-chain
+- name: extension-check
+  slug: knostic-extension-check
+- name: knostic-scan-on-demand
+  slug: knostic-scan-on-demand
 slug: knostic
 tags:
 - Company

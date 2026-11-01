@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,22 +25,24 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.4
-  scored_at: '2026-10-17'
+  score: 6.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Key-authenticated REST API to ingest content into a knowledge base, run semantic search with AI-generated answers, and generate verified content. Authenticated with an X-API-Key header (keys prefixed '
   name: Senso Org API
   slug: senso-org-api
-artifact_total: 4
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -79,57 +81,57 @@ common:
   type: GitHubOrganization
   url: https://github.com/AI-Template-SDK
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sensoai/refs/heads/main/mcp/sensoai-mcp.yml
+  href: https://artifacts.apis.io/sensoai/mcp/sensoai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sensoai-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sensoai/refs/heads/main/cli/sensoai-cli.yml
+  href: https://artifacts.apis.io/sensoai/cli/sensoai-cli.yml
   title: ''
   type: CLI
   url: cli/sensoai-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sensoai/refs/heads/main/packages/sensoai-packages.yml
+  href: https://artifacts.apis.io/sensoai/packages/sensoai-packages.yml
   title: ''
   type: Packages
   url: packages/sensoai-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sensoai/refs/heads/main/authentication/sensoai-authentication.yml
+  href: https://artifacts.apis.io/sensoai/authentication/sensoai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sensoai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sensoai/refs/heads/main/conventions/sensoai-conventions.yml
+  href: https://artifacts.apis.io/sensoai/conventions/sensoai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sensoai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sensoai/refs/heads/main/lifecycle/sensoai-lifecycle.yml
+  href: https://artifacts.apis.io/sensoai/lifecycle/sensoai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sensoai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sensoai/refs/heads/main/conformance/sensoai-conformance.yml
+  href: https://artifacts.apis.io/sensoai/conformance/sensoai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sensoai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sensoai/refs/heads/main/data-model/sensoai-data-model.yml
+  href: https://artifacts.apis.io/sensoai/data-model/sensoai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sensoai-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sensoai/refs/heads/main/security/sensoai-domain-security.yml
+  href: https://artifacts.apis.io/sensoai/security/sensoai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sensoai-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sensoai/refs/heads/main/llms/sensoai-llms.txt
+  href: https://artifacts.apis.io/sensoai/llms/sensoai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sensoai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sensoai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sensoai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -149,26 +151,26 @@ overview: 'Senso.ai is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Senso.ai''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, CLI, authentication, and 13 more developer resources.'
-random_paper: 6
+random_paper: 10
 score:
   band: emerging
-  composite: 19.5
+  composite: 21.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 55.4
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 19.4
+    developer_ergonomics: 66.1
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 21.2
   provenance:
     conformance: derived
     mcp: first-party
@@ -179,14 +181,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sensoai/refs/heads/main/screenshots/sensoai-2026-09-02T154912.png
+screenshot: https://apis.io/screenshots/sensoai/sensoai-2026-09-02T154912.png
 security:
 - kind: authentication
   name: Sensoai Authentication
@@ -196,6 +198,12 @@ security:
   name: Sensoai Domain Security
   slug: sensoai-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Senso — generate verified content from your knowledge base
+  slug: sensoai-generate-verified-content
+- name: Senso — ingest sources and search your knowledge base
+  slug: sensoai-ingest-and-search
 slug: sensoai
 tags:
 - Company

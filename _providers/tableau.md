@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.2
-  scored_at: '2026-10-17'
+  score: 39.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -147,7 +149,7 @@ apis:
   description: Publish, query, update, delete, and download workbooks. Workbooks contain one or more views (sheets, dashboards, or stories) and can connect to one or more data sources.
   name: Tableau Workbooks API
   slug: tableau-workbooks-api
-artifact_total: 378
+artifact_total: 377
 collections:
 - collection_type: postman
   name: Tableau REST Authentication API
@@ -188,9 +190,6 @@ collections:
 - collection_type: postman
   name: Tableau REST Authentication Workbooks API
   slug: postman-tableau-workbooks-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tableau REST Authentication API
   slug: open-tableau-authentication-api
@@ -235,17 +234,17 @@ collections:
   slug: open-tableau-workbooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/plans/tableau-plans-pricing.yml
+  href: https://artifacts.apis.io/tableau/plans/tableau-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tableau-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/rate-limits/tableau-rate-limits.yml
+  href: https://artifacts.apis.io/tableau/rate-limits/tableau-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tableau-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/finops/tableau-finops.yml
+  href: https://artifacts.apis.io/tableau/finops/tableau-finops.yml
   title: ''
   type: FinOps
   url: finops/tableau-finops.yml
@@ -258,7 +257,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/salesforce/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/capabilities/tableau-capability-edges.yml
+  href: https://artifacts.apis.io/tableau/capabilities/tableau-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tableau-capability-edges.yml
@@ -279,17 +278,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tableau/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/agentic-access/tableau-agentic-access.yml
+  href: https://artifacts.apis.io/tableau/agentic-access/tableau-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tableau-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/security/tableau-domain-security.yml
+  href: https://artifacts.apis.io/tableau/security/tableau-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tableau-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/authentication/tableau-authentication.yml
+  href: https://artifacts.apis.io/tableau/authentication/tableau-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tableau-authentication.yml
@@ -354,7 +353,7 @@ common:
   type: Training
   url: https://www.tableau.com/developer/learning
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/rules/tableau-spectral-rules.yml
+  href: https://artifacts.apis.io/tableau/rules/tableau-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/tableau-spectral-rules.yml
@@ -741,7 +740,7 @@ finops:
 - has_sources: true
   method: generated
   name: Tableau Finops
-  primary_unit: ''
+  primary_unit: seat-month
   service_category: Analytics & Business Intelligence
   slug: tableau-finops
   template: false
@@ -1320,7 +1319,7 @@ plans:
 - name: Tableau Plans Pricing
   plan_count: 4
   slug: tableau-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 6
   name: Tableau Rate Limits
@@ -1350,24 +1349,24 @@ rules:
     warn: 6
   slug: tableau-spectral-rules
 score:
-  band: developing
-  composite: 49.9
+  band: strong
+  composite: 55.0
   coverage:
     artifact_dirs: 23
-    catalog_earned: 55.9
+    catalog_earned: 58.9
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.1
+    catalog_gap: 56.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 35.5
+    access_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 68.9
+    contract_quality: 66.7
     developer_ergonomics: 65.5
-    discoverability: 66.7
-    operational_transparency: 26.3
-  previous_composite: 51.4
+    discoverability: 63.3
+    operational_transparency: 44.7
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1382,13 +1381,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/screenshots/tableau-2026-06-20T194845.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tableau/tableau-2026-06-20T194845.png
 security:
 - kind: authentication
   name: Tableau Authentication

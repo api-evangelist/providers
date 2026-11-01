@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,16 +36,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Multi-tenant REST API for building client- and job-seeker-facing staffing interfaces on the Wolf platform: authentication, jobs/shifts, tenders, availability, timesheets, notifications, job-seeker and'
   name: Wolf Staffing API
   slug: wolf-staffing-api
-artifact_total: 3
+artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wolf/refs/heads/main/security/wolf-domain-security.yml
+  href: https://artifacts.apis.io/wolf/security/wolf-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wolf-domain-security.yml
@@ -68,22 +70,22 @@ common:
   type: GettingStarted
   url: https://docs.fromwolf.com/glossary/core-attributes-of-all-api
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wolf/refs/heads/main/authentication/wolf-authentication.yml
+  href: https://artifacts.apis.io/wolf/authentication/wolf-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wolf-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wolf/refs/heads/main/llms/wolf-llms.txt
+  href: https://artifacts.apis.io/wolf/llms/wolf-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wolf-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wolf/refs/heads/main/well-known/wolf-well-known.yml
+  href: https://artifacts.apis.io/wolf/well-known/wolf-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wolf-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wolf/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wolf/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -99,10 +101,10 @@ overview: 'Wolf is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Wolf''s developer surface includes documentation, API reference, getting-started guide, authentication, and 6 more developer resources.'
-random_paper: 0
+random_paper: 8
 score:
   band: emerging
-  composite: 17.2
+  composite: 16.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -110,15 +112,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 51.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 17.1
+  previous_composite: 16.5
   provenance:
     mcp: derived
     skills: derived
@@ -128,14 +130,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wolf/refs/heads/main/screenshots/wolf-2026-09-02T170903.png
+screenshot: https://apis.io/screenshots/wolf/wolf-2026-09-02T170903.png
 security:
 - kind: authentication
   name: Wolf Authentication
@@ -145,6 +147,12 @@ security:
   name: Wolf Domain Security
   slug: wolf-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: wolf-job-seeker-shift-flow
+  slug: wolf-job-seeker-shift-flow
+- name: wolf-jobseeker-onboarding
+  slug: wolf-jobseeker-onboarding
 slug: wolf
 tags:
 - Company

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 26.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -75,11 +77,8 @@ apis:
   description: Create, search, retrieve, update, validate, confirm, refund, and adjust loyalty user wallets.
   name: Lunchbox User Wallet API
   slug: lunchbox-user-wallet-api
-artifact_total: 128
+artifact_total: 127
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Lunchbox Core API
   slug: open-lunchbox-core
@@ -111,27 +110,31 @@ collections:
   name: Lunchbox Core Customer User Wallet API
   slug: open-lunchbox-user-wallet-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lunchbox/overview
 - group: company
   title: ''
   type: Blog
   url: https://lunchbox.io/press
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/capabilities/lunchbox-capability-edges.yml
+  href: https://artifacts.apis.io/lunchbox/capabilities/lunchbox-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lunchbox-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/agentic-access/lunchbox-agentic-access.yml
+  href: https://artifacts.apis.io/lunchbox/agentic-access/lunchbox-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lunchbox-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/security/lunchbox-domain-security.yml
+  href: https://artifacts.apis.io/lunchbox/security/lunchbox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lunchbox-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/authentication/lunchbox-authentication.yml
+  href: https://artifacts.apis.io/lunchbox/authentication/lunchbox-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lunchbox-authentication.yml
@@ -168,27 +171,27 @@ common:
   type: StatusPage
   url: https://lunchbox.instatus.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/plans/lunchbox-plans-pricing.yml
+  href: https://artifacts.apis.io/lunchbox/plans/lunchbox-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lunchbox-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/rate-limits/lunchbox-rate-limits.yml
+  href: https://artifacts.apis.io/lunchbox/rate-limits/lunchbox-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lunchbox-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/finops/lunchbox-finops.yml
+  href: https://artifacts.apis.io/lunchbox/finops/lunchbox-finops.yml
   title: ''
   type: FinOps
   url: finops/lunchbox-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/vocabulary/lunchbox-vocabulary.yml
+  href: https://artifacts.apis.io/lunchbox/vocabulary/lunchbox-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/lunchbox-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/rules/lunchbox-spectral-rules.yml
+  href: https://artifacts.apis.io/lunchbox/rules/lunchbox-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/lunchbox-spectral-rules.yml
@@ -531,12 +534,12 @@ overview: 'Lunchbox publishes 6 API contracts indexed on the [APIs.io](https://a
   The Lunchbox catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Lunchbox''s developer surface includes engineering blog, authentication, documentation, API reference, support, pricing, and 12 more developer resources.'
+  Lunchbox''s developer surface includes engineering blog, authentication, documentation, API reference, support, pricing, and 13 more developer resources.'
 plans:
 - name: Lunchbox Plans Pricing
   plan_count: 2
   slug: lunchbox-plans-pricing
-random_paper: 9
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Lunchbox Rate Limits
@@ -566,8 +569,8 @@ rules:
     warn: 21
   slug: lunchbox-spectral-rules
 score:
-  band: thin
-  composite: 36.5
+  band: developing
+  composite: 40.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 65.0
@@ -575,15 +578,15 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.4
+  delta: 0.3
   facets:
-    access_clarity: 10.5
+    access_clarity: 15.8
     contract_governance: 27.3
     contract_quality: 54.1
-    developer_ergonomics: 47.6
+    developer_ergonomics: 48.8
     discoverability: 71.4
-    operational_transparency: 10.5
-  previous_composite: 42.9
+    operational_transparency: 28.9
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -597,13 +600,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/screenshots/lunchbox-2026-06-20T184805.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lunchbox/lunchbox-2026-06-20T184805.png
 security:
 - kind: authentication
   name: Lunchbox Authentication

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.4
-  scored_at: '2026-10-17'
+  score: 46.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 37
   slug: modernfi-agentic-access
   summary_line: 37 operations · 19 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.modernfi.com
   baseurl_source: declared
@@ -78,11 +80,8 @@ apis:
   description: The Transactions API from ModernFi — 2 operation(s) for transactions.
   name: ModernFi Transactions API
   slug: modernfi-transactions-api
-artifact_total: 19
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API Reference Accounts API
   slug: open-modernfi-accounts-api
@@ -118,7 +117,7 @@ common:
   type: Website
   url: https://www.modernfi.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/capabilities/modernfi-capability-edges.yml
+  href: https://artifacts.apis.io/modernfi/capabilities/modernfi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/modernfi-capability-edges.yml
@@ -159,82 +158,82 @@ common:
   type: Deprecation
   url: https://docs.modernfi.com/topics/versioning
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/changelog/modernfi-changelog.yml
+  href: https://artifacts.apis.io/modernfi/changelog/modernfi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/modernfi-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/authentication/modernfi-authentication.yml
+  href: https://artifacts.apis.io/modernfi/authentication/modernfi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/modernfi-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/conventions/modernfi-conventions.yml
+  href: https://artifacts.apis.io/modernfi/conventions/modernfi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/modernfi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/conventions/modernfi-conventions.yml
+  href: https://artifacts.apis.io/modernfi/conventions/modernfi-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/modernfi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/errors/modernfi-problem-types.yml
+  href: https://artifacts.apis.io/modernfi/errors/modernfi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/modernfi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/lifecycle/modernfi-lifecycle.yml
+  href: https://artifacts.apis.io/modernfi/lifecycle/modernfi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/modernfi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/conformance/modernfi-conformance.yml
+  href: https://artifacts.apis.io/modernfi/conformance/modernfi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/modernfi-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/data-model/modernfi-data-model.yml
+  href: https://artifacts.apis.io/modernfi/data-model/modernfi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/modernfi-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/sandbox/modernfi-sandbox.yml
+  href: https://artifacts.apis.io/modernfi/sandbox/modernfi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/modernfi-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/mcp/modernfi-mcp.yml
+  href: https://artifacts.apis.io/modernfi/mcp/modernfi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/modernfi-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/well-known/modernfi-well-known.yml
+  href: https://artifacts.apis.io/modernfi/well-known/modernfi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/modernfi-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/overlays/modernfi-digital-banking-overlay.yaml
+  href: https://artifacts.apis.io/modernfi/overlays/modernfi-digital-banking-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/modernfi-digital-banking-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/llms/modernfi-llms.txt
+  href: https://artifacts.apis.io/modernfi/llms/modernfi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/modernfi-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/modernfi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/agentic-access/modernfi-agentic-access.yml
+  href: https://artifacts.apis.io/modernfi/agentic-access/modernfi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/modernfi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/security/modernfi-domain-security.yml
+  href: https://artifacts.apis.io/modernfi/security/modernfi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/modernfi-domain-security.yml
@@ -254,10 +253,10 @@ overview: 'ModernFi publishes 7 API contracts indexed on the [APIs.io](https://a
 
 
   ModernFi''s developer surface includes engineering blog, documentation, API reference, getting-started guide, support, changelog, authentication, and 22 more developer resources.'
-random_paper: 16
+random_paper: 12
 score:
   band: developing
-  composite: 42.9
+  composite: 39.6
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -265,15 +264,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 47.8
+    contract_quality: 44.4
     developer_ergonomics: 66.1
-    discoverability: 71.7
-    operational_transparency: 42.1
-  previous_composite: 42.4
+    discoverability: 65.0
+    operational_transparency: 44.7
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -290,13 +289,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 22.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/screenshots/modernfi-2026-08-07T184015.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/modernfi/modernfi-2026-08-07T184015.png
 security:
 - kind: authentication
   name: Modernfi Authentication
@@ -306,6 +306,14 @@ security:
   name: Modernfi Domain Security
   slug: modernfi-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Onboard a depositor and open a deposit account
+  slug: modernfi-onboard-depositor-and-open-account
+- name: Price accounts with pricing groups and custom benchmarks
+  slug: modernfi-price-accounts-with-groups-and-benchmarks
+- name: Record and reconcile account transactions
+  slug: modernfi-record-and-reconcile-transactions
 slug: modernfi
 tags:
 - Company

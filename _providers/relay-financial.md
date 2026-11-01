@@ -24,22 +24,21 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-17'
+  score: 7.7
+  scored_at: '2026-10-31'
 api_count: 1
-artifact_total: 7
+artifact_total: 6
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Relay API
   slug: open-relay-financial
@@ -49,7 +48,7 @@ common:
   type: Blog
   url: https://relayfi.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/relay-financial/refs/heads/main/security/relay-financial-domain-security.yml
+  href: https://artifacts.apis.io/relay-financial/security/relay-financial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/relay-financial-domain-security.yml
@@ -66,17 +65,17 @@ common:
   type: Documentation
   url: https://support.relayfi.com/hc/en-us
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/relay-financial/refs/heads/main/plans/relay-financial-plans-pricing.yml
+  href: https://artifacts.apis.io/relay-financial/plans/relay-financial-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/relay-financial-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/relay-financial/refs/heads/main/rate-limits/relay-financial-rate-limits.yml
+  href: https://artifacts.apis.io/relay-financial/rate-limits/relay-financial-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/relay-financial-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/relay-financial/refs/heads/main/finops/relay-financial-finops.yml
+  href: https://artifacts.apis.io/relay-financial/finops/relay-financial-finops.yml
   title: ''
   type: FinOps
   url: finops/relay-financial-finops.yml
@@ -112,14 +111,14 @@ plans:
 - name: Relay Financial Plans Pricing
   plan_count: 3
   slug: relay-financial-plans-pricing
-random_paper: 1
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Relay Financial Rate Limits
   slug: relay-financial-rate-limits
 score:
   band: minimal
-  composite: 7.5
+  composite: 7.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 32.0
@@ -127,15 +126,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 51.7
+    discoverability: 48.2
     operational_transparency: 5.3
-  previous_composite: 14.4
+  previous_composite: 7.1
   provenance:
     mcp: first-party
   regulatory:
@@ -144,14 +143,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/relay-financial/refs/heads/main/screenshots/relay-financial-2026-06-20T192825.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/relay-financial/relay-financial-2026-06-20T192825.png
 security:
 - kind: domain-security
   name: Relay Financial Domain Security

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flinn/refs/heads/main/security/flinn-domain-security.yml
+  href: https://artifacts.apis.io/flinn/security/flinn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flinn-domain-security.yml
@@ -82,12 +84,12 @@ common:
   type: Compliance
   url: https://www.flinn.ai/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flinn/refs/heads/main/conformance/flinn-conformance.yml
+  href: https://artifacts.apis.io/flinn/conformance/flinn-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flinn-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flinn/refs/heads/main/llms/flinn-llms.txt
+  href: https://artifacts.apis.io/flinn/llms/flinn-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flinn-llms.txt
@@ -114,7 +116,7 @@ overview: 'Flinn is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 7
 score:
   band: emerging
-  composite: 19.8
+  composite: 19.2
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -128,9 +130,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 56.3
+    discoverability: 50.0
     operational_transparency: 10.5
-  previous_composite: 19.8
+  previous_composite: 19.2
   provenance:
     conformance: first-party
   regulatory:
@@ -145,14 +147,14 @@ score:
     regime: Health
     regime_id: health
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/flinn/refs/heads/main/screenshots/flinn-2026-07-25T214759.png
+screenshot: https://apis.io/screenshots/flinn/flinn-2026-07-25T214759.png
 security:
 - kind: domain-security
   name: Flinn Domain Security

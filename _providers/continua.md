@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,32 +71,32 @@ common:
   type: PrivacyPolicy
   url: https://continua.ai/chrome-extension/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/continua/refs/heads/main/llms/continua-llms.txt
+  href: https://artifacts.apis.io/continua/llms/continua-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/continua-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/continua/refs/heads/main/packages/continua-packages.yml
+  href: https://artifacts.apis.io/continua/packages/continua-packages.yml
   title: ''
   type: Packages
   url: packages/continua-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/continua/refs/heads/main/packages/continua-packages.yml
+  href: https://artifacts.apis.io/continua/packages/continua-packages.yml
   title: ''
   type: SDKs
   url: packages/continua-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/continua/refs/heads/main/cli/continua-cli.yml
+  href: https://artifacts.apis.io/continua/cli/continua-cli.yml
   title: ''
   type: CLI
   url: cli/continua-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/continua/refs/heads/main/changelog/continua-changelog.yml
+  href: https://artifacts.apis.io/continua/changelog/continua-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/continua-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/continua/refs/heads/main/lifecycle/continua-lifecycle.yml
+  href: https://artifacts.apis.io/continua/lifecycle/continua-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/continua-lifecycle.yml
@@ -103,7 +105,7 @@ common:
   type: StatusPage
   url: https://wheelie.dev/status
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/continua/refs/heads/main/security/continua-domain-security.yml
+  href: https://artifacts.apis.io/continua/security/continua-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/continua-domain-security.yml
@@ -119,25 +121,25 @@ overview: 'Continua is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Continua''s developer surface includes documentation, getting-started guide, signup flow, CLI, changelog, and 11 more developer resources.'
-random_paper: 7
+random_paper: 1
 score:
   band: emerging
-  composite: 22.9
+  composite: 22.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 55.4
-    operational_transparency: 34.2
+    discoverability: 48.2
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -145,21 +147,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 22.8
+  previous_composite: 22.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/continua/refs/heads/main/screenshots/continua-2026-07-25T210328.png
+screenshot: https://apis.io/screenshots/continua/continua-2026-07-25T210328.png
 security:
 - kind: domain-security
   name: Continua Domain Security

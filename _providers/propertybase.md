@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: JSON REST API for the Propertybase GO / Lone Wolf Front Office real estate CRM. Read and write CRM records - leads, agents, employees, teams, offices, properties, tasks, events, messages, saved search
@@ -55,42 +57,42 @@ common:
   type: APIReference
   url: https://apidocs.propertybase.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/propertybase/refs/heads/main/authentication/propertybase-authentication.yml
+  href: https://artifacts.apis.io/propertybase/authentication/propertybase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/propertybase-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propertybase/refs/heads/main/conventions/propertybase-conventions.yml
+  href: https://artifacts.apis.io/propertybase/conventions/propertybase-conventions.yml
   title: ''
   type: Conventions
   url: conventions/propertybase-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propertybase/refs/heads/main/errors/propertybase-problem-types.yml
+  href: https://artifacts.apis.io/propertybase/errors/propertybase-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/propertybase-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propertybase/refs/heads/main/lifecycle/propertybase-lifecycle.yml
+  href: https://artifacts.apis.io/propertybase/lifecycle/propertybase-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/propertybase-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/propertybase/refs/heads/main/changelog/propertybase-changelog.yml
+  href: https://artifacts.apis.io/propertybase/changelog/propertybase-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/propertybase-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/propertybase/refs/heads/main/conformance/propertybase-conformance.yml
+  href: https://artifacts.apis.io/propertybase/conformance/propertybase-conformance.yml
   title: ''
   type: Conformance
   url: conformance/propertybase-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/propertybase/refs/heads/main/llms/propertybase-llms.txt
+  href: https://artifacts.apis.io/propertybase/llms/propertybase-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/propertybase-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/propertybase/refs/heads/main/security/propertybase-domain-security.yml
+  href: https://artifacts.apis.io/propertybase/security/propertybase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/propertybase-domain-security.yml
@@ -122,10 +124,10 @@ overview: 'propertybase is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   propertybase''s developer surface includes documentation, API reference, authentication, changelog, support, signup flow, and 9 more developer resources.'
-random_paper: 14
+random_paper: 16
 score:
   band: emerging
-  composite: 24.4
+  composite: 24.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -133,15 +135,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 31.0
-    discoverability: 73.2
+    developer_ergonomics: 33.3
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 24.3
+  previous_composite: 24.1
   provenance:
     conformance: derived
   regulatory:
@@ -154,14 +156,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/propertybase/refs/heads/main/screenshots/propertybase-2026-09-02T152156.png
+screenshot: https://apis.io/screenshots/propertybase/propertybase-2026-09-02T152156.png
 security:
 - kind: authentication
   name: Propertybase Authentication

@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.1
-  scored_at: '2026-10-17'
+  score: 38.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -63,11 +64,8 @@ apis:
   description: Send WhatsApp template messages.
   name: WATI Templates API
   slug: wati-templates-api
-artifact_total: 15
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WATI WhatsApp Business Contacts API
   slug: open-wati-contacts-api
@@ -81,23 +79,28 @@ collections:
   name: WATI WhatsApp Business API
   slug: open-wati
 common:
+- group: other
+  href: https://artifacts.apis.io/wati/capabilities/wati-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wati-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/agentic-access/wati-agentic-access.yml
+  href: https://artifacts.apis.io/wati/agentic-access/wati-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wati-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/security/wati-trust-center.yml
+  href: https://artifacts.apis.io/wati/security/wati-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wati-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/security/wati-domain-security.yml
+  href: https://artifacts.apis.io/wati/security/wati-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wati-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/authentication/wati-authentication.yml
+  href: https://artifacts.apis.io/wati/authentication/wati-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wati-authentication.yml
@@ -159,27 +162,27 @@ network: true
 overview: 'WATI publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contacts API, Messages API, Templates API, and 1 more. Tagged areas include WhatsApp, Messaging, Customer Engagement, Chatbots, and Business Communication.
 
 
-  WATI''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 19
+  WATI''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
+random_paper: 5
 score:
   band: thin
-  composite: 30.0
+  composite: 32.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 49.0
-    developer_ergonomics: 22.6
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 30.4
+    developer_ergonomics: 28.6
+    discoverability: 71.7
+    operational_transparency: 5.3
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -194,13 +197,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/screenshots/wati-2026-06-20T201254.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wati/wati-2026-06-20T201254.png
 security:
 - kind: authentication
   name: Wati Authentication

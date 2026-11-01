@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.9
-  scored_at: '2026-10-17'
+  score: 48.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 182
   human_in_the_loop: 11
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 334
   slug: vultr-agentic-access
   summary_line: 334 operations · 182 acting · 11 human-in-the-loop
-api_count: 6
+api_count: 3
 apis:
 - baseURL: https://api.vultr.com/v2
   baseurl_source: declared
@@ -266,73 +268,78 @@ apis:
   slug: vultr-sub-account-api
 artifact_total: 71
 common:
+- group: other
+  href: https://artifacts.apis.io/vultr/capabilities/vultr-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vultr-capability-edges.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/rate-limits/vultr-rate-limits.yml
+  href: https://artifacts.apis.io/vultr/rate-limits/vultr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vultr-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/agentic-access/vultr-agentic-access.yml
+  href: https://artifacts.apis.io/vultr/agentic-access/vultr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vultr-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/rules/vultr-rules.yml
+  href: https://artifacts.apis.io/vultr/rules/vultr-rules.yml
   title: ''
   type: Spectral
   url: rules/vultr-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/json-ld/vultr-context.jsonld
+  href: https://artifacts.apis.io/vultr/json-ld/vultr-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/vultr-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/vocabulary/vultr-vocabulary.yml
+  href: https://artifacts.apis.io/vultr/vocabulary/vultr-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/vultr-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/data-model/vultr-data-model.yml
+  href: https://artifacts.apis.io/vultr/data-model/vultr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vultr-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/errors/vultr-problem-types.yml
+  href: https://artifacts.apis.io/vultr/errors/vultr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vultr-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/conformance/vultr-conformance.yml
+  href: https://artifacts.apis.io/vultr/conformance/vultr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vultr-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/llms/vultr-llms.txt
+  href: https://artifacts.apis.io/vultr/llms/vultr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vultr-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/well-known/vultr-well-known.yml
+  href: https://artifacts.apis.io/vultr/well-known/vultr-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vultr-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/hosts/vultr-hosts.yml
+  href: https://artifacts.apis.io/vultr/hosts/vultr-hosts.yml
   title: ''
   type: Hosts
   url: hosts/vultr-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/vendors/vultr-vendors.yml
+  href: https://artifacts.apis.io/vultr/vendors/vultr-vendors.yml
   title: ''
   type: Vendors
   url: vendors/vultr-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/packages/vultr-packages.yml
+  href: https://artifacts.apis.io/vultr/packages/vultr-packages.yml
   title: ''
   type: SDKs
   url: packages/vultr-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/packages/vultr-packages.yml
+  href: https://artifacts.apis.io/vultr/packages/vultr-packages.yml
   title: ''
   type: Packages
   url: packages/vultr-packages.yml
@@ -341,12 +348,12 @@ common:
   type: GettingStarted
   url: https://docs.vultr.com/inference-cookbook/rocm/getting-started/first-deployment
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/authentication/vultr-authentication.yml
+  href: https://artifacts.apis.io/vultr/authentication/vultr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vultr-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/security/vultr-domain-security.yml
+  href: https://artifacts.apis.io/vultr/security/vultr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vultr-domain-security.yml
@@ -375,7 +382,7 @@ common:
   type: CLI
   url: https://docs.vultr.com/reference/vultr-cli
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vultr/refs/heads/main/mcp/vultr-mcp.yml
+  href: https://artifacts.apis.io/vultr/mcp/vultr-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vultr-mcp.yml
@@ -456,8 +463,8 @@ overview: 'Vultr publishes 46 API contracts indexed on the [APIs.io](https://api
   The Vultr catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Vultr''s developer surface includes getting-started guide, authentication, documentation, engineering blog, changelog, CLI, and 18 more developer resources.'
-random_paper: 1
+  Vultr''s developer surface includes getting-started guide, authentication, documentation, engineering blog, changelog, CLI, and 19 more developer resources.'
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Vultr Rate Limits
@@ -477,21 +484,23 @@ rules:
   slug: vultr-rules
 score:
   band: developing
-  composite: 44.7
+  composite: 40.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 71.8
     catalog_earned_first_party: 8.0
     catalog_gap: 43.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
-    contract_quality: 66.3
+    contract_quality: 62.9
     developer_ergonomics: 50.0
-    discoverability: 76.7
+    discoverability: 66.7
     operational_transparency: 42.1
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -507,11 +516,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Vultr Authentication

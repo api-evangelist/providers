@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.6
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app.biodock.ai/api/external
@@ -57,11 +59,8 @@ apis:
   description: Listing published analysis pipelines
   name: Biodock Pipelines API
   slug: biodock-pipelines-api
-artifact_total: 13
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Biodock Public Analysis Jobs API
   slug: open-biodock-analysis-jobs-api
@@ -75,6 +74,11 @@ collections:
   name: Biodock Public Analysis Jobs Pipelines API
   slug: open-biodock-pipelines-api
 common:
+- group: other
+  href: https://artifacts.apis.io/biodock/capabilities/biodock-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/biodock-capability-edges.yml
 - group: company
   title: ''
   type: BlogRSS
@@ -84,12 +88,12 @@ common:
   type: Website
   url: https://www.biodock.ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/mcp/biodock-mcp.yml
+  href: https://artifacts.apis.io/biodock/mcp/biodock-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/biodock-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/overlays/biodock-public-api-overlay.yaml
+  href: https://artifacts.apis.io/biodock/overlays/biodock-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/biodock-public-api-overlay.yaml
@@ -142,32 +146,32 @@ common:
   type: TrustCenter
   url: https://www.biodock.ai/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/llms/biodock-llms.txt
+  href: https://artifacts.apis.io/biodock/llms/biodock-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/biodock-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/lifecycle/biodock-lifecycle.yml
+  href: https://artifacts.apis.io/biodock/lifecycle/biodock-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/biodock-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/conformance/biodock-conformance.yml
+  href: https://artifacts.apis.io/biodock/conformance/biodock-conformance.yml
   title: ''
   type: Conformance
   url: conformance/biodock-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/security/biodock-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/biodock/security/biodock-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/biodock-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/security/biodock-domain-security.yml
+  href: https://artifacts.apis.io/biodock/security/biodock-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/biodock-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/biodock/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -182,27 +186,27 @@ network: true
 overview: 'Biodock publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analysis Jobs API, Auth API, Files API, and 1 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Image Analysis, and Microscopy.
 
 
-  Biodock''s developer surface includes documentation, signup flow, engineering blog, support, and 18 more developer resources.'
-random_paper: 5
+  Biodock''s developer surface includes documentation, signup flow, engineering blog, support, and 19 more developer resources.'
+random_paper: 11
 score:
   band: developing
-  composite: 47.8
+  composite: 48.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 51.7
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 47.7
+  previous_composite: 48.0
   provenance:
     conformance: derived
     contracts:
@@ -218,13 +222,14 @@ score:
     regime: Health
     regime_id: health
     score: 30.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/screenshots/biodock-2026-07-25T203036.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/biodock/biodock-2026-07-25T203036.png
 security:
 - kind: authentication
   name: Biodock Authentication
@@ -242,6 +247,12 @@ security:
   name: Biodock Trust Center
   slug: biodock-trust-center
   summary_line: SOC 2 Type II, SOC 3, ISO 27001
+skill_count: 2
+skills:
+- name: Manage the Biodock Filesystem
+  slug: biodock-manage-files
+- name: Upload images and run a Biodock analysis
+  slug: biodock-upload-and-analyze
 slug: biodock
 tags:
 - Company

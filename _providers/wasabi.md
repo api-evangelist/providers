@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The Wasabi S3 API is a 100% bit-compatible implementation of the Amazon S3 REST API for creating and managing buckets, uploading and retrieving objects, controlling access, and managing lifecycle poli
@@ -51,12 +53,12 @@ apis:
 artifact_total: 10
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wasabi/refs/heads/main/security/wasabi-trust-center.yml
+  href: https://artifacts.apis.io/wasabi/security/wasabi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wasabi-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wasabi/refs/heads/main/security/wasabi-domain-security.yml
+  href: https://artifacts.apis.io/wasabi/security/wasabi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wasabi-domain-security.yml
@@ -97,17 +99,17 @@ common:
   type: PostmanCollection
   url: https://www.postman.com/wasabi-dev
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wasabi/refs/heads/main/plans/wasabi-plans-pricing.yml
+  href: https://artifacts.apis.io/wasabi/plans/wasabi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wasabi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wasabi/refs/heads/main/rate-limits/wasabi-rate-limits.yml
+  href: https://artifacts.apis.io/wasabi/rate-limits/wasabi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wasabi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wasabi/refs/heads/main/finops/wasabi-finops.yml
+  href: https://artifacts.apis.io/wasabi/finops/wasabi-finops.yml
   title: ''
   type: FinOps
   url: finops/wasabi-finops.yml
@@ -143,7 +145,7 @@ plans:
 - name: Wasabi Plans Pricing
   plan_count: 2
   slug: wasabi-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Wasabi Rate Limits
@@ -158,7 +160,7 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
@@ -166,21 +168,21 @@ score:
     developer_ergonomics: 28.6
     discoverability: 71.4
     operational_transparency: 28.9
-  previous_composite: 30.9
+  previous_composite: 24.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wasabi/refs/heads/main/screenshots/wasabi-2026-06-20T201235.png
+screenshot: https://apis.io/screenshots/wasabi/wasabi-2026-06-20T201235.png
 security:
 - kind: domain-security
   name: Wasabi Domain Security

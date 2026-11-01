@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/area-1-security/refs/heads/main/security/area-1-security-domain-security.yml
+  href: https://artifacts.apis.io/area-1-security/security/area-1-security-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/area-1-security-domain-security.yml
@@ -62,7 +64,7 @@ overview: 'Area 1 Security is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Area 1 Security''s developer surface includes documentation and 2 more developer resources.'
-random_paper: 6
+random_paper: 20
 score:
   band: minimal
   composite: 5.3
@@ -88,14 +90,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/area-1-security/refs/heads/main/screenshots/area-1-security-2026-07-25T201116.png
+screenshot: https://apis.io/screenshots/area-1-security/area-1-security-2026-07-25T201116.png
 security:
 - kind: domain-security
   name: Area 1 Security Domain Security

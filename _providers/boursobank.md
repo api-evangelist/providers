@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/boursobank/refs/heads/main/hosts/boursobank-hosts.yml
+  href: https://artifacts.apis.io/boursobank/hosts/boursobank-hosts.yml
   title: ''
   type: Hosts
   url: hosts/boursobank-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boursobank/refs/heads/main/security/boursobank-domain-security.yml
+  href: https://artifacts.apis.io/boursobank/security/boursobank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/boursobank-domain-security.yml
@@ -56,8 +58,8 @@ modified: '2026-10-03'
 name: Boursobank
 nav: Providers
 network: true
-overview: Boursobank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Fintech, OnlineBanking, and France.
-random_paper: 0
+overview: Boursobank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Fintech, Online Banking, and France.
+random_paper: 22
 score:
   band: minimal
   composite: 2.1
@@ -91,8 +93,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -108,7 +110,7 @@ tags:
 - Company
 - Banking
 - Fintech
-- OnlineBanking
+- Online Banking
 - France
 website: https://www.boursobank.com
 ---

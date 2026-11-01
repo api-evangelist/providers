@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.5
-  scored_at: '2026-10-17'
+  score: 34.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -220,62 +222,62 @@ collections:
   slug: open-obie-opendata-swagger
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/capabilities/monument-bank-capability-edges.yml
+  href: https://artifacts.apis.io/monument-bank/capabilities/monument-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/monument-bank-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/agentic-access/monument-bank-agentic-access.yml
+  href: https://artifacts.apis.io/monument-bank/agentic-access/monument-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/monument-bank-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/errors/monument-bank-problem-types.yml
+  href: https://artifacts.apis.io/monument-bank/errors/monument-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/monument-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/conformance/monument-bank-conformance.yml
+  href: https://artifacts.apis.io/monument-bank/conformance/monument-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/monument-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/lifecycle/monument-bank-lifecycle.yml
+  href: https://artifacts.apis.io/monument-bank/lifecycle/monument-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/monument-bank-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/conventions/monument-bank-conventions.yml
+  href: https://artifacts.apis.io/monument-bank/conventions/monument-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/monument-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/conventions/monument-bank-conventions.yml
+  href: https://artifacts.apis.io/monument-bank/conventions/monument-bank-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/monument-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/data-model/monument-bank-data-model.yml
+  href: https://artifacts.apis.io/monument-bank/data-model/monument-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/monument-bank-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/llms/monument-bank-llms.txt
+  href: https://artifacts.apis.io/monument-bank/llms/monument-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/monument-bank-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/security/monument-bank-domain-security.yml
+  href: https://artifacts.apis.io/monument-bank/security/monument-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/monument-bank-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/scopes/monument-bank-scopes.yml
+  href: https://artifacts.apis.io/monument-bank/scopes/monument-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/monument-bank-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/authentication/monument-bank-authentication.yml
+  href: https://artifacts.apis.io/monument-bank/authentication/monument-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/monument-bank-authentication.yml
@@ -348,13 +350,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 4.5
     contract_quality: 46.9
     developer_ergonomics: 35.7
-    discoverability: 79.5
+    discoverability: 73.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -364,7 +366,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 36.5
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -383,13 +385,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/screenshots/monument-bank-2026-08-07T184223.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/monument-bank/monument-bank-2026-08-07T184223.png
 security:
 - kind: authentication
   name: Monument Bank Authentication

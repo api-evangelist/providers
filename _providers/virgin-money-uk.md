@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: derived
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-10-17'
+  score: 32.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -106,109 +108,109 @@ apis:
   description: Endpoint for getting Unsecured SME Loan data
   name: Virgin Money UK SME API
   slug: virgin-money-uk-sme-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-opendata-api-standard
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/capabilities/virgin-money-uk-capability-edges.yml
+  href: https://artifacts.apis.io/virgin-money-uk/capabilities/virgin-money-uk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/virgin-money-uk-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/agentic-access/virgin-money-uk-agentic-access.yml
+  href: https://artifacts.apis.io/virgin-money-uk/agentic-access/virgin-money-uk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/virgin-money-uk-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/security/virgin-money-uk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/virgin-money-uk/security/virgin-money-uk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/virgin-money-uk-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/security/virgin-money-uk-domain-security.yml
+  href: https://artifacts.apis.io/virgin-money-uk/security/virgin-money-uk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/virgin-money-uk-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/security/virgin-money-uk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/virgin-money-uk/security/virgin-money-uk-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/virgin-money-uk-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/well-known/virgin-money-uk-well-known.yml
+  href: https://artifacts.apis.io/virgin-money-uk/well-known/virgin-money-uk-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/virgin-money-uk-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/well-known/virgin-money-uk-openid-configuration.json
+  href: https://artifacts.apis.io/virgin-money-uk/well-known/virgin-money-uk-openid-configuration.json
   title: ''
   type: WellKnown
   url: well-known/virgin-money-uk-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/well-known/virgin-money-uk-security.txt
+  href: https://artifacts.apis.io/virgin-money-uk/well-known/virgin-money-uk-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/virgin-money-uk-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/authentication/virgin-money-uk-authentication.yml
+  href: https://artifacts.apis.io/virgin-money-uk/authentication/virgin-money-uk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/virgin-money-uk-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/scopes/virgin-money-uk-scopes.yml
+  href: https://artifacts.apis.io/virgin-money-uk/scopes/virgin-money-uk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/virgin-money-uk-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/conformance/virgin-money-uk-conformance.yml
+  href: https://artifacts.apis.io/virgin-money-uk/conformance/virgin-money-uk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/virgin-money-uk-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/conventions/virgin-money-uk-conventions.yml
+  href: https://artifacts.apis.io/virgin-money-uk/conventions/virgin-money-uk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/virgin-money-uk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/conventions/virgin-money-uk-conventions.yml
+  href: https://artifacts.apis.io/virgin-money-uk/conventions/virgin-money-uk-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/virgin-money-uk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/errors/virgin-money-uk-problem-types.yml
+  href: https://artifacts.apis.io/virgin-money-uk/errors/virgin-money-uk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/virgin-money-uk-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/lifecycle/virgin-money-uk-lifecycle.yml
+  href: https://artifacts.apis.io/virgin-money-uk/lifecycle/virgin-money-uk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/virgin-money-uk-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/lifecycle/virgin-money-uk-lifecycle.yml
+  href: https://artifacts.apis.io/virgin-money-uk/lifecycle/virgin-money-uk-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/virgin-money-uk-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/data-model/virgin-money-uk-data-model.yml
+  href: https://artifacts.apis.io/virgin-money-uk/data-model/virgin-money-uk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/virgin-money-uk-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/overlays/virgin-money-uk-opendata-overlay.yaml
+  href: https://artifacts.apis.io/virgin-money-uk/overlays/virgin-money-uk-opendata-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/virgin-money-uk-opendata-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/llms/virgin-money-uk-llms.txt
+  href: https://artifacts.apis.io/virgin-money-uk/llms/virgin-money-uk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/virgin-money-uk-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/skills/virgin-money-uk-locate-atms-branches.md
+  href: https://artifacts.apis.io/virgin-money-uk/skills/virgin-money-uk-locate-atms-branches.md
   title: ''
   type: AgentSkill
   url: skills/virgin-money-uk-locate-atms-branches.md
@@ -249,29 +251,29 @@ overview: 'Virgin Money UK publishes 17 API contracts indexed on the [APIs.io](h
 
 
   Virgin Money UK''s developer surface includes authentication, documentation, support, and 23 more developer resources.'
-random_paper: 3
+random_paper: 9
 scopes:
 - name: Virgin Money Uk Scopes
   scope_count: 4
   slug: virgin-money-uk-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 45.4
+  band: thin
+  composite: 37.5
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
-    catalog_max: 100.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 57.1
+    access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 35.5
     developer_ergonomics: 44.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -281,7 +283,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 45.3
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -303,14 +305,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/screenshots/virgin-money-uk-2026-09-02T170000.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/virgin-money-uk/virgin-money-uk-2026-09-02T170000.png
 security:
 - kind: authentication
   name: Virgin Money Uk Authentication
@@ -324,6 +326,10 @@ security:
   name: Virgin Money Uk Vulnerability Disclosure
   slug: virgin-money-uk-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 1
+skills:
+- name: Locate Virgin Money ATMs and branches (Open Data)
+  slug: virgin-money-uk-locate-atms-branches
 slug: virgin-money-uk
 tags:
 - Financial Services

@@ -14,17 +14,19 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.8
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 30.1
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: Hosted MCP server over Streamable HTTP exposing nine tools — get_config, list_jurisdictions, verify_business, search_entities, check_job_status, get_entity, get_entity_history, get_account and purchas
   name: BizVerify MCP Server
@@ -74,11 +76,8 @@ apis:
   description: The Verification API from BizVerify — 2 operation(s) for verification.
   name: BizVerify Verification API
   slug: bizverify-verification-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: BizVerify Account API
   slug: open-bizverify-account-api
@@ -111,7 +110,7 @@ collections:
   slug: open-bizverify
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/capabilities/bizverify-capability-edges.yml
+  href: https://artifacts.apis.io/bizverify/capabilities/bizverify-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bizverify-capability-edges.yml
@@ -132,7 +131,7 @@ common:
   type: Documentation
   url: https://docs.bizverify.co
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/llms/bizverify-llms.txt
+  href: https://artifacts.apis.io/bizverify/llms/bizverify-llms.txt
   title: ''
   type: LLMSTxt
   url: llms/bizverify-llms.txt
@@ -141,7 +140,7 @@ common:
   type: LLMSTxt
   url: https://bizverify.co/llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/well-known/bizverify-api-catalog.json
+  href: https://artifacts.apis.io/bizverify/well-known/bizverify-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/bizverify-api-catalog.json
@@ -180,10 +179,10 @@ overview: 'BizVerify publishes 10 API contracts indexed on the [APIs.io](https:/
 
 
   BizVerify''s developer surface includes documentation and 12 more developer resources.'
-random_paper: 18
+random_paper: 2
 score:
   band: thin
-  composite: 26.9
+  composite: 26.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 32.0
@@ -197,9 +196,9 @@ score:
     contract_governance: 0.0
     contract_quality: 41.4
     developer_ergonomics: 16.0
-    discoverability: 76.7
+    discoverability: 66.7
     operational_transparency: 5.3
-  previous_composite: 26.9
+  previous_composite: 26.7
   provenance:
     contracts:
       callable: 0.0
@@ -213,13 +212,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/screenshots/bizverify-2026-08-07T162603.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bizverify/bizverify-2026-08-07T162603.png
 slug: bizverify
 tags:
 - Business Verification

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,17 +43,17 @@ common:
   type: BlogRSS
   url: https://www.exegy.com/category/insights/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exegy/refs/heads/main/security/exegy-domain-security.yml
+  href: https://artifacts.apis.io/exegy/security/exegy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/exegy-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exegy/refs/heads/main/llms/exegy-llms.txt
+  href: https://artifacts.apis.io/exegy/llms/exegy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/exegy-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/exegy/refs/heads/main/packages/exegy-packages.yml
+  href: https://artifacts.apis.io/exegy/packages/exegy-packages.yml
   title: ''
   type: Packages
   url: packages/exegy-packages.yml
@@ -99,9 +101,9 @@ overview: 'Exegy is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 18
 score:
   band: minimal
-  composite: 9.6
+  composite: 9.3
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -113,28 +115,28 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 9.6
+  previous_composite: 9.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 9.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/exegy/refs/heads/main/screenshots/exegy-2026-07-22T202414.png
+screenshot: https://apis.io/screenshots/exegy/exegy-2026-07-22T202414.png
 security:
 - kind: domain-security
   name: Exegy Domain Security

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Kisee is an open-source HTTP API server published by Melty Group that exchanges valid username/password pairs for JSON Web Tokens, and nothing else. It is self-hosted software, not a Melty-operated pu
@@ -47,7 +49,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/melty/refs/heads/main/security/melty-domain-security.yml
+  href: https://artifacts.apis.io/melty/security/melty-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/melty-domain-security.yml
@@ -80,42 +82,42 @@ common:
   type: PrivacyPolicy
   url: https://www.reworldmedia.com/mentions-legales/politique-des-donnees-a-caractere-personnel-et-cookies
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/melty/refs/heads/main/packages/melty-packages.yml
+  href: https://artifacts.apis.io/melty/packages/melty-packages.yml
   title: ''
   type: Packages
   url: packages/melty-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/melty/refs/heads/main/llms/melty-llms.txt
+  href: https://artifacts.apis.io/melty/llms/melty-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/melty-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/melty/refs/heads/main/lifecycle/melty-lifecycle.yml
+  href: https://artifacts.apis.io/melty/lifecycle/melty-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/melty-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/melty/refs/heads/main/plans/melty-plans-pricing.yml
+  href: https://artifacts.apis.io/melty/plans/melty-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/melty-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/melty/refs/heads/main/rate-limits/melty-rate-limits.yml
+  href: https://artifacts.apis.io/melty/rate-limits/melty-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/melty-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/melty/refs/heads/main/conformance/melty-conformance.yml
+  href: https://artifacts.apis.io/melty/conformance/melty-conformance.yml
   title: ''
   type: Conformance
   url: conformance/melty-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/melty/refs/heads/main/authentication/melty-authentication.yml
+  href: https://artifacts.apis.io/melty/authentication/melty-authentication.yml
   title: ''
   type: Authentication
   url: authentication/melty-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/melty/refs/heads/main/conventions/melty-conventions.yml
+  href: https://artifacts.apis.io/melty/conventions/melty-conventions.yml
   title: ''
   type: Conventions
   url: conventions/melty-conventions.yml
@@ -149,14 +151,14 @@ plans:
 - name: Melty Plans Pricing
   plan_count: 0
   slug: melty-plans-pricing
-random_paper: 5
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Melty Rate Limits
   slug: melty-rate-limits
 score:
   band: emerging
-  composite: 18.8
+  composite: 19.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -171,7 +173,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -180,7 +182,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 18.8
+  previous_composite: 19.2
   provenance:
     conformance: derived
   regulatory:
@@ -189,14 +191,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/melty/refs/heads/main/screenshots/melty-2026-09-02T150503.png
+screenshot: https://apis.io/screenshots/melty/melty-2026-09-02T150503.png
 security:
 - kind: authentication
   name: Melty Authentication

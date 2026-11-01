@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.5
-  scored_at: '2026-10-17'
+  score: 42.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 138
   human_in_the_loop: 3
@@ -456,82 +458,82 @@ apis:
 artifact_total: 151
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/capabilities/zywave-capability-edges.yml
+  href: https://artifacts.apis.io/zywave/capabilities/zywave-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zywave-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/agentic-access/zywave-agentic-access.yml
+  href: https://artifacts.apis.io/zywave/agentic-access/zywave-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zywave-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/rules/zywave-rules.yml
+  href: https://artifacts.apis.io/zywave/rules/zywave-rules.yml
   title: ''
   type: Spectral
   url: rules/zywave-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/json-ld/zywave-context.jsonld
+  href: https://artifacts.apis.io/zywave/json-ld/zywave-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/zywave-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/vocabulary/zywave-vocabulary.yml
+  href: https://artifacts.apis.io/zywave/vocabulary/zywave-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/zywave-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/data-model/zywave-data-model.yml
+  href: https://artifacts.apis.io/zywave/data-model/zywave-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zywave-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/conventions/zywave-conventions.yml
+  href: https://artifacts.apis.io/zywave/conventions/zywave-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/zywave-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/conventions/zywave-conventions.yml
+  href: https://artifacts.apis.io/zywave/conventions/zywave-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zywave-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/errors/zywave-problem-types.yml
+  href: https://artifacts.apis.io/zywave/errors/zywave-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zywave-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/conformance/zywave-conformance.yml
+  href: https://artifacts.apis.io/zywave/conformance/zywave-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zywave-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/well-known/zywave-well-known.yml
+  href: https://artifacts.apis.io/zywave/well-known/zywave-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zywave-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/hosts/zywave-hosts.yml
+  href: https://artifacts.apis.io/zywave/hosts/zywave-hosts.yml
   title: ''
   type: Hosts
   url: hosts/zywave-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/vendors/zywave-vendors.yml
+  href: https://artifacts.apis.io/zywave/vendors/zywave-vendors.yml
   title: ''
   type: Vendors
   url: vendors/zywave-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/scopes/zywave-scopes.yml
+  href: https://artifacts.apis.io/zywave/scopes/zywave-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zywave-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/authentication/zywave-authentication.yml
+  href: https://artifacts.apis.io/zywave/authentication/zywave-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zywave-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/security/zywave-domain-security.yml
+  href: https://artifacts.apis.io/zywave/security/zywave-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zywave-domain-security.yml
@@ -552,7 +554,7 @@ common:
   type: GettingStarted
   url: https://www.zywave.dev/apis/getting-started/registering-an-app/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/mcp/zywave-mcp.yml
+  href: https://artifacts.apis.io/zywave/mcp/zywave-mcp.yml
   title: ''
   type: MCP
   url: mcp/zywave-mcp.yml
@@ -565,7 +567,7 @@ common:
   type: OpenIDConfiguration
   url: https://auth.zywave.com/.well-known/openid-configuration
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zywave/refs/heads/main/well-known/ai.zywave.com-oauth-protected-resource.json
+  href: https://artifacts.apis.io/zywave/well-known/ai.zywave.com-oauth-protected-resource.json
   title: ''
   type: OAuthProtectedResource
   url: well-known/ai.zywave.com-oauth-protected-resource.json
@@ -819,7 +821,7 @@ overview: 'Zywave publishes 84 API contracts indexed on the [APIs.io](https://ap
 
 
   Zywave''s developer surface includes authentication, documentation, getting-started guide, engineering blog, signup flow, support, and 27 more developer resources.'
-random_paper: 18
+random_paper: 6
 rules:
 - authorship: generated
   effective_rule_count: 54
@@ -840,7 +842,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.6
+  composite: 46.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 65.8
@@ -848,13 +850,15 @@ score:
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 22.0
-    contract_quality: 66.2
+    contract_quality: 62.8
     developer_ergonomics: 40.5
-    discoverability: 75.0
+    discoverability: 71.7
     operational_transparency: 21.1
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -870,11 +874,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 38.9
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Zywave Authentication

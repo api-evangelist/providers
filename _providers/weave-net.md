@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -68,11 +70,8 @@ apis:
   description: The Status API from Weave Net — 1 operation(s) for status.
   name: Weave Net Status API
   slug: weave-net-status-api
-artifact_total: 51
+artifact_total: 50
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Weave Net HTTP DNS API
   slug: open-weave-net-dns-api
@@ -93,22 +92,22 @@ collections:
   slug: open-weave-net
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/plans/weave-net-plans-pricing.yml
+  href: https://artifacts.apis.io/weave-net/plans/weave-net-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/weave-net-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/rate-limits/weave-net-rate-limits.yml
+  href: https://artifacts.apis.io/weave-net/rate-limits/weave-net-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/weave-net-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/finops/weave-net-finops.yml
+  href: https://artifacts.apis.io/weave-net/finops/weave-net-finops.yml
   title: ''
   type: FinOps
   url: finops/weave-net-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/agentic-access/weave-net-agentic-access.yml
+  href: https://artifacts.apis.io/weave-net/agentic-access/weave-net-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/weave-net-agentic-access.yml
@@ -141,12 +140,12 @@ common:
   type: Support
   url: https://github.com/weaveworks/weave/issues
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/rules/weave-net-spectral-rules.yml
+  href: https://artifacts.apis.io/weave-net/rules/weave-net-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/weave-net-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/vocabulary/weave-net-vocabulary.yml
+  href: https://artifacts.apis.io/weave-net/vocabulary/weave-net-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/weave-net-vocabulary.yml
@@ -193,7 +192,7 @@ finops:
 - has_sources: false
   method: generated
   name: Weave Net Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: weave-net-finops
   template: true
@@ -263,7 +262,7 @@ plans:
 - name: Weave Net Plans Pricing
   plan_count: 3
   slug: weave-net-plans-pricing
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Weave Net Rate Limits
@@ -294,7 +293,7 @@ rules:
   slug: weave-net-spectral-rules
 score:
   band: thin
-  composite: 27.0
+  composite: 27.7
   coverage:
     artifact_dirs: 13
     catalog_earned: 61.0
@@ -302,7 +301,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 27.3
@@ -310,7 +309,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 62.5
     operational_transparency: 39.5
-  previous_composite: 28.5
+  previous_composite: 27.7
   provenance:
     agentic_access: derived
     contracts:
@@ -324,13 +323,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/screenshots/weave-net-2026-06-20T201316.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/weave-net/weave-net-2026-06-20T201316.png
 slug: weave-net
 tags:
 - Containers

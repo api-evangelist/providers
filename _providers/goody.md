@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 63.1
-  scored_at: '2026-10-17'
+  score: 56.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -103,7 +105,27 @@ apis:
   description: The Workspaces API from Goody — 1 operation(s) for workspaces.
   name: Goody Workspaces API
   slug: goody-workspaces-api
-artifact_total: 46
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Categories API from Goody — 1 operation(s) for categories.
+  name: Goody Categories API
+  slug: goody-categories-api
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Gift Templates API from Goody — 2 operation(s) for gift templates.
+  name: Goody Gift Templates API
+  slug: goody-gift-templates-api
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Gifts of Choice API from Goody — 1 operation(s) for gifts of choice.
+  name: Goody Gifts of Choice API
+  slug: goody-gifts-of-choice-api
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Shipping Countries API from Goody — 1 operation(s) for shipping countries.
+  name: Goody Shipping Countries API
+  slug: goody-shipping-countries-api
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Goody Webhooks
@@ -146,9 +168,6 @@ collections:
   name: Goody Brands Workspaces API
   slug: postman-goody-workspaces-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Goody Brands API
   slug: open-goody-brands-api
 - collection_type: open
@@ -190,17 +209,17 @@ common:
   type: Pricing
   url: https://www.ongoody.com/business/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/plans/goody-plans-pricing.yml
+  href: https://artifacts.apis.io/goody/plans/goody-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/goody-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/capabilities/goody-capability-edges.yml
+  href: https://artifacts.apis.io/goody/capabilities/goody-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/goody-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/overlays/goody-api-overlay.yaml
+  href: https://artifacts.apis.io/goody/overlays/goody-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/goody-api-overlay.yaml
@@ -261,52 +280,52 @@ common:
   type: PrivacyPolicy
   url: https://www.ongoody.com/privacy
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/changelog/goody-changelog.yml
+  href: https://artifacts.apis.io/goody/changelog/goody-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/goody-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/lifecycle/goody-lifecycle.yml
+  href: https://artifacts.apis.io/goody/lifecycle/goody-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/goody-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/authentication/goody-authentication.yml
+  href: https://artifacts.apis.io/goody/authentication/goody-authentication.yml
   title: ''
   type: Authentication
   url: authentication/goody-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/scopes/goody-scopes.yml
+  href: https://artifacts.apis.io/goody/scopes/goody-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/goody-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/mcp/goody-mcp.yml
+  href: https://artifacts.apis.io/goody/mcp/goody-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/goody-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/asyncapi/goody-webhooks.yml
+  href: https://artifacts.apis.io/goody/asyncapi/goody-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/goody-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/conventions/goody-conventions.yml
+  href: https://artifacts.apis.io/goody/conventions/goody-conventions.yml
   title: ''
   type: Conventions
   url: conventions/goody-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/conventions/goody-conventions.yml
+  href: https://artifacts.apis.io/goody/conventions/goody-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/goody-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/errors/goody-problem-types.yml
+  href: https://artifacts.apis.io/goody/errors/goody-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/goody-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/conformance/goody-conformance.yml
+  href: https://artifacts.apis.io/goody/conformance/goody-conformance.yml
   title: ''
   type: Conformance
   url: conformance/goody-conformance.yml
@@ -315,47 +334,55 @@ common:
   type: Compliance
   url: https://trust.ongoody.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/security/goody-trust-center.yml
+  href: https://artifacts.apis.io/goody/security/goody-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/goody-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/data-model/goody-data-model.yml
+  href: https://artifacts.apis.io/goody/data-model/goody-data-model.yml
   title: ''
   type: DataModel
   url: data-model/goody-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/sandbox/goody-sandbox.yml
+  href: https://artifacts.apis.io/goody/sandbox/goody-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/goody-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/well-known/goody-well-known.yml
+  href: https://artifacts.apis.io/goody/well-known/goody-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/goody-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/goody/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/agentic-access/goody-agentic-access.yml
+  href: https://artifacts.apis.io/goody/agentic-access/goody-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/goody-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/security/goody-domain-security.yml
+  href: https://artifacts.apis.io/goody/security/goody-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/goody-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/llms/goody-llms.txt
+  href: https://artifacts.apis.io/goody/llms/goody-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/goody-llms.txt
 created: '2026-07-17'
 description: Goody (ongoody.com) is a business and personal gifting platform that lets senders deliver physical products and gift cards without needing a recipient's address — the recipient accepts via a shareable gift link and can swap the gift. For developers, Goody exposes a REST Commerce/Automation API (base https://api.ongoody.com, with a separate sandbox at api.sandbox.ongoody.com) to browse a curated product catalog, price and send gift order-batches to one or many recipients, manage contacts and autogift rules, and track order lifecycle. Bearer API-key auth for the REST API, plus an official hosted MCP server (OAuth2 + PKCE) exposing 28 tools so agents can discover, draft, price, and send gifts in natural language. Webhooks (via Svix) cover the full order lifecycle. SOC 2 certified. Backed by Index Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Goody Finops
+  primary_unit: user
+  service_category: ''
+  slug: goody-finops
+  template: false
 image: https://www.ongoody.com/assets/frontend/assets/goody-logo-jy0bt7ba.digested.svg
 layout: provider
 mcp_servers:
@@ -366,7 +393,7 @@ modified: '2026-07-19'
 name: Goody
 nav: Providers
 network: true
-overview: 'Goody publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including Brands API, Cards API, Collections API, and 9 more. Tagged areas include Company, Retail, Gifting, Gift Cards, and E-Commerce.
+overview: 'Goody publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Brands API, Cards API, Collections API, and 13 more. Tagged areas include Company, Retail, Gifting, Gift Cards, and E-Commerce.
 
 
   The Goody catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -388,22 +415,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.2
+  composite: 61.7
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 49.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 53.9
+    contract_quality: 53.4
     developer_ergonomics: 67.3
-    discoverability: 75.0
-    operational_transparency: 26.3
+    discoverability: 65.0
+    operational_transparency: 28.9
   previous_composite: 60.2
   provenance:
     agentic_access: derived
@@ -412,7 +439,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
+      total: 29
     mcp: first-party
     skills: derived
   regulatory:
@@ -421,13 +448,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/screenshots/goody-2026-07-25T220106.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/goody/goody-2026-07-25T220106.png
 security:
 - kind: authentication
   name: Goody Authentication
@@ -441,6 +469,12 @@ security:
   name: Goody Trust Center
   slug: goody-trust-center
   summary_line: SOC 2
+skill_count: 2
+skills:
+- name: Send a Goody gift batch
+  slug: goody-send-gift-batch
+- name: Track and manage Goody orders
+  slug: goody-track-orders
 slug: goody
 tags:
 - Company

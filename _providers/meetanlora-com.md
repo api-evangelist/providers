@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,9 +25,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 6
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -76,7 +78,7 @@ common:
   type: GitHub
   url: https://github.com/Stanglovicc
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/llms/meetanlora-com-llms.txt
+  href: https://artifacts.apis.io/meetanlora-com/llms/meetanlora-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meetanlora-com-llms.txt
@@ -85,7 +87,7 @@ common:
   type: LLMsTxt
   url: https://meetanlora.com/llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/a2a/meetanlora-com-a2a.yml
+  href: https://artifacts.apis.io/meetanlora-com/a2a/meetanlora-com-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/meetanlora-com-a2a.yml
@@ -94,7 +96,7 @@ common:
   type: AgentCard
   url: https://meetanlora.com/.well-known/agent-card.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/mcp/meetanlora-com-mcp.yml
+  href: https://artifacts.apis.io/meetanlora-com/mcp/meetanlora-com-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/meetanlora-com-mcp.yml
@@ -103,77 +105,77 @@ common:
   type: MCPServer
   url: https://meetanlora.com/.well-known/mcp.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/meetanlora-com/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/well-known/meetanlora-com-well-known.yml
+  href: https://artifacts.apis.io/meetanlora-com/well-known/meetanlora-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/meetanlora-com-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/well-known/meetanlora-com-security.txt
+  href: https://artifacts.apis.io/meetanlora-com/well-known/meetanlora-com-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/meetanlora-com-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/well-known/meetanlora-com-http-message-signatures-directory.json
+  href: https://artifacts.apis.io/meetanlora-com/well-known/meetanlora-com-http-message-signatures-directory.json
   title: ''
   type: WebBotAuth
   url: well-known/meetanlora-com-http-message-signatures-directory.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/security/meetanlora-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/meetanlora-com/security/meetanlora-com-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/meetanlora-com-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/security/meetanlora-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/meetanlora-com/security/meetanlora-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/meetanlora-com-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/security/meetanlora-com-domain-security.yml
+  href: https://artifacts.apis.io/meetanlora-com/security/meetanlora-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meetanlora-com-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/packages/meetanlora-com-packages.yml
+  href: https://artifacts.apis.io/meetanlora-com/packages/meetanlora-com-packages.yml
   title: ''
   type: Packages
   url: packages/meetanlora-com-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/conformance/meetanlora-com-conformance.yml
+  href: https://artifacts.apis.io/meetanlora-com/conformance/meetanlora-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/meetanlora-com-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/lifecycle/meetanlora-com-lifecycle.yml
+  href: https://artifacts.apis.io/meetanlora-com/lifecycle/meetanlora-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/meetanlora-com-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/authentication/meetanlora-com-authentication.yml
+  href: https://artifacts.apis.io/meetanlora-com/authentication/meetanlora-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/meetanlora-com-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/conventions/meetanlora-com-conventions.yml
+  href: https://artifacts.apis.io/meetanlora-com/conventions/meetanlora-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/meetanlora-com-conventions.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/plans/meetanlora-com-plans-pricing.yml
+  href: https://artifacts.apis.io/meetanlora-com/plans/meetanlora-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/meetanlora-com-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/rate-limits/meetanlora-com-rate-limits.yml
+  href: https://artifacts.apis.io/meetanlora-com/rate-limits/meetanlora-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/meetanlora-com-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/regulatory/meetanlora-com-regulatory-posture.yml
+  href: https://artifacts.apis.io/meetanlora-com/regulatory/meetanlora-com-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/meetanlora-com-regulatory-posture.yml
@@ -214,7 +216,7 @@ plans:
 - name: Meetanlora Com Plans Pricing
   plan_count: 2
   slug: meetanlora-com-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Meetanlora Com Rate Limits
@@ -229,7 +231,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 18.2
@@ -237,7 +239,7 @@ score:
     developer_ergonomics: 35.7
     discoverability: 56.7
     operational_transparency: 31.6
-  previous_composite: 36.8
+  previous_composite: 36.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -248,14 +250,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 46.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/meetanlora-com/refs/heads/main/screenshots/meetanlora-com-2026-10-11T110959.png
+screenshot: https://apis.io/screenshots/meetanlora-com/meetanlora-com-2026-10-11T110959.png
 security:
 - kind: authentication
   name: Meetanlora Com Authentication
@@ -269,6 +271,14 @@ security:
   name: Meetanlora Com Vulnerability Disclosure
   slug: meetanlora-com-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: agency-cost-benchmark
+  slug: meetanlora-com-agency-cost-benchmark
+- name: ai-autonomous-vs-assisted-threshold
+  slug: meetanlora-com-ai-autonomous-vs-assisted-threshold
+- name: onlyfans-agency-operations
+  slug: meetanlora-com-onlyfans-agency-operations
 slug: meetanlora-com
 tags:
 - Creator Economy

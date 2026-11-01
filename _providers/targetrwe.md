@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/targetrwe/refs/heads/main/security/targetrwe-domain-security.yml
+  href: https://artifacts.apis.io/targetrwe/security/targetrwe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/targetrwe-domain-security.yml
@@ -46,7 +48,7 @@ common:
   type: Website
   url: https://www.pedestalhealth.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/targetrwe/refs/heads/main/llms/targetrwe-llms.txt
+  href: https://artifacts.apis.io/targetrwe/llms/targetrwe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/targetrwe-llms.txt
@@ -82,10 +84,10 @@ overview: 'Pedestal Health (formerly Target RWE) is profiled on the [APIs.io](ht
 
 
   Pedestal Health (formerly Target RWE)''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 13
+random_paper: 21
 score:
-  band: emerging
-  composite: 11.0
+  band: minimal
+  composite: 10.3
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -99,23 +101,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 11.0
+  previous_composite: 10.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/targetrwe/refs/heads/main/screenshots/targetrwe-2026-09-02T162542.png
+screenshot: https://apis.io/screenshots/targetrwe/targetrwe-2026-09-02T162542.png
 security:
 - kind: domain-security
   name: Targetrwe Domain Security

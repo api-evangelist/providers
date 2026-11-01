@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 34.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 215
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 533
   slug: vaultre-agentic-access
   summary_line: 533 operations · 215 acting
-api_count: 7
+api_count: 4
 apis:
 - baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
   baseurl_source: declared
@@ -294,7 +296,7 @@ apis:
   description: Operations related to users
   name: VaultRE User API
   slug: vaultre-user-api
-artifact_total: 60
+artifact_total: 66
 asyncapis:
 - description: ''
   name: Vaultre Webhooks
@@ -314,47 +316,47 @@ collections:
   slug: open-vaultre-api-v1-3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/plans/vaultre-plans-pricing.yml
+  href: https://artifacts.apis.io/vaultre/plans/vaultre-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vaultre-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/capabilities/vaultre-capability-edges.yml
+  href: https://artifacts.apis.io/vaultre/capabilities/vaultre-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vaultre-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/overlays/vaultre-api-v1-3-overlay.yaml
+  href: https://artifacts.apis.io/vaultre/overlays/vaultre-api-v1-3-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vaultre-api-v1-3-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/overlays/vaultre-api-v1-2-overlay.yaml
+  href: https://artifacts.apis.io/vaultre/overlays/vaultre-api-v1-2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vaultre-api-v1-2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/overlays/vaultre-api-v1-1-overlay.yaml
+  href: https://artifacts.apis.io/vaultre/overlays/vaultre-api-v1-1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vaultre-api-v1-1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/overlays/vaultre-aggregator-api-v1-0-overlay.yaml
+  href: https://artifacts.apis.io/vaultre/overlays/vaultre-aggregator-api-v1-0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vaultre-aggregator-api-v1-0-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/agentic-access/vaultre-agentic-access.yml
+  href: https://artifacts.apis.io/vaultre/agentic-access/vaultre-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vaultre-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/security/vaultre-domain-security.yml
+  href: https://artifacts.apis.io/vaultre/security/vaultre-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vaultre-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/authentication/vaultre-authentication.yml
+  href: https://artifacts.apis.io/vaultre/authentication/vaultre-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vaultre-authentication.yml
@@ -435,67 +437,67 @@ common:
   type: StatusPage
   url: https://status.mrisoftware.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/lifecycle/vaultre-lifecycle.yml
+  href: https://artifacts.apis.io/vaultre/lifecycle/vaultre-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vaultre-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/changelog/vaultre-changelog.yml
+  href: https://artifacts.apis.io/vaultre/changelog/vaultre-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vaultre-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/conventions/vaultre-conventions.yml
+  href: https://artifacts.apis.io/vaultre/conventions/vaultre-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vaultre-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/errors/vaultre-problem-types.yml
+  href: https://artifacts.apis.io/vaultre/errors/vaultre-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/vaultre-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/conformance/vaultre-conformance.yml
+  href: https://artifacts.apis.io/vaultre/conformance/vaultre-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vaultre-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/scopes/vaultre-scopes.yml
+  href: https://artifacts.apis.io/vaultre/scopes/vaultre-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vaultre-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/packages/vaultre-packages.yml
+  href: https://artifacts.apis.io/vaultre/packages/vaultre-packages.yml
   title: ''
   type: Packages
   url: packages/vaultre-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/data-model/vaultre-data-model.yml
+  href: https://artifacts.apis.io/vaultre/data-model/vaultre-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vaultre-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/asyncapi/vaultre-webhooks.yml
+  href: https://artifacts.apis.io/vaultre/asyncapi/vaultre-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/vaultre-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/mcp/vaultre-mcp.yml
+  href: https://artifacts.apis.io/vaultre/mcp/vaultre-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vaultre-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/mcp/vaultre-tool-crosswalk.yml
+  href: https://artifacts.apis.io/vaultre/mcp/vaultre-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/vaultre-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/vaultre/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/llms/vaultre-llms.txt
+  href: https://artifacts.apis.io/vaultre/llms/vaultre-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vaultre-llms.txt
@@ -503,6 +505,14 @@ created: '2026-07-26'
 description: 'VaultRE - now marketed as MRI Vault CRM, after VaultRE''s parent Vault Group / PropTech Group was absorbed into MRI Software - is an Australian cloud real estate CRM and transaction platform used by residential, commercial, rural, land, business and property-management agencies across Australia and New Zealand. It sits in the agency and CRM layer of the value chain rather than the portal or registry layer: it holds the agency''s contacts, appraisals, listings, offers, open homes, feedback, tenancies, maintenance, invoicing and AML records, and feeds listings outward to Australia''s portal duopoly (realestate.com.au and Domain) instead of being a portal, a land registry or a conveyancing rail itself. Unlike most of this sector, VaultRE publishes a genuinely open, versioned, machine-readable contract - a public MkDocs developer site at docs.api.vaultre.com.au carrying downloadable OpenAPI 3.0.1 documents for v1.1, v1.2 and v1.3 of the core API (324 paths and 453 operations in
   v1.3) plus a separate Aggregator API for franchise-group CRM data feeds. The API surface is documented openly but access is not self-serve: anyone can read the docs and download the specs, but API keys are issued only after an integrator-registration request is reviewed and approved (VaultRE states new integrations are generally created within two business days), and each agency must then mint a scoped access token for that integrator from inside its own VaultRE account. RESO plays no part here - Australia has no RESO mandate and no RESO, OData or $metadata reference appears anywhere in VaultRE''s documentation or specifications; the local listing-distribution seam is REAXML and portal-specific feeds instead. Auth is a static X-Api-Key integrator key paired with a per-account Bearer access token, with an OAuth2-style authorisation-code flow available for token minting, scoped tokens readable via GET /scopes, HMAC-SHA512-signed webhooks, and published rate limits of 10 requests per second
   and 10,000 requests per day.'
+finops:
+- has_sources: true
+  method: derived
+  name: Vaultre Finops
+  primary_unit: ''
+  service_category: ''
+  slug: vaultre-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vaultre.png
 layout: provider
 modified: '2026-07-26'
@@ -520,7 +530,7 @@ plans:
 - name: Vaultre Plans Pricing
   plan_count: 0
   slug: vaultre-plans-pricing
-random_paper: 1
+random_paper: 3
 scopes:
 - name: Vaultre Scopes
   scope_count: 0
@@ -528,9 +538,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.9
+  composite: 51.5
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -540,10 +550,10 @@ score:
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 59.6
+    contract_quality: 57.8
     developer_ergonomics: 58.9
     discoverability: 71.4
-    operational_transparency: 42.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -552,7 +562,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 50.9
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -569,13 +579,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/screenshots/vaultre-2026-07-27T125402.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vaultre/vaultre-2026-07-27T125402.png
 security:
 - kind: authentication
   name: Vaultre Authentication
@@ -585,6 +596,18 @@ security:
   name: Vaultre Domain Security
   slug: vaultre-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Capture a website enquiry into VaultRE
+  slug: vaultre-capture-website-enquiry
+- name: Keep a local copy of a VaultRE account in sync
+  slug: vaultre-incremental-sync
+- name: Onboard agencies as a multi-tenant VaultRE integrator
+  slug: vaultre-integrator-onboarding
+- name: Run open homes and vendor feedback on a VaultRE listing
+  slug: vaultre-listing-campaign-feedback
+- name: Publish VaultRE listings on an agency website
+  slug: vaultre-website-listing-feed
 slug: vaultre
 tags:
 - Real Estate

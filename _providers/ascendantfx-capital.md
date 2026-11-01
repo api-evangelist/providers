@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Programmatic and file-based integration surface for the Ascendant (AscendantFX) aPay cross-border payments platform, enabling straight-through processing of domestic and international payments from ER
@@ -73,17 +75,17 @@ common:
   type: Compliance
   url: https://www.ascendant.world/compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ascendantfx-capital/refs/heads/main/conformance/ascendantfx-capital-conformance.yml
+  href: https://artifacts.apis.io/ascendantfx-capital/conformance/ascendantfx-capital-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ascendantfx-capital-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ascendantfx-capital/refs/heads/main/security/ascendantfx-capital-trust-center.yml
+  href: https://artifacts.apis.io/ascendantfx-capital/security/ascendantfx-capital-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ascendantfx-capital-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ascendantfx-capital/refs/heads/main/llms/ascendantfx-capital-llms.txt
+  href: https://artifacts.apis.io/ascendantfx-capital/llms/ascendantfx-capital-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ascendantfx-capital-llms.txt
@@ -99,10 +101,10 @@ overview: 'AscendantFX Capital is listed with 1 API on the [APIs.io](https://api
 
 
   AscendantFX Capital''s developer surface includes signup flow, engineering blog, support, and 8 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: emerging
-  composite: 18.6
+  composite: 17.9
   coverage:
     artifact_dirs: 6
     catalog_earned: 37.0
@@ -116,9 +118,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 18.6
+  previous_composite: 17.9
   provenance:
     conformance: first-party
   regulatory:
@@ -131,14 +133,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ascendantfx-capital/refs/heads/main/screenshots/ascendantfx-capital-2026-07-25T201411.png
+screenshot: https://apis.io/screenshots/ascendantfx-capital/ascendantfx-capital-2026-07-25T201411.png
 security:
 - kind: domain-security
   name: Ascendantfx Capital Domain Security

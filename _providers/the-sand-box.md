@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Sandbox Developers API is the REST surface of The Sandbox Developers HUB. It exposes core ecosystem data behind an OAuth-based identity system - Sandbox user identity, avatars, assets, collections
@@ -44,7 +46,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/security/the-sand-box-domain-security.yml
+  href: https://artifacts.apis.io/the-sand-box/security/the-sand-box-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-sand-box-domain-security.yml
@@ -93,62 +95,62 @@ common:
   type: PrivacyPolicy
   url: https://www.sandbox.game/en/privacypolicy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/llms/the-sand-box-llms.txt
+  href: https://artifacts.apis.io/the-sand-box/llms/the-sand-box-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-sand-box-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/packages/the-sand-box-packages.yml
+  href: https://artifacts.apis.io/the-sand-box/packages/the-sand-box-packages.yml
   title: ''
   type: Packages
   url: packages/the-sand-box-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/packages/the-sand-box-packages.yml
+  href: https://artifacts.apis.io/the-sand-box/packages/the-sand-box-packages.yml
   title: ''
   type: SDKs
   url: packages/the-sand-box-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/authentication/the-sand-box-authentication.yml
+  href: https://artifacts.apis.io/the-sand-box/authentication/the-sand-box-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-sand-box-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/conventions/the-sand-box-conventions.yml
+  href: https://artifacts.apis.io/the-sand-box/conventions/the-sand-box-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-sand-box-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/errors/the-sand-box-problem-types.yml
+  href: https://artifacts.apis.io/the-sand-box/errors/the-sand-box-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/the-sand-box-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/rate-limits/the-sand-box-rate-limits.yml
+  href: https://artifacts.apis.io/the-sand-box/rate-limits/the-sand-box-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/the-sand-box-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/plans/the-sand-box-plans-pricing.yml
+  href: https://artifacts.apis.io/the-sand-box/plans/the-sand-box-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/the-sand-box-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/lifecycle/the-sand-box-lifecycle.yml
+  href: https://artifacts.apis.io/the-sand-box/lifecycle/the-sand-box-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/the-sand-box-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/changelog/the-sand-box-changelog.yml
+  href: https://artifacts.apis.io/the-sand-box/changelog/the-sand-box-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/the-sand-box-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/conformance/the-sand-box-conformance.yml
+  href: https://artifacts.apis.io/the-sand-box/conformance/the-sand-box-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-sand-box-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/data-model/the-sand-box-data-model.yml
+  href: https://artifacts.apis.io/the-sand-box/data-model/the-sand-box-data-model.yml
   title: ''
   type: DataModel
   url: data-model/the-sand-box-data-model.yml
@@ -168,14 +170,14 @@ plans:
 - name: The Sand Box Plans Pricing
   plan_count: 0
   slug: the-sand-box-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: The Sand Box Rate Limits
   slug: the-sand-box-rate-limits
 score:
   band: thin
-  composite: 28.2
+  composite: 27.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -183,15 +185,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 28.1
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 27.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -201,14 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-sand-box/refs/heads/main/screenshots/the-sand-box-2026-09-02T163412.png
+screenshot: https://apis.io/screenshots/the-sand-box/the-sand-box-2026-09-02T163412.png
 security:
 - kind: authentication
   name: The Sand Box Authentication

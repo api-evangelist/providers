@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.precision.dext.com
@@ -43,22 +45,24 @@ apis:
   description: Practice client data-health metrics and activity statistics
   name: Dext Clients API
   slug: dext-clients-api
-artifact_total: 8
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Dext Data Health & Insights Clients API
   slug: open-dext-clients-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/dext/plans/dext-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dext-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/overlays/dext-data-health-overlay.yaml
+  href: https://artifacts.apis.io/dext/overlays/dext-data-health-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dext-data-health-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/security/dext-trust-center.yml
+  href: https://artifacts.apis.io/dext/security/dext-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dext-trust-center.yml
@@ -123,72 +127,80 @@ common:
   type: Compliance
   url: https://dext.com/us/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/llms/dext-llms.txt
+  href: https://artifacts.apis.io/dext/llms/dext-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dext-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/authentication/dext-authentication.yml
+  href: https://artifacts.apis.io/dext/authentication/dext-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dext-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/rate-limits/dext-rate-limits.yml
+  href: https://artifacts.apis.io/dext/rate-limits/dext-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dext-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/conventions/dext-conventions.yml
+  href: https://artifacts.apis.io/dext/conventions/dext-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dext-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/lifecycle/dext-lifecycle.yml
+  href: https://artifacts.apis.io/dext/lifecycle/dext-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dext-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/errors/dext-problem-types.yml
+  href: https://artifacts.apis.io/dext/errors/dext-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dext-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/conformance/dext-conformance.yml
+  href: https://artifacts.apis.io/dext/conformance/dext-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dext-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/data-model/dext-data-model.yml
+  href: https://artifacts.apis.io/dext/data-model/dext-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dext-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/mcp/dext-mcp.yml
+  href: https://artifacts.apis.io/dext/mcp/dext-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dext-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dext/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/openapi/_original/dext-data-health-openapi.yml
+  href: https://artifacts.apis.io/dext/openapi/_original/dext-data-health-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/dext-data-health-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/security/dext-domain-security.yml
+  href: https://artifacts.apis.io/dext/security/dext-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dext-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/security/dext-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dext/security/dext-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dext-vulnerability-disclosure.yml
 created: '2026-07-17'
 description: Dext is bookkeeping automation software for businesses, accountants and bookkeepers (formerly Receipt Bank / Dext Precision / Dext Commerce). It captures receipts, invoices and bank statements, extracts and validates the data with high accuracy, and publishes it into accounting software such as Xero, QuickBooks, Sage, Zoho and MYOB. Dext serves over 700,000 customers worldwide across the UK, US, Canada, Australia, France and South Africa. For accounting practices, Dext exposes a read-only Data Health & Insights REST API that returns client data-health metrics and rolling activity statistics, authenticated with practice-scoped bearer tokens and rate limited to 60 requests per minute.
+finops:
+- has_sources: true
+  method: derived
+  name: Dext Finops
+  primary_unit: add-on
+  service_category: ''
+  slug: dext-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dext.png
 layout: provider
 modified: '2026-07-18'
@@ -198,31 +210,38 @@ network: true
 overview: 'Dext publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Clients API. Tagged areas include Company, Accounting, Bookkeeping, Receipts, and Expense Management.
 
 
-  Dext''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 19
+  Dext''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+plans:
+- name: Dext Plans Pricing
+  plan_count: 9
+  slug: dext-plans-pricing
+- name: Dext Price Estimates
+  plan_count: 0
+  slug: dext-price-estimates
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Dext Rate Limits
   slug: dext-rate-limits
 score:
-  band: developing
-  composite: 51.3
+  band: strong
+  composite: 58.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 24
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 50.2
     developer_ergonomics: 49.4
-    discoverability: 73.2
-    operational_transparency: 50.0
-  previous_composite: 51.2
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 50.9
   provenance:
     conformance: derived
     contracts:
@@ -238,14 +257,14 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/screenshots/dext-2026-07-25T211838.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dext/dext-2026-07-25T211838.png
 security:
 - kind: authentication
   name: Dext Authentication
@@ -263,6 +282,10 @@ security:
   name: Dext Trust Center
   slug: dext-trust-center
   summary_line: ISO 27001, PCI DSS, GDPR
+skill_count: 1
+skills:
+- name: Pull client data-health and activity stats from Dext
+  slug: dext-client-data-health
 slug: dext
 tags:
 - Company

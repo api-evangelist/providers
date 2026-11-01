@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.3
-  scored_at: '2026-10-17'
+  score: 24.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -95,11 +97,8 @@ apis:
   description: Event subscriptions, resources, events, and custom auth functions.
   name: Encompass Webhooks API
   slug: encompass-webhooks-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Encompass Developer Connect Authentication API
   slug: open-encompass-authentication-api
@@ -135,7 +134,7 @@ collections:
   slug: open-encompass
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/capabilities/encompass-capability-edges.yml
+  href: https://artifacts.apis.io/encompass/capabilities/encompass-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/encompass-capability-edges.yml
@@ -144,22 +143,22 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/intercontinental-exchange/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/agentic-access/encompass-agentic-access.yml
+  href: https://artifacts.apis.io/encompass/agentic-access/encompass-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/encompass-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/security/encompass-domain-security.yml
+  href: https://artifacts.apis.io/encompass/security/encompass-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/encompass-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/authentication/encompass-authentication.yml
+  href: https://artifacts.apis.io/encompass/authentication/encompass-authentication.yml
   title: ''
   type: Authentication
   url: authentication/encompass-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/scopes/encompass-scopes.yml
+  href: https://artifacts.apis.io/encompass/scopes/encompass-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/encompass-scopes.yml
@@ -180,17 +179,17 @@ common:
   type: Documentation
   url: https://developer.icemortgagetechnology.com/developer-connect/docs/welcome
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/plans/encompass-plans-pricing.yml
+  href: https://artifacts.apis.io/encompass/plans/encompass-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/encompass-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/rate-limits/encompass-rate-limits.yml
+  href: https://artifacts.apis.io/encompass/rate-limits/encompass-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/encompass-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/finops/encompass-finops.yml
+  href: https://artifacts.apis.io/encompass/finops/encompass-finops.yml
   title: ''
   type: FinOps
   url: finops/encompass-finops.yml
@@ -230,7 +229,7 @@ plans:
 - name: Encompass Plans Pricing
   plan_count: 2
   slug: encompass-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Encompass Rate Limits
@@ -242,7 +241,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 27.9
+  composite: 30.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 42.0
@@ -250,15 +249,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
-    contract_quality: 48.7
-    developer_ergonomics: 32.1
+    contract_quality: 46.2
+    developer_ergonomics: 40.5
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 34.8
+    operational_transparency: 13.2
+  previous_composite: 30.0
   provenance:
     agentic_access: derived
     contracts:
@@ -272,13 +271,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/screenshots/encompass-2026-07-25T213304.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/encompass/encompass-2026-07-25T213304.png
 security:
 - kind: authentication
   name: Encompass Authentication

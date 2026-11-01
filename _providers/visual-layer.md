@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for dataset management, visual and semantic search, enrichment, export, saved views, snapshots, and task management. Cloud calls require a JWT bearer token; on-premises calls require no authe
@@ -51,7 +53,7 @@ common:
   type: BlogRSS
   url: https://www.visual-layer.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/visual-layer/refs/heads/main/security/visual-layer-domain-security.yml
+  href: https://artifacts.apis.io/visual-layer/security/visual-layer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/visual-layer-domain-security.yml
@@ -112,57 +114,57 @@ common:
   type: PrivacyPolicy
   url: https://docs.visual-layer.com/docs/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/visual-layer/refs/heads/main/llms/visual-layer-llms.txt
+  href: https://artifacts.apis.io/visual-layer/llms/visual-layer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/visual-layer-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/visual-layer/refs/heads/main/packages/visual-layer-packages.yml
+  href: https://artifacts.apis.io/visual-layer/packages/visual-layer-packages.yml
   title: ''
   type: Packages
   url: packages/visual-layer-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/visual-layer/refs/heads/main/packages/visual-layer-packages.yml
+  href: https://artifacts.apis.io/visual-layer/packages/visual-layer-packages.yml
   title: ''
   type: SDKs
   url: packages/visual-layer-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/visual-layer/refs/heads/main/authentication/visual-layer-authentication.yml
+  href: https://artifacts.apis.io/visual-layer/authentication/visual-layer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/visual-layer-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/visual-layer/refs/heads/main/errors/visual-layer-problem-types.yml
+  href: https://artifacts.apis.io/visual-layer/errors/visual-layer-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/visual-layer-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/visual-layer/refs/heads/main/conventions/visual-layer-conventions.yml
+  href: https://artifacts.apis.io/visual-layer/conventions/visual-layer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/visual-layer-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/visual-layer/refs/heads/main/conformance/visual-layer-conformance.yml
+  href: https://artifacts.apis.io/visual-layer/conformance/visual-layer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/visual-layer-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/visual-layer/refs/heads/main/lifecycle/visual-layer-lifecycle.yml
+  href: https://artifacts.apis.io/visual-layer/lifecycle/visual-layer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/visual-layer-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/visual-layer/refs/heads/main/data-model/visual-layer-data-model.yml
+  href: https://artifacts.apis.io/visual-layer/data-model/visual-layer-data-model.yml
   title: ''
   type: DataModel
   url: data-model/visual-layer-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/visual-layer/refs/heads/main/components/visual-layer-components.yml
+  href: https://artifacts.apis.io/visual-layer/components/visual-layer-components.yml
   title: ''
   type: Components
   url: components/visual-layer-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/visual-layer/refs/heads/main/mcp/visual-layer-mcp.yml
+  href: https://artifacts.apis.io/visual-layer/mcp/visual-layer-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/visual-layer-mcp.yml
@@ -178,26 +180,26 @@ overview: 'Visual Layer is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Visual Layer''s developer surface includes engineering blog, documentation, API reference, getting-started guide, quickstart, support, signup flow, and 21 more developer resources.'
-random_paper: 14
+random_paper: 22
 score:
   band: thin
-  composite: 27.7
+  composite: 28.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 27.6
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 28.7
   provenance:
     conformance: derived
     mcp: derived
@@ -207,14 +209,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/visual-layer/refs/heads/main/screenshots/visual-layer-2026-09-02T170052.png
+screenshot: https://apis.io/screenshots/visual-layer/visual-layer-2026-09-02T170052.png
 security:
 - kind: authentication
   name: Visual Layer Authentication

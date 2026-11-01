@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: true
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.8
-  scored_at: '2026-10-17'
+  score: 31.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -70,7 +72,37 @@ apis:
   description: The Tags Removal API from Amazon OpenSearch Service API — 1 operation(s) for tags removal.
   name: Amazon OpenSearch Service API Tags Removal API
   slug: amazon-opensearch-tags-removal-api
-artifact_total: 986
+- baseURL: https://es.amazonaws.com
+  baseurl_source: declared
+  description: The Opensearch Capability API from Amazon OpenSearch Service API — 3 operation(s) for opensearch capability.
+  name: Amazon OpenSearch Service API Opensearch Capability API
+  slug: amazon-opensearch-capability-api
+- baseURL: https://es.amazonaws.com
+  baseurl_source: declared
+  description: The Opensearch Config API from Amazon OpenSearch Service API — 2 operation(s) for opensearch config.
+  name: Amazon OpenSearch Service API Opensearch Config API
+  slug: amazon-opensearch-config-api
+- baseURL: https://es.amazonaws.com
+  baseurl_source: declared
+  description: The Opensearch Datasource API from Amazon OpenSearch Service API — 2 operation(s) for opensearch datasource.
+  name: Amazon OpenSearch Service API Opensearch Datasource API
+  slug: amazon-opensearch-datasource-api
+- baseURL: https://es.amazonaws.com
+  baseurl_source: declared
+  description: The Opensearch Index API from Amazon OpenSearch Service API — 2 operation(s) for opensearch index.
+  name: Amazon OpenSearch Service API Opensearch Index API
+  slug: amazon-opensearch-index-api
+- baseURL: https://es.amazonaws.com
+  baseurl_source: declared
+  description: The Opensearch Opensearch API from Amazon OpenSearch Service API — 30 operation(s) for opensearch opensearch.
+  name: Amazon OpenSearch Service API Opensearch Opensearch API
+  slug: amazon-opensearch-opensearch-api
+- baseURL: https://es.amazonaws.com
+  baseurl_source: declared
+  description: The Opensearch Operations API from Amazon OpenSearch Service API — 14 operation(s) for opensearch operations.
+  name: Amazon OpenSearch Service API Opensearch Operations API
+  slug: amazon-opensearch-operations-api
+artifact_total: 991
 collections:
 - collection_type: postman
   name: Amazon Elasticsearch Service Domain API
@@ -87,9 +119,6 @@ collections:
 - collection_type: postman
   name: Amazon Elasticsearch Service Domain Tags Removal API
   slug: postman-amazon-opensearch-tags-removal-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Elasticsearch Service Domain API
   slug: open-amazon-opensearch-domain-api
@@ -110,22 +139,22 @@ collections:
   slug: open-amazon-opensearch
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/plans/amazon-opensearch-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-opensearch/plans/amazon-opensearch-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-opensearch-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/rate-limits/amazon-opensearch-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-opensearch/rate-limits/amazon-opensearch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-opensearch-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/finops/amazon-opensearch-finops.yml
+  href: https://artifacts.apis.io/amazon-opensearch/finops/amazon-opensearch-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-opensearch-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/capabilities/amazon-opensearch-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-opensearch/capabilities/amazon-opensearch-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-opensearch-capability-edges.yml
@@ -134,27 +163,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-opensearch-service-api/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/agentic-access/amazon-opensearch-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-opensearch/agentic-access/amazon-opensearch-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-opensearch-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/security/amazon-opensearch-trust-center.yml
+  href: https://artifacts.apis.io/amazon-opensearch/security/amazon-opensearch-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-opensearch-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/security/amazon-opensearch-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-opensearch/security/amazon-opensearch-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-opensearch-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/security/amazon-opensearch-domain-security.yml
+  href: https://artifacts.apis.io/amazon-opensearch/security/amazon-opensearch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-opensearch-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/authentication/amazon-opensearch-authentication.yml
+  href: https://artifacts.apis.io/amazon-opensearch/authentication/amazon-opensearch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-opensearch-authentication.yml
@@ -207,42 +236,42 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/rules/amazon-opensearch-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-opensearch/rules/amazon-opensearch-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-opensearch-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/vocabulary/amazon-opensearch-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-opensearch/vocabulary/amazon-opensearch-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-opensearch-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/json-ld/amazon-opensearch-openapi-context.jsonld
+  href: https://artifacts.apis.io/amazon-opensearch/json-ld/amazon-opensearch-openapi-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-opensearch-openapi-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/json-schema/openapi-accept-inbound-cross-cluster-search-connection-request-schema.json
+  href: https://artifacts.apis.io/amazon-opensearch/json-schema/openapi-accept-inbound-cross-cluster-search-connection-request-schema.json
   title: Openapi Accept Inbound Cross Cluster Search Connection Request
   type: JSONSchema
   url: json-schema/openapi-accept-inbound-cross-cluster-search-connection-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/json-schema/openapi-accept-inbound-cross-cluster-search-connection-response-schema.json
+  href: https://artifacts.apis.io/amazon-opensearch/json-schema/openapi-accept-inbound-cross-cluster-search-connection-response-schema.json
   title: Openapi Accept Inbound Cross Cluster Search Connection Response
   type: JSONSchema
   url: json-schema/openapi-accept-inbound-cross-cluster-search-connection-response-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/json-schema/openapi-access-denied-exception-schema.json
+  href: https://artifacts.apis.io/amazon-opensearch/json-schema/openapi-access-denied-exception-schema.json
   title: Openapi Access Denied Exception
   type: JSONSchema
   url: json-schema/openapi-access-denied-exception-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/json-schema/openapi-access-policies-status-schema.json
+  href: https://artifacts.apis.io/amazon-opensearch/json-schema/openapi-access-policies-status-schema.json
   title: Openapi Access Policies Status
   type: JSONSchema
   url: json-schema/openapi-access-policies-status-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/json-schema/openapi-add-tags-request-schema.json
+  href: https://artifacts.apis.io/amazon-opensearch/json-schema/openapi-add-tags-request-schema.json
   title: Openapi Add Tags Request
   type: JSONSchema
   url: json-schema/openapi-add-tags-request-schema.json
@@ -1142,13 +1171,13 @@ examples:
   name: Openapi Zone Awareness Config Example
   slug: openapi-zone-awareness-config-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Opensearch Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: nih
+  service_category: ''
   slug: amazon-opensearch-finops
-  template: true
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: AcceptInboundCrossClusterSearchConnectionRequest
@@ -3148,7 +3177,7 @@ modified: '2026-05-19'
 name: Amazon OpenSearch Service API
 nav: Providers
 network: true
-overview: 'Amazon OpenSearch Service API publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Domain API, Es API, Packages API, and 2 more. Tagged areas include Analytics, Elasticsearch, and Search.
+overview: 'Amazon OpenSearch Service API publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Domain API, Es API, Packages API, and 8 more. Tagged areas include Analytics, Elasticsearch, and Search.
 
 
   The Amazon OpenSearch Service API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -3157,9 +3186,9 @@ overview: 'Amazon OpenSearch Service API publishes 5 API contracts indexed on th
   Amazon OpenSearch Service API''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, engineering blog, and 24 more developer resources.'
 plans:
 - name: Amazon Opensearch Plans Pricing
-  plan_count: 3
+  plan_count: 7
   slug: amazon-opensearch-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Amazon Opensearch Rate Limits
@@ -3189,44 +3218,45 @@ rules:
     warn: 15
   slug: amazon-opensearch-spectral-rules
 score:
-  band: developing
-  composite: 51.7
+  band: strong
+  composite: 62.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 58.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.0
+    artifact_dirs: 22
+    catalog_earned: 70.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.9
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 60.8
-    developer_ergonomics: 51.2
+    contract_quality: 59.4
+    developer_ergonomics: 58.3
     discoverability: 64.3
-    operational_transparency: 26.3
-  previous_composite: 53.2
+    operational_transparency: 39.5
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 5
+      marker_coverage: 54.5
+      total: 11
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/screenshots/amazon-opensearch-2026-06-20T171751.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-opensearch/amazon-opensearch-2026-06-20T171751.png
 security:
 - kind: authentication
   name: Amazon Opensearch Authentication

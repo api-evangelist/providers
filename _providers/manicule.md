@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manicule/refs/heads/main/security/manicule-domain-security.yml
+  href: https://artifacts.apis.io/manicule/security/manicule-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/manicule-domain-security.yml
@@ -69,8 +71,8 @@ modified: '2026-07-20'
 name: Manicule
 nav: Providers
 network: true
-overview: Manicule is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Relations, Technical Documentation, AI-Native Content, and DevTools.
-random_paper: 10
+overview: Manicule is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Relations, Technical Documentation, AI-Native Content, and Developer Tools.
+random_paper: 6
 score:
   band: minimal
   composite: 8.8
@@ -96,14 +98,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/manicule/refs/heads/main/screenshots/manicule-2026-07-25T230045.png
+screenshot: https://apis.io/screenshots/manicule/manicule-2026-07-25T230045.png
 security:
 - kind: domain-security
   name: Manicule Domain Security
@@ -115,7 +117,7 @@ tags:
 - Developer Relations
 - Technical Documentation
 - AI-Native Content
-- DevTools
+- Developer Tools
 - Content Studio
 - Y Combinator
 website: https://manicule.dev

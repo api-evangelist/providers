@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-10-17'
+  score: 28.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 76
@@ -56,17 +58,17 @@ apis:
   description: The Accounts API from Emburse — 4 operation(s) for accounts.
   name: Emburse Accounts API
   slug: emburse-accounts-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: The allocation-api-controller-v-1 API from Emburse — 1 operation(s) for allocation-api-controller-v-1.
   name: Emburse Allocation API Controller V 1 API
   slug: emburse-allocation-api-controller-v-1-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: The allocation-api-controller-v-2 API from Emburse — 1 operation(s) for allocation-api-controller-v-2.
   name: Emburse Allocation API Controller V 2 API
   slug: emburse-allocation-api-controller-v-2-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: V3 endpoints include better support and error handling for allocation user defined attributes (UDA).
   name: Emburse Allocation API Controller V 3 API
@@ -96,72 +98,72 @@ apis:
   description: The Departments API from Emburse — 2 operation(s) for departments.
   name: Emburse Departments API
   slug: emburse-departments-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Entity Type Controller
   name: Emburse Entity Type API
   slug: emburse-entity-type-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: V1 Entity Controller
   name: Emburse Entity (V1) API
   slug: emburse-entity-v1-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: V2 Entity Controller
   name: Emburse Entity (V2) API
   slug: emburse-entity-v2-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Approve, return and reassign expense reports.
   name: Emburse Expense Approval Controller V1 API
   slug: emburse-expense-approval-controller-v1-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Approve, return and reassign expense reports using username or email of approver.
   name: Emburse Expense Approval Controller V2 API
   slug: emburse-expense-approval-controller-v2-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Retrieve expense report information and create draft expense reports
   name: Emburse Expense Controller V1 API
   slug: emburse-expense-controller-v1-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Retrieve expense reports by filter(s)
   name: Emburse Expense Controller V3 API
   slug: emburse-expense-controller-v3-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Get and post expense export information.
   name: Emburse Expense Export Controller V1 API
   slug: emburse-expense-export-controller-v1-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Get and post expense or invoice export information.
   name: Emburse Expense Export Controller V2 API
   slug: emburse-expense-export-controller-v2-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Retrieve Expense Report Receipts / Images
   name: Emburse Expense Image API
   slug: emburse-expense-image-api-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Retrieve expense receipt PDF
   name: Emburse Expense Receipts Controller API
   slug: emburse-expense-receipts-controller-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Retrieve expense report line items
   name: Emburse Expense Report Line Item Controller API
   slug: emburse-expense-report-line-item-controller-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Retrieve expense type information
   name: Emburse Expense Types Controller API
   slug: emburse-expense-types-controller-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Operations in Invoice Api
   name: Emburse Invoice API External Controller API
@@ -186,7 +188,7 @@ apis:
   description: The Merchant Categories API from Emburse — 1 operation(s) for merchant categories.
   name: Emburse Merchant Categories API
   slug: emburse-merchant-categories-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Post payments
   name: Emburse Paid Expense Controller API
@@ -206,32 +208,32 @@ apis:
   description: Person Web Services
   name: Emburse Person Controller V4 API
   slug: emburse-person-controller-v4-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Operations in PO APIs
   name: Emburse Po API Controller API
   slug: emburse-po-api-controller-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Operations in PO Receipts APIs
   name: Emburse Po API Receipt Controller API
   slug: emburse-po-api-receipt-controller-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: The pre-approval-api-controller API from Emburse — 9 operation(s) for pre-approval-api-controller.
   name: Emburse Pre Approval API Controller API
   slug: emburse-pre-approval-api-controller-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: The pre-approval-api-controller-v-2 API from Emburse — 3 operation(s) for pre-approval-api-controller-v-2.
   name: Emburse Pre Approval API Controller V 2 API
   slug: emburse-pre-approval-api-controller-v-2-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: The pre-approval-api-export-controller API from Emburse — 4 operation(s) for pre-approval-api-export-controller.
   name: Emburse Pre Approval API Export Controller API
   slug: emburse-pre-approval-api-export-controller-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: The pre-approval-import-controller API from Emburse — 1 operation(s) for pre-approval-import-controller.
   name: Emburse Pre Approval Import Controller API
@@ -241,7 +243,7 @@ apis:
   description: The Requisitions API from Emburse — 2 operation(s) for requisitions.
   name: Emburse Requisitions API
   slug: emburse-requisitions-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Retrieve information concerning returned payments
   name: Emburse Returned Payments Controller API
@@ -271,21 +273,18 @@ apis:
   description: The /v1/contacts API from Emburse — 1 operation(s) for /v1/contacts.
   name: Emburse /v1/contacts API
   slug: emburse-v1-contacts-api
-- baseURL: https://api.emburse.com/v1/
+- baseURL: https://service.chromeriver.com
   baseurl_source: declared
   description: Operations in Vendor API application service
   name: Emburse Vendor API Controller API
   slug: emburse-vendor-api-controller-api
-- baseURL: https://api.certify.com/v1/
+- baseURL: https://api.emburse.com/v1
   baseurl_source: declared
   description: The Oauth API from Emburse — 3 operation(s) for oauth.
   name: Emburse OAUTH API
   slug: emburse-oauth-api
-artifact_total: 114
+artifact_total: 113
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Api Documentation Accounts API
   slug: open-emburse-accounts-api
@@ -426,27 +425,27 @@ collections:
   slug: open-emburse-vendor-api-controller-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/capabilities/emburse-capability-edges.yml
+  href: https://artifacts.apis.io/emburse/capabilities/emburse-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/emburse-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/agentic-access/emburse-agentic-access.yml
+  href: https://artifacts.apis.io/emburse/agentic-access/emburse-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/emburse-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/security/emburse-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/emburse/security/emburse-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/emburse-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/security/emburse-domain-security.yml
+  href: https://artifacts.apis.io/emburse/security/emburse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/emburse-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/authentication/emburse-authentication.yml
+  href: https://artifacts.apis.io/emburse/authentication/emburse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/emburse-authentication.yml
@@ -562,7 +561,7 @@ plans:
 - name: Emburse Plans Pricing
   plan_count: 7
   slug: emburse-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Emburse Rate Limits
@@ -581,23 +580,23 @@ rules:
   slug: emburse-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.8
+  composite: 33.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 64.8
     catalog_earned_first_party: 0.0
     catalog_gap: 50.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
-    contract_quality: 57.5
+    contract_quality: 54.8
     developer_ergonomics: 23.8
     discoverability: 71.4
-    operational_transparency: 10.5
-  previous_composite: 43.1
+    operational_transparency: 23.7
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -611,13 +610,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/screenshots/emburse-2026-06-20T180630.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/emburse/emburse-2026-06-20T180630.png
 security:
 - kind: authentication
   name: Emburse Authentication

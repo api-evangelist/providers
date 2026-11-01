@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 29.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -113,11 +115,8 @@ apis:
   description: The Voyage Information API from MarineTraffic — 5 operation(s) for voyage information.
   name: MarineTraffic Voyage Information API
   slug: marine-traffic-voyage-information-api
-artifact_total: 91
+artifact_total: 90
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MarineTraffic Events AIS API API
   slug: open-marine-traffic-ais-api-api
@@ -193,7 +192,7 @@ common:
   type: Website
   url: https://www.marinetraffic.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/authentication/marine-traffic-authentication.yml
+  href: https://artifacts.apis.io/marine-traffic/authentication/marine-traffic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/marine-traffic-authentication.yml
@@ -210,17 +209,17 @@ common:
   type: JSONLDContext
   url: https://raw.githubusercontent.com/api-evangelist/marinetraffic/refs/heads/main/json-ld/marinetraffic-context.jsonld
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/capabilities/marine-traffic-capability-edges.yml
+  href: https://artifacts.apis.io/marine-traffic/capabilities/marine-traffic-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/marine-traffic-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/agentic-access/marine-traffic-agentic-access.yml
+  href: https://artifacts.apis.io/marine-traffic/agentic-access/marine-traffic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/marine-traffic-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/security/marine-traffic-domain-security.yml
+  href: https://artifacts.apis.io/marine-traffic/security/marine-traffic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/marine-traffic-domain-security.yml
@@ -277,37 +276,37 @@ common:
   type: Twitter
   url: https://twitter.com/MarineTraffic
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/openapi/_original/marine-traffic-openapi.yml
+  href: https://artifacts.apis.io/marine-traffic/openapi/_original/marine-traffic-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/marine-traffic-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/rules/marine-traffic-rules.yml
+  href: https://artifacts.apis.io/marine-traffic/rules/marine-traffic-rules.yml
   title: ''
   type: SpectralRules
   url: rules/marine-traffic-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/vocabulary/marine-traffic-vocabulary.yml
+  href: https://artifacts.apis.io/marine-traffic/vocabulary/marine-traffic-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/marine-traffic-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/json-ld/marine-traffic-context.jsonld
+  href: https://artifacts.apis.io/marine-traffic/json-ld/marine-traffic-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/marine-traffic-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/plans/marine-traffic-plans-pricing.yml
+  href: https://artifacts.apis.io/marine-traffic/plans/marine-traffic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/marine-traffic-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/rate-limits/marine-traffic-rate-limits.yml
+  href: https://artifacts.apis.io/marine-traffic/rate-limits/marine-traffic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/marine-traffic-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/finops/marine-traffic-finops.yml
+  href: https://artifacts.apis.io/marine-traffic/finops/marine-traffic-finops.yml
   title: ''
   type: FinOps
   url: finops/marine-traffic-finops.yml
@@ -421,7 +420,7 @@ plans:
 - name: Marine Traffic Plans Pricing
   plan_count: 2
   slug: marine-traffic-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Marine Traffic Rate Limits
@@ -452,7 +451,7 @@ rules:
   slug: marine-traffic-rules
 score:
   band: developing
-  composite: 40.5
+  composite: 41.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 63.0
@@ -460,7 +459,7 @@ score:
     catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 27.3
@@ -468,7 +467,7 @@ score:
     developer_ergonomics: 50.0
     discoverability: 62.5
     operational_transparency: 5.3
-  previous_composite: 43.2
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -482,13 +481,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/screenshots/marine-traffic-2026-06-20T184946.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/marine-traffic/marine-traffic-2026-06-20T184946.png
 security:
 - kind: authentication
   name: Marine Traffic Authentication

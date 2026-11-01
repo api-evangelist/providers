@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The footway.com storefront''s agent-facing commerce surface. Built on Shopify, it implements the Universal Commerce Protocol (UCP) for agent-driven commerce: a UCP merchant profile at /.well-known/ucp '
   name: Footway Agent Commerce (UCP)
   slug: footway-agent-commerce-ucp
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -58,47 +60,47 @@ common:
   type: Documentation
   url: https://footway.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/footway/refs/heads/main/mcp/footway-mcp.yml
+  href: https://artifacts.apis.io/footway/mcp/footway-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/footway-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/footway/refs/heads/main/llms/footway-llms.txt
+  href: https://artifacts.apis.io/footway/llms/footway-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/footway-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/footway/refs/heads/main/well-known/footway-well-known.yml
+  href: https://artifacts.apis.io/footway/well-known/footway-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/footway-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/footway/refs/heads/main/authentication/footway-authentication.yml
+  href: https://artifacts.apis.io/footway/authentication/footway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/footway-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/footway/refs/heads/main/scopes/footway-scopes.yml
+  href: https://artifacts.apis.io/footway/scopes/footway-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/footway-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/footway/refs/heads/main/conventions/footway-conventions.yml
+  href: https://artifacts.apis.io/footway/conventions/footway-conventions.yml
   title: ''
   type: Conventions
   url: conventions/footway-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/footway/refs/heads/main/conformance/footway-conformance.yml
+  href: https://artifacts.apis.io/footway/conformance/footway-conformance.yml
   title: ''
   type: Conformance
   url: conformance/footway-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/footway/refs/heads/main/security/footway-domain-security.yml
+  href: https://artifacts.apis.io/footway/security/footway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/footway-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/footway/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/footway/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -138,7 +140,7 @@ overview: 'Footway is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Footway''s developer surface includes engineering blog, documentation, authentication, support, signup flow, and 13 more developer resources.'
-random_paper: 7
+random_paper: 9
 scopes:
 - name: Footway Scopes
   scope_count: 4
@@ -146,7 +148,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 26.9
+  composite: 26.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -154,13 +156,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 37.5
-    discoverability: 75.0
+    developer_ergonomics: 39.9
+    discoverability: 65.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -168,7 +170,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 26.8
+  previous_composite: 26.4
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -179,14 +181,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/footway/refs/heads/main/screenshots/footway-2026-07-25T214920.png
+screenshot: https://apis.io/screenshots/footway/footway-2026-07-25T214920.png
 security:
 - kind: authentication
   name: Footway Authentication
@@ -196,6 +198,10 @@ security:
   name: Footway Domain Security
   slug: footway-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Buy a product on Footway as an agent (UCP)
+  slug: footway-agent-purchase
 slug: footway
 tags:
 - Company

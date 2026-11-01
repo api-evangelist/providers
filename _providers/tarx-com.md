@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,10 +44,10 @@ apis:
 - description: 'Plain REST endpoints on tarx.com documented only for visiting AI agents in we.txt, skill.md and courier.md: GET /api/courier/ping and /api/courier/tick (signed heartbeat naming the agent card and cair'
   name: TARX Courier and Souls API
   slug: tarx-courier-and-souls-api
-artifact_total: 13
+artifact_total: 15
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/security/tarx-com-domain-security.yml
+  href: https://artifacts.apis.io/tarx-com/security/tarx-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tarx-com-domain-security.yml
@@ -106,7 +108,7 @@ common:
   type: ChangeLog
   url: https://docs.tarx.com/reference/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/changelog/tarx-com-changelog.yml
+  href: https://artifacts.apis.io/tarx-com/changelog/tarx-com-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tarx-com-changelog.yml
@@ -119,112 +121,112 @@ common:
   type: About
   url: https://tarx.com/about
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/a2a/tarx-com-a2a.yml
+  href: https://artifacts.apis.io/tarx-com/a2a/tarx-com-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/tarx-com-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/mcp/tarx-com-mcp.yml
+  href: https://artifacts.apis.io/tarx-com/mcp/tarx-com-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tarx-com-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/llms/tarx-com-llms.txt
+  href: https://artifacts.apis.io/tarx-com/llms/tarx-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tarx-com-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/llms/tarx-com-docs-llms.txt
+  href: https://artifacts.apis.io/tarx-com/llms/tarx-com-docs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tarx-com-docs-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/llms/tarx-com-howdy-llms.txt
+  href: https://artifacts.apis.io/tarx-com/llms/tarx-com-howdy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tarx-com-howdy-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/well-known/tarx-com-well-known.yml
+  href: https://artifacts.apis.io/tarx-com/well-known/tarx-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tarx-com-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tarx-com/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/agentic-access/tarx-com-agentic-access.yml
+  href: https://artifacts.apis.io/tarx-com/agentic-access/tarx-com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tarx-com-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/packages/tarx-com-packages.yml
+  href: https://artifacts.apis.io/tarx-com/packages/tarx-com-packages.yml
   title: ''
   type: Packages
   url: packages/tarx-com-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/cli/tarx-com-cli.yml
+  href: https://artifacts.apis.io/tarx-com/cli/tarx-com-cli.yml
   title: ''
   type: CLI
   url: cli/tarx-com-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/authentication/tarx-com-authentication.yml
+  href: https://artifacts.apis.io/tarx-com/authentication/tarx-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tarx-com-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/scopes/tarx-com-scopes.yml
+  href: https://artifacts.apis.io/tarx-com/scopes/tarx-com-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tarx-com-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/conformance/tarx-com-conformance.yml
+  href: https://artifacts.apis.io/tarx-com/conformance/tarx-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tarx-com-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/errors/tarx-com-problem-types.yml
+  href: https://artifacts.apis.io/tarx-com/errors/tarx-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tarx-com-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/lifecycle/tarx-com-lifecycle.yml
+  href: https://artifacts.apis.io/tarx-com/lifecycle/tarx-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tarx-com-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/conventions/tarx-com-conventions.yml
+  href: https://artifacts.apis.io/tarx-com/conventions/tarx-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tarx-com-conventions.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/plans/tarx-com-plans-pricing.yml
+  href: https://artifacts.apis.io/tarx-com/plans/tarx-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tarx-com-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/rate-limits/tarx-com-rate-limits.yml
+  href: https://artifacts.apis.io/tarx-com/rate-limits/tarx-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tarx-com-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/sandbox/tarx-com-sandbox.yml
+  href: https://artifacts.apis.io/tarx-com/sandbox/tarx-com-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tarx-com-sandbox.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/json-schema/tarx-com-partner-sandbox-fixture-schema.json
+  href: https://artifacts.apis.io/tarx-com/json-schema/tarx-com-partner-sandbox-fixture-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tarx-com-partner-sandbox-fixture-schema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/examples/tarx-com-partner-sandbox-fixture.json
+  href: https://artifacts.apis.io/tarx-com/examples/tarx-com-partner-sandbox-fixture.json
   title: ''
   type: Examples
   url: examples/tarx-com-partner-sandbox-fixture.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/regulatory/tarx-com-regulatory-posture.yml
+  href: https://artifacts.apis.io/tarx-com/regulatory/tarx-com-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/tarx-com-regulatory-posture.yml
@@ -233,12 +235,12 @@ common:
   type: DataSubjectRequest
   url: https://tarx.com/terms
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/security/tarx-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tarx-com/security/tarx-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tarx-com-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/security/tarx-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tarx-com/security/tarx-com-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/tarx-com-vulnerability-disclosure.yml
@@ -248,6 +250,14 @@ examples:
 - key_count: 11
   name: Tarx Com Partner Sandbox Fixture
   slug: tarx-com-partner-sandbox-fixture
+finops:
+- has_sources: true
+  method: derived
+  name: Tarx Com Finops
+  primary_unit: ''
+  service_category: ''
+  slug: tarx-com-finops
+  template: true
 image: https://tarx.com/tarx-logo.png
 json_schemas:
 - name: TARX Partner Sandbox Fixture
@@ -270,6 +280,9 @@ plans:
 - name: Tarx Com Plans Pricing
   plan_count: 6
   slug: tarx-com-plans-pricing
+- name: Tarx Com Price Estimates
+  plan_count: 0
+  slug: tarx-com-price-estimates
 random_paper: 19
 rate_limits:
 - limit_count: 0
@@ -282,23 +295,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 50.4
+  composite: 49.8
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 6.5
     developer_ergonomics: 78.6
-    discoverability: 80.0
-    operational_transparency: 28.9
-  previous_composite: 50.3
+    discoverability: 70.0
+    operational_transparency: 31.6
+  previous_composite: 49.8
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -310,14 +323,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tarx-com/refs/heads/main/screenshots/tarx-com-2026-10-11T130648.png
+screenshot: https://apis.io/screenshots/tarx-com/tarx-com-2026-10-11T130648.png
 security:
 - kind: authentication
   name: Tarx Com Authentication

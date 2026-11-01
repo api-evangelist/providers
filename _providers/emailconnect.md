@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-17'
+  score: 30.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -68,89 +70,94 @@ apis:
   description: Atomic operations for creating webhooks and aliases together. Ideal for n8n integrations and simplified setup workflows.
   name: EmailConnect by XADI Webhook Alias API
   slug: emailconnect-webhook-alias-api
-artifact_total: 21
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Emailconnect Webhooks
   slug: emailconnect-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/emailconnect/capabilities/emailconnect-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/emailconnect-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/agentic-access/emailconnect-agentic-access.yml
+  href: https://artifacts.apis.io/emailconnect/agentic-access/emailconnect-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/emailconnect-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/plans/emailconnect-plans-pricing.yml
+  href: https://artifacts.apis.io/emailconnect/plans/emailconnect-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/emailconnect-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/rules/emailconnect-rules.yml
+  href: https://artifacts.apis.io/emailconnect/rules/emailconnect-rules.yml
   title: ''
   type: Spectral
   url: rules/emailconnect-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/json-ld/emailconnect-context.jsonld
+  href: https://artifacts.apis.io/emailconnect/json-ld/emailconnect-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/emailconnect-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/vocabulary/emailconnect-vocabulary.yml
+  href: https://artifacts.apis.io/emailconnect/vocabulary/emailconnect-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/emailconnect-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/asyncapi/emailconnect-webhooks.yml
+  href: https://artifacts.apis.io/emailconnect/asyncapi/emailconnect-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/emailconnect-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/data-model/emailconnect-data-model.yml
+  href: https://artifacts.apis.io/emailconnect/data-model/emailconnect-data-model.yml
   title: ''
   type: DataModel
   url: data-model/emailconnect-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/changelog/emailconnect-changelog.yml
+  href: https://artifacts.apis.io/emailconnect/changelog/emailconnect-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/emailconnect-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/authentication/emailconnect-authentication.yml
+  href: https://artifacts.apis.io/emailconnect/authentication/emailconnect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/emailconnect-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/errors/emailconnect-problem-types.yml
+  href: https://artifacts.apis.io/emailconnect/errors/emailconnect-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/emailconnect-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/conformance/emailconnect-conformance.yml
+  href: https://artifacts.apis.io/emailconnect/conformance/emailconnect-conformance.yml
   title: ''
   type: Conformance
   url: conformance/emailconnect-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/llms/emailconnect-llms.txt
+  href: https://artifacts.apis.io/emailconnect/llms/emailconnect-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/emailconnect-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/well-known/emailconnect-security.txt
+  href: https://artifacts.apis.io/emailconnect/well-known/emailconnect-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/emailconnect-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/well-known/emailconnect-app-security.txt
+  href: https://artifacts.apis.io/emailconnect/well-known/emailconnect-app-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/emailconnect-app-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/well-known/emailconnect-well-known.yml
+  href: https://artifacts.apis.io/emailconnect/well-known/emailconnect-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/emailconnect-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/hosts/emailconnect-hosts.yml
+  href: https://artifacts.apis.io/emailconnect/hosts/emailconnect-hosts.yml
   title: ''
   type: Hosts
   url: hosts/emailconnect-hosts.yml
@@ -167,12 +174,12 @@ common:
   type: ChangeLog
   url: https://emailconnect.eu/changelog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/security/emailconnect-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/emailconnect/security/emailconnect-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/emailconnect-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emailconnect/refs/heads/main/security/emailconnect-domain-security.yml
+  href: https://artifacts.apis.io/emailconnect/security/emailconnect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/emailconnect-domain-security.yml
@@ -214,6 +221,14 @@ common:
   url: https://emailconnect.eu/privacy-promise/
 created: '2026-10-16'
 description: EmailConnect by XADI provides EU‑hosted inbound email processing that forwards messages to webhooks. It offers use‑case specific solutions such as enterprise calendar integration, centralized issue tracking, financial document automation, HOA support, and insurance claims intake. The platform emphasizes data residency, AI‑assisted ticket handling, and compliance with EU digital‑sovereignty regulations. Users can try the service for free, explore pricing, and access extensive guides, comparisons, and security documentation.
+finops:
+- has_sources: true
+  method: derived
+  name: Emailconnect Finops
+  primary_unit: seat
+  service_category: ''
+  slug: emailconnect-finops
+  template: false
 image: https://emailconnect.eu/og-image.png
 json_schemas:
 - name: Alias
@@ -250,12 +265,15 @@ overview: 'EmailConnect by XADI publishes 7 API contracts indexed on the [APIs.i
   The EmailConnect by XADI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  EmailConnect by XADI''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
+  EmailConnect by XADI''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
 plans:
 - name: Emailconnect Plans Pricing
   plan_count: 4
   slug: emailconnect-plans-pricing
-random_paper: 12
+- name: Emailconnect Price Estimates
+  plan_count: 0
+  slug: emailconnect-price-estimates
+random_paper: 18
 rules:
 - authorship: generated
   effective_rule_count: 57
@@ -271,21 +289,28 @@ rules:
   slug: emailconnect-rules
 score:
   band: strong
-  composite: 60.7
+  composite: 61.4
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 74.8
+    artifact_dirs: 22
+    catalog_earned: 77.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.3
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
-    access_clarity: 65.8
+    access_clarity: 73.7
     contract_governance: 35.6
-    contract_quality: 75.6
+    contract_quality: 72.2
     developer_ergonomics: 47.6
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -305,11 +330,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Emailconnect Authentication

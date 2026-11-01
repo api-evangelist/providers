@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qwak/refs/heads/main/plans/qwak-plans-pricing.yml
+  href: https://artifacts.apis.io/qwak/plans/qwak-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qwak-plans-pricing.yml
@@ -48,7 +50,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/jfrog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qwak/refs/heads/main/security/qwak-domain-security.yml
+  href: https://artifacts.apis.io/qwak/security/qwak-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qwak-domain-security.yml
@@ -89,22 +91,22 @@ common:
   type: PrivacyPolicy
   url: https://www.qwak.com/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qwak/refs/heads/main/packages/qwak-packages.yml
+  href: https://artifacts.apis.io/qwak/packages/qwak-packages.yml
   title: ''
   type: Packages
   url: packages/qwak-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qwak/refs/heads/main/packages/qwak-packages.yml
+  href: https://artifacts.apis.io/qwak/packages/qwak-packages.yml
   title: ''
   type: SDKs
   url: packages/qwak-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qwak/refs/heads/main/cli/qwak-cli.yml
+  href: https://artifacts.apis.io/qwak/cli/qwak-cli.yml
   title: ''
   type: CLI
   url: cli/qwak-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qwak/refs/heads/main/authentication/qwak-authentication.yml
+  href: https://artifacts.apis.io/qwak/authentication/qwak-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qwak-authentication.yml
@@ -124,40 +126,40 @@ plans:
 - name: Qwak Plans Pricing
   plan_count: 7
   slug: qwak-plans-pricing
-random_paper: 18
+random_paper: 4
 score:
-  band: emerging
-  composite: 21.3
+  band: thin
+  composite: 28.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
-    access_clarity: 52.6
+    access_clarity: 65.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 28.6
+    developer_ergonomics: 47.6
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 14.9
+    operational_transparency: 5.3
+  previous_composite: 28.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/qwak/refs/heads/main/screenshots/qwak-2026-09-02T152731.png
+screenshot: https://apis.io/screenshots/qwak/qwak-2026-09-02T152731.png
 security:
 - kind: authentication
   name: Qwak Authentication

@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Logical surface for Podia products - online courses, digital downloads, coaching, and webinars. Podia does not expose a public REST API for products; enrollment can only be automated through the Zapie
@@ -58,7 +60,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/podia/refs/heads/main/security/podia-domain-security.yml
+  href: https://artifacts.apis.io/podia/security/podia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/podia-domain-security.yml
@@ -75,27 +77,27 @@ common:
   type: Documentation
   url: https://help.podia.com/en/articles/11371075-does-podia-have-a-public-api-or-webhooks
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/podia/refs/heads/main/plans/podia-plans-pricing.yml
+  href: https://artifacts.apis.io/podia/plans/podia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/podia-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/podia/refs/heads/main/rate-limits/podia-rate-limits.yml
+  href: https://artifacts.apis.io/podia/rate-limits/podia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/podia-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/podia/refs/heads/main/llms/podia-llms.txt
+  href: https://artifacts.apis.io/podia/llms/podia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/podia-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/podia/refs/heads/main/changelog/podia-changelog.yml
+  href: https://artifacts.apis.io/podia/changelog/podia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/podia-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/podia/refs/heads/main/lifecycle/podia-lifecycle.yml
+  href: https://artifacts.apis.io/podia/lifecycle/podia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/podia-lifecycle.yml
@@ -104,17 +106,17 @@ common:
   type: StatusPage
   url: https://podia.statuspage.io
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/podia/refs/heads/main/components/podia-components.yml
+  href: https://artifacts.apis.io/podia/components/podia-components.yml
   title: ''
   type: Components
   url: components/podia-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/podia/refs/heads/main/data-model/podia-data-model.yml
+  href: https://artifacts.apis.io/podia/data-model/podia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/podia-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/podia/refs/heads/main/conformance/podia-conformance.yml
+  href: https://artifacts.apis.io/podia/conformance/podia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/podia-conformance.yml
@@ -191,14 +193,14 @@ plans:
 - name: Podia Plans Pricing
   plan_count: 3
   slug: podia-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Podia Rate Limits
   slug: podia-rate-limits
 score:
   band: thin
-  composite: 35.0
+  composite: 36.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 47.0
@@ -212,9 +214,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 69.6
-    operational_transparency: 34.2
-  previous_composite: 35.0
+    discoverability: 62.5
+    operational_transparency: 47.4
+  previous_composite: 36.0
   provenance:
     conformance: first-party
   regulatory:
@@ -227,14 +229,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/podia/refs/heads/main/screenshots/podia-2026-10-11T192815.png
+screenshot: https://apis.io/screenshots/podia/podia-2026-10-11T192815.png
 security:
 - kind: domain-security
   name: Podia Domain Security

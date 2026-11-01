@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -73,11 +75,8 @@ apis:
   description: The Service Requests API from TECO Energy — 1 operation(s) for service requests.
   name: TECO Energy Service Requests API
   slug: teco-energy-service-requests-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tampa Electric Account API
   slug: open-teco-energy-account
@@ -101,37 +100,37 @@ collections:
   slug: open-teco-energy-service-requests-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/plans/teco-energy-plans-pricing.yml
+  href: https://artifacts.apis.io/teco-energy/plans/teco-energy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/teco-energy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/rate-limits/teco-energy-rate-limits.yml
+  href: https://artifacts.apis.io/teco-energy/rate-limits/teco-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/teco-energy-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/finops/teco-energy-finops.yml
+  href: https://artifacts.apis.io/teco-energy/finops/teco-energy-finops.yml
   title: ''
   type: FinOps
   url: finops/teco-energy-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/capabilities/teco-energy-capability-edges.yml
+  href: https://artifacts.apis.io/teco-energy/capabilities/teco-energy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/teco-energy-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/agentic-access/teco-energy-agentic-access.yml
+  href: https://artifacts.apis.io/teco-energy/agentic-access/teco-energy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/teco-energy-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/security/teco-energy-domain-security.yml
+  href: https://artifacts.apis.io/teco-energy/security/teco-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teco-energy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/authentication/teco-energy-authentication.yml
+  href: https://artifacts.apis.io/teco-energy/authentication/teco-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/teco-energy-authentication.yml
@@ -225,7 +224,7 @@ press:
 - date: ''
   title: Tampa Electric is warning customers about a growing ...
   url: https://www.facebook.com/FOX13TampaBay/posts/tampa-electric-is-warning-customers-about-a-growing-wave-of-utility-scams-using-/1458260039680854/
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Teco Energy Rate Limits
@@ -256,7 +255,7 @@ rules:
   slug: teco-energy-rules
 score:
   band: thin
-  composite: 31.2
+  composite: 33.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 62.5
@@ -264,15 +263,15 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 13.6
     contract_quality: 61.8
-    developer_ergonomics: 21.4
+    developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 32.7
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -286,13 +285,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 13.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/screenshots/teco-energy-2026-06-20T195017.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/teco-energy/teco-energy-2026-06-20T195017.png
 security:
 - kind: authentication
   name: Teco Energy Authentication

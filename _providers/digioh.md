@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,20 +39,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Client-side browser API exposed by the Digioh widget runtime once the Digioh JavaScript tag is installed on a site. Documented calls include DIGIOH_API.LIGHTBOX.loadLightbox(guid) to manually trigger '
   name: Digioh JavaScript API
   slug: digioh-javascript-api
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Digioh Webhooks
   slug: digioh-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/security/digioh-domain-security.yml
+  href: https://artifacts.apis.io/digioh/security/digioh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/digioh-domain-security.yml
@@ -119,72 +121,80 @@ common:
   type: ChangeLog
   url: https://www.digioh.com/blog-categories/product-updates
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/changelog/digioh-changelog.yml
+  href: https://artifacts.apis.io/digioh/changelog/digioh-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/digioh-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/packages/digioh-packages.yml
+  href: https://artifacts.apis.io/digioh/packages/digioh-packages.yml
   title: ''
   type: Packages
   url: packages/digioh-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/packages/digioh-packages.yml
+  href: https://artifacts.apis.io/digioh/packages/digioh-packages.yml
   title: ''
   type: SDKs
   url: packages/digioh-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/llms/digioh-llms.txt
+  href: https://artifacts.apis.io/digioh/llms/digioh-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/digioh-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/plans/digioh-plans-pricing.yml
+  href: https://artifacts.apis.io/digioh/plans/digioh-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/digioh-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/rate-limits/digioh-rate-limits.yml
+  href: https://artifacts.apis.io/digioh/rate-limits/digioh-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/digioh-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/lifecycle/digioh-lifecycle.yml
+  href: https://artifacts.apis.io/digioh/lifecycle/digioh-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/digioh-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/conformance/digioh-conformance.yml
+  href: https://artifacts.apis.io/digioh/conformance/digioh-conformance.yml
   title: ''
   type: Conformance
   url: conformance/digioh-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/conventions/digioh-conventions.yml
+  href: https://artifacts.apis.io/digioh/conventions/digioh-conventions.yml
   title: ''
   type: Conventions
   url: conventions/digioh-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/authentication/digioh-authentication.yml
+  href: https://artifacts.apis.io/digioh/authentication/digioh-authentication.yml
   title: ''
   type: Authentication
   url: authentication/digioh-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/asyncapi/digioh-webhooks.yml
+  href: https://artifacts.apis.io/digioh/asyncapi/digioh-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/digioh-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/components/digioh-components.yml
+  href: https://artifacts.apis.io/digioh/components/digioh-components.yml
   title: ''
   type: Components
   url: components/digioh-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/sandbox/digioh-sandbox.yml
+  href: https://artifacts.apis.io/digioh/sandbox/digioh-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/digioh-sandbox.yml
 created: '2026-08-12'
 description: Digioh is a US-based onsite personalization and zero-party data platform for ecommerce brands. It ships product recommendation quizzes, pop-ups, banners, sidebars, inline embeds, landing pages, email/SMS preference centers and post-purchase surveys as a JavaScript widget layer installed on a merchant's storefront, plus Digioh Passport for cross-session visitor identification and Digioh Pipelines for routing form submissions into ESP/CRM destinations such as Klaviyo, Iterable, Braze, Attentive, Ometria, HubSpot and Salesforce. Its developer surface is client-side rather than server-side - a documented browser JavaScript API (DIGIOH_API.LIGHTBOX), an outbound "API Form POST" webhook integration that posts submission JSON to a customer-controlled endpoint, iOS and Android embed SDKs, and a WordPress plugin and Shopify app. Digioh publishes no public inbound REST API, no OpenAPI definition and no developer portal.
+finops:
+- has_sources: true
+  method: derived
+  name: Digioh Finops
+  primary_unit: up to 50k monthly site visits
+  service_category: ''
+  slug: digioh-finops
+  template: false
 image: https://cdn.prod.website-files.com/5ff6171603c269c582a4e0ff/670bc8241e4c1b1fd62820d7_Webclip.png
 layout: provider
 modified: '2026-08-12'
@@ -200,32 +210,35 @@ overview: 'Digioh is listed with 1 API on the [APIs.io](https://apis.io/) networ
   Digioh''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 plans:
 - name: Digioh Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: digioh-plans-pricing
-random_paper: 12
+- name: Digioh Price Estimates
+  plan_count: 0
+  slug: digioh-price-estimates
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Digioh Rate Limits
   slug: digioh-rate-limits
 score:
   band: strong
-  composite: 56.1
+  composite: 55.2
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 19
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.5
   facets:
-    access_clarity: 84.2
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 61.9
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 56.0
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 55.7
   provenance:
     conformance: first-party
   regulatory:
@@ -240,14 +253,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/screenshots/digioh-2026-08-17T080859.png
+screenshot: https://apis.io/screenshots/digioh/digioh-2026-08-17T080859.png
 security:
 - kind: authentication
   name: Digioh Authentication

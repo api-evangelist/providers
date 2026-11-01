@@ -25,22 +25,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.4
-  scored_at: '2026-10-17'
+  score: 12.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Spate API surface is reached at api.spate.nyc. Its only publicly discoverable contract is a remote Model Context Protocol server at https://api.spate.nyc/mcp, which answers anonymous initialize an
   name: Spate API
   slug: spate-api
-artifact_total: 9
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -95,92 +97,92 @@ common:
   type: SLA
   url: https://help.spate.nyc/en/article/sla-service-level-agreement
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/mcp/spate-mcp.yml
+  href: https://artifacts.apis.io/spate/mcp/spate-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/spate-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/authentication/spate-authentication.yml
+  href: https://artifacts.apis.io/spate/authentication/spate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spate-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/scopes/spate-scopes.yml
+  href: https://artifacts.apis.io/spate/scopes/spate-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/spate-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/well-known/spate-well-known.yml
+  href: https://artifacts.apis.io/spate/well-known/spate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spate-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/llms/spate-llms.txt
+  href: https://artifacts.apis.io/spate/llms/spate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spate-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/conformance/spate-conformance.yml
+  href: https://artifacts.apis.io/spate/conformance/spate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spate-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/security/spate-trust-center.yml
+  href: https://artifacts.apis.io/spate/security/spate-trust-center.yml
   title: ''
   type: Compliance
   url: security/spate-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/security/spate-trust-center.yml
+  href: https://artifacts.apis.io/spate/security/spate-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/spate-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/security/spate-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/spate/security/spate-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/spate-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/security/spate-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/spate/security/spate-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/spate-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/security/spate-domain-security.yml
+  href: https://artifacts.apis.io/spate/security/spate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spate-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/errors/spate-problem-types.yml
+  href: https://artifacts.apis.io/spate/errors/spate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spate-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/conventions/spate-conventions.yml
+  href: https://artifacts.apis.io/spate/conventions/spate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spate-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/data-model/spate-data-model.yml
+  href: https://artifacts.apis.io/spate/data-model/spate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spate-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/lifecycle/spate-lifecycle.yml
+  href: https://artifacts.apis.io/spate/lifecycle/spate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spate-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/plans/spate-plans-pricing.yml
+  href: https://artifacts.apis.io/spate/plans/spate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spate-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/rate-limits/spate-rate-limits.yml
+  href: https://artifacts.apis.io/spate/rate-limits/spate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spate-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/spate/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -216,7 +218,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: thin
-  composite: 35.1
+  composite: 35.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -224,15 +226,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 75.0
-    operational_transparency: 21.1
-  previous_composite: 35.0
+    discoverability: 65.0
+    operational_transparency: 31.6
+  previous_composite: 35.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -243,14 +245,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/spate/refs/heads/main/screenshots/spate-2026-09-02T160345.png
+screenshot: https://apis.io/screenshots/spate/spate-2026-09-02T160345.png
 security:
 - kind: authentication
   name: Spate Authentication
@@ -268,6 +270,12 @@ security:
   name: Spate Trust Center
   slug: spate-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 2
+skills:
+- name: spate-category-trend-discovery
+  slug: spate-category-trend-discovery
+- name: spate-trend-trajectory-and-adjacency
+  slug: spate-trend-trajectory-and-adjacency
 slug: spate
 tags:
 - Company

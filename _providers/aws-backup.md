@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,19 +22,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-17'
+  score: 33.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -97,11 +99,68 @@ apis:
   description: The Tags API from AWS Backup — 1 operation(s) for tags.
   name: AWS Backup Tags API
   slug: aws-backup-tags-api
-artifact_total: 28
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Access Policy API from AWS Backup — 1 operation(s) for backup access policy.
+  name: AWS Backup Backup Access Policy API
+  slug: aws-backup-access-policy-api
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Audit API from AWS Backup — 9 operation(s) for backup audit.
+  name: AWS Backup Backup Audit API
+  slug: aws-backup-audit-api
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Backup Access Point API from AWS Backup — 6 operation(s) for backup backup access point.
+  name: AWS Backup Backup Backup Access Point API
+  slug: aws-backup-backup-access-point-api
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Legal Holds API from AWS Backup — 2 operation(s) for backup legal holds.
+  name: AWS Backup Backup Legal Holds API
+  slug: aws-backup-legal-holds-api
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Notification Configuration API from AWS Backup — 1 operation(s) for backup notification configuration.
+  name: AWS Backup Backup Notification Configuration API
+  slug: aws-backup-notification-configuration-api
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Operations API from AWS Backup — 19 operation(s) for backup operations.
+  name: AWS Backup Backup Operations API
+  slug: aws-backup-operations-api
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Resources API from AWS Backup — 3 operation(s) for backup resources.
+  name: AWS Backup Backup Resources API
+  slug: aws-backup-resources-api
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Restore Access Backup Vaults API from AWS Backup — 3 operation(s) for backup restore access backup vaults.
+  name: AWS Backup Backup Restore Access Backup Vaults API
+  slug: aws-backup-restore-access-backup-vaults-api
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Restore Testing API from AWS Backup — 3 operation(s) for backup restore testing.
+  name: AWS Backup Backup Restore Testing API
+  slug: aws-backup-restore-testing-api
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Scan API from AWS Backup — 4 operation(s) for backup scan.
+  name: AWS Backup Backup Scan API
+  slug: aws-backup-scan-api
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Selections API from AWS Backup — 3 operation(s) for backup selections.
+  name: AWS Backup Backup Selections API
+  slug: aws-backup-selections-api
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Tiering Configurations API from AWS Backup — 2 operation(s) for backup tiering configurations.
+  name: AWS Backup Backup Tiering Configurations API
+  slug: aws-backup-tiering-configurations-api
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AWS Backup Backup Jobs API
   slug: open-aws-backup-backup-jobs-api
@@ -137,32 +196,32 @@ collections:
   slug: open-aws-backup
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/capabilities/aws-backup-capability-edges.yml
+  href: https://artifacts.apis.io/aws-backup/capabilities/aws-backup-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/aws-backup-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/agentic-access/aws-backup-agentic-access.yml
+  href: https://artifacts.apis.io/aws-backup/agentic-access/aws-backup-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aws-backup-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/security/aws-backup-trust-center.yml
+  href: https://artifacts.apis.io/aws-backup/security/aws-backup-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/aws-backup-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/security/aws-backup-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/aws-backup/security/aws-backup-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/aws-backup-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/security/aws-backup-domain-security.yml
+  href: https://artifacts.apis.io/aws-backup/security/aws-backup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aws-backup-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/authentication/aws-backup-authentication.yml
+  href: https://artifacts.apis.io/aws-backup/authentication/aws-backup-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aws-backup-authentication.yml
@@ -190,50 +249,51 @@ modified: '2026-09-16'
 name: AWS Backup
 nav: Providers
 network: true
-overview: 'AWS Backup publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Jobs API, Plans API, Selections API, and 8 more. Tagged areas include Backup, Data Protection, Disaster Recovery, Managed Service, and Compliance.
+overview: 'AWS Backup publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Jobs API, Plans API, Selections API, and 20 more. Tagged areas include Backup, Data Protection, Disaster Recovery, Managed Service, and Compliance.
 
 
   AWS Backup''s developer surface includes authentication, documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 16
+random_paper: 22
 score:
   band: thin
-  composite: 29.8
+  composite: 32.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.8
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 48.7
+    contract_quality: 51.5
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 0.0
-  previous_composite: 29.7
+    operational_transparency: 10.5
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 10
+      derived: 1
+      marker_coverage: 54.5
+      total: 22
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/screenshots/aws-backup-2026-06-20T172742.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/aws-backup/aws-backup-2026-06-20T172742.png
 security:
 - kind: authentication
   name: Aws Backup Authentication

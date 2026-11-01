@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The WTO flagship API providing programmatic access to a large number of statistical indicators related to WTO issues. Data covers merchandise trade and trade in services statistics (annual, quarterly,
@@ -45,7 +47,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wto/refs/heads/main/security/wto-domain-security.yml
+  href: https://artifacts.apis.io/wto/security/wto-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wto-domain-security.yml
@@ -82,17 +84,17 @@ common:
   type: X
   url: https://twitter.com/WTO
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wto/refs/heads/main/plans/wto-plans-pricing.yml
+  href: https://artifacts.apis.io/wto/plans/wto-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wto-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wto/refs/heads/main/rate-limits/wto-rate-limits.yml
+  href: https://artifacts.apis.io/wto/rate-limits/wto-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wto-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wto/refs/heads/main/finops/wto-finops.yml
+  href: https://artifacts.apis.io/wto/finops/wto-finops.yml
   title: ''
   type: FinOps
   url: finops/wto-finops.yml
@@ -102,7 +104,7 @@ finops:
 - has_sources: true
   method: generated
   name: Wto Finops
-  primary_unit: ''
+  primary_unit: Request
   service_category: Open Government Data / Trade Statistics
   slug: wto-finops
   template: false
@@ -120,44 +122,44 @@ plans:
 - name: Wto Plans Pricing
   plan_count: 1
   slug: wto-plans-pricing
-random_paper: 16
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Wto Rate Limits
   slug: wto-rate-limits
 score:
   band: emerging
-  composite: 19.6
+  composite: 21.2
   coverage:
     artifact_dirs: 8
-    catalog_earned: 41.0
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.2
+  delta: 1.6
   facets:
-    access_clarity: 15.8
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 25.8
+  previous_composite: 19.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wto/refs/heads/main/screenshots/wto-2026-06-20T201642.png
+screenshot: https://apis.io/screenshots/wto/wto-2026-06-20T201642.png
 security:
 - kind: domain-security
   name: Wto Domain Security

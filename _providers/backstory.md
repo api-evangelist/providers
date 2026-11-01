@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,22 +23,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-17'
+  score: 28.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Backstory's hosted, remote Model Context Protocol server. It lets an AI client query a customer's own Backstory revenue-intelligence data — accounts, opportunities, recent activity, engaged people, sc
   name: Backstory MCP
   slug: backstory-mcp
-artifact_total: 8
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -101,87 +103,87 @@ common:
   type: ChangeLog
   url: https://help.backstory.ai/en/articles/15252920-new-product-releases
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/changelog/backstory-changelog.yml
+  href: https://artifacts.apis.io/backstory/changelog/backstory-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/backstory-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/lifecycle/backstory-lifecycle.yml
+  href: https://artifacts.apis.io/backstory/lifecycle/backstory-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/backstory-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/mcp/backstory-mcp.yml
+  href: https://artifacts.apis.io/backstory/mcp/backstory-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/backstory-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/backstory/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/authentication/backstory-authentication.yml
+  href: https://artifacts.apis.io/backstory/authentication/backstory-authentication.yml
   title: ''
   type: Authentication
   url: authentication/backstory-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/scopes/backstory-scopes.yml
+  href: https://artifacts.apis.io/backstory/scopes/backstory-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/backstory-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/conventions/backstory-conventions.yml
+  href: https://artifacts.apis.io/backstory/conventions/backstory-conventions.yml
   title: ''
   type: Conventions
   url: conventions/backstory-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/errors/backstory-problem-types.yml
+  href: https://artifacts.apis.io/backstory/errors/backstory-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/backstory-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/conformance/backstory-conformance.yml
+  href: https://artifacts.apis.io/backstory/conformance/backstory-conformance.yml
   title: ''
   type: Conformance
   url: conformance/backstory-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/well-known/backstory-well-known.yml
+  href: https://artifacts.apis.io/backstory/well-known/backstory-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/backstory-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/packages/backstory-packages.yml
+  href: https://artifacts.apis.io/backstory/packages/backstory-packages.yml
   title: ''
   type: Packages
   url: packages/backstory-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/components/backstory-components.yml
+  href: https://artifacts.apis.io/backstory/components/backstory-components.yml
   title: ''
   type: Components
   url: components/backstory-components.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/plans/backstory-plans-pricing.yml
+  href: https://artifacts.apis.io/backstory/plans/backstory-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/backstory-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/rate-limits/backstory-rate-limits.yml
+  href: https://artifacts.apis.io/backstory/rate-limits/backstory-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/backstory-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/llms/backstory-llms.txt
+  href: https://artifacts.apis.io/backstory/llms/backstory-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/backstory-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/llms/backstory-help-llms.txt
+  href: https://artifacts.apis.io/backstory/llms/backstory-help-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/backstory-help-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/security/backstory-domain-security.yml
+  href: https://artifacts.apis.io/backstory/security/backstory-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/backstory-domain-security.yml
@@ -206,7 +208,7 @@ plans:
 - name: Backstory Plans Pricing
   plan_count: 0
   slug: backstory-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Backstory Rate Limits
@@ -218,7 +220,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 36.6
+  composite: 37.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -226,15 +228,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.3
-    discoverability: 75.0
-    operational_transparency: 34.2
-  previous_composite: 36.5
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 37.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -245,14 +247,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/backstory/refs/heads/main/screenshots/backstory-2026-07-25T202235.png
+screenshot: https://apis.io/screenshots/backstory/backstory-2026-07-25T202235.png
 security:
 - kind: authentication
   name: Backstory Authentication
@@ -266,6 +268,14 @@ security:
   name: Backstory Trust Center
   slug: backstory-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, GDPR, CSA STAR
+skill_count: 3
+skills:
+- name: Brief me on an account before a call
+  slug: backstory-account-brief
+- name: Review a deal for risk and qualification
+  slug: backstory-deal-risk-review
+- name: Find how we handled this situation before
+  slug: backstory-situation-precedent
 slug: backstory
 tags:
 - Company

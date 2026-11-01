@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.2
-  scored_at: '2026-10-17'
+  score: 25.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: AI application firewall classify API. A Firewall client sends each sanitized classification input (user input, tool response, model output, or system prompt) with a hook label and optional tool name t
@@ -82,72 +84,72 @@ common:
   type: PrivacyPolicy
   url: https://silmaril.dev/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/llms/silmaril-llms.txt
+  href: https://artifacts.apis.io/silmaril/llms/silmaril-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/silmaril-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/packages/silmaril-packages.yml
+  href: https://artifacts.apis.io/silmaril/packages/silmaril-packages.yml
   title: ''
   type: Packages
   url: packages/silmaril-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/packages/silmaril-packages.yml
+  href: https://artifacts.apis.io/silmaril/packages/silmaril-packages.yml
   title: ''
   type: SDKs
   url: packages/silmaril-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/mcp/silmaril-mcp.yml
+  href: https://artifacts.apis.io/silmaril/mcp/silmaril-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/silmaril-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/authentication/silmaril-authentication.yml
+  href: https://artifacts.apis.io/silmaril/authentication/silmaril-authentication.yml
   title: ''
   type: Authentication
   url: authentication/silmaril-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/conventions/silmaril-conventions.yml
+  href: https://artifacts.apis.io/silmaril/conventions/silmaril-conventions.yml
   title: ''
   type: Conventions
   url: conventions/silmaril-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/errors/silmaril-error-codes.yml
+  href: https://artifacts.apis.io/silmaril/errors/silmaril-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/silmaril-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/changelog/silmaril-changelog.yml
+  href: https://artifacts.apis.io/silmaril/changelog/silmaril-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/silmaril-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/lifecycle/silmaril-lifecycle.yml
+  href: https://artifacts.apis.io/silmaril/lifecycle/silmaril-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/silmaril-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/conformance/silmaril-conformance.yml
+  href: https://artifacts.apis.io/silmaril/conformance/silmaril-conformance.yml
   title: ''
   type: Conformance
   url: conformance/silmaril-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/data-model/silmaril-data-model.yml
+  href: https://artifacts.apis.io/silmaril/data-model/silmaril-data-model.yml
   title: ''
   type: DataModel
   url: data-model/silmaril-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/security/silmaril-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/silmaril/security/silmaril-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/silmaril-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/security/silmaril-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/silmaril/security/silmaril-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/silmaril-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/security/silmaril-domain-security.yml
+  href: https://artifacts.apis.io/silmaril/security/silmaril-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/silmaril-domain-security.yml
@@ -167,26 +169,26 @@ overview: 'Silmaril is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Silmaril''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 18 more developer resources.'
-random_paper: 3
+random_paper: 21
 score:
   band: thin
-  composite: 34.4
+  composite: 33.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 75.0
-    operational_transparency: 44.7
-  previous_composite: 34.3
+    discoverability: 65.0
+    operational_transparency: 47.4
+  previous_composite: 33.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -196,14 +198,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/screenshots/silmaril-2026-09-02T155504.png
+screenshot: https://apis.io/screenshots/silmaril/silmaril-2026-09-02T155504.png
 security:
 - kind: authentication
   name: Silmaril Authentication

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Read-only REST API over the Gro ontology and its agricultural, climate and trade time series. Every operation was an HTTP GET under /v2/, authenticated with a bearer token issued from the Gro web appl
@@ -43,6 +45,21 @@ apis:
   slug: gro-intelligence-api-retired
 artifact_total: 5
 common:
+- group: other
+  href: https://artifacts.apis.io/gro-intelligence/hosts/gro-intelligence-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/gro-intelligence-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/gro-intelligence/integrations/gro-intelligence-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/gro-intelligence-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/gro-intelligence/vendors/gro-intelligence-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/gro-intelligence-vendors.yml
 - group: company
   title: ''
   type: Website
@@ -56,77 +73,72 @@ common:
   type: GitHubOrganization
   url: https://github.com/gro-intelligence
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/packages/gro-intelligence-packages.yml
+  href: https://artifacts.apis.io/gro-intelligence/packages/gro-intelligence-packages.yml
   title: ''
   type: Packages
   url: packages/gro-intelligence-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/packages/gro-intelligence-packages.yml
+  href: https://artifacts.apis.io/gro-intelligence/packages/gro-intelligence-packages.yml
   title: ''
   type: SDKs
   url: packages/gro-intelligence-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/cli/gro-intelligence-cli.yml
+  href: https://artifacts.apis.io/gro-intelligence/cli/gro-intelligence-cli.yml
   title: ''
   type: CLI
   url: cli/gro-intelligence-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/authentication/gro-intelligence-authentication.yml
+  href: https://artifacts.apis.io/gro-intelligence/authentication/gro-intelligence-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gro-intelligence-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/rate-limits/gro-intelligence-rate-limits.yml
+  href: https://artifacts.apis.io/gro-intelligence/rate-limits/gro-intelligence-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gro-intelligence-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/plans/gro-intelligence-plans-pricing.yml
+  href: https://artifacts.apis.io/gro-intelligence/plans/gro-intelligence-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gro-intelligence-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/errors/gro-intelligence-problem-types.yml
+  href: https://artifacts.apis.io/gro-intelligence/errors/gro-intelligence-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gro-intelligence-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/lifecycle/gro-intelligence-lifecycle.yml
+  href: https://artifacts.apis.io/gro-intelligence/lifecycle/gro-intelligence-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gro-intelligence-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/conventions/gro-intelligence-conventions.yml
+  href: https://artifacts.apis.io/gro-intelligence/conventions/gro-intelligence-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gro-intelligence-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/conformance/gro-intelligence-conformance.yml
+  href: https://artifacts.apis.io/gro-intelligence/conformance/gro-intelligence-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gro-intelligence-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/data-model/gro-intelligence-data-model.yml
+  href: https://artifacts.apis.io/gro-intelligence/data-model/gro-intelligence-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gro-intelligence-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/changelog/gro-intelligence-changelog.yml
+  href: https://artifacts.apis.io/gro-intelligence/changelog/gro-intelligence-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gro-intelligence-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/security/gro-intelligence-domain-security.yml
+  href: https://artifacts.apis.io/gro-intelligence/security/gro-intelligence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gro-intelligence-domain-security.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/llms/gro-intelligence-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/gro-intelligence-llms.txt
 coverage:
-  checked: '2026-08-22'
+  checked: '2026-10-20'
   detail: Gro Intelligence ceased operations in spring 2024 and was liquidated (IP acquired by Almanac, November 2024); its API host api.gro-intelligence.com, developer portal developers.gro-intelligence.com and app host app.gro-intelligence.com all return NXDOMAIN, and gro-intelligence.com is now a parked GoDaddy lander that answers HTTP 200 with the same 114-byte redirect body for every path including /openapi.json and /.well-known/agent-card.json. STEP 0b contract discovery was still run in full; the profile is built from the surfaces that survive — the company's public GitHub organization, the first-party MIT-licensed groclient library, its dated GitHub releases, and the PyPI/conda-forge listings. No OpenAPI, GraphQL SDL, MCP server or A2A agent card was ever published by this company.
   evidence:
   - status: 0
@@ -157,12 +169,12 @@ network: true
 overview: 'Gro Intelligence is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Climate, Data, and Analytics.
 
 
-  Gro Intelligence''s developer surface includes documentation, CLI, authentication, changelog, and 13 more developer resources.'
+  Gro Intelligence''s developer surface includes documentation, CLI, authentication, changelog, and 15 more developer resources.'
 plans:
 - name: Gro Intelligence Plans Pricing
   plan_count: 0
   slug: gro-intelligence-plans-pricing
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Gro Intelligence Rate Limits
@@ -171,7 +183,7 @@ score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -202,14 +214,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/gro-intelligence/refs/heads/main/screenshots/gro-intelligence-2026-09-02T145635.png
+screenshot: https://apis.io/screenshots/gro-intelligence/gro-intelligence-2026-09-02T145635.png
 security:
 - kind: authentication
   name: Gro Intelligence Authentication
@@ -218,7 +230,7 @@ security:
 - kind: domain-security
   name: Gro Intelligence Domain Security
   slug: gro-intelligence-domain-security
-  summary_line: no transport/DNS hardening detected
+  summary_line: TLSv1.3
 slug: gro-intelligence
 tags:
 - Company

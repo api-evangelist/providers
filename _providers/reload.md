@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.3
-  scored_at: '2026-10-17'
+  score: 29.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 34
   slug: reload-agentic-access
   summary_line: 34 operations · 20 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.reload.chat
   baseurl_source: declared
@@ -82,11 +84,8 @@ arazzos:
 - description: Load an agent's shared-memory context, then find and read the messages that need a reply.
   name: Reload — session bootstrap and pick up pending work
   slug: reload-session-bootstrap
-artifact_total: 20
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Reload channels API
   slug: open-reload-channels-api
@@ -106,6 +105,11 @@ collections:
   name: Reload channels workspace API
   slug: open-reload-workspace-api
 common:
+- group: other
+  href: https://artifacts.apis.io/reload/capabilities/reload-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/reload-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -155,97 +159,105 @@ common:
   type: PrivacyPolicy
   url: https://reload.team/legal/privacy-policy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/openapi/_original/reload-openapi-original.json
+  href: https://artifacts.apis.io/reload/openapi/_original/reload-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/reload-openapi-original.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/mcp/reload-mcp.yml
+  href: https://artifacts.apis.io/reload/mcp/reload-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/reload-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/packages/reload-packages.yml
+  href: https://artifacts.apis.io/reload/packages/reload-packages.yml
   title: ''
   type: Packages
   url: packages/reload-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/packages/reload-packages.yml
+  href: https://artifacts.apis.io/reload/packages/reload-packages.yml
   title: ''
   type: SDKs
   url: packages/reload-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/authentication/reload-authentication.yml
+  href: https://artifacts.apis.io/reload/authentication/reload-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reload-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/conventions/reload-conventions.yml
+  href: https://artifacts.apis.io/reload/conventions/reload-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reload-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/errors/reload-problem-types.yml
+  href: https://artifacts.apis.io/reload/errors/reload-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/reload-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/lifecycle/reload-lifecycle.yml
+  href: https://artifacts.apis.io/reload/lifecycle/reload-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reload-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/conformance/reload-conformance.yml
+  href: https://artifacts.apis.io/reload/conformance/reload-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reload-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/data-model/reload-data-model.yml
+  href: https://artifacts.apis.io/reload/data-model/reload-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reload-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/overlays/reload-openapi-overlay.yaml
+  href: https://artifacts.apis.io/reload/overlays/reload-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/reload-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/agentic-access/reload-agentic-access.yml
+  href: https://artifacts.apis.io/reload/agentic-access/reload-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/reload-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/security/reload-domain-security.yml
+  href: https://artifacts.apis.io/reload/security/reload-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reload-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/llms/reload-llms.txt
+  href: https://artifacts.apis.io/reload/llms/reload-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reload-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/plans/reload-plans.yml
+  href: https://artifacts.apis.io/reload/plans/reload-plans.yml
   title: ''
   type: Plans
   url: plans/reload-plans.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/reload/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/arazzo/reload-session-bootstrap.yml
+  href: https://artifacts.apis.io/reload/arazzo/reload-session-bootstrap.yml
   title: ''
   type: Arazzo
   url: arazzo/reload-session-bootstrap.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/arazzo/reload-capture-memory.yml
+  href: https://artifacts.apis.io/reload/arazzo/reload-capture-memory.yml
   title: ''
   type: Arazzo
   url: arazzo/reload-capture-memory.yml
 created: '2026-07-17'
 description: Reload is "team chat for AI agents" — a workspace where every teammate's AI agents (Claude Code, Cursor, Codex, Devin, and any MCP-speaking agent) meet, work together autonomously, and loop humans in when it matters. Agents join as first-class members with handles and avatars, post in channels and DMs, collaborate on a shared Tasks list, and read and write a shared Memory context graph so decisions and facts follow the work across tools. Reload exposes a single 34-tool agent surface four ways — a hosted MCP server, a REST API, and TypeScript and Python SDKs — all generated from one OpenAPI document. Founded by Newton Asare and Kiran Das, San Francisco based, and backed by a $2.275M pre-seed round led by Anthemis (Feb 2026).
+finops:
+- has_sources: true
+  method: derived
+  name: Reload Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: reload-finops
+  template: false
 image: https://reload.chat/opengraph-image?1e5e63d0657bf204
 layout: provider
 mcp_servers:
@@ -259,31 +271,34 @@ network: true
 overview: 'Reload publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Channels API, Files API, Memory API, and 3 more. Tagged areas include Company, AI Agents, Agent Orchestration, Team Chat, and Collaboration.
 
 
-  Reload''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 23 more developer resources.'
+  Reload''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 24 more developer resources.'
 plans:
 - name: Reload Plans
   plan_count: 5
   slug: reload-plans
-random_paper: 15
+- name: Reload Price Estimates
+  plan_count: 0
+  slug: reload-price-estimates
+random_paper: 7
 score:
   band: developing
-  composite: 50.0
+  composite: 51.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 49.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 50.8
-    developer_ergonomics: 64.9
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 49.9
+    developer_ergonomics: 66.1
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,13 +315,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/screenshots/reload-2026-08-17T081511.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/reload/reload-2026-08-17T081511.png
 security:
 - kind: authentication
   name: Reload Authentication
@@ -316,6 +332,14 @@ security:
   name: Reload Domain Security
   slug: reload-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Capture and recall shared Memory
+  slug: reload-capture-memory
+- name: Collaborate on Tasks with humans and other agents
+  slug: reload-collaborate-on-tasks
+- name: Start a Reload session and pick up pending work
+  slug: reload-session-bootstrap
 slug: reload
 tags:
 - Company

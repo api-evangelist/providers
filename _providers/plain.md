@@ -25,33 +25,40 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.1
-  scored_at: '2026-10-17'
+  score: 45.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Plain's Core GraphQL API — the same API the Plain product is built on. Manage customers, companies, tenants, threads, messaging, help center, labels, tiers/SLAs, snippets, tasks, events, and webhook t
   name: Plain Core GraphQL API
   slug: plain-core-graphql-api
-artifact_total: 6
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Plain Webhooks
   slug: plain-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/plain/plans/plain-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/plain-plans-pricing.yml
 - group: company
   title: ''
   type: Website
   url: https://www.plain.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/security/plain-domain-security.yml
+  href: https://artifacts.apis.io/plain/security/plain-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/plain-domain-security.yml
@@ -108,92 +115,100 @@ common:
   type: ChangeLog
   url: https://www.plain.com/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/changelog/plain-changelog.yml
+  href: https://artifacts.apis.io/plain/changelog/plain-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/plain-changelog.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/graphql/plain-schema.graphql
+  href: https://artifacts.apis.io/plain/graphql/plain-schema.graphql
   title: ''
   type: GraphQL
   url: graphql/plain-schema.graphql
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/authentication/plain-authentication.yml
+  href: https://artifacts.apis.io/plain/authentication/plain-authentication.yml
   title: ''
   type: Authentication
   url: authentication/plain-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/conventions/plain-conventions.yml
+  href: https://artifacts.apis.io/plain/conventions/plain-conventions.yml
   title: ''
   type: Conventions
   url: conventions/plain-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/errors/plain-error-codes.yml
+  href: https://artifacts.apis.io/plain/errors/plain-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/plain-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/lifecycle/plain-lifecycle.yml
+  href: https://artifacts.apis.io/plain/lifecycle/plain-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/plain-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/conformance/plain-conformance.yml
+  href: https://artifacts.apis.io/plain/conformance/plain-conformance.yml
   title: ''
   type: Conformance
   url: conformance/plain-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/data-model/plain-data-model.yml
+  href: https://artifacts.apis.io/plain/data-model/plain-data-model.yml
   title: ''
   type: DataModel
   url: data-model/plain-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/packages/plain-packages.yml
+  href: https://artifacts.apis.io/plain/packages/plain-packages.yml
   title: ''
   type: Packages
   url: packages/plain-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/packages/plain-packages.yml
+  href: https://artifacts.apis.io/plain/packages/plain-packages.yml
   title: ''
   type: SDKs
   url: packages/plain-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/cli/plain-cli.yml
+  href: https://artifacts.apis.io/plain/cli/plain-cli.yml
   title: ''
   type: CLI
   url: cli/plain-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/components/plain-components.yml
+  href: https://artifacts.apis.io/plain/components/plain-components.yml
   title: ''
   type: Components
   url: components/plain-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/mcp/plain-mcp.yml
+  href: https://artifacts.apis.io/plain/mcp/plain-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/plain-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/plain/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/asyncapi/plain-webhooks.yml
+  href: https://artifacts.apis.io/plain/asyncapi/plain-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/plain-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/llms/plain-llms.txt
+  href: https://artifacts.apis.io/plain/llms/plain-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/plain-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/security/plain-trust-center.yml
+  href: https://artifacts.apis.io/plain/security/plain-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/plain-trust-center.yml
 created: '2026-07-17'
 description: Plain is a customer support platform for B2B and technical SaaS companies, built entirely on its own public GraphQL API so there is full parity between what the product UI and the API can do. It unifies support across email, chat, Slack, and API-created threads, with customers, companies, tenants, tiers and SLAs, labels, help center articles, snippets, tasks, and events as first-class entities. Developers integrate via a Relay-style GraphQL API (bearer API keys with fine-grained permissions), typed TypeScript and Go SDKs, a CLI, customer-card UI components, HMAC-signed webhooks, a hosted MCP server, and an official agent skill. This profile was enriched from Plain's public developer surface.
+finops:
+- has_sources: true
+  method: derived
+  name: Plain Finops
+  primary_unit: user
+  service_category: ''
+  slug: plain-finops
+  template: false
 image: https://framerusercontent.com/assets/8LkFDsA5X0pauVd2p3tTSJ4AF4s.png
 layout: provider
 mcp_servers:
@@ -210,27 +225,34 @@ overview: 'Plain is listed with 1 API on the [APIs.io](https://apis.io/) network
   The Plain catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Plain''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 25 more developer resources.'
+  Plain''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 26 more developer resources.'
+plans:
+- name: Plain Plans Pricing
+  plan_count: 3
+  slug: plain-plans-pricing
+- name: Plain Price Estimates
+  plan_count: 0
+  slug: plain-price-estimates
 random_paper: 4
 score:
-  band: developing
-  composite: 53.3
+  band: strong
+  composite: 61.9
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 46.1
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 51.0
     developer_ergonomics: 78.6
-    discoverability: 75.0
-    operational_transparency: 42.1
-  previous_composite: 53.3
+    discoverability: 65.0
+    operational_transparency: 44.7
+  previous_composite: 54.0
   provenance:
     conformance: derived
     mcp: first-party
@@ -241,14 +263,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/screenshots/plain-2026-08-17T081255.png
+screenshot: https://apis.io/screenshots/plain/plain-2026-08-17T081255.png
 security:
 - kind: authentication
   name: Plain Authentication
@@ -262,6 +284,10 @@ security:
   name: Plain Trust Center
   slug: plain-trust-center
   summary_line: trust center published
+skill_count: 1
+skills:
+- name: plain-support
+  slug: plain-support
 slug: plain
 tags:
 - Company

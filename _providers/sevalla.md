@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.4
-  scored_at: '2026-10-17'
+  score: 37.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -80,11 +81,8 @@ apis:
   description: Build and deploy Git-backed static sites to the edge.
   name: Sevalla Static Sites API
   slug: sevalla-static-sites-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sevalla Applications API
   slug: open-sevalla-applications-api
@@ -111,22 +109,22 @@ collections:
   slug: open-sevalla
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/capabilities/sevalla-capability-edges.yml
+  href: https://artifacts.apis.io/sevalla/capabilities/sevalla-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sevalla-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/agentic-access/sevalla-agentic-access.yml
+  href: https://artifacts.apis.io/sevalla/agentic-access/sevalla-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sevalla-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/security/sevalla-domain-security.yml
+  href: https://artifacts.apis.io/sevalla/security/sevalla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sevalla-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/authentication/sevalla-authentication.yml
+  href: https://artifacts.apis.io/sevalla/authentication/sevalla-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sevalla-authentication.yml
@@ -147,17 +145,17 @@ common:
   type: Documentation
   url: https://docs.sevalla.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/plans/sevalla-plans-pricing.yml
+  href: https://artifacts.apis.io/sevalla/plans/sevalla-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sevalla-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/rate-limits/sevalla-rate-limits.yml
+  href: https://artifacts.apis.io/sevalla/rate-limits/sevalla-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sevalla-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/finops/sevalla-finops.yml
+  href: https://artifacts.apis.io/sevalla/finops/sevalla-finops.yml
   title: ''
   type: FinOps
   url: finops/sevalla-finops.yml
@@ -193,14 +191,14 @@ plans:
 - name: Sevalla Plans Pricing
   plan_count: 4
   slug: sevalla-plans-pricing
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Sevalla Rate Limits
   slug: sevalla-rate-limits
 score:
   band: thin
-  composite: 26.3
+  composite: 26.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 43.0
@@ -208,15 +206,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 46.1
+    contract_quality: 44.3
     developer_ergonomics: 31.0
-    discoverability: 68.3
-    operational_transparency: 10.5
-  previous_composite: 34.6
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 26.7
   provenance:
     agentic_access: derived
     contracts:
@@ -231,13 +229,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/screenshots/sevalla-2026-09-02T155032.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sevalla/sevalla-2026-09-02T155032.png
 security:
 - kind: authentication
   name: Sevalla Authentication

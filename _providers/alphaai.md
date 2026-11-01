@@ -22,21 +22,23 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: true
-    idempotency: na
-    mcp_server: verified
-    openapi_examples: documented
+    idempotency: false
+    mcp_server: documented
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 66.0
-  scored_at: '2026-10-17'
+  score: 53.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,7 +69,22 @@ apis:
   description: Active equity, crypto, and foreign symbols (tickers).
   name: AlphaAI Symbols API
   slug: alphaai-symbols-api
-artifact_total: 15
+- baseURL: https://mcp.alphai.io/mcp
+  baseurl_source: declared
+  description: What each data source holds — from when, how dense, with which caveats.
+  name: AlphaAI Coverage API
+  slug: alphaai-coverage-api
+- baseURL: https://mcp.alphai.io/mcp
+  baseurl_source: declared
+  description: Descriptive news activity and supporting headlines.
+  name: AlphaAI Radar API
+  slug: alphaai-radar-api
+- baseURL: https://mcp.alphai.io/mcp
+  baseurl_source: declared
+  description: Market events covered by two or more publishers, summarised from their sources.
+  name: AlphaAI Stories API
+  slug: alphaai-stories-api
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Alphaai Webhooks
@@ -77,12 +94,17 @@ collections:
   name: alphai REST API
   slug: open-alphaai-rest-api
 common:
+- group: other
+  href: https://artifacts.apis.io/alphaai/capabilities/alphaai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/alphaai-capability-edges.yml
 - group: commercial
   title: ''
   type: License
   url: https://github.com/makeev/alphai-claude-skills/blob/main/LICENSE
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/overlays/alphaai-rest-api-overlay.yaml
+  href: https://artifacts.apis.io/alphaai/overlays/alphaai-rest-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alphaai-rest-api-overlay.yaml
@@ -151,22 +173,22 @@ common:
   type: ChangeLog
   url: https://alphai.io/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/changelog/alphaai-changelog.yml
+  href: https://artifacts.apis.io/alphaai/changelog/alphaai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/alphaai-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/lifecycle/alphaai-lifecycle.yml
+  href: https://artifacts.apis.io/alphaai/lifecycle/alphaai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alphaai-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/authentication/alphaai-authentication.yml
+  href: https://artifacts.apis.io/alphaai/authentication/alphaai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alphaai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/scopes/alphaai-scopes.yml
+  href: https://artifacts.apis.io/alphaai/scopes/alphaai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/alphaai-scopes.yml
@@ -175,97 +197,105 @@ common:
   type: Security
   url: https://api.alphai.io/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/well-known/alphaai-security.txt
+  href: https://artifacts.apis.io/alphaai/well-known/alphaai-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/alphaai-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/security/alphaai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/alphaai/security/alphaai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/alphaai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/security/alphaai-domain-security.yml
+  href: https://artifacts.apis.io/alphaai/security/alphaai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alphaai-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/well-known/alphaai-well-known.yml
+  href: https://artifacts.apis.io/alphaai/well-known/alphaai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alphaai-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/conformance/alphaai-conformance.yml
+  href: https://artifacts.apis.io/alphaai/conformance/alphaai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alphaai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/conventions/alphaai-conventions.yml
+  href: https://artifacts.apis.io/alphaai/conventions/alphaai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alphaai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/errors/alphaai-problem-types.yml
+  href: https://artifacts.apis.io/alphaai/errors/alphaai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/alphaai-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/rate-limits/alphaai-rate-limits.yml
+  href: https://artifacts.apis.io/alphaai/rate-limits/alphaai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/alphaai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/plans/alphaai-plans-pricing.yml
+  href: https://artifacts.apis.io/alphaai/plans/alphaai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/alphaai-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/data-model/alphaai-data-model.yml
+  href: https://artifacts.apis.io/alphaai/data-model/alphaai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/alphaai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/asyncapi/alphaai-webhooks.yml
+  href: https://artifacts.apis.io/alphaai/asyncapi/alphaai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/alphaai-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/packages/alphaai-packages.yml
+  href: https://artifacts.apis.io/alphaai/packages/alphaai-packages.yml
   title: ''
   type: Packages
   url: packages/alphaai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/packages/alphaai-packages.yml
+  href: https://artifacts.apis.io/alphaai/packages/alphaai-packages.yml
   title: ''
   type: SDKs
   url: packages/alphaai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/cli/alphaai-cli.yml
+  href: https://artifacts.apis.io/alphaai/cli/alphaai-cli.yml
   title: ''
   type: CLI
   url: cli/alphaai-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/sandbox/alphaai-sandbox.yml
+  href: https://artifacts.apis.io/alphaai/sandbox/alphaai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/alphaai-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/llms/alphaai-llms.txt
+  href: https://artifacts.apis.io/alphaai/llms/alphaai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alphaai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/alphaai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/agentic-access/alphaai-agentic-access.yml
+  href: https://artifacts.apis.io/alphaai/agentic-access/alphaai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/alphaai-agentic-access.yml
 created: '2026-07-05'
 description: A REST API and agent-native platform for relevance-scored, ticker-linked financial news, built for trading bots, agent backends, and dashboards. Every article is enriched at ingest with a 1-10 relevance score, one of fourteen categories, validated ticker links, and per-ticker sentiment with an impact analysis and confidence rating, plus structured SEC Form 4 insider data sourced from EDGAR. The same data core is served three ways — an OpenAPI 3.1 REST API at api.alphai.io, a hosted MCP server with OAuth 2.1 and dynamic client registration at mcp.alphai.io, and HMAC-signed webhooks on the Pro tier — alongside first-party Python, TypeScript and Rust clients and a provider-published pack of Claude Code agent skills.
+finops:
+- has_sources: true
+  method: derived
+  name: Alphaai Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: alphaai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alphaai.png
 layout: provider
 mcp_servers:
@@ -276,18 +306,21 @@ modified: '2026-08-11'
 name: AlphaAI
 nav: Providers
 network: true
-overview: 'AlphaAI publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calendar API, News API, Symbols API, and 2 more. Tagged areas include Financial News, Stock Market, SEC Filings, Insider Trading, and Fintech.
+overview: 'AlphaAI publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Calendar API, News API, Symbols API, and 5 more. Tagged areas include Financial News, Stock Market, SEC Filings, Insider Trading, and Fintech.
 
 
   The AlphaAI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AlphaAI''s developer surface includes documentation, API reference, getting-started guide, code examples, support, engineering blog, pricing, and 34 more developer resources.'
+  AlphaAI''s developer surface includes documentation, API reference, getting-started guide, code examples, support, engineering blog, pricing, and 35 more developer resources.'
 plans:
 - name: Alphaai Plans Pricing
   plan_count: 4
   slug: alphaai-plans-pricing
-random_paper: 16
+- name: Alphaai Price Estimates
+  plan_count: 0
+  slug: alphaai-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 6
   name: Alphaai Rate Limits
@@ -299,23 +332,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 66.7
+  composite: 72.1
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 61.0
+    artifact_dirs: 28
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 59.2
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 63.3
-    developer_ergonomics: 88.1
-    discoverability: 75.0
-    operational_transparency: 84.2
-  previous_composite: 66.7
+    contract_quality: 63.6
+    developer_ergonomics: 90.5
+    discoverability: 65.0
+    operational_transparency: 86.8
+  previous_composite: 70.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -323,7 +356,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 10
     mcp: first-party
     skills: first-party
   regulatory:
@@ -331,15 +364,15 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 37.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 40.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/screenshots/alphaai-2026-08-17T080047.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/alphaai/alphaai-2026-08-17T080047.png
 security:
 - kind: authentication
   name: Alphaai Authentication
@@ -353,6 +386,18 @@ security:
   name: Alphaai Vulnerability Disclosure
   slug: alphaai-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 5
+skills:
+- name: insider-radar
+  slug: alphaai-insider-radar
+- name: manage-alerts
+  slug: alphaai-manage-alerts
+- name: market-pulse
+  slug: alphaai-market-pulse
+- name: peer-readacross
+  slug: alphaai-peer-readacross
+- name: stock-brief
+  slug: alphaai-stock-brief
 slug: alphaai
 tags:
 - Financial News

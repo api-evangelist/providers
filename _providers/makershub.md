@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +63,7 @@ common:
   type: ChangeLog
   url: https://makershub.com/product-updates
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/makershub/refs/heads/main/changelog/makershub-changelog.yml
+  href: https://artifacts.apis.io/makershub/changelog/makershub-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/makershub-changelog.yml
@@ -82,17 +84,17 @@ common:
   type: Compliance
   url: https://makershub.com/blog/makershub-soc-2-compliance
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/makershub/refs/heads/main/llms/makershub-llms.txt
+  href: https://artifacts.apis.io/makershub/llms/makershub-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/makershub-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/makershub/refs/heads/main/conformance/makershub-conformance.yml
+  href: https://artifacts.apis.io/makershub/conformance/makershub-conformance.yml
   title: ''
   type: Conformance
   url: conformance/makershub-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/makershub/refs/heads/main/security/makershub-domain-security.yml
+  href: https://artifacts.apis.io/makershub/security/makershub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/makershub-domain-security.yml
@@ -108,10 +110,10 @@ overview: 'Makershub is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Makershub''s developer surface includes signup flow, pricing, engineering blog, changelog, support, and 9 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
   band: emerging
-  composite: 22.0
+  composite: 21.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -125,9 +127,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 15.8
-  previous_composite: 22.0
+  previous_composite: 21.3
   provenance:
     conformance: first-party
   regulatory:
@@ -136,14 +138,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/makershub/refs/heads/main/screenshots/makershub-2026-07-25T225953.png
+screenshot: https://apis.io/screenshots/makershub/makershub-2026-07-25T225953.png
 security:
 - kind: domain-security
   name: Makershub Domain Security

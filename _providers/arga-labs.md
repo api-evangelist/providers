@@ -25,22 +25,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.9
-  scored_at: '2026-10-17'
+  score: 9.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Public REST API for Arga's testing infrastructure — provision digital twins, deploy branches/PRs into sandboxes, run browser-agent validations, save and replay tests, manage scenarios (seed data), and
   name: Arga API
   slug: arga-api
-artifact_total: 4
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -95,47 +97,47 @@ common:
   type: Twitter
   url: https://x.com/ArgaLabs
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/authentication/arga-labs-authentication.yml
+  href: https://artifacts.apis.io/arga-labs/authentication/arga-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/arga-labs-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/packages/arga-labs-packages.yml
+  href: https://artifacts.apis.io/arga-labs/packages/arga-labs-packages.yml
   title: ''
   type: Packages
   url: packages/arga-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/packages/arga-labs-packages.yml
+  href: https://artifacts.apis.io/arga-labs/packages/arga-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/arga-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/cli/arga-labs-cli.yml
+  href: https://artifacts.apis.io/arga-labs/cli/arga-labs-cli.yml
   title: ''
   type: CLI
   url: cli/arga-labs-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/mcp/arga-labs-mcp.yml
+  href: https://artifacts.apis.io/arga-labs/mcp/arga-labs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/arga-labs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/llms/arga-labs-llms.txt
+  href: https://artifacts.apis.io/arga-labs/llms/arga-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/arga-labs-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/conventions/arga-labs-conventions.yml
+  href: https://artifacts.apis.io/arga-labs/conventions/arga-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/arga-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/errors/arga-labs-error-codes.yml
+  href: https://artifacts.apis.io/arga-labs/errors/arga-labs-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/arga-labs-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/lifecycle/arga-labs-lifecycle.yml
+  href: https://artifacts.apis.io/arga-labs/lifecycle/arga-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/arga-labs-lifecycle.yml
@@ -144,12 +146,12 @@ common:
   type: Deprecation
   url: https://docs.argalabs.com/api-reference/availability-notes
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/security/arga-labs-domain-security.yml
+  href: https://artifacts.apis.io/arga-labs/security/arga-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arga-labs-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/arga-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -158,7 +160,7 @@ description: Arga Labs provides testing infrastructure for AI agents and agent-f
 image: https://www.argalabs.com/logo_black.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at api.argalabs.com over HTTP; 19 tools listed.
+- description: Remote MCP server at api.argalabs.com over HTTP; 32 tools listed.
   name: Arga Labs MCP Server
   slug: arga-context
 modified: '2026-07-18'
@@ -169,26 +171,26 @@ overview: 'Arga Labs is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Arga Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 18 more developer resources.'
-random_paper: 16
+random_paper: 10
 score:
-  band: emerging
-  composite: 16.7
+  band: thin
+  composite: 27.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.2
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 16.6
+    developer_ergonomics: 73.2
+    discoverability: 65.0
+    operational_transparency: 13.2
+  previous_composite: 27.1
   provenance:
     mcp: first-party
     skills: derived
@@ -198,14 +200,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/screenshots/arga-labs-2026-07-25T201136.png
+screenshot: https://apis.io/screenshots/arga-labs/arga-labs-2026-07-25T201136.png
 security:
 - kind: authentication
   name: Arga Labs Authentication
@@ -215,6 +217,12 @@ security:
   name: Arga Labs Domain Security
   slug: arga-labs-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Investigate a bug across connected sources
+  slug: arga-labs-investigate-bug
+- name: Provision digital twins and validate a URL
+  slug: arga-labs-provision-and-validate
 slug: arga-labs
 tags:
 - Company

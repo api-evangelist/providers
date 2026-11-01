@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint exposing start.gg (smash.gg) tournaments, events, entrants, sets, standings, players, and users, with mutations for reporting results and managing brackets.
   name: start.gg GraphQL API
   slug: startgg-graphql-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -62,72 +64,72 @@ common:
   type: GettingStarted
   url: https://developer.start.gg/docs/intro
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/authentication/smashgg-authentication.yml
+  href: https://artifacts.apis.io/smashgg/authentication/smashgg-authentication.yml
   title: ''
   type: Authentication
   url: authentication/smashgg-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/scopes/smashgg-scopes.yml
+  href: https://artifacts.apis.io/smashgg/scopes/smashgg-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/smashgg-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/conventions/smashgg-conventions.yml
+  href: https://artifacts.apis.io/smashgg/conventions/smashgg-conventions.yml
   title: ''
   type: Conventions
   url: conventions/smashgg-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/rate-limits/smashgg-rate-limits.yml
+  href: https://artifacts.apis.io/smashgg/rate-limits/smashgg-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/smashgg-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/errors/smashgg-error-codes.yml
+  href: https://artifacts.apis.io/smashgg/errors/smashgg-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/smashgg-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/lifecycle/smashgg-lifecycle.yml
+  href: https://artifacts.apis.io/smashgg/lifecycle/smashgg-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/smashgg-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/security/smashgg-domain-security.yml
+  href: https://artifacts.apis.io/smashgg/security/smashgg-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/smashgg-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/components/smashgg-components.yml
+  href: https://artifacts.apis.io/smashgg/components/smashgg-components.yml
   title: ''
   type: Components
   url: components/smashgg-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/packages/smashgg-packages.yml
+  href: https://artifacts.apis.io/smashgg/packages/smashgg-packages.yml
   title: ''
   type: Packages
   url: packages/smashgg-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/data-model/smashgg-data-model.yml
+  href: https://artifacts.apis.io/smashgg/data-model/smashgg-data-model.yml
   title: ''
   type: DataModel
   url: data-model/smashgg-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/conformance/smashgg-conformance.yml
+  href: https://artifacts.apis.io/smashgg/conformance/smashgg-conformance.yml
   title: ''
   type: Conformance
   url: conformance/smashgg-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/mcp/smashgg-mcp.yml
+  href: https://artifacts.apis.io/smashgg/mcp/smashgg-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/smashgg-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/llms/smashgg-llms.txt
+  href: https://artifacts.apis.io/smashgg/llms/smashgg-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/smashgg-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/smashgg/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -167,7 +169,7 @@ overview: 'Smashgg is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Smashgg''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 19 more developer resources.'
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Smashgg Rate Limits
@@ -179,7 +181,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 31.3
+  composite: 33.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 45.0
@@ -189,13 +191,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 31.3
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 33.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -206,14 +208,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/screenshots/smashgg-2026-09-02T155940.png
+screenshot: https://apis.io/screenshots/smashgg/smashgg-2026-09-02T155940.png
 security:
 - kind: authentication
   name: Smashgg Authentication
@@ -223,6 +225,12 @@ security:
   name: Smashgg Domain Security
   slug: smashgg-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Query start.gg tournament and event data
+  slug: smashgg-query-tournament-data
+- name: Report a set result on start.gg
+  slug: smashgg-report-set-results
 slug: smashgg
 tags:
 - Company

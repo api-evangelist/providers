@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 32.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -67,15 +69,12 @@ apis:
   description: The Transactions API from Niural — 4 operation(s) for transactions.
   name: Niural Transactions API
   slug: niural-transactions-api
-artifact_total: 17
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Niural Webhooks
   slug: niural-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Niural Public Authentication API
   slug: open-niural-authentication-api
@@ -89,6 +88,11 @@ collections:
   name: Niural Public Transactions API
   slug: open-niural-transactions-api
 common:
+- group: other
+  href: https://artifacts.apis.io/niural/capabilities/niural-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/niural-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -146,112 +150,120 @@ common:
   type: Compliance
   url: https://trust.niural.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/security/niural-trust-center.yml
+  href: https://artifacts.apis.io/niural/security/niural-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/niural-trust-center.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/openapi/_original/niural-public-api-openapi.yml
+  href: https://artifacts.apis.io/niural/openapi/_original/niural-public-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/niural-public-api-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/overlays/niural-public-api-overlay.yaml
+  href: https://artifacts.apis.io/niural/overlays/niural-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/niural-public-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/llms/niural-llms.txt
+  href: https://artifacts.apis.io/niural/llms/niural-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/niural-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/authentication/niural-authentication.yml
+  href: https://artifacts.apis.io/niural/authentication/niural-authentication.yml
   title: ''
   type: Authentication
   url: authentication/niural-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/conventions/niural-conventions.yml
+  href: https://artifacts.apis.io/niural/conventions/niural-conventions.yml
   title: ''
   type: Conventions
   url: conventions/niural-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/errors/niural-problem-types.yml
+  href: https://artifacts.apis.io/niural/errors/niural-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/niural-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/lifecycle/niural-lifecycle.yml
+  href: https://artifacts.apis.io/niural/lifecycle/niural-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/niural-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/changelog/niural-changelog.yml
+  href: https://artifacts.apis.io/niural/changelog/niural-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/niural-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/data-model/niural-data-model.yml
+  href: https://artifacts.apis.io/niural/data-model/niural-data-model.yml
   title: ''
   type: DataModel
   url: data-model/niural-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/conformance/niural-conformance.yml
+  href: https://artifacts.apis.io/niural/conformance/niural-conformance.yml
   title: ''
   type: Conformance
   url: conformance/niural-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/rate-limits/niural-rate-limits.yml
+  href: https://artifacts.apis.io/niural/rate-limits/niural-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/niural-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/plans/niural-plans-pricing.yml
+  href: https://artifacts.apis.io/niural/plans/niural-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/niural-plans-pricing.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/sandbox/niural-sandbox.yml
+  href: https://artifacts.apis.io/niural/sandbox/niural-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/niural-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/asyncapi/niural-webhooks.yml
+  href: https://artifacts.apis.io/niural/asyncapi/niural-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/niural-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/niural/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/mcp/niural-mcp.yml
+  href: https://artifacts.apis.io/niural/mcp/niural-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/niural-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/packages/niural-packages.yml
+  href: https://artifacts.apis.io/niural/packages/niural-packages.yml
   title: ''
   type: Packages
   url: packages/niural-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/security/niural-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/niural/security/niural-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/niural-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/security/niural-domain-security.yml
+  href: https://artifacts.apis.io/niural/security/niural-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/niural-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/agentic-access/niural-agentic-access.yml
+  href: https://artifacts.apis.io/niural/agentic-access/niural-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/niural-agentic-access.yml
 created: '2026-08-04'
 description: 'Niural is a US-headquartered global workforce platform that unifies US payroll, PEO, employer of record (EOR), agent of record (AOR), contractor management and cross-border contractor payments in 150+ countries inside a single system, with an AI layer (EMMA) that orchestrates payroll, compliance and expense approvals. Its public developer surface — the Niural Public API, documented on ReadMe at docs.niural.com — is narrower than the product: an OpenAPI 3.0.3 contract of 15 operations across four resources (authentication, pay-on-demand contractor contracts, invoices and transactions), served from separate sandbox and live hosts, authenticated with a client-credential exchange that returns a bearer JWT, with cursor pagination, a 25 requests/second rate limit, and three HMAC-SHA256-signed webhook events. Payroll, PEO, EOR and benefits are not exposed on the public API.'
+finops:
+- has_sources: true
+  method: derived
+  name: Niural Finops
+  primary_unit: employee
+  service_category: ''
+  slug: niural-finops
+  template: false
 image: https://www.niural.com/favicon.ico
 layout: provider
 modified: '2026-08-04'
@@ -264,35 +276,38 @@ overview: 'Niural publishes 4 API contracts indexed on the [APIs.io](https://api
   The Niural catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Niural''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Niural''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Niural Plans Pricing
   plan_count: 8
   slug: niural-plans-pricing
-random_paper: 13
+- name: Niural Price Estimates
+  plan_count: 0
+  slug: niural-price-estimates
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Niural Rate Limits
   slug: niural-rate-limits
 score:
-  band: developing
-  composite: 52.6
+  band: strong
+  composite: 64.5
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 57.0
+    artifact_dirs: 26
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 77.6
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 55.1
-    developer_ergonomics: 41.1
-    discoverability: 73.2
-    operational_transparency: 47.4
-  previous_composite: 52.6
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 60.5
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,14 +323,15 @@ score:
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
-    score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/screenshots/niural-2026-08-07T185346.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/niural/niural-2026-08-07T185346.png
 security:
 - kind: authentication
   name: Niural Authentication
@@ -333,6 +349,14 @@ security:
   name: Niural Trust Center
   slug: niural-trust-center
   summary_line: SOC 2 Type II
+skill_count: 3
+skills:
+- name: Invoice a contract and settle it with a transaction
+  slug: niural-invoice-and-pay-contractor
+- name: Onboard a contractor onto a pay-on-demand contract
+  slug: niural-onboard-contractor
+- name: Reconcile webhook events against the REST API
+  slug: niural-reconcile-webhook-events
 slug: niural
 tags:
 - Company

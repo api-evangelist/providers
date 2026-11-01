@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/perseus/refs/heads/main/plans/perseus-plans-pricing.yml
+  href: https://artifacts.apis.io/perseus/plans/perseus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/perseus-plans-pricing.yml
@@ -79,27 +81,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/efficientsystemsinc
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/perseus/refs/heads/main/cli/perseus-cli.yml
+  href: https://artifacts.apis.io/perseus/cli/perseus-cli.yml
   title: ''
   type: CLI
   url: cli/perseus-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perseus/refs/heads/main/skills/perseus-code-search.md
+  href: https://artifacts.apis.io/perseus/skills/perseus-code-search.md
   title: ''
   type: AgentSkill
   url: skills/perseus-code-search.md
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/perseus/refs/heads/main/packages/perseus-packages.yml
+  href: https://artifacts.apis.io/perseus/packages/perseus-packages.yml
   title: ''
   type: Packages
   url: packages/perseus-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perseus/refs/heads/main/authentication/perseus-authentication.yml
+  href: https://artifacts.apis.io/perseus/authentication/perseus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/perseus-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perseus/refs/heads/main/security/perseus-domain-security.yml
+  href: https://artifacts.apis.io/perseus/security/perseus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/perseus-domain-security.yml
@@ -119,26 +121,26 @@ plans:
 - name: Perseus Plans Pricing
   plan_count: 3
   slug: perseus-plans-pricing
-random_paper: 5
+random_paper: 7
 score:
   band: thin
-  composite: 28.4
+  composite: 28.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 0.0
   facets:
     access_clarity: 55.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 64.3
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 22.1
+    operational_transparency: 5.3
+  previous_composite: 28.8
   provenance:
     skills: first-party
   regulatory:
@@ -147,14 +149,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/perseus/refs/heads/main/screenshots/perseus-2026-09-02T151105.png
+screenshot: https://apis.io/screenshots/perseus/perseus-2026-09-02T151105.png
 security:
 - kind: authentication
   name: Perseus Authentication
@@ -164,6 +166,10 @@ security:
   name: Perseus Domain Security
   slug: perseus-domain-security
   summary_line: TLSv1.3
+skill_count: 1
+skills:
+- name: perseus
+  slug: perseus-code-search
 slug: perseus
 tags:
 - Company

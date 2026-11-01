@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/penn-mutual-life-insurance/refs/heads/main/security/penn-mutual-life-insurance-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/penn-mutual-life-insurance/security/penn-mutual-life-insurance-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/penn-mutual-life-insurance-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/penn-mutual-life-insurance/refs/heads/main/security/penn-mutual-life-insurance-domain-security.yml
+  href: https://artifacts.apis.io/penn-mutual-life-insurance/security/penn-mutual-life-insurance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/penn-mutual-life-insurance-domain-security.yml
@@ -79,10 +81,10 @@ press:
 - date: ''
   title: 'Future of Life Insurance: AI, Service Innovation & Client ...'
   url: https://www.youtube.com/watch?v=TgrIYJFyZ34
-random_paper: 20
+random_paper: 0
 score:
   band: minimal
-  composite: 3.0
+  composite: 4.4
   coverage:
     artifact_dirs: 6
     catalog_earned: 22.0
@@ -97,22 +99,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 39.3
-    operational_transparency: 0.0
-  previous_composite: 3.0
+    operational_transparency: 10.5
+  previous_composite: 4.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 10.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/penn-mutual-life-insurance/refs/heads/main/screenshots/penn-mutual-life-insurance-2026-06-20T191541.png
+screenshot: https://apis.io/screenshots/penn-mutual-life-insurance/penn-mutual-life-insurance-2026-06-20T191541.png
 security:
 - kind: domain-security
   name: Penn Mutual Life Insurance Domain Security

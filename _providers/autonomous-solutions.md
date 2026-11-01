@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 111
   slug: autonomous-solutions-agentic-access
   summary_line: 111 operations · 54 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.venhub.com
   baseurl_source: declared
@@ -158,89 +160,89 @@ apis:
   description: The Health Check API from VenHub — 1 operation(s) for health check.
   name: VenHub Health Check API
   slug: autonomous-solutions-health-check-api
-artifact_total: 37
+artifact_total: 42
 common:
 - group: company
   title: ''
   type: Blog
   url: https://www.venhub.com/blogs
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/capabilities/autonomous-solutions-capability-edges.yml
+  href: https://artifacts.apis.io/autonomous-solutions/capabilities/autonomous-solutions-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/autonomous-solutions-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/agentic-access/autonomous-solutions-agentic-access.yml
+  href: https://artifacts.apis.io/autonomous-solutions/agentic-access/autonomous-solutions-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/autonomous-solutions-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/rate-limits/autonomous-solutions-rate-limits.yml
+  href: https://artifacts.apis.io/autonomous-solutions/rate-limits/autonomous-solutions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/autonomous-solutions-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/rules/autonomous-solutions-rules.yml
+  href: https://artifacts.apis.io/autonomous-solutions/rules/autonomous-solutions-rules.yml
   title: ''
   type: Spectral
   url: rules/autonomous-solutions-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/json-ld/autonomous-solutions-context.jsonld
+  href: https://artifacts.apis.io/autonomous-solutions/json-ld/autonomous-solutions-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/autonomous-solutions-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/vocabulary/autonomous-solutions-vocabulary.yml
+  href: https://artifacts.apis.io/autonomous-solutions/vocabulary/autonomous-solutions-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/autonomous-solutions-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/autonomous-solutions/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/data-model/autonomous-solutions-data-model.yml
+  href: https://artifacts.apis.io/autonomous-solutions/data-model/autonomous-solutions-data-model.yml
   title: ''
   type: DataModel
   url: data-model/autonomous-solutions-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/conventions/autonomous-solutions-conventions.yml
+  href: https://artifacts.apis.io/autonomous-solutions/conventions/autonomous-solutions-conventions.yml
   title: ''
   type: Conventions
   url: conventions/autonomous-solutions-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/authentication/autonomous-solutions-authentication.yml
+  href: https://artifacts.apis.io/autonomous-solutions/authentication/autonomous-solutions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/autonomous-solutions-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/lifecycle/autonomous-solutions-lifecycle.yml
+  href: https://artifacts.apis.io/autonomous-solutions/lifecycle/autonomous-solutions-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/autonomous-solutions-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/errors/autonomous-solutions-problem-types.yml
+  href: https://artifacts.apis.io/autonomous-solutions/errors/autonomous-solutions-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/autonomous-solutions-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/conformance/autonomous-solutions-conformance.yml
+  href: https://artifacts.apis.io/autonomous-solutions/conformance/autonomous-solutions-conformance.yml
   title: ''
   type: Conformance
   url: conformance/autonomous-solutions-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/overlays/autonomous-solutions-openapi-overlay.yaml
+  href: https://artifacts.apis.io/autonomous-solutions/overlays/autonomous-solutions-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/autonomous-solutions-openapi-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/hosts/autonomous-solutions-hosts.yml
+  href: https://artifacts.apis.io/autonomous-solutions/hosts/autonomous-solutions-hosts.yml
   title: ''
   type: Hosts
   url: hosts/autonomous-solutions-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/vendors/autonomous-solutions-vendors.yml
+  href: https://artifacts.apis.io/autonomous-solutions/vendors/autonomous-solutions-vendors.yml
   title: ''
   type: Vendors
   url: vendors/autonomous-solutions-vendors.yml
@@ -269,7 +271,7 @@ common:
   type: Documentation
   url: https://developer.venhub.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/security/autonomous-solutions-domain-security.yml
+  href: https://artifacts.apis.io/autonomous-solutions/security/autonomous-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autonomous-solutions-domain-security.yml
@@ -316,7 +318,7 @@ overview: 'VenHub publishes 25 API contracts indexed on the [APIs.io](https://ap
 
 
   VenHub''s developer surface includes engineering blog, authentication, getting-started guide, documentation, and 21 more developer resources.'
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Autonomous Solutions Rate Limits
@@ -336,7 +338,7 @@ rules:
   slug: autonomous-solutions-rules
 score:
   band: developing
-  composite: 39.4
+  composite: 40.0
   coverage:
     artifact_dirs: 24
     catalog_earned: 70.8
@@ -344,15 +346,15 @@ score:
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 22.0
-    contract_quality: 51.9
+    contract_quality: 51.6
     developer_ergonomics: 37.5
     discoverability: 67.9
     operational_transparency: 21.1
-  previous_composite: 38.9
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -369,13 +371,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/autonomous-solutions/refs/heads/main/screenshots/autonomous-solutions-2026-10-11T100954.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/autonomous-solutions/autonomous-solutions-2026-10-11T100954.png
 security:
 - kind: authentication
   name: Autonomous Solutions Authentication
@@ -385,6 +388,18 @@ security:
   name: Autonomous Solutions Domain Security
   slug: autonomous-solutions-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 5
+skills:
+- name: autonomous-solutions-create-and-check-order
+  slug: autonomous-solutions-create-and-check-order
+- name: autonomous-solutions-create-and-get-user
+  slug: autonomous-solutions-create-and-get-user
+- name: autonomous-solutions-create-and-retrieve-deal
+  slug: autonomous-solutions-create-and-retrieve-deal
+- name: autonomous-solutions-deposit-and-check-balance
+  slug: autonomous-solutions-deposit-and-check-balance
+- name: autonomous-solutions-pay-with-card
+  slug: autonomous-solutions-pay-with-card
 slug: autonomous-solutions
 tags:
 - Retail

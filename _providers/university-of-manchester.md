@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.2
-  scored_at: '2026-10-17'
+  score: 27.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 4
   slug: university-of-manchester-agentic-access
   summary_line: 4 operations
-api_count: 5
+api_count: 3
 apis:
 - description: The University's own Shibboleth Identity Provider, entityID https://shib.manchester.ac.uk/shibboleth, asserting the scope manchester.ac.uk. Its entity descriptor is published as signed, machine-readab
   name: Shibboleth SAML Identity Provider (UK Access Management Federation)
@@ -246,7 +248,7 @@ apis:
 artifact_total: 54
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/capabilities/university-of-manchester-capability-edges.yml
+  href: https://artifacts.apis.io/university-of-manchester/capabilities/university-of-manchester-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/university-of-manchester-capability-edges.yml
@@ -319,67 +321,67 @@ common:
   type: AITooling
   url: https://www.staffnet.manchester.ac.uk/ai-hub/tools-and-resources/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/authentication/university-of-manchester-authentication.yml
+  href: https://artifacts.apis.io/university-of-manchester/authentication/university-of-manchester-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-manchester-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/conformance/university-of-manchester-conformance.yml
+  href: https://artifacts.apis.io/university-of-manchester/conformance/university-of-manchester-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-manchester-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/errors/university-of-manchester-errors.yml
+  href: https://artifacts.apis.io/university-of-manchester/errors/university-of-manchester-errors.yml
   title: ''
   type: Errors
   url: errors/university-of-manchester-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/lifecycle/university-of-manchester-lifecycle.yml
+  href: https://artifacts.apis.io/university-of-manchester/lifecycle/university-of-manchester-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/university-of-manchester-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/rules/university-of-manchester-rules.yml
+  href: https://artifacts.apis.io/university-of-manchester/rules/university-of-manchester-rules.yml
   title: ''
   type: Rules
   url: rules/university-of-manchester-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/vocabulary/university-of-manchester-vocabulary.yml
+  href: https://artifacts.apis.io/university-of-manchester/vocabulary/university-of-manchester-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/university-of-manchester-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/json-ld/university-of-manchester-context.jsonld
+  href: https://artifacts.apis.io/university-of-manchester/json-ld/university-of-manchester-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/university-of-manchester-context.jsonld
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/agentic-access/university-of-manchester-agentic-access.yml
+  href: https://artifacts.apis.io/university-of-manchester/agentic-access/university-of-manchester-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-manchester-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/security/university-of-manchester-domain-security.yml
+  href: https://artifacts.apis.io/university-of-manchester/security/university-of-manchester-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-manchester-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/plans/university-of-manchester-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-manchester/plans/university-of-manchester-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-manchester-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/rate-limits/university-of-manchester-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-manchester/rate-limits/university-of-manchester-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-manchester-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/finops/university-of-manchester-finops.yml
+  href: https://artifacts.apis.io/university-of-manchester/finops/university-of-manchester-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-manchester-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-manchester/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -433,7 +435,7 @@ plans:
 - name: University Of Manchester Plans Pricing
   plan_count: 2
   slug: university-of-manchester-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: University Of Manchester Rate Limits
@@ -452,7 +454,7 @@ rules:
   slug: university-of-manchester-rules
 score:
   band: thin
-  composite: 36.0
+  composite: 37.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 61.3
@@ -460,14 +462,14 @@ score:
     catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -9.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 11.4
     contract_quality: 61.1
     developer_ergonomics: 28.6
     discoverability: 71.4
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -476,7 +478,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 45.5
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -491,13 +493,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/screenshots/university-of-manchester-2026-06-20T200205.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/university-of-manchester/university-of-manchester-2026-06-20T200205.png
 security:
 - kind: authentication
   name: University Of Manchester Authentication

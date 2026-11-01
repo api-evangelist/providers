@@ -15,16 +15,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.2
-  scored_at: '2026-10-17'
+  score: 55.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -109,69 +111,69 @@ apis:
   description: Operations related to user management and profiles
   name: BodySpec Users API
   slug: bodyspec-users-api
-artifact_total: 29
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Bodyspec Webhooks
   slug: bodyspec-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bodyspec/refs/heads/main/vendors/bodyspec-vendors.yml
+  href: https://artifacts.apis.io/bodyspec/vendors/bodyspec-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bodyspec-vendors.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bodyspec/refs/heads/main/agentic-access/bodyspec-agentic-access.yml
+  href: https://artifacts.apis.io/bodyspec/agentic-access/bodyspec-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bodyspec-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bodyspec/refs/heads/main/rules/bodyspec-rules.yml
+  href: https://artifacts.apis.io/bodyspec/rules/bodyspec-rules.yml
   title: ''
   type: Spectral
   url: rules/bodyspec-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bodyspec/refs/heads/main/json-ld/bodyspec-context.jsonld
+  href: https://artifacts.apis.io/bodyspec/json-ld/bodyspec-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bodyspec-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bodyspec/refs/heads/main/vocabulary/bodyspec-vocabulary.yml
+  href: https://artifacts.apis.io/bodyspec/vocabulary/bodyspec-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bodyspec-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bodyspec/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bodyspec/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bodyspec/refs/heads/main/asyncapi/bodyspec-webhooks.yml
+  href: https://artifacts.apis.io/bodyspec/asyncapi/bodyspec-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bodyspec-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bodyspec/refs/heads/main/data-model/bodyspec-data-model.yml
+  href: https://artifacts.apis.io/bodyspec/data-model/bodyspec-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bodyspec-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bodyspec/refs/heads/main/errors/bodyspec-problem-types.yml
+  href: https://artifacts.apis.io/bodyspec/errors/bodyspec-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bodyspec-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bodyspec/refs/heads/main/conformance/bodyspec-conformance.yml
+  href: https://artifacts.apis.io/bodyspec/conformance/bodyspec-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bodyspec-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bodyspec/refs/heads/main/well-known/bodyspec-well-known.yml
+  href: https://artifacts.apis.io/bodyspec/well-known/bodyspec-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bodyspec-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bodyspec/refs/heads/main/hosts/bodyspec-hosts.yml
+  href: https://artifacts.apis.io/bodyspec/hosts/bodyspec-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bodyspec-hosts.yml
@@ -180,17 +182,17 @@ common:
   type: Login
   url: https://www.bodyspec.com/sign-in
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bodyspec/refs/heads/main/scopes/bodyspec-scopes.yml
+  href: https://artifacts.apis.io/bodyspec/scopes/bodyspec-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bodyspec-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bodyspec/refs/heads/main/authentication/bodyspec-authentication.yml
+  href: https://artifacts.apis.io/bodyspec/authentication/bodyspec-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bodyspec-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bodyspec/refs/heads/main/security/bodyspec-domain-security.yml
+  href: https://artifacts.apis.io/bodyspec/security/bodyspec-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bodyspec-domain-security.yml
@@ -284,7 +286,7 @@ plans:
 - name: Bodyspec Plans Pricing
   plan_count: 0
   slug: bodyspec-plans-pricing
-random_paper: 21
+random_paper: 17
 rules:
 - authorship: generated
   effective_rule_count: 57
@@ -305,7 +307,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.7
+  composite: 48.7
   coverage:
     artifact_dirs: 21
     catalog_earned: 57.8
@@ -313,15 +315,15 @@ score:
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 22.0
-    contract_quality: 72.1
+    contract_quality: 73.3
     developer_ergonomics: 44.6
     discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 51.9
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -329,7 +331,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 15
+      total: 14
     mcp: unknown
     skills: derived
   regulatory:
@@ -338,12 +340,13 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Bodyspec Authentication
@@ -353,6 +356,14 @@ security:
   name: Bodyspec Domain Security
   slug: bodyspec-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: bodyspec-manage-partner-webhooks
+  slug: bodyspec-manage-partner-webhooks
+- name: bodyspec-partner-orders-create-and-manage
+  slug: bodyspec-partner-orders-create-and-manage
+- name: bodyspec-partner-results-export
+  slug: bodyspec-partner-results-export
 slug: bodyspec
 tags:
 - Company

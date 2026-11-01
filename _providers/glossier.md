@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the Glossier storefront implementing the Universal Commerce Protocol over MCP: catalog search, cart, checkout, and fulfillment with a buyer-approval invariant on paym'
@@ -42,42 +44,42 @@ apis:
 artifact_total: 6
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/glossier/refs/heads/main/mcp/glossier-mcp.yml
+  href: https://artifacts.apis.io/glossier/mcp/glossier-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/glossier-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/glossier/refs/heads/main/llms/glossier-llms.txt
+  href: https://artifacts.apis.io/glossier/llms/glossier-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/glossier-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/glossier/refs/heads/main/well-known/glossier-well-known.yml
+  href: https://artifacts.apis.io/glossier/well-known/glossier-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/glossier-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/glossier/refs/heads/main/authentication/glossier-authentication.yml
+  href: https://artifacts.apis.io/glossier/authentication/glossier-authentication.yml
   title: ''
   type: Authentication
   url: authentication/glossier-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/glossier/refs/heads/main/scopes/glossier-scopes.yml
+  href: https://artifacts.apis.io/glossier/scopes/glossier-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/glossier-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/glossier/refs/heads/main/conformance/glossier-conformance.yml
+  href: https://artifacts.apis.io/glossier/conformance/glossier-conformance.yml
   title: ''
   type: Conformance
   url: conformance/glossier-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/glossier/refs/heads/main/conventions/glossier-conventions.yml
+  href: https://artifacts.apis.io/glossier/conventions/glossier-conventions.yml
   title: ''
   type: Conventions
   url: conventions/glossier-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/glossier/refs/heads/main/security/glossier-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/glossier/security/glossier-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/glossier-vulnerability-disclosure.yml
@@ -86,7 +88,7 @@ common:
   type: Security
   url: https://www.glossier.com/pages/responsible-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/glossier/refs/heads/main/security/glossier-domain-security.yml
+  href: https://artifacts.apis.io/glossier/security/glossier-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/glossier-domain-security.yml
@@ -122,7 +124,7 @@ overview: 'Glossier is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Glossier''s developer surface includes authentication, documentation, and 12 more developer resources.'
-random_paper: 14
+random_paper: 8
 scopes:
 - name: Glossier Scopes
   scope_count: 4
@@ -130,7 +132,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.3
+  composite: 22.3
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -138,15 +140,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 10.5
-  previous_composite: 23.2
+  previous_composite: 22.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -156,14 +158,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/glossier/refs/heads/main/screenshots/glossier-2026-07-25T215930.png
+screenshot: https://apis.io/screenshots/glossier/glossier-2026-07-25T215930.png
 security:
 - kind: authentication
   name: Glossier Authentication

@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'The agent-facing commerce surface for the poppi online store. An anonymous Model Context Protocol endpoint implementing the Universal Commerce Protocol (UCP) shopping service, exposing catalog search '
@@ -45,10 +47,10 @@ apis:
 - description: The Shopify Storefront GraphQL API as deployed on poppi's own domain — 34 query fields, 41 mutations and 420 types covering products, collections, search, carts, content and customer accounts. Introsp
   name: Poppi Storefront GraphQL API
   slug: poppi-storefront-graphql
-artifact_total: 8
+artifact_total: 10
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/security/poppi-domain-security.yml
+  href: https://artifacts.apis.io/poppi/security/poppi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/poppi-domain-security.yml
@@ -61,82 +63,82 @@ common:
   type: Documentation
   url: https://drinkpoppi.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/mcp/poppi-mcp.yml
+  href: https://artifacts.apis.io/poppi/mcp/poppi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/poppi-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/llms/poppi-llms.txt
+  href: https://artifacts.apis.io/poppi/llms/poppi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/poppi-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/well-known/poppi-well-known.yml
+  href: https://artifacts.apis.io/poppi/well-known/poppi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/poppi-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/authentication/poppi-authentication.yml
+  href: https://artifacts.apis.io/poppi/authentication/poppi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/poppi-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/scopes/poppi-scopes.yml
+  href: https://artifacts.apis.io/poppi/scopes/poppi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/poppi-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/conventions/poppi-conventions.yml
+  href: https://artifacts.apis.io/poppi/conventions/poppi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/poppi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/conventions/poppi-conventions.yml
+  href: https://artifacts.apis.io/poppi/conventions/poppi-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/poppi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/conformance/poppi-conformance.yml
+  href: https://artifacts.apis.io/poppi/conformance/poppi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/poppi-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/errors/poppi-problem-types.yml
+  href: https://artifacts.apis.io/poppi/errors/poppi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/poppi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/lifecycle/poppi-lifecycle.yml
+  href: https://artifacts.apis.io/poppi/lifecycle/poppi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/poppi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/data-model/poppi-data-model.yml
+  href: https://artifacts.apis.io/poppi/data-model/poppi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/poppi-data-model.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/graphql/poppi-graphql.yml
+  href: https://artifacts.apis.io/poppi/graphql/poppi-graphql.yml
   title: ''
   type: GraphQL
   url: graphql/poppi-graphql.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/mcp/poppi-tool-crosswalk.yml
+  href: https://artifacts.apis.io/poppi/mcp/poppi-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/poppi-tool-crosswalk.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/rate-limits/poppi-rate-limits.yml
+  href: https://artifacts.apis.io/poppi/rate-limits/poppi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/poppi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/plans/poppi-plans-pricing.yml
+  href: https://artifacts.apis.io/poppi/plans/poppi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/poppi-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/poppi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -180,7 +182,7 @@ plans:
 - name: Poppi Plans Pricing
   plan_count: 0
   slug: poppi-plans-pricing
-random_paper: 2
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Poppi Rate Limits
@@ -192,7 +194,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 30.1
+  composite: 30.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 45.0
@@ -200,20 +202,20 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 10.4
-    developer_ergonomics: 33.3
-    discoverability: 75.0
+    developer_ergonomics: 35.7
+    discoverability: 65.0
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 30.0
+  previous_composite: 30.9
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -224,14 +226,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/poppi/refs/heads/main/screenshots/poppi-2026-09-02T151740.png
+screenshot: https://apis.io/screenshots/poppi/poppi-2026-09-02T151740.png
 security:
 - kind: authentication
   name: Poppi Authentication
@@ -241,6 +243,12 @@ security:
   name: Poppi Domain Security
   slug: poppi-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Buy poppi with buyer approval
+  slug: poppi-buy-with-approval
+- name: Browse and search the poppi catalog
+  slug: poppi-shop-catalog
 slug: poppi
 tags:
 - Company

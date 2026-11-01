@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exxon-mobil/refs/heads/main/security/exxon-mobil-domain-security.yml
+  href: https://artifacts.apis.io/exxon-mobil/security/exxon-mobil-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/exxon-mobil-domain-security.yml
@@ -97,12 +99,12 @@ press:
 - date: ''
   title: ExxonMobil + Intel | ExxonMobil Product Solutions
   url: https://www.exxonmobilchemical.com/en/industries/industrial-applications/data-center-immersion-fluids/intel
-random_paper: 16
+random_paper: 10
 score:
   band: minimal
-  composite: 5.2
+  composite: 5.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -114,23 +116,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 56.3
-    operational_transparency: 2.6
-  previous_composite: 5.2
+    discoverability: 57.1
+    operational_transparency: 5.3
+  previous_composite: 5.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/exxon-mobil/refs/heads/main/screenshots/exxon-mobil-2026-06-20T180951.png
+screenshot: https://apis.io/screenshots/exxon-mobil/exxon-mobil-2026-06-20T180951.png
 security:
 - kind: domain-security
   name: Exxon Mobil Domain Security

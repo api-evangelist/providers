@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/xelix/refs/heads/main/plans/xelix-plans-pricing.yml
+  href: https://artifacts.apis.io/xelix/plans/xelix-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/xelix-plans-pricing.yml
@@ -46,27 +48,27 @@ common:
   type: BlogRSS
   url: https://xelix.com/resources/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xelix/refs/heads/main/security/xelix-domain-security.yml
+  href: https://artifacts.apis.io/xelix/security/xelix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xelix-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/xelix/refs/heads/main/packages/xelix-packages.yml
+  href: https://artifacts.apis.io/xelix/packages/xelix-packages.yml
   title: ''
   type: Packages
   url: packages/xelix-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xelix/refs/heads/main/llms/xelix-llms.txt
+  href: https://artifacts.apis.io/xelix/llms/xelix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xelix-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xelix/refs/heads/main/lifecycle/xelix-lifecycle.yml
+  href: https://artifacts.apis.io/xelix/lifecycle/xelix-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/xelix-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xelix/refs/heads/main/security/xelix-trust-center.yml
+  href: https://artifacts.apis.io/xelix/security/xelix-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/xelix-trust-center.yml
@@ -131,25 +133,25 @@ plans:
 - name: Xelix Plans Pricing
   plan_count: 0
   slug: xelix-plans-pricing
-random_paper: 4
+random_paper: 2
 score:
   band: emerging
-  composite: 14.8
+  composite: 16.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 55.4
-    operational_transparency: 18.4
+    developer_ergonomics: 7.1
+    discoverability: 48.2
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -158,21 +160,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 14.7
+  previous_composite: 16.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/xelix/refs/heads/main/screenshots/xelix-2026-09-02T171108.png
+screenshot: https://apis.io/screenshots/xelix/xelix-2026-09-02T171108.png
 security:
 - kind: domain-security
   name: Xelix Domain Security

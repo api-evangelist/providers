@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Alkymi exposes a developer-friendly REST API with full event-based webhook support for ingesting, transforming, and delivering extracted private markets data. API access and reference documentation ar
@@ -69,22 +71,22 @@ common:
   type: Compliance
   url: https://www.alkymi.io/enterprise-platform/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alkymi/refs/heads/main/security/alkymi-trust-center.yml
+  href: https://artifacts.apis.io/alkymi/security/alkymi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/alkymi-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alkymi/refs/heads/main/conformance/alkymi-conformance.yml
+  href: https://artifacts.apis.io/alkymi/conformance/alkymi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alkymi-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alkymi/refs/heads/main/security/alkymi-domain-security.yml
+  href: https://artifacts.apis.io/alkymi/security/alkymi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alkymi-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alkymi/refs/heads/main/asyncapi/alkymi-webhooks.yml
+  href: https://artifacts.apis.io/alkymi/asyncapi/alkymi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/alkymi-webhooks.yml
@@ -123,10 +125,10 @@ overview: 'Alkymi is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Alkymi''s developer surface includes documentation, engineering blog, signup flow, support, and 11 more developer resources.'
-random_paper: 9
+random_paper: 23
 score:
   band: thin
-  composite: 35.0
+  composite: 36.3
   coverage:
     artifact_dirs: 7
     catalog_earned: 32.0
@@ -134,15 +136,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 26.2
     discoverability: 57.1
     operational_transparency: 18.4
-  previous_composite: 34.9
+  previous_composite: 36.3
   provenance:
     conformance: first-party
   regulatory:
@@ -155,14 +157,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alkymi/refs/heads/main/screenshots/alkymi-2026-07-25T195636.png
+screenshot: https://apis.io/screenshots/alkymi/alkymi-2026-07-25T195636.png
 security:
 - kind: domain-security
   name: Alkymi Domain Security

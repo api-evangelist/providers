@@ -16,7 +16,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: near-conformant
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.3
-  scored_at: '2026-10-17'
+  score: 58.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 10
   slug: seamless-ai-agentic-access
   summary_line: 10 operations · 4 acting
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://api.seamless.ai/api/client/v1
   baseurl_source: declared
@@ -72,19 +74,24 @@ apis:
     question: How do I turn an authorization code into an access token?
   phrasing_ops: 1
   slug: seamless-ai-oauth-api
-artifact_total: 29
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Seamless Ai Webhooks
   slug: seamless-ai-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/seamless-ai/capabilities/seamless-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/seamless-ai-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/finops/seamless-ai-finops.yml
+  href: https://artifacts.apis.io/seamless-ai/finops/seamless-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/seamless-ai-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/mcp/seamless-ai-mcp.yml
+  href: https://artifacts.apis.io/seamless-ai/mcp/seamless-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/seamless-ai-mcp.yml
@@ -157,17 +164,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/seamlessai
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/a2a/seamless-ai-a2a.yml
+  href: https://artifacts.apis.io/seamless-ai/a2a/seamless-ai-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/seamless-ai-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/seamless-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/llms/seamless-ai-llms.txt
+  href: https://artifacts.apis.io/seamless-ai/llms/seamless-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/seamless-ai-llms.txt
@@ -176,77 +183,77 @@ common:
   type: LlmsText
   url: https://docs.seamless.ai/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/agentic-access/seamless-ai-agentic-access.yml
+  href: https://artifacts.apis.io/seamless-ai/agentic-access/seamless-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/seamless-ai-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/well-known/seamless-ai-well-known.yml
+  href: https://artifacts.apis.io/seamless-ai/well-known/seamless-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/seamless-ai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/authentication/seamless-ai-authentication.yml
+  href: https://artifacts.apis.io/seamless-ai/authentication/seamless-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/seamless-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/scopes/seamless-ai-scopes.yml
+  href: https://artifacts.apis.io/seamless-ai/scopes/seamless-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/seamless-ai-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/conventions/seamless-ai-conventions.yml
+  href: https://artifacts.apis.io/seamless-ai/conventions/seamless-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/seamless-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/errors/seamless-ai-problem-types.yml
+  href: https://artifacts.apis.io/seamless-ai/errors/seamless-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/seamless-ai-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/rate-limits/seamless-ai-rate-limits.yml
+  href: https://artifacts.apis.io/seamless-ai/rate-limits/seamless-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/seamless-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/plans/seamless-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/seamless-ai/plans/seamless-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/seamless-ai-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/lifecycle/seamless-ai-lifecycle.yml
+  href: https://artifacts.apis.io/seamless-ai/lifecycle/seamless-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/seamless-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/conformance/seamless-ai-conformance.yml
+  href: https://artifacts.apis.io/seamless-ai/conformance/seamless-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/seamless-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/data-model/seamless-ai-data-model.yml
+  href: https://artifacts.apis.io/seamless-ai/data-model/seamless-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/seamless-ai-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/packages/seamless-ai-packages.yml
+  href: https://artifacts.apis.io/seamless-ai/packages/seamless-ai-packages.yml
   title: ''
   type: Packages
   url: packages/seamless-ai-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/asyncapi/seamless-ai-webhooks.yml
+  href: https://artifacts.apis.io/seamless-ai/asyncapi/seamless-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/seamless-ai-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/security/seamless-ai-domain-security.yml
+  href: https://artifacts.apis.io/seamless-ai/security/seamless-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/seamless-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/security/seamless-ai-trust-center.yml
+  href: https://artifacts.apis.io/seamless-ai/security/seamless-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/seamless-ai-trust-center.yml
@@ -255,97 +262,97 @@ common:
   type: Compliance
   url: https://trust.seamless.ai/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/overlays/seamless-ai-contact-search-overlay.yaml
+  href: https://artifacts.apis.io/seamless-ai/overlays/seamless-ai-contact-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seamless-ai-contact-search-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/overlays/seamless-ai-company-search-overlay.yaml
+  href: https://artifacts.apis.io/seamless-ai/overlays/seamless-ai-company-search-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seamless-ai-company-search-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/overlays/seamless-ai-contact-research-overlay.yaml
+  href: https://artifacts.apis.io/seamless-ai/overlays/seamless-ai-contact-research-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seamless-ai-contact-research-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/overlays/seamless-ai-company-research-overlay.yaml
+  href: https://artifacts.apis.io/seamless-ai/overlays/seamless-ai-company-research-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seamless-ai-company-research-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/overlays/seamless-ai-org-contacts-overlay.yaml
+  href: https://artifacts.apis.io/seamless-ai/overlays/seamless-ai-org-contacts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seamless-ai-org-contacts-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/overlays/seamless-ai-org-companies-overlay.yaml
+  href: https://artifacts.apis.io/seamless-ai/overlays/seamless-ai-org-companies-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seamless-ai-org-companies-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/overlays/seamless-ai-oauth-overlay.yaml
+  href: https://artifacts.apis.io/seamless-ai/overlays/seamless-ai-oauth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/seamless-ai-oauth-overlay.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/json-schema/seamless-ai-contact-schema.json
+  href: https://artifacts.apis.io/seamless-ai/json-schema/seamless-ai-contact-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/seamless-ai-contact-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/json-schema/seamless-ai-company-schema.json
+  href: https://artifacts.apis.io/seamless-ai/json-schema/seamless-ai-company-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/seamless-ai-company-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/json-structure/seamless-ai-contact-structure.json
+  href: https://artifacts.apis.io/seamless-ai/json-structure/seamless-ai-contact-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/seamless-ai-contact-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/json-structure/seamless-ai-company-structure.json
+  href: https://artifacts.apis.io/seamless-ai/json-structure/seamless-ai-company-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/seamless-ai-company-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/json-ld/seamless-ai-context.jsonld
+  href: https://artifacts.apis.io/seamless-ai/json-ld/seamless-ai-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/seamless-ai-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/examples/seamless-ai-search-contacts-example.json
+  href: https://artifacts.apis.io/seamless-ai/examples/seamless-ai-search-contacts-example.json
   title: ''
   type: Examples
   url: examples/seamless-ai-search-contacts-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/examples/seamless-ai-research-contacts-example.json
+  href: https://artifacts.apis.io/seamless-ai/examples/seamless-ai-research-contacts-example.json
   title: ''
   type: Examples
   url: examples/seamless-ai-research-contacts-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/examples/seamless-ai-poll-contacts-research-results-example.json
+  href: https://artifacts.apis.io/seamless-ai/examples/seamless-ai-poll-contacts-research-results-example.json
   title: ''
   type: Examples
   url: examples/seamless-ai-poll-contacts-research-results-example.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/rules/seamless-ai-rules.yml
+  href: https://artifacts.apis.io/seamless-ai/rules/seamless-ai-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/seamless-ai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/vocabulary/seamless-ai-vocabulary.yml
+  href: https://artifacts.apis.io/seamless-ai/vocabulary/seamless-ai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/seamless-ai-vocabulary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/collections/seamless-ai-contact-search-api.postman_collection.json
+  href: https://artifacts.apis.io/seamless-ai/collections/seamless-ai-contact-search-api.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/seamless-ai-contact-search-api.postman_collection.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/collections/seamless-ai-company-search-api.postman_collection.json
+  href: https://artifacts.apis.io/seamless-ai/collections/seamless-ai-company-search-api.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/seamless-ai-company-search-api.postman_collection.json
@@ -380,11 +387,11 @@ examples:
   name: Seamless Ai Search Contacts Example
   slug: seamless-ai-search-contacts-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Seamless Ai Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: seamless-ai-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seamless-ai.png
@@ -422,12 +429,12 @@ overview: 'Seamless.AI publishes 3 API contracts indexed on the [APIs.io](https:
   The Seamless.AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Seamless.AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 51 more developer resources.'
+  Seamless.AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 52 more developer resources.'
 plans:
 - name: Seamless Ai Plans Pricing
   plan_count: 3
   slug: seamless-ai-plans-pricing
-random_paper: 8
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Seamless Ai Rate Limits
@@ -463,23 +470,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.0
+  composite: 65.9
   coverage:
-    artifact_dirs: 33
-    catalog_earned: 77.0
+    artifact_dirs: 34
+    catalog_earned: 74.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 38.0
+    catalog_gap: 41.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: -0.5
   facets:
     access_clarity: 92.1
     contract_governance: 31.8
     contract_quality: 61.4
     developer_ergonomics: 65.5
-    discoverability: 80.0
+    discoverability: 71.7
     operational_transparency: 34.2
-  previous_composite: 67.0
+  previous_composite: 66.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -496,13 +503,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/screenshots/seamless-ai-2026-06-20T193614.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/seamless-ai/seamless-ai-2026-06-20T193614.png
 security:
 - kind: authentication
   name: Seamless Ai Authentication
@@ -516,6 +524,14 @@ security:
   name: Seamless Ai Trust Center
   slug: seamless-ai-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: Enrich companies with Seamless.AI
+  slug: seamless-ai-enrich-companies
+- name: Enrich contacts with Seamless.AI
+  slug: seamless-ai-enrich-contacts
+- name: Seamless
+  slug: seamless-ai-provider-published-skill
 slug: seamless-ai
 tags:
 - B2B

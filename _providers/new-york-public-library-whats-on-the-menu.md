@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: Historical menu records and pages.
   name: New York Public Library What's On The Menu Menus API
   slug: new-york-public-library-whats-on-the-menu-menus-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NYPL What's On The Menu Dishes API
   slug: open-new-york-public-library-whats-on-the-menu-dishes-api
@@ -68,32 +67,32 @@ collections:
   slug: open-new-york-public-library-whats-on-the-menu-menus-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/plans/new-york-public-library-whats-on-the-menu-plans-pricing.yml
+  href: https://artifacts.apis.io/new-york-public-library-whats-on-the-menu/plans/new-york-public-library-whats-on-the-menu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/new-york-public-library-whats-on-the-menu-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/rate-limits/new-york-public-library-whats-on-the-menu-rate-limits.yml
+  href: https://artifacts.apis.io/new-york-public-library-whats-on-the-menu/rate-limits/new-york-public-library-whats-on-the-menu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/new-york-public-library-whats-on-the-menu-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/finops/new-york-public-library-whats-on-the-menu-finops.yml
+  href: https://artifacts.apis.io/new-york-public-library-whats-on-the-menu/finops/new-york-public-library-whats-on-the-menu-finops.yml
   title: ''
   type: FinOps
   url: finops/new-york-public-library-whats-on-the-menu-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/agentic-access/new-york-public-library-whats-on-the-menu-agentic-access.yml
+  href: https://artifacts.apis.io/new-york-public-library-whats-on-the-menu/agentic-access/new-york-public-library-whats-on-the-menu-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/new-york-public-library-whats-on-the-menu-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/security/new-york-public-library-whats-on-the-menu-domain-security.yml
+  href: https://artifacts.apis.io/new-york-public-library-whats-on-the-menu/security/new-york-public-library-whats-on-the-menu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/new-york-public-library-whats-on-the-menu-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/authentication/new-york-public-library-whats-on-the-menu-authentication.yml
+  href: https://artifacts.apis.io/new-york-public-library-whats-on-the-menu/authentication/new-york-public-library-whats-on-the-menu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/new-york-public-library-whats-on-the-menu-authentication.yml
@@ -132,7 +131,7 @@ finops:
 - has_sources: false
   method: generated
   name: New York Public Library Whats On The Menu Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: new-york-public-library-whats-on-the-menu-finops
   template: true
@@ -175,7 +174,7 @@ plans:
 - name: New York Public Library Whats On The Menu Plans Pricing
   plan_count: 3
   slug: new-york-public-library-whats-on-the-menu-plans-pricing
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: New York Public Library Whats On The Menu Rate Limits
@@ -194,7 +193,7 @@ rules:
   slug: new-york-public-library-whats-on-the-menu-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.5
+  composite: 30.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 70.8
@@ -202,15 +201,15 @@ score:
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 56.5
     developer_ergonomics: 21.4
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 32.1
+    operational_transparency: 13.2
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -224,14 +223,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/screenshots/new-york-public-library-whats-on-the-menu-2026-06-20T190231.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/new-york-public-library-whats-on-the-menu/new-york-public-library-whats-on-the-menu-2026-06-20T190231.png
 security:
 - kind: authentication
   name: New York Public Library Whats On The Menu Authentication

@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: documented
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The official public API for the Manifest Cyber platform v1. Used by Manifest''s frontend apps and internal ETL processes to access SBOM data, vulnerability analysis, and software supply chain security '
@@ -69,11 +71,8 @@ apis:
   description: Vulnerability triage and custom vulnerability ingestion
   name: Manifest Cyber Vulnerabilities API
   slug: manifest-cyber-vulnerabilities-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Manifest Cyber Assets API
   slug: open-manifest-cyber-assets-api
@@ -94,32 +93,32 @@ collections:
   slug: open-manifest-cyber-vulnerabilities-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/plans/manifest-cyber-plans-pricing.yml
+  href: https://artifacts.apis.io/manifest-cyber/plans/manifest-cyber-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/manifest-cyber-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/rate-limits/manifest-cyber-rate-limits.yml
+  href: https://artifacts.apis.io/manifest-cyber/rate-limits/manifest-cyber-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/manifest-cyber-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/finops/manifest-cyber-finops.yml
+  href: https://artifacts.apis.io/manifest-cyber/finops/manifest-cyber-finops.yml
   title: ''
   type: FinOps
   url: finops/manifest-cyber-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/capabilities/manifest-cyber-capability-edges.yml
+  href: https://artifacts.apis.io/manifest-cyber/capabilities/manifest-cyber-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/manifest-cyber-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/security/manifest-cyber-trust-center.yml
+  href: https://artifacts.apis.io/manifest-cyber/security/manifest-cyber-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/manifest-cyber-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/security/manifest-cyber-domain-security.yml
+  href: https://artifacts.apis.io/manifest-cyber/security/manifest-cyber-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/manifest-cyber-domain-security.yml
@@ -145,7 +144,7 @@ finops:
 - has_sources: false
   method: generated
   name: Manifest Cyber Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: manifest-cyber-finops
   template: true
@@ -167,30 +166,30 @@ plans:
 - name: Manifest Cyber Plans Pricing
   plan_count: 3
   slug: manifest-cyber-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Manifest Cyber Rate Limits
   slug: manifest-cyber-rate-limits
 score:
   band: emerging
-  composite: 25.1
+  composite: 23.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 11.9
-    discoverability: 60.0
-    operational_transparency: 10.5
-  previous_composite: 26.6
+    discoverability: 57.1
+    operational_transparency: 13.2
+  previous_composite: 23.6
   provenance:
     contracts:
       callable: 100.0
@@ -204,13 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/screenshots/manifest-cyber-2026-06-20T184923.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/manifest-cyber/manifest-cyber-2026-06-20T184923.png
 security:
 - kind: domain-security
   name: Manifest Cyber Domain Security

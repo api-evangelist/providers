@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,11 +62,8 @@ apis:
 - description: Imperial runs a second LMS alongside Canvas. Its Blackboard Learn REST API is reachable at https://bb.imperial.ac.uk/learn/api/public/v1/; the version endpoint answers 200 without authentication and r
   name: Imperial Blackboard Learn REST API
   slug: blackboard-learn-rest
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Spiral Open Access Repository (DSpace 7 REST API) Core API
   slug: open-imperial-college-london-core-api
@@ -76,7 +75,7 @@ collections:
   slug: open-imperial-college-london-root-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/capabilities/imperial-college-london-capability-edges.yml
+  href: https://artifacts.apis.io/imperial-college-london/capabilities/imperial-college-london-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/imperial-college-london-capability-edges.yml
@@ -137,37 +136,37 @@ common:
   type: AIPolicy
   url: https://www.imperial.ac.uk/admin-services/library/learning-support/generative-ai-guidance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/conformance/imperial-college-london-education-standards.yml
+  href: https://artifacts.apis.io/imperial-college-london/conformance/imperial-college-london-education-standards.yml
   title: ''
   type: Conformance
   url: conformance/imperial-college-london-education-standards.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/agentic-access/imperial-college-london-agentic-access.yml
+  href: https://artifacts.apis.io/imperial-college-london/agentic-access/imperial-college-london-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/imperial-college-london-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/security/imperial-college-london-domain-security.yml
+  href: https://artifacts.apis.io/imperial-college-london/security/imperial-college-london-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/imperial-college-london-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/plans/imperial-college-london-plans-pricing.yml
+  href: https://artifacts.apis.io/imperial-college-london/plans/imperial-college-london-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/imperial-college-london-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/rate-limits/imperial-college-london-rate-limits.yml
+  href: https://artifacts.apis.io/imperial-college-london/rate-limits/imperial-college-london-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/imperial-college-london-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/finops/imperial-college-london-finops.yml
+  href: https://artifacts.apis.io/imperial-college-london/finops/imperial-college-london-finops.yml
   title: ''
   type: FinOps
   url: finops/imperial-college-london-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/imperial-college-london/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -277,7 +276,7 @@ plans:
 - name: Imperial College London Plans Pricing
   plan_count: 2
   slug: imperial-college-london-plans-pricing
-random_paper: 12
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Imperial College London Rate Limits
@@ -307,7 +306,7 @@ rules:
   slug: imperial-college-london-rules
 score:
   band: thin
-  composite: 28.5
+  composite: 28.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 47.3
@@ -315,14 +314,14 @@ score:
     catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 49.9
     developer_ergonomics: 23.8
     discoverability: 64.3
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -331,7 +330,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 34.5
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -346,14 +345,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/screenshots/imperial-college-london-2026-06-20T183255.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/imperial-college-london/imperial-college-london-2026-06-20T183255.png
 security:
 - kind: domain-security
   name: Imperial College London Domain Security

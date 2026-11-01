@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.5
-  scored_at: '2026-10-17'
+  score: 45.6
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - description: Remote Model Context Protocol server operated by IRONSCALES at mcp.ironscales.com, served over streamable HTTP at /mcp/. Access is OAuth 2.0 protected — an unauthenticated tools/list returns an RFC 67
@@ -87,11 +89,8 @@ apis:
   description: The Settings API from IRONSCALES — 4 operation(s) for settings.
   name: IRONSCALES Settings API
   slug: ironscales-settings-api
-artifact_total: 26
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: IRONSCALES Management Authorization API
   slug: open-ironscales-authorization-api
@@ -120,32 +119,37 @@ collections:
   name: IRONSCALES Management Settings API
   slug: open-ironscales-settings-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/ironscales/plans/ironscales-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ironscales-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://ironscales.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/capabilities/ironscales-capability-edges.yml
+  href: https://artifacts.apis.io/ironscales/capabilities/ironscales-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ironscales-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/overlays/ironscales-management-api-overlay.yaml
+  href: https://artifacts.apis.io/ironscales/overlays/ironscales-management-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/ironscales-management-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/security/ironscales-trust-center.yml
+  href: https://artifacts.apis.io/ironscales/security/ironscales-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ironscales-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/security/ironscales-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ironscales/security/ironscales-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ironscales-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/security/ironscales-domain-security.yml
+  href: https://artifacts.apis.io/ironscales/security/ironscales-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ironscales-domain-security.yml
@@ -222,73 +226,81 @@ common:
   type: Security
   url: https://trust.ironscales.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/llms/ironscales-llms.txt
+  href: https://artifacts.apis.io/ironscales/llms/ironscales-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ironscales-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/mcp/ironscales-mcp.yml
+  href: https://artifacts.apis.io/ironscales/mcp/ironscales-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ironscales-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/well-known/ironscales-well-known.yml
+  href: https://artifacts.apis.io/ironscales/well-known/ironscales-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ironscales-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/authentication/ironscales-authentication.yml
+  href: https://artifacts.apis.io/ironscales/authentication/ironscales-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ironscales-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/conventions/ironscales-conventions.yml
+  href: https://artifacts.apis.io/ironscales/conventions/ironscales-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ironscales-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/rate-limits/ironscales-rate-limits.yml
+  href: https://artifacts.apis.io/ironscales/rate-limits/ironscales-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ironscales-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/errors/ironscales-problem-types.yml
+  href: https://artifacts.apis.io/ironscales/errors/ironscales-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ironscales-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/lifecycle/ironscales-lifecycle.yml
+  href: https://artifacts.apis.io/ironscales/lifecycle/ironscales-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ironscales-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/changelog/ironscales-changelog.yml
+  href: https://artifacts.apis.io/ironscales/changelog/ironscales-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ironscales-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/conformance/ironscales-conformance.yml
+  href: https://artifacts.apis.io/ironscales/conformance/ironscales-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ironscales-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/data-model/ironscales-data-model.yml
+  href: https://artifacts.apis.io/ironscales/data-model/ironscales-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ironscales-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/packages/ironscales-packages.yml
+  href: https://artifacts.apis.io/ironscales/packages/ironscales-packages.yml
   title: ''
   type: Packages
   url: packages/ironscales-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ironscales/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-04'
 description: IRONSCALES is an AI-powered, API-based email security platform protecting organizations against phishing, business email compromise (BEC), account takeover (ATO), VIP impersonation, QR-code phishing, malicious URLs and attachments, and deepfake-assisted social engineering. Rather than sitting inline as a secure email gateway, IRONSCALES connects to Microsoft 365 and Google Workspace through their APIs and operates at the mailbox level — no MX record changes — combining adaptive AI detection, computer-vision analysis, automated multi-mailbox remediation, a crowdsourced threat-intelligence network, phishing simulation testing, and security awareness training in one platform. The public IRONSCALES Management API (appapi.ironscales.com) exposes incidents, mitigation statistics, escalated emails, mailbox management, deepfake SIEM events, phishing-simulation campaigns, SAT training campaigns, and tenant security settings, and is the surface behind the company's SIEM/SOAR/XDR integrations.
   IRONSCALES also operates an OAuth-protected remote MCP server for agent-based access.
+finops:
+- has_sources: true
+  method: derived
+  name: Ironscales Finops
+  primary_unit: ''
+  service_category: ''
+  slug: ironscales-finops
+  template: true
 image: https://ironscales.com/hubfs/Icons%20and%20Logos/ironscales_icon_only_dark_blue-01.svg
 layout: provider
 mcp_servers:
@@ -302,7 +314,11 @@ network: true
 overview: 'IRONSCALES publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization API, Campaigns API, Deepfake API, and 7 more. Tagged areas include Email Security, Cybersecurity, Phishing, Anti-Phishing, and Business Email Compromise.
 
 
-  IRONSCALES''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  IRONSCALES''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+plans:
+- name: Ironscales Plans Pricing
+  plan_count: 7
+  slug: ironscales-plans-pricing
 random_paper: 19
 rate_limits:
 - limit_count: 1
@@ -310,23 +326,23 @@ rate_limits:
   slug: ironscales-rate-limits
 score:
   band: strong
-  composite: 56.4
+  composite: 61.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 48.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    artifact_dirs: 24
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 6.3
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 51.7
     developer_ergonomics: 58.9
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 63.2
-  previous_composite: 56.9
+  previous_composite: 55.0
   provenance:
     conformance: derived
     contracts:
@@ -346,13 +362,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 34.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/screenshots/ironscales-2026-08-07T170920.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ironscales/ironscales-2026-08-07T170920.png
 security:
 - kind: authentication
   name: Ironscales Authentication
@@ -370,6 +387,20 @@ security:
   name: Ironscales Trust Center
   slug: ironscales-trust-center
   summary_line: ISO/IEC 27001:2022, ISO/IEC 42001:2023, SOC 2 Type 2
+skill_count: 6
+skills:
+- name: Authenticate and pull the IRONSCALES incident queue
+  slug: ironscales-authenticate-and-pull-incidents
+- name: Manage IRONSCALES tenant security settings
+  slug: ironscales-manage-tenant-security-settings
+- name: Report IRONSCALES email security posture
+  slug: ironscales-report-email-security-posture
+- name: Respond to an IRONSCALES account takeover incident
+  slug: ironscales-respond-to-account-takeover
+- name: Run an IRONSCALES phishing simulation and training campaign
+  slug: ironscales-run-phishing-simulation-campaign
+- name: Triage and classify an IRONSCALES phishing incident
+  slug: ironscales-triage-and-classify-incident
 slug: ironscales
 tags:
 - Email Security

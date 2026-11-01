@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RESTful API surface for CareStack dental practice management, covering patient resources (patient information, health conditions, payment summaries, communications, treatment codes, documents) and pra
@@ -77,7 +79,7 @@ common:
   type: PrivacyPolicy
   url: https://carestack.com/legal/2020-1/privacypolicy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carestack/refs/heads/main/security/carestack-trust-center.yml
+  href: https://artifacts.apis.io/carestack/security/carestack-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/carestack-trust-center.yml
@@ -86,17 +88,17 @@ common:
   type: Compliance
   url: https://trust.carestack.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carestack/refs/heads/main/conformance/carestack-conformance.yml
+  href: https://artifacts.apis.io/carestack/conformance/carestack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/carestack-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carestack/refs/heads/main/security/carestack-domain-security.yml
+  href: https://artifacts.apis.io/carestack/security/carestack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carestack-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carestack/refs/heads/main/asyncapi/carestack-webhooks.yml
+  href: https://artifacts.apis.io/carestack/asyncapi/carestack-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/carestack-webhooks.yml
@@ -115,7 +117,7 @@ overview: 'CareStack is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   CareStack''s developer surface includes pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 21
+random_paper: 9
 score:
   band: thin
   composite: 35.1
@@ -149,14 +151,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/carestack/refs/heads/main/screenshots/carestack-2026-07-25T204559.png
+screenshot: https://apis.io/screenshots/carestack/carestack-2026-07-25T204559.png
 security:
 - kind: domain-security
   name: Carestack Domain Security

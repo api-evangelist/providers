@@ -1,8 +1,8 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 23.4
-  scored_at: '2026-10-17'
+  score: 32.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -39,52 +41,52 @@ apis:
 artifact_total: 6
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apyguard/refs/heads/main/agentic-access/apyguard-agentic-access.yml
+  href: https://artifacts.apis.io/apyguard/agentic-access/apyguard-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apyguard-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apyguard/refs/heads/main/plans/apyguard-plans-pricing.yml
+  href: https://artifacts.apis.io/apyguard/plans/apyguard-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apyguard-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apyguard/refs/heads/main/rules/apyguard-rules.yml
+  href: https://artifacts.apis.io/apyguard/rules/apyguard-rules.yml
   title: ''
   type: Spectral
   url: rules/apyguard-rules.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apyguard/refs/heads/main/authentication/apyguard-authentication.yml
+  href: https://artifacts.apis.io/apyguard/authentication/apyguard-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apyguard-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apyguard/refs/heads/main/conformance/apyguard-conformance.yml
+  href: https://artifacts.apis.io/apyguard/conformance/apyguard-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apyguard-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apyguard/refs/heads/main/llms/apyguard-llms.txt
+  href: https://artifacts.apis.io/apyguard/llms/apyguard-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apyguard-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apyguard/refs/heads/main/a2a/apyguard-a2a.yml
+  href: https://artifacts.apis.io/apyguard/a2a/apyguard-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/apyguard-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apyguard/refs/heads/main/well-known/apyguard-well-known.yml
+  href: https://artifacts.apis.io/apyguard/well-known/apyguard-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apyguard-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apyguard/refs/heads/main/hosts/apyguard-hosts.yml
+  href: https://artifacts.apis.io/apyguard/hosts/apyguard-hosts.yml
   title: ''
   type: Hosts
   url: hosts/apyguard-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apyguard/refs/heads/main/vendors/apyguard-vendors.yml
+  href: https://artifacts.apis.io/apyguard/vendors/apyguard-vendors.yml
   title: ''
   type: Vendors
   url: vendors/apyguard-vendors.yml
@@ -97,7 +99,7 @@ common:
   type: GettingStarted
   url: https://docs.apyguard.com/get-started/quick-start
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apyguard/refs/heads/main/security/apyguard-domain-security.yml
+  href: https://artifacts.apis.io/apyguard/security/apyguard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apyguard-domain-security.yml
@@ -148,7 +150,7 @@ plans:
 - name: Apyguard Plans Pricing
   plan_count: 3
   slug: apyguard-plans-pricing
-random_paper: 3
+random_paper: 21
 rules:
 - authorship: generated
   effective_rule_count: 47
@@ -164,7 +166,7 @@ rules:
   slug: apyguard-rules
 score:
   band: thin
-  composite: 34.8
+  composite: 34.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 53.5
@@ -172,13 +174,15 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -189,8 +193,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

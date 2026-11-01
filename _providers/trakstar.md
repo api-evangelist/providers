@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -105,11 +107,8 @@ apis:
   description: Manage user accounts
   name: Trakstar Users API
   slug: trakstar-users-api
-artifact_total: 41
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Trakstar Hire Auth API
   slug: open-trakstar-auth-api
@@ -145,27 +144,27 @@ collections:
   slug: open-trakstar-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/capabilities/trakstar-capability-edges.yml
+  href: https://artifacts.apis.io/trakstar/capabilities/trakstar-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/trakstar-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/agentic-access/trakstar-agentic-access.yml
+  href: https://artifacts.apis.io/trakstar/agentic-access/trakstar-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trakstar-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/security/trakstar-trust-center.yml
+  href: https://artifacts.apis.io/trakstar/security/trakstar-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/trakstar-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/security/trakstar-domain-security.yml
+  href: https://artifacts.apis.io/trakstar/security/trakstar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trakstar-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/authentication/trakstar-authentication.yml
+  href: https://artifacts.apis.io/trakstar/authentication/trakstar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trakstar-authentication.yml
@@ -202,17 +201,17 @@ common:
   type: X
   url: https://x.com/trakstar_hr
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/plans/trakstar-plans-pricing.yml
+  href: https://artifacts.apis.io/trakstar/plans/trakstar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trakstar-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/rate-limits/trakstar-rate-limits.yml
+  href: https://artifacts.apis.io/trakstar/rate-limits/trakstar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trakstar-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/finops/trakstar-finops.yml
+  href: https://artifacts.apis.io/trakstar/finops/trakstar-finops.yml
   title: ''
   type: FinOps
   url: finops/trakstar-finops.yml
@@ -282,7 +281,7 @@ plans:
 - name: Trakstar Plans Pricing
   plan_count: 4
   slug: trakstar-plans-pricing
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Trakstar Rate Limits
@@ -301,23 +300,23 @@ rules:
   slug: trakstar-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.7
+  composite: 36.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 55.8
     catalog_earned_first_party: 0.0
     catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.7
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 23.5
-    contract_quality: 59.0
+    contract_quality: 56.4
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 42.4
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -331,13 +330,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/screenshots/trakstar-2026-06-20T195534.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/trakstar/trakstar-2026-06-20T195534.png
 security:
 - kind: authentication
   name: Trakstar Authentication

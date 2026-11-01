@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,22 +25,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/animocabrandscorporation/refs/heads/main/llms/animocabrandscorporation-llms.txt
+  href: https://artifacts.apis.io/animocabrandscorporation/llms/animocabrandscorporation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/animocabrandscorporation-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/animocabrandscorporation/refs/heads/main/hosts/animocabrandscorporation-hosts.yml
+  href: https://artifacts.apis.io/animocabrandscorporation/hosts/animocabrandscorporation-hosts.yml
   title: ''
   type: Hosts
   url: hosts/animocabrandscorporation-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/animocabrandscorporation/refs/heads/main/vendors/animocabrandscorporation-vendors.yml
+  href: https://artifacts.apis.io/animocabrandscorporation/vendors/animocabrandscorporation-vendors.yml
   title: ''
   type: Vendors
   url: vendors/animocabrandscorporation-vendors.yml
@@ -59,7 +61,7 @@ common:
   type: Leadership
   url: https://www.animocabrands.com/leadership
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/animocabrandscorporation/refs/heads/main/security/animocabrandscorporation-domain-security.yml
+  href: https://artifacts.apis.io/animocabrandscorporation/security/animocabrandscorporation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/animocabrandscorporation-domain-security.yml
@@ -76,12 +78,12 @@ name: Animocabrandscorporation
 nav: Providers
 network: true
 overview: Animocabrandscorporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Stablecoins, Real World Assets, Treasury Management, Gaming, and Identity.
-random_paper: 10
+random_paper: 18
 score:
   band: minimal
-  composite: 9.4
+  composite: 8.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -93,14 +95,14 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 58.9
+    discoverability: 51.8
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 9.4
+  previous_composite: 8.7
   provenance:
     mcp: derived
   regulatory:
@@ -109,14 +111,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/animocabrandscorporation/refs/heads/main/screenshots/animocabrandscorporation-2026-10-11T094102.png
+screenshot: https://apis.io/screenshots/animocabrandscorporation/animocabrandscorporation-2026-10-11T094102.png
 security:
 - kind: domain-security
   name: Animocabrandscorporation Domain Security

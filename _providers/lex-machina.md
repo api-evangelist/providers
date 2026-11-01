@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.1
-  scored_at: '2026-10-17'
+  score: 41.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 57
   slug: lex-machina-agentic-access
   summary_line: 57 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.lexmachina.com
   baseurl_source: declared
@@ -135,11 +137,8 @@ apis:
   description: Provides API status.
   name: Lex Machina Status API
   slug: lex-machina-status-api
-artifact_total: 72
+artifact_total: 71
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Lex Machina Alerts API
   slug: open-lex-machina-alerts-api
@@ -208,32 +207,32 @@ collections:
   slug: open-lex-machina
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/capabilities/lex-machina-capability-edges.yml
+  href: https://artifacts.apis.io/lex-machina/capabilities/lex-machina-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lex-machina-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/agentic-access/lex-machina-agentic-access.yml
+  href: https://artifacts.apis.io/lex-machina/agentic-access/lex-machina-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lex-machina-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/security/lex-machina-trust-center.yml
+  href: https://artifacts.apis.io/lex-machina/security/lex-machina-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lex-machina-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/security/lex-machina-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lex-machina/security/lex-machina-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lex-machina-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/security/lex-machina-domain-security.yml
+  href: https://artifacts.apis.io/lex-machina/security/lex-machina-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lex-machina-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/authentication/lex-machina-authentication.yml
+  href: https://artifacts.apis.io/lex-machina/authentication/lex-machina-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lex-machina-authentication.yml
@@ -368,10 +367,10 @@ overview: 'Lex Machina publishes 18 API contracts indexed on the [APIs.io](https
 
 
   Lex Machina''s developer surface includes authentication, developer portal, documentation, engineering blog, YouTube channel, support, and 22 more developer resources.'
-random_paper: 17
+random_paper: 15
 score:
-  band: thin
-  composite: 29.8
+  band: developing
+  composite: 41.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -379,15 +378,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 51.9
-    developer_ergonomics: 28.6
-    discoverability: 68.3
-    operational_transparency: 2.6
-  previous_composite: 29.9
+    developer_ergonomics: 45.2
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     contracts:
@@ -401,14 +400,15 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/screenshots/lex-machina-2026-06-20T184441.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lex-machina/lex-machina-2026-06-20T184441.png
 security:
 - kind: authentication
   name: Lex Machina Authentication

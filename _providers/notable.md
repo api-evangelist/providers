@@ -23,21 +23,23 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-17'
+  score: 9.6
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 6
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/notable/refs/heads/main/rate-limits/notable-rate-limits.yml
+  href: https://artifacts.apis.io/notable/rate-limits/notable-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/notable-rate-limits.yml
@@ -62,7 +64,7 @@ common:
   type: TermsOfService
   url: https://www.notablehealth.com/terms-of-use
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/notable/refs/heads/main/security/notable-trust-center.yml
+  href: https://artifacts.apis.io/notable/security/notable-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/notable-trust-center.yml
@@ -75,12 +77,12 @@ common:
   type: Security
   url: https://trust.notablehealth.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/notable/refs/heads/main/security/notable-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/notable/security/notable-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/notable-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/notable/refs/heads/main/security/notable-domain-security.yml
+  href: https://artifacts.apis.io/notable/security/notable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/notable-domain-security.yml
@@ -89,22 +91,22 @@ common:
   type: Support
   url: https://www.notablehealth.com/contact
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/notable/refs/heads/main/llms/notable-llms.txt
+  href: https://artifacts.apis.io/notable/llms/notable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/notable-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/notable/refs/heads/main/conformance/notable-conformance.yml
+  href: https://artifacts.apis.io/notable/conformance/notable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/notable-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/notable/refs/heads/main/plans/notable-plans-pricing.yml
+  href: https://artifacts.apis.io/notable/plans/notable-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/notable-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/notable/refs/heads/main/lifecycle/notable-lifecycle.yml
+  href: https://artifacts.apis.io/notable/lifecycle/notable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/notable-lifecycle.yml
@@ -143,14 +145,14 @@ plans:
 - name: Notable Plans Pricing
   plan_count: 0
   slug: notable-plans-pricing
-random_paper: 15
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Notable Rate Limits
   slug: notable-rate-limits
 score:
   band: emerging
-  composite: 20.0
+  composite: 19.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -164,9 +166,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 58.3
-    operational_transparency: 13.2
-  previous_composite: 20.0
+    discoverability: 48.2
+    operational_transparency: 15.8
+  previous_composite: 19.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -182,14 +184,14 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/notable/refs/heads/main/screenshots/notable-2026-08-07T185548.png
+screenshot: https://apis.io/screenshots/notable/notable-2026-08-07T185548.png
 security:
 - kind: domain-security
   name: Notable Domain Security

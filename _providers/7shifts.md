@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -119,11 +121,8 @@ apis:
   description: Token issuance for Partner OAuth applications.
   name: 7shifts O Auth API
   slug: 7shifts-oauth-api
-artifact_total: 79
+artifact_total: 78
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 7shifts Availability API
   slug: open-7shifts-availability-api
@@ -173,37 +172,41 @@ collections:
   name: 7shifts API
   slug: open-7shifts
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/7shifts/overview
 - group: company
   title: ''
   type: Blog
   url: https://www.7shifts.com/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/capabilities/7shifts-capability-edges.yml
+  href: https://artifacts.apis.io/7shifts/capabilities/7shifts-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/7shifts-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/agentic-access/7shifts-agentic-access.yml
+  href: https://artifacts.apis.io/7shifts/agentic-access/7shifts-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/7shifts-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/security/7shifts-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/7shifts/security/7shifts-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/7shifts-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/security/7shifts-domain-security.yml
+  href: https://artifacts.apis.io/7shifts/security/7shifts-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/7shifts-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/authentication/7shifts-authentication.yml
+  href: https://artifacts.apis.io/7shifts/authentication/7shifts-authentication.yml
   title: ''
   type: Authentication
   url: authentication/7shifts-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/scopes/7shifts-scopes.yml
+  href: https://artifacts.apis.io/7shifts/scopes/7shifts-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/7shifts-scopes.yml
@@ -248,32 +251,32 @@ common:
   type: LlmsText
   url: https://developers.7shifts.com/llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/rules/7shifts-spectral-rules.yml
+  href: https://artifacts.apis.io/7shifts/rules/7shifts-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/7shifts-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/vocabulary/7shifts-vocabulary.yml
+  href: https://artifacts.apis.io/7shifts/vocabulary/7shifts-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/7shifts-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/json-ld/7shifts-context.jsonld
+  href: https://artifacts.apis.io/7shifts/json-ld/7shifts-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/7shifts-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/plans/7shifts-plans-pricing.yml
+  href: https://artifacts.apis.io/7shifts/plans/7shifts-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/7shifts-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/rate-limits/7shifts-rate-limits.yml
+  href: https://artifacts.apis.io/7shifts/rate-limits/7shifts-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/7shifts-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/finops/7shifts-finops.yml
+  href: https://artifacts.apis.io/7shifts/finops/7shifts-finops.yml
   title: ''
   type: FinOps
   url: finops/7shifts-finops.yml
@@ -415,12 +418,12 @@ overview: '7shifts publishes 15 API contracts indexed on the [APIs.io](https://a
   The 7shifts catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  7shifts'' developer surface includes engineering blog, authentication, documentation, API reference, pricing, signup flow, support, and 16 more developer resources.'
+  7shifts'' developer surface includes engineering blog, authentication, documentation, API reference, pricing, signup flow, support, and 17 more developer resources.'
 plans:
 - name: 7Shifts Plans Pricing
   plan_count: 4
   slug: 7shifts-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: 7Shifts Rate Limits
@@ -456,7 +459,7 @@ scopes:
   summary_line: 18 scopes · clientCredentials
 score:
   band: developing
-  composite: 41.4
+  composite: 49.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 62.0
@@ -464,15 +467,15 @@ score:
     catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
-    access_clarity: 14.5
+    access_clarity: 31.6
     contract_governance: 27.3
     contract_quality: 51.3
-    developer_ergonomics: 36.9
+    developer_ergonomics: 59.5
     discoverability: 73.2
-    operational_transparency: 27.6
-  previous_composite: 48.4
+    operational_transparency: 44.7
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -486,13 +489,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/screenshots/7shifts-2026-06-20T162818.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/7shifts/7shifts-2026-06-20T162818.png
 security:
 - kind: authentication
   name: 7Shifts Authentication

@@ -19,7 +19,7 @@ name: Cultivate
 nav: Providers
 network: true
 overview: Cultivate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Leadership Development, Coaching, People Analytics, and Human Resources.
-random_paper: 9
+random_paper: 17
 slug: cultivate
 tags:
 - Company

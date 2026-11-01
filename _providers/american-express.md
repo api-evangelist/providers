@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 12
 apis:
 - description: 'The American Express Token Service (AETS) API allows developers to securely tokenize cardholder data, providing a layer of security for online transactions. By generating unique tokens that represent '
@@ -76,17 +78,17 @@ apis:
 artifact_total: 36
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/plans/american-express-plans-pricing.yml
+  href: https://artifacts.apis.io/american-express/plans/american-express-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/american-express-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/rate-limits/american-express-rate-limits.yml
+  href: https://artifacts.apis.io/american-express/rate-limits/american-express-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/american-express-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/finops/american-express-finops.yml
+  href: https://artifacts.apis.io/american-express/finops/american-express-finops.yml
   title: ''
   type: FinOps
   url: finops/american-express-finops.yml
@@ -171,27 +173,27 @@ common:
   type: PrivacyPolicy
   url: https://www.americanexpress.com/us/legal-disclosures/online-privacy-statement.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/security/american-express-domain-security.yml
+  href: https://artifacts.apis.io/american-express/security/american-express-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/american-express-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/authentication/american-express-authentication.yml
+  href: https://artifacts.apis.io/american-express/authentication/american-express-authentication.yml
   title: ''
   type: Authentication
   url: authentication/american-express-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/packages/american-express-packages.yml
+  href: https://artifacts.apis.io/american-express/packages/american-express-packages.yml
   title: ''
   type: Packages
   url: packages/american-express-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/conformance/american-express-conformance.yml
+  href: https://artifacts.apis.io/american-express/conformance/american-express-conformance.yml
   title: ''
   type: Conformance
   url: conformance/american-express-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/lifecycle/american-express-lifecycle.yml
+  href: https://artifacts.apis.io/american-express/lifecycle/american-express-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/american-express-lifecycle.yml
@@ -200,7 +202,7 @@ common:
   type: ChangeLog
   url: https://developer.americanexpress.com/documentation/whats-new
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/llms/american-express-llms.txt
+  href: https://artifacts.apis.io/american-express/llms/american-express-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/american-express-llms.txt
@@ -276,14 +278,14 @@ press:
 - date: ''
   title: How Amex exploits new AI tools
   url: https://www.paymentsdive.com/news/how-amex-exploits-new-ai-tools/816000/
-random_paper: 5
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: American Express Rate Limits
   slug: american-express-rate-limits
 score:
-  band: emerging
-  composite: 18.9
+  band: thin
+  composite: 33.2
   coverage:
     artifact_dirs: 17
     catalog_earned: 39.0
@@ -291,14 +293,14 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 14.3
-    discoverability: 69.6
-    operational_transparency: 7.9
+    developer_ergonomics: 64.3
+    discoverability: 62.5
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -306,7 +308,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 20.5
+  previous_composite: 33.2
   provenance:
     conformance: first-party
   regulatory:
@@ -318,15 +320,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 21.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/screenshots/american-express-2026-06-20T171914.png
+screenshot: https://apis.io/screenshots/american-express/american-express-2026-06-20T171914.png
 security:
 - kind: authentication
   name: American Express Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,12 +71,12 @@ common:
   type: SignUp
   url: https://app.sportwey.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sportwey/refs/heads/main/lifecycle/sportwey-lifecycle.yml
+  href: https://artifacts.apis.io/sportwey/lifecycle/sportwey-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sportwey-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sportwey/refs/heads/main/security/sportwey-domain-security.yml
+  href: https://artifacts.apis.io/sportwey/security/sportwey-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sportwey-domain-security.yml
@@ -90,12 +92,12 @@ overview: 'Sportwey is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Sportwey''s developer surface includes pricing, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 7
+random_paper: 21
 score:
   band: emerging
   composite: 16.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -123,14 +125,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sportwey/refs/heads/main/screenshots/sportwey-2026-09-02T160551.png
+screenshot: https://apis.io/screenshots/sportwey/sportwey-2026-09-02T160551.png
 security:
 - kind: domain-security
   name: Sportwey Domain Security

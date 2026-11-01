@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ohio-national-mutual/refs/heads/main/security/ohio-national-mutual-domain-security.yml
+  href: https://artifacts.apis.io/ohio-national-mutual/security/ohio-national-mutual-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ohio-national-mutual-domain-security.yml
@@ -83,7 +85,7 @@ name: Ohio National
 nav: Providers
 network: true
 overview: Ohio National is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Annuities, Demutualization, Financial Services, and Indexed Life.
-random_paper: 15
+random_paper: 23
 score:
   band: minimal
   composite: 3.1
@@ -116,14 +118,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ohio-national-mutual/refs/heads/main/screenshots/ohio-national-mutual-2026-06-20T190641.png
+screenshot: https://apis.io/screenshots/ohio-national-mutual/ohio-national-mutual-2026-06-20T190641.png
 security:
 - kind: domain-security
   name: Ohio National Mutual Domain Security

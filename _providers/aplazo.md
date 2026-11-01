@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for merchants to originate Aplazo installment loans at checkout, retrieve loan status, and process refunds and cancellations. Credentials (apiToken + merchantId) are exchanged at POST /api/au
   name: Aplazo Merchant Payment API
   slug: aplazo-merchant-payment-api
-artifact_total: 4
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Aplazo Webhooks
@@ -84,72 +86,72 @@ common:
   type: Support
   url: mailto:soporte@aplazo.mx
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/packages/aplazo-packages.yml
+  href: https://artifacts.apis.io/aplazo/packages/aplazo-packages.yml
   title: ''
   type: Packages
   url: packages/aplazo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/packages/aplazo-packages.yml
+  href: https://artifacts.apis.io/aplazo/packages/aplazo-packages.yml
   title: ''
   type: SDKs
   url: packages/aplazo-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/authentication/aplazo-authentication.yml
+  href: https://artifacts.apis.io/aplazo/authentication/aplazo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aplazo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/conventions/aplazo-conventions.yml
+  href: https://artifacts.apis.io/aplazo/conventions/aplazo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aplazo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/conventions/aplazo-conventions.yml
+  href: https://artifacts.apis.io/aplazo/conventions/aplazo-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/aplazo-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/mcp/aplazo-mcp.yml
+  href: https://artifacts.apis.io/aplazo/mcp/aplazo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/aplazo-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/errors/aplazo-problem-types.yml
+  href: https://artifacts.apis.io/aplazo/errors/aplazo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aplazo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/lifecycle/aplazo-lifecycle.yml
+  href: https://artifacts.apis.io/aplazo/lifecycle/aplazo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aplazo-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/sandbox/aplazo-sandbox.yml
+  href: https://artifacts.apis.io/aplazo/sandbox/aplazo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aplazo-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/data-model/aplazo-data-model.yml
+  href: https://artifacts.apis.io/aplazo/data-model/aplazo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aplazo-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/asyncapi/aplazo-webhooks.yml
+  href: https://artifacts.apis.io/aplazo/asyncapi/aplazo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/aplazo-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/aplazo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/llms/aplazo-llms.txt
+  href: https://artifacts.apis.io/aplazo/llms/aplazo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aplazo-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/security/aplazo-domain-security.yml
+  href: https://artifacts.apis.io/aplazo/security/aplazo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aplazo-domain-security.yml
@@ -168,10 +170,10 @@ overview: 'Aplazo is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Aplazo''s developer surface includes engineering blog, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 9
+random_paper: 23
 score:
-  band: emerging
-  composite: 25.9
+  band: thin
+  composite: 31.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -179,14 +181,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.4
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 35.1
-    discoverability: 73.2
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -194,10 +196,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 25.5
+  previous_composite: 31.1
   provenance:
     mcp: derived
     skills: derived
@@ -206,15 +205,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 17.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/screenshots/aplazo-2026-07-25T200637.png
+screenshot: https://apis.io/screenshots/aplazo/aplazo-2026-07-25T200637.png
 security:
 - kind: authentication
   name: Aplazo Authentication
@@ -224,6 +223,12 @@ security:
   name: Aplazo Domain Security
   slug: aplazo-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Offer Aplazo Buy-Now-Pay-Later at checkout
+  slug: aplazo-checkout-loan
+- name: Refund or cancel an Aplazo loan
+  slug: aplazo-refund-loan
 slug: aplazo
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -77,9 +79,6 @@ apis:
 artifact_total: 21
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Balena Cloud Applications API
   slug: open-balena-applications-api
 - collection_type: open
@@ -95,43 +94,48 @@ collections:
   name: Balena Cloud API
   slug: open-balena
 common:
+- group: other
+  href: https://artifacts.apis.io/balena/capabilities/balena-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/balena-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/plans/balena-plans-pricing.yml
+  href: https://artifacts.apis.io/balena/plans/balena-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/balena-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/rate-limits/balena-rate-limits.yml
+  href: https://artifacts.apis.io/balena/rate-limits/balena-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/balena-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/finops/balena-finops.yml
+  href: https://artifacts.apis.io/balena/finops/balena-finops.yml
   title: ''
   type: FinOps
   url: finops/balena-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/agentic-access/balena-agentic-access.yml
+  href: https://artifacts.apis.io/balena/agentic-access/balena-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/balena-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/security/balena-trust-center.yml
+  href: https://artifacts.apis.io/balena/security/balena-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/balena-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/security/balena-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/balena/security/balena-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/balena-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/security/balena-domain-security.yml
+  href: https://artifacts.apis.io/balena/security/balena-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/balena-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/authentication/balena-authentication.yml
+  href: https://artifacts.apis.io/balena/authentication/balena-authentication.yml
   title: ''
   type: Authentication
   url: authentication/balena-authentication.yml
@@ -202,13 +206,13 @@ common:
 created: '2026-05-23'
 description: Balena is a complete platform for building, deploying, and managing fleets of connected Linux devices. The platform combines balenaOS, balenaEngine, balenaCloud, the balena CLI, and the balena SDK so teams can build container-based device images and continuously deliver them to devices in the field. The balenaCloud REST API exposes device, fleet, release, and organization management using OData-style queries.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Balena Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: user
+  service_category: ''
   slug: balena-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/balena.png
 layout: provider
 modified: '2026-05-23'
@@ -218,35 +222,38 @@ network: true
 overview: 'Balena publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Device Tags API, Devices API, and 4 more. Tagged areas include Containers, Device Management, Edge, Embedded Linux, and Fleet Management.
 
 
-  Balena''s developer surface includes authentication, documentation, CLI, GitHub presence, engineering blog, pricing, support, and 17 more developer resources.'
+  Balena''s developer surface includes authentication, documentation, CLI, GitHub presence, engineering blog, pricing, support, and 18 more developer resources.'
 plans:
 - name: Balena Plans Pricing
-  plan_count: 1
+  plan_count: 12
   slug: balena-plans-pricing
-random_paper: 17
+- name: Balena Price Estimates
+  plan_count: 0
+  slug: balena-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Balena Rate Limits
   slug: balena-rate-limits
 score:
   band: developing
-  composite: 43.2
+  composite: 52.1
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    artifact_dirs: 14
+    catalog_earned: 54.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 3.6
   facets:
-    access_clarity: 44.7
+    access_clarity: 78.9
     contract_governance: 0.0
     contract_quality: 45.3
     developer_ergonomics: 42.9
     discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 49.3
+    operational_transparency: 52.6
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     contracts:
@@ -260,13 +267,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/screenshots/balena-2026-06-20T172927.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/balena/balena-2026-06-20T172927.png
 security:
 - kind: authentication
   name: Balena Authentication

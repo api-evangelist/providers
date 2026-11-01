@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.0
-  scored_at: '2026-10-17'
+  score: 49.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 9
   slug: wappalyzer-agentic-access
   summary_line: 9 operations · 3 acting
-api_count: 4
+api_count: 2
 apis:
 - description: Analyze a single website URL for technology stack detection, returning a detailed breakdown of all identified technologies, frameworks, and platforms.
   name: Wappalyzer Analyze API
@@ -140,15 +142,12 @@ apis:
     question: Is this email address valid and deliverable?
   phrasing_ops: 1
   slug: wappalyzer-verify-api
-artifact_total: 32
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Wappalyzer Webhooks
   slug: wappalyzer-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Wappalyzer Public Basics API
   slug: open-wappalyzer-basics-api
@@ -165,27 +164,32 @@ collections:
   name: Wappalyzer Public Basics Verify API
   slug: open-wappalyzer-verify-api
 common:
+- group: other
+  href: https://artifacts.apis.io/wappalyzer/capabilities/wappalyzer-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wappalyzer-capability-edges.yml
 - group: commercial
   title: ''
   type: License
   url: https://github.com/wappalyzer/mcp/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/agentic-access/wappalyzer-agentic-access.yml
+  href: https://artifacts.apis.io/wappalyzer/agentic-access/wappalyzer-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wappalyzer-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/security/wappalyzer-domain-security.yml
+  href: https://artifacts.apis.io/wappalyzer/security/wappalyzer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wappalyzer-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/authentication/wappalyzer-authentication.yml
+  href: https://artifacts.apis.io/wappalyzer/authentication/wappalyzer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wappalyzer-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/security/wappalyzer-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wappalyzer/security/wappalyzer-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wappalyzer-vulnerability-disclosure.yml
@@ -194,12 +198,12 @@ common:
   type: Security
   url: https://api.wappalyzer.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/well-known/wappalyzer-security.txt
+  href: https://artifacts.apis.io/wappalyzer/well-known/wappalyzer-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/wappalyzer-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/well-known/wappalyzer-well-known.yml
+  href: https://artifacts.apis.io/wappalyzer/well-known/wappalyzer-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wappalyzer-well-known.yml
@@ -228,77 +232,77 @@ common:
   type: OpenAPI
   url: https://www.wappalyzer.com/openapi/v2-public.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/mcp/wappalyzer-mcp.yml
+  href: https://artifacts.apis.io/wappalyzer/mcp/wappalyzer-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/wappalyzer-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/mcp/wappalyzer-tool-crosswalk.yml
+  href: https://artifacts.apis.io/wappalyzer/mcp/wappalyzer-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/wappalyzer-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/llms/wappalyzer-llms.txt
+  href: https://artifacts.apis.io/wappalyzer/llms/wappalyzer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wappalyzer-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wappalyzer/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/asyncapi/wappalyzer-webhooks.yml
+  href: https://artifacts.apis.io/wappalyzer/asyncapi/wappalyzer-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/wappalyzer-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/conventions/wappalyzer-conventions.yml
+  href: https://artifacts.apis.io/wappalyzer/conventions/wappalyzer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wappalyzer-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/errors/wappalyzer-problem-types.yml
+  href: https://artifacts.apis.io/wappalyzer/errors/wappalyzer-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wappalyzer-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/data-model/wappalyzer-data-model.yml
+  href: https://artifacts.apis.io/wappalyzer/data-model/wappalyzer-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wappalyzer-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/lifecycle/wappalyzer-lifecycle.yml
+  href: https://artifacts.apis.io/wappalyzer/lifecycle/wappalyzer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wappalyzer-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/conformance/wappalyzer-conformance.yml
+  href: https://artifacts.apis.io/wappalyzer/conformance/wappalyzer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wappalyzer-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/packages/wappalyzer-packages.yml
+  href: https://artifacts.apis.io/wappalyzer/packages/wappalyzer-packages.yml
   title: ''
   type: Packages
   url: packages/wappalyzer-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/overlays/wappalyzer-v2-public-overlay.yaml
+  href: https://artifacts.apis.io/wappalyzer/overlays/wappalyzer-v2-public-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wappalyzer-v2-public-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/vocabulary/wappalyzer-vocabulary.yml
+  href: https://artifacts.apis.io/wappalyzer/vocabulary/wappalyzer-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/wappalyzer-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/rules/wappalyzer-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/wappalyzer/rules/wappalyzer-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/wappalyzer-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/json-ld/wappalyzer-context.jsonld
+  href: https://artifacts.apis.io/wappalyzer/json-ld/wappalyzer-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/wappalyzer-context.jsonld
@@ -351,17 +355,17 @@ common:
   type: StatusPage
   url: https://status.wappalyzer.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/plans/wappalyzer-plans-pricing.yml
+  href: https://artifacts.apis.io/wappalyzer/plans/wappalyzer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wappalyzer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/rate-limits/wappalyzer-rate-limits.yml
+  href: https://artifacts.apis.io/wappalyzer/rate-limits/wappalyzer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wappalyzer-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/finops/wappalyzer-finops.yml
+  href: https://artifacts.apis.io/wappalyzer/finops/wappalyzer-finops.yml
   title: ''
   type: FinOps
   url: finops/wappalyzer-finops.yml
@@ -375,13 +379,13 @@ examples:
   name: Wappalyzer Verify Example
   slug: wappalyzer-verify-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Wappalyzer Finops
-  primary_unit: ''
+  primary_unit: subscription
   service_category: ''
   slug: wappalyzer-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wappalyzer.png
 json_schemas:
 - name: LookupResponse
@@ -413,12 +417,15 @@ overview: 'Wappalyzer publishes 10 API contracts indexed on the [APIs.io](https:
   The Wappalyzer catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Wappalyzer''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 37 more developer resources.'
+  Wappalyzer''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 38 more developer resources.'
 plans:
 - name: Wappalyzer Plans Pricing
   plan_count: 4
   slug: wappalyzer-plans-pricing
-random_paper: 3
+- name: Wappalyzer Price Estimates
+  plan_count: 0
+  slug: wappalyzer-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Wappalyzer Rate Limits
@@ -437,23 +444,23 @@ rules:
   slug: wappalyzer-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 67.1
+  composite: 68.0
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 30
     catalog_earned: 88.2
     catalog_earned_first_party: 24.0
     catalog_gap: 26.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 1.0
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 28.0
-    contract_quality: 75.4
+    contract_quality: 72.1
     developer_ergonomics: 58.9
-    discoverability: 80.0
-    operational_transparency: 63.2
-  previous_composite: 68.1
+    discoverability: 65.0
+    operational_transparency: 71.1
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -470,13 +477,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/screenshots/wappalyzer-2026-06-20T201222.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wappalyzer/wappalyzer-2026-06-20T201222.png
 security:
 - kind: authentication
   name: Wappalyzer Authentication
@@ -490,6 +498,16 @@ security:
   name: Wappalyzer Vulnerability Disclosure
   slug: wappalyzer-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 4
+skills:
+- name: Build and finalize a technographic lead list
+  slug: wappalyzer-build-lead-list
+- name: Profile a domain's subdomains and verify contact emails
+  slug: wappalyzer-domain-recon
+- name: Browse the technology and category directory without an API key
+  slug: wappalyzer-technology-directory
+- name: Look up the technology stack of a website
+  slug: wappalyzer-technology-lookup
 slug: wappalyzer
 tags:
 - Technology Detection

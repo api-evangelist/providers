@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -64,7 +66,7 @@ apis:
   description: The Service Accounts API from Google Cloud IAM — 2 operation(s) for service accounts.
   name: Google Cloud IAM Service Accounts API
   slug: google-cloud-iam-service-accounts-api
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: postman
   name: Google Cloud IAM Permissions API
@@ -78,9 +80,6 @@ collections:
 - collection_type: postman
   name: Google Cloud IAM Permissions Service Accounts API
   slug: postman-google-cloud-iam-service-accounts-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud IAM Permissions API
   slug: open-google-cloud-iam-permissions-api
@@ -98,22 +97,22 @@ collections:
   slug: open-openapi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/plans/google-cloud-iam-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-iam/plans/google-cloud-iam-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-iam-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/rate-limits/google-cloud-iam-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-iam/rate-limits/google-cloud-iam-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-iam-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/finops/google-cloud-iam-finops.yml
+  href: https://artifacts.apis.io/google-cloud-iam/finops/google-cloud-iam-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-iam-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/capabilities/google-cloud-iam-capability-edges.yml
+  href: https://artifacts.apis.io/google-cloud-iam/capabilities/google-cloud-iam-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-cloud-iam-capability-edges.yml
@@ -126,27 +125,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-cloud-iam/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/agentic-access/google-cloud-iam-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-iam/agentic-access/google-cloud-iam-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-iam-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/security/google-cloud-iam-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-iam/security/google-cloud-iam-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-iam-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/security/google-cloud-iam-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-iam/security/google-cloud-iam-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-iam-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/authentication/google-cloud-iam-authentication.yml
+  href: https://artifacts.apis.io/google-cloud-iam/authentication/google-cloud-iam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-cloud-iam-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/scopes/google-cloud-iam-scopes.yml
+  href: https://artifacts.apis.io/google-cloud-iam/scopes/google-cloud-iam-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-cloud-iam-scopes.yml
@@ -191,18 +190,18 @@ common:
   type: Support
   url: https://cloud.google.com/iam/docs/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/json-ld/context.jsonld
+  href: https://artifacts.apis.io/google-cloud-iam/json-ld/context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/context.jsonld
 created: '2026-03-13'
 description: Google Cloud Identity and Access Management (IAM) enables fine-grained access control and visibility for managing cloud resources. It provides the ability to create and manage service accounts, roles, and permissions to enforce least-privilege security policies across Google Cloud resources.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Google Cloud Iam Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: google-cloud-iam-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud-iam.png
@@ -229,9 +228,9 @@ overview: 'Google Cloud IAM publishes 4 API contracts indexed on the [APIs.io](h
   Google Cloud IAM''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 16 more developer resources.'
 plans:
 - name: Google Cloud Iam Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: google-cloud-iam-plans-pricing
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Google Cloud Iam Rate Limits
@@ -255,23 +254,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.5
+  composite: 50.5
   coverage:
     artifact_dirs: 16
-    catalog_earned: 56.7
-    catalog_earned_first_party: 0.0
-    catalog_gap: 58.4
+    catalog_earned: 61.7
+    catalog_earned_first_party: 8.0
+    catalog_gap: 53.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -2.1
   facets:
-    access_clarity: 39.5
+    access_clarity: 52.6
     contract_governance: 9.8
     contract_quality: 54.2
-    developer_ergonomics: 44.0
+    developer_ergonomics: 48.8
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 46.0
+    operational_transparency: 39.5
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     contracts:
@@ -285,13 +284,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/screenshots/google-cloud-iam-2026-06-20T182117.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-iam/google-cloud-iam-2026-06-20T182117.png
 security:
 - kind: authentication
   name: Google Cloud Iam Authentication

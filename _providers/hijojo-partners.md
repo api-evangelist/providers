@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -43,17 +45,17 @@ common:
   type: Blog
   url: https://www.hijojo-partners.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hijojo-partners/refs/heads/main/security/hijojo-partners-domain-security.yml
+  href: https://artifacts.apis.io/hijojo-partners/security/hijojo-partners-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hijojo-partners-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hijojo-partners/refs/heads/main/conformance/hijojo-partners-conformance.yml
+  href: https://artifacts.apis.io/hijojo-partners/conformance/hijojo-partners-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hijojo-partners-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hijojo-partners/refs/heads/main/llms/hijojo-partners-llms.txt
+  href: https://artifacts.apis.io/hijojo-partners/llms/hijojo-partners-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hijojo-partners-llms.txt
@@ -98,12 +100,12 @@ common:
   type: Contact
   url: https://www.hijojo-partners.com/en/inquiry
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hijojo-partners/refs/heads/main/plans/hijojo-partners-plans-pricing.yml
+  href: https://artifacts.apis.io/hijojo-partners/plans/hijojo-partners-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hijojo-partners-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hijojo-partners/refs/heads/main/rate-limits/hijojo-partners-rate-limits.yml
+  href: https://artifacts.apis.io/hijojo-partners/rate-limits/hijojo-partners-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hijojo-partners-rate-limits.yml
@@ -142,14 +144,14 @@ plans:
 - name: Hijojo Partners Plans Pricing
   plan_count: 0
   slug: hijojo-partners-plans-pricing
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Hijojo Partners Rate Limits
   slug: hijojo-partners-rate-limits
 score:
   band: emerging
-  composite: 14.4
+  composite: 13.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -157,13 +159,13 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 56.3
+    discoverability: 50.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -172,7 +174,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 13.9
+  previous_composite: 13.8
   provenance:
     conformance: first-party
   regulatory:
@@ -181,14 +183,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hijojo-partners/refs/heads/main/screenshots/hijojo-partners-2026-09-02T145731.png
+screenshot: https://apis.io/screenshots/hijojo-partners/hijojo-partners-2026-09-02T145731.png
 security:
 - kind: domain-security
   name: Hijojo Partners Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -174,11 +176,8 @@ arazzos:
 - description: Mint an XApp token, search for an artist, then list that artist's artworks.
   name: Find an artist and list their artworks
   slug: art-find-artist-artworks
-artifact_total: 56
+artifact_total: 57
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Artsy Public Applications API
   slug: open-art-applications-api
@@ -264,7 +263,7 @@ common:
   type: BlogRSS
   url: https://www.artsy.net/rss/news
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/overlays/art-openapi-overlay.yaml
+  href: https://artifacts.apis.io/art/overlays/art-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/art-openapi-overlay.yaml
@@ -281,27 +280,27 @@ common:
   type: APIReference
   url: https://developers.artsy.net/v2
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/authentication/art-authentication.yml
+  href: https://artifacts.apis.io/art/authentication/art-authentication.yml
   title: ''
   type: Authentication
   url: authentication/art-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/agentic-access/art-agentic-access.yml
+  href: https://artifacts.apis.io/art/agentic-access/art-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/art-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/conventions/art-conventions.yml
+  href: https://artifacts.apis.io/art/conventions/art-conventions.yml
   title: ''
   type: Conventions
   url: conventions/art-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/errors/art-problem-types.yml
+  href: https://artifacts.apis.io/art/errors/art-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/art-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/lifecycle/art-lifecycle.yml
+  href: https://artifacts.apis.io/art/lifecycle/art-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/art-lifecycle.yml
@@ -314,47 +313,47 @@ common:
   type: Deprecation
   url: https://developers.artsy.net/v2/docs
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/rate-limits/art-rate-limits.yml
+  href: https://artifacts.apis.io/art/rate-limits/art-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/art-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/conformance/art-conformance.yml
+  href: https://artifacts.apis.io/art/conformance/art-conformance.yml
   title: ''
   type: Conformance
   url: conformance/art-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/data-model/art-data-model.yml
+  href: https://artifacts.apis.io/art/data-model/art-data-model.yml
   title: ''
   type: DataModel
   url: data-model/art-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/components/art-components.yml
+  href: https://artifacts.apis.io/art/components/art-components.yml
   title: ''
   type: Components
   url: components/art-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/mcp/art-mcp.yml
+  href: https://artifacts.apis.io/art/mcp/art-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/art-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/llms/art-llms.txt
+  href: https://artifacts.apis.io/art/llms/art-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/art-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/art/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/arazzo/art-find-artist-artworks.yml
+  href: https://artifacts.apis.io/art/arazzo/art-find-artist-artworks.yml
   title: ''
   type: Arazzo
   url: arazzo/art-find-artist-artworks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/security/art-domain-security.yml
+  href: https://artifacts.apis.io/art/security/art-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/art-domain-security.yml
@@ -394,14 +393,14 @@ overview: 'Artsy publishes 25 API contracts indexed on the [APIs.io](https://api
 
 
   Artsy''s developer surface includes engineering blog, documentation, API reference, authentication, and 24 more developer resources.'
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Art Rate Limits
   slug: art-rate-limits
 score:
   band: thin
-  composite: 26.8
+  composite: 31.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 45.0
@@ -409,15 +408,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 13.4
-    developer_ergonomics: 32.7
-    discoverability: 73.2
-    operational_transparency: 31.6
-  previous_composite: 26.7
+    developer_ergonomics: 42.3
+    discoverability: 66.1
+    operational_transparency: 50.0
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -434,13 +433,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/screenshots/art-2026-07-25T201312.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/art/art-2026-07-25T201312.png
 security:
 - kind: authentication
   name: Art Authentication
@@ -450,6 +450,12 @@ security:
   name: Art Domain Security
   slug: art-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Browse Artsy genes and current shows
+  slug: art-browse-genes-and-shows
+- name: Find an artist and browse their artworks on Artsy
+  slug: art-find-artist-artworks
 slug: art
 tags:
 - Art

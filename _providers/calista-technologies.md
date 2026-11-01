@@ -19,7 +19,7 @@ name: Calista Technologies
 nav: Providers
 network: true
 overview: Calista Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Virtualization, Desktop Virtualization, GPU, and Remote Desktop.
-random_paper: 20
+random_paper: 2
 slug: calista-technologies
 tags:
 - Company

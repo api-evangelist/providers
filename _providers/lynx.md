@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.3
-  scored_at: '2026-10-17'
+  score: 31.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 4
@@ -147,48 +149,53 @@ apis:
   slug: lynx-uploads-api
 artifact_total: 86
 common:
+- group: other
+  href: https://artifacts.apis.io/lynx/capabilities/lynx-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lynx-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/agentic-access/lynx-agentic-access.yml
+  href: https://artifacts.apis.io/lynx/agentic-access/lynx-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lynx-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/rules/lynx-rules.yml
+  href: https://artifacts.apis.io/lynx/rules/lynx-rules.yml
   title: ''
   type: Spectral
   url: rules/lynx-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/json-ld/lynx-context.jsonld
+  href: https://artifacts.apis.io/lynx/json-ld/lynx-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/lynx-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/vocabulary/lynx-vocabulary.yml
+  href: https://artifacts.apis.io/lynx/vocabulary/lynx-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/lynx-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/data-model/lynx-data-model.yml
+  href: https://artifacts.apis.io/lynx/data-model/lynx-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lynx-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/lifecycle/lynx-lifecycle.yml
+  href: https://artifacts.apis.io/lynx/lifecycle/lynx-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/lynx-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/errors/lynx-problem-types.yml
+  href: https://artifacts.apis.io/lynx/errors/lynx-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lynx-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/hosts/lynx-hosts.yml
+  href: https://artifacts.apis.io/lynx/hosts/lynx-hosts.yml
   title: ''
   type: Hosts
   url: hosts/lynx-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/vendors/lynx-vendors.yml
+  href: https://artifacts.apis.io/lynx/vendors/lynx-vendors.yml
   title: ''
   type: Vendors
   url: vendors/lynx-vendors.yml
@@ -197,7 +204,7 @@ common:
   type: Newsroom
   url: https://www.lynx-fh.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/authentication/lynx-authentication.yml
+  href: https://artifacts.apis.io/lynx/authentication/lynx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lynx-authentication.yml
@@ -262,27 +269,27 @@ common:
   type: Compliance
   url: https://www.lynx-fh.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/conformance/lynx-conformance.yml
+  href: https://artifacts.apis.io/lynx/conformance/lynx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lynx-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/lifecycle/lynx-lifecycle.yml
+  href: https://artifacts.apis.io/lynx/lifecycle/lynx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lynx-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/changelog/lynx-changelog.yml
+  href: https://artifacts.apis.io/lynx/changelog/lynx-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lynx-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/sandbox/lynx-sandbox.yml
+  href: https://artifacts.apis.io/lynx/sandbox/lynx-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lynx-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/security/lynx-domain-security.yml
+  href: https://artifacts.apis.io/lynx/security/lynx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lynx-domain-security.yml
@@ -486,8 +493,8 @@ overview: 'Lynx publishes 21 API contracts indexed on the [APIs.io](https://apis
   The Lynx catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Lynx''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, sandbox, signup flow, and 24 more developer resources.'
-random_paper: 19
+  Lynx''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, sandbox, signup flow, and 25 more developer resources.'
+random_paper: 3
 rules:
 - authorship: generated
   effective_rule_count: 59
@@ -502,24 +509,24 @@ rules:
     warn: 7
   slug: lynx-rules
 score:
-  band: developing
-  composite: 51.7
+  band: strong
+  composite: 56.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 65.8
     catalog_earned_first_party: 0.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 23.8
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 35.6
-    contract_quality: 66.0
-    developer_ergonomics: 45.2
+    contract_quality: 65.4
+    developer_ergonomics: 64.3
     discoverability: 73.2
-    operational_transparency: 31.6
-  previous_composite: 27.9
+    operational_transparency: 39.5
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -539,13 +546,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/screenshots/lynx-2026-07-25T225752.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lynx/lynx-2026-07-25T225752.png
 security:
 - kind: authentication
   name: Lynx Authentication
@@ -562,7 +570,7 @@ tags:
 - Fintech
 - Payments
 - Benefits
-- Health Savings Accounts
+- Health Savings
 - Embedded Finance
 - Card Issuing
 - Insurance

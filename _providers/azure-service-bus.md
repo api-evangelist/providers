@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-17'
+  score: 25.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -148,7 +150,7 @@ apis:
     question: How do I extend the lock on a message that is taking a long time to process?
   phrasing_ops: 5
   slug: microsoft-azure-service-bus-messages-api
-artifact_total: 66
+artifact_total: 65
 asyncapis:
 - description: 'Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics. This AsyncAPI spec describes the messaging patterns for sending and receiving messages '
   name: Azure Service Bus Messaging
@@ -167,9 +169,6 @@ collections:
   name: Azure Service Bus Management Namespaces Topics API
   slug: postman-azure-service-bus-topics-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Azure Service Bus Management Namespaces API
   slug: open-azure-service-bus-namespaces-api
 - collection_type: open
@@ -186,17 +185,17 @@ collections:
   slug: open-azure-service-bus
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/rate-limits/azure-service-bus-rate-limits.yml
+  href: https://artifacts.apis.io/azure-service-bus/rate-limits/azure-service-bus-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/azure-service-bus-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/finops/azure-service-bus-finops.yml
+  href: https://artifacts.apis.io/azure-service-bus/finops/azure-service-bus-finops.yml
   title: ''
   type: FinOps
   url: finops/azure-service-bus-finops.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/plans/azure-service-bus-plans-pricing.yml
+  href: https://artifacts.apis.io/azure-service-bus/plans/azure-service-bus-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/azure-service-bus-plans-pricing.yml
@@ -233,7 +232,7 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/capabilities/azure-service-bus-capability-edges.yml
+  href: https://artifacts.apis.io/azure-service-bus/capabilities/azure-service-bus-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/azure-service-bus-capability-edges.yml
@@ -266,27 +265,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/azure-service-bus/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/agentic-access/azure-service-bus-agentic-access.yml
+  href: https://artifacts.apis.io/azure-service-bus/agentic-access/azure-service-bus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/azure-service-bus-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/security/azure-service-bus-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/azure-service-bus/security/azure-service-bus-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/azure-service-bus-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/security/azure-service-bus-domain-security.yml
+  href: https://artifacts.apis.io/azure-service-bus/security/azure-service-bus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/azure-service-bus-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/authentication/azure-service-bus-authentication.yml
+  href: https://artifacts.apis.io/azure-service-bus/authentication/azure-service-bus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/azure-service-bus-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/scopes/azure-service-bus-scopes.yml
+  href: https://artifacts.apis.io/azure-service-bus/scopes/azure-service-bus-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/azure-service-bus-scopes.yml
@@ -359,13 +358,13 @@ features:
 - description: Automatically forward messages from one queue or subscription to another entity for chaining processing stages.
   name: Auto-Forwarding
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Azure Service Bus Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: gb replicated
+  service_category: ''
   slug: azure-service-bus-finops
-  template: true
+  template: false
 image: /assets/icons/azure-service-bus.png
 integrations:
 - description: Trigger serverless functions automatically when messages arrive in queues or topic subscriptions.
@@ -445,7 +444,7 @@ plans:
 - name: Azure Service Bus Plans Pricing
   plan_count: 8
   slug: azure-service-bus-plans-pricing
-random_paper: 8
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Azure Service Bus Rate Limits
@@ -492,27 +491,24 @@ scopes:
   slug: azure-service-bus-scopes
   summary_line: 1 scope · implicit
 score:
-  band: exemplar
-  composite: 66.6
+  band: strong
+  composite: 62.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 61.9
+    artifact_dirs: 24
+    catalog_earned: 64.9
     catalog_earned_first_party: 12.0
-    catalog_gap: 53.1
+    catalog_gap: 50.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 1.5
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 13.6
     contract_quality: 62.8
     developer_ergonomics: 65.5
     discoverability: 71.4
-    operational_transparency: 52.6
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 68.0
+    operational_transparency: 55.3
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     contracts:
@@ -526,13 +522,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/screenshots/azure-service-bus-2026-06-20T172908.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/azure-service-bus/azure-service-bus-2026-06-20T172908.png
 security:
 - kind: authentication
   name: Azure Service Bus Authentication

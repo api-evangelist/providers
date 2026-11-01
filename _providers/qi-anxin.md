@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST threat-intelligence API from the QAX Threat Intelligence Center. Provides IP reputation, domain and URL reputation, file/hash verdicts, compromise (失陷) detection intelligence and vulnerability in
@@ -57,7 +59,7 @@ common:
   type: Website
   url: https://www.qianxin.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/security/qi-anxin-domain-security.yml
+  href: https://artifacts.apis.io/qi-anxin/security/qi-anxin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qi-anxin-domain-security.yml
@@ -86,77 +88,77 @@ common:
   type: Blog
   url: https://en.qianxin.com/news/list
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/mcp/qi-anxin-mcp.yml
+  href: https://artifacts.apis.io/qi-anxin/mcp/qi-anxin-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/qi-anxin-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/authentication/qi-anxin-authentication.yml
+  href: https://artifacts.apis.io/qi-anxin/authentication/qi-anxin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qi-anxin-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/sandbox/qi-anxin-sandbox.yml
+  href: https://artifacts.apis.io/qi-anxin/sandbox/qi-anxin-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/qi-anxin-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/changelog/qi-anxin-changelog.yml
+  href: https://artifacts.apis.io/qi-anxin/changelog/qi-anxin-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qi-anxin-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/lifecycle/qi-anxin-lifecycle.yml
+  href: https://artifacts.apis.io/qi-anxin/lifecycle/qi-anxin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qi-anxin-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/lifecycle/qi-anxin-lifecycle.yml
+  href: https://artifacts.apis.io/qi-anxin/lifecycle/qi-anxin-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/qi-anxin-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/conventions/qi-anxin-conventions.yml
+  href: https://artifacts.apis.io/qi-anxin/conventions/qi-anxin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qi-anxin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/errors/qi-anxin-problem-types.yml
+  href: https://artifacts.apis.io/qi-anxin/errors/qi-anxin-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qi-anxin-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/conformance/qi-anxin-conformance.yml
+  href: https://artifacts.apis.io/qi-anxin/conformance/qi-anxin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qi-anxin-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/plans/qi-anxin-plans-pricing.yml
+  href: https://artifacts.apis.io/qi-anxin/plans/qi-anxin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qi-anxin-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/rate-limits/qi-anxin-rate-limits.yml
+  href: https://artifacts.apis.io/qi-anxin/rate-limits/qi-anxin-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qi-anxin-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/packages/qi-anxin-packages.yml
+  href: https://artifacts.apis.io/qi-anxin/packages/qi-anxin-packages.yml
   title: ''
   type: Packages
   url: packages/qi-anxin-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/llms/qi-anxin-llms.txt
+  href: https://artifacts.apis.io/qi-anxin/llms/qi-anxin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qi-anxin-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/security/qi-anxin-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/qi-anxin/security/qi-anxin-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/qi-anxin-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/security/qi-anxin-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/qi-anxin/security/qi-anxin-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/qi-anxin-vulnerability-disclosure.yml
@@ -187,22 +189,22 @@ rate_limits:
   name: Qi Anxin Rate Limits
   slug: qi-anxin-rate-limits
 score:
-  band: emerging
-  composite: 19.8
+  band: thin
+  composite: 27.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 26.2
-    discoverability: 68.3
+    developer_ergonomics: 52.4
+    discoverability: 65.0
     operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -211,7 +213,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 19.7
+  previous_composite: 27.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -221,14 +223,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/screenshots/qi-anxin-2026-09-02T152639.png
+screenshot: https://apis.io/screenshots/qi-anxin/qi-anxin-2026-09-02T152639.png
 security:
 - kind: authentication
   name: Qi Anxin Authentication

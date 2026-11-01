@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.5
-  scored_at: '2026-10-17'
+  score: 7.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL endpoint for Californianaturals providing product and order data.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/californianaturals/refs/heads/main/llms/californianaturals-llms.txt
+  href: https://artifacts.apis.io/californianaturals/llms/californianaturals-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/californianaturals-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/californianaturals/refs/heads/main/well-known/californianaturals-well-known.yml
+  href: https://artifacts.apis.io/californianaturals/well-known/californianaturals-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/californianaturals-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/californianaturals/refs/heads/main/hosts/californianaturals-hosts.yml
+  href: https://artifacts.apis.io/californianaturals/hosts/californianaturals-hosts.yml
   title: ''
   type: Hosts
   url: hosts/californianaturals-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/californianaturals/refs/heads/main/vendors/californianaturals-vendors.yml
+  href: https://artifacts.apis.io/californianaturals/vendors/californianaturals-vendors.yml
   title: ''
   type: Vendors
   url: vendors/californianaturals-vendors.yml
@@ -56,7 +58,7 @@ common:
   type: PrivacyPolicy
   url: https://thecalifornianaturals.com/pages/privacy-policy-terms-of-use
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/californianaturals/refs/heads/main/security/californianaturals-domain-security.yml
+  href: https://artifacts.apis.io/californianaturals/security/californianaturals-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/californianaturals-domain-security.yml
@@ -72,11 +74,11 @@ modified: '2026-10-06'
 name: Californianaturals
 nav: Providers
 network: true
-overview: Californianaturals is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, PersonalCare, CleanBeauty, WomenFounded, and California.
-random_paper: 8
+overview: Californianaturals is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Personal Care, Clean Beauty, WomenFounded, and California.
+random_paper: 2
 score:
   band: minimal
-  composite: 8.6
+  composite: 7.9
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -84,13 +86,22 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
+  previous_composite: 7.9
   provenance:
     mcp: unknown
   regulatory:
@@ -99,8 +110,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -113,8 +125,8 @@ security:
 slug: californianaturals
 tags:
 - Company
-- PersonalCare
-- CleanBeauty
+- Personal Care
+- Clean Beauty
 - WomenFounded
 - California
 website: https://thecalifornianaturals.com

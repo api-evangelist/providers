@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Smithy Interface Definition Language (IDL) is a specification for defining API models using shapes and traits. Models can be written in the Smithy IDL syntax or the JSON AST representation. Smithy
@@ -45,17 +47,17 @@ apis:
 artifact_total: 13
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/smithy/refs/heads/main/plans/smithy-plans-pricing.yml
+  href: https://artifacts.apis.io/smithy/plans/smithy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/smithy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/smithy/refs/heads/main/rate-limits/smithy-rate-limits.yml
+  href: https://artifacts.apis.io/smithy/rate-limits/smithy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/smithy-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/smithy/refs/heads/main/finops/smithy-finops.yml
+  href: https://artifacts.apis.io/smithy/finops/smithy-finops.yml
   title: ''
   type: FinOps
   url: finops/smithy-finops.yml
@@ -80,7 +82,7 @@ common:
   type: License
   url: https://github.com/smithy-lang/smithy/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smithy/refs/heads/main/security/smithy-domain-security.yml
+  href: https://artifacts.apis.io/smithy/security/smithy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/smithy-domain-security.yml
@@ -134,7 +136,7 @@ finops:
 - has_sources: false
   method: generated
   name: Smithy Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: smithy-finops
   template: true
@@ -171,7 +173,7 @@ plans:
 - name: Smithy Plans Pricing
   plan_count: 3
   slug: smithy-plans-pricing
-random_paper: 10
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Smithy Rate Limits
@@ -202,7 +204,7 @@ rules:
   slug: smithy-rules
 score:
   band: emerging
-  composite: 25.1
+  composite: 21.1
   coverage:
     artifact_dirs: 13
     catalog_earned: 50.5
@@ -210,32 +212,29 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 17.2
     developer_ergonomics: 23.8
     discoverability: 57.1
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 26.5
+    operational_transparency: 28.9
+  previous_composite: 21.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/smithy/refs/heads/main/screenshots/smithy-2026-06-20T194054.png
+screenshot: https://apis.io/screenshots/smithy/smithy-2026-06-20T194054.png
 security:
 - kind: domain-security
   name: Smithy Domain Security

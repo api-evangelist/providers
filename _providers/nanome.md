@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST API to create workspaces, load molecular structures, create and rename scenes, and add visualization components. Bearer-token auth. Powers the MARA workspace builder, the official Nanome MCP serv
@@ -43,10 +45,10 @@ apis:
 - description: Account and session API (e.g. GET /user/session to validate a token).
   name: Nanome Account API
   slug: nanome-account-api
-artifact_total: 6
+artifact_total: 8
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/plans/nanome-plans-pricing.yml
+  href: https://artifacts.apis.io/nanome/plans/nanome-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nanome-plans-pricing.yml
@@ -91,67 +93,67 @@ common:
   type: StatusPage
   url: https://nanome.statuspage.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/authentication/nanome-authentication.yml
+  href: https://artifacts.apis.io/nanome/authentication/nanome-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nanome-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/packages/nanome-packages.yml
+  href: https://artifacts.apis.io/nanome/packages/nanome-packages.yml
   title: ''
   type: Packages
   url: packages/nanome-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/packages/nanome-packages.yml
+  href: https://artifacts.apis.io/nanome/packages/nanome-packages.yml
   title: ''
   type: SDKs
   url: packages/nanome-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/mcp/nanome-mcp.yml
+  href: https://artifacts.apis.io/nanome/mcp/nanome-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nanome-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nanome/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/lifecycle/nanome-lifecycle.yml
+  href: https://artifacts.apis.io/nanome/lifecycle/nanome-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nanome-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/conventions/nanome-conventions.yml
+  href: https://artifacts.apis.io/nanome/conventions/nanome-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nanome-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/errors/nanome-error-codes.yml
+  href: https://artifacts.apis.io/nanome/errors/nanome-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/nanome-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/data-model/nanome-data-model.yml
+  href: https://artifacts.apis.io/nanome/data-model/nanome-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nanome-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/conformance/nanome-conformance.yml
+  href: https://artifacts.apis.io/nanome/conformance/nanome-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nanome-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/well-known/nanome-well-known.yml
+  href: https://artifacts.apis.io/nanome/well-known/nanome-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nanome-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/security/nanome-domain-security.yml
+  href: https://artifacts.apis.io/nanome/security/nanome-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nanome-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/llms/nanome-llms.txt
+  href: https://artifacts.apis.io/nanome/llms/nanome-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nanome-llms.txt
@@ -175,26 +177,26 @@ plans:
 - name: Nanome Plans Pricing
   plan_count: 6
   slug: nanome-plans-pricing
-random_paper: 0
+random_paper: 14
 score:
   band: thin
-  composite: 33.2
+  composite: 35.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
-    access_clarity: 63.2
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 71.7
-    operational_transparency: 18.4
-  previous_composite: 26.8
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 35.5
   provenance:
     conformance: derived
     mcp: first-party
@@ -205,14 +207,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/screenshots/nanome-2026-08-07T184617.png
+screenshot: https://apis.io/screenshots/nanome/nanome-2026-08-07T184617.png
 security:
 - kind: authentication
   name: Nanome Authentication
@@ -222,6 +224,12 @@ security:
   name: Nanome Domain Security
   slug: nanome-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: nanome-auth
+  slug: nanome-auth
+- name: nanome-workspace
+  slug: nanome-workspace
 slug: nanome
 tags:
 - Company

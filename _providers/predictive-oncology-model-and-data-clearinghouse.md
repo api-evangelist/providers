@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 27
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 37
   slug: predictive-oncology-model-and-data-clearinghouse-agentic-access
   summary_line: 37 operations · 27 acting · 27 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: http://localhost:8080
   baseurl_source: spec
@@ -128,11 +130,8 @@ apis:
   description: The rest-api-common-controller API from Predictive Oncology Model and Data Clearinghouse — 17 operation(s) for rest-api-common-controller.
   name: Predictive Oncology Model and Data Clearinghouse Rest API Common Controller API
   slug: predictive-oncology-model-and-data-clearinghouse-rest-api-common-controller-api
-artifact_total: 41
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MoDaC asset-details-controller API
   slug: open-predictive-oncology-model-and-data-clearinghouse-asset-details-controller-api
@@ -189,12 +188,12 @@ collections:
   slug: open-predictive-oncology-model-and-data-clearinghouse
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/rate-limits/predictive-oncology-model-and-data-clearinghouse-rate-limits.yml
+  href: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/rate-limits/predictive-oncology-model-and-data-clearinghouse-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/predictive-oncology-model-and-data-clearinghouse-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/finops/predictive-oncology-model-and-data-clearinghouse-finops.yml
+  href: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/finops/predictive-oncology-model-and-data-clearinghouse-finops.yml
   title: ''
   type: FinOps
   url: finops/predictive-oncology-model-and-data-clearinghouse-finops.yml
@@ -203,7 +202,7 @@ common:
   type: Pricing
   url: https://chtn.cancer.gov/pricing/commercial.html
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/plans/predictive-oncology-model-and-data-clearinghouse-plans-pricing.yml
+  href: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/plans/predictive-oncology-model-and-data-clearinghouse-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/predictive-oncology-model-and-data-clearinghouse-plans-pricing.yml
@@ -212,17 +211,17 @@ common:
   type: Website
   url: https://www.cancer.gov/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/capabilities/predictive-oncology-model-and-data-clearinghouse-capability-edges.yml
+  href: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/capabilities/predictive-oncology-model-and-data-clearinghouse-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/predictive-oncology-model-and-data-clearinghouse-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/agentic-access/predictive-oncology-model-and-data-clearinghouse-agentic-access.yml
+  href: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/agentic-access/predictive-oncology-model-and-data-clearinghouse-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/predictive-oncology-model-and-data-clearinghouse-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/security/predictive-oncology-model-and-data-clearinghouse-domain-security.yml
+  href: https://artifacts.apis.io/predictive-oncology-model-and-data-clearinghouse/security/predictive-oncology-model-and-data-clearinghouse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/predictive-oncology-model-and-data-clearinghouse-domain-security.yml
@@ -252,7 +251,7 @@ finops:
 - has_sources: false
   method: generated
   name: Predictive Oncology Model And Data Clearinghouse Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: predictive-oncology-model-and-data-clearinghouse-finops
   template: true
@@ -270,14 +269,14 @@ plans:
 - name: Predictive Oncology Model And Data Clearinghouse Plans Pricing
   plan_count: 26
   slug: predictive-oncology-model-and-data-clearinghouse-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Predictive Oncology Model And Data Clearinghouse Rate Limits
   slug: predictive-oncology-model-and-data-clearinghouse-rate-limits
 score:
   band: thin
-  composite: 26.6
+  composite: 28.6
   coverage:
     artifact_dirs: 10
     catalog_earned: 47.0
@@ -285,15 +284,15 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 48.7
+    access_clarity: 55.3
     contract_governance: 0.0
     contract_quality: 32.8
     developer_ergonomics: 19.0
     discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 28.2
+  previous_composite: 28.6
   provenance:
     agentic_access: derived
     contracts:
@@ -307,13 +306,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/screenshots/predictive-oncology-model-and-data-clearinghouse-2026-06-20T192044.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/predictive-oncology-model-and-data-clearinghouse/predictive-oncology-model-and-data-clearinghouse-2026-06-20T192044.png
 security:
 - kind: domain-security
   name: Predictive Oncology Model And Data Clearinghouse Domain Security

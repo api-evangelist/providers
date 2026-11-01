@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: High-throughput read/stream API over the Injective chain and exchange data, exposed via gRPC, gRPC-web, and REST plus a Chain Stream WebSocket. Provides accounts, auctions, spot and derivative markets
@@ -49,7 +51,7 @@ asyncapis:
   slug: injective-chain-stream-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/security/injective-domain-security.yml
+  href: https://artifacts.apis.io/injective/security/injective-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/injective-domain-security.yml
@@ -98,72 +100,72 @@ common:
   type: StatusPage
   url: https://injective.instatus.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/llms/injective-llms.txt
+  href: https://artifacts.apis.io/injective/llms/injective-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/injective-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/packages/injective-packages.yml
+  href: https://artifacts.apis.io/injective/packages/injective-packages.yml
   title: ''
   type: Packages
   url: packages/injective-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/packages/injective-packages.yml
+  href: https://artifacts.apis.io/injective/packages/injective-packages.yml
   title: ''
   type: SDKs
   url: packages/injective-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/mcp/injective-mcp.yml
+  href: https://artifacts.apis.io/injective/mcp/injective-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/injective-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/injective/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/cli/injective-cli.yml
+  href: https://artifacts.apis.io/injective/cli/injective-cli.yml
   title: ''
   type: CLI
   url: cli/injective-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/changelog/injective-changelog.yml
+  href: https://artifacts.apis.io/injective/changelog/injective-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/injective-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/lifecycle/injective-lifecycle.yml
+  href: https://artifacts.apis.io/injective/lifecycle/injective-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/injective-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/conformance/injective-conformance.yml
+  href: https://artifacts.apis.io/injective/conformance/injective-conformance.yml
   title: ''
   type: Conformance
   url: conformance/injective-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/authentication/injective-authentication.yml
+  href: https://artifacts.apis.io/injective/authentication/injective-authentication.yml
   title: ''
   type: Authentication
   url: authentication/injective-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/errors/injective-error-codes.yml
+  href: https://artifacts.apis.io/injective/errors/injective-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/injective-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/conventions/injective-conventions.yml
+  href: https://artifacts.apis.io/injective/conventions/injective-conventions.yml
   title: ''
   type: Conventions
   url: conventions/injective-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/asyncapi/injective-chain-stream-webhooks.yml
+  href: https://artifacts.apis.io/injective/asyncapi/injective-chain-stream-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/injective-chain-stream-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/sandbox/injective-sandbox.yml
+  href: https://artifacts.apis.io/injective/sandbox/injective-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/injective-sandbox.yml
@@ -186,26 +188,26 @@ overview: 'Injective is listed with 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Injective''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, changelog, and 19 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
   band: developing
-  composite: 40.8
+  composite: 44.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 76.2
-    discoverability: 71.7
-    operational_transparency: 26.3
-  previous_composite: 40.7
+    developer_ergonomics: 85.7
+    discoverability: 65.0
+    operational_transparency: 44.7
+  previous_composite: 44.4
   provenance:
     conformance: derived
     mcp: first-party
@@ -216,14 +218,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/screenshots/injective-2026-07-25T222440.png
+screenshot: https://apis.io/screenshots/injective/injective-2026-07-25T222440.png
 security:
 - kind: authentication
   name: Injective Authentication

@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.5
-  scored_at: '2026-10-17'
+  score: 30.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -58,37 +60,37 @@ apis:
 artifact_total: 27
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/plans/linear-app-plans-pricing.yml
+  href: https://artifacts.apis.io/linear-app/plans/linear-app-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/linear-app-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/finops/linear-app-finops.yml
+  href: https://artifacts.apis.io/linear-app/finops/linear-app-finops.yml
   title: ''
   type: FinOps
   url: finops/linear-app-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/agentic-access/linear-app-agentic-access.yml
+  href: https://artifacts.apis.io/linear-app/agentic-access/linear-app-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/linear-app-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/scopes/linear-app-scopes.yml
+  href: https://artifacts.apis.io/linear-app/scopes/linear-app-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/linear-app-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/security/linear-app-trust-center.yml
+  href: https://artifacts.apis.io/linear-app/security/linear-app-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/linear-app-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/security/linear-app-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/linear-app/security/linear-app-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/linear-app-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/security/linear-app-domain-security.yml
+  href: https://artifacts.apis.io/linear-app/security/linear-app-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/linear-app-domain-security.yml
@@ -254,7 +256,7 @@ plans:
 - name: Linear App Plans Pricing
   plan_count: 1
   slug: linear-app-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Linear App Rate Limits
@@ -266,7 +268,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.1
+  composite: 37.9
   coverage:
     artifact_dirs: 14
     catalog_earned: 34.0
@@ -274,15 +276,15 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 63.3
+    discoverability: 60.7
     operational_transparency: 60.5
-  previous_composite: 44.1
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     mcp: first-party
@@ -292,14 +294,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/screenshots/linear-app-2026-06-20T184548.png
+screenshot: https://apis.io/screenshots/linear-app/linear-app-2026-06-20T184548.png
 security:
 - kind: domain-security
   name: Linear App Domain Security

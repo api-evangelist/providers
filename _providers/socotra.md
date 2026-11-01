@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.3
-  scored_at: '2026-10-17'
+  score: 46.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 408
   human_in_the_loop: 12
@@ -134,15 +136,12 @@ apis:
   description: The Work Management API from Socotra — 39 operation(s) for work management.
   name: Socotra Work Management API
   slug: socotra-work-management-api
-artifact_total: 43
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Socotra Webhooks
   slug: socotra-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Socotra Insurance Suite OpenAPI Definition Auth API
   slug: open-socotra-auth-api
@@ -203,22 +202,22 @@ common:
   type: BlogRSS
   url: https://www.socotra.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/capabilities/socotra-capability-edges.yml
+  href: https://artifacts.apis.io/socotra/capabilities/socotra-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/socotra-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/security/socotra-trust-center.yml
+  href: https://artifacts.apis.io/socotra/security/socotra-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/socotra-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/security/socotra-domain-security.yml
+  href: https://artifacts.apis.io/socotra/security/socotra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/socotra-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/agentic-access/socotra-agentic-access.yml
+  href: https://artifacts.apis.io/socotra/agentic-access/socotra-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/socotra-agentic-access.yml
@@ -271,87 +270,87 @@ common:
   type: Compliance
   url: https://trust.socotra.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/authentication/socotra-authentication.yml
+  href: https://artifacts.apis.io/socotra/authentication/socotra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/socotra-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/packages/socotra-packages.yml
+  href: https://artifacts.apis.io/socotra/packages/socotra-packages.yml
   title: ''
   type: Packages
   url: packages/socotra-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/packages/socotra-packages.yml
+  href: https://artifacts.apis.io/socotra/packages/socotra-packages.yml
   title: ''
   type: SDKs
   url: packages/socotra-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/mcp/socotra-mcp.yml
+  href: https://artifacts.apis.io/socotra/mcp/socotra-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/socotra-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/llms/socotra-llms.txt
+  href: https://artifacts.apis.io/socotra/llms/socotra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/socotra-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/overlays/socotra-openapi-overlay.yaml
+  href: https://artifacts.apis.io/socotra/overlays/socotra-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/socotra-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/conventions/socotra-conventions.yml
+  href: https://artifacts.apis.io/socotra/conventions/socotra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/socotra-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/conventions/socotra-conventions.yml
+  href: https://artifacts.apis.io/socotra/conventions/socotra-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/socotra-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/lifecycle/socotra-lifecycle.yml
+  href: https://artifacts.apis.io/socotra/lifecycle/socotra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/socotra-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/conformance/socotra-conformance.yml
+  href: https://artifacts.apis.io/socotra/conformance/socotra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/socotra-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/cli/socotra-cli.yml
+  href: https://artifacts.apis.io/socotra/cli/socotra-cli.yml
   title: ''
   type: CLI
   url: cli/socotra-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/components/socotra-components.yml
+  href: https://artifacts.apis.io/socotra/components/socotra-components.yml
   title: ''
   type: Components
   url: components/socotra-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/data-model/socotra-data-model.yml
+  href: https://artifacts.apis.io/socotra/data-model/socotra-data-model.yml
   title: ''
   type: DataModel
   url: data-model/socotra-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/asyncapi/socotra-webhooks.yml
+  href: https://artifacts.apis.io/socotra/asyncapi/socotra-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/socotra-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/socotra/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/sandbox/socotra-sandbox.yml
+  href: https://artifacts.apis.io/socotra/sandbox/socotra-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/socotra-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/changelog/socotra-changelog.yml
+  href: https://artifacts.apis.io/socotra/changelog/socotra-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/socotra-changelog.yml
@@ -374,10 +373,10 @@ overview: 'Socotra publishes 18 API contracts indexed on the [APIs.io](https://a
 
 
   Socotra''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 27 more developer resources.'
-random_paper: 15
+random_paper: 19
 score:
   band: developing
-  composite: 50.9
+  composite: 46.9
   coverage:
     artifact_dirs: 25
     catalog_earned: 37.0
@@ -389,11 +388,11 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 44.8
+    contract_quality: 43.6
     developer_ergonomics: 80.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 31.6
-  previous_composite: 50.9
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -410,13 +409,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/screenshots/socotra-2026-08-17T081950.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/socotra/socotra-2026-08-17T081950.png
 security:
 - kind: authentication
   name: Socotra Authentication
@@ -430,6 +430,12 @@ security:
   name: Socotra Trust Center
   slug: socotra-trust-center
   summary_line: ISO/IEC 27001, ISO/IEC 27001 Statement of Applicability, SOC 1, HIPAA, GDPR, CCPA, CPRA, AWS Qualified Software
+skill_count: 2
+skills:
+- name: Socotra quote-to-bind
+  slug: socotra-quote-to-bind
+- name: Socotra webhook subscription
+  slug: socotra-webhook-subscription
 slug: socotra
 tags:
 - Company

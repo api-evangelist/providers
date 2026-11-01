@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-17'
+  score: 26.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Common Vulnerabilities and Exposures data for Red Hat products
   name: Red Hat Enterprise Linux 8 CV Es API
   slug: red-hat-enterprise-linux-8-cves-api
-artifact_total: 30
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Red Hat Security Data Advisories API
   slug: open-red-hat-enterprise-linux-8-advisories-api
@@ -82,23 +81,27 @@ collections:
   name: Red Hat Security Data API
   slug: open-red-hat-enterprise-linux-8-security-data
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/red-hat-enterprise-linux-8/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/plans/red-hat-enterprise-linux-8-plans-pricing.yml
+  href: https://artifacts.apis.io/red-hat-enterprise-linux-8/plans/red-hat-enterprise-linux-8-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/red-hat-enterprise-linux-8-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/rate-limits/red-hat-enterprise-linux-8-rate-limits.yml
+  href: https://artifacts.apis.io/red-hat-enterprise-linux-8/rate-limits/red-hat-enterprise-linux-8-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/red-hat-enterprise-linux-8-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/finops/red-hat-enterprise-linux-8-finops.yml
+  href: https://artifacts.apis.io/red-hat-enterprise-linux-8/finops/red-hat-enterprise-linux-8-finops.yml
   title: ''
   type: FinOps
   url: finops/red-hat-enterprise-linux-8-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/capabilities/red-hat-enterprise-linux-8-capability-edges.yml
+  href: https://artifacts.apis.io/red-hat-enterprise-linux-8/capabilities/red-hat-enterprise-linux-8-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/red-hat-enterprise-linux-8-capability-edges.yml
@@ -115,22 +118,22 @@ common:
   type: MCPDocumentation
   url: https://rhel-lightspeed.github.io/linux-mcp-server/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/agentic-access/red-hat-enterprise-linux-8-agentic-access.yml
+  href: https://artifacts.apis.io/red-hat-enterprise-linux-8/agentic-access/red-hat-enterprise-linux-8-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/red-hat-enterprise-linux-8-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/security/red-hat-enterprise-linux-8-trust-center.yml
+  href: https://artifacts.apis.io/red-hat-enterprise-linux-8/security/red-hat-enterprise-linux-8-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/red-hat-enterprise-linux-8-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/security/red-hat-enterprise-linux-8-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/red-hat-enterprise-linux-8/security/red-hat-enterprise-linux-8-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/red-hat-enterprise-linux-8-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/security/red-hat-enterprise-linux-8-domain-security.yml
+  href: https://artifacts.apis.io/red-hat-enterprise-linux-8/security/red-hat-enterprise-linux-8-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/red-hat-enterprise-linux-8-domain-security.yml
@@ -187,32 +190,32 @@ common:
   type: TermsOfService
   url: https://www.redhat.com/en/about/agreements
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/openapi/_original/red-hat-enterprise-linux-8-security-data-openapi.yml
+  href: https://artifacts.apis.io/red-hat-enterprise-linux-8/openapi/_original/red-hat-enterprise-linux-8-security-data-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/red-hat-enterprise-linux-8-security-data-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/json-ld/red-hat-enterprise-linux-8-context.jsonld
+  href: https://artifacts.apis.io/red-hat-enterprise-linux-8/json-ld/red-hat-enterprise-linux-8-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/red-hat-enterprise-linux-8-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/json-schema/red-hat-enterprise-linux-8-cve-schema.json
+  href: https://artifacts.apis.io/red-hat-enterprise-linux-8/json-schema/red-hat-enterprise-linux-8-cve-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/red-hat-enterprise-linux-8-cve-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/json-structure/red-hat-enterprise-linux-8-cve-structure.json
+  href: https://artifacts.apis.io/red-hat-enterprise-linux-8/json-structure/red-hat-enterprise-linux-8-cve-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/red-hat-enterprise-linux-8-cve-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/rules/red-hat-enterprise-linux-8-rules.yml
+  href: https://artifacts.apis.io/red-hat-enterprise-linux-8/rules/red-hat-enterprise-linux-8-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/red-hat-enterprise-linux-8-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/vocabulary/red-hat-enterprise-linux-8-vocabulary.yml
+  href: https://artifacts.apis.io/red-hat-enterprise-linux-8/vocabulary/red-hat-enterprise-linux-8-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/red-hat-enterprise-linux-8-vocabulary.yml
@@ -277,12 +280,12 @@ overview: 'Red Hat Enterprise Linux 8 publishes 5 API contracts indexed on the [
   The Red Hat Enterprise Linux 8 catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Red Hat Enterprise Linux 8''s developer surface includes developer portal, documentation, support, engineering blog, release notes, training material, and 24 more developer resources.'
+  Red Hat Enterprise Linux 8''s developer surface includes developer portal, documentation, support, engineering blog, release notes, training material, and 25 more developer resources.'
 plans:
 - name: Red Hat Enterprise Linux 8 Plans Pricing
   plan_count: 6
   slug: red-hat-enterprise-linux-8-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Red Hat Enterprise Linux 8 Rate Limits
@@ -313,7 +316,7 @@ rules:
   slug: red-hat-enterprise-linux-8-rules
 score:
   band: developing
-  composite: 45.4
+  composite: 47.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 54.0
@@ -321,15 +324,15 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.3
   facets:
     access_clarity: 36.8
     contract_governance: 27.3
     contract_quality: 55.9
-    developer_ergonomics: 38.1
+    developer_ergonomics: 46.4
     discoverability: 56.7
-    operational_transparency: 34.2
-  previous_composite: 53.7
+    operational_transparency: 36.8
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
@@ -343,14 +346,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/screenshots/red-hat-enterprise-linux-8-2026-06-20T192718.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/red-hat-enterprise-linux-8/red-hat-enterprise-linux-8-2026-06-20T192718.png
 security:
 - kind: domain-security
   name: Red Hat Enterprise Linux 8 Domain Security

@@ -17,7 +17,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: documented
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.6
-  scored_at: '2026-10-17'
+  score: 44.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -133,15 +135,12 @@ apis:
     question: How do I stop notifications going to an old endpoint?
   phrasing_ops: 5
   slug: tabby-webhooks-api
-artifact_total: 33
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Tabby Webhooks
   slug: tabby-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Tabby API Reference
   slug: open-tabby-api
@@ -159,27 +158,27 @@ collections:
   slug: open-tabby-webhooks-api
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/rules/tabby-rules.yml
+  href: https://artifacts.apis.io/tabby/rules/tabby-rules.yml
   title: ''
   type: Spectral
   url: rules/tabby-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/rules/tabby-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/tabby/rules/tabby-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/tabby-jsonschema-spectral-rules.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/hosts/tabby-hosts.yml
+  href: https://artifacts.apis.io/tabby/hosts/tabby-hosts.yml
   title: ''
   type: Hosts
   url: hosts/tabby-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/integrations/tabby-integration-edges.yml
+  href: https://artifacts.apis.io/tabby/integrations/tabby-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/tabby-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/vendors/tabby-vendors.yml
+  href: https://artifacts.apis.io/tabby/vendors/tabby-vendors.yml
   title: ''
   type: Vendors
   url: vendors/tabby-vendors.yml
@@ -188,22 +187,22 @@ common:
   type: Newsroom
   url: https://tabby.ai/newsroom
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/capabilities/tabby-capability-edges.yml
+  href: https://artifacts.apis.io/tabby/capabilities/tabby-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tabby-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/agentic-access/tabby-agentic-access.yml
+  href: https://artifacts.apis.io/tabby/agentic-access/tabby-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tabby-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/security/tabby-domain-security.yml
+  href: https://artifacts.apis.io/tabby/security/tabby-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tabby-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/authentication/tabby-authentication.yml
+  href: https://artifacts.apis.io/tabby/authentication/tabby-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tabby-authentication.yml
@@ -360,27 +359,27 @@ common:
   type: Pricing
   url: https://tabby.ai/en-AE/help-business/about-tabby/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/plans/tabby-plans-pricing.yml
+  href: https://artifacts.apis.io/tabby/plans/tabby-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tabby-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/rate-limits/tabby-rate-limits.yml
+  href: https://artifacts.apis.io/tabby/rate-limits/tabby-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tabby-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/finops/tabby-finops.yml
+  href: https://artifacts.apis.io/tabby/finops/tabby-finops.yml
   title: ''
   type: FinOps
   url: finops/tabby-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/rules/tabby-rules.yml
+  href: https://artifacts.apis.io/tabby/rules/tabby-rules.yml
   title: ''
   type: SpectralRules
   url: rules/tabby-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/vocabulary/tabby-vocabulary.yml
+  href: https://artifacts.apis.io/tabby/vocabulary/tabby-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tabby-vocabulary.yml
@@ -417,117 +416,117 @@ common:
   type: Documentation
   url: https://docs.tabby.ai/introduction/ai-tools
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/packages/tabby-packages.yml
+  href: https://artifacts.apis.io/tabby/packages/tabby-packages.yml
   title: ''
   type: Packages
   url: packages/tabby-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/packages/tabby-packages.yml
+  href: https://artifacts.apis.io/tabby/packages/tabby-packages.yml
   title: ''
   type: SDKs
   url: packages/tabby-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/well-known/tabby-well-known.yml
+  href: https://artifacts.apis.io/tabby/well-known/tabby-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tabby-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/mcp/tabby-mcp.yml
+  href: https://artifacts.apis.io/tabby/mcp/tabby-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tabby-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/mcp/tabby-tool-crosswalk.yml
+  href: https://artifacts.apis.io/tabby/mcp/tabby-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tabby-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/a2a/tabby-a2a.yml
+  href: https://artifacts.apis.io/tabby/a2a/tabby-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/tabby-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/llms/tabby-llms.txt
+  href: https://artifacts.apis.io/tabby/llms/tabby-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tabby-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tabby/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/conventions/tabby-conventions.yml
+  href: https://artifacts.apis.io/tabby/conventions/tabby-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tabby-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/conventions/tabby-conventions.yml
+  href: https://artifacts.apis.io/tabby/conventions/tabby-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/tabby-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/errors/tabby-problem-types.yml
+  href: https://artifacts.apis.io/tabby/errors/tabby-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tabby-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/lifecycle/tabby-lifecycle.yml
+  href: https://artifacts.apis.io/tabby/lifecycle/tabby-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tabby-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/conformance/tabby-conformance.yml
+  href: https://artifacts.apis.io/tabby/conformance/tabby-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tabby-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/conformance/tabby-conformance.yml
+  href: https://artifacts.apis.io/tabby/conformance/tabby-conformance.yml
   title: ''
   type: Compliance
   url: conformance/tabby-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/sandbox/tabby-sandbox.yml
+  href: https://artifacts.apis.io/tabby/sandbox/tabby-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tabby-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/components/tabby-components.yml
+  href: https://artifacts.apis.io/tabby/components/tabby-components.yml
   title: ''
   type: Components
   url: components/tabby-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/data-model/tabby-data-model.yml
+  href: https://artifacts.apis.io/tabby/data-model/tabby-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tabby-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/asyncapi/tabby-webhooks.yml
+  href: https://artifacts.apis.io/tabby/asyncapi/tabby-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tabby-webhooks.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/errors/tabby-decline-codes.yml
+  href: https://artifacts.apis.io/tabby/errors/tabby-decline-codes.yml
   title: ''
   type: Documentation
   url: errors/tabby-decline-codes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/overlays/tabby-checkout-api-overlay.yaml
+  href: https://artifacts.apis.io/tabby/overlays/tabby-checkout-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tabby-checkout-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/overlays/tabby-payments-api-overlay.yaml
+  href: https://artifacts.apis.io/tabby/overlays/tabby-payments-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tabby-payments-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/overlays/tabby-webhooks-api-overlay.yaml
+  href: https://artifacts.apis.io/tabby/overlays/tabby-webhooks-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tabby-webhooks-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/overlays/tabby-disputes-api-overlay.yaml
+  href: https://artifacts.apis.io/tabby/overlays/tabby-disputes-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tabby-disputes-api-overlay.yaml
@@ -556,12 +555,12 @@ examples:
   slug: tabby-webhook-event-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Tabby Finops
-  primary_unit: transaction
-  service_category: Financial Services
+  primary_unit: ''
+  service_category: ''
   slug: tabby-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tabby.png
 json_schemas:
 - name: TabbyCapture
@@ -641,21 +640,21 @@ rules:
   slug: tabby-rules
 score:
   band: exemplar
-  composite: 77.3
+  composite: 74.9
   coverage:
     artifact_dirs: 35
-    catalog_earned: 90.0
+    catalog_earned: 87.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 25.0
+    catalog_gap: 28.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: -1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 84.2
     contract_governance: 45.5
-    contract_quality: 72.3
+    contract_quality: 70.3
     developer_ergonomics: 92.9
-    discoverability: 76.7
+    discoverability: 66.7
     operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -666,7 +665,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 77.1
+  previous_composite: 76.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -683,13 +682,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/screenshots/tabby-2026-06-20T194846.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tabby/tabby-2026-06-20T194846.png
 security:
 - kind: authentication
   name: Tabby Authentication
@@ -699,6 +699,18 @@ security:
   name: Tabby Domain Security
   slug: tabby-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 5
+skills:
+- name: tabby-checkout-to-capture
+  slug: tabby-checkout-to-capture
+- name: tabby-dispute-response
+  slug: tabby-dispute-response
+- name: tabby-integration
+  slug: tabby-integration
+- name: tabby-refund-and-cancel
+  slug: tabby-refund-and-cancel
+- name: tabby-webhook-intake
+  slug: tabby-webhook-intake
 slug: tabby
 tags:
 - Buy Now Pay Later

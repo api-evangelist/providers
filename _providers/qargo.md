@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.3
-  scored_at: '2026-10-17'
+  score: 35.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 7
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 114
   slug: qargo-agentic-access
   summary_line: 114 operations · 64 acting · 7 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: Fleet dispatch and subcontractor-specific endpoints for transportation management.
   name: Qargo Subcontractor API
@@ -149,15 +151,12 @@ apis:
   description: The Use case / Visibility API from Qargo — 2 operation(s) for use case / visibility.
   name: Qargo Use case / Visibility API
   slug: qargo-use-case-visibility-api
-artifact_total: 52
+artifact_total: 56
 asyncapis:
 - description: ''
   name: Qargo Webhooks
   slug: qargo-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Qargo TMS API / Accounting API
   slug: open-qargo-api-accounting-api
@@ -231,13 +230,18 @@ collections:
   name: Qargo TMS API / Accounting Webhooks / Outbound API
   slug: open-qargo-webhooks-outbound-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/qargo/plans/qargo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/qargo-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/capabilities/qargo-capability-edges.yml
+  href: https://artifacts.apis.io/qargo/capabilities/qargo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/qargo-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/overlays/qargo-tms-overlay.yaml
+  href: https://artifacts.apis.io/qargo/overlays/qargo-tms-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qargo-tms-overlay.yaml
@@ -262,37 +266,37 @@ common:
   type: GettingStarted
   url: https://api-docs.qargo.com/docs/section/authentication/the-api-call-to-request-tokens
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/authentication/qargo-authentication.yml
+  href: https://artifacts.apis.io/qargo/authentication/qargo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qargo-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/authentication/qargo-authentication.yml
+  href: https://artifacts.apis.io/qargo/authentication/qargo-authentication.yml
   title: ''
   type: OAuthScopes
   url: authentication/qargo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/conventions/qargo-conventions.yml
+  href: https://artifacts.apis.io/qargo/conventions/qargo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qargo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/errors/qargo-problem-types.yml
+  href: https://artifacts.apis.io/qargo/errors/qargo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qargo-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/lifecycle/qargo-lifecycle.yml
+  href: https://artifacts.apis.io/qargo/lifecycle/qargo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qargo-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/lifecycle/qargo-lifecycle.yml
+  href: https://artifacts.apis.io/qargo/lifecycle/qargo-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/qargo-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/changelog/qargo-changelog.yml
+  href: https://artifacts.apis.io/qargo/changelog/qargo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qargo-changelog.yml
@@ -301,52 +305,52 @@ common:
   type: ChangeLog
   url: https://api-docs.qargo.com/docs/section/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/mcp/qargo-mcp.yml
+  href: https://artifacts.apis.io/qargo/mcp/qargo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/qargo-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/asyncapi/qargo-webhooks.yml
+  href: https://artifacts.apis.io/qargo/asyncapi/qargo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/qargo-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/agentic-access/qargo-agentic-access.yml
+  href: https://artifacts.apis.io/qargo/agentic-access/qargo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/qargo-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/qargo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/data-model/qargo-data-model.yml
+  href: https://artifacts.apis.io/qargo/data-model/qargo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qargo-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/conformance/qargo-conformance.yml
+  href: https://artifacts.apis.io/qargo/conformance/qargo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qargo-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/security/qargo-domain-security.yml
+  href: https://artifacts.apis.io/qargo/security/qargo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qargo-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/well-known/qargo-well-known.yml
+  href: https://artifacts.apis.io/qargo/well-known/qargo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/qargo-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/llms/qargo-llms.txt
+  href: https://artifacts.apis.io/qargo/llms/qargo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qargo-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/postman/qargo-postman.json
+  href: https://artifacts.apis.io/qargo/postman/qargo-postman.json
   title: ''
   type: Postman
   url: postman/qargo-postman.json
@@ -372,6 +376,14 @@ common:
   url: https://www.qargo.com/privacy-notice/
 created: '2026-07-17'
 description: Qargo is an intelligent transport management platform (TMS) for road carriers, freight forwarders and 3PLs, using AI to automate operational and administrative work across planning, execution, tracking and accounting. Qargo publishes a public Qargo TMS API (OpenAPI 3.1, v1.2.0, base https://api.qargo.com) exposing tenant-level integration and operational endpoints for orders, trips, companies, resources, documents, tasks and accounting, plus inbound and outbound webhooks and separate Subcontractor and Customer APIs. Service-to-service authentication uses OAuth2 client-credentials (JWT); webhooks use HTTP Basic. Qargo is a Balderton Capital portfolio company.
+finops:
+- has_sources: true
+  method: derived
+  name: Qargo Finops
+  primary_unit: ''
+  service_category: ''
+  slug: qargo-finops
+  template: true
 image: https://app.qargo.com/assets/Qargo_Icon.png
 layout: provider
 mcp_servers:
@@ -388,27 +400,31 @@ overview: 'Qargo publishes 22 API contracts indexed on the [APIs.io](https://api
   The Qargo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Qargo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 23 more developer resources.'
+  Qargo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 24 more developer resources.'
+plans:
+- name: Qargo Plans Pricing
+  plan_count: 1
+  slug: qargo-plans-pricing
 random_paper: 10
 score:
   band: developing
-  composite: 48.2
+  composite: 50.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 27.6
+    access_clarity: 55.3
     contract_governance: 4.5
-    contract_quality: 55.7
+    contract_quality: 54.6
     developer_ergonomics: 60.1
-    discoverability: 71.7
+    discoverability: 65.0
     operational_transparency: 31.6
-  previous_composite: 48.2
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -425,13 +441,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/screenshots/qargo-2026-08-17T081412.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/qargo/qargo-2026-08-17T081412.png
 security:
 - kind: authentication
   name: Qargo Authentication
@@ -441,6 +458,14 @@ security:
   name: Qargo Domain Security
   slug: qargo-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Create and reconcile a Qargo sales invoice
+  slug: qargo-create-sales-invoice
+- name: Import an order into Qargo and track its status
+  slug: qargo-import-order
+- name: Sync master data (companies and resources) into Qargo
+  slug: qargo-sync-master-data
 slug: qargo
 tags:
 - Company

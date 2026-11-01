@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,23 +26,68 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-10-17'
-api_count: 1
+  score: 18.0
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - description: 'Partner-facing REST API for the Trax retail intelligence platform: master data (stores, products, regions, retailers, targets, audit cycle sets), visit planning (routes, visit types, tasks, assortment'
   name: Trax Retail Platform API
   slug: trax-retail-platform-api
-artifact_total: 3
+- baseURL: https://services.traxretail.com
+  baseurl_source: declared
+  description: 'Trax API as documented publicly: 48 operations. Contract generated from the documentation by API Evangelist (2026-10-20); not the provider''s own document.'
+  name: Trax API
+  slug: trax-api
+artifact_total: 13
 common:
+- group: operate
+  href: https://artifacts.apis.io/trax/rate-limits/trax-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/trax-rate-limits.yml
+- group: design
+  href: https://artifacts.apis.io/trax/rules/trax-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/trax-rules.yml
+- group: design
+  href: https://artifacts.apis.io/trax/json-ld/trax-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/trax-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/trax/vocabulary/trax-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/trax-vocabulary.yml
+- group: other
+  href: https://artifacts.apis.io/trax/hosts/trax-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/trax-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/trax/vendors/trax-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/trax-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://traxretail.com/media/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.apidoc.traxretail.com/sso-adfs-setup
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trax/refs/heads/main/security/trax-domain-security.yml
+  href: https://artifacts.apis.io/trax/security/trax-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trax-domain-security.yml
@@ -79,93 +124,152 @@ common:
   type: TermsOfService
   url: https://traxretail.com/terms-conditions/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trax/refs/heads/main/authentication/trax-authentication.yml
+  href: https://artifacts.apis.io/trax/authentication/trax-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trax-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trax/refs/heads/main/conventions/trax-conventions.yml
+  href: https://artifacts.apis.io/trax/conventions/trax-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trax-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trax/refs/heads/main/lifecycle/trax-lifecycle.yml
+  href: https://artifacts.apis.io/trax/lifecycle/trax-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trax-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trax/refs/heads/main/packages/trax-packages.yml
+  href: https://artifacts.apis.io/trax/packages/trax-packages.yml
   title: ''
   type: Packages
   url: packages/trax-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trax/refs/heads/main/packages/trax-packages.yml
+  href: https://artifacts.apis.io/trax/packages/trax-packages.yml
   title: ''
   type: SDKs
   url: packages/trax-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trax/refs/heads/main/conformance/trax-conformance.yml
+  href: https://artifacts.apis.io/trax/conformance/trax-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trax-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trax/refs/heads/main/data-model/trax-data-model.yml
+  href: https://artifacts.apis.io/trax/data-model/trax-data-model.yml
   title: ''
   type: DataModel
   url: data-model/trax-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trax/refs/heads/main/llms/trax-llms.txt
+  href: https://artifacts.apis.io/trax/llms/trax-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trax-llms.txt
+coverage:
+  detail: the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - status: 403
+    url: https://www.apidoc.traxretail.com/mcp
+  - status: 200
+    url: https://traxretail.com/
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-07-17'
 description: Trax (Trax Retail) is a cloud-based retail intelligence platform that uses computer vision and image recognition to turn shelf photographs into real-time, actionable in-store insights for consumer packaged goods (CPG) brands and retailers. Its platform measures on-shelf availability, planogram and pricing compliance, share of shelf, promotional execution, and competitor activity across retail locations. Trax exposes a partner API surface for master data management (stores, products, regions, retailers), visit planning (routes, tasks, assortments), in-store execution via the Scene Mobile SDK and Input API (sessions, scenes, images), and analysis output/notification services, plus SSO and a Salesforce connector. Trax merged with FORM to combine retail image recognition with task management and workflow automation, and is a portfolio company of the SoftBank Vision Fund.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trax.png
+json_schemas:
+- name: GetApiVersionnumberProjectnameEntityStoreResponse
+  property_count: 22
+  slug: trax-get-api-versionnumber-projectname-entity-store-response
+- name: GetApiVersionnumberProjectnameMetadataFileStatusMetadataFile
+  property_count: 13
+  slug: trax-get-api-versionnumber-projectname-metadata-file-status-metadata-file
+- name: GetTargetsApiVersionnumberProjectsProjectnameUploadsDetailsU
+  property_count: 13
+  slug: trax-get-targets-api-versionnumber-projects-projectname-uploads-details-u
+- name: GetTargetsApiVersionnumberProjectsProjectnameUploadsResponse
+  property_count: 14
+  slug: trax-get-targets-api-versionnumber-projects-projectname-uploads-response
+- name: PostTargetsApiVersionnumberProjectsProjectnameUploadsUpdateU2
+  property_count: 13
+  slug: trax-post-targets-api-versionnumber-projects-projectname-uploads-update-u2
+- name: PutApiVersionnumberProjectnameSessionSessionuidScenesSceneui2
+  property_count: 38
+  slug: trax-put-api-versionnumber-projectname-session-sessionuid-scenes-sceneui2
+jsonld:
+- class_count: 45
+  name: Trax Context
+  property_count: 186
+  slug: trax-context
 layout: provider
 modified: '2026-07-21'
 name: Trax
 nav: Providers
 network: true
-overview: 'Trax is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Retail, Computer Vision, and Image Recognition.
+overview: 'Trax is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Retail, Computer Vision, and Image Recognition.
 
 
-  Trax''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 7
+  The Trax catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Trax''s developer surface includes getting-started guide, documentation, API reference, engineering blog, support, authentication, and 19 more developer resources.'
+random_paper: 15
+rate_limits:
+- limit_count: 1
+  name: Trax Rate Limits
+  slug: trax-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 52
+  extends:
+  - spectral:oas
+  name: Trax API Rules
+  rule_count: 11
+  severity_counts:
+    error: 9
+    hint: 0
+    info: 1
+    warn: 1
+  slug: trax-rules
 score:
-  band: emerging
-  composite: 25.3
+  band: thin
+  composite: 38.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 70.8
+    catalog_earned_first_party: 8.0
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
-    contract_governance: 18.2
-    contract_quality: 0.0
-    developer_ergonomics: 52.4
-    discoverability: 73.2
-    operational_transparency: 0.0
-  previous_composite: 25.3
+    contract_governance: 35.6
+    contract_quality: 26.3
+    developer_ergonomics: 64.3
+    discoverability: 67.9
+    operational_transparency: 21.1
+  previous_composite: 38.6
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 10
+      marker_coverage: 100.0
+      total: 10
+    mcp: derived
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/trax/refs/heads/main/screenshots/trax-2026-09-02T164151.png
+screenshot: https://apis.io/screenshots/trax/trax-2026-09-02T164151.png
 security:
 - kind: authentication
   name: Trax Authentication

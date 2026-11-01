@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Soil-carbon program that enrolls growers, captures on-farm management practice data, and uses Indigo's MRV engine to quantify and verify soil organic-carbon outcomes that are sold as carbon credits to
@@ -50,23 +52,37 @@ apis:
   slug: clips-device
 artifact_total: 8
 common:
+- group: other
+  href: https://artifacts.apis.io/indigo-ag/hosts/indigo-ag-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/indigo-ag-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/indigo-ag/vendors/indigo-ag-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/indigo-ag-vendors.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.indigoag.com/about/leadership
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/indigo-ag/refs/heads/main/plans/indigo-ag-plans-pricing.yml
+  href: https://artifacts.apis.io/indigo-ag/plans/indigo-ag-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/indigo-ag-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/indigo-ag/refs/heads/main/rate-limits/indigo-ag-rate-limits.yml
+  href: https://artifacts.apis.io/indigo-ag/rate-limits/indigo-ag-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/indigo-ag-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/indigo-ag/refs/heads/main/finops/indigo-ag-finops.yml
+  href: https://artifacts.apis.io/indigo-ag/finops/indigo-ag-finops.yml
   title: ''
   type: FinOps
   url: finops/indigo-ag-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/indigo-ag/refs/heads/main/security/indigo-ag-domain-security.yml
+  href: https://artifacts.apis.io/indigo-ag/security/indigo-ag-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/indigo-ag-domain-security.yml
@@ -94,6 +110,30 @@ common:
   title: ''
   type: Contact
   url: https://www.indigoag.com/contact
+- group: start
+  title: ''
+  type: Login
+  url: https://www.indigoag.com/log-in
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.indigoag.com/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.indigoag.com/terms-of-use
+coverage:
+  checked: '2026-10-20'
+  detail: indigoag.com links no developer portal or docs host; api.indigoag.com does not resolve, www.indigoag.com/llms.txt is 404, and app.indigoag.com is a grower login app, with partner integrations arranged directly.
+  evidence:
+  - status: 200
+    url: https://www.indigoag.com/
+  - status: 404
+    url: https://www.indigoag.com/llms.txt
+  - status: 307
+    url: https://app.indigoag.com/openapi.json
+  reason: no-developer-program
+  state: none
 created: '2026-05-23'
 description: 'Indigo Agriculture is a Boston-based agriculture-technology company combining microbial seed and foliar treatments (biotrinsic) and on-farm seed treatment hardware (CLIPS) with two large supply-chain programs: Carbon by Indigo, a soil-carbon program that pays growers for verified carbon credits using Indigo''s proprietary measurement, reporting, and verification (MRV) stack; and Source by Indigo, a Scope-3 program that connects consumer-goods buyers to sustainably grown crops with greenhouse-gas, water, and low-carbon-biofuel outcome reporting. Indigo does not publish a public developer portal; partner and supply-chain integrations are negotiated directly through their team.'
 finops:
@@ -106,40 +146,40 @@ finops:
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/indigo-ag.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-10-20'
 name: Indigo Agriculture
 nav: Providers
 network: true
 overview: 'Indigo Agriculture is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, AgTech, Microbials, Soil Carbon, and MRV.
 
 
-  Indigo Agriculture''s developer surface includes GitHub presence, product news, engineering blog, and 7 more developer resources.'
+  Indigo Agriculture''s developer surface includes GitHub presence, product news, engineering blog, and 13 more developer resources.'
 plans:
 - name: Indigo Ag Plans Pricing
   plan_count: 1
   slug: indigo-ag-plans-pricing
-random_paper: 21
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Indigo Ag Rate Limits
   slug: indigo-ag-rate-limits
 score:
-  band: minimal
-  composite: 8.8
+  band: emerging
+  composite: 17.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 11
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 72.3
+    discoverability: 75.0
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -148,21 +188,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 14.8
+  previous_composite: 17.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 13.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/indigo-ag/refs/heads/main/screenshots/indigo-ag-2026-06-20T183318.png
+screenshot: https://apis.io/screenshots/indigo-ag/indigo-ag-2026-06-20T183318.png
 security:
 - kind: domain-security
   name: Indigo Ag Domain Security

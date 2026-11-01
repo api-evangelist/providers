@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.9
-  scored_at: '2026-10-17'
+  score: 34.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Remote Model Context Protocol server operated by HackNotice, speaking JSON-RPC 2.0 over Streamable HTTP at https://mcp.hacknotice.com:13330/mcp. It publishes 80 tools across third-party, first-party, '
@@ -82,14 +84,14 @@ apis:
   description: 'Third-party vendor monitoring: hacks, hack updates, watchlists, alerts and vendor security assessments.'
   name: HackNotice Third Party Accounts API
   slug: hacknotice-third-party-accounts-api
-artifact_total: 15
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Hacknotice Webhooks
   slug: hacknotice-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/capabilities/hacknotice-capability-edges.yml
+  href: https://artifacts.apis.io/hacknotice/capabilities/hacknotice-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hacknotice-capability-edges.yml
@@ -98,7 +100,7 @@ common:
   type: License
   url: https://github.com/HackNotice/n8n-nodes-hacknotice-mcp/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/security/hacknotice-domain-security.yml
+  href: https://artifacts.apis.io/hacknotice/security/hacknotice-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hacknotice-domain-security.yml
@@ -167,92 +169,100 @@ common:
   type: Postman
   url: https://api-docs.hacknotice.com
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/openapi/_original/hacknotice-openapi.yml
+  href: https://artifacts.apis.io/hacknotice/openapi/_original/hacknotice-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/hacknotice-openapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/mcp/hacknotice-mcp.yml
+  href: https://artifacts.apis.io/hacknotice/mcp/hacknotice-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hacknotice-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/mcp/hacknotice-tool-crosswalk.yml
+  href: https://artifacts.apis.io/hacknotice/mcp/hacknotice-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/hacknotice-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/packages/hacknotice-packages.yml
+  href: https://artifacts.apis.io/hacknotice/packages/hacknotice-packages.yml
   title: ''
   type: Packages
   url: packages/hacknotice-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/packages/hacknotice-packages.yml
+  href: https://artifacts.apis.io/hacknotice/packages/hacknotice-packages.yml
   title: ''
   type: SDKs
   url: packages/hacknotice-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/authentication/hacknotice-authentication.yml
+  href: https://artifacts.apis.io/hacknotice/authentication/hacknotice-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hacknotice-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/rate-limits/hacknotice-rate-limits.yml
+  href: https://artifacts.apis.io/hacknotice/rate-limits/hacknotice-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hacknotice-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/plans/hacknotice-plans-pricing.yml
+  href: https://artifacts.apis.io/hacknotice/plans/hacknotice-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hacknotice-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/conventions/hacknotice-conventions.yml
+  href: https://artifacts.apis.io/hacknotice/conventions/hacknotice-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hacknotice-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/errors/hacknotice-problem-types.yml
+  href: https://artifacts.apis.io/hacknotice/errors/hacknotice-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hacknotice-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/lifecycle/hacknotice-lifecycle.yml
+  href: https://artifacts.apis.io/hacknotice/lifecycle/hacknotice-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hacknotice-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/conformance/hacknotice-conformance.yml
+  href: https://artifacts.apis.io/hacknotice/conformance/hacknotice-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hacknotice-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/data-model/hacknotice-data-model.yml
+  href: https://artifacts.apis.io/hacknotice/data-model/hacknotice-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hacknotice-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/overlays/hacknotice-openapi-overlay.yaml
+  href: https://artifacts.apis.io/hacknotice/overlays/hacknotice-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hacknotice-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/asyncapi/hacknotice-webhooks.yml
+  href: https://artifacts.apis.io/hacknotice/asyncapi/hacknotice-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hacknotice-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hacknotice/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/llms/hacknotice-llms.txt
+  href: https://artifacts.apis.io/hacknotice/llms/hacknotice-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hacknotice-llms.txt
 created: '2026-08-22'
 description: HackNotice is an external threat-intelligence and cyber-risk platform founded in 2018 and headquartered in Austin, Texas. It continuously collects intelligence from ransomware groups, infostealer malware logs, data breaches, dark-web marketplaces, hacker forums and public disclosures, then matches that intelligence against the domains, employees, customers and vendors an organization asks it to watch. The product is organized around four monitoring services — first-party domain monitoring, third-party vendor risk monitoring, end-user credential monitoring, and threat research and investigations — plus AI-assisted vendor security assessments. HackNotice exposes this surface programmatically through a REST API documented as a public Postman collection at api-docs.hacknotice.com, a remote Model Context Protocol server at mcp.hacknotice.com whose tool catalogue answers anonymously, first-party n8n automation nodes on npm, and webhook, Splunk HEC and SIEM/SOAR alert delivery.
+finops:
+- has_sources: true
+  method: derived
+  name: Hacknotice Finops
+  primary_unit: credits
+  service_category: ''
+  slug: hacknotice-finops
+  template: false
 image: https://hacknotice.com/wp-content/uploads/2022/12/favicon.png
 layout: provider
 mcp_servers:
@@ -272,31 +282,34 @@ overview: 'HackNotice publishes 9 API contracts indexed on the [APIs.io](https:/
   HackNotice''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Hacknotice Plans Pricing
-  plan_count: 4
+  plan_count: 15
   slug: hacknotice-plans-pricing
-random_paper: 15
+- name: Hacknotice Price Estimates
+  plan_count: 0
+  slug: hacknotice-price-estimates
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Hacknotice Rate Limits
   slug: hacknotice-rate-limits
 score:
-  band: developing
-  composite: 51.3
+  band: strong
+  composite: 58.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 57.0
+    artifact_dirs: 23
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 71.1
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 60.0
-    developer_ergonomics: 49.4
-    discoverability: 68.3
-    operational_transparency: 31.6
+    contract_quality: 59.1
+    developer_ergonomics: 70.8
+    discoverability: 65.0
+    operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -304,7 +317,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 51.2
+  previous_composite: 57.1
   provenance:
     conformance: derived
     contracts:
@@ -320,13 +333,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/screenshots/hacknotice-2026-09-02T145647.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hacknotice/hacknotice-2026-09-02T145647.png
 security:
 - kind: authentication
   name: Hacknotice Authentication
@@ -336,6 +350,18 @@ security:
   name: Hacknotice Domain Security
   slug: hacknotice-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Authenticate against the HackNotice API
+  slug: hacknotice-authenticate-and-call
+- name: Monitor first-party domains and end-user credentials
+  slug: hacknotice-monitor-first-party-and-end-users
+- name: Monitor third-party vendors for breaches
+  slug: hacknotice-monitor-third-party-vendors
+- name: Research breaches, leaks and threat-actor chatter
+  slug: hacknotice-research-breaches-and-leaks
+- name: Run an AI-scored vendor security assessment
+  slug: hacknotice-run-vendor-assessment
 slug: hacknotice
 tags:
 - Company

@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 48.5
-  scored_at: '2026-10-17'
-api_count: 21
+  score: 45.3
+  scored_at: '2026-10-31'
+api_count: 11
 apis:
 - baseURL: https://api.eu.ppro.com
   baseurl_source: declared
@@ -129,19 +131,19 @@ apis:
   description: The Void Endpoints API from PPRO — 2 operation(s) for void endpoints.
   name: PPRO Void Endpoints API
   slug: ppro-void-endpoints-api
-artifact_total: 26
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Ppro Webhooks
   slug: ppro-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/capabilities/ppro-capability-edges.yml
+  href: https://artifacts.apis.io/ppro/capabilities/ppro-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ppro-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/mcp/ppro-mcp.yml
+  href: https://artifacts.apis.io/ppro/mcp/ppro-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ppro-mcp.yml
@@ -166,37 +168,37 @@ common:
   type: GettingStarted
   url: https://developerhub.ppro.com/global-api/docs/get-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/authentication/ppro-authentication.yml
+  href: https://artifacts.apis.io/ppro/authentication/ppro-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ppro-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/conventions/ppro-conventions.yml
+  href: https://artifacts.apis.io/ppro/conventions/ppro-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/ppro-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/conventions/ppro-conventions.yml
+  href: https://artifacts.apis.io/ppro/conventions/ppro-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ppro-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/rate-limits/ppro-rate-limits.yml
+  href: https://artifacts.apis.io/ppro/rate-limits/ppro-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ppro-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/errors/ppro-problem-types.yml
+  href: https://artifacts.apis.io/ppro/errors/ppro-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/ppro-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/errors/ppro-failure-codes.yml
+  href: https://artifacts.apis.io/ppro/errors/ppro-failure-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/ppro-failure-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/lifecycle/ppro-lifecycle.yml
+  href: https://artifacts.apis.io/ppro/lifecycle/ppro-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ppro-lifecycle.yml
@@ -205,42 +207,42 @@ common:
   type: StatusPage
   url: https://status.ppro.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/changelog/ppro-changelog.yml
+  href: https://artifacts.apis.io/ppro/changelog/ppro-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ppro-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/sandbox/ppro-sandbox.yml
+  href: https://artifacts.apis.io/ppro/sandbox/ppro-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ppro-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/packages/ppro-packages.yml
+  href: https://artifacts.apis.io/ppro/packages/ppro-packages.yml
   title: ''
   type: Packages
   url: packages/ppro-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/packages/ppro-packages.yml
+  href: https://artifacts.apis.io/ppro/packages/ppro-packages.yml
   title: ''
   type: SDKs
   url: packages/ppro-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/components/ppro-components.yml
+  href: https://artifacts.apis.io/ppro/components/ppro-components.yml
   title: ''
   type: Components
   url: components/ppro-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/data-model/ppro-data-model.yml
+  href: https://artifacts.apis.io/ppro/data-model/ppro-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ppro-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/conformance/ppro-conformance.yml
+  href: https://artifacts.apis.io/ppro/conformance/ppro-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ppro-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/security/ppro-domain-security.yml
+  href: https://artifacts.apis.io/ppro/security/ppro-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ppro-domain-security.yml
@@ -249,17 +251,17 @@ common:
   type: TrustCenter
   url: https://trust.ppro.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/well-known/ppro-well-known.yml
+  href: https://artifacts.apis.io/ppro/well-known/ppro-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ppro-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/llms/ppro-llms.txt
+  href: https://artifacts.apis.io/ppro/llms/ppro-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ppro-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ppro/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -292,12 +294,20 @@ common:
   type: PrivacyPolicy
   url: https://www.ppro.com/legal/privacy-notice/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/plans/ppro-plans-pricing.yml
+  href: https://artifacts.apis.io/ppro/plans/ppro-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ppro-plans-pricing.yml
 created: '2026-08-26'
 description: PPRO is a local payments infrastructure company that lets payment service providers, acquirers, platforms and enterprise merchants accept the payment methods consumers actually use in their own market — bank redirects such as iDEAL, BLIK, Przelewy24 and Pay By Bank, wallets such as Alipay, WeChat Pay, Amazon Pay, Cash App Pay, TWINT and Swish, cash and voucher rails such as Boleto, OXXO, Multibanco and Indomaret, SEPA Direct Debit, Pix, UPI, BNPL and stablecoins — through a single REST integration. The PPRO Global API is an OpenAPI 3.1 platform built around four core objects (payment charges, payment instruments, payment agreements and payment sessions) plus captures, refunds, voids, fund statuses, disputes and chargebacks, with CloudEvents 1.0.2 webhooks, an idempotency-key contract, a documented token-bucket rate limit, a Drop-in Checkout component library and a hosted Model Context Protocol server so coding agents can call the platform directly.
+finops:
+- has_sources: true
+  method: derived
+  name: Ppro Finops
+  primary_unit: ''
+  service_category: ''
+  slug: ppro-finops
+  template: true
 image: https://files.readme.io/920bf80-ppro_logo_black.svg
 layout: provider
 mcp_servers:
@@ -319,30 +329,30 @@ plans:
 - name: Ppro Plans Pricing
   plan_count: 0
   slug: ppro-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Ppro Rate Limits
   slug: ppro-rate-limits
 score:
-  band: developing
-  composite: 52.1
+  band: strong
+  composite: 58.2
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 59.3
-    developer_ergonomics: 56.5
-    discoverability: 80.0
-    operational_transparency: 73.7
-  previous_composite: 52.0
+    contract_quality: 55.9
+    developer_ergonomics: 78.0
+    discoverability: 70.0
+    operational_transparency: 76.3
+  previous_composite: 58.2
   provenance:
     conformance: first-party
     contracts:
@@ -358,13 +368,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/screenshots/ppro-2026-09-02T151851.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ppro/ppro-2026-09-02T151851.png
 security:
 - kind: authentication
   name: Ppro Authentication
@@ -382,6 +393,14 @@ security:
   name: Ppro Trust Center
   slug: ppro-trust-center
   summary_line: trust center published
+skill_count: 3
+skills:
+- name: ppro-collect-a-local-payment
+  slug: ppro-collect-a-local-payment
+- name: ppro-handle-a-dispute
+  slug: ppro-handle-a-dispute
+- name: ppro-set-up-recurring-payments
+  slug: ppro-set-up-recurring-payments
 slug: ppro
 tags:
 - Payments

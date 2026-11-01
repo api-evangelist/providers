@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.8
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app.brightback.com
@@ -45,9 +47,6 @@ apis:
 artifact_total: 5
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Brightback (Chargebee ) Pre-cancel Retention API
   slug: open-brightback-retention-api
 common:
@@ -56,7 +55,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/chargebee/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/overlays/brightback-retention-overlay.yaml
+  href: https://artifacts.apis.io/brightback/overlays/brightback-retention-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brightback-retention-overlay.yaml
@@ -85,62 +84,62 @@ common:
   type: Website
   url: https://brightback.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/packages/brightback-packages.yml
+  href: https://artifacts.apis.io/brightback/packages/brightback-packages.yml
   title: ''
   type: Packages
   url: packages/brightback-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/packages/brightback-packages.yml
+  href: https://artifacts.apis.io/brightback/packages/brightback-packages.yml
   title: ''
   type: SDKs
   url: packages/brightback-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/authentication/brightback-authentication.yml
+  href: https://artifacts.apis.io/brightback/authentication/brightback-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brightback-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/conventions/brightback-conventions.yml
+  href: https://artifacts.apis.io/brightback/conventions/brightback-conventions.yml
   title: ''
   type: Conventions
   url: conventions/brightback-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/errors/brightback-problem-types.yml
+  href: https://artifacts.apis.io/brightback/errors/brightback-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/brightback-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/lifecycle/brightback-lifecycle.yml
+  href: https://artifacts.apis.io/brightback/lifecycle/brightback-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brightback-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/conformance/brightback-conformance.yml
+  href: https://artifacts.apis.io/brightback/conformance/brightback-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brightback-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/data-model/brightback-data-model.yml
+  href: https://artifacts.apis.io/brightback/data-model/brightback-data-model.yml
   title: ''
   type: DataModel
   url: data-model/brightback-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/mcp/brightback-mcp.yml
+  href: https://artifacts.apis.io/brightback/mcp/brightback-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/brightback-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/brightback/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/llms/brightback-llms.txt
+  href: https://artifacts.apis.io/brightback/llms/brightback-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brightback-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/security/brightback-domain-security.yml
+  href: https://artifacts.apis.io/brightback/security/brightback-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brightback-domain-security.yml
@@ -156,10 +155,10 @@ overview: 'brightback publishes 1 API contract indexed on the [APIs.io](https://
 
 
   brightback''s developer surface includes documentation, API reference, support, authentication, and 16 more developer resources.'
-random_paper: 7
+random_paper: 9
 score:
   band: emerging
-  composite: 20.9
+  composite: 22.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -167,15 +166,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 15.5
-    developer_ergonomics: 36.3
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 20.8
+    developer_ergonomics: 42.3
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 22.5
   provenance:
     conformance: derived
     contracts:
@@ -191,13 +190,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/screenshots/brightback-2026-07-25T203931.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/brightback/brightback-2026-07-25T203931.png
 security:
 - kind: authentication
   name: Brightback Authentication
@@ -207,6 +207,10 @@ security:
   name: Brightback Domain Security
   slug: brightback-domain-security
   summary_line: TLSv1.2 · DMARC
+skill_count: 1
+skills:
+- name: Create a Brightback pre-cancel session
+  slug: brightback-create-precancel-session
 slug: brightback
 tags:
 - Company

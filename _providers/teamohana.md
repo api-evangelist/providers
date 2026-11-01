@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 22.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 14
   slug: teamohana-agentic-access
   summary_line: 14 operations · 4 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.teamohana.us
   baseurl_source: declared
@@ -65,11 +67,8 @@ apis:
   description: The SCIM API from TeamOhana — 3 operation(s) for scim.
   name: TeamOhana SCIM API
   slug: teamohana-scim-api
-artifact_total: 14
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TeamOhana Public Discovery API
   slug: open-teamohana-discovery-api
@@ -83,48 +82,53 @@ collections:
   name: TeamOhana Public Discovery SCIM API
   slug: open-teamohana-scim-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/teamohana/plans/teamohana-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/teamohana-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/capabilities/teamohana-capability-edges.yml
+  href: https://artifacts.apis.io/teamohana/capabilities/teamohana-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/teamohana-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/openapi/_original/teamohana-openapi-original.json
+  href: https://artifacts.apis.io/teamohana/openapi/_original/teamohana-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/teamohana-openapi-original.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/authentication/teamohana-authentication.yml
+  href: https://artifacts.apis.io/teamohana/authentication/teamohana-authentication.yml
   title: ''
   type: Authentication
   url: authentication/teamohana-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/conventions/teamohana-conventions.yml
+  href: https://artifacts.apis.io/teamohana/conventions/teamohana-conventions.yml
   title: ''
   type: Conventions
   url: conventions/teamohana-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/rate-limits/teamohana-rate-limits.yml
+  href: https://artifacts.apis.io/teamohana/rate-limits/teamohana-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/teamohana-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/errors/teamohana-problem-types.yml
+  href: https://artifacts.apis.io/teamohana/errors/teamohana-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/teamohana-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/conformance/teamohana-conformance.yml
+  href: https://artifacts.apis.io/teamohana/conformance/teamohana-conformance.yml
   title: ''
   type: Conformance
   url: conformance/teamohana-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/data-model/teamohana-data-model.yml
+  href: https://artifacts.apis.io/teamohana/data-model/teamohana-data-model.yml
   title: ''
   type: DataModel
   url: data-model/teamohana-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/lifecycle/teamohana-lifecycle.yml
+  href: https://artifacts.apis.io/teamohana/lifecycle/teamohana-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/teamohana-lifecycle.yml
@@ -133,27 +137,27 @@ common:
   type: StatusPage
   url: https://status.teamohana.us/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/mcp/teamohana-mcp.yml
+  href: https://artifacts.apis.io/teamohana/mcp/teamohana-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/teamohana-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/llms/teamohana-llms.txt
+  href: https://artifacts.apis.io/teamohana/llms/teamohana-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/teamohana-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/overlays/teamohana-openapi-overlay.yaml
+  href: https://artifacts.apis.io/teamohana/overlays/teamohana-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/teamohana-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/agentic-access/teamohana-agentic-access.yml
+  href: https://artifacts.apis.io/teamohana/agentic-access/teamohana-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/teamohana-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/teamohana/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -166,7 +170,7 @@ common:
   type: APIReference
   url: https://api.teamohana.us/faq/index.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/security/teamohana-trust-center.yml
+  href: https://artifacts.apis.io/teamohana/security/teamohana-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/teamohana-trust-center.yml
@@ -175,7 +179,7 @@ common:
   type: Compliance
   url: https://trust.teamohana.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/security/teamohana-domain-security.yml
+  href: https://artifacts.apis.io/teamohana/security/teamohana-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teamohana-domain-security.yml
@@ -209,6 +213,14 @@ common:
   url: https://teamohana.com/
 created: '2026-07-17'
 description: TeamOhana is an HR-technology company that provides a headcount management and planning platform serving as a single source of truth for a company's people budget. It connects Finance, HR, and Talent Acquisition teams around real-time, approved headcount so organizations can plan, track, and control hiring against budget in one collaborative workflow rather than across disconnected spreadsheets. The platform integrates with HRIS, ATS, and financial planning systems (Workday, SAP SuccessFactors, Bamboo HR, HiBob, UKG, Personio, Namely, Greenhouse-class ATS, and Pigment). Its Public API exposes SCIM 2.0 user provisioning plus Headcount, Discovery, and Scenario endpoints for planning and reporting. TeamOhana is backed by Sierra Ventures and runs a security program that is SOC 2 and ISO 27001 certified (verified via its public trust center).
+finops:
+- has_sources: true
+  method: derived
+  name: Teamohana Finops
+  primary_unit: employee
+  service_category: ''
+  slug: teamohana-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teamohana.png
 layout: provider
 modified: '2026-07-21'
@@ -218,31 +230,38 @@ network: true
 overview: 'TeamOhana publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Discovery API, Headcount API, Scenario API, and 1 more. Tagged areas include Company, Human Resources, Headcount Management, Headcount Planning, and Workforce Planning.
 
 
-  TeamOhana''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, signup flow, support, and 20 more developer resources.'
-random_paper: 18
+  TeamOhana''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, signup flow, support, and 21 more developer resources.'
+plans:
+- name: Teamohana Plans Pricing
+  plan_count: 7
+  slug: teamohana-plans-pricing
+- name: Teamohana Price Estimates
+  plan_count: 0
+  slug: teamohana-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Teamohana Rate Limits
   slug: teamohana-rate-limits
 score:
   band: developing
-  composite: 49.0
+  composite: 53.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 22
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 47.8
+    contract_quality: 45.1
     developer_ergonomics: 37.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 36.8
-  previous_composite: 49.0
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,13 +278,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/screenshots/teamohana-2026-08-17T082257.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/teamohana/teamohana-2026-08-17T082257.png
 security:
 - kind: authentication
   name: Teamohana Authentication
@@ -279,6 +299,12 @@ security:
   name: Teamohana Trust Center
   slug: teamohana-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 2
+skills:
+- name: Pull TeamOhana headcount and forecast data
+  slug: teamohana-pull-headcount
+- name: Provision a user in TeamOhana via SCIM 2.0
+  slug: teamohana-scim-provision-user
 slug: teamohana
 tags:
 - Company

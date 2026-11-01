@@ -13,7 +13,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 37.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,11 +60,8 @@ apis:
   description: The Report API from Arcjet — 1 operation(s) for report.
   name: Arcjet Report API
   slug: arcjet-report-api
-artifact_total: 15
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Arcjet Decide API
   slug: open-arcjet-decide-api
@@ -83,27 +81,27 @@ common:
   type: BlogRSS
   url: https://arcjet.com/blog/atom
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/capabilities/arcjet-capability-edges.yml
+  href: https://artifacts.apis.io/arcjet/capabilities/arcjet-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/arcjet-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/agentic-access/arcjet-agentic-access.yml
+  href: https://artifacts.apis.io/arcjet/agentic-access/arcjet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/arcjet-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/security/arcjet-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/arcjet/security/arcjet-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/arcjet-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/security/arcjet-domain-security.yml
+  href: https://artifacts.apis.io/arcjet/security/arcjet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arcjet-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/authentication/arcjet-authentication.yml
+  href: https://artifacts.apis.io/arcjet/authentication/arcjet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/arcjet-authentication.yml
@@ -124,17 +122,17 @@ common:
   type: Documentation
   url: https://docs.arcjet.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/plans/arcjet-plans-pricing.yml
+  href: https://artifacts.apis.io/arcjet/plans/arcjet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/arcjet-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/rate-limits/arcjet-rate-limits.yml
+  href: https://artifacts.apis.io/arcjet/rate-limits/arcjet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/arcjet-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/finops/arcjet-finops.yml
+  href: https://artifacts.apis.io/arcjet/finops/arcjet-finops.yml
   title: ''
   type: FinOps
   url: finops/arcjet-finops.yml
@@ -166,14 +164,14 @@ plans:
 - name: Arcjet Plans Pricing
   plan_count: 5
   slug: arcjet-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Arcjet Rate Limits
   slug: arcjet-rate-limits
 score:
   band: thin
-  composite: 29.3
+  composite: 31.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 43.0
@@ -181,15 +179,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 47.8
     developer_ergonomics: 39.3
-    discoverability: 68.3
-    operational_transparency: 10.5
-  previous_composite: 37.1
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     contracts:
@@ -204,13 +202,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/screenshots/arcjet-2026-06-20T172415.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/arcjet/arcjet-2026-06-20T172415.png
 security:
 - kind: authentication
   name: Arcjet Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The Snap-on Electronic Parts Catalog (EPC) provides dealer management system (DMS) integration for parts lookup, pricing, and ordering. The EPC integration supports file-writer, Launch EPC, and advanc
@@ -51,22 +53,22 @@ apis:
 artifact_total: 9
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/snap-on/refs/heads/main/plans/snap-on-plans-pricing.yml
+  href: https://artifacts.apis.io/snap-on/plans/snap-on-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/snap-on-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/snap-on/refs/heads/main/rate-limits/snap-on-rate-limits.yml
+  href: https://artifacts.apis.io/snap-on/rate-limits/snap-on-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/snap-on-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/snap-on/refs/heads/main/finops/snap-on-finops.yml
+  href: https://artifacts.apis.io/snap-on/finops/snap-on-finops.yml
   title: ''
   type: FinOps
   url: finops/snap-on-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snap-on/refs/heads/main/security/snap-on-domain-security.yml
+  href: https://artifacts.apis.io/snap-on/security/snap-on-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snap-on-domain-security.yml
@@ -150,14 +152,14 @@ press:
 - date: ''
   title: Snap-on Incorporated (SNA) Q1 2026 Earnings Call ...
   url: https://seekingalpha.com/article/4893513-snap-on-incorporated-sna-q1-2026-earnings-call-transcript
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Snap On Rate Limits
   slug: snap-on-rate-limits
 score:
   band: emerging
-  composite: 13.7
+  composite: 13.8
   coverage:
     artifact_dirs: 11
     catalog_earned: 50.0
@@ -165,29 +167,29 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 14.7
     developer_ergonomics: 9.5
-    discoverability: 63.4
+    discoverability: 64.3
     operational_transparency: 10.5
-  previous_composite: 15.2
+  previous_composite: 13.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/snap-on/refs/heads/main/screenshots/snap-on-2026-06-20T194109.png
+screenshot: https://apis.io/screenshots/snap-on/snap-on-2026-06-20T194109.png
 security:
 - kind: domain-security
   name: Snap On Domain Security

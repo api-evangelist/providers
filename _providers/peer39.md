@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 5.8
-  scored_at: '2026-10-17'
+  score: 9.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Peer39 External API manages Custom Categories — contextual targeting and brand-safety lists of keywords, URLs, mobile apps or CTV apps — and syncs them to a connected DSP partner. Nine operations '
@@ -43,7 +45,7 @@ apis:
 artifact_total: 6
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/peer39/refs/heads/main/rate-limits/peer39-rate-limits.yml
+  href: https://artifacts.apis.io/peer39/rate-limits/peer39-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/peer39-rate-limits.yml
@@ -52,27 +54,27 @@ common:
   type: BlogRSS
   url: https://www.peer39.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/peer39/refs/heads/main/security/peer39-domain-security.yml
+  href: https://artifacts.apis.io/peer39/security/peer39-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/peer39-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/peer39/refs/heads/main/llms/peer39-llms.txt
+  href: https://artifacts.apis.io/peer39/llms/peer39-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/peer39-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/peer39/refs/heads/main/packages/peer39-packages.yml
+  href: https://artifacts.apis.io/peer39/packages/peer39-packages.yml
   title: ''
   type: Packages
   url: packages/peer39-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peer39/refs/heads/main/conformance/peer39-conformance.yml
+  href: https://artifacts.apis.io/peer39/conformance/peer39-conformance.yml
   title: ''
   type: Conformance
   url: conformance/peer39-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/peer39/refs/heads/main/plans/peer39-plans-pricing.yml
+  href: https://artifacts.apis.io/peer39/plans/peer39-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/peer39-plans-pricing.yml
@@ -136,7 +138,7 @@ rate_limits:
   slug: peer39-rate-limits
 score:
   band: emerging
-  composite: 22.3
+  composite: 21.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -144,15 +146,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 31.0
-    discoverability: 73.2
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 22.2
+  previous_composite: 21.5
   provenance:
     conformance: derived
     mcp: first-party
@@ -162,14 +164,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/peer39/refs/heads/main/screenshots/peer39-2026-09-02T150936.png
+screenshot: https://apis.io/screenshots/peer39/peer39-2026-09-02T150936.png
 security:
 - kind: authentication
   name: Peer39 Authentication

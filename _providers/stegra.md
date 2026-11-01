@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,22 +36,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stegra/refs/heads/main/plans/stegra-plans-pricing.yml
+  href: https://artifacts.apis.io/stegra/plans/stegra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stegra-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stegra/refs/heads/main/rate-limits/stegra-rate-limits.yml
+  href: https://artifacts.apis.io/stegra/rate-limits/stegra-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stegra-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stegra/refs/heads/main/security/stegra-domain-security.yml
+  href: https://artifacts.apis.io/stegra/security/stegra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stegra-domain-security.yml
@@ -74,12 +76,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/stegraab
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stegra/refs/heads/main/packages/stegra-packages.yml
+  href: https://artifacts.apis.io/stegra/packages/stegra-packages.yml
   title: ''
   type: Packages
   url: packages/stegra-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stegra/refs/heads/main/llms/stegra-llms.txt
+  href: https://artifacts.apis.io/stegra/llms/stegra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stegra-llms.txt
@@ -114,14 +116,14 @@ plans:
 - name: Stegra Plans Pricing
   plan_count: 0
   slug: stegra-plans-pricing
-random_paper: 8
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Stegra Rate Limits
   slug: stegra-rate-limits
 score:
   band: minimal
-  composite: 8.6
+  composite: 8.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -135,8 +137,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -145,21 +147,21 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 8.6
+  previous_composite: 8.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/stegra/refs/heads/main/screenshots/stegra-2026-09-02T160834.png
+screenshot: https://apis.io/screenshots/stegra/stegra-2026-09-02T160834.png
 security:
 - kind: domain-security
   name: Stegra Domain Security

@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,11 +78,8 @@ apis:
   description: The Reference Data API from Lufthansa — 6 operation(s) for reference data.
   name: Lufthansa Reference Data API
   slug: lufthansa-reference-data-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Lufthansa LH Public Cargo API
   slug: open-lufthansa-cargo-api
@@ -98,42 +97,42 @@ collections:
   slug: open-lufthansa
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/plans/lufthansa-plans-pricing.yml
+  href: https://artifacts.apis.io/lufthansa/plans/lufthansa-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lufthansa-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/rate-limits/lufthansa-rate-limits.yml
+  href: https://artifacts.apis.io/lufthansa/rate-limits/lufthansa-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lufthansa-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/finops/lufthansa-finops.yml
+  href: https://artifacts.apis.io/lufthansa/finops/lufthansa-finops.yml
   title: ''
   type: FinOps
   url: finops/lufthansa-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/capabilities/lufthansa-capability-edges.yml
+  href: https://artifacts.apis.io/lufthansa/capabilities/lufthansa-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lufthansa-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/agentic-access/lufthansa-agentic-access.yml
+  href: https://artifacts.apis.io/lufthansa/agentic-access/lufthansa-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lufthansa-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/security/lufthansa-domain-security.yml
+  href: https://artifacts.apis.io/lufthansa/security/lufthansa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lufthansa-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/authentication/lufthansa-authentication.yml
+  href: https://artifacts.apis.io/lufthansa/authentication/lufthansa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lufthansa-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/scopes/lufthansa-scopes.yml
+  href: https://artifacts.apis.io/lufthansa/scopes/lufthansa-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lufthansa-scopes.yml
@@ -219,7 +218,7 @@ plans:
 - name: Lufthansa Plans Pricing
   plan_count: 2
   slug: lufthansa-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Lufthansa Rate Limits
@@ -243,7 +242,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 27.8
+  composite: 33.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 39.3
@@ -251,15 +250,15 @@ score:
     catalog_gap: 75.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 45.8
-    developer_ergonomics: 19.0
+    developer_ergonomics: 31.0
     discoverability: 57.1
-    operational_transparency: 7.9
-  previous_composite: 29.3
+    operational_transparency: 10.5
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -272,15 +271,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 25.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/screenshots/lufthansa-2026-06-20T184749.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lufthansa/lufthansa-2026-06-20T184749.png
 security:
 - kind: authentication
   name: Lufthansa Authentication

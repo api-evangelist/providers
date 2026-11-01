@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 32
   slug: maptiler-agentic-access
   summary_line: 32 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.maptiler.com/
   baseurl_source: spec
@@ -135,11 +137,8 @@ apis:
   description: The Weather API from MapTiler — 1 operation(s) for weather.
   name: MapTiler Weather API
   slug: maptiler-weather-api
-artifact_total: 46
+artifact_total: 45
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MapTiler Coordinates API
   slug: open-maptiler-coordinates-api
@@ -175,27 +174,27 @@ collections:
   slug: open-maptiler-weather-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/agentic-access/maptiler-agentic-access.yml
+  href: https://artifacts.apis.io/maptiler/agentic-access/maptiler-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/maptiler-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/security/maptiler-trust-center.yml
+  href: https://artifacts.apis.io/maptiler/security/maptiler-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/maptiler-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/security/maptiler-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/maptiler/security/maptiler-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/maptiler-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/security/maptiler-domain-security.yml
+  href: https://artifacts.apis.io/maptiler/security/maptiler-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/maptiler-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/authentication/maptiler-authentication.yml
+  href: https://artifacts.apis.io/maptiler/authentication/maptiler-authentication.yml
   title: ''
   type: Authentication
   url: authentication/maptiler-authentication.yml
@@ -232,62 +231,62 @@ common:
   type: X
   url: https://x.com/MapTiler
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/plans/maptiler-plans-pricing.yml
+  href: https://artifacts.apis.io/maptiler/plans/maptiler-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/maptiler-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/rate-limits/maptiler-rate-limits.yml
+  href: https://artifacts.apis.io/maptiler/rate-limits/maptiler-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/maptiler-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/finops/maptiler-finops.yml
+  href: https://artifacts.apis.io/maptiler/finops/maptiler-finops.yml
   title: ''
   type: FinOps
   url: finops/maptiler-finops.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/openapi/_original/maptiler-maptiler-openapi.yml
+  href: https://artifacts.apis.io/maptiler/openapi/_original/maptiler-maptiler-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/maptiler-maptiler-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/vocabulary/maptiler-vocabulary.yml
+  href: https://artifacts.apis.io/maptiler/vocabulary/maptiler-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/maptiler-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/json-ld/maptiler-context.jsonld
+  href: https://artifacts.apis.io/maptiler/json-ld/maptiler-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/maptiler-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/json-schema/maptiler-geocoding-result.json
+  href: https://artifacts.apis.io/maptiler/json-schema/maptiler-geocoding-result.json
   title: ''
   type: JSONSchema
   url: json-schema/maptiler-geocoding-result.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/json-schema/maptiler-geolocation-result.json
+  href: https://artifacts.apis.io/maptiler/json-schema/maptiler-geolocation-result.json
   title: ''
   type: JSONSchema
   url: json-schema/maptiler-geolocation-result.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/examples/maptiler-geocoding-forward.json
+  href: https://artifacts.apis.io/maptiler/examples/maptiler-geocoding-forward.json
   title: ''
   type: Examples
   url: examples/maptiler-geocoding-forward.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/examples/maptiler-geolocation-ip.json
+  href: https://artifacts.apis.io/maptiler/examples/maptiler-geolocation-ip.json
   title: ''
   type: Examples
   url: examples/maptiler-geolocation-ip.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/examples/maptiler-elevation.json
+  href: https://artifacts.apis.io/maptiler/examples/maptiler-elevation.json
   title: ''
   type: Examples
   url: examples/maptiler-elevation.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/examples/maptiler-static-map.json
+  href: https://artifacts.apis.io/maptiler/examples/maptiler-static-map.json
   title: ''
   type: Examples
   url: examples/maptiler-static-map.json
@@ -343,7 +342,7 @@ plans:
 - name: Maptiler Plans Pricing
   plan_count: 4
   slug: maptiler-plans-pricing
-random_paper: 4
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Maptiler Rate Limits
@@ -362,23 +361,23 @@ rules:
   slug: maptiler-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.6
+  composite: 38.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 48.8
     catalog_earned_first_party: 0.0
     catalog_gap: 66.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 23.5
     contract_quality: 57.1
     developer_ergonomics: 23.8
     discoverability: 48.2
-    operational_transparency: 28.9
-  previous_composite: 45.8
+    operational_transparency: 39.5
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -392,14 +391,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/screenshots/maptiler-2026-06-20T184936.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/maptiler/maptiler-2026-06-20T184936.png
 security:
 - kind: authentication
   name: Maptiler Authentication

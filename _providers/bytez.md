@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,32 +56,29 @@ arazzos:
 - description: List models for a task, pick one, and run serverless inference.
   name: Discover and run a Bytez model
   slug: bytez-discover-and-run
-artifact_total: 9
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Open Source Model Models API
   slug: open-bytez-models-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/rate-limits/bytez-rate-limits.yml
+  href: https://artifacts.apis.io/bytez/rate-limits/bytez-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bytez-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/plans/bytez-plans-pricing.yml
+  href: https://artifacts.apis.io/bytez/plans/bytez-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bytez-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/capabilities/bytez-capability-edges.yml
+  href: https://artifacts.apis.io/bytez/capabilities/bytez-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bytez-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/overlays/bytez-openapi-overlay.yaml
+  href: https://artifacts.apis.io/bytez/overlays/bytez-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bytez-openapi-overlay.yaml
@@ -132,67 +131,75 @@ common:
   type: StatusPage
   url: https://status.bytez.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/packages/bytez-packages.yml
+  href: https://artifacts.apis.io/bytez/packages/bytez-packages.yml
   title: ''
   type: SDKs
   url: packages/bytez-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/packages/bytez-packages.yml
+  href: https://artifacts.apis.io/bytez/packages/bytez-packages.yml
   title: ''
   type: Packages
   url: packages/bytez-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/mcp/bytez-mcp.yml
+  href: https://artifacts.apis.io/bytez/mcp/bytez-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bytez-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/llms/bytez-llms.txt
+  href: https://artifacts.apis.io/bytez/llms/bytez-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bytez-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bytez/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/agentic-access/bytez-agentic-access.yml
+  href: https://artifacts.apis.io/bytez/agentic-access/bytez-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bytez-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/authentication/bytez-authentication.yml
+  href: https://artifacts.apis.io/bytez/authentication/bytez-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bytez-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/conventions/bytez-conventions.yml
+  href: https://artifacts.apis.io/bytez/conventions/bytez-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bytez-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/errors/bytez-problem-types.yml
+  href: https://artifacts.apis.io/bytez/errors/bytez-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bytez-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/lifecycle/bytez-lifecycle.yml
+  href: https://artifacts.apis.io/bytez/lifecycle/bytez-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bytez-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/conformance/bytez-conformance.yml
+  href: https://artifacts.apis.io/bytez/conformance/bytez-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bytez-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/security/bytez-domain-security.yml
+  href: https://artifacts.apis.io/bytez/security/bytez-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bytez-domain-security.yml
 created: '2026-07-17'
 description: Bytez is a unified, serverless model-inference API that gives developers access to 100,000+ open-source and closed-source AI models (from OpenAI, Anthropic, Cohere, Google, Mistral, and the open-source community) through a single API key and one consistent endpoint shape. It covers 30+ task types across text, vision, audio, multimodal, and generation - including chat, embeddings, transcription, image and video generation, translation, and object detection - and offers OpenAI-compatible Chat Completions, Completions, and Responses endpoints plus a LangChain integration. Bytez manages GPU provisioning and scaling behind the scenes and bills on a unified credit system (per second for open models, provider pricing for closed models). It is backed by 500 Global.
+finops:
+- has_sources: true
+  method: derived
+  name: Bytez Finops
+  primary_unit: second of inference
+  service_category: ''
+  slug: bytez-finops
+  template: false
 image: https://bytez.com/favicon.png
 layout: provider
 modified: '2026-07-18'
@@ -207,30 +214,33 @@ plans:
 - name: Bytez Plans Pricing
   plan_count: 8
   slug: bytez-plans-pricing
-random_paper: 8
+- name: Bytez Price Estimates
+  plan_count: 0
+  slug: bytez-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Bytez Rate Limits
   slug: bytez-rate-limits
 score:
   band: developing
-  composite: 46.1
+  composite: 49.0
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.5
   facets:
-    access_clarity: 55.3
+    access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 50.2
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 15.8
-  previous_composite: 39.7
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,13 +257,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/screenshots/bytez-2026-07-25T204146.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bytez/bytez-2026-07-25T204146.png
 security:
 - kind: authentication
   name: Bytez Authentication
@@ -263,6 +274,12 @@ security:
   name: Bytez Domain Security
   slug: bytez-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Chat via OpenAI-compatible endpoint
+  slug: bytez-openai-compatible-chat
+- name: Run a Bytez model
+  slug: bytez-run-a-model
 slug: bytez
 tags:
 - Company

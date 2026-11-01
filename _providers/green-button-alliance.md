@@ -14,6 +14,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.8
-  scored_at: '2026-10-17'
+  score: 41.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -44,7 +47,7 @@ agentic_access:
   operation_count: 23
   slug: green-button-alliance-agentic-access
   summary_line: 23 operations · 7 acting · 1 human-in-the-loop
-api_count: 5
+api_count: 3
 apis:
 - description: The Third Party side of the OpenESPI reference implementation — ApplicationInformation, Authorization and RetailCustomer operations documented as legacy Swagger 1.2 resource listings served from GBA's
   name: Green Button Third Party (OpenESPI) API
@@ -89,7 +92,7 @@ apis:
   description: Usage Point endpoints
   name: Green Button Alliance Usage Point API
   slug: green-button-alliance-usagepoint-api
-artifact_total: 23
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Green Button Alliance Webhooks
@@ -105,18 +108,23 @@ collections:
   name: Green Button API Documentation
   slug: open-green-button-alliance-green-button-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/green-button-alliance/plans/green-button-alliance-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/green-button-alliance-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/capabilities/green-button-alliance-capability-edges.yml
+  href: https://artifacts.apis.io/green-button-alliance/capabilities/green-button-alliance-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/green-button-alliance-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/overlays/green-button-alliance-green-button-api-overlay.yaml
+  href: https://artifacts.apis.io/green-button-alliance/overlays/green-button-alliance-green-button-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/green-button-alliance-green-button-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/overlays/green-button-alliance-application-information-overlay.yaml
+  href: https://artifacts.apis.io/green-button-alliance/overlays/green-button-alliance-application-information-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/green-button-alliance-application-information-overlay.yaml
@@ -129,107 +137,107 @@ common:
   type: License
   url: https://github.com/GreenButtonAlliance/OpenAPI-Green-Button-Documentation/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/agentic-access/green-button-alliance-agentic-access.yml
+  href: https://artifacts.apis.io/green-button-alliance/agentic-access/green-button-alliance-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/green-button-alliance-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/security/green-button-alliance-domain-security.yml
+  href: https://artifacts.apis.io/green-button-alliance/security/green-button-alliance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/green-button-alliance-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/scopes/green-button-alliance-scopes.yml
+  href: https://artifacts.apis.io/green-button-alliance/scopes/green-button-alliance-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/green-button-alliance-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/authentication/green-button-alliance-authentication.yml
+  href: https://artifacts.apis.io/green-button-alliance/authentication/green-button-alliance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/green-button-alliance-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/vocabulary/green-button-alliance-function-blocks.yml
+  href: https://artifacts.apis.io/green-button-alliance/vocabulary/green-button-alliance-function-blocks.yml
   title: ''
   type: Vocabulary
   url: vocabulary/green-button-alliance-function-blocks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/conventions/green-button-alliance-conventions.yml
+  href: https://artifacts.apis.io/green-button-alliance/conventions/green-button-alliance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/green-button-alliance-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/errors/green-button-alliance-problem-types.yml
+  href: https://artifacts.apis.io/green-button-alliance/errors/green-button-alliance-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/green-button-alliance-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/lifecycle/green-button-alliance-lifecycle.yml
+  href: https://artifacts.apis.io/green-button-alliance/lifecycle/green-button-alliance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/green-button-alliance-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/conformance/green-button-alliance-conformance.yml
+  href: https://artifacts.apis.io/green-button-alliance/conformance/green-button-alliance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/green-button-alliance-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/data-model/green-button-alliance-data-model.yml
+  href: https://artifacts.apis.io/green-button-alliance/data-model/green-button-alliance-data-model.yml
   title: ''
   type: DataModel
   url: data-model/green-button-alliance-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/rate-limits/green-button-alliance-rate-limits.yml
+  href: https://artifacts.apis.io/green-button-alliance/rate-limits/green-button-alliance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/green-button-alliance-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/asyncapi/green-button-alliance-webhooks.yml
+  href: https://artifacts.apis.io/green-button-alliance/asyncapi/green-button-alliance-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/green-button-alliance-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/green-button-alliance/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/green-button-alliance/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/mcp/green-button-alliance-mcp.yml
+  href: https://artifacts.apis.io/green-button-alliance/mcp/green-button-alliance-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/green-button-alliance-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/mcp/green-button-alliance-tool-crosswalk.yml
+  href: https://artifacts.apis.io/green-button-alliance/mcp/green-button-alliance-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/green-button-alliance-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/packages/green-button-alliance-packages.yml
+  href: https://artifacts.apis.io/green-button-alliance/packages/green-button-alliance-packages.yml
   title: ''
   type: Packages
   url: packages/green-button-alliance-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/well-known/green-button-alliance-well-known.yml
+  href: https://artifacts.apis.io/green-button-alliance/well-known/green-button-alliance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/green-button-alliance-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/llms/green-button-alliance-llms.txt
+  href: https://artifacts.apis.io/green-button-alliance/llms/green-button-alliance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/green-button-alliance-llms.txt
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/sandbox/green-button-alliance-sandbox.yml
+  href: https://artifacts.apis.io/green-button-alliance/sandbox/green-button-alliance-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/green-button-alliance-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/security/green-button-alliance-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/green-button-alliance/security/green-button-alliance-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/green-button-alliance-vulnerability-disclosure.yml
@@ -361,6 +369,14 @@ examples:
 - key_count: 8
   name: Green Button Alliance Token Response Subscription
   slug: green-button-alliance-token-response-subscription
+finops:
+- has_sources: true
+  method: derived
+  name: Green Button Alliance Finops
+  primary_unit: certification testing session
+  service_category: ''
+  slug: green-button-alliance-finops
+  template: false
 image: https://assets-002.noviams.com/novi-file-uploads/gba/structure/gba-logo-2023-tm-500-1.png
 layout: provider
 modified: '2026-07-27'
@@ -373,7 +389,11 @@ overview: 'Green Button Alliance publishes 9 API contracts indexed on the [APIs.
   The Green Button Alliance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Green Button Alliance''s developer surface includes authentication, code examples, sandbox, support, pricing, signup flow, documentation, and 47 more developer resources.'
+  Green Button Alliance''s developer surface includes authentication, code examples, sandbox, support, pricing, signup flow, documentation, and 48 more developer resources.'
+plans:
+- name: Green Button Alliance Plans Pricing
+  plan_count: 3
+  slug: green-button-alliance-plans-pricing
 random_paper: 0
 rate_limits:
 - limit_count: 0
@@ -385,23 +405,23 @@ scopes:
   slug: green-button-alliance-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 50.9
+  band: strong
+  composite: 59.5
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 45.0
-    catalog_earned_first_party: 5.0
-    catalog_gap: 70.0
+    artifact_dirs: 28
+    catalog_earned: 60.0
+    catalog_earned_first_party: 17.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 33.3
-    contract_quality: 56.3
+    contract_quality: 54.6
     developer_ergonomics: 54.2
     discoverability: 71.4
-    operational_transparency: 21.1
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -409,7 +429,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 50.9
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -426,13 +446,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/screenshots/green-button-alliance-2026-08-07T165838.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/green-button-alliance/green-button-alliance-2026-08-07T165838.png
 security:
 - kind: authentication
   name: Green Button Alliance Authentication
@@ -446,6 +467,14 @@ security:
   name: Green Button Alliance Vulnerability Disclosure
   slug: green-button-alliance-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 3
+skills:
+- name: Download a Green Button bulk batch
+  slug: green-button-alliance-bulk-batch-download
+- name: Inspect a Green Button Third Party registration
+  slug: green-button-alliance-inspect-third-party-registration
+- name: Read authorized Green Button usage data
+  slug: green-button-alliance-read-authorized-usage
 slug: green-button-alliance
 tags:
 - Energy

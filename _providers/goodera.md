@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST API for volunteering partners to list Goodera volunteer opportunities inside their own platform, create volunteering events against an opportunity, register and de-register volunteers, and record
@@ -44,7 +46,7 @@ apis:
 - description: Remote Model Context Protocol server announced as the first from a social impact company, exposing live Goodera volunteering data to AI agents and LLM workflows. Streamable HTTP transport at https://m
   name: Goodera MCP Server
   slug: goodera-mcp
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Goodera Webhooks
@@ -83,72 +85,72 @@ common:
   type: SignUp
   url: https://app.goodera.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/llms/goodera-llms.txt
+  href: https://artifacts.apis.io/goodera/llms/goodera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/goodera-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/mcp/goodera-mcp.yml
+  href: https://artifacts.apis.io/goodera/mcp/goodera-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/goodera-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/authentication/goodera-authentication.yml
+  href: https://artifacts.apis.io/goodera/authentication/goodera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/goodera-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/conventions/goodera-conventions.yml
+  href: https://artifacts.apis.io/goodera/conventions/goodera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/goodera-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/errors/goodera-problem-types.yml
+  href: https://artifacts.apis.io/goodera/errors/goodera-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/goodera-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/rate-limits/goodera-rate-limits.yml
+  href: https://artifacts.apis.io/goodera/rate-limits/goodera-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/goodera-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/plans/goodera-plans-pricing.yml
+  href: https://artifacts.apis.io/goodera/plans/goodera-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/goodera-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/lifecycle/goodera-lifecycle.yml
+  href: https://artifacts.apis.io/goodera/lifecycle/goodera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/goodera-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/conformance/goodera-conformance.yml
+  href: https://artifacts.apis.io/goodera/conformance/goodera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/goodera-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/packages/goodera-packages.yml
+  href: https://artifacts.apis.io/goodera/packages/goodera-packages.yml
   title: ''
   type: Packages
   url: packages/goodera-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/data-model/goodera-data-model.yml
+  href: https://artifacts.apis.io/goodera/data-model/goodera-data-model.yml
   title: ''
   type: DataModel
   url: data-model/goodera-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/goodera/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/asyncapi/goodera-webhooks.yml
+  href: https://artifacts.apis.io/goodera/asyncapi/goodera-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/goodera-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/security/goodera-domain-security.yml
+  href: https://artifacts.apis.io/goodera/security/goodera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/goodera-domain-security.yml
@@ -175,14 +177,14 @@ plans:
 - name: Goodera Plans Pricing
   plan_count: 0
   slug: goodera-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Goodera Rate Limits
   slug: goodera-rate-limits
 score:
   band: thin
-  composite: 34.9
+  composite: 35.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -190,15 +192,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 37.5
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 7.9
-  previous_composite: 34.8
+  previous_composite: 35.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -209,14 +211,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/screenshots/goodera-2026-09-02T145625.png
+screenshot: https://apis.io/screenshots/goodera/goodera-2026-09-02T145625.png
 security:
 - kind: authentication
   name: Goodera Authentication
@@ -226,6 +228,12 @@ security:
   name: Goodera Domain Security
   slug: goodera-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: goodera-book-a-volunteering-event
+  slug: goodera-book-a-volunteering-event
+- name: goodera-query-volunteering-data-over-mcp
+  slug: goodera-query-volunteering-data-over-mcp
 slug: goodera
 tags:
 - Company

@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.4
-  scored_at: '2026-10-17'
+  score: 36.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -101,7 +103,7 @@ apis:
   description: Per-segment waterfall management
   name: AppLovin Waterfalls API
   slug: applovin-waterfalls-api
-artifact_total: 59
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Applovin Webhooks
@@ -141,9 +143,6 @@ collections:
   name: AppLovin Axon Campaign Management Ad Units Waterfalls API
   slug: postman-applovin-waterfalls-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: AppLovin Axon Campaign Management Ad Units API
   slug: open-applovin-ad-units-api
 - collection_type: open
@@ -182,17 +181,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/applovin/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/agentic-access/applovin-agentic-access.yml
+  href: https://artifacts.apis.io/applovin/agentic-access/applovin-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/applovin-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/security/applovin-domain-security.yml
+  href: https://artifacts.apis.io/applovin/security/applovin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/applovin-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/authentication/applovin-authentication.yml
+  href: https://artifacts.apis.io/applovin/authentication/applovin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/applovin-authentication.yml
@@ -297,122 +296,122 @@ common:
   type: Tools
   url: https://github.com/AppLovin/homebrew-Mobile-Tools
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/rules/applovin-rules.yml
+  href: https://artifacts.apis.io/applovin/rules/applovin-rules.yml
   title: AppLovin Spectral Ruleset
   type: SpectralRules
   url: rules/applovin-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/json-ld/applovin-context.jsonld
+  href: https://artifacts.apis.io/applovin/json-ld/applovin-context.jsonld
   title: AppLovin JSON-LD Context
   type: JSONLD
   url: json-ld/applovin-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/vocabulary/applovin-vocabulary.yml
+  href: https://artifacts.apis.io/applovin/vocabulary/applovin-vocabulary.yml
   title: AppLovin Domain Vocabulary
   type: Vocabulary
   url: vocabulary/applovin-vocabulary.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/json-schema/applovin-campaign-schema.json
+  href: https://artifacts.apis.io/applovin/json-schema/applovin-campaign-schema.json
   title: AppLovin Campaign Schema
   type: JSONSchema
   url: json-schema/applovin-campaign-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/json-schema/applovin-creative-set-schema.json
+  href: https://artifacts.apis.io/applovin/json-schema/applovin-creative-set-schema.json
   title: AppLovin Creative Set Schema
   type: JSONSchema
   url: json-schema/applovin-creative-set-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/json-schema/applovin-ad-unit-schema.json
+  href: https://artifacts.apis.io/applovin/json-schema/applovin-ad-unit-schema.json
   title: AppLovin Ad Unit Schema
   type: JSONSchema
   url: json-schema/applovin-ad-unit-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/json-schema/applovin-conversion-event-schema.json
+  href: https://artifacts.apis.io/applovin/json-schema/applovin-conversion-event-schema.json
   title: AppLovin Conversion Event Schema
   type: JSONSchema
   url: json-schema/applovin-conversion-event-schema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/packages/applovin-packages.yml
+  href: https://artifacts.apis.io/applovin/packages/applovin-packages.yml
   title: AppLovin SDK + package inventory
   type: Packages
   url: packages/applovin-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/packages/applovin-packages.yml
+  href: https://artifacts.apis.io/applovin/packages/applovin-packages.yml
   title: AppLovin first-party SDK inventory
   type: SDKs
   url: packages/applovin-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/mcp/applovin-mcp.yml
+  href: https://artifacts.apis.io/applovin/mcp/applovin-mcp.yml
   title: Candidate MCP tool surface (no server published)
   type: X-MCPServerCandidate
   url: mcp/applovin-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/llms/applovin-llms.txt
+  href: https://artifacts.apis.io/applovin/llms/applovin-llms.txt
   title: AppLovin llms.txt (generated)
   type: LLMsTxt
   url: llms/applovin-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/conformance/applovin-conformance.yml
+  href: https://artifacts.apis.io/applovin/conformance/applovin-conformance.yml
   title: AppLovin standards conformance
   type: Conformance
   url: conformance/applovin-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/errors/applovin-problem-types.yml
+  href: https://artifacts.apis.io/applovin/errors/applovin-problem-types.yml
   title: AppLovin error catalog
   type: ErrorCatalog
   url: errors/applovin-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/lifecycle/applovin-lifecycle.yml
+  href: https://artifacts.apis.io/applovin/lifecycle/applovin-lifecycle.yml
   title: AppLovin API lifecycle
   type: Lifecycle
   url: lifecycle/applovin-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/conventions/applovin-conventions.yml
+  href: https://artifacts.apis.io/applovin/conventions/applovin-conventions.yml
   title: AppLovin API conventions
   type: Conventions
   url: conventions/applovin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/conventions/applovin-conventions.yml
+  href: https://artifacts.apis.io/applovin/conventions/applovin-conventions.yml
   title: Conversion API dedupe_id deduplication contract
   type: Idempotency
   url: conventions/applovin-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/changelog/applovin-changelog.yml
+  href: https://artifacts.apis.io/applovin/changelog/applovin-changelog.yml
   title: AppLovin MAX SDK changelog
   type: ChangeLog
   url: changelog/applovin-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/sandbox/applovin-sandbox.yml
+  href: https://artifacts.apis.io/applovin/sandbox/applovin-sandbox.yml
   title: MAX SDK test mode (no API sandbox)
   type: Sandbox
   url: sandbox/applovin-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/data-model/applovin-data-model.yml
+  href: https://artifacts.apis.io/applovin/data-model/applovin-data-model.yml
   title: AppLovin entity-relationship model
   type: DataModel
   url: data-model/applovin-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/asyncapi/applovin-webhooks.yml
+  href: https://artifacts.apis.io/applovin/asyncapi/applovin-webhooks.yml
   title: AppLovin server-to-server postback catalog
   type: Webhooks
   url: asyncapi/applovin-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/applovin/skills/_index.yml
   title: AppLovin agent skills
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/rate-limits/applovin-rate-limits.yml
+  href: https://artifacts.apis.io/applovin/rate-limits/applovin-rate-limits.yml
   title: AppLovin published rate limits
   type: RateLimits
   url: rate-limits/applovin-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/plans/applovin-plans-pricing.yml
+  href: https://artifacts.apis.io/applovin/plans/applovin-plans-pricing.yml
   title: AppLovin plans (none published)
   type: Plans
   url: plans/applovin-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/finops/applovin-finops.yml
+  href: https://artifacts.apis.io/applovin/finops/applovin-finops.yml
   title: ''
   type: FinOps
   url: finops/applovin-finops.yml
@@ -512,7 +511,7 @@ plans:
 - name: Applovin Plans Pricing
   plan_count: 0
   slug: applovin-plans-pricing
-random_paper: 15
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Applovin Rate Limits
@@ -542,8 +541,8 @@ rules:
     warn: 15
   slug: applovin-rules
 score:
-  band: thin
-  composite: 38.7
+  band: developing
+  composite: 50.6
   coverage:
     artifact_dirs: 34
     catalog_earned: 68.0
@@ -551,15 +550,15 @@ score:
     catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 34.2
     contract_governance: 31.8
-    contract_quality: 35.0
-    developer_ergonomics: 38.1
-    discoverability: 78.6
-    operational_transparency: 47.4
-  previous_composite: 40.2
+    contract_quality: 32.4
+    developer_ergonomics: 83.9
+    discoverability: 71.4
+    operational_transparency: 50.0
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -579,14 +578,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/applovin/applovin-2026-06-20T172326.png
 security:
 - kind: authentication
   name: Applovin Authentication
@@ -596,6 +596,16 @@ security:
   name: Applovin Domain Security
   slug: applovin-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Configure a MAX ad unit waterfall
+  slug: applovin-configure-max-waterfall
+- name: Launch an AppLovin campaign with creatives
+  slug: applovin-launch-campaign-with-creatives
+- name: Pull AppLovin revenue and performance reports
+  slug: applovin-pull-revenue-reports
+- name: Send web conversion events to AppLovin
+  slug: applovin-send-conversion-events
 slug: applovin
 tags:
 - Advertising

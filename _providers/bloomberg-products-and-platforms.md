@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Cross-platform API providing access to the full Bloomberg data ecosystem including real-time, reference, and historical data with SDKs for Python, Java, C++, and other languages.
@@ -48,17 +50,17 @@ apis:
 artifact_total: 17
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-products-and-platforms/refs/heads/main/plans/bloomberg-products-and-platforms-plans-pricing.yml
+  href: https://artifacts.apis.io/bloomberg-products-and-platforms/plans/bloomberg-products-and-platforms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bloomberg-products-and-platforms-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-products-and-platforms/refs/heads/main/rate-limits/bloomberg-products-and-platforms-rate-limits.yml
+  href: https://artifacts.apis.io/bloomberg-products-and-platforms/rate-limits/bloomberg-products-and-platforms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bloomberg-products-and-platforms-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-products-and-platforms/refs/heads/main/finops/bloomberg-products-and-platforms-finops.yml
+  href: https://artifacts.apis.io/bloomberg-products-and-platforms/finops/bloomberg-products-and-platforms-finops.yml
   title: ''
   type: FinOps
   url: finops/bloomberg-products-and-platforms-finops.yml
@@ -71,12 +73,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/bloomberg/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-products-and-platforms/refs/heads/main/security/bloomberg-products-and-platforms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bloomberg-products-and-platforms/security/bloomberg-products-and-platforms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bloomberg-products-and-platforms-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-products-and-platforms/refs/heads/main/security/bloomberg-products-and-platforms-domain-security.yml
+  href: https://artifacts.apis.io/bloomberg-products-and-platforms/security/bloomberg-products-and-platforms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bloomberg-products-and-platforms-domain-security.yml
@@ -121,7 +123,7 @@ finops:
 - has_sources: false
   method: generated
   name: Bloomberg Products And Platforms Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: bloomberg-products-and-platforms-finops
   template: true
@@ -139,14 +141,14 @@ plans:
 - name: Bloomberg Products And Platforms Plans Pricing
   plan_count: 3
   slug: bloomberg-products-and-platforms-plans-pricing
-random_paper: 7
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Bloomberg Products And Platforms Rate Limits
   slug: bloomberg-products-and-platforms-rate-limits
 score:
   band: emerging
-  composite: 18.8
+  composite: 20.5
   coverage:
     artifact_dirs: 6
     catalog_earned: 41.0
@@ -154,29 +156,29 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 62.5
-    operational_transparency: 10.5
-  previous_composite: 20.3
+    operational_transparency: 23.7
+  previous_composite: 20.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-products-and-platforms/refs/heads/main/screenshots/bloomberg-products-and-platforms-2026-06-20T173513.png
+screenshot: https://apis.io/screenshots/bloomberg-products-and-platforms/bloomberg-products-and-platforms-2026-06-20T173513.png
 security:
 - kind: domain-security
   name: Bloomberg Products And Platforms Domain Security

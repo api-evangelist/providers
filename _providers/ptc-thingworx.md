@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.1
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -82,15 +84,12 @@ apis:
   description: Time-series property streams
   name: ptc-thingworx ValueStreams API
   slug: ptc-thingworx-valuestreams-api
-artifact_total: 28
+artifact_total: 27
 asyncapis:
 - description: PTC ThingWorx AlwaysOn WebSocket API enables persistent bidirectional connections for industrial edge devices and remote assets. Supports real-time telemetry streaming, command and control, event noti
   name: PTC ThingWorx AlwaysOn WebSocket API
   slug: ptc-thingworx-websocket-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PTC ThingWorx REST DataShapes API
   slug: open-ptc-thingworx-datashapes-api
@@ -114,37 +113,37 @@ collections:
   slug: open-ptc-thingworx-valuestreams-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/plans/ptc-thingworx-plans-pricing.yml
+  href: https://artifacts.apis.io/ptc-thingworx/plans/ptc-thingworx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ptc-thingworx-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/rate-limits/ptc-thingworx-rate-limits.yml
+  href: https://artifacts.apis.io/ptc-thingworx/rate-limits/ptc-thingworx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ptc-thingworx-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/finops/ptc-thingworx-finops.yml
+  href: https://artifacts.apis.io/ptc-thingworx/finops/ptc-thingworx-finops.yml
   title: ''
   type: FinOps
   url: finops/ptc-thingworx-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/agentic-access/ptc-thingworx-agentic-access.yml
+  href: https://artifacts.apis.io/ptc-thingworx/agentic-access/ptc-thingworx-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ptc-thingworx-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/security/ptc-thingworx-domain-security.yml
+  href: https://artifacts.apis.io/ptc-thingworx/security/ptc-thingworx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ptc-thingworx-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/authentication/ptc-thingworx-authentication.yml
+  href: https://artifacts.apis.io/ptc-thingworx/authentication/ptc-thingworx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ptc-thingworx-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/scopes/ptc-thingworx-scopes.yml
+  href: https://artifacts.apis.io/ptc-thingworx/scopes/ptc-thingworx-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ptc-thingworx-scopes.yml
@@ -173,22 +172,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/ptc-iot-sharing
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/_original/ptc-thingworx-rest-openapi.yml
+  href: https://artifacts.apis.io/ptc-thingworx/openapi/_original/ptc-thingworx-rest-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/ptc-thingworx-rest-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/asyncapi/ptc-thingworx-websocket-asyncapi.yml
+  href: https://artifacts.apis.io/ptc-thingworx/asyncapi/ptc-thingworx-websocket-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/ptc-thingworx-websocket-asyncapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/json-schema/ptc-thingworx-thing-schema.json
+  href: https://artifacts.apis.io/ptc-thingworx/json-schema/ptc-thingworx-thing-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/ptc-thingworx-thing-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/json-ld/ptc-thingworx-context.jsonld
+  href: https://artifacts.apis.io/ptc-thingworx/json-ld/ptc-thingworx-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/ptc-thingworx-context.jsonld
@@ -231,7 +230,7 @@ plans:
 - name: Ptc Thingworx Plans Pricing
   plan_count: 1
   slug: ptc-thingworx-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Ptc Thingworx Rate Limits
@@ -267,7 +266,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 35.6
+  composite: 37.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 48.5
@@ -275,15 +274,15 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 60.1
-    developer_ergonomics: 35.7
+    developer_ergonomics: 40.5
     discoverability: 57.1
     operational_transparency: 10.5
-  previous_composite: 37.1
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -297,13 +296,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/screenshots/ptc-thingworx-2026-10-11T112926.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ptc-thingworx/ptc-thingworx-2026-10-11T112926.png
 security:
 - kind: authentication
   name: Ptc Thingworx Authentication

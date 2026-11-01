@@ -31,6 +31,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -38,7 +40,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Adverity Management API provides programmatic access to the Adverity platform for managing datastreams, authorizations, fetches, transformations, data mappings, destinations, workspaces, and users
@@ -47,7 +49,7 @@ apis:
 - description: The Adverity MCP server is a hosted, remote Model Context Protocol endpoint that connects an AI assistant to an Adverity instance so it can monitor, configure, and control data pipelines in natural la
   name: Adverity MCP Server
   slug: adverity-mcp-server
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Adverity Webhooks
@@ -114,7 +116,7 @@ common:
   type: ChangeLog
   url: https://docs.adverity.com/reference/release-notes/release-notes.html
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/changelog/adverity-changelog.yml
+  href: https://artifacts.apis.io/adverity/changelog/adverity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/adverity-changelog.yml
@@ -123,7 +125,7 @@ common:
   type: StatusPage
   url: https://docs.adverity.com/reference/release-notes/incidents.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/lifecycle/adverity-lifecycle.yml
+  href: https://artifacts.apis.io/adverity/lifecycle/adverity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adverity-lifecycle.yml
@@ -132,32 +134,32 @@ common:
   type: Compliance
   url: https://www.adverity.com/analytics-platform/data-security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/mcp/adverity-mcp.yml
+  href: https://artifacts.apis.io/adverity/mcp/adverity-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/adverity-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/authentication/adverity-authentication.yml
+  href: https://artifacts.apis.io/adverity/authentication/adverity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adverity-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/conventions/adverity-conventions.yml
+  href: https://artifacts.apis.io/adverity/conventions/adverity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adverity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/conformance/adverity-conformance.yml
+  href: https://artifacts.apis.io/adverity/conformance/adverity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adverity-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/security/adverity-domain-security.yml
+  href: https://artifacts.apis.io/adverity/security/adverity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adverity-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/security/adverity-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adverity/security/adverity-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adverity-vulnerability-disclosure.yml
@@ -166,53 +168,61 @@ common:
   type: Security
   url: https://www.adverity.com/analytics-platform/data-security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/well-known/adverity-well-known.yml
+  href: https://artifacts.apis.io/adverity/well-known/adverity-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adverity-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/llms/adverity-llms.txt
+  href: https://artifacts.apis.io/adverity/llms/adverity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adverity-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/mcp/adverity-tool-crosswalk.yml
+  href: https://artifacts.apis.io/adverity/mcp/adverity-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/adverity-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/scopes/adverity-scopes.yml
+  href: https://artifacts.apis.io/adverity/scopes/adverity-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/adverity-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/errors/adverity-problem-types.yml
+  href: https://artifacts.apis.io/adverity/errors/adverity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adverity-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/rate-limits/adverity-rate-limits.yml
+  href: https://artifacts.apis.io/adverity/rate-limits/adverity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adverity-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/plans/adverity-plans-pricing.yml
+  href: https://artifacts.apis.io/adverity/plans/adverity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adverity-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/asyncapi/adverity-webhooks.yml
+  href: https://artifacts.apis.io/adverity/asyncapi/adverity-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/adverity-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/data-model/adverity-data-model.yml
+  href: https://artifacts.apis.io/adverity/data-model/adverity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adverity-data-model.yml
 created: '2026-07-17'
 description: Adverity is a marketing data intelligence platform that integrates, harmonizes, transforms, and analyzes marketing and advertising data from hundreds of sources (Google Ads, Facebook Ads, LinkedIn Ads, and more) into a single, governed data foundation for reporting, dashboards, and downstream data warehouses. Adverity exposes a programmatic Management API across three surfaces (legacy /api/, /api/v1/ for cross-workspace operations, and /api/v2/ for multi-range smart-pulling) for managing datastreams, authorizations, fetches, transformations, destinations, workspaces, and users, plus a UI-configured webhook surface with three events. It also runs a hosted remote Model Context Protocol (MCP) server at https://mcp.eu.adverity.com/mcp (beta, 12 tools, OAuth 2.0 with PKCE and dynamic client registration) so AI assistants can monitor, configure, and control data pipelines in natural language. No OpenAPI is published; the REST contract is a documented endpoint table plus a public Postman
   collection, and API keys carry per-resource read/write scopes. The company is ISO/IEC 27001 certified (TUV Austria), SOC 2 Type 2 audited, and GDPR/UK GDPR/CCPA/HIPAA compliant.
+finops:
+- has_sources: true
+  method: derived
+  name: Adverity Finops
+  primary_unit: ''
+  service_category: ''
+  slug: adverity-finops
+  template: true
 image: https://www.adverity.com/hubfs/7.%20Webpages/adverity-banner.png
 layout: provider
 mcp_servers:
@@ -234,7 +244,7 @@ plans:
 - name: Adverity Plans Pricing
   plan_count: 0
   slug: adverity-plans-pricing
-random_paper: 14
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Adverity Rate Limits
@@ -245,24 +255,24 @@ scopes:
   slug: adverity-scopes
   summary_line: 14 scopes · authorizationCode
 score:
-  band: developing
-  composite: 53.8
+  band: strong
+  composite: 55.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 61.9
     discoverability: 65.0
     operational_transparency: 71.1
-  previous_composite: 53.7
+  previous_composite: 55.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -282,14 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/screenshots/adverity-2026-07-25T181708.png
+screenshot: https://apis.io/screenshots/adverity/adverity-2026-07-25T181708.png
 security:
 - kind: authentication
   name: Adverity Authentication

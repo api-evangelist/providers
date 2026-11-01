@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Read-only, unauthenticated dataset surface. The provider's own README documents consumption as an HTTPS GET of the combined exercises.json array (873 records) or of a single exercise document, with im
@@ -79,47 +81,47 @@ common:
   type: TermsOfService
   url: https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/free-exercise-db/refs/heads/main/vocabulary/free-exercise-db-vocabulary.yml
+  href: https://artifacts.apis.io/free-exercise-db/vocabulary/free-exercise-db-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/free-exercise-db-vocabulary.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/free-exercise-db/refs/heads/main/authentication/free-exercise-db-authentication.yml
+  href: https://artifacts.apis.io/free-exercise-db/authentication/free-exercise-db-authentication.yml
   title: ''
   type: Authentication
   url: authentication/free-exercise-db-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/free-exercise-db/refs/heads/main/conventions/free-exercise-db-conventions.yml
+  href: https://artifacts.apis.io/free-exercise-db/conventions/free-exercise-db-conventions.yml
   title: ''
   type: Conventions
   url: conventions/free-exercise-db-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/free-exercise-db/refs/heads/main/conformance/free-exercise-db-conformance.yml
+  href: https://artifacts.apis.io/free-exercise-db/conformance/free-exercise-db-conformance.yml
   title: ''
   type: Conformance
   url: conformance/free-exercise-db-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/free-exercise-db/refs/heads/main/lifecycle/free-exercise-db-lifecycle.yml
+  href: https://artifacts.apis.io/free-exercise-db/lifecycle/free-exercise-db-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/free-exercise-db-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/free-exercise-db/refs/heads/main/plans/free-exercise-db-plans-pricing.yml
+  href: https://artifacts.apis.io/free-exercise-db/plans/free-exercise-db-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/free-exercise-db-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/free-exercise-db/refs/heads/main/rate-limits/free-exercise-db-rate-limits.yml
+  href: https://artifacts.apis.io/free-exercise-db/rate-limits/free-exercise-db-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/free-exercise-db-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/free-exercise-db/refs/heads/main/packages/free-exercise-db-packages.yml
+  href: https://artifacts.apis.io/free-exercise-db/packages/free-exercise-db-packages.yml
   title: ''
   type: Packages
   url: packages/free-exercise-db-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/free-exercise-db/refs/heads/main/llms/free-exercise-db-llms.txt
+  href: https://artifacts.apis.io/free-exercise-db/llms/free-exercise-db-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/free-exercise-db-llms.txt
@@ -147,14 +149,14 @@ plans:
 - name: Free Exercise Db Plans Pricing
   plan_count: 0
   slug: free-exercise-db-plans-pricing
-random_paper: 0
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Free Exercise Db Rate Limits
   slug: free-exercise-db-rate-limits
 score:
   band: emerging
-  composite: 22.4
+  composite: 22.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 43.7
@@ -169,8 +171,8 @@ score:
     contract_quality: 13.7
     developer_ergonomics: 45.2
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 22.4
+    operational_transparency: 5.3
+  previous_composite: 22.8
   provenance:
     conformance: derived
     mcp: derived
@@ -180,14 +182,14 @@ score:
     regime: Health
     regime_id: health
     score: 11.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/free-exercise-db/refs/heads/main/screenshots/free-exercise-db-2026-09-02T145540.png
+screenshot: https://apis.io/screenshots/free-exercise-db/free-exercise-db-2026-09-02T145540.png
 security:
 - kind: authentication
   name: Free Exercise Db Authentication

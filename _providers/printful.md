@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -84,11 +86,8 @@ apis:
   description: Configure webhook endpoints and per-event subscriptions.
   name: Printful Webhooks API
   slug: printful-webhooks-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Printful Catalog API
   slug: open-printful-catalog-api
@@ -122,27 +121,27 @@ common:
   type: Pricing
   url: https://www.printful.com/pricing
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/printful/refs/heads/main/capabilities/printful-capability-edges.yml
+  href: https://artifacts.apis.io/printful/capabilities/printful-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/printful-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/printful/refs/heads/main/agentic-access/printful-agentic-access.yml
+  href: https://artifacts.apis.io/printful/agentic-access/printful-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/printful-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/printful/refs/heads/main/security/printful-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/printful/security/printful-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/printful-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/printful/refs/heads/main/security/printful-domain-security.yml
+  href: https://artifacts.apis.io/printful/security/printful-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/printful-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/printful/refs/heads/main/authentication/printful-authentication.yml
+  href: https://artifacts.apis.io/printful/authentication/printful-authentication.yml
   title: ''
   type: Authentication
   url: authentication/printful-authentication.yml
@@ -167,17 +166,17 @@ common:
   type: Documentation
   url: https://developers.printful.com/docs/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/printful/refs/heads/main/plans/printful-plans-pricing.yml
+  href: https://artifacts.apis.io/printful/plans/printful-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/printful-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/printful/refs/heads/main/rate-limits/printful-rate-limits.yml
+  href: https://artifacts.apis.io/printful/rate-limits/printful-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/printful-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/printful/refs/heads/main/finops/printful-finops.yml
+  href: https://artifacts.apis.io/printful/finops/printful-finops.yml
   title: ''
   type: FinOps
   url: finops/printful-finops.yml
@@ -185,10 +184,10 @@ created: '2026-06-25'
 description: Printful is a print-on-demand and order-fulfillment platform that lets merchants design custom products and have them produced and shipped on demand. The Printful API (v2 and v1) exposes the product catalog, store products, order management, file library, mockup generator, shipping rates, warehouse products, and webhooks over a REST interface authenticated with OAuth 2.0 / Bearer tokens.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Printful Finops
-  primary_unit: ''
-  service_category: Commerce and Fulfillment
+  primary_unit: subscription
+  service_category: ''
   slug: printful-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/printful.png
@@ -208,30 +207,30 @@ plans:
 - name: Printful Price Estimates
   plan_count: 0
   slug: printful-price-estimates
-random_paper: 4
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Printful Rate Limits
   slug: printful-rate-limits
 score:
   band: developing
-  composite: 39.8
+  composite: 40.7
   coverage:
     artifact_dirs: 13
-    catalog_earned: 61.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.6
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 46.0
+    contract_quality: 44.5
     developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 34.2
-  previous_composite: 41.4
+    operational_transparency: 47.4
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -245,13 +244,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 17.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/printful/refs/heads/main/screenshots/printful-2026-09-02T152031.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/printful/printful-2026-09-02T152031.png
 security:
 - kind: authentication
   name: Printful Authentication

@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
-api_count: 3
+  score: 27.0
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - baseURL: https://tonapi.io
   baseurl_source: declared
@@ -154,15 +156,12 @@ apis:
   description: The Webhooks API from TOP Group (The Open Platform) — 15 operation(s) for webhooks.
   name: TOP Group (The Open Platform) Webhooks API
   slug: top-group-webhooks-api
-artifact_total: 52
+artifact_total: 54
 asyncapis:
 - description: ''
   name: Top Group Tonapi Webhooks
   slug: top-group-tonapi-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: REST api to TON blockchain explorer Accounts API
   slug: open-top-group-accounts-api
@@ -234,12 +233,12 @@ collections:
   slug: open-top-group-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/capabilities/top-group-capability-edges.yml
+  href: https://artifacts.apis.io/top-group/capabilities/top-group-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/top-group-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/overlays/top-group-tonapi-overlay.yaml
+  href: https://artifacts.apis.io/top-group/overlays/top-group-tonapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/top-group-tonapi-overlay.yaml
@@ -300,42 +299,42 @@ common:
   type: Support
   url: mailto:support@tonkeeper.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/packages/top-group-packages.yml
+  href: https://artifacts.apis.io/top-group/packages/top-group-packages.yml
   title: ''
   type: Packages
   url: packages/top-group-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/packages/top-group-packages.yml
+  href: https://artifacts.apis.io/top-group/packages/top-group-packages.yml
   title: ''
   type: SDKs
   url: packages/top-group-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/well-known/top-group-well-known.yml
+  href: https://artifacts.apis.io/top-group/well-known/top-group-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/top-group-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/mcp/top-group-mcp.yml
+  href: https://artifacts.apis.io/top-group/mcp/top-group-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/top-group-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/llms/top-group-llms.txt
+  href: https://artifacts.apis.io/top-group/llms/top-group-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/top-group-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/conformance/top-group-conformance.yml
+  href: https://artifacts.apis.io/top-group/conformance/top-group-conformance.yml
   title: ''
   type: Conformance
   url: conformance/top-group-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/errors/top-group-problem-types.yml
+  href: https://artifacts.apis.io/top-group/errors/top-group-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/top-group-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/lifecycle/top-group-lifecycle.yml
+  href: https://artifacts.apis.io/top-group/lifecycle/top-group-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/top-group-lifecycle.yml
@@ -344,42 +343,42 @@ common:
   type: Deprecation
   url: https://docs.tonconsole.com/tonapi/streaming-api
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/authentication/top-group-authentication.yml
+  href: https://artifacts.apis.io/top-group/authentication/top-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/top-group-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/security/top-group-domain-security.yml
+  href: https://artifacts.apis.io/top-group/security/top-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/top-group-domain-security.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/sandbox/top-group-sandbox.yml
+  href: https://artifacts.apis.io/top-group/sandbox/top-group-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/top-group-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/conventions/top-group-conventions.yml
+  href: https://artifacts.apis.io/top-group/conventions/top-group-conventions.yml
   title: ''
   type: Conventions
   url: conventions/top-group-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/rate-limits/top-group-rate-limits.yml
+  href: https://artifacts.apis.io/top-group/rate-limits/top-group-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/top-group-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/asyncapi/top-group-tonapi-webhooks.yml
+  href: https://artifacts.apis.io/top-group/asyncapi/top-group-tonapi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/top-group-tonapi-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/top-group/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/data-model/top-group-data-model.yml
+  href: https://artifacts.apis.io/top-group/data-model/top-group-data-model.yml
   title: ''
   type: DataModel
   url: data-model/top-group-data-model.yml
@@ -402,30 +401,30 @@ overview: 'TOP Group (The Open Platform) publishes 23 API contracts indexed on t
 
 
   TOP Group (The Open Platform)''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Top Group Rate Limits
   slug: top-group-rate-limits
 score:
   band: developing
-  composite: 41.3
+  composite: 48.4
   coverage:
     artifact_dirs: 23
-    catalog_earned: 48.0
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
-    access_clarity: 21.1
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 47.1
-    developer_ergonomics: 63.7
-    discoverability: 71.4
-    operational_transparency: 39.5
-  previous_composite: 40.7
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 42.1
+  previous_composite: 48.9
   provenance:
     conformance: derived
     contracts:
@@ -441,13 +440,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/top-group/refs/heads/main/screenshots/top-group-2026-08-17T082406.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/top-group/top-group-2026-08-17T082406.png
 security:
 - kind: authentication
   name: Top Group Authentication
@@ -457,6 +457,14 @@ security:
   name: Top Group Domain Security
   slug: top-group-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Inspect a TON account and its activity
+  slug: top-group-account-activity
+- name: Emulate, send, and track a TON message
+  slug: top-group-send-and-track-message
+- name: Monitor TON accounts with webhooks
+  slug: top-group-webhook-monitoring
 slug: top-group
 tags:
 - Company

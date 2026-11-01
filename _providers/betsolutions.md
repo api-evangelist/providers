@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: BetSolutions-managed wallet operations for transfer mode integration
   name: BetSolutions Transfer Wallet API
   slug: betsolutions-transfer-wallet-api
-artifact_total: 95
+artifact_total: 94
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: BetSolutions Wallet Player API
   slug: open-betsolutions-player-api
@@ -83,32 +82,32 @@ collections:
   slug: open-betsolutions-transfer-wallet-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/plans/betsolutions-plans-pricing.yml
+  href: https://artifacts.apis.io/betsolutions/plans/betsolutions-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/betsolutions-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/rate-limits/betsolutions-rate-limits.yml
+  href: https://artifacts.apis.io/betsolutions/rate-limits/betsolutions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/betsolutions-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/finops/betsolutions-finops.yml
+  href: https://artifacts.apis.io/betsolutions/finops/betsolutions-finops.yml
   title: ''
   type: FinOps
   url: finops/betsolutions-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/agentic-access/betsolutions-agentic-access.yml
+  href: https://artifacts.apis.io/betsolutions/agentic-access/betsolutions-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/betsolutions-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/security/betsolutions-domain-security.yml
+  href: https://artifacts.apis.io/betsolutions/security/betsolutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/betsolutions-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/authentication/betsolutions-authentication.yml
+  href: https://artifacts.apis.io/betsolutions/authentication/betsolutions-authentication.yml
   title: ''
   type: Authentication
   url: authentication/betsolutions-authentication.yml
@@ -141,12 +140,12 @@ common:
   type: SDKs
   url: https://packagist.org/packages/betsolutions/casino-api
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/rules/betsolutions-spectral-rules.yml
+  href: https://artifacts.apis.io/betsolutions/rules/betsolutions-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/betsolutions-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/vocabulary/betsolutions-vocabulary.yaml
+  href: https://artifacts.apis.io/betsolutions/vocabulary/betsolutions-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/betsolutions-vocabulary.yaml
@@ -234,7 +233,7 @@ finops:
 - has_sources: true
   method: generated
   name: Betsolutions Finops
-  primary_unit: ''
+  primary_unit: GGR
   service_category: iGaming Platform / Casino APIs
   slug: betsolutions-finops
   template: false
@@ -413,23 +412,23 @@ rules:
   slug: betsolutions-spectral-rules
 score:
   band: emerging
-  composite: 22.5
+  composite: 25.1
   coverage:
     artifact_dirs: 16
-    catalog_earned: 59.0
+    catalog_earned: 62.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.0
+    catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 5.3
+    access_clarity: 13.2
     contract_governance: 27.3
     contract_quality: 22.4
     developer_ergonomics: 28.6
     discoverability: 62.5
-    operational_transparency: 7.9
-  previous_composite: 24.0
+    operational_transparency: 10.5
+  previous_composite: 23.5
   provenance:
     agentic_access: derived
     contracts:
@@ -443,13 +442,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/screenshots/betsolutions-2026-06-20T173201.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/betsolutions/betsolutions-2026-06-20T173201.png
 security:
 - kind: authentication
   name: Betsolutions Authentication

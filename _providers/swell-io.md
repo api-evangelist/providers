@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.9
-  scored_at: '2026-10-17'
+  score: 19.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -258,9 +260,6 @@ collections:
   name: Swell Frontend API
   slug: postman-swell-frontend-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Swell Backend API
   slug: open-swell-backend-api
 - collection_type: open
@@ -361,22 +360,22 @@ collections:
   slug: open-swell-io-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/capabilities/swell-io-capability-edges.yml
+  href: https://artifacts.apis.io/swell-io/capabilities/swell-io-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/swell-io-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/agentic-access/swell-io-agentic-access.yml
+  href: https://artifacts.apis.io/swell-io/agentic-access/swell-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/swell-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/security/swell-io-domain-security.yml
+  href: https://artifacts.apis.io/swell-io/security/swell-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/swell-io-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/authentication/swell-io-authentication.yml
+  href: https://artifacts.apis.io/swell-io/authentication/swell-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/swell-io-authentication.yml
@@ -385,67 +384,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/swell/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/arazzo/swell-io-apply-coupon-to-cart-workflow.yml
+  href: https://artifacts.apis.io/swell-io/arazzo/swell-io-apply-coupon-to-cart-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/swell-io-apply-coupon-to-cart-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/arazzo/swell-io-build-cart-convert-order-workflow.yml
+  href: https://artifacts.apis.io/swell-io/arazzo/swell-io-build-cart-convert-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/swell-io-build-cart-convert-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/arazzo/swell-io-cancel-subscription-workflow.yml
+  href: https://artifacts.apis.io/swell-io/arazzo/swell-io-cancel-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/swell-io-cancel-subscription-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/arazzo/swell-io-capture-refund-payment-workflow.yml
+  href: https://artifacts.apis.io/swell-io/arazzo/swell-io-capture-refund-payment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/swell-io-capture-refund-payment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/arazzo/swell-io-categorize-product-workflow.yml
+  href: https://artifacts.apis.io/swell-io/arazzo/swell-io-categorize-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/swell-io-categorize-product-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/arazzo/swell-io-create-product-workflow.yml
+  href: https://artifacts.apis.io/swell-io/arazzo/swell-io-create-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/swell-io-create-product-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/arazzo/swell-io-create-subscription-workflow.yml
+  href: https://artifacts.apis.io/swell-io/arazzo/swell-io-create-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/swell-io-create-subscription-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/arazzo/swell-io-find-or-create-customer-order-workflow.yml
+  href: https://artifacts.apis.io/swell-io/arazzo/swell-io-find-or-create-customer-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/swell-io-find-or-create-customer-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/arazzo/swell-io-onboard-customer-order-workflow.yml
+  href: https://artifacts.apis.io/swell-io/arazzo/swell-io-onboard-customer-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/swell-io-onboard-customer-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/arazzo/swell-io-storefront-apply-coupon-workflow.yml
+  href: https://artifacts.apis.io/swell-io/arazzo/swell-io-storefront-apply-coupon-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/swell-io-storefront-apply-coupon-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/arazzo/swell-io-storefront-checkout-workflow.yml
+  href: https://artifacts.apis.io/swell-io/arazzo/swell-io-storefront-checkout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/swell-io-storefront-checkout-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/arazzo/swell-io-storefront-register-login-workflow.yml
+  href: https://artifacts.apis.io/swell-io/arazzo/swell-io-storefront-register-login-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/swell-io-storefront-register-login-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/arazzo/swell-io-storefront-update-cart-item-workflow.yml
+  href: https://artifacts.apis.io/swell-io/arazzo/swell-io-storefront-update-cart-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/swell-io-storefront-update-cart-item-workflow.yml
@@ -606,32 +605,32 @@ common:
   type: Resources
   url: https://github.com/swellstores/community
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/rules/swell-rules.yml
+  href: https://artifacts.apis.io/swell-io/rules/swell-rules.yml
   title: ''
   type: SpectralRules
   url: rules/swell-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/vocabulary/swell-io-vocabulary.yml
+  href: https://artifacts.apis.io/swell-io/vocabulary/swell-io-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/swell-io-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/json-ld/swell-io-context.jsonld
+  href: https://artifacts.apis.io/swell-io/json-ld/swell-io-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/swell-io-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/plans/swell-io-plans-pricing.yml
+  href: https://artifacts.apis.io/swell-io/plans/swell-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/swell-io-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/rate-limits/swell-io-rate-limits.yml
+  href: https://artifacts.apis.io/swell-io/rate-limits/swell-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/swell-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/finops/swell-io-finops.yml
+  href: https://artifacts.apis.io/swell-io/finops/swell-io-finops.yml
   title: ''
   type: FinOps
   url: finops/swell-io-finops.yml
@@ -680,13 +679,13 @@ features:
 - description: Official Claude Code plugins and AI coding-agent skills for Swell-aware development workflows.
   name: AI coding-agent skills
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Swell Io Finops
-  primary_unit: ''
+  primary_unit: subscription
   service_category: ''
   slug: swell-io-finops
-  template: true
+  template: false
 graphqls:
 - description: 'Experimental (alpha) GraphQL endpoint that exposes a curated subset of the storefront commerce model — products, attributes, categories, accounts, sessions, carts, orders, payments, payment settings, '
   name: Swell GraphQL API
@@ -795,6 +794,9 @@ plans:
 - name: Swell Io Plans Pricing
   plan_count: 5
   slug: swell-io-plans-pricing
+- name: Swell Io Price Estimates
+  plan_count: 0
+  slug: swell-io-price-estimates
 random_paper: 20
 rate_limits:
 - limit_count: 1
@@ -826,23 +828,23 @@ rules:
   slug: swell-rules
 score:
   band: strong
-  composite: 56.7
+  composite: 62.9
   coverage:
     artifact_dirs: 22
-    catalog_earned: 63.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_earned: 75.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 27.3
-    contract_quality: 62.3
+    contract_quality: 58.9
     developer_ergonomics: 82.1
     discoverability: 57.1
     operational_transparency: 42.1
-  previous_composite: 64.1
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     contracts:
@@ -856,13 +858,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/screenshots/swell-io-2026-06-20T194803.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/swell-io/swell-io-2026-06-20T194803.png
 security:
 - kind: authentication
   name: Swell Io Authentication

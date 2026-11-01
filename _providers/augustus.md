@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-17'
+  score: 35.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -119,15 +121,37 @@ apis:
   description: The Webhook Events API from Augustus — 0 operation(s) for webhook events.
   name: Augustus Webhook Events API
   slug: augustus-webhook-events-api
-artifact_total: 34
+- baseURL: https://api.getivy.de
+  baseurl_source: declared
+  description: The Account Holders API from Augustus — 2 operation(s) for account holders.
+  name: Augustus Account Holders API
+  slug: augustus-account-holders-api
+- baseURL: https://api.getivy.de
+  baseurl_source: declared
+  description: The Counterparties API from Augustus — 2 operation(s) for counterparties.
+  name: Augustus Counterparties API
+  slug: augustus-counterparties-api
+- baseURL: https://api.getivy.de
+  baseurl_source: declared
+  description: The Payout Tracking Events API from Augustus — 2 operation(s) for payout tracking events.
+  name: Augustus Payout Tracking Events API
+  slug: augustus-payout-tracking-events-api
+- baseURL: https://api.getivy.de
+  baseurl_source: declared
+  description: The Simulations API from Augustus — 20 operation(s) for simulations.
+  name: Augustus Simulations API
+  slug: augustus-simulations-api
+- baseURL: https://api.getivy.de
+  baseurl_source: declared
+  description: The Transactions API from Augustus — 2 operation(s) for transactions.
+  name: Augustus Transactions API
+  slug: augustus-transactions-api
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Augustus Webhooks
   slug: augustus-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Augustus Banking Account Programs API
   slug: open-augustus-account-programs-api
@@ -169,22 +193,22 @@ collections:
   slug: open-augustus-webhook-subscriptions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/capabilities/augustus-capability-edges.yml
+  href: https://artifacts.apis.io/augustus/capabilities/augustus-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/augustus-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/security/augustus-domain-security.yml
+  href: https://artifacts.apis.io/augustus/security/augustus-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/augustus-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/agentic-access/augustus-agentic-access.yml
+  href: https://artifacts.apis.io/augustus/agentic-access/augustus-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/augustus-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/authentication/augustus-authentication.yml
+  href: https://artifacts.apis.io/augustus/authentication/augustus-authentication.yml
   title: ''
   type: Authentication
   url: authentication/augustus-authentication.yml
@@ -237,52 +261,52 @@ common:
   type: StatusPage
   url: https://status.getivy.io
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/_original/augustus-openapi-original.yml
+  href: https://artifacts.apis.io/augustus/openapi/_original/augustus-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/augustus-openapi-original.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/packages/augustus-packages.yml
+  href: https://artifacts.apis.io/augustus/packages/augustus-packages.yml
   title: ''
   type: Packages
   url: packages/augustus-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/packages/augustus-packages.yml
+  href: https://artifacts.apis.io/augustus/packages/augustus-packages.yml
   title: ''
   type: SDKs
   url: packages/augustus-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/mcp/augustus-mcp.yml
+  href: https://artifacts.apis.io/augustus/mcp/augustus-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/augustus-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/llms/augustus-llms.txt
+  href: https://artifacts.apis.io/augustus/llms/augustus-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/augustus-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/overlays/augustus-banking-overlay.yaml
+  href: https://artifacts.apis.io/augustus/overlays/augustus-banking-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/augustus-banking-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/conformance/augustus-conformance.yml
+  href: https://artifacts.apis.io/augustus/conformance/augustus-conformance.yml
   title: ''
   type: Conformance
   url: conformance/augustus-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/errors/augustus-error-codes.yml
+  href: https://artifacts.apis.io/augustus/errors/augustus-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/augustus-error-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/errors/augustus-decline-codes.yml
+  href: https://artifacts.apis.io/augustus/errors/augustus-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/augustus-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/lifecycle/augustus-lifecycle.yml
+  href: https://artifacts.apis.io/augustus/lifecycle/augustus-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/augustus-lifecycle.yml
@@ -291,37 +315,37 @@ common:
   type: Deprecation
   url: https://docs.augustus.com/v1/versioning
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/scopes/augustus-scopes.yml
+  href: https://artifacts.apis.io/augustus/scopes/augustus-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/augustus-scopes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/sandbox/augustus-sandbox.yml
+  href: https://artifacts.apis.io/augustus/sandbox/augustus-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/augustus-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/conventions/augustus-conventions.yml
+  href: https://artifacts.apis.io/augustus/conventions/augustus-conventions.yml
   title: ''
   type: Conventions
   url: conventions/augustus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/conventions/augustus-conventions.yml
+  href: https://artifacts.apis.io/augustus/conventions/augustus-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/augustus-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/data-model/augustus-data-model.yml
+  href: https://artifacts.apis.io/augustus/data-model/augustus-data-model.yml
   title: ''
   type: DataModel
   url: data-model/augustus-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/asyncapi/augustus-webhooks.yml
+  href: https://artifacts.apis.io/augustus/asyncapi/augustus-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/augustus-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/augustus/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -333,14 +357,14 @@ modified: '2026-07-18'
 name: Augustus
 nav: Providers
 network: true
-overview: 'Augustus publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Programs API, Accounts API, API Key API, and 12 more. Tagged areas include Company, Fintech, Payments, Banking, and Open Banking.
+overview: 'Augustus publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Programs API, Accounts API, API Key API, and 17 more. Tagged areas include Company, Fintech, Payments, Banking, and Open Banking.
 
 
   The Augustus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Augustus'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, sandbox, and 27 more developer resources.'
-random_paper: 17
+random_paper: 9
 scopes:
 - name: Augustus Scopes
   scope_count: 16
@@ -348,7 +372,7 @@ scopes:
   summary_line: 16 scopes
 score:
   band: developing
-  composite: 45.7
+  composite: 47.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -358,13 +382,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.1
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 55.4
+    contract_quality: 54.8
     developer_ergonomics: 70.8
-    discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 45.6
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -372,7 +396,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 14
+      total: 33
     mcp: derived
     skills: derived
   regulatory:
@@ -381,13 +405,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 33.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/screenshots/augustus-2026-07-25T201725.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/augustus/augustus-2026-07-25T201725.png
 security:
 - kind: authentication
   name: Augustus Authentication
@@ -397,6 +422,16 @@ security:
   name: Augustus Domain Security
   slug: augustus-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: Create and track a payout
+  slug: augustus-create-payout
+- name: Quote and execute an FX conversion
+  slug: augustus-fx-conversion
+- name: Open an account and check its balance
+  slug: augustus-open-account-and-check-balance
+- name: Subscribe to and verify webhooks
+  slug: augustus-subscribe-webhooks
 slug: augustus
 tags:
 - Company

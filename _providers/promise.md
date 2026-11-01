@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -57,17 +59,17 @@ common:
   type: PrivacyPolicy
   url: https://www.promise-pay.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/promise/refs/heads/main/well-known/promise-security.txt
+  href: https://artifacts.apis.io/promise/well-known/promise-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/promise-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/promise/refs/heads/main/well-known/promise-well-known.yml
+  href: https://artifacts.apis.io/promise/well-known/promise-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/promise-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/promise/refs/heads/main/security/promise-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/promise/security/promise-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/promise-vulnerability-disclosure.yml
@@ -76,17 +78,17 @@ common:
   type: Security
   url: https://www.promise-pay.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/promise/refs/heads/main/security/promise-domain-security.yml
+  href: https://artifacts.apis.io/promise/security/promise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/promise-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/promise/refs/heads/main/security/promise-trust-center.yml
+  href: https://artifacts.apis.io/promise/security/promise-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/promise-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/promise/refs/heads/main/conformance/promise-conformance.yml
+  href: https://artifacts.apis.io/promise/conformance/promise-conformance.yml
   title: ''
   type: Conformance
   url: conformance/promise-conformance.yml
@@ -106,7 +108,7 @@ overview: 'Promise is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Promise''s developer surface includes support, engineering blog, and 11 more developer resources.'
-random_paper: 19
+random_paper: 23
 score:
   band: emerging
   composite: 19.6
@@ -134,14 +136,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/promise/refs/heads/main/screenshots/promise-2026-10-11T192656.png
+screenshot: https://apis.io/screenshots/promise/promise-2026-10-11T192656.png
 security:
 - kind: domain-security
   name: Promise Domain Security

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -59,52 +61,52 @@ common:
   type: SourceCode
   url: https://github.com/CarServ/public_api_client
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/packages/carserv-packages.yml
+  href: https://artifacts.apis.io/carserv/packages/carserv-packages.yml
   title: ''
   type: Packages
   url: packages/carserv-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/packages/carserv-packages.yml
+  href: https://artifacts.apis.io/carserv/packages/carserv-packages.yml
   title: ''
   type: SDKs
   url: packages/carserv-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/authentication/carserv-authentication.yml
+  href: https://artifacts.apis.io/carserv/authentication/carserv-authentication.yml
   title: ''
   type: Authentication
   url: authentication/carserv-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/conventions/carserv-conventions.yml
+  href: https://artifacts.apis.io/carserv/conventions/carserv-conventions.yml
   title: ''
   type: Conventions
   url: conventions/carserv-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/errors/carserv-problem-types.yml
+  href: https://artifacts.apis.io/carserv/errors/carserv-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/carserv-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/data-model/carserv-data-model.yml
+  href: https://artifacts.apis.io/carserv/data-model/carserv-data-model.yml
   title: ''
   type: DataModel
   url: data-model/carserv-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/conformance/carserv-conformance.yml
+  href: https://artifacts.apis.io/carserv/conformance/carserv-conformance.yml
   title: ''
   type: Conformance
   url: conformance/carserv-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/lifecycle/carserv-lifecycle.yml
+  href: https://artifacts.apis.io/carserv/lifecycle/carserv-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/carserv-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/security/carserv-domain-security.yml
+  href: https://artifacts.apis.io/carserv/security/carserv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carserv-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/llms/carserv-llms.txt
+  href: https://artifacts.apis.io/carserv/llms/carserv-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/carserv-llms.txt
@@ -120,7 +122,7 @@ overview: 'CarServ is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   CarServ''s developer surface includes authentication and 14 more developer resources.'
-random_paper: 10
+random_paper: 14
 score:
   band: minimal
   composite: 0.0
@@ -149,14 +151,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/screenshots/carserv-2026-07-25T204649.png
+screenshot: https://apis.io/screenshots/carserv/carserv-2026-07-25T204649.png
 security:
 - kind: authentication
   name: Carserv Authentication
@@ -173,7 +175,7 @@ tags:
 - Auto Repair
 - Shop Management
 - Vehicle Inspection
-- Field Service
+- Field Service Management
 - Software-as-a-Service
 - JSON:API
 - Defunct

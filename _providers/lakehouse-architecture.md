@@ -4,6 +4,6 @@ layout: provider
 name: lakehouse-architecture
 nav: Providers
 network: true
-random_paper: 1
+random_paper: 9
 slug: lakehouse-architecture
 ---

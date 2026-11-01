@@ -2,7 +2,7 @@
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-17'
+  score: 34.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -86,35 +88,45 @@ apis:
   description: Manage webhook endpoints and monitor delivery history
   name: Phala Network Webhooks API
   slug: phala-webhooks-api
-artifact_total: 24
+artifact_total: 26
 common:
+- group: other
+  href: https://artifacts.apis.io/phala/capabilities/phala-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/phala-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/phala/plans/phala-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/phala-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/scopes/phala-scopes.yml
+  href: https://artifacts.apis.io/phala/scopes/phala-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/phala-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/agentic-access/phala-agentic-access.yml
+  href: https://artifacts.apis.io/phala/agentic-access/phala-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/phala-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/rules/phala-rules.yml
+  href: https://artifacts.apis.io/phala/rules/phala-rules.yml
   title: ''
   type: Spectral
   url: rules/phala-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/json-ld/phala-context.jsonld
+  href: https://artifacts.apis.io/phala/json-ld/phala-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/phala-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/vocabulary/phala-vocabulary.yml
+  href: https://artifacts.apis.io/phala/vocabulary/phala-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/phala-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/data-model/phala-data-model.yml
+  href: https://artifacts.apis.io/phala/data-model/phala-data-model.yml
   title: ''
   type: DataModel
   url: data-model/phala-data-model.yml
@@ -123,52 +135,52 @@ common:
   type: Compliance
   url: https://phala.com/trust
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/errors/phala-problem-types.yml
+  href: https://artifacts.apis.io/phala/errors/phala-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/phala-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/conformance/phala-conformance.yml
+  href: https://artifacts.apis.io/phala/conformance/phala-conformance.yml
   title: ''
   type: Conformance
   url: conformance/phala-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/llms/phala-llms.txt
+  href: https://artifacts.apis.io/phala/llms/phala-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/phala-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/a2a/phala-a2a.yml
+  href: https://artifacts.apis.io/phala/a2a/phala-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/phala-a2a.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/well-known/phala-explorer-security.txt
+  href: https://artifacts.apis.io/phala/well-known/phala-explorer-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/phala-explorer-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/well-known/phala-well-known.yml
+  href: https://artifacts.apis.io/phala/well-known/phala-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/phala-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/hosts/phala-hosts.yml
+  href: https://artifacts.apis.io/phala/hosts/phala-hosts.yml
   title: ''
   type: Hosts
   url: hosts/phala-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/vendors/phala-vendors.yml
+  href: https://artifacts.apis.io/phala/vendors/phala-vendors.yml
   title: ''
   type: Vendors
   url: vendors/phala-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/packages/phala-packages.yml
+  href: https://artifacts.apis.io/phala/packages/phala-packages.yml
   title: ''
   type: SDKs
   url: packages/phala-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/packages/phala-packages.yml
+  href: https://artifacts.apis.io/phala/packages/phala-packages.yml
   title: ''
   type: Packages
   url: packages/phala-packages.yml
@@ -181,17 +193,17 @@ common:
   type: Newsroom
   url: https://phala.com/tags/News
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/authentication/phala-authentication.yml
+  href: https://artifacts.apis.io/phala/authentication/phala-authentication.yml
   title: ''
   type: Authentication
   url: authentication/phala-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/security/phala-trust-center.yml
+  href: https://artifacts.apis.io/phala/security/phala-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/phala-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/security/phala-domain-security.yml
+  href: https://artifacts.apis.io/phala/security/phala-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/phala-domain-security.yml
@@ -245,6 +257,14 @@ common:
   url: https://phala.com/terms
 created: '2026-10-13'
 description: Phala Network (Phala Cloud) runs confidential computing infrastructure built on Trusted Execution Environments (Intel TDX, NVIDIA GPU TEE) and the open-source dstack framework. Developers deploy Docker workloads as confidential VMs (CVMs) through the Phala Cloud API, CLI and SDKs, verify them with remote attestation and on-chain KMS, and call attested Private AI models through an OpenAI-compatible inference API at inference.phala.com.
+finops:
+- has_sources: true
+  method: derived
+  name: Phala Finops
+  primary_unit: hour
+  service_category: ''
+  slug: phala-finops
+  template: false
 image: https://phala.com/favicon.ico
 json_schemas:
 - name: CVMInfoDetail
@@ -281,8 +301,12 @@ overview: 'Phala Network publishes 11 API contracts indexed on the [APIs.io](htt
   The Phala Network catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Phala Network''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, and 27 more developer resources.'
-random_paper: 12
+  Phala Network''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, and 29 more developer resources.'
+plans:
+- name: Phala Plans Pricing
+  plan_count: 10
+  slug: phala-plans-pricing
+random_paper: 14
 rules:
 - authorship: generated
   effective_rule_count: 53
@@ -303,21 +327,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 55.3
+  composite: 61.6
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 62.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.3
+    artifact_dirs: 23
+    catalog_earned: 77.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 22.0
-    contract_quality: 61.9
+    contract_quality: 60.1
     developer_ergonomics: 59.5
-    discoverability: 75.0
+    discoverability: 67.9
     operational_transparency: 15.8
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -333,11 +359,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 11.1
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Phala Authentication

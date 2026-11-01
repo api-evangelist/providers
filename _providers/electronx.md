@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The ElectronX FIX API provides programmatic access to the exchange through three session types: Order Entry (submit, modify, cancel orders and receive execution reports), Market Data (real-time prices'
@@ -42,7 +44,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/security/electronx-domain-security.yml
+  href: https://artifacts.apis.io/electronx/security/electronx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/electronx-domain-security.yml
@@ -87,32 +89,32 @@ common:
   type: Compliance
   url: https://www.electronx.com/regulatory
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/llms/electronx-llms.txt
+  href: https://artifacts.apis.io/electronx/llms/electronx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/electronx-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/authentication/electronx-authentication.yml
+  href: https://artifacts.apis.io/electronx/authentication/electronx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/electronx-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/conventions/electronx-conventions.yml
+  href: https://artifacts.apis.io/electronx/conventions/electronx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/electronx-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/conformance/electronx-conformance.yml
+  href: https://artifacts.apis.io/electronx/conformance/electronx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/electronx-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/lifecycle/electronx-lifecycle.yml
+  href: https://artifacts.apis.io/electronx/lifecycle/electronx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/electronx-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/changelog/electronx-changelog.yml
+  href: https://artifacts.apis.io/electronx/changelog/electronx-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/electronx-changelog.yml
@@ -128,10 +130,10 @@ overview: 'Electronx is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Electronx''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 10 more developer resources.'
-random_paper: 12
+random_paper: 20
 score:
   band: thin
-  composite: 29.6
+  composite: 28.9
   coverage:
     artifact_dirs: 13
     catalog_earned: 32.0
@@ -145,9 +147,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 15.8
-  previous_composite: 29.6
+  previous_composite: 28.9
   provenance:
     conformance: first-party
   regulatory:
@@ -156,14 +158,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 24.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/screenshots/electronx-2026-07-25T213109.png
+screenshot: https://apis.io/screenshots/electronx/electronx-2026-07-25T213109.png
 security:
 - kind: authentication
   name: Electronx Authentication

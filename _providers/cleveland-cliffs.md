@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Batch EDI trading-partner interface for outside processors at Burns Harbor, Cleveland, Indiana Harbor and Kote, compliant with ANSI ASC X12 version 4010 over SFTP or an IBM Sterling VAN. Cleveland-Cli
@@ -41,7 +43,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cleveland-cliffs/refs/heads/main/security/cleveland-cliffs-domain-security.yml
+  href: https://artifacts.apis.io/cleveland-cliffs/security/cleveland-cliffs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cleveland-cliffs-domain-security.yml
@@ -98,52 +100,52 @@ common:
   type: Compliance
   url: https://www.clevelandcliffs.com/doing-business/product-compliance
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cleveland-cliffs/refs/heads/main/well-known/cleveland-cliffs-well-known.yml
+  href: https://artifacts.apis.io/cleveland-cliffs/well-known/cleveland-cliffs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cleveland-cliffs-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cleveland-cliffs/refs/heads/main/well-known/cleveland-cliffs-security.txt
+  href: https://artifacts.apis.io/cleveland-cliffs/well-known/cleveland-cliffs-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cleveland-cliffs-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cleveland-cliffs/refs/heads/main/authentication/cleveland-cliffs-authentication.yml
+  href: https://artifacts.apis.io/cleveland-cliffs/authentication/cleveland-cliffs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cleveland-cliffs-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cleveland-cliffs/refs/heads/main/scopes/cleveland-cliffs-scopes.yml
+  href: https://artifacts.apis.io/cleveland-cliffs/scopes/cleveland-cliffs-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cleveland-cliffs-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cleveland-cliffs/refs/heads/main/conformance/cleveland-cliffs-conformance.yml
+  href: https://artifacts.apis.io/cleveland-cliffs/conformance/cleveland-cliffs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cleveland-cliffs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cleveland-cliffs/refs/heads/main/conventions/cleveland-cliffs-conventions.yml
+  href: https://artifacts.apis.io/cleveland-cliffs/conventions/cleveland-cliffs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cleveland-cliffs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cleveland-cliffs/refs/heads/main/lifecycle/cleveland-cliffs-lifecycle.yml
+  href: https://artifacts.apis.io/cleveland-cliffs/lifecycle/cleveland-cliffs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cleveland-cliffs-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cleveland-cliffs/refs/heads/main/plans/cleveland-cliffs-plans-pricing.yml
+  href: https://artifacts.apis.io/cleveland-cliffs/plans/cleveland-cliffs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cleveland-cliffs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cleveland-cliffs/refs/heads/main/rate-limits/cleveland-cliffs-rate-limits.yml
+  href: https://artifacts.apis.io/cleveland-cliffs/rate-limits/cleveland-cliffs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cleveland-cliffs-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cleveland-cliffs/refs/heads/main/security/cleveland-cliffs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cleveland-cliffs/security/cleveland-cliffs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cleveland-cliffs-vulnerability-disclosure.yml
@@ -152,7 +154,7 @@ common:
   type: Security
   url: https://www.clevelandcliffs.com/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cleveland-cliffs/refs/heads/main/llms/cleveland-cliffs-llms.txt
+  href: https://artifacts.apis.io/cleveland-cliffs/llms/cleveland-cliffs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cleveland-cliffs-llms.txt
@@ -172,7 +174,7 @@ plans:
 - name: Cleveland Cliffs Plans Pricing
   plan_count: 0
   slug: cleveland-cliffs-plans-pricing
-random_paper: 12
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Cleveland Cliffs Rate Limits
@@ -184,7 +186,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.2
+  composite: 29.9
   coverage:
     artifact_dirs: 15
     catalog_earned: 32.0
@@ -192,15 +194,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 58.0
-    operational_transparency: 5.3
-  previous_composite: 29.1
+    discoverability: 58.9
+    operational_transparency: 10.5
+  previous_composite: 29.9
   provenance:
     conformance: first-party
   regulatory:
@@ -209,14 +211,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cleveland-cliffs/refs/heads/main/screenshots/cleveland-cliffs-2026-06-20T174506.png
+screenshot: https://apis.io/screenshots/cleveland-cliffs/cleveland-cliffs-2026-06-20T174506.png
 security:
 - kind: authentication
   name: Cleveland Cliffs Authentication

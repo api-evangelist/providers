@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.0
-  scored_at: '2026-10-17'
+  score: 29.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -94,11 +96,8 @@ apis:
   description: Security reference data and classification
   name: Aladdin Studio Securities API
   slug: aladdin-studio-securities-api
-artifact_total: 108
+artifact_total: 107
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Aladdin Data Cloud Analytics API
   slug: open-aladdin-studio-analytics-api
@@ -130,18 +129,22 @@ collections:
   name: Aladdin Data Cloud Analytics Securities API
   slug: open-aladdin-studio-securities-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/aladdin-studio/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/plans/aladdin-studio-plans-pricing.yml
+  href: https://artifacts.apis.io/aladdin-studio/plans/aladdin-studio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aladdin-studio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/rate-limits/aladdin-studio-rate-limits.yml
+  href: https://artifacts.apis.io/aladdin-studio/rate-limits/aladdin-studio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aladdin-studio-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/finops/aladdin-studio-finops.yml
+  href: https://artifacts.apis.io/aladdin-studio/finops/aladdin-studio-finops.yml
   title: ''
   type: FinOps
   url: finops/aladdin-studio-finops.yml
@@ -150,22 +153,22 @@ common:
   type: Website
   url: https://www.blackrock.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/agentic-access/aladdin-studio-agentic-access.yml
+  href: https://artifacts.apis.io/aladdin-studio/agentic-access/aladdin-studio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/aladdin-studio-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/security/aladdin-studio-domain-security.yml
+  href: https://artifacts.apis.io/aladdin-studio/security/aladdin-studio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aladdin-studio-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/authentication/aladdin-studio-authentication.yml
+  href: https://artifacts.apis.io/aladdin-studio/authentication/aladdin-studio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aladdin-studio-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/scopes/aladdin-studio-scopes.yml
+  href: https://artifacts.apis.io/aladdin-studio/scopes/aladdin-studio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aladdin-studio-scopes.yml
@@ -198,17 +201,17 @@ common:
   type: SDKs
   url: https://github.com/blackrock/aladdinsdk-plugin-builder
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/rules/aladdin-studio-spectral-rules.yml
+  href: https://artifacts.apis.io/aladdin-studio/rules/aladdin-studio-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/aladdin-studio-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/vocabulary/aladdin-studio-vocabulary.yaml
+  href: https://artifacts.apis.io/aladdin-studio/vocabulary/aladdin-studio-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/aladdin-studio-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/json-ld/aladdin-studio-context.jsonld
+  href: https://artifacts.apis.io/aladdin-studio/json-ld/aladdin-studio-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/aladdin-studio-context.jsonld
@@ -438,12 +441,12 @@ overview: 'Aladdin Studio is listed with 10 APIs on the [APIs.io](https://apis.i
   The Aladdin Studio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Aladdin Studio''s developer surface includes authentication, developer portal, documentation, and 15 more developer resources.'
+  Aladdin Studio''s developer surface includes authentication, developer portal, documentation, and 16 more developer resources.'
 plans:
 - name: Aladdin Studio Plans Pricing
   plan_count: 1
   slug: aladdin-studio-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Aladdin Studio Rate Limits
@@ -479,7 +482,7 @@ scopes:
   summary_line: 7 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 32.6
+  composite: 33.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 73.0
@@ -487,15 +490,15 @@ score:
     catalog_gap: 42.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.3
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 31.3
-    developer_ergonomics: 54.8
+    developer_ergonomics: 56.0
     discoverability: 71.4
     operational_transparency: 10.5
-  previous_composite: 34.1
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -509,12 +512,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Aladdin Studio Authentication

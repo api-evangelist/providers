@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-10-17'
+  score: 28.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -134,62 +136,62 @@ apis:
 artifact_total: 61
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/agentic-access/docupanda-agentic-access.yml
+  href: https://artifacts.apis.io/docupanda/agentic-access/docupanda-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/docupanda-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/rules/docupanda-rules.yml
+  href: https://artifacts.apis.io/docupanda/rules/docupanda-rules.yml
   title: ''
   type: Spectral
   url: rules/docupanda-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/json-ld/docupanda-context.jsonld
+  href: https://artifacts.apis.io/docupanda/json-ld/docupanda-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/docupanda-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/vocabulary/docupanda-vocabulary.yml
+  href: https://artifacts.apis.io/docupanda/vocabulary/docupanda-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/docupanda-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/data-model/docupanda-data-model.yml
+  href: https://artifacts.apis.io/docupanda/data-model/docupanda-data-model.yml
   title: ''
   type: DataModel
   url: data-model/docupanda-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/errors/docupanda-problem-types.yml
+  href: https://artifacts.apis.io/docupanda/errors/docupanda-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/docupanda-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/conformance/docupanda-conformance.yml
+  href: https://artifacts.apis.io/docupanda/conformance/docupanda-conformance.yml
   title: ''
   type: Conformance
   url: conformance/docupanda-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/llms/docupanda-llms.txt
+  href: https://artifacts.apis.io/docupanda/llms/docupanda-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/docupanda-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/well-known/docupanda-well-known.yml
+  href: https://artifacts.apis.io/docupanda/well-known/docupanda-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/docupanda-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/hosts/docupanda-hosts.yml
+  href: https://artifacts.apis.io/docupanda/hosts/docupanda-hosts.yml
   title: ''
   type: Hosts
   url: hosts/docupanda-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/integrations/docupanda-integration-edges.yml
+  href: https://artifacts.apis.io/docupanda/integrations/docupanda-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/docupanda-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/vendors/docupanda-vendors.yml
+  href: https://artifacts.apis.io/docupanda/vendors/docupanda-vendors.yml
   title: ''
   type: Vendors
   url: vendors/docupanda-vendors.yml
@@ -202,7 +204,7 @@ common:
   type: ChangeLog
   url: https://www.docupipe.ai/changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/authentication/docupanda-authentication.yml
+  href: https://artifacts.apis.io/docupanda/authentication/docupanda-authentication.yml
   title: ''
   type: Authentication
   url: authentication/docupanda-authentication.yml
@@ -211,12 +213,12 @@ common:
   type: Website
   url: https://www.docupipe.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/security/docupanda-trust-center.yml
+  href: https://artifacts.apis.io/docupanda/security/docupanda-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/docupanda-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/security/docupanda-domain-security.yml
+  href: https://artifacts.apis.io/docupanda/security/docupanda-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/docupanda-domain-security.yml
@@ -372,7 +374,7 @@ overview: 'DocuPipe publishes 21 API contracts indexed on the [APIs.io](https://
 
 
   DocuPipe''s developer surface includes support, changelog, authentication, developer portal, documentation, API reference, getting-started guide, and 32 more developer resources.'
-random_paper: 19
+random_paper: 7
 rules:
 - authorship: generated
   effective_rule_count: 57
@@ -387,8 +389,8 @@ rules:
     warn: 1
   slug: docupanda-rules
 score:
-  band: developing
-  composite: 47.9
+  band: strong
+  composite: 54.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 62.8
@@ -396,15 +398,15 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 22.0
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 39.5
     contract_governance: 22.0
     contract_quality: 64.4
-    developer_ergonomics: 51.2
-    discoverability: 73.2
-    operational_transparency: 44.7
-  previous_composite: 25.9
+    developer_ergonomics: 71.4
+    discoverability: 66.1
+    operational_transparency: 47.4
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -420,13 +422,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/screenshots/docupanda-2026-06-20T180119.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/docupanda/docupanda-2026-06-20T180119.png
 security:
 - kind: authentication
   name: Docupanda Authentication

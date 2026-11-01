@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -97,9 +99,6 @@ asyncapis:
   slug: cyclr-cyclr-asyncapi
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Cyclr Accounts API
   slug: open-cyclr-accounts-api
 - collection_type: open
@@ -130,33 +129,37 @@ collections:
   name: Cyclr Accounts Templates API
   slug: open-cyclr-templates-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/cyclr/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/plans/cyclr-plans-pricing.yml
+  href: https://artifacts.apis.io/cyclr/plans/cyclr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cyclr-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/rate-limits/cyclr-rate-limits.yml
+  href: https://artifacts.apis.io/cyclr/rate-limits/cyclr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cyclr-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/finops/cyclr-finops.yml
+  href: https://artifacts.apis.io/cyclr/finops/cyclr-finops.yml
   title: ''
   type: FinOps
   url: finops/cyclr-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/agentic-access/cyclr-agentic-access.yml
+  href: https://artifacts.apis.io/cyclr/agentic-access/cyclr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cyclr-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/security/cyclr-domain-security.yml
+  href: https://artifacts.apis.io/cyclr/security/cyclr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cyclr-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/authentication/cyclr-authentication.yml
+  href: https://artifacts.apis.io/cyclr/authentication/cyclr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cyclr-authentication.yml
@@ -221,12 +224,12 @@ common:
   type: GetStarted
   url: https://cyclr.com/get-started
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/vocabulary/cyclr-vocabulary.yml
+  href: https://artifacts.apis.io/cyclr/vocabulary/cyclr-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cyclr-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/rules/cyclr-api-rules.yml
+  href: https://artifacts.apis.io/cyclr/rules/cyclr-api-rules.yml
   title: ''
   type: Rules
   url: rules/cyclr-api-rules.yml
@@ -237,13 +240,13 @@ common:
 created: '2025-06-06'
 description: Cyclr is an embedded iPaaS (integration platform as a service) used by SaaS vendors to deliver native integrations to their customers without each vendor building and maintaining one-off connectors. The platform provides a connector library covering hundreds of business applications (CRM, marketing, finance, support, ERP, e-commerce), drag-and-drop integration templates, embedded LAUNCH and Marketplace UIs, custom connector creation, fully managed authentication, and workflow orchestration. Cyclr exposes a public REST API at api.cyclr.com (with regional EU / AU / UK / US2 siblings) protected by OAuth 2.0 client credentials. Account-scoped calls require an X-Cyclr-Account header to identify the target Cyclr account.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Cyclr Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: cyclr-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cyclr.png
 json_schemas:
 - name: Cyclr Account
@@ -280,11 +283,14 @@ overview: 'Cyclr publishes 9 API contracts indexed on the [APIs.io](https://apis
   The Cyclr catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Cyclr''s developer surface includes authentication, pricing, engineering blog, changelog, and 20 more developer resources.'
+  Cyclr''s developer surface includes authentication, pricing, engineering blog, changelog, and 21 more developer resources.'
 plans:
 - name: Cyclr Plans Pricing
-  plan_count: 3
+  plan_count: 7
   slug: cyclr-plans-pricing
+- name: Cyclr Price Estimates
+  plan_count: 0
+  slug: cyclr-price-estimates
 random_paper: 13
 rate_limits:
 - limit_count: 5
@@ -328,43 +334,44 @@ rules:
   slug: cyclr-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.7
+  composite: 50.6
   coverage:
     artifact_dirs: 18
-    catalog_earned: 66.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_earned: 78.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.7
+  delta: 0.3
   facets:
-    access_clarity: 25.0
+    access_clarity: 63.2
     contract_governance: 27.3
-    contract_quality: 70.2
-    developer_ergonomics: 31.0
+    contract_quality: 59.9
+    developer_ergonomics: 35.2
     discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 49.4
+    operational_transparency: 39.5
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 10
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/screenshots/cyclr-2026-06-20T175412.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cyclr/cyclr-2026-06-20T175412.png
 security:
 - kind: authentication
   name: Cyclr Authentication

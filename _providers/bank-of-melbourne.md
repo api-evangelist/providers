@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,24 +70,24 @@ apis:
   description: CONSUMER-AUTHORIZED Consumer Data Right (CDR) Payees surface of the shared DSB Banking API implemented by Bank of Melbourne as an accredited CDR data holder. Access requires an Accredited Data Recipie
   name: Bank of Melbourne CDR Payees API
   slug: bank-of-melbourne-cdr-payees-api
-artifact_total: 10
+artifact_total: 11
 collections:
 - collection_type: open
   name: CDR Banking API
   slug: open-bank-of-melbourne-cds-banking-products
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/agentic-access/bank-of-melbourne-agentic-access.yml
+  href: https://artifacts.apis.io/bank-of-melbourne/agentic-access/bank-of-melbourne-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bank-of-melbourne-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/security/bank-of-melbourne-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bank-of-melbourne/security/bank-of-melbourne-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bank-of-melbourne-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/security/bank-of-melbourne-domain-security.yml
+  href: https://artifacts.apis.io/bank-of-melbourne/security/bank-of-melbourne-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bank-of-melbourne-domain-security.yml
@@ -110,57 +112,57 @@ common:
   type: Security
   url: https://www.bankofmelbourne.com.au/online-services/security-centre
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/authentication/bank-of-melbourne-authentication.yml
+  href: https://artifacts.apis.io/bank-of-melbourne/authentication/bank-of-melbourne-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bank-of-melbourne-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/conventions/bank-of-melbourne-conventions.yml
+  href: https://artifacts.apis.io/bank-of-melbourne/conventions/bank-of-melbourne-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bank-of-melbourne-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/errors/bank-of-melbourne-problem-types.yml
+  href: https://artifacts.apis.io/bank-of-melbourne/errors/bank-of-melbourne-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bank-of-melbourne-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/lifecycle/bank-of-melbourne-lifecycle.yml
+  href: https://artifacts.apis.io/bank-of-melbourne/lifecycle/bank-of-melbourne-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bank-of-melbourne-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/lifecycle/bank-of-melbourne-lifecycle.yml
+  href: https://artifacts.apis.io/bank-of-melbourne/lifecycle/bank-of-melbourne-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/bank-of-melbourne-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/conformance/bank-of-melbourne-conformance.yml
+  href: https://artifacts.apis.io/bank-of-melbourne/conformance/bank-of-melbourne-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bank-of-melbourne-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/data-model/bank-of-melbourne-data-model.yml
+  href: https://artifacts.apis.io/bank-of-melbourne/data-model/bank-of-melbourne-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bank-of-melbourne-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/overlays/bank-of-melbourne-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/bank-of-melbourne/overlays/bank-of-melbourne-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bank-of-melbourne-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/mcp/bank-of-melbourne-mcp.yml
+  href: https://artifacts.apis.io/bank-of-melbourne/mcp/bank-of-melbourne-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bank-of-melbourne-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/skills/bank-of-melbourne-browse-products.md
+  href: https://artifacts.apis.io/bank-of-melbourne/skills/bank-of-melbourne-browse-products.md
   title: ''
   type: AgentSkill
   url: skills/bank-of-melbourne-browse-products.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/llms/bank-of-melbourne-llms.txt
+  href: https://artifacts.apis.io/bank-of-melbourne/llms/bank-of-melbourne-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bank-of-melbourne-llms.txt
@@ -176,7 +178,7 @@ overview: 'Bank of Melbourne is listed with 5 APIs on the [APIs.io](https://apis
 
 
   Bank of Melbourne''s developer surface includes documentation, authentication, and 17 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: thin
   composite: 27.8
@@ -193,7 +195,7 @@ score:
     contract_governance: 4.5
     contract_quality: 24.0
     developer_ergonomics: 30.4
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -214,13 +216,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/screenshots/bank-of-melbourne-2026-07-21T114702.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bank-of-melbourne/bank-of-melbourne-2026-07-21T114702.png
 security:
 - kind: authentication
   name: Bank Of Melbourne Authentication
@@ -234,6 +237,10 @@ security:
   name: Bank Of Melbourne Vulnerability Disclosure
   slug: bank-of-melbourne-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 1
+skills:
+- name: Browse Bank of Melbourne banking products
+  slug: bank-of-melbourne-browse-products
 slug: bank-of-melbourne
 tags:
 - Finance

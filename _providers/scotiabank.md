@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.0
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -97,11 +99,8 @@ apis:
   description: The Wire Payments API from Scotiabank — 2 operation(s) for wire payments.
   name: Scotiabank Wire Payments API
   slug: scotiabank-wire-payments-api
-artifact_total: 51
+artifact_total: 50
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Scotiabank Scotia TranXact APIs Account Validation API
   slug: open-scotiabank-account-validation-api
@@ -128,17 +127,17 @@ collections:
   slug: open-scotiabank-wire-payments-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/plans/scotiabank-plans-pricing.yml
+  href: https://artifacts.apis.io/scotiabank/plans/scotiabank-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/scotiabank-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/rate-limits/scotiabank-rate-limits.yml
+  href: https://artifacts.apis.io/scotiabank/rate-limits/scotiabank-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/scotiabank-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/finops/scotiabank-finops.yml
+  href: https://artifacts.apis.io/scotiabank/finops/scotiabank-finops.yml
   title: ''
   type: FinOps
   url: finops/scotiabank-finops.yml
@@ -147,27 +146,27 @@ common:
   type: Website
   url: https://scotiabank.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/capabilities/scotiabank-capability-edges.yml
+  href: https://artifacts.apis.io/scotiabank/capabilities/scotiabank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/scotiabank-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/agentic-access/scotiabank-agentic-access.yml
+  href: https://artifacts.apis.io/scotiabank/agentic-access/scotiabank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/scotiabank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/security/scotiabank-domain-security.yml
+  href: https://artifacts.apis.io/scotiabank/security/scotiabank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/scotiabank-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/authentication/scotiabank-authentication.yml
+  href: https://artifacts.apis.io/scotiabank/authentication/scotiabank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/scotiabank-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/scopes/scotiabank-scopes.yml
+  href: https://artifacts.apis.io/scotiabank/scopes/scotiabank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/scotiabank-scopes.yml
@@ -271,7 +270,7 @@ plans:
 - name: Scotiabank Plans Pricing
   plan_count: 1
   slug: scotiabank-plans-pricing
-random_paper: 21
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Scotiabank Rate Limits
@@ -307,22 +306,22 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 34.7
+  composite: 36.9
   coverage:
     artifact_dirs: 19
-    catalog_earned: 53.9
+    catalog_earned: 58.4
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.1
+    catalog_gap: 56.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
-    contract_governance: 13.6
-    contract_quality: 63.9
+    contract_governance: 27.3
+    contract_quality: 61.9
     developer_ergonomics: 42.9
     discoverability: 57.1
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -330,7 +329,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 36.3
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
@@ -344,13 +343,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/screenshots/scotiabank-2026-06-20T193550.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/scotiabank/scotiabank-2026-06-20T193550.png
 security:
 - kind: authentication
   name: Scotiabank Authentication

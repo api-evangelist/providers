@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.1
-  scored_at: '2026-10-17'
+  score: 40.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -76,11 +78,8 @@ apis:
   description: Event webhook subscriptions.
   name: Transistor Webhooks API
   slug: transistor-webhooks-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Transistor Account API
   slug: open-transistor-account-api
@@ -116,32 +115,32 @@ common:
   type: Pricing
   url: https://transistor.fm/pricing/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/capabilities/transistor-capability-edges.yml
+  href: https://artifacts.apis.io/transistor/capabilities/transistor-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/transistor-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/agentic-access/transistor-agentic-access.yml
+  href: https://artifacts.apis.io/transistor/agentic-access/transistor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/transistor-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/security/transistor-trust-center.yml
+  href: https://artifacts.apis.io/transistor/security/transistor-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/transistor-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/security/transistor-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/transistor/security/transistor-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/transistor-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/security/transistor-domain-security.yml
+  href: https://artifacts.apis.io/transistor/security/transistor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/transistor-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/authentication/transistor-authentication.yml
+  href: https://artifacts.apis.io/transistor/authentication/transistor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/transistor-authentication.yml
@@ -158,17 +157,17 @@ common:
   type: Documentation
   url: https://developers.transistor.fm/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/plans/transistor-plans-pricing.yml
+  href: https://artifacts.apis.io/transistor/plans/transistor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/transistor-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/rate-limits/transistor-rate-limits.yml
+  href: https://artifacts.apis.io/transistor/rate-limits/transistor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/transistor-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/finops/transistor-finops.yml
+  href: https://artifacts.apis.io/transistor/finops/transistor-finops.yml
   title: ''
   type: FinOps
   url: finops/transistor-finops.yml
@@ -203,14 +202,14 @@ plans:
 - name: Transistor Price Estimates
   plan_count: 0
   slug: transistor-price-estimates
-random_paper: 13
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Transistor Rate Limits
   slug: transistor-rate-limits
 score:
-  band: thin
-  composite: 39.1
+  band: developing
+  composite: 41.0
   coverage:
     artifact_dirs: 15
     catalog_earned: 57.0
@@ -218,15 +217,15 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 53.8
-    developer_ergonomics: 28.6
-    discoverability: 68.3
-    operational_transparency: 21.1
-  previous_composite: 40.2
+    contract_quality: 51.2
+    developer_ergonomics: 32.1
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -241,13 +240,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/screenshots/transistor-2026-09-02T164127.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/transistor/transistor-2026-09-02T164127.png
 security:
 - kind: authentication
   name: Transistor Authentication

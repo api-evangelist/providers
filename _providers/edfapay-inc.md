@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://revamp-api.edfapay.com
@@ -73,15 +75,12 @@ apis:
   description: User Management APIs
   name: EdfaPay, Inc. User Management API
   slug: edfapay-inc-user-management-api
-artifact_total: 19
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Edfapay Inc Webhooks
   slug: edfapay-inc-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Edfapay Payment Gateway Branch Management API
   slug: open-edfapay-inc-branch-management-api
@@ -105,12 +104,12 @@ collections:
   slug: open-edfapay-inc-user-management-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/capabilities/edfapay-inc-capability-edges.yml
+  href: https://artifacts.apis.io/edfapay-inc/capabilities/edfapay-inc-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/edfapay-inc-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/overlays/edfapay-inc-revamp-overlay.yaml
+  href: https://artifacts.apis.io/edfapay-inc/overlays/edfapay-inc-revamp-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/edfapay-inc-revamp-overlay.yaml
@@ -167,92 +166,92 @@ common:
   type: Postman
   url: https://documenter.getpostman.com/view/21813149/2s9Y5SX6Xs
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/packages/edfapay-inc-packages.yml
+  href: https://artifacts.apis.io/edfapay-inc/packages/edfapay-inc-packages.yml
   title: ''
   type: SDKs
   url: packages/edfapay-inc-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/packages/edfapay-inc-packages.yml
+  href: https://artifacts.apis.io/edfapay-inc/packages/edfapay-inc-packages.yml
   title: ''
   type: Packages
   url: packages/edfapay-inc-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/llms/edfapay-inc-llms.txt
+  href: https://artifacts.apis.io/edfapay-inc/llms/edfapay-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/edfapay-inc-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/mcp/edfapay-inc-mcp.yml
+  href: https://artifacts.apis.io/edfapay-inc/mcp/edfapay-inc-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/edfapay-inc-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/authentication/edfapay-inc-authentication.yml
+  href: https://artifacts.apis.io/edfapay-inc/authentication/edfapay-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/edfapay-inc-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/conventions/edfapay-inc-conventions.yml
+  href: https://artifacts.apis.io/edfapay-inc/conventions/edfapay-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/edfapay-inc-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/conformance/edfapay-inc-conformance.yml
+  href: https://artifacts.apis.io/edfapay-inc/conformance/edfapay-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/edfapay-inc-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/conformance/edfapay-inc-conformance.yml
+  href: https://artifacts.apis.io/edfapay-inc/conformance/edfapay-inc-conformance.yml
   title: ''
   type: Compliance
   url: conformance/edfapay-inc-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/security/edfapay-inc-trust-center.yml
+  href: https://artifacts.apis.io/edfapay-inc/security/edfapay-inc-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/edfapay-inc-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/security/edfapay-inc-domain-security.yml
+  href: https://artifacts.apis.io/edfapay-inc/security/edfapay-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/edfapay-inc-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/lifecycle/edfapay-inc-lifecycle.yml
+  href: https://artifacts.apis.io/edfapay-inc/lifecycle/edfapay-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/edfapay-inc-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/sandbox/edfapay-inc-sandbox.yml
+  href: https://artifacts.apis.io/edfapay-inc/sandbox/edfapay-inc-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/edfapay-inc-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/components/edfapay-inc-components.yml
+  href: https://artifacts.apis.io/edfapay-inc/components/edfapay-inc-components.yml
   title: ''
   type: Components
   url: components/edfapay-inc-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/data-model/edfapay-inc-data-model.yml
+  href: https://artifacts.apis.io/edfapay-inc/data-model/edfapay-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/edfapay-inc-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/asyncapi/edfapay-inc-webhooks.yml
+  href: https://artifacts.apis.io/edfapay-inc/asyncapi/edfapay-inc-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/edfapay-inc-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/errors/edfapay-inc-problem-types.yml
+  href: https://artifacts.apis.io/edfapay-inc/errors/edfapay-inc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/edfapay-inc-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/errors/edfapay-inc-decline-codes.yml
+  href: https://artifacts.apis.io/edfapay-inc/errors/edfapay-inc-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/edfapay-inc-decline-codes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/edfapay-inc/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -271,12 +270,12 @@ overview: 'EdfaPay publishes 7 API contracts indexed on the [APIs.io](https://ap
 
 
   EdfaPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 11
+random_paper: 9
 score:
   band: developing
-  composite: 49.2
+  composite: 52.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -284,12 +283,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 58.6
-    developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 10.5
+    contract_quality: 55.3
+    developer_ergonomics: 78.0
+    discoverability: 66.1
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -298,7 +297,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 49.2
+  previous_composite: 52.9
   provenance:
     conformance: first-party
     contracts:
@@ -314,13 +313,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/screenshots/edfapay-inc-2026-07-25T212824.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/edfapay-inc/edfapay-inc-2026-07-25T212824.png
 security:
 - kind: authentication
   name: Edfapay Inc Authentication
@@ -334,6 +334,14 @@ security:
   name: Edfapay Inc Trust Center
   slug: edfapay-inc-trust-center
   summary_line: PCI DSS
+skill_count: 3
+skills:
+- name: Accept an EdfaPay payment
+  slug: edfapay-inc-accept-a-payment
+- name: Onboard an EdfaPay merchant
+  slug: edfapay-inc-onboard-merchant
+- name: Reconcile EdfaPay transactions
+  slug: edfapay-inc-reconcile-transactions
 slug: edfapay-inc
 tags:
 - Company

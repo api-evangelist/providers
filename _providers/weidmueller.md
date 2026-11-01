@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 5
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 53
   slug: weidmueller-agentic-access
   summary_line: 53 operations · 23 acting · 5 human-in-the-loop
-api_count: 4
+api_count: 2
 apis:
 - description: A fast asynchronous, event-based NATS API for providing and consuming variables within the u-OS Data Hub; not accessible to clients outside the device (AsyncAPI 2.6.0, 10 channels, NATS server at 127.
   name: Weidmüller u-OS Data Hub Variable-NATS API
@@ -111,114 +113,114 @@ apis:
   description: API for reading the OpenAPI specification
   name: Weidmüller Open API
   slug: weidmueller-open-api-api
-artifact_total: 31
+artifact_total: 36
 asyncapis:
 - description: This document describes all endpoints and payloads of the Variable-NATS-API in the u-OS Data Hub. The endpoints refer to NATS subjects and the payloads are encoded as FlatBuffers binary blobs. For thi
   name: u-os-hub-api
   slug: weidmueller-variable-nats-asyncapi
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/agentic-access/weidmueller-agentic-access.yml
+  href: https://artifacts.apis.io/weidmueller/agentic-access/weidmueller-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/weidmueller-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/rules/weidmueller-u-os-hub-api-spectral-rules.yml
+  href: https://artifacts.apis.io/weidmueller/rules/weidmueller-u-os-hub-api-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/weidmueller-u-os-hub-api-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/rules/weidmueller-rules.yml
+  href: https://artifacts.apis.io/weidmueller/rules/weidmueller-rules.yml
   title: ''
   type: Spectral
   url: rules/weidmueller-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/json-ld/weidmueller-context.jsonld
+  href: https://artifacts.apis.io/weidmueller/json-ld/weidmueller-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/weidmueller-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/vocabulary/weidmueller-vocabulary.yml
+  href: https://artifacts.apis.io/weidmueller/vocabulary/weidmueller-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/weidmueller-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/weidmueller/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/data-model/weidmueller-data-model.yml
+  href: https://artifacts.apis.io/weidmueller/data-model/weidmueller-data-model.yml
   title: ''
   type: DataModel
   url: data-model/weidmueller-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/changelog/weidmueller-changelog.yml
+  href: https://artifacts.apis.io/weidmueller/changelog/weidmueller-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/weidmueller-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/conventions/weidmueller-conventions.yml
+  href: https://artifacts.apis.io/weidmueller/conventions/weidmueller-conventions.yml
   title: ''
   type: Conventions
   url: conventions/weidmueller-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/lifecycle/weidmueller-lifecycle.yml
+  href: https://artifacts.apis.io/weidmueller/lifecycle/weidmueller-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/weidmueller-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/lifecycle/weidmueller-lifecycle.yml
+  href: https://artifacts.apis.io/weidmueller/lifecycle/weidmueller-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/weidmueller-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/errors/weidmueller-problem-types.yml
+  href: https://artifacts.apis.io/weidmueller/errors/weidmueller-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/weidmueller-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/conformance/weidmueller-conformance.yml
+  href: https://artifacts.apis.io/weidmueller/conformance/weidmueller-conformance.yml
   title: ''
   type: Conformance
   url: conformance/weidmueller-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/overlays/weidmueller-administration-overlay.yaml
+  href: https://artifacts.apis.io/weidmueller/overlays/weidmueller-administration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/weidmueller-administration-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/hosts/weidmueller-hosts.yml
+  href: https://artifacts.apis.io/weidmueller/hosts/weidmueller-hosts.yml
   title: ''
   type: Hosts
   url: hosts/weidmueller-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/vendors/weidmueller-vendors.yml
+  href: https://artifacts.apis.io/weidmueller/vendors/weidmueller-vendors.yml
   title: ''
   type: Vendors
   url: vendors/weidmueller-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/packages/weidmueller-packages.yml
+  href: https://artifacts.apis.io/weidmueller/packages/weidmueller-packages.yml
   title: ''
   type: SDKs
   url: packages/weidmueller-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/packages/weidmueller-packages.yml
+  href: https://artifacts.apis.io/weidmueller/packages/weidmueller-packages.yml
   title: ''
   type: Packages
   url: packages/weidmueller-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/scopes/weidmueller-scopes.yml
+  href: https://artifacts.apis.io/weidmueller/scopes/weidmueller-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/weidmueller-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/authentication/weidmueller-authentication.yml
+  href: https://artifacts.apis.io/weidmueller/authentication/weidmueller-authentication.yml
   title: ''
   type: Authentication
   url: authentication/weidmueller-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/security/weidmueller-domain-security.yml
+  href: https://artifacts.apis.io/weidmueller/security/weidmueller-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/weidmueller-domain-security.yml
@@ -294,7 +296,7 @@ plans:
 - name: Weidmueller Plans Pricing
   plan_count: 0
   slug: weidmueller-plans-pricing
-random_paper: 17
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Weidmueller Rate Limits
@@ -333,28 +335,28 @@ scopes:
   summary_line: 22 scopes · clientCredentials
 score:
   band: developing
-  composite: 44.2
+  composite: 44.4
   coverage:
     artifact_dirs: 29
-    catalog_earned: 64.3
+    catalog_earned: 61.3
     catalog_earned_first_party: 8.0
-    catalog_gap: 50.8
+    catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: -0.5
   facets:
     access_clarity: 10.5
     contract_governance: 46.2
     contract_quality: 64.1
     developer_ergonomics: 44.6
-    discoverability: 62.5
+    discoverability: 57.1
     operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - germany
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 43.1
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -371,13 +373,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/screenshots/weidmueller-2026-10-11T194640.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/weidmueller/weidmueller-2026-10-11T194640.png
 security:
 - kind: authentication
   name: Weidmueller Authentication
@@ -387,6 +390,18 @@ security:
   name: Weidmueller Domain Security
   slug: weidmueller-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 5
+skills:
+- name: change-firewall-configuration
+  slug: weidmueller-change-firewall-configuration
+- name: generate-a-log-report
+  slug: weidmueller-generate-a-log-report
+- name: inspect-device
+  slug: weidmueller-inspect-device
+- name: read-and-write-data-hub-variables
+  slug: weidmueller-read-and-write-data-hub-variables
+- name: update-network-configuration
+  slug: weidmueller-update-network-configuration
 slug: weidmueller
 tags:
 - Company

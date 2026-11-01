@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,9 +88,6 @@ arazzos:
 artifact_total: 20
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-move-bank-banking-account-balances-api
 - collection_type: open
@@ -115,42 +114,42 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/capabilities/move-bank-capability-edges.yml
+  href: https://artifacts.apis.io/move-bank/capabilities/move-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/move-bank-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/agentic-access/move-bank-agentic-access.yml
+  href: https://artifacts.apis.io/move-bank/agentic-access/move-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/move-bank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/security/move-bank-domain-security.yml
+  href: https://artifacts.apis.io/move-bank/security/move-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/move-bank-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/authentication/move-bank-authentication.yml
+  href: https://artifacts.apis.io/move-bank/authentication/move-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/move-bank-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/scopes/move-bank-scopes.yml
+  href: https://artifacts.apis.io/move-bank/scopes/move-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/move-bank-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/conventions/move-bank-conventions.yml
+  href: https://artifacts.apis.io/move-bank/conventions/move-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/move-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/errors/move-bank-problem-types.yml
+  href: https://artifacts.apis.io/move-bank/errors/move-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/move-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/conformance/move-bank-conformance.yml
+  href: https://artifacts.apis.io/move-bank/conformance/move-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/move-bank-conformance.yml
@@ -159,42 +158,42 @@ common:
   type: Compliance
   url: https://www.movebank.com.au/reusable-documents/important-documents/cdr-policy/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/lifecycle/move-bank-lifecycle.yml
+  href: https://artifacts.apis.io/move-bank/lifecycle/move-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/move-bank-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/lifecycle/move-bank-lifecycle.yml
+  href: https://artifacts.apis.io/move-bank/lifecycle/move-bank-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/move-bank-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/mcp/move-bank-mcp.yml
+  href: https://artifacts.apis.io/move-bank/mcp/move-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/move-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/llms/move-bank-llms.txt
+  href: https://artifacts.apis.io/move-bank/llms/move-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/move-bank-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/overlays/move-bank-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/move-bank/overlays/move-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/move-bank-cds-banking-products-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/data-model/move-bank-data-model.yml
+  href: https://artifacts.apis.io/move-bank/data-model/move-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/move-bank-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/skills/move-bank-discover-products.md
+  href: https://artifacts.apis.io/move-bank/skills/move-bank-discover-products.md
   title: ''
   type: AgentSkill
   url: skills/move-bank-discover-products.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/arazzo/move-bank-discover-products.yml
+  href: https://artifacts.apis.io/move-bank/arazzo/move-bank-discover-products.yml
   title: ''
   type: Arazzo
   url: arazzo/move-bank-discover-products.yml
@@ -246,7 +245,7 @@ overview: 'MOVE Bank publishes 7 API contracts indexed on the [APIs.io](https://
 
 
   MOVE Bank''s developer surface includes authentication, getting-started guide, API reference, documentation, engineering blog, and 22 more developer resources.'
-random_paper: 16
+random_paper: 8
 scopes:
 - name: Move Bank Scopes
   scope_count: 9
@@ -254,7 +253,7 @@ scopes:
   summary_line: 9 scopes
 score:
   band: thin
-  composite: 27.1
+  composite: 39.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -264,11 +263,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 28.9
     contract_governance: 4.5
     contract_quality: 44.7
-    developer_ergonomics: 30.4
-    discoverability: 73.2
+    developer_ergonomics: 54.2
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -277,7 +276,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 27.1
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -293,14 +292,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 31.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 41.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/screenshots/move-bank-2026-07-21T114734.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/move-bank/move-bank-2026-07-21T114734.png
 security:
 - kind: authentication
   name: Move Bank Authentication
@@ -310,6 +310,10 @@ security:
   name: Move Bank Domain Security
   slug: move-bank-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Discover MOVE Bank banking products
+  slug: move-bank-discover-products
 slug: move-bank
 tags:
 - Finance

@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,11 +80,8 @@ apis:
   description: Active vehicle locations and assignments
   name: Sound Transit Vehicles API
   slug: sound-transit-vehicles-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sound Transit OneBusAway Agencies API
   slug: open-sound-transit-agencies-api
@@ -109,27 +108,27 @@ collections:
   slug: open-sound-transit-vehicles-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/plans/sound-transit-plans-pricing.yml
+  href: https://artifacts.apis.io/sound-transit/plans/sound-transit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sound-transit-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/rate-limits/sound-transit-rate-limits.yml
+  href: https://artifacts.apis.io/sound-transit/rate-limits/sound-transit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sound-transit-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/finops/sound-transit-finops.yml
+  href: https://artifacts.apis.io/sound-transit/finops/sound-transit-finops.yml
   title: ''
   type: FinOps
   url: finops/sound-transit-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/agentic-access/sound-transit-agentic-access.yml
+  href: https://artifacts.apis.io/sound-transit/agentic-access/sound-transit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sound-transit-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/security/sound-transit-domain-security.yml
+  href: https://artifacts.apis.io/sound-transit/security/sound-transit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sound-transit-domain-security.yml
@@ -199,7 +198,7 @@ finops:
 - has_sources: false
   method: generated
   name: Sound Transit Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: sound-transit-finops
   template: true
@@ -236,7 +235,7 @@ plans:
 - name: Sound Transit Plans Pricing
   plan_count: 3
   slug: sound-transit-plans-pricing
-random_paper: 7
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Sound Transit Rate Limits
@@ -267,7 +266,7 @@ rules:
   slug: sound-transit-rules
 score:
   band: thin
-  composite: 32.8
+  composite: 33.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 58.5
@@ -275,15 +274,15 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 52.4
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 34.9
+    operational_transparency: 13.2
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -297,14 +296,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/screenshots/sound-transit-2026-06-20T194217.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sound-transit/sound-transit-2026-06-20T194217.png
 security:
 - kind: domain-security
   name: Sound Transit Domain Security

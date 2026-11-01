@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -102,11 +104,8 @@ apis:
   description: Webhook delivery log management
   name: ID Analyzer Webhook API
   slug: idanalyzer-webhook-api
-artifact_total: 38
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ID Analyzer Scanner Account API
   slug: open-idanalyzer-account-api
@@ -135,28 +134,32 @@ collections:
   name: ID Analyzer Scanner Account Webhook API
   slug: open-idanalyzer-webhook-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/id-analyzer/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/capabilities/idanalyzer-capability-edges.yml
+  href: https://artifacts.apis.io/idanalyzer/capabilities/idanalyzer-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/idanalyzer-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/agentic-access/idanalyzer-agentic-access.yml
+  href: https://artifacts.apis.io/idanalyzer/agentic-access/idanalyzer-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/idanalyzer-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/security/idanalyzer-trust-center.yml
+  href: https://artifacts.apis.io/idanalyzer/security/idanalyzer-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/idanalyzer-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/security/idanalyzer-domain-security.yml
+  href: https://artifacts.apis.io/idanalyzer/security/idanalyzer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/idanalyzer-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/authentication/idanalyzer-authentication.yml
+  href: https://artifacts.apis.io/idanalyzer/authentication/idanalyzer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/idanalyzer-authentication.yml
@@ -193,17 +196,17 @@ common:
   type: X
   url: https://x.com/idanalyzer
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/plans/idanalyzer-plans-pricing.yml
+  href: https://artifacts.apis.io/idanalyzer/plans/idanalyzer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/idanalyzer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/rate-limits/idanalyzer-rate-limits.yml
+  href: https://artifacts.apis.io/idanalyzer/rate-limits/idanalyzer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/idanalyzer-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/finops/idanalyzer-finops.yml
+  href: https://artifacts.apis.io/idanalyzer/finops/idanalyzer-finops.yml
   title: ''
   type: FinOps
   url: finops/idanalyzer-finops.yml
@@ -254,7 +257,7 @@ overview: 'ID Analyzer is listed with 13 APIs on the [APIs.io](https://apis.io/)
   The ID Analyzer catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ID Analyzer''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  ID Analyzer''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Idanalyzer Plans Pricing
   plan_count: 5
@@ -278,7 +281,7 @@ rules:
   slug: idanalyzer-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.9
+  composite: 37.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 57.3
@@ -286,15 +289,15 @@ score:
     catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.8
+  delta: 0.2
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
-    contract_quality: 60.2
-    developer_ergonomics: 23.8
+    contract_quality: 58.5
+    developer_ergonomics: 25.0
     discoverability: 71.4
     operational_transparency: 28.9
-  previous_composite: 45.7
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -308,13 +311,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 20.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/screenshots/idanalyzer-2026-06-20T183201.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/idanalyzer/idanalyzer-2026-06-20T183201.png
 security:
 - kind: authentication
   name: Idanalyzer Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Brief's versioned REST API for creative automation — list and search designs, templates and brand templates, read a template's editable elements and size variants, submit exports with element chan
@@ -43,14 +45,14 @@ apis:
 - description: A single POST GraphQL endpoint exposing the same data core as the REST API with arbitrary field selection — 48 queries and 49 mutations across designs, templates, brand kits, projects, folders, export
   name: The Brief Public GraphQL API
   slug: the-brief-public-graphql-api
-artifact_total: 8
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Thebrief Webhooks
   slug: thebrief-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/security/thebrief-trust-center.yml
+  href: https://artifacts.apis.io/thebrief/security/thebrief-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/thebrief-trust-center.yml
@@ -59,7 +61,7 @@ common:
   type: Compliance
   url: https://www.thebrief.ai/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/security/thebrief-domain-security.yml
+  href: https://artifacts.apis.io/thebrief/security/thebrief-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thebrief-domain-security.yml
@@ -76,7 +78,7 @@ common:
   type: Pricing
   url: https://www.thebrief.ai/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/plans/thebrief-plans-pricing.yml
+  href: https://artifacts.apis.io/thebrief/plans/thebrief-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/thebrief-plans-pricing.yml
@@ -109,12 +111,12 @@ common:
   type: SignUp
   url: https://app.thebrief.ai/auth/create-account
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/llms/thebrief-llms.txt
+  href: https://artifacts.apis.io/thebrief/llms/thebrief-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thebrief-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/llms/thebrief-docs-llms.txt
+  href: https://artifacts.apis.io/thebrief/llms/thebrief-docs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thebrief-docs-llms.txt
@@ -135,68 +137,76 @@ common:
   type: Postman
   url: https://www.postman.com/thebrieftechnical/the-brief-api/collection/1lfct1g/graphql-api
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/graphql/thebrief-public.graphql
+  href: https://artifacts.apis.io/thebrief/graphql/thebrief-public.graphql
   title: ''
   type: GraphQL
   url: graphql/thebrief-public.graphql
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/authentication/thebrief-authentication.yml
+  href: https://artifacts.apis.io/thebrief/authentication/thebrief-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thebrief-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/conventions/thebrief-conventions.yml
+  href: https://artifacts.apis.io/thebrief/conventions/thebrief-conventions.yml
   title: ''
   type: Conventions
   url: conventions/thebrief-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/errors/thebrief-error-codes.yml
+  href: https://artifacts.apis.io/thebrief/errors/thebrief-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/thebrief-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/rate-limits/thebrief-rate-limits.yml
+  href: https://artifacts.apis.io/thebrief/rate-limits/thebrief-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/thebrief-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/asyncapi/thebrief-webhooks.yml
+  href: https://artifacts.apis.io/thebrief/asyncapi/thebrief-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/thebrief-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/data-model/thebrief-data-model.yml
+  href: https://artifacts.apis.io/thebrief/data-model/thebrief-data-model.yml
   title: ''
   type: DataModel
   url: data-model/thebrief-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/lifecycle/thebrief-lifecycle.yml
+  href: https://artifacts.apis.io/thebrief/lifecycle/thebrief-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/thebrief-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/lifecycle/thebrief-lifecycle.yml
+  href: https://artifacts.apis.io/thebrief/lifecycle/thebrief-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/thebrief-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/conformance/thebrief-conformance.yml
+  href: https://artifacts.apis.io/thebrief/conformance/thebrief-conformance.yml
   title: ''
   type: Conformance
   url: conformance/thebrief-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/components/thebrief-components.yml
+  href: https://artifacts.apis.io/thebrief/components/thebrief-components.yml
   title: ''
   type: Components
   url: components/thebrief-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/thebrief/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: The Brief (formerly Creatopy) is an AI-powered advertising creation platform that helps brands and agencies discover, create, launch, and optimize ads at scale. Its Ad Studio, AI agents (Discover, Create, Optimize), and native ad server generate on-brand creatives, resize a single design into 50+ ad formats, publish directly to networks like Meta, Google Ads, CM360, DV360 and Veeva, and optimize campaign performance with data-backed recommendations. Founded in 2021 and based in Romania, The Brief is a portfolio company of Point Nine. It ships a documented Public API on two co-equal surfaces — a REST API at https://api.thebrief.ai/v1 and a single GraphQL endpoint at https://graphql.thebrief.ai/public whose 186-type schema is readable by anonymous introspection — covering designs and templates, brand kits, projects and folders, exports and creatives, ad serving and ad-tag reporting, team users and roles, credits, and team webhooks. Authentication is a JWT bearer token minted from
   a clientId/clientSecret pair; the same signed token powers the App Integration flow that embeds the Ad Studio editor inside a customer's own product. No OpenAPI is published.
+finops:
+- has_sources: true
+  method: derived
+  name: Thebrief Finops
+  primary_unit: seat
+  service_category: ''
+  slug: thebrief-finops
+  template: false
 image: https://cdn.sanity.io/images/8wzdrx7x/production/d9d93597b665708876d106aed92e87d0addafc41-760x175.svg
 layout: provider
 modified: '2026-08-12'
@@ -212,32 +222,35 @@ overview: 'TheBrief is listed with 2 APIs on the [APIs.io](https://apis.io/) net
   TheBrief''s developer surface includes engineering blog, pricing, support, getting-started guide, signup flow, documentation, API reference, and 25 more developer resources.'
 plans:
 - name: Thebrief Plans Pricing
-  plan_count: 4
+  plan_count: 5
   slug: thebrief-plans-pricing
-random_paper: 5
+- name: Thebrief Price Estimates
+  plan_count: 0
+  slug: thebrief-price-estimates
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Thebrief Rate Limits
   slug: thebrief-rate-limits
 score:
   band: strong
-  composite: 56.9
+  composite: 59.9
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 57.0
+    artifact_dirs: 20
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 51.0
-    developer_ergonomics: 61.3
-    discoverability: 73.2
-    operational_transparency: 39.5
-  previous_composite: 56.9
+    developer_ergonomics: 63.7
+    discoverability: 66.1
+    operational_transparency: 42.1
+  previous_composite: 58.4
   provenance:
     conformance: derived
     skills: derived
@@ -247,14 +260,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/screenshots/thebrief-2026-08-17T082340.png
+screenshot: https://apis.io/screenshots/thebrief/thebrief-2026-08-17T082340.png
 security:
 - kind: authentication
   name: Thebrief Authentication
@@ -268,6 +281,16 @@ security:
   name: Thebrief Trust Center
   slug: thebrief-trust-center
   summary_line: ISO 27001, GDPR
+skill_count: 4
+skills:
+- name: Embed The Brief editor in your own product
+  slug: thebrief-embed-editor-session
+- name: Generate ad variations from a The Brief template
+  slug: thebrief-generate-ad-variations
+- name: Serve a design as an ad tag and read its delivery report
+  slug: thebrief-serve-and-report-ad-tags
+- name: Subscribe to The Brief team webhooks
+  slug: thebrief-subscribe-to-webhooks
 slug: thebrief
 tags:
 - Company

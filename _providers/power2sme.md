@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 18.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.power2sme.com/api/ws/v4
@@ -124,9 +126,6 @@ apis:
 artifact_total: 37
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: POWER2SME Bank Master API
   slug: open-power2sme-bank-master-api
 - collection_type: open
@@ -179,7 +178,7 @@ collections:
   slug: open-power2sme-true-caller-controller-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/power2sme/refs/heads/main/overlays/power2sme-openapi-overlay.yaml
+  href: https://artifacts.apis.io/power2sme/overlays/power2sme-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/power2sme-openapi-overlay.yaml
@@ -204,27 +203,27 @@ common:
   type: PrivacyPolicy
   url: https://www.power2sme.com/privacypolicy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/power2sme/refs/heads/main/authentication/power2sme-authentication.yml
+  href: https://artifacts.apis.io/power2sme/authentication/power2sme-authentication.yml
   title: ''
   type: Authentication
   url: authentication/power2sme-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/power2sme/refs/heads/main/security/power2sme-domain-security.yml
+  href: https://artifacts.apis.io/power2sme/security/power2sme-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/power2sme-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/power2sme/refs/heads/main/mcp/power2sme-mcp.yml
+  href: https://artifacts.apis.io/power2sme/mcp/power2sme-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/power2sme-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/power2sme/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/power2sme/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/power2sme/refs/heads/main/llms/power2sme-llms.txt
+  href: https://artifacts.apis.io/power2sme/llms/power2sme-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/power2sme-llms.txt
@@ -240,10 +239,10 @@ overview: 'Power2SME publishes 17 API contracts indexed on the [APIs.io](https:/
 
 
   Power2SME''s developer surface includes documentation, API reference, authentication, and 8 more developer resources.'
-random_paper: 8
+random_paper: 20
 score:
-  band: emerging
-  composite: 23.2
+  band: thin
+  composite: 28.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -251,13 +250,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 41.1
     developer_ergonomics: 30.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -266,7 +265,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 23.1
+  previous_composite: 28.6
   provenance:
     conformance: derived
     contracts:
@@ -281,14 +280,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/power2sme/refs/heads/main/screenshots/power2sme-2026-09-02T151843.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/power2sme/power2sme-2026-09-02T151843.png
 security:
 - kind: authentication
   name: Power2Sme Authentication
@@ -298,6 +298,10 @@ security:
   name: Power2Sme Domain Security
   slug: power2sme-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: power2sme-otp-onboarding
+  slug: power2sme-otp-onboarding
 slug: power2sme
 tags:
 - Company

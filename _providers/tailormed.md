@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: REST API for exchanging patient, prescription, encounter and assistance-program application data between a health system, clinic or pharmacy and the TailorMed platform. Part of TailorMed's DTA (Data T
@@ -52,14 +54,14 @@ apis:
 - description: OpenID Connect / OAuth 2.0 authorization server for the TailorMed platform, served from TailorMed's own domain (an Okta org authorization server on the custom domain auth.tailormed.com, issuer https:/
   name: TailorMed Platform Identity
   slug: tailormed-platform-identity
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Tailormed Webhooks
   slug: tailormed-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/security/tailormed-domain-security.yml
+  href: https://artifacts.apis.io/tailormed/security/tailormed-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tailormed-domain-security.yml
@@ -100,72 +102,80 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/tailormed---medical-journey-innovations/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/well-known/tailormed-well-known.yml
+  href: https://artifacts.apis.io/tailormed/well-known/tailormed-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tailormed-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/authentication/tailormed-authentication.yml
+  href: https://artifacts.apis.io/tailormed/authentication/tailormed-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tailormed-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/scopes/tailormed-scopes.yml
+  href: https://artifacts.apis.io/tailormed/scopes/tailormed-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tailormed-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/conformance/tailormed-conformance.yml
+  href: https://artifacts.apis.io/tailormed/conformance/tailormed-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tailormed-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/conformance/tailormed-conformance.yml
+  href: https://artifacts.apis.io/tailormed/conformance/tailormed-conformance.yml
   title: ''
   type: Compliance
   url: conformance/tailormed-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/lifecycle/tailormed-lifecycle.yml
+  href: https://artifacts.apis.io/tailormed/lifecycle/tailormed-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tailormed-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/changelog/tailormed-changelog.yml
+  href: https://artifacts.apis.io/tailormed/changelog/tailormed-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tailormed-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/conventions/tailormed-conventions.yml
+  href: https://artifacts.apis.io/tailormed/conventions/tailormed-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tailormed-conventions.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/plans/tailormed-plans-pricing.yml
+  href: https://artifacts.apis.io/tailormed/plans/tailormed-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tailormed-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/rate-limits/tailormed-rate-limits.yml
+  href: https://artifacts.apis.io/tailormed/rate-limits/tailormed-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tailormed-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/asyncapi/tailormed-webhooks.yml
+  href: https://artifacts.apis.io/tailormed/asyncapi/tailormed-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tailormed-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/packages/tailormed-packages.yml
+  href: https://artifacts.apis.io/tailormed/packages/tailormed-packages.yml
   title: ''
   type: Packages
   url: packages/tailormed-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/llms/tailormed-llms.txt
+  href: https://artifacts.apis.io/tailormed/llms/tailormed-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tailormed-llms.txt
 created: '2026-08-29'
 description: TailorMed is a medication success platform that removes access, affordability and adherence barriers across the patient medication journey. Its software connects patients, health systems, clinics, pharmacies and life sciences companies to financial assistance, copay, foundation and free-drug programs, and keeps patient, prescription and program data in sync with the record of care via HL7/FHIR, a REST API, or SFTP file exchange. The product line spans TailorMed Core, Connect, Complete, Amplify and Alliance. TailorMed runs a versioned integration program — an Application Data API, a Claims Data API, a webhook guide and an HL7/FHIR data exchange — documented on a customer-only Implementation Hub; no machine-readable contract is published publicly.
+finops:
+- has_sources: true
+  method: derived
+  name: Tailormed Finops
+  primary_unit: ''
+  service_category: ''
+  slug: tailormed-finops
+  template: true
 image: https://cdn.prod.website-files.com/698cbb7585b4223e82472527/69e8fb0b9cc55b51bd526799_TailorMed-Share.png
 layout: provider
 modified: '2026-08-29'
@@ -183,7 +193,7 @@ plans:
 - name: Tailormed Plans Pricing
   plan_count: 0
   slug: tailormed-plans-pricing
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Tailormed Rate Limits
@@ -195,9 +205,9 @@ scopes:
   summary_line: 8 scopes
 score:
   band: developing
-  composite: 41.8
+  composite: 43.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -205,13 +215,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 40.5
     discoverability: 62.5
     operational_transparency: 23.7
-  previous_composite: 41.8
+  previous_composite: 43.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -227,14 +237,14 @@ score:
     regime: Health
     regime_id: health
     score: 47.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/screenshots/tailormed-2026-09-02T162452.png
+screenshot: https://apis.io/screenshots/tailormed/tailormed-2026-09-02T162452.png
 security:
 - kind: authentication
   name: Tailormed Authentication

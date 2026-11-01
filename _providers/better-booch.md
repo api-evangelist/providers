@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 4.5
-  scored_at: '2026-10-17'
+  score: 7.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL API for Better Booch e‑commerce store
@@ -32,22 +34,22 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/better-booch/refs/heads/main/llms/better-booch-llms.txt
+  href: https://artifacts.apis.io/better-booch/llms/better-booch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/better-booch-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/better-booch/refs/heads/main/well-known/better-booch-well-known.yml
+  href: https://artifacts.apis.io/better-booch/well-known/better-booch-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/better-booch-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/better-booch/refs/heads/main/hosts/better-booch-hosts.yml
+  href: https://artifacts.apis.io/better-booch/hosts/better-booch-hosts.yml
   title: ''
   type: Hosts
   url: hosts/better-booch-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/better-booch/refs/heads/main/vendors/better-booch-vendors.yml
+  href: https://artifacts.apis.io/better-booch/vendors/better-booch-vendors.yml
   title: ''
   type: Vendors
   url: vendors/better-booch-vendors.yml
@@ -64,7 +66,7 @@ common:
   type: Newsroom
   url: https://betterbooch.com/pages/press
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/better-booch/refs/heads/main/security/better-booch-domain-security.yml
+  href: https://artifacts.apis.io/better-booch/security/better-booch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/better-booch-domain-security.yml
@@ -81,10 +83,10 @@ name: Better Booch
 nav: Providers
 network: true
 overview: Better Booch is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverages, Kombucha, Health, and Organic.
-random_paper: 4
+random_paper: 14
 score:
-  band: emerging
-  composite: 11.5
+  band: minimal
+  composite: 10.8
   coverage:
     artifact_dirs: 8
     catalog_earned: 37.0
@@ -98,14 +100,14 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 75.0
+    discoverability: 67.9
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 11.5
+  previous_composite: 10.8
   provenance:
     mcp: unknown
   regulatory:
@@ -114,14 +116,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/better-booch/refs/heads/main/screenshots/better-booch-2026-10-11T102007.png
+screenshot: https://apis.io/screenshots/better-booch/better-booch-2026-10-11T102007.png
 security:
 - kind: domain-security
   name: Better Booch Domain Security

@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-17'
+  score: 23.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,11 +83,8 @@ apis:
   description: Obtain a list of entry identifiers and associated names
   name: Kyoto Encyclopedia of Genes and Genomes (KEGG) List API
   slug: kegg-list-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: KEGG REST conv API
   slug: open-kegg-conv-api
@@ -109,17 +108,17 @@ collections:
   slug: open-kegg-list-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/plans/kegg-rest-api.yml
+  href: https://artifacts.apis.io/kegg/plans/kegg-rest-api.yml
   title: ''
   type: Plans
   url: plans/kegg-rest-api.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/rate-limits/kegg-rest-api.yml
+  href: https://artifacts.apis.io/kegg/rate-limits/kegg-rest-api.yml
   title: ''
   type: RateLimits
   url: rate-limits/kegg-rest-api.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/finops/overview.yml
+  href: https://artifacts.apis.io/kegg/finops/overview.yml
   title: ''
   type: FinOps
   url: finops/overview.yml
@@ -128,12 +127,12 @@ common:
   type: Website
   url: https://kegg.jp
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/agentic-access/kegg-agentic-access.yml
+  href: https://artifacts.apis.io/kegg/agentic-access/kegg-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kegg-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/security/kegg-domain-security.yml
+  href: https://artifacts.apis.io/kegg/security/kegg-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kegg-domain-security.yml
@@ -158,7 +157,7 @@ plans:
 - name: Kegg Rest Api
   plan_count: 4
   slug: kegg-rest-api
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Kegg Rest Api
@@ -173,7 +172,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
@@ -181,7 +180,7 @@ score:
     developer_ergonomics: 9.5
     discoverability: 73.2
     operational_transparency: 5.3
-  previous_composite: 32.4
+  previous_composite: 25.0
   provenance:
     agentic_access: derived
     contracts:
@@ -195,14 +194,14 @@ score:
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/screenshots/kegg-2026-06-20T183941.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kegg/kegg-2026-06-20T183941.png
 security:
 - kind: domain-security
   name: Kegg Domain Security

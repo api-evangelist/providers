@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.6
-  scored_at: '2026-10-17'
+  score: 44.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -113,7 +115,7 @@ arazzos:
 - description: Write a dataset's properties aspect into the metadata graph, then read the entity back to confirm the write landed.
   name: DataHub Upsert Dataset and Verify
   slug: datahub-upsert-dataset-workflow
-artifact_total: 54
+artifact_total: 53
 asyncapis:
 - description: Event-driven interface for responding to real-time changes in the DataHub metadata graph. The Actions Framework consumes Metadata Change Log events and Platform Events from Kafka topics, enabling seam
   name: DataHub Actions Framework Events
@@ -122,9 +124,6 @@ collections:
 - collection_type: postman
   name: DataHub OpenAPI
   slug: postman-datahub-openapi
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: DataHub Open Batch API
   slug: open-datahub-batch-api
@@ -145,22 +144,22 @@ collections:
   slug: open-datahub-timeline-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/plans/datahub-plans-pricing.yml
+  href: https://artifacts.apis.io/datahub/plans/datahub-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/datahub-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/rate-limits/datahub-rate-limits.yml
+  href: https://artifacts.apis.io/datahub/rate-limits/datahub-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/datahub-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/finops/datahub-finops.yml
+  href: https://artifacts.apis.io/datahub/finops/datahub-finops.yml
   title: ''
   type: FinOps
   url: finops/datahub-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/capabilities/datahub-capability-edges.yml
+  href: https://artifacts.apis.io/datahub/capabilities/datahub-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/datahub-capability-edges.yml
@@ -185,17 +184,17 @@ common:
   type: License
   url: https://github.com/datahub-project/datahub/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/agentic-access/datahub-agentic-access.yml
+  href: https://artifacts.apis.io/datahub/agentic-access/datahub-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/datahub-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/security/datahub-domain-security.yml
+  href: https://artifacts.apis.io/datahub/security/datahub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datahub-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/authentication/datahub-authentication.yml
+  href: https://artifacts.apis.io/datahub/authentication/datahub-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datahub-authentication.yml
@@ -204,37 +203,37 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/datahub/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/arazzo/datahub-add-glossary-terms-workflow.yml
+  href: https://artifacts.apis.io/datahub/arazzo/datahub-add-glossary-terms-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datahub-add-glossary-terms-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/arazzo/datahub-assign-ownership-workflow.yml
+  href: https://artifacts.apis.io/datahub/arazzo/datahub-assign-ownership-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datahub-assign-ownership-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/arazzo/datahub-decommission-dataset-workflow.yml
+  href: https://artifacts.apis.io/datahub/arazzo/datahub-decommission-dataset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datahub-decommission-dataset-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/arazzo/datahub-emit-and-audit-workflow.yml
+  href: https://artifacts.apis.io/datahub/arazzo/datahub-emit-and-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datahub-emit-and-audit-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/arazzo/datahub-tag-dataset-workflow.yml
+  href: https://artifacts.apis.io/datahub/arazzo/datahub-tag-dataset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datahub-tag-dataset-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/arazzo/datahub-trace-lineage-workflow.yml
+  href: https://artifacts.apis.io/datahub/arazzo/datahub-trace-lineage-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datahub-trace-lineage-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/arazzo/datahub-upsert-dataset-workflow.yml
+  href: https://artifacts.apis.io/datahub/arazzo/datahub-upsert-dataset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/datahub-upsert-dataset-workflow.yml
@@ -303,17 +302,17 @@ common:
   type: Security
   url: https://docs.datahub.com/docs/security_stance
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/json-ld/datahub-context.jsonld
+  href: https://artifacts.apis.io/datahub/json-ld/datahub-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/datahub-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/vocabulary/datahub-vocabulary.yml
+  href: https://artifacts.apis.io/datahub/vocabulary/datahub-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/datahub-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/rules/datahub-rules.yml
+  href: https://artifacts.apis.io/datahub/rules/datahub-rules.yml
   title: ''
   type: Rules
   url: rules/datahub-rules.yml
@@ -404,7 +403,7 @@ plans:
 - name: Datahub Plans Pricing
   plan_count: 2
   slug: datahub-plans-pricing
-random_paper: 3
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Datahub Rate Limits
@@ -446,8 +445,8 @@ rules:
     warn: 4
   slug: datahub-rules
 score:
-  band: strong
-  composite: 55.6
+  band: developing
+  composite: 49.8
   coverage:
     artifact_dirs: 25
     catalog_earned: 55.4
@@ -455,18 +454,15 @@ score:
     catalog_gap: 59.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 27.3
     contract_quality: 61.8
-    developer_ergonomics: 66.7
-    discoverability: 60.0
+    developer_ergonomics: 72.6
+    discoverability: 57.1
     operational_transparency: 52.6
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 56.9
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     contracts:
@@ -481,13 +477,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/screenshots/datahub-2026-06-20T175643.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/datahub/datahub-2026-06-20T175643.png
 security:
 - kind: authentication
   name: Datahub Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: APEX is Neros Technologies' open, MIT-licensed plug-and-play protocol for connecting drone platforms (hosts) and payloads (devices) over a standard 10-pin connector. The core protocol is class-agnosti
@@ -71,62 +73,62 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/neros_stock/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/packages/neros-packages.yml
+  href: https://artifacts.apis.io/neros/packages/neros-packages.yml
   title: ''
   type: Packages
   url: packages/neros-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/packages/neros-packages.yml
+  href: https://artifacts.apis.io/neros/packages/neros-packages.yml
   title: ''
   type: SDKs
   url: packages/neros-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/conventions/neros-conventions.yml
+  href: https://artifacts.apis.io/neros/conventions/neros-conventions.yml
   title: ''
   type: Conventions
   url: conventions/neros-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/errors/neros-apex-status-codes.yml
+  href: https://artifacts.apis.io/neros/errors/neros-apex-status-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/neros-apex-status-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/lifecycle/neros-lifecycle.yml
+  href: https://artifacts.apis.io/neros/lifecycle/neros-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/neros-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/changelog/neros-changelog.yml
+  href: https://artifacts.apis.io/neros/changelog/neros-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/neros-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/data-model/neros-data-model.yml
+  href: https://artifacts.apis.io/neros/data-model/neros-data-model.yml
   title: ''
   type: DataModel
   url: data-model/neros-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/conformance/neros-conformance.yml
+  href: https://artifacts.apis.io/neros/conformance/neros-conformance.yml
   title: ''
   type: Conformance
   url: conformance/neros-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/conformance/neros-conformance.yml
+  href: https://artifacts.apis.io/neros/conformance/neros-conformance.yml
   title: ''
   type: Compliance
   url: conformance/neros-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/sandbox/neros-sandbox.yml
+  href: https://artifacts.apis.io/neros/sandbox/neros-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/neros-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/llms/neros-llms.txt
+  href: https://artifacts.apis.io/neros/llms/neros-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/neros-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/security/neros-domain-security.yml
+  href: https://artifacts.apis.io/neros/security/neros-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/neros-domain-security.yml
@@ -142,12 +144,12 @@ overview: 'Neros is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Neros'' developer surface includes engineering blog, support, changelog, sandbox, and 15 more developer resources.'
-random_paper: 1
+random_paper: 23
 score:
   band: emerging
-  composite: 19.6
+  composite: 19.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -159,8 +161,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 64.3
-    operational_transparency: 18.4
+    discoverability: 57.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -168,7 +170,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 19.6
+  previous_composite: 19.3
   provenance:
     conformance: first-party
   regulatory:
@@ -177,14 +179,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/screenshots/neros-2026-08-07T184905.png
+screenshot: https://apis.io/screenshots/neros/neros-2026-08-07T184905.png
 security:
 - kind: domain-security
   name: Neros Domain Security

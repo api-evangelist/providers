@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The CoreView Public API provides programmatic access to Microsoft 365 governance operations — delegated administration, operators, platform reporting, license pools, and customer/tenant management — v
@@ -86,12 +88,12 @@ common:
   type: StatusPage
   url: https://status.coreview.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/authentication/coreview-fka-4ward365-authentication.yml
+  href: https://artifacts.apis.io/coreview-fka-4ward365/authentication/coreview-fka-4ward365-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coreview-fka-4ward365-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/scopes/coreview-fka-4ward365-scopes.yml
+  href: https://artifacts.apis.io/coreview-fka-4ward365/scopes/coreview-fka-4ward365-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/coreview-fka-4ward365-scopes.yml
@@ -100,47 +102,47 @@ common:
   type: OpenIDConnect
   url: https://identity.coreview.com/.well-known/openid-configuration
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/well-known/coreview-fka-4ward365-well-known.yml
+  href: https://artifacts.apis.io/coreview-fka-4ward365/well-known/coreview-fka-4ward365-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/coreview-fka-4ward365-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/conventions/coreview-fka-4ward365-conventions.yml
+  href: https://artifacts.apis.io/coreview-fka-4ward365/conventions/coreview-fka-4ward365-conventions.yml
   title: ''
   type: Conventions
   url: conventions/coreview-fka-4ward365-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/conformance/coreview-fka-4ward365-conformance.yml
+  href: https://artifacts.apis.io/coreview-fka-4ward365/conformance/coreview-fka-4ward365-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coreview-fka-4ward365-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/security/coreview-fka-4ward365-trust-center.yml
+  href: https://artifacts.apis.io/coreview-fka-4ward365/security/coreview-fka-4ward365-trust-center.yml
   title: ''
   type: Compliance
   url: security/coreview-fka-4ward365-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/security/coreview-fka-4ward365-trust-center.yml
+  href: https://artifacts.apis.io/coreview-fka-4ward365/security/coreview-fka-4ward365-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/coreview-fka-4ward365-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/security/coreview-fka-4ward365-domain-security.yml
+  href: https://artifacts.apis.io/coreview-fka-4ward365/security/coreview-fka-4ward365-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coreview-fka-4ward365-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/lifecycle/coreview-fka-4ward365-lifecycle.yml
+  href: https://artifacts.apis.io/coreview-fka-4ward365/lifecycle/coreview-fka-4ward365-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coreview-fka-4ward365-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/mcp/coreview-fka-4ward365-mcp.yml
+  href: https://artifacts.apis.io/coreview-fka-4ward365/mcp/coreview-fka-4ward365-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/coreview-fka-4ward365-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/llms/coreview-fka-4ward365-llms.txt
+  href: https://artifacts.apis.io/coreview-fka-4ward365/llms/coreview-fka-4ward365-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coreview-fka-4ward365-llms.txt
@@ -156,7 +158,7 @@ overview: 'CoreView (FKA 4ward365) is listed with 1 API on the [APIs.io](https:/
 
 
   CoreView (FKA 4ward365)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 16 more developer resources.'
-random_paper: 12
+random_paper: 8
 scopes:
 - name: Coreview Fka 4Ward365 Scopes
   scope_count: 14
@@ -164,7 +166,7 @@ scopes:
   summary_line: 14 scopes · clientCredentials
 score:
   band: thin
-  composite: 36.1
+  composite: 35.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -172,15 +174,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 36.0
+  previous_composite: 35.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -196,14 +198,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/screenshots/coreview-fka-4ward365-2026-07-25T210431.png
+screenshot: https://apis.io/screenshots/coreview-fka-4ward365/coreview-fka-4ward365-2026-07-25T210431.png
 security:
 - kind: authentication
   name: Coreview Fka 4Ward365 Authentication

@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: true
     agentic_commerce: false
@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 43.7
-  scored_at: '2026-10-17'
+  score: 44.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 30
   slug: linktree-agentic-access
   summary_line: 30 operations
-api_count: 2
+api_count: 3
 apis:
 - description: OAuth 2.0-protected Model Context Protocol server, speaking streamable-http, that lets agents manage Linktree profiles, links, collections, appearance, social icon links, workspaces, and analytics. Th
   name: Linktree MCP
@@ -50,8 +52,41 @@ apis:
 - description: Arbor is Linktree's design system, published as a public HTTP component registry. Anonymous, unauthenticated GETs return a versioned JSON manifest of 51 React components (/manifest.json, registry vers
   name: Linktree Arbor Registry
   slug: linktree-arbor-registry
-artifact_total: 11
+- description: 'Developer documentation at docs.linktr.ee for building custom LinkApps, the embeddable apps that appear on Linktree profiles, using the @linktr.ee/linkapp CLI (create, add, dev, build, deploy, login, '
+  name: Linktree LinkApps SDK
+  slug: linktree-linkapps-sdk
+artifact_total: 18
 common:
+- group: operate
+  href: https://artifacts.apis.io/linktree/changelog/linktree-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/linktree-changelog.yml
+- group: agent
+  href: https://artifacts.apis.io/linktree/llms/linktree-docs-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/linktree-docs-llms.txt
+- group: other
+  href: https://artifacts.apis.io/linktree/a2a/linktree-a2a.yml
+  title: ''
+  type: AgentCard
+  url: a2a/linktree-a2a.yml
+- group: other
+  href: https://artifacts.apis.io/linktree/hosts/linktree-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/linktree-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/linktree/integrations/linktree-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/linktree-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/linktree/vendors/linktree-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/linktree-vendors.yml
 - group: company
   title: ''
   type: Website
@@ -69,47 +104,47 @@ common:
   type: APIReference
   url: https://mcp.linktr.ee/docs
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/mcp/linktree-mcp.yml
+  href: https://artifacts.apis.io/linktree/mcp/linktree-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/linktree-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/linktree/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/agentic-access/linktree-agentic-access.yml
+  href: https://artifacts.apis.io/linktree/agentic-access/linktree-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/linktree-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/authentication/linktree-authentication.yml
+  href: https://artifacts.apis.io/linktree/authentication/linktree-authentication.yml
   title: ''
   type: Authentication
   url: authentication/linktree-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/scopes/linktree-scopes.yml
+  href: https://artifacts.apis.io/linktree/scopes/linktree-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/linktree-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/errors/linktree-error-codes.yml
+  href: https://artifacts.apis.io/linktree/errors/linktree-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/linktree-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/conventions/linktree-conventions.yml
+  href: https://artifacts.apis.io/linktree/conventions/linktree-conventions.yml
   title: ''
   type: Conventions
   url: conventions/linktree-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/conformance/linktree-conformance.yml
+  href: https://artifacts.apis.io/linktree/conformance/linktree-conformance.yml
   title: ''
   type: Conformance
   url: conformance/linktree-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/well-known/linktree-well-known.yml
+  href: https://artifacts.apis.io/linktree/well-known/linktree-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/linktree-well-known.yml
@@ -118,32 +153,32 @@ common:
   type: APICatalog
   url: https://linktr.ee/.well-known/api-catalog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/llms/linktree-llms.txt
+  href: https://artifacts.apis.io/linktree/llms/linktree-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/linktree-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/packages/linktree-packages.yml
+  href: https://artifacts.apis.io/linktree/packages/linktree-packages.yml
   title: ''
   type: Packages
   url: packages/linktree-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/cli/linktree-cli.yml
+  href: https://artifacts.apis.io/linktree/cli/linktree-cli.yml
   title: ''
   type: CLI
   url: cli/linktree-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/components/linktree-components.yml
+  href: https://artifacts.apis.io/linktree/components/linktree-components.yml
   title: ''
   type: Components
   url: components/linktree-components.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/plans/linktree-plans-pricing.yml
+  href: https://artifacts.apis.io/linktree/plans/linktree-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/linktree-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/rate-limits/linktree-rate-limits.yml
+  href: https://artifacts.apis.io/linktree/rate-limits/linktree-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/linktree-rate-limits.yml
@@ -152,7 +187,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/blstrco
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/lifecycle/linktree-lifecycle.yml
+  href: https://artifacts.apis.io/linktree/lifecycle/linktree-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/linktree-lifecycle.yml
@@ -163,38 +198,50 @@ common:
 - group: operate
   title: ''
   type: ChangeLog
+  url: https://linktr.ee/whats-new
+- group: operate
+  title: ''
+  type: ChangeLog
   url: https://app.getbeamer.com/linktree/en
 - group: auth
   title: ''
   type: Security
   url: https://bugcrowd.com/engagements/linktree-mbb-og
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/security/linktree-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/linktree/security/linktree-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/linktree-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/security/linktree-trust-center.yml
+  href: https://artifacts.apis.io/linktree/security/linktree-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/linktree-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/security/linktree-domain-security.yml
+  href: https://artifacts.apis.io/linktree/security/linktree-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/linktree-domain-security.yml
 - group: start
   title: ''
   type: GettingStarted
-  url: https://help.linktr.ee/en/collections/3020860-getting-started-with-linktree
+  url: https://linktr.ee/help/en/collections/3020860-getting-started-with-linktree
 - group: operate
   title: ''
   type: Support
-  url: https://linktr.ee/help
+  url: https://linktr.ee/help/en
 - group: operate
   title: ''
   type: HelpCenter
-  url: https://help.linktr.ee/
+  url: https://linktr.ee/help/en
+- group: build
+  title: ''
+  type: SDKs
+  url: https://docs.linktr.ee/
+- group: docs
+  title: ''
+  type: Guides
+  url: https://linktr.ee/guides
 - group: company
   title: ''
   type: Blog
@@ -202,7 +249,7 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://linktr.ee/s/pricing/
+  url: https://linktr.ee/s/pricing
 - group: start
   title: ''
   type: SignUp
@@ -214,11 +261,11 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://linktr.ee/s/terms/
+  url: https://linktr.ee/s/terms
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://linktr.ee/s/privacy/
+  url: https://linktr.ee/s/privacy
 - group: other
   title: ''
   type: Marketplace
@@ -226,37 +273,49 @@ common:
 - group: company
   title: ''
   type: About
-  url: https://linktr.ee/s/about/
+  url: https://linktr.ee/about
 - group: operate
   title: ''
   type: Contact
-  url: https://linktr.ee/s/contact/
+  url: https://linktr.ee/about/contact
 - group: company
   title: ''
-  type: Press
-  url: https://linktr.ee/s/about/press/
+  type: Newsroom
+  url: https://linktr.ee/newsroom
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://linktr.ee/trust
 created: '2026-07-17'
-description: Linktree is the link-in-bio platform used by 70M+ creators, brands, and businesses to share everything they create, curate, and sell from a single URL. Operated by Linktree Pty Ltd from Collingwood, Victoria, Australia, the product builds a mobile-friendly landing page that aggregates social profiles, content, products, and services behind one link, with paid Starter, Pro, and Premium plans adding customization, analytics, commerce, scheduling, and AI features. Linktree publishes no general-purpose public REST API — its developer program is an expression-of-interest waitlist for forthcoming APIs and SDKs. It does, however, run a live, fully documented OAuth 2.0-protected Model Context Protocol server at mcp.linktr.ee exposing 30 tools for managing profiles, links, collections, appearance, social icons, workspaces, and analytics, discoverable from an RFC 9727 api-catalog on the apex domain. Alongside it Linktree operates Arbor, a public unauthenticated component registry at arbor.linktr.ee
-  serving a versioned JSON manifest of 51 React components plus a health endpoint and an llms.txt, and it ships first-party developer tooling on npm under the @linktr.ee scope — the LinkApps scaffold/build/deploy CLIs and a stdio Arbor MCP server.
+description: Linktree is the link-in-bio platform used by 70M+ creators, brands, and businesses to share everything they create, curate, and sell from a single URL. Operated by Linktree Pty Ltd from Collingwood, Victoria, Australia, the product builds a mobile-friendly landing page that aggregates social profiles, content, products, and services behind one link, with paid Starter, Pro, and Premium plans adding customization, analytics, commerce, scheduling, and AI features. Linktree publishes no general-purpose public REST API — its developer program is an expression-of-interest waitlist for forthcoming APIs and SDKs. It documents a LinkApp SDK for building custom LinkApps at docs.linktr.ee, and it does, however, run a live, fully documented OAuth 2.0-protected Model Context Protocol server at mcp.linktr.ee exposing 30 tools for managing profiles, links, collections, appearance, social icons, workspaces, and analytics, discoverable from an RFC 9727 api-catalog on the apex domain. Alongside
+  it Linktree operates Arbor, a public unauthenticated component registry at arbor.linktr.ee serving a versioned JSON manifest of 51 React components plus a health endpoint and an llms.txt, and it ships first-party developer tooling on npm under the @linktr.ee scope — the LinkApps scaffold/build/deploy CLIs and a stdio Arbor MCP server.
+finops:
+- has_sources: true
+  method: derived
+  name: Linktree Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: linktree-finops
+  template: false
 image: https://linktr.ee/_marketing/og/linktree-default.jpg
 layout: provider
 mcp_servers:
 - description: Manage Linktree profiles, links, appearance, and analytics via the Model Context Protocol.
   name: Linktree MCP
   slug: linktree-mcp
-modified: '2026-08-13'
+modified: '2026-10-20'
 name: Linktree
 nav: Providers
 network: true
-overview: 'Linktree is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Link in Bio, Creator Economy, and Social Media.
+overview: 'Linktree is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Link in Bio, Creator Economy, and Social Media.
 
 
-  Linktree''s developer surface includes documentation, API reference, authentication, CLI, changelog, getting-started guide, support, and 34 more developer resources.'
+  Linktree''s developer surface includes changelog, documentation, API reference, authentication, CLI, getting-started guide, support, and 44 more developer resources.'
 plans:
 - name: Linktree Plans Pricing
   plan_count: 5
   slug: linktree-plans-pricing
-random_paper: 4
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Linktree Rate Limits
@@ -267,23 +326,23 @@ scopes:
   slug: linktree-scopes
   summary_line: 30 scopes · authorizationCode/clientCredentials/deviceCode
 score:
-  band: developing
-  composite: 50.1
+  band: strong
+  composite: 54.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
+    artifact_dirs: 27
+    catalog_earned: 50.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 66.1
-    discoverability: 85.8
-    operational_transparency: 36.8
+    developer_ergonomics: 73.2
+    discoverability: 73.3
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -291,7 +350,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 50.0
+  previous_composite: 53.2
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -303,14 +362,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/linktree/refs/heads/main/screenshots/linktree-2026-07-25T225257.png
+screenshot: https://apis.io/screenshots/linktree/linktree-2026-07-25T225257.png
 security:
 - kind: authentication
   name: Linktree Authentication
@@ -319,7 +378,7 @@ security:
 - kind: domain-security
   name: Linktree Domain Security
   slug: linktree-domain-security
-  summary_line: TLSv1.2 · DMARC
+  summary_line: TLSv1.2 · HSTS · DMARC
 - kind: vulnerability-disclosure
   name: Linktree Vulnerability Disclosure
   slug: linktree-vulnerability-disclosure
@@ -327,7 +386,19 @@ security:
 - kind: trust-center
   name: Linktree Trust Center
   slug: linktree-trust-center
-  summary_line: trust center published
+  summary_line: GDPR
+skill_count: 5
+skills:
+- name: linktree-audit-workspace
+  slug: linktree-audit-workspace
+- name: linktree-manage-profile-links
+  slug: linktree-manage-profile-links
+- name: linktree-reply-to-inbox-messages
+  slug: linktree-reply-to-inbox-messages
+- name: linktree-report-profile-analytics
+  slug: linktree-report-profile-analytics
+- name: linktree-update-profile-appearance
+  slug: linktree-update-profile-appearance
 slug: linktree
 tags:
 - Company
@@ -339,7 +410,6 @@ tags:
 - Analytics
 - MCP
 - Agents
-- Design Systems
 - Developer Tools
 - Australia
 website: https://linktr.ee/

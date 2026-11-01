@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 32.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: Operations for searching and autocompleting places.
   name: Google Places Search API
   slug: google-places-search-api
-artifact_total: 67
+artifact_total: 66
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google API (New) Places API
   slug: open-google-places-places-api
@@ -69,32 +68,36 @@ collections:
   name: Google Places API (New)
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-places/overview
 - group: company
   title: ''
   type: Website
   url: https://www.google.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/agentic-access/google-places-agentic-access.yml
+  href: https://artifacts.apis.io/google-places/agentic-access/google-places-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-places-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/security/google-places-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-places/security/google-places-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-places-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/security/google-places-domain-security.yml
+  href: https://artifacts.apis.io/google-places/security/google-places-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-places-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/authentication/google-places-authentication.yml
+  href: https://artifacts.apis.io/google-places/authentication/google-places-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-places-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/scopes/google-places-scopes.yml
+  href: https://artifacts.apis.io/google-places/scopes/google-places-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-places-scopes.yml
@@ -123,32 +126,32 @@ common:
   type: Pricing
   url: https://developers.google.com/maps/billing-and-pricing/pricing
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/rate-limits/google-places-rate-limits.yml
+  href: https://artifacts.apis.io/google-places/rate-limits/google-places-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-places-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/plans/google-places-plans-pricing.yml
+  href: https://artifacts.apis.io/google-places/plans/google-places-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-places-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/finops/google-places-finops.yml
+  href: https://artifacts.apis.io/google-places/finops/google-places-finops.yml
   title: ''
   type: FinOps
   url: finops/google-places-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/json-ld/context.jsonld
+  href: https://artifacts.apis.io/google-places/json-ld/context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/rules/google-places-spectral-rules.yml
+  href: https://artifacts.apis.io/google-places/rules/google-places-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/google-places-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/vocabulary/google-places-vocabulary.yml
+  href: https://artifacts.apis.io/google-places/vocabulary/google-places-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/google-places-vocabulary.yml
@@ -209,10 +212,10 @@ examples:
   slug: time-point-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Google Places Finops
-  primary_unit: ''
-  service_category: Maps + Location
+  primary_unit: 1000 events
+  service_category: ''
   slug: google-places-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-places.png
@@ -337,12 +340,12 @@ overview: 'Google Places publishes 2 API contracts indexed on the [APIs.io](http
   The Google Places catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Google Places'' developer surface includes authentication, tooling, getting-started guide, pricing, and 15 more developer resources.'
+  Google Places'' developer surface includes authentication, tooling, getting-started guide, pricing, and 16 more developer resources.'
 plans:
 - name: Google Places Plans Pricing
-  plan_count: 3
+  plan_count: 7
   slug: google-places-plans-pricing
-random_paper: 16
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Google Places Rate Limits
@@ -378,23 +381,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 43.4
+  composite: 52.4
   coverage:
     artifact_dirs: 18
-    catalog_earned: 67.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 47.6
+    catalog_earned: 79.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 35.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.8
   facets:
-    access_clarity: 18.4
+    access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 67.8
-    developer_ergonomics: 50.0
+    developer_ergonomics: 51.2
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 44.9
+    operational_transparency: 21.1
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -408,13 +411,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/screenshots/google-places-2026-06-20T182225.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-places/google-places-2026-06-20T182225.png
 security:
 - kind: authentication
   name: Google Places Authentication

@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,16 +38,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol endpoint served from the Create Wellness storefront, exposed over the Model Context Protocol. Thirteen tools cover catalog search and lookup, cart create/read/update/ca
   name: Create Wellness UCP Commerce MCP
   slug: create-wellness-ucp-commerce-mcp
-artifact_total: 7
+artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/security/create-wellness-domain-security.yml
+  href: https://artifacts.apis.io/create-wellness/security/create-wellness-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/create-wellness-domain-security.yml
@@ -58,57 +60,57 @@ common:
   type: Documentation
   url: https://trycreate.co/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/llms/create-wellness-llms.txt
+  href: https://artifacts.apis.io/create-wellness/llms/create-wellness-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/create-wellness-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/mcp/create-wellness-mcp.yml
+  href: https://artifacts.apis.io/create-wellness/mcp/create-wellness-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/create-wellness-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/well-known/create-wellness-well-known.yml
+  href: https://artifacts.apis.io/create-wellness/well-known/create-wellness-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/create-wellness-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/authentication/create-wellness-authentication.yml
+  href: https://artifacts.apis.io/create-wellness/authentication/create-wellness-authentication.yml
   title: ''
   type: Authentication
   url: authentication/create-wellness-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/scopes/create-wellness-scopes.yml
+  href: https://artifacts.apis.io/create-wellness/scopes/create-wellness-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/create-wellness-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/conventions/create-wellness-conventions.yml
+  href: https://artifacts.apis.io/create-wellness/conventions/create-wellness-conventions.yml
   title: ''
   type: Conventions
   url: conventions/create-wellness-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/conventions/create-wellness-conventions.yml
+  href: https://artifacts.apis.io/create-wellness/conventions/create-wellness-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/create-wellness-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/rate-limits/create-wellness-rate-limits.yml
+  href: https://artifacts.apis.io/create-wellness/rate-limits/create-wellness-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/create-wellness-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/plans/create-wellness-plans-pricing.yml
+  href: https://artifacts.apis.io/create-wellness/plans/create-wellness-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/create-wellness-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/conformance/create-wellness-conformance.yml
+  href: https://artifacts.apis.io/create-wellness/conformance/create-wellness-conformance.yml
   title: ''
   type: Conformance
   url: conformance/create-wellness-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/create-wellness/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -152,7 +154,7 @@ plans:
 - name: Create Wellness Plans Pricing
   plan_count: 0
   slug: create-wellness-plans-pricing
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Create Wellness Rate Limits
@@ -164,7 +166,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 23.6
+  composite: 24.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -172,15 +174,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.0
-    discoverability: 71.7
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 23.5
+  previous_composite: 24.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -191,14 +193,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/create-wellness/refs/heads/main/screenshots/create-wellness-2026-09-02T145207.png
+screenshot: https://apis.io/screenshots/create-wellness/create-wellness-2026-09-02T145207.png
 security:
 - kind: authentication
   name: Create Wellness Authentication
@@ -208,6 +210,10 @@ security:
   name: Create Wellness Domain Security
   slug: create-wellness-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: create-wellness-agentic-purchase
+  slug: create-wellness-agentic-purchase
 slug: create-wellness
 tags:
 - Company

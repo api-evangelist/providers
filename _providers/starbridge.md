@@ -26,17 +26,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 62.9
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 56.7
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://dashboard.starbridge.ai
   baseurl_source: declared
@@ -63,15 +65,12 @@ apis:
   description: The Signal API from Starbridge — 2 operation(s) for signal.
   name: Starbridge Signal API
   slug: starbridge-signal-api
-artifact_total: 20
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Starbridge Webhooks
   slug: starbridge-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Starbridge External Public Bridges API
   slug: open-starbridge-bridges-api
@@ -92,87 +91,87 @@ collections:
   slug: open-starbridge-signal-api
 common:
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/openapi/_original/starbridge-openapi.json
+  href: https://artifacts.apis.io/starbridge/openapi/_original/starbridge-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/starbridge-openapi.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/mcp/starbridge-mcp.yml
+  href: https://artifacts.apis.io/starbridge/mcp/starbridge-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/starbridge-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/mcp/starbridge-tool-crosswalk.yml
+  href: https://artifacts.apis.io/starbridge/mcp/starbridge-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/starbridge-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/a2a/starbridge-a2a.yml
+  href: https://artifacts.apis.io/starbridge/a2a/starbridge-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/starbridge-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/starbridge/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/packages/starbridge-packages.yml
+  href: https://artifacts.apis.io/starbridge/packages/starbridge-packages.yml
   title: ''
   type: Packages
   url: packages/starbridge-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/scopes/starbridge-scopes.yml
+  href: https://artifacts.apis.io/starbridge/scopes/starbridge-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/starbridge-scopes.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/plans/starbridge-plans-pricing.yml
+  href: https://artifacts.apis.io/starbridge/plans/starbridge-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/starbridge-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/rate-limits/starbridge-rate-limits.yml
+  href: https://artifacts.apis.io/starbridge/rate-limits/starbridge-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/starbridge-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/security/starbridge-trust-center.yml
+  href: https://artifacts.apis.io/starbridge/security/starbridge-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/starbridge-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/security/starbridge-trust-center.yml
+  href: https://artifacts.apis.io/starbridge/security/starbridge-trust-center.yml
   title: ''
   type: Compliance
   url: security/starbridge-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/llms/starbridge-llms.txt
+  href: https://artifacts.apis.io/starbridge/llms/starbridge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/starbridge-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/asyncapi/starbridge-webhooks.yml
+  href: https://artifacts.apis.io/starbridge/asyncapi/starbridge-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/starbridge-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/authentication/starbridge-authentication.yml
+  href: https://artifacts.apis.io/starbridge/authentication/starbridge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/starbridge-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/conventions/starbridge-conventions.yml
+  href: https://artifacts.apis.io/starbridge/conventions/starbridge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/starbridge-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/conventions/starbridge-conventions.yml
+  href: https://artifacts.apis.io/starbridge/conventions/starbridge-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/starbridge-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/changelog/starbridge-changelog.yml
+  href: https://artifacts.apis.io/starbridge/changelog/starbridge-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/starbridge-changelog.yml
@@ -185,42 +184,42 @@ common:
   type: StatusPage
   url: https://starbridge.statuspage.io
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/lifecycle/starbridge-lifecycle.yml
+  href: https://artifacts.apis.io/starbridge/lifecycle/starbridge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/starbridge-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/lifecycle/starbridge-lifecycle.yml
+  href: https://artifacts.apis.io/starbridge/lifecycle/starbridge-lifecycle.yml
   title: ''
   type: StatusPage
   url: lifecycle/starbridge-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/errors/starbridge-problem-types.yml
+  href: https://artifacts.apis.io/starbridge/errors/starbridge-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/starbridge-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/data-model/starbridge-data-model.yml
+  href: https://artifacts.apis.io/starbridge/data-model/starbridge-data-model.yml
   title: ''
   type: DataModel
   url: data-model/starbridge-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/conformance/starbridge-conformance.yml
+  href: https://artifacts.apis.io/starbridge/conformance/starbridge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/starbridge-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/well-known/starbridge-well-known.yml
+  href: https://artifacts.apis.io/starbridge/well-known/starbridge-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/starbridge-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/security/starbridge-domain-security.yml
+  href: https://artifacts.apis.io/starbridge/security/starbridge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/starbridge-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/overlays/starbridge-openapi-overlay.yaml
+  href: https://artifacts.apis.io/starbridge/overlays/starbridge-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/starbridge-openapi-overlay.yaml
@@ -270,6 +269,14 @@ common:
   url: mailto:support@starbridge.ai
 created: '2026-07-17'
 description: Starbridge is an AI-powered go-to-market and sales-intelligence platform for vendors selling to the public sector and education — government agencies, K-12 school districts, and higher-education institutions. It surfaces early buying signals (RFPs, board meetings, purchases, conferences, contact and job changes), scores and enriches target accounts, and drafts personalized outbound and RFP responses. Starbridge exposes an external REST API (Bearer API keys), Ed25519-signed webhooks, and a hosted OAuth MCP server, plus published Agent Skills, so buyer intelligence can be pulled into CRMs (Salesforce, HubSpot), Slack, Zapier, and AI agents. Backed by Craft Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Starbridge Finops
+  primary_unit: ''
+  service_category: ''
+  slug: starbridge-finops
+  template: true
 image: https://cdn.prod.website-files.com/68a834f29776727eae1bc0f6/694fa319b9cd6a197c7be433_1_Starbridge%20Homepage%20OpenGraph.webp
 layout: provider
 mcp_servers:
@@ -305,7 +312,7 @@ score:
   band: developing
   composite: 53.4
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -317,8 +324,8 @@ score:
     contract_governance: 18.2
     contract_quality: 57.9
     developer_ergonomics: 54.8
-    discoverability: 75.0
-    operational_transparency: 42.1
+    discoverability: 65.0
+    operational_transparency: 44.7
   previous_composite: 53.4
   provenance:
     conformance: first-party
@@ -335,13 +342,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/screenshots/starbridge-2026-08-17T082105.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/starbridge/starbridge-2026-08-17T082105.png
 security:
 - kind: authentication
   name: Starbridge Authentication
@@ -355,6 +363,28 @@ security:
   name: Starbridge Trust Center
   slug: starbridge-trust-center
   summary_line: SOC 2 Type II
+skill_count: 10
+skills:
+- name: bridges
+  slug: starbridge-bridges
+- name: bulk-request-scoping
+  slug: starbridge-bulk-request-scoping
+- name: buyer-attributes
+  slug: starbridge-buyer-attributes
+- name: buyer-identification
+  slug: starbridge-buyer-identification
+- name: buyer-signals
+  slug: starbridge-buyer-signals
+- name: buyer-summary
+  slug: starbridge-buyer-summary
+- name: contact-search
+  slug: starbridge-contact-search
+- name: document-research
+  slug: starbridge-document-research
+- name: general-outbound-email
+  slug: starbridge-general-outbound-email
+- name: Starbridge
+  slug: starbridge-published-skill
 slug: starbridge
 tags:
 - Company

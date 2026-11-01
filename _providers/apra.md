@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,12 +37,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/security/apra-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apra/security/apra-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apra-vulnerability-disclosure.yml
@@ -49,27 +51,27 @@ common:
   type: Security
   url: https://www.apra.gov.au/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/security/apra-domain-security.yml
+  href: https://artifacts.apis.io/apra/security/apra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apra-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/well-known/apra-security.txt
+  href: https://artifacts.apis.io/apra/well-known/apra-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/apra-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/well-known/apra-well-known.yml
+  href: https://artifacts.apis.io/apra/well-known/apra-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apra-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/authentication/apra-authentication.yml
+  href: https://artifacts.apis.io/apra/authentication/apra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apra-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/conformance/apra-conformance.yml
+  href: https://artifacts.apis.io/apra/conformance/apra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apra-conformance.yml
@@ -78,7 +80,7 @@ common:
   type: Compliance
   url: https://www.apra.gov.au/apra-portals/apra-connect/apra-connect-information-security-and-technical-specifications
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/changelog/apra-changelog.yml
+  href: https://artifacts.apis.io/apra/changelog/apra-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/apra-changelog.yml
@@ -87,7 +89,7 @@ common:
   type: ChangeLog
   url: https://www.apra.gov.au/apra-portals/apra-connect/apra-connect-release-notes
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/lifecycle/apra-lifecycle.yml
+  href: https://artifacts.apis.io/apra/lifecycle/apra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apra-lifecycle.yml
@@ -96,17 +98,17 @@ common:
   type: Deprecation
   url: https://www.apra.gov.au/news-and-publications/direct-apra-security-update-and-accelerated-decommission
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/data-model/apra-reporting-taxonomy.yml
+  href: https://artifacts.apis.io/apra/data-model/apra-reporting-taxonomy.yml
   title: ''
   type: DataModel
   url: data-model/apra-reporting-taxonomy.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/sandbox/apra-sandbox.yml
+  href: https://artifacts.apis.io/apra/sandbox/apra-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/apra-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/llms/apra-llms.txt
+  href: https://artifacts.apis.io/apra/llms/apra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apra-llms.txt
@@ -235,7 +237,7 @@ overview: 'APRA is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   APRA''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, engineering blog, and 36 more developer resources.'
-random_paper: 2
+random_paper: 12
 score:
   band: thin
   composite: 30.9
@@ -251,8 +253,8 @@ score:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 53.6
-    discoverability: 55.4
+    developer_ergonomics: 57.1
+    discoverability: 48.2
     operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -270,14 +272,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 31.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/screenshots/apra-2026-07-25T200856.png
+screenshot: https://apis.io/screenshots/apra/apra-2026-07-25T200856.png
 security:
 - kind: authentication
   name: Apra Authentication

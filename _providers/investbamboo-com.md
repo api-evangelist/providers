@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-17'
+  score: 26.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 22
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 102
   slug: bamboo-agentic-access
   summary_line: 102 operations · 30 acting · 22 human-in-the-loop
-api_count: 23
+api_count: 22
 apis:
 - baseURL: https://api.investbamboo.com
   baseurl_source: declared
@@ -148,11 +150,8 @@ apis:
   description: 'Withdrawals allow users to extract funds from their brokerage accounts after successful trades. Understanding the settlement timeline is essential. #### Settlement Timeline - Stock sale proceeds settl'
   name: Bamboo Invest Withdrawals API
   slug: investbamboo-com-withdrawals-api
-artifact_total: 113
+artifact_total: 112
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bamboo Account Management API
   slug: open-bamboo-account-management-api
@@ -218,12 +217,12 @@ collections:
   slug: open-bamboo-withdrawals-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/agentic-access/bamboo-agentic-access.yml
+  href: https://artifacts.apis.io/investbamboo-com/agentic-access/bamboo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bamboo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/security/bamboo-domain-security.yml
+  href: https://artifacts.apis.io/investbamboo-com/security/bamboo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bamboo-domain-security.yml
@@ -260,17 +259,17 @@ common:
   type: X
   url: https://twitter.com/investbamboo
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/plans/bamboo-plans-pricing.yml
+  href: https://artifacts.apis.io/investbamboo-com/plans/bamboo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bamboo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/rate-limits/bamboo-rate-limits.yml
+  href: https://artifacts.apis.io/investbamboo-com/rate-limits/bamboo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bamboo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/finops/bamboo-finops.yml
+  href: https://artifacts.apis.io/investbamboo-com/finops/bamboo-finops.yml
   title: ''
   type: FinOps
   url: finops/bamboo-finops.yml
@@ -495,7 +494,7 @@ plans:
 - name: Bamboo Plans Pricing
   plan_count: 3
   slug: bamboo-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Bamboo Rate Limits
@@ -514,7 +513,7 @@ rules:
   slug: bamboo-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.5
+  composite: 28.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 46.3
@@ -522,7 +521,7 @@ score:
     catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
@@ -537,7 +536,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 33.8
+  previous_composite: 28.2
   provenance:
     agentic_access: derived
     contracts:
@@ -551,13 +550,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/investbamboo-com/refs/heads/main/screenshots/bamboo-2026-06-20T172931.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/investbamboo-com/bamboo-2026-06-20T172931.png
 security:
 - kind: domain-security
   name: Bamboo Domain Security

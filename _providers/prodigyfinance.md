@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/prodigyfinance/refs/heads/main/security/prodigyfinance-domain-security.yml
+  href: https://artifacts.apis.io/prodigyfinance/security/prodigyfinance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/prodigyfinance-domain-security.yml
@@ -85,12 +87,12 @@ overview: 'Prodigy Finance is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Prodigy Finance''s developer surface includes support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
   band: emerging
   composite: 13.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -119,14 +121,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/prodigyfinance/refs/heads/main/screenshots/prodigyfinance-2026-09-02T152114.png
+screenshot: https://apis.io/screenshots/prodigyfinance/prodigyfinance-2026-09-02T152114.png
 security:
 - kind: domain-security
   name: Prodigyfinance Domain Security

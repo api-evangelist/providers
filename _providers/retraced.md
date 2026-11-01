@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -130,11 +132,8 @@ apis:
   description: The Release Notes API from Retraced — 1 operation(s) for release notes.
   name: Retraced Release Notes API
   slug: retraced-release-notes-api
-artifact_total: 38
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Public API Reference Certificates API
   slug: open-retraced-certificates-api
@@ -188,7 +187,7 @@ collections:
   slug: open-retraced-release-notes-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/capabilities/retraced-capability-edges.yml
+  href: https://artifacts.apis.io/retraced/capabilities/retraced-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/retraced-capability-edges.yml
@@ -213,7 +212,7 @@ common:
   type: GettingStarted
   url: https://publicapi.retraced.com/api/v2/guides
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/openapi/_original/retraced-openapi-original.json
+  href: https://artifacts.apis.io/retraced/openapi/_original/retraced-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/retraced-openapi-original.json
@@ -234,72 +233,72 @@ common:
   type: Support
   url: https://www.retraced.com/pages/contact
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/authentication/retraced-authentication.yml
+  href: https://artifacts.apis.io/retraced/authentication/retraced-authentication.yml
   title: ''
   type: Authentication
   url: authentication/retraced-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/conventions/retraced-conventions.yml
+  href: https://artifacts.apis.io/retraced/conventions/retraced-conventions.yml
   title: ''
   type: Conventions
   url: conventions/retraced-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/errors/retraced-problem-types.yml
+  href: https://artifacts.apis.io/retraced/errors/retraced-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/retraced-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/lifecycle/retraced-lifecycle.yml
+  href: https://artifacts.apis.io/retraced/lifecycle/retraced-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/retraced-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/sandbox/retraced-sandbox.yml
+  href: https://artifacts.apis.io/retraced/sandbox/retraced-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/retraced-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/data-model/retraced-data-model.yml
+  href: https://artifacts.apis.io/retraced/data-model/retraced-data-model.yml
   title: ''
   type: DataModel
   url: data-model/retraced-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/conformance/retraced-conformance.yml
+  href: https://artifacts.apis.io/retraced/conformance/retraced-conformance.yml
   title: ''
   type: Conformance
   url: conformance/retraced-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/well-known/retraced-well-known.yml
+  href: https://artifacts.apis.io/retraced/well-known/retraced-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/retraced-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/mcp/retraced-mcp.yml
+  href: https://artifacts.apis.io/retraced/mcp/retraced-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/retraced-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/llms/retraced-llms.txt
+  href: https://artifacts.apis.io/retraced/llms/retraced-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/retraced-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/overlays/retraced-openapi-overlay.yaml
+  href: https://artifacts.apis.io/retraced/overlays/retraced-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/retraced-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/retraced/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/agentic-access/retraced-agentic-access.yml
+  href: https://artifacts.apis.io/retraced/agentic-access/retraced-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/retraced-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/security/retraced-domain-security.yml
+  href: https://artifacts.apis.io/retraced/security/retraced-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/retraced-domain-security.yml
@@ -315,10 +314,10 @@ overview: 'Retraced publishes 17 API contracts indexed on the [APIs.io](https://
 
 
   Retraced''s developer surface includes documentation, API reference, getting-started guide, changelog, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 6
+random_paper: 2
 score:
   band: thin
-  composite: 36.5
+  composite: 36.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -330,11 +329,11 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 35.8
+    contract_quality: 35.1
     developer_ergonomics: 63.7
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 36.5
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -351,13 +350,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/screenshots/retraced-2026-09-02T153631.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/retraced/retraced-2026-09-02T153631.png
 security:
 - kind: authentication
   name: Retraced Authentication
@@ -367,6 +367,14 @@ security:
   name: Retraced Domain Security
   slug: retraced-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Retrieve Digital Product Passport data (DPP / label provider)
+  slug: retraced-dpp-label-provider
+- name: Manage orders in Retraced Order Hub
+  slug: retraced-manage-orders
+- name: Manage products (styles) in Retraced
+  slug: retraced-manage-products
 slug: retraced
 tags:
 - Company

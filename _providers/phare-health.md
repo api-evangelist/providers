@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -61,12 +63,12 @@ common:
   type: Compliance
   url: https://phare.health/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phare-health/refs/heads/main/security/phare-health-trust-center.yml
+  href: https://artifacts.apis.io/phare-health/security/phare-health-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/phare-health-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/phare-health/refs/heads/main/security/phare-health-domain-security.yml
+  href: https://artifacts.apis.io/phare-health/security/phare-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/phare-health-domain-security.yml
@@ -79,12 +81,12 @@ name: Phare Health
 nav: Providers
 network: true
 overview: Phare Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Revenue Cycle Management, Medical Coding, and Clinical Documentation.
-random_paper: 15
+random_paper: 3
 score:
   band: minimal
   composite: 9.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -105,14 +107,14 @@ score:
     regime: Health
     regime_id: health
     score: 11.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/phare-health/refs/heads/main/screenshots/phare-health-2026-09-02T151131.png
+screenshot: https://apis.io/screenshots/phare-health/phare-health-2026-09-02T151131.png
 security:
 - kind: domain-security
   name: Phare Health Domain Security

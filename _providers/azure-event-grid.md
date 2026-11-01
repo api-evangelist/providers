@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -66,11 +68,8 @@ apis:
   description: Topics operations
   name: Azure Event Grid Topics API
   slug: microsoft-azure-event-grid-topics-api
-artifact_total: 14
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Event Grid Publisher Namespace Topics API
   slug: open-azure-event-grid-namespace-topics-api
@@ -81,6 +80,11 @@ collections:
   name: Azure Event Grid Publisher API
   slug: open-azure-event-grid
 common:
+- group: commercial
+  href: https://artifacts.apis.io/azure-event-grid/plans/azure-event-grid-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/azure-event-grid-plans-pricing.yml
 - group: build
   title: ''
   type: GitHubOrganization
@@ -102,27 +106,27 @@ common:
   type: Support
   url: https://support.microsoft.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/agentic-access/azure-event-grid-agentic-access.yml
+  href: https://artifacts.apis.io/azure-event-grid/agentic-access/azure-event-grid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/azure-event-grid-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/security/azure-event-grid-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/azure-event-grid/security/azure-event-grid-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/azure-event-grid-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/security/azure-event-grid-domain-security.yml
+  href: https://artifacts.apis.io/azure-event-grid/security/azure-event-grid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/azure-event-grid-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/authentication/azure-event-grid-authentication.yml
+  href: https://artifacts.apis.io/azure-event-grid/authentication/azure-event-grid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/azure-event-grid-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/scopes/azure-event-grid-scopes.yml
+  href: https://artifacts.apis.io/azure-event-grid/scopes/azure-event-grid-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/azure-event-grid-scopes.yml
@@ -148,6 +152,14 @@ common:
   url: https://azure.microsoft.com/llms.txt
 created: '2026-05-11'
 description: Azure Event Grid is a fully managed event routing service from Microsoft Azure that enables event-driven, reactive programming by ingesting events from Azure services, SaaS providers, and custom sources and delivering them to subscribers such as Azure Functions, Logic Apps, webhooks, and event hubs. It supports both Event Grid topics and the MQTT/CloudEvents-based Event Grid namespaces for IoT and pub-sub workloads. The Event Grid REST APIs and Azure SDKs use Microsoft Entra ID OAuth 2.0 bearer tokens or shared-access keys for authentication.
+finops:
+- has_sources: true
+  method: derived
+  name: Azure Event Grid Finops
+  primary_unit: ''
+  service_category: ''
+  slug: azure-event-grid-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/azure-event-grid.png
 layout: provider
 modified: '2026-05-11'
@@ -157,8 +169,12 @@ network: true
 overview: 'Azure Event Grid publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Namespace Topics API, Publish API, Operations API, and 2 more. Tagged areas include Eventing, Event-Driven, Pub/Sub, Messaging, and Webhook.
 
 
-  Azure Event Grid''s developer surface includes developer portal, support, authentication, documentation, pricing, signup flow, and 9 more developer resources.'
-random_paper: 3
+  Azure Event Grid''s developer surface includes developer portal, support, authentication, documentation, pricing, signup flow, and 10 more developer resources.'
+plans:
+- name: Azure Event Grid Plans Pricing
+  plan_count: 2
+  slug: azure-event-grid-plans-pricing
+random_paper: 1
 scopes:
 - name: Azure Event Grid Scopes
   scope_count: 1
@@ -166,23 +182,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 40.4
+  composite: 44.8
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 11
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 44.7
+    access_clarity: 65.8
     contract_governance: 0.0
     contract_quality: 45.6
     developer_ergonomics: 35.7
     discoverability: 80.4
-    operational_transparency: 2.6
-  previous_composite: 40.3
+    operational_transparency: 15.8
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -196,13 +212,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/screenshots/azure-event-grid-2026-06-20T172903.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/azure-event-grid/azure-event-grid-2026-06-20T172903.png
 security:
 - kind: authentication
   name: Azure Event Grid Authentication

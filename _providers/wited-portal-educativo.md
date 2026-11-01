@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,22 +71,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/Wited
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wited-portal-educativo/refs/heads/main/llms/wited-portal-educativo-llms.txt
+  href: https://artifacts.apis.io/wited-portal-educativo/llms/wited-portal-educativo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wited-portal-educativo-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wited-portal-educativo/refs/heads/main/well-known/wited-portal-educativo-well-known.yml
+  href: https://artifacts.apis.io/wited-portal-educativo/well-known/wited-portal-educativo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wited-portal-educativo-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wited-portal-educativo/refs/heads/main/well-known/wited-portal-educativo-robots.txt
+  href: https://artifacts.apis.io/wited-portal-educativo/well-known/wited-portal-educativo-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/wited-portal-educativo-robots.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wited-portal-educativo/refs/heads/main/security/wited-portal-educativo-domain-security.yml
+  href: https://artifacts.apis.io/wited-portal-educativo/security/wited-portal-educativo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wited-portal-educativo-domain-security.yml
@@ -100,10 +102,10 @@ overview: 'Wited (Portal Educativo) is profiled on the [APIs.io](https://apis.io
 
 
   Wited (Portal Educativo)''s developer surface includes signup flow, pricing, support, and 9 more developer resources.'
-random_paper: 9
+random_paper: 21
 score:
   band: emerging
-  composite: 13.8
+  composite: 14.7
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -111,14 +113,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -126,21 +128,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 13.7
+  previous_composite: 14.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wited-portal-educativo/refs/heads/main/screenshots/wited-portal-educativo-2026-09-02T170842.png
+screenshot: https://apis.io/screenshots/wited-portal-educativo/wited-portal-educativo-2026-09-02T170842.png
 security:
 - kind: domain-security
   name: Wited Portal Educativo Domain Security

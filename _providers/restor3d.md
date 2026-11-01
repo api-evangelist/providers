@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The machine-readable surface served by restor3d's corporate website. It is a stock WordPress REST API (namespaces wp/v2, wp-abilities/v1, mcp, plus SEO/caching plugin namespaces) covering site content
@@ -73,47 +75,47 @@ common:
   type: PrivacyPolicy
   url: https://www.restor3d.com/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/restor3d/refs/heads/main/well-known/restor3d-well-known.yml
+  href: https://artifacts.apis.io/restor3d/well-known/restor3d-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/restor3d-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/restor3d/refs/heads/main/mcp/restor3d-mcp.yml
+  href: https://artifacts.apis.io/restor3d/mcp/restor3d-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/restor3d-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/restor3d/refs/heads/main/authentication/restor3d-authentication.yml
+  href: https://artifacts.apis.io/restor3d/authentication/restor3d-authentication.yml
   title: ''
   type: Authentication
   url: authentication/restor3d-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/restor3d/refs/heads/main/scopes/restor3d-scopes.yml
+  href: https://artifacts.apis.io/restor3d/scopes/restor3d-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/restor3d-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/restor3d/refs/heads/main/conformance/restor3d-conformance.yml
+  href: https://artifacts.apis.io/restor3d/conformance/restor3d-conformance.yml
   title: ''
   type: Conformance
   url: conformance/restor3d-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/restor3d/refs/heads/main/security/restor3d-domain-security.yml
+  href: https://artifacts.apis.io/restor3d/security/restor3d-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/restor3d-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/restor3d/refs/heads/main/plans/restor3d-plans-pricing.yml
+  href: https://artifacts.apis.io/restor3d/plans/restor3d-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/restor3d-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/restor3d/refs/heads/main/rate-limits/restor3d-rate-limits.yml
+  href: https://artifacts.apis.io/restor3d/rate-limits/restor3d-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/restor3d-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/restor3d/refs/heads/main/llms/restor3d-llms.txt
+  href: https://artifacts.apis.io/restor3d/llms/restor3d-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/restor3d-llms.txt
@@ -138,7 +140,7 @@ plans:
 - name: Restor3D Plans Pricing
   plan_count: 0
   slug: restor3d-plans-pricing
-random_paper: 8
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Restor3D Rate Limits
@@ -158,15 +160,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 68.3
-    operational_transparency: 2.6
-  previous_composite: 20.1
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 20.2
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -176,14 +178,14 @@ score:
     regime: Health
     regime_id: health
     score: 30.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/restor3d/refs/heads/main/screenshots/restor3d-2026-09-02T153605.png
+screenshot: https://apis.io/screenshots/restor3d/restor3d-2026-09-02T153605.png
 security:
 - kind: authentication
   name: Restor3D Authentication

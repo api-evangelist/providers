@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Kratos Defense & Security Solutions API provides access to platform services and data for enterprise integration and automation.
@@ -42,17 +44,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kratos-defense-and-security-solutions/refs/heads/main/plans/kratos-defense-and-security-solutions-plans-pricing.yml
+  href: https://artifacts.apis.io/kratos-defense-and-security-solutions/plans/kratos-defense-and-security-solutions-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kratos-defense-and-security-solutions-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kratos-defense-and-security-solutions/refs/heads/main/rate-limits/kratos-defense-and-security-solutions-rate-limits.yml
+  href: https://artifacts.apis.io/kratos-defense-and-security-solutions/rate-limits/kratos-defense-and-security-solutions-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kratos-defense-and-security-solutions-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kratos-defense-and-security-solutions/refs/heads/main/finops/kratos-defense-and-security-solutions-finops.yml
+  href: https://artifacts.apis.io/kratos-defense-and-security-solutions/finops/kratos-defense-and-security-solutions-finops.yml
   title: ''
   type: FinOps
   url: finops/kratos-defense-and-security-solutions-finops.yml
@@ -61,7 +63,7 @@ common:
   type: Blog
   url: https://www.kratosdefense.com/newsroom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kratos-defense-and-security-solutions/refs/heads/main/security/kratos-defense-and-security-solutions-domain-security.yml
+  href: https://artifacts.apis.io/kratos-defense-and-security-solutions/security/kratos-defense-and-security-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kratos-defense-and-security-solutions-domain-security.yml
@@ -97,7 +99,7 @@ plans:
 - name: Kratos Defense And Security Solutions Plans Pricing
   plan_count: 1
   slug: kratos-defense-and-security-solutions-plans-pricing
-random_paper: 11
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Kratos Defense And Security Solutions Rate Limits
@@ -112,7 +114,7 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -120,21 +122,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 9.5
+  previous_composite: 8.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kratos-defense-and-security-solutions/refs/heads/main/screenshots/kratos-defense-and-security-solutions-2026-06-20T184152.png
+screenshot: https://apis.io/screenshots/kratos-defense-and-security-solutions/kratos-defense-and-security-solutions-2026-06-20T184152.png
 security:
 - kind: domain-security
   name: Kratos Defense And Security Solutions Domain Security

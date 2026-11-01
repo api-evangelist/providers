@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'Perkoon''s agent-to-agent surface: an A2A agent card served at /.well-known/agent-card.json and the legacy /.well-known/agent.json (byte-identical, 200 application/json) pointing at a JSON-RPC 2.0 endp'
@@ -35,7 +37,7 @@ apis:
 - description: 'Official local stdio MCP server, @perkoon/mcp on npm (0.3.0, 2026-09-01), installed with npx -y @perkoon/mcp and named in the A2A card''s resources[] and in llms.txt as the recommended path for coding '
   name: Perkoon MCP Server
   slug: perkoon-mcp-server
-artifact_total: 8
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -66,87 +68,87 @@ common:
   type: GitHubOrganization
   url: https://github.com/Perkoon
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/llms/perkoon-com-llms.txt
+  href: https://artifacts.apis.io/perkoon-com/llms/perkoon-com-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/perkoon-com-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/well-known/perkoon-com-well-known.yml
+  href: https://artifacts.apis.io/perkoon-com/well-known/perkoon-com-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/perkoon-com-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/a2a/perkoon-com-a2a.yml
+  href: https://artifacts.apis.io/perkoon-com/a2a/perkoon-com-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/perkoon-com-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/mcp/perkoon-com-mcp.yml
+  href: https://artifacts.apis.io/perkoon-com/mcp/perkoon-com-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/perkoon-com-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/packages/perkoon-com-packages.yml
+  href: https://artifacts.apis.io/perkoon-com/packages/perkoon-com-packages.yml
   title: ''
   type: Packages
   url: packages/perkoon-com-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/packages/perkoon-com-packages.yml
+  href: https://artifacts.apis.io/perkoon-com/packages/perkoon-com-packages.yml
   title: ''
   type: SDKs
   url: packages/perkoon-com-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/cli/perkoon-com-cli.yml
+  href: https://artifacts.apis.io/perkoon-com/cli/perkoon-com-cli.yml
   title: ''
   type: CLI
   url: cli/perkoon-com-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/perkoon-com/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/rate-limits/perkoon-com-rate-limits.yml
+  href: https://artifacts.apis.io/perkoon-com/rate-limits/perkoon-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/perkoon-com-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/plans/perkoon-com-plans-pricing.yml
+  href: https://artifacts.apis.io/perkoon-com/plans/perkoon-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/perkoon-com-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/authentication/perkoon-com-authentication.yml
+  href: https://artifacts.apis.io/perkoon-com/authentication/perkoon-com-authentication.yml
   title: ''
   type: Authentication
   url: authentication/perkoon-com-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/conventions/perkoon-com-conventions.yml
+  href: https://artifacts.apis.io/perkoon-com/conventions/perkoon-com-conventions.yml
   title: ''
   type: Conventions
   url: conventions/perkoon-com-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/errors/perkoon-com-problem-types.yml
+  href: https://artifacts.apis.io/perkoon-com/errors/perkoon-com-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/perkoon-com-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/conformance/perkoon-com-conformance.yml
+  href: https://artifacts.apis.io/perkoon-com/conformance/perkoon-com-conformance.yml
   title: ''
   type: Conformance
   url: conformance/perkoon-com-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/lifecycle/perkoon-com-lifecycle.yml
+  href: https://artifacts.apis.io/perkoon-com/lifecycle/perkoon-com-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/perkoon-com-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/regulatory/perkoon-com-regulatory-posture.yml
+  href: https://artifacts.apis.io/perkoon-com/regulatory/perkoon-com-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/perkoon-com-regulatory-posture.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/security/perkoon-com-domain-security.yml
+  href: https://artifacts.apis.io/perkoon-com/security/perkoon-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/perkoon-com-domain-security.yml
@@ -170,14 +172,14 @@ plans:
 - name: Perkoon Com Plans Pricing
   plan_count: 0
   slug: perkoon-com-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Perkoon Com Rate Limits
   slug: perkoon-com-rate-limits
 score:
   band: thin
-  composite: 27.6
+  composite: 26.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 50.0
@@ -185,15 +187,15 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 54.8
-    discoverability: 73.3
+    discoverability: 66.7
     operational_transparency: 36.8
-  previous_composite: 27.5
+  previous_composite: 26.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -204,14 +206,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/perkoon-com/refs/heads/main/screenshots/perkoon-com-2026-10-11T112511.png
+screenshot: https://apis.io/screenshots/perkoon-com/perkoon-com-2026-10-11T112511.png
 security:
 - kind: authentication
   name: Perkoon Com Authentication
@@ -221,6 +223,10 @@ security:
   name: Perkoon Com Domain Security
   slug: perkoon-com-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: perkoon-transfer
+  slug: perkoon-com-perkoon-transfer-SKILL
 slug: perkoon-com
 tags:
 - File Transfer

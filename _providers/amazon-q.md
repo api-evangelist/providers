@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,19 +22,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-17'
+  score: 35.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -73,7 +75,142 @@ apis:
   description: The Indices API from Amazon Q — 1 operation(s) for indices.
   name: Amazon Q Indices API
   slug: amazon-q-indices-api
-artifact_total: 53
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Aiagents API from Amazon Q — 2 operation(s) for q aiagents.
+  name: Amazon Q Q Aiagents API
+  slug: amazon-q-aiagents-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Aiguardrails API from Amazon Q — 2 operation(s) for q aiguardrails.
+  name: Amazon Q Q Aiguardrails API
+  slug: amazon-q-aiguardrails-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Aiprompts API from Amazon Q — 2 operation(s) for q aiprompts.
+  name: Amazon Q Q Aiprompts API
+  slug: amazon-q-aiprompts-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Assistants API from Amazon Q — 2 operation(s) for q assistants.
+  name: Amazon Q Q Assistants API
+  slug: amazon-q-assistants-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Associations API from Amazon Q — 4 operation(s) for q associations.
+  name: Amazon Q Q Associations API
+  slug: amazon-q-associations-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Attachments API from Amazon Q — 4 operation(s) for q attachments.
+  name: Amazon Q Q Attachments API
+  slug: amazon-q-attachments-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Chatcontrols API from Amazon Q — 1 operation(s) for q chatcontrols.
+  name: Amazon Q Q Chatcontrols API
+  slug: amazon-q-chatcontrols-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Chatresponseconfigurations API from Amazon Q — 2 operation(s) for q chatresponseconfigurations.
+  name: Amazon Q Q Chatresponseconfigurations API
+  slug: amazon-q-chatresponseconfigurations-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Contents API from Amazon Q — 2 operation(s) for q contents.
+  name: Amazon Q Q Contents API
+  slug: amazon-q-contents-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Dataaccessors API from Amazon Q — 2 operation(s) for q dataaccessors.
+  name: Amazon Q Q Dataaccessors API
+  slug: amazon-q-dataaccessors-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Documents API from Amazon Q — 3 operation(s) for q documents.
+  name: Amazon Q Q Documents API
+  slug: amazon-q-documents-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Experiences API from Amazon Q — 2 operation(s) for q experiences.
+  name: Amazon Q Q Experiences API
+  slug: amazon-q-experiences-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Groups API from Amazon Q — 2 operation(s) for q groups.
+  name: Amazon Q Q Groups API
+  slug: amazon-q-groups-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Importjobs API from Amazon Q — 2 operation(s) for q importjobs.
+  name: Amazon Q Q Importjobs API
+  slug: amazon-q-importjobs-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Knowledgebases API from Amazon Q — 2 operation(s) for q knowledgebases.
+  name: Amazon Q Q Knowledgebases API
+  slug: amazon-q-knowledgebases-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Messagetemplates API from Amazon Q — 2 operation(s) for q messagetemplates.
+  name: Amazon Q Q Messagetemplates API
+  slug: amazon-q-messagetemplates-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Operations API from Amazon Q — 32 operation(s) for q operations.
+  name: Amazon Q Q Operations API
+  slug: amazon-q-operations-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Plugins API from Amazon Q — 2 operation(s) for q plugins.
+  name: Amazon Q Q Plugins API
+  slug: amazon-q-plugins-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Policy API from Amazon Q — 2 operation(s) for q policy.
+  name: Amazon Q Q Policy API
+  slug: amazon-q-policy-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Quickresponses API from Amazon Q — 2 operation(s) for q quickresponses.
+  name: Amazon Q Q Quickresponses API
+  slug: amazon-q-quickresponses-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Retrievers API from Amazon Q — 2 operation(s) for q retrievers.
+  name: Amazon Q Q Retrievers API
+  slug: amazon-q-retrievers-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Search API from Amazon Q — 3 operation(s) for q search.
+  name: Amazon Q Q Search API
+  slug: amazon-q-search-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Sessions API from Amazon Q — 2 operation(s) for q sessions.
+  name: Amazon Q Q Sessions API
+  slug: amazon-q-sessions-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Subscriptions API from Amazon Q — 2 operation(s) for q subscriptions.
+  name: Amazon Q Q Subscriptions API
+  slug: amazon-q-subscriptions-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Tags API from Amazon Q — 2 operation(s) for q tags.
+  name: Amazon Q Q Tags API
+  slug: amazon-q-tags-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Users API from Amazon Q — 2 operation(s) for q users.
+  name: Amazon Q Q Users API
+  slug: amazon-q-users-api
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Q Versions API from Amazon Q — 7 operation(s) for q versions.
+  name: Amazon Q Q Versions API
+  slug: amazon-q-versions-api
+artifact_total: 80
 collections:
 - collection_type: postman
   name: Amazon Q Business Applications API
@@ -87,9 +224,6 @@ collections:
 - collection_type: postman
   name: Amazon Q Business Applications Indices API
   slug: postman-amazon-q-indices-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Q Business Applications API
   slug: open-amazon-q-applications-api
@@ -106,18 +240,23 @@ collections:
   name: Amazon Q Business API
   slug: open-amazon-q
 common:
+- group: other
+  href: https://artifacts.apis.io/amazon-q/capabilities/amazon-q-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-q-capability-edges.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/rate-limits/amazon-q-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-q/rate-limits/amazon-q-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-q-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/finops/amazon-q-finops.yml
+  href: https://artifacts.apis.io/amazon-q/finops/amazon-q-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-q-finops.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/plans/amazon-q-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-q/plans/amazon-q-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-q-plans-pricing.yml
@@ -150,27 +289,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-q/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/agentic-access/amazon-q-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-q/agentic-access/amazon-q-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-q-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/security/amazon-q-trust-center.yml
+  href: https://artifacts.apis.io/amazon-q/security/amazon-q-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-q-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/security/amazon-q-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-q/security/amazon-q-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-q-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/security/amazon-q-domain-security.yml
+  href: https://artifacts.apis.io/amazon-q/security/amazon-q-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-q-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/authentication/amazon-q-authentication.yml
+  href: https://artifacts.apis.io/amazon-q/authentication/amazon-q-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-q-authentication.yml
@@ -235,117 +374,117 @@ common:
   type: GitHubOrganization
   url: https://github.com/aws
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/json-ld/amazon-q-openapi-application-context.jsonld
+  href: https://artifacts.apis.io/amazon-q/json-ld/amazon-q-openapi-application-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-q-openapi-application-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/json-ld/amazon-q-openapi-conversation-context.jsonld
+  href: https://artifacts.apis.io/amazon-q/json-ld/amazon-q-openapi-conversation-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-q-openapi-conversation-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/json-ld/amazon-q-openapi-data-source-context.jsonld
+  href: https://artifacts.apis.io/amazon-q/json-ld/amazon-q-openapi-data-source-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-q-openapi-data-source-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/json-ld/amazon-q-openapi-index-context.jsonld
+  href: https://artifacts.apis.io/amazon-q/json-ld/amazon-q-openapi-index-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-q-openapi-index-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/json-ld/amazon-q-openapi-message-context.jsonld
+  href: https://artifacts.apis.io/amazon-q/json-ld/amazon-q-openapi-message-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-q-openapi-message-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/json-schema/amazon-q-openapi-application-schema.json
+  href: https://artifacts.apis.io/amazon-q/json-schema/amazon-q-openapi-application-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-q-openapi-application-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/json-schema/amazon-q-openapi-conversation-schema.json
+  href: https://artifacts.apis.io/amazon-q/json-schema/amazon-q-openapi-conversation-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-q-openapi-conversation-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/json-schema/amazon-q-openapi-data-source-schema.json
+  href: https://artifacts.apis.io/amazon-q/json-schema/amazon-q-openapi-data-source-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-q-openapi-data-source-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/json-schema/amazon-q-openapi-index-schema.json
+  href: https://artifacts.apis.io/amazon-q/json-schema/amazon-q-openapi-index-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-q-openapi-index-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/json-schema/amazon-q-openapi-message-schema.json
+  href: https://artifacts.apis.io/amazon-q/json-schema/amazon-q-openapi-message-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/amazon-q-openapi-message-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/json-structure/amazon-q-openapi-application-structure.json
+  href: https://artifacts.apis.io/amazon-q/json-structure/amazon-q-openapi-application-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-q-openapi-application-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/json-structure/amazon-q-openapi-conversation-structure.json
+  href: https://artifacts.apis.io/amazon-q/json-structure/amazon-q-openapi-conversation-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-q-openapi-conversation-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/json-structure/amazon-q-openapi-data-source-structure.json
+  href: https://artifacts.apis.io/amazon-q/json-structure/amazon-q-openapi-data-source-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-q-openapi-data-source-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/json-structure/amazon-q-openapi-index-structure.json
+  href: https://artifacts.apis.io/amazon-q/json-structure/amazon-q-openapi-index-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-q-openapi-index-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/json-structure/amazon-q-openapi-message-structure.json
+  href: https://artifacts.apis.io/amazon-q/json-structure/amazon-q-openapi-message-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/amazon-q-openapi-message-structure.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/examples/amazon-q-openapi-application-example.json
+  href: https://artifacts.apis.io/amazon-q/examples/amazon-q-openapi-application-example.json
   title: ''
   type: Examples
   url: examples/amazon-q-openapi-application-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/examples/amazon-q-openapi-conversation-example.json
+  href: https://artifacts.apis.io/amazon-q/examples/amazon-q-openapi-conversation-example.json
   title: ''
   type: Examples
   url: examples/amazon-q-openapi-conversation-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/examples/amazon-q-openapi-data-source-example.json
+  href: https://artifacts.apis.io/amazon-q/examples/amazon-q-openapi-data-source-example.json
   title: ''
   type: Examples
   url: examples/amazon-q-openapi-data-source-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/examples/amazon-q-openapi-index-example.json
+  href: https://artifacts.apis.io/amazon-q/examples/amazon-q-openapi-index-example.json
   title: ''
   type: Examples
   url: examples/amazon-q-openapi-index-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/examples/amazon-q-openapi-message-example.json
+  href: https://artifacts.apis.io/amazon-q/examples/amazon-q-openapi-message-example.json
   title: ''
   type: Examples
   url: examples/amazon-q-openapi-message-example.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/rules/amazon-q-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-q/rules/amazon-q-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-q-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/vocabulary/amazon-q-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-q/vocabulary/amazon-q-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-q-vocabulary.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/openapi/_original/amazon-q-openapi.yml
+  href: https://artifacts.apis.io/amazon-q/openapi/_original/amazon-q-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/amazon-q-openapi.yml
@@ -369,10 +508,10 @@ examples:
   slug: amazon-q-openapi-message-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Amazon Q Finops
-  primary_unit: ''
-  service_category: AI / Assistant
+  primary_unit: user
+  service_category: ''
   slug: amazon-q-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-q.png
@@ -452,17 +591,20 @@ modified: '2026-09-16'
 name: Amazon Q
 nav: Providers
 network: true
-overview: 'Amazon Q publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Conversations API, Data Sources API, and 4 more. Tagged areas include Artificial Intelligence, Assistant, Enterprise, and Generative AI.
+overview: 'Amazon Q publishes 34 API contracts indexed on the [APIs.io](https://apis.io/) network, including Applications API, Conversations API, Data Sources API, and 31 more. Tagged areas include Artificial Intelligence, Assistant, Enterprise, and Generative AI.
 
 
   The Amazon Q catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Q''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, FAQ, support, and 46 more developer resources.'
+  Amazon Q''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, FAQ, support, and 47 more developer resources.'
 plans:
 - name: Amazon Q Plans Pricing
   plan_count: 6
   slug: amazon-q-plans-pricing
+- name: Amazon Q Price Estimates
+  plan_count: 0
+  slug: amazon-q-price-estimates
 random_paper: 12
 rate_limits:
 - limit_count: 5
@@ -494,46 +636,49 @@ rules:
   slug: amazon-q-spectral-rules
 score:
   band: strong
-  composite: 61.1
+  composite: 66.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 61.0
+    artifact_dirs: 21
+    catalog_earned: 64.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.5
+  delta: 2.3
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 54.5
-    developer_ergonomics: 70.2
+    contract_quality: 58.6
+    developer_ergonomics: 72.6
     discoverability: 57.1
-    operational_transparency: 42.1
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 58.6
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 4
+      marker_coverage: 87.1
+      total: 31
   regulatory:
     applies: true
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/screenshots/amazon-q-2026-06-20T171808.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-q/amazon-q-2026-06-20T171808.png
 security:
 - kind: authentication
   name: Amazon Q Authentication

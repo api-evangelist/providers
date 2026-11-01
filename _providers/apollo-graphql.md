@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-17'
+  score: 20.3
+  scored_at: '2026-10-31'
 api_count: 11
 apis:
 - description: Whether your team is new to GraphQL, or seasoned experts, learn why Apollo is the fastest and safest way to build and scale your APIs.
@@ -72,22 +74,22 @@ apis:
 artifact_total: 62
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/plans/apollo-graphql-plans-pricing.yml
+  href: https://artifacts.apis.io/apollo-graphql/plans/apollo-graphql-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apollo-graphql-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/rate-limits/apollo-graphql-rate-limits.yml
+  href: https://artifacts.apis.io/apollo-graphql/rate-limits/apollo-graphql-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apollo-graphql-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/finops/apollo-graphql-finops.yml
+  href: https://artifacts.apis.io/apollo-graphql/finops/apollo-graphql-finops.yml
   title: ''
   type: FinOps
   url: finops/apollo-graphql-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/security/apollo-graphql-domain-security.yml
+  href: https://artifacts.apis.io/apollo-graphql/security/apollo-graphql-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apollo-graphql-domain-security.yml
@@ -252,12 +254,12 @@ common:
   type: AgentSkills
   url: https://github.com/apollographql/skills
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/graphql/apollo-graphql-graphos.graphql
+  href: https://artifacts.apis.io/apollo-graphql/graphql/apollo-graphql-graphos.graphql
   title: ''
   type: GraphQL
   url: graphql/apollo-graphql-graphos.graphql
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/mcp/apollo-graphql-mcp.yml
+  href: https://artifacts.apis.io/apollo-graphql/mcp/apollo-graphql-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/apollo-graphql-mcp.yml
@@ -266,12 +268,12 @@ common:
   type: LlmsText
   url: https://www.apollographql.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/well-known/apollo-graphql-api-catalog.json
+  href: https://artifacts.apis.io/apollo-graphql/well-known/apollo-graphql-api-catalog.json
   title: ''
   type: WellKnown
   url: well-known/apollo-graphql-api-catalog.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/well-known/apollo-graphql-api-catalog.json
+  href: https://artifacts.apis.io/apollo-graphql/well-known/apollo-graphql-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/apollo-graphql-api-catalog.json
@@ -299,13 +301,13 @@ features:
 - name: IDE Support
 - name: Kubernetes Operator
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Apollo Graphql Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: million
+  service_category: ''
   slug: apollo-graphql-finops
-  template: true
+  template: false
 graphqls:
 - description: Whether your team is new to GraphQL, or seasoned experts, learn why Apollo is the fastest and safest way to build and scale your APIs.
   name: Apollo GraphQL GraphQL API
@@ -347,9 +349,9 @@ overview: 'Apollo GraphQL is listed with 11 APIs on the [APIs.io](https://apis.i
   Apollo GraphQL''s developer surface includes pricing, documentation, engineering blog, support, signup flow, product news, legal docs, and 43 more developer resources.'
 plans:
 - name: Apollo Graphql Plans Pricing
-  plan_count: 3
+  plan_count: 12
   slug: apollo-graphql-plans-pricing
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Apollo Graphql Rate Limits
@@ -367,24 +369,24 @@ rules:
     warn: 4
   slug: apollo-federation-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 49.0
+  band: strong
+  composite: 55.0
   coverage:
     artifact_dirs: 15
-    catalog_earned: 53.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_earned: 65.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 49.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 9.8
     contract_quality: 48.9
     developer_ergonomics: 42.1
-    discoverability: 73.3
+    discoverability: 70.0
     operational_transparency: 55.3
-  previous_composite: 50.5
+  previous_composite: 53.4
   provenance:
     mcp: first-party
   regulatory:
@@ -393,14 +395,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-graphql/refs/heads/main/screenshots/apollo-graphql-2026-06-20T172310.png
+screenshot: https://apis.io/screenshots/apollo-graphql/apollo-graphql-2026-06-20T172310.png
 security:
 - kind: domain-security
   name: Apollo Graphql Domain Security

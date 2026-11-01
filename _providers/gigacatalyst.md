@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The one public, unauthenticated operation Gigacatalyst publishes on its own behalf. A coding agent reads the project's API surface, builds a JSON description of it (organization, integrations, tools w
@@ -44,12 +46,12 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/security/gigacatalyst-trust-center.yml
+  href: https://artifacts.apis.io/gigacatalyst/security/gigacatalyst-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gigacatalyst-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/security/gigacatalyst-domain-security.yml
+  href: https://artifacts.apis.io/gigacatalyst/security/gigacatalyst-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gigacatalyst-domain-security.yml
@@ -98,77 +100,77 @@ common:
   type: Security
   url: https://gigacatalyst.com/trust/vulnerability-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/security/gigacatalyst-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gigacatalyst/security/gigacatalyst-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gigacatalyst-vulnerability-disclosure.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/packages/gigacatalyst-packages.yml
+  href: https://artifacts.apis.io/gigacatalyst/packages/gigacatalyst-packages.yml
   title: ''
   type: Packages
   url: packages/gigacatalyst-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/packages/gigacatalyst-packages.yml
+  href: https://artifacts.apis.io/gigacatalyst/packages/gigacatalyst-packages.yml
   title: ''
   type: SDKs
   url: packages/gigacatalyst-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/cli/gigacatalyst-cli.yml
+  href: https://artifacts.apis.io/gigacatalyst/cli/gigacatalyst-cli.yml
   title: ''
   type: CLI
   url: cli/gigacatalyst-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/components/gigacatalyst-components.yml
+  href: https://artifacts.apis.io/gigacatalyst/components/gigacatalyst-components.yml
   title: ''
   type: Components
   url: components/gigacatalyst-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/gigacatalyst/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/llms/gigacatalyst-llms.txt
+  href: https://artifacts.apis.io/gigacatalyst/llms/gigacatalyst-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gigacatalyst-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/conventions/gigacatalyst-conventions.yml
+  href: https://artifacts.apis.io/gigacatalyst/conventions/gigacatalyst-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gigacatalyst-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/data-model/gigacatalyst-data-model.yml
+  href: https://artifacts.apis.io/gigacatalyst/data-model/gigacatalyst-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gigacatalyst-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/errors/gigacatalyst-problem-types.yml
+  href: https://artifacts.apis.io/gigacatalyst/errors/gigacatalyst-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gigacatalyst-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/authentication/gigacatalyst-authentication.yml
+  href: https://artifacts.apis.io/gigacatalyst/authentication/gigacatalyst-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gigacatalyst-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/conformance/gigacatalyst-conformance.yml
+  href: https://artifacts.apis.io/gigacatalyst/conformance/gigacatalyst-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gigacatalyst-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/lifecycle/gigacatalyst-lifecycle.yml
+  href: https://artifacts.apis.io/gigacatalyst/lifecycle/gigacatalyst-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gigacatalyst-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/plans/gigacatalyst-plans-pricing.yml
+  href: https://artifacts.apis.io/gigacatalyst/plans/gigacatalyst-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gigacatalyst-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/rate-limits/gigacatalyst-rate-limits.yml
+  href: https://artifacts.apis.io/gigacatalyst/rate-limits/gigacatalyst-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gigacatalyst-rate-limits.yml
@@ -189,14 +191,14 @@ plans:
 - name: Gigacatalyst Plans Pricing
   plan_count: 0
   slug: gigacatalyst-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Gigacatalyst Rate Limits
   slug: gigacatalyst-rate-limits
 score:
   band: thin
-  composite: 30.5
+  composite: 34.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -204,15 +206,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 47.6
-    discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 30.4
+    developer_ergonomics: 64.3
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 34.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -223,14 +225,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/gigacatalyst/refs/heads/main/screenshots/gigacatalyst-2026-07-25T215805.png
+screenshot: https://apis.io/screenshots/gigacatalyst/gigacatalyst-2026-07-25T215805.png
 security:
 - kind: authentication
   name: Gigacatalyst Authentication

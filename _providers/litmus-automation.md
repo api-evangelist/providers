@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Industrial edge data platform for device connectivity, industrial DataOps, edge intelligence, and analytics. Around 871 endpoints in the 4.0.x line; most endpoints are REST while newer areas (DeviceHu
@@ -45,10 +47,15 @@ apis:
 - description: MQTT-based Unified Namespace (UNS) operations — namespace/class config, MQTT accounts and ACL rules, clients, integrations (Kafka, connectors), and configuration. Around 46 endpoints. OAuth2 bearer to
   name: Litmus Unify
   slug: litmus-unify
-artifact_total: 7
+artifact_total: 10
 common:
+- group: commercial
+  href: https://artifacts.apis.io/litmus-automation/plans/litmus-automation-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/litmus-automation-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/security/litmus-automation-trust-center.yml
+  href: https://artifacts.apis.io/litmus-automation/security/litmus-automation-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/litmus-automation-trust-center.yml
@@ -109,67 +116,75 @@ common:
   type: StatusPage
   url: https://status.litmus.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/llms/litmus-automation-llms.txt
+  href: https://artifacts.apis.io/litmus-automation/llms/litmus-automation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/litmus-automation-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/mcp/litmus-automation-mcp.yml
+  href: https://artifacts.apis.io/litmus-automation/mcp/litmus-automation-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/litmus-automation-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/packages/litmus-automation-packages.yml
+  href: https://artifacts.apis.io/litmus-automation/packages/litmus-automation-packages.yml
   title: ''
   type: Packages
   url: packages/litmus-automation-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/packages/litmus-automation-packages.yml
+  href: https://artifacts.apis.io/litmus-automation/packages/litmus-automation-packages.yml
   title: ''
   type: SDKs
   url: packages/litmus-automation-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/cli/litmus-automation-cli.yml
+  href: https://artifacts.apis.io/litmus-automation/cli/litmus-automation-cli.yml
   title: ''
   type: CLI
   url: cli/litmus-automation-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/authentication/litmus-automation-authentication.yml
+  href: https://artifacts.apis.io/litmus-automation/authentication/litmus-automation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/litmus-automation-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/changelog/litmus-automation-changelog.yml
+  href: https://artifacts.apis.io/litmus-automation/changelog/litmus-automation-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/litmus-automation-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/conventions/litmus-automation-conventions.yml
+  href: https://artifacts.apis.io/litmus-automation/conventions/litmus-automation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/litmus-automation-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/conformance/litmus-automation-conformance.yml
+  href: https://artifacts.apis.io/litmus-automation/conformance/litmus-automation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/litmus-automation-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/lifecycle/litmus-automation-lifecycle.yml
+  href: https://artifacts.apis.io/litmus-automation/lifecycle/litmus-automation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/litmus-automation-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/lifecycle/litmus-automation-lifecycle.yml
+  href: https://artifacts.apis.io/litmus-automation/lifecycle/litmus-automation-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/litmus-automation-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/security/litmus-automation-domain-security.yml
+  href: https://artifacts.apis.io/litmus-automation/security/litmus-automation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/litmus-automation-domain-security.yml
 created: '2026-07-17'
 description: Litmus Automation (Litmus) is an industrial data platform company that helps manufacturers connect industrial systems, standardize operational data, and deploy analytics, AI, and automation at scale across plant locations. Its products are Litmus Edge (an industrial edge data platform for device connectivity, DataOps, edge intelligence, and analytics), Litmus Edge Manager (centralized fleet management for distributed edge deployments), and Litmus Unify (an MQTT-based Unified Namespace). Litmus exposes a large public API surface — roughly 2,004 endpoints across the three products (REST plus newer GraphQL areas), OAuth2 client-credentials authentication, a standalone litmus-cli, a Python SDK, and an open-source Model Context Protocol (MCP) server for agentic access. Backed by Insight Partners.
+finops:
+- has_sources: true
+  method: derived
+  name: Litmus Automation Finops
+  primary_unit: site
+  service_category: ''
+  slug: litmus-automation-finops
+  template: false
 image: https://litmus.io/favicon.ico
 layout: provider
 mcp_servers:
@@ -183,27 +198,34 @@ network: true
 overview: 'Litmus Automation is listed with 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Industrial IoT, Edge Computing, and Unified Namespace.
 
 
-  Litmus Automation''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 0
+  Litmus Automation''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+plans:
+- name: Litmus Automation Plans Pricing
+  plan_count: 4
+  slug: litmus-automation-plans-pricing
+- name: Litmus Automation Price Estimates
+  plan_count: 0
+  slug: litmus-automation-price-estimates
+random_paper: 4
 score:
   band: developing
-  composite: 42.9
+  composite: 51.4
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 16
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 66.7
-    discoverability: 76.7
-    operational_transparency: 42.1
-  previous_composite: 42.8
+    developer_ergonomics: 71.4
+    discoverability: 70.0
+    operational_transparency: 44.7
+  previous_composite: 43.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -213,14 +235,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/litmus-automation/refs/heads/main/screenshots/litmus-automation-2026-07-25T225339.png
+screenshot: https://apis.io/screenshots/litmus-automation/litmus-automation-2026-07-25T225339.png
 security:
 - kind: authentication
   name: Litmus Automation Authentication

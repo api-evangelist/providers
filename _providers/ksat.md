@@ -14,26 +14,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ksat/refs/heads/main/hosts/ksat-hosts.yml
+  href: https://artifacts.apis.io/ksat/hosts/ksat-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ksat-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ksat/refs/heads/main/vendors/ksat-vendors.yml
+  href: https://artifacts.apis.io/ksat/vendors/ksat-vendors.yml
   title: ''
   type: Vendors
   url: vendors/ksat-vendors.yml
@@ -50,7 +52,7 @@ common:
   type: Newsroom
   url: https://www.ksat.no/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ksat/refs/heads/main/security/ksat-domain-security.yml
+  href: https://artifacts.apis.io/ksat/security/ksat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ksat-domain-security.yml
@@ -70,12 +72,12 @@ overview: 'KSAT is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   KSAT''s developer surface includes signup flow and 6 more developer resources.'
-random_paper: 17
+random_paper: 3
 score:
   band: minimal
   composite: 8.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -106,14 +108,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ksat/refs/heads/main/screenshots/ksat-2026-10-11T110243.png
+screenshot: https://apis.io/screenshots/ksat/ksat-2026-10-11T110243.png
 security:
 - kind: domain-security
   name: Ksat Domain Security

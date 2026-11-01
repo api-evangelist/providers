@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.5
-  scored_at: '2026-10-17'
+  score: 35.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,15 +61,12 @@ apis:
     question: How do I call an AWS VPN operation through the EC2 Query API?
   phrasing_ops: 1
   slug: amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api
-artifact_total: 21
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Amazon Vpn Events
   slug: amazon-vpn-events
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AWS VPN API (Amazon EC2 Query API subset) AWS VPN API (Amazon EC2 Query API Subset) AWS VPN API (Amazon EC2 Query API Subset) AWS VPN API (Amazon EC2 Query API Subset) API
   slug: open-amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api
@@ -75,33 +74,37 @@ collections:
   name: AWS VPN API (Amazon EC2 Query API subset)
   slug: open-amazon-vpn
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/amazon-vpn/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/capabilities/amazon-vpn-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-vpn/capabilities/amazon-vpn-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-vpn-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/agentic-access/amazon-vpn-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-vpn/agentic-access/amazon-vpn-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-vpn-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/security/amazon-vpn-trust-center.yml
+  href: https://artifacts.apis.io/amazon-vpn/security/amazon-vpn-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-vpn-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/security/amazon-vpn-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-vpn/security/amazon-vpn-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-vpn-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/security/amazon-vpn-domain-security.yml
+  href: https://artifacts.apis.io/amazon-vpn/security/amazon-vpn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-vpn-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/authentication/amazon-vpn-authentication.yml
+  href: https://artifacts.apis.io/amazon-vpn/authentication/amazon-vpn-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-vpn-authentication.yml
@@ -158,22 +161,22 @@ common:
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/vocabulary/amazon-vpn-vocabulary.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/packages/amazon-vpn-packages.yml
+  href: https://artifacts.apis.io/amazon-vpn/packages/amazon-vpn-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-vpn-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/packages/amazon-vpn-packages.yml
+  href: https://artifacts.apis.io/amazon-vpn/packages/amazon-vpn-packages.yml
   title: ''
   type: SDKs
   url: packages/amazon-vpn-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/well-known/amazon-vpn-well-known.yml
+  href: https://artifacts.apis.io/amazon-vpn/well-known/amazon-vpn-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-vpn-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/well-known/amazon-vpn-security.txt
+  href: https://artifacts.apis.io/amazon-vpn/well-known/amazon-vpn-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-vpn-security.txt
@@ -186,97 +189,97 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/programs/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/mcp/amazon-vpn-mcp.yml
+  href: https://artifacts.apis.io/amazon-vpn/mcp/amazon-vpn-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/amazon-vpn-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/mcp/amazon-vpn-tool-crosswalk.yml
+  href: https://artifacts.apis.io/amazon-vpn/mcp/amazon-vpn-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/amazon-vpn-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/llms/amazon-vpn-llms.txt
+  href: https://artifacts.apis.io/amazon-vpn/llms/amazon-vpn-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-vpn-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/overlays/amazon-vpn-aws-vpn-api-overlay.yaml
+  href: https://artifacts.apis.io/amazon-vpn/overlays/amazon-vpn-aws-vpn-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-vpn-aws-vpn-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/conformance/amazon-vpn-conformance.yml
+  href: https://artifacts.apis.io/amazon-vpn/conformance/amazon-vpn-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-vpn-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/errors/amazon-vpn-problem-types.yml
+  href: https://artifacts.apis.io/amazon-vpn/errors/amazon-vpn-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-vpn-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/lifecycle/amazon-vpn-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-vpn/lifecycle/amazon-vpn-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-vpn-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/conventions/amazon-vpn-conventions.yml
+  href: https://artifacts.apis.io/amazon-vpn/conventions/amazon-vpn-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amazon-vpn-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/conventions/amazon-vpn-conventions.yml
+  href: https://artifacts.apis.io/amazon-vpn/conventions/amazon-vpn-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/amazon-vpn-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/changelog/amazon-vpn-changelog.yml
+  href: https://artifacts.apis.io/amazon-vpn/changelog/amazon-vpn-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/amazon-vpn-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/cli/amazon-vpn-cli.yml
+  href: https://artifacts.apis.io/amazon-vpn/cli/amazon-vpn-cli.yml
   title: ''
   type: CLI
   url: cli/amazon-vpn-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/data-model/amazon-vpn-data-model.yml
+  href: https://artifacts.apis.io/amazon-vpn/data-model/amazon-vpn-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amazon-vpn-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/amazon-vpn/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/asyncapi/amazon-vpn-events.yml
+  href: https://artifacts.apis.io/amazon-vpn/asyncapi/amazon-vpn-events.yml
   title: ''
   type: EventCatalog
   url: asyncapi/amazon-vpn-events.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/plans/amazon-vpn-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-vpn/plans/amazon-vpn-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-vpn-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/rate-limits/amazon-vpn-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-vpn/rate-limits/amazon-vpn-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-vpn-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/finops/amazon-vpn-finops.yml
+  href: https://artifacts.apis.io/amazon-vpn/finops/amazon-vpn-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-vpn-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/examples/amazon-vpn-example.json
+  href: https://artifacts.apis.io/amazon-vpn/examples/amazon-vpn-example.json
   title: ''
   type: Examples
   url: examples/amazon-vpn-example.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/json-ld/amazon-vpn-context.jsonld
+  href: https://artifacts.apis.io/amazon-vpn/json-ld/amazon-vpn-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/amazon-vpn-context.jsonld
@@ -308,13 +311,13 @@ features:
 - description: Programmatic access to Amazon VPN resources.
   name: API Access
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Vpn Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: connection-hour
+  service_category: ''
   slug: amazon-vpn-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-vpn.png
 jsonld:
 - class_count: 0
@@ -336,12 +339,12 @@ overview: 'Amazon VPN publishes 2 API contracts indexed on the [APIs.io](https:/
   The Amazon VPN catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Amazon VPN''s developer surface includes authentication, developer portal, documentation, developer console, support, signup flow, changelog, and 41 more developer resources.'
+  Amazon VPN''s developer surface includes authentication, developer portal, documentation, developer console, support, signup flow, changelog, and 42 more developer resources.'
 plans:
 - name: Amazon Vpn Plans Pricing
   plan_count: 5
   slug: amazon-vpn-plans-pricing
-random_paper: 19
+random_paper: 23
 rate_limits:
 - limit_count: 7
   name: Amazon Vpn Rate Limits
@@ -361,23 +364,28 @@ rules:
   slug: amazon-vpn-spectral-rules
 score:
   band: exemplar
-  composite: 73.1
+  composite: 77.6
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 74.3
+    artifact_dirs: 31
+    catalog_earned: 77.3
     catalog_earned_first_party: 24.0
-    catalog_gap: 40.8
+    catalog_gap: 37.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.8
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 43.2
     contract_quality: 65.4
-    developer_ergonomics: 80.4
-    discoverability: 75.0
-    operational_transparency: 65.8
-  previous_composite: 74.6
+    developer_ergonomics: 81.5
+    discoverability: 65.0
+    operational_transparency: 78.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 75.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -394,13 +402,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/screenshots/amazon-vpn-2026-06-20T171844.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-vpn/amazon-vpn-2026-06-20T171844.png
 security:
 - kind: authentication
   name: Amazon Vpn Authentication
@@ -418,6 +427,16 @@ security:
   name: Amazon Vpn Trust Center
   slug: amazon-vpn-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
+skill_count: 4
+skills:
+- name: Audit AWS VPN inventory in a Region
+  slug: amazon-vpn-audit-vpn-inventory
+- name: Create and authorize an AWS Client VPN endpoint
+  slug: amazon-vpn-create-client-vpn-endpoint
+- name: Create an AWS Site-to-Site VPN connection
+  slug: amazon-vpn-create-site-to-site-vpn
+- name: Change AWS Site-to-Site VPN tunnel options safely
+  slug: amazon-vpn-rotate-tunnel-options
 slug: amazon-vpn
 tags:
 - Networking

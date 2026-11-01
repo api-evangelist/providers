@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.9
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -223,7 +225,7 @@ arazzos:
 - description: Initiate a hosted Web Redirect payment, then server-side requery to confirm before delivering value.
   name: Interswitch Web Checkout And Confirm
   slug: interswitch-web-checkout-confirm-workflow
-artifact_total: 127
+artifact_total: 126
 collections:
 - collection_type: postman
   name: Interswitch Airtime Recharge API
@@ -261,9 +263,6 @@ collections:
 - collection_type: postman
   name: Interswitch Web Checkout API
   slug: postman-interswitch-web-checkout-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Interswitch Recharge Airtime API
   slug: open-interswitch-airtime-api
@@ -396,17 +395,17 @@ common:
   type: Website
   url: https://www.interswitchgroup.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/agentic-access/interswitch-agentic-access.yml
+  href: https://artifacts.apis.io/interswitch/agentic-access/interswitch-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/interswitch-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/security/interswitch-domain-security.yml
+  href: https://artifacts.apis.io/interswitch/security/interswitch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/interswitch-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/authentication/interswitch-authentication.yml
+  href: https://artifacts.apis.io/interswitch/authentication/interswitch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/interswitch-authentication.yml
@@ -415,72 +414,72 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/interswitch/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/arazzo/interswitch-airtime-recharge-workflow.yml
+  href: https://artifacts.apis.io/interswitch/arazzo/interswitch-airtime-recharge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/interswitch-airtime-recharge-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/arazzo/interswitch-bill-payment-validate-and-pay-workflow.yml
+  href: https://artifacts.apis.io/interswitch/arazzo/interswitch-bill-payment-validate-and-pay-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/interswitch-bill-payment-validate-and-pay-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/arazzo/interswitch-card-payment-with-3ds-workflow.yml
+  href: https://artifacts.apis.io/interswitch/arazzo/interswitch-card-payment-with-3ds-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/interswitch-card-payment-with-3ds-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/arazzo/interswitch-hosted-fields-checkout-workflow.yml
+  href: https://artifacts.apis.io/interswitch/arazzo/interswitch-hosted-fields-checkout-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/interswitch-hosted-fields-checkout-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/arazzo/interswitch-issue-and-activate-card-workflow.yml
+  href: https://artifacts.apis.io/interswitch/arazzo/interswitch-issue-and-activate-card-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/interswitch-issue-and-activate-card-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/arazzo/interswitch-lending-enroll-payment-method-workflow.yml
+  href: https://artifacts.apis.io/interswitch/arazzo/interswitch-lending-enroll-payment-method-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/interswitch-lending-enroll-payment-method-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/arazzo/interswitch-lending-offer-to-disbursement-workflow.yml
+  href: https://artifacts.apis.io/interswitch/arazzo/interswitch-lending-offer-to-disbursement-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/interswitch-lending-offer-to-disbursement-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/arazzo/interswitch-link-and-check-card-balance-workflow.yml
+  href: https://artifacts.apis.io/interswitch/arazzo/interswitch-link-and-check-card-balance-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/interswitch-link-and-check-card-balance-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/arazzo/interswitch-paycode-generate-and-track-workflow.yml
+  href: https://artifacts.apis.io/interswitch/arazzo/interswitch-paycode-generate-and-track-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/interswitch-paycode-generate-and-track-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/arazzo/interswitch-payment-refund-workflow.yml
+  href: https://artifacts.apis.io/interswitch/arazzo/interswitch-payment-refund-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/interswitch-payment-refund-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/arazzo/interswitch-recurring-tokenize-and-charge-workflow.yml
+  href: https://artifacts.apis.io/interswitch/arazzo/interswitch-recurring-tokenize-and-charge-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/interswitch-recurring-tokenize-and-charge-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/arazzo/interswitch-transaction-reconciliation-workflow.yml
+  href: https://artifacts.apis.io/interswitch/arazzo/interswitch-transaction-reconciliation-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/interswitch-transaction-reconciliation-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/arazzo/interswitch-transfer-with-name-inquiry-workflow.yml
+  href: https://artifacts.apis.io/interswitch/arazzo/interswitch-transfer-with-name-inquiry-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/interswitch-transfer-with-name-inquiry-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/arazzo/interswitch-web-checkout-confirm-workflow.yml
+  href: https://artifacts.apis.io/interswitch/arazzo/interswitch-web-checkout-confirm-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/interswitch-web-checkout-confirm-workflow.yml
@@ -593,27 +592,27 @@ common:
   type: SDKs
   url: https://github.com/akinmail/isw-payment-sdk-ios
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/plans/interswitch-plans-pricing.yml
+  href: https://artifacts.apis.io/interswitch/plans/interswitch-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/interswitch-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/rate-limits/interswitch-rate-limits.yml
+  href: https://artifacts.apis.io/interswitch/rate-limits/interswitch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/interswitch-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/finops/interswitch-finops.yml
+  href: https://artifacts.apis.io/interswitch/finops/interswitch-finops.yml
   title: ''
   type: FinOps
   url: finops/interswitch-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/vocabulary/interswitch-vocabulary.yml
+  href: https://artifacts.apis.io/interswitch/vocabulary/interswitch-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/interswitch-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/rules/interswitch-rules.yml
+  href: https://artifacts.apis.io/interswitch/rules/interswitch-rules.yml
   title: ''
   type: Spectral
   url: rules/interswitch-rules.yml
@@ -678,7 +677,7 @@ plans:
 - name: Interswitch Plans Pricing
   plan_count: 5
   slug: interswitch-plans-pricing
-random_paper: 16
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Interswitch Rate Limits
@@ -709,20 +708,20 @@ rules:
   slug: interswitch-rules
 score:
   band: developing
-  composite: 48.6
+  composite: 51.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 63.4
     catalog_earned_first_party: 0.0
     catalog_gap: 51.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 57.9
     contract_governance: 27.3
     contract_quality: 53.8
-    developer_ergonomics: 57.1
+    developer_ergonomics: 67.9
     discoverability: 64.3
     operational_transparency: 15.8
   jurisdiction:
@@ -732,7 +731,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 55.3
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
@@ -746,13 +745,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/screenshots/interswitch-2026-06-20T183513.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/interswitch/interswitch-2026-06-20T183513.png
 security:
 - kind: authentication
   name: Interswitch Authentication

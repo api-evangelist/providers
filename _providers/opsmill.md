@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-17'
+  score: 31.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 34
   slug: opsmill-agentic-access
   summary_line: 34 operations · 10 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The GraphQL API is Infrahub's primary interface, auto-generated from core and user-defined schema models, supporting branch-aware queries, time-travel (global branch), mutations, and subscriptions. En
   name: Infrahub GraphQL API
@@ -122,11 +124,8 @@ apis:
   description: The Oauth2 API from OpsMill — 2 operation(s) for oauth2.
   name: OpsMill Oauth2 API
   slug: opsmill-oauth2-api
-artifact_total: 36
+artifact_total: 38
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Infrahub Artifact API
   slug: open-opsmill-artifact-api
@@ -173,22 +172,27 @@ collections:
   name: Infrahub Artifact Transform API
   slug: open-opsmill-transform-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/opsmill/plans/opsmill-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/opsmill-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://opsmill.com/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/agentic-access/opsmill-agentic-access.yml
+  href: https://artifacts.apis.io/opsmill/agentic-access/opsmill-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/opsmill-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/security/opsmill-domain-security.yml
+  href: https://artifacts.apis.io/opsmill/security/opsmill-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opsmill-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/authentication/opsmill-authentication.yml
+  href: https://artifacts.apis.io/opsmill/authentication/opsmill-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opsmill-authentication.yml
@@ -245,72 +249,80 @@ common:
   type: TermsOfService
   url: https://opsmill.com/legal/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/packages/opsmill-packages.yml
+  href: https://artifacts.apis.io/opsmill/packages/opsmill-packages.yml
   title: ''
   type: Packages
   url: packages/opsmill-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/packages/opsmill-packages.yml
+  href: https://artifacts.apis.io/opsmill/packages/opsmill-packages.yml
   title: ''
   type: SDKs
   url: packages/opsmill-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/cli/opsmill-cli.yml
+  href: https://artifacts.apis.io/opsmill/cli/opsmill-cli.yml
   title: ''
   type: CLI
   url: cli/opsmill-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/mcp/opsmill-mcp.yml
+  href: https://artifacts.apis.io/opsmill/mcp/opsmill-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/opsmill-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/opsmill/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/llms/opsmill-llms.txt
+  href: https://artifacts.apis.io/opsmill/llms/opsmill-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/opsmill-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/conventions/opsmill-conventions.yml
+  href: https://artifacts.apis.io/opsmill/conventions/opsmill-conventions.yml
   title: ''
   type: Conventions
   url: conventions/opsmill-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/errors/opsmill-problem-types.yml
+  href: https://artifacts.apis.io/opsmill/errors/opsmill-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/opsmill-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/lifecycle/opsmill-lifecycle.yml
+  href: https://artifacts.apis.io/opsmill/lifecycle/opsmill-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/opsmill-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/changelog/opsmill-changelog.yml
+  href: https://artifacts.apis.io/opsmill/changelog/opsmill-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/opsmill-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/conformance/opsmill-conformance.yml
+  href: https://artifacts.apis.io/opsmill/conformance/opsmill-conformance.yml
   title: ''
   type: Conformance
   url: conformance/opsmill-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/data-model/opsmill-data-model.yml
+  href: https://artifacts.apis.io/opsmill/data-model/opsmill-data-model.yml
   title: ''
   type: DataModel
   url: data-model/opsmill-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/overlays/opsmill-infrahub-overlay.yaml
+  href: https://artifacts.apis.io/opsmill/overlays/opsmill-infrahub-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opsmill-infrahub-overlay.yaml
 created: '2026-07-17'
 description: OpsMill is the company behind Infrahub, an open-source, graph-based infrastructure data management platform that unifies a source of truth for network, data center, and cloud automation. Infrahub combines a flexible, extensible schema, native version control with branching and merging, and unified Git + graph-database storage, then exposes that data through a GraphQL API, a REST API, a Python SDK, the infrahubctl CLI, a web UI, and a Model Context Protocol (MCP) server so both automation pipelines and AI agents can query, propose, and review infrastructure changes with peer review and CI workflows built in.
+finops:
+- has_sources: true
+  method: derived
+  name: Opsmill Finops
+  primary_unit: licence based on compute cores
+  service_category: ''
+  slug: opsmill-finops
+  template: false
 image: https://avatars.githubusercontent.com/u/118297816?v=4
 layout: provider
 mcp_servers:
@@ -324,27 +336,34 @@ network: true
 overview: 'OpsMill publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Artifact API, Auth API, Config API, and 13 more. Tagged areas include Company, Infrastructure Saas, Network Automation, Source of Truth, and Data Management.
 
 
-  OpsMill''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, engineering blog, support, and 23 more developer resources.'
-random_paper: 20
+  OpsMill''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, engineering blog, support, and 24 more developer resources.'
+plans:
+- name: Opsmill Plans Pricing
+  plan_count: 2
+  slug: opsmill-plans-pricing
+- name: Opsmill Price Estimates
+  plan_count: 0
+  slug: opsmill-price-estimates
+random_paper: 0
 score:
   band: developing
-  composite: 45.7
+  composite: 53.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 5.8
   facets:
-    access_clarity: 44.7
+    access_clarity: 73.7
     contract_governance: 4.5
     contract_quality: 40.8
-    developer_ergonomics: 78.6
-    discoverability: 71.7
-    operational_transparency: 18.4
-  previous_composite: 45.6
+    developer_ergonomics: 85.7
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -361,13 +380,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/screenshots/opsmill-2026-08-07T190749.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/opsmill/opsmill-2026-08-07T190749.png
 security:
 - kind: authentication
   name: Opsmill Authentication

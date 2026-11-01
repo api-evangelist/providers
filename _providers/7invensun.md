@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/7invensun/refs/heads/main/security/7invensun-domain-security.yml
+  href: https://artifacts.apis.io/7invensun/security/7invensun-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/7invensun-domain-security.yml
@@ -53,22 +55,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/7invensun
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/7invensun/refs/heads/main/llms/7invensun-llms.txt
+  href: https://artifacts.apis.io/7invensun/llms/7invensun-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/7invensun-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/7invensun/refs/heads/main/packages/7invensun-packages.yml
+  href: https://artifacts.apis.io/7invensun/packages/7invensun-packages.yml
   title: ''
   type: Packages
   url: packages/7invensun-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/7invensun/refs/heads/main/plans/7invensun-plans-pricing.yml
+  href: https://artifacts.apis.io/7invensun/plans/7invensun-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/7invensun-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/7invensun/refs/heads/main/rate-limits/7invensun-rate-limits.yml
+  href: https://artifacts.apis.io/7invensun/rate-limits/7invensun-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/7invensun-rate-limits.yml
@@ -103,14 +105,14 @@ plans:
 - name: 7Invensun Plans Pricing
   plan_count: 0
   slug: 7invensun-plans-pricing
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: 7Invensun Rate Limits
   slug: 7invensun-rate-limits
 score:
   band: minimal
-  composite: 6.5
+  composite: 8.1
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -118,14 +120,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 5.3
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 3.6
-    discoverability: 55.4
-    operational_transparency: 2.6
+    developer_ergonomics: 7.1
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -133,21 +135,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 6.4
+  previous_composite: 8.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 7.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 9.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/7invensun/refs/heads/main/screenshots/7invensun-2026-10-11T092306.png
+screenshot: https://apis.io/screenshots/7invensun/7invensun-2026-10-11T092306.png
 security:
 - kind: domain-security
   name: 7Invensun Domain Security

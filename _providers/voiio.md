@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voiio/refs/heads/main/security/voiio-domain-security.yml
+  href: https://artifacts.apis.io/voiio/security/voiio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voiio-domain-security.yml
@@ -58,12 +60,12 @@ common:
   type: Documentation
   url: https://voiio.de/unsere-kernbereiche
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voiio/refs/heads/main/json-ld/voiio-context.jsonld
+  href: https://artifacts.apis.io/voiio/json-ld/voiio-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/voiio-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voiio/refs/heads/main/vocabulary/voiio-vocabulary.yml
+  href: https://artifacts.apis.io/voiio/vocabulary/voiio-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/voiio-vocabulary.yml
@@ -99,10 +101,10 @@ overview: 'Voiio is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Voiio''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
-random_paper: 0
+random_paper: 22
 score:
   band: emerging
-  composite: 16.8
+  composite: 17.1
   coverage:
     artifact_dirs: 6
     catalog_earned: 39.5
@@ -117,7 +119,7 @@ score:
     contract_quality: 10.7
     developer_ergonomics: 11.9
     discoverability: 55.4
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -126,21 +128,21 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 16.8
+  previous_composite: 17.1
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/voiio/refs/heads/main/screenshots/voiio-2026-06-20T201130.png
+screenshot: https://apis.io/screenshots/voiio/voiio-2026-06-20T201130.png
 security:
 - kind: domain-security
   name: Voiio Domain Security

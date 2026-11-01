@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Sempra Energy runs a Google Apigee API program. api.sempra.com is the Apigee runtime gateway — an unrouted request returns the genuine Apigee messaging.adaptors.http.flow.ApplicationNotFound JSON faul
@@ -42,42 +44,42 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sempra-energy/refs/heads/main/security/sempra-energy-domain-security.yml
+  href: https://artifacts.apis.io/sempra-energy/security/sempra-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sempra-energy-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sempra-energy/refs/heads/main/plans/sempra-energy-plans-pricing.yml
+  href: https://artifacts.apis.io/sempra-energy/plans/sempra-energy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sempra-energy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sempra-energy/refs/heads/main/rate-limits/sempra-energy-rate-limits.yml
+  href: https://artifacts.apis.io/sempra-energy/rate-limits/sempra-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sempra-energy-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sempra-energy/refs/heads/main/llms/sempra-energy-llms.txt
+  href: https://artifacts.apis.io/sempra-energy/llms/sempra-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sempra-energy-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sempra-energy/refs/heads/main/authentication/sempra-energy-authentication.yml
+  href: https://artifacts.apis.io/sempra-energy/authentication/sempra-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sempra-energy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sempra-energy/refs/heads/main/errors/sempra-energy-problem-types.yml
+  href: https://artifacts.apis.io/sempra-energy/errors/sempra-energy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sempra-energy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sempra-energy/refs/heads/main/conventions/sempra-energy-conventions.yml
+  href: https://artifacts.apis.io/sempra-energy/conventions/sempra-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sempra-energy-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sempra-energy/refs/heads/main/packages/sempra-energy-packages.yml
+  href: https://artifacts.apis.io/sempra-energy/packages/sempra-energy-packages.yml
   title: ''
   type: Packages
   url: packages/sempra-energy-packages.yml
@@ -152,14 +154,14 @@ press:
 - date: ''
   title: February 27, 2020 Sempra Energy ...
   url: https://www.sec.gov/Archives/edgar/data/0000086521/000008652120000003/ex9912019123110-k.htm
-random_paper: 1
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Sempra Energy Rate Limits
   slug: sempra-energy-rate-limits
 score:
-  band: minimal
-  composite: 10.5
+  band: emerging
+  composite: 13.0
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -169,11 +171,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 73.2
+    developer_ergonomics: 21.4
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -182,21 +184,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 10.5
+  previous_composite: 13.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sempra-energy/refs/heads/main/screenshots/sempra-energy-2026-10-11T125706.png
+screenshot: https://apis.io/screenshots/sempra-energy/sempra-energy-2026-10-11T125706.png
 security:
 - kind: authentication
   name: Sempra Energy Authentication

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 382
   human_in_the_loop: 22
@@ -755,11 +757,8 @@ apis:
   description: The Warehouses API from VTEX — 4 operation(s) for warehouses.
   name: VTEX Warehouses API
   slug: vtex-warehouses-api
-artifact_total: 1424
+artifact_total: 1423
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: VTex Anti-fraud Provider Account API
   slug: open-vtex-account-api
@@ -1185,17 +1184,17 @@ collections:
   slug: open-vtex-warehouses-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/plans/vtex-plans-pricing.yml
+  href: https://artifacts.apis.io/vtex/plans/vtex-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vtex-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/rate-limits/vtex-rate-limits.yml
+  href: https://artifacts.apis.io/vtex/rate-limits/vtex-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vtex-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/finops/vtex-finops.yml
+  href: https://artifacts.apis.io/vtex/finops/vtex-finops.yml
   title: ''
   type: FinOps
   url: finops/vtex-finops.yml
@@ -1204,27 +1203,27 @@ common:
   type: Website
   url: https://www.vtex.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/capabilities/vtex-capability-edges.yml
+  href: https://artifacts.apis.io/vtex/capabilities/vtex-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vtex-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/agentic-access/vtex-agentic-access.yml
+  href: https://artifacts.apis.io/vtex/agentic-access/vtex-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vtex-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/security/vtex-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/vtex/security/vtex-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vtex-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/security/vtex-domain-security.yml
+  href: https://artifacts.apis.io/vtex/security/vtex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vtex-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/authentication/vtex-authentication.yml
+  href: https://artifacts.apis.io/vtex/authentication/vtex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vtex-authentication.yml
@@ -1277,17 +1276,17 @@ common:
   type: Support Plan
   url: https://help.vtex.com/en/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/rules/vtex-rules.yml
+  href: https://artifacts.apis.io/vtex/rules/vtex-rules.yml
   title: ''
   type: SpectralRules
   url: rules/vtex-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/vocabulary/vtex-vocabulary.yml
+  href: https://artifacts.apis.io/vtex/vocabulary/vtex-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/vtex-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/json-ld/vtex-context.jsonld
+  href: https://artifacts.apis.io/vtex/json-ld/vtex-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/vtex-context.jsonld
@@ -4685,7 +4684,7 @@ plans:
 - name: Vtex Plans Pricing
   plan_count: 2
   slug: vtex-plans-pricing
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Vtex Rate Limits
@@ -4716,7 +4715,7 @@ rules:
   slug: vtex-rules
 score:
   band: developing
-  composite: 46.1
+  composite: 41.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 65.0
@@ -4724,15 +4723,15 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
-    contract_quality: 56.9
+    contract_quality: 55.0
     developer_ergonomics: 45.2
     discoverability: 71.4
-    operational_transparency: 44.7
-  previous_composite: 47.7
+    operational_transparency: 55.3
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -4746,13 +4745,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/screenshots/vtex-2026-06-20T201148.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vtex/vtex-2026-06-20T201148.png
 security:
 - kind: authentication
   name: Vtex Authentication

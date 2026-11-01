@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: Void authorized, captured, or credited transactions
   name: Visa Acceptance Voids API
   slug: visa-acceptance-voids-api
-artifact_total: 30
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Visa Acceptance Payments Captures API
   slug: open-visa-acceptance-captures-api
@@ -103,37 +102,37 @@ collections:
   slug: open-visa-acceptance-voids-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/plans/visa-acceptance-plans-pricing.yml
+  href: https://artifacts.apis.io/visa-acceptance/plans/visa-acceptance-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/visa-acceptance-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/rate-limits/visa-acceptance-rate-limits.yml
+  href: https://artifacts.apis.io/visa-acceptance/rate-limits/visa-acceptance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/visa-acceptance-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/finops/visa-acceptance-finops.yml
+  href: https://artifacts.apis.io/visa-acceptance/finops/visa-acceptance-finops.yml
   title: ''
   type: FinOps
   url: finops/visa-acceptance-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/capabilities/visa-acceptance-capability-edges.yml
+  href: https://artifacts.apis.io/visa-acceptance/capabilities/visa-acceptance-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/visa-acceptance-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/agentic-access/visa-acceptance-agentic-access.yml
+  href: https://artifacts.apis.io/visa-acceptance/agentic-access/visa-acceptance-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/visa-acceptance-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/security/visa-acceptance-domain-security.yml
+  href: https://artifacts.apis.io/visa-acceptance/security/visa-acceptance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/visa-acceptance-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/authentication/visa-acceptance-authentication.yml
+  href: https://artifacts.apis.io/visa-acceptance/authentication/visa-acceptance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/visa-acceptance-authentication.yml
@@ -166,22 +165,22 @@ common:
   type: ResponseCodes
   url: https://developer.visaacceptance.com/api/reference/response-codes.html
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/json-schema/visa-acceptance-payment-schema.json
+  href: https://artifacts.apis.io/visa-acceptance/json-schema/visa-acceptance-payment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/visa-acceptance-payment-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/json-ld/visa-acceptance-context.jsonld
+  href: https://artifacts.apis.io/visa-acceptance/json-ld/visa-acceptance-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/visa-acceptance-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/vocabulary/visa-acceptance-vocabulary.yml
+  href: https://artifacts.apis.io/visa-acceptance/vocabulary/visa-acceptance-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/visa-acceptance-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/rules/visa-acceptance-rules.yml
+  href: https://artifacts.apis.io/visa-acceptance/rules/visa-acceptance-rules.yml
   title: ''
   type: SpectralRules
   url: rules/visa-acceptance-rules.yml
@@ -245,7 +244,7 @@ plans:
 - name: Visa Acceptance Plans Pricing
   plan_count: 1
   slug: visa-acceptance-plans-pricing
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Visa Acceptance Rate Limits
@@ -276,7 +275,7 @@ rules:
   slug: visa-acceptance-rules
 score:
   band: thin
-  composite: 34.4
+  composite: 35.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 53.0
@@ -284,15 +283,15 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 57.4
     developer_ergonomics: 45.2
     discoverability: 64.3
-    operational_transparency: 7.9
-  previous_composite: 35.9
+    operational_transparency: 10.5
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -306,13 +305,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/screenshots/visa-acceptance-2026-06-20T201047.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/visa-acceptance/visa-acceptance-2026-06-20T201047.png
 security:
 - kind: authentication
   name: Visa Acceptance Authentication

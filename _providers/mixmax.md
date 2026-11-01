@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.1
-  scored_at: '2026-10-17'
+  score: 53.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -74,15 +76,12 @@ apis:
   description: Snippet tag management
   name: Mixmax Snippet Tags API
   slug: mixmax-snippet-tags-api
-artifact_total: 22
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Mixmax Webhooks
   slug: mixmax-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mixmax REST Contact Groups API
   slug: open-mixmax-contact-groups-api
@@ -103,27 +102,27 @@ collections:
   slug: open-mixmax-snippet-tags-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/rate-limits/mixmax-rate-limits.yml
+  href: https://artifacts.apis.io/mixmax/rate-limits/mixmax-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mixmax-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/mcp/mixmax-mcp.yml
+  href: https://artifacts.apis.io/mixmax/mcp/mixmax-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mixmax-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/overlays/mixmax-openapi-overlay.yaml
+  href: https://artifacts.apis.io/mixmax/overlays/mixmax-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mixmax-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/agentic-access/mixmax-agentic-access.yml
+  href: https://artifacts.apis.io/mixmax/agentic-access/mixmax-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mixmax-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/security/mixmax-trust-center.yml
+  href: https://artifacts.apis.io/mixmax/security/mixmax-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mixmax-trust-center.yml
@@ -132,22 +131,22 @@ common:
   type: Compliance
   url: https://www.mixmax.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/security/mixmax-domain-security.yml
+  href: https://artifacts.apis.io/mixmax/security/mixmax-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mixmax-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/packages/mixmax-packages.yml
+  href: https://artifacts.apis.io/mixmax/packages/mixmax-packages.yml
   title: ''
   type: Packages
   url: packages/mixmax-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/packages/mixmax-packages.yml
+  href: https://artifacts.apis.io/mixmax/packages/mixmax-packages.yml
   title: ''
   type: SDKs
   url: packages/mixmax-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mixmax/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -208,38 +207,46 @@ common:
   type: Website
   url: https://www.mixmax.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/mcp/mixmax-tool-crosswalk.yml
+  href: https://artifacts.apis.io/mixmax/mcp/mixmax-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/mixmax-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/scopes/mixmax-scopes.yml
+  href: https://artifacts.apis.io/mixmax/scopes/mixmax-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mixmax-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/asyncapi/mixmax-webhooks.yml
+  href: https://artifacts.apis.io/mixmax/asyncapi/mixmax-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mixmax-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/plans/mixmax-plans-pricing.yml
+  href: https://artifacts.apis.io/mixmax/plans/mixmax-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mixmax-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/changelog/mixmax-changelog.yml
+  href: https://artifacts.apis.io/mixmax/changelog/mixmax-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mixmax-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/errors/mixmax-problem-types.yml
+  href: https://artifacts.apis.io/mixmax/errors/mixmax-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mixmax-problem-types.yml
 created: '2026-07-17'
 description: Mixmax is an AI-native sales engagement and execution platform that lives inside Gmail and Outlook, helping sales, customer success, recruiting, and other relationship-driven teams run their entire customer journey without context-switching. It combines email tracking and templates, multi-channel sequences, one-click scheduling, CRM automation, engagement signals, and Meeting Copilot summaries and transcripts. Mixmax exposes a public REST API (api.mixmax.com/v1) for lightweight real-time access to contacts, contact groups, sequences and recipients, file requests, meeting summaries and transcripts, and snippet tags, authenticated with an API token, plus message integrations and Sidebar/Widget SDKs for extending the product surface. Since April 2026 Mixmax also runs a first-party remote MCP server at mcp.mixmax.com/mcp — read-only, OAuth 2.0 with PKCE against its own OpenID Connect provider, scoped meetings:read — together with six installable Claude Skills, a rule-driven incoming
   and outgoing webhook surface with a documented event catalog, and published per-tier pricing.
+finops:
+- has_sources: true
+  method: derived
+  name: Mixmax Finops
+  primary_unit: user
+  service_category: ''
+  slug: mixmax-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mixmax.png
 layout: provider
 mcp_servers:
@@ -259,9 +266,12 @@ overview: 'Mixmax publishes 6 API contracts indexed on the [APIs.io](https://api
   Mixmax''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 plans:
 - name: Mixmax Plans Pricing
-  plan_count: 6
+  plan_count: 8
   slug: mixmax-plans-pricing
-random_paper: 0
+- name: Mixmax Price Estimates
+  plan_count: 0
+  slug: mixmax-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Mixmax Rate Limits
@@ -273,23 +283,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: strong
-  composite: 54.8
+  composite: 60.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 57.0
+    artifact_dirs: 26
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 25.0
-    developer_ergonomics: 52.4
-    discoverability: 73.2
-    operational_transparency: 55.3
-  previous_composite: 54.7
+    contract_quality: 21.6
+    developer_ergonomics: 71.4
+    discoverability: 65.0
+    operational_transparency: 65.8
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -312,13 +322,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/screenshots/mixmax-2026-08-07T183824.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mixmax/mixmax-2026-08-07T183824.png
 security:
 - kind: authentication
   name: Mixmax Authentication
@@ -332,6 +343,14 @@ security:
   name: Mixmax Trust Center
   slug: mixmax-trust-center
   summary_line: SOC 2, HIPAA, GDPR
+skill_count: 3
+skills:
+- name: List sequences and page through their recipients
+  slug: mixmax-audit-sequence-recipients
+- name: Pull Mixmax meeting summaries and transcripts
+  slug: mixmax-pull-meeting-intelligence
+- name: Search and read Mixmax contacts
+  slug: mixmax-search-contacts
 slug: mixmax
 tags:
 - Company

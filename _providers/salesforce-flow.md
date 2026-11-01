@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -77,9 +79,6 @@ collections:
   name: Salesforce Flow REST Flow Definitions Invocable Actions API
   slug: postman-salesforce-flow-invocable-actions-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Salesforce Flow REST Flow Definitions API
   slug: open-salesforce-flow-flow-definitions-api
 - collection_type: open
@@ -93,12 +92,12 @@ collections:
   slug: open-salesforce-flow-rest-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/plans/salesforce-flow-plans-pricing.yml
+  href: https://artifacts.apis.io/salesforce-flow/plans/salesforce-flow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/salesforce-flow-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/finops/salesforce-flow-finops.yml
+  href: https://artifacts.apis.io/salesforce-flow/finops/salesforce-flow-finops.yml
   title: ''
   type: FinOps
   url: finops/salesforce-flow-finops.yml
@@ -111,22 +110,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/salesforce-flow/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/agentic-access/salesforce-flow-agentic-access.yml
+  href: https://artifacts.apis.io/salesforce-flow/agentic-access/salesforce-flow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/salesforce-flow-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/security/salesforce-flow-domain-security.yml
+  href: https://artifacts.apis.io/salesforce-flow/security/salesforce-flow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/salesforce-flow-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/authentication/salesforce-flow-authentication.yml
+  href: https://artifacts.apis.io/salesforce-flow/authentication/salesforce-flow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/salesforce-flow-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/scopes/salesforce-flow-scopes.yml
+  href: https://artifacts.apis.io/salesforce-flow/scopes/salesforce-flow-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/salesforce-flow-scopes.yml
@@ -171,27 +170,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/salesforce
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/rules/salesforce-flow-rules.yml
+  href: https://artifacts.apis.io/salesforce-flow/rules/salesforce-flow-rules.yml
   title: ''
   type: SpectralRules
   url: rules/salesforce-flow-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/json-schema/salesforce-flow-flow-definition-schema.json
+  href: https://artifacts.apis.io/salesforce-flow/json-schema/salesforce-flow-flow-definition-schema.json
   title: Flow Definition Schema
   type: JSONSchema
   url: json-schema/salesforce-flow-flow-definition-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/json-schema/salesforce-flow-flow-interview-schema.json
+  href: https://artifacts.apis.io/salesforce-flow/json-schema/salesforce-flow-flow-interview-schema.json
   title: Flow Interview Schema
   type: JSONSchema
   url: json-schema/salesforce-flow-flow-interview-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/json-ld/salesforce-flow-context.jsonld
+  href: https://artifacts.apis.io/salesforce-flow/json-ld/salesforce-flow-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/salesforce-flow-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/vocabulary/salesforce-flow-vocabulary.yml
+  href: https://artifacts.apis.io/salesforce-flow/vocabulary/salesforce-flow-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/salesforce-flow-vocabulary.yml
@@ -210,10 +209,10 @@ examples:
   slug: salesforce-flow-list-flows-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Salesforce Flow Finops
-  primary_unit: ''
-  service_category: Workflow Automation
+  primary_unit: user
+  service_category: ''
   slug: salesforce-flow-finops
   template: false
 json_schemas:
@@ -246,9 +245,12 @@ overview: 'Salesforce Flow publishes 5 API contracts indexed on the [APIs.io](ht
   Salesforce Flow''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, and 19 more developer resources.'
 plans:
 - name: Salesforce Flow Plans Pricing
-  plan_count: 1
+  plan_count: 8
   slug: salesforce-flow-plans-pricing
-random_paper: 8
+- name: Salesforce Flow Price Estimates
+  plan_count: 0
+  slug: salesforce-flow-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Salesforce Flow Rate Limits
@@ -283,23 +285,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.6
+  composite: 51.9
   coverage:
     artifact_dirs: 20
-    catalog_earned: 54.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.3
+    catalog_earned: 67.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 3.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 60.5
     contract_governance: 23.5
     contract_quality: 57.9
-    developer_ergonomics: 34.5
+    developer_ergonomics: 46.4
     discoverability: 69.6
-    operational_transparency: 15.8
-  previous_composite: 42.1
+    operational_transparency: 26.3
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -313,13 +315,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/screenshots/salesforce-flow-2026-06-20T193348.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/salesforce-flow/salesforce-flow-2026-06-20T193348.png
 security:
 - kind: authentication
   name: Salesforce Flow Authentication

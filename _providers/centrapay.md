@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.3
-  scored_at: '2026-10-17'
+  score: 37.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -41,122 +43,122 @@ apis:
 artifact_total: 11
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/agentic-access/centrapay-agentic-access.yml
+  href: https://artifacts.apis.io/centrapay/agentic-access/centrapay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/centrapay-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/rate-limits/centrapay-rate-limits.yml
+  href: https://artifacts.apis.io/centrapay/rate-limits/centrapay-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/centrapay-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/rules/centrapay-rules.yml
+  href: https://artifacts.apis.io/centrapay/rules/centrapay-rules.yml
   title: ''
   type: Spectral
   url: rules/centrapay-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/rules/centrapay-centrapay-docs-spectral-rules.yml
+  href: https://artifacts.apis.io/centrapay/rules/centrapay-centrapay-docs-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/centrapay-centrapay-docs-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/json-ld/centrapay-context.jsonld
+  href: https://artifacts.apis.io/centrapay/json-ld/centrapay-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/centrapay-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/vocabulary/centrapay-vocabulary.yml
+  href: https://artifacts.apis.io/centrapay/vocabulary/centrapay-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/centrapay-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/centrapay/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/data-model/centrapay-data-model.yml
+  href: https://artifacts.apis.io/centrapay/data-model/centrapay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/centrapay-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/components/centrapay-components.yml
+  href: https://artifacts.apis.io/centrapay/components/centrapay-components.yml
   title: ''
   type: Components
   url: components/centrapay-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/conventions/centrapay-conventions.yml
+  href: https://artifacts.apis.io/centrapay/conventions/centrapay-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/centrapay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/conventions/centrapay-conventions.yml
+  href: https://artifacts.apis.io/centrapay/conventions/centrapay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/centrapay-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/sandbox/centrapay-sandbox.yml
+  href: https://artifacts.apis.io/centrapay/sandbox/centrapay-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/centrapay-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/scopes/centrapay-scopes.yml
+  href: https://artifacts.apis.io/centrapay/scopes/centrapay-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/centrapay-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/lifecycle/centrapay-lifecycle.yml
+  href: https://artifacts.apis.io/centrapay/lifecycle/centrapay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/centrapay-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/errors/centrapay-decline-codes.yml
+  href: https://artifacts.apis.io/centrapay/errors/centrapay-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/centrapay-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/errors/centrapay-problem-types.yml
+  href: https://artifacts.apis.io/centrapay/errors/centrapay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/centrapay-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/conformance/centrapay-conformance.yml
+  href: https://artifacts.apis.io/centrapay/conformance/centrapay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/centrapay-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/overlays/centrapay-openapi-overlay.yaml
+  href: https://artifacts.apis.io/centrapay/overlays/centrapay-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/centrapay-openapi-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/hosts/centrapay-hosts.yml
+  href: https://artifacts.apis.io/centrapay/hosts/centrapay-hosts.yml
   title: ''
   type: Hosts
   url: hosts/centrapay-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/vendors/centrapay-vendors.yml
+  href: https://artifacts.apis.io/centrapay/vendors/centrapay-vendors.yml
   title: ''
   type: Vendors
   url: vendors/centrapay-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/packages/centrapay-packages.yml
+  href: https://artifacts.apis.io/centrapay/packages/centrapay-packages.yml
   title: ''
   type: SDKs
   url: packages/centrapay-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/packages/centrapay-packages.yml
+  href: https://artifacts.apis.io/centrapay/packages/centrapay-packages.yml
   title: ''
   type: Packages
   url: packages/centrapay-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/authentication/centrapay-authentication.yml
+  href: https://artifacts.apis.io/centrapay/authentication/centrapay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/centrapay-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/security/centrapay-domain-security.yml
+  href: https://artifacts.apis.io/centrapay/security/centrapay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/centrapay-domain-security.yml
@@ -228,7 +230,7 @@ plans:
 - name: Centrapay Plans Pricing
   plan_count: 0
   slug: centrapay-plans-pricing
-random_paper: 21
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Centrapay Rate Limits
@@ -265,15 +267,15 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 47.9
+  composite: 48.6
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 55.8
     catalog_earned_first_party: 8.0
     catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 35.6
@@ -281,7 +283,7 @@ score:
     developer_ergonomics: 63.7
     discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 53.5
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -298,13 +300,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/screenshots/centrapay-2026-10-11T103022.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/centrapay/centrapay-2026-10-11T103022.png
 security:
 - kind: authentication
   name: Centrapay Authentication

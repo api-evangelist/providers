@@ -29,29 +29,31 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.3
-  scored_at: '2026-10-17'
+  score: 44.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Matchory Discovery API exposes the resolved-and-enriched supplier data layer — verified supplier profiles, MatchoryID identity resolution, portfolio consolidation, risk signals, and market intelli
   name: Matchory Discovery API
   slug: matchory-discovery-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Matchory Webhooks
   slug: matchory-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/security/matchory-domain-security.yml
+  href: https://artifacts.apis.io/matchory/security/matchory-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/matchory-domain-security.yml
@@ -92,37 +94,37 @@ common:
   type: GitHubOrganization
   url: https://github.com/matchory
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/mcp/matchory-mcp.yml
+  href: https://artifacts.apis.io/matchory/mcp/matchory-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/matchory-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/authentication/matchory-authentication.yml
+  href: https://artifacts.apis.io/matchory/authentication/matchory-authentication.yml
   title: ''
   type: Authentication
   url: authentication/matchory-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/scopes/matchory-scopes.yml
+  href: https://artifacts.apis.io/matchory/scopes/matchory-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/matchory-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/well-known/matchory-openid-configuration.json
+  href: https://artifacts.apis.io/matchory/well-known/matchory-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/matchory-openid-configuration.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/well-known/matchory-well-known.yml
+  href: https://artifacts.apis.io/matchory/well-known/matchory-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/matchory-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/asyncapi/matchory-webhooks.yml
+  href: https://artifacts.apis.io/matchory/asyncapi/matchory-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/matchory-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/conformance/matchory-conformance.yml
+  href: https://artifacts.apis.io/matchory/conformance/matchory-conformance.yml
   title: ''
   type: Conformance
   url: conformance/matchory-conformance.yml
@@ -131,37 +133,37 @@ common:
   type: Compliance
   url: https://matchory.com/en/technology
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/llms/matchory-llms.txt
+  href: https://artifacts.apis.io/matchory/llms/matchory-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/matchory-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/packages/matchory-packages.yml
+  href: https://artifacts.apis.io/matchory/packages/matchory-packages.yml
   title: ''
   type: Packages
   url: packages/matchory-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/plans/matchory-plans-pricing.yml
+  href: https://artifacts.apis.io/matchory/plans/matchory-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/matchory-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/rate-limits/matchory-rate-limits.yml
+  href: https://artifacts.apis.io/matchory/rate-limits/matchory-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/matchory-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/lifecycle/matchory-lifecycle.yml
+  href: https://artifacts.apis.io/matchory/lifecycle/matchory-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/matchory-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/conventions/matchory-conventions.yml
+  href: https://artifacts.apis.io/matchory/conventions/matchory-conventions.yml
   title: ''
   type: Conventions
   url: conventions/matchory-conventions.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/well-known/matchory-robots.txt
+  href: https://artifacts.apis.io/matchory/well-known/matchory-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/matchory-robots.txt
@@ -189,6 +191,14 @@ coverage:
   state: gated
 created: '2026-07-17'
 description: Matchory (Matchory GmbH) is a Munich-based supplier data platform for enterprise procurement. It resolves fragmented, duplicated supplier records from spreadsheets and ERP systems into a single stable identity — the MatchoryID — with 90%+ accuracy, then continuously enriches each supplier with verified profiles, market intelligence, and five-dimension risk signals (financial, country, supply-chain, compliance, ESG) drawn from a database of 15M+ verified global suppliers. Procurement teams and AI agents reach the data through a web UI, a REST/GraphQL API, webhooks, and a first-party OAuth-protected Model Context Protocol (MCP) server, letting assistants such as Claude and Microsoft Copilot ground answers in source-traceable, confidence-scored supplier data. The platform is EU-sovereign — hosted in Germany, GDPR-compliant, and ISO 27001 certified — and is used by enterprise procurement organizations including Bosch, Kärcher, Deutsche Bahn, E.ON, DMG Mori, and Trumpf.
+finops:
+- has_sources: true
+  method: derived
+  name: Matchory Finops
+  primary_unit: ''
+  service_category: ''
+  slug: matchory-finops
+  template: true
 image: https://cdn.prod.website-files.com/6784f7971856e0304b40e3de/679028bece9dccdfc4e67c4e_favicon.svg
 layout: provider
 mcp_servers:
@@ -213,7 +223,7 @@ plans:
 - name: Matchory Plans Pricing
   plan_count: 3
   slug: matchory-plans-pricing
-random_paper: 13
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Matchory Rate Limits
@@ -225,22 +235,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 48.9
+  composite: 48.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 38.1
-    discoverability: 75.0
-    operational_transparency: 10.5
+    discoverability: 65.0
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -249,7 +259,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 48.8
+  previous_composite: 48.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -263,14 +273,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/screenshots/matchory-2026-07-25T230348.png
+screenshot: https://apis.io/screenshots/matchory/matchory-2026-07-25T230348.png
 security:
 - kind: authentication
   name: Matchory Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Track and recording details
   name: Warner Music Group Tracks API
   slug: warner-music-group-tracks-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Warner Music Group Licensing Artists API
   slug: open-warner-music-group-artists-api
@@ -86,42 +85,42 @@ collections:
   slug: open-warner-music-group-tracks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/plans/warner-music-group-plans-pricing.yml
+  href: https://artifacts.apis.io/warner-music-group/plans/warner-music-group-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/warner-music-group-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/rate-limits/warner-music-group-rate-limits.yml
+  href: https://artifacts.apis.io/warner-music-group/rate-limits/warner-music-group-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/warner-music-group-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/finops/warner-music-group-finops.yml
+  href: https://artifacts.apis.io/warner-music-group/finops/warner-music-group-finops.yml
   title: ''
   type: FinOps
   url: finops/warner-music-group-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/capabilities/warner-music-group-capability-edges.yml
+  href: https://artifacts.apis.io/warner-music-group/capabilities/warner-music-group-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/warner-music-group-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/agentic-access/warner-music-group-agentic-access.yml
+  href: https://artifacts.apis.io/warner-music-group/agentic-access/warner-music-group-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/warner-music-group-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/security/warner-music-group-domain-security.yml
+  href: https://artifacts.apis.io/warner-music-group/security/warner-music-group-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/warner-music-group-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/authentication/warner-music-group-authentication.yml
+  href: https://artifacts.apis.io/warner-music-group/authentication/warner-music-group-authentication.yml
   title: ''
   type: Authentication
   url: authentication/warner-music-group-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/scopes/warner-music-group-scopes.yml
+  href: https://artifacts.apis.io/warner-music-group/scopes/warner-music-group-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/warner-music-group-scopes.yml
@@ -171,7 +170,7 @@ finops:
 - has_sources: false
   method: generated
   name: Warner Music Group Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: warner-music-group-finops
   template: true
@@ -221,7 +220,7 @@ press:
 - date: ''
   title: WARNER MUSIC GROUP AND SUNO FORGE ...
   url: https://www.wmg.com/news/warner-music-group-and-suno-forge-groundbreaking-partnership
-random_paper: 21
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Warner Music Group Rate Limits
@@ -257,7 +256,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.4
+  composite: 36.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 68.4
@@ -265,7 +264,7 @@ score:
     catalog_gap: 46.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
@@ -273,7 +272,7 @@ score:
     developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 13.2
-  previous_composite: 36.9
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -287,13 +286,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/screenshots/warner-music-group-2026-06-20T201229.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/warner-music-group/warner-music-group-2026-06-20T201229.png
 security:
 - kind: authentication
   name: Warner Music Group Authentication

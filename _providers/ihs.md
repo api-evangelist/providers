@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/s-and-p-global/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ihs/refs/heads/main/security/ihs-domain-security.yml
+  href: https://artifacts.apis.io/ihs/security/ihs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ihs-domain-security.yml
@@ -86,7 +88,7 @@ press:
 - date: ''
   title: Health IT-enabled infrastructure helps reduce American ...
   url: https://healthit.gov/blog/electronic-health-and-medical-records/health-itenabled-infrastructure-helps-reduce-american-indian-alaska-natives-health-disparities/
-random_paper: 16
+random_paper: 12
 score:
   band: minimal
   composite: 3.6
@@ -112,14 +114,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ihs/refs/heads/main/screenshots/ihs-2026-06-20T183228.png
+screenshot: https://apis.io/screenshots/ihs/ihs-2026-06-20T183228.png
 security:
 - kind: domain-security
   name: Ihs Domain Security

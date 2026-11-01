@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -65,7 +67,7 @@ common:
   type: PrivacyPolicy
   url: https://anduintransact.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anduin/refs/heads/main/security/anduin-trust-center.yml
+  href: https://artifacts.apis.io/anduin/security/anduin-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/anduin-trust-center.yml
@@ -78,27 +80,27 @@ common:
   type: Security
   url: https://anduintransact.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anduin/refs/heads/main/security/anduin-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/anduin/security/anduin-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/anduin-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anduin/refs/heads/main/security/anduin-domain-security.yml
+  href: https://artifacts.apis.io/anduin/security/anduin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anduin-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anduin/refs/heads/main/well-known/anduin-security.txt
+  href: https://artifacts.apis.io/anduin/well-known/anduin-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/anduin-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anduin/refs/heads/main/well-known/anduin-well-known.yml
+  href: https://artifacts.apis.io/anduin/well-known/anduin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/anduin-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anduin/refs/heads/main/llms/anduin-llms.txt
+  href: https://artifacts.apis.io/anduin/llms/anduin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anduin-llms.txt
@@ -114,10 +116,10 @@ overview: 'Anduin is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Anduin''s developer surface includes engineering blog and 14 more developer resources.'
-random_paper: 1
+random_paper: 15
 score:
   band: emerging
-  composite: 17.1
+  composite: 18.8
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -127,27 +129,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
-    operational_transparency: 7.9
-  previous_composite: 17.1
+    discoverability: 48.2
+    operational_transparency: 15.8
+  previous_composite: 18.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/anduin/refs/heads/main/screenshots/anduin-2026-07-25T200230.png
+screenshot: https://apis.io/screenshots/anduin/anduin-2026-07-25T200230.png
 security:
 - kind: domain-security
   name: Anduin Domain Security

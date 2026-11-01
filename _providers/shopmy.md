@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 34.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -76,15 +78,12 @@ apis:
   description: OAuth token exchange for developer applications.
   name: ShopMy O Auth API
   slug: shopmy-oauth-api
-artifact_total: 21
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Shopmy Tracking Events
   slug: shopmy-tracking-events
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ShopMy Partners Catalog API
   slug: open-shopmy-catalog-api
@@ -105,7 +104,12 @@ collections:
   slug: open-shopmy-profile-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/overlays/shopmy-partners-overlay.yaml
+  href: https://artifacts.apis.io/shopmy/capabilities/shopmy-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shopmy-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/shopmy/overlays/shopmy-partners-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shopmy-partners-overlay.yaml
@@ -126,52 +130,52 @@ common:
   type: GettingStarted
   url: https://docs.shopmy.us/reference/getting-started-with-your-api
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/authentication/shopmy-authentication.yml
+  href: https://artifacts.apis.io/shopmy/authentication/shopmy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shopmy-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/scopes/shopmy-scopes.yml
+  href: https://artifacts.apis.io/shopmy/scopes/shopmy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/shopmy-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/conventions/shopmy-conventions.yml
+  href: https://artifacts.apis.io/shopmy/conventions/shopmy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shopmy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/errors/shopmy-problem-types.yml
+  href: https://artifacts.apis.io/shopmy/errors/shopmy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shopmy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/errors/shopmy-outcome-codes.yml
+  href: https://artifacts.apis.io/shopmy/errors/shopmy-outcome-codes.yml
   title: ''
   type: ErrorCodes
   url: errors/shopmy-outcome-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/conventions/shopmy-conventions.yml
+  href: https://artifacts.apis.io/shopmy/conventions/shopmy-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/shopmy-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/rate-limits/shopmy-rate-limits.yml
+  href: https://artifacts.apis.io/shopmy/rate-limits/shopmy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shopmy-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/plans/shopmy-plans-pricing.yml
+  href: https://artifacts.apis.io/shopmy/plans/shopmy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/shopmy-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/packages/shopmy-packages.yml
+  href: https://artifacts.apis.io/shopmy/packages/shopmy-packages.yml
   title: ''
   type: Packages
   url: packages/shopmy-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/asyncapi/shopmy-tracking-events.yml
+  href: https://artifacts.apis.io/shopmy/asyncapi/shopmy-tracking-events.yml
   title: ''
   type: EventCatalog
   url: asyncapi/shopmy-tracking-events.yml
@@ -180,47 +184,47 @@ common:
   type: Compliance
   url: https://docs.shopmy.us/reference/privacy-and-data-handling
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/lifecycle/shopmy-lifecycle.yml
+  href: https://artifacts.apis.io/shopmy/lifecycle/shopmy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shopmy-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/data-model/shopmy-data-model.yml
+  href: https://artifacts.apis.io/shopmy/data-model/shopmy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shopmy-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/sandbox/shopmy-sandbox.yml
+  href: https://artifacts.apis.io/shopmy/sandbox/shopmy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/shopmy-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/conformance/shopmy-conformance.yml
+  href: https://artifacts.apis.io/shopmy/conformance/shopmy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shopmy-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/mcp/shopmy-mcp.yml
+  href: https://artifacts.apis.io/shopmy/mcp/shopmy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/shopmy-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/shopmy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/agentic-access/shopmy-agentic-access.yml
+  href: https://artifacts.apis.io/shopmy/agentic-access/shopmy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shopmy-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/llms/shopmy-llms.txt
+  href: https://artifacts.apis.io/shopmy/llms/shopmy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shopmy-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/security/shopmy-domain-security.yml
+  href: https://artifacts.apis.io/shopmy/security/shopmy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shopmy-domain-security.yml
@@ -250,6 +254,14 @@ common:
   url: https://shopmy.us/home
 created: '2026-07-17'
 description: ShopMy is a creator-commerce and influencer-marketing platform connecting top brands with content creators across beauty, fashion, and lifestyle. Creators build curated digital shops and earn performance commissions (typically 10-30%) plus paid brand partnerships, while brands run affiliate programs, product gifting (Lookbooks), and performance budgets (Opportunities). The ShopMy Partners API lets Brand Partners pull detailed affiliate order reports, and lets OAuth developer applications create and read product links, manage shelf collections, resolve and rate product URLs, search the catalog, and read public profile information on behalf of authenticated ShopMy users. Backed by Bain Capital Ventures, Bessemer Venture Partners, and Menlo Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Shopmy Finops
+  primary_unit: ''
+  service_category: ''
+  slug: shopmy-finops
+  template: true
 image: https://shopmy.us/favicon.ico
 layout: provider
 modified: '2026-08-13'
@@ -262,12 +274,12 @@ overview: 'ShopMy publishes 7 API contracts indexed on the [APIs.io](https://api
   The ShopMy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ShopMy''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, signup flow, and 24 more developer resources.'
+  ShopMy''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, signup flow, and 25 more developer resources.'
 plans:
 - name: Shopmy Plans Pricing
   plan_count: 0
   slug: shopmy-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Shopmy Rate Limits
@@ -279,9 +291,9 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.2
+  composite: 51.5
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 29
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -289,13 +301,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 58.8
-    developer_ergonomics: 38.7
-    discoverability: 73.2
+    developer_ergonomics: 66.1
+    discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 42.2
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -311,14 +323,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 39.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/screenshots/shopmy-2026-08-17T081840.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/shopmy/shopmy-2026-08-17T081840.png
 security:
 - kind: authentication
   name: Shopmy Authentication
@@ -328,6 +341,16 @@ security:
   name: Shopmy Domain Security
   slug: shopmy-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: Build and edit a ShopMy collection
+  slug: shopmy-build-collection
+- name: Create a ShopMy product link
+  slug: shopmy-create-product-link
+- name: Pull a ShopMy brand order report
+  slug: shopmy-pull-order-report
+- name: Report a ShopMy order for commission attribution
+  slug: shopmy-report-order-for-attribution
 slug: shopmy
 tags:
 - Company

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 32
   slug: goatcounter-agentic-access
   summary_line: 32 operations · 8 acting
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://{code}.goatcounter.com/api/v0
   baseurl_source: declared
@@ -89,11 +91,8 @@ apis:
   description: The stats API from GoatCounter — 5 operation(s) for stats.
   name: GoatCounter Stats API
   slug: goatcounter-stats-api
-artifact_total: 24
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: GoatCounter Exports API
   slug: open-goatcounter-exports-api
@@ -116,18 +115,23 @@ collections:
   name: GoatCounter API
   slug: open-goatcounter
 common:
+- group: other
+  href: https://artifacts.apis.io/goatcounter/capabilities/goatcounter-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/goatcounter-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/agentic-access/goatcounter-agentic-access.yml
+  href: https://artifacts.apis.io/goatcounter/agentic-access/goatcounter-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/goatcounter-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/security/goatcounter-domain-security.yml
+  href: https://artifacts.apis.io/goatcounter/security/goatcounter-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/goatcounter-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/authentication/goatcounter-authentication.yml
+  href: https://artifacts.apis.io/goatcounter/authentication/goatcounter-authentication.yml
   title: ''
   type: Authentication
   url: authentication/goatcounter-authentication.yml
@@ -148,7 +152,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/arp242/goatcounter
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/_original/goatcounter-api-swagger20.json
+  href: https://artifacts.apis.io/goatcounter/openapi/_original/goatcounter-api-swagger20.json
   title: ''
   type: OpenAPI
   url: openapi/_original/goatcounter-api-swagger20.json
@@ -185,103 +189,103 @@ common:
   type: Security
   url: https://www.goatcounter.com/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/well-known/goatcounter-security.txt
+  href: https://artifacts.apis.io/goatcounter/well-known/goatcounter-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/goatcounter-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/security/goatcounter-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/goatcounter/security/goatcounter-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/goatcounter-vulnerability-disclosure.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/packages/goatcounter-packages.yml
+  href: https://artifacts.apis.io/goatcounter/packages/goatcounter-packages.yml
   title: ''
   type: Packages
   url: packages/goatcounter-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/cli/goatcounter-cli.yml
+  href: https://artifacts.apis.io/goatcounter/cli/goatcounter-cli.yml
   title: ''
   type: CLI
   url: cli/goatcounter-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/components/goatcounter-components.yml
+  href: https://artifacts.apis.io/goatcounter/components/goatcounter-components.yml
   title: ''
   type: Components
   url: components/goatcounter-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/sandbox/goatcounter-sandbox.yml
+  href: https://artifacts.apis.io/goatcounter/sandbox/goatcounter-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/goatcounter-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/conventions/goatcounter-conventions.yml
+  href: https://artifacts.apis.io/goatcounter/conventions/goatcounter-conventions.yml
   title: ''
   type: Conventions
   url: conventions/goatcounter-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/errors/goatcounter-problem-types.yml
+  href: https://artifacts.apis.io/goatcounter/errors/goatcounter-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/goatcounter-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/data-model/goatcounter-data-model.yml
+  href: https://artifacts.apis.io/goatcounter/data-model/goatcounter-data-model.yml
   title: ''
   type: DataModel
   url: data-model/goatcounter-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/lifecycle/goatcounter-lifecycle.yml
+  href: https://artifacts.apis.io/goatcounter/lifecycle/goatcounter-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/goatcounter-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/changelog/goatcounter-changelog.yml
+  href: https://artifacts.apis.io/goatcounter/changelog/goatcounter-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/goatcounter-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/conformance/goatcounter-conformance.yml
+  href: https://artifacts.apis.io/goatcounter/conformance/goatcounter-conformance.yml
   title: ''
   type: Conformance
   url: conformance/goatcounter-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/overlays/goatcounter-api-overlay.yaml
+  href: https://artifacts.apis.io/goatcounter/overlays/goatcounter-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/goatcounter-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/llms/goatcounter-llms.txt
+  href: https://artifacts.apis.io/goatcounter/llms/goatcounter-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/goatcounter-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/goatcounter/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/plans/goatcounter-plans-pricing.yml
+  href: https://artifacts.apis.io/goatcounter/plans/goatcounter-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/goatcounter-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/rate-limits/goatcounter-rate-limits.yml
+  href: https://artifacts.apis.io/goatcounter/rate-limits/goatcounter-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/goatcounter-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/finops/goatcounter-finops.yml
+  href: https://artifacts.apis.io/goatcounter/finops/goatcounter-finops.yml
   title: ''
   type: FinOps
   url: finops/goatcounter-finops.yml
 created: '2025-02-08'
 description: GoatCounter is open-source, privacy-friendly web analytics from Martin Tournoij, offered both as a free donation-supported hosted service at goatcounter.com and as a self-hostable Go binary backed by SQLite or PostgreSQL. It tracks pageviews without cookies or persistent personal identifiers. The unversioned JSON API, prefixed /api/v0 and served from each account's own subdomain, covers counting pageviews and events from a backend, reading dashboard statistics (totals, per-path hits, referrals, browser/system/location breakdowns), running asynchronous CSV and JSON exports with an incremental hit-ID cursor, and managing sites and users. Authentication is a per-site API key sent as an HTTP bearer token, and the provider publishes its own OpenAPI 2.0 contract at https://www.goatcounter.com/api.json.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Goatcounter Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: goatcounter-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/goatcounter.png
@@ -293,35 +297,35 @@ network: true
 overview: 'GoatCounter publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Exports API, Pageviews API, Paths API, and 6 more. Tagged areas include Analytics, Page Views, Privacy, Statistics, and Web Analytics.
 
 
-  GoatCounter''s developer surface includes authentication, documentation, signup flow, API reference, getting-started guide, support, pricing, and 27 more developer resources.'
+  GoatCounter''s developer surface includes authentication, documentation, signup flow, API reference, getting-started guide, support, pricing, and 28 more developer resources.'
 plans:
 - name: Goatcounter Plans Pricing
   plan_count: 1
   slug: goatcounter-plans-pricing
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Goatcounter Rate Limits
   slug: goatcounter-rate-limits
 score:
-  band: developing
-  composite: 51.7
+  band: strong
+  composite: 55.0
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 56.0
+    artifact_dirs: 26
+    catalog_earned: 53.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 59.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: -0.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 45.0
     developer_ergonomics: 61.3
-    discoverability: 71.4
-    operational_transparency: 52.6
-  previous_composite: 52.7
+    discoverability: 66.1
+    operational_transparency: 68.4
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,13 +342,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/screenshots/goatcounter-2026-06-20T181940.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/goatcounter/goatcounter-2026-06-20T181940.png
 security:
 - kind: authentication
   name: Goatcounter Authentication
@@ -358,6 +363,16 @@ security:
   name: Goatcounter Vulnerability Disclosure
   slug: goatcounter-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 4
+skills:
+- name: Build a custom dashboard from GoatCounter statistics
+  slug: goatcounter-build-a-custom-dashboard
+- name: Count pageviews from a backend
+  slug: goatcounter-count-pageviews-from-a-backend
+- name: Export and incrementally sync raw pageview data
+  slug: goatcounter-export-and-sync-raw-data
+- name: Manage GoatCounter sites and verify API key permissions
+  slug: goatcounter-manage-sites-and-keys
 slug: goatcounter
 tags:
 - Analytics

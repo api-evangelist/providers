@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Provides access to Bloomberg's extensive financial data including real-time quotes, historical data, reference data, and analytics.
@@ -46,7 +48,7 @@ apis:
 artifact_total: 9
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/finops/bloomberg-data-finops.yml
+  href: https://artifacts.apis.io/bloomberg-data/finops/bloomberg-data-finops.yml
   title: ''
   type: FinOps
   url: finops/bloomberg-data-finops.yml
@@ -59,12 +61,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/bloomberg/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/security/bloomberg-data-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bloomberg-data/security/bloomberg-data-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bloomberg-data-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/security/bloomberg-data-domain-security.yml
+  href: https://artifacts.apis.io/bloomberg-data/security/bloomberg-data-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bloomberg-data-domain-security.yml
@@ -89,67 +91,67 @@ common:
   type: Support
   url: https://www.bloomberg.com/professional/support/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/well-known/bloomberg-data-well-known.yml
+  href: https://artifacts.apis.io/bloomberg-data/well-known/bloomberg-data-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bloomberg-data-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/well-known/bloomberg-data-security.txt
+  href: https://artifacts.apis.io/bloomberg-data/well-known/bloomberg-data-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bloomberg-data-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/security/bloomberg-data-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bloomberg-data/security/bloomberg-data-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/bloomberg-data-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/authentication/bloomberg-data-authentication.yml
+  href: https://artifacts.apis.io/bloomberg-data/authentication/bloomberg-data-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bloomberg-data-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/scopes/bloomberg-data-scopes.yml
+  href: https://artifacts.apis.io/bloomberg-data/scopes/bloomberg-data-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bloomberg-data-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/conformance/bloomberg-data-conformance.yml
+  href: https://artifacts.apis.io/bloomberg-data/conformance/bloomberg-data-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bloomberg-data-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/lifecycle/bloomberg-data-lifecycle.yml
+  href: https://artifacts.apis.io/bloomberg-data/lifecycle/bloomberg-data-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bloomberg-data-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/conventions/bloomberg-data-conventions.yml
+  href: https://artifacts.apis.io/bloomberg-data/conventions/bloomberg-data-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bloomberg-data-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/packages/bloomberg-data-packages.yml
+  href: https://artifacts.apis.io/bloomberg-data/packages/bloomberg-data-packages.yml
   title: ''
   type: Packages
   url: packages/bloomberg-data-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/packages/bloomberg-data-packages.yml
+  href: https://artifacts.apis.io/bloomberg-data/packages/bloomberg-data-packages.yml
   title: ''
   type: SDKs
   url: packages/bloomberg-data-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/llms/bloomberg-data-llms.txt
+  href: https://artifacts.apis.io/bloomberg-data/llms/bloomberg-data-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bloomberg-data-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/plans/bloomberg-data-plans-pricing.yml
+  href: https://artifacts.apis.io/bloomberg-data/plans/bloomberg-data-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bloomberg-data-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/rate-limits/bloomberg-data-rate-limits.yml
+  href: https://artifacts.apis.io/bloomberg-data/rate-limits/bloomberg-data-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bloomberg-data-rate-limits.yml
@@ -171,7 +173,7 @@ finops:
 - has_sources: false
   method: generated
   name: Bloomberg Data Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: bloomberg-data-finops
   template: true
@@ -189,7 +191,7 @@ plans:
 - name: Bloomberg Data Plans Pricing
   plan_count: 0
   slug: bloomberg-data-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Bloomberg Data Rate Limits
@@ -201,7 +203,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 28.6
+  composite: 30.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 32.0
@@ -209,15 +211,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
     discoverability: 57.1
-    operational_transparency: 13.2
-  previous_composite: 30.1
+    operational_transparency: 15.8
+  previous_composite: 30.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -227,14 +229,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-data/refs/heads/main/screenshots/bloomberg-data-2026-06-20T173410.png
+screenshot: https://apis.io/screenshots/bloomberg-data/bloomberg-data-2026-06-20T173410.png
 security:
 - kind: authentication
   name: Bloomberg Data Authentication

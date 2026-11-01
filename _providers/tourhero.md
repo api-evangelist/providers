@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,17 +67,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/tourhero
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tourhero/refs/heads/main/llms/tourhero-llms.txt
+  href: https://artifacts.apis.io/tourhero/llms/tourhero-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tourhero-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tourhero/refs/heads/main/well-known/tourhero-well-known.yml
+  href: https://artifacts.apis.io/tourhero/well-known/tourhero-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tourhero-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tourhero/refs/heads/main/security/tourhero-domain-security.yml
+  href: https://artifacts.apis.io/tourhero/security/tourhero-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tourhero-domain-security.yml
@@ -91,40 +93,40 @@ overview: 'TourHero is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TourHero''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: emerging
-  composite: 11.7
+  composite: 12.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 11.6
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 12.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tourhero/refs/heads/main/screenshots/tourhero-2026-09-02T163951.png
+screenshot: https://apis.io/screenshots/tourhero/tourhero-2026-09-02T163951.png
 security:
 - kind: domain-security
   name: Tourhero Domain Security

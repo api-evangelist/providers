@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 4
@@ -175,11 +177,8 @@ apis:
   description: The subpackage_watermark API from Resemble AI — 4 operation(s) for subpackage_watermark.
   name: Resemble AI Subpackage Watermark API
   slug: resemble-ai-subpackage-watermark-api
-artifact_total: 61
+artifact_total: 60
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API Reference subpackage_account API
   slug: open-resemble-ai-subpackage-account-api
@@ -263,22 +262,22 @@ collections:
   slug: open-resemble-ai
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/agentic-access/resemble-ai-agentic-access.yml
+  href: https://artifacts.apis.io/resemble-ai/agentic-access/resemble-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/resemble-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/security/resemble-ai-trust-center.yml
+  href: https://artifacts.apis.io/resemble-ai/security/resemble-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/resemble-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/security/resemble-ai-domain-security.yml
+  href: https://artifacts.apis.io/resemble-ai/security/resemble-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/resemble-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/authentication/resemble-ai-authentication.yml
+  href: https://artifacts.apis.io/resemble-ai/authentication/resemble-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/resemble-ai-authentication.yml
@@ -299,22 +298,22 @@ common:
   type: Documentation
   url: https://docs.resemble.ai/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/openapi/_original/resemble-ai-openapi.yml
+  href: https://artifacts.apis.io/resemble-ai/openapi/_original/resemble-ai-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/resemble-ai-openapi.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/plans/resemble-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/resemble-ai/plans/resemble-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/resemble-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/rate-limits/resemble-ai-rate-limits.yml
+  href: https://artifacts.apis.io/resemble-ai/rate-limits/resemble-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/resemble-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/finops/resemble-ai-finops.yml
+  href: https://artifacts.apis.io/resemble-ai/finops/resemble-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/resemble-ai-finops.yml
@@ -338,7 +337,7 @@ modified: '2026-05-19'
 name: Resemble AI
 nav: Providers
 network: true
-overview: 'Resemble AI publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Subpackage Account API, Subpackage Agent Knowledge Base API, Subpackage Agent Phone Numbers API, and 23 more. Tagged areas include Artificial Intelligence, Voice, TTS, Voice Cloning, and Voice Conversion.
+overview: 'Resemble AI publishes 26 API contracts indexed on the [APIs.io](https://apis.io/) network, including Subpackage Account API, Subpackage Agent Knowledge Base API, Subpackage Agent Phone Numbers API, and 23 more. Tagged areas include Artificial Intelligence, Voice, Text-to-Speech, Voice Cloning, and Voice Conversion.
 
 
   Resemble AI''s developer surface includes authentication, documentation, and 11 more developer resources.'
@@ -346,14 +345,14 @@ plans:
 - name: Resemble Ai Plans Pricing
   plan_count: 2
   slug: resemble-ai-plans-pricing
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Resemble Ai Rate Limits
   slug: resemble-ai-rate-limits
 score:
   band: thin
-  composite: 31.1
+  composite: 31.6
   coverage:
     artifact_dirs: 12
     catalog_earned: 41.0
@@ -361,15 +360,15 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 49.0
+    contract_quality: 47.0
     developer_ergonomics: 21.4
     discoverability: 73.2
-    operational_transparency: 7.9
-  previous_composite: 33.1
+    operational_transparency: 10.5
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -383,13 +382,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 14.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/screenshots/resemble-ai-2026-06-20T192934.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/resemble-ai/resemble-ai-2026-06-20T192934.png
 security:
 - kind: authentication
   name: Resemble Ai Authentication
@@ -407,7 +407,7 @@ slug: resemble-ai
 tags:
 - Artificial Intelligence
 - Voice
-- TTS
+- Text-to-Speech
 - Voice Cloning
 - Voice Conversion
 - Audio

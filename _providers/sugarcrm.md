@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Sugar REST API is hosted on each Sugar deployment at https://<site_url>/rest/v{version}/ (v10 through v11.27). SugarCloud instances are hosted on Sugar's own sugarondemand.com domain, so a cloud t
   name: Sugar REST API
   slug: sugar-rest-api
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Sugarcrm Webhooks
@@ -99,37 +101,37 @@ common:
   type: StatusPage
   url: https://status.cloud.sugarai.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/authentication/sugarcrm-authentication.yml
+  href: https://artifacts.apis.io/sugarcrm/authentication/sugarcrm-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sugarcrm-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/conventions/sugarcrm-conventions.yml
+  href: https://artifacts.apis.io/sugarcrm/conventions/sugarcrm-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sugarcrm-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/errors/sugarcrm-problem-types.yml
+  href: https://artifacts.apis.io/sugarcrm/errors/sugarcrm-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sugarcrm-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/lifecycle/sugarcrm-lifecycle.yml
+  href: https://artifacts.apis.io/sugarcrm/lifecycle/sugarcrm-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sugarcrm-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/lifecycle/sugarcrm-lifecycle.yml
+  href: https://artifacts.apis.io/sugarcrm/lifecycle/sugarcrm-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/sugarcrm-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/changelog/sugarcrm-changelog.yml
+  href: https://artifacts.apis.io/sugarcrm/changelog/sugarcrm-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sugarcrm-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/conformance/sugarcrm-conformance.yml
+  href: https://artifacts.apis.io/sugarcrm/conformance/sugarcrm-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sugarcrm-conformance.yml
@@ -138,78 +140,86 @@ common:
   type: Compliance
   url: https://www.sugarai.com/legal/security-trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/security/sugarcrm-trust-center.yml
+  href: https://artifacts.apis.io/sugarcrm/security/sugarcrm-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sugarcrm-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/security/sugarcrm-domain-security.yml
+  href: https://artifacts.apis.io/sugarcrm/security/sugarcrm-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sugarcrm-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/security/sugarcrm-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sugarcrm/security/sugarcrm-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sugarcrm-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/security/sugarcrm-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sugarcrm/security/sugarcrm-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/sugarcrm-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/well-known/sugarcrm-security.txt
+  href: https://artifacts.apis.io/sugarcrm/well-known/sugarcrm-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sugarcrm-security.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/packages/sugarcrm-packages.yml
+  href: https://artifacts.apis.io/sugarcrm/packages/sugarcrm-packages.yml
   title: ''
   type: Packages
   url: packages/sugarcrm-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/packages/sugarcrm-packages.yml
+  href: https://artifacts.apis.io/sugarcrm/packages/sugarcrm-packages.yml
   title: ''
   type: SDKs
   url: packages/sugarcrm-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/cli/sugarcrm-cli.yml
+  href: https://artifacts.apis.io/sugarcrm/cli/sugarcrm-cli.yml
   title: ''
   type: CLI
   url: cli/sugarcrm-cli.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/plans/sugarcrm-plans-pricing.yml
+  href: https://artifacts.apis.io/sugarcrm/plans/sugarcrm-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sugarcrm-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/rate-limits/sugarcrm-rate-limits.yml
+  href: https://artifacts.apis.io/sugarcrm/rate-limits/sugarcrm-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sugarcrm-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/asyncapi/sugarcrm-webhooks.yml
+  href: https://artifacts.apis.io/sugarcrm/asyncapi/sugarcrm-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sugarcrm-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/sandbox/sugarcrm-sandbox.yml
+  href: https://artifacts.apis.io/sugarcrm/sandbox/sugarcrm-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sugarcrm-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/well-known/sugarcrm-well-known.yml
+  href: https://artifacts.apis.io/sugarcrm/well-known/sugarcrm-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sugarcrm-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/llms/sugarcrm-llms.txt
+  href: https://artifacts.apis.io/sugarcrm/llms/sugarcrm-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sugarcrm-llms.txt
 created: '2026-07-17'
 description: SugarCRM — rebranded as SugarAI in April 2026, with www.sugarcrm.com now redirecting to www.sugarai.com — is a B2B sales CRM platform serving 4,000+ customers and over one million users across 120+ countries. Its product suite spans Sugar Sell (sales automation), Sugar Serve (customer service), Sugar Market (marketing automation), and sales-i (sales intelligence from ERP data), with an emphasis on domain-specific AI that surfaces opportunities and recommends next actions and native integration with 180+ ERP systems. Sugar exposes a REST API on every deployment at https://<site_url>/rest/v{version}/ (v10 through v11.27 as of the 26.1 Developer Guide), authenticated with two-legged OAuth 2.0 and returning JSON. The API covers CRM modules (Accounts, Contacts, Leads, Opportunities, Cases and more) with offset pagination, a /{module}/filter query surface, and role-based access control. Outbound events are delivered as Web Logic Hooks through the instance job queue. Official client
   libraries include the JavaScript Ventana connector and the PHP REST SDK. There is no public OpenAPI — the endpoint reference is served per instance at /rest/v{version}/help.
+finops:
+- has_sources: true
+  method: derived
+  name: Sugarcrm Finops
+  primary_unit: user
+  service_category: ''
+  slug: sugarcrm-finops
+  template: false
 image: https://www.sugarcrm.com/wp-content/uploads/2021/05/sugarcrm-facebook-card.png
 layout: provider
 modified: '2026-08-13'
@@ -225,32 +235,35 @@ overview: 'SugarCRM is listed with 1 API on the [APIs.io](https://apis.io/) netw
   SugarCRM''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Sugarcrm Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: sugarcrm-plans-pricing
-random_paper: 10
+- name: Sugarcrm Price Estimates
+  plan_count: 0
+  slug: sugarcrm-price-estimates
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Sugarcrm Rate Limits
   slug: sugarcrm-rate-limits
 score:
-  band: strong
-  composite: 65.0
+  band: exemplar
+  composite: 68.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 57.0
+    artifact_dirs: 21
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 73.8
-    discoverability: 73.2
-    operational_transparency: 73.7
-  previous_composite: 65.0
+    developer_ergonomics: 78.6
+    discoverability: 66.1
+    operational_transparency: 84.2
+  previous_composite: 66.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -266,14 +279,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/screenshots/sugarcrm-2026-08-17T080426.png
+screenshot: https://apis.io/screenshots/sugarcrm/sugarcrm-2026-08-17T080426.png
 security:
 - kind: authentication
   name: Sugarcrm Authentication

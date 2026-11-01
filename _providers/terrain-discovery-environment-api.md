@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -90,11 +92,8 @@ apis:
   description: Data sharing and permissions
   name: Terrain Discovery Environment API Sharing API
   slug: terrain-discovery-environment-api-sharing-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Terrain Discovery Environment Analyses API
   slug: open-terrain-discovery-environment-api-analyses-api
@@ -127,17 +126,17 @@ collections:
   slug: open-terrain
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/plans/terrain-discovery-environment-api-plans-pricing.yml
+  href: https://artifacts.apis.io/terrain-discovery-environment-api/plans/terrain-discovery-environment-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/terrain-discovery-environment-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/rate-limits/terrain-discovery-environment-api-rate-limits.yml
+  href: https://artifacts.apis.io/terrain-discovery-environment-api/rate-limits/terrain-discovery-environment-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/terrain-discovery-environment-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/finops/terrain-discovery-environment-api-finops.yml
+  href: https://artifacts.apis.io/terrain-discovery-environment-api/finops/terrain-discovery-environment-api-finops.yml
   title: ''
   type: FinOps
   url: finops/terrain-discovery-environment-api-finops.yml
@@ -158,17 +157,17 @@ common:
   type: Releases
   url: https://github.com/cyverse-de/terrain/releases
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/agentic-access/terrain-discovery-environment-api-agentic-access.yml
+  href: https://artifacts.apis.io/terrain-discovery-environment-api/agentic-access/terrain-discovery-environment-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/terrain-discovery-environment-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/security/terrain-discovery-environment-api-domain-security.yml
+  href: https://artifacts.apis.io/terrain-discovery-environment-api/security/terrain-discovery-environment-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/terrain-discovery-environment-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/authentication/terrain-discovery-environment-api-authentication.yml
+  href: https://artifacts.apis.io/terrain-discovery-environment-api/authentication/terrain-discovery-environment-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/terrain-discovery-environment-api-authentication.yml
@@ -206,7 +205,7 @@ finops:
 - has_sources: false
   method: generated
   name: Terrain Discovery Environment Api Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: terrain-discovery-environment-api-finops
   template: true
@@ -240,7 +239,7 @@ plans:
 - name: Terrain Discovery Environment Api Plans Pricing
   plan_count: 3
   slug: terrain-discovery-environment-api-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Terrain Discovery Environment Api Rate Limits
@@ -271,7 +270,7 @@ rules:
   slug: terrain-rules
 score:
   band: thin
-  composite: 31.5
+  composite: 34.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 55.5
@@ -279,15 +278,15 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 54.6
-    developer_ergonomics: 23.8
+    developer_ergonomics: 33.3
     discoverability: 66.1
     operational_transparency: 28.9
-  previous_composite: 32.5
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -301,13 +300,14 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/screenshots/terrain-discovery-environment-api-2026-06-20T195131.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/terrain-discovery-environment-api/terrain-discovery-environment-api-2026-06-20T195131.png
 security:
 - kind: authentication
   name: Terrain Discovery Environment Api Authentication

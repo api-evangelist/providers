@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.5
-  scored_at: '2026-10-17'
+  score: 36.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 7
@@ -206,15 +208,12 @@ apis:
   description: The workflow_schedule API from Structify — 6 operation(s) for workflow_schedule.
   name: Structify Workflow Schedule API
   slug: structify-workflow-schedule-api
-artifact_total: 72
+artifact_total: 75
 asyncapis:
 - description: ''
   name: Structify Events Webhooks
   slug: structify-events-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Structify account API
   slug: open-structify-account-api
@@ -317,12 +316,12 @@ common:
   type: Pricing
   url: https://docs.structify.ai/concepts/api-overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/capabilities/structify-capability-edges.yml
+  href: https://artifacts.apis.io/structify/capabilities/structify-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/structify-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/overlays/structify-openapi-overlay.yaml
+  href: https://artifacts.apis.io/structify/overlays/structify-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/structify-openapi-overlay.yaml
@@ -371,52 +370,52 @@ common:
   type: StatusPage
   url: https://structify.statuspage.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/authentication/structify-authentication.yml
+  href: https://artifacts.apis.io/structify/authentication/structify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/structify-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/packages/structify-packages.yml
+  href: https://artifacts.apis.io/structify/packages/structify-packages.yml
   title: ''
   type: Packages
   url: packages/structify-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/packages/structify-packages.yml
+  href: https://artifacts.apis.io/structify/packages/structify-packages.yml
   title: ''
   type: SDKs
   url: packages/structify-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/llms/structify-llms.txt
+  href: https://artifacts.apis.io/structify/llms/structify-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/structify-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/conventions/structify-conventions.yml
+  href: https://artifacts.apis.io/structify/conventions/structify-conventions.yml
   title: ''
   type: Conventions
   url: conventions/structify-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/rate-limits/structify-rate-limits.yml
+  href: https://artifacts.apis.io/structify/rate-limits/structify-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/structify-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/errors/structify-error-codes.yml
+  href: https://artifacts.apis.io/structify/errors/structify-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/structify-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/lifecycle/structify-lifecycle.yml
+  href: https://artifacts.apis.io/structify/lifecycle/structify-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/structify-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/changelog/structify-changelog.yml
+  href: https://artifacts.apis.io/structify/changelog/structify-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/structify-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/conformance/structify-conformance.yml
+  href: https://artifacts.apis.io/structify/conformance/structify-conformance.yml
   title: ''
   type: Conformance
   url: conformance/structify-conformance.yml
@@ -425,52 +424,52 @@ common:
   type: Compliance
   url: https://www.structify.ai/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/security/structify-trust-center.yml
+  href: https://artifacts.apis.io/structify/security/structify-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/structify-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/security/structify-domain-security.yml
+  href: https://artifacts.apis.io/structify/security/structify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/structify-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/mcp/structify-mcp.yml
+  href: https://artifacts.apis.io/structify/mcp/structify-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/structify-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/asyncapi/structify-events-webhooks.yml
+  href: https://artifacts.apis.io/structify/asyncapi/structify-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/structify-events-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/agentic-access/structify-agentic-access.yml
+  href: https://artifacts.apis.io/structify/agentic-access/structify-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/structify-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/structify/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/a2a/structify-a2a.yml
+  href: https://artifacts.apis.io/structify/a2a/structify-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/structify-a2a.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/mcp/structify-tool-crosswalk.yml
+  href: https://artifacts.apis.io/structify/mcp/structify-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/structify-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/well-known/structify-well-known.yml
+  href: https://artifacts.apis.io/structify/well-known/structify-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/structify-well-known.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/plans/structify-plans-pricing.yml
+  href: https://artifacts.apis.io/structify/plans/structify-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/structify-plans-pricing.yml
@@ -484,6 +483,14 @@ common:
   url: https://structify.ai
 created: '2026-07-17'
 description: Structify is an AI data platform that turns scattered, unstructured, and siloed sources into a living, structured knowledge graph. It connects to thousands of systems (HubSpot, Stripe, Snowflake, Postgres, and more), scrapes websites and PDFs, and organizes the results into datasets of typed entities and relationships that teams query in natural language and push back into their tools. The platform exposes a RESTful API (OpenAPI 3.0, 281 operations) plus official Python and JavaScript SDKs, covering datasets, entities, connectors, documents, jobs, chat/workflow sessions, and teams, with asynchronous jobs and real-time WebSocket updates. Backed by 8VC and Bain Capital Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Structify Finops
+  primary_unit: ''
+  service_category: ''
+  slug: structify-finops
+  template: true
 image: https://www.structify.ai/assets/site/structify-homepage-hero.png
 layout: provider
 modified: '2026-08-14'
@@ -499,32 +506,32 @@ overview: 'Structify publishes 32 API contracts indexed on the [APIs.io](https:/
   Structify''s developer surface includes pricing, documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 30 more developer resources.'
 plans:
 - name: Structify Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: structify-plans-pricing
-random_paper: 15
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Structify Rate Limits
   slug: structify-rate-limits
 score:
-  band: exemplar
-  composite: 66.6
+  band: strong
+  composite: 58.5
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 57.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    artifact_dirs: 27
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.1
+  delta: -6.4
   facets:
-    access_clarity: 85.5
+    access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 52.3
+    contract_quality: 51.9
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 63.2
-  previous_composite: 64.5
+    discoverability: 66.1
+    operational_transparency: 65.8
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -549,13 +556,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/screenshots/structify-2026-08-17T082142.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/structify/structify-2026-08-17T082142.png
 security:
 - kind: authentication
   name: Structify Authentication
@@ -569,6 +577,14 @@ security:
   name: Structify Trust Center
   slug: structify-trust-center
   summary_line: SOC 2 Type II, HIPAA, CMMC, GDPR
+skill_count: 3
+skills:
+- name: Build a knowledge graph of entities and relationships
+  slug: structify-build-knowledge-graph
+- name: Structify
+  slug: structify-provider-skill
+- name: Scrape the web into a structured dataset
+  slug: structify-scrape-to-dataset
 slug: structify
 tags:
 - Company

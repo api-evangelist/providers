@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 18.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 24
   slug: impossible-cloud-agentic-access
   summary_line: 24 operations · 11 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.partner.impossiblecloud.com/v1
   baseurl_source: declared
@@ -59,11 +61,8 @@ apis:
   description: The Partners API from Impossible Cloud — 5 operation(s) for partners.
   name: Impossible Cloud Partners API
   slug: impossible-cloud-partners-api
-artifact_total: 11
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Impossible Cloud Management Console public Distributors API
   slug: open-impossible-cloud-distributors-api
@@ -74,68 +73,73 @@ collections:
   name: Impossible Cloud Management Console public Distributors Partners API
   slug: open-impossible-cloud-partners-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/impossible-cloud/plans/impossible-cloud-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/impossible-cloud-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/capabilities/impossible-cloud-capability-edges.yml
+  href: https://artifacts.apis.io/impossible-cloud/capabilities/impossible-cloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/impossible-cloud-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/openapi/_original/impossible-cloud-management-console-openapi-original.json
+  href: https://artifacts.apis.io/impossible-cloud/openapi/_original/impossible-cloud-management-console-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/impossible-cloud-management-console-openapi-original.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/llms/impossible-cloud-llms.txt
+  href: https://artifacts.apis.io/impossible-cloud/llms/impossible-cloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/impossible-cloud-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/mcp/impossible-cloud-mcp.yml
+  href: https://artifacts.apis.io/impossible-cloud/mcp/impossible-cloud-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/impossible-cloud-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/overlays/impossible-cloud-management-console-overlay.yaml
+  href: https://artifacts.apis.io/impossible-cloud/overlays/impossible-cloud-management-console-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/impossible-cloud-management-console-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/conformance/impossible-cloud-conformance.yml
+  href: https://artifacts.apis.io/impossible-cloud/conformance/impossible-cloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/impossible-cloud-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/lifecycle/impossible-cloud-lifecycle.yml
+  href: https://artifacts.apis.io/impossible-cloud/lifecycle/impossible-cloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/impossible-cloud-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/conventions/impossible-cloud-conventions.yml
+  href: https://artifacts.apis.io/impossible-cloud/conventions/impossible-cloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/impossible-cloud-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/data-model/impossible-cloud-data-model.yml
+  href: https://artifacts.apis.io/impossible-cloud/data-model/impossible-cloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/impossible-cloud-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/security/impossible-cloud-trust-center.yml
+  href: https://artifacts.apis.io/impossible-cloud/security/impossible-cloud-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/impossible-cloud-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/security/impossible-cloud-domain-security.yml
+  href: https://artifacts.apis.io/impossible-cloud/security/impossible-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/impossible-cloud-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/agentic-access/impossible-cloud-agentic-access.yml
+  href: https://artifacts.apis.io/impossible-cloud/agentic-access/impossible-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/impossible-cloud-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/authentication/impossible-cloud-authentication.yml
+  href: https://artifacts.apis.io/impossible-cloud/authentication/impossible-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/impossible-cloud-authentication.yml
@@ -205,6 +209,14 @@ common:
   url: https://www.impossiblecloud.com/compliance
 created: '2026-07-17'
 description: Impossible Cloud is a European sovereign cloud platform headquartered in Hamburg, Germany, providing S3-compatible object storage (11 nines durability, Object Lock/WORM, no egress or API-call fees), bare metal NVIDIA GPU servers, and managed AI services, all GDPR-ready by design and operated under EU jurisdiction with no US CLOUD Act exposure. For partners, distributors, and resellers it exposes the Management Console public API — a RESTful JSON API for automating storage-account provisioning, partner and member management, region discovery, and usage/billing reporting. The object storage service is fully AWS S3 API compatible, so existing AWS SDKs, the AWS CLI, and S3 tooling work against regional endpoints such as https://eu-central-2.storage.impossibleapi.net.
+finops:
+- has_sources: true
+  method: derived
+  name: Impossible Cloud Finops
+  primary_unit: 1m tokens
+  service_category: ''
+  slug: impossible-cloud-finops
+  template: false
 image: https://www.impossiblecloud.com/favicon.ico
 layout: provider
 modified: '2026-07-19'
@@ -214,26 +226,33 @@ network: true
 overview: 'Impossible Cloud publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Distributors API, Integrations API, and Partners API. Tagged areas include Company, Cloud, Object Storage, S3, and Storage.
 
 
-  Impossible Cloud''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 9
+  Impossible Cloud''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
+plans:
+- name: Impossible Cloud Plans Pricing
+  plan_count: 10
+  slug: impossible-cloud-plans-pricing
+- name: Impossible Cloud Price Estimates
+  plan_count: 0
+  slug: impossible-cloud-price-estimates
+random_paper: 3
 score:
-  band: developing
-  composite: 47.3
+  band: strong
+  composite: 56.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 53.9
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 46.9
+    contract_quality: 43.5
     developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -242,7 +261,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 47.2
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -262,13 +281,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/screenshots/impossible-cloud-2026-07-25T222158.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/impossible-cloud/impossible-cloud-2026-07-25T222158.png
 security:
 - kind: authentication
   name: Impossible Cloud Authentication

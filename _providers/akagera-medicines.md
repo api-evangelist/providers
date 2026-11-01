@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/akagera-medicines/refs/heads/main/hosts/akagera-medicines-hosts.yml
+  href: https://artifacts.apis.io/akagera-medicines/hosts/akagera-medicines-hosts.yml
   title: ''
   type: Hosts
   url: hosts/akagera-medicines-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/akagera-medicines/refs/heads/main/vendors/akagera-medicines-vendors.yml
+  href: https://artifacts.apis.io/akagera-medicines/vendors/akagera-medicines-vendors.yml
   title: ''
   type: Vendors
   url: vendors/akagera-medicines-vendors.yml
@@ -42,7 +44,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/forgeglobal
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/akagera-medicines/refs/heads/main/security/akagera-medicines-domain-security.yml
+  href: https://artifacts.apis.io/akagera-medicines/security/akagera-medicines-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/akagera-medicines-domain-security.yml
@@ -82,7 +84,7 @@ overview: 'Akagera Medicines is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Akagera Medicines'' developer surface includes API reference, getting-started guide, and 6 more developer resources.'
-random_paper: 12
+random_paper: 2
 score:
   band: minimal
   composite: 7.9
@@ -110,8 +112,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

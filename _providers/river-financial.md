@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: River's GraphQL data API secured with OAuth 2.0 authorization-code + PKCE and OpenID Connect. Read scopes cover account balances, transactions, identity, and payment networks.
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/river-financial/refs/heads/main/mcp/river-financial-mcp.yml
+  href: https://artifacts.apis.io/river-financial/mcp/river-financial-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/river-financial-mcp.yml
@@ -83,52 +85,52 @@ common:
   type: Security
   url: https://river.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/river-financial/refs/heads/main/well-known/river-financial-security.txt
+  href: https://artifacts.apis.io/river-financial/well-known/river-financial-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/river-financial-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/river-financial/refs/heads/main/well-known/river-financial-well-known.yml
+  href: https://artifacts.apis.io/river-financial/well-known/river-financial-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/river-financial-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/river-financial/refs/heads/main/authentication/river-financial-authentication.yml
+  href: https://artifacts.apis.io/river-financial/authentication/river-financial-authentication.yml
   title: ''
   type: Authentication
   url: authentication/river-financial-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/river-financial/refs/heads/main/scopes/river-financial-scopes.yml
+  href: https://artifacts.apis.io/river-financial/scopes/river-financial-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/river-financial-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/river-financial/refs/heads/main/conventions/river-financial-conventions.yml
+  href: https://artifacts.apis.io/river-financial/conventions/river-financial-conventions.yml
   title: ''
   type: Conventions
   url: conventions/river-financial-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/river-financial/refs/heads/main/conformance/river-financial-conformance.yml
+  href: https://artifacts.apis.io/river-financial/conformance/river-financial-conformance.yml
   title: ''
   type: Conformance
   url: conformance/river-financial-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/river-financial/refs/heads/main/lifecycle/river-financial-lifecycle.yml
+  href: https://artifacts.apis.io/river-financial/lifecycle/river-financial-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/river-financial-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/river-financial/refs/heads/main/security/river-financial-domain-security.yml
+  href: https://artifacts.apis.io/river-financial/security/river-financial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/river-financial-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/river-financial/refs/heads/main/security/river-financial-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/river-financial/security/river-financial-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/river-financial-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/river-financial/refs/heads/main/llms/river-financial-llms.txt
+  href: https://artifacts.apis.io/river-financial/llms/river-financial-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/river-financial-llms.txt
@@ -144,7 +146,7 @@ overview: 'River Financial is listed with 1 API on the [APIs.io](https://apis.io
 
 
   River Financial''s developer surface includes support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 12
+random_paper: 18
 scopes:
 - name: River Financial Scopes
   scope_count: 6
@@ -152,7 +154,7 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.2
+  composite: 27.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -166,14 +168,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 73.2
-    operational_transparency: 28.9
+    discoverability: 66.1
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 28.2
+  previous_composite: 27.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -183,14 +185,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 41.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/river-financial/refs/heads/main/screenshots/river-financial-2026-09-02T153919.png
+screenshot: https://apis.io/screenshots/river-financial/river-financial-2026-09-02T153919.png
 security:
 - kind: authentication
   name: River Financial Authentication

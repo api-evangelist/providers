@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
+  score: 6.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Connect RPC / gRPC services backing Qpoint''s control plane: an event store service and the qscan scheduler service, with shared protobuf types for connections, requests, issues, PII, and tags.'
@@ -78,37 +80,37 @@ common:
   type: SignUp
   url: https://app.qpoint.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qpoint/refs/heads/main/mcp/qpoint-mcp.yml
+  href: https://artifacts.apis.io/qpoint/mcp/qpoint-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/qpoint-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qpoint/refs/heads/main/cli/qpoint-cli.yml
+  href: https://artifacts.apis.io/qpoint/cli/qpoint-cli.yml
   title: ''
   type: CLI
   url: cli/qpoint-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qpoint/refs/heads/main/packages/qpoint-packages.yml
+  href: https://artifacts.apis.io/qpoint/packages/qpoint-packages.yml
   title: ''
   type: SDKs
   url: packages/qpoint-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qpoint/refs/heads/main/packages/qpoint-packages.yml
+  href: https://artifacts.apis.io/qpoint/packages/qpoint-packages.yml
   title: ''
   type: Packages
   url: packages/qpoint-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qpoint/refs/heads/main/authentication/qpoint-authentication.yml
+  href: https://artifacts.apis.io/qpoint/authentication/qpoint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qpoint-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qpoint/refs/heads/main/security/qpoint-domain-security.yml
+  href: https://artifacts.apis.io/qpoint/security/qpoint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qpoint-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qpoint/refs/heads/main/conformance/qpoint-conformance.yml
+  href: https://artifacts.apis.io/qpoint/conformance/qpoint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qpoint-conformance.yml
@@ -117,17 +119,17 @@ common:
   type: Compliance
   url: https://docs.qpoint.io/security-and-compliance.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qpoint/refs/heads/main/lifecycle/qpoint-lifecycle.yml
+  href: https://artifacts.apis.io/qpoint/lifecycle/qpoint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qpoint-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qpoint/refs/heads/main/changelog/qpoint-changelog.yml
+  href: https://artifacts.apis.io/qpoint/changelog/qpoint-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qpoint-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qpoint/refs/heads/main/llms/qpoint-llms.txt
+  href: https://artifacts.apis.io/qpoint/llms/qpoint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qpoint-llms.txt
@@ -147,26 +149,26 @@ overview: 'Qpoint is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Qpoint''s developer surface includes documentation, getting-started guide, quickstart, engineering blog, pricing, signup flow, CLI, and 13 more developer resources.'
-random_paper: 7
+random_paper: 19
 score:
   band: thin
-  composite: 36.1
+  composite: 32.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 31.6
     contract_governance: 18.2
-    contract_quality: 24.0
+    contract_quality: 0.0
     developer_ergonomics: 66.7
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 36.0
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 32.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -176,14 +178,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/qpoint/refs/heads/main/screenshots/qpoint-2026-09-02T152540.png
+screenshot: https://apis.io/screenshots/qpoint/qpoint-2026-09-02T152540.png
 security:
 - kind: authentication
   name: Qpoint Authentication

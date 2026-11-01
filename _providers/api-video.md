@@ -10,30 +10,32 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
-    rate_limit_signal: derived
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 35.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 13
   slug: api-video-agentic-access
   summary_line: 13 operations · 8 acting
-api_count: 3
+api_count: 1
 apis:
 - description: The api.video Live Streaming API enables low-latency live video broadcasts with RTMP ingest, automatic recording, and global CDN delivery for audiences worldwide.
   name: api.video Live Streaming API
@@ -54,11 +56,63 @@ apis:
   description: The Videos API from API.Video — 8 operation(s) for videos.
   name: API.Video Videos API
   slug: api-video-videos-api
-artifact_total: 27
+- baseURL: https://ws.api.video
+  baseurl_source: spec
+  description: The Advanced authentication API from API.Video — 2 operation(s) for advanced authentication.
+  name: API.Video Advanced authentication API
+  slug: api-video-advanced-authentication-api
+- baseURL: https://ws.api.video
+  baseurl_source: spec
+  description: The Analytics API from API.Video — 3 operation(s) for analytics.
+  name: API.Video Analytics API
+  slug: api-video-analytics-api
+- baseURL: https://ws.api.video
+  baseurl_source: spec
+  description: The Captions API from API.Video — 2 operation(s) for captions.
+  name: API.Video Captions API
+  slug: api-video-captions-api
+- baseURL: https://ws.api.video
+  baseurl_source: spec
+  description: The Chapters API from API.Video — 2 operation(s) for chapters.
+  name: API.Video Chapters API
+  slug: api-video-chapters-api
+- baseURL: https://ws.api.video
+  baseurl_source: spec
+  description: The Live Streams API from API.Video — 4 operation(s) for live streams.
+  name: API.Video Live Streams API
+  slug: api-video-live-streams-api
+- baseURL: https://ws.api.video
+  baseurl_source: spec
+  description: The Player Themes API from API.Video — 3 operation(s) for player themes.
+  name: API.Video Player Themes API
+  slug: api-video-player-themes-api
+- baseURL: https://ws.api.video
+  baseurl_source: spec
+  description: The Summaries API from API.Video — 3 operation(s) for summaries.
+  name: API.Video Summaries API
+  slug: api-video-summaries-api
+- baseURL: https://ws.api.video
+  baseurl_source: spec
+  description: The Tags API from API.Video — 1 operation(s) for tags.
+  name: API.Video Tags API
+  slug: api-video-tags-api
+- baseURL: https://ws.api.video
+  baseurl_source: spec
+  description: The Upload Tokens API from API.Video — 2 operation(s) for upload tokens.
+  name: API.Video Upload Tokens API
+  slug: api-video-upload-tokens-api
+- baseURL: https://ws.api.video
+  baseurl_source: spec
+  description: The Watermarks API from API.Video — 2 operation(s) for watermarks.
+  name: API.Video Watermarks API
+  slug: api-video-watermarks-api
+- baseURL: https://ws.api.video
+  baseurl_source: spec
+  description: The Webhooks API from API.Video — 2 operation(s) for webhooks.
+  name: API.Video Webhooks API
+  slug: api-video-webhooks-api
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: api.video Videos API
   slug: open-api-video-videos-api
@@ -67,32 +121,32 @@ collections:
   slug: open-api-video
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/plans/api-video-plans-pricing.yml
+  href: https://artifacts.apis.io/api-video/plans/api-video-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/api-video-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/rate-limits/api-video-rate-limits.yml
+  href: https://artifacts.apis.io/api-video/rate-limits/api-video-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/api-video-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/finops/api-video-finops.yml
+  href: https://artifacts.apis.io/api-video/finops/api-video-finops.yml
   title: ''
   type: FinOps
   url: finops/api-video-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/capabilities/api-video-capability-edges.yml
+  href: https://artifacts.apis.io/api-video/capabilities/api-video-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/api-video-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/agentic-access/api-video-agentic-access.yml
+  href: https://artifacts.apis.io/api-video/agentic-access/api-video-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/api-video-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/security/api-video-domain-security.yml
+  href: https://artifacts.apis.io/api-video/security/api-video-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/api-video-domain-security.yml
@@ -151,7 +205,7 @@ finops:
 - has_sources: false
   method: generated
   name: Api Video Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: api-video-finops
   template: true
@@ -168,7 +222,7 @@ modified: '2026-05-19'
 name: API.Video
 nav: Providers
 network: true
-overview: 'API.Video is listed with 3 APIs on the [APIs.io](https://apis.io/) network, including Videos API, and 2 more. Tagged areas include Artificial Intelligence, Analytics, CDN, Encoding, and Live Streaming.
+overview: 'API.Video publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Videos API, Advanced authentication API, Analytics API, and 11 more. Tagged areas include Artificial Intelligence, Analytics, CDN, Encoding, and Live Streaming.
 
 
   API.Video''s developer surface includes documentation, getting-started guide, pricing, engineering blog, and 10 more developer resources.'
@@ -176,50 +230,51 @@ plans:
 - name: Api Video Plans Pricing
   plan_count: 3
   slug: api-video-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Api Video Rate Limits
   slug: api-video-rate-limits
 score:
   band: thin
-  composite: 26.2
+  composite: 29.3
   coverage:
     artifact_dirs: 12
-    catalog_earned: 41.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.5
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
-    contract_quality: 41.1
+    contract_quality: 51.3
     developer_ergonomics: 23.8
-    discoverability: 62.5
-    operational_transparency: 26.3
-  previous_composite: 27.7
+    discoverability: 57.1
+    operational_transparency: 28.9
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 13
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/screenshots/api-video-2026-06-20T172221.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/api-video/api-video-2026-06-20T172221.png
 security:
 - kind: domain-security
   name: Api Video Domain Security

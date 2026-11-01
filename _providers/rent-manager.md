@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.9
-  scored_at: '2026-10-17'
+  score: 7.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Rent Manager Web API (WAPI12) is a RESTful API that provides both read and write access to the Rent Manager Online (RMO) database. It supports property management operations including tenants, lea
@@ -42,7 +44,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rent-manager/refs/heads/main/security/rent-manager-domain-security.yml
+  href: https://artifacts.apis.io/rent-manager/security/rent-manager-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rent-manager-domain-security.yml
@@ -83,17 +85,17 @@ common:
   type: APISupport
   url: https://www.rentmanager.com/submit-api-support-request/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rent-manager/refs/heads/main/plans/rent-manager-plans-pricing.yml
+  href: https://artifacts.apis.io/rent-manager/plans/rent-manager-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rent-manager-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rent-manager/refs/heads/main/rate-limits/rent-manager-rate-limits.yml
+  href: https://artifacts.apis.io/rent-manager/rate-limits/rent-manager-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rent-manager-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rent-manager/refs/heads/main/finops/rent-manager-finops.yml
+  href: https://artifacts.apis.io/rent-manager/finops/rent-manager-finops.yml
   title: ''
   type: FinOps
   url: finops/rent-manager-finops.yml
@@ -133,14 +135,14 @@ plans:
 - name: Rent Manager Plans Pricing
   plan_count: 5
   slug: rent-manager-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Rent Manager Rate Limits
   slug: rent-manager-rate-limits
 score:
   band: emerging
-  composite: 16.9
+  composite: 16.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 45.0
@@ -148,15 +150,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 16.7
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 22.5
+  previous_composite: 16.7
   provenance:
     mcp: first-party
   regulatory:
@@ -165,14 +167,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rent-manager/refs/heads/main/screenshots/rent-manager-2026-06-20T192855.png
+screenshot: https://apis.io/screenshots/rent-manager/rent-manager-2026-06-20T192855.png
 security:
 - kind: domain-security
   name: Rent Manager Domain Security

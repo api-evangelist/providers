@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -167,9 +169,6 @@ apis:
 artifact_total: 52
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: QaaS Backend admin API
   slug: open-quantum-art-admin-api
 - collection_type: open
@@ -247,67 +246,67 @@ common:
   type: Blog
   url: https://www.quantum-art.tech/news
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/overlays/quantum-art-qaas-overlay.yaml
+  href: https://artifacts.apis.io/quantum-art/overlays/quantum-art-qaas-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/quantum-art-qaas-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/security/quantum-art-domain-security.yml
+  href: https://artifacts.apis.io/quantum-art/security/quantum-art-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quantum-art-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/agentic-access/quantum-art-agentic-access.yml
+  href: https://artifacts.apis.io/quantum-art/agentic-access/quantum-art-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/quantum-art-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/authentication/quantum-art-authentication.yml
+  href: https://artifacts.apis.io/quantum-art/authentication/quantum-art-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quantum-art-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/conventions/quantum-art-conventions.yml
+  href: https://artifacts.apis.io/quantum-art/conventions/quantum-art-conventions.yml
   title: ''
   type: Conventions
   url: conventions/quantum-art-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/errors/quantum-art-problem-types.yml
+  href: https://artifacts.apis.io/quantum-art/errors/quantum-art-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/quantum-art-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/mcp/quantum-art-mcp.yml
+  href: https://artifacts.apis.io/quantum-art/mcp/quantum-art-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/quantum-art-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/llms/quantum-art-llms.txt
+  href: https://artifacts.apis.io/quantum-art/llms/quantum-art-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/quantum-art-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/well-known/quantum-art-well-known.yml
+  href: https://artifacts.apis.io/quantum-art/well-known/quantum-art-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/quantum-art-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/data-model/quantum-art-data-model.yml
+  href: https://artifacts.apis.io/quantum-art/data-model/quantum-art-data-model.yml
   title: ''
   type: DataModel
   url: data-model/quantum-art-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/conformance/quantum-art-conformance.yml
+  href: https://artifacts.apis.io/quantum-art/conformance/quantum-art-conformance.yml
   title: ''
   type: Conformance
   url: conformance/quantum-art-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/lifecycle/quantum-art-lifecycle.yml
+  href: https://artifacts.apis.io/quantum-art/lifecycle/quantum-art-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/quantum-art-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/quantum-art/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -359,26 +358,26 @@ overview: 'Quantum Art publishes 24 API contracts indexed on the [APIs.io](https
 
 
   Quantum Art''s developer surface includes engineering blog, authentication, documentation, API reference, signup flow, and 18 more developer resources.'
-random_paper: 7
+random_paper: 23
 score:
   band: thin
   composite: 31.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 41.4
     developer_ergonomics: 42.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 30.7
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -395,13 +394,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/screenshots/quantum-art-2026-09-02T152619.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/quantum-art/quantum-art-2026-09-02T152619.png
 security:
 - kind: authentication
   name: Quantum Art Authentication
@@ -411,6 +411,10 @@ security:
   name: Quantum Art Domain Security
   slug: quantum-art-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Submit and retrieve a quantum job (Quantum Art QaaS)
+  slug: quantum-art-submit-quantum-job
 slug: quantum-art
 tags:
 - Company

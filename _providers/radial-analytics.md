@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,27 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/radial-analytics/refs/heads/main/security/radial-analytics-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/radial-analytics/security/radial-analytics-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/radial-analytics-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/radial-analytics/refs/heads/main/security/radial-analytics-domain-security.yml
+  href: https://artifacts.apis.io/radial-analytics/security/radial-analytics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/radial-analytics-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/radial-analytics/refs/heads/main/conformance/radial-analytics-conformance.yml
+  href: https://artifacts.apis.io/radial-analytics/conformance/radial-analytics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/radial-analytics-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/radial-analytics/refs/heads/main/conformance/radial-analytics-conformance.yml
+  href: https://artifacts.apis.io/radial-analytics/conformance/radial-analytics-conformance.yml
   title: ''
   type: Compliance
   url: conformance/radial-analytics-conformance.yml
@@ -92,7 +94,7 @@ overview: 'Radial Analytics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Radial Analytics'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 6
+random_paper: 2
 score:
   band: emerging
   composite: 16.1
@@ -120,14 +122,14 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/radial-analytics/refs/heads/main/screenshots/radial-analytics-2026-09-02T152749.png
+screenshot: https://apis.io/screenshots/radial-analytics/radial-analytics-2026-09-02T152749.png
 security:
 - kind: domain-security
   name: Radial Analytics Domain Security

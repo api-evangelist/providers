@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,11 +58,8 @@ apis:
   description: Hudi timeline and commit operations
   name: Apache Hudi Timeline API
   slug: apache-hudi-timeline-api
-artifact_total: 47
+artifact_total: 46
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache Hudi Timeline Server Tables API
   slug: open-apache-hudi-tables-api
@@ -72,17 +71,17 @@ collections:
   slug: open-apache-hudi-timeline
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/plans/apache-hudi-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-hudi/plans/apache-hudi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-hudi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/rate-limits/apache-hudi-rate-limits.yml
+  href: https://artifacts.apis.io/apache-hudi/rate-limits/apache-hudi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-hudi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/finops/apache-hudi-finops.yml
+  href: https://artifacts.apis.io/apache-hudi/finops/apache-hudi-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-hudi-finops.yml
@@ -107,17 +106,17 @@ common:
   type: License
   url: https://github.com/apache/hudi/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/agentic-access/apache-hudi-agentic-access.yml
+  href: https://artifacts.apis.io/apache-hudi/agentic-access/apache-hudi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-hudi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/security/apache-hudi-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-hudi/security/apache-hudi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-hudi-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/security/apache-hudi-domain-security.yml
+  href: https://artifacts.apis.io/apache-hudi/security/apache-hudi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-hudi-domain-security.yml
@@ -142,12 +141,12 @@ common:
   type: GitHubRepository
   url: https://github.com/apache/hudi
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/rules/apache-hudi-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-hudi/rules/apache-hudi-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-hudi-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/vocabulary/apache-hudi-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-hudi/vocabulary/apache-hudi-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-hudi-vocabulary.yaml
@@ -197,7 +196,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Hudi Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-hudi-finops
   template: true
@@ -261,7 +260,7 @@ plans:
 - name: Apache Hudi Plans Pricing
   plan_count: 3
   slug: apache-hudi-plans-pricing
-random_paper: 3
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Apache Hudi Rate Limits
@@ -292,46 +291,44 @@ rules:
   slug: apache-hudi-spectral-rules
 score:
   band: thin
-  composite: 32.2
+  composite: 33.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 55.0
     catalog_earned_first_party: 0.0
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 46.5
     developer_ergonomics: 31.0
     discoverability: 57.1
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 40.0
-  previous_composite: 33.5
+    operational_transparency: 39.5
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/screenshots/apache-hudi-2026-06-20T172109.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-hudi/apache-hudi-2026-06-20T172109.png
 security:
 - kind: domain-security
   name: Apache Hudi Domain Security

@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 17.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,11 +141,8 @@ apis:
 - description: librarysearch.cardiff.ac.uk is Cardiff's discovery layer, an Ex Libris Primo view (vid=44WHELF_CAR:CAR) sitting on the WHELF shared Alma library management system; the IT status page lists ALMA, Primo
   name: Cardiff LibrarySearch (Ex Libris Primo tenancy)
   slug: cardiff-librarysearch
-artifact_total: 59
+artifact_total: 58
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CoursesApi Assessments API
   slug: open-cardiff-assessments-api
@@ -262,52 +261,52 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/cardiff-university/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/conformance/cardiff-education-standards.yml
+  href: https://artifacts.apis.io/cardiff/conformance/cardiff-education-standards.yml
   title: ''
   type: Conformance
   url: conformance/cardiff-education-standards.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/capabilities/cardiff-capability-edges.yml
+  href: https://artifacts.apis.io/cardiff/capabilities/cardiff-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cardiff-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/agentic-access/cardiff-agentic-access.yml
+  href: https://artifacts.apis.io/cardiff/agentic-access/cardiff-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cardiff-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/security/cardiff-domain-security.yml
+  href: https://artifacts.apis.io/cardiff/security/cardiff-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cardiff-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/authentication/cardiff-authentication.yml
+  href: https://artifacts.apis.io/cardiff/authentication/cardiff-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cardiff-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/scopes/cardiff-scopes.yml
+  href: https://artifacts.apis.io/cardiff/scopes/cardiff-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cardiff-scopes.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/plans/cardiff-plans-pricing.yml
+  href: https://artifacts.apis.io/cardiff/plans/cardiff-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cardiff-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/rate-limits/cardiff-rate-limits.yml
+  href: https://artifacts.apis.io/cardiff/rate-limits/cardiff-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cardiff-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/finops/cardiff-finops.yml
+  href: https://artifacts.apis.io/cardiff/finops/cardiff-finops.yml
   title: ''
   type: FinOps
   url: finops/cardiff-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/cardiff/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -380,7 +379,7 @@ plans:
 - name: Cardiff Plans Pricing
   plan_count: 2
   slug: cardiff-plans-pricing
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Cardiff Rate Limits
@@ -415,7 +414,7 @@ scopes:
   summary_line: 2 scopes · implicit
 score:
   band: thin
-  composite: 31.9
+  composite: 35.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 50.3
@@ -423,14 +422,14 @@ score:
     catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 47.7
     developer_ergonomics: 33.3
     discoverability: 62.5
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -439,7 +438,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 37.5
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -453,15 +452,15 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/screenshots/cardiff-2026-06-20T173956.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cardiff/cardiff-2026-06-20T173956.png
 security:
 - kind: authentication
   name: Cardiff Authentication

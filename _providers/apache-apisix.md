@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -133,11 +135,8 @@ apis:
   description: Manage upstream backend service definitions with load balancing.
   name: Apache APISIX Upstreams API
   slug: apache-apisix-upstreams-api
-artifact_total: 101
+artifact_total: 100
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache APISIX Admin API
   slug: open-apache-apisix-admin-api
@@ -196,18 +195,27 @@ collections:
   name: Apache APISIX Admin Consumer Groups Upstreams API
   slug: open-apache-apisix-upstreams-api
 common:
+- group: other
+  href: https://artifacts.apis.io/apache-apisix/capabilities/apache-apisix-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/apache-apisix-capability-edges.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/apache-apisix/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/plans/apache-apisix-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-apisix/plans/apache-apisix-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-apisix-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/rate-limits/apache-apisix-rate-limits.yml
+  href: https://artifacts.apis.io/apache-apisix/rate-limits/apache-apisix-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-apisix-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/finops/apache-apisix-finops.yml
+  href: https://artifacts.apis.io/apache-apisix/finops/apache-apisix-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-apisix-finops.yml
@@ -240,22 +248,22 @@ common:
   type: Security
   url: https://www.apache.org/security/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/agentic-access/apache-apisix-agentic-access.yml
+  href: https://artifacts.apis.io/apache-apisix/agentic-access/apache-apisix-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-apisix-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/security/apache-apisix-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-apisix/security/apache-apisix-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-apisix-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/security/apache-apisix-domain-security.yml
+  href: https://artifacts.apis.io/apache-apisix/security/apache-apisix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-apisix-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/authentication/apache-apisix-authentication.yml
+  href: https://artifacts.apis.io/apache-apisix/authentication/apache-apisix-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apache-apisix-authentication.yml
@@ -296,67 +304,67 @@ common:
   type: StackOverflow
   url: https://stackoverflow.com/questions/tagged/apache-apisix
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/json-schema/route.json
+  href: https://artifacts.apis.io/apache-apisix/json-schema/route.json
   title: ''
   type: JSONSchema
   url: json-schema/route.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/json-schema/upstream.json
+  href: https://artifacts.apis.io/apache-apisix/json-schema/upstream.json
   title: ''
   type: JSONSchema
   url: json-schema/upstream.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/json-schema/service.json
+  href: https://artifacts.apis.io/apache-apisix/json-schema/service.json
   title: ''
   type: JSONSchema
   url: json-schema/service.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/json-schema/consumer.json
+  href: https://artifacts.apis.io/apache-apisix/json-schema/consumer.json
   title: ''
   type: JSONSchema
   url: json-schema/consumer.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/json-schema/ssl.json
+  href: https://artifacts.apis.io/apache-apisix/json-schema/ssl.json
   title: ''
   type: JSONSchema
   url: json-schema/ssl.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/json-schema/global-rule.json
+  href: https://artifacts.apis.io/apache-apisix/json-schema/global-rule.json
   title: ''
   type: JSONSchema
   url: json-schema/global-rule.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/json-schema/plugin-config.json
+  href: https://artifacts.apis.io/apache-apisix/json-schema/plugin-config.json
   title: ''
   type: JSONSchema
   url: json-schema/plugin-config.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/json-schema/consumer-group.json
+  href: https://artifacts.apis.io/apache-apisix/json-schema/consumer-group.json
   title: ''
   type: JSONSchema
   url: json-schema/consumer-group.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/json-schema/stream-route.json
+  href: https://artifacts.apis.io/apache-apisix/json-schema/stream-route.json
   title: ''
   type: JSONSchema
   url: json-schema/stream-route.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/json-schema/secret.json
+  href: https://artifacts.apis.io/apache-apisix/json-schema/secret.json
   title: ''
   type: JSONSchema
   url: json-schema/secret.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/json-ld/apache-apisix-context.jsonld
+  href: https://artifacts.apis.io/apache-apisix/json-ld/apache-apisix-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/apache-apisix-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/rules/apache-apisix-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-apisix/rules/apache-apisix-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-apisix-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/vocabulary/apache-apisix-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-apisix/vocabulary/apache-apisix-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-apisix-vocabulary.yaml
@@ -418,7 +426,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Apisix Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-apisix-finops
   template: true
@@ -516,12 +524,12 @@ overview: 'Apache APISIX publishes 18 API contracts indexed on the [APIs.io](htt
   The Apache APISIX catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache APISIX''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, Stack Overflow tag, and 29 more developer resources.'
+  Apache APISIX''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, Stack Overflow tag, and 31 more developer resources.'
 plans:
 - name: Apache Apisix Plans Pricing
   plan_count: 3
   slug: apache-apisix-plans-pricing
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Apache Apisix Rate Limits
@@ -551,27 +559,24 @@ rules:
     warn: 14
   slug: apache-apisix-spectral-rules
 score:
-  band: developing
-  composite: 47.0
+  band: thin
+  composite: 38.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 55.0
     catalog_earned_first_party: 0.0
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.2
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
-    contract_quality: 56.0
-    developer_ergonomics: 40.5
-    discoverability: 64.3
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 48.3
+    contract_quality: 52.6
+    developer_ergonomics: 41.7
+    discoverability: 57.1
+    operational_transparency: 39.5
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -585,13 +590,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/screenshots/apache-apisix-2026-06-20T172044.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-apisix/apache-apisix-2026-06-20T172044.png
 security:
 - kind: authentication
   name: Apache Apisix Authentication

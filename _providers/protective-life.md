@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/protective-life/refs/heads/main/security/protective-life-domain-security.yml
+  href: https://artifacts.apis.io/protective-life/security/protective-life-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/protective-life-domain-security.yml
@@ -82,7 +84,7 @@ press:
 - date: ''
   title: Protective Life to acquire Abry Partners' portfolio company
   url: https://www.reinsurancene.ws/protective-life-to-acquire-abry-partners-portfolio-company/
-random_paper: 14
+random_paper: 18
 score:
   band: minimal
   composite: 3.1
@@ -113,14 +115,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/protective-life/refs/heads/main/screenshots/protective-life-2026-06-20T192218.png
+screenshot: https://apis.io/screenshots/protective-life/protective-life-2026-06-20T192218.png
 security:
 - kind: domain-security
   name: Protective Life Domain Security

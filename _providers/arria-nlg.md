@@ -14,31 +14,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arria-nlg/refs/heads/main/conformance/arria-nlg-conformance.yml
+  href: https://artifacts.apis.io/arria-nlg/conformance/arria-nlg-conformance.yml
   title: ''
   type: Conformance
   url: conformance/arria-nlg-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arria-nlg/refs/heads/main/hosts/arria-nlg-hosts.yml
+  href: https://artifacts.apis.io/arria-nlg/hosts/arria-nlg-hosts.yml
   title: ''
   type: Hosts
   url: hosts/arria-nlg-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arria-nlg/refs/heads/main/vendors/arria-nlg-vendors.yml
+  href: https://artifacts.apis.io/arria-nlg/vendors/arria-nlg-vendors.yml
   title: ''
   type: Vendors
   url: vendors/arria-nlg-vendors.yml
@@ -59,7 +61,7 @@ common:
   type: Leadership
   url: https://www.arria.com/leadership
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arria-nlg/refs/heads/main/security/arria-nlg-domain-security.yml
+  href: https://artifacts.apis.io/arria-nlg/security/arria-nlg-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arria-nlg-domain-security.yml
@@ -104,18 +106,18 @@ overview: 'Arria NLG is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Arria NLG''s developer surface includes engineering blog, getting-started guide, documentation, and 10 more developer resources.'
-random_paper: 13
+random_paper: 5
 score:
   band: emerging
   composite: 17.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -123,7 +125,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 50.0
     operational_transparency: 10.5
-  previous_composite: 17.8
+  previous_composite: 17.4
   provenance:
     conformance: first-party
     mcp: unknown
@@ -133,14 +135,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/arria-nlg/refs/heads/main/screenshots/arria-nlg-2026-10-11T100341.png
+screenshot: https://apis.io/screenshots/arria-nlg/arria-nlg-2026-10-11T100341.png
 security:
 - kind: domain-security
   name: Arria Nlg Domain Security

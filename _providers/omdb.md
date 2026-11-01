@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 22.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,11 +64,8 @@ apis:
   description: The Title Parameter API from OMDb — 1 operation(s) for title parameter.
   name: OMDb Title Parameter API
   slug: omdb-title-parameter-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OMDb ID Parameter API
   slug: open-omdb-id-parameter-api
@@ -78,17 +77,17 @@ collections:
   slug: open-omdb-title-parameter-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/agentic-access/omdb-agentic-access.yml
+  href: https://artifacts.apis.io/omdb/agentic-access/omdb-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/omdb-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/security/omdb-domain-security.yml
+  href: https://artifacts.apis.io/omdb/security/omdb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/omdb-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/authentication/omdb-authentication.yml
+  href: https://artifacts.apis.io/omdb/authentication/omdb-authentication.yml
   title: ''
   type: Authentication
   url: authentication/omdb-authentication.yml
@@ -109,17 +108,17 @@ common:
   type: Pricing
   url: https://www.omdbapi.com/apikey.aspx
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/plans/omdb-plans-pricing.yml
+  href: https://artifacts.apis.io/omdb/plans/omdb-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/omdb-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/rate-limits/omdb-rate-limits.yml
+  href: https://artifacts.apis.io/omdb/rate-limits/omdb-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/omdb-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/finops/omdb-finops.yml
+  href: https://artifacts.apis.io/omdb/finops/omdb-finops.yml
   title: ''
   type: FinOps
   url: finops/omdb-finops.yml
@@ -188,7 +187,7 @@ plans:
 - name: Omdb Plans Pricing
   plan_count: 2
   slug: omdb-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Omdb Rate Limits
@@ -209,13 +208,13 @@ score:
   band: thin
   composite: 36.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 61.8
     catalog_earned_first_party: 0.0
     catalog_gap: 53.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 23.5
@@ -223,7 +222,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 57.1
     operational_transparency: 13.2
-  previous_composite: 43.4
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -237,14 +236,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/screenshots/omdb-2026-06-20T190703.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/omdb/omdb-2026-06-20T190703.png
 security:
 - kind: authentication
   name: Omdb Authentication

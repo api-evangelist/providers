@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.4
-  scored_at: '2026-10-17'
+  score: 25.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 50
   slug: paymentsense-agentic-access
   summary_line: 50 operations · 28 acting · 1 human-in-the-loop
-api_count: 6
+api_count: 4
 apis:
 - description: Documented WebSockets interface for the Connect platform, offering an event-driven alternative to the REST API for terminal integration. No downloadable OpenAPI/AsyncAPI specification is published; on
   name: Paymentsense Connect WebSockets API
@@ -137,7 +139,7 @@ arazzos:
 - description: List a terminal, start a card transaction on it, and poll to the outcome.
   name: Paymentsense Pay-At-Counter — take a card payment
   slug: paymentsense-pac-take-payment
-artifact_total: 27
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Paymentsense Connect Events
@@ -156,78 +158,83 @@ collections:
   name: Connect REST API
   slug: open-paymentsense-connect-v2
 common:
+- group: commercial
+  href: https://artifacts.apis.io/paymentsense/plans/paymentsense-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/paymentsense-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/overlays/paymentsense-connect-v2-overlay.yaml
+  href: https://artifacts.apis.io/paymentsense/overlays/paymentsense-connect-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paymentsense-connect-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/overlays/paymentsense-connect-v1-overlay.yaml
+  href: https://artifacts.apis.io/paymentsense/overlays/paymentsense-connect-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paymentsense-connect-v1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/overlays/paymentsense-connect-v0-overlay.yaml
+  href: https://artifacts.apis.io/paymentsense/overlays/paymentsense-connect-v0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paymentsense-connect-v0-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/overlays/paymentsense-connect-e-v0-overlay.yaml
+  href: https://artifacts.apis.io/paymentsense/overlays/paymentsense-connect-e-v0-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paymentsense-connect-e-v0-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/security/paymentsense-domain-security.yml
+  href: https://artifacts.apis.io/paymentsense/security/paymentsense-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paymentsense-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/agentic-access/paymentsense-agentic-access.yml
+  href: https://artifacts.apis.io/paymentsense/agentic-access/paymentsense-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/paymentsense-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/authentication/paymentsense-authentication.yml
+  href: https://artifacts.apis.io/paymentsense/authentication/paymentsense-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paymentsense-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/packages/paymentsense-packages.yml
+  href: https://artifacts.apis.io/paymentsense/packages/paymentsense-packages.yml
   title: ''
   type: Packages
   url: packages/paymentsense-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/mcp/paymentsense-mcp.yml
+  href: https://artifacts.apis.io/paymentsense/mcp/paymentsense-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/paymentsense-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/mcp/paymentsense-tool-crosswalk.yml
+  href: https://artifacts.apis.io/paymentsense/mcp/paymentsense-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/paymentsense-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/llms/paymentsense-llms.txt
+  href: https://artifacts.apis.io/paymentsense/llms/paymentsense-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paymentsense-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/conventions/paymentsense-conventions.yml
+  href: https://artifacts.apis.io/paymentsense/conventions/paymentsense-conventions.yml
   title: ''
   type: Conventions
   url: conventions/paymentsense-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/errors/paymentsense-problem-types.yml
+  href: https://artifacts.apis.io/paymentsense/errors/paymentsense-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/paymentsense-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/data-model/paymentsense-data-model.yml
+  href: https://artifacts.apis.io/paymentsense/data-model/paymentsense-data-model.yml
   title: ''
   type: DataModel
   url: data-model/paymentsense-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/conformance/paymentsense-conformance.yml
+  href: https://artifacts.apis.io/paymentsense/conformance/paymentsense-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paymentsense-conformance.yml
@@ -236,12 +243,12 @@ common:
   type: Compliance
   url: https://dojo.tech/articles/what-is-pci-compliance/
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/sandbox/paymentsense-sandbox.yml
+  href: https://artifacts.apis.io/paymentsense/sandbox/paymentsense-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/paymentsense-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/lifecycle/paymentsense-lifecycle.yml
+  href: https://artifacts.apis.io/paymentsense/lifecycle/paymentsense-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/paymentsense-lifecycle.yml
@@ -250,7 +257,7 @@ common:
   type: StatusPage
   url: https://status.paymentsense.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/changelog/paymentsense-changelog.yml
+  href: https://artifacts.apis.io/paymentsense/changelog/paymentsense-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/paymentsense-changelog.yml
@@ -259,7 +266,7 @@ common:
   type: ChangeLog
   url: https://docs.connect.paymentsense.cloud/rest/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/paymentsense/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -318,6 +325,14 @@ common:
 created: '2026-07-24'
 description: Paymentsense is a United Kingdom payment processing company that provides card payment acceptance to small and medium-sized businesses through card machines (PDQ terminals), online payment gateways, and EPOS integrations. Now part of Dojo, its developer-facing surface centers on the Connect platform, a cloud-hosted integration layer that gives each merchant an isolated host so point-of-sale and hospitality software can drive card terminals without touching card data. Paymentsense publishes a genuine public developer portal at docs.connect.paymentsense.cloud with interactive Swagger reference docs and downloadable OpenAPI/Swagger specifications for the Connect REST API (Pay-At-Counter and Pay-At-Table terminal integration, versions v0/v1/v2) and the Connect-E REST API for online/e-commerce card payments, plus a documented WebSockets interface. Authentication is HTTP Basic using a per-merchant API key supplied by Paymentsense. A separate merchant/software-house management portal
   at developers.paymentsense.com sits behind Google sign-in.
+finops:
+- has_sources: true
+  method: derived
+  name: Paymentsense Finops
+  primary_unit: transaction
+  service_category: ''
+  slug: paymentsense-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-24'
@@ -330,26 +345,33 @@ overview: 'Paymentsense publishes 18 API contracts indexed on the [APIs.io](http
   The Paymentsense catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Paymentsense''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, pricing, and 28 more developer resources.'
-random_paper: 10
+  Paymentsense''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, pricing, and 29 more developer resources.'
+plans:
+- name: Paymentsense Plans Pricing
+  plan_count: 15
+  slug: paymentsense-plans-pricing
+- name: Paymentsense Price Estimates
+  plan_count: 0
+  slug: paymentsense-price-estimates
+random_paper: 12
 score:
   band: strong
-  composite: 55.1
+  composite: 63.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 26
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 46.1
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 59.6
+    contract_quality: 56.3
     developer_ergonomics: 66.1
-    discoverability: 78.6
-    operational_transparency: 42.1
+    discoverability: 71.4
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -358,7 +380,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 55.1
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -375,13 +397,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/screenshots/paymentsense-2026-08-07T191642.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/paymentsense/paymentsense-2026-08-07T191642.png
 security:
 - kind: authentication
   name: Paymentsense Authentication
@@ -391,6 +414,14 @@ security:
   name: Paymentsense Domain Security
   slug: paymentsense-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Take an online card payment with Connect-E
+  slug: paymentsense-connect-e-online-payment
+- name: Run a Pay-At-Table hospitality flow
+  slug: paymentsense-pay-at-table
+- name: Take a Pay-At-Counter card payment
+  slug: paymentsense-take-counter-payment
 slug: paymentsense
 tags:
 - Payments

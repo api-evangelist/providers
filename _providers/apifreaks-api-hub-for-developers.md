@@ -30,15 +30,17 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.9
-  scored_at: '2026-10-17'
-api_count: 127
+  score: 34.4
+  scored_at: '2026-10-31'
+api_count: 104
 apis:
 - description: Official first-party Model Context Protocol server (Apache-2.0) exposing 59 read-only tools across 13 categories — IP intelligence, WHOIS, DNS, SSL, domain, weather, currency, commodity, ZIP code, scr
   name: APIFreaks MCP Server
@@ -178,15 +180,12 @@ apis:
   description: The PDF Template APIs API from APIFreaks - API Hub for Developers — 2 operation(s) for rendering a PDF from a template designed in the browser Template Builder. Unlike every other PDF surface these re
   name: APIFreaks - API Hub for Developers PDF Template APIs API
   slug: apifreaks-api-hub-for-developers-pdf-template-apis-api
-artifact_total: 61
+artifact_total: 67
 asyncapis:
 - description: ''
   name: Apifreaks Api Hub For Developers Pdf Webhooks
   slug: apifreaks-api-hub-for-developers-pdf-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apifreaks Api Hub For Developers Commodity APIs API
   slug: open-apifreaks-api-hub-for-developers-commodity-apis-api
@@ -271,7 +270,7 @@ common:
   type: Website
   url: https://apifreaks.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/capabilities/apifreaks-api-hub-for-developers-capability-edges.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/capabilities/apifreaks-api-hub-for-developers-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/apifreaks-api-hub-for-developers-capability-edges.yml
@@ -348,67 +347,67 @@ common:
   type: Postman
   url: https://www.postman.com/apifreaks-official/apifreaks/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/plans/apifreaks-api-hub-for-developers-plans.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/plans/apifreaks-api-hub-for-developers-plans.yml
   title: ''
   type: Plans
   url: plans/apifreaks-api-hub-for-developers-plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/rate-limits/apifreaks-api-hub-for-developers-rate-limits.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/rate-limits/apifreaks-api-hub-for-developers-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apifreaks-api-hub-for-developers-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/llms/apifreaks-api-hub-for-developers-llms.txt
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/llms/apifreaks-api-hub-for-developers-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apifreaks-api-hub-for-developers-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/packages/apifreaks-api-hub-for-developers-packages.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/packages/apifreaks-api-hub-for-developers-packages.yml
   title: ''
   type: Packages
   url: packages/apifreaks-api-hub-for-developers-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/packages/apifreaks-api-hub-for-developers-packages.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/packages/apifreaks-api-hub-for-developers-packages.yml
   title: ''
   type: SDKs
   url: packages/apifreaks-api-hub-for-developers-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/mcp/apifreaks-api-hub-for-developers-mcp.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/mcp/apifreaks-api-hub-for-developers-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/apifreaks-api-hub-for-developers-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/mcp/apifreaks-api-hub-for-developers-tool-crosswalk.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/mcp/apifreaks-api-hub-for-developers-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/apifreaks-api-hub-for-developers-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/data-model/apifreaks-api-hub-for-developers-data-model.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/data-model/apifreaks-api-hub-for-developers-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apifreaks-api-hub-for-developers-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/authentication/apifreaks-api-hub-for-developers-authentication.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/authentication/apifreaks-api-hub-for-developers-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apifreaks-api-hub-for-developers-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/conventions/apifreaks-api-hub-for-developers-conventions.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/conventions/apifreaks-api-hub-for-developers-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apifreaks-api-hub-for-developers-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/errors/apifreaks-api-hub-for-developers-problem-types.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/errors/apifreaks-api-hub-for-developers-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apifreaks-api-hub-for-developers-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/lifecycle/apifreaks-api-hub-for-developers-lifecycle.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/lifecycle/apifreaks-api-hub-for-developers-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apifreaks-api-hub-for-developers-lifecycle.yml
@@ -417,38 +416,46 @@ common:
   type: Deprecation
   url: https://apifreaks.com/announcements
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/changelog/apifreaks-api-hub-for-developers-changelog.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/changelog/apifreaks-api-hub-for-developers-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/apifreaks-api-hub-for-developers-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/conformance/apifreaks-api-hub-for-developers-conformance.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/conformance/apifreaks-api-hub-for-developers-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apifreaks-api-hub-for-developers-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/sandbox/apifreaks-api-hub-for-developers-sandbox.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/sandbox/apifreaks-api-hub-for-developers-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/apifreaks-api-hub-for-developers-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/asyncapi/apifreaks-api-hub-for-developers-pdf-webhooks.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/asyncapi/apifreaks-api-hub-for-developers-pdf-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/apifreaks-api-hub-for-developers-pdf-webhooks.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/overlays/apifreaks-api-hub-for-developers-auth-errors-overlay.yaml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/overlays/apifreaks-api-hub-for-developers-auth-errors-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/apifreaks-api-hub-for-developers-auth-errors-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/security/apifreaks-api-hub-for-developers-domain-security.yml
+  href: https://artifacts.apis.io/apifreaks-api-hub-for-developers/security/apifreaks-api-hub-for-developers-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apifreaks-api-hub-for-developers-domain-security.yml
 created: '2026-07-29'
 description: APIFreaks is a first-party REST API hub built by JFreaks Software Solutions (Lahore, Pakistan) that ships more than 100 production endpoints behind a single API key and a single shared credit pool. The catalog spans IP geolocation and threat intelligence, WHOIS (live, historical, reverse, ASN), DNS (live, history, reverse), SSL certificate inspection, domain availability and subdomain discovery, forward and reverse geocoding, email and phone validation, VAT/IBAN/SWIFT financial validation, web scraping, website screenshots, an asynchronous PDF processing pipeline, browser-designed PDF template rendering, currency and commodity market data, ZIP code and GeoDB reference data, weather (current, forecast, historical, marine, air quality, flood), timezones, user-agent parsing and astronomy. Credits are charged only on successful 2xx responses and refunded on errors, new accounts get 10,000 free credits with no card, and the whole surface is published as 104 OpenAPI 3.1 specifications,
   68 markdown reference twins served at text/markdown for agents, and an official Apache-2.0 MCP server exposing 109 tools across 19 opt-in modules.
+finops:
+- has_sources: true
+  method: derived
+  name: Apifreaks Api Hub For Developers Finops
+  primary_unit: 600k api credits / month
+  service_category: ''
+  slug: apifreaks-api-hub-for-developers-finops
+  template: false
 image: https://apifreaks.com/img/opengraph-image.jpg
 layout: provider
 mcp_servers:
@@ -468,8 +475,11 @@ overview: 'APIFreaks - API Hub for Developers publishes 28 API contracts indexed
   APIFreaks - API Hub for Developers'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
 plans:
 - name: Apifreaks Api Hub For Developers Plans
-  plan_count: 5
+  plan_count: 6
   slug: apifreaks-api-hub-for-developers-plans
+- name: Apifreaks Api Hub For Developers Price Estimates
+  plan_count: 0
+  slug: apifreaks-api-hub-for-developers-price-estimates
 random_paper: 3
 rate_limits:
 - limit_count: 2
@@ -477,26 +487,23 @@ rate_limits:
   slug: apifreaks-api-hub-for-developers-rate-limits
 score:
   band: strong
-  composite: 58.4
+  composite: 66.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 60.0
+    artifact_dirs: 26
+    catalog_earned: 63.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 60.9
-    developer_ergonomics: 72.0
-    discoverability: 76.7
-    operational_transparency: 63.2
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 58.3
+    developer_ergonomics: 78.0
+    discoverability: 70.0
+    operational_transparency: 73.7
+  previous_composite: 64.6
   provenance:
     conformance: derived
     contracts:
@@ -512,13 +519,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/screenshots/apifreaks-api-hub-for-developers-2026-08-17T080405.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apifreaks-api-hub-for-developers/apifreaks-api-hub-for-developers-2026-08-17T080405.png
 security:
 - kind: authentication
   name: Apifreaks Api Hub For Developers Authentication
@@ -528,6 +536,18 @@ security:
   name: Apifreaks Api Hub For Developers Domain Security
   slug: apifreaks-api-hub-for-developers-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Run an asynchronous PDF job and collect the result
+  slug: apifreaks-api-hub-for-developers-async-pdf-pipeline
+- name: Validate a list of emails and phone numbers
+  slug: apifreaks-api-hub-for-developers-contact-data-validation
+- name: Run domain due diligence — WHOIS, DNS, SSL and subdomains
+  slug: apifreaks-api-hub-for-developers-domain-due-diligence
+- name: Enrich an IP address with location and threat signal
+  slug: apifreaks-api-hub-for-developers-ip-enrichment
+- name: Render a PDF from an APIFreaks template
+  slug: apifreaks-api-hub-for-developers-pdf-template-render
 slug: apifreaks-api-hub-for-developers
 tags:
 - IP Intelligence

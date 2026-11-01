@@ -29,8 +29,8 @@ name: LiquidLight
 nav: Providers
 network: true
 overview: LiquidLight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Chemicals, Carbon Capture, Electrochemistry, and Materials Science.
-random_paper: 18
-screenshot: https://raw.githubusercontent.com/api-evangelist/liquidlight/refs/heads/main/screenshots/liquidlight-2026-07-25T225313.png
+random_paper: 8
+screenshot: https://apis.io/screenshots/liquidlight/liquidlight-2026-07-25T225313.png
 slug: liquidlight
 tags:
 - Company

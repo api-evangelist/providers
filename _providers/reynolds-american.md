@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reynolds-american/refs/heads/main/security/reynolds-american-domain-security.yml
+  href: https://artifacts.apis.io/reynolds-american/security/reynolds-american-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reynolds-american-domain-security.yml
@@ -86,7 +88,7 @@ press:
 - date: ''
   title: Reynolds American CEO David Waterfield on Growing ...
   url: https://www.linkedin.com/posts/reynoldsamericaninc_yesterday-reynolds-american-inc-president-activity-7430296497134399488-6ZU7
-random_paper: 19
+random_paper: 5
 rules:
 - authorship: generated
   effective_rule_count: 4
@@ -129,8 +131,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

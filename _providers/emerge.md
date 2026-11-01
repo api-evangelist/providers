@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 35.4
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - baseURL: https://api.emergemarket.io/v1
   baseurl_source: declared
@@ -84,7 +86,7 @@ apis:
   description: Webhooks are used to provide updates to the TMS when award or option events are generated within the Emerge system. </br></br>If our webhook message cannot be accepted by the webhook endpoint due to n
   name: Emerge Webhooks API
   slug: emerge-webhooks-api
-artifact_total: 18
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Emerge Webhooks
@@ -98,12 +100,17 @@ collections:
   slug: open-emerge-public-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/overlays/emerge-public-api-overlay.yaml
+  href: https://artifacts.apis.io/emerge/capabilities/emerge-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/emerge-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/emerge/overlays/emerge-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emerge-public-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/overlays/emerge-carrier-api-overlay.yaml
+  href: https://artifacts.apis.io/emerge/overlays/emerge-carrier-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emerge-carrier-api-overlay.yaml
@@ -176,103 +183,111 @@ common:
   type: Security
   url: https://api.emergemarket.io/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/well-known/emerge-security.txt
+  href: https://artifacts.apis.io/emerge/well-known/emerge-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/emerge-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/well-known/emerge-well-known.yml
+  href: https://artifacts.apis.io/emerge/well-known/emerge-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/emerge-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/llms/emerge-llms.txt
+  href: https://artifacts.apis.io/emerge/llms/emerge-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/emerge-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/authentication/emerge-authentication.yml
+  href: https://artifacts.apis.io/emerge/authentication/emerge-authentication.yml
   title: ''
   type: Authentication
   url: authentication/emerge-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/conventions/emerge-conventions.yml
+  href: https://artifacts.apis.io/emerge/conventions/emerge-conventions.yml
   title: ''
   type: Conventions
   url: conventions/emerge-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/lifecycle/emerge-lifecycle.yml
+  href: https://artifacts.apis.io/emerge/lifecycle/emerge-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/emerge-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/conformance/emerge-conformance.yml
+  href: https://artifacts.apis.io/emerge/conformance/emerge-conformance.yml
   title: ''
   type: Conformance
   url: conformance/emerge-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/errors/emerge-problem-types.yml
+  href: https://artifacts.apis.io/emerge/errors/emerge-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/emerge-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/data-model/emerge-data-model.yml
+  href: https://artifacts.apis.io/emerge/data-model/emerge-data-model.yml
   title: ''
   type: DataModel
   url: data-model/emerge-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/rate-limits/emerge-rate-limits.yml
+  href: https://artifacts.apis.io/emerge/rate-limits/emerge-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/emerge-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/plans/emerge-plans-pricing.yml
+  href: https://artifacts.apis.io/emerge/plans/emerge-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/emerge-plans-pricing.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/sandbox/emerge-sandbox.yml
+  href: https://artifacts.apis.io/emerge/sandbox/emerge-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/emerge-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/asyncapi/emerge-webhooks.yml
+  href: https://artifacts.apis.io/emerge/asyncapi/emerge-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/emerge-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/packages/emerge-packages.yml
+  href: https://artifacts.apis.io/emerge/packages/emerge-packages.yml
   title: ''
   type: Packages
   url: packages/emerge-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/mcp/emerge-mcp.yml
+  href: https://artifacts.apis.io/emerge/mcp/emerge-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/emerge-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/emerge/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/security/emerge-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/emerge/security/emerge-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/emerge-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/security/emerge-trust-center.yml
+  href: https://artifacts.apis.io/emerge/security/emerge-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/emerge-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/security/emerge-domain-security.yml
+  href: https://artifacts.apis.io/emerge/security/emerge-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/emerge-domain-security.yml
 created: '2026-08-12'
 description: Emerge (EmergeTech, Inc.) is a Scottsdale, Arizona freight procurement and transportation spend management platform — marketed as ProcureOS — that moves full truckload, volume/partial truckload and drop-trailer freight sourcing out of spreadsheets and email into a single system. The platform combines contract procurement (annual RFPs, mini-bids, awarding scenarios, carrier scorecards), spot procurement (quoting, tendering, Dynamic Book It Now, tracking and visibility), Emerge AI rate benchmarking and lane intelligence (Rate Pulse), and the Emerge Marketplace of 45,000+ pre-vetted asset-based carriers across the US, Canada and Mexico. Emerge publishes two public REST APIs — a Shipper (public) API for opportunities, options, awards, tenders, shipments, network partners and webhook subscriptions, and a Carrier API for capacity/integration providers responding to rate requests and tenders — plus a documented webhook event catalog, a testing sandbox, and TMS integrations with Project44,
   E2open, MercuryGate and Capacity Link partners.
+finops:
+- has_sources: true
+  method: derived
+  name: Emerge Finops
+  primary_unit: ''
+  service_category: ''
+  slug: emerge-finops
+  template: true
 image: https://cdn.prod.website-files.com/66ad43d7385c00622859db37/66b8fd0eb48dad5fa020dc5c_website_share.png
 layout: provider
 modified: '2026-08-12'
@@ -285,35 +300,35 @@ overview: 'Emerge publishes 9 API contracts indexed on the [APIs.io](https://api
   The Emerge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Emerge''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  Emerge''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 plans:
 - name: Emerge Plans Pricing
   plan_count: 0
   slug: emerge-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Emerge Rate Limits
   slug: emerge-rate-limits
 score:
-  band: developing
-  composite: 48.8
+  band: strong
+  composite: 57.5
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 48.0
+    artifact_dirs: 24
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.6
   facets:
     access_clarity: 52.6
     contract_governance: 4.5
-    contract_quality: 60.0
-    developer_ergonomics: 30.4
-    discoverability: 78.6
-    operational_transparency: 50.0
-  previous_composite: 48.7
+    contract_quality: 57.8
+    developer_ergonomics: 70.8
+    discoverability: 66.1
+    operational_transparency: 63.2
+  previous_composite: 58.1
   provenance:
     conformance: derived
     contracts:
@@ -329,13 +344,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/screenshots/emerge-2026-08-17T080921.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/emerge/emerge-2026-08-17T080921.png
 security:
 - kind: authentication
   name: Emerge Authentication
@@ -353,6 +369,16 @@ security:
   name: Emerge Trust Center
   slug: emerge-trust-center
   summary_line: trust center published
+skill_count: 4
+skills:
+- name: Quote and accept Emerge freight as a Capacity Provider
+  slug: emerge-carrier-quote-and-tender
+- name: Source capacity on Emerge and award it back into your own TMS
+  slug: emerge-opportunity-to-award
+- name: Source truckload capacity on Emerge and tender it
+  slug: emerge-opportunity-to-tender
+- name: Subscribe to Emerge webhook events
+  slug: emerge-subscribe-to-events
 slug: emerge
 tags:
 - Freight

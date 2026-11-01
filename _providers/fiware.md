@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 26.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 63
   slug: fiware-agentic-access
   summary_line: 63 operations · 40 acting
-api_count: 4
+api_count: 2
 apis:
 - baseURL: http://orion.lab.fiware.org/
   baseurl_source: spec
@@ -95,11 +97,8 @@ apis:
   description: The Types API from FIWARE — 2 operation(s) for types.
   name: FIWARE Types API
   slug: fiware-types-api
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ETSI ISG CIM / NGSI-LD API Entry Point API
   slug: open-fiware-api-entry-point-api
@@ -153,27 +152,27 @@ collections:
   slug: open-fiware-types-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/plans/fiware-plans-pricing.yml
+  href: https://artifacts.apis.io/fiware/plans/fiware-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fiware-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/rate-limits/fiware-rate-limits.yml
+  href: https://artifacts.apis.io/fiware/rate-limits/fiware-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fiware-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/finops/fiware-finops.yml
+  href: https://artifacts.apis.io/fiware/finops/fiware-finops.yml
   title: ''
   type: FinOps
   url: finops/fiware-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/agentic-access/fiware-agentic-access.yml
+  href: https://artifacts.apis.io/fiware/agentic-access/fiware-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fiware-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/security/fiware-domain-security.yml
+  href: https://artifacts.apis.io/fiware/security/fiware-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fiware-domain-security.yml
@@ -207,7 +206,7 @@ finops:
 - has_sources: false
   method: generated
   name: Fiware Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: fiware-finops
   template: true
@@ -225,30 +224,30 @@ plans:
 - name: Fiware Plans Pricing
   plan_count: 3
   slug: fiware-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Fiware Rate Limits
   slug: fiware-rate-limits
 score:
   band: emerging
-  composite: 24.3
+  composite: 20.8
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 41.0
+    artifact_dirs: 11
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: -0.5
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 46.0
+    contract_quality: 43.2
     developer_ergonomics: 11.9
-    discoverability: 62.5
-    operational_transparency: 10.5
-  previous_composite: 25.3
+    discoverability: 57.1
+    operational_transparency: 13.2
+  previous_composite: 21.3
   provenance:
     agentic_access: derived
     contracts:
@@ -262,13 +261,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/screenshots/fiware-2026-06-20T181304.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fiware/fiware-2026-06-20T181304.png
 security:
 - kind: domain-security
   name: Fiware Domain Security

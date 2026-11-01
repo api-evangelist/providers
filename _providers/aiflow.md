@@ -33,6 +33,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -40,12 +42,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aiflow/refs/heads/main/security/aiflow-domain-security.yml
+  href: https://artifacts.apis.io/aiflow/security/aiflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aiflow-domain-security.yml
@@ -78,37 +80,37 @@ common:
   type: PrivacyPolicy
   url: https://www.veratainsight.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aiflow/refs/heads/main/well-known/aiflow-well-known.yml
+  href: https://artifacts.apis.io/aiflow/well-known/aiflow-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/aiflow-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aiflow/refs/heads/main/authentication/aiflow-authentication.yml
+  href: https://artifacts.apis.io/aiflow/authentication/aiflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aiflow-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aiflow/refs/heads/main/scopes/aiflow-scopes.yml
+  href: https://artifacts.apis.io/aiflow/scopes/aiflow-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/aiflow-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aiflow/refs/heads/main/conformance/aiflow-conformance.yml
+  href: https://artifacts.apis.io/aiflow/conformance/aiflow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aiflow-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aiflow/refs/heads/main/plans/aiflow-plans-pricing.yml
+  href: https://artifacts.apis.io/aiflow/plans/aiflow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aiflow-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aiflow/refs/heads/main/rate-limits/aiflow-rate-limits.yml
+  href: https://artifacts.apis.io/aiflow/rate-limits/aiflow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aiflow-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aiflow/refs/heads/main/llms/aiflow-llms.txt
+  href: https://artifacts.apis.io/aiflow/llms/aiflow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aiflow-llms.txt
@@ -147,7 +149,7 @@ plans:
 - name: Aiflow Plans Pricing
   plan_count: 3
   slug: aiflow-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Aiflow Rate Limits
@@ -159,7 +161,7 @@ scopes:
   summary_line: 14 scopes
 score:
   band: emerging
-  composite: 24.5
+  composite: 23.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 39.0
@@ -167,15 +169,15 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 24.4
+  previous_composite: 23.8
   provenance:
     conformance: first-party
   regulatory:
@@ -184,14 +186,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aiflow/refs/heads/main/screenshots/aiflow-2026-10-11T093254.png
+screenshot: https://apis.io/screenshots/aiflow/aiflow-2026-10-11T093254.png
 security:
 - kind: authentication
   name: Aiflow Authentication

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,14 +37,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Infura's managed Web3 API surface — JSON-RPC 2.0 access to Ethereum and 40+ EVM networks (Base, Arbitrum, Optimism, Polygon, Linea, and more), plus IPFS and a Gas API. Authenticated with an API key em
   name: Infura Web3 API
   slug: infura-web3-api
-artifact_total: 5
+artifact_total: 8
 common:
+- group: commercial
+  href: https://artifacts.apis.io/consensys/plans/consensys-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/consensys-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -96,42 +103,42 @@ common:
   type: StatusPage
   url: https://status.infura.io/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/packages/consensys-packages.yml
+  href: https://artifacts.apis.io/consensys/packages/consensys-packages.yml
   title: ''
   type: Packages
   url: packages/consensys-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/packages/consensys-packages.yml
+  href: https://artifacts.apis.io/consensys/packages/consensys-packages.yml
   title: ''
   type: SDKs
   url: packages/consensys-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/authentication/consensys-authentication.yml
+  href: https://artifacts.apis.io/consensys/authentication/consensys-authentication.yml
   title: ''
   type: Authentication
   url: authentication/consensys-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/conventions/consensys-conventions.yml
+  href: https://artifacts.apis.io/consensys/conventions/consensys-conventions.yml
   title: ''
   type: Conventions
   url: conventions/consensys-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/errors/consensys-problem-types.yml
+  href: https://artifacts.apis.io/consensys/errors/consensys-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/consensys-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/lifecycle/consensys-lifecycle.yml
+  href: https://artifacts.apis.io/consensys/lifecycle/consensys-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/consensys-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/lifecycle/consensys-lifecycle.yml
+  href: https://artifacts.apis.io/consensys/lifecycle/consensys-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/consensys-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/conformance/consensys-conformance.yml
+  href: https://artifacts.apis.io/consensys/conformance/consensys-conformance.yml
   title: ''
   type: Conformance
   url: conformance/consensys-conformance.yml
@@ -140,7 +147,7 @@ common:
   type: Compliance
   url: https://trust.consensys.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/security/consensys-trust-center.yml
+  href: https://artifacts.apis.io/consensys/security/consensys-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/consensys-trust-center.yml
@@ -149,37 +156,45 @@ common:
   type: Security
   url: https://consensys.io/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/security/consensys-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/consensys/security/consensys-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/consensys-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/security/consensys-domain-security.yml
+  href: https://artifacts.apis.io/consensys/security/consensys-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/consensys-domain-security.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/sandbox/consensys-sandbox.yml
+  href: https://artifacts.apis.io/consensys/sandbox/consensys-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/consensys-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/well-known/consensys-well-known.yml
+  href: https://artifacts.apis.io/consensys/well-known/consensys-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/consensys-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/well-known/consensys-security.txt
+  href: https://artifacts.apis.io/consensys/well-known/consensys-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/consensys-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/llms/consensys-llms.txt
+  href: https://artifacts.apis.io/consensys/llms/consensys-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/consensys-llms.txt
 created: '2026-07-17'
 description: Consensys is a blockchain and Web3 software company founded by Ethereum co-founder Joseph Lubin that builds core Ethereum infrastructure and developer tooling for the decentralized web. Its product suite includes MetaMask (the self-custodial wallet and MetaMask Developer / Connect SDK), Infura (managed, high-availability JSON-RPC blockchain node APIs, IPFS, and a Gas API across Ethereum and 40+ EVM networks), Linea (a zkEVM Layer 2 network), Besu and Teku (execution and consensus clients), and Diligence/MythX smart-contract security tooling. Developers use Infura's API-key-authenticated JSON-RPC 2.0 endpoints to read and broadcast to Ethereum, Base, Arbitrum, Optimism, Polygon, Linea and more without operating their own nodes.
+finops:
+- has_sources: true
+  method: derived
+  name: Consensys Finops
+  primary_unit: credits
+  service_category: ''
+  slug: consensys-finops
+  template: false
 image: https://images.ctfassets.net/gjyjx7gst9lo/KSIfy6249SncAzulCYpbk/64a8d62db48e733cb7705247d6d70953/Consensys_is_building_the_era_of_decentralized_finance.png
 layout: provider
 modified: '2026-07-18'
@@ -189,27 +204,34 @@ network: true
 overview: 'Consensys is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Blockchain, Ethereum, and Web3.
 
 
-  Consensys'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 7
+  Consensys'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+plans:
+- name: Consensys Plans Pricing
+  plan_count: 5
+  slug: consensys-plans-pricing
+- name: Consensys Price Estimates
+  plan_count: 0
+  slug: consensys-price-estimates
+random_paper: 13
 score:
   band: developing
-  composite: 40.7
+  composite: 50.1
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 16
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 61.9
-    discoverability: 73.2
-    operational_transparency: 36.8
-  previous_composite: 40.6
+    developer_ergonomics: 71.4
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 42.2
   provenance:
     conformance: first-party
   regulatory:
@@ -218,14 +240,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/screenshots/consensys-2026-07-25T210303.png
+screenshot: https://apis.io/screenshots/consensys/consensys-2026-07-25T210303.png
 security:
 - kind: authentication
   name: Consensys Authentication

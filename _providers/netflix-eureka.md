@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 2
@@ -58,11 +60,8 @@ apis:
   description: Virtual IP address based queries
   name: Netflix Eureka VIP API
   slug: netflix-eureka-vip-api
-artifact_total: 12
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Netflix Eureka REST API
   slug: open-eureka-rest-api
@@ -77,27 +76,27 @@ collections:
   slug: open-netflix-eureka-vip-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/plans/netflix-eureka-plans-pricing.yml
+  href: https://artifacts.apis.io/netflix-eureka/plans/netflix-eureka-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/netflix-eureka-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/rate-limits/netflix-eureka-rate-limits.yml
+  href: https://artifacts.apis.io/netflix-eureka/rate-limits/netflix-eureka-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/netflix-eureka-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/finops/netflix-eureka-finops.yml
+  href: https://artifacts.apis.io/netflix-eureka/finops/netflix-eureka-finops.yml
   title: ''
   type: FinOps
   url: finops/netflix-eureka-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/capabilities/netflix-eureka-capability-edges.yml
+  href: https://artifacts.apis.io/netflix-eureka/capabilities/netflix-eureka-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/netflix-eureka-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/agentic-access/netflix-eureka-agentic-access.yml
+  href: https://artifacts.apis.io/netflix-eureka/agentic-access/netflix-eureka-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/netflix-eureka-agentic-access.yml
@@ -131,7 +130,7 @@ finops:
 - has_sources: false
   method: generated
   name: Netflix Eureka Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: netflix-eureka-finops
   template: true
@@ -149,14 +148,14 @@ plans:
 - name: Netflix Eureka Plans Pricing
   plan_count: 3
   slug: netflix-eureka-plans-pricing
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Netflix Eureka Rate Limits
   slug: netflix-eureka-rate-limits
 score:
   band: emerging
-  composite: 20.7
+  composite: 21.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 38.0
@@ -164,7 +163,7 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -172,7 +171,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 57.1
     operational_transparency: 13.2
-  previous_composite: 22.2
+  previous_composite: 21.4
   provenance:
     agentic_access: derived
     contracts:
@@ -186,13 +185,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/screenshots/netflix-eureka-2026-06-20T190154.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/netflix-eureka/netflix-eureka-2026-06-20T190154.png
 slug: netflix-eureka
 tags:
 - Cloud-Native

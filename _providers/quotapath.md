@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 27.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -81,11 +83,8 @@ apis:
   description: The user API from QuotaPath — 1 operation(s) for user.
   name: QuotaPath User API
   slug: quotapath-user-api
-artifact_total: 21
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: QuotaPath data API
   slug: open-quotapath-data-api
@@ -109,62 +108,62 @@ collections:
   slug: open-quotapath-user-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/capabilities/quotapath-capability-edges.yml
+  href: https://artifacts.apis.io/quotapath/capabilities/quotapath-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/quotapath-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/agentic-access/quotapath-agentic-access.yml
+  href: https://artifacts.apis.io/quotapath/agentic-access/quotapath-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/quotapath-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/security/quotapath-trust-center.yml
+  href: https://artifacts.apis.io/quotapath/security/quotapath-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/quotapath-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/security/quotapath-domain-security.yml
+  href: https://artifacts.apis.io/quotapath/security/quotapath-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quotapath-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/authentication/quotapath-authentication.yml
+  href: https://artifacts.apis.io/quotapath/authentication/quotapath-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quotapath-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/mcp/quotapath-mcp.yml
+  href: https://artifacts.apis.io/quotapath/mcp/quotapath-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/quotapath-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/llms/quotapath-llms.txt
+  href: https://artifacts.apis.io/quotapath/llms/quotapath-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/quotapath-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/overlays/quotapath-openapi-overlay.yaml
+  href: https://artifacts.apis.io/quotapath/overlays/quotapath-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/quotapath-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/conventions/quotapath-conventions.yml
+  href: https://artifacts.apis.io/quotapath/conventions/quotapath-conventions.yml
   title: ''
   type: Conventions
   url: conventions/quotapath-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/data-model/quotapath-data-model.yml
+  href: https://artifacts.apis.io/quotapath/data-model/quotapath-data-model.yml
   title: ''
   type: DataModel
   url: data-model/quotapath-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/lifecycle/quotapath-lifecycle.yml
+  href: https://artifacts.apis.io/quotapath/lifecycle/quotapath-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/quotapath-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/conformance/quotapath-conformance.yml
+  href: https://artifacts.apis.io/quotapath/conformance/quotapath-conformance.yml
   title: ''
   type: Conformance
   url: conformance/quotapath-conformance.yml
@@ -173,7 +172,7 @@ common:
   type: Compliance
   url: https://trust.quotapath.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/quotapath/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -234,27 +233,35 @@ common:
   type: GettingStarted
   url: https://help.quotapath.com/en/articles/8097859-api-documentation
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/packages/quotapath-packages.yml
+  href: https://artifacts.apis.io/quotapath/packages/quotapath-packages.yml
   title: ''
   type: Packages
   url: packages/quotapath-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/plans/quotapath-plans-pricing.yml
+  href: https://artifacts.apis.io/quotapath/plans/quotapath-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/quotapath-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/rate-limits/quotapath-rate-limits.yml
+  href: https://artifacts.apis.io/quotapath/rate-limits/quotapath-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/quotapath-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/errors/quotapath-problem-types.yml
+  href: https://artifacts.apis.io/quotapath/errors/quotapath-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/quotapath-problem-types.yml
 created: '2026-07-17'
 description: QuotaPath is a sales commission tracking and compensation management platform that helps revenue, finance, and sales operations teams design, automate, and audit variable-pay programs. It sits as a system of record between a company's CRM, finance stack, and payroll — pulling deals from HubSpot and Salesforce, applying commission plans, quotas, and ASC 606 ledger logic, and syncing payouts to accounting and HRIS systems like QuickBooks, NetSuite, and Rippling. QuotaPath exposes a REST API (available on the Premium tier) for pushing deals, reading payouts, managing quota assignments, and building custom CRM and payroll integrations. The API uses token-based API-key authentication over https://api.quotapath.com/v1 with limit/offset pagination.
+finops:
+- has_sources: true
+  method: derived
+  name: Quotapath Finops
+  primary_unit: user
+  service_category: ''
+  slug: quotapath-finops
+  template: false
 image: https://storage.googleapis.com/quotapath-prod-app/qp_logos/logo_primary.png
 layout: provider
 modified: '2026-08-14'
@@ -269,30 +276,33 @@ plans:
 - name: Quotapath Plans Pricing
   plan_count: 3
   slug: quotapath-plans-pricing
-random_paper: 15
+- name: Quotapath Price Estimates
+  plan_count: 0
+  slug: quotapath-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Quotapath Rate Limits
   slug: quotapath-rate-limits
 score:
-  band: developing
-  composite: 53.7
+  band: strong
+  composite: 54.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 46.3
+    contract_quality: 42.9
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 53.7
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -309,13 +319,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/screenshots/quotapath-2026-08-17T081433.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/quotapath/quotapath-2026-08-17T081433.png
 security:
 - kind: authentication
   name: Quotapath Authentication
@@ -329,6 +340,14 @@ security:
   name: Quotapath Trust Center
   slug: quotapath-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 3
+skills:
+- name: Bulk-sync deals from an external system
+  slug: quotapath-bulk-sync
+- name: Manage quota assignments and values
+  slug: quotapath-manage-quotas
+- name: Push a deal and read its payout
+  slug: quotapath-push-deal
 slug: quotapath
 tags:
 - Company

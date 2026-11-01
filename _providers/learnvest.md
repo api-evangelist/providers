@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -49,17 +51,17 @@ common:
   type: PrivacyPolicy
   url: https://www.northwesternmutual.com/privacy-notices/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/learnvest/refs/heads/main/lifecycle/learnvest-lifecycle.yml
+  href: https://artifacts.apis.io/learnvest/lifecycle/learnvest-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/learnvest-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/learnvest/refs/heads/main/security/learnvest-domain-security.yml
+  href: https://artifacts.apis.io/learnvest/security/learnvest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/learnvest-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/learnvest/refs/heads/main/llms/learnvest-llms.txt
+  href: https://artifacts.apis.io/learnvest/llms/learnvest-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/learnvest-llms.txt
@@ -72,7 +74,7 @@ name: LearnVest
 nav: Providers
 network: true
 overview: LearnVest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Financial Services, Personal Finance, and Financial Planning.
-random_paper: 12
+random_paper: 20
 score:
   band: minimal
   composite: 0.0
@@ -99,14 +101,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/learnvest/refs/heads/main/screenshots/learnvest-2026-07-25T224800.png
+screenshot: https://apis.io/screenshots/learnvest/learnvest-2026-07-25T224800.png
 security:
 - kind: domain-security
   name: Learnvest Domain Security

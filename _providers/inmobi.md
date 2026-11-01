@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Automates download of app inventory performance data for InMobi publishers. A single POST to /v3.0/reporting/publisher takes a reportRequest envelope of metrics (adRequests, adImpressions, clicks, ear
@@ -52,15 +54,15 @@ apis:
 - description: InMobi's programmatic ad exchange, integrated by demand-side platforms over the IAB OpenRTB 2.5 protocol. InMobi publishes its own delta specification ("InMobi Open RTB 2.5 Specification Version 4.3")
   name: InMobi Exchange (OpenRTB 2.5)
   slug: inmobi-exchange-openrtb
-artifact_total: 10
+artifact_total: 11
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/security/inmobi-trust-center.yml
+  href: https://artifacts.apis.io/inmobi/security/inmobi-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/inmobi-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/security/inmobi-domain-security.yml
+  href: https://artifacts.apis.io/inmobi/security/inmobi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inmobi-domain-security.yml
@@ -97,7 +99,7 @@ common:
   type: ChangeLog
   url: https://support.inmobi.com/inmobi-now
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/changelog/inmobi-changelog.yml
+  href: https://artifacts.apis.io/inmobi/changelog/inmobi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/inmobi-changelog.yml
@@ -134,63 +136,71 @@ common:
   type: Security
   url: https://www.inmobi.com/security/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/packages/inmobi-packages.yml
+  href: https://artifacts.apis.io/inmobi/packages/inmobi-packages.yml
   title: ''
   type: Packages
   url: packages/inmobi-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/packages/inmobi-packages.yml
+  href: https://artifacts.apis.io/inmobi/packages/inmobi-packages.yml
   title: ''
   type: SDKs
   url: packages/inmobi-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/conformance/inmobi-conformance.yml
+  href: https://artifacts.apis.io/inmobi/conformance/inmobi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/inmobi-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/llms/inmobi-llms.txt
+  href: https://artifacts.apis.io/inmobi/llms/inmobi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/inmobi-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/authentication/inmobi-authentication.yml
+  href: https://artifacts.apis.io/inmobi/authentication/inmobi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/inmobi-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/rate-limits/inmobi-rate-limits.yml
+  href: https://artifacts.apis.io/inmobi/rate-limits/inmobi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/inmobi-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/errors/inmobi-problem-types.yml
+  href: https://artifacts.apis.io/inmobi/errors/inmobi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/inmobi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/conventions/inmobi-conventions.yml
+  href: https://artifacts.apis.io/inmobi/conventions/inmobi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/inmobi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/data-model/inmobi-data-model.yml
+  href: https://artifacts.apis.io/inmobi/data-model/inmobi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/inmobi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/lifecycle/inmobi-lifecycle.yml
+  href: https://artifacts.apis.io/inmobi/lifecycle/inmobi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/inmobi-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/plans/inmobi-plans-pricing.yml
+  href: https://artifacts.apis.io/inmobi/plans/inmobi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/inmobi-plans-pricing.yml
 created: '2026-07-17'
 description: InMobi is a global advertising technology and mobile marketing platform headquartered in Bengaluru, India, and backed by SoftBank Vision Fund. It positions itself as the intelligence layer of the consumer internet, connecting brands and consumers across mobile apps and the open web. InMobi's enterprise platforms include InMobi Advertising for brand building, app growth and ad monetization; the InMobi Exchange, a programmatic OpenRTB 2.5 ad exchange for demand-side platforms; InMobi DSP performance solutions; and InMobi CMP (Choice), an IAB TCF-certified consent management platform. InMobi operates four documented, live REST APIs — the Publisher Reporting API 3.0 for inventory performance data, the Ad Management API for managing apps and placements, the DSP Cost API for asynchronous spend reporting, and a Server-to-Server Ad Request API — alongside native mobile ad SDKs for Android (Maven Central) and iOS (CocoaPods and Swift Package Manager). No OpenAPI, AsyncAPI, OAuth server
   or REST client library is published for any of them. Consumer brands include Glance and the 1Weather app.
+finops:
+- has_sources: true
+  method: derived
+  name: Inmobi Finops
+  primary_unit: domain
+  service_category: ''
+  slug: inmobi-finops
+  template: false
 image: https://github.com/InMobi.png
 layout: provider
 modified: '2026-08-12'
@@ -205,29 +215,29 @@ plans:
 - name: Inmobi Plans Pricing
   plan_count: 2
   slug: inmobi-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Inmobi Rate Limits
   slug: inmobi-rate-limits
 score:
   band: developing
-  composite: 48.3
+  composite: 49.6
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 55.0
+    artifact_dirs: 18
+    catalog_earned: 58.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 60.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 75.0
+    access_clarity: 89.5
     contract_governance: 18.2
-    contract_quality: 5.3
+    contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 69.6
-    operational_transparency: 60.5
+    discoverability: 62.5
+    operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -235,7 +245,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 48.3
+  previous_composite: 48.0
   provenance:
     conformance: first-party
   regulatory:
@@ -250,14 +260,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/inmobi/refs/heads/main/screenshots/inmobi-2026-07-25T222451.png
+screenshot: https://apis.io/screenshots/inmobi/inmobi-2026-07-25T222451.png
 security:
 - kind: authentication
   name: Inmobi Authentication

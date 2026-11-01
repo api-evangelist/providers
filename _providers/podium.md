@@ -26,15 +26,17 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.3
-  scored_at: '2026-10-17'
-api_count: 24
+  scored_at: '2026-10-31'
+api_count: 12
 apis:
 - baseURL: https://api.podium.com/v4/
   baseurl_source: declared
@@ -171,7 +173,7 @@ apis:
   description: The Webhook API from Podium — 2 operation(s) for webhook.
   name: Podium Webhook API
   slug: podium-webhook-api
-artifact_total: 47
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Podium Webhooks
@@ -212,72 +214,72 @@ collections:
   slug: open-podium-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/capabilities/podium-capability-edges.yml
+  href: https://artifacts.apis.io/podium/capabilities/podium-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/podium-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-accounts-overlay.yaml
+  href: https://artifacts.apis.io/podium/overlays/podium-accounts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-accounts-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-appointments-overlay.yaml
+  href: https://artifacts.apis.io/podium/overlays/podium-appointments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-appointments-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-campaigns-overlay.yaml
+  href: https://artifacts.apis.io/podium/overlays/podium-campaigns-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-campaigns-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-contacts-overlay.yaml
+  href: https://artifacts.apis.io/podium/overlays/podium-contacts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-contacts-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-conversations-overlay.yaml
+  href: https://artifacts.apis.io/podium/overlays/podium-conversations-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-conversations-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-feedback-surveys-overlay.yaml
+  href: https://artifacts.apis.io/podium/overlays/podium-feedback-surveys-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-feedback-surveys-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-messenger-overlay.yaml
+  href: https://artifacts.apis.io/podium/overlays/podium-messenger-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-messenger-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-payments-overlay.yaml
+  href: https://artifacts.apis.io/podium/overlays/podium-payments-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-payments-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-phones-overlay.yaml
+  href: https://artifacts.apis.io/podium/overlays/podium-phones-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-phones-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-products-overlay.yaml
+  href: https://artifacts.apis.io/podium/overlays/podium-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-products-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-reviews-overlay.yaml
+  href: https://artifacts.apis.io/podium/overlays/podium-reviews-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-reviews-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/overlays/podium-webhooks-overlay.yaml
+  href: https://artifacts.apis.io/podium/overlays/podium-webhooks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/podium-webhooks-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/security/podium-domain-security.yml
+  href: https://artifacts.apis.io/podium/security/podium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/podium-domain-security.yml
@@ -318,57 +320,57 @@ common:
   type: X
   url: https://twitter.com/podiumhq/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/plans/podium-plans-pricing.yml
+  href: https://artifacts.apis.io/podium/plans/podium-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/podium-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/rate-limits/podium-rate-limits.yml
+  href: https://artifacts.apis.io/podium/rate-limits/podium-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/podium-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/finops/podium-finops.yml
+  href: https://artifacts.apis.io/podium/finops/podium-finops.yml
   title: ''
   type: FinOps
   url: finops/podium-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/authentication/podium-authentication.yml
+  href: https://artifacts.apis.io/podium/authentication/podium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/podium-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/scopes/podium-scopes.yml
+  href: https://artifacts.apis.io/podium/scopes/podium-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/podium-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/conventions/podium-conventions.yml
+  href: https://artifacts.apis.io/podium/conventions/podium-conventions.yml
   title: ''
   type: Conventions
   url: conventions/podium-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/conventions/podium-conventions.yml
+  href: https://artifacts.apis.io/podium/conventions/podium-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/podium-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/errors/podium-problem-types.yml
+  href: https://artifacts.apis.io/podium/errors/podium-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/podium-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/lifecycle/podium-lifecycle.yml
+  href: https://artifacts.apis.io/podium/lifecycle/podium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/podium-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/changelog/podium-changelog.yml
+  href: https://artifacts.apis.io/podium/changelog/podium-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/podium-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/conformance/podium-conformance.yml
+  href: https://artifacts.apis.io/podium/conformance/podium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/podium-conformance.yml
@@ -377,37 +379,37 @@ common:
   type: TrustCenter
   url: https://trust.podium.com
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/sandbox/podium-sandbox.yml
+  href: https://artifacts.apis.io/podium/sandbox/podium-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/podium-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/data-model/podium-data-model.yml
+  href: https://artifacts.apis.io/podium/data-model/podium-data-model.yml
   title: ''
   type: DataModel
   url: data-model/podium-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/packages/podium-packages.yml
+  href: https://artifacts.apis.io/podium/packages/podium-packages.yml
   title: ''
   type: Packages
   url: packages/podium-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/packages/podium-packages.yml
+  href: https://artifacts.apis.io/podium/packages/podium-packages.yml
   title: ''
   type: SDKs
   url: packages/podium-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/asyncapi/podium-webhooks.yml
+  href: https://artifacts.apis.io/podium/asyncapi/podium-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/podium-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/podium/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/llms/podium-llms.txt
+  href: https://artifacts.apis.io/podium/llms/podium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/podium-llms.txt
@@ -446,8 +448,8 @@ common:
 created: '2026-06-13'
 description: Podium is a customer communication platform providing a REST API for local businesses to manage text-based conversations, reviews, payment requests, lead capture forms, webchat, and AI-driven lead conversion. The API is organized around REST with predictable resource-oriented URLs, JSON-encoded responses, and OAuth 2.0 authentication.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Podium Finops
   primary_unit: ''
   service_category: ''
@@ -473,9 +475,9 @@ overview: 'Podium publishes 27 API contracts indexed on the [APIs.io](https://ap
   Podium''s developer surface includes documentation, engineering blog, pricing, authentication, changelog, sandbox, API reference, and 43 more developer resources.'
 plans:
 - name: Podium Plans Pricing
-  plan_count: 0
+  plan_count: 1
   slug: podium-plans-pricing
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Podium Rate Limits
@@ -486,24 +488,24 @@ scopes:
   slug: podium-scopes
   summary_line: 25 scopes · authorizationCode
 score:
-  band: developing
-  composite: 47.1
+  band: strong
+  composite: 63.5
   coverage:
     artifact_dirs: 28
-    catalog_earned: 56.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 59.0
+    catalog_earned: 64.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 4.3
   facets:
-    access_clarity: 35.5
+    access_clarity: 73.7
     contract_governance: 4.5
-    contract_quality: 59.5
-    developer_ergonomics: 45.8
+    contract_quality: 56.3
+    developer_ergonomics: 78.0
     discoverability: 71.4
-    operational_transparency: 51.3
-  previous_composite: 48.7
+    operational_transparency: 65.8
+  previous_composite: 59.2
   provenance:
     conformance: derived
     contracts:
@@ -518,14 +520,15 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 35.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 39.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/screenshots/podium-2026-06-20T191840.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/podium/podium-2026-06-20T191840.png
 security:
 - kind: authentication
   name: Podium Authentication
@@ -539,6 +542,16 @@ security:
   name: Podium Trust Center
   slug: podium-trust-center
   summary_line: trust center published
+skill_count: 4
+skills:
+- name: Invoice a customer and collect payment
+  slug: podium-invoice-and-collect-payment
+- name: Request a review and respond to it
+  slug: podium-request-and-respond-to-reviews
+- name: Send a message to a customer
+  slug: podium-send-a-message
+- name: Sync contacts, attributes and tags
+  slug: podium-sync-contacts
 slug: podium
 tags:
 - Customer Communication

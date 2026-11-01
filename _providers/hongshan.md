@@ -21,7 +21,7 @@ modified: '2026-10-06'
 name: HongShan (HSG)
 nav: Providers
 network: true
-random_paper: 18
+random_paper: 14
 slug: hongshan
 tags:
 - Venture Capital

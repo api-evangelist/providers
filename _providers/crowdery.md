@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -49,7 +51,7 @@ common:
   type: Archive
   url: http://web.archive.org/web/20131220212321/http://www.crowdery.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crowdery/refs/heads/main/security/crowdery-domain-security.yml
+  href: https://artifacts.apis.io/crowdery/security/crowdery-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crowdery-domain-security.yml
@@ -62,7 +64,7 @@ name: Crowdery
 nav: Providers
 network: true
 overview: Crowdery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Consumer, and Marketplace.
-random_paper: 21
+random_paper: 15
 score:
   band: minimal
   composite: 0.0
@@ -89,8 +91,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

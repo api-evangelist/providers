@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: Manage end-user identities.
   name: PingOne Users API
   slug: pingone-users-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PingOne Platform Applications API
   slug: open-pingone-applications-api
@@ -100,32 +99,32 @@ collections:
   slug: open-pingone
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/capabilities/pingone-capability-edges.yml
+  href: https://artifacts.apis.io/pingone/capabilities/pingone-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pingone-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/agentic-access/pingone-agentic-access.yml
+  href: https://artifacts.apis.io/pingone/agentic-access/pingone-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pingone-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/security/pingone-trust-center.yml
+  href: https://artifacts.apis.io/pingone/security/pingone-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pingone-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/security/pingone-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pingone/security/pingone-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pingone-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/security/pingone-domain-security.yml
+  href: https://artifacts.apis.io/pingone/security/pingone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pingone-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/authentication/pingone-authentication.yml
+  href: https://artifacts.apis.io/pingone/authentication/pingone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pingone-authentication.yml
@@ -173,10 +172,10 @@ overview: 'PingOne publishes 7 API contracts indexed on the [APIs.io](https://ap
 
 
   PingOne''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 4
+random_paper: 8
 score:
   band: thin
-  composite: 33.6
+  composite: 35.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -188,11 +187,11 @@ score:
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 49.4
+    contract_quality: 46.0
     developer_ergonomics: 38.1
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 33.6
+    operational_transparency: 15.8
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -206,13 +205,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/screenshots/pingone-2026-06-20T191715.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pingone/pingone-2026-06-20T191715.png
 security:
 - kind: authentication
   name: Pingone Authentication

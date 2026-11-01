@@ -25,44 +25,46 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.0
-  scored_at: '2026-10-17'
+  score: 44.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The groundcover platform REST API. Data query endpoints run gcQL pipelines against logs (POST /api/logs/v2/search), trace spans (POST /api/traces/v2/search) and Kubernetes events (POST /api/k8s/v2/eve
   name: Groundcover
   slug: groundcover
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Groundcover Webhooks
   slug: groundcover-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/finops/groundcover-finops.yml
+  href: https://artifacts.apis.io/groundcover/finops/groundcover-finops.yml
   title: ''
   type: FinOps
   url: finops/groundcover-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/security/groundcover-trust-center.yml
+  href: https://artifacts.apis.io/groundcover/security/groundcover-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/groundcover-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/security/groundcover-trust-center.yml
+  href: https://artifacts.apis.io/groundcover/security/groundcover-trust-center.yml
   title: ''
   type: Compliance
   url: security/groundcover-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/security/groundcover-domain-security.yml
+  href: https://artifacts.apis.io/groundcover/security/groundcover-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/groundcover-domain-security.yml
@@ -99,7 +101,7 @@ common:
   type: Pricing
   url: https://www.groundcover.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/plans/groundcover-plans-pricing.yml
+  href: https://artifacts.apis.io/groundcover/plans/groundcover-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/groundcover-plans-pricing.yml
@@ -124,7 +126,7 @@ common:
   type: LlmsText
   url: https://docs.groundcover.com/llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/llms/groundcover-llms.txt
+  href: https://artifacts.apis.io/groundcover/llms/groundcover-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/groundcover-llms.txt
@@ -133,105 +135,105 @@ common:
   type: Blog
   url: https://www.groundcover.com/blog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/changelog/groundcover-changelog.yml
+  href: https://artifacts.apis.io/groundcover/changelog/groundcover-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/groundcover-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/lifecycle/groundcover-lifecycle.yml
+  href: https://artifacts.apis.io/groundcover/lifecycle/groundcover-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/groundcover-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/lifecycle/groundcover-lifecycle.yml
+  href: https://artifacts.apis.io/groundcover/lifecycle/groundcover-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/groundcover-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/mcp/groundcover-mcp.yml
+  href: https://artifacts.apis.io/groundcover/mcp/groundcover-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/groundcover-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/mcp/groundcover-tool-crosswalk.yml
+  href: https://artifacts.apis.io/groundcover/mcp/groundcover-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/groundcover-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/packages/groundcover-packages.yml
+  href: https://artifacts.apis.io/groundcover/packages/groundcover-packages.yml
   title: ''
   type: Packages
   url: packages/groundcover-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/packages/groundcover-packages.yml
+  href: https://artifacts.apis.io/groundcover/packages/groundcover-packages.yml
   title: ''
   type: SDKs
   url: packages/groundcover-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/cli/groundcover-cli.yml
+  href: https://artifacts.apis.io/groundcover/cli/groundcover-cli.yml
   title: ''
   type: CLI
   url: cli/groundcover-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/sandbox/groundcover-sandbox.yml
+  href: https://artifacts.apis.io/groundcover/sandbox/groundcover-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/groundcover-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/well-known/groundcover-well-known.yml
+  href: https://artifacts.apis.io/groundcover/well-known/groundcover-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/groundcover-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/scopes/groundcover-scopes.yml
+  href: https://artifacts.apis.io/groundcover/scopes/groundcover-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/groundcover-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/authentication/groundcover-authentication.yml
+  href: https://artifacts.apis.io/groundcover/authentication/groundcover-authentication.yml
   title: ''
   type: Authentication
   url: authentication/groundcover-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/conformance/groundcover-conformance.yml
+  href: https://artifacts.apis.io/groundcover/conformance/groundcover-conformance.yml
   title: ''
   type: Conformance
   url: conformance/groundcover-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/asyncapi/groundcover-webhooks.yml
+  href: https://artifacts.apis.io/groundcover/asyncapi/groundcover-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/groundcover-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/errors/groundcover-problem-types.yml
+  href: https://artifacts.apis.io/groundcover/errors/groundcover-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/groundcover-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/conventions/groundcover-conventions.yml
+  href: https://artifacts.apis.io/groundcover/conventions/groundcover-conventions.yml
   title: ''
   type: Conventions
   url: conventions/groundcover-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/data-model/groundcover-data-model.yml
+  href: https://artifacts.apis.io/groundcover/data-model/groundcover-data-model.yml
   title: ''
   type: DataModel
   url: data-model/groundcover-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/rate-limits/groundcover-rate-limits.yml
+  href: https://artifacts.apis.io/groundcover/rate-limits/groundcover-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/groundcover-rate-limits.yml
 created: '2026-03-27'
 description: groundcover is a cloud-native observability platform that uses eBPF for zero-instrumentation monitoring of Kubernetes and Linux workloads, covering logs, metrics, traces, Kubernetes events, real user monitoring, synthetics and AI/LLM observability. Its BYOC (bring your own cloud) architecture keeps the data plane inside the customer's own VPC, which lets it price per monitored host rather than per ingested byte. Programmatic access is delivered through a REST API at api.groundcover.com (gcQL search endpoints for logs, traces and Kubernetes events, a Prometheus-compatible metrics API, and management endpoints for monitors, silences, ingestion keys and pipelines), a remote MCP server at mcp.groundcover.com for agents, official Go, Python and TypeScript SDKs, a CLI, and Terraform, Pulumi and Crossplane providers.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Groundcover Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: host
+  service_category: ''
   slug: groundcover-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groundcover.png
 layout: provider
 mcp_servers:
@@ -253,7 +255,10 @@ plans:
 - name: Groundcover Plans Pricing
   plan_count: 4
   slug: groundcover-plans-pricing
-random_paper: 10
+- name: Groundcover Price Estimates
+  plan_count: 0
+  slug: groundcover-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Groundcover Rate Limits
@@ -265,23 +270,23 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 62.5
+  composite: 64.0
   coverage:
     artifact_dirs: 23
-    catalog_earned: 57.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 69.0
-    discoverability: 75.0
-    operational_transparency: 55.3
-  previous_composite: 64.0
+    discoverability: 71.7
+    operational_transparency: 57.9
+  previous_composite: 62.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -291,14 +296,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/screenshots/groundcover-2026-06-20T182415.png
+screenshot: https://apis.io/screenshots/groundcover/groundcover-2026-06-20T182415.png
 security:
 - kind: authentication
   name: Groundcover Authentication

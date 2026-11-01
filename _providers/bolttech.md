@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,27 +25,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bolttech/refs/heads/main/security/bolttech-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bolttech/security/bolttech-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bolttech-vulnerability-disclosure.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bolttech/refs/heads/main/hosts/bolttech-hosts.yml
+  href: https://artifacts.apis.io/bolttech/hosts/bolttech-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bolttech-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bolttech/refs/heads/main/vendors/bolttech-vendors.yml
+  href: https://artifacts.apis.io/bolttech/vendors/bolttech-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bolttech-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bolttech/refs/heads/main/security/bolttech-domain-security.yml
+  href: https://artifacts.apis.io/bolttech/security/bolttech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bolttech-domain-security.yml
@@ -72,17 +74,17 @@ common:
   type: PrivacyPolicy
   url: https://bolttech.io/privacy-notice-au/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bolttech/refs/heads/main/authentication/bolttech-authentication.yml
+  href: https://artifacts.apis.io/bolttech/authentication/bolttech-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bolttech-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/bolttech/refs/heads/main/sandbox/bolttech-sandbox.yml
+  href: https://artifacts.apis.io/bolttech/sandbox/bolttech-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bolttech-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bolttech/refs/heads/main/security/bolttech-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bolttech/security/bolttech-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/bolttech-vulnerability-disclosure.yml
@@ -105,7 +107,7 @@ overview: 'bolttech is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   bolttech''s developer surface includes getting-started guide, FAQ, support, authentication, sandbox, and 8 more developer resources.'
-random_paper: 17
+random_paper: 13
 score:
   band: emerging
   composite: 16.8
@@ -116,6 +118,7 @@ score:
     catalog_gap: 93.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -123,14 +126,16 @@ score:
     developer_ergonomics: 45.2
     discoverability: 39.3
     operational_transparency: 10.5
+  previous_composite: 16.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 19.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

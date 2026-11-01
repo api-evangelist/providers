@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,11 +52,8 @@ apis:
   description: The Apps API from Google AppSheet — 1 operation(s) for apps.
   name: Google AppSheet Apps API
   slug: google-appsheet-apps-api
-artifact_total: 14
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google AppSheet Apps API
   slug: open-google-appsheet-apps-api
@@ -63,17 +62,17 @@ collections:
   slug: open-openapi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/plans/google-appsheet-plans-pricing.yml
+  href: https://artifacts.apis.io/google-appsheet/plans/google-appsheet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-appsheet-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/rate-limits/google-appsheet-rate-limits.yml
+  href: https://artifacts.apis.io/google-appsheet/rate-limits/google-appsheet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-appsheet-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/finops/google-appsheet-finops.yml
+  href: https://artifacts.apis.io/google-appsheet/finops/google-appsheet-finops.yml
   title: ''
   type: FinOps
   url: finops/google-appsheet-finops.yml
@@ -82,22 +81,22 @@ common:
   type: Website
   url: https://www.google.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/agentic-access/google-appsheet-agentic-access.yml
+  href: https://artifacts.apis.io/google-appsheet/agentic-access/google-appsheet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-appsheet-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/security/google-appsheet-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-appsheet/security/google-appsheet-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-appsheet-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/security/google-appsheet-domain-security.yml
+  href: https://artifacts.apis.io/google-appsheet/security/google-appsheet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-appsheet-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/authentication/google-appsheet-authentication.yml
+  href: https://artifacts.apis.io/google-appsheet/authentication/google-appsheet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-appsheet-authentication.yml
@@ -114,7 +113,7 @@ common:
   type: Pricing
   url: https://workspace.google.com/products/appsheet/pricing/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/json-ld/context.jsonld
+  href: https://artifacts.apis.io/google-appsheet/json-ld/context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/context.jsonld
@@ -124,7 +123,7 @@ finops:
 - has_sources: false
   method: generated
   name: Google Appsheet Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: google-appsheet-finops
   template: true
@@ -154,7 +153,7 @@ plans:
 - name: Google Appsheet Plans Pricing
   plan_count: 3
   slug: google-appsheet-plans-pricing
-random_paper: 0
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Google Appsheet Rate Limits
@@ -173,7 +172,7 @@ rules:
   slug: google-appsheet-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.3
+  composite: 34.9
   coverage:
     artifact_dirs: 14
     catalog_earned: 59.7
@@ -181,15 +180,15 @@ score:
     catalog_gap: 55.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 60.5
-    developer_ergonomics: 11.9
+    developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 29.8
+    operational_transparency: 18.4
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -203,13 +202,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/screenshots/google-appsheet-2026-06-20T182019.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-appsheet/google-appsheet-2026-06-20T182019.png
 security:
 - kind: authentication
   name: Google Appsheet Authentication

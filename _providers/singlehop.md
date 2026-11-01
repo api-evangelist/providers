@@ -19,7 +19,7 @@ name: SingleHop
 nav: Providers
 network: true
 overview: SingleHop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hosting, Cloud, Infrastructure, and Managed Hosting.
-random_paper: 1
+random_paper: 9
 slug: singlehop
 tags:
 - Company

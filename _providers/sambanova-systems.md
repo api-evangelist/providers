@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 21
   slug: sambanova-systems-agentic-access
   summary_line: 21 operations · 18 acting
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://api.sambanova.ai/v1
   baseurl_source: declared
@@ -105,11 +107,8 @@ apis:
   description: The Subagents Interactive API from SambaNova Systems — 4 operation(s) for subagents interactive.
   name: SambaNova Systems Subagents Interactive API
   slug: sambanova-systems-subagents-interactive-api
-artifact_total: 31
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sambanova Agents Service Audio API
   slug: open-sambanova-systems-audio-api
@@ -148,7 +147,7 @@ collections:
   slug: open-sambanova-systems-subagents-interactive-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/plans/sambanova-systems-plans-pricing.yml
+  href: https://artifacts.apis.io/sambanova-systems/plans/sambanova-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sambanova-systems-plans-pricing.yml
@@ -157,12 +156,12 @@ common:
   type: BlogRSS
   url: https://sambanova.ai/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/capabilities/sambanova-systems-capability-edges.yml
+  href: https://artifacts.apis.io/sambanova-systems/capabilities/sambanova-systems-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sambanova-systems-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/security/sambanova-systems-trust-center.yml
+  href: https://artifacts.apis.io/sambanova-systems/security/sambanova-systems-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sambanova-systems-trust-center.yml
@@ -187,7 +186,7 @@ common:
   type: Twitter
   url: https://twitter.com/SambaNovaAI
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/overlays/sambanova-systems-agents-overlay.yaml
+  href: https://artifacts.apis.io/sambanova-systems/overlays/sambanova-systems-agents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sambanova-systems-agents-overlay.yaml
@@ -244,92 +243,100 @@ common:
   type: StatusPage
   url: https://status.sambanova.ai
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/lifecycle/sambanova-systems-lifecycle.yml
+  href: https://artifacts.apis.io/sambanova-systems/lifecycle/sambanova-systems-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/sambanova-systems-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/changelog/sambanova-systems-changelog.yml
+  href: https://artifacts.apis.io/sambanova-systems/changelog/sambanova-systems-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sambanova-systems-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/lifecycle/sambanova-systems-lifecycle.yml
+  href: https://artifacts.apis.io/sambanova-systems/lifecycle/sambanova-systems-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sambanova-systems-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/authentication/sambanova-systems-authentication.yml
+  href: https://artifacts.apis.io/sambanova-systems/authentication/sambanova-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sambanova-systems-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/security/sambanova-systems-domain-security.yml
+  href: https://artifacts.apis.io/sambanova-systems/security/sambanova-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sambanova-systems-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/packages/sambanova-systems-packages.yml
+  href: https://artifacts.apis.io/sambanova-systems/packages/sambanova-systems-packages.yml
   title: ''
   type: Packages
   url: packages/sambanova-systems-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/packages/sambanova-systems-packages.yml
+  href: https://artifacts.apis.io/sambanova-systems/packages/sambanova-systems-packages.yml
   title: ''
   type: SDKs
   url: packages/sambanova-systems-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/conventions/sambanova-systems-conventions.yml
+  href: https://artifacts.apis.io/sambanova-systems/conventions/sambanova-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sambanova-systems-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/errors/sambanova-systems-error-codes.yml
+  href: https://artifacts.apis.io/sambanova-systems/errors/sambanova-systems-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/sambanova-systems-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/rate-limits/sambanova-systems-rate-limits.yml
+  href: https://artifacts.apis.io/sambanova-systems/rate-limits/sambanova-systems-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sambanova-systems-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/conformance/sambanova-systems-conformance.yml
+  href: https://artifacts.apis.io/sambanova-systems/conformance/sambanova-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sambanova-systems-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/mcp/sambanova-systems-mcp.yml
+  href: https://artifacts.apis.io/sambanova-systems/mcp/sambanova-systems-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sambanova-systems-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/data-model/sambanova-systems-data-model.yml
+  href: https://artifacts.apis.io/sambanova-systems/data-model/sambanova-systems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sambanova-systems-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/agentic-access/sambanova-systems-agentic-access.yml
+  href: https://artifacts.apis.io/sambanova-systems/agentic-access/sambanova-systems-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sambanova-systems-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sambanova-systems/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/llms/sambanova-systems-llms.txt
+  href: https://artifacts.apis.io/sambanova-systems/llms/sambanova-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sambanova-systems-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/well-known/sambanova-systems-well-known.yml
+  href: https://artifacts.apis.io/sambanova-systems/well-known/sambanova-systems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sambanova-systems-well-known.yml
 created: '2026-07-17'
 description: SambaNova Systems is an AI infrastructure company that builds custom Reconfigurable Dataflow Unit (RDU) chips and the SambaCloud, SambaStack, and SambaRack platforms for fast, energy-efficient AI inference. Its developer-facing product, SambaNova Cloud, exposes an OpenAI- and Anthropic-compatible inference API (chat completions, completions, the Responses API, the Messages API, embeddings, and audio transcription/translation) serving open models such as Meta Llama, DeepSeek, MiniMax, gpt-oss, Gemma, and Mistral. A companion Agents Service provides coordinated coding, data-science, deep-research, and financial-analysis agents. Official Python and TypeScript SDKs, tiered rate limits, prompt caching, and dozens of framework integrations round out the platform.
+finops:
+- has_sources: true
+  method: derived
+  name: Sambanova Systems Finops
+  primary_unit: 1m tokens
+  service_category: ''
+  slug: sambanova-systems-finops
+  template: false
 image: https://github.com/sambanova.png
 layout: provider
 modified: '2026-10-06'
@@ -344,30 +351,35 @@ plans:
 - name: Sambanova Systems Plans Pricing
   plan_count: 13
   slug: sambanova-systems-plans-pricing
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 11
   name: Sambanova Systems Rate Limits
   slug: sambanova-systems-rate-limits
 score:
   band: strong
-  composite: 59.3
+  composite: 62.5
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.6
+  delta: 1.0
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 49.7
-    developer_ergonomics: 56.5
-    discoverability: 78.6
-    operational_transparency: 73.7
-  previous_composite: 52.7
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 76.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -384,13 +396,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/screenshots/sambanova-systems-2026-08-17T081717.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sambanova-systems/sambanova-systems-2026-08-17T081717.png
 security:
 - kind: authentication
   name: Sambanova Systems Authentication
@@ -404,6 +417,16 @@ security:
   name: Sambanova Systems Trust Center
   slug: sambanova-systems-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 4
+skills:
+- name: Generate a chat completion with SambaNova
+  slug: sambanova-systems-chat-completion
+- name: Run the SambaNova deep research agent
+  slug: sambanova-systems-deep-research-agent
+- name: Create embeddings with SambaNova
+  slug: sambanova-systems-embeddings
+- name: Transcribe or translate audio with SambaNova
+  slug: sambanova-systems-transcribe-audio
 slug: sambanova-systems
 tags:
 - Company

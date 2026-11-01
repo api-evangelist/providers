@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 6
   slug: taalas-agentic-access
   summary_line: 6 operations · 3 acting
-api_count: 6
+api_count: 2
 apis:
 - baseURL: https://api.taalas.com
   baseurl_source: declared
@@ -59,11 +61,8 @@ apis:
   description: The Monitoring API from Taalas — 1 operation(s) for monitoring.
   name: Taalas Monitoring API
   slug: taalas-monitoring-api
-artifact_total: 11
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Taalas API
   slug: open-taalas-inference-api
@@ -130,67 +129,67 @@ common:
   type: Demo
   url: https://chatjimmy.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/authentication/taalas-authentication.yml
+  href: https://artifacts.apis.io/taalas/authentication/taalas-authentication.yml
   title: ''
   type: Authentication
   url: authentication/taalas-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/conventions/taalas-conventions.yml
+  href: https://artifacts.apis.io/taalas/conventions/taalas-conventions.yml
   title: ''
   type: Conventions
   url: conventions/taalas-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/errors/taalas-problem-types.yml
+  href: https://artifacts.apis.io/taalas/errors/taalas-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/taalas-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/data-model/taalas-data-model.yml
+  href: https://artifacts.apis.io/taalas/data-model/taalas-data-model.yml
   title: ''
   type: DataModel
   url: data-model/taalas-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/lifecycle/taalas-lifecycle.yml
+  href: https://artifacts.apis.io/taalas/lifecycle/taalas-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/taalas-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/conformance/taalas-conformance.yml
+  href: https://artifacts.apis.io/taalas/conformance/taalas-conformance.yml
   title: ''
   type: Conformance
   url: conformance/taalas-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/packages/taalas-packages.yml
+  href: https://artifacts.apis.io/taalas/packages/taalas-packages.yml
   title: ''
   type: Packages
   url: packages/taalas-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/well-known/taalas-well-known.yml
+  href: https://artifacts.apis.io/taalas/well-known/taalas-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/taalas-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/llms/taalas-llms.txt
+  href: https://artifacts.apis.io/taalas/llms/taalas-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/taalas-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/mcp/taalas-mcp.yml
+  href: https://artifacts.apis.io/taalas/mcp/taalas-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/taalas-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/taalas/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/security/taalas-domain-security.yml
+  href: https://artifacts.apis.io/taalas/security/taalas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/taalas-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/agentic-access/taalas-agentic-access.yml
+  href: https://artifacts.apis.io/taalas/agentic-access/taalas-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/taalas-agentic-access.yml
@@ -206,25 +205,25 @@ overview: 'Taalas publishes 3 API contracts indexed on the [APIs.io](https://api
 
 
   Taalas'' developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 14
+random_paper: 6
 score:
   band: thin
-  composite: 33.0
+  composite: 36.6
   coverage:
     artifact_dirs: 19
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.5
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 40.0
-    developer_ergonomics: 31.5
-    discoverability: 78.6
-    operational_transparency: 7.9
+    developer_ergonomics: 47.0
+    discoverability: 66.1
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -232,7 +231,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 32.9
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,13 +248,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/screenshots/taalas-2026-09-02T161654.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/taalas/taalas-2026-09-02T161654.png
 security:
 - kind: authentication
   name: Taalas Authentication
@@ -265,6 +265,12 @@ security:
   name: Taalas Domain Security
   slug: taalas-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Generate text with the Taalas-native /generate operation
+  slug: taalas-native-generate
+- name: Run chat completions on Taalas HC1 silicon
+  slug: taalas-openai-compatible-chat
 slug: taalas
 tags:
 - Company

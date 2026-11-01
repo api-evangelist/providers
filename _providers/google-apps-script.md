@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -63,11 +65,8 @@ apis:
   description: The Scripts API from Google Apps Script — 1 operation(s) for scripts.
   name: Google Apps Script Scripts API
   slug: google-apps-script-scripts-api
-artifact_total: 80
+artifact_total: 79
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Apps Script Processes API
   slug: open-google-apps-script-processes-api
@@ -84,18 +83,22 @@ collections:
   name: Google Apps Script API
   slug: open-openapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-apps-script/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/plans/google-apps-script-plans-pricing.yml
+  href: https://artifacts.apis.io/google-apps-script/plans/google-apps-script-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-apps-script-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/rate-limits/google-apps-script-rate-limits.yml
+  href: https://artifacts.apis.io/google-apps-script/rate-limits/google-apps-script-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-apps-script-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/finops/google-apps-script-finops.yml
+  href: https://artifacts.apis.io/google-apps-script/finops/google-apps-script-finops.yml
   title: ''
   type: FinOps
   url: finops/google-apps-script-finops.yml
@@ -104,17 +107,17 @@ common:
   type: Website
   url: https://www.google.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/agentic-access/google-apps-script-agentic-access.yml
+  href: https://artifacts.apis.io/google-apps-script/agentic-access/google-apps-script-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-apps-script-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/security/google-apps-script-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-apps-script/security/google-apps-script-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-apps-script-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/security/google-apps-script-domain-security.yml
+  href: https://artifacts.apis.io/google-apps-script/security/google-apps-script-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-apps-script-domain-security.yml
@@ -127,7 +130,7 @@ common:
   type: Pricing
   url: https://developers.google.com/apps-script/guides/services/quotas
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/json-ld/json-ld.jsonld
+  href: https://artifacts.apis.io/google-apps-script/json-ld/json-ld.jsonld
   title: ''
   type: JSONLD
   url: json-ld/json-ld.jsonld
@@ -156,7 +159,7 @@ common:
   type: Blog
   url: https://developers.google.com/apps-script/updates
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/rules/google-apps-script-spectral-rules.yml
+  href: https://artifacts.apis.io/google-apps-script/rules/google-apps-script-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/google-apps-script-spectral-rules.yml
@@ -218,7 +221,7 @@ finops:
 - has_sources: false
   method: generated
   name: Google Apps Script Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: google-apps-script-finops
   template: true
@@ -341,12 +344,12 @@ overview: 'Google Apps Script publishes 4 API contracts indexed on the [APIs.io]
   The Google Apps Script catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Google Apps Script''s developer surface includes getting-started guide, pricing, CLI, documentation, support, engineering blog, and 11 more developer resources.'
+  Google Apps Script''s developer surface includes getting-started guide, pricing, CLI, documentation, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Google Apps Script Plans Pricing
   plan_count: 3
   slug: google-apps-script-plans-pricing
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Google Apps Script Rate Limits
@@ -377,7 +380,7 @@ rules:
   slug: google-apps-script-spectral-rules
 score:
   band: thin
-  composite: 34.6
+  composite: 37.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 57.9
@@ -385,15 +388,15 @@ score:
     catalog_gap: 57.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.2
   facets:
     access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 54.7
-    developer_ergonomics: 40.5
+    developer_ergonomics: 44.0
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 36.1
+    operational_transparency: 23.7
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -407,13 +410,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/screenshots/google-apps-script-2026-06-20T182017.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-apps-script/google-apps-script-2026-06-20T182017.png
 security:
 - kind: domain-security
   name: Google Apps Script Domain Security

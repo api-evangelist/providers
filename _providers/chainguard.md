@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Chainguard API v2 is the current REST API for the Chainguard platform. Endpoints cover Identity and Access Management (IAM), image registry operations, and vulnerability data under /iam/v2beta1/, /reg
@@ -57,22 +59,22 @@ apis:
 artifact_total: 47
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chainguard/refs/heads/main/plans/chainguard-plans-pricing.yml
+  href: https://artifacts.apis.io/chainguard/plans/chainguard-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chainguard-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chainguard/refs/heads/main/rate-limits/chainguard-rate-limits.yml
+  href: https://artifacts.apis.io/chainguard/rate-limits/chainguard-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chainguard-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chainguard/refs/heads/main/finops/chainguard-finops.yml
+  href: https://artifacts.apis.io/chainguard/finops/chainguard-finops.yml
   title: ''
   type: FinOps
   url: finops/chainguard-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chainguard/refs/heads/main/security/chainguard-domain-security.yml
+  href: https://artifacts.apis.io/chainguard/security/chainguard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chainguard-domain-security.yml
@@ -189,7 +191,7 @@ finops:
 - has_sources: false
   method: generated
   name: Chainguard Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: chainguard-finops
   template: true
@@ -207,14 +209,14 @@ plans:
 - name: Chainguard Plans Pricing
   plan_count: 3
   slug: chainguard-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Chainguard Rate Limits
   slug: chainguard-rate-limits
 score:
-  band: emerging
-  composite: 22.8
+  band: thin
+  composite: 32.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 41.0
@@ -222,29 +224,29 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 39.8
+    developer_ergonomics: 46.9
     discoverability: 62.5
-    operational_transparency: 21.1
-  previous_composite: 24.3
+    operational_transparency: 39.5
+  previous_composite: 32.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 19.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chainguard/refs/heads/main/screenshots/chainguard-2026-06-20T174155.png
+screenshot: https://apis.io/screenshots/chainguard/chainguard-2026-06-20T174155.png
 security:
 - kind: domain-security
   name: Chainguard Domain Security

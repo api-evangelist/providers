@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -116,11 +118,8 @@ apis:
   description: The Webhooks API from SkySlope — 1 operation(s) for webhooks.
   name: SkySlope Webhooks API
   slug: skyslope-webhooks-api
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SkySlope Partnership API Reference Agents, Listings API
   slug: open-skyslope-agents-listings-api
@@ -169,17 +168,17 @@ common:
   type: BlogRSS
   url: https://skyslope.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/capabilities/skyslope-capability-edges.yml
+  href: https://artifacts.apis.io/skyslope/capabilities/skyslope-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/skyslope-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/agentic-access/skyslope-agentic-access.yml
+  href: https://artifacts.apis.io/skyslope/agentic-access/skyslope-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/skyslope-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/security/skyslope-domain-security.yml
+  href: https://artifacts.apis.io/skyslope/security/skyslope-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skyslope-domain-security.yml
@@ -200,17 +199,17 @@ common:
   type: Documentation
   url: https://skyslope.com/general/unlocking-the-power-of-your-data/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/plans/skyslope-plans-pricing.yml
+  href: https://artifacts.apis.io/skyslope/plans/skyslope-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/skyslope-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/rate-limits/skyslope-rate-limits.yml
+  href: https://artifacts.apis.io/skyslope/rate-limits/skyslope-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/skyslope-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/finops/skyslope-finops.yml
+  href: https://artifacts.apis.io/skyslope/finops/skyslope-finops.yml
   title: ''
   type: FinOps
   url: finops/skyslope-finops.yml
@@ -238,14 +237,14 @@ plans:
 - name: Skyslope Plans Pricing
   plan_count: 3
   slug: skyslope-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Skyslope Rate Limits
   slug: skyslope-rate-limits
 score:
   band: emerging
-  composite: 22.6
+  composite: 23.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 43.0
@@ -253,7 +252,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -261,7 +260,7 @@ score:
     developer_ergonomics: 16.7
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 30.8
+  previous_composite: 23.3
   provenance:
     agentic_access: derived
     contracts:
@@ -275,13 +274,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/screenshots/skyslope-2026-09-02T155819.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/skyslope/skyslope-2026-09-02T155819.png
 security:
 - kind: domain-security
   name: Skyslope Domain Security

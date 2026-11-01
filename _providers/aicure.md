@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The OpenDBM REST API is a self-hosted FastAPI service published inside AiCure''s open-source OpenDBM repository (rest_api/). It exposes the OpenDBM digital-biomarker pipeline over HTTP: an OAuth2 passw'
@@ -84,77 +86,77 @@ common:
   type: Compliance
   url: https://aicure.com/company/data-privacy-security
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/packages/aicure-packages.yml
+  href: https://artifacts.apis.io/aicure/packages/aicure-packages.yml
   title: ''
   type: Packages
   url: packages/aicure-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/packages/aicure-packages.yml
+  href: https://artifacts.apis.io/aicure/packages/aicure-packages.yml
   title: ''
   type: SDKs
   url: packages/aicure-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/conformance/aicure-conformance.yml
+  href: https://artifacts.apis.io/aicure/conformance/aicure-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aicure-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/lifecycle/aicure-lifecycle.yml
+  href: https://artifacts.apis.io/aicure/lifecycle/aicure-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/aicure-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/changelog/aicure-changelog.yml
+  href: https://artifacts.apis.io/aicure/changelog/aicure-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/aicure-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/authentication/aicure-authentication.yml
+  href: https://artifacts.apis.io/aicure/authentication/aicure-authentication.yml
   title: ''
   type: Authentication
   url: authentication/aicure-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/conventions/aicure-conventions.yml
+  href: https://artifacts.apis.io/aicure/conventions/aicure-conventions.yml
   title: ''
   type: Conventions
   url: conventions/aicure-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/errors/aicure-problem-types.yml
+  href: https://artifacts.apis.io/aicure/errors/aicure-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/aicure-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/data-model/aicure-data-model.yml
+  href: https://artifacts.apis.io/aicure/data-model/aicure-data-model.yml
   title: ''
   type: DataModel
   url: data-model/aicure-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/sandbox/aicure-sandbox.yml
+  href: https://artifacts.apis.io/aicure/sandbox/aicure-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/aicure-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/llms/aicure-llms.txt
+  href: https://artifacts.apis.io/aicure/llms/aicure-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aicure-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/plans/aicure-plans-pricing.yml
+  href: https://artifacts.apis.io/aicure/plans/aicure-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/aicure-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/rate-limits/aicure-rate-limits.yml
+  href: https://artifacts.apis.io/aicure/rate-limits/aicure-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/aicure-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/security/aicure-trust-center.yml
+  href: https://artifacts.apis.io/aicure/security/aicure-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/aicure-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/security/aicure-domain-security.yml
+  href: https://artifacts.apis.io/aicure/security/aicure-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aicure-domain-security.yml
@@ -174,14 +176,14 @@ plans:
 - name: Aicure Plans Pricing
   plan_count: 0
   slug: aicure-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Aicure Rate Limits
   slug: aicure-rate-limits
 score:
   band: thin
-  composite: 35.6
+  composite: 37.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -191,13 +193,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 35.6
+    operational_transparency: 21.1
+  previous_composite: 37.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -213,14 +215,14 @@ score:
     regime: Health
     regime_id: health
     score: 22.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aicure/refs/heads/main/screenshots/aicure-2026-10-11T093446.png
+screenshot: https://apis.io/screenshots/aicure/aicure-2026-10-11T093446.png
 security:
 - kind: authentication
   name: Aicure Authentication

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,13 +25,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The anonymous Model Context Protocol endpoint ZBiotics serves on its own domain, implementing the Universal Commerce Protocol dev.ucp.shopping service at version 2026-08-25. tools/list answers without
   name: ZBiotics Universal Commerce MCP API
   slug: zbiotics-universal-commerce-mcp-api
-artifact_total: 7
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -68,77 +70,77 @@ common:
   type: PrivacyPolicy
   url: https://zbiotics.com/pages/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zbiotics/refs/heads/main/mcp/zbiotics-mcp.yml
+  href: https://artifacts.apis.io/zbiotics/mcp/zbiotics-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/zbiotics-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zbiotics/refs/heads/main/mcp/zbiotics-tool-crosswalk.yml
+  href: https://artifacts.apis.io/zbiotics/mcp/zbiotics-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/zbiotics-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zbiotics/refs/heads/main/llms/zbiotics-llms.txt
+  href: https://artifacts.apis.io/zbiotics/llms/zbiotics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zbiotics-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zbiotics/refs/heads/main/well-known/zbiotics-well-known.yml
+  href: https://artifacts.apis.io/zbiotics/well-known/zbiotics-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zbiotics-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zbiotics/refs/heads/main/authentication/zbiotics-authentication.yml
+  href: https://artifacts.apis.io/zbiotics/authentication/zbiotics-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zbiotics-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zbiotics/refs/heads/main/scopes/zbiotics-scopes.yml
+  href: https://artifacts.apis.io/zbiotics/scopes/zbiotics-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zbiotics-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zbiotics/refs/heads/main/conformance/zbiotics-conformance.yml
+  href: https://artifacts.apis.io/zbiotics/conformance/zbiotics-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zbiotics-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zbiotics/refs/heads/main/conventions/zbiotics-conventions.yml
+  href: https://artifacts.apis.io/zbiotics/conventions/zbiotics-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zbiotics-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zbiotics/refs/heads/main/errors/zbiotics-problem-types.yml
+  href: https://artifacts.apis.io/zbiotics/errors/zbiotics-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zbiotics-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zbiotics/refs/heads/main/lifecycle/zbiotics-lifecycle.yml
+  href: https://artifacts.apis.io/zbiotics/lifecycle/zbiotics-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zbiotics-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zbiotics/refs/heads/main/data-model/zbiotics-data-model.yml
+  href: https://artifacts.apis.io/zbiotics/data-model/zbiotics-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zbiotics-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zbiotics/refs/heads/main/plans/zbiotics-plans-pricing.yml
+  href: https://artifacts.apis.io/zbiotics/plans/zbiotics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zbiotics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zbiotics/refs/heads/main/rate-limits/zbiotics-rate-limits.yml
+  href: https://artifacts.apis.io/zbiotics/rate-limits/zbiotics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zbiotics-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zbiotics/refs/heads/main/security/zbiotics-domain-security.yml
+  href: https://artifacts.apis.io/zbiotics/security/zbiotics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zbiotics-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zbiotics/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/zbiotics/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -162,7 +164,7 @@ plans:
 - name: Zbiotics Plans Pricing
   plan_count: 0
   slug: zbiotics-plans-pricing
-random_paper: 13
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Zbiotics Rate Limits
@@ -174,7 +176,7 @@ scopes:
   summary_line: 4 scopes · authorization_code
 score:
   band: thin
-  composite: 30.6
+  composite: 29.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 45.0
@@ -182,15 +184,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 21.1
-  previous_composite: 30.5
+  previous_composite: 29.6
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -201,8 +203,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -217,6 +219,12 @@ security:
   name: Zbiotics Domain Security
   slug: zbiotics-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: zbiotics-agent-purchase
+  slug: zbiotics-agent-purchase
+- name: zbiotics-catalog-browse
+  slug: zbiotics-catalog-browse
 slug: zbiotics
 tags:
 - Biotechnology

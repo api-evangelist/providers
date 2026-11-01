@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -128,11 +130,8 @@ apis:
   description: The ISteamUserStats API from Steam — 3 operation(s) for isteamuserstats.
   name: Steam ISteamUserStats API
   slug: steam-isteamuserstats-api
-artifact_total: 37
+artifact_total: 36
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Steamworks Web IPlayerService API
   slug: open-steam-iplayerservice-api
@@ -150,17 +149,17 @@ collections:
   slug: open-steam
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/agentic-access/steam-agentic-access.yml
+  href: https://artifacts.apis.io/steam/agentic-access/steam-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/steam-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/security/steam-domain-security.yml
+  href: https://artifacts.apis.io/steam/security/steam-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/steam-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/authentication/steam-authentication.yml
+  href: https://artifacts.apis.io/steam/authentication/steam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/steam-authentication.yml
@@ -257,17 +256,17 @@ common:
   type: Steamworks Forum
   url: https://steamcommunity.com/groups/steamworks
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/plans/steam-plans-pricing.yml
+  href: https://artifacts.apis.io/steam/plans/steam-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/steam-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/rate-limits/steam-rate-limits.yml
+  href: https://artifacts.apis.io/steam/rate-limits/steam-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/steam-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/finops/steam-finops.yml
+  href: https://artifacts.apis.io/steam/finops/steam-finops.yml
   title: ''
   type: FinOps
   url: finops/steam-finops.yml
@@ -306,7 +305,7 @@ rate_limits:
   slug: steam-rate-limits
 score:
   band: thin
-  composite: 32.8
+  composite: 34.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 33.0
@@ -314,15 +313,15 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 25.0
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 43.5
     developer_ergonomics: 42.9
     discoverability: 48.2
-    operational_transparency: 26.3
-  previous_composite: 34.3
+    operational_transparency: 28.9
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -336,14 +335,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/screenshots/steam-2026-06-20T194532.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/steam/steam-2026-06-20T194532.png
 security:
 - kind: authentication
   name: Steam Authentication

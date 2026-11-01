@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The Visual Studio Extensibility API enables developers to create extensions that customize and extend Visual Studio IDE functionality. Extensions can add custom tool windows, commands, code analyzers,
@@ -51,22 +53,22 @@ apis:
 artifact_total: 33
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-visual-studio/refs/heads/main/plans/microsoft-visual-studio-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-visual-studio/plans/microsoft-visual-studio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-visual-studio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-visual-studio/refs/heads/main/rate-limits/microsoft-visual-studio-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-visual-studio/rate-limits/microsoft-visual-studio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-visual-studio-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-visual-studio/refs/heads/main/finops/microsoft-visual-studio-finops.yml
+  href: https://artifacts.apis.io/microsoft-visual-studio/finops/microsoft-visual-studio-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-visual-studio-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-visual-studio/refs/heads/main/security/microsoft-visual-studio-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/microsoft-visual-studio/security/microsoft-visual-studio-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-visual-studio-vulnerability-disclosure.yml
@@ -87,7 +89,7 @@ common:
   type: Blog
   url: https://devblogs.microsoft.com/visualstudio/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-visual-studio/refs/heads/main/security/microsoft-visual-studio-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-visual-studio/security/microsoft-visual-studio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-visual-studio-domain-security.yml
@@ -133,7 +135,7 @@ finops:
 - has_sources: false
   method: generated
   name: Microsoft Visual Studio Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: microsoft-visual-studio-finops
   template: true
@@ -158,7 +160,7 @@ rate_limits:
   slug: microsoft-visual-studio-rate-limits
 score:
   band: thin
-  composite: 27.2
+  composite: 29.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 41.0
@@ -166,29 +168,29 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 51.7
     discoverability: 69.6
-    operational_transparency: 10.5
-  previous_composite: 28.7
+    operational_transparency: 23.7
+  previous_composite: 29.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-visual-studio/refs/heads/main/screenshots/microsoft-visual-studio-2026-06-20T185541.png
+screenshot: https://apis.io/screenshots/microsoft-visual-studio/microsoft-visual-studio-2026-06-20T185541.png
 security:
 - kind: domain-security
   name: Microsoft Visual Studio Domain Security

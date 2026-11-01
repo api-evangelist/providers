@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: The URL Scanner API from IPQualityScore — 1 operation(s) for url scanner.
   name: IPQualityScore URL Scanner API
   slug: ipqualityscore-url-scanner-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: IPQualityScore Device Fingerprint API
   slug: open-ipqualityscore-device-fingerprint-api
@@ -106,17 +105,17 @@ common:
   type: Blog
   url: https://www.ipqualityscore.com/articles
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/agentic-access/ipqualityscore-agentic-access.yml
+  href: https://artifacts.apis.io/ipqualityscore/agentic-access/ipqualityscore-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ipqualityscore-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/security/ipqualityscore-domain-security.yml
+  href: https://artifacts.apis.io/ipqualityscore/security/ipqualityscore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ipqualityscore-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/authentication/ipqualityscore-authentication.yml
+  href: https://artifacts.apis.io/ipqualityscore/authentication/ipqualityscore-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ipqualityscore-authentication.yml
@@ -137,17 +136,17 @@ common:
   type: Documentation
   url: https://www.ipqualityscore.com/documentation/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/plans/ipqualityscore-plans-pricing.yml
+  href: https://artifacts.apis.io/ipqualityscore/plans/ipqualityscore-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ipqualityscore-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/rate-limits/ipqualityscore-rate-limits.yml
+  href: https://artifacts.apis.io/ipqualityscore/rate-limits/ipqualityscore-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ipqualityscore-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/finops/ipqualityscore-finops.yml
+  href: https://artifacts.apis.io/ipqualityscore/finops/ipqualityscore-finops.yml
   title: ''
   type: FinOps
   url: finops/ipqualityscore-finops.yml
@@ -175,14 +174,14 @@ plans:
 - name: Ipqualityscore Plans Pricing
   plan_count: 5
   slug: ipqualityscore-plans-pricing
-random_paper: 16
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Ipqualityscore Rate Limits
   slug: ipqualityscore-rate-limits
 score:
   band: thin
-  composite: 26.5
+  composite: 27.6
   coverage:
     artifact_dirs: 12
     catalog_earned: 43.0
@@ -190,15 +189,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 47.8
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 34.3
+    operational_transparency: 13.2
+  previous_composite: 27.6
   provenance:
     agentic_access: derived
     contracts:
@@ -212,13 +211,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/screenshots/ipqualityscore-2026-07-25T222839.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ipqualityscore/ipqualityscore-2026-07-25T222839.png
 security:
 - kind: authentication
   name: Ipqualityscore Authentication

@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.3
-  scored_at: '2026-10-17'
+  score: 37.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 15
   slug: pdfshift-agentic-access
   summary_line: 15 operations · 8 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.pdfshift.io/v3
   baseurl_source: declared
@@ -84,11 +86,8 @@ apis:
   description: The usage API from PDFShift — 1 operation(s) for usage.
   name: PDFShift Usage API
   slug: pdfshift-usage-api
-artifact_total: 49
+artifact_total: 48
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PDFShift API Documentation account API
   slug: open-pdfshift-account-api
@@ -115,22 +114,22 @@ collections:
   slug: open-pdfshift-usage-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/agentic-access/pdfshift-agentic-access.yml
+  href: https://artifacts.apis.io/pdfshift/agentic-access/pdfshift-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pdfshift-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/security/pdfshift-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pdfshift/security/pdfshift-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pdfshift-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/security/pdfshift-domain-security.yml
+  href: https://artifacts.apis.io/pdfshift/security/pdfshift-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pdfshift-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/authentication/pdfshift-authentication.yml
+  href: https://artifacts.apis.io/pdfshift/authentication/pdfshift-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pdfshift-authentication.yml
@@ -167,17 +166,17 @@ common:
   type: X
   url: https://x.com/pdfshift
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/plans/pdfshift-plans-pricing.yml
+  href: https://artifacts.apis.io/pdfshift/plans/pdfshift-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pdfshift-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/rate-limits/pdfshift-rate-limits.yml
+  href: https://artifacts.apis.io/pdfshift/rate-limits/pdfshift-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pdfshift-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/finops/pdfshift-finops.yml
+  href: https://artifacts.apis.io/pdfshift/finops/pdfshift-finops.yml
   title: ''
   type: FinOps
   url: finops/pdfshift-finops.yml
@@ -285,7 +284,7 @@ plans:
 - name: Pdfshift Plans Pricing
   plan_count: 5
   slug: pdfshift-plans-pricing
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Pdfshift Rate Limits
@@ -304,7 +303,7 @@ rules:
   slug: pdfshift-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.4
+  composite: 35.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 51.3
@@ -312,15 +311,15 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 59.2
+    contract_quality: 57.1
     developer_ergonomics: 23.8
-    discoverability: 68.3
-    operational_transparency: 13.2
-  previous_composite: 39.0
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -335,13 +334,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/screenshots/pdfshift-2026-06-20T191519.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pdfshift/pdfshift-2026-06-20T191519.png
 security:
 - kind: authentication
   name: Pdfshift Authentication

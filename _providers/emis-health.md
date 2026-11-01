@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-10-17'
+  score: 29.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -102,7 +104,7 @@ apis:
   description: The user API from EMIS Health — 1 operation(s) for user.
   name: EMIS Health User API
   slug: emis-health-user-api
-artifact_total: 17
+artifact_total: 20
 collections:
 - collection_type: open
   name: Partner API
@@ -113,72 +115,72 @@ common:
   type: Blog
   url: https://www.enliviohealth.com/news/news
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/capabilities/emis-health-capability-edges.yml
+  href: https://artifacts.apis.io/emis-health/capabilities/emis-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/emis-health-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/overlays/emis-health-partner-api-overlay.yaml
+  href: https://artifacts.apis.io/emis-health/overlays/emis-health-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/emis-health-partner-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/mcp/emis-health-mcp.yml
+  href: https://artifacts.apis.io/emis-health/mcp/emis-health-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/emis-health-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/agentic-access/emis-health-agentic-access.yml
+  href: https://artifacts.apis.io/emis-health/agentic-access/emis-health-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/emis-health-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/security/emis-health-domain-security.yml
+  href: https://artifacts.apis.io/emis-health/security/emis-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/emis-health-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/authentication/emis-health-authentication.yml
+  href: https://artifacts.apis.io/emis-health/authentication/emis-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/emis-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/scopes/emis-health-scopes.yml
+  href: https://artifacts.apis.io/emis-health/scopes/emis-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/emis-health-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/well-known/emis-health-well-known.yml
+  href: https://artifacts.apis.io/emis-health/well-known/emis-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/emis-health-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/conventions/emis-health-conventions.yml
+  href: https://artifacts.apis.io/emis-health/conventions/emis-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/emis-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/lifecycle/emis-health-lifecycle.yml
+  href: https://artifacts.apis.io/emis-health/lifecycle/emis-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/emis-health-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/conformance/emis-health-conformance.yml
+  href: https://artifacts.apis.io/emis-health/conformance/emis-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/emis-health-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/sandbox/emis-health-sandbox.yml
+  href: https://artifacts.apis.io/emis-health/sandbox/emis-health-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/emis-health-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/emis-health/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/llms/emis-health-llms.txt
+  href: https://artifacts.apis.io/emis-health/llms/emis-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/emis-health-llms.txt
@@ -230,7 +232,7 @@ overview: 'EMIS Health publishes 12 API contracts indexed on the [APIs.io](https
 
 
   EMIS Health''s developer surface includes engineering blog, authentication, sandbox, documentation, API reference, getting-started guide, and 18 more developer resources.'
-random_paper: 5
+random_paper: 1
 scopes:
 - name: Emis Health Scopes
   scope_count: 7
@@ -246,13 +248,13 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 42.7
     developer_ergonomics: 61.3
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -262,7 +264,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 34.1
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,13 +281,14 @@ score:
     regime: Health
     regime_id: health
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/screenshots/emis-health-2026-07-25T213240.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/emis-health/emis-health-2026-07-25T213240.png
 security:
 - kind: authentication
   name: Emis Health Authentication
@@ -295,6 +298,14 @@ security:
   name: Emis Health Domain Security
   slug: emis-health-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Find a slot and book an appointment
+  slug: emis-health-book-appointment
+- name: File a record into a patient's clinical record
+  slug: emis-health-file-clinical-record
+- name: Retrieve a patient's medical record
+  slug: emis-health-retrieve-medical-record
 slug: emis-health
 tags:
 - Healthcare

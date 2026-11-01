@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,27 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/growthhackers/refs/heads/main/security/growthhackers-domain-security.yml
+  href: https://artifacts.apis.io/growthhackers/security/growthhackers-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/growthhackers-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/growthhackers/refs/heads/main/llms/growthhackers-llms.txt
+  href: https://artifacts.apis.io/growthhackers/llms/growthhackers-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/growthhackers-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/growthhackers/refs/heads/main/plans/growthhackers-plans-pricing.yml
+  href: https://artifacts.apis.io/growthhackers/plans/growthhackers-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/growthhackers-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/growthhackers/refs/heads/main/rate-limits/growthhackers-rate-limits.yml
+  href: https://artifacts.apis.io/growthhackers/rate-limits/growthhackers-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/growthhackers-rate-limits.yml
@@ -140,14 +142,14 @@ plans:
 - name: Growthhackers Plans Pricing
   plan_count: 0
   slug: growthhackers-plans-pricing
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Growthhackers Rate Limits
   slug: growthhackers-rate-limits
 score:
   band: emerging
-  composite: 12.7
+  composite: 13.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -162,22 +164,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 12.7
+    operational_transparency: 5.3
+  previous_composite: 13.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/growthhackers/refs/heads/main/screenshots/growthhackers-2026-06-20T182419.png
+screenshot: https://apis.io/screenshots/growthhackers/growthhackers-2026-06-20T182419.png
 security:
 - kind: domain-security
   name: Growthhackers Domain Security

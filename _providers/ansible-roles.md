@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -89,11 +91,8 @@ apis:
   description: Legacy v1 users API.
   name: Ansible Roles Users API
   slug: ansible-roles-users-api
-artifact_total: 45
+artifact_total: 44
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ansible Galaxy Roles & Collections Ansible Galaxy Roles & Collections API API
   slug: open-ansible-roles-ansible-galaxy-roles-collections-api-api
@@ -119,18 +118,23 @@ collections:
   name: Ansible Galaxy Roles & Collections API
   slug: open-ansible-roles
 common:
+- group: other
+  href: https://artifacts.apis.io/ansible-roles/capabilities/ansible-roles-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ansible-roles-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/plans/ansible-roles-plans-pricing.yml
+  href: https://artifacts.apis.io/ansible-roles/plans/ansible-roles-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ansible-roles-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/rate-limits/ansible-roles-rate-limits.yml
+  href: https://artifacts.apis.io/ansible-roles/rate-limits/ansible-roles-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ansible-roles-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/finops/ansible-roles-finops.yml
+  href: https://artifacts.apis.io/ansible-roles/finops/ansible-roles-finops.yml
   title: ''
   type: FinOps
   url: finops/ansible-roles-finops.yml
@@ -155,17 +159,17 @@ common:
   type: License
   url: https://github.com/ansible/galaxy/blob/devel/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/agentic-access/ansible-roles-agentic-access.yml
+  href: https://artifacts.apis.io/ansible-roles/agentic-access/ansible-roles-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ansible-roles-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/security/ansible-roles-domain-security.yml
+  href: https://artifacts.apis.io/ansible-roles/security/ansible-roles-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ansible-roles-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/authentication/ansible-roles-authentication.yml
+  href: https://artifacts.apis.io/ansible-roles/authentication/ansible-roles-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ansible-roles-authentication.yml
@@ -229,7 +233,7 @@ finops:
 - has_sources: false
   method: generated
   name: Ansible Roles Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: ansible-roles-finops
   template: true
@@ -271,7 +275,7 @@ overview: 'Ansible Roles publishes 10 API contracts indexed on the [APIs.io](htt
   The Ansible Roles catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ansible Roles'' developer surface includes authentication, getting-started guide, and 18 more developer resources.'
+  Ansible Roles'' developer surface includes authentication, getting-started guide, and 19 more developer resources.'
 plans:
 - name: Ansible Roles Plans Pricing
   plan_count: 3
@@ -295,26 +299,23 @@ rules:
   slug: ansible-roles-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.3
+  composite: 42.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 58.8
     catalog_earned_first_party: 0.0
     catalog_gap: 56.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 23.5
     contract_quality: 49.4
-    developer_ergonomics: 34.5
+    developer_ergonomics: 50.0
     discoverability: 66.1
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 42.6
+    operational_transparency: 28.9
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -328,13 +329,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/screenshots/ansible-roles-2026-06-20T172023.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ansible-roles/ansible-roles-2026-06-20T172023.png
 security:
 - kind: authentication
   name: Ansible Roles Authentication

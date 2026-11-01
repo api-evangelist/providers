@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,17 +25,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alphaeon-credit/refs/heads/main/well-known/alphaeon-credit-clarity-security.txt
+  href: https://artifacts.apis.io/alphaeon-credit/well-known/alphaeon-credit-clarity-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/alphaeon-credit-clarity-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alphaeon-credit/refs/heads/main/well-known/alphaeon-credit-well-known.yml
+  href: https://artifacts.apis.io/alphaeon-credit/well-known/alphaeon-credit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alphaeon-credit-well-known.yml
@@ -42,12 +44,12 @@ common:
   type: Security
   url: https://clarity.com/vdp
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alphaeon-credit/refs/heads/main/hosts/alphaeon-credit-hosts.yml
+  href: https://artifacts.apis.io/alphaeon-credit/hosts/alphaeon-credit-hosts.yml
   title: ''
   type: Hosts
   url: hosts/alphaeon-credit-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alphaeon-credit/refs/heads/main/vendors/alphaeon-credit-vendors.yml
+  href: https://artifacts.apis.io/alphaeon-credit/vendors/alphaeon-credit-vendors.yml
   title: ''
   type: Vendors
   url: vendors/alphaeon-credit-vendors.yml
@@ -56,12 +58,12 @@ common:
   type: Login
   url: https://goalphaeon.com/login
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alphaeon-credit/refs/heads/main/security/alphaeon-credit-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/alphaeon-credit/security/alphaeon-credit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/alphaeon-credit-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alphaeon-credit/refs/heads/main/security/alphaeon-credit-domain-security.yml
+  href: https://artifacts.apis.io/alphaeon-credit/security/alphaeon-credit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alphaeon-credit-domain-security.yml
@@ -78,12 +80,12 @@ name: Alphaeon Credit
 nav: Providers
 network: true
 overview: Alphaeon Credit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Credit Cards, Medical Financing, Dental, and Plastic Surgery.
-random_paper: 2
+random_paper: 8
 score:
   band: minimal
   composite: 7.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -104,14 +106,14 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alphaeon-credit/refs/heads/main/screenshots/alphaeon-credit-2026-10-11T093722.png
+screenshot: https://apis.io/screenshots/alphaeon-credit/alphaeon-credit-2026-10-11T093722.png
 security:
 - kind: domain-security
   name: Alphaeon Credit Domain Security

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-17'
+  score: 20.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -100,9 +102,6 @@ apis:
 artifact_total: 47
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Foursquare Places Ask API
   slug: open-foursquare-ask-api
 - collection_type: open
@@ -131,32 +130,32 @@ collections:
   slug: open-foursquare-tips-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/plans/foursquare-plans-pricing.yml
+  href: https://artifacts.apis.io/foursquare/plans/foursquare-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/foursquare-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/rate-limits/foursquare-rate-limits.yml
+  href: https://artifacts.apis.io/foursquare/rate-limits/foursquare-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/foursquare-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/finops/foursquare-finops.yml
+  href: https://artifacts.apis.io/foursquare/finops/foursquare-finops.yml
   title: ''
   type: FinOps
   url: finops/foursquare-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/agentic-access/foursquare-agentic-access.yml
+  href: https://artifacts.apis.io/foursquare/agentic-access/foursquare-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/foursquare-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/security/foursquare-domain-security.yml
+  href: https://artifacts.apis.io/foursquare/security/foursquare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/foursquare-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/authentication/foursquare-authentication.yml
+  href: https://artifacts.apis.io/foursquare/authentication/foursquare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/foursquare-authentication.yml
@@ -240,10 +239,10 @@ examples:
   slug: foursquare-search-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Foursquare Finops
-  primary_unit: ''
-  service_category: Geospatial & Location Data
+  primary_unit: cpm
+  service_category: ''
   slug: foursquare-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/foursquare.png
@@ -301,9 +300,12 @@ overview: 'Foursquare publishes 12 API contracts indexed on the [APIs.io](https:
   Foursquare''s developer surface includes authentication, tooling, signup flow, documentation, engineering blog, and 16 more developer resources.'
 plans:
 - name: Foursquare Plans Pricing
-  plan_count: 10
+  plan_count: 18
   slug: foursquare-plans-pricing
-random_paper: 1
+- name: Foursquare Price Estimates
+  plan_count: 0
+  slug: foursquare-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Foursquare Rate Limits
@@ -333,23 +335,23 @@ rules:
   slug: foursquare-places-rules
 score:
   band: developing
-  composite: 40.5
+  composite: 49.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 61.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.3
+    catalog_earned: 73.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 41.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 21.1
+    access_clarity: 52.6
     contract_governance: 23.5
     contract_quality: 63.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 59.5
     discoverability: 64.3
-    operational_transparency: 7.9
-  previous_composite: 42.0
+    operational_transparency: 10.5
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -363,14 +365,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/screenshots/foursquare-2026-06-20T181457.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/foursquare/foursquare-2026-06-20T181457.png
 security:
 - kind: authentication
   name: Foursquare Authentication

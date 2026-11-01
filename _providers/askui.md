@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-17'
+  score: 28.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -119,11 +121,8 @@ apis:
   description: The workspaces API from AskUI — 2 operation(s) for workspaces.
   name: AskUI Workspaces API
   slug: askui-workspaces-api
-artifact_total: 35
+artifact_total: 38
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AskUI Workspaces access-tokens API
   slug: open-askui-access-tokens-api
@@ -170,6 +169,11 @@ collections:
   name: AskUI access-tokens workspaces API
   slug: open-askui-workspaces-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/askui/plans/askui-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/askui-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
@@ -179,7 +183,7 @@ common:
   type: BlogRSS
   url: https://www.askui.com/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/capabilities/askui-capability-edges.yml
+  href: https://artifacts.apis.io/askui/capabilities/askui-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/askui-capability-edges.yml
@@ -228,62 +232,62 @@ common:
   type: PrivacyPolicy
   url: https://www.askui.com/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/packages/askui-packages.yml
+  href: https://artifacts.apis.io/askui/packages/askui-packages.yml
   title: ''
   type: Packages
   url: packages/askui-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/packages/askui-packages.yml
+  href: https://artifacts.apis.io/askui/packages/askui-packages.yml
   title: ''
   type: SDKs
   url: packages/askui-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/cli/askui-cli.yml
+  href: https://artifacts.apis.io/askui/cli/askui-cli.yml
   title: ''
   type: CLI
   url: cli/askui-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/mcp/askui-mcp.yml
+  href: https://artifacts.apis.io/askui/mcp/askui-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/askui-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/llms/askui-llms.txt
+  href: https://artifacts.apis.io/askui/llms/askui-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/askui-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/askui/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/agentic-access/askui-agentic-access.yml
+  href: https://artifacts.apis.io/askui/agentic-access/askui-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/askui-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/authentication/askui-authentication.yml
+  href: https://artifacts.apis.io/askui/authentication/askui-authentication.yml
   title: ''
   type: Authentication
   url: authentication/askui-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/errors/askui-problem-types.yml
+  href: https://artifacts.apis.io/askui/errors/askui-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/askui-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/conventions/askui-conventions.yml
+  href: https://artifacts.apis.io/askui/conventions/askui-conventions.yml
   title: ''
   type: Conventions
   url: conventions/askui-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/data-model/askui-data-model.yml
+  href: https://artifacts.apis.io/askui/data-model/askui-data-model.yml
   title: ''
   type: DataModel
   url: data-model/askui-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/conformance/askui-conformance.yml
+  href: https://artifacts.apis.io/askui/conformance/askui-conformance.yml
   title: ''
   type: Conformance
   url: conformance/askui-conformance.yml
@@ -292,12 +296,12 @@ common:
   type: Compliance
   url: https://trust.askui.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/overlays/askui-workspace-service-overlay.yaml
+  href: https://artifacts.apis.io/askui/overlays/askui-workspace-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/askui-workspace-service-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/lifecycle/askui-lifecycle.yml
+  href: https://artifacts.apis.io/askui/lifecycle/askui-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/askui-lifecycle.yml
@@ -306,7 +310,7 @@ common:
   type: StatusPage
   url: https://status.askui.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/changelog/askui-changelog.yml
+  href: https://artifacts.apis.io/askui/changelog/askui-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/askui-changelog.yml
@@ -315,12 +319,12 @@ common:
   type: ReleaseNotes
   url: https://docs.askui.com/05-additional-resources/release-notes/01-askui-suite
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/security/askui-trust-center.yml
+  href: https://artifacts.apis.io/askui/security/askui-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/askui-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/security/askui-domain-security.yml
+  href: https://artifacts.apis.io/askui/security/askui-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/askui-domain-security.yml
@@ -330,6 +334,14 @@ common:
   url: https://www.askui.com
 created: '2026-07-17'
 description: AskUI is a German (Karlsruhe-based) company building agentic test automation and computer-use agents for any interface. Its vision agents observe the screen, reason, and act — clicking, typing, and extracting data without DOM queries or brittle UI selectors — across Windows, macOS, Linux, Android, iOS, and embedded/HMI systems. The platform ships a Python Vision Agent SDK, a TypeScript SDK, the AskUI Suite (AgentOS runtime + AskUI Development Environment PowerShell CLI), and the AskUI Hub management console. Developers drive it programmatically through the AskUI Workspaces API — an OpenAPI 3.1 REST service for workspaces, agents, agent executions, access tokens, schedules, runs, files, usage, and billing. AskUI GmbH is ISO/IEC 27001:2022 certified and GDPR-aligned. Surfaced as a Seedcamp portfolio company and enriched into the API Evangelist network.
+finops:
+- has_sources: true
+  method: derived
+  name: Askui Finops
+  primary_unit: ''
+  service_category: ''
+  slug: askui-finops
+  template: true
 image: https://files.askui.com/assets/logo/askui-logo-primary.png
 layout: provider
 modified: '2026-10-06'
@@ -339,26 +351,30 @@ network: true
 overview: 'AskUI publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Access Tokens API, Agent Executions API, Agents API, and 12 more. Tagged areas include Company, Test Automation, UI Automation, AI Agents, and Computer Use.
 
 
-  AskUI''s developer surface includes engineering blog, documentation, API reference, getting-started guide, quickstart, support, signup flow, and 28 more developer resources.'
+  AskUI''s developer surface includes engineering blog, documentation, API reference, getting-started guide, quickstart, support, signup flow, and 29 more developer resources.'
+plans:
+- name: Askui Plans Pricing
+  plan_count: 3
+  slug: askui-plans-pricing
 random_paper: 13
 score:
-  band: developing
-  composite: 41.6
+  band: strong
+  composite: 55.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.4
   facets:
-    access_clarity: 35.5
+    access_clarity: 81.6
     contract_governance: 4.5
     contract_quality: 42.9
-    developer_ergonomics: 54.2
-    discoverability: 71.7
-    operational_transparency: 26.3
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -367,7 +383,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 41.5
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -387,14 +403,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/screenshots/askui-2026-07-25T201426.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/askui/askui-2026-07-25T201426.png
 security:
 - kind: authentication
   name: Askui Authentication
@@ -408,6 +425,12 @@ security:
   name: Askui Trust Center
   slug: askui-trust-center
   summary_line: ISO/IEC 27001:2022, GDPR
+skill_count: 2
+skills:
+- name: Provision a workspace and mint an access token
+  slug: askui-provision-workspace-and-token
+- name: Create an agent and run an execution
+  slug: askui-run-agent-execution
 slug: askui
 tags:
 - Company

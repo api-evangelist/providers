@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Authenticated REST surface of the Kevala platform, mounted at https://api.kevala.com/der/ and implemented with Django REST Framework. Kevala's September 2024 platform release notes describe a "DER Met
@@ -46,7 +48,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kevala/refs/heads/main/security/kevala-domain-security.yml
+  href: https://artifacts.apis.io/kevala/security/kevala-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kevala-domain-security.yml
@@ -91,62 +93,62 @@ common:
   type: Twitter
   url: https://twitter.com/kevalaanalytics
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kevala/refs/heads/main/changelog/kevala-changelog.yml
+  href: https://artifacts.apis.io/kevala/changelog/kevala-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/kevala-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kevala/refs/heads/main/lifecycle/kevala-lifecycle.yml
+  href: https://artifacts.apis.io/kevala/lifecycle/kevala-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kevala-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kevala/refs/heads/main/authentication/kevala-authentication.yml
+  href: https://artifacts.apis.io/kevala/authentication/kevala-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kevala-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kevala/refs/heads/main/scopes/kevala-scopes.yml
+  href: https://artifacts.apis.io/kevala/scopes/kevala-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kevala-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kevala/refs/heads/main/errors/kevala-problem-types.yml
+  href: https://artifacts.apis.io/kevala/errors/kevala-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kevala-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kevala/refs/heads/main/conventions/kevala-conventions.yml
+  href: https://artifacts.apis.io/kevala/conventions/kevala-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kevala-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kevala/refs/heads/main/conformance/kevala-conformance.yml
+  href: https://artifacts.apis.io/kevala/conformance/kevala-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kevala-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kevala/refs/heads/main/conformance/kevala-conformance.yml
+  href: https://artifacts.apis.io/kevala/conformance/kevala-conformance.yml
   title: ''
   type: Compliance
   url: conformance/kevala-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kevala/refs/heads/main/packages/kevala-packages.yml
+  href: https://artifacts.apis.io/kevala/packages/kevala-packages.yml
   title: ''
   type: Packages
   url: packages/kevala-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kevala/refs/heads/main/plans/kevala-plans-pricing.yml
+  href: https://artifacts.apis.io/kevala/plans/kevala-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kevala-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kevala/refs/heads/main/rate-limits/kevala-rate-limits.yml
+  href: https://artifacts.apis.io/kevala/rate-limits/kevala-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kevala-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kevala/refs/heads/main/llms/kevala-llms.txt
+  href: https://artifacts.apis.io/kevala/llms/kevala-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kevala-llms.txt
@@ -183,7 +185,7 @@ plans:
 - name: Kevala Plans Pricing
   plan_count: 0
   slug: kevala-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Kevala Rate Limits
@@ -195,7 +197,7 @@ scopes:
   summary_line: 14 scopes
 score:
   band: thin
-  composite: 27.0
+  composite: 26.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -209,9 +211,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 27.0
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 26.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -221,14 +223,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 38.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kevala/refs/heads/main/screenshots/kevala-2026-09-02T150027.png
+screenshot: https://apis.io/screenshots/kevala/kevala-2026-09-02T150027.png
 security:
 - kind: authentication
   name: Kevala Authentication

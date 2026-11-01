@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.7
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -78,11 +80,8 @@ apis:
   description: Table and datasource management
   name: Apache Kylin Tables API
   slug: apache-kylin-tables-api
-artifact_total: 66
+artifact_total: 65
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache Kylin REST Authentication API
   slug: open-apache-kylin-authentication-api
@@ -102,23 +101,27 @@ collections:
   name: Apache Kylin REST Authentication Tables API
   slug: open-apache-kylin-tables-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/apache-kylin/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/plans/apache-kylin-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-kylin/plans/apache-kylin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-kylin-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/rate-limits/apache-kylin-rate-limits.yml
+  href: https://artifacts.apis.io/apache-kylin/rate-limits/apache-kylin-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-kylin-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/finops/apache-kylin-finops.yml
+  href: https://artifacts.apis.io/apache-kylin/finops/apache-kylin-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-kylin-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/capabilities/apache-kylin-capability-edges.yml
+  href: https://artifacts.apis.io/apache-kylin/capabilities/apache-kylin-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/apache-kylin-capability-edges.yml
@@ -139,22 +142,22 @@ common:
   type: License
   url: https://github.com/apache/kylin/blob/kylin5/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/agentic-access/apache-kylin-agentic-access.yml
+  href: https://artifacts.apis.io/apache-kylin/agentic-access/apache-kylin-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-kylin-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/security/apache-kylin-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-kylin/security/apache-kylin-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-kylin-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/security/apache-kylin-domain-security.yml
+  href: https://artifacts.apis.io/apache-kylin/security/apache-kylin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-kylin-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/authentication/apache-kylin-authentication.yml
+  href: https://artifacts.apis.io/apache-kylin/authentication/apache-kylin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apache-kylin-authentication.yml
@@ -183,12 +186,12 @@ common:
   type: Versioning
   url: https://kylin.apache.org/download/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/rules/apache-kylin-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-kylin/rules/apache-kylin-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-kylin-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/vocabulary/apache-kylin-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-kylin/vocabulary/apache-kylin-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-kylin-vocabulary.yaml
@@ -238,7 +241,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Kylin Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-kylin-finops
   template: true
@@ -324,12 +327,12 @@ overview: 'Apache Kylin publishes 7 API contracts indexed on the [APIs.io](https
   The Apache Kylin catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Kylin''s developer surface includes authentication, documentation, getting-started guide, and 17 more developer resources.'
+  Apache Kylin''s developer surface includes authentication, documentation, getting-started guide, and 18 more developer resources.'
 plans:
 - name: Apache Kylin Plans Pricing
   plan_count: 3
   slug: apache-kylin-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Apache Kylin Rate Limits
@@ -359,47 +362,45 @@ rules:
     warn: 6
   slug: apache-kylin-spectral-rules
 score:
-  band: thin
-  composite: 35.4
+  band: developing
+  composite: 40.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.8
   facets:
     access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 53.6
-    developer_ergonomics: 21.4
+    developer_ergonomics: 37.6
     discoverability: 57.1
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 40.0
-  previous_composite: 36.7
+    operational_transparency: 39.5
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 13
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/screenshots/apache-kylin-2026-06-20T172119.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-kylin/apache-kylin-2026-06-20T172119.png
 security:
 - kind: authentication
   name: Apache Kylin Authentication

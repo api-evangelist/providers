@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-17'
+  score: 30.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -74,15 +76,12 @@ apis:
   description: Manage access to protected resources
   name: SmallStep Protect API
   slug: smallstep-protect-api
-artifact_total: 18
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Smallstep Webhooks
   slug: smallstep-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Smallstep Authentication API
   slug: open-smallstep-authentication-api
@@ -102,13 +101,22 @@ collections:
   name: Smallstep Authentication Protect API
   slug: open-smallstep-protect-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/smallstep/plans/smallstep-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/smallstep-plans-pricing.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/smallstep/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/capabilities/smallstep-capability-edges.yml
+  href: https://artifacts.apis.io/smallstep/capabilities/smallstep-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/smallstep-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/overlays/smallstep-platform-overlay.yaml
+  href: https://artifacts.apis.io/smallstep/overlays/smallstep-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/smallstep-platform-overlay.yaml
@@ -165,22 +173,22 @@ common:
   type: StatusPage
   url: https://status.smallstep.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/authentication/smallstep-authentication.yml
+  href: https://artifacts.apis.io/smallstep/authentication/smallstep-authentication.yml
   title: ''
   type: Authentication
   url: authentication/smallstep-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/agentic-access/smallstep-agentic-access.yml
+  href: https://artifacts.apis.io/smallstep/agentic-access/smallstep-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/smallstep-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/security/smallstep-domain-security.yml
+  href: https://artifacts.apis.io/smallstep/security/smallstep-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/smallstep-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/security/smallstep-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/smallstep/security/smallstep-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/smallstep-vulnerability-disclosure.yml
@@ -189,82 +197,90 @@ common:
   type: Security
   url: https://smallstep.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/well-known/smallstep-security.txt
+  href: https://artifacts.apis.io/smallstep/well-known/smallstep-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/smallstep-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/well-known/smallstep-well-known.yml
+  href: https://artifacts.apis.io/smallstep/well-known/smallstep-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/smallstep-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/packages/smallstep-packages.yml
+  href: https://artifacts.apis.io/smallstep/packages/smallstep-packages.yml
   title: ''
   type: Packages
   url: packages/smallstep-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/packages/smallstep-packages.yml
+  href: https://artifacts.apis.io/smallstep/packages/smallstep-packages.yml
   title: ''
   type: SDKs
   url: packages/smallstep-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/cli/smallstep-cli.yml
+  href: https://artifacts.apis.io/smallstep/cli/smallstep-cli.yml
   title: ''
   type: CLI
   url: cli/smallstep-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/llms/smallstep-llms.txt
+  href: https://artifacts.apis.io/smallstep/llms/smallstep-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/smallstep-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/conformance/smallstep-conformance.yml
+  href: https://artifacts.apis.io/smallstep/conformance/smallstep-conformance.yml
   title: ''
   type: Conformance
   url: conformance/smallstep-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/errors/smallstep-problem-types.yml
+  href: https://artifacts.apis.io/smallstep/errors/smallstep-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/smallstep-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/lifecycle/smallstep-lifecycle.yml
+  href: https://artifacts.apis.io/smallstep/lifecycle/smallstep-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/smallstep-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/conventions/smallstep-conventions.yml
+  href: https://artifacts.apis.io/smallstep/conventions/smallstep-conventions.yml
   title: ''
   type: Conventions
   url: conventions/smallstep-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/changelog/smallstep-changelog.yml
+  href: https://artifacts.apis.io/smallstep/changelog/smallstep-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/smallstep-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/data-model/smallstep-data-model.yml
+  href: https://artifacts.apis.io/smallstep/data-model/smallstep-data-model.yml
   title: ''
   type: DataModel
   url: data-model/smallstep-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/asyncapi/smallstep-webhooks.yml
+  href: https://artifacts.apis.io/smallstep/asyncapi/smallstep-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/smallstep-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/smallstep/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/mcp/smallstep-mcp.yml
+  href: https://artifacts.apis.io/smallstep/mcp/smallstep-mcp.yml
   title: ''
   type: MCPServerCandidate
   url: mcp/smallstep-mcp.yml
 created: '2026-07-17'
 description: Smallstep operates the world's first Device Identity Platform. It issues hardware-backed, short-lived X.509 and SSH certificates that cryptographically prove what is acting and from where — for devices, humans, workloads, AI agents, and MCP toolchains. Smallstep co-developed ACME Device Attestation (ACME DA) with Google through the IETF, using TPM and Secure Enclave co-processors to bind non-exportable credentials to specific devices at issuance. Its OpenAPI-conformant Platform API (gateway.smallstep.com) manages device inventory, PKI (certificate authorities and provisioners), certificate issuance and revocation, credentials, and protected resources such as Wi-Fi, VPN, and SSO. Smallstep also maintains the widely used open-source step CLI and step-ca certificate authority.
+finops:
+- has_sources: true
+  method: derived
+  name: Smallstep Finops
+  primary_unit: ''
+  service_category: ''
+  slug: smallstep-finops
+  template: true
 image: https://smallstep.imgix.net/logo_bfa4201fe5.svg
 layout: provider
 modified: '2026-07-21'
@@ -277,27 +293,31 @@ overview: 'SmallStep publishes 6 API contracts indexed on the [APIs.io](https://
   The SmallStep catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  SmallStep''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 28 more developer resources.'
-random_paper: 13
+  SmallStep''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 30 more developer resources.'
+plans:
+- name: Smallstep Plans Pricing
+  plan_count: 1
+  slug: smallstep-plans-pricing
+random_paper: 21
 score:
-  band: developing
-  composite: 53.5
+  band: strong
+  composite: 59.7
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.4
   facets:
-    access_clarity: 38.2
+    access_clarity: 65.8
     contract_governance: 4.5
-    contract_quality: 63.7
-    developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 44.7
-  previous_composite: 53.4
+    contract_quality: 60.3
+    developer_ergonomics: 74.4
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,13 +334,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/screenshots/smallstep-2026-08-17T081926.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/smallstep/smallstep-2026-08-17T081926.png
 security:
 - kind: authentication
   name: Smallstep Authentication
@@ -334,6 +355,14 @@ security:
   name: Smallstep Vulnerability Disclosure
   slug: smallstep-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Search, inspect, and revoke Smallstep certificates
+  slug: smallstep-issue-and-revoke-certificates
+- name: Manage the Smallstep device inventory
+  slug: smallstep-manage-device-inventory
+- name: Provision a Smallstep certificate authority and provisioner
+  slug: smallstep-provision-certificate-authority
 slug: smallstep
 tags:
 - Company

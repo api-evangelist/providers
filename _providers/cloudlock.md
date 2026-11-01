@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,22 +70,22 @@ common:
   type: Blog
   url: https://www.cloudlock.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudlock/refs/heads/main/authentication/cloudlock-authentication.yml
+  href: https://artifacts.apis.io/cloudlock/authentication/cloudlock-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudlock-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudlock/refs/heads/main/conventions/cloudlock-conventions.yml
+  href: https://artifacts.apis.io/cloudlock/conventions/cloudlock-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cloudlock-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudlock/refs/heads/main/errors/cloudlock-problem-types.yml
+  href: https://artifacts.apis.io/cloudlock/errors/cloudlock-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cloudlock-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudlock/refs/heads/main/security/cloudlock-domain-security.yml
+  href: https://artifacts.apis.io/cloudlock/security/cloudlock-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudlock-domain-security.yml
@@ -99,10 +101,10 @@ overview: 'CloudLock is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   CloudLock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 6 more developer resources.'
-random_paper: 14
+random_paper: 0
 score:
   band: emerging
-  composite: 14.3
+  composite: 14.8
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -115,24 +117,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 50.0
+    developer_ergonomics: 52.4
     discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 14.3
+  previous_composite: 14.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cloudlock/refs/heads/main/screenshots/cloudlock-2026-07-25T205704.png
+screenshot: https://apis.io/screenshots/cloudlock/cloudlock-2026-07-25T205704.png
 security:
 - kind: authentication
   name: Cloudlock Authentication

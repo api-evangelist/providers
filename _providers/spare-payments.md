@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 asyncapis:
@@ -73,32 +75,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/sparepayments
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spare-payments/refs/heads/main/changelog/spare-payments-changelog.yml
+  href: https://artifacts.apis.io/spare-payments/changelog/spare-payments-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/spare-payments-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spare-payments/refs/heads/main/asyncapi/spare-payments-webhooks.yml
+  href: https://artifacts.apis.io/spare-payments/asyncapi/spare-payments-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/spare-payments-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spare-payments/refs/heads/main/data-model/spare-payments-data-model.yml
+  href: https://artifacts.apis.io/spare-payments/data-model/spare-payments-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spare-payments-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spare-payments/refs/heads/main/conventions/spare-payments-conventions.yml
+  href: https://artifacts.apis.io/spare-payments/conventions/spare-payments-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spare-payments-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spare-payments/refs/heads/main/security/spare-payments-domain-security.yml
+  href: https://artifacts.apis.io/spare-payments/security/spare-payments-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spare-payments-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spare-payments/refs/heads/main/llms/spare-payments-llms.txt
+  href: https://artifacts.apis.io/spare-payments/llms/spare-payments-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spare-payments-llms.txt
@@ -117,12 +119,12 @@ overview: 'Spare Payments is profiled on the [APIs.io](https://apis.io/) network
 
 
   Spare Payments'' developer surface includes documentation, API reference, support, changelog, and 10 more developer resources.'
-random_paper: 13
+random_paper: 1
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 28.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -130,27 +132,27 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 13.1
-    discoverability: 55.4
-    operational_transparency: 26.3
-  previous_composite: 26.1
+    developer_ergonomics: 21.4
+    discoverability: 48.2
+    operational_transparency: 28.9
+  previous_composite: 28.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/spare-payments/refs/heads/main/screenshots/spare-payments-2026-09-02T160319.png
+screenshot: https://apis.io/screenshots/spare-payments/spare-payments-2026-09-02T160319.png
 security:
 - kind: domain-security
   name: Spare Payments Domain Security

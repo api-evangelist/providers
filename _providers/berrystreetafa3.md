@@ -14,36 +14,38 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/berrystreetafa3/refs/heads/main/vendors/berrystreetafa3-vendors.yml
+  href: https://artifacts.apis.io/berrystreetafa3/vendors/berrystreetafa3-vendors.yml
   title: ''
   type: Vendors
   url: vendors/berrystreetafa3-vendors.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/berrystreetafa3/refs/heads/main/llms/berrystreetafa3-llms.txt
+  href: https://artifacts.apis.io/berrystreetafa3/llms/berrystreetafa3-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/berrystreetafa3-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/berrystreetafa3/refs/heads/main/well-known/berrystreetafa3-well-known.yml
+  href: https://artifacts.apis.io/berrystreetafa3/well-known/berrystreetafa3-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/berrystreetafa3-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/berrystreetafa3/refs/heads/main/hosts/berrystreetafa3-hosts.yml
+  href: https://artifacts.apis.io/berrystreetafa3/hosts/berrystreetafa3-hosts.yml
   title: ''
   type: Hosts
   url: hosts/berrystreetafa3-hosts.yml
@@ -64,7 +66,7 @@ common:
   type: Documentation
   url: https://docs.berrystreet.co/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/berrystreetafa3/refs/heads/main/security/berrystreetafa3-domain-security.yml
+  href: https://artifacts.apis.io/berrystreetafa3/security/berrystreetafa3-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/berrystreetafa3-domain-security.yml
@@ -96,10 +98,10 @@ overview: 'Berrystreetafa3 is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Berrystreetafa3''s developer surface includes getting-started guide, documentation, engineering blog, and 8 more developer resources.'
-random_paper: 18
+random_paper: 22
 score:
   band: emerging
-  composite: 14.3
+  composite: 13.6
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -113,9 +115,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 14.3
+  previous_composite: 13.6
   provenance:
     mcp: unknown
   regulatory:
@@ -124,14 +126,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/berrystreetafa3/refs/heads/main/screenshots/berrystreetafa3-2026-10-11T101935.png
+screenshot: https://apis.io/screenshots/berrystreetafa3/berrystreetafa3-2026-10-11T101935.png
 security:
 - kind: domain-security
   name: Berrystreetafa3 Domain Security

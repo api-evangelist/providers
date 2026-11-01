@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 21.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 3
@@ -73,11 +75,8 @@ apis:
 - description: TENANT RELATIONSHIP, not a UIUC contract. Library discovery at Illinois runs on Ex Libris Primo — search.library.illinois.edu redirects into primo.exlibrisgroup.com/discovery with an Illinois view. Th
   name: University Library Discovery (Ex Libris Primo)
   slug: library-discovery
-artifact_total: 38
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rokwire Core Building Block Admin API
   slug: open-university-of-illinois-urbana-champaign-admin-api
@@ -120,7 +119,7 @@ common:
   type: License
   url: https://github.com/rokwire/core-building-block/blob/develop/LICENSE
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/capabilities/university-of-illinois-urbana-champaign-capability-edges.yml
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/capabilities/university-of-illinois-urbana-champaign-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/university-of-illinois-urbana-champaign-capability-edges.yml
@@ -213,82 +212,82 @@ common:
   type: Policies
   url: https://cio.illinois.edu/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/agentic-access/university-of-illinois-urbana-champaign-agentic-access.yml
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/agentic-access/university-of-illinois-urbana-champaign-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-illinois-urbana-champaign-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/security/university-of-illinois-urbana-champaign-domain-security.yml
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/security/university-of-illinois-urbana-champaign-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-illinois-urbana-champaign-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/authentication/university-of-illinois-urbana-champaign-authentication.yml
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/authentication/university-of-illinois-urbana-champaign-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-illinois-urbana-champaign-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/scopes/university-of-illinois-urbana-champaign-scopes.yml
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/scopes/university-of-illinois-urbana-champaign-scopes.yml
   title: ''
   type: Scopes
   url: scopes/university-of-illinois-urbana-champaign-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/errors/university-of-illinois-urbana-champaign-problem-types.yml
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/errors/university-of-illinois-urbana-champaign-problem-types.yml
   title: ''
   type: Errors
   url: errors/university-of-illinois-urbana-champaign-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/conformance/university-of-illinois-urbana-champaign-conformance.yml
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/conformance/university-of-illinois-urbana-champaign-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-illinois-urbana-champaign-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/lifecycle/university-of-illinois-urbana-champaign-lifecycle.yml
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/lifecycle/university-of-illinois-urbana-champaign-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/university-of-illinois-urbana-champaign-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/rules/university-of-illinois-urbana-champaign-rules.yml
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/rules/university-of-illinois-urbana-champaign-rules.yml
   title: ''
   type: Rules
   url: rules/university-of-illinois-urbana-champaign-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/vocabulary/university-of-illinois-urbana-champaign-vocabulary.yml
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/vocabulary/university-of-illinois-urbana-champaign-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/university-of-illinois-urbana-champaign-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/json-ld/university-of-illinois-urbana-champaign-context.jsonld
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/json-ld/university-of-illinois-urbana-champaign-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/university-of-illinois-urbana-champaign-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/json-schema/university-of-illinois-urbana-champaign-organization-schema.json
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/json-schema/university-of-illinois-urbana-champaign-organization-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/university-of-illinois-urbana-champaign-organization-schema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/examples/university-of-illinois-urbana-champaign-organization-example.json
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/examples/university-of-illinois-urbana-champaign-organization-example.json
   title: ''
   type: Examples
   url: examples/university-of-illinois-urbana-champaign-organization-example.json
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/plans/university-of-illinois-urbana-champaign-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/plans/university-of-illinois-urbana-champaign-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-illinois-urbana-champaign-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/rate-limits/university-of-illinois-urbana-champaign-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/rate-limits/university-of-illinois-urbana-champaign-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-illinois-urbana-champaign-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/finops/university-of-illinois-urbana-champaign-finops.yml
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/finops/university-of-illinois-urbana-champaign-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-illinois-urbana-champaign-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-illinois-urbana-champaign/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -349,7 +348,7 @@ plans:
 - name: University Of Illinois Urbana Champaign Plans Pricing
   plan_count: 2
   slug: university-of-illinois-urbana-champaign-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: University Of Illinois Urbana Champaign Rate Limits
@@ -384,7 +383,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.4
+  composite: 42.0
   coverage:
     artifact_dirs: 23
     catalog_earned: 50.5
@@ -392,14 +391,14 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 31.8
-    contract_quality: 58.7
+    contract_quality: 57.1
     developer_ergonomics: 35.7
     discoverability: 66.1
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -407,7 +406,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 42.9
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -422,13 +421,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/screenshots/university-of-illinois-urbana-champaign-2026-06-20T200155.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/university-of-illinois-urbana-champaign/university-of-illinois-urbana-champaign-2026-06-20T200155.png
 security:
 - kind: authentication
   name: University Of Illinois Urbana Champaign Authentication

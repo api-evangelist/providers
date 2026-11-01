@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,13 +38,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of the Deep Sentinel store. A live, anonymous Model Context Protocol endpoint exposing thirteen catalog, cart, checkout and order tools, implementing the Universal Co
   name: Deep Sentinel Store Commerce API (UCP over MCP)
   slug: deep-sentinel-store-commerce
-artifact_total: 6
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -89,67 +91,67 @@ common:
   type: PrivacyPolicy
   url: https://www.deepsentinel.com/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deep-sentinel/refs/heads/main/llms/deep-sentinel-llms.txt
+  href: https://artifacts.apis.io/deep-sentinel/llms/deep-sentinel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/deep-sentinel-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deep-sentinel/refs/heads/main/llms/deep-sentinel-shop-llms.txt
+  href: https://artifacts.apis.io/deep-sentinel/llms/deep-sentinel-shop-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/deep-sentinel-shop-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deep-sentinel/refs/heads/main/mcp/deep-sentinel-mcp.yml
+  href: https://artifacts.apis.io/deep-sentinel/mcp/deep-sentinel-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/deep-sentinel-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deep-sentinel/refs/heads/main/well-known/deep-sentinel-well-known.yml
+  href: https://artifacts.apis.io/deep-sentinel/well-known/deep-sentinel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/deep-sentinel-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deep-sentinel/refs/heads/main/authentication/deep-sentinel-authentication.yml
+  href: https://artifacts.apis.io/deep-sentinel/authentication/deep-sentinel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/deep-sentinel-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deep-sentinel/refs/heads/main/scopes/deep-sentinel-scopes.yml
+  href: https://artifacts.apis.io/deep-sentinel/scopes/deep-sentinel-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/deep-sentinel-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deep-sentinel/refs/heads/main/conventions/deep-sentinel-conventions.yml
+  href: https://artifacts.apis.io/deep-sentinel/conventions/deep-sentinel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/deep-sentinel-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deep-sentinel/refs/heads/main/lifecycle/deep-sentinel-lifecycle.yml
+  href: https://artifacts.apis.io/deep-sentinel/lifecycle/deep-sentinel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/deep-sentinel-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deep-sentinel/refs/heads/main/conformance/deep-sentinel-conformance.yml
+  href: https://artifacts.apis.io/deep-sentinel/conformance/deep-sentinel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/deep-sentinel-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deep-sentinel/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/deep-sentinel/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/deep-sentinel/refs/heads/main/plans/deep-sentinel-plans-pricing.yml
+  href: https://artifacts.apis.io/deep-sentinel/plans/deep-sentinel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/deep-sentinel-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/deep-sentinel/refs/heads/main/packages/deep-sentinel-packages.yml
+  href: https://artifacts.apis.io/deep-sentinel/packages/deep-sentinel-packages.yml
   title: ''
   type: Packages
   url: packages/deep-sentinel-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deep-sentinel/refs/heads/main/security/deep-sentinel-domain-security.yml
+  href: https://artifacts.apis.io/deep-sentinel/security/deep-sentinel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/deep-sentinel-domain-security.yml
@@ -181,8 +183,8 @@ scopes:
   slug: deep-sentinel-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 25.0
+  band: thin
+  composite: 33.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 49.0
@@ -190,15 +192,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.2
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 24.9
+    developer_ergonomics: 30.4
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 33.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -208,15 +210,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 31.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/deep-sentinel/refs/heads/main/screenshots/deep-sentinel-2026-09-02T145229.png
+screenshot: https://apis.io/screenshots/deep-sentinel/deep-sentinel-2026-09-02T145229.png
 security:
 - kind: authentication
   name: Deep Sentinel Authentication
@@ -226,6 +228,12 @@ security:
   name: Deep Sentinel Domain Security
   slug: deep-sentinel-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Answer Deep Sentinel store and policy questions
+  slug: deep-sentinel-answer-store-questions
+- name: Buy a Deep Sentinel camera pack
+  slug: deep-sentinel-buy-camera-pack
 slug: deep-sentinel
 tags:
 - Company

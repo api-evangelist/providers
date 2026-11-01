@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 asyncapis:
@@ -85,17 +87,17 @@ common:
   type: Compliance
   url: https://home.paynearme.com/data-security/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paynearme/refs/heads/main/conformance/paynearme-conformance.yml
+  href: https://artifacts.apis.io/paynearme/conformance/paynearme-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paynearme-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paynearme/refs/heads/main/asyncapi/paynearme-callbacks-webhooks.yml
+  href: https://artifacts.apis.io/paynearme/asyncapi/paynearme-callbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/paynearme-callbacks-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paynearme/refs/heads/main/security/paynearme-domain-security.yml
+  href: https://artifacts.apis.io/paynearme/security/paynearme-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paynearme-domain-security.yml
@@ -114,10 +116,10 @@ overview: 'PayNearMe is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   PayNearMe''s developer surface includes documentation, support, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
   band: thin
-  composite: 31.2
+  composite: 31.6
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -132,8 +134,8 @@ score:
     contract_quality: 39.0
     developer_ergonomics: 16.7
     discoverability: 48.2
-    operational_transparency: 10.5
-  previous_composite: 31.2
+    operational_transparency: 13.2
+  previous_composite: 31.6
   provenance:
     conformance: first-party
   regulatory:
@@ -142,14 +144,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/paynearme/refs/heads/main/screenshots/paynearme-2026-08-07T191652.png
+screenshot: https://apis.io/screenshots/paynearme/paynearme-2026-08-07T191652.png
 security:
 - kind: domain-security
   name: Paynearme Domain Security
@@ -162,7 +164,7 @@ tags:
 - Payments
 - Billing
 - ACH
-- Cash Payments
+- Cash
 - Digital Wallet
 - Lending
 - iGaming

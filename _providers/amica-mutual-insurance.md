@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Amica Mutual Insurance provides a full range of personal insurance products including auto, home, life, condo, renters, marine, motorcycle, umbrella, and flood insurance. The company does not currentl
@@ -42,7 +44,7 @@ apis:
 artifact_total: 23
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amica-mutual-insurance/refs/heads/main/finops/amica-mutual-insurance-finops.yml
+  href: https://artifacts.apis.io/amica-mutual-insurance/finops/amica-mutual-insurance-finops.yml
   title: ''
   type: FinOps
   url: finops/amica-mutual-insurance-finops.yml
@@ -51,32 +53,32 @@ common:
   type: Website
   url: https://www.amica.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amica-mutual-insurance/refs/heads/main/security/amica-mutual-insurance-domain-security.yml
+  href: https://artifacts.apis.io/amica-mutual-insurance/security/amica-mutual-insurance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amica-mutual-insurance-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amica-mutual-insurance/refs/heads/main/llms/amica-mutual-insurance-llms.txt
+  href: https://artifacts.apis.io/amica-mutual-insurance/llms/amica-mutual-insurance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amica-mutual-insurance-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amica-mutual-insurance/refs/heads/main/conformance/amica-mutual-insurance-conformance.yml
+  href: https://artifacts.apis.io/amica-mutual-insurance/conformance/amica-mutual-insurance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amica-mutual-insurance-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amica-mutual-insurance/refs/heads/main/packages/amica-mutual-insurance-packages.yml
+  href: https://artifacts.apis.io/amica-mutual-insurance/packages/amica-mutual-insurance-packages.yml
   title: ''
   type: Packages
   url: packages/amica-mutual-insurance-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amica-mutual-insurance/refs/heads/main/rate-limits/amica-mutual-insurance-rate-limits.yml
+  href: https://artifacts.apis.io/amica-mutual-insurance/rate-limits/amica-mutual-insurance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amica-mutual-insurance-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amica-mutual-insurance/refs/heads/main/plans/amica-mutual-insurance-plans-pricing.yml
+  href: https://artifacts.apis.io/amica-mutual-insurance/plans/amica-mutual-insurance-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amica-mutual-insurance-plans-pricing.yml
@@ -194,14 +196,14 @@ press:
 - date: ''
   title: Amica Mutual Insurance Expands Partnership With ZestyAI ...
   url: https://www.prnewswire.com/news-releases/amica-mutual-insurance-expands-partnership-with-zestyai-to-enhance-property-risk-assessment-in-the-face-of-increasing-climate-risks-302208765.html
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Amica Mutual Insurance Rate Limits
   slug: amica-mutual-insurance-rate-limits
 score:
   band: emerging
-  composite: 15.8
+  composite: 16.8
   coverage:
     artifact_dirs: 14
     catalog_earned: 32.0
@@ -209,15 +211,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 64.3
-    operational_transparency: 2.6
-  previous_composite: 17.4
+    discoverability: 57.1
+    operational_transparency: 5.3
+  previous_composite: 16.8
   provenance:
     conformance: derived
   regulatory:
@@ -226,14 +228,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/amica-mutual-insurance/refs/heads/main/screenshots/amica-mutual-insurance-2026-06-20T171928.png
+screenshot: https://apis.io/screenshots/amica-mutual-insurance/amica-mutual-insurance-2026-06-20T171928.png
 security:
 - kind: domain-security
   name: Amica Mutual Insurance Domain Security

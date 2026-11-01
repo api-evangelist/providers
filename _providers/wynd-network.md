@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wynd-network/refs/heads/main/security/wynd-network-domain-security.yml
+  href: https://artifacts.apis.io/wynd-network/security/wynd-network-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wynd-network-domain-security.yml
@@ -82,17 +84,17 @@ common:
   type: PrivacyPolicy
   url: https://www.grass.io/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wynd-network/refs/heads/main/llms/wynd-network-llms.txt
+  href: https://artifacts.apis.io/wynd-network/llms/wynd-network-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wynd-network-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wynd-network/refs/heads/main/packages/wynd-network-packages.yml
+  href: https://artifacts.apis.io/wynd-network/packages/wynd-network-packages.yml
   title: ''
   type: Packages
   url: packages/wynd-network-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wynd-network/refs/heads/main/components/wynd-network-components.yml
+  href: https://artifacts.apis.io/wynd-network/components/wynd-network-components.yml
   title: ''
   type: Components
   url: components/wynd-network-components.yml
@@ -108,10 +110,10 @@ overview: 'Wynd Network is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Wynd Network''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 19
+random_paper: 1
 score:
   band: emerging
-  composite: 18.2
+  composite: 17.9
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -125,23 +127,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 18.2
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 17.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wynd-network/refs/heads/main/screenshots/wynd-network-2026-09-02T171030.png
+screenshot: https://apis.io/screenshots/wynd-network/wynd-network-2026-09-02T171030.png
 security:
 - kind: domain-security
   name: Wynd Network Domain Security

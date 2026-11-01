@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-17'
+  score: 23.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -101,47 +103,47 @@ apis:
 artifact_total: 30
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/agentic-access/api-data-gov-agentic-access.yml
+  href: https://artifacts.apis.io/api-data-gov/agentic-access/api-data-gov-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/api-data-gov-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/rules/api-data-gov-rules.yml
+  href: https://artifacts.apis.io/api-data-gov/rules/api-data-gov-rules.yml
   title: ''
   type: Spectral
   url: rules/api-data-gov-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/json-ld/api-data-gov-context.jsonld
+  href: https://artifacts.apis.io/api-data-gov/json-ld/api-data-gov-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/api-data-gov-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/vocabulary/api-data-gov-vocabulary.yml
+  href: https://artifacts.apis.io/api-data-gov/vocabulary/api-data-gov-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/api-data-gov-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/data-model/api-data-gov-data-model.yml
+  href: https://artifacts.apis.io/api-data-gov/data-model/api-data-gov-data-model.yml
   title: ''
   type: DataModel
   url: data-model/api-data-gov-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/errors/api-data-gov-problem-types.yml
+  href: https://artifacts.apis.io/api-data-gov/errors/api-data-gov-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/api-data-gov-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/conformance/api-data-gov-conformance.yml
+  href: https://artifacts.apis.io/api-data-gov/conformance/api-data-gov-conformance.yml
   title: ''
   type: Conformance
   url: conformance/api-data-gov-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/hosts/api-data-gov-hosts.yml
+  href: https://artifacts.apis.io/api-data-gov/hosts/api-data-gov-hosts.yml
   title: ''
   type: Hosts
   url: hosts/api-data-gov-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/vendors/api-data-gov-vendors.yml
+  href: https://artifacts.apis.io/api-data-gov/vendors/api-data-gov-vendors.yml
   title: ''
   type: Vendors
   url: vendors/api-data-gov-vendors.yml
@@ -154,7 +156,7 @@ common:
   type: DeveloperPortal
   url: http://api.agency.gov
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/security/api-data-gov-domain-security.yml
+  href: https://artifacts.apis.io/api-data-gov/security/api-data-gov-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/api-data-gov-domain-security.yml
@@ -238,7 +240,7 @@ overview: 'api.data.gov publishes 13 API contracts indexed on the [APIs.io](http
 
 
   api.data.gov''s developer surface includes signup flow, documentation, API reference, support, and 14 more developer resources.'
-random_paper: 2
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Api Data Gov Rate Limits
@@ -260,12 +262,13 @@ score:
   band: thin
   composite: 30.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 55.8
     catalog_earned_first_party: 0.0
     catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 22.0
@@ -273,6 +276,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 53.6
     operational_transparency: 0.0
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,12 +292,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Api Data Gov Domain Security

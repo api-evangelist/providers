@@ -14,41 +14,43 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.4
-  scored_at: '2026-10-17'
+  score: 17.5
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis123/refs/heads/main/llms/chainalysis123-llms.txt
+  href: https://artifacts.apis.io/chainalysis123/llms/chainalysis123-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chainalysis123-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis123/refs/heads/main/well-known/chainalysis123-status-security.txt
+  href: https://artifacts.apis.io/chainalysis123/well-known/chainalysis123-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/chainalysis123-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis123/refs/heads/main/well-known/chainalysis123-well-known.yml
+  href: https://artifacts.apis.io/chainalysis123/well-known/chainalysis123-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/chainalysis123-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis123/refs/heads/main/hosts/chainalysis123-hosts.yml
+  href: https://artifacts.apis.io/chainalysis123/hosts/chainalysis123-hosts.yml
   title: ''
   type: Hosts
   url: hosts/chainalysis123-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis123/refs/heads/main/vendors/chainalysis123-vendors.yml
+  href: https://artifacts.apis.io/chainalysis123/vendors/chainalysis123-vendors.yml
   title: ''
   type: Vendors
   url: vendors/chainalysis123-vendors.yml
@@ -69,7 +71,7 @@ common:
   type: Blog
   url: https://www.chainalysis.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis123/refs/heads/main/security/chainalysis123-domain-security.yml
+  href: https://artifacts.apis.io/chainalysis123/security/chainalysis123-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chainalysis123-domain-security.yml
@@ -93,14 +95,14 @@ modified: '2026-10-07'
 name: Chainalysis123
 nav: Providers
 network: true
-overview: 'Chainalysis123 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include blockchain analytics, crypto compliance, investigations, financial institutions, and law enforcement.
+overview: 'Chainalysis123 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain Analytics, crypto compliance, Investigations, Financial Institutions, and Law Enforcement.
 
 
   Chainalysis123''s developer surface includes engineering blog and 10 more developer resources.'
 random_paper: 6
 score:
   band: minimal
-  composite: 9.5
+  composite: 10.1
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -108,13 +110,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 57.1
-    operational_transparency: 15.8
+    discoverability: 50.0
+    operational_transparency: 26.3
+  previous_composite: 10.1
   provenance:
     mcp: unknown
   regulatory:
@@ -123,8 +127,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 14.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -136,13 +141,13 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: chainalysis123
 tags:
-- blockchain analytics
+- Blockchain Analytics
 - crypto compliance
-- investigations
-- financial institutions
-- law enforcement
+- Investigations
+- Financial Institutions
+- Law Enforcement
 - Exchange
 - Security
-- data solutions
+- Data Solutions
 website: https://www.chainalysis.com
 ---

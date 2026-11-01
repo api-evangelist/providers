@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 collections:
@@ -43,27 +45,27 @@ collections:
   slug: open-defense-finance-accounting-service
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/defense-finance-accounting-service/refs/heads/main/plans/defense-finance-accounting-service-plans-pricing.yml
+  href: https://artifacts.apis.io/defense-finance-accounting-service/plans/defense-finance-accounting-service-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/defense-finance-accounting-service-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/defense-finance-accounting-service/refs/heads/main/rate-limits/defense-finance-accounting-service-rate-limits.yml
+  href: https://artifacts.apis.io/defense-finance-accounting-service/rate-limits/defense-finance-accounting-service-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/defense-finance-accounting-service-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/defense-finance-accounting-service/refs/heads/main/finops/defense-finance-accounting-service-finops.yml
+  href: https://artifacts.apis.io/defense-finance-accounting-service/finops/defense-finance-accounting-service-finops.yml
   title: ''
   type: FinOps
   url: finops/defense-finance-accounting-service-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/defense-finance-accounting-service/refs/heads/main/security/defense-finance-accounting-service-domain-security.yml
+  href: https://artifacts.apis.io/defense-finance-accounting-service/security/defense-finance-accounting-service-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/defense-finance-accounting-service-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/defense-finance-accounting-service/refs/heads/main/llms/defense-finance-accounting-service-llms.txt
+  href: https://artifacts.apis.io/defense-finance-accounting-service/llms/defense-finance-accounting-service-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/defense-finance-accounting-service-llms.txt
@@ -108,7 +110,7 @@ plans:
 - name: Defense Finance Accounting Service Plans Pricing
   plan_count: 0
   slug: defense-finance-accounting-service-plans-pricing
-random_paper: 21
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Defense Finance Accounting Service Rate Limits
@@ -123,7 +125,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -136,21 +138,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 5.3
+  previous_composite: 3.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/defense-finance-accounting-service/refs/heads/main/screenshots/defense-finance-accounting-service-2026-06-20T175832.png
+screenshot: https://apis.io/screenshots/defense-finance-accounting-service/defense-finance-accounting-service-2026-06-20T175832.png
 security:
 - kind: domain-security
   name: Defense Finance Accounting Service Domain Security

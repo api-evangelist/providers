@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - baseURL: https://mainnet-indexer.sequence.app
@@ -63,15 +65,12 @@ apis:
   description: Endpoints that require a Sequence service token intended to be secret. You can manually generate one on Sequence Builder and pass it as a Bearer Token.
   name: Sequence Secret API
   slug: sequence-secret-api
-artifact_total: 14
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Sequence Indexer Webhooks
   slug: sequence-indexer-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Api Analytics API
   slug: open-sequence-analytics-api
@@ -89,7 +88,7 @@ collections:
   slug: open-sequence-secret-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/overlays/sequence-analytics-overlay.yaml
+  href: https://artifacts.apis.io/sequence/overlays/sequence-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sequence-analytics-overlay.yaml
@@ -134,97 +133,97 @@ common:
   type: Pricing
   url: https://sequence.xyz/pricing
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/lifecycle/sequence-lifecycle.yml
+  href: https://artifacts.apis.io/sequence/lifecycle/sequence-lifecycle.yml
   title: ''
   type: StatusPage
   url: lifecycle/sequence-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/changelog/sequence-changelog.yml
+  href: https://artifacts.apis.io/sequence/changelog/sequence-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sequence-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/packages/sequence-packages.yml
+  href: https://artifacts.apis.io/sequence/packages/sequence-packages.yml
   title: ''
   type: Packages
   url: packages/sequence-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/packages/sequence-packages.yml
+  href: https://artifacts.apis.io/sequence/packages/sequence-packages.yml
   title: ''
   type: SDKs
   url: packages/sequence-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/cli/sequence-cli.yml
+  href: https://artifacts.apis.io/sequence/cli/sequence-cli.yml
   title: ''
   type: CLI
   url: cli/sequence-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/components/sequence-components.yml
+  href: https://artifacts.apis.io/sequence/components/sequence-components.yml
   title: ''
   type: Components
   url: components/sequence-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/llms/sequence-llms.txt
+  href: https://artifacts.apis.io/sequence/llms/sequence-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sequence-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/mcp/sequence-mcp.yml
+  href: https://artifacts.apis.io/sequence/mcp/sequence-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sequence-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/well-known/sequence-well-known.yml
+  href: https://artifacts.apis.io/sequence/well-known/sequence-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sequence-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/authentication/sequence-authentication.yml
+  href: https://artifacts.apis.io/sequence/authentication/sequence-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sequence-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/security/sequence-domain-security.yml
+  href: https://artifacts.apis.io/sequence/security/sequence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sequence-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/conventions/sequence-conventions.yml
+  href: https://artifacts.apis.io/sequence/conventions/sequence-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sequence-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/errors/sequence-problem-types.yml
+  href: https://artifacts.apis.io/sequence/errors/sequence-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sequence-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/conformance/sequence-conformance.yml
+  href: https://artifacts.apis.io/sequence/conformance/sequence-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sequence-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/lifecycle/sequence-lifecycle.yml
+  href: https://artifacts.apis.io/sequence/lifecycle/sequence-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sequence-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/data-model/sequence-data-model.yml
+  href: https://artifacts.apis.io/sequence/data-model/sequence-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sequence-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/sandbox/sequence-sandbox.yml
+  href: https://artifacts.apis.io/sequence/sandbox/sequence-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sequence-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/asyncapi/sequence-indexer-webhooks.yml
+  href: https://artifacts.apis.io/sequence/asyncapi/sequence-indexer-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sequence-indexer-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sequence/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -243,10 +242,10 @@ overview: 'Sequence publishes 5 API contracts indexed on the [APIs.io](https://a
 
 
   Sequence''s developer surface includes documentation, API reference, signup flow, support, engineering blog, pricing, changelog, and 23 more developer resources.'
-random_paper: 21
+random_paper: 17
 score:
   band: developing
-  composite: 39.8
+  composite: 44.7
   coverage:
     artifact_dirs: 23
     catalog_earned: 40.0
@@ -256,13 +255,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 53.7
-    developer_ergonomics: 58.9
-    discoverability: 78.6
-    operational_transparency: 42.1
-  previous_composite: 39.8
+    developer_ergonomics: 68.5
+    discoverability: 71.4
+    operational_transparency: 44.7
+  previous_composite: 44.7
   provenance:
     conformance: derived
     contracts:
@@ -278,13 +277,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/screenshots/sequence-2026-08-17T081813.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sequence/sequence-2026-08-17T081813.png
 security:
 - kind: authentication
   name: Sequence Authentication
@@ -294,6 +294,12 @@ security:
   name: Sequence Domain Security
   slug: sequence-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: sequence-read-token-balances
+  slug: sequence-read-token-balances
+- name: sequence-watch-onchain-events
+  slug: sequence-watch-onchain-events
 slug: sequence
 tags:
 - Company

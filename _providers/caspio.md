@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-10-17'
+  score: 40.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -83,11 +85,8 @@ apis:
   description: View record operations
   name: Caspio Views API
   slug: caspio-views-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Caspio REST Applications API
   slug: open-caspio-applications-api
@@ -114,27 +113,27 @@ collections:
   slug: open-caspio
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/capabilities/caspio-capability-edges.yml
+  href: https://artifacts.apis.io/caspio/capabilities/caspio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/caspio-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/agentic-access/caspio-agentic-access.yml
+  href: https://artifacts.apis.io/caspio/agentic-access/caspio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/caspio-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/security/caspio-trust-center.yml
+  href: https://artifacts.apis.io/caspio/security/caspio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/caspio-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/security/caspio-domain-security.yml
+  href: https://artifacts.apis.io/caspio/security/caspio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/caspio-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/authentication/caspio-authentication.yml
+  href: https://artifacts.apis.io/caspio/authentication/caspio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/caspio-authentication.yml
@@ -182,10 +181,10 @@ overview: 'Caspio publishes 8 API contracts indexed on the [APIs.io](https://api
 
 
   Caspio''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 1
+random_paper: 15
 score:
-  band: thin
-  composite: 33.1
+  band: emerging
+  composite: 21.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -193,15 +192,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 49.1
+    contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 33.0
+  previous_composite: 21.3
   provenance:
     agentic_access: derived
     contracts:
@@ -216,13 +215,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/screenshots/caspio-2026-06-20T174035.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/caspio/caspio-2026-06-20T174035.png
 security:
 - kind: authentication
   name: Caspio Authentication

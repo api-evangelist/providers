@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: An unauthenticated, read-only JSON endpoint published on Immunefi's own domain that returns the complete catalog of bug bounty programs listed on the platform. Each record carries the project name and
@@ -48,7 +50,7 @@ asyncapis:
   slug: immunefi-webhooks
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/rate-limits/immunefi-rate-limits.yml
+  href: https://artifacts.apis.io/immunefi/rate-limits/immunefi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/immunefi-rate-limits.yml
@@ -89,47 +91,47 @@ common:
   type: Security
   url: https://immunefi.com/bug-bounty/immunefi/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/security/immunefi-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/immunefi/security/immunefi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/immunefi-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/security/immunefi-domain-security.yml
+  href: https://artifacts.apis.io/immunefi/security/immunefi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/immunefi-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/asyncapi/immunefi-webhooks.yml
+  href: https://artifacts.apis.io/immunefi/asyncapi/immunefi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/immunefi-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/conformance/immunefi-conformance.yml
+  href: https://artifacts.apis.io/immunefi/conformance/immunefi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/immunefi-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/conventions/immunefi-conventions.yml
+  href: https://artifacts.apis.io/immunefi/conventions/immunefi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/immunefi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/lifecycle/immunefi-lifecycle.yml
+  href: https://artifacts.apis.io/immunefi/lifecycle/immunefi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/immunefi-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/packages/immunefi-packages.yml
+  href: https://artifacts.apis.io/immunefi/packages/immunefi-packages.yml
   title: ''
   type: Packages
   url: packages/immunefi-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/plans/immunefi-plans-pricing.yml
+  href: https://artifacts.apis.io/immunefi/plans/immunefi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/immunefi-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/llms/immunefi-llms.txt
+  href: https://artifacts.apis.io/immunefi/llms/immunefi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/immunefi-llms.txt
@@ -156,14 +158,14 @@ plans:
 - name: Immunefi Plans Pricing
   plan_count: 0
   slug: immunefi-plans-pricing
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Immunefi Rate Limits
   slug: immunefi-rate-limits
 score:
   band: thin
-  composite: 34.2
+  composite: 34.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -171,15 +173,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 45.3
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 34.1
+    operational_transparency: 23.7
+  previous_composite: 34.5
   provenance:
     conformance: derived
     mcp: derived
@@ -189,14 +191,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/immunefi/refs/heads/main/screenshots/immunefi-2026-09-02T145845.png
+screenshot: https://apis.io/screenshots/immunefi/immunefi-2026-09-02T145845.png
 security:
 - kind: authentication
   name: Immunefi Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Universal Commerce Protocol shopping service exposed over MCP — search the catalog, build a cart, and run a buyer-approved checkout.
@@ -42,7 +44,7 @@ apis:
 - description: Read-only Shopify Storefront JSON for products, collections, and search — no authentication required.
   name: Modcloth Storefront JSON (read-only)
   slug: modcloth-storefront-json-read-only
-artifact_total: 6
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -53,52 +55,52 @@ common:
   type: Documentation
   url: https://modcloth.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modcloth/refs/heads/main/mcp/modcloth-mcp.yml
+  href: https://artifacts.apis.io/modcloth/mcp/modcloth-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/modcloth-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modcloth/refs/heads/main/skills/modcloth-agentic-shopping.md
+  href: https://artifacts.apis.io/modcloth/skills/modcloth-agentic-shopping.md
   title: ''
   type: AgentSkill
   url: skills/modcloth-agentic-shopping.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modcloth/refs/heads/main/llms/modcloth-llms.txt
+  href: https://artifacts.apis.io/modcloth/llms/modcloth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/modcloth-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modcloth/refs/heads/main/well-known/modcloth-well-known.yml
+  href: https://artifacts.apis.io/modcloth/well-known/modcloth-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/modcloth-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modcloth/refs/heads/main/authentication/modcloth-authentication.yml
+  href: https://artifacts.apis.io/modcloth/authentication/modcloth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/modcloth-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modcloth/refs/heads/main/scopes/modcloth-scopes.yml
+  href: https://artifacts.apis.io/modcloth/scopes/modcloth-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/modcloth-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modcloth/refs/heads/main/conventions/modcloth-conventions.yml
+  href: https://artifacts.apis.io/modcloth/conventions/modcloth-conventions.yml
   title: ''
   type: Conventions
   url: conventions/modcloth-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modcloth/refs/heads/main/conformance/modcloth-conformance.yml
+  href: https://artifacts.apis.io/modcloth/conformance/modcloth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/modcloth-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modcloth/refs/heads/main/lifecycle/modcloth-lifecycle.yml
+  href: https://artifacts.apis.io/modcloth/lifecycle/modcloth-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/modcloth-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modcloth/refs/heads/main/security/modcloth-domain-security.yml
+  href: https://artifacts.apis.io/modcloth/security/modcloth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/modcloth-domain-security.yml
@@ -130,7 +132,7 @@ overview: 'Modcloth is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Modcloth''s developer surface includes documentation, authentication, and 13 more developer resources.'
-random_paper: 0
+random_paper: 18
 scopes:
 - name: Modcloth Scopes
   scope_count: 4
@@ -138,7 +140,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.9
+  composite: 22.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 32.0
@@ -146,15 +148,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 23.2
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 21.8
+  previous_composite: 22.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -165,14 +167,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/modcloth/refs/heads/main/screenshots/modcloth-2026-08-07T183919.png
+screenshot: https://apis.io/screenshots/modcloth/modcloth-2026-08-07T183919.png
 security:
 - kind: authentication
   name: Modcloth Authentication
@@ -182,6 +184,10 @@ security:
   name: Modcloth Domain Security
   slug: modcloth-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Shop Modcloth as an agent (UCP)
+  slug: modcloth-agentic-shopping
 slug: modcloth
 tags:
 - Company

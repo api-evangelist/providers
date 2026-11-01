@@ -26,15 +26,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
-api_count: 3
+  score: 17.9
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - baseURL: https://validator.nymtech.net/api
   baseurl_source: declared
@@ -151,11 +153,8 @@ apis:
   description: The Utility API from Nym Technologies — 4 operation(s) for utility.
   name: Nym Technologies Utility API
   slug: nym-technologies-utility-api
-artifact_total: 51
+artifact_total: 52
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Node Status API Status API
   slug: open-nym-technologies-api-status-api
@@ -227,7 +226,12 @@ collections:
   slug: open-nym-technologies-utility-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/overlays/nym-technologies-nym-api-overlay.yaml
+  href: https://artifacts.apis.io/nym-technologies/capabilities/nym-technologies-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nym-technologies-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/nym-technologies/overlays/nym-technologies-nym-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nym-technologies-nym-api-overlay.yaml
@@ -304,82 +308,82 @@ common:
   type: Security
   url: https://nym.com/vdp-bbp
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/security/nym-technologies-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nym-technologies/security/nym-technologies-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nym-technologies-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/security/nym-technologies-domain-security.yml
+  href: https://artifacts.apis.io/nym-technologies/security/nym-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nym-technologies-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/packages/nym-technologies-packages.yml
+  href: https://artifacts.apis.io/nym-technologies/packages/nym-technologies-packages.yml
   title: ''
   type: Packages
   url: packages/nym-technologies-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/packages/nym-technologies-packages.yml
+  href: https://artifacts.apis.io/nym-technologies/packages/nym-technologies-packages.yml
   title: ''
   type: SDKs
   url: packages/nym-technologies-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/authentication/nym-technologies-authentication.yml
+  href: https://artifacts.apis.io/nym-technologies/authentication/nym-technologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nym-technologies-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/conventions/nym-technologies-conventions.yml
+  href: https://artifacts.apis.io/nym-technologies/conventions/nym-technologies-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nym-technologies-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/errors/nym-technologies-problem-types.yml
+  href: https://artifacts.apis.io/nym-technologies/errors/nym-technologies-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nym-technologies-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/lifecycle/nym-technologies-lifecycle.yml
+  href: https://artifacts.apis.io/nym-technologies/lifecycle/nym-technologies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nym-technologies-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/lifecycle/nym-technologies-lifecycle.yml
+  href: https://artifacts.apis.io/nym-technologies/lifecycle/nym-technologies-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/nym-technologies-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/conformance/nym-technologies-conformance.yml
+  href: https://artifacts.apis.io/nym-technologies/conformance/nym-technologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nym-technologies-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/changelog/nym-technologies-changelog.yml
+  href: https://artifacts.apis.io/nym-technologies/changelog/nym-technologies-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nym-technologies-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/data-model/nym-technologies-data-model.yml
+  href: https://artifacts.apis.io/nym-technologies/data-model/nym-technologies-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nym-technologies-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/mcp/nym-technologies-mcp.yml
+  href: https://artifacts.apis.io/nym-technologies/mcp/nym-technologies-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/nym-technologies-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/llms/nym-technologies-llms.txt
+  href: https://artifacts.apis.io/nym-technologies/llms/nym-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nym-technologies-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/well-known/nym-technologies-well-known.yml
+  href: https://artifacts.apis.io/nym-technologies/well-known/nym-technologies-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/nym-technologies-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nym-technologies/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -394,27 +398,27 @@ network: true
 overview: 'Nym Technologies publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Status API, Circulating Supply API, Contract Cache API, and 20 more. Tagged areas include Company, Privacy, VPN, Mixnet, and Cryptography.
 
 
-  Nym Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 28 more developer resources.'
-random_paper: 19
+  Nym Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 29 more developer resources.'
+random_paper: 13
 score:
   band: developing
-  composite: 52.0
+  composite: 52.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 40.0
+    artifact_dirs: 23
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.7
+  delta: -0.6
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 36.3
     developer_ergonomics: 66.1
-    discoverability: 78.6
-    operational_transparency: 52.6
-  previous_composite: 51.3
+    discoverability: 66.1
+    operational_transparency: 60.5
+  previous_composite: 53.0
   provenance:
     conformance: derived
     contracts:
@@ -434,13 +438,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/screenshots/nym-technologies-2026-08-07T185831.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nym-technologies/nym-technologies-2026-08-07T185831.png
 security:
 - kind: authentication
   name: Nym Technologies Authentication
@@ -458,6 +463,12 @@ security:
   name: Nym Technologies Trust Center
   slug: nym-technologies-trust-center
   summary_line: GDPR
+skill_count: 2
+skills:
+- name: Explore Nym nodes and families
+  slug: nym-technologies-explore-nym-nodes
+- name: Query Nym network status
+  slug: nym-technologies-query-network-status
 slug: nym-technologies
 tags:
 - Company

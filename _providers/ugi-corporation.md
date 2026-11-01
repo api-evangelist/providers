@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ugi-corporation/refs/heads/main/security/ugi-corporation-domain-security.yml
+  href: https://artifacts.apis.io/ugi-corporation/security/ugi-corporation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ugi-corporation-domain-security.yml
@@ -98,7 +100,7 @@ name: UGI
 nav: Providers
 network: true
 overview: UGI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utility, Natural Gas, Electric, and Propane.
-random_paper: 8
+random_paper: 10
 score:
   band: minimal
   composite: 3.6
@@ -131,8 +133,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

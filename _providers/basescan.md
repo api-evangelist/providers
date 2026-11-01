@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 26.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -95,11 +97,8 @@ apis:
   description: The Transactions API from Basescan — 2 operation(s) for transactions.
   name: Basescan Transactions API
   slug: basescan-transactions-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Basescan Accounts API
   slug: open-basescan-accounts-api
@@ -132,12 +131,12 @@ collections:
   slug: open-basescan-transactions-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/basescan/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/basescan/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -146,17 +145,17 @@ common:
   type: Website
   url: https://basescan.org
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/agentic-access/basescan-agentic-access.yml
+  href: https://artifacts.apis.io/basescan/agentic-access/basescan-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/basescan-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/security/basescan-domain-security.yml
+  href: https://artifacts.apis.io/basescan/security/basescan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/basescan-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/authentication/basescan-authentication.yml
+  href: https://artifacts.apis.io/basescan/authentication/basescan-authentication.yml
   title: ''
   type: Authentication
   url: authentication/basescan-authentication.yml
@@ -205,7 +204,7 @@ modified: '2026-09-16'
 name: Basescan
 nav: Providers
 network: true
-overview: 'Basescan publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, API PRO Endpoints API, Blocks API, and 7 more. Tagged areas include Blockchain, Base, L2, Explorer, and Ethereum.
+overview: 'Basescan publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, API PRO Endpoints API, Blocks API, and 7 more. Tagged areas include Blockchain, Base, Layer 2, Explorer, and Ethereum.
 
 
   The Basescan catalog on APIs.io includes 1 JSON-LD context.
@@ -216,14 +215,14 @@ plans:
 - name: Plans
   plan_count: 7
   slug: plans
-random_paper: 18
+random_paper: 16
 rate_limits:
 - limit_count: 7
   name: Rate Limits
   slug: rate-limits
 score:
   band: thin
-  composite: 34.4
+  composite: 38.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 48.0
@@ -231,15 +230,15 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 52.4
-    developer_ergonomics: 19.0
+    developer_ergonomics: 28.6
     discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 42.7
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -253,13 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/screenshots/basescan-2026-08-17T122729.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/basescan/basescan-2026-08-17T122729.png
 security:
 - kind: authentication
   name: Basescan Authentication
@@ -273,7 +273,7 @@ slug: basescan
 tags:
 - Blockchain
 - Base
-- L2
+- Layer 2
 - Explorer
 - Ethereum
 - EVM

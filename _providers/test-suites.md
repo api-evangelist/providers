@@ -4,6 +4,6 @@ layout: provider
 name: test-suites
 nav: Providers
 network: true
-random_paper: 18
+random_paper: 10
 slug: test-suites
 ---

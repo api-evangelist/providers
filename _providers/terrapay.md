@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GSMA Mobile Money API profile for account validation, FX quotations, and multi-rail money movement (wallet/bank/card) across international corridors.
@@ -68,62 +70,62 @@ common:
   type: GettingStarted
   url: https://developers.terrapay.com/getStarted.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/heads/main/authentication/terrapay-authentication.yml
+  href: https://artifacts.apis.io/terrapay/authentication/terrapay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/terrapay-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/heads/main/conventions/terrapay-conventions.yml
+  href: https://artifacts.apis.io/terrapay/conventions/terrapay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/terrapay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/heads/main/conventions/terrapay-conventions.yml
+  href: https://artifacts.apis.io/terrapay/conventions/terrapay-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/terrapay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/heads/main/errors/terrapay-problem-types.yml
+  href: https://artifacts.apis.io/terrapay/errors/terrapay-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/terrapay-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/heads/main/conformance/terrapay-conformance.yml
+  href: https://artifacts.apis.io/terrapay/conformance/terrapay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/terrapay-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/heads/main/lifecycle/terrapay-lifecycle.yml
+  href: https://artifacts.apis.io/terrapay/lifecycle/terrapay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/terrapay-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/heads/main/mcp/terrapay-mcp.yml
+  href: https://artifacts.apis.io/terrapay/mcp/terrapay-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/terrapay-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/heads/main/llms/terrapay-llms.txt
+  href: https://artifacts.apis.io/terrapay/llms/terrapay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/terrapay-llms.txt
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/heads/main/sandbox/terrapay-sandbox.yml
+  href: https://artifacts.apis.io/terrapay/sandbox/terrapay-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/terrapay-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/heads/main/asyncapi/terrapay-notifications-webhooks.yml
+  href: https://artifacts.apis.io/terrapay/asyncapi/terrapay-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/terrapay-notifications-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/heads/main/data-model/terrapay-data-model.yml
+  href: https://artifacts.apis.io/terrapay/data-model/terrapay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/terrapay-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/heads/main/security/terrapay-domain-security.yml
+  href: https://artifacts.apis.io/terrapay/security/terrapay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/terrapay-domain-security.yml
@@ -142,12 +144,12 @@ overview: 'TerraPay is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   TerraPay''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 12 more developer resources.'
-random_paper: 14
+random_paper: 8
 score:
   band: thin
-  composite: 27.5
+  composite: 28.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -158,10 +160,10 @@ score:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 47.6
-    discoverability: 73.2
+    developer_ergonomics: 57.1
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 27.5
+  previous_composite: 28.7
   provenance:
     conformance: derived
     mcp: derived
@@ -171,14 +173,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/terrapay/refs/heads/main/screenshots/terrapay-2026-09-02T163159.png
+screenshot: https://apis.io/screenshots/terrapay/terrapay-2026-09-02T163159.png
 security:
 - kind: authentication
   name: Terrapay Authentication

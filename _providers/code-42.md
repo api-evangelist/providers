@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Code42 Incydr's public REST API for insider risk management — actors, agents, alert rules, audit log, cases, departments, directory groups, file events, sessions, trusted activities, users, and watchl
@@ -43,7 +45,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/code-42/refs/heads/main/security/code-42-domain-security.yml
+  href: https://artifacts.apis.io/code-42/security/code-42-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/code-42-domain-security.yml
@@ -84,57 +86,57 @@ common:
   type: StatusPage
   url: https://status.code42.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/code-42/refs/heads/main/lifecycle/code-42-lifecycle.yml
+  href: https://artifacts.apis.io/code-42/lifecycle/code-42-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/code-42-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/code-42/refs/heads/main/packages/code-42-packages.yml
+  href: https://artifacts.apis.io/code-42/packages/code-42-packages.yml
   title: ''
   type: Packages
   url: packages/code-42-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/code-42/refs/heads/main/packages/code-42-packages.yml
+  href: https://artifacts.apis.io/code-42/packages/code-42-packages.yml
   title: ''
   type: SDKs
   url: packages/code-42-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/code-42/refs/heads/main/cli/code-42-cli.yml
+  href: https://artifacts.apis.io/code-42/cli/code-42-cli.yml
   title: ''
   type: CLI
   url: cli/code-42-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/code-42/refs/heads/main/authentication/code-42-authentication.yml
+  href: https://artifacts.apis.io/code-42/authentication/code-42-authentication.yml
   title: ''
   type: Authentication
   url: authentication/code-42-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/code-42/refs/heads/main/conventions/code-42-conventions.yml
+  href: https://artifacts.apis.io/code-42/conventions/code-42-conventions.yml
   title: ''
   type: Conventions
   url: conventions/code-42-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/code-42/refs/heads/main/lifecycle/code-42-lifecycle.yml
+  href: https://artifacts.apis.io/code-42/lifecycle/code-42-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/code-42-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/code-42/refs/heads/main/changelog/code-42-changelog.yml
+  href: https://artifacts.apis.io/code-42/changelog/code-42-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/code-42-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/code-42/refs/heads/main/conformance/code-42-conformance.yml
+  href: https://artifacts.apis.io/code-42/conformance/code-42-conformance.yml
   title: ''
   type: Conformance
   url: conformance/code-42-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/code-42/refs/heads/main/data-model/code-42-data-model.yml
+  href: https://artifacts.apis.io/code-42/data-model/code-42-data-model.yml
   title: ''
   type: DataModel
   url: data-model/code-42-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/code-42/refs/heads/main/llms/code-42-llms.txt
+  href: https://artifacts.apis.io/code-42/llms/code-42-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/code-42-llms.txt
@@ -150,10 +152,10 @@ overview: 'Code 42 is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Code 42''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, changelog, and 14 more developer resources.'
-random_paper: 8
+random_paper: 6
 score:
   band: thin
-  composite: 29.4
+  composite: 30.8
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -161,15 +163,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 29.3
+    developer_ergonomics: 66.7
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 30.8
   provenance:
     conformance: first-party
   regulatory:
@@ -178,14 +180,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/code-42/refs/heads/main/screenshots/code-42-2026-07-25T205903.png
+screenshot: https://apis.io/screenshots/code-42/code-42-2026-07-25T205903.png
 security:
 - kind: authentication
   name: Code 42 Authentication

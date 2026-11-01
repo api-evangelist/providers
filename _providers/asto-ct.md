@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,17 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/asto-ct/refs/heads/main/security/asto-ct-domain-security.yml
+  href: https://artifacts.apis.io/asto-ct/security/asto-ct-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/asto-ct-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/asto-ct/refs/heads/main/llms/asto-ct-llms.txt
+  href: https://artifacts.apis.io/asto-ct/llms/asto-ct-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/asto-ct-llms.txt
@@ -125,10 +127,10 @@ overview: 'Asto CT is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Asto CT''s developer surface includes engineering blog, support, FAQ, YouTube channel, and 11 more developer resources.'
-random_paper: 17
+random_paper: 3
 score:
   band: minimal
-  composite: 8.4
+  composite: 7.7
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -142,23 +144,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 8.4
+  previous_composite: 7.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/asto-ct/refs/heads/main/screenshots/asto-ct-2026-08-07T161836.png
+screenshot: https://apis.io/screenshots/asto-ct/asto-ct-2026-08-07T161836.png
 security:
 - kind: domain-security
   name: Asto Ct Domain Security

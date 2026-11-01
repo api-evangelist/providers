@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Flow Engineering exposes a GraphQL API for programmatic access to the Systems Graph (requirements, design artifacts, test cases, and integrations). The single GraphQL endpoint is served from api.flowe
@@ -70,42 +72,42 @@ common:
   type: Compliance
   url: https://flowengineering.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flow-engineering/refs/heads/main/well-known/flow-engineering-well-known.yml
+  href: https://artifacts.apis.io/flow-engineering/well-known/flow-engineering-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/flow-engineering-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flow-engineering/refs/heads/main/authentication/flow-engineering-authentication.yml
+  href: https://artifacts.apis.io/flow-engineering/authentication/flow-engineering-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flow-engineering-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flow-engineering/refs/heads/main/scopes/flow-engineering-scopes.yml
+  href: https://artifacts.apis.io/flow-engineering/scopes/flow-engineering-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/flow-engineering-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flow-engineering/refs/heads/main/conformance/flow-engineering-conformance.yml
+  href: https://artifacts.apis.io/flow-engineering/conformance/flow-engineering-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flow-engineering-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flow-engineering/refs/heads/main/security/flow-engineering-trust-center.yml
+  href: https://artifacts.apis.io/flow-engineering/security/flow-engineering-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/flow-engineering-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flow-engineering/refs/heads/main/security/flow-engineering-domain-security.yml
+  href: https://artifacts.apis.io/flow-engineering/security/flow-engineering-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flow-engineering-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flow-engineering/refs/heads/main/conventions/flow-engineering-conventions.yml
+  href: https://artifacts.apis.io/flow-engineering/conventions/flow-engineering-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flow-engineering-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flow-engineering/refs/heads/main/llms/flow-engineering-llms.txt
+  href: https://artifacts.apis.io/flow-engineering/llms/flow-engineering-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flow-engineering-llms.txt
@@ -121,31 +123,31 @@ overview: 'Flow Engineering is listed with 1 API on the [APIs.io](https://apis.i
 
 
   Flow Engineering''s developer surface includes signup flow, pricing, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 20
+random_paper: 16
 scopes:
 - name: Flow Engineering Scopes
   scope_count: 4
   slug: flow-engineering-scopes
   summary_line: 4 scopes · authorizationCode/implicit
 score:
-  band: thin
-  composite: 26.7
+  band: emerging
+  composite: 24.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 5.3
+    contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 26.6
+  previous_composite: 24.7
   provenance:
     conformance: first-party
   regulatory:
@@ -158,14 +160,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/flow-engineering/refs/heads/main/screenshots/flow-engineering-2026-07-25T214832.png
+screenshot: https://apis.io/screenshots/flow-engineering/flow-engineering-2026-07-25T214832.png
 security:
 - kind: authentication
   name: Flow Engineering Authentication

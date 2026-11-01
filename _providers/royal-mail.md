@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-10-17'
+  score: 26.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -85,11 +87,8 @@ apis:
   description: The Version API from Royal Mail — 1 operation(s) for version.
   name: Royal Mail Version API
   slug: royal-mail-version-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ChannelShipper & Royal Mail Public Labels API
   slug: open-royal-mail-labels-api
@@ -107,7 +106,7 @@ collections:
   slug: open-royal-mail-version-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/royal-mail/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -116,22 +115,22 @@ common:
   type: Website
   url: https://royalmail.net
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/capabilities/royal-mail-capability-edges.yml
+  href: https://artifacts.apis.io/royal-mail/capabilities/royal-mail-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/royal-mail-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/agentic-access/royal-mail-agentic-access.yml
+  href: https://artifacts.apis.io/royal-mail/agentic-access/royal-mail-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/royal-mail-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/security/royal-mail-domain-security.yml
+  href: https://artifacts.apis.io/royal-mail/security/royal-mail-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/royal-mail-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/authentication/royal-mail-authentication.yml
+  href: https://artifacts.apis.io/royal-mail/authentication/royal-mail-authentication.yml
   title: ''
   type: Authentication
   url: authentication/royal-mail-authentication.yml
@@ -220,7 +219,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -239,7 +238,7 @@ rules:
   slug: royal-mail-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.4
+  composite: 34.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 54.3
@@ -247,7 +246,7 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
@@ -263,7 +262,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 39.0
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -277,13 +276,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/screenshots/royal-mail-2026-06-20T193236.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/royal-mail/royal-mail-2026-06-20T193236.png
 security:
 - kind: authentication
   name: Royal Mail Authentication

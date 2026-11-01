@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-17'
+  score: 34.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 47
   slug: got-its-agentic-access
   summary_line: 47 operations · 23 acting
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://api.reelables.com/v1
   baseurl_source: declared
@@ -163,11 +165,8 @@ apis:
   description: The Workspaces API from Reelables — 2 operation(s) for workspaces.
   name: Reelables Workspaces API
   slug: got-its-workspaces-api
-artifact_total: 54
+artifact_total: 55
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Reelables Gateway Asset Facilities API
   slug: open-got-its-asset-facilities-api
@@ -242,27 +241,27 @@ collections:
   slug: open-got-its-workspaces-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/capabilities/got-its-capability-edges.yml
+  href: https://artifacts.apis.io/got-its/capabilities/got-its-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/got-its-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/overlays/got-its-gateway-openapi-overlay.yaml
+  href: https://artifacts.apis.io/got-its/overlays/got-its-gateway-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/got-its-gateway-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/security/got-its-domain-security.yml
+  href: https://artifacts.apis.io/got-its/security/got-its-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/got-its-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/agentic-access/got-its-agentic-access.yml
+  href: https://artifacts.apis.io/got-its/agentic-access/got-its-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/got-its-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/authentication/got-its-authentication.yml
+  href: https://artifacts.apis.io/got-its/authentication/got-its-authentication.yml
   title: ''
   type: Authentication
   url: authentication/got-its-authentication.yml
@@ -303,52 +302,52 @@ common:
   type: ChangeLog
   url: https://docs.reelables.com/changes
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/llms/got-its-llms.txt
+  href: https://artifacts.apis.io/got-its/llms/got-its-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/got-its-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/mcp/got-its-mcp.yml
+  href: https://artifacts.apis.io/got-its/mcp/got-its-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/got-its-mcp.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/changelog/got-its-changelog.yml
+  href: https://artifacts.apis.io/got-its/changelog/got-its-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/got-its-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/lifecycle/got-its-lifecycle.yml
+  href: https://artifacts.apis.io/got-its/lifecycle/got-its-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/got-its-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/conventions/got-its-conventions.yml
+  href: https://artifacts.apis.io/got-its/conventions/got-its-conventions.yml
   title: ''
   type: Conventions
   url: conventions/got-its-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/errors/got-its-problem-types.yml
+  href: https://artifacts.apis.io/got-its/errors/got-its-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/got-its-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/conformance/got-its-conformance.yml
+  href: https://artifacts.apis.io/got-its/conformance/got-its-conformance.yml
   title: ''
   type: Conformance
   url: conformance/got-its-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/data-model/got-its-data-model.yml
+  href: https://artifacts.apis.io/got-its/data-model/got-its-data-model.yml
   title: ''
   type: DataModel
   url: data-model/got-its-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/scopes/got-its-scopes.yml
+  href: https://artifacts.apis.io/got-its/scopes/got-its-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/got-its-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/got-its/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -368,7 +367,7 @@ overview: 'Reelables publishes 24 API contracts indexed on the [APIs.io](https:/
 
 
   Reelables'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, changelog, and 17 more developer resources.'
-random_paper: 7
+random_paper: 15
 scopes:
 - name: Got Its Scopes
   scope_count: 1
@@ -376,23 +375,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 34.4
+  composite: 36.6
   coverage:
     artifact_dirs: 19
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 47.3
     developer_ergonomics: 56.5
-    discoverability: 76.7
+    discoverability: 65.0
     operational_transparency: 15.8
-  previous_composite: 33.8
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -409,13 +408,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/screenshots/got-its-2026-07-25T220118.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/got-its/got-its-2026-07-25T220118.png
 security:
 - kind: authentication
   name: Got Its Authentication
@@ -425,6 +425,12 @@ security:
   name: Got Its Domain Security
   slug: got-its-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Create and monitor a consignment (shipment)
+  slug: got-its-manage-a-consignment
+- name: Register and track a Reelables asset
+  slug: got-its-track-an-asset
 slug: got-its
 tags:
 - Company

@@ -22,19 +22,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: derived
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -92,11 +94,33 @@ apis:
   description: Manage cost allocation tags
   name: Amazon Billing And Cost Management Tags API
   slug: amazon-billing-and-cost-management-tags-api
-artifact_total: 33
+- baseURL: https://pricing.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Billing And Cost Management Anomaly Monitor API from Amazon Billing And Cost Management — 3 operation(s) for billing and cost management anomaly monitor.
+  name: Amazon Billing And Cost Management Billing And Cost Management Anomaly Monitor API
+  slug: amazon-billing-and-cost-management-anomaly-monitor-api
+- baseURL: https://pricing.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Billing And Cost Management Anomaly Subscription API from Amazon Billing And Cost Management — 3 operation(s) for billing and cost management anomaly subscription.
+  name: Amazon Billing And Cost Management Billing And Cost Management Anomaly Subscription API
+  slug: amazon-billing-and-cost-management-anomaly-subscription-api
+- baseURL: https://pricing.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Billing And Cost Management Cost Category Definition API from Amazon Billing And Cost Management — 3 operation(s) for billing and cost management cost category definition.
+  name: Amazon Billing And Cost Management Billing And Cost Management Cost Category Definition API
+  slug: amazon-billing-and-cost-management-cost-category-definition-api
+- baseURL: https://pricing.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Billing And Cost Management Operations API from Amazon Billing And Cost Management — 24 operation(s) for billing and cost management operations.
+  name: Amazon Billing And Cost Management Billing And Cost Management Operations API
+  slug: amazon-billing-and-cost-management-operations-api
+- baseURL: https://pricing.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Billing And Cost Management Subscriber API from Amazon Billing And Cost Management — 4 operation(s) for billing and cost management subscriber.
+  name: Amazon Billing And Cost Management Billing And Cost Management Subscriber API
+  slug: amazon-billing-and-cost-management-subscriber-api
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AWS Budgets Anomaly Detection API
   slug: open-amazon-billing-and-cost-management-anomaly-detection-api
@@ -126,37 +150,37 @@ collections:
   slug: open-amazon-billing-and-cost-management-tags-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/capabilities/amazon-billing-and-cost-management-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-billing-and-cost-management/capabilities/amazon-billing-and-cost-management-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-billing-and-cost-management-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/overlays/amazon-billing-and-cost-management-aws-budgets-api-overlay.yaml
+  href: https://artifacts.apis.io/amazon-billing-and-cost-management/overlays/amazon-billing-and-cost-management-aws-budgets-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-billing-and-cost-management-aws-budgets-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/agentic-access/amazon-billing-and-cost-management-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-billing-and-cost-management/agentic-access/amazon-billing-and-cost-management-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-billing-and-cost-management-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/security/amazon-billing-and-cost-management-trust-center.yml
+  href: https://artifacts.apis.io/amazon-billing-and-cost-management/security/amazon-billing-and-cost-management-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-billing-and-cost-management-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/security/amazon-billing-and-cost-management-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-billing-and-cost-management/security/amazon-billing-and-cost-management-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-billing-and-cost-management-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/security/amazon-billing-and-cost-management-domain-security.yml
+  href: https://artifacts.apis.io/amazon-billing-and-cost-management/security/amazon-billing-and-cost-management-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-billing-and-cost-management-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/authentication/amazon-billing-and-cost-management-authentication.yml
+  href: https://artifacts.apis.io/amazon-billing-and-cost-management/authentication/amazon-billing-and-cost-management-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-billing-and-cost-management-authentication.yml
@@ -205,42 +229,42 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/packages/amazon-billing-and-cost-management-packages.yml
+  href: https://artifacts.apis.io/amazon-billing-and-cost-management/packages/amazon-billing-and-cost-management-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-billing-and-cost-management-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/well-known/amazon-billing-and-cost-management-well-known.yml
+  href: https://artifacts.apis.io/amazon-billing-and-cost-management/well-known/amazon-billing-and-cost-management-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-billing-and-cost-management-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/well-known/amazon-billing-and-cost-management-security.txt
+  href: https://artifacts.apis.io/amazon-billing-and-cost-management/well-known/amazon-billing-and-cost-management-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-billing-and-cost-management-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/mcp/amazon-billing-and-cost-management-mcp.yml
+  href: https://artifacts.apis.io/amazon-billing-and-cost-management/mcp/amazon-billing-and-cost-management-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/amazon-billing-and-cost-management-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/llms/amazon-billing-and-cost-management-llms.txt
+  href: https://artifacts.apis.io/amazon-billing-and-cost-management/llms/amazon-billing-and-cost-management-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-billing-and-cost-management-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/conformance/amazon-billing-and-cost-management-conformance.yml
+  href: https://artifacts.apis.io/amazon-billing-and-cost-management/conformance/amazon-billing-and-cost-management-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-billing-and-cost-management-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/errors/amazon-billing-and-cost-management-problem-types.yml
+  href: https://artifacts.apis.io/amazon-billing-and-cost-management/errors/amazon-billing-and-cost-management-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-billing-and-cost-management-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/lifecycle/amazon-billing-and-cost-management-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-billing-and-cost-management/lifecycle/amazon-billing-and-cost-management-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-billing-and-cost-management-lifecycle.yml
@@ -279,14 +303,14 @@ modified: '2026-06-20'
 name: Amazon Billing And Cost Management
 nav: Providers
 network: true
-overview: 'Amazon Billing And Cost Management publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Anomaly Detection API, Budget Actions API, Budgets API, and 7 more. Tagged areas include Billing, Cost Management, Cost Explorer, Budgets, and Cost Optimization.
+overview: 'Amazon Billing And Cost Management publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Anomaly Detection API, Budget Actions API, Budgets API, and 12 more. Tagged areas include Billing, Cost Management, Cost Explorer, Budgets, and Cost Optimization.
 
 
   The Amazon Billing And Cost Management catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   Amazon Billing And Cost Management''s developer surface includes authentication, developer portal, developer console, documentation, pricing, FAQ, engineering blog, and 19 more developer resources.'
-random_paper: 20
+random_paper: 4
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -301,31 +325,31 @@ rules:
   slug: amazon-billing-and-cost-management-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.0
+  composite: 47.0
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 52.8
     catalog_earned_first_party: 0.0
     catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.6
   facets:
     access_clarity: 39.5
     contract_governance: 28.0
-    contract_quality: 56.9
+    contract_quality: 58.7
     developer_ergonomics: 47.6
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 44.9
+    discoverability: 65.0
+    operational_transparency: 15.8
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 9
+      marker_coverage: 35.7
+      total: 14
     mcp: first-party
   regulatory:
     applies: true
@@ -333,13 +357,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/screenshots/amazon-billing-and-cost-management-2026-07-25T195936.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-billing-and-cost-management/amazon-billing-and-cost-management-2026-07-25T195936.png
 security:
 - kind: authentication
   name: Amazon Billing And Cost Management Authentication

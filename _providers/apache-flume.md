@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 20.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,11 +53,8 @@ apis:
   description: The Monitoring API from Apache Flume — 1 operation(s) for monitoring.
   name: Apache Flume Monitoring API
   slug: apache-flume-monitoring-api
-artifact_total: 39
+artifact_total: 38
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache Flume Monitoring API
   slug: open-apache-flume-monitoring-api
@@ -64,17 +63,17 @@ collections:
   slug: open-apache-flume-monitoring
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/plans/apache-flume-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-flume/plans/apache-flume-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-flume-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/rate-limits/apache-flume-rate-limits.yml
+  href: https://artifacts.apis.io/apache-flume/rate-limits/apache-flume-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-flume-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/finops/apache-flume-finops.yml
+  href: https://artifacts.apis.io/apache-flume/finops/apache-flume-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-flume-finops.yml
@@ -99,17 +98,17 @@ common:
   type: License
   url: https://github.com/apache/flume/blob/trunk/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/agentic-access/apache-flume-agentic-access.yml
+  href: https://artifacts.apis.io/apache-flume/agentic-access/apache-flume-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-flume-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/security/apache-flume-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-flume/security/apache-flume-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-flume-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/security/apache-flume-domain-security.yml
+  href: https://artifacts.apis.io/apache-flume/security/apache-flume-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-flume-domain-security.yml
@@ -130,12 +129,12 @@ common:
   type: GitHubRepository
   url: https://github.com/apache/flume
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/rules/apache-flume-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-flume/rules/apache-flume-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-flume-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/vocabulary/apache-flume-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-flume/vocabulary/apache-flume-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-flume-vocabulary.yaml
@@ -171,7 +170,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Flume Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-flume-finops
   template: true
@@ -222,7 +221,7 @@ plans:
 - name: Apache Flume Plans Pricing
   plan_count: 3
   slug: apache-flume-plans-pricing
-random_paper: 4
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Apache Flume Rate Limits
@@ -253,26 +252,23 @@ rules:
   slug: apache-flume-spectral-rules
 score:
   band: thin
-  composite: 31.4
+  composite: 32.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 60.4
     catalog_earned_first_party: 0.0
     catalog_gap: 54.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 50.1
     developer_ergonomics: 28.6
     discoverability: 57.1
-    operational_transparency: 10.5
-  open_source:
-    applies: true
-    score: 40.0
-  previous_composite: 29.9
+    operational_transparency: 23.7
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -286,14 +282,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/screenshots/apache-flume-2026-06-20T172058.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-flume/apache-flume-2026-06-20T172058.png
 security:
 - kind: domain-security
   name: Apache Flume Domain Security

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.5
-  scored_at: '2026-10-17'
+  score: 21.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.imgur.com/3/
@@ -86,11 +88,8 @@ apis:
   description: Topic listings and topic galleries.
   name: Imgur Topic API
   slug: imgur-topic-api
-artifact_total: 69
+artifact_total: 68
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Imgur Account API
   slug: open-imgur-account-api
@@ -122,23 +121,32 @@ collections:
   name: Imgur Topic API
   slug: open-imgur-topic-api
 common:
+- group: other
+  href: https://artifacts.apis.io/imgur/capabilities/imgur-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/imgur-capability-edges.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/imgur/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/plans/imgur-plans-pricing.yml
+  href: https://artifacts.apis.io/imgur/plans/imgur-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/imgur-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/rate-limits/imgur-rate-limits.yml
+  href: https://artifacts.apis.io/imgur/rate-limits/imgur-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/imgur-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/finops/imgur-finops.yml
+  href: https://artifacts.apis.io/imgur/finops/imgur-finops.yml
   title: ''
   type: FinOps
   url: finops/imgur-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/security/imgur-domain-security.yml
+  href: https://artifacts.apis.io/imgur/security/imgur-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/imgur-domain-security.yml
@@ -203,17 +211,17 @@ common:
   type: SDKs
   url: https://github.com/DamienDennehy/Imgur.API
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/rules/imgur-rules.yml
+  href: https://artifacts.apis.io/imgur/rules/imgur-rules.yml
   title: ''
   type: SpectralRules
   url: rules/imgur-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/vocabulary/imgur-vocabulary.yml
+  href: https://artifacts.apis.io/imgur/vocabulary/imgur-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/imgur-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/json-ld/imgur-context.jsonld
+  href: https://artifacts.apis.io/imgur/json-ld/imgur-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/imgur-context.jsonld
@@ -335,7 +343,7 @@ overview: 'Imgur publishes 10 API contracts indexed on the [APIs.io](https://api
   The Imgur catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Imgur''s developer surface includes developer portal, documentation, support, engineering blog, Stack Overflow tag, and 17 more developer resources.'
+  Imgur''s developer surface includes developer portal, documentation, support, engineering blog, Stack Overflow tag, and 19 more developer resources.'
 plans:
 - name: Imgur Plans Pricing
   plan_count: 4
@@ -371,23 +379,23 @@ rules:
   slug: imgur-rules
 score:
   band: developing
-  composite: 46.3
+  composite: 48.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 72.0
     catalog_earned_first_party: 0.0
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.2
   facets:
     access_clarity: 42.1
     contract_governance: 27.3
-    contract_quality: 62.0
-    developer_ergonomics: 48.8
+    contract_quality: 58.6
+    developer_ergonomics: 56.0
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 54.6
+    operational_transparency: 13.2
+  previous_composite: 47.8
   provenance:
     contracts:
       callable: 100.0
@@ -400,13 +408,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/screenshots/imgur-2026-06-20T183301.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/imgur/imgur-2026-06-20T183301.png
 security:
 - kind: domain-security
   name: Imgur Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Bardeen is an AI-powered automation platform for automating repetitive tasks across web applications.
@@ -42,22 +44,22 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/heads/main/finops/bardeen-finops.yml
+  href: https://artifacts.apis.io/bardeen/finops/bardeen-finops.yml
   title: ''
   type: FinOps
   url: finops/bardeen-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/heads/main/security/bardeen-trust-center.yml
+  href: https://artifacts.apis.io/bardeen/security/bardeen-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bardeen-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/heads/main/security/bardeen-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bardeen/security/bardeen-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bardeen-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/heads/main/security/bardeen-domain-security.yml
+  href: https://artifacts.apis.io/bardeen/security/bardeen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bardeen-domain-security.yml
@@ -74,37 +76,37 @@ common:
   type: Website
   url: https://www.bardeen.ai
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/heads/main/plans/bardeen-plans-pricing.yml
+  href: https://artifacts.apis.io/bardeen/plans/bardeen-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bardeen-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/heads/main/rate-limits/bardeen-rate-limits.yml
+  href: https://artifacts.apis.io/bardeen/rate-limits/bardeen-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bardeen-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/heads/main/changelog/bardeen-changelog.yml
+  href: https://artifacts.apis.io/bardeen/changelog/bardeen-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bardeen-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/heads/main/lifecycle/bardeen-lifecycle.yml
+  href: https://artifacts.apis.io/bardeen/lifecycle/bardeen-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bardeen-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/heads/main/conformance/bardeen-conformance.yml
+  href: https://artifacts.apis.io/bardeen/conformance/bardeen-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bardeen-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/heads/main/packages/bardeen-packages.yml
+  href: https://artifacts.apis.io/bardeen/packages/bardeen-packages.yml
   title: ''
   type: Packages
   url: packages/bardeen-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/heads/main/llms/bardeen-llms.txt
+  href: https://artifacts.apis.io/bardeen/llms/bardeen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bardeen-llms.txt
@@ -162,7 +164,7 @@ finops:
 - has_sources: false
   method: generated
   name: Bardeen Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: bardeen-finops
   template: true
@@ -180,30 +182,30 @@ plans:
 - name: Bardeen Plans Pricing
   plan_count: 4
   slug: bardeen-plans-pricing
-random_paper: 17
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Bardeen Rate Limits
   slug: bardeen-rate-limits
 score:
   band: thin
-  composite: 34.4
+  composite: 34.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 44.0
     catalog_earned_first_party: 12.0
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 64.3
-    operational_transparency: 28.9
-  previous_composite: 35.9
+    discoverability: 57.1
+    operational_transparency: 31.6
+  previous_composite: 34.0
   provenance:
     conformance: first-party
   regulatory:
@@ -212,14 +214,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bardeen/refs/heads/main/screenshots/bardeen-2026-06-20T172958.png
+screenshot: https://apis.io/screenshots/bardeen/bardeen-2026-06-20T172958.png
 security:
 - kind: domain-security
   name: Bardeen Domain Security

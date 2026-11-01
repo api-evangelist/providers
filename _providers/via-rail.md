@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: VIA Rail's complete national timetable published as a static General Transit Feed Specification (GTFS) archive, offered for download from the VIA Rail Developer Resources page with no registration, no
@@ -43,32 +45,32 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/via-rail/refs/heads/main/security/via-rail-domain-security.yml
+  href: https://artifacts.apis.io/via-rail/security/via-rail-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/via-rail-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/via-rail/refs/heads/main/authentication/via-rail-authentication.yml
+  href: https://artifacts.apis.io/via-rail/authentication/via-rail-authentication.yml
   title: ''
   type: Authentication
   url: authentication/via-rail-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/via-rail/refs/heads/main/conventions/via-rail-conventions.yml
+  href: https://artifacts.apis.io/via-rail/conventions/via-rail-conventions.yml
   title: ''
   type: Conventions
   url: conventions/via-rail-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/via-rail/refs/heads/main/lifecycle/via-rail-lifecycle.yml
+  href: https://artifacts.apis.io/via-rail/lifecycle/via-rail-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/via-rail-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/via-rail/refs/heads/main/conformance/via-rail-conformance.yml
+  href: https://artifacts.apis.io/via-rail/conformance/via-rail-conformance.yml
   title: ''
   type: Conformance
   url: conformance/via-rail-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/via-rail/refs/heads/main/llms/via-rail-llms.txt
+  href: https://artifacts.apis.io/via-rail/llms/via-rail-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/via-rail-llms.txt
@@ -197,12 +199,12 @@ overview: 'VIA Rail Canada is listed with 1 API on the [APIs.io](https://apis.io
 
 
   VIA Rail Canada''s developer surface includes authentication, documentation, support, FAQ, status page, engineering blog, and 27 more developer resources.'
-random_paper: 19
+random_paper: 21
 score:
   band: emerging
-  composite: 22.9
+  composite: 23.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 42.4
     catalog_earned_first_party: 0.0
     catalog_gap: 72.6
@@ -214,8 +216,8 @@ score:
     contract_governance: 4.5
     contract_quality: 7.2
     developer_ergonomics: 38.1
-    discoverability: 67.0
-    operational_transparency: 2.6
+    discoverability: 67.9
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -223,7 +225,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 22.9
+  previous_composite: 23.3
   provenance:
     conformance: derived
   regulatory:
@@ -232,14 +234,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/via-rail/refs/heads/main/screenshots/via-rail-2026-09-02T165836.png
+screenshot: https://apis.io/screenshots/via-rail/via-rail-2026-09-02T165836.png
 security:
 - kind: authentication
   name: Via Rail Authentication

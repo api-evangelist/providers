@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.1
-  scored_at: '2026-10-17'
+  score: 40.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 404
   slug: vopay-agentic-access
   summary_line: 404 operations · 257 acting
-api_count: 25
+api_count: 23
 apis:
 - baseURL: https://earthnode-dev.vopay.com/api/v2
   baseurl_source: declared
@@ -350,7 +352,7 @@ apis:
   description: The Zelle Endpoints API from VoPay — 6 operation(s) for zelle endpoints.
   name: VoPay Zelle Endpoints API
   slug: vopay-zelle-endpoints-api
-artifact_total: 96
+artifact_total: 100
 asyncapis:
 - description: VoPay webhook (event notification) surface. VoPay delivers 24 event types via HTTP POST to the URL configured with account/webhook-url or partner/webhook-url. Every payload carries a ValidationKey = s
   name: VoPay Webhooks
@@ -427,37 +429,37 @@ collections:
   slug: open-vopay-virtual-account-api-reference
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/rules/vopay-rules.yml
+  href: https://artifacts.apis.io/vopay/rules/vopay-rules.yml
   title: ''
   type: Spectral
   url: rules/vopay-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/json-ld/vopay-context.jsonld
+  href: https://artifacts.apis.io/vopay/json-ld/vopay-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/vopay-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/vocabulary/vopay-vocabulary.yml
+  href: https://artifacts.apis.io/vopay/vocabulary/vopay-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/vopay-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/mcp/vopay-mcp.yml
+  href: https://artifacts.apis.io/vopay/mcp/vopay-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/vopay-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/hosts/vopay-hosts.yml
+  href: https://artifacts.apis.io/vopay/hosts/vopay-hosts.yml
   title: ''
   type: Hosts
   url: hosts/vopay-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/integrations/vopay-integration-edges.yml
+  href: https://artifacts.apis.io/vopay/integrations/vopay-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/vopay-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/vendors/vopay-vendors.yml
+  href: https://artifacts.apis.io/vopay/vendors/vopay-vendors.yml
   title: ''
   type: Vendors
   url: vendors/vopay-vendors.yml
@@ -466,32 +468,32 @@ common:
   type: Newsroom
   url: https://vopay.com/newsroom/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/plans/vopay-plans-pricing.yml
+  href: https://artifacts.apis.io/vopay/plans/vopay-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vopay-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/capabilities/vopay-capability-edges.yml
+  href: https://artifacts.apis.io/vopay/capabilities/vopay-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/vopay-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/overlays/vopay-account-api-reference-overlay.yaml
+  href: https://artifacts.apis.io/vopay/overlays/vopay-account-api-reference-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/vopay-account-api-reference-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/security/vopay-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/vopay/security/vopay-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vopay-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/security/vopay-domain-security.yml
+  href: https://artifacts.apis.io/vopay/security/vopay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vopay-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/agentic-access/vopay-agentic-access.yml
+  href: https://artifacts.apis.io/vopay/agentic-access/vopay-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vopay-agentic-access.yml
@@ -548,82 +550,82 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/vopay
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/authentication/vopay-authentication.yml
+  href: https://artifacts.apis.io/vopay/authentication/vopay-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vopay-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/conventions/vopay-conventions.yml
+  href: https://artifacts.apis.io/vopay/conventions/vopay-conventions.yml
   title: ''
   type: Conventions
   url: conventions/vopay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/conventions/vopay-conventions.yml
+  href: https://artifacts.apis.io/vopay/conventions/vopay-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/vopay-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/errors/vopay-error-codes.yml
+  href: https://artifacts.apis.io/vopay/errors/vopay-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/vopay-error-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/errors/vopay-decline-codes.yml
+  href: https://artifacts.apis.io/vopay/errors/vopay-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/vopay-decline-codes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/sandbox/vopay-sandbox.yml
+  href: https://artifacts.apis.io/vopay/sandbox/vopay-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vopay-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/lifecycle/vopay-lifecycle.yml
+  href: https://artifacts.apis.io/vopay/lifecycle/vopay-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vopay-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/changelog/vopay-changelog.yml
+  href: https://artifacts.apis.io/vopay/changelog/vopay-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vopay-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/conformance/vopay-conformance.yml
+  href: https://artifacts.apis.io/vopay/conformance/vopay-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vopay-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/data-model/vopay-data-model.yml
+  href: https://artifacts.apis.io/vopay/data-model/vopay-data-model.yml
   title: ''
   type: DataModel
   url: data-model/vopay-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/components/vopay-components.yml
+  href: https://artifacts.apis.io/vopay/components/vopay-components.yml
   title: ''
   type: Components
   url: components/vopay-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/well-known/vopay-well-known.yml
+  href: https://artifacts.apis.io/vopay/well-known/vopay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vopay-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/well-known/vopay-security.txt
+  href: https://artifacts.apis.io/vopay/well-known/vopay-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/vopay-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/llms/vopay-llms.txt
+  href: https://artifacts.apis.io/vopay/llms/vopay-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vopay-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/mcp/vopay-mcp.yml
+  href: https://artifacts.apis.io/vopay/mcp/vopay-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/vopay-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/mcp/vopay-tool-crosswalk.yml
+  href: https://artifacts.apis.io/vopay/mcp/vopay-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/vopay-tool-crosswalk.yml
@@ -632,32 +634,40 @@ common:
   type: Security
   url: https://vopay.com/.well-known/security.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/asyncapi/vopay-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/vopay/asyncapi/vopay-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/vopay-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/asyncapi/vopay-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/vopay/asyncapi/vopay-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/vopay-webhooks-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/skills/vopay-eft-collect-funds.md
+  href: https://artifacts.apis.io/vopay/skills/vopay-eft-collect-funds.md
   title: ''
   type: AgentSkill
   url: skills/vopay-eft-collect-funds.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/skills/vopay-verify-bank-account-iq11.md
+  href: https://artifacts.apis.io/vopay/skills/vopay-verify-bank-account-iq11.md
   title: ''
   type: AgentSkill
   url: skills/vopay-verify-bank-account-iq11.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/skills/vopay-interac-request-money.md
+  href: https://artifacts.apis.io/vopay/skills/vopay-interac-request-money.md
   title: ''
   type: AgentSkill
   url: skills/vopay-interac-request-money.md
 created: '2026-07-24'
 description: VoPay is a Vancouver, Canada based fintech offering an API-first embedded finance and payments-as-a-service platform that lets software companies, marketplaces, lenders, and enterprises move money across Canadian and North American bank rails from a single set of REST endpoints. Its Fintech-as-a-Service suite spans EFT, Interac e-Transfer, ACH, RTP/FedNow/FedWire, VoPay Instant, card and digital-wallet payments, cross-border and global cash management, virtual accounts, ledgering, scheduled and recurring payments, bank-account verification (IQ11), KYC/AML onboarding, and dispute management. VoPay ships a genuine public developer portal (docs.vopay.com) with a sandbox, an OpenAPI-backed API reference segmented by product, webhooks for transaction and account events, and API-key-plus-shared-secret signature authentication with IP whitelisting. Its home market is Canada, where it operates as an API-native money-movement layer over Interac and Payments Canada rails.
+finops:
+- has_sources: true
+  method: derived
+  name: Vopay Finops
+  primary_unit: ''
+  service_category: ''
+  slug: vopay-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 json_schemas:
 - name: Rail_Default
@@ -694,7 +704,7 @@ plans:
 - name: Vopay Plans Pricing
   plan_count: 3
   slug: vopay-plans-pricing
-random_paper: 9
+random_paper: 7
 rules:
 - authorship: generated
   effective_rule_count: 54
@@ -710,22 +720,22 @@ rules:
   slug: vopay-rules
 score:
   band: strong
-  composite: 62.3
+  composite: 61.1
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 33
     catalog_earned: 71.8
     catalog_earned_first_party: 12.0
     catalog_gap: 43.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 22.0
     contract_quality: 62.7
-    developer_ergonomics: 57.7
-    discoverability: 81.7
-    operational_transparency: 44.7
+    developer_ergonomics: 66.1
+    discoverability: 71.7
+    operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -733,7 +743,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 57.5
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -750,13 +760,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/screenshots/vopay-2026-08-17T082823.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vopay/vopay-2026-08-17T082823.png
 security:
 - kind: authentication
   name: Vopay Authentication
@@ -770,6 +781,14 @@ security:
   name: Vopay Vulnerability Disclosure
   slug: vopay-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: vopay-eft-collect-funds
+  slug: vopay-eft-collect-funds
+- name: vopay-interac-request-money
+  slug: vopay-interac-request-money
+- name: vopay-verify-bank-account-iq11
+  slug: vopay-verify-bank-account-iq11
 slug: vopay
 tags:
 - Payments

@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-10-17'
+  score: 26.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -71,11 +73,8 @@ apis:
   description: The User API from RTB House — 1 operation(s) for user.
   name: RTB House User API
   slug: rtbhouse-user-api
-artifact_total: 22
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Client's panel API docs Advertisers API
   slug: open-rtbhouse-advertisers-api
@@ -93,22 +92,22 @@ collections:
   slug: open-rtbhouse-user-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/capabilities/rtbhouse-capability-edges.yml
+  href: https://artifacts.apis.io/rtbhouse/capabilities/rtbhouse-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rtbhouse-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/agentic-access/rtbhouse-agentic-access.yml
+  href: https://artifacts.apis.io/rtbhouse/agentic-access/rtbhouse-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rtbhouse-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/security/rtbhouse-domain-security.yml
+  href: https://artifacts.apis.io/rtbhouse/security/rtbhouse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rtbhouse-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/authentication/rtbhouse-authentication.yml
+  href: https://artifacts.apis.io/rtbhouse/authentication/rtbhouse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rtbhouse-authentication.yml
@@ -153,72 +152,72 @@ common:
   type: PrivacyPolicy
   url: https://www.rtbhouse.com/privacy-center/web-privacy-policy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/plans/rtbhouse-plans-pricing.yml
+  href: https://artifacts.apis.io/rtbhouse/plans/rtbhouse-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rtbhouse-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/rate-limits/rtbhouse-rate-limits.yml
+  href: https://artifacts.apis.io/rtbhouse/rate-limits/rtbhouse-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rtbhouse-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/finops/rtbhouse-finops.yml
+  href: https://artifacts.apis.io/rtbhouse/finops/rtbhouse-finops.yml
   title: ''
   type: FinOps
   url: finops/rtbhouse-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/packages/rtbhouse-packages.yml
+  href: https://artifacts.apis.io/rtbhouse/packages/rtbhouse-packages.yml
   title: ''
   type: Packages
   url: packages/rtbhouse-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/packages/rtbhouse-packages.yml
+  href: https://artifacts.apis.io/rtbhouse/packages/rtbhouse-packages.yml
   title: ''
   type: SDKs
   url: packages/rtbhouse-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/cli/rtbhouse-cli.yml
+  href: https://artifacts.apis.io/rtbhouse/cli/rtbhouse-cli.yml
   title: ''
   type: CLI
   url: cli/rtbhouse-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/llms/rtbhouse-llms.txt
+  href: https://artifacts.apis.io/rtbhouse/llms/rtbhouse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rtbhouse-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/conventions/rtbhouse-conventions.yml
+  href: https://artifacts.apis.io/rtbhouse/conventions/rtbhouse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rtbhouse-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/errors/rtbhouse-problem-types.yml
+  href: https://artifacts.apis.io/rtbhouse/errors/rtbhouse-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rtbhouse-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/lifecycle/rtbhouse-lifecycle.yml
+  href: https://artifacts.apis.io/rtbhouse/lifecycle/rtbhouse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rtbhouse-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/changelog/rtbhouse-changelog.yml
+  href: https://artifacts.apis.io/rtbhouse/changelog/rtbhouse-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rtbhouse-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/data-model/rtbhouse-data-model.yml
+  href: https://artifacts.apis.io/rtbhouse/data-model/rtbhouse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rtbhouse-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/conformance/rtbhouse-conformance.yml
+  href: https://artifacts.apis.io/rtbhouse/conformance/rtbhouse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rtbhouse-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rtbhouse/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -232,8 +231,8 @@ examples:
   name: Rtbhouse Rtb Stats Example
   slug: rtbhouse-rtb-stats-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Rtbhouse Finops
   primary_unit: ''
   service_category: ''
@@ -265,7 +264,7 @@ plans:
 - name: Rtbhouse Plans Pricing
   plan_count: 1
   slug: rtbhouse-plans-pricing
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Rtbhouse Rate Limits
@@ -284,7 +283,7 @@ rules:
   slug: rtbhouse-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.3
+  composite: 43.6
   coverage:
     artifact_dirs: 31
     catalog_earned: 59.3
@@ -292,15 +291,15 @@ score:
     catalog_gap: 55.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 14.4
     contract_quality: 49.6
     developer_ergonomics: 51.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 43.8
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,13 +320,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/screenshots/rtbhouse-2026-06-20T193241.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rtbhouse/rtbhouse-2026-06-20T193241.png
 security:
 - kind: authentication
   name: Rtbhouse Authentication
@@ -337,6 +337,16 @@ security:
   name: Rtbhouse Domain Security
   slug: rtbhouse-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Authenticate against the RTB House Client Panel API and keep the token alive
+  slug: rtbhouse-authenticate-and-rotate-token
+- name: Inspect and control RTB House campaigns, creatives and the product offer catalog
+  slug: rtbhouse-manage-campaign-and-offer-catalog
+- name: Pull RTB House campaign performance statistics
+  slug: rtbhouse-pull-campaign-performance
+- name: Reconcile RTB House conversions against billing
+  slug: rtbhouse-reconcile-conversions-and-billing
 slug: rtbhouse
 tags:
 - Advertising

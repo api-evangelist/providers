@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,27 +25,27 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 21.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arrive/refs/heads/main/llms/arrive-llms.txt
+  href: https://artifacts.apis.io/arrive/llms/arrive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/arrive-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arrive/refs/heads/main/well-known/arrive-well-known.yml
+  href: https://artifacts.apis.io/arrive/well-known/arrive-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/arrive-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arrive/refs/heads/main/hosts/arrive-hosts.yml
+  href: https://artifacts.apis.io/arrive/hosts/arrive-hosts.yml
   title: ''
   type: Hosts
   url: hosts/arrive-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arrive/refs/heads/main/vendors/arrive-vendors.yml
+  href: https://artifacts.apis.io/arrive/vendors/arrive-vendors.yml
   title: ''
   type: Vendors
   url: vendors/arrive-vendors.yml
@@ -60,7 +62,7 @@ common:
   type: Documentation
   url: https://developer.arrive.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arrive/refs/heads/main/security/arrive-domain-security.yml
+  href: https://artifacts.apis.io/arrive/security/arrive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arrive-domain-security.yml
@@ -100,10 +102,10 @@ overview: 'Arrive is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Arrive''s developer surface includes engineering blog, documentation, support, and 9 more developer resources.'
-random_paper: 11
+random_paper: 1
 score:
   band: emerging
-  composite: 13.9
+  composite: 13.2
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -117,9 +119,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 13.9
+  previous_composite: 13.2
   provenance:
     mcp: derived
   regulatory:
@@ -128,14 +130,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/arrive/refs/heads/main/screenshots/arrive-2026-10-11T100349.png
+screenshot: https://apis.io/screenshots/arrive/arrive-2026-10-11T100349.png
 security:
 - kind: domain-security
   name: Arrive Domain Security

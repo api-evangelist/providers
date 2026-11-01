@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,16 +37,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol (UCP) shopping service that Super Coffee's storefront implements over MCP transport. An anonymous tools/list returns 13 tools covering catalog search and lookup, produc
   name: Super Coffee UCP Commerce MCP
   slug: super-coffee-ucp-mcp
-artifact_total: 5
+artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/super-coffee/refs/heads/main/security/super-coffee-domain-security.yml
+  href: https://artifacts.apis.io/super-coffee/security/super-coffee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/super-coffee-domain-security.yml
@@ -81,52 +83,52 @@ common:
   type: PrivacyPolicy
   url: https://www.drinksupercoffee.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/super-coffee/refs/heads/main/llms/super-coffee-llms.txt
+  href: https://artifacts.apis.io/super-coffee/llms/super-coffee-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/super-coffee-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/super-coffee/refs/heads/main/mcp/super-coffee-mcp.yml
+  href: https://artifacts.apis.io/super-coffee/mcp/super-coffee-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/super-coffee-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/super-coffee/refs/heads/main/well-known/super-coffee-well-known.yml
+  href: https://artifacts.apis.io/super-coffee/well-known/super-coffee-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/super-coffee-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/super-coffee/refs/heads/main/authentication/super-coffee-authentication.yml
+  href: https://artifacts.apis.io/super-coffee/authentication/super-coffee-authentication.yml
   title: ''
   type: Authentication
   url: authentication/super-coffee-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/super-coffee/refs/heads/main/scopes/super-coffee-scopes.yml
+  href: https://artifacts.apis.io/super-coffee/scopes/super-coffee-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/super-coffee-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/super-coffee/refs/heads/main/conformance/super-coffee-conformance.yml
+  href: https://artifacts.apis.io/super-coffee/conformance/super-coffee-conformance.yml
   title: ''
   type: Conformance
   url: conformance/super-coffee-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/super-coffee/refs/heads/main/conventions/super-coffee-conventions.yml
+  href: https://artifacts.apis.io/super-coffee/conventions/super-coffee-conventions.yml
   title: ''
   type: Conventions
   url: conventions/super-coffee-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/super-coffee/refs/heads/main/conventions/super-coffee-conventions.yml
+  href: https://artifacts.apis.io/super-coffee/conventions/super-coffee-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/super-coffee-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/super-coffee/refs/heads/main/lifecycle/super-coffee-lifecycle.yml
+  href: https://artifacts.apis.io/super-coffee/lifecycle/super-coffee-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/super-coffee-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/super-coffee/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/super-coffee/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -146,7 +148,7 @@ overview: 'Super Coffee is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Super Coffee''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
-random_paper: 10
+random_paper: 20
 scopes:
 - name: Super Coffee Scopes
   scope_count: 4
@@ -162,15 +164,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 25.6
-    discoverability: 75.0
+    developer_ergonomics: 30.4
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 26.5
+  previous_composite: 26.6
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -181,14 +183,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/super-coffee/refs/heads/main/screenshots/super-coffee-2026-09-02T161200.png
+screenshot: https://apis.io/screenshots/super-coffee/super-coffee-2026-09-02T161200.png
 security:
 - kind: authentication
   name: Super Coffee Authentication
@@ -198,6 +200,12 @@ security:
   name: Super Coffee Domain Security
   slug: super-coffee-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Buy Super Coffee products as an agent via UCP/MCP
+  slug: super-coffee-agentic-purchase
+- name: Read the Super Coffee catalog without transacting
+  slug: super-coffee-catalog-research
 slug: super-coffee
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API-Football provides comprehensive football data including leagues, fixtures, standings, events, line-ups, players, pre-match odds, live odds, and historical statistics for 1,200+ leagues and cups wo
@@ -42,62 +44,62 @@ apis:
 artifact_total: 21
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/api-football/refs/heads/main/security/api-football-domain-security.yml
+  href: https://artifacts.apis.io/api-football/security/api-football-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/api-football-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/api-football/refs/heads/main/authentication/api-football-authentication.yml
+  href: https://artifacts.apis.io/api-football/authentication/api-football-authentication.yml
   title: ''
   type: Authentication
   url: authentication/api-football-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-football/refs/heads/main/conventions/api-football-conventions.yml
+  href: https://artifacts.apis.io/api-football/conventions/api-football-conventions.yml
   title: ''
   type: Conventions
   url: conventions/api-football-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-football/refs/heads/main/errors/api-football-problem-types.yml
+  href: https://artifacts.apis.io/api-football/errors/api-football-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/api-football-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/api-football/refs/heads/main/rate-limits/api-football-rate-limits.yml
+  href: https://artifacts.apis.io/api-football/rate-limits/api-football-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/api-football-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/api-football/refs/heads/main/plans/api-football-plans-pricing.yml
+  href: https://artifacts.apis.io/api-football/plans/api-football-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/api-football-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/api-football/refs/heads/main/packages/api-football-packages.yml
+  href: https://artifacts.apis.io/api-football/packages/api-football-packages.yml
   title: ''
   type: Packages
   url: packages/api-football-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-football/refs/heads/main/components/api-football-components.yml
+  href: https://artifacts.apis.io/api-football/components/api-football-components.yml
   title: ''
   type: Components
   url: components/api-football-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-football/refs/heads/main/lifecycle/api-football-lifecycle.yml
+  href: https://artifacts.apis.io/api-football/lifecycle/api-football-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/api-football-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-football/refs/heads/main/conformance/api-football-conformance.yml
+  href: https://artifacts.apis.io/api-football/conformance/api-football-conformance.yml
   title: ''
   type: Conformance
   url: conformance/api-football-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/api-football/refs/heads/main/llms/api-football-llms.txt
+  href: https://artifacts.apis.io/api-football/llms/api-football-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/api-football-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/api-football/refs/heads/main/finops/api-football-finops.yml
+  href: https://artifacts.apis.io/api-football/finops/api-football-finops.yml
   title: ''
   type: FinOps
   url: finops/api-football-finops.yml
@@ -164,7 +166,7 @@ finops:
 - has_sources: false
   method: generated
   name: Api Football Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: api-football-finops
   template: true
@@ -187,30 +189,30 @@ plans:
 - name: Api Football Plans Pricing
   plan_count: 4
   slug: api-football-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Api Football Rate Limits
   slug: api-football-rate-limits
 score:
   band: thin
-  composite: 37.8
+  composite: 39.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 69.7
+    access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 47.6
     discoverability: 66.1
     operational_transparency: 31.6
-  previous_composite: 39.3
+  previous_composite: 39.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -220,8 +222,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

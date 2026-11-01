@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -53,17 +55,17 @@ common:
   type: PrivacyPolicy
   url: https://www.viz.ai/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vizai/refs/heads/main/security/vizai-trust-center.yml
+  href: https://artifacts.apis.io/vizai/security/vizai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/vizai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vizai/refs/heads/main/security/vizai-trust-center.yml
+  href: https://artifacts.apis.io/vizai/security/vizai-trust-center.yml
   title: ''
   type: Compliance
   url: security/vizai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vizai/refs/heads/main/security/vizai-domain-security.yml
+  href: https://artifacts.apis.io/vizai/security/vizai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vizai-domain-security.yml
@@ -84,7 +86,7 @@ score:
   band: emerging
   composite: 11.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -105,14 +107,14 @@ score:
     regime: Health
     regime_id: health
     score: 11.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vizai/refs/heads/main/screenshots/vizai-2026-09-02T170144.png
+screenshot: https://apis.io/screenshots/vizai/vizai-2026-09-02T170144.png
 security:
 - kind: domain-security
   name: Vizai Domain Security

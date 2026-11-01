@@ -12,7 +12,7 @@ api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/invetx/refs/heads/main/security/invetx-domain-security.yml
+  href: https://artifacts.apis.io/invetx/security/invetx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/invetx-domain-security.yml
@@ -25,7 +25,7 @@ name: Invetx *
 nav: Providers
 network: true
 overview: Invetx * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Animal Health, and Veterinary.
-random_paper: 10
+random_paper: 22
 security:
 - kind: domain-security
   name: Invetx Domain Security

@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -78,11 +80,8 @@ apis:
   description: The Partner API from Qiwi — 16 operation(s) for partner.
   name: Qiwi Partner API
   slug: qiwi-partner-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: QIWI Payments Partner API
   slug: open-qiwi-partner-api
@@ -91,17 +90,17 @@ collections:
   slug: open-qiwi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/plans/qiwi-plans-pricing.yml
+  href: https://artifacts.apis.io/qiwi/plans/qiwi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qiwi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/rate-limits/qiwi-rate-limits.yml
+  href: https://artifacts.apis.io/qiwi/rate-limits/qiwi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qiwi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/finops/qiwi-finops.yml
+  href: https://artifacts.apis.io/qiwi/finops/qiwi-finops.yml
   title: ''
   type: FinOps
   url: finops/qiwi-finops.yml
@@ -110,22 +109,22 @@ common:
   type: Blog
   url: https://qplus.ru/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/capabilities/qiwi-capability-edges.yml
+  href: https://artifacts.apis.io/qiwi/capabilities/qiwi-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/qiwi-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/agentic-access/qiwi-agentic-access.yml
+  href: https://artifacts.apis.io/qiwi/agentic-access/qiwi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/qiwi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/security/qiwi-domain-security.yml
+  href: https://artifacts.apis.io/qiwi/security/qiwi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qiwi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/authentication/qiwi-authentication.yml
+  href: https://artifacts.apis.io/qiwi/authentication/qiwi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qiwi-authentication.yml
@@ -159,7 +158,7 @@ finops:
 - has_sources: false
   method: generated
   name: Qiwi Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: qiwi-finops
   template: true
@@ -177,14 +176,14 @@ plans:
 - name: Qiwi Plans Pricing
   plan_count: 3
   slug: qiwi-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Qiwi Rate Limits
   slug: qiwi-rate-limits
 score:
-  band: emerging
-  composite: 24.6
+  band: thin
+  composite: 28.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 36.0
@@ -192,15 +191,15 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 42.9
     developer_ergonomics: 38.1
     discoverability: 53.6
-    operational_transparency: 10.5
-  previous_composite: 25.7
+    operational_transparency: 13.2
+  previous_composite: 28.3
   provenance:
     agentic_access: derived
     contracts:
@@ -213,14 +212,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 14.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/screenshots/qiwi-2026-06-20T192337.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/qiwi/qiwi-2026-06-20T192337.png
 security:
 - kind: authentication
   name: Qiwi Authentication

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 32.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: Operations for listing and retrieving timezone information
   name: TimezoneDB Timezones API
   slug: timezonedb-timezones-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TimezoneDB Conversion API
   slug: open-timezonedb-conversion-api
@@ -68,17 +67,17 @@ collections:
   slug: open-timezonedb-timezones-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/timezonedb/refs/heads/main/agentic-access/timezonedb-agentic-access.yml
+  href: https://artifacts.apis.io/timezonedb/agentic-access/timezonedb-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/timezonedb-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/timezonedb/refs/heads/main/security/timezonedb-domain-security.yml
+  href: https://artifacts.apis.io/timezonedb/security/timezonedb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/timezonedb-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/timezonedb/refs/heads/main/authentication/timezonedb-authentication.yml
+  href: https://artifacts.apis.io/timezonedb/authentication/timezonedb-authentication.yml
   title: ''
   type: Authentication
   url: authentication/timezonedb-authentication.yml
@@ -193,7 +192,7 @@ score:
     catalog_gap: 48.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 31.6
     contract_governance: 23.5
@@ -201,7 +200,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 44.6
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -215,14 +214,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/timezonedb/refs/heads/main/screenshots/timezonedb-2026-06-20T195402.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/timezonedb/timezonedb-2026-06-20T195402.png
 security:
 - kind: authentication
   name: Timezonedb Authentication

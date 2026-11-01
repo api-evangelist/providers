@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,32 +76,32 @@ common:
   type: TermsOfService
   url: https://www.meniga.com/terms-and-conditions/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meniga/refs/heads/main/packages/meniga-packages.yml
+  href: https://artifacts.apis.io/meniga/packages/meniga-packages.yml
   title: ''
   type: Packages
   url: packages/meniga-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/meniga/refs/heads/main/packages/meniga-packages.yml
+  href: https://artifacts.apis.io/meniga/packages/meniga-packages.yml
   title: ''
   type: SDKs
   url: packages/meniga-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meniga/refs/heads/main/authentication/meniga-authentication.yml
+  href: https://artifacts.apis.io/meniga/authentication/meniga-authentication.yml
   title: ''
   type: Authentication
   url: authentication/meniga-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meniga/refs/heads/main/security/meniga-domain-security.yml
+  href: https://artifacts.apis.io/meniga/security/meniga-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meniga-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meniga/refs/heads/main/conformance/meniga-conformance.yml
+  href: https://artifacts.apis.io/meniga/conformance/meniga-conformance.yml
   title: ''
   type: Conformance
   url: conformance/meniga-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meniga/refs/heads/main/llms/meniga-llms.txt
+  href: https://artifacts.apis.io/meniga/llms/meniga-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meniga-llms.txt
@@ -115,10 +117,10 @@ overview: 'Meniga is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Meniga''s developer surface includes documentation, getting-started guide, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: emerging
-  composite: 21.7
+  composite: 23.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -131,10 +133,10 @@ score:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 47.6
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 21.7
+    developer_ergonomics: 57.1
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 23.2
   provenance:
     conformance: first-party
   regulatory:
@@ -143,14 +145,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/meniga/refs/heads/main/screenshots/meniga-2026-08-07T172522.png
+screenshot: https://apis.io/screenshots/meniga/meniga-2026-08-07T172522.png
 security:
 - kind: authentication
   name: Meniga Authentication

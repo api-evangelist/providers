@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -79,9 +81,6 @@ collections:
   name: Dagster External Assets REST API
   slug: postman-dagster-external-assets-rest-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Dagster External Assets REST Checks API
   slug: open-dagster-checks-api
 - collection_type: open
@@ -95,17 +94,17 @@ collections:
   slug: open-dagster-observations-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/plans/dagster-plans-pricing.yml
+  href: https://artifacts.apis.io/dagster/plans/dagster-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dagster-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/rate-limits/dagster-rate-limits.yml
+  href: https://artifacts.apis.io/dagster/rate-limits/dagster-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dagster-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/finops/dagster-finops.yml
+  href: https://artifacts.apis.io/dagster/finops/dagster-finops.yml
   title: ''
   type: FinOps
   url: finops/dagster-finops.yml
@@ -134,17 +133,17 @@ common:
   type: License
   url: https://github.com/dagster-io/dagster/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/agentic-access/dagster-agentic-access.yml
+  href: https://artifacts.apis.io/dagster/agentic-access/dagster-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dagster-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/security/dagster-domain-security.yml
+  href: https://artifacts.apis.io/dagster/security/dagster-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dagster-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/authentication/dagster-authentication.yml
+  href: https://artifacts.apis.io/dagster/authentication/dagster-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dagster-authentication.yml
@@ -153,17 +152,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/dagster/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/arazzo/dagster-external-asset-event-pipeline-workflow.yml
+  href: https://artifacts.apis.io/dagster/arazzo/dagster-external-asset-event-pipeline-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dagster-external-asset-event-pipeline-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/arazzo/dagster-materialize-and-check-asset-workflow.yml
+  href: https://artifacts.apis.io/dagster/arazzo/dagster-materialize-and-check-asset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dagster-materialize-and-check-asset-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/arazzo/dagster-observe-then-materialize-asset-workflow.yml
+  href: https://artifacts.apis.io/dagster/arazzo/dagster-observe-then-materialize-asset-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/dagster-observe-then-materialize-asset-workflow.yml
@@ -248,12 +247,12 @@ common:
   type: Contact
   url: https://dagster.io/contact
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/json-ld/dagster-context.jsonld
+  href: https://artifacts.apis.io/dagster/json-ld/dagster-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/dagster-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/vocabulary/dagster-vocabulary.yml
+  href: https://artifacts.apis.io/dagster/vocabulary/dagster-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/dagster-vocabulary.yml
@@ -264,13 +263,13 @@ common:
 created: '2026-03-03'
 description: Dagster is a data orchestration platform centered on software-defined assets with strong observability and testing support. It exposes a GraphQL API for programmatic interaction with Dagster instances and a REST API for reporting external asset materializations, checks, and observations from outside pipelines.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Dagster Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: dagster-finops
-  template: true
+  template: false
 graphqls:
 - description: The Dagster GraphQL API allows clients to interact with Dagster programmatically. It can be used to query information about Dagster runs, retrieve metadata about repositories, jobs, and ops, and launc
   name: Dagster GraphQL API
@@ -307,7 +306,10 @@ plans:
 - name: Dagster Plans Pricing
   plan_count: 3
   slug: dagster-plans-pricing
-random_paper: 20
+- name: Dagster Price Estimates
+  plan_count: 0
+  slug: dagster-price-estimates
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Dagster Rate Limits
@@ -338,26 +340,23 @@ rules:
   slug: dagster-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 54.4
+  composite: 60.5
   coverage:
     artifact_dirs: 20
-    catalog_earned: 61.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_earned: 73.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 42.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.2
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 27.3
     contract_quality: 57.3
     developer_ergonomics: 65.5
     discoverability: 64.3
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 59.6
+    operational_transparency: 39.5
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     contracts:
@@ -371,13 +370,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/screenshots/dagster-2026-06-20T175440.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dagster/dagster-2026-06-20T175440.png
 security:
 - kind: authentication
   name: Dagster Authentication

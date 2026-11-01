@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 12
 apis:
 - description: Free public REST API that returns whether a given crypto address is identified as sanctioned by OFAC, EU, or UN sanctions authorities. No commercial licence required; widely embedded by wallets, dApps
@@ -75,7 +77,7 @@ apis:
 artifact_total: 19
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/finops/chainalysis-finops.yml
+  href: https://artifacts.apis.io/chainalysis/finops/chainalysis-finops.yml
   title: ''
   type: FinOps
   url: finops/chainalysis-finops.yml
@@ -144,73 +146,73 @@ common:
   type: X
   url: https://x.com/chainalysis
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/llms/chainalysis-llms.txt
+  href: https://artifacts.apis.io/chainalysis/llms/chainalysis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chainalysis-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/packages/chainalysis-packages.yml
+  href: https://artifacts.apis.io/chainalysis/packages/chainalysis-packages.yml
   title: ''
   type: Packages
   url: packages/chainalysis-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/packages/chainalysis-packages.yml
+  href: https://artifacts.apis.io/chainalysis/packages/chainalysis-packages.yml
   title: ''
   type: SDKs
   url: packages/chainalysis-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/authentication/chainalysis-authentication.yml
+  href: https://artifacts.apis.io/chainalysis/authentication/chainalysis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chainalysis-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/errors/chainalysis-problem-types.yml
+  href: https://artifacts.apis.io/chainalysis/errors/chainalysis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/chainalysis-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/lifecycle/chainalysis-lifecycle.yml
+  href: https://artifacts.apis.io/chainalysis/lifecycle/chainalysis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chainalysis-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/conventions/chainalysis-conventions.yml
+  href: https://artifacts.apis.io/chainalysis/conventions/chainalysis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chainalysis-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/conformance/chainalysis-conformance.yml
+  href: https://artifacts.apis.io/chainalysis/conformance/chainalysis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chainalysis-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/security/chainalysis-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/chainalysis/security/chainalysis-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/chainalysis-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/security/chainalysis-domain-security.yml
+  href: https://artifacts.apis.io/chainalysis/security/chainalysis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chainalysis-domain-security.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/rate-limits/chainalysis-rate-limits.yml
+  href: https://artifacts.apis.io/chainalysis/rate-limits/chainalysis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chainalysis-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/plans/chainalysis-plans-pricing.yml
+  href: https://artifacts.apis.io/chainalysis/plans/chainalysis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chainalysis-plans-pricing.yml
 created: '2026-05-23'
 description: Chainalysis is a blockchain analysis company providing data, software, and research to government agencies, exchanges, banks, and crypto businesses for compliance, investigation, and risk management. Core products include KYT (real-time transaction monitoring), Address Screening, the publicly hosted Sanctions API, Reactor (investigations and fund tracing), Crypto Investigations, Wallet Scan, Rapid (AI-assisted triage), VASP Risking, and Sentinel (stablecoin risk). Security-side products include Hexagate (web3 threat prevention) and Alterya (fraud prevention). Most APIs are REST-based and gated behind enterprise contracts, except the free public Sanctions Screening API.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Chainalysis Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: chainalysis-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chainalysis.png
@@ -227,14 +229,14 @@ plans:
 - name: Chainalysis Plans Pricing
   plan_count: 1
   slug: chainalysis-plans-pricing
-random_paper: 10
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Chainalysis Rate Limits
   slug: chainalysis-rate-limits
 score:
   band: developing
-  composite: 40.3
+  composite: 42.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 56.0
@@ -242,15 +244,15 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 63.2
+    access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 40.5
-    discoverability: 78.6
-    operational_transparency: 50.0
-  previous_composite: 41.8
+    developer_ergonomics: 45.2
+    discoverability: 71.4
+    operational_transparency: 52.6
+  previous_composite: 42.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -260,14 +262,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/screenshots/chainalysis-2026-06-20T174208.png
+screenshot: https://apis.io/screenshots/chainalysis/chainalysis-2026-06-20T174208.png
 security:
 - kind: authentication
   name: Chainalysis Authentication

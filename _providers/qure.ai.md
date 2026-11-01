@@ -30,15 +30,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 26.2
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - baseURL: BASE_URL
   baseurl_source: declared
@@ -55,20 +57,20 @@ apis:
   description: The Upload DICOMs API from Qure.ai — 1 operation(s) for upload dicoms.
   name: Qure.ai Upload DICOMs API
   slug: qure.ai-upload-dicoms-api
-artifact_total: 7
+artifact_total: 10
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/capabilities/qure.ai-capability-edges.yml
+  href: https://artifacts.apis.io/qure.ai/capabilities/qure.ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/qure.ai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/overlays/qure.ai-platform-api-xray-v2-er-overlay.yaml
+  href: https://artifacts.apis.io/qure.ai/overlays/qure.ai-platform-api-xray-v2-er-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qure.ai-platform-api-xray-v2-er-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/overlays/qure.ai-platform-api-xray-ct-overlay.yaml
+  href: https://artifacts.apis.io/qure.ai/overlays/qure.ai-platform-api-xray-ct-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qure.ai-platform-api-xray-ct-overlay.yaml
@@ -129,82 +131,90 @@ common:
   type: ChangeLog
   url: https://documentation.qure.ai/release-notes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/changelog/qure.ai-changelog.yml
+  href: https://artifacts.apis.io/qure.ai/changelog/qure.ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qure.ai-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/lifecycle/qure.ai-lifecycle.yml
+  href: https://artifacts.apis.io/qure.ai/lifecycle/qure.ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qure.ai-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/authentication/qure.ai-authentication.yml
+  href: https://artifacts.apis.io/qure.ai/authentication/qure.ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qure.ai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/conventions/qure.ai-conventions.yml
+  href: https://artifacts.apis.io/qure.ai/conventions/qure.ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qure.ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/conformance/qure.ai-conformance.yml
+  href: https://artifacts.apis.io/qure.ai/conformance/qure.ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qure.ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/errors/qure.ai-problem-types.yml
+  href: https://artifacts.apis.io/qure.ai/errors/qure.ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qure.ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/data-model/qure.ai-data-model.yml
+  href: https://artifacts.apis.io/qure.ai/data-model/qure.ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qure.ai-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/security/qure.ai-domain-security.yml
+  href: https://artifacts.apis.io/qure.ai/security/qure.ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qure.ai-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/packages/qure.ai-packages.yml
+  href: https://artifacts.apis.io/qure.ai/packages/qure.ai-packages.yml
   title: ''
   type: Packages
   url: packages/qure.ai-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/plans/qure.ai-plans-pricing.yml
+  href: https://artifacts.apis.io/qure.ai/plans/qure.ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qure.ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/rate-limits/qure.ai-rate-limits.yml
+  href: https://artifacts.apis.io/qure.ai/rate-limits/qure.ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qure.ai-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/llms/qure.ai-llms.txt
+  href: https://artifacts.apis.io/qure.ai/llms/qure.ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qure.ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/mcp/qure.ai-mcp.yml
+  href: https://artifacts.apis.io/qure.ai/mcp/qure.ai-mcp.yml
   title: ''
   type: MCPServerCandidate
   url: mcp/qure.ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/qure.ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/well-known/qure.ai-well-known.yml
+  href: https://artifacts.apis.io/qure.ai/well-known/qure.ai-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/qure.ai-well-known.yml
 created: '2026-08-26'
 description: Qure.ai is a healthcare artificial-intelligence company, founded in 2016 and headquartered in Mumbai, India, that builds regulator-cleared deep-learning software for medical imaging. Its products read chest X-rays (qXR), head and chest CT (qER, qCT), and musculoskeletal X-rays (qMSK) to detect, quantify and triage findings such as tuberculosis, lung nodules, intracranial hemorrhage, midline shift, cranial fracture, pneumothorax and pleural effusion, typically in under a minute. The company exposes these models to partners through the Qure Platform API, a token-authenticated DICOM ingest and results-retrieval REST interface documented at docs.qure.ai, alongside an on-premises Gateway deployment and the Qure.ai clinical app. Qure.ai holds multiple US FDA 510(k) clearances and EU MDR/MDD CE certifications and reports deployment across more than 85 countries.
+finops:
+- has_sources: true
+  method: derived
+  name: Qure.Ai Finops
+  primary_unit: ''
+  service_category: ''
+  slug: qure.ai-finops
+  template: true
 image: https://www.qure.ai/favicon.ico
 layout: provider
 modified: '2026-08-26'
@@ -219,29 +229,29 @@ plans:
 - name: Qure.Ai Plans Pricing
   plan_count: 0
   slug: qure.ai-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Qure.Ai Rate Limits
   slug: qure.ai-rate-limits
 score:
   band: developing
-  composite: 50.1
+  composite: 47.0
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 40.0
+    artifact_dirs: 24
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.6
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 43.5
     developer_ergonomics: 58.9
-    discoverability: 78.6
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -249,7 +259,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 50.0
+  previous_composite: 47.6
   provenance:
     conformance: first-party
     contracts:
@@ -271,13 +281,14 @@ score:
     regime: Health
     regime_id: health
     score: 27.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/screenshots/qure.ai-2026-09-02T152720.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/qure.ai/qure.ai-2026-09-02T152720.png
 security:
 - kind: authentication
   name: Qure.Ai Authentication
@@ -287,6 +298,12 @@ security:
   name: Qure.Ai Domain Security
   slug: qure.ai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: qure-chest-xray-triage
+  slug: qure.ai-chest-xray-triage
+- name: qure-head-ct-triage
+  slug: qure.ai-head-ct-triage
 slug: qure.ai
 tags:
 - Artificial Intelligence

@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,16 +39,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The PLaMo API is Preferred Networks' cloud service for its domestically developed PLaMo large language models. Its interface is compatible with the OpenAI API, so existing OpenAI/LangChain client code
   name: PLaMo API
   slug: plamo-api
-artifact_total: 7
+artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/security/preferred-networks-domain-security.yml
+  href: https://artifacts.apis.io/preferred-networks/security/preferred-networks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/preferred-networks-domain-security.yml
@@ -103,82 +105,90 @@ common:
   type: Examples
   url: https://github.com/pfnet-research/plamo-examples
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/plans/preferred-networks-plans-pricing.yml
+  href: https://artifacts.apis.io/preferred-networks/plans/preferred-networks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/preferred-networks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/rate-limits/preferred-networks-rate-limits.yml
+  href: https://artifacts.apis.io/preferred-networks/rate-limits/preferred-networks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/preferred-networks-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/authentication/preferred-networks-authentication.yml
+  href: https://artifacts.apis.io/preferred-networks/authentication/preferred-networks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/preferred-networks-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/conventions/preferred-networks-conventions.yml
+  href: https://artifacts.apis.io/preferred-networks/conventions/preferred-networks-conventions.yml
   title: ''
   type: Conventions
   url: conventions/preferred-networks-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/lifecycle/preferred-networks-lifecycle.yml
+  href: https://artifacts.apis.io/preferred-networks/lifecycle/preferred-networks-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/preferred-networks-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/lifecycle/preferred-networks-lifecycle.yml
+  href: https://artifacts.apis.io/preferred-networks/lifecycle/preferred-networks-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/preferred-networks-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/changelog/preferred-networks-changelog.yml
+  href: https://artifacts.apis.io/preferred-networks/changelog/preferred-networks-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/preferred-networks-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/data-model/preferred-networks-data-model.yml
+  href: https://artifacts.apis.io/preferred-networks/data-model/preferred-networks-data-model.yml
   title: ''
   type: DataModel
   url: data-model/preferred-networks-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/conformance/preferred-networks-conformance.yml
+  href: https://artifacts.apis.io/preferred-networks/conformance/preferred-networks-conformance.yml
   title: ''
   type: Conformance
   url: conformance/preferred-networks-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/security/preferred-networks-trust-center.yml
+  href: https://artifacts.apis.io/preferred-networks/security/preferred-networks-trust-center.yml
   title: ''
   type: Compliance
   url: security/preferred-networks-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/packages/preferred-networks-packages.yml
+  href: https://artifacts.apis.io/preferred-networks/packages/preferred-networks-packages.yml
   title: ''
   type: Packages
   url: packages/preferred-networks-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/cli/preferred-networks-cli.yml
+  href: https://artifacts.apis.io/preferred-networks/cli/preferred-networks-cli.yml
   title: ''
   type: CLI
   url: cli/preferred-networks-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/mcp/preferred-networks-mcp.yml
+  href: https://artifacts.apis.io/preferred-networks/mcp/preferred-networks-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/preferred-networks-mcp.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/sandbox/preferred-networks-sandbox.yml
+  href: https://artifacts.apis.io/preferred-networks/sandbox/preferred-networks-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/preferred-networks-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/llms/preferred-networks-llms.txt
+  href: https://artifacts.apis.io/preferred-networks/llms/preferred-networks-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/preferred-networks-llms.txt
 created: '2026-08-26'
 description: Preferred Networks, Inc. (PFN) is a Tokyo-based AI company founded in March 2014 that vertically integrates the AI value chain from its own MN-Core AI processors and supercomputing infrastructure through to generative-AI foundation models, solutions and products. PFN develops PLaMo, a Japanese large language model built fully from scratch, and offers it commercially through the cloud-hosted PLaMo API — an OpenAI-compatible chat-completions, tokenize and models service at api.platform.preferredai.jp — alongside on-premises, Amazon Bedrock Marketplace, Snowflake and edge (PLaMo Lite) deployment options. PFN also maintains widely used open-source machine-learning software including Optuna, Chainer, PFRL, pytorch-pfn-extras and the PLaMo Translate CLI, which doubles as a locally hosted MCP server.
+finops:
+- has_sources: true
+  method: derived
+  name: Preferred Networks Finops
+  primary_unit: 1m tokens (input)
+  service_category: ''
+  slug: preferred-networks-finops
+  template: false
 image: https://www.preferred.jp/images/ogp.png
 layout: provider
 mcp_servers:
@@ -195,31 +205,31 @@ overview: 'Preferred Networks is listed with 1 API on the [APIs.io](https://apis
   Preferred Networks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
 plans:
 - name: Preferred Networks Plans Pricing
-  plan_count: 4
+  plan_count: 6
   slug: preferred-networks-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 7
   name: Preferred Networks Rate Limits
   slug: preferred-networks-rate-limits
 score:
   band: developing
-  composite: 39.7
+  composite: 52.3
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 61.0
+    artifact_dirs: 19
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 1.6
   facets:
-    access_clarity: 50.0
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 6.5
-    developer_ergonomics: 54.8
+    developer_ergonomics: 71.4
     discoverability: 65.0
-    operational_transparency: 57.9
+    operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -227,7 +237,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 40.0
+  previous_composite: 50.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -236,15 +246,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/preferred-networks/refs/heads/main/screenshots/preferred-networks-2026-09-02T151924.png
+screenshot: https://apis.io/screenshots/preferred-networks/preferred-networks-2026-09-02T151924.png
 security:
 - kind: authentication
   name: Preferred Networks Authentication

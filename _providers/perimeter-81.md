@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 14
@@ -130,11 +132,8 @@ apis:
   description: The Wireguard API from Perimeter 81 — 2 operation(s) for wireguard.
   name: Perimeter 81 Wireguard API
   slug: perimeter-81-wireguard-api
-artifact_total: 39
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Harmony SASE Public Application API
   slug: open-perimeter-81-application-api
@@ -188,7 +187,7 @@ collections:
   slug: open-perimeter-81-wireguard-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/plans/perimeter-81-plans-pricing.yml
+  href: https://artifacts.apis.io/perimeter-81/plans/perimeter-81-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/perimeter-81-plans-pricing.yml
@@ -197,22 +196,22 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/checkpoint/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/capabilities/perimeter-81-capability-edges.yml
+  href: https://artifacts.apis.io/perimeter-81/capabilities/perimeter-81-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/perimeter-81-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/mcp/perimeter-81-mcp.yml
+  href: https://artifacts.apis.io/perimeter-81/mcp/perimeter-81-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/perimeter-81-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/overlays/perimeter-81-openapi-overlay.yaml
+  href: https://artifacts.apis.io/perimeter-81/overlays/perimeter-81-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/perimeter-81-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/security/perimeter-81-domain-security.yml
+  href: https://artifacts.apis.io/perimeter-81/security/perimeter-81-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/perimeter-81-domain-security.yml
@@ -257,22 +256,22 @@ common:
   type: StatusPage
   url: https://status.perimeter81.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/lifecycle/perimeter-81-lifecycle.yml
+  href: https://artifacts.apis.io/perimeter-81/lifecycle/perimeter-81-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/perimeter-81-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/llms/perimeter-81-llms.txt
+  href: https://artifacts.apis.io/perimeter-81/llms/perimeter-81-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/perimeter-81-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/well-known/perimeter-81-well-known.yml
+  href: https://artifacts.apis.io/perimeter-81/well-known/perimeter-81-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/perimeter-81-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/perimeter-81/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -292,10 +291,10 @@ plans:
 - name: Perimeter 81 Plans Pricing
   plan_count: 0
   slug: perimeter-81-plans-pricing
-random_paper: 1
+random_paper: 19
 score:
   band: thin
-  composite: 28.7
+  composite: 38.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -303,15 +302,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 52.9
-    developer_ergonomics: 19.6
-    discoverability: 73.2
+    contract_quality: 49.5
+    developer_ergonomics: 58.9
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 28.6
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,14 +326,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 20.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/screenshots/perimeter-81-2026-09-02T151050.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/perimeter-81/perimeter-81-2026-09-02T151050.png
 security:
 - kind: authentication
   name: Perimeter 81 Authentication
@@ -344,6 +344,12 @@ security:
   name: Perimeter 81 Domain Security
   slug: perimeter-81-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Define network objects and update a Harmony SASE firewall policy
+  slug: perimeter-81-manage-firewall-objects
+- name: Provision a Harmony SASE enhanced network with a region and IPSec tunnel
+  slug: perimeter-81-provision-enhanced-network
 slug: perimeter-81
 tags:
 - Company

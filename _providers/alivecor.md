@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: HIPAA-compliant REST API providing cloud access to patient ECG data via KardiaPro — account management, patient provisioning, and webhook notifications for new ECG availability. Access is gated behind
@@ -83,7 +85,7 @@ common:
   type: Compliance
   url: https://alivecor.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/security/alivecor-trust-center.yml
+  href: https://artifacts.apis.io/alivecor/security/alivecor-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/alivecor-trust-center.yml
@@ -92,47 +94,47 @@ common:
   type: Security
   url: https://alivecor.com/vulnerability-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/security/alivecor-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/alivecor/security/alivecor-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/alivecor-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/conformance/alivecor-conformance.yml
+  href: https://artifacts.apis.io/alivecor/conformance/alivecor-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alivecor-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/security/alivecor-domain-security.yml
+  href: https://artifacts.apis.io/alivecor/security/alivecor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alivecor-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/authentication/alivecor-authentication.yml
+  href: https://artifacts.apis.io/alivecor/authentication/alivecor-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alivecor-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/conventions/alivecor-conventions.yml
+  href: https://artifacts.apis.io/alivecor/conventions/alivecor-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alivecor-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/asyncapi/alivecor-kardiapro-webhooks.yml
+  href: https://artifacts.apis.io/alivecor/asyncapi/alivecor-kardiapro-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/alivecor-kardiapro-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/packages/alivecor-packages.yml
+  href: https://artifacts.apis.io/alivecor/packages/alivecor-packages.yml
   title: ''
   type: Packages
   url: packages/alivecor-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/packages/alivecor-packages.yml
+  href: https://artifacts.apis.io/alivecor/packages/alivecor-packages.yml
   title: ''
   type: SDKs
   url: packages/alivecor-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/llms/alivecor-llms.txt
+  href: https://artifacts.apis.io/alivecor/llms/alivecor-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alivecor-llms.txt
@@ -151,26 +153,26 @@ overview: 'Alivecor is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Alivecor''s developer surface includes support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 17
+random_paper: 13
 score:
-  band: thin
-  composite: 26.8
+  band: developing
+  composite: 40.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 23.8
-    discoverability: 64.3
-    operational_transparency: 10.5
-  previous_composite: 26.7
+    developer_ergonomics: 35.7
+    discoverability: 57.1
+    operational_transparency: 23.7
+  previous_composite: 40.0
   provenance:
     conformance: first-party
   regulatory:
@@ -184,15 +186,15 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 16.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 26.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/screenshots/alivecor-2026-07-25T195625.png
+screenshot: https://apis.io/screenshots/alivecor/alivecor-2026-07-25T195625.png
 security:
 - kind: authentication
   name: Alivecor Authentication

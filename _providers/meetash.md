@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,22 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/meetash/refs/heads/main/plans/meetash-plans-pricing.yml
+  href: https://artifacts.apis.io/meetash/plans/meetash-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/meetash-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/meetash/refs/heads/main/rate-limits/meetash-rate-limits.yml
+  href: https://artifacts.apis.io/meetash/rate-limits/meetash-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/meetash-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meetash/refs/heads/main/security/meetash-domain-security.yml
+  href: https://artifacts.apis.io/meetash/security/meetash-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meetash-domain-security.yml
@@ -84,12 +86,12 @@ common:
   type: Compliance
   url: https://trust.poweredbyash.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meetash/refs/heads/main/conformance/meetash-conformance.yml
+  href: https://artifacts.apis.io/meetash/conformance/meetash-conformance.yml
   title: ''
   type: Conformance
   url: conformance/meetash-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meetash/refs/heads/main/lifecycle/meetash-lifecycle.yml
+  href: https://artifacts.apis.io/meetash/lifecycle/meetash-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/meetash-lifecycle.yml
@@ -98,7 +100,7 @@ common:
   type: StatusPage
   url: https://status.ashwellness.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meetash/refs/heads/main/llms/meetash-llms.txt
+  href: https://artifacts.apis.io/meetash/llms/meetash-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meetash-llms.txt
@@ -133,16 +135,16 @@ plans:
 - name: Meetash Plans Pricing
   plan_count: 0
   slug: meetash-plans-pricing
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Meetash Rate Limits
   slug: meetash-rate-limits
 score:
   band: emerging
-  composite: 20.5
+  composite: 20.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -153,8 +155,8 @@ score:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 55.4
+    developer_ergonomics: 16.7
+    discoverability: 48.2
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -163,7 +165,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 20.5
+  previous_composite: 20.8
   provenance:
     conformance: first-party
   regulatory:
@@ -176,14 +178,14 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/meetash/refs/heads/main/screenshots/meetash-2026-08-07T172422.png
+screenshot: https://apis.io/screenshots/meetash/meetash-2026-08-07T172422.png
 security:
 - kind: domain-security
   name: Meetash Domain Security

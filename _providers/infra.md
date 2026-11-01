@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
+  score: 26.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.infrahq.com
@@ -85,11 +87,8 @@ arazzos:
 - description: Create a user, put them in a group, and grant the group access to a destination.
   name: Onboard a user and grant destination access
   slug: infra-onboard-and-grant
-artifact_total: 21
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Infra Authentication API
   slug: open-infra-authentication-api
@@ -116,12 +115,12 @@ collections:
   slug: open-infra-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/capabilities/infra-capability-edges.yml
+  href: https://artifacts.apis.io/infra/capabilities/infra-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/infra-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/mcp/infra-mcp.yml
+  href: https://artifacts.apis.io/infra/mcp/infra-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/infra-mcp.yml
@@ -162,87 +161,87 @@ common:
   type: SourceCode
   url: https://github.com/infrahq/infra
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/openapi/_original/infra-openapi-original.json
+  href: https://artifacts.apis.io/infra/openapi/_original/infra-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/infra-openapi-original.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/packages/infra-packages.yml
+  href: https://artifacts.apis.io/infra/packages/infra-packages.yml
   title: ''
   type: Packages
   url: packages/infra-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/packages/infra-packages.yml
+  href: https://artifacts.apis.io/infra/packages/infra-packages.yml
   title: ''
   type: SDKs
   url: packages/infra-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/cli/infra-cli.yml
+  href: https://artifacts.apis.io/infra/cli/infra-cli.yml
   title: ''
   type: CLI
   url: cli/infra-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/authentication/infra-authentication.yml
+  href: https://artifacts.apis.io/infra/authentication/infra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/infra-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/conventions/infra-conventions.yml
+  href: https://artifacts.apis.io/infra/conventions/infra-conventions.yml
   title: ''
   type: Conventions
   url: conventions/infra-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/errors/infra-problem-types.yml
+  href: https://artifacts.apis.io/infra/errors/infra-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/infra-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/lifecycle/infra-lifecycle.yml
+  href: https://artifacts.apis.io/infra/lifecycle/infra-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/infra-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/changelog/infra-changelog.yml
+  href: https://artifacts.apis.io/infra/changelog/infra-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/infra-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/conformance/infra-conformance.yml
+  href: https://artifacts.apis.io/infra/conformance/infra-conformance.yml
   title: ''
   type: Conformance
   url: conformance/infra-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/data-model/infra-data-model.yml
+  href: https://artifacts.apis.io/infra/data-model/infra-data-model.yml
   title: ''
   type: DataModel
   url: data-model/infra-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/security/infra-domain-security.yml
+  href: https://artifacts.apis.io/infra/security/infra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/infra-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/overlays/infra-openapi-overlay.yaml
+  href: https://artifacts.apis.io/infra/overlays/infra-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/infra-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/llms/infra-llms.txt
+  href: https://artifacts.apis.io/infra/llms/infra-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/infra-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/infra/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/arazzo/infra-onboard-and-grant.yml
+  href: https://artifacts.apis.io/infra/arazzo/infra-onboard-and-grant.yml
   title: ''
   type: Arazzo
   url: arazzo/infra-onboard-and-grant.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/arazzo/infra-issue-access-key.yml
+  href: https://artifacts.apis.io/infra/arazzo/infra-issue-access-key.yml
   title: ''
   type: Arazzo
   url: arazzo/infra-issue-access-key.yml
@@ -261,7 +260,7 @@ overview: 'Infra publishes 8 API contracts indexed on the [APIs.io](https://apis
 random_paper: 0
 score:
   band: thin
-  composite: 30.8
+  composite: 30.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -269,15 +268,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 38.9
+    contract_quality: 35.7
     developer_ergonomics: 56.5
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 30.7
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 30.4
   provenance:
     conformance: derived
     contracts:
@@ -293,13 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/screenshots/infra-2026-07-25T222422.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/infra/infra-2026-07-25T222422.png
 security:
 - kind: authentication
   name: Infra Authentication
@@ -309,6 +309,14 @@ security:
   name: Infra Domain Security
   slug: infra-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Grant a user or group access to a destination
+  slug: infra-grant-access
+- name: Issue and manage Infra access keys
+  slug: infra-manage-access-keys
+- name: Onboard a user and place them in a group with access
+  slug: infra-onboard-identity
 slug: infra
 tags:
 - Company

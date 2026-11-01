@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: DNS Coffee collects, analyzes, and archives changes to root zone files provided by various top-level domains (TLDs), offering one of the most comprehensive views of the current state of the Domain Nam
@@ -42,17 +44,17 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dns-coffee/refs/heads/main/plans/dns-coffee-plans-pricing.yml
+  href: https://artifacts.apis.io/dns-coffee/plans/dns-coffee-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dns-coffee-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dns-coffee/refs/heads/main/rate-limits/dns-coffee-rate-limits.yml
+  href: https://artifacts.apis.io/dns-coffee/rate-limits/dns-coffee-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dns-coffee-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dns-coffee/refs/heads/main/finops/dns-coffee-finops.yml
+  href: https://artifacts.apis.io/dns-coffee/finops/dns-coffee-finops.yml
   title: ''
   type: FinOps
   url: finops/dns-coffee-finops.yml
@@ -65,12 +67,12 @@ common:
   type: BlogRSS
   url: https://dns.coffee/news.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dns-coffee/refs/heads/main/security/dns-coffee-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dns-coffee/security/dns-coffee-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dns-coffee-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dns-coffee/refs/heads/main/security/dns-coffee-domain-security.yml
+  href: https://artifacts.apis.io/dns-coffee/security/dns-coffee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dns-coffee-domain-security.yml
@@ -92,7 +94,7 @@ finops:
 - has_sources: false
   method: generated
   name: Dns Coffee Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: dns-coffee-finops
   template: true
@@ -110,14 +112,14 @@ plans:
 - name: Dns Coffee Plans Pricing
   plan_count: 3
   slug: dns-coffee-plans-pricing
-random_paper: 18
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Dns Coffee Rate Limits
   slug: dns-coffee-rate-limits
 score:
   band: minimal
-  composite: 9.3
+  composite: 10.7
   coverage:
     artifact_dirs: 7
     catalog_earned: 33.0
@@ -125,29 +127,29 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 48.2
-    operational_transparency: 7.9
-  previous_composite: 10.3
+    operational_transparency: 18.4
+  previous_composite: 10.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dns-coffee/refs/heads/main/screenshots/dns-coffee-2026-06-20T180101.png
+screenshot: https://apis.io/screenshots/dns-coffee/dns-coffee-2026-06-20T180101.png
 security:
 - kind: domain-security
   name: Dns Coffee Domain Security

@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 26.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.marketstack.com/v2
@@ -112,7 +114,7 @@ apis:
   description: The ETFs API from Marketstack — 2 operation(s) for etfs.
   name: Marketstack ET Fs API
   slug: marketstack-etfs-api
-artifact_total: 21
+artifact_total: 26
 collections:
 - collection_type: open
   name: Marketstack API v2
@@ -179,77 +181,85 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/security/marketstack-domain-security.yml
+  href: https://artifacts.apis.io/marketstack/security/marketstack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/marketstack-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/packages/marketstack-packages.yml
+  href: https://artifacts.apis.io/marketstack/packages/marketstack-packages.yml
   title: ''
   type: Packages
   url: packages/marketstack-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/mcp/marketstack-mcp.yml
+  href: https://artifacts.apis.io/marketstack/mcp/marketstack-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/marketstack-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/llms/marketstack-llms.txt
+  href: https://artifacts.apis.io/marketstack/llms/marketstack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/marketstack-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/overlays/marketstack-v2-overlay.yaml
+  href: https://artifacts.apis.io/marketstack/overlays/marketstack-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/marketstack-v2-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/conformance/marketstack-conformance.yml
+  href: https://artifacts.apis.io/marketstack/conformance/marketstack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/marketstack-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/errors/marketstack-problem-types.yml
+  href: https://artifacts.apis.io/marketstack/errors/marketstack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/marketstack-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/lifecycle/marketstack-lifecycle.yml
+  href: https://artifacts.apis.io/marketstack/lifecycle/marketstack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/marketstack-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/authentication/marketstack-authentication.yml
+  href: https://artifacts.apis.io/marketstack/authentication/marketstack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/marketstack-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/conventions/marketstack-conventions.yml
+  href: https://artifacts.apis.io/marketstack/conventions/marketstack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/marketstack-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/data-model/marketstack-data-model.yml
+  href: https://artifacts.apis.io/marketstack/data-model/marketstack-data-model.yml
   title: ''
   type: DataModel
   url: data-model/marketstack-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/rate-limits/marketstack-rate-limits.yml
+  href: https://artifacts.apis.io/marketstack/rate-limits/marketstack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/marketstack-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/plans/marketstack-plans.yml
+  href: https://artifacts.apis.io/marketstack/plans/marketstack-plans.yml
   title: ''
   type: Plans
   url: plans/marketstack-plans.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/marketstack/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-05-28'
 description: Marketstack is a real-time, intraday, and historical stock market data API from APILayer, delivering JSON data for tickers across 70+ global stock exchanges. The REST API covers end-of-day and intraday prices, real-time stock prices, splits, dividends, commodities, company ratings, market indexes, bonds, ETF holdings, currencies, timezones, and SEC EDGAR company filings and facts, all authenticated with a simple access_key query parameter.
+finops:
+- has_sources: true
+  method: derived
+  name: Marketstack Finops
+  primary_unit: requests
+  service_category: ''
+  slug: marketstack-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marketstack.png
 layout: provider
 mcp_servers:
@@ -260,38 +270,41 @@ modified: '2026-07-22'
 name: Marketstack
 nav: Providers
 network: true
-overview: 'Marketstack publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bonds API, Commodities API, Company Ratings API, and 12 more. Tagged areas include Finance, Stock Market, Market Data, End-of-Day Data, and Intraday Data.
+overview: 'Marketstack publishes 15 API contracts indexed on the [APIs.io](https://apis.io/) network, including Bonds API, Commodities API, Company Ratings API, and 12 more. Tagged areas include Finance, Stock Market, Market Data, End of Day, and Intraday Data.
 
 
   Marketstack''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, engineering blog, and 22 more developer resources.'
 plans:
 - name: Marketstack Plans
-  plan_count: 5
+  plan_count: 8
   slug: marketstack-plans
-random_paper: 12
+- name: Marketstack Price Estimates
+  plan_count: 0
+  slug: marketstack-price-estimates
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Marketstack Rate Limits
   slug: marketstack-rate-limits
 score:
-  band: developing
-  composite: 53.4
+  band: strong
+  composite: 55.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 61.0
+    artifact_dirs: 22
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 44.2
-    developer_ergonomics: 60.1
+    developer_ergonomics: 63.7
     discoverability: 71.7
     operational_transparency: 47.4
-  previous_composite: 53.4
+  previous_composite: 54.1
   provenance:
     conformance: derived
     contracts:
@@ -307,14 +320,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/screenshots/marketstack-2026-06-20T184956.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/marketstack/marketstack-2026-06-20T184956.png
 security:
 - kind: authentication
   name: Marketstack Authentication
@@ -324,12 +337,20 @@ security:
   name: Marketstack Domain Security
   slug: marketstack-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Discover tickers and exchanges
+  slug: marketstack-discover-tickers
+- name: Fetch end-of-day price history for a ticker
+  slug: marketstack-eod-history
+- name: Get real-time and intraday prices
+  slug: marketstack-realtime-intraday
 slug: marketstack
 tags:
 - Finance
 - Stock Market
 - Market Data
-- End-of-Day Data
+- End of Day
 - Intraday Data
 - Commodities
 - Bonds

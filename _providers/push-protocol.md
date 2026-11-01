@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 11.2
-  scored_at: '2026-10-17'
+  score: 6.0
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: JavaScript/TypeScript SDK (@pushchain/core) for the Push Chain Universal Layer 1 blockchain. Exposes PushChain.initialize(signer, {network}) for client setup, pushChainClient.universal.sendTransaction
@@ -54,12 +56,12 @@ apis:
 artifact_total: 10
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/push-protocol/refs/heads/main/plans/push-protocol-plans.yml
+  href: https://artifacts.apis.io/push-protocol/plans/push-protocol-plans.yml
   title: ''
   type: Plans
   url: plans/push-protocol-plans.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/push-protocol/refs/heads/main/security/push-protocol-domain-security.yml
+  href: https://artifacts.apis.io/push-protocol/security/push-protocol-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/push-protocol-domain-security.yml
@@ -150,14 +152,14 @@ plans:
 - name: Push Protocol Plans
   plan_count: 1
   slug: push-protocol-plans
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Push Protocol Rate Limits
   slug: push-protocol-rate-limits
 score:
   band: emerging
-  composite: 23.0
+  composite: 22.8
   coverage:
     artifact_dirs: 10
     catalog_earned: 43.0
@@ -165,15 +167,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 65.0
+    discoverability: 62.5
     operational_transparency: 7.9
-  previous_composite: 28.4
+  previous_composite: 22.8
   provenance:
     mcp: first-party
   regulatory:
@@ -182,14 +184,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/push-protocol/refs/heads/main/screenshots/push-protocol-2026-06-20T192317.png
+screenshot: https://apis.io/screenshots/push-protocol/push-protocol-2026-06-20T192317.png
 security:
 - kind: domain-security
   name: Push Protocol Domain Security

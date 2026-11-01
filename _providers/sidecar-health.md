@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sidecar-health/refs/heads/main/security/sidecar-health-domain-security.yml
+  href: https://artifacts.apis.io/sidecar-health/security/sidecar-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sidecar-health-domain-security.yml
@@ -66,7 +68,7 @@ common:
   type: Login
   url: https://app.sidecarhealth.com/login
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sidecar-health/refs/heads/main/well-known/sidecar-health-well-known.yml
+  href: https://artifacts.apis.io/sidecar-health/well-known/sidecar-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sidecar-health-well-known.yml
@@ -82,10 +84,10 @@ overview: 'Sidecar Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Sidecar Health''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 20
+random_paper: 14
 score:
-  band: minimal
-  composite: 10.2
+  band: emerging
+  composite: 13.7
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -95,7 +97,7 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
@@ -108,21 +110,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 10.2
+  previous_composite: 13.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 12.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 16.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sidecar-health/refs/heads/main/screenshots/sidecar-health-2026-09-02T155348.png
+screenshot: https://apis.io/screenshots/sidecar-health/sidecar-health-2026-09-02T155348.png
 security:
 - kind: domain-security
   name: Sidecar Health Domain Security

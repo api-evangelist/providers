@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.6
-  scored_at: '2026-10-17'
+  score: 3.5
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST access to live, vetted India job openings. `GET /jobs` searches by keyword (`q`), Indian city or state (`location`), posting age in days (`days`, 1–365) and result count (`limit`, 1–20, default 1
@@ -61,10 +63,10 @@ overview: 'Jobvetta is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Jobvetta''s developer surface includes documentation, signup flow, and 1 more developer resources.'
-random_paper: 5
+random_paper: 23
 score:
   band: minimal
-  composite: 7.7
+  composite: 7.4
   coverage:
     artifact_dirs: 4
     catalog_earned: 32.0
@@ -78,7 +80,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 60.0
+    discoverability: 56.7
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -87,7 +89,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 7.7
+  previous_composite: 7.4
   provenance:
     mcp: first-party
   regulatory:
@@ -96,14 +98,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jobvetta/refs/heads/main/screenshots/jobvetta-2026-08-07T171010.png
+screenshot: https://apis.io/screenshots/jobvetta/jobvetta-2026-08-07T171010.png
 slug: jobvetta
 tags:
 - Job

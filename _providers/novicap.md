@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 21.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.novicap.com/v1
@@ -46,11 +48,8 @@ apis:
   description: Dynamic discounting suppliers, invoices, payment instructions and adjustments.
   name: Novicap Dynamic Discounting API
   slug: novicap-dynamic-discounting-api
-artifact_total: 7
+artifact_total: 8
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Novicap Confirming Standard API
   slug: open-novicap-confirming-standard-api
@@ -63,7 +62,7 @@ common:
   type: BlogRSS
   url: https://novicap.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/overlays/novicap-overlay.yaml
+  href: https://artifacts.apis.io/novicap/overlays/novicap-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/novicap-overlay.yaml
@@ -92,62 +91,62 @@ common:
   type: TermsOfService
   url: https://novicap.com/aviso-legal/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/authentication/novicap-authentication.yml
+  href: https://artifacts.apis.io/novicap/authentication/novicap-authentication.yml
   title: ''
   type: Authentication
   url: authentication/novicap-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/conventions/novicap-conventions.yml
+  href: https://artifacts.apis.io/novicap/conventions/novicap-conventions.yml
   title: ''
   type: Conventions
   url: conventions/novicap-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/errors/novicap-problem-types.yml
+  href: https://artifacts.apis.io/novicap/errors/novicap-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/novicap-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/lifecycle/novicap-lifecycle.yml
+  href: https://artifacts.apis.io/novicap/lifecycle/novicap-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/novicap-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/data-model/novicap-data-model.yml
+  href: https://artifacts.apis.io/novicap/data-model/novicap-data-model.yml
   title: ''
   type: DataModel
   url: data-model/novicap-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/conformance/novicap-conformance.yml
+  href: https://artifacts.apis.io/novicap/conformance/novicap-conformance.yml
   title: ''
   type: Conformance
   url: conformance/novicap-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/mcp/novicap-mcp.yml
+  href: https://artifacts.apis.io/novicap/mcp/novicap-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/novicap-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/llms/novicap-llms.txt
+  href: https://artifacts.apis.io/novicap/llms/novicap-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/novicap-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/novicap/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/well-known/novicap-well-known.yml
+  href: https://artifacts.apis.io/novicap/well-known/novicap-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/novicap-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/well-known/novicap-security.txt
+  href: https://artifacts.apis.io/novicap/well-known/novicap-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/novicap-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/security/novicap-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/novicap/security/novicap-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/novicap-vulnerability-disclosure.yml
@@ -167,10 +166,10 @@ overview: 'Novicap publishes 2 API contracts indexed on the [APIs.io](https://ap
 
 
   Novicap''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 4
+random_paper: 8
 score:
-  band: emerging
-  composite: 25.6
+  band: thin
+  composite: 27.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -178,14 +177,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 12.9
     developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 5.3
+    discoverability: 66.1
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -194,7 +193,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 25.5
+  previous_composite: 27.6
   provenance:
     conformance: derived
     contracts:
@@ -210,13 +209,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/screenshots/novicap-2026-08-07T185613.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/novicap/novicap-2026-08-07T185613.png
 security:
 - kind: authentication
   name: Novicap Authentication
@@ -226,6 +226,12 @@ security:
   name: Novicap Vulnerability Disclosure
   slug: novicap-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 2
+skills:
+- name: Submit and reconcile confirming (reverse factoring) invoices
+  slug: novicap-confirming-invoices
+- name: Submit dynamic-discounting invoices and create a payment instruction
+  slug: novicap-submit-and-fund-invoices
 slug: novicap
 tags:
 - Company

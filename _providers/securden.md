@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-17'
+  score: 18.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,47 +51,49 @@ apis:
   description: The Get Password API from Securden — 1 operation(s) for get password.
   name: Securden Get Password API
   slug: securden-get-password-api
-artifact_total: 6
+artifact_total: 8
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Password Retrieval Get Password API
   slug: open-securden-get-password-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/securden/plans/securden-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/securden-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/capabilities/securden-capability-edges.yml
+  href: https://artifacts.apis.io/securden/capabilities/securden-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/securden-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/overlays/securden-password-retrieval-overlay.yaml
+  href: https://artifacts.apis.io/securden/overlays/securden-password-retrieval-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/securden-password-retrieval-overlay.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/openapi/_original/securden-password-retrieval-openapi.yml
+  href: https://artifacts.apis.io/securden/openapi/_original/securden-password-retrieval-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/securden-password-retrieval-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/authentication/securden-authentication.yml
+  href: https://artifacts.apis.io/securden/authentication/securden-authentication.yml
   title: ''
   type: Authentication
   url: authentication/securden-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/conventions/securden-conventions.yml
+  href: https://artifacts.apis.io/securden/conventions/securden-conventions.yml
   title: ''
   type: Conventions
   url: conventions/securden-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/errors/securden-problem-types.yml
+  href: https://artifacts.apis.io/securden/errors/securden-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/securden-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/conformance/securden-conformance.yml
+  href: https://artifacts.apis.io/securden/conformance/securden-conformance.yml
   title: ''
   type: Conformance
   url: conformance/securden-conformance.yml
@@ -98,47 +102,47 @@ common:
   type: Compliance
   url: https://www.securden.com/privileged-access-management/security-design-and-specifications/index.html
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/packages/securden-packages.yml
+  href: https://artifacts.apis.io/securden/packages/securden-packages.yml
   title: ''
   type: Packages
   url: packages/securden-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/packages/securden-packages.yml
+  href: https://artifacts.apis.io/securden/packages/securden-packages.yml
   title: ''
   type: SDKs
   url: packages/securden-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/cli/securden-cli.yml
+  href: https://artifacts.apis.io/securden/cli/securden-cli.yml
   title: ''
   type: CLI
   url: cli/securden-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/mcp/securden-mcp.yml
+  href: https://artifacts.apis.io/securden/mcp/securden-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/securden-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/securden/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/agentic-access/securden-agentic-access.yml
+  href: https://artifacts.apis.io/securden/agentic-access/securden-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/securden-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/llms/securden-llms.txt
+  href: https://artifacts.apis.io/securden/llms/securden-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/securden-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/well-known/securden-well-known.yml
+  href: https://artifacts.apis.io/securden/well-known/securden-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/securden-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/security/securden-domain-security.yml
+  href: https://artifacts.apis.io/securden/security/securden-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/securden-domain-security.yml
@@ -188,6 +192,14 @@ common:
   url: https://www.securden.com/
 created: '2026-07-17'
 description: Securden is a unified identity security platform that consolidates Privileged Access Management (PAM), Endpoint Privilege Manager (EPM), a business Password Vault, Identity Governance & Administration (IGA), Cloud Infrastructure Entitlement Management (CIEM), Non-Human Identity Management, and AI Agent Security into a single architecture. It is available on-premises, self-hosted, or as SaaS, and is used by organizations including Harvard Medical School, NASA, Shell, and Coca-Cola. For developers and DevOps, Securden publishes a token-authenticated Password Retrieval REST API plus official SDKs (JavaScript, Go, Java, .NET), a cross-platform CLI, and a Terraform provider to eliminate hardcoded credentials in scripts and pipelines. Securden holds SOC 2 Type II and ISO/IEC 27001 certifications and is GDPR compliant.
+finops:
+- has_sources: true
+  method: derived
+  name: Securden Finops
+  primary_unit: ''
+  service_category: ''
+  slug: securden-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/securden.png
 layout: provider
 modified: '2026-07-21'
@@ -197,27 +209,31 @@ network: true
 overview: 'Securden publishes 1 API contract indexed on the [APIs.io](https://apis.io/) network: Get Password API. Tagged areas include Company, Identity, Security, Privileged Access Management, and Password Management.
 
 
-  Securden''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 21 more developer resources.'
-random_paper: 21
+  Securden''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 22 more developer resources.'
+plans:
+- name: Securden Plans Pricing
+  plan_count: 0
+  slug: securden-plans-pricing
+random_paper: 17
 score:
   band: developing
-  composite: 44.4
+  composite: 44.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 36.7
     developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 44.3
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -238,14 +254,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/screenshots/securden-2026-08-17T081746.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/securden/securden-2026-08-17T081746.png
 security:
 - kind: authentication
   name: Securden Authentication
@@ -255,6 +271,10 @@ security:
   name: Securden Domain Security
   slug: securden-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 1
+skills:
+- name: Retrieve a credential from Securden
+  slug: securden-retrieve-password
 slug: securden
 tags:
 - Company

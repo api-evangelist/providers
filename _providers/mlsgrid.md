@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.7
-  scored_at: '2026-10-17'
+  score: 28.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: Property listings (RESO Data Dictionary Property resource).
   name: mlsgrid Property API
   slug: mlsgrid-property-api
-artifact_total: 43
+artifact_total: 45
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MLS Grid RESO Web Lookup API
   slug: open-mlsgrid-lookup-api
@@ -159,7 +158,7 @@ common:
   type: ChangeLog
   url: https://docs.mlsgrid.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/changelog/mlsgrid-changelog.yml
+  href: https://artifacts.apis.io/mlsgrid/changelog/mlsgrid-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mlsgrid-changelog.yml
@@ -168,57 +167,57 @@ common:
   type: Compliance
   url: https://certification.reso.org/summary/T00000045
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/conformance/mlsgrid-conformance.yml
+  href: https://artifacts.apis.io/mlsgrid/conformance/mlsgrid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mlsgrid-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/conventions/mlsgrid-conventions.yml
+  href: https://artifacts.apis.io/mlsgrid/conventions/mlsgrid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mlsgrid-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/errors/mlsgrid-problem-types.yml
+  href: https://artifacts.apis.io/mlsgrid/errors/mlsgrid-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mlsgrid-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/lifecycle/mlsgrid-lifecycle.yml
+  href: https://artifacts.apis.io/mlsgrid/lifecycle/mlsgrid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mlsgrid-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/data-model/mlsgrid-data-model.yml
+  href: https://artifacts.apis.io/mlsgrid/data-model/mlsgrid-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mlsgrid-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/mlsgrid/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/packages/mlsgrid-packages.yml
+  href: https://artifacts.apis.io/mlsgrid/packages/mlsgrid-packages.yml
   title: ''
   type: Packages
   url: packages/mlsgrid-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/llms/mlsgrid-llms.txt
+  href: https://artifacts.apis.io/mlsgrid/llms/mlsgrid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mlsgrid-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/agentic-access/mlsgrid-agentic-access.yml
+  href: https://artifacts.apis.io/mlsgrid/agentic-access/mlsgrid-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mlsgrid-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/security/mlsgrid-domain-security.yml
+  href: https://artifacts.apis.io/mlsgrid/security/mlsgrid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mlsgrid-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/authentication/mlsgrid-authentication.yml
+  href: https://artifacts.apis.io/mlsgrid/authentication/mlsgrid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mlsgrid-authentication.yml
@@ -279,42 +278,42 @@ common:
   type: Documentation
   url: https://www.reso.org/reso-web-api/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/plans/mlsgrid-plans-pricing.yml
+  href: https://artifacts.apis.io/mlsgrid/plans/mlsgrid-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mlsgrid-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/rate-limits/mlsgrid-rate-limits.yml
+  href: https://artifacts.apis.io/mlsgrid/rate-limits/mlsgrid-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mlsgrid-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/finops/mlsgrid-finops.yml
+  href: https://artifacts.apis.io/mlsgrid/finops/mlsgrid-finops.yml
   title: ''
   type: FinOps
   url: finops/mlsgrid-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/vocabulary/mlsgrid-vocabulary.yml
+  href: https://artifacts.apis.io/mlsgrid/vocabulary/mlsgrid-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/mlsgrid-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/rules/mlsgrid-rules.yml
+  href: https://artifacts.apis.io/mlsgrid/rules/mlsgrid-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/mlsgrid-rules.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/mcp/mlsgrid-mcp.yml
+  href: https://artifacts.apis.io/mlsgrid/mcp/mlsgrid-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mlsgrid-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mlsgrid/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/well-known/mlsgrid-well-known.yml
+  href: https://artifacts.apis.io/mlsgrid/well-known/mlsgrid-well-known.yml
   title: ''
   type: X-WellKnownProbe
   url: well-known/mlsgrid-well-known.yml
@@ -353,8 +352,8 @@ features:
 - Per-minute import cadence where the originating MLS permits
 - Documented rate limits (2 RPS, 7,200/hour, 40,000/24h, 4 GB/hour) with HTTP 429 on violation
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Mlsgrid Finops
   primary_unit: ''
   service_category: ''
@@ -389,7 +388,7 @@ plans:
 - name: Mlsgrid Plans Pricing
   plan_count: 2
   slug: mlsgrid-plans-pricing
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Mlsgrid Rate Limits
@@ -420,7 +419,7 @@ rules:
   slug: mlsgrid-rules
 score:
   band: strong
-  composite: 63.0
+  composite: 64.6
   coverage:
     artifact_dirs: 29
     catalog_earned: 83.0
@@ -428,15 +427,15 @@ score:
     catalog_gap: 32.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
-    access_clarity: 65.8
+    access_clarity: 73.7
     contract_governance: 45.5
-    contract_quality: 68.1
+    contract_quality: 65.4
     developer_ergonomics: 58.9
     discoverability: 73.2
     operational_transparency: 52.6
-  previous_composite: 62.4
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -452,15 +451,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/screenshots/mlsgrid-2026-06-20T185627.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mlsgrid/mlsgrid-2026-06-20T185627.png
 security:
 - kind: authentication
   name: Mlsgrid Authentication
@@ -470,6 +469,14 @@ security:
   name: Mlsgrid Domain Security
   slug: mlsgrid-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: mlsgrid-license-compliance
+  slug: mlsgrid-license-compliance
+- name: mlsgrid-media-download
+  slug: mlsgrid-media-download
+- name: mlsgrid-property-replication
+  slug: mlsgrid-property-replication
 slug: mlsgrid
 tags:
 - Real Estate

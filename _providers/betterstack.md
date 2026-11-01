@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 55.6
-  scored_at: '2026-10-17'
+  score: 53.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -161,15 +163,12 @@ apis:
 - description: The Errors API from Better Stack — manage error-tracking applications, application groups and releases, and triage error patterns and exceptions. Declared by Better Stack's own /.well-known/api-catalo
   name: Better Stack Errors API
   slug: betterstack-errors-api
-artifact_total: 36
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Betterstack Webhooks
   slug: betterstack-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Better Stack Uptime Heartbeats API
   slug: open-betterstack-heartbeats-api
@@ -187,12 +186,12 @@ collections:
   slug: open-betterstack
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/capabilities/betterstack-capability-edges.yml
+  href: https://artifacts.apis.io/betterstack/capabilities/betterstack-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/betterstack-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/vendor-facets/betterstack-vendor-facets.yml
+  href: https://artifacts.apis.io/betterstack/vendor-facets/betterstack-vendor-facets.yml
   title: ''
   type: VendorFacets
   url: vendor-facets/betterstack-vendor-facets.yml
@@ -213,127 +212,127 @@ common:
   type: Website
   url: https://betterstack.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/agentic-access/betterstack-agentic-access.yml
+  href: https://artifacts.apis.io/betterstack/agentic-access/betterstack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/betterstack-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/mcp/betterstack-mcp.yml
+  href: https://artifacts.apis.io/betterstack/mcp/betterstack-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/betterstack-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/mcp/betterstack-tool-crosswalk.yml
+  href: https://artifacts.apis.io/betterstack/mcp/betterstack-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/betterstack-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/betterstack/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/llms/betterstack-llms.txt
+  href: https://artifacts.apis.io/betterstack/llms/betterstack-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/betterstack-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/well-known/betterstack-well-known.yml
+  href: https://artifacts.apis.io/betterstack/well-known/betterstack-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/betterstack-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/conformance/betterstack-conformance.yml
+  href: https://artifacts.apis.io/betterstack/conformance/betterstack-conformance.yml
   title: ''
   type: Conformance
   url: conformance/betterstack-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/security/betterstack-trust-center.yml
+  href: https://artifacts.apis.io/betterstack/security/betterstack-trust-center.yml
   title: ''
   type: Compliance
   url: security/betterstack-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/security/betterstack-trust-center.yml
+  href: https://artifacts.apis.io/betterstack/security/betterstack-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/betterstack-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/security/betterstack-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/betterstack/security/betterstack-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/betterstack-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/security/betterstack-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/betterstack/security/betterstack-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/betterstack-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/security/betterstack-domain-security.yml
+  href: https://artifacts.apis.io/betterstack/security/betterstack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/betterstack-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/authentication/betterstack-authentication.yml
+  href: https://artifacts.apis.io/betterstack/authentication/betterstack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/betterstack-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/scopes/betterstack-scopes.yml
+  href: https://artifacts.apis.io/betterstack/scopes/betterstack-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/betterstack-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/conventions/betterstack-conventions.yml
+  href: https://artifacts.apis.io/betterstack/conventions/betterstack-conventions.yml
   title: ''
   type: Conventions
   url: conventions/betterstack-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/errors/betterstack-problem-types.yml
+  href: https://artifacts.apis.io/betterstack/errors/betterstack-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/betterstack-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/lifecycle/betterstack-lifecycle.yml
+  href: https://artifacts.apis.io/betterstack/lifecycle/betterstack-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/betterstack-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/data-model/betterstack-data-model.yml
+  href: https://artifacts.apis.io/betterstack/data-model/betterstack-data-model.yml
   title: ''
   type: DataModel
   url: data-model/betterstack-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/asyncapi/betterstack-webhooks.yml
+  href: https://artifacts.apis.io/betterstack/asyncapi/betterstack-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/betterstack-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/packages/betterstack-packages.yml
+  href: https://artifacts.apis.io/betterstack/packages/betterstack-packages.yml
   title: ''
   type: Packages
   url: packages/betterstack-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/packages/betterstack-packages.yml
+  href: https://artifacts.apis.io/betterstack/packages/betterstack-packages.yml
   title: ''
   type: SDKs
   url: packages/betterstack-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/plans/betterstack-plans-pricing.yml
+  href: https://artifacts.apis.io/betterstack/plans/betterstack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/betterstack-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/rate-limits/betterstack-rate-limits.yml
+  href: https://artifacts.apis.io/betterstack/rate-limits/betterstack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/betterstack-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/finops/betterstack-finops.yml
+  href: https://artifacts.apis.io/betterstack/finops/betterstack-finops.yml
   title: ''
   type: FinOps
   url: finops/betterstack-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/changelog/betterstack-changelog.yml
+  href: https://artifacts.apis.io/betterstack/changelog/betterstack-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/betterstack-changelog.yml
@@ -421,13 +420,13 @@ features:
 - description: First-party remote MCP server at mcp.betterstack.com exposing ~106 agent tools across Uptime, Telemetry and Errors behind OAuth 2.1.
   name: MCP Server
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Betterstack Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: bundle
+  service_category: ''
   slug: betterstack-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/betterstack.png
 integrations:
 - description: Receive incident alerts in Slack channels.
@@ -458,9 +457,12 @@ overview: 'Better Stack publishes 6 API contracts indexed on the [APIs.io](https
   Better Stack''s developer surface includes authentication, changelog, developer portal, documentation, API reference, getting-started guide, pricing, and 40 more developer resources.'
 plans:
 - name: Betterstack Plans Pricing
-  plan_count: 6
+  plan_count: 28
   slug: betterstack-plans-pricing
-random_paper: 14
+- name: Betterstack Price Estimates
+  plan_count: 0
+  slug: betterstack-price-estimates
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Betterstack Rate Limits
@@ -472,23 +474,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: exemplar
-  composite: 67.0
+  composite: 68.8
   coverage:
     artifact_dirs: 28
-    catalog_earned: 53.5
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 61.5
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 31.8
-    contract_quality: 56.6
+    contract_quality: 53.2
     developer_ergonomics: 67.3
-    discoverability: 75.0
-    operational_transparency: 44.7
-  previous_composite: 68.5
+    discoverability: 65.0
+    operational_transparency: 55.3
+  previous_composite: 67.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -505,13 +507,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/screenshots/betterstack-2026-06-20T173220.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/betterstack/betterstack-2026-06-20T173220.png
 security:
 - kind: authentication
   name: Betterstack Authentication
@@ -529,6 +532,16 @@ security:
   name: Betterstack Trust Center
   slug: betterstack-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+skill_count: 4
+skills:
+- name: betterstack-cover-a-cron-job-with-a-heartbeat
+  slug: betterstack-cover-a-cron-job-with-a-heartbeat
+- name: betterstack-provision-uptime-monitor
+  slug: betterstack-provision-uptime-monitor
+- name: betterstack-report-service-availability
+  slug: betterstack-report-service-availability
+- name: betterstack-triage-and-resolve-incident
+  slug: betterstack-triage-and-resolve-incident
 slug: betterstack
 tags:
 - Observability

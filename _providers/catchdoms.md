@@ -9,21 +9,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 36.9
-  scored_at: '2026-10-17'
+  score: 35.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 5
   slug: catchdoms-agentic-access
   summary_line: 5 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://catchdoms.com/api
   baseurl_source: declared
@@ -48,80 +50,80 @@ apis:
   description: The Pending-Delete API from CatchDoms Expired Domains API — 2 operation(s) for pending-delete.
   name: CatchDoms Expired Domains API Pending Delete API
   slug: catchdoms-pending-delete-api
-artifact_total: 15
+artifact_total: 17
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/agentic-access/catchdoms-agentic-access.yml
+  href: https://artifacts.apis.io/catchdoms/agentic-access/catchdoms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/catchdoms-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/plans/catchdoms-plans-pricing.yml
+  href: https://artifacts.apis.io/catchdoms/plans/catchdoms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/catchdoms-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/rules/catchdoms-rules.yml
+  href: https://artifacts.apis.io/catchdoms/rules/catchdoms-rules.yml
   title: ''
   type: Spectral
   url: rules/catchdoms-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/json-ld/catchdoms-context.jsonld
+  href: https://artifacts.apis.io/catchdoms/json-ld/catchdoms-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/catchdoms-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/vocabulary/catchdoms-vocabulary.yml
+  href: https://artifacts.apis.io/catchdoms/vocabulary/catchdoms-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/catchdoms-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/data-model/catchdoms-data-model.yml
+  href: https://artifacts.apis.io/catchdoms/data-model/catchdoms-data-model.yml
   title: ''
   type: DataModel
   url: data-model/catchdoms-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/changelog/catchdoms-changelog.yml
+  href: https://artifacts.apis.io/catchdoms/changelog/catchdoms-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/catchdoms-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/errors/catchdoms-problem-types.yml
+  href: https://artifacts.apis.io/catchdoms/errors/catchdoms-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/catchdoms-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/conformance/catchdoms-conformance.yml
+  href: https://artifacts.apis.io/catchdoms/conformance/catchdoms-conformance.yml
   title: ''
   type: Conformance
   url: conformance/catchdoms-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/overlays/catchdoms-openapi-overlay.yml
+  href: https://artifacts.apis.io/catchdoms/overlays/catchdoms-openapi-overlay.yml
   title: ''
   type: Overlay
   url: overlays/catchdoms-openapi-overlay.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/llms/catchdoms-llms.txt
+  href: https://artifacts.apis.io/catchdoms/llms/catchdoms-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/catchdoms-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/mcp/catchdoms-mcp.yml
+  href: https://artifacts.apis.io/catchdoms/mcp/catchdoms-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/catchdoms-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/well-known/catchdoms-well-known.yml
+  href: https://artifacts.apis.io/catchdoms/well-known/catchdoms-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/catchdoms-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/hosts/catchdoms-hosts.yml
+  href: https://artifacts.apis.io/catchdoms/hosts/catchdoms-hosts.yml
   title: ''
   type: Hosts
   url: hosts/catchdoms-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/vendors/catchdoms-vendors.yml
+  href: https://artifacts.apis.io/catchdoms/vendors/catchdoms-vendors.yml
   title: ''
   type: Vendors
   url: vendors/catchdoms-vendors.yml
@@ -146,12 +148,12 @@ common:
   type: Leadership
   url: https://catchdoms.com/tlds/team
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/authentication/catchdoms-authentication.yml
+  href: https://artifacts.apis.io/catchdoms/authentication/catchdoms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/catchdoms-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/security/catchdoms-domain-security.yml
+  href: https://artifacts.apis.io/catchdoms/security/catchdoms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/catchdoms-domain-security.yml
@@ -181,6 +183,14 @@ common:
   url: https://catchdoms.com/blog
 created: '2026-09-27'
 description: CatchDoms provides an API to discover expired and expiring domain names across multiple registrars such as Dynadot, GoDaddy, Catched, and DropCatch. Users can filter results by domain age, backlink count, domain authority, and other SEO metrics. The service also assigns a quality score to help identify hidden gem domains for resale or branding. Documentation includes endpoints for searching, retrieving domain details, and accessing historical data, supporting JSON responses and pagination. The platform aims to empower marketers, investors, and developers to capitalize on the secondary domain market efficiently.
+finops:
+- has_sources: true
+  method: derived
+  name: Catchdoms Finops
+  primary_unit: seat
+  service_category: ''
+  slug: catchdoms-finops
+  template: false
 image: https://catchdoms.com/images/og.jpg
 json_schemas:
 - name: Domain
@@ -223,7 +233,10 @@ plans:
 - name: Catchdoms Plans Pricing
   plan_count: 5
   slug: catchdoms-plans-pricing
-random_paper: 4
+- name: Catchdoms Price Estimates
+  plan_count: 0
+  slug: catchdoms-price-estimates
+random_paper: 14
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -239,23 +252,23 @@ rules:
   slug: catchdoms-rules
 score:
   band: developing
-  composite: 51.6
+  composite: 52.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 69.8
+    artifact_dirs: 24
+    catalog_earned: 72.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 45.3
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 22.0
     contract_quality: 64.2
     developer_ergonomics: 35.7
-    discoverability: 70.0
+    discoverability: 60.0
     operational_transparency: 15.8
-  previous_composite: 51.5
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,14 +284,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/catchdoms/refs/heads/main/screenshots/catchdoms-2026-10-11T102804.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/catchdoms/catchdoms-2026-10-11T102804.png
 security:
 - kind: authentication
   name: Catchdoms Authentication

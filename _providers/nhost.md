@@ -13,7 +13,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.9
-  scored_at: '2026-10-17'
+  score: 37.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -110,11 +111,8 @@ apis:
   description: Email and ticket verification operations for confirming user actions
   name: Nhost Verification API
   slug: nhost-verification-api
-artifact_total: 44
+artifact_total: 43
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nhost authentication API
   slug: open-nhost-authentication-api
@@ -150,32 +148,32 @@ collections:
   slug: open-nhost-verification-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/capabilities/nhost-capability-edges.yml
+  href: https://artifacts.apis.io/nhost/capabilities/nhost-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nhost-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/agentic-access/nhost-agentic-access.yml
+  href: https://artifacts.apis.io/nhost/agentic-access/nhost-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nhost-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/security/nhost-trust-center.yml
+  href: https://artifacts.apis.io/nhost/security/nhost-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nhost-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/security/nhost-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nhost/security/nhost-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nhost-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/security/nhost-domain-security.yml
+  href: https://artifacts.apis.io/nhost/security/nhost-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nhost-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/authentication/nhost-authentication.yml
+  href: https://artifacts.apis.io/nhost/authentication/nhost-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nhost-authentication.yml
@@ -212,27 +210,27 @@ common:
   type: X
   url: https://twitter.com/nhost
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/plans/nhost-plans-pricing.yml
+  href: https://artifacts.apis.io/nhost/plans/nhost-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nhost-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/rate-limits/nhost-rate-limits.yml
+  href: https://artifacts.apis.io/nhost/rate-limits/nhost-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nhost-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/finops/nhost-finops.yml
+  href: https://artifacts.apis.io/nhost/finops/nhost-finops.yml
   title: ''
   type: FinOps
   url: finops/nhost-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/vocabulary/nhost-vocabulary.yml
+  href: https://artifacts.apis.io/nhost/vocabulary/nhost-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/nhost-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/json-ld/nhost-context.jsonld
+  href: https://artifacts.apis.io/nhost/json-ld/nhost-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/nhost-context.jsonld
@@ -296,7 +294,7 @@ plans:
 - name: Nhost Plans Pricing
   plan_count: 4
   slug: nhost-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Nhost Rate Limits
@@ -315,23 +313,23 @@ rules:
   slug: nhost-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.5
+  composite: 38.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 52.5
     catalog_earned_first_party: 0.0
     catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
-    contract_quality: 56.0
+    contract_quality: 55.8
     developer_ergonomics: 23.8
-    discoverability: 68.3
-    operational_transparency: 13.2
-  previous_composite: 42.1
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -346,13 +344,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/screenshots/nhost-2026-06-20T190311.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nhost/nhost-2026-06-20T190311.png
 security:
 - kind: authentication
   name: Nhost Authentication

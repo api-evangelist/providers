@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.6
-  scored_at: '2026-10-17'
+  score: 37.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 59
   slug: kard-agentic-access
   summary_line: 59 operations · 33 acting
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://rewards-api.getkard.com
   baseurl_source: declared
@@ -128,15 +130,12 @@ apis:
   description: The API Reference API from Kard — 0 operation(s) for api reference.
   name: Kard API Reference API
   slug: kard-api-reference-api
-artifact_total: 41
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Kard Notifications Webhooks
   slug: kard-notifications-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API Reference attributions API
   slug: open-kard-attributions-api
@@ -187,12 +186,12 @@ collections:
   slug: open-kard-users-webview-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/capabilities/kard-capability-edges.yml
+  href: https://artifacts.apis.io/kard/capabilities/kard-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kard-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/overlays/kard-api-reference-overlay.yaml
+  href: https://artifacts.apis.io/kard/overlays/kard-api-reference-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kard-api-reference-overlay.yaml
@@ -221,82 +220,82 @@ common:
   type: Quickstart
   url: https://www.getkard.com/docs/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/authentication/kard-authentication.yml
+  href: https://artifacts.apis.io/kard/authentication/kard-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kard-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/scopes/kard-scopes.yml
+  href: https://artifacts.apis.io/kard/scopes/kard-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kard-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/packages/kard-packages.yml
+  href: https://artifacts.apis.io/kard/packages/kard-packages.yml
   title: ''
   type: SDKs
   url: packages/kard-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/packages/kard-packages.yml
+  href: https://artifacts.apis.io/kard/packages/kard-packages.yml
   title: ''
   type: Packages
   url: packages/kard-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/mcp/kard-mcp.yml
+  href: https://artifacts.apis.io/kard/mcp/kard-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kard-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/llms/kard-llms.txt
+  href: https://artifacts.apis.io/kard/llms/kard-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kard-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kard/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/well-known/kard-well-known.yml
+  href: https://artifacts.apis.io/kard/well-known/kard-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kard-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/well-known/kard-api-catalog.json
+  href: https://artifacts.apis.io/kard/well-known/kard-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/kard-api-catalog.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/well-known/kard-security.txt
+  href: https://artifacts.apis.io/kard/well-known/kard-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/kard-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/components/kard-components.yml
+  href: https://artifacts.apis.io/kard/components/kard-components.yml
   title: ''
   type: Components
   url: components/kard-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/asyncapi/kard-notifications-webhooks.yml
+  href: https://artifacts.apis.io/kard/asyncapi/kard-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kard-notifications-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/errors/kard-problem-types.yml
+  href: https://artifacts.apis.io/kard/errors/kard-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kard-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/conventions/kard-conventions.yml
+  href: https://artifacts.apis.io/kard/conventions/kard-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kard-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/conformance/kard-conformance.yml
+  href: https://artifacts.apis.io/kard/conformance/kard-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kard-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/lifecycle/kard-lifecycle.yml
+  href: https://artifacts.apis.io/kard/lifecycle/kard-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kard-lifecycle.yml
@@ -305,17 +304,17 @@ common:
   type: StatusPage
   url: https://status.getkard.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/lifecycle/kard-lifecycle.yml
+  href: https://artifacts.apis.io/kard/lifecycle/kard-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/kard-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/security/kard-domain-security.yml
+  href: https://artifacts.apis.io/kard/security/kard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kard-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/security/kard-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kard/security/kard-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kard-vulnerability-disclosure.yml
@@ -324,7 +323,7 @@ common:
   type: Security
   url: https://getkard.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/agentic-access/kard-agentic-access.yml
+  href: https://artifacts.apis.io/kard/agentic-access/kard-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kard-agentic-access.yml
@@ -371,7 +370,7 @@ overview: 'Kard publishes 17 API contracts indexed on the [APIs.io](https://apis
 
 
   Kard''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, engineering blog, support, and 29 more developer resources.'
-random_paper: 0
+random_paper: 10
 scopes:
 - name: Kard Scopes
   scope_count: 13
@@ -379,23 +378,23 @@ scopes:
   summary_line: 13 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.8
+  composite: 48.2
   coverage:
     artifact_dirs: 23
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.6
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 55.3
+    contract_quality: 56.3
     developer_ergonomics: 70.8
-    discoverability: 76.7
-    operational_transparency: 44.7
-  previous_composite: 50.3
+    discoverability: 65.0
+    operational_transparency: 47.4
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -403,7 +402,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 17
+      total: 16
     mcp: first-party
     skills: derived
   regulatory:
@@ -412,13 +411,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/screenshots/kard-2026-07-25T223510.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kard/kard-2026-07-25T223510.png
 security:
 - kind: authentication
   name: Kard Authentication
@@ -432,6 +432,16 @@ security:
   name: Kard Vulnerability Disclosure
   slug: kard-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 4
+skills:
+- name: Embed the Kard WebView
+  slug: kard-embed-webview
+- name: Enroll a user and fetch their live offers
+  slug: kard-enroll-user-and-fetch-offers
+- name: Submit transactions for reward matching
+  slug: kard-submit-transactions
+- name: Subscribe to reward notifications
+  slug: kard-subscribe-webhooks
 slug: kard
 tags:
 - Company

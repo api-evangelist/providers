@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -109,11 +111,8 @@ apis:
   description: Webhook subscriptions and delivered events.
   name: dotloop Webhooks API
   slug: dotloop-webhooks-api
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: dotloop Public API v2 Account API
   slug: open-dotloop-account-api
@@ -162,27 +161,27 @@ common:
   type: Blog
   url: https://www.dotloop.com/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/capabilities/dotloop-capability-edges.yml
+  href: https://artifacts.apis.io/dotloop/capabilities/dotloop-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/dotloop-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/agentic-access/dotloop-agentic-access.yml
+  href: https://artifacts.apis.io/dotloop/agentic-access/dotloop-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dotloop-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/security/dotloop-domain-security.yml
+  href: https://artifacts.apis.io/dotloop/security/dotloop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dotloop-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/authentication/dotloop-authentication.yml
+  href: https://artifacts.apis.io/dotloop/authentication/dotloop-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dotloop-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/scopes/dotloop-scopes.yml
+  href: https://artifacts.apis.io/dotloop/scopes/dotloop-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/dotloop-scopes.yml
@@ -203,17 +202,17 @@ common:
   type: Documentation
   url: https://dotloop.github.io/public-api/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/plans/dotloop-plans-pricing.yml
+  href: https://artifacts.apis.io/dotloop/plans/dotloop-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dotloop-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/rate-limits/dotloop-rate-limits.yml
+  href: https://artifacts.apis.io/dotloop/rate-limits/dotloop-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dotloop-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/finops/dotloop-finops.yml
+  href: https://artifacts.apis.io/dotloop/finops/dotloop-finops.yml
   title: ''
   type: FinOps
   url: finops/dotloop-finops.yml
@@ -241,7 +240,7 @@ plans:
 - name: Dotloop Plans Pricing
   plan_count: 4
   slug: dotloop-plans-pricing
-random_paper: 21
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Dotloop Rate Limits
@@ -253,7 +252,7 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.5
+  composite: 28.7
   coverage:
     artifact_dirs: 14
     catalog_earned: 42.0
@@ -261,15 +260,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 51.2
+    contract_quality: 47.8
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 35.4
+    operational_transparency: 10.5
+  previous_composite: 28.7
   provenance:
     agentic_access: derived
     contracts:
@@ -283,13 +282,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/screenshots/dotloop-2026-07-25T212314.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dotloop/dotloop-2026-07-25T212314.png
 security:
 - kind: authentication
   name: Dotloop Authentication

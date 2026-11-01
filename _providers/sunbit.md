@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Server-to-server REST API for Sunbit partners and SaaS platforms. Covers pre-qualification links, "As Low As" payment estimation, Text to Pay-Over-Time SMS links, checkout transaction initialization a
@@ -44,7 +46,7 @@ apis:
 - description: 'Hosted, asynchronously loaded browser SDK (the SUNBIT global) that renders Sunbit''s client-side surfaces: the "As Low As" estimate text element and disclaimer, the check-financing-options link, the Ch'
   name: Sunbit JavaScript SDK
   slug: sunbit-javascript-sdk
-artifact_total: 6
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Sunbit Webhooks
@@ -99,72 +101,72 @@ common:
   type: StatusPage
   url: https://status.sunbit.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/authentication/sunbit-authentication.yml
+  href: https://artifacts.apis.io/sunbit/authentication/sunbit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sunbit-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/conventions/sunbit-conventions.yml
+  href: https://artifacts.apis.io/sunbit/conventions/sunbit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sunbit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/errors/sunbit-problem-types.yml
+  href: https://artifacts.apis.io/sunbit/errors/sunbit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sunbit-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/asyncapi/sunbit-webhooks.yml
+  href: https://artifacts.apis.io/sunbit/asyncapi/sunbit-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sunbit-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/sandbox/sunbit-sandbox.yml
+  href: https://artifacts.apis.io/sunbit/sandbox/sunbit-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sunbit-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/components/sunbit-components.yml
+  href: https://artifacts.apis.io/sunbit/components/sunbit-components.yml
   title: ''
   type: Components
   url: components/sunbit-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/packages/sunbit-packages.yml
+  href: https://artifacts.apis.io/sunbit/packages/sunbit-packages.yml
   title: ''
   type: Packages
   url: packages/sunbit-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/packages/sunbit-packages.yml
+  href: https://artifacts.apis.io/sunbit/packages/sunbit-packages.yml
   title: ''
   type: SDKs
   url: packages/sunbit-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/data-model/sunbit-data-model.yml
+  href: https://artifacts.apis.io/sunbit/data-model/sunbit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sunbit-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/conformance/sunbit-conformance.yml
+  href: https://artifacts.apis.io/sunbit/conformance/sunbit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sunbit-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/lifecycle/sunbit-lifecycle.yml
+  href: https://artifacts.apis.io/sunbit/lifecycle/sunbit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sunbit-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/well-known/sunbit-well-known.yml
+  href: https://artifacts.apis.io/sunbit/well-known/sunbit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sunbit-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/well-known/sunbit-security.txt
+  href: https://artifacts.apis.io/sunbit/well-known/sunbit-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/sunbit-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/security/sunbit-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sunbit/security/sunbit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sunbit-vulnerability-disclosure.yml
@@ -173,17 +175,17 @@ common:
   type: Security
   url: https://sunbit.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/security/sunbit-domain-security.yml
+  href: https://artifacts.apis.io/sunbit/security/sunbit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sunbit-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sunbit/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/llms/sunbit-llms.txt
+  href: https://artifacts.apis.io/sunbit/llms/sunbit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sunbit-llms.txt
@@ -202,26 +204,26 @@ overview: 'Sunbit is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Sunbit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 23 more developer resources.'
-random_paper: 1
+random_paper: 13
 score:
   band: developing
-  composite: 44.3
+  composite: 46.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 44.2
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 34.2
+  previous_composite: 46.2
   provenance:
     conformance: derived
     skills: derived
@@ -235,14 +237,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sunbit/refs/heads/main/screenshots/sunbit-2026-08-17T082155.png
+screenshot: https://apis.io/screenshots/sunbit/sunbit-2026-08-17T082155.png
 security:
 - kind: authentication
   name: Sunbit Authentication
@@ -256,6 +258,18 @@ security:
   name: Sunbit Vulnerability Disclosure
   slug: sunbit-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 5
+skills:
+- name: Take a Sunbit checkout payment
+  slug: sunbit-checkout-transaction
+- name: Onboard a merchant location to Sunbit
+  slug: sunbit-onboard-merchant
+- name: Pre-qualify a Sunbit customer
+  slug: sunbit-prequalify-customer
+- name: Verify a Sunbit webhook signature
+  slug: sunbit-verify-webhook-signature
+- name: Void or partially refund a Sunbit transaction
+  slug: sunbit-void-and-refund
 slug: sunbit
 tags:
 - Buy Now Pay Later

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Public health data APIs referenced from the developer portal.
@@ -32,12 +34,12 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/folkhalsomyndigheten/refs/heads/main/hosts/folkhalsomyndigheten-hosts.yml
+  href: https://artifacts.apis.io/folkhalsomyndigheten/hosts/folkhalsomyndigheten-hosts.yml
   title: ''
   type: Hosts
   url: hosts/folkhalsomyndigheten-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/folkhalsomyndigheten/refs/heads/main/vendors/folkhalsomyndigheten-vendors.yml
+  href: https://artifacts.apis.io/folkhalsomyndigheten/vendors/folkhalsomyndigheten-vendors.yml
   title: ''
   type: Vendors
   url: vendors/folkhalsomyndigheten-vendors.yml
@@ -46,7 +48,7 @@ common:
   type: DeveloperPortal
   url: https://portal.folkhalsomyndigheten.se/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/folkhalsomyndigheten/refs/heads/main/security/folkhalsomyndigheten-domain-security.yml
+  href: https://artifacts.apis.io/folkhalsomyndigheten/security/folkhalsomyndigheten-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/folkhalsomyndigheten-domain-security.yml
@@ -71,7 +73,7 @@ name: Folkhalsomyndigheten (Public Health Agency of Sweden)
 nav: Providers
 network: true
 overview: Folkhalsomyndigheten (Public Health Agency of Sweden) is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Government, Public Health, Sweden, and Data.
-random_paper: 9
+random_paper: 7
 score:
   band: minimal
   composite: 6.5
@@ -82,6 +84,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -89,14 +92,24 @@ score:
     developer_ergonomics: 9.5
     discoverability: 57.1
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - sweden
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - nordics
+  previous_composite: 6.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

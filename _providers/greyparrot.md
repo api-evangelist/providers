@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: BlogRSS
   url: https://www.greyparrot.ai/resources/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/greyparrot/refs/heads/main/security/greyparrot-domain-security.yml
+  href: https://artifacts.apis.io/greyparrot/security/greyparrot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/greyparrot-domain-security.yml
@@ -82,7 +84,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/greyparrot
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/greyparrot/refs/heads/main/llms/greyparrot-llms.txt
+  href: https://artifacts.apis.io/greyparrot/llms/greyparrot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/greyparrot-llms.txt
@@ -99,10 +101,10 @@ overview: 'Greyparrot is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Greyparrot''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 3
+random_paper: 23
 score:
   band: emerging
-  composite: 12.1
+  composite: 12.7
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -110,13 +112,13 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -126,21 +128,21 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 12.0
+  previous_composite: 12.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/greyparrot/refs/heads/main/screenshots/greyparrot-2026-07-25T220324.png
+screenshot: https://apis.io/screenshots/greyparrot/greyparrot-2026-07-25T220324.png
 security:
 - kind: domain-security
   name: Greyparrot Domain Security

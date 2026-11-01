@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 18
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/american-family-insurance/refs/heads/main/security/american-family-insurance-domain-security.yml
+  href: https://artifacts.apis.io/american-family-insurance/security/american-family-insurance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/american-family-insurance-domain-security.yml
@@ -70,17 +72,17 @@ common:
   type: BlogRSS
   url: https://newsroom.amfam.com/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/american-family-insurance/refs/heads/main/llms/american-family-insurance-llms.txt
+  href: https://artifacts.apis.io/american-family-insurance/llms/american-family-insurance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/american-family-insurance-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/american-family-insurance/refs/heads/main/plans/american-family-insurance-plans-pricing.yml
+  href: https://artifacts.apis.io/american-family-insurance/plans/american-family-insurance-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/american-family-insurance-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/american-family-insurance/refs/heads/main/rate-limits/american-family-insurance-rate-limits.yml
+  href: https://artifacts.apis.io/american-family-insurance/rate-limits/american-family-insurance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/american-family-insurance-rate-limits.yml
@@ -165,14 +167,14 @@ press:
 - date: ''
   title: American Family Insurance and AWS Team Up to Drive ...
   url: https://www.businesswire.com/news/home/20221201005413/en/American-Family-Insurance-and-AWS-Team-Up-to-Drive-Innovation-in-the-Insurance-Industry
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: American Family Insurance Rate Limits
   slug: american-family-insurance-rate-limits
 score:
-  band: minimal
-  composite: 8.3
+  band: emerging
+  composite: 12.4
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -182,11 +184,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 55.4
+    developer_ergonomics: 7.1
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -195,21 +197,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 8.3
+  previous_composite: 12.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 8.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 12.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/american-family-insurance/refs/heads/main/screenshots/american-family-insurance-2026-06-20T171911.png
+screenshot: https://apis.io/screenshots/american-family-insurance/american-family-insurance-2026-06-20T171911.png
 security:
 - kind: domain-security
   name: American Family Insurance Domain Security

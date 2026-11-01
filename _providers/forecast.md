@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'REST-style JSON API exposing the full Forecast platform: projects, tasks, sub-tasks, phases, sprints, time registrations, allocations, persons, clients, rate cards, invoices, and webhook subscriptions'
   name: Forecast API
   slug: forecast-api
-artifact_total: 6
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Forecast Webhooks
@@ -92,27 +94,27 @@ common:
   type: PrivacyPolicy
   url: https://www.forecast.app/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forecast/refs/heads/main/security/forecast-domain-security.yml
+  href: https://artifacts.apis.io/forecast/security/forecast-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/forecast-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forecast/refs/heads/main/security/forecast-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/forecast/security/forecast-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/forecast-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forecast/refs/heads/main/security/forecast-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/forecast/security/forecast-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/forecast-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forecast/refs/heads/main/security/forecast-trust-center.yml
+  href: https://artifacts.apis.io/forecast/security/forecast-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/forecast-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/forecast/refs/heads/main/security/forecast-trust-center.yml
+  href: https://artifacts.apis.io/forecast/security/forecast-trust-center.yml
   title: ''
   type: Compliance
   url: security/forecast-trust-center.yml
@@ -131,10 +133,10 @@ overview: 'forecast is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   forecast''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 19
+random_paper: 15
 score:
-  band: thin
-  composite: 37.9
+  band: developing
+  composite: 43.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -142,15 +144,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 26.3
+    access_clarity: 47.4
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 37.8
+    developer_ergonomics: 49.4
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 43.4
   provenance:
     conformance: derived
     mcp: derived
@@ -160,15 +162,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/forecast/refs/heads/main/screenshots/forecast-2026-07-25T214928.png
+screenshot: https://apis.io/screenshots/forecast/forecast-2026-07-25T214928.png
 security:
 - kind: authentication
   name: Forecast Authentication
@@ -186,6 +188,14 @@ security:
   name: Forecast Trust Center
   slug: forecast-trust-center
   summary_line: SOC 2, ISO 27017, ISO 27018, PCI DSS, FIPS 140
+skill_count: 3
+skills:
+- name: forecast-create-project
+  slug: forecast-create-project
+- name: forecast-log-time
+  slug: forecast-log-time
+- name: forecast-webhook-subscribe
+  slug: forecast-webhook-subscribe
 slug: forecast
 tags:
 - Company

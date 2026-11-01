@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.8
-  scored_at: '2026-10-17'
+  score: 40.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 1
@@ -169,11 +171,8 @@ apis:
   description: The x402 API from Figment — 5 operation(s) for x402.
   name: Figment X402 API
   slug: figment-x402-api
-artifact_total: 57
+artifact_total: 61
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Figment Addresses API
   slug: open-figment-addresses-api
@@ -304,7 +303,7 @@ common:
   type: ChangeLog
   url: https://docs.figment.io/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/changelog/figment-changelog.yml
+  href: https://artifacts.apis.io/figment/changelog/figment-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/figment-changelog.yml
@@ -313,7 +312,7 @@ common:
   type: Compliance
   url: https://trust.figment.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/security/figment-trust-center.yml
+  href: https://artifacts.apis.io/figment/security/figment-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/figment-trust-center.yml
@@ -322,117 +321,117 @@ common:
   type: Security
   url: https://www.figment.io/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/well-known/figment-security.txt
+  href: https://artifacts.apis.io/figment/well-known/figment-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/figment-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/security/figment-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/figment/security/figment-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/figment-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/security/figment-domain-security.yml
+  href: https://artifacts.apis.io/figment/security/figment-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/figment-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/well-known/figment-well-known.yml
+  href: https://artifacts.apis.io/figment/well-known/figment-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/figment-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/llms/figment-llms.txt
+  href: https://artifacts.apis.io/figment/llms/figment-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/figment-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/llms/figment-www-llms.txt
+  href: https://artifacts.apis.io/figment/llms/figment-www-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/figment-www-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/packages/figment-packages.yml
+  href: https://artifacts.apis.io/figment/packages/figment-packages.yml
   title: ''
   type: Packages
   url: packages/figment-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/packages/figment-packages.yml
+  href: https://artifacts.apis.io/figment/packages/figment-packages.yml
   title: ''
   type: SDKs
   url: packages/figment-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/components/figment-components.yml
+  href: https://artifacts.apis.io/figment/components/figment-components.yml
   title: ''
   type: Components
   url: components/figment-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/sandbox/figment-sandbox.yml
+  href: https://artifacts.apis.io/figment/sandbox/figment-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/figment-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/lifecycle/figment-lifecycle.yml
+  href: https://artifacts.apis.io/figment/lifecycle/figment-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/figment-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/conformance/figment-conformance.yml
+  href: https://artifacts.apis.io/figment/conformance/figment-conformance.yml
   title: ''
   type: Conformance
   url: conformance/figment-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/conventions/figment-conventions.yml
+  href: https://artifacts.apis.io/figment/conventions/figment-conventions.yml
   title: ''
   type: Conventions
   url: conventions/figment-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/conventions/figment-conventions.yml
+  href: https://artifacts.apis.io/figment/conventions/figment-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/figment-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/authentication/figment-authentication.yml
+  href: https://artifacts.apis.io/figment/authentication/figment-authentication.yml
   title: ''
   type: Authentication
   url: authentication/figment-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/errors/figment-problem-types.yml
+  href: https://artifacts.apis.io/figment/errors/figment-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/figment-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/data-model/figment-data-model.yml
+  href: https://artifacts.apis.io/figment/data-model/figment-data-model.yml
   title: ''
   type: DataModel
   url: data-model/figment-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/rate-limits/figment-rate-limits.yml
+  href: https://artifacts.apis.io/figment/rate-limits/figment-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/figment-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/mcp/figment-mcp.yml
+  href: https://artifacts.apis.io/figment/mcp/figment-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/figment-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/mcp/figment-tool-crosswalk.yml
+  href: https://artifacts.apis.io/figment/mcp/figment-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/figment-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/figment/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/agentic-access/figment-agentic-access.yml
+  href: https://artifacts.apis.io/figment/agentic-access/figment-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/figment-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/overlays/figment-api-overlay.yaml
+  href: https://artifacts.apis.io/figment/overlays/figment-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/figment-api-overlay.yaml
@@ -453,30 +452,30 @@ overview: 'Figment publishes 25 API contracts indexed on the [APIs.io](https://a
 
 
   Figment''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Figment Rate Limits
   slug: figment-rate-limits
 score:
-  band: developing
-  composite: 49.2
+  band: strong
+  composite: 56.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 43.5
-    developer_ergonomics: 54.2
+    developer_ergonomics: 73.2
     discoverability: 71.7
-    operational_transparency: 44.7
-  previous_composite: 49.1
+    operational_transparency: 68.4
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -493,13 +492,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/screenshots/figment-2026-08-07T165258.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/figment/figment-2026-08-07T165258.png
 security:
 - kind: authentication
   name: Figment Authentication
@@ -517,6 +517,18 @@ security:
   name: Figment Trust Center
   slug: figment-trust-center
   summary_line: SOC 2 Type II, ISO Certificate
+skill_count: 5
+skills:
+- name: Exit Ethereum validators and reconcile withdrawals with Figment
+  slug: figment-exit-ethereum-validators
+- name: Operate Figment Validator Vaults for omnibus ETH staking
+  slug: figment-manage-vaults
+- name: Report staking rewards and reconcile statements with Figment
+  slug: figment-report-rewards
+- name: Provision and fund Ethereum validators with Figment
+  slug: figment-stake-ethereum
+- name: Stake, unstake and withdraw SOL with Figment
+  slug: figment-stake-solana
 slug: figment
 tags:
 - Staking

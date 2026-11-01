@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,9 +83,6 @@ apis:
 artifact_total: 20
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-unity-bank-banking-account-balances-api
 - collection_type: open
@@ -106,47 +105,47 @@ collections:
   slug: open-unity-bank-banking-products-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/plans/unity-bank-plans-pricing.yml
+  href: https://artifacts.apis.io/unity-bank/plans/unity-bank-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/unity-bank-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/capabilities/unity-bank-capability-edges.yml
+  href: https://artifacts.apis.io/unity-bank/capabilities/unity-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/unity-bank-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/agentic-access/unity-bank-agentic-access.yml
+  href: https://artifacts.apis.io/unity-bank/agentic-access/unity-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/unity-bank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/security/unity-bank-domain-security.yml
+  href: https://artifacts.apis.io/unity-bank/security/unity-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unity-bank-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/authentication/unity-bank-authentication.yml
+  href: https://artifacts.apis.io/unity-bank/authentication/unity-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unity-bank-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/scopes/unity-bank-scopes.yml
+  href: https://artifacts.apis.io/unity-bank/scopes/unity-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/unity-bank-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/conventions/unity-bank-conventions.yml
+  href: https://artifacts.apis.io/unity-bank/conventions/unity-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/unity-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/errors/unity-bank-problem-types.yml
+  href: https://artifacts.apis.io/unity-bank/errors/unity-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/unity-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/lifecycle/unity-bank-lifecycle.yml
+  href: https://artifacts.apis.io/unity-bank/lifecycle/unity-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unity-bank-lifecycle.yml
@@ -155,32 +154,32 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#versioning
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/conformance/unity-bank-conformance.yml
+  href: https://artifacts.apis.io/unity-bank/conformance/unity-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unity-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/data-model/unity-bank-data-model.yml
+  href: https://artifacts.apis.io/unity-bank/data-model/unity-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/unity-bank-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/mcp/unity-bank-mcp.yml
+  href: https://artifacts.apis.io/unity-bank/mcp/unity-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/unity-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/llms/unity-bank-llms.txt
+  href: https://artifacts.apis.io/unity-bank/llms/unity-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/unity-bank-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/overlays/unity-bank-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/unity-bank/overlays/unity-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/unity-bank-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/unity-bank/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -232,7 +231,7 @@ plans:
 - name: Unity Bank Plans Pricing
   plan_count: 0
   slug: unity-bank-plans-pricing
-random_paper: 14
+random_paper: 18
 scopes:
 - name: Unity Bank Scopes
   scope_count: 5
@@ -254,7 +253,7 @@ score:
     contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -280,13 +279,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 33.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/screenshots/unity-bank-2026-07-21T114754.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/unity-bank/unity-bank-2026-07-21T114754.png
 security:
 - kind: authentication
   name: Unity Bank Authentication
@@ -296,6 +296,10 @@ security:
   name: Unity Bank Domain Security
   slug: unity-bank-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Unity Bank product reference lookup
+  slug: unity-bank-product-reference-lookup
 slug: unity-bank
 tags:
 - Finance

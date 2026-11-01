@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: platform
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.4
-  scored_at: '2026-10-17'
+  score: 50.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1609
   human_in_the_loop: 71
@@ -478,15 +480,12 @@ apis:
   description: OAuth clients, providers
   name: Genesys O Auth API
   slug: genesys-oauth-api
-artifact_total: 184
+artifact_total: 187
 asyncapis:
 - description: ''
   name: Genesys Notifications Webhooks
   slug: genesys-notifications-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PureCloud Platform Agent Assistants API
   slug: open-genesys-agent-assistants-api
@@ -749,23 +748,27 @@ collections:
   name: PureCloud Platform Agent Assistants Workforce Management API
   slug: open-genesys-workforce-management-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/genesys/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/plans/genesys-plans-pricing.yml
+  href: https://artifacts.apis.io/genesys/plans/genesys-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/genesys-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/capabilities/genesys-capability-edges.yml
+  href: https://artifacts.apis.io/genesys/capabilities/genesys-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/genesys-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/overlays/genesys-platform-api-overlay.yaml
+  href: https://artifacts.apis.io/genesys/overlays/genesys-platform-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/genesys-platform-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/security/genesys-domain-security.yml
+  href: https://artifacts.apis.io/genesys/security/genesys-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/genesys-domain-security.yml
@@ -826,37 +829,37 @@ common:
   type: ChangeLog
   url: https://developer.genesys.cloud/changelog/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/packages/genesys-packages.yml
+  href: https://artifacts.apis.io/genesys/packages/genesys-packages.yml
   title: ''
   type: Packages
   url: packages/genesys-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/packages/genesys-packages.yml
+  href: https://artifacts.apis.io/genesys/packages/genesys-packages.yml
   title: ''
   type: SDKs
   url: packages/genesys-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/cli/genesys-cli.yml
+  href: https://artifacts.apis.io/genesys/cli/genesys-cli.yml
   title: ''
   type: CLI
   url: cli/genesys-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/mcp/genesys-mcp.yml
+  href: https://artifacts.apis.io/genesys/mcp/genesys-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/genesys-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/well-known/genesys-well-known.yml
+  href: https://artifacts.apis.io/genesys/well-known/genesys-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/genesys-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/well-known/genesys-security.txt
+  href: https://artifacts.apis.io/genesys/well-known/genesys-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/genesys-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/lifecycle/genesys-lifecycle.yml
+  href: https://artifacts.apis.io/genesys/lifecycle/genesys-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/genesys-lifecycle.yml
@@ -865,12 +868,12 @@ common:
   type: Deprecation
   url: https://developer.genesys.cloud/platform/api/versioning
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/changelog/genesys-changelog.yml
+  href: https://artifacts.apis.io/genesys/changelog/genesys-changelog.yml
   title: ''
   type: Changelog
   url: changelog/genesys-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/conformance/genesys-conformance.yml
+  href: https://artifacts.apis.io/genesys/conformance/genesys-conformance.yml
   title: ''
   type: Conformance
   url: conformance/genesys-conformance.yml
@@ -879,7 +882,7 @@ common:
   type: Compliance
   url: https://www.genesys.com/trust-center/compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/security/genesys-trust-center.yml
+  href: https://artifacts.apis.io/genesys/security/genesys-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/genesys-trust-center.yml
@@ -888,22 +891,30 @@ common:
   type: Trust
   url: https://www.genesys.com/trust-center
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/asyncapi/genesys-notifications-webhooks.yml
+  href: https://artifacts.apis.io/genesys/asyncapi/genesys-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/genesys-notifications-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/genesys/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/conventions/genesys-conventions.yml
+  href: https://artifacts.apis.io/genesys/conventions/genesys-conventions.yml
   title: ''
   type: Conventions
   url: conventions/genesys-conventions.yml
 created: '2026-07-17'
 description: Genesys is a global cloud customer experience (CX) and contact center software company whose flagship Genesys Cloud CX platform powers omnichannel customer engagement, routing, workforce management, and AI-driven orchestration. The Genesys Cloud Platform API is a large REST API of more than 3,000 public operations spanning conversations, routing, analytics, telephony (edge), workforce management, knowledge, journey, outbound, quality, gamification, integrations, and administration. It is secured with OAuth 2, described by a public OpenAPI (Swagger 2.0) definition, and supported by official SDKs for Java, .NET, Python, Go, JavaScript/Node, and iOS/Swift, a command-line interface, a notifications/websocket event surface, and a weekly changelog.
+finops:
+- has_sources: true
+  method: derived
+  name: Genesys Finops
+  primary_unit: user
+  service_category: ''
+  slug: genesys-finops
+  template: false
 image: https://www.genesys.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -920,7 +931,7 @@ overview: 'Genesys publishes 87 API contracts indexed on the [APIs.io](https://a
   The Genesys catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Genesys'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
+  Genesys'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Genesys Plans Pricing
   plan_count: 4
@@ -928,31 +939,36 @@ plans:
 - name: Genesys Price Estimates
   plan_count: 0
   slug: genesys-price-estimates
-random_paper: 18
+random_paper: 22
 scopes:
 - name: Genesys Scopes
   scope_count: 135
   slug: genesys-scopes
   summary_line: 135 scopes · implicit
 score:
-  band: strong
-  composite: 60.8
+  band: exemplar
+  composite: 67.9
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 49.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 59.2
-    developer_ergonomics: 32.7
-    discoverability: 71.7
-    operational_transparency: 26.3
-  previous_composite: 60.8
+    contract_quality: 53.3
+    developer_ergonomics: 74.4
+    discoverability: 65.0
+    operational_transparency: 63.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -977,13 +993,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/screenshots/genesys-2026-07-25T215607.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/genesys/genesys-2026-07-25T215607.png
 security:
 - kind: authentication
   name: Genesys Authentication
@@ -997,6 +1014,14 @@ security:
   name: Genesys Trust Center
   slug: genesys-trust-center
   summary_line: SOC 1 Type 2, SOC 2 Type 2, ISO 27001:2022, ISO 27017:2015, ISO 27018:2019, ISO 42001:2023, PCI DSS, HIPAA, HITRUST, FedRAMP, GDPR, CCPA, LGPD, HDS
+skill_count: 3
+skills:
+- name: Inspect routing queues and members
+  slug: genesys-manage-routing-queues
+- name: Query conversation analytics
+  slug: genesys-query-conversation-analytics
+- name: Subscribe to real-time notifications
+  slug: genesys-subscribe-notifications
 slug: genesys
 tags:
 - Company

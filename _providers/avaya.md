@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 41.2
-  scored_at: '2026-10-17'
+  score: 43.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 191
   human_in_the_loop: 8
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 336
   slug: avaya-agentic-access
   summary_line: 336 operations · 191 acting · 8 human-in-the-loop
-api_count: 80
+api_count: 40
 apis:
 - baseURL: https://{region}.api.avayacloud.com
   baseurl_source: declared
@@ -463,14 +465,14 @@ apis:
   description: Manage data sets within campaigns
   name: Avaya Datasets API
   slug: avaya-datasets-api
-artifact_total: 93
+artifact_total: 99
 asyncapis:
 - description: ''
   name: Avaya Webhooks
   slug: avaya-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/capabilities/avaya-capability-edges.yml
+  href: https://artifacts.apis.io/avaya/capabilities/avaya-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/avaya-capability-edges.yml
@@ -527,82 +529,82 @@ common:
   type: Postman
   url: https://www.postman.com/avaya-axp/avaya-experience-platform
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/plans/avaya-plans-pricing.yml
+  href: https://artifacts.apis.io/avaya/plans/avaya-plans-pricing.yml
   title: ''
   type: Pricing
   url: plans/avaya-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/plans/avaya-plans-pricing.yml
+  href: https://artifacts.apis.io/avaya/plans/avaya-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/avaya-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/rate-limits/avaya-rate-limits.yml
+  href: https://artifacts.apis.io/avaya/rate-limits/avaya-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/avaya-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/packages/avaya-packages.yml
+  href: https://artifacts.apis.io/avaya/packages/avaya-packages.yml
   title: ''
   type: Packages
   url: packages/avaya-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/packages/avaya-packages.yml
+  href: https://artifacts.apis.io/avaya/packages/avaya-packages.yml
   title: ''
   type: SDKs
   url: packages/avaya-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/cli/avaya-cli.yml
+  href: https://artifacts.apis.io/avaya/cli/avaya-cli.yml
   title: ''
   type: CLI
   url: cli/avaya-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/components/avaya-components.yml
+  href: https://artifacts.apis.io/avaya/components/avaya-components.yml
   title: ''
   type: Components
   url: components/avaya-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/well-known/avaya-well-known.yml
+  href: https://artifacts.apis.io/avaya/well-known/avaya-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/avaya-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/well-known/avaya-api-catalog.json
+  href: https://artifacts.apis.io/avaya/well-known/avaya-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/avaya-api-catalog.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/llms/avaya-llms.txt
+  href: https://artifacts.apis.io/avaya/llms/avaya-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/avaya-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/asyncapi/avaya-webhooks.yml
+  href: https://artifacts.apis.io/avaya/asyncapi/avaya-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/avaya-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/avaya/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/conventions/avaya-conventions.yml
+  href: https://artifacts.apis.io/avaya/conventions/avaya-conventions.yml
   title: ''
   type: Conventions
   url: conventions/avaya-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/errors/avaya-problem-types.yml
+  href: https://artifacts.apis.io/avaya/errors/avaya-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/avaya-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/data-model/avaya-data-model.yml
+  href: https://artifacts.apis.io/avaya/data-model/avaya-data-model.yml
   title: ''
   type: DataModel
   url: data-model/avaya-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/lifecycle/avaya-lifecycle.yml
+  href: https://artifacts.apis.io/avaya/lifecycle/avaya-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/avaya-lifecycle.yml
@@ -615,12 +617,12 @@ common:
   type: Deprecation
   url: https://developers.avayacloud.com/avaya-experience-platform/docs/api-deprecation-notices
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/changelog/avaya-changelog.yml
+  href: https://artifacts.apis.io/avaya/changelog/avaya-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/avaya-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/conformance/avaya-conformance.yml
+  href: https://artifacts.apis.io/avaya/conformance/avaya-conformance.yml
   title: ''
   type: Conformance
   url: conformance/avaya-conformance.yml
@@ -629,12 +631,12 @@ common:
   type: Compliance
   url: https://www.avaya.com/en/trust-center/compliance/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/security/avaya-trust-center.yml
+  href: https://artifacts.apis.io/avaya/security/avaya-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/avaya-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/security/avaya-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/avaya/security/avaya-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/avaya-vulnerability-disclosure.yml
@@ -643,378 +645,386 @@ common:
   type: Security
   url: https://support.avaya.com/css/public/documents/100045520
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/security/avaya-domain-security.yml
+  href: https://artifacts.apis.io/avaya/security/avaya-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/avaya-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/authentication/avaya-authentication.yml
+  href: https://artifacts.apis.io/avaya/authentication/avaya-authentication.yml
   title: ''
   type: Authentication
   url: authentication/avaya-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/scopes/avaya-scopes.yml
+  href: https://artifacts.apis.io/avaya/scopes/avaya-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/avaya-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/agentic-access/avaya-agentic-access.yml
+  href: https://artifacts.apis.io/avaya/agentic-access/avaya-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/avaya-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/mcp/avaya-mcp.yml
+  href: https://artifacts.apis.io/avaya/mcp/avaya-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/avaya-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-admin-account-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-admin-account-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-admin-account-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-admin-element-inventory-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-admin-element-inventory-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-admin-element-inventory-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-admin-group-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-admin-group-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-admin-group-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-admin-match-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-admin-match-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-admin-match-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-admin-timetable-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-admin-timetable-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-admin-timetable-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-admin-user-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-admin-user-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-admin-user-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-admin-voice-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-admin-voice-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-admin-voice-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-analytics-historical-data-v1-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-analytics-historical-data-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-analytics-historical-data-v1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-analytics-historical-data-v2-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-analytics-historical-data-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-analytics-historical-data-v2-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-analytics-producer-management-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-analytics-producer-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-analytics-producer-management-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-auth-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-auth-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-customer-journey-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-customer-journey-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-customer-journey-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-digital-custom-chat-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-digital-custom-chat-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-digital-custom-chat-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-digital-custom-messaging-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-digital-custom-messaging-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-digital-custom-messaging-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-digital-notification-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-digital-notification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-digital-notification-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-digital-sdk-auth-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-digital-sdk-auth-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-digital-sdk-auth-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-digital-signed-media-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-digital-signed-media-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-digital-signed-media-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-digital-signed-media-uri-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-digital-signed-media-uri-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-digital-signed-media-uri-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-draft-retrieval-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-draft-retrieval-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-draft-retrieval-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-draft-save-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-draft-save-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-draft-save-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-notification-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-notification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-notification-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-routing-queue-metrics-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-routing-queue-metrics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-routing-queue-metrics-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-transcript-retrieval-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-transcript-retrieval-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-transcript-retrieval-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-axp-transcript-save-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-axp-transcript-save-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-axp-transcript-save-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-access-token-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-access-token-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-access-token-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-analytics-historical-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-analytics-historical-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-analytics-historical-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-groups-management-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-groups-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-groups-management-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-messaging-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-messaging-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-messaging-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-notification-service-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-notification-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-notification-service-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-notifications-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-notifications-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-notifications-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-outbound-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-outbound-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-outbound-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-profile-management-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-profile-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-profile-management-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-queue-management-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-queue-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-queue-management-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-queue-metrics-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-queue-metrics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-queue-metrics-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-transcription-interactions-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-transcription-interactions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-transcription-interactions-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-transcripts-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-transcripts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-transcripts-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-user-management-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-user-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-user-management-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-workflow-execution-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-workflow-execution-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-workflow-execution-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-workflow-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-workflow-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-workflow-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/overlays/avaya-infinity-workflow-sessions-overlay.yaml
+  href: https://artifacts.apis.io/avaya/overlays/avaya-infinity-workflow-sessions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/avaya-infinity-workflow-sessions-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-sessionserviceinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-sessionserviceinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-sessionserviceinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-contactserviceinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-contactserviceinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-contactserviceinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-addressserviceinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-addressserviceinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-addressserviceinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-terminalconnectionserviceinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-terminalconnectionserviceinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-terminalconnectionserviceinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-agentserviceinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-agentserviceinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-agentserviceinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-terminalserviceinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-terminalserviceinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-terminalserviceinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-agentterminalserviceinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-agentterminalserviceinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-agentterminalserviceinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-connectionserviceinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-connectionserviceinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-connectionserviceinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-contactmanagerserviceinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-contactmanagerserviceinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-contactmanagerserviceinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-openqinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-openqinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-openqinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-dalcallbackserviceinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-dalcallbackserviceinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-dalcallbackserviceinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-agentterminalconnectionserviceinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-agentterminalconnectionserviceinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-agentterminalconnectionserviceinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-userserviceinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-userserviceinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-userserviceinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-routepointconnectionserviceinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-routepointconnectionserviceinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-routepointconnectionserviceinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-metricsserviceinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-metricsserviceinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-metricsserviceinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-routepointaddressserviceinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-routepointaddressserviceinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-routepointaddressserviceinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-notificationproducerinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-notificationproducerinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-notificationproducerinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-opennetworkinginterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-opennetworkinginterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-opennetworkinginterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-open-interfaces-statsnotificationproducerinterface.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-open-interfaces-statsnotificationproducerinterface.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-open-interfaces-statsnotificationproducerinterface.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-ccmm-agent-agentemailws.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-ccmm-agent-agentemailws.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-ccmm-agent-agentemailws.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-ccmm-agent-agentwebcommws.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-ccmm-agent-agentwebcommws.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-ccmm-agent-agentwebcommws.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-ccmm-agent-agentcontactws.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-ccmm-agent-agentcontactws.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-ccmm-agent-agentcontactws.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-ccmm-agent-agentutilityws.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-ccmm-agent-agentutilityws.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-ccmm-agent-agentutilityws.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-ccmm-outbound-outboundcontactws.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-ccmm-outbound-outboundcontactws.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-ccmm-outbound-outboundcontactws.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-ccmm-outbound-outboundcampaignws.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-ccmm-outbound-outboundcampaignws.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-ccmm-outbound-outboundcampaignws.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-aacc-ccmm-outbound-outboundutilityws.wsdl
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-aacc-ccmm-outbound-outboundutilityws.wsdl
   title: ''
   type: WSDL
   url: wsdl/avaya-aacc-ccmm-outbound-outboundutilityws.wsdl
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/wsdl/avaya-wsdl.yml
+  href: https://artifacts.apis.io/avaya/wsdl/avaya-wsdl.yml
   title: ''
   type: WSDL
   url: wsdl/avaya-wsdl.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/grpc/avaya-ip-office-mtcti3.proto
+  href: https://artifacts.apis.io/avaya/grpc/avaya-ip-office-mtcti3.proto
   title: ''
   type: Protobuf
   url: grpc/avaya-ip-office-mtcti3.proto
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/grpc/avaya-protobuf.yml
+  href: https://artifacts.apis.io/avaya/grpc/avaya-protobuf.yml
   title: ''
   type: Protobuf
   url: grpc/avaya-protobuf.yml
 created: '2026-01-01'
 description: 'Avaya is a global enterprise communications company whose developer surface spans two cloud platforms: Avaya Infinity, the cloud-native customer experience platform launched in 2025, and Avaya Experience Platform (AXP), the CCaaS generation that preceded it. Between them they publish 40 OpenAPI 3.0 documents and 367 operations across administration (users, groups, profiles, queues, timetables, extensions, Communication Manager and hybrid cloud gateways), customer journey and engagement history, digital chat and custom messaging, transcripts, historical and real-time analytics, workflow sessions, outbound campaigns, and a webhook/WebSocket event surface. Authentication is a bearer JWT issued by a per-tenant Keycloak realm, carried alongside a tenant appkey header; every path is rooted at an account id and the Infinity host itself is per-tenant. Avaya publishes an llms.txt, an RFC 9727 API catalog, a public Postman workspace and first-party JavaScript SDKs, but no MCP server,
   no idempotency mechanism and no public pricing.'
+finops:
+- has_sources: true
+  method: derived
+  name: Avaya Finops
+  primary_unit: ''
+  service_category: ''
+  slug: avaya-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/avaya.png
 layout: provider
 modified: '2026-09-17'
@@ -1059,10 +1069,10 @@ scopes:
   slug: avaya-scopes
   summary_line: 1 scope · clientCredentials/password
 score:
-  band: developing
-  composite: 52.5
+  band: strong
+  composite: 65.4
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 32
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -1070,13 +1080,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 65.3
-    developer_ergonomics: 37.5
-    discoverability: 78.6
-    operational_transparency: 36.8
-  previous_composite: 52.5
+    contract_quality: 64.5
+    developer_ergonomics: 78.0
+    discoverability: 71.4
+    operational_transparency: 63.2
+  previous_composite: 65.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1093,13 +1103,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/screenshots/avaya-2026-06-20T172723.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/avaya/avaya-2026-06-20T172723.png
 security:
 - kind: authentication
   name: Avaya Authentication
@@ -1117,6 +1128,18 @@ security:
   name: Avaya Trust Center
   slug: avaya-trust-center
   summary_line: FedRAMP
+skill_count: 5
+skills:
+- name: Bulk-provision Avaya Experience Platform users as an async job
+  slug: avaya-axp-bulk-provision-users
+- name: Look up a customer journey and annotate an engagement on AXP
+  slug: avaya-axp-customer-journey-lookup
+- name: Run a custom digital chat engagement on Avaya Experience Platform
+  slug: avaya-axp-run-a-digital-engagement
+- name: Authenticate with Avaya Infinity and read live queue metrics
+  slug: avaya-infinity-authenticate-and-read-queue-metrics
+- name: Subscribe to Avaya Infinity events and keep the subscription alive
+  slug: avaya-infinity-subscribe-to-events
 slug: avaya
 tags:
 - Communications

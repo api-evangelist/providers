@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allena-pharmaceuticals/refs/heads/main/security/allena-pharmaceuticals-domain-security.yml
+  href: https://artifacts.apis.io/allena-pharmaceuticals/security/allena-pharmaceuticals-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allena-pharmaceuticals-domain-security.yml
@@ -54,12 +56,12 @@ name: Allena Pharmaceuticals
 nav: Providers
 network: true
 overview: Allena Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Drug Development.
-random_paper: 12
+random_paper: 0
 score:
   band: minimal
   composite: 3.7
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -80,8 +82,8 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

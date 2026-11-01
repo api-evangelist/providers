@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,11 +56,8 @@ apis:
   description: Health check endpoints for load balancers and Kubernetes probes.
   name: Vector Health API
   slug: vector-health-api
-artifact_total: 40
+artifact_total: 39
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Vector Observability Health API
   slug: open-vector-health-api
@@ -67,17 +66,17 @@ collections:
   slug: open-vector-observability-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/plans/vector-plans-pricing.yml
+  href: https://artifacts.apis.io/vector/plans/vector-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vector-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/rate-limits/vector-rate-limits.yml
+  href: https://artifacts.apis.io/vector/rate-limits/vector-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/vector-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/finops/vector-finops.yml
+  href: https://artifacts.apis.io/vector/finops/vector-finops.yml
   title: ''
   type: FinOps
   url: finops/vector-finops.yml
@@ -98,12 +97,12 @@ common:
   type: License
   url: https://github.com/vectordotdev/vrl/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/agentic-access/vector-agentic-access.yml
+  href: https://artifacts.apis.io/vector/agentic-access/vector-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/vector-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/security/vector-domain-security.yml
+  href: https://artifacts.apis.io/vector/security/vector-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vector-domain-security.yml
@@ -140,12 +139,12 @@ common:
   type: StackOverflow
   url: https://stackoverflow.com/questions/tagged/vector-dev
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/rules/vector-spectral-rules.yml
+  href: https://artifacts.apis.io/vector/rules/vector-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/vector-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/vocabulary/vector-vocabulary.yaml
+  href: https://artifacts.apis.io/vector/vocabulary/vector-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/vector-vocabulary.yaml
@@ -176,7 +175,7 @@ finops:
 - has_sources: false
   method: generated
   name: Vector Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: vector-finops
   template: true
@@ -227,7 +226,7 @@ plans:
 - name: Vector Plans Pricing
   plan_count: 3
   slug: vector-plans-pricing
-random_paper: 21
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Vector Rate Limits
@@ -258,7 +257,7 @@ rules:
   slug: vector-spectral-rules
 score:
   band: emerging
-  composite: 24.3
+  composite: 23.0
   coverage:
     artifact_dirs: 17
     catalog_earned: 60.4
@@ -266,18 +265,15 @@ score:
     catalog_gap: 54.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 21.7
     developer_ergonomics: 16.7
     discoverability: 62.5
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 40.0
-  previous_composite: 22.8
+    operational_transparency: 28.9
+  previous_composite: 23.0
   provenance:
     agentic_access: derived
     contracts:
@@ -291,14 +287,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/screenshots/vector-2026-06-20T200848.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/vector/vector-2026-06-20T200848.png
 security:
 - kind: domain-security
   name: Vector Domain Security

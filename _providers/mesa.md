@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.4
-  scored_at: '2026-10-17'
+  score: 20.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.joinmesa.com/v1
@@ -47,11 +49,8 @@ apis:
   description: Retrieve invoices for the authenticated user.
   name: Mesa Invoices API
   slug: mesa-invoices-api
-artifact_total: 8
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mesa Partner Authentication API
   slug: open-mesa-authentication-api
@@ -64,7 +63,7 @@ common:
   type: Blog
   url: https://www.joinmesa.com/blog/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/overlays/mesa-partner-api-overlay.yaml
+  href: https://artifacts.apis.io/mesa/overlays/mesa-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mesa-partner-api-overlay.yaml
@@ -89,7 +88,7 @@ common:
   type: GettingStarted
   url: https://docs.joinmesa.com/embedded-ui/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/authentication/mesa-authentication.yml
+  href: https://artifacts.apis.io/mesa/authentication/mesa-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mesa-authentication.yml
@@ -118,52 +117,52 @@ common:
   type: Compliance
   url: https://trust.joinmesa.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/conventions/mesa-conventions.yml
+  href: https://artifacts.apis.io/mesa/conventions/mesa-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mesa-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/components/mesa-components.yml
+  href: https://artifacts.apis.io/mesa/components/mesa-components.yml
   title: ''
   type: Components
   url: components/mesa-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/data-model/mesa-data-model.yml
+  href: https://artifacts.apis.io/mesa/data-model/mesa-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mesa-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/conformance/mesa-conformance.yml
+  href: https://artifacts.apis.io/mesa/conformance/mesa-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mesa-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/lifecycle/mesa-lifecycle.yml
+  href: https://artifacts.apis.io/mesa/lifecycle/mesa-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mesa-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/llms/mesa-llms.txt
+  href: https://artifacts.apis.io/mesa/llms/mesa-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mesa-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/mcp/mesa-mcp.yml
+  href: https://artifacts.apis.io/mesa/mcp/mesa-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mesa-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mesa/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/security/mesa-trust-center.yml
+  href: https://artifacts.apis.io/mesa/security/mesa-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mesa-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/security/mesa-domain-security.yml
+  href: https://artifacts.apis.io/mesa/security/mesa-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mesa-domain-security.yml
@@ -179,10 +178,10 @@ overview: 'Mesa publishes 2 API contracts indexed on the [APIs.io](https://apis.
 
 
   Mesa''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, signup flow, support, and 17 more developer resources.'
-random_paper: 4
+random_paper: 14
 score:
-  band: emerging
-  composite: 15.3
+  band: thin
+  composite: 34.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 34.0
@@ -190,15 +189,15 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 14.0
-    developer_ergonomics: 20.8
-    discoverability: 67.9
+    developer_ergonomics: 58.9
+    discoverability: 60.7
     operational_transparency: 0.0
-  previous_composite: 14.8
+  previous_composite: 34.6
   provenance:
     conformance: first-party
     contracts:
@@ -213,14 +212,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 26.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/screenshots/mesa-2026-08-07T172620.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mesa/mesa-2026-08-07T172620.png
 security:
 - kind: authentication
   name: Mesa Authentication
@@ -234,6 +234,12 @@ security:
   name: Mesa Trust Center
   slug: mesa-trust-center
   summary_line: SOC 2
+skill_count: 2
+skills:
+- name: Embed Mesa early-pay in a partner web app
+  slug: mesa-embed-early-pay
+- name: Authenticate a user and list their invoices
+  slug: mesa-list-invoices
 slug: mesa
 tags:
 - Company

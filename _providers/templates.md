@@ -4,6 +4,6 @@ layout: provider
 name: templates
 nav: Providers
 network: true
-random_paper: 7
+random_paper: 15
 slug: templates
 ---

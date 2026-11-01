@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: On-device HTTP/JSON control API for Insta360 consumer 360 cameras (ONE X/X2/X3/X4/X5, ONE R/RS), implemented on Google's Open Spherical Camera (OSC) standard. The camera runs a built-in HTTP server re
@@ -68,32 +70,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/Insta360Develop
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/insta360/refs/heads/main/packages/insta360-packages.yml
+  href: https://artifacts.apis.io/insta360/packages/insta360-packages.yml
   title: ''
   type: Packages
   url: packages/insta360-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/insta360/refs/heads/main/packages/insta360-packages.yml
+  href: https://artifacts.apis.io/insta360/packages/insta360-packages.yml
   title: ''
   type: SDKs
   url: packages/insta360-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/insta360/refs/heads/main/conformance/insta360-conformance.yml
+  href: https://artifacts.apis.io/insta360/conformance/insta360-conformance.yml
   title: ''
   type: Conformance
   url: conformance/insta360-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/insta360/refs/heads/main/llms/insta360-llms.txt
+  href: https://artifacts.apis.io/insta360/llms/insta360-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/insta360-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/insta360/refs/heads/main/well-known/insta360-well-known.yml
+  href: https://artifacts.apis.io/insta360/well-known/insta360-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/insta360-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/insta360/refs/heads/main/security/insta360-domain-security.yml
+  href: https://artifacts.apis.io/insta360/security/insta360-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/insta360-domain-security.yml
@@ -109,26 +111,26 @@ overview: 'Insta360 is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Insta360''s developer surface includes engineering blog, documentation, API reference, and 9 more developer resources.'
-random_paper: 14
+random_paper: 0
 score:
   band: emerging
-  composite: 15.4
+  composite: 15.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 64.3
-    operational_transparency: 2.6
-  previous_composite: 14.9
+    discoverability: 57.1
+    operational_transparency: 5.3
+  previous_composite: 15.1
   provenance:
     conformance: first-party
   regulatory:
@@ -137,14 +139,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/insta360/refs/heads/main/screenshots/insta360-2026-07-25T222554.png
+screenshot: https://apis.io/screenshots/insta360/insta360-2026-07-25T222554.png
 security:
 - kind: domain-security
   name: Insta360 Domain Security

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trooly-airbnb/refs/heads/main/security/trooly-airbnb-domain-security.yml
+  href: https://artifacts.apis.io/trooly-airbnb/security/trooly-airbnb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trooly-airbnb-domain-security.yml
@@ -50,17 +52,17 @@ common:
   type: Archive
   url: https://web.archive.org/web/20170301/https://www.trooly.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trooly-airbnb/refs/heads/main/lifecycle/trooly-airbnb-lifecycle.yml
+  href: https://artifacts.apis.io/trooly-airbnb/lifecycle/trooly-airbnb-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trooly-airbnb-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trooly-airbnb/refs/heads/main/well-known/trooly-airbnb-well-known.yml
+  href: https://artifacts.apis.io/trooly-airbnb/well-known/trooly-airbnb-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/trooly-airbnb-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trooly-airbnb/refs/heads/main/llms/trooly-airbnb-llms.txt
+  href: https://artifacts.apis.io/trooly-airbnb/llms/trooly-airbnb-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trooly-airbnb-llms.txt
@@ -73,7 +75,7 @@ name: Trooly (Airbnb)
 nav: Providers
 network: true
 overview: Trooly (Airbnb) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Trust and Safety, Machine Learning, and Background Checks.
-random_paper: 6
+random_paper: 4
 score:
   band: minimal
   composite: 0.0
@@ -100,14 +102,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/trooly-airbnb/refs/heads/main/screenshots/trooly-airbnb-2026-09-02T164311.png
+screenshot: https://apis.io/screenshots/trooly-airbnb/trooly-airbnb-2026-09-02T164311.png
 security:
 - kind: domain-security
   name: Trooly Airbnb Domain Security

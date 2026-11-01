@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: Create, retrieve, update, and delete fitness workouts
   name: Under Armour Workouts API
   slug: under-armour-workouts-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MapMyFitness API
   slug: open-mapmyfitness
@@ -102,42 +101,42 @@ collections:
   slug: open-under-armour-workouts-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/plans/under-armour-plans-pricing.yml
+  href: https://artifacts.apis.io/under-armour/plans/under-armour-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/under-armour-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/rate-limits/under-armour-rate-limits.yml
+  href: https://artifacts.apis.io/under-armour/rate-limits/under-armour-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/under-armour-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/finops/under-armour-finops.yml
+  href: https://artifacts.apis.io/under-armour/finops/under-armour-finops.yml
   title: ''
   type: FinOps
   url: finops/under-armour-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/capabilities/under-armour-capability-edges.yml
+  href: https://artifacts.apis.io/under-armour/capabilities/under-armour-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/under-armour-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/agentic-access/under-armour-agentic-access.yml
+  href: https://artifacts.apis.io/under-armour/agentic-access/under-armour-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/under-armour-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/security/under-armour-domain-security.yml
+  href: https://artifacts.apis.io/under-armour/security/under-armour-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/under-armour-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/authentication/under-armour-authentication.yml
+  href: https://artifacts.apis.io/under-armour/authentication/under-armour-authentication.yml
   title: ''
   type: Authentication
   url: authentication/under-armour-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/scopes/under-armour-scopes.yml
+  href: https://artifacts.apis.io/under-armour/scopes/under-armour-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/under-armour-scopes.yml
@@ -170,27 +169,27 @@ common:
   type: GitHubOrg
   url: https://github.com/underarmour
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/openapi/_original/mapmyfitness-openapi.yml
+  href: https://artifacts.apis.io/under-armour/openapi/_original/mapmyfitness-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/mapmyfitness-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/json-ld/under-armour-context.jsonld
+  href: https://artifacts.apis.io/under-armour/json-ld/under-armour-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/under-armour-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/vocabulary/under-armour-vocabulary.yml
+  href: https://artifacts.apis.io/under-armour/vocabulary/under-armour-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/under-armour-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/rules/under-armour-rules.yml
+  href: https://artifacts.apis.io/under-armour/rules/under-armour-rules.yml
   title: ''
   type: SpectralRules
   url: rules/under-armour-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/json-schema/under-armour-workout-schema.json
+  href: https://artifacts.apis.io/under-armour/json-schema/under-armour-workout-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/under-armour-workout-schema.json
@@ -254,7 +253,7 @@ press:
 - date: ''
   title: Under Armour's digital push continues through slumped ...
   url: https://www.ciodive.com/news/under-armours-digital-push-continues-through-slumped-financials/586002/
-random_paper: 17
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Under Armour Rate Limits
@@ -290,7 +289,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.0
+  composite: 36.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 61.0
@@ -298,11 +297,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 27.3
-    contract_quality: 58.0
+    contract_quality: 54.6
     developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 10.5
@@ -311,7 +310,7 @@ score:
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 38.6
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
@@ -325,13 +324,14 @@ score:
     regime: Health
     regime_id: health
     score: 29.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/screenshots/under-armour-2026-06-20T200017.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/under-armour/under-armour-2026-06-20T200017.png
 security:
 - kind: authentication
   name: Under Armour Authentication

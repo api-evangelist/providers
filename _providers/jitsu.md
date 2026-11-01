@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 38.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: The Ingestion API from Jitsu — 2 operation(s) for ingestion.
   name: Jitsu Ingestion API
   slug: jitsu-ingestion-api
-artifact_total: 14
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Jitsu Event Ingestion Batch API
   slug: open-jitsu-batch-api
@@ -75,27 +74,27 @@ common:
   type: Blog
   url: https://jitsu.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/capabilities/jitsu-capability-edges.yml
+  href: https://artifacts.apis.io/jitsu/capabilities/jitsu-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/jitsu-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/agentic-access/jitsu-agentic-access.yml
+  href: https://artifacts.apis.io/jitsu/agentic-access/jitsu-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/jitsu-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/security/jitsu-trust-center.yml
+  href: https://artifacts.apis.io/jitsu/security/jitsu-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/jitsu-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/security/jitsu-domain-security.yml
+  href: https://artifacts.apis.io/jitsu/security/jitsu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jitsu-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/authentication/jitsu-authentication.yml
+  href: https://artifacts.apis.io/jitsu/authentication/jitsu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jitsu-authentication.yml
@@ -116,17 +115,17 @@ common:
   type: Documentation
   url: https://jitsu.com/docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/plans/jitsu-plans-pricing.yml
+  href: https://artifacts.apis.io/jitsu/plans/jitsu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jitsu-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/rate-limits/jitsu-rate-limits.yml
+  href: https://artifacts.apis.io/jitsu/rate-limits/jitsu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jitsu-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/finops/jitsu-finops.yml
+  href: https://artifacts.apis.io/jitsu/finops/jitsu-finops.yml
   title: ''
   type: FinOps
   url: finops/jitsu-finops.yml
@@ -158,14 +157,14 @@ plans:
 - name: Jitsu Plans Pricing
   plan_count: 4
   slug: jitsu-plans-pricing
-random_paper: 9
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Jitsu Rate Limits
   slug: jitsu-rate-limits
 score:
   band: thin
-  composite: 29.9
+  composite: 30.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 43.0
@@ -173,15 +172,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 50.2
     developer_ergonomics: 32.1
-    discoverability: 68.3
-    operational_transparency: 10.5
-  previous_composite: 37.7
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -196,13 +195,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/screenshots/jitsu-2026-07-25T223202.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/jitsu/jitsu-2026-07-25T223202.png
 security:
 - kind: authentication
   name: Jitsu Authentication

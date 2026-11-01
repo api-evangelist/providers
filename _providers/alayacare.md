@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-10-17'
+  score: 26.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 211
   human_in_the_loop: 9
@@ -598,11 +600,8 @@ apis:
   description: The work session outbox API from AlayaCare — 1 operation(s) for work session outbox.
   name: AlayaCare work session outbox API
   slug: alayacare-work-session-outbox-api
-artifact_total: 239
+artifact_total: 238
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AlayaCare Accounting Accounts API
   slug: open-alayacare-accounts-api
@@ -917,22 +916,22 @@ collections:
   slug: open-alayacare-work-session-outbox-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alayacare/refs/heads/main/capabilities/alayacare-capability-edges.yml
+  href: https://artifacts.apis.io/alayacare/capabilities/alayacare-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/alayacare-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alayacare/refs/heads/main/agentic-access/alayacare-agentic-access.yml
+  href: https://artifacts.apis.io/alayacare/agentic-access/alayacare-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/alayacare-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alayacare/refs/heads/main/security/alayacare-domain-security.yml
+  href: https://artifacts.apis.io/alayacare/security/alayacare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alayacare-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alayacare/refs/heads/main/authentication/alayacare-authentication.yml
+  href: https://artifacts.apis.io/alayacare/authentication/alayacare-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alayacare-authentication.yml
@@ -965,17 +964,17 @@ common:
   type: APITerms
   url: https://alayacare.com/wp-content/uploads/2022/12/AlayaCare-API-Developer-Access-Terms-.pdf
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alayacare/refs/heads/main/plans/alayacare-plans-pricing.yml
+  href: https://artifacts.apis.io/alayacare/plans/alayacare-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/alayacare-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/alayacare/refs/heads/main/rate-limits/alayacare-rate-limits.yml
+  href: https://artifacts.apis.io/alayacare/rate-limits/alayacare-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/alayacare-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/alayacare/refs/heads/main/finops/alayacare-finops.yml
+  href: https://artifacts.apis.io/alayacare/finops/alayacare-finops.yml
   title: ''
   type: FinOps
   url: finops/alayacare-finops.yml
@@ -1052,7 +1051,7 @@ plans:
 - name: Alayacare Plans Pricing
   plan_count: 4
   slug: alayacare-plans-pricing
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Alayacare Rate Limits
@@ -1071,7 +1070,7 @@ rules:
   slug: alayacare-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.7
+  composite: 30.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 60.3
@@ -1079,15 +1078,15 @@ score:
     catalog_gap: 54.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
-    contract_quality: 56.0
+    contract_quality: 55.3
     developer_ergonomics: 23.8
     discoverability: 71.4
     operational_transparency: 13.2
-  previous_composite: 42.0
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1101,13 +1100,14 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/alayacare/refs/heads/main/screenshots/alayacare-2026-06-20T171503.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/alayacare/alayacare-2026-06-20T171503.png
 security:
 - kind: authentication
   name: Alayacare Authentication

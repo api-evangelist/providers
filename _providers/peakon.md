@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.4
-  scored_at: '2026-10-17'
+  score: 22.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -85,11 +87,8 @@ apis:
   description: Retrieving segments
   name: Peakon Segments API
   slug: peakon-segments-api
-artifact_total: 20
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Peakon Actions API
   slug: open-peakon-actions-api
@@ -116,7 +115,7 @@ collections:
   slug: open-peakon-segments-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/capabilities/peakon-capability-edges.yml
+  href: https://artifacts.apis.io/peakon/capabilities/peakon-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/peakon-capability-edges.yml
@@ -125,7 +124,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/workday/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/agentic-access/peakon-agentic-access.yml
+  href: https://artifacts.apis.io/peakon/agentic-access/peakon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/peakon-agentic-access.yml
@@ -150,47 +149,47 @@ common:
   type: GettingStarted
   url: https://developer.peakon.com/docs/getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/authentication/peakon-authentication.yml
+  href: https://artifacts.apis.io/peakon/authentication/peakon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/peakon-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/conventions/peakon-conventions.yml
+  href: https://artifacts.apis.io/peakon/conventions/peakon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/peakon-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/errors/peakon-problem-types.yml
+  href: https://artifacts.apis.io/peakon/errors/peakon-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/peakon-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/data-model/peakon-data-model.yml
+  href: https://artifacts.apis.io/peakon/data-model/peakon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/peakon-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/conformance/peakon-conformance.yml
+  href: https://artifacts.apis.io/peakon/conformance/peakon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/peakon-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/mcp/peakon-mcp.yml
+  href: https://artifacts.apis.io/peakon/mcp/peakon-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/peakon-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/llms/peakon-llms.txt
+  href: https://artifacts.apis.io/peakon/llms/peakon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/peakon-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/peakon/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/lifecycle/peakon-lifecycle.yml
+  href: https://artifacts.apis.io/peakon/lifecycle/peakon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/peakon-lifecycle.yml
@@ -199,7 +198,7 @@ common:
   type: StatusPage
   url: https://status.peakon.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/security/peakon-domain-security.yml
+  href: https://artifacts.apis.io/peakon/security/peakon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/peakon-domain-security.yml
@@ -212,7 +211,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/peakon
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/overlays/peakon-openapi-overlay.yaml
+  href: https://artifacts.apis.io/peakon/overlays/peakon-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/peakon-openapi-overlay.yaml
@@ -228,10 +227,10 @@ overview: 'Peakon publishes 8 API contracts indexed on the [APIs.io](https://api
 
 
   Peakon''s developer surface includes documentation, API reference, getting-started guide, authentication, support, and 17 more developer resources.'
-random_paper: 0
+random_paper: 14
 score:
   band: thin
-  composite: 30.4
+  composite: 32.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -243,11 +242,11 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 44.4
-    developer_ergonomics: 42.3
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 30.4
+    contract_quality: 41.0
+    developer_ergonomics: 56.5
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -264,13 +263,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/screenshots/peakon-2026-08-07T191724.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/peakon/peakon-2026-08-07T191724.png
 security:
 - kind: authentication
   name: Peakon Authentication
@@ -280,6 +280,14 @@ security:
   name: Peakon Domain Security
   slug: peakon-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Authenticate with the Peakon API
+  slug: peakon-authenticate
+- name: Pull engagement scores from Peakon
+  slug: peakon-pull-engagement
+- name: Sync employees into Peakon
+  slug: peakon-sync-employees
 slug: peakon
 tags:
 - Company

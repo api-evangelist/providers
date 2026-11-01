@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Data-centric GRC REST API for IBM OpenPages, specified in terms of resources, their URIs, and the actions that can be performed on those URIs. Available as v1 and v2. The API is hosted per service ins
@@ -50,7 +52,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/ibm/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openpages/refs/heads/main/security/openpages-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/openpages/security/openpages-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/openpages-vulnerability-disclosure.yml
@@ -111,37 +113,37 @@ common:
   type: ChangeLog
   url: https://cloud.ibm.com/docs/openpages?topic=openpages-openpages-relnotes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openpages/refs/heads/main/changelog/openpages-changelog.yml
+  href: https://artifacts.apis.io/openpages/changelog/openpages-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/openpages-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/openpages/refs/heads/main/cli/openpages-cli.yml
+  href: https://artifacts.apis.io/openpages/cli/openpages-cli.yml
   title: ''
   type: CLI
   url: cli/openpages-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openpages/refs/heads/main/authentication/openpages-authentication.yml
+  href: https://artifacts.apis.io/openpages/authentication/openpages-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openpages-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openpages/refs/heads/main/asyncapi/openpages-events-webhooks.yml
+  href: https://artifacts.apis.io/openpages/asyncapi/openpages-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/openpages-events-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openpages/refs/heads/main/lifecycle/openpages-lifecycle.yml
+  href: https://artifacts.apis.io/openpages/lifecycle/openpages-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openpages-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openpages/refs/heads/main/conformance/openpages-conformance.yml
+  href: https://artifacts.apis.io/openpages/conformance/openpages-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openpages-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openpages/refs/heads/main/security/openpages-domain-security.yml
+  href: https://artifacts.apis.io/openpages/security/openpages-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openpages-domain-security.yml
@@ -160,7 +162,7 @@ overview: 'OpenPages is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   OpenPages'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 16 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
   band: developing
   composite: 47.8
@@ -171,7 +173,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
@@ -179,7 +181,7 @@ score:
     developer_ergonomics: 61.9
     discoverability: 57.1
     operational_transparency: 50.0
-  previous_composite: 47.7
+  previous_composite: 47.8
   provenance:
     conformance: first-party
   regulatory:
@@ -188,14 +190,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/openpages/refs/heads/main/screenshots/openpages-2026-08-07T190623.png
+screenshot: https://apis.io/screenshots/openpages/openpages-2026-08-07T190623.png
 security:
 - kind: authentication
   name: Openpages Authentication

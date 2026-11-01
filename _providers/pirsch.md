@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-17'
+  score: 32.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -368,15 +370,12 @@ apis:
     question: How do I stop a webhook from firing?
   phrasing_ops: 3
   slug: pirsch-webhooks-api
-artifact_total: 49
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Pirsch Webhooks
   slug: pirsch-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Pirsch Access Links API
   slug: open-pirsch-access-links-api
@@ -424,22 +423,22 @@ collections:
   slug: open-pirsch-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/capabilities/pirsch-capability-edges.yml
+  href: https://artifacts.apis.io/pirsch/capabilities/pirsch-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pirsch-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/agentic-access/pirsch-agentic-access.yml
+  href: https://artifacts.apis.io/pirsch/agentic-access/pirsch-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pirsch-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/security/pirsch-domain-security.yml
+  href: https://artifacts.apis.io/pirsch/security/pirsch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pirsch-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/authentication/pirsch-authentication.yml
+  href: https://artifacts.apis.io/pirsch/authentication/pirsch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pirsch-authentication.yml
@@ -472,17 +471,17 @@ common:
   type: X
   url: https://x.com/PirschAnalytics
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/plans/pirsch-plans-pricing.yml
+  href: https://artifacts.apis.io/pirsch/plans/pirsch-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pirsch-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/rate-limits/pirsch-rate-limits.yml
+  href: https://artifacts.apis.io/pirsch/rate-limits/pirsch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pirsch-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/finops/pirsch-finops.yml
+  href: https://artifacts.apis.io/pirsch/finops/pirsch-finops.yml
   title: ''
   type: FinOps
   url: finops/pirsch-finops.yml
@@ -559,42 +558,42 @@ common:
   type: ChangeLog
   url: https://docs.pirsch.io/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/changelog/pirsch-changelog.yml
+  href: https://artifacts.apis.io/pirsch/changelog/pirsch-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pirsch-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/packages/pirsch-packages.yml
+  href: https://artifacts.apis.io/pirsch/packages/pirsch-packages.yml
   title: ''
   type: Packages
   url: packages/pirsch-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/packages/pirsch-packages.yml
+  href: https://artifacts.apis.io/pirsch/packages/pirsch-packages.yml
   title: ''
   type: SDKs
   url: packages/pirsch-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/llms/pirsch-llms.txt
+  href: https://artifacts.apis.io/pirsch/llms/pirsch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pirsch-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/conventions/pirsch-conventions.yml
+  href: https://artifacts.apis.io/pirsch/conventions/pirsch-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pirsch-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/errors/pirsch-problem-types.yml
+  href: https://artifacts.apis.io/pirsch/errors/pirsch-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pirsch-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/lifecycle/pirsch-lifecycle.yml
+  href: https://artifacts.apis.io/pirsch/lifecycle/pirsch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pirsch-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/conformance/pirsch-conformance.yml
+  href: https://artifacts.apis.io/pirsch/conformance/pirsch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pirsch-conformance.yml
@@ -603,167 +602,167 @@ common:
   type: Compliance
   url: https://docs.pirsch.io/privacy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/data-model/pirsch-data-model.yml
+  href: https://artifacts.apis.io/pirsch/data-model/pirsch-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pirsch-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/components/pirsch-components.yml
+  href: https://artifacts.apis.io/pirsch/components/pirsch-components.yml
   title: ''
   type: Components
   url: components/pirsch-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/asyncapi/pirsch-webhooks.yml
+  href: https://artifacts.apis.io/pirsch/asyncapi/pirsch-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/pirsch-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/mcp/pirsch-tool-crosswalk.yml
+  href: https://artifacts.apis.io/pirsch/mcp/pirsch-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/pirsch-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pirsch/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/vocabulary/pirsch-vocabulary.yml
+  href: https://artifacts.apis.io/pirsch/vocabulary/pirsch-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/pirsch-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/json-ld/pirsch-context.jsonld
+  href: https://artifacts.apis.io/pirsch/json-ld/pirsch-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/pirsch-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/rules/pirsch-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/pirsch/rules/pirsch-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/pirsch-jsonschema-spectral-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/json-schema/pirsch-hit-request.json
+  href: https://artifacts.apis.io/pirsch/json-schema/pirsch-hit-request.json
   title: ''
   type: JSONSchema
   url: json-schema/pirsch-hit-request.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/json-schema/pirsch-event-request.json
+  href: https://artifacts.apis.io/pirsch/json-schema/pirsch-event-request.json
   title: ''
   type: JSONSchema
   url: json-schema/pirsch-event-request.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/json-schema/pirsch-visitor-stats.json
+  href: https://artifacts.apis.io/pirsch/json-schema/pirsch-visitor-stats.json
   title: ''
   type: JSONSchema
   url: json-schema/pirsch-visitor-stats.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/json-schema/pirsch-domain.json
+  href: https://artifacts.apis.io/pirsch/json-schema/pirsch-domain.json
   title: ''
   type: JSONSchema
   url: json-schema/pirsch-domain.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/examples/pirsch-hit-request-example.json
+  href: https://artifacts.apis.io/pirsch/examples/pirsch-hit-request-example.json
   title: ''
   type: Examples
   url: examples/pirsch-hit-request-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/examples/pirsch-event-request-example.json
+  href: https://artifacts.apis.io/pirsch/examples/pirsch-event-request-example.json
   title: ''
   type: Examples
   url: examples/pirsch-event-request-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/examples/pirsch-token-request-example.json
+  href: https://artifacts.apis.io/pirsch/examples/pirsch-token-request-example.json
   title: ''
   type: Examples
   url: examples/pirsch-token-request-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/examples/pirsch-token-response-example.json
+  href: https://artifacts.apis.io/pirsch/examples/pirsch-token-response-example.json
   title: ''
   type: Examples
   url: examples/pirsch-token-response-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/examples/pirsch-visitor-stats-response-example.json
+  href: https://artifacts.apis.io/pirsch/examples/pirsch-visitor-stats-response-example.json
   title: ''
   type: Examples
   url: examples/pirsch-visitor-stats-response-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/examples/pirsch-domain-example.json
+  href: https://artifacts.apis.io/pirsch/examples/pirsch-domain-example.json
   title: ''
   type: Examples
   url: examples/pirsch-domain-example.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/overlays/pirsch-access-links-overlay.yaml
+  href: https://artifacts.apis.io/pirsch/overlays/pirsch-access-links-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pirsch-access-links-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/overlays/pirsch-authentication-overlay.yaml
+  href: https://artifacts.apis.io/pirsch/overlays/pirsch-authentication-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pirsch-authentication-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/overlays/pirsch-clients-overlay.yaml
+  href: https://artifacts.apis.io/pirsch/overlays/pirsch-clients-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pirsch-clients-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/overlays/pirsch-conversion-goals-overlay.yaml
+  href: https://artifacts.apis.io/pirsch/overlays/pirsch-conversion-goals-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pirsch-conversion-goals-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/overlays/pirsch-domains-overlay.yaml
+  href: https://artifacts.apis.io/pirsch/overlays/pirsch-domains-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pirsch-domains-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/overlays/pirsch-email-reports-overlay.yaml
+  href: https://artifacts.apis.io/pirsch/overlays/pirsch-email-reports-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pirsch-email-reports-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/overlays/pirsch-funnels-overlay.yaml
+  href: https://artifacts.apis.io/pirsch/overlays/pirsch-funnels-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pirsch-funnels-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/overlays/pirsch-members-overlay.yaml
+  href: https://artifacts.apis.io/pirsch/overlays/pirsch-members-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pirsch-members-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/overlays/pirsch-short-links-overlay.yaml
+  href: https://artifacts.apis.io/pirsch/overlays/pirsch-short-links-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pirsch-short-links-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/overlays/pirsch-statistics-overlay.yaml
+  href: https://artifacts.apis.io/pirsch/overlays/pirsch-statistics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pirsch-statistics-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/overlays/pirsch-tracking-overlay.yaml
+  href: https://artifacts.apis.io/pirsch/overlays/pirsch-tracking-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pirsch-tracking-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/overlays/pirsch-traffic-management-overlay.yaml
+  href: https://artifacts.apis.io/pirsch/overlays/pirsch-traffic-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pirsch-traffic-management-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/overlays/pirsch-user-overlay.yaml
+  href: https://artifacts.apis.io/pirsch/overlays/pirsch-user-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pirsch-user-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/overlays/pirsch-views-overlay.yaml
+  href: https://artifacts.apis.io/pirsch/overlays/pirsch-views-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pirsch-views-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/overlays/pirsch-webhooks-overlay.yaml
+  href: https://artifacts.apis.io/pirsch/overlays/pirsch-webhooks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pirsch-webhooks-overlay.yaml
@@ -786,13 +785,13 @@ examples:
   name: Pirsch Token Response Example
   slug: pirsch-token-response-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Pirsch Finops
-  primary_unit: ''
+  primary_unit: 10,000 monthly page views
   service_category: ''
   slug: pirsch-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pirsch.png
 json_schemas:
 - name: Domain
@@ -828,7 +827,10 @@ plans:
 - name: Pirsch Plans Pricing
   plan_count: 3
   slug: pirsch-plans-pricing
-random_paper: 11
+- name: Pirsch Price Estimates
+  plan_count: 0
+  slug: pirsch-price-estimates
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Pirsch Rate Limits
@@ -847,23 +849,23 @@ rules:
   slug: pirsch-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 67.0
+  composite: 68.5
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 79.8
+    artifact_dirs: 32
+    catalog_earned: 82.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 35.3
+    catalog_gap: 32.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 23.5
-    contract_quality: 64.8
-    developer_ergonomics: 66.1
-    discoverability: 67.0
-    operational_transparency: 57.9
-  previous_composite: 68.5
+    contract_quality: 63.3
+    developer_ergonomics: 73.2
+    discoverability: 67.9
+    operational_transparency: 60.5
+  previous_composite: 66.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -880,13 +882,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/screenshots/pirsch-2026-06-20T191730.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pirsch/pirsch-2026-06-20T191730.png
 security:
 - kind: authentication
   name: Pirsch Authentication
@@ -896,6 +899,16 @@ security:
   name: Pirsch Domain Security
   slug: pirsch-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: Configure conversion goals and funnels
+  slug: pirsch-configure-goals-and-funnels
+- name: Onboard a new domain end to end
+  slug: pirsch-onboard-a-domain
+- name: Report traffic for a Pirsch domain
+  slug: pirsch-report-domain-traffic
+- name: Track page views and events from a server
+  slug: pirsch-track-server-side
 slug: pirsch
 tags:
 - Analytics

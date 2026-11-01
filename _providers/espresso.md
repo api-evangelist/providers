@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The public REST and WebSocket API served by Espresso query services and nodes (Tide Disco framework). Comprises independent modules — availability (Tiramisu DA blocks/headers/payloads/VID), node, stat
@@ -86,42 +88,42 @@ common:
   type: Support
   url: https://discord.com/invite/DRfcHRnnBz
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/espresso/refs/heads/main/llms/espresso-llms.txt
+  href: https://artifacts.apis.io/espresso/llms/espresso-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/espresso-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/espresso/refs/heads/main/authentication/espresso-authentication.yml
+  href: https://artifacts.apis.io/espresso/authentication/espresso-authentication.yml
   title: ''
   type: Authentication
   url: authentication/espresso-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/espresso/refs/heads/main/conventions/espresso-conventions.yml
+  href: https://artifacts.apis.io/espresso/conventions/espresso-conventions.yml
   title: ''
   type: Conventions
   url: conventions/espresso-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/espresso/refs/heads/main/changelog/espresso-changelog.yml
+  href: https://artifacts.apis.io/espresso/changelog/espresso-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/espresso-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/espresso/refs/heads/main/lifecycle/espresso-lifecycle.yml
+  href: https://artifacts.apis.io/espresso/lifecycle/espresso-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/espresso-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/espresso/refs/heads/main/conformance/espresso-conformance.yml
+  href: https://artifacts.apis.io/espresso/conformance/espresso-conformance.yml
   title: ''
   type: Conformance
   url: conformance/espresso-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/espresso/refs/heads/main/security/espresso-domain-security.yml
+  href: https://artifacts.apis.io/espresso/security/espresso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/espresso-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/espresso/refs/heads/main/asyncapi/espresso-events-webhooks.yml
+  href: https://artifacts.apis.io/espresso/asyncapi/espresso-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/espresso-events-webhooks.yml
@@ -140,26 +142,26 @@ overview: 'Espresso is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Espresso''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, authentication, and 11 more developer resources.'
-random_paper: 4
+random_paper: 20
 score:
   band: thin
-  composite: 35.4
+  composite: 35.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 35.3
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 35.0
   provenance:
     conformance: derived
   regulatory:
@@ -168,14 +170,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/espresso/refs/heads/main/screenshots/espresso-2026-07-25T213631.png
+screenshot: https://apis.io/screenshots/espresso/espresso-2026-07-25T213631.png
 security:
 - kind: authentication
   name: Espresso Authentication

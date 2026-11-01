@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 26.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: raw data endpoints
   name: Apptentive Raw API
   slug: apptentive-raw-api
-artifact_total: 14
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: public-api-service experimental API
   slug: open-apptentive-experimental-api
@@ -83,58 +82,63 @@ collections:
   name: public-api-service experimental raw API
   slug: open-apptentive-raw-api
 common:
+- group: other
+  href: https://artifacts.apis.io/apptentive/capabilities/apptentive-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/apptentive-capability-edges.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/rate-limits/apptentive-rate-limits.yml
+  href: https://artifacts.apis.io/apptentive/rate-limits/apptentive-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apptentive-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/overlays/apptentive-openapi-overlay.yaml
+  href: https://artifacts.apis.io/apptentive/overlays/apptentive-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/apptentive-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/security/apptentive-domain-security.yml
+  href: https://artifacts.apis.io/apptentive/security/apptentive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apptentive-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/agentic-access/apptentive-agentic-access.yml
+  href: https://artifacts.apis.io/apptentive/agentic-access/apptentive-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apptentive-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/authentication/apptentive-authentication.yml
+  href: https://artifacts.apis.io/apptentive/authentication/apptentive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apptentive-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/packages/apptentive-packages.yml
+  href: https://artifacts.apis.io/apptentive/packages/apptentive-packages.yml
   title: ''
   type: Packages
   url: packages/apptentive-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/packages/apptentive-packages.yml
+  href: https://artifacts.apis.io/apptentive/packages/apptentive-packages.yml
   title: ''
   type: SDKs
   url: packages/apptentive-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/mcp/apptentive-mcp.yml
+  href: https://artifacts.apis.io/apptentive/mcp/apptentive-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/apptentive-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/llms/apptentive-llms.txt
+  href: https://artifacts.apis.io/apptentive/llms/apptentive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apptentive-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/conventions/apptentive-conventions.yml
+  href: https://artifacts.apis.io/apptentive/conventions/apptentive-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apptentive-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/conformance/apptentive-conformance.yml
+  href: https://artifacts.apis.io/apptentive/conformance/apptentive-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apptentive-conformance.yml
@@ -143,12 +147,12 @@ common:
   type: Compliance
   url: https://www.alchemer.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/security/apptentive-trust-center.yml
+  href: https://artifacts.apis.io/apptentive/security/apptentive-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/apptentive-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/lifecycle/apptentive-lifecycle.yml
+  href: https://artifacts.apis.io/apptentive/lifecycle/apptentive-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apptentive-lifecycle.yml
@@ -157,7 +161,7 @@ common:
   type: StatusPage
   url: https://status.apptentive.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/apptentive/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -196,31 +200,31 @@ network: true
 overview: 'Apptentive publishes 4 API contracts indexed on the [APIs.io](https://apis.io/) network, including Experimental API, Info API, Metrics API, and 1 more. Tagged areas include Company, Enterprise, Mobile, Customer Feedback, and Surveys.
 
 
-  Apptentive''s developer surface includes authentication, documentation, support, engineering blog, and 18 more developer resources.'
-random_paper: 10
+  Apptentive''s developer surface includes authentication, documentation, support, engineering blog, and 19 more developer resources.'
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Apptentive Rate Limits
   slug: apptentive-rate-limits
 score:
   band: developing
-  composite: 39.5
+  composite: 39.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 45.0
     developer_ergonomics: 37.5
-    discoverability: 73.2
-    operational_transparency: 39.5
-  previous_composite: 39.4
+    discoverability: 66.1
+    operational_transparency: 42.1
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -247,13 +251,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/screenshots/apptentive-2026-07-25T200848.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apptentive/apptentive-2026-07-25T200848.png
 security:
 - kind: authentication
   name: Apptentive Authentication
@@ -267,6 +272,14 @@ security:
   name: Apptentive Trust Center
   slug: apptentive-trust-center
   summary_line: AICPA SOC 2 Type 2, ISO 27001, GDPR, CCPA, HIPAA, FERPA
+skill_count: 3
+skills:
+- name: Export Apptentive app metrics
+  slug: apptentive-export-app-metrics
+- name: Export Apptentive survey responses
+  slug: apptentive-export-survey-responses
+- name: Submit and track an Apptentive GDPR/CCPA request
+  slug: apptentive-gdpr-ccpa-request
 slug: apptentive
 tags:
 - Company

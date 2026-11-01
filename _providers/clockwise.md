@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for the Clockwise AI calendar optimization platform, providing programmatic access to focus time management, meeting preferences, scheduling links, and team calendar coordination features.
@@ -46,7 +48,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/salesforce/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/clockwise/refs/heads/main/security/clockwise-domain-security.yml
+  href: https://artifacts.apis.io/clockwise/security/clockwise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/clockwise-domain-security.yml
@@ -83,17 +85,17 @@ common:
   type: X
   url: https://x.com/getclockwise
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/clockwise/refs/heads/main/plans/clockwise-plans-pricing.yml
+  href: https://artifacts.apis.io/clockwise/plans/clockwise-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/clockwise-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/clockwise/refs/heads/main/rate-limits/clockwise-rate-limits.yml
+  href: https://artifacts.apis.io/clockwise/rate-limits/clockwise-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/clockwise-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/clockwise/refs/heads/main/finops/clockwise-finops.yml
+  href: https://artifacts.apis.io/clockwise/finops/clockwise-finops.yml
   title: ''
   type: FinOps
   url: finops/clockwise-finops.yml
@@ -129,7 +131,7 @@ plans:
 - name: Clockwise Plans Pricing
   plan_count: 4
   slug: clockwise-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Clockwise Rate Limits
@@ -160,14 +162,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/clockwise/refs/heads/main/screenshots/clockwise-2026-06-20T174529.png
+screenshot: https://apis.io/screenshots/clockwise/clockwise-2026-06-20T174529.png
 security:
 - kind: domain-security
   name: Clockwise Domain Security

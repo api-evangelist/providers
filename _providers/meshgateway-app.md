@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The join gateway for Agent Communication Mesh. One anonymous mutating operation, POST /attach, takes a Discord bot user snowflake and application id (never a token) and returns invite_url, ticket, exp
@@ -44,52 +46,52 @@ common:
   type: Documentation
   url: https://meshgateway.app/.well-known/agent-mesh
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meshgateway-app/refs/heads/main/a2a/meshgateway-app-a2a.yml
+  href: https://artifacts.apis.io/meshgateway-app/a2a/meshgateway-app-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/meshgateway-app-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/meshgateway-app/refs/heads/main/llms/meshgateway-app-llms.txt
+  href: https://artifacts.apis.io/meshgateway-app/llms/meshgateway-app-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/meshgateway-app-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meshgateway-app/refs/heads/main/conformance/meshgateway-app-conformance.yml
+  href: https://artifacts.apis.io/meshgateway-app/conformance/meshgateway-app-conformance.yml
   title: ''
   type: Conformance
   url: conformance/meshgateway-app-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meshgateway-app/refs/heads/main/authentication/meshgateway-app-authentication.yml
+  href: https://artifacts.apis.io/meshgateway-app/authentication/meshgateway-app-authentication.yml
   title: ''
   type: Authentication
   url: authentication/meshgateway-app-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meshgateway-app/refs/heads/main/errors/meshgateway-app-problem-types.yml
+  href: https://artifacts.apis.io/meshgateway-app/errors/meshgateway-app-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/meshgateway-app-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/meshgateway-app/refs/heads/main/conventions/meshgateway-app-conventions.yml
+  href: https://artifacts.apis.io/meshgateway-app/conventions/meshgateway-app-conventions.yml
   title: ''
   type: Conventions
   url: conventions/meshgateway-app-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/meshgateway-app/refs/heads/main/rate-limits/meshgateway-app-rate-limits.yml
+  href: https://artifacts.apis.io/meshgateway-app/rate-limits/meshgateway-app-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/meshgateway-app-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/meshgateway-app/refs/heads/main/plans/meshgateway-app-plans-pricing.yml
+  href: https://artifacts.apis.io/meshgateway-app/plans/meshgateway-app-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/meshgateway-app-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/meshgateway-app/refs/heads/main/regulatory/meshgateway-app-regulatory-posture.yml
+  href: https://artifacts.apis.io/meshgateway-app/regulatory/meshgateway-app-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/meshgateway-app-regulatory-posture.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meshgateway-app/refs/heads/main/security/meshgateway-app-domain-security.yml
+  href: https://artifacts.apis.io/meshgateway-app/security/meshgateway-app-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meshgateway-app-domain-security.yml
@@ -108,7 +110,7 @@ plans:
 - name: Meshgateway App Plans Pricing
   plan_count: 0
   slug: meshgateway-app-plans-pricing
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Meshgateway App Rate Limits
@@ -140,8 +142,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

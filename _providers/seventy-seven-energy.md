@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seventy-seven-energy/refs/heads/main/security/seventy-seven-energy-domain-security.yml
+  href: https://artifacts.apis.io/seventy-seven-energy/security/seventy-seven-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/seventy-seven-energy-domain-security.yml
@@ -89,7 +91,7 @@ press:
 - date: ''
   title: Oklahoma Department of Agriculture, Food and Forestry
   url: https://www.facebook.com/OklahomaAg/posts/-internship-opportunity-we-are-looking-for-a-qualified-collegiate-student-to-joi/1277918744369735/
-random_paper: 21
+random_paper: 3
 score:
   band: minimal
   composite: 0.0
@@ -116,12 +118,6 @@ score:
     regions:
     - north-america
   lifecycle: defunct
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 0.0
   regulatory:
     applies: true
@@ -129,8 +125,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

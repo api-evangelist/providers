@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Server-to-server JSON API (the Secure Trading Payment Platform / STPP) for card processing and management on the TRU Connect gateway. Supports request types including AUTH, ACCOUNTCHECK, REFUND, SUBSC
@@ -44,14 +46,19 @@ apis:
 - description: Payout / disbursement capability exposed through the Webservices API, used to send funds out (for example refunds beyond original transactions and supported payout flows) via the STPP JSON interface o
   name: Trust Payments Payouts API
   slug: payouts-api
-artifact_total: 5
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Trust Payments Webhooks
   slug: trust-payments-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/trust-payments/plans/trust-payments-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/trust-payments-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/security/trust-payments-domain-security.yml
+  href: https://artifacts.apis.io/trust-payments/security/trust-payments-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trust-payments-domain-security.yml
@@ -112,37 +119,37 @@ common:
   type: Support
   url: https://www.trustpayments.com/contact-us/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/authentication/trust-payments-authentication.yml
+  href: https://artifacts.apis.io/trust-payments/authentication/trust-payments-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trust-payments-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/conventions/trust-payments-conventions.yml
+  href: https://artifacts.apis.io/trust-payments/conventions/trust-payments-conventions.yml
   title: ''
   type: Conventions
   url: conventions/trust-payments-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/errors/trust-payments-error-codes.yml
+  href: https://artifacts.apis.io/trust-payments/errors/trust-payments-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/trust-payments-error-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/errors/trust-payments-decline-codes.yml
+  href: https://artifacts.apis.io/trust-payments/errors/trust-payments-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/trust-payments-decline-codes.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/sandbox/trust-payments-sandbox.yml
+  href: https://artifacts.apis.io/trust-payments/sandbox/trust-payments-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/trust-payments-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/lifecycle/trust-payments-lifecycle.yml
+  href: https://artifacts.apis.io/trust-payments/lifecycle/trust-payments-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/trust-payments-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/conformance/trust-payments-conformance.yml
+  href: https://artifacts.apis.io/trust-payments/conformance/trust-payments-conformance.yml
   title: ''
   type: Conformance
   url: conformance/trust-payments-conformance.yml
@@ -151,33 +158,41 @@ common:
   type: Compliance
   url: https://www.trustpayments.com/security/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/asyncapi/trust-payments-webhooks.yml
+  href: https://artifacts.apis.io/trust-payments/asyncapi/trust-payments-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/trust-payments-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/packages/trust-payments-packages.yml
+  href: https://artifacts.apis.io/trust-payments/packages/trust-payments-packages.yml
   title: ''
   type: Packages
   url: packages/trust-payments-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/packages/trust-payments-packages.yml
+  href: https://artifacts.apis.io/trust-payments/packages/trust-payments-packages.yml
   title: ''
   type: SDKs
   url: packages/trust-payments-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/components/trust-payments-components.yml
+  href: https://artifacts.apis.io/trust-payments/components/trust-payments-components.yml
   title: ''
   type: Components
   url: components/trust-payments-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/llms/trust-payments-llms.txt
+  href: https://artifacts.apis.io/trust-payments/llms/trust-payments-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trust-payments-llms.txt
 created: '2026-07-24'
 description: Trust Payments is a London-headquartered payment gateway and processor (formerly Secure Trading / SecureTrading) operating across the United Kingdom, Europe, and the United States. It offers online, in-store point-of-sale, unattended, and mobile card acceptance, acquiring, alternative and local payment methods, tokenisation, recurring billing, payouts, and 3-D Secure authentication through its TRU Connect gateway. The developer surface centres on the Secure Trading Payment Platform (STPP) - a server-to-server JSON Webservices API for processing (AUTH, ACCOUNTCHECK, REFUND, SUBSCRIPTION, TRANSACTIONUPDATE, and TRANSACTIONQUERY), a JWT-authenticated client-side JavaScript Library for PCI-reduced hosted card fields, and mobile SDKs, all documented as reference articles in the Trust Payments help centre with Python, PHP, ReactJS, and Swift libraries published under the SecureTrading GitHub organisation. Trust Payments does not publish a downloadable OpenAPI/Swagger definition; production
   Webservices access requires PCI certification, account approval, and credential (key) exchange, so the surface is documentation-and-SDK driven rather than open self-serve.
+finops:
+- has_sources: true
+  method: derived
+  name: Trust Payments Finops
+  primary_unit: ''
+  service_category: ''
+  slug: trust-payments-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-25'
@@ -190,13 +205,17 @@ overview: 'Trust Payments is listed with 2 APIs on the [APIs.io](https://apis.io
   The Trust Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Trust Payments'' developer surface includes documentation, API reference, pricing, engineering blog, getting-started guide, support, authentication, and 21 more developer resources.'
-random_paper: 8
+  Trust Payments'' developer surface includes documentation, API reference, pricing, engineering blog, getting-started guide, support, authentication, and 22 more developer resources.'
+plans:
+- name: Trust Payments Plans Pricing
+  plan_count: 0
+  slug: trust-payments-plans-pricing
+random_paper: 16
 score:
   band: developing
-  composite: 49.1
+  composite: 50.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -204,12 +223,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 73.2
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -218,7 +237,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 49.1
+  previous_composite: 50.1
   provenance:
     conformance: first-party
   regulatory:
@@ -231,14 +250,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/trust-payments/refs/heads/main/screenshots/trust-payments-2026-08-17T082454.png
+screenshot: https://apis.io/screenshots/trust-payments/trust-payments-2026-08-17T082454.png
 security:
 - kind: authentication
   name: Trust Payments Authentication

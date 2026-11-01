@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -24,25 +24,27 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-17'
+  score: 25.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Hosted, OAuth-secured Model Context Protocol server that lets supported AI assistants work inside Martini projects using the signed-in user''s account permissions — browse projects, canvases, subjects '
   name: Martini MCP Connector
   slug: martini-mcp-connector
-artifact_total: 6
+artifact_total: 8
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/martini/refs/heads/main/plans/martini-plans-pricing.yml
+  href: https://artifacts.apis.io/martini/plans/martini-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/martini-plans-pricing.yml
@@ -95,27 +97,27 @@ common:
   type: Download
   url: https://www.martini.film/download
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/martini/refs/heads/main/mcp/martini-mcp.yml
+  href: https://artifacts.apis.io/martini/mcp/martini-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/martini-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/martini/refs/heads/main/llms/martini-llms.txt
+  href: https://artifacts.apis.io/martini/llms/martini-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/martini-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/martini/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/martini/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/martini/refs/heads/main/authentication/martini-authentication.yml
+  href: https://artifacts.apis.io/martini/authentication/martini-authentication.yml
   title: ''
   type: Authentication
   url: authentication/martini-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/martini/refs/heads/main/conformance/martini-conformance.yml
+  href: https://artifacts.apis.io/martini/conformance/martini-conformance.yml
   title: ''
   type: Conformance
   url: conformance/martini-conformance.yml
@@ -124,12 +126,12 @@ common:
   type: Security
   url: https://www.martini.film/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/martini/refs/heads/main/security/martini-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/martini/security/martini-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/martini-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/martini/refs/heads/main/security/martini-domain-security.yml
+  href: https://artifacts.apis.io/martini/security/martini-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/martini-domain-security.yml
@@ -153,10 +155,10 @@ plans:
 - name: Martini Plans Pricing
   plan_count: 5
   slug: martini-plans-pricing
-random_paper: 8
+random_paper: 12
 score:
-  band: emerging
-  composite: 20.7
+  band: thin
+  composite: 34.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 49.0
@@ -164,15 +166,15 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 75.0
-    operational_transparency: 2.6
-  previous_composite: 14.3
+    developer_ergonomics: 42.9
+    discoverability: 65.0
+    operational_transparency: 15.8
+  previous_composite: 34.5
   provenance:
     conformance: derived
     mcp: first-party
@@ -182,15 +184,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 20.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 28.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/martini/refs/heads/main/screenshots/martini-2026-07-25T230407.png
+screenshot: https://apis.io/screenshots/martini/martini-2026-07-25T230407.png
 security:
 - kind: authentication
   name: Martini Authentication
@@ -204,6 +206,12 @@ security:
   name: Martini Vulnerability Disclosure
   slug: martini-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 2
+skills:
+- name: blender-to-martini
+  slug: martini-blender-to-martini
+- name: martini-skills
+  slug: martini-films
 slug: martini
 tags:
 - Company

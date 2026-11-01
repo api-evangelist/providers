@@ -13,7 +13,7 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 36.4
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - description: 1upHealth's managed HL7 FHIR R4 (4.0.1) REST API cloud server, exposing 144 FHIR resource types with SMART-on-FHIR OAuth 2.0 security. Publishes a live CapabilityStatement at /fhir/r4/metadata.
@@ -67,39 +69,39 @@ apis:
 - description: Population-scale connectivity and Bulk Data (Flat FHIR) export solution for acquiring and computing over large member/patient populations as FHIR.
   name: 1up Population Connect (Bulk FHIR)
   slug: 1uphealth-population-connect-api
-artifact_total: 21
+artifact_total: 24
 asyncapis:
 - description: ''
   name: 1Uphealth Subscription Webhooks
   slug: 1uphealth-subscription-webhooks
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/json-ld/1uphealth-context.jsonld
+  href: https://artifacts.apis.io/1uphealth/json-ld/1uphealth-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/1uphealth-context.jsonld
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/a2a/1uphealth-a2a.yml
+  href: https://artifacts.apis.io/1uphealth/a2a/1uphealth-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/1uphealth-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/mcp/1uphealth-mcp.yml
+  href: https://artifacts.apis.io/1uphealth/mcp/1uphealth-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/1uphealth-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/hosts/1uphealth-hosts.yml
+  href: https://artifacts.apis.io/1uphealth/hosts/1uphealth-hosts.yml
   title: ''
   type: Hosts
   url: hosts/1uphealth-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/integrations/1uphealth-integration-edges.yml
+  href: https://artifacts.apis.io/1uphealth/integrations/1uphealth-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/1uphealth-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/vendors/1uphealth-vendors.yml
+  href: https://artifacts.apis.io/1uphealth/vendors/1uphealth-vendors.yml
   title: ''
   type: Vendors
   url: vendors/1uphealth-vendors.yml
@@ -112,12 +114,12 @@ common:
   type: Leadership
   url: https://1up.health/leadership/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/security/1uphealth-trust-center.yml
+  href: https://artifacts.apis.io/1uphealth/security/1uphealth-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/1uphealth-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/security/1uphealth-domain-security.yml
+  href: https://artifacts.apis.io/1uphealth/security/1uphealth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/1uphealth-domain-security.yml
@@ -186,27 +188,27 @@ common:
   type: Postman
   url: https://docs.1up.health/help-center/Content/en-US/get-started/quick-start/postman.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/authentication/1uphealth-authentication.yml
+  href: https://artifacts.apis.io/1uphealth/authentication/1uphealth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/1uphealth-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/scopes/1uphealth-scopes.yml
+  href: https://artifacts.apis.io/1uphealth/scopes/1uphealth-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/1uphealth-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/conventions/1uphealth-conventions.yml
+  href: https://artifacts.apis.io/1uphealth/conventions/1uphealth-conventions.yml
   title: ''
   type: Conventions
   url: conventions/1uphealth-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/conventions/1uphealth-conventions.yml
+  href: https://artifacts.apis.io/1uphealth/conventions/1uphealth-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/1uphealth-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/conformance/1uphealth-conformance.yml
+  href: https://artifacts.apis.io/1uphealth/conformance/1uphealth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/1uphealth-conformance.yml
@@ -215,47 +217,47 @@ common:
   type: Compliance
   url: https://trust.1up.health/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/errors/1uphealth-problem-types.yml
+  href: https://artifacts.apis.io/1uphealth/errors/1uphealth-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/1uphealth-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/lifecycle/1uphealth-lifecycle.yml
+  href: https://artifacts.apis.io/1uphealth/lifecycle/1uphealth-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/1uphealth-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/changelog/1uphealth-changelog.yml
+  href: https://artifacts.apis.io/1uphealth/changelog/1uphealth-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/1uphealth-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/llms/1uphealth-llms.txt
+  href: https://artifacts.apis.io/1uphealth/llms/1uphealth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/1uphealth-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/mcp/1uphealth-mcp.yml
+  href: https://artifacts.apis.io/1uphealth/mcp/1uphealth-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/1uphealth-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/1uphealth/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/sandbox/1uphealth-sandbox.yml
+  href: https://artifacts.apis.io/1uphealth/sandbox/1uphealth-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/1uphealth-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/asyncapi/1uphealth-subscription-webhooks.yml
+  href: https://artifacts.apis.io/1uphealth/asyncapi/1uphealth-subscription-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/1uphealth-subscription-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/well-known/1uphealth-well-known.yml
+  href: https://artifacts.apis.io/1uphealth/well-known/1uphealth-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/1uphealth-well-known.yml
@@ -276,42 +278,42 @@ common:
   type: BlogRSS
   url: https://1up.health/blog/feed/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/json-ld/1uphealth-context.jsonld
+  href: https://artifacts.apis.io/1uphealth/json-ld/1uphealth-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/1uphealth-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/plans/1uphealth-plans-pricing.yml
+  href: https://artifacts.apis.io/1uphealth/plans/1uphealth-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/1uphealth-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/rate-limits/1uphealth-rate-limits.yml
+  href: https://artifacts.apis.io/1uphealth/rate-limits/1uphealth-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/1uphealth-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/finops/1uphealth-finops.yml
+  href: https://artifacts.apis.io/1uphealth/finops/1uphealth-finops.yml
   title: ''
   type: FinOps
   url: finops/1uphealth-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/packages/1uphealth-packages.yml
+  href: https://artifacts.apis.io/1uphealth/packages/1uphealth-packages.yml
   title: ''
   type: Packages
   url: packages/1uphealth-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/packages/1uphealth-packages.yml
+  href: https://artifacts.apis.io/1uphealth/packages/1uphealth-packages.yml
   title: ''
   type: SDKs
   url: packages/1uphealth-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/components/1uphealth-components.yml
+  href: https://artifacts.apis.io/1uphealth/components/1uphealth-components.yml
   title: ''
   type: Components
   url: components/1uphealth-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/data-model/1uphealth-data-model.yml
+  href: https://artifacts.apis.io/1uphealth/data-model/1uphealth-data-model.yml
   title: ''
   type: DataModel
   url: data-model/1uphealth-data-model.yml
@@ -319,8 +321,8 @@ created: '2026-07-24'
 description: 1upHealth is a US healthcare data interoperability company, founded in 2017 and headquartered in Boston, Massachusetts, that operates an HL7 FHIR-first health data platform for claims and clinical data acquisition, exchange, and compute. Built on a lakehouse architecture, the platform lets health plans, providers, and digital health developers ingest, normalize, store, and query patient and member data as FHIR, and ships modular solutions aligned to US federal interoperability mandates - Patient Access, Provider Access, Payer-to-Payer Data Exchange, Provider Directory, Formulary, and Electronic Prior Authorization (CMS Interoperability & Prior Authorization, CMS-0057-F). 1upHealth runs a managed, HIPAA-compliant FHIR REST API cloud server exposing FHIR R4 (4.0.1), STU3 (3.0.2), and DSTU2 (1.0.2) endpoints, each publishing a live CapabilityStatement, secured with SMART-on-FHIR OAuth 2.0. The company is HITRUST, SOC 2, and HIPAA aligned. Home market is the United States. Developer
   documentation is public at docs.1up.health, while provisioning API credentials and the developer console require an account (gated self-serve / partner onboarding).
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: 1Uphealth Finops
   primary_unit: ''
   service_category: ''
@@ -338,7 +340,7 @@ jsonld:
   slug: 1uphealth-context
 layout: provider
 mcp_servers:
-- description: Remote MCP server at docs.1up.health over HTTP; 8 tools listed.
+- description: Remote MCP server at docs.1up.health over HTTP; 2 tools listed.
   name: 1upHealth MCP Server
   slug: 1uphealth-fhir
 modified: '2026-08-14'
@@ -356,7 +358,7 @@ plans:
 - name: 1Uphealth Plans Pricing
   plan_count: 6
   slug: 1uphealth-plans-pricing
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: 1Uphealth Rate Limits
@@ -368,7 +370,7 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 70.6
+  composite: 72.3
   coverage:
     artifact_dirs: 30
     catalog_earned: 72.0
@@ -376,14 +378,14 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 57.0
-    developer_ergonomics: 66.1
-    discoverability: 83.3
-    operational_transparency: 84.2
+    developer_ergonomics: 78.0
+    discoverability: 73.3
+    operational_transparency: 86.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -391,7 +393,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 71.7
+  previous_composite: 72.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -406,14 +408,14 @@ score:
     regime: Health
     regime_id: health
     score: 47.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/1uphealth/refs/heads/main/screenshots/1uphealth-2026-07-25T181115.png
+screenshot: https://apis.io/screenshots/1uphealth/1uphealth-2026-07-25T181115.png
 security:
 - kind: authentication
   name: 1Uphealth Authentication
@@ -427,6 +429,14 @@ security:
   name: 1Uphealth Trust Center
   slug: 1uphealth-trust-center
   summary_line: SOC 2, HIPAA, CSA STAR
+skill_count: 3
+skills:
+- name: bulk-export
+  slug: 1uphealth-bulk-export
+- name: query-patient-data
+  slug: 1uphealth-query-patient-data
+- name: write-with-concurrency
+  slug: 1uphealth-write-with-concurrency
 slug: 1uphealth
 tags:
 - Healthcare

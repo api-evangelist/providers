@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://portal.tcs.taranawireless.com/northbound
@@ -43,7 +45,7 @@ apis:
   description: 'The TCS northbound REST API is how operators wire the Tarana Cloud Suite into their own OSS/BSS: device inventory, network topology discovery and geo-mapping, subscriber provisioning, billing integrat'
   name: Tarana Cloud Suite (TCS) Northbound API
   slug: tarana-cloud-suite-tcs-northbound-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: DERIVED, NOT PUBLISHED BY TARANA. Tarana Wireless publishes no AsyncAPI document. This document is a faithful AsyncAPI 3.0.0 rendering of the TCS alert-notification webhook contract that Tarana does p
   name: Tarana Cloud Suite — Alert Notification Webhooks
@@ -61,7 +63,7 @@ common:
   type: BlogRSS
   url: https://taranawireless.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/security/tarana-wireless-domain-security.yml
+  href: https://artifacts.apis.io/tarana-wireless/security/tarana-wireless-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tarana-wireless-domain-security.yml
@@ -130,83 +132,91 @@ common:
   type: StatusPage
   url: https://status.taranawireless.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/lifecycle/tarana-wireless-lifecycle.yml
+  href: https://artifacts.apis.io/tarana-wireless/lifecycle/tarana-wireless-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tarana-wireless-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/changelog/tarana-wireless-changelog.yml
+  href: https://artifacts.apis.io/tarana-wireless/changelog/tarana-wireless-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tarana-wireless-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/well-known/tarana-wireless-well-known.yml
+  href: https://artifacts.apis.io/tarana-wireless/well-known/tarana-wireless-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tarana-wireless-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/well-known/tarana-wireless-security.txt
+  href: https://artifacts.apis.io/tarana-wireless/well-known/tarana-wireless-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/tarana-wireless-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/security/tarana-wireless-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tarana-wireless/security/tarana-wireless-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/tarana-wireless-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/security/tarana-wireless-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tarana-wireless/security/tarana-wireless-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tarana-wireless-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/authentication/tarana-wireless-authentication.yml
+  href: https://artifacts.apis.io/tarana-wireless/authentication/tarana-wireless-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tarana-wireless-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/conventions/tarana-wireless-conventions.yml
+  href: https://artifacts.apis.io/tarana-wireless/conventions/tarana-wireless-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tarana-wireless-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/errors/tarana-wireless-error-codes.yml
+  href: https://artifacts.apis.io/tarana-wireless/errors/tarana-wireless-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/tarana-wireless-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/conformance/tarana-wireless-conformance.yml
+  href: https://artifacts.apis.io/tarana-wireless/conformance/tarana-wireless-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tarana-wireless-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/asyncapi/tarana-wireless-webhooks.yml
+  href: https://artifacts.apis.io/tarana-wireless/asyncapi/tarana-wireless-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/tarana-wireless-webhooks.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/asyncapi/tarana-wireless-alerts-asyncapi.yml
+  href: https://artifacts.apis.io/tarana-wireless/asyncapi/tarana-wireless-alerts-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/tarana-wireless-alerts-asyncapi.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/rate-limits/tarana-wireless-rate-limits.yml
+  href: https://artifacts.apis.io/tarana-wireless/rate-limits/tarana-wireless-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tarana-wireless-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/plans/tarana-wireless-plans-pricing.yml
+  href: https://artifacts.apis.io/tarana-wireless/plans/tarana-wireless-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tarana-wireless-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/llms/tarana-wireless-llms.txt
+  href: https://artifacts.apis.io/tarana-wireless/llms/tarana-wireless-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tarana-wireless-llms.txt
 created: '2026-08-29'
 description: 'Tarana Wireless is a Milpitas, California broadband equipment company and the creator of next-generation fixed wireless access (ngFWA), a physical-layer approach that uses distributed multi-user MIMO and interference cancellation to deliver fiber-class performance over 3 GHz CBRS, 5 GHz and 6 GHz spectrum in non-line-of-sight conditions. Its G1 platform pairs base nodes and remote nodes with the Tarana Cloud Suite (TCS), a multi-tenant SaaS that operators use to plan, install, provision, monitor and troubleshoot their radio networks. TCS is the company''s software and API surface: it exposes a REST northbound API for device inventory, network topology and geo-mapping, subscriber provisioning and billing integration into operator OSS/BSS systems, a configurable webhook and alert notification channel, CBRS SAS and 6 GHz AFC domain-proxy integrations, and dial-out streaming telemetry from the radios. The northbound API reference is published as a Swagger UI inside the operator
   portal and requires an authenticated TCS tenant, so the machine-readable contract is not publicly retrievable.'
+finops:
+- has_sources: true
+  method: derived
+  name: Tarana Wireless Finops
+  primary_unit: ''
+  service_category: ''
+  slug: tarana-wireless-finops
+  template: true
 image: https://taranawireless.com/wp-content/uploads/2022/03/Tarana-Logo-Horizontal-no-Tagline-White.svg
 layout: provider
 modified: '2026-10-06'
@@ -224,16 +234,16 @@ plans:
 - name: Tarana Wireless Plans Pricing
   plan_count: 0
   slug: tarana-wireless-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Tarana Wireless Rate Limits
   slug: tarana-wireless-rate-limits
 score:
   band: developing
-  composite: 41.6
+  composite: 42.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -244,10 +254,10 @@ score:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 39.6
-    developer_ergonomics: 38.1
-    discoverability: 74.1
-    operational_transparency: 52.6
-  previous_composite: 41.6
+    developer_ergonomics: 45.2
+    discoverability: 67.9
+    operational_transparency: 55.3
+  previous_composite: 42.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -257,14 +267,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/screenshots/tarana-wireless-2026-09-02T162538.png
+screenshot: https://apis.io/screenshots/tarana-wireless/tarana-wireless-2026-09-02T162538.png
 security:
 - kind: authentication
   name: Tarana Wireless Authentication

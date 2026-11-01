@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: A live, anonymously reachable Model Context Protocol server published on Eko Health's own www.ekohealth.com host, implementing the Shopify storefront / Universal Commerce Protocol (UCP) shopping servi
@@ -45,7 +47,7 @@ apis:
 - description: Eko Connect is Eko Health's integration surface for telehealth vendors, telemedicine cart makers, and life-science partners. It ships as native Android and iOS SDKs plus a REST API hosted at api.ekode
   name: Eko Connect Enterprise SDK and API
   slug: eko-connect
-artifact_total: 8
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -56,7 +58,7 @@ common:
   type: BlogRSS
   url: https://www.ekohealth.com/blogs/newsroom.atom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/security/eko-health-domain-security.yml
+  href: https://artifacts.apis.io/eko-health/security/eko-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eko-health-domain-security.yml
@@ -105,67 +107,67 @@ common:
   type: Compliance
   url: https://support.ekohealth.com/hc/en-us/articles/13156748752155-Security-and-HIPAA
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/security/eko-health-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/eko-health/security/eko-health-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/eko-health-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/well-known/eko-health-well-known.yml
+  href: https://artifacts.apis.io/eko-health/well-known/eko-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/eko-health-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/authentication/eko-health-authentication.yml
+  href: https://artifacts.apis.io/eko-health/authentication/eko-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eko-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/scopes/eko-health-scopes.yml
+  href: https://artifacts.apis.io/eko-health/scopes/eko-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/eko-health-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/well-known/eko-health-openid-configuration.json
+  href: https://artifacts.apis.io/eko-health/well-known/eko-health-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/eko-health-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/conformance/eko-health-conformance.yml
+  href: https://artifacts.apis.io/eko-health/conformance/eko-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eko-health-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/lifecycle/eko-health-lifecycle.yml
+  href: https://artifacts.apis.io/eko-health/lifecycle/eko-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eko-health-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/conventions/eko-health-conventions.yml
+  href: https://artifacts.apis.io/eko-health/conventions/eko-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eko-health-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/packages/eko-health-packages.yml
+  href: https://artifacts.apis.io/eko-health/packages/eko-health-packages.yml
   title: ''
   type: Packages
   url: packages/eko-health-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/plans/eko-health-plans.yml
+  href: https://artifacts.apis.io/eko-health/plans/eko-health-plans.yml
   title: ''
   type: Plans
   url: plans/eko-health-plans.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/mcp/eko-health-mcp.yml
+  href: https://artifacts.apis.io/eko-health/mcp/eko-health-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/eko-health-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/llms/eko-health-llms.txt
+  href: https://artifacts.apis.io/eko-health/llms/eko-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eko-health-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/eko-health/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -190,7 +192,7 @@ plans:
 - name: Eko Health Plans
   plan_count: 5
   slug: eko-health-plans
-random_paper: 4
+random_paper: 10
 scopes:
 - name: Eko Health Scopes
   scope_count: 4
@@ -198,23 +200,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.5
+  composite: 37.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 20.8
-    discoverability: 75.0
-    operational_transparency: 28.9
-  previous_composite: 38.4
+    discoverability: 65.0
+    operational_transparency: 31.6
+  previous_composite: 37.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -229,14 +231,14 @@ score:
     regime: Health
     regime_id: health
     score: 39.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/eko-health/refs/heads/main/screenshots/eko-health-2026-08-07T164805.png
+screenshot: https://apis.io/screenshots/eko-health/eko-health-2026-08-07T164805.png
 security:
 - kind: authentication
   name: Eko Health Authentication
@@ -250,6 +252,10 @@ security:
   name: Eko Health Vulnerability Disclosure
   slug: eko-health-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 1
+skills:
+- name: Shop the Eko Health catalog
+  slug: eko-health-shop-the-catalog
 slug: eko-health
 tags:
 - Company

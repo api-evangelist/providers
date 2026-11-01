@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -68,11 +70,8 @@ apis:
   description: The Tags API from Open Container Initiative — 1 operation(s) for tags.
   name: Open Container Initiative Tags API
   slug: open-container-initiative-tags-api
-artifact_total: 17
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OCI Distribution Specification Blobs API
   slug: open-open-container-initiative-blobs-api
@@ -93,27 +92,27 @@ collections:
   slug: open-open-container-initiative
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/plans/open-container-initiative-plans-pricing.yml
+  href: https://artifacts.apis.io/open-container-initiative/plans/open-container-initiative-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/open-container-initiative-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/rate-limits/open-container-initiative-rate-limits.yml
+  href: https://artifacts.apis.io/open-container-initiative/rate-limits/open-container-initiative-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/open-container-initiative-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/finops/open-container-initiative-finops.yml
+  href: https://artifacts.apis.io/open-container-initiative/finops/open-container-initiative-finops.yml
   title: ''
   type: FinOps
   url: finops/open-container-initiative-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/agentic-access/open-container-initiative-agentic-access.yml
+  href: https://artifacts.apis.io/open-container-initiative/agentic-access/open-container-initiative-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/open-container-initiative-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/security/open-container-initiative-domain-security.yml
+  href: https://artifacts.apis.io/open-container-initiative/security/open-container-initiative-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/open-container-initiative-domain-security.yml
@@ -147,7 +146,7 @@ finops:
 - has_sources: false
   method: generated
   name: Open Container Initiative Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: open-container-initiative-finops
   template: true
@@ -165,14 +164,14 @@ plans:
 - name: Open Container Initiative Plans Pricing
   plan_count: 3
   slug: open-container-initiative-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Open Container Initiative Rate Limits
   slug: open-container-initiative-rate-limits
 score:
   band: emerging
-  composite: 21.5
+  composite: 22.6
   coverage:
     artifact_dirs: 10
     catalog_earned: 33.0
@@ -180,15 +179,15 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 40.4
     developer_ergonomics: 28.6
     discoverability: 48.2
-    operational_transparency: 10.5
-  previous_composite: 23.0
+    operational_transparency: 13.2
+  previous_composite: 22.6
   provenance:
     agentic_access: derived
     contracts:
@@ -202,13 +201,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/screenshots/open-container-initiative-2026-06-20T190734.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/open-container-initiative/open-container-initiative-2026-06-20T190734.png
 security:
 - kind: domain-security
   name: Open Container Initiative Domain Security

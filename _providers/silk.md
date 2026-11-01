@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silk/refs/heads/main/security/silk-domain-security.yml
+  href: https://artifacts.apis.io/silk/security/silk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/silk-domain-security.yml
@@ -55,7 +57,7 @@ name: Silk
 nav: Providers
 network: true
 overview: Silk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, Vulnerability Management, and Exposure Management.
-random_paper: 17
+random_paper: 3
 score:
   band: minimal
   composite: 3.4
@@ -81,14 +83,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/silk/refs/heads/main/screenshots/silk-2026-09-02T155458.png
+screenshot: https://apis.io/screenshots/silk/silk-2026-09-02T155458.png
 security:
 - kind: domain-security
   name: Silk Domain Security

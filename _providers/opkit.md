@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: Register and manage webhook endpoints for event notifications.
   name: Opkit Webhooks API
   slug: opkit-webhooks-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Opkit Benefits API
   slug: open-opkit-benefits-api
@@ -95,22 +94,22 @@ collections:
   slug: open-opkit
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/capabilities/opkit-capability-edges.yml
+  href: https://artifacts.apis.io/opkit/capabilities/opkit-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/opkit-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/agentic-access/opkit-agentic-access.yml
+  href: https://artifacts.apis.io/opkit/agentic-access/opkit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/opkit-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/security/opkit-domain-security.yml
+  href: https://artifacts.apis.io/opkit/security/opkit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opkit-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/authentication/opkit-authentication.yml
+  href: https://artifacts.apis.io/opkit/authentication/opkit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opkit-authentication.yml
@@ -127,17 +126,17 @@ common:
   type: Documentation
   url: https://docs.opkit.co
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/plans/opkit-plans-pricing.yml
+  href: https://artifacts.apis.io/opkit/plans/opkit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/opkit-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/rate-limits/opkit-rate-limits.yml
+  href: https://artifacts.apis.io/opkit/rate-limits/opkit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/opkit-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opkit/refs/heads/main/finops/opkit-finops.yml
+  href: https://artifacts.apis.io/opkit/finops/opkit-finops.yml
   title: ''
   type: FinOps
   url: finops/opkit-finops.yml
@@ -165,7 +164,7 @@ plans:
 - name: Opkit Plans Pricing
   plan_count: 1
   slug: opkit-plans-pricing
-random_paper: 1
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Opkit Rate Limits
@@ -203,12 +202,13 @@ score:
     regime: Health
     regime_id: health
     score: 9.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Opkit Authentication

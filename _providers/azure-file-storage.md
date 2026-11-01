@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: Shares operations
   name: Azure File Storage Shares API
   slug: microsoft-azure-file-storage-shares-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Azure Files FileREST Account API
   slug: open-azure-file-storage-account-api
@@ -116,27 +115,27 @@ common:
   type: Support
   url: https://support.microsoft.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/agentic-access/azure-file-storage-agentic-access.yml
+  href: https://artifacts.apis.io/azure-file-storage/agentic-access/azure-file-storage-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/azure-file-storage-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/security/azure-file-storage-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/azure-file-storage/security/azure-file-storage-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/azure-file-storage-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/security/azure-file-storage-domain-security.yml
+  href: https://artifacts.apis.io/azure-file-storage/security/azure-file-storage-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/azure-file-storage-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/authentication/azure-file-storage-authentication.yml
+  href: https://artifacts.apis.io/azure-file-storage/authentication/azure-file-storage-authentication.yml
   title: ''
   type: Authentication
   url: authentication/azure-file-storage-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/scopes/azure-file-storage-scopes.yml
+  href: https://artifacts.apis.io/azure-file-storage/scopes/azure-file-storage-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/azure-file-storage-scopes.yml
@@ -172,15 +171,15 @@ overview: 'Azure Files publishes 7 API contracts indexed on the [APIs.io](https:
 
 
   Azure Files'' developer surface includes developer portal, support, authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 10
+random_paper: 14
 scopes:
 - name: Azure File Storage Scopes
   scope_count: 1
   slug: azure-file-storage-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: thin
-  composite: 38.0
+  band: developing
+  composite: 40.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -195,8 +194,8 @@ score:
     contract_quality: 46.0
     developer_ergonomics: 38.1
     discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 38.0
+    operational_transparency: 15.8
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -210,13 +209,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/screenshots/azure-file-storage-2026-06-20T172902.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/azure-file-storage/azure-file-storage-2026-06-20T172902.png
 security:
 - kind: authentication
   name: Azure File Storage Authentication

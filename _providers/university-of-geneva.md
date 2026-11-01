@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 24.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 0
@@ -83,11 +85,8 @@ apis:
 - description: 'ROR identifier https://ror.org/01swzsf04 for the University of Geneva. Notable because the institution''s own live service declares it: the public Yareta configuration endpoint reports dlcm.repository.'
   name: ROR Organization Identifier
   slug: ror-registration
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Yareta Research Data Access API
   slug: open-university-of-geneva-access-api
@@ -155,57 +154,57 @@ common:
   type: Blog
   url: https://www.unige.ch/feed/rss
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/authentication/university-of-geneva-authentication.yml
+  href: https://artifacts.apis.io/university-of-geneva/authentication/university-of-geneva-authentication.yml
   title: ''
   type: Authentication
   url: authentication/university-of-geneva-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/conformance/university-of-geneva-conformance.yml
+  href: https://artifacts.apis.io/university-of-geneva/conformance/university-of-geneva-conformance.yml
   title: ''
   type: Conformance
   url: conformance/university-of-geneva-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/errors/university-of-geneva-errors.yml
+  href: https://artifacts.apis.io/university-of-geneva/errors/university-of-geneva-errors.yml
   title: ''
   type: ErrorCatalog
   url: errors/university-of-geneva-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/lifecycle/university-of-geneva-lifecycle.yml
+  href: https://artifacts.apis.io/university-of-geneva/lifecycle/university-of-geneva-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/university-of-geneva-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/rules/university-of-geneva-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/university-of-geneva/rules/university-of-geneva-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/university-of-geneva-jsonschema-spectral-rules.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/agentic-access/university-of-geneva-agentic-access.yml
+  href: https://artifacts.apis.io/university-of-geneva/agentic-access/university-of-geneva-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-geneva-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/security/university-of-geneva-domain-security.yml
+  href: https://artifacts.apis.io/university-of-geneva/security/university-of-geneva-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/university-of-geneva-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/plans/university-of-geneva-plans-pricing.yml
+  href: https://artifacts.apis.io/university-of-geneva/plans/university-of-geneva-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/university-of-geneva-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/rate-limits/university-of-geneva-rate-limits.yml
+  href: https://artifacts.apis.io/university-of-geneva/rate-limits/university-of-geneva-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/university-of-geneva-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/finops/university-of-geneva-finops.yml
+  href: https://artifacts.apis.io/university-of-geneva/finops/university-of-geneva-finops.yml
   title: ''
   type: FinOps
   url: finops/university-of-geneva-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/university-of-geneva/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -278,7 +277,7 @@ plans:
 - name: University Of Geneva Plans Pricing
   plan_count: 2
   slug: university-of-geneva-plans-pricing
-random_paper: 9
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: University Of Geneva Rate Limits
@@ -308,7 +307,7 @@ rules:
   slug: university-of-geneva-rules
 score:
   band: emerging
-  composite: 25.8
+  composite: 25.7
   coverage:
     artifact_dirs: 21
     catalog_earned: 60.8
@@ -316,11 +315,11 @@ score:
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 23.5
-    contract_quality: 31.8
+    contract_quality: 28.5
     developer_ergonomics: 39.3
     discoverability: 57.1
     operational_transparency: 10.5
@@ -332,7 +331,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 31.9
+  previous_composite: 25.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -347,13 +346,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/screenshots/university-of-geneva-2026-06-20T200151.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/university-of-geneva/university-of-geneva-2026-06-20T200151.png
 security:
 - kind: authentication
   name: University Of Geneva Authentication

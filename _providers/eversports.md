@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Read-only GraphQL API serving a venue's activity schedules — classes, trainings, workshops, courses, events, retreats, camps, and educations — with venue, teacher, room, sport, and availability detail
@@ -47,7 +49,7 @@ apis:
 - description: Legacy JSON:API REST integration API used by aggregator and partner systems to manage users, venues, courts, and orders on the Eversports platform. Requests and responses follow the jsonapi.org format
   name: Eversports Integration API (v2)
   slug: eversports-integration-api-v2
-artifact_total: 5
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -90,57 +92,57 @@ common:
   type: PrivacyPolicy
   url: https://www.eversportsmanager.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/authentication/eversports-authentication.yml
+  href: https://artifacts.apis.io/eversports/authentication/eversports-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eversports-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/conventions/eversports-conventions.yml
+  href: https://artifacts.apis.io/eversports/conventions/eversports-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eversports-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/conformance/eversports-conformance.yml
+  href: https://artifacts.apis.io/eversports/conformance/eversports-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eversports-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/errors/eversports-error-codes.yml
+  href: https://artifacts.apis.io/eversports/errors/eversports-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/eversports-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/lifecycle/eversports-lifecycle.yml
+  href: https://artifacts.apis.io/eversports/lifecycle/eversports-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eversports-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/sandbox/eversports-sandbox.yml
+  href: https://artifacts.apis.io/eversports/sandbox/eversports-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/eversports-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/data-model/eversports-data-model.yml
+  href: https://artifacts.apis.io/eversports/data-model/eversports-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eversports-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/mcp/eversports-mcp.yml
+  href: https://artifacts.apis.io/eversports/mcp/eversports-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/eversports-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/llms/eversports-llms.txt
+  href: https://artifacts.apis.io/eversports/llms/eversports-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eversports-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/eversports/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/security/eversports-domain-security.yml
+  href: https://artifacts.apis.io/eversports/security/eversports-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eversports-domain-security.yml
@@ -156,26 +158,26 @@ overview: 'Eversports is listed with 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   Eversports'' developer surface includes documentation, support, pricing, signup flow, authentication, sandbox, and 15 more developer resources.'
-random_paper: 17
+random_paper: 13
 score:
   band: thin
-  composite: 36.8
+  composite: 36.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 35.1
     developer_ergonomics: 44.6
-    discoverability: 78.6
-    operational_transparency: 2.6
-  previous_composite: 36.7
+    discoverability: 71.4
+    operational_transparency: 5.3
+  previous_composite: 36.4
   provenance:
     conformance: derived
     mcp: derived
@@ -186,14 +188,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/screenshots/eversports-2026-07-25T213739.png
+screenshot: https://apis.io/screenshots/eversports/eversports-2026-07-25T213739.png
 security:
 - kind: authentication
   name: Eversports Authentication
@@ -203,6 +205,12 @@ security:
   name: Eversports Domain Security
   slug: eversports-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: List sessions and make a reservation
+  slug: eversports-book-a-session
+- name: Sync a venue's activity schedule
+  slug: eversports-sync-activity-schedule
 slug: eversports
 tags:
 - Company

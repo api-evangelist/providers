@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-10-17'
+  score: 22.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -71,15 +73,20 @@ apis:
   description: The P API from Recruitee — 5 operation(s) for p.
   name: Recruitee P API
   slug: recruitee-p-api
-artifact_total: 13
+artifact_total: 15
 common:
+- group: commercial
+  href: https://artifacts.apis.io/recruitee/plans/recruitee-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/recruitee-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/agentic-access/recruitee-agentic-access.yml
+  href: https://artifacts.apis.io/recruitee/agentic-access/recruitee-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/recruitee-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/rules/recruitee-rules.yml
+  href: https://artifacts.apis.io/recruitee/rules/recruitee-rules.yml
   title: ''
   type: Spectral
   url: rules/recruitee-rules.yml
@@ -88,57 +95,57 @@ common:
   type: Compliance
   url: https://recruitee.com/compliance
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/errors/recruitee-problem-types.yml
+  href: https://artifacts.apis.io/recruitee/errors/recruitee-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/recruitee-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/conformance/recruitee-conformance.yml
+  href: https://artifacts.apis.io/recruitee/conformance/recruitee-conformance.yml
   title: ''
   type: Conformance
   url: conformance/recruitee-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/llms/recruitee-llms.txt
+  href: https://artifacts.apis.io/recruitee/llms/recruitee-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/recruitee-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/well-known/recruitee-support-security.txt
+  href: https://artifacts.apis.io/recruitee/well-known/recruitee-support-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/recruitee-support-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/well-known/recruitee-status-security.txt
+  href: https://artifacts.apis.io/recruitee/well-known/recruitee-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/recruitee-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/well-known/recruitee-well-known.yml
+  href: https://artifacts.apis.io/recruitee/well-known/recruitee-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/recruitee-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/hosts/recruitee-hosts.yml
+  href: https://artifacts.apis.io/recruitee/hosts/recruitee-hosts.yml
   title: ''
   type: Hosts
   url: hosts/recruitee-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/integrations/recruitee-integration-edges.yml
+  href: https://artifacts.apis.io/recruitee/integrations/recruitee-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/recruitee-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/vendors/recruitee-vendors.yml
+  href: https://artifacts.apis.io/recruitee/vendors/recruitee-vendors.yml
   title: ''
   type: Vendors
   url: vendors/recruitee-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/packages/recruitee-packages.yml
+  href: https://artifacts.apis.io/recruitee/packages/recruitee-packages.yml
   title: ''
   type: SDKs
   url: packages/recruitee-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/packages/recruitee-packages.yml
+  href: https://artifacts.apis.io/recruitee/packages/recruitee-packages.yml
   title: ''
   type: Packages
   url: packages/recruitee-packages.yml
@@ -155,22 +162,22 @@ common:
   type: PrivacyPolicy
   url: https://recruitee.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/scopes/recruitee-scopes.yml
+  href: https://artifacts.apis.io/recruitee/scopes/recruitee-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/recruitee-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/authentication/recruitee-authentication.yml
+  href: https://artifacts.apis.io/recruitee/authentication/recruitee-authentication.yml
   title: ''
   type: Authentication
   url: authentication/recruitee-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/security/recruitee-trust-center.yml
+  href: https://artifacts.apis.io/recruitee/security/recruitee-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/recruitee-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/security/recruitee-domain-security.yml
+  href: https://artifacts.apis.io/recruitee/security/recruitee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/recruitee-domain-security.yml
@@ -220,6 +227,14 @@ common:
   url: https://docs.recruitee.com/llms.txt
 created: '2026-05-11'
 description: Recruitee (part of Tellent) is a collaborative applicant tracking system (ATS) and recruiting platform that helps growing companies build hiring pipelines, publish careers sites, manage candidates, schedule interviews, and collaborate on hiring decisions. Its REST API at https://api.recruitee.com exposes endpoints for candidates, offers, placements, departments, tags, evaluations, interviews, mailboxes, and reports, scoped to a company by the path segment /c/{company_id}. Authentication uses a Bearer personal API token generated from Settings, Apps and plugins, Personal API tokens, with permissions inherited from the creator's Hiring role.
+finops:
+- has_sources: true
+  method: derived
+  name: Recruitee Finops
+  primary_unit: ''
+  service_category: ''
+  slug: recruitee-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/recruitee.png
 layout: provider
 modified: '2026-05-11'
@@ -232,8 +247,12 @@ overview: 'Recruitee publishes 7 API contracts indexed on the [APIs.io](https://
   The Recruitee catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Recruitee''s developer surface includes support, authentication, documentation, API reference, pricing, signup flow, and 26 more developer resources.'
-random_paper: 0
+  Recruitee''s developer surface includes support, authentication, documentation, API reference, pricing, signup flow, and 27 more developer resources.'
+plans:
+- name: Recruitee Plans Pricing
+  plan_count: 3
+  slug: recruitee-plans-pricing
+random_paper: 8
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -253,24 +272,24 @@ scopes:
   slug: recruitee-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 44.5
+  band: strong
+  composite: 54.9
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 44.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 70.5
+    artifact_dirs: 20
+    catalog_earned: 56.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 23.2
+  delta: 6.3
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 44.7
-    developer_ergonomics: 32.1
+    developer_ergonomics: 40.5
     discoverability: 78.6
-    operational_transparency: 18.4
-  previous_composite: 21.3
+    operational_transparency: 31.6
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -286,13 +305,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/screenshots/recruitee-2026-06-20T192710.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/recruitee/recruitee-2026-06-20T192710.png
 security:
 - kind: authentication
   name: Recruitee Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.4
-  scored_at: '2026-10-17'
+  score: 36.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -163,23 +165,28 @@ asyncapis:
   name: Bond Webhooks
   slug: bond-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/bond/capabilities/bond-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bond-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/agentic-access/bond-agentic-access.yml
+  href: https://artifacts.apis.io/bond/agentic-access/bond-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bond-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/rules/bond-rules.yml
+  href: https://artifacts.apis.io/bond/rules/bond-rules.yml
   title: ''
   type: Spectral
   url: rules/bond-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/json-ld/bond-context.jsonld
+  href: https://artifacts.apis.io/bond/json-ld/bond-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bond-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/vocabulary/bond-vocabulary.yml
+  href: https://artifacts.apis.io/bond/vocabulary/bond-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bond-vocabulary.yml
@@ -192,27 +199,27 @@ common:
   type: StatusPage
   url: https://status.bond.tech/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/errors/bond-problem-types.yml
+  href: https://artifacts.apis.io/bond/errors/bond-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bond-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/llms/bond-llms.txt
+  href: https://artifacts.apis.io/bond/llms/bond-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bond-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/hosts/bond-hosts.yml
+  href: https://artifacts.apis.io/bond/hosts/bond-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bond-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/vendors/bond-vendors.yml
+  href: https://artifacts.apis.io/bond/vendors/bond-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bond-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/security/bond-trust-center.yml
+  href: https://artifacts.apis.io/bond/security/bond-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bond-trust-center.yml
@@ -265,62 +272,62 @@ common:
   type: LLMsTxt
   url: https://docs.bond.tech/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/security/bond-domain-security.yml
+  href: https://artifacts.apis.io/bond/security/bond-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bond-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/authentication/bond-authentication.yml
+  href: https://artifacts.apis.io/bond/authentication/bond-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bond-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/changelog/bond-changelog.yml
+  href: https://artifacts.apis.io/bond/changelog/bond-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bond-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/errors/bond-error-codes.yml
+  href: https://artifacts.apis.io/bond/errors/bond-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/bond-error-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/errors/bond-ach-return-codes.yml
+  href: https://artifacts.apis.io/bond/errors/bond-ach-return-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/bond-ach-return-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/conventions/bond-conventions.yml
+  href: https://artifacts.apis.io/bond/conventions/bond-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bond-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/lifecycle/bond-lifecycle.yml
+  href: https://artifacts.apis.io/bond/lifecycle/bond-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bond-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/sandbox/bond-sandbox.yml
+  href: https://artifacts.apis.io/bond/sandbox/bond-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bond-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/asyncapi/bond-webhooks.yml
+  href: https://artifacts.apis.io/bond/asyncapi/bond-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bond-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/components/bond-components.yml
+  href: https://artifacts.apis.io/bond/components/bond-components.yml
   title: ''
   type: Components
   url: components/bond-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/data-model/bond-data-model.yml
+  href: https://artifacts.apis.io/bond/data-model/bond-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bond-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/conformance/bond-conformance.yml
+  href: https://artifacts.apis.io/bond/conformance/bond-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bond-conformance.yml
@@ -454,8 +461,8 @@ overview: 'Bond publishes 25 API contracts indexed on the [APIs.io](https://apis
   The Bond catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Bond''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 30 more developer resources.'
-random_paper: 1
+  Bond''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 31 more developer resources.'
+random_paper: 11
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -471,22 +478,22 @@ rules:
   slug: bond-rules
 score:
   band: strong
-  composite: 58.2
+  composite: 61.0
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 65.8
     catalog_earned_first_party: 0.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 10.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 35.6
-    contract_quality: 70.8
-    developer_ergonomics: 57.1
+    contract_quality: 68.5
+    developer_ergonomics: 69.0
     discoverability: 78.6
-    operational_transparency: 42.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -494,7 +501,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 48.2
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -510,13 +517,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/screenshots/bond-2026-07-25T203549.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bond/bond-2026-07-25T203549.png
 security:
 - kind: authentication
   name: Bond Authentication

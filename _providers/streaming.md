@@ -4,6 +4,6 @@ layout: provider
 name: streaming
 nav: Providers
 network: true
-random_paper: 2
+random_paper: 10
 slug: streaming
 ---

@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.6
-  scored_at: '2026-10-17'
+  score: 24.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -60,15 +62,12 @@ apis:
   description: The Website API from Crisp — 3 operation(s) for website.
   name: Crisp Website API
   slug: crisp-website-api
-artifact_total: 16
+artifact_total: 15
 asyncapis:
 - description: 'AsyncAPI description of Crisp''s two realtime delivery surfaces: * **Web Hooks (v1)** — HTTP POST callbacks delivered to a subscriber URL registered on a Crisp website or Crisp plugin. Payload envelope'
   name: Crisp Realtime Surface (Webhooks + RTM)
   slug: crisp-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Crisp REST API v1 Conversations API
   slug: open-crisp-conversations-api
@@ -80,22 +79,22 @@ collections:
   slug: open-crisp
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/capabilities/crisp-capability-edges.yml
+  href: https://artifacts.apis.io/crisp/capabilities/crisp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/crisp-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/agentic-access/crisp-agentic-access.yml
+  href: https://artifacts.apis.io/crisp/agentic-access/crisp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/crisp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/security/crisp-domain-security.yml
+  href: https://artifacts.apis.io/crisp/security/crisp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crisp-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/authentication/crisp-authentication.yml
+  href: https://artifacts.apis.io/crisp/authentication/crisp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crisp-authentication.yml
@@ -116,17 +115,17 @@ common:
   type: Documentation
   url: https://docs.crisp.chat/references/rest-api/v1/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/plans/crisp-plans-pricing.yml
+  href: https://artifacts.apis.io/crisp/plans/crisp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/crisp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/rate-limits/crisp-rate-limits.yml
+  href: https://artifacts.apis.io/crisp/rate-limits/crisp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/crisp-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/finops/crisp-finops.yml
+  href: https://artifacts.apis.io/crisp/finops/crisp-finops.yml
   title: ''
   type: FinOps
   url: finops/crisp-finops.yml
@@ -147,7 +146,7 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crisp.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at api.crisp.chat over HTTP; 26 tools listed.
+- description: Remote MCP server at api.crisp.chat over HTTP; 42 tools listed.
   name: Crisp MCP Server
   slug: crisp
 modified: '2026-05-30'
@@ -185,7 +184,7 @@ rules:
   slug: crisp-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 27.1
+  composite: 27.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 39.8
@@ -193,15 +192,15 @@ score:
     catalog_gap: 75.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 11.4
     contract_quality: 53.9
     developer_ergonomics: 23.8
-    discoverability: 60.0
-    operational_transparency: 15.8
-  previous_composite: 29.0
+    discoverability: 57.1
+    operational_transparency: 18.4
+  previous_composite: 27.9
   provenance:
     agentic_access: derived
     contracts:
@@ -216,13 +215,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/screenshots/crisp-2026-06-20T175235.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/crisp/crisp-2026-06-20T175235.png
 security:
 - kind: authentication
   name: Crisp Authentication

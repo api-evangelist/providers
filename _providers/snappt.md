@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.7
-  scored_at: '2026-10-17'
+  score: 26.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -80,15 +82,12 @@ apis:
   description: The Webhooks API from Snappt — 3 operation(s) for webhooks.
   name: Snappt Webhooks API
   slug: snappt-webhooks-api
-artifact_total: 20
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Snappt Enterprise Api Webhooks
   slug: snappt-enterprise-api-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Snappt Account API
   slug: open-snappt-account-api
@@ -111,17 +110,22 @@ collections:
   name: Snappt Webhooks API
   slug: open-snappt-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/snappt/plans/snappt-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/snappt-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://snappt.com/blog/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/capabilities/snappt-capability-edges.yml
+  href: https://artifacts.apis.io/snappt/capabilities/snappt-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/snappt-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/mcp/snappt-mcp.yml
+  href: https://artifacts.apis.io/snappt/mcp/snappt-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/snappt-mcp.yml
@@ -178,7 +182,7 @@ common:
   type: StatusPage
   url: https://status.snappt.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/security/snappt-trust-center.yml
+  href: https://artifacts.apis.io/snappt/security/snappt-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/snappt-trust-center.yml
@@ -187,97 +191,105 @@ common:
   type: Compliance
   url: https://snappt.com/security/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/lifecycle/snappt-lifecycle.yml
+  href: https://artifacts.apis.io/snappt/lifecycle/snappt-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/snappt-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/lifecycle/snappt-lifecycle.yml
+  href: https://artifacts.apis.io/snappt/lifecycle/snappt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/snappt-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/changelog/snappt-changelog.yml
+  href: https://artifacts.apis.io/snappt/changelog/snappt-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/snappt-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/authentication/snappt-authentication.yml
+  href: https://artifacts.apis.io/snappt/authentication/snappt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/snappt-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/conventions/snappt-conventions.yml
+  href: https://artifacts.apis.io/snappt/conventions/snappt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/snappt-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/conformance/snappt-conformance.yml
+  href: https://artifacts.apis.io/snappt/conformance/snappt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/snappt-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/errors/snappt-problem-types.yml
+  href: https://artifacts.apis.io/snappt/errors/snappt-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/snappt-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/data-model/snappt-data-model.yml
+  href: https://artifacts.apis.io/snappt/data-model/snappt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/snappt-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/packages/snappt-packages.yml
+  href: https://artifacts.apis.io/snappt/packages/snappt-packages.yml
   title: ''
   type: Packages
   url: packages/snappt-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/packages/snappt-packages.yml
+  href: https://artifacts.apis.io/snappt/packages/snappt-packages.yml
   title: ''
   type: SDKs
   url: packages/snappt-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/components/snappt-components.yml
+  href: https://artifacts.apis.io/snappt/components/snappt-components.yml
   title: ''
   type: Components
   url: components/snappt-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/sandbox/snappt-sandbox.yml
+  href: https://artifacts.apis.io/snappt/sandbox/snappt-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/snappt-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/security/snappt-domain-security.yml
+  href: https://artifacts.apis.io/snappt/security/snappt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snappt-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/agentic-access/snappt-agentic-access.yml
+  href: https://artifacts.apis.io/snappt/agentic-access/snappt-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/snappt-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/snappt/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/llms/snappt-llms.txt
+  href: https://artifacts.apis.io/snappt/llms/snappt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/snappt-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/asyncapi/snappt-enterprise-api-webhooks.yml
+  href: https://artifacts.apis.io/snappt/asyncapi/snappt-enterprise-api-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/snappt-enterprise-api-webhooks.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/overlays/snappt-enterprise-api-overlay.yaml
+  href: https://artifacts.apis.io/snappt/overlays/snappt-enterprise-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/snappt-enterprise-api-overlay.yaml
 created: '2026-08-05'
 description: Snappt is a Los Angeles-based applicant-screening and document-fraud-detection company serving the multifamily rental and property-management industry. Its Applicant Trust Platform combines proprietary AI document forensics with human review to detect edited pay stubs and bank statements, verify applicant income from traditional and connected payroll sources, verify identity with biometric and document checks, and confirm rental payment history. Snappt exposes this to property-management systems and partners through the Snappt Enterprise API — a partner API-key-authenticated REST API covering properties, applicant sessions, document upload, fraud and income reports, ID-verification sessions and outbound webhooks — plus an embeddable browser SDK that launches the applicant verification flow as a modal inside a partner's own leasing flow.
+finops:
+- has_sources: true
+  method: derived
+  name: Snappt Finops
+  primary_unit: ''
+  service_category: ''
+  slug: snappt-finops
+  template: true
 image: https://snappt.com/wp-content/uploads/2023/05/snappt-sharing-fallback.png
 layout: provider
 modified: '2026-10-06'
@@ -290,26 +302,30 @@ overview: 'Snappt publishes 7 API contracts indexed on the [APIs.io](https://api
   The Snappt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Snappt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 2
+  Snappt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+plans:
+- name: Snappt Plans Pricing
+  plan_count: 3
+  slug: snappt-plans-pricing
+random_paper: 14
 score:
   band: strong
-  composite: 54.3
+  composite: 64.0
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.4
   facets:
-    access_clarity: 47.4
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 55.1
-    developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 50.0
+    contract_quality: 52.5
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -317,7 +333,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 54.2
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -334,13 +350,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/screenshots/snappt-2026-08-17T081942.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/snappt/snappt-2026-08-17T081942.png
 security:
 - kind: authentication
   name: Snappt Authentication
@@ -354,6 +371,16 @@ security:
   name: Snappt Trust Center
   slug: snappt-trust-center
   summary_line: SOC 2 Type II
+skill_count: 4
+skills:
+- name: Onboard a property and configure Snappt verification features
+  slug: snappt-onboard-property
+- name: Receive and verify Snappt webhooks
+  slug: snappt-receive-and-verify-webhooks
+- name: Submit a rental application for Snappt fraud review
+  slug: snappt-submit-application-for-fraud-review
+- name: Run a Snappt identity verification session
+  slug: snappt-verify-applicant-identity
 slug: snappt
 tags:
 - Company

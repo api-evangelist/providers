@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 32.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://third-party.lootrush.com
@@ -57,11 +59,8 @@ apis:
   description: The Withdrawals API from Loot Rush Games — 2 operation(s) for withdrawals.
   name: Loot Rush Games Withdrawals API
   slug: loot-rush-games-withdrawals-api
-artifact_total: 12
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LootRush Partner Connect API
   slug: open-loot-rush-games-connect-api
@@ -76,7 +75,7 @@ collections:
   slug: open-loot-rush-games-withdrawals-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/overlays/loot-rush-games-partner-overlay.yaml
+  href: https://artifacts.apis.io/loot-rush-games/overlays/loot-rush-games-partner-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/loot-rush-games-partner-overlay.yaml
@@ -97,37 +96,37 @@ common:
   type: GettingStarted
   url: https://docs.lootrush.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/llms/loot-rush-games-llms.txt
+  href: https://artifacts.apis.io/loot-rush-games/llms/loot-rush-games-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/loot-rush-games-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/mcp/loot-rush-games-mcp.yml
+  href: https://artifacts.apis.io/loot-rush-games/mcp/loot-rush-games-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/loot-rush-games-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/authentication/loot-rush-games-authentication.yml
+  href: https://artifacts.apis.io/loot-rush-games/authentication/loot-rush-games-authentication.yml
   title: ''
   type: Authentication
   url: authentication/loot-rush-games-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/errors/loot-rush-games-problem-types.yml
+  href: https://artifacts.apis.io/loot-rush-games/errors/loot-rush-games-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/loot-rush-games-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/conventions/loot-rush-games-conventions.yml
+  href: https://artifacts.apis.io/loot-rush-games/conventions/loot-rush-games-conventions.yml
   title: ''
   type: Conventions
   url: conventions/loot-rush-games-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/conformance/loot-rush-games-conformance.yml
+  href: https://artifacts.apis.io/loot-rush-games/conformance/loot-rush-games-conformance.yml
   title: ''
   type: Conformance
   url: conformance/loot-rush-games-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/lifecycle/loot-rush-games-lifecycle.yml
+  href: https://artifacts.apis.io/loot-rush-games/lifecycle/loot-rush-games-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/loot-rush-games-lifecycle.yml
@@ -136,17 +135,17 @@ common:
   type: StatusPage
   url: https://status.lootrush.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/data-model/loot-rush-games-data-model.yml
+  href: https://artifacts.apis.io/loot-rush-games/data-model/loot-rush-games-data-model.yml
   title: ''
   type: DataModel
   url: data-model/loot-rush-games-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/loot-rush-games/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/security/loot-rush-games-domain-security.yml
+  href: https://artifacts.apis.io/loot-rush-games/security/loot-rush-games-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/loot-rush-games-domain-security.yml
@@ -177,10 +176,10 @@ overview: 'Loot Rush Games publishes 4 API contracts indexed on the [APIs.io](ht
 
 
   Loot Rush Games'' developer surface includes documentation, API reference, getting-started guide, authentication, support, and 14 more developer resources.'
-random_paper: 15
+random_paper: 23
 score:
   band: thin
-  composite: 34.4
+  composite: 32.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 35.0
@@ -194,9 +193,9 @@ score:
     contract_governance: 4.5
     contract_quality: 50.5
     developer_ergonomics: 56.5
-    discoverability: 71.7
-    operational_transparency: 10.5
-  previous_composite: 34.4
+    discoverability: 61.7
+    operational_transparency: 21.1
+  previous_composite: 32.7
   provenance:
     conformance: derived
     contracts:
@@ -212,13 +211,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/screenshots/loot-rush-games-2026-07-25T225531.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/loot-rush-games/loot-rush-games-2026-07-25T225531.png
 security:
 - kind: authentication
   name: Loot Rush Games Authentication
@@ -228,6 +228,14 @@ security:
   name: Loot Rush Games Domain Security
   slug: loot-rush-games-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Create and track a LootRush crypto withdrawal
+  slug: loot-rush-games-create-and-track-withdrawal
+- name: Query LootRush user transaction history
+  slug: loot-rush-games-query-user-history
+- name: Read a LootRush account read-only via MCP
+  slug: loot-rush-games-read-account-via-mcp
 slug: loot-rush-games
 tags:
 - Company

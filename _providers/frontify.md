@@ -25,22 +25,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.7
-  scored_at: '2026-10-17'
+  score: 45.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Per-instance GraphQL API for the Frontify brand management / DAM platform — discover brands, search and retrieve assets, manage metadata, collaborate on comments/annotations, browse guidelines, export
   name: Frontify GraphQL API
   slug: frontify-graphql-api
-artifact_total: 10
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Frontify Webhooks
@@ -99,7 +101,7 @@ common:
   type: StatusPage
   url: https://status.frontify.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/security/frontify-trust-center.yml
+  href: https://artifacts.apis.io/frontify/security/frontify-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/frontify-trust-center.yml
@@ -108,117 +110,117 @@ common:
   type: Compliance
   url: https://trust.frontify.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/packages/frontify-packages.yml
+  href: https://artifacts.apis.io/frontify/packages/frontify-packages.yml
   title: ''
   type: Packages
   url: packages/frontify-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/packages/frontify-packages.yml
+  href: https://artifacts.apis.io/frontify/packages/frontify-packages.yml
   title: ''
   type: SDKs
   url: packages/frontify-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/cli/frontify-cli.yml
+  href: https://artifacts.apis.io/frontify/cli/frontify-cli.yml
   title: ''
   type: CLI
   url: cli/frontify-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/mcp/frontify-mcp.yml
+  href: https://artifacts.apis.io/frontify/mcp/frontify-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/frontify-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/frontify/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/components/frontify-components.yml
+  href: https://artifacts.apis.io/frontify/components/frontify-components.yml
   title: ''
   type: Components
   url: components/frontify-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/authentication/frontify-authentication.yml
+  href: https://artifacts.apis.io/frontify/authentication/frontify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/frontify-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/conventions/frontify-conventions.yml
+  href: https://artifacts.apis.io/frontify/conventions/frontify-conventions.yml
   title: ''
   type: Conventions
   url: conventions/frontify-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/conformance/frontify-conformance.yml
+  href: https://artifacts.apis.io/frontify/conformance/frontify-conformance.yml
   title: ''
   type: Conformance
   url: conformance/frontify-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/lifecycle/frontify-lifecycle.yml
+  href: https://artifacts.apis.io/frontify/lifecycle/frontify-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/frontify-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/changelog/frontify-changelog.yml
+  href: https://artifacts.apis.io/frontify/changelog/frontify-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/frontify-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/security/frontify-domain-security.yml
+  href: https://artifacts.apis.io/frontify/security/frontify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/frontify-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/graphql/frontify.graphql
+  href: https://artifacts.apis.io/frontify/graphql/frontify.graphql
   title: ''
   type: GraphQL
   url: graphql/frontify.graphql
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/well-known/frontify-well-known.yml
+  href: https://artifacts.apis.io/frontify/well-known/frontify-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/frontify-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/scopes/frontify-scopes.yml
+  href: https://artifacts.apis.io/frontify/scopes/frontify-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/frontify-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/mcp/frontify-tool-crosswalk.yml
+  href: https://artifacts.apis.io/frontify/mcp/frontify-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/frontify-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/asyncapi/frontify-webhooks.yml
+  href: https://artifacts.apis.io/frontify/asyncapi/frontify-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/frontify-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/llms/frontify-llms.txt
+  href: https://artifacts.apis.io/frontify/llms/frontify-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/frontify-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/plans/frontify-plans-pricing.yml
+  href: https://artifacts.apis.io/frontify/plans/frontify-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/frontify-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/rate-limits/frontify-rate-limits.yml
+  href: https://artifacts.apis.io/frontify/rate-limits/frontify-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/frontify-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/errors/frontify-error-catalog.yml
+  href: https://artifacts.apis.io/frontify/errors/frontify-error-catalog.yml
   title: ''
   type: ErrorCatalog
   url: errors/frontify-error-catalog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/data-model/frontify-data-model.yml
+  href: https://artifacts.apis.io/frontify/data-model/frontify-data-model.yml
   title: ''
   type: DataModel
   url: data-model/frontify-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/security/frontify-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/frontify/security/frontify-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/frontify-vulnerability-disclosure.yml
@@ -227,13 +229,21 @@ common:
   type: Security
   url: https://www.frontify.com/en/security/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/lifecycle/frontify-lifecycle.yml
+  href: https://artifacts.apis.io/frontify/lifecycle/frontify-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/frontify-lifecycle.yml
 created: '2026-07-17'
 description: Frontify is a brand management and digital asset management (DAM) platform that gives teams a single, governed home for brand guidelines, logos, images, video, templates, and creative workflows. Its public developer surface is a per-instance GraphQL API (https://{instance}.frontify.com/graphql) for discovering brands, searching and retrieving assets, managing metadata, collaborating, browsing guidelines, exporting creative templates, and automating creative workflows, plus a Brand SDK (App Bridge, Frontify Finder, Frontify CLI) for building Content Blocks and Platform Apps, project-scoped webhooks across a 24-event vocabulary, an official hosted MCP server (54 tools in 10 role-scoped packs) for AI assistants, and a curated Agent Skills catalog. GraphQL introspection is open and unauthenticated, so the full schema is captured in this repository as the machine-readable contract; Frontify publishes no OpenAPI. Frontify was added to the API Evangelist network as a portfolio company
   of EQT Ventures and enriched here from its public developer, package, event, and trust surfaces.
+finops:
+- has_sources: true
+  method: derived
+  name: Frontify Finops
+  primary_unit: ''
+  service_category: ''
+  slug: frontify-finops
+  template: true
 image: https://www.frontify.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -255,7 +265,7 @@ plans:
 - name: Frontify Plans Pricing
   plan_count: 0
   slug: frontify-plans-pricing
-random_paper: 1
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Frontify Rate Limits
@@ -267,23 +277,23 @@ scopes:
   summary_line: 8 scopes
 score:
   band: strong
-  composite: 58.1
+  composite: 62.0
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 51.0
     developer_ergonomics: 78.6
-    discoverability: 66.1
-    operational_transparency: 60.5
-  previous_composite: 58.0
+    discoverability: 65.0
+    operational_transparency: 63.2
+  previous_composite: 62.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -299,15 +309,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 45.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/screenshots/frontify-2026-07-25T215242.png
+screenshot: https://apis.io/screenshots/frontify/frontify-2026-07-25T215242.png
 security:
 - kind: authentication
   name: Frontify Authentication
@@ -325,6 +335,16 @@ security:
   name: Frontify Trust Center
   slug: frontify-trust-center
   summary_line: SOC 2 Type II, ISO 27001:2022, Cyber Essentials, TISAX, Swiss-US Data Privacy Framework, GDPR, PCI, HIPAA
+skill_count: 4
+skills:
+- name: Export a creative from a Frontify template
+  slug: frontify-export-creative-template
+- name: Search and retrieve Frontify assets
+  slug: frontify-search-and-retrieve-assets
+- name: Subscribe to Frontify events with a webhook
+  slug: frontify-subscribe-to-events
+- name: Upload an asset to Frontify
+  slug: frontify-upload-asset
 slug: frontify
 tags:
 - Company

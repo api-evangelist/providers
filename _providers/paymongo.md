@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 30.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -96,7 +98,7 @@ apis:
   description: The Webhooks API from PayMongo — 4 operation(s) for webhooks.
   name: PayMongo Webhooks API
   slug: paymongo-webhooks-api
-artifact_total: 40
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Paymongo Webhooks
@@ -133,9 +135,6 @@ collections:
   name: PayMongo Checkout Sessions Webhooks API
   slug: postman-paymongo-webhooks-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: PayMongo Checkout Sessions API
   slug: open-paymongo-checkout-sessions-api
 - collection_type: open
@@ -167,7 +166,7 @@ collections:
   slug: open-paymongo-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/capabilities/paymongo-capability-edges.yml
+  href: https://artifacts.apis.io/paymongo/capabilities/paymongo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/paymongo-capability-edges.yml
@@ -176,27 +175,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/paymongo/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/agentic-access/paymongo-agentic-access.yml
+  href: https://artifacts.apis.io/paymongo/agentic-access/paymongo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/paymongo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/security/paymongo-trust-center.yml
+  href: https://artifacts.apis.io/paymongo/security/paymongo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/paymongo-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/security/paymongo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/paymongo/security/paymongo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/paymongo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/security/paymongo-domain-security.yml
+  href: https://artifacts.apis.io/paymongo/security/paymongo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paymongo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/authentication/paymongo-authentication.yml
+  href: https://artifacts.apis.io/paymongo/authentication/paymongo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paymongo-authentication.yml
@@ -217,17 +216,17 @@ common:
   type: Documentation
   url: https://docs.paymongo.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/plans/paymongo-plans-pricing.yml
+  href: https://artifacts.apis.io/paymongo/plans/paymongo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/paymongo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/rate-limits/paymongo-rate-limits.yml
+  href: https://artifacts.apis.io/paymongo/rate-limits/paymongo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/paymongo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/finops/paymongo-finops.yml
+  href: https://artifacts.apis.io/paymongo/finops/paymongo-finops.yml
   title: ''
   type: FinOps
   url: finops/paymongo-finops.yml
@@ -284,82 +283,82 @@ common:
   type: Compliance
   url: https://www.paymongo.com/secure
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/llms/paymongo-llms.txt
+  href: https://artifacts.apis.io/paymongo/llms/paymongo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paymongo-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/packages/paymongo-packages.yml
+  href: https://artifacts.apis.io/paymongo/packages/paymongo-packages.yml
   title: ''
   type: Packages
   url: packages/paymongo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/packages/paymongo-packages.yml
+  href: https://artifacts.apis.io/paymongo/packages/paymongo-packages.yml
   title: ''
   type: SDKs
   url: packages/paymongo-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/well-known/paymongo-well-known.yml
+  href: https://artifacts.apis.io/paymongo/well-known/paymongo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/paymongo-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/mcp/paymongo-mcp.yml
+  href: https://artifacts.apis.io/paymongo/mcp/paymongo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/paymongo-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/overlays/paymongo-openapi-overlay.yaml
+  href: https://artifacts.apis.io/paymongo/overlays/paymongo-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paymongo-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/conformance/paymongo-conformance.yml
+  href: https://artifacts.apis.io/paymongo/conformance/paymongo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paymongo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/errors/paymongo-problem-types.yml
+  href: https://artifacts.apis.io/paymongo/errors/paymongo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/paymongo-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/errors/paymongo-decline-codes.yml
+  href: https://artifacts.apis.io/paymongo/errors/paymongo-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/paymongo-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/lifecycle/paymongo-lifecycle.yml
+  href: https://artifacts.apis.io/paymongo/lifecycle/paymongo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/paymongo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/conventions/paymongo-conventions.yml
+  href: https://artifacts.apis.io/paymongo/conventions/paymongo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/paymongo-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/sandbox/paymongo-sandbox.yml
+  href: https://artifacts.apis.io/paymongo/sandbox/paymongo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/paymongo-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/data-model/paymongo-data-model.yml
+  href: https://artifacts.apis.io/paymongo/data-model/paymongo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/paymongo-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/asyncapi/paymongo-webhooks.yml
+  href: https://artifacts.apis.io/paymongo/asyncapi/paymongo-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/paymongo-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/paymongo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/changelog/paymongo-changelog.yml
+  href: https://artifacts.apis.io/paymongo/changelog/paymongo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/paymongo-changelog.yml
@@ -367,10 +366,10 @@ created: '2026-07-17'
 description: PayMongo is a Philippine payments platform that lets businesses accept online payments via cards, GCash, Maya (PayMaya), GrabPay, ShopeePay, QR Ph, BillEase buy-now-pay-later, and direct online banking. Its REST API is built around the Payment Intent / Payment Method workflow with hosted Checkout Sessions, Payment Links, Customers, Refunds, Subscriptions, and signed Webhooks. Amounts are integers in centavos and PHP is the settlement currency; PayMongo is a PCI DSS Level 1 Service Provider.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Paymongo Finops
-  primary_unit: ''
-  service_category: Financial Services
+  primary_unit: transaction
+  service_category: ''
   slug: paymongo-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paymongo.png
@@ -388,31 +387,34 @@ overview: 'PayMongo publishes 10 API contracts indexed on the [APIs.io](https://
   PayMongo''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, pricing, signup flow, and 36 more developer resources.'
 plans:
 - name: Paymongo Plans Pricing
-  plan_count: 4
+  plan_count: 31
   slug: paymongo-plans-pricing
-random_paper: 16
+- name: Paymongo Price Estimates
+  plan_count: 0
+  slug: paymongo-price-estimates
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Paymongo Rate Limits
   slug: paymongo-rate-limits
 score:
-  band: strong
-  composite: 57.7
+  band: exemplar
+  composite: 68.8
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 42.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    artifact_dirs: 30
+    catalog_earned: 54.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.5
+  delta: 1.6
   facets:
-    access_clarity: 61.8
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 55.0
-    developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 48.7
+    contract_quality: 53.8
+    developer_ergonomics: 69.6
+    discoverability: 66.1
+    operational_transparency: 68.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -420,7 +422,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 65.2
+  previous_composite: 67.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -437,13 +439,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 44.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/screenshots/paymongo-2026-08-07T191645.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/paymongo/paymongo-2026-08-07T191645.png
 security:
 - kind: authentication
   name: Paymongo Authentication
@@ -461,6 +464,16 @@ security:
   name: Paymongo Trust Center
   slug: paymongo-trust-center
   summary_line: PCI DSS Level 1 Service Provider
+skill_count: 4
+skills:
+- name: Accept a card payment with a Payment Intent
+  slug: paymongo-accept-card-payment
+- name: Register and verify webhooks
+  slug: paymongo-handle-webhooks
+- name: Collect payment with a hosted Checkout Session
+  slug: paymongo-hosted-checkout
+- name: Refund a payment
+  slug: paymongo-refund-a-payment
 slug: paymongo
 tags:
 - Payments

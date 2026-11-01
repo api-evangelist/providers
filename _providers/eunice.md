@@ -23,26 +23,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eunice/refs/heads/main/security/eunice-domain-security.yml
+  href: https://artifacts.apis.io/eunice/security/eunice-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eunice-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eunice/refs/heads/main/llms/eunice-llms.txt
+  href: https://artifacts.apis.io/eunice/llms/eunice-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eunice-llms.txt
@@ -59,7 +61,7 @@ common:
   type: TrustCenter
   url: https://app.eu.vanta.com/eunice.ai/trust/siy0j28scq653o6k5baea
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eunice/refs/heads/main/security/eunice-trust-center.yml
+  href: https://artifacts.apis.io/eunice/security/eunice-trust-center.yml
   title: ''
   type: Compliance
   url: security/eunice-trust-center.yml
@@ -103,10 +105,10 @@ overview: 'Eunice is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Eunice''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 17
+random_paper: 9
 score:
   band: emerging
-  composite: 12.7
+  composite: 13.9
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -114,13 +116,13 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 58.3
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -130,7 +132,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 12.6
+  previous_composite: 13.9
   provenance:
     mcp: first-party
   regulatory:
@@ -138,15 +140,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 17.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/eunice/refs/heads/main/screenshots/eunice-2026-07-25T213659.png
+screenshot: https://apis.io/screenshots/eunice/eunice-2026-07-25T213659.png
 security:
 - kind: domain-security
   name: Eunice Domain Security

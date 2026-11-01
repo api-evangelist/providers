@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: unknown
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.9
-  scored_at: '2026-10-17'
+  score: 48.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -148,9 +150,6 @@ collections:
   name: Nanonets OCR API
   slug: postman-nanonets-ocr-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Nanonets External Integrations API
   slug: open-nanonets-external-integrations-api
 - collection_type: open
@@ -188,7 +187,7 @@ collections:
   slug: open-nanonets-ocr-train-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/capabilities/nanonets-capability-edges.yml
+  href: https://artifacts.apis.io/nanonets/capabilities/nanonets-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nanonets-capability-edges.yml
@@ -197,17 +196,17 @@ common:
   type: Website
   url: https://www.nanonets.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/agentic-access/nanonets-agentic-access.yml
+  href: https://artifacts.apis.io/nanonets/agentic-access/nanonets-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nanonets-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/security/nanonets-domain-security.yml
+  href: https://artifacts.apis.io/nanonets/security/nanonets-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nanonets-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/authentication/nanonets-authentication.yml
+  href: https://artifacts.apis.io/nanonets/authentication/nanonets-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nanonets-authentication.yml
@@ -216,62 +215,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/nanonets/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/arazzo/nanonets-async-ocr-predict-and-poll-workflow.yml
+  href: https://artifacts.apis.io/nanonets/arazzo/nanonets-async-ocr-predict-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nanonets-async-ocr-predict-and-poll-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/arazzo/nanonets-async-url-predict-poll-approve-workflow.yml
+  href: https://artifacts.apis.io/nanonets/arazzo/nanonets-async-url-predict-poll-approve-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nanonets-async-url-predict-poll-approve-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/arazzo/nanonets-batch-review-pending-files-workflow.yml
+  href: https://artifacts.apis.io/nanonets/arazzo/nanonets-batch-review-pending-files-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nanonets-batch-review-pending-files-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/arazzo/nanonets-classify-image-and-branch-workflow.yml
+  href: https://artifacts.apis.io/nanonets/arazzo/nanonets-classify-image-and-branch-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nanonets-classify-image-and-branch-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/arazzo/nanonets-page-level-correct-and-approve-workflow.yml
+  href: https://artifacts.apis.io/nanonets/arazzo/nanonets-page-level-correct-and-approve-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nanonets-page-level-correct-and-approve-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/arazzo/nanonets-predict-and-assign-reviewer-workflow.yml
+  href: https://artifacts.apis.io/nanonets/arazzo/nanonets-predict-and-assign-reviewer-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nanonets-predict-and-assign-reviewer-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/arazzo/nanonets-predict-and-enrich-with-database-workflow.yml
+  href: https://artifacts.apis.io/nanonets/arazzo/nanonets-predict-and-enrich-with-database-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nanonets-predict-and-enrich-with-database-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/arazzo/nanonets-predict-correct-and-reexport-workflow.yml
+  href: https://artifacts.apis.io/nanonets/arazzo/nanonets-predict-correct-and-reexport-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nanonets-predict-correct-and-reexport-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/arazzo/nanonets-resolve-integration-and-query-workflow.yml
+  href: https://artifacts.apis.io/nanonets/arazzo/nanonets-resolve-integration-and-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nanonets-resolve-integration-and-query-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/arazzo/nanonets-sync-predict-and-review-workflow.yml
+  href: https://artifacts.apis.io/nanonets/arazzo/nanonets-sync-predict-and-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nanonets-sync-predict-and-review-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/arazzo/nanonets-upload-training-images-and-train-workflow.yml
+  href: https://artifacts.apis.io/nanonets/arazzo/nanonets-upload-training-images-and-train-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nanonets-upload-training-images-and-train-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/arazzo/nanonets-upload-training-urls-and-train-workflow.yml
+  href: https://artifacts.apis.io/nanonets/arazzo/nanonets-upload-training-urls-and-train-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/nanonets-upload-training-urls-and-train-workflow.yml
@@ -416,27 +415,27 @@ common:
   type: Tools
   url: https://github.com/NanoNets/n8n-nodes-nanonets
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/plans/nanonets-plans-pricing.yml
+  href: https://artifacts.apis.io/nanonets/plans/nanonets-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nanonets-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/rate-limits/nanonets-rate-limits.yml
+  href: https://artifacts.apis.io/nanonets/rate-limits/nanonets-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nanonets-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/finops/nanonets-finops.yml
+  href: https://artifacts.apis.io/nanonets/finops/nanonets-finops.yml
   title: ''
   type: FinOps
   url: finops/nanonets-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/rules/nanonets-rules.yml
+  href: https://artifacts.apis.io/nanonets/rules/nanonets-rules.yml
   title: ''
   type: SpectralRules
   url: rules/nanonets-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/vocabulary/nanonets-vocabulary.yml
+  href: https://artifacts.apis.io/nanonets/vocabulary/nanonets-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/nanonets-vocabulary.yml
@@ -494,10 +493,10 @@ features:
   name: Agentic RAG (nanoindex)
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Nanonets Finops
   primary_unit: run
-  service_category: AI and Machine Learning
+  service_category: ''
   slug: nanonets-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nanonets.png
@@ -593,9 +592,12 @@ overview: 'Nanonets publishes 10 API contracts indexed on the [APIs.io](https://
   Nanonets'' developer surface includes authentication, developer portal, developer console, documentation, getting-started guide, engineering blog, signup flow, and 51 more developer resources.'
 plans:
 - name: Nanonets Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: nanonets-plans-pricing
-random_paper: 12
+- name: Nanonets Price Estimates
+  plan_count: 0
+  slug: nanonets-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Nanonets Rate Limits
@@ -625,24 +627,24 @@ rules:
     warn: 4
   slug: nanonets-rules
 score:
-  band: developing
-  composite: 51.0
+  band: strong
+  composite: 57.1
   coverage:
     artifact_dirs: 22
-    catalog_earned: 66.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.6
+    catalog_earned: 75.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.6
+  delta: 0.0
   facets:
-    access_clarity: 50.0
+    access_clarity: 73.7
     contract_governance: 27.3
     contract_quality: 59.6
-    developer_ergonomics: 65.5
-    discoverability: 65.0
+    developer_ergonomics: 70.2
+    discoverability: 62.5
     operational_transparency: 21.1
-  previous_composite: 57.6
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     contracts:
@@ -657,13 +659,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/screenshots/nanonets-2026-06-20T185940.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nanonets/nanonets-2026-06-20T185940.png
 security:
 - kind: authentication
   name: Nanonets Authentication

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -32,17 +34,17 @@ common:
   type: BlogRSS
   url: https://www.soundexchange.com/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/soundexchange/refs/heads/main/llms/soundexchange-llms.txt
+  href: https://artifacts.apis.io/soundexchange/llms/soundexchange-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/soundexchange-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/soundexchange/refs/heads/main/hosts/soundexchange-hosts.yml
+  href: https://artifacts.apis.io/soundexchange/hosts/soundexchange-hosts.yml
   title: ''
   type: Hosts
   url: hosts/soundexchange-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/soundexchange/refs/heads/main/vendors/soundexchange-vendors.yml
+  href: https://artifacts.apis.io/soundexchange/vendors/soundexchange-vendors.yml
   title: ''
   type: Vendors
   url: vendors/soundexchange-vendors.yml
@@ -51,7 +53,7 @@ common:
   type: Newsroom
   url: https://www.soundexchange.com/news/soundexchange-named-one-of-fast-companys-worlds-most-innovative-companies-for-2023/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/soundexchange/refs/heads/main/security/soundexchange-domain-security.yml
+  href: https://artifacts.apis.io/soundexchange/security/soundexchange-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/soundexchange-domain-security.yml
@@ -105,10 +107,10 @@ overview: 'SoundExchange is profiled on the [APIs.io](https://apis.io/) network.
 
 
   SoundExchange''s developer surface includes documentation, getting-started guide, support, engineering blog, and 9 more developer resources.'
-random_paper: 2
+random_paper: 20
 score:
   band: emerging
-  composite: 15.4
+  composite: 14.7
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -122,9 +124,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 15.4
+  previous_composite: 14.7
   provenance:
     mcp: derived
   regulatory:
@@ -133,14 +135,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/soundexchange/refs/heads/main/screenshots/soundexchange-2026-10-11T130124.png
+screenshot: https://apis.io/screenshots/soundexchange/soundexchange-2026-10-11T130124.png
 security:
 - kind: domain-security
   name: Soundexchange Domain Security

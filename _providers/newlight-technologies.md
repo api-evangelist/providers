@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -70,17 +72,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/Newlight-Technologies
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newlight-technologies/refs/heads/main/llms/newlight-technologies-llms.txt
+  href: https://artifacts.apis.io/newlight-technologies/llms/newlight-technologies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/newlight-technologies-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/newlight-technologies/refs/heads/main/mcp/newlight-technologies-mcp.yml
+  href: https://artifacts.apis.io/newlight-technologies/mcp/newlight-technologies-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/newlight-technologies-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/newlight-technologies/refs/heads/main/security/newlight-technologies-domain-security.yml
+  href: https://artifacts.apis.io/newlight-technologies/security/newlight-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/newlight-technologies-domain-security.yml
@@ -112,7 +114,7 @@ description: 'Newlight Technologies, Inc. is a Huntington Beach, California biot
 image: https://static.wixstatic.com/media/218375_ff4ad9528ae44cdd8a47215d9b4fd1da%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/218375_ff4ad9528ae44cdd8a47215d9b4fd1da%7Emv2.jpg
 layout: provider
 mcp_servers:
-- description: Remote MCP server at www.newlight.com over HTTP; 9 tools listed.
+- description: Remote MCP server at www.newlight.com over HTTP; 10 tools listed.
   name: Newlight Technologies MCP Server
   slug: newlight-site-mcp
 modified: '2026-08-26'
@@ -123,10 +125,10 @@ overview: 'Newlight Technologies is profiled on the [APIs.io](https://apis.io/) 
 
 
   Newlight Technologies'' developer surface includes support, FAQ, and 9 more developer resources.'
-random_paper: 17
+random_paper: 11
 score:
   band: minimal
-  composite: 8.5
+  composite: 8.0
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -134,15 +136,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 59.2
-    operational_transparency: 2.6
-  previous_composite: 8.4
+    discoverability: 50.0
+    operational_transparency: 5.3
+  previous_composite: 8.0
   provenance:
     mcp: platform-generated
   regulatory:
@@ -151,14 +153,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/newlight-technologies/refs/heads/main/screenshots/newlight-technologies-2026-09-02T150741.png
+screenshot: https://apis.io/screenshots/newlight-technologies/newlight-technologies-2026-09-02T150741.png
 security:
 - kind: domain-security
   name: Newlight Technologies Domain Security

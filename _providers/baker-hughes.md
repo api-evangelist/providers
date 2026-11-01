@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Cordant is Baker Hughes' modular AI-enabled industrial enterprise software platform for asset performance management (APM), process optimization, and emissions management. It provides a digital thread
@@ -44,23 +46,52 @@ apis:
   slug: bhc3-ai-suite
 artifact_total: 33
 common:
+- group: design
+  href: https://artifacts.apis.io/baker-hughes/rules/baker-hughes-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/baker-hughes-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/baker-hughes/rules/baker-hughes-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/baker-hughes-jsonschema-spectral-rules.yml
+- group: other
+  href: https://artifacts.apis.io/baker-hughes/hosts/baker-hughes-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/baker-hughes-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/baker-hughes/integrations/baker-hughes-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/baker-hughes-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/baker-hughes/vendors/baker-hughes-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/baker-hughes-vendors.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.bakerhughes.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/plans/baker-hughes-plans-pricing.yml
+  href: https://artifacts.apis.io/baker-hughes/plans/baker-hughes-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/baker-hughes-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/rate-limits/baker-hughes-rate-limits.yml
+  href: https://artifacts.apis.io/baker-hughes/rate-limits/baker-hughes-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/baker-hughes-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/finops/baker-hughes-finops.yml
+  href: https://artifacts.apis.io/baker-hughes/finops/baker-hughes-finops.yml
   title: ''
   type: FinOps
   url: finops/baker-hughes-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/security/baker-hughes-domain-security.yml
+  href: https://artifacts.apis.io/baker-hughes/security/baker-hughes-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/baker-hughes-domain-security.yml
@@ -97,51 +128,53 @@ common:
   type: TermsOfService
   url: https://www.bakerhughes.com/terms
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/well-known/baker-hughes-well-known.yml
+  href: https://artifacts.apis.io/baker-hughes/well-known/baker-hughes-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/baker-hughes-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/authentication/baker-hughes-authentication.yml
+  href: https://artifacts.apis.io/baker-hughes/authentication/baker-hughes-authentication.yml
   title: ''
   type: Authentication
   url: authentication/baker-hughes-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/scopes/baker-hughes-scopes.yml
+  href: https://artifacts.apis.io/baker-hughes/scopes/baker-hughes-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/baker-hughes-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/conformance/baker-hughes-conformance.yml
+  href: https://artifacts.apis.io/baker-hughes/conformance/baker-hughes-conformance.yml
   title: ''
   type: Conformance
   url: conformance/baker-hughes-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/llms/baker-hughes-llms.txt
+  href: https://artifacts.apis.io/baker-hughes/llms/baker-hughes-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/baker-hughes-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/rules/baker-hughes-spectral-rules.yml
+  href: https://artifacts.apis.io/baker-hughes/rules/baker-hughes-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/baker-hughes-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/vocabulary/baker-hughes-vocabulary.yaml
+  href: https://artifacts.apis.io/baker-hughes/vocabulary/baker-hughes-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/baker-hughes-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/json-ld/baker-hughes-context.jsonld
+  href: https://artifacts.apis.io/baker-hughes/json-ld/baker-hughes-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/baker-hughes-context.jsonld
 coverage:
-  checked: '2026-09-17'
+  checked: '2026-10-20'
   detail: developer.bakerhughes.com is a Backstage developer portal whose catalog API answers 401 "Missing credentials" and whose only sign-in is a Keycloak realm (auth-developer.bakerhughes.com, client app-cdp) with no self-serve registration — the sole contact is cordant_success@bakerhughes.com — so the Cordant API reference and any OpenAPI live behind a customer tenant login; the only machine-readable document Baker Hughes serves anonymously is that realm's OIDC discovery metadata, and api.bakerhughes.com answers every path with an Incapsula 503.
   evidence:
   - status: 401
     url: https://developer.bakerhughes.com/api/catalog/entities?filter=kind=api
+  - status: 200
+    url: https://developer.bakerhughes.com/
   - status: 302
     url: https://developer.bakerhughes.com/api/auth/keycloak/start?env=development
   - status: 200
@@ -175,7 +208,7 @@ finops:
 - has_sources: true
   method: generated
   name: Baker Hughes Finops
-  primary_unit: ''
+  primary_unit: contract-year
   service_category: Industrial / Energy Software
   slug: baker-hughes-finops
   template: false
@@ -216,7 +249,7 @@ overview: 'Baker Hughes is listed with 2 APIs on the [APIs.io](https://apis.io/)
   The Baker Hughes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Baker Hughes'' developer surface includes engineering blog, support, authentication, and 17 more developer resources.'
+  Baker Hughes'' developer surface includes documentation, engineering blog, support, authentication, and 22 more developer resources.'
 plans:
 - name: Baker Hughes Plans Pricing
   plan_count: 1
@@ -237,7 +270,7 @@ press:
 - date: ''
   title: Baker Hughes and C3 AI to Provide Joint Enterprise AI ...
   url: https://www.linkedin.com/posts/bakerhughes_baker-hughes-and-c3-ai-to-provide-joint-enterprise-activity-6764960334307495936-z-zl
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Baker Hughes Rate Limits
@@ -272,23 +305,23 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 28.6
+  composite: 32.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 51.8
+    artifact_dirs: 23
+    catalog_earned: 54.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.3
+    catalog_gap: 60.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 26.3
+    access_clarity: 34.2
     contract_governance: 41.7
     contract_quality: 10.7
-    developer_ergonomics: 28.6
+    developer_ergonomics: 38.1
     discoverability: 57.1
-    operational_transparency: 7.9
-  previous_composite: 30.1
+    operational_transparency: 10.5
+  previous_composite: 30.8
   provenance:
     conformance: first-party
   regulatory:
@@ -297,14 +330,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/screenshots/baker-hughes-2026-06-20T172934.png
+screenshot: https://apis.io/screenshots/baker-hughes/baker-hughes-2026-06-20T172934.png
 security:
 - kind: authentication
   name: Baker Hughes Authentication
@@ -313,7 +346,7 @@ security:
 - kind: domain-security
   name: Baker Hughes Domain Security
   slug: baker-hughes-domain-security
-  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+  summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: baker-hughes
 tags:
 - Energy Technology

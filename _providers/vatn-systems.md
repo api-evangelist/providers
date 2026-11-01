@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -56,22 +58,22 @@ common:
   type: Twitter
   url: https://x.com/vatnsystems
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vatn-systems/refs/heads/main/security/vatn-systems-domain-security.yml
+  href: https://artifacts.apis.io/vatn-systems/security/vatn-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vatn-systems-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vatn-systems/refs/heads/main/conformance/vatn-systems-conformance.yml
+  href: https://artifacts.apis.io/vatn-systems/conformance/vatn-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vatn-systems-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vatn-systems/refs/heads/main/plans/vatn-systems-plans-pricing.yml
+  href: https://artifacts.apis.io/vatn-systems/plans/vatn-systems-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/vatn-systems-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vatn-systems/refs/heads/main/llms/vatn-systems-llms.txt
+  href: https://artifacts.apis.io/vatn-systems/llms/vatn-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vatn-systems-llms.txt
@@ -108,10 +110,10 @@ plans:
 - name: Vatn Systems Plans Pricing
   plan_count: 0
   slug: vatn-systems-plans-pricing
-random_paper: 2
+random_paper: 6
 score:
   band: minimal
-  composite: 8.8
+  composite: 8.5
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -125,9 +127,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 8.8
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 8.5
   provenance:
     conformance: first-party
   regulatory:
@@ -136,14 +138,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vatn-systems/refs/heads/main/screenshots/vatn-systems-2026-10-11T131634.png
+screenshot: https://apis.io/screenshots/vatn-systems/vatn-systems-2026-10-11T131634.png
 security:
 - kind: domain-security
   name: Vatn Systems Domain Security

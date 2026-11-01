@@ -28,17 +28,19 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.0
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 44.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.lilt.com
   baseurl_source: declared
@@ -105,15 +107,12 @@ apis:
   description: The Workflows API from Lilt — 1 operation(s) for workflows.
   name: Lilt Workflows API
   slug: lilt-workflows-api
-artifact_total: 35
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Lilt Webhooks
   slug: lilt-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LILT Create API
   slug: open-lilt-create-api
@@ -154,13 +153,22 @@ collections:
   name: LILT Create Workflows API
   slug: open-lilt-workflows-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/lilt/plans/lilt-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/lilt-plans-pricing.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lilt/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/capabilities/lilt-capability-edges.yml
+  href: https://artifacts.apis.io/lilt/capabilities/lilt-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/lilt-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/security/lilt-trust-center.yml
+  href: https://artifacts.apis.io/lilt/security/lilt-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lilt-trust-center.yml
@@ -221,102 +229,110 @@ common:
   type: Compliance
   url: https://trust.lilt.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/openapi/_original/lilt-openapi-original.yml
+  href: https://artifacts.apis.io/lilt/openapi/_original/lilt-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/lilt-openapi-original.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/llms/lilt-llms.txt
+  href: https://artifacts.apis.io/lilt/llms/lilt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lilt-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/mcp/lilt-mcp.yml
+  href: https://artifacts.apis.io/lilt/mcp/lilt-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lilt-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lilt/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/packages/lilt-packages.yml
+  href: https://artifacts.apis.io/lilt/packages/lilt-packages.yml
   title: ''
   type: Packages
   url: packages/lilt-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/packages/lilt-packages.yml
+  href: https://artifacts.apis.io/lilt/packages/lilt-packages.yml
   title: ''
   type: SDKs
   url: packages/lilt-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/authentication/lilt-authentication.yml
+  href: https://artifacts.apis.io/lilt/authentication/lilt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lilt-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/scopes/lilt-scopes.yml
+  href: https://artifacts.apis.io/lilt/scopes/lilt-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/lilt-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/conventions/lilt-conventions.yml
+  href: https://artifacts.apis.io/lilt/conventions/lilt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lilt-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/errors/lilt-problem-types.yml
+  href: https://artifacts.apis.io/lilt/errors/lilt-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lilt-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/lifecycle/lilt-lifecycle.yml
+  href: https://artifacts.apis.io/lilt/lifecycle/lilt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lilt-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/changelog/lilt-changelog.yml
+  href: https://artifacts.apis.io/lilt/changelog/lilt-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lilt-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/conformance/lilt-conformance.yml
+  href: https://artifacts.apis.io/lilt/conformance/lilt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lilt-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/data-model/lilt-data-model.yml
+  href: https://artifacts.apis.io/lilt/data-model/lilt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lilt-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/asyncapi/lilt-webhooks.yml
+  href: https://artifacts.apis.io/lilt/asyncapi/lilt-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/lilt-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/well-known/lilt-well-known.yml
+  href: https://artifacts.apis.io/lilt/well-known/lilt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lilt-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/security/lilt-domain-security.yml
+  href: https://artifacts.apis.io/lilt/security/lilt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lilt-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/overlays/lilt-api-overlay.yaml
+  href: https://artifacts.apis.io/lilt/overlays/lilt-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/lilt-api-overlay.yaml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/rate-limits/lilt-rate-limits.yml
+  href: https://artifacts.apis.io/lilt/rate-limits/lilt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lilt-rate-limits.yml
 created: '2026-07-17'
 description: 'LILT is an AI translation and localization platform that pairs contextual, adaptive machine translation with human linguist verification. The LILT REST API (https://api.lilt.com) exposes the platform programmatically: adaptive machine translation, large-scale translation memory and the Lexicon termbase, document and file translation, job/project/segment management, Lilt Create multilingual content generation, workflow templates, domains, cloud and multipart uploads, and webhook configuration. LILT also ships connectors for CMS, DAM and repository systems, first-party Python, Node and Java SDKs, and a hosted remote MCP server at mcp.lilt.com for agent-driven translation.'
+finops:
+- has_sources: true
+  method: derived
+  name: Lilt Finops
+  primary_unit: ''
+  service_category: ''
+  slug: lilt-finops
+  template: true
 image: https://lilt.com/favicon-32x32.png
 layout: provider
 mcp_servers:
@@ -333,8 +349,12 @@ overview: 'Lilt publishes 13 API contracts indexed on the [APIs.io](https://apis
   The Lilt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lilt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 19
+  Lilt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+plans:
+- name: Lilt Plans Pricing
+  plan_count: 3
+  slug: lilt-plans-pricing
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Lilt Rate Limits
@@ -346,23 +366,28 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: strong
-  composite: 60.8
+  composite: 65.6
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 27
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 57.2
-    developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 73.7
-  previous_composite: 60.8
+    contract_quality: 54.2
+    developer_ergonomics: 67.3
+    discoverability: 65.0
+    operational_transparency: 76.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 59.0
   provenance:
     conformance: derived
     contracts:
@@ -378,13 +403,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/screenshots/lilt-2026-07-25T225154.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lilt/lilt-2026-07-25T225154.png
 security:
 - kind: authentication
   name: Lilt Authentication
@@ -402,6 +428,16 @@ security:
   name: Lilt Trust Center
   slug: lilt-trust-center
   summary_line: SOC 2 Type II, ISO 9001, ISO 18587
+skill_count: 4
+skills:
+- name: Create, track and deliver a verified translation job
+  slug: lilt-create-and-deliver-a-job
+- name: Build and query a LILT translation memory and termbase
+  slug: lilt-manage-translation-memory
+- name: Subscribe to LILT webhooks and handle event payloads
+  slug: lilt-subscribe-to-webhooks
+- name: Translate a file with LILT machine translation
+  slug: lilt-translate-a-file
 slug: lilt
 tags:
 - Company

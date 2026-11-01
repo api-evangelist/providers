@@ -31,14 +31,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.3
-  scored_at: '2026-10-17'
+  score: 42.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://network.roserocket.com/api/v2/platformModel
@@ -61,14 +63,14 @@ apis:
   description: The User Groups API from Rose Rocket — 3 operation(s) for user groups.
   name: Rose Rocket User Groups API
   slug: rose-rocket-user-groups-api
-artifact_total: 11
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Rose Rocket Webhooks
   slug: rose-rocket-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/overlays/rose-rocket-platform-model-api-overlay.yaml
+  href: https://artifacts.apis.io/rose-rocket/overlays/rose-rocket-platform-model-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rose-rocket-platform-model-api-overlay.yaml
@@ -129,123 +131,131 @@ common:
   type: GitHubOrganization
   url: https://github.com/RoseRocketSDK
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/llms/rose-rocket-llms.txt
+  href: https://artifacts.apis.io/rose-rocket/llms/rose-rocket-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rose-rocket-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/well-known/rose-rocket-well-known.yml
+  href: https://artifacts.apis.io/rose-rocket/well-known/rose-rocket-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rose-rocket-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/authentication/rose-rocket-authentication.yml
+  href: https://artifacts.apis.io/rose-rocket/authentication/rose-rocket-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rose-rocket-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/scopes/rose-rocket-scopes.yml
+  href: https://artifacts.apis.io/rose-rocket/scopes/rose-rocket-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/rose-rocket-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/conventions/rose-rocket-conventions.yml
+  href: https://artifacts.apis.io/rose-rocket/conventions/rose-rocket-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rose-rocket-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/conventions/rose-rocket-conventions.yml
+  href: https://artifacts.apis.io/rose-rocket/conventions/rose-rocket-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/rose-rocket-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/data-model/rose-rocket-data-model.yml
+  href: https://artifacts.apis.io/rose-rocket/data-model/rose-rocket-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rose-rocket-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/errors/rose-rocket-problem-types.yml
+  href: https://artifacts.apis.io/rose-rocket/errors/rose-rocket-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rose-rocket-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/lifecycle/rose-rocket-lifecycle.yml
+  href: https://artifacts.apis.io/rose-rocket/lifecycle/rose-rocket-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rose-rocket-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/conformance/rose-rocket-conformance.yml
+  href: https://artifacts.apis.io/rose-rocket/conformance/rose-rocket-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rose-rocket-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/conformance/rose-rocket-conformance.yml
+  href: https://artifacts.apis.io/rose-rocket/conformance/rose-rocket-conformance.yml
   title: ''
   type: Compliance
   url: conformance/rose-rocket-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/security/rose-rocket-domain-security.yml
+  href: https://artifacts.apis.io/rose-rocket/security/rose-rocket-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rose-rocket-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/security/rose-rocket-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/rose-rocket/security/rose-rocket-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rose-rocket-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/security/rose-rocket-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/rose-rocket/security/rose-rocket-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/rose-rocket-vulnerability-disclosure.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/packages/rose-rocket-packages.yml
+  href: https://artifacts.apis.io/rose-rocket/packages/rose-rocket-packages.yml
   title: ''
   type: Packages
   url: packages/rose-rocket-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/packages/rose-rocket-packages.yml
+  href: https://artifacts.apis.io/rose-rocket/packages/rose-rocket-packages.yml
   title: ''
   type: SDKs
   url: packages/rose-rocket-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/cli/rose-rocket-cli.yml
+  href: https://artifacts.apis.io/rose-rocket/cli/rose-rocket-cli.yml
   title: ''
   type: CLI
   url: cli/rose-rocket-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/components/rose-rocket-components.yml
+  href: https://artifacts.apis.io/rose-rocket/components/rose-rocket-components.yml
   title: ''
   type: Components
   url: components/rose-rocket-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/changelog/rose-rocket-changelog.yml
+  href: https://artifacts.apis.io/rose-rocket/changelog/rose-rocket-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rose-rocket-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/plans/rose-rocket-plans-pricing.yml
+  href: https://artifacts.apis.io/rose-rocket/plans/rose-rocket-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rose-rocket-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/rate-limits/rose-rocket-rate-limits.yml
+  href: https://artifacts.apis.io/rose-rocket/rate-limits/rose-rocket-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rose-rocket-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/asyncapi/rose-rocket-webhooks.yml
+  href: https://artifacts.apis.io/rose-rocket/asyncapi/rose-rocket-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/rose-rocket-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rose-rocket/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-26'
 description: 'Rose Rocket is a Toronto-based transportation management system (TMS) for freight brokers, carriers and 3PLs, sold as an AI-native, configurable operations platform rather than an off-the-shelf template. The product covers order intake, dispatch, tendering, tracking, documents, invoicing and billing, with no-code custom fields, boards and workflows, in-product AI agents (TED, Rosie, Rocky) and role-based access control down to the widget. Its developer surface is the Platform Model API, a single generic object-CRUD REST API served at network.roserocket.com/api/v2/platformModel that reads and writes every domain object — customer, order, task, stop, manifest, commodity, partner, quote, invoice, bill, asset, tag, contact, document — through one set of /objects operations keyed by objectKey, plus user groups, boards, events and webhook destinations. Authentication is OAuth 2.0 (authorization code or client-credentials service account) against an Auth0-hosted authorization server
   at a.roserocket.com. API access is not self-serve: credentials come from an account representative or the partnership team, and the pricing page lists "unlimited API access" as an Enterprise tier feature.'
+finops:
+- has_sources: true
+  method: derived
+  name: Rose Rocket Finops
+  primary_unit: platform
+  service_category: ''
+  slug: rose-rocket-finops
+  template: false
 image: https://framerusercontent.com/images/eevMW1fKr5iFYAXYwLYuO8Sp5PQ.jpg
 layout: provider
 modified: '2026-08-26'
@@ -263,7 +273,10 @@ plans:
 - name: Rose Rocket Plans Pricing
   plan_count: 2
   slug: rose-rocket-plans-pricing
-random_paper: 12
+- name: Rose Rocket Price Estimates
+  plan_count: 0
+  slug: rose-rocket-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Rose Rocket Rate Limits
@@ -275,22 +288,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.5
+  composite: 63.2
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 45.0
+    artifact_dirs: 26
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 67.1
+    access_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 48.7
-    developer_ergonomics: 54.2
-    discoverability: 73.2
-    operational_transparency: 44.7
+    contract_quality: 47.0
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -298,7 +311,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 60.5
+  previous_composite: 61.6
   provenance:
     conformance: first-party
     contracts:
@@ -314,13 +327,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/screenshots/rose-rocket-2026-09-02T154132.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rose-rocket/rose-rocket-2026-09-02T154132.png
 security:
 - kind: authentication
   name: Rose Rocket Authentication
@@ -334,6 +348,16 @@ security:
   name: Rose Rocket Vulnerability Disclosure
   slug: rose-rocket-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 4
+skills:
+- name: rose-rocket-authenticate
+  slug: rose-rocket-authenticate
+- name: rose-rocket-order-to-cash
+  slug: rose-rocket-order-to-cash
+- name: rose-rocket-receive-webhooks
+  slug: rose-rocket-receive-webhooks
+- name: rose-rocket-sync-external-records
+  slug: rose-rocket-sync-external-records
 slug: rose-rocket
 tags:
 - Transportation

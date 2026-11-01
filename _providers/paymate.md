@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-17'
+  score: 34.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Legacy India API (PMXClients service). Twelve JSON-over-POST methods let a business add vendors and customers as contacts, book and approve vendor payments, raise collection requests, generate hosted '
@@ -73,15 +75,15 @@ apis:
   description: Reference data
   name: PayMate Reference API
   slug: paymate-reference-api
-artifact_total: 11
+artifact_total: 16
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/capabilities/paymate-capability-edges.yml
+  href: https://artifacts.apis.io/paymate/capabilities/paymate-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/paymate-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/security/paymate-domain-security.yml
+  href: https://artifacts.apis.io/paymate/security/paymate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paymate-domain-security.yml
@@ -126,77 +128,85 @@ common:
   type: PrivacyPolicy
   url: https://paymate.in/privacy.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/authentication/paymate-authentication.yml
+  href: https://artifacts.apis.io/paymate/authentication/paymate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paymate-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/conventions/paymate-conventions.yml
+  href: https://artifacts.apis.io/paymate/conventions/paymate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/paymate-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/conventions/paymate-conventions.yml
+  href: https://artifacts.apis.io/paymate/conventions/paymate-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/paymate-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/errors/paymate-error-codes.yml
+  href: https://artifacts.apis.io/paymate/errors/paymate-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/paymate-error-codes.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/plans/paymate-plans-pricing.yml
+  href: https://artifacts.apis.io/paymate/plans/paymate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/paymate-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/rate-limits/paymate-rate-limits.yml
+  href: https://artifacts.apis.io/paymate/rate-limits/paymate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/paymate-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/conformance/paymate-conformance.yml
+  href: https://artifacts.apis.io/paymate/conformance/paymate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paymate-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/conformance/paymate-conformance.yml
+  href: https://artifacts.apis.io/paymate/conformance/paymate-conformance.yml
   title: ''
   type: Compliance
   url: conformance/paymate-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/lifecycle/paymate-lifecycle.yml
+  href: https://artifacts.apis.io/paymate/lifecycle/paymate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/paymate-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/sandbox/paymate-sandbox.yml
+  href: https://artifacts.apis.io/paymate/sandbox/paymate-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/paymate-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/data-model/paymate-data-model.yml
+  href: https://artifacts.apis.io/paymate/data-model/paymate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/paymate-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/paymate/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/llms/paymate-llms.txt
+  href: https://artifacts.apis.io/paymate/llms/paymate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paymate-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/overlays/paymate-global-partner-api-overlay.yaml
+  href: https://artifacts.apis.io/paymate/overlays/paymate-global-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/paymate-global-partner-api-overlay.yaml
 created: '2026-08-26'
 description: 'PayMate India Limited is a Mumbai-headquartered B2B payments and supply-chain finance platform that digitizes, automates and streamlines business payables and receivables. Enterprises use PayMate to pay vendors, GST and utility bills on commercial credit cards, to raise and collect invoice payment requests, to run maker/checker approval workflows, and to access working-capital credit and invoice discounting. The platform runs in India as PayMate and across Singapore, Malaysia, the UAE, Oman, Sri Lanka, Saudi Arabia, Australia and South Africa — where the Australian and South African deployments carry the DuNoMo brand. Two distinct API surfaces are published: the legacy India PayMate API (PMXClients WCF/JSON service) and the current Global Partner API, a v1 REST surface for business (KYB) onboarding, contact onboarding, commercial-card management, vendor payments, collection requests and reporting.'
+finops:
+- has_sources: true
+  method: derived
+  name: Paymate Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: paymate-finops
+  template: false
 image: https://paymate.in/imgs/pngs/apple-touch-icon.png
 layout: provider
 modified: '2026-08-26'
@@ -209,26 +219,29 @@ overview: 'PayMate publishes 7 API contracts indexed on the [APIs.io](https://ap
   PayMate''s developer surface includes documentation, API reference, support, engineering blog, pricing, authentication, sandbox, and 19 more developer resources.'
 plans:
 - name: Paymate Plans Pricing
-  plan_count: 6
+  plan_count: 3
   slug: paymate-plans-pricing
-random_paper: 5
+- name: Paymate Price Estimates
+  plan_count: 0
+  slug: paymate-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 6
   name: Paymate Rate Limits
   slug: paymate-rate-limits
 score:
-  band: developing
-  composite: 53.9
+  band: strong
+  composite: 57.5
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 61.0
+    artifact_dirs: 23
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 77.6
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 53.9
     developer_ergonomics: 54.2
@@ -241,7 +254,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 53.9
+  previous_composite: 55.9
   provenance:
     conformance: first-party
     contracts:
@@ -257,13 +270,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/screenshots/paymate-2026-09-02T150923.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/paymate/paymate-2026-09-02T150923.png
 security:
 - kind: authentication
   name: Paymate Authentication
@@ -273,6 +287,14 @@ security:
   name: Paymate Domain Security
   slug: paymate-domain-security
   summary_line: TLSv1.2 · DMARC
+skill_count: 3
+skills:
+- name: paymate-collect-from-a-customer
+  slug: paymate-collect-from-a-customer
+- name: paymate-onboard-a-business
+  slug: paymate-onboard-a-business
+- name: paymate-pay-a-vendor
+  slug: paymate-pay-a-vendor
 slug: paymate
 tags:
 - Payments

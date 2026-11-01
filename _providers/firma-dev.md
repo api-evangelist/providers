@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.0
-  scored_at: '2026-10-17'
+  score: 42.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 3
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 115
   slug: firma-dev-agentic-access
   summary_line: 115 operations · 71 acting · 3 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.firma.dev/functions/v1/signing-request-api
   baseurl_source: spec
@@ -94,54 +96,54 @@ apis:
   description: Workspace management operations
   name: Firma.dev Workspaces API
   slug: firma-dev-workspaces-api
-artifact_total: 79
+artifact_total: 84
 asyncapis:
 - description: ''
   name: Firma Dev Webhooks
   slug: firma-dev-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/capabilities/firma-dev-capability-edges.yml
+  href: https://artifacts.apis.io/firma-dev/capabilities/firma-dev-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/firma-dev-capability-edges.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/mcp/firma-dev-tool-crosswalk.yml
+  href: https://artifacts.apis.io/firma-dev/mcp/firma-dev-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/firma-dev-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/agentic-access/firma-dev-agentic-access.yml
+  href: https://artifacts.apis.io/firma-dev/agentic-access/firma-dev-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/firma-dev-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/plans/firma-dev-plans-pricing.yml
+  href: https://artifacts.apis.io/firma-dev/plans/firma-dev-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/firma-dev-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/rules/firma-dev-rules.yml
+  href: https://artifacts.apis.io/firma-dev/rules/firma-dev-rules.yml
   title: ''
   type: Spectral
   url: rules/firma-dev-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/json-ld/firma-dev-context.jsonld
+  href: https://artifacts.apis.io/firma-dev/json-ld/firma-dev-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/firma-dev-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/vocabulary/firma-dev-vocabulary.yml
+  href: https://artifacts.apis.io/firma-dev/vocabulary/firma-dev-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/firma-dev-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/firma-dev/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/data-model/firma-dev-data-model.yml
+  href: https://artifacts.apis.io/firma-dev/data-model/firma-dev-data-model.yml
   title: ''
   type: DataModel
   url: data-model/firma-dev-data-model.yml
@@ -150,27 +152,27 @@ common:
   type: Compliance
   url: https://firma.dev/trust
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/errors/firma-dev-problem-types.yml
+  href: https://artifacts.apis.io/firma-dev/errors/firma-dev-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/firma-dev-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/conformance/firma-dev-conformance.yml
+  href: https://artifacts.apis.io/firma-dev/conformance/firma-dev-conformance.yml
   title: ''
   type: Conformance
   url: conformance/firma-dev-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/llms/firma-dev-llms.txt
+  href: https://artifacts.apis.io/firma-dev/llms/firma-dev-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/firma-dev-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/llms/firma-dev-docs-llms.txt
+  href: https://artifacts.apis.io/firma-dev/llms/firma-dev-docs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/firma-dev-docs-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/asyncapi/firma-dev-webhooks.yml
+  href: https://artifacts.apis.io/firma-dev/asyncapi/firma-dev-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/firma-dev-webhooks.yml
@@ -183,22 +185,22 @@ common:
   type: Webhooks
   url: https://docs.firma.dev/api-reference/v01.00.02/webhooks/create-webhook
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/a2a/firma-dev-a2a.yml
+  href: https://artifacts.apis.io/firma-dev/a2a/firma-dev-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/firma-dev-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/mcp/firma-dev-mcp.yml
+  href: https://artifacts.apis.io/firma-dev/mcp/firma-dev-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/firma-dev-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/hosts/firma-dev-hosts.yml
+  href: https://artifacts.apis.io/firma-dev/hosts/firma-dev-hosts.yml
   title: ''
   type: Hosts
   url: hosts/firma-dev-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/vendors/firma-dev-vendors.yml
+  href: https://artifacts.apis.io/firma-dev/vendors/firma-dev-vendors.yml
   title: ''
   type: Vendors
   url: vendors/firma-dev-vendors.yml
@@ -223,17 +225,17 @@ common:
   type: Newsroom
   url: https://firma.dev/media
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/authentication/firma-dev-authentication.yml
+  href: https://artifacts.apis.io/firma-dev/authentication/firma-dev-authentication.yml
   title: ''
   type: Authentication
   url: authentication/firma-dev-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/security/firma-dev-trust-center.yml
+  href: https://artifacts.apis.io/firma-dev/security/firma-dev-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/firma-dev-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/security/firma-dev-domain-security.yml
+  href: https://artifacts.apis.io/firma-dev/security/firma-dev-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/firma-dev-domain-security.yml
@@ -275,6 +277,14 @@ common:
   url: https://www.postman.com/firma-dev/workspace
 created: '2026-09-25'
 description: Firma.dev provides an electronic signature API for developers, with pay-as-you-go pricing starting at €0.049 per envelope and no minimums or contracts. It offers embeddable signing with custom branding - template and signing-request editors and the signing experience embed in the customer's own product, with isolated customer workspaces. It is built for ESIGN, UETA and eIDAS with audit trails, supports SOC 2 and ISO/IEC 27001, and addresses GDPR. It offers a REST API described in OpenAPI, webhook events, and sample apps for embedding e-signatures directly into applications.
+finops:
+- has_sources: true
+  method: derived
+  name: Firma Dev Finops
+  primary_unit: ''
+  service_category: ''
+  slug: firma-dev-finops
+  template: true
 image: https://framerusercontent.com/assets/6BZ6uZhXFZ37plllWJaDRaNVyoo.png
 json_schemas:
 - name: AnchorTag
@@ -458,7 +468,7 @@ jsonld:
   slug: firma-dev-context
 layout: provider
 mcp_servers:
-- description: Remote MCP server at docs.firma.dev.
+- description: Remote MCP server at docs.firma.dev; 3 tools listed.
   name: Firma.dev MCP Server
   slug: firma-dev-mcp-yml
 modified: '2026-10-06'
@@ -476,7 +486,10 @@ plans:
 - name: Firma Dev Plans Pricing
   plan_count: 2
   slug: firma-dev-plans-pricing
-random_paper: 11
+- name: Firma Dev Price Estimates
+  plan_count: 0
+  slug: firma-dev-price-estimates
+random_paper: 3
 rules:
 - authorship: generated
   effective_rule_count: 57
@@ -492,23 +505,23 @@ rules:
   slug: firma-dev-rules
 score:
   band: strong
-  composite: 63.3
+  composite: 58.9
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 55.8
     catalog_earned_first_party: 8.0
     catalog_gap: 59.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.0
+  delta: 0.0
   facets:
     access_clarity: 81.6
     contract_governance: 22.0
-    contract_quality: 76.4
+    contract_quality: 73.5
     developer_ergonomics: 54.2
-    discoverability: 51.7
+    discoverability: 41.7
     operational_transparency: 34.2
-  previous_composite: 60.3
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -525,13 +538,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/screenshots/firma-dev-2026-10-11T104506.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/firma-dev/firma-dev-2026-10-11T104506.png
 security:
 - kind: authentication
   name: Firma Dev Authentication
@@ -545,6 +559,14 @@ security:
   name: Firma Dev Trust Center
   slug: firma-dev-trust-center
   summary_line: GDPR
+skill_count: 3
+skills:
+- name: firma-dev-create-and-test-webhook
+  slug: firma-dev-create-and-test-webhook
+- name: firma-dev-create-workspace-with-logo
+  slug: firma-dev-create-workspace-with-logo
+- name: firma-dev-jwt-management-generate-and-revoke-signing-request
+  slug: firma-dev-jwt-management-generate-and-revoke-signing-request
 slug: firma-dev
 tags:
 - Company

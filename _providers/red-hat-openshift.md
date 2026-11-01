@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -187,7 +189,7 @@ apis:
 - description: Managed service API for installing, modifying, operating, and upgrading Red Hat OpenShift clusters across cloud providers.
   name: OpenShift Cluster Manager API
   slug: openshift-cluster-manager-api
-artifact_total: 106
+artifact_total: 105
 collections:
 - collection_type: postman
   name: Red Hat OpenShift Container Platform Add-ons API
@@ -222,9 +224,6 @@ collections:
 - collection_type: postman
   name: Red Hat OpenShift Container Platform Add-ons Versions API
   slug: postman-red-hat-openshift-versions-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Red Hat OpenShift Container Platform Add-ons API
   slug: open-red-hat-openshift-add-ons-api
@@ -266,22 +265,22 @@ collections:
   slug: open-red-hat-openshift-versions-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/plans/red-hat-openshift-plans-pricing.yml
+  href: https://artifacts.apis.io/red-hat-openshift/plans/red-hat-openshift-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/red-hat-openshift-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/rate-limits/red-hat-openshift-rate-limits.yml
+  href: https://artifacts.apis.io/red-hat-openshift/rate-limits/red-hat-openshift-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/red-hat-openshift-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/finops/red-hat-openshift-finops.yml
+  href: https://artifacts.apis.io/red-hat-openshift/finops/red-hat-openshift-finops.yml
   title: ''
   type: FinOps
   url: finops/red-hat-openshift-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/capabilities/red-hat-openshift-capability-edges.yml
+  href: https://artifacts.apis.io/red-hat-openshift/capabilities/red-hat-openshift-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/red-hat-openshift-capability-edges.yml
@@ -290,22 +289,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/red-hat-openshift/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/agentic-access/red-hat-openshift-agentic-access.yml
+  href: https://artifacts.apis.io/red-hat-openshift/agentic-access/red-hat-openshift-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/red-hat-openshift-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/security/red-hat-openshift-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/red-hat-openshift/security/red-hat-openshift-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/red-hat-openshift-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/security/red-hat-openshift-domain-security.yml
+  href: https://artifacts.apis.io/red-hat-openshift/security/red-hat-openshift-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/red-hat-openshift-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/authentication/red-hat-openshift-authentication.yml
+  href: https://artifacts.apis.io/red-hat-openshift/authentication/red-hat-openshift-authentication.yml
   title: ''
   type: Authentication
   url: authentication/red-hat-openshift-authentication.yml
@@ -354,37 +353,37 @@ common:
   type: Training
   url: https://www.redhat.com/en/services/training-and-certification
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/_original/red-hat-openshift-api-openapi.yml
+  href: https://artifacts.apis.io/red-hat-openshift/openapi/_original/red-hat-openshift-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/red-hat-openshift-api-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/openapi/_original/red-hat-openshift-cluster-manager-openapi.yml
+  href: https://artifacts.apis.io/red-hat-openshift/openapi/_original/red-hat-openshift-cluster-manager-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/red-hat-openshift-cluster-manager-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/json-ld/red-hat-openshift-context.jsonld
+  href: https://artifacts.apis.io/red-hat-openshift/json-ld/red-hat-openshift-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/red-hat-openshift-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/json-schema/red-hat-openshift-project-schema.json
+  href: https://artifacts.apis.io/red-hat-openshift/json-schema/red-hat-openshift-project-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/red-hat-openshift-project-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/json-structure/red-hat-openshift-project-structure.json
+  href: https://artifacts.apis.io/red-hat-openshift/json-structure/red-hat-openshift-project-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/red-hat-openshift-project-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/rules/red-hat-openshift-rules.yml
+  href: https://artifacts.apis.io/red-hat-openshift/rules/red-hat-openshift-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/red-hat-openshift-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/vocabulary/red-hat-openshift-vocabulary.yml
+  href: https://artifacts.apis.io/red-hat-openshift/vocabulary/red-hat-openshift-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/red-hat-openshift-vocabulary.yml
@@ -399,10 +398,10 @@ examples:
   slug: red-hat-openshift-create-route-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Red Hat Openshift Finops
-  primary_unit: ''
-  service_category: Container Platform
+  primary_unit: hour
+  service_category: ''
   slug: red-hat-openshift-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/red-hat-openshift.png
@@ -514,9 +513,9 @@ overview: 'Red Hat OpenShift publishes 40 API contracts indexed on the [APIs.io]
   Red Hat OpenShift''s developer surface includes authentication, documentation, pricing, engineering blog, signup flow, support, training material, and 20 more developer resources.'
 plans:
 - name: Red Hat Openshift Plans Pricing
-  plan_count: 8
+  plan_count: 5
   slug: red-hat-openshift-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Red Hat Openshift Rate Limits
@@ -546,24 +545,24 @@ rules:
     warn: 4
   slug: red-hat-openshift-rules
 score:
-  band: developing
-  composite: 48.0
+  band: strong
+  composite: 55.9
   coverage:
     artifact_dirs: 20
-    catalog_earned: 59.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 56.0
+    catalog_earned: 71.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 27.3
-    contract_quality: 58.4
+    contract_quality: 55.0
     developer_ergonomics: 41.7
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 49.5
+    operational_transparency: 36.8
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     contracts:
@@ -577,13 +576,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/screenshots/red-hat-openshift-2026-06-20T192719.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/red-hat-openshift/red-hat-openshift-2026-06-20T192719.png
 security:
 - kind: authentication
   name: Red Hat Openshift Authentication

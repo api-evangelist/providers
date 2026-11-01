@@ -27,15 +27,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 21.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 8
   slug: port-io-agentic-access
   summary_line: 8 operations · 4 acting
-api_count: 1
+api_count: 2
 apis:
 - description: Public REST API for the Port platform. Bearer-token authenticated (3-hour tokens minted from Port credentials), with regional base URLs for EU and US tenants. Body size capped at 1 MiB and every respo
   name: Port REST API
@@ -97,11 +99,88 @@ apis:
   description: Manage catalog entities created from blueprints.
   name: Port Entities API
   slug: port-io-entities-api
-artifact_total: 28
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The Action Runs API from Port — 6 operation(s) for action runs.
+  name: Port Action Runs API
+  slug: port-io-action-runs-api
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The Actions API from Port — 5 operation(s) for actions.
+  name: Port Actions API
+  slug: port-io-actions-api
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The AI API from Port — 1 operation(s) for ai.
+  name: Port AI API
+  slug: port-io-ai-api
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The Apps API from Port — 3 operation(s) for apps.
+  name: Port Apps API
+  slug: port-io-apps-api
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The Audit API from Port — 1 operation(s) for audit.
+  name: Port Audit API
+  slug: port-io-audit-api
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The Authentication / Authorization API from Port — 2 operation(s) for authentication / authorization.
+  name: Port Authentication / Authorization API
+  slug: port-io-authentication-authorization-api
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The Folders API from Port — 2 operation(s) for folders.
+  name: Port Folders API
+  slug: port-io-folders-api
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The Integrations API from Port — 4 operation(s) for integrations.
+  name: Port Integrations API
+  slug: port-io-integrations-api
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The Migrations API from Port — 3 operation(s) for migrations.
+  name: Port Migrations API
+  slug: port-io-migrations-api
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The Organization API from Port — 3 operation(s) for organization.
+  name: Port Organization API
+  slug: port-io-organization-api
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The Pages API from Port — 8 operation(s) for pages.
+  name: Port Pages API
+  slug: port-io-pages-api
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The Scorecard Groups API from Port — 3 operation(s) for scorecard groups.
+  name: Port Scorecard Groups API
+  slug: port-io-scorecard-groups-api
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The Scorecards API from Port — 3 operation(s) for scorecards.
+  name: Port Scorecards API
+  slug: port-io-scorecards-api
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The Teams API from Port — 2 operation(s) for teams.
+  name: Port Teams API
+  slug: port-io-teams-api
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The Users API from Port — 5 operation(s) for users.
+  name: Port Users API
+  slug: port-io-users-api
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: The Webhook API from Port — 3 operation(s) for webhook.
+  name: Port Webhook API
+  slug: port-io-webhook-api
+artifact_total: 43
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Port REST Blueprints API
   slug: open-port-io-blueprints-api
@@ -112,6 +191,15 @@ collections:
   name: Port REST API
   slug: open-port-io
 common:
+- group: other
+  href: https://artifacts.apis.io/port-io/capabilities/port-io-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/port-io-capability-edges.yml
+- group: docs
+  title: ''
+  type: OpenAPISource
+  url: https://api.port.io/swagger/json
 - group: operate
   title: ''
   type: IssueTracker
@@ -133,27 +221,27 @@ common:
   type: License
   url: https://github.com/port-labs/ocean/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/port-io/refs/heads/main/agentic-access/port-io-agentic-access.yml
+  href: https://artifacts.apis.io/port-io/agentic-access/port-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/port-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/port-io/refs/heads/main/security/port-io-trust-center.yml
+  href: https://artifacts.apis.io/port-io/security/port-io-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/port-io-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/port-io/refs/heads/main/security/port-io-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/port-io/security/port-io-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/port-io-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/port-io/refs/heads/main/security/port-io-domain-security.yml
+  href: https://artifacts.apis.io/port-io/security/port-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/port-io-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/port-io/refs/heads/main/authentication/port-io-authentication.yml
+  href: https://artifacts.apis.io/port-io/authentication/port-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/port-io-authentication.yml
@@ -174,17 +262,17 @@ common:
   type: GitHub
   url: https://github.com/port-labs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/port-io/refs/heads/main/plans/port-io-plans-pricing.yml
+  href: https://artifacts.apis.io/port-io/plans/port-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/port-io-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/port-io/refs/heads/main/rate-limits/port-io-rate-limits.yml
+  href: https://artifacts.apis.io/port-io/rate-limits/port-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/port-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/port-io/refs/heads/main/finops/port-io-finops.yml
+  href: https://artifacts.apis.io/port-io/finops/port-io-finops.yml
   title: ''
   type: FinOps
   url: finops/port-io-finops.yml
@@ -208,61 +296,59 @@ modified: '2026-05-23'
 name: Port
 nav: Providers
 network: true
-overview: 'Port publishes 16 API contracts indexed on the [APIs.io](https://apis.io/) network, including Blueprints API, Entities API, and 14 more. Tagged areas include Internal Developer Portal, Service Catalog, Self-Service Actions, Platform Engineering, and Scorecards.
+overview: 'Port publishes 32 API contracts indexed on the [APIs.io](https://apis.io/) network, including Blueprints API, Entities API, Action Runs API, and 29 more. Tagged areas include Internal Developer Portal, Service Catalog, Self-Service Actions, Platform Engineering, and Scorecards.
 
 
-  Port''s developer surface includes authentication, documentation, GitHub presence, and 15 more developer resources.'
+  Port''s developer surface includes authentication, documentation, GitHub presence, and 17 more developer resources.'
 plans:
 - name: Port Io Plans Pricing
   plan_count: 1
   slug: port-io-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Port Io Rate Limits
   slug: port-io-rate-limits
 score:
-  band: emerging
-  composite: 26.0
+  band: thin
+  composite: 30.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.4
+  delta: -0.1
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 43.1
     developer_ergonomics: 21.4
     discoverability: 73.2
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 85.0
-  previous_composite: 31.4
+  previous_composite: 31.0
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 18
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/port-io/refs/heads/main/screenshots/port-io-2026-06-20T191928.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/port-io/port-io-2026-06-20T191928.png
 security:
 - kind: authentication
   name: Port Io Authentication

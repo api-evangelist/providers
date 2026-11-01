@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kouper-health/refs/heads/main/security/kouper-health-domain-security.yml
+  href: https://artifacts.apis.io/kouper-health/security/kouper-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kouper-health-domain-security.yml
@@ -82,12 +84,12 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/kouper/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kouper-health/refs/heads/main/well-known/kouper-health-well-known.yml
+  href: https://artifacts.apis.io/kouper-health/well-known/kouper-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kouper-health-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kouper-health/refs/heads/main/llms/kouper-health-llms.txt
+  href: https://artifacts.apis.io/kouper-health/llms/kouper-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kouper-health-llms.txt
@@ -106,8 +108,8 @@ overview: 'Kouper Health is profiled on the [APIs.io](https://apis.io/) network.
   Kouper Health''s developer surface includes engineering blog, support, and 11 more developer resources.'
 random_paper: 17
 score:
-  band: emerging
-  composite: 11.0
+  band: minimal
+  composite: 10.4
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -121,23 +123,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 56.3
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 11.0
+  previous_composite: 10.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/kouper-health/refs/heads/main/screenshots/kouper-health-2026-07-25T224246.png
+screenshot: https://apis.io/screenshots/kouper-health/kouper-health-2026-07-25T224246.png
 security:
 - kind: domain-security
   name: Kouper Health Domain Security

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The workflow list, detail and execution surface behind Osly, as documented by the company's own first-party TypeScript SDK. Two REST reads (GET /workflows, GET /workflows/{id}) authenticated with an X
@@ -41,7 +43,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/security/osly-domain-security.yml
+  href: https://artifacts.apis.io/osly/security/osly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/osly-domain-security.yml
@@ -82,67 +84,67 @@ common:
   type: Documentation
   url: https://github.com/Osly-AI/Pocketflow-SDK#readme
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/packages/osly-packages.yml
+  href: https://artifacts.apis.io/osly/packages/osly-packages.yml
   title: ''
   type: Packages
   url: packages/osly-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/packages/osly-packages.yml
+  href: https://artifacts.apis.io/osly/packages/osly-packages.yml
   title: ''
   type: SDKs
   url: packages/osly-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/cli/osly-cli.yml
+  href: https://artifacts.apis.io/osly/cli/osly-cli.yml
   title: ''
   type: CLI
   url: cli/osly-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/authentication/osly-authentication.yml
+  href: https://artifacts.apis.io/osly/authentication/osly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/osly-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/conventions/osly-conventions.yml
+  href: https://artifacts.apis.io/osly/conventions/osly-conventions.yml
   title: ''
   type: Conventions
   url: conventions/osly-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/data-model/osly-data-model.yml
+  href: https://artifacts.apis.io/osly/data-model/osly-data-model.yml
   title: ''
   type: DataModel
   url: data-model/osly-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/errors/osly-problem-types.yml
+  href: https://artifacts.apis.io/osly/errors/osly-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/osly-problem-types.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/events/osly-workflow-events.yml
+  href: https://artifacts.apis.io/osly/events/osly-workflow-events.yml
   title: ''
   type: EventCatalog
   url: events/osly-workflow-events.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/lifecycle/osly-lifecycle.yml
+  href: https://artifacts.apis.io/osly/lifecycle/osly-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/osly-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/rate-limits/osly-rate-limits.yml
+  href: https://artifacts.apis.io/osly/rate-limits/osly-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/osly-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/plans/osly-plans-pricing.yml
+  href: https://artifacts.apis.io/osly/plans/osly-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/osly-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/conformance/osly-conformance.yml
+  href: https://artifacts.apis.io/osly/conformance/osly-conformance.yml
   title: ''
   type: Conformance
   url: conformance/osly-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/llms/osly-llms.txt
+  href: https://artifacts.apis.io/osly/llms/osly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/osly-llms.txt
@@ -163,14 +165,14 @@ plans:
 - name: Osly Plans Pricing
   plan_count: 0
   slug: osly-plans-pricing
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Osly Rate Limits
   slug: osly-rate-limits
 score:
   band: emerging
-  composite: 17.4
+  composite: 19.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -180,13 +182,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 42.9
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 17.4
+    operational_transparency: 5.3
+  previous_composite: 19.1
   provenance:
     conformance: derived
     mcp: derived
@@ -196,14 +198,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/osly/refs/heads/main/screenshots/osly-2026-08-07T191006.png
+screenshot: https://apis.io/screenshots/osly/osly-2026-08-07T191006.png
 security:
 - kind: authentication
   name: Osly Authentication

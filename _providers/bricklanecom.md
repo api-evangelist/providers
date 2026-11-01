@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,22 +25,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bricklanecom/refs/heads/main/hosts/bricklanecom-hosts.yml
+  href: https://artifacts.apis.io/bricklanecom/hosts/bricklanecom-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bricklanecom-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bricklanecom/refs/heads/main/vendors/bricklanecom-vendors.yml
+  href: https://artifacts.apis.io/bricklanecom/vendors/bricklanecom-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bricklanecom-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bricklanecom/refs/heads/main/security/bricklanecom-domain-security.yml
+  href: https://artifacts.apis.io/bricklanecom/security/bricklanecom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bricklanecom-domain-security.yml
@@ -83,7 +85,7 @@ name: Bricklanecom
 nav: Providers
 network: true
 overview: Bricklanecom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include PropTech, Real Estate, Investment, United Kingdom, and Rentals.
-random_paper: 4
+random_paper: 10
 score:
   band: minimal
   composite: 8.8
@@ -119,8 +121,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

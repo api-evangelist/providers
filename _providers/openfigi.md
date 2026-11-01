@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-17'
+  score: 26.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 4
   slug: openfigi-agentic-access
   summary_line: 4 operations · 3 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.openfigi.com
   baseurl_source: declared
@@ -60,11 +62,8 @@ apis:
   description: The Search API from OpenFIGI — 1 operation(s) for search.
   name: OpenFIGI Search API
   slug: openfigi-search-api
-artifact_total: 14
+artifact_total: 13
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenFIGI Filter API
   slug: open-openfigi-filter-api
@@ -79,17 +78,17 @@ collections:
   slug: open-openfigi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/plans/openfigi-plans-pricing.yml
+  href: https://artifacts.apis.io/openfigi/plans/openfigi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openfigi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/rate-limits/openfigi-rate-limits.yml
+  href: https://artifacts.apis.io/openfigi/rate-limits/openfigi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openfigi-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/finops/openfigi-finops.yml
+  href: https://artifacts.apis.io/openfigi/finops/openfigi-finops.yml
   title: ''
   type: FinOps
   url: finops/openfigi-finops.yml
@@ -98,17 +97,17 @@ common:
   type: Website
   url: https://www.openfigi.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/agentic-access/openfigi-agentic-access.yml
+  href: https://artifacts.apis.io/openfigi/agentic-access/openfigi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openfigi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/security/openfigi-domain-security.yml
+  href: https://artifacts.apis.io/openfigi/security/openfigi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openfigi-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/authentication/openfigi-authentication.yml
+  href: https://artifacts.apis.io/openfigi/authentication/openfigi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openfigi-authentication.yml
@@ -150,7 +149,7 @@ finops:
 - has_sources: false
   method: generated
   name: Openfigi Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: openfigi-finops
   template: true
@@ -168,30 +167,30 @@ plans:
 - name: Openfigi Plans Pricing
   plan_count: 3
   slug: openfigi-plans-pricing
-random_paper: 13
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Openfigi Rate Limits
   slug: openfigi-rate-limits
 score:
   band: thin
-  composite: 31.5
+  composite: 29.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 54.8
     developer_ergonomics: 23.8
     discoverability: 58.9
-    operational_transparency: 10.5
-  previous_composite: 33.0
+    operational_transparency: 13.2
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     contracts:
@@ -205,13 +204,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/screenshots/openfigi-2026-06-20T191005.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openfigi/openfigi-2026-06-20T191005.png
 security:
 - kind: authentication
   name: Openfigi Authentication

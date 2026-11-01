@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: platform
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -54,7 +56,7 @@ apis:
 - description: 'The public, unauthenticated Shopify storefront product JSON surface documented in the store''s own llms.txt and agents.md: /products.json for the catalog (30 by default, 47 with ?limit=250 at probe tim'
   name: Bespoken Spirits Storefront Catalog JSON
   slug: bespoken-spirits-storefront-catalog-json
-artifact_total: 9
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -65,77 +67,77 @@ common:
   type: Documentation
   url: https://bespokenspirits.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/llms/bespoken-spirits-llms.txt
+  href: https://artifacts.apis.io/bespoken-spirits/llms/bespoken-spirits-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bespoken-spirits-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/mcp/bespoken-spirits-mcp.yml
+  href: https://artifacts.apis.io/bespoken-spirits/mcp/bespoken-spirits-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bespoken-spirits-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/well-known/bespoken-spirits-well-known.yml
+  href: https://artifacts.apis.io/bespoken-spirits/well-known/bespoken-spirits-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bespoken-spirits-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bespoken-spirits/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/authentication/bespoken-spirits-authentication.yml
+  href: https://artifacts.apis.io/bespoken-spirits/authentication/bespoken-spirits-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bespoken-spirits-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/scopes/bespoken-spirits-scopes.yml
+  href: https://artifacts.apis.io/bespoken-spirits/scopes/bespoken-spirits-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bespoken-spirits-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/conventions/bespoken-spirits-conventions.yml
+  href: https://artifacts.apis.io/bespoken-spirits/conventions/bespoken-spirits-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bespoken-spirits-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/conventions/bespoken-spirits-conventions.yml
+  href: https://artifacts.apis.io/bespoken-spirits/conventions/bespoken-spirits-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bespoken-spirits-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/errors/bespoken-spirits-problem-types.yml
+  href: https://artifacts.apis.io/bespoken-spirits/errors/bespoken-spirits-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bespoken-spirits-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/conformance/bespoken-spirits-conformance.yml
+  href: https://artifacts.apis.io/bespoken-spirits/conformance/bespoken-spirits-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bespoken-spirits-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/lifecycle/bespoken-spirits-lifecycle.yml
+  href: https://artifacts.apis.io/bespoken-spirits/lifecycle/bespoken-spirits-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bespoken-spirits-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/data-model/bespoken-spirits-data-model.yml
+  href: https://artifacts.apis.io/bespoken-spirits/data-model/bespoken-spirits-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bespoken-spirits-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/agentic-access/bespoken-spirits-agentic-access.yml
+  href: https://artifacts.apis.io/bespoken-spirits/agentic-access/bespoken-spirits-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bespoken-spirits-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/examples/bespoken-spirits-products-sample.json
+  href: https://artifacts.apis.io/bespoken-spirits/examples/bespoken-spirits-products-sample.json
   title: ''
   type: Examples
   url: examples/bespoken-spirits-products-sample.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/security/bespoken-spirits-domain-security.yml
+  href: https://artifacts.apis.io/bespoken-spirits/security/bespoken-spirits-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bespoken-spirits-domain-security.yml
@@ -207,7 +209,7 @@ overview: 'Bespoken Spirits is listed with 3 APIs on the [APIs.io](https://apis.
 
 
   Bespoken Spirits'' developer surface includes documentation, authentication, code examples, engineering blog, support, pricing, and 23 more developer resources.'
-random_paper: 10
+random_paper: 2
 scopes:
 - name: Bespoken Spirits Scopes
   scope_count: 4
@@ -215,7 +217,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.2
+  composite: 27.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -229,9 +231,9 @@ score:
     contract_governance: 18.2
     contract_quality: 6.5
     developer_ergonomics: 35.7
-    discoverability: 80.8
+    discoverability: 71.7
     operational_transparency: 0.0
-  previous_composite: 28.2
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -243,14 +245,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/screenshots/bespoken-spirits-2026-08-07T162314.png
+screenshot: https://apis.io/screenshots/bespoken-spirits/bespoken-spirits-2026-08-07T162314.png
 security:
 - kind: authentication
   name: Bespoken Spirits Authentication
@@ -260,6 +262,12 @@ security:
   name: Bespoken Spirits Domain Security
   slug: bespoken-spirits-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Browse the Bespoken Spirits catalog without credentials
+  slug: bespoken-spirits-browse-catalog-anonymously
+- name: Buy a bottle from Bespoken Spirits
+  slug: bespoken-spirits-buy-a-bottle
 slug: bespoken-spirits
 tags:
 - Company

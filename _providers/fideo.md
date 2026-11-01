@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Fideo''s real-time REST API for identity verification, fraud risk scoring, and identity intelligence. Two endpoints share a common multi-field request schema: POST /verify runs a comprehensive suite of'
@@ -52,7 +54,7 @@ common:
   type: BlogRSS
   url: https://www.fideo.ai/blog/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fideo/refs/heads/main/security/fideo-domain-security.yml
+  href: https://artifacts.apis.io/fideo/security/fideo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fideo-domain-security.yml
@@ -89,37 +91,37 @@ common:
   type: Blog
   url: https://www.fideo.ai/resources/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fideo/refs/heads/main/llms/fideo-llms.txt
+  href: https://artifacts.apis.io/fideo/llms/fideo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fideo-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fideo/refs/heads/main/changelog/fideo-changelog.yml
+  href: https://artifacts.apis.io/fideo/changelog/fideo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fideo-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fideo/refs/heads/main/lifecycle/fideo-lifecycle.yml
+  href: https://artifacts.apis.io/fideo/lifecycle/fideo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fideo-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fideo/refs/heads/main/authentication/fideo-authentication.yml
+  href: https://artifacts.apis.io/fideo/authentication/fideo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fideo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fideo/refs/heads/main/conformance/fideo-conformance.yml
+  href: https://artifacts.apis.io/fideo/conformance/fideo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fideo-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fideo/refs/heads/main/conformance/fideo-conformance.yml
+  href: https://artifacts.apis.io/fideo/conformance/fideo-conformance.yml
   title: ''
   type: Compliance
   url: conformance/fideo-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fideo/refs/heads/main/well-known/fideo-well-known.yml
+  href: https://artifacts.apis.io/fideo/well-known/fideo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fideo-well-known.yml
@@ -148,10 +150,10 @@ overview: 'Fideo is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Fideo''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, support, changelog, and 14 more developer resources.'
-random_paper: 13
+random_paper: 15
 score:
   band: thin
-  composite: 30.8
+  composite: 34.0
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -164,8 +166,8 @@ score:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 73.2
+    developer_ergonomics: 64.3
+    discoverability: 66.1
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -174,7 +176,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 30.8
+  previous_composite: 34.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -184,14 +186,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fideo/refs/heads/main/screenshots/fideo-2026-07-25T214416.png
+screenshot: https://apis.io/screenshots/fideo/fideo-2026-07-25T214416.png
 security:
 - kind: authentication
   name: Fideo Authentication

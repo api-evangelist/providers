@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://www.levelshealth.com
@@ -51,17 +53,14 @@ apis:
   description: A "Partner With Us" program for clinics and partners surfaced in the Levels site footer. No partner-facing developer API, OAuth flow, or documented endpoints are published; engagement is via a contact
   name: Levels Partner Program
   slug: levels-partner-program
-artifact_total: 9
+artifact_total: 8
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Levels
   slug: open-levels-health
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/security/levels-health-domain-security.yml
+  href: https://artifacts.apis.io/levels-health/security/levels-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/levels-health-domain-security.yml
@@ -78,17 +77,17 @@ common:
   type: Documentation
   url: https://support.levels.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/plans/levels-health-plans-pricing.yml
+  href: https://artifacts.apis.io/levels-health/plans/levels-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/levels-health-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/rate-limits/levels-health-rate-limits.yml
+  href: https://artifacts.apis.io/levels-health/rate-limits/levels-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/levels-health-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/finops/levels-health-finops.yml
+  href: https://artifacts.apis.io/levels-health/finops/levels-health-finops.yml
   title: ''
   type: FinOps
   url: finops/levels-health-finops.yml
@@ -127,7 +126,7 @@ rate_limits:
   slug: levels-health-rate-limits
 score:
   band: emerging
-  composite: 16.4
+  composite: 18.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 42.0
@@ -135,29 +134,29 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 25.1
+    contract_quality: 32.1
     developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 23.8
+  previous_composite: 18.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/screenshots/levels-health-2026-06-20T184436.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/levels-health/levels-health-2026-06-20T184436.png
 security:
 - kind: domain-security
   name: Levels Health Domain Security

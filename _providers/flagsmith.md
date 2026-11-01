@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.2
-  scored_at: '2026-10-17'
+  score: 48.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 401
   human_in_the_loop: 8
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 650
   slug: flagsmith-agentic-access
   summary_line: 650 operations · 401 acting · 8 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://edge.api.flagsmith.com
   baseurl_source: declared
@@ -637,15 +639,12 @@ apis:
     question: Can I set a user's traits and get their flags back in the same call?
   phrasing_ops: 5
   slug: flagsmith-sdk-api
-artifact_total: 50
+artifact_total: 54
 asyncapis:
 - description: Flagsmith provides two types of webhooks for receiving event notifications. Environment webhooks automatically send flag evaluations for identified users whenever an identity's flags are evaluated via
   name: Flagsmith Webhook Events
   slug: flagsmith-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Flagsmith Admin API
   slug: open-flagsmith-admin-api
@@ -678,7 +677,7 @@ collections:
   slug: open-flagsmith-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/capabilities/flagsmith-capability-edges.yml
+  href: https://artifacts.apis.io/flagsmith/capabilities/flagsmith-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/flagsmith-capability-edges.yml
@@ -687,17 +686,17 @@ common:
   type: Website
   url: https://flagsmith.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/agentic-access/flagsmith-agentic-access.yml
+  href: https://artifacts.apis.io/flagsmith/agentic-access/flagsmith-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/flagsmith-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/security/flagsmith-domain-security.yml
+  href: https://artifacts.apis.io/flagsmith/security/flagsmith-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/flagsmith-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/authentication/flagsmith-authentication.yml
+  href: https://artifacts.apis.io/flagsmith/authentication/flagsmith-authentication.yml
   title: ''
   type: Authentication
   url: authentication/flagsmith-authentication.yml
@@ -710,12 +709,12 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/flagsmith
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/json-ld/flagsmith-context.jsonld
+  href: https://artifacts.apis.io/flagsmith/json-ld/flagsmith-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/flagsmith-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/json-schema/flagsmith-feature-flag-schema.json
+  href: https://artifacts.apis.io/flagsmith/json-schema/flagsmith-feature-flag-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/flagsmith-feature-flag-schema.json
@@ -772,140 +771,140 @@ common:
   type: StatusPage
   url: https://status.flagsmith.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/changelog/flagsmith-changelog.yml
+  href: https://artifacts.apis.io/flagsmith/changelog/flagsmith-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/flagsmith-changelog.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/lifecycle/flagsmith-lifecycle.yml
+  href: https://artifacts.apis.io/flagsmith/lifecycle/flagsmith-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/flagsmith-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/lifecycle/flagsmith-lifecycle.yml
+  href: https://artifacts.apis.io/flagsmith/lifecycle/flagsmith-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/flagsmith-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/packages/flagsmith-packages.yml
+  href: https://artifacts.apis.io/flagsmith/packages/flagsmith-packages.yml
   title: ''
   type: Packages
   url: packages/flagsmith-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/packages/flagsmith-packages.yml
+  href: https://artifacts.apis.io/flagsmith/packages/flagsmith-packages.yml
   title: ''
   type: SDKs
   url: packages/flagsmith-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/cli/flagsmith-cli.yml
+  href: https://artifacts.apis.io/flagsmith/cli/flagsmith-cli.yml
   title: ''
   type: CLI
   url: cli/flagsmith-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/sandbox/flagsmith-sandbox.yml
+  href: https://artifacts.apis.io/flagsmith/sandbox/flagsmith-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/flagsmith-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/mcp/flagsmith-mcp.yml
+  href: https://artifacts.apis.io/flagsmith/mcp/flagsmith-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/flagsmith-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/mcp/flagsmith-tool-crosswalk.yml
+  href: https://artifacts.apis.io/flagsmith/mcp/flagsmith-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/flagsmith-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/flagsmith/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/llms/flagsmith-llms.txt
+  href: https://artifacts.apis.io/flagsmith/llms/flagsmith-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/flagsmith-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/well-known/flagsmith-well-known.yml
+  href: https://artifacts.apis.io/flagsmith/well-known/flagsmith-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/flagsmith-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/scopes/flagsmith-scopes.yml
+  href: https://artifacts.apis.io/flagsmith/scopes/flagsmith-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/flagsmith-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/conventions/flagsmith-conventions.yml
+  href: https://artifacts.apis.io/flagsmith/conventions/flagsmith-conventions.yml
   title: ''
   type: Conventions
   url: conventions/flagsmith-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/errors/flagsmith-problem-types.yml
+  href: https://artifacts.apis.io/flagsmith/errors/flagsmith-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/flagsmith-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/rate-limits/flagsmith-rate-limits.yml
+  href: https://artifacts.apis.io/flagsmith/rate-limits/flagsmith-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/flagsmith-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/plans/flagsmith-plans-pricing.yml
+  href: https://artifacts.apis.io/flagsmith/plans/flagsmith-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/flagsmith-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/data-model/flagsmith-data-model.yml
+  href: https://artifacts.apis.io/flagsmith/data-model/flagsmith-data-model.yml
   title: ''
   type: DataModel
   url: data-model/flagsmith-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/conformance/flagsmith-conformance.yml
+  href: https://artifacts.apis.io/flagsmith/conformance/flagsmith-conformance.yml
   title: ''
   type: Conformance
   url: conformance/flagsmith-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/security/flagsmith-trust-center.yml
+  href: https://artifacts.apis.io/flagsmith/security/flagsmith-trust-center.yml
   title: ''
   type: Compliance
   url: security/flagsmith-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/security/flagsmith-trust-center.yml
+  href: https://artifacts.apis.io/flagsmith/security/flagsmith-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/flagsmith-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/security/flagsmith-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/flagsmith/security/flagsmith-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/flagsmith-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/security/flagsmith-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/flagsmith/security/flagsmith-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/flagsmith-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/asyncapi/flagsmith-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/flagsmith/asyncapi/flagsmith-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/flagsmith-webhooks-asyncapi.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/finops/flagsmith-finops.yml
+  href: https://artifacts.apis.io/flagsmith/finops/flagsmith-finops.yml
   title: ''
   type: FinOps
   url: finops/flagsmith-finops.yml
 created: '2026-05-03'
 description: 'Flagsmith is an open-source feature flag, remote configuration and experimentation platform built by Bullet Train Ltd. Teams use it to release features safely, run A/B and multivariate tests, and segment users without redeploying code, across web, mobile and server-side applications. It ships as a hosted cloud service on a global low-latency Edge API, as a private cloud deployment, or self-hosted on the customer''s own infrastructure, with the core product open source under BSD-3-Clause. Two public API surfaces back it: a non-secret SDK/Flags API for evaluating flags, and a 615-operation Management API that does everything the dashboard does. Flagsmith is OpenFeature compatible, publishes first-party SDKs for thirteen language ecosystems, and operates a remote MCP server exposing 54 tools to AI agents over OAuth.'
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Flagsmith Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: flagsmith-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flagsmith.png
 json_schemas:
 - name: Flagsmith Feature Flag
@@ -934,9 +933,12 @@ overview: 'Flagsmith publishes 24 API contracts indexed on the [APIs.io](https:/
   Flagsmith''s developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, support, pricing, and 40 more developer resources.'
 plans:
 - name: Flagsmith Plans Pricing
-  plan_count: 4
+  plan_count: 6
   slug: flagsmith-plans-pricing
-random_paper: 13
+- name: Flagsmith Price Estimates
+  plan_count: 0
+  slug: flagsmith-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Flagsmith Rate Limits
@@ -972,7 +974,7 @@ scopes:
   summary_line: 2 scopes
 score:
   band: exemplar
-  composite: 77.5
+  composite: 77.8
   coverage:
     artifact_dirs: 32
     catalog_earned: 73.5
@@ -980,15 +982,15 @@ score:
     catalog_gap: 41.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 1.1
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 31.8
-    contract_quality: 56.9
-    developer_ergonomics: 79.2
-    discoverability: 80.0
-    operational_transparency: 92.1
-  previous_composite: 78.5
+    contract_quality: 54.7
+    developer_ergonomics: 85.1
+    discoverability: 65.0
+    operational_transparency: 94.7
+  previous_composite: 76.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1005,13 +1007,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/screenshots/flagsmith-2026-06-20T181306.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/flagsmith/flagsmith-2026-06-20T181306.png
 security:
 - kind: authentication
   name: Flagsmith Authentication
@@ -1029,6 +1032,16 @@ security:
   name: Flagsmith Trust Center
   slug: flagsmith-trust-center
   summary_line: read, note, how_to_verify
+skill_count: 4
+skills:
+- name: flagsmith-roll-back-a-flag
+  slug: flagsmith-roll-back-a-flag
+- name: flagsmith-run-an-experiment
+  slug: flagsmith-run-an-experiment
+- name: flagsmith-ship-a-flag
+  slug: flagsmith-ship-a-flag
+- name: flagsmith-target-a-segment
+  slug: flagsmith-target-a-segment
 slug: flagsmith
 tags:
 - Feature Flags

@@ -17,17 +17,17 @@ apis:
 artifact_total: 8
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dependabot-yml/refs/heads/main/plans/dependabot-yml-plans-pricing.yml
+  href: https://artifacts.apis.io/dependabot-yml/plans/dependabot-yml-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dependabot-yml-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dependabot-yml/refs/heads/main/rate-limits/dependabot-yml-rate-limits.yml
+  href: https://artifacts.apis.io/dependabot-yml/rate-limits/dependabot-yml-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dependabot-yml-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dependabot-yml/refs/heads/main/finops/dependabot-yml-finops.yml
+  href: https://artifacts.apis.io/dependabot-yml/finops/dependabot-yml-finops.yml
   title: ''
   type: FinOps
   url: finops/dependabot-yml-finops.yml
@@ -45,7 +45,7 @@ finops:
 - has_sources: false
   method: generated
   name: Dependabot Yml Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: dependabot-yml-finops
   template: true
@@ -75,7 +75,7 @@ plans:
 - name: Dependabot Yml Plans Pricing
   plan_count: 3
   slug: dependabot-yml-plans-pricing
-random_paper: 21
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Dependabot Yml Rate Limits
@@ -103,7 +103,7 @@ rules:
     info: 2
     warn: 3
   slug: dependabot-yml-jsonschema-spectral-rules
-screenshot: https://raw.githubusercontent.com/api-evangelist/dependabot-yml/refs/heads/main/screenshots/dependabot-yml-2026-06-20T175926.png
+screenshot: https://apis.io/screenshots/dependabot-yml/dependabot-yml-2026-06-20T175926.png
 slug: dependabot-yml
 tags:
 - Automation

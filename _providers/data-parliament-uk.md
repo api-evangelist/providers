@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Contains live datasets including information about petitions, bills, MP votes, attendance and more
@@ -41,12 +43,12 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/data-parliament-uk/refs/heads/main/security/data-parliament-uk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/data-parliament-uk/security/data-parliament-uk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/data-parliament-uk-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/data-parliament-uk/refs/heads/main/security/data-parliament-uk-domain-security.yml
+  href: https://artifacts.apis.io/data-parliament-uk/security/data-parliament-uk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/data-parliament-uk-domain-security.yml
@@ -67,12 +69,12 @@ name: Data.parliament.uk
 nav: Providers
 network: true
 overview: Data.parliament.uk is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 11
+random_paper: 17
 score:
   band: minimal
-  composite: 6.3
+  composite: 7.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -85,28 +87,28 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 46.4
-    operational_transparency: 0.0
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 6.3
+  previous_composite: 7.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/data-parliament-uk/refs/heads/main/screenshots/data-parliament-uk-2026-06-20T175607.png
+screenshot: https://apis.io/screenshots/data-parliament-uk/data-parliament-uk-2026-06-20T175607.png
 security:
 - kind: domain-security
   name: Data Parliament Uk Domain Security

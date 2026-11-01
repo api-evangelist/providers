@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upcode-academy/refs/heads/main/security/upcode-academy-domain-security.yml
+  href: https://artifacts.apis.io/upcode-academy/security/upcode-academy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upcode-academy-domain-security.yml
@@ -46,12 +48,12 @@ common:
   type: Website
   url: https://www.upcodeacademy.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upcode-academy/refs/heads/main/llms/upcode-academy-llms.txt
+  href: https://artifacts.apis.io/upcode-academy/llms/upcode-academy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upcode-academy-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upcode-academy/refs/heads/main/well-known/upcode-academy-well-known.yml
+  href: https://artifacts.apis.io/upcode-academy/well-known/upcode-academy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/upcode-academy-well-known.yml
@@ -64,7 +66,7 @@ name: Upcode Academy
 nav: Providers
 network: true
 overview: Upcode Academy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Coding Bootcamp, Training, and Data Science.
-random_paper: 1
+random_paper: 17
 score:
   band: minimal
   composite: 0.0
@@ -98,14 +100,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/upcode-academy/refs/heads/main/screenshots/upcode-academy-2026-10-11T194212.png
+screenshot: https://apis.io/screenshots/upcode-academy/upcode-academy-2026-10-11T194212.png
 security:
 - kind: domain-security
   name: Upcode Academy Domain Security

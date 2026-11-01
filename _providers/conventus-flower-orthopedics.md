@@ -14,31 +14,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/conventus-flower-orthopedics/refs/heads/main/llms/conventus-flower-orthopedics-llms.txt
+  href: https://artifacts.apis.io/conventus-flower-orthopedics/llms/conventus-flower-orthopedics-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/conventus-flower-orthopedics-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/conventus-flower-orthopedics/refs/heads/main/hosts/conventus-flower-orthopedics-hosts.yml
+  href: https://artifacts.apis.io/conventus-flower-orthopedics/hosts/conventus-flower-orthopedics-hosts.yml
   title: ''
   type: Hosts
   url: hosts/conventus-flower-orthopedics-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/conventus-flower-orthopedics/refs/heads/main/vendors/conventus-flower-orthopedics-vendors.yml
+  href: https://artifacts.apis.io/conventus-flower-orthopedics/vendors/conventus-flower-orthopedics-vendors.yml
   title: ''
   type: Vendors
   url: vendors/conventus-flower-orthopedics-vendors.yml
@@ -47,7 +49,7 @@ common:
   type: Newsroom
   url: https://conventusflower.com/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/conventus-flower-orthopedics/refs/heads/main/security/conventus-flower-orthopedics-domain-security.yml
+  href: https://artifacts.apis.io/conventus-flower-orthopedics/security/conventus-flower-orthopedics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/conventus-flower-orthopedics-domain-security.yml
@@ -86,10 +88,10 @@ overview: 'Conventus Flower Orthopedics is profiled on the [APIs.io](https://api
 
 
   Conventus Flower Orthopedics'' developer surface includes documentation and 8 more developer resources.'
-random_paper: 4
+random_paper: 2
 score:
-  band: emerging
-  composite: 11.3
+  band: minimal
+  composite: 10.6
   coverage:
     artifact_dirs: 7
     catalog_earned: 25.0
@@ -97,13 +99,15 @@ score:
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 53.6
+    discoverability: 46.4
     operational_transparency: 0.0
+  previous_composite: 10.6
   provenance:
     mcp: unknown
   regulatory:
@@ -112,8 +116,9 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

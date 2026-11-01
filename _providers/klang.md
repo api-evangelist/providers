@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The OpenID Connect and OAuth 2.0 provider behind SEED player accounts. Klang publishes no documentation for it; this entry is recorded from the public discovery documents at seed.game and login.seed.g
@@ -82,37 +84,37 @@ common:
   type: StatusPage
   url: https://status.seed.game/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klang/refs/heads/main/lifecycle/klang-lifecycle.yml
+  href: https://artifacts.apis.io/klang/lifecycle/klang-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/klang-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klang/refs/heads/main/authentication/klang-authentication.yml
+  href: https://artifacts.apis.io/klang/authentication/klang-authentication.yml
   title: ''
   type: Authentication
   url: authentication/klang-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klang/refs/heads/main/scopes/klang-scopes.yml
+  href: https://artifacts.apis.io/klang/scopes/klang-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/klang-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klang/refs/heads/main/well-known/klang-well-known.yml
+  href: https://artifacts.apis.io/klang/well-known/klang-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/klang-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klang/refs/heads/main/conformance/klang-conformance.yml
+  href: https://artifacts.apis.io/klang/conformance/klang-conformance.yml
   title: ''
   type: Conformance
   url: conformance/klang-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klang/refs/heads/main/security/klang-domain-security.yml
+  href: https://artifacts.apis.io/klang/security/klang-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/klang-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klang/refs/heads/main/llms/klang-llms.txt
+  href: https://artifacts.apis.io/klang/llms/klang-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/klang-llms.txt
@@ -128,7 +130,7 @@ overview: 'Klang Games is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   Klang Games'' developer surface includes engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 19
+random_paper: 21
 scopes:
 - name: Klang Scopes
   scope_count: 5
@@ -136,7 +138,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode/deviceCode
 score:
   band: emerging
-  composite: 23.8
+  composite: 23.4
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -144,14 +146,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 73.2
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -160,7 +162,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 23.7
+  previous_composite: 23.4
   provenance:
     conformance: derived
   regulatory:
@@ -169,14 +171,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/klang/refs/heads/main/screenshots/klang-2026-07-25T223927.png
+screenshot: https://apis.io/screenshots/klang/klang-2026-07-25T223927.png
 security:
 - kind: authentication
   name: Klang Authentication

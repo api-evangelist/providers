@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.4
-  scored_at: '2026-10-17'
+  score: 20.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://lastmile.milenow.com/index.php
@@ -127,15 +129,12 @@ apis:
   description: The Webhooks API from Mile — 5 operation(s) for webhooks.
   name: Mile Webhooks API
   slug: mile-webhooks-api
-artifact_total: 41
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Mile Webhooks
   slug: mile-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Api Documentation Aramex API
   slug: open-mile-aramex-api
@@ -196,12 +195,12 @@ common:
   type: BlogRSS
   url: https://www.milenow.com/en/feed/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/plans/mile-plans-pricing.yml
+  href: https://artifacts.apis.io/mile/plans/mile-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mile-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/capabilities/mile-capability-edges.yml
+  href: https://artifacts.apis.io/mile/capabilities/mile-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mile-capability-edges.yml
@@ -242,62 +241,70 @@ common:
   type: TermsOfService
   url: https://www.milenow.com/en/terms-and-conditions/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/authentication/mile-authentication.yml
+  href: https://artifacts.apis.io/mile/authentication/mile-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mile-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/conventions/mile-conventions.yml
+  href: https://artifacts.apis.io/mile/conventions/mile-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mile-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/lifecycle/mile-lifecycle.yml
+  href: https://artifacts.apis.io/mile/lifecycle/mile-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mile-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/asyncapi/mile-webhooks.yml
+  href: https://artifacts.apis.io/mile/asyncapi/mile-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mile-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/mcp/mile-mcp.yml
+  href: https://artifacts.apis.io/mile/mcp/mile-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/mile-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/llms/mile-llms.txt
+  href: https://artifacts.apis.io/mile/llms/mile-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mile-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/conformance/mile-conformance.yml
+  href: https://artifacts.apis.io/mile/conformance/mile-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mile-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/data-model/mile-data-model.yml
+  href: https://artifacts.apis.io/mile/data-model/mile-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mile-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/security/mile-domain-security.yml
+  href: https://artifacts.apis.io/mile/security/mile-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mile-domain-security.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/overlays/mile-partner-api-overlay.yaml
+  href: https://artifacts.apis.io/mile/overlays/mile-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mile-partner-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mile/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Mile is an AI-native supply chain execution platform for brands and distributors that own their inventory and fulfill orders directly to customers. It unifies Order Management (OMS), Warehouse Management (WMS), and Transportation / last-mile delivery (TMS) in a single system, with MAC, an AI agent that acts on exceptions rather than only flagging them. Mile exposes a partner REST API at lastmile.milenow.com covering orders, customers, products, categories and brands, promotion bundles, routes, drivers, vehicles, warehouse inbound orders, Aramex shipping, order optimization, and configurable webhooks for order-status, order-creation, settlement, and inventory-transfer events.
+finops:
+- has_sources: true
+  method: derived
+  name: Mile Finops
+  primary_unit: ''
+  service_category: ''
+  slug: mile-finops
+  template: true
 image: https://www.milenow.com/wp-content/uploads/2025/09/Mile-Logo-high-res-1024x1024.avif
 layout: provider
 modified: '2026-10-06'
@@ -315,26 +322,26 @@ plans:
 - name: Mile Plans Pricing
   plan_count: 0
   slug: mile-plans-pricing
-random_paper: 5
+random_paper: 15
 score:
-  band: developing
-  composite: 43.2
+  band: thin
+  composite: 38.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 51.9
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 43.1
+  previous_composite: 38.2
   provenance:
     conformance: derived
     contracts:
@@ -350,13 +357,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/screenshots/mile-2026-08-07T172910.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mile/mile-2026-08-07T172910.png
 security:
 - kind: authentication
   name: Mile Authentication
@@ -366,6 +374,12 @@ security:
   name: Mile Domain Security
   slug: mile-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Configure and verify order-status webhooks
+  slug: mile-configure-webhooks
+- name: Create a customer, place an order, and track it
+  slug: mile-create-and-track-order
 slug: mile
 tags:
 - Company

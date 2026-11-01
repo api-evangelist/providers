@@ -31,14 +31,16 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.7
-  scored_at: '2026-10-17'
+  score: 44.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.medtrainer.com
@@ -71,10 +73,10 @@ apis:
   description: Public practitioner lookup, search, and mutation endpoints
   name: MedTrainer Practitioners API
   slug: medtrainer-practitioners-api
-artifact_total: 13
+artifact_total: 17
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/security/medtrainer-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/medtrainer/security/medtrainer-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/medtrainer-vulnerability-disclosure.yml
@@ -135,103 +137,111 @@ common:
   type: Security
   url: https://medtrainer.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/conformance/medtrainer-conformance.yml
+  href: https://artifacts.apis.io/medtrainer/conformance/medtrainer-conformance.yml
   title: ''
   type: Compliance
   url: conformance/medtrainer-conformance.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/_original/medtrainer-public-api-openapi.json
+  href: https://artifacts.apis.io/medtrainer/openapi/_original/medtrainer-public-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/medtrainer-public-api-openapi.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/authentication/medtrainer-authentication.yml
+  href: https://artifacts.apis.io/medtrainer/authentication/medtrainer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/medtrainer-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/scopes/medtrainer-scopes.yml
+  href: https://artifacts.apis.io/medtrainer/scopes/medtrainer-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/medtrainer-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/conventions/medtrainer-conventions.yml
+  href: https://artifacts.apis.io/medtrainer/conventions/medtrainer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/medtrainer-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/errors/medtrainer-problem-types.yml
+  href: https://artifacts.apis.io/medtrainer/errors/medtrainer-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/medtrainer-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/data-model/medtrainer-data-model.yml
+  href: https://artifacts.apis.io/medtrainer/data-model/medtrainer-data-model.yml
   title: ''
   type: DataModel
   url: data-model/medtrainer-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/conformance/medtrainer-conformance.yml
+  href: https://artifacts.apis.io/medtrainer/conformance/medtrainer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/medtrainer-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/lifecycle/medtrainer-lifecycle.yml
+  href: https://artifacts.apis.io/medtrainer/lifecycle/medtrainer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/medtrainer-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/rate-limits/medtrainer-rate-limits.yml
+  href: https://artifacts.apis.io/medtrainer/rate-limits/medtrainer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/medtrainer-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/plans/medtrainer-plans-pricing.yml
+  href: https://artifacts.apis.io/medtrainer/plans/medtrainer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/medtrainer-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/overlays/medtrainer-public-api-overlay.yaml
+  href: https://artifacts.apis.io/medtrainer/overlays/medtrainer-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/medtrainer-public-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/well-known/medtrainer-well-known.yml
+  href: https://artifacts.apis.io/medtrainer/well-known/medtrainer-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/medtrainer-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/well-known/medtrainer-auth-openid-configuration.json
+  href: https://artifacts.apis.io/medtrainer/well-known/medtrainer-auth-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/medtrainer-auth-openid-configuration.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/mcp/medtrainer-mcp.yml
+  href: https://artifacts.apis.io/medtrainer/mcp/medtrainer-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/medtrainer-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/mcp/medtrainer-tool-crosswalk.yml
+  href: https://artifacts.apis.io/medtrainer/mcp/medtrainer-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/medtrainer-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/llms/medtrainer-llms.txt
+  href: https://artifacts.apis.io/medtrainer/llms/medtrainer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/medtrainer-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/medtrainer/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/security/medtrainer-domain-security.yml
+  href: https://artifacts.apis.io/medtrainer/security/medtrainer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/medtrainer-domain-security.yml
 created: '2026-08-25'
 description: 'MedTrainer is a healthcare workforce compliance software company that consolidates learning management, credentialing and provider enrollment, document and policy management, incident reporting, safety plans, contract management and exclusion/sanction monitoring into a single all-in-one platform for medical practices, ambulatory surgery centers, urgent care, behavioral health, dental groups, community health centers and long-term care organizations. The company publishes a MedTrainer Public API at api.medtrainer.com, documented with an OpenAPI 3.1 definition rendered through Redoc, that lets external integrations search and manage the core provider directory — locations, divisions, departments, positions, practitioner categories and practitioners. The API is notable for being FHIR-aligned: resource payloads use HL7 FHIR shapes and the application/fhir+json media type, searches return FHIR Bundle envelopes with FHIR search parameters (_count, _page, _elements), and every error
   is returned as a FHIR OperationOutcome. Access is customer-gated behind an API key generated from the platform Organization settings, and the wider platform authenticates against an Auth0-backed OpenID Connect provider at auth.medtrainer.com.'
+finops:
+- has_sources: true
+  method: derived
+  name: Medtrainer Finops
+  primary_unit: ''
+  service_category: ''
+  slug: medtrainer-finops
+  template: true
 image: https://medtrainer.com/wp-content/uploads/2023/04/MedTrainerLogo.svg
 layout: provider
 mcp_servers:
@@ -262,9 +272,9 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 55.9
+  composite: 55.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -276,9 +286,9 @@ score:
     contract_governance: 18.2
     contract_quality: 50.2
     developer_ergonomics: 58.9
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 10.5
-  previous_composite: 55.9
+  previous_composite: 55.6
   provenance:
     conformance: first-party
     contracts:
@@ -294,13 +304,14 @@ score:
     regime: Health
     regime_id: health
     score: 41.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/screenshots/medtrainer-2026-09-02T150458.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/medtrainer/medtrainer-2026-09-02T150458.png
 security:
 - kind: authentication
   name: Medtrainer Authentication
@@ -314,6 +325,14 @@ security:
   name: Medtrainer Vulnerability Disclosure
   slug: medtrainer-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 3
+skills:
+- name: medtrainer-manage-locations-and-divisions
+  slug: medtrainer-manage-locations-and-divisions
+- name: medtrainer-onboard-practitioner
+  slug: medtrainer-onboard-practitioner
+- name: medtrainer-sync-provider-directory
+  slug: medtrainer-sync-provider-directory
 slug: medtrainer
 tags:
 - Company

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.0
-  scored_at: '2026-10-17'
+  score: 38.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -138,15 +140,12 @@ apis:
   description: The Webhooks API from Sikoia — 6 operation(s) for webhooks.
   name: Sikoia Webhooks API
   slug: sikoia-webhooks-api
-artifact_total: 44
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Sikoia Webhooks
   slug: sikoia-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sikoia Adverse Media API
   slug: open-sikoia-adverse-media-api
@@ -205,8 +204,13 @@ collections:
   name: Sikoia Adverse Media Webhooks API
   slug: open-sikoia-webhooks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/sikoia/plans/sikoia-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sikoia-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/capabilities/sikoia-capability-edges.yml
+  href: https://artifacts.apis.io/sikoia/capabilities/sikoia-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sikoia-capability-edges.yml
@@ -259,102 +263,102 @@ common:
   type: StatusPage
   url: https://stats.uptimerobot.com/lg0E9f1r3V
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/_original/sikoia-openapi.yml
+  href: https://artifacts.apis.io/sikoia/openapi/_original/sikoia-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/sikoia-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/authentication/sikoia-authentication.yml
+  href: https://artifacts.apis.io/sikoia/authentication/sikoia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sikoia-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/errors/sikoia-problem-types.yml
+  href: https://artifacts.apis.io/sikoia/errors/sikoia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sikoia-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/conventions/sikoia-conventions.yml
+  href: https://artifacts.apis.io/sikoia/conventions/sikoia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sikoia-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/conventions/sikoia-conventions.yml
+  href: https://artifacts.apis.io/sikoia/conventions/sikoia-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/sikoia-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/rate-limits/sikoia-rate-limits.yml
+  href: https://artifacts.apis.io/sikoia/rate-limits/sikoia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sikoia-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/lifecycle/sikoia-lifecycle.yml
+  href: https://artifacts.apis.io/sikoia/lifecycle/sikoia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sikoia-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/lifecycle/sikoia-lifecycle.yml
+  href: https://artifacts.apis.io/sikoia/lifecycle/sikoia-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/sikoia-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/changelog/sikoia-changelog.yml
+  href: https://artifacts.apis.io/sikoia/changelog/sikoia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sikoia-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/sandbox/sikoia-sandbox.yml
+  href: https://artifacts.apis.io/sikoia/sandbox/sikoia-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sikoia-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/conformance/sikoia-conformance.yml
+  href: https://artifacts.apis.io/sikoia/conformance/sikoia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sikoia-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/conformance/sikoia-conformance.yml
+  href: https://artifacts.apis.io/sikoia/conformance/sikoia-conformance.yml
   title: ''
   type: Compliance
   url: conformance/sikoia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/data-model/sikoia-data-model.yml
+  href: https://artifacts.apis.io/sikoia/data-model/sikoia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sikoia-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/asyncapi/sikoia-webhooks.yml
+  href: https://artifacts.apis.io/sikoia/asyncapi/sikoia-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sikoia-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/mcp/sikoia-mcp.yml
+  href: https://artifacts.apis.io/sikoia/mcp/sikoia-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sikoia-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/llms/sikoia-llms.txt
+  href: https://artifacts.apis.io/sikoia/llms/sikoia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sikoia-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/overlays/sikoia-overlay.yaml
+  href: https://artifacts.apis.io/sikoia/overlays/sikoia-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sikoia-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sikoia/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/agentic-access/sikoia-agentic-access.yml
+  href: https://artifacts.apis.io/sikoia/agentic-access/sikoia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sikoia-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/security/sikoia-domain-security.yml
+  href: https://artifacts.apis.io/sikoia/security/sikoia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sikoia-domain-security.yml
@@ -364,6 +368,14 @@ common:
   url: https://sikoia.com
 created: '2026-07-17'
 description: Sikoia is a UK-based (FCA-authorised AISP), ISO 27001-certified customer-verification platform for financial services. Its REST API automates KYC/KYB and onboarding by grouping companies and people into cases and enriching them with company registry data, company & consumer credit reports, identity verification (IDV), open banking, document upload with classification/extraction and integrity/tampering checks, income & employer verification, affordability insights, PEPs & sanctions and adverse-media screening, plus validation/completeness checklists. The v2 API uses OAuth 2.0 client-credentials, JSON over HTTPS, HMAC-signed webhooks, and a documented rate-limit, error, and deprecation model.
+finops:
+- has_sources: true
+  method: derived
+  name: Sikoia Finops
+  primary_unit: ''
+  service_category: ''
+  slug: sikoia-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sikoia.png
 layout: provider
 modified: '2026-07-21'
@@ -376,36 +388,40 @@ overview: 'Sikoia publishes 19 API contracts indexed on the [APIs.io](https://ap
   The Sikoia catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sikoia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
-random_paper: 2
+  Sikoia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 28 more developer resources.'
+plans:
+- name: Sikoia Plans Pricing
+  plan_count: 1
+  slug: sikoia-plans-pricing
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Sikoia Rate Limits
   slug: sikoia-rate-limits
 score:
-  band: developing
-  composite: 53.1
+  band: strong
+  composite: 60.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 26
+    catalog_earned: 53.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 52.6
+    access_clarity: 73.7
     contract_governance: 18.2
-    contract_quality: 60.0
-    developer_ergonomics: 47.0
-    discoverability: 73.2
+    contract_quality: 58.9
+    developer_ergonomics: 66.1
+    discoverability: 66.1
     operational_transparency: 68.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 53.1
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -422,13 +438,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/screenshots/sikoia-2026-08-17T081855.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sikoia/sikoia-2026-08-17T081855.png
 security:
 - kind: authentication
   name: Sikoia Authentication
@@ -438,6 +455,16 @@ security:
   name: Sikoia Domain Security
   slug: sikoia-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Access company registry data
+  slug: sikoia-company-registry
+- name: Verify income & employer
+  slug: sikoia-income-employer
+- name: Set up an open banking connection
+  slug: sikoia-open-banking
+- name: Screen an entity for PEPs, sanctions and adverse media
+  slug: sikoia-screening
 slug: sikoia
 tags:
 - Company

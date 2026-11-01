@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 47.6
-  scored_at: '2026-10-17'
+  score: 44.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 0
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 242
   slug: opoint-agentic-access
   summary_line: 242 operations · 127 acting
-api_count: 2
+api_count: 1
 apis:
 - description: A search engine for filters that translates site names, URLs, countries, languages and other filter names in natural language into the ids the Opoint search API understands, and back again, designed f
   name: Opoint Suggestion Server API
@@ -160,15 +162,20 @@ apis:
   description: The watchqueries API from Opoint — 2 operation(s) for watchqueries.
   name: Opoint Watchqueries API
   slug: opoint-watchqueries-api
-artifact_total: 40
+artifact_total: 44
 common:
+- group: other
+  href: https://artifacts.apis.io/opoint/capabilities/opoint-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/opoint-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/plans/opoint-plans-pricing.yml
+  href: https://artifacts.apis.io/opoint/plans/opoint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/opoint-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/rate-limits/opoint-rate-limits.yml
+  href: https://artifacts.apis.io/opoint/rate-limits/opoint-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/opoint-rate-limits.yml
@@ -177,77 +184,77 @@ common:
   type: Support
   url: https://support.opoint.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/agentic-access/opoint-agentic-access.yml
+  href: https://artifacts.apis.io/opoint/agentic-access/opoint-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/opoint-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/rules/opoint-rules.yml
+  href: https://artifacts.apis.io/opoint/rules/opoint-rules.yml
   title: ''
   type: Spectral
   url: rules/opoint-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/json-ld/opoint-context.jsonld
+  href: https://artifacts.apis.io/opoint/json-ld/opoint-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/opoint-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/vocabulary/opoint-vocabulary.yml
+  href: https://artifacts.apis.io/opoint/vocabulary/opoint-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/opoint-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/opoint/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/data-model/opoint-data-model.yml
+  href: https://artifacts.apis.io/opoint/data-model/opoint-data-model.yml
   title: ''
   type: DataModel
   url: data-model/opoint-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/conventions/opoint-conventions.yml
+  href: https://artifacts.apis.io/opoint/conventions/opoint-conventions.yml
   title: ''
   type: Conventions
   url: conventions/opoint-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/lifecycle/opoint-lifecycle.yml
+  href: https://artifacts.apis.io/opoint/lifecycle/opoint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/opoint-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/errors/opoint-problem-types.yml
+  href: https://artifacts.apis.io/opoint/errors/opoint-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/opoint-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/conformance/opoint-conformance.yml
+  href: https://artifacts.apis.io/opoint/conformance/opoint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/opoint-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/overlays/opoint-openapi-overlay.yaml
+  href: https://artifacts.apis.io/opoint/overlays/opoint-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opoint-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/llms/opoint-llms.txt
+  href: https://artifacts.apis.io/opoint/llms/opoint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/opoint-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/well-known/opoint-well-known.yml
+  href: https://artifacts.apis.io/opoint/well-known/opoint-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/opoint-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/hosts/opoint-hosts.yml
+  href: https://artifacts.apis.io/opoint/hosts/opoint-hosts.yml
   title: ''
   type: Hosts
   url: hosts/opoint-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/vendors/opoint-vendors.yml
+  href: https://artifacts.apis.io/opoint/vendors/opoint-vendors.yml
   title: ''
   type: Vendors
   url: vendors/opoint-vendors.yml
@@ -256,12 +263,12 @@ common:
   type: StatusPage
   url: https://status.opoint.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/authentication/opoint-authentication.yml
+  href: https://artifacts.apis.io/opoint/authentication/opoint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opoint-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/security/opoint-domain-security.yml
+  href: https://artifacts.apis.io/opoint/security/opoint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opoint-domain-security.yml
@@ -335,12 +342,12 @@ overview: 'Opoint publishes 26 API contracts indexed on the [APIs.io](https://ap
   The Opoint catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Opoint''s developer surface includes support, authentication, documentation, API reference, getting-started guide, engineering blog, and 22 more developer resources.'
+  Opoint''s developer surface includes support, authentication, documentation, API reference, getting-started guide, engineering blog, and 23 more developer resources.'
 plans:
 - name: Opoint Plans Pricing
   plan_count: 0
   slug: opoint-plans-pricing
-random_paper: 5
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Opoint Rate Limits
@@ -360,21 +367,21 @@ rules:
   slug: opoint-rules
 score:
   band: developing
-  composite: 44.2
+  composite: 43.2
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 22.0
-    contract_quality: 63.4
+    contract_quality: 60.0
     developer_ergonomics: 56.5
-    discoverability: 75.0
+    discoverability: 66.1
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -384,7 +391,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 43.1
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -401,13 +408,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/screenshots/opoint-2026-10-11T112119.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/opoint/opoint-2026-10-11T112119.png
 security:
 - kind: authentication
   name: Opoint Authentication
@@ -417,6 +425,16 @@ security:
   name: Opoint Domain Security
   slug: opoint-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: consume-safefeed
+  slug: opoint-consume-safefeed
+- name: poll-a-stored-search-feed
+  slug: opoint-poll-a-stored-search-feed
+- name: search-the-archive
+  slug: opoint-search-the-archive
+- name: set-up-an-alert
+  slug: opoint-set-up-an-alert
 slug: opoint
 tags:
 - Company

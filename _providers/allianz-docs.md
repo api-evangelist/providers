@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-17'
+  score: 32.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: Operations for generating and retrieving insurance price estimates and quotes
   name: Allianz Price Estimates API
   slug: allianz-docs-price-estimates-api
-artifact_total: 85
+artifact_total: 84
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Allianz API Connect Certificates API
   slug: open-allianz-docs-certificates-api
@@ -88,32 +87,32 @@ collections:
   slug: open-allianz-docs-price-estimates-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/mcp/allianz-docs-mcp.yml
+  href: https://artifacts.apis.io/allianz-docs/mcp/allianz-docs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/allianz-docs-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/overlays/allianz-docs-allianz-api-connect-overlay.yaml
+  href: https://artifacts.apis.io/allianz-docs/overlays/allianz-docs-allianz-api-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/allianz-docs-allianz-api-connect-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/agentic-access/allianz-docs-agentic-access.yml
+  href: https://artifacts.apis.io/allianz-docs/agentic-access/allianz-docs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/allianz-docs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/security/allianz-docs-domain-security.yml
+  href: https://artifacts.apis.io/allianz-docs/security/allianz-docs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allianz-docs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/authentication/allianz-docs-authentication.yml
+  href: https://artifacts.apis.io/allianz-docs/authentication/allianz-docs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/allianz-docs-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/scopes/allianz-docs-scopes.yml
+  href: https://artifacts.apis.io/allianz-docs/scopes/allianz-docs-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/allianz-docs-scopes.yml
@@ -130,22 +129,22 @@ common:
   type: Support
   url: https://global.apis.allianz.com/contact
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/rules/allianz-docs-spectral-rules.yml
+  href: https://artifacts.apis.io/allianz-docs/rules/allianz-docs-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/allianz-docs-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/vocabulary/allianz-vocabulary.yaml
+  href: https://artifacts.apis.io/allianz-docs/vocabulary/allianz-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/allianz-vocabulary.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/well-known/allianz-docs-well-known.yml
+  href: https://artifacts.apis.io/allianz-docs/well-known/allianz-docs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/allianz-docs-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/llms/allianz-docs-llms.txt
+  href: https://artifacts.apis.io/allianz-docs/llms/allianz-docs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/allianz-docs-llms.txt
@@ -358,7 +357,7 @@ overview: 'Allianz is listed with 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Allianz''s developer surface includes authentication, support, engineering blog, and 11 more developer resources.'
-random_paper: 7
+random_paper: 17
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -390,9 +389,9 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: thin
-  composite: 31.3
+  composite: 32.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
@@ -406,7 +405,7 @@ score:
     developer_ergonomics: 57.1
     discoverability: 62.5
     operational_transparency: 5.3
-  previous_composite: 31.3
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -422,13 +421,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 29.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/screenshots/allianz-docs-2026-07-25T195659.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/allianz-docs/allianz-docs-2026-07-25T195659.png
 security:
 - kind: authentication
   name: Allianz Docs Authentication

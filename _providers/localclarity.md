@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 31.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,75 +50,75 @@ apis:
   description: LocalClarity data endpoints.
   name: LocalClarity Endpoints API
   slug: localclarity-endpoints-api
-artifact_total: 8
+artifact_total: 11
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/capabilities/localclarity-capability-edges.yml
+  href: https://artifacts.apis.io/localclarity/capabilities/localclarity-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/localclarity-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/overlays/localclarity-openapi-overlay.yaml
+  href: https://artifacts.apis.io/localclarity/overlays/localclarity-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/localclarity-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/agentic-access/localclarity-agentic-access.yml
+  href: https://artifacts.apis.io/localclarity/agentic-access/localclarity-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/localclarity-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/authentication/localclarity-authentication.yml
+  href: https://artifacts.apis.io/localclarity/authentication/localclarity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/localclarity-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/security/localclarity-domain-security.yml
+  href: https://artifacts.apis.io/localclarity/security/localclarity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/localclarity-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/conventions/localclarity-conventions.yml
+  href: https://artifacts.apis.io/localclarity/conventions/localclarity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/localclarity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/errors/localclarity-problem-types.yml
+  href: https://artifacts.apis.io/localclarity/errors/localclarity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/localclarity-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/lifecycle/localclarity-lifecycle.yml
+  href: https://artifacts.apis.io/localclarity/lifecycle/localclarity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/localclarity-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/changelog/localclarity-changelog.yml
+  href: https://artifacts.apis.io/localclarity/changelog/localclarity-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/localclarity-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/data-model/localclarity-data-model.yml
+  href: https://artifacts.apis.io/localclarity/data-model/localclarity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/localclarity-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/conformance/localclarity-conformance.yml
+  href: https://artifacts.apis.io/localclarity/conformance/localclarity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/localclarity-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/packages/localclarity-packages.yml
+  href: https://artifacts.apis.io/localclarity/packages/localclarity-packages.yml
   title: ''
   type: Packages
   url: packages/localclarity-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/llms/localclarity-llms.txt
+  href: https://artifacts.apis.io/localclarity/llms/localclarity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/localclarity-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/localclarity/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -181,17 +183,17 @@ common:
   type: X
   url: https://twitter.com/localClarity
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/plans/localclarity-plans-pricing.yml
+  href: https://artifacts.apis.io/localclarity/plans/localclarity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/localclarity-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/rate-limits/localclarity-rate-limits.yml
+  href: https://artifacts.apis.io/localclarity/rate-limits/localclarity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/localclarity-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/finops/localclarity-finops.yml
+  href: https://artifacts.apis.io/localclarity/finops/localclarity-finops.yml
   title: ''
   type: FinOps
   url: finops/localclarity-finops.yml
@@ -201,7 +203,7 @@ finops:
 - has_sources: true
   method: derived
   name: Localclarity Finops
-  primary_unit: ''
+  primary_unit: location
   service_category: ''
   slug: localclarity-finops
   template: false
@@ -225,32 +227,32 @@ overview: 'LocalClarity publishes 1 API contract indexed on the [APIs.io](https:
   LocalClarity''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 25 more developer resources.'
 plans:
 - name: Localclarity Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: localclarity-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Localclarity Rate Limits
   slug: localclarity-rate-limits
 score:
-  band: developing
-  composite: 50.3
+  band: strong
+  composite: 54.9
   coverage:
     artifact_dirs: 24
-    catalog_earned: 57.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 57.3
     developer_ergonomics: 49.4
     discoverability: 71.4
-    operational_transparency: 28.9
-  previous_composite: 51.8
+    operational_transparency: 36.8
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,13 +269,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/screenshots/localclarity-2026-06-20T184634.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/localclarity/localclarity-2026-06-20T184634.png
 security:
 - kind: authentication
   name: Localclarity Authentication
@@ -283,6 +286,14 @@ security:
   name: Localclarity Domain Security
   slug: localclarity-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: List LocalClarity profiles, accounts and locations
+  slug: localclarity-list-locations
+- name: Pull Google Business Profile performance insights
+  slug: localclarity-performance-insights
+- name: Retrieve reviews and publish a reply
+  slug: localclarity-review-and-reply
 slug: localclarity
 tags:
 - Local SEO

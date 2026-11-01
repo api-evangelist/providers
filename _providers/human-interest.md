@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,18 +35,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Partner GraphQL API for onboarding 401(k)/403(b) retirement plans, OpenID Connect single sign-on, and webhook event subscriptions.
   name: Human Interest GraphQL API
   slug: human-interest-graphql-api
-artifact_total: 6
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Human Interest Webhooks
   slug: human-interest-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/human-interest/plans/human-interest-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/human-interest-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -86,17 +93,17 @@ common:
   type: PrivacyPolicy
   url: https://humaninterest.com/privacy-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/human-interest/refs/heads/main/authentication/human-interest-authentication.yml
+  href: https://artifacts.apis.io/human-interest/authentication/human-interest-authentication.yml
   title: ''
   type: Authentication
   url: authentication/human-interest-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/human-interest/refs/heads/main/conventions/human-interest-conventions.yml
+  href: https://artifacts.apis.io/human-interest/conventions/human-interest-conventions.yml
   title: ''
   type: Conventions
   url: conventions/human-interest-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/human-interest/refs/heads/main/conformance/human-interest-conformance.yml
+  href: https://artifacts.apis.io/human-interest/conformance/human-interest-conformance.yml
   title: ''
   type: Conformance
   url: conformance/human-interest-conformance.yml
@@ -105,42 +112,50 @@ common:
   type: Compliance
   url: https://security.humaninterest.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/human-interest/refs/heads/main/lifecycle/human-interest-lifecycle.yml
+  href: https://artifacts.apis.io/human-interest/lifecycle/human-interest-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/human-interest-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/human-interest/refs/heads/main/asyncapi/human-interest-webhooks.yml
+  href: https://artifacts.apis.io/human-interest/asyncapi/human-interest-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/human-interest-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/human-interest/refs/heads/main/security/human-interest-trust-center.yml
+  href: https://artifacts.apis.io/human-interest/security/human-interest-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/human-interest-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/human-interest/refs/heads/main/security/human-interest-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/human-interest/security/human-interest-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/human-interest-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/human-interest/refs/heads/main/security/human-interest-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/human-interest/security/human-interest-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/human-interest-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/human-interest/refs/heads/main/security/human-interest-domain-security.yml
+  href: https://artifacts.apis.io/human-interest/security/human-interest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/human-interest-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/human-interest/refs/heads/main/llms/human-interest-llms.txt
+  href: https://artifacts.apis.io/human-interest/llms/human-interest-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/human-interest-llms.txt
 created: '2026-07-17'
 description: Human Interest is a fintech company providing affordable, full-service 401(k), 403(b), and IRA retirement plans built for small and medium-sized businesses. Founded to close the retirement savings gap, it combines automated plan administration, 600+ payroll integrations, and low-cost index-fund investing. For platforms and partners it publishes a GraphQL API (https://api.humaninterest.com/v1/graphql) that lets them onboard retirement plans end to end, integrate OpenID Connect single sign-on, and subscribe to webhook events, all documented at docs.humaninterest.com. Human Interest maintains a SafeBase trust center with SOC 1, SOC 2 Type 1 & 2, GLBA, and CCPA attestations plus a responsible-disclosure program.
+finops:
+- has_sources: true
+  method: derived
+  name: Human Interest Finops
+  primary_unit: base + per eligible employee
+  service_category: ''
+  slug: human-interest-finops
+  template: false
 image: https://cdn.builder.io/api/v1/image/assets%2Fe2719c23b0574124be5a7ea31e5b5e3b%2Fc050d2c9eb53497bb95bab1b377daf4a
 layout: provider
 modified: '2026-07-19'
@@ -153,27 +168,34 @@ overview: 'Human Interest is listed with 1 API on the [APIs.io](https://apis.io/
   The Human Interest catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Human Interest''s developer surface includes documentation, pricing, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 8
+  Human Interest''s developer surface includes documentation, pricing, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
+plans:
+- name: Human Interest Plans Pricing
+  plan_count: 3
+  slug: human-interest-plans-pricing
+- name: Human Interest Price Estimates
+  plan_count: 0
+  slug: human-interest-price-estimates
+random_paper: 20
 score:
-  band: developing
-  composite: 40.0
+  band: strong
+  composite: 54.8
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 13
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 19.0
-    discoverability: 73.2
+    developer_ergonomics: 57.1
+    discoverability: 66.1
     operational_transparency: 18.4
-  previous_composite: 40.0
+  previous_composite: 46.9
   provenance:
     conformance: first-party
   regulatory:
@@ -188,14 +210,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/human-interest/refs/heads/main/screenshots/human-interest-2026-07-25T221647.png
+screenshot: https://apis.io/screenshots/human-interest/human-interest-2026-07-25T221647.png
 security:
 - kind: authentication
   name: Human Interest Authentication

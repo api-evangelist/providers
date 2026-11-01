@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.2
-  scored_at: '2026-10-17'
+  score: 28.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Create support tickets.
   name: Telemetron Ticket API
   slug: telemetron-ai-ticket-api
-artifact_total: 13
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Telemetron External API (ext-v1) Customer API
   slug: open-telemetron-ai-customer-api
@@ -83,77 +82,77 @@ collections:
   slug: open-telemetron-ai-ticket-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/capabilities/telemetron-ai-capability-edges.yml
+  href: https://artifacts.apis.io/telemetron-ai/capabilities/telemetron-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/telemetron-ai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/overlays/telemetron-ai-ext-v1-overlay.yaml
+  href: https://artifacts.apis.io/telemetron-ai/overlays/telemetron-ai-ext-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/telemetron-ai-ext-v1-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/agentic-access/telemetron-ai-agentic-access.yml
+  href: https://artifacts.apis.io/telemetron-ai/agentic-access/telemetron-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/telemetron-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/security/telemetron-ai-domain-security.yml
+  href: https://artifacts.apis.io/telemetron-ai/security/telemetron-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/telemetron-ai-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/mcp/telemetron-ai-mcp.yml
+  href: https://artifacts.apis.io/telemetron-ai/mcp/telemetron-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/telemetron-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/llms/telemetron-ai-llms.txt
+  href: https://artifacts.apis.io/telemetron-ai/llms/telemetron-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/telemetron-ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/well-known/telemetron-ai-well-known.yml
+  href: https://artifacts.apis.io/telemetron-ai/well-known/telemetron-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/telemetron-ai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/authentication/telemetron-ai-authentication.yml
+  href: https://artifacts.apis.io/telemetron-ai/authentication/telemetron-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/telemetron-ai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/conventions/telemetron-ai-conventions.yml
+  href: https://artifacts.apis.io/telemetron-ai/conventions/telemetron-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/telemetron-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/conformance/telemetron-ai-conformance.yml
+  href: https://artifacts.apis.io/telemetron-ai/conformance/telemetron-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/telemetron-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/errors/telemetron-ai-problem-types.yml
+  href: https://artifacts.apis.io/telemetron-ai/errors/telemetron-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/telemetron-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/lifecycle/telemetron-ai-lifecycle.yml
+  href: https://artifacts.apis.io/telemetron-ai/lifecycle/telemetron-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/telemetron-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/components/telemetron-ai-components.yml
+  href: https://artifacts.apis.io/telemetron-ai/components/telemetron-ai-components.yml
   title: ''
   type: Components
   url: components/telemetron-ai-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/data-model/telemetron-ai-data-model.yml
+  href: https://artifacts.apis.io/telemetron-ai/data-model/telemetron-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/telemetron-ai-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/telemetron-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -216,7 +215,7 @@ overview: 'Telemetron is listed with 4 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 14
 score:
   band: thin
-  composite: 29.6
+  composite: 27.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -224,15 +223,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 58.9
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 0.0
-  previous_composite: 29.5
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,13 +248,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/screenshots/telemetron-ai-2026-08-17T082304.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/telemetron-ai/telemetron-ai-2026-08-17T082304.png
 security:
 - kind: authentication
   name: Telemetron Ai Authentication
@@ -265,6 +265,14 @@ security:
   name: Telemetron Ai Domain Security
   slug: telemetron-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Create a support ticket for a customer
+  slug: telemetron-ai-create-support-ticket
+- name: Manage device metadata at fleet scale
+  slug: telemetron-ai-manage-device-metadata
+- name: Sync customers and devices into Telemetron
+  slug: telemetron-ai-sync-customer-device-fleet
 slug: telemetron-ai
 tags:
 - Company

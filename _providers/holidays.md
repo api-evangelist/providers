@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 5
   slug: holidays-agentic-access
   summary_line: 5 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://holidayapi.com/v1
   baseurl_source: declared
@@ -78,9 +80,6 @@ collections:
   name: Holiday Countries Workdays API
   slug: postman-holidays-workdays-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Holiday Countries API
   slug: open-holidays-countries-api
 - collection_type: open
@@ -94,7 +93,7 @@ collections:
   slug: open-holidays-workdays-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/finops/holidays-finops.yml
+  href: https://artifacts.apis.io/holidays/finops/holidays-finops.yml
   title: ''
   type: FinOps
   url: finops/holidays-finops.yml
@@ -103,12 +102,12 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/holiday-api/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/agentic-access/holidays-agentic-access.yml
+  href: https://artifacts.apis.io/holidays/agentic-access/holidays-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/holidays-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/security/holidays-domain-security.yml
+  href: https://artifacts.apis.io/holidays/security/holidays-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/holidays-domain-security.yml
@@ -125,42 +124,42 @@ common:
   type: Documentation
   url: https://holidayapi.com/docs
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/openapi/_original/holidays-api-openapi.yml
+  href: https://artifacts.apis.io/holidays/openapi/_original/holidays-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/holidays-api-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/json-schema/holidays-response-schema.json
+  href: https://artifacts.apis.io/holidays/json-schema/holidays-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/holidays-response-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/json-structure/holidays-response-structure.json
+  href: https://artifacts.apis.io/holidays/json-structure/holidays-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/holidays-response-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/json-ld/holidays-context.jsonld
+  href: https://artifacts.apis.io/holidays/json-ld/holidays-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/holidays-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/rules/holidays-rules.yml
+  href: https://artifacts.apis.io/holidays/rules/holidays-rules.yml
   title: ''
   type: SpectralRules
   url: rules/holidays-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/vocabulary/holidays-vocabulary.yml
+  href: https://artifacts.apis.io/holidays/vocabulary/holidays-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/holidays-vocabulary.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/plans/holidays-plans-pricing.yml
+  href: https://artifacts.apis.io/holidays/plans/holidays-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/holidays-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/rate-limits/holidays-rate-limits.yml
+  href: https://artifacts.apis.io/holidays/rate-limits/holidays-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/holidays-rate-limits.yml
@@ -193,7 +192,7 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/examples/holidays-error-example.json
+  href: https://artifacts.apis.io/holidays/examples/holidays-error-example.json
   title: ''
   type: Examples
   url: examples/holidays-error-example.json
@@ -263,10 +262,10 @@ features:
   name: Five-Nines Uptime
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Holidays Finops
-  primary_unit: ''
-  service_category: Reference Data / Calendar
+  primary_unit: subscription
+  service_category: ''
   slug: holidays-finops
   template: false
 image: https://holidayapi.com/images/calendar.svg
@@ -330,9 +329,12 @@ overview: 'Holiday API publishes 4 API contracts indexed on the [APIs.io](https:
   Holiday API''s developer surface includes developer portal, documentation, pricing, signup flow, code examples, and 24 more developer resources.'
 plans:
 - name: Holidays Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: holidays-plans-pricing
-random_paper: 3
+- name: Holidays Price Estimates
+  plan_count: 0
+  slug: holidays-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Holidays Rate Limits
@@ -363,23 +365,23 @@ rules:
   slug: holidays-rules
 score:
   band: developing
-  composite: 40.3
+  composite: 46.2
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 71.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 44.0
+    artifact_dirs: 17
+    catalog_earned: 79.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: -0.5
   facets:
-    access_clarity: 35.5
+    access_clarity: 63.2
     contract_governance: 27.3
     contract_quality: 59.8
     developer_ergonomics: 36.9
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 47.7
+    operational_transparency: 10.5
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -393,14 +395,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/screenshots/holidays-2026-06-20T182809.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/holidays/holidays-2026-06-20T182809.png
 security:
 - kind: domain-security
   name: Holidays Domain Security

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -134,15 +136,12 @@ apis:
   description: The User Profiles API from Fairmarkit — 1 operation(s) for user profiles.
   name: Fairmarkit User Profiles API
   slug: fairmarkit-user-profiles-api
-artifact_total: 41
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Fairmarkit Webhooks
   slug: fairmarkit-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: BUYER PUBLIC Business Units API
   slug: open-fairmarkit-business-units-api
@@ -199,22 +198,22 @@ collections:
   slug: open-fairmarkit-user-profiles-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/capabilities/fairmarkit-capability-edges.yml
+  href: https://artifacts.apis.io/fairmarkit/capabilities/fairmarkit-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fairmarkit-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/overlays/fairmarkit-buyer-overlay.yaml
+  href: https://artifacts.apis.io/fairmarkit/overlays/fairmarkit-buyer-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fairmarkit-buyer-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/security/fairmarkit-domain-security.yml
+  href: https://artifacts.apis.io/fairmarkit/security/fairmarkit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fairmarkit-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/agentic-access/fairmarkit-agentic-access.yml
+  href: https://artifacts.apis.io/fairmarkit/agentic-access/fairmarkit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fairmarkit-agentic-access.yml
@@ -239,7 +238,7 @@ common:
   type: GettingStarted
   url: https://developers.fairmarkit.com/reference/getting-started-with-fairmarkit-api
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/authentication/fairmarkit-authentication.yml
+  href: https://artifacts.apis.io/fairmarkit/authentication/fairmarkit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fairmarkit-authentication.yml
@@ -272,7 +271,7 @@ common:
   type: Compliance
   url: https://www.fairmarkit.com/security-compliance
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/changelog/fairmarkit-changelog.yml
+  href: https://artifacts.apis.io/fairmarkit/changelog/fairmarkit-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fairmarkit-changelog.yml
@@ -281,52 +280,52 @@ common:
   type: ReleaseNotes
   url: https://docs.fairmarkit.com/release-notes
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/llms/fairmarkit-llms.txt
+  href: https://artifacts.apis.io/fairmarkit/llms/fairmarkit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fairmarkit-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/asyncapi/fairmarkit-webhooks.yml
+  href: https://artifacts.apis.io/fairmarkit/asyncapi/fairmarkit-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fairmarkit-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/conventions/fairmarkit-conventions.yml
+  href: https://artifacts.apis.io/fairmarkit/conventions/fairmarkit-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fairmarkit-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/errors/fairmarkit-problem-types.yml
+  href: https://artifacts.apis.io/fairmarkit/errors/fairmarkit-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fairmarkit-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/lifecycle/fairmarkit-lifecycle.yml
+  href: https://artifacts.apis.io/fairmarkit/lifecycle/fairmarkit-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fairmarkit-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/lifecycle/fairmarkit-lifecycle.yml
+  href: https://artifacts.apis.io/fairmarkit/lifecycle/fairmarkit-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/fairmarkit-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/conformance/fairmarkit-conformance.yml
+  href: https://artifacts.apis.io/fairmarkit/conformance/fairmarkit-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fairmarkit-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/data-model/fairmarkit-data-model.yml
+  href: https://artifacts.apis.io/fairmarkit/data-model/fairmarkit-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fairmarkit-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/mcp/fairmarkit-mcp.yml
+  href: https://artifacts.apis.io/fairmarkit/mcp/fairmarkit-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fairmarkit-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fairmarkit/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -348,23 +347,23 @@ overview: 'Fairmarkit publishes 18 API contracts indexed on the [APIs.io](https:
 random_paper: 10
 score:
   band: developing
-  composite: 50.2
+  composite: 46.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 4.5
-    contract_quality: 58.8
+    contract_quality: 55.4
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 44.7
-  previous_composite: 50.1
+    discoverability: 66.1
+    operational_transparency: 47.4
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -381,13 +380,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/screenshots/fairmarkit-2026-07-25T214156.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fairmarkit/fairmarkit-2026-07-25T214156.png
 security:
 - kind: authentication
   name: Fairmarkit Authentication
@@ -397,6 +397,16 @@ security:
   name: Fairmarkit Domain Security
   slug: fairmarkit-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Create and award a Fairmarkit RFQ
+  slug: fairmarkit-create-and-award-rfq
+- name: Create and submit a Fairmarkit request (v4)
+  slug: fairmarkit-create-and-submit-request
+- name: Manage Fairmarkit suppliers
+  slug: fairmarkit-manage-suppliers
+- name: Respond to a Fairmarkit buyer request (Supplier API)
+  slug: fairmarkit-supplier-respond-to-request
 slug: fairmarkit
 tags:
 - Company

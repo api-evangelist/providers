@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -274,12 +276,12 @@ apis:
 artifact_total: 57
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/agentic-access/orangelogic-agentic-access.yml
+  href: https://artifacts.apis.io/orangelogic/agentic-access/orangelogic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/orangelogic-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/rules/orangelogic-rules.yml
+  href: https://artifacts.apis.io/orangelogic/rules/orangelogic-rules.yml
   title: ''
   type: Spectral
   url: rules/orangelogic-rules.yml
@@ -288,32 +290,32 @@ common:
   type: Compliance
   url: https://www.orangelogic.com/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/errors/orangelogic-problem-types.yml
+  href: https://artifacts.apis.io/orangelogic/errors/orangelogic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/orangelogic-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/conformance/orangelogic-conformance.yml
+  href: https://artifacts.apis.io/orangelogic/conformance/orangelogic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/orangelogic-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/llms/orangelogic-llms.txt
+  href: https://artifacts.apis.io/orangelogic/llms/orangelogic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/orangelogic-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/hosts/orangelogic-hosts.yml
+  href: https://artifacts.apis.io/orangelogic/hosts/orangelogic-hosts.yml
   title: ''
   type: Hosts
   url: hosts/orangelogic-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/integrations/orangelogic-integration-edges.yml
+  href: https://artifacts.apis.io/orangelogic/integrations/orangelogic-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/orangelogic-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/vendors/orangelogic-vendors.yml
+  href: https://artifacts.apis.io/orangelogic/vendors/orangelogic-vendors.yml
   title: ''
   type: Vendors
   url: vendors/orangelogic-vendors.yml
@@ -334,12 +336,12 @@ common:
   type: Newsroom
   url: https://www.orangelogic.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/scopes/orangelogic-scopes.yml
+  href: https://artifacts.apis.io/orangelogic/scopes/orangelogic-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/orangelogic-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/authentication/orangelogic-authentication.yml
+  href: https://artifacts.apis.io/orangelogic/authentication/orangelogic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/orangelogic-authentication.yml
@@ -352,12 +354,12 @@ common:
   type: BlogRSS
   url: https://www.orangelogic.com/dam-blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/security/orangelogic-trust-center.yml
+  href: https://artifacts.apis.io/orangelogic/security/orangelogic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/orangelogic-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/security/orangelogic-domain-security.yml
+  href: https://artifacts.apis.io/orangelogic/security/orangelogic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/orangelogic-domain-security.yml
@@ -374,17 +376,17 @@ common:
   type: Documentation
   url: https://developer.orangelogic.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/plans/orangelogic-plans-pricing.yml
+  href: https://artifacts.apis.io/orangelogic/plans/orangelogic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/orangelogic-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/rate-limits/orangelogic-rate-limits.yml
+  href: https://artifacts.apis.io/orangelogic/rate-limits/orangelogic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/orangelogic-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/finops/orangelogic-finops.yml
+  href: https://artifacts.apis.io/orangelogic/finops/orangelogic-finops.yml
   title: ''
   type: FinOps
   url: finops/orangelogic-finops.yml
@@ -415,7 +417,7 @@ plans:
 - name: Orangelogic Plans Pricing
   plan_count: 1
   slug: orangelogic-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Orangelogic Rate Limits
@@ -440,7 +442,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.4
+  composite: 41.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 49.5
@@ -448,15 +450,15 @@ score:
     catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 23.0
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 43.9
-    developer_ergonomics: 26.2
-    discoverability: 80.4
+    developer_ergonomics: 31.0
+    discoverability: 73.2
     operational_transparency: 18.4
-  previous_composite: 19.4
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -472,13 +474,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/orangelogic/refs/heads/main/screenshots/orangelogic-2026-08-07T190828.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/orangelogic/orangelogic-2026-08-07T190828.png
 security:
 - kind: authentication
   name: Orangelogic Authentication

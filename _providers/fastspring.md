@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -104,15 +106,12 @@ apis:
   description: The Webhooks API from FastSpring — 1 operation(s) for webhooks.
   name: FastSpring Webhooks API
   slug: fastspring-webhooks-api
-artifact_total: 32
+artifact_total: 31
 asyncapis:
 - description: AsyncAPI 2.6 description of FastSpring's outbound webhook surface. FastSpring delivers events to a seller-configured HTTPS endpoint as HTTP POSTs with a JSON envelope of one or more events. Each reque
   name: FastSpring Webhooks
   slug: fastspring-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: FastSpring Accounts API
   slug: open-fastspring-accounts-api
@@ -154,27 +153,27 @@ collections:
   slug: open-fastspring
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/capabilities/fastspring-capability-edges.yml
+  href: https://artifacts.apis.io/fastspring/capabilities/fastspring-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/fastspring-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/agentic-access/fastspring-agentic-access.yml
+  href: https://artifacts.apis.io/fastspring/agentic-access/fastspring-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fastspring-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/security/fastspring-trust-center.yml
+  href: https://artifacts.apis.io/fastspring/security/fastspring-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fastspring-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/security/fastspring-domain-security.yml
+  href: https://artifacts.apis.io/fastspring/security/fastspring-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fastspring-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/authentication/fastspring-authentication.yml
+  href: https://artifacts.apis.io/fastspring/authentication/fastspring-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fastspring-authentication.yml
@@ -233,7 +232,7 @@ overview: 'FastSpring publishes 12 API contracts indexed on the [APIs.io](https:
 
 
   FastSpring''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 11
+random_paper: 9
 rules:
 - authorship: generated
   effective_rule_count: 34
@@ -249,7 +248,7 @@ rules:
   slug: fastspring-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 34.0
+  composite: 37.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 41.5
@@ -262,10 +261,10 @@ score:
     access_clarity: 31.6
     contract_governance: 13.6
     contract_quality: 52.8
-    developer_ergonomics: 19.0
+    developer_ergonomics: 40.5
     discoverability: 73.2
-    operational_transparency: 6.6
-  previous_composite: 34.0
+    operational_transparency: 13.2
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -279,13 +278,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/screenshots/fastspring-2026-06-20T181053.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fastspring/fastspring-2026-06-20T181053.png
 security:
 - kind: authentication
   name: Fastspring Authentication

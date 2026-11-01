@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The TTEC Holdings API provides access to platform services and data for enterprise integration and automation.
@@ -42,22 +44,22 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/teletech/refs/heads/main/plans/teletech-plans-pricing.yml
+  href: https://artifacts.apis.io/teletech/plans/teletech-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/teletech-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/teletech/refs/heads/main/rate-limits/teletech-rate-limits.yml
+  href: https://artifacts.apis.io/teletech/rate-limits/teletech-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/teletech-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/teletech/refs/heads/main/finops/teletech-finops.yml
+  href: https://artifacts.apis.io/teletech/finops/teletech-finops.yml
   title: ''
   type: FinOps
   url: finops/teletech-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teletech/refs/heads/main/security/teletech-domain-security.yml
+  href: https://artifacts.apis.io/teletech/security/teletech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teletech-domain-security.yml
@@ -97,7 +99,7 @@ plans:
 - name: Teletech Plans Pricing
   plan_count: 1
   slug: teletech-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Teletech Rate Limits
@@ -112,7 +114,7 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -120,21 +122,21 @@ score:
     developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 5.3
-  previous_composite: 10.0
+  previous_composite: 8.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/teletech/refs/heads/main/screenshots/teletech-2026-06-20T195045.png
+screenshot: https://apis.io/screenshots/teletech/teletech-2026-06-20T195045.png
 security:
 - kind: domain-security
   name: Teletech Domain Security

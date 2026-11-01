@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: Time-off (leave) requests and types.
   name: Freshteam Time-off API
   slug: freshteam-time-off-api
-artifact_total: 17
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Freshteam Applicants API
   slug: open-freshteam-applicants-api
@@ -94,17 +93,17 @@ collections:
   slug: open-freshteam
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/capabilities/freshteam-capability-edges.yml
+  href: https://artifacts.apis.io/freshteam/capabilities/freshteam-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/freshteam-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/agentic-access/freshteam-agentic-access.yml
+  href: https://artifacts.apis.io/freshteam/agentic-access/freshteam-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/freshteam-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/authentication/freshteam-authentication.yml
+  href: https://artifacts.apis.io/freshteam/authentication/freshteam-authentication.yml
   title: ''
   type: Authentication
   url: authentication/freshteam-authentication.yml
@@ -121,17 +120,17 @@ common:
   type: Documentation
   url: https://developers.freshteam.com/api/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/plans/freshteam-plans-pricing.yml
+  href: https://artifacts.apis.io/freshteam/plans/freshteam-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/freshteam-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/rate-limits/freshteam-rate-limits.yml
+  href: https://artifacts.apis.io/freshteam/rate-limits/freshteam-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/freshteam-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/finops/freshteam-finops.yml
+  href: https://artifacts.apis.io/freshteam/finops/freshteam-finops.yml
   title: ''
   type: FinOps
   url: finops/freshteam-finops.yml
@@ -159,22 +158,22 @@ plans:
 - name: Freshteam Plans Pricing
   plan_count: 4
   slug: freshteam-plans-pricing
-random_paper: 13
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Freshteam Rate Limits
   slug: freshteam-rate-limits
 score:
   band: emerging
-  composite: 24.2
+  composite: 24.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -182,7 +181,7 @@ score:
     developer_ergonomics: 29.8
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 32.5
+  previous_composite: 24.9
   provenance:
     agentic_access: derived
     contracts:
@@ -196,13 +195,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/screenshots/freshteam-2026-07-25T215212.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/freshteam/freshteam-2026-07-25T215212.png
 security:
 - kind: authentication
   name: Freshteam Authentication

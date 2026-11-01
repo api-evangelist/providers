@@ -12,7 +12,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -26,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.3
-  scored_at: '2026-10-17'
+  score: 35.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,15 +61,12 @@ apis:
   description: The Polygon API from Allium — 1 operation(s) for polygon.
   name: Allium Polygon API
   slug: allium-polygon-api
-artifact_total: 13
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Allium Webhooks
   slug: allium-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Allium Explorer API
   slug: open-allium-explorer-api
@@ -79,12 +77,22 @@ collections:
   name: Allium Explorer Polygon API
   slug: open-allium-polygon-api
 common:
+- group: other
+  href: https://artifacts.apis.io/allium/capabilities/allium-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/allium-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/allium/plans/allium-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/allium-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://alliumresearch.substack.com/feed
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/security/allium-trust-center.yml
+  href: https://artifacts.apis.io/allium/security/allium-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/allium-trust-center.yml
@@ -145,87 +153,95 @@ common:
   type: Compliance
   url: https://trust.allium.so/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/_original/allium-openapi-original.json
+  href: https://artifacts.apis.io/allium/openapi/_original/allium-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/allium-openapi-original.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/llms/allium-llms.txt
+  href: https://artifacts.apis.io/allium/llms/allium-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/allium-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/mcp/allium-mcp.yml
+  href: https://artifacts.apis.io/allium/mcp/allium-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/allium-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/allium/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/packages/allium-packages.yml
+  href: https://artifacts.apis.io/allium/packages/allium-packages.yml
   title: ''
   type: Packages
   url: packages/allium-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/authentication/allium-authentication.yml
+  href: https://artifacts.apis.io/allium/authentication/allium-authentication.yml
   title: ''
   type: Authentication
   url: authentication/allium-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/conformance/allium-conformance.yml
+  href: https://artifacts.apis.io/allium/conformance/allium-conformance.yml
   title: ''
   type: Conformance
   url: conformance/allium-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/security/allium-domain-security.yml
+  href: https://artifacts.apis.io/allium/security/allium-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allium-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/errors/allium-problem-types.yml
+  href: https://artifacts.apis.io/allium/errors/allium-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/allium-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/conventions/allium-conventions.yml
+  href: https://artifacts.apis.io/allium/conventions/allium-conventions.yml
   title: ''
   type: Conventions
   url: conventions/allium-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/lifecycle/allium-lifecycle.yml
+  href: https://artifacts.apis.io/allium/lifecycle/allium-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/allium-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/data-model/allium-data-model.yml
+  href: https://artifacts.apis.io/allium/data-model/allium-data-model.yml
   title: ''
   type: DataModel
   url: data-model/allium-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/overlays/allium-openapi-overlay.yaml
+  href: https://artifacts.apis.io/allium/overlays/allium-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/allium-openapi-overlay.yaml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/changelog/allium-changelog.yml
+  href: https://artifacts.apis.io/allium/changelog/allium-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/allium-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/agentic-access/allium-agentic-access.yml
+  href: https://artifacts.apis.io/allium/agentic-access/allium-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/allium-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/asyncapi/allium-webhooks.yml
+  href: https://artifacts.apis.io/allium/asyncapi/allium-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/allium-webhooks.yml
 created: '2026-07-17'
 description: 'Allium is an enterprise blockchain data platform that transforms raw on-chain data from 150+ blockchains into verified, decision-grade intelligence for institutional finance. It indexes and decodes activity across 10,000+ protocols and exposes it through Realtime REST APIs (sub-second wallet balances, holdings, PnL, DeFi positions, NFTs, DEX trades and Hyperliquid data), Datastreams (Kafka/Pub-Sub/SNS/websocket event feeds), Beam custom pipelines, the Explorer/Datashares historical layer, and Allium Terminal for research. It also ships an AI layer: a hosted MCP server, packaged Agent Skills, and x402 machine-payment endpoints. Customers include Visa, Grayscale, Phantom, MetaMask, MoonPay and the Federal Reserve. Backed by Amplify Partners, Kleiner Perkins and Theory Ventures.'
+finops:
+- has_sources: true
+  method: derived
+  name: Allium Finops
+  primary_unit: call
+  service_category: ''
+  slug: allium-finops
+  template: false
 image: https://www.allium.so/favicon.ico
 layout: provider
 mcp_servers:
@@ -242,27 +258,31 @@ overview: 'Allium publishes 3 API contracts indexed on the [APIs.io](https://api
   The Allium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Allium''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, pricing, and 25 more developer resources.'
-random_paper: 6
+  Allium''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, pricing, and 27 more developer resources.'
+plans:
+- name: Allium Plans Pricing
+  plan_count: 8
+  slug: allium-plans-pricing
+random_paper: 20
 score:
-  band: developing
-  composite: 53.0
+  band: strong
+  composite: 60.6
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 51.5
     developer_ergonomics: 64.3
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 39.5
-  previous_composite: 53.0
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -279,13 +299,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/screenshots/allium-2026-07-25T195712.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/allium/allium-2026-07-25T195712.png
 security:
 - kind: authentication
   name: Allium Authentication
@@ -299,6 +320,10 @@ security:
   name: Allium Trust Center
   slug: allium-trust-center
   summary_line: SOC 1 Type 1, SOC 1 Type 2, SOC 2 Type 1, SOC 2 Type 2
+skill_count: 1
+skills:
+- name: Run an Allium Explorer query and fetch results
+  slug: allium-run-explorer-query
 slug: allium
 tags:
 - Company

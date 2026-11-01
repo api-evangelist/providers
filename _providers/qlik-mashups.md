@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: JavaScript APIs for building mashups and custom visualizations in Qlik Sense.
@@ -54,27 +56,27 @@ apis:
 artifact_total: 10
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qlik-mashups/refs/heads/main/plans/qlik-mashups-plans-pricing.yml
+  href: https://artifacts.apis.io/qlik-mashups/plans/qlik-mashups-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qlik-mashups-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qlik-mashups/refs/heads/main/rate-limits/qlik-mashups-rate-limits.yml
+  href: https://artifacts.apis.io/qlik-mashups/rate-limits/qlik-mashups-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qlik-mashups-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qlik-mashups/refs/heads/main/finops/qlik-mashups-finops.yml
+  href: https://artifacts.apis.io/qlik-mashups/finops/qlik-mashups-finops.yml
   title: ''
   type: FinOps
   url: finops/qlik-mashups-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qlik-mashups/refs/heads/main/security/qlik-mashups-trust-center.yml
+  href: https://artifacts.apis.io/qlik-mashups/security/qlik-mashups-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/qlik-mashups-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qlik-mashups/refs/heads/main/security/qlik-mashups-domain-security.yml
+  href: https://artifacts.apis.io/qlik-mashups/security/qlik-mashups-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qlik-mashups-domain-security.yml
@@ -100,7 +102,7 @@ finops:
 - has_sources: false
   method: generated
   name: Qlik Mashups Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: qlik-mashups-finops
   template: true
@@ -118,14 +120,14 @@ plans:
 - name: Qlik Mashups Plans Pricing
   plan_count: 3
   slug: qlik-mashups-plans-pricing
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Qlik Mashups Rate Limits
   slug: qlik-mashups-rate-limits
 score:
   band: emerging
-  composite: 14.4
+  composite: 14.8
   coverage:
     artifact_dirs: 6
     catalog_earned: 36.0
@@ -133,29 +135,29 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 26.2
     discoverability: 53.6
     operational_transparency: 13.2
-  previous_composite: 15.9
+  previous_composite: 14.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/qlik-mashups/refs/heads/main/screenshots/qlik-mashups-2026-06-20T192342.png
+screenshot: https://apis.io/screenshots/qlik-mashups/qlik-mashups-2026-06-20T192342.png
 security:
 - kind: domain-security
   name: Qlik Mashups Domain Security

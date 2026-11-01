@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: SOAP web services (DataService, ReadDataService, FileService, FileStreamService, InstanceService) to automate workflows by managing courses, content, files and assessments on an itslearning site. Used
@@ -48,14 +50,19 @@ apis:
 - description: Learning Tools Interoperability integration supporting LTI 1.3 Core and LTI Advantage (itslearning holds LTI Advantage Complete certification) to securely embed third-party tools and contribute conten
   name: itslearning LTI Integration
   slug: itslearning-lti-integration
-artifact_total: 7
+artifact_total: 9
 common:
+- group: commercial
+  href: https://artifacts.apis.io/itslearning/plans/itslearning-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/itslearning-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://itslearning.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/security/itslearning-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/itslearning/security/itslearning-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/itslearning-vulnerability-disclosure.yml
@@ -64,27 +71,27 @@ common:
   type: Security
   url: https://itslearning.com/privacy-commitment/responsible-disclosure/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/security/itslearning-domain-security.yml
+  href: https://artifacts.apis.io/itslearning/security/itslearning-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/itslearning-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/well-known/itslearning-security.txt
+  href: https://artifacts.apis.io/itslearning/well-known/itslearning-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/itslearning-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/well-known/itslearning-well-known.yml
+  href: https://artifacts.apis.io/itslearning/well-known/itslearning-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/itslearning-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/authentication/itslearning-authentication.yml
+  href: https://artifacts.apis.io/itslearning/authentication/itslearning-authentication.yml
   title: ''
   type: Authentication
   url: authentication/itslearning-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/conformance/itslearning-conformance.yml
+  href: https://artifacts.apis.io/itslearning/conformance/itslearning-conformance.yml
   title: ''
   type: Conformance
   url: conformance/itslearning-conformance.yml
@@ -93,7 +100,7 @@ common:
   type: Compliance
   url: https://itslearning.com/privacy-commitment/gdpr
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/lifecycle/itslearning-lifecycle.yml
+  href: https://artifacts.apis.io/itslearning/lifecycle/itslearning-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/itslearning-lifecycle.yml
@@ -102,7 +109,7 @@ common:
   type: Deprecation
   url: https://developer.itslearning.com/Content-and-tool-integrations.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/llms/itslearning-llms.txt
+  href: https://artifacts.apis.io/itslearning/llms/itslearning-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/itslearning-llms.txt
@@ -164,6 +171,14 @@ common:
   url: https://itslearning.com/product-updates
 created: '2026-07-17'
 description: itslearning is a Norwegian learning management system (LMS) founded in 1999 and headquartered in Bergen, Norway, now part of the Sanoma Learning group. Its cloud platform serves primary, secondary, vocational, higher education, lifelong-learning and international schools across Europe and beyond, giving teachers lesson planning ("Plans"), assessment and quizzing, communication, an AI Toolkit, administration and reporting in one place. For integrators itslearning exposes an Organisation API (SOAP web services for courses, content, files and assessments), a Data Warehouse OData reporting API, IMS Enterprise Services and SFTP imports for user/course provisioning, and standards-based Learning Tools Interoperability (LTI 1.3 Core and LTI Advantage, with LTI 1.0/1.1 deprecated since June 2022) for third-party tool and content integration into the itslearning Library.
+finops:
+- has_sources: true
+  method: derived
+  name: Itslearning Finops
+  primary_unit: ''
+  service_category: ''
+  slug: itslearning-finops
+  template: true
 image: https://itslearning.com/favicon.ico
 layout: provider
 modified: '2026-10-06'
@@ -173,25 +188,29 @@ network: true
 overview: 'itslearning is listed with 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Education, EdTech, and LMS.
 
 
-  itslearning''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 18
+  itslearning''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
+plans:
+- name: Itslearning Plans Pricing
+  plan_count: 0
+  slug: itslearning-plans-pricing
+random_paper: 8
 score:
-  band: developing
-  composite: 40.7
+  band: thin
+  composite: 38.6
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 13
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 5.3
+    contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -201,7 +220,7 @@ score:
     regions:
     - europe
     - nordics
-  previous_composite: 40.6
+  previous_composite: 38.6
   provenance:
     conformance: first-party
   regulatory:
@@ -214,14 +233,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/itslearning/refs/heads/main/screenshots/itslearning-2026-07-25T223009.png
+screenshot: https://apis.io/screenshots/itslearning/itslearning-2026-07-25T223009.png
 security:
 - kind: authentication
   name: Itslearning Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Transport Canada's only first-party public REST API. Returns safety-related recall records for vehicles, tires and child restraints recorded by the Defect Investigations and Recalls Division. The serv
@@ -53,52 +55,52 @@ common:
   type: BlogRSS
   url: https://tc.canada.ca/en/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/transport-canada/refs/heads/main/security/transport-canada-domain-security.yml
+  href: https://artifacts.apis.io/transport-canada/security/transport-canada-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/transport-canada-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/transport-canada/refs/heads/main/authentication/transport-canada-authentication.yml
+  href: https://artifacts.apis.io/transport-canada/authentication/transport-canada-authentication.yml
   title: ''
   type: Authentication
   url: authentication/transport-canada-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/transport-canada/refs/heads/main/conventions/transport-canada-conventions.yml
+  href: https://artifacts.apis.io/transport-canada/conventions/transport-canada-conventions.yml
   title: ''
   type: Conventions
   url: conventions/transport-canada-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/transport-canada/refs/heads/main/errors/transport-canada-problem-types.yml
+  href: https://artifacts.apis.io/transport-canada/errors/transport-canada-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/transport-canada-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/transport-canada/refs/heads/main/lifecycle/transport-canada-lifecycle.yml
+  href: https://artifacts.apis.io/transport-canada/lifecycle/transport-canada-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/transport-canada-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/transport-canada/refs/heads/main/conformance/transport-canada-conformance.yml
+  href: https://artifacts.apis.io/transport-canada/conformance/transport-canada-conformance.yml
   title: ''
   type: Conformance
   url: conformance/transport-canada-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/transport-canada/refs/heads/main/data-model/transport-canada-data-model.yml
+  href: https://artifacts.apis.io/transport-canada/data-model/transport-canada-data-model.yml
   title: ''
   type: DataModel
   url: data-model/transport-canada-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/transport-canada/refs/heads/main/packages/transport-canada-packages.yml
+  href: https://artifacts.apis.io/transport-canada/packages/transport-canada-packages.yml
   title: ''
   type: Packages
   url: packages/transport-canada-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/transport-canada/refs/heads/main/well-known/transport-canada-well-known.yml
+  href: https://artifacts.apis.io/transport-canada/well-known/transport-canada-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/transport-canada-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/transport-canada/refs/heads/main/llms/transport-canada-llms.txt
+  href: https://artifacts.apis.io/transport-canada/llms/transport-canada-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/transport-canada-llms.txt
@@ -183,10 +185,10 @@ overview: 'Transport Canada is listed with 3 APIs on the [APIs.io](https://apis.
 
 
   Transport Canada''s developer surface includes authentication, documentation, support, product news, and 24 more developer resources.'
-random_paper: 0
+random_paper: 18
 score:
   band: emerging
-  composite: 22.0
+  composite: 21.1
   coverage:
     artifact_dirs: 14
     catalog_earned: 40.0
@@ -198,10 +200,10 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 5.3
+    contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 72.3
-    operational_transparency: 2.6
+    discoverability: 73.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -209,7 +211,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 22.0
+  previous_composite: 21.1
   provenance:
     conformance: derived
   regulatory:
@@ -218,14 +220,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/transport-canada/refs/heads/main/screenshots/transport-canada-2026-09-02T164136.png
+screenshot: https://apis.io/screenshots/transport-canada/transport-canada-2026-09-02T164136.png
 security:
 - kind: authentication
   name: Transport Canada Authentication

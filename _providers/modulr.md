@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.7
-  scored_at: '2026-10-17'
+  score: 43.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 138
   human_in_the_loop: 4
@@ -176,7 +178,7 @@ apis:
   description: The Verification of Payee API from Modulr — 1 operation(s) for verification of payee.
   name: Modulr Verification of Payee API
   slug: modulr-verification-of-payee-api
-artifact_total: 35
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Modulr Webhooks
@@ -195,27 +197,27 @@ common:
   type: BlogRSS
   url: https://www.modulrfinance.com/newsroom/rss.xml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/plans/modulr-plans-pricing.yml
+  href: https://artifacts.apis.io/modulr/plans/modulr-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/modulr-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/capabilities/modulr-capability-edges.yml
+  href: https://artifacts.apis.io/modulr/capabilities/modulr-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/modulr-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/agentic-access/modulr-agentic-access.yml
+  href: https://artifacts.apis.io/modulr/agentic-access/modulr-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/modulr-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/security/modulr-domain-security.yml
+  href: https://artifacts.apis.io/modulr/security/modulr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/modulr-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/authentication/modulr-authentication.yml
+  href: https://artifacts.apis.io/modulr/authentication/modulr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/modulr-authentication.yml
@@ -244,7 +246,7 @@ common:
   type: Authentication
   url: https://modulr.readme.io/docs/authentication
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/_original/modulr-api.json
+  href: https://artifacts.apis.io/modulr/openapi/_original/modulr-api.json
   title: ''
   type: OpenAPI
   url: openapi/_original/modulr-api.json
@@ -281,98 +283,106 @@ common:
   type: PrivacyPolicy
   url: https://www.modulrfinance.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/llms/modulr-llms.txt
+  href: https://artifacts.apis.io/modulr/llms/modulr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/modulr-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/mcp/modulr-mcp.yml
+  href: https://artifacts.apis.io/modulr/mcp/modulr-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/modulr-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/mcp/modulr-tool-crosswalk.yml
+  href: https://artifacts.apis.io/modulr/mcp/modulr-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/modulr-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/packages/modulr-packages.yml
+  href: https://artifacts.apis.io/modulr/packages/modulr-packages.yml
   title: ''
   type: Packages
   url: packages/modulr-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/packages/modulr-packages.yml
+  href: https://artifacts.apis.io/modulr/packages/modulr-packages.yml
   title: ''
   type: SDKs
   url: packages/modulr-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/conventions/modulr-conventions.yml
+  href: https://artifacts.apis.io/modulr/conventions/modulr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/modulr-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/conventions/modulr-conventions.yml
+  href: https://artifacts.apis.io/modulr/conventions/modulr-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/modulr-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/errors/modulr-problem-types.yml
+  href: https://artifacts.apis.io/modulr/errors/modulr-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/modulr-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/errors/modulr-decline-codes.yml
+  href: https://artifacts.apis.io/modulr/errors/modulr-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/modulr-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/lifecycle/modulr-lifecycle.yml
+  href: https://artifacts.apis.io/modulr/lifecycle/modulr-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/modulr-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/sandbox/modulr-sandbox.yml
+  href: https://artifacts.apis.io/modulr/sandbox/modulr-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/modulr-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/changelog/modulr-changelog.yml
+  href: https://artifacts.apis.io/modulr/changelog/modulr-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/modulr-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/conformance/modulr-conformance.yml
+  href: https://artifacts.apis.io/modulr/conformance/modulr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/modulr-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/asyncapi/modulr-webhooks.yml
+  href: https://artifacts.apis.io/modulr/asyncapi/modulr-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/modulr-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/rate-limits/modulr-rate-limits.yml
+  href: https://artifacts.apis.io/modulr/rate-limits/modulr-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/modulr-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/modulr/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/overlays/modulr-api-overlay.yaml
+  href: https://artifacts.apis.io/modulr/overlays/modulr-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/modulr-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/data-model/modulr-data-model.yml
+  href: https://artifacts.apis.io/modulr/data-model/modulr-data-model.yml
   title: ''
   type: DataModel
   url: data-model/modulr-data-model.yml
 created: '2026-07-24'
 description: 'Modulr is a United Kingdom-based embedded payments and Banking-as-a-Service platform that lets businesses and software platforms open programmable eMoney accounts and move money automatically via a single API. As a licensed e-money institution and direct participant in the UK Faster Payments and Bacs schemes (with SEPA reach in the EU through its Dutch entity), Modulr provides the underlying accounts, payment rails, card issuing, and Open Banking connectivity that fintechs, payroll providers, lenders, marketplaces, and travel and accounting platforms embed into their own products. Its REST API covers account creation, inbound and outbound payments (including bulk, batch, future-dated and SWIFT international), virtual and physical card issuing, Bacs Direct Debit collection, KYC/KYB customer onboarding, Confirmation of Payee and Verification of Payee, Payment Initiation Services and Variable Recurring Payments under Open Banking, plus a rich webhook notification layer. Modulr
   is API-native: it publishes a genuine public developer portal on ReadMe with reference docs and a downloadable OpenAPI 3.1 definition, and offers a self-serve sandbox.'
+finops:
+- has_sources: true
+  method: derived
+  name: Modulr Finops
+  primary_unit: payment
+  service_category: ''
+  slug: modulr-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
@@ -397,29 +407,29 @@ plans:
 - name: Modulr Price Estimates
   plan_count: 0
   slug: modulr-price-estimates
-random_paper: 21
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Modulr Rate Limits
   slug: modulr-rate-limits
 score:
-  band: developing
-  composite: 53.9
+  band: strong
+  composite: 58.2
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 57.0
+    artifact_dirs: 27
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 57.5
-    developer_ergonomics: 48.2
-    discoverability: 75.0
-    operational_transparency: 55.3
+    developer_ergonomics: 73.2
+    discoverability: 65.0
+    operational_transparency: 65.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -428,7 +438,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 53.9
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -445,13 +455,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/screenshots/modulr-2026-08-07T184038.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/modulr/modulr-2026-08-07T184038.png
 security:
 - kind: authentication
   name: Modulr Authentication
@@ -461,6 +472,18 @@ security:
   name: Modulr Domain Security
   slug: modulr-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Collect via Bacs Direct Debit
+  slug: modulr-direct-debit-collection
+- name: Issue and manage a card
+  slug: modulr-issue-card
+- name: Onboard a customer and make a payment
+  slug: modulr-onboard-and-pay
+- name: Verify a payee (CoP / VoP)
+  slug: modulr-verify-payee
+- name: Set up and execute a Variable Recurring Payment
+  slug: modulr-vrp-payment
 slug: modulr
 tags:
 - Payments

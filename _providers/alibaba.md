@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Alibaba Cloud provides a comprehensive API ecosystem covering all major cloud services including Elastic Compute Service (ECS), Object Storage Service (OSS), Container Service for Kubernetes (ACK), Re
@@ -49,32 +51,32 @@ common:
   type: StatusPage
   url: https://status.alibabacloud.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/overlays/alibaba-openapi-overlay.yml
+  href: https://artifacts.apis.io/alibaba/overlays/alibaba-openapi-overlay.yml
   title: ''
   type: Overlay
   url: overlays/alibaba-openapi-overlay.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/mcp/alibaba-tool-crosswalk.yml
+  href: https://artifacts.apis.io/alibaba/mcp/alibaba-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/alibaba-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/hosts/alibaba-hosts.yml
+  href: https://artifacts.apis.io/alibaba/hosts/alibaba-hosts.yml
   title: ''
   type: Hosts
   url: hosts/alibaba-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/vendors/alibaba-vendors.yml
+  href: https://artifacts.apis.io/alibaba/vendors/alibaba-vendors.yml
   title: ''
   type: Vendors
   url: vendors/alibaba-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/packages/alibaba-packages.yml
+  href: https://artifacts.apis.io/alibaba/packages/alibaba-packages.yml
   title: ''
   type: SDKs
   url: packages/alibaba-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/security/alibaba-domain-security.yml
+  href: https://artifacts.apis.io/alibaba/security/alibaba-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alibaba-domain-security.yml
@@ -123,27 +125,27 @@ common:
   type: Blog
   url: https://www.alizila.com/feed/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/packages/alibaba-packages.yml
+  href: https://artifacts.apis.io/alibaba/packages/alibaba-packages.yml
   title: ''
   type: Packages
   url: packages/alibaba-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/well-known/alibaba-well-known.yml
+  href: https://artifacts.apis.io/alibaba/well-known/alibaba-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alibaba-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/mcp/alibaba-mcp.yml
+  href: https://artifacts.apis.io/alibaba/mcp/alibaba-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/alibaba-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/conformance/alibaba-conformance.yml
+  href: https://artifacts.apis.io/alibaba/conformance/alibaba-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alibaba-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/lifecycle/alibaba-lifecycle.yml
+  href: https://artifacts.apis.io/alibaba/lifecycle/alibaba-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alibaba-lifecycle.yml
@@ -169,10 +171,10 @@ overview: 'Alibaba is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Alibaba''s developer surface includes documentation, developer portal, GitHub presence, SDKs, signup flow, pricing, engineering blog, and 16 more developer resources.'
-random_paper: 18
+random_paper: 4
 score:
   band: emerging
-  composite: 19.9
+  composite: 21.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -180,20 +182,20 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 71.7
+    developer_ergonomics: 28.6
+    discoverability: 65.0
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 19.8
+  previous_composite: 21.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -203,14 +205,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/screenshots/alibaba-2026-07-25T195614.png
+screenshot: https://apis.io/screenshots/alibaba/alibaba-2026-07-25T195614.png
 security:
 - kind: domain-security
   name: Alibaba Domain Security

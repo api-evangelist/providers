@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,27 +59,27 @@ common:
   type: PrivacyPolicy
   url: https://noda.ai/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noda/refs/heads/main/llms/noda-llms.txt
+  href: https://artifacts.apis.io/noda/llms/noda-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/noda-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noda/refs/heads/main/security/noda-domain-security.yml
+  href: https://artifacts.apis.io/noda/security/noda-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/noda-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noda/refs/heads/main/conformance/noda-conformance.yml
+  href: https://artifacts.apis.io/noda/conformance/noda-conformance.yml
   title: ''
   type: Conformance
   url: conformance/noda-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noda/refs/heads/main/conformance/noda-conformance.yml
+  href: https://artifacts.apis.io/noda/conformance/noda-conformance.yml
   title: ''
   type: Compliance
   url: conformance/noda-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noda/refs/heads/main/lifecycle/noda-lifecycle.yml
+  href: https://artifacts.apis.io/noda/lifecycle/noda-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/noda-lifecycle.yml
@@ -93,10 +95,10 @@ overview: 'Noda is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Noda''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 0
+random_paper: 10
 score:
   band: emerging
-  composite: 16.3
+  composite: 16.9
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -106,13 +108,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 16.3
+  previous_composite: 16.9
   provenance:
     conformance: first-party
   regulatory:
@@ -121,14 +123,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/noda/refs/heads/main/screenshots/noda-2026-08-07T185414.png
+screenshot: https://apis.io/screenshots/noda/noda-2026-08-07T185414.png
 security:
 - kind: domain-security
   name: Noda Domain Security

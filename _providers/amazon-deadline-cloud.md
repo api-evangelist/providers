@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 34.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -70,7 +72,92 @@ apis:
   description: Operations for managing farm workers
   name: Amazon Deadline Cloud Workers API
   slug: amazon-deadline-cloud-workers-api
-artifact_total: 82
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Budgets API from Amazon Deadline Cloud — 2 operation(s) for deadline cloud budgets.
+  name: Amazon Deadline Cloud Deadline Cloud Budgets API
+  slug: amazon-deadline-cloud-budgets-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Environments API from Amazon Deadline Cloud — 2 operation(s) for deadline cloud environments.
+  name: Amazon Deadline Cloud Deadline Cloud Environments API
+  slug: amazon-deadline-cloud-environments-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud License Endpoints API from Amazon Deadline Cloud — 2 operation(s) for deadline cloud license endpoints.
+  name: Amazon Deadline Cloud Deadline Cloud License Endpoints API
+  slug: amazon-deadline-cloud-license-endpoints-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Limits API from Amazon Deadline Cloud — 2 operation(s) for deadline cloud limits.
+  name: Amazon Deadline Cloud Deadline Cloud Limits API
+  slug: amazon-deadline-cloud-limits-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Members API from Amazon Deadline Cloud — 8 operation(s) for deadline cloud members.
+  name: Amazon Deadline Cloud Deadline Cloud Members API
+  slug: amazon-deadline-cloud-members-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Metered Products API from Amazon Deadline Cloud — 3 operation(s) for deadline cloud metered products.
+  name: Amazon Deadline Cloud Deadline Cloud Metered Products API
+  slug: amazon-deadline-cloud-metered-products-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Monitors API from Amazon Deadline Cloud — 2 operation(s) for deadline cloud monitors.
+  name: Amazon Deadline Cloud Deadline Cloud Monitors API
+  slug: amazon-deadline-cloud-monitors-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Operations API from Amazon Deadline Cloud — 24 operation(s) for deadline cloud operations.
+  name: Amazon Deadline Cloud Deadline Cloud Operations API
+  slug: amazon-deadline-cloud-operations-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Queue Fleet Associations API from Amazon Deadline Cloud — 2 operation(s) for deadline cloud queue fleet associations.
+  name: Amazon Deadline Cloud Deadline Cloud Queue Fleet Associations API
+  slug: amazon-deadline-cloud-queue-fleet-associations-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Queue Limit Associations API from Amazon Deadline Cloud — 2 operation(s) for deadline cloud queue limit associations.
+  name: Amazon Deadline Cloud Deadline Cloud Queue Limit Associations API
+  slug: amazon-deadline-cloud-queue-limit-associations-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Search API from Amazon Deadline Cloud — 4 operation(s) for deadline cloud search.
+  name: Amazon Deadline Cloud Deadline Cloud Search API
+  slug: amazon-deadline-cloud-search-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Sessions API from Amazon Deadline Cloud — 3 operation(s) for deadline cloud sessions.
+  name: Amazon Deadline Cloud Deadline Cloud Sessions API
+  slug: amazon-deadline-cloud-sessions-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Steps API from Amazon Deadline Cloud — 2 operation(s) for deadline cloud steps.
+  name: Amazon Deadline Cloud Deadline Cloud Steps API
+  slug: amazon-deadline-cloud-steps-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Storage Profiles API from Amazon Deadline Cloud — 4 operation(s) for deadline cloud storage profiles.
+  name: Amazon Deadline Cloud Deadline Cloud Storage Profiles API
+  slug: amazon-deadline-cloud-storage-profiles-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Tags API from Amazon Deadline Cloud — 1 operation(s) for deadline cloud tags.
+  name: Amazon Deadline Cloud Deadline Cloud Tags API
+  slug: amazon-deadline-cloud-tags-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Tasks API from Amazon Deadline Cloud — 2 operation(s) for deadline cloud tasks.
+  name: Amazon Deadline Cloud Deadline Cloud Tasks API
+  slug: amazon-deadline-cloud-tasks-api
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: The Deadline Cloud Volumes API from Amazon Deadline Cloud — 2 operation(s) for deadline cloud volumes.
+  name: Amazon Deadline Cloud Deadline Cloud Volumes API
+  slug: amazon-deadline-cloud-volumes-api
+artifact_total: 98
 collections:
 - collection_type: postman
   name: Amazon Deadline Cloud Farms API
@@ -87,9 +174,6 @@ collections:
 - collection_type: postman
   name: Amazon Deadline Cloud Farms Workers API
   slug: postman-amazon-deadline-cloud-workers-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Deadline Cloud Farms API
   slug: open-amazon-deadline-cloud-farms-api
@@ -110,12 +194,12 @@ collections:
   slug: open-amazon-deadline-cloud
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/rate-limits/amazon-deadline-cloud-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-deadline-cloud/rate-limits/amazon-deadline-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-deadline-cloud-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/finops/amazon-deadline-cloud-finops.yml
+  href: https://artifacts.apis.io/amazon-deadline-cloud/finops/amazon-deadline-cloud-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-deadline-cloud-finops.yml
@@ -124,12 +208,12 @@ common:
   type: Pricing
   url: https://aws.amazon.com/deadline-cloud/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/plans/amazon-deadline-cloud-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-deadline-cloud/plans/amazon-deadline-cloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-deadline-cloud-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/capabilities/amazon-deadline-cloud-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-deadline-cloud/capabilities/amazon-deadline-cloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-deadline-cloud-capability-edges.yml
@@ -138,27 +222,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-deadline-cloud/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/agentic-access/amazon-deadline-cloud-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-deadline-cloud/agentic-access/amazon-deadline-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-deadline-cloud-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/security/amazon-deadline-cloud-trust-center.yml
+  href: https://artifacts.apis.io/amazon-deadline-cloud/security/amazon-deadline-cloud-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-deadline-cloud-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/security/amazon-deadline-cloud-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-deadline-cloud/security/amazon-deadline-cloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-deadline-cloud-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/security/amazon-deadline-cloud-domain-security.yml
+  href: https://artifacts.apis.io/amazon-deadline-cloud/security/amazon-deadline-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-deadline-cloud-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/authentication/amazon-deadline-cloud-authentication.yml
+  href: https://artifacts.apis.io/amazon-deadline-cloud/authentication/amazon-deadline-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-deadline-cloud-authentication.yml
@@ -268,13 +352,13 @@ examples:
   name: Worker Example
   slug: worker-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Deadline Cloud Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: instance-hour
+  service_category: ''
   slug: amazon-deadline-cloud-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-deadline-cloud.png
 json_schemas:
 - name: Create Farm Request
@@ -396,7 +480,7 @@ modified: '2026-05-19'
 name: Amazon Deadline Cloud
 nav: Providers
 network: true
-overview: 'Amazon Deadline Cloud publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Farms API, Fleets API, Jobs API, and 2 more. Tagged areas include Compute, Media, Rendering, and Visual Effects.
+overview: 'Amazon Deadline Cloud publishes 22 API contracts indexed on the [APIs.io](https://apis.io/) network, including Farms API, Fleets API, Jobs API, and 19 more. Tagged areas include Compute, Media, Rendering, and Visual Effects.
 
 
   The Amazon Deadline Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -407,7 +491,7 @@ plans:
 - name: Amazon Deadline Cloud Plans Pricing
   plan_count: 6
   slug: amazon-deadline-cloud-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Amazon Deadline Cloud Rate Limits
@@ -437,44 +521,45 @@ rules:
     warn: 10
   slug: amazon-deadline-cloud-spectral-rules
 score:
-  band: developing
-  composite: 52.2
+  band: strong
+  composite: 61.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 64.0
+    artifact_dirs: 21
+    catalog_earned: 67.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.8
   facets:
-    access_clarity: 77.6
+    access_clarity: 92.1
     contract_governance: 27.3
-    contract_quality: 58.3
-    developer_ergonomics: 36.9
+    contract_quality: 58.6
+    developer_ergonomics: 56.0
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 53.7
+    operational_transparency: 39.5
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 90.9
       derived: 0
-      marker_coverage: 0.0
-      total: 5
+      marker_coverage: 77.3
+      total: 22
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/screenshots/amazon-deadline-cloud-2026-06-20T171619.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-deadline-cloud/amazon-deadline-cloud-2026-06-20T171619.png
 security:
 - kind: authentication
   name: Amazon Deadline Cloud Authentication

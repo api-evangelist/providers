@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +42,7 @@ agentic_access:
   operation_count: 22
   slug: olympusdao-agentic-access
   summary_line: 22 operations
-api_count: 2
+api_count: 1
 apis:
 - description: 'Serverless GCP Cloud Function that returns the current OHM circulating supply as a plain-text numeric string. Reads from a one-hour Firestore cache backed by the Olympus Protocol Metrics API. Used by '
   name: Olympus OHM Circulating Supply API
@@ -78,11 +80,8 @@ apis:
   description: Daily treasury asset holdings.
   name: OlympusDAO Treasury API
   slug: olympusdao-treasury-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Olympus Protocol Metrics Health API
   slug: open-olympusdao-health-api
@@ -103,17 +102,17 @@ collections:
   slug: open-olympusdao-treasury-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/olympusdao/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/olympusdao/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/olympusdao/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -126,12 +125,12 @@ common:
   type: IssueTracker
   url: https://github.com/OlympusDAO/coingecko-api/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/agentic-access/olympusdao-agentic-access.yml
+  href: https://artifacts.apis.io/olympusdao/agentic-access/olympusdao-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/olympusdao-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/security/olympusdao-domain-security.yml
+  href: https://artifacts.apis.io/olympusdao/security/olympusdao-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/olympusdao-domain-security.yml
@@ -194,7 +193,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 1
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -221,7 +220,7 @@ score:
     catalog_gap: 70.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 9.8
@@ -229,7 +228,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 67.9
     operational_transparency: 5.3
-  previous_composite: 23.4
+  previous_composite: 22.9
   provenance:
     agentic_access: derived
     contracts:
@@ -243,14 +242,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/screenshots/olympusdao-2026-06-20T190659.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/olympusdao/olympusdao-2026-06-20T190659.png
 security:
 - kind: domain-security
   name: Olympusdao Domain Security

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-10-17'
+  score: 30.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -89,15 +91,12 @@ apis:
   description: Manage webhook subscriptions and receive event notifications. When creating an organization, you may provide an HTTPS webhook URL to receive events related to the organization's resources. We implemen
   name: Xbow Webhooks API
   slug: xbow-webhooks-api
-artifact_total: 26
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Xbow Webhooks
   slug: xbow-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: XBOW Assessments API
   slug: open-xbow-assessments-api
@@ -126,38 +125,42 @@ collections:
   name: XBOW Assessments Webhooks API
   slug: open-xbow-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/xbow/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/plans/xbow-plans-pricing.yml
+  href: https://artifacts.apis.io/xbow/plans/xbow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/xbow-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/capabilities/xbow-capability-edges.yml
+  href: https://artifacts.apis.io/xbow/capabilities/xbow-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/xbow-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/overlays/xbow-openapi-overlay.yaml
+  href: https://artifacts.apis.io/xbow/overlays/xbow-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/xbow-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/agentic-access/xbow-agentic-access.yml
+  href: https://artifacts.apis.io/xbow/agentic-access/xbow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/xbow-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/security/xbow-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/xbow/security/xbow-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/xbow-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/security/xbow-domain-security.yml
+  href: https://artifacts.apis.io/xbow/security/xbow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/xbow-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/authentication/xbow-authentication.yml
+  href: https://artifacts.apis.io/xbow/authentication/xbow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/xbow-authentication.yml
@@ -230,57 +233,65 @@ common:
   type: Deprecation
   url: https://docs.xbow.com/api/#description/version-lifecycle
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/llms/xbow-llms.txt
+  href: https://artifacts.apis.io/xbow/llms/xbow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/xbow-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/mcp/xbow-mcp.yml
+  href: https://artifacts.apis.io/xbow/mcp/xbow-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/xbow-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/asyncapi/xbow-webhooks.yml
+  href: https://artifacts.apis.io/xbow/asyncapi/xbow-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/xbow-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/changelog/xbow-changelog.yml
+  href: https://artifacts.apis.io/xbow/changelog/xbow-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/xbow-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/conventions/xbow-conventions.yml
+  href: https://artifacts.apis.io/xbow/conventions/xbow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/xbow-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/errors/xbow-problem-types.yml
+  href: https://artifacts.apis.io/xbow/errors/xbow-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/xbow-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/lifecycle/xbow-lifecycle.yml
+  href: https://artifacts.apis.io/xbow/lifecycle/xbow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/xbow-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/conformance/xbow-conformance.yml
+  href: https://artifacts.apis.io/xbow/conformance/xbow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/xbow-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/data-model/xbow-data-model.yml
+  href: https://artifacts.apis.io/xbow/data-model/xbow-data-model.yml
   title: ''
   type: DataModel
   url: data-model/xbow-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/xbow/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'XBOW is an autonomous offensive security platform that uses AI to perform penetration testing with real exploit validation — it identifies vulnerabilities, chains them into attack paths, and proves exploitability before findings reach security teams. The XBOW API (public preview) exposes the full platform workflow: register assets, launch and manage assessments, fetch validated findings and reports, upload source-code resources for gray-box testing, and subscribe webhooks with Ed25519-signed deliveries. XBOW has ranked #1 on the HackerOne and Microsoft MSRC leaderboards and is used by 150+ security teams.'
+finops:
+- has_sources: true
+  method: derived
+  name: Xbow Finops
+  primary_unit: ''
+  service_category: ''
+  slug: xbow-finops
+  template: true
 image: https://docs.xbow.com/xbow-logomark.svg
 layout: provider
 modified: '2026-07-21'
@@ -293,31 +304,31 @@ overview: 'Xbow publishes 9 API contracts indexed on the [APIs.io](https://apis.
   The Xbow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Xbow''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
+  Xbow''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
 plans:
 - name: Xbow Plans Pricing
   plan_count: 0
   slug: xbow-plans-pricing
-random_paper: 8
+random_paper: 16
 score:
   band: strong
-  composite: 57.6
+  composite: 56.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.2
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 58.3
-    developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 60.5
-  previous_composite: 57.5
+    developer_ergonomics: 60.1
+    discoverability: 66.1
+    operational_transparency: 63.2
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -334,13 +345,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/screenshots/xbow-2026-08-17T083001.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/xbow/xbow-2026-08-17T083001.png
 security:
 - kind: authentication
   name: Xbow Authentication
@@ -358,6 +370,16 @@ security:
   name: Xbow Trust Center
   slug: xbow-trust-center
   summary_line: SOC 2 Type 1, SOC 2 Type 2, GDPR, HIPAA
+skill_count: 4
+skills:
+- name: Sync XBOW findings into an external ticketing workflow
+  slug: xbow-findings-workflow
+- name: Run an XBOW assessment and collect validated findings
+  slug: xbow-run-assessment
+- name: Upload source code to guide gray-box testing
+  slug: xbow-upload-source-resource
+- name: Subscribe to XBOW webhooks with verified signatures
+  slug: xbow-webhook-subscription
 slug: xbow
 tags:
 - Security

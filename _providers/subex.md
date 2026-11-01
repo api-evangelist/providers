@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: Revenue leakage detection and reconciliation
   name: Subex Revenue Assurance API
   slug: subex-revenue-assurance-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Subex Revenue Assurance & Fraud Management Analytics API
   slug: open-subex-analytics-api
@@ -86,38 +85,42 @@ collections:
   name: Subex Revenue Assurance & Fraud Management API
   slug: open-subex-revenue-assurance
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/subex/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/plans/subex-plans-pricing.yml
+  href: https://artifacts.apis.io/subex/plans/subex-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/subex-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/rate-limits/subex-rate-limits.yml
+  href: https://artifacts.apis.io/subex/rate-limits/subex-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/subex-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/finops/subex-finops.yml
+  href: https://artifacts.apis.io/subex/finops/subex-finops.yml
   title: ''
   type: FinOps
   url: finops/subex-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/capabilities/subex-capability-edges.yml
+  href: https://artifacts.apis.io/subex/capabilities/subex-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/subex-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/agentic-access/subex-agentic-access.yml
+  href: https://artifacts.apis.io/subex/agentic-access/subex-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/subex-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/security/subex-domain-security.yml
+  href: https://artifacts.apis.io/subex/security/subex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/subex-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/authentication/subex-authentication.yml
+  href: https://artifacts.apis.io/subex/authentication/subex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/subex-authentication.yml
@@ -154,37 +157,37 @@ common:
   type: ChangeLog
   url: https://www.subex.com/newsroom/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/rules/subex-rules.yml
+  href: https://artifacts.apis.io/subex/rules/subex-rules.yml
   title: ''
   type: SpectralRules
   url: rules/subex-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/vocabulary/subex-vocabulary.yml
+  href: https://artifacts.apis.io/subex/vocabulary/subex-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/subex-vocabulary.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/json-schema/subex-fraud-case-schema.json
+  href: https://artifacts.apis.io/subex/json-schema/subex-fraud-case-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/subex-fraud-case-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/json-structure/subex-leakage-alert-structure.json
+  href: https://artifacts.apis.io/subex/json-structure/subex-leakage-alert-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/subex-leakage-alert-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/json-ld/subex-context.jsonld
+  href: https://artifacts.apis.io/subex/json-ld/subex-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/subex-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/examples/subex-list-fraud-cases-example.json
+  href: https://artifacts.apis.io/subex/examples/subex-list-fraud-cases-example.json
   title: ''
   type: Examples
   url: examples/subex-list-fraud-cases-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/examples/subex-get-subscriber-risk-score-example.json
+  href: https://artifacts.apis.io/subex/examples/subex-get-subscriber-risk-score-example.json
   title: ''
   type: Examples
   url: examples/subex-get-subscriber-risk-score-example.json
@@ -201,7 +204,7 @@ finops:
 - has_sources: false
   method: generated
   name: Subex Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: subex-finops
   template: true
@@ -230,12 +233,12 @@ overview: 'Subex publishes 4 API contracts indexed on the [APIs.io](https://apis
   The Subex catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Subex''s developer surface includes authentication, developer portal, engineering blog, support, changelog, code examples, and 16 more developer resources.'
+  Subex''s developer surface includes authentication, developer portal, engineering blog, support, changelog, code examples, and 17 more developer resources.'
 plans:
 - name: Subex Plans Pricing
   plan_count: 3
   slug: subex-plans-pricing
-random_paper: 1
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Subex Rate Limits
@@ -266,7 +269,7 @@ rules:
   slug: subex-rules
 score:
   band: thin
-  composite: 36.4
+  composite: 37.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 55.0
@@ -274,15 +277,15 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.2
   facets:
     access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 55.5
-    developer_ergonomics: 38.1
+    developer_ergonomics: 39.3
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 38.0
+    operational_transparency: 28.9
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -296,13 +299,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 17.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/screenshots/subex-2026-06-20T194634.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/subex/subex-2026-06-20T194634.png
 security:
 - kind: authentication
   name: Subex Authentication

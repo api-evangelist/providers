@@ -9,21 +9,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 32.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 18
   slug: findlocal-agentic-access
   summary_line: 18 operations
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://findlocal.community/api
   baseurl_source: declared
@@ -118,75 +120,75 @@ apis:
   description: The Venues API from FindLocal — 1 operation(s) for venues.
   name: FindLocal Venues API
   slug: findlocal-venues-api
-artifact_total: 27
+artifact_total: 28
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/overlays/findlocal-bluesky-overlay.yaml
+  href: https://artifacts.apis.io/findlocal/overlays/findlocal-bluesky-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/findlocal-bluesky-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/agentic-access/findlocal-agentic-access.yml
+  href: https://artifacts.apis.io/findlocal/agentic-access/findlocal-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/findlocal-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/plans/findlocal-plans-pricing.yml
+  href: https://artifacts.apis.io/findlocal/plans/findlocal-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/findlocal-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/rules/findlocal-rules.yml
+  href: https://artifacts.apis.io/findlocal/rules/findlocal-rules.yml
   title: ''
   type: Spectral
   url: rules/findlocal-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/json-ld/findlocal-context.jsonld
+  href: https://artifacts.apis.io/findlocal/json-ld/findlocal-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/findlocal-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/vocabulary/findlocal-vocabulary.yml
+  href: https://artifacts.apis.io/findlocal/vocabulary/findlocal-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/findlocal-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/data-model/findlocal-data-model.yml
+  href: https://artifacts.apis.io/findlocal/data-model/findlocal-data-model.yml
   title: ''
   type: DataModel
   url: data-model/findlocal-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/conventions/findlocal-conventions.yml
+  href: https://artifacts.apis.io/findlocal/conventions/findlocal-conventions.yml
   title: ''
   type: Conventions
   url: conventions/findlocal-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/authentication/findlocal-authentication.yml
+  href: https://artifacts.apis.io/findlocal/authentication/findlocal-authentication.yml
   title: ''
   type: Authentication
   url: authentication/findlocal-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/errors/findlocal-problem-types.yml
+  href: https://artifacts.apis.io/findlocal/errors/findlocal-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/findlocal-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/conformance/findlocal-conformance.yml
+  href: https://artifacts.apis.io/findlocal/conformance/findlocal-conformance.yml
   title: ''
   type: Conformance
   url: conformance/findlocal-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/llms/findlocal-llms.txt
+  href: https://artifacts.apis.io/findlocal/llms/findlocal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/findlocal-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/hosts/findlocal-hosts.yml
+  href: https://artifacts.apis.io/findlocal/hosts/findlocal-hosts.yml
   title: ''
   type: Hosts
   url: hosts/findlocal-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/vendors/findlocal-vendors.yml
+  href: https://artifacts.apis.io/findlocal/vendors/findlocal-vendors.yml
   title: ''
   type: Vendors
   url: vendors/findlocal-vendors.yml
@@ -203,7 +205,7 @@ common:
   type: Blog
   url: https://findlocal.community/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/security/findlocal-domain-security.yml
+  href: https://artifacts.apis.io/findlocal/security/findlocal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/findlocal-domain-security.yml
@@ -245,6 +247,14 @@ common:
   url: https://findlocal.community/login
 created: '2026-09-25'
 description: FindLocal provides a hyper‑local events API that aggregates over 86,000 upcoming events from more than 10,000 venues across 83 US metros. The platform offers JSON API access and an MCP server for developers to integrate event data into applications, with features like searchable calendars, maps, and widgets. Users can sign up for free API keys, manage billing, and explore event data via a developer portal. The service reads venue calendars directly, ensuring up‑to‑date listings of concerts, comedy shows, theater, and community events, and offers a free tier of 1,000 calls per month with no credit‑card required.
+finops:
+- has_sources: true
+  method: derived
+  name: Findlocal Finops
+  primary_unit: ''
+  service_category: ''
+  slug: findlocal-finops
+  template: true
 image: https://findlocal.community/og-default.png
 json_schemas:
 - name: Item
@@ -280,7 +290,7 @@ plans:
 - name: Findlocal Plans Pricing
   plan_count: 3
   slug: findlocal-plans-pricing
-random_paper: 16
+random_paper: 4
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -296,23 +306,23 @@ rules:
   slug: findlocal-rules
 score:
   band: strong
-  composite: 55.6
+  composite: 54.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 77.8
+    artifact_dirs: 23
+    catalog_earned: 74.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 37.3
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.5
   facets:
     access_clarity: 76.3
     contract_governance: 35.6
     contract_quality: 65.3
     developer_ergonomics: 47.6
-    discoverability: 78.6
+    discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 55.1
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -334,14 +344,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/screenshots/findlocal-2026-10-11T104451.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/findlocal/findlocal-2026-10-11T104451.png
 security:
 - kind: authentication
   name: Findlocal Authentication

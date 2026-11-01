@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bluestar-genomics/refs/heads/main/security/bluestar-genomics-domain-security.yml
+  href: https://artifacts.apis.io/bluestar-genomics/security/bluestar-genomics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bluestar-genomics-domain-security.yml
@@ -116,12 +118,12 @@ overview: 'ClearNote Health is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   ClearNote Health''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 4
+random_paper: 12
 score:
-  band: minimal
-  composite: 10.6
+  band: emerging
+  composite: 11.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -134,22 +136,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
-  previous_composite: 10.6
+    operational_transparency: 5.3
+  previous_composite: 11.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bluestar-genomics/refs/heads/main/screenshots/bluestar-genomics-2026-09-02T144927.png
+screenshot: https://apis.io/screenshots/bluestar-genomics/bluestar-genomics-2026-09-02T144927.png
 security:
 - kind: domain-security
   name: Bluestar Genomics Domain Security

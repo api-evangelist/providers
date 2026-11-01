@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.7
-  scored_at: '2026-10-17'
+  score: 34.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 38
   slug: crea-agentic-access
   summary_line: 38 operations · 2 acting
-api_count: 5
+api_count: 3
 apis:
 - baseURL: https://ddfapi.realtor.ca/odata/v1
   baseurl_source: declared
@@ -75,7 +77,7 @@ apis:
   description: Get Properties
   name: CREA (REALTOR.ca) Property API
   slug: crea-property-api
-artifact_total: 15
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -95,32 +97,32 @@ common:
   type: Blog
   url: https://www.crea.ca/media-hub/news/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/capabilities/crea-capability-edges.yml
+  href: https://artifacts.apis.io/crea/capabilities/crea-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/crea-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/overlays/crea-realtor-ca-ddf-web-api-overlay.yaml
+  href: https://artifacts.apis.io/crea/overlays/crea-realtor-ca-ddf-web-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crea-realtor-ca-ddf-web-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/overlays/crea-realtor-ca-ddf-web-api-swagger-endpoint-overlay.yaml
+  href: https://artifacts.apis.io/crea/overlays/crea-realtor-ca-ddf-web-api-swagger-endpoint-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crea-realtor-ca-ddf-web-api-swagger-endpoint-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/overlays/crea-realtor-ca-board-api-overlay.yaml
+  href: https://artifacts.apis.io/crea/overlays/crea-realtor-ca-board-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/crea-realtor-ca-board-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/agentic-access/crea-agentic-access.yml
+  href: https://artifacts.apis.io/crea/agentic-access/crea-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/crea-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/security/crea-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/crea/security/crea-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/crea-vulnerability-disclosure.yml
@@ -129,112 +131,112 @@ common:
   type: Security
   url: https://www.crea.ca/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/security/crea-domain-security.yml
+  href: https://artifacts.apis.io/crea/security/crea-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crea-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/well-known/crea-well-known.yml
+  href: https://artifacts.apis.io/crea/well-known/crea-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/crea-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/well-known/crea-security.txt
+  href: https://artifacts.apis.io/crea/well-known/crea-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/crea-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/authentication/crea-authentication.yml
+  href: https://artifacts.apis.io/crea/authentication/crea-authentication.yml
   title: ''
   type: Authentication
   url: authentication/crea-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/scopes/crea-scopes.yml
+  href: https://artifacts.apis.io/crea/scopes/crea-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/crea-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/conventions/crea-conventions.yml
+  href: https://artifacts.apis.io/crea/conventions/crea-conventions.yml
   title: ''
   type: Conventions
   url: conventions/crea-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/errors/crea-problem-types.yml
+  href: https://artifacts.apis.io/crea/errors/crea-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/crea-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/lifecycle/crea-lifecycle.yml
+  href: https://artifacts.apis.io/crea/lifecycle/crea-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/crea-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/changelog/crea-changelog.yml
+  href: https://artifacts.apis.io/crea/changelog/crea-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/crea-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/conformance/crea-conformance.yml
+  href: https://artifacts.apis.io/crea/conformance/crea-conformance.yml
   title: ''
   type: Conformance
   url: conformance/crea-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/data-model/crea-data-model.yml
+  href: https://artifacts.apis.io/crea/data-model/crea-data-model.yml
   title: ''
   type: DataModel
   url: data-model/crea-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/packages/crea-packages.yml
+  href: https://artifacts.apis.io/crea/packages/crea-packages.yml
   title: ''
   type: Packages
   url: packages/crea-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/mcp/crea-mcp.yml
+  href: https://artifacts.apis.io/crea/mcp/crea-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/crea-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/mcp/crea-tool-crosswalk.yml
+  href: https://artifacts.apis.io/crea/mcp/crea-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/crea-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/llms/crea-llms.txt
+  href: https://artifacts.apis.io/crea/llms/crea-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/crea-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/components/crea-components.yml
+  href: https://artifacts.apis.io/crea/components/crea-components.yml
   title: ''
   type: Components
   url: components/crea-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/crea/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/skills/crea-authenticate-and-query-listings.md
+  href: https://artifacts.apis.io/crea/skills/crea-authenticate-and-query-listings.md
   title: ''
   type: AgentSkill
   url: skills/crea-authenticate-and-query-listings.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/skills/crea-replicate-ddf-feed.md
+  href: https://artifacts.apis.io/crea/skills/crea-replicate-ddf-feed.md
   title: ''
   type: AgentSkill
   url: skills/crea-replicate-ddf-feed.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/skills/crea-send-lead-to-realtor.md
+  href: https://artifacts.apis.io/crea/skills/crea-send-lead-to-realtor.md
   title: ''
   type: AgentSkill
   url: skills/crea-send-lead-to-realtor.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/skills/crea-pull-board-roster.md
+  href: https://artifacts.apis.io/crea/skills/crea-pull-board-roster.md
   title: ''
   type: AgentSkill
   url: skills/crea-pull-board-roster.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/skills/crea-comply-with-ddf-display-rules.md
+  href: https://artifacts.apis.io/crea/skills/crea-comply-with-ddf-display-rules.md
   title: ''
   type: AgentSkill
   url: skills/crea-comply-with-ddf-display-rules.md
@@ -324,7 +326,7 @@ overview: 'CREA (REALTOR.ca) publishes 6 API contracts indexed on the [APIs.io](
 
 
   CREA (REALTOR.ca)''s developer surface includes engineering blog, authentication, changelog, getting-started guide, documentation, support, and 42 more developer resources.'
-random_paper: 15
+random_paper: 3
 scopes:
 - name: Crea Scopes
   scope_count: 5
@@ -332,7 +334,7 @@ scopes:
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 44.5
+  composite: 46.8
   coverage:
     artifact_dirs: 24
     catalog_earned: 40.0
@@ -340,13 +342,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 45.1
-    developer_ergonomics: 50.6
-    discoverability: 89.3
+    contract_quality: 42.3
+    developer_ergonomics: 58.9
+    discoverability: 82.1
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -355,7 +357,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 44.4
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -372,13 +374,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/screenshots/crea-2026-08-07T163831.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/crea/crea-2026-08-07T163831.png
 security:
 - kind: authentication
   name: Crea Authentication
@@ -392,6 +395,18 @@ security:
   name: Crea Vulnerability Disclosure
   slug: crea-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 5
+skills:
+- name: Authenticate and query REALTOR.ca DDF listings
+  slug: crea-authenticate-and-query-listings
+- name: Comply with DDF display and analytics rules
+  slug: crea-comply-with-ddf-display-rules
+- name: Pull a member board roster from the REALTOR.ca Board API
+  slug: crea-pull-board-roster
+- name: Replicate a DDF feed into your own database
+  slug: crea-replicate-ddf-feed
+- name: Send a consumer lead to a REALTOR
+  slug: crea-send-lead-to-realtor
 slug: crea
 tags:
 - Real Estate

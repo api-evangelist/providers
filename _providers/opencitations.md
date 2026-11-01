@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-17'
+  score: 23.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,11 +74,8 @@ apis:
   description: Operations for retrieving outgoing reference data
   name: OpenCitations References API
   slug: opencitations-references-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenCitations Index REST Authors API
   slug: open-opencitations-authors-api
@@ -98,17 +97,17 @@ common:
   type: Website
   url: https://opencitations.net
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/agentic-access/opencitations-agentic-access.yml
+  href: https://artifacts.apis.io/opencitations/agentic-access/opencitations-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/opencitations-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/security/opencitations-domain-security.yml
+  href: https://artifacts.apis.io/opencitations/security/opencitations-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opencitations-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/authentication/opencitations-authentication.yml
+  href: https://artifacts.apis.io/opencitations/authentication/opencitations-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opencitations-authentication.yml
@@ -148,7 +147,7 @@ overview: 'OpenCitations publishes 6 API contracts indexed on the [APIs.io](http
 
 
   OpenCitations'' developer surface includes authentication and 3 more developer resources.'
-random_paper: 0
+random_paper: 16
 score:
   band: emerging
   composite: 25.8
@@ -181,14 +180,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/screenshots/opencitations-2026-06-20T190921.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/opencitations/opencitations-2026-06-20T190921.png
 security:
 - kind: authentication
   name: Opencitations Authentication

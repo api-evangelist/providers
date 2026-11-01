@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -72,11 +74,8 @@ apis:
   description: CRUD operations for news content items
   name: Sitefinity CMS News Items API
   slug: sitefinity-cms-news-items-api
-artifact_total: 31
+artifact_total: 30
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sitefinity CMS Content Blog Posts API
   slug: open-sitefinity-cms-blog-posts-api
@@ -91,42 +90,42 @@ collections:
   slug: open-sitefinity-cms-news-items-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/plans/sitefinity-cms-plans-pricing.yml
+  href: https://artifacts.apis.io/sitefinity-cms/plans/sitefinity-cms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sitefinity-cms-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/rate-limits/sitefinity-cms-rate-limits.yml
+  href: https://artifacts.apis.io/sitefinity-cms/rate-limits/sitefinity-cms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sitefinity-cms-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/finops/sitefinity-cms-finops.yml
+  href: https://artifacts.apis.io/sitefinity-cms/finops/sitefinity-cms-finops.yml
   title: ''
   type: FinOps
   url: finops/sitefinity-cms-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/agentic-access/sitefinity-cms-agentic-access.yml
+  href: https://artifacts.apis.io/sitefinity-cms/agentic-access/sitefinity-cms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sitefinity-cms-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/security/sitefinity-cms-trust-center.yml
+  href: https://artifacts.apis.io/sitefinity-cms/security/sitefinity-cms-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sitefinity-cms-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/security/sitefinity-cms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sitefinity-cms/security/sitefinity-cms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sitefinity-cms-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/security/sitefinity-cms-domain-security.yml
+  href: https://artifacts.apis.io/sitefinity-cms/security/sitefinity-cms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sitefinity-cms-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/authentication/sitefinity-cms-authentication.yml
+  href: https://artifacts.apis.io/sitefinity-cms/authentication/sitefinity-cms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sitefinity-cms-authentication.yml
@@ -159,17 +158,17 @@ common:
   type: Support
   url: https://www.progress.com/support
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/json-ld/sitefinity-cms-context.jsonld
+  href: https://artifacts.apis.io/sitefinity-cms/json-ld/sitefinity-cms-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/sitefinity-cms-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/rules/sitefinity-cms-rules.yml
+  href: https://artifacts.apis.io/sitefinity-cms/rules/sitefinity-cms-rules.yml
   title: ''
   type: SpectralRules
   url: rules/sitefinity-cms-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/vocabulary/sitefinity-cms-vocabulary.yml
+  href: https://artifacts.apis.io/sitefinity-cms/vocabulary/sitefinity-cms-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sitefinity-cms-vocabulary.yml
@@ -232,7 +231,7 @@ plans:
 - name: Sitefinity Cms Plans Pricing
   plan_count: 1
   slug: sitefinity-cms-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Sitefinity Cms Rate Limits
@@ -263,7 +262,7 @@ rules:
   slug: sitefinity-cms-rules
 score:
   band: thin
-  composite: 35.9
+  composite: 37.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 50.0
@@ -271,15 +270,15 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 27.3
-    contract_quality: 60.2
+    contract_quality: 57.5
     developer_ergonomics: 38.1
     discoverability: 51.8
-    operational_transparency: 7.9
-  previous_composite: 37.5
+    operational_transparency: 21.1
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -293,13 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/screenshots/sitefinity-cms-2026-06-20T194001.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sitefinity-cms/sitefinity-cms-2026-06-20T194001.png
 security:
 - kind: authentication
   name: Sitefinity Cms Authentication

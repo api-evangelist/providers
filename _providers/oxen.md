@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 22
@@ -139,11 +141,8 @@ apis:
   description: The Workspaces API from Oxen — 5 operation(s) for workspaces.
   name: Oxen Workspaces API
   slug: oxen-workspaces-api
-artifact_total: 43
+artifact_total: 46
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: oxen Ai API
   slug: open-oxen-ai-api
@@ -203,22 +202,22 @@ collections:
   slug: open-oxen-workspaces-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/plans/oxen-plans-pricing.yml
+  href: https://artifacts.apis.io/oxen/plans/oxen-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/oxen-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/capabilities/oxen-capability-edges.yml
+  href: https://artifacts.apis.io/oxen/capabilities/oxen-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/oxen-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/overlays/oxen-hub-api-overlay.yaml
+  href: https://artifacts.apis.io/oxen/overlays/oxen-hub-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/oxen-hub-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/security/oxen-domain-security.yml
+  href: https://artifacts.apis.io/oxen/security/oxen-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oxen-domain-security.yml
@@ -283,72 +282,80 @@ common:
   type: ChangeLog
   url: https://www.oxen.ai/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/llms/oxen-llms.txt
+  href: https://artifacts.apis.io/oxen/llms/oxen-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oxen-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/packages/oxen-packages.yml
+  href: https://artifacts.apis.io/oxen/packages/oxen-packages.yml
   title: ''
   type: Packages
   url: packages/oxen-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/packages/oxen-packages.yml
+  href: https://artifacts.apis.io/oxen/packages/oxen-packages.yml
   title: ''
   type: SDKs
   url: packages/oxen-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/cli/oxen-cli.yml
+  href: https://artifacts.apis.io/oxen/cli/oxen-cli.yml
   title: ''
   type: CLI
   url: cli/oxen-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/authentication/oxen-authentication.yml
+  href: https://artifacts.apis.io/oxen/authentication/oxen-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oxen-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/conventions/oxen-conventions.yml
+  href: https://artifacts.apis.io/oxen/conventions/oxen-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oxen-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/errors/oxen-problem-types.yml
+  href: https://artifacts.apis.io/oxen/errors/oxen-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/oxen-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/lifecycle/oxen-lifecycle.yml
+  href: https://artifacts.apis.io/oxen/lifecycle/oxen-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oxen-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/conformance/oxen-conformance.yml
+  href: https://artifacts.apis.io/oxen/conformance/oxen-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oxen-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/data-model/oxen-data-model.yml
+  href: https://artifacts.apis.io/oxen/data-model/oxen-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oxen-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/mcp/oxen-mcp.yml
+  href: https://artifacts.apis.io/oxen/mcp/oxen-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/oxen-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/agentic-access/oxen-agentic-access.yml
+  href: https://artifacts.apis.io/oxen/agentic-access/oxen-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/oxen-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/oxen/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Oxen.ai is a blazing-fast data version control system and AI platform for teams building with their own data. Its open-source Rust core (liboxen) versions, branches, and shares terabyte-scale datasets, model weights, and experiments without Git's large-file limits. On top of the version control layer, Oxen.ai offers a unified, OpenAI-compatible inference API across 200+ text, image, video, and audio models, plus a fine-tuning API for training and deploying custom LLMs, vision-language, image, and video models. Developers work through a Python SDK (oxenai), a command-line tool (oxen), and an HTTP API for repository management, workspaces, data-frame diffing, generation queues, and model deployment.
+finops:
+- has_sources: true
+  method: derived
+  name: Oxen Finops
+  primary_unit: hour
+  service_category: ''
+  slug: oxen-finops
+  template: false
 image: https://github.com/Oxen-AI.png
 layout: provider
 modified: '2026-07-20'
@@ -363,26 +370,29 @@ plans:
 - name: Oxen Plans Pricing
   plan_count: 12
   slug: oxen-plans-pricing
-random_paper: 2
+- name: Oxen Price Estimates
+  plan_count: 0
+  slug: oxen-price-estimates
+random_paper: 10
 score:
-  band: developing
-  composite: 43.1
+  band: strong
+  composite: 57.2
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 49.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.6
   facets:
-    access_clarity: 38.2
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 50.5
-    developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 36.7
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -398,14 +408,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 22.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/screenshots/oxen-2026-08-07T191204.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/oxen/oxen-2026-08-07T191204.png
 security:
 - kind: authentication
   name: Oxen Authentication
@@ -415,6 +426,12 @@ security:
   name: Oxen Domain Security
   slug: oxen-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Fine-tune and deploy a custom model
+  slug: oxen-fine-tune-and-deploy
+- name: Run inference against Oxen models
+  slug: oxen-run-inference
 slug: oxen
 tags:
 - Company

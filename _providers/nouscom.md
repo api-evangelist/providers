@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,17 +35,17 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nouscom/refs/heads/main/security/nouscom-domain-security.yml
+  href: https://artifacts.apis.io/nouscom/security/nouscom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nouscom-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nouscom/refs/heads/main/llms/nouscom-llms.txt
+  href: https://artifacts.apis.io/nouscom/llms/nouscom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nouscom-llms.txt
@@ -82,10 +84,10 @@ name: Nouscom
 nav: Providers
 network: true
 overview: Nouscom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Immuno-Oncology, Pharmaceuticals, and Life Sciences.
-random_paper: 2
+random_paper: 4
 score:
   band: minimal
-  composite: 4.4
+  composite: 4.0
   coverage:
     artifact_dirs: 5
     catalog_earned: 25.0
@@ -99,8 +101,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 51.8
-    operational_transparency: 2.6
+    discoverability: 44.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -111,21 +113,21 @@ score:
     - dach
     - europe
     - italy-southern-europe
-  previous_composite: 4.4
+  previous_composite: 4.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nouscom/refs/heads/main/screenshots/nouscom-2026-09-02T150806.png
+screenshot: https://apis.io/screenshots/nouscom/nouscom-2026-09-02T150806.png
 security:
 - kind: domain-security
   name: Nouscom Domain Security

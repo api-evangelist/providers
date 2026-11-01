@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -173,11 +175,8 @@ apis:
   description: The ModifyVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccesstrustprovider.
   name: Amazon Verified Access ModifyVerifiedAccessTrustProvider API
   slug: amazon-verified-access-modifyverifiedaccesstrustprovider-api
-artifact_total: 67
+artifact_total: 66
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Verified Access AttachVerifiedAccessTrustProvider API
   slug: open-amazon-verified-access-attachverifiedaccesstrustprovider-api
@@ -261,42 +260,42 @@ collections:
   slug: open-amazon-verified-access
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/plans/amazon-verified-access-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-verified-access/plans/amazon-verified-access-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-verified-access-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/rate-limits/amazon-verified-access-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-verified-access/rate-limits/amazon-verified-access-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-verified-access-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/finops/amazon-verified-access-finops.yml
+  href: https://artifacts.apis.io/amazon-verified-access/finops/amazon-verified-access-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-verified-access-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/capabilities/amazon-verified-access-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-verified-access/capabilities/amazon-verified-access-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-verified-access-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/agentic-access/amazon-verified-access-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-verified-access/agentic-access/amazon-verified-access-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-verified-access-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/security/amazon-verified-access-trust-center.yml
+  href: https://artifacts.apis.io/amazon-verified-access/security/amazon-verified-access-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-verified-access-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/security/amazon-verified-access-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-verified-access/security/amazon-verified-access-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-verified-access-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/security/amazon-verified-access-domain-security.yml
+  href: https://artifacts.apis.io/amazon-verified-access/security/amazon-verified-access-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-verified-access-domain-security.yml
@@ -364,13 +363,13 @@ features:
 - description: Programmatic access to Amazon Verified Access resources.
   name: API Access
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Verified Access Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: app-hour
+  service_category: ''
   slug: amazon-verified-access-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-verified-access.png
 jsonld:
 - class_count: 0
@@ -391,9 +390,9 @@ overview: 'Amazon Verified Access is listed with 26 APIs on the [APIs.io](https:
   Amazon Verified Access'' developer surface includes developer portal, documentation, developer console, support, signup flow, and 16 more developer resources.'
 plans:
 - name: Amazon Verified Access Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: amazon-verified-access-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Amazon Verified Access Rate Limits
@@ -412,24 +411,24 @@ rules:
     warn: 8
   slug: amazon-verified-access-spectral-rules
 score:
-  band: developing
-  composite: 44.0
+  band: strong
+  composite: 55.4
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 54.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.8
+    artifact_dirs: 16
+    catalog_earned: 66.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 25.0
     contract_quality: 42.0
-    developer_ergonomics: 42.9
+    developer_ergonomics: 50.0
     discoverability: 62.5
-    operational_transparency: 26.3
-  previous_composite: 45.5
+    operational_transparency: 39.5
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -443,13 +442,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/screenshots/amazon-verified-access-2026-06-20T171841.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-verified-access/amazon-verified-access-2026-06-20T171841.png
 security:
 - kind: domain-security
   name: Amazon Verified Access Domain Security

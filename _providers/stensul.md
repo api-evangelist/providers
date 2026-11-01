@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Enterprise API for retrieving finalized Stensul email content and distributing it to any platform in a customer's ecosystem, removing the manual export step between Stensul and the downstream ESP/MAP.
@@ -47,7 +49,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stensul/refs/heads/main/security/stensul-trust-center.yml
+  href: https://artifacts.apis.io/stensul/security/stensul-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/stensul-trust-center.yml
@@ -92,47 +94,47 @@ common:
   type: Compliance
   url: https://stensul.com/security-trust-center/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stensul/refs/heads/main/llms/stensul-llms.txt
+  href: https://artifacts.apis.io/stensul/llms/stensul-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/stensul-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stensul/refs/heads/main/lifecycle/stensul-lifecycle.yml
+  href: https://artifacts.apis.io/stensul/lifecycle/stensul-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/stensul-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/stensul/refs/heads/main/packages/stensul-packages.yml
+  href: https://artifacts.apis.io/stensul/packages/stensul-packages.yml
   title: ''
   type: Packages
   url: packages/stensul-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stensul/refs/heads/main/authentication/stensul-authentication.yml
+  href: https://artifacts.apis.io/stensul/authentication/stensul-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stensul-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stensul/refs/heads/main/conventions/stensul-conventions.yml
+  href: https://artifacts.apis.io/stensul/conventions/stensul-conventions.yml
   title: ''
   type: Conventions
   url: conventions/stensul-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stensul/refs/heads/main/conformance/stensul-conformance.yml
+  href: https://artifacts.apis.io/stensul/conformance/stensul-conformance.yml
   title: ''
   type: Conformance
   url: conformance/stensul-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stensul/refs/heads/main/security/stensul-domain-security.yml
+  href: https://artifacts.apis.io/stensul/security/stensul-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stensul-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stensul/refs/heads/main/plans/stensul-plans-pricing.yml
+  href: https://artifacts.apis.io/stensul/plans/stensul-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stensul-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stensul/refs/heads/main/rate-limits/stensul-rate-limits.yml
+  href: https://artifacts.apis.io/stensul/rate-limits/stensul-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stensul-rate-limits.yml
@@ -173,16 +175,16 @@ plans:
 - name: Stensul Plans Pricing
   plan_count: 0
   slug: stensul-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Stensul Rate Limits
   slug: stensul-rate-limits
 score:
-  band: emerging
-  composite: 25.6
+  band: thin
+  composite: 26.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -194,8 +196,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 64.3
-    operational_transparency: 18.4
+    discoverability: 57.1
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -203,7 +205,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 25.6
+  previous_composite: 26.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -213,14 +215,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/stensul/refs/heads/main/screenshots/stensul-2026-09-02T160848.png
+screenshot: https://apis.io/screenshots/stensul/stensul-2026-09-02T160848.png
 security:
 - kind: authentication
   name: Stensul Authentication

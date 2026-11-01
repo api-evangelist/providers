@@ -31,15 +31,17 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.8
-  scored_at: '2026-10-17'
-api_count: 5
+  score: 45.1
+  scored_at: '2026-10-31'
+api_count: 4
 apis:
 - baseURL: https://{engage-host}/api/rest/v19
   baseurl_source: declared
@@ -870,7 +872,7 @@ apis:
     question: Can I check a whiteboard for errors before saving or publishing it?
   phrasing_ops: 8
   slug: mapp-whiteboard-api
-artifact_total: 50
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Mapp Data Streams
@@ -890,72 +892,72 @@ collections:
   slug: open-mapp-product-catalog
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/capabilities/mapp-capability-edges.yml
+  href: https://artifacts.apis.io/mapp/capabilities/mapp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mapp-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/overlays/mapp-engage-overlay.yaml
+  href: https://artifacts.apis.io/mapp/overlays/mapp-engage-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mapp-engage-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/overlays/mapp-intelligence-analytics-overlay.yaml
+  href: https://artifacts.apis.io/mapp/overlays/mapp-intelligence-analytics-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mapp-intelligence-analytics-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/overlays/mapp-product-catalog-overlay.yaml
+  href: https://artifacts.apis.io/mapp/overlays/mapp-product-catalog-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mapp-product-catalog-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/overlays/mapp-fashion-overlay.yaml
+  href: https://artifacts.apis.io/mapp/overlays/mapp-fashion-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/mapp-fashion-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/security/mapp-trust-center.yml
+  href: https://artifacts.apis.io/mapp/security/mapp-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mapp-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/packages/mapp-packages.yml
+  href: https://artifacts.apis.io/mapp/packages/mapp-packages.yml
   title: ''
   type: Packages
   url: packages/mapp-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/packages/mapp-packages.yml
+  href: https://artifacts.apis.io/mapp/packages/mapp-packages.yml
   title: ''
   type: SDKs
   url: packages/mapp-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/well-known/mapp-well-known.yml
+  href: https://artifacts.apis.io/mapp/well-known/mapp-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mapp-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/mcp/mapp-mcp.yml
+  href: https://artifacts.apis.io/mapp/mcp/mapp-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mapp-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/mcp/mapp-tool-crosswalk.yml
+  href: https://artifacts.apis.io/mapp/mcp/mapp-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/mapp-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/conformance/mapp-conformance.yml
+  href: https://artifacts.apis.io/mapp/conformance/mapp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mapp-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/errors/mapp-problem-types.yml
+  href: https://artifacts.apis.io/mapp/errors/mapp-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mapp-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/lifecycle/mapp-lifecycle.yml
+  href: https://artifacts.apis.io/mapp/lifecycle/mapp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mapp-lifecycle.yml
@@ -964,57 +966,57 @@ common:
   type: Deprecation
   url: https://docs.mapp.com/docs/news
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/conventions/mapp-conventions.yml
+  href: https://artifacts.apis.io/mapp/conventions/mapp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mapp-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/changelog/mapp-changelog.yml
+  href: https://artifacts.apis.io/mapp/changelog/mapp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mapp-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/data-model/mapp-data-model.yml
+  href: https://artifacts.apis.io/mapp/data-model/mapp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mapp-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/plans/mapp-plans-pricing.yml
+  href: https://artifacts.apis.io/mapp/plans/mapp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mapp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/rate-limits/mapp-rate-limits.yml
+  href: https://artifacts.apis.io/mapp/rate-limits/mapp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mapp-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mapp/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/asyncapi/mapp-data-streams.yml
+  href: https://artifacts.apis.io/mapp/asyncapi/mapp-data-streams.yml
   title: ''
   type: Events
   url: asyncapi/mapp-data-streams.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/asyncapi/mapp-data-streams.yml
+  href: https://artifacts.apis.io/mapp/asyncapi/mapp-data-streams.yml
   title: ''
   type: StreamingEndpoint
   url: asyncapi/mapp-data-streams.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/security/mapp-domain-security.yml
+  href: https://artifacts.apis.io/mapp/security/mapp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mapp-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/scopes/mapp-scopes.yml
+  href: https://artifacts.apis.io/mapp/scopes/mapp-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mapp-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/authentication/mapp-authentication.yml
+  href: https://artifacts.apis.io/mapp/authentication/mapp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mapp-authentication.yml
@@ -1091,12 +1093,20 @@ common:
   type: Postman
   url: https://docs.mapp.com/apidocs/postman
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/llms/mapp-llms.txt
+  href: https://artifacts.apis.io/mapp/llms/mapp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mapp-llms.txt
 created: '2026-08-12'
 description: 'Mapp is a German-headquartered marketing technology vendor whose Mapp Marketing Cloud combines cross-channel campaign execution (Mapp Engage), digital analytics and customer intelligence (Mapp Intelligence, formerly Webtrekk), product catalog management, and AI fashion/retail recommendations (Mapp Fashion, formerly Dressipi). The platform is API-addressable across four public surfaces: the Mapp Engage REST API (REST 2.0 / v19, HTTP Basic auth, ~196 documented operations covering contacts, memberships, groups, messages, mobile push, segmentation, whiteboards, attributes, e-commerce events and audit logs), the Mapp Intelligence Analytics API (OAuth2 client-credentials on api.mapp.com/api/analytics), the Product Catalog Public API, and the Mapp Fashion recommendation API. Mapp publishes machine-readable OpenAPI fragments for every endpoint on docs.mapp.com, an llms.txt documentation index, published list pricing, and an ISO 27001/27017/27018/27701/22301 trust center.'
+finops:
+- has_sources: true
+  method: derived
+  name: Mapp Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: mapp-finops
+  template: false
 image: https://mapp.com/wp-content/uploads/2026/05/mapp-default-open-graph-image-square.png
 layout: provider
 mcp_servers:
@@ -1118,7 +1128,10 @@ plans:
 - name: Mapp Plans Pricing
   plan_count: 3
   slug: mapp-plans-pricing
-random_paper: 12
+- name: Mapp Price Estimates
+  plan_count: 0
+  slug: mapp-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Mapp Rate Limits
@@ -1130,28 +1143,28 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 70.4
+  composite: 68.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 60.0
+    artifact_dirs: 26
+    catalog_earned: 63.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 53.4
     developer_ergonomics: 70.8
-    discoverability: 80.0
-    operational_transparency: 63.2
+    discoverability: 70.0
+    operational_transparency: 65.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - germany
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 70.4
+  previous_composite: 67.1
   provenance:
     conformance: first-party
     contracts:
@@ -1177,13 +1190,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/screenshots/mapp-2026-08-17T080404.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mapp/mapp-2026-08-17T080404.png
 security:
 - kind: authentication
   name: Mapp Authentication
@@ -1201,6 +1215,22 @@ security:
   name: Mapp Trust Center
   slug: mapp-trust-center
   summary_line: ISO 27001, ISO 27017, ISO 27018, ISO 27701, ISO 22301, GDPR, CCPA, NIS-2, DORA, Certified Sender Alliance
+skill_count: 7
+skills:
+- name: Run a Mapp Intelligence analysis through the Analytics API
+  slug: mapp-analytics-run-analysis
+- name: Pull Mapp Engage audit events into a SIEM
+  slug: mapp-audit-log-to-siem
+- name: Build, preview and publish a Mapp Engage segment
+  slug: mapp-build-and-publish-segment
+- name: Feed e-commerce behaviour into Mapp Engage
+  slug: mapp-ecommerce-events
+- name: Schedule and control a Mapp Engage mobile push campaign
+  slug: mapp-mobile-push-campaign
+- name: Sync a product catalog into Mapp Cloud
+  slug: mapp-product-catalog-sync
+- name: Subscribe a contact and send a transactional message
+  slug: mapp-subscribe-and-send-transactional
 slug: mapp
 tags:
 - Company

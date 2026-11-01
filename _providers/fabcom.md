@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -41,7 +43,7 @@ common:
   type: Blog
   url: https://www.fab.com/o/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fabcom/refs/heads/main/security/fabcom-domain-security.yml
+  href: https://artifacts.apis.io/fabcom/security/fabcom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fabcom-domain-security.yml
@@ -62,17 +64,17 @@ common:
   type: Support
   url: https://support.fab.com/s/?ProductOrigin=FabSupport
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fabcom/refs/heads/main/well-known/fabcom-security.txt
+  href: https://artifacts.apis.io/fabcom/well-known/fabcom-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/fabcom-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fabcom/refs/heads/main/well-known/fabcom-well-known.yml
+  href: https://artifacts.apis.io/fabcom/well-known/fabcom-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fabcom-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fabcom/refs/heads/main/security/fabcom-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fabcom/security/fabcom-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fabcom-vulnerability-disclosure.yml
@@ -81,7 +83,7 @@ common:
   type: Security
   url: https://hackerone.com/epicgames
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fabcom/refs/heads/main/lifecycle/fabcom-lifecycle.yml
+  href: https://artifacts.apis.io/fabcom/lifecycle/fabcom-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fabcom-lifecycle.yml
@@ -90,7 +92,7 @@ common:
   type: StatusPage
   url: https://status.epicgames.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fabcom/refs/heads/main/llms/fabcom-llms.txt
+  href: https://artifacts.apis.io/fabcom/llms/fabcom-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fabcom-llms.txt
@@ -106,10 +108,10 @@ overview: 'Fab.com is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Fab.com''s developer surface includes engineering blog, documentation, getting-started guide, support, and 9 more developer resources.'
-random_paper: 0
+random_paper: 16
 score:
   band: emerging
-  composite: 13.7
+  composite: 13.5
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -117,29 +119,29 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 26.2
-    discoverability: 55.4
+    developer_ergonomics: 28.6
+    discoverability: 48.2
     operational_transparency: 26.3
-  previous_composite: 13.1
+  previous_composite: 13.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fabcom/refs/heads/main/screenshots/fabcom-2026-07-25T214107.png
+screenshot: https://apis.io/screenshots/fabcom/fabcom-2026-07-25T214107.png
 security:
 - kind: domain-security
   name: Fabcom Domain Security

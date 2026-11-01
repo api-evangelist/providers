@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  href: https://artifacts.apis.io/cruise/hosts/cruise-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/cruise-hosts.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cruise/refs/heads/main/security/cruise-domain-security.yml
+  href: https://artifacts.apis.io/cruise/security/cruise-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cruise-domain-security.yml
@@ -45,6 +52,16 @@ common:
   title: ''
   type: Website
   url: https://getcruise.com/
+coverage:
+  checked: '2026-10-20'
+  detail: getcruise.com serves an invalid TLS certificate and 301-redirects to gm.com/innovation/path-to-autonomous after GM ended Cruise robotaxi development; api.getcruise.com answers nothing and no developer surface exists.
+  evidence:
+  - status: 301
+    url: https://getcruise.com/
+  - status: 301
+    url: http://getcruise.com/
+  reason: defunct
+  state: none
 created: '2026-07-17'
 description: Cruise was an autonomous-vehicle (robotaxi) company founded in 2013 and majority-owned by General Motors, building self-driving technology and operating driverless ride-hail services in San Francisco and other U.S. cities. Backed by GM, Honda, SoftBank Vision Fund, Spark Capital, Y Combinator and others, Cruise suspended operations after a 2023 incident and, in December 2024, GM announced it would end robotaxi development and fold the Cruise team into GM's own autonomous and driver-assistance programs. As of 2026 the getcruise.com domain 301-redirects to GM's autonomous-driving pages. Cruise never published a public developer API, SDK, or documentation surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cruise.png
@@ -54,12 +71,12 @@ name: Cruise
 nav: Providers
 network: true
 overview: Cruise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Autonomous Vehicles, Robotaxi, and Self-Driving.
-random_paper: 13
+random_paper: 3
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -81,19 +98,19 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cruise/refs/heads/main/screenshots/cruise-2026-07-25T210818.png
+screenshot: https://apis.io/screenshots/cruise/cruise-2026-07-25T210818.png
 security:
 - kind: domain-security
   name: Cruise Domain Security
   slug: cruise-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: DMARC
 slug: cruise
 tags:
 - Company

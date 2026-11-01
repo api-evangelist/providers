@@ -27,49 +27,51 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.1
-  scored_at: '2026-10-17'
+  score: 41.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: DocSend's hosted Model Context Protocol server — the only programmatic surface DocSend publishes. An MCP client POSTs Streamable-HTTP JSON-RPC to https://docsend.com/mcp (also reachable at https://mcp
   name: DocSend MCP Server
   slug: docsend-mcp-server
-artifact_total: 10
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Docsend Events
   slug: docsend-events
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/mcp/docsend-mcp.yml
+  href: https://artifacts.apis.io/docsend/mcp/docsend-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/docsend-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/well-known/docsend-well-known.yml
+  href: https://artifacts.apis.io/docsend/well-known/docsend-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/docsend-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/authentication/docsend-authentication.yml
+  href: https://artifacts.apis.io/docsend/authentication/docsend-authentication.yml
   title: ''
   type: Authentication
   url: authentication/docsend-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/scopes/docsend-scopes.yml
+  href: https://artifacts.apis.io/docsend/scopes/docsend-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/docsend-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/conformance/docsend-conformance.yml
+  href: https://artifacts.apis.io/docsend/conformance/docsend-conformance.yml
   title: ''
   type: Conformance
   url: conformance/docsend-conformance.yml
@@ -78,22 +80,22 @@ common:
   type: Compliance
   url: https://www.docsend.com/trust-center/compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/security/docsend-trust-center.yml
+  href: https://artifacts.apis.io/docsend/security/docsend-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/docsend-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/security/docsend-domain-security.yml
+  href: https://artifacts.apis.io/docsend/security/docsend-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/docsend-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/llms/docsend-llms.txt
+  href: https://artifacts.apis.io/docsend/llms/docsend-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/docsend-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/lifecycle/docsend-lifecycle.yml
+  href: https://artifacts.apis.io/docsend/lifecycle/docsend-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/docsend-lifecycle.yml
@@ -102,22 +104,22 @@ common:
   type: StatusPage
   url: https://status.dropbox.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/packages/docsend-packages.yml
+  href: https://artifacts.apis.io/docsend/packages/docsend-packages.yml
   title: ''
   type: Packages
   url: packages/docsend-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/plans/docsend-plans-pricing.yml
+  href: https://artifacts.apis.io/docsend/plans/docsend-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/docsend-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/rate-limits/docsend-rate-limits.yml
+  href: https://artifacts.apis.io/docsend/rate-limits/docsend-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/docsend-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/security/docsend-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/docsend/security/docsend-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/docsend-vulnerability-disclosure.yml
@@ -164,6 +166,14 @@ common:
 created: '2026-07-17'
 description: DocSend is a secure document sharing and analytics platform, now part of Dropbox, used by sales, marketing, and fundraising teams to share pitch decks, sales collateral, and confidential documents through trackable links. It provides page-by-page viewer analytics, granular access controls (email verification, passcodes, expiration, watermarking), virtual data rooms, and e-signature. DocSend was surfaced as a portfolio company of Cowboy Ventures, DCM Ventures, and Uncork Capital and enriched by the API Evangelist pipeline. DocSend publishes no public REST API and no OpenAPI; its only programmatic surface is a live, OAuth-secured hosted Model Context Protocol (MCP) server at https://docsend.com/mcp, backed by RFC 8414 authorization-server discovery, RFC 9728 protected-resource metadata, dynamic client registration (RFC 7591), and mandatory PKCE. In August 2026 DocSend replaced the server's two coarse mcp:read / mcp:write scopes with five resource-scoped ones — documents:read,
   spaces:read, spaces:write, analytics:read, contacts:read.
+finops:
+- has_sources: true
+  method: derived
+  name: Docsend Finops
+  primary_unit: user
+  service_category: ''
+  slug: docsend-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/docsend.png
 layout: provider
 mcp_servers:
@@ -183,9 +193,12 @@ overview: 'DocSend is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   DocSend''s developer surface includes authentication, pricing, signup flow, support, engineering blog, and 20 more developer resources.'
 plans:
 - name: Docsend Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: docsend-plans-pricing
-random_paper: 10
+- name: Docsend Price Estimates
+  plan_count: 0
+  slug: docsend-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Docsend Rate Limits
@@ -197,23 +210,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 48.5
+  composite: 50.8
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 49.0
+    artifact_dirs: 17
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 19.0
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 48.5
+    discoverability: 65.0
+    operational_transparency: 31.6
+  previous_composite: 49.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -229,14 +242,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/screenshots/docsend-2026-08-17T123407.png
+screenshot: https://apis.io/screenshots/docsend/docsend-2026-08-17T123407.png
 security:
 - kind: authentication
   name: Docsend Authentication
@@ -261,7 +274,7 @@ tags:
 - Document Sharing
 - Sales Enablement
 - Analytics
-- Data Room
+- Virtual Data Room
 - E-Signature
 - MCP
 - Dropbox

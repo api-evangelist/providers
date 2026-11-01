@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 62.4
-  scored_at: '2026-10-17'
+  score: 59.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -192,24 +194,24 @@ apis:
   description: Individual API resources tracked across the network, and the relevance graph between them.
   name: API Evangelist APIs API
   slug: api-evangelist-apis-api
-artifact_total: 43
+artifact_total: 51
 collections:
 - collection_type: open
   name: API Evangelist Governance & Discovery API
   slug: open-apievangelist-governance
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/capabilities/api-evangelist-capability-edges.yml
+  href: https://artifacts.apis.io/api-evangelist/capabilities/api-evangelist-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/api-evangelist-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/overlays/api-evangelist-v1-overlay.yaml
+  href: https://artifacts.apis.io/api-evangelist/overlays/api-evangelist-v1-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/api-evangelist-v1-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/overlays/api-evangelist-governance-overlay.yaml
+  href: https://artifacts.apis.io/api-evangelist/overlays/api-evangelist-governance-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/api-evangelist-governance-overlay.yaml
@@ -218,22 +220,22 @@ common:
   type: IssueTracker
   url: https://github.com/api-evangelist/posts/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/agentic-access/api-evangelist-agentic-access.yml
+  href: https://artifacts.apis.io/api-evangelist/agentic-access/api-evangelist-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/api-evangelist-agentic-access.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/a2a/api-evangelist-a2a.yml
+  href: https://artifacts.apis.io/api-evangelist/a2a/api-evangelist-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/api-evangelist-a2a.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/security/api-evangelist-domain-security.yml
+  href: https://artifacts.apis.io/api-evangelist/security/api-evangelist-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/api-evangelist-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/authentication/api-evangelist-authentication.yml
+  href: https://artifacts.apis.io/api-evangelist/authentication/api-evangelist-authentication.yml
   title: ''
   type: Authentication
   url: authentication/api-evangelist-authentication.yml
@@ -294,7 +296,7 @@ common:
   type: PrivacyPolicy
   url: https://apievangelist.com/privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/well-known/api-evangelist-well-known.yml
+  href: https://artifacts.apis.io/api-evangelist/well-known/api-evangelist-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/api-evangelist-well-known.yml
@@ -303,47 +305,47 @@ common:
   type: APICatalog
   url: https://developer.apievangelist.com/.well-known/api-catalog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/llms/api-evangelist-llms.txt
+  href: https://artifacts.apis.io/api-evangelist/llms/api-evangelist-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/api-evangelist-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/mcp/api-evangelist-mcp.yml
+  href: https://artifacts.apis.io/api-evangelist/mcp/api-evangelist-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/api-evangelist-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/api-evangelist/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/conventions/api-evangelist-conventions.yml
+  href: https://artifacts.apis.io/api-evangelist/conventions/api-evangelist-conventions.yml
   title: ''
   type: Conventions
   url: conventions/api-evangelist-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/errors/api-evangelist-problem-types.yml
+  href: https://artifacts.apis.io/api-evangelist/errors/api-evangelist-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/api-evangelist-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/lifecycle/api-evangelist-lifecycle.yml
+  href: https://artifacts.apis.io/api-evangelist/lifecycle/api-evangelist-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/api-evangelist-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/conformance/api-evangelist-conformance.yml
+  href: https://artifacts.apis.io/api-evangelist/conformance/api-evangelist-conformance.yml
   title: ''
   type: Conformance
   url: conformance/api-evangelist-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/data-model/api-evangelist-data-model.yml
+  href: https://artifacts.apis.io/api-evangelist/data-model/api-evangelist-data-model.yml
   title: ''
   type: DataModel
   url: data-model/api-evangelist-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/rules/api-evangelist-spectral-rules.yml
+  href: https://artifacts.apis.io/api-evangelist/rules/api-evangelist-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/api-evangelist-spectral-rules.yml
@@ -352,27 +354,27 @@ common:
   type: Vocabulary
   url: https://vocabularies.apievangelist.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/plans/api-evangelist-plans-pricing.yml
+  href: https://artifacts.apis.io/api-evangelist/plans/api-evangelist-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/api-evangelist-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/rate-limits/api-evangelist-rate-limits.yml
+  href: https://artifacts.apis.io/api-evangelist/rate-limits/api-evangelist-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/api-evangelist-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/collections/apievangelist-v1.postman_collection.json
+  href: https://artifacts.apis.io/api-evangelist/collections/apievangelist-v1.postman_collection.json
   title: ''
   type: Postman
   url: collections/apievangelist-v1.postman_collection.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/collections/apievangelist-governance.postman_collection.json
+  href: https://artifacts.apis.io/api-evangelist/collections/apievangelist-governance.postman_collection.json
   title: ''
   type: Postman
   url: collections/apievangelist-governance.postman_collection.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/collections/apievangelist-governance.opencollection.json
+  href: https://artifacts.apis.io/api-evangelist/collections/apievangelist-governance.opencollection.json
   title: ''
   type: OpenCollection
   url: collections/apievangelist-governance.opencollection.json
@@ -398,10 +400,18 @@ common:
   url: https://developer.apievangelist.com/roadmap
 created: '2024-10-14'
 description: The index of everything available via the API Evangelist developer portal at developer.apievangelist.com — sixteen years of API research served as one REST API, an MCP server for agents, and the static JSON feeds behind each network collection.
+finops:
+- has_sources: true
+  method: derived
+  name: Api Evangelist Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: api-evangelist-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at mcp.apievangelist.com over streamable HTTP; 57 tools listed.
+- description: Remote MCP server at mcp.apievangelist.com over streamable HTTP; 68 tools listed.
   name: API Evangelist MCP Server
   slug: api-evangelist
 modified: '2026-08-10'
@@ -419,7 +429,10 @@ plans:
 - name: Api Evangelist Plans Pricing
   plan_count: 4
   slug: api-evangelist-plans-pricing
-random_paper: 3
+- name: Api Evangelist Price Estimates
+  plan_count: 0
+  slug: api-evangelist-price-estimates
+random_paper: 17
 rate_limits:
 - limit_count: 6
   name: Api Evangelist Rate Limits
@@ -439,23 +452,23 @@ rules:
   slug: api-evangelist-spectral-rules
 score:
   band: exemplar
-  composite: 66.8
+  composite: 69.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 79.0
+    artifact_dirs: 25
+    catalog_earned: 82.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 36.0
+    catalog_gap: 33.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 45.5
     contract_quality: 58.6
     developer_ergonomics: 63.2
-    discoverability: 85.0
-    operational_transparency: 73.7
-  previous_composite: 66.7
+    discoverability: 81.7
+    operational_transparency: 76.3
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -472,13 +485,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/screenshots/api-evangelist-2026-08-17T080558.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/api-evangelist/api-evangelist-2026-08-17T080558.png
 security:
 - kind: authentication
   name: Api Evangelist Authentication
@@ -488,6 +502,20 @@ security:
   name: Api Evangelist Domain Security
   slug: api-evangelist-domain-security
   summary_line: TLSv1.3
+skill_count: 6
+skills:
+- name: assemble-a-governance-starter-kit
+  slug: api-evangelist-governance-starter-kit
+- name: lint-and-score-an-openapi
+  slug: api-evangelist-lint-and-score-an-openapi
+- name: make-an-api-agent-ready
+  slug: api-evangelist-make-an-api-agent-ready
+- name: map-the-vendor-landscape
+  slug: api-evangelist-map-vendor-landscape
+- name: profile-a-companys-api-demand
+  slug: api-evangelist-profile-company-demand
+- name: research-an-api-topic
+  slug: api-evangelist-research-a-topic
 slug: api-evangelist
 tags:
 - API-Evangelist

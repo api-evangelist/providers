@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lateral/refs/heads/main/security/lateral-domain-security.yml
+  href: https://artifacts.apis.io/lateral/security/lateral-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lateral-domain-security.yml
@@ -94,27 +96,27 @@ common:
   type: Successor
   url: https://www.coordination.network
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lateral/refs/heads/main/packages/lateral-packages.yml
+  href: https://artifacts.apis.io/lateral/packages/lateral-packages.yml
   title: ''
   type: Packages
   url: packages/lateral-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lateral/refs/heads/main/packages/lateral-packages.yml
+  href: https://artifacts.apis.io/lateral/packages/lateral-packages.yml
   title: ''
   type: SDKs
   url: packages/lateral-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lateral/refs/heads/main/well-known/lateral-well-known.yml
+  href: https://artifacts.apis.io/lateral/well-known/lateral-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/lateral-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lateral/refs/heads/main/lifecycle/lateral-lifecycle.yml
+  href: https://artifacts.apis.io/lateral/lifecycle/lateral-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lateral-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lateral/refs/heads/main/llms/lateral-llms.txt
+  href: https://artifacts.apis.io/lateral/llms/lateral-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lateral-llms.txt
@@ -130,7 +132,7 @@ overview: 'Lateral is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lateral''s developer surface includes engineering blog, pricing, YouTube channel, and 16 more developer resources.'
-random_paper: 15
+random_paper: 21
 score:
   band: minimal
   composite: 0.0
@@ -164,14 +166,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lateral/refs/heads/main/screenshots/lateral-2026-07-25T224557.png
+screenshot: https://apis.io/screenshots/lateral/lateral-2026-07-25T224557.png
 security:
 - kind: domain-security
   name: Lateral Domain Security

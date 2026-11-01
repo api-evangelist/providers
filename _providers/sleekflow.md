@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: Register webhook subscriptions for platform events.
   name: SleekFlow Webhooks API
   slug: sleekflow-webhooks-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SleekFlow Platform Companies API
   slug: open-sleekflow-companies-api
@@ -115,22 +114,22 @@ common:
   type: Pricing
   url: https://sleekflow.io/whatsapp-pricing-calculator
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/capabilities/sleekflow-capability-edges.yml
+  href: https://artifacts.apis.io/sleekflow/capabilities/sleekflow-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sleekflow-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/agentic-access/sleekflow-agentic-access.yml
+  href: https://artifacts.apis.io/sleekflow/agentic-access/sleekflow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sleekflow-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/security/sleekflow-domain-security.yml
+  href: https://artifacts.apis.io/sleekflow/security/sleekflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sleekflow-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/authentication/sleekflow-authentication.yml
+  href: https://artifacts.apis.io/sleekflow/authentication/sleekflow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sleekflow-authentication.yml
@@ -147,17 +146,17 @@ common:
   type: Documentation
   url: https://apidoc.sleekflow.io/docs/platform-api/nijbjgxrs4s50-sleek-flow-platform-api
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/plans/sleekflow-plans-pricing.yml
+  href: https://artifacts.apis.io/sleekflow/plans/sleekflow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sleekflow-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/rate-limits/sleekflow-rate-limits.yml
+  href: https://artifacts.apis.io/sleekflow/rate-limits/sleekflow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sleekflow-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/finops/sleekflow-finops.yml
+  href: https://artifacts.apis.io/sleekflow/finops/sleekflow-finops.yml
   title: ''
   type: FinOps
   url: finops/sleekflow-finops.yml
@@ -192,14 +191,14 @@ plans:
 - name: Sleekflow Price Estimates
   plan_count: 0
   slug: sleekflow-price-estimates
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Sleekflow Rate Limits
   slug: sleekflow-rate-limits
 score:
   band: thin
-  composite: 37.2
+  composite: 35.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 57.0
@@ -207,7 +206,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
@@ -215,7 +214,7 @@ score:
     developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 38.7
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -229,13 +228,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/screenshots/sleekflow-2026-06-20T194028.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sleekflow/sleekflow-2026-06-20T194028.png
 security:
 - kind: authentication
   name: Sleekflow Authentication

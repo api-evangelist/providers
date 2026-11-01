@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.7
-  scored_at: '2026-10-17'
+  score: 46.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -245,11 +247,8 @@ apis:
   description: A **Utility Meter** measures consumption (electricity, gas, water, heating or cooling) for a **Building**. Meters are created and updated through the API, identified by your `external_id`, and own the
   name: Alasco Utility Meters API
   slug: alasco-utility-meters-api
-artifact_total: 87
+artifact_total: 92
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: CAPEX Annual Consumption API
   slug: open-alasco-annual-consumption-api
@@ -371,13 +370,18 @@ collections:
   name: CAPEX Annual Consumption Utility Meters API
   slug: open-alasco-utility-meters-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/alasco/plans/alasco-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/alasco-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/capabilities/alasco-capability-edges.yml
+  href: https://artifacts.apis.io/alasco/capabilities/alasco-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/alasco-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/overlays/alasco-capex-overlay.yaml
+  href: https://artifacts.apis.io/alasco/overlays/alasco-capex-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/alasco-capex-overlay.yaml
@@ -406,42 +410,42 @@ common:
   type: ChangeLog
   url: https://developer.alasco.de/changelog.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/mcp/alasco-mcp.yml
+  href: https://artifacts.apis.io/alasco/mcp/alasco-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/alasco-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/llms/alasco-llms.txt
+  href: https://artifacts.apis.io/alasco/llms/alasco-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/alasco-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/well-known/alasco-well-known.yml
+  href: https://artifacts.apis.io/alasco/well-known/alasco-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/alasco-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/authentication/alasco-authentication.yml
+  href: https://artifacts.apis.io/alasco/authentication/alasco-authentication.yml
   title: ''
   type: Authentication
   url: authentication/alasco-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/conventions/alasco-conventions.yml
+  href: https://artifacts.apis.io/alasco/conventions/alasco-conventions.yml
   title: ''
   type: Conventions
   url: conventions/alasco-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/errors/alasco-problem-types.yml
+  href: https://artifacts.apis.io/alasco/errors/alasco-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/alasco-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/lifecycle/alasco-lifecycle.yml
+  href: https://artifacts.apis.io/alasco/lifecycle/alasco-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/alasco-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/conformance/alasco-conformance.yml
+  href: https://artifacts.apis.io/alasco/conformance/alasco-conformance.yml
   title: ''
   type: Conformance
   url: conformance/alasco-conformance.yml
@@ -450,32 +454,32 @@ common:
   type: Compliance
   url: https://www.alasco.com/security-trust
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/data-model/alasco-data-model.yml
+  href: https://artifacts.apis.io/alasco/data-model/alasco-data-model.yml
   title: ''
   type: DataModel
   url: data-model/alasco-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/packages/alasco-packages.yml
+  href: https://artifacts.apis.io/alasco/packages/alasco-packages.yml
   title: ''
   type: Packages
   url: packages/alasco-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/alasco/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/agentic-access/alasco-agentic-access.yml
+  href: https://artifacts.apis.io/alasco/agentic-access/alasco-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/alasco-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/security/alasco-domain-security.yml
+  href: https://artifacts.apis.io/alasco/security/alasco-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/alasco-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/security/alasco-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/alasco/security/alasco-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/alasco-vulnerability-disclosure.yml
@@ -484,12 +488,12 @@ common:
   type: Security
   url: https://www.alasco.com/security-trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/security/alasco-trust-center.yml
+  href: https://artifacts.apis.io/alasco/security/alasco-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/alasco-trust-center.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/changelog/alasco-changelog.yml
+  href: https://artifacts.apis.io/alasco/changelog/alasco-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/alasco-changelog.yml
@@ -523,6 +527,14 @@ common:
   url: https://support.alasco.de/hc/de
 created: '2026-07-17'
 description: 'Alasco is a Munich-based real-estate financial management platform for developers, asset managers, and construction teams, replacing spreadsheet-based cost control with integrated workflows across the development lifecycle. It spans three products - FinCon (financial controlling: projects, properties, contracts, invoices, change orders, cost elements, and financial reporting), CapEx (capital-expenditure planning and cost processing across assets and measures), and ESG (environmental data: buildings, utility meters, tenants, and consumption data). Alasco exposes a REST Public API that follows JSON:API principles, plus an official hosted MCP server for AI-agent integrations. It is ISO/IEC 27001 certified and serves institutional real-estate firms including Hines, JLL, and Ardian.'
+finops:
+- has_sources: true
+  method: derived
+  name: Alasco Finops
+  primary_unit: ''
+  service_category: ''
+  slug: alasco-finops
+  template: true
 image: https://cdn.prod.website-files.com/656ef2eb27ad41897248f866/6a50ff4e64f5c6a6cb6d2dd5_Alasco_Logo_Full_Blue%20(1).svg
 layout: provider
 mcp_servers:
@@ -536,25 +548,29 @@ network: true
 overview: 'Alasco publishes 40 API contracts indexed on the [APIs.io](https://apis.io/) network, including Annual Consumption API, Asset API, Audit Log API, and 37 more. Tagged areas include Company, Ai Enterprise Software, Real Estate, Construction, and PropTech.
 
 
-  Alasco''s developer surface includes documentation, getting-started guide, API reference, changelog, authentication, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 11
+  Alasco''s developer surface includes documentation, getting-started guide, API reference, changelog, authentication, engineering blog, pricing, and 27 more developer resources.'
+plans:
+- name: Alasco Plans Pricing
+  plan_count: 3
+  slug: alasco-plans-pricing
+random_paper: 3
 score:
   band: strong
-  composite: 55.0
+  composite: 55.9
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.3
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 47.4
+    contract_quality: 46.9
     developer_ergonomics: 58.9
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -564,7 +580,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 54.9
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -581,13 +597,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/screenshots/alasco-2026-07-25T195534.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/alasco/alasco-2026-07-25T195534.png
 security:
 - kind: authentication
   name: Alasco Authentication
@@ -605,6 +622,16 @@ security:
   name: Alasco Trust Center
   slug: alasco-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
+skill_count: 4
+skills:
+- name: Record and pay an invoice against a contract (FinCon)
+  slug: alasco-process-invoice
+- name: Pull project and cost-element financial reporting (FinCon)
+  slug: alasco-pull-cost-reporting
+- name: Set up a project, property, and contract (FinCon)
+  slug: alasco-setup-project-and-contract
+- name: Submit ESG utility meters and consumption data
+  slug: alasco-submit-esg-consumption
 slug: alasco
 tags:
 - Company

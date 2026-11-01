@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
   schema_version: '0.2'
-  score: 6.8
-  scored_at: '2026-10-17'
+  score: 9.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Developer portal providing documentation for TOTVS APIs.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/totvs/refs/heads/main/hosts/totvs-hosts.yml
+  href: https://artifacts.apis.io/totvs/hosts/totvs-hosts.yml
   title: ''
   type: Hosts
   url: hosts/totvs-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/totvs/refs/heads/main/vendors/totvs-vendors.yml
+  href: https://artifacts.apis.io/totvs/vendors/totvs-vendors.yml
   title: ''
   type: Vendors
   url: vendors/totvs-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/totvs/refs/heads/main/packages/totvs-packages.yml
+  href: https://artifacts.apis.io/totvs/packages/totvs-packages.yml
   title: ''
   type: SDKs
   url: packages/totvs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/totvs/refs/heads/main/packages/totvs-packages.yml
+  href: https://artifacts.apis.io/totvs/packages/totvs-packages.yml
   title: ''
   type: Packages
   url: packages/totvs-packages.yml
@@ -68,7 +70,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/totvs
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/totvs/refs/heads/main/security/totvs-domain-security.yml
+  href: https://artifacts.apis.io/totvs/security/totvs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/totvs-domain-security.yml
@@ -108,7 +110,7 @@ overview: 'TOTVS is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   TOTVS''s developer surface includes pricing, engineering blog, documentation, support, and 9 more developer resources.'
-random_paper: 4
+random_paper: 0
 score:
   band: emerging
   composite: 14.8
@@ -119,6 +121,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
@@ -126,6 +129,14 @@ score:
     developer_ergonomics: 33.3
     discoverability: 57.1
     operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - brazil
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
+  previous_composite: 14.8
   provenance:
     mcp: unknown
   regulatory:
@@ -134,8 +145,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

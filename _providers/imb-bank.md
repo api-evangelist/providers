@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 39.4
-  scored_at: '2026-10-17'
+  score: 40.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -82,9 +84,6 @@ apis:
 artifact_total: 19
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-imb-bank-banking-account-balances-api
 - collection_type: open
@@ -107,37 +106,37 @@ collections:
   slug: open-imb-bank-banking-products-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/capabilities/imb-bank-capability-edges.yml
+  href: https://artifacts.apis.io/imb-bank/capabilities/imb-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/imb-bank-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/agentic-access/imb-bank-agentic-access.yml
+  href: https://artifacts.apis.io/imb-bank/agentic-access/imb-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/imb-bank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/security/imb-bank-domain-security.yml
+  href: https://artifacts.apis.io/imb-bank/security/imb-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/imb-bank-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/well-known/imb-bank-well-known.yml
+  href: https://artifacts.apis.io/imb-bank/well-known/imb-bank-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/imb-bank-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/authentication/imb-bank-authentication.yml
+  href: https://artifacts.apis.io/imb-bank/authentication/imb-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/imb-bank-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/scopes/imb-bank-scopes.yml
+  href: https://artifacts.apis.io/imb-bank/scopes/imb-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/imb-bank-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/conformance/imb-bank-conformance.yml
+  href: https://artifacts.apis.io/imb-bank/conformance/imb-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/imb-bank-conformance.yml
@@ -146,12 +145,12 @@ common:
   type: Compliance
   url: https://www.imb.com.au/pdfs/consumer-data-right-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/errors/imb-bank-problem-types.yml
+  href: https://artifacts.apis.io/imb-bank/errors/imb-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/imb-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/lifecycle/imb-bank-lifecycle.yml
+  href: https://artifacts.apis.io/imb-bank/lifecycle/imb-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/imb-bank-lifecycle.yml
@@ -164,37 +163,37 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#versioning
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/conventions/imb-bank-conventions.yml
+  href: https://artifacts.apis.io/imb-bank/conventions/imb-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/imb-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/data-model/imb-bank-data-model.yml
+  href: https://artifacts.apis.io/imb-bank/data-model/imb-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/imb-bank-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/sandbox/imb-bank-sandbox.yml
+  href: https://artifacts.apis.io/imb-bank/sandbox/imb-bank-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/imb-bank-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/mcp/imb-bank-mcp.yml
+  href: https://artifacts.apis.io/imb-bank/mcp/imb-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/imb-bank-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/overlays/imb-bank-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/imb-bank/overlays/imb-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/imb-bank-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/llms/imb-bank-llms.txt
+  href: https://artifacts.apis.io/imb-bank/llms/imb-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/imb-bank-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/skills/imb-bank-browse-products.md
+  href: https://artifacts.apis.io/imb-bank/skills/imb-bank-browse-products.md
   title: ''
   type: AgentSkill
   url: skills/imb-bank-browse-products.md
@@ -250,7 +249,7 @@ overview: 'IMB Bank publishes 7 API contracts indexed on the [APIs.io](https://a
 
 
   IMB Bank''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, signup flow, support, and 22 more developer resources.'
-random_paper: 21
+random_paper: 1
 scopes:
 - name: Imb Bank Scopes
   scope_count: 12
@@ -258,7 +257,7 @@ scopes:
   summary_line: 12 scopes
 score:
   band: developing
-  composite: 40.0
+  composite: 48.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -268,11 +267,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 44.7
-    developer_ergonomics: 35.1
-    discoverability: 73.2
+    developer_ergonomics: 63.7
+    discoverability: 66.1
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -281,7 +280,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 40.0
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -298,13 +297,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/screenshots/imb-bank-2026-07-21T114727.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/imb-bank/imb-bank-2026-07-21T114727.png
 security:
 - kind: authentication
   name: Imb Bank Authentication
@@ -314,6 +314,10 @@ security:
   name: Imb Bank Domain Security
   slug: imb-bank-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Browse IMB Bank banking products
+  slug: imb-bank-browse-products
 slug: imb-bank
 tags:
 - Finance

@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 61.5
-  scored_at: '2026-10-17'
+  score: 57.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -96,11 +98,8 @@ apis:
   description: The technologies API from Sumble — 3 operation(s) for technologies.
   name: Sumble Technologies API
   slug: sumble-technologies-api
-artifact_total: 80
+artifact_total: 90
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sumble contact-lists API
   slug: open-sumble-contact-lists-api
@@ -132,12 +131,17 @@ collections:
   name: Sumble contact-lists technologies API
   slug: open-sumble-technologies-api
 common:
+- group: other
+  href: https://artifacts.apis.io/sumble/capabilities/sumble-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sumble-capability-edges.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://blog.sumble.com/rss/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/overlays/sumble-openapi-overlay.yaml
+  href: https://artifacts.apis.io/sumble/overlays/sumble-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sumble-openapi-overlay.yaml
@@ -190,62 +194,62 @@ common:
   type: Compliance
   url: https://docs.sumble.com/trust-and-security/trust-and-security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/mcp/sumble-mcp.yml
+  href: https://artifacts.apis.io/sumble/mcp/sumble-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sumble-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/llms/sumble-llms.txt
+  href: https://artifacts.apis.io/sumble/llms/sumble-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sumble-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sumble/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/authentication/sumble-authentication.yml
+  href: https://artifacts.apis.io/sumble/authentication/sumble-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sumble-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/conventions/sumble-conventions.yml
+  href: https://artifacts.apis.io/sumble/conventions/sumble-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sumble-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/errors/sumble-problem-types.yml
+  href: https://artifacts.apis.io/sumble/errors/sumble-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sumble-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/lifecycle/sumble-lifecycle.yml
+  href: https://artifacts.apis.io/sumble/lifecycle/sumble-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sumble-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/conformance/sumble-conformance.yml
+  href: https://artifacts.apis.io/sumble/conformance/sumble-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sumble-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/data-model/sumble-data-model.yml
+  href: https://artifacts.apis.io/sumble/data-model/sumble-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sumble-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/security/sumble-trust-center.yml
+  href: https://artifacts.apis.io/sumble/security/sumble-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sumble-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/security/sumble-domain-security.yml
+  href: https://artifacts.apis.io/sumble/security/sumble-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sumble-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/agentic-access/sumble-agentic-access.yml
+  href: https://artifacts.apis.io/sumble/agentic-access/sumble-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sumble-agentic-access.yml
@@ -254,37 +258,37 @@ common:
   type: Website
   url: https://sumble.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/llms/sumble-root-llms.txt
+  href: https://artifacts.apis.io/sumble/llms/sumble-root-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sumble-root-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/mcp/sumble-tool-crosswalk.yml
+  href: https://artifacts.apis.io/sumble/mcp/sumble-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/sumble-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/well-known/sumble-well-known.yml
+  href: https://artifacts.apis.io/sumble/well-known/sumble-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sumble-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/packages/sumble-packages.yml
+  href: https://artifacts.apis.io/sumble/packages/sumble-packages.yml
   title: ''
   type: Packages
   url: packages/sumble-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/rate-limits/sumble-rate-limits.yml
+  href: https://artifacts.apis.io/sumble/rate-limits/sumble-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sumble-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/plans/sumble-plans-pricing.yml
+  href: https://artifacts.apis.io/sumble/plans/sumble-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sumble-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/examples/sumble-examples.yml
+  href: https://artifacts.apis.io/sumble/examples/sumble-examples.yml
   title: ''
   type: Examples
   url: examples/sumble-examples.yml
@@ -463,6 +467,14 @@ examples:
 - key_count: 1
   name: Sumble V9 Technologies Lookup Request Filters
   slug: sumble-v9-technologies-lookup-request-filters
+finops:
+- has_sources: true
+  method: derived
+  name: Sumble Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: sumble-finops
+  template: false
 image: https://www.sumble.com/logo512
 layout: provider
 mcp_servers:
@@ -476,35 +488,38 @@ network: true
 overview: 'Sumble publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Contact Lists API, Jobs API, Organization Lists API, and 7 more. Tagged areas include Company, Account Intelligence, Sales Intelligence, Data Enrichment, and Go-To-Market.
 
 
-  Sumble''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 31 more developer resources.'
+  Sumble''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 32 more developer resources.'
 plans:
 - name: Sumble Plans Pricing
   plan_count: 3
   slug: sumble-plans-pricing
-random_paper: 10
+- name: Sumble Price Estimates
+  plan_count: 0
+  slug: sumble-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Sumble Rate Limits
   slug: sumble-rate-limits
 score:
   band: strong
-  composite: 55.4
+  composite: 63.0
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 57.0
+    artifact_dirs: 25
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 67.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 55.4
     developer_ergonomics: 64.3
-    discoverability: 75.0
-    operational_transparency: 31.6
-  previous_composite: 55.3
+    discoverability: 65.0
+    operational_transparency: 42.1
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -525,13 +540,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/screenshots/sumble-2026-08-17T082151.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sumble/sumble-2026-08-17T082151.png
 security:
 - kind: authentication
   name: Sumble Authentication
@@ -545,6 +561,26 @@ security:
   name: Sumble Trust Center
   slug: sumble-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 9
+skills:
+- name: sumble-account-research
+  slug: sumble-account-research
+- name: sumble-account-scoring
+  slug: sumble-account-scoring
+- name: Build an account list and arm it with signals
+  slug: sumble-build-account-list-with-signals
+- name: sumble-crm-cleaning
+  slug: sumble-crm-cleaning
+- name: Enrich and search organizations
+  slug: sumble-enrich-organizations
+- name: Find companies using a technology
+  slug: sumble-find-technology-users
+- name: sumble-mcp
+  slug: sumble-mcp
+- name: sumble-people-scoring
+  slug: sumble-people-scoring
+- name: sumble-territory-planning
+  slug: sumble-territory-planning
 slug: sumble
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The built-in Joomla Web Services API provides RESTful JSON endpoints for managing articles, categories, contacts, banners, menus, modules, tags, custom fields, and user accounts in a Joomla installati
@@ -42,12 +44,12 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/joomla/refs/heads/main/security/joomla-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/joomla/security/joomla-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/joomla-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/joomla/refs/heads/main/security/joomla-domain-security.yml
+  href: https://artifacts.apis.io/joomla/security/joomla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/joomla-domain-security.yml
@@ -80,27 +82,27 @@ common:
   type: X
   url: https://twitter.com/joomla
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/joomla/refs/heads/main/plans/joomla-plans-pricing.yml
+  href: https://artifacts.apis.io/joomla/plans/joomla-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/joomla-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/joomla/refs/heads/main/rate-limits/joomla-rate-limits.yml
+  href: https://artifacts.apis.io/joomla/rate-limits/joomla-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/joomla-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/joomla/refs/heads/main/finops/joomla-finops.yml
+  href: https://artifacts.apis.io/joomla/finops/joomla-finops.yml
   title: ''
   type: FinOps
   url: finops/joomla-finops.yml
 - group: company
-  href: https://raw.githubusercontent.com/api-evangelist/joomla/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/joomla/blogs/blogs.json
   title: ''
   type: BlogPosts
   url: blogs/blogs.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/joomla/refs/heads/main/json-ld/joomla.json
+  href: https://artifacts.apis.io/joomla/json-ld/joomla.json
   title: ''
   type: JSONLD
   url: json-ld/joomla.json
@@ -128,14 +130,14 @@ plans:
 - name: Joomla Plans Pricing
   plan_count: 1
   slug: joomla-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Joomla Rate Limits
   slug: joomla-rate-limits
 score:
   band: emerging
-  composite: 12.1
+  composite: 13.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 39.0
@@ -143,29 +145,29 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 10.7
+    developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 5.3
-  previous_composite: 16.3
+    operational_transparency: 15.8
+  previous_composite: 13.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/joomla/refs/heads/main/screenshots/joomla-2026-06-20T183801.png
+screenshot: https://apis.io/screenshots/joomla/joomla-2026-06-20T183801.png
 security:
 - kind: domain-security
   name: Joomla Domain Security

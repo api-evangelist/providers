@@ -31,14 +31,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-10-17'
+  score: 34.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -90,13 +92,7 @@ apis:
   - id: get-billing-active-devices
     intent: List devices billed as active this period
     question: Which devices count as active in the current billing period?
-  - id: get-billing-subscription
-    intent: View the current subscription plan
-    question: What plan tier is my organization subscribed to right now?
-  - id: get-billing-payment-method
-    intent: List saved payment cards
-    question: Which credit cards are saved on file for my organization?
-  phrasing_ops: 6
+  phrasing_ops: 4
   slug: hubble-network-billing-api
 - baseURL: https://api.hubble.com
   baseurl_source: declared
@@ -106,25 +102,7 @@ apis:
   - id: register-new-devices
     intent: Register new devices in bulk
     question: How do I register a batch of new devices with the right encryption key length?
-  - id: list-devices
-    intent: List registered devices
-    question: What devices are registered to my organization?
-  - id: batch-update-devices
-    intent: Update many devices in one request
-    question: Can I rename or retag a large group of devices with a single call?
-  - id: batch-delete-devices
-    intent: Delete many devices at once
-    question: How do I remove hundreds of devices from my organization in a single request?
-  - id: get-device
-    intent: Look up a single device
-    question: How do I pull up the details for one specific registered device?
-  - id: update-device
-    intent: Rename, retag or relocate one device
-    question: How do I set a fixed install location on one of my devices?
-  - id: delete-device
-    intent: Delete one registered device
-    question: How do I deregister a single device I've retired?
-  phrasing_ops: 7
+  phrasing_ops: 1
   slug: hubble-network-devices-api
 - baseURL: https://api.hubble.com
   baseurl_source: declared
@@ -211,15 +189,17 @@ apis:
     question: How many of my registered devices have never been active?
   phrasing_ops: 4
   slug: hubble-network-platform-metrics-api
-artifact_total: 33
+- baseURL: https://api.hubble.com
+  baseurl_source: declared
+  description: The Satellite API from Hubble Network — 2 operation(s) for satellite.
+  name: Hubble Network Satellite API
+  slug: hubble-network-satellite-api
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Hubble Network Packet Webhooks
   slug: hubble-network-packet-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Hubble Platform API Keys API
   slug: open-hubble-network-api-keys-api
@@ -243,22 +223,22 @@ collections:
   slug: open-hubble-network-platform-metrics-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/capabilities/hubble-network-capability-edges.yml
+  href: https://artifacts.apis.io/hubble-network/capabilities/hubble-network-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hubble-network-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/agentic-access/hubble-network-agentic-access.yml
+  href: https://artifacts.apis.io/hubble-network/agentic-access/hubble-network-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hubble-network-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/security/hubble-network-domain-security.yml
+  href: https://artifacts.apis.io/hubble-network/security/hubble-network-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hubble-network-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/authentication/hubble-network-authentication.yml
+  href: https://artifacts.apis.io/hubble-network/authentication/hubble-network-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hubble-network-authentication.yml
@@ -335,7 +315,7 @@ common:
   type: ChangeLog
   url: https://hubble.com/docs/release-notes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/changelog/hubble-network-changelog.yml
+  href: https://artifacts.apis.io/hubble-network/changelog/hubble-network-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hubble-network-changelog.yml
@@ -344,7 +324,7 @@ common:
   type: Deprecation
   url: https://hubble.com/docs/api-specification/hubble-platform-api
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/lifecycle/hubble-network-lifecycle.yml
+  href: https://artifacts.apis.io/hubble-network/lifecycle/hubble-network-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hubble-network-lifecycle.yml
@@ -353,112 +333,120 @@ common:
   type: Security
   url: https://hubble.com/docs/security/sdk/vulnerability-handling
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/security/hubble-network-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hubble-network/security/hubble-network-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hubble-network-vulnerability-disclosure.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/packages/hubble-network-packages.yml
+  href: https://artifacts.apis.io/hubble-network/packages/hubble-network-packages.yml
   title: ''
   type: Packages
   url: packages/hubble-network-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/packages/hubble-network-packages.yml
+  href: https://artifacts.apis.io/hubble-network/packages/hubble-network-packages.yml
   title: ''
   type: SDKs
   url: packages/hubble-network-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/cli/hubble-network-cli.yml
+  href: https://artifacts.apis.io/hubble-network/cli/hubble-network-cli.yml
   title: ''
   type: CLI
   url: cli/hubble-network-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/sandbox/hubble-network-sandbox.yml
+  href: https://artifacts.apis.io/hubble-network/sandbox/hubble-network-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/hubble-network-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/conventions/hubble-network-conventions.yml
+  href: https://artifacts.apis.io/hubble-network/conventions/hubble-network-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hubble-network-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/conformance/hubble-network-conformance.yml
+  href: https://artifacts.apis.io/hubble-network/conformance/hubble-network-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hubble-network-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/errors/hubble-network-problem-types.yml
+  href: https://artifacts.apis.io/hubble-network/errors/hubble-network-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hubble-network-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/data-model/hubble-network-data-model.yml
+  href: https://artifacts.apis.io/hubble-network/data-model/hubble-network-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hubble-network-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/examples/hubble-network-platform-examples.yml
+  href: https://artifacts.apis.io/hubble-network/examples/hubble-network-platform-examples.yml
   title: ''
   type: Examples
   url: examples/hubble-network-platform-examples.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/rate-limits/hubble-network-rate-limits.yml
+  href: https://artifacts.apis.io/hubble-network/rate-limits/hubble-network-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hubble-network-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/plans/hubble-network-plans-pricing.yml
+  href: https://artifacts.apis.io/hubble-network/plans/hubble-network-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hubble-network-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/asyncapi/hubble-network-packet-webhooks.yml
+  href: https://artifacts.apis.io/hubble-network/asyncapi/hubble-network-packet-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/hubble-network-packet-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hubble-network/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/skills/hubble-network-cloud-api-SKILL.md
+  href: https://artifacts.apis.io/hubble-network/skills/hubble-network-cloud-api-SKILL.md
   title: ''
   type: AgentSkill
   url: skills/hubble-network-cloud-api-SKILL.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/llms/hubble-network-llms.txt
+  href: https://artifacts.apis.io/hubble-network/llms/hubble-network-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hubble-network-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/overlays/hubble-network-platform-overlay.yaml
+  href: https://artifacts.apis.io/hubble-network/overlays/hubble-network-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hubble-network-platform-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/scopes/hubble-network-scopes.yml
+  href: https://artifacts.apis.io/hubble-network/scopes/hubble-network-scopes.yml
   title: ''
   type: Scopes
   url: scopes/hubble-network-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/mcp/hubble-network-mcp.yml
+  href: https://artifacts.apis.io/hubble-network/mcp/hubble-network-mcp.yml
   title: ''
   type: MCPServerCandidate
   url: mcp/hubble-network-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/mcp/hubble-network-tool-crosswalk.yml
+  href: https://artifacts.apis.io/hubble-network/mcp/hubble-network-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/hubble-network-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/well-known/hubble-network-well-known.yml
+  href: https://artifacts.apis.io/hubble-network/well-known/hubble-network-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/hubble-network-well-known.yml
 created: '2026-08-04'
 description: 'Hubble Network is a Seattle-based IoT connectivity company, founded in 2021 by Alex Haro (Life360) and Ben Wild (Amazon Sidewalk), building a dual-stack global network that any standard Bluetooth Low Energy 5.0+ chip can reach with no modem and no custom radio hardware. The Terrestrial Network aggregates 100M+ BLE scanning gateways across 2,500+ cities, and a low-Earth-orbit Satellite Network is rolling out on the same silicon. The platform is built API-first: the Hubble Platform (Cloud) API at api.hubble.com covers device registration and lifecycle, encrypted packet retrieval and streaming, packet webhooks, platform metrics, organization and user administration, scoped API keys, and billing. Hubble publishes a public OpenAPI definition, an open-source Device SDK in C, a Python SDK/CLI, gateway SDKs for Linux, iOS and Android, and an official Claude Code agent skill for its Cloud API.'
+finops:
+- has_sources: true
+  method: derived
+  name: Hubble Network Finops
+  primary_unit: device
+  service_category: ''
+  slug: hubble-network-finops
+  template: false
 image: https://hubble.com/favicon.ico
 json_schemas:
 - name: Hubble API Key
@@ -496,7 +484,7 @@ modified: '2026-08-04'
 name: Hubble Network
 nav: Providers
 network: true
-overview: 'Hubble Network publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, Billing API, Devices API, and 4 more. Tagged areas include Company, IoT, Bluetooth, Satellite, and Connectivity.
+overview: 'Hubble Network publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including API Keys API, Billing API, Devices API, and 5 more. Tagged areas include Company, IoT, Bluetooth, Satellite, and Connectivity.
 
 
   The Hubble Network catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -505,9 +493,12 @@ overview: 'Hubble Network publishes 7 API contracts indexed on the [APIs.io](htt
   Hubble Network''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 40 more developer resources.'
 plans:
 - name: Hubble Network Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: hubble-network-plans-pricing
-random_paper: 19
+- name: Hubble Network Price Estimates
+  plan_count: 0
+  slug: hubble-network-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 7
   name: Hubble Network Rate Limits
@@ -519,22 +510,22 @@ scopes:
   summary_line: 16 scopes
 score:
   band: exemplar
-  composite: 70.5
+  composite: 73.8
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 70.0
+    artifact_dirs: 31
+    catalog_earned: 73.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 45.0
+    catalog_gap: 42.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 66.0
+    contract_quality: 66.3
     developer_ergonomics: 85.7
-    discoverability: 73.2
-    operational_transparency: 92.1
+    discoverability: 66.1
+    operational_transparency: 94.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -542,7 +533,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 70.4
+  previous_composite: 72.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -550,7 +541,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 16
     mcp: derived
     skills: first-party
   regulatory:
@@ -559,13 +550,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/screenshots/hubble-network-2026-08-17T075400.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hubble-network/hubble-network-2026-08-17T075400.png
 security:
 - kind: authentication
   name: Hubble Network Authentication
@@ -579,6 +571,14 @@ security:
   name: Hubble Network Vulnerability Disclosure
   slug: hubble-network-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 3
+skills:
+- name: hubble-cloud-api
+  slug: hubble-network-cloud-api-SKILL
+- name: hubble-network-configure-packet-webhook
+  slug: hubble-network-configure-packet-webhook
+- name: hubble-network-onboard-devices-and-pull-packets
+  slug: hubble-network-onboard-devices-and-pull-packets
 slug: hubble-network
 tags:
 - Company

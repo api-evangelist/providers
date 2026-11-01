@@ -1,6 +1,7 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -11,48 +12,55 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: documented
+    openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.3
-  scored_at: '2026-10-17'
-api_count: 1
+  score: 42.8
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - description: CurrencyFair API for international money transfers
   name: CurrencyFair API
   slug: currencyfair-api
-artifact_total: 2
+- baseURL: https://api.currencyfair.com/
+  baseurl_source: declared
+  description: The CurrencyFair API from Currencyfair — 209 operation(s) for currencyfair.
+  name: Currencyfair Currency Fair API
+  slug: currencyfair-currencyfair-api
+artifact_total: 3
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/currencyfair/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/currencyfair/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/currencyfair/refs/heads/main/conformance/currencyfair-conformance.yml
+  href: https://artifacts.apis.io/currencyfair/conformance/currencyfair-conformance.yml
   title: ''
   type: Conformance
   url: conformance/currencyfair-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/currencyfair/refs/heads/main/well-known/currencyfair-well-known.yml
+  href: https://artifacts.apis.io/currencyfair/well-known/currencyfair-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/currencyfair-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/currencyfair/refs/heads/main/hosts/currencyfair-hosts.yml
+  href: https://artifacts.apis.io/currencyfair/hosts/currencyfair-hosts.yml
   title: ''
   type: Hosts
   url: hosts/currencyfair-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/currencyfair/refs/heads/main/vendors/currencyfair-vendors.yml
+  href: https://artifacts.apis.io/currencyfair/vendors/currencyfair-vendors.yml
   title: ''
   type: Vendors
   url: vendors/currencyfair-vendors.yml
@@ -77,7 +85,7 @@ common:
   type: Login
   url: https://app.currencyfair.com/login/login
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/currencyfair/refs/heads/main/security/currencyfair-domain-security.yml
+  href: https://artifacts.apis.io/currencyfair/security/currencyfair-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/currencyfair-domain-security.yml
@@ -104,30 +112,37 @@ modified: '2026-10-12'
 name: Currencyfair
 nav: Providers
 network: true
-overview: 'Currencyfair is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Money Transfer, International Payments, and Foreign Exchange.
+overview: 'Currencyfair is listed with 2 APIs on the [APIs.io](https://apis.io/) network, including Currency Fair API, and 1 more. Tagged areas include Company, Fintech, Money Transfer, International Payments, and Foreign Exchange.
 
 
   Currencyfair''s developer surface includes engineering blog, support, documentation, and 12 more developer resources.'
-random_paper: 17
+random_paper: 21
 score:
-  band: emerging
-  composite: 22.3
+  band: thin
+  composite: 34.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 10.2
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 0.0
+    contract_quality: 44.7
     developer_ergonomics: 23.1
     discoverability: 62.5
     operational_transparency: 10.5
+  previous_composite: 23.8
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
     mcp: unknown
     skills: unknown
   regulatory:
@@ -135,9 +150,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 30.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

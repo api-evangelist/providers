@@ -27,15 +27,17 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 26.2
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://develocity.example.com/api
   baseurl_source: declared
@@ -82,11 +84,8 @@ apis:
   description: Endpoints related to retrieving details of tests of the Develocity instance. To access these endpoints the user requires the `Access build data via the API` permission. The Develocity installation als
   name: Gradle Tests API
   slug: gradle-tests-api
-artifact_total: 26
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Develocity Auth API
   slug: open-gradle-auth-api
@@ -121,8 +120,12 @@ collections:
   name: Develocity Auth Tests API
   slug: open-gradle-tests-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/gradle/overview
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/capabilities/gradle-capability-edges.yml
+  href: https://artifacts.apis.io/gradle/capabilities/gradle-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/gradle-capability-edges.yml
@@ -167,77 +170,77 @@ common:
   type: PrivacyPolicy
   url: https://gradle.com/legal/privacy/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/openapi/_original/gradle-develocity-openapi.yaml
+  href: https://artifacts.apis.io/gradle/openapi/_original/gradle-develocity-openapi.yaml
   title: ''
   type: OpenAPI
   url: openapi/_original/gradle-develocity-openapi.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/llms/gradle-llms.txt
+  href: https://artifacts.apis.io/gradle/llms/gradle-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gradle-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/packages/gradle-packages.yml
+  href: https://artifacts.apis.io/gradle/packages/gradle-packages.yml
   title: ''
   type: Packages
   url: packages/gradle-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/packages/gradle-packages.yml
+  href: https://artifacts.apis.io/gradle/packages/gradle-packages.yml
   title: ''
   type: SDKs
   url: packages/gradle-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/mcp/gradle-mcp.yml
+  href: https://artifacts.apis.io/gradle/mcp/gradle-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/gradle-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/well-known/gradle-well-known.yml
+  href: https://artifacts.apis.io/gradle/well-known/gradle-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gradle-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/well-known/gradle-security.txt
+  href: https://artifacts.apis.io/gradle/well-known/gradle-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/gradle-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/authentication/gradle-authentication.yml
+  href: https://artifacts.apis.io/gradle/authentication/gradle-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gradle-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/conventions/gradle-conventions.yml
+  href: https://artifacts.apis.io/gradle/conventions/gradle-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gradle-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/errors/gradle-problem-types.yml
+  href: https://artifacts.apis.io/gradle/errors/gradle-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gradle-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/conformance/gradle-conformance.yml
+  href: https://artifacts.apis.io/gradle/conformance/gradle-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gradle-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/security/gradle-trust-center.yml
+  href: https://artifacts.apis.io/gradle/security/gradle-trust-center.yml
   title: ''
   type: Compliance
   url: security/gradle-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/data-model/gradle-data-model.yml
+  href: https://artifacts.apis.io/gradle/data-model/gradle-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gradle-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/overlays/gradle-develocity-overlay.yaml
+  href: https://artifacts.apis.io/gradle/overlays/gradle-develocity-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gradle-develocity-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/lifecycle/gradle-lifecycle.yml
+  href: https://artifacts.apis.io/gradle/lifecycle/gradle-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gradle-lifecycle.yml
@@ -250,22 +253,22 @@ common:
   type: Deprecation
   url: https://docs.develocity.ai/2026.2/miscellaneous/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/changelog/gradle-changelog.yml
+  href: https://artifacts.apis.io/gradle/changelog/gradle-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/gradle-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/cli/gradle-cli.yml
+  href: https://artifacts.apis.io/gradle/cli/gradle-cli.yml
   title: ''
   type: CLI
   url: cli/gradle-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/security/gradle-domain-security.yml
+  href: https://artifacts.apis.io/gradle/security/gradle-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gradle-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/security/gradle-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gradle/security/gradle-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gradle-vulnerability-disclosure.yml
@@ -274,12 +277,12 @@ common:
   type: Security
   url: https://github.com/gradle/.github/blob/master/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/security/gradle-trust-center.yml
+  href: https://artifacts.apis.io/gradle/security/gradle-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gradle-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/gradle/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -298,26 +301,26 @@ network: true
 overview: 'Gradle publishes 9 API contracts indexed on the [APIs.io](https://apis.io/) network, including Auth API, BuildCache API, Builds API, and 6 more. Tagged areas include Company, Developer Tools, Build Automation, Developer Productivity, and CI/CD.
 
 
-  Gradle''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 28 more developer resources.'
-random_paper: 7
+  Gradle''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 29 more developer resources.'
+random_paper: 23
 score:
   band: strong
-  composite: 57.1
+  composite: 54.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.2
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 53.4
-    developer_ergonomics: 73.2
-    discoverability: 71.7
-    operational_transparency: 52.6
+    contract_quality: 50.0
+    developer_ergonomics: 74.4
+    discoverability: 65.0
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -325,7 +328,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 57.0
+  previous_composite: 54.4
   provenance:
     conformance: derived
     contracts:
@@ -345,13 +348,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/screenshots/gradle-2026-07-25T220203.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gradle/gradle-2026-07-25T220203.png
 security:
 - kind: authentication
   name: Gradle Authentication
@@ -369,6 +373,14 @@ security:
   name: Gradle Trust Center
   slug: gradle-trust-center
   summary_line: SOC 2 Type 1, SOC 2 Type 2
+skill_count: 3
+skills:
+- name: Inspect a build and its performance
+  slug: gradle-inspect-build
+- name: Manage Test Distribution agent pools
+  slug: gradle-manage-test-distribution
+- name: Triage build failures
+  slug: gradle-triage-failures
 slug: gradle
 tags:
 - Company

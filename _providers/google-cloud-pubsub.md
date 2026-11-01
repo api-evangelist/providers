@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-17'
+  score: 25.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -59,15 +61,12 @@ apis:
   description: Operations for managing Pub/Sub topics
   name: Google Cloud Pub/Sub Topics API
   slug: google-cloud-pubsub-topics-api
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: Google Cloud Pub/Sub is a fully managed, real-time messaging service for sending and receiving messages between independent applications. This AsyncAPI document describes Pub/Sub's event-driven surfac
   name: Google Cloud Pub/Sub Messaging Surface
   slug: google-cloud-pubsub-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Cloud Pub/Sub Schemas API
   slug: open-google-cloud-pubsub-schemas-api
@@ -82,17 +81,17 @@ collections:
   slug: open-google-cloud-pubsub
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/plans/google-cloud-pubsub-plans-pricing.yml
+  href: https://artifacts.apis.io/google-cloud-pubsub/plans/google-cloud-pubsub-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-cloud-pubsub-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/rate-limits/google-cloud-pubsub-rate-limits.yml
+  href: https://artifacts.apis.io/google-cloud-pubsub/rate-limits/google-cloud-pubsub-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-cloud-pubsub-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/finops/google-cloud-pubsub-finops.yml
+  href: https://artifacts.apis.io/google-cloud-pubsub/finops/google-cloud-pubsub-finops.yml
   title: ''
   type: FinOps
   url: finops/google-cloud-pubsub-finops.yml
@@ -101,27 +100,27 @@ common:
   type: Website
   url: https://www.google.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/agentic-access/google-cloud-pubsub-agentic-access.yml
+  href: https://artifacts.apis.io/google-cloud-pubsub/agentic-access/google-cloud-pubsub-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-cloud-pubsub-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/security/google-cloud-pubsub-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-cloud-pubsub/security/google-cloud-pubsub-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-cloud-pubsub-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/security/google-cloud-pubsub-domain-security.yml
+  href: https://artifacts.apis.io/google-cloud-pubsub/security/google-cloud-pubsub-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-cloud-pubsub-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/authentication/google-cloud-pubsub-authentication.yml
+  href: https://artifacts.apis.io/google-cloud-pubsub/authentication/google-cloud-pubsub-authentication.yml
   title: ''
   type: Authentication
   url: authentication/google-cloud-pubsub-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/scopes/google-cloud-pubsub-scopes.yml
+  href: https://artifacts.apis.io/google-cloud-pubsub/scopes/google-cloud-pubsub-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/google-cloud-pubsub-scopes.yml
@@ -138,7 +137,7 @@ common:
   type: Pricing
   url: https://cloud.google.com/pubsub/pricing
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/json-ld/google-cloud-pubsub-context.jsonld
+  href: https://artifacts.apis.io/google-cloud-pubsub/json-ld/google-cloud-pubsub-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-cloud-pubsub-context.jsonld
@@ -148,7 +147,7 @@ finops:
 - has_sources: false
   method: generated
   name: Google Cloud Pubsub Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: google-cloud-pubsub-finops
   template: true
@@ -178,7 +177,7 @@ plans:
 - name: Google Cloud Pubsub Plans Pricing
   plan_count: 3
   slug: google-cloud-pubsub-plans-pricing
-random_paper: 5
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Google Cloud Pubsub Rate Limits
@@ -213,8 +212,8 @@ scopes:
   slug: google-cloud-pubsub-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: thin
-  composite: 37.3
+  band: developing
+  composite: 39.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 55.9
@@ -222,15 +221,15 @@ score:
     catalog_gap: 59.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 65.4
     developer_ergonomics: 33.3
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 38.8
+    operational_transparency: 23.7
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -244,13 +243,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/screenshots/google-cloud-pubsub-2026-06-20T182128.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-cloud-pubsub/google-cloud-pubsub-2026-06-20T182128.png
 security:
 - kind: authentication
   name: Google Cloud Pubsub Authentication

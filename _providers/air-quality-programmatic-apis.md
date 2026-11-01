@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: The Stations API from Air Quality Programmatic APIs — 5 operation(s) for stations.
   name: Air Quality Programmatic APIs Stations API
   slug: air-quality-programmatic-apis-stations-api
-artifact_total: 60
+artifact_total: 59
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Air Quality Programmatic APIs Real-time Air Quality Tile Air Quality Programmatic APIs Real Time Air Quality Tile API API
   slug: open-air-quality-programmatic-apis-air-quality-programmatic-apis-real-time-air-quality-tile-api-api
@@ -83,17 +82,17 @@ collections:
   slug: open-air-quality-programmatic-apis
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/plans/air-quality-programmatic-apis-plans-pricing.yml
+  href: https://artifacts.apis.io/air-quality-programmatic-apis/plans/air-quality-programmatic-apis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/air-quality-programmatic-apis-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/rate-limits/air-quality-programmatic-apis-rate-limits.yml
+  href: https://artifacts.apis.io/air-quality-programmatic-apis/rate-limits/air-quality-programmatic-apis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/air-quality-programmatic-apis-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/finops/air-quality-programmatic-apis-finops.yml
+  href: https://artifacts.apis.io/air-quality-programmatic-apis/finops/air-quality-programmatic-apis-finops.yml
   title: ''
   type: FinOps
   url: finops/air-quality-programmatic-apis-finops.yml
@@ -106,17 +105,17 @@ common:
   type: Website
   url: https://www.aqicn.org/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/agentic-access/air-quality-programmatic-apis-agentic-access.yml
+  href: https://artifacts.apis.io/air-quality-programmatic-apis/agentic-access/air-quality-programmatic-apis-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/air-quality-programmatic-apis-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/security/air-quality-programmatic-apis-domain-security.yml
+  href: https://artifacts.apis.io/air-quality-programmatic-apis/security/air-quality-programmatic-apis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/air-quality-programmatic-apis-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/authentication/air-quality-programmatic-apis-authentication.yml
+  href: https://artifacts.apis.io/air-quality-programmatic-apis/authentication/air-quality-programmatic-apis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/air-quality-programmatic-apis-authentication.yml
@@ -145,12 +144,12 @@ common:
   type: TermsOfService
   url: https://aqicn.org/api/tos/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/rules/aqicn-spectral-rules.yml
+  href: https://artifacts.apis.io/air-quality-programmatic-apis/rules/aqicn-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/aqicn-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/vocabulary/aqicn-vocabulary.yaml
+  href: https://artifacts.apis.io/air-quality-programmatic-apis/vocabulary/aqicn-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/aqicn-vocabulary.yaml
@@ -205,7 +204,7 @@ finops:
 - has_sources: false
   method: generated
   name: Air Quality Programmatic Apis Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: air-quality-programmatic-apis-finops
   template: true
@@ -287,7 +286,7 @@ plans:
 - name: Air Quality Programmatic Apis Plans Pricing
   plan_count: 3
   slug: air-quality-programmatic-apis-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Air Quality Programmatic Apis Rate Limits
@@ -330,7 +329,7 @@ rules:
   slug: aqicn-spectral-rules
 score:
   band: thin
-  composite: 31.5
+  composite: 31.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 58.0
@@ -338,15 +337,15 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 33.0
     developer_ergonomics: 40.5
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 32.6
+    operational_transparency: 13.2
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -360,14 +359,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/screenshots/air-quality-programmatic-apis-2026-06-20T171420.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/air-quality-programmatic-apis/air-quality-programmatic-apis-2026-06-20T171420.png
 security:
 - kind: authentication
   name: Air Quality Programmatic Apis Authentication

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,20 +37,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Bearer-auth REST API and multiplexed WebSocket streaming surface for the Sequence Markets trading OS — credentials & wallets, market data, orders & execution graphs, positions & balances, prediction m
   name: Sequence Markets Trading API
   slug: sequence-markets-trading-api
-artifact_total: 4
+artifact_total: 7
 asyncapis:
 - description: Multiplexed WebSocket streaming surface for the Sequence Markets trading OS, generated faithfully from the documented channel catalog at docs.sequencemkts.com/api/streaming. Not an official provider-p
   name: Sequence Markets Streaming API
   slug: sequence-markets-streaming-asyncapi
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/security/sequence-markets-domain-security.yml
+  href: https://artifacts.apis.io/sequence-markets/security/sequence-markets-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sequence-markets-domain-security.yml
@@ -89,92 +91,92 @@ common:
   type: SignUp
   url: https://sequencemkts.com/signup
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/authentication/sequence-markets-authentication.yml
+  href: https://artifacts.apis.io/sequence-markets/authentication/sequence-markets-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sequence-markets-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/conventions/sequence-markets-conventions.yml
+  href: https://artifacts.apis.io/sequence-markets/conventions/sequence-markets-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sequence-markets-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/conventions/sequence-markets-conventions.yml
+  href: https://artifacts.apis.io/sequence-markets/conventions/sequence-markets-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/sequence-markets-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/packages/sequence-markets-packages.yml
+  href: https://artifacts.apis.io/sequence-markets/packages/sequence-markets-packages.yml
   title: ''
   type: Packages
   url: packages/sequence-markets-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/packages/sequence-markets-packages.yml
+  href: https://artifacts.apis.io/sequence-markets/packages/sequence-markets-packages.yml
   title: ''
   type: SDKs
   url: packages/sequence-markets-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/cli/sequence-markets-cli.yml
+  href: https://artifacts.apis.io/sequence-markets/cli/sequence-markets-cli.yml
   title: ''
   type: CLI
   url: cli/sequence-markets-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/sandbox/sequence-markets-sandbox.yml
+  href: https://artifacts.apis.io/sequence-markets/sandbox/sequence-markets-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/sequence-markets-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/conventions/sequence-markets-conventions.yml
+  href: https://artifacts.apis.io/sequence-markets/conventions/sequence-markets-conventions.yml
   title: ''
   type: RateLimits
   url: conventions/sequence-markets-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/errors/sequence-markets-problem-types.yml
+  href: https://artifacts.apis.io/sequence-markets/errors/sequence-markets-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sequence-markets-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/mcp/sequence-markets-mcp.yml
+  href: https://artifacts.apis.io/sequence-markets/mcp/sequence-markets-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sequence-markets-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/llms/sequence-markets-llms.txt
+  href: https://artifacts.apis.io/sequence-markets/llms/sequence-markets-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sequence-markets-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/well-known/sequence-markets-well-known.yml
+  href: https://artifacts.apis.io/sequence-markets/well-known/sequence-markets-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sequence-markets-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/lifecycle/sequence-markets-lifecycle.yml
+  href: https://artifacts.apis.io/sequence-markets/lifecycle/sequence-markets-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sequence-markets-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/conformance/sequence-markets-conformance.yml
+  href: https://artifacts.apis.io/sequence-markets/conformance/sequence-markets-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sequence-markets-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/data-model/sequence-markets-data-model.yml
+  href: https://artifacts.apis.io/sequence-markets/data-model/sequence-markets-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sequence-markets-data-model.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/asyncapi/sequence-markets-streaming-asyncapi.yml
+  href: https://artifacts.apis.io/sequence-markets/asyncapi/sequence-markets-streaming-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/sequence-markets-streaming-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/asyncapi/sequence-markets-streaming-asyncapi.yml
+  href: https://artifacts.apis.io/sequence-markets/asyncapi/sequence-markets-streaming-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/sequence-markets-streaming-asyncapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sequence-markets/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -193,12 +195,12 @@ overview: 'Sequence Markets is listed with 1 API on the [APIs.io](https://apis.i
 
 
   Sequence Markets'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, sandbox, and 21 more developer resources.'
-random_paper: 11
+random_paper: 5
 score:
   band: developing
-  composite: 40.8
+  composite: 40.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -210,9 +212,9 @@ score:
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 40.8
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 40.5
   provenance:
     conformance: derived
     mcp: derived
@@ -223,14 +225,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sequence-markets/refs/heads/main/screenshots/sequence-markets-2026-08-17T081812.png
+screenshot: https://apis.io/screenshots/sequence-markets/sequence-markets-2026-08-17T081812.png
 security:
 - kind: authentication
   name: Sequence Markets Authentication
@@ -240,6 +242,14 @@ security:
   name: Sequence Markets Domain Security
   slug: sequence-markets-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Connect a venue and check the unified portfolio
+  slug: sequence-markets-connect-venue-and-check-portfolio
+- name: Deploy a WASM algo strategy
+  slug: sequence-markets-deploy-wasm-algo
+- name: Place a smart-routed order
+  slug: sequence-markets-place-smart-routed-order
 slug: sequence-markets
 tags:
 - Company

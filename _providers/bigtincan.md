@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 28.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -133,35 +135,65 @@ apis:
   description: The User Metadata API from Bigtincan — 2 operation(s) for user metadata.
   name: Bigtincan User Metadata API
   slug: bigtincan-user-metadata-api
-artifact_total: 26
+artifact_total: 55
 common:
+- group: design
+  href: https://artifacts.apis.io/bigtincan/rules/bigtincan-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/bigtincan-rules.yml
+- group: design
+  href: https://artifacts.apis.io/bigtincan/json-ld/bigtincan-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/bigtincan-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/bigtincan/vocabulary/bigtincan-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/bigtincan-vocabulary.yml
+- group: operate
+  href: https://artifacts.apis.io/bigtincan/lifecycle/bigtincan-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/bigtincan-lifecycle.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/capabilities/bigtincan-capability-edges.yml
+  href: https://artifacts.apis.io/bigtincan/hosts/bigtincan-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/bigtincan-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/bigtincan/integrations/bigtincan-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/bigtincan-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/bigtincan/vendors/bigtincan-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/bigtincan-vendors.yml
+- group: other
+  href: https://artifacts.apis.io/bigtincan/capabilities/bigtincan-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bigtincan-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/agentic-access/bigtincan-agentic-access.yml
+  href: https://artifacts.apis.io/bigtincan/agentic-access/bigtincan-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bigtincan-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/scopes/bigtincan-scopes.yml
-  title: ''
-  type: OAuthScopes
-  url: scopes/bigtincan-scopes.yml
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/authentication/bigtincan-authentication.yml
+  href: https://artifacts.apis.io/bigtincan/authentication/bigtincan-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bigtincan-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/security/bigtincan-trust-center.yml
+  href: https://artifacts.apis.io/bigtincan/security/bigtincan-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bigtincan-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/security/bigtincan-domain-security.yml
+  href: https://artifacts.apis.io/bigtincan/security/bigtincan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bigtincan-domain-security.yml
@@ -178,75 +210,70 @@ common:
   type: APIReference
   url: https://pubapi.bigtincan.com/doc/interactive/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/openapi/_original/bigtincan-hub-api-openapi.json
+  href: https://artifacts.apis.io/bigtincan/openapi/_original/bigtincan-hub-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/bigtincan-hub-api-openapi.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/overlays/bigtincan-hub-api-overlay.yaml
+  href: https://artifacts.apis.io/bigtincan/overlays/bigtincan-hub-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bigtincan-hub-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/conventions/bigtincan-conventions.yml
+  href: https://artifacts.apis.io/bigtincan/conventions/bigtincan-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bigtincan-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/errors/bigtincan-problem-types.yml
+  href: https://artifacts.apis.io/bigtincan/errors/bigtincan-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bigtincan-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/data-model/bigtincan-data-model.yml
+  href: https://artifacts.apis.io/bigtincan/data-model/bigtincan-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bigtincan-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/lifecycle/bigtincan-lifecycle.yml
+  href: https://artifacts.apis.io/bigtincan/lifecycle/bigtincan-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bigtincan-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/changelog/bigtincan-changelog.yml
+  href: https://artifacts.apis.io/bigtincan/changelog/bigtincan-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bigtincan-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/conformance/bigtincan-conformance.yml
+  href: https://artifacts.apis.io/bigtincan/conformance/bigtincan-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bigtincan-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/conformance/bigtincan-conformance.yml
+  href: https://artifacts.apis.io/bigtincan/conformance/bigtincan-conformance.yml
   title: ''
   type: Compliance
   url: conformance/bigtincan-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/packages/bigtincan-packages.yml
+  href: https://artifacts.apis.io/bigtincan/packages/bigtincan-packages.yml
   title: ''
   type: Packages
   url: packages/bigtincan-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/packages/bigtincan-packages.yml
+  href: https://artifacts.apis.io/bigtincan/packages/bigtincan-packages.yml
   title: ''
   type: SDKs
   url: packages/bigtincan-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/mcp/bigtincan-mcp.yml
+  href: https://artifacts.apis.io/bigtincan/mcp/bigtincan-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/bigtincan-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bigtincan/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/llms/bigtincan-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/bigtincan-llms.txt
 - group: company
   title: ''
   type: Blog
@@ -291,50 +318,171 @@ common:
   title: ''
   type: X
   url: https://x.com/bigtincan
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.bigtincan.com/get-started/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.bigtincan.com/company/newsroom/
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.bigtincan.com/platform/security/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://help.bigtincan.com/hc/en-us/articles/38235442565010
+- group: company
+  title: ''
+  type: AboutUs
+  url: https://www.bigtincan.com/company/
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.bigtincan.com/company/careers/
+- group: company
+  title: ''
+  type: Partners
+  url: https://www.bigtincan.com/company/partners/
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@bigtincanofficial
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/plans/bigtincan-plans-pricing.yml
+  href: https://artifacts.apis.io/bigtincan/plans/bigtincan-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bigtincan-plans-pricing.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/rate-limits/bigtincan-rate-limits.yml
-  title: ''
-  type: RateLimits
-  url: rate-limits/bigtincan-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/finops/bigtincan-finops.yml
+  href: https://artifacts.apis.io/bigtincan/finops/bigtincan-finops.yml
   title: ''
   type: FinOps
   url: finops/bigtincan-finops.yml
 created: '2026-06-13'
-description: Bigtincan is an industry-leading sales enablement automation platform providing a REST API for managing sales content, training and coaching programs, buyer engagement analytics, digital sales rooms, and CRM content sync. The platform combines AI-powered content management, sales readiness tools, and buyer engagement capabilities to help revenue teams close deals faster.
+description: Bigtincan is an AI-powered sales enablement platform that helps customer-facing teams deliver personalized, measurable buying experiences, combining sales content management, training and coaching (sales readiness), buyer engagement analytics, digital sales rooms and CRM content sync. Its Hub Public API (pubapi.bigtincan.com) exposes REST operations for stories, channels, tabs, files, forms, groups, users, search and events. Bigtincan's own site states that Bigtincan and Showpad are now together building a combined revenue effectiveness solution, and its trust center is branded Showpad + Bigtincan.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Bigtincan Finops
   primary_unit: ''
   service_category: ''
   slug: bigtincan-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bigtincan.png
+json_schemas:
+- name: Add_Comment_Request
+  property_count: 2
+  slug: bigtincan-add-comment-request
+- name: Add_Group_Request
+  property_count: 3
+  slug: bigtincan-add-group-request
+- name: Add_Group_To_Tab_Request
+  property_count: 0
+  slug: bigtincan-add-group-to-tab-request
+- name: Add_Personal_Channel_Request
+  property_count: 2
+  slug: bigtincan-add-personal-channel-request
+- name: Add_Public_Channel_Request
+  property_count: 6
+  slug: bigtincan-add-public-channel-request
+- name: Add_Story_Request
+  property_count: 18
+  slug: bigtincan-add-story-request
+- name: Add_Tab_Request
+  property_count: 2
+  slug: bigtincan-add-tab-request
+- name: Add_tags_to_file
+  property_count: 0
+  slug: bigtincan-add-tags-to-file
+- name: Add_User_Request
+  property_count: 15
+  slug: bigtincan-add-user-request
+- name: Add_User_to_Group_Request
+  property_count: 0
+  slug: bigtincan-add-user-to-group-request
+- name: Change_Password_Request
+  property_count: 2
+  slug: bigtincan-change-password-request
+- name: Create_Share_Request
+  property_count: 2
+  slug: bigtincan-create-share-request
+- name: Get_Channels_Request
+  property_count: 1
+  slug: bigtincan-get-channels-request
+- name: Get_links_from_URN
+  property_count: 1
+  slug: bigtincan-get-links-from-urn
+- name: Modify_channel_request
+  property_count: 5
+  slug: bigtincan-modify-channel-request
+- name: Modify_Group_Request
+  property_count: 3
+  slug: bigtincan-modify-group-request
+- name: Modify_tab_request
+  property_count: 3
+  slug: bigtincan-modify-tab-request
+- name: Record_Interaction_Request
+  property_count: 2
+  slug: bigtincan-record-interaction-request
+- name: Reset_Password_Request
+  property_count: 1
+  slug: bigtincan-reset-password-request
+- name: Share_Story_Request
+  property_count: 6
+  slug: bigtincan-share-story-request
+- name: Update_channel_Request
+  property_count: 3
+  slug: bigtincan-update-channel-request
+- name: Update_Story_Request
+  property_count: 21
+  slug: bigtincan-update-story-request
+- name: Update_User_Metadata_Request
+  property_count: 0
+  slug: bigtincan-update-user-metadata-request
+- name: Update_User_Request
+  property_count: 16
+  slug: bigtincan-update-user-request
+jsonld:
+- class_count: 25
+  name: Bigtincan Context
+  property_count: 67
+  slug: bigtincan-context
 layout: provider
-modified: '2026-09-16'
+modified: '2026-10-21'
 name: Bigtincan
 nav: Providers
 network: true
 overview: 'Bigtincan publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Admin API, Bookmark API, Channel API, and 15 more. Tagged areas include Sales Enablement, Content Management, Training, Coaching, and Buyer Engagement.
 
 
-  Bigtincan''s developer surface includes authentication, documentation, API reference, changelog, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  The Bigtincan catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Bigtincan''s developer surface includes authentication, documentation, API reference, changelog, engineering blog, pricing, signup flow, and 42 more developer resources.'
 plans:
 - name: Bigtincan Plans Pricing
   plan_count: 5
   slug: bigtincan-plans-pricing
-random_paper: 19
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Bigtincan Rate Limits
   slug: bigtincan-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Bigtincan API Rules
+  rule_count: 16
+  severity_counts:
+    error: 12
+    hint: 0
+    info: 2
+    warn: 2
+  slug: bigtincan-rules
 scopes:
 - name: Bigtincan Scopes
   scope_count: 0
@@ -342,23 +490,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 55.1
+  composite: 63.5
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 49.0
+    artifact_dirs: 32
+    catalog_earned: 74.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 92.1
-    contract_governance: 4.5
-    contract_quality: 43.4
-    developer_ergonomics: 44.6
-    discoverability: 66.1
-    operational_transparency: 31.6
-  previous_composite: 56.6
+    contract_governance: 22.0
+    contract_quality: 57.0
+    developer_ergonomics: 56.5
+    discoverability: 67.9
+    operational_transparency: 50.0
+  previous_composite: 63.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -375,13 +523,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/screenshots/bigtincan-2026-06-20T173235.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bigtincan/bigtincan-2026-06-20T173235.png
 security:
 - kind: authentication
   name: Bigtincan Authentication
@@ -394,7 +543,15 @@ security:
 - kind: trust-center
   name: Bigtincan Trust Center
   slug: bigtincan-trust-center
-  summary_line: SOC 2 Type II, ISO/IEC 27001, ISO/IEC 27701
+  summary_line: SOC 2, ISO 27001
+skill_count: 3
+skills:
+- name: bigtincan-provision-users-and-access
+  slug: bigtincan-provision-users-and-access
+- name: bigtincan-publish-story
+  slug: bigtincan-publish-story
+- name: bigtincan-share-content-externally
+  slug: bigtincan-share-content-externally
 slug: bigtincan
 tags:
 - Sales Enablement

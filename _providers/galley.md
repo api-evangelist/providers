@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,22 +25,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/galley/refs/heads/main/plans/galley-plans-pricing.yml
+  href: https://artifacts.apis.io/galley/plans/galley-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/galley-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/galley/refs/heads/main/hosts/galley-hosts.yml
+  href: https://artifacts.apis.io/galley/hosts/galley-hosts.yml
   title: ''
   type: Hosts
   url: hosts/galley-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/galley/refs/heads/main/vendors/galley-vendors.yml
+  href: https://artifacts.apis.io/galley/vendors/galley-vendors.yml
   title: ''
   type: Vendors
   url: vendors/galley-vendors.yml
@@ -47,7 +49,7 @@ common:
   type: Support
   url: https://support.galleysolutions.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/galley/refs/heads/main/security/galley-domain-security.yml
+  href: https://artifacts.apis.io/galley/security/galley-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/galley-domain-security.yml
@@ -87,7 +89,7 @@ modified: '2026-10-13'
 name: Galley
 nav: Providers
 network: true
-overview: 'Galley is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Culinary, Software-as-a-Service, ResourcePlanning, and RestaurantTech.
+overview: 'Galley is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Culinary, Software-as-a-Service, Resource Planning, and RestaurantTech.
 
 
   Galley''s developer surface includes support, pricing, engineering blog, getting-started guide, and 6 more developer resources.'
@@ -95,7 +97,7 @@ plans:
 - name: Galley Plans Pricing
   plan_count: 1
   slug: galley-plans-pricing
-random_paper: 0
+random_paper: 14
 score:
   band: emerging
   composite: 16.2
@@ -106,6 +108,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
@@ -113,6 +116,7 @@ score:
     developer_ergonomics: 19.0
     discoverability: 48.2
     operational_transparency: 0.0
+  previous_composite: 16.2
   provenance:
     mcp: derived
   regulatory:
@@ -121,8 +125,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -137,7 +142,7 @@ tags:
 - Company
 - Culinary
 - Software-as-a-Service
-- ResourcePlanning
+- Resource Planning
 - RestaurantTech
 website: https://www.galleysolutions.com
 ---

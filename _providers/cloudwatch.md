@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -80,7 +82,7 @@ apis:
   description: Operations for working with CloudWatch metrics and metric data
   name: AWS CloudWatch Metrics API
   slug: cloudwatch-metrics-api
-artifact_total: 348
+artifact_total: 347
 collections:
 - collection_type: postman
   name: AWS CloudWatch Amazon CloudWatch Alarms API
@@ -100,9 +102,6 @@ collections:
 - collection_type: postman
   name: AWS CloudWatch Amazon CloudWatch Alarms Metrics API
   slug: postman-cloudwatch-metrics-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AWS CloudWatch Amazon CloudWatch Alarms API
   slug: open-cloudwatch-alarms-api
@@ -126,22 +125,22 @@ collections:
   slug: open-cloudwatch
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/plans/cloudwatch-plans-pricing.yml
+  href: https://artifacts.apis.io/cloudwatch/plans/cloudwatch-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloudwatch-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/rate-limits/cloudwatch-rate-limits.yml
+  href: https://artifacts.apis.io/cloudwatch/rate-limits/cloudwatch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloudwatch-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/finops/cloudwatch-finops.yml
+  href: https://artifacts.apis.io/cloudwatch/finops/cloudwatch-finops.yml
   title: ''
   type: FinOps
   url: finops/cloudwatch-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/capabilities/cloudwatch-capability-edges.yml
+  href: https://artifacts.apis.io/cloudwatch/capabilities/cloudwatch-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cloudwatch-capability-edges.yml
@@ -150,27 +149,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/aws-cloudwatch/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/agentic-access/cloudwatch-agentic-access.yml
+  href: https://artifacts.apis.io/cloudwatch/agentic-access/cloudwatch-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cloudwatch-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/security/cloudwatch-trust-center.yml
+  href: https://artifacts.apis.io/cloudwatch/security/cloudwatch-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cloudwatch-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/security/cloudwatch-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cloudwatch/security/cloudwatch-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cloudwatch-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/security/cloudwatch-domain-security.yml
+  href: https://artifacts.apis.io/cloudwatch/security/cloudwatch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudwatch-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/authentication/cloudwatch-authentication.yml
+  href: https://artifacts.apis.io/cloudwatch/authentication/cloudwatch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudwatch-authentication.yml
@@ -215,27 +214,27 @@ common:
   type: Documentation
   url: https://docs.aws.amazon.com/cloudwatch/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/openapi/_original/cloudwatch-openapi.yml
+  href: https://artifacts.apis.io/cloudwatch/openapi/_original/cloudwatch-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/cloudwatch-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/json-schema/cloudwatch-alarm-schema.json
+  href: https://artifacts.apis.io/cloudwatch/json-schema/cloudwatch-alarm-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/cloudwatch-alarm-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/json-ld/cloudwatch-context.jsonld
+  href: https://artifacts.apis.io/cloudwatch/json-ld/cloudwatch-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cloudwatch-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/rules/cloudwatch-spectral-rules.yml
+  href: https://artifacts.apis.io/cloudwatch/rules/cloudwatch-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/cloudwatch-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/vocabulary/cloudwatch-vocabulary.yaml
+  href: https://artifacts.apis.io/cloudwatch/vocabulary/cloudwatch-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/cloudwatch-vocabulary.yaml
@@ -537,10 +536,10 @@ features:
 - Network Monitor for hybrid connectivity health
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Cloudwatch Finops
-  primary_unit: ''
-  service_category: Observability
+  primary_unit: gb ingested
+  service_category: ''
   slug: cloudwatch-finops
   template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
@@ -1174,7 +1173,7 @@ overview: 'AWS CloudWatch publishes 8 API contracts indexed on the [APIs.io](htt
   AWS CloudWatch''s developer surface includes authentication, engineering blog, FAQ, support, changelog, pricing, developer console, and 18 more developer resources.'
 plans:
 - name: Cloudwatch Plans Pricing
-  plan_count: 7
+  plan_count: 15
   slug: cloudwatch-plans-pricing
 random_paper: 14
 rate_limits:
@@ -1207,23 +1206,23 @@ rules:
   slug: cloudwatch-spectral-rules
 score:
   band: strong
-  composite: 55.4
+  composite: 60.5
   coverage:
     artifact_dirs: 18
-    catalog_earned: 61.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_earned: 73.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 42.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 68.4
     contract_governance: 27.3
     contract_quality: 64.9
     developer_ergonomics: 63.1
     discoverability: 57.1
-    operational_transparency: 39.5
-  previous_composite: 56.9
+    operational_transparency: 50.0
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1237,13 +1236,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/screenshots/cloudwatch-2026-06-20T174619.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cloudwatch/cloudwatch-2026-06-20T174619.png
 security:
 - kind: authentication
   name: Cloudwatch Authentication

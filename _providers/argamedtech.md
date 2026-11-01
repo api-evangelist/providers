@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for Argámedtech medical technology platform
@@ -36,12 +38,12 @@ common:
   type: BlogRSS
   url: https://argamedtech.com/news/f.atom
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/argamedtech/refs/heads/main/llms/argamedtech-llms.txt
+  href: https://artifacts.apis.io/argamedtech/llms/argamedtech-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/argamedtech-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/argamedtech/refs/heads/main/hosts/argamedtech-hosts.yml
+  href: https://artifacts.apis.io/argamedtech/hosts/argamedtech-hosts.yml
   title: ''
   type: Hosts
   url: hosts/argamedtech-hosts.yml
@@ -54,7 +56,7 @@ common:
   type: ChangeLog
   url: https://argamedtech.com/whats-new
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/argamedtech/refs/heads/main/security/argamedtech-domain-security.yml
+  href: https://artifacts.apis.io/argamedtech/security/argamedtech-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/argamedtech-domain-security.yml
@@ -94,10 +96,10 @@ overview: 'Argámedtech is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Argámedtech''s developer surface includes changelog, documentation, support, and 7 more developer resources.'
-random_paper: 19
+random_paper: 13
 score:
   band: minimal
-  composite: 10.4
+  composite: 9.7
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -111,9 +113,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 15.8
-  previous_composite: 10.4
+  previous_composite: 9.7
   provenance:
     mcp: unknown
   regulatory:
@@ -122,14 +124,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/argamedtech/refs/heads/main/screenshots/argamedtech-2026-10-11T100226.png
+screenshot: https://apis.io/screenshots/argamedtech/argamedtech-2026-10-11T100226.png
 security:
 - kind: domain-security
   name: Argamedtech Domain Security

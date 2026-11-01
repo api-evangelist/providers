@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.0
-  scored_at: '2026-10-17'
+  score: 45.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -109,39 +111,49 @@ apis:
   description: The Returns API from Riskified — 1 operation(s) for returns.
   name: Riskified Returns API
   slug: riskified-returns-api
-artifact_total: 88
+artifact_total: 90
 asyncapis:
 - description: ''
   name: Riskified Webhooks
   slug: riskified-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/riskified/capabilities/riskified-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/riskified-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/riskified/plans/riskified-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/riskified-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/agentic-access/riskified-agentic-access.yml
+  href: https://artifacts.apis.io/riskified/agentic-access/riskified-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/riskified-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/rules/riskified-rules.yml
+  href: https://artifacts.apis.io/riskified/rules/riskified-rules.yml
   title: ''
   type: Spectral
   url: rules/riskified-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/json-ld/riskified-context.jsonld
+  href: https://artifacts.apis.io/riskified/json-ld/riskified-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/riskified-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/vocabulary/riskified-vocabulary.yml
+  href: https://artifacts.apis.io/riskified/vocabulary/riskified-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/riskified-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/asyncapi/riskified-webhooks.yml
+  href: https://artifacts.apis.io/riskified/asyncapi/riskified-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/riskified-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/data-model/riskified-data-model.yml
+  href: https://artifacts.apis.io/riskified/data-model/riskified-data-model.yml
   title: ''
   type: DataModel
   url: data-model/riskified-data-model.yml
@@ -150,42 +162,42 @@ common:
   type: Compliance
   url: https://security.riskified.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/errors/riskified-problem-types.yml
+  href: https://artifacts.apis.io/riskified/errors/riskified-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/riskified-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/conformance/riskified-conformance.yml
+  href: https://artifacts.apis.io/riskified/conformance/riskified-conformance.yml
   title: ''
   type: Conformance
   url: conformance/riskified-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/llms/riskified-llms.txt
+  href: https://artifacts.apis.io/riskified/llms/riskified-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/riskified-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/well-known/riskified-status-security.txt
+  href: https://artifacts.apis.io/riskified/well-known/riskified-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/riskified-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/well-known/riskified-well-known.yml
+  href: https://artifacts.apis.io/riskified/well-known/riskified-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/riskified-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/hosts/riskified-hosts.yml
+  href: https://artifacts.apis.io/riskified/hosts/riskified-hosts.yml
   title: ''
   type: Hosts
   url: hosts/riskified-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/integrations/riskified-integration-edges.yml
+  href: https://artifacts.apis.io/riskified/integrations/riskified-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/riskified-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/vendors/riskified-vendors.yml
+  href: https://artifacts.apis.io/riskified/vendors/riskified-vendors.yml
   title: ''
   type: Vendors
   url: vendors/riskified-vendors.yml
@@ -202,12 +214,12 @@ common:
   type: Website
   url: https://www.riskified.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/security/riskified-trust-center.yml
+  href: https://artifacts.apis.io/riskified/security/riskified-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/riskified-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/security/riskified-domain-security.yml
+  href: https://artifacts.apis.io/riskified/security/riskified-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/riskified-domain-security.yml
@@ -412,6 +424,14 @@ features:
 - Native ecommerce platform integrations for Shopify (incl. headless), Magento / Adobe Commerce, SAP Commerce / Hybris, Salesforce Commerce Cloud, commercetools, and VTEX
 - SSO support for Riskified Control Center access
 - LLMs.txt index of the developer portal for AI agent consumption
+finops:
+- has_sources: true
+  method: derived
+  name: Riskified Finops
+  primary_unit: ''
+  service_category: ''
+  slug: riskified-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/riskified.png
 integrations:
 - Shopify and Shopify Payments (full storefront and headless)
@@ -518,8 +538,12 @@ overview: 'Riskified publishes 16 API contracts indexed on the [APIs.io](https:/
   The Riskified catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Riskified''s developer surface includes support, developer portal, API reference, getting-started guide, authentication, documentation, engineering blog, and 59 more developer resources.'
-random_paper: 8
+  Riskified''s developer surface includes support, developer portal, API reference, getting-started guide, authentication, documentation, engineering blog, and 61 more developer resources.'
+plans:
+- name: Riskified Plans Pricing
+  plan_count: 0
+  slug: riskified-plans-pricing
+random_paper: 18
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -535,28 +559,28 @@ rules:
   slug: riskified-rules
 score:
   band: strong
-  composite: 60.3
+  composite: 61.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 23
     catalog_earned: 60.8
     catalog_earned_first_party: 0.0
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 26.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 22.0
     contract_quality: 73.0
     developer_ergonomics: 73.8
-    discoverability: 71.4
-    operational_transparency: 44.7
+    discoverability: 64.3
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - israel
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 34.2
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -572,13 +596,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 22.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/screenshots/riskified-2026-06-20T193133.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/riskified/riskified-2026-06-20T193133.png
 security:
 - kind: domain-security
   name: Riskified Domain Security

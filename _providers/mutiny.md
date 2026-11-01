@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,94 +25,96 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Mutiny''s first-party hosted, remote Model Context Protocol server — the company''s only machine-callable surface. It lets an MCP-compatible assistant (Claude web, Claude Desktop, Claude Code, ChatGPT) '
   name: Mutiny MCP Server
   slug: mutiny-mcp-server
-artifact_total: 7
+artifact_total: 9
 common:
 - group: company
   title: ''
   type: Website
   url: https://www.mutinyhq.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/llms/mutiny-llms.txt
+  href: https://artifacts.apis.io/mutiny/llms/mutiny-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mutiny-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/well-known/mutiny-well-known.yml
+  href: https://artifacts.apis.io/mutiny/well-known/mutiny-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mutiny-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/security/mutiny-domain-security.yml
+  href: https://artifacts.apis.io/mutiny/security/mutiny-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mutiny-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/mcp/mutiny-mcp.yml
+  href: https://artifacts.apis.io/mutiny/mcp/mutiny-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mutiny-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/authentication/mutiny-authentication.yml
+  href: https://artifacts.apis.io/mutiny/authentication/mutiny-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mutiny-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/scopes/mutiny-scopes.yml
+  href: https://artifacts.apis.io/mutiny/scopes/mutiny-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mutiny-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/conformance/mutiny-conformance.yml
+  href: https://artifacts.apis.io/mutiny/conformance/mutiny-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mutiny-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/conformance/mutiny-conformance.yml
+  href: https://artifacts.apis.io/mutiny/conformance/mutiny-conformance.yml
   title: ''
   type: Compliance
   url: conformance/mutiny-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/conventions/mutiny-conventions.yml
+  href: https://artifacts.apis.io/mutiny/conventions/mutiny-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mutiny-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/errors/mutiny-problem-types.yml
+  href: https://artifacts.apis.io/mutiny/errors/mutiny-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mutiny-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/lifecycle/mutiny-lifecycle.yml
+  href: https://artifacts.apis.io/mutiny/lifecycle/mutiny-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mutiny-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/plans/mutiny-plans-pricing.yml
+  href: https://artifacts.apis.io/mutiny/plans/mutiny-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mutiny-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/rate-limits/mutiny-rate-limits.yml
+  href: https://artifacts.apis.io/mutiny/rate-limits/mutiny-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mutiny-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/packages/mutiny-packages.yml
+  href: https://artifacts.apis.io/mutiny/packages/mutiny-packages.yml
   title: ''
   type: Packages
   url: packages/mutiny-packages.yml
@@ -163,6 +165,14 @@ common:
 created: '2026-07-17'
 description: Mutiny (mutinyhq.com) is the GTM assistant built for customer-facing work and workflow automation — vertical AI built specifically for sales execution. Founded in 2018 as part of Y Combinator's S18 batch by Jaleh Rezaei (CEO) and Nikhil Mathew (CTO) and headquartered in New York City, Mutiny helps B2B revenue teams generate on-brand, deal-ready assets (self-updating deal rooms, pitch decks, pricing proposals, business cases, competitive comparisons, and AI-generated ABM campaigns) and automate the repetitive work around deals through agents, skills, and routines. The platform advertises Model Context Protocol (MCP) interoperability with Claude and other MCP-compatible tools and integrates with common GTM systems (CRM, email, the wider revenue stack). It is used by revenue teams at Snowflake, Uber, Rippling, GitLab, Figma, and BMC. Mutiny has raised $72M from Sequoia Capital, Insight Partners, Tiger Global, Cowboy Ventures, and Y Combinator. Mutiny's machine-callable surface
   is a first-party hosted, remote Model Context Protocol server at https://mcp.mutinyhq.com/mcp, protected by OAuth 2.1 with PKCE and dynamic client registration and publishing five scopes covering asset creation, publication, and content-library management. There is no public REST API, no OpenAPI, no GraphQL endpoint, and no developer portal — MCP is the whole contract. (Its earlier website-personalization / A/B-testing product has been retired, along with the React SDK that served it.)
+finops:
+- has_sources: true
+  method: derived
+  name: Mutiny Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: mutiny-finops
+  template: false
 image: https://framerusercontent.com/assets/Ec1hAhKLtluxlMfLydNP0NTrIA.png
 layout: provider
 mcp_servers:
@@ -181,7 +191,10 @@ plans:
 - name: Mutiny Plans Pricing
   plan_count: 3
   slug: mutiny-plans-pricing
-random_paper: 18
+- name: Mutiny Price Estimates
+  plan_count: 0
+  slug: mutiny-price-estimates
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Mutiny Rate Limits
@@ -193,28 +206,28 @@ scopes:
   summary_line: 5 scopes · authorization_code
 score:
   band: developing
-  composite: 40.9
+  composite: 43.2
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 61.0
+    artifact_dirs: 18
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 77.6
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 75.0
-    operational_transparency: 34.2
+    discoverability: 65.0
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 40.9
+  previous_composite: 41.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -224,14 +237,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mutiny/refs/heads/main/screenshots/mutiny-2026-08-07T184451.png
+screenshot: https://apis.io/screenshots/mutiny/mutiny-2026-08-07T184451.png
 security:
 - kind: authentication
   name: Mutiny Authentication

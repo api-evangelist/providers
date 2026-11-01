@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -43,7 +45,7 @@ asyncapis:
   slug: repeat-integration-events
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/repeat/refs/heads/main/security/repeat-domain-security.yml
+  href: https://artifacts.apis.io/repeat/security/repeat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/repeat-domain-security.yml
@@ -68,27 +70,27 @@ common:
   type: Pricing
   url: https://getrepeat.io/product/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/repeat/refs/heads/main/plans/repeat-plans-pricing.yml
+  href: https://artifacts.apis.io/repeat/plans/repeat-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/repeat-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/repeat/refs/heads/main/rate-limits/repeat-rate-limits.yml
+  href: https://artifacts.apis.io/repeat/rate-limits/repeat-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/repeat-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/repeat/refs/heads/main/llms/repeat-llms.txt
+  href: https://artifacts.apis.io/repeat/llms/repeat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/repeat-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/repeat/refs/heads/main/data-model/repeat-data-model.yml
+  href: https://artifacts.apis.io/repeat/data-model/repeat-data-model.yml
   title: ''
   type: DataModel
   url: data-model/repeat-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/repeat/refs/heads/main/components/repeat-components.yml
+  href: https://artifacts.apis.io/repeat/components/repeat-components.yml
   title: ''
   type: Components
   url: components/repeat-components.yml
@@ -132,14 +134,14 @@ plans:
 - name: Repeat Plans Pricing
   plan_count: 2
   slug: repeat-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Repeat Rate Limits
   slug: repeat-rate-limits
 score:
   band: thin
-  composite: 28.9
+  composite: 28.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 35.0
@@ -153,23 +155,23 @@ score:
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 16.7
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 28.9
+  previous_composite: 28.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/repeat/refs/heads/main/screenshots/repeat-2026-09-02T153448.png
+screenshot: https://apis.io/screenshots/repeat/repeat-2026-09-02T153448.png
 security:
 - kind: domain-security
   name: Repeat Domain Security

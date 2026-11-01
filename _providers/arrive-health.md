@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Arrive Health provides healthcare navigation and payment solutions.
@@ -36,12 +38,12 @@ common:
   type: BlogRSS
   url: https://arrivehealth.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arrive-health/refs/heads/main/well-known/arrive-health-clarity-security.txt
+  href: https://artifacts.apis.io/arrive-health/well-known/arrive-health-clarity-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/arrive-health-clarity-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arrive-health/refs/heads/main/well-known/arrive-health-well-known.yml
+  href: https://artifacts.apis.io/arrive-health/well-known/arrive-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/arrive-health-well-known.yml
@@ -50,12 +52,12 @@ common:
   type: Security
   url: https://clarity.com/vdp
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arrive-health/refs/heads/main/hosts/arrive-health-hosts.yml
+  href: https://artifacts.apis.io/arrive-health/hosts/arrive-health-hosts.yml
   title: ''
   type: Hosts
   url: hosts/arrive-health-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arrive-health/refs/heads/main/vendors/arrive-health-vendors.yml
+  href: https://artifacts.apis.io/arrive-health/vendors/arrive-health-vendors.yml
   title: ''
   type: Vendors
   url: vendors/arrive-health-vendors.yml
@@ -76,12 +78,12 @@ common:
   type: Leadership
   url: https://arrivehealth.com/about/leadership/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arrive-health/refs/heads/main/security/arrive-health-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/arrive-health/security/arrive-health-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/arrive-health-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arrive-health/refs/heads/main/security/arrive-health-domain-security.yml
+  href: https://artifacts.apis.io/arrive-health/security/arrive-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arrive-health-domain-security.yml
@@ -136,14 +138,14 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/arrive-health/refs/heads/main/screenshots/arrive-health-2026-10-11T100350.png
+screenshot: https://apis.io/screenshots/arrive-health/arrive-health-2026-10-11T100350.png
 security:
 - kind: domain-security
   name: Arrive Health Domain Security

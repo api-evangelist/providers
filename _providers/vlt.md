@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,65 +37,65 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: npm-compatible package registry API implemented by vsr, vlt's serverless registry. Exposes package publish/install endpoints (packuments, tarballs, dist-tags), user and token management, granular acce
   name: vlt Serverless Registry (vsr) API
   slug: vlt-serverless-registry-api
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.vlt.io/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vlt/refs/heads/main/security/vlt-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/vlt/security/vlt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/vlt-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vlt/refs/heads/main/security/vlt-domain-security.yml
+  href: https://artifacts.apis.io/vlt/security/vlt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vlt-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vlt/refs/heads/main/packages/vlt-packages.yml
+  href: https://artifacts.apis.io/vlt/packages/vlt-packages.yml
   title: ''
   type: Packages
   url: packages/vlt-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vlt/refs/heads/main/packages/vlt-packages.yml
+  href: https://artifacts.apis.io/vlt/packages/vlt-packages.yml
   title: ''
   type: SDKs
   url: packages/vlt-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vlt/refs/heads/main/llms/vlt-llms.txt
+  href: https://artifacts.apis.io/vlt/llms/vlt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vlt-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vlt/refs/heads/main/cli/vlt-cli.yml
+  href: https://artifacts.apis.io/vlt/cli/vlt-cli.yml
   title: ''
   type: CLI
   url: cli/vlt-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vlt/refs/heads/main/changelog/vlt-changelog.yml
+  href: https://artifacts.apis.io/vlt/changelog/vlt-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vlt-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vlt/refs/heads/main/lifecycle/vlt-lifecycle.yml
+  href: https://artifacts.apis.io/vlt/lifecycle/vlt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vlt-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vlt/refs/heads/main/authentication/vlt-authentication.yml
+  href: https://artifacts.apis.io/vlt/authentication/vlt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vlt-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vlt/refs/heads/main/conformance/vlt-conformance.yml
+  href: https://artifacts.apis.io/vlt/conformance/vlt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vlt-conformance.yml
@@ -102,7 +104,7 @@ common:
   type: Compliance
   url: https://www.vlt.io/security
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/vlt/refs/heads/main/plans/vlt-plans.yml
+  href: https://artifacts.apis.io/vlt/plans/vlt-plans.yml
   title: ''
   type: Plans
   url: plans/vlt-plans.yml
@@ -188,6 +190,14 @@ common:
   url: https://benchmarks.vlt.sh/
 created: '2026-07-17'
 description: vlt (pronounced "volt") is a JavaScript package management company started by the creator of npm and former members of the npm core team, and backed by Accel. It ships the open source vlt package manager CLI, the npm-compatible vlt serverless registry (vsr) that runs on Cloudflare's edge network, and a hosted registry platform at vlt.io with user, token, and access management exposed through an npm-compatible registry API at registry.vlt.io.
+finops:
+- has_sources: true
+  method: derived
+  name: Vlt Finops
+  primary_unit: user / month
+  service_category: ''
+  slug: vlt-finops
+  template: false
 image: https://github.com/vltpkg.png
 layout: provider
 modified: '2026-10-06'
@@ -202,26 +212,26 @@ plans:
 - name: Vlt Plans
   plan_count: 4
   slug: vlt-plans
-random_paper: 12
+random_paper: 6
 score:
   band: developing
-  composite: 48.1
+  composite: 50.1
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 49.0
+    artifact_dirs: 15
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 67.0
-    operational_transparency: 50.0
-  previous_composite: 48.0
+    discoverability: 67.9
+    operational_transparency: 52.6
+  previous_composite: 48.5
   provenance:
     conformance: first-party
   regulatory:
@@ -230,14 +240,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vlt/refs/heads/main/screenshots/vlt-2026-08-17T082814.png
+screenshot: https://apis.io/screenshots/vlt/vlt-2026-08-17T082814.png
 security:
 - kind: authentication
   name: Vlt Authentication

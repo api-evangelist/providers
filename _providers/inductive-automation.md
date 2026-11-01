@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 349
   human_in_the_loop: 9
@@ -485,9 +487,6 @@ apis:
 artifact_total: 194
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Ignition Gateway REST access-control API
   slug: open-inductive-automation-access-control-api
 - collection_type: open
@@ -758,37 +757,37 @@ common:
   type: BlogRSS
   url: https://inductiveautomation.com/blog/rss.xml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/plans/inductive-automation-plans-pricing.yml
+  href: https://artifacts.apis.io/inductive-automation/plans/inductive-automation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/inductive-automation-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/capabilities/inductive-automation-capability-edges.yml
+  href: https://artifacts.apis.io/inductive-automation/capabilities/inductive-automation-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/inductive-automation-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/agentic-access/inductive-automation-agentic-access.yml
+  href: https://artifacts.apis.io/inductive-automation/agentic-access/inductive-automation-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/inductive-automation-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/security/inductive-automation-trust-center.yml
+  href: https://artifacts.apis.io/inductive-automation/security/inductive-automation-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/inductive-automation-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/security/inductive-automation-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/inductive-automation/security/inductive-automation-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/inductive-automation-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/security/inductive-automation-domain-security.yml
+  href: https://artifacts.apis.io/inductive-automation/security/inductive-automation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/inductive-automation-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/authentication/inductive-automation-authentication.yml
+  href: https://artifacts.apis.io/inductive-automation/authentication/inductive-automation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/inductive-automation-authentication.yml
@@ -848,6 +847,14 @@ examples:
 - key_count: 2
   name: Inductive Automation List Projects Example
   slug: inductive-automation-list-projects-example
+finops:
+- has_sources: true
+  method: derived
+  name: Inductive Automation Finops
+  primary_unit: '% of software retail price'
+  service_category: ''
+  slug: inductive-automation-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inductive-automation.png
 json_schemas:
 - name: GatewayInfo
@@ -890,7 +897,7 @@ plans:
 - name: Inductive Automation Price Estimates
   plan_count: 0
   slug: inductive-automation-price-estimates
-random_paper: 15
+random_paper: 17
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -916,23 +923,23 @@ rules:
   slug: inductive-automation-rules
 score:
   band: developing
-  composite: 42.5
+  composite: 47.1
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 63.3
+    artifact_dirs: 18
+    catalog_earned: 66.3
     catalog_earned_first_party: 12.0
-    catalog_gap: 51.8
+    catalog_gap: 48.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 50.0
+    access_clarity: 57.9
     contract_governance: 9.8
-    contract_quality: 58.1
-    developer_ergonomics: 38.1
+    contract_quality: 55.2
+    developer_ergonomics: 50.0
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 42.5
+    operational_transparency: 15.8
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -946,13 +953,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/screenshots/inductive-automation-2026-06-20T183324.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/inductive-automation/inductive-automation-2026-06-20T183324.png
 security:
 - kind: authentication
   name: Inductive Automation Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -61,7 +63,7 @@ common:
   type: Login
   url: https://app.feroot.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/feroot/refs/heads/main/llms/feroot-llms.txt
+  href: https://artifacts.apis.io/feroot/llms/feroot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/feroot-llms.txt
@@ -78,17 +80,17 @@ common:
   type: StatusPage
   url: https://status.feroot.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/feroot/refs/heads/main/lifecycle/feroot-lifecycle.yml
+  href: https://artifacts.apis.io/feroot/lifecycle/feroot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/feroot-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/feroot/refs/heads/main/conformance/feroot-conformance.yml
+  href: https://artifacts.apis.io/feroot/conformance/feroot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/feroot-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/feroot/refs/heads/main/security/feroot-domain-security.yml
+  href: https://artifacts.apis.io/feroot/security/feroot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/feroot-domain-security.yml
@@ -104,10 +106,10 @@ overview: 'Feroot is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Feroot''s developer surface includes pricing, engineering blog, and 11 more developer resources.'
-random_paper: 17
+random_paper: 7
 score:
   band: emerging
-  composite: 17.5
+  composite: 21.9
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -117,11 +119,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -130,7 +132,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 17.5
+  previous_composite: 21.9
   provenance:
     conformance: first-party
   regulatory:
@@ -138,15 +140,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 17.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 21.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/feroot/refs/heads/main/screenshots/feroot-2026-07-25T214344.png
+screenshot: https://apis.io/screenshots/feroot/feroot-2026-07-25T214344.png
 security:
 - kind: domain-security
   name: Feroot Domain Security

@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.1
-  scored_at: '2026-10-17'
+  score: 29.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 16
   slug: carnegie-mellon-university-agentic-access
   summary_line: 16 operations
-api_count: 6
+api_count: 3
 apis:
 - description: Carnegie Mellon's campus-wide single sign-on identity provider, running Shibboleth on CMU's own host and address space (login.cmu.edu, 128.2.42.22). Its SAML 2.0 metadata is publicly readable at the c
   name: CMU Web Login (Shibboleth SAML 2.0 Identity Provider)
@@ -215,87 +217,87 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/carnegie-mellon-university/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/conformance/carnegie-mellon-university-education-standards-conformance.yml
+  href: https://artifacts.apis.io/carnegie-mellon-university/conformance/carnegie-mellon-university-education-standards-conformance.yml
   title: ''
   type: Conformance
   url: conformance/carnegie-mellon-university-education-standards-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/authentication/carnegie-mellon-university-authentication.yml
+  href: https://artifacts.apis.io/carnegie-mellon-university/authentication/carnegie-mellon-university-authentication.yml
   title: ''
   type: Authentication
   url: authentication/carnegie-mellon-university-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/scopes/carnegie-mellon-university-scopes.yml
+  href: https://artifacts.apis.io/carnegie-mellon-university/scopes/carnegie-mellon-university-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/carnegie-mellon-university-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/errors/carnegie-mellon-university-errors.yml
+  href: https://artifacts.apis.io/carnegie-mellon-university/errors/carnegie-mellon-university-errors.yml
   title: ''
   type: ErrorCatalog
   url: errors/carnegie-mellon-university-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/lifecycle/carnegie-mellon-university-lifecycle.yml
+  href: https://artifacts.apis.io/carnegie-mellon-university/lifecycle/carnegie-mellon-university-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/carnegie-mellon-university-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/vocabulary/carnegie-mellon-university-vocabulary.yml
+  href: https://artifacts.apis.io/carnegie-mellon-university/vocabulary/carnegie-mellon-university-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/carnegie-mellon-university-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/json-ld/carnegie-mellon-university-context.jsonld
+  href: https://artifacts.apis.io/carnegie-mellon-university/json-ld/carnegie-mellon-university-context.jsonld
   title: ''
   type: DataModel
   url: json-ld/carnegie-mellon-university-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/examples/carnegie-mellon-university-delphi-fluview-example.json
+  href: https://artifacts.apis.io/carnegie-mellon-university/examples/carnegie-mellon-university-delphi-fluview-example.json
   title: ''
   type: Examples
   url: examples/carnegie-mellon-university-delphi-fluview-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/examples/carnegie-mellon-university-cert-vulnerability-note-example.json
+  href: https://artifacts.apis.io/carnegie-mellon-university/examples/carnegie-mellon-university-cert-vulnerability-note-example.json
   title: ''
   type: Examples
   url: examples/carnegie-mellon-university-cert-vulnerability-note-example.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/rules/carnegie-mellon-university-rules.yml
+  href: https://artifacts.apis.io/carnegie-mellon-university/rules/carnegie-mellon-university-rules.yml
   title: ''
   type: Rules
   url: rules/carnegie-mellon-university-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/rules/carnegie-mellon-university-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/carnegie-mellon-university/rules/carnegie-mellon-university-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/carnegie-mellon-university-jsonschema-spectral-rules.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/agentic-access/carnegie-mellon-university-agentic-access.yml
+  href: https://artifacts.apis.io/carnegie-mellon-university/agentic-access/carnegie-mellon-university-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/carnegie-mellon-university-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/security/carnegie-mellon-university-domain-security.yml
+  href: https://artifacts.apis.io/carnegie-mellon-university/security/carnegie-mellon-university-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carnegie-mellon-university-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/plans/carnegie-mellon-university-plans-pricing.yml
+  href: https://artifacts.apis.io/carnegie-mellon-university/plans/carnegie-mellon-university-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/carnegie-mellon-university-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/rate-limits/carnegie-mellon-university-rate-limits.yml
+  href: https://artifacts.apis.io/carnegie-mellon-university/rate-limits/carnegie-mellon-university-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/carnegie-mellon-university-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/finops/carnegie-mellon-university-finops.yml
+  href: https://artifacts.apis.io/carnegie-mellon-university/finops/carnegie-mellon-university-finops.yml
   title: ''
   type: FinOps
   url: finops/carnegie-mellon-university-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/carnegie-mellon-university/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -358,7 +360,7 @@ plans:
 - name: Carnegie Mellon University Plans Pricing
   plan_count: 2
   slug: carnegie-mellon-university-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Carnegie Mellon University Rate Limits
@@ -394,7 +396,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.1
+  composite: 36.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 72.3
@@ -402,14 +404,14 @@ score:
     catalog_gap: 42.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 17.4
     contract_quality: 23.5
     developer_ergonomics: 35.7
     discoverability: 71.4
-    operational_transparency: 23.7
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -417,7 +419,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 38.7
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -432,14 +434,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/screenshots/carnegie-mellon-university-2026-06-20T174011.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/carnegie-mellon-university/carnegie-mellon-university-2026-06-20T174011.png
 security:
 - kind: authentication
   name: Carnegie Mellon University Authentication

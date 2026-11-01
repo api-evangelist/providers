@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 30.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -56,11 +58,8 @@ apis:
   description: Create, retrieve, and update products. Products are created in draft status and synced to Shopify when activated.
   name: Maison Safqa Holdings Limited Products API
   slug: maison-safqa-holdings-limited-products-api
-artifact_total: 9
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Maison Safqa Brand Developer Inventory API
   slug: open-maison-safqa-holdings-limited-inventory-api
@@ -73,12 +72,12 @@ common:
   type: Blog
   url: https://www.maisonsafqa.com/blogs
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/capabilities/maison-safqa-holdings-limited-capability-edges.yml
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/capabilities/maison-safqa-holdings-limited-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/maison-safqa-holdings-limited-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/overlays/maison-safqa-holdings-limited-openapi-overlay.yaml
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/overlays/maison-safqa-holdings-limited-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/maison-safqa-holdings-limited-openapi-overlay.yaml
@@ -103,72 +102,72 @@ common:
   type: Website
   url: https://maisonsafqa.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/authentication/maison-safqa-holdings-limited-authentication.yml
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/authentication/maison-safqa-holdings-limited-authentication.yml
   title: ''
   type: Authentication
   url: authentication/maison-safqa-holdings-limited-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/conventions/maison-safqa-holdings-limited-conventions.yml
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/conventions/maison-safqa-holdings-limited-conventions.yml
   title: ''
   type: Conventions
   url: conventions/maison-safqa-holdings-limited-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/errors/maison-safqa-holdings-limited-problem-types.yml
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/errors/maison-safqa-holdings-limited-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/maison-safqa-holdings-limited-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/rate-limits/maison-safqa-holdings-limited-rate-limits.yml
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/rate-limits/maison-safqa-holdings-limited-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/maison-safqa-holdings-limited-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/lifecycle/maison-safqa-holdings-limited-lifecycle.yml
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/lifecycle/maison-safqa-holdings-limited-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/maison-safqa-holdings-limited-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/sandbox/maison-safqa-holdings-limited-sandbox.yml
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/sandbox/maison-safqa-holdings-limited-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/maison-safqa-holdings-limited-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/data-model/maison-safqa-holdings-limited-data-model.yml
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/data-model/maison-safqa-holdings-limited-data-model.yml
   title: ''
   type: DataModel
   url: data-model/maison-safqa-holdings-limited-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/conformance/maison-safqa-holdings-limited-conformance.yml
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/conformance/maison-safqa-holdings-limited-conformance.yml
   title: ''
   type: Conformance
   url: conformance/maison-safqa-holdings-limited-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/well-known/maison-safqa-holdings-limited-well-known.yml
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/well-known/maison-safqa-holdings-limited-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/maison-safqa-holdings-limited-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/llms/maison-safqa-holdings-limited-llms.txt
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/llms/maison-safqa-holdings-limited-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/maison-safqa-holdings-limited-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/mcp/maison-safqa-holdings-limited-mcp.yml
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/mcp/maison-safqa-holdings-limited-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/maison-safqa-holdings-limited-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/agentic-access/maison-safqa-holdings-limited-agentic-access.yml
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/agentic-access/maison-safqa-holdings-limited-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/maison-safqa-holdings-limited-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/security/maison-safqa-holdings-limited-domain-security.yml
+  href: https://artifacts.apis.io/maison-safqa-holdings-limited/security/maison-safqa-holdings-limited-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/maison-safqa-holdings-limited-domain-security.yml
@@ -199,15 +198,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 50.8
     developer_ergonomics: 66.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 38.2
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,13 +223,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/screenshots/maison-safqa-holdings-limited-2026-07-25T225926.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/maison-safqa-holdings-limited/maison-safqa-holdings-limited-2026-07-25T225926.png
 security:
 - kind: authentication
   name: Maison Safqa Holdings Limited Authentication
@@ -240,6 +240,12 @@ security:
   name: Maison Safqa Holdings Limited Domain Security
   slug: maison-safqa-holdings-limited-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Onboard a brand product catalog to Maison Safqa
+  slug: maison-safqa-holdings-limited-onboard-catalog
+- name: Sync inventory levels to Maison Safqa
+  slug: maison-safqa-holdings-limited-sync-inventory
 slug: maison-safqa-holdings-limited
 tags:
 - Company

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.2
-  scored_at: '2026-10-17'
+  score: 25.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: A single-endpoint GraphQL API for accessing and managing Meetup community data including groups, events, members, tickets (RSVPs), venues, and photos. Supports querying, mutations for event creation a
@@ -42,17 +44,17 @@ apis:
 artifact_total: 8
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/meetup/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/meetup/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/meetup/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/meetup/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/meetup/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/meetup/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -65,12 +67,12 @@ common:
   type: Website
   url: https://www.meetup.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meetup/refs/heads/main/security/meetup-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/meetup/security/meetup-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/meetup-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/meetup/refs/heads/main/security/meetup-domain-security.yml
+  href: https://artifacts.apis.io/meetup/security/meetup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/meetup-domain-security.yml
@@ -130,30 +132,30 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 18
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Rate Limits
   slug: rate-limits
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 28.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 35.1
-    developer_ergonomics: 22.6
-    discoverability: 68.3
-    operational_transparency: 5.3
-  previous_composite: 31.0
+    developer_ergonomics: 35.7
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 28.7
   provenance:
     mcp: first-party
   regulatory:
@@ -162,14 +164,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/meetup/refs/heads/main/screenshots/meetup-2026-06-20T185133.png
+screenshot: https://apis.io/screenshots/meetup/meetup-2026-06-20T185133.png
 security:
 - kind: domain-security
   name: Meetup Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: The Office of Fair Housing and Equal Opportunity (FHEO) administers and enforces federal laws that prohibit discrimination in housing based on race, color, national origin, religion, sex, familial sta
@@ -54,7 +56,7 @@ apis:
 artifact_total: 11
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/finops/fair-housing-and-equal-opportunity-finops.yml
+  href: https://artifacts.apis.io/fair-housing-and-equal-opportunity/finops/fair-housing-and-equal-opportunity-finops.yml
   title: ''
   type: FinOps
   url: finops/fair-housing-and-equal-opportunity-finops.yml
@@ -111,72 +113,72 @@ common:
   type: Security
   url: https://www.hud.gov/vulnerability-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/authentication/fair-housing-and-equal-opportunity-authentication.yml
+  href: https://artifacts.apis.io/fair-housing-and-equal-opportunity/authentication/fair-housing-and-equal-opportunity-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fair-housing-and-equal-opportunity-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/conventions/fair-housing-and-equal-opportunity-conventions.yml
+  href: https://artifacts.apis.io/fair-housing-and-equal-opportunity/conventions/fair-housing-and-equal-opportunity-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fair-housing-and-equal-opportunity-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/errors/fair-housing-and-equal-opportunity-problem-types.yml
+  href: https://artifacts.apis.io/fair-housing-and-equal-opportunity/errors/fair-housing-and-equal-opportunity-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/fair-housing-and-equal-opportunity-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/lifecycle/fair-housing-and-equal-opportunity-lifecycle.yml
+  href: https://artifacts.apis.io/fair-housing-and-equal-opportunity/lifecycle/fair-housing-and-equal-opportunity-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fair-housing-and-equal-opportunity-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/conformance/fair-housing-and-equal-opportunity-conformance.yml
+  href: https://artifacts.apis.io/fair-housing-and-equal-opportunity/conformance/fair-housing-and-equal-opportunity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fair-housing-and-equal-opportunity-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/data-model/fair-housing-and-equal-opportunity-data-model.yml
+  href: https://artifacts.apis.io/fair-housing-and-equal-opportunity/data-model/fair-housing-and-equal-opportunity-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fair-housing-and-equal-opportunity-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/packages/fair-housing-and-equal-opportunity-packages.yml
+  href: https://artifacts.apis.io/fair-housing-and-equal-opportunity/packages/fair-housing-and-equal-opportunity-packages.yml
   title: ''
   type: Packages
   url: packages/fair-housing-and-equal-opportunity-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/plans/fair-housing-and-equal-opportunity-plans-pricing.yml
+  href: https://artifacts.apis.io/fair-housing-and-equal-opportunity/plans/fair-housing-and-equal-opportunity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fair-housing-and-equal-opportunity-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/rate-limits/fair-housing-and-equal-opportunity-rate-limits.yml
+  href: https://artifacts.apis.io/fair-housing-and-equal-opportunity/rate-limits/fair-housing-and-equal-opportunity-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fair-housing-and-equal-opportunity-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/arcgis/fair-housing-and-equal-opportunity-arcgis.yml
+  href: https://artifacts.apis.io/fair-housing-and-equal-opportunity/arcgis/fair-housing-and-equal-opportunity-arcgis.yml
   title: ''
   type: X-ArcGISServiceMetadata
   url: arcgis/fair-housing-and-equal-opportunity-arcgis.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/security/fair-housing-and-equal-opportunity-domain-security.yml
+  href: https://artifacts.apis.io/fair-housing-and-equal-opportunity/security/fair-housing-and-equal-opportunity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fair-housing-and-equal-opportunity-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/security/fair-housing-and-equal-opportunity-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fair-housing-and-equal-opportunity/security/fair-housing-and-equal-opportunity-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fair-housing-and-equal-opportunity-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/mcp/fair-housing-and-equal-opportunity-mcp.yml
+  href: https://artifacts.apis.io/fair-housing-and-equal-opportunity/mcp/fair-housing-and-equal-opportunity-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/fair-housing-and-equal-opportunity-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/llms/fair-housing-and-equal-opportunity-llms.txt
+  href: https://artifacts.apis.io/fair-housing-and-equal-opportunity/llms/fair-housing-and-equal-opportunity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fair-housing-and-equal-opportunity-llms.txt
@@ -186,7 +188,7 @@ finops:
 - has_sources: false
   method: generated
   name: Fair Housing And Equal Opportunity Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: fair-housing-and-equal-opportunity-finops
   template: true
@@ -211,7 +213,7 @@ rate_limits:
   slug: fair-housing-and-equal-opportunity-rate-limits
 score:
   band: emerging
-  composite: 20.7
+  composite: 22.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 35.0
@@ -219,20 +221,20 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.6
-    discoverability: 69.6
-    operational_transparency: 13.2
+    developer_ergonomics: 38.1
+    discoverability: 62.5
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 22.3
+  previous_composite: 22.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -242,14 +244,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/screenshots/fair-housing-and-equal-opportunity-2026-06-20T181015.png
+screenshot: https://apis.io/screenshots/fair-housing-and-equal-opportunity/fair-housing-and-equal-opportunity-2026-06-20T181015.png
 security:
 - kind: authentication
   name: Fair Housing And Equal Opportunity Authentication

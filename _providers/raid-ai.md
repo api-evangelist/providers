@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,20 +35,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: One REST API to detect AI-generated and manipulated images, audio, and documents — and fact-check media against the public record. Bearer API-token auth with per-key detection scopes (image, audio, fa
   name: Raid AI Detection & Fact-Checking API
   slug: raid-ai-detection-fact-checking-api
-artifact_total: 4
+artifact_total: 7
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://raidxai.com/feed.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/security/raid-ai-domain-security.yml
+  href: https://artifacts.apis.io/raid-ai/security/raid-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/raid-ai-domain-security.yml
@@ -99,37 +101,37 @@ common:
   type: PrivacyPolicy
   url: https://raidxai.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/authentication/raid-ai-authentication.yml
+  href: https://artifacts.apis.io/raid-ai/authentication/raid-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/raid-ai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/scopes/raid-ai-scopes.yml
+  href: https://artifacts.apis.io/raid-ai/scopes/raid-ai-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/raid-ai-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/well-known/raid-ai-well-known.yml
+  href: https://artifacts.apis.io/raid-ai/well-known/raid-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/raid-ai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/llms/raid-ai-llms.txt
+  href: https://artifacts.apis.io/raid-ai/llms/raid-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/raid-ai-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/conventions/raid-ai-conventions.yml
+  href: https://artifacts.apis.io/raid-ai/conventions/raid-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/raid-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/errors/raid-ai-error-codes.yml
+  href: https://artifacts.apis.io/raid-ai/errors/raid-ai-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/raid-ai-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/lifecycle/raid-ai-lifecycle.yml
+  href: https://artifacts.apis.io/raid-ai/lifecycle/raid-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/raid-ai-lifecycle.yml
@@ -138,17 +140,17 @@ common:
   type: Deprecation
   url: https://docs.raidxai.com/docs/versioning
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/conformance/raid-ai-conformance.yml
+  href: https://artifacts.apis.io/raid-ai/conformance/raid-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/raid-ai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/mcp/raid-ai-mcp.yml
+  href: https://artifacts.apis.io/raid-ai/mcp/raid-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/raid-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/raid-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -172,31 +174,31 @@ overview: 'Raid AI is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Raid AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 3
+random_paper: 15
 scopes:
 - name: Raid Ai Scopes
   scope_count: 0
   slug: raid-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 25.6
+  band: thin
+  composite: 32.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.5
+  delta: 0.0
   facets:
-    access_clarity: 13.2
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 56.5
-    discoverability: 73.2
+    developer_ergonomics: 58.9
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 26.1
+  previous_composite: 32.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -206,15 +208,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 33.0
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/raid-ai/refs/heads/main/screenshots/raid-ai-2026-09-02T152809.png
+screenshot: https://apis.io/screenshots/raid-ai/raid-ai-2026-09-02T152809.png
 security:
 - kind: authentication
   name: Raid Ai Authentication
@@ -224,6 +226,14 @@ security:
   name: Raid Ai Domain Security
   slug: raid-ai-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Detect an AI-generated or cloned voice
+  slug: raid-ai-detect-audio
+- name: Detect an AI-generated or deepfaked image
+  slug: raid-ai-detect-image
+- name: Fact-check media against the public record
+  slug: raid-ai-fact-check-media
 slug: raid-ai
 tags:
 - Company

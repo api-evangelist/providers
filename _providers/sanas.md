@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: wss://api.sanaslt.com/v3/stream
@@ -45,12 +47,17 @@ apis:
 - description: Server-side C++17 and Python SDK for real-time speech enhancement, accent translation, and language translation. Applications initialize the SDK with an API key, create an audio processor for a chosen
   name: Sanas Speech AI SDK
   slug: sanas-speech-ai-sdk
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: 'Real-time speech-to-speech translation over a single persistent WebSocket connection. Supports consecutive and simultaneous modes. Modeled by API Evangelist from the published Sanas WebSocket API and '
   name: Sanas Stream API
   slug: sanas-stream-asyncapi
 common:
+- group: commercial
+  href: https://artifacts.apis.io/sanas/plans/sanas-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sanas-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -108,67 +115,75 @@ common:
   type: ChangeLog
   url: https://developer.sanas.ai/Docs/Resources/Changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/llms/sanas-llms.txt
+  href: https://artifacts.apis.io/sanas/llms/sanas-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sanas-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/packages/sanas-packages.yml
+  href: https://artifacts.apis.io/sanas/packages/sanas-packages.yml
   title: ''
   type: Packages
   url: packages/sanas-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/packages/sanas-packages.yml
+  href: https://artifacts.apis.io/sanas/packages/sanas-packages.yml
   title: ''
   type: SDKs
   url: packages/sanas-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/authentication/sanas-authentication.yml
+  href: https://artifacts.apis.io/sanas/authentication/sanas-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sanas-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/conventions/sanas-conventions.yml
+  href: https://artifacts.apis.io/sanas/conventions/sanas-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sanas-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/conformance/sanas-conformance.yml
+  href: https://artifacts.apis.io/sanas/conformance/sanas-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sanas-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/lifecycle/sanas-lifecycle.yml
+  href: https://artifacts.apis.io/sanas/lifecycle/sanas-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sanas-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/lifecycle/sanas-lifecycle.yml
+  href: https://artifacts.apis.io/sanas/lifecycle/sanas-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/sanas-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/errors/sanas-problem-types.yml
+  href: https://artifacts.apis.io/sanas/errors/sanas-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sanas-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/changelog/sanas-changelog.yml
+  href: https://artifacts.apis.io/sanas/changelog/sanas-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sanas-changelog.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/asyncapi/sanas-stream-asyncapi.yml
+  href: https://artifacts.apis.io/sanas/asyncapi/sanas-stream-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/sanas-stream-asyncapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/security/sanas-domain-security.yml
+  href: https://artifacts.apis.io/sanas/security/sanas-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sanas-domain-security.yml
 created: '2026-07-17'
 description: Sanas is a real-time speech AI platform that removes communication barriers through accent translation, language translation, speech enhancement, and speech intelligence. Its developer platform exposes these capabilities as a server-side SDK (C++17 and Python) plus a persistent WebSocket Stream API for real-time speech-to-speech translation, letting teams add real-time speech processing to voice-agent and contact-center pipelines they already run. Models are billed per minute and run on Sanas Cloud or self-hosted infrastructure, serving healthcare, financial services, retail, travel, and telecommunications customers.
+finops:
+- has_sources: true
+  method: derived
+  name: Sanas Finops
+  primary_unit: minute
+  service_category: ''
+  slug: sanas-finops
+  template: false
 image: https://www.sanas.ai/static-image.jpg
 layout: provider
 mcp_servers:
@@ -185,27 +200,31 @@ overview: 'Sanas is listed with 2 APIs on the [APIs.io](https://apis.io/) networ
   The Sanas catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sanas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 19 more developer resources.'
+  Sanas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
+plans:
+- name: Sanas Plans Pricing
+  plan_count: 4
+  slug: sanas-plans-pricing
 random_paper: 6
 score:
-  band: developing
-  composite: 47.5
+  band: strong
+  composite: 57.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 18
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 7.9
   facets:
-    access_clarity: 47.4
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 42.7
     developer_ergonomics: 64.3
-    discoverability: 75.0
+    discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 47.8
+  previous_composite: 49.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -223,14 +242,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/screenshots/sanas-2026-08-17T081721.png
+screenshot: https://apis.io/screenshots/sanas/sanas-2026-08-17T081721.png
 security:
 - kind: authentication
   name: Sanas Authentication

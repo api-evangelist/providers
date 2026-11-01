@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The store's Universal Commerce Protocol surface — a live MCP endpoint for agent-driven catalog search, cart, checkout, and fulfillment, gated by an agent profile URI and buyer payment approval, plus r
@@ -58,37 +60,37 @@ common:
   type: TermsOfService
   url: https://www.shopshopslive.com/policies/terms-of-service
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopshops/refs/heads/main/mcp/shopshops-mcp.yml
+  href: https://artifacts.apis.io/shopshops/mcp/shopshops-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/shopshops-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopshops/refs/heads/main/llms/shopshops-llms.txt
+  href: https://artifacts.apis.io/shopshops/llms/shopshops-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shopshops-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shopshops/refs/heads/main/well-known/shopshops-well-known.yml
+  href: https://artifacts.apis.io/shopshops/well-known/shopshops-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/shopshops-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shopshops/refs/heads/main/authentication/shopshops-authentication.yml
+  href: https://artifacts.apis.io/shopshops/authentication/shopshops-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shopshops-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shopshops/refs/heads/main/scopes/shopshops-scopes.yml
+  href: https://artifacts.apis.io/shopshops/scopes/shopshops-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/shopshops-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shopshops/refs/heads/main/conventions/shopshops-conventions.yml
+  href: https://artifacts.apis.io/shopshops/conventions/shopshops-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shopshops-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shopshops/refs/heads/main/security/shopshops-domain-security.yml
+  href: https://artifacts.apis.io/shopshops/security/shopshops-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shopshops-domain-security.yml
@@ -108,7 +110,7 @@ overview: 'ShopShops is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   ShopShops'' developer surface includes support, authentication, and 9 more developer resources.'
-random_paper: 9
+random_paper: 15
 scopes:
 - name: Shopshops Scopes
   scope_count: 4
@@ -116,7 +118,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 17.2
+  composite: 16.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -124,15 +126,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 17.1
+  previous_composite: 16.2
   provenance:
     mcp: platform-generated
   regulatory:
@@ -141,14 +143,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/shopshops/refs/heads/main/screenshots/shopshops-2026-09-02T155307.png
+screenshot: https://apis.io/screenshots/shopshops/shopshops-2026-09-02T155307.png
 security:
 - kind: authentication
   name: Shopshops Authentication

@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 31.2
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://kong.observe.ai/
   baseurl_source: declared
@@ -73,15 +75,15 @@ apis:
   description: Summarization AI API can be used to pull the data related to summaries for a particular interaction including calls and chats. Please note - <ol> <li> Summaries can only be extracted if they are avail
   name: Observe.AI Summary API
   slug: observeai-summary-api
-artifact_total: 29
+artifact_total: 35
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/capabilities/observeai-capability-edges.yml
+  href: https://artifacts.apis.io/observeai/capabilities/observeai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/observeai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/overlays/observeai-reporting-apis-overlay.yaml
+  href: https://artifacts.apis.io/observeai/overlays/observeai-reporting-apis-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/observeai-reporting-apis-overlay.yaml
@@ -114,12 +116,12 @@ common:
   type: StatusPage
   url: https://status.observe.ai/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/lifecycle/observeai-lifecycle.yml
+  href: https://artifacts.apis.io/observeai/lifecycle/observeai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/observeai-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/security/observeai-trust-center.yml
+  href: https://artifacts.apis.io/observeai/security/observeai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/observeai-trust-center.yml
@@ -128,7 +130,7 @@ common:
   type: Compliance
   url: https://www.observe.ai/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/security/observeai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/observeai/security/observeai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/observeai-vulnerability-disclosure.yml
@@ -137,7 +139,7 @@ common:
   type: Security
   url: https://www.observe.ai/contact-center-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/security/observeai-domain-security.yml
+  href: https://artifacts.apis.io/observeai/security/observeai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/observeai-domain-security.yml
@@ -158,7 +160,7 @@ common:
   type: GettingStarted
   url: https://api-docs.observe.ai/#tag/ReportingService-Overview
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/changelog/observeai-changelog.yml
+  href: https://artifacts.apis.io/observeai/changelog/observeai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/observeai-changelog.yml
@@ -167,37 +169,37 @@ common:
   type: Deprecation
   url: https://api-docs.observe.ai/#tag/CallsReportVsInteractions
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/authentication/observeai-authentication.yml
+  href: https://artifacts.apis.io/observeai/authentication/observeai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/observeai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/conventions/observeai-conventions.yml
+  href: https://artifacts.apis.io/observeai/conventions/observeai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/observeai-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/rate-limits/observeai-rate-limits.yml
+  href: https://artifacts.apis.io/observeai/rate-limits/observeai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/observeai-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/errors/observeai-problem-types.yml
+  href: https://artifacts.apis.io/observeai/errors/observeai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/observeai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/data-model/observeai-data-model.yml
+  href: https://artifacts.apis.io/observeai/data-model/observeai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/observeai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/conformance/observeai-conformance.yml
+  href: https://artifacts.apis.io/observeai/conformance/observeai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/observeai-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/plans/observeai-plans-pricing.yml
+  href: https://artifacts.apis.io/observeai/plans/observeai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/observeai-plans-pricing.yml
@@ -210,18 +212,26 @@ common:
   type: SignUp
   url: https://app.observe.ai/login
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/observeai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/llms/observeai-llms.txt
+  href: https://artifacts.apis.io/observeai/llms/observeai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/observeai-llms.txt
 created: '2026-07-17'
 description: Observe.AI is an agentic AI platform for the contact center, providing purpose-built AI agents that handle customer support end-to-end across voice and chat, real-time AI Copilot guidance that assists frontline agents during live interactions, and Conversation Intelligence that evaluates every interaction for quality assurance, compliance, and business insight. Its AI agents connect to CRM, CCaaS, knowledge base, and backend systems to read and write data and trigger workflows, backed by 250+ prebuilt integrations and API/integration toolkits. Observe.AI serves regulated industries including banking and financial services, healthcare, insurance, and travel and hospitality, and maintains SOC 2, ISO 27001, and HIPAA compliance. Its public developer surface is the Reporting APIs at api-docs.observe.ai — an OpenAPI 3.0.1 contract covering asynchronous export of interactions, GenAI summaries, Auto QA and manual evaluations, coachings and ack/dispute state, plus a Data Subject Request
   deletion API and a scheduled bulk export to Snowflake or S3 described by sixteen JSON Schemas. The company was added to the API Evangelist network as a portfolio company of Scale Venture Partners and the SoftBank Vision Fund.
+finops:
+- has_sources: true
+  method: derived
+  name: Observeai Finops
+  primary_unit: agent (cost/12 months)
+  service_category: ''
+  slug: observeai-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/observeai.png
 json_schemas:
 - name: AGENT_PERFORMANCE_ASSIGNMENT_V1
@@ -285,30 +295,33 @@ plans:
 - name: Observeai Plans Pricing
   plan_count: 1
   slug: observeai-plans-pricing
-random_paper: 14
+- name: Observeai Price Estimates
+  plan_count: 0
+  slug: observeai-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Observeai Rate Limits
   slug: observeai-rate-limits
 score:
   band: strong
-  composite: 54.5
+  composite: 63.0
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 66.0
+    artifact_dirs: 24
+    catalog_earned: 69.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 49.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 1.5
   facets:
-    access_clarity: 63.2
+    access_clarity: 89.5
     contract_governance: 4.5
     contract_quality: 49.3
-    developer_ergonomics: 48.2
-    discoverability: 73.2
-    operational_transparency: 80.3
-  previous_composite: 54.9
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 86.8
+  previous_composite: 61.5
   provenance:
     conformance: derived
     contracts:
@@ -323,14 +336,15 @@ score:
     matched_via: residual_tags
     regime: AI & Biometrics
     regime_id: ai_biometrics
-    score: 33.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/screenshots/observeai-2026-08-07T185911.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/observeai/observeai-2026-08-07T185911.png
 security:
 - kind: authentication
   name: Observeai Authentication
@@ -348,6 +362,16 @@ security:
   name: Observeai Trust Center
   slug: observeai-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA
+skill_count: 4
+skills:
+- name: Export Observe.AI interactions for a date range
+  slug: observeai-export-interactions
+- name: Fetch Observe.AI GenAI interaction summaries
+  slug: observeai-fetch-genai-summaries
+- name: Pull Observe.AI QA evaluations and their ack/dispute state
+  slug: observeai-pull-qa-evaluations
+- name: Submit and track an Observe.AI DSR deletion request
+  slug: observeai-submit-dsr-deletion
 slug: observeai
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'OAuth 2.0 REST API for programmatic access to Burner line management, messaging (SMS/MMS) and configuration, plus a webhook system for real-time event notifications. Requests use `Authorization: Beare'
@@ -86,52 +88,52 @@ common:
   type: StatusPage
   url: https://status.burnerapp.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/llms/burner-llms.txt
+  href: https://artifacts.apis.io/burner/llms/burner-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/burner-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/packages/burner-packages.yml
+  href: https://artifacts.apis.io/burner/packages/burner-packages.yml
   title: ''
   type: Packages
   url: packages/burner-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/packages/burner-packages.yml
+  href: https://artifacts.apis.io/burner/packages/burner-packages.yml
   title: ''
   type: SDKs
   url: packages/burner-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/authentication/burner-authentication.yml
+  href: https://artifacts.apis.io/burner/authentication/burner-authentication.yml
   title: ''
   type: Authentication
   url: authentication/burner-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/conventions/burner-conventions.yml
+  href: https://artifacts.apis.io/burner/conventions/burner-conventions.yml
   title: ''
   type: Conventions
   url: conventions/burner-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/conformance/burner-conformance.yml
+  href: https://artifacts.apis.io/burner/conformance/burner-conformance.yml
   title: ''
   type: Conformance
   url: conformance/burner-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/lifecycle/burner-lifecycle.yml
+  href: https://artifacts.apis.io/burner/lifecycle/burner-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/burner-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/asyncapi/burner-webhooks.yml
+  href: https://artifacts.apis.io/burner/asyncapi/burner-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/burner-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/mcp/burner-mcp.yml
+  href: https://artifacts.apis.io/burner/mcp/burner-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/burner-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/security/burner-domain-security.yml
+  href: https://artifacts.apis.io/burner/security/burner-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/burner-domain-security.yml
@@ -150,12 +152,12 @@ overview: 'Burner is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Burner''s developer surface includes documentation, engineering blog, pricing, support, authentication, and 15 more developer resources.'
-random_paper: 16
+random_paper: 6
 score:
   band: thin
-  composite: 37.5
+  composite: 38.4
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -163,13 +165,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 35.7
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 37.5
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 38.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -179,14 +181,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/screenshots/burner-2026-07-25T204111.png
+screenshot: https://apis.io/screenshots/burner/burner-2026-07-25T204111.png
 security:
 - kind: authentication
   name: Burner Authentication

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.4
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,9 +82,6 @@ collections:
   name: Rainbow.AI Nowcast Tiles API
   slug: postman-rainbow-ai-tiles-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Rainbow.AI Nowcast API
   slug: open-rainbow-ai-nowcast-api
 - collection_type: open
@@ -102,17 +101,17 @@ collections:
   slug: open-rainbow-ai-tiles
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/plans/rainbow-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/rainbow-ai/plans/rainbow-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rainbow-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/rate-limits/rainbow-ai-rate-limits.yml
+  href: https://artifacts.apis.io/rainbow-ai/rate-limits/rainbow-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rainbow-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/finops/rainbow-ai-finops.yml
+  href: https://artifacts.apis.io/rainbow-ai/finops/rainbow-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/rainbow-ai-finops.yml
@@ -121,17 +120,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/rainbowai/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/agentic-access/rainbow-ai-agentic-access.yml
+  href: https://artifacts.apis.io/rainbow-ai/agentic-access/rainbow-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rainbow-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/security/rainbow-ai-domain-security.yml
+  href: https://artifacts.apis.io/rainbow-ai/security/rainbow-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rainbow-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/authentication/rainbow-ai-authentication.yml
+  href: https://artifacts.apis.io/rainbow-ai/authentication/rainbow-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rainbow-ai-authentication.yml
@@ -168,17 +167,17 @@ common:
   type: StatusPage
   url: https://status.rainbow.ai
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/rules/rainbow-ai-rules.yml
+  href: https://artifacts.apis.io/rainbow-ai/rules/rainbow-ai-rules.yml
   title: ''
   type: SpectralRules
   url: rules/rainbow-ai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/json-ld/rainbow-ai-context.jsonld
+  href: https://artifacts.apis.io/rainbow-ai/json-ld/rainbow-ai-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/rainbow-ai-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/vocabulary/rainbow-ai-vocabulary.yml
+  href: https://artifacts.apis.io/rainbow-ai/vocabulary/rainbow-ai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/rainbow-ai-vocabulary.yml
@@ -195,13 +194,13 @@ examples:
   name: Rainbow Ai Get Radar Data Example
   slug: rainbow-ai-get-radar-data-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Rainbow Ai Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: 1k calls
+  service_category: ''
   slug: rainbow-ai-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rainbow-ai.png
 json_schemas:
 - name: Rainbow.AI Nowcast Response
@@ -230,9 +229,12 @@ overview: 'Rainbow.AI publishes 4 API contracts indexed on the [APIs.io](https:/
   Rainbow.AI''s developer surface includes authentication, documentation, signup flow, pricing, and 14 more developer resources.'
 plans:
 - name: Rainbow Ai Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: rainbow-ai-plans-pricing
-random_paper: 11
+- name: Rainbow Ai Price Estimates
+  plan_count: 0
+  slug: rainbow-ai-price-estimates
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Rainbow Ai Rate Limits
@@ -263,23 +265,23 @@ rules:
   slug: rainbow-ai-rules
 score:
   band: developing
-  composite: 41.9
+  composite: 48.6
   coverage:
     artifact_dirs: 17
-    catalog_earned: 68.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.6
+    catalog_earned: 80.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 34.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.6
   facets:
-    access_clarity: 42.1
+    access_clarity: 73.7
     contract_governance: 27.3
     contract_quality: 59.5
     developer_ergonomics: 22.6
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 43.5
+    operational_transparency: 28.9
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     contracts:
@@ -293,14 +295,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/screenshots/rainbow-ai-2026-06-20T192610.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rainbow-ai/rainbow-ai-2026-06-20T192610.png
 security:
 - kind: authentication
   name: Rainbow Ai Authentication

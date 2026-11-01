@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-17'
+  score: 24.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -99,7 +101,7 @@ apis:
   description: Manage users including creating, retrieving, updating, deleting, deactivating, and reactivating
   name: Paradox Users API
   slug: paradox-users-api
-artifact_total: 69
+artifact_total: 68
 collections:
 - collection_type: postman
   name: Paradox Authentication API
@@ -134,9 +136,6 @@ collections:
 - collection_type: postman
   name: Paradox Authentication Users API
   slug: postman-paradox-users-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Paradox API
   slug: open-paradox-api
@@ -175,17 +174,17 @@ collections:
   slug: open-paradox-users-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/plans/paradox-plans-pricing.yml
+  href: https://artifacts.apis.io/paradox/plans/paradox-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/paradox-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/rate-limits/paradox-rate-limits.yml
+  href: https://artifacts.apis.io/paradox/rate-limits/paradox-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/paradox-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/finops/paradox-finops.yml
+  href: https://artifacts.apis.io/paradox/finops/paradox-finops.yml
   title: ''
   type: FinOps
   url: finops/paradox-finops.yml
@@ -194,7 +193,7 @@ common:
   type: Website
   url: https://www.paradox.ai/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/capabilities/paradox-capability-edges.yml
+  href: https://artifacts.apis.io/paradox/capabilities/paradox-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/paradox-capability-edges.yml
@@ -203,22 +202,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/paradox/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/agentic-access/paradox-agentic-access.yml
+  href: https://artifacts.apis.io/paradox/agentic-access/paradox-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/paradox-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/security/paradox-domain-security.yml
+  href: https://artifacts.apis.io/paradox/security/paradox-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paradox-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/authentication/paradox-authentication.yml
+  href: https://artifacts.apis.io/paradox/authentication/paradox-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paradox-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/scopes/paradox-scopes.yml
+  href: https://artifacts.apis.io/paradox/scopes/paradox-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/paradox-scopes.yml
@@ -283,17 +282,17 @@ common:
   type: About
   url: https://www.paradox.ai/about
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/openapi/_original/paradox-api-openapi.yml
+  href: https://artifacts.apis.io/paradox/openapi/_original/paradox-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/paradox-api-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/json-schema/paradox-candidate-schema.json
+  href: https://artifacts.apis.io/paradox/json-schema/paradox-candidate-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/paradox-candidate-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/json-ld/paradox-context.jsonld
+  href: https://artifacts.apis.io/paradox/json-ld/paradox-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/paradox-context.jsonld
@@ -406,7 +405,7 @@ plans:
 - name: Paradox Plans Pricing
   plan_count: 1
   slug: paradox-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Paradox Rate Limits
@@ -430,23 +429,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.0
+  composite: 46.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 54.7
     catalog_earned_first_party: 0.0
     catalog_gap: 60.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 59.2
-    developer_ergonomics: 31.0
+    contract_quality: 56.4
+    developer_ergonomics: 41.7
     discoverability: 66.1
-    operational_transparency: 42.1
-  previous_composite: 43.6
+    operational_transparency: 52.6
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     contracts:
@@ -460,13 +459,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/screenshots/paradox-2026-06-20T191353.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/paradox/paradox-2026-06-20T191353.png
 security:
 - kind: authentication
   name: Paradox Authentication

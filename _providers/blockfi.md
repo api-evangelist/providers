@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,22 +76,22 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/blockfi_stock/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blockfi/refs/heads/main/security/blockfi-domain-security.yml
+  href: https://artifacts.apis.io/blockfi/security/blockfi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blockfi-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blockfi/refs/heads/main/packages/blockfi-packages.yml
+  href: https://artifacts.apis.io/blockfi/packages/blockfi-packages.yml
   title: ''
   type: Packages
   url: packages/blockfi-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blockfi/refs/heads/main/conformance/blockfi-conformance.yml
+  href: https://artifacts.apis.io/blockfi/conformance/blockfi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blockfi-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blockfi/refs/heads/main/llms/blockfi-llms.txt
+  href: https://artifacts.apis.io/blockfi/llms/blockfi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blockfi-llms.txt
@@ -126,7 +128,7 @@ overview: 'BlockFi is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   BlockFi''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 4
+random_paper: 10
 score:
   band: minimal
   composite: 0.0
@@ -162,14 +164,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/blockfi/refs/heads/main/screenshots/blockfi-2026-08-07T162629.png
+screenshot: https://apis.io/screenshots/blockfi/blockfi-2026-08-07T162629.png
 security:
 - kind: domain-security
   name: Blockfi Domain Security

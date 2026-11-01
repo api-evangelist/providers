@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-10-17'
+  score: 23.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -76,11 +78,8 @@ apis:
   description: The System API from Exact Online — 3 operation(s) for system.
   name: Exact Online System API
   slug: exact-online-system-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Exact Online REST / OData CRM API
   slug: open-exact-online-crm-api
@@ -104,37 +103,37 @@ collections:
   slug: open-exact-online
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/capabilities/exact-online-capability-edges.yml
+  href: https://artifacts.apis.io/exact-online/capabilities/exact-online-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/exact-online-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/agentic-access/exact-online-agentic-access.yml
+  href: https://artifacts.apis.io/exact-online/agentic-access/exact-online-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/exact-online-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/security/exact-online-trust-center.yml
+  href: https://artifacts.apis.io/exact-online/security/exact-online-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/exact-online-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/security/exact-online-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/exact-online/security/exact-online-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/exact-online-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/security/exact-online-domain-security.yml
+  href: https://artifacts.apis.io/exact-online/security/exact-online-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/exact-online-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/authentication/exact-online-authentication.yml
+  href: https://artifacts.apis.io/exact-online/authentication/exact-online-authentication.yml
   title: ''
   type: Authentication
   url: authentication/exact-online-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/scopes/exact-online-scopes.yml
+  href: https://artifacts.apis.io/exact-online/scopes/exact-online-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/exact-online-scopes.yml
@@ -182,7 +181,7 @@ overview: 'Exact Online publishes 7 API contracts indexed on the [APIs.io](https
 
 
   Exact Online''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 10 more developer resources.'
-random_paper: 13
+random_paper: 23
 scopes:
 - name: Exact Online Scopes
   scope_count: 0
@@ -190,7 +189,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 29.6
+  composite: 33.8
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -200,18 +199,18 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 42.9
     developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 0.0
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - netherlands
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 29.6
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -225,13 +224,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/screenshots/exact-online-2026-06-20T180917.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/exact-online/exact-online-2026-06-20T180917.png
 security:
 - kind: authentication
   name: Exact Online Authentication

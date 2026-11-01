@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -55,42 +57,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/Speedata-io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/speedata/refs/heads/main/llms/speedata-llms.txt
+  href: https://artifacts.apis.io/speedata/llms/speedata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/speedata-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/speedata/refs/heads/main/mcp/speedata-mcp.yml
+  href: https://artifacts.apis.io/speedata/mcp/speedata-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/speedata-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/speedata/refs/heads/main/packages/speedata-packages.yml
+  href: https://artifacts.apis.io/speedata/packages/speedata-packages.yml
   title: ''
   type: Packages
   url: packages/speedata-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/speedata/refs/heads/main/plans/speedata-plans-pricing.yml
+  href: https://artifacts.apis.io/speedata/plans/speedata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/speedata-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/speedata/refs/heads/main/rate-limits/speedata-rate-limits.yml
+  href: https://artifacts.apis.io/speedata/rate-limits/speedata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/speedata-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speedata/refs/heads/main/lifecycle/speedata-lifecycle.yml
+  href: https://artifacts.apis.io/speedata/lifecycle/speedata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/speedata-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speedata/refs/heads/main/conformance/speedata-conformance.yml
+  href: https://artifacts.apis.io/speedata/conformance/speedata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/speedata-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/speedata/refs/heads/main/security/speedata-domain-security.yml
+  href: https://artifacts.apis.io/speedata/security/speedata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/speedata-domain-security.yml
@@ -131,14 +133,14 @@ plans:
 - name: Speedata Plans Pricing
   plan_count: 0
   slug: speedata-plans-pricing
-random_paper: 3
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Speedata Rate Limits
   slug: speedata-rate-limits
 score:
   band: minimal
-  composite: 10.7
+  composite: 10.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -146,14 +148,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 58.3
-    operational_transparency: 2.6
+    discoverability: 48.3
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -162,7 +164,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 10.6
+  previous_composite: 10.1
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -172,14 +174,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/speedata/refs/heads/main/screenshots/speedata-2026-09-02T160358.png
+screenshot: https://apis.io/screenshots/speedata/speedata-2026-09-02T160358.png
 security:
 - kind: domain-security
   name: Speedata Domain Security

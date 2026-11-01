@@ -13,7 +13,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.5
-  scored_at: '2026-10-17'
+  score: 38.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -104,15 +105,12 @@ apis:
   description: Webhook endpoint registration for platform events.
   name: Whop Webhooks API
   slug: whop-webhooks-api
-artifact_total: 34
+artifact_total: 33
 asyncapis:
 - description: AsyncAPI 2.6 description of Whop's **realtime WebSocket** surface, used by Whop apps for bidirectional realtime messaging (custom app messages plus chat / feed updates) between connected clients and W
   name: Whop Realtime WebSocket
   slug: whop-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Whop REST API (v1) Checkout Configurations API
   slug: open-whop-checkout-configurations-api
@@ -152,22 +150,22 @@ common:
   type: BlogRSS
   url: https://whop.com/blog/rss/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/capabilities/whop-capability-edges.yml
+  href: https://artifacts.apis.io/whop/capabilities/whop-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/whop-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/agentic-access/whop-agentic-access.yml
+  href: https://artifacts.apis.io/whop/agentic-access/whop-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/whop-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/security/whop-domain-security.yml
+  href: https://artifacts.apis.io/whop/security/whop-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/whop-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/authentication/whop-authentication.yml
+  href: https://artifacts.apis.io/whop/authentication/whop-authentication.yml
   title: ''
   type: Authentication
   url: authentication/whop-authentication.yml
@@ -188,17 +186,17 @@ common:
   type: Documentation
   url: https://docs.whop.com/developer/api/getting-started
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/plans/whop-plans-pricing.yml
+  href: https://artifacts.apis.io/whop/plans/whop-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/whop-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/rate-limits/whop-rate-limits.yml
+  href: https://artifacts.apis.io/whop/rate-limits/whop-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/whop-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/finops/whop-finops.yml
+  href: https://artifacts.apis.io/whop/finops/whop-finops.yml
   title: ''
   type: FinOps
   url: finops/whop-finops.yml
@@ -241,7 +239,7 @@ plans:
 - name: Whop Plans Pricing
   plan_count: 3
   slug: whop-plans-pricing
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Whop Rate Limits
@@ -261,7 +259,7 @@ rules:
   slug: whop-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 24.9
+  composite: 21.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 47.5
@@ -269,15 +267,15 @@ score:
     catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
-    contract_quality: 38.2
-    developer_ergonomics: 29.8
-    discoverability: 68.3
-    operational_transparency: 10.5
-  previous_composite: 33.2
+    contract_quality: 18.2
+    developer_ergonomics: 32.1
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 21.2
   provenance:
     agentic_access: derived
     contracts:
@@ -292,13 +290,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/screenshots/whop-2026-09-02T170731.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/whop/whop-2026-09-02T170731.png
 security:
 - kind: authentication
   name: Whop Authentication

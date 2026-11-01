@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.0
-  scored_at: '2026-10-17'
+  score: 26.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -117,14 +119,11 @@ arazzos:
 - description: Create or update an order, then retrieve its latest tracking and checkpoints.
   name: parcelLab Create Order and Track
   slug: parcellab-upsert-order-and-track-workflow
-artifact_total: 85
+artifact_total: 84
 collections:
 - collection_type: postman
   name: parcelLab API
   slug: postman-parcellab
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: parcelLab Campaigns API
   slug: open-parcellab-campaigns-api
@@ -151,7 +150,7 @@ collections:
   slug: open-parcellab
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/capabilities/parcellab-capability-edges.yml
+  href: https://artifacts.apis.io/parcellab/capabilities/parcellab-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/parcellab-capability-edges.yml
@@ -168,22 +167,22 @@ common:
   type: ContributionGuide
   url: https://github.com/parcelLab/.github/blob/main/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/agentic-access/parcellab-agentic-access.yml
+  href: https://artifacts.apis.io/parcellab/agentic-access/parcellab-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/parcellab-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/security/parcellab-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/parcellab/security/parcellab-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/parcellab-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/security/parcellab-domain-security.yml
+  href: https://artifacts.apis.io/parcellab/security/parcellab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parcellab-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/authentication/parcellab-authentication.yml
+  href: https://artifacts.apis.io/parcellab/authentication/parcellab-authentication.yml
   title: ''
   type: Authentication
   url: authentication/parcellab-authentication.yml
@@ -192,57 +191,57 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/parcellab/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/arazzo/parcellab-create-and-fetch-return-workflow.yml
+  href: https://artifacts.apis.io/parcellab/arazzo/parcellab-create-and-fetch-return-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/parcellab-create-and-fetch-return-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/arazzo/parcellab-evaluate-campaign-and-redirect-workflow.yml
+  href: https://artifacts.apis.io/parcellab/arazzo/parcellab-evaluate-campaign-and-redirect-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/parcellab-evaluate-campaign-and-redirect-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/arazzo/parcellab-list-and-get-return-workflow.yml
+  href: https://artifacts.apis.io/parcellab/arazzo/parcellab-list-and-get-return-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/parcellab-list-and-get-return-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/arazzo/parcellab-predict-then-create-order-workflow.yml
+  href: https://artifacts.apis.io/parcellab/arazzo/parcellab-predict-then-create-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/parcellab-predict-then-create-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/arazzo/parcellab-pudo-lookup-and-register-return-workflow.yml
+  href: https://artifacts.apis.io/parcellab/arazzo/parcellab-pudo-lookup-and-register-return-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/parcellab-pudo-lookup-and-register-return-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/arazzo/parcellab-register-return-and-survey-workflow.yml
+  href: https://artifacts.apis.io/parcellab/arazzo/parcellab-register-return-and-survey-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/parcellab-register-return-and-survey-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/arazzo/parcellab-resolve-config-and-register-return-workflow.yml
+  href: https://artifacts.apis.io/parcellab/arazzo/parcellab-resolve-config-and-register-return-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/parcellab-resolve-config-and-register-return-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/arazzo/parcellab-send-event-and-refresh-workflow.yml
+  href: https://artifacts.apis.io/parcellab/arazzo/parcellab-send-event-and-refresh-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/parcellab-send-event-and-refresh-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/arazzo/parcellab-survey-fetch-and-submit-workflow.yml
+  href: https://artifacts.apis.io/parcellab/arazzo/parcellab-survey-fetch-and-submit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/parcellab-survey-fetch-and-submit-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/arazzo/parcellab-track-and-target-campaign-workflow.yml
+  href: https://artifacts.apis.io/parcellab/arazzo/parcellab-track-and-target-campaign-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/parcellab-track-and-target-campaign-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/arazzo/parcellab-upsert-order-and-track-workflow.yml
+  href: https://artifacts.apis.io/parcellab/arazzo/parcellab-upsert-order-and-track-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/parcellab-upsert-order-and-track-workflow.yml
@@ -351,27 +350,27 @@ common:
   type: AgentSDK
   url: https://github.com/parcelLab/parcellab-mcp-server
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/plans/parcellab-plans-pricing.yml
+  href: https://artifacts.apis.io/parcellab/plans/parcellab-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/parcellab-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/rate-limits/parcellab-rate-limits.yml
+  href: https://artifacts.apis.io/parcellab/rate-limits/parcellab-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/parcellab-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/finops/parcellab-finops.yml
+  href: https://artifacts.apis.io/parcellab/finops/parcellab-finops.yml
   title: ''
   type: FinOps
   url: finops/parcellab-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/rules/parcellab-rules.yml
+  href: https://artifacts.apis.io/parcellab/rules/parcellab-rules.yml
   title: ''
   type: SpectralRules
   url: rules/parcellab-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/vocabulary/parcellab-vocabulary.yml
+  href: https://artifacts.apis.io/parcellab/vocabulary/parcellab-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/parcellab-vocabulary.yml
@@ -499,7 +498,7 @@ plans:
 - name: Parcellab Plans Pricing
   plan_count: 4
   slug: parcellab-plans-pricing
-random_paper: 10
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Parcellab Rate Limits
@@ -530,7 +529,7 @@ rules:
   slug: parcellab-rules
 score:
   band: strong
-  composite: 55.6
+  composite: 57.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 68.0
@@ -538,14 +537,14 @@ score:
     catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 42.1
     contract_governance: 27.3
     contract_quality: 63.5
-    developer_ergonomics: 75.0
+    developer_ergonomics: 82.1
     discoverability: 66.1
-    operational_transparency: 23.7
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -554,7 +553,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 63.0
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     contracts:
@@ -567,14 +566,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 26.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/screenshots/parcellab-2026-06-20T191411.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/parcellab/parcellab-2026-06-20T191411.png
 security:
 - kind: authentication
   name: Parcellab Authentication

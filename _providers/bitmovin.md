@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.2
-  scored_at: '2026-10-17'
+  score: 40.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 313
   human_in_the_loop: 4
@@ -131,11 +133,8 @@ apis:
   description: The Webhooks API from Bitmovin — 21 operation(s) for webhooks.
   name: Bitmovin Webhooks API
   slug: bitmovin-webhooks-api
-artifact_total: 43
+artifact_total: 42
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bitmovin Encoding Config API
   slug: open-bitmovin-config-api
@@ -186,22 +185,22 @@ collections:
   slug: open-bitmovin-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitmovin/refs/heads/main/capabilities/bitmovin-capability-edges.yml
+  href: https://artifacts.apis.io/bitmovin/capabilities/bitmovin-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bitmovin-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitmovin/refs/heads/main/agentic-access/bitmovin-agentic-access.yml
+  href: https://artifacts.apis.io/bitmovin/agentic-access/bitmovin-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bitmovin-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitmovin/refs/heads/main/security/bitmovin-domain-security.yml
+  href: https://artifacts.apis.io/bitmovin/security/bitmovin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitmovin-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitmovin/refs/heads/main/authentication/bitmovin-authentication.yml
+  href: https://artifacts.apis.io/bitmovin/authentication/bitmovin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bitmovin-authentication.yml
@@ -238,27 +237,27 @@ common:
   type: X
   url: https://x.com/bitmovin
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bitmovin/refs/heads/main/plans/bitmovin-plans-pricing.yml
+  href: https://artifacts.apis.io/bitmovin/plans/bitmovin-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bitmovin-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bitmovin/refs/heads/main/rate-limits/bitmovin-rate-limits.yml
+  href: https://artifacts.apis.io/bitmovin/rate-limits/bitmovin-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bitmovin-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bitmovin/refs/heads/main/finops/bitmovin-finops.yml
+  href: https://artifacts.apis.io/bitmovin/finops/bitmovin-finops.yml
   title: ''
   type: FinOps
   url: finops/bitmovin-finops.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/bitmovin/refs/heads/main/openapi/_original/bitmovin-platform-openapi.yml
+  href: https://artifacts.apis.io/bitmovin/openapi/_original/bitmovin-platform-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/bitmovin-platform-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitmovin/refs/heads/main/json-ld/bitmovin-context.jsonld
+  href: https://artifacts.apis.io/bitmovin/json-ld/bitmovin-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bitmovin-context.jsonld
@@ -298,14 +297,14 @@ plans:
 - name: Bitmovin Plans Pricing
   plan_count: 2
   slug: bitmovin-plans-pricing
-random_paper: 14
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Bitmovin Rate Limits
   slug: bitmovin-rate-limits
 score:
   band: thin
-  composite: 29.9
+  composite: 30.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 47.0
@@ -313,15 +312,15 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 52.1
-    developer_ergonomics: 14.3
-    discoverability: 68.3
-    operational_transparency: 13.2
-  previous_composite: 34.2
+    contract_quality: 51.4
+    developer_ergonomics: 23.8
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     contracts:
@@ -336,13 +335,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/bitmovin/refs/heads/main/screenshots/bitmovin-2026-06-20T173317.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bitmovin/bitmovin-2026-06-20T173317.png
 security:
 - kind: authentication
   name: Bitmovin Authentication

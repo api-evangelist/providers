@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: An Indian Government platform that provides a lot of APIS for KYC, business, education & employment
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/api-setu/refs/heads/main/security/api-setu-domain-security.yml
+  href: https://artifacts.apis.io/api-setu/security/api-setu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/api-setu-domain-security.yml
@@ -74,7 +76,7 @@ score:
   band: minimal
   composite: 5.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -95,14 +97,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/api-setu/refs/heads/main/screenshots/api-setu-2026-06-20T172218.png
+screenshot: https://apis.io/screenshots/api-setu/api-setu-2026-06-20T172218.png
 security:
 - kind: domain-security
   name: Api Setu Domain Security

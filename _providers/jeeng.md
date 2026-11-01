@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 27.5
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - baseURL: https://powerinbox.azure-api.net/
@@ -52,7 +54,7 @@ apis:
   description: The Revenuestripe.onmicrosoft.com API from Jeeng — 1 operation(s) for revenuestripe.onmicrosoft.com.
   name: Jeeng Revenuestripe.onmicrosoft.com API
   slug: jeeng-revenuestripe-onmicrosoft-com-api
-artifact_total: 12
+artifact_total: 15
 collections:
 - collection_type: open
   name: Jeeng Email Monetization — Advertisers API
@@ -69,22 +71,22 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/openweb/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/capabilities/jeeng-capability-edges.yml
+  href: https://artifacts.apis.io/jeeng/capabilities/jeeng-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/jeeng-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/overlays/jeeng-advertisers-overlay.yaml
+  href: https://artifacts.apis.io/jeeng/overlays/jeeng-advertisers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/jeeng-advertisers-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/overlays/jeeng-publishers-overlay.yaml
+  href: https://artifacts.apis.io/jeeng/overlays/jeeng-publishers-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/jeeng-publishers-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/overlays/jeeng-authentication-overlay.yaml
+  href: https://artifacts.apis.io/jeeng/overlays/jeeng-authentication-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/jeeng-authentication-overlay.yaml
@@ -129,77 +131,77 @@ common:
   type: Login
   url: https://manage.jeeng.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/security/jeeng-domain-security.yml
+  href: https://artifacts.apis.io/jeeng/security/jeeng-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jeeng-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/llms/jeeng-llms.txt
+  href: https://artifacts.apis.io/jeeng/llms/jeeng-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jeeng-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/authentication/jeeng-authentication.yml
+  href: https://artifacts.apis.io/jeeng/authentication/jeeng-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jeeng-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/scopes/jeeng-scopes.yml
+  href: https://artifacts.apis.io/jeeng/scopes/jeeng-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/jeeng-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/conventions/jeeng-conventions.yml
+  href: https://artifacts.apis.io/jeeng/conventions/jeeng-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jeeng-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/errors/jeeng-problem-types.yml
+  href: https://artifacts.apis.io/jeeng/errors/jeeng-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/jeeng-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/lifecycle/jeeng-lifecycle.yml
+  href: https://artifacts.apis.io/jeeng/lifecycle/jeeng-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jeeng-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/conformance/jeeng-conformance.yml
+  href: https://artifacts.apis.io/jeeng/conformance/jeeng-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jeeng-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/data-model/jeeng-data-model.yml
+  href: https://artifacts.apis.io/jeeng/data-model/jeeng-data-model.yml
   title: ''
   type: DataModel
   url: data-model/jeeng-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/packages/jeeng-packages.yml
+  href: https://artifacts.apis.io/jeeng/packages/jeeng-packages.yml
   title: ''
   type: Packages
   url: packages/jeeng-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/plans/jeeng-plans-pricing.yml
+  href: https://artifacts.apis.io/jeeng/plans/jeeng-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jeeng-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/rate-limits/jeeng-rate-limits.yml
+  href: https://artifacts.apis.io/jeeng/rate-limits/jeeng-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jeeng-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/mcp/jeeng-mcp.yml
+  href: https://artifacts.apis.io/jeeng/mcp/jeeng-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jeeng-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/mcp/jeeng-tool-crosswalk.yml
+  href: https://artifacts.apis.io/jeeng/mcp/jeeng-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/jeeng-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/jeeng/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -224,7 +226,7 @@ plans:
 - name: Jeeng Plans Pricing
   plan_count: 0
   slug: jeeng-plans-pricing
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Jeeng Rate Limits
@@ -235,10 +237,10 @@ scopes:
   slug: jeeng-scopes
   summary_line: 1 scope · client_credentials
 score:
-  band: thin
-  composite: 37.4
+  band: developing
+  composite: 41.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -246,13 +248,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 52.9
-    developer_ergonomics: 39.9
-    discoverability: 80.0
+    contract_quality: 50.2
+    developer_ergonomics: 58.9
+    discoverability: 70.0
     operational_transparency: 0.0
-  previous_composite: 37.4
+  previous_composite: 41.6
   provenance:
     conformance: derived
     contracts:
@@ -268,13 +270,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/screenshots/jeeng-2026-07-25T223120.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/jeeng/jeeng-2026-07-25T223120.png
 security:
 - kind: authentication
   name: Jeeng Authentication
@@ -284,6 +287,14 @@ security:
   name: Jeeng Domain Security
   slug: jeeng-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: jeeng-manage-a-campaign-line
+  slug: jeeng-manage-a-campaign-line
+- name: jeeng-pull-a-publisher-inventory-report
+  slug: jeeng-pull-a-publisher-inventory-report
+- name: jeeng-pull-an-advertiser-campaign-report
+  slug: jeeng-pull-an-advertiser-campaign-report
 slug: jeeng
 tags:
 - Company

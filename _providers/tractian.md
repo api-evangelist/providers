@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API behind the Tractian platform, used for ERP, BI, and business-system integrations alongside native SQL access and prebuilt connectors. The API host is live (public health endpoint reporting v1
@@ -41,7 +43,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tractian/refs/heads/main/security/tractian-domain-security.yml
+  href: https://artifacts.apis.io/tractian/security/tractian-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tractian-domain-security.yml
@@ -58,7 +60,7 @@ common:
   type: ChangeLog
   url: https://tractian.com/en/blog/categories/releases
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tractian/refs/heads/main/changelog/tractian-changelog.yml
+  href: https://artifacts.apis.io/tractian/changelog/tractian-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tractian-changelog.yml
@@ -95,7 +97,7 @@ common:
   type: ServiceLevelAgreement
   url: https://tractian.com/en/service-level-agreement
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tractian/refs/heads/main/security/tractian-trust-center.yml
+  href: https://artifacts.apis.io/tractian/security/tractian-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tractian-trust-center.yml
@@ -104,27 +106,27 @@ common:
   type: Compliance
   url: https://trust.tractian.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tractian/refs/heads/main/conformance/tractian-conformance.yml
+  href: https://artifacts.apis.io/tractian/conformance/tractian-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tractian-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tractian/refs/heads/main/lifecycle/tractian-lifecycle.yml
+  href: https://artifacts.apis.io/tractian/lifecycle/tractian-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tractian-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tractian/refs/heads/main/well-known/tractian-well-known.yml
+  href: https://artifacts.apis.io/tractian/well-known/tractian-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tractian-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tractian/refs/heads/main/packages/tractian-packages.yml
+  href: https://artifacts.apis.io/tractian/packages/tractian-packages.yml
   title: ''
   type: Packages
   url: packages/tractian-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tractian/refs/heads/main/llms/tractian-llms.txt
+  href: https://artifacts.apis.io/tractian/llms/tractian-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tractian-llms.txt
@@ -140,10 +142,10 @@ overview: 'Tractian is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Tractian''s developer surface includes engineering blog, changelog, support, pricing, and 16 more developer resources.'
-random_paper: 18
+random_paper: 14
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 28.1
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -153,13 +155,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 26.1
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 28.1
   provenance:
     conformance: first-party
   regulatory:
@@ -168,14 +170,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 19.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tractian/refs/heads/main/screenshots/tractian-2026-09-02T164038.png
+screenshot: https://apis.io/screenshots/tractian/tractian-2026-09-02T164038.png
 security:
 - kind: domain-security
   name: Tractian Domain Security

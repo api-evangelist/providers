@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Antero Resources Corporation (NYSE: AR) files annual reports (10-K), quarterly reports (10-Q), current reports (8-K), proxy statements, and other regulatory disclosures with the U.S. Securities and Ex'
@@ -42,22 +44,22 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/antero-resources/refs/heads/main/plans/antero-resources-plans-pricing.yml
+  href: https://artifacts.apis.io/antero-resources/plans/antero-resources-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/antero-resources-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/antero-resources/refs/heads/main/rate-limits/antero-resources-rate-limits.yml
+  href: https://artifacts.apis.io/antero-resources/rate-limits/antero-resources-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/antero-resources-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/antero-resources/refs/heads/main/finops/antero-resources-finops.yml
+  href: https://artifacts.apis.io/antero-resources/finops/antero-resources-finops.yml
   title: ''
   type: FinOps
   url: finops/antero-resources-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/antero-resources/refs/heads/main/security/antero-resources-domain-security.yml
+  href: https://artifacts.apis.io/antero-resources/security/antero-resources-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/antero-resources-domain-security.yml
@@ -86,12 +88,12 @@ common:
   type: Support
   url: https://www.anteroresources.com/contact-us
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/antero-resources/refs/heads/main/llms/antero-resources-llms.txt
+  href: https://artifacts.apis.io/antero-resources/llms/antero-resources-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/antero-resources-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/antero-resources/refs/heads/main/conformance/antero-resources-conformance.yml
+  href: https://artifacts.apis.io/antero-resources/conformance/antero-resources-conformance.yml
   title: ''
   type: Conformance
   url: conformance/antero-resources-conformance.yml
@@ -160,30 +162,30 @@ press:
 - date: ''
   title: Antero Resources Announces Third Quarter 2025 Financial and Operating Results
   url: https://www.anteroresources.com/news-events/press-releases/detail/251/antero-resources-announces-third-quarter-2025-financial-and
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Antero Resources Rate Limits
   slug: antero-resources-rate-limits
 score:
   band: emerging
-  composite: 22.6
+  composite: 21.9
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 47.0
     catalog_earned_first_party: 8.0
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 24.2
+  previous_composite: 21.9
   provenance:
     conformance: first-party
   regulatory:
@@ -192,14 +194,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 15.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/antero-resources/refs/heads/main/screenshots/antero-resources-2026-06-20T172022.png
+screenshot: https://apis.io/screenshots/antero-resources/antero-resources-2026-06-20T172022.png
 security:
 - kind: domain-security
   name: Antero Resources Domain Security

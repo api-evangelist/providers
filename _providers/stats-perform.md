@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,11 +82,8 @@ apis:
   description: Retrieve team rosters, statistics, and metadata for all supported sports and leagues.
   name: Stats Perform Teams API
   slug: stats-perform-teams-api
-artifact_total: 30
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Stats Perform STATS Editorial API
   slug: open-stats-perform-editorial-api
@@ -111,32 +110,32 @@ collections:
   slug: open-stats-perform-teams-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/plans/stats-perform-plans-pricing.yml
+  href: https://artifacts.apis.io/stats-perform/plans/stats-perform-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stats-perform-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/rate-limits/stats-perform-rate-limits.yml
+  href: https://artifacts.apis.io/stats-perform/rate-limits/stats-perform-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stats-perform-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/finops/stats-perform-finops.yml
+  href: https://artifacts.apis.io/stats-perform/finops/stats-perform-finops.yml
   title: ''
   type: FinOps
   url: finops/stats-perform-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/agentic-access/stats-perform-agentic-access.yml
+  href: https://artifacts.apis.io/stats-perform/agentic-access/stats-perform-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stats-perform-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/security/stats-perform-domain-security.yml
+  href: https://artifacts.apis.io/stats-perform/security/stats-perform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stats-perform-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/authentication/stats-perform-authentication.yml
+  href: https://artifacts.apis.io/stats-perform/authentication/stats-perform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stats-perform-authentication.yml
@@ -169,32 +168,32 @@ common:
   type: InteractiveDocs
   url: https://developer.stats.com/io-docs
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/json-schema/stats-perform-event-schema.json
+  href: https://artifacts.apis.io/stats-perform/json-schema/stats-perform-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/stats-perform-event-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/json-schema/stats-perform-team-schema.json
+  href: https://artifacts.apis.io/stats-perform/json-schema/stats-perform-team-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/stats-perform-team-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/json-structure/stats-perform-event-structure.json
+  href: https://artifacts.apis.io/stats-perform/json-structure/stats-perform-event-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/stats-perform-event-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/json-ld/stats-perform-context.jsonld
+  href: https://artifacts.apis.io/stats-perform/json-ld/stats-perform-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/stats-perform-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/rules/stats-perform-rules.yml
+  href: https://artifacts.apis.io/stats-perform/rules/stats-perform-rules.yml
   title: ''
   type: SpectralRules
   url: rules/stats-perform-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/vocabulary/stats-perform-vocabulary.yml
+  href: https://artifacts.apis.io/stats-perform/vocabulary/stats-perform-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/stats-perform-vocabulary.yml
@@ -211,7 +210,7 @@ finops:
 - has_sources: false
   method: generated
   name: Stats Perform Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: stats-perform-finops
   template: true
@@ -248,7 +247,7 @@ plans:
 - name: Stats Perform Plans Pricing
   plan_count: 3
   slug: stats-perform-plans-pricing
-random_paper: 3
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Stats Perform Rate Limits
@@ -279,23 +278,23 @@ rules:
   slug: stats-perform-rules
 score:
   band: thin
-  composite: 33.5
+  composite: 33.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
     contract_quality: 55.0
     developer_ergonomics: 33.3
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 35.0
+    operational_transparency: 13.2
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -309,14 +308,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/screenshots/stats-perform-2026-06-20T194526.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stats-perform/stats-perform-2026-06-20T194526.png
 security:
 - kind: authentication
   name: Stats Perform Authentication

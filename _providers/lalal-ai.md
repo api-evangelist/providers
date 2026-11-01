@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.2
-  scored_at: '2026-10-17'
+  score: 36.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 2
@@ -45,7 +47,7 @@ agentic_access:
   operation_count: 15
   slug: lalal-ai-agentic-access
   summary_line: 15 operations · 14 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://www.lalal.ai
   baseurl_source: spec
@@ -67,7 +69,7 @@ apis:
   description: The Voice Change API from LALAL.AI — 2 operation(s) for voice change.
   name: LALAL.AI Voice Change API
   slug: lalal-ai-voice-change-api
-artifact_total: 51
+artifact_total: 54
 collections:
 - collection_type: postman
   name: LALAL.AI Batch Stem Separation API
@@ -81,9 +83,6 @@ collections:
 - collection_type: postman
   name: LALAL.AI Batch Stem Separation Voice Change API
   slug: postman-lalal-ai-voice-change-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LALAL.AI API
   slug: open-lalal-ai-api
@@ -100,6 +99,11 @@ collections:
   name: LALAL.AI Batch Stem Separation Voice Change API
   slug: open-lalal-ai-voice-change-api
 common:
+- group: other
+  href: https://artifacts.apis.io/lalal-ai/capabilities/lalal-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lalal-ai-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -113,17 +117,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/lalalai/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/agentic-access/lalal-ai-agentic-access.yml
+  href: https://artifacts.apis.io/lalal-ai/agentic-access/lalal-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lalal-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/security/lalal-ai-domain-security.yml
+  href: https://artifacts.apis.io/lalal-ai/security/lalal-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lalal-ai-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/authentication/lalal-ai-authentication.yml
+  href: https://artifacts.apis.io/lalal-ai/authentication/lalal-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lalal-ai-authentication.yml
@@ -184,17 +188,17 @@ common:
   type: SDKs
   url: https://github.com/OmniSaleGmbH/lalalai/tree/main/api-v1/python
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/plans/lalal-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/lalal-ai/plans/lalal-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lalal-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/rate-limits/lalal-ai-rate-limits.yml
+  href: https://artifacts.apis.io/lalal-ai/rate-limits/lalal-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lalal-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/finops/lalal-ai-finops.yml
+  href: https://artifacts.apis.io/lalal-ai/finops/lalal-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/lalal-ai-finops.yml
@@ -203,37 +207,37 @@ common:
   type: APIReference
   url: https://www.lalal.ai/api/v1/docs/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/llms/lalal-ai-llms.txt
+  href: https://artifacts.apis.io/lalal-ai/llms/lalal-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lalal-ai-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/packages/lalal-ai-packages.yml
+  href: https://artifacts.apis.io/lalal-ai/packages/lalal-ai-packages.yml
   title: ''
   type: Packages
   url: packages/lalal-ai-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/mcp/lalal-ai-mcp.yml
+  href: https://artifacts.apis.io/lalal-ai/mcp/lalal-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/lalal-ai-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/conventions/lalal-ai-conventions.yml
+  href: https://artifacts.apis.io/lalal-ai/conventions/lalal-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lalal-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/conventions/lalal-ai-conventions.yml
+  href: https://artifacts.apis.io/lalal-ai/conventions/lalal-ai-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/lalal-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/errors/lalal-ai-problem-types.yml
+  href: https://artifacts.apis.io/lalal-ai/errors/lalal-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/lalal-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/lifecycle/lalal-ai-lifecycle.yml
+  href: https://artifacts.apis.io/lalal-ai/lifecycle/lalal-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lalal-ai-lifecycle.yml
@@ -242,27 +246,27 @@ common:
   type: Deprecation
   url: https://www.lalal.ai/api/help/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/changelog/lalal-ai-changelog.yml
+  href: https://artifacts.apis.io/lalal-ai/changelog/lalal-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lalal-ai-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/conformance/lalal-ai-conformance.yml
+  href: https://artifacts.apis.io/lalal-ai/conformance/lalal-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lalal-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/data-model/lalal-ai-data-model.yml
+  href: https://artifacts.apis.io/lalal-ai/data-model/lalal-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/lalal-ai-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/sandbox/lalal-ai-sandbox.yml
+  href: https://artifacts.apis.io/lalal-ai/sandbox/lalal-ai-sandbox.yml
   title: ''
   type: Console
   url: sandbox/lalal-ai-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/lalal-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -306,8 +310,8 @@ features:
 - Official Python example client maintained at github.com/OmniSaleGmbH/lalalai
 - API access included on Pro and higher plans, with custom enterprise pricing available
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Lalal Ai Finops
   primary_unit: ''
   service_category: ''
@@ -340,12 +344,12 @@ overview: 'LALAL.AI publishes 4 API contracts indexed on the [APIs.io](https://a
   The LALAL.AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  LALAL.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 30 more developer resources.'
+  LALAL.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 31 more developer resources.'
 plans:
 - name: Lalal Ai Plans Pricing
   plan_count: 9
   slug: lalal-ai-plans-pricing
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Lalal Ai Rate Limits
@@ -376,23 +380,23 @@ rules:
   slug: lalal-ai-rules
 score:
   band: strong
-  composite: 60.1
+  composite: 57.6
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 31
     catalog_earned: 70.0
     catalog_earned_first_party: 12.0
     catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 63.2
     contract_governance: 31.8
     contract_quality: 64.8
     developer_ergonomics: 74.4
-    discoverability: 64.3
-    operational_transparency: 26.3
-  previous_composite: 62.1
+    discoverability: 57.1
+    operational_transparency: 28.9
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -409,13 +413,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 21.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/screenshots/lalal-ai-2026-06-20T184249.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lalal-ai/lalal-ai-2026-06-20T184249.png
 security:
 - kind: authentication
   name: Lalal Ai Authentication
@@ -425,6 +430,16 @@ security:
   name: Lalal Ai Domain Security
   slug: lalal-ai-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: Batch-separate many tracks with LALAL.AI
+  slug: lalal-ai-batch-separate
+- name: Apply a voice pack with LALAL.AI Voice Changer
+  slug: lalal-ai-change-voice
+- name: Clean a voice recording with LALAL.AI
+  slug: lalal-ai-clean-voice-recording
+- name: Separate a track into stems with LALAL.AI
+  slug: lalal-ai-separate-stems
 slug: lalal-ai
 tags:
 - Artificial Intelligence

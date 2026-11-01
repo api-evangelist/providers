@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.0
-  scored_at: '2026-10-17'
+  score: 42.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 66
@@ -157,15 +159,307 @@ apis:
   description: The OAuth2 API from Cal.com — 2 operation(s) for oauth2.
   name: Cal.com O Auth2 API
   slug: cal-com-oauth2-api
-artifact_total: 57
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Bookings - Email Verification API from Cal.com — 3 operation(s) for bookings - email verification.
+  name: Cal.com Bookings - Email Verification API
+  slug: cal-com-bookings-email-verification-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Bookings / Routing Trace API from Cal.com — 1 operation(s) for bookings / routing trace.
+  name: Cal.com Bookings / Routing Trace API
+  slug: cal-com-bookings-routing-trace-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Credits API from Cal.com — 2 operation(s) for credits.
+  name: Cal.com Credits API
+  slug: cal-com-credits-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Events API from Cal.com — 21 operation(s) for events.
+  name: Cal.com Events API
+  slug: cal-com-events-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Insights API from Cal.com — 11 operation(s) for insights.
+  name: Cal.com Insights API
+  slug: cal-com-insights-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Links API from Cal.com — 1 operation(s) for links.
+  name: Cal.com Links API
+  slug: cal-com-links-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Managed Orgs API from Cal.com — 2 operation(s) for managed orgs.
+  name: Cal.com Managed Orgs API
+  slug: cal-com-managed-orgs-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Notifications API from Cal.com — 9 operation(s) for notifications.
+  name: Cal.com Notifications API
+  slug: cal-com-notifications-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Organization Event Types API from Cal.com — 8 operation(s) for organization event types.
+  name: Cal.com Organization Event Types API
+  slug: cal-com-organization-event-types-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Organization Team Verified Resources API from Cal.com — 8 operation(s) for organization team verified resources.
+  name: Cal.com Organization Team Verified Resources API
+  slug: cal-com-organization-team-verified-resources-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Attributes API from Cal.com — 2 operation(s) for orgs / attributes.
+  name: Cal.com Orgs / Attributes API
+  slug: cal-com-orgs-attributes-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Attributes / Options API from Cal.com — 7 operation(s) for orgs / attributes / options.
+  name: Cal.com Orgs / Attributes / Options API
+  slug: cal-com-orgs-attributes-options-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Attributes / Sync History API from Cal.com — 2 operation(s) for orgs / attributes / sync history.
+  name: Cal.com Orgs / Attributes / Sync History API
+  slug: cal-com-orgs-attributes-sync-history-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Bookings API from Cal.com — 3 operation(s) for orgs / bookings.
+  name: Cal.com Orgs / Bookings API
+  slug: cal-com-orgs-bookings-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Calendar Invites API from Cal.com — 1 operation(s) for orgs / calendar invites.
+  name: Cal.com Orgs / Calendar Invites API
+  slug: cal-com-orgs-calendar-invites-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Delegation Credentials API from Cal.com — 3 operation(s) for orgs / delegation credentials.
+  name: Cal.com Orgs / Delegation Credentials API
+  slug: cal-com-orgs-delegation-credentials-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Memberships API from Cal.com — 2 operation(s) for orgs / memberships.
+  name: Cal.com Orgs / Memberships API
+  slug: cal-com-orgs-memberships-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Roles API from Cal.com — 2 operation(s) for orgs / roles.
+  name: Cal.com Orgs / Roles API
+  slug: cal-com-orgs-roles-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Roles / Permissions API from Cal.com — 2 operation(s) for orgs / roles / permissions.
+  name: Cal.com Orgs / Roles / Permissions API
+  slug: cal-com-orgs-roles-permissions-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Routing forms API from Cal.com — 3 operation(s) for orgs / routing forms.
+  name: Cal.com Orgs / Routing forms API
+  slug: cal-com-orgs-routing-forms-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Schedules API from Cal.com — 1 operation(s) for orgs / schedules.
+  name: Cal.com Orgs / Schedules API
+  slug: cal-com-orgs-schedules-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Secondary Domains API from Cal.com — 3 operation(s) for orgs / secondary domains.
+  name: Cal.com Orgs / Secondary Domains API
+  slug: cal-com-orgs-secondary-domains-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Teams API from Cal.com — 3 operation(s) for orgs / teams.
+  name: Cal.com Orgs / Teams API
+  slug: cal-com-orgs-teams-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Teams / Bookings API from Cal.com — 2 operation(s) for orgs / teams / bookings.
+  name: Cal.com Orgs / Teams / Bookings API
+  slug: cal-com-orgs-teams-bookings-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Teams / Conferencing API from Cal.com — 11 operation(s) for orgs / teams / conferencing.
+  name: Cal.com Orgs / Teams / Conferencing API
+  slug: cal-com-orgs-teams-conferencing-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Teams / Event Types / Private Links API from Cal.com — 2 operation(s) for orgs / teams / event types / private links.
+  name: Cal.com Orgs / Teams / Event Types / Private Links API
+  slug: cal-com-orgs-teams-event-types-private-links-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Teams / Invite API from Cal.com — 1 operation(s) for orgs / teams / invite.
+  name: Cal.com Orgs / Teams / Invite API
+  slug: cal-com-orgs-teams-invite-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Teams / Memberships API from Cal.com — 2 operation(s) for orgs / teams / memberships.
+  name: Cal.com Orgs / Teams / Memberships API
+  slug: cal-com-orgs-teams-memberships-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Teams / Roles API from Cal.com — 2 operation(s) for orgs / teams / roles.
+  name: Cal.com Orgs / Teams / Roles API
+  slug: cal-com-orgs-teams-roles-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Teams / Roles / Permissions API from Cal.com — 2 operation(s) for orgs / teams / roles / permissions.
+  name: Cal.com Orgs / Teams / Roles / Permissions API
+  slug: cal-com-orgs-teams-roles-permissions-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Teams / Routing forms API from Cal.com — 5 operation(s) for orgs / teams / routing forms.
+  name: Cal.com Orgs / Teams / Routing forms API
+  slug: cal-com-orgs-teams-routing-forms-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Teams / Routing forms / Responses API from Cal.com — 2 operation(s) for orgs / teams / routing forms / responses.
+  name: Cal.com Orgs / Teams / Routing forms / Responses API
+  slug: cal-com-orgs-teams-routing-forms-responses-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Teams / Schedules API from Cal.com — 1 operation(s) for orgs / teams / schedules.
+  name: Cal.com Orgs / Teams / Schedules API
+  slug: cal-com-orgs-teams-schedules-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Teams / Stripe API from Cal.com — 3 operation(s) for orgs / teams / stripe.
+  name: Cal.com Orgs / Teams / Stripe API
+  slug: cal-com-orgs-teams-stripe-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Teams / Users / Schedules API from Cal.com — 1 operation(s) for orgs / teams / users / schedules.
+  name: Cal.com Orgs / Teams / Users / Schedules API
+  slug: cal-com-orgs-teams-users-schedules-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Teams / Workflows API from Cal.com — 5 operation(s) for orgs / teams / workflows.
+  name: Cal.com Orgs / Teams / Workflows API
+  slug: cal-com-orgs-teams-workflows-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Users API from Cal.com — 2 operation(s) for orgs / users.
+  name: Cal.com Orgs / Users API
+  slug: cal-com-orgs-users-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Users / Bookings API from Cal.com — 1 operation(s) for orgs / users / bookings.
+  name: Cal.com Orgs / Users / Bookings API
+  slug: cal-com-orgs-users-bookings-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Users / Conferencing API from Cal.com — 2 operation(s) for orgs / users / conferencing.
+  name: Cal.com Orgs / Users / Conferencing API
+  slug: cal-com-orgs-users-conferencing-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Users / OOO API from Cal.com — 3 operation(s) for orgs / users / ooo.
+  name: Cal.com Orgs / Users / OOO API
+  slug: cal-com-orgs-users-ooo-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Users / Schedules API from Cal.com — 2 operation(s) for orgs / users / schedules.
+  name: Cal.com Orgs / Users / Schedules API
+  slug: cal-com-orgs-users-schedules-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Orgs / Webhooks API from Cal.com — 2 operation(s) for orgs / webhooks.
+  name: Cal.com Orgs / Webhooks API
+  slug: cal-com-orgs-webhooks-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Out of Office API from Cal.com — 2 operation(s) for out of office.
+  name: Cal.com Out of Office API
+  slug: cal-com-out-of-office-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Routing forms API from Cal.com — 1 operation(s) for routing forms.
+  name: Cal.com Routing forms API
+  slug: cal-com-routing-forms-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Team Event Types API from Cal.com — 6 operation(s) for team event types.
+  name: Cal.com Team Event Types API
+  slug: cal-com-team-event-types-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Teams API from Cal.com — 2 operation(s) for teams.
+  name: Cal.com Teams API
+  slug: cal-com-teams-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Teams / Booking limit pools API from Cal.com — 4 operation(s) for teams / booking limit pools.
+  name: Cal.com Teams / Booking limit pools API
+  slug: cal-com-teams-booking-limit-pools-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Teams / Bookings API from Cal.com — 1 operation(s) for teams / bookings.
+  name: Cal.com Teams / Bookings API
+  slug: cal-com-teams-bookings-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Teams / Event Types / Webhooks API from Cal.com — 2 operation(s) for teams / event types / webhooks.
+  name: Cal.com Teams / Event Types / Webhooks API
+  slug: cal-com-teams-event-types-webhooks-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Teams / Events API from Cal.com — 1 operation(s) for teams / events.
+  name: Cal.com Teams / Events API
+  slug: cal-com-teams-events-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Teams / Invite API from Cal.com — 1 operation(s) for teams / invite.
+  name: Cal.com Teams / Invite API
+  slug: cal-com-teams-invite-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Teams / Memberships API from Cal.com — 2 operation(s) for teams / memberships.
+  name: Cal.com Teams / Memberships API
+  slug: cal-com-teams-memberships-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Teams / Routing forms / Responses API from Cal.com — 1 operation(s) for teams / routing forms / responses.
+  name: Cal.com Teams / Routing forms / Responses API
+  slug: cal-com-teams-routing-forms-responses-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Teams / Schedules API from Cal.com — 1 operation(s) for teams / schedules.
+  name: Cal.com Teams / Schedules API
+  slug: cal-com-teams-schedules-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Teams / Users / OOO API from Cal.com — 2 operation(s) for teams / users / ooo.
+  name: Cal.com Teams / Users / OOO API
+  slug: cal-com-teams-users-ooo-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Teams Verified Resources API from Cal.com — 8 operation(s) for teams verified resources.
+  name: Cal.com Teams Verified Resources API
+  slug: cal-com-teams-verified-resources-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Timezones API from Cal.com — 1 operation(s) for timezones.
+  name: Cal.com Timezones API
+  slug: cal-com-timezones-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Workflows API from Cal.com — 3 operation(s) for workflows.
+  name: Cal.com Workflows API
+  slug: cal-com-workflows-api
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Allow Lists API from Cal.com — 2 operation(s) for allow lists.
+  name: Cal.com Allow Lists API
+  slug: cal-com-allow-lists-api
+artifact_total: 115
 asyncapis:
 - description: AsyncAPI definition for Cal.com's webhook surface. Cal.com webhooks are HTTP POST deliveries from Cal.com to a developer-defined `subscriberUrl` registered via the Cal.com Webhooks API (`/v2/webhooks`
   name: Cal.com Webhooks
   slug: cal-com-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cal.diy API v2 Api Keys API
   slug: open-cal-com-api-keys-api
@@ -237,27 +531,27 @@ collections:
   slug: open-cal-com
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/capabilities/cal-com-capability-edges.yml
+  href: https://artifacts.apis.io/cal-com/capabilities/cal-com-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cal-com-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/agentic-access/cal-com-agentic-access.yml
+  href: https://artifacts.apis.io/cal-com/agentic-access/cal-com-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cal-com-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/security/cal-com-trust-center.yml
+  href: https://artifacts.apis.io/cal-com/security/cal-com-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cal-com-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/security/cal-com-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cal-com/security/cal-com-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cal-com-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/security/cal-com-domain-security.yml
+  href: https://artifacts.apis.io/cal-com/security/cal-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cal-com-domain-security.yml
@@ -282,17 +576,17 @@ common:
   type: GitHub
   url: https://github.com/calcom/cal.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/plans/cal-com-plans-pricing.yml
+  href: https://artifacts.apis.io/cal-com/plans/cal-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cal-com-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/rate-limits/cal-com-rate-limits.yml
+  href: https://artifacts.apis.io/cal-com/rate-limits/cal-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cal-com-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/finops/cal-com-finops.yml
+  href: https://artifacts.apis.io/cal-com/finops/cal-com-finops.yml
   title: ''
   type: FinOps
   url: finops/cal-com-finops.yml
@@ -320,7 +614,7 @@ modified: '2026-05-30'
 name: Cal.com
 nav: Providers
 network: true
-overview: 'Cal.com publishes 23 API contracts indexed on the [APIs.io](https://apis.io/) network, including Api Keys API, Bookings API, Bookings / Attendees API, and 20 more. Tagged areas include Productivity, Scheduling, Calendar, Open Source, and Booking.
+overview: 'Cal.com publishes 82 API contracts indexed on the [APIs.io](https://apis.io/) network, including Api Keys API, Bookings API, Bookings / Attendees API, and 79 more. Tagged areas include Productivity, Scheduling, Calendar, Open Source, and Booking.
 
 
   The Cal.com catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -331,7 +625,7 @@ plans:
 - name: Cal Com Plans Pricing
   plan_count: 6
   slug: cal-com-plans-pricing
-random_paper: 8
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Cal Com Rate Limits
@@ -351,7 +645,7 @@ rules:
   slug: cal-com-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.9
+  composite: 34.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 47.5
@@ -359,22 +653,22 @@ score:
     catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
-    contract_quality: 48.1
+    contract_quality: 46.2
     developer_ergonomics: 26.2
-    discoverability: 68.3
-    operational_transparency: 13.2
-  previous_composite: 37.4
+    discoverability: 66.1
+    operational_transparency: 23.7
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 22
+      total: 104
     mcp: first-party
   regulatory:
     applies: true
@@ -382,13 +676,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/screenshots/cal-com-2026-06-20T173857.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cal-com/cal-com-2026-06-20T173857.png
 security:
 - kind: domain-security
   name: Cal Com Domain Security

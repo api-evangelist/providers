@@ -25,19 +25,31 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 2.9
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  href: https://artifacts.apis.io/ecolab/hosts/ecolab-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/ecolab-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/ecolab/vendors/ecolab-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/ecolab-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ecolab/refs/heads/main/security/ecolab-domain-security.yml
+  href: https://artifacts.apis.io/ecolab/security/ecolab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ecolab-domain-security.yml
@@ -57,10 +69,6 @@ common:
   title: ''
   type: Newsroom
   url: https://www.ecolab.com/news
-- group: other
-  title: ''
-  type: Sustainability
-  url: https://www.ecolab.com/sustainability
 - group: operate
   title: ''
   type: Contact
@@ -90,12 +98,12 @@ press:
 - date: ''
   title: Ecolab Inc. (ECL) Latest Press Releases & Corporate News
   url: https://ca.finance.yahoo.com/quote/ECL/press-releases/
-random_paper: 20
+random_paper: 14
 score:
   band: minimal
-  composite: 3.5
+  composite: 3.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -107,23 +115,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 3.5
+  previous_composite: 3.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ecolab/refs/heads/main/screenshots/ecolab-2026-06-20T180448.png
+screenshot: https://apis.io/screenshots/ecolab/ecolab-2026-06-20T180448.png
 security:
 - kind: domain-security
   name: Ecolab Domain Security

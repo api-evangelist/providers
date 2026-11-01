@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.9
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.instock.com/v1
@@ -68,11 +70,8 @@ apis:
   description: Each Instock site (or just site) represents a single instance of Instock ASRS. Such instance can represent either physical installation of ASRS or a simulation in sandbox environment. Organization may
   name: Instock Sites API
   slug: instock-sites-api
-artifact_total: 15
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Instock API reference Articles API
   slug: open-instock-articles-api
@@ -93,17 +92,17 @@ collections:
   slug: open-instock-sites-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/capabilities/instock-capability-edges.yml
+  href: https://artifacts.apis.io/instock/capabilities/instock-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/instock-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/security/instock-domain-security.yml
+  href: https://artifacts.apis.io/instock/security/instock-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/instock-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/authentication/instock-authentication.yml
+  href: https://artifacts.apis.io/instock/authentication/instock-authentication.yml
   title: ''
   type: Authentication
   url: authentication/instock-authentication.yml
@@ -148,57 +147,57 @@ common:
   type: Careers
   url: https://instock.com/en/careers/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/conventions/instock-conventions.yml
+  href: https://artifacts.apis.io/instock/conventions/instock-conventions.yml
   title: ''
   type: Conventions
   url: conventions/instock-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/errors/instock-error-codes.yml
+  href: https://artifacts.apis.io/instock/errors/instock-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/instock-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/lifecycle/instock-lifecycle.yml
+  href: https://artifacts.apis.io/instock/lifecycle/instock-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/instock-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/conformance/instock-conformance.yml
+  href: https://artifacts.apis.io/instock/conformance/instock-conformance.yml
   title: ''
   type: Conformance
   url: conformance/instock-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/data-model/instock-data-model.yml
+  href: https://artifacts.apis.io/instock/data-model/instock-data-model.yml
   title: ''
   type: DataModel
   url: data-model/instock-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/sandbox/instock-sandbox.yml
+  href: https://artifacts.apis.io/instock/sandbox/instock-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/instock-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/mcp/instock-mcp.yml
+  href: https://artifacts.apis.io/instock/mcp/instock-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/instock-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/llms/instock-llms.txt
+  href: https://artifacts.apis.io/instock/llms/instock-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/instock-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/instock/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/overlays/instock-openapi-overlay.yaml
+  href: https://artifacts.apis.io/instock/overlays/instock-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/instock-openapi-overlay.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/openapi/_original/instock-openapi.json
+  href: https://artifacts.apis.io/instock/openapi/_original/instock-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/instock-openapi.json
@@ -214,10 +213,10 @@ overview: 'Instock publishes 6 API contracts indexed on the [APIs.io](https://ap
 
 
   Instock''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 17 more developer resources.'
-random_paper: 15
+random_paper: 19
 score:
-  band: thin
-  composite: 35.8
+  band: developing
+  composite: 39.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -225,15 +224,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 55.4
     developer_ergonomics: 66.1
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 35.7
+  previous_composite: 39.8
   provenance:
     conformance: derived
     contracts:
@@ -248,14 +247,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 20.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/screenshots/instock-2026-07-25T222617.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/instock/instock-2026-07-25T222617.png
 security:
 - kind: authentication
   name: Instock Authentication
@@ -265,6 +265,14 @@ security:
   name: Instock Domain Security
   slug: instock-domain-security
   summary_line: TLSv1.3
+skill_count: 3
+skills:
+- name: Create and fulfill a customer order
+  slug: instock-create-and-fulfill-order
+- name: Onboard articles (SKUs) into Instock
+  slug: instock-onboard-articles
+- name: Track inventory and article moves
+  slug: instock-track-inventory-and-moves
 slug: instock
 tags:
 - Company

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Anonymous Model Context Protocol server exposed by the Harry''s storefront at /api/mcp. Five tools — search_catalog, get_product_details, get_cart, update_cart and search_shop_policies_and_faqs — each '
@@ -44,10 +46,10 @@ apis:
 - description: Anonymous Model Context Protocol server exposed by the Flamingo storefront at /api/mcp, with the same five-tool surface as Harry's. Flamingo additionally publishes an llms.txt and an agents.md describ
   name: Flamingo Storefront MCP Server
   slug: flamingo-storefront-mcp-server
-artifact_total: 6
+artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/harry-s/refs/heads/main/security/harry-s-domain-security.yml
+  href: https://artifacts.apis.io/harry-s/security/harry-s-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/harry-s-domain-security.yml
@@ -72,57 +74,57 @@ common:
   type: Support
   url: https://www.shopflamingo.com/pages/faq
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/harry-s/refs/heads/main/mcp/harry-s-mcp.yml
+  href: https://artifacts.apis.io/harry-s/mcp/harry-s-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/harry-s-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/harry-s/refs/heads/main/mcp/harry-s-tool-crosswalk.yml
+  href: https://artifacts.apis.io/harry-s/mcp/harry-s-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/harry-s-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/harry-s/refs/heads/main/well-known/harry-s-well-known.yml
+  href: https://artifacts.apis.io/harry-s/well-known/harry-s-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/harry-s-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/harry-s/refs/heads/main/authentication/harry-s-authentication.yml
+  href: https://artifacts.apis.io/harry-s/authentication/harry-s-authentication.yml
   title: ''
   type: Authentication
   url: authentication/harry-s-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/harry-s/refs/heads/main/scopes/harry-s-scopes.yml
+  href: https://artifacts.apis.io/harry-s/scopes/harry-s-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/harry-s-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harry-s/refs/heads/main/conformance/harry-s-conformance.yml
+  href: https://artifacts.apis.io/harry-s/conformance/harry-s-conformance.yml
   title: ''
   type: Conformance
   url: conformance/harry-s-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harry-s/refs/heads/main/conventions/harry-s-conventions.yml
+  href: https://artifacts.apis.io/harry-s/conventions/harry-s-conventions.yml
   title: ''
   type: Conventions
   url: conventions/harry-s-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harry-s/refs/heads/main/lifecycle/harry-s-lifecycle.yml
+  href: https://artifacts.apis.io/harry-s/lifecycle/harry-s-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/harry-s-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/harry-s/refs/heads/main/errors/harry-s-problem-types.yml
+  href: https://artifacts.apis.io/harry-s/errors/harry-s-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/harry-s-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/harry-s/refs/heads/main/llms/harry-s-llms.txt
+  href: https://artifacts.apis.io/harry-s/llms/harry-s-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/harry-s-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/harry-s/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/harry-s/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -142,7 +144,7 @@ overview: 'Mammoth Brands is listed with 2 APIs on the [APIs.io](https://apis.io
 
 
   Mammoth Brands'' developer surface includes engineering blog, support, authentication, and 14 more developer resources.'
-random_paper: 6
+random_paper: 14
 scopes:
 - name: Harry S Scopes
   scope_count: 4
@@ -150,7 +152,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.9
+  composite: 22.9
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -158,15 +160,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 23.8
+  previous_composite: 22.9
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -177,14 +179,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/harry-s/refs/heads/main/screenshots/harry-s-2026-08-07T170002.png
+screenshot: https://apis.io/screenshots/harry-s/harry-s-2026-08-07T170002.png
 security:
 - kind: authentication
   name: Harry S Authentication
@@ -194,6 +196,10 @@ security:
   name: Harry S Domain Security
   slug: harry-s-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Shop a Mammoth Brands storefront over MCP
+  slug: harry-s-shop-a-storefront
 slug: harry-s
 tags:
 - Company

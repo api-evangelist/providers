@@ -1,0 +1,116 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-10-31'
+api_count: 0
+artifact_total: 1
+common:
+- group: other
+  href: https://artifacts.apis.io/lab-sticc-cnrs-umr-6285/hosts/lab-sticc-cnrs-umr-6285-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/lab-sticc-cnrs-umr-6285-hosts.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://labsticc.fr/en/legal-notice
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://labsticc.fr/en/newsroom
+- group: start
+  title: ''
+  type: Login
+  url: https://labsticc.fr/en/login
+- group: auth
+  href: https://artifacts.apis.io/lab-sticc-cnrs-umr-6285/security/lab-sticc-cnrs-umr-6285-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/lab-sticc-cnrs-umr-6285-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: http://www.lab-sticc.fr/
+coverage:
+  detail: the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - status: 200
+    url: http://www.lab-sticc.fr/
+  reason: no-developer-program
+  state: none
+created: '2026-10-23'
+description: Lab-STICC CNRS UMR 6285 is a French research laboratory within the CNRS (National Centre for Scientific Research), focusing on information and communication technologies. It develops digital solutions, offers expertise in data science, AI, and software engineering, and collaborates with academic and industrial partners. The lab is located in Brest, France, and provides resources and services for innovation in communication and knowledge technologies.
+layout: provider
+modified: '2026-10-23'
+name: Lab-STICC CNRS UMR 6285
+nav: Providers
+network: true
+overview: Lab-STICC CNRS UMR 6285 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Research, Laboratory, CNRS, InformationTechnology, and France.
+random_paper: 16
+score:
+  band: minimal
+  composite: 8.6
+  coverage:
+    artifact_dirs: 5
+    catalog_earned: 25.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 90.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 23.7
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 46.4
+    operational_transparency: 0.0
+  regulatory:
+    applies: true
+    matched_via: fallback
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 9.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Lab Sticc Cnrs Umr 6285 Domain Security
+  slug: lab-sticc-cnrs-umr-6285-domain-security
+  summary_line: TLSv1.3 · HSTS
+slug: lab-sticc-cnrs-umr-6285
+tags:
+- Research
+- Laboratory
+- CNRS
+- InformationTechnology
+- France
+website: http://www.lab-sticc.fr/
+---

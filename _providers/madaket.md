@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 20.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://provider.madakethealth.com/provider-services
@@ -324,20 +326,20 @@ apis:
   description: The WorkEntry API from Madaket — 4 operation(s) for workentry.
   name: Madaket Work Entry API
   slug: madaket-workentry-api
-artifact_total: 61
+artifact_total: 66
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/capabilities/madaket-capability-edges.yml
+  href: https://artifacts.apis.io/madaket/capabilities/madaket-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/madaket-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/overlays/madaket-provider-api-overlay.yaml
+  href: https://artifacts.apis.io/madaket/overlays/madaket-provider-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/madaket-provider-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/madaket/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -382,52 +384,60 @@ common:
   type: PrivacyPolicy
   url: https://www.madakethealth.com/privacy-policy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/vocabulary/madaket-providerjson.md
+  href: https://artifacts.apis.io/madaket/vocabulary/madaket-providerjson.md
   title: ''
   type: Vocabulary
   url: vocabulary/madaket-providerjson.md
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/packages/madaket-packages.yml
+  href: https://artifacts.apis.io/madaket/packages/madaket-packages.yml
   title: ''
   type: Packages
   url: packages/madaket-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/packages/madaket-packages.yml
+  href: https://artifacts.apis.io/madaket/packages/madaket-packages.yml
   title: ''
   type: SDKs
   url: packages/madaket-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/plans/madaket-plans-pricing.yml
+  href: https://artifacts.apis.io/madaket/plans/madaket-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/madaket-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/rate-limits/madaket-rate-limits.yml
+  href: https://artifacts.apis.io/madaket/rate-limits/madaket-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/madaket-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/lifecycle/madaket-lifecycle.yml
+  href: https://artifacts.apis.io/madaket/lifecycle/madaket-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/madaket-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/conformance/madaket-conformance.yml
+  href: https://artifacts.apis.io/madaket/conformance/madaket-conformance.yml
   title: ''
   type: Conformance
   url: conformance/madaket-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/security/madaket-domain-security.yml
+  href: https://artifacts.apis.io/madaket/security/madaket-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/madaket-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/llms/madaket-llms.txt
+  href: https://artifacts.apis.io/madaket/llms/madaket-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/madaket-llms.txt
 created: '2026-08-25'
 description: Madaket Health is a Cambridge, Massachusetts healthcare administration company whose Provider Data Management (PDM) platform automates payer enrollment, EDI enrollment, credentialing, licensing and provider directory data management between healthcare providers and payers. Madaket maintains connections to thousands of US payers and publishes a REST Provider API for clean, high-quality provider data — demographics, licensure, education, sanctions, malpractice and payer records — alongside ProviderJSON, an open JSON format for representing US healthcare providers derived from NPI/NPPES enumeration data.
+finops:
+- has_sources: true
+  method: derived
+  name: Madaket Finops
+  primary_unit: contract/12 months
+  service_category: ''
+  slug: madaket-finops
+  template: false
 image: https://www.madakethealth.com/wp-content/uploads/2022/02/Logo-Lockup-Reverse.svg
 layout: provider
 modified: '2026-08-25'
@@ -442,30 +452,33 @@ plans:
 - name: Madaket Plans Pricing
   plan_count: 3
   slug: madaket-plans-pricing
-random_paper: 1
+- name: Madaket Price Estimates
+  plan_count: 0
+  slug: madaket-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Madaket Rate Limits
   slug: madaket-rate-limits
 score:
   band: developing
-  composite: 41.7
+  composite: 45.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 53.5
+    artifact_dirs: 23
+    catalog_earned: 56.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 61.5
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 13.6
     contract_quality: 45.2
     developer_ergonomics: 37.5
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 41.7
+    operational_transparency: 5.3
+  previous_composite: 44.1
   provenance:
     conformance: derived
     contracts:
@@ -481,13 +494,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/madaket/refs/heads/main/screenshots/madaket-2026-09-02T150433.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/madaket/madaket-2026-09-02T150433.png
 security:
 - kind: authentication
   name: Madaket Authentication
@@ -497,6 +511,14 @@ security:
   name: Madaket Domain Security
   slug: madaket-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: madaket-credentialing-verification
+  slug: madaket-credentialing-verification
+- name: madaket-nppes-lookup
+  slug: madaket-nppes-lookup
+- name: madaket-provider-lookup
+  slug: madaket-provider-lookup
 slug: madaket
 tags:
 - Company

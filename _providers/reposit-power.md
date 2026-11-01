@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 24.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 39
   slug: reposit-power-agentic-access
   summary_line: 39 operations · 11 acting · 1 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://api.repositpower.com/
   baseurl_source: declared
@@ -99,7 +101,7 @@ apis:
   description: End-points relating to the management of your Reposit Fleet and marketapi users.
   name: Reposit Power Users API
   slug: reposit-power-users-api
-artifact_total: 16
+artifact_total: 21
 collections:
 - collection_type: open
   name: Reposit Customer API - OpenAPI 3.0
@@ -109,82 +111,82 @@ collections:
   slug: open-reposit-power-market-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/overlays/reposit-power-customer-api-overlay.yaml
+  href: https://artifacts.apis.io/reposit-power/overlays/reposit-power-customer-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/reposit-power-customer-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/overlays/reposit-power-market-api-overlay.yaml
+  href: https://artifacts.apis.io/reposit-power/overlays/reposit-power-market-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/reposit-power-market-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/agentic-access/reposit-power-agentic-access.yml
+  href: https://artifacts.apis.io/reposit-power/agentic-access/reposit-power-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/reposit-power-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/security/reposit-power-domain-security.yml
+  href: https://artifacts.apis.io/reposit-power/security/reposit-power-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/reposit-power-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/authentication/reposit-power-authentication.yml
+  href: https://artifacts.apis.io/reposit-power/authentication/reposit-power-authentication.yml
   title: ''
   type: Authentication
   url: authentication/reposit-power-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/conventions/reposit-power-conventions.yml
+  href: https://artifacts.apis.io/reposit-power/conventions/reposit-power-conventions.yml
   title: ''
   type: Conventions
   url: conventions/reposit-power-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/errors/reposit-power-problem-types.yml
+  href: https://artifacts.apis.io/reposit-power/errors/reposit-power-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/reposit-power-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/lifecycle/reposit-power-lifecycle.yml
+  href: https://artifacts.apis.io/reposit-power/lifecycle/reposit-power-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/reposit-power-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/lifecycle/reposit-power-lifecycle.yml
+  href: https://artifacts.apis.io/reposit-power/lifecycle/reposit-power-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/reposit-power-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/conformance/reposit-power-conformance.yml
+  href: https://artifacts.apis.io/reposit-power/conformance/reposit-power-conformance.yml
   title: ''
   type: Conformance
   url: conformance/reposit-power-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/data-model/reposit-power-data-model.yml
+  href: https://artifacts.apis.io/reposit-power/data-model/reposit-power-data-model.yml
   title: ''
   type: DataModel
   url: data-model/reposit-power-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/packages/reposit-power-packages.yml
+  href: https://artifacts.apis.io/reposit-power/packages/reposit-power-packages.yml
   title: ''
   type: Packages
   url: packages/reposit-power-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/packages/reposit-power-packages.yml
+  href: https://artifacts.apis.io/reposit-power/packages/reposit-power-packages.yml
   title: ''
   type: SDKs
   url: packages/reposit-power-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/mcp/reposit-power-mcp.yml
+  href: https://artifacts.apis.io/reposit-power/mcp/reposit-power-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/reposit-power-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/reposit-power/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/llms/reposit-power-llms.txt
+  href: https://artifacts.apis.io/reposit-power/llms/reposit-power-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/reposit-power-llms.txt
@@ -266,24 +268,24 @@ overview: 'Reposit Power publishes 11 API contracts indexed on the [APIs.io](htt
 
 
   Reposit Power''s developer surface includes authentication, engineering blog, pricing, FAQ, support, developer portal, API reference, and 25 more developer resources.'
-random_paper: 12
+random_paper: 8
 score:
   band: developing
-  composite: 44.6
+  composite: 44.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 40.0
+    artifact_dirs: 20
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.5
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 50.4
+    contract_quality: 49.1
     developer_ergonomics: 54.2
-    discoverability: 71.4
+    discoverability: 66.1
     operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -292,7 +294,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 44.1
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -309,13 +311,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 36.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/screenshots/reposit-power-2026-08-17T081528.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/reposit-power/reposit-power-2026-08-17T081528.png
 security:
 - kind: authentication
   name: Reposit Power Authentication
@@ -325,6 +328,18 @@ security:
   name: Reposit Power Domain Security
   slug: reposit-power-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Build and maintain a Reposit power station
+  slug: reposit-power-build-power-station
+- name: Dispatch a Reposit power station for grid support
+  slug: reposit-power-dispatch-fleet-support
+- name: Read Reposit fleet and power station telemetry
+  slug: reposit-power-read-fleet-telemetry
+- name: Read a Reposit household's own energy data
+  slug: reposit-power-read-household-energy
+- name: Run an export curtailment against a Reposit power station
+  slug: reposit-power-run-export-curtailment
 slug: reposit-power
 tags:
 - Energy

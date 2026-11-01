@@ -16,8 +16,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -29,16 +30,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.0
-  scored_at: '2026-10-17'
+  score: 43.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 3
@@ -46,7 +49,7 @@ agentic_access:
   operation_count: 336
   slug: benchmark-email-agentic-access
   summary_line: 336 operations · 146 acting · 3 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://clientapi.benchmarkemail.com
   baseurl_source: declared
@@ -223,15 +226,12 @@ apis:
   description: List related endpoints
   name: Benchmark Email Lists API
   slug: benchmark-email-lists-api
-artifact_total: 87
+artifact_total: 92
 asyncapis:
 - description: ''
   name: Benchmark Email Events
   slug: benchmark-email-events
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Benchmark Email RESTful API v3.0 ABTest Creation API
   slug: open-benchmark-email-abtest-creation-api
@@ -324,22 +324,22 @@ collections:
   slug: open-benchmark-email-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/capabilities/benchmark-email-capability-edges.yml
+  href: https://artifacts.apis.io/benchmark-email/capabilities/benchmark-email-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/benchmark-email-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/overlays/benchmark-email-api-overlay.yaml
+  href: https://artifacts.apis.io/benchmark-email/overlays/benchmark-email-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/benchmark-email-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/mcp/benchmark-email-mcp.yml
+  href: https://artifacts.apis.io/benchmark-email/mcp/benchmark-email-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/benchmark-email-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/benchmark-email/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -348,17 +348,17 @@ common:
   type: IssueTracker
   url: https://github.com/BenchmarkEmail/RESTful-API-v3/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/agentic-access/benchmark-email-agentic-access.yml
+  href: https://artifacts.apis.io/benchmark-email/agentic-access/benchmark-email-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/benchmark-email-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/security/benchmark-email-domain-security.yml
+  href: https://artifacts.apis.io/benchmark-email/security/benchmark-email-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/benchmark-email-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/authentication/benchmark-email-authentication.yml
+  href: https://artifacts.apis.io/benchmark-email/authentication/benchmark-email-authentication.yml
   title: ''
   type: Authentication
   url: authentication/benchmark-email-authentication.yml
@@ -395,52 +395,52 @@ common:
   type: X
   url: https://twitter.com/benchmarkemail
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/plans/benchmark-email-plans-pricing.yml
+  href: https://artifacts.apis.io/benchmark-email/plans/benchmark-email-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/benchmark-email-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/rate-limits/benchmark-email-rate-limits.yml
+  href: https://artifacts.apis.io/benchmark-email/rate-limits/benchmark-email-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/benchmark-email-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/finops/benchmark-email-finops.yml
+  href: https://artifacts.apis.io/benchmark-email/finops/benchmark-email-finops.yml
   title: ''
   type: FinOps
   url: finops/benchmark-email-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/packages/benchmark-email-packages.yml
+  href: https://artifacts.apis.io/benchmark-email/packages/benchmark-email-packages.yml
   title: ''
   type: Packages
   url: packages/benchmark-email-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/packages/benchmark-email-packages.yml
+  href: https://artifacts.apis.io/benchmark-email/packages/benchmark-email-packages.yml
   title: ''
   type: SDKs
   url: packages/benchmark-email-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/well-known/benchmark-email-well-known.yml
+  href: https://artifacts.apis.io/benchmark-email/well-known/benchmark-email-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/benchmark-email-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/lifecycle/benchmark-email-lifecycle.yml
+  href: https://artifacts.apis.io/benchmark-email/lifecycle/benchmark-email-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/benchmark-email-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/conformance/benchmark-email-conformance.yml
+  href: https://artifacts.apis.io/benchmark-email/conformance/benchmark-email-conformance.yml
   title: ''
   type: Conformance
   url: conformance/benchmark-email-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/conformance/benchmark-email-conformance.yml
+  href: https://artifacts.apis.io/benchmark-email/conformance/benchmark-email-conformance.yml
   title: ''
   type: Compliance
   url: conformance/benchmark-email-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/asyncapi/benchmark-email-events.yml
+  href: https://artifacts.apis.io/benchmark-email/asyncapi/benchmark-email-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/benchmark-email-events.yml
@@ -499,13 +499,13 @@ examples:
   name: Send Campaign
   slug: send-campaign
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Benchmark Email Finops
-  primary_unit: ''
+  primary_unit: account
   service_category: ''
   slug: benchmark-email-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/benchmark-email.png
 json_schemas:
 - name: CampaignReport
@@ -546,9 +546,12 @@ overview: 'Benchmark Email publishes 35 API contracts indexed on the [APIs.io](h
   Benchmark Email''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, signup flow, and 28 more developer resources.'
 plans:
 - name: Benchmark Email Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: benchmark-email-plans-pricing
-random_paper: 8
+- name: Benchmark Email Price Estimates
+  plan_count: 0
+  slug: benchmark-email-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Benchmark Email Rate Limits
@@ -572,7 +575,7 @@ scopes:
   summary_line: 6 scopes
 score:
   band: strong
-  composite: 64.0
+  composite: 65.3
   coverage:
     artifact_dirs: 34
     catalog_earned: 66.3
@@ -580,15 +583,15 @@ score:
     catalog_gap: 48.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.0
+  delta: 1.1
   facets:
-    access_clarity: 77.6
+    access_clarity: 92.1
     contract_governance: 14.4
-    contract_quality: 67.3
+    contract_quality: 64.0
     developer_ergonomics: 76.2
-    discoverability: 80.0
+    discoverability: 65.0
     operational_transparency: 28.9
-  previous_composite: 65.0
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -605,13 +608,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/screenshots/benchmark-email-2026-06-20T173133.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/benchmark-email/benchmark-email-2026-06-20T173133.png
 security:
 - kind: authentication
   name: Benchmark Email Authentication
@@ -621,6 +625,18 @@ security:
   name: Benchmark Email Domain Security
   slug: benchmark-email-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: Benchmarkinternetgroup
+  slug: benchmark-email-benchmarkinternetgroup
+- name: benchmark-email-create-campaign
+  slug: benchmark-email-create-campaign
+- name: benchmark-email-pull-reports
+  slug: benchmark-email-pull-reports
+- name: benchmark-email-search-and-segment
+  slug: benchmark-email-search-and-segment
+- name: benchmark-email-sync-contacts
+  slug: benchmark-email-sync-contacts
 slug: benchmark-email
 tags:
 - Email Marketing

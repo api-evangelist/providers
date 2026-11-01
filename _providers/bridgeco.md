@@ -36,8 +36,8 @@ name: Bridgeco
 nav: Providers
 network: true
 overview: Bridgeco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Consumer Electronics, Audio, and Wireless Audio.
-random_paper: 17
-screenshot: https://raw.githubusercontent.com/api-evangelist/bridgeco/refs/heads/main/screenshots/bridgeco-2026-07-25T203813.png
+random_paper: 15
+screenshot: https://apis.io/screenshots/bridgeco/bridgeco-2026-07-25T203813.png
 slug: bridgeco
 tags:
 - Company

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: 'The Storylane External API allows Enterprise plan customers to programmatically list published demos, retrieve demo details including chapters and steps, manage demo links, create new shareable links '
@@ -49,19 +51,19 @@ apis:
 - description: Storylane's event surface, in two channels. Outbound HTTPS webhooks deliver completed demo sessions to a customer endpoint, signed with a base64 HMAC-SHA256 of the raw body in an x-storylane-signature
   name: Storylane Webhooks and Demo Events
   slug: storylane-webhooks
-artifact_total: 14
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Storylane Webhooks
   slug: storylane-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/security/storylane-trust-center.yml
+  href: https://artifacts.apis.io/storylane/security/storylane-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/storylane-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/security/storylane-domain-security.yml
+  href: https://artifacts.apis.io/storylane/security/storylane-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/storylane-domain-security.yml
@@ -98,102 +100,102 @@ common:
   type: GitHubOrg
   url: https://github.com/storylane
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/plans/storylane-plans-pricing.yml
+  href: https://artifacts.apis.io/storylane/plans/storylane-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/storylane-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/rate-limits/storylane-rate-limits.yml
+  href: https://artifacts.apis.io/storylane/rate-limits/storylane-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/storylane-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/finops/storylane-finops.yml
+  href: https://artifacts.apis.io/storylane/finops/storylane-finops.yml
   title: ''
   type: FinOps
   url: finops/storylane-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/mcp/storylane-mcp.yml
+  href: https://artifacts.apis.io/storylane/mcp/storylane-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/storylane-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/mcp/storylane-tool-crosswalk.yml
+  href: https://artifacts.apis.io/storylane/mcp/storylane-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/storylane-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/storylane/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/llms/storylane-llms.txt
+  href: https://artifacts.apis.io/storylane/llms/storylane-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/storylane-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/well-known/storylane-well-known.yml
+  href: https://artifacts.apis.io/storylane/well-known/storylane-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/storylane-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/scopes/storylane-scopes.yml
+  href: https://artifacts.apis.io/storylane/scopes/storylane-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/storylane-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/authentication/storylane-authentication.yml
+  href: https://artifacts.apis.io/storylane/authentication/storylane-authentication.yml
   title: ''
   type: Authentication
   url: authentication/storylane-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/conformance/storylane-conformance.yml
+  href: https://artifacts.apis.io/storylane/conformance/storylane-conformance.yml
   title: ''
   type: Conformance
   url: conformance/storylane-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/security/storylane-trust-center.yml
+  href: https://artifacts.apis.io/storylane/security/storylane-trust-center.yml
   title: ''
   type: Compliance
   url: security/storylane-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/conventions/storylane-conventions.yml
+  href: https://artifacts.apis.io/storylane/conventions/storylane-conventions.yml
   title: ''
   type: Conventions
   url: conventions/storylane-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/data-model/storylane-data-model.yml
+  href: https://artifacts.apis.io/storylane/data-model/storylane-data-model.yml
   title: ''
   type: DataModel
   url: data-model/storylane-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/errors/storylane-problem-types.yml
+  href: https://artifacts.apis.io/storylane/errors/storylane-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/storylane-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/lifecycle/storylane-lifecycle.yml
+  href: https://artifacts.apis.io/storylane/lifecycle/storylane-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/storylane-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/changelog/storylane-changelog.yml
+  href: https://artifacts.apis.io/storylane/changelog/storylane-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/storylane-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/asyncapi/storylane-webhooks.yml
+  href: https://artifacts.apis.io/storylane/asyncapi/storylane-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/storylane-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/components/storylane-components.yml
+  href: https://artifacts.apis.io/storylane/components/storylane-components.yml
   title: ''
   type: Components
   url: components/storylane-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/packages/storylane-packages.yml
+  href: https://artifacts.apis.io/storylane/packages/storylane-packages.yml
   title: ''
   type: Packages
   url: packages/storylane-packages.yml
@@ -241,13 +243,13 @@ created: '2026-06-13'
 description: Storylane is an interactive demo platform that enables sales and marketing teams to build and share self-serve product walkthroughs, embedded demos, and demo galleries without engineering involvement. The platform offers an External REST API for Enterprise customers to programmatically manage published demos, generate secure shareable links with passcodes and expiration dates, and personalize demo experiences via email parameters. Storylane also provides webhooks, cross-frame events, and 30-plus native integrations with CRM, marketing automation, and analytics tools to connect demo engagement data with existing GTM workflows. Its widest programmatic surface is not REST but a first-party hosted Model Context Protocol server at identity.storylane.io/mcp, secured with OAuth 2.0 dynamic client registration and PKCE, exposing 22 documented tools for demo creation from media, AI personalization, publishing, hubs, voices, analytics, leads and accounts to Claude, ChatGPT and other MCP
   clients.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Storylane Finops
-  primary_unit: ''
+  primary_unit: subscription
   service_category: ''
   slug: storylane-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/storylane.png
 jsonld:
 - class_count: 0
@@ -272,9 +274,12 @@ overview: 'Storylane is listed with 4 APIs on the [APIs.io](https://apis.io/) ne
   Storylane''s developer surface includes documentation, engineering blog, pricing, authentication, changelog, API reference, getting-started guide, and 33 more developer resources.'
 plans:
 - name: Storylane Plans Pricing
-  plan_count: 8
+  plan_count: 5
   slug: storylane-plans-pricing
-random_paper: 3
+- name: Storylane Price Estimates
+  plan_count: 0
+  slug: storylane-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 8
   name: Storylane Rate Limits
@@ -286,23 +291,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 63.8
+  composite: 64.9
   coverage:
     artifact_dirs: 24
-    catalog_earned: 69.0
+    catalog_earned: 72.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 46.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 50.6
-    developer_ergonomics: 51.8
-    discoverability: 80.0
+    contract_quality: 45.5
+    developer_ergonomics: 54.2
+    discoverability: 70.0
     operational_transparency: 76.3
-  previous_composite: 65.3
+  previous_composite: 63.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -313,14 +318,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/storylane/refs/heads/main/screenshots/storylane-2026-06-20T194611.png
+screenshot: https://apis.io/screenshots/storylane/storylane-2026-06-20T194611.png
 security:
 - kind: authentication
   name: Storylane Authentication
@@ -334,6 +339,16 @@ security:
   name: Storylane Trust Center
   slug: storylane-trust-center
   summary_line: SOC 2 Type 2, GDPR
+skill_count: 4
+skills:
+- name: storylane-audit-demo-library
+  slug: storylane-audit-demo-library
+- name: storylane-media-to-published-demo
+  slug: storylane-media-to-published-demo
+- name: storylane-personalized-demo-for-account
+  slug: storylane-personalized-demo-for-account
+- name: storylane-verify-webhook
+  slug: storylane-verify-webhook
 slug: storylane
 tags:
 - Interactive Demos

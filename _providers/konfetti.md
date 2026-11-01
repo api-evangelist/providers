@@ -10,30 +10,40 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: derived
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 40.0
+  scored_at: '2026-10-31'
+agentic_access:
+- acting_count: 9
+  human_in_the_loop: 0
+  name: Konfetti Agentic Access
+  operation_count: 21
+  slug: konfetti-agentic-access
+  summary_line: 21 operations · 9 acting
 api_count: 5
 apis:
 - baseURL: https://api.gokonfetti.com/v1
@@ -61,11 +71,8 @@ apis:
   description: Lead-capture endpoints for date and private-event requests.
   name: konfetti Requests API
   slug: konfetti-requests-api
-artifact_total: 13
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: konfetti Store account API
   slug: open-konfetti-account-api
@@ -82,23 +89,77 @@ collections:
   name: konfetti Store account requests API
   slug: open-konfetti-requests-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/konfetti/plans/konfetti-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/konfetti-plans-pricing.yml
+- group: auth
+  href: https://artifacts.apis.io/konfetti/well-known/konfetti-api-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/konfetti-api-security.txt
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.gokonfetti.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/skills/konfetti-search-experiences.md
+  href: https://artifacts.apis.io/konfetti/agentic-access/konfetti-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/konfetti-agentic-access.yml
+- group: design
+  href: https://artifacts.apis.io/konfetti/rules/konfetti-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/konfetti-rules.yml
+- group: design
+  href: https://artifacts.apis.io/konfetti/json-ld/konfetti-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/konfetti-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/konfetti/vocabulary/konfetti-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/konfetti-vocabulary.yml
+- group: operate
+  href: https://artifacts.apis.io/konfetti/lifecycle/konfetti-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/konfetti-lifecycle.yml
+- group: auth
+  href: https://artifacts.apis.io/konfetti/well-known/konfetti-join-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/konfetti-join-security.txt
+- group: other
+  href: https://artifacts.apis.io/konfetti/hosts/konfetti-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/konfetti-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/konfetti/vendors/konfetti-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/konfetti-vendors.yml
+- group: agent
+  href: https://artifacts.apis.io/konfetti/skills/konfetti-search-experiences.md
   title: ''
   type: AgentSkill
   url: skills/konfetti-search-experiences.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/mcp/konfetti-mcp.yml
+  href: https://artifacts.apis.io/konfetti/mcp/konfetti-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/konfetti-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/overlays/konfetti-store-overlay.yaml
+  href: https://artifacts.apis.io/konfetti/overlays/konfetti-store-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/konfetti-store-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/security/konfetti-domain-security.yml
+  href: https://artifacts.apis.io/konfetti/security/konfetti-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/konfetti-domain-security.yml
@@ -191,39 +252,47 @@ common:
   type: Email
   url: mailto:hallo@gokonfetti.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/components/konfetti-components.yml
+  href: https://artifacts.apis.io/konfetti/components/konfetti-components.yml
   title: ''
   type: Components
   url: components/konfetti-components.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/packages/konfetti-packages.yml
-  title: ''
-  type: Packages
-  url: packages/konfetti-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/conformance/konfetti-conformance.yml
+  href: https://artifacts.apis.io/konfetti/conformance/konfetti-conformance.yml
   title: ''
   type: Conformance
   url: conformance/konfetti-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/lifecycle/konfetti-lifecycle.yml
+  href: https://artifacts.apis.io/konfetti/lifecycle/konfetti-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/konfetti-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/well-known/konfetti-well-known.yml
+  href: https://artifacts.apis.io/konfetti/well-known/konfetti-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/konfetti-well-known.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/llms/konfetti-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/konfetti-llms.txt
 created: '2026-07-17'
 description: 'konfetti (Konfetti GmbH, Berlin) operates a marketplace for bookable experiences — cooking classes, pottery and ceramics workshops, cocktail courses, tastings, boat tours, creative and craft workshops, DIY kits and team events — across Germany and Austria, with more than 7,600 bookable experience listings and coverage in Berlin, Munich, Cologne, Hamburg, Frankfurt, Stuttgart, Dusseldorf, Leipzig, Dresden, Hannover, Nuremberg, Muenster, Heidelberg and Vienna. Alongside the consumer storefront, konfetti sells an all-in-one booking-management product to its partner hosts: a back-office at backoffice.gokonfetti.com for managing experiences, dates, tickets, gift cards, invoicing and payouts, plus an embeddable booking solution and a set of embeddable widgets that partners place on their own websites and social channels. konfetti is backed by Speedinvest. It publishes no public developer portal or API reference; the JSON API behind the storefront at api.gokonfetti.com is documented
   here observationally by API Evangelist.'
 image: https://gokonfetti.com/_nuxt3-static/logos/kft-short-logo-white-bg.webp
+json_schemas:
+- name: CategoryPage
+  property_count: 0
+  slug: konfetti-category-page
+- name: Category
+  property_count: 7
+  slug: konfetti-category
+- name: Event
+  property_count: 41
+  slug: konfetti-event
+- name: ListMeta
+  property_count: 3
+  slug: konfetti-list-meta
+jsonld:
+- class_count: 10
+  name: Konfetti Context
+  property_count: 73
+  slug: konfetti-context
 layout: provider
 modified: '2026-07-19'
 name: konfetti
@@ -232,26 +301,55 @@ network: true
 overview: 'konfetti is listed with 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Catalog API, and 2 more. Tagged areas include Company, Marketplace, Experience, Booking, and Event.
 
 
-  konfetti''s developer surface includes support, FAQ, engineering blog, signup flow, developer portal, pricing, and 26 more developer resources.'
-random_paper: 10
+  The konfetti catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  konfetti''s developer surface includes documentation, support, FAQ, engineering blog, signup flow, developer portal, pricing, and 34 more developer resources.'
+plans:
+- name: Konfetti Plans Pricing
+  plan_count: 3
+  slug: konfetti-plans-pricing
+random_paper: 4
+rate_limits:
+- limit_count: 0
+  name: Konfetti Rate Limits
+  slug: konfetti-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 54
+  extends:
+  - spectral:oas
+  name: konfetti API Rules
+  rule_count: 13
+  severity_counts:
+    error: 11
+    hint: 0
+    info: 1
+    warn: 1
+  slug: konfetti-rules
+scopes:
+- name: Konfetti Scopes
+  scope_count: 0
+  slug: konfetti-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 25.7
+  band: developing
+  composite: 44.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 31
+    catalog_earned: 77.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 44.7
-    contract_governance: 4.5
-    contract_quality: 12.9
-    developer_ergonomics: 30.4
-    discoverability: 72.3
-    operational_transparency: 0.0
+    access_clarity: 76.3
+    contract_governance: 22.0
+    contract_quality: 26.5
+    developer_ergonomics: 39.9
+    discoverability: 73.2
+    operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -260,8 +358,9 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 25.7
+  previous_composite: 44.0
   provenance:
+    agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
@@ -275,23 +374,30 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 22.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 31.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/screenshots/konfetti-2026-07-25T224149.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/konfetti/konfetti-2026-07-25T224149.png
 security:
 - kind: authentication
   name: Konfetti Authentication
   slug: konfetti-authentication
-  summary_line: none/http/oauth2 · 3 schemes
+  summary_line: http/oauth2 · 2 schemes
 - kind: domain-security
   name: Konfetti Domain Security
   slug: konfetti-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: konfetti-search-experiences
+  slug: konfetti-search-experiences
+- name: konfetti-supplier-catalog
+  slug: konfetti-supplier-catalog
 slug: konfetti
 tags:
 - Company

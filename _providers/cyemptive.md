@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -43,7 +45,7 @@ common:
   type: BlogRSS
   url: https://www.cyemptive.com/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyemptive/refs/heads/main/security/cyemptive-domain-security.yml
+  href: https://artifacts.apis.io/cyemptive/security/cyemptive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cyemptive-domain-security.yml
@@ -56,17 +58,17 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/cyemptive_stock/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cyemptive/refs/heads/main/llms/cyemptive-llms.txt
+  href: https://artifacts.apis.io/cyemptive/llms/cyemptive-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cyemptive-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cyemptive/refs/heads/main/plans/cyemptive-plans-pricing.yml
+  href: https://artifacts.apis.io/cyemptive/plans/cyemptive-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cyemptive-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cyemptive/refs/heads/main/rate-limits/cyemptive-rate-limits.yml
+  href: https://artifacts.apis.io/cyemptive/rate-limits/cyemptive-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cyemptive-rate-limits.yml
@@ -100,7 +102,7 @@ plans:
 - name: Cyemptive Plans Pricing
   plan_count: 0
   slug: cyemptive-plans-pricing
-random_paper: 14
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Cyemptive Rate Limits
@@ -130,14 +132,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cyemptive/refs/heads/main/screenshots/cyemptive-2026-09-02T145216.png
+screenshot: https://apis.io/screenshots/cyemptive/cyemptive-2026-09-02T145216.png
 security:
 - kind: domain-security
   name: Cyemptive Domain Security

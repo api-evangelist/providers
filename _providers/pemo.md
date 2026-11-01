@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -69,7 +71,7 @@ common:
   type: Login
   url: https://app.pemo.io/login
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pemo/refs/heads/main/security/pemo-domain-security.yml
+  href: https://artifacts.apis.io/pemo/security/pemo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pemo-domain-security.yml
@@ -89,12 +91,12 @@ overview: 'Pemo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Pemo''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
   band: emerging
-  composite: 14.5
+  composite: 14.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -106,7 +108,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 51.7
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -117,7 +119,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 14.5
+  previous_composite: 14.1
   provenance:
     mcp: first-party
   regulatory:
@@ -126,14 +128,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 12.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pemo/refs/heads/main/screenshots/pemo-2026-09-02T150958.png
+screenshot: https://apis.io/screenshots/pemo/pemo-2026-09-02T150958.png
 security:
 - kind: domain-security
   name: Pemo Domain Security

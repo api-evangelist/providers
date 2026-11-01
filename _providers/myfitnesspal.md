@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.myfitnesspal.com/v2
@@ -41,7 +43,7 @@ apis:
   description: Partner REST API for reading and writing a consenting user's food and exercise diary, body measurements, and profile, plus webhook subscriptions for data-change notifications. OAuth 2.0 authorization-
   name: MyFitnessPal API v2
   slug: myfitnesspal-api-v2
-artifact_total: 6
+artifact_total: 8
 asyncapis:
 - description: Webhook notifications delivered by MyFitnessPal to partner applications when a subscribed user's data changes. A single POST may batch notifications about multiple items belonging to multiple users (u
   name: MyFitnessPal Subscription Notifications
@@ -92,12 +94,12 @@ common:
   type: PrivacyPolicy
   url: https://www.myfitnesspal.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/myfitnesspal/refs/heads/main/well-known/myfitnesspal-security.txt
+  href: https://artifacts.apis.io/myfitnesspal/well-known/myfitnesspal-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/myfitnesspal-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/myfitnesspal/refs/heads/main/well-known/myfitnesspal-well-known.yml
+  href: https://artifacts.apis.io/myfitnesspal/well-known/myfitnesspal-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/myfitnesspal-well-known.yml
@@ -106,22 +108,22 @@ common:
   type: Security
   url: https://bugcrowd.com/engagements/myfitnesspal-mbb
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/myfitnesspal/refs/heads/main/security/myfitnesspal-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/myfitnesspal/security/myfitnesspal-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/myfitnesspal-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/myfitnesspal/refs/heads/main/security/myfitnesspal-domain-security.yml
+  href: https://artifacts.apis.io/myfitnesspal/security/myfitnesspal-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/myfitnesspal-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/myfitnesspal/refs/heads/main/packages/myfitnesspal-packages.yml
+  href: https://artifacts.apis.io/myfitnesspal/packages/myfitnesspal-packages.yml
   title: ''
   type: Packages
   url: packages/myfitnesspal-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/myfitnesspal/refs/heads/main/llms/myfitnesspal-llms.txt
+  href: https://artifacts.apis.io/myfitnesspal/llms/myfitnesspal-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/myfitnesspal-llms.txt
@@ -140,7 +142,7 @@ overview: 'MyFitnessPal is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   MyFitnessPal''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, and 12 more developer resources.'
-random_paper: 13
+random_paper: 15
 scopes:
 - name: Myfitnesspal Scopes
   scope_count: 4
@@ -148,7 +150,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.3
+  composite: 41.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -162,9 +164,9 @@ score:
     contract_governance: 4.5
     contract_quality: 39.6
     developer_ergonomics: 47.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 18.4
-  previous_composite: 42.3
+  previous_composite: 41.6
   provenance:
     conformance: derived
     mcp: derived
@@ -175,14 +177,14 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/myfitnesspal/refs/heads/main/screenshots/myfitnesspal-2026-08-07T184519.png
+screenshot: https://apis.io/screenshots/myfitnesspal/myfitnesspal-2026-08-07T184519.png
 security:
 - kind: authentication
   name: Myfitnesspal Authentication
@@ -196,6 +198,12 @@ security:
   name: Myfitnesspal Vulnerability Disclosure
   slug: myfitnesspal-vulnerability-disclosure
   summary_line: Bugcrowd · security.txt · contact published
+skill_count: 2
+skills:
+- name: Log a food or exercise entry to a user's diary
+  slug: myfitnesspal-log-diary-entry
+- name: Subscribe to a user's data-change webhooks and process notifications
+  slug: myfitnesspal-subscribe-to-user-updates
 slug: myfitnesspal
 tags:
 - Company

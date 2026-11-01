@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.1
-  scored_at: '2026-10-17'
+  score: 34.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -55,15 +57,12 @@ apis:
   description: The Integration API from Atrato — 6 operation(s) for integration.
   name: Atrato Integration API
   slug: atrato-integration-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Atrato Webhooks
   slug: atrato-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Atrato Partners Ecommerce API
   slug: open-atrato-ecommerce-api
@@ -92,87 +91,87 @@ common:
   type: GettingStarted
   url: https://docs.atratopago.com/reference/recepción-de-pagos
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/authentication/atrato-authentication.yml
+  href: https://artifacts.apis.io/atrato/authentication/atrato-authentication.yml
   title: ''
   type: Authentication
   url: authentication/atrato-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/openapi/_original/atrato-partners-openapi.yml
+  href: https://artifacts.apis.io/atrato/openapi/_original/atrato-partners-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/atrato-partners-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/overlays/atrato-partners-overlay.yaml
+  href: https://artifacts.apis.io/atrato/overlays/atrato-partners-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/atrato-partners-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/errors/atrato-problem-types.yml
+  href: https://artifacts.apis.io/atrato/errors/atrato-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/atrato-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/conventions/atrato-conventions.yml
+  href: https://artifacts.apis.io/atrato/conventions/atrato-conventions.yml
   title: ''
   type: Conventions
   url: conventions/atrato-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/data-model/atrato-data-model.yml
+  href: https://artifacts.apis.io/atrato/data-model/atrato-data-model.yml
   title: ''
   type: DataModel
   url: data-model/atrato-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/conformance/atrato-conformance.yml
+  href: https://artifacts.apis.io/atrato/conformance/atrato-conformance.yml
   title: ''
   type: Conformance
   url: conformance/atrato-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/lifecycle/atrato-lifecycle.yml
+  href: https://artifacts.apis.io/atrato/lifecycle/atrato-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/atrato-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/mcp/atrato-mcp.yml
+  href: https://artifacts.apis.io/atrato/mcp/atrato-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/atrato-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/agentic-access/atrato-agentic-access.yml
+  href: https://artifacts.apis.io/atrato/agentic-access/atrato-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/atrato-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/llms/atrato-llms.txt
+  href: https://artifacts.apis.io/atrato/llms/atrato-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/atrato-llms.txt
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/sandbox/atrato-sandbox.yml
+  href: https://artifacts.apis.io/atrato/sandbox/atrato-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/atrato-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/asyncapi/atrato-webhooks.yml
+  href: https://artifacts.apis.io/atrato/asyncapi/atrato-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/atrato-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/components/atrato-components.yml
+  href: https://artifacts.apis.io/atrato/components/atrato-components.yml
   title: ''
   type: Components
   url: components/atrato-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/skills/atrato-cash-in-register-payment.md
+  href: https://artifacts.apis.io/atrato/skills/atrato-cash-in-register-payment.md
   title: ''
   type: AgentSkill
   url: skills/atrato-cash-in-register-payment.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/skills/atrato-ecommerce-generate-order.md
+  href: https://artifacts.apis.io/atrato/skills/atrato-ecommerce-generate-order.md
   title: ''
   type: AgentSkill
   url: skills/atrato-ecommerce-generate-order.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/security/atrato-domain-security.yml
+  href: https://artifacts.apis.io/atrato/security/atrato-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/atrato-domain-security.yml
@@ -215,10 +214,10 @@ overview: 'Atrato publishes 2 API contracts indexed on the [APIs.io](https://api
 
 
   Atrato''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 21 more developer resources.'
-random_paper: 13
+random_paper: 3
 score:
-  band: thin
-  composite: 36.0
+  band: developing
+  composite: 42.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -226,13 +225,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 22.4
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 55.0
-    developer_ergonomics: 47.0
-    discoverability: 73.2
+    developer_ergonomics: 66.1
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -241,7 +240,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 35.9
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,14 +256,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 22.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/screenshots/atrato-2026-07-25T201622.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/atrato/atrato-2026-07-25T201622.png
 security:
 - kind: authentication
   name: Atrato Authentication
@@ -274,6 +274,12 @@ security:
   name: Atrato Domain Security
   slug: atrato-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Register an in-store cash-in payment
+  slug: atrato-cash-in-register-payment
+- name: Generate an ecommerce BNPL checkout order
+  slug: atrato-ecommerce-generate-order
 slug: atrato
 tags:
 - Company

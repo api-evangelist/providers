@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.0
-  scored_at: '2026-10-17'
+  score: 8.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RESTful JSON API for triggering and monitoring pipelines and tasks, managing users/groups, parameters, audit logs, SCM migration, and GitCustodian, authenticated with scoped JWT Personal Access Tokens
@@ -64,47 +66,47 @@ common:
   type: APIReference
   url: https://docs.opsera.io/api-platform-and-integration
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opsera/refs/heads/main/authentication/opsera-authentication.yml
+  href: https://artifacts.apis.io/opsera/authentication/opsera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opsera-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opsera/refs/heads/main/scopes/opsera-scopes.yml
+  href: https://artifacts.apis.io/opsera/scopes/opsera-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/opsera-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opsera/refs/heads/main/mcp/opsera-mcp.yml
+  href: https://artifacts.apis.io/opsera/mcp/opsera-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/opsera-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opsera/refs/heads/main/llms/opsera-llms.txt
+  href: https://artifacts.apis.io/opsera/llms/opsera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/opsera-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opsera/refs/heads/main/conventions/opsera-conventions.yml
+  href: https://artifacts.apis.io/opsera/conventions/opsera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/opsera-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opsera/refs/heads/main/errors/opsera-problem-types.yml
+  href: https://artifacts.apis.io/opsera/errors/opsera-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/opsera-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opsera/refs/heads/main/conformance/opsera-conformance.yml
+  href: https://artifacts.apis.io/opsera/conformance/opsera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/opsera-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opsera/refs/heads/main/security/opsera-domain-security.yml
+  href: https://artifacts.apis.io/opsera/security/opsera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opsera-domain-security.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opsera/refs/heads/main/changelog/opsera-changelog.yml
+  href: https://artifacts.apis.io/opsera/changelog/opsera-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/opsera-changelog.yml
@@ -149,7 +151,7 @@ description: Opsera is an AI-powered unified DevOps platform that helps enterpri
 image: https://opsera.ai/wp-content/uploads/2025/07/opsera-generic-social.jpg
 layout: provider
 mcp_servers:
-- description: Remote MCP server at agent.opsera.io over HTTP; 12 tools listed.
+- description: Remote MCP server at agent.opsera.io over HTTP; 11 tools listed.
   name: Opsera MCP Server
   slug: opsera-ai-agent
 modified: '2026-07-20'
@@ -160,7 +162,7 @@ overview: 'Opsera is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Opsera''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, engineering blog, pricing, and 16 more developer resources.'
-random_paper: 12
+random_paper: 2
 scopes:
 - name: Opsera Scopes
   scope_count: 2
@@ -180,10 +182,10 @@ score:
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
-    contract_quality: 5.3
-    developer_ergonomics: 47.6
-    discoverability: 75.0
-    operational_transparency: 18.4
+    contract_quality: 0.0
+    developer_ergonomics: 57.1
+    discoverability: 65.0
+    operational_transparency: 21.1
   previous_composite: 34.7
   provenance:
     conformance: first-party
@@ -194,14 +196,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/opsera/refs/heads/main/screenshots/opsera-2026-08-07T190746.png
+screenshot: https://apis.io/screenshots/opsera/opsera-2026-08-07T190746.png
 security:
 - kind: authentication
   name: Opsera Authentication

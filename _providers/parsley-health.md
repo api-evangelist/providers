@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The agent-callable surface of Parsley Health's direct-to-consumer supplement store. A live, anonymous Universal Commerce Protocol MCP endpoint exposes thirteen tools for catalog search, product lookup
   name: Parsley Health Store — UCP / MCP Agent Commerce
   slug: parsley-health-store-ucp-mcp-agent-commerce
-artifact_total: 7
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -118,82 +120,82 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/parsley-health_stock/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/packages/parsley-health-packages.yml
+  href: https://artifacts.apis.io/parsley-health/packages/parsley-health-packages.yml
   title: ''
   type: Packages
   url: packages/parsley-health-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/conformance/parsley-health-conformance.yml
+  href: https://artifacts.apis.io/parsley-health/conformance/parsley-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/parsley-health-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/llms/parsley-health-llms.txt
+  href: https://artifacts.apis.io/parsley-health/llms/parsley-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/parsley-health-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/well-known/parsley-health-well-known.yml
+  href: https://artifacts.apis.io/parsley-health/well-known/parsley-health-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/parsley-health-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/security/parsley-health-domain-security.yml
+  href: https://artifacts.apis.io/parsley-health/security/parsley-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parsley-health-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/mcp/parsley-health-mcp.yml
+  href: https://artifacts.apis.io/parsley-health/mcp/parsley-health-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/parsley-health-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/mcp/parsley-health-tool-crosswalk.yml
+  href: https://artifacts.apis.io/parsley-health/mcp/parsley-health-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/parsley-health-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/parsley-health/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/authentication/parsley-health-authentication.yml
+  href: https://artifacts.apis.io/parsley-health/authentication/parsley-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/parsley-health-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/scopes/parsley-health-scopes.yml
+  href: https://artifacts.apis.io/parsley-health/scopes/parsley-health-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/parsley-health-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/conventions/parsley-health-conventions.yml
+  href: https://artifacts.apis.io/parsley-health/conventions/parsley-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/parsley-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/errors/parsley-health-problem-types.yml
+  href: https://artifacts.apis.io/parsley-health/errors/parsley-health-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/parsley-health-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/data-model/parsley-health-data-model.yml
+  href: https://artifacts.apis.io/parsley-health/data-model/parsley-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/parsley-health-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/lifecycle/parsley-health-lifecycle.yml
+  href: https://artifacts.apis.io/parsley-health/lifecycle/parsley-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/parsley-health-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/rate-limits/parsley-health-rate-limits.yml
+  href: https://artifacts.apis.io/parsley-health/rate-limits/parsley-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/parsley-health-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/plans/parsley-health-plans-pricing.yml
+  href: https://artifacts.apis.io/parsley-health/plans/parsley-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/parsley-health-plans-pricing.yml
@@ -223,7 +225,7 @@ plans:
 - name: Parsley Health Plans Pricing
   plan_count: 0
   slug: parsley-health-plans-pricing
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Parsley Health Rate Limits
@@ -235,7 +237,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 30.4
+  composite: 29.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -243,15 +245,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 75.8
-    operational_transparency: 2.6
-  previous_composite: 30.3
+    discoverability: 66.7
+    operational_transparency: 5.3
+  previous_composite: 29.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -262,14 +264,14 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/parsley-health/refs/heads/main/screenshots/parsley-health-2026-08-07T191503.png
+screenshot: https://apis.io/screenshots/parsley-health/parsley-health-2026-08-07T191503.png
 security:
 - kind: authentication
   name: Parsley Health Authentication
@@ -279,6 +281,12 @@ security:
   name: Parsley Health Domain Security
   slug: parsley-health-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: parsley-health-store-cart-checkout
+  slug: parsley-health-store-cart-checkout
+- name: parsley-health-store-catalog-search
+  slug: parsley-health-store-catalog-search
 slug: parsley-health
 tags:
 - Company

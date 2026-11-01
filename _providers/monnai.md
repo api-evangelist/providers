@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Real-time consumer-insights and decisioning API. Accepts consumer identifiers (phone, email, device, name, address) and returns enriched, AI-ready insights used for onboarding/KYC-AML, fraud and risk '
@@ -58,27 +60,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/monnai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monnai/refs/heads/main/authentication/monnai-authentication.yml
+  href: https://artifacts.apis.io/monnai/authentication/monnai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/monnai-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monnai/refs/heads/main/security/monnai-domain-security.yml
+  href: https://artifacts.apis.io/monnai/security/monnai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/monnai-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monnai/refs/heads/main/conformance/monnai-conformance.yml
+  href: https://artifacts.apis.io/monnai/conformance/monnai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/monnai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monnai/refs/heads/main/well-known/monnai-well-known.yml
+  href: https://artifacts.apis.io/monnai/well-known/monnai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/monnai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monnai/refs/heads/main/llms/monnai-llms.txt
+  href: https://artifacts.apis.io/monnai/llms/monnai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/monnai-llms.txt
@@ -94,26 +96,26 @@ overview: 'Monnai is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Monnai''s developer surface includes developer portal, signup flow, authentication, and 6 more developer resources.'
-random_paper: 4
+random_paper: 18
 score:
   band: emerging
-  composite: 16.7
+  composite: 16.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 16.6
+  previous_composite: 16.0
   provenance:
     conformance: first-party
   regulatory:
@@ -122,14 +124,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/monnai/refs/heads/main/screenshots/monnai-2026-08-07T184208.png
+screenshot: https://apis.io/screenshots/monnai/monnai-2026-08-07T184208.png
 security:
 - kind: authentication
   name: Monnai Authentication

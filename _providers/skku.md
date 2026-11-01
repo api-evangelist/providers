@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Sungkyunkwan University's institutional identity provider, publishing machine-readable SAML 2.0 metadata through the KAFE (Korea Access Federation) aggregate and interfederated internationally through
@@ -105,47 +107,47 @@ common:
   type: AITooling
   url: https://ctl.skku.edu/ctl/index.do
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/examples/skku-idp-saml-entity-descriptor-example.xml
+  href: https://artifacts.apis.io/skku/examples/skku-idp-saml-entity-descriptor-example.xml
   title: ''
   type: Examples
   url: examples/skku-idp-saml-entity-descriptor-example.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/authentication/skku-authentication.yml
+  href: https://artifacts.apis.io/skku/authentication/skku-authentication.yml
   title: ''
   type: Authentication
   url: authentication/skku-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/conformance/skku-conformance.yml
+  href: https://artifacts.apis.io/skku/conformance/skku-conformance.yml
   title: ''
   type: Conformance
   url: conformance/skku-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/json-ld/skku-context.jsonld
+  href: https://artifacts.apis.io/skku/json-ld/skku-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/skku-context.jsonld
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/security/skku-domain-security.yml
+  href: https://artifacts.apis.io/skku/security/skku-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/skku-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/plans/skku-plans-pricing.yml
+  href: https://artifacts.apis.io/skku/plans/skku-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/skku-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/rate-limits/skku-rate-limits.yml
+  href: https://artifacts.apis.io/skku/rate-limits/skku-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/skku-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/finops/skku-finops.yml
+  href: https://artifacts.apis.io/skku/finops/skku-finops.yml
   title: ''
   type: FinOps
   url: finops/skku-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/skku/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -232,7 +234,7 @@ coverage:
   - note: Pointer repaired. The previous profile pointed at /company/sungkyunkwan-university, which returns 404 to every non-browser client — calibration confirmed LinkedIn returns 404 on that path shape for a deliberately fabricated slug too, so it reads as dead. The canonical school page is the Korean-name school URL (성균관대학교, 45,242 followers); 999 is LinkedIn's bot challenge and grades live.
     status: 999
     url: https://www.linkedin.com/school/%EC%84%B1%EA%B7%A0%EA%B4%80%EB%8C%80%ED%95%99%EA%B5%90/
-  reason: auth_required
+  reason: auth-required
   state: gated
 created: '2026-06-03'
 description: 'Sungkyunkwan University (SKKU) is a private research university in Seoul and Suwon, South Korea, founded in 1398 and operated since 1996 under the Samsung Foundation of Education. Like almost every university it is a federation of buyers rather than an API producer, and this profile is deliberate about which of that federation''s surfaces are actually SKKU''s engineering. SKKU operates no central developer portal and no API gateway — api.skku.edu, developer.skku.edu, data.skku.edu and status.skku.edu do not resolve — and publishes no OpenAPI for anything. What it does operate, and what almost no university catalog records, is a SAML 2.0 identity provider at kafe.skku.edu registered in eduGAIN through KAFE, the Korea Access Federation: entityID https://kafe.skku.edu/idp/simplesamlphp, scope skku.edu, supporting the REFEDS Research and Scholarship entity category and asserting the REFEDS Sirtfi assurance profile. That machine-readable metadata document is the strongest programmable
@@ -268,7 +270,7 @@ plans:
 - name: Skku Plans Pricing
   plan_count: 2
   slug: skku-plans-pricing
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Skku Rate Limits
@@ -283,7 +285,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 18.2
@@ -298,7 +300,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 32.9
+  previous_composite: 26.8
   provenance:
     conformance: first-party
   regulatory:
@@ -307,14 +309,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/screenshots/skku-2026-06-20T194017.png
+screenshot: https://apis.io/screenshots/skku/skku-2026-06-20T194017.png
 security:
 - kind: authentication
   name: Skku Authentication

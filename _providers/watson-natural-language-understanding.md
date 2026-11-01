@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Natural language processing for advanced text analysis
@@ -45,12 +47,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/ibm/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/watson-natural-language-understanding/refs/heads/main/security/watson-natural-language-understanding-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/watson-natural-language-understanding/security/watson-natural-language-understanding-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/watson-natural-language-understanding-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/watson-natural-language-understanding/refs/heads/main/security/watson-natural-language-understanding-domain-security.yml
+  href: https://artifacts.apis.io/watson-natural-language-understanding/security/watson-natural-language-understanding-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/watson-natural-language-understanding-domain-security.yml
@@ -71,10 +73,10 @@ name: Watson Natural Language Understanding
 nav: Providers
 network: true
 overview: Watson Natural Language Understanding is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text Analysis and Public APIs.
-random_paper: 12
+random_paper: 4
 score:
   band: minimal
-  composite: 4.1
+  composite: 7.4
   coverage:
     artifact_dirs: 3
     catalog_earned: 22.0
@@ -87,24 +89,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 9.5
     discoverability: 46.4
-    operational_transparency: 0.0
-  previous_composite: 4.1
+    operational_transparency: 10.5
+  previous_composite: 7.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/watson-natural-language-understanding/refs/heads/main/screenshots/watson-natural-language-understanding-2026-06-20T201318.png
+screenshot: https://apis.io/screenshots/watson-natural-language-understanding/watson-natural-language-understanding-2026-06-20T201318.png
 security:
 - kind: domain-security
   name: Watson Natural Language Understanding Domain Security

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The commercial API behind the Rapid Technology Partner Program, which lets technology partners integrate Rapid imaging results into their own products and services. Access is granted through the partn
@@ -107,17 +109,17 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/rapidai_stock/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rapidai/refs/heads/main/authentication/rapidai-authentication.yml
+  href: https://artifacts.apis.io/rapidai/authentication/rapidai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rapidai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rapidai/refs/heads/main/lifecycle/rapidai-lifecycle.yml
+  href: https://artifacts.apis.io/rapidai/lifecycle/rapidai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rapidai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rapidai/refs/heads/main/conformance/rapidai-conformance.yml
+  href: https://artifacts.apis.io/rapidai/conformance/rapidai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rapidai-conformance.yml
@@ -126,17 +128,17 @@ common:
   type: Compliance
   url: https://www.rapidai.com/it
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rapidai/refs/heads/main/security/rapidai-trust-center.yml
+  href: https://artifacts.apis.io/rapidai/security/rapidai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rapidai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rapidai/refs/heads/main/security/rapidai-domain-security.yml
+  href: https://artifacts.apis.io/rapidai/security/rapidai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rapidai-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rapidai/refs/heads/main/llms/rapidai-llms.txt
+  href: https://artifacts.apis.io/rapidai/llms/rapidai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rapidai-llms.txt
@@ -153,10 +155,10 @@ overview: 'RapidAI is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   RapidAI''s developer surface includes support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 4
+random_paper: 10
 score:
   band: emerging
-  composite: 22.2
+  composite: 23.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -166,13 +168,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 74.1
-    operational_transparency: 2.6
-  previous_composite: 22.2
+    discoverability: 67.9
+    operational_transparency: 5.3
+  previous_composite: 23.3
   provenance:
     conformance: first-party
   regulatory:
@@ -187,14 +189,14 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rapidai/refs/heads/main/screenshots/rapidai-2026-09-02T152850.png
+screenshot: https://apis.io/screenshots/rapidai/rapidai-2026-09-02T152850.png
 security:
 - kind: authentication
   name: Rapidai Authentication

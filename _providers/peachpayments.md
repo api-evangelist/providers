@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-10-17'
+  score: 26.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -74,7 +76,7 @@ apis:
   description: Settlement and transaction reconciliation reporting.
   name: Peach Payments Reconciliation API
   slug: peachpayments-reconciliation-api
-artifact_total: 28
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Peachpayments Webhooks
@@ -99,9 +101,6 @@ collections:
   name: Peach Payments Authentication Reconciliation API
   slug: postman-peachpayments-reconciliation-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Peach Payments Authentication API
   slug: open-peachpayments-authentication-api
 - collection_type: open
@@ -120,8 +119,13 @@ collections:
   name: Peach Payments Authentication Reconciliation API
   slug: open-peachpayments-reconciliation-api
 common:
+- group: other
+  href: https://artifacts.apis.io/peachpayments/capabilities/peachpayments-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/peachpayments-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/mcp/peachpayments-mcp.yml
+  href: https://artifacts.apis.io/peachpayments/mcp/peachpayments-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/peachpayments-mcp.yml
@@ -130,77 +134,77 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/peach-payments/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/agentic-access/peachpayments-agentic-access.yml
+  href: https://artifacts.apis.io/peachpayments/agentic-access/peachpayments-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/peachpayments-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/security/peachpayments-trust-center.yml
+  href: https://artifacts.apis.io/peachpayments/security/peachpayments-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/peachpayments-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/security/peachpayments-trust-center.yml
+  href: https://artifacts.apis.io/peachpayments/security/peachpayments-trust-center.yml
   title: ''
   type: Compliance
   url: security/peachpayments-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/security/peachpayments-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/peachpayments/security/peachpayments-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/peachpayments-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/security/peachpayments-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/peachpayments/security/peachpayments-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/peachpayments-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/security/peachpayments-domain-security.yml
+  href: https://artifacts.apis.io/peachpayments/security/peachpayments-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/peachpayments-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/authentication/peachpayments-authentication.yml
+  href: https://artifacts.apis.io/peachpayments/authentication/peachpayments-authentication.yml
   title: ''
   type: Authentication
   url: authentication/peachpayments-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/packages/peachpayments-packages.yml
+  href: https://artifacts.apis.io/peachpayments/packages/peachpayments-packages.yml
   title: ''
   type: Packages
   url: packages/peachpayments-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/packages/peachpayments-packages.yml
+  href: https://artifacts.apis.io/peachpayments/packages/peachpayments-packages.yml
   title: ''
   type: SDKs
   url: packages/peachpayments-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/llms/peachpayments-llms.txt
+  href: https://artifacts.apis.io/peachpayments/llms/peachpayments-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/peachpayments-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/overlays/peachpayments-openapi-overlay.yaml
+  href: https://artifacts.apis.io/peachpayments/overlays/peachpayments-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/peachpayments-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/conformance/peachpayments-conformance.yml
+  href: https://artifacts.apis.io/peachpayments/conformance/peachpayments-conformance.yml
   title: ''
   type: Conformance
   url: conformance/peachpayments-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/errors/peachpayments-problem-types.yml
+  href: https://artifacts.apis.io/peachpayments/errors/peachpayments-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/peachpayments-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/errors/peachpayments-decline-codes.yml
+  href: https://artifacts.apis.io/peachpayments/errors/peachpayments-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/peachpayments-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/lifecycle/peachpayments-lifecycle.yml
+  href: https://artifacts.apis.io/peachpayments/lifecycle/peachpayments-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/peachpayments-lifecycle.yml
@@ -209,37 +213,37 @@ common:
   type: StatusPage
   url: https://status.peachpayments.com
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/sandbox/peachpayments-sandbox.yml
+  href: https://artifacts.apis.io/peachpayments/sandbox/peachpayments-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/peachpayments-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/conventions/peachpayments-conventions.yml
+  href: https://artifacts.apis.io/peachpayments/conventions/peachpayments-conventions.yml
   title: ''
   type: Conventions
   url: conventions/peachpayments-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/changelog/peachpayments-changelog.yml
+  href: https://artifacts.apis.io/peachpayments/changelog/peachpayments-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/peachpayments-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/components/peachpayments-components.yml
+  href: https://artifacts.apis.io/peachpayments/components/peachpayments-components.yml
   title: ''
   type: Components
   url: components/peachpayments-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/data-model/peachpayments-data-model.yml
+  href: https://artifacts.apis.io/peachpayments/data-model/peachpayments-data-model.yml
   title: ''
   type: DataModel
   url: data-model/peachpayments-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/asyncapi/peachpayments-webhooks.yml
+  href: https://artifacts.apis.io/peachpayments/asyncapi/peachpayments-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/peachpayments-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/peachpayments/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -300,17 +304,17 @@ common:
   type: Postman
   url: https://www.postman.com/peachpayments/peach-payments-public-workspace
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/plans/peachpayments-plans-pricing.yml
+  href: https://artifacts.apis.io/peachpayments/plans/peachpayments-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/peachpayments-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/rate-limits/peachpayments-rate-limits.yml
+  href: https://artifacts.apis.io/peachpayments/rate-limits/peachpayments-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/peachpayments-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/finops/peachpayments-finops.yml
+  href: https://artifacts.apis.io/peachpayments/finops/peachpayments-finops.yml
   title: ''
   type: FinOps
   url: finops/peachpayments-finops.yml
@@ -318,10 +322,10 @@ created: '2026-07-17'
 description: Peach Payments is a pan-African payment orchestration gateway founded in 2012 in Cape Town, South Africa, operating across South Africa, Kenya, and Mauritius. Its PCI DSS Level 1 platform exposes REST APIs for Checkout (Hosted, Embedded, Embedded Express), server-to-server Payments, Payment Links, Payouts, and Reconciliation, supporting cards plus local methods like PayShap, Capitec Pay, 1Voucher, Mobicred, M-PESA, and MauCAS in ZAR, KES, and MUR.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Peachpayments Finops
-  primary_unit: ''
-  service_category: Payments and Financial Services
+  primary_unit: transaction
+  service_category: ''
   slug: peachpayments-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peachpayments.png
@@ -336,40 +340,43 @@ overview: 'Peach Payments publishes 6 API contracts indexed on the [APIs.io](htt
   The Peach Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Peach Payments'' developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 35 more developer resources.'
+  Peach Payments'' developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 36 more developer resources.'
 plans:
 - name: Peachpayments Plans Pricing
-  plan_count: 2
+  plan_count: 10
   slug: peachpayments-plans-pricing
-random_paper: 8
+- name: Peachpayments Price Estimates
+  plan_count: 0
+  slug: peachpayments-price-estimates
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Peachpayments Rate Limits
   slug: peachpayments-rate-limits
 score:
-  band: strong
-  composite: 58.3
+  band: exemplar
+  composite: 69.5
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    artifact_dirs: 28
+    catalog_earned: 54.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 3.7
   facets:
-    access_clarity: 65.8
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 56.5
-    developer_ergonomics: 56.5
-    discoverability: 73.2
+    developer_ergonomics: 78.0
+    discoverability: 66.1
     operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 64.4
+  previous_composite: 65.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -386,13 +393,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 44.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/screenshots/peachpayments-2026-08-07T191724.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/peachpayments/peachpayments-2026-08-07T191724.png
 security:
 - kind: authentication
   name: Peachpayments Authentication
@@ -410,6 +418,14 @@ security:
   name: Peachpayments Trust Center
   slug: peachpayments-trust-center
   summary_line: PCI DSS Level 1, PCI DSS v4.0
+skill_count: 3
+skills:
+- name: Authenticate and create a checkout
+  slug: peachpayments-authenticate-and-checkout
+- name: Verify a bank account and pay out
+  slug: peachpayments-payout-with-verification
+- name: Take a server-to-server payment and refund it
+  slug: peachpayments-server-to-server-payment
 slug: peachpayments
 tags:
 - Payments

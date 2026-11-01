@@ -1,0 +1,148 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-10-31'
+api_count: 0
+artifact_total: 1
+common:
+- group: agent
+  href: https://artifacts.apis.io/wildfire-corp-com/llms/wildfire-corp-com-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/wildfire-corp-com-llms.txt
+- group: other
+  href: https://artifacts.apis.io/wildfire-corp-com/hosts/wildfire-corp-com-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/wildfire-corp-com-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/wildfire-corp-com/vendors/wildfire-corp-com-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/wildfire-corp-com-vendors.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://support.wildfire-corp.com/migration/for-wildlink-users/terms-of-use
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.wildfire-corp.com/tickets-view?offset=0
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://support.wildfire-corp.com/for-wildlink-users/privacy-policy
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.wildfire-corp.com/pricing
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.wildfire-corp.com/news
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.wildfire-corp.com/blog
+- group: auth
+  href: https://artifacts.apis.io/wildfire-corp-com/security/wildfire-corp-com-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/wildfire-corp-com-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://wildfire-corp.com
+coverage:
+  detail: the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - status: 403
+    url: https://wildfire-corp.com/mcp
+  - status: 403
+    url: https://ai.wildfire-corp.com/mcp
+  - status: 403
+    url: https://support.wildfire-corp.com/mcp
+  - status: 200
+    url: https://wildfire-corp.com
+  reason: no-developer-program
+  state: none
+created: '2026-10-21'
+description: Wildfire provides a white‑label loyalty, rewards, and consumer insights platform for banks and large financial technology firms. It offers cashback, coupons, and amplified card benefits, leveraging a network of over 50,000 merchant programs and AI‑driven shopper insights to deliver relevant offers and commerce media revenue.
+image: https://www.wildfire-corp.com/hubfs/Wildfire%20Systems%20logo/Wildfire%20Vertical%20White%20on%20Purple.jpg
+layout: provider
+modified: '2026-10-21'
+name: Wildfire
+nav: Providers
+network: true
+overview: 'Wildfire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Loyalty, Rewards, Consumer Insights, Commerce Media, and Merchant Network.
+
+
+  Wildfire''s developer surface includes support, pricing, engineering blog, and 8 more developer resources.'
+random_paper: 19
+score:
+  band: emerging
+  composite: 11.7
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 31.6
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 7.1
+    discoverability: 50.0
+    operational_transparency: 0.0
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 12.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Wildfire Corp Com Domain Security
+  slug: wildfire-corp-com-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: wildfire-corp-com
+tags:
+- Loyalty
+- Rewards
+- Consumer Insights
+- Commerce Media
+- Merchant Network
+website: https://wildfire-corp.com
+---

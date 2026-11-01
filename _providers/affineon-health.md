@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affineon-health/refs/heads/main/security/affineon-health-domain-security.yml
+  href: https://artifacts.apis.io/affineon-health/security/affineon-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/affineon-health-domain-security.yml
@@ -77,27 +79,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/affineon
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/affineon-health/refs/heads/main/llms/affineon-health-llms.txt
+  href: https://artifacts.apis.io/affineon-health/llms/affineon-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/affineon-health-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/affineon-health/refs/heads/main/plans/affineon-health-plans-pricing.yml
+  href: https://artifacts.apis.io/affineon-health/plans/affineon-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/affineon-health-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/affineon-health/refs/heads/main/conformance/affineon-health-conformance.yml
+  href: https://artifacts.apis.io/affineon-health/conformance/affineon-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/affineon-health-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/affineon-health/refs/heads/main/conformance/affineon-health-conformance.yml
+  href: https://artifacts.apis.io/affineon-health/conformance/affineon-health-conformance.yml
   title: ''
   type: Compliance
   url: conformance/affineon-health-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/affineon-health/refs/heads/main/packages/affineon-health-packages.yml
+  href: https://artifacts.apis.io/affineon-health/packages/affineon-health-packages.yml
   title: ''
   type: Packages
   url: packages/affineon-health-packages.yml
@@ -134,10 +136,10 @@ plans:
 - name: Affineon Health Plans Pricing
   plan_count: 5
   slug: affineon-health-plans-pricing
-random_paper: 17
+random_paper: 1
 score:
   band: emerging
-  composite: 22.6
+  composite: 22.3
   coverage:
     artifact_dirs: 11
     catalog_earned: 39.0
@@ -151,9 +153,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 22.6
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 22.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -163,14 +165,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/affineon-health/refs/heads/main/screenshots/affineon-health-2026-10-11T093023.png
+screenshot: https://apis.io/screenshots/affineon-health/affineon-health-2026-10-11T093023.png
 security:
 - kind: domain-security
   name: Affineon Health Domain Security

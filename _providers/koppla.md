@@ -25,23 +25,30 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 17.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: koppla advertises an "Offene Schnittstelle / API" (open interface / API) as an included capability of its Enterprise plan, alongside a Power BI integration that pushes koppla schedule data into custom
   name: Koppla API
   slug: koppla-api
-artifact_total: 6
+artifact_total: 11
 common:
+- group: commercial
+  href: https://artifacts.apis.io/koppla/plans/koppla-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/koppla-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -111,97 +118,105 @@ common:
   type: Security
   url: https://security.koppla.de/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/security/koppla-trust-center.yml
+  href: https://artifacts.apis.io/koppla/security/koppla-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/koppla-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/security/koppla-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/koppla/security/koppla-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/koppla-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/security/koppla-domain-security.yml
+  href: https://artifacts.apis.io/koppla/security/koppla-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/koppla-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/authentication/koppla-authentication.yml
+  href: https://artifacts.apis.io/koppla/authentication/koppla-authentication.yml
   title: ''
   type: Authentication
   url: authentication/koppla-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/conformance/koppla-conformance.yml
+  href: https://artifacts.apis.io/koppla/conformance/koppla-conformance.yml
   title: ''
   type: Conformance
   url: conformance/koppla-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/lifecycle/koppla-lifecycle.yml
+  href: https://artifacts.apis.io/koppla/lifecycle/koppla-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/koppla-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/lifecycle/koppla-lifecycle.yml
+  href: https://artifacts.apis.io/koppla/lifecycle/koppla-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/koppla-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/well-known/koppla-well-known.yml
+  href: https://artifacts.apis.io/koppla/well-known/koppla-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/koppla-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/llms/koppla-llms.txt
+  href: https://artifacts.apis.io/koppla/llms/koppla-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/koppla-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/graphql/koppla-graphql.graphql
+  href: https://artifacts.apis.io/koppla/graphql/koppla-graphql.graphql
   title: ''
   type: GraphQL
   url: graphql/koppla-graphql.graphql
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/data-model/koppla-data-model.yml
+  href: https://artifacts.apis.io/koppla/data-model/koppla-data-model.yml
   title: ''
   type: DataModel
   url: data-model/koppla-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/conventions/koppla-conventions.yml
+  href: https://artifacts.apis.io/koppla/conventions/koppla-conventions.yml
   title: ''
   type: Conventions
   url: conventions/koppla-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/errors/koppla-error-codes.yml
+  href: https://artifacts.apis.io/koppla/errors/koppla-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/koppla-error-codes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/mcp/koppla-mcp.yml
+  href: https://artifacts.apis.io/koppla/mcp/koppla-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/koppla-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/koppla/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/skills/koppla-browse-project-schedule.md
+  href: https://artifacts.apis.io/koppla/skills/koppla-browse-project-schedule.md
   title: ''
   type: AgentSkill
   url: skills/koppla-browse-project-schedule.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/skills/koppla-report-site-progress.md
+  href: https://artifacts.apis.io/koppla/skills/koppla-report-site-progress.md
   title: ''
   type: AgentSkill
   url: skills/koppla-report-site-progress.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/skills/koppla-manage-tickets.md
+  href: https://artifacts.apis.io/koppla/skills/koppla-manage-tickets.md
   title: ''
   type: AgentSkill
   url: skills/koppla-manage-tickets.md
 created: '2026-07-17'
 description: koppla GmbH is a Potsdam, Germany based construction technology company building Bauterminplan (construction scheduling) software for general contractors, general planners, project developers and architects. The cloud platform combines lean-construction scheduling, day-to-day project control and collaboration, standardized company-wide templates, reporting and analytics, a jobsite mobile app, AI-assisted import of existing schedules from MS Project, Asta Powerproject and Primavera, and a BIM integration that adds the time dimension (4D) to the model. koppla states that more than 100 construction companies and 600+ live projects run on the platform, covering over EUR 15 billion of managed construction volume. An open interface (API) plus a Power BI integration are offered as part of the Enterprise plan; koppla does not publish a public developer portal, API reference or machine-readable specification, so the API is available under contract rather than via self-service onboarding.
+finops:
+- has_sources: true
+  method: derived
+  name: Koppla Finops
+  primary_unit: ''
+  service_category: ''
+  slug: koppla-finops
+  template: true
 image: https://framerusercontent.com/images/8nYdPiJ2n9S523P0LvOTKwYtTI.png
 layout: provider
 mcp_servers:
@@ -215,25 +230,29 @@ network: true
 overview: 'Koppla is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Construction Technology, Project Management, and Scheduling.
 
 
-  Koppla''s developer surface includes signup flow, support, engineering blog, pricing, YouTube channel, authentication, and 29 more developer resources.'
-random_paper: 9
+  Koppla''s developer surface includes signup flow, support, engineering blog, pricing, YouTube channel, authentication, and 30 more developer resources.'
+plans:
+- name: Koppla Plans Pricing
+  plan_count: 2
+  slug: koppla-plans-pricing
+random_paper: 23
 score:
   band: developing
-  composite: 43.9
+  composite: 47.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 17
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 60.5
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 35.1
     developer_ergonomics: 30.4
-    discoverability: 73.2
+    discoverability: 65.0
     operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -243,7 +262,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 43.9
+  previous_composite: 43.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -258,14 +277,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/screenshots/koppla-2026-07-25T224214.png
+screenshot: https://apis.io/screenshots/koppla/koppla-2026-07-25T224214.png
 security:
 - kind: authentication
   name: Koppla Authentication
@@ -283,6 +302,14 @@ security:
   name: Koppla Trust Center
   slug: koppla-trust-center
   summary_line: ISO/IEC 27001, TISAX, GDPR
+skill_count: 3
+skills:
+- name: Browse a koppla project schedule
+  slug: koppla-browse-project-schedule
+- name: Manage koppla tickets and obstructions
+  slug: koppla-manage-tickets
+- name: Report construction site progress to koppla
+  slug: koppla-report-site-progress
 slug: koppla
 tags:
 - Company

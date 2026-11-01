@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: BorderX Lab API (no public documentation found)
@@ -32,17 +34,17 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/borderx-lab/refs/heads/main/llms/borderx-lab-llms.txt
+  href: https://artifacts.apis.io/borderx-lab/llms/borderx-lab-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/borderx-lab-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/borderx-lab/refs/heads/main/hosts/borderx-lab-hosts.yml
+  href: https://artifacts.apis.io/borderx-lab/hosts/borderx-lab-hosts.yml
   title: ''
   type: Hosts
   url: hosts/borderx-lab-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/borderx-lab/refs/heads/main/vendors/borderx-lab-vendors.yml
+  href: https://artifacts.apis.io/borderx-lab/vendors/borderx-lab-vendors.yml
   title: ''
   type: Vendors
   url: vendors/borderx-lab-vendors.yml
@@ -51,7 +53,7 @@ common:
   type: PrivacyPolicy
   url: https://www.borderxlab.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/borderx-lab/refs/heads/main/security/borderx-lab-domain-security.yml
+  href: https://artifacts.apis.io/borderx-lab/security/borderx-lab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/borderx-lab-domain-security.yml
@@ -86,10 +88,10 @@ overview: 'BorderX Lab is listed with 1 API on the [APIs.io](https://apis.io/) n
 
 
   BorderX Lab''s developer surface includes getting-started guide, engineering blog, and 6 more developer resources.'
-random_paper: 6
+random_paper: 2
 score:
   band: minimal
-  composite: 10.1
+  composite: 9.4
   coverage:
     artifact_dirs: 6
     catalog_earned: 30.0
@@ -103,14 +105,14 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 60.7
+    discoverability: 53.6
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 10.1
+  previous_composite: 9.4
   provenance:
     mcp: unknown
   regulatory:
@@ -119,8 +121,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

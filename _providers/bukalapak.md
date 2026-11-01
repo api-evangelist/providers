@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Bukalapak's public REST API for marketplace resources such as products and the authenticated user profile, secured with OAuth2 (client_credentials and resource-owner password grants) issued by account
@@ -50,27 +52,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/bukalapak
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bukalapak/refs/heads/main/authentication/bukalapak-authentication.yml
+  href: https://artifacts.apis.io/bukalapak/authentication/bukalapak-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bukalapak-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bukalapak/refs/heads/main/packages/bukalapak-packages.yml
+  href: https://artifacts.apis.io/bukalapak/packages/bukalapak-packages.yml
   title: ''
   type: Packages
   url: packages/bukalapak-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bukalapak/refs/heads/main/packages/bukalapak-packages.yml
+  href: https://artifacts.apis.io/bukalapak/packages/bukalapak-packages.yml
   title: ''
   type: SDKs
   url: packages/bukalapak-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bukalapak/refs/heads/main/security/bukalapak-domain-security.yml
+  href: https://artifacts.apis.io/bukalapak/security/bukalapak-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bukalapak-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bukalapak/refs/heads/main/llms/bukalapak-llms.txt
+  href: https://artifacts.apis.io/bukalapak/llms/bukalapak-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bukalapak-llms.txt
@@ -86,10 +88,10 @@ overview: 'Bukalapak is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Bukalapak''s developer surface includes authentication and 6 more developer resources.'
-random_paper: 16
+random_paper: 4
 score:
   band: minimal
-  composite: 10.1
+  composite: 9.8
   coverage:
     artifact_dirs: 6
     catalog_earned: 37.0
@@ -103,8 +105,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -112,15 +114,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 10.1
+  previous_composite: 9.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

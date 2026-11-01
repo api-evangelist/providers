@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,16 +36,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Hypercore's production GraphQL API for private-credit loan management — a single GraphQL endpoint covering loans, equities, clients, funding sources, documents, statements, data tables, deal onboardin
   name: Hypercore GraphQL API
   slug: hypercore-graphql-api
-artifact_total: 5
+artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hypercore/refs/heads/main/security/hypercore-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hypercore/security/hypercore-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hypercore-vulnerability-disclosure.yml
@@ -64,12 +66,12 @@ common:
   type: APIReference
   url: https://docs.hypercore.ai/docs/api/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hypercore/refs/heads/main/authentication/hypercore-authentication.yml
+  href: https://artifacts.apis.io/hypercore/authentication/hypercore-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hypercore-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hypercore/refs/heads/main/changelog/hypercore-changelog.yml
+  href: https://artifacts.apis.io/hypercore/changelog/hypercore-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hypercore-changelog.yml
@@ -82,7 +84,7 @@ common:
   type: Security
   url: https://www.hypercore.ai/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hypercore/refs/heads/main/security/hypercore-trust-center.yml
+  href: https://artifacts.apis.io/hypercore/security/hypercore-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/hypercore-trust-center.yml
@@ -91,7 +93,7 @@ common:
   type: Compliance
   url: https://www.hypercore.ai/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hypercore/refs/heads/main/conformance/hypercore-conformance.yml
+  href: https://artifacts.apis.io/hypercore/conformance/hypercore-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hypercore-conformance.yml
@@ -108,37 +110,37 @@ common:
   type: Support
   url: https://www.hypercore.ai/contact-us
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hypercore/refs/heads/main/data-model/hypercore-data-model.yml
+  href: https://artifacts.apis.io/hypercore/data-model/hypercore-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hypercore-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hypercore/refs/heads/main/conventions/hypercore-conventions.yml
+  href: https://artifacts.apis.io/hypercore/conventions/hypercore-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hypercore-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hypercore/refs/heads/main/errors/hypercore-error-codes.yml
+  href: https://artifacts.apis.io/hypercore/errors/hypercore-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/hypercore-error-codes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hypercore/refs/heads/main/security/hypercore-domain-security.yml
+  href: https://artifacts.apis.io/hypercore/security/hypercore-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hypercore-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hypercore/refs/heads/main/mcp/hypercore-mcp.yml
+  href: https://artifacts.apis.io/hypercore/mcp/hypercore-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/hypercore-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hypercore/refs/heads/main/llms/hypercore-llms.txt
+  href: https://artifacts.apis.io/hypercore/llms/hypercore-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hypercore-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hypercore/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hypercore/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -154,10 +156,10 @@ overview: 'Hypercore is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Hypercore''s developer surface includes documentation, API reference, authentication, changelog, engineering blog, support, and 16 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
-  band: thin
-  composite: 31.8
+  band: developing
+  composite: 40.8
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -165,14 +167,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 35.1
-    developer_ergonomics: 8.9
-    discoverability: 73.2
-    operational_transparency: 10.5
+    developer_ergonomics: 47.0
+    discoverability: 66.1
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -181,7 +183,7 @@ score:
     regions:
     - mena
     - middle-east
-  previous_composite: 31.7
+  previous_composite: 40.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -192,14 +194,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hypercore/refs/heads/main/screenshots/hypercore-2026-07-25T221846.png
+screenshot: https://apis.io/screenshots/hypercore/hypercore-2026-07-25T221846.png
 security:
 - kind: authentication
   name: Hypercore Authentication
@@ -217,6 +219,12 @@ security:
   name: Hypercore Trust Center
   slug: hypercore-trust-center
   summary_line: SOC 2 Type II
+skill_count: 2
+skills:
+- name: Route an edit through maker/checker approval
+  slug: hypercore-change-request-approval
+- name: Onboard a client and create a loan
+  slug: hypercore-onboard-client
 slug: hypercore
 tags:
 - Company

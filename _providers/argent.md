@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,27 +68,27 @@ common:
   type: Blog
   url: https://www.ready.co/blog
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/argent/refs/heads/main/packages/argent-packages.yml
+  href: https://artifacts.apis.io/argent/packages/argent-packages.yml
   title: ''
   type: Packages
   url: packages/argent-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/argent/refs/heads/main/packages/argent-packages.yml
+  href: https://artifacts.apis.io/argent/packages/argent-packages.yml
   title: ''
   type: SDKs
   url: packages/argent-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/argent/refs/heads/main/llms/argent-llms.txt
+  href: https://artifacts.apis.io/argent/llms/argent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/argent-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/argent/refs/heads/main/changelog/argent-changelog.yml
+  href: https://artifacts.apis.io/argent/changelog/argent-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/argent-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/argent/refs/heads/main/security/argent-domain-security.yml
+  href: https://artifacts.apis.io/argent/security/argent-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/argent-domain-security.yml
@@ -102,12 +104,12 @@ overview: 'Argent is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Argent''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, and 7 more developer resources.'
-random_paper: 3
+random_paper: 17
 score:
   band: emerging
-  composite: 15.3
+  composite: 15.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -119,23 +121,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 55.4
-    operational_transparency: 18.4
-  previous_composite: 15.3
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 15.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/argent/refs/heads/main/screenshots/argent-2026-07-25T201139.png
+screenshot: https://apis.io/screenshots/argent/argent-2026-07-25T201139.png
 security:
 - kind: domain-security
   name: Argent Domain Security

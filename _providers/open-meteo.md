@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-17'
+  score: 15.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -91,11 +93,8 @@ apis:
   description: The Weather Forecast APIs API from Open-Meteo — 1 operation(s) for weather forecast apis.
   name: Open-Meteo Weather Forecast APIs API
   slug: open-meteo-weather-forecast-apis-api
-artifact_total: 34
+artifact_total: 33
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Open-Meteo Air Quality Air Quality APIs API
   slug: open-open-meteo-air-quality-apis-api
@@ -125,12 +124,12 @@ collections:
   slug: open-open-meteo-weather-forecast-apis-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/agentic-access/open-meteo-agentic-access.yml
+  href: https://artifacts.apis.io/open-meteo/agentic-access/open-meteo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/open-meteo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/security/open-meteo-domain-security.yml
+  href: https://artifacts.apis.io/open-meteo/security/open-meteo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/open-meteo-domain-security.yml
@@ -163,17 +162,17 @@ common:
   type: X
   url: https://x.com/open_meteo
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/plans/open-meteo-plans-pricing.yml
+  href: https://artifacts.apis.io/open-meteo/plans/open-meteo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/open-meteo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/rate-limits/open-meteo-rate-limits.yml
+  href: https://artifacts.apis.io/open-meteo/rate-limits/open-meteo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/open-meteo-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/finops/open-meteo-finops.yml
+  href: https://artifacts.apis.io/open-meteo/finops/open-meteo-finops.yml
   title: ''
   type: FinOps
   url: finops/open-meteo-finops.yml
@@ -233,7 +232,7 @@ plans:
 - name: Open Meteo Plans Pricing
   plan_count: 4
   slug: open-meteo-plans-pricing
-random_paper: 5
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Open Meteo Rate Limits
@@ -254,13 +253,13 @@ score:
   band: thin
   composite: 29.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 60.3
     catalog_earned_first_party: 0.0
     catalog_gap: 54.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
@@ -268,7 +267,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 71.4
     operational_transparency: 28.9
-  previous_composite: 37.9
+  previous_composite: 29.6
   provenance:
     agentic_access: derived
     contracts:
@@ -282,14 +281,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/screenshots/open-meteo-2026-06-20T190840.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/open-meteo/open-meteo-2026-06-20T190840.png
 security:
 - kind: domain-security
   name: Open Meteo Domain Security

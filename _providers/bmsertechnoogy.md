@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,22 +25,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bmsertechnoogy/refs/heads/main/hosts/bmsertechnoogy-hosts.yml
+  href: https://artifacts.apis.io/bmsertechnoogy/hosts/bmsertechnoogy-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bmsertechnoogy-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bmsertechnoogy/refs/heads/main/vendors/bmsertechnoogy-vendors.yml
+  href: https://artifacts.apis.io/bmsertechnoogy/vendors/bmsertechnoogy-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bmsertechnoogy-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bmsertechnoogy/refs/heads/main/security/bmsertechnoogy-domain-security.yml
+  href: https://artifacts.apis.io/bmsertechnoogy/security/bmsertechnoogy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bmsertechnoogy-domain-security.yml
@@ -54,7 +56,7 @@ name: Bmsertechnoogy
 nav: Providers
 network: true
 overview: Bmsertechnoogy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Battery Management, Energy, Technology, and China.
-random_paper: 17
+random_paper: 1
 score:
   band: minimal
   composite: 3.2
@@ -80,12 +82,6 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: venue_as_website
   previous_composite: 3.2
   regulatory:
     applies: true
@@ -93,8 +89,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

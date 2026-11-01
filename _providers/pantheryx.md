@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The Relesium direct-to-consumer storefront (a PanTheryx consumer brand, named on pantheryx.com/consumer-brands/) exposes a Universal Commerce Protocol shopping service over MCP. An anonymous POST of t
@@ -45,7 +47,7 @@ apis:
 - description: The Life's First Naturals storefront (a PanTheryx consumer brand; its UCP profile resolves to the Shopify shop handle pantheryxlfn.myshopify.com, which confirms PanTheryx ownership) exposes the same U
   name: Life's First Naturals Agentic Commerce (UCP / MCP)
   slug: lifes-first-naturals-agentic-commerce-ucp-mcp
-artifact_total: 9
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -68,62 +70,62 @@ common:
   type: TermsOfService
   url: https://pantheryx.com/terms-and-conditions/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pantheryx/refs/heads/main/well-known/pantheryx-well-known.yml
+  href: https://artifacts.apis.io/pantheryx/well-known/pantheryx-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pantheryx-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pantheryx/refs/heads/main/llms/pantheryx-llms.txt
+  href: https://artifacts.apis.io/pantheryx/llms/pantheryx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pantheryx-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pantheryx/refs/heads/main/mcp/pantheryx-relesium-mcp.yml
+  href: https://artifacts.apis.io/pantheryx/mcp/pantheryx-relesium-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/pantheryx-relesium-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pantheryx/refs/heads/main/conformance/pantheryx-conformance.yml
+  href: https://artifacts.apis.io/pantheryx/conformance/pantheryx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pantheryx-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pantheryx/refs/heads/main/authentication/pantheryx-authentication.yml
+  href: https://artifacts.apis.io/pantheryx/authentication/pantheryx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pantheryx-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pantheryx/refs/heads/main/conventions/pantheryx-conventions.yml
+  href: https://artifacts.apis.io/pantheryx/conventions/pantheryx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pantheryx-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pantheryx/refs/heads/main/lifecycle/pantheryx-lifecycle.yml
+  href: https://artifacts.apis.io/pantheryx/lifecycle/pantheryx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pantheryx-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pantheryx/refs/heads/main/rate-limits/pantheryx-rate-limits.yml
+  href: https://artifacts.apis.io/pantheryx/rate-limits/pantheryx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pantheryx-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pantheryx/refs/heads/main/plans/pantheryx-plans-pricing.yml
+  href: https://artifacts.apis.io/pantheryx/plans/pantheryx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pantheryx-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pantheryx/refs/heads/main/security/pantheryx-domain-security.yml
+  href: https://artifacts.apis.io/pantheryx/security/pantheryx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pantheryx-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pantheryx/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pantheryx/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pantheryx/refs/heads/main/scopes/pantheryx-scopes.yml
+  href: https://artifacts.apis.io/pantheryx/scopes/pantheryx-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pantheryx-scopes.yml
@@ -150,7 +152,7 @@ plans:
 - name: Pantheryx Plans Pricing
   plan_count: 0
   slug: pantheryx-plans-pricing
-random_paper: 5
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Pantheryx Rate Limits
@@ -162,7 +164,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: emerging
-  composite: 21.2
+  composite: 20.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -170,15 +172,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 20.8
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 21.1
+  previous_composite: 20.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -189,14 +191,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pantheryx/refs/heads/main/screenshots/pantheryx-2026-09-02T150905.png
+screenshot: https://apis.io/screenshots/pantheryx/pantheryx-2026-09-02T150905.png
 security:
 - kind: authentication
   name: Pantheryx Authentication
@@ -206,6 +208,10 @@ security:
   name: Pantheryx Domain Security
   slug: pantheryx-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: buy-a-relesium-product
+  slug: pantheryx-buy-a-relesium-product
 slug: pantheryx
 tags:
 - Company

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - baseURL: https://api.fhir.nhsd.healthdirect.org.au/v4
@@ -55,15 +57,15 @@ apis:
 - description: Embeddable, responsive NHSD search component that third parties can deploy on websites and mobile apps to let consumers find health services and practitioners, backed by the National Health Services D
   name: NHSD Search Widget
   slug: nhsd-widget
-artifact_total: 8
+artifact_total: 10
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/security/healthdirect-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/healthdirect/security/healthdirect-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/healthdirect-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/security/healthdirect-domain-security.yml
+  href: https://artifacts.apis.io/healthdirect/security/healthdirect-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/healthdirect-domain-security.yml
@@ -116,7 +118,7 @@ common:
   type: PrivacyPolicy
   url: https://about.healthdirect.gov.au/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/collections/nhsd-developers-portal.postman_collection.json
+  href: https://artifacts.apis.io/healthdirect/collections/nhsd-developers-portal.postman_collection.json
   title: ''
   type: PostmanCollection
   url: collections/nhsd-developers-portal.postman_collection.json
@@ -125,37 +127,37 @@ common:
   type: Security
   url: https://www.healthdirect.gov.au/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/well-known/healthdirect-security.txt
+  href: https://artifacts.apis.io/healthdirect/well-known/healthdirect-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/healthdirect-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/well-known/healthdirect-well-known.yml
+  href: https://artifacts.apis.io/healthdirect/well-known/healthdirect-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/healthdirect-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/authentication/healthdirect-authentication.yml
+  href: https://artifacts.apis.io/healthdirect/authentication/healthdirect-authentication.yml
   title: ''
   type: Authentication
   url: authentication/healthdirect-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/errors/healthdirect-problem-types.yml
+  href: https://artifacts.apis.io/healthdirect/errors/healthdirect-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/healthdirect-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/conventions/healthdirect-conventions.yml
+  href: https://artifacts.apis.io/healthdirect/conventions/healthdirect-conventions.yml
   title: ''
   type: Conventions
   url: conventions/healthdirect-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/lifecycle/healthdirect-lifecycle.yml
+  href: https://artifacts.apis.io/healthdirect/lifecycle/healthdirect-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/healthdirect-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/conformance/healthdirect-conformance.yml
+  href: https://artifacts.apis.io/healthdirect/conformance/healthdirect-conformance.yml
   title: ''
   type: Conformance
   url: conformance/healthdirect-conformance.yml
@@ -164,32 +166,32 @@ common:
   type: Compliance
   url: https://about.healthdirect.gov.au/what-we-do/portfolio/nhsd/integration-hub/standards
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/data-model/healthdirect-data-model.yml
+  href: https://artifacts.apis.io/healthdirect/data-model/healthdirect-data-model.yml
   title: ''
   type: DataModel
   url: data-model/healthdirect-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/sandbox/healthdirect-sandbox.yml
+  href: https://artifacts.apis.io/healthdirect/sandbox/healthdirect-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/healthdirect-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/components/healthdirect-components.yml
+  href: https://artifacts.apis.io/healthdirect/components/healthdirect-components.yml
   title: ''
   type: Components
   url: components/healthdirect-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/mcp/healthdirect-mcp.yml
+  href: https://artifacts.apis.io/healthdirect/mcp/healthdirect-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/healthdirect-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/llms/healthdirect-llms.txt
+  href: https://artifacts.apis.io/healthdirect/llms/healthdirect-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/healthdirect-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/healthdirect/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -206,10 +208,10 @@ overview: 'Healthdirect Australia is listed with 5 APIs on the [APIs.io](https:/
 
 
   Healthdirect Australia''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 11
+random_paper: 17
 score:
   band: thin
-  composite: 36.1
+  composite: 35.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 35.0
@@ -223,7 +225,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 70.4
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -232,7 +234,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 36.1
+  previous_composite: 35.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -243,14 +245,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/screenshots/healthdirect-2026-07-25T220837.png
+screenshot: https://apis.io/screenshots/healthdirect/healthdirect-2026-07-25T220837.png
 security:
 - kind: authentication
   name: Healthdirect Authentication
@@ -264,6 +266,12 @@ security:
   name: Healthdirect Vulnerability Disclosure
   slug: healthdirect-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 2
+skills:
+- name: Find health services near a location
+  slug: healthdirect-find-services-near-location
+- name: Look up a practitioner or organisation by identifier
+  slug: healthdirect-lookup-practitioner
 slug: healthdirect
 tags:
 - Healthcare

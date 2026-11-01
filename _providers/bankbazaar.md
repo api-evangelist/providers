@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -32,17 +34,17 @@ common:
   type: BlogRSS
   url: https://blog.bankbazaar.com/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bankbazaar/refs/heads/main/llms/bankbazaar-llms.txt
+  href: https://artifacts.apis.io/bankbazaar/llms/bankbazaar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bankbazaar-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bankbazaar/refs/heads/main/hosts/bankbazaar-hosts.yml
+  href: https://artifacts.apis.io/bankbazaar/hosts/bankbazaar-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bankbazaar-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bankbazaar/refs/heads/main/vendors/bankbazaar-vendors.yml
+  href: https://artifacts.apis.io/bankbazaar/vendors/bankbazaar-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bankbazaar-vendors.yml
@@ -59,7 +61,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/bankbazaar
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bankbazaar/refs/heads/main/security/bankbazaar-domain-security.yml
+  href: https://artifacts.apis.io/bankbazaar/security/bankbazaar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bankbazaar-domain-security.yml
@@ -87,10 +89,10 @@ overview: 'Bankbazaar is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Bankbazaar''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 3
+random_paper: 5
 score:
   band: minimal
-  composite: 7.2
+  composite: 6.5
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -104,7 +106,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -113,7 +115,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 7.2
+  previous_composite: 6.5
   provenance:
     mcp: unknown
   regulatory:
@@ -122,14 +124,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 8.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bankbazaar/refs/heads/main/screenshots/bankbazaar-2026-10-11T101527.png
+screenshot: https://apis.io/screenshots/bankbazaar/bankbazaar-2026-10-11T101527.png
 security:
 - kind: domain-security
   name: Bankbazaar Domain Security

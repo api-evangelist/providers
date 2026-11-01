@@ -25,22 +25,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.9
-  scored_at: '2026-10-17'
+  score: 45.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Cakewalk Open API is a REST API for building custom access-governance workflows and integrations. It exposes users, user groups, work apps, accesses, permission levels, requests, tasks, policies, '
   name: Cakewalk Open API
   slug: cakewalk-open-api
-artifact_total: 8
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Cakewalk Webhooks
@@ -75,77 +77,77 @@ common:
   type: GettingStarted
   url: https://www.cakewalk.security/docs/open-api-and-mcp/getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/authentication/cakewalk-authentication.yml
+  href: https://artifacts.apis.io/cakewalk/authentication/cakewalk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cakewalk-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/scopes/cakewalk-scopes.yml
+  href: https://artifacts.apis.io/cakewalk/scopes/cakewalk-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cakewalk-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/mcp/cakewalk-mcp.yml
+  href: https://artifacts.apis.io/cakewalk/mcp/cakewalk-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cakewalk-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/errors/cakewalk-problem-types.yml
+  href: https://artifacts.apis.io/cakewalk/errors/cakewalk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cakewalk-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/conventions/cakewalk-conventions.yml
+  href: https://artifacts.apis.io/cakewalk/conventions/cakewalk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cakewalk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/data-model/cakewalk-data-model.yml
+  href: https://artifacts.apis.io/cakewalk/data-model/cakewalk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cakewalk-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/lifecycle/cakewalk-lifecycle.yml
+  href: https://artifacts.apis.io/cakewalk/lifecycle/cakewalk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cakewalk-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/conformance/cakewalk-conformance.yml
+  href: https://artifacts.apis.io/cakewalk/conformance/cakewalk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cakewalk-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/security/cakewalk-trust-center.yml
+  href: https://artifacts.apis.io/cakewalk/security/cakewalk-trust-center.yml
   title: ''
   type: Compliance
   url: security/cakewalk-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/security/cakewalk-trust-center.yml
+  href: https://artifacts.apis.io/cakewalk/security/cakewalk-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cakewalk-trust-center.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/rate-limits/cakewalk-rate-limits.yml
+  href: https://artifacts.apis.io/cakewalk/rate-limits/cakewalk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cakewalk-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/asyncapi/cakewalk-webhooks.yml
+  href: https://artifacts.apis.io/cakewalk/asyncapi/cakewalk-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cakewalk-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cakewalk/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/llms/cakewalk-llms.txt
+  href: https://artifacts.apis.io/cakewalk/llms/cakewalk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cakewalk-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/security/cakewalk-domain-security.yml
+  href: https://artifacts.apis.io/cakewalk/security/cakewalk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cakewalk-domain-security.yml
@@ -196,7 +198,7 @@ overview: 'Cakewalk is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Cakewalk''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, signup flow, YouTube channel, and 22 more developer resources.'
-random_paper: 21
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Cakewalk Rate Limits
@@ -208,7 +210,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.5
+  composite: 44.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 45.0
@@ -216,15 +218,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 35.1
-    discoverability: 75.0
-    operational_transparency: 31.6
-  previous_composite: 41.4
+    developer_ergonomics: 54.2
+    discoverability: 65.0
+    operational_transparency: 34.2
+  previous_composite: 44.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -239,14 +241,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/screenshots/cakewalk-2026-07-25T204223.png
+screenshot: https://apis.io/screenshots/cakewalk/cakewalk-2026-07-25T204223.png
 security:
 - kind: authentication
   name: Cakewalk Authentication
@@ -260,6 +262,16 @@ security:
   name: Cakewalk Trust Center
   slug: cakewalk-trust-center
   summary_line: ISO 27001:2022
+skill_count: 4
+skills:
+- name: Audit which apps a user can access
+  slug: cakewalk-audit-user-access
+- name: Grant a user access to an app
+  slug: cakewalk-grant-access
+- name: Remove a user's access to an app
+  slug: cakewalk-remove-access
+- name: Review and approve or decline an access task
+  slug: cakewalk-review-and-approve-task
 slug: cakewalk
 tags:
 - Company

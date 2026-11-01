@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,10 +36,24 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
+- group: other
+  href: https://artifacts.apis.io/parallel-domain/hosts/parallel-domain-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/parallel-domain-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/parallel-domain/vendors/parallel-domain-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/parallel-domain-vendors.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.paralleldomain.com/
 - group: company
   title: ''
   type: Website
@@ -87,53 +103,64 @@ common:
   type: PrivacyPolicy
   url: https://paralleldomain.com/privacy-policy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/parallel-domain/refs/heads/main/packages/parallel-domain-packages.yml
+  href: https://artifacts.apis.io/parallel-domain/packages/parallel-domain-packages.yml
   title: ''
   type: Packages
   url: packages/parallel-domain-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/parallel-domain/refs/heads/main/packages/parallel-domain-packages.yml
+  href: https://artifacts.apis.io/parallel-domain/packages/parallel-domain-packages.yml
   title: ''
   type: SDKs
   url: packages/parallel-domain-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parallel-domain/refs/heads/main/authentication/parallel-domain-authentication.yml
+  href: https://artifacts.apis.io/parallel-domain/authentication/parallel-domain-authentication.yml
   title: ''
   type: Authentication
   url: authentication/parallel-domain-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parallel-domain/refs/heads/main/well-known/parallel-domain-well-known.yml
+  href: https://artifacts.apis.io/parallel-domain/well-known/parallel-domain-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/parallel-domain-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parallel-domain/refs/heads/main/security/parallel-domain-domain-security.yml
+  href: https://artifacts.apis.io/parallel-domain/security/parallel-domain-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parallel-domain-domain-security.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parallel-domain/refs/heads/main/llms/parallel-domain-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/parallel-domain-llms.txt
+coverage:
+  checked: '2026-10-20'
+  detail: Parallel Domain exposes its platform only through a Python SDK whose hosted docs (v1.0.4) remain live while the pd-sdk source repo now 404s, and no OpenAPI, GraphQL or MCP contract is served on paralleldomain.com, app.paralleldomain.com or status.paralleldomain.com.
+  evidence:
+  - status: 200
+    url: https://parallel-domain.github.io/pd-sdk/
+  - status: 404
+    url: https://github.com/parallel-domain/pd-sdk
+  - status: 404
+    url: https://paralleldomain.com/llms.txt
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-07-17'
 description: Parallel Domain is a synthetic-data and sensor-simulation platform for physical-AI and autonomy developers. It turns real-world drive and flight logs into photorealistic, simulation-ready digital replicas (PD Replica) and generates deterministic camera, lidar, and radar sensor data at scale (PD Sim), plus self-serve synthetic-data generation through its Data Lab service. The platform is driven through a first-party Python SDK (paralleldomain / pd-sdk) and an app console, integrating with existing autonomy stacks and CI/CD for training, testing, and regulatory validation of perception systems across automotive, trucking, drone, robotics, agriculture, and defense.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/parallel-domain.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-10-20'
 name: Parallel Domain
 nav: Providers
 network: true
 overview: 'Parallel Domain is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Synthetic Data, Simulation, and Autonomous Vehicles.
 
 
-  Parallel Domain''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 11 more developer resources.'
-random_paper: 4
+  Parallel Domain''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
+plans:
+- name: Parallel Domain Plans Pricing
+  plan_count: 0
+  slug: parallel-domain-plans-pricing
+random_paper: 10
 score:
-  band: emerging
-  composite: 26.0
+  band: thin
+  composite: 27.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 12
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -145,23 +172,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 26.0
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 27.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/parallel-domain/refs/heads/main/screenshots/parallel-domain-2026-08-07T191422.png
+screenshot: https://apis.io/screenshots/parallel-domain/parallel-domain-2026-08-07T191422.png
 security:
 - kind: authentication
   name: Parallel Domain Authentication

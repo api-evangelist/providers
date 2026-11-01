@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: The Cloudability v3 API is the modern REST interface for the platform. It exposes resource-oriented endpoints for reporting, dimensions and metrics, business mappings, anomalies, rightsizing recommend
@@ -60,7 +62,7 @@ apis:
 artifact_total: 16
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/security/cloudability-domain-security.yml
+  href: https://artifacts.apis.io/cloudability/security/cloudability-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudability-domain-security.yml
@@ -81,12 +83,12 @@ common:
   type: Training
   url: https://education.apptio.com/courses/ibm-cloudability-api
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/json-ld/cloudability-context.jsonld
+  href: https://artifacts.apis.io/cloudability/json-ld/cloudability-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cloudability-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/rules/cloudability-rules.yml
+  href: https://artifacts.apis.io/cloudability/rules/cloudability-rules.yml
   title: ''
   type: Spectral
   url: rules/cloudability-rules.yml
@@ -143,118 +145,118 @@ common:
   type: StatusPage
   url: https://status.cloudability.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/packages/cloudability-packages.yml
+  href: https://artifacts.apis.io/cloudability/packages/cloudability-packages.yml
   title: ''
   type: Packages
   url: packages/cloudability-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/packages/cloudability-packages.yml
+  href: https://artifacts.apis.io/cloudability/packages/cloudability-packages.yml
   title: ''
   type: SDKs
   url: packages/cloudability-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/well-known/cloudability-well-known.yml
+  href: https://artifacts.apis.io/cloudability/well-known/cloudability-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cloudability-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/well-known/cloudability-security.txt
+  href: https://artifacts.apis.io/cloudability/well-known/cloudability-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/cloudability-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/security/cloudability-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cloudability/security/cloudability-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/cloudability-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/security/cloudability-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cloudability/security/cloudability-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cloudability-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/security/cloudability-trust-center.yml
+  href: https://artifacts.apis.io/cloudability/security/cloudability-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cloudability-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/security/cloudability-trust-center.yml
+  href: https://artifacts.apis.io/cloudability/security/cloudability-trust-center.yml
   title: ''
   type: Compliance
   url: security/cloudability-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/conformance/cloudability-conformance.yml
+  href: https://artifacts.apis.io/cloudability/conformance/cloudability-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cloudability-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/authentication/cloudability-authentication.yml
+  href: https://artifacts.apis.io/cloudability/authentication/cloudability-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudability-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/conventions/cloudability-conventions.yml
+  href: https://artifacts.apis.io/cloudability/conventions/cloudability-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cloudability-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/errors/cloudability-problem-types.yml
+  href: https://artifacts.apis.io/cloudability/errors/cloudability-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cloudability-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/lifecycle/cloudability-lifecycle.yml
+  href: https://artifacts.apis.io/cloudability/lifecycle/cloudability-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cloudability-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/lifecycle/cloudability-lifecycle.yml
+  href: https://artifacts.apis.io/cloudability/lifecycle/cloudability-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/cloudability-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/changelog/cloudability-changelog.yml
+  href: https://artifacts.apis.io/cloudability/changelog/cloudability-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cloudability-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/plans/cloudability-plans-pricing.yml
+  href: https://artifacts.apis.io/cloudability/plans/cloudability-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloudability-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/rate-limits/cloudability-rate-limits.yml
+  href: https://artifacts.apis.io/cloudability/rate-limits/cloudability-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cloudability-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/finops/cloudability-finops.yml
+  href: https://artifacts.apis.io/cloudability/finops/cloudability-finops.yml
   title: ''
   type: FinOps
   url: finops/cloudability-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/llms/cloudability-llms.txt
+  href: https://artifacts.apis.io/cloudability/llms/cloudability-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cloudability-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/mcp/cloudability-mcp.yml
+  href: https://artifacts.apis.io/cloudability/mcp/cloudability-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cloudability-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/data-model/cloudability-data-model.yml
+  href: https://artifacts.apis.io/cloudability/data-model/cloudability-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cloudability-data-model.yml
 created: '2026-03-27'
 description: Cloudability (an IBM Apptio product) is a cloud cost management and FinOps platform providing cost visibility, optimization recommendations, anomaly detection, and governance across AWS, Azure, Google Cloud, and other multi-cloud environments. The Cloudability API v3 is REST-oriented with JSON responses, HTTP basic authentication using an API token, cursor-style limit/offset pagination, and operations for reporting, business mappings, rightsizing recommendations, anomalies, vendor credentials, and views.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Cloudability Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: cloudability-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudability.png
@@ -279,7 +281,7 @@ plans:
 - name: Cloudability Plans Pricing
   plan_count: 0
   slug: cloudability-plans-pricing
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Cloudability Rate Limits
@@ -299,7 +301,7 @@ rules:
   slug: cloudability-rules
 score:
   band: developing
-  composite: 47.0
+  composite: 47.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 49.5
@@ -307,15 +309,15 @@ score:
     catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 31.8
     contract_quality: 6.7
     developer_ergonomics: 69.0
     discoverability: 71.4
-    operational_transparency: 57.9
-  previous_composite: 52.8
+    operational_transparency: 60.5
+  previous_composite: 47.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -325,14 +327,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cloudability/refs/heads/main/screenshots/cloudability-2026-06-20T174542.png
+screenshot: https://apis.io/screenshots/cloudability/cloudability-2026-06-20T174542.png
 security:
 - kind: authentication
   name: Cloudability Authentication

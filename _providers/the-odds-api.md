@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: Available sports and their keys.
   name: The Odds API Sports API
   slug: the-odds-api-sports-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: The Odds Events API
   slug: open-the-odds-api-events-api
@@ -103,17 +102,17 @@ collections:
   slug: open-the-odds-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/agentic-access/the-odds-api-agentic-access.yml
+  href: https://artifacts.apis.io/the-odds-api/agentic-access/the-odds-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/the-odds-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/security/the-odds-api-domain-security.yml
+  href: https://artifacts.apis.io/the-odds-api/security/the-odds-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-odds-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/authentication/the-odds-api-authentication.yml
+  href: https://artifacts.apis.io/the-odds-api/authentication/the-odds-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-odds-api-authentication.yml
@@ -142,37 +141,37 @@ common:
   type: StatusPage
   url: https://status.the-odds-api.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/plans/the-odds-api-plans-pricing.yml
+  href: https://artifacts.apis.io/the-odds-api/plans/the-odds-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/the-odds-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/rate-limits/the-odds-api-rate-limits.yml
+  href: https://artifacts.apis.io/the-odds-api/rate-limits/the-odds-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/the-odds-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/finops/the-odds-api-finops.yml
+  href: https://artifacts.apis.io/the-odds-api/finops/the-odds-api-finops.yml
   title: ''
   type: FinOps
   url: finops/the-odds-api-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/rules/the-odds-api-rules.yml
+  href: https://artifacts.apis.io/the-odds-api/rules/the-odds-api-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/the-odds-api-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/json-schema/the-odds-api-event-schema.json
+  href: https://artifacts.apis.io/the-odds-api/json-schema/the-odds-api-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/the-odds-api-event-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/json-ld/the-odds-api-context.jsonld
+  href: https://artifacts.apis.io/the-odds-api/json-ld/the-odds-api-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/the-odds-api-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/vocabulary/the-odds-api-vocabulary.yml
+  href: https://artifacts.apis.io/the-odds-api/vocabulary/the-odds-api-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/the-odds-api-vocabulary.yml
@@ -186,7 +185,7 @@ finops:
 - has_sources: false
   method: generated
   name: The Odds Api Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: the-odds-api-finops
   template: true
@@ -220,7 +219,7 @@ plans:
 - name: The Odds Api Plans Pricing
   plan_count: 3
   slug: the-odds-api-plans-pricing
-random_paper: 7
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: The Odds Api Rate Limits
@@ -251,7 +250,7 @@ rules:
   slug: the-odds-api-rules
 score:
   band: thin
-  composite: 38.0
+  composite: 38.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 60.0
@@ -259,15 +258,15 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 27.3
     contract_quality: 54.4
     developer_ergonomics: 33.3
     discoverability: 66.1
-    operational_transparency: 26.3
-  previous_composite: 39.5
+    operational_transparency: 28.9
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -281,14 +280,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/screenshots/the-odds-api-2026-06-20T195231.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/the-odds-api/the-odds-api-2026-06-20T195231.png
 security:
 - kind: authentication
   name: The Odds Api Authentication

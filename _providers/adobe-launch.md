@@ -31,14 +31,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.9
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 0
@@ -826,7 +828,7 @@ arazzos:
 - description: Search across Tags resources by name for a property, then retrieve the matched property in full.
   name: Adobe Launch Search for a Property and Fetch It
   slug: adobe-launch-search-and-fetch-property-workflow
-artifact_total: 529
+artifact_total: 533
 asyncapis:
 - description: ''
   name: Adobe Launch Webhooks
@@ -844,9 +846,6 @@ collections:
 - collection_type: postman
   name: Adobe Launch Reactor API
   slug: postman-reactor-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Adobe Experience Platform Data Collection Builds API
   slug: open-adobe-launch-builds-api
@@ -922,27 +921,27 @@ common:
   type: Website
   url: https://www.adobe.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/capabilities/adobe-launch-capability-edges.yml
+  href: https://artifacts.apis.io/adobe-launch/capabilities/adobe-launch-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/adobe-launch-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/agentic-access/adobe-launch-agentic-access.yml
+  href: https://artifacts.apis.io/adobe-launch/agentic-access/adobe-launch-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adobe-launch-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/security/adobe-launch-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adobe-launch/security/adobe-launch-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adobe-launch-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/security/adobe-launch-domain-security.yml
+  href: https://artifacts.apis.io/adobe-launch/security/adobe-launch-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adobe-launch-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/authentication/adobe-launch-authentication.yml
+  href: https://artifacts.apis.io/adobe-launch/authentication/adobe-launch-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adobe-launch-authentication.yml
@@ -951,67 +950,67 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adobe-launch/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/arazzo/adobe-launch-add-rule-component-workflow.yml
+  href: https://artifacts.apis.io/adobe-launch/arazzo/adobe-launch-add-rule-component-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-launch-add-rule-component-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/arazzo/adobe-launch-audit-property-contents-workflow.yml
+  href: https://artifacts.apis.io/adobe-launch/arazzo/adobe-launch-audit-property-contents-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-launch-audit-property-contents-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/arazzo/adobe-launch-bootstrap-event-forwarding-workflow.yml
+  href: https://artifacts.apis.io/adobe-launch/arazzo/adobe-launch-bootstrap-event-forwarding-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-launch-bootstrap-event-forwarding-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/arazzo/adobe-launch-bootstrap-property-rule-workflow.yml
+  href: https://artifacts.apis.io/adobe-launch/arazzo/adobe-launch-bootstrap-property-rule-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-launch-bootstrap-property-rule-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/arazzo/adobe-launch-create-and-verify-data-element-workflow.yml
+  href: https://artifacts.apis.io/adobe-launch/arazzo/adobe-launch-create-and-verify-data-element-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-launch-create-and-verify-data-element-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/arazzo/adobe-launch-create-event-forwarding-secret-workflow.yml
+  href: https://artifacts.apis.io/adobe-launch/arazzo/adobe-launch-create-event-forwarding-secret-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-launch-create-event-forwarding-secret-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/arazzo/adobe-launch-install-extension-workflow.yml
+  href: https://artifacts.apis.io/adobe-launch/arazzo/adobe-launch-install-extension-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-launch-install-extension-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/arazzo/adobe-launch-library-build-and-poll-workflow.yml
+  href: https://artifacts.apis.io/adobe-launch/arazzo/adobe-launch-library-build-and-poll-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-launch-library-build-and-poll-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/arazzo/adobe-launch-provision-environment-workflow.yml
+  href: https://artifacts.apis.io/adobe-launch/arazzo/adobe-launch-provision-environment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-launch-provision-environment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/arazzo/adobe-launch-publish-library-workflow.yml
+  href: https://artifacts.apis.io/adobe-launch/arazzo/adobe-launch-publish-library-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-launch-publish-library-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/arazzo/adobe-launch-register-callback-workflow.yml
+  href: https://artifacts.apis.io/adobe-launch/arazzo/adobe-launch-register-callback-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-launch-register-callback-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/arazzo/adobe-launch-republish-latest-build-workflow.yml
+  href: https://artifacts.apis.io/adobe-launch/arazzo/adobe-launch-republish-latest-build-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-launch-republish-latest-build-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/arazzo/adobe-launch-search-and-fetch-property-workflow.yml
+  href: https://artifacts.apis.io/adobe-launch/arazzo/adobe-launch-search-and-fetch-property-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-launch-search-and-fetch-property-workflow.yml
@@ -1072,132 +1071,132 @@ common:
   type: SDKs
   url: https://www.npmjs.com/package/@adobe/reactor-sandbox
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/packages/adobe-launch-packages.yml
+  href: https://artifacts.apis.io/adobe-launch/packages/adobe-launch-packages.yml
   title: ''
   type: Packages
   url: packages/adobe-launch-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/packages/adobe-launch-packages.yml
+  href: https://artifacts.apis.io/adobe-launch/packages/adobe-launch-packages.yml
   title: ''
   type: SDKs
   url: packages/adobe-launch-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/well-known/adobe-launch-well-known.yml
+  href: https://artifacts.apis.io/adobe-launch/well-known/adobe-launch-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adobe-launch-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/well-known/adobe-launch-security.txt
+  href: https://artifacts.apis.io/adobe-launch/well-known/adobe-launch-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/adobe-launch-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/security/adobe-launch-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adobe-launch/security/adobe-launch-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/adobe-launch-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/security/adobe-launch-trust-center.yml
+  href: https://artifacts.apis.io/adobe-launch/security/adobe-launch-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/adobe-launch-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/security/adobe-launch-trust-center.yml
+  href: https://artifacts.apis.io/adobe-launch/security/adobe-launch-trust-center.yml
   title: ''
   type: Compliance
   url: security/adobe-launch-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/conformance/adobe-launch-conformance.yml
+  href: https://artifacts.apis.io/adobe-launch/conformance/adobe-launch-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adobe-launch-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/llms/adobe-launch-llms.txt
+  href: https://artifacts.apis.io/adobe-launch/llms/adobe-launch-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adobe-launch-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/overlays/adobe-launch-reactor-api-overlay.yaml
+  href: https://artifacts.apis.io/adobe-launch/overlays/adobe-launch-reactor-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/adobe-launch-reactor-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/overlays/adobe-launch-edge-network-overlay.yaml
+  href: https://artifacts.apis.io/adobe-launch/overlays/adobe-launch-edge-network-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/adobe-launch-edge-network-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/overlays/adobe-launch-media-edge-overlay.yaml
+  href: https://artifacts.apis.io/adobe-launch/overlays/adobe-launch-media-edge-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/adobe-launch-media-edge-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/errors/adobe-launch-problem-types.yml
+  href: https://artifacts.apis.io/adobe-launch/errors/adobe-launch-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adobe-launch-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/lifecycle/adobe-launch-lifecycle.yml
+  href: https://artifacts.apis.io/adobe-launch/lifecycle/adobe-launch-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adobe-launch-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/scopes/adobe-launch-scopes.yml
+  href: https://artifacts.apis.io/adobe-launch/scopes/adobe-launch-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/adobe-launch-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/conventions/adobe-launch-conventions.yml
+  href: https://artifacts.apis.io/adobe-launch/conventions/adobe-launch-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adobe-launch-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/asyncapi/adobe-launch-webhooks.yml
+  href: https://artifacts.apis.io/adobe-launch/asyncapi/adobe-launch-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/adobe-launch-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/data-model/adobe-launch-data-model.yml
+  href: https://artifacts.apis.io/adobe-launch/data-model/adobe-launch-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adobe-launch-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/changelog/adobe-launch-changelog.yml
+  href: https://artifacts.apis.io/adobe-launch/changelog/adobe-launch-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/adobe-launch-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/cli/adobe-launch-cli.yml
+  href: https://artifacts.apis.io/adobe-launch/cli/adobe-launch-cli.yml
   title: ''
   type: CLI
   url: cli/adobe-launch-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/components/adobe-launch-components.yml
+  href: https://artifacts.apis.io/adobe-launch/components/adobe-launch-components.yml
   title: ''
   type: Components
   url: components/adobe-launch-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/sandbox/adobe-launch-sandbox.yml
+  href: https://artifacts.apis.io/adobe-launch/sandbox/adobe-launch-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/adobe-launch-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/plans/adobe-launch-plans-pricing.yml
+  href: https://artifacts.apis.io/adobe-launch/plans/adobe-launch-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adobe-launch-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/rate-limits/adobe-launch-rate-limits.yml
+  href: https://artifacts.apis.io/adobe-launch/rate-limits/adobe-launch-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adobe-launch-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/finops/adobe-launch-finops.yml
+  href: https://artifacts.apis.io/adobe-launch/finops/adobe-launch-finops.yml
   title: ''
   type: FinOps
   url: finops/adobe-launch-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/adobe-launch/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -1640,12 +1639,12 @@ features:
 - Media tracking and analytics integration
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Adobe Launch Finops
   primary_unit: ''
-  service_category: Tag Management
+  service_category: ''
   slug: adobe-launch-finops
-  template: false
+  template: true
 image: /assets/icons/adobe-launch.png
 integrations:
 - Adobe Analytics
@@ -2524,7 +2523,7 @@ plans:
 - name: Adobe Launch Plans Pricing
   plan_count: 1
   slug: adobe-launch-plans-pricing
-random_paper: 21
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Adobe Launch Rate Limits
@@ -2560,7 +2559,7 @@ scopes:
   summary_line: 5 scopes · client_credentials
 score:
   band: exemplar
-  composite: 73.9
+  composite: 75.2
   coverage:
     artifact_dirs: 38
     catalog_earned: 84.5
@@ -2568,15 +2567,20 @@ score:
     catalog_gap: 30.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 70.7
     developer_ergonomics: 91.1
-    discoverability: 78.6
-    operational_transparency: 76.3
-  previous_composite: 75.4
+    discoverability: 71.4
+    operational_transparency: 86.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 75.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2593,13 +2597,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/screenshots/adobe-launch-2026-06-20T164946.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/adobe-launch/adobe-launch-2026-06-20T164946.png
 security:
 - kind: authentication
   name: Adobe Launch Authentication
@@ -2617,6 +2622,18 @@ security:
   name: Adobe Launch Trust Center
   slug: adobe-launch-trust-center
   summary_line: SOC 2 Type 2, ISO/IEC 27001, ISO/IEC 27002, FedRAMP, PCI DSS, HIPAA, BSI C5
+skill_count: 5
+skills:
+- name: adobe-launch-bootstrap-property
+  slug: adobe-launch-bootstrap-property
+- name: adobe-launch-install-extension
+  slug: adobe-launch-install-extension
+- name: adobe-launch-provision-environment
+  slug: adobe-launch-provision-environment
+- name: adobe-launch-publish-library
+  slug: adobe-launch-publish-library
+- name: adobe-launch-register-callback
+  slug: adobe-launch-register-callback
 slug: adobe-launch
 tags:
 - Data Collection

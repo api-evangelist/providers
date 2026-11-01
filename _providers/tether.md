@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 31.2
-  scored_at: '2026-10-17'
+  score: 32.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://wdk-api.tether.io
@@ -64,11 +66,8 @@ apis:
   description: Query token transfer history for addresses
   name: Tether Token Transfers API
   slug: tether-token-transfers-api
-artifact_total: 16
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WDK Indexer API Keys API
   slug: open-tether-api-keys-api
@@ -138,112 +137,112 @@ common:
   type: Security
   url: https://tether.io/bug-bounty/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/openapi/_original/tether-wdk-indexer-openapi-original.yml
+  href: https://artifacts.apis.io/tether/openapi/_original/tether-wdk-indexer-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/tether-wdk-indexer-openapi-original.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/overlays/tether-wdk-indexer-overlay.yaml
+  href: https://artifacts.apis.io/tether/overlays/tether-wdk-indexer-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tether-wdk-indexer-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/llms/tether-llms.txt
+  href: https://artifacts.apis.io/tether/llms/tether-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tether-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/packages/tether-packages.yml
+  href: https://artifacts.apis.io/tether/packages/tether-packages.yml
   title: ''
   type: Packages
   url: packages/tether-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/packages/tether-packages.yml
+  href: https://artifacts.apis.io/tether/packages/tether-packages.yml
   title: ''
   type: SDKs
   url: packages/tether-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/cli/tether-cli.yml
+  href: https://artifacts.apis.io/tether/cli/tether-cli.yml
   title: ''
   type: CLI
   url: cli/tether-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/components/tether-components.yml
+  href: https://artifacts.apis.io/tether/components/tether-components.yml
   title: ''
   type: Components
   url: components/tether-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/mcp/tether-mcp.yml
+  href: https://artifacts.apis.io/tether/mcp/tether-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/tether-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/mcp/tether-tool-crosswalk.yml
+  href: https://artifacts.apis.io/tether/mcp/tether-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/tether-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tether/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/authentication/tether-authentication.yml
+  href: https://artifacts.apis.io/tether/authentication/tether-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tether-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/conventions/tether-conventions.yml
+  href: https://artifacts.apis.io/tether/conventions/tether-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tether-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/rate-limits/tether-rate-limits.yml
+  href: https://artifacts.apis.io/tether/rate-limits/tether-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tether-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/errors/tether-problem-types.yml
+  href: https://artifacts.apis.io/tether/errors/tether-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/tether-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/data-model/tether-data-model.yml
+  href: https://artifacts.apis.io/tether/data-model/tether-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tether-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/lifecycle/tether-lifecycle.yml
+  href: https://artifacts.apis.io/tether/lifecycle/tether-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tether-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/changelog/tether-changelog.yml
+  href: https://artifacts.apis.io/tether/changelog/tether-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tether-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/conformance/tether-conformance.yml
+  href: https://artifacts.apis.io/tether/conformance/tether-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tether-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/sandbox/tether-sandbox.yml
+  href: https://artifacts.apis.io/tether/sandbox/tether-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tether-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/well-known/tether-well-known.yml
+  href: https://artifacts.apis.io/tether/well-known/tether-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/tether-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/security/tether-domain-security.yml
+  href: https://artifacts.apis.io/tether/security/tether-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tether-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/security/tether-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tether/security/tether-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tether-vulnerability-disclosure.yml
@@ -263,30 +262,30 @@ overview: 'Tether publishes 5 API contracts indexed on the [APIs.io](https://api
 
 
   Tether''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 28 more developer resources.'
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 6
   name: Tether Rate Limits
   slug: tether-rate-limits
 score:
   band: developing
-  composite: 50.5
+  composite: 50.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 41.6
     developer_ergonomics: 85.7
-    discoverability: 71.7
-    operational_transparency: 60.5
-  previous_composite: 50.4
+    discoverability: 65.0
+    operational_transparency: 63.2
+  previous_composite: 50.9
   provenance:
     conformance: derived
     contracts:
@@ -302,13 +301,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/screenshots/tether-2026-08-17T082328.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tether/tether-2026-08-17T082328.png
 security:
 - kind: authentication
   name: Tether Authentication
@@ -322,6 +322,14 @@ security:
   name: Tether Vulnerability Disclosure
   slug: tether-vulnerability-disclosure
   summary_line: Hackerone · security.txt
+skill_count: 3
+skills:
+- name: tether-indexer-api-keys
+  slug: tether-indexer-api-keys
+- name: tether-indexer-balances-and-history
+  slug: tether-indexer-balances-and-history
+- name: wdk
+  slug: tether-wdk-SKILL
 slug: tether
 tags:
 - Company

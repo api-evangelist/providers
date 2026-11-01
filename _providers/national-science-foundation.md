@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +55,8 @@ apis:
   description: The Awards.{format} API from National Science Foundation — 1 operation(s) for awards.{format}.
   name: National Science Foundation Awards.{format} API
   slug: national-science-foundation-awards-format-api
-artifact_total: 11
+artifact_total: 10
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: National Science Foundation Awards API
   slug: open-national-science-foundation-awards-api
@@ -69,32 +68,32 @@ collections:
   slug: open-national-science-foundation
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/plans/national-science-foundation-plans-pricing.yml
+  href: https://artifacts.apis.io/national-science-foundation/plans/national-science-foundation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/national-science-foundation-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/rate-limits/national-science-foundation-rate-limits.yml
+  href: https://artifacts.apis.io/national-science-foundation/rate-limits/national-science-foundation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/national-science-foundation-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/finops/national-science-foundation-finops.yml
+  href: https://artifacts.apis.io/national-science-foundation/finops/national-science-foundation-finops.yml
   title: ''
   type: FinOps
   url: finops/national-science-foundation-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/capabilities/national-science-foundation-capability-edges.yml
+  href: https://artifacts.apis.io/national-science-foundation/capabilities/national-science-foundation-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/national-science-foundation-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/agentic-access/national-science-foundation-agentic-access.yml
+  href: https://artifacts.apis.io/national-science-foundation/agentic-access/national-science-foundation-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/national-science-foundation-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/security/national-science-foundation-domain-security.yml
+  href: https://artifacts.apis.io/national-science-foundation/security/national-science-foundation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/national-science-foundation-domain-security.yml
@@ -124,7 +123,7 @@ finops:
 - has_sources: false
   method: generated
   name: National Science Foundation Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: national-science-foundation-finops
   template: true
@@ -142,14 +141,14 @@ plans:
 - name: National Science Foundation Plans Pricing
   plan_count: 3
   slug: national-science-foundation-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: National Science Foundation Rate Limits
   slug: national-science-foundation-rate-limits
 score:
   band: emerging
-  composite: 23.7
+  composite: 24.0
   coverage:
     artifact_dirs: 12
     catalog_earned: 38.0
@@ -157,20 +156,20 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 41.6
     developer_ergonomics: 28.6
     discoverability: 57.1
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 22.1
+  previous_composite: 24.0
   provenance:
     agentic_access: derived
     contracts:
@@ -184,14 +183,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/screenshots/national-science-foundation-2026-06-20T190040.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/national-science-foundation/national-science-foundation-2026-06-20T190040.png
 security:
 - kind: domain-security
   name: National Science Foundation Domain Security

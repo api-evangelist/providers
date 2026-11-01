@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ascend3dbe/refs/heads/main/hosts/ascend3dbe-hosts.yml
+  href: https://artifacts.apis.io/ascend3dbe/hosts/ascend3dbe-hosts.yml
   title: ''
   type: Hosts
   url: hosts/ascend3dbe-hosts.yml
@@ -41,7 +43,7 @@ common:
   type: Blog
   url: https://ascend3d.com/index.php/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ascend3dbe/refs/heads/main/security/ascend3dbe-domain-security.yml
+  href: https://artifacts.apis.io/ascend3dbe/security/ascend3dbe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ascend3dbe-domain-security.yml
@@ -68,7 +70,7 @@ overview: 'Ascend3dbe is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ascend3dbe''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 4
+random_paper: 12
 score:
   band: minimal
   composite: 3.7
@@ -94,14 +96,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ascend3dbe/refs/heads/main/screenshots/ascend3dbe-2026-10-11T100506.png
+screenshot: https://apis.io/screenshots/ascend3dbe/ascend3dbe-2026-10-11T100506.png
 security:
 - kind: domain-security
   name: Ascend3Dbe Domain Security

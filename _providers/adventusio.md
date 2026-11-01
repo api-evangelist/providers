@@ -14,22 +14,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-10-17'
+  score: 22.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The GraphQL API behind the Adventus.io recruiter and student applications. Exposes 47 queries and 30 mutations across students, student documents, academic achievements, notes, activities, messaging t
   name: Adventus.io GraphQL API
   slug: adventusio-graphql
-artifact_total: 6
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -84,42 +86,42 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/adventusio
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adventusio/refs/heads/main/plans/adventusio-plans-pricing.yml
+  href: https://artifacts.apis.io/adventusio/plans/adventusio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adventusio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adventusio/refs/heads/main/rate-limits/adventusio-rate-limits.yml
+  href: https://artifacts.apis.io/adventusio/rate-limits/adventusio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adventusio-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adventusio/refs/heads/main/lifecycle/adventusio-lifecycle.yml
+  href: https://artifacts.apis.io/adventusio/lifecycle/adventusio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adventusio-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adventusio/refs/heads/main/conformance/adventusio-conformance.yml
+  href: https://artifacts.apis.io/adventusio/conformance/adventusio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adventusio-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adventusio/refs/heads/main/packages/adventusio-packages.yml
+  href: https://artifacts.apis.io/adventusio/packages/adventusio-packages.yml
   title: ''
   type: Packages
   url: packages/adventusio-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adventusio/refs/heads/main/security/adventusio-domain-security.yml
+  href: https://artifacts.apis.io/adventusio/security/adventusio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adventusio-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adventusio/refs/heads/main/llms/adventusio-llms.txt
+  href: https://artifacts.apis.io/adventusio/llms/adventusio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adventusio-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adventusio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/adventusio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -143,14 +145,14 @@ plans:
 - name: Adventusio Plans Pricing
   plan_count: 2
   slug: adventusio-plans-pricing
-random_paper: 12
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Adventusio Rate Limits
   slug: adventusio-rate-limits
 score:
   band: thin
-  composite: 28.1
+  composite: 38.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 45.0
@@ -160,13 +162,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 35.1
-    developer_ergonomics: 16.1
-    discoverability: 73.2
+    developer_ergonomics: 20.8
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 28.1
+  previous_composite: 38.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -176,15 +178,15 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/adventusio/refs/heads/main/screenshots/adventusio-2026-10-11T092904.png
+screenshot: https://apis.io/screenshots/adventusio/adventusio-2026-10-11T092904.png
 security:
 - kind: authentication
   name: Adventusio Authentication
@@ -194,6 +196,18 @@ security:
   name: Adventusio Domain Security
   slug: adventusio-domain-security
   summary_line: TLSv1.2 · DMARC
+skill_count: 5
+skills:
+- name: adventusio-authenticate
+  slug: adventusio-authenticate
+- name: adventusio-handle-documents
+  slug: adventusio-handle-documents
+- name: adventusio-intake-scheduling
+  slug: adventusio-intake-scheduling
+- name: adventusio-manage-students
+  slug: adventusio-manage-students
+- name: adventusio-track-applications
+  slug: adventusio-track-applications
 slug: adventusio
 tags:
 - Company

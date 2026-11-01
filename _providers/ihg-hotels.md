@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,42 +38,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ihg-hotels/refs/heads/main/security/ihg-hotels-domain-security.yml
+  href: https://artifacts.apis.io/ihg-hotels/security/ihg-hotels-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ihg-hotels-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ihg-hotels/refs/heads/main/well-known/ihg-hotels-well-known.yml
+  href: https://artifacts.apis.io/ihg-hotels/well-known/ihg-hotels-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/ihg-hotels-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ihg-hotels/refs/heads/main/conformance/ihg-hotels-conformance.yml
+  href: https://artifacts.apis.io/ihg-hotels/conformance/ihg-hotels-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ihg-hotels-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ihg-hotels/refs/heads/main/lifecycle/ihg-hotels-lifecycle.yml
+  href: https://artifacts.apis.io/ihg-hotels/lifecycle/ihg-hotels-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ihg-hotels-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ihg-hotels/refs/heads/main/packages/ihg-hotels-packages.yml
+  href: https://artifacts.apis.io/ihg-hotels/packages/ihg-hotels-packages.yml
   title: ''
   type: Packages
   url: packages/ihg-hotels-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ihg-hotels/refs/heads/main/mcp/ihg-hotels-mcp.yml
+  href: https://artifacts.apis.io/ihg-hotels/mcp/ihg-hotels-mcp.yml
   title: ''
   type: MCPAssessment
   url: mcp/ihg-hotels-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ihg-hotels/refs/heads/main/llms/ihg-hotels-llms.txt
+  href: https://artifacts.apis.io/ihg-hotels/llms/ihg-hotels-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ihg-hotels-llms.txt
@@ -174,7 +176,7 @@ overview: 'IHG Hotels & Resorts is profiled on the [APIs.io](https://apis.io/) n
 
 
   IHG Hotels & Resorts'' developer surface includes signup flow, support, and 26 more developer resources.'
-random_paper: 0
+random_paper: 4
 score:
   band: emerging
   composite: 13.3
@@ -211,14 +213,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ihg-hotels/refs/heads/main/screenshots/ihg-hotels-2026-08-07T170619.png
+screenshot: https://apis.io/screenshots/ihg-hotels/ihg-hotels-2026-08-07T170619.png
 security:
 - kind: domain-security
   name: Ihg Hotels Domain Security

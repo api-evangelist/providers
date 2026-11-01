@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.7
-  scored_at: '2026-10-17'
+  score: 15.0
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The MCP server the BoltMCP Helm chart deploys into the customer's own Kubernetes cluster. Customers define their own servers and tools through the BoltMCP dashboard, so the tool surface is tenant-defi
@@ -32,10 +34,10 @@ apis:
 - description: The internal REST API service (boltmcp-rest-api, container port 3003) that backs the BoltMCP dashboard and the deployed MCP servers. It is deliberately NOT given a public ingress hostname by the chart
   name: BoltMCP REST API
   slug: boltmcp-rest-api
-artifact_total: 8
+artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/security/boltmcp-domain-security.yml
+  href: https://artifacts.apis.io/boltmcp/security/boltmcp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/boltmcp-domain-security.yml
@@ -68,67 +70,67 @@ common:
   type: Twitter
   url: https://x.com/boltmcp
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/packages/boltmcp-packages.yml
+  href: https://artifacts.apis.io/boltmcp/packages/boltmcp-packages.yml
   title: ''
   type: Packages
   url: packages/boltmcp-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/llms/boltmcp-llms.txt
+  href: https://artifacts.apis.io/boltmcp/llms/boltmcp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/boltmcp-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/boltmcp/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/authentication/boltmcp-authentication.yml
+  href: https://artifacts.apis.io/boltmcp/authentication/boltmcp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/boltmcp-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/scopes/boltmcp-scopes.yml
+  href: https://artifacts.apis.io/boltmcp/scopes/boltmcp-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/boltmcp-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/conventions/boltmcp-conventions.yml
+  href: https://artifacts.apis.io/boltmcp/conventions/boltmcp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/boltmcp-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/errors/boltmcp-problem-types.yml
+  href: https://artifacts.apis.io/boltmcp/errors/boltmcp-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/boltmcp-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/lifecycle/boltmcp-lifecycle.yml
+  href: https://artifacts.apis.io/boltmcp/lifecycle/boltmcp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/boltmcp-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/changelog/boltmcp-changelog.yml
+  href: https://artifacts.apis.io/boltmcp/changelog/boltmcp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/boltmcp-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/conformance/boltmcp-conformance.yml
+  href: https://artifacts.apis.io/boltmcp/conformance/boltmcp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/boltmcp-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/sandbox/boltmcp-sandbox.yml
+  href: https://artifacts.apis.io/boltmcp/sandbox/boltmcp-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/boltmcp-sandbox.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/plans/boltmcp-plans-pricing.yml
+  href: https://artifacts.apis.io/boltmcp/plans/boltmcp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/boltmcp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/rate-limits/boltmcp-rate-limits.yml
+  href: https://artifacts.apis.io/boltmcp/rate-limits/boltmcp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/boltmcp-rate-limits.yml
@@ -152,7 +154,7 @@ plans:
 - name: Boltmcp Plans Pricing
   plan_count: 0
   slug: boltmcp-plans-pricing
-random_paper: 5
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Boltmcp Rate Limits
@@ -166,21 +168,21 @@ score:
   band: emerging
   composite: 22.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 68.3
-    operational_transparency: 18.4
-  previous_composite: 22.7
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 22.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -191,14 +193,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/boltmcp/refs/heads/main/screenshots/boltmcp-2026-10-11T102524.png
+screenshot: https://apis.io/screenshots/boltmcp/boltmcp-2026-10-11T102524.png
 security:
 - kind: authentication
   name: Boltmcp Authentication
@@ -208,6 +210,10 @@ security:
   name: Boltmcp Domain Security
   slug: boltmcp-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 1
+skills:
+- name: install-boltmcp
+  slug: boltmcp-install-boltmcp
 slug: boltmcp
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The FRVR games SDK — one JavaScript SDK (plus Unity, Cocos Creator, and Construct 3 wrappers) that integrates ads, IAP, analytics, auth, storage, social, leaderboards, tournaments, and notifications i
@@ -94,42 +96,42 @@ common:
   type: PrivacyPolicy
   url: https://frvr.com/legal#PrivacyPolicy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/llms/frvr-llms.txt
+  href: https://artifacts.apis.io/frvr/llms/frvr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/frvr-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/packages/frvr-packages.yml
+  href: https://artifacts.apis.io/frvr/packages/frvr-packages.yml
   title: ''
   type: Packages
   url: packages/frvr-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/packages/frvr-packages.yml
+  href: https://artifacts.apis.io/frvr/packages/frvr-packages.yml
   title: ''
   type: SDKs
   url: packages/frvr-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/sandbox/frvr-sandbox.yml
+  href: https://artifacts.apis.io/frvr/sandbox/frvr-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/frvr-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/authentication/frvr-authentication.yml
+  href: https://artifacts.apis.io/frvr/authentication/frvr-authentication.yml
   title: ''
   type: Authentication
   url: authentication/frvr-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/conventions/frvr-conventions.yml
+  href: https://artifacts.apis.io/frvr/conventions/frvr-conventions.yml
   title: ''
   type: Conventions
   url: conventions/frvr-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/conformance/frvr-conformance.yml
+  href: https://artifacts.apis.io/frvr/conformance/frvr-conformance.yml
   title: ''
   type: Conformance
   url: conformance/frvr-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/security/frvr-domain-security.yml
+  href: https://artifacts.apis.io/frvr/security/frvr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/frvr-domain-security.yml
@@ -145,12 +147,12 @@ overview: 'FRVR is listed with 1 API on the [APIs.io](https://apis.io/) network.
 
 
   FRVR''s developer surface includes engineering blog, documentation, getting-started guide, API reference, support, signup flow, sandbox, and 14 more developer resources.'
-random_paper: 8
+random_paper: 16
 score:
   band: thin
-  composite: 28.8
+  composite: 30.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -161,10 +163,10 @@ score:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 61.9
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 28.8
+    developer_ergonomics: 71.4
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 30.4
   provenance:
     conformance: derived
   regulatory:
@@ -173,14 +175,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/frvr/refs/heads/main/screenshots/frvr-2026-07-25T215241.png
+screenshot: https://apis.io/screenshots/frvr/frvr-2026-07-25T215241.png
 security:
 - kind: authentication
   name: Frvr Authentication

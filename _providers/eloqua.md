@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.1
-  scored_at: '2026-10-17'
+  score: 34.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 329
   human_in_the_loop: 5
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 760
   slug: eloqua-agentic-access
   summary_line: 760 operations · 329 acting · 5 human-in-the-loop
-api_count: 4
+api_count: 3
 apis:
 - baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
   baseurl_source: declared
@@ -834,11 +836,8 @@ apis:
   description: The operations from the Reporting/OpportunityAnalysis/1.0/OpportunityRevenue category.
   name: Oracle Eloqua Reporting/Opportunity Analysis/1.0/Opportunity Revenue API
   slug: eloqua-reporting-opportunityanalysis-1-0-opportunityrevenue-api
-artifact_total: 195
+artifact_total: 197
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Oracle Eloqua Bulk Account Exports API
   slug: open-eloqua-account-exports-api
@@ -912,13 +911,17 @@ collections:
   name: Oracle Eloqua Bulk Account Exports Users API
   slug: open-eloqua-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/oracle-eloqua/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/finops/eloqua-finops.yml
+  href: https://artifacts.apis.io/eloqua/finops/eloqua-finops.yml
   title: ''
   type: FinOps
   url: finops/eloqua-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/capabilities/eloqua-capability-edges.yml
+  href: https://artifacts.apis.io/eloqua/capabilities/eloqua-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/eloqua-capability-edges.yml
@@ -943,22 +946,22 @@ common:
   type: SignUp
   url: https://login.eloqua.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/agentic-access/eloqua-agentic-access.yml
+  href: https://artifacts.apis.io/eloqua/agentic-access/eloqua-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eloqua-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/security/eloqua-domain-security.yml
+  href: https://artifacts.apis.io/eloqua/security/eloqua-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eloqua-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/authentication/eloqua-authentication.yml
+  href: https://artifacts.apis.io/eloqua/authentication/eloqua-authentication.yml
   title: ''
   type: Authentication
   url: authentication/eloqua-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/scopes/eloqua-scopes.yml
+  href: https://artifacts.apis.io/eloqua/scopes/eloqua-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/eloqua-scopes.yml
@@ -995,32 +998,32 @@ common:
   type: DeveloperPortal
   url: https://docs.oracle.com/en/cloud/saas/marketing/eloqua-develop/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/packages/eloqua-packages.yml
+  href: https://artifacts.apis.io/eloqua/packages/eloqua-packages.yml
   title: ''
   type: Packages
   url: packages/eloqua-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/llms/eloqua-llms.txt
+  href: https://artifacts.apis.io/eloqua/llms/eloqua-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eloqua-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/overlays/eloqua-published-swagger-overlay.yaml
+  href: https://artifacts.apis.io/eloqua/overlays/eloqua-published-swagger-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eloqua-published-swagger-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/conformance/eloqua-conformance.yml
+  href: https://artifacts.apis.io/eloqua/conformance/eloqua-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eloqua-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/errors/eloqua-problem-types.yml
+  href: https://artifacts.apis.io/eloqua/errors/eloqua-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/eloqua-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/lifecycle/eloqua-lifecycle.yml
+  href: https://artifacts.apis.io/eloqua/lifecycle/eloqua-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eloqua-lifecycle.yml
@@ -1029,43 +1032,43 @@ common:
   type: StatusPage
   url: https://community.oracle.com/customerconnect/categories/cx-eloqua-system-status/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/conventions/eloqua-conventions.yml
+  href: https://artifacts.apis.io/eloqua/conventions/eloqua-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eloqua-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/changelog/eloqua-changelog.yml
+  href: https://artifacts.apis.io/eloqua/changelog/eloqua-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/eloqua-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/data-model/eloqua-data-model.yml
+  href: https://artifacts.apis.io/eloqua/data-model/eloqua-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eloqua-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/eloqua/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/plans/eloqua-plans-pricing.yml
+  href: https://artifacts.apis.io/eloqua/plans/eloqua-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/eloqua-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/rate-limits/eloqua-rate-limits.yml
+  href: https://artifacts.apis.io/eloqua/rate-limits/eloqua-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/eloqua-rate-limits.yml
 created: '2025-01-01'
 description: Oracle Eloqua is a marketing automation platform that provides tools for lead management, email marketing, and marketing campaign management through comprehensive REST APIs. It enables marketing teams to create, execute, and measure the effectiveness of marketing programs and campaigns.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Eloqua Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: eloqua-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eloqua.png
@@ -1095,12 +1098,12 @@ overview: 'Oracle Eloqua publishes 158 API contracts indexed on the [APIs.io](ht
   The Oracle Eloqua catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Eloqua''s developer surface includes documentation, signup flow, authentication, getting-started guide, support, API reference, changelog, and 25 more developer resources.'
+  Oracle Eloqua''s developer surface includes documentation, signup flow, authentication, getting-started guide, support, API reference, changelog, and 26 more developer resources.'
 plans:
 - name: Eloqua Plans Pricing
   plan_count: 0
   slug: eloqua-plans-pricing
-random_paper: 9
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Eloqua Rate Limits
@@ -1124,7 +1127,7 @@ scopes:
   summary_line: 1 scope · authorizationCode/implicit/password
 score:
   band: developing
-  composite: 49.6
+  composite: 51.0
   coverage:
     artifact_dirs: 28
     catalog_earned: 63.3
@@ -1132,15 +1135,15 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.2
   facets:
     access_clarity: 34.2
     contract_governance: 14.4
-    contract_quality: 48.5
-    developer_ergonomics: 56.5
+    contract_quality: 45.1
+    developer_ergonomics: 57.7
     discoverability: 78.6
-    operational_transparency: 57.9
-  previous_composite: 51.1
+    operational_transparency: 68.4
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1157,13 +1160,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/screenshots/eloqua-2026-06-20T180617.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/eloqua/eloqua-2026-06-20T180617.png
 security:
 - kind: authentication
   name: Eloqua Authentication
@@ -1173,6 +1177,14 @@ security:
   name: Eloqua Domain Security
   slug: eloqua-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: eloqua-bulk-contact-export
+  slug: eloqua-bulk-contact-export
+- name: eloqua-bulk-contact-import
+  slug: eloqua-bulk-contact-import
+- name: eloqua-campaign-and-email-authoring
+  slug: eloqua-campaign-and-email-authoring
 slug: eloqua
 tags:
 - CRM

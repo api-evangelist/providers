@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 26
   slug: 123formbuilder-agentic-access
   summary_line: 26 operations · 17 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.123formbuilder.com/v2
   baseurl_source: declared
@@ -89,14 +91,11 @@ arazzos:
 - description: List a form's submissions and, when any exist, fetch the full detail of the first one.
   name: 123FormBuilder Review a Form Submission
   slug: 123formbuilder-review-submission-workflow
-artifact_total: 96
+artifact_total: 95
 collections:
 - collection_type: postman
   name: 123FormBuilder REST API v2
   slug: postman-123formbuilder-rest-api-v2
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 123FormBuilder REST API v2 Accounts API
   slug: open-123formbuilder-accounts-api
@@ -117,12 +116,12 @@ collections:
   slug: open-123formbuilder-users-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/rate-limits/123formbuilder-rate-limits.yml
+  href: https://artifacts.apis.io/123formbuilder/rate-limits/123formbuilder-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/123formbuilder-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/finops/123formbuilder-finops.yml
+  href: https://artifacts.apis.io/123formbuilder/finops/123formbuilder-finops.yml
   title: ''
   type: FinOps
   url: finops/123formbuilder-finops.yml
@@ -135,22 +134,22 @@ common:
   type: License
   url: https://github.com/123FormBuilder/123contacform-api-v1-php/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/agentic-access/123formbuilder-agentic-access.yml
+  href: https://artifacts.apis.io/123formbuilder/agentic-access/123formbuilder-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/123formbuilder-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/security/123formbuilder-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/123formbuilder/security/123formbuilder-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/123formbuilder-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/security/123formbuilder-domain-security.yml
+  href: https://artifacts.apis.io/123formbuilder/security/123formbuilder-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/123formbuilder-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/authentication/123formbuilder-authentication.yml
+  href: https://artifacts.apis.io/123formbuilder/authentication/123formbuilder-authentication.yml
   title: ''
   type: Authentication
   url: authentication/123formbuilder-authentication.yml
@@ -159,32 +158,32 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/123formbuilder/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/arazzo/123formbuilder-authenticate-and-list-forms-workflow.yml
+  href: https://artifacts.apis.io/123formbuilder/arazzo/123formbuilder-authenticate-and-list-forms-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/123formbuilder-authenticate-and-list-forms-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/arazzo/123formbuilder-browse-group-forms-workflow.yml
+  href: https://artifacts.apis.io/123formbuilder/arazzo/123formbuilder-browse-group-forms-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/123formbuilder-browse-group-forms-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/arazzo/123formbuilder-create-form-in-group-workflow.yml
+  href: https://artifacts.apis.io/123formbuilder/arazzo/123formbuilder-create-form-in-group-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/123formbuilder-create-form-in-group-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/arazzo/123formbuilder-inspect-form-workflow.yml
+  href: https://artifacts.apis.io/123formbuilder/arazzo/123formbuilder-inspect-form-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/123formbuilder-inspect-form-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/arazzo/123formbuilder-moderate-submission-workflow.yml
+  href: https://artifacts.apis.io/123formbuilder/arazzo/123formbuilder-moderate-submission-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/123formbuilder-moderate-submission-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/arazzo/123formbuilder-review-submission-workflow.yml
+  href: https://artifacts.apis.io/123formbuilder/arazzo/123formbuilder-review-submission-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/123formbuilder-review-submission-workflow.yml
@@ -233,7 +232,7 @@ common:
   type: Pricing
   url: https://www.123formbuilder.com/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/plans/123formbuilder-plans-pricing.yml
+  href: https://artifacts.apis.io/123formbuilder/plans/123formbuilder-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/123formbuilder-plans-pricing.yml
@@ -258,17 +257,17 @@ common:
   type: Support
   url: https://www.123formbuilder.com/contact-us/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/json-ld/123formbuilder-context.jsonld
+  href: https://artifacts.apis.io/123formbuilder/json-ld/123formbuilder-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/123formbuilder-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/rules/123formbuilder-rules.yml
+  href: https://artifacts.apis.io/123formbuilder/rules/123formbuilder-rules.yml
   title: ''
   type: SpectralRules
   url: rules/123formbuilder-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/vocabulary/123formbuilder-vocabulary.yaml
+  href: https://artifacts.apis.io/123formbuilder/vocabulary/123formbuilder-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/123formbuilder-vocabulary.yaml
@@ -467,8 +466,8 @@ rules:
     warn: 14
   slug: 123formbuilder-rules
 score:
-  band: developing
-  composite: 51.1
+  band: strong
+  composite: 55.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 72.0
@@ -476,15 +475,15 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 60.5
     contract_governance: 27.3
-    contract_quality: 68.6
-    developer_ergonomics: 53.6
+    contract_quality: 67.1
+    developer_ergonomics: 58.3
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 59.4
+    operational_transparency: 23.7
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     contracts:
@@ -498,13 +497,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/screenshots/123formbuilder-2026-06-20T162300.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/123formbuilder/123formbuilder-2026-06-20T162300.png
 security:
 - kind: authentication
   name: 123Formbuilder Authentication

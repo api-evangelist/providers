@@ -28,16 +28,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.7
-  scored_at: '2026-10-17'
+  score: 40.2
+  scored_at: '2026-10-31'
 api_count: 24
 apis:
 - baseURL: https://localhost:8081/mec_service_mgmt/v1
@@ -150,14 +152,19 @@ apis:
 - description: 'A hosted, free interactive environment where developers exercise live ETSI MEC service APIs against emulated 4G, 5G and Wi-Fi network scenarios with moving user equipment. It serves MEC 011, MEC 012, '
   name: ETSI MEC Sandbox / EdgeNative Connector
   slug: mec-sandbox-edgenative-connector
-artifact_total: 30
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Etsi Webhooks
   slug: etsi-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/etsi/plans/etsi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/etsi-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/security/etsi-domain-security.yml
+  href: https://artifacts.apis.io/etsi/security/etsi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/etsi-domain-security.yml
@@ -282,138 +289,146 @@ common:
   type: Security
   url: https://www.etsi.org/standards/coordinated-vulnerability-disclosure/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/security/etsi-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/etsi/security/etsi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/etsi-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/authentication/etsi-authentication.yml
+  href: https://artifacts.apis.io/etsi/authentication/etsi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/etsi-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/scopes/etsi-scopes.yml
+  href: https://artifacts.apis.io/etsi/scopes/etsi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/etsi-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/well-known/etsi-well-known.yml
+  href: https://artifacts.apis.io/etsi/well-known/etsi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/etsi-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/packages/etsi-packages.yml
+  href: https://artifacts.apis.io/etsi/packages/etsi-packages.yml
   title: ''
   type: Packages
   url: packages/etsi-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/packages/etsi-packages.yml
+  href: https://artifacts.apis.io/etsi/packages/etsi-packages.yml
   title: ''
   type: SDKs
   url: packages/etsi-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/mcp/etsi-mcp.yml
+  href: https://artifacts.apis.io/etsi/mcp/etsi-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/etsi-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/mcp/etsi-tool-crosswalk.yml
+  href: https://artifacts.apis.io/etsi/mcp/etsi-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/etsi-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/llms/etsi-llms.txt
+  href: https://artifacts.apis.io/etsi/llms/etsi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/etsi-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/conformance/etsi-conformance.yml
+  href: https://artifacts.apis.io/etsi/conformance/etsi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/etsi-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/errors/etsi-problem-types.yml
+  href: https://artifacts.apis.io/etsi/errors/etsi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/etsi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/lifecycle/etsi-lifecycle.yml
+  href: https://artifacts.apis.io/etsi/lifecycle/etsi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/etsi-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/changelog/etsi-changelog.yml
+  href: https://artifacts.apis.io/etsi/changelog/etsi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/etsi-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/conventions/etsi-conventions.yml
+  href: https://artifacts.apis.io/etsi/conventions/etsi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/etsi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/data-model/etsi-data-model.yml
+  href: https://artifacts.apis.io/etsi/data-model/etsi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/etsi-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/asyncapi/etsi-webhooks.yml
+  href: https://artifacts.apis.io/etsi/asyncapi/etsi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/etsi-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/etsi/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/sandbox/etsi-sandbox.yml
+  href: https://artifacts.apis.io/etsi/sandbox/etsi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/etsi-sandbox.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/overlays/etsi-mec-overlay.yaml
+  href: https://artifacts.apis.io/etsi/overlays/etsi-mec-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/etsi-mec-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/overlays/etsi-nfv-sol002-sol003-overlay.yaml
+  href: https://artifacts.apis.io/etsi/overlays/etsi-nfv-sol002-sol003-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/etsi-nfv-sol002-sol003-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/overlays/etsi-nfv-sol005-overlay.yaml
+  href: https://artifacts.apis.io/etsi/overlays/etsi-nfv-sol005-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/etsi-nfv-sol005-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/overlays/etsi-nfv-sol009-overlay.yaml
+  href: https://artifacts.apis.io/etsi/overlays/etsi-nfv-sol009-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/etsi-nfv-sol009-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/overlays/etsi-nfv-sol011-overlay.yaml
+  href: https://artifacts.apis.io/etsi/overlays/etsi-nfv-sol011-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/etsi-nfv-sol011-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/overlays/etsi-ngsi-ld-overlay.yaml
+  href: https://artifacts.apis.io/etsi/overlays/etsi-ngsi-ld-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/etsi-ngsi-ld-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/overlays/etsi-capif-overlay.yaml
+  href: https://artifacts.apis.io/etsi/overlays/etsi-capif-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/etsi-capif-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/overlays/etsi-camara-overlay.yaml
+  href: https://artifacts.apis.io/etsi/overlays/etsi-camara-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/etsi-camara-overlay.yaml
 created: '2026-07-25'
 description: 'ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a European Standards Organisation. With over 900 member organisations from more than 60 countries it standardises ICT across mobile, fixed, broadcast, IoT, security and emerging technologies, and it hosts the 3GPP Mobile Competence Centre. In the telecom value chain ETSI sits upstream of every operator and vendor: it does not run a network or sell connectivity, it writes the specifications that the network is built from. Its API posture is unusually open for a standards body. Every ETSI deliverable is downloadable free of charge without login from etsi.org/deliver, and the machine-readable API artefacts are published as BSD-3-Clause OpenAPI on two public GitLab instances, forge.etsi.org and labs.etsi.org, both of which serve an anonymous REST API.
   From those ETSI publishes the ISG MEC edge service APIs, the NFV SOL lifecycle and orchestration APIs, the ISG CIM NGSI-LD context information API, and open-source implementations including OpenCAPIF for 3GPP CAPIF, OpenSlice for TM Forum Open APIs, and an Operator Platform Open Exposure Gateway that exposes northbound CAMARA APIs. What is member-gated is participation, not publication: portal.etsi.org, working documents, drafting and voting sit behind ETSI membership, while the finished standards and their OpenAPI are open to anyone. ETSI itself is not a GSMA Open Gateway operator and not a CAMARA member organisation; it reaches CAMARA through liaison and through its own open-source code.'
+finops:
+- has_sources: true
+  method: derived
+  name: Etsi Finops
+  primary_unit: annual contribution
+  service_category: ''
+  slug: etsi-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 mcp_servers:
@@ -430,31 +445,38 @@ overview: 'ETSI is listed with 24 APIs on the [APIs.io](https://apis.io/) networ
   The ETSI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ETSI''s developer surface includes documentation, developer portal, sandbox, API reference, getting-started guide, support, engineering blog, and 50 more developer resources.'
-random_paper: 19
+  ETSI''s developer surface includes documentation, developer portal, sandbox, API reference, getting-started guide, support, engineering blog, and 51 more developer resources.'
+plans:
+- name: Etsi Plans Pricing
+  plan_count: 14
+  slug: etsi-plans-pricing
+- name: Etsi Price Estimates
+  plan_count: 0
+  slug: etsi-price-estimates
+random_paper: 5
 scopes:
 - name: Etsi Scopes
   scope_count: 13
   slug: etsi-scopes
   summary_line: 13 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 50.6
+  band: strong
+  composite: 60.9
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 35.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    artifact_dirs: 25
+    catalog_earned: 50.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 38.2
+    contract_quality: 50.3
     developer_ergonomics: 73.2
-    discoverability: 71.7
-    operational_transparency: 42.1
+    discoverability: 61.7
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -463,7 +485,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 50.7
+  previous_composite: 53.0
   provenance:
     conformance: derived
     contracts:
@@ -479,14 +501,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 49.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/screenshots/etsi-2026-08-07T165027.png
+screenshot: https://apis.io/screenshots/etsi/etsi-2026-08-07T165027.png
 security:
 - kind: authentication
   name: Etsi Authentication
@@ -500,6 +522,18 @@ security:
   name: Etsi Vulnerability Disclosure
   slug: etsi-vulnerability-disclosure
   summary_line: contact published
+skill_count: 5
+skills:
+- name: Find an ETSI standard and its machine-readable OpenAPI
+  slug: etsi-discover-standards-and-specs
+- name: Register and discover services on an ETSI MEC platform
+  slug: etsi-mec-register-and-discover-edge-services
+- name: Manage context entities with the ETSI NGSI-LD API
+  slug: etsi-ngsi-ld-manage-context-entities
+- name: Onboard an API invoker with ETSI OpenCAPIF
+  slug: etsi-opencapif-onboard-an-api-invoker
+- name: Order a network service from the ETSI OpenSlice catalog
+  slug: etsi-openslice-order-a-network-service
 slug: etsi
 tags:
 - Telecommunications

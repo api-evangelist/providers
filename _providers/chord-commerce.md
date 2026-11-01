@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.6
-  scored_at: '2026-10-17'
+  score: 48.4
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Chord's hosted Model Context Protocol server — a remote, OAuth-protected, read-only window into a customer's Chord data warehouse. Fourteen documented tools cover schema search, saved views, prior que
@@ -45,7 +47,7 @@ apis:
 - description: Read API for activated audiences. Once the Dynamic Audiences API destination is enabled on an account, a sync mirrors a custom audience into the API and a server-side GET on /audiences returns that us
   name: Chord Audiences API
   slug: chord-audiences-api
-artifact_total: 10
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Chord Commerce Events
@@ -56,7 +58,7 @@ common:
   type: License
   url: https://github.com/chordcommerce/chord-copilot/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/security/chord-commerce-domain-security.yml
+  href: https://artifacts.apis.io/chord-commerce/security/chord-commerce-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chord-commerce-domain-security.yml
@@ -113,62 +115,62 @@ common:
   type: AnthropicIntegration
   url: https://docs.chord.co/chord-ai-models-powered-by-anthropic
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/mcp/chord-commerce-mcp.yml
+  href: https://artifacts.apis.io/chord-commerce/mcp/chord-commerce-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/chord-commerce-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/chord-commerce/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/llms/chord-commerce-llms.txt
+  href: https://artifacts.apis.io/chord-commerce/llms/chord-commerce-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chord-commerce-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/packages/chord-commerce-packages.yml
+  href: https://artifacts.apis.io/chord-commerce/packages/chord-commerce-packages.yml
   title: ''
   type: Packages
   url: packages/chord-commerce-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/packages/chord-commerce-packages.yml
+  href: https://artifacts.apis.io/chord-commerce/packages/chord-commerce-packages.yml
   title: ''
   type: SDKs
   url: packages/chord-commerce-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/authentication/chord-commerce-authentication.yml
+  href: https://artifacts.apis.io/chord-commerce/authentication/chord-commerce-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chord-commerce-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/scopes/chord-commerce-scopes.yml
+  href: https://artifacts.apis.io/chord-commerce/scopes/chord-commerce-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/chord-commerce-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/well-known/chord-commerce-well-known.yml
+  href: https://artifacts.apis.io/chord-commerce/well-known/chord-commerce-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/chord-commerce-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/conventions/chord-commerce-conventions.yml
+  href: https://artifacts.apis.io/chord-commerce/conventions/chord-commerce-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chord-commerce-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/errors/chord-commerce-error-codes.yml
+  href: https://artifacts.apis.io/chord-commerce/errors/chord-commerce-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/chord-commerce-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/conformance/chord-commerce-conformance.yml
+  href: https://artifacts.apis.io/chord-commerce/conformance/chord-commerce-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chord-commerce-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/lifecycle/chord-commerce-lifecycle.yml
+  href: https://artifacts.apis.io/chord-commerce/lifecycle/chord-commerce-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chord-commerce-lifecycle.yml
@@ -177,7 +179,7 @@ common:
   type: StatusPage
   url: https://status.chord.co
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/changelog/chord-commerce-changelog.yml
+  href: https://artifacts.apis.io/chord-commerce/changelog/chord-commerce-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/chord-commerce-changelog.yml
@@ -186,27 +188,27 @@ common:
   type: ReleaseNotes
   url: https://chord.launchnotes.io
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/asyncapi/chord-commerce-events.yml
+  href: https://artifacts.apis.io/chord-commerce/asyncapi/chord-commerce-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/chord-commerce-events.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/components/chord-commerce-components.yml
+  href: https://artifacts.apis.io/chord-commerce/components/chord-commerce-components.yml
   title: ''
   type: Components
   url: components/chord-commerce-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/data-model/chord-commerce-data-model.yml
+  href: https://artifacts.apis.io/chord-commerce/data-model/chord-commerce-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chord-commerce-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/plans/chord-commerce-plans-pricing.yml
+  href: https://artifacts.apis.io/chord-commerce/plans/chord-commerce-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chord-commerce-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/rate-limits/chord-commerce-rate-limits.yml
+  href: https://artifacts.apis.io/chord-commerce/rate-limits/chord-commerce-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/chord-commerce-rate-limits.yml
@@ -274,6 +276,14 @@ created: '2026-05-25'
 description: 'Chord is a New York / Santa Barbara-based commerce data and AI platform founded in 2021 by Bryan Mahoney (CEO) and Henry Davis (President & Chairman), both former Glossier executives. Chord began as a headless commerce backbone built on top of Solidus — the open-source Spree Commerce fork written in Ruby on Rails — and has since evolved into an AI-native commerce data platform with three layers: a Data Foundation that unifies sources such as Shopify, ad platforms, and CDPs; a Context Stack that grounds AI in store-specific business context; and a set of Agents that take action across the commerce stack. Its current product surface includes Chord OMS (a Solidus-based order management system covering orders, products, promotions, subscriptions, affiliates, gift cards, returns, shipping, tax, and digital products documented at chord.stoplight.io), Chord CDP (customer data platform with identity resolution, RFM scoring, customer lifetime revenue, and destination activations), Chord
   Event Tracking (client- and server-side eventing with Shopify Web Pixel integration and consent management via OneTrust and Shopify Customer Privacy API), Chord Data Platform (analytics, predictive modeling, attribution, recommendations, Fivetran ingestion, GA4 compatibility), and Chord AI / Copilot Chat, powered by Anthropic Claude (Opus 4.5 for SQL generation, Haiku 4.5 for response generation and classification) with charts, monitors, context modeling, and natural-language data querying. Chord''s GitHub org (github.com/chordcommerce) maintains a fleet of Solidus extensions (solidus_stripe, solidus_braintree, solidus_paypal_braintree, solidus_subscriptions, solidus_virtual_gift_card, solidus_importer, solidus_avatax_certified), a consent-manager TypeScript library, a Jitsu fork for event ingestion, and example repos for eventing and analytics. Notable customers include Sonos, Blue Bottle Coffee, Rodan + Fields, MrBeast, and Ritual. Funding has come from M13 Ventures, Equal Ventures,
   Act One Ventures, Chingona Ventures, and CEAS Investments, with an $18M Series A reported by TechCrunch in 2021. The commercial model is sales-led with custom enterprise pricing gated behind a demo request.'
+finops:
+- has_sources: true
+  method: derived
+  name: Chord Commerce Finops
+  primary_unit: ''
+  service_category: ''
+  slug: chord-commerce-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chord-commerce.png
 layout: provider
 mcp_servers:
@@ -295,7 +305,7 @@ plans:
 - name: Chord Commerce Plans Pricing
   plan_count: 0
   slug: chord-commerce-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Chord Commerce Rate Limits
@@ -307,23 +317,23 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 48.9
+  composite: 49.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 61.9
-    discoverability: 80.0
-    operational_transparency: 42.1
-  previous_composite: 48.8
+    discoverability: 70.0
+    operational_transparency: 44.7
+  previous_composite: 49.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -334,14 +344,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 38.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/screenshots/chord-commerce-2026-06-20T174322.png
+screenshot: https://apis.io/screenshots/chord-commerce/chord-commerce-2026-06-20T174322.png
 security:
 - kind: authentication
   name: Chord Commerce Authentication
@@ -351,6 +361,16 @@ security:
   name: Chord Commerce Domain Security
   slug: chord-commerce-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: chord-activation-health
+  slug: chord-commerce-activation-health
+- name: chord-copilot
+  slug: chord-commerce-copilot
+- name: chord-daily-insights
+  slug: chord-commerce-daily-insights
+- name: chord-metric-verify
+  slug: chord-commerce-metric-verify
 slug: chord-commerce
 tags:
 - Commerce

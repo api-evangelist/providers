@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -11,62 +11,119 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 10.8
-  scored_at: '2026-10-17'
-api_count: 1
+  score: 37.3
+  scored_at: '2026-10-31'
+api_count: 11
 apis:
 - description: AWS CodeCommit API provides operations for repositories, commits, branches, and pull requests.
   name: CodeCommit API
   slug: codecommit-api
-artifact_total: 4
+- baseURL: https://codecommit.amazonaws.com
+  baseurl_source: declared
+  description: The Codecommit Approval Rule Template API from Amazon CodeCommit — 8 operation(s) for codecommit approval rule template.
+  name: Amazon CodeCommit Codecommit Approval Rule Template API
+  slug: amazon-codecommit-approval-rule-template-api
+- baseURL: https://codecommit.amazonaws.com
+  baseurl_source: declared
+  description: The Codecommit Branch API from Amazon CodeCommit — 3 operation(s) for codecommit branch.
+  name: Amazon CodeCommit Codecommit Branch API
+  slug: amazon-codecommit-branch-api
+- baseURL: https://codecommit.amazonaws.com
+  baseurl_source: declared
+  description: The Codecommit Comment API from Amazon CodeCommit — 4 operation(s) for codecommit comment.
+  name: Amazon CodeCommit Codecommit Comment API
+  slug: amazon-codecommit-comment-api
+- baseURL: https://codecommit.amazonaws.com
+  baseurl_source: declared
+  description: The Codecommit Commit API from Amazon CodeCommit — 3 operation(s) for codecommit commit.
+  name: Amazon CodeCommit Codecommit Commit API
+  slug: amazon-codecommit-commit-api
+- baseURL: https://codecommit.amazonaws.com
+  baseurl_source: declared
+  description: The Codecommit File API from Amazon CodeCommit — 3 operation(s) for codecommit file.
+  name: Amazon CodeCommit Codecommit File API
+  slug: amazon-codecommit-file-api
+- baseURL: https://codecommit.amazonaws.com
+  baseurl_source: declared
+  description: The Codecommit Merge Conflict API from Amazon CodeCommit — 3 operation(s) for codecommit merge conflict.
+  name: Amazon CodeCommit Codecommit Merge Conflict API
+  slug: amazon-codecommit-merge-conflict-api
+- baseURL: https://codecommit.amazonaws.com
+  baseurl_source: declared
+  description: The Codecommit Operations API from Amazon CodeCommit — 44 operation(s) for codecommit operations.
+  name: Amazon CodeCommit Codecommit Operations API
+  slug: amazon-codecommit-operations-api
+- baseURL: https://codecommit.amazonaws.com
+  baseurl_source: declared
+  description: The Codecommit Pull Request API from Amazon CodeCommit — 3 operation(s) for codecommit pull request.
+  name: Amazon CodeCommit Codecommit Pull Request API
+  slug: amazon-codecommit-pull-request-api
+- baseURL: https://codecommit.amazonaws.com
+  baseurl_source: declared
+  description: The Codecommit Repository API from Amazon CodeCommit — 6 operation(s) for codecommit repository.
+  name: Amazon CodeCommit Codecommit Repository API
+  slug: amazon-codecommit-repository-api
+- baseURL: https://codecommit.amazonaws.com
+  baseurl_source: declared
+  description: The Codecommit Repository Trigger API from Amazon CodeCommit — 3 operation(s) for codecommit repository trigger.
+  name: Amazon CodeCommit Codecommit Repository Trigger API
+  slug: amazon-codecommit-repository-trigger-api
+artifact_total: 14
 common:
+- group: other
+  href: https://artifacts.apis.io/amazon-codecommit/capabilities/amazon-codecommit-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-codecommit-capability-edges.yml
 - group: auth
   title: ''
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-codecommit/refs/heads/main/llms/amazon-codecommit-llms.txt
+  href: https://artifacts.apis.io/amazon-codecommit/llms/amazon-codecommit-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-codecommit-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-codecommit/refs/heads/main/well-known/amazon-codecommit-security.txt
+  href: https://artifacts.apis.io/amazon-codecommit/well-known/amazon-codecommit-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-codecommit-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-codecommit/refs/heads/main/well-known/amazon-codecommit-well-known.yml
+  href: https://artifacts.apis.io/amazon-codecommit/well-known/amazon-codecommit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-codecommit-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-codecommit/refs/heads/main/hosts/amazon-codecommit-hosts.yml
+  href: https://artifacts.apis.io/amazon-codecommit/hosts/amazon-codecommit-hosts.yml
   title: ''
   type: Hosts
   url: hosts/amazon-codecommit-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-codecommit/refs/heads/main/vendors/amazon-codecommit-vendors.yml
+  href: https://artifacts.apis.io/amazon-codecommit/vendors/amazon-codecommit-vendors.yml
   title: ''
   type: Vendors
   url: vendors/amazon-codecommit-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-codecommit/refs/heads/main/packages/amazon-codecommit-packages.yml
+  href: https://artifacts.apis.io/amazon-codecommit/packages/amazon-codecommit-packages.yml
   title: ''
   type: SDKs
   url: packages/amazon-codecommit-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-codecommit/refs/heads/main/packages/amazon-codecommit-packages.yml
+  href: https://artifacts.apis.io/amazon-codecommit/packages/amazon-codecommit-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-codecommit-packages.yml
@@ -103,17 +160,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/aws
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-codecommit/refs/heads/main/security/amazon-codecommit-trust-center.yml
+  href: https://artifacts.apis.io/amazon-codecommit/security/amazon-codecommit-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-codecommit-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-codecommit/refs/heads/main/security/amazon-codecommit-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-codecommit/security/amazon-codecommit-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-codecommit-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-codecommit/refs/heads/main/security/amazon-codecommit-domain-security.yml
+  href: https://artifacts.apis.io/amazon-codecommit/security/amazon-codecommit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-codecommit-domain-security.yml
@@ -160,29 +217,36 @@ modified: '2026-10-12'
 name: Amazon CodeCommit
 nav: Providers
 network: true
-overview: 'Amazon CodeCommit is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SourceControl, Git, and Cloud.
+overview: 'Amazon CodeCommit is listed with 11 APIs on the [APIs.io](https://apis.io/) network, including Codecommit Approval Rule Template API, Codecommit Branch API, Codecommit Comment API, and 8 more. Tagged areas include Company, Version Control, and Cloud.
 
 
-  Amazon CodeCommit''s developer surface includes signup flow, sandbox, documentation, API reference, getting-started guide, pricing, support, and 19 more developer resources.'
-random_paper: 13
+  Amazon CodeCommit''s developer surface includes signup flow, sandbox, documentation, API reference, getting-started guide, pricing, support, and 20 more developer resources.'
+random_paper: 23
 score:
-  band: thin
-  composite: 34.6
+  band: developing
+  composite: 47.7
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 30.0
+    artifact_dirs: 11
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 85.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 12.3
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 53.3
     developer_ergonomics: 59.5
-    discoverability: 62.5
+    discoverability: 60.7
     operational_transparency: 15.8
+  previous_composite: 35.4
   provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 10
     mcp: derived
   regulatory:
     applies: true
@@ -190,8 +254,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -212,8 +277,7 @@ security:
 slug: amazon-codecommit
 tags:
 - Company
-- SourceControl
-- Git
+- Version Control
 - Cloud
 website: https://aws.amazon.com/codecommit/
 ---

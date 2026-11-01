@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Teads DSP REST Campaign Management API, formerly the Zemanta One API. It lets Teads DSP clients programmatically create and manage accounts, campaigns, budgets, campaign goals, ad groups, ad group
@@ -43,7 +45,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/security/zemanta-domain-security.yml
+  href: https://artifacts.apis.io/zemanta/security/zemanta-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zemanta-domain-security.yml
@@ -84,72 +86,72 @@ common:
   type: Login
   url: https://one.zemanta.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/authentication/zemanta-authentication.yml
+  href: https://artifacts.apis.io/zemanta/authentication/zemanta-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zemanta-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/scopes/zemanta-scopes.yml
+  href: https://artifacts.apis.io/zemanta/scopes/zemanta-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zemanta-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/rate-limits/zemanta-rate-limits.yml
+  href: https://artifacts.apis.io/zemanta/rate-limits/zemanta-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zemanta-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/errors/zemanta-problem-types.yml
+  href: https://artifacts.apis.io/zemanta/errors/zemanta-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zemanta-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/conventions/zemanta-conventions.yml
+  href: https://artifacts.apis.io/zemanta/conventions/zemanta-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zemanta-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/data-model/zemanta-data-model.yml
+  href: https://artifacts.apis.io/zemanta/data-model/zemanta-data-model.yml
   title: ''
   type: DataModel
   url: data-model/zemanta-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/lifecycle/zemanta-lifecycle.yml
+  href: https://artifacts.apis.io/zemanta/lifecycle/zemanta-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zemanta-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/conformance/zemanta-conformance.yml
+  href: https://artifacts.apis.io/zemanta/conformance/zemanta-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zemanta-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/plans/zemanta-plans-pricing.yml
+  href: https://artifacts.apis.io/zemanta/plans/zemanta-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zemanta-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/packages/zemanta-packages.yml
+  href: https://artifacts.apis.io/zemanta/packages/zemanta-packages.yml
   title: ''
   type: Packages
   url: packages/zemanta-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/llms/zemanta-llms.txt
+  href: https://artifacts.apis.io/zemanta/llms/zemanta-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zemanta-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/well-known/zemanta-security.txt
+  href: https://artifacts.apis.io/zemanta/well-known/zemanta-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/zemanta-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/security/zemanta-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zemanta/security/zemanta-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/zemanta-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/security/zemanta-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/zemanta/security/zemanta-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/zemanta-vulnerability-disclosure.yml
@@ -170,7 +172,7 @@ plans:
 - name: Zemanta Plans Pricing
   plan_count: 0
   slug: zemanta-plans-pricing
-random_paper: 4
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Zemanta Rate Limits
@@ -182,23 +184,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 28.5
+  composite: 31.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 38.1
+    developer_ergonomics: 42.9
     discoverability: 66.1
-    operational_transparency: 34.2
-  previous_composite: 28.4
+    operational_transparency: 36.8
+  previous_composite: 31.1
   provenance:
     conformance: derived
   regulatory:
@@ -207,14 +209,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/screenshots/zemanta-2026-09-02T171553.png
+screenshot: https://apis.io/screenshots/zemanta/zemanta-2026-09-02T171553.png
 security:
 - kind: authentication
   name: Zemanta Authentication

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 51.0
-  scored_at: '2026-10-17'
+  score: 47.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 176
   slug: hostfully-agentic-access
   summary_line: 176 operations · 101 acting
-api_count: 1
+api_count: 2
 apis:
 - description: Hostfully Property Management Platform REST API v3.x covering properties (single and multi-unit), leads (inquiries, booking requests, bookings, group bookings, holds, cancellations, rebooking), orders
   name: Hostfully REST API
@@ -304,70 +306,75 @@ apis:
   description: The Graph QL API from Hostfully — 1 operation(s) for graph ql.
   name: Hostfully Graph QL API
   slug: hostfully-graph-ql-api
-artifact_total: 85
+artifact_total: 87
 common:
+- group: commercial
+  href: https://artifacts.apis.io/hostfully/plans/hostfully-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hostfully-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/agentic-access/hostfully-agentic-access.yml
+  href: https://artifacts.apis.io/hostfully/agentic-access/hostfully-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hostfully-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/rules/hostfully-rules.yml
+  href: https://artifacts.apis.io/hostfully/rules/hostfully-rules.yml
   title: ''
   type: Spectral
   url: rules/hostfully-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/json-ld/hostfully-context.jsonld
+  href: https://artifacts.apis.io/hostfully/json-ld/hostfully-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/hostfully-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/vocabulary/hostfully-vocabulary.yml
+  href: https://artifacts.apis.io/hostfully/vocabulary/hostfully-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/hostfully-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/data-model/hostfully-data-model.yml
+  href: https://artifacts.apis.io/hostfully/data-model/hostfully-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hostfully-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/errors/hostfully-problem-types.yml
+  href: https://artifacts.apis.io/hostfully/errors/hostfully-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hostfully-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/conformance/hostfully-conformance.yml
+  href: https://artifacts.apis.io/hostfully/conformance/hostfully-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hostfully-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/llms/hostfully-llms.txt
+  href: https://artifacts.apis.io/hostfully/llms/hostfully-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hostfully-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/well-known/hostfully-help-security.txt
+  href: https://artifacts.apis.io/hostfully/well-known/hostfully-help-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/hostfully-help-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/well-known/hostfully-well-known.yml
+  href: https://artifacts.apis.io/hostfully/well-known/hostfully-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hostfully-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/hosts/hostfully-hosts.yml
+  href: https://artifacts.apis.io/hostfully/hosts/hostfully-hosts.yml
   title: ''
   type: Hosts
   url: hosts/hostfully-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/integrations/hostfully-integration-edges.yml
+  href: https://artifacts.apis.io/hostfully/integrations/hostfully-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/hostfully-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/vendors/hostfully-vendors.yml
+  href: https://artifacts.apis.io/hostfully/vendors/hostfully-vendors.yml
   title: ''
   type: Vendors
   url: vendors/hostfully-vendors.yml
@@ -376,12 +383,12 @@ common:
   type: Newsroom
   url: https://www.hostfully.com/newsroom/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/authentication/hostfully-authentication.yml
+  href: https://artifacts.apis.io/hostfully/authentication/hostfully-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hostfully-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/security/hostfully-domain-security.yml
+  href: https://artifacts.apis.io/hostfully/security/hostfully-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hostfully-domain-security.yml
@@ -493,6 +500,14 @@ features:
 - Digital Guidebooks product available standalone
 - Screen & Protect guest screening and damage protection up to $50K
 - Hostfully Devices smart-home integrations
+finops:
+- has_sources: true
+  method: derived
+  name: Hostfully Finops
+  primary_unit: property
+  service_category: ''
+  slug: hostfully-finops
+  template: false
 graphqls:
 - description: Hostfully GraphQL endpoint for executing queries and mutations against the same underlying property-management domain as the REST API. Useful for clients that need to shape responses, fetch multi-reso
   name: Hostfully GraphQL API
@@ -533,8 +548,12 @@ overview: 'Hostfully publishes 53 API contracts indexed on the [APIs.io](https:/
   The Hostfully catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Hostfully''s developer surface includes authentication, documentation, pricing, engineering blog, YouTube channel, and 31 more developer resources.'
-random_paper: 12
+  Hostfully''s developer surface includes authentication, documentation, pricing, engineering blog, YouTube channel, and 32 more developer resources.'
+plans:
+- name: Hostfully Plans Pricing
+  plan_count: 3
+  slug: hostfully-plans-pricing
+random_paper: 18
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -550,22 +569,22 @@ rules:
   slug: hostfully-rules
 score:
   band: developing
-  composite: 42.1
+  composite: 50.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 57.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.3
+    artifact_dirs: 23
+    catalog_earned: 72.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 23.2
+  delta: 7.9
   facets:
-    access_clarity: 31.6
+    access_clarity: 71.1
     contract_governance: 22.0
-    contract_quality: 62.3
-    developer_ergonomics: 33.3
+    contract_quality: 58.9
+    developer_ergonomics: 38.1
     discoverability: 66.1
-    operational_transparency: 6.6
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -573,15 +592,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 18.9
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
-      total: 51
+      marker_coverage: 0.0
+      total: 52
     mcp: derived
   regulatory:
     applies: true
@@ -589,13 +608,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: rising
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/screenshots/hostfully-2026-06-20T182842.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hostfully/hostfully-2026-06-20T182842.png
 security:
 - kind: authentication
   name: Hostfully Authentication

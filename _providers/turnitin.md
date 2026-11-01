@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: RESTful API for integrating Turnitin's integrity services into third-party platforms — submit a document, generate a Similarity Report, and display it to users. Authenticates with an integration-insta
@@ -95,62 +97,62 @@ common:
   type: StatusPage
   url: https://turnitin.statuspage.io
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/turnitin/refs/heads/main/security/turnitin-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/turnitin/security/turnitin-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/turnitin-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/turnitin/refs/heads/main/security/turnitin-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/turnitin/security/turnitin-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/turnitin-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/turnitin/refs/heads/main/security/turnitin-domain-security.yml
+  href: https://artifacts.apis.io/turnitin/security/turnitin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/turnitin-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/turnitin/refs/heads/main/well-known/turnitin-security.txt
+  href: https://artifacts.apis.io/turnitin/well-known/turnitin-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/turnitin-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/turnitin/refs/heads/main/well-known/turnitin-well-known.yml
+  href: https://artifacts.apis.io/turnitin/well-known/turnitin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/turnitin-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/turnitin/refs/heads/main/conformance/turnitin-conformance.yml
+  href: https://artifacts.apis.io/turnitin/conformance/turnitin-conformance.yml
   title: ''
   type: Compliance
   url: conformance/turnitin-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/turnitin/refs/heads/main/conformance/turnitin-conformance.yml
+  href: https://artifacts.apis.io/turnitin/conformance/turnitin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/turnitin-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/turnitin/refs/heads/main/authentication/turnitin-authentication.yml
+  href: https://artifacts.apis.io/turnitin/authentication/turnitin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/turnitin-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/turnitin/refs/heads/main/conventions/turnitin-conventions.yml
+  href: https://artifacts.apis.io/turnitin/conventions/turnitin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/turnitin-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/turnitin/refs/heads/main/sandbox/turnitin-sandbox.yml
+  href: https://artifacts.apis.io/turnitin/sandbox/turnitin-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/turnitin-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/turnitin/refs/heads/main/lifecycle/turnitin-lifecycle.yml
+  href: https://artifacts.apis.io/turnitin/lifecycle/turnitin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/turnitin-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/turnitin/refs/heads/main/llms/turnitin-llms.txt
+  href: https://artifacts.apis.io/turnitin/llms/turnitin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/turnitin-llms.txt
@@ -170,10 +172,10 @@ overview: 'Turnitin is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Turnitin''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 13
+random_paper: 5
 score:
   band: thin
-  composite: 35.9
+  composite: 35.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -181,15 +183,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 5.3
+    contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 73.2
-    operational_transparency: 28.9
-  previous_composite: 35.8
+    discoverability: 66.1
+    operational_transparency: 31.6
+  previous_composite: 35.5
   provenance:
     conformance: first-party
   regulatory:
@@ -198,14 +200,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 43.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/turnitin/refs/heads/main/screenshots/turnitin-2026-09-02T164540.png
+screenshot: https://apis.io/screenshots/turnitin/turnitin-2026-09-02T164540.png
 security:
 - kind: authentication
   name: Turnitin Authentication

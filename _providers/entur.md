@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.4
-  scored_at: '2026-10-17'
+  score: 43.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 390
   human_in_the_loop: 47
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 895
   slug: entur-agentic-access
   summary_line: 895 operations · 390 acting · 47 human-in-the-loop
-api_count: 67
+api_count: 37
 apis:
 - description: Core journey planning service built on OpenTripPlanner, providing departure boards for individual stops and point-to-point journey planning for all public transport in Norway, including real-time info
   name: Journey Planner (GraphQL)
@@ -1023,174 +1025,174 @@ apis:
   description: The versions API from Entur — 5 operation(s) for versions.
   name: Entur Versions API
   slug: entur-versions-api
-artifact_total: 331
+artifact_total: 335
 asyncapis:
 - description: ''
   name: Entur Webhooks
   slug: entur-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/capabilities/entur-capability-edges.yml
+  href: https://artifacts.apis.io/entur/capabilities/entur-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/entur-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/agentic-access/entur-agentic-access.yml
+  href: https://artifacts.apis.io/entur/agentic-access/entur-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/entur-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/rate-limits/entur-rate-limits.yml
+  href: https://artifacts.apis.io/entur/rate-limits/entur-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/entur-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/rules/entur-rules.yml
+  href: https://artifacts.apis.io/entur/rules/entur-rules.yml
   title: ''
   type: Spectral
   url: rules/entur-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/rules/entur-api-guidelines-spectral-rules.yml
+  href: https://artifacts.apis.io/entur/rules/entur-api-guidelines-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/entur-api-guidelines-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/json-ld/entur-context.jsonld
+  href: https://artifacts.apis.io/entur/json-ld/entur-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/entur-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/vocabulary/entur-vocabulary.yml
+  href: https://artifacts.apis.io/entur/vocabulary/entur-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/entur-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/entur/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/asyncapi/entur-webhooks.yml
+  href: https://artifacts.apis.io/entur/asyncapi/entur-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/entur-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/data-model/entur-data-model.yml
+  href: https://artifacts.apis.io/entur/data-model/entur-data-model.yml
   title: ''
   type: DataModel
   url: data-model/entur-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/conventions/entur-conventions.yml
+  href: https://artifacts.apis.io/entur/conventions/entur-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/entur-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/conventions/entur-conventions.yml
+  href: https://artifacts.apis.io/entur/conventions/entur-conventions.yml
   title: ''
   type: Conventions
   url: conventions/entur-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/sandbox/entur-sandbox.yml
+  href: https://artifacts.apis.io/entur/sandbox/entur-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/entur-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/security/entur-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/entur/security/entur-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/entur-vulnerability-disclosure.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/lifecycle/entur-lifecycle.yml
+  href: https://artifacts.apis.io/entur/lifecycle/entur-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/entur-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/lifecycle/entur-lifecycle.yml
+  href: https://artifacts.apis.io/entur/lifecycle/entur-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/entur-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/errors/entur-problem-types.yml
+  href: https://artifacts.apis.io/entur/errors/entur-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/entur-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/conformance/entur-conformance.yml
+  href: https://artifacts.apis.io/entur/conformance/entur-conformance.yml
   title: ''
   type: Conformance
   url: conformance/entur-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/overlays/entur-clearing-overlay.yaml
+  href: https://artifacts.apis.io/entur/overlays/entur-clearing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/entur-clearing-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/llms/entur-llms.txt
+  href: https://artifacts.apis.io/entur/llms/entur-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/entur-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/mcp/entur-tool-crosswalk.yml
+  href: https://artifacts.apis.io/entur/mcp/entur-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/entur-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/mcp/entur-mcp.yml
+  href: https://artifacts.apis.io/entur/mcp/entur-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/entur-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/well-known/entur-security.txt
+  href: https://artifacts.apis.io/entur/well-known/entur-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/entur-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/well-known/entur-dev-security.txt
+  href: https://artifacts.apis.io/entur/well-known/entur-dev-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/entur-dev-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/well-known/entur-well-known.yml
+  href: https://artifacts.apis.io/entur/well-known/entur-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/entur-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/hosts/entur-hosts.yml
+  href: https://artifacts.apis.io/entur/hosts/entur-hosts.yml
   title: ''
   type: Hosts
   url: hosts/entur-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/vendors/entur-vendors.yml
+  href: https://artifacts.apis.io/entur/vendors/entur-vendors.yml
   title: ''
   type: Vendors
   url: vendors/entur-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/packages/entur-packages.yml
+  href: https://artifacts.apis.io/entur/packages/entur-packages.yml
   title: ''
   type: SDKs
   url: packages/entur-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/packages/entur-packages.yml
+  href: https://artifacts.apis.io/entur/packages/entur-packages.yml
   title: ''
   type: Packages
   url: packages/entur-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/scopes/entur-scopes.yml
+  href: https://artifacts.apis.io/entur/scopes/entur-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/entur-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/authentication/entur-authentication.yml
+  href: https://artifacts.apis.io/entur/authentication/entur-authentication.yml
   title: ''
   type: Authentication
   url: authentication/entur-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/security/entur-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/entur/security/entur-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/entur-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/security/entur-domain-security.yml
+  href: https://artifacts.apis.io/entur/security/entur-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/entur-domain-security.yml
@@ -1643,7 +1645,7 @@ plans:
 - name: Entur Plans Pricing
   plan_count: 0
   slug: entur-plans-pricing
-random_paper: 8
+random_paper: 6
 rate_limits:
 - limit_count: 9
   name: Entur Rate Limits
@@ -1679,22 +1681,22 @@ scopes:
   slug: entur-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
-  band: exemplar
-  composite: 69.6
+  band: strong
+  composite: 65.5
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 32
     catalog_earned: 91.3
     catalog_earned_first_party: 30.0
     catalog_gap: 23.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 76.5
-    contract_quality: 74.6
+    contract_quality: 72.7
     developer_ergonomics: 73.2
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 63.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -1721,13 +1723,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/entur/refs/heads/main/screenshots/entur-2026-10-11T104224.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/entur/entur-2026-10-11T104224.png
 security:
 - kind: authentication
   name: Entur Authentication
@@ -1741,6 +1744,16 @@ security:
   name: Entur Vulnerability Disclosure
   slug: entur-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 4
+skills:
+- name: entur-geocode-locations
+  slug: entur-geocode-locations
+- name: entur-look-up-stop-places
+  slug: entur-look-up-stop-places
+- name: entur-purchase-travel-sales-v2
+  slug: entur-purchase-travel-sales-v2
+- name: entur-shared-mobility-bookings
+  slug: entur-shared-mobility-bookings
 slug: entur
 tags:
 - Company

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Shipping.com provides a marketplace and intelligence platform for the ocean freight and logistics industry. The platform aggregates freight rates from major carriers and provides rate comparison, mark
@@ -48,22 +50,22 @@ apis:
 artifact_total: 12
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shipping/refs/heads/main/plans/shipping-plans-pricing.yml
+  href: https://artifacts.apis.io/shipping/plans/shipping-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/shipping-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shipping/refs/heads/main/rate-limits/shipping-rate-limits.yml
+  href: https://artifacts.apis.io/shipping/rate-limits/shipping-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shipping-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shipping/refs/heads/main/finops/shipping-finops.yml
+  href: https://artifacts.apis.io/shipping/finops/shipping-finops.yml
   title: ''
   type: FinOps
   url: finops/shipping-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipping/refs/heads/main/security/shipping-domain-security.yml
+  href: https://artifacts.apis.io/shipping/security/shipping-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shipping-domain-security.yml
@@ -80,27 +82,27 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/shipping-com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/shipping/refs/heads/main/json-schema/shipping-rate-schema.json
+  href: https://artifacts.apis.io/shipping/json-schema/shipping-rate-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/shipping-rate-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipping/refs/heads/main/json-structure/shipping-rate-structure.json
+  href: https://artifacts.apis.io/shipping/json-structure/shipping-rate-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/shipping-rate-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipping/refs/heads/main/json-ld/shipping-context.jsonld
+  href: https://artifacts.apis.io/shipping/json-ld/shipping-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/shipping-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shipping/refs/heads/main/examples/shipping-rate-example.json
+  href: https://artifacts.apis.io/shipping/examples/shipping-rate-example.json
   title: ''
   type: Examples
   url: examples/shipping-rate-example.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipping/refs/heads/main/vocabulary/shipping-vocabulary.yml
+  href: https://artifacts.apis.io/shipping/vocabulary/shipping-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/shipping-vocabulary.yml
@@ -114,7 +116,7 @@ finops:
 - has_sources: false
   method: generated
   name: Shipping Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: shipping-finops
   template: true
@@ -148,7 +150,7 @@ plans:
 - name: Shipping Plans Pricing
   plan_count: 3
   slug: shipping-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Shipping Rate Limits
@@ -167,7 +169,7 @@ rules:
   slug: shipping-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 18.9
+  composite: 19.1
   coverage:
     artifact_dirs: 13
     catalog_earned: 56.8
@@ -175,12 +177,12 @@ score:
     catalog_gap: 58.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 17.2
-    developer_ergonomics: 17.9
+    developer_ergonomics: 19.0
     discoverability: 62.5
     operational_transparency: 7.9
   jurisdiction:
@@ -190,15 +192,15 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 20.4
+  previous_composite: 19.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

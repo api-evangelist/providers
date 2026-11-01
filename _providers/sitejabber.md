@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
+  score: 26.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.smartcustomer.com/v1
@@ -107,34 +109,34 @@ apis:
   description: The Reviews API from SiteJabber — 4 operation(s) for reviews.
   name: SiteJabber Reviews API
   slug: sitejabber-reviews-api
-artifact_total: 19
+artifact_total: 24
 collections:
 - collection_type: open
   name: SmartCustomer (Sitejabber) Business API
   slug: open-sitejabber-business-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/rate-limits/sitejabber-rate-limits.yml
+  href: https://artifacts.apis.io/sitejabber/rate-limits/sitejabber-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sitejabber-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/capabilities/sitejabber-capability-edges.yml
+  href: https://artifacts.apis.io/sitejabber/capabilities/sitejabber-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sitejabber-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/overlays/sitejabber-business-api-overlay.yaml
+  href: https://artifacts.apis.io/sitejabber/overlays/sitejabber-business-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sitejabber-business-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/mcp/sitejabber-mcp.yml
+  href: https://artifacts.apis.io/sitejabber/mcp/sitejabber-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/sitejabber-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/security/sitejabber-domain-security.yml
+  href: https://artifacts.apis.io/sitejabber/security/sitejabber-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sitejabber-domain-security.yml
@@ -183,48 +185,56 @@ common:
   type: HelpCenter
   url: https://www.smartcustomer.com/faq
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/packages/sitejabber-packages.yml
+  href: https://artifacts.apis.io/sitejabber/packages/sitejabber-packages.yml
   title: ''
   type: Packages
   url: packages/sitejabber-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/packages/sitejabber-packages.yml
+  href: https://artifacts.apis.io/sitejabber/packages/sitejabber-packages.yml
   title: ''
   type: SDKs
   url: packages/sitejabber-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/llms/sitejabber-llms.txt
+  href: https://artifacts.apis.io/sitejabber/llms/sitejabber-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sitejabber-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sitejabber/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/conformance/sitejabber-conformance.yml
+  href: https://artifacts.apis.io/sitejabber/conformance/sitejabber-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sitejabber-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/lifecycle/sitejabber-lifecycle.yml
+  href: https://artifacts.apis.io/sitejabber/lifecycle/sitejabber-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sitejabber-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/plans/sitejabber-plans-pricing.yml
+  href: https://artifacts.apis.io/sitejabber/plans/sitejabber-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sitejabber-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/components/sitejabber-components.yml
+  href: https://artifacts.apis.io/sitejabber/components/sitejabber-components.yml
   title: ''
   type: Components
   url: components/sitejabber-components.yml
 created: '2026-07-17'
 description: 'SiteJabber is a consumer review platform, rebranded as SmartCustomer at smartcustomer.com, where shoppers read and write reviews about online businesses, services and products. Operating for over twenty years, it emphasizes consumer protection through review moderation and verification, and offers a browser extension that surfaces business ratings while users browse. On the business side it is an official Google Review Partner that distributes verified reviews to Google Seller Ratings, Google Business profiles and Google Shopping Ads, and it sells review sourcing, moderation, showcasing widgets, competitive intelligence and e-commerce integrations across four contact-sales packages. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. It does publish a developer API: the SmartCustomer Business API, a 31-operation REST surface documented at api.sitejabber.com covering business ratings, consumer reviews and moderation, reviewer messaging,
   review requests by email and SMS, a full product-review and catalog surface, and two CCPA-shaped customer-privacy operations. A prior enrichment pass recorded no API; that was wrong — the reference is served from the pre-rebrand api.sitejabber.com host, which is not linked from the current consumer or business site navigation.'
+finops:
+- has_sources: true
+  method: derived
+  name: Sitejabber Finops
+  primary_unit: ''
+  service_category: ''
+  slug: sitejabber-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sitejabber.png
 layout: provider
 modified: '2026-08-13'
@@ -239,30 +249,30 @@ plans:
 - name: Sitejabber Plans Pricing
   plan_count: 4
   slug: sitejabber-plans-pricing
-random_paper: 17
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Sitejabber Rate Limits
   slug: sitejabber-rate-limits
 score:
   band: developing
-  composite: 43.9
+  composite: 49.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 47.6
-    developer_ergonomics: 25.6
-    discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 43.8
+    developer_ergonomics: 51.8
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 49.5
   provenance:
     conformance: derived
     contracts:
@@ -278,13 +288,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/screenshots/sitejabber-2026-08-17T081908.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sitejabber/sitejabber-2026-08-17T081908.png
 security:
 - kind: authentication
   name: Sitejabber Authentication
@@ -294,6 +305,16 @@ security:
   name: Sitejabber Domain Security
   slug: sitejabber-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: sitejabber-handle-privacy-requests
+  slug: sitejabber-handle-privacy-requests
+- name: sitejabber-monitor-and-respond-to-reviews
+  slug: sitejabber-monitor-and-respond-to-reviews
+- name: sitejabber-request-reviews-after-purchase
+  slug: sitejabber-request-reviews-after-purchase
+- name: sitejabber-sync-product-catalog-and-reviews
+  slug: sitejabber-sync-product-catalog-and-reviews
 slug: sitejabber
 tags:
 - Company

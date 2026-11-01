@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.9
-  scored_at: '2026-10-17'
+  score: 47.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -164,11 +166,8 @@ apis:
     question: Which data sources are connected to my lakehouse?
   phrasing_ops: 1
   slug: dremio-intelligent-lakehouse-platform-sources-api
-artifact_total: 29
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Dremio Intelligent Lakehouse REST Authentication API
   slug: open-dremio-intelligent-lakehouse-platform-authentication-api
@@ -198,7 +197,7 @@ collections:
   slug: open-dremio-intelligent-lakehouse-platform
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/finops/dremio-intelligent-lakehouse-platform-finops.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/finops/dremio-intelligent-lakehouse-platform-finops.yml
   title: ''
   type: FinOps
   url: finops/dremio-intelligent-lakehouse-platform-finops.yml
@@ -207,22 +206,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/dremio
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/mcp/dremio-intelligent-lakehouse-platform-mcp.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/mcp/dremio-intelligent-lakehouse-platform-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/dremio-intelligent-lakehouse-platform-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/mcp/dremio-intelligent-lakehouse-platform-tool-crosswalk.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/mcp/dremio-intelligent-lakehouse-platform-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/dremio-intelligent-lakehouse-platform-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/well-known/dremio-intelligent-lakehouse-platform-well-known.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/well-known/dremio-intelligent-lakehouse-platform-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/dremio-intelligent-lakehouse-platform-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/well-known/dremio-intelligent-lakehouse-platform-security.txt
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/well-known/dremio-intelligent-lakehouse-platform-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/dremio-intelligent-lakehouse-platform-security.txt
@@ -231,7 +230,7 @@ common:
   type: Security
   url: https://www.dremio.com/platform/security/responsible-disclosure-limitations/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/security/dremio-intelligent-lakehouse-platform-trust-center.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/security/dremio-intelligent-lakehouse-platform-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dremio-intelligent-lakehouse-platform-trust-center.yml
@@ -240,42 +239,42 @@ common:
   type: Compliance
   url: https://trust.dremio.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/packages/dremio-intelligent-lakehouse-platform-packages.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/packages/dremio-intelligent-lakehouse-platform-packages.yml
   title: ''
   type: Packages
   url: packages/dremio-intelligent-lakehouse-platform-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/packages/dremio-intelligent-lakehouse-platform-packages.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/packages/dremio-intelligent-lakehouse-platform-packages.yml
   title: ''
   type: SDKs
   url: packages/dremio-intelligent-lakehouse-platform-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/cli/dremio-intelligent-lakehouse-platform-cli.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/cli/dremio-intelligent-lakehouse-platform-cli.yml
   title: ''
   type: CLI
   url: cli/dremio-intelligent-lakehouse-platform-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/conventions/dremio-intelligent-lakehouse-platform-conventions.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/conventions/dremio-intelligent-lakehouse-platform-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dremio-intelligent-lakehouse-platform-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/conventions/dremio-intelligent-lakehouse-platform-conventions.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/conventions/dremio-intelligent-lakehouse-platform-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/dremio-intelligent-lakehouse-platform-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/conformance/dremio-intelligent-lakehouse-platform-conformance.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/conformance/dremio-intelligent-lakehouse-platform-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dremio-intelligent-lakehouse-platform-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/errors/dremio-intelligent-lakehouse-platform-problem-types.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/errors/dremio-intelligent-lakehouse-platform-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dremio-intelligent-lakehouse-platform-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/lifecycle/dremio-intelligent-lakehouse-platform-lifecycle.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/lifecycle/dremio-intelligent-lakehouse-platform-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dremio-intelligent-lakehouse-platform-lifecycle.yml
@@ -284,42 +283,42 @@ common:
   type: StatusPage
   url: https://status.dremio.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/changelog/dremio-intelligent-lakehouse-platform-changelog.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/changelog/dremio-intelligent-lakehouse-platform-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/dremio-intelligent-lakehouse-platform-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/scopes/dremio-intelligent-lakehouse-platform-scopes.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/scopes/dremio-intelligent-lakehouse-platform-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/dremio-intelligent-lakehouse-platform-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/data-model/dremio-intelligent-lakehouse-platform-data-model.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/data-model/dremio-intelligent-lakehouse-platform-data-model.yml
   title: ''
   type: DataModel
   url: data-model/dremio-intelligent-lakehouse-platform-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/sandbox/dremio-intelligent-lakehouse-platform-sandbox.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/sandbox/dremio-intelligent-lakehouse-platform-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dremio-intelligent-lakehouse-platform-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/rate-limits/dremio-intelligent-lakehouse-platform-rate-limits.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/rate-limits/dremio-intelligent-lakehouse-platform-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dremio-intelligent-lakehouse-platform-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/plans/dremio-intelligent-lakehouse-platform-plans-pricing.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/plans/dremio-intelligent-lakehouse-platform-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dremio-intelligent-lakehouse-platform-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/llms/dremio-intelligent-lakehouse-platform-llms.txt
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/llms/dremio-intelligent-lakehouse-platform-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dremio-intelligent-lakehouse-platform-llms.txt
@@ -352,22 +351,22 @@ common:
   type: Support
   url: https://support.dremio.com/hc/en-us
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/agentic-access/dremio-intelligent-lakehouse-platform-agentic-access.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/agentic-access/dremio-intelligent-lakehouse-platform-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dremio-intelligent-lakehouse-platform-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/security/dremio-intelligent-lakehouse-platform-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/security/dremio-intelligent-lakehouse-platform-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/dremio-intelligent-lakehouse-platform-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/security/dremio-intelligent-lakehouse-platform-domain-security.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/security/dremio-intelligent-lakehouse-platform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dremio-intelligent-lakehouse-platform-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/authentication/dremio-intelligent-lakehouse-platform-authentication.yml
+  href: https://artifacts.apis.io/dremio-intelligent-lakehouse-platform/authentication/dremio-intelligent-lakehouse-platform-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dremio-intelligent-lakehouse-platform-authentication.yml
@@ -402,13 +401,13 @@ common:
 created: '2025-07-15'
 description: Dremio is an agentic lakehouse platform built natively on Apache Iceberg, Polaris, and Arrow, combining AI-powered analytics with unified data access and governance across multiple data sources without requiring ETL pipelines.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Dremio Intelligent Lakehouse Platform Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: dcu (dremio compute unit)
+  service_category: ''
   slug: dremio-intelligent-lakehouse-platform-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dremio-intelligent-lakehouse-platform.png
 layout: provider
 mcp_servers:
@@ -425,9 +424,9 @@ overview: 'Dremio | Intelligent Lakehouse Platform publishes 9 API contracts ind
   Dremio | Intelligent Lakehouse Platform''s developer surface includes CLI, changelog, sandbox, API reference, getting-started guide, pricing, signup flow, and 37 more developer resources.'
 plans:
 - name: Dremio Intelligent Lakehouse Platform Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: dremio-intelligent-lakehouse-platform-plans-pricing
-random_paper: 4
+random_paper: 20
 rate_limits:
 - limit_count: 9
   name: Dremio Intelligent Lakehouse Platform Rate Limits
@@ -439,23 +438,28 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode/tokenExchange
 score:
   band: exemplar
-  composite: 67.9
+  composite: 68.1
   coverage:
     artifact_dirs: 26
-    catalog_earned: 61.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -0.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 89.5
     contract_governance: 18.2
-    contract_quality: 44.8
+    contract_quality: 42.2
     developer_ergonomics: 80.4
-    discoverability: 68.3
-    operational_transparency: 76.3
-  previous_composite: 69.4
+    discoverability: 71.7
+    operational_transparency: 78.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 68.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -472,13 +476,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/screenshots/dremio-intelligent-lakehouse-platform-2026-06-20T180225.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dremio-intelligent-lakehouse-platform/dremio-intelligent-lakehouse-platform-2026-06-20T180225.png
 security:
 - kind: authentication
   name: Dremio Intelligent Lakehouse Platform Authentication
@@ -496,6 +501,16 @@ security:
   name: Dremio Intelligent Lakehouse Platform Trust Center
   slug: dremio-intelligent-lakehouse-platform-trust-center
   summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, HIPAA
+skill_count: 4
+skills:
+- name: Authenticate an agent to Dremio
+  slug: dremio-intelligent-lakehouse-platform-authenticate
+- name: Explore the Dremio catalog and describe a dataset
+  slug: dremio-intelligent-lakehouse-platform-explore-catalog
+- name: Manage Dremio Reflections safely
+  slug: dremio-intelligent-lakehouse-platform-manage-reflections
+- name: Run a SQL query on Dremio and read the results
+  slug: dremio-intelligent-lakehouse-platform-run-sql-query
 slug: dremio-intelligent-lakehouse-platform
 tags:
 - Data

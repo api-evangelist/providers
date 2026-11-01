@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Crossover provides a developer portal with API reference pages, but no machine‑readable OpenAPI/GraphQL/AsyncAPI contract was found.
@@ -32,7 +34,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crossover/refs/heads/main/well-known/crossover-clarity-security.txt
+  href: https://artifacts.apis.io/crossover/well-known/crossover-clarity-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/crossover-clarity-security.txt
@@ -41,22 +43,22 @@ common:
   type: Security
   url: https://clarity.com/vdp
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crossover/refs/heads/main/well-known/crossover-status-security.txt
+  href: https://artifacts.apis.io/crossover/well-known/crossover-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/crossover-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/crossover/refs/heads/main/well-known/crossover-well-known.yml
+  href: https://artifacts.apis.io/crossover/well-known/crossover-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/crossover-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crossover/refs/heads/main/hosts/crossover-hosts.yml
+  href: https://artifacts.apis.io/crossover/hosts/crossover-hosts.yml
   title: ''
   type: Hosts
   url: hosts/crossover-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/crossover/refs/heads/main/vendors/crossover-vendors.yml
+  href: https://artifacts.apis.io/crossover/vendors/crossover-vendors.yml
   title: ''
   type: Vendors
   url: vendors/crossover-vendors.yml
@@ -65,12 +67,12 @@ common:
   type: StatusPage
   url: https://status.crossover.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crossover/refs/heads/main/security/crossover-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/crossover/security/crossover-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/crossover-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/crossover/refs/heads/main/security/crossover-domain-security.yml
+  href: https://artifacts.apis.io/crossover/security/crossover-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/crossover-domain-security.yml
@@ -133,11 +135,11 @@ modified: '2026-10-11'
 name: Crossover
 nav: Providers
 network: true
-overview: 'Crossover is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Remote Work, Artificial Intelligence, and TalentMarketplace.
+overview: 'Crossover is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Remote Work, Artificial Intelligence, and Talent Marketplace.
 
 
   Crossover''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 8
+random_paper: 14
 score:
   band: thin
   composite: 27.2
@@ -148,6 +150,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
@@ -155,6 +158,7 @@ score:
     developer_ergonomics: 45.2
     discoverability: 53.6
     operational_transparency: 26.3
+  previous_composite: 27.2
   provenance:
     mcp: unknown
   regulatory:
@@ -163,8 +167,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 18.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -184,6 +189,6 @@ tags:
 - Recruiting
 - Remote Work
 - Artificial Intelligence
-- TalentMarketplace
+- Talent Marketplace
 website: https://crossoverhealth.com
 ---

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 2
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 79
   slug: athenian-agentic-access
   summary_line: 79 operations · 41 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.athenian.co/v1
   baseurl_source: declared
@@ -120,11 +122,8 @@ apis:
   description: The version API from Athenian — 1 operation(s) for version.
   name: Athenian Version API
   slug: athenian-version-api
-artifact_total: 35
+artifact_total: 36
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: '{{ title }} align API'
   slug: open-athenian-align-api
@@ -175,12 +174,12 @@ collections:
   slug: open-athenian-version-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/capabilities/athenian-capability-edges.yml
+  href: https://artifacts.apis.io/athenian/capabilities/athenian-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/athenian-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/overlays/athenian-openapi-overlay.yaml
+  href: https://artifacts.apis.io/athenian/overlays/athenian-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/athenian-openapi-overlay.yaml
@@ -193,37 +192,37 @@ common:
   type: License
   url: https://github.com/athenianco/athenian-api-open/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/agentic-access/athenian-agentic-access.yml
+  href: https://artifacts.apis.io/athenian/agentic-access/athenian-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/athenian-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/security/athenian-domain-security.yml
+  href: https://artifacts.apis.io/athenian/security/athenian-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/athenian-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/authentication/athenian-authentication.yml
+  href: https://artifacts.apis.io/athenian/authentication/athenian-authentication.yml
   title: ''
   type: Authentication
   url: authentication/athenian-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/mcp/athenian-mcp.yml
+  href: https://artifacts.apis.io/athenian/mcp/athenian-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/athenian-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/athenian/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/lifecycle/athenian-lifecycle.yml
+  href: https://artifacts.apis.io/athenian/lifecycle/athenian-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/athenian-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/llms/athenian-llms.txt
+  href: https://artifacts.apis.io/athenian/llms/athenian-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/athenian-llms.txt
@@ -251,7 +250,7 @@ overview: 'Athenian publishes 15 API contracts indexed on the [APIs.io](https://
 
 
   Athenian''s developer surface includes authentication and 13 more developer resources.'
-random_paper: 4
+random_paper: 0
 score:
   band: minimal
   composite: 0.0
@@ -288,13 +287,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 72.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/screenshots/athenian-2026-07-25T201535.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/athenian/athenian-2026-07-25T201535.png
 security:
 - kind: authentication
   name: Athenian Authentication
@@ -304,6 +304,12 @@ security:
   name: Athenian Domain Security
   slug: athenian-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Notify Athenian of deployments and releases
+  slug: athenian-notify-deployments-releases
+- name: Calculate pull request delivery metrics
+  slug: athenian-pull-request-metrics
 slug: athenian
 tags:
 - Company
@@ -312,7 +318,7 @@ tags:
 - Developer Productivity
 - DevOps
 - Metrics
-- Git
+- Version Control
 - Jira
 - CI/CD
 - Analytics

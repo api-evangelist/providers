@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'OGC-standard web services served from a GeoServer instance. Verified anonymously on 2026-08-20: a WMS 1.3.0 GetCapabilities document declaring 193 layers and a WFS 2.0.0 GetCapabilities document decla'
@@ -43,7 +45,7 @@ name: Deutscher Wetterdienst
 nav: Providers
 network: true
 overview: Deutscher Wetterdienst is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial, OGC, WMS, WFS, and Open Access.
-random_paper: 16
+random_paper: 22
 score:
   band: minimal
   composite: 3.4
@@ -69,14 +71,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/deutscher-wetterdienst/refs/heads/main/screenshots/deutscher-wetterdienst-2026-09-02T145231.png
+screenshot: https://apis.io/screenshots/deutscher-wetterdienst/deutscher-wetterdienst-2026-09-02T145231.png
 slug: deutscher-wetterdienst
 tags:
 - Geospatial

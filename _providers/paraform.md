@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +71,7 @@ common:
   type: PrivacyPolicy
   url: https://www.paraform.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paraform/refs/heads/main/security/paraform-domain-security.yml
+  href: https://artifacts.apis.io/paraform/security/paraform-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paraform-domain-security.yml
@@ -85,10 +87,10 @@ overview: 'Paraform is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Paraform''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 20
+random_paper: 16
 score:
   band: emerging
-  composite: 11.9
+  composite: 12.3
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -101,24 +103,24 @@ score:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 11.9
+  previous_composite: 12.3
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/paraform/refs/heads/main/screenshots/paraform-2026-08-07T191406.png
+screenshot: https://apis.io/screenshots/paraform/paraform-2026-08-07T191406.png
 security:
 - kind: domain-security
   name: Paraform Domain Security

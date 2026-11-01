@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The public JSON backend of DCAA's Field Audit Office Branch Locator. It resolves the DCAA field audit office cognizant over a contractor from a CAGE code (searchType 0), a SAM.gov Unique Entity Identi
@@ -50,57 +52,57 @@ collections:
   slug: open-defense-contract-audit-agency
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/finops/defense-contract-audit-agency-finops.yml
+  href: https://artifacts.apis.io/defense-contract-audit-agency/finops/defense-contract-audit-agency-finops.yml
   title: ''
   type: FinOps
   url: finops/defense-contract-audit-agency-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/security/defense-contract-audit-agency-domain-security.yml
+  href: https://artifacts.apis.io/defense-contract-audit-agency/security/defense-contract-audit-agency-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/defense-contract-audit-agency-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/authentication/defense-contract-audit-agency-authentication.yml
+  href: https://artifacts.apis.io/defense-contract-audit-agency/authentication/defense-contract-audit-agency-authentication.yml
   title: ''
   type: Authentication
   url: authentication/defense-contract-audit-agency-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/scopes/defense-contract-audit-agency-scopes.yml
+  href: https://artifacts.apis.io/defense-contract-audit-agency/scopes/defense-contract-audit-agency-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/defense-contract-audit-agency-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/conventions/defense-contract-audit-agency-conventions.yml
+  href: https://artifacts.apis.io/defense-contract-audit-agency/conventions/defense-contract-audit-agency-conventions.yml
   title: ''
   type: Conventions
   url: conventions/defense-contract-audit-agency-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/errors/defense-contract-audit-agency-problem-types.yml
+  href: https://artifacts.apis.io/defense-contract-audit-agency/errors/defense-contract-audit-agency-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/defense-contract-audit-agency-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/conformance/defense-contract-audit-agency-conformance.yml
+  href: https://artifacts.apis.io/defense-contract-audit-agency/conformance/defense-contract-audit-agency-conformance.yml
   title: ''
   type: Conformance
   url: conformance/defense-contract-audit-agency-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/lifecycle/defense-contract-audit-agency-lifecycle.yml
+  href: https://artifacts.apis.io/defense-contract-audit-agency/lifecycle/defense-contract-audit-agency-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/defense-contract-audit-agency-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/rate-limits/defense-contract-audit-agency-rate-limits.yml
+  href: https://artifacts.apis.io/defense-contract-audit-agency/rate-limits/defense-contract-audit-agency-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/defense-contract-audit-agency-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/plans/defense-contract-audit-agency-plans-pricing.yml
+  href: https://artifacts.apis.io/defense-contract-audit-agency/plans/defense-contract-audit-agency-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/defense-contract-audit-agency-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/llms/defense-contract-audit-agency-llms.txt
+  href: https://artifacts.apis.io/defense-contract-audit-agency/llms/defense-contract-audit-agency-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/defense-contract-audit-agency-llms.txt
@@ -156,7 +158,7 @@ plans:
 - name: Defense Contract Audit Agency Plans Pricing
   plan_count: 0
   slug: defense-contract-audit-agency-plans-pricing
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Defense Contract Audit Agency Rate Limits
@@ -168,7 +170,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.7
+  composite: 21.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -176,20 +178,20 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 22.3
+  previous_composite: 21.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -199,14 +201,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/screenshots/defense-contract-audit-agency-2026-06-20T175820.png
+screenshot: https://apis.io/screenshots/defense-contract-audit-agency/defense-contract-audit-agency-2026-06-20T175820.png
 security:
 - kind: authentication
   name: Defense Contract Audit Agency Authentication

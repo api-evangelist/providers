@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Core JavaScript APIs for building Lightning Web Components including decorators, wire service, and component lifecycle methods.
@@ -42,7 +44,7 @@ apis:
 artifact_total: 8
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/finops/lightning-web-components-finops.yml
+  href: https://artifacts.apis.io/lightning-web-components/finops/lightning-web-components-finops.yml
   title: ''
   type: FinOps
   url: finops/lightning-web-components-finops.yml
@@ -51,7 +53,7 @@ common:
   type: Website
   url: https://lwc.dev/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/security/lightning-web-components-domain-security.yml
+  href: https://artifacts.apis.io/lightning-web-components/security/lightning-web-components-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lightning-web-components-domain-security.yml
@@ -68,97 +70,97 @@ common:
   type: Examples
   url: https://github.com/trailheadapps/lwc-recipes
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/packages/lightning-web-components-packages.yml
+  href: https://artifacts.apis.io/lightning-web-components/packages/lightning-web-components-packages.yml
   title: ''
   type: Packages
   url: packages/lightning-web-components-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/packages/lightning-web-components-packages.yml
+  href: https://artifacts.apis.io/lightning-web-components/packages/lightning-web-components-packages.yml
   title: ''
   type: SDKs
   url: packages/lightning-web-components-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/mcp/lightning-web-components-mcp.yml
+  href: https://artifacts.apis.io/lightning-web-components/mcp/lightning-web-components-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/lightning-web-components-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/llms/lightning-web-components-llms.txt
+  href: https://artifacts.apis.io/lightning-web-components/llms/lightning-web-components-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/lightning-web-components-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/conformance/lightning-web-components-conformance.yml
+  href: https://artifacts.apis.io/lightning-web-components/conformance/lightning-web-components-conformance.yml
   title: ''
   type: Conformance
   url: conformance/lightning-web-components-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/errors/lightning-web-components-error-codes.yml
+  href: https://artifacts.apis.io/lightning-web-components/errors/lightning-web-components-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/lightning-web-components-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/lifecycle/lightning-web-components-lifecycle.yml
+  href: https://artifacts.apis.io/lightning-web-components/lifecycle/lightning-web-components-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/lightning-web-components-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/lifecycle/lightning-web-components-lifecycle.yml
+  href: https://artifacts.apis.io/lightning-web-components/lifecycle/lightning-web-components-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/lightning-web-components-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/changelog/lightning-web-components-changelog.yml
+  href: https://artifacts.apis.io/lightning-web-components/changelog/lightning-web-components-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/lightning-web-components-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/conventions/lightning-web-components-conventions.yml
+  href: https://artifacts.apis.io/lightning-web-components/conventions/lightning-web-components-conventions.yml
   title: ''
   type: Conventions
   url: conventions/lightning-web-components-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/cli/lightning-web-components-cli.yml
+  href: https://artifacts.apis.io/lightning-web-components/cli/lightning-web-components-cli.yml
   title: ''
   type: CLI
   url: cli/lightning-web-components-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/components/lightning-web-components-components.yml
+  href: https://artifacts.apis.io/lightning-web-components/components/lightning-web-components-components.yml
   title: ''
   type: Components
   url: components/lightning-web-components-components.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/sandbox/lightning-web-components-sandbox.yml
+  href: https://artifacts.apis.io/lightning-web-components/sandbox/lightning-web-components-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/lightning-web-components-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/security/lightning-web-components-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lightning-web-components/security/lightning-web-components-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/lightning-web-components-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/security/lightning-web-components-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/lightning-web-components/security/lightning-web-components-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/lightning-web-components-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/security/lightning-web-components-trust-center.yml
+  href: https://artifacts.apis.io/lightning-web-components/security/lightning-web-components-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/lightning-web-components-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/security/lightning-web-components-trust-center.yml
+  href: https://artifacts.apis.io/lightning-web-components/security/lightning-web-components-trust-center.yml
   title: ''
   type: Compliance
   url: security/lightning-web-components-trust-center.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/plans/lightning-web-components-plans-pricing.yml
+  href: https://artifacts.apis.io/lightning-web-components/plans/lightning-web-components-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lightning-web-components-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/rate-limits/lightning-web-components-rate-limits.yml
+  href: https://artifacts.apis.io/lightning-web-components/rate-limits/lightning-web-components-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lightning-web-components-rate-limits.yml
@@ -204,7 +206,7 @@ finops:
 - has_sources: false
   method: generated
   name: Lightning Web Components Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: lightning-web-components-finops
   template: true
@@ -226,14 +228,14 @@ plans:
 - name: Lightning Web Components Plans Pricing
   plan_count: 0
   slug: lightning-web-components-plans-pricing
-random_paper: 2
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Lightning Web Components Rate Limits
   slug: lightning-web-components-rate-limits
 score:
   band: thin
-  composite: 37.3
+  composite: 37.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 32.0
@@ -241,15 +243,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 6.5
     developer_ergonomics: 66.7
-    discoverability: 63.3
-    operational_transparency: 36.8
-  previous_composite: 38.8
+    discoverability: 56.7
+    operational_transparency: 39.5
+  previous_composite: 37.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -259,14 +261,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/screenshots/lightning-web-components-2026-06-20T184521.png
+screenshot: https://apis.io/screenshots/lightning-web-components/lightning-web-components-2026-06-20T184521.png
 security:
 - kind: domain-security
   name: Lightning Web Components Domain Security

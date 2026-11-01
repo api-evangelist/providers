@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.3
-  scored_at: '2026-10-17'
+  score: 24.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -94,11 +96,8 @@ apis:
   description: The Users API from Pushbullet — 1 operation(s) for users.
   name: Pushbullet Users API
   slug: pushbullet-users-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Pushbullet Realtime Event Stream
   slug: open-pushbullet-asyncapi
@@ -134,22 +133,22 @@ collections:
   slug: open-pushbullet
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/agentic-access/pushbullet-agentic-access.yml
+  href: https://artifacts.apis.io/pushbullet/agentic-access/pushbullet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pushbullet-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/security/pushbullet-domain-security.yml
+  href: https://artifacts.apis.io/pushbullet/security/pushbullet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pushbullet-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/authentication/pushbullet-authentication.yml
+  href: https://artifacts.apis.io/pushbullet/authentication/pushbullet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pushbullet-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/scopes/pushbullet-scopes.yml
+  href: https://artifacts.apis.io/pushbullet/scopes/pushbullet-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/pushbullet-scopes.yml
@@ -201,7 +200,7 @@ overview: 'Pushbullet publishes 11 API contracts indexed on the [APIs.io](https:
 
 
   Pushbullet''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 8 more developer resources.'
-random_paper: 18
+random_paper: 16
 scopes:
 - name: Pushbullet Scopes
   scope_count: 1
@@ -209,7 +208,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 30.0
+  composite: 30.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -221,11 +220,11 @@ score:
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 54.6
+    contract_quality: 51.6
     developer_ergonomics: 23.8
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 30.0
+    operational_transparency: 5.3
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -239,13 +238,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 24.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/screenshots/pushbullet-2026-06-20T192316.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pushbullet/pushbullet-2026-06-20T192316.png
 security:
 - kind: authentication
   name: Pushbullet Authentication

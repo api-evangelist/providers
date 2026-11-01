@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The ALEX Partner Integration API lets a Jellyvision partner — typically a benefits administration or enrollment platform — streamline and personalize the ALEX experience for its end users. Partners PO
@@ -46,7 +48,7 @@ apis:
 artifact_total: 8
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jellyvision/refs/heads/main/rate-limits/jellyvision-rate-limits.yml
+  href: https://artifacts.apis.io/jellyvision/rate-limits/jellyvision-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jellyvision-rate-limits.yml
@@ -55,7 +57,7 @@ common:
   type: BlogRSS
   url: https://www.jellyvision.com/resources/blog/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jellyvision/refs/heads/main/security/jellyvision-trust-center.yml
+  href: https://artifacts.apis.io/jellyvision/security/jellyvision-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/jellyvision-trust-center.yml
@@ -100,37 +102,37 @@ common:
   type: Compliance
   url: https://www.jellyvision.com/security/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jellyvision/refs/heads/main/mcp/jellyvision-mcp.yml
+  href: https://artifacts.apis.io/jellyvision/mcp/jellyvision-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/jellyvision-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jellyvision/refs/heads/main/llms/jellyvision-llms.txt
+  href: https://artifacts.apis.io/jellyvision/llms/jellyvision-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jellyvision-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jellyvision/refs/heads/main/well-known/jellyvision-well-known.yml
+  href: https://artifacts.apis.io/jellyvision/well-known/jellyvision-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jellyvision-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jellyvision/refs/heads/main/packages/jellyvision-packages.yml
+  href: https://artifacts.apis.io/jellyvision/packages/jellyvision-packages.yml
   title: ''
   type: Packages
   url: packages/jellyvision-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jellyvision/refs/heads/main/conformance/jellyvision-conformance.yml
+  href: https://artifacts.apis.io/jellyvision/conformance/jellyvision-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jellyvision-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jellyvision/refs/heads/main/security/jellyvision-domain-security.yml
+  href: https://artifacts.apis.io/jellyvision/security/jellyvision-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jellyvision-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jellyvision/refs/heads/main/plans/jellyvision-plans-pricing.yml
+  href: https://artifacts.apis.io/jellyvision/plans/jellyvision-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jellyvision-plans-pricing.yml
@@ -154,7 +156,7 @@ plans:
 - name: Jellyvision Plans Pricing
   plan_count: 0
   slug: jellyvision-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Jellyvision Rate Limits
@@ -166,7 +168,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 32.3
+  composite: 31.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -180,8 +182,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 75.0
-    operational_transparency: 2.6
+    discoverability: 65.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -189,7 +191,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 32.3
+  previous_composite: 31.6
   provenance:
     conformance: first-party
     mcp: site-plugin
@@ -199,14 +201,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jellyvision/refs/heads/main/screenshots/jellyvision-2026-09-02T145934.png
+screenshot: https://apis.io/screenshots/jellyvision/jellyvision-2026-09-02T145934.png
 security:
 - kind: authentication
   name: Jellyvision Authentication

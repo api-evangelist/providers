@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -65,17 +67,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/thanksben
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ben/refs/heads/main/well-known/ben-security.txt
+  href: https://artifacts.apis.io/ben/well-known/ben-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ben-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ben/refs/heads/main/well-known/ben-well-known.yml
+  href: https://artifacts.apis.io/ben/well-known/ben-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ben-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ben/refs/heads/main/security/ben-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ben/security/ben-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ben-vulnerability-disclosure.yml
@@ -84,12 +86,12 @@ common:
   type: Security
   url: https://thanksben.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ben/refs/heads/main/security/ben-domain-security.yml
+  href: https://artifacts.apis.io/ben/security/ben-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ben-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ben/refs/heads/main/security/ben-trust-center.yml
+  href: https://artifacts.apis.io/ben/security/ben-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ben-trust-center.yml
@@ -105,10 +107,10 @@ overview: 'Ben is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Ben''s developer surface includes support, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 1
+random_paper: 21
 score:
   band: emerging
-  composite: 16.7
+  composite: 17.0
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -123,22 +125,22 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 13.2
-  previous_composite: 16.7
+    operational_transparency: 15.8
+  previous_composite: 17.0
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ben/refs/heads/main/screenshots/ben-2026-07-25T202722.png
+screenshot: https://apis.io/screenshots/ben/ben-2026-07-25T202722.png
 security:
 - kind: domain-security
   name: Ben Domain Security

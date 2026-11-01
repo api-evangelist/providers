@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +58,7 @@ apis:
   description: Operations for searching and retrieving package information
   name: Google Flutter Packages API
   slug: google-flutter-packages-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: postman
   name: Google Flutter Pub.dev Documentation API
@@ -64,9 +66,6 @@ collections:
 - collection_type: postman
   name: Google Flutter Pub.dev Documentation Packages API
   slug: postman-google-flutter-packages-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google Flutter Pub.dev API
   slug: open-flutter-pub-dev
@@ -77,18 +76,23 @@ collections:
   name: Google Flutter Pub.dev Documentation Packages API
   slug: open-google-flutter-packages-api
 common:
+- group: other
+  href: https://artifacts.apis.io/google-flutter/capabilities/google-flutter-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/google-flutter-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/plans/google-flutter-plans-pricing.yml
+  href: https://artifacts.apis.io/google-flutter/plans/google-flutter-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-flutter-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/rate-limits/google-flutter-rate-limits.yml
+  href: https://artifacts.apis.io/google-flutter/rate-limits/google-flutter-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-flutter-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/finops/google-flutter-finops.yml
+  href: https://artifacts.apis.io/google-flutter/finops/google-flutter-finops.yml
   title: ''
   type: FinOps
   url: finops/google-flutter-finops.yml
@@ -101,17 +105,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/google-flutter/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/agentic-access/google-flutter-agentic-access.yml
+  href: https://artifacts.apis.io/google-flutter/agentic-access/google-flutter-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-flutter-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/security/google-flutter-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/google-flutter/security/google-flutter-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/google-flutter-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/security/google-flutter-domain-security.yml
+  href: https://artifacts.apis.io/google-flutter/security/google-flutter-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-flutter-domain-security.yml
@@ -156,7 +160,7 @@ common:
   type: Support
   url: https://flutter.dev/community
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/json-ld/google-flutter-context.jsonld
+  href: https://artifacts.apis.io/google-flutter/json-ld/google-flutter-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-flutter-context.jsonld
@@ -174,7 +178,7 @@ finops:
 - has_sources: false
   method: generated
   name: Google Flutter Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: google-flutter-finops
   template: true
@@ -199,12 +203,12 @@ overview: 'Google Flutter publishes 3 API contracts indexed on the [APIs.io](htt
   The Google Flutter catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Flutter''s developer surface includes developer portal, getting-started guide, documentation, authentication, support, engineering blog, and 15 more developer resources.'
+  Google Flutter''s developer surface includes developer portal, getting-started guide, documentation, authentication, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Google Flutter Plans Pricing
   plan_count: 3
   slug: google-flutter-plans-pricing
-random_paper: 4
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Google Flutter Rate Limits
@@ -223,23 +227,23 @@ rules:
   slug: google-flutter-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.3
+  composite: 44.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 51.7
     catalog_earned_first_party: 0.0
     catalog_gap: 63.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 51.5
     developer_ergonomics: 58.3
     discoverability: 64.3
-    operational_transparency: 23.7
-  previous_composite: 48.9
+    operational_transparency: 34.2
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -253,14 +257,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/screenshots/google-flutter-2026-06-20T182202.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-flutter/google-flutter-2026-06-20T182202.png
 security:
 - kind: domain-security
   name: Google Flutter Domain Security

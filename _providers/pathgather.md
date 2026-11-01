@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 common:
@@ -45,7 +47,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/pathgather
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pathgather/refs/heads/main/packages/pathgather-packages.yml
+  href: https://artifacts.apis.io/pathgather/packages/pathgather-packages.yml
   title: ''
   type: Packages
   url: packages/pathgather-packages.yml
@@ -61,7 +63,7 @@ overview: Pathgather is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 8
 score:
   band: minimal
-  composite: 2.4
+  composite: 2.7
   coverage:
     artifact_dirs: 3
     catalog_earned: 27.0
@@ -76,7 +78,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -84,27 +86,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
-  previous_composite: 2.4
+  previous_composite: 2.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pathgather/refs/heads/main/screenshots/pathgather-2026-08-07T191547.png
+screenshot: https://apis.io/screenshots/pathgather/pathgather-2026-08-07T191547.png
 slug: pathgather
 tags:
 - Company

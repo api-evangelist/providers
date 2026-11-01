@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,9 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -73,57 +75,57 @@ common:
   type: License
   url: https://github.com/pgvector/pgvector/blob/master/LICENSE
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/packages/pgvector-packages.yml
+  href: https://artifacts.apis.io/pgvector/packages/pgvector-packages.yml
   title: ''
   type: Packages
   url: packages/pgvector-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/packages/pgvector-packages.yml
+  href: https://artifacts.apis.io/pgvector/packages/pgvector-packages.yml
   title: ''
   type: SDKs
   url: packages/pgvector-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/changelog/pgvector-changelog.yml
+  href: https://artifacts.apis.io/pgvector/changelog/pgvector-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pgvector-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/lifecycle/pgvector-lifecycle.yml
+  href: https://artifacts.apis.io/pgvector/lifecycle/pgvector-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pgvector-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/data-model/pgvector-data-model.yml
+  href: https://artifacts.apis.io/pgvector/data-model/pgvector-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pgvector-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/conventions/pgvector-conventions.yml
+  href: https://artifacts.apis.io/pgvector/conventions/pgvector-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pgvector-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/errors/pgvector-problem-types.yml
+  href: https://artifacts.apis.io/pgvector/errors/pgvector-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pgvector-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/conformance/pgvector-conformance.yml
+  href: https://artifacts.apis.io/pgvector/conformance/pgvector-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pgvector-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/plans/pgvector-plans-pricing.yml
+  href: https://artifacts.apis.io/pgvector/plans/pgvector-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pgvector-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/llms/pgvector-llms.txt
+  href: https://artifacts.apis.io/pgvector/llms/pgvector-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pgvector-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pgvector/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -135,7 +137,7 @@ modified: '2026-08-27'
 name: pgvector
 nav: Providers
 network: true
-overview: 'pgvector is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Vector Database, Database, Open Source, and PostgreSQL.
+overview: 'pgvector is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Vector Search, Database, Open Source, and PostgreSQL.
 
 
   pgvector''s developer surface includes documentation, API reference, getting-started guide, support, changelog, and 15 more developer resources.'
@@ -143,10 +145,10 @@ plans:
 - name: Pgvector Plans Pricing
   plan_count: 0
   slug: pgvector-plans-pricing
-random_paper: 16
+random_paper: 10
 score:
   band: emerging
-  composite: 14.6
+  composite: 15.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 27.0
@@ -154,15 +156,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 42.3
     discoverability: 48.2
-    operational_transparency: 18.4
-  previous_composite: 14.5
+    operational_transparency: 21.1
+  previous_composite: 15.0
   provenance:
     conformance: derived
     mcp: derived
@@ -173,18 +175,24 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 4.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads/main/screenshots/pgvector-2026-09-02T151129.png
+screenshot: https://apis.io/screenshots/pgvector/pgvector-2026-09-02T151129.png
+skill_count: 2
+skills:
+- name: pgvector-quantized-search
+  slug: pgvector-quantized-search
+- name: pgvector-semantic-search
+  slug: pgvector-semantic-search
 slug: pgvector
 tags:
 - Artificial Intelligence
-- Vector Database
+- Vector Search
 - Database
 - Open Source
 - PostgreSQL
@@ -192,5 +200,4 @@ tags:
 - Embeddings
 - Extensions
 - Company
-- Vector Search
 ---

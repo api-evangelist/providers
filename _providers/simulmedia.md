@@ -10,42 +10,58 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: false
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.8
-  scored_at: '2026-10-17'
+  score: 3.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: In-game rewarded-video ad API. A game server exchanges client credentials for a Bearer token, then requests ad opportunities for a player and reports the playback lifecycle (start, progress, complete,
   name: PlayerWON API
   slug: playerwon-api
-artifact_total: 5
+artifact_total: 7
 common:
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/simulmedia/refs/heads/main/rate-limits/simulmedia-rate-limits.yml
+- group: start
+  href: https://artifacts.apis.io/simulmedia/sandbox/simulmedia-sandbox.yml
   title: ''
-  type: RateLimits
-  url: rate-limits/simulmedia-rate-limits.yml
+  type: Sandbox
+  url: sandbox/simulmedia-sandbox.yml
+- group: other
+  href: https://artifacts.apis.io/simulmedia/hosts/simulmedia-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/simulmedia-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/simulmedia/vendors/simulmedia-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/simulmedia-vendors.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.simulmedia.com/team
 - group: operate
   title: ''
   type: IssueTracker
@@ -55,7 +71,7 @@ common:
   type: Releases
   url: https://github.com/Simulmedia/playerwon-sdk/releases
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simulmedia/refs/heads/main/security/simulmedia-domain-security.yml
+  href: https://artifacts.apis.io/simulmedia/security/simulmedia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simulmedia-domain-security.yml
@@ -63,11 +79,6 @@ common:
   title: ''
   type: Website
   url: https://simulmedia.com
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simulmedia/refs/heads/main/llms/simulmedia-llms.txt
-  title: ''
-  type: LLMsTxt
-  url: llms/simulmedia-llms.txt
 - group: build
   title: ''
   type: GitHubOrganization
@@ -88,6 +99,10 @@ common:
   title: ''
   type: Support
   url: https://simulmedia.com/contact-us
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.simulmedia.com/
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -97,12 +112,12 @@ common:
   type: TermsOfService
   url: https://simulmedia.com/terms
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/simulmedia/refs/heads/main/changelog/simulmedia-changelog.yml
+  href: https://artifacts.apis.io/simulmedia/changelog/simulmedia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/simulmedia-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/simulmedia/refs/heads/main/plans/simulmedia-plans-pricing.yml
+  href: https://artifacts.apis.io/simulmedia/plans/simulmedia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/simulmedia-plans-pricing.yml
@@ -110,6 +125,16 @@ common:
   title: ''
   type: DeveloperPortal
   url: https://www.playerwon.com/developers
+coverage:
+  checked: '2026-10-20'
+  detail: PlayerWON's ad-server API page on playerwon.com is a JS-rendered marketing page with no endpoint reference, and no OpenAPI, AsyncAPI or GraphQL contract is served on game.simulmedia-apis.com or in the Simulmedia GitHub org; the API is known only from the open-source SDK.
+  evidence:
+  - status: 200
+    url: https://www.playerwon.com/playerwon-ad-server-api
+  - status: 200
+    url: https://simulmedia.com
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-07-17'
 description: Simulmedia is a technology-driven television advertising company that helps advertisers, agencies, and growth marketers plan, buy, and measure campaigns across linear TV, connected TV (CTV), and games. Its products include the Performance TV media-buying service, the AI-powered TV+ media-buying platform, and Simulmedia Self-Serve. Through PlayerWON, Simulmedia operates an in-game rewarded-video engagement and monetization platform for free-to-play console and PC games, exposed to game developers through the PlayerWON API and a first-party Unity/Unreal SDK. Simulmedia is a portfolio company of Union Square Ventures. This profile was enriched by the API Evangelist pipeline from the company's public developer surface and the open-source PlayerWON SDK.
 image: https://logo.clearbit.com/simulmedia.com
@@ -121,7 +146,7 @@ network: true
 overview: 'Simulmedia is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Television, Connected TV, and Games.
 
 
-  Simulmedia''s developer surface includes engineering blog, signup flow, support, changelog, and 12 more developer resources.'
+  Simulmedia''s developer surface includes sandbox, engineering blog, signup flow, support, changelog, and 14 more developer resources.'
 plans:
 - name: Simulmedia Plans Pricing
   plan_count: 0
@@ -133,9 +158,9 @@ rate_limits:
   slug: simulmedia-rate-limits
 score:
   band: thin
-  composite: 32.0
+  composite: 31.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -143,13 +168,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 32.0
+    developer_ergonomics: 61.3
+    discoverability: 67.9
+    operational_transparency: 21.1
+  previous_composite: 31.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -163,15 +188,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/simulmedia/refs/heads/main/screenshots/simulmedia-2026-09-02T155606.png
+screenshot: https://apis.io/screenshots/simulmedia/simulmedia-2026-09-02T155606.png
 security:
 - kind: authentication
   name: Simulmedia Authentication
@@ -181,6 +206,12 @@ security:
   name: Simulmedia Domain Security
   slug: simulmedia-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: playerwon-rewarded-video
+  slug: simulmedia-playerwon-rewarded-video
+- name: playerwon-token-broker
+  slug: simulmedia-playerwon-token-broker
 slug: simulmedia
 tags:
 - Company

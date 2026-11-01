@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -24,22 +24,24 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-10-17'
+  score: 25.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The WaniWani AI-distribution platform and its hosted MCP server — build MCP funnels with the open-source SDK/CLI, operate environments, API keys, analytics and sessions via the OAuth 2.1 MCP server.
   name: WaniWani Platform
   slug: waniwani-platform
-artifact_total: 7
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -90,47 +92,47 @@ common:
   type: Support
   url: https://github.com/WaniWani-AI/sdk/issues
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/packages/waniwani-packages.yml
+  href: https://artifacts.apis.io/waniwani/packages/waniwani-packages.yml
   title: ''
   type: Packages
   url: packages/waniwani-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/packages/waniwani-packages.yml
+  href: https://artifacts.apis.io/waniwani/packages/waniwani-packages.yml
   title: ''
   type: SDKs
   url: packages/waniwani-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/cli/waniwani-cli.yml
+  href: https://artifacts.apis.io/waniwani/cli/waniwani-cli.yml
   title: ''
   type: CLI
   url: cli/waniwani-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/mcp/waniwani-mcp.yml
+  href: https://artifacts.apis.io/waniwani/mcp/waniwani-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/waniwani-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/llms/waniwani-llms.txt
+  href: https://artifacts.apis.io/waniwani/llms/waniwani-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/waniwani-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/well-known/waniwani-well-known.yml
+  href: https://artifacts.apis.io/waniwani/well-known/waniwani-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/waniwani-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/scopes/waniwani-scopes.yml
+  href: https://artifacts.apis.io/waniwani/scopes/waniwani-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/waniwani-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/authentication/waniwani-authentication.yml
+  href: https://artifacts.apis.io/waniwani/authentication/waniwani-authentication.yml
   title: ''
   type: Authentication
   url: authentication/waniwani-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/conformance/waniwani-conformance.yml
+  href: https://artifacts.apis.io/waniwani/conformance/waniwani-conformance.yml
   title: ''
   type: Conformance
   url: conformance/waniwani-conformance.yml
@@ -143,7 +145,7 @@ common:
   type: TrustCenter
   url: https://compliance.waniwani.ai/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/security/waniwani-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/waniwani/security/waniwani-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/waniwani-vulnerability-disclosure.yml
@@ -152,42 +154,42 @@ common:
   type: Security
   url: https://github.com/WaniWani-AI/sdk/blob/main/SECURITY.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/security/waniwani-domain-security.yml
+  href: https://artifacts.apis.io/waniwani/security/waniwani-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/waniwani-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/conventions/waniwani-conventions.yml
+  href: https://artifacts.apis.io/waniwani/conventions/waniwani-conventions.yml
   title: ''
   type: Conventions
   url: conventions/waniwani-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/changelog/waniwani-changelog.yml
+  href: https://artifacts.apis.io/waniwani/changelog/waniwani-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/waniwani-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/lifecycle/waniwani-lifecycle.yml
+  href: https://artifacts.apis.io/waniwani/lifecycle/waniwani-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/waniwani-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/lifecycle/waniwani-lifecycle.yml
+  href: https://artifacts.apis.io/waniwani/lifecycle/waniwani-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/waniwani-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/sandbox/waniwani-sandbox.yml
+  href: https://artifacts.apis.io/waniwani/sandbox/waniwani-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/waniwani-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/components/waniwani-components.yml
+  href: https://artifacts.apis.io/waniwani/components/waniwani-components.yml
   title: ''
   type: Components
   url: components/waniwani-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/skills/waniwani-sdk-skill.md
+  href: https://artifacts.apis.io/waniwani/skills/waniwani-sdk-skill.md
   title: ''
   type: AgentSkill
   url: skills/waniwani-sdk-skill.md
@@ -207,7 +209,7 @@ overview: 'Waniwani is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Waniwani''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 26 more developer resources.'
-random_paper: 4
+random_paper: 22
 scopes:
 - name: Waniwani Scopes
   scope_count: 25
@@ -215,9 +217,9 @@ scopes:
   summary_line: 25 scopes
 score:
   band: developing
-  composite: 43.0
+  composite: 47.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -225,13 +227,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 85.7
-    discoverability: 75.0
-    operational_transparency: 36.8
-  previous_composite: 43.0
+    discoverability: 65.0
+    operational_transparency: 39.5
+  previous_composite: 47.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -242,14 +244,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 43.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/waniwani/refs/heads/main/screenshots/waniwani-2026-08-17T082836.png
+screenshot: https://apis.io/screenshots/waniwani/waniwani-2026-08-17T082836.png
 security:
 - kind: authentication
   name: Waniwani Authentication
@@ -267,6 +269,10 @@ security:
   name: Waniwani Trust Center
   slug: waniwani-trust-center
   summary_line: SOC 2 Type II, GDPR, EU AI Act, DORA
+skill_count: 1
+skills:
+- name: waniwani-sdk
+  slug: waniwani-sdk-skill
 slug: waniwani
 tags:
 - Company

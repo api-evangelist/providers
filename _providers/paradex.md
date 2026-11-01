@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 41.7
-  scored_at: '2026-10-17'
+  score: 39.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 3
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 133
   slug: paradex-agentic-access
   summary_line: 133 operations · 51 acting · 3 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: wss://ws.api.prod.paradex.trade/v1
   baseurl_source: declared
@@ -143,93 +145,98 @@ asyncapis:
   name: WebSocket channels
   slug: paradex-websocket-asyncapi
 common:
+- group: other
+  href: https://artifacts.apis.io/paradex/capabilities/paradex-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/paradex-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/agentic-access/paradex-agentic-access.yml
+  href: https://artifacts.apis.io/paradex/agentic-access/paradex-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/paradex-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/rate-limits/paradex-rate-limits.yml
+  href: https://artifacts.apis.io/paradex/rate-limits/paradex-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/paradex-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/rules/paradex-rules.yml
+  href: https://artifacts.apis.io/paradex/rules/paradex-rules.yml
   title: ''
   type: Spectral
   url: rules/paradex-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/json-ld/paradex-context.jsonld
+  href: https://artifacts.apis.io/paradex/json-ld/paradex-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/paradex-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/vocabulary/paradex-vocabulary.yml
+  href: https://artifacts.apis.io/paradex/vocabulary/paradex-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/paradex-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/data-model/paradex-data-model.yml
+  href: https://artifacts.apis.io/paradex/data-model/paradex-data-model.yml
   title: ''
   type: DataModel
   url: data-model/paradex-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/errors/paradex-problem-types.yml
+  href: https://artifacts.apis.io/paradex/errors/paradex-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/paradex-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/conformance/paradex-conformance.yml
+  href: https://artifacts.apis.io/paradex/conformance/paradex-conformance.yml
   title: ''
   type: Conformance
   url: conformance/paradex-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/llms/paradex-llms.txt
+  href: https://artifacts.apis.io/paradex/llms/paradex-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/paradex-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/mcp/paradex-tool-crosswalk.yml
+  href: https://artifacts.apis.io/paradex/mcp/paradex-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/paradex-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/mcp/paradex-mcp.yml
+  href: https://artifacts.apis.io/paradex/mcp/paradex-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/paradex-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/well-known/paradex-well-known.yml
+  href: https://artifacts.apis.io/paradex/well-known/paradex-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/paradex-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/hosts/paradex-hosts.yml
+  href: https://artifacts.apis.io/paradex/hosts/paradex-hosts.yml
   title: ''
   type: Hosts
   url: hosts/paradex-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/vendors/paradex-vendors.yml
+  href: https://artifacts.apis.io/paradex/vendors/paradex-vendors.yml
   title: ''
   type: Vendors
   url: vendors/paradex-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/packages/paradex-packages.yml
+  href: https://artifacts.apis.io/paradex/packages/paradex-packages.yml
   title: ''
   type: SDKs
   url: packages/paradex-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/packages/paradex-packages.yml
+  href: https://artifacts.apis.io/paradex/packages/paradex-packages.yml
   title: ''
   type: Packages
   url: packages/paradex-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/authentication/paradex-authentication.yml
+  href: https://artifacts.apis.io/paradex/authentication/paradex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/paradex-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/paradex/refs/heads/main/security/paradex-domain-security.yml
+  href: https://artifacts.apis.io/paradex/security/paradex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/paradex-domain-security.yml
@@ -323,8 +330,8 @@ overview: 'Paradex publishes 21 API contracts indexed on the [APIs.io](https://a
   The Paradex catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Paradex''s developer surface includes authentication, documentation, getting-started guide, API reference, engineering blog, changelog, pricing, and 23 more developer resources.'
-random_paper: 15
+  Paradex''s developer surface includes authentication, documentation, getting-started guide, API reference, engineering blog, changelog, pricing, and 24 more developer resources.'
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Paradex Rate Limits
@@ -343,22 +350,24 @@ rules:
     warn: 6
   slug: paradex-rules
 score:
-  band: strong
-  composite: 56.0
+  band: developing
+  composite: 53.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 74.8
     catalog_earned_first_party: 12.0
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 22.0
-    contract_quality: 64.5
+    contract_quality: 63.8
     developer_ergonomics: 50.0
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 68.4
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -374,11 +383,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Paradex Authentication

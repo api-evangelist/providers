@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -14,17 +14,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 29.2
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: GraphQL gateway providing stateful mock query and mutation access to the same dataset, with an interactive explorer.
   name: Playground GraphQL API
@@ -74,7 +76,7 @@ apis:
   description: The To Dos API from Playground API — Free Stateful Mock REST & GraphQL Service — 2 operation(s) for to dos.
   name: Playground API — Free Stateful Mock REST & GraphQL Service To Dos API
   slug: playground-to-dos-api
-artifact_total: 15
+artifact_total: 18
 common:
 - group: company
   title: ''
@@ -97,77 +99,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/nileslabs
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/playground/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/overlays/playground-openapi-overlay.yaml
+  href: https://artifacts.apis.io/playground/overlays/playground-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/playground-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/mcp/playground-tool-crosswalk.yml
+  href: https://artifacts.apis.io/playground/mcp/playground-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/playground-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/mcp/playground-mcp.yml
+  href: https://artifacts.apis.io/playground/mcp/playground-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/playground-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/packages/playground-packages.yml
+  href: https://artifacts.apis.io/playground/packages/playground-packages.yml
   title: ''
   type: Packages
   url: packages/playground-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/sandbox/playground-sandbox.yml
+  href: https://artifacts.apis.io/playground/sandbox/playground-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/playground-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/conformance/playground-conformance.yml
+  href: https://artifacts.apis.io/playground/conformance/playground-conformance.yml
   title: ''
   type: Conformance
   url: conformance/playground-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/plans/playground-plans-pricing.yml
+  href: https://artifacts.apis.io/playground/plans/playground-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/playground-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/rate-limits/playground-rate-limits.yml
+  href: https://artifacts.apis.io/playground/rate-limits/playground-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/playground-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/data-model/playground-data-model.yml
+  href: https://artifacts.apis.io/playground/data-model/playground-data-model.yml
   title: ''
   type: DataModel
   url: data-model/playground-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/lifecycle/playground-lifecycle.yml
+  href: https://artifacts.apis.io/playground/lifecycle/playground-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/playground-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/errors/playground-problem-types.yml
+  href: https://artifacts.apis.io/playground/errors/playground-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/playground-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/conventions/playground-conventions.yml
+  href: https://artifacts.apis.io/playground/conventions/playground-conventions.yml
   title: ''
   type: Conventions
   url: conventions/playground-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/authentication/playground-authentication.yml
+  href: https://artifacts.apis.io/playground/authentication/playground-authentication.yml
   title: ''
   type: Authentication
   url: authentication/playground-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/security/playground-domain-security.yml
+  href: https://artifacts.apis.io/playground/security/playground-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/playground-domain-security.yml
@@ -190,14 +192,14 @@ plans:
 - name: Playground Plans Pricing
   plan_count: 1
   slug: playground-plans-pricing
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Playground Rate Limits
   slug: playground-rate-limits
 score:
   band: thin
-  composite: 32.0
+  composite: 32.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -205,15 +207,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 44.3
+    contract_quality: 41.3
     developer_ergonomics: 49.4
-    discoverability: 64.3
-    operational_transparency: 2.6
-  previous_composite: 31.5
+    discoverability: 63.3
+    operational_transparency: 5.3
+  previous_composite: 32.2
   provenance:
     conformance: derived
     contracts:
@@ -229,13 +231,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/playground/refs/heads/main/screenshots/playground-2026-10-11T112622.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/playground/playground-2026-10-11T112622.png
 security:
 - kind: authentication
   name: Playground Authentication
@@ -245,6 +248,14 @@ security:
   name: Playground Domain Security
   slug: playground-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: playground-chaos-simulation
+  slug: playground-chaos-simulation
+- name: playground-parallel-e2e
+  slug: playground-parallel-e2e
+- name: playground-stateful-crud
+  slug: playground-stateful-crud
 slug: playground
 tags:
 - Developer Tools

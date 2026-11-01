@@ -17,6 +17,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -24,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 14
@@ -43,7 +45,7 @@ apis:
 - description: 'Unauthenticated, read-only JSON routes under https://www.poolparty.io/api that the provider names as the "source of truth" for agents: the agent manifest (/agent/manifest, schema poolparty.agent.manif'
   name: PoolParty Public Manifest API
   slug: poolparty-public-manifest-api
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Poolparty Io Events
@@ -86,7 +88,7 @@ common:
   type: Twitter
   url: https://x.com/WenPoolParty
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/llms/poolparty-io-llms.txt
+  href: https://artifacts.apis.io/poolparty-io/llms/poolparty-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/poolparty-io-llms.txt
@@ -95,7 +97,7 @@ common:
   type: LLMsTxt
   url: https://www.poolparty.io/llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/skills/poolparty-io-agents.md
+  href: https://artifacts.apis.io/poolparty-io/skills/poolparty-io-agents.md
   title: ''
   type: AgentsMd
   url: skills/poolparty-io-agents.md
@@ -104,93 +106,101 @@ common:
   type: AgentsMd
   url: https://www.poolparty.io/AGENTS.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/poolparty-io/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/mcp/poolparty-io-mcp.yml
+  href: https://artifacts.apis.io/poolparty-io/mcp/poolparty-io-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/poolparty-io-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/a2a/poolparty-io-a2a.yml
+  href: https://artifacts.apis.io/poolparty-io/a2a/poolparty-io-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/poolparty-io-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/well-known/poolparty-io-well-known.yml
+  href: https://artifacts.apis.io/poolparty-io/well-known/poolparty-io-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/poolparty-io-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/agentic-access/poolparty-io-agentic-access.yml
+  href: https://artifacts.apis.io/poolparty-io/agentic-access/poolparty-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/poolparty-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/authentication/poolparty-io-authentication.yml
+  href: https://artifacts.apis.io/poolparty-io/authentication/poolparty-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/poolparty-io-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/conventions/poolparty-io-conventions.yml
+  href: https://artifacts.apis.io/poolparty-io/conventions/poolparty-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/poolparty-io-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/conventions/poolparty-io-conventions.yml
+  href: https://artifacts.apis.io/poolparty-io/conventions/poolparty-io-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/poolparty-io-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/rate-limits/poolparty-io-rate-limits.yml
+  href: https://artifacts.apis.io/poolparty-io/rate-limits/poolparty-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/poolparty-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/plans/poolparty-io-plans-pricing.yml
+  href: https://artifacts.apis.io/poolparty-io/plans/poolparty-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/poolparty-io-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/lifecycle/poolparty-io-lifecycle.yml
+  href: https://artifacts.apis.io/poolparty-io/lifecycle/poolparty-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/poolparty-io-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/conformance/poolparty-io-conformance.yml
+  href: https://artifacts.apis.io/poolparty-io/conformance/poolparty-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/poolparty-io-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/errors/poolparty-io-problem-types.yml
+  href: https://artifacts.apis.io/poolparty-io/errors/poolparty-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/poolparty-io-problem-types.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/sandbox/poolparty-io-sandbox.yml
+  href: https://artifacts.apis.io/poolparty-io/sandbox/poolparty-io-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/poolparty-io-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/data-model/poolparty-io-data-model.yml
+  href: https://artifacts.apis.io/poolparty-io/data-model/poolparty-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/poolparty-io-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/asyncapi/poolparty-io-events.yml
+  href: https://artifacts.apis.io/poolparty-io/asyncapi/poolparty-io-events.yml
   title: ''
   type: Events
   url: asyncapi/poolparty-io-events.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/security/poolparty-io-domain-security.yml
+  href: https://artifacts.apis.io/poolparty-io/security/poolparty-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/poolparty-io-domain-security.yml
 created: '2026-09-19'
 description: 'PoolParty is a founder-led (Adam Byrne) broadcast-style media platform in pilot: a "programmable airtime network" where humans and AI agents submit short media blocks — launch videos, demos, proof assets — into a moderated public queue on the Main Stage (channel "main", a.k.a. PP0), watch the queue become the show, and read back proof of what aired. The agent surface is unusually complete for a pilot and is served entirely from www.poolparty.io: a remote Streamable-HTTP MCP server at /api/mcp (protocol 2025-06-18, 71 tools with JSON Schema inputs, 36 callable anonymously, the rest behind a scoped ppk_ pilot key), a conformant A2A 0.3.0 agent card at /.well-known/agent-card.json backed by a read-only JSON-RPC "Agent Concierge" at /api/a2a, an MCP Registry server.json, llms.txt, AGENTS.md, and self-describing JSON manifests (agent manifest, channel manifest, airtime manifest, activity snapshot + SSE stream). Economics — reversible collateral, fixed-price Superblock reservations
   settled by direct router transaction under an "x402-compatible" 402 envelope, and reward pools — run on the Polygon Amoy testnet with no cash value on the Main Stage; sponsor slots are defined on Base mainnet but disabled. No OpenAPI is published for the REST manifest routes.'
+finops:
+- has_sources: true
+  method: derived
+  name: Poolparty Io Finops
+  primary_unit: 15s reserved airtime
+  service_category: ''
+  slug: poolparty-io-finops
+  template: false
 image: https://www.poolparty.io/poolparty-logo-cyan.svg
 layout: provider
 mcp_servers:
@@ -210,32 +220,32 @@ overview: 'PoolParty is listed with 3 APIs on the [APIs.io](https://apis.io/) ne
   PoolParty''s developer surface includes pricing, engineering blog, documentation, getting-started guide, authentication, sandbox, and 24 more developer resources.'
 plans:
 - name: Poolparty Io Plans Pricing
-  plan_count: 5
+  plan_count: 4
   slug: poolparty-io-plans-pricing
-random_paper: 9
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Poolparty Io Rate Limits
   slug: poolparty-io-rate-limits
 score:
   band: developing
-  composite: 42.2
+  composite: 43.4
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 60.0
+    artifact_dirs: 24
+    catalog_earned: 63.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.7
+  delta: 1.6
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 50.0
-    discoverability: 81.7
+    discoverability: 78.3
     operational_transparency: 26.3
-  previous_composite: 39.5
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -247,14 +257,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/poolparty-io/refs/heads/main/screenshots/poolparty-io-2026-10-11T112705.png
+screenshot: https://apis.io/screenshots/poolparty-io/poolparty-io-2026-10-11T112705.png
 security:
 - kind: authentication
   name: Poolparty Io Authentication

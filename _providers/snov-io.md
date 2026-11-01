@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.2
-  scored_at: '2026-10-17'
+  score: 49.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -284,15 +286,12 @@ apis:
 - description: 'First-party remote Model Context Protocol server exposing 100+ Snov.io actions to AI assistants — prospect search and enrichment, list and folder management, email verification, Sales CRM (pipelines, '
   name: Snov.io Outreach MCP Server
   slug: snov-io-mcp-server
-artifact_total: 46
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Snov Io Webhooks
   slug: snov-io-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Snov.io Authentication API
   slug: open-snov-io-authentication-api
@@ -343,22 +342,22 @@ collections:
   slug: open-snov
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/capabilities/snov-io-capability-edges.yml
+  href: https://artifacts.apis.io/snov-io/capabilities/snov-io-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/snov-io-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/agentic-access/snov-io-agentic-access.yml
+  href: https://artifacts.apis.io/snov-io/agentic-access/snov-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/snov-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/security/snov-io-domain-security.yml
+  href: https://artifacts.apis.io/snov-io/security/snov-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snov-io-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/authentication/snov-io-authentication.yml
+  href: https://artifacts.apis.io/snov-io/authentication/snov-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/snov-io-authentication.yml
@@ -399,102 +398,102 @@ common:
   type: Authentication
   url: https://snov.io/knowledgebase/how-to-use-snov-io-api/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/plans/snov-io-plans-pricing.yml
+  href: https://artifacts.apis.io/snov-io/plans/snov-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/snov-io-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/rate-limits/snov-io-rate-limits.yml
+  href: https://artifacts.apis.io/snov-io/rate-limits/snov-io-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/snov-io-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/finops/snov-io-finops.yml
+  href: https://artifacts.apis.io/snov-io/finops/snov-io-finops.yml
   title: ''
   type: FinOps
   url: finops/snov-io-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/scopes/snov-io-scopes.yml
+  href: https://artifacts.apis.io/snov-io/scopes/snov-io-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/snov-io-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/mcp/snov-io-mcp.yml
+  href: https://artifacts.apis.io/snov-io/mcp/snov-io-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/snov-io-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/mcp/snov-io-tool-crosswalk.yml
+  href: https://artifacts.apis.io/snov-io/mcp/snov-io-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/snov-io-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/well-known/snov-io-well-known.yml
+  href: https://artifacts.apis.io/snov-io/well-known/snov-io-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/snov-io-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/packages/snov-io-packages.yml
+  href: https://artifacts.apis.io/snov-io/packages/snov-io-packages.yml
   title: ''
   type: Packages
   url: packages/snov-io-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/llms/snov-io-llms.txt
+  href: https://artifacts.apis.io/snov-io/llms/snov-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/snov-io-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/conventions/snov-io-conventions.yml
+  href: https://artifacts.apis.io/snov-io/conventions/snov-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/snov-io-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/errors/snov-io-problem-types.yml
+  href: https://artifacts.apis.io/snov-io/errors/snov-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/snov-io-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/lifecycle/snov-io-lifecycle.yml
+  href: https://artifacts.apis.io/snov-io/lifecycle/snov-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/snov-io-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/conformance/snov-io-conformance.yml
+  href: https://artifacts.apis.io/snov-io/conformance/snov-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/snov-io-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/security/snov-io-trust-center.yml
+  href: https://artifacts.apis.io/snov-io/security/snov-io-trust-center.yml
   title: ''
   type: Compliance
   url: security/snov-io-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/security/snov-io-trust-center.yml
+  href: https://artifacts.apis.io/snov-io/security/snov-io-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/snov-io-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/data-model/snov-io-data-model.yml
+  href: https://artifacts.apis.io/snov-io/data-model/snov-io-data-model.yml
   title: ''
   type: DataModel
   url: data-model/snov-io-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/changelog/snov-io-changelog.yml
+  href: https://artifacts.apis.io/snov-io/changelog/snov-io-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/snov-io-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/asyncapi/snov-io-webhooks.yml
+  href: https://artifacts.apis.io/snov-io/asyncapi/snov-io-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/snov-io-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/snov-io/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/graphql/snov-io-graphql.md
+  href: https://artifacts.apis.io/snov-io/graphql/snov-io-graphql.md
   title: ''
   type: GraphQL
   url: graphql/snov-io-graphql.md
@@ -547,12 +546,12 @@ description: Snov.io is a sales automation and lead generation platform serving 
   writes and all LinkedIn outreach actions are reachable only over MCP.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Snov Io Finops
-  primary_unit: ''
+  primary_unit: linkedin account slot
   service_category: ''
   slug: snov-io-finops
-  template: true
+  template: false
 graphqls:
 - description: Snov.io is a sales automation and lead generation platform serving over 300,000 companies across 180+ countries. Its REST API covers the full outreach lifecycle — prospect discovery, email finding, em
   name: Snov.io GraphQL Schema
@@ -581,9 +580,12 @@ overview: 'Snov.io publishes 17 API contracts indexed on the [APIs.io](https://a
   Snov.io''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 37 more developer resources.'
 plans:
 - name: Snov Io Plans Pricing
-  plan_count: 7
+  plan_count: 14
   slug: snov-io-plans-pricing
-random_paper: 11
+- name: Snov Io Price Estimates
+  plan_count: 0
+  slug: snov-io-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Snov Io Rate Limits
@@ -594,24 +596,24 @@ scopes:
   slug: snov-io-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
-  band: strong
-  composite: 65.7
+  band: exemplar
+  composite: 69.1
   coverage:
     artifact_dirs: 29
-    catalog_earned: 72.0
+    catalog_earned: 75.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 43.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 69.3
+    contract_quality: 68.6
     developer_ergonomics: 58.9
-    discoverability: 68.3
-    operational_transparency: 57.9
-  previous_composite: 67.2
+    discoverability: 65.0
+    operational_transparency: 60.5
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -628,13 +630,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/screenshots/snov-io-2026-06-20T194107.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/snov-io/snov-io-2026-06-20T194107.png
 security:
 - kind: authentication
   name: Snov Io Authentication
@@ -648,6 +651,16 @@ security:
   name: Snov Io Trust Center
   slug: snov-io-trust-center
   summary_line: GDPR, LOA (Letter of Authorization), CCPA / Do Not Sell My Personal Information
+skill_count: 4
+skills:
+- name: snov-io-build-prospect-list-from-domain
+  slug: snov-io-build-prospect-list-from-domain
+- name: snov-io-find-and-verify-emails
+  slug: snov-io-find-and-verify-emails
+- name: snov-io-launch-and-monitor-campaign
+  slug: snov-io-launch-and-monitor-campaign
+- name: snov-io-subscribe-to-webhooks
+  slug: snov-io-subscribe-to-webhooks
 slug: snov-io
 tags:
 - Sales Automation

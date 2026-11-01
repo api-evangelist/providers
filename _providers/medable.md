@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,13 +38,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Schema-driven object API for building clinical applications on Medable: custom objects and typed properties, querying and aggregation, server-side scripting, accounts, connections, notifications, and '
   name: Medable Cortex API
   slug: medable-cortex-api
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -93,72 +95,72 @@ common:
   type: StatusPage
   url: https://status.medable.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/authentication/medable-authentication.yml
+  href: https://artifacts.apis.io/medable/authentication/medable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/medable-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/conventions/medable-conventions.yml
+  href: https://artifacts.apis.io/medable/conventions/medable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/medable-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/errors/medable-error-codes.yml
+  href: https://artifacts.apis.io/medable/errors/medable-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/medable-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/lifecycle/medable-lifecycle.yml
+  href: https://artifacts.apis.io/medable/lifecycle/medable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/medable-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/changelog/medable-changelog.yml
+  href: https://artifacts.apis.io/medable/changelog/medable-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/medable-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/conformance/medable-conformance.yml
+  href: https://artifacts.apis.io/medable/conformance/medable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/medable-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/packages/medable-packages.yml
+  href: https://artifacts.apis.io/medable/packages/medable-packages.yml
   title: ''
   type: Packages
   url: packages/medable-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/packages/medable-packages.yml
+  href: https://artifacts.apis.io/medable/packages/medable-packages.yml
   title: ''
   type: SDKs
   url: packages/medable-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/cli/medable-cli.yml
+  href: https://artifacts.apis.io/medable/cli/medable-cli.yml
   title: ''
   type: CLI
   url: cli/medable-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/mcp/medable-mcp.yml
+  href: https://artifacts.apis.io/medable/mcp/medable-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/medable-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/data-model/medable-data-model.yml
+  href: https://artifacts.apis.io/medable/data-model/medable-data-model.yml
   title: ''
   type: DataModel
   url: data-model/medable-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/sandbox/medable-sandbox.yml
+  href: https://artifacts.apis.io/medable/sandbox/medable-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/medable-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/llms/medable-llms.txt
+  href: https://artifacts.apis.io/medable/llms/medable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/medable-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/security/medable-domain-security.yml
+  href: https://artifacts.apis.io/medable/security/medable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/medable-domain-security.yml
@@ -171,12 +173,12 @@ common:
   type: Pricing
   url: https://info.medable.com/Pricing.html
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/plans/medable-plans-pricing.yml
+  href: https://artifacts.apis.io/medable/plans/medable-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/medable-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/rate-limits/medable-rate-limits.yml
+  href: https://artifacts.apis.io/medable/rate-limits/medable-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/medable-rate-limits.yml
@@ -190,6 +192,14 @@ common:
   url: https://www.medable.com/resources/faq
 created: '2026-07-17'
 description: Medable operates a clinical trial technology platform for decentralized and hybrid trials, combining eCOA/ePRO data capture, electronic consent, televisit, and a suite of agentic-AI products (Agent Studio, CRA Agent, PI Summary Review, Digital Data Flow agent) for life-sciences sponsors and CROs. Its developer surface is the Cortex API — a schema-driven object platform (custom objects and properties, querying, aggregation, and server-side scripting) addressed over REST at api.<env>.medable.com/<org_code>/v2/, with session-based and request-signature authentication, an mdctl developer CLI, and an iOS/Swift SDK. Backed by Obvious Ventures and Sapphire Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Medable Finops
+  primary_unit: ''
+  service_category: ''
+  slug: medable-finops
+  template: true
 image: https://cdn.prod.website-files.com/63da4ae4359b4b2bffd2a3b6/64677a1c8fad4c624f57af3c_medable-open-graph-image.png
 layout: provider
 modified: '2026-08-15'
@@ -204,30 +214,30 @@ plans:
 - name: Medable Plans Pricing
   plan_count: 0
   slug: medable-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 12
   name: Medable Rate Limits
   slug: medable-rate-limits
 score:
   band: developing
-  composite: 43.9
+  composite: 45.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 78.6
-    discoverability: 73.2
-    operational_transparency: 65.8
-  previous_composite: 43.8
+    discoverability: 66.1
+    operational_transparency: 68.4
+  previous_composite: 45.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -237,14 +247,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/medable/refs/heads/main/screenshots/medable-2026-08-07T172312.png
+screenshot: https://apis.io/screenshots/medable/medable-2026-08-07T172312.png
 security:
 - kind: authentication
   name: Medable Authentication

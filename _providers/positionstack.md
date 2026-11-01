@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.6
-  scored_at: '2026-10-17'
+  score: 25.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,9 +73,6 @@ collections:
   name: positionstack
   slug: postman-positionstack
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: positionstack Batch Geocoding API
   slug: open-positionstack-batch-geocoding-api
 - collection_type: open
@@ -91,17 +90,17 @@ common:
   type: IssueTracker
   url: https://github.com/apilayer/positionstack/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/agentic-access/positionstack-agentic-access.yml
+  href: https://artifacts.apis.io/positionstack/agentic-access/positionstack-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/positionstack-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/security/positionstack-domain-security.yml
+  href: https://artifacts.apis.io/positionstack/security/positionstack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/positionstack-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/authentication/positionstack-authentication.yml
+  href: https://artifacts.apis.io/positionstack/authentication/positionstack-authentication.yml
   title: ''
   type: Authentication
   url: authentication/positionstack-authentication.yml
@@ -110,17 +109,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/positionstack/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/arazzo/positionstack-geocode-confidence-branch-workflow.yml
+  href: https://artifacts.apis.io/positionstack/arazzo/positionstack-geocode-confidence-branch-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/positionstack-geocode-confidence-branch-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/arazzo/positionstack-geocode-roundtrip-workflow.yml
+  href: https://artifacts.apis.io/positionstack/arazzo/positionstack-geocode-roundtrip-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/positionstack-geocode-roundtrip-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/arazzo/positionstack-reverse-enrich-place-workflow.yml
+  href: https://artifacts.apis.io/positionstack/arazzo/positionstack-reverse-enrich-place-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/positionstack-reverse-enrich-place-workflow.yml
@@ -185,27 +184,27 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/plans/positionstack-plans-pricing.yml
+  href: https://artifacts.apis.io/positionstack/plans/positionstack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/positionstack-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/rate-limits/positionstack-rate-limits.yml
+  href: https://artifacts.apis.io/positionstack/rate-limits/positionstack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/positionstack-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/finops/positionstack-finops.yml
+  href: https://artifacts.apis.io/positionstack/finops/positionstack-finops.yml
   title: ''
   type: FinOps
   url: finops/positionstack-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/rules/positionstack-rules.yml
+  href: https://artifacts.apis.io/positionstack/rules/positionstack-rules.yml
   title: ''
   type: SpectralRules
   url: rules/positionstack-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/vocabulary/positionstack-vocabulary.yml
+  href: https://artifacts.apis.io/positionstack/vocabulary/positionstack-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/positionstack-vocabulary.yml
@@ -252,13 +251,13 @@ features:
 - description: Email and dashboard alerts at 75%, 90%, and 100% of monthly quota.
   name: Overage Notifications
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Positionstack Finops
-  primary_unit: ''
+  primary_unit: requests
   service_category: ''
   slug: positionstack-finops
-  template: true
+  template: false
 image: https://positionstack.com/site_images/positionstack_square.png
 integrations:
 - description: Sibling apilayer API providing weather data for resolved coordinates.
@@ -303,7 +302,10 @@ plans:
 - name: Positionstack Plans Pricing
   plan_count: 5
   slug: positionstack-plans-pricing
-random_paper: 11
+- name: Positionstack Price Estimates
+  plan_count: 0
+  slug: positionstack-price-estimates
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Positionstack Rate Limits
@@ -333,24 +335,24 @@ rules:
     warn: 4
   slug: positionstack-rules
 score:
-  band: developing
-  composite: 54.1
+  band: strong
+  composite: 61.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 69.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    catalog_earned: 81.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 27.3
     contract_quality: 66.9
-    developer_ergonomics: 57.1
+    developer_ergonomics: 58.3
     discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 62.4
+    operational_transparency: 28.9
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     contracts:
@@ -364,14 +366,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/screenshots/positionstack-2026-08-17T124828.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/positionstack/positionstack-2026-08-17T124828.png
 security:
 - kind: authentication
   name: Positionstack Authentication

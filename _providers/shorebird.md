@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -90,67 +92,67 @@ common:
   type: Support
   url: https://discord.com/invite/shorebird
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shorebird/refs/heads/main/packages/shorebird-packages.yml
+  href: https://artifacts.apis.io/shorebird/packages/shorebird-packages.yml
   title: ''
   type: Packages
   url: packages/shorebird-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shorebird/refs/heads/main/packages/shorebird-packages.yml
+  href: https://artifacts.apis.io/shorebird/packages/shorebird-packages.yml
   title: ''
   type: SDKs
   url: packages/shorebird-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shorebird/refs/heads/main/cli/shorebird-cli.yml
+  href: https://artifacts.apis.io/shorebird/cli/shorebird-cli.yml
   title: ''
   type: CLI
   url: cli/shorebird-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shorebird/refs/heads/main/authentication/shorebird-authentication.yml
+  href: https://artifacts.apis.io/shorebird/authentication/shorebird-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shorebird-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shorebird/refs/heads/main/conventions/shorebird-conventions.yml
+  href: https://artifacts.apis.io/shorebird/conventions/shorebird-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shorebird-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shorebird/refs/heads/main/lifecycle/shorebird-lifecycle.yml
+  href: https://artifacts.apis.io/shorebird/lifecycle/shorebird-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shorebird-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shorebird/refs/heads/main/changelog/shorebird-changelog.yml
+  href: https://artifacts.apis.io/shorebird/changelog/shorebird-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/shorebird-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/shorebird/refs/heads/main/sandbox/shorebird-sandbox.yml
+  href: https://artifacts.apis.io/shorebird/sandbox/shorebird-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/shorebird-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shorebird/refs/heads/main/data-model/shorebird-data-model.yml
+  href: https://artifacts.apis.io/shorebird/data-model/shorebird-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shorebird-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shorebird/refs/heads/main/well-known/shorebird-well-known.yml
+  href: https://artifacts.apis.io/shorebird/well-known/shorebird-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/shorebird-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shorebird/refs/heads/main/llms/shorebird-llms.txt
+  href: https://artifacts.apis.io/shorebird/llms/shorebird-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shorebird-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shorebird/refs/heads/main/security/shorebird-trust-center.yml
+  href: https://artifacts.apis.io/shorebird/security/shorebird-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/shorebird-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shorebird/refs/heads/main/security/shorebird-domain-security.yml
+  href: https://artifacts.apis.io/shorebird/security/shorebird-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shorebird-domain-security.yml
@@ -166,12 +168,12 @@ overview: 'Shorebird is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Shorebird''s developer surface includes engineering blog, documentation, getting-started guide, pricing, signup flow, support, CLI, and 19 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
   band: thin
-  composite: 34.1
+  composite: 33.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -183,23 +185,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 55.4
-    operational_transparency: 18.4
-  previous_composite: 34.1
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 33.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/shorebird/refs/heads/main/screenshots/shorebird-2026-09-02T155309.png
+screenshot: https://apis.io/screenshots/shorebird/shorebird-2026-09-02T155309.png
 security:
 - kind: authentication
   name: Shorebird Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://developers.raycast.com
@@ -49,11 +51,8 @@ apis:
 - description: The Raycast Store distributes community and partner extensions. Publishing is done via the `ray` CLI and a pull request to the github.com/raycast/extensions monorepo; there is no documented public RES
   name: Raycast Store
   slug: raycast-store
-artifact_total: 9
+artifact_total: 8
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Raycast Extension API (SDK)
   slug: open-raycast
@@ -63,7 +62,7 @@ common:
   type: Pricing
   url: https://www.raycast.com/pricing
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/raycast/refs/heads/main/security/raycast-domain-security.yml
+  href: https://artifacts.apis.io/raycast/security/raycast-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/raycast-domain-security.yml
@@ -84,17 +83,17 @@ common:
   type: Documentation
   url: https://developers.raycast.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/raycast/refs/heads/main/plans/raycast-plans-pricing.yml
+  href: https://artifacts.apis.io/raycast/plans/raycast-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/raycast-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/raycast/refs/heads/main/rate-limits/raycast-rate-limits.yml
+  href: https://artifacts.apis.io/raycast/rate-limits/raycast-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/raycast-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/raycast/refs/heads/main/finops/raycast-finops.yml
+  href: https://artifacts.apis.io/raycast/finops/raycast-finops.yml
   title: ''
   type: FinOps
   url: finops/raycast-finops.yml
@@ -126,44 +125,44 @@ plans:
 - name: Raycast Plans Pricing
   plan_count: 15
   slug: raycast-plans-pricing
-random_paper: 11
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Raycast Rate Limits
   slug: raycast-rate-limits
 score:
-  band: emerging
-  composite: 25.0
+  band: thin
+  composite: 27.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
-    contract_quality: 25.1
+    contract_quality: 32.1
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 26.5
+    operational_transparency: 13.2
+  previous_composite: 27.1
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/raycast/refs/heads/main/screenshots/raycast-2026-06-20T192715.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/raycast/raycast-2026-06-20T192715.png
 security:
 - kind: domain-security
   name: Raycast Domain Security

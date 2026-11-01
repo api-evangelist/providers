@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,13 +38,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL API for scheduling and publishing posts, managing social media channels, handling content ideas and idea groups, post templates, and accessing normalized post metrics across 11 major social me
   name: Buffer API
   slug: buffer-api
-artifact_total: 10
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -65,12 +67,12 @@ common:
   type: GettingStarted
   url: https://developers.buffer.com/guides/getting-started.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/authentication/buffer-authentication.yml
+  href: https://artifacts.apis.io/buffer/authentication/buffer-authentication.yml
   title: ''
   type: Authentication
   url: authentication/buffer-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/scopes/buffer-scopes.yml
+  href: https://artifacts.apis.io/buffer/scopes/buffer-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/buffer-scopes.yml
@@ -139,115 +141,115 @@ common:
   type: Security
   url: https://buffer.com/security
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/plans/buffer-plans-pricing.yml
+  href: https://artifacts.apis.io/buffer/plans/buffer-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/buffer-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/rate-limits/buffer-rate-limits.yml
+  href: https://artifacts.apis.io/buffer/rate-limits/buffer-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/buffer-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/finops/buffer-finops.yml
+  href: https://artifacts.apis.io/buffer/finops/buffer-finops.yml
   title: ''
   type: FinOps
   url: finops/buffer-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/packages/buffer-packages.yml
+  href: https://artifacts.apis.io/buffer/packages/buffer-packages.yml
   title: ''
   type: Packages
   url: packages/buffer-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/packages/buffer-packages.yml
+  href: https://artifacts.apis.io/buffer/packages/buffer-packages.yml
   title: ''
   type: SDKs
   url: packages/buffer-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/cli/buffer-cli.yml
+  href: https://artifacts.apis.io/buffer/cli/buffer-cli.yml
   title: ''
   type: CLI
   url: cli/buffer-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/mcp/buffer-mcp.yml
+  href: https://artifacts.apis.io/buffer/mcp/buffer-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/buffer-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/mcp/buffer-tool-crosswalk.yml
+  href: https://artifacts.apis.io/buffer/mcp/buffer-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/buffer-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/buffer/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/llms/buffer-llms.txt
+  href: https://artifacts.apis.io/buffer/llms/buffer-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/buffer-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/well-known/buffer-well-known.yml
+  href: https://artifacts.apis.io/buffer/well-known/buffer-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/buffer-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/conventions/buffer-conventions.yml
+  href: https://artifacts.apis.io/buffer/conventions/buffer-conventions.yml
   title: ''
   type: Conventions
   url: conventions/buffer-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/errors/buffer-error-codes.yml
+  href: https://artifacts.apis.io/buffer/errors/buffer-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/buffer-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/lifecycle/buffer-lifecycle.yml
+  href: https://artifacts.apis.io/buffer/lifecycle/buffer-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/buffer-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/changelog/buffer-changelog.yml
+  href: https://artifacts.apis.io/buffer/changelog/buffer-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/buffer-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/conformance/buffer-conformance.yml
+  href: https://artifacts.apis.io/buffer/conformance/buffer-conformance.yml
   title: ''
   type: Conformance
   url: conformance/buffer-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/data-model/buffer-data-model.yml
+  href: https://artifacts.apis.io/buffer/data-model/buffer-data-model.yml
   title: ''
   type: DataModel
   url: data-model/buffer-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/sandbox/buffer-sandbox.yml
+  href: https://artifacts.apis.io/buffer/sandbox/buffer-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/buffer-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/security/buffer-domain-security.yml
+  href: https://artifacts.apis.io/buffer/security/buffer-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/buffer-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/security/buffer-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/buffer/security/buffer-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/buffer-vulnerability-disclosure.yml
 created: '2026-06-13'
 description: Buffer is a social media scheduling, publishing and analytics platform with a GraphQL API for scheduling posts, managing content queues and ideas, working with post templates, accessing normalized engagement metrics, and publishing across eleven social channels including Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, YouTube, Mastodon and Google Business Profiles. Access is by personal API key or OAuth 2.0 with PKCE, and Buffer also operates a hosted Model Context Protocol server plus a first-party CLI that ships installable agent skills. The legacy REST API is being retired on February 1, 2027.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Buffer Finops
-  primary_unit: ''
+  primary_unit: 1 channel
   service_category: ''
   slug: buffer-finops
-  template: true
+  template: false
 graphqls:
 - description: '> Connect Buffer to your agents, automation tools, or build something entirely new.'
   name: Buffer API Reference
@@ -269,7 +271,10 @@ plans:
 - name: Buffer Plans Pricing
   plan_count: 3
   slug: buffer-plans-pricing
-random_paper: 18
+- name: Buffer Price Estimates
+  plan_count: 0
+  slug: buffer-price-estimates
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Buffer Rate Limits
@@ -280,24 +285,24 @@ scopes:
   slug: buffer-scopes
   summary_line: 11 scopes · authorizationCode
 score:
-  band: strong
-  composite: 65.5
+  band: exemplar
+  composite: 66.6
   coverage:
     artifact_dirs: 25
-    catalog_earned: 49.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.4
     developer_ergonomics: 85.7
-    discoverability: 75.0
-    operational_transparency: 57.9
-  previous_composite: 67.0
+    discoverability: 66.1
+    operational_transparency: 60.5
+  previous_composite: 65.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -314,14 +319,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/screenshots/buffer-2026-08-17T123104.png
+screenshot: https://apis.io/screenshots/buffer/buffer-2026-08-17T123104.png
 security:
 - kind: authentication
   name: Buffer Authentication

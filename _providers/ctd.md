@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.7
-  scored_at: '2026-10-17'
+  score: 22.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Simple REST API exposing the full Connect The Dots relationship graph — reachable people and companies, warm paths to a target (including natural-language and stage-filtered path search), recent job c
@@ -42,72 +44,72 @@ apis:
 artifact_total: 7
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/mcp/ctd-mcp.yml
+  href: https://artifacts.apis.io/ctd/mcp/ctd-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ctd-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/llms/ctd-llms.txt
+  href: https://artifacts.apis.io/ctd/llms/ctd-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ctd-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/well-known/ctd-well-known.yml
+  href: https://artifacts.apis.io/ctd/well-known/ctd-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ctd-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/authentication/ctd-authentication.yml
+  href: https://artifacts.apis.io/ctd/authentication/ctd-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ctd-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/scopes/ctd-scopes.yml
+  href: https://artifacts.apis.io/ctd/scopes/ctd-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ctd-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/conventions/ctd-conventions.yml
+  href: https://artifacts.apis.io/ctd/conventions/ctd-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ctd-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/conformance/ctd-conformance.yml
+  href: https://artifacts.apis.io/ctd/conformance/ctd-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ctd-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/security/ctd-trust-center.yml
+  href: https://artifacts.apis.io/ctd/security/ctd-trust-center.yml
   title: ''
   type: Compliance
   url: security/ctd-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/lifecycle/ctd-lifecycle.yml
+  href: https://artifacts.apis.io/ctd/lifecycle/ctd-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ctd-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/data-model/ctd-data-model.yml
+  href: https://artifacts.apis.io/ctd/data-model/ctd-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ctd-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/security/ctd-trust-center.yml
+  href: https://artifacts.apis.io/ctd/security/ctd-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ctd-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/security/ctd-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ctd/security/ctd-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ctd-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/security/ctd-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ctd/security/ctd-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/ctd-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/security/ctd-domain-security.yml
+  href: https://artifacts.apis.io/ctd/security/ctd-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ctd-domain-security.yml
@@ -163,7 +165,7 @@ overview: 'Connect The Dots is listed with 1 API on the [APIs.io](https://apis.i
 
 
   Connect The Dots'' developer surface includes authentication, API reference, documentation, pricing, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 7
+random_paper: 3
 scopes:
 - name: Ctd Scopes
   scope_count: 2
@@ -171,7 +173,7 @@ scopes:
   summary_line: 2 scopes · authorization_code
 score:
   band: thin
-  composite: 33.3
+  composite: 33.8
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -179,15 +181,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 5.3
+    contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 73.2
+    discoverability: 65.0
     operational_transparency: 10.5
-  previous_composite: 33.2
+  previous_composite: 33.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -203,14 +205,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/screenshots/ctd-2026-07-25T210842.png
+screenshot: https://apis.io/screenshots/ctd/ctd-2026-07-25T210842.png
 security:
 - kind: authentication
   name: Ctd Authentication

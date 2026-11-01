@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -62,22 +64,22 @@ common:
   type: Support
   url: https://www.boldfit.com/pages/contact-us
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/boldfit/refs/heads/main/well-known/boldfit-well-known.yml
+  href: https://artifacts.apis.io/boldfit/well-known/boldfit-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/boldfit-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boldfit/refs/heads/main/authentication/boldfit-authentication.yml
+  href: https://artifacts.apis.io/boldfit/authentication/boldfit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/boldfit-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boldfit/refs/heads/main/scopes/boldfit-scopes.yml
+  href: https://artifacts.apis.io/boldfit/scopes/boldfit-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/boldfit-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/boldfit/refs/heads/main/security/boldfit-domain-security.yml
+  href: https://artifacts.apis.io/boldfit/security/boldfit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/boldfit-domain-security.yml
@@ -93,7 +95,7 @@ overview: 'Boldfit is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Boldfit''s developer surface includes signup flow, support, authentication, and 7 more developer resources.'
-random_paper: 14
+random_paper: 20
 scopes:
 - name: Boldfit Scopes
   scope_count: 0
@@ -129,14 +131,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/boldfit/refs/heads/main/screenshots/boldfit-2026-08-07T162708.png
+screenshot: https://apis.io/screenshots/boldfit/boldfit-2026-08-07T162708.png
 security:
 - kind: authentication
   name: Boldfit Authentication

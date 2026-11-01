@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.1
-  scored_at: '2026-10-17'
+  score: 40.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 7
   slug: accessibe-agentic-access
   summary_line: 7 operations · 4 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The accessFlow Model Context Protocol server connects AI clients such as GitHub Copilot and Cursor directly to accessFlow accessibility data. It exposes three tools — getMostUrgentIssues, getIssueReme
   name: accessFlow MCP Server
@@ -52,30 +54,30 @@ apis:
   description: The Accounts API from accessiBe — 5 operation(s) for accounts.
   name: accessiBe Accounts API
   slug: accessibe-accounts-api
-artifact_total: 8
+artifact_total: 13
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/plans/accessibe-plans-pricing.yml
+  href: https://artifacts.apis.io/accessibe/plans/accessibe-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/accessibe-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/capabilities/accessibe-capability-edges.yml
+  href: https://artifacts.apis.io/accessibe/capabilities/accessibe-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/accessibe-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/agentic-access/accessibe-agentic-access.yml
+  href: https://artifacts.apis.io/accessibe/agentic-access/accessibe-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/accessibe-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/security/accessibe-trust-center.yml
+  href: https://artifacts.apis.io/accessibe/security/accessibe-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/accessibe-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/security/accessibe-domain-security.yml
+  href: https://artifacts.apis.io/accessibe/security/accessibe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/accessibe-domain-security.yml
@@ -140,87 +142,95 @@ common:
   type: ChangeLog
   url: https://support.accessibe.com/hc/en-us/categories/15274937179922-Release-Notes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/changelog/accessibe-changelog.yml
+  href: https://artifacts.apis.io/accessibe/changelog/accessibe-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/accessibe-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/llms/accessibe-llms.txt
+  href: https://artifacts.apis.io/accessibe/llms/accessibe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/accessibe-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/packages/accessibe-packages.yml
+  href: https://artifacts.apis.io/accessibe/packages/accessibe-packages.yml
   title: ''
   type: Packages
   url: packages/accessibe-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/packages/accessibe-packages.yml
+  href: https://artifacts.apis.io/accessibe/packages/accessibe-packages.yml
   title: ''
   type: SDKs
   url: packages/accessibe-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/mcp/accessibe-mcp.yml
+  href: https://artifacts.apis.io/accessibe/mcp/accessibe-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/accessibe-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/mcp/accessibe-tool-crosswalk.yml
+  href: https://artifacts.apis.io/accessibe/mcp/accessibe-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/accessibe-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/authentication/accessibe-authentication.yml
+  href: https://artifacts.apis.io/accessibe/authentication/accessibe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/accessibe-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/conventions/accessibe-conventions.yml
+  href: https://artifacts.apis.io/accessibe/conventions/accessibe-conventions.yml
   title: ''
   type: Conventions
   url: conventions/accessibe-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/conventions/accessibe-conventions.yml
+  href: https://artifacts.apis.io/accessibe/conventions/accessibe-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/accessibe-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/errors/accessibe-problem-types.yml
+  href: https://artifacts.apis.io/accessibe/errors/accessibe-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/accessibe-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/lifecycle/accessibe-lifecycle.yml
+  href: https://artifacts.apis.io/accessibe/lifecycle/accessibe-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/accessibe-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/conformance/accessibe-conformance.yml
+  href: https://artifacts.apis.io/accessibe/conformance/accessibe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/accessibe-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/data-model/accessibe-data-model.yml
+  href: https://artifacts.apis.io/accessibe/data-model/accessibe-data-model.yml
   title: ''
   type: DataModel
   url: data-model/accessibe-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/components/accessibe-components.yml
+  href: https://artifacts.apis.io/accessibe/components/accessibe-components.yml
   title: ''
   type: Components
   url: components/accessibe-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/accessibe/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/overlays/accessibe-partners-overlay.yaml
+  href: https://artifacts.apis.io/accessibe/overlays/accessibe-partners-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/accessibe-partners-overlay.yaml
 created: '2026-07-31'
 description: accessiBe is a web accessibility technology company whose products help organizations make websites and web applications usable by people with disabilities and compliant with WCAG, the ADA, Section 508, AODA and the European Accessibility Act. Its portfolio spans accessWidget (an AI-driven remediation layer and end-user accessibility interface installed via an embed script), accessScan (a free single-URL compliance checker), accessFlow (a developer-first accessibility testing and monitoring platform with an SDK for Playwright, Cypress and Selenium plus CI/CD integrations), and accessServices (expert audits, user testing by people with disabilities, file and PDF remediation, and VPAT authoring). Developer surfaces include a documented Partners API for programmatic accessWidget license management and a first-party accessFlow MCP server that connects IDE AI assistants to accessibility audit findings and remediation guidance.
+finops:
+- has_sources: true
+  method: derived
+  name: Accessibe Finops
+  primary_unit: website
+  service_category: ''
+  slug: accessibe-finops
+  template: false
 image: https://accessibe.com/wp-content/uploads/2026/01/favicon.png
 layout: provider
 mcp_servers:
@@ -239,26 +249,29 @@ plans:
 - name: Accessibe Plans Pricing
   plan_count: 7
   slug: accessibe-plans-pricing
-random_paper: 6
+- name: Accessibe Price Estimates
+  plan_count: 0
+  slug: accessibe-price-estimates
+random_paper: 18
 score:
-  band: developing
-  composite: 52.1
+  band: strong
+  composite: 59.0
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 49.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.5
   facets:
-    access_clarity: 85.5
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 51.4
-    developer_ergonomics: 49.4
-    discoverability: 75.0
-    operational_transparency: 23.7
-  previous_composite: 45.7
+    developer_ergonomics: 66.1
+    discoverability: 65.0
+    operational_transparency: 31.6
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,13 +288,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/screenshots/accessibe-2026-08-07T160757.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/accessibe/accessibe-2026-08-07T160757.png
 security:
 - kind: authentication
   name: Accessibe Authentication
@@ -295,6 +309,14 @@ security:
   name: Accessibe Trust Center
   slug: accessibe-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 3
+skills:
+- name: Triage and remediate accessibility issues with the accessFlow MCP server
+  slug: accessibe-accessflow-remediation
+- name: Bulk-create or bulk-update accessWidget licenses safely
+  slug: accessibe-bulk-license-batch
+- name: Provision an accessWidget license for a domain
+  slug: accessibe-provision-accesswidget-license
 slug: accessibe
 tags:
 - Company

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 11.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The pricing surface behind @touchmark/sdk - open a session per scope, emit events fire-and-forget with an idempotent event_id, and consume quality-adjusted valuations (absolute fair_price_usd per even
@@ -43,7 +45,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/security/touchmark-domain-security.yml
+  href: https://artifacts.apis.io/touchmark/security/touchmark-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/touchmark-domain-security.yml
@@ -80,67 +82,67 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/touchmark-ai
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/packages/touchmark-packages.yml
+  href: https://artifacts.apis.io/touchmark/packages/touchmark-packages.yml
   title: ''
   type: Packages
   url: packages/touchmark-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/packages/touchmark-packages.yml
+  href: https://artifacts.apis.io/touchmark/packages/touchmark-packages.yml
   title: ''
   type: SDKs
   url: packages/touchmark-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/well-known/touchmark-well-known.yml
+  href: https://artifacts.apis.io/touchmark/well-known/touchmark-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/touchmark-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/mcp/touchmark-mcp.yml
+  href: https://artifacts.apis.io/touchmark/mcp/touchmark-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/touchmark-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/llms/touchmark-llms.txt
+  href: https://artifacts.apis.io/touchmark/llms/touchmark-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/touchmark-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/conformance/touchmark-conformance.yml
+  href: https://artifacts.apis.io/touchmark/conformance/touchmark-conformance.yml
   title: ''
   type: Conformance
   url: conformance/touchmark-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/errors/touchmark-error-codes.yml
+  href: https://artifacts.apis.io/touchmark/errors/touchmark-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/touchmark-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/lifecycle/touchmark-lifecycle.yml
+  href: https://artifacts.apis.io/touchmark/lifecycle/touchmark-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/touchmark-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/authentication/touchmark-authentication.yml
+  href: https://artifacts.apis.io/touchmark/authentication/touchmark-authentication.yml
   title: ''
   type: Authentication
   url: authentication/touchmark-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/conventions/touchmark-conventions.yml
+  href: https://artifacts.apis.io/touchmark/conventions/touchmark-conventions.yml
   title: ''
   type: Conventions
   url: conventions/touchmark-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/conventions/touchmark-conventions.yml
+  href: https://artifacts.apis.io/touchmark/conventions/touchmark-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/touchmark-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/components/touchmark-components.yml
+  href: https://artifacts.apis.io/touchmark/components/touchmark-components.yml
   title: ''
   type: Components
   url: components/touchmark-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/data-model/touchmark-data-model.yml
+  href: https://artifacts.apis.io/touchmark/data-model/touchmark-data-model.yml
   title: ''
   type: DataModel
   url: data-model/touchmark-data-model.yml
@@ -156,26 +158,26 @@ overview: 'Touchmark is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Touchmark''s developer surface includes documentation, API reference, getting-started guide, authentication, and 18 more developer resources.'
-random_paper: 6
+random_paper: 14
 score:
   band: emerging
-  composite: 18.4
+  composite: 20.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 47.6
     discoverability: 66.1
-    operational_transparency: 2.6
-  previous_composite: 18.3
+    operational_transparency: 5.3
+  previous_composite: 20.1
   provenance:
     conformance: derived
     mcp: derived
@@ -185,14 +187,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/touchmark/refs/heads/main/screenshots/touchmark-2026-09-02T164047.png
+screenshot: https://apis.io/screenshots/touchmark/touchmark-2026-09-02T164047.png
 security:
 - kind: authentication
   name: Touchmark Authentication

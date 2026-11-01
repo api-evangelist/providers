@@ -1,6 +1,6 @@
 {
- "total": 7,
- "shown": 7,
+ "total": 15,
+ "shown": 15,
  "limit": 1000,
  "bands": [
   {
@@ -8,27 +8,27 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "Raiffeisenbank (Russia)",
      "slug": "raiffeisen-ru",
      "description": "Raiffeisenbank (AO Raiffeisenbank, Райффайзен Банк) is a Russian bank providing a full range of banking services to retail and corporate clients (mortgages, loans, deposits, business banking). Through its Raiffeisen API developer portal (developer.raiffeisen.ru) it publishes a catalog of public corporate banking APIs for payments, account statements, payroll, liquidity and FX, connectable directly from 1C or ERP systems, with OAuth 2.0 authentication, a sandbox and documentation; it also runs the separate Raif Pay API for merchant payments, and its Raiffeisen-DGTL GitHub organization publishes a REST API design guide with Spectral rules.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/raiffeisen-ru/refs/heads/main/screenshots/raiffeisen-ru-2026-10-11T113117.png",
-     "score": 63.2,
+     "screenshot": "https://artifacts.apis.io/raiffeisen-ru/screenshots/raiffeisen-ru-2026-10-11T113117.png",
+     "score": 57.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 81.7,
-      "contract_quality": 71.3,
+      "discoverability": 71.7,
+      "contract_quality": 70.9,
       "contract_governance": 76.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 63.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -36,12 +36,12 @@
       "score": 29.9,
       "matched_via": "tags"
      },
-     "agent_score": 46.4,
+     "agent_score": 42.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": "documented",
+      "reversibility_documented": false,
       "mcp_server": "documented",
       "auth_clarity": "bearer",
       "idempotency": "documented",
@@ -57,9 +57,62 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": false,
+      "operation_distinctiveness": false
      },
      "rank": 1
+    },
+    {
+     "name": "srezai-ru",
+     "slug": "srezai-ru",
+     "description": "СрезAI – поисковый API для ИИ‑агентов, предоставляющий живой веб‑поиск по русскоязычному интернету (Рунету), возможность рендеринга страниц браузером и выдачу чистого Markdown или JSON, что упрощает построение RAG‑проектов и цепочек запросов для больших языковых моделей. Сервис поддерживает REST‑API, Model Context Protocol (MCP), CLI‑инструменты и готовые скиллы, а также предлагает функции поиска изображений, извлечения данных по JSON‑схемам, проверки фактов и глубоких исследований. Компания ориентирована на российский рынок, но предоставляет интерфейсы на английском и русском языках.",
+     "score": 56.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 56.7,
+      "contract_quality": 53.4,
+      "contract_governance": 79.1,
+      "operational_transparency": 33.7,
+      "developer_ergonomics": 54.8,
+      "access_clarity": 50.5
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 31.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 38.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "distinct"
+     },
+     "rank": 2
     }
    ],
    "open": true
@@ -69,27 +122,129 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 1,
-   "shown": 1,
+   "count": 3,
+   "shown": 3,
    "providers": [
+    {
+     "name": "egrul-org",
+     "slug": "egrul-org",
+     "description": "egrul.org provides API access to Russian official registers including the Unified State Register of Legal Entities (EGRUL) and the Unified State Register of Individual Entrepreneurs (EGRIP). It offers XML and JSON endpoints for querying organization and individual data, supporting verification of counterparties, compliance checks, and access to archival extracts. The service includes subscription plans for bulk data downloads, real-time lookup, and integration with accounting and risk management systems. Data sources encompass Federal Tax Service, Rosstat, Prosecutor General, FIPS, Ministry of Internal Affairs, Federal Penitentiary Service, Rosfinmonitoring, and sanctions lists.",
+     "score": 53.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 56.7,
+      "contract_quality": 47.1,
+      "contract_governance": 79.1,
+      "operational_transparency": 18.9,
+      "developer_ergonomics": 39.8,
+      "access_clarity": 63.7
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 34.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 25.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "unknown",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "distinct"
+     },
+     "rank": 3
+    },
+    {
+     "name": "store-api-com",
+     "slug": "store-api-com",
+     "description": "Store API (store-api.com) provides a unified API key for accessing OpenAI, Claude, Gemini, and DeepSeek models from within Russia. It offers fast token‑based activation, Russian‑card payments, no VPN requirement, and transparent pricing. The service includes documentation, a playground, and support tailored for Russian developers and businesses. By aggregating multiple large‑language‑model providers, Store API simplifies integration, handling authentication, request routing, and billing in a single endpoint, enabling developers to build AI‑powered applications quickly and cost‑effectively.",
+     "score": 50.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 56.7,
+      "contract_quality": 47.5,
+      "contract_governance": 79.1,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 54.8,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 29.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 25.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "distinct"
+     },
+     "rank": 4
+    },
     {
      "name": "Avito",
      "slug": "avito",
      "description": "Avito is Russia's largest online classifieds platform (avito.ru), founded in 2007, where individuals and businesses buy and sell across goods, vehicles, real estate, jobs and services. For business sellers and integrators Avito publishes a public Developer Portal (developers.avito.ru) exposing 25 OpenAPI 3.0.0 REST APIs on api.avito.ru covering item/listing management, autoload feed ingestion, the buyer-seller messenger, delivery, order and stock management, ratings and reviews, advertising and CPA/promotion campaigns, short-term rental, jobs (Avito.Rabota), and Autoteka vehicle history. All APIs use OAuth 2.0 (authorization_code for acting on behalf of users, client_credentials for a business's own account) with scoped access and per-minute rate limiting.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/screenshots/avito-2026-07-25T201949.png",
-     "score": 51.7,
+     "screenshot": "https://artifacts.apis.io/avito/screenshots/avito-2026-07-25T201949.png",
+     "score": 47.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 78.6,
+      "discoverability": 71.4,
       "contract_quality": 48.0,
       "contract_governance": 16.4,
-      "operational_transparency": 31.6,
+      "operational_transparency": 34.2,
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -97,12 +252,12 @@
       "score": 34.3,
       "matched_via": "fallback"
      },
-     "agent_score": 42.1,
+     "agent_score": 38.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": "documented",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
       "idempotency": false,
@@ -118,39 +273,204 @@
       "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": false,
+      "operation_distinctiveness": false
      },
-     "rank": 2
+     "rank": 5
     }
    ],
    "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "htmlweb-ru",
+     "slug": "htmlweb-ru",
+     "description": "htmlweb.ru provides a collection of Russian-focused web utilities and data APIs, including services for IP geolocation, phone operator lookup, organization verification by INN/OGRN, bank information by BIK, email validation, holiday calendars, QR code generation, domain WHOIS, OCR, anti-spam classification, SMS gateway, and MAX/Telegram bots. The platform offers both web interfaces and HTTP APIs, documented in llms.txt, and supports API key and bearer token authentication. It targets developers building Russian market applications.",
+     "score": 30.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 65.0,
+      "contract_quality": 39.9,
+      "contract_governance": 65.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.1,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 12.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 43.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "unknown",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "derived",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "unknown",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": "conformant",
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "distinct"
+     },
+     "rank": 6
+    }
+   ]
   },
   {
    "band": "emerging",
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 3,
-   "shown": 3,
+   "count": 6,
+   "shown": 6,
    "providers": [
+    {
+     "name": "SMS.ru",
+     "slug": "sms-ru",
+     "description": "SMS.ru provides a mass SMS sending service across Russia, offering a personal account and an HTTP/SMTP API for sending SMS messages. Users can launch campaigns within 15 minutes, view transparent operator‑based pricing, and register an alphanumeric sender name. The platform supports bulk messaging, authentication via calls, balance checks, and cost estimation, catering to businesses needing reliable communication.",
+     "score": 24.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.1,
+      "contract_quality": 23.8,
+      "contract_governance": 22.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 15.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "distinct"
+     },
+     "rank": 7
+    },
+    {
+     "name": "mcp-market-ru",
+     "slug": "mcp-market-ru",
+     "description": "MCP Market RU is a Russian marketplace platform that aggregates various digital services and products, providing a centralized API for developers to integrate listings, pricing, and transaction capabilities. The company focuses on enabling seamless e‑commerce experiences through standardized RESTful endpoints, comprehensive documentation, and support for multiple authentication methods. It aims to foster a vibrant ecosystem for third‑party developers and partners, offering tools for catalog management, order processing, and analytics.",
+     "score": 24.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 62.5,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 65.8
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 20.6,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
+     },
+     "rank": 8
+    },
     {
      "name": "OZON.ru",
      "slug": "ozonru",
      "description": "OZON is one of Russia's largest e-commerce marketplaces, offering retail across electronics, apparel, groceries, and more, plus its own logistics and fulfillment network (FBO/FBS). For developers, OZON exposes the OZON Seller API, a POST-based RPC-over-HTTP JSON API at https://api-seller.ozon.ru that lets marketplace sellers manage products, prices, stock, warehouses, orders, returns, analytics, and finances programmatically. Authentication uses two headers, a numeric Client-Id and a secret Api-Key issued in the seller cabinet. OZON was surfaced as a portfolio company of Index Ventures and enriched by the API Evangelist pipeline from live probes of its API host and public developer documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ozonru/refs/heads/main/screenshots/ozonru-2026-10-11T192112.png",
-     "score": 15.6,
+     "screenshot": "https://artifacts.apis.io/ozonru/screenshots/ozonru-2026-10-11T192112.png",
+     "score": 16.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 73.2,
+      "discoverability": 66.1,
       "contract_quality": 0.0,
       "contract_governance": 4.5,
       "operational_transparency": 18.4,
-      "developer_ergonomics": 21.4,
+      "developer_ergonomics": 31.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -179,28 +499,81 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 3
+     "rank": 9
+    },
+    {
+     "name": "Yandex Metrica",
+     "slug": "yandex-metrica",
+     "description": "Yandex Metrica is a free web analytics service provided by Yandex, offering detailed traffic statistics, user behavior analysis, and marketing tools for website owners and advertisers. It includes features such as real‑time reporting, goal tracking, heatmaps, and integration with Yandex.Direct and other Yandex services, helping businesses optimize their online presence and advertising spend.",
+     "score": 13.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 58.9,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 35.7,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Horizontal (data, software, accessibility, platform)",
+      "regime_id": "horizontal",
+      "score": 11.8,
+      "matched_via": "fallback"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
+     },
+     "rank": 10
     },
     {
      "name": "KupiVIP",
      "slug": "kupivip",
      "description": "KupiVIP (kupivip.ru) is a Russian online outlet retailer for luxury and premium fashion, selling women's and men's apparel, footwear, bags, accessories and home goods from more than 250 international designer brands at discounts of up to 90% on previous-season collections. The 1C-Bitrix storefront ships across Russia, publishes a 100% authenticity guarantee backed by expert verification, offers free delivery on orders over 30,000 RUB, and runs telephone, email, WhatsApp and Telegram customer support. The company was originally surfaced in the API Evangelist network as an Accel portfolio company. As of the 2026-07-19 enrichment probe KupiVIP publishes no public API, developer portal, SDK, or machine-readable interface of any kind.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kupivip/refs/heads/main/screenshots/kupivip-2026-10-11T191048.png",
-     "score": 12.3,
+     "screenshot": "https://artifacts.apis.io/kupivip/screenshots/kupivip-2026-10-11T191048.png",
+     "score": 12.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 55.4,
+      "discoverability": 48.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 27.6
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -229,15 +602,17 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 4
+     "rank": 11
     },
     {
      "name": "Aviasales",
      "slug": "aviasales",
      "description": "Aviasales is a leading Russian online travel service that helps users find and purchase the cheapest airline tickets. The platform aggregates offers from over 2000 airlines, covering routes to more than 190 countries, and also provides hotel bookings, travel guides, and personalized travel experiences. It serves millions of travelers annually, offering price comparisons, flexible search options, and a user-friendly interface for planning trips.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aviasales/refs/heads/main/screenshots/aviasales-2026-10-11T101149.png",
+     "screenshot": "https://artifacts.apis.io/aviasales/screenshots/aviasales-2026-10-11T101149.png",
      "score": 11.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -249,8 +624,8 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Horizontal (data, software, accessibility, platform)",
@@ -258,13 +633,13 @@
       "score": 13.7,
       "matched_via": "fallback"
      },
-     "agent_score": 0.0,
+     "agent_score": 3.1,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "documented",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -279,9 +654,11 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 5
+     "rank": 12
     }
    ]
   },
@@ -290,14 +667,65 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
+    {
+     "name": "SMSC.ru",
+     "slug": "smsc",
+     "description": "SMS Центр – сервис для отправки и приема SMS‑сообщений, EMS и бинарные SMS, E‑mail2sms, HLR, MMS, Voice, E‑mail рассылки и другое. Гарантированная доставка сообщений по всему миру, удобные тарифы и API‑интеграция.",
+     "score": 6.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 66.1,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 19.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
+     },
+     "rank": 13
+    },
     {
      "name": "B2B-Center",
      "slug": "b2b-center",
      "description": "B2B-Center is one of Russia's largest electronic trading platforms (ETP) for business-to-business procurement, operating at b2b-center.ru. The platform hosts electronic tenders, auctions, and competitive sourcing procedures that connect corporate and commercial buyers with a broad network of suppliers across many industries. It provides tools for organizing purchases, publishing procurement notices, qualifying and managing suppliers, and running the full electronic bidding lifecycle. B2B-Center is backed by Insight Partners and is tracked in the API Evangelist network as a portfolio company awaiting deeper enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/b2b-center/refs/heads/main/screenshots/b2b-center-2026-07-25T202142.png",
+     "screenshot": "https://artifacts.apis.io/b2b-center/screenshots/b2b-center-2026-07-25T202142.png",
      "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -309,8 +737,8 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -339,15 +767,17 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 6
+     "rank": 14
     },
     {
      "name": "Lomonosov Moscow State University",
      "slug": "lomonosov-moscow-state-university",
      "description": "Lomonosov Moscow State University is a higher-education institution in Russian Federation. This profile is a STUB: it records the institution's identity only. No claim is made about its programmable surface -- what it operates, what a vendor operates on its behalf, and what it publishes have not yet been established. Run the university pipeline (all/0-working/pipeline-university.md) to profile it.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lomonosov-moscow-state-university/refs/heads/main/screenshots/lomonosov-moscow-state-university-2026-09-02T150313.png",
+     "screenshot": "https://artifacts.apis.io/lomonosov-moscow-state-university/screenshots/lomonosov-moscow-state-university-2026-09-02T150313.png",
      "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -359,8 +789,8 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-10-17",
-     "schema_version": "0.24.0",
+     "scored_at": "2026-10-31",
+     "schema_version": "0.25.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -389,9 +819,11 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": false,
+      "pagination_ratio": "na",
+      "operation_distinctiveness": "na"
      },
-     "rank": 7
+     "rank": 15
     }
    ]
   }

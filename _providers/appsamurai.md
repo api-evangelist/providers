@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-10-17'
+  score: 35.1
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - baseURL: http://api.appsamurai.com
@@ -74,11 +76,8 @@ apis:
   description: Story group management endpoints
   name: Appsamurai Story Group API
   slug: appsamurai-story-group-api
-artifact_total: 15
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AppSamurai Campaign Spend API
   slug: open-appsamurai-campaign-spend-api
@@ -87,17 +86,17 @@ collections:
   slug: open-appsamurai-storyly-external-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/overlays/appsamurai-storyly-external-api-overlay.yaml
+  href: https://artifacts.apis.io/appsamurai/overlays/appsamurai-storyly-external-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsamurai-storyly-external-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/overlays/appsamurai-campaign-spend-overlay.yaml
+  href: https://artifacts.apis.io/appsamurai/overlays/appsamurai-campaign-spend-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/appsamurai-campaign-spend-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/security/appsamurai-domain-security.yml
+  href: https://artifacts.apis.io/appsamurai/security/appsamurai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/appsamurai-domain-security.yml
@@ -150,47 +149,47 @@ common:
   type: Compliance
   url: https://appsamurai.com/information-security-policy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/authentication/appsamurai-authentication.yml
+  href: https://artifacts.apis.io/appsamurai/authentication/appsamurai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/appsamurai-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/llms/appsamurai-llms.txt
+  href: https://artifacts.apis.io/appsamurai/llms/appsamurai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/appsamurai-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/packages/appsamurai-packages.yml
+  href: https://artifacts.apis.io/appsamurai/packages/appsamurai-packages.yml
   title: ''
   type: Packages
   url: packages/appsamurai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/packages/appsamurai-packages.yml
+  href: https://artifacts.apis.io/appsamurai/packages/appsamurai-packages.yml
   title: ''
   type: SDKs
   url: packages/appsamurai-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/well-known/appsamurai-well-known.yml
+  href: https://artifacts.apis.io/appsamurai/well-known/appsamurai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/appsamurai-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/mcp/appsamurai-mcp.yml
+  href: https://artifacts.apis.io/appsamurai/mcp/appsamurai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/appsamurai-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/errors/appsamurai-problem-types.yml
+  href: https://artifacts.apis.io/appsamurai/errors/appsamurai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/appsamurai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/conventions/appsamurai-conventions.yml
+  href: https://artifacts.apis.io/appsamurai/conventions/appsamurai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/appsamurai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/conformance/appsamurai-conformance.yml
+  href: https://artifacts.apis.io/appsamurai/conformance/appsamurai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/appsamurai-conformance.yml
@@ -203,37 +202,37 @@ common:
   type: StatusPage
   url: https://status.storyly.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/lifecycle/appsamurai-lifecycle.yml
+  href: https://artifacts.apis.io/appsamurai/lifecycle/appsamurai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/appsamurai-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/mcp/appsamurai-tool-crosswalk.yml
+  href: https://artifacts.apis.io/appsamurai/mcp/appsamurai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/appsamurai-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/data-model/appsamurai-data-model.yml
+  href: https://artifacts.apis.io/appsamurai/data-model/appsamurai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/appsamurai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/components/appsamurai-components.yml
+  href: https://artifacts.apis.io/appsamurai/components/appsamurai-components.yml
   title: ''
   type: Components
   url: components/appsamurai-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/changelog/appsamurai-changelog.yml
+  href: https://artifacts.apis.io/appsamurai/changelog/appsamurai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/appsamurai-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/plans/appsamurai-plans-pricing.yml
+  href: https://artifacts.apis.io/appsamurai/plans/appsamurai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/appsamurai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/rate-limits/appsamurai-rate-limits.yml
+  href: https://artifacts.apis.io/appsamurai/rate-limits/appsamurai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/appsamurai-rate-limits.yml
@@ -246,18 +245,26 @@ common:
   type: GettingStarted
   url: https://docs.storyly.io/docs/introduction
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/llms/appsamurai-storyly-llms.txt
+  href: https://artifacts.apis.io/appsamurai/llms/appsamurai-storyly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/appsamurai-storyly-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/appsamurai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: AppSamurai (legally Apps Medya Teknoloji A.S., engineering org Netvent) is a global, AI-powered mobile app growth platform founded in 2016. It offers user acquisition, retargeting, OEM / on-device app discovery, rewarded user acquisition and monetization across one platform, plus Storyly, its AI-powered in-app content experience product for mobile commerce, and the Interceptd ad fraud detection product. AppSamurai reaches over two billion users across more than 130 countries and works with mobile operators and device manufacturers such as Samsung, Xiaomi, Huawei, Oppo and Lenovo. It publishes two APIs. The Storyly External API covers 18 operations over apps, instances, story groups, stories, audiences and segments, authenticated with a bearer JWT, with a provider-published OpenAPI advertised through an RFC 9727 api-catalog on its docs host. The AppSamurai Campaign Spend API is a single keyed HTTP GET returning campaign spend reporting. AppSamurai also runs a live remote MCP
   server at mcp.storyly.io serving Storyly Placement SDK knowledge to agents, and ships embeddable Placement widget SDKs for Android, iOS, Web, React Native and Flutter. AppSamurai is ISO 27001 certified for information security. This profile was surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline.
+finops:
+- has_sources: true
+  method: derived
+  name: Appsamurai Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: appsamurai-finops
+  template: false
 image: https://appsamurai.com/og-default.png
 layout: provider
 modified: '2026-08-13'
@@ -272,30 +279,33 @@ plans:
 - name: Appsamurai Plans Pricing
   plan_count: 3
   slug: appsamurai-plans-pricing
+- name: Appsamurai Price Estimates
+  plan_count: 0
+  slug: appsamurai-price-estimates
 random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Appsamurai Rate Limits
   slug: appsamurai-rate-limits
 score:
-  band: developing
-  composite: 53.5
+  band: strong
+  composite: 60.7
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 52.0
+    artifact_dirs: 24
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 71.1
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 49.1
-    developer_ergonomics: 55.4
-    discoverability: 78.6
-    operational_transparency: 34.2
-  previous_composite: 53.4
+    contract_quality: 45.6
+    developer_ergonomics: 66.1
+    discoverability: 71.4
+    operational_transparency: 47.4
+  previous_composite: 59.1
   provenance:
     conformance: first-party
     contracts:
@@ -311,13 +321,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/screenshots/appsamurai-2026-07-25T200844.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/appsamurai/appsamurai-2026-07-25T200844.png
 security:
 - kind: authentication
   name: Appsamurai Authentication
@@ -331,6 +342,16 @@ security:
   name: Appsamurai Vulnerability Disclosure
   slug: appsamurai-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 4
+skills:
+- name: appsamurai-publish-a-story
+  slug: appsamurai-publish-a-story
+- name: appsamurai-pull-campaign-spend
+  slug: appsamurai-pull-campaign-spend
+- name: appsamurai-report-on-content-performance
+  slug: appsamurai-report-on-content-performance
+- name: appsamurai-target-content-with-audiences
+  slug: appsamurai-target-content-with-audiences
 slug: appsamurai
 tags:
 - Company

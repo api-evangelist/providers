@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 60.8
-  scored_at: '2026-10-17'
+  score: 59.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 63
   slug: usecommune-agentic-access
   summary_line: 63 operations · 19 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.usecommune.com
   baseurl_source: declared
@@ -123,134 +125,139 @@ apis:
   description: A creator's own domain pointed at their Commune site, so their community lives at their address rather than at ours. The same prove you own this hostname flow as Senders, pointed at the site rather th
   name: Commune Website domains API
   slug: usecommune-website-domains-api
-artifact_total: 34
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Usecommune Webhooks
   slug: usecommune-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/usecommune/capabilities/usecommune-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/usecommune-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/mcp/usecommune-mcp.yml
+  href: https://artifacts.apis.io/usecommune/mcp/usecommune-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/usecommune-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/llms/usecommune-api-reference-llms.txt
+  href: https://artifacts.apis.io/usecommune/llms/usecommune-api-reference-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/usecommune-api-reference-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/agentic-access/usecommune-agentic-access.yml
+  href: https://artifacts.apis.io/usecommune/agentic-access/usecommune-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/usecommune-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/rate-limits/usecommune-rate-limits.yml
+  href: https://artifacts.apis.io/usecommune/rate-limits/usecommune-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/usecommune-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/plans/usecommune-plans-pricing.yml
+  href: https://artifacts.apis.io/usecommune/plans/usecommune-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/usecommune-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/rules/usecommune-rules.yml
+  href: https://artifacts.apis.io/usecommune/rules/usecommune-rules.yml
   title: ''
   type: Spectral
   url: rules/usecommune-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/json-ld/usecommune-context.jsonld
+  href: https://artifacts.apis.io/usecommune/json-ld/usecommune-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/usecommune-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/vocabulary/usecommune-vocabulary.yml
+  href: https://artifacts.apis.io/usecommune/vocabulary/usecommune-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/usecommune-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/usecommune/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/asyncapi/usecommune-webhooks.yml
+  href: https://artifacts.apis.io/usecommune/asyncapi/usecommune-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/usecommune-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/data-model/usecommune-data-model.yml
+  href: https://artifacts.apis.io/usecommune/data-model/usecommune-data-model.yml
   title: ''
   type: DataModel
   url: data-model/usecommune-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/changelog/usecommune-changelog.yml
+  href: https://artifacts.apis.io/usecommune/changelog/usecommune-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/usecommune-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/conventions/usecommune-conventions.yml
+  href: https://artifacts.apis.io/usecommune/conventions/usecommune-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/usecommune-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/conventions/usecommune-conventions.yml
+  href: https://artifacts.apis.io/usecommune/conventions/usecommune-conventions.yml
   title: ''
   type: Conventions
   url: conventions/usecommune-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/lifecycle/usecommune-lifecycle.yml
+  href: https://artifacts.apis.io/usecommune/lifecycle/usecommune-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/usecommune-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/errors/usecommune-problem-types.yml
+  href: https://artifacts.apis.io/usecommune/errors/usecommune-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/usecommune-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/conformance/usecommune-conformance.yml
+  href: https://artifacts.apis.io/usecommune/conformance/usecommune-conformance.yml
   title: ''
   type: Conformance
   url: conformance/usecommune-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/overlays/usecommune-openapi-overlay.yaml
+  href: https://artifacts.apis.io/usecommune/overlays/usecommune-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/usecommune-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/llms/usecommune-llms.txt
+  href: https://artifacts.apis.io/usecommune/llms/usecommune-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/usecommune-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/llms/usecommune-dev-llms.txt
+  href: https://artifacts.apis.io/usecommune/llms/usecommune-dev-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/usecommune-dev-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/well-known/usecommune-well-known.yml
+  href: https://artifacts.apis.io/usecommune/well-known/usecommune-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/usecommune-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/hosts/usecommune-hosts.yml
+  href: https://artifacts.apis.io/usecommune/hosts/usecommune-hosts.yml
   title: ''
   type: Hosts
   url: hosts/usecommune-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/vendors/usecommune-vendors.yml
+  href: https://artifacts.apis.io/usecommune/vendors/usecommune-vendors.yml
   title: ''
   type: Vendors
   url: vendors/usecommune-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/authentication/usecommune-authentication.yml
+  href: https://artifacts.apis.io/usecommune/authentication/usecommune-authentication.yml
   title: ''
   type: Authentication
   url: authentication/usecommune-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/scopes/usecommune-scopes.yml
+  href: https://artifacts.apis.io/usecommune/scopes/usecommune-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/usecommune-scopes.yml
@@ -303,12 +310,20 @@ common:
   type: Discord
   url: https://discord.gg/P6FtchV5e
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/security/usecommune-domain-security.yml
+  href: https://artifacts.apis.io/usecommune/security/usecommune-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/usecommune-domain-security.yml
 created: '2026-10-07'
 description: 'Commune turns newsletters into communities: each newsletter has an archive of articles and every article carries a threaded chat, with engagement insights, subscriber analytics, growth tracking and superfan identification on top. The Commune API (63 operations, 23 webhook topics, contract version 2026-08-26) exposes newsletters, articles, threads, messages, subscribers, tags, senders, domains, metrics, sends and event delivery over a cursor-paginated REST surface at api.usecommune.com, authenticated with bearer API keys or OAuth 2.1 (PKCE, dynamic client registration, RFC 9728 protected-resource metadata), versioned by a Commune-Version date header, with a required Idempotency-Key on every write and a hosted MCP server at api.usecommune.com/mcp.'
+finops:
+- has_sources: true
+  method: derived
+  name: Usecommune Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: usecommune-finops
+  template: false
 image: https://usecommune.com/favicon.ico
 json_schemas:
 - name: ApiKey
@@ -349,12 +364,15 @@ overview: 'Commune publishes 18 API contracts indexed on the [APIs.io](https://a
   The Commune catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Commune''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, pricing, signup flow, and 31 more developer resources.'
+  Commune''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, pricing, signup flow, and 32 more developer resources.'
 plans:
 - name: Usecommune Plans Pricing
   plan_count: 3
   slug: usecommune-plans-pricing
-random_paper: 11
+- name: Usecommune Price Estimates
+  plan_count: 0
+  slug: usecommune-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Usecommune Rate Limits
@@ -379,23 +397,23 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.9
+  composite: 65.5
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 86.8
+    artifact_dirs: 30
+    catalog_earned: 89.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 28.3
+    catalog_gap: 25.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.2
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 22.0
-    contract_quality: 74.2
+    contract_quality: 75.2
     developer_ergonomics: 56.5
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 55.3
-  previous_composite: 63.7
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -412,13 +430,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 35.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/usecommune/refs/heads/main/screenshots/usecommune-2026-10-11T131538.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/usecommune/usecommune-2026-10-11T131538.png
 security:
 - kind: authentication
   name: Usecommune Authentication
@@ -428,6 +447,16 @@ security:
   name: Usecommune Domain Security
   slug: usecommune-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: usecommune-consume-events
+  slug: usecommune-consume-events
+- name: usecommune-newsletter-pulse
+  slug: usecommune-newsletter-pulse
+- name: usecommune-publish-an-article
+  slug: usecommune-publish-an-article
+- name: usecommune-segment-subscribers
+  slug: usecommune-segment-subscribers
 slug: usecommune
 tags:
 - Newsletters

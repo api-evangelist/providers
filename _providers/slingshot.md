@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +55,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/slingshot-finance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/slingshot/refs/heads/main/security/slingshot-domain-security.yml
+  href: https://artifacts.apis.io/slingshot/security/slingshot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/slingshot-domain-security.yml
@@ -69,7 +71,7 @@ overview: 'Slingshot is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Slingshot''s developer surface includes support and 4 more developer resources.'
-random_paper: 19
+random_paper: 3
 score:
   band: minimal
   composite: 0.0
@@ -102,15 +104,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 8.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/slingshot/refs/heads/main/screenshots/slingshot-2026-09-02T155844.png
+screenshot: https://apis.io/screenshots/slingshot/slingshot-2026-09-02T155844.png
 security:
 - kind: domain-security
   name: Slingshot Domain Security

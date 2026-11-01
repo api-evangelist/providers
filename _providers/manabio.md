@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -53,17 +55,17 @@ common:
   type: Jobs
   url: https://www.mana.bio/jobs
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manabio/refs/heads/main/mcp/manabio-mcp.yml
+  href: https://artifacts.apis.io/manabio/mcp/manabio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/manabio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/manabio/refs/heads/main/llms/manabio-llms.txt
+  href: https://artifacts.apis.io/manabio/llms/manabio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/manabio-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/manabio/refs/heads/main/security/manabio-domain-security.yml
+  href: https://artifacts.apis.io/manabio/security/manabio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/manabio-domain-security.yml
@@ -72,7 +74,7 @@ description: Mana.bio is an AI-driven drug-delivery biotechnology company specia
 image: https://static.wixstatic.com/media/d7e63b_1d6eb702d51a4cdaad0396e94610de66~mv2.jpg/v1/fit/w_2500,h_1330,al_c/d7e63b_1d6eb702d51a4cdaad0396e94610de66~mv2.jpg
 layout: provider
 mcp_servers:
-- description: Remote MCP server at www.mana.bio over HTTP; 9 tools listed.
+- description: Remote MCP server at www.mana.bio over HTTP; 10 tools listed.
   name: Mana.bio Site MCP
   slug: mana-bio-site-visitor-assistant
 modified: '2026-07-20'
@@ -83,26 +85,26 @@ overview: 'Mana.bio is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Mana.bio''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 1
+random_paper: 7
 score:
   band: minimal
-  composite: 4.9
+  composite: 3.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 4.8
+  previous_composite: 3.9
   provenance:
     mcp: platform-generated
   regulatory:
@@ -111,14 +113,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/manabio/refs/heads/main/screenshots/manabio-2026-07-25T230017.png
+screenshot: https://apis.io/screenshots/manabio/manabio-2026-07-25T230017.png
 security:
 - kind: domain-security
   name: Manabio Domain Security

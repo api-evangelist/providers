@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.1
-  scored_at: '2026-10-17'
+  score: 25.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -70,11 +72,8 @@ apis:
   description: The Tracks API from Songstats — 7 operation(s) for tracks.
   name: Songstats Tracks API
   slug: songstats-tracks-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Songstats Enterprise Artists API
   slug: open-songstats-artists-api
@@ -95,32 +94,32 @@ collections:
   slug: open-songstats
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/plans/songstats-plans-pricing.yml
+  href: https://artifacts.apis.io/songstats/plans/songstats-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/songstats-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/rate-limits/songstats-rate-limits.yml
+  href: https://artifacts.apis.io/songstats/rate-limits/songstats-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/songstats-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/finops/songstats-finops.yml
+  href: https://artifacts.apis.io/songstats/finops/songstats-finops.yml
   title: ''
   type: FinOps
   url: finops/songstats-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/agentic-access/songstats-agentic-access.yml
+  href: https://artifacts.apis.io/songstats/agentic-access/songstats-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/songstats-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/security/songstats-domain-security.yml
+  href: https://artifacts.apis.io/songstats/security/songstats-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/songstats-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/authentication/songstats-authentication.yml
+  href: https://artifacts.apis.io/songstats/authentication/songstats-authentication.yml
   title: ''
   type: Authentication
   url: authentication/songstats-authentication.yml
@@ -165,7 +164,7 @@ finops:
 - has_sources: false
   method: generated
   name: Songstats Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: songstats-finops
   template: true
@@ -206,7 +205,7 @@ plans:
 - name: Songstats Plans Pricing
   plan_count: 3
   slug: songstats-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Songstats Rate Limits
@@ -237,23 +236,23 @@ rules:
   slug: songstats-rules
 score:
   band: thin
-  composite: 37.3
+  composite: 37.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 63.9
     catalog_earned_first_party: 0.0
     catalog_gap: 51.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 60.9
     developer_ergonomics: 40.5
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 13.2
-  previous_composite: 38.7
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -268,13 +267,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/screenshots/songstats-2026-06-20T194203.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/songstats/songstats-2026-06-20T194203.png
 security:
 - kind: authentication
   name: Songstats Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -41,7 +43,7 @@ common:
   type: Blog
   url: https://www.obligate.com/press
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/obligate/refs/heads/main/security/obligate-domain-security.yml
+  href: https://artifacts.apis.io/obligate/security/obligate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/obligate-domain-security.yml
@@ -82,7 +84,7 @@ common:
   type: Blog
   url: https://obligate.medium.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/obligate/refs/heads/main/llms/obligate-llms.txt
+  href: https://artifacts.apis.io/obligate/llms/obligate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/obligate-llms.txt
@@ -98,10 +100,10 @@ overview: 'Obligate is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Obligate''s developer surface includes engineering blog, documentation, getting-started guide, signup flow, pricing, and 7 more developer resources.'
-random_paper: 3
+random_paper: 23
 score:
   band: emerging
-  composite: 18.1
+  composite: 17.4
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -115,28 +117,28 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - switzerland
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 18.1
+  previous_composite: 17.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/obligate/refs/heads/main/screenshots/obligate-2026-08-07T185905.png
+screenshot: https://apis.io/screenshots/obligate/obligate-2026-08-07T185905.png
 security:
 - kind: domain-security
   name: Obligate Domain Security

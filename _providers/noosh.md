@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 26.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 107
   slug: noosh-agentic-access
   summary_line: 107 operations · 29 acting
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://api.noosh.com
   baseurl_source: declared
@@ -170,20 +172,20 @@ apis:
   description: The Workgroup Members API from Noosh — 2 operation(s) for workgroup members.
   name: Noosh Workgroup Members API
   slug: noosh-workgroup-members-api
-artifact_total: 30
+artifact_total: 33
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/capabilities/noosh-capability-edges.yml
+  href: https://artifacts.apis.io/noosh/capabilities/noosh-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/noosh-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/agentic-access/noosh-agentic-access.yml
+  href: https://artifacts.apis.io/noosh/agentic-access/noosh-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/noosh-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/authentication/noosh-authentication.yml
+  href: https://artifacts.apis.io/noosh/authentication/noosh-authentication.yml
   title: ''
   type: Authentication
   url: authentication/noosh-authentication.yml
@@ -216,7 +218,7 @@ common:
   type: TermsOfService
   url: https://www.noosh.com/terms-of-service/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/security/noosh-domain-security.yml
+  href: https://artifacts.apis.io/noosh/security/noosh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/noosh-domain-security.yml
@@ -233,62 +235,62 @@ common:
   type: HelpCenter
   url: https://support.noosh.com/hc/en-us
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/changelog/noosh-changelog.yml
+  href: https://artifacts.apis.io/noosh/changelog/noosh-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/noosh-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/lifecycle/noosh-lifecycle.yml
+  href: https://artifacts.apis.io/noosh/lifecycle/noosh-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/noosh-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/conventions/noosh-conventions.yml
+  href: https://artifacts.apis.io/noosh/conventions/noosh-conventions.yml
   title: ''
   type: Conventions
   url: conventions/noosh-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/errors/noosh-problem-types.yml
+  href: https://artifacts.apis.io/noosh/errors/noosh-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/noosh-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/data-model/noosh-data-model.yml
+  href: https://artifacts.apis.io/noosh/data-model/noosh-data-model.yml
   title: ''
   type: DataModel
   url: data-model/noosh-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/conformance/noosh-conformance.yml
+  href: https://artifacts.apis.io/noosh/conformance/noosh-conformance.yml
   title: ''
   type: Conformance
   url: conformance/noosh-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/packages/noosh-packages.yml
+  href: https://artifacts.apis.io/noosh/packages/noosh-packages.yml
   title: ''
   type: Packages
   url: packages/noosh-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/plans/noosh-plans-pricing.yml
+  href: https://artifacts.apis.io/noosh/plans/noosh-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/noosh-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/rate-limits/noosh-rate-limits.yml
+  href: https://artifacts.apis.io/noosh/rate-limits/noosh-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/noosh-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/llms/noosh-llms.txt
+  href: https://artifacts.apis.io/noosh/llms/noosh-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/noosh-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/noosh/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/overlays/noosh-openapi-overlay.yaml
+  href: https://artifacts.apis.io/noosh/overlays/noosh-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/noosh-openapi-overlay.yaml
@@ -309,30 +311,30 @@ plans:
 - name: Noosh Plans Pricing
   plan_count: 0
   slug: noosh-plans-pricing
-random_paper: 1
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Noosh Rate Limits
   slug: noosh-rate-limits
 score:
   band: thin
-  composite: 35.2
+  composite: 36.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 40.0
+    artifact_dirs: 23
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 38.7
     developer_ergonomics: 37.5
-    discoverability: 71.4
+    discoverability: 66.1
     operational_transparency: 31.6
-  previous_composite: 34.6
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -349,13 +351,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/screenshots/noosh-2026-08-07T185512.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/noosh/noosh-2026-08-07T185512.png
 security:
 - kind: authentication
   name: Noosh Authentication
@@ -365,6 +368,14 @@ security:
   name: Noosh Domain Security
   slug: noosh-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Manage project files and folders in Noosh
+  slug: noosh-manage-project-files
+- name: Source a print job through Noosh
+  slug: noosh-source-a-print-job
+- name: Track order fulfillment and shipments in Noosh
+  slug: noosh-track-order-fulfillment
 slug: noosh
 tags:
 - Company

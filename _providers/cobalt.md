@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -95,7 +97,7 @@ apis:
   description: Subscribe to real-time notifications when events occur in Cobalt.
   name: Cobalt Webhooks API
   slug: cobalt-webhooks-api
-artifact_total: 1125
+artifact_total: 1124
 collections:
 - collection_type: postman
   name: Cobalt Applications API
@@ -127,9 +129,6 @@ collections:
 - collection_type: postman
   name: Cobalt Applications Webhooks API
   slug: postman-cobalt-webhooks-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Cobalt API
   slug: open-cobalt-api
@@ -165,22 +164,22 @@ collections:
   slug: open-cobalt-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/plans/cobalt-plans-pricing.yml
+  href: https://artifacts.apis.io/cobalt/plans/cobalt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cobalt-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/rate-limits/cobalt-rate-limits.yml
+  href: https://artifacts.apis.io/cobalt/rate-limits/cobalt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cobalt-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/finops/cobalt-finops.yml
+  href: https://artifacts.apis.io/cobalt/finops/cobalt-finops.yml
   title: ''
   type: FinOps
   url: finops/cobalt-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/capabilities/cobalt-capability-edges.yml
+  href: https://artifacts.apis.io/cobalt/capabilities/cobalt-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cobalt-capability-edges.yml
@@ -189,22 +188,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/cobalt/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/agentic-access/cobalt-agentic-access.yml
+  href: https://artifacts.apis.io/cobalt/agentic-access/cobalt-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cobalt-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/security/cobalt-trust-center.yml
+  href: https://artifacts.apis.io/cobalt/security/cobalt-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cobalt-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/security/cobalt-domain-security.yml
+  href: https://artifacts.apis.io/cobalt/security/cobalt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cobalt-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/authentication/cobalt-authentication.yml
+  href: https://artifacts.apis.io/cobalt/authentication/cobalt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cobalt-authentication.yml
@@ -217,17 +216,17 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/cobalt_io
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/_original/cobalt-api-openapi.yml
+  href: https://artifacts.apis.io/cobalt/openapi/_original/cobalt-api-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/cobalt-api-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/rules/cobalt-rules.yml
+  href: https://artifacts.apis.io/cobalt/rules/cobalt-rules.yml
   title: ''
   type: SpectralRuleset
   url: rules/cobalt-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/json-ld/cobalt-context.jsonld
+  href: https://artifacts.apis.io/cobalt/json-ld/cobalt-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/cobalt-context.jsonld
@@ -323,7 +322,7 @@ finops:
 - has_sources: false
   method: generated
   name: Cobalt Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: cobalt-finops
   template: true
@@ -1417,7 +1416,7 @@ plans:
 - name: Cobalt Plans Pricing
   plan_count: 3
   slug: cobalt-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Cobalt Rate Limits
@@ -1448,23 +1447,23 @@ rules:
   slug: cobalt-rules
 score:
   band: developing
-  composite: 53.3
+  composite: 50.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 56.5
     catalog_earned_first_party: 0.0
     catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 60.5
     contract_governance: 13.6
-    contract_quality: 62.2
+    contract_quality: 61.0
     developer_ergonomics: 44.0
     discoverability: 57.1
-    operational_transparency: 36.8
-  previous_composite: 54.9
+    operational_transparency: 39.5
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1478,13 +1477,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/screenshots/cobalt-2026-06-20T174643.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cobalt/cobalt-2026-06-20T174643.png
 security:
 - kind: authentication
   name: Cobalt Authentication

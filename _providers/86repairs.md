@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -32,7 +34,7 @@ common:
   type: BlogRSS
   url: https://blog.86repairs.com/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/86repairs/refs/heads/main/security/86repairs-domain-security.yml
+  href: https://artifacts.apis.io/86repairs/security/86repairs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/86repairs-domain-security.yml
@@ -41,22 +43,22 @@ common:
   type: Website
   url: https://www.86repairs.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/86repairs/refs/heads/main/packages/86repairs-packages.yml
+  href: https://artifacts.apis.io/86repairs/packages/86repairs-packages.yml
   title: ''
   type: Packages
   url: packages/86repairs-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/86repairs/refs/heads/main/llms/86repairs-llms.txt
+  href: https://artifacts.apis.io/86repairs/llms/86repairs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/86repairs-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/86repairs/refs/heads/main/plans/86repairs-plans-pricing.yml
+  href: https://artifacts.apis.io/86repairs/plans/86repairs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/86repairs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/86repairs/refs/heads/main/rate-limits/86repairs-rate-limits.yml
+  href: https://artifacts.apis.io/86repairs/rate-limits/86repairs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/86repairs-rate-limits.yml
@@ -121,7 +123,7 @@ modified: '2026-10-06'
 name: 86 Repairs
 nav: Providers
 network: true
-overview: '86 Repairs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Food Service, Facilities Management, Maintenance, and Field Service.
+overview: '86 Repairs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Food Service, Facilities Management, Maintenance, and Field Service Management.
 
 
   86 Repairs'' developer surface includes engineering blog, support, YouTube channel, and 12 more developer resources.'
@@ -129,14 +131,14 @@ plans:
 - name: 86Repairs Plans Pricing
   plan_count: 0
   slug: 86repairs-plans-pricing
-random_paper: 10
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: 86Repairs Rate Limits
   slug: 86repairs-rate-limits
 score:
   band: emerging
-  composite: 11.6
+  composite: 12.9
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -144,29 +146,29 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 11.5
+  previous_composite: 12.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/86repairs/refs/heads/main/screenshots/86repairs-2026-10-11T092308.png
+screenshot: https://apis.io/screenshots/86repairs/86repairs-2026-10-11T092308.png
 security:
 - kind: domain-security
   name: 86Repairs Domain Security
@@ -178,7 +180,7 @@ tags:
 - Food Service
 - Facilities Management
 - Maintenance
-- Field Service
+- Field Service Management
 - Equipment
 - Asset Management
 - Hospitality

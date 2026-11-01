@@ -24,8 +24,8 @@ name: Lightera Networks
 nav: Providers
 network: true
 overview: Lightera Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardtech, Optical Networking, Telecommunications, and Networking Equipment.
-random_paper: 12
-screenshot: https://raw.githubusercontent.com/api-evangelist/lightera/refs/heads/main/screenshots/lightera-2026-07-25T225116.png
+random_paper: 8
+screenshot: https://apis.io/screenshots/lightera/lightera-2026-07-25T225116.png
 slug: lightera
 tags:
 - Company

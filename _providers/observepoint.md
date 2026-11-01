@@ -26,17 +26,19 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.2
-  scored_at: '2026-10-17'
-api_count: 5
+  score: 32.6
+  scored_at: '2026-10-31'
+api_count: 3
 apis:
 - baseURL: https://api.observepoint.com
   baseurl_source: declared
@@ -363,39 +365,39 @@ apis:
   description: APIs for managing Web Journeys
   name: ObservePoint Web Journeys Management API
   slug: observepoint-web-journeys-management-api
-artifact_total: 72
+artifact_total: 78
 asyncapis:
 - description: ''
   name: Observepoint Webhooks
   slug: observepoint-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/capabilities/observepoint-capability-edges.yml
+  href: https://artifacts.apis.io/observepoint/capabilities/observepoint-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/observepoint-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/overlays/observepoint-v3-api-overlay.yaml
+  href: https://artifacts.apis.io/observepoint/overlays/observepoint-v3-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/observepoint-v3-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/overlays/observepoint-grid-reports-api-overlay.yaml
+  href: https://artifacts.apis.io/observepoint/overlays/observepoint-grid-reports-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/observepoint-grid-reports-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/overlays/observepoint-v2-api-overlay.yaml
+  href: https://artifacts.apis.io/observepoint/overlays/observepoint-v2-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/observepoint-v2-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/security/observepoint-domain-security.yml
+  href: https://artifacts.apis.io/observepoint/security/observepoint-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/observepoint-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/authentication/observepoint-authentication.yml
+  href: https://artifacts.apis.io/observepoint/authentication/observepoint-authentication.yml
   title: ''
   type: Authentication
   url: authentication/observepoint-authentication.yml
@@ -460,72 +462,72 @@ common:
   type: TrustCenter
   url: https://trust.observepoint.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/llms/observepoint-llms.txt
+  href: https://artifacts.apis.io/observepoint/llms/observepoint-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/observepoint-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/llms/observepoint-site-llms.txt
+  href: https://artifacts.apis.io/observepoint/llms/observepoint-site-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/observepoint-site-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/conventions/observepoint-conventions.yml
+  href: https://artifacts.apis.io/observepoint/conventions/observepoint-conventions.yml
   title: ''
   type: Conventions
   url: conventions/observepoint-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/errors/observepoint-problem-types.yml
+  href: https://artifacts.apis.io/observepoint/errors/observepoint-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/observepoint-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/lifecycle/observepoint-lifecycle.yml
+  href: https://artifacts.apis.io/observepoint/lifecycle/observepoint-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/observepoint-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/conformance/observepoint-conformance.yml
+  href: https://artifacts.apis.io/observepoint/conformance/observepoint-conformance.yml
   title: ''
   type: Conformance
   url: conformance/observepoint-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/data-model/observepoint-data-model.yml
+  href: https://artifacts.apis.io/observepoint/data-model/observepoint-data-model.yml
   title: ''
   type: DataModel
   url: data-model/observepoint-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/packages/observepoint-packages.yml
+  href: https://artifacts.apis.io/observepoint/packages/observepoint-packages.yml
   title: ''
   type: Packages
   url: packages/observepoint-packages.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/rate-limits/observepoint-rate-limits.yml
+  href: https://artifacts.apis.io/observepoint/rate-limits/observepoint-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/observepoint-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/plans/observepoint-plans-pricing.yml
+  href: https://artifacts.apis.io/observepoint/plans/observepoint-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/observepoint-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/changelog/observepoint-changelog.yml
+  href: https://artifacts.apis.io/observepoint/changelog/observepoint-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/observepoint-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/asyncapi/observepoint-webhooks.yml
+  href: https://artifacts.apis.io/observepoint/asyncapi/observepoint-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/observepoint-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/observepoint/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/json-schema/observepoint-data-dictionary-schemas.json
+  href: https://artifacts.apis.io/observepoint/json-schema/observepoint-data-dictionary-schemas.json
   title: ''
   type: JSONSchema
   url: json-schema/observepoint-data-dictionary-schemas.json
@@ -540,6 +542,14 @@ common:
 created: '2026-08-26'
 description: ObservePoint is a web governance and digital data-quality platform that automatically scans websites, mobile web properties and email links to validate analytics tags, marketing pixels, cookies, consent banners, link integrity and WCAG accessibility. Customers configure Audits (large-scale crawls of a site) and Web Journeys (scripted multi-step user paths), run them on a schedule or on demand, and get back structured reports on tags, variables, cookies, network requests, browser logs, privacy exposure and accessibility issues. Everything in the product is available through a public REST API at api.observepoint.com across two supported versions (v2 and v3) plus a Grid Reporting API that returns any report as rows and columns with filtering, sorting, grouping, pagination and export. API access is included with every ObservePoint subscription at no additional cost, and audits and journeys can push completion webhooks (HMAC-SHA256 signed) into CI/CD pipelines, BI tools and ticketing
   systems.
+finops:
+- has_sources: true
+  method: derived
+  name: Observepoint Finops
+  primary_unit: ''
+  service_category: ''
+  slug: observepoint-finops
+  template: true
 image: https://www.observepoint.com/wp-content/themes/observepoint/assets/images/op-fallback-img.png
 json_schemas:
 - name: Data Dictionary API by Observepoint
@@ -565,16 +575,16 @@ plans:
 - name: Observepoint Plans Pricing
   plan_count: 0
   slug: observepoint-plans-pricing
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Observepoint Rate Limits
   slug: observepoint-rate-limits
 score:
-  band: developing
-  composite: 54.0
+  band: strong
+  composite: 54.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -582,13 +592,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 52.6
     contract_governance: 4.5
-    contract_quality: 63.1
+    contract_quality: 59.8
     developer_ergonomics: 58.9
-    discoverability: 78.6
-    operational_transparency: 57.9
-  previous_composite: 54.0
+    discoverability: 70.0
+    operational_transparency: 60.5
+  previous_composite: 54.8
   provenance:
     conformance: derived
     contracts:
@@ -603,14 +613,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/screenshots/observepoint-2026-09-02T150820.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/observepoint/observepoint-2026-09-02T150820.png
 security:
 - kind: authentication
   name: Observepoint Authentication
@@ -620,6 +631,18 @@ security:
   name: Observepoint Domain Security
   slug: observepoint-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 5
+skills:
+- name: observepoint-handle-completion-webhook
+  slug: observepoint-handle-completion-webhook
+- name: observepoint-privacy-and-consent-review
+  slug: observepoint-privacy-and-consent-review
+- name: observepoint-query-grid-reports
+  slug: observepoint-query-grid-reports
+- name: observepoint-run-audit-and-collect-results
+  slug: observepoint-run-audit-and-collect-results
+- name: observepoint-update-audit-configuration
+  slug: observepoint-update-audit-configuration
 slug: observepoint
 tags:
 - Company

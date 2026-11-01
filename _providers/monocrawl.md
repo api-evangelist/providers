@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.1
-  scored_at: '2026-10-17'
+  score: 53.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 622
   slug: monocrawl-agentic-access
   summary_line: 622 operations · 5 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://www.monocrawl.com
   baseurl_source: spec
@@ -429,64 +431,64 @@ apis:
   description: The truthsocial API from Monocrawl — 3 operation(s) for truthsocial.
   name: Monocrawl Truthsocial API
   slug: monocrawl-truthsocial-api
-artifact_total: 88
+artifact_total: 91
 asyncapis:
 - description: ''
   name: Monocrawl Webhooks
   slug: monocrawl-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/capabilities/monocrawl-capability-edges.yml
+  href: https://artifacts.apis.io/monocrawl/capabilities/monocrawl-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/monocrawl-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/agentic-access/monocrawl-agentic-access.yml
+  href: https://artifacts.apis.io/monocrawl/agentic-access/monocrawl-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/monocrawl-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/plans/monocrawl-plans-pricing.yml
+  href: https://artifacts.apis.io/monocrawl/plans/monocrawl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/monocrawl-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/rules/monocrawl-rules.yml
+  href: https://artifacts.apis.io/monocrawl/rules/monocrawl-rules.yml
   title: ''
   type: Spectral
   url: rules/monocrawl-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/json-ld/monocrawl-context.jsonld
+  href: https://artifacts.apis.io/monocrawl/json-ld/monocrawl-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/monocrawl-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/vocabulary/monocrawl-vocabulary.yml
+  href: https://artifacts.apis.io/monocrawl/vocabulary/monocrawl-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/monocrawl-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/monocrawl/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/asyncapi/monocrawl-webhooks.yml
+  href: https://artifacts.apis.io/monocrawl/asyncapi/monocrawl-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/monocrawl-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/data-model/monocrawl-data-model.yml
+  href: https://artifacts.apis.io/monocrawl/data-model/monocrawl-data-model.yml
   title: ''
   type: DataModel
   url: data-model/monocrawl-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/conventions/monocrawl-conventions.yml
+  href: https://artifacts.apis.io/monocrawl/conventions/monocrawl-conventions.yml
   title: ''
   type: Conventions
   url: conventions/monocrawl-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/authentication/monocrawl-authentication.yml
+  href: https://artifacts.apis.io/monocrawl/authentication/monocrawl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/monocrawl-authentication.yml
@@ -495,37 +497,37 @@ common:
   type: Deprecation
   url: https://www.monocrawl.com/docs/versioning.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/lifecycle/monocrawl-lifecycle.yml
+  href: https://artifacts.apis.io/monocrawl/lifecycle/monocrawl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/monocrawl-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/errors/monocrawl-problem-types.yml
+  href: https://artifacts.apis.io/monocrawl/errors/monocrawl-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/monocrawl-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/conformance/monocrawl-conformance.yml
+  href: https://artifacts.apis.io/monocrawl/conformance/monocrawl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/monocrawl-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/llms/monocrawl-llms.txt
+  href: https://artifacts.apis.io/monocrawl/llms/monocrawl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/monocrawl-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/well-known/monocrawl-well-known.yml
+  href: https://artifacts.apis.io/monocrawl/well-known/monocrawl-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/monocrawl-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/hosts/monocrawl-hosts.yml
+  href: https://artifacts.apis.io/monocrawl/hosts/monocrawl-hosts.yml
   title: ''
   type: Hosts
   url: hosts/monocrawl-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/vendors/monocrawl-vendors.yml
+  href: https://artifacts.apis.io/monocrawl/vendors/monocrawl-vendors.yml
   title: ''
   type: Vendors
   url: vendors/monocrawl-vendors.yml
@@ -566,7 +568,7 @@ common:
   type: APIReference
   url: https://www.monocrawl.com/docs/api-reference
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/security/monocrawl-domain-security.yml
+  href: https://artifacts.apis.io/monocrawl/security/monocrawl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/monocrawl-domain-security.yml
@@ -580,6 +582,14 @@ common:
   url: https://www.monocrawl.com/docs
 created: '2026-10-02'
 description: Monocrawl provides a unified REST API that aggregates public social, search and e-commerce data from over 70 platforms, including TikTok, Reddit, YouTube, Instagram, X, LinkedIn, Google, Amazon, eBay, Airbnb and more. It enables developers and AI agents to retrieve posts, products, reviews, profiles, and other public content through a single key and unified schema, supporting use cases like brand monitoring, competitor tracking, review analysis, and AI-driven insights. The service offers free starter credits and tiered pricing for scaling usage.
+finops:
+- has_sources: true
+  method: derived
+  name: Monocrawl Finops
+  primary_unit: seat
+  service_category: ''
+  slug: monocrawl-finops
+  template: false
 image: https://www.monocrawl.com/images/brand/monocrawl-social-v2.png
 json_schemas:
 - name: BatchRequest
@@ -609,7 +619,10 @@ plans:
 - name: Monocrawl Plans Pricing
   plan_count: 6
   slug: monocrawl-plans-pricing
-random_paper: 10
+- name: Monocrawl Price Estimates
+  plan_count: 0
+  slug: monocrawl-price-estimates
+random_paper: 18
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -625,21 +638,21 @@ rules:
   slug: monocrawl-rules
 score:
   band: strong
-  composite: 57.3
+  composite: 58.8
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 61.8
+    artifact_dirs: 26
+    catalog_earned: 64.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 53.3
+    catalog_gap: 50.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 22.0
     contract_quality: 70.2
     developer_ergonomics: 47.0
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 47.4
   previous_composite: 57.2
   provenance:
@@ -658,13 +671,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/monocrawl/refs/heads/main/screenshots/monocrawl-2026-10-11T111240.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/monocrawl/monocrawl-2026-10-11T111240.png
 security:
 - kind: authentication
   name: Monocrawl Authentication
@@ -674,6 +688,10 @@ security:
   name: Monocrawl Domain Security
   slug: monocrawl-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: search-airbnb
+  slug: monocrawl-search-airbnb
 slug: monocrawl
 tags:
 - Company

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The Rental business line of the EHI API Marketplace, covering Enterprise Rent-A-Car's network of neighborhood and airport branches. The public overview page describes the capabilities as vehicle renta
@@ -53,7 +55,7 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enterprise-mobility/refs/heads/main/security/enterprise-mobility-domain-security.yml
+  href: https://artifacts.apis.io/enterprise-mobility/security/enterprise-mobility-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/enterprise-mobility-domain-security.yml
@@ -74,52 +76,52 @@ common:
   type: Documentation
   url: https://developer.ehi.com/apis-overview.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enterprise-mobility/refs/heads/main/authentication/enterprise-mobility-authentication.yml
+  href: https://artifacts.apis.io/enterprise-mobility/authentication/enterprise-mobility-authentication.yml
   title: ''
   type: Authentication
   url: authentication/enterprise-mobility-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enterprise-mobility/refs/heads/main/scopes/enterprise-mobility-scopes.yml
+  href: https://artifacts.apis.io/enterprise-mobility/scopes/enterprise-mobility-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/enterprise-mobility-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enterprise-mobility/refs/heads/main/well-known/enterprise-mobility-well-known.yml
+  href: https://artifacts.apis.io/enterprise-mobility/well-known/enterprise-mobility-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/enterprise-mobility-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/enterprise-mobility/refs/heads/main/well-known/enterprise-mobility-openid-configuration.json
+  href: https://artifacts.apis.io/enterprise-mobility/well-known/enterprise-mobility-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/enterprise-mobility-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enterprise-mobility/refs/heads/main/conventions/enterprise-mobility-conventions.yml
+  href: https://artifacts.apis.io/enterprise-mobility/conventions/enterprise-mobility-conventions.yml
   title: ''
   type: Conventions
   url: conventions/enterprise-mobility-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enterprise-mobility/refs/heads/main/errors/enterprise-mobility-problem-types.yml
+  href: https://artifacts.apis.io/enterprise-mobility/errors/enterprise-mobility-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/enterprise-mobility-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enterprise-mobility/refs/heads/main/conformance/enterprise-mobility-conformance.yml
+  href: https://artifacts.apis.io/enterprise-mobility/conformance/enterprise-mobility-conformance.yml
   title: ''
   type: Conformance
   url: conformance/enterprise-mobility-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/enterprise-mobility/refs/heads/main/lifecycle/enterprise-mobility-lifecycle.yml
+  href: https://artifacts.apis.io/enterprise-mobility/lifecycle/enterprise-mobility-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/enterprise-mobility-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/enterprise-mobility/refs/heads/main/security/enterprise-mobility-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/enterprise-mobility/security/enterprise-mobility-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/enterprise-mobility-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/enterprise-mobility/refs/heads/main/llms/enterprise-mobility-llms.txt
+  href: https://artifacts.apis.io/enterprise-mobility/llms/enterprise-mobility-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/enterprise-mobility-llms.txt
@@ -161,7 +163,7 @@ overview: 'Enterprise Mobility is listed with 4 APIs on the [APIs.io](https://ap
 
 
   Enterprise Mobility''s developer surface includes developer portal, documentation, authentication, support, engineering blog, and 16 more developer resources.'
-random_paper: 5
+random_paper: 15
 scopes:
 - name: Enterprise Mobility Scopes
   scope_count: 14
@@ -169,7 +171,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.1
+  composite: 25.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 35.0
@@ -184,7 +186,7 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 38.1
     discoverability: 62.5
-    operational_transparency: 0.0
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -192,7 +194,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 24.1
+  previous_composite: 25.5
   provenance:
     conformance: first-party
   regulatory:
@@ -201,14 +203,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 42.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/enterprise-mobility/refs/heads/main/screenshots/enterprise-mobility-2026-08-07T164933.png
+screenshot: https://apis.io/screenshots/enterprise-mobility/enterprise-mobility-2026-08-07T164933.png
 security:
 - kind: authentication
   name: Enterprise Mobility Authentication

@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.0
-  scored_at: '2026-10-17'
+  score: 44.8
+  scored_at: '2026-10-31'
 api_count: 11
 apis:
 - description: 'Asynchronous REST API for programmatically pulling Singular''s unified marketing data — attribution, cost, ad revenue, and creative metrics — as standardized, warehouse-ready reports. Create a report, '
@@ -71,7 +73,7 @@ apis:
 - description: First-party remote Model Context Protocol server. Translates a natural-language prompt into a Singular reporting query, runs it against the connecting user's own account under that user's permissions,
   name: Singular MCP
   slug: singular-mcp
-artifact_total: 19
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Singular Postbacks Webhooks
@@ -110,7 +112,7 @@ common:
   type: Pricing
   url: https://www.singular.net/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/plans/singular-plans-pricing.yml
+  href: https://artifacts.apis.io/singular/plans/singular-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/singular-plans-pricing.yml
@@ -143,82 +145,82 @@ common:
   type: ChangeLog
   url: https://support.singular.net/hc/en-us/articles/360061042971-Product-Updates
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/changelog/singular-changelog.yml
+  href: https://artifacts.apis.io/singular/changelog/singular-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/singular-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/llms/singular-llms.txt
+  href: https://artifacts.apis.io/singular/llms/singular-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/singular-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/packages/singular-packages.yml
+  href: https://artifacts.apis.io/singular/packages/singular-packages.yml
   title: ''
   type: Packages
   url: packages/singular-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/packages/singular-packages.yml
+  href: https://artifacts.apis.io/singular/packages/singular-packages.yml
   title: ''
   type: SDKs
   url: packages/singular-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/components/singular-components.yml
+  href: https://artifacts.apis.io/singular/components/singular-components.yml
   title: ''
   type: Components
   url: components/singular-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/authentication/singular-authentication.yml
+  href: https://artifacts.apis.io/singular/authentication/singular-authentication.yml
   title: ''
   type: Authentication
   url: authentication/singular-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/scopes/singular-scopes.yml
+  href: https://artifacts.apis.io/singular/scopes/singular-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/singular-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/conventions/singular-conventions.yml
+  href: https://artifacts.apis.io/singular/conventions/singular-conventions.yml
   title: ''
   type: Conventions
   url: conventions/singular-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/errors/singular-error-codes.yml
+  href: https://artifacts.apis.io/singular/errors/singular-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/singular-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/rate-limits/singular-rate-limits.yml
+  href: https://artifacts.apis.io/singular/rate-limits/singular-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/singular-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/lifecycle/singular-lifecycle.yml
+  href: https://artifacts.apis.io/singular/lifecycle/singular-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/singular-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/asyncapi/singular-postbacks-webhooks.yml
+  href: https://artifacts.apis.io/singular/asyncapi/singular-postbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/singular-postbacks-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/mcp/singular-mcp.yml
+  href: https://artifacts.apis.io/singular/mcp/singular-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/singular-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/mcp/singular-tool-crosswalk.yml
+  href: https://artifacts.apis.io/singular/mcp/singular-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/singular-tool-crosswalk.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/sandbox/singular-sandbox.yml
+  href: https://artifacts.apis.io/singular/sandbox/singular-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/singular-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/conformance/singular-conformance.yml
+  href: https://artifacts.apis.io/singular/conformance/singular-conformance.yml
   title: ''
   type: Conformance
   url: conformance/singular-conformance.yml
@@ -227,23 +229,31 @@ common:
   type: Compliance
   url: https://www.singular.net/data-security-privacy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/security/singular-trust-center.yml
+  href: https://artifacts.apis.io/singular/security/singular-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/singular-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/security/singular-domain-security.yml
+  href: https://artifacts.apis.io/singular/security/singular-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/singular-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/well-known/singular-well-known.yml
+  href: https://artifacts.apis.io/singular/well-known/singular-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/singular-well-known.yml
 created: '2026-07-17'
 description: Singular (Singular Labs, Inc.) is a mobile measurement partner (MMP) and marketing analytics platform that unifies attribution, cost aggregation, fraud prevention, ad monetization, and cross-platform analytics into a single source of truth. It aggregates campaign, cost, ad-revenue, and creative data from 1,200+ sources, measures omnichannel ROI across mobile, web, CTV, PC, and console, and powers deep linking, SKAdNetwork/SKAN reporting, audience activation, and marketing ETL. Singular exposes a broad REST surface under api.singular.net — asynchronous reporting, SKAdNetwork reporting, ad-monetization reporting, tracking-link management, custom fraud rules, and partner configuration — plus server-to-server session/event ingestion at s2s.singular.net, an OpenDSR (GDPR/CCPA) subject-request API at gdpr.singular.net, and a first-party remote MCP server at mcp.singular.net that lets ChatGPT, Claude, Cursor, Copilot, and Gemini query live campaign data in natural language. First-party
   iOS, Android, Unity, Flutter, React Native, Cordova, and Web SDKs instrument attribution on the client side. Used by brands including Airbnb, Lyft, and Rovio.
+finops:
+- has_sources: true
+  method: derived
+  name: Singular Finops
+  primary_unit: conversion
+  service_category: ''
+  slug: singular-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/singular.png
 layout: provider
 mcp_servers:
@@ -265,7 +275,7 @@ plans:
 - name: Singular Plans Pricing
   plan_count: 3
   slug: singular-plans-pricing
-random_paper: 11
+random_paper: 5
 rate_limits:
 - limit_count: 11
   name: Singular Rate Limits
@@ -276,24 +286,24 @@ scopes:
   slug: singular-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: strong
-  composite: 65.8
+  band: exemplar
+  composite: 66.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 64.0
+    artifact_dirs: 22
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 80.0
-    operational_transparency: 73.7
-  previous_composite: 65.8
+    discoverability: 70.0
+    operational_transparency: 76.3
+  previous_composite: 65.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -303,14 +313,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/singular/refs/heads/main/screenshots/singular-2026-08-17T080421.png
+screenshot: https://apis.io/screenshots/singular/singular-2026-08-17T080421.png
 security:
 - kind: authentication
   name: Singular Authentication

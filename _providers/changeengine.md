@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,17 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/changeengine/refs/heads/main/plans/changeengine-plans-pricing.yml
+  href: https://artifacts.apis.io/changeengine/plans/changeengine-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/changeengine-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/changeengine/refs/heads/main/security/changeengine-domain-security.yml
+  href: https://artifacts.apis.io/changeengine/security/changeengine-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/changeengine-domain-security.yml
@@ -51,7 +53,7 @@ common:
   type: Website
   url: https://www.changeengine.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/changeengine/refs/heads/main/llms/changeengine-llms.txt
+  href: https://artifacts.apis.io/changeengine/llms/changeengine-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/changeengine-llms.txt
@@ -64,7 +66,7 @@ common:
   type: Compliance
   url: https://trust.changeengine.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/changeengine/refs/heads/main/conformance/changeengine-conformance.yml
+  href: https://artifacts.apis.io/changeengine/conformance/changeengine-conformance.yml
   title: ''
   type: Conformance
   url: conformance/changeengine-conformance.yml
@@ -112,10 +114,10 @@ plans:
 - name: Changeengine Plans Pricing
   plan_count: 3
   slug: changeengine-plans-pricing
-random_paper: 12
+random_paper: 20
 score:
   band: thin
-  composite: 29.1
+  composite: 28.4
   coverage:
     artifact_dirs: 7
     catalog_earned: 39.0
@@ -123,15 +125,15 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 22.8
+  previous_composite: 28.4
   provenance:
     conformance: first-party
   regulatory:
@@ -144,14 +146,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 29.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/changeengine/refs/heads/main/screenshots/changeengine-2026-07-25T205054.png
+screenshot: https://apis.io/screenshots/changeengine/changeengine-2026-07-25T205054.png
 security:
 - kind: domain-security
   name: Changeengine Domain Security

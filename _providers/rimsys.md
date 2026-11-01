@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Enterprise API for the Rimsys Regulatory Information Management platform, used to integrate regulatory submissions, product registrations, UDI data, standards, and regulatory intelligence with PLM, ER
@@ -99,7 +101,7 @@ common:
   type: StatusPage
   url: https://status.rimsys.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rimsys/refs/heads/main/security/rimsys-trust-center.yml
+  href: https://artifacts.apis.io/rimsys/security/rimsys-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rimsys-trust-center.yml
@@ -108,27 +110,27 @@ common:
   type: Compliance
   url: https://www.rimsys.io/security-compliance
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rimsys/refs/heads/main/llms/rimsys-llms.txt
+  href: https://artifacts.apis.io/rimsys/llms/rimsys-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rimsys-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rimsys/refs/heads/main/authentication/rimsys-authentication.yml
+  href: https://artifacts.apis.io/rimsys/authentication/rimsys-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rimsys-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rimsys/refs/heads/main/lifecycle/rimsys-lifecycle.yml
+  href: https://artifacts.apis.io/rimsys/lifecycle/rimsys-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rimsys-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rimsys/refs/heads/main/conformance/rimsys-conformance.yml
+  href: https://artifacts.apis.io/rimsys/conformance/rimsys-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rimsys-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rimsys/refs/heads/main/security/rimsys-domain-security.yml
+  href: https://artifacts.apis.io/rimsys/security/rimsys-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rimsys-domain-security.yml
@@ -144,10 +146,10 @@ overview: 'Rimsys is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Rimsys'' developer surface includes documentation, API reference, pricing, support, engineering blog, signup flow, authentication, and 14 more developer resources.'
-random_paper: 19
+random_paper: 7
 score:
   band: thin
-  composite: 34.7
+  composite: 34.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -161,9 +163,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 34.7
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 34.4
   provenance:
     conformance: first-party
   regulatory:
@@ -176,14 +178,14 @@ score:
     regime: Health
     regime_id: health
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rimsys/refs/heads/main/screenshots/rimsys-2026-09-02T153829.png
+screenshot: https://apis.io/screenshots/rimsys/rimsys-2026-09-02T153829.png
 security:
 - kind: authentication
   name: Rimsys Authentication

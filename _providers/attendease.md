@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Organization-level REST API (v2) spanning business units, events, members, attendees, session attendance, check-ins, partners, and contact lists. Authenticated with HMAC-SHA1 request signing (APIAuth)
@@ -45,10 +47,10 @@ apis:
 - description: Event-scoped REST API bound to a single event subdomain covering event properties, sessions and session instances, presenters, surveys, sponsors, rooms, venues, filters, and content. Authenticated wit
   name: Attendease Event API
   slug: attendease-event-api
-artifact_total: 6
+artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/security/attendease-domain-security.yml
+  href: https://artifacts.apis.io/attendease/security/attendease-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/attendease-domain-security.yml
@@ -97,77 +99,77 @@ common:
   type: GitHubOrganization
   url: https://github.com/attendease
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/packages/attendease-packages.yml
+  href: https://artifacts.apis.io/attendease/packages/attendease-packages.yml
   title: ''
   type: Packages
   url: packages/attendease-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/packages/attendease-packages.yml
+  href: https://artifacts.apis.io/attendease/packages/attendease-packages.yml
   title: ''
   type: SDKs
   url: packages/attendease-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/authentication/attendease-authentication.yml
+  href: https://artifacts.apis.io/attendease/authentication/attendease-authentication.yml
   title: ''
   type: Authentication
   url: authentication/attendease-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/conventions/attendease-conventions.yml
+  href: https://artifacts.apis.io/attendease/conventions/attendease-conventions.yml
   title: ''
   type: Conventions
   url: conventions/attendease-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/errors/attendease-problem-types.yml
+  href: https://artifacts.apis.io/attendease/errors/attendease-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/attendease-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/lifecycle/attendease-lifecycle.yml
+  href: https://artifacts.apis.io/attendease/lifecycle/attendease-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/attendease-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/conformance/attendease-conformance.yml
+  href: https://artifacts.apis.io/attendease/conformance/attendease-conformance.yml
   title: ''
   type: Conformance
   url: conformance/attendease-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/data-model/attendease-data-model.yml
+  href: https://artifacts.apis.io/attendease/data-model/attendease-data-model.yml
   title: ''
   type: DataModel
   url: data-model/attendease-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/mcp/attendease-mcp.yml
+  href: https://artifacts.apis.io/attendease/mcp/attendease-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/attendease-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/llms/attendease-llms.txt
+  href: https://artifacts.apis.io/attendease/llms/attendease-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/attendease-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/components/attendease-components.yml
+  href: https://artifacts.apis.io/attendease/components/attendease-components.yml
   title: ''
   type: Components
   url: components/attendease-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/attendease/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/plans/attendease-plans-pricing.yml
+  href: https://artifacts.apis.io/attendease/plans/attendease-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/attendease-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/rate-limits/attendease-rate-limits.yml
+  href: https://artifacts.apis.io/attendease/rate-limits/attendease-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/attendease-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/conformance/attendease-conformance.yml
+  href: https://artifacts.apis.io/attendease/conformance/attendease-conformance.yml
   title: ''
   type: Compliance
   url: conformance/attendease-conformance.yml
@@ -207,14 +209,14 @@ plans:
 - name: Attendease Plans Pricing
   plan_count: 3
   slug: attendease-plans-pricing
-random_paper: 20
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Attendease Rate Limits
   slug: attendease-rate-limits
 score:
-  band: thin
-  composite: 37.9
+  band: developing
+  composite: 44.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 57.0
@@ -222,15 +224,15 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 77.6
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.0
-    discoverability: 73.2
-    operational_transparency: 39.5
-  previous_composite: 37.8
+    developer_ergonomics: 54.2
+    discoverability: 66.1
+    operational_transparency: 42.1
+  previous_composite: 44.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -241,14 +243,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/attendease/refs/heads/main/screenshots/attendease-2026-07-25T201628.png
+screenshot: https://apis.io/screenshots/attendease/attendease-2026-07-25T201628.png
 security:
 - kind: authentication
   name: Attendease Authentication
@@ -258,6 +260,12 @@ security:
   name: Attendease Domain Security
   slug: attendease-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: attendease-contact-lists
+  slug: attendease-contact-lists
+- name: attendease-event-checkin
+  slug: attendease-event-checkin
 slug: attendease
 tags:
 - Company

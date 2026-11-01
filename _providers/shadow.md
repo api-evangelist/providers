@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Shadow GPU is Shadow's sovereign GPU cloud, delivered as a curated OpenStack 2024.1 deployment rather than a bespoke REST API. Every programmatic action — launching NVIDIA RTX 2000 Ada or RTX A4500 GP
@@ -45,7 +47,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shadow/refs/heads/main/security/shadow-domain-security.yml
+  href: https://artifacts.apis.io/shadow/security/shadow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shadow-domain-security.yml
@@ -90,42 +92,42 @@ common:
   type: StatusPage
   url: https://status.shadow.tech/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shadow/refs/heads/main/lifecycle/shadow-lifecycle.yml
+  href: https://artifacts.apis.io/shadow/lifecycle/shadow-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shadow-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shadow/refs/heads/main/authentication/shadow-authentication.yml
+  href: https://artifacts.apis.io/shadow/authentication/shadow-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shadow-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shadow/refs/heads/main/conventions/shadow-conventions.yml
+  href: https://artifacts.apis.io/shadow/conventions/shadow-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shadow-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shadow/refs/heads/main/conformance/shadow-conformance.yml
+  href: https://artifacts.apis.io/shadow/conformance/shadow-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shadow-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/shadow/refs/heads/main/plans/shadow-plans-pricing.yml
+  href: https://artifacts.apis.io/shadow/plans/shadow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/shadow-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shadow/refs/heads/main/rate-limits/shadow-rate-limits.yml
+  href: https://artifacts.apis.io/shadow/rate-limits/shadow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shadow-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shadow/refs/heads/main/packages/shadow-packages.yml
+  href: https://artifacts.apis.io/shadow/packages/shadow-packages.yml
   title: ''
   type: Packages
   url: packages/shadow-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shadow/refs/heads/main/llms/shadow-llms.txt
+  href: https://artifacts.apis.io/shadow/llms/shadow-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shadow-llms.txt
@@ -145,14 +147,14 @@ plans:
 - name: Shadow Plans Pricing
   plan_count: 3
   slug: shadow-plans-pricing
-random_paper: 8
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Shadow Rate Limits
   slug: shadow-rate-limits
 score:
   band: thin
-  composite: 34.3
+  composite: 37.0
   coverage:
     artifact_dirs: 15
     catalog_earned: 49.0
@@ -160,14 +162,14 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 69.7
+    access_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
     discoverability: 66.1
-    operational_transparency: 15.8
+    operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -175,7 +177,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 34.2
+  previous_composite: 37.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -185,14 +187,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/shadow/refs/heads/main/screenshots/shadow-2026-09-02T155058.png
+screenshot: https://apis.io/screenshots/shadow/shadow-2026-09-02T155058.png
 security:
 - kind: authentication
   name: Shadow Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -107,11 +109,8 @@ apis:
   description: The Workspaces API from Hive — 15 operation(s) for workspaces.
   name: Hive Workspaces API
   slug: hive-workspaces-api
-artifact_total: 30
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Hive Public Actions API
   slug: open-hive-actions-api
@@ -153,22 +152,22 @@ collections:
   slug: open-hive
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/capabilities/hive-capability-edges.yml
+  href: https://artifacts.apis.io/hive/capabilities/hive-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hive-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/agentic-access/hive-agentic-access.yml
+  href: https://artifacts.apis.io/hive/agentic-access/hive-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hive-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/security/hive-domain-security.yml
+  href: https://artifacts.apis.io/hive/security/hive-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hive-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/authentication/hive-authentication.yml
+  href: https://artifacts.apis.io/hive/authentication/hive-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hive-authentication.yml
@@ -220,10 +219,10 @@ overview: 'Hive publishes 13 API contracts indexed on the [APIs.io](https://apis
 
 
   Hive''s developer surface includes authentication, engineering blog, documentation, API reference, signup flow, pricing, support, and 6 more developer resources.'
-random_paper: 10
+random_paper: 20
 score:
   band: thin
-  composite: 28.0
+  composite: 30.0
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -235,11 +234,11 @@ score:
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 48.7
-    developer_ergonomics: 25.0
+    contract_quality: 45.3
+    developer_ergonomics: 35.7
     discoverability: 73.2
     operational_transparency: 0.0
-  previous_composite: 28.0
+  previous_composite: 30.0
   provenance:
     agentic_access: derived
     contracts:
@@ -253,13 +252,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/screenshots/hive-2026-06-20T182800.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hive/hive-2026-06-20T182800.png
 security:
 - kind: authentication
   name: Hive Authentication

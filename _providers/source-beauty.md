@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 1
@@ -45,7 +47,7 @@ api_count: 0
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/source-beauty/refs/heads/main/security/source-beauty-domain-security.yml
+  href: https://artifacts.apis.io/source-beauty/security/source-beauty-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/source-beauty-domain-security.yml
@@ -66,32 +68,32 @@ common:
   type: PrivacyPolicy
   url: https://sourcebeauty.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/source-beauty/refs/heads/main/mcp/source-beauty-mcp.yml
+  href: https://artifacts.apis.io/source-beauty/mcp/source-beauty-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/source-beauty-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/source-beauty/refs/heads/main/llms/source-beauty-llms.txt
+  href: https://artifacts.apis.io/source-beauty/llms/source-beauty-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/source-beauty-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/source-beauty/refs/heads/main/well-known/source-beauty-well-known.yml
+  href: https://artifacts.apis.io/source-beauty/well-known/source-beauty-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/source-beauty-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/source-beauty/refs/heads/main/authentication/source-beauty-authentication.yml
+  href: https://artifacts.apis.io/source-beauty/authentication/source-beauty-authentication.yml
   title: ''
   type: Authentication
   url: authentication/source-beauty-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/source-beauty/refs/heads/main/scopes/source-beauty-scopes.yml
+  href: https://artifacts.apis.io/source-beauty/scopes/source-beauty-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/source-beauty-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/source-beauty/refs/heads/main/agentic-access/source-beauty-agentic-access.yml
+  href: https://artifacts.apis.io/source-beauty/agentic-access/source-beauty-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/source-beauty-agentic-access.yml
@@ -111,7 +113,7 @@ overview: 'Source Beauty is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Source Beauty''s developer surface includes signup flow, authentication, and 9 more developer resources.'
-random_paper: 10
+random_paper: 8
 scopes:
 - name: Source Beauty Scopes
   scope_count: 4
@@ -119,7 +121,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 17.2
+  composite: 16.2
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -127,13 +129,13 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -144,7 +146,7 @@ score:
     - africa
     - mena
     - north-africa
-  previous_composite: 17.1
+  previous_composite: 16.2
   provenance:
     agentic_access: first-party
     mcp: platform-generated
@@ -154,14 +156,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/source-beauty/refs/heads/main/screenshots/source-beauty-2026-09-02T160253.png
+screenshot: https://apis.io/screenshots/source-beauty/source-beauty-2026-09-02T160253.png
 security:
 - kind: authentication
   name: Source Beauty Authentication

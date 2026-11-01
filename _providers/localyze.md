@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/localyze/refs/heads/main/security/localyze-domain-security.yml
+  href: https://artifacts.apis.io/localyze/security/localyze-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/localyze-domain-security.yml
@@ -90,12 +92,12 @@ common:
   type: Compliance
   url: https://localyze.com/legal/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/localyze/refs/heads/main/security/localyze-trust-center.yml
+  href: https://artifacts.apis.io/localyze/security/localyze-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/localyze-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/localyze/refs/heads/main/lifecycle/localyze-lifecycle.yml
+  href: https://artifacts.apis.io/localyze/lifecycle/localyze-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/localyze-lifecycle.yml
@@ -111,10 +113,10 @@ overview: 'Localyze is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Localyze''s developer surface includes support, engineering blog, pricing, signup flow, changelog, and 10 more developer resources.'
-random_paper: 9
+random_paper: 3
 score:
   band: emerging
-  composite: 22.8
+  composite: 23.1
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -129,27 +131,27 @@ score:
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 34.2
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - germany
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 22.8
+  previous_composite: 23.1
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/localyze/refs/heads/main/screenshots/localyze-2026-07-25T225429.png
+screenshot: https://apis.io/screenshots/localyze/localyze-2026-07-25T225429.png
 security:
 - kind: domain-security
   name: Localyze Domain Security

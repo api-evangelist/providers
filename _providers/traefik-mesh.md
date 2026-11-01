@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-17'
+  score: 23.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,11 +59,8 @@ apis:
   description: Endpoints for inspecting the mesh topology as seen by the controller.
   name: Traefik Mesh Topology API
   slug: traefik-mesh-topology-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Traefik Mesh Controller Configuration API
   slug: open-traefik-mesh-configuration-api
@@ -88,12 +87,12 @@ common:
   type: ContributionGuide
   url: https://github.com/traefik/mesh/blob/master/CONTRIBUTING.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/agentic-access/traefik-mesh-agentic-access.yml
+  href: https://artifacts.apis.io/traefik-mesh/agentic-access/traefik-mesh-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/traefik-mesh-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/security/traefik-mesh-domain-security.yml
+  href: https://artifacts.apis.io/traefik-mesh/security/traefik-mesh-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/traefik-mesh-domain-security.yml
@@ -142,17 +141,17 @@ common:
   type: License
   url: https://github.com/traefik/mesh/blob/master/LICENSE
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/rules/traefik-mesh-rules.yml
+  href: https://artifacts.apis.io/traefik-mesh/rules/traefik-mesh-rules.yml
   title: ''
   type: Spectral
   url: rules/traefik-mesh-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/json-ld/traefik-mesh-context.jsonld
+  href: https://artifacts.apis.io/traefik-mesh/json-ld/traefik-mesh-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/traefik-mesh-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/vocabulary/traefik-mesh-vocabulary.yml
+  href: https://artifacts.apis.io/traefik-mesh/vocabulary/traefik-mesh-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/traefik-mesh-vocabulary.yml
@@ -232,7 +231,7 @@ overview: 'Traefik Mesh publishes 3 API contracts indexed on the [APIs.io](https
 
 
   Traefik Mesh''s developer surface includes documentation, engineering blog, release notes, changelog, and 18 more developer resources.'
-random_paper: 6
+random_paper: 16
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -258,23 +257,23 @@ rules:
   slug: traefik-mesh-rules
 score:
   band: thin
-  composite: 28.7
+  composite: 34.4
   coverage:
     artifact_dirs: 15
     catalog_earned: 61.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.3
-    catalog_max: 100.0
+    catalog_gap: 53.3
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 23.5
     contract_quality: 53.7
     developer_ergonomics: 16.7
     discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 28.6
+    operational_transparency: 21.1
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -287,15 +286,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/screenshots/traefik-mesh-2026-06-20T195533.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/traefik-mesh/traefik-mesh-2026-06-20T195533.png
 security:
 - kind: domain-security
   name: Traefik Mesh Domain Security

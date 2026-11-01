@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -45,7 +47,7 @@ common:
   type: BlogRSS
   url: https://pendulumlife.com/blogs/news.atom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pendulum/refs/heads/main/security/pendulum-domain-security.yml
+  href: https://artifacts.apis.io/pendulum/security/pendulum-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pendulum-domain-security.yml
@@ -54,22 +56,22 @@ common:
   type: Website
   url: https://pendulumlife.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pendulum/refs/heads/main/well-known/pendulum-well-known.yml
+  href: https://artifacts.apis.io/pendulum/well-known/pendulum-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/pendulum-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pendulum/refs/heads/main/mcp/pendulum-mcp.yml
+  href: https://artifacts.apis.io/pendulum/mcp/pendulum-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/pendulum-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pendulum/refs/heads/main/llms/pendulum-llms.txt
+  href: https://artifacts.apis.io/pendulum/llms/pendulum-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pendulum-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pendulum/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pendulum/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -97,10 +99,10 @@ overview: 'Pendulum is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Pendulum''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 16
+random_paper: 10
 score:
   band: emerging
-  composite: 12.5
+  composite: 11.5
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -108,15 +110,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 58.3
+    discoverability: 48.3
     operational_transparency: 0.0
-  previous_composite: 12.0
+  previous_composite: 11.5
   provenance:
     mcp: platform-generated
     skills: first-party
@@ -126,14 +128,14 @@ score:
     regime: Health
     regime_id: health
     score: 15.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pendulum/refs/heads/main/screenshots/pendulum-2026-09-02T150957.png
+screenshot: https://apis.io/screenshots/pendulum/pendulum-2026-09-02T150957.png
 security:
 - kind: domain-security
   name: Pendulum Domain Security

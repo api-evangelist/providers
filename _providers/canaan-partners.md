@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: Canaan Partners
 nav: Providers
 network: true
-random_paper: 16
+random_paper: 22
 slug: canaan-partners
 tags:
 - Venture Capital

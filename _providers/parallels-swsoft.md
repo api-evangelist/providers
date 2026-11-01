@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for automating Parallels Remote Application Server (RAS) — infrastructure, sites, secure gateways, RD session hosts, cloud providers, publishing, policies and licensing. Served by the self-ho
@@ -95,52 +97,52 @@ common:
   type: PrivacyPolicy
   url: https://www.parallels.com/about/legal/privacy/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parallels-swsoft/refs/heads/main/authentication/parallels-swsoft-authentication.yml
+  href: https://artifacts.apis.io/parallels-swsoft/authentication/parallels-swsoft-authentication.yml
   title: ''
   type: Authentication
   url: authentication/parallels-swsoft-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parallels-swsoft/refs/heads/main/conventions/parallels-swsoft-conventions.yml
+  href: https://artifacts.apis.io/parallels-swsoft/conventions/parallels-swsoft-conventions.yml
   title: ''
   type: Conventions
   url: conventions/parallels-swsoft-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parallels-swsoft/refs/heads/main/lifecycle/parallels-swsoft-lifecycle.yml
+  href: https://artifacts.apis.io/parallels-swsoft/lifecycle/parallels-swsoft-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/parallels-swsoft-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/parallels-swsoft/refs/heads/main/packages/parallels-swsoft-packages.yml
+  href: https://artifacts.apis.io/parallels-swsoft/packages/parallels-swsoft-packages.yml
   title: ''
   type: Packages
   url: packages/parallels-swsoft-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/parallels-swsoft/refs/heads/main/packages/parallels-swsoft-packages.yml
+  href: https://artifacts.apis.io/parallels-swsoft/packages/parallels-swsoft-packages.yml
   title: ''
   type: SDKs
   url: packages/parallels-swsoft-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parallels-swsoft/refs/heads/main/errors/parallels-swsoft-problem-types.yml
+  href: https://artifacts.apis.io/parallels-swsoft/errors/parallels-swsoft-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/parallels-swsoft-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/parallels-swsoft/refs/heads/main/conformance/parallels-swsoft-conformance.yml
+  href: https://artifacts.apis.io/parallels-swsoft/conformance/parallels-swsoft-conformance.yml
   title: ''
   type: Conformance
   url: conformance/parallels-swsoft-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parallels-swsoft/refs/heads/main/mcp/parallels-swsoft-mcp.yml
+  href: https://artifacts.apis.io/parallels-swsoft/mcp/parallels-swsoft-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/parallels-swsoft-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/parallels-swsoft/refs/heads/main/llms/parallels-swsoft-llms.txt
+  href: https://artifacts.apis.io/parallels-swsoft/llms/parallels-swsoft-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/parallels-swsoft-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/parallels-swsoft/refs/heads/main/security/parallels-swsoft-domain-security.yml
+  href: https://artifacts.apis.io/parallels-swsoft/security/parallels-swsoft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/parallels-swsoft-domain-security.yml
@@ -156,10 +158,10 @@ overview: 'Parallels (SWSoft) is listed with 1 API on the [APIs.io](https://apis
 
 
   Parallels (SWSoft)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
   band: thin
-  composite: 31.4
+  composite: 31.0
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -167,15 +169,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 31.3
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 31.0
   provenance:
     conformance: derived
     mcp: derived
@@ -185,14 +187,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/parallels-swsoft/refs/heads/main/screenshots/parallels-swsoft-2026-08-07T191426.png
+screenshot: https://apis.io/screenshots/parallels-swsoft/parallels-swsoft-2026-08-07T191426.png
 security:
 - kind: authentication
   name: Parallels Swsoft Authentication

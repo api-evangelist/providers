@@ -19,7 +19,7 @@ name: TrustWeaver
 nav: Providers
 network: true
 overview: TrustWeaver is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, E-Invoicing, Compliance, and E-Signature.
-random_paper: 18
+random_paper: 4
 slug: trustweaver
 tags:
 - Company

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.8
-  scored_at: '2026-10-17'
+  score: 36.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: Get started with the Zamzar API
   name: Zamzar Welcome API
   slug: zamzar-welcome-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Zamzar Account API
   slug: open-zamzar-account-api
@@ -100,17 +99,17 @@ collections:
   slug: open-zamzar-welcome-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/agentic-access/zamzar-agentic-access.yml
+  href: https://artifacts.apis.io/zamzar/agentic-access/zamzar-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zamzar-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/security/zamzar-domain-security.yml
+  href: https://artifacts.apis.io/zamzar/security/zamzar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zamzar-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/authentication/zamzar-authentication.yml
+  href: https://artifacts.apis.io/zamzar/authentication/zamzar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zamzar-authentication.yml
@@ -147,17 +146,17 @@ common:
   type: X
   url: https://twitter.com/zamzar
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/plans/zamzar-plans-pricing.yml
+  href: https://artifacts.apis.io/zamzar/plans/zamzar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zamzar-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/rate-limits/zamzar-rate-limits.yml
+  href: https://artifacts.apis.io/zamzar/rate-limits/zamzar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zamzar-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/finops/zamzar-finops.yml
+  href: https://artifacts.apis.io/zamzar/finops/zamzar-finops.yml
   title: ''
   type: FinOps
   url: finops/zamzar-finops.yml
@@ -228,7 +227,7 @@ plans:
 - name: Zamzar Plans Pricing
   plan_count: 5
   slug: zamzar-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Zamzar Rate Limits
@@ -247,7 +246,7 @@ rules:
   slug: zamzar-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.4
+  composite: 33.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 51.3
@@ -255,7 +254,7 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
@@ -263,7 +262,7 @@ score:
     developer_ergonomics: 23.8
     discoverability: 66.1
     operational_transparency: 21.1
-  previous_composite: 38.0
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -277,13 +276,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/screenshots/zamzar-2026-06-20T201800.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zamzar/zamzar-2026-06-20T201800.png
 security:
 - kind: authentication
   name: Zamzar Authentication

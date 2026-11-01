@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 25.3
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.<your-subdomain>/v2.5
   baseurl_source: declared
@@ -93,11 +95,8 @@ apis:
   description: Workspaces
   name: OPAQUE Workspaces API
   slug: opaque-workspaces-api
-artifact_total: 25
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Opaque UI Asset Configs API
   slug: open-opaque-asset-configs-api
@@ -133,12 +132,12 @@ collections:
   slug: open-opaque-workspaces-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/mcp/opaque-mcp.yml
+  href: https://artifacts.apis.io/opaque/mcp/opaque-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/opaque-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/security/opaque-domain-security.yml
+  href: https://artifacts.apis.io/opaque/security/opaque-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opaque-domain-security.yml
@@ -187,32 +186,32 @@ common:
   type: ChangeLog
   url: https://docs.opaque.co/en/latest/release_notes/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/changelog/opaque-changelog.yml
+  href: https://artifacts.apis.io/opaque/changelog/opaque-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/opaque-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/authentication/opaque-authentication.yml
+  href: https://artifacts.apis.io/opaque/authentication/opaque-authentication.yml
   title: ''
   type: Authentication
   url: authentication/opaque-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/conventions/opaque-conventions.yml
+  href: https://artifacts.apis.io/opaque/conventions/opaque-conventions.yml
   title: ''
   type: Conventions
   url: conventions/opaque-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/errors/opaque-problem-types.yml
+  href: https://artifacts.apis.io/opaque/errors/opaque-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/opaque-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/lifecycle/opaque-lifecycle.yml
+  href: https://artifacts.apis.io/opaque/lifecycle/opaque-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/opaque-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/conformance/opaque-conformance.yml
+  href: https://artifacts.apis.io/opaque/conformance/opaque-conformance.yml
   title: ''
   type: Conformance
   url: conformance/opaque-conformance.yml
@@ -221,32 +220,32 @@ common:
   type: Compliance
   url: https://www.opaque.co/resources/articles/the-opaque-platform-is-now-soc-2-certified
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/data-model/opaque-data-model.yml
+  href: https://artifacts.apis.io/opaque/data-model/opaque-data-model.yml
   title: ''
   type: DataModel
   url: data-model/opaque-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/overlays/opaque-platform-api-overlay.yaml
+  href: https://artifacts.apis.io/opaque/overlays/opaque-platform-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/opaque-platform-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/llms/opaque-llms.txt
+  href: https://artifacts.apis.io/opaque/llms/opaque-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/opaque-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/packages/opaque-packages.yml
+  href: https://artifacts.apis.io/opaque/packages/opaque-packages.yml
   title: ''
   type: Packages
   url: packages/opaque-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/opaque/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/sandbox/opaque-sandbox.yml
+  href: https://artifacts.apis.io/opaque/sandbox/opaque-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/opaque-sandbox.yml
@@ -263,10 +262,10 @@ overview: 'OPAQUE publishes 11 API contracts indexed on the [APIs.io](https://ap
 
 
   OPAQUE''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 19 more developer resources.'
-random_paper: 13
+random_paper: 3
 score:
   band: developing
-  composite: 42.4
+  composite: 43.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -274,15 +273,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 43.0
     developer_ergonomics: 66.1
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 42.3
+    operational_transparency: 21.1
+  previous_composite: 43.4
   provenance:
     conformance: first-party
     contracts:
@@ -298,13 +297,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/screenshots/opaque-2026-08-07T190445.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/opaque/opaque-2026-08-07T190445.png
 security:
 - kind: authentication
   name: Opaque Authentication
@@ -314,6 +314,18 @@ security:
   name: Opaque Domain Security
   slug: opaque-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 5
+skills:
+- name: Authenticate against the OPAQUE Platform REST API
+  slug: opaque-authenticate
+- name: Build, approve and launch an agentic workflow
+  slug: opaque-launch-agentic-workflow
+- name: Manage workspaces, members and reusable integrations
+  slug: opaque-manage-workspaces-and-integrations
+- name: Onboard a dataset and share it into a workspace
+  slug: opaque-onboard-and-share-data
+- name: Run a confidential analytics job and collect its results
+  slug: opaque-run-analytics-job
 slug: opaque
 tags:
 - Confidential Computing

@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,13 +38,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST + GraphQL API for TokenBot copy-trading — manage exchange accounts, strategies, copiers, trades, notifications, rewards, withdrawals, API keys, and webhooks. API-key or secp256k1 signed-request a
   name: TokenBot API
   slug: tokenbot-api
-artifact_total: 6
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Mammoth Media Webhooks
@@ -69,7 +71,7 @@ common:
   type: GettingStarted
   url: https://docs.tokenbot.com/home/api-docs/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/authentication/mammoth-media-authentication.yml
+  href: https://artifacts.apis.io/mammoth-media/authentication/mammoth-media-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mammoth-media-authentication.yml
@@ -102,87 +104,87 @@ common:
   type: X
   url: https://x.com/tokenbot
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/packages/mammoth-media-packages.yml
+  href: https://artifacts.apis.io/mammoth-media/packages/mammoth-media-packages.yml
   title: ''
   type: Packages
   url: packages/mammoth-media-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/packages/mammoth-media-packages.yml
+  href: https://artifacts.apis.io/mammoth-media/packages/mammoth-media-packages.yml
   title: ''
   type: SDKs
   url: packages/mammoth-media-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/cli/mammoth-media-cli.yml
+  href: https://artifacts.apis.io/mammoth-media/cli/mammoth-media-cli.yml
   title: ''
   type: CLI
   url: cli/mammoth-media-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/mcp/mammoth-media-mcp.yml
+  href: https://artifacts.apis.io/mammoth-media/mcp/mammoth-media-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mammoth-media-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/llms/mammoth-media-llms.txt
+  href: https://artifacts.apis.io/mammoth-media/llms/mammoth-media-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mammoth-media-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/asyncapi/mammoth-media-webhooks.yml
+  href: https://artifacts.apis.io/mammoth-media/asyncapi/mammoth-media-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mammoth-media-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/rate-limits/mammoth-media-rate-limits.yml
+  href: https://artifacts.apis.io/mammoth-media/rate-limits/mammoth-media-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mammoth-media-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/errors/mammoth-media-problem-types.yml
+  href: https://artifacts.apis.io/mammoth-media/errors/mammoth-media-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mammoth-media-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/conventions/mammoth-media-conventions.yml
+  href: https://artifacts.apis.io/mammoth-media/conventions/mammoth-media-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mammoth-media-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/conventions/mammoth-media-conventions.yml
+  href: https://artifacts.apis.io/mammoth-media/conventions/mammoth-media-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/mammoth-media-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/conformance/mammoth-media-conformance.yml
+  href: https://artifacts.apis.io/mammoth-media/conformance/mammoth-media-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mammoth-media-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/lifecycle/mammoth-media-lifecycle.yml
+  href: https://artifacts.apis.io/mammoth-media/lifecycle/mammoth-media-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mammoth-media-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/sandbox/mammoth-media-sandbox.yml
+  href: https://artifacts.apis.io/mammoth-media/sandbox/mammoth-media-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mammoth-media-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/data-model/mammoth-media-data-model.yml
+  href: https://artifacts.apis.io/mammoth-media/data-model/mammoth-media-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mammoth-media-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/security/mammoth-media-domain-security.yml
+  href: https://artifacts.apis.io/mammoth-media/security/mammoth-media-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mammoth-media-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/well-known/mammoth-media-well-known.yml
+  href: https://artifacts.apis.io/mammoth-media/well-known/mammoth-media-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mammoth-media-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mammoth-media/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -205,14 +207,14 @@ overview: 'Mammoth Media is listed with 1 API on the [APIs.io](https://apis.io/)
 
 
   Mammoth Media''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, CLI, and 23 more developer resources.'
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Mammoth Media Rate Limits
   slug: mammoth-media-rate-limits
 score:
   band: developing
-  composite: 45.1
+  composite: 46.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 45.0
@@ -222,13 +224,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 78.0
-    discoverability: 71.7
-    operational_transparency: 47.4
-  previous_composite: 45.1
+    discoverability: 65.0
+    operational_transparency: 50.0
+  previous_composite: 46.1
   provenance:
     conformance: derived
     mcp: first-party
@@ -239,14 +241,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/screenshots/mammoth-media-2026-07-25T230015.png
+screenshot: https://apis.io/screenshots/mammoth-media/mammoth-media-2026-07-25T230015.png
 security:
 - kind: authentication
   name: Mammoth Media Authentication
@@ -256,6 +258,14 @@ security:
   name: Mammoth Media Domain Security
   slug: mammoth-media-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Connect an exchange and start copy-trading a strategy
+  slug: mammoth-media-connect-and-copy
+- name: Monitor trades and react to fills
+  slug: mammoth-media-monitor-trades
+- name: Subscribe to and verify TokenBot webhooks
+  slug: mammoth-media-webhooks
 slug: mammoth-media
 tags:
 - Company

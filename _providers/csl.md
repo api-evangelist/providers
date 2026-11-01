@@ -1,0 +1,149 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: false
+    rate_limit_signal: false
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 0.0
+  scored_at: '2026-10-31'
+api_count: 0
+artifact_total: 1
+common:
+- group: other
+  href: https://artifacts.apis.io/csl/hosts/csl-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/csl-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/csl/vendors/csl-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/csl-vendors.yml
+- group: auth
+  href: https://artifacts.apis.io/csl/security/csl-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/csl-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.csl.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.csl.com/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://privacy.csl.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.csl.com/contact
+- group: company
+  title: ''
+  type: Blog
+  url: https://newsroom.csl.com/
+- group: company
+  title: ''
+  type: Investors
+  url: https://investors.csl.com/
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.csl.com/careers
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/csl/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/csl
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/user/CSLGroup
+created: '2026-10-21'
+description: CSL (CSL Limited) is a global biotechnology company headquartered in Australia with more than a century of history. It operates through CSL Behring (plasma-derived and recombinant therapies for rare and serious diseases such as bleeding disorders, immunodeficiencies, hereditary angioedema and Alpha 1 Antitrypsin Deficiency), CSL Plasma, CSL Seqirus (one of the world's largest influenza vaccine providers) and CSL Vifor (iron deficiency and nephrology). Surfaced via the API Evangelist harvest backlog (australia-apidays-2026); its website publishes no public developer portal or API documentation.
+image: https://www.csl.com/media/shared/logos/csl/csl-logo-768x430.png?h=430&iar=0&w=768
+layout: provider
+modified: '2026-10-21'
+name: CSL
+nav: Providers
+network: true
+overview: 'CSL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Healthcare, Pharmaceuticals, and Vaccines.
+
+
+  CSL''s developer surface includes support, engineering blog, YouTube channel, and 10 more developer resources.'
+random_paper: 10
+score:
+  band: minimal
+  composite: 10.3
+  coverage:
+    artifact_dirs: 9
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
+  facets:
+    access_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 7.1
+    discoverability: 48.2
+    operational_transparency: 0.0
+  previous_composite: 10.3
+  provenance:
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 10.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Csl Domain Security
+  slug: csl-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: csl
+tags:
+- Company
+- Biotechnology
+- Healthcare
+- Pharmaceuticals
+- Vaccines
+- Plasma Therapies
+- Australia
+website: https://www.csl.com/
+---

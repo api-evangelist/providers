@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -57,32 +59,32 @@ common:
   type: GitHubOrganization
   url: https://github.com/equilibria-xyz
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/perennial-labs/refs/heads/main/packages/perennial-labs-packages.yml
+  href: https://artifacts.apis.io/perennial-labs/packages/perennial-labs-packages.yml
   title: ''
   type: Packages
   url: packages/perennial-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/perennial-labs/refs/heads/main/packages/perennial-labs-packages.yml
+  href: https://artifacts.apis.io/perennial-labs/packages/perennial-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/perennial-labs-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/perennial-labs/refs/heads/main/llms/perennial-labs-llms.txt
+  href: https://artifacts.apis.io/perennial-labs/llms/perennial-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/perennial-labs-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/perennial-labs/refs/heads/main/lifecycle/perennial-labs-lifecycle.yml
+  href: https://artifacts.apis.io/perennial-labs/lifecycle/perennial-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/perennial-labs-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perennial-labs/refs/heads/main/security/perennial-labs-domain-security.yml
+  href: https://artifacts.apis.io/perennial-labs/security/perennial-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/perennial-labs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/perennial-labs/refs/heads/main/security/perennial-labs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/perennial-labs/security/perennial-labs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/perennial-labs-vulnerability-disclosure.yml
@@ -102,10 +104,10 @@ overview: 'Perennial Labs is profiled on the [APIs.io](https://apis.io/) network
 
 
   Perennial Labs'' developer surface includes documentation, API reference, getting-started guide, and 9 more developer resources.'
-random_paper: 13
+random_paper: 5
 score:
-  band: minimal
-  composite: 9.4
+  band: emerging
+  composite: 12.6
   coverage:
     artifact_dirs: 7
     catalog_earned: 27.0
@@ -118,24 +120,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 55.4
-    operational_transparency: 7.9
-  previous_composite: 9.4
+    developer_ergonomics: 35.7
+    discoverability: 48.2
+    operational_transparency: 15.8
+  previous_composite: 12.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/perennial-labs/refs/heads/main/screenshots/perennial-labs-2026-09-02T151040.png
+screenshot: https://apis.io/screenshots/perennial-labs/perennial-labs-2026-09-02T151040.png
 security:
 - kind: domain-security
   name: Perennial Labs Domain Security

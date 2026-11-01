@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: Orders, order contents, and payments.
   name: Lavu Orders API
   slug: lavu-orders-api
-artifact_total: 38
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Lavu (POSLavu) Inventory API
   slug: open-lavu-inventory-api
@@ -77,17 +76,17 @@ collections:
   slug: open-lavu-tables-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/agentic-access/lavu-agentic-access.yml
+  href: https://artifacts.apis.io/lavu/agentic-access/lavu-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/lavu-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/security/lavu-domain-security.yml
+  href: https://artifacts.apis.io/lavu/security/lavu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/lavu-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/authentication/lavu-authentication.yml
+  href: https://artifacts.apis.io/lavu/authentication/lavu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/lavu-authentication.yml
@@ -108,32 +107,32 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/lavu-inc
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/plans/lavu-plans-pricing.yml
+  href: https://artifacts.apis.io/lavu/plans/lavu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/lavu-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/rate-limits/lavu-rate-limits.yml
+  href: https://artifacts.apis.io/lavu/rate-limits/lavu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/lavu-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/finops/lavu-finops.yml
+  href: https://artifacts.apis.io/lavu/finops/lavu-finops.yml
   title: ''
   type: FinOps
   url: finops/lavu-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/rules/lavu-spectral-rules.yml
+  href: https://artifacts.apis.io/lavu/rules/lavu-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/lavu-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/vocabulary/lavu-vocabulary.yaml
+  href: https://artifacts.apis.io/lavu/vocabulary/lavu-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/lavu-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/json-ld/lavu-poslavu-api-context.jsonld
+  href: https://artifacts.apis.io/lavu/json-ld/lavu-poslavu-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/lavu-poslavu-api-context.jsonld
@@ -235,7 +234,7 @@ plans:
 - name: Lavu Plans Pricing
   plan_count: 4
   slug: lavu-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Lavu Rate Limits
@@ -266,23 +265,23 @@ rules:
   slug: lavu-spectral-rules
 score:
   band: emerging
-  composite: 18.6
+  composite: 21.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 52.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 21.3
-    developer_ergonomics: 21.4
+    developer_ergonomics: 23.8
     discoverability: 48.2
     operational_transparency: 5.3
-  previous_composite: 26.0
+  previous_composite: 21.9
   provenance:
     agentic_access: derived
     contracts:
@@ -296,13 +295,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/screenshots/lavu-2026-06-20T184344.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/lavu/lavu-2026-06-20T184344.png
 security:
 - kind: authentication
   name: Lavu Authentication

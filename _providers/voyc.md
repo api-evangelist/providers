@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,20 +38,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Voyc's integration API, monitored on the public status page as "Voyc API v3" (Data Export) alongside "Voyc API" (Conversation Uploads & Reporting). The production host is api.app.voyc.ai, confirmed li
   name: Voyc API v3
   slug: voyc-api-v3
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Voyc Webhooks
   slug: voyc-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/security/voyc-trust-center.yml
+  href: https://artifacts.apis.io/voyc/security/voyc-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/voyc-trust-center.yml
@@ -102,62 +104,62 @@ common:
   type: Security
   url: https://trust.voyc.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/security/voyc-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/voyc/security/voyc-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/voyc-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/security/voyc-domain-security.yml
+  href: https://artifacts.apis.io/voyc/security/voyc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voyc-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/conformance/voyc-conformance.yml
+  href: https://artifacts.apis.io/voyc/conformance/voyc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/voyc-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/lifecycle/voyc-lifecycle.yml
+  href: https://artifacts.apis.io/voyc/lifecycle/voyc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/voyc-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/asyncapi/voyc-webhooks.yml
+  href: https://artifacts.apis.io/voyc/asyncapi/voyc-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/voyc-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/llms/voyc-llms.txt
+  href: https://artifacts.apis.io/voyc/llms/voyc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/voyc-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/authentication/voyc-authentication.yml
+  href: https://artifacts.apis.io/voyc/authentication/voyc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/voyc-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/conventions/voyc-conventions.yml
+  href: https://artifacts.apis.io/voyc/conventions/voyc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/voyc-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/errors/voyc-problem-types.yml
+  href: https://artifacts.apis.io/voyc/errors/voyc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/voyc-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/packages/voyc-packages.yml
+  href: https://artifacts.apis.io/voyc/packages/voyc-packages.yml
   title: ''
   type: Packages
   url: packages/voyc-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/plans/voyc-plans-pricing.yml
+  href: https://artifacts.apis.io/voyc/plans/voyc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/voyc-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/rate-limits/voyc-rate-limits.yml
+  href: https://artifacts.apis.io/voyc/rate-limits/voyc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/voyc-rate-limits.yml
@@ -179,6 +181,14 @@ coverage:
   state: gated
 created: '2026-07-17'
 description: Voyc is a conversation intelligence and compliance monitoring platform for regulated industries such as financial services and insurance. The platform automatically monitors 100% of contact centre interactions using speech analytics AI, flagging high-risk cases, complaints, and vulnerable customers in near real time, automating QA review, and producing the management information firms need to evidence regulatory compliance (including FCA Consumer Duty). Calls reach Voyc from telephony platforms like Twilio, Genesys, Five9, RingCentral, Aircall, Amazon Connect, and Talkdesk via SFTP or API, and a Voyc API (v3) supports conversation uploads and data export alongside webhooks.
+finops:
+- has_sources: true
+  method: derived
+  name: Voyc Finops
+  primary_unit: ''
+  service_category: ''
+  slug: voyc-finops
+  template: true
 image: https://github.com/voyc-ai.png
 layout: provider
 modified: '2026-08-14'
@@ -196,16 +206,16 @@ plans:
 - name: Voyc Plans Pricing
   plan_count: 0
   slug: voyc-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Voyc Rate Limits
   slug: voyc-rate-limits
 score:
   band: developing
-  composite: 42.7
+  composite: 44.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -213,13 +223,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 40.5
     discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 42.7
+    operational_transparency: 39.5
+  previous_composite: 44.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -233,14 +243,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/screenshots/voyc-2026-08-17T082827.png
+screenshot: https://apis.io/screenshots/voyc/voyc-2026-08-17T082827.png
 security:
 - kind: authentication
   name: Voyc Authentication

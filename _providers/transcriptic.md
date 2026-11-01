@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: JSON:API-compliant REST API for the Transcriptic / Strateos robotic cloud lab — organizations, projects, runs, datasets, containers and aliquots, plus Autoprotocol experiment submission. Authenticates
@@ -68,42 +70,42 @@ common:
   type: Login
   url: https://secure.strateos.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/transcriptic/refs/heads/main/packages/transcriptic-packages.yml
+  href: https://artifacts.apis.io/transcriptic/packages/transcriptic-packages.yml
   title: ''
   type: Packages
   url: packages/transcriptic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/transcriptic/refs/heads/main/packages/transcriptic-packages.yml
+  href: https://artifacts.apis.io/transcriptic/packages/transcriptic-packages.yml
   title: ''
   type: SDKs
   url: packages/transcriptic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/transcriptic/refs/heads/main/cli/transcriptic-cli.yml
+  href: https://artifacts.apis.io/transcriptic/cli/transcriptic-cli.yml
   title: ''
   type: CLI
   url: cli/transcriptic-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/transcriptic/refs/heads/main/authentication/transcriptic-authentication.yml
+  href: https://artifacts.apis.io/transcriptic/authentication/transcriptic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/transcriptic-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/transcriptic/refs/heads/main/conventions/transcriptic-conventions.yml
+  href: https://artifacts.apis.io/transcriptic/conventions/transcriptic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/transcriptic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/transcriptic/refs/heads/main/conformance/transcriptic-conformance.yml
+  href: https://artifacts.apis.io/transcriptic/conformance/transcriptic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/transcriptic-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/transcriptic/refs/heads/main/security/transcriptic-domain-security.yml
+  href: https://artifacts.apis.io/transcriptic/security/transcriptic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/transcriptic-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/transcriptic/refs/heads/main/llms/transcriptic-llms.txt
+  href: https://artifacts.apis.io/transcriptic/llms/transcriptic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/transcriptic-llms.txt
@@ -119,10 +121,10 @@ overview: 'Transcriptic is listed with 1 API on the [APIs.io](https://apis.io/) 
 
 
   Transcriptic''s developer surface includes documentation, getting-started guide, CLI, authentication, and 10 more developer resources.'
-random_paper: 4
+random_paper: 6
 score:
   band: emerging
-  composite: 20.6
+  composite: 23.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -132,13 +134,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 46.4
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 20.6
+    developer_ergonomics: 57.1
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 23.7
   provenance:
     conformance: first-party
   regulatory:
@@ -147,14 +149,14 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/transcriptic/refs/heads/main/screenshots/transcriptic-2026-09-02T164123.png
+screenshot: https://apis.io/screenshots/transcriptic/transcriptic-2026-09-02T164123.png
 security:
 - kind: authentication
   name: Transcriptic Authentication

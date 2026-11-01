@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-10-17'
+  score: 26.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,27 +55,24 @@ apis:
   description: Public market data endpoints (no authentication required)
   name: Bitstamp Market Data API
   slug: bitstamp-market-data-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Bitstamp Market Data API
   slug: open-bitstamp-market-data-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/bitstamp/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/bitstamp/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/bitstamp/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -82,22 +81,22 @@ common:
   type: Website
   url: https://www.bitstamp.net/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/agentic-access/bitstamp-agentic-access.yml
+  href: https://artifacts.apis.io/bitstamp/agentic-access/bitstamp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bitstamp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/security/bitstamp-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bitstamp/security/bitstamp-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bitstamp-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/security/bitstamp-domain-security.yml
+  href: https://artifacts.apis.io/bitstamp/security/bitstamp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitstamp-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/authentication/bitstamp-authentication.yml
+  href: https://artifacts.apis.io/bitstamp/authentication/bitstamp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bitstamp-authentication.yml
@@ -220,7 +219,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 10
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Rate Limits
@@ -239,7 +238,7 @@ rules:
   slug: bitstamp-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.9
+  composite: 38.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 39.3
@@ -247,15 +246,15 @@ score:
     catalog_gap: 75.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
-    access_clarity: 11.8
+    access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 49.6
-    developer_ergonomics: 21.4
+    developer_ergonomics: 28.6
     discoverability: 57.1
-    operational_transparency: 21.1
-  previous_composite: 35.0
+    operational_transparency: 31.6
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -268,15 +267,15 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 22.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 29.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/screenshots/bitstamp-2026-06-20T173325.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bitstamp/bitstamp-2026-06-20T173325.png
 security:
 - kind: authentication
   name: Bitstamp Authentication

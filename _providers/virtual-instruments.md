@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.3
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Global View APIs for alerts, external alert ingestion, and on-prem storage dashboards. Function-based JSON POST bodies over a Solr-style query engine, served from the Virtana cloud platform.
@@ -52,7 +54,7 @@ asyncapis:
   slug: virtual-instruments-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/security/virtual-instruments-domain-security.yml
+  href: https://artifacts.apis.io/virtual-instruments/security/virtual-instruments-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/virtual-instruments-domain-security.yml
@@ -105,7 +107,7 @@ common:
   type: ChangeLog
   url: https://docs.virtana.com/en/what-s-new-in-virtana-.html
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/changelog/virtual-instruments-changelog.yml
+  href: https://artifacts.apis.io/virtual-instruments/changelog/virtual-instruments-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/virtual-instruments-changelog.yml
@@ -114,47 +116,47 @@ common:
   type: Training
   url: https://training.virtana.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/authentication/virtual-instruments-authentication.yml
+  href: https://artifacts.apis.io/virtual-instruments/authentication/virtual-instruments-authentication.yml
   title: ''
   type: Authentication
   url: authentication/virtual-instruments-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/conventions/virtual-instruments-conventions.yml
+  href: https://artifacts.apis.io/virtual-instruments/conventions/virtual-instruments-conventions.yml
   title: ''
   type: Conventions
   url: conventions/virtual-instruments-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/errors/virtual-instruments-problem-types.yml
+  href: https://artifacts.apis.io/virtual-instruments/errors/virtual-instruments-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/virtual-instruments-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/lifecycle/virtual-instruments-lifecycle.yml
+  href: https://artifacts.apis.io/virtual-instruments/lifecycle/virtual-instruments-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/virtual-instruments-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/mcp/virtual-instruments-mcp.yml
+  href: https://artifacts.apis.io/virtual-instruments/mcp/virtual-instruments-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/virtual-instruments-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/conformance/virtual-instruments-conformance.yml
+  href: https://artifacts.apis.io/virtual-instruments/conformance/virtual-instruments-conformance.yml
   title: ''
   type: Conformance
   url: conformance/virtual-instruments-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/llms/virtual-instruments-llms.txt
+  href: https://artifacts.apis.io/virtual-instruments/llms/virtual-instruments-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/virtual-instruments-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/packages/virtual-instruments-packages.yml
+  href: https://artifacts.apis.io/virtual-instruments/packages/virtual-instruments-packages.yml
   title: ''
   type: Packages
   url: packages/virtual-instruments-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/security/virtual-instruments-trust-center.yml
+  href: https://artifacts.apis.io/virtual-instruments/security/virtual-instruments-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/virtual-instruments-trust-center.yml
@@ -163,12 +165,12 @@ common:
   type: Compliance
   url: https://www.virtana.com/trust/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/asyncapi/virtual-instruments-webhooks.yml
+  href: https://artifacts.apis.io/virtual-instruments/asyncapi/virtual-instruments-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/virtual-instruments-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/sandbox/virtual-instruments-sandbox.yml
+  href: https://artifacts.apis.io/virtual-instruments/sandbox/virtual-instruments-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/virtual-instruments-sandbox.yml
@@ -195,10 +197,10 @@ overview: 'Virtana (Virtual Instruments) is listed with 3 APIs on the [APIs.io](
 
 
   Virtana (Virtual Instruments)''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 21 more developer resources.'
-random_paper: 2
+random_paper: 8
 score:
   band: developing
-  composite: 49.1
+  composite: 49.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 40.0
@@ -206,15 +208,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 80.0
-    operational_transparency: 42.1
-  previous_composite: 49.0
+    discoverability: 70.0
+    operational_transparency: 44.7
+  previous_composite: 49.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -230,14 +232,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/screenshots/virtual-instruments-2026-08-17T082756.png
+screenshot: https://apis.io/screenshots/virtual-instruments/virtual-instruments-2026-08-17T082756.png
 security:
 - kind: authentication
   name: Virtual Instruments Authentication

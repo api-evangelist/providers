@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.1
-  scored_at: '2026-10-17'
+  score: 49.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 13
@@ -140,11 +142,8 @@ apis:
   description: The Tools API from Anchor Browser — 4 operation(s) for tools.
   name: Anchor Browser Tools API
   slug: anchorbrowser-tools-api
-artifact_total: 67
+artifact_total: 66
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AnchorBrowser Agentic capabilities API
   slug: open-anchorbrowser-agentic-capabilities-api
@@ -200,18 +199,23 @@ collections:
   name: AnchorBrowser API
   slug: open-anchorbrowser
 common:
+- group: other
+  href: https://artifacts.apis.io/anchorbrowser/capabilities/anchorbrowser-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/anchorbrowser-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/plans/anchorbrowser-plans-pricing.yml
+  href: https://artifacts.apis.io/anchorbrowser/plans/anchorbrowser-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/anchorbrowser-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/rate-limits/anchorbrowser-rate-limits.yml
+  href: https://artifacts.apis.io/anchorbrowser/rate-limits/anchorbrowser-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/anchorbrowser-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/finops/anchorbrowser-finops.yml
+  href: https://artifacts.apis.io/anchorbrowser/finops/anchorbrowser-finops.yml
   title: ''
   type: FinOps
   url: finops/anchorbrowser-finops.yml
@@ -228,22 +232,22 @@ common:
   type: License
   url: https://github.com/anchorbrowser/langchain-anchorbrowser/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/agentic-access/anchorbrowser-agentic-access.yml
+  href: https://artifacts.apis.io/anchorbrowser/agentic-access/anchorbrowser-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/anchorbrowser-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/security/anchorbrowser-trust-center.yml
+  href: https://artifacts.apis.io/anchorbrowser/security/anchorbrowser-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/anchorbrowser-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/security/anchorbrowser-domain-security.yml
+  href: https://artifacts.apis.io/anchorbrowser/security/anchorbrowser-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anchorbrowser-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/authentication/anchorbrowser-authentication.yml
+  href: https://artifacts.apis.io/anchorbrowser/authentication/anchorbrowser-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anchorbrowser-authentication.yml
@@ -357,42 +361,42 @@ network: true
 overview: 'Anchor Browser publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agentic capabilities API, AI Tools API, Applications API, and 17 more. Tagged areas include Browser Infrastructure, AI Agents, Cloud Browser, Browser Automation, and Sandbox.
 
 
-  Anchor Browser''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, developer console, engineering blog, and 16 more developer resources.'
+  Anchor Browser''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, developer console, engineering blog, and 17 more developer resources.'
 plans:
 - name: Anchorbrowser Plans Pricing
   plan_count: 1
   slug: anchorbrowser-plans-pricing
-random_paper: 21
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Anchorbrowser Rate Limits
   slug: anchorbrowser-rate-limits
 score:
   band: developing
-  composite: 43.3
+  composite: 41.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
-    contract_quality: 52.7
-    developer_ergonomics: 59.5
-    discoverability: 66.7
+    contract_quality: 50.8
+    developer_ergonomics: 66.7
+    discoverability: 63.3
     operational_transparency: 26.3
-  previous_composite: 49.3
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 17
+      total: 39
     mcp: first-party
   regulatory:
     applies: true
@@ -400,13 +404,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/screenshots/anchorbrowser-2026-06-20T171955.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/anchorbrowser/anchorbrowser-2026-06-20T171955.png
 security:
 - kind: authentication
   name: Anchorbrowser Authentication

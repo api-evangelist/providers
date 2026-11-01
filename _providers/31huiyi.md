@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://31api.31huiyi.com
@@ -31,7 +33,7 @@ apis:
   description: The 31huiyi (31会议) OpenAPI — an OAuth 2.0 bearer-protected REST surface documented in the public developer center at api-help.31huiyi.com. It exposes attendee registration and lifecycle, check-in, sch
   name: 31 OpenAPI
   slug: 31huiyi-openapi
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: 31Huiyi Webhooks
@@ -42,7 +44,7 @@ collections:
   slug: postman-31huiyi-openapi
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/security/31huiyi-domain-security.yml
+  href: https://artifacts.apis.io/31huiyi/security/31huiyi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/31huiyi-domain-security.yml
@@ -99,92 +101,100 @@ common:
   type: ChangeLog
   url: https://www.31huiyi.com/article/newslist_hy/update
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/postman/31huiyi-openapi.postman_collection.json
+  href: https://artifacts.apis.io/31huiyi/postman/31huiyi-openapi.postman_collection.json
   title: ''
   type: Postman
   url: postman/31huiyi-openapi.postman_collection.json
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/plans/31huiyi-plans-pricing.yml
+  href: https://artifacts.apis.io/31huiyi/plans/31huiyi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/31huiyi-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/rate-limits/31huiyi-rate-limits.yml
+  href: https://artifacts.apis.io/31huiyi/rate-limits/31huiyi-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/31huiyi-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/authentication/31huiyi-authentication.yml
+  href: https://artifacts.apis.io/31huiyi/authentication/31huiyi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/31huiyi-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/scopes/31huiyi-scopes.yml
+  href: https://artifacts.apis.io/31huiyi/scopes/31huiyi-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/31huiyi-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/conventions/31huiyi-conventions.yml
+  href: https://artifacts.apis.io/31huiyi/conventions/31huiyi-conventions.yml
   title: ''
   type: Conventions
   url: conventions/31huiyi-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/errors/31huiyi-error-codes.yml
+  href: https://artifacts.apis.io/31huiyi/errors/31huiyi-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/31huiyi-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/lifecycle/31huiyi-lifecycle.yml
+  href: https://artifacts.apis.io/31huiyi/lifecycle/31huiyi-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/31huiyi-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/conformance/31huiyi-conformance.yml
+  href: https://artifacts.apis.io/31huiyi/conformance/31huiyi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/31huiyi-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/asyncapi/31huiyi-webhooks.yml
+  href: https://artifacts.apis.io/31huiyi/asyncapi/31huiyi-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/31huiyi-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/well-known/31huiyi-well-known.yml
+  href: https://artifacts.apis.io/31huiyi/well-known/31huiyi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/31huiyi-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/well-known/31huiyi-openid-configuration.json
+  href: https://artifacts.apis.io/31huiyi/well-known/31huiyi-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/31huiyi-openid-configuration.json
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/sandbox/31huiyi-sandbox.yml
+  href: https://artifacts.apis.io/31huiyi/sandbox/31huiyi-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/31huiyi-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/changelog/31huiyi-changelog.yml
+  href: https://artifacts.apis.io/31huiyi/changelog/31huiyi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/31huiyi-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/mcp/31huiyi-mcp.yml
+  href: https://artifacts.apis.io/31huiyi/mcp/31huiyi-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/31huiyi-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/data-model/31huiyi-data-model.yml
+  href: https://artifacts.apis.io/31huiyi/data-model/31huiyi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/31huiyi-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/llms/31huiyi-llms.txt
+  href: https://artifacts.apis.io/31huiyi/llms/31huiyi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/31huiyi-llms.txt
 created: '2026-09-05'
 description: 31huiyi (31会议 / 31Event) is the digital event and exhibition SaaS platform operated by Shanghai Bayantu Information Technology Co., Ltd. (上海八彦图信息科技有限公司), founded 2010 and headquartered in Shanghai, China. It runs a product family covering conference management (31大会易), lightweight event management (31轻会), exhibition management (31展览云), on-site smart check-in and reception (31智慧现场), virtual events and an event AI assistant. It publishes a public developer center at api-help.31huiyi.com documenting an OAuth 2.0 / OpenID Connect protected REST OpenAPI at 31api.31huiyi.com, covering attendee registration, check-in, schedules, speakers, exhibitors, tickets, reception and CMS, plus a set of outbound push (webhook) callbacks a customer implements to receive check-in, attendee and exhibitor data.
+finops:
+- has_sources: true
+  method: derived
+  name: 31Huiyi Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: 31huiyi-finops
+  template: false
 image: https://api-help.31huiyi.com/system-image/logo.png
 layout: provider
 modified: '2026-09-05'
@@ -202,7 +212,7 @@ plans:
 - name: 31Huiyi Plans Pricing
   plan_count: 5
   slug: 31huiyi-plans-pricing
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: 31Huiyi Rate Limits
@@ -214,22 +224,22 @@ scopes:
   summary_line: 9 scopes
 score:
   band: developing
-  composite: 44.0
+  composite: 52.9
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 66.2
+    developer_ergonomics: 68.6
     discoverability: 66.1
-    operational_transparency: 7.9
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -237,7 +247,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 44.0
+  previous_composite: 51.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -247,14 +257,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/heads/main/screenshots/31huiyi-2026-10-11T092038.png
+screenshot: https://apis.io/screenshots/31huiyi/31huiyi-2026-10-11T092038.png
 security:
 - kind: authentication
   name: 31Huiyi Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: BMS Medical Information Online provides US healthcare providers with prescribing information, medical inquiry submission, and product/regimen libraries for BMS medicines across oncology, hematology, i
@@ -47,7 +49,7 @@ apis:
 artifact_total: 6
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bristol-myers-squibb/refs/heads/main/security/bristol-myers-squibb-domain-security.yml
+  href: https://artifacts.apis.io/bristol-myers-squibb/security/bristol-myers-squibb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bristol-myers-squibb-domain-security.yml
@@ -76,32 +78,32 @@ common:
   type: InvestorRelations
   url: https://investors.bms.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bristol-myers-squibb/refs/heads/main/packages/bristol-myers-squibb-packages.yml
+  href: https://artifacts.apis.io/bristol-myers-squibb/packages/bristol-myers-squibb-packages.yml
   title: ''
   type: Packages
   url: packages/bristol-myers-squibb-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bristol-myers-squibb/refs/heads/main/conformance/bristol-myers-squibb-conformance.yml
+  href: https://artifacts.apis.io/bristol-myers-squibb/conformance/bristol-myers-squibb-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bristol-myers-squibb-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bristol-myers-squibb/refs/heads/main/llms/bristol-myers-squibb-llms.txt
+  href: https://artifacts.apis.io/bristol-myers-squibb/llms/bristol-myers-squibb-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bristol-myers-squibb-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bristol-myers-squibb/refs/heads/main/plans/bristol-myers-squibb-plans-pricing.yml
+  href: https://artifacts.apis.io/bristol-myers-squibb/plans/bristol-myers-squibb-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bristol-myers-squibb-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bristol-myers-squibb/refs/heads/main/rate-limits/bristol-myers-squibb-rate-limits.yml
+  href: https://artifacts.apis.io/bristol-myers-squibb/rate-limits/bristol-myers-squibb-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bristol-myers-squibb-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bristol-myers-squibb/refs/heads/main/finops/bristol-myers-squibb-finops.yml
+  href: https://artifacts.apis.io/bristol-myers-squibb/finops/bristol-myers-squibb-finops.yml
   title: ''
   type: FinOps
   url: finops/bristol-myers-squibb-finops.yml
@@ -127,7 +129,7 @@ finops:
 - has_sources: true
   method: generated
   name: Bristol Myers Squibb Finops
-  primary_unit: ''
+  primary_unit: agreement
   service_category: Pharmaceutical
   slug: bristol-myers-squibb-finops
   template: false
@@ -161,30 +163,30 @@ press:
 - date: ''
   title: Our technologies
   url: https://www.bms.com/about-us/our-company/our-technologies.html
-random_paper: 17
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Bristol Myers Squibb Rate Limits
   slug: bristol-myers-squibb-rate-limits
 score:
   band: emerging
-  composite: 13.8
+  composite: 15.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 32.0
+    artifact_dirs: 15
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 21.1
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 64.3
-    operational_transparency: 2.6
-  previous_composite: 15.3
+    discoverability: 57.1
+    operational_transparency: 5.3
+  previous_composite: 13.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -194,14 +196,14 @@ score:
     regime: Health
     regime_id: health
     score: 14.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bristol-myers-squibb/refs/heads/main/screenshots/bristol-myers-squibb-2026-06-20T173708.png
+screenshot: https://apis.io/screenshots/bristol-myers-squibb/bristol-myers-squibb-2026-06-20T173708.png
 security:
 - kind: domain-security
   name: Bristol Myers Squibb Domain Security

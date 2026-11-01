@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The REST API behind the tvScientific Campaign Management UI, named by tvScientific's own status page as the "Campaign Management API" component running at api.tvscientific.app. Two major versions serv
@@ -43,7 +45,7 @@ apis:
 artifact_total: 6
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tvscientific/refs/heads/main/rate-limits/tvscientific-rate-limits.yml
+  href: https://artifacts.apis.io/tvscientific/rate-limits/tvscientific-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tvscientific-rate-limits.yml
@@ -84,27 +86,27 @@ common:
   type: StatusPage
   url: https://status.tvscientific.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tvscientific/refs/heads/main/lifecycle/tvscientific-lifecycle.yml
+  href: https://artifacts.apis.io/tvscientific/lifecycle/tvscientific-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tvscientific-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tvscientific/refs/heads/main/components/tvscientific-components.yml
+  href: https://artifacts.apis.io/tvscientific/components/tvscientific-components.yml
   title: ''
   type: Components
   url: components/tvscientific-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tvscientific/refs/heads/main/packages/tvscientific-packages.yml
+  href: https://artifacts.apis.io/tvscientific/packages/tvscientific-packages.yml
   title: ''
   type: Packages
   url: packages/tvscientific-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tvscientific/refs/heads/main/plans/tvscientific-plans-pricing.yml
+  href: https://artifacts.apis.io/tvscientific/plans/tvscientific-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tvscientific-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tvscientific/refs/heads/main/llms/tvscientific-llms.txt
+  href: https://artifacts.apis.io/tvscientific/llms/tvscientific-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tvscientific-llms.txt
@@ -121,12 +123,12 @@ common:
   type: TrustCenter
   url: https://trust.tvscientific.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tvscientific/refs/heads/main/security/tvscientific-trust-center.yml
+  href: https://artifacts.apis.io/tvscientific/security/tvscientific-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tvscientific-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tvscientific/refs/heads/main/security/tvscientific-domain-security.yml
+  href: https://artifacts.apis.io/tvscientific/security/tvscientific-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tvscientific-domain-security.yml
@@ -147,14 +149,14 @@ plans:
 - name: Tvscientific Plans Pricing
   plan_count: 0
   slug: tvscientific-plans-pricing
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Tvscientific Rate Limits
   slug: tvscientific-rate-limits
 score:
-  band: emerging
-  composite: 22.4
+  band: thin
+  composite: 26.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -162,15 +164,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 22.3
+    operational_transparency: 31.6
+  previous_composite: 26.4
   provenance:
     conformance: first-party
   regulatory:
@@ -178,15 +180,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 23.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tvscientific/refs/heads/main/screenshots/tvscientific-2026-09-02T164602.png
+screenshot: https://apis.io/screenshots/tvscientific/tvscientific-2026-09-02T164602.png
 security:
 - kind: authentication
   name: Tvscientific Authentication

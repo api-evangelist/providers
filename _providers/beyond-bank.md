@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 25.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,9 +83,6 @@ apis:
 artifact_total: 19
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CDR Banking Banking Account Balances API
   slug: open-beyond-bank-banking-account-balances-api
 - collection_type: open
@@ -106,27 +105,27 @@ collections:
   slug: open-beyond-bank-banking-products-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/capabilities/beyond-bank-capability-edges.yml
+  href: https://artifacts.apis.io/beyond-bank/capabilities/beyond-bank-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/beyond-bank-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/agentic-access/beyond-bank-agentic-access.yml
+  href: https://artifacts.apis.io/beyond-bank/agentic-access/beyond-bank-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/beyond-bank-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/authentication/beyond-bank-authentication.yml
+  href: https://artifacts.apis.io/beyond-bank/authentication/beyond-bank-authentication.yml
   title: ''
   type: Authentication
   url: authentication/beyond-bank-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/scopes/beyond-bank-scopes.yml
+  href: https://artifacts.apis.io/beyond-bank/scopes/beyond-bank-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/beyond-bank-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/security/beyond-bank-domain-security.yml
+  href: https://artifacts.apis.io/beyond-bank/security/beyond-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beyond-bank-domain-security.yml
@@ -171,47 +170,47 @@ common:
   type: Support
   url: https://www.beyondbank.com.au/help-and-contact/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/overlays/beyond-bank-cds-banking-products-overlay.yaml
+  href: https://artifacts.apis.io/beyond-bank/overlays/beyond-bank-cds-banking-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/beyond-bank-cds-banking-products-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/mcp/beyond-bank-mcp.yml
+  href: https://artifacts.apis.io/beyond-bank/mcp/beyond-bank-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/beyond-bank-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/llms/beyond-bank-llms.txt
+  href: https://artifacts.apis.io/beyond-bank/llms/beyond-bank-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beyond-bank-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/skills/beyond-bank-lookup-banking-products.md
+  href: https://artifacts.apis.io/beyond-bank/skills/beyond-bank-lookup-banking-products.md
   title: ''
   type: AgentSkill
   url: skills/beyond-bank-lookup-banking-products.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/conventions/beyond-bank-conventions.yml
+  href: https://artifacts.apis.io/beyond-bank/conventions/beyond-bank-conventions.yml
   title: ''
   type: Conventions
   url: conventions/beyond-bank-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/conformance/beyond-bank-conformance.yml
+  href: https://artifacts.apis.io/beyond-bank/conformance/beyond-bank-conformance.yml
   title: ''
   type: Conformance
   url: conformance/beyond-bank-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/errors/beyond-bank-problem-types.yml
+  href: https://artifacts.apis.io/beyond-bank/errors/beyond-bank-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/beyond-bank-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/data-model/beyond-bank-data-model.yml
+  href: https://artifacts.apis.io/beyond-bank/data-model/beyond-bank-data-model.yml
   title: ''
   type: DataModel
   url: data-model/beyond-bank-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/lifecycle/beyond-bank-lifecycle.yml
+  href: https://artifacts.apis.io/beyond-bank/lifecycle/beyond-bank-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/beyond-bank-lifecycle.yml
@@ -231,7 +230,7 @@ overview: 'Beyond Bank Australia publishes 7 API contracts indexed on the [APIs.
 
 
   Beyond Bank Australia''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, and 19 more developer resources.'
-random_paper: 20
+random_paper: 18
 scopes:
 - name: Beyond Bank Scopes
   scope_count: 5
@@ -247,13 +246,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 58.9
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -262,7 +261,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 37.9
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,13 +278,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/screenshots/beyond-bank-2026-07-21T114718.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/beyond-bank/beyond-bank-2026-07-21T114718.png
 security:
 - kind: authentication
   name: Beyond Bank Authentication
@@ -295,6 +295,10 @@ security:
   name: Beyond Bank Domain Security
   slug: beyond-bank-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Look up Beyond Bank banking products (CDR PRD)
+  slug: beyond-bank-lookup-banking-products
 slug: beyond-bank
 tags:
 - Finance

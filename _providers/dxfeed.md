@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.5
-  scored_at: '2026-10-17'
+  score: 28.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 119
@@ -217,7 +219,7 @@ apis:
   description: The valuation-ratio-controller API from dxFeed — 6 operation(s) for valuation-ratio-controller.
   name: dxFeed Valuation Ratio Controller API
   slug: dxfeed-valuation-ratio-controller-api
-artifact_total: 42
+artifact_total: 44
 asyncapis:
 - description: '## Overview dxLink.WebSocket is a WebSocket-based protocol that allows you to receive market data from dxFeed services. ## Terminology - **Connection** - an instance of the WebSocket connection - **Cl'
   name: dxLink WebSocket
@@ -236,47 +238,47 @@ common:
   type: BlogRSS
   url: https://dxfeed.com/articles/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/overlays/dxfeed-fundamentals-overlay.yaml
+  href: https://artifacts.apis.io/dxfeed/overlays/dxfeed-fundamentals-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/dxfeed-fundamentals-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/mcp/dxfeed-mcp.yml
+  href: https://artifacts.apis.io/dxfeed/mcp/dxfeed-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/dxfeed-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/agentic-access/dxfeed-agentic-access.yml
+  href: https://artifacts.apis.io/dxfeed/agentic-access/dxfeed-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/dxfeed-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/packages/dxfeed-packages.yml
+  href: https://artifacts.apis.io/dxfeed/packages/dxfeed-packages.yml
   title: ''
   type: Packages
   url: packages/dxfeed-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/packages/dxfeed-packages.yml
+  href: https://artifacts.apis.io/dxfeed/packages/dxfeed-packages.yml
   title: ''
   type: SDKs
   url: packages/dxfeed-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/llms/dxfeed-llms.txt
+  href: https://artifacts.apis.io/dxfeed/llms/dxfeed-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/dxfeed-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/authentication/dxfeed-authentication.yml
+  href: https://artifacts.apis.io/dxfeed/authentication/dxfeed-authentication.yml
   title: ''
   type: Authentication
   url: authentication/dxfeed-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/conventions/dxfeed-conventions.yml
+  href: https://artifacts.apis.io/dxfeed/conventions/dxfeed-conventions.yml
   title: ''
   type: Conventions
   url: conventions/dxfeed-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/conformance/dxfeed-conformance.yml
+  href: https://artifacts.apis.io/dxfeed/conformance/dxfeed-conformance.yml
   title: ''
   type: Conformance
   url: conformance/dxfeed-conformance.yml
@@ -285,22 +287,22 @@ common:
   type: Compliance
   url: https://dxfeed.com/trust-center/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/errors/dxfeed-problem-types.yml
+  href: https://artifacts.apis.io/dxfeed/errors/dxfeed-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/dxfeed-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/lifecycle/dxfeed-lifecycle.yml
+  href: https://artifacts.apis.io/dxfeed/lifecycle/dxfeed-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/dxfeed-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/sandbox/dxfeed-sandbox.yml
+  href: https://artifacts.apis.io/dxfeed/sandbox/dxfeed-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/dxfeed-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/dxfeed/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -313,12 +315,12 @@ common:
   type: APIReference
   url: https://docs.dxfeed.com/dxfeed/api/index.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/security/dxfeed-trust-center.yml
+  href: https://artifacts.apis.io/dxfeed/security/dxfeed-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/dxfeed-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/security/dxfeed-domain-security.yml
+  href: https://artifacts.apis.io/dxfeed/security/dxfeed-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dxfeed-domain-security.yml
@@ -377,25 +379,25 @@ overview: 'dxFeed publishes 36 API contracts indexed on the [APIs.io](https://ap
 
 
   dxFeed''s developer surface includes engineering blog, authentication, sandbox, getting-started guide, API reference, developer portal, documentation, and 23 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: developing
-  composite: 42.3
+  composite: 46.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 49.9
     developer_ergonomics: 73.2
     discoverability: 57.1
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -404,7 +406,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 42.2
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -421,13 +423,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/screenshots/dxfeed-2026-07-22T202337.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/dxfeed/dxfeed-2026-07-22T202337.png
 security:
 - kind: authentication
   name: Dxfeed Authentication
@@ -441,6 +444,12 @@ security:
   name: Dxfeed Trust Center
   slug: dxfeed-trust-center
   summary_line: SOC 2
+skill_count: 2
+skills:
+- name: Look up company fundamentals for a symbol
+  slug: dxfeed-company-fundamentals-lookup
+- name: Screen fundamentals across markets by date range
+  slug: dxfeed-fundamentals-screening
 slug: dxfeed
 tags:
 - Finance

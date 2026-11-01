@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 12
 apis:
 - description: POST /chat/completions for Solar models (OpenAI-compatible).
@@ -67,32 +69,32 @@ apis:
 artifact_total: 21
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/rate-limits/upstage-ai-rate-limits.yml
+  href: https://artifacts.apis.io/upstage-ai/rate-limits/upstage-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/upstage-ai-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/rules/upstage-ai-rules.yml
+  href: https://artifacts.apis.io/upstage-ai/rules/upstage-ai-rules.yml
   title: ''
   type: Spectral
   url: rules/upstage-ai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/json-ld/upstage-ai-context.jsonld
+  href: https://artifacts.apis.io/upstage-ai/json-ld/upstage-ai-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/upstage-ai-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/vocabulary/upstage-ai-vocabulary.yml
+  href: https://artifacts.apis.io/upstage-ai/vocabulary/upstage-ai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/upstage-ai-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/data-model/upstage-ai-data-model.yml
+  href: https://artifacts.apis.io/upstage-ai/data-model/upstage-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/upstage-ai-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/authentication/upstage-ai-authentication.yml
+  href: https://artifacts.apis.io/upstage-ai/authentication/upstage-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/upstage-ai-authentication.yml
@@ -101,52 +103,52 @@ common:
   type: Deprecation
   url: https://console.upstage.ai/docs/models/history
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/lifecycle/upstage-ai-lifecycle.yml
+  href: https://artifacts.apis.io/upstage-ai/lifecycle/upstage-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/upstage-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/errors/upstage-ai-problem-types.yml
+  href: https://artifacts.apis.io/upstage-ai/errors/upstage-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/upstage-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/conformance/upstage-ai-conformance.yml
+  href: https://artifacts.apis.io/upstage-ai/conformance/upstage-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/upstage-ai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/llms/upstage-ai-llms.txt
+  href: https://artifacts.apis.io/upstage-ai/llms/upstage-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/upstage-ai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/well-known/upstage-ai-support-security.txt
+  href: https://artifacts.apis.io/upstage-ai/well-known/upstage-ai-support-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/upstage-ai-support-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/well-known/upstage-ai-well-known.yml
+  href: https://artifacts.apis.io/upstage-ai/well-known/upstage-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/upstage-ai-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/hosts/upstage-ai-hosts.yml
+  href: https://artifacts.apis.io/upstage-ai/hosts/upstage-ai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/upstage-ai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/vendors/upstage-ai-vendors.yml
+  href: https://artifacts.apis.io/upstage-ai/vendors/upstage-ai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/upstage-ai-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/packages/upstage-ai-packages.yml
+  href: https://artifacts.apis.io/upstage-ai/packages/upstage-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/upstage-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/packages/upstage-ai-packages.yml
+  href: https://artifacts.apis.io/upstage-ai/packages/upstage-ai-packages.yml
   title: ''
   type: Packages
   url: packages/upstage-ai-packages.yml
@@ -175,7 +177,7 @@ common:
   type: Blog
   url: https://www.upstage.ai/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/security/upstage-ai-domain-security.yml
+  href: https://artifacts.apis.io/upstage-ai/security/upstage-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/upstage-ai-domain-security.yml
@@ -208,7 +210,7 @@ common:
   type: ChangeLog
   url: https://console.upstage.ai/docs/resources/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/upstage-ai/refs/heads/main/mcp/upstage-ai-mcp.yml
+  href: https://artifacts.apis.io/upstage-ai/mcp/upstage-ai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/upstage-ai-mcp.yml
@@ -275,7 +277,7 @@ overview: 'Upstage is listed with 12 APIs on the [APIs.io](https://apis.io/) net
 
 
   Upstage''s developer surface includes authentication, support, sandbox, engineering blog, documentation, API reference, changelog, and 30 more developer resources.'
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 150
   name: Upstage Ai Rate Limits
@@ -295,7 +297,7 @@ rules:
   slug: upstage-ai-rules
 score:
   band: developing
-  composite: 42.1
+  composite: 44.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 77.8
@@ -303,13 +305,20 @@ score:
     catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 22.0
     contract_quality: 27.7
     developer_ergonomics: 50.0
     discoverability: 80.0
-    operational_transparency: 76.3
+    operational_transparency: 86.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - south-korea
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 44.2
   provenance:
     conformance: derived
     contracts:
@@ -324,11 +333,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Upstage Ai Authentication

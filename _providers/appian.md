@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -131,9 +133,6 @@ collections:
   name: Appian Application Package Details Export Results API
   slug: postman-appian-results-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Appian Application Package Details API
   slug: open-appian-application-package-details
 - collection_type: open
@@ -158,88 +157,93 @@ collections:
   name: API Collection
   slug: open-appian
 common:
+- group: other
+  href: https://artifacts.apis.io/appian/capabilities/appian-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/appian-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/finops/appian-finops.yml
+  href: https://artifacts.apis.io/appian/finops/appian-finops.yml
   title: ''
   type: FinOps
   url: finops/appian-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/rate-limits/appian-rate-limits.yml
+  href: https://artifacts.apis.io/appian/rate-limits/appian-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/appian-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/plans/appian-plans-pricing.yml
+  href: https://artifacts.apis.io/appian/plans/appian-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/appian-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/rules/appian-rules.yml
+  href: https://artifacts.apis.io/appian/rules/appian-rules.yml
   title: ''
   type: Spectral
   url: rules/appian-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/rules/appian-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/appian/rules/appian-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/appian-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/vocabulary/appian-vocabulary.yml
+  href: https://artifacts.apis.io/appian/vocabulary/appian-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/appian-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/appian/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/data-model/appian-data-model.yml
+  href: https://artifacts.apis.io/appian/data-model/appian-data-model.yml
   title: ''
   type: DataModel
   url: data-model/appian-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/changelog/appian-changelog.yml
+  href: https://artifacts.apis.io/appian/changelog/appian-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/appian-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/errors/appian-problem-types.yml
+  href: https://artifacts.apis.io/appian/errors/appian-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/appian-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/conformance/appian-conformance.yml
+  href: https://artifacts.apis.io/appian/conformance/appian-conformance.yml
   title: ''
   type: Conformance
   url: conformance/appian-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/llms/appian-llms.txt
+  href: https://artifacts.apis.io/appian/llms/appian-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/appian-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/well-known/appian-www-security.txt
+  href: https://artifacts.apis.io/appian/well-known/appian-www-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/appian-www-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/well-known/appian-security.txt
+  href: https://artifacts.apis.io/appian/well-known/appian-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/appian-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/well-known/appian-well-known.yml
+  href: https://artifacts.apis.io/appian/well-known/appian-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/appian-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/hosts/appian-hosts.yml
+  href: https://artifacts.apis.io/appian/hosts/appian-hosts.yml
   title: ''
   type: Hosts
   url: hosts/appian-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/vendors/appian-vendors.yml
+  href: https://artifacts.apis.io/appian/vendors/appian-vendors.yml
   title: ''
   type: Vendors
   url: vendors/appian-vendors.yml
@@ -248,57 +252,57 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/appian/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/agentic-access/appian-agentic-access.yml
+  href: https://artifacts.apis.io/appian/agentic-access/appian-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/appian-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/security/appian-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/appian/security/appian-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/appian-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/security/appian-domain-security.yml
+  href: https://artifacts.apis.io/appian/security/appian-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/appian-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/authentication/appian-authentication.yml
+  href: https://artifacts.apis.io/appian/authentication/appian-authentication.yml
   title: ''
   type: Authentication
   url: authentication/appian-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/arazzo/appian-deployment-status-and-log-workflow.yml
+  href: https://artifacts.apis.io/appian/arazzo/appian-deployment-status-and-log-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/appian-deployment-status-and-log-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/arazzo/appian-export-application-package-workflow.yml
+  href: https://artifacts.apis.io/appian/arazzo/appian-export-application-package-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/appian-export-application-package-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/arazzo/appian-export-full-application-workflow.yml
+  href: https://artifacts.apis.io/appian/arazzo/appian-export-full-application-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/appian-export-full-application-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/arazzo/appian-import-deployment-workflow.yml
+  href: https://artifacts.apis.io/appian/arazzo/appian-import-deployment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/appian-import-deployment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/arazzo/appian-inspect-package-workflow.yml
+  href: https://artifacts.apis.io/appian/arazzo/appian-inspect-package-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/appian-inspect-package-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/arazzo/appian-inspect-then-import-workflow.yml
+  href: https://artifacts.apis.io/appian/arazzo/appian-inspect-then-import-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/appian-inspect-then-import-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/arazzo/appian-resolve-and-export-named-package-workflow.yml
+  href: https://artifacts.apis.io/appian/arazzo/appian-resolve-and-export-named-package-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/appian-resolve-and-export-named-package-workflow.yml
@@ -431,262 +435,262 @@ common:
   type: Website
   url: https://www.appian.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-ld/appian-context.jsonld
+  href: https://artifacts.apis.io/appian/json-ld/appian-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/appian-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/application-package-details-package-list-response-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/application-package-details-package-list-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/application-package-details-package-list-response-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/application-package-details-package-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/application-package-details-package-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/application-package-details-package-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-database-script-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/deployment-rest-database-script-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-database-script-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-deployment-request-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/deployment-rest-deployment-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-deployment-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-deployment-response-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/deployment-rest-deployment-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-deployment-response-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-deployment-status-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/deployment-rest-deployment-status-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-deployment-status-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-export-configuration-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/deployment-rest-export-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-export-configuration-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-export-deployment-result-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/deployment-rest-export-deployment-result-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-export-deployment-result-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-import-configuration-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/deployment-rest-import-configuration-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-import-configuration-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-import-deployment-result-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/deployment-rest-import-deployment-result-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-import-deployment-result-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-import-summary-count-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/deployment-rest-import-summary-count-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-import-summary-count-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-inspection-error-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/deployment-rest-inspection-error-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-inspection-error-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-inspection-problems-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/deployment-rest-inspection-problems-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-inspection-problems-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-inspection-request-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/deployment-rest-inspection-request-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-inspection-request-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-inspection-response-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/deployment-rest-inspection-response-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-inspection-response-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-inspection-result-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/deployment-rest-inspection-result-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-inspection-result-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-schema/deployment-rest-inspection-warning-schema.json
+  href: https://artifacts.apis.io/appian/json-schema/deployment-rest-inspection-warning-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/deployment-rest-inspection-warning-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/application-package-details-package-list-response-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/application-package-details-package-list-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/application-package-details-package-list-response-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/application-package-details-package-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/application-package-details-package-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/application-package-details-package-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-database-script-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/deployment-rest-database-script-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-database-script-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-deployment-request-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/deployment-rest-deployment-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-deployment-request-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-deployment-response-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/deployment-rest-deployment-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-deployment-response-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-deployment-status-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/deployment-rest-deployment-status-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-deployment-status-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-export-configuration-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/deployment-rest-export-configuration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-export-configuration-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-export-deployment-result-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/deployment-rest-export-deployment-result-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-export-deployment-result-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-import-configuration-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/deployment-rest-import-configuration-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-import-configuration-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-import-deployment-result-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/deployment-rest-import-deployment-result-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-import-deployment-result-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-import-summary-count-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/deployment-rest-import-summary-count-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-import-summary-count-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-inspection-error-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/deployment-rest-inspection-error-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-inspection-error-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-inspection-problems-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/deployment-rest-inspection-problems-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-inspection-problems-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-inspection-request-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/deployment-rest-inspection-request-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-inspection-request-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-inspection-response-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/deployment-rest-inspection-response-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-inspection-response-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-inspection-result-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/deployment-rest-inspection-result-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-inspection-result-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/json-structure/deployment-rest-inspection-warning-structure.json
+  href: https://artifacts.apis.io/appian/json-structure/deployment-rest-inspection-warning-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/deployment-rest-inspection-warning-structure.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/application-package-details-package-example.json
+  href: https://artifacts.apis.io/appian/examples/application-package-details-package-example.json
   title: ''
   type: Examples
   url: examples/application-package-details-package-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/application-package-details-package-list-response-example.json
+  href: https://artifacts.apis.io/appian/examples/application-package-details-package-list-response-example.json
   title: ''
   type: Examples
   url: examples/application-package-details-package-list-response-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-database-script-example.json
+  href: https://artifacts.apis.io/appian/examples/deployment-rest-database-script-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-database-script-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-deployment-request-example.json
+  href: https://artifacts.apis.io/appian/examples/deployment-rest-deployment-request-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-deployment-request-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-deployment-response-example.json
+  href: https://artifacts.apis.io/appian/examples/deployment-rest-deployment-response-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-deployment-response-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-deployment-status-example.json
+  href: https://artifacts.apis.io/appian/examples/deployment-rest-deployment-status-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-deployment-status-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-export-configuration-example.json
+  href: https://artifacts.apis.io/appian/examples/deployment-rest-export-configuration-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-export-configuration-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-export-deployment-result-example.json
+  href: https://artifacts.apis.io/appian/examples/deployment-rest-export-deployment-result-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-export-deployment-result-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-import-configuration-example.json
+  href: https://artifacts.apis.io/appian/examples/deployment-rest-import-configuration-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-import-configuration-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-import-deployment-result-example.json
+  href: https://artifacts.apis.io/appian/examples/deployment-rest-import-deployment-result-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-import-deployment-result-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-import-summary-count-example.json
+  href: https://artifacts.apis.io/appian/examples/deployment-rest-import-summary-count-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-import-summary-count-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-inspection-error-example.json
+  href: https://artifacts.apis.io/appian/examples/deployment-rest-inspection-error-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-inspection-error-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-inspection-problems-example.json
+  href: https://artifacts.apis.io/appian/examples/deployment-rest-inspection-problems-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-inspection-problems-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-inspection-request-example.json
+  href: https://artifacts.apis.io/appian/examples/deployment-rest-inspection-request-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-inspection-request-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-inspection-response-example.json
+  href: https://artifacts.apis.io/appian/examples/deployment-rest-inspection-response-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-inspection-response-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-inspection-result-example.json
+  href: https://artifacts.apis.io/appian/examples/deployment-rest-inspection-result-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-inspection-result-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/examples/deployment-rest-inspection-warning-example.json
+  href: https://artifacts.apis.io/appian/examples/deployment-rest-inspection-warning-example.json
   title: ''
   type: Examples
   url: examples/deployment-rest-inspection-warning-example.json
@@ -765,12 +769,12 @@ features:
   name: OpenAPI Export
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Appian Finops
   primary_unit: ''
-  service_category: Low-Code / Process Automation
+  service_category: ''
   slug: appian-finops
-  template: false
+  template: true
 image: https://www.appian.com/favicon.ico
 integrations:
 - description: Connect Appian to Salesforce CRM for data synchronization and process automation.
@@ -981,12 +985,12 @@ overview: 'Appian publishes 12 API contracts indexed on the [APIs.io](https://ap
   The Appian catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Appian''s developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 106 more developer resources.'
+  Appian''s developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 107 more developer resources.'
 plans:
 - name: Appian Plans Pricing
   plan_count: 4
   slug: appian-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Appian Rate Limits
@@ -1017,23 +1021,28 @@ rules:
   slug: appian-rules
 score:
   band: exemplar
-  composite: 67.5
+  composite: 72.2
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 67.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    artifact_dirs: 31
+    catalog_earned: 76.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.2
+  delta: 0.0
   facets:
-    access_clarity: 68.4
+    access_clarity: 92.1
     contract_governance: 45.5
     contract_quality: 66.0
     developer_ergonomics: 74.4
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 63.2
-  previous_composite: 69.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 72.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1050,13 +1059,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/screenshots/appian-2026-06-20T172316.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/appian/appian-2026-06-20T172316.png
 security:
 - kind: authentication
   name: Appian Authentication
@@ -1070,6 +1080,10 @@ security:
   name: Appian Vulnerability Disclosure
   slug: appian-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 1
+skills:
+- name: appian-inspection
+  slug: appian-inspection
 slug: appian
 tags:
 - Automation

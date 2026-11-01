@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API reference for Apache Polaris data platform, documented at the official docs site.
@@ -32,7 +34,7 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-polaris/refs/heads/main/well-known/apache-polaris-status-security.txt
+  href: https://artifacts.apis.io/apache-polaris/well-known/apache-polaris-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/apache-polaris-status-security.txt
@@ -41,32 +43,32 @@ common:
   type: Security
   url: https://security.apache.org/report/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-polaris/refs/heads/main/well-known/apache-polaris-apache-security.txt
+  href: https://artifacts.apis.io/apache-polaris/well-known/apache-polaris-apache-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/apache-polaris-apache-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-polaris/refs/heads/main/well-known/apache-polaris-well-known.yml
+  href: https://artifacts.apis.io/apache-polaris/well-known/apache-polaris-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apache-polaris-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apache-polaris/refs/heads/main/hosts/apache-polaris-hosts.yml
+  href: https://artifacts.apis.io/apache-polaris/hosts/apache-polaris-hosts.yml
   title: ''
   type: Hosts
   url: hosts/apache-polaris-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apache-polaris/refs/heads/main/vendors/apache-polaris-vendors.yml
+  href: https://artifacts.apis.io/apache-polaris/vendors/apache-polaris-vendors.yml
   title: ''
   type: Vendors
   url: vendors/apache-polaris-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apache-polaris/refs/heads/main/packages/apache-polaris-packages.yml
+  href: https://artifacts.apis.io/apache-polaris/packages/apache-polaris-packages.yml
   title: ''
   type: SDKs
   url: packages/apache-polaris-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/apache-polaris/refs/heads/main/packages/apache-polaris-packages.yml
+  href: https://artifacts.apis.io/apache-polaris/packages/apache-polaris-packages.yml
   title: ''
   type: Packages
   url: packages/apache-polaris-packages.yml
@@ -83,12 +85,12 @@ common:
   type: APIReference
   url: https://polaris.apache.org/releases/1.4.0/helm-chart/reference/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-polaris/refs/heads/main/security/apache-polaris-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-polaris/security/apache-polaris-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-polaris-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-polaris/refs/heads/main/security/apache-polaris-domain-security.yml
+  href: https://artifacts.apis.io/apache-polaris/security/apache-polaris-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-polaris-domain-security.yml
@@ -135,17 +137,18 @@ overview: 'Apache Polaris is listed with 1 API on the [APIs.io](https://apis.io/
 
 
   Apache Polaris'' developer surface includes changelog, API reference, documentation, getting-started guide, support, engineering blog, and 13 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: emerging
   composite: 19.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -153,6 +156,7 @@ score:
     developer_ergonomics: 42.9
     discoverability: 53.6
     operational_transparency: 47.4
+  previous_composite: 19.6
   provenance:
     mcp: derived
   regulatory:
@@ -161,8 +165,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

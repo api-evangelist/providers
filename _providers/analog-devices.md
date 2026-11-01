@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 7.5
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: The libiio library provides a cross-platform C API for interfacing with Linux Industrial I/O (IIO) devices including ADCs, DACs, and RF transceivers. It supports local and remote device access via a n
@@ -48,14 +50,14 @@ apis:
 - description: 'The ADI 3D Time-of-Flight SDK (libaditof, and the ADCAM application layer built on it) drives ADI depth cameras from a host. Its network connection is defined by a published proto3 contract, in which '
   name: Analog Devices 3D Time-of-Flight SDK
   slug: aditof-sdk
-artifact_total: 30
+artifact_total: 32
 common:
 - group: company
   title: ''
   type: Website
   url: https://www.analog.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/security/analog-devices-domain-security.yml
+  href: https://artifacts.apis.io/analog-devices/security/analog-devices-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/analog-devices-domain-security.yml
@@ -88,92 +90,92 @@ common:
   type: Support
   url: https://ez.analog.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/json-schema/analog-devices-iio-device-schema.json
+  href: https://artifacts.apis.io/analog-devices/json-schema/analog-devices-iio-device-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/analog-devices-iio-device-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/json-schema/analog-devices-iio-context-schema.json
+  href: https://artifacts.apis.io/analog-devices/json-schema/analog-devices-iio-context-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/analog-devices-iio-context-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/json-ld/analog-devices-context.jsonld
+  href: https://artifacts.apis.io/analog-devices/json-ld/analog-devices-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/analog-devices-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/vocabulary/analog-devices-vocabulary.yaml
+  href: https://artifacts.apis.io/analog-devices/vocabulary/analog-devices-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/analog-devices-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/rules/analog-devices-spectral-rules.yml
+  href: https://artifacts.apis.io/analog-devices/rules/analog-devices-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/analog-devices-spectral-rules.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/packages/analog-devices-packages.yml
+  href: https://artifacts.apis.io/analog-devices/packages/analog-devices-packages.yml
   title: ''
   type: Packages
   url: packages/analog-devices-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/packages/analog-devices-packages.yml
+  href: https://artifacts.apis.io/analog-devices/packages/analog-devices-packages.yml
   title: ''
   type: SDKs
   url: packages/analog-devices-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/analog-devices/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/authentication/analog-devices-authentication.yml
+  href: https://artifacts.apis.io/analog-devices/authentication/analog-devices-authentication.yml
   title: ''
   type: Authentication
   url: authentication/analog-devices-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/conventions/analog-devices-conventions.yml
+  href: https://artifacts.apis.io/analog-devices/conventions/analog-devices-conventions.yml
   title: ''
   type: Conventions
   url: conventions/analog-devices-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/conformance/analog-devices-conformance.yml
+  href: https://artifacts.apis.io/analog-devices/conformance/analog-devices-conformance.yml
   title: ''
   type: Conformance
   url: conformance/analog-devices-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/lifecycle/analog-devices-lifecycle.yml
+  href: https://artifacts.apis.io/analog-devices/lifecycle/analog-devices-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/analog-devices-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/changelog/analog-devices-changelog.yml
+  href: https://artifacts.apis.io/analog-devices/changelog/analog-devices-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/analog-devices-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/cli/analog-devices-cli.yml
+  href: https://artifacts.apis.io/analog-devices/cli/analog-devices-cli.yml
   title: ''
   type: CLI
   url: cli/analog-devices-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/errors/analog-devices-error-codes.yml
+  href: https://artifacts.apis.io/analog-devices/errors/analog-devices-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/analog-devices-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/data-model/analog-devices-data-model.yml
+  href: https://artifacts.apis.io/analog-devices/data-model/analog-devices-data-model.yml
   title: ''
   type: DataModel
   url: data-model/analog-devices-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/grpc/analog-devices-aditof-network.proto
+  href: https://artifacts.apis.io/analog-devices/grpc/analog-devices-aditof-network.proto
   title: ''
   type: Protobuf
   url: grpc/analog-devices-aditof-network.proto
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/llms/analog-devices-llms.txt
+  href: https://artifacts.apis.io/analog-devices/llms/analog-devices-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/analog-devices-llms.txt
@@ -182,17 +184,17 @@ common:
   type: LLMsTxt
   url: https://analogdevicesinc.github.io/ltspice-reference/llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/rate-limits/analog-devices-rate-limits.yml
+  href: https://artifacts.apis.io/analog-devices/rate-limits/analog-devices-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/analog-devices-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/plans/analog-devices-plans-pricing.yml
+  href: https://artifacts.apis.io/analog-devices/plans/analog-devices-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/analog-devices-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/finops/analog-devices-finops.yml
+  href: https://artifacts.apis.io/analog-devices/finops/analog-devices-finops.yml
   title: ''
   type: FinOps
   url: finops/analog-devices-finops.yml
@@ -287,7 +289,7 @@ press:
 - date: ''
   title: Q1 2026 Analog Devices Inc Earnings Call EVENT DATE/TIME
   url: https://investor.analog.com/static-files/6040f10c-669c-487e-bfa8-60eb1db6c369
-random_paper: 2
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Analog Devices Rate Limits
@@ -317,7 +319,7 @@ rules:
   slug: analog-devices-spectral-rules
 score:
   band: developing
-  composite: 40.3
+  composite: 40.6
   coverage:
     artifact_dirs: 28
     catalog_earned: 59.8
@@ -325,15 +327,15 @@ score:
     catalog_gap: 55.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 15.8
     contract_governance: 41.7
-    contract_quality: 34.7
-    developer_ergonomics: 65.5
+    contract_quality: 10.7
+    developer_ergonomics: 88.1
     discoverability: 78.6
-    operational_transparency: 23.7
-  previous_composite: 41.8
+    operational_transparency: 26.3
+  previous_composite: 40.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -343,15 +345,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 20.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/screenshots/analog-devices-2026-08-07T161354.png
+screenshot: https://apis.io/screenshots/analog-devices/analog-devices-2026-08-07T161354.png
 security:
 - kind: authentication
   name: Analog Devices Authentication
@@ -361,6 +363,12 @@ security:
   name: Analog Devices Domain Security
   slug: analog-devices-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: cfs-cli
+  slug: analog-devices-cfs-cli
+- name: cfs-docs
+  slug: analog-devices-cfs-docs
 slug: analog-devices
 tags:
 - Embedded Systems

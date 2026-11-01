@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trinkerr/refs/heads/main/security/trinkerr-domain-security.yml
+  href: https://artifacts.apis.io/trinkerr/security/trinkerr-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trinkerr-domain-security.yml
@@ -46,12 +48,12 @@ common:
   type: Website
   url: https://www.trinkerr.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/trinkerr/refs/heads/main/packages/trinkerr-packages.yml
+  href: https://artifacts.apis.io/trinkerr/packages/trinkerr-packages.yml
   title: ''
   type: Packages
   url: packages/trinkerr-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trinkerr/refs/heads/main/llms/trinkerr-llms.txt
+  href: https://artifacts.apis.io/trinkerr/llms/trinkerr-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/trinkerr-llms.txt
@@ -83,12 +85,12 @@ overview: 'Trinkerr is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Trinkerr''s developer surface includes YouTube channel and 7 more developer resources.'
-random_paper: 1
+random_paper: 17
 score:
   band: minimal
-  composite: 3.6
+  composite: 3.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -100,8 +102,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 55.4
-    operational_transparency: 2.6
+    discoverability: 48.2
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -109,21 +111,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 3.6
+  previous_composite: 3.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 5.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/trinkerr/refs/heads/main/screenshots/trinkerr-2026-09-02T164237.png
+screenshot: https://apis.io/screenshots/trinkerr/trinkerr-2026-09-02T164237.png
 security:
 - kind: domain-security
   name: Trinkerr Domain Security

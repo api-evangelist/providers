@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.8
-  scored_at: '2026-10-17'
+  score: 49.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: The Training API from Prior Labs — 4 operation(s) for training.
   name: Prior Labs Training API
   slug: priorlabs-training-api
-artifact_total: 10
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TabPFN Prediction API
   slug: open-priorlabs-prediction-api
@@ -72,12 +71,12 @@ common:
   type: Pricing
   url: https://priorlabs.ai/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/plans/priorlabs-plans-pricing.yml
+  href: https://artifacts.apis.io/priorlabs/plans/priorlabs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/priorlabs-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/capabilities/priorlabs-capability-edges.yml
+  href: https://artifacts.apis.io/priorlabs/capabilities/priorlabs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/priorlabs-capability-edges.yml
@@ -126,82 +125,82 @@ common:
   type: ChangeLog
   url: https://docs.priorlabs.ai/changelog
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/openapi/_original/priorlabs-openapi-original.json
+  href: https://artifacts.apis.io/priorlabs/openapi/_original/priorlabs-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/priorlabs-openapi-original.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/overlays/priorlabs-tabpfn-overlay.yaml
+  href: https://artifacts.apis.io/priorlabs/overlays/priorlabs-tabpfn-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/priorlabs-tabpfn-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/mcp/priorlabs-mcp.yml
+  href: https://artifacts.apis.io/priorlabs/mcp/priorlabs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/priorlabs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/llms/priorlabs-llms.txt
+  href: https://artifacts.apis.io/priorlabs/llms/priorlabs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/priorlabs-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/packages/priorlabs-packages.yml
+  href: https://artifacts.apis.io/priorlabs/packages/priorlabs-packages.yml
   title: ''
   type: Packages
   url: packages/priorlabs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/packages/priorlabs-packages.yml
+  href: https://artifacts.apis.io/priorlabs/packages/priorlabs-packages.yml
   title: ''
   type: SDKs
   url: packages/priorlabs-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/priorlabs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/authentication/priorlabs-authentication.yml
+  href: https://artifacts.apis.io/priorlabs/authentication/priorlabs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/priorlabs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/conventions/priorlabs-conventions.yml
+  href: https://artifacts.apis.io/priorlabs/conventions/priorlabs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/priorlabs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/errors/priorlabs-problem-types.yml
+  href: https://artifacts.apis.io/priorlabs/errors/priorlabs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/priorlabs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/lifecycle/priorlabs-lifecycle.yml
+  href: https://artifacts.apis.io/priorlabs/lifecycle/priorlabs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/priorlabs-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/lifecycle/priorlabs-lifecycle.yml
+  href: https://artifacts.apis.io/priorlabs/lifecycle/priorlabs-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/priorlabs-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/data-model/priorlabs-data-model.yml
+  href: https://artifacts.apis.io/priorlabs/data-model/priorlabs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/priorlabs-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/conformance/priorlabs-conformance.yml
+  href: https://artifacts.apis.io/priorlabs/conformance/priorlabs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/priorlabs-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/agentic-access/priorlabs-agentic-access.yml
+  href: https://artifacts.apis.io/priorlabs/agentic-access/priorlabs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/priorlabs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/security/priorlabs-domain-security.yml
+  href: https://artifacts.apis.io/priorlabs/security/priorlabs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/priorlabs-domain-security.yml
@@ -211,6 +210,14 @@ common:
   url: https://priorlabs.ai/
 created: '2026-07-17'
 description: Prior Labs builds TabPFN, a tabular foundation model that delivers strong predictions on structured/tabular data in seconds — no dataset-specific training, tuning, or ML pipelines required. TabPFN-3 handles classification, regression, time-series forecasting, anomaly detection, synthetic data generation, embeddings, and uncertainty quantification via in-context learning, scaling to 1M rows, 2,000 columns, and 160 classes. Prior Labs exposes TabPFN through a cloud REST API (api.priorlabs.ai), Python and R client SDKs, a Model Context Protocol server for AI agents, and private deployments on AWS SageMaker, Databricks, and Azure AI Foundry. The company was published in Nature and is now part of SAP.
+finops:
+- has_sources: true
+  method: derived
+  name: Priorlabs Finops
+  primary_unit: ''
+  service_category: ''
+  slug: priorlabs-finops
+  template: true
 image: https://priorlabs.ai/pl.svg
 layout: provider
 mcp_servers:
@@ -229,26 +236,26 @@ plans:
 - name: Priorlabs Plans Pricing
   plan_count: 7
   slug: priorlabs-plans-pricing
-random_paper: 6
+random_paper: 14
 score:
   band: developing
-  composite: 51.3
+  composite: 53.9
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.1
+  delta: 0.0
   facets:
-    access_clarity: 63.2
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 55.7
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 26.3
-  previous_composite: 43.2
+    discoverability: 65.0
+    operational_transparency: 28.9
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,13 +272,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/screenshots/priorlabs-2026-08-17T081338.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/priorlabs/priorlabs-2026-08-17T081338.png
 security:
 - kind: authentication
   name: Priorlabs Authentication
@@ -281,6 +289,12 @@ security:
   name: Priorlabs Domain Security
   slug: priorlabs-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: TabPFN fit and predict
+  slug: priorlabs-fit-and-predict
+- name: TabPFN predictions via MCP
+  slug: priorlabs-mcp-predictions
 slug: priorlabs
 tags:
 - Company

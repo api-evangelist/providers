@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -132,7 +134,7 @@ arazzos:
 - description: Create a temporary worksheet, read it, rename and reposition it, then delete it.
   name: Microsoft Excel Scratch Worksheet Lifecycle
   slug: microsoft-excel-worksheet-lifecycle-workflow
-artifact_total: 85
+artifact_total: 84
 collections:
 - collection_type: postman
   name: Microsoft Graph Excel Charts API
@@ -162,9 +164,6 @@ collections:
   name: Microsoft Graph Excel Charts Worksheets API
   slug: postman-microsoft-excel-worksheets-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Microsoft Graph Excel Charts API
   slug: open-microsoft-excel-charts-api
 - collection_type: open
@@ -193,17 +192,17 @@ collections:
   slug: open-microsoft-excel-worksheets-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/plans/microsoft-excel-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-excel/plans/microsoft-excel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-excel-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/rate-limits/microsoft-excel-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-excel/rate-limits/microsoft-excel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-excel-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/finops/microsoft-excel-finops.yml
+  href: https://artifacts.apis.io/microsoft-excel/finops/microsoft-excel-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-excel-finops.yml
@@ -220,102 +219,102 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-excel/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/agentic-access/microsoft-excel-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-excel/agentic-access/microsoft-excel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-excel-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/security/microsoft-excel-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/microsoft-excel/security/microsoft-excel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-excel-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/security/microsoft-excel-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-excel/security/microsoft-excel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-excel-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/authentication/microsoft-excel-authentication.yml
+  href: https://artifacts.apis.io/microsoft-excel/authentication/microsoft-excel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-excel-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/scopes/microsoft-excel-scopes.yml
+  href: https://artifacts.apis.io/microsoft-excel/scopes/microsoft-excel-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-excel-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/security/microsoft-excel-trust-center.yml
+  href: https://artifacts.apis.io/microsoft-excel/security/microsoft-excel-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/microsoft-excel-trust-center.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/packages/microsoft-excel-packages.yml
+  href: https://artifacts.apis.io/microsoft-excel/packages/microsoft-excel-packages.yml
   title: ''
   type: Packages
   url: packages/microsoft-excel-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/well-known/microsoft-excel-well-known.yml
+  href: https://artifacts.apis.io/microsoft-excel/well-known/microsoft-excel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/microsoft-excel-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/well-known/microsoft-excel-security.txt
+  href: https://artifacts.apis.io/microsoft-excel/well-known/microsoft-excel-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/microsoft-excel-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/mcp/microsoft-excel-mcp.yml
+  href: https://artifacts.apis.io/microsoft-excel/mcp/microsoft-excel-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/microsoft-excel-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/llms/microsoft-excel-llms.txt
+  href: https://artifacts.apis.io/microsoft-excel/llms/microsoft-excel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/microsoft-excel-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/overlays/microsoft-excel-graph-api-overlay.yaml
+  href: https://artifacts.apis.io/microsoft-excel/overlays/microsoft-excel-graph-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-excel-graph-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/conformance/microsoft-excel-conformance.yml
+  href: https://artifacts.apis.io/microsoft-excel/conformance/microsoft-excel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/microsoft-excel-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/errors/microsoft-excel-problem-types.yml
+  href: https://artifacts.apis.io/microsoft-excel/errors/microsoft-excel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/microsoft-excel-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/lifecycle/microsoft-excel-lifecycle.yml
+  href: https://artifacts.apis.io/microsoft-excel/lifecycle/microsoft-excel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/microsoft-excel-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/conventions/microsoft-excel-conventions.yml
+  href: https://artifacts.apis.io/microsoft-excel/conventions/microsoft-excel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/microsoft-excel-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/changelog/microsoft-excel-changelog.yml
+  href: https://artifacts.apis.io/microsoft-excel/changelog/microsoft-excel-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/microsoft-excel-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/cli/microsoft-excel-cli.yml
+  href: https://artifacts.apis.io/microsoft-excel/cli/microsoft-excel-cli.yml
   title: ''
   type: CLI
   url: cli/microsoft-excel-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/sandbox/microsoft-excel-sandbox.yml
+  href: https://artifacts.apis.io/microsoft-excel/sandbox/microsoft-excel-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/microsoft-excel-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/data-model/microsoft-excel-data-model.yml
+  href: https://artifacts.apis.io/microsoft-excel/data-model/microsoft-excel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/microsoft-excel-data-model.yml
@@ -348,72 +347,72 @@ common:
   type: GitHubOrganization
   url: https://github.com/OfficeDev
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/arazzo/microsoft-excel-append-table-row-workflow.yml
+  href: https://artifacts.apis.io/microsoft-excel/arazzo/microsoft-excel-append-table-row-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-excel-append-table-row-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/arazzo/microsoft-excel-build-chart-from-range-workflow.yml
+  href: https://artifacts.apis.io/microsoft-excel/arazzo/microsoft-excel-build-chart-from-range-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-excel-build-chart-from-range-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/arazzo/microsoft-excel-convert-table-to-range-workflow.yml
+  href: https://artifacts.apis.io/microsoft-excel/arazzo/microsoft-excel-convert-table-to-range-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-excel-convert-table-to-range-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/arazzo/microsoft-excel-create-worksheet-seed-data-workflow.yml
+  href: https://artifacts.apis.io/microsoft-excel/arazzo/microsoft-excel-create-worksheet-seed-data-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-excel-create-worksheet-seed-data-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/arazzo/microsoft-excel-discover-workbook-structure-workflow.yml
+  href: https://artifacts.apis.io/microsoft-excel/arazzo/microsoft-excel-discover-workbook-structure-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-excel-discover-workbook-structure-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/arazzo/microsoft-excel-named-range-write-workflow.yml
+  href: https://artifacts.apis.io/microsoft-excel/arazzo/microsoft-excel-named-range-write-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-excel-named-range-write-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/arazzo/microsoft-excel-prepare-table-report-workflow.yml
+  href: https://artifacts.apis.io/microsoft-excel/arazzo/microsoft-excel-prepare-table-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-excel-prepare-table-report-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/arazzo/microsoft-excel-prune-table-row-workflow.yml
+  href: https://artifacts.apis.io/microsoft-excel/arazzo/microsoft-excel-prune-table-row-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-excel-prune-table-row-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/arazzo/microsoft-excel-session-range-update-workflow.yml
+  href: https://artifacts.apis.io/microsoft-excel/arazzo/microsoft-excel-session-range-update-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-excel-session-range-update-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/arazzo/microsoft-excel-table-column-lifecycle-workflow.yml
+  href: https://artifacts.apis.io/microsoft-excel/arazzo/microsoft-excel-table-column-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-excel-table-column-lifecycle-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/arazzo/microsoft-excel-workbook-function-calc-workflow.yml
+  href: https://artifacts.apis.io/microsoft-excel/arazzo/microsoft-excel-workbook-function-calc-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-excel-workbook-function-calc-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/arazzo/microsoft-excel-worksheet-lifecycle-workflow.yml
+  href: https://artifacts.apis.io/microsoft-excel/arazzo/microsoft-excel-worksheet-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-excel-worksheet-lifecycle-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/rules/microsoft-excel-spectral-rules.yml
+  href: https://artifacts.apis.io/microsoft-excel/rules/microsoft-excel-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/microsoft-excel-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/vocabulary/microsoft-excel-vocabulary.yaml
+  href: https://artifacts.apis.io/microsoft-excel/vocabulary/microsoft-excel-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/microsoft-excel-vocabulary.yaml
@@ -528,7 +527,7 @@ plans:
 - name: Microsoft Excel Plans Pricing
   plan_count: 5
   slug: microsoft-excel-plans-pricing
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Microsoft Excel Rate Limits
@@ -563,8 +562,8 @@ scopes:
   slug: microsoft-excel-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: developing
-  composite: 50.5
+  band: strong
+  composite: 55.0
   coverage:
     artifact_dirs: 34
     catalog_earned: 70.0
@@ -572,15 +571,15 @@ score:
     catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 47.4
     contract_governance: 31.8
     contract_quality: 31.2
     developer_ergonomics: 79.8
     discoverability: 62.5
-    operational_transparency: 34.2
-  previous_composite: 52.0
+    operational_transparency: 55.3
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -596,13 +595,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/screenshots/microsoft-excel-2026-06-20T185500.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-excel/microsoft-excel-2026-06-20T185500.png
 security:
 - kind: authentication
   name: Microsoft Excel Authentication

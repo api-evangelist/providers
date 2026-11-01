@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.4
-  scored_at: '2026-10-17'
+  score: 37.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -70,11 +71,8 @@ apis:
   description: Pull tracking events for parcels.
   name: Ninja Van Tracking API
   slug: ninjavan-tracking-api-api
-artifact_total: 19
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ninja Van API (ninjaAPI) OAuth API API
   slug: open-ninjavan-oauth-api-api
@@ -103,22 +101,22 @@ common:
   type: BlogRSS
   url: https://blog.ninjavan.co/en-my/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/capabilities/ninjavan-capability-edges.yml
+  href: https://artifacts.apis.io/ninjavan/capabilities/ninjavan-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/ninjavan-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/agentic-access/ninjavan-agentic-access.yml
+  href: https://artifacts.apis.io/ninjavan/agentic-access/ninjavan-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ninjavan-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/security/ninjavan-domain-security.yml
+  href: https://artifacts.apis.io/ninjavan/security/ninjavan-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ninjavan-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/authentication/ninjavan-authentication.yml
+  href: https://artifacts.apis.io/ninjavan/authentication/ninjavan-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ninjavan-authentication.yml
@@ -135,17 +133,17 @@ common:
   type: Documentation
   url: https://api-docs.ninjavan.co/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/plans/ninjavan-plans-pricing.yml
+  href: https://artifacts.apis.io/ninjavan/plans/ninjavan-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ninjavan-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/rate-limits/ninjavan-rate-limits.yml
+  href: https://artifacts.apis.io/ninjavan/rate-limits/ninjavan-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ninjavan-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/finops/ninjavan-finops.yml
+  href: https://artifacts.apis.io/ninjavan/finops/ninjavan-finops.yml
   title: ''
   type: FinOps
   url: finops/ninjavan-finops.yml
@@ -181,14 +179,14 @@ plans:
 - name: Ninjavan Plans Pricing
   plan_count: 3
   slug: ninjavan-plans-pricing
-random_paper: 17
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Ninjavan Rate Limits
   slug: ninjavan-rate-limits
 score:
-  band: thin
-  composite: 27.3
+  band: emerging
+  composite: 15.1
   coverage:
     artifact_dirs: 15
     catalog_earned: 43.0
@@ -196,20 +194,20 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 50.6
+    contract_quality: 0.0
     developer_ergonomics: 32.1
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 35.6
+  previous_composite: 15.1
   provenance:
     agentic_access: derived
     contracts:
@@ -224,13 +222,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/screenshots/ninjavan-2026-08-07T185328.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/ninjavan/ninjavan-2026-08-07T185328.png
 security:
 - kind: authentication
   name: Ninjavan Authentication

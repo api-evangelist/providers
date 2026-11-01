@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,32 +25,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/advancetechlending/refs/heads/main/rate-limits/advancetechlending-rate-limits.yml
+  href: https://artifacts.apis.io/advancetechlending/rate-limits/advancetechlending-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/advancetechlending-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/advancetechlending/refs/heads/main/plans/advancetechlending-plans-pricing.yml
+  href: https://artifacts.apis.io/advancetechlending/plans/advancetechlending-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/advancetechlending-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/advancetechlending/refs/heads/main/llms/advancetechlending-llms.txt
+  href: https://artifacts.apis.io/advancetechlending/llms/advancetechlending-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/advancetechlending-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/advancetechlending/refs/heads/main/conformance/advancetechlending-conformance.yml
+  href: https://artifacts.apis.io/advancetechlending/conformance/advancetechlending-conformance.yml
   title: ''
   type: Conformance
   url: conformance/advancetechlending-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/advancetechlending/refs/heads/main/security/advancetechlending-domain-security.yml
+  href: https://artifacts.apis.io/advancetechlending/security/advancetechlending-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/advancetechlending-domain-security.yml
@@ -135,7 +137,7 @@ plans:
 - name: Advancetechlending Plans Pricing
   plan_count: 0
   slug: advancetechlending-plans-pricing
-random_paper: 9
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Advancetechlending Rate Limits
@@ -174,14 +176,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/advancetechlending/refs/heads/main/screenshots/advancetechlending-2026-10-11T092854.png
+screenshot: https://apis.io/screenshots/advancetechlending/advancetechlending-2026-10-11T092854.png
 security:
 - kind: domain-security
   name: Advancetechlending Domain Security

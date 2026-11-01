@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Homebase REST API provides programmatic access to employee scheduling, time tracking, payroll synchronization, and team management features. Authenticated via API key, it enables third-party devel
@@ -42,17 +44,17 @@ apis:
 artifact_total: 8
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/security/homebase-trust-center.yml
+  href: https://artifacts.apis.io/homebase/security/homebase-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/homebase-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/security/homebase-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/homebase/security/homebase-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/homebase-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/security/homebase-domain-security.yml
+  href: https://artifacts.apis.io/homebase/security/homebase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/homebase-domain-security.yml
@@ -89,27 +91,27 @@ common:
   type: Support
   url: https://support.joinhomebase.com/s/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/plans/homebase-plans-pricing.yml
+  href: https://artifacts.apis.io/homebase/plans/homebase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/homebase-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/rate-limits/homebase-rate-limits.yml
+  href: https://artifacts.apis.io/homebase/rate-limits/homebase-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/homebase-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/finops/homebase-finops.yml
+  href: https://artifacts.apis.io/homebase/finops/homebase-finops.yml
   title: ''
   type: FinOps
   url: finops/homebase-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/json-ld/homebase-context.jsonld
+  href: https://artifacts.apis.io/homebase/json-ld/homebase-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/homebase-context.jsonld
 - group: company
-  href: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/homebase/blogs/blogs.json
   title: ''
   type: BlogPosts
   url: blogs/blogs.json
@@ -145,14 +147,14 @@ plans:
 - name: Homebase Plans Pricing
   plan_count: 4
   slug: homebase-plans-pricing
-random_paper: 0
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Homebase Rate Limits
   slug: homebase-rate-limits
 score:
   band: emerging
-  composite: 24.3
+  composite: 25.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 50.0
@@ -160,14 +162,14 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 21.1
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -175,21 +177,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 31.8
+  previous_composite: 25.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/homebase/refs/heads/main/screenshots/homebase-2026-06-20T182820.png
+screenshot: https://apis.io/screenshots/homebase/homebase-2026-06-20T182820.png
 security:
 - kind: domain-security
   name: Homebase Domain Security

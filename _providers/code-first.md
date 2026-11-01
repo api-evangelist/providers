@@ -4,6 +4,6 @@ layout: provider
 name: code-first
 nav: Providers
 network: true
-random_paper: 18
+random_paper: 0
 slug: code-first
 ---

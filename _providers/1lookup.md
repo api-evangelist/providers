@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.4
-  scored_at: '2026-10-17'
+  score: 50.2
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: 'RESTful API over HTTPS covering all 1Lookup products (phone/email/IP validation, fraud, enrichment, B2B data, SEO intelligence). API-key Bearer auth (sk_live_ keys, organization-scoped), JSON bodies, '
@@ -50,7 +52,7 @@ apis:
 - description: Machine-readable content indexes (llms.txt and llms-full.txt) for AI and answer engines, indexing the free tools, every product page, the comparison pages and the key site sections.
   name: 1Lookup LLMs Index
   slug: 1lookup-llms-index
-artifact_total: 12
+artifact_total: 18
 asyncapis:
 - description: ''
   name: 1Lookup Webhooks
@@ -125,42 +127,42 @@ common:
   type: YouTube
   url: https://www.youtube.com/@1LookupApp
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/authentication/1lookup-authentication.yml
+  href: https://artifacts.apis.io/1lookup/authentication/1lookup-authentication.yml
   title: ''
   type: Authentication
   url: authentication/1lookup-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/scopes/1lookup-scopes.yml
+  href: https://artifacts.apis.io/1lookup/scopes/1lookup-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/1lookup-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/conventions/1lookup-conventions.yml
+  href: https://artifacts.apis.io/1lookup/conventions/1lookup-conventions.yml
   title: ''
   type: Conventions
   url: conventions/1lookup-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/errors/1lookup-problem-types.yml
+  href: https://artifacts.apis.io/1lookup/errors/1lookup-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/1lookup-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/rate-limits/1lookup-rate-limits.yml
+  href: https://artifacts.apis.io/1lookup/rate-limits/1lookup-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/1lookup-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/plans/1lookup-plans-pricing.yml
+  href: https://artifacts.apis.io/1lookup/plans/1lookup-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/1lookup-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/lifecycle/1lookup-lifecycle.yml
+  href: https://artifacts.apis.io/1lookup/lifecycle/1lookup-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/1lookup-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/conformance/1lookup-conformance.yml
+  href: https://artifacts.apis.io/1lookup/conformance/1lookup-conformance.yml
   title: ''
   type: Conformance
   url: conformance/1lookup-conformance.yml
@@ -169,7 +171,7 @@ common:
   type: Compliance
   url: https://www.1lookup.io/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/security/1lookup-trust-center.yml
+  href: https://artifacts.apis.io/1lookup/security/1lookup-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/1lookup-trust-center.yml
@@ -178,73 +180,81 @@ common:
   type: Security
   url: https://www.1lookup.io/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/security/1lookup-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/1lookup/security/1lookup-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/1lookup-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/security/1lookup-domain-security.yml
+  href: https://artifacts.apis.io/1lookup/security/1lookup-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/1lookup-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/well-known/1lookup-well-known.yml
+  href: https://artifacts.apis.io/1lookup/well-known/1lookup-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/1lookup-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/packages/1lookup-packages.yml
+  href: https://artifacts.apis.io/1lookup/packages/1lookup-packages.yml
   title: ''
   type: Packages
   url: packages/1lookup-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/sandbox/1lookup-sandbox.yml
+  href: https://artifacts.apis.io/1lookup/sandbox/1lookup-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/1lookup-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/mcp/1lookup-mcp.yml
+  href: https://artifacts.apis.io/1lookup/mcp/1lookup-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/1lookup-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/mcp/1lookup-tool-crosswalk.yml
+  href: https://artifacts.apis.io/1lookup/mcp/1lookup-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/1lookup-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/llms/1lookup-llms.txt
+  href: https://artifacts.apis.io/1lookup/llms/1lookup-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/1lookup-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/1lookup/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/conventions/1lookup-conventions.yml
+  href: https://artifacts.apis.io/1lookup/conventions/1lookup-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/1lookup-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/asyncapi/1lookup-webhooks.yml
+  href: https://artifacts.apis.io/1lookup/asyncapi/1lookup-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/1lookup-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/data-model/1lookup-data-model.yml
+  href: https://artifacts.apis.io/1lookup/data-model/1lookup-data-model.yml
   title: ''
   type: DataModel
   url: data-model/1lookup-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/examples/1lookup-examples.yml
+  href: https://artifacts.apis.io/1lookup/examples/1lookup-examples.yml
   title: ''
   type: Examples
   url: examples/1lookup-examples.yml
 created: '2026-08-08'
 description: 1Lookup is a self-serve data verification and enrichment platform for SMBs, exposing more than forty products through a single REST API and one universal credit balance. It validates phone numbers (line type, carrier, HLR reachability, number portability, DNC status, spam/scam reputation, fraud score), email addresses (syntax, MX, deliverability, disposable and role-based detection) and IP addresses (geolocation, VPN/proxy/Tor and datacenter detection), then extends into B2B company and contact data (firmographics, prospect and account search, contact append, skip trace), SEO and web intelligence (domain authority, backlinks, keyword metrics, audience reports, SERP and website scraping), social and media lookups, property data and audio transcription. The same engine powers a web dashboard with batch CSV validation, roughly twenty-five free rate-limited browser tools, and a first-party hosted MCP connector authorized with OAuth 2.1 that gives AI agents five of the core tools
   without an API key.
+finops:
+- has_sources: true
+  method: derived
+  name: 1Lookup Finops
+  primary_unit: lookup credits
+  service_category: ''
+  slug: 1lookup-finops
+  template: false
 image: https://www.1lookup.io/images/featured/pages/homepage.png
 layout: provider
 mcp_servers:
@@ -266,7 +276,10 @@ plans:
 - name: 1Lookup Plans Pricing
   plan_count: 5
   slug: 1lookup-plans-pricing
-random_paper: 11
+- name: 1Lookup Price Estimates
+  plan_count: 0
+  slug: 1lookup-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 6
   name: 1Lookup Rate Limits
@@ -278,23 +291,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 64.3
+  composite: 65.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 59.0
+    artifact_dirs: 23
+    catalog_earned: 62.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 56.0
+    catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 45.3
     developer_ergonomics: 66.1
-    discoverability: 81.7
+    discoverability: 78.3
     operational_transparency: 50.0
-  previous_composite: 64.2
+  previous_composite: 64.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -305,14 +318,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/screenshots/1lookup-2026-08-17T080542.png
+screenshot: https://apis.io/screenshots/1lookup/1lookup-2026-08-17T080542.png
 security:
 - kind: authentication
   name: 1Lookup Authentication
@@ -330,6 +343,16 @@ security:
   name: 1Lookup Trust Center
   slug: 1lookup-trust-center
   summary_line: trust center published
+skill_count: 4
+skills:
+- name: Clean a whole contact list with a bulk job
+  slug: 1lookup-bulk-list-hygiene
+- name: Enrich a company domain into firmographics and reachable contacts
+  slug: 1lookup-enrich-company-and-contact
+- name: Run a bulk validation job safely, with idempotent retries and a signed callback
+  slug: 1lookup-run-a-safe-bulk-job
+- name: Validate a contact before you dial, text or email it
+  slug: 1lookup-validate-contact-before-outreach
 slug: 1lookup
 tags:
 - Phone Validation

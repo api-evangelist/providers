@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API reference for Cyber Resilience services as described on the company website.
@@ -40,12 +42,12 @@ common:
   type: BlogRSS
   url: https://cyberresilience.com/?feed=rss2
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arceo-labs/refs/heads/main/hosts/arceo-labs-hosts.yml
+  href: https://artifacts.apis.io/arceo-labs/hosts/arceo-labs-hosts.yml
   title: ''
   type: Hosts
   url: hosts/arceo-labs-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arceo-labs/refs/heads/main/vendors/arceo-labs-vendors.yml
+  href: https://artifacts.apis.io/arceo-labs/vendors/arceo-labs-vendors.yml
   title: ''
   type: Vendors
   url: vendors/arceo-labs-vendors.yml
@@ -54,7 +56,7 @@ common:
   type: TrustCenter
   url: https://trust.cyberresilience.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arceo-labs/refs/heads/main/security/arceo-labs-domain-security.yml
+  href: https://artifacts.apis.io/arceo-labs/security/arceo-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arceo-labs-domain-security.yml
@@ -82,7 +84,7 @@ overview: 'Cyber Resilience is listed with 1 API on the [APIs.io](https://apis.i
 
 
   Cyber Resilience''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 17
+random_paper: 1
 score:
   band: minimal
   composite: 6.7
@@ -93,7 +95,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
@@ -101,21 +103,21 @@ score:
     developer_ergonomics: 2.4
     discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 6.2
+  previous_composite: 6.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/arceo-labs/refs/heads/main/screenshots/arceo-labs-2026-10-11T100149.png
+screenshot: https://apis.io/screenshots/arceo-labs/arceo-labs-2026-10-11T100149.png
 security:
 - kind: domain-security
   name: Arceo Labs Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 11
 apis:
 - description: The EcoStruxure IT Expert API provides programmatic access to data center infrastructure management data. It enables integrations to query locations, devices, alarms, sensors, and measurements from th
@@ -72,22 +74,22 @@ apis:
 artifact_total: 22
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/schneider-electric-exchange/refs/heads/main/plans/schneider-electric-exchange-plans-pricing.yml
+  href: https://artifacts.apis.io/schneider-electric-exchange/plans/schneider-electric-exchange-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/schneider-electric-exchange-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/schneider-electric-exchange/refs/heads/main/rate-limits/schneider-electric-exchange-rate-limits.yml
+  href: https://artifacts.apis.io/schneider-electric-exchange/rate-limits/schneider-electric-exchange-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/schneider-electric-exchange-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/schneider-electric-exchange/refs/heads/main/finops/schneider-electric-exchange-finops.yml
+  href: https://artifacts.apis.io/schneider-electric-exchange/finops/schneider-electric-exchange-finops.yml
   title: ''
   type: FinOps
   url: finops/schneider-electric-exchange-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/schneider-electric-exchange/refs/heads/main/security/schneider-electric-exchange-domain-security.yml
+  href: https://artifacts.apis.io/schneider-electric-exchange/security/schneider-electric-exchange-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/schneider-electric-exchange-domain-security.yml
@@ -144,7 +146,7 @@ finops:
 - has_sources: false
   method: generated
   name: Schneider Electric Exchange Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: schneider-electric-exchange-finops
   template: true
@@ -181,7 +183,7 @@ plans:
 - name: Schneider Electric Exchange Plans Pricing
   plan_count: 3
   slug: schneider-electric-exchange-plans-pricing
-random_paper: 11
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Schneider Electric Exchange Rate Limits
@@ -208,7 +210,7 @@ score:
     catalog_gap: 52.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
@@ -216,21 +218,21 @@ score:
     developer_ergonomics: 31.0
     discoverability: 62.5
     operational_transparency: 7.9
-  previous_composite: 24.9
+  previous_composite: 23.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/schneider-electric-exchange/refs/heads/main/screenshots/schneider-electric-exchange-2026-06-20T193528.png
+screenshot: https://apis.io/screenshots/schneider-electric-exchange/schneider-electric-exchange-2026-06-20T193528.png
 security:
 - kind: domain-security
   name: Schneider Electric Exchange Domain Security

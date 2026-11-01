@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,25 +35,25 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Action-based RPC API covering every UCloud product (compute, networking, storage, databases, Kubernetes, monitoring, AI) through a single signed gateway. Requests carry an Action name plus PublicKey/S
   name: UCloud Open API
   slug: ucloud-open-api
-artifact_total: 5
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Ucloud Webhooks
   slug: ucloud-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/security/ucloud-domain-security.yml
+  href: https://artifacts.apis.io/ucloud/security/ucloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ucloud-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/security/ucloud-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ucloud/security/ucloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ucloud-vulnerability-disclosure.yml
@@ -108,67 +110,67 @@ common:
   type: PrivacyPolicy
   url: https://www.ucloud-global.com/en/docs/agreement/PrivacyPolicy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/cli/ucloud-cli.yml
+  href: https://artifacts.apis.io/ucloud/cli/ucloud-cli.yml
   title: ''
   type: CLI
   url: cli/ucloud-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/packages/ucloud-packages.yml
+  href: https://artifacts.apis.io/ucloud/packages/ucloud-packages.yml
   title: ''
   type: Packages
   url: packages/ucloud-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/packages/ucloud-packages.yml
+  href: https://artifacts.apis.io/ucloud/packages/ucloud-packages.yml
   title: ''
   type: SDKs
   url: packages/ucloud-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/llms/ucloud-llms.txt
+  href: https://artifacts.apis.io/ucloud/llms/ucloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ucloud-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/conformance/ucloud-conformance.yml
+  href: https://artifacts.apis.io/ucloud/conformance/ucloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ucloud-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/errors/ucloud-error-codes.yml
+  href: https://artifacts.apis.io/ucloud/errors/ucloud-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ucloud-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/lifecycle/ucloud-lifecycle.yml
+  href: https://artifacts.apis.io/ucloud/lifecycle/ucloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ucloud-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/authentication/ucloud-authentication.yml
+  href: https://artifacts.apis.io/ucloud/authentication/ucloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ucloud-authentication.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/sandbox/ucloud-sandbox.yml
+  href: https://artifacts.apis.io/ucloud/sandbox/ucloud-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ucloud-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/conventions/ucloud-conventions.yml
+  href: https://artifacts.apis.io/ucloud/conventions/ucloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ucloud-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/changelog/ucloud-changelog.yml
+  href: https://artifacts.apis.io/ucloud/changelog/ucloud-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ucloud-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/asyncapi/ucloud-webhooks.yml
+  href: https://artifacts.apis.io/ucloud/asyncapi/ucloud-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ucloud-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/skills/ucloud-cli-SKILL.md
+  href: https://artifacts.apis.io/ucloud/skills/ucloud-cli-SKILL.md
   title: ''
   type: AgentSkill
   url: skills/ucloud-cli-SKILL.md
@@ -187,25 +189,25 @@ overview: 'UCloud is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   UCloud''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 14
+random_paper: 4
 score:
-  band: thin
-  composite: 36.5
+  band: developing
+  composite: 50.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 31.0
+    developer_ergonomics: 85.7
     discoverability: 66.1
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -213,7 +215,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 36.4
+  previous_composite: 50.4
   provenance:
     conformance: derived
     skills: first-party
@@ -223,14 +225,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ucloud/refs/heads/main/screenshots/ucloud-2026-08-17T082534.png
+screenshot: https://apis.io/screenshots/ucloud/ucloud-2026-08-17T082534.png
 security:
 - kind: authentication
   name: Ucloud Authentication
@@ -244,6 +246,10 @@ security:
   name: Ucloud Vulnerability Disclosure
   slug: ucloud-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 1
+skills:
+- name: ucloud-cli
+  slug: ucloud-cli-SKILL
 slug: ucloud
 tags:
 - Company

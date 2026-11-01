@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Queen's runs its own Shibboleth Identity Provider and publishes SAML 2.0 IdP metadata as application/xml at a stable, unauthenticated URL on its own registrable domain. The EntityDescriptor carries en
@@ -108,37 +110,37 @@ common:
   type: Blog
   url: https://www.queensu.ca/gazette/rss.xml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/conformance/queens-university-at-kingston-conformance.yml
+  href: https://artifacts.apis.io/queens-university-at-kingston/conformance/queens-university-at-kingston-conformance.yml
   title: ''
   type: Conformance
   url: conformance/queens-university-at-kingston-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/authentication/queens-university-at-kingston-authentication.yml
+  href: https://artifacts.apis.io/queens-university-at-kingston/authentication/queens-university-at-kingston-authentication.yml
   title: ''
   type: Authentication
   url: authentication/queens-university-at-kingston-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/security/queens-university-at-kingston-domain-security.yml
+  href: https://artifacts.apis.io/queens-university-at-kingston/security/queens-university-at-kingston-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/queens-university-at-kingston-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/plans/queens-university-at-kingston-plans-pricing.yml
+  href: https://artifacts.apis.io/queens-university-at-kingston/plans/queens-university-at-kingston-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/queens-university-at-kingston-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/rate-limits/queens-university-at-kingston-rate-limits.yml
+  href: https://artifacts.apis.io/queens-university-at-kingston/rate-limits/queens-university-at-kingston-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/queens-university-at-kingston-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/finops/queens-university-at-kingston-finops.yml
+  href: https://artifacts.apis.io/queens-university-at-kingston/finops/queens-university-at-kingston-finops.yml
   title: ''
   type: FinOps
   url: finops/queens-university-at-kingston-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/queens-university-at-kingston/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -168,7 +170,7 @@ coverage:
     url: https://developer.queensu.ca/
   - status: 0
     url: https://data.queensu.ca/
-  reason: tenant_only
+  reason: tenant-only
   state: none
 created: '2026-06-03'
 description: 'Queen''s University at Kingston is a public research university in Kingston, Ontario, Canada — a member of the U15 group of Canadian research universities, serving more than 25,000 students. Its machine-readable footprint is small, and stating it honestly matters more than inflating it: Queen''s operates no public developer portal, no institution-run open-data API, and no published course, timetable, or registrar contract. api.queensu.ca, developer.queensu.ca and data.queensu.ca do not resolve. What Queen''s genuinely operates and publishes on its own domain is federated identity — a Shibboleth Identity Provider serving SAML 2.0 metadata at login.queensu.ca — and an authored llms.txt directing AI agents to official sources. Its two research-data surfaces are real institutional facts but are tenant deployments, not Queen''s engineering: QSpace, the institutional repository, now runs as DSpace 8.4 on Scholaris, the shared service of the Ontario Council of University Libraries,
@@ -195,7 +197,7 @@ plans:
 - name: Queens University At Kingston Plans Pricing
   plan_count: 2
   slug: queens-university-at-kingston-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Queens University At Kingston Rate Limits
@@ -210,7 +212,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
@@ -225,7 +227,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 25.6
+  previous_composite: 19.5
   provenance:
     conformance: first-party
   regulatory:
@@ -234,14 +236,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/screenshots/queens-university-at-kingston-2026-06-20T192420.png
+screenshot: https://apis.io/screenshots/queens-university-at-kingston/queens-university-at-kingston-2026-06-20T192420.png
 security:
 - kind: authentication
   name: Queens University At Kingston Authentication

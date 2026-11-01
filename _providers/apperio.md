@@ -14,7 +14,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -72,11 +74,8 @@ apis:
   description: The users endpoints allow you to manage your API tokens. Tokens are used to authenticate requests to the Apperio API. You can list your existing tokens, delete tokens that are no longer needed, and ac
   name: Apperio Users API
   slug: apperio-users-api
-artifact_total: 16
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apperio API Documentation Analytics API
   slug: open-apperio-analytics-api
@@ -94,12 +93,12 @@ collections:
   slug: open-apperio-users-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/capabilities/apperio-capability-edges.yml
+  href: https://artifacts.apis.io/apperio/capabilities/apperio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/apperio-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/overlays/apperio-openapi-overlay.yaml
+  href: https://artifacts.apis.io/apperio/overlays/apperio-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/apperio-openapi-overlay.yaml
@@ -120,27 +119,27 @@ common:
   type: GettingStarted
   url: https://developer.apperio.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/authentication/apperio-authentication.yml
+  href: https://artifacts.apis.io/apperio/authentication/apperio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apperio-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/conventions/apperio-conventions.yml
+  href: https://artifacts.apis.io/apperio/conventions/apperio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/apperio-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/rate-limits/apperio-rate-limits.yml
+  href: https://artifacts.apis.io/apperio/rate-limits/apperio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apperio-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/errors/apperio-problem-types.yml
+  href: https://artifacts.apis.io/apperio/errors/apperio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/apperio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/lifecycle/apperio-lifecycle.yml
+  href: https://artifacts.apis.io/apperio/lifecycle/apperio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/apperio-lifecycle.yml
@@ -149,22 +148,22 @@ common:
   type: Deprecation
   url: https://developer.apperio.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/changelog/apperio-changelog.yml
+  href: https://artifacts.apis.io/apperio/changelog/apperio-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/apperio-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/sandbox/apperio-sandbox.yml
+  href: https://artifacts.apis.io/apperio/sandbox/apperio-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/apperio-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/data-model/apperio-data-model.yml
+  href: https://artifacts.apis.io/apperio/data-model/apperio-data-model.yml
   title: ''
   type: DataModel
   url: data-model/apperio-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/conformance/apperio-conformance.yml
+  href: https://artifacts.apis.io/apperio/conformance/apperio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/apperio-conformance.yml
@@ -173,32 +172,32 @@ common:
   type: Compliance
   url: https://www.apperio.com/information-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/security/apperio-trust-center.yml
+  href: https://artifacts.apis.io/apperio/security/apperio-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/apperio-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/security/apperio-domain-security.yml
+  href: https://artifacts.apis.io/apperio/security/apperio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apperio-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/mcp/apperio-mcp.yml
+  href: https://artifacts.apis.io/apperio/mcp/apperio-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/apperio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/apperio/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/agentic-access/apperio-agentic-access.yml
+  href: https://artifacts.apis.io/apperio/agentic-access/apperio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apperio-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/llms/apperio-llms.txt
+  href: https://artifacts.apis.io/apperio/llms/apperio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apperio-llms.txt
@@ -234,18 +233,18 @@ modified: '2026-07-17'
 name: Apperio
 nav: Providers
 network: true
-overview: 'Apperio publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, E-billing API, Filter API, and 2 more. Tagged areas include Legal, Legal Spend Management, Legal Tech, E-Billing, and Matter Management.
+overview: 'Apperio publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Analytics API, E-billing API, Filter API, and 2 more. Tagged areas include Legal, E-Billing, Legal Tech, Matter Management, and Legal Operations.
 
 
   Apperio''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 22 more developer resources.'
-random_paper: 4
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Apperio Rate Limits
   slug: apperio-rate-limits
 score:
   band: developing
-  composite: 45.5
+  composite: 49.6
   coverage:
     artifact_dirs: 23
     catalog_earned: 45.0
@@ -253,15 +252,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 48.6
-    developer_ergonomics: 61.3
-    discoverability: 73.2
+    contract_quality: 45.2
+    developer_ergonomics: 66.1
+    discoverability: 66.1
     operational_transparency: 44.7
-  previous_composite: 45.4
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -277,14 +276,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/screenshots/apperio-2026-07-25T200728.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apperio/apperio-2026-07-25T200728.png
 security:
 - kind: authentication
   name: Apperio Authentication
@@ -298,12 +298,19 @@ security:
   name: Apperio Trust Center
   slug: apperio-trust-center
   summary_line: ISO/IEC 27001, SOC 2 Type 2, Cyber Essentials
+skill_count: 3
+skills:
+- name: Discover and analyze legal spend
+  slug: apperio-discover-legal-spend
+- name: Review and approve an e-billing invoice
+  slug: apperio-ebilling-approval
+- name: Organize matters with tags
+  slug: apperio-matter-tagging
 slug: apperio
 tags:
 - Legal
-- Legal Spend Management
-- Legal Tech
 - E-Billing
+- Legal Tech
 - Matter Management
 - Legal Operations
 - Analytics

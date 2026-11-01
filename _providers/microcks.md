@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 27.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -74,11 +76,8 @@ apis:
   description: Operations related to API and Services tests
   name: Microcks Test API
   slug: microcks-test-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Microcks API v1.14 config API
   slug: open-microcks-config-api
@@ -102,22 +101,22 @@ collections:
   slug: open-microcks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/plans/microcks-plans-pricing.yml
+  href: https://artifacts.apis.io/microcks/plans/microcks-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microcks-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/rate-limits/microcks-rate-limits.yml
+  href: https://artifacts.apis.io/microcks/rate-limits/microcks-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microcks-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/finops/microcks-finops.yml
+  href: https://artifacts.apis.io/microcks/finops/microcks-finops.yml
   title: ''
   type: FinOps
   url: finops/microcks-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/capabilities/microcks-capability-edges.yml
+  href: https://artifacts.apis.io/microcks/capabilities/microcks-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/microcks-capability-edges.yml
@@ -126,22 +125,22 @@ common:
   type: Website
   url: https://www.microcks.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/agentic-access/microcks-agentic-access.yml
+  href: https://artifacts.apis.io/microcks/agentic-access/microcks-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microcks-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/security/microcks-domain-security.yml
+  href: https://artifacts.apis.io/microcks/security/microcks-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microcks-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/authentication/microcks-authentication.yml
+  href: https://artifacts.apis.io/microcks/authentication/microcks-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microcks-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/scopes/microcks-scopes.yml
+  href: https://artifacts.apis.io/microcks/scopes/microcks-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microcks-scopes.yml
@@ -183,7 +182,7 @@ finops:
 - has_sources: false
   method: generated
   name: Microcks Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: microcks-finops
   template: true
@@ -208,7 +207,7 @@ plans:
 - name: Microcks Plans Pricing
   plan_count: 3
   slug: microcks-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Microcks Rate Limits
@@ -234,7 +233,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 34.1
+  composite: 37.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 56.0
@@ -242,15 +241,15 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 5.0
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 54.5
-    contract_quality: 46.3
-    developer_ergonomics: 35.7
+    contract_quality: 42.9
+    developer_ergonomics: 50.0
     discoverability: 56.7
-    operational_transparency: 10.5
-  previous_composite: 29.1
+    operational_transparency: 13.2
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -264,13 +263,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/screenshots/microcks-2026-06-20T185332.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microcks/microcks-2026-06-20T185332.png
 security:
 - kind: authentication
   name: Microcks Authentication

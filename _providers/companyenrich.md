@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,26 +25,26 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Real-time B2B data enrichment API providing company and people information.
   name: CompanyEnrich API
   slug: companyenrich-api
-artifact_total: 7
+artifact_total: 9
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/companyenrich/refs/heads/main/well-known/companyenrich-companyenrich-security.txt
+  href: https://artifacts.apis.io/companyenrich/well-known/companyenrich-companyenrich-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/companyenrich-companyenrich-security.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/companyenrich/refs/heads/main/rate-limits/companyenrich-rate-limits.yml
+  href: https://artifacts.apis.io/companyenrich/rate-limits/companyenrich-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/companyenrich-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/companyenrich/refs/heads/main/plans/companyenrich-plans-pricing.yml
+  href: https://artifacts.apis.io/companyenrich/plans/companyenrich-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/companyenrich-plans-pricing.yml
@@ -51,37 +53,37 @@ common:
   type: Compliance
   url: https://companyenrich.com/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/companyenrich/refs/heads/main/authentication/companyenrich-authentication.yml
+  href: https://artifacts.apis.io/companyenrich/authentication/companyenrich-authentication.yml
   title: ''
   type: Authentication
   url: authentication/companyenrich-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/companyenrich/refs/heads/main/llms/companyenrich-llms.txt
+  href: https://artifacts.apis.io/companyenrich/llms/companyenrich-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/companyenrich-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/companyenrich/refs/heads/main/a2a/companyenrich-a2a.yml
+  href: https://artifacts.apis.io/companyenrich/a2a/companyenrich-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/companyenrich-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/companyenrich/refs/heads/main/mcp/companyenrich-mcp.yml
+  href: https://artifacts.apis.io/companyenrich/mcp/companyenrich-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/companyenrich-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/companyenrich/refs/heads/main/well-known/companyenrich-well-known.yml
+  href: https://artifacts.apis.io/companyenrich/well-known/companyenrich-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/companyenrich-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/companyenrich/refs/heads/main/hosts/companyenrich-hosts.yml
+  href: https://artifacts.apis.io/companyenrich/hosts/companyenrich-hosts.yml
   title: ''
   type: Hosts
   url: hosts/companyenrich-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/companyenrich/refs/heads/main/vendors/companyenrich-vendors.yml
+  href: https://artifacts.apis.io/companyenrich/vendors/companyenrich-vendors.yml
   title: ''
   type: Vendors
   url: vendors/companyenrich-vendors.yml
@@ -126,12 +128,12 @@ common:
   type: GettingStarted
   url: https://docs.companyenrich.com/docs/getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/companyenrich/refs/heads/main/security/companyenrich-trust-center.yml
+  href: https://artifacts.apis.io/companyenrich/security/companyenrich-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/companyenrich-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/companyenrich/refs/heads/main/security/companyenrich-domain-security.yml
+  href: https://artifacts.apis.io/companyenrich/security/companyenrich-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/companyenrich-domain-security.yml
@@ -157,6 +159,14 @@ coverage:
   state: unreadable
 created: '2026-10-05'
 description: CompanyEnrich provides real-time B2B data APIs that enrich company and people information for AI agents and platforms. Its services include company enrichment, company search, people search, CRM enrichment, similar companies discovery, reverse email lookup, funding data, ad intelligence, job listings, and headcount insights. The APIs return verified firmographics, technology stacks, funding rounds, and contact details, enabling developers to build intelligent business intelligence and automation solutions.
+finops:
+- has_sources: true
+  method: derived
+  name: Companyenrich Finops
+  primary_unit: seat
+  service_category: ''
+  slug: companyenrich-finops
+  template: false
 image: https://companyenrich.com/og/index-og.png
 layout: provider
 mcp_servers:
@@ -175,28 +185,33 @@ plans:
 - name: Companyenrich Plans Pricing
   plan_count: 3
   slug: companyenrich-plans-pricing
-random_paper: 6
+- name: Companyenrich Price Estimates
+  plan_count: 0
+  slug: companyenrich-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Companyenrich Rate Limits
   slug: companyenrich-rate-limits
 score:
   band: developing
-  composite: 40.8
+  composite: 42.7
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 52.0
+    artifact_dirs: 13
+    catalog_earned: 55.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.5
   facets:
-    access_clarity: 78.9
+    access_clarity: 86.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 68.3
-    operational_transparency: 57.9
+    discoverability: 58.3
+    operational_transparency: 68.4
+  previous_composite: 41.2
   provenance:
     mcp: derived
   regulatory:
@@ -205,8 +220,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

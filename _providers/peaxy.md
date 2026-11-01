@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/peaxy/refs/heads/main/security/peaxy-domain-security.yml
+  href: https://artifacts.apis.io/peaxy/security/peaxy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/peaxy-domain-security.yml
@@ -84,32 +86,32 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/peaxy-inc-/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peaxy/refs/heads/main/conformance/peaxy-conformance.yml
+  href: https://artifacts.apis.io/peaxy/conformance/peaxy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/peaxy-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peaxy/refs/heads/main/lifecycle/peaxy-lifecycle.yml
+  href: https://artifacts.apis.io/peaxy/lifecycle/peaxy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/peaxy-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/peaxy/refs/heads/main/packages/peaxy-packages.yml
+  href: https://artifacts.apis.io/peaxy/packages/peaxy-packages.yml
   title: ''
   type: Packages
   url: packages/peaxy-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/peaxy/refs/heads/main/plans/peaxy-plans-pricing.yml
+  href: https://artifacts.apis.io/peaxy/plans/peaxy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/peaxy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/peaxy/refs/heads/main/rate-limits/peaxy-rate-limits.yml
+  href: https://artifacts.apis.io/peaxy/rate-limits/peaxy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/peaxy-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/peaxy/refs/heads/main/llms/peaxy-llms.txt
+  href: https://artifacts.apis.io/peaxy/llms/peaxy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/peaxy-llms.txt
@@ -148,16 +150,16 @@ plans:
 - name: Peaxy Plans Pricing
   plan_count: 0
   slug: peaxy-plans-pricing
-random_paper: 1
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Peaxy Rate Limits
   slug: peaxy-rate-limits
 score:
   band: emerging
-  composite: 18.7
+  composite: 18.3
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -169,9 +171,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 18.7
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 18.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -181,14 +183,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/peaxy/refs/heads/main/screenshots/peaxy-2026-09-02T150928.png
+screenshot: https://apis.io/screenshots/peaxy/peaxy-2026-09-02T150928.png
 security:
 - kind: domain-security
   name: Peaxy Domain Security

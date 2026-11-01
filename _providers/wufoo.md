@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -157,9 +159,6 @@ collections:
   name: Wufoo REST Comments Widgets API
   slug: postman-wufoo-widgets-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Wufoo REST Comments API
   slug: open-wufoo-comments-api
 - collection_type: open
@@ -199,62 +198,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/wufoo/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/agentic-access/wufoo-agentic-access.yml
+  href: https://artifacts.apis.io/wufoo/agentic-access/wufoo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wufoo-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/security/wufoo-domain-security.yml
+  href: https://artifacts.apis.io/wufoo/security/wufoo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wufoo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/authentication/wufoo-authentication.yml
+  href: https://artifacts.apis.io/wufoo/authentication/wufoo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wufoo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/arazzo/wufoo-add-form-webhook-workflow.yml
+  href: https://artifacts.apis.io/wufoo/arazzo/wufoo-add-form-webhook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wufoo-add-form-webhook-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/arazzo/wufoo-browse-form-entries-workflow.yml
+  href: https://artifacts.apis.io/wufoo/arazzo/wufoo-browse-form-entries-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wufoo-browse-form-entries-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/arazzo/wufoo-moderate-form-comments-workflow.yml
+  href: https://artifacts.apis.io/wufoo/arazzo/wufoo-moderate-form-comments-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wufoo-moderate-form-comments-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/arazzo/wufoo-provision-builder-user-forms-workflow.yml
+  href: https://artifacts.apis.io/wufoo/arazzo/wufoo-provision-builder-user-forms-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wufoo-provision-builder-user-forms-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/arazzo/wufoo-report-entries-export-workflow.yml
+  href: https://artifacts.apis.io/wufoo/arazzo/wufoo-report-entries-export-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wufoo-report-entries-export-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/arazzo/wufoo-report-entry-stats-workflow.yml
+  href: https://artifacts.apis.io/wufoo/arazzo/wufoo-report-entry-stats-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wufoo-report-entry-stats-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/arazzo/wufoo-report-widget-overview-workflow.yml
+  href: https://artifacts.apis.io/wufoo/arazzo/wufoo-report-widget-overview-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wufoo-report-widget-overview-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/arazzo/wufoo-rotate-form-webhook-workflow.yml
+  href: https://artifacts.apis.io/wufoo/arazzo/wufoo-rotate-form-webhook-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wufoo-rotate-form-webhook-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/arazzo/wufoo-submit-form-entry-workflow.yml
+  href: https://artifacts.apis.io/wufoo/arazzo/wufoo-submit-form-entry-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wufoo-submit-form-entry-workflow.yml
@@ -291,12 +290,12 @@ common:
   type: Pricing
   url: https://www.wufoo.com/pricing/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/plans/wufoo-plans-pricing.yml
+  href: https://artifacts.apis.io/wufoo/plans/wufoo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wufoo-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/rate-limits/wufoo-rate-limits.yml
+  href: https://artifacts.apis.io/wufoo/rate-limits/wufoo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wufoo-rate-limits.yml
@@ -337,17 +336,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/wufoo
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/vocabulary/wufoo-vocabulary.yml
+  href: https://artifacts.apis.io/wufoo/vocabulary/wufoo-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/wufoo-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/json-ld/wufoo-context.jsonld
+  href: https://artifacts.apis.io/wufoo/json-ld/wufoo-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/wufoo-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/finops/wufoo-finops.yml
+  href: https://artifacts.apis.io/wufoo/finops/wufoo-finops.yml
   title: ''
   type: FinOps
   url: finops/wufoo-finops.yml
@@ -394,12 +393,12 @@ examples:
   slug: wufoo-webhooks-form-submission-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Wufoo Finops
-  primary_unit: ''
+  primary_unit: account
   service_category: ''
   slug: wufoo-finops
-  template: true
+  template: false
 image: https://www.wufoo.com/images/wufoo-logo.png
 json_schemas:
 - name: Wufoo Entry
@@ -448,7 +447,10 @@ plans:
 - name: Wufoo Plans Pricing
   plan_count: 5
   slug: wufoo-plans-pricing
-random_paper: 10
+- name: Wufoo Price Estimates
+  plan_count: 0
+  slug: wufoo-price-estimates
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Wufoo Rate Limits
@@ -490,24 +492,24 @@ rules:
     warn: 2
   slug: wufoo-rest-v3-rules
 score:
-  band: developing
-  composite: 50.4
+  band: strong
+  composite: 61.7
   coverage:
     artifact_dirs: 21
-    catalog_earned: 66.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_earned: 78.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 1.6
   facets:
-    access_clarity: 35.5
+    access_clarity: 84.2
     contract_governance: 27.3
     contract_quality: 67.3
     developer_ergonomics: 75.0
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 56.0
+    operational_transparency: 21.1
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     contracts:
@@ -520,14 +522,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 18.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 22.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/screenshots/wufoo-2026-06-20T201637.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wufoo/wufoo-2026-06-20T201637.png
 security:
 - kind: authentication
   name: Wufoo Authentication

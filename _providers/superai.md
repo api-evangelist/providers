@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.2
-  scored_at: '2026-10-17'
+  score: 31.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://flows.super.ai/api
@@ -132,15 +134,12 @@ apis:
   description: The worker-groups API from Super.ai — 3 operation(s) for worker-groups.
   name: Super.ai Worker Groups API
   slug: superai-worker-groups-api
-artifact_total: 43
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Superai Flows Webhooks
   slug: superai-flows-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SuperAI Flow Platform auth API
   slug: open-superai-auth-api
@@ -201,7 +200,7 @@ common:
   type: BlogRSS
   url: https://super.ai/feed.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/capabilities/superai-capability-edges.yml
+  href: https://artifacts.apis.io/superai/capabilities/superai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/superai-capability-edges.yml
@@ -210,12 +209,12 @@ common:
   type: Website
   url: https://www.super.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/security/superai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/superai/security/superai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/superai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/security/superai-domain-security.yml
+  href: https://artifacts.apis.io/superai/security/superai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/superai-domain-security.yml
@@ -276,77 +275,77 @@ common:
   type: Compliance
   url: https://super.ai/trust/compliance
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/packages/superai-packages.yml
+  href: https://artifacts.apis.io/superai/packages/superai-packages.yml
   title: ''
   type: Packages
   url: packages/superai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/packages/superai-packages.yml
+  href: https://artifacts.apis.io/superai/packages/superai-packages.yml
   title: ''
   type: SDKs
   url: packages/superai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/cli/superai-cli.yml
+  href: https://artifacts.apis.io/superai/cli/superai-cli.yml
   title: ''
   type: CLI
   url: cli/superai-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/well-known/superai-well-known.yml
+  href: https://artifacts.apis.io/superai/well-known/superai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/superai-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/well-known/superai-security.txt
+  href: https://artifacts.apis.io/superai/well-known/superai-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/superai-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/llms/superai-llms.txt
+  href: https://artifacts.apis.io/superai/llms/superai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/superai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/mcp/superai-mcp.yml
+  href: https://artifacts.apis.io/superai/mcp/superai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/superai-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/overlays/superai-flows-overlay.yaml
+  href: https://artifacts.apis.io/superai/overlays/superai-flows-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/superai-flows-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/conformance/superai-conformance.yml
+  href: https://artifacts.apis.io/superai/conformance/superai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/superai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/errors/superai-problem-types.yml
+  href: https://artifacts.apis.io/superai/errors/superai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/superai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/lifecycle/superai-lifecycle.yml
+  href: https://artifacts.apis.io/superai/lifecycle/superai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/superai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/conventions/superai-conventions.yml
+  href: https://artifacts.apis.io/superai/conventions/superai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/superai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/data-model/superai-data-model.yml
+  href: https://artifacts.apis.io/superai/data-model/superai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/superai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/asyncapi/superai-flows-webhooks.yml
+  href: https://artifacts.apis.io/superai/asyncapi/superai-flows-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/superai-flows-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/superai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -365,26 +364,26 @@ overview: 'Super.ai publishes 19 API contracts indexed on the [APIs.io](https://
 
 
   Super.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 27 more developer resources.'
-random_paper: 13
+random_paper: 17
 score:
   band: strong
-  composite: 58.1
+  composite: 54.7
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 57.9
+    contract_quality: 55.9
     developer_ergonomics: 68.5
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 58.0
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 54.7
   provenance:
     conformance: derived
     contracts:
@@ -404,13 +403,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 72.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/screenshots/superai-2026-08-17T082158.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/superai/superai-2026-08-17T082158.png
 security:
 - kind: authentication
   name: Superai Authentication
@@ -428,6 +428,14 @@ security:
   name: Superai Trust Center
   slug: superai-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 3
+skills:
+- name: Handle a human review task
+  slug: superai-human-review
+- name: Provision a service account and API key
+  slug: superai-provision-service-account
+- name: Run a document workflow and retrieve results
+  slug: superai-run-document-workflow
 slug: superai
 tags:
 - Company

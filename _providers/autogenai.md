@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -32,17 +34,17 @@ common:
   type: Compliance
   url: https://trust.autogenai.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autogenai/refs/heads/main/well-known/autogenai-well-known.yml
+  href: https://artifacts.apis.io/autogenai/well-known/autogenai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/autogenai-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autogenai/refs/heads/main/hosts/autogenai-hosts.yml
+  href: https://artifacts.apis.io/autogenai/hosts/autogenai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/autogenai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/autogenai/refs/heads/main/vendors/autogenai-vendors.yml
+  href: https://artifacts.apis.io/autogenai/vendors/autogenai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/autogenai-vendors.yml
@@ -67,12 +69,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/autogenai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autogenai/refs/heads/main/security/autogenai-trust-center.yml
+  href: https://artifacts.apis.io/autogenai/security/autogenai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/autogenai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autogenai/refs/heads/main/security/autogenai-domain-security.yml
+  href: https://artifacts.apis.io/autogenai/security/autogenai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autogenai-domain-security.yml
@@ -100,7 +102,7 @@ overview: 'Autogenai is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Autogenai''s developer surface includes changelog, engineering blog, and 10 more developer resources.'
-random_paper: 11
+random_paper: 21
 score:
   band: emerging
   composite: 14.7
@@ -128,14 +130,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 13.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/autogenai/refs/heads/main/screenshots/autogenai-2026-10-11T100925.png
+screenshot: https://apis.io/screenshots/autogenai/autogenai-2026-10-11T100925.png
 security:
 - kind: domain-security
   name: Autogenai Domain Security

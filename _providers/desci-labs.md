@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.0
-  scored_at: '2026-10-17'
+  score: 45.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,11 +61,8 @@ apis:
   description: '**Individual research object resolution** - Perfect for detail pages, file access, and direct DPID links. Get complete research objects with full version history, specific files, or content in differe'
   name: DeSci Labs Resolve API
   slug: desci-labs-resolve-api
-artifact_total: 11
+artifact_total: 12
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: dPID Resolver Data API
   slug: open-desci-labs-data-api
@@ -79,62 +78,62 @@ common:
   type: Website
   url: https://www.desci.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/capabilities/desci-labs-capability-edges.yml
+  href: https://artifacts.apis.io/desci-labs/capabilities/desci-labs-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/desci-labs-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/overlays/desci-labs-dpid-resolver-overlay.yaml
+  href: https://artifacts.apis.io/desci-labs/overlays/desci-labs-dpid-resolver-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/desci-labs-dpid-resolver-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/security/desci-labs-domain-security.yml
+  href: https://artifacts.apis.io/desci-labs/security/desci-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/desci-labs-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/agentic-access/desci-labs-agentic-access.yml
+  href: https://artifacts.apis.io/desci-labs/agentic-access/desci-labs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/desci-labs-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/packages/desci-labs-packages.yml
+  href: https://artifacts.apis.io/desci-labs/packages/desci-labs-packages.yml
   title: ''
   type: Packages
   url: packages/desci-labs-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/packages/desci-labs-packages.yml
+  href: https://artifacts.apis.io/desci-labs/packages/desci-labs-packages.yml
   title: ''
   type: SDKs
   url: packages/desci-labs-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/mcp/desci-labs-mcp.yml
+  href: https://artifacts.apis.io/desci-labs/mcp/desci-labs-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/desci-labs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/llms/desci-labs-llms.txt
+  href: https://artifacts.apis.io/desci-labs/llms/desci-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/desci-labs-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/authentication/desci-labs-authentication.yml
+  href: https://artifacts.apis.io/desci-labs/authentication/desci-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/desci-labs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/conventions/desci-labs-conventions.yml
+  href: https://artifacts.apis.io/desci-labs/conventions/desci-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/desci-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/conformance/desci-labs-conformance.yml
+  href: https://artifacts.apis.io/desci-labs/conformance/desci-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/desci-labs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/lifecycle/desci-labs-lifecycle.yml
+  href: https://artifacts.apis.io/desci-labs/lifecycle/desci-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/desci-labs-lifecycle.yml
@@ -143,12 +142,12 @@ common:
   type: StatusPage
   url: https://status.desci.com
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/sandbox/desci-labs-sandbox.yml
+  href: https://artifacts.apis.io/desci-labs/sandbox/desci-labs-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/desci-labs-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/desci-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -208,26 +207,26 @@ overview: 'DeSci Labs publishes 3 API contracts indexed on the [APIs.io](https:/
 
 
   DeSci Labs'' developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 19 more developer resources.'
-random_paper: 15
+random_paper: 23
 score:
   band: developing
   composite: 43.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 44.6
     developer_ergonomics: 73.2
-    discoverability: 75.0
-    operational_transparency: 18.4
-  previous_composite: 43.2
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,13 +243,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/screenshots/desci-labs-2026-07-25T211750.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/desci-labs/desci-labs-2026-07-25T211750.png
 security:
 - kind: authentication
   name: Desci Labs Authentication
@@ -260,6 +260,12 @@ security:
   name: Desci Labs Domain Security
   slug: desci-labs-domain-security
   summary_line: TLSv1.3
+skill_count: 2
+skills:
+- name: Query and page through research objects
+  slug: desci-labs-query-research-objects
+- name: Resolve a dPID to a research object
+  slug: desci-labs-resolve-dpid
 slug: desci-labs
 tags:
 - Company

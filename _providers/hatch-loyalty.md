@@ -24,8 +24,8 @@ name: Hatch Loyalty
 nav: Providers
 network: true
 overview: Hatch Loyalty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Loyalty, Customer Engagement, Loyalty Platform, and Retail.
-random_paper: 5
-screenshot: https://raw.githubusercontent.com/api-evangelist/hatch-loyalty/refs/heads/main/screenshots/hatch-loyalty-2026-07-25T220801.png
+random_paper: 3
+screenshot: https://apis.io/screenshots/hatch-loyalty/hatch-loyalty-2026-07-25T220801.png
 slug: hatch-loyalty
 tags:
 - Company

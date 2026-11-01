@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.3
-  scored_at: '2026-10-17'
+  score: 35.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
@@ -250,15 +252,12 @@ apis:
     question: How do I delete a duplicate support ticket?
   phrasing_ops: 5
   slug: oracle-siebel-service-requests-api
-artifact_total: 41
+artifact_total: 44
 asyncapis:
 - description: Event-driven integration framework enabling real-time communication between Oracle Siebel CRM and external systems using Apache Kafka. The Event Pub/Sub system supports publishing events from Siebel t
   name: Oracle Siebel CRM Event Pub/Sub
   slug: oracle-siebel-event-pubsub-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Oracle Siebel REST Accounts API
   slug: open-oracle-siebel-accounts-api
@@ -291,7 +290,7 @@ collections:
   slug: open-oracle-siebel-service-requests-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/capabilities/oracle-siebel-capability-edges.yml
+  href: https://artifacts.apis.io/oracle-siebel/capabilities/oracle-siebel-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/oracle-siebel-capability-edges.yml
@@ -308,12 +307,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/oracle/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/scopes/oracle-siebel-scopes.yml
+  href: https://artifacts.apis.io/oracle-siebel/scopes/oracle-siebel-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/oracle-siebel-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/authentication/oracle-siebel-authentication.yml
+  href: https://artifacts.apis.io/oracle-siebel/authentication/oracle-siebel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oracle-siebel-authentication.yml
@@ -322,7 +321,7 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/oracle-siebel/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/security/oracle-siebel-domain-security.yml
+  href: https://artifacts.apis.io/oracle-siebel/security/oracle-siebel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oracle-siebel-domain-security.yml
@@ -395,102 +394,102 @@ common:
   type: GitHubRepository
   url: https://github.com/OracleSiebel/ConfiguringSiebel
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/packages/oracle-siebel-packages.yml
+  href: https://artifacts.apis.io/oracle-siebel/packages/oracle-siebel-packages.yml
   title: ''
   type: Packages
   url: packages/oracle-siebel-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/mcp/oracle-siebel-mcp.yml
+  href: https://artifacts.apis.io/oracle-siebel/mcp/oracle-siebel-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/oracle-siebel-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/mcp/oracle-siebel-tool-crosswalk.yml
+  href: https://artifacts.apis.io/oracle-siebel/mcp/oracle-siebel-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/oracle-siebel-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/oracle-siebel/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/llms/oracle-siebel-llms.txt
+  href: https://artifacts.apis.io/oracle-siebel/llms/oracle-siebel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oracle-siebel-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/conventions/oracle-siebel-conventions.yml
+  href: https://artifacts.apis.io/oracle-siebel/conventions/oracle-siebel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/oracle-siebel-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/errors/oracle-siebel-problem-types.yml
+  href: https://artifacts.apis.io/oracle-siebel/errors/oracle-siebel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/oracle-siebel-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/data-model/oracle-siebel-data-model.yml
+  href: https://artifacts.apis.io/oracle-siebel/data-model/oracle-siebel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/oracle-siebel-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/lifecycle/oracle-siebel-lifecycle.yml
+  href: https://artifacts.apis.io/oracle-siebel/lifecycle/oracle-siebel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/oracle-siebel-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/lifecycle/oracle-siebel-lifecycle.yml
+  href: https://artifacts.apis.io/oracle-siebel/lifecycle/oracle-siebel-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/oracle-siebel-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/changelog/oracle-siebel-changelog.yml
+  href: https://artifacts.apis.io/oracle-siebel/changelog/oracle-siebel-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/oracle-siebel-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/cli/oracle-siebel-cli.yml
+  href: https://artifacts.apis.io/oracle-siebel/cli/oracle-siebel-cli.yml
   title: ''
   type: CLI
   url: cli/oracle-siebel-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/components/oracle-siebel-components.yml
+  href: https://artifacts.apis.io/oracle-siebel/components/oracle-siebel-components.yml
   title: ''
   type: Components
   url: components/oracle-siebel-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/conformance/oracle-siebel-conformance.yml
+  href: https://artifacts.apis.io/oracle-siebel/conformance/oracle-siebel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/oracle-siebel-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/security/oracle-siebel-trust-center.yml
+  href: https://artifacts.apis.io/oracle-siebel/security/oracle-siebel-trust-center.yml
   title: ''
   type: Compliance
   url: security/oracle-siebel-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/security/oracle-siebel-trust-center.yml
+  href: https://artifacts.apis.io/oracle-siebel/security/oracle-siebel-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/oracle-siebel-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/security/oracle-siebel-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/oracle-siebel/security/oracle-siebel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/oracle-siebel-vulnerability-disclosure.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/plans/oracle-siebel-plans-pricing.yml
+  href: https://artifacts.apis.io/oracle-siebel/plans/oracle-siebel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/oracle-siebel-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/rate-limits/oracle-siebel-rate-limits.yml
+  href: https://artifacts.apis.io/oracle-siebel/rate-limits/oracle-siebel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/oracle-siebel-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/finops/oracle-siebel-finops.yml
+  href: https://artifacts.apis.io/oracle-siebel/finops/oracle-siebel-finops.yml
   title: ''
   type: FinOps
   url: finops/oracle-siebel-finops.yml
@@ -540,7 +539,7 @@ plans:
 - name: Oracle Siebel Plans Pricing
   plan_count: 3
   slug: oracle-siebel-plans-pricing
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Oracle Siebel Rate Limits
@@ -575,8 +574,8 @@ scopes:
   slug: oracle-siebel-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 68.9
+  band: strong
+  composite: 65.2
   coverage:
     artifact_dirs: 31
     catalog_earned: 56.9
@@ -584,15 +583,15 @@ score:
     catalog_gap: 58.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 68.4
     contract_governance: 18.2
-    contract_quality: 60.8
+    contract_quality: 57.8
     developer_ergonomics: 67.3
-    discoverability: 63.3
-    operational_transparency: 84.2
-  previous_composite: 70.4
+    discoverability: 56.7
+    operational_transparency: 86.8
+  previous_composite: 65.2
   provenance:
     conformance: derived
     contracts:
@@ -608,13 +607,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/oracle-siebel/oracle-siebel-2026-06-20T191147.png
 security:
 - kind: authentication
   name: Oracle Siebel Authentication
@@ -632,6 +632,16 @@ security:
   name: Oracle Siebel Trust Center
   slug: oracle-siebel-trust-center
   summary_line: SOC 1, SOC 2, SOC 3, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, PCI DSS, HIPAA, FedRAMP, GDPR, Cyber Essentials Plus, HMG Cloud Security Principles
+skill_count: 4
+skills:
+- name: oracle-siebel-account-onboarding
+  slug: oracle-siebel-account-onboarding
+- name: oracle-siebel-metadata-discovery
+  slug: oracle-siebel-metadata-discovery
+- name: oracle-siebel-opportunity-pipeline
+  slug: oracle-siebel-opportunity-pipeline
+- name: oracle-siebel-service-request-handling
+  slug: oracle-siebel-service-request-handling
 slug: oracle-siebel
 tags:
 - CRM

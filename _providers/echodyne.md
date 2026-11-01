@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: EchoWare is Echodyne's software platform for MESA radar. It manages a network of Echodyne radars as a single radar instance with one Track ID per object, and supports headless operation in which a com
@@ -99,47 +101,47 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/echodyne/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/echodyne/refs/heads/main/llms/echodyne-llms.txt
+  href: https://artifacts.apis.io/echodyne/llms/echodyne-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/echodyne-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/echodyne/refs/heads/main/well-known/echodyne-well-known.yml
+  href: https://artifacts.apis.io/echodyne/well-known/echodyne-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/echodyne-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/echodyne/refs/heads/main/authentication/echodyne-authentication.yml
+  href: https://artifacts.apis.io/echodyne/authentication/echodyne-authentication.yml
   title: ''
   type: Authentication
   url: authentication/echodyne-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/echodyne/refs/heads/main/scopes/echodyne-scopes.yml
+  href: https://artifacts.apis.io/echodyne/scopes/echodyne-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/echodyne-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/echodyne/refs/heads/main/security/echodyne-domain-security.yml
+  href: https://artifacts.apis.io/echodyne/security/echodyne-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/echodyne-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/echodyne/refs/heads/main/conformance/echodyne-conformance.yml
+  href: https://artifacts.apis.io/echodyne/conformance/echodyne-conformance.yml
   title: ''
   type: Conformance
   url: conformance/echodyne-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/echodyne/refs/heads/main/lifecycle/echodyne-lifecycle.yml
+  href: https://artifacts.apis.io/echodyne/lifecycle/echodyne-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/echodyne-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/echodyne/refs/heads/main/conventions/echodyne-conventions.yml
+  href: https://artifacts.apis.io/echodyne/conventions/echodyne-conventions.yml
   title: ''
   type: Conventions
   url: conventions/echodyne-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/echodyne/refs/heads/main/packages/echodyne-packages.yml
+  href: https://artifacts.apis.io/echodyne/packages/echodyne-packages.yml
   title: ''
   type: Packages
   url: packages/echodyne-packages.yml
@@ -156,7 +158,7 @@ overview: 'Echodyne is listed with 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Echodyne''s developer surface includes documentation, support, developer portal, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 11
+random_paper: 7
 scopes:
 - name: Echodyne Scopes
   scope_count: 36
@@ -164,7 +166,7 @@ scopes:
   summary_line: 36 scopes · authorizationCode/implicit
 score:
   band: emerging
-  composite: 23.5
+  composite: 22.8
   coverage:
     artifact_dirs: 13
     catalog_earned: 32.0
@@ -172,15 +174,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 23.6
+  previous_composite: 22.8
   provenance:
     conformance: first-party
   regulatory:
@@ -189,14 +191,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/echodyne/refs/heads/main/screenshots/echodyne-2026-08-07T164712.png
+screenshot: https://apis.io/screenshots/echodyne/echodyne-2026-08-07T164712.png
 security:
 - kind: authentication
   name: Echodyne Authentication

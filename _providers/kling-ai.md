@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-10-17'
+  score: 38.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -86,11 +88,8 @@ apis:
   description: Composite a garment onto a person image.
   name: Kling AI Virtual Try-On API
   slug: kling-ai-virtual-try-on-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kling AI Open Platform Account API
   slug: open-kling-ai-account-api
@@ -119,17 +118,22 @@ collections:
   name: Kling AI Open Platform API
   slug: open-kling-ai
 common:
+- group: other
+  href: https://artifacts.apis.io/kling-ai/capabilities/kling-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kling-ai-capability-edges.yml
 - group: commercial
   title: ''
   type: Pricing
   url: https://kling.ai/dev/pricing
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/agentic-access/kling-ai-agentic-access.yml
+  href: https://artifacts.apis.io/kling-ai/agentic-access/kling-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kling-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/authentication/kling-ai-authentication.yml
+  href: https://artifacts.apis.io/kling-ai/authentication/kling-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kling-ai-authentication.yml
@@ -146,17 +150,17 @@ common:
   type: Documentation
   url: https://app.klingai.com/global/dev/document-api/quickStart/productIntroduction/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/plans/kling-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/kling-ai/plans/kling-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/kling-ai-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/rate-limits/kling-ai-rate-limits.yml
+  href: https://artifacts.apis.io/kling-ai/rate-limits/kling-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/kling-ai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/finops/kling-ai-finops.yml
+  href: https://artifacts.apis.io/kling-ai/finops/kling-ai-finops.yml
   title: ''
   type: FinOps
   url: finops/kling-ai-finops.yml
@@ -183,35 +187,35 @@ network: true
 overview: 'Kling AI publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account API, Image Generation API, Image-to-Video API, and 5 more. Tagged areas include Video Generation, AI Video, Generative AI, Image-to-Video, and Artificial Intelligence.
 
 
-  Kling AI''s developer surface includes pricing, authentication, documentation, and 6 more developer resources.'
+  Kling AI''s developer surface includes pricing, authentication, documentation, and 7 more developer resources.'
 plans:
 - name: Kling Ai Plans Pricing
   plan_count: 9
   slug: kling-ai-plans-pricing
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Kling Ai Rate Limits
   slug: kling-ai-rate-limits
 score:
   band: thin
-  composite: 30.9
+  composite: 31.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.9
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 45.1
     developer_ergonomics: 29.8
-    discoverability: 68.3
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 32.8
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     contracts:
@@ -226,13 +230,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/screenshots/kling-ai-2026-07-25T223947.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kling-ai/kling-ai-2026-07-25T223947.png
 security:
 - kind: authentication
   name: Kling Ai Authentication

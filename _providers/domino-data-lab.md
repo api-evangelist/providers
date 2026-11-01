@@ -13,7 +13,7 @@ access_model:
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.6
-  scored_at: '2026-10-17'
+  score: 24.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST Platform API exposing apps, projects, model serving, environments, workspaces, cost, users, orgs, extensions, and data sources.
@@ -43,7 +45,7 @@ apis:
 artifact_total: 6
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/plans/domino-data-lab-plans-pricing.yml
+  href: https://artifacts.apis.io/domino-data-lab/plans/domino-data-lab-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/domino-data-lab-plans-pricing.yml
@@ -52,12 +54,12 @@ common:
   type: BlogRSS
   url: https://domino.ai/feed.xml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/cli/domino-data-lab-cli.yml
+  href: https://artifacts.apis.io/domino-data-lab/cli/domino-data-lab-cli.yml
   title: ''
   type: CLI
   url: cli/domino-data-lab-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/changelog/domino-data-lab-changelog.yml
+  href: https://artifacts.apis.io/domino-data-lab/changelog/domino-data-lab-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/domino-data-lab-changelog.yml
@@ -66,27 +68,27 @@ common:
   type: Compliance
   url: https://trust.domino.ai/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/conformance/domino-data-lab-conformance.yml
+  href: https://artifacts.apis.io/domino-data-lab/conformance/domino-data-lab-conformance.yml
   title: ''
   type: Conformance
   url: conformance/domino-data-lab-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/a2a/domino-data-lab-a2a.yml
+  href: https://artifacts.apis.io/domino-data-lab/a2a/domino-data-lab-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/domino-data-lab-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/well-known/domino-data-lab-well-known.yml
+  href: https://artifacts.apis.io/domino-data-lab/well-known/domino-data-lab-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/domino-data-lab-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/hosts/domino-data-lab-hosts.yml
+  href: https://artifacts.apis.io/domino-data-lab/hosts/domino-data-lab-hosts.yml
   title: ''
   type: Hosts
   url: hosts/domino-data-lab-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/vendors/domino-data-lab-vendors.yml
+  href: https://artifacts.apis.io/domino-data-lab/vendors/domino-data-lab-vendors.yml
   title: ''
   type: Vendors
   url: vendors/domino-data-lab-vendors.yml
@@ -99,7 +101,7 @@ common:
   type: ChangeLog
   url: https://docs.domino.ai/release-notes/cloud-release
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/security/domino-data-lab-trust-center.yml
+  href: https://artifacts.apis.io/domino-data-lab/security/domino-data-lab-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/domino-data-lab-trust-center.yml
@@ -148,37 +150,37 @@ common:
   type: Postman
   url: https://www.postman.com/dominodatalab/workspace
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/authentication/domino-data-lab-authentication.yml
+  href: https://artifacts.apis.io/domino-data-lab/authentication/domino-data-lab-authentication.yml
   title: ''
   type: Authentication
   url: authentication/domino-data-lab-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/packages/domino-data-lab-packages.yml
+  href: https://artifacts.apis.io/domino-data-lab/packages/domino-data-lab-packages.yml
   title: ''
   type: Packages
   url: packages/domino-data-lab-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/packages/domino-data-lab-packages.yml
+  href: https://artifacts.apis.io/domino-data-lab/packages/domino-data-lab-packages.yml
   title: ''
   type: SDKs
   url: packages/domino-data-lab-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/mcp/domino-data-lab-mcp.yml
+  href: https://artifacts.apis.io/domino-data-lab/mcp/domino-data-lab-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/domino-data-lab-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/conventions/domino-data-lab-conventions.yml
+  href: https://artifacts.apis.io/domino-data-lab/conventions/domino-data-lab-conventions.yml
   title: ''
   type: Conventions
   url: conventions/domino-data-lab-conventions.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/llms/domino-data-lab-llms.txt
+  href: https://artifacts.apis.io/domino-data-lab/llms/domino-data-lab-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/domino-data-lab-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/security/domino-data-lab-domain-security.yml
+  href: https://artifacts.apis.io/domino-data-lab/security/domino-data-lab-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/domino-data-lab-domain-security.yml
@@ -209,10 +211,10 @@ plans:
 - name: Domino Data Lab Plans Pricing
   plan_count: 3
   slug: domino-data-lab-plans-pricing
-random_paper: 19
+random_paper: 9
 score:
-  band: thin
-  composite: 35.9
+  band: developing
+  composite: 43.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 44.0
@@ -220,15 +222,15 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.6
+  delta: 0.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 73.8
-    discoverability: 63.3
-    operational_transparency: 18.4
-  previous_composite: 29.3
+    developer_ergonomics: 76.2
+    discoverability: 56.7
+    operational_transparency: 21.1
+  previous_composite: 43.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -243,15 +245,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+    score: 27.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/domino-data-lab/refs/heads/main/screenshots/domino-data-lab-2026-07-25T212245.png
+screenshot: https://apis.io/screenshots/domino-data-lab/domino-data-lab-2026-07-25T212245.png
 security:
 - kind: authentication
   name: Domino Data Lab Authentication

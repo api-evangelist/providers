@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
+  score: 26.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 77
   human_in_the_loop: 1
@@ -156,70 +158,75 @@ apis:
   description: The XeroInvoicesController API from Allocations — 7 operation(s) for xeroinvoicescontroller.
   name: Allocations Xero Invoices Controller API
   slug: allocations-xeroinvoicescontroller-api
-artifact_total: 31
+artifact_total: 37
 common:
+- group: other
+  href: https://artifacts.apis.io/allocations/capabilities/allocations-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/allocations-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/agentic-access/allocations-agentic-access.yml
+  href: https://artifacts.apis.io/allocations/agentic-access/allocations-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/allocations-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/plans/allocations-plans-pricing.yml
+  href: https://artifacts.apis.io/allocations/plans/allocations-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/allocations-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/rules/allocations-rules.yml
+  href: https://artifacts.apis.io/allocations/rules/allocations-rules.yml
   title: ''
   type: Spectral
   url: rules/allocations-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/json-ld/allocations-context.jsonld
+  href: https://artifacts.apis.io/allocations/json-ld/allocations-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/allocations-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/vocabulary/allocations-vocabulary.yml
+  href: https://artifacts.apis.io/allocations/vocabulary/allocations-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/allocations-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/allocations/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/data-model/allocations-data-model.yml
+  href: https://artifacts.apis.io/allocations/data-model/allocations-data-model.yml
   title: ''
   type: DataModel
   url: data-model/allocations-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/errors/allocations-problem-types.yml
+  href: https://artifacts.apis.io/allocations/errors/allocations-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/allocations-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/conformance/allocations-conformance.yml
+  href: https://artifacts.apis.io/allocations/conformance/allocations-conformance.yml
   title: ''
   type: Conformance
   url: conformance/allocations-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/llms/allocations-llms.txt
+  href: https://artifacts.apis.io/allocations/llms/allocations-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/allocations-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/well-known/allocations-well-known.yml
+  href: https://artifacts.apis.io/allocations/well-known/allocations-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/allocations-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/hosts/allocations-hosts.yml
+  href: https://artifacts.apis.io/allocations/hosts/allocations-hosts.yml
   title: ''
   type: Hosts
   url: hosts/allocations-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/vendors/allocations-vendors.yml
+  href: https://artifacts.apis.io/allocations/vendors/allocations-vendors.yml
   title: ''
   type: Vendors
   url: vendors/allocations-vendors.yml
@@ -248,12 +255,12 @@ common:
   type: GettingStarted
   url: https://docs.allocations.com/investor-onboarding/how-to-signup
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/authentication/allocations-authentication.yml
+  href: https://artifacts.apis.io/allocations/authentication/allocations-authentication.yml
   title: ''
   type: Authentication
   url: authentication/allocations-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/security/allocations-domain-security.yml
+  href: https://artifacts.apis.io/allocations/security/allocations-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/allocations-domain-security.yml
@@ -283,6 +290,14 @@ common:
   url: https://www.allocations.com/privacy-policy
 created: '2026-09-24'
 description: Allocations provides a cloud‑based fund administration platform that enables general partners, syndicates and emerging managers to launch and manage SPVs and private funds. The service automates legal formation, banking, compliance, investor onboarding and reporting, offering pricing plans from $9,950 for single‑SPV setups to enterprise solutions. Backed by venture capital, Allocations serves over 30,000 clients and has transacted more than $5 billion in assets across 1,800+ private funds.
+finops:
+- has_sources: true
+  method: derived
+  name: Allocations Finops
+  primary_unit: ''
+  service_category: ''
+  slug: allocations-finops
+  template: true
 image: https://framerusercontent.com/assets/Ck8iMxhd72aQ8s11wWAttjthVs.png
 jsonld:
 - class_count: 120
@@ -294,18 +309,21 @@ modified: '2026-09-24'
 name: Allocations
 nav: Providers
 network: true
-overview: 'Allocations publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accreditations API, Announcements API, Assets API, and 22 more. Tagged areas include Fintech, FundAdministration, PrivateMarkets, Software-as-a-Service, and InvestmentPlatform.
+overview: 'Allocations publishes 25 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accreditations API, Announcements API, Assets API, and 22 more. Tagged areas include Fintech, Fund Administration, Private Markets, Software-as-a-Service, and Investment Platform.
 
 
   The Allocations catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Allocations'' developer surface includes signup flow, getting-started guide, authentication, documentation, engineering blog, pricing, and 21 more developer resources.'
+  Allocations'' developer surface includes signup flow, getting-started guide, authentication, documentation, engineering blog, pricing, and 22 more developer resources.'
 plans:
 - name: Allocations Plans Pricing
   plan_count: 6
   slug: allocations-plans-pricing
-random_paper: 11
+- name: Allocations Price Estimates
+  plan_count: 0
+  slug: allocations-price-estimates
+random_paper: 1
 rules:
 - authorship: generated
   effective_rule_count: 56
@@ -321,23 +339,23 @@ rules:
   slug: allocations-rules
 score:
   band: developing
-  composite: 52.8
+  composite: 51.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 20
     catalog_earned: 65.8
     catalog_earned_first_party: 12.0
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 52.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
     contract_governance: 22.0
-    contract_quality: 58.5
+    contract_quality: 55.1
     developer_ergonomics: 37.5
-    discoverability: 76.8
+    discoverability: 69.6
     operational_transparency: 15.8
-  previous_composite: 0.3
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -354,12 +372,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Allocations Authentication
@@ -369,12 +388,22 @@ security:
   name: Allocations Domain Security
   slug: allocations-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: allocations-bank-account-setup
+  slug: allocations-bank-account-setup
+- name: allocations-create-and-list-ledger-entries
+  slug: allocations-create-and-list-ledger-entries
+- name: allocations-manage-entity
+  slug: allocations-manage-entity
+- name: allocations-notifications-read
+  slug: allocations-notifications-read
 slug: allocations
 tags:
 - Fintech
-- FundAdministration
-- PrivateMarkets
+- Fund Administration
+- Private Markets
 - Software-as-a-Service
-- InvestmentPlatform
+- Investment Platform
 website: https://www.allocations.com
 ---

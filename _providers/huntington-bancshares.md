@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,11 +61,8 @@ apis:
   description: Transaction reporting and history
   name: Huntington Bancshares Transactions API
   slug: huntington-bancshares-transactions-api
-artifact_total: 15
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Huntington Bank Treasury Management Accounts API
   slug: open-huntington-bancshares-accounts-api
@@ -78,42 +77,42 @@ collections:
   slug: open-huntington-bank-treasury-management-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/plans/huntington-bancshares-plans-pricing.yml
+  href: https://artifacts.apis.io/huntington-bancshares/plans/huntington-bancshares-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/huntington-bancshares-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/rate-limits/huntington-bancshares-rate-limits.yml
+  href: https://artifacts.apis.io/huntington-bancshares/rate-limits/huntington-bancshares-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/huntington-bancshares-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/finops/huntington-bancshares-finops.yml
+  href: https://artifacts.apis.io/huntington-bancshares/finops/huntington-bancshares-finops.yml
   title: ''
   type: FinOps
   url: finops/huntington-bancshares-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/capabilities/huntington-bancshares-capability-edges.yml
+  href: https://artifacts.apis.io/huntington-bancshares/capabilities/huntington-bancshares-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/huntington-bancshares-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/agentic-access/huntington-bancshares-agentic-access.yml
+  href: https://artifacts.apis.io/huntington-bancshares/agentic-access/huntington-bancshares-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/huntington-bancshares-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/security/huntington-bancshares-domain-security.yml
+  href: https://artifacts.apis.io/huntington-bancshares/security/huntington-bancshares-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/huntington-bancshares-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/authentication/huntington-bancshares-authentication.yml
+  href: https://artifacts.apis.io/huntington-bancshares/authentication/huntington-bancshares-authentication.yml
   title: ''
   type: Authentication
   url: authentication/huntington-bancshares-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/scopes/huntington-bancshares-scopes.yml
+  href: https://artifacts.apis.io/huntington-bancshares/scopes/huntington-bancshares-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/huntington-bancshares-scopes.yml
@@ -173,7 +172,7 @@ press:
 - date: ''
   title: Huntington Launches Huntington Heads Up® with AI to ...
   url: https://www.prnewswire.com/news-releases/huntington-launches-huntington-heads-up-with-ai-to-improve-customers-digital-banking-experience-300794687.html
-random_paper: 19
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Huntington Bancshares Rate Limits
@@ -185,7 +184,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 27.5
+  composite: 28.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 41.0
@@ -193,7 +192,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
@@ -201,7 +200,7 @@ score:
     developer_ergonomics: 21.4
     discoverability: 66.1
     operational_transparency: 5.3
-  previous_composite: 29.1
+  previous_composite: 28.2
   provenance:
     agentic_access: derived
     contracts:
@@ -215,13 +214,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/screenshots/huntington-bancshares-2026-06-20T182949.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/huntington-bancshares/huntington-bancshares-2026-06-20T182949.png
 security:
 - kind: authentication
   name: Huntington Bancshares Authentication

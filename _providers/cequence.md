@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-17'
+  score: 28.5
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: API Spyder is a SaaS-based, agentless external discovery service that provides an attacker's view into an organization's public-facing API hosts, hosting providers, and API-specific exposures includin
@@ -54,25 +56,25 @@ apis:
 - description: 'Enterprise AI Gateway that makes applications agent-ready through governed Model Context Protocol integration. Register a REST API from its OpenAPI spec (or proxy a third-party remote MCP server) and '
   name: Cequence AI Gateway
   slug: cequence-ai-gateway
-artifact_total: 15
+artifact_total: 18
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/rate-limits/cequence-rate-limits.yml
+  href: https://artifacts.apis.io/cequence/rate-limits/cequence-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cequence-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/finops/cequence-finops.yml
+  href: https://artifacts.apis.io/cequence/finops/cequence-finops.yml
   title: ''
   type: FinOps
   url: finops/cequence-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/security/cequence-trust-center.yml
+  href: https://artifacts.apis.io/cequence/security/cequence-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cequence-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/security/cequence-domain-security.yml
+  href: https://artifacts.apis.io/cequence/security/cequence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cequence-domain-security.yml
@@ -121,27 +123,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/cequenceai
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/well-known/cequence-well-known.yml
+  href: https://artifacts.apis.io/cequence/well-known/cequence-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cequence-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/packages/cequence-packages.yml
+  href: https://artifacts.apis.io/cequence/packages/cequence-packages.yml
   title: ''
   type: Packages
   url: packages/cequence-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/packages/cequence-packages.yml
+  href: https://artifacts.apis.io/cequence/packages/cequence-packages.yml
   title: ''
   type: SDKs
   url: packages/cequence-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/scopes/cequence-scopes.yml
+  href: https://artifacts.apis.io/cequence/scopes/cequence-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cequence-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/conformance/cequence-conformance.yml
+  href: https://artifacts.apis.io/cequence/conformance/cequence-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cequence-conformance.yml
@@ -150,12 +152,12 @@ common:
   type: Compliance
   url: https://www.cequence.ai/compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/lifecycle/cequence-lifecycle.yml
+  href: https://artifacts.apis.io/cequence/lifecycle/cequence-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cequence-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/security/cequence-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cequence/security/cequence-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cequence-vulnerability-disclosure.yml
@@ -164,12 +166,12 @@ common:
   type: Security
   url: https://www.cequence.ai/responsible-disclosure-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cequence/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/plans/cequence-plans-pricing.yml
+  href: https://artifacts.apis.io/cequence/plans/cequence-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cequence-plans-pricing.yml
@@ -184,11 +186,11 @@ common:
 created: '2025-01-08'
 description: Cequence Security delivers the Unified API Protection (UAP) platform, combining external API attack-surface discovery, posture and compliance analysis, inline runtime protection, and testing into a single solution for defending web applications, APIs, and AI endpoints against business logic abuse, bot attacks, and fraud. The Cequence product family is organized into API Spyder (agentless external discovery), API Sentinel (API inventory, posture, and compliance), API Spartan (runtime bot and abuse defense), API Security Testing (shift-left OpenAPI conformance and vulnerability testing), and Cequence Defender (inline reverse-proxy enforcement of API policy).
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Cequence Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: cequence-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cequence.png
@@ -209,7 +211,7 @@ plans:
 - name: Cequence Plans Pricing
   plan_count: 0
   slug: cequence-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Cequence Rate Limits
@@ -221,7 +223,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.2
+  composite: 44.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 47.0
@@ -229,15 +231,15 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 63.7
-    discoverability: 72.5
-    operational_transparency: 44.7
-  previous_composite: 42.7
+    developer_ergonomics: 73.2
+    discoverability: 70.0
+    operational_transparency: 47.4
+  previous_composite: 44.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -248,14 +250,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/screenshots/cequence-2026-06-20T174136.png
+screenshot: https://apis.io/screenshots/cequence/cequence-2026-06-20T174136.png
 security:
 - kind: authentication
   name: Cequence Authentication
@@ -273,6 +275,14 @@ security:
   name: Cequence Trust Center
   slug: cequence-trust-center
   summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
+skill_count: 3
+skills:
+- name: Audit and right-size agent activity on Cequence AI Gateway
+  slug: cequence-audit-agent-activity
+- name: Onboard a least-privilege agent on Cequence AI Gateway
+  slug: cequence-onboard-governed-agent
+- name: Register a private-network MCP server with Cequence AI Gateway
+  slug: cequence-register-private-mcp-server
 slug: cequence
 tags:
 - AI Protection

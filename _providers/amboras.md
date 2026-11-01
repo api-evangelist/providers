@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,26 +34,26 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The multi-tenant commerce backend Amboras operates at api.amboras.com. Every Amboras-built storefront calls it through the Medusa JS SDK, sending a publishable API key (x-publishable-api-key, pk_ pref
   name: Amboras Storefront Backend
   slug: amboras-storefront-backend
-artifact_total: 7
+artifact_total: 9
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/rate-limits/amboras-rate-limits.yml
+  href: https://artifacts.apis.io/amboras/rate-limits/amboras-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amboras-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/security/amboras-trust-center.yml
+  href: https://artifacts.apis.io/amboras/security/amboras-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amboras-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/security/amboras-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amboras/security/amboras-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amboras-vulnerability-disclosure.yml
@@ -64,7 +66,7 @@ common:
   type: Compliance
   url: https://www.amboras.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/security/amboras-domain-security.yml
+  href: https://artifacts.apis.io/amboras/security/amboras-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amboras-domain-security.yml
@@ -109,68 +111,76 @@ common:
   type: GitHubOrganization
   url: https://github.com/Amboras
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/authentication/amboras-authentication.yml
+  href: https://artifacts.apis.io/amboras/authentication/amboras-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amboras-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/conventions/amboras-conventions.yml
+  href: https://artifacts.apis.io/amboras/conventions/amboras-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amboras-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/errors/amboras-problem-types.yml
+  href: https://artifacts.apis.io/amboras/errors/amboras-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amboras-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/lifecycle/amboras-lifecycle.yml
+  href: https://artifacts.apis.io/amboras/lifecycle/amboras-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amboras-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/conformance/amboras-conformance.yml
+  href: https://artifacts.apis.io/amboras/conformance/amboras-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amboras-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/changelog/amboras-changelog.yml
+  href: https://artifacts.apis.io/amboras/changelog/amboras-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/amboras-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/plans/amboras-plans-pricing.yml
+  href: https://artifacts.apis.io/amboras/plans/amboras-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amboras-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/packages/amboras-packages.yml
+  href: https://artifacts.apis.io/amboras/packages/amboras-packages.yml
   title: ''
   type: Packages
   url: packages/amboras-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/packages/amboras-packages.yml
+  href: https://artifacts.apis.io/amboras/packages/amboras-packages.yml
   title: ''
   type: SDKs
   url: packages/amboras-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/components/amboras-components.yml
+  href: https://artifacts.apis.io/amboras/components/amboras-components.yml
   title: ''
   type: Components
   url: components/amboras-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/amboras/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/llms/amboras-llms.txt
+  href: https://artifacts.apis.io/amboras/llms/amboras-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amboras-llms.txt
 created: '2026-07-17'
 description: 'Amboras is an AI-native e-commerce platform - positioned as "the AI-native Shopify" - that puts an entire online store on autopilot. Merchants build or rebuild a storefront by talking to AI in natural language, and Amboras then autonomously generates design, copy, and product imagery, runs generative A/B tests, adjusts pricing and offers, and reads first-party analytics to continuously optimize conversion rate, retention, and average order value. It includes integrated checkout via Stripe and PayPal and first-party session, funnel, and revenue tracking with no third-party pixels. Founded in 2025 in San Francisco by Imad and Amin Mokadem, Amboras is a Y Combinator Spring 2026 (P26) company. Amboras publishes no developer portal, API reference, OpenAPI or GraphQL schema, but it does operate a real machine surface: a multi-tenant Medusa v2 backend at api.amboras.com that every storefront calls with a publishable key plus an X-Store-Environment-ID tenant header, a first-party npm
   scope of 33 TypeScript packages (@amboras-dev) implementing a 24-slot storefront plugin system, and a public GitHub organization of 458 provisioned Next.js storefront repositories that each ship Amboras-authored agent operating instructions.'
+finops:
+- has_sources: true
+  method: derived
+  name: Amboras Finops
+  primary_unit: billed yearly
+  service_category: ''
+  slug: amboras-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amboras.png
 layout: provider
 modified: '2026-08-13'
@@ -183,32 +193,35 @@ overview: 'Amboras is listed with 1 API on the [APIs.io](https://apis.io/) netwo
   Amboras'' developer surface includes documentation, pricing, signup flow, support, authentication, changelog, and 22 more developer resources.'
 plans:
 - name: Amboras Plans Pricing
-  plan_count: 4
+  plan_count: 7
   slug: amboras-plans-pricing
-random_paper: 15
+- name: Amboras Price Estimates
+  plan_count: 0
+  slug: amboras-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Amboras Rate Limits
   slug: amboras-rate-limits
 score:
   band: developing
-  composite: 42.7
+  composite: 44.6
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 49.0
+    artifact_dirs: 18
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
     discoverability: 66.1
-    operational_transparency: 44.7
-  previous_composite: 42.7
+    operational_transparency: 47.4
+  previous_composite: 43.1
   provenance:
     conformance: first-party
     skills: first-party
@@ -218,14 +231,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 30.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/amboras/refs/heads/main/screenshots/amboras-2026-07-25T200029.png
+screenshot: https://apis.io/screenshots/amboras/amboras-2026-07-25T200029.png
 security:
 - kind: authentication
   name: Amboras Authentication

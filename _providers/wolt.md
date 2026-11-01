@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'On-demand last-mile delivery: generate binding shipment promises (price + ETA), create deliveries, calculate venueless delivery fees, cancel before courier acceptance, retrieve handshake PINs, and rec'
@@ -42,7 +44,7 @@ apis:
 - description: 'Receive and fulfill consumer marketplace orders in a POS/in-store system: accept, reject, mark ready, mark delivered, refund items or basket, and handle preorders and group orders.'
   name: Wolt Order / Marketplace API
   slug: wolt-order-marketplace-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Wolt Webhooks
@@ -81,82 +83,82 @@ common:
   type: ChangeLog
   url: https://developer.wolt.com/docs/changelog
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/changelog/wolt-changelog.yml
+  href: https://artifacts.apis.io/wolt/changelog/wolt-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/wolt-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/authentication/wolt-authentication.yml
+  href: https://artifacts.apis.io/wolt/authentication/wolt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wolt-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/scopes/wolt-scopes.yml
+  href: https://artifacts.apis.io/wolt/scopes/wolt-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/wolt-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/errors/wolt-problem-types.yml
+  href: https://artifacts.apis.io/wolt/errors/wolt-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wolt-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/conventions/wolt-conventions.yml
+  href: https://artifacts.apis.io/wolt/conventions/wolt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wolt-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/conventions/wolt-conventions.yml
+  href: https://artifacts.apis.io/wolt/conventions/wolt-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/wolt-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/lifecycle/wolt-lifecycle.yml
+  href: https://artifacts.apis.io/wolt/lifecycle/wolt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wolt-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/asyncapi/wolt-webhooks.yml
+  href: https://artifacts.apis.io/wolt/asyncapi/wolt-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/wolt-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/sandbox/wolt-sandbox.yml
+  href: https://artifacts.apis.io/wolt/sandbox/wolt-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/wolt-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/data-model/wolt-data-model.yml
+  href: https://artifacts.apis.io/wolt/data-model/wolt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wolt-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/conformance/wolt-conformance.yml
+  href: https://artifacts.apis.io/wolt/conformance/wolt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wolt-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/mcp/wolt-mcp.yml
+  href: https://artifacts.apis.io/wolt/mcp/wolt-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wolt-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wolt/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/well-known/wolt-well-known.yml
+  href: https://artifacts.apis.io/wolt/well-known/wolt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/wolt-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/well-known/wolt-security.txt
+  href: https://artifacts.apis.io/wolt/well-known/wolt-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/wolt-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/security/wolt-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wolt/security/wolt-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wolt-vulnerability-disclosure.yml
@@ -165,12 +167,12 @@ common:
   type: Security
   url: https://app.intigriti.com/programs/wolt/wolt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/security/wolt-domain-security.yml
+  href: https://artifacts.apis.io/wolt/security/wolt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wolt-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/llms/wolt-llms.txt
+  href: https://artifacts.apis.io/wolt/llms/wolt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wolt-llms.txt
@@ -189,7 +191,7 @@ overview: 'Wolt is listed with 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wolt''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 20 more developer resources.'
-random_paper: 14
+random_paper: 22
 scopes:
 - name: Wolt Scopes
   scope_count: 1
@@ -197,7 +199,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 38.0
+  composite: 39.0
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -205,15 +207,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 63.7
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 37.9
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 39.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -224,14 +226,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/screenshots/wolt-2026-09-02T170901.png
+screenshot: https://apis.io/screenshots/wolt/wolt-2026-09-02T170901.png
 security:
 - kind: authentication
   name: Wolt Authentication
@@ -245,6 +247,12 @@ security:
   name: Wolt Vulnerability Disclosure
   slug: wolt-vulnerability-disclosure
   summary_line: Intigriti · security.txt · contact published
+skill_count: 2
+skills:
+- name: Create a Wolt Drive delivery
+  slug: wolt-create-drive-delivery
+- name: Fulfill a Wolt Marketplace order
+  slug: wolt-fulfill-marketplace-order
 slug: wolt
 tags:
 - Company

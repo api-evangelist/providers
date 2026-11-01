@@ -4,6 +4,6 @@ layout: provider
 name: it-standards
 nav: Providers
 network: true
-random_paper: 20
+random_paper: 6
 slug: it-standards
 ---

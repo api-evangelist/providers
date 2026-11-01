@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: East West Bancorp's API surface is delivered by its banking subsidiary, East West Bank, through the Bridge Open Banking developer program for Global Transaction Services clients. Documented capabiliti
@@ -50,7 +52,7 @@ common:
   type: Signup
   url: https://apiportal.eastwestbank.com/signup
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/security/east-west-bancorp-domain-security.yml
+  href: https://artifacts.apis.io/east-west-bancorp/security/east-west-bancorp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/east-west-bancorp-domain-security.yml
@@ -115,67 +117,67 @@ common:
   type: ReleaseNotes
   url: https://apiportal.eastwestbank.com/release-notes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/changelog/east-west-bancorp-changelog.yml
+  href: https://artifacts.apis.io/east-west-bancorp/changelog/east-west-bancorp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/east-west-bancorp-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/authentication/east-west-bancorp-authentication.yml
+  href: https://artifacts.apis.io/east-west-bancorp/authentication/east-west-bancorp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/east-west-bancorp-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/conventions/east-west-bancorp-conventions.yml
+  href: https://artifacts.apis.io/east-west-bancorp/conventions/east-west-bancorp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/east-west-bancorp-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/conventions/east-west-bancorp-conventions.yml
+  href: https://artifacts.apis.io/east-west-bancorp/conventions/east-west-bancorp-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/east-west-bancorp-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/conformance/east-west-bancorp-conformance.yml
+  href: https://artifacts.apis.io/east-west-bancorp/conformance/east-west-bancorp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/east-west-bancorp-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/sandbox/east-west-bancorp-sandbox.yml
+  href: https://artifacts.apis.io/east-west-bancorp/sandbox/east-west-bancorp-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/east-west-bancorp-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/lifecycle/east-west-bancorp-lifecycle.yml
+  href: https://artifacts.apis.io/east-west-bancorp/lifecycle/east-west-bancorp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/east-west-bancorp-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/asyncapi/east-west-bancorp-webhooks.yml
+  href: https://artifacts.apis.io/east-west-bancorp/asyncapi/east-west-bancorp-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/east-west-bancorp-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/llms/east-west-bancorp-llms.txt
+  href: https://artifacts.apis.io/east-west-bancorp/llms/east-west-bancorp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/east-west-bancorp-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/packages/east-west-bancorp-packages.yml
+  href: https://artifacts.apis.io/east-west-bancorp/packages/east-west-bancorp-packages.yml
   title: ''
   type: Packages
   url: packages/east-west-bancorp-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/plans/east-west-bancorp-plans-pricing.yml
+  href: https://artifacts.apis.io/east-west-bancorp/plans/east-west-bancorp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/east-west-bancorp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/rate-limits/east-west-bancorp-rate-limits.yml
+  href: https://artifacts.apis.io/east-west-bancorp/rate-limits/east-west-bancorp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/east-west-bancorp-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/finops/east-west-bancorp-finops.yml
+  href: https://artifacts.apis.io/east-west-bancorp/finops/east-west-bancorp-finops.yml
   title: ''
   type: FinOps
   url: finops/east-west-bancorp-finops.yml
@@ -184,12 +186,12 @@ description: 'East West Bancorp, Inc. (NASDAQ: EWBC) is the Pasadena, California
   and production connectivity. Portal sign-up is free and self-serve, but the API list, product library and every callable environment sit behind sign-in and Global Transaction Services sales onboarding, so no OpenAPI, Swagger or AsyncAPI document is publicly downloadable.'
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: East West Bancorp Finops
   primary_unit: ''
-  service_category: Banking
+  service_category: ''
   slug: east-west-bancorp-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/east-west-bancorp.png
 layout: provider
 modified: '2026-09-14'
@@ -207,14 +209,14 @@ plans:
 - name: East West Bancorp Plans Pricing
   plan_count: 0
   slug: east-west-bancorp-plans-pricing
-random_paper: 17
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: East West Bancorp Rate Limits
   slug: east-west-bancorp-rate-limits
 score:
   band: developing
-  composite: 43.0
+  composite: 42.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -222,14 +224,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -237,7 +239,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 44.5
+  previous_composite: 42.6
   provenance:
     conformance: first-party
   regulatory:
@@ -246,14 +248,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/east-west-bancorp/refs/heads/main/screenshots/east-west-bancorp-2026-06-20T180412.png
+screenshot: https://apis.io/screenshots/east-west-bancorp/east-west-bancorp-2026-06-20T180412.png
 security:
 - kind: authentication
   name: East West Bancorp Authentication

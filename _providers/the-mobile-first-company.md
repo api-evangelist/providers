@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 55.4
-  scored_at: '2026-10-17'
+  score: 54.5
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.withallo.com
@@ -101,15 +103,12 @@ apis:
   description: Manage webhook endpoints to receive real-time notifications about events in your Allo account. Each endpoint subscribes to one or more event topics and is verified with a signing secret.
   name: The Mobile First Company Webhooks API
   slug: the-mobile-first-company-webhooks-api
-artifact_total: 36
+artifact_total: 38
 asyncapis:
 - description: ''
   name: The Mobile First Company Webhooks
   slug: the-mobile-first-company-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Allo Analytics API
   slug: open-the-mobile-first-company-analytics-api
@@ -151,62 +150,62 @@ collections:
   slug: open-the-mobile-first-company-webhooks-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/rate-limits/the-mobile-first-company-rate-limits.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/rate-limits/the-mobile-first-company-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/the-mobile-first-company-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/plans/the-mobile-first-company-plans-pricing.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/plans/the-mobile-first-company-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/the-mobile-first-company-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/capabilities/the-mobile-first-company-capability-edges.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/capabilities/the-mobile-first-company-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/the-mobile-first-company-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/security/the-mobile-first-company-domain-security.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/security/the-mobile-first-company-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-mobile-first-company-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/authentication/the-mobile-first-company-authentication.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/authentication/the-mobile-first-company-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-mobile-first-company-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/_original/the-mobile-first-company-allo-openapi.json
+  href: https://artifacts.apis.io/the-mobile-first-company/openapi/_original/the-mobile-first-company-allo-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/the-mobile-first-company-allo-openapi.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/overlays/the-mobile-first-company-allo-overlay.yaml
+  href: https://artifacts.apis.io/the-mobile-first-company/overlays/the-mobile-first-company-allo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-mobile-first-company-allo-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/scopes/the-mobile-first-company-scopes.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/scopes/the-mobile-first-company-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/the-mobile-first-company-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/conventions/the-mobile-first-company-conventions.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/conventions/the-mobile-first-company-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-mobile-first-company-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/conventions/the-mobile-first-company-conventions.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/conventions/the-mobile-first-company-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/the-mobile-first-company-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/errors/the-mobile-first-company-problem-types.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/errors/the-mobile-first-company-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/the-mobile-first-company-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/lifecycle/the-mobile-first-company-lifecycle.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/lifecycle/the-mobile-first-company-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/the-mobile-first-company-lifecycle.yml
@@ -215,42 +214,42 @@ common:
   type: StatusPage
   url: https://status.withallo.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/conformance/the-mobile-first-company-conformance.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/conformance/the-mobile-first-company-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-mobile-first-company-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/data-model/the-mobile-first-company-data-model.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/data-model/the-mobile-first-company-data-model.yml
   title: ''
   type: DataModel
   url: data-model/the-mobile-first-company-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/changelog/the-mobile-first-company-changelog.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/changelog/the-mobile-first-company-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/the-mobile-first-company-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/asyncapi/the-mobile-first-company-webhooks.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/asyncapi/the-mobile-first-company-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/the-mobile-first-company-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/mcp/the-mobile-first-company-mcp.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/mcp/the-mobile-first-company-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/the-mobile-first-company-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/llms/the-mobile-first-company-llms.txt
+  href: https://artifacts.apis.io/the-mobile-first-company/llms/the-mobile-first-company-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-mobile-first-company-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/well-known/the-mobile-first-company-well-known.yml
+  href: https://artifacts.apis.io/the-mobile-first-company/well-known/the-mobile-first-company-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/the-mobile-first-company-well-known.yml
@@ -304,6 +303,14 @@ common:
   url: https://www.withallo.com/mcp
 created: '2026-07-17'
 description: The Mobile-First Company is a French / US (Miami HQ) startup building a suite of mobile-first, AI-powered business apps for small teams under a "one problem, one app" philosophy. Its flagship product, Allo, is an AI phone system used by 5,000+ businesses — an AI receptionist that answers 24/7, call recording with transcription and AI summaries, intelligent routing, spam blocking, SMS, and CRM sync. Allo ships a full REST API (calls, SMS, contacts, CRM, analytics, webhooks), a hosted Model Context Protocol (MCP) server, and OAuth 2.0. Sibling apps Due (invoicing) and Claim (expenses) extend the same approach. The company is backed by Base10 Partners and Lightspeed Venture Partners.
+finops:
+- has_sources: true
+  method: derived
+  name: The Mobile First Company Finops
+  primary_unit: user
+  service_category: ''
+  slug: the-mobile-first-company-finops
+  template: false
 image: https://cdn.prod.website-files.com/678d02bf3966a86060a3c142/6a461aa199bb23ab1e5eb686_Allo_Logo_Allo_0.svg
 layout: provider
 mcp_servers:
@@ -331,7 +338,7 @@ plans:
 - name: The Mobile First Company Price Estimates
   plan_count: 0
   slug: the-mobile-first-company-price-estimates
-random_paper: 1
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: The Mobile First Company Rate Limits
@@ -343,23 +350,28 @@ scopes:
   summary_line: 22 scopes
 score:
   band: strong
-  composite: 62.0
+  composite: 62.3
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 57.0
+    artifact_dirs: 25
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 69.7
+    access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 62.6
+    contract_quality: 60.9
     developer_ergonomics: 58.9
-    discoverability: 71.7
+    discoverability: 65.0
     operational_transparency: 60.5
-  previous_composite: 62.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 60.7
   provenance:
     conformance: first-party
     contracts:
@@ -375,13 +387,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 32.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/screenshots/the-mobile-first-company-2026-08-17T082339.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/the-mobile-first-company/the-mobile-first-company-2026-08-17T082339.png
 security:
 - kind: authentication
   name: The Mobile First Company Authentication
@@ -391,6 +404,12 @@ security:
   name: The Mobile First Company Domain Security
   slug: the-mobile-first-company-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: send-sms-follow-up
+  slug: the-mobile-first-company-send-sms-follow-up
+- name: sync-completed-calls-to-crm
+  slug: the-mobile-first-company-sync-completed-calls-to-crm
 slug: the-mobile-first-company
 tags:
 - Company

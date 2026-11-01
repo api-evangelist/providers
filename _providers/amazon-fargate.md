@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -103,14 +105,11 @@ arazzos:
 - description: Scale a service to zero, wait for it to drain, then delete it.
   name: Amazon Fargate Tear Down a Service
   slug: amazon-fargate-teardown-service-workflow
-artifact_total: 97
+artifact_total: 96
 collections:
 - collection_type: postman
   name: Amazon Fargate API
   slug: postman-amazon-fargate
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Fargate Account Settings API
   slug: open-amazon-fargate-account-settings-api
@@ -134,37 +133,37 @@ collections:
   slug: open-amazon-fargate
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/plans/amazon-fargate-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-fargate/plans/amazon-fargate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-fargate-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/rate-limits/amazon-fargate-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-fargate/rate-limits/amazon-fargate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-fargate-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/finops/amazon-fargate-finops.yml
+  href: https://artifacts.apis.io/amazon-fargate/finops/amazon-fargate-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-fargate-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/agentic-access/amazon-fargate-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-fargate/agentic-access/amazon-fargate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-fargate-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/security/amazon-fargate-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-fargate/security/amazon-fargate-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-fargate-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/security/amazon-fargate-domain-security.yml
+  href: https://artifacts.apis.io/amazon-fargate/security/amazon-fargate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-fargate-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/authentication/amazon-fargate-authentication.yml
+  href: https://artifacts.apis.io/amazon-fargate/authentication/amazon-fargate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-fargate-authentication.yml
@@ -173,47 +172,47 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-fargate/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/arazzo/amazon-fargate-cluster-inventory-audit-workflow.yml
+  href: https://artifacts.apis.io/amazon-fargate/arazzo/amazon-fargate-cluster-inventory-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fargate-cluster-inventory-audit-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/arazzo/amazon-fargate-decommission-cluster-workflow.yml
+  href: https://artifacts.apis.io/amazon-fargate/arazzo/amazon-fargate-decommission-cluster-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fargate-decommission-cluster-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/arazzo/amazon-fargate-deploy-service-workflow.yml
+  href: https://artifacts.apis.io/amazon-fargate/arazzo/amazon-fargate-deploy-service-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fargate-deploy-service-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/arazzo/amazon-fargate-provision-and-run-task-workflow.yml
+  href: https://artifacts.apis.io/amazon-fargate/arazzo/amazon-fargate-provision-and-run-task-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fargate-provision-and-run-task-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/arazzo/amazon-fargate-rolling-update-service-workflow.yml
+  href: https://artifacts.apis.io/amazon-fargate/arazzo/amazon-fargate-rolling-update-service-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fargate-rolling-update-service-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/arazzo/amazon-fargate-run-batch-task-to-completion-workflow.yml
+  href: https://artifacts.apis.io/amazon-fargate/arazzo/amazon-fargate-run-batch-task-to-completion-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fargate-run-batch-task-to-completion-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/arazzo/amazon-fargate-run-latest-task-definition-workflow.yml
+  href: https://artifacts.apis.io/amazon-fargate/arazzo/amazon-fargate-run-latest-task-definition-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fargate-run-latest-task-definition-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/arazzo/amazon-fargate-stop-task-and-confirm-workflow.yml
+  href: https://artifacts.apis.io/amazon-fargate/arazzo/amazon-fargate-stop-task-and-confirm-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fargate-stop-task-and-confirm-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/arazzo/amazon-fargate-teardown-service-workflow.yml
+  href: https://artifacts.apis.io/amazon-fargate/arazzo/amazon-fargate-teardown-service-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-fargate-teardown-service-workflow.yml
@@ -270,17 +269,17 @@ common:
   type: StackOverflow
   url: https://stackoverflow.com/questions/tagged/aws-fargate
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/rules/amazon-fargate-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-fargate/rules/amazon-fargate-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-fargate-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/vocabulary/amazon-fargate-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-fargate/vocabulary/amazon-fargate-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-fargate-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/json-ld/amazon-fargate-context.jsonld
+  href: https://artifacts.apis.io/amazon-fargate/json-ld/amazon-fargate-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/amazon-fargate-context.jsonld
@@ -357,13 +356,13 @@ features:
 - description: Run fault-tolerant workloads on Fargate Spot for significant cost savings.
   name: Spot Instances
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Fargate Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: gb-second
+  service_category: ''
   slug: amazon-fargate-finops
-  template: true
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: AccountSetting
@@ -479,9 +478,9 @@ overview: 'Amazon Fargate is listed with 6 APIs on the [APIs.io](https://apis.io
   Amazon Fargate''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 26 more developer resources.'
 plans:
 - name: Amazon Fargate Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: amazon-fargate-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Amazon Fargate Rate Limits
@@ -511,24 +510,24 @@ rules:
     warn: 18
   slug: amazon-fargate-spectral-rules
 score:
-  band: developing
-  composite: 47.7
+  band: strong
+  composite: 56.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 75.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    artifact_dirs: 20
+    catalog_earned: 87.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 28.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 27.3
     contract_quality: 31.8
     developer_ergonomics: 65.5
     discoverability: 78.6
-    operational_transparency: 26.3
-  previous_composite: 49.2
+    operational_transparency: 39.5
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     contracts:
@@ -542,13 +541,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/screenshots/amazon-fargate-2026-06-20T171646.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-fargate/amazon-fargate-2026-06-20T171646.png
 security:
 - kind: authentication
   name: Amazon Fargate Authentication

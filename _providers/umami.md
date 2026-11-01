@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.6
-  scored_at: '2026-10-17'
+  score: 36.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,23 +45,16 @@ agentic_access:
   operation_count: 23
   slug: umami-agentic-access
   summary_line: 23 operations · 10 acting
-api_count: 7
+api_count: 2
 apis:
+- description: Remote Model Context Protocol server for Umami Cloud at https://cloud.umami.is/mcp (Bearer api_ Cloud API key, Pro plan and above), also available on self-hosted v3.4.0+ at /mcp with MCP_ENABLED=1, an
+  name: Umami MCP Server
+  slug: umami-mcp-server
 - baseURL: https://api.umami.is/v1
   baseurl_source: declared
   description: Login and token verification
   name: Umami Authentication API
   slug: umami-authentication-api
-- baseURL: https://api.umami.is/v1
-  baseurl_source: declared
-  description: Custom event tracking
-  name: Umami Events API
-  slug: umami-events-api
-- baseURL: https://api.umami.is/v1
-  baseurl_source: declared
-  description: Visitor session data
-  name: Umami Sessions API
-  slug: umami-sessions-api
 - baseURL: https://api.umami.is/v1
   baseurl_source: declared
   description: Team and access management
@@ -72,15 +67,70 @@ apis:
   slug: umami-users-api
 - baseURL: https://api.umami.is/v1
   baseurl_source: declared
-  description: Analytics metrics, pageviews, and statistics
-  name: Umami Website Statistics API
-  slug: umami-website-statistics-api
-- baseURL: https://api.umami.is/v1
-  baseurl_source: declared
   description: Website management and configuration
   name: Umami Websites API
   slug: umami-websites-api
-artifact_total: 112
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: The Account API from Umami — 6 operation(s) for account.
+  name: Umami Account API
+  slug: umami-account-api
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: The Administration API from Umami — 6 operation(s) for administration.
+  name: Umami Administration API
+  slug: umami-administration-api
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: The Boards API from Umami — 4 operation(s) for boards.
+  name: Umami Boards API
+  slug: umami-boards-api
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: The Collection API from Umami — 3 operation(s) for collection.
+  name: Umami Collection API
+  slug: umami-collection-api
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: The Dashboard API from Umami — 1 operation(s) for dashboard.
+  name: Umami Dashboard API
+  slug: umami-dashboard-api
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: The Links API from Umami — 4 operation(s) for links.
+  name: Umami Links API
+  slug: umami-links-api
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: The Pixels API from Umami — 4 operation(s) for pixels.
+  name: Umami Pixels API
+  slug: umami-pixels-api
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: The Realtime API from Umami — 1 operation(s) for realtime.
+  name: Umami Realtime API
+  slug: umami-realtime-api
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: The Scripts API from Umami — 1 operation(s) for scripts.
+  name: Umami Scripts API
+  slug: umami-scripts-api
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: The Shares API from Umami — 3 operation(s) for shares.
+  name: Umami Shares API
+  slug: umami-shares-api
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: The System API from Umami — 1 operation(s) for system.
+  name: Umami System API
+  slug: umami-system-api
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: The Two-factor authentication API from Umami — 6 operation(s) for two-factor authentication.
+  name: Umami Two-factor authentication API
+  slug: umami-two-factor-authentication-api
+artifact_total: 132
 collections:
 - collection_type: postman
   name: Umami Analytics Authentication API
@@ -103,9 +153,6 @@ collections:
 - collection_type: postman
   name: Umami Analytics Authentication Websites API
   slug: postman-umami-websites-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Umami Analytics Authentication API
   slug: open-umami-authentication-api
@@ -131,13 +178,87 @@ collections:
   name: Umami Analytics API
   slug: open-umami
 common:
+- group: other
+  href: https://artifacts.apis.io/umami/overlays/umami-events-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/umami-events-api-overlay.yaml
+- group: other
+  href: https://artifacts.apis.io/umami/overlays/umami-sessions-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/umami-sessions-api-overlay.yaml
+- group: other
+  href: https://artifacts.apis.io/umami/overlays/umami-website-statistics-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/umami-website-statistics-api-overlay.yaml
+- group: build
+  href: https://artifacts.apis.io/umami/mcp/umami-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/umami-tool-crosswalk.yml
+- group: agent
+  href: https://artifacts.apis.io/umami/mcp/umami-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/umami-mcp.yml
+- group: design
+  href: https://artifacts.apis.io/umami/rules/umami-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/umami-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/umami/rules/umami-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/umami-rules.yml
+- group: design
+  href: https://artifacts.apis.io/umami/rules/umami-jsonschema-spectral-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/umami-jsonschema-spectral-rules.yml
+- group: design
+  href: https://artifacts.apis.io/umami/json-ld/umami-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/umami-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/umami/vocabulary/umami-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/umami-vocabulary.yml
+- group: operate
+  href: https://artifacts.apis.io/umami/lifecycle/umami-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/umami-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/umami/hosts/umami-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/umami-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/umami/integrations/umami-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/umami-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/umami/vendors/umami-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/umami-vendors.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://umami.is/product/developers
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/security/umami-trust-center.yml
+  href: https://artifacts.apis.io/umami/security/umami-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/umami-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/security/umami-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/umami/security/umami-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/umami-vulnerability-disclosure.yml
@@ -146,17 +267,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/umami/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/agentic-access/umami-agentic-access.yml
+  href: https://artifacts.apis.io/umami/agentic-access/umami-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/umami-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/security/umami-domain-security.yml
+  href: https://artifacts.apis.io/umami/security/umami-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/umami-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/authentication/umami-authentication.yml
+  href: https://artifacts.apis.io/umami/authentication/umami-authentication.yml
   title: ''
   type: Authentication
   url: authentication/umami-authentication.yml
@@ -201,47 +322,47 @@ common:
   type: Support
   url: https://umami.is/contact
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/rules/umami-spectral-rules.yml
+  href: https://artifacts.apis.io/umami/rules/umami-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/umami-spectral-rules.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/packages/umami-packages.yml
+  href: https://artifacts.apis.io/umami/packages/umami-packages.yml
   title: ''
   type: Packages
   url: packages/umami-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/packages/umami-packages.yml
+  href: https://artifacts.apis.io/umami/packages/umami-packages.yml
   title: ''
   type: SDKs
   url: packages/umami-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/cli/umami-cli.yml
+  href: https://artifacts.apis.io/umami/cli/umami-cli.yml
   title: ''
   type: CLI
   url: cli/umami-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/components/umami-components.yml
+  href: https://artifacts.apis.io/umami/components/umami-components.yml
   title: ''
   type: Components
   url: components/umami-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/conventions/umami-conventions.yml
+  href: https://artifacts.apis.io/umami/conventions/umami-conventions.yml
   title: ''
   type: Conventions
   url: conventions/umami-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/data-model/umami-data-model.yml
+  href: https://artifacts.apis.io/umami/data-model/umami-data-model.yml
   title: ''
   type: DataModel
   url: data-model/umami-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/errors/umami-problem-types.yml
+  href: https://artifacts.apis.io/umami/errors/umami-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/umami-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/lifecycle/umami-lifecycle.yml
+  href: https://artifacts.apis.io/umami/lifecycle/umami-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/umami-lifecycle.yml
@@ -250,47 +371,47 @@ common:
   type: StatusPage
   url: https://umami.statuspage.io
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/changelog/umami-changelog.yml
+  href: https://artifacts.apis.io/umami/changelog/umami-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/umami-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/conformance/umami-conformance.yml
+  href: https://artifacts.apis.io/umami/conformance/umami-conformance.yml
   title: ''
   type: Conformance
   url: conformance/umami-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/security/umami-trust-center.yml
+  href: https://artifacts.apis.io/umami/security/umami-trust-center.yml
   title: ''
   type: Compliance
   url: security/umami-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/security/umami-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/umami/security/umami-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/umami-vulnerability-disclosure.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/plans/umami-plans-pricing.yml
+  href: https://artifacts.apis.io/umami/plans/umami-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/umami-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/rate-limits/umami-rate-limits.yml
+  href: https://artifacts.apis.io/umami/rate-limits/umami-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/umami-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/finops/umami-finops.yml
+  href: https://artifacts.apis.io/umami/finops/umami-finops.yml
   title: ''
   type: FinOps
   url: finops/umami-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/llms/umami-llms.txt
+  href: https://artifacts.apis.io/umami/llms/umami-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/umami-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/umami/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -335,7 +456,7 @@ common:
   type: Guides
   url: https://docs.umami.is/docs/guides
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/vocabulary/umami-vocabulary.yaml
+  href: https://artifacts.apis.io/umami/vocabulary/umami-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/umami-vocabulary.yaml
@@ -417,13 +538,13 @@ features:
 - description: Full REST API for programmatic access to all analytics data and management functions.
   name: API Access
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Umami Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: umami-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/umami.png
 integrations:
 - description: First-class integration with Next.js via the @umami/nextjs package for page view tracking.
@@ -440,6 +561,9 @@ json_schemas:
 - name: ActiveVisitors
   property_count: 1
   slug: umami-active-visitors
+- name: CreateWebsiteRequest
+  property_count: 5
+  slug: umami-create-website-request
 - name: LoginRequest
   property_count: 2
   slug: umami-login-request
@@ -485,12 +609,21 @@ json_schemas:
 - name: WebsiteList
   property_count: 4
   slug: umami-website-list
+- name: WebsitePage
+  property_count: 6
+  slug: umami-website-page
+- name: WebsitePageviews
+  property_count: 5
+  slug: umami-website-pageviews
 - name: WebsiteRequest
   property_count: 4
   slug: umami-website-request
 - name: Website
   property_count: 10
   slug: umami-website
+- name: WebsiteSessionPage
+  property_count: 5
+  slug: umami-website-session-page
 - name: WebsiteStats
   property_count: 5
   slug: umami-website-stats
@@ -558,21 +691,28 @@ jsonld:
   property_count: 0
   slug: umami-context
 layout: provider
+mcp_servers:
+- description: 'Umami ships an official MCP server: a remote endpoint on Umami Cloud (https://cloud.umami.is/mcp), the same /mcp endpoint on self-hosted v3.4.0+ (MCP_ENABLED=1), and the @umami/mcp stdio package. All '
+  name: Umami MCP Server
+  slug: umami-mcp-server
 modified: '2026-08-13'
 name: Umami
 nav: Providers
 network: true
-overview: 'Umami is listed with 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Events API, Sessions API, and 4 more. Tagged areas include Cookieless Tracking, Open Source, Privacy, Web Analytics, and Website Analytics.
+overview: 'Umami publishes 17 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authentication API, Teams API, Users API, and 14 more. Tagged areas include Cookieless Tracking, Open Source, Privacy, Web Analytics, and Website Analytics.
 
 
-  The Umami catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Umami catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Umami''s developer surface includes authentication, documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 39 more developer resources.'
+  Umami''s developer surface includes authentication, documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 54 more developer resources.'
 plans:
 - name: Umami Plans Pricing
   plan_count: 4
   slug: umami-plans-pricing
+- name: Umami Price Estimates
+  plan_count: 0
+  slug: umami-price-estimates
 random_paper: 9
 rate_limits:
 - limit_count: 1
@@ -591,6 +731,18 @@ rules:
     warn: 3
   slug: umami-jsonschema-spectral-rules
 - authorship: generated
+  effective_rule_count: 59
+  extends:
+  - spectral:oas
+  name: Umami API Rules
+  rule_count: 18
+  severity_counts:
+    error: 16
+    hint: 0
+    info: 1
+    warn: 1
+  slug: umami-rules
+- authorship: generated
   effective_rule_count: 78
   extends:
   - spectral:oas
@@ -603,33 +755,33 @@ rules:
     warn: 15
   slug: umami-spectral-rules
 score:
-  band: strong
-  composite: 62.0
+  band: exemplar
+  composite: 74.3
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 35
     catalog_earned: 83.0
     catalog_earned_first_party: 20.0
     catalog_gap: 32.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 2.0
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 45.5
-    contract_quality: 28.5
-    developer_ergonomics: 64.9
-    discoverability: 71.4
-    operational_transparency: 65.8
-  previous_composite: 63.5
+    contract_quality: 58.0
+    developer_ergonomics: 74.4
+    discoverability: 65.0
+    operational_transparency: 76.3
+  previous_composite: 72.3
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
-      derived: 8
-      marker_coverage: 100.0
-      total: 8
-    mcp: derived
+      callable: 5.9
+      derived: 1
+      marker_coverage: 5.9
+      total: 17
+    mcp: first-party
     skills: derived
   regulatory:
     applies: true
@@ -637,13 +789,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/screenshots/umami-2026-06-20T200011.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/umami/umami-2026-06-20T200011.png
 security:
 - kind: authentication
   name: Umami Authentication
@@ -661,6 +814,16 @@ security:
   name: Umami Trust Center
   slug: umami-trust-center
   summary_line: trust center published
+skill_count: 4
+skills:
+- name: umami-manage-teams-and-access
+  slug: umami-manage-teams-and-access
+- name: umami-onboard-a-website
+  slug: umami-onboard-a-website
+- name: umami-send-server-side-events
+  slug: umami-send-server-side-events
+- name: umami-website-traffic-report
+  slug: umami-website-traffic-report
 slug: umami
 solutions:
 - description: Hosted Umami instance at cloud.umami.is with managed infrastructure and API key authentication.

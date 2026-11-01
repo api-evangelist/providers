@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Partner order-booking API used by Thyrocare's DSA (Direct Selling Agent) franchise network for booking diagnostic tests and retrieving reports. A Swashbuckle (.NET) Swagger UI is publicly reachable, b
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thyrocare/refs/heads/main/security/thyrocare-domain-security.yml
+  href: https://artifacts.apis.io/thyrocare/security/thyrocare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thyrocare-domain-security.yml
@@ -66,12 +68,12 @@ common:
   type: PrivacyPolicy
   url: https://b2capi.thyrocare.com/privacy_policy.html
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thyrocare/refs/heads/main/well-known/thyrocare-well-known.yml
+  href: https://artifacts.apis.io/thyrocare/well-known/thyrocare-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/thyrocare-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thyrocare/refs/heads/main/llms/thyrocare-llms.txt
+  href: https://artifacts.apis.io/thyrocare/llms/thyrocare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/thyrocare-llms.txt
@@ -87,10 +89,10 @@ overview: 'Thyrocare is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   Thyrocare''s developer surface includes support, signup flow, and 6 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
   band: emerging
-  composite: 12.8
+  composite: 13.1
   coverage:
     artifact_dirs: 5
     catalog_earned: 37.0
@@ -103,8 +105,8 @@ score:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
-    discoverability: 73.2
+    developer_ergonomics: 11.9
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -113,21 +115,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 12.8
+  previous_composite: 13.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/thyrocare/refs/heads/main/screenshots/thyrocare-2026-09-02T163657.png
+screenshot: https://apis.io/screenshots/thyrocare/thyrocare-2026-09-02T163657.png
 security:
 - kind: domain-security
   name: Thyrocare Domain Security

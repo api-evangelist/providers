@@ -4,6 +4,6 @@ layout: provider
 name: acceptance-criteria
 nav: Providers
 network: true
-random_paper: 13
+random_paper: 7
 slug: acceptance-criteria
 ---

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The agent-facing commerce surface for TRUFF''s online store. A Model Context Protocol endpoint at https://shop.truff.com/api/ucp/mcp implements the Universal Commerce Protocol dev.ucp.shopping service '
@@ -76,67 +78,67 @@ common:
   type: Documentation
   url: https://shop.truff.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truff/refs/heads/main/mcp/truff-mcp.yml
+  href: https://artifacts.apis.io/truff/mcp/truff-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/truff-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/truff/refs/heads/main/mcp/truff-tool-crosswalk.yml
+  href: https://artifacts.apis.io/truff/mcp/truff-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/truff-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truff/refs/heads/main/llms/truff-llms.txt
+  href: https://artifacts.apis.io/truff/llms/truff-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/truff-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truff/refs/heads/main/well-known/truff-well-known.yml
+  href: https://artifacts.apis.io/truff/well-known/truff-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/truff-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/truff/refs/heads/main/well-known/truff-openid-configuration.json
+  href: https://artifacts.apis.io/truff/well-known/truff-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/truff-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truff/refs/heads/main/authentication/truff-authentication.yml
+  href: https://artifacts.apis.io/truff/authentication/truff-authentication.yml
   title: ''
   type: Authentication
   url: authentication/truff-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truff/refs/heads/main/conventions/truff-conventions.yml
+  href: https://artifacts.apis.io/truff/conventions/truff-conventions.yml
   title: ''
   type: Conventions
   url: conventions/truff-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truff/refs/heads/main/conventions/truff-conventions.yml
+  href: https://artifacts.apis.io/truff/conventions/truff-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/truff-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truff/refs/heads/main/conformance/truff-conformance.yml
+  href: https://artifacts.apis.io/truff/conformance/truff-conformance.yml
   title: ''
   type: Conformance
   url: conformance/truff-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/truff/refs/heads/main/rate-limits/truff-rate-limits.yml
+  href: https://artifacts.apis.io/truff/rate-limits/truff-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/truff-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/truff/refs/heads/main/plans/truff-plans-pricing.yml
+  href: https://artifacts.apis.io/truff/plans/truff-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/truff-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truff/refs/heads/main/lifecycle/truff-lifecycle.yml
+  href: https://artifacts.apis.io/truff/lifecycle/truff-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/truff-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truff/refs/heads/main/security/truff-domain-security.yml
+  href: https://artifacts.apis.io/truff/security/truff-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/truff-domain-security.yml
@@ -161,14 +163,14 @@ plans:
 - name: Truff Plans Pricing
   plan_count: 0
   slug: truff-plans-pricing
-random_paper: 1
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Truff Rate Limits
   slug: truff-rate-limits
 score:
   band: emerging
-  composite: 21.0
+  composite: 20.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -182,7 +184,7 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -191,7 +193,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 21.0
+  previous_composite: 20.0
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -201,14 +203,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/truff/refs/heads/main/screenshots/truff-2026-09-02T164357.png
+screenshot: https://apis.io/screenshots/truff/truff-2026-09-02T164357.png
 security:
 - kind: authentication
   name: Truff Authentication

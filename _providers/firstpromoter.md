@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 62.5
-  scored_at: '2026-10-17'
+  score: 54.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 1
@@ -46,7 +48,7 @@ agentic_access:
   operation_count: 157
   slug: firstpromoter-agentic-access
   summary_line: 157 operations · 87 acting · 1 human-in-the-loop
-api_count: 74
+api_count: 37
 apis:
 - baseURL: https://api.firstpromoter.com/api/v2/company
   baseurl_source: declared
@@ -198,15 +200,12 @@ apis:
   description: The Webhooks API from FirstPromoter — 4 operation(s) for webhooks.
   name: FirstPromoter Webhooks API
   slug: firstpromoter-webhooks-api
-artifact_total: 85
+artifact_total: 89
 asyncapis:
 - description: ''
   name: Firstpromoter Webhooks
   slug: firstpromoter-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: FirstPromoter Admin Payouts API
   slug: open-firstpromoter-v2-advanced-payout-methods
@@ -320,192 +319,192 @@ collections:
   slug: open-firstpromoter-v2-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/capabilities/firstpromoter-capability-edges.yml
+  href: https://artifacts.apis.io/firstpromoter/capabilities/firstpromoter-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/firstpromoter-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-advanced-payout-methods-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-advanced-payout-methods-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-advanced-payout-methods-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-advanced-products-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-advanced-products-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-advanced-products-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-affiliate-assets-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-affiliate-assets-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-affiliate-assets-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-affiliate-campaigns-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-affiliate-campaigns-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-affiliate-campaigns-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-affiliate-commissions-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-affiliate-commissions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-affiliate-commissions-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-affiliate-contract-documents-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-affiliate-contract-documents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-affiliate-contract-documents-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-affiliate-email-settings-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-affiliate-email-settings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-affiliate-email-settings-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-affiliate-payout-methods-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-affiliate-payout-methods-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-affiliate-payout-methods-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-affiliate-payouts-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-affiliate-payouts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-affiliate-payouts-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-affiliate-promo-codes-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-affiliate-promo-codes-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-affiliate-promo-codes-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-affiliate-promoter-campaigns-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-affiliate-promoter-campaigns-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-affiliate-promoter-campaigns-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-affiliate-promoters-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-affiliate-promoters-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-affiliate-promoters-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-affiliate-referral-links-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-affiliate-referral-links-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-affiliate-referral-links-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-affiliate-referrals-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-affiliate-referrals-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-affiliate-referrals-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-affiliate-reports-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-affiliate-reports-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-affiliate-reports-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-asset-categories-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-asset-categories-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-asset-categories-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-assets-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-assets-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-assets-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-batches-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-batches-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-batches-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-campaigns-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-campaigns-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-campaigns-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-commissions-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-commissions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-commissions-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-contract-documents-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-contract-documents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-contract-documents-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-contracts-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-contracts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-contracts-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-custom-referral-statuses-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-custom-referral-statuses-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-custom-referral-statuses-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-dashboard-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-dashboard-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-dashboard-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-emails-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-emails-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-emails-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-invoices-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-invoices-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-invoices-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-payent-batches-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-payent-batches-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-payent-batches-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-payouts-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-payouts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-payouts-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-promocodes-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-promocodes-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-promocodes-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-promoter-campaigns-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-promoter-campaigns-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-promoter-campaigns-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-promoters-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-promoters-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-promoters-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-referral-custom-status-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-referral-custom-status-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-referral-custom-status-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-referrals-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-referrals-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-referrals-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-reports-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-reports-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-reports-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-rewards-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-rewards-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-rewards-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-tracking-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-tracking-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-tracking-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/overlays/firstpromoter-v2-webhooks-overlay.yaml
+  href: https://artifacts.apis.io/firstpromoter/overlays/firstpromoter-v2-webhooks-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/firstpromoter-v2-webhooks-overlay.yaml
@@ -586,162 +585,162 @@ common:
   type: ChangeLog
   url: https://changelog.firstpromoter.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/changelog/firstpromoter-changelog.yml
+  href: https://artifacts.apis.io/firstpromoter/changelog/firstpromoter-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/firstpromoter-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/agentic-access/firstpromoter-agentic-access.yml
+  href: https://artifacts.apis.io/firstpromoter/agentic-access/firstpromoter-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/firstpromoter-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/security/firstpromoter-domain-security.yml
+  href: https://artifacts.apis.io/firstpromoter/security/firstpromoter-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/firstpromoter-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/authentication/firstpromoter-authentication.yml
+  href: https://artifacts.apis.io/firstpromoter/authentication/firstpromoter-authentication.yml
   title: ''
   type: Authentication
   url: authentication/firstpromoter-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/scopes/firstpromoter-scopes.yml
+  href: https://artifacts.apis.io/firstpromoter/scopes/firstpromoter-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/firstpromoter-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/vocabulary/firstpromoter-vocabulary.yml
+  href: https://artifacts.apis.io/firstpromoter/vocabulary/firstpromoter-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/firstpromoter-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/json-ld/firstpromoter-context.jsonld
+  href: https://artifacts.apis.io/firstpromoter/json-ld/firstpromoter-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/firstpromoter-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/plans/firstpromoter-plans-pricing.yml
+  href: https://artifacts.apis.io/firstpromoter/plans/firstpromoter-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/firstpromoter-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/rate-limits/firstpromoter-rate-limits.yml
+  href: https://artifacts.apis.io/firstpromoter/rate-limits/firstpromoter-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/firstpromoter-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/finops/firstpromoter-finops.yml
+  href: https://artifacts.apis.io/firstpromoter/finops/firstpromoter-finops.yml
   title: ''
   type: FinOps
   url: finops/firstpromoter-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/packages/firstpromoter-packages.yml
+  href: https://artifacts.apis.io/firstpromoter/packages/firstpromoter-packages.yml
   title: ''
   type: Packages
   url: packages/firstpromoter-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/packages/firstpromoter-packages.yml
+  href: https://artifacts.apis.io/firstpromoter/packages/firstpromoter-packages.yml
   title: ''
   type: SDKs
   url: packages/firstpromoter-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/well-known/firstpromoter-well-known.yml
+  href: https://artifacts.apis.io/firstpromoter/well-known/firstpromoter-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/firstpromoter-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/mcp/firstpromoter-mcp.yml
+  href: https://artifacts.apis.io/firstpromoter/mcp/firstpromoter-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/firstpromoter-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/mcp/firstpromoter-tool-crosswalk.yml
+  href: https://artifacts.apis.io/firstpromoter/mcp/firstpromoter-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/firstpromoter-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/a2a/firstpromoter-a2a.yml
+  href: https://artifacts.apis.io/firstpromoter/a2a/firstpromoter-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/firstpromoter-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/firstpromoter/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/llms/firstpromoter-llms.txt
+  href: https://artifacts.apis.io/firstpromoter/llms/firstpromoter-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/firstpromoter-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/conventions/firstpromoter-conventions.yml
+  href: https://artifacts.apis.io/firstpromoter/conventions/firstpromoter-conventions.yml
   title: ''
   type: Conventions
   url: conventions/firstpromoter-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/conformance/firstpromoter-conformance.yml
+  href: https://artifacts.apis.io/firstpromoter/conformance/firstpromoter-conformance.yml
   title: ''
   type: Conformance
   url: conformance/firstpromoter-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/errors/firstpromoter-problem-types.yml
+  href: https://artifacts.apis.io/firstpromoter/errors/firstpromoter-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/firstpromoter-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/lifecycle/firstpromoter-lifecycle.yml
+  href: https://artifacts.apis.io/firstpromoter/lifecycle/firstpromoter-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/firstpromoter-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/data-model/firstpromoter-data-model.yml
+  href: https://artifacts.apis.io/firstpromoter/data-model/firstpromoter-data-model.yml
   title: ''
   type: DataModel
   url: data-model/firstpromoter-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/components/firstpromoter-components.yml
+  href: https://artifacts.apis.io/firstpromoter/components/firstpromoter-components.yml
   title: ''
   type: Components
   url: components/firstpromoter-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/asyncapi/firstpromoter-webhooks.yml
+  href: https://artifacts.apis.io/firstpromoter/asyncapi/firstpromoter-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/firstpromoter-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/rules/firstpromoter-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/firstpromoter/rules/firstpromoter-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/firstpromoter-jsonschema-spectral-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/json-schema/firstpromoter-promoter-schema.json
+  href: https://artifacts.apis.io/firstpromoter/json-schema/firstpromoter-promoter-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/firstpromoter-promoter-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/json-schema/firstpromoter-referral-schema.json
+  href: https://artifacts.apis.io/firstpromoter/json-schema/firstpromoter-referral-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/firstpromoter-referral-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/json-schema/firstpromoter-commission-schema.json
+  href: https://artifacts.apis.io/firstpromoter/json-schema/firstpromoter-commission-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/firstpromoter-commission-schema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/examples/firstpromoter-create-promoter-example.json
+  href: https://artifacts.apis.io/firstpromoter/examples/firstpromoter-create-promoter-example.json
   title: ''
   type: Examples
   url: examples/firstpromoter-create-promoter-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/examples/firstpromoter-track-sale-example.json
+  href: https://artifacts.apis.io/firstpromoter/examples/firstpromoter-track-sale-example.json
   title: ''
   type: Examples
   url: examples/firstpromoter-track-sale-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/examples/firstpromoter-webhook-event-example.json
+  href: https://artifacts.apis.io/firstpromoter/examples/firstpromoter-webhook-event-example.json
   title: ''
   type: Examples
   url: examples/firstpromoter-webhook-event-example.json
@@ -758,13 +757,13 @@ examples:
   name: Firstpromoter Webhook Event Example
   slug: firstpromoter-webhook-event-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Firstpromoter Finops
-  primary_unit: ''
+  primary_unit: subscription
   service_category: ''
   slug: firstpromoter-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/firstpromoter.png
 json_schemas:
 - name: Commission
@@ -799,9 +798,12 @@ overview: 'FirstPromoter publishes 30 API contracts indexed on the [APIs.io](htt
   FirstPromoter''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 82 more developer resources.'
 plans:
 - name: Firstpromoter Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: firstpromoter-plans-pricing
-random_paper: 10
+- name: Firstpromoter Price Estimates
+  plan_count: 0
+  slug: firstpromoter-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Firstpromoter Rate Limits
@@ -824,24 +826,24 @@ scopes:
   slug: firstpromoter-scopes
   summary_line: 2 scopes
 score:
-  band: strong
-  composite: 63.3
+  band: exemplar
+  composite: 67.8
   coverage:
     artifact_dirs: 34
-    catalog_earned: 72.5
+    catalog_earned: 75.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 42.5
+    catalog_gap: 39.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 77.6
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 65.3
+    contract_quality: 63.2
     developer_ergonomics: 71.4
-    discoverability: 80.0
-    operational_transparency: 31.6
-  previous_composite: 64.8
+    discoverability: 70.0
+    operational_transparency: 50.0
+  previous_composite: 66.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -858,13 +860,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/screenshots/firstpromoter-2026-06-20T181244.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/firstpromoter/firstpromoter-2026-06-20T181244.png
 security:
 - kind: authentication
   name: Firstpromoter Authentication
@@ -874,6 +877,16 @@ security:
   name: Firstpromoter Domain Security
   slug: firstpromoter-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Firstpromoter
+  slug: firstpromoter-firstpromoter
+- name: firstpromoter-onboard-a-promoter
+  slug: firstpromoter-onboard-a-promoter
+- name: firstpromoter-subscribe-to-webhooks
+  slug: firstpromoter-subscribe-to-webhooks
+- name: firstpromoter-track-revenue-events
+  slug: firstpromoter-track-revenue-events
 slug: firstpromoter
 tags:
 - Affiliate Marketing

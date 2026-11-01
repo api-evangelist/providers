@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 common:
@@ -92,12 +94,12 @@ overview: 'GlossGenius is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   GlossGenius'' developer surface includes engineering blog, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 15
+random_paper: 3
 score:
   band: emerging
-  composite: 13.2
+  composite: 14.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -108,30 +110,24 @@ score:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
+    developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
-  previous_composite: 13.2
+    operational_transparency: 5.3
+  previous_composite: 14.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 7.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/glossgenius/refs/heads/main/screenshots/glossgenius-2026-07-25T215925.png
+screenshot: https://apis.io/screenshots/glossgenius/glossgenius-2026-07-25T215925.png
 slug: glossgenius
 tags:
 - Company

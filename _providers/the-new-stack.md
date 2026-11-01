@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: RSS feed providing the latest articles and news from The New Stack covering cloud native, DevOps, AI, and open source technologies. Feed follows RSS 2.0 with Dublin Core and WordPress content extensio
@@ -45,22 +47,22 @@ apis:
 artifact_total: 11
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/the-new-stack/refs/heads/main/plans/the-new-stack-plans-pricing.yml
+  href: https://artifacts.apis.io/the-new-stack/plans/the-new-stack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/the-new-stack-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/the-new-stack/refs/heads/main/rate-limits/the-new-stack-rate-limits.yml
+  href: https://artifacts.apis.io/the-new-stack/rate-limits/the-new-stack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/the-new-stack-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/the-new-stack/refs/heads/main/finops/the-new-stack-finops.yml
+  href: https://artifacts.apis.io/the-new-stack/finops/the-new-stack-finops.yml
   title: ''
   type: FinOps
   url: finops/the-new-stack-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-new-stack/refs/heads/main/security/the-new-stack-domain-security.yml
+  href: https://artifacts.apis.io/the-new-stack/security/the-new-stack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-new-stack-domain-security.yml
@@ -146,7 +148,7 @@ finops:
 - has_sources: false
   method: generated
   name: The New Stack Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: the-new-stack-finops
   template: true
@@ -180,7 +182,7 @@ plans:
 - name: The New Stack Plans Pricing
   plan_count: 3
   slug: the-new-stack-plans-pricing
-random_paper: 21
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: The New Stack Rate Limits
@@ -199,7 +201,7 @@ rules:
   slug: the-new-stack-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 15.6
+  composite: 15.9
   coverage:
     artifact_dirs: 13
     catalog_earned: 44.3
@@ -207,29 +209,29 @@ score:
     catalog_gap: 70.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 10.7
     developer_ergonomics: 9.5
     discoverability: 48.2
-    operational_transparency: 10.5
-  previous_composite: 17.1
+    operational_transparency: 13.2
+  previous_composite: 15.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-new-stack/refs/heads/main/screenshots/the-new-stack-2026-06-20T195228.png
+screenshot: https://apis.io/screenshots/the-new-stack/the-new-stack-2026-06-20T195228.png
 security:
 - kind: domain-security
   name: The New Stack Domain Security

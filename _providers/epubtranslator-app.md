@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: EPUB Translator provides AI-powered translation of entire EPUB books via a remote MCP server. Users upload an EPUB or PDF and receive a fully translated version in the target language.
@@ -35,57 +37,57 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/plans/epubtranslator-app-plans-pricing.yml
+  href: https://artifacts.apis.io/epubtranslator-app/plans/epubtranslator-app-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/epubtranslator-app-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/rules/epubtranslator-app-rules.yml
+  href: https://artifacts.apis.io/epubtranslator-app/rules/epubtranslator-app-rules.yml
   title: ''
   type: Spectral
   url: rules/epubtranslator-app-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/json-ld/epubtranslator-app-context.jsonld
+  href: https://artifacts.apis.io/epubtranslator-app/json-ld/epubtranslator-app-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/epubtranslator-app-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/vocabulary/epubtranslator-app-vocabulary.yml
+  href: https://artifacts.apis.io/epubtranslator-app/vocabulary/epubtranslator-app-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/epubtranslator-app-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/data-model/epubtranslator-app-data-model.yml
+  href: https://artifacts.apis.io/epubtranslator-app/data-model/epubtranslator-app-data-model.yml
   title: ''
   type: DataModel
   url: data-model/epubtranslator-app-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/conformance/epubtranslator-app-conformance.yml
+  href: https://artifacts.apis.io/epubtranslator-app/conformance/epubtranslator-app-conformance.yml
   title: ''
   type: Conformance
   url: conformance/epubtranslator-app-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/llms/epubtranslator-app-llms.txt
+  href: https://artifacts.apis.io/epubtranslator-app/llms/epubtranslator-app-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/epubtranslator-app-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/well-known/epubtranslator-app-well-known.yml
+  href: https://artifacts.apis.io/epubtranslator-app/well-known/epubtranslator-app-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/epubtranslator-app-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/hosts/epubtranslator-app-hosts.yml
+  href: https://artifacts.apis.io/epubtranslator-app/hosts/epubtranslator-app-hosts.yml
   title: ''
   type: Hosts
   url: hosts/epubtranslator-app-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/vendors/epubtranslator-app-vendors.yml
+  href: https://artifacts.apis.io/epubtranslator-app/vendors/epubtranslator-app-vendors.yml
   title: ''
   type: Vendors
   url: vendors/epubtranslator-app-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/security/epubtranslator-app-domain-security.yml
+  href: https://artifacts.apis.io/epubtranslator-app/security/epubtranslator-app-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/epubtranslator-app-domain-security.yml
@@ -153,7 +155,7 @@ plans:
 - name: Epubtranslator App Plans Pricing
   plan_count: 1
   slug: epubtranslator-app-plans-pricing
-random_paper: 0
+random_paper: 20
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -169,7 +171,7 @@ rules:
   slug: epubtranslator-app-rules
 score:
   band: thin
-  composite: 29.8
+  composite: 29.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 56.2
@@ -177,15 +179,15 @@ score:
     catalog_gap: 58.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 35.6
     contract_quality: 16.4
     developer_ergonomics: 16.7
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 29.7
+  previous_composite: 29.1
   provenance:
     conformance: first-party
     contracts:
@@ -204,14 +206,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/epubtranslator-app/refs/heads/main/screenshots/epubtranslator-app-2026-10-11T104243.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/epubtranslator-app/epubtranslator-app-2026-10-11T104243.png
 security:
 - kind: domain-security
   name: Epubtranslator App Domain Security

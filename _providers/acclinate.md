@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 12.2
-  scored_at: '2026-10-17'
+  score: 7.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -61,7 +63,7 @@ common:
   type: PrivacyPolicy
   url: https://acclinate.com/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acclinate/refs/heads/main/security/acclinate-domain-security.yml
+  href: https://artifacts.apis.io/acclinate/security/acclinate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acclinate-domain-security.yml
@@ -81,10 +83,10 @@ overview: 'Acclinate is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Acclinate''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 8
+random_paper: 20
 score:
   band: minimal
-  composite: 10.5
+  composite: 10.2
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -98,9 +100,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 51.7
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 10.5
+  previous_composite: 10.2
   provenance:
     mcp: first-party
   regulatory:
@@ -109,14 +111,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/acclinate/refs/heads/main/screenshots/acclinate-2026-07-25T181448.png
+screenshot: https://apis.io/screenshots/acclinate/acclinate-2026-07-25T181448.png
 security:
 - kind: domain-security
   name: Acclinate Domain Security

@@ -14,7 +14,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -30,15 +30,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 29.4
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://app.pixiebrix.com/api/
   baseurl_source: declared
@@ -195,7 +197,7 @@ apis:
   description: The tours API from PixieBrix — 3 operation(s) for tours.
   name: PixieBrix Tours API
   slug: pixiebrix-tours-api
-artifact_total: 37
+artifact_total: 43
 common:
 - group: company
   title: ''
@@ -206,12 +208,12 @@ common:
   type: BlogRSS
   url: https://blog.pixiebrix.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/capabilities/pixiebrix-capability-edges.yml
+  href: https://artifacts.apis.io/pixiebrix/capabilities/pixiebrix-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pixiebrix-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/overlays/pixiebrix-developer-api-overlay.yaml
+  href: https://artifacts.apis.io/pixiebrix/overlays/pixiebrix-developer-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pixiebrix-developer-api-overlay.yaml
@@ -280,17 +282,17 @@ common:
   type: Compliance
   url: https://www.pixiebrix.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/security/pixiebrix-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pixiebrix/security/pixiebrix-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/pixiebrix-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/security/pixiebrix-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/pixiebrix/security/pixiebrix-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/pixiebrix-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/security/pixiebrix-domain-security.yml
+  href: https://artifacts.apis.io/pixiebrix/security/pixiebrix-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pixiebrix-domain-security.yml
@@ -299,17 +301,17 @@ common:
   type: Marketplace
   url: https://www.pixiebrix.com/marketplace
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/llms/pixiebrix-llms.txt
+  href: https://artifacts.apis.io/pixiebrix/llms/pixiebrix-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pixiebrix-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/changelog/pixiebrix-changelog.yml
+  href: https://artifacts.apis.io/pixiebrix/changelog/pixiebrix-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/pixiebrix-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/lifecycle/pixiebrix-lifecycle.yml
+  href: https://artifacts.apis.io/pixiebrix/lifecycle/pixiebrix-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pixiebrix-lifecycle.yml
@@ -318,37 +320,45 @@ common:
   type: Deprecation
   url: https://docs.pixiebrix.com/developer-api/deprecated-resources
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/packages/pixiebrix-packages.yml
+  href: https://artifacts.apis.io/pixiebrix/packages/pixiebrix-packages.yml
   title: ''
   type: Packages
   url: packages/pixiebrix-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/conformance/pixiebrix-conformance.yml
+  href: https://artifacts.apis.io/pixiebrix/conformance/pixiebrix-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pixiebrix-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/plans/pixiebrix-plans-pricing.yml
+  href: https://artifacts.apis.io/pixiebrix/plans/pixiebrix-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pixiebrix-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/rate-limits/pixiebrix-rate-limits.yml
+  href: https://artifacts.apis.io/pixiebrix/rate-limits/pixiebrix-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pixiebrix-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/sandbox/pixiebrix-sandbox.yml
+  href: https://artifacts.apis.io/pixiebrix/sandbox/pixiebrix-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pixiebrix-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pixiebrix/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-08-26'
 description: PixieBrix is a browser-based platform for customer care and enterprise operations teams that layers automation, AI assistance, integrations and real-time policy enforcement onto the web applications a team already uses, deployed as a lightweight browser extension and companion web app rather than an endpoint agent. Teams build "mods" from a library of prebuilt "bricks" — DOM readers, UI components, HTTP request bricks, AI/LLM bricks and data connectors — and administrators govern them centrally through activity policies, deployments, groups and audit trails. The public PixieBrix Developer API is a token-authenticated REST surface at https://app.pixiebrix.com/api/ covering team management, package/registry publishing, deployments, databases, activity policy and health checks, described by a published OpenAPI 3.0.2 specification.
+finops:
+- has_sources: true
+  method: derived
+  name: Pixiebrix Finops
+  primary_unit: user/month
+  service_category: ''
+  slug: pixiebrix-finops
+  template: false
 image: https://cdn.prod.website-files.com/627def74bc73d85070c65929/697cf1b5cee0b7370cdc763a_pixiebrixog.png
 layout: provider
 modified: '2026-10-06'
@@ -361,32 +371,35 @@ overview: 'PixieBrix publishes 31 API contracts indexed on the [APIs.io](https:/
   PixieBrix''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, support, pricing, and 27 more developer resources.'
 plans:
 - name: Pixiebrix Plans Pricing
-  plan_count: 4
+  plan_count: 14
   slug: pixiebrix-plans-pricing
-random_paper: 12
+- name: Pixiebrix Price Estimates
+  plan_count: 0
+  slug: pixiebrix-price-estimates
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Pixiebrix Rate Limits
   slug: pixiebrix-rate-limits
 score:
   band: strong
-  composite: 62.3
+  composite: 65.0
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 57.0
+    artifact_dirs: 24
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 78.9
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 44.5
+    contract_quality: 41.9
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 73.7
-  previous_composite: 62.2
+    discoverability: 66.1
+    operational_transparency: 76.3
+  previous_composite: 63.5
   provenance:
     conformance: first-party
     contracts:
@@ -402,13 +415,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/screenshots/pixiebrix-2026-09-02T151345.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pixiebrix/pixiebrix-2026-09-02T151345.png
 security:
 - kind: authentication
   name: Pixiebrix Authentication
@@ -426,6 +440,16 @@ security:
   name: Pixiebrix Trust Center
   slug: pixiebrix-trust-center
   summary_line: SOC 2, PCI DSS, GDPR
+skill_count: 4
+skills:
+- name: pixiebrix-audit-agent-activity
+  slug: pixiebrix-audit-agent-activity
+- name: pixiebrix-deploy-mod-to-group
+  slug: pixiebrix-deploy-mod-to-group
+- name: pixiebrix-manage-database-records
+  slug: pixiebrix-manage-database-records
+- name: pixiebrix-onboard-team-member
+  slug: pixiebrix-onboard-team-member
 slug: pixiebrix
 tags:
 - Company

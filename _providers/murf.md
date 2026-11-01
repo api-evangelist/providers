@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 16.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -78,11 +80,8 @@ apis:
   description: The subpackage_voiceChanger API from Murf — 1 operation(s) for subpackage_voicechanger.
   name: Murf Subpackage Voice Changer API
   slug: murf-subpackage-voicechanger-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: API Reference subpackage_auth API
   slug: open-murf-subpackage-auth-api
@@ -109,22 +108,22 @@ collections:
   slug: open-murf
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/capabilities/murf-capability-edges.yml
+  href: https://artifacts.apis.io/murf/capabilities/murf-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/murf-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/agentic-access/murf-agentic-access.yml
+  href: https://artifacts.apis.io/murf/agentic-access/murf-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/murf-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/security/murf-trust-center.yml
+  href: https://artifacts.apis.io/murf/security/murf-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/murf-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/security/murf-domain-security.yml
+  href: https://artifacts.apis.io/murf/security/murf-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/murf-domain-security.yml
@@ -141,22 +140,22 @@ common:
   type: Documentation
   url: https://murf.ai/api/docs/introduction/overview
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/_original/murf-openapi.yml
+  href: https://artifacts.apis.io/murf/openapi/_original/murf-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/murf-openapi.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/plans/murf-plans-pricing.yml
+  href: https://artifacts.apis.io/murf/plans/murf-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/murf-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/rate-limits/murf-rate-limits.yml
+  href: https://artifacts.apis.io/murf/rate-limits/murf-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/murf-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/finops/murf-finops.yml
+  href: https://artifacts.apis.io/murf/finops/murf-finops.yml
   title: ''
   type: FinOps
   url: finops/murf-finops.yml
@@ -184,7 +183,7 @@ modified: '2026-05-19'
 name: Murf
 nav: Providers
 network: true
-overview: 'Murf publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Subpackage Auth API, subpackage_dubbing.subpackage_dubbing/jobs API, Subpackage Dubbing.subpackage Dubbing/languages API, and 4 more. Tagged areas include Artificial Intelligence, Voice, TTS, Voiceover, and Dubbing.
+overview: 'Murf publishes 7 API contracts indexed on the [APIs.io](https://apis.io/) network, including Subpackage Auth API, subpackage_dubbing.subpackage_dubbing/jobs API, Subpackage Dubbing.subpackage Dubbing/languages API, and 4 more. Tagged areas include Artificial Intelligence, Voice, Text-to-Speech, Voiceover, and Dubbing.
 
 
   Murf''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
@@ -192,14 +191,14 @@ plans:
 - name: Murf Plans Pricing
   plan_count: 3
   slug: murf-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Murf Rate Limits
   slug: murf-rate-limits
 score:
   band: thin
-  composite: 28.3
+  composite: 29.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 43.0
@@ -207,7 +206,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
@@ -215,7 +214,7 @@ score:
     developer_ergonomics: 11.9
     discoverability: 73.2
     operational_transparency: 13.2
-  previous_composite: 30.3
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     contracts:
@@ -229,13 +228,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/screenshots/murf-2026-06-20T185902.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/murf/murf-2026-06-20T185902.png
 security:
 - kind: domain-security
   name: Murf Domain Security
@@ -249,7 +249,7 @@ slug: murf
 tags:
 - Artificial Intelligence
 - Voice
-- TTS
+- Text-to-Speech
 - Voiceover
 - Dubbing
 - Audio

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Provides information about parcels in transport for Sweden and Denmark
@@ -41,12 +43,12 @@ apis:
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/postnord/refs/heads/main/security/postnord-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/postnord/security/postnord-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/postnord-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/postnord/refs/heads/main/security/postnord-domain-security.yml
+  href: https://artifacts.apis.io/postnord/security/postnord-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/postnord-domain-security.yml
@@ -67,10 +69,10 @@ name: PostNord
 nav: Providers
 network: true
 overview: PostNord is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Tracking, Public APIs, Shipping, Postal, and Parcel.
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
-  composite: 5.0
+  composite: 8.3
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -83,24 +85,24 @@ score:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 9.5
     discoverability: 55.4
-    operational_transparency: 0.0
-  previous_composite: 5.0
+    operational_transparency: 10.5
+  previous_composite: 8.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/postnord/refs/heads/main/screenshots/postnord-2026-06-20T192014.png
+screenshot: https://apis.io/screenshots/postnord/postnord-2026-06-20T192014.png
 security:
 - kind: domain-security
   name: Postnord Domain Security

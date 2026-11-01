@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -115,15 +117,12 @@ apis:
   description: The Twilio Media Stream API from ASAPP — 1 operation(s) for twilio media stream.
   name: ASAPP Twilio Media Stream API
   slug: asapp-twilio-media-stream-api
-artifact_total: 35
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Asapp Realtime Events Webhooks
   slug: asapp-realtime-events-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AutoCompose API
   slug: open-asapp-autocompose-api
@@ -172,12 +171,12 @@ common:
   type: BlogRSS
   url: https://www.asapp.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/capabilities/asapp-capability-edges.yml
+  href: https://artifacts.apis.io/asapp/capabilities/asapp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/asapp-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/overlays/asapp-autosummary-overlay.yaml
+  href: https://artifacts.apis.io/asapp/overlays/asapp-autosummary-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/asapp-autosummary-overlay.yaml
@@ -198,27 +197,27 @@ common:
   type: GettingStarted
   url: https://docs.asapp.com/getting-started/developers
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/authentication/asapp-authentication.yml
+  href: https://artifacts.apis.io/asapp/authentication/asapp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/asapp-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/conventions/asapp-conventions.yml
+  href: https://artifacts.apis.io/asapp/conventions/asapp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/asapp-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/errors/asapp-problem-types.yml
+  href: https://artifacts.apis.io/asapp/errors/asapp-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/asapp-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/data-model/asapp-data-model.yml
+  href: https://artifacts.apis.io/asapp/data-model/asapp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/asapp-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/lifecycle/asapp-lifecycle.yml
+  href: https://artifacts.apis.io/asapp/lifecycle/asapp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/asapp-lifecycle.yml
@@ -227,42 +226,42 @@ common:
   type: StatusPage
   url: https://status.asapp.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/changelog/asapp-changelog.yml
+  href: https://artifacts.apis.io/asapp/changelog/asapp-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/asapp-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/sandbox/asapp-sandbox.yml
+  href: https://artifacts.apis.io/asapp/sandbox/asapp-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/asapp-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/packages/asapp-packages.yml
+  href: https://artifacts.apis.io/asapp/packages/asapp-packages.yml
   title: ''
   type: Packages
   url: packages/asapp-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/packages/asapp-packages.yml
+  href: https://artifacts.apis.io/asapp/packages/asapp-packages.yml
   title: ''
   type: SDKs
   url: packages/asapp-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/components/asapp-components.yml
+  href: https://artifacts.apis.io/asapp/components/asapp-components.yml
   title: ''
   type: Components
   url: components/asapp-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/mcp/asapp-mcp.yml
+  href: https://artifacts.apis.io/asapp/mcp/asapp-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/asapp-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/well-known/asapp-well-known.yml
+  href: https://artifacts.apis.io/asapp/well-known/asapp-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/asapp-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/conformance/asapp-conformance.yml
+  href: https://artifacts.apis.io/asapp/conformance/asapp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/asapp-conformance.yml
@@ -271,32 +270,32 @@ common:
   type: Compliance
   url: https://trust.asapp.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/asyncapi/asapp-realtime-events-webhooks.yml
+  href: https://artifacts.apis.io/asapp/asyncapi/asapp-realtime-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/asapp-realtime-events-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/asapp/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/llms/asapp-llms.txt
+  href: https://artifacts.apis.io/asapp/llms/asapp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/asapp-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/agentic-access/asapp-agentic-access.yml
+  href: https://artifacts.apis.io/asapp/agentic-access/asapp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/asapp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/security/asapp-trust-center.yml
+  href: https://artifacts.apis.io/asapp/security/asapp-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/asapp-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/security/asapp-domain-security.yml
+  href: https://artifacts.apis.io/asapp/security/asapp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/asapp-domain-security.yml
@@ -341,24 +340,24 @@ overview: 'ASAPP publishes 14 API contracts indexed on the [APIs.io](https://api
   ASAPP''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 26 more developer resources.'
 random_paper: 5
 score:
-  band: strong
-  composite: 57.5
+  band: developing
+  composite: 52.3
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
-    contract_quality: 58.4
+    contract_quality: 57.9
     developer_ergonomics: 73.2
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 39.5
-  previous_composite: 57.8
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -381,13 +380,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/screenshots/asapp-2026-07-25T201402.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/asapp/asapp-2026-07-25T201402.png
 security:
 - kind: authentication
   name: Asapp Authentication
@@ -401,6 +401,16 @@ security:
   name: Asapp Trust Center
   slug: asapp-trust-center
   summary_line: SOC 2, PCI DSS, HIPAA, GDPR
+skill_count: 4
+skills:
+- name: Get agent reply suggestions with AutoCompose
+  slug: asapp-autocompose-suggest
+- name: Run GenerativeAgent on a conversation
+  slug: asapp-generativeagent-respond
+- name: Add knowledge base content via API
+  slug: asapp-knowledge-base-submit
+- name: Summarize a conversation with AI Summary
+  slug: asapp-summarize-conversation
 slug: asapp
 tags:
 - Company

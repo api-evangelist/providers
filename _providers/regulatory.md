@@ -4,6 +4,6 @@ layout: provider
 name: regulatory
 nav: Providers
 network: true
-random_paper: 2
+random_paper: 22
 slug: regulatory
 ---

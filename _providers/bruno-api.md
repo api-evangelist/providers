@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: The core open-source, git-native desktop API client (a lightweight Postman/Insomnia alternative). Compose and send HTTP, REST, GraphQL, and gRPC requests, organize them into collections, manage enviro
@@ -57,20 +59,20 @@ apis:
 - description: Bruno is an open-source API client for exploring and testing REST, GraphQL, and gRPC APIs. Collections are stored as plain text Bru files on the filesystem, enabling Git-based version control, team co
   name: Bruno API Client
   slug: api-client
-artifact_total: 13
+artifact_total: 15
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/vendor-facets/bruno-api-vendor-facets.yml
+  href: https://artifacts.apis.io/bruno-api/vendor-facets/bruno-api-vendor-facets.yml
   title: ''
   type: VendorFacets
   url: vendor-facets/bruno-api-vendor-facets.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/security/bruno-api-trust-center.yml
+  href: https://artifacts.apis.io/bruno-api/security/bruno-api-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bruno-api-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/security/bruno-api-domain-security.yml
+  href: https://artifacts.apis.io/bruno-api/security/bruno-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bruno-api-domain-security.yml
@@ -91,17 +93,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/usebruno
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/plans/bruno-api-plans-pricing.yml
+  href: https://artifacts.apis.io/bruno-api/plans/bruno-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bruno-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/rate-limits/bruno-api-rate-limits.yml
+  href: https://artifacts.apis.io/bruno-api/rate-limits/bruno-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bruno-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/finops/bruno-api-finops.yml
+  href: https://artifacts.apis.io/bruno-api/finops/bruno-api-finops.yml
   title: ''
   type: FinOps
   url: finops/bruno-api-finops.yml
@@ -114,47 +116,47 @@ common:
   type: Blog
   url: https://www.usebruno.com/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/a2a/bruno-api-a2a.yml
+  href: https://artifacts.apis.io/bruno-api/a2a/bruno-api-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/bruno-api-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/mcp/bruno-api-mcp.yml
+  href: https://artifacts.apis.io/bruno-api/mcp/bruno-api-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bruno-api-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/well-known/bruno-api-well-known.yml
+  href: https://artifacts.apis.io/bruno-api/well-known/bruno-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bruno-api-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/llms/bruno-api-llms.txt
+  href: https://artifacts.apis.io/bruno-api/llms/bruno-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bruno-api-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bruno-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/packages/bruno-api-packages.yml
+  href: https://artifacts.apis.io/bruno-api/packages/bruno-api-packages.yml
   title: ''
   type: Packages
   url: packages/bruno-api-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/packages/bruno-api-packages.yml
+  href: https://artifacts.apis.io/bruno-api/packages/bruno-api-packages.yml
   title: ''
   type: SDKs
   url: packages/bruno-api-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/cli/bruno-api-cli.yml
+  href: https://artifacts.apis.io/bruno-api/cli/bruno-api-cli.yml
   title: ''
   type: CLI
   url: cli/bruno-api-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/changelog/bruno-api-changelog.yml
+  href: https://artifacts.apis.io/bruno-api/changelog/bruno-api-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bruno-api-changelog.yml
@@ -163,27 +165,27 @@ common:
   type: ReleaseNotes
   url: https://www.usebruno.com/changelog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/lifecycle/bruno-api-lifecycle.yml
+  href: https://artifacts.apis.io/bruno-api/lifecycle/bruno-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bruno-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/conformance/bruno-api-conformance.yml
+  href: https://artifacts.apis.io/bruno-api/conformance/bruno-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bruno-api-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/security/bruno-api-trust-center.yml
+  href: https://artifacts.apis.io/bruno-api/security/bruno-api-trust-center.yml
   title: ''
   type: Compliance
   url: security/bruno-api-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/security/bruno-api-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bruno-api/security/bruno-api-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/bruno-api-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/security/bruno-api-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bruno-api/security/bruno-api-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bruno-api-vulnerability-disclosure.yml
@@ -230,8 +232,8 @@ finops:
 - has_sources: true
   method: derived
   name: Bruno Api Finops
-  primary_unit: ''
-  service_category: Developer Tools
+  primary_unit: user/month, billed annually
+  service_category: ''
   slug: bruno-api-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bruno-api.png
@@ -250,32 +252,35 @@ overview: 'Bruno is listed with 3 APIs on the [APIs.io](https://apis.io/) networ
   Bruno''s developer surface includes documentation, engineering blog, CLI, changelog, release notes, getting-started guide, pricing, and 29 more developer resources.'
 plans:
 - name: Bruno Api Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: bruno-api-plans-pricing
-random_paper: 7
+- name: Bruno Api Price Estimates
+  plan_count: 0
+  slug: bruno-api-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Bruno Api Rate Limits
   slug: bruno-api-rate-limits
 score:
   band: developing
-  composite: 50.4
+  composite: 51.3
   coverage:
     artifact_dirs: 19
-    catalog_earned: 59.0
+    catalog_earned: 62.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 56.0
+    catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 71.7
-    operational_transparency: 65.8
-  previous_composite: 51.9
+    discoverability: 61.7
+    operational_transparency: 68.4
+  previous_composite: 49.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -286,14 +291,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/screenshots/bruno-api-2026-07-25T204007.png
+screenshot: https://apis.io/screenshots/bruno-api/bruno-api-2026-07-25T204007.png
 security:
 - kind: domain-security
   name: Bruno Api Domain Security
@@ -307,6 +312,10 @@ security:
   name: Bruno Api Trust Center
   slug: bruno-api-trust-center
   summary_line: SOC 2 Type I
+skill_count: 1
+skills:
+- name: bruno
+  slug: bruno-api-bruno
 slug: bruno-api
 tags:
 - API Client

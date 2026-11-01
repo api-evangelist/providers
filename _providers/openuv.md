@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-17'
+  score: 20.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +61,7 @@ apis:
   description: Current and forecasted UV index data
   name: OpenUV UV Index API
   slug: openuv-uv-index-api
-artifact_total: 58
+artifact_total: 57
 collections:
 - collection_type: postman
   name: OpenUV Account API
@@ -70,9 +72,6 @@ collections:
 - collection_type: postman
   name: OpenUV Account UV Index API
   slug: postman-openuv-uv-index-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenUV Account API
   slug: open-openuv-account-api
@@ -91,17 +90,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/openuv/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/agentic-access/openuv-agentic-access.yml
+  href: https://artifacts.apis.io/openuv/agentic-access/openuv-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openuv-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/security/openuv-domain-security.yml
+  href: https://artifacts.apis.io/openuv/security/openuv-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openuv-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/authentication/openuv-authentication.yml
+  href: https://artifacts.apis.io/openuv/authentication/openuv-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openuv-authentication.yml
@@ -130,12 +129,12 @@ common:
   type: Pricing
   url: https://www.openuv.io/console
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/plans/openuv-plans-pricing.yml
+  href: https://artifacts.apis.io/openuv/plans/openuv-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openuv-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/rate-limits/openuv-rate-limits.yml
+  href: https://artifacts.apis.io/openuv/rate-limits/openuv-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openuv-rate-limits.yml
@@ -172,22 +171,22 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/rules/openuv-rules.yml
+  href: https://artifacts.apis.io/openuv/rules/openuv-rules.yml
   title: ''
   type: SpectralRules
   url: rules/openuv-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/vocabulary/openuv-vocabulary.yml
+  href: https://artifacts.apis.io/openuv/vocabulary/openuv-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/openuv-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/json-structure/openuv-structure.json
+  href: https://artifacts.apis.io/openuv/json-structure/openuv-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/openuv-structure.json
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/finops/openuv-finops.yml
+  href: https://artifacts.apis.io/openuv/finops/openuv-finops.yml
   title: ''
   type: FinOps
   url: finops/openuv-finops.yml
@@ -297,7 +296,7 @@ plans:
 - name: Openuv Plans Pricing
   plan_count: 5
   slug: openuv-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Openuv Rate Limits
@@ -327,24 +326,24 @@ rules:
     warn: 6
   slug: openuv-rules
 score:
-  band: thin
-  composite: 36.9
+  band: developing
+  composite: 48.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 72.0
     catalog_earned_first_party: 0.0
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 0.0
   facets:
-    access_clarity: 14.5
+    access_clarity: 31.6
     contract_governance: 27.3
     contract_quality: 69.0
-    developer_ergonomics: 22.6
+    developer_ergonomics: 60.7
     discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 45.2
+    operational_transparency: 13.2
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -358,14 +357,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/screenshots/openuv-2026-06-20T191048.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openuv/openuv-2026-06-20T191048.png
 security:
 - kind: authentication
   name: Openuv Authentication

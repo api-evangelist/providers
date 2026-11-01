@@ -29,16 +29,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.9
-  scored_at: '2026-10-17'
+  score: 45.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -110,15 +112,12 @@ apis:
   description: Operations for creating, capturing, voiding, refunding, and retrieving payment transactions.
   name: braintree Transactions API
   slug: braintree-transactions-api
-artifact_total: 65
+artifact_total: 64
 asyncapis:
 - description: Braintree Webhooks deliver automated HTTP POST notifications to a merchant-configured destination URL when specific events occur within the payment gateway. Webhook notifications are triggered by tran
   name: Braintree Webhooks
   slug: braintree-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Braintree Payments Add-Ons API
   slug: open-braintree-add-ons-api
@@ -154,82 +153,82 @@ collections:
   slug: open-braintree-transactions-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/plans/braintree-plans-pricing.yml
+  href: https://artifacts.apis.io/braintree/plans/braintree-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/braintree-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/rate-limits/braintree-rate-limits.yml
+  href: https://artifacts.apis.io/braintree/rate-limits/braintree-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/braintree-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/finops/braintree-finops.yml
+  href: https://artifacts.apis.io/braintree/finops/braintree-finops.yml
   title: ''
   type: FinOps
   url: finops/braintree-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/capabilities/braintree-capability-edges.yml
+  href: https://artifacts.apis.io/braintree/capabilities/braintree-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/braintree-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/agentic-access/braintree-agentic-access.yml
+  href: https://artifacts.apis.io/braintree/agentic-access/braintree-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/braintree-agentic-access.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/sandbox/braintree-sandbox.yml
+  href: https://artifacts.apis.io/braintree/sandbox/braintree-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/braintree-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/conventions/braintree-conventions.yml
+  href: https://artifacts.apis.io/braintree/conventions/braintree-conventions.yml
   title: ''
   type: Conventions
   url: conventions/braintree-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/changelog/braintree-changelog.yml
+  href: https://artifacts.apis.io/braintree/changelog/braintree-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/braintree-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/components/braintree-components.yml
+  href: https://artifacts.apis.io/braintree/components/braintree-components.yml
   title: ''
   type: Components
   url: components/braintree-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/data-model/braintree-data-model.yml
+  href: https://artifacts.apis.io/braintree/data-model/braintree-data-model.yml
   title: ''
   type: DataModel
   url: data-model/braintree-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/errors/braintree-decline-codes.yml
+  href: https://artifacts.apis.io/braintree/errors/braintree-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/braintree-decline-codes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/security/braintree-trust-center.yml
+  href: https://artifacts.apis.io/braintree/security/braintree-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/braintree-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/scopes/braintree-scopes.yml
+  href: https://artifacts.apis.io/braintree/scopes/braintree-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/braintree-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/security/braintree-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/braintree/security/braintree-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/braintree-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/security/braintree-domain-security.yml
+  href: https://artifacts.apis.io/braintree/security/braintree-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/braintree-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/authentication/braintree-authentication.yml
+  href: https://artifacts.apis.io/braintree/authentication/braintree-authentication.yml
   title: ''
   type: Authentication
   url: authentication/braintree-authentication.yml
@@ -242,22 +241,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/braintree
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/json-ld/braintree-context.jsonld
+  href: https://artifacts.apis.io/braintree/json-ld/braintree-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/braintree-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/json-schema/braintree-transaction-schema.json
+  href: https://artifacts.apis.io/braintree/json-schema/braintree-transaction-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/braintree-transaction-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/json-schema/braintree-customer-schema.json
+  href: https://artifacts.apis.io/braintree/json-schema/braintree-customer-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/braintree-customer-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/json-schema/braintree-subscription-schema.json
+  href: https://artifacts.apis.io/braintree/json-schema/braintree-subscription-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/braintree-subscription-schema.json
@@ -266,7 +265,7 @@ finops:
 - has_sources: true
   method: generated
   name: Braintree Finops
-  primary_unit: ''
+  primary_unit: transaction
   service_category: Payments
   slug: braintree-finops
   template: false
@@ -374,7 +373,7 @@ plans:
 - name: Braintree Plans Pricing
   plan_count: 6
   slug: braintree-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Braintree Rate Limits
@@ -409,24 +408,24 @@ scopes:
   slug: braintree-scopes
   summary_line: 40 scopes
 score:
-  band: thin
-  composite: 37.1
+  band: developing
+  composite: 40.3
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 44.5
+    artifact_dirs: 28
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.5
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.5
   facets:
-    access_clarity: 15.8
+    access_clarity: 23.7
     contract_governance: 13.6
-    contract_quality: 64.9
+    contract_quality: 63.1
     developer_ergonomics: 28.6
-    discoverability: 55.0
-    operational_transparency: 26.3
-  previous_composite: 38.7
+    discoverability: 51.8
+    operational_transparency: 39.5
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -441,13 +440,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 33.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/screenshots/braintree-2026-06-20T173632.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/braintree/braintree-2026-06-20T173632.png
 security:
 - kind: authentication
   name: Braintree Authentication

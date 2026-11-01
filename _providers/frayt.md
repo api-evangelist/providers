@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.0
-  scored_at: '2026-10-17'
+  score: 34.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 7
@@ -61,24 +63,85 @@ apis:
   description: The oauth API from FRAYT — 1 operation(s) for oauth.
   name: FRAYT OAUTH API
   slug: frayt-oauth-api
-artifact_total: 9
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Frayt Match Webhooks
   slug: frayt-match-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/overlays/frayt-matches-overlay.yaml
+  href: https://artifacts.apis.io/frayt/capabilities/frayt-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/frayt-capability-edges.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://dev.frayt.com/
+- group: design
+  href: https://artifacts.apis.io/frayt/rules/frayt-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/frayt-rules.yml
+- group: design
+  href: https://artifacts.apis.io/frayt/json-ld/frayt-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/frayt-context.jsonld
+- group: design
+  href: https://artifacts.apis.io/frayt/vocabulary/frayt-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/frayt-vocabulary.yml
+- group: agent
+  href: https://artifacts.apis.io/frayt/well-known/frayt-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/frayt-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/frayt/hosts/frayt-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/frayt-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/frayt/integrations/frayt-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/frayt-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/frayt/vendors/frayt-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/frayt-vendors.yml
+- group: build
+  href: https://artifacts.apis.io/frayt/packages/frayt-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/frayt-packages.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.frayt.com/resources/news
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.frayt.com/leadership
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://dev.frayt.com
+- group: other
+  href: https://artifacts.apis.io/frayt/overlays/frayt-matches-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/frayt-matches-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/agentic-access/frayt-agentic-access.yml
+  href: https://artifacts.apis.io/frayt/agentic-access/frayt-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/frayt-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/security/frayt-domain-security.yml
+  href: https://artifacts.apis.io/frayt/security/frayt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/frayt-domain-security.yml
@@ -115,43 +178,79 @@ common:
   type: SignUp
   url: https://www.frayt.app/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/llms/frayt-llms.txt
+  href: https://artifacts.apis.io/frayt/llms/frayt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/frayt-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/packages/frayt-packages.yml
+  href: https://artifacts.apis.io/frayt/packages/frayt-packages.yml
   title: ''
   type: Packages
   url: packages/frayt-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/lifecycle/frayt-lifecycle.yml
+  href: https://artifacts.apis.io/frayt/lifecycle/frayt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/frayt-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/conformance/frayt-conformance.yml
+  href: https://artifacts.apis.io/frayt/conformance/frayt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/frayt-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/frayt/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/plans/frayt-plans-pricing.yml
+  href: https://artifacts.apis.io/frayt/plans/frayt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/frayt-plans-pricing.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/rate-limits/frayt-rate-limits.yml
-  title: ''
-  type: RateLimits
-  url: rate-limits/frayt-rate-limits.yml
 created: '2026-08-16'
 description: FRAYT (Frayt Technologies, Inc., Cincinnati, Ohio) operates an on-demand and scheduled middle-mile and last-mile delivery marketplace that connects shippers to a vetted nationwide network of owner-operator drivers running everything from cars and midsize vehicles to pickups, cargo vans and box trucks. The FRAYT Client API is a versioned REST API (v2.2) over JSON, secured with OAuth 2.0 client-credentials bearer tokens, that lets a TMS, ERP or storefront price a delivery as an "estimate", authorize it into a "match", track it through the driver lifecycle, tip a driver and cancel it — with webhook callbacks defined in the OpenAPI itself for real-time match and driver-location updates. A full sandbox environment mirrors production.
+finops:
+- has_sources: true
+  method: derived
+  name: Frayt Finops
+  primary_unit: ''
+  service_category: ''
+  slug: frayt-finops
+  template: true
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+json_schemas:
+- name: CancelMatchRequest
+  property_count: 1
+  slug: frayt-cancel-match-request
+- name: MatchRequest
+  property_count: 26
+  slug: frayt-match-request
+- name: MatchResponse
+  property_count: 1
+  slug: frayt-match-response
+- name: MatchStopResponse
+  property_count: 37
+  slug: frayt-match-stop-response
+- name: Oauth Request
+  property_count: 3
+  slug: frayt-oauth-request
+- name: Oauth Response
+  property_count: 1
+  slug: frayt-oauth-response
+- name: RestrictedUpdateMatchRequest
+  property_count: 22
+  slug: frayt-restricted-update-match-request
+- name: UpdateDriverTip
+  property_count: 1
+  slug: frayt-update-driver-tip
+- name: UpdateEstimateRequest
+  property_count: 26
+  slug: frayt-update-estimate-request
+jsonld:
+- class_count: 33
+  name: Frayt Context
+  property_count: 144
+  slug: frayt-context
 layout: provider
 modified: '2026-08-16'
 name: FRAYT
@@ -160,38 +259,51 @@ network: true
 overview: 'FRAYT publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: match estimates API, Matches API, and OAUTH API. Tagged areas include Company, Last Mile Delivery, Logistics, Couriers, and On-Demand Delivery.
 
 
-  The FRAYT catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The FRAYT catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  FRAYT''s developer surface includes engineering blog, support, signup flow, and 15 more developer resources.'
+  FRAYT''s developer surface includes documentation, engineering blog, support, signup flow, and 26 more developer resources.'
 plans:
 - name: Frayt Plans Pricing
   plan_count: 0
   slug: frayt-plans-pricing
-random_paper: 0
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Frayt Rate Limits
   slug: frayt-rate-limits
+rules:
+- authorship: generated
+  effective_rule_count: 55
+  extends:
+  - spectral:oas
+  name: FRAYT API Rules
+  rule_count: 14
+  severity_counts:
+    error: 12
+    hint: 0
+    info: 1
+    warn: 1
+  slug: frayt-rules
 score:
   band: developing
-  composite: 42.5
+  composite: 51.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 40.0
+    artifact_dirs: 31
+    catalog_earned: 65.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 21.1
-    contract_governance: 4.5
-    contract_quality: 58.2
-    developer_ergonomics: 66.1
-    discoverability: 78.6
-    operational_transparency: 10.5
-  previous_composite: 42.4
+    access_clarity: 34.2
+    contract_governance: 22.0
+    contract_quality: 68.2
+    developer_ergonomics: 73.2
+    discoverability: 75.0
+    operational_transparency: 13.2
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,13 +320,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/screenshots/frayt-2026-09-02T145540.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/frayt/frayt-2026-09-02T145540.png
 security:
 - kind: authentication
   name: Frayt Authentication
@@ -224,6 +337,14 @@ security:
   name: Frayt Domain Security
   slug: frayt-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: frayt-amend-or-cancel-delivery
+  slug: frayt-amend-or-cancel-delivery
+- name: frayt-quote-and-book-delivery
+  slug: frayt-quote-and-book-delivery
+- name: frayt-track-delivery-lifecycle
+  slug: frayt-track-delivery-lifecycle
 slug: frayt
 tags:
 - Company

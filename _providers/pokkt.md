@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Supply-side ad request API. A single GET to /api/AdServer returns one or more ad objects for a full-screen interstitial or banner placement, as a JSON array (response_format=0) or as HTML markup (resp
@@ -98,67 +100,67 @@ common:
   type: GitHubOrganization
   url: https://github.com/AnyMindGroup
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pokkt/refs/heads/main/llms/pokkt-llms.txt
+  href: https://artifacts.apis.io/pokkt/llms/pokkt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pokkt-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pokkt/refs/heads/main/packages/pokkt-packages.yml
+  href: https://artifacts.apis.io/pokkt/packages/pokkt-packages.yml
   title: ''
   type: Packages
   url: packages/pokkt-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pokkt/refs/heads/main/packages/pokkt-packages.yml
+  href: https://artifacts.apis.io/pokkt/packages/pokkt-packages.yml
   title: ''
   type: SDKs
   url: packages/pokkt-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pokkt/refs/heads/main/authentication/pokkt-authentication.yml
+  href: https://artifacts.apis.io/pokkt/authentication/pokkt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pokkt-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pokkt/refs/heads/main/conventions/pokkt-conventions.yml
+  href: https://artifacts.apis.io/pokkt/conventions/pokkt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pokkt-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pokkt/refs/heads/main/errors/pokkt-error-responses.yml
+  href: https://artifacts.apis.io/pokkt/errors/pokkt-error-responses.yml
   title: ''
   type: ErrorCatalog
   url: errors/pokkt-error-responses.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pokkt/refs/heads/main/conformance/pokkt-conformance.yml
+  href: https://artifacts.apis.io/pokkt/conformance/pokkt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pokkt-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pokkt/refs/heads/main/asyncapi/pokkt-webhooks.yml
+  href: https://artifacts.apis.io/pokkt/asyncapi/pokkt-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/pokkt-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pokkt/refs/heads/main/components/pokkt-components.yml
+  href: https://artifacts.apis.io/pokkt/components/pokkt-components.yml
   title: ''
   type: Components
   url: components/pokkt-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pokkt/refs/heads/main/lifecycle/pokkt-lifecycle.yml
+  href: https://artifacts.apis.io/pokkt/lifecycle/pokkt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pokkt-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pokkt/refs/heads/main/plans/pokkt-plans-pricing.yml
+  href: https://artifacts.apis.io/pokkt/plans/pokkt-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pokkt-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pokkt/refs/heads/main/rate-limits/pokkt-rate-limits.yml
+  href: https://artifacts.apis.io/pokkt/rate-limits/pokkt-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pokkt-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pokkt/refs/heads/main/security/pokkt-domain-security.yml
+  href: https://artifacts.apis.io/pokkt/security/pokkt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pokkt-domain-security.yml
@@ -181,30 +183,30 @@ plans:
 - name: Pokkt Plans Pricing
   plan_count: 0
   slug: pokkt-plans-pricing
-random_paper: 3
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Pokkt Rate Limits
   slug: pokkt-rate-limits
 score:
   band: thin
-  composite: 36.8
+  composite: 37.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 57.1
-    discoverability: 78.6
-    operational_transparency: 10.5
-  previous_composite: 36.7
+    discoverability: 71.4
+    operational_transparency: 13.2
+  previous_composite: 37.8
   provenance:
     conformance: first-party
   regulatory:
@@ -213,14 +215,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/pokkt/refs/heads/main/screenshots/pokkt-2026-09-02T151638.png
+screenshot: https://apis.io/screenshots/pokkt/pokkt-2026-09-02T151638.png
 security:
 - kind: authentication
   name: Pokkt Authentication

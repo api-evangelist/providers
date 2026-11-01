@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,16 +34,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
-artifact_total: 4
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Coefficient Works Webhooks
   slug: coefficient-works-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coefficient-works/refs/heads/main/security/coefficient-works-domain-security.yml
+  href: https://artifacts.apis.io/coefficient-works/security/coefficient-works-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coefficient-works-domain-security.yml
@@ -110,27 +112,27 @@ common:
   type: Templates
   url: https://coefficient.io/templates
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coefficient-works/refs/heads/main/llms/coefficient-works-llms.txt
+  href: https://artifacts.apis.io/coefficient-works/llms/coefficient-works-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coefficient-works-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coefficient-works/refs/heads/main/asyncapi/coefficient-works-webhooks.yml
+  href: https://artifacts.apis.io/coefficient-works/asyncapi/coefficient-works-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/coefficient-works-webhooks.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/coefficient-works/refs/heads/main/rate-limits/coefficient-works-rate-limits.yml
+  href: https://artifacts.apis.io/coefficient-works/rate-limits/coefficient-works-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/coefficient-works-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/coefficient-works/refs/heads/main/plans/coefficient-works-plans-pricing.yml
+  href: https://artifacts.apis.io/coefficient-works/plans/coefficient-works-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/coefficient-works-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coefficient-works/refs/heads/main/conformance/coefficient-works-conformance.yml
+  href: https://artifacts.apis.io/coefficient-works/conformance/coefficient-works-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coefficient-works-conformance.yml
@@ -145,6 +147,14 @@ common:
 created: '2026-07-17'
 description: 'Coefficient Works, Inc. (operating as Coefficient) is a San Mateo, California no-code data platform that connects live business data to Google Sheets and Microsoft Excel. Founded in 2019 by Navneet Loiwal and Tommy Tsai, the company provides point-and-click connectors to 60+ business systems including Salesforce, HubSpot, NetSuite, QuickBooks, Snowflake, MySQL, Stripe, Looker, Tableau and Google Ads, with scheduled two-way sync, spreadsheet-native alerting through Slack and email, live web dashboards, and an AI assistant that builds pivot tables, formulas, charts and data-cleaning steps from natural language. Coefficient is a consumer of other providers'' APIs rather than a producer: as of this enrichment pass it publishes no public developer API, no OpenAPI or AsyncAPI description, no client SDKs, and no developer portal, and its "Connect Any API" feature is a consumer-side HTTP client (GET/POST, bearer token / API key / basic auth, cursor, offset and page-number pagination)
   that writes third-party API responses into a sheet. The one programmatic surface Coefficient serves is an inbound webhook trigger URL, issued per import on the Pro and Enterprise plans, that an external system calls to force an immediate refresh — capped at 12 calls per hour with a five-minute minimum interval. Coefficient states it is SOC 2 compliant and provides the audit report on request. Distribution is through the Google Workspace Marketplace and Microsoft AppSource. The company is backed by Battery Ventures, Foundation Capital and S28 Capital.'
+finops:
+- has_sources: true
+  method: derived
+  name: Coefficient Works Finops
+  primary_unit: user
+  service_category: ''
+  slug: coefficient-works-finops
+  template: false
 image: https://coefficient.io/wp-content/uploads/2026/02/homepage-meta-image-v2.png
 layout: provider
 modified: '2026-08-14'
@@ -162,30 +172,33 @@ plans:
 - name: Coefficient Works Plans Pricing
   plan_count: 4
   slug: coefficient-works-plans-pricing
-random_paper: 2
+- name: Coefficient Works Price Estimates
+  plan_count: 0
+  slug: coefficient-works-price-estimates
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Coefficient Works Rate Limits
   slug: coefficient-works-rate-limits
 score:
   band: developing
-  composite: 45.4
+  composite: 46.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 47.0
+    artifact_dirs: 14
+    catalog_earned: 50.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 68.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 28.6
-    discoverability: 55.4
-    operational_transparency: 31.6
-  previous_composite: 45.3
+    discoverability: 48.2
+    operational_transparency: 34.2
+  previous_composite: 45.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -195,14 +208,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/coefficient-works/refs/heads/main/screenshots/coefficient-works-2026-07-25T205946.png
+screenshot: https://apis.io/screenshots/coefficient-works/coefficient-works-2026-07-25T205946.png
 security:
 - kind: domain-security
   name: Coefficient Works Domain Security

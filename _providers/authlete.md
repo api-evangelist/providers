@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 30.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 86
   slug: authlete-agentic-access
   summary_line: 86 operations · 63 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://us.authlete.com
   baseurl_source: declared
@@ -149,11 +151,8 @@ apis:
   description: API endpoints for implementing and running a Verifiable Credential Issuer (VCI).
   name: Authlete Verifiable Credential Issuer API
   slug: authlete-verifiable-credential-issuer-api
-artifact_total: 47
+artifact_total: 52
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Authlete Authorization Endpoint API
   slug: open-authlete-authorization-endpoint-api
@@ -218,8 +217,13 @@ collections:
   name: Authlete Authorization Endpoint Verifiable Credential Issuer API
   slug: open-authlete-verifiable-credential-issuer-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/authlete/plans/authlete-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/authlete-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/capabilities/authlete-capability-edges.yml
+  href: https://artifacts.apis.io/authlete/capabilities/authlete-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/authlete-capability-edges.yml
@@ -280,92 +284,92 @@ common:
   type: ChangeLog
   url: https://www.authlete.com/developers/relnotes/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/packages/authlete-packages.yml
+  href: https://artifacts.apis.io/authlete/packages/authlete-packages.yml
   title: ''
   type: Packages
   url: packages/authlete-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/packages/authlete-packages.yml
+  href: https://artifacts.apis.io/authlete/packages/authlete-packages.yml
   title: ''
   type: SDKs
   url: packages/authlete-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/cli/authlete-cli.yml
+  href: https://artifacts.apis.io/authlete/cli/authlete-cli.yml
   title: ''
   type: CLI
   url: cli/authlete-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/components/authlete-components.yml
+  href: https://artifacts.apis.io/authlete/components/authlete-components.yml
   title: ''
   type: Components
   url: components/authlete-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/mcp/authlete-mcp.yml
+  href: https://artifacts.apis.io/authlete/mcp/authlete-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/authlete-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/llms/authlete-llms.txt
+  href: https://artifacts.apis.io/authlete/llms/authlete-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/authlete-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/overlays/authlete-openapi-overlay.yaml
+  href: https://artifacts.apis.io/authlete/overlays/authlete-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/authlete-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/conformance/authlete-conformance.yml
+  href: https://artifacts.apis.io/authlete/conformance/authlete-conformance.yml
   title: ''
   type: Conformance
   url: conformance/authlete-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/errors/authlete-problem-types.yml
+  href: https://artifacts.apis.io/authlete/errors/authlete-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/authlete-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/lifecycle/authlete-lifecycle.yml
+  href: https://artifacts.apis.io/authlete/lifecycle/authlete-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/authlete-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/conventions/authlete-conventions.yml
+  href: https://artifacts.apis.io/authlete/conventions/authlete-conventions.yml
   title: ''
   type: Conventions
   url: conventions/authlete-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/data-model/authlete-data-model.yml
+  href: https://artifacts.apis.io/authlete/data-model/authlete-data-model.yml
   title: ''
   type: DataModel
   url: data-model/authlete-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/well-known/authlete-well-known.yml
+  href: https://artifacts.apis.io/authlete/well-known/authlete-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/authlete-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/well-known/authlete-security.txt
+  href: https://artifacts.apis.io/authlete/well-known/authlete-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/authlete-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/authlete/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/agentic-access/authlete-agentic-access.yml
+  href: https://artifacts.apis.io/authlete/agentic-access/authlete-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/authlete-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/authentication/authlete-authentication.yml
+  href: https://artifacts.apis.io/authlete/authentication/authlete-authentication.yml
   title: ''
   type: Authentication
   url: authentication/authlete-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/security/authlete-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/authlete/security/authlete-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/authlete-vulnerability-disclosure.yml
@@ -374,7 +378,7 @@ common:
   type: Security
   url: https://www.authlete.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/security/authlete-domain-security.yml
+  href: https://artifacts.apis.io/authlete/security/authlete-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/authlete-domain-security.yml
@@ -384,6 +388,14 @@ common:
   url: https://authlete.com
 created: '2026-07-17'
 description: Authlete is an API-first OAuth 2.0 and OpenID Connect backend service that provides a headless authorization-server engine. It handles the OAuth/OIDC protocol logic and token management so organizations can stand up standards-compliant authorization servers and verifiable-credential issuers without building the protocol layer themselves. Authlete separates the Management APIs (configure services and clients) from the Runtime APIs (power authorization, token, introspection, CIBA, device-flow, federation, and OID4VCI endpoints), and offers managed shared cloud, dedicated cloud, and self-managed deployment across US, Japan, Europe, and Brazil regional clusters. It supports advanced profiles including FAPI / FAPI 2.0, CIBA, PAR, Grant Management, OpenID Federation, Native SSO, and OpenID for Verifiable Credential Issuance, plus regional open-banking standards (Brazil Open Banking, Australia CDR). Backed by 500 Global.
+finops:
+- has_sources: true
+  method: derived
+  name: Authlete Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: authlete-finops
+  template: false
 image: https://avatars.githubusercontent.com/u/8684109?v=4
 layout: provider
 modified: '2026-07-18'
@@ -393,27 +405,34 @@ network: true
 overview: 'Authlete publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Authorization Endpoint API, CIBA API, Client Management API, and 18 more. Tagged areas include Company, Authentication, OpenID Connect, Authorization, and Identity.
 
 
-  Authlete''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 2
+  Authlete''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+plans:
+- name: Authlete Plans Pricing
+  plan_count: 4
+  slug: authlete-plans-pricing
+- name: Authlete Price Estimates
+  plan_count: 0
+  slug: authlete-price-estimates
+random_paper: 20
 score:
-  band: developing
-  composite: 48.9
+  band: strong
+  composite: 60.7
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 31.6
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 50.4
-    developer_ergonomics: 68.5
-    discoverability: 73.2
-    operational_transparency: 52.6
-  previous_composite: 48.8
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 55.3
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -430,13 +449,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/screenshots/authlete-2026-07-25T201804.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/authlete/authlete-2026-07-25T201804.png
 security:
 - kind: authentication
   name: Authlete Authentication
@@ -450,6 +470,14 @@ security:
   name: Authlete Vulnerability Disclosure
   slug: authlete-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Drive an authorization-code flow at the runtime endpoints
+  slug: authlete-authorization-code-flow
+- name: Issue a verifiable credential (OID4VCI)
+  slug: authlete-issue-verifiable-credential
+- name: Provision a service and register a client
+  slug: authlete-provision-service-and-client
 slug: authlete
 tags:
 - Company

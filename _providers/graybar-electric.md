@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Graybar's Azure API Management developer portal. The portal is publicly reachable and serves a sign-in/sign-up flow and a single published product ("Starter", the Azure APIM default), but the anonymou
@@ -43,12 +45,12 @@ apis:
 artifact_total: 4
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/graybar-electric/refs/heads/main/plans/graybar-electric-plans-pricing.yml
+  href: https://artifacts.apis.io/graybar-electric/plans/graybar-electric-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/graybar-electric-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/graybar-electric/refs/heads/main/rate-limits/graybar-electric-rate-limits.yml
+  href: https://artifacts.apis.io/graybar-electric/rate-limits/graybar-electric-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/graybar-electric-rate-limits.yml
@@ -85,12 +87,12 @@ common:
   type: PrivacyPolicy
   url: https://www.graybar.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/graybar-electric/refs/heads/main/security/graybar-electric-domain-security.yml
+  href: https://artifacts.apis.io/graybar-electric/security/graybar-electric-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/graybar-electric-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/graybar-electric/refs/heads/main/llms/graybar-electric-llms.txt
+  href: https://artifacts.apis.io/graybar-electric/llms/graybar-electric-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/graybar-electric-llms.txt
@@ -140,14 +142,14 @@ press:
 - date: ''
   title: Explore how Graybar stays connected to customers
   url: https://www.sap.com/asset/dynamic/2025/03/febfef39-f87e-0010-bca6-c68f7e60039b.html
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Graybar Electric Rate Limits
   slug: graybar-electric-rate-limits
 score:
   band: emerging
-  composite: 25.1
+  composite: 25.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 48.0
@@ -155,15 +157,15 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 57.1
-    operational_transparency: 23.7
-  previous_composite: 22.9
+    operational_transparency: 26.3
+  previous_composite: 25.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -173,8 +175,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

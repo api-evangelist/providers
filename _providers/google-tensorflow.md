@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 15.4
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -59,11 +61,8 @@ apis:
   description: Model inference operations
   name: Google TensorFlow Prediction API
   slug: google-tensorflow-prediction-api
-artifact_total: 16
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Google TensorFlow TensorFlow Serving REST Model Status API
   slug: open-google-tensorflow-model-status-api
@@ -75,22 +74,22 @@ collections:
   slug: open-tensorflow-serving
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/plans/google-tensorflow-plans-pricing.yml
+  href: https://artifacts.apis.io/google-tensorflow/plans/google-tensorflow-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/google-tensorflow-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/rate-limits/google-tensorflow-rate-limits.yml
+  href: https://artifacts.apis.io/google-tensorflow/rate-limits/google-tensorflow-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/google-tensorflow-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/finops/google-tensorflow-finops.yml
+  href: https://artifacts.apis.io/google-tensorflow/finops/google-tensorflow-finops.yml
   title: ''
   type: FinOps
   url: finops/google-tensorflow-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/capabilities/google-tensorflow-capability-edges.yml
+  href: https://artifacts.apis.io/google-tensorflow/capabilities/google-tensorflow-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/google-tensorflow-capability-edges.yml
@@ -99,12 +98,12 @@ common:
   type: Website
   url: https://www.tensorflow.org/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/agentic-access/google-tensorflow-agentic-access.yml
+  href: https://artifacts.apis.io/google-tensorflow/agentic-access/google-tensorflow-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/google-tensorflow-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/security/google-tensorflow-domain-security.yml
+  href: https://artifacts.apis.io/google-tensorflow/security/google-tensorflow-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/google-tensorflow-domain-security.yml
@@ -133,7 +132,7 @@ common:
   type: StatusPage
   url: https://github.com/tensorflow/tensorflow
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/json-ld/google-tensorflow-context.jsonld
+  href: https://artifacts.apis.io/google-tensorflow/json-ld/google-tensorflow-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/google-tensorflow-context.jsonld
@@ -177,7 +176,7 @@ plans:
 - name: Google Tensorflow Plans Pricing
   plan_count: 1
   slug: google-tensorflow-plans-pricing
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Google Tensorflow Rate Limits
@@ -196,7 +195,7 @@ rules:
   slug: google-tensorflow-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.7
+  composite: 31.4
   coverage:
     artifact_dirs: 14
     catalog_earned: 49.7
@@ -204,7 +203,7 @@ score:
     catalog_gap: 65.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
@@ -212,7 +211,7 @@ score:
     developer_ergonomics: 35.7
     discoverability: 57.1
     operational_transparency: 21.1
-  previous_composite: 32.2
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     contracts:
@@ -226,13 +225,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/screenshots/google-tensorflow-2026-06-20T182241.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/google-tensorflow/google-tensorflow-2026-06-20T182241.png
 security:
 - kind: domain-security
   name: Google Tensorflow Domain Security

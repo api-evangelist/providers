@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.9
-  scored_at: '2026-10-17'
+  score: 29.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -132,11 +134,8 @@ apis:
   description: The WMS / WMTS API from TomTom — 3 operation(s) for wms / wmts.
   name: TomTom WMS / WMTS API
   slug: tomtom-wms-wmts-api
-artifact_total: 81
+artifact_total: 80
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Maps Additional Data API
   slug: open-tomtom-additional-data-api
@@ -195,38 +194,42 @@ collections:
   name: Maps Additional Data WMS / WMTS API
   slug: open-tomtom-wms-wmts-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tomtom/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/plans/tomtom-plans-pricing.yml
+  href: https://artifacts.apis.io/tomtom/plans/tomtom-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tomtom-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/rate-limits/tomtom-rate-limits.yml
+  href: https://artifacts.apis.io/tomtom/rate-limits/tomtom-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tomtom-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/finops/tomtom-finops.yml
+  href: https://artifacts.apis.io/tomtom/finops/tomtom-finops.yml
   title: ''
   type: FinOps
   url: finops/tomtom-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/agentic-access/tomtom-agentic-access.yml
+  href: https://artifacts.apis.io/tomtom/agentic-access/tomtom-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tomtom-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/security/tomtom-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/tomtom/security/tomtom-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/tomtom-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/security/tomtom-domain-security.yml
+  href: https://artifacts.apis.io/tomtom/security/tomtom-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tomtom-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/authentication/tomtom-authentication.yml
+  href: https://artifacts.apis.io/tomtom/authentication/tomtom-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tomtom-authentication.yml
@@ -302,10 +305,10 @@ features:
 - Global map coverage with frequent updates
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Tomtom Finops
-  primary_unit: ''
-  service_category: Maps
+  primary_unit: subscription
+  service_category: ''
   slug: tomtom-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tomtom.png
@@ -370,12 +373,12 @@ overview: 'TomTom publishes 19 API contracts indexed on the [APIs.io](https://ap
   The TomTom catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TomTom''s developer surface includes authentication, documentation, signup flow, engineering blog, pricing, and 13 more developer resources.'
+  TomTom''s developer surface includes authentication, documentation, signup flow, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Tomtom Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: tomtom-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Tomtom Rate Limits
@@ -406,23 +409,23 @@ rules:
   slug: tomtom-rules
 score:
   band: developing
-  composite: 40.9
+  composite: 50.2
   coverage:
     artifact_dirs: 19
-    catalog_earned: 63.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_earned: 75.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.8
   facets:
-    access_clarity: 42.1
+    access_clarity: 73.7
     contract_governance: 27.3
     contract_quality: 53.3
-    developer_ergonomics: 31.0
-    discoverability: 73.3
-    operational_transparency: 10.5
-  previous_composite: 42.4
+    developer_ergonomics: 34.5
+    discoverability: 71.4
+    operational_transparency: 23.7
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -437,13 +440,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/screenshots/tomtom-2026-06-20T195447.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tomtom/tomtom-2026-06-20T195447.png
 security:
 - kind: authentication
   name: Tomtom Authentication

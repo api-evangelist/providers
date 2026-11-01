@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 32.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 0
@@ -284,7 +286,7 @@ apis:
   description: The whitelist API from Syniverse — 3 operation(s) for whitelist.
   name: Syniverse Whitelist API
   slug: syniverse-whitelist-api
-artifact_total: 64
+artifact_total: 71
 asyncapis:
 - description: ''
   name: Syniverse Event Manager Webhooks
@@ -322,152 +324,152 @@ collections:
   slug: open-syniverse-whitelisting-service
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/capabilities/syniverse-capability-edges.yml
+  href: https://artifacts.apis.io/syniverse/capabilities/syniverse-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/syniverse-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/overlays/syniverse-omni-channel-messaging-overlay.yaml
+  href: https://artifacts.apis.io/syniverse/overlays/syniverse-omni-channel-messaging-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/syniverse-omni-channel-messaging-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/overlays/syniverse-multi-factor-authentication-overlay.yaml
+  href: https://artifacts.apis.io/syniverse/overlays/syniverse-multi-factor-authentication-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/syniverse-multi-factor-authentication-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/overlays/syniverse-phone-number-verification-overlay.yaml
+  href: https://artifacts.apis.io/syniverse/overlays/syniverse-phone-number-verification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/syniverse-phone-number-verification-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/overlays/syniverse-right-party-verification-overlay.yaml
+  href: https://artifacts.apis.io/syniverse/overlays/syniverse-right-party-verification-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/syniverse-right-party-verification-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/overlays/syniverse-account-takeover-detection-overlay.yaml
+  href: https://artifacts.apis.io/syniverse/overlays/syniverse-account-takeover-detection-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/syniverse-account-takeover-detection-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/overlays/syniverse-messaging-trust-resolve-overlay.yaml
+  href: https://artifacts.apis.io/syniverse/overlays/syniverse-messaging-trust-resolve-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/syniverse-messaging-trust-resolve-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/overlays/syniverse-messaging-trust-datafeed-overlay.yaml
+  href: https://artifacts.apis.io/syniverse/overlays/syniverse-messaging-trust-datafeed-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/syniverse-messaging-trust-datafeed-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/overlays/syniverse-10dlc-overlay.yaml
+  href: https://artifacts.apis.io/syniverse/overlays/syniverse-10dlc-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/syniverse-10dlc-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/overlays/syniverse-10dlc-number-pool-overlay.yaml
+  href: https://artifacts.apis.io/syniverse/overlays/syniverse-10dlc-number-pool-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/syniverse-10dlc-number-pool-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/overlays/syniverse-whitelisting-service-overlay.yaml
+  href: https://artifacts.apis.io/syniverse/overlays/syniverse-whitelisting-service-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/syniverse-whitelisting-service-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/overlays/syniverse-token-management-overlay.yaml
+  href: https://artifacts.apis.io/syniverse/overlays/syniverse-token-management-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/syniverse-token-management-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/mcp/syniverse-mcp.yml
+  href: https://artifacts.apis.io/syniverse/mcp/syniverse-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/syniverse-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/agentic-access/syniverse-agentic-access.yml
+  href: https://artifacts.apis.io/syniverse/agentic-access/syniverse-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/syniverse-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/security/syniverse-domain-security.yml
+  href: https://artifacts.apis.io/syniverse/security/syniverse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/syniverse-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/scopes/syniverse-scopes.yml
+  href: https://artifacts.apis.io/syniverse/scopes/syniverse-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/syniverse-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/authentication/syniverse-authentication.yml
+  href: https://artifacts.apis.io/syniverse/authentication/syniverse-authentication.yml
   title: ''
   type: Authentication
   url: authentication/syniverse-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/packages/syniverse-packages.yml
+  href: https://artifacts.apis.io/syniverse/packages/syniverse-packages.yml
   title: ''
   type: Packages
   url: packages/syniverse-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/packages/syniverse-packages.yml
+  href: https://artifacts.apis.io/syniverse/packages/syniverse-packages.yml
   title: ''
   type: SDKs
   url: packages/syniverse-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/conventions/syniverse-conventions.yml
+  href: https://artifacts.apis.io/syniverse/conventions/syniverse-conventions.yml
   title: ''
   type: Conventions
   url: conventions/syniverse-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/errors/syniverse-error-codes.yml
+  href: https://artifacts.apis.io/syniverse/errors/syniverse-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/syniverse-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/errors/syniverse-problem-types.yml
+  href: https://artifacts.apis.io/syniverse/errors/syniverse-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/syniverse-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/rate-limits/syniverse-rate-limits.yml
+  href: https://artifacts.apis.io/syniverse/rate-limits/syniverse-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/syniverse-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/lifecycle/syniverse-lifecycle.yml
+  href: https://artifacts.apis.io/syniverse/lifecycle/syniverse-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/syniverse-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/sandbox/syniverse-sandbox.yml
+  href: https://artifacts.apis.io/syniverse/sandbox/syniverse-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/syniverse-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/asyncapi/syniverse-event-manager-webhooks.yml
+  href: https://artifacts.apis.io/syniverse/asyncapi/syniverse-event-manager-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/syniverse-event-manager-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/conformance/syniverse-conformance.yml
+  href: https://artifacts.apis.io/syniverse/conformance/syniverse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/syniverse-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/data-model/syniverse-data-model.yml
+  href: https://artifacts.apis.io/syniverse/data-model/syniverse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/syniverse-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/syniverse/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/llms/syniverse-llms.txt
+  href: https://artifacts.apis.io/syniverse/llms/syniverse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/syniverse-llms.txt
@@ -547,7 +549,7 @@ overview: 'Syniverse publishes 48 API contracts indexed on the [APIs.io](https:/
 
 
   Syniverse''s developer surface includes authentication, sandbox, getting-started guide, documentation, signup flow, support, engineering blog, and 38 more developer resources.'
-random_paper: 10
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Syniverse Rate Limits
@@ -559,7 +561,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.3
+  composite: 50.6
   coverage:
     artifact_dirs: 25
     catalog_earned: 52.0
@@ -572,9 +574,9 @@ score:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 49.9
-    developer_ergonomics: 63.7
-    discoverability: 72.3
-    operational_transparency: 42.1
+    developer_ergonomics: 73.2
+    discoverability: 73.2
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -582,7 +584,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 50.3
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -599,13 +601,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 40.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/screenshots/syniverse-2026-08-17T082233.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/syniverse/syniverse-2026-08-17T082233.png
 security:
 - kind: authentication
   name: Syniverse Authentication
@@ -615,6 +618,22 @@ security:
   name: Syniverse Domain Security
   slug: syniverse-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 7
+skills:
+- name: Keep an SDC application access token valid
+  slug: syniverse-refresh-sdc-access-token
+- name: Provision numbers on a US 10DLC campaign
+  slug: syniverse-register-10dlc-campaign-numbers
+- name: Screen inbound messaging traffic for spam and abuse
+  slug: syniverse-screen-messaging-for-spam
+- name: Deliver and validate a one-time passcode
+  slug: syniverse-send-otp-and-validate
+- name: Send an SMS or MMS with the Syniverse Communication Gateway
+  slug: syniverse-send-sms-message
+- name: Subscribe to Syniverse events instead of polling
+  slug: syniverse-subscribe-to-events
+- name: Verify a phone number before you message it
+  slug: syniverse-verify-phone-number
 slug: syniverse
 tags:
 - Telecommunications

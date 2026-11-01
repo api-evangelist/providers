@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 20.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -125,11 +127,8 @@ apis:
   description: Vendor webhook subscription and management.
   name: AMC Entertainment Holdings Webhooks API
   slug: amc-entertainment-holdings-webhooks-api
-artifact_total: 60
+artifact_total: 59
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AMC Theatres Barcodes API
   slug: open-amc-entertainment-holdings-barcodes-api
@@ -183,42 +182,42 @@ collections:
   slug: open-amc-theatres-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/plans/amc-entertainment-holdings-plans-pricing.yml
+  href: https://artifacts.apis.io/amc-entertainment-holdings/plans/amc-entertainment-holdings-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amc-entertainment-holdings-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/rate-limits/amc-entertainment-holdings-rate-limits.yml
+  href: https://artifacts.apis.io/amc-entertainment-holdings/rate-limits/amc-entertainment-holdings-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amc-entertainment-holdings-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/finops/amc-entertainment-holdings-finops.yml
+  href: https://artifacts.apis.io/amc-entertainment-holdings/finops/amc-entertainment-holdings-finops.yml
   title: ''
   type: FinOps
   url: finops/amc-entertainment-holdings-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/capabilities/amc-entertainment-holdings-capability-edges.yml
+  href: https://artifacts.apis.io/amc-entertainment-holdings/capabilities/amc-entertainment-holdings-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amc-entertainment-holdings-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/agentic-access/amc-entertainment-holdings-agentic-access.yml
+  href: https://artifacts.apis.io/amc-entertainment-holdings/agentic-access/amc-entertainment-holdings-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amc-entertainment-holdings-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/security/amc-entertainment-holdings-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amc-entertainment-holdings/security/amc-entertainment-holdings-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amc-entertainment-holdings-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/security/amc-entertainment-holdings-domain-security.yml
+  href: https://artifacts.apis.io/amc-entertainment-holdings/security/amc-entertainment-holdings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amc-entertainment-holdings-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/authentication/amc-entertainment-holdings-authentication.yml
+  href: https://artifacts.apis.io/amc-entertainment-holdings/authentication/amc-entertainment-holdings-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amc-entertainment-holdings-authentication.yml
@@ -363,24 +362,24 @@ rules:
     warn: 13
   slug: amc-theatres-rules
 score:
-  band: developing
-  composite: 41.5
+  band: thin
+  composite: 31.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 27.3
-    contract_quality: 65.3
+    contract_quality: 16.3
     developer_ergonomics: 38.1
     discoverability: 60.7
-    operational_transparency: 10.5
-  previous_composite: 47.5
+    operational_transparency: 21.1
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
@@ -394,13 +393,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/screenshots/amc-entertainment-holdings-2026-06-20T171856.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amc-entertainment-holdings/amc-entertainment-holdings-2026-06-20T171856.png
 security:
 - kind: authentication
   name: Amc Entertainment Holdings Authentication

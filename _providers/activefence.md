@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-10-17'
+  score: 30.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -79,15 +81,12 @@ apis:
   description: 'WonderFence provides real-time guardrails for AI-generated content. APIs for evaluating and moderating AI-generated content and interactions to protect against harmful outputs and prompt attacks. ## A'
   name: ActiveFence Wonder Fence API
   slug: activefence-wonderfence-api
-artifact_total: 19
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Activefence Webhooks
   slug: activefence-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Alice API Documentation api keys API
   slug: open-activefence-api-keys-api
@@ -115,17 +114,17 @@ common:
   type: BlogRSS
   url: https://alice.io/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/capabilities/activefence-capability-edges.yml
+  href: https://artifacts.apis.io/activefence/capabilities/activefence-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/activefence-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/mcp/activefence-mcp.yml
+  href: https://artifacts.apis.io/activefence/mcp/activefence-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/activefence-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/agentic-access/activefence-agentic-access.yml
+  href: https://artifacts.apis.io/activefence/agentic-access/activefence-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/activefence-agentic-access.yml
@@ -178,82 +177,82 @@ common:
   type: Postman
   url: https://www.postman.com/activefence-demo-team
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/llms/activefence-llms.txt
+  href: https://artifacts.apis.io/activefence/llms/activefence-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/activefence-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/packages/activefence-packages.yml
+  href: https://artifacts.apis.io/activefence/packages/activefence-packages.yml
   title: ''
   type: Packages
   url: packages/activefence-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/packages/activefence-packages.yml
+  href: https://artifacts.apis.io/activefence/packages/activefence-packages.yml
   title: ''
   type: SDKs
   url: packages/activefence-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/cli/activefence-cli.yml
+  href: https://artifacts.apis.io/activefence/cli/activefence-cli.yml
   title: ''
   type: CLI
   url: cli/activefence-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/authentication/activefence-authentication.yml
+  href: https://artifacts.apis.io/activefence/authentication/activefence-authentication.yml
   title: ''
   type: Authentication
   url: authentication/activefence-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/conventions/activefence-conventions.yml
+  href: https://artifacts.apis.io/activefence/conventions/activefence-conventions.yml
   title: ''
   type: Conventions
   url: conventions/activefence-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/errors/activefence-problem-types.yml
+  href: https://artifacts.apis.io/activefence/errors/activefence-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/activefence-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/lifecycle/activefence-lifecycle.yml
+  href: https://artifacts.apis.io/activefence/lifecycle/activefence-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/activefence-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/conformance/activefence-conformance.yml
+  href: https://artifacts.apis.io/activefence/conformance/activefence-conformance.yml
   title: ''
   type: Conformance
   url: conformance/activefence-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/conformance/activefence-conformance.yml
+  href: https://artifacts.apis.io/activefence/conformance/activefence-conformance.yml
   title: ''
   type: Compliance
   url: conformance/activefence-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/security/activefence-domain-security.yml
+  href: https://artifacts.apis.io/activefence/security/activefence-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/activefence-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/well-known/activefence-well-known.yml
+  href: https://artifacts.apis.io/activefence/well-known/activefence-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/activefence-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/asyncapi/activefence-webhooks.yml
+  href: https://artifacts.apis.io/activefence/asyncapi/activefence-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/activefence-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/data-model/activefence-data-model.yml
+  href: https://artifacts.apis.io/activefence/data-model/activefence-data-model.yml
   title: ''
   type: DataModel
   url: data-model/activefence-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/activefence/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/overlays/activefence-alice-api-overlay.yaml
+  href: https://artifacts.apis.io/activefence/overlays/activefence-alice-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/activefence-alice-api-overlay.yaml
@@ -273,10 +272,10 @@ overview: 'ActiveFence publishes 7 API contracts indexed on the [APIs.io](https:
 
 
   ActiveFence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 25 more developer resources.'
-random_paper: 5
+random_paper: 21
 score:
   band: developing
-  composite: 51.7
+  composite: 51.8
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -286,12 +285,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 60.3
-    developer_ergonomics: 69.6
-    discoverability: 73.2
-    operational_transparency: 10.5
+    developer_ergonomics: 78.0
+    discoverability: 66.1
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -299,7 +298,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 51.7
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -316,13 +315,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/screenshots/activefence-2026-08-07T160856.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/activefence/activefence-2026-08-07T160856.png
 security:
 - kind: authentication
   name: Activefence Authentication
@@ -332,6 +332,14 @@ security:
   name: Activefence Domain Security
   slug: activefence-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Guard GenAI prompts and responses with WonderFence
+  slug: activefence-guard-genai-messages
+- name: Moderate user-generated content with ActiveScore
+  slug: activefence-moderate-user-content
+- name: Run a WonderBuild red-team assessment
+  slug: activefence-run-redteam-assessment
 slug: activefence
 tags:
 - AI Safety

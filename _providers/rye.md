@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-10-17'
+  score: 35.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -111,7 +113,7 @@ apis:
   description: The Test Helpers API from Rye — 6 operation(s) for test helpers.
   name: Rye Test Helpers API
   slug: rye-test-helpers-api
-artifact_total: 47
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Rye Webhooks
@@ -157,9 +159,6 @@ collections:
   name: Universal Checkout Betas Test Helpers API
   slug: postman-rye-test-helpers-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Universal Checkout Betas API
   slug: open-rye-betas-api
 - collection_type: open
@@ -199,12 +198,22 @@ collections:
   name: Universal Checkout Betas Test Helpers API
   slug: open-rye-test-helpers-api
 common:
+- group: other
+  href: https://artifacts.apis.io/rye/capabilities/rye-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/rye-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/rye/plans/rye-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/rye-plans-pricing.yml
 - group: company
   title: ''
   type: Website
   url: https://www.rye.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/overlays/rye-checkout-intents-overlay.yaml
+  href: https://artifacts.apis.io/rye/overlays/rye-checkout-intents-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rye-checkout-intents-overlay.yaml
@@ -269,67 +278,67 @@ common:
   type: TrustCenter
   url: https://trust.rye.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/authentication/rye-authentication.yml
+  href: https://artifacts.apis.io/rye/authentication/rye-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rye-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/agentic-access/rye-agentic-access.yml
+  href: https://artifacts.apis.io/rye/agentic-access/rye-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rye-agentic-access.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/packages/rye-packages.yml
+  href: https://artifacts.apis.io/rye/packages/rye-packages.yml
   title: ''
   type: Packages
   url: packages/rye-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/packages/rye-packages.yml
+  href: https://artifacts.apis.io/rye/packages/rye-packages.yml
   title: ''
   type: SDKs
   url: packages/rye-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/mcp/rye-mcp.yml
+  href: https://artifacts.apis.io/rye/mcp/rye-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rye-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/llms/rye-llms.txt
+  href: https://artifacts.apis.io/rye/llms/rye-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rye-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/well-known/rye-well-known.yml
+  href: https://artifacts.apis.io/rye/well-known/rye-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/rye-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/well-known/rye-security.txt
+  href: https://artifacts.apis.io/rye/well-known/rye-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/rye-security.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/conformance/rye-conformance.yml
+  href: https://artifacts.apis.io/rye/conformance/rye-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rye-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/security/rye-trust-center.yml
+  href: https://artifacts.apis.io/rye/security/rye-trust-center.yml
   title: ''
   type: Compliance
   url: security/rye-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/errors/rye-problem-types.yml
+  href: https://artifacts.apis.io/rye/errors/rye-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rye-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/errors/rye-decline-codes.yml
+  href: https://artifacts.apis.io/rye/errors/rye-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/rye-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/lifecycle/rye-lifecycle.yml
+  href: https://artifacts.apis.io/rye/lifecycle/rye-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rye-lifecycle.yml
@@ -338,7 +347,7 @@ common:
   type: Deprecation
   url: https://rye.com/docs/api-v2/migrate-from-v1
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/security/rye-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/rye/security/rye-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rye-vulnerability-disclosure.yml
@@ -347,52 +356,60 @@ common:
   type: Security
   url: https://rye.com/docs/api-v2/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/security/rye-domain-security.yml
+  href: https://artifacts.apis.io/rye/security/rye-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rye-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/conventions/rye-conventions.yml
+  href: https://artifacts.apis.io/rye/conventions/rye-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rye-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/rate-limits/rye-rate-limits.yml
+  href: https://artifacts.apis.io/rye/rate-limits/rye-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rye-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/changelog/rye-changelog.yml
+  href: https://artifacts.apis.io/rye/changelog/rye-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/rye-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/components/rye-components.yml
+  href: https://artifacts.apis.io/rye/components/rye-components.yml
   title: ''
   type: Components
   url: components/rye-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/data-model/rye-data-model.yml
+  href: https://artifacts.apis.io/rye/data-model/rye-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rye-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/sandbox/rye-sandbox.yml
+  href: https://artifacts.apis.io/rye/sandbox/rye-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/rye-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/asyncapi/rye-webhooks.yml
+  href: https://artifacts.apis.io/rye/asyncapi/rye-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/rye-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rye/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Rye is agentic commerce infrastructure - a Universal Checkout API that turns any product URL into a completed order without redirecting the shopper. Developers pass a product URL and buyer details and receive price, tax, shipping and delivery estimates, then confirm with a tokenized payment method (Stripe, Basis Theory, pre-funded drawdown balance, or x402/USDC) to place the order across thousands of merchants including Shopify stores and Amazon. Rye combines AI browser automation with fraud-mitigation and caches successful flows as deterministic workflows, advertising 90%+ order reliability, sub-35s offer resolution, and 99.9% uptime. The platform ships official TypeScript, Python, and Java SDKs, HMAC-signed webhooks, a staging sandbox with test products and simulated shipment/return helpers, Rewards UI React components, and a returns/refunds lifecycle. Rye is an a16z portfolio company.
+finops:
+- has_sources: true
+  method: derived
+  name: Rye Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: rye-finops
+  template: false
 image: https://rye.com/favicon.ico
 layout: provider
 modified: '2026-07-21'
@@ -405,31 +422,38 @@ overview: 'Rye publishes 13 API contracts indexed on the [APIs.io](https://apis.
   The Rye catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Rye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
-random_paper: 6
+  Rye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
+plans:
+- name: Rye Plans Pricing
+  plan_count: 2
+  slug: rye-plans-pricing
+- name: Rye Price Estimates
+  plan_count: 0
+  slug: rye-price-estimates
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Rye Rate Limits
   slug: rye-rate-limits
 score:
-  band: strong
-  composite: 59.7
+  band: exemplar
+  composite: 70.8
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 29
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.8
   facets:
-    access_clarity: 39.5
+    access_clarity: 89.5
     contract_governance: 4.5
     contract_quality: 59.3
     developer_ergonomics: 78.0
-    discoverability: 73.2
-    operational_transparency: 92.1
-  previous_composite: 59.7
+    discoverability: 66.1
+    operational_transparency: 94.7
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -445,14 +469,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 34.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 39.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/screenshots/rye-2026-08-17T081702.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rye/rye-2026-08-17T081702.png
 security:
 - kind: authentication
   name: Rye Authentication
@@ -470,6 +495,14 @@ security:
   name: Rye Trust Center
   slug: rye-trust-center
   summary_line: PCI DSS Level 1
+skill_count: 3
+skills:
+- name: Buy any product with Rye
+  slug: rye-buy-a-product
+- name: Return an order and follow it to refund
+  slug: rye-return-and-refund
+- name: One-shot purchase with Rye
+  slug: rye-single-step-purchase
 slug: rye
 tags:
 - Company

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,22 +20,24 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: derived
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
+  score: 33.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 23
   slug: 1password-agentic-access
   summary_line: 23 operations · 7 acting
-api_count: 3
+api_count: 4
 apis:
 - baseURL: http://localhost:8080
   baseurl_source: declared
@@ -55,7 +57,7 @@ apis:
   description: Operations for listing API requests made to the Connect server.
   name: 1Password Activity API
   slug: 1password-activity-api
-- baseURL: http://localhost:8080
+- baseURL: https://events.1password.com
   baseurl_source: declared
   description: Retrieve information about actions performed by team members within a 1Password account, including when an action was performed and by whom, along with details about the type and object of the action.
   name: 1Password Audit Events API
@@ -70,12 +72,12 @@ apis:
   description: Operations for checking the health and status of the Connect server.
   name: 1Password Health API
   slug: 1password-health-api
-- baseURL: http://localhost:8080
+- baseURL: https://events.1password.com
   baseurl_source: declared
   description: Retrieve information about the authentication token being used, including its features and permissions.
   name: 1Password Introspection API
   slug: 1password-introspection-api
-- baseURL: http://localhost:8080
+- baseURL: https://events.1password.com
   baseurl_source: declared
   description: Retrieve information about items in shared vaults that have been modified, accessed, or used, including the user who accessed the item, when it was accessed, and the vault where the item is stored.
   name: 1Password Item Usages API
@@ -90,7 +92,7 @@ apis:
   description: Operations for retrieving Prometheus-style metrics from the Connect server.
   name: 1Password Metrics API
   slug: 1password-metrics-api
-- baseURL: http://localhost:8080
+- baseURL: https://events.1password.com
   baseurl_source: declared
   description: 'Retrieve information about sign-in attempts to 1Password accounts, including the name and IP address of the user who attempted to sign in, when the attempt was made, and for failed attempts the cause '
   name: 1Password Sign-In Attempts API
@@ -100,6 +102,51 @@ apis:
   description: Operations for listing and retrieving vaults available to the Connect server.
   name: 1Password Vaults API
   slug: 1password-vaults-api
+- baseURL: https://app.trelica.com
+  baseurl_source: declared
+  description: List, search and manage applications, and list the accounts (users) on an application.
+  name: 1Password Applications API
+  slug: 1password-applications-api
+- baseURL: https://app.trelica.com
+  baseurl_source: declared
+  description: 'Read your organization''s audit log: a continuous, filterable stream of events.'
+  name: 1Password Audit log API
+  slug: 1password-audit-log-api
+- baseURL: https://app.trelica.com
+  baseurl_source: declared
+  description: Obtain an OAuth 2.0 access token. Use the Client Credentials flow for machine-to-machine access, or the Authorization Code flow to act on behalf of a user.
+  name: 1Password Authentication API
+  slug: 1password-authentication-api
+- baseURL: https://app.trelica.com
+  baseurl_source: declared
+  description: List and manage contracts.
+  name: 1Password Contracts API
+  slug: 1password-contracts-api
+- baseURL: https://app.trelica.com
+  baseurl_source: declared
+  description: List and manage devices. The endpoints live under `/api/assets`.
+  name: 1Password Devices API
+  slug: 1password-devices-api
+- baseURL: https://app.trelica.com
+  baseurl_source: declared
+  description: List, search and manage the people in your organization.
+  name: 1Password People API
+  slug: 1password-people-api
+- baseURL: https://app.trelica.com
+  baseurl_source: declared
+  description: 'Provision and manage users via the SCIM 2.0 protocol (RFC 7644). These endpoints follow the SCIM standard rather than the conventions used by the rest of the SaaS Manager API: they use `startIndex`/`c'
+  name: 1Password SCIM API
+  slug: 1password-scim-api
+- baseURL: https://app.trelica.com
+  baseurl_source: declared
+  description: List and manage teams and the team hierarchy.
+  name: 1Password Teams API
+  slug: 1password-teams-api
+- baseURL: https://app.trelica.com
+  baseurl_source: declared
+  description: List workflows (with their triggers and steps), list their runs, and fire signals on steps that are waiting for input.
+  name: 1Password Workflows API
+  slug: 1password-workflows-api
 arazzos:
 - description: Confirm an item exists, then permanently delete it from its vault.
   name: 1Password Decommission an Item
@@ -125,7 +172,7 @@ arazzos:
 - description: Open an item usage feed from a start time, then continue paging with the cursor while more remain.
   name: 1Password Stream Item Usages
   slug: 1password-stream-item-usages-workflow
-artifact_total: 160
+artifact_total: 168
 collections:
 - collection_type: postman
   name: 1Password Connect Server API
@@ -136,9 +183,6 @@ collections:
 - collection_type: postman
   name: 1Password Partnership API
   slug: postman-1password-partnership
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: 1Password Connect Server Accounts API
   slug: open-1password-accounts-api
@@ -183,112 +227,112 @@ collections:
   slug: open-1password-vaults-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/plans/1password-plans-pricing.yml
+  href: https://artifacts.apis.io/1password/plans/1password-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/1password-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/rate-limits/1password-rate-limits.yml
+  href: https://artifacts.apis.io/1password/rate-limits/1password-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/1password-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/finops/1password-finops.yml
+  href: https://artifacts.apis.io/1password/finops/1password-finops.yml
   title: ''
   type: FinOps
   url: finops/1password-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/capabilities/1password-capability-edges.yml
+  href: https://artifacts.apis.io/1password/capabilities/1password-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/1password-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/overlays/1password-connect-overlay.yaml
+  href: https://artifacts.apis.io/1password/overlays/1password-connect-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/1password-connect-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/packages/1password-packages.yml
+  href: https://artifacts.apis.io/1password/packages/1password-packages.yml
   title: ''
   type: Packages
   url: packages/1password-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/well-known/1password-well-known.yml
+  href: https://artifacts.apis.io/1password/well-known/1password-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/1password-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/well-known/1password-security.txt
+  href: https://artifacts.apis.io/1password/well-known/1password-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/1password-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/mcp/1password-mcp.yml
+  href: https://artifacts.apis.io/1password/mcp/1password-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/1password-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/llms/1password-llms.txt
+  href: https://artifacts.apis.io/1password/llms/1password-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/1password-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/conformance/1password-conformance.yml
+  href: https://artifacts.apis.io/1password/conformance/1password-conformance.yml
   title: ''
   type: Conformance
   url: conformance/1password-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/errors/1password-problem-types.yml
+  href: https://artifacts.apis.io/1password/errors/1password-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/1password-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/lifecycle/1password-lifecycle.yml
+  href: https://artifacts.apis.io/1password/lifecycle/1password-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/1password-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/conventions/1password-conventions.yml
+  href: https://artifacts.apis.io/1password/conventions/1password-conventions.yml
   title: ''
   type: Conventions
   url: conventions/1password-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/changelog/1password-changelog.yml
+  href: https://artifacts.apis.io/1password/changelog/1password-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/1password-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/cli/1password-cli.yml
+  href: https://artifacts.apis.io/1password/cli/1password-cli.yml
   title: ''
   type: CLI
   url: cli/1password-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/data-model/1password-data-model.yml
+  href: https://artifacts.apis.io/1password/data-model/1password-data-model.yml
   title: ''
   type: DataModel
   url: data-model/1password-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/agentic-access/1password-agentic-access.yml
+  href: https://artifacts.apis.io/1password/agentic-access/1password-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/1password-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/security/1password-trust-center.yml
+  href: https://artifacts.apis.io/1password/security/1password-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/1password-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/security/1password-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/1password/security/1password-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/1password-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/security/1password-domain-security.yml
+  href: https://artifacts.apis.io/1password/security/1password-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/1password-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/authentication/1password-authentication.yml
+  href: https://artifacts.apis.io/1password/authentication/1password-authentication.yml
   title: ''
   type: Authentication
   url: authentication/1password-authentication.yml
@@ -297,42 +341,42 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/1password/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/arazzo/1password-decommission-item-workflow.yml
+  href: https://artifacts.apis.io/1password/arazzo/1password-decommission-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/1password-decommission-item-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/arazzo/1password-download-item-file-workflow.yml
+  href: https://artifacts.apis.io/1password/arazzo/1password-download-item-file-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/1password-download-item-file-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/arazzo/1password-provision-item-workflow.yml
+  href: https://artifacts.apis.io/1password/arazzo/1password-provision-item-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/1password-provision-item-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/arazzo/1password-provision-partner-billing-workflow.yml
+  href: https://artifacts.apis.io/1password/arazzo/1password-provision-partner-billing-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/1password-provision-partner-billing-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/arazzo/1password-read-item-secret-workflow.yml
+  href: https://artifacts.apis.io/1password/arazzo/1password-read-item-secret-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/1password-read-item-secret-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/arazzo/1password-rotate-item-password-workflow.yml
+  href: https://artifacts.apis.io/1password/arazzo/1password-rotate-item-password-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/1password-rotate-item-password-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/arazzo/1password-stream-audit-events-workflow.yml
+  href: https://artifacts.apis.io/1password/arazzo/1password-stream-audit-events-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/1password-stream-audit-events-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/arazzo/1password-stream-item-usages-workflow.yml
+  href: https://artifacts.apis.io/1password/arazzo/1password-stream-item-usages-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/1password-stream-item-usages-workflow.yml
@@ -421,12 +465,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/1Password
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/rules/1password-spectral-rules.yml
+  href: https://artifacts.apis.io/1password/rules/1password-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/1password-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/vocabulary/1password-vocabulary.yaml
+  href: https://artifacts.apis.io/1password/vocabulary/1password-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/1password-vocabulary.yaml
@@ -541,7 +585,7 @@ finops:
 - has_sources: true
   method: generated
   name: 1Password Finops
-  primary_unit: ''
+  primary_unit: seat-month
   service_category: Identity
   slug: 1password-finops
   template: false
@@ -763,7 +807,7 @@ modified: '2026-06-20'
 name: 1Password
 nav: Providers
 network: true
-overview: '1Password publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Activity API, Audit Events API, and 8 more. Tagged areas include Password Manager, Passwords, Security, Secrets, and Canada.
+overview: '1Password publishes 20 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Activity API, Audit Events API, and 17 more. Tagged areas include Password Manager, Passwords, Security, Secrets, and Canada.
 
 
   The 1Password catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -774,7 +818,7 @@ plans:
 - name: 1Password Plans Pricing
   plan_count: 5
   slug: 1password-plans-pricing
-random_paper: 8
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: 1Password Rate Limits
@@ -804,22 +848,22 @@ rules:
   slug: 1password-spectral-rules
 score:
   band: strong
-  composite: 58.1
+  composite: 61.7
   coverage:
     artifact_dirs: 33
-    catalog_earned: 70.0
+    catalog_earned: 73.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.0
+    catalog_gap: 42.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 2.0
   facets:
-    access_clarity: 50.0
+    access_clarity: 57.9
     contract_governance: 31.8
-    contract_quality: 66.9
+    contract_quality: 67.9
     developer_ergonomics: 75.0
-    discoverability: 68.3
-    operational_transparency: 26.3
+    discoverability: 61.7
+    operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -827,7 +871,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 59.6
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -835,7 +879,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 20
     mcp: first-party
   regulatory:
     applies: true
@@ -843,13 +887,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/screenshots/1password-2026-06-20T162519.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/1password/1password-2026-06-20T162519.png
 security:
 - kind: authentication
   name: 1Password Authentication

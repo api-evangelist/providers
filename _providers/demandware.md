@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The modern Salesforce Commerce API (SCAPI) — Shopper APIs (products, search, baskets, orders, customers), Admin APIs, and the Shopper Login and API Access Service (SLAS). Published as OpenAPI, secured
@@ -49,7 +51,7 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/salesforce/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/security/demandware-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/demandware/security/demandware-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/demandware-vulnerability-disclosure.yml
@@ -58,7 +60,7 @@ common:
   type: Security
   url: https://security.salesforce.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/security/demandware-domain-security.yml
+  href: https://artifacts.apis.io/demandware/security/demandware-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/demandware-domain-security.yml
@@ -115,47 +117,47 @@ common:
   type: Postman
   url: https://www.postman.com/salesforce-developers/salesforce-developers/documentation/1qkzgik/salesforce-commerce-b2c
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/packages/demandware-packages.yml
+  href: https://artifacts.apis.io/demandware/packages/demandware-packages.yml
   title: ''
   type: Packages
   url: packages/demandware-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/packages/demandware-packages.yml
+  href: https://artifacts.apis.io/demandware/packages/demandware-packages.yml
   title: ''
   type: SDKs
   url: packages/demandware-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/cli/demandware-cli.yml
+  href: https://artifacts.apis.io/demandware/cli/demandware-cli.yml
   title: ''
   type: CLI
   url: cli/demandware-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/mcp/demandware-mcp.yml
+  href: https://artifacts.apis.io/demandware/mcp/demandware-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/demandware-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/demandware/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/authentication/demandware-authentication.yml
+  href: https://artifacts.apis.io/demandware/authentication/demandware-authentication.yml
   title: ''
   type: Authentication
   url: authentication/demandware-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/scopes/demandware-scopes.yml
+  href: https://artifacts.apis.io/demandware/scopes/demandware-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/demandware-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/conventions/demandware-conventions.yml
+  href: https://artifacts.apis.io/demandware/conventions/demandware-conventions.yml
   title: ''
   type: Conventions
   url: conventions/demandware-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/conformance/demandware-conformance.yml
+  href: https://artifacts.apis.io/demandware/conformance/demandware-conformance.yml
   title: ''
   type: Conformance
   url: conformance/demandware-conformance.yml
@@ -164,7 +166,7 @@ common:
   type: Compliance
   url: https://trust.salesforce.com/en/compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/lifecycle/demandware-lifecycle.yml
+  href: https://artifacts.apis.io/demandware/lifecycle/demandware-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/demandware-lifecycle.yml
@@ -177,7 +179,7 @@ common:
   type: Deprecation
   url: https://developer.salesforce.com/docs/commerce/b2c-commerce/references/b2c-commerce-ocapi
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/changelog/demandware-changelog.yml
+  href: https://artifacts.apis.io/demandware/changelog/demandware-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/demandware-changelog.yml
@@ -186,7 +188,7 @@ common:
   type: TrustCenter
   url: https://trust.salesforce.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/llms/demandware-llms.txt
+  href: https://artifacts.apis.io/demandware/llms/demandware-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/demandware-llms.txt
@@ -210,7 +212,7 @@ overview: 'Demandware is listed with 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   Demandware''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
-random_paper: 14
+random_paper: 16
 scopes:
 - name: Demandware Scopes
   scope_count: 0
@@ -218,7 +220,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.9
+  composite: 49.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -226,15 +228,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 50.0
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 81.0
-    discoverability: 71.7
-    operational_transparency: 44.7
-  previous_composite: 45.8
+    developer_ergonomics: 83.3
+    discoverability: 65.0
+    operational_transparency: 55.3
+  previous_composite: 49.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -249,14 +251,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/screenshots/demandware-2026-07-25T211712.png
+screenshot: https://apis.io/screenshots/demandware/demandware-2026-07-25T211712.png
 security:
 - kind: authentication
   name: Demandware Authentication

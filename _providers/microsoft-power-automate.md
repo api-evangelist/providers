@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.8
-  scored_at: '2026-10-17'
+  score: 32.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -135,9 +137,6 @@ collections:
   name: Microsoft Power Automate Management Connections Flows API
   slug: postman-microsoft-power-automate-flows-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Microsoft Power Automate Management Connections API
   slug: open-microsoft-power-automate-connections-api
 - collection_type: open
@@ -157,17 +156,17 @@ collections:
   slug: open-microsoft-power-automate-flows-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/plans/microsoft-power-automate-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/plans/microsoft-power-automate-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-power-automate-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/rate-limits/microsoft-power-automate-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/rate-limits/microsoft-power-automate-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-power-automate-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/finops/microsoft-power-automate-finops.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/finops/microsoft-power-automate-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-power-automate-finops.yml
@@ -208,7 +207,7 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/overlays/microsoft-power-automate-management-api-overlay.yaml
+  href: https://artifacts.apis.io/microsoft-power-automate/overlays/microsoft-power-automate-management-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/microsoft-power-automate-management-api-overlay.yaml
@@ -217,97 +216,97 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/microsoft-power-automate/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/agentic-access/microsoft-power-automate-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/agentic-access/microsoft-power-automate-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-power-automate-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/security/microsoft-power-automate-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/security/microsoft-power-automate-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-power-automate-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/authentication/microsoft-power-automate-authentication.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/authentication/microsoft-power-automate-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-power-automate-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/scopes/microsoft-power-automate-scopes.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/scopes/microsoft-power-automate-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-power-automate-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/packages/microsoft-power-automate-packages.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/packages/microsoft-power-automate-packages.yml
   title: ''
   type: Packages
   url: packages/microsoft-power-automate-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/well-known/microsoft-power-automate-well-known.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/well-known/microsoft-power-automate-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/microsoft-power-automate-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/well-known/microsoft-power-automate-security.txt
+  href: https://artifacts.apis.io/microsoft-power-automate/well-known/microsoft-power-automate-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/microsoft-power-automate-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/mcp/microsoft-power-automate-mcp.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/mcp/microsoft-power-automate-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/microsoft-power-automate-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/llms/microsoft-power-automate-llms.txt
+  href: https://artifacts.apis.io/microsoft-power-automate/llms/microsoft-power-automate-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/microsoft-power-automate-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/conformance/microsoft-power-automate-conformance.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/conformance/microsoft-power-automate-conformance.yml
   title: ''
   type: Conformance
   url: conformance/microsoft-power-automate-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/errors/microsoft-power-automate-problem-types.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/errors/microsoft-power-automate-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/microsoft-power-automate-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/lifecycle/microsoft-power-automate-lifecycle.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/lifecycle/microsoft-power-automate-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/microsoft-power-automate-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/security/microsoft-power-automate-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/security/microsoft-power-automate-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-power-automate-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/security/microsoft-power-automate-trust-center.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/security/microsoft-power-automate-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/microsoft-power-automate-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/conventions/microsoft-power-automate-conventions.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/conventions/microsoft-power-automate-conventions.yml
   title: ''
   type: Conventions
   url: conventions/microsoft-power-automate-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/changelog/microsoft-power-automate-changelog.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/changelog/microsoft-power-automate-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/microsoft-power-automate-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/cli/microsoft-power-automate-cli.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/cli/microsoft-power-automate-cli.yml
   title: ''
   type: CLI
   url: cli/microsoft-power-automate-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/components/microsoft-power-automate-components.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/components/microsoft-power-automate-components.yml
   title: ''
   type: Components
   url: components/microsoft-power-automate-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/data-model/microsoft-power-automate-data-model.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/data-model/microsoft-power-automate-data-model.yml
   title: ''
   type: DataModel
   url: data-model/microsoft-power-automate-data-model.yml
@@ -352,62 +351,62 @@ common:
   type: GitHubRepository
   url: https://github.com/microsoft/PowerApps-Samples
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/json-ld/microsoft-power-automate-management-api-context.jsonld
+  href: https://artifacts.apis.io/microsoft-power-automate/json-ld/microsoft-power-automate-management-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/microsoft-power-automate-management-api-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/rules/microsoft-power-automate-spectral-rules.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/rules/microsoft-power-automate-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/microsoft-power-automate-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/vocabulary/microsoft-power-automate-vocabulary.yaml
+  href: https://artifacts.apis.io/microsoft-power-automate/vocabulary/microsoft-power-automate-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/microsoft-power-automate-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-environment-inventory-workflow.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/arazzo/microsoft-power-automate-environment-inventory-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-environment-inventory-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-provision-flow-workflow.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/arazzo/microsoft-power-automate-provision-flow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-provision-flow-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-safe-update-flow-workflow.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/arazzo/microsoft-power-automate-safe-update-flow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-safe-update-flow-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-retire-flow-workflow.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/arazzo/microsoft-power-automate-retire-flow-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-retire-flow-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-triage-failed-run-workflow.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/arazzo/microsoft-power-automate-triage-failed-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-triage-failed-run-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-cancel-running-run-workflow.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/arazzo/microsoft-power-automate-cancel-running-run-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-cancel-running-run-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-manage-flow-owners-workflow.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/arazzo/microsoft-power-automate-manage-flow-owners-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-manage-flow-owners-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-connector-dependency-audit-workflow.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/arazzo/microsoft-power-automate-connector-dependency-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-connector-dependency-audit-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/arazzo/microsoft-power-automate-flow-callback-url-workflow.yml
+  href: https://artifacts.apis.io/microsoft-power-automate/arazzo/microsoft-power-automate-flow-callback-url-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/microsoft-power-automate-flow-callback-url-workflow.yml
@@ -448,13 +447,13 @@ features:
 - description: Configure error handling, retry policies, and notifications for flow failures.
   name: Error Handling
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Microsoft Power Automate Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: bot
+  service_category: ''
   slug: microsoft-power-automate-finops
-  template: true
+  template: false
 image: https://powerautomate.microsoft.com/images/application-logos/svg/powerautomate.svg
 integrations:
 - description: Deep integration with SharePoint, Outlook, Teams, and other Microsoft 365 apps.
@@ -514,9 +513,12 @@ overview: 'Microsoft Power Automate is listed with 10 APIs on the [APIs.io](http
   Microsoft Power Automate''s developer surface includes documentation, getting-started guide, signup flow, authentication, changelog, CLI, developer portal, and 48 more developer resources.'
 plans:
 - name: Microsoft Power Automate Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: microsoft-power-automate-plans-pricing
-random_paper: 7
+- name: Microsoft Power Automate Price Estimates
+  plan_count: 0
+  slug: microsoft-power-automate-price-estimates
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Microsoft Power Automate Rate Limits
@@ -551,24 +553,24 @@ scopes:
   slug: microsoft-power-automate-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 49.3
+  band: strong
+  composite: 61.8
   coverage:
-    artifact_dirs: 33
-    catalog_earned: 70.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 45.0
+    artifact_dirs: 34
+    catalog_earned: 82.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 33.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 50.0
+    access_clarity: 92.1
     contract_governance: 31.8
     contract_quality: 31.0
-    developer_ergonomics: 60.7
+    developer_ergonomics: 65.5
     discoverability: 69.6
-    operational_transparency: 36.8
-  previous_composite: 50.8
+    operational_transparency: 55.3
+  previous_composite: 60.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -584,13 +586,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 43.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/screenshots/microsoft-power-automate-2026-08-17T083607.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-power-automate/microsoft-power-automate-2026-08-17T083607.png
 security:
 - kind: authentication
   name: Microsoft Power Automate Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 17
 apis:
 - description: JOS authorization is JD's OAuth 2.0 flow for shop owners and JD enterprise accounts to grant a partner ISV application access. The platform issues an access token and refresh token scoped per shop / p
@@ -90,17 +92,17 @@ apis:
 artifact_total: 21
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jd-com/refs/heads/main/plans/jd-com-plans-pricing.yml
+  href: https://artifacts.apis.io/jd-com/plans/jd-com-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/jd-com-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jd-com/refs/heads/main/rate-limits/jd-com-rate-limits.yml
+  href: https://artifacts.apis.io/jd-com/rate-limits/jd-com-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/jd-com-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/jd-com/refs/heads/main/finops/jd-com-finops.yml
+  href: https://artifacts.apis.io/jd-com/finops/jd-com-finops.yml
   title: ''
   type: FinOps
   url: finops/jd-com-finops.yml
@@ -109,7 +111,7 @@ common:
   type: Website
   url: https://jd.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jd-com/refs/heads/main/security/jd-com-domain-security.yml
+  href: https://artifacts.apis.io/jd-com/security/jd-com-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jd-com-domain-security.yml
@@ -193,14 +195,14 @@ plans:
 - name: Jd Com Plans Pricing
   plan_count: 1
   slug: jd-com-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Jd Com Rate Limits
   slug: jd-com-rate-limits
 score:
-  band: minimal
-  composite: 8.2
+  band: emerging
+  composite: 13.4
   coverage:
     artifact_dirs: 7
     catalog_earned: 44.0
@@ -208,12 +210,12 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 26.2
     discoverability: 71.4
     operational_transparency: 10.5
   jurisdiction:
@@ -223,21 +225,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 14.2
+  previous_composite: 13.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jd-com/refs/heads/main/screenshots/jd-com-2026-06-20T183726.png
+screenshot: https://apis.io/screenshots/jd-com/jd-com-2026-06-20T183726.png
 security:
 - kind: domain-security
   name: Jd Com Domain Security

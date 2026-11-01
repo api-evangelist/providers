@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://integration.liberateinc.io
@@ -47,11 +49,8 @@ apis:
   description: Start workflow orchestrations and pass context data into them.
   name: Liberate Innovations Workflows API
   slug: liberate-innovations-workflows-api
-artifact_total: 8
+artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Liberate Orchestration Platform Events API
   slug: open-liberate-innovations-events-api
@@ -60,17 +59,17 @@ collections:
   slug: open-liberate-innovations-workflows-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/mcp/liberate-innovations-mcp.yml
+  href: https://artifacts.apis.io/liberate-innovations/mcp/liberate-innovations-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/liberate-innovations-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/overlays/liberate-innovations-orchestration-overlay.yaml
+  href: https://artifacts.apis.io/liberate-innovations/overlays/liberate-innovations-orchestration-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/liberate-innovations-orchestration-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/security/liberate-innovations-domain-security.yml
+  href: https://artifacts.apis.io/liberate-innovations/security/liberate-innovations-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/liberate-innovations-domain-security.yml
@@ -147,7 +146,7 @@ common:
   type: PrivacyPolicy
   url: https://www.liberateinc.com/legal/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/security/liberate-innovations-trust-center.yml
+  href: https://artifacts.apis.io/liberate-innovations/security/liberate-innovations-trust-center.yml
   title: ''
   type: Compliance
   url: security/liberate-innovations-trust-center.yml
@@ -160,12 +159,12 @@ common:
   type: SecurityOverview
   url: https://www.liberateinc.com/security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/liberate-innovations/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/llms/liberate-innovations-llms.txt
+  href: https://artifacts.apis.io/liberate-innovations/llms/liberate-innovations-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/liberate-innovations-llms.txt
@@ -186,10 +185,10 @@ overview: 'Liberate Innovations publishes 2 API contracts indexed on the [APIs.i
 
 
   Liberate Innovations'' developer surface includes documentation, API reference, getting-started guide, engineering blog, product news, signup flow, support, and 20 more developer resources.'
-random_paper: 3
+random_paper: 5
 score:
   band: thin
-  composite: 33.1
+  composite: 37.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -197,15 +196,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 14.1
-    developer_ergonomics: 61.3
-    discoverability: 74.1
-    operational_transparency: 7.9
-  previous_composite: 33.0
+    developer_ergonomics: 66.1
+    discoverability: 67.9
+    operational_transparency: 15.8
+  previous_composite: 37.3
   provenance:
     conformance: derived
     contracts:
@@ -220,14 +219,15 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 24.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/screenshots/liberate-innovations-2026-07-25T225018.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/liberate-innovations/liberate-innovations-2026-07-25T225018.png
 security:
 - kind: authentication
   name: Liberate Innovations Authentication
@@ -241,6 +241,12 @@ security:
   name: Liberate Innovations Trust Center
   slug: liberate-innovations-trust-center
   summary_line: SOC 2, HIPAA, PCI DSS, GDPR, CCPA, ISO 27001, FedRAMP
+skill_count: 2
+skills:
+- name: liberate-advance-workflow
+  slug: liberate-innovations-advance-workflow
+- name: liberate-start-workflow
+  slug: liberate-innovations-start-workflow
 slug: liberate-innovations
 tags:
 - Company

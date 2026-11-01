@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ppg-industries/refs/heads/main/security/ppg-industries-domain-security.yml
+  href: https://artifacts.apis.io/ppg-industries/security/ppg-industries-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ppg-industries-domain-security.yml
@@ -82,7 +84,7 @@ press:
 - date: ''
   title: PPG
   url: https://www.facebook.com/ppgindustries/posts/in-an-environment-where-every-minute-counts-our-technical-service-helps-customer/1237238018538005/
-random_paper: 18
+random_paper: 6
 score:
   band: minimal
   composite: 3.4
@@ -108,14 +110,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ppg-industries/refs/heads/main/screenshots/ppg-industries-2026-06-20T192035.png
+screenshot: https://apis.io/screenshots/ppg-industries/ppg-industries-2026-06-20T192035.png
 security:
 - kind: domain-security
   name: Ppg Industries Domain Security

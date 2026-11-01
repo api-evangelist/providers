@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Blackstone provides institutional and individual investors with access to portfolio information, capital account statements, fund documents, and reporting through its Investor Portal, which is served '
@@ -42,7 +44,7 @@ apis:
 artifact_total: 31
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/security/blackstone-domain-security.yml
+  href: https://artifacts.apis.io/blackstone/security/blackstone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blackstone-domain-security.yml
@@ -71,57 +73,57 @@ common:
   type: InvestorRelations
   url: https://ir.blackstone.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/well-known/blackstone-well-known.yml
+  href: https://artifacts.apis.io/blackstone/well-known/blackstone-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blackstone-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/authentication/blackstone-authentication.yml
+  href: https://artifacts.apis.io/blackstone/authentication/blackstone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blackstone-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/scopes/blackstone-scopes.yml
+  href: https://artifacts.apis.io/blackstone/scopes/blackstone-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/blackstone-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/conformance/blackstone-conformance.yml
+  href: https://artifacts.apis.io/blackstone/conformance/blackstone-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blackstone-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/security/blackstone-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/blackstone/security/blackstone-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/blackstone-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/security/blackstone-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/blackstone/security/blackstone-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/blackstone-vulnerability-disclosure.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/llms/blackstone-llms.txt
+  href: https://artifacts.apis.io/blackstone/llms/blackstone-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blackstone-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/plans/blackstone-plans-pricing.yml
+  href: https://artifacts.apis.io/blackstone/plans/blackstone-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blackstone-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/rate-limits/blackstone-rate-limits.yml
+  href: https://artifacts.apis.io/blackstone/rate-limits/blackstone-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blackstone-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/finops/blackstone-finops.yml
+  href: https://artifacts.apis.io/blackstone/finops/blackstone-finops.yml
   title: ''
   type: FinOps
   url: finops/blackstone-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/rules/blackstone-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/blackstone/rules/blackstone-jsonschema-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/blackstone-jsonschema-spectral-rules.yml
@@ -138,12 +140,12 @@ common:
   type: Blog
   url: https://www.blackstone.com/insights/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/rules/blackstone-spectral-rules.yml
+  href: https://artifacts.apis.io/blackstone/rules/blackstone-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/blackstone-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/vocabulary/blackstone-vocabulary.yaml
+  href: https://artifacts.apis.io/blackstone/vocabulary/blackstone-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/blackstone-vocabulary.yaml
@@ -297,24 +299,24 @@ scopes:
   slug: blackstone-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 35.8
+  band: developing
+  composite: 41.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 77.8
     catalog_earned_first_party: 16.0
     catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 55.3
     contract_governance: 28.0
     contract_quality: 29.2
-    developer_ergonomics: 14.3
-    discoverability: 73.2
+    developer_ergonomics: 28.6
+    discoverability: 66.1
     operational_transparency: 31.6
-  previous_composite: 37.3
+  previous_composite: 41.9
   provenance:
     conformance: derived
   regulatory:
@@ -322,15 +324,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 40.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/screenshots/blackstone-2026-06-20T173341.png
+screenshot: https://apis.io/screenshots/blackstone/blackstone-2026-06-20T173341.png
 security:
 - kind: authentication
   name: Blackstone Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.1
-  scored_at: '2026-10-17'
+  score: 22.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 4
@@ -119,11 +121,8 @@ apis:
   description: user related operations
   name: ClimateAI User API
   slug: climateai-user-api
-artifact_total: 33
+artifact_total: 35
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ClimateAI Platform Account API
   slug: open-climateai-account-api
@@ -168,7 +167,7 @@ collections:
   slug: open-climateai-user-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/capabilities/climateai-capability-edges.yml
+  href: https://artifacts.apis.io/climateai/capabilities/climateai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/climateai-capability-edges.yml
@@ -225,67 +224,67 @@ common:
   type: Deprecation
   url: https://docs.climate.ai/guide/migration
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/llms/climateai-llms.txt
+  href: https://artifacts.apis.io/climateai/llms/climateai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/climateai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/authentication/climateai-authentication.yml
+  href: https://artifacts.apis.io/climateai/authentication/climateai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/climateai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/conventions/climateai-conventions.yml
+  href: https://artifacts.apis.io/climateai/conventions/climateai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/climateai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/errors/climateai-problem-types.yml
+  href: https://artifacts.apis.io/climateai/errors/climateai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/climateai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/lifecycle/climateai-lifecycle.yml
+  href: https://artifacts.apis.io/climateai/lifecycle/climateai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/climateai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/conformance/climateai-conformance.yml
+  href: https://artifacts.apis.io/climateai/conformance/climateai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/climateai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/data-model/climateai-data-model.yml
+  href: https://artifacts.apis.io/climateai/data-model/climateai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/climateai-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/vocabulary/climateai-weather-variables.yml
+  href: https://artifacts.apis.io/climateai/vocabulary/climateai-weather-variables.yml
   title: ''
   type: Vocabulary
   url: vocabulary/climateai-weather-variables.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/mcp/climateai-mcp.yml
+  href: https://artifacts.apis.io/climateai/mcp/climateai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/climateai-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/mcp/climateai-tool-crosswalk.yml
+  href: https://artifacts.apis.io/climateai/mcp/climateai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/climateai-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/climateai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/agentic-access/climateai-agentic-access.yml
+  href: https://artifacts.apis.io/climateai/agentic-access/climateai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/climateai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/security/climateai-domain-security.yml
+  href: https://artifacts.apis.io/climateai/security/climateai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/climateai-domain-security.yml
@@ -301,10 +300,10 @@ overview: 'ClimateAI publishes 15 API contracts indexed on the [APIs.io](https:/
 
 
   ClimateAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 13
+random_paper: 1
 score:
   band: developing
-  composite: 42.9
+  composite: 42.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 42.0
@@ -312,15 +311,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 19.7
-    contract_quality: 50.2
+    contract_quality: 46.8
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 42.8
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -337,13 +336,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/screenshots/climateai-2026-08-07T163452.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/climateai/climateai-2026-08-07T163452.png
 security:
 - kind: authentication
   name: Climateai Authentication
@@ -353,6 +353,14 @@ security:
   name: Climateai Domain Security
   slug: climateai-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Forecast weather and climate risk for a location
+  slug: climateai-forecast-a-location
+- name: Pull weather history and judge whether conditions are anomalous
+  slug: climateai-history-and-anomaly
+- name: Get probabilistic tercile forecasts (legacy v1 only)
+  slug: climateai-legacy-tercile-forecast
 slug: climateai
 tags:
 - Company

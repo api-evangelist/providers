@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -45,7 +47,7 @@ common:
   type: BlogRSS
   url: https://www.rangeresources.com/news/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/range-resources/refs/heads/main/security/range-resources-domain-security.yml
+  href: https://artifacts.apis.io/range-resources/security/range-resources-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/range-resources-domain-security.yml
@@ -78,7 +80,7 @@ common:
   type: Contact
   url: https://www.rangeresources.com/contact
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/range-resources/refs/heads/main/vocabulary/range-resources-vocabulary.yml
+  href: https://artifacts.apis.io/range-resources/vocabulary/range-resources-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/range-resources-vocabulary.yml
@@ -123,10 +125,10 @@ press:
 - date: ''
   title: Range an Official Partner for World Engineering Day
   url: https://www.rangeresources.com/range-resources-an-official-partner-for-world-engineering-day-for-sustainable-development-2026-an-international-day-proclaimed-by-unesco/
-random_paper: 17
+random_paper: 21
 score:
   band: minimal
-  composite: 6.4
+  composite: 6.5
   coverage:
     artifact_dirs: 7
     catalog_earned: 31.5
@@ -140,23 +142,23 @@ score:
     contract_governance: 13.6
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 6.4
+  previous_composite: 6.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/range-resources/refs/heads/main/screenshots/range-resources-2026-06-20T192559.png
+screenshot: https://apis.io/screenshots/range-resources/range-resources-2026-06-20T192559.png
 security:
 - kind: domain-security
   name: Range Resources Domain Security

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Open Finance Brasil endpoints registered by Nubank in the Central Bank directory. Provides consent-driven access to account, credit-card, loan, and payment-initiation data for authorised TPPs under th
@@ -54,17 +56,17 @@ apis:
 artifact_total: 10
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nubank/refs/heads/main/plans/nubank-plans-pricing.yml
+  href: https://artifacts.apis.io/nubank/plans/nubank-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nubank-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nubank/refs/heads/main/rate-limits/nubank-rate-limits.yml
+  href: https://artifacts.apis.io/nubank/rate-limits/nubank-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nubank-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nubank/refs/heads/main/finops/nubank-finops.yml
+  href: https://artifacts.apis.io/nubank/finops/nubank-finops.yml
   title: ''
   type: FinOps
   url: finops/nubank-finops.yml
@@ -73,12 +75,12 @@ common:
   type: BlogRSS
   url: https://blog.nubank.com.br/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nubank/refs/heads/main/security/nubank-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nubank/security/nubank-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nubank-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nubank/refs/heads/main/security/nubank-domain-security.yml
+  href: https://artifacts.apis.io/nubank/security/nubank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nubank-domain-security.yml
@@ -134,14 +136,14 @@ plans:
 - name: Nubank Plans Pricing
   plan_count: 1
   slug: nubank-plans-pricing
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Nubank Rate Limits
   slug: nubank-rate-limits
 score:
   band: minimal
-  composite: 9.3
+  composite: 10.7
   coverage:
     artifact_dirs: 8
     catalog_earned: 41.0
@@ -149,14 +151,14 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 66.1
-    operational_transparency: 10.5
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -166,21 +168,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 15.3
+  previous_composite: 10.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 9.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nubank/refs/heads/main/screenshots/nubank-2026-06-20T190506.png
+screenshot: https://apis.io/screenshots/nubank/nubank-2026-06-20T190506.png
 security:
 - kind: domain-security
   name: Nubank Domain Security

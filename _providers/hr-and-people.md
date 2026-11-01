@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 27
 apis:
 - description: Workday is a cloud HCM, payroll, and finance suite with a Web Services / REST API catalog spanning Human Capital Management, Payroll, Recruiting, Talent, and Time Tracking.
@@ -119,12 +121,12 @@ apis:
 artifact_total: 52
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hr-and-people/refs/heads/main/security/hr-and-people-trust-center.yml
+  href: https://artifacts.apis.io/hr-and-people/security/hr-and-people-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/hr-and-people-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hr-and-people/refs/heads/main/security/hr-and-people-domain-security.yml
+  href: https://artifacts.apis.io/hr-and-people/security/hr-and-people-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hr-and-people-domain-security.yml
@@ -133,37 +135,37 @@ common:
   type: APIEvangelistTopic
   url: https://github.com/api-evangelist/hr-and-people
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hr-and-people/refs/heads/main/json-schema/hr-and-people-employee-schema.json
+  href: https://artifacts.apis.io/hr-and-people/json-schema/hr-and-people-employee-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/hr-and-people-employee-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hr-and-people/refs/heads/main/json-schema/hr-and-people-employment-schema.json
+  href: https://artifacts.apis.io/hr-and-people/json-schema/hr-and-people-employment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/hr-and-people-employment-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hr-and-people/refs/heads/main/json-structure/hr-and-people-employee-structure.json
+  href: https://artifacts.apis.io/hr-and-people/json-structure/hr-and-people-employee-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/hr-and-people-employee-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hr-and-people/refs/heads/main/json-ld/hr-and-people-context.jsonld
+  href: https://artifacts.apis.io/hr-and-people/json-ld/hr-and-people-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/hr-and-people-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hr-and-people/refs/heads/main/vocabulary/hr-and-people-vocabulary.yml
+  href: https://artifacts.apis.io/hr-and-people/vocabulary/hr-and-people-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/hr-and-people-vocabulary.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hr-and-people/refs/heads/main/examples/hr-and-people-employee-example.json
+  href: https://artifacts.apis.io/hr-and-people/examples/hr-and-people-employee-example.json
   title: ''
   type: Examples
   url: examples/hr-and-people-employee-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hr-and-people/refs/heads/main/examples/hr-and-people-employment-example.json
+  href: https://artifacts.apis.io/hr-and-people/examples/hr-and-people-employment-example.json
   title: ''
   type: Examples
   url: examples/hr-and-people-employment-example.json
@@ -227,7 +229,7 @@ overview: 'HR & People is listed with 27 APIs on the [APIs.io](https://apis.io/)
 
 
   HR & People''s developer surface includes code examples and 9 more developer resources.'
-random_paper: 6
+random_paper: 12
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -265,14 +267,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hr-and-people/refs/heads/main/screenshots/hr-and-people-2026-06-20T182901.png
+screenshot: https://apis.io/screenshots/hr-and-people/hr-and-people-2026-06-20T182901.png
 security:
 - kind: domain-security
   name: Hr And People Domain Security

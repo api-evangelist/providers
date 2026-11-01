@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,12 +64,12 @@ common:
   type: PrivacyPolicy
   url: https://www.angitiabio.com/privacypolicy
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/angitia-biopharmaceuticals/refs/heads/main/well-known/angitia-biopharmaceuticals-robots.txt
+  href: https://artifacts.apis.io/angitia-biopharmaceuticals/well-known/angitia-biopharmaceuticals-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/angitia-biopharmaceuticals-robots.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/angitia-biopharmaceuticals/refs/heads/main/security/angitia-biopharmaceuticals-domain-security.yml
+  href: https://artifacts.apis.io/angitia-biopharmaceuticals/security/angitia-biopharmaceuticals-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/angitia-biopharmaceuticals-domain-security.yml
@@ -97,12 +99,12 @@ overview: 'Angitia Biopharmaceuticals is profiled on the [APIs.io](https://apis.
 
 
   Angitia Biopharmaceuticals'' developer surface includes product news, support, and 6 more developer resources.'
-random_paper: 20
+random_paper: 18
 score:
   band: minimal
-  composite: 9.9
+  composite: 10.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -114,23 +116,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 49.1
+    discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 9.9
+  previous_composite: 10.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/angitia-biopharmaceuticals/refs/heads/main/screenshots/angitia-biopharmaceuticals-2026-08-07T161410.png
+screenshot: https://apis.io/screenshots/angitia-biopharmaceuticals/angitia-biopharmaceuticals-2026-08-07T161410.png
 security:
 - kind: domain-security
   name: Angitia Biopharmaceuticals Domain Security

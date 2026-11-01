@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: PSD2-compliant account information service (AIS) API for Spain. Allows authorized third parties to access customer payment account information including account lists, balances, transaction history, a
@@ -51,22 +53,22 @@ apis:
 artifact_total: 27
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/plans/bbva-plans-pricing.yml
+  href: https://artifacts.apis.io/bbva/plans/bbva-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bbva-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/rate-limits/bbva-rate-limits.yml
+  href: https://artifacts.apis.io/bbva/rate-limits/bbva-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bbva-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/finops/bbva-finops.yml
+  href: https://artifacts.apis.io/bbva/finops/bbva-finops.yml
   title: ''
   type: FinOps
   url: finops/bbva-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/security/bbva-domain-security.yml
+  href: https://artifacts.apis.io/bbva/security/bbva-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bbva-domain-security.yml
@@ -111,17 +113,17 @@ common:
   type: Blog
   url: https://www.bbvaapimarket.com/en/api-world/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/rules/bbva-spectral-rules.yml
+  href: https://artifacts.apis.io/bbva/rules/bbva-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/bbva-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/vocabulary/bbva-vocabulary.yaml
+  href: https://artifacts.apis.io/bbva/vocabulary/bbva-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/bbva-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/json-ld/bbva-context.jsonld
+  href: https://artifacts.apis.io/bbva/json-ld/bbva-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bbva-context.jsonld
@@ -152,7 +154,7 @@ finops:
 - has_sources: false
   method: generated
   name: Bbva Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: bbva-finops
   template: true
@@ -187,7 +189,7 @@ plans:
 - name: Bbva Plans Pricing
   plan_count: 3
   slug: bbva-plans-pricing
-random_paper: 15
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Bbva Rate Limits
@@ -218,7 +220,7 @@ rules:
   slug: bbva-spectral-rules
 score:
   band: thin
-  composite: 29.0
+  composite: 31.9
   coverage:
     artifact_dirs: 13
     catalog_earned: 71.5
@@ -226,14 +228,14 @@ score:
     catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.8
+  delta: 0.0
   facets:
-    access_clarity: 18.4
+    access_clarity: 28.9
     contract_governance: 68.2
     contract_quality: 10.7
     developer_ergonomics: 40.5
     discoverability: 62.5
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -244,21 +246,21 @@ score:
     - europe
     - france-iberia
     - latin-america
-  previous_composite: 28.2
+  previous_composite: 31.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 15.0
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/screenshots/bbva-2026-06-20T173058.png
+screenshot: https://apis.io/screenshots/bbva/bbva-2026-06-20T173058.png
 security:
 - kind: domain-security
   name: Bbva Domain Security

@@ -11,8 +11,9 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -24,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.8
-  scored_at: '2026-10-17'
+  score: 44.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 2
@@ -41,7 +44,7 @@ agentic_access:
   operation_count: 114
   slug: hooklogic-criteo-agentic-access
   summary_line: 114 operations · 66 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.criteo.com
   baseurl_source: declared
@@ -83,11 +86,8 @@ apis:
   description: The Gateway API from HookLogic (Criteo) — 1 operation(s) for gateway.
   name: HookLogic (Criteo) Gateway API
   slug: hooklogic-criteo-gateway-api
-artifact_total: 26
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Criteo Accounts API
   slug: open-hooklogic-criteo-accounts-api
@@ -118,42 +118,42 @@ common:
   type: Website
   url: https://www.criteo.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/capabilities/hooklogic-criteo-capability-edges.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/capabilities/hooklogic-criteo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hooklogic-criteo-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/security/hooklogic-criteo-trust-center.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/security/hooklogic-criteo-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/hooklogic-criteo-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/security/hooklogic-criteo-trust-center.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/security/hooklogic-criteo-trust-center.yml
   title: ''
   type: Compliance
   url: security/hooklogic-criteo-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/scopes/hooklogic-criteo-scopes.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/scopes/hooklogic-criteo-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hooklogic-criteo-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/a2a/hooklogic-criteo-a2a.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/a2a/hooklogic-criteo-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/hooklogic-criteo-a2a.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/mcp/hooklogic-criteo-tool-crosswalk.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/mcp/hooklogic-criteo-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/hooklogic-criteo-tool-crosswalk.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/plans/hooklogic-criteo-plans-pricing.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/plans/hooklogic-criteo-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hooklogic-criteo-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/components/hooklogic-criteo-components.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/components/hooklogic-criteo-components.yml
   title: ''
   type: Components
   url: components/hooklogic-criteo-components.yml
@@ -166,7 +166,7 @@ common:
   type: Quickstart
   url: https://developers.criteo.com/criteo-apis/docs/connect-to-the-api
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/overlays/hooklogic-criteo-retailmedia-overlay.yaml
+  href: https://artifacts.apis.io/hooklogic-criteo/overlays/hooklogic-criteo-retailmedia-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/hooklogic-criteo-retailmedia-overlay.yaml
@@ -215,27 +215,27 @@ common:
   type: Postman
   url: https://www.postman.com/realcriteo/workspace/criteo/overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/authentication/hooklogic-criteo-authentication.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/authentication/hooklogic-criteo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/hooklogic-criteo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/conventions/hooklogic-criteo-conventions.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/conventions/hooklogic-criteo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/hooklogic-criteo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/errors/hooklogic-criteo-problem-types.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/errors/hooklogic-criteo-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/hooklogic-criteo-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/rate-limits/hooklogic-criteo-rate-limits.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/rate-limits/hooklogic-criteo-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hooklogic-criteo-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/lifecycle/hooklogic-criteo-lifecycle.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/lifecycle/hooklogic-criteo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/hooklogic-criteo-lifecycle.yml
@@ -248,62 +248,62 @@ common:
   type: Deprecation
   url: https://developers.criteo.com/criteo-apis/docs/versioning-policy
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/changelog/hooklogic-criteo-changelog.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/changelog/hooklogic-criteo-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hooklogic-criteo-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/packages/hooklogic-criteo-packages.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/packages/hooklogic-criteo-packages.yml
   title: ''
   type: Packages
   url: packages/hooklogic-criteo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/packages/hooklogic-criteo-packages.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/packages/hooklogic-criteo-packages.yml
   title: ''
   type: SDKs
   url: packages/hooklogic-criteo-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/llms/hooklogic-criteo-llms.txt
+  href: https://artifacts.apis.io/hooklogic-criteo/llms/hooklogic-criteo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hooklogic-criteo-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/well-known/hooklogic-criteo-well-known.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/well-known/hooklogic-criteo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hooklogic-criteo-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/well-known/hooklogic-criteo-security.txt
+  href: https://artifacts.apis.io/hooklogic-criteo/well-known/hooklogic-criteo-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/hooklogic-criteo-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/mcp/hooklogic-criteo-mcp.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/mcp/hooklogic-criteo-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hooklogic-criteo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/conformance/hooklogic-criteo-conformance.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/conformance/hooklogic-criteo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/hooklogic-criteo-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/data-model/hooklogic-criteo-data-model.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/data-model/hooklogic-criteo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/hooklogic-criteo-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/security/hooklogic-criteo-domain-security.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/security/hooklogic-criteo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hooklogic-criteo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/security/hooklogic-criteo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/security/hooklogic-criteo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/hooklogic-criteo-vulnerability-disclosure.yml
@@ -312,12 +312,20 @@ common:
   type: Security
   url: https://api.criteo.com/.well-known/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/agentic-access/hooklogic-criteo-agentic-access.yml
+  href: https://artifacts.apis.io/hooklogic-criteo/agentic-access/hooklogic-criteo-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hooklogic-criteo-agentic-access.yml
 created: '2026-07-17'
 description: HookLogic was a retail-media advertising exchange and ad server that let brands buy sponsored-product placements in retailer search results (Walmart, Target, Best Buy). Criteo acquired HookLogic for ~$250M in 2016, and the product line is now delivered as the Criteo Retail Media API — a REST API for retailers, brands, and agencies to programmatically create, launch, monitor, and report on retail-media campaigns. It uses OAuth 2.0 (client-credentials and authorization-code flows), RFC 7807 error bodies, date-based API versioning, and ships officially supported Python, PHP, and Java SDKs.
+finops:
+- has_sources: true
+  method: derived
+  name: Hooklogic Criteo Finops
+  primary_unit: ''
+  service_category: ''
+  slug: hooklogic-criteo-finops
+  template: true
 image: https://avatars.githubusercontent.com/u/1713646?v=4
 layout: provider
 mcp_servers:
@@ -336,7 +344,7 @@ plans:
 - name: Hooklogic Criteo Plans Pricing
   plan_count: 0
   slug: hooklogic-criteo-plans-pricing
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Hooklogic Criteo Rate Limits
@@ -348,23 +356,28 @@ scopes:
   summary_line: 11 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 61.7
+  composite: 61.5
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 44.5
-    developer_ergonomics: 73.8
-    discoverability: 73.2
-    operational_transparency: 78.9
-  previous_composite: 61.6
+    contract_quality: 47.0
+    developer_ergonomics: 76.2
+    discoverability: 65.0
+    operational_transparency: 86.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -372,7 +385,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 17
     mcp: first-party
     skills: first-party
   regulatory:
@@ -381,13 +394,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/screenshots/hooklogic-criteo-2026-07-25T221415.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hooklogic-criteo/hooklogic-criteo-2026-07-25T221415.png
 security:
 - kind: authentication
   name: Hooklogic Criteo Authentication
@@ -405,6 +419,14 @@ security:
   name: Hooklogic Criteo Trust Center
   slug: hooklogic-criteo-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 3
+skills:
+- name: Criteo
+  slug: hooklogic-criteo-criteo-published-skill
+- name: Launch a Criteo Retail Media campaign
+  slug: hooklogic-criteo-launch-campaign
+- name: Run a Criteo Retail Media async performance report
+  slug: hooklogic-criteo-run-report
 slug: hooklogic-criteo
 tags:
 - Company

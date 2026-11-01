@@ -15,6 +15,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -30,14 +31,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-10-17'
+  score: 38.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -72,11 +75,8 @@ apis:
   description: Monitor API token quota and usage.
   name: Event Registry Usage API
   slug: event-registry-usage-api
-artifact_total: 25
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Event Registry (NewsAPI.ai) Articles API
   slug: open-event-registry-articles-api
@@ -93,22 +93,27 @@ collections:
   name: Event Registry (NewsAPI.ai) Articles Usage API
   slug: open-event-registry-usage-api
 common:
+- group: other
+  href: https://artifacts.apis.io/event-registry/capabilities/event-registry-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/event-registry-capability-edges.yml
 - group: commercial
   title: ''
   type: License
   url: https://github.com/EventRegistry/newsapi-mcp/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/agentic-access/event-registry-agentic-access.yml
+  href: https://artifacts.apis.io/event-registry/agentic-access/event-registry-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/event-registry-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/security/event-registry-domain-security.yml
+  href: https://artifacts.apis.io/event-registry/security/event-registry-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/event-registry-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/authentication/event-registry-authentication.yml
+  href: https://artifacts.apis.io/event-registry/authentication/event-registry-authentication.yml
   title: ''
   type: Authentication
   url: authentication/event-registry-authentication.yml
@@ -141,82 +146,82 @@ common:
   type: X
   url: https://x.com/event_registry
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/plans/event-registry-plans-pricing.yml
+  href: https://artifacts.apis.io/event-registry/plans/event-registry-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/event-registry-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/rate-limits/event-registry-rate-limits.yml
+  href: https://artifacts.apis.io/event-registry/rate-limits/event-registry-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/event-registry-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/finops/event-registry-finops.yml
+  href: https://artifacts.apis.io/event-registry/finops/event-registry-finops.yml
   title: ''
   type: FinOps
   url: finops/event-registry-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/packages/event-registry-packages.yml
+  href: https://artifacts.apis.io/event-registry/packages/event-registry-packages.yml
   title: ''
   type: Packages
   url: packages/event-registry-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/packages/event-registry-packages.yml
+  href: https://artifacts.apis.io/event-registry/packages/event-registry-packages.yml
   title: ''
   type: SDKs
   url: packages/event-registry-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/mcp/event-registry-mcp.yml
+  href: https://artifacts.apis.io/event-registry/mcp/event-registry-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/event-registry-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/mcp/event-registry-tool-crosswalk.yml
+  href: https://artifacts.apis.io/event-registry/mcp/event-registry-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/event-registry-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/event-registry/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/llms/event-registry-llms.txt
+  href: https://artifacts.apis.io/event-registry/llms/event-registry-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/event-registry-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/conventions/event-registry-conventions.yml
+  href: https://artifacts.apis.io/event-registry/conventions/event-registry-conventions.yml
   title: ''
   type: Conventions
   url: conventions/event-registry-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/errors/event-registry-problem-types.yml
+  href: https://artifacts.apis.io/event-registry/errors/event-registry-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/event-registry-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/data-model/event-registry-data-model.yml
+  href: https://artifacts.apis.io/event-registry/data-model/event-registry-data-model.yml
   title: ''
   type: DataModel
   url: data-model/event-registry-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/lifecycle/event-registry-lifecycle.yml
+  href: https://artifacts.apis.io/event-registry/lifecycle/event-registry-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/event-registry-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/conformance/event-registry-conformance.yml
+  href: https://artifacts.apis.io/event-registry/conformance/event-registry-conformance.yml
   title: ''
   type: Conformance
   url: conformance/event-registry-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/changelog/event-registry-changelog.yml
+  href: https://artifacts.apis.io/event-registry/changelog/event-registry-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/event-registry-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/sandbox/event-registry-sandbox.yml
+  href: https://artifacts.apis.io/event-registry/sandbox/event-registry-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/event-registry-sandbox.yml
@@ -249,13 +254,13 @@ examples:
   name: Suggest Concepts
   slug: suggest-concepts
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Event Registry Finops
-  primary_unit: ''
+  primary_unit: tokens
   service_category: ''
   slug: event-registry-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/event-registry.png
 json_schemas:
 - name: Article
@@ -284,12 +289,15 @@ overview: 'Event Registry publishes 5 API contracts indexed on the [APIs.io](htt
   The Event Registry catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Event Registry''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, sandbox, signup flow, and 24 more developer resources.'
+  Event Registry''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, sandbox, signup flow, and 25 more developer resources.'
 plans:
 - name: Event Registry Plans Pricing
-  plan_count: 5
+  plan_count: 3
   slug: event-registry-plans-pricing
-random_paper: 6
+- name: Event Registry Price Estimates
+  plan_count: 0
+  slug: event-registry-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Event Registry Rate Limits
@@ -307,24 +315,24 @@ rules:
     warn: 4
   slug: event-registry-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.7
+  band: strong
+  composite: 54.4
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 68.3
+    artifact_dirs: 31
+    catalog_earned: 71.3
     catalog_earned_first_party: 20.0
-    catalog_gap: 46.8
+    catalog_gap: 43.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 52.6
+    access_clarity: 73.7
     contract_governance: 14.4
     contract_quality: 57.8
-    developer_ergonomics: 39.3
+    developer_ergonomics: 53.6
     discoverability: 65.0
     operational_transparency: 42.1
-  previous_composite: 48.2
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -341,13 +349,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/screenshots/event-registry-2026-06-20T180857.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/event-registry/event-registry-2026-06-20T180857.png
 security:
 - kind: authentication
   name: Event Registry Authentication
@@ -357,6 +366,10 @@ security:
   name: Event Registry Domain Security
   slug: event-registry-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: news
+  slug: event-registry-news-research
 slug: event-registry
 tags:
 - News

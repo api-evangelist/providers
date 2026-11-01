@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Online help portal for SEEBURGER Cloud services, providing documentation and guides.
@@ -36,12 +38,12 @@ common:
   type: BlogRSS
   url: https://blog.seeburger.com/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/seeburger/refs/heads/main/llms/seeburger-llms.txt
+  href: https://artifacts.apis.io/seeburger/llms/seeburger-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/seeburger-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/seeburger/refs/heads/main/hosts/seeburger-hosts.yml
+  href: https://artifacts.apis.io/seeburger/hosts/seeburger-hosts.yml
   title: ''
   type: Hosts
   url: hosts/seeburger-hosts.yml
@@ -62,7 +64,7 @@ common:
   type: Documentation
   url: https://help.cloud.seeburger.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/seeburger/refs/heads/main/security/seeburger-domain-security.yml
+  href: https://artifacts.apis.io/seeburger/security/seeburger-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/seeburger-domain-security.yml
@@ -90,10 +92,10 @@ overview: 'SEEBURGER is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   SEEBURGER''s developer surface includes pricing, engineering blog, documentation, and 6 more developer resources.'
-random_paper: 18
+random_paper: 4
 score:
-  band: emerging
-  composite: 11.3
+  band: minimal
+  composite: 10.6
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -107,23 +109,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 11.3
+  previous_composite: 10.6
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/seeburger/refs/heads/main/screenshots/seeburger-2026-10-11T125640.png
+screenshot: https://apis.io/screenshots/seeburger/seeburger-2026-10-11T125640.png
 security:
 - kind: domain-security
   name: Seeburger Domain Security

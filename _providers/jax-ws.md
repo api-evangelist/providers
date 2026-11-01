@@ -4,6 +4,6 @@ layout: provider
 name: jax-ws
 nav: Providers
 network: true
-random_paper: 8
+random_paper: 2
 slug: jax-ws
 ---

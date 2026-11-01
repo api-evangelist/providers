@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL API backing the Glife food-tech commerce and supply-chain platform. Exposes 535 queries, 870 mutations, and 139 subscriptions across ecommerce (customers, products, categories, orders, article
@@ -42,7 +44,7 @@ apis:
 artifact_total: 4
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/glife/refs/heads/main/security/glife-domain-security.yml
+  href: https://artifacts.apis.io/glife/security/glife-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/glife-domain-security.yml
@@ -67,27 +69,27 @@ common:
   type: Support
   url: https://glife.com.sg/contact-us
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/glife/refs/heads/main/authentication/glife-authentication.yml
+  href: https://artifacts.apis.io/glife/authentication/glife-authentication.yml
   title: ''
   type: Authentication
   url: authentication/glife-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/glife/refs/heads/main/conventions/glife-conventions.yml
+  href: https://artifacts.apis.io/glife/conventions/glife-conventions.yml
   title: ''
   type: Conventions
   url: conventions/glife-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/glife/refs/heads/main/data-model/glife-data-model.yml
+  href: https://artifacts.apis.io/glife/data-model/glife-data-model.yml
   title: ''
   type: DataModel
   url: data-model/glife-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/glife/refs/heads/main/mcp/glife-mcp.yml
+  href: https://artifacts.apis.io/glife/mcp/glife-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/glife-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/glife/refs/heads/main/llms/glife-llms.txt
+  href: https://artifacts.apis.io/glife/llms/glife-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/glife-llms.txt
@@ -119,10 +121,10 @@ overview: 'Glife is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Glife''s developer surface includes engineering blog, signup flow, support, authentication, and 10 more developer resources.'
-random_paper: 13
+random_paper: 15
 score:
   band: emerging
-  composite: 22.0
+  composite: 21.3
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -136,7 +138,7 @@ score:
     contract_governance: 0.0
     contract_quality: 35.1
     developer_ergonomics: 19.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -145,7 +147,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 22.0
+  previous_composite: 21.3
   provenance:
     mcp: derived
   regulatory:
@@ -154,14 +156,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/glife/refs/heads/main/screenshots/glife-2026-07-25T215902.png
+screenshot: https://apis.io/screenshots/glife/glife-2026-07-25T215902.png
 security:
 - kind: authentication
   name: Glife Authentication

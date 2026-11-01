@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'PSD2 open-banking platform API: Authentication, General, Payment Initiation (PIS) and Account Information (AIS) services for account-to-account bank payments, card (hybrid) payments, refunds and accou'
   name: kevin. platform API
   slug: kevin-platform-api
-artifact_total: 5
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Kevin Webhooks
@@ -58,82 +60,82 @@ common:
   type: APIReference
   url: https://api-reference.kevin.eu/public/platform/v0.3
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/packages/kevin-packages.yml
+  href: https://artifacts.apis.io/kevin/packages/kevin-packages.yml
   title: ''
   type: Packages
   url: packages/kevin-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/packages/kevin-packages.yml
+  href: https://artifacts.apis.io/kevin/packages/kevin-packages.yml
   title: ''
   type: SDKs
   url: packages/kevin-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/cli/kevin-cli.yml
+  href: https://artifacts.apis.io/kevin/cli/kevin-cli.yml
   title: ''
   type: CLI
   url: cli/kevin-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/components/kevin-components.yml
+  href: https://artifacts.apis.io/kevin/components/kevin-components.yml
   title: ''
   type: Components
   url: components/kevin-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/authentication/kevin-authentication.yml
+  href: https://artifacts.apis.io/kevin/authentication/kevin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kevin-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/scopes/kevin-scopes.yml
+  href: https://artifacts.apis.io/kevin/scopes/kevin-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/kevin-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/errors/kevin-error-codes.yml
+  href: https://artifacts.apis.io/kevin/errors/kevin-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kevin-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/asyncapi/kevin-webhooks.yml
+  href: https://artifacts.apis.io/kevin/asyncapi/kevin-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kevin-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/conventions/kevin-conventions.yml
+  href: https://artifacts.apis.io/kevin/conventions/kevin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kevin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/data-model/kevin-data-model.yml
+  href: https://artifacts.apis.io/kevin/data-model/kevin-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kevin-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/conformance/kevin-conformance.yml
+  href: https://artifacts.apis.io/kevin/conformance/kevin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kevin-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/mcp/kevin-mcp.yml
+  href: https://artifacts.apis.io/kevin/mcp/kevin-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kevin-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kevin/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/lifecycle/kevin-lifecycle.yml
+  href: https://artifacts.apis.io/kevin/lifecycle/kevin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kevin-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/llms/kevin-llms.txt
+  href: https://artifacts.apis.io/kevin/llms/kevin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kevin-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/security/kevin-domain-security.yml
+  href: https://artifacts.apis.io/kevin/security/kevin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kevin-domain-security.yml
@@ -197,8 +199,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
@@ -213,6 +215,14 @@ security:
   name: Kevin Domain Security
   slug: kevin-domain-security
   summary_line: no transport/DNS hardening detected
+skill_count: 3
+skills:
+- name: Initiate an account-to-account bank payment
+  slug: kevin-initiate-bank-payment
+- name: Authorize and read bank account information
+  slug: kevin-read-account-information
+- name: Refund a payment and reconcile
+  slug: kevin-refund-payment
 slug: kevin
 tags:
 - Company

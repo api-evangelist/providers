@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.7
-  scored_at: '2026-10-17'
+  score: 33.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -181,9 +183,6 @@ collections:
   name: WakaTime API
   slug: postman-wakatime-api-v1
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: WakaTime API
   slug: open-wakatime-api-v1
 - collection_type: open
@@ -248,32 +247,32 @@ collections:
   slug: open-wakatime-users-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/agentic-access/wakatime-agentic-access.yml
+  href: https://artifacts.apis.io/wakatime/agentic-access/wakatime-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wakatime-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/security/wakatime-trust-center.yml
+  href: https://artifacts.apis.io/wakatime/security/wakatime-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wakatime-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/security/wakatime-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/wakatime/security/wakatime-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/wakatime-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/security/wakatime-domain-security.yml
+  href: https://artifacts.apis.io/wakatime/security/wakatime-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wakatime-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/authentication/wakatime-authentication.yml
+  href: https://artifacts.apis.io/wakatime/authentication/wakatime-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wakatime-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/scopes/wakatime-scopes.yml
+  href: https://artifacts.apis.io/wakatime/scopes/wakatime-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/wakatime-scopes.yml
@@ -282,87 +281,87 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/wakatime/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/arazzo/wakatime-daily-activity-audit-workflow.yml
+  href: https://artifacts.apis.io/wakatime/arazzo/wakatime-daily-activity-audit-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wakatime-daily-activity-audit-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/arazzo/wakatime-data-dump-export-workflow.yml
+  href: https://artifacts.apis.io/wakatime/arazzo/wakatime-data-dump-export-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wakatime-data-dump-export-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/arazzo/wakatime-goals-review-workflow.yml
+  href: https://artifacts.apis.io/wakatime/arazzo/wakatime-goals-review-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wakatime-goals-review-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/arazzo/wakatime-leaderboard-to-user-workflow.yml
+  href: https://artifacts.apis.io/wakatime/arazzo/wakatime-leaderboard-to-user-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wakatime-leaderboard-to-user-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/arazzo/wakatime-private-leaderboard-rankings-workflow.yml
+  href: https://artifacts.apis.io/wakatime/arazzo/wakatime-private-leaderboard-rankings-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wakatime-private-leaderboard-rankings-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/arazzo/wakatime-project-deep-dive-workflow.yml
+  href: https://artifacts.apis.io/wakatime/arazzo/wakatime-project-deep-dive-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wakatime-project-deep-dive-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/arazzo/wakatime-send-heartbeat-and-verify-workflow.yml
+  href: https://artifacts.apis.io/wakatime/arazzo/wakatime-send-heartbeat-and-verify-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wakatime-send-heartbeat-and-verify-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/arazzo/wakatime-stats-range-comparison-workflow.yml
+  href: https://artifacts.apis.io/wakatime/arazzo/wakatime-stats-range-comparison-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wakatime-stats-range-comparison-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/arazzo/wakatime-summaries-to-durations-workflow.yml
+  href: https://artifacts.apis.io/wakatime/arazzo/wakatime-summaries-to-durations-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wakatime-summaries-to-durations-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/arazzo/wakatime-user-profile-overview-workflow.yml
+  href: https://artifacts.apis.io/wakatime/arazzo/wakatime-user-profile-overview-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/wakatime-user-profile-overview-workflow.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/plans/wakatime-plans-pricing.yml
+  href: https://artifacts.apis.io/wakatime/plans/wakatime-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wakatime-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/rate-limits/wakatime-rate-limits.yml
+  href: https://artifacts.apis.io/wakatime/rate-limits/wakatime-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wakatime-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/finops/wakatime-finops.yml
+  href: https://artifacts.apis.io/wakatime/finops/wakatime-finops.yml
   title: ''
   type: FinOps
   url: finops/wakatime-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/vocabulary/wakatime-vocabulary.yml
+  href: https://artifacts.apis.io/wakatime/vocabulary/wakatime-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/wakatime-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/rules/wakatime-rules.yml
+  href: https://artifacts.apis.io/wakatime/rules/wakatime-rules.yml
   title: ''
   type: SpectralRules
   url: rules/wakatime-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/json-ld/wakatime-context.jsonld
+  href: https://artifacts.apis.io/wakatime/json-ld/wakatime-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/wakatime-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/examples/
+  href: https://artifacts.apis.io/wakatime/examples/
   title: ''
   type: Examples
   url: examples/
@@ -751,10 +750,10 @@ examples:
   slug: wakatime-list-summaries-example
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Wakatime Finops
-  primary_unit: ''
-  service_category: Developer Tools
+  primary_unit: developer
+  service_category: ''
   slug: wakatime-finops
   template: false
 image: https://wakatime.com/static/img/wakatime.svg
@@ -791,9 +790,12 @@ overview: 'WakaTime is listed with 20 APIs on the [APIs.io](https://apis.io/) ne
   WakaTime''s developer surface includes authentication, code examples, documentation, API reference, signup flow, pricing, engineering blog, and 109 more developer resources.'
 plans:
 - name: Wakatime Plans Pricing
-  plan_count: 5
+  plan_count: 9
   slug: wakatime-plans-pricing
-random_paper: 15
+- name: Wakatime Price Estimates
+  plan_count: 0
+  slug: wakatime-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Wakatime Rate Limits
@@ -828,24 +830,24 @@ scopes:
   slug: wakatime-scopes
   summary_line: 8 scopes · authorizationCode/implicit
 score:
-  band: developing
-  composite: 46.2
+  band: strong
+  composite: 56.6
   coverage:
     artifact_dirs: 21
-    catalog_earned: 72.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 43.0
+    catalog_earned: 84.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 31.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.6
   facets:
-    access_clarity: 53.9
+    access_clarity: 92.1
     contract_governance: 27.3
     contract_quality: 27.3
     developer_ergonomics: 51.2
     discoverability: 71.4
-    operational_transparency: 10.5
-  previous_composite: 54.5
+    operational_transparency: 47.4
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     contracts:
@@ -859,13 +861,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/screenshots/wakatime-2026-06-20T201207.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wakatime/wakatime-2026-06-20T201207.png
 security:
 - kind: authentication
   name: Wakatime Authentication

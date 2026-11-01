@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 3.6
-  scored_at: '2026-10-17'
+  score: 6.7
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Programmatic advertising exchange API (no public machine-readable spec discovered)
@@ -32,22 +34,22 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/index-exchange/refs/heads/main/well-known/index-exchange-well-known.yml
+  href: https://artifacts.apis.io/index-exchange/well-known/index-exchange-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/index-exchange-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/index-exchange/refs/heads/main/hosts/index-exchange-hosts.yml
+  href: https://artifacts.apis.io/index-exchange/hosts/index-exchange-hosts.yml
   title: ''
   type: Hosts
   url: hosts/index-exchange-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/index-exchange/refs/heads/main/packages/index-exchange-packages.yml
+  href: https://artifacts.apis.io/index-exchange/packages/index-exchange-packages.yml
   title: ''
   type: SDKs
   url: packages/index-exchange-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/index-exchange/refs/heads/main/packages/index-exchange-packages.yml
+  href: https://artifacts.apis.io/index-exchange/packages/index-exchange-packages.yml
   title: ''
   type: Packages
   url: packages/index-exchange-packages.yml
@@ -76,7 +78,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/indexexchange
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/index-exchange/refs/heads/main/security/index-exchange-domain-security.yml
+  href: https://artifacts.apis.io/index-exchange/security/index-exchange-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/index-exchange-domain-security.yml
@@ -100,11 +102,11 @@ modified: '2026-10-14'
 name: Index Exchange
 nav: Providers
 network: true
-overview: 'Index Exchange is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Programmatic, Supply Side Platform, Real-time Bidding, and Media Technology.
+overview: 'Index Exchange is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Programmatic, Supply Side Platform, Real-Time Bidding, and Media Technology.
 
 
   Index Exchange''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: emerging
   composite: 12.7
@@ -115,6 +117,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -122,6 +125,7 @@ score:
     developer_ergonomics: 9.5
     discoverability: 60.7
     operational_transparency: 5.3
+  previous_composite: 12.7
   provenance:
     mcp: unknown
   regulatory:
@@ -130,8 +134,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -146,7 +151,7 @@ tags:
 - Advertising
 - Programmatic
 - Supply Side Platform
-- Real-time Bidding
+- Real-Time Bidding
 - Media Technology
 - Company
 website: https://www.indexexchange.com

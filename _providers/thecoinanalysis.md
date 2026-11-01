@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.0
-  scored_at: '2026-10-17'
+  score: 19.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,27 +50,27 @@ common:
   type: BlogRSS
   url: https://www.thecoinanalysis.com/feed.xml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/thecoinanalysis/refs/heads/main/agentic-access/thecoinanalysis-agentic-access.yml
+  href: https://artifacts.apis.io/thecoinanalysis/agentic-access/thecoinanalysis-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/thecoinanalysis-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thecoinanalysis/refs/heads/main/rules/thecoinanalysis-rules.yml
+  href: https://artifacts.apis.io/thecoinanalysis/rules/thecoinanalysis-rules.yml
   title: ''
   type: Spectral
   url: rules/thecoinanalysis-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thecoinanalysis/refs/heads/main/errors/thecoinanalysis-problem-types.yml
+  href: https://artifacts.apis.io/thecoinanalysis/errors/thecoinanalysis-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/thecoinanalysis-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/thecoinanalysis/refs/heads/main/conformance/thecoinanalysis-conformance.yml
+  href: https://artifacts.apis.io/thecoinanalysis/conformance/thecoinanalysis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/thecoinanalysis-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/thecoinanalysis/refs/heads/main/hosts/thecoinanalysis-hosts.yml
+  href: https://artifacts.apis.io/thecoinanalysis/hosts/thecoinanalysis-hosts.yml
   title: ''
   type: Hosts
   url: hosts/thecoinanalysis-hosts.yml
@@ -89,12 +91,12 @@ common:
   type: Newsroom
   url: https://www.thecoinanalysis.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thecoinanalysis/refs/heads/main/authentication/thecoinanalysis-authentication.yml
+  href: https://artifacts.apis.io/thecoinanalysis/authentication/thecoinanalysis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/thecoinanalysis-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/thecoinanalysis/refs/heads/main/security/thecoinanalysis-domain-security.yml
+  href: https://artifacts.apis.io/thecoinanalysis/security/thecoinanalysis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/thecoinanalysis-domain-security.yml
@@ -129,7 +131,7 @@ overview: 'The Coin Analysis publishes 2 API contracts indexed on the [APIs.io](
 
 
   The Coin Analysis'' developer surface includes pricing, authentication, documentation, API reference, getting-started guide, and 11 more developer resources.'
-random_paper: 8
+random_paper: 6
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -145,7 +147,7 @@ rules:
   slug: thecoinanalysis-rules
 score:
   band: thin
-  composite: 33.3
+  composite: 34.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 31.5
@@ -161,7 +163,7 @@ score:
     developer_ergonomics: 40.5
     discoverability: 50.0
     operational_transparency: 0.0
-  previous_composite: 33.3
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -177,13 +179,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/thecoinanalysis/refs/heads/main/screenshots/thecoinanalysis-2026-10-11T130843.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/thecoinanalysis/thecoinanalysis-2026-10-11T130843.png
 security:
 - kind: authentication
   name: Thecoinanalysis Authentication

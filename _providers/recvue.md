@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 21.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -94,11 +96,8 @@ apis:
   description: Usage/delivery ingestion for consumption billing.
   name: RecVue Usage API
   slug: recvue-usage-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: RecVue Authentication API
   slug: open-recvue-authentication-api
@@ -134,17 +133,17 @@ collections:
   slug: open-recvue
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/capabilities/recvue-capability-edges.yml
+  href: https://artifacts.apis.io/recvue/capabilities/recvue-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/recvue-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/agentic-access/recvue-agentic-access.yml
+  href: https://artifacts.apis.io/recvue/agentic-access/recvue-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/recvue-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/authentication/recvue-authentication.yml
+  href: https://artifacts.apis.io/recvue/authentication/recvue-authentication.yml
   title: ''
   type: Authentication
   url: authentication/recvue-authentication.yml
@@ -161,17 +160,17 @@ common:
   type: Documentation
   url: https://developer.recvue.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/plans/recvue-plans-pricing.yml
+  href: https://artifacts.apis.io/recvue/plans/recvue-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/recvue-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/rate-limits/recvue-rate-limits.yml
+  href: https://artifacts.apis.io/recvue/rate-limits/recvue-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/recvue-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/finops/recvue-finops.yml
+  href: https://artifacts.apis.io/recvue/finops/recvue-finops.yml
   title: ''
   type: FinOps
   url: finops/recvue-finops.yml
@@ -203,14 +202,14 @@ plans:
 - name: Recvue Plans Pricing
   plan_count: 1
   slug: recvue-plans-pricing
-random_paper: 12
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Recvue Rate Limits
   slug: recvue-rate-limits
 score:
   band: emerging
-  composite: 25.1
+  composite: 13.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 42.0
@@ -218,15 +217,15 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
-    contract_quality: 43.3
-    developer_ergonomics: 27.4
+    contract_quality: 0.0
+    developer_ergonomics: 32.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 32.0
+  previous_composite: 13.7
   provenance:
     agentic_access: derived
     contracts:
@@ -240,13 +239,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/screenshots/recvue-2026-09-02T153111.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/recvue/recvue-2026-09-02T153111.png
 security:
 - kind: authentication
   name: Recvue Authentication

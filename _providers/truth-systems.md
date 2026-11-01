@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Get Context Output API from Truth Systems — 1 operation(s) for get context output.
@@ -43,24 +45,21 @@ apis:
 artifact_total: 6
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Gateway Get Context Output API
   slug: open-truth-systems-get-context-output-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/capabilities/truth-systems-capability-edges.yml
+  href: https://artifacts.apis.io/truth-systems/capabilities/truth-systems-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/truth-systems-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/overlays/truth-systems-gateway-overlay.yaml
+  href: https://artifacts.apis.io/truth-systems/overlays/truth-systems-gateway-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/truth-systems-gateway-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/security/truth-systems-domain-security.yml
+  href: https://artifacts.apis.io/truth-systems/security/truth-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/truth-systems-domain-security.yml
@@ -85,52 +84,52 @@ common:
   type: Support
   url: mailto:info@truthsystems.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/llms/truth-systems-llms.txt
+  href: https://artifacts.apis.io/truth-systems/llms/truth-systems-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/truth-systems-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/mcp/truth-systems-mcp.yml
+  href: https://artifacts.apis.io/truth-systems/mcp/truth-systems-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/truth-systems-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/packages/truth-systems-packages.yml
+  href: https://artifacts.apis.io/truth-systems/packages/truth-systems-packages.yml
   title: ''
   type: Packages
   url: packages/truth-systems-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/packages/truth-systems-packages.yml
+  href: https://artifacts.apis.io/truth-systems/packages/truth-systems-packages.yml
   title: ''
   type: SDKs
   url: packages/truth-systems-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/authentication/truth-systems-authentication.yml
+  href: https://artifacts.apis.io/truth-systems/authentication/truth-systems-authentication.yml
   title: ''
   type: Authentication
   url: authentication/truth-systems-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/conventions/truth-systems-conventions.yml
+  href: https://artifacts.apis.io/truth-systems/conventions/truth-systems-conventions.yml
   title: ''
   type: Conventions
   url: conventions/truth-systems-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/errors/truth-systems-problem-types.yml
+  href: https://artifacts.apis.io/truth-systems/errors/truth-systems-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/truth-systems-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/conformance/truth-systems-conformance.yml
+  href: https://artifacts.apis.io/truth-systems/conformance/truth-systems-conformance.yml
   title: ''
   type: Conformance
   url: conformance/truth-systems-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/data-model/truth-systems-data-model.yml
+  href: https://artifacts.apis.io/truth-systems/data-model/truth-systems-data-model.yml
   title: ''
   type: DataModel
   url: data-model/truth-systems-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/truth-systems/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -150,26 +149,26 @@ overview: 'Truth Systems publishes 1 API contract indexed on the [APIs.io](https
 
 
   Truth Systems'' developer surface includes developer portal, documentation, support, authentication, and 14 more developer resources.'
-random_paper: 18
+random_paper: 12
 score:
   band: thin
-  composite: 30.4
+  composite: 30.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 44.4
     developer_ergonomics: 63.7
-    discoverability: 63.3
-    operational_transparency: 2.6
-  previous_composite: 30.3
+    discoverability: 56.7
+    operational_transparency: 5.3
+  previous_composite: 30.8
   provenance:
     conformance: derived
     contracts:
@@ -185,13 +184,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/screenshots/truth-systems-2026-09-02T164426.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/truth-systems/truth-systems-2026-09-02T164426.png
 security:
 - kind: authentication
   name: Truth Systems Authentication
@@ -201,6 +201,10 @@ security:
   name: Truth Systems Domain Security
   slug: truth-systems-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Fact-check a claim against source documents with Gateway
+  slug: truth-systems-fact-check-claim
 slug: truth-systems
 tags:
 - Company

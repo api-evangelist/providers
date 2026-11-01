@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'REST API for the Ermeo connected-operator platform. Authenticated with OAuth 2.0 (Bearer access tokens), it lets external systems read and write equipment, forms, reports, and field data so customers '
@@ -67,37 +69,37 @@ common:
   type: Blog
   url: https://www.ermeo.com/en/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ermeo/refs/heads/main/authentication/ermeo-authentication.yml
+  href: https://artifacts.apis.io/ermeo/authentication/ermeo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ermeo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ermeo/refs/heads/main/conventions/ermeo-conventions.yml
+  href: https://artifacts.apis.io/ermeo/conventions/ermeo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ermeo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ermeo/refs/heads/main/lifecycle/ermeo-lifecycle.yml
+  href: https://artifacts.apis.io/ermeo/lifecycle/ermeo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ermeo-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ermeo/refs/heads/main/conformance/ermeo-conformance.yml
+  href: https://artifacts.apis.io/ermeo/conformance/ermeo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ermeo-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ermeo/refs/heads/main/well-known/ermeo-well-known.yml
+  href: https://artifacts.apis.io/ermeo/well-known/ermeo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ermeo-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ermeo/refs/heads/main/security/ermeo-domain-security.yml
+  href: https://artifacts.apis.io/ermeo/security/ermeo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ermeo-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ermeo/refs/heads/main/llms/ermeo-llms.txt
+  href: https://artifacts.apis.io/ermeo/llms/ermeo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ermeo-llms.txt
@@ -109,14 +111,14 @@ modified: '2026-07-19'
 name: Ermeo
 nav: Providers
 network: true
-overview: 'Ermeo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Field Service, Connected Operator, Field Operations, and Industrial.
+overview: 'Ermeo is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Field Service Management, Connected Operator, Field Operations, and Industrial.
 
 
   Ermeo''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, authentication, and 7 more developer resources.'
 random_paper: 8
 score:
   band: emerging
-  composite: 17.1
+  composite: 16.9
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -129,15 +131,15 @@ score:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 73.2
+    developer_ergonomics: 47.6
+    discoverability: 66.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - france
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 17.1
+  previous_composite: 16.9
   provenance:
     conformance: derived
   regulatory:
@@ -146,14 +148,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ermeo/refs/heads/main/screenshots/ermeo-2026-07-25T213610.png
+screenshot: https://apis.io/screenshots/ermeo/ermeo-2026-07-25T213610.png
 security:
 - kind: authentication
   name: Ermeo Authentication
@@ -166,7 +168,7 @@ security:
 slug: ermeo
 tags:
 - Company
-- Field Service
+- Field Service Management
 - Connected Operator
 - Field Operations
 - Industrial

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST/JSON management API for the Webroot platform. Authenticate once via OAuth2 at /auth/token, then call /service/api resources with a bearer token to provision and update product licenses, place and
@@ -78,37 +80,37 @@ common:
   type: PrivacyPolicy
   url: https://www.webroot.com/us/en/legal/privacy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webroot/refs/heads/main/authentication/webroot-authentication.yml
+  href: https://artifacts.apis.io/webroot/authentication/webroot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/webroot-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webroot/refs/heads/main/conventions/webroot-conventions.yml
+  href: https://artifacts.apis.io/webroot/conventions/webroot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/webroot-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webroot/refs/heads/main/lifecycle/webroot-lifecycle.yml
+  href: https://artifacts.apis.io/webroot/lifecycle/webroot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/webroot-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/webroot/refs/heads/main/conformance/webroot-conformance.yml
+  href: https://artifacts.apis.io/webroot/conformance/webroot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/webroot-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/webroot/refs/heads/main/security/webroot-domain-security.yml
+  href: https://artifacts.apis.io/webroot/security/webroot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/webroot-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webroot/refs/heads/main/well-known/webroot-well-known.yml
+  href: https://artifacts.apis.io/webroot/well-known/webroot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/webroot-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/webroot/refs/heads/main/llms/webroot-llms.txt
+  href: https://artifacts.apis.io/webroot/llms/webroot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/webroot-llms.txt
@@ -124,10 +126,10 @@ overview: 'Webroot is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Webroot''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, and 11 more developer resources.'
-random_paper: 0
+random_paper: 2
 score:
   band: emerging
-  composite: 26.0
+  composite: 25.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 37.0
@@ -135,15 +137,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 15.8
-  previous_composite: 25.5
+  previous_composite: 25.3
   provenance:
     conformance: derived
   regulatory:
@@ -152,14 +154,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/webroot/refs/heads/main/screenshots/webroot-2026-09-02T170533.png
+screenshot: https://apis.io/screenshots/webroot/webroot-2026-09-02T170533.png
 security:
 - kind: authentication
   name: Webroot Authentication

@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: verified
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.5
-  scored_at: '2026-10-17'
+  score: 48.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -76,11 +78,18 @@ apis:
   description: 'This documentation describes how to use Anrok''s Transactions API to synchronize transactions between Anrok and your billing system, as well as calculate sales tax for new invoices. Use of this API is '
   name: Anrok Transactions API
   slug: anrok-transactions-api
-artifact_total: 64
+- baseURL: https://api.anrok.com
+  baseurl_source: declared
+  description: The Anrok Address Resolution endpoint resolves a customer address to its normalized form, suitable for sales tax calculations, as well as taxable jurisdiction(s). It uses the same address resolution t
+  name: Anrok Address resolution API
+  slug: anrok-address-resolution-api
+- baseURL: https://api.anrok.com
+  baseurl_source: declared
+  description: The Anrok Customers API endpoints allow you to register customers on your seller account before their first transaction, and to retrieve the customers on your account. Normally a customer is created a
+  name: Anrok Customers API
+  slug: anrok-customers-api
+artifact_total: 65
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Anrok Customer certificates API
   slug: open-anrok-customer-certificates-api
@@ -101,32 +110,32 @@ collections:
   slug: open-anrok-transactions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/capabilities/anrok-capability-edges.yml
+  href: https://artifacts.apis.io/anrok/capabilities/anrok-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/anrok-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/agentic-access/anrok-agentic-access.yml
+  href: https://artifacts.apis.io/anrok/agentic-access/anrok-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/anrok-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/security/anrok-trust-center.yml
+  href: https://artifacts.apis.io/anrok/security/anrok-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/anrok-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/security/anrok-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/anrok/security/anrok-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/anrok-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/security/anrok-domain-security.yml
+  href: https://artifacts.apis.io/anrok/security/anrok-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anrok-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/authentication/anrok-authentication.yml
+  href: https://artifacts.apis.io/anrok/authentication/anrok-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anrok-authentication.yml
@@ -159,17 +168,17 @@ common:
   type: Pricing
   url: https://www.anrok.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/plans/anrok-plans-pricing.yml
+  href: https://artifacts.apis.io/anrok/plans/anrok-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/anrok-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/rate-limits/anrok-rate-limits.yml
+  href: https://artifacts.apis.io/anrok/rate-limits/anrok-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/anrok-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/finops/anrok-finops.yml
+  href: https://artifacts.apis.io/anrok/finops/anrok-finops.yml
   title: ''
   type: FinOps
   url: finops/anrok-finops.yml
@@ -198,13 +207,13 @@ examples:
   name: Validate Tax Id Request
   slug: validate-tax-id-request
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Anrok Finops
-  primary_unit: ''
+  primary_unit: market
   service_category: ''
   slug: anrok-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anrok.png
 json_schemas:
 - name: CommonTransactionProperties
@@ -320,7 +329,7 @@ modified: '2026-06-12'
 name: Anrok
 nav: Providers
 network: true
-overview: 'Anrok publishes 6 API contracts indexed on the [APIs.io](https://apis.io/) network, including Customer certificates API, Filings API, Product mappings API, and 3 more. Tagged areas include Sales Tax, VAT, Tax Compliance, Software-as-a-Service, and Fintech.
+overview: 'Anrok publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Customer certificates API, Filings API, Product mappings API, and 5 more. Tagged areas include Sales Tax, VAT, Tax Compliance, Software-as-a-Service, and Fintech.
 
 
   The Anrok catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -329,7 +338,7 @@ overview: 'Anrok publishes 6 API contracts indexed on the [APIs.io](https://apis
   Anrok''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Anrok Plans Pricing
-  plan_count: 2
+  plan_count: 3
   slug: anrok-plans-pricing
 random_paper: 11
 rate_limits:
@@ -350,30 +359,30 @@ rules:
   slug: anrok-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.8
+  composite: 46.2
   coverage:
     artifact_dirs: 20
-    catalog_earned: 62.2
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.9
+    catalog_earned: 75.2
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 3.6
   facets:
-    access_clarity: 23.7
+    access_clarity: 57.9
     contract_governance: 23.5
-    contract_quality: 61.8
+    contract_quality: 63.4
     developer_ergonomics: 23.8
-    discoverability: 68.3
-    operational_transparency: 7.9
-  previous_composite: 47.8
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 15
     mcp: first-party
   regulatory:
     applies: true
@@ -381,13 +390,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/screenshots/anrok-2026-06-20T172015.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/anrok/anrok-2026-06-20T172015.png
 security:
 - kind: authentication
   name: Anrok Authentication

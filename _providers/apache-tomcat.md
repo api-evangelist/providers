@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,11 +68,8 @@ apis:
   description: Inspect and expire HTTP sessions
   name: Apache Tomcat Sessions API
   slug: apache-tomcat-sessions-api
-artifact_total: 33
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache Tomcat Manager Text applications API
   slug: open-apache-tomcat-applications-api
@@ -85,17 +84,17 @@ collections:
   slug: open-apache-tomcat
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/plans/apache-tomcat-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-tomcat/plans/apache-tomcat-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-tomcat-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/rate-limits/apache-tomcat-rate-limits.yml
+  href: https://artifacts.apis.io/apache-tomcat/rate-limits/apache-tomcat-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-tomcat-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/finops/apache-tomcat-finops.yml
+  href: https://artifacts.apis.io/apache-tomcat/finops/apache-tomcat-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-tomcat-finops.yml
@@ -120,22 +119,22 @@ common:
   type: License
   url: https://github.com/apache/tomcat/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/agentic-access/apache-tomcat-agentic-access.yml
+  href: https://artifacts.apis.io/apache-tomcat/agentic-access/apache-tomcat-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-tomcat-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/security/apache-tomcat-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-tomcat/security/apache-tomcat-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-tomcat-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/security/apache-tomcat-domain-security.yml
+  href: https://artifacts.apis.io/apache-tomcat/security/apache-tomcat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-tomcat-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/authentication/apache-tomcat-authentication.yml
+  href: https://artifacts.apis.io/apache-tomcat/authentication/apache-tomcat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apache-tomcat-authentication.yml
@@ -188,7 +187,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Tomcat Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-tomcat-finops
   template: true
@@ -217,22 +216,22 @@ plans:
 - name: Apache Tomcat Plans Pricing
   plan_count: 3
   slug: apache-tomcat-plans-pricing
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Apache Tomcat Rate Limits
   slug: apache-tomcat-rate-limits
 score:
   band: thin
-  composite: 38.9
+  composite: 35.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 0.0
@@ -240,10 +239,7 @@ score:
     developer_ergonomics: 47.6
     discoverability: 57.1
     operational_transparency: 39.5
-  open_source:
-    applies: true
-    score: 75.0
-  previous_composite: 40.3
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -257,13 +253,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/screenshots/apache-tomcat-2026-06-20T172155.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-tomcat/apache-tomcat-2026-06-20T172155.png
 security:
 - kind: authentication
   name: Apache Tomcat Authentication

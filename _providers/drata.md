@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.6
-  scored_at: '2026-10-17'
+  score: 50.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 93
@@ -1068,35 +1070,55 @@ apis:
     question: Which workspaces exist in our Drata account?
   phrasing_ops: 1
   slug: drata-workspaces-api
-artifact_total: 62
+- baseURL: https://mcp.drata.com/mcp/
+  baseurl_source: declared
+  description: The auth0-proxy API from Drata — 5 operation(s) for auth0-proxy.
+  name: Drata Auth0 Proxy API
+  slug: drata-auth0-proxy-api
+- baseURL: https://mcp.drata.com/mcp/
+  baseurl_source: declared
+  description: The Health API from Drata — 1 operation(s) for health.
+  name: Drata Health API
+  slug: drata-health-api
+- baseURL: https://mcp.drata.com/mcp/
+  baseurl_source: declared
+  description: The Ready API from Drata — 1 operation(s) for ready.
+  name: Drata Ready API
+  slug: drata-ready-api
+- baseURL: https://mcp.drata.com/mcp/
+  baseurl_source: declared
+  description: The .well Known API from Drata — 4 operation(s) for .well known.
+  name: Drata .well Known API
+  slug: drata-well-known-api
+artifact_total: 71
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/capabilities/drata-capability-edges.yml
+  href: https://artifacts.apis.io/drata/capabilities/drata-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/drata-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/agentic-access/drata-agentic-access.yml
+  href: https://artifacts.apis.io/drata/agentic-access/drata-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/drata-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/security/drata-trust-center.yml
+  href: https://artifacts.apis.io/drata/security/drata-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/drata-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/security/drata-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/drata/security/drata-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/drata-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/security/drata-domain-security.yml
+  href: https://artifacts.apis.io/drata/security/drata-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/drata-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/authentication/drata-authentication.yml
+  href: https://artifacts.apis.io/drata/authentication/drata-authentication.yml
   title: ''
   type: Authentication
   url: authentication/drata-authentication.yml
@@ -1117,92 +1139,92 @@ common:
   type: Developer
   url: https://developers.drata.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/plans/drata-plans-pricing.yml
+  href: https://artifacts.apis.io/drata/plans/drata-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/drata-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/rate-limits/drata-rate-limits.yml
+  href: https://artifacts.apis.io/drata/rate-limits/drata-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/drata-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/finops/drata-finops.yml
+  href: https://artifacts.apis.io/drata/finops/drata-finops.yml
   title: ''
   type: FinOps
   url: finops/drata-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/mcp/drata-mcp.yml
+  href: https://artifacts.apis.io/drata/mcp/drata-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/drata-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/mcp/drata-tool-crosswalk.yml
+  href: https://artifacts.apis.io/drata/mcp/drata-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/drata-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/scopes/drata-scopes.yml
+  href: https://artifacts.apis.io/drata/scopes/drata-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/drata-scopes.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/well-known/drata-well-known.yml
+  href: https://artifacts.apis.io/drata/well-known/drata-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/drata-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/conventions/drata-conventions.yml
+  href: https://artifacts.apis.io/drata/conventions/drata-conventions.yml
   title: ''
   type: Conventions
   url: conventions/drata-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/errors/drata-problem-types.yml
+  href: https://artifacts.apis.io/drata/errors/drata-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/drata-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/lifecycle/drata-lifecycle.yml
+  href: https://artifacts.apis.io/drata/lifecycle/drata-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/drata-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/changelog/drata-changelog.yml
+  href: https://artifacts.apis.io/drata/changelog/drata-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/drata-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/conformance/drata-conformance.yml
+  href: https://artifacts.apis.io/drata/conformance/drata-conformance.yml
   title: ''
   type: Conformance
   url: conformance/drata-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/data-model/drata-data-model.yml
+  href: https://artifacts.apis.io/drata/data-model/drata-data-model.yml
   title: ''
   type: DataModel
   url: data-model/drata-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/packages/drata-packages.yml
+  href: https://artifacts.apis.io/drata/packages/drata-packages.yml
   title: ''
   type: Packages
   url: packages/drata-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/llms/drata-llms.txt
+  href: https://artifacts.apis.io/drata/llms/drata-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/drata-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/overlays/drata-api-v2-overlay.yaml
+  href: https://artifacts.apis.io/drata/overlays/drata-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/drata-api-v2-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/examples/drata-examples.yml
+  href: https://artifacts.apis.io/drata/examples/drata-examples.yml
   title: ''
   type: Examples
   url: examples/drata-examples.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/drata/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -1211,7 +1233,7 @@ common:
   type: StatusPage
   url: https://status.drata.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/security/drata-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/drata/security/drata-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/drata-vulnerability-disclosure.yml
@@ -1267,12 +1289,12 @@ created: '2026-05-08'
 description: Drata is a continuous security and compliance automation platform supporting SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, and more, with policies, evidence, and trust center. Drata exposes a public REST API plus the SafeBase Trust API (acquired) and a Custom Connections framework for evidence collection.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Drata Finops
   primary_unit: ''
-  service_category: GRC
+  service_category: ''
   slug: drata-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drata.png
 layout: provider
 mcp_servers:
@@ -1283,7 +1305,7 @@ modified: '2026-08-27'
 name: Drata
 nav: Providers
 network: true
-overview: 'Drata publishes 52 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Members API, Accounts API, Assets API, and 49 more. Tagged areas include GRC, Compliance, SOC 2, ISO 27001, and Security.
+overview: 'Drata publishes 56 API contracts indexed on the [APIs.io](https://apis.io/) network, including Account Members API, Accounts API, Assets API, and 53 more. Tagged areas include GRC, Compliance, SOC 2, ISO 27001, and Security.
 
 
   Drata''s developer surface includes authentication, changelog, code examples, documentation, API reference, getting-started guide, support, and 35 more developer resources.'
@@ -1291,7 +1313,7 @@ plans:
 - name: Drata Plans Pricing
   plan_count: 1
   slug: drata-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Drata Rate Limits
@@ -1302,8 +1324,8 @@ scopes:
   slug: drata-scopes
   summary_line: 34 scopes
 score:
-  band: exemplar
-  composite: 69.2
+  band: strong
+  composite: 62.7
   coverage:
     artifact_dirs: 26
     catalog_earned: 56.0
@@ -1311,23 +1333,23 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -0.2
   facets:
     access_clarity: 81.6
     contract_governance: 4.5
-    contract_quality: 59.1
+    contract_quality: 54.7
     developer_ergonomics: 58.9
-    discoverability: 73.3
-    operational_transparency: 65.8
-  previous_composite: 70.7
+    discoverability: 70.0
+    operational_transparency: 68.4
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 92.9
       derived: 0
       marker_coverage: 0.0
-      total: 52
+      total: 56
     mcp: first-party
     skills: derived
   regulatory:
@@ -1336,13 +1358,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/screenshots/drata-2026-06-20T180244.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/drata/drata-2026-06-20T180244.png
 security:
 - kind: authentication
   name: Drata Authentication
@@ -1360,6 +1383,18 @@ security:
   name: Drata Trust Center
   slug: drata-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, GDPR, CSA STAR
+skill_count: 5
+skills:
+- name: drata-audit-readiness-report
+  slug: drata-audit-readiness-report
+- name: drata-custom-connection-sync
+  slug: drata-custom-connection-sync
+- name: drata-evidence-upload
+  slug: drata-evidence-upload
+- name: drata-risk-register-review
+  slug: drata-risk-register-review
+- name: drata-vendor-security-review
+  slug: drata-vendor-security-review
 slug: drata
 tags:
 - GRC

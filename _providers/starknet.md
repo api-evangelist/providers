@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -84,15 +86,12 @@ apis:
   description: The Starknet JSON RPC API API from Starknet — 1 operation(s) for starknet json rpc api.
   name: Starknet JSON RPC API
   slug: starknet-starknet-json-rpc-api-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: AsyncAPI 2.6 description of the Starknet WebSocket JSON-RPC API as defined by the upstream `starknet_ws_api.json` OpenRPC specification (https://github.com/starkware-libs/starknet-specs/blob/master/ap
   name: Starknet WebSocket RPC API
   slug: starknet-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Starknet JSON-RPC Starknet JSON RPC API API
   slug: open-starknet-starknet-json-rpc-api-api
@@ -101,17 +100,17 @@ collections:
   slug: open-starknet
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/plans/starknet-plans-pricing.yml
+  href: https://artifacts.apis.io/starknet/plans/starknet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/starknet-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/rate-limits/starknet-rate-limits.yml
+  href: https://artifacts.apis.io/starknet/rate-limits/starknet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/starknet-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/finops/starknet-finops.yml
+  href: https://artifacts.apis.io/starknet/finops/starknet-finops.yml
   title: ''
   type: FinOps
   url: finops/starknet-finops.yml
@@ -124,12 +123,12 @@ common:
   type: Releases
   url: https://github.com/starkware-libs/starknet-specs/releases
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/agentic-access/starknet-agentic-access.yml
+  href: https://artifacts.apis.io/starknet/agentic-access/starknet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/starknet-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/security/starknet-domain-security.yml
+  href: https://artifacts.apis.io/starknet/security/starknet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/starknet-domain-security.yml
@@ -208,7 +207,7 @@ plans:
 - name: Starknet Plans Pricing
   plan_count: 1
   slug: starknet-plans-pricing
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Starknet Rate Limits
@@ -227,8 +226,8 @@ rules:
     warn: 6
   slug: starknet-asyncapi-spectral-rules
 score:
-  band: emerging
-  composite: 25.9
+  band: thin
+  composite: 27.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 44.8
@@ -236,15 +235,15 @@ score:
     catalog_gap: 70.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 11.4
     contract_quality: 50.8
-    developer_ergonomics: 14.3
+    developer_ergonomics: 16.7
     discoverability: 66.1
     operational_transparency: 26.3
-  previous_composite: 31.9
+  previous_composite: 27.1
   provenance:
     agentic_access: derived
     contracts:
@@ -258,13 +257,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/screenshots/starknet-2026-06-20T194515.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/starknet/starknet-2026-06-20T194515.png
 security:
 - kind: domain-security
   name: Starknet Domain Security

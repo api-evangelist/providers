@@ -14,41 +14,43 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/assurly/refs/heads/main/vendors/assurly-vendors.yml
+  href: https://artifacts.apis.io/assurly/vendors/assurly-vendors.yml
   title: ''
   type: Vendors
   url: vendors/assurly-vendors.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/assurly/refs/heads/main/llms/assurly-llms.txt
+  href: https://artifacts.apis.io/assurly/llms/assurly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/assurly-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/assurly/refs/heads/main/well-known/assurly-help-security.txt
+  href: https://artifacts.apis.io/assurly/well-known/assurly-help-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/assurly-help-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/assurly/refs/heads/main/well-known/assurly-well-known.yml
+  href: https://artifacts.apis.io/assurly/well-known/assurly-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/assurly-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/assurly/refs/heads/main/hosts/assurly-hosts.yml
+  href: https://artifacts.apis.io/assurly/hosts/assurly-hosts.yml
   title: ''
   type: Hosts
   url: hosts/assurly-hosts.yml
@@ -65,7 +67,7 @@ common:
   type: Documentation
   url: https://help.assurly.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/assurly/refs/heads/main/security/assurly-domain-security.yml
+  href: https://artifacts.apis.io/assurly/security/assurly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/assurly-domain-security.yml
@@ -92,10 +94,10 @@ overview: 'Assurly is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Assurly''s developer surface includes support, engineering blog, documentation, and 7 more developer resources.'
-random_paper: 17
+random_paper: 19
 score:
   band: minimal
-  composite: 6.8
+  composite: 7.5
   coverage:
     artifact_dirs: 8
     catalog_earned: 25.0
@@ -109,14 +111,14 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 51.8
-    operational_transparency: 0.0
+    discoverability: 44.6
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
-  previous_composite: 6.8
+  previous_composite: 7.5
   provenance:
     mcp: unknown
   regulatory:
@@ -125,14 +127,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 5.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/assurly/refs/heads/main/screenshots/assurly-2026-10-11T100606.png
+screenshot: https://apis.io/screenshots/assurly/assurly-2026-10-11T100606.png
 security:
 - kind: domain-security
   name: Assurly Domain Security

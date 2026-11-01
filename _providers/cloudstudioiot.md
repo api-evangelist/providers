@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.5
-  scored_at: '2026-10-17'
+  score: 21.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -63,60 +65,60 @@ apis:
   description: Map of clients, facilities, devices and endpoints.
   name: Cloud Studio IoT Instance API
   slug: cloudstudioiot-instance-api
-artifact_total: 18
+artifact_total: 20
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/agentic-access/cloudstudioiot-agentic-access.yml
+  href: https://artifacts.apis.io/cloudstudioiot/agentic-access/cloudstudioiot-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/cloudstudioiot-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/plans/cloudstudioiot-plans-pricing.yml
+  href: https://artifacts.apis.io/cloudstudioiot/plans/cloudstudioiot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cloudstudioiot-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/rules/cloudstudioiot-rules.yml
+  href: https://artifacts.apis.io/cloudstudioiot/rules/cloudstudioiot-rules.yml
   title: ''
   type: Spectral
   url: rules/cloudstudioiot-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/json-ld/cloudstudioiot-context.jsonld
+  href: https://artifacts.apis.io/cloudstudioiot/json-ld/cloudstudioiot-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/cloudstudioiot-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/vocabulary/cloudstudioiot-vocabulary.yml
+  href: https://artifacts.apis.io/cloudstudioiot/vocabulary/cloudstudioiot-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/cloudstudioiot-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/data-model/cloudstudioiot-data-model.yml
+  href: https://artifacts.apis.io/cloudstudioiot/data-model/cloudstudioiot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cloudstudioiot-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/errors/cloudstudioiot-problem-types.yml
+  href: https://artifacts.apis.io/cloudstudioiot/errors/cloudstudioiot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cloudstudioiot-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/conformance/cloudstudioiot-conformance.yml
+  href: https://artifacts.apis.io/cloudstudioiot/conformance/cloudstudioiot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cloudstudioiot-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/llms/cloudstudioiot-llms.txt
+  href: https://artifacts.apis.io/cloudstudioiot/llms/cloudstudioiot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cloudstudioiot-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/hosts/cloudstudioiot-hosts.yml
+  href: https://artifacts.apis.io/cloudstudioiot/hosts/cloudstudioiot-hosts.yml
   title: ''
   type: Hosts
   url: hosts/cloudstudioiot-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/vendors/cloudstudioiot-vendors.yml
+  href: https://artifacts.apis.io/cloudstudioiot/vendors/cloudstudioiot-vendors.yml
   title: ''
   type: Vendors
   url: vendors/cloudstudioiot-vendors.yml
@@ -133,12 +135,12 @@ common:
   type: ChangeLog
   url: https://cloudstudioiot.com/docs/release-notes
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/authentication/cloudstudioiot-authentication.yml
+  href: https://artifacts.apis.io/cloudstudioiot/authentication/cloudstudioiot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cloudstudioiot-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/security/cloudstudioiot-domain-security.yml
+  href: https://artifacts.apis.io/cloudstudioiot/security/cloudstudioiot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cloudstudioiot-domain-security.yml
@@ -188,6 +190,14 @@ common:
   url: https://www.postman.com/cloudstudioiot/workspace
 created: '2026-10-05'
 description: Cloud Studio IoT provides an Industrial AI IoT platform delivering end‑to‑end solutions for verticals such as smart cities, energy management, agriculture and manufacturing. Their cloud‑based services include data extraction APIs, AI‑driven analytics, device connectivity (LoRaWAN, MQTT, NB‑IoT) and a low‑code scripting environment. The company emphasizes real‑time telemetry, AI‑powered insights and a comprehensive suite of tools for developers to integrate, monitor and manage IoT deployments.
+finops:
+- has_sources: true
+  method: derived
+  name: Cloudstudioiot Finops
+  primary_unit: seat
+  service_category: ''
+  slug: cloudstudioiot-finops
+  template: false
 image: https://cloudstudioiot.com/og?title=Industrial+AI+Software+for+IoT&subtitle=Industrial+AI+software+on+your+IoT+platform%3A+an+AI+Copilot+that+answers+questions+about+your+real-time+telemetry%2C+under+your+own%E2%80%A6
 json_schemas:
 - name: Alarm
@@ -229,7 +239,10 @@ plans:
 - name: Cloudstudioiot Plans Pricing
   plan_count: 2
   slug: cloudstudioiot-plans-pricing
-random_paper: 13
+- name: Cloudstudioiot Price Estimates
+  plan_count: 0
+  slug: cloudstudioiot-price-estimates
+random_paper: 19
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -245,21 +258,23 @@ rules:
   slug: cloudstudioiot-rules
 score:
   band: developing
-  composite: 52.3
+  composite: 53.9
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 70.0
+    artifact_dirs: 20
+    catalog_earned: 73.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 45.0
+    catalog_gap: 42.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
-    access_clarity: 65.8
+    access_clarity: 73.7
     contract_governance: 19.7
     contract_quality: 55.3
     developer_ergonomics: 45.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 47.4
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,11 +290,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Cloudstudioiot Authentication

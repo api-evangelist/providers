@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.5
-  scored_at: '2026-10-17'
+  score: 21.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 5
@@ -66,107 +68,107 @@ apis:
 artifact_total: 20
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/agentic-access/radiant-earth-agentic-access.yml
+  href: https://artifacts.apis.io/radiant-earth/agentic-access/radiant-earth-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/radiant-earth-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/rules/radiant-earth-stac-api-spec-spectral-rules.yml
+  href: https://artifacts.apis.io/radiant-earth/rules/radiant-earth-stac-api-spec-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/radiant-earth-stac-api-spec-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/rules/radiant-earth-rules.yml
+  href: https://artifacts.apis.io/radiant-earth/rules/radiant-earth-rules.yml
   title: ''
   type: Spectral
   url: rules/radiant-earth-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/json-ld/radiant-earth-context.jsonld
+  href: https://artifacts.apis.io/radiant-earth/json-ld/radiant-earth-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/radiant-earth-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/vocabulary/radiant-earth-vocabulary.yml
+  href: https://artifacts.apis.io/radiant-earth/vocabulary/radiant-earth-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/radiant-earth-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/data-model/radiant-earth-data-model.yml
+  href: https://artifacts.apis.io/radiant-earth/data-model/radiant-earth-data-model.yml
   title: ''
   type: DataModel
   url: data-model/radiant-earth-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/components/radiant-earth-components.yml
+  href: https://artifacts.apis.io/radiant-earth/components/radiant-earth-components.yml
   title: ''
   type: Components
   url: components/radiant-earth-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/cli/radiant-earth-cli.yml
+  href: https://artifacts.apis.io/radiant-earth/cli/radiant-earth-cli.yml
   title: ''
   type: CLI
   url: cli/radiant-earth-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/changelog/radiant-earth-changelog.yml
+  href: https://artifacts.apis.io/radiant-earth/changelog/radiant-earth-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/radiant-earth-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/conventions/radiant-earth-conventions.yml
+  href: https://artifacts.apis.io/radiant-earth/conventions/radiant-earth-conventions.yml
   title: ''
   type: Conventions
   url: conventions/radiant-earth-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/lifecycle/radiant-earth-lifecycle.yml
+  href: https://artifacts.apis.io/radiant-earth/lifecycle/radiant-earth-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/radiant-earth-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/lifecycle/radiant-earth-lifecycle.yml
+  href: https://artifacts.apis.io/radiant-earth/lifecycle/radiant-earth-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/radiant-earth-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/errors/radiant-earth-problem-types.yml
+  href: https://artifacts.apis.io/radiant-earth/errors/radiant-earth-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/radiant-earth-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/conformance/radiant-earth-conformance.yml
+  href: https://artifacts.apis.io/radiant-earth/conformance/radiant-earth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/radiant-earth-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/overlays/radiant-earth-source-cooperative-overlay.yaml
+  href: https://artifacts.apis.io/radiant-earth/overlays/radiant-earth-source-cooperative-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/radiant-earth-source-cooperative-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/hosts/radiant-earth-hosts.yml
+  href: https://artifacts.apis.io/radiant-earth/hosts/radiant-earth-hosts.yml
   title: ''
   type: Hosts
   url: hosts/radiant-earth-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/vendors/radiant-earth-vendors.yml
+  href: https://artifacts.apis.io/radiant-earth/vendors/radiant-earth-vendors.yml
   title: ''
   type: Vendors
   url: vendors/radiant-earth-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/packages/radiant-earth-packages.yml
+  href: https://artifacts.apis.io/radiant-earth/packages/radiant-earth-packages.yml
   title: ''
   type: SDKs
   url: packages/radiant-earth-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/packages/radiant-earth-packages.yml
+  href: https://artifacts.apis.io/radiant-earth/packages/radiant-earth-packages.yml
   title: ''
   type: Packages
   url: packages/radiant-earth-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/authentication/radiant-earth-authentication.yml
+  href: https://artifacts.apis.io/radiant-earth/authentication/radiant-earth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/radiant-earth-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/security/radiant-earth-domain-security.yml
+  href: https://artifacts.apis.io/radiant-earth/security/radiant-earth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/radiant-earth-domain-security.yml
@@ -249,7 +251,7 @@ plans:
 - name: Radiant Earth Plans Pricing
   plan_count: 0
   slug: radiant-earth-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Radiant Earth Rate Limits
@@ -281,7 +283,7 @@ rules:
   slug: radiant-earth-stac-api-spec-spectral-rules
 score:
   band: developing
-  composite: 42.3
+  composite: 42.2
   coverage:
     artifact_dirs: 27
     catalog_earned: 62.8
@@ -289,11 +291,11 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 22.0
-    contract_quality: 66.0
+    contract_quality: 62.6
     developer_ergonomics: 38.1
     discoverability: 66.1
     operational_transparency: 28.9
@@ -313,13 +315,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/radiant-earth/refs/heads/main/screenshots/radiant-earth-2026-10-11T113104.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/radiant-earth/radiant-earth-2026-10-11T113104.png
 security:
 - kind: authentication
   name: Radiant Earth Authentication

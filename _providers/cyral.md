@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -51,42 +53,42 @@ common:
   type: Documentation
   url: https://registry.terraform.io/providers/cyralinc/cyral/latest/docs
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cyral/refs/heads/main/packages/cyral-packages.yml
+  href: https://artifacts.apis.io/cyral/packages/cyral-packages.yml
   title: ''
   type: Packages
   url: packages/cyral-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cyral/refs/heads/main/packages/cyral-packages.yml
+  href: https://artifacts.apis.io/cyral/packages/cyral-packages.yml
   title: ''
   type: SDKs
   url: packages/cyral-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyral/refs/heads/main/authentication/cyral-authentication.yml
+  href: https://artifacts.apis.io/cyral/authentication/cyral-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cyral-authentication.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cyral/refs/heads/main/changelog/cyral-changelog.yml
+  href: https://artifacts.apis.io/cyral/changelog/cyral-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cyral-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyral/refs/heads/main/lifecycle/cyral-lifecycle.yml
+  href: https://artifacts.apis.io/cyral/lifecycle/cyral-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cyral-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cyral/refs/heads/main/conformance/cyral-conformance.yml
+  href: https://artifacts.apis.io/cyral/conformance/cyral-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cyral-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cyral/refs/heads/main/security/cyral-domain-security.yml
+  href: https://artifacts.apis.io/cyral/security/cyral-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cyral-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cyral/refs/heads/main/llms/cyral-llms.txt
+  href: https://artifacts.apis.io/cyral/llms/cyral-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cyral-llms.txt
@@ -105,7 +107,7 @@ overview: 'Cyral is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 11
 score:
   band: emerging
-  composite: 14.2
+  composite: 15.7
   coverage:
     artifact_dirs: 10
     catalog_earned: 27.0
@@ -113,15 +115,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 55.4
-    operational_transparency: 18.4
-  previous_composite: 14.1
+    developer_ergonomics: 28.6
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 15.7
   provenance:
     conformance: first-party
   regulatory:
@@ -130,14 +132,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cyral/refs/heads/main/screenshots/cyral-2026-07-25T211100.png
+screenshot: https://apis.io/screenshots/cyral/cyral-2026-07-25T211100.png
 security:
 - kind: authentication
   name: Cyral Authentication

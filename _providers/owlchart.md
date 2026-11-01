@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.2
-  scored_at: '2026-10-17'
+  score: 37.8
+  scored_at: '2026-10-31'
 api_count: 27
 apis:
 - description: Live market data API providing OHLCV candles, real‑time order‑book data, symbol search and analytics.
@@ -114,47 +116,47 @@ common:
   type: BlogRSS
   url: https://owlchart.com/feed.xml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/owlchart/refs/heads/main/rules/owlchart-rules.yml
+  href: https://artifacts.apis.io/owlchart/rules/owlchart-rules.yml
   title: ''
   type: Spectral
   url: rules/owlchart-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/owlchart/refs/heads/main/json-ld/owlchart-context.jsonld
+  href: https://artifacts.apis.io/owlchart/json-ld/owlchart-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/owlchart-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/owlchart/refs/heads/main/vocabulary/owlchart-vocabulary.yml
+  href: https://artifacts.apis.io/owlchart/vocabulary/owlchart-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/owlchart-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/owlchart/refs/heads/main/data-model/owlchart-data-model.yml
+  href: https://artifacts.apis.io/owlchart/data-model/owlchart-data-model.yml
   title: ''
   type: DataModel
   url: data-model/owlchart-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/owlchart/refs/heads/main/conformance/owlchart-conformance.yml
+  href: https://artifacts.apis.io/owlchart/conformance/owlchart-conformance.yml
   title: ''
   type: Conformance
   url: conformance/owlchart-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/owlchart/refs/heads/main/llms/owlchart-llms.txt
+  href: https://artifacts.apis.io/owlchart/llms/owlchart-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/owlchart-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/owlchart/refs/heads/main/well-known/owlchart-well-known.yml
+  href: https://artifacts.apis.io/owlchart/well-known/owlchart-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/owlchart-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/owlchart/refs/heads/main/hosts/owlchart-hosts.yml
+  href: https://artifacts.apis.io/owlchart/hosts/owlchart-hosts.yml
   title: ''
   type: Hosts
   url: hosts/owlchart-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/owlchart/refs/heads/main/vendors/owlchart-vendors.yml
+  href: https://artifacts.apis.io/owlchart/vendors/owlchart-vendors.yml
   title: ''
   type: Vendors
   url: vendors/owlchart-vendors.yml
@@ -163,7 +165,7 @@ common:
   type: PrivacyPolicy
   url: https://owlchart.com/privacy.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/owlchart/refs/heads/main/security/owlchart-domain-security.yml
+  href: https://artifacts.apis.io/owlchart/security/owlchart-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/owlchart-domain-security.yml
@@ -226,7 +228,7 @@ overview: 'OwlChart is listed with 27 APIs on the [APIs.io](https://apis.io/) ne
 
 
   OwlChart''s developer surface includes documentation, API reference, and 13 more developer resources.'
-random_paper: 10
+random_paper: 4
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -256,7 +258,7 @@ score:
     contract_governance: 22.0
     contract_quality: 23.1
     developer_ergonomics: 16.7
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 0.0
   previous_composite: 20.9
   provenance:
@@ -273,13 +275,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/owlchart/refs/heads/main/screenshots/owlchart-2026-10-11T112231.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/owlchart/owlchart-2026-10-11T112231.png
 security:
 - kind: domain-security
   name: Owlchart Domain Security

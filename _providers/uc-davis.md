@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 4
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 100
   slug: uc-davis-agentic-access
   summary_line: 100 operations · 31 acting · 4 human-in-the-loop
-api_count: 6
+api_count: 5
 apis:
 - description: UC Davis operates its own SAML 2.0 identity provider and publishes signed federation metadata as entityID urn:mace:incommon:ucdavis.edu. This is machine-readable, institution-operated by definition, a
   name: UC Davis Shibboleth Identity Provider (SAML 2.0 / InCommon)
@@ -131,11 +133,8 @@ apis:
   description: The page search API from University of California, Davis — 1 operation(s) for page search.
   name: University of California, Davis page search API
   slug: uc-davis-page-search-api
-artifact_total: 53
+artifact_total: 52
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PEAKS API v1 Access API
   slug: open-uc-davis-access-api
@@ -169,7 +168,7 @@ common:
   type: Blog
   url: https://www.ucdavis.edu/news
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/capabilities/uc-davis-capability-edges.yml
+  href: https://artifacts.apis.io/uc-davis/capabilities/uc-davis-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/uc-davis-capability-edges.yml
@@ -210,7 +209,7 @@ common:
   type: IdentityFederation
   url: https://shibboleth.ucdavis.edu/idp/shibboleth
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/identity/uc-davis-identity-federation.yml
+  href: https://artifacts.apis.io/uc-davis/identity/uc-davis-identity-federation.yml
   title: ''
   type: IdentityFederation
   url: identity/uc-davis-identity-federation.yml
@@ -247,57 +246,57 @@ common:
   type: TermsOfService
   url: https://experts.ucdavis.edu/termsofuse
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/conformance/uc-davis-domain-standards.yml
+  href: https://artifacts.apis.io/uc-davis/conformance/uc-davis-domain-standards.yml
   title: ''
   type: Conformance
   url: conformance/uc-davis-domain-standards.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/lifecycle/uc-davis-lifecycle.yml
+  href: https://artifacts.apis.io/uc-davis/lifecycle/uc-davis-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/uc-davis-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/scopes/uc-davis-scopes.yml
+  href: https://artifacts.apis.io/uc-davis/scopes/uc-davis-scopes.yml
   title: ''
   type: Scopes
   url: scopes/uc-davis-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/errors/uc-davis-errors.yml
+  href: https://artifacts.apis.io/uc-davis/errors/uc-davis-errors.yml
   title: ''
   type: Errors
   url: errors/uc-davis-errors.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/agentic-access/uc-davis-agentic-access.yml
+  href: https://artifacts.apis.io/uc-davis/agentic-access/uc-davis-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/uc-davis-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/security/uc-davis-domain-security.yml
+  href: https://artifacts.apis.io/uc-davis/security/uc-davis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/uc-davis-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/authentication/uc-davis-authentication.yml
+  href: https://artifacts.apis.io/uc-davis/authentication/uc-davis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/uc-davis-authentication.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/plans/uc-davis-plans-pricing.yml
+  href: https://artifacts.apis.io/uc-davis/plans/uc-davis-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/uc-davis-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/rate-limits/uc-davis-rate-limits.yml
+  href: https://artifacts.apis.io/uc-davis/rate-limits/uc-davis-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/uc-davis-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/finops/uc-davis-finops.yml
+  href: https://artifacts.apis.io/uc-davis/finops/uc-davis-finops.yml
   title: ''
   type: FinOps
   url: finops/uc-davis-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/uc-davis/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -489,7 +488,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.6
+  composite: 45.1
   coverage:
     artifact_dirs: 24
     catalog_earned: 60.7
@@ -497,14 +496,14 @@ score:
     catalog_gap: 54.4
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 53.2
     contract_governance: 9.8
     contract_quality: 49.8
-    developer_ergonomics: 42.9
+    developer_ergonomics: 45.2
     discoverability: 62.5
-    operational_transparency: 21.6
+    operational_transparency: 24.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -512,7 +511,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 44.7
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -527,13 +526,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/screenshots/uc-davis-2026-06-20T195938.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/uc-davis/uc-davis-2026-06-20T195938.png
 security:
 - kind: authentication
   name: Uc Davis Authentication

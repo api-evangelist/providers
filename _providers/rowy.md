@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://docs.rowy.io
@@ -51,11 +53,8 @@ apis:
   description: Rowy tables map directly onto Google Cloud Firestore collections. Programmatic data access is not a Rowy-specific REST API; it is the underlying Firestore data store reached via the Firebase/Google Cl
   name: Rowy Firestore Data
   slug: rowy-firestore-data
-artifact_total: 9
+artifact_total: 8
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rowy
   slug: open-rowy
@@ -65,7 +64,7 @@ common:
   type: Blog
   url: https://www.rowy.io/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rowy/refs/heads/main/security/rowy-domain-security.yml
+  href: https://artifacts.apis.io/rowy/security/rowy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rowy-domain-security.yml
@@ -86,17 +85,17 @@ common:
   type: Documentation
   url: https://docs.rowy.io
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rowy/refs/heads/main/plans/rowy-plans-pricing.yml
+  href: https://artifacts.apis.io/rowy/plans/rowy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rowy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rowy/refs/heads/main/rate-limits/rowy-rate-limits.yml
+  href: https://artifacts.apis.io/rowy/rate-limits/rowy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rowy-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rowy/refs/heads/main/finops/rowy-finops.yml
+  href: https://artifacts.apis.io/rowy/finops/rowy-finops.yml
   title: ''
   type: FinOps
   url: finops/rowy-finops.yml
@@ -124,14 +123,14 @@ plans:
 - name: Rowy Plans Pricing
   plan_count: 3
   slug: rowy-plans-pricing
-random_paper: 3
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Rowy Rate Limits
   slug: rowy-rate-limits
 score:
   band: emerging
-  composite: 17.4
+  composite: 19.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 38.0
@@ -139,29 +138,29 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.8
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 25.1
+    contract_quality: 32.1
     developer_ergonomics: 19.0
     discoverability: 57.1
-    operational_transparency: 10.5
-  previous_composite: 25.2
+    operational_transparency: 13.2
+  previous_composite: 19.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/rowy/refs/heads/main/screenshots/rowy-2026-06-20T193228.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rowy/rowy-2026-06-20T193228.png
 security:
 - kind: domain-security
   name: Rowy Domain Security

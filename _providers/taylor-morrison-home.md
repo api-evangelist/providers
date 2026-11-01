@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -81,11 +83,8 @@ apis:
   description: Online home reservation and configuration
   name: taylor-morrison-home Reservations API
   slug: taylor-morrison-home-reservations-api
-artifact_total: 30
+artifact_total: 29
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Taylor Morrison Home Search Communities API
   slug: open-taylor-morrison-home-communities-api
@@ -109,32 +108,32 @@ collections:
   slug: open-taylor-morrison-home-search
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/plans/taylor-morrison-home-plans-pricing.yml
+  href: https://artifacts.apis.io/taylor-morrison-home/plans/taylor-morrison-home-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/taylor-morrison-home-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/rate-limits/taylor-morrison-home-rate-limits.yml
+  href: https://artifacts.apis.io/taylor-morrison-home/rate-limits/taylor-morrison-home-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/taylor-morrison-home-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/finops/taylor-morrison-home-finops.yml
+  href: https://artifacts.apis.io/taylor-morrison-home/finops/taylor-morrison-home-finops.yml
   title: ''
   type: FinOps
   url: finops/taylor-morrison-home-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/agentic-access/taylor-morrison-home-agentic-access.yml
+  href: https://artifacts.apis.io/taylor-morrison-home/agentic-access/taylor-morrison-home-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/taylor-morrison-home-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/security/taylor-morrison-home-domain-security.yml
+  href: https://artifacts.apis.io/taylor-morrison-home/security/taylor-morrison-home-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/taylor-morrison-home-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/authentication/taylor-morrison-home-authentication.yml
+  href: https://artifacts.apis.io/taylor-morrison-home/authentication/taylor-morrison-home-authentication.yml
   title: ''
   type: Authentication
   url: authentication/taylor-morrison-home-authentication.yml
@@ -163,22 +162,22 @@ common:
   type: Mortgage
   url: https://www.taylormorrisonfunding.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/json-schema/taylor-morrison-home-schema.json
+  href: https://artifacts.apis.io/taylor-morrison-home/json-schema/taylor-morrison-home-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/taylor-morrison-home-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/json-structure/taylor-morrison-home-structure.json
+  href: https://artifacts.apis.io/taylor-morrison-home/json-structure/taylor-morrison-home-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/taylor-morrison-home-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/json-ld/taylor-morrison-home-context.jsonld
+  href: https://artifacts.apis.io/taylor-morrison-home/json-ld/taylor-morrison-home-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/taylor-morrison-home-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/vocabulary/taylor-morrison-home-vocabulary.yml
+  href: https://artifacts.apis.io/taylor-morrison-home/vocabulary/taylor-morrison-home-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/taylor-morrison-home-vocabulary.yml
@@ -245,7 +244,7 @@ press:
 - date: ''
   title: Taylor Morrison Announces Date for First Quarter 2026 Earnings ...
   url: https://www.barchart.com/story/news/939225/taylor-morrison-announces-date-for-first-quarter-2026-earnings-release-and-webcast-conference-call
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Taylor Morrison Home Rate Limits
@@ -287,7 +286,7 @@ rules:
   slug: taylor-morrison-spectral-rules
 score:
   band: thin
-  composite: 29.3
+  composite: 30.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 53.0
@@ -295,15 +294,15 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 56.9
     developer_ergonomics: 23.8
-    discoverability: 58.0
+    discoverability: 58.9
     operational_transparency: 5.3
-  previous_composite: 30.8
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     contracts:
@@ -317,13 +316,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/screenshots/taylor-morrison-home-2026-06-20T194942.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/taylor-morrison-home/taylor-morrison-home-2026-06-20T194942.png
 security:
 - kind: authentication
   name: Taylor Morrison Home Authentication

@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -28,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.5
-  scored_at: '2026-10-17'
+  score: 36.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -177,9 +178,6 @@ collections:
   name: Google Play Developer Orders Subscriptions API
   slug: postman-android-subscriptions-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Google Play Developer Orders API
   slug: open-android-orders-api
 - collection_type: open
@@ -193,17 +191,17 @@ collections:
   slug: open-google-play-developer-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/plans/android-plans-pricing.yml
+  href: https://artifacts.apis.io/android/plans/android-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/android-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/rate-limits/android-rate-limits.yml
+  href: https://artifacts.apis.io/android/rate-limits/android-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/android-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/finops/android-finops.yml
+  href: https://artifacts.apis.io/android/finops/android-finops.yml
   title: ''
   type: FinOps
   url: finops/android-finops.yml
@@ -212,7 +210,7 @@ common:
   type: Website
   url: https://www.android.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/capabilities/android-capability-edges.yml
+  href: https://artifacts.apis.io/android/capabilities/android-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/android-capability-edges.yml
@@ -221,97 +219,97 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/android/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/agentic-access/android-agentic-access.yml
+  href: https://artifacts.apis.io/android/agentic-access/android-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/android-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/security/android-domain-security.yml
+  href: https://artifacts.apis.io/android/security/android-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/android-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/authentication/android-authentication.yml
+  href: https://artifacts.apis.io/android/authentication/android-authentication.yml
   title: ''
   type: Authentication
   url: authentication/android-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/scopes/android-scopes.yml
+  href: https://artifacts.apis.io/android/scopes/android-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/android-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/packages/android-packages.yml
+  href: https://artifacts.apis.io/android/packages/android-packages.yml
   title: ''
   type: Packages
   url: packages/android-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/well-known/android-well-known.yml
+  href: https://artifacts.apis.io/android/well-known/android-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/android-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/well-known/android-security.txt
+  href: https://artifacts.apis.io/android/well-known/android-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/android-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/mcp/android-mcp.yml
+  href: https://artifacts.apis.io/android/mcp/android-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/android-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/llms/android-llms.txt
+  href: https://artifacts.apis.io/android/llms/android-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/android-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/overlays/android-google-play-developer-api-overlay.yaml
+  href: https://artifacts.apis.io/android/overlays/android-google-play-developer-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/android-google-play-developer-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/conformance/android-conformance.yml
+  href: https://artifacts.apis.io/android/conformance/android-conformance.yml
   title: ''
   type: Conformance
   url: conformance/android-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/errors/android-problem-types.yml
+  href: https://artifacts.apis.io/android/errors/android-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/android-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/lifecycle/android-lifecycle.yml
+  href: https://artifacts.apis.io/android/lifecycle/android-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/android-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/security/android-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/android/security/android-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/android-vulnerability-disclosure.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/sandbox/android-sandbox.yml
+  href: https://artifacts.apis.io/android/sandbox/android-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/android-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/conventions/android-conventions.yml
+  href: https://artifacts.apis.io/android/conventions/android-conventions.yml
   title: ''
   type: Conventions
   url: conventions/android-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/changelog/android-changelog.yml
+  href: https://artifacts.apis.io/android/changelog/android-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/android-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/cli/android-cli.yml
+  href: https://artifacts.apis.io/android/cli/android-cli.yml
   title: ''
   type: CLI
   url: cli/android-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/data-model/android-data-model.yml
+  href: https://artifacts.apis.io/android/data-model/android-data-model.yml
   title: ''
   type: DataModel
   url: data-model/android-data-model.yml
@@ -360,62 +358,62 @@ common:
   type: AgentSkills
   url: https://github.com/android/skills
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/arazzo/android-audit-update-subscription-workflow.yml
+  href: https://artifacts.apis.io/android/arazzo/android-audit-update-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/android-audit-update-subscription-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/arazzo/android-cancel-subscription-purchase-workflow.yml
+  href: https://artifacts.apis.io/android/arazzo/android-cancel-subscription-purchase-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/android-cancel-subscription-purchase-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/arazzo/android-defer-subscription-renewal-workflow.yml
+  href: https://artifacts.apis.io/android/arazzo/android-defer-subscription-renewal-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/android-defer-subscription-renewal-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/arazzo/android-grant-consumable-purchase-workflow.yml
+  href: https://artifacts.apis.io/android/arazzo/android-grant-consumable-purchase-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/android-grant-consumable-purchase-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/arazzo/android-launch-subscription-product-workflow.yml
+  href: https://artifacts.apis.io/android/arazzo/android-launch-subscription-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/android-launch-subscription-product-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/arazzo/android-reconcile-voided-purchases-workflow.yml
+  href: https://artifacts.apis.io/android/arazzo/android-reconcile-voided-purchases-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/android-reconcile-voided-purchases-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/arazzo/android-refund-order-workflow.yml
+  href: https://artifacts.apis.io/android/arazzo/android-refund-order-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/android-refund-order-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/arazzo/android-retire-subscription-product-workflow.yml
+  href: https://artifacts.apis.io/android/arazzo/android-retire-subscription-product-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/android-retire-subscription-product-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/arazzo/android-review-triage-reply-workflow.yml
+  href: https://artifacts.apis.io/android/arazzo/android-review-triage-reply-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/android-review-triage-reply-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/arazzo/android-revoke-subscription-purchase-workflow.yml
+  href: https://artifacts.apis.io/android/arazzo/android-revoke-subscription-purchase-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/android-revoke-subscription-purchase-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/arazzo/android-verify-acknowledge-product-purchase-workflow.yml
+  href: https://artifacts.apis.io/android/arazzo/android-verify-acknowledge-product-purchase-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/android-verify-acknowledge-product-purchase-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/arazzo/android-verify-acknowledge-subscription-purchase-workflow.yml
+  href: https://artifacts.apis.io/android/arazzo/android-verify-acknowledge-subscription-purchase-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/android-verify-acknowledge-subscription-purchase-workflow.yml
@@ -584,10 +582,10 @@ features:
   name: App Security
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Android Finops
-  primary_unit: ''
-  service_category: Mobile Development Platform
+  primary_unit: monthly calls
+  service_category: ''
   slug: android-finops
   template: false
 integrations:
@@ -927,9 +925,12 @@ overview: 'Android publishes 24 API contracts indexed on the [APIs.io](https://a
   Android''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, engineering blog, Stack Overflow tag, and 41 more developer resources.'
 plans:
 - name: Android Plans Pricing
-  plan_count: 6
+  plan_count: 4
   slug: android-plans-pricing
-random_paper: 11
+- name: Android Price Estimates
+  plan_count: 0
+  slug: android-price-estimates
+random_paper: 17
 rate_limits:
 - limit_count: 10
   name: Android Rate Limits
@@ -964,24 +965,24 @@ scopes:
   slug: android-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 48.4
+  band: strong
+  composite: 57.2
   coverage:
     artifact_dirs: 36
-    catalog_earned: 53.9
-    catalog_earned_first_party: 0.0
-    catalog_gap: 61.1
+    catalog_earned: 65.9
+    catalog_earned_first_party: 12.0
+    catalog_gap: 49.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 18.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 66.8
     developer_ergonomics: 74.3
     discoverability: 60.7
-    operational_transparency: 26.3
-  previous_composite: 49.9
+    operational_transparency: 39.5
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -997,13 +998,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/screenshots/android-2026-06-20T171952.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/android/android-2026-06-20T171952.png
 security:
 - kind: authentication
   name: Android Authentication

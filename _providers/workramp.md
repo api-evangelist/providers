@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-10-17'
+  score: 30.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -190,54 +192,54 @@ apis:
   description: The Webhook Subscriptions API from WorkRamp — 2 operation(s) for webhook subscriptions.
   name: WorkRamp Webhook Subscriptions API
   slug: workramp-webhook-subscriptions-api
-artifact_total: 38
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Workramp Webhooks
   slug: workramp-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/capabilities/workramp-capability-edges.yml
+  href: https://artifacts.apis.io/workramp/capabilities/workramp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/workramp-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/overlays/workramp-api-settings-overlay.yaml
+  href: https://artifacts.apis.io/workramp/overlays/workramp-api-settings-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/workramp-api-settings-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/overlays/workramp-json-api-overlay.yaml
+  href: https://artifacts.apis.io/workramp/overlays/workramp-json-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/workramp-json-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/agentic-access/workramp-agentic-access.yml
+  href: https://artifacts.apis.io/workramp/agentic-access/workramp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/workramp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/authentication/workramp-authentication.yml
+  href: https://artifacts.apis.io/workramp/authentication/workramp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/workramp-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/conventions/workramp-conventions.yml
+  href: https://artifacts.apis.io/workramp/conventions/workramp-conventions.yml
   title: ''
   type: Conventions
   url: conventions/workramp-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/errors/workramp-problem-types.yml
+  href: https://artifacts.apis.io/workramp/errors/workramp-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/workramp-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/data-model/workramp-data-model.yml
+  href: https://artifacts.apis.io/workramp/data-model/workramp-data-model.yml
   title: ''
   type: DataModel
   url: data-model/workramp-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/conformance/workramp-conformance.yml
+  href: https://artifacts.apis.io/workramp/conformance/workramp-conformance.yml
   title: ''
   type: Conformance
   url: conformance/workramp-conformance.yml
@@ -246,17 +248,17 @@ common:
   type: Compliance
   url: https://trust.confirm.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/security/workramp-trust-center.yml
+  href: https://artifacts.apis.io/workramp/security/workramp-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/workramp-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/security/workramp-domain-security.yml
+  href: https://artifacts.apis.io/workramp/security/workramp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/workramp-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/security/workramp-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/workramp/security/workramp-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/workramp-vulnerability-disclosure.yml
@@ -265,7 +267,7 @@ common:
   type: Security
   url: https://www.confirm.com/policies/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/lifecycle/workramp-lifecycle.yml
+  href: https://artifacts.apis.io/workramp/lifecycle/workramp-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/workramp-lifecycle.yml
@@ -274,22 +276,22 @@ common:
   type: StatusPage
   url: https://workramp.statuspage.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/asyncapi/workramp-webhooks.yml
+  href: https://artifacts.apis.io/workramp/asyncapi/workramp-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/workramp-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/workramp/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/llms/workramp-llms.txt
+  href: https://artifacts.apis.io/workramp/llms/workramp-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/workramp-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/packages/workramp-packages.yml
+  href: https://artifacts.apis.io/workramp/packages/workramp-packages.yml
   title: ''
   type: Packages
   url: packages/workramp-packages.yml
@@ -358,17 +360,17 @@ common:
   type: SLA
   url: https://www.confirm.com/policies/tol-service-level-agreement
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/plans/workramp-plans-pricing.yml
+  href: https://artifacts.apis.io/workramp/plans/workramp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/workramp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/rate-limits/workramp-rate-limits.yml
+  href: https://artifacts.apis.io/workramp/rate-limits/workramp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/workramp-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/finops/workramp-finops.yml
+  href: https://artifacts.apis.io/workramp/finops/workramp-finops.yml
   title: ''
   type: FinOps
   url: finops/workramp-finops.yml
@@ -376,13 +378,13 @@ created: '2026-06-13'
 description: WorkRamp is a revenue-enablement and learning platform now sold by Confirm as two products — Learn:Up (the employee LMS, formerly WorkRamp) and Academy (customer and partner training) — after Learning Pool rebranded as Confirm and consolidated WorkRamp, Confirm HR, AI Sims and Elucidat under one Workforce Enablement System. The API is still served from app.workramp.com and documented at developers.workramp.com as the "Confirm Learn:Up & Academy API". It is a private REST API — access is granted per enterprise on request — and covers users, groups, custom attributes, guides/courses, paths (training series), challenges, SCORM courses and assignments, resources, events and event sessions, item folders and libraries, the content catalog, Academy contacts, segments, trainings, certifications, registrations and email domains, plus webhook subscriptions and SCIM 2.0 provisioning. Authentication is a static admin-scoped API key sent as a bearer token; published rate limits are 3,000
   calls/hour sustained with a 13,000 calls/hour burst, and EU tenants call app.eu.workramp.com.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Workramp Finops
-  primary_unit: ''
+  primary_unit: user
   service_category: ''
   slug: workramp-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workramp.png
 layout: provider
 modified: '2026-08-13'
@@ -400,30 +402,33 @@ plans:
 - name: Workramp Plans Pricing
   plan_count: 7
   slug: workramp-plans-pricing
-random_paper: 3
+- name: Workramp Price Estimates
+  plan_count: 0
+  slug: workramp-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Workramp Rate Limits
   slug: workramp-rate-limits
 score:
   band: strong
-  composite: 61.3
+  composite: 64.6
   coverage:
     artifact_dirs: 26
-    catalog_earned: 57.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 61.6
-    developer_ergonomics: 33.9
-    discoverability: 73.2
-    operational_transparency: 63.2
-  previous_composite: 62.8
+    contract_quality: 55.6
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 71.1
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -440,13 +445,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/screenshots/workramp-2026-06-20T201617.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/workramp/workramp-2026-06-20T201617.png
 security:
 - kind: authentication
   name: Workramp Authentication
@@ -464,6 +470,16 @@ security:
   name: Workramp Trust Center
   slug: workramp-trust-center
   summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, Cyber Essentials, GDPR, CCPA
+skill_count: 4
+skills:
+- name: Enroll an Academy contact in a certification
+  slug: workramp-enroll-academy-contact-in-certification
+- name: Onboard an employee and assign learning
+  slug: workramp-onboard-employee-and-assign-learning
+- name: Provision and deprovision users with SCIM
+  slug: workramp-scim-provisioning-and-deprovisioning
+- name: Subscribe to assignment webhooks and reconcile completions
+  slug: workramp-subscribe-to-assignment-webhooks
 slug: workramp
 tags:
 - LMS

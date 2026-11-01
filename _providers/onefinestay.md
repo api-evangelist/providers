@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -45,7 +47,7 @@ common:
   type: BlogRSS
   url: https://www.onefinestay.com/blog.rss
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onefinestay/refs/heads/main/security/onefinestay-domain-security.yml
+  href: https://artifacts.apis.io/onefinestay/security/onefinestay-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onefinestay-domain-security.yml
@@ -74,12 +76,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/onefinestay
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onefinestay/refs/heads/main/well-known/onefinestay-security.txt
+  href: https://artifacts.apis.io/onefinestay/well-known/onefinestay-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/onefinestay-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onefinestay/refs/heads/main/well-known/onefinestay-well-known.yml
+  href: https://artifacts.apis.io/onefinestay/well-known/onefinestay-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/onefinestay-well-known.yml
@@ -95,10 +97,10 @@ overview: 'Onefinestay is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Onefinestay''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 1
+random_paper: 13
 score:
-  band: minimal
-  composite: 10.6
+  band: emerging
+  composite: 12.3
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -106,34 +108,34 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 48.2
-    operational_transparency: 2.6
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-kingdom
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 10.5
+  previous_composite: 12.3
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/onefinestay/refs/heads/main/screenshots/onefinestay-2026-08-07T190311.png
+screenshot: https://apis.io/screenshots/onefinestay/onefinestay-2026-08-07T190311.png
 security:
 - kind: domain-security
   name: Onefinestay Domain Security

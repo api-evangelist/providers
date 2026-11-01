@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.7
-  scored_at: '2026-10-17'
+  score: 21.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Fleet management API (no public documentation found)
@@ -32,17 +34,17 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zonar-systems/refs/heads/main/well-known/zonar-systems-well-known.yml
+  href: https://artifacts.apis.io/zonar-systems/well-known/zonar-systems-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zonar-systems-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zonar-systems/refs/heads/main/hosts/zonar-systems-hosts.yml
+  href: https://artifacts.apis.io/zonar-systems/hosts/zonar-systems-hosts.yml
   title: ''
   type: Hosts
   url: hosts/zonar-systems-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zonar-systems/refs/heads/main/vendors/zonar-systems-vendors.yml
+  href: https://artifacts.apis.io/zonar-systems/vendors/zonar-systems-vendors.yml
   title: ''
   type: Vendors
   url: vendors/zonar-systems-vendors.yml
@@ -67,7 +69,7 @@ common:
   type: Blog
   url: https://www.zonar.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zonar-systems/refs/heads/main/security/zonar-systems-domain-security.yml
+  href: https://artifacts.apis.io/zonar-systems/security/zonar-systems-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zonar-systems-domain-security.yml
@@ -94,7 +96,7 @@ overview: 'Zonar Systems is listed with 1 API on the [APIs.io](https://apis.io/)
 
 
   Zonar Systems'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 5
+random_paper: 23
 score:
   band: emerging
   composite: 13.5
@@ -105,6 +107,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -112,6 +115,7 @@ score:
     developer_ergonomics: 2.4
     discoverability: 55.4
     operational_transparency: 0.0
+  previous_composite: 13.5
   provenance:
     mcp: unknown
   regulatory:
@@ -120,8 +124,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

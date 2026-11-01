@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,16 +23,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.0
-  scored_at: '2026-10-17'
+  score: 26.8
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The BuildOps Public API, named by the BuildOps Dev Center as the REST + webhook-callback integration surface for customers, software partners and vendors. The Dev Center gates its reference behind "In
@@ -81,7 +83,7 @@ common:
   type: PrivacyPolicy
   url: https://www.buildops.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/security/buildops-domain-security.yml
+  href: https://artifacts.apis.io/buildops/security/buildops-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/buildops-domain-security.yml
@@ -102,12 +104,12 @@ common:
   type: Security
   url: https://buildops.com/security-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/security/buildops-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/buildops/security/buildops-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/buildops-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/security/buildops-trust-center.yml
+  href: https://artifacts.apis.io/buildops/security/buildops-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/buildops-trust-center.yml
@@ -116,22 +118,22 @@ common:
   type: Compliance
   url: https://trust.buildops.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/plans/buildops-plans-pricing.yml
+  href: https://artifacts.apis.io/buildops/plans/buildops-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/buildops-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/rate-limits/buildops-rate-limits.yml
+  href: https://artifacts.apis.io/buildops/rate-limits/buildops-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/buildops-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/packages/buildops-packages.yml
+  href: https://artifacts.apis.io/buildops/packages/buildops-packages.yml
   title: ''
   type: Packages
   url: packages/buildops-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/llms/buildops-llms.txt
+  href: https://artifacts.apis.io/buildops/llms/buildops-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/buildops-llms.txt
@@ -166,7 +168,7 @@ modified: '2026-08-10'
 name: BuildOps
 nav: Providers
 network: true
-overview: 'BuildOps is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction Software, Field Service, Contractor Management, and Commercial Services.
+overview: 'BuildOps is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction Software, Field Service Management, Contractor Management, and Commercial Services.
 
 
   The BuildOps catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -177,14 +179,14 @@ plans:
 - name: Buildops Plans Pricing
   plan_count: 0
   slug: buildops-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Buildops Rate Limits
   slug: buildops-rate-limits
 score:
   band: thin
-  composite: 34.9
+  composite: 37.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -192,15 +194,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -1.1
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 39.0
-    developer_ergonomics: 11.9
-    discoverability: 75.0
-    operational_transparency: 13.2
-  previous_composite: 34.8
+    developer_ergonomics: 26.2
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 38.3
   provenance:
     mcp: first-party
   regulatory:
@@ -209,14 +211,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/buildops/refs/heads/main/screenshots/buildops-2026-07-25T204050.png
+screenshot: https://apis.io/screenshots/buildops/buildops-2026-07-25T204050.png
 security:
 - kind: domain-security
   name: Buildops Domain Security
@@ -234,7 +236,7 @@ slug: buildops
 tags:
 - Company
 - Construction Software
-- Field Service
+- Field Service Management
 - Contractor Management
 - Commercial Services
 - HVAC

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API for String's fiat-for-Web3-gaming platform — quotes and transactions (fiat on/off ramp, NFT purchase, cross-chain), plus management of API keys, contracts, platforms (games), members, organiz
   name: String API
   slug: string-api
-artifact_total: 3
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -72,72 +74,72 @@ common:
   type: SignUp
   url: https://sandbox.string.xyz/login
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/sandbox/string-technology-inc-sandbox.yml
+  href: https://artifacts.apis.io/string-technology-inc/sandbox/string-technology-inc-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/string-technology-inc-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/llms/string-technology-inc-llms.txt
+  href: https://artifacts.apis.io/string-technology-inc/llms/string-technology-inc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/string-technology-inc-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/packages/string-technology-inc-packages.yml
+  href: https://artifacts.apis.io/string-technology-inc/packages/string-technology-inc-packages.yml
   title: ''
   type: Packages
   url: packages/string-technology-inc-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/packages/string-technology-inc-packages.yml
+  href: https://artifacts.apis.io/string-technology-inc/packages/string-technology-inc-packages.yml
   title: ''
   type: SDKs
   url: packages/string-technology-inc-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/components/string-technology-inc-components.yml
+  href: https://artifacts.apis.io/string-technology-inc/components/string-technology-inc-components.yml
   title: ''
   type: Components
   url: components/string-technology-inc-components.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/authentication/string-technology-inc-authentication.yml
+  href: https://artifacts.apis.io/string-technology-inc/authentication/string-technology-inc-authentication.yml
   title: ''
   type: Authentication
   url: authentication/string-technology-inc-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/errors/string-technology-inc-problem-types.yml
+  href: https://artifacts.apis.io/string-technology-inc/errors/string-technology-inc-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/string-technology-inc-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/conventions/string-technology-inc-conventions.yml
+  href: https://artifacts.apis.io/string-technology-inc/conventions/string-technology-inc-conventions.yml
   title: ''
   type: Conventions
   url: conventions/string-technology-inc-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/conformance/string-technology-inc-conformance.yml
+  href: https://artifacts.apis.io/string-technology-inc/conformance/string-technology-inc-conformance.yml
   title: ''
   type: Conformance
   url: conformance/string-technology-inc-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/lifecycle/string-technology-inc-lifecycle.yml
+  href: https://artifacts.apis.io/string-technology-inc/lifecycle/string-technology-inc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/string-technology-inc-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/data-model/string-technology-inc-data-model.yml
+  href: https://artifacts.apis.io/string-technology-inc/data-model/string-technology-inc-data-model.yml
   title: ''
   type: DataModel
   url: data-model/string-technology-inc-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/mcp/string-technology-inc-mcp.yml
+  href: https://artifacts.apis.io/string-technology-inc/mcp/string-technology-inc-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/string-technology-inc-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/security/string-technology-inc-domain-security.yml
+  href: https://artifacts.apis.io/string-technology-inc/security/string-technology-inc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/string-technology-inc-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/string-technology-inc/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -153,26 +155,26 @@ overview: 'String Technology is listed with 1 API on the [APIs.io](https://apis.
 
 
   String Technology''s developer surface includes documentation, API reference, getting-started guide, signup flow, sandbox, authentication, and 15 more developer resources.'
-random_paper: 17
+random_paper: 15
 score:
   band: emerging
-  composite: 18.3
+  composite: 23.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 47.0
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 18.2
+    developer_ergonomics: 66.1
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 23.1
   provenance:
     conformance: derived
     mcp: derived
@@ -183,14 +185,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/screenshots/string-technology-inc-2026-09-02T161015.png
+screenshot: https://apis.io/screenshots/string-technology-inc/string-technology-inc-2026-09-02T161015.png
 security:
 - kind: authentication
   name: String Technology Inc Authentication
@@ -200,6 +202,10 @@ security:
   name: String Technology Inc Domain Security
   slug: string-technology-inc-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 1
+skills:
+- name: Quote and execute a String transaction
+  slug: string-technology-inc-quote-and-transact
 slug: string-technology-inc
 tags:
 - Company

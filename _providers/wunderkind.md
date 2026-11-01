@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 35.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -78,15 +80,12 @@ apis:
   description: The Signals Wunderhook consumer contract — the single POST endpoint a client stands up to RECEIVE Wunderkind Signals webhook deliveries. The base URL is therefore templated and client-owned (https://{
   name: Wunderkind Wunderhook API
   slug: wunderkind-wunderhook-api
-artifact_total: 27
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Wunderkind Signals Webhooks
   slug: wunderkind-signals-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Wunderkind Email API
   slug: open-wunderkind-email-api
@@ -107,42 +106,42 @@ collections:
   slug: open-wunderkind-wunderhook-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/capabilities/wunderkind-capability-edges.yml
+  href: https://artifacts.apis.io/wunderkind/capabilities/wunderkind-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/wunderkind-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/overlays/wunderkind-email-overlay.yaml
+  href: https://artifacts.apis.io/wunderkind/overlays/wunderkind-email-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wunderkind-email-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/overlays/wunderkind-identity-overlay.yaml
+  href: https://artifacts.apis.io/wunderkind/overlays/wunderkind-identity-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wunderkind-identity-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/overlays/wunderkind-ucrm-overlay.yaml
+  href: https://artifacts.apis.io/wunderkind/overlays/wunderkind-ucrm-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wunderkind-ucrm-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/overlays/wunderkind-event-ingestion-overlay.yaml
+  href: https://artifacts.apis.io/wunderkind/overlays/wunderkind-event-ingestion-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wunderkind-event-ingestion-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/agentic-access/wunderkind-agentic-access.yml
+  href: https://artifacts.apis.io/wunderkind/agentic-access/wunderkind-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wunderkind-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/security/wunderkind-domain-security.yml
+  href: https://artifacts.apis.io/wunderkind/security/wunderkind-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wunderkind-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/authentication/wunderkind-authentication.yml
+  href: https://artifacts.apis.io/wunderkind/authentication/wunderkind-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wunderkind-authentication.yml
@@ -199,77 +198,77 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/bewunderkind/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/changelog/wunderkind-changelog.yml
+  href: https://artifacts.apis.io/wunderkind/changelog/wunderkind-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/wunderkind-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/lifecycle/wunderkind-lifecycle.yml
+  href: https://artifacts.apis.io/wunderkind/lifecycle/wunderkind-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wunderkind-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/asyncapi/wunderkind-signals-webhooks.yml
+  href: https://artifacts.apis.io/wunderkind/asyncapi/wunderkind-signals-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/wunderkind-signals-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/packages/wunderkind-packages.yml
+  href: https://artifacts.apis.io/wunderkind/packages/wunderkind-packages.yml
   title: ''
   type: Packages
   url: packages/wunderkind-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/packages/wunderkind-packages.yml
+  href: https://artifacts.apis.io/wunderkind/packages/wunderkind-packages.yml
   title: ''
   type: SDKs
   url: packages/wunderkind-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/llms/wunderkind-llms.txt
+  href: https://artifacts.apis.io/wunderkind/llms/wunderkind-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wunderkind-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/mcp/wunderkind-mcp.yml
+  href: https://artifacts.apis.io/wunderkind/mcp/wunderkind-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/wunderkind-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/errors/wunderkind-problem-types.yml
+  href: https://artifacts.apis.io/wunderkind/errors/wunderkind-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wunderkind-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/conventions/wunderkind-conventions.yml
+  href: https://artifacts.apis.io/wunderkind/conventions/wunderkind-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wunderkind-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/conformance/wunderkind-conformance.yml
+  href: https://artifacts.apis.io/wunderkind/conformance/wunderkind-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wunderkind-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/data-model/wunderkind-data-model.yml
+  href: https://artifacts.apis.io/wunderkind/data-model/wunderkind-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wunderkind-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/rate-limits/wunderkind-rate-limits.yml
+  href: https://artifacts.apis.io/wunderkind/rate-limits/wunderkind-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/wunderkind-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wunderkind/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/security/wunderkind-trust-center.yml
+  href: https://artifacts.apis.io/wunderkind/security/wunderkind-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/wunderkind-trust-center.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/plans/wunderkind-plans-pricing.yml
+  href: https://artifacts.apis.io/wunderkind/plans/wunderkind-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/wunderkind-plans-pricing.yml
@@ -278,27 +277,27 @@ common:
   type: Compliance
   url: https://www.wunderkind.co/blog/article/wunderkinds-commitment-to-privacy-compliance/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/examples/wunderkind-send-email-example.json
+  href: https://artifacts.apis.io/wunderkind/examples/wunderkind-send-email-example.json
   title: ''
   type: Examples
   url: examples/wunderkind-send-email-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/examples/wunderkind-subscribe-users-example.json
+  href: https://artifacts.apis.io/wunderkind/examples/wunderkind-subscribe-users-example.json
   title: ''
   type: Examples
   url: examples/wunderkind-subscribe-users-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/examples/wunderkind-unsubscribe-users-example.json
+  href: https://artifacts.apis.io/wunderkind/examples/wunderkind-unsubscribe-users-example.json
   title: ''
   type: Examples
   url: examples/wunderkind-unsubscribe-users-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/examples/wunderkind-identity-lookup-example.json
+  href: https://artifacts.apis.io/wunderkind/examples/wunderkind-identity-lookup-example.json
   title: ''
   type: Examples
   url: examples/wunderkind-identity-lookup-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/examples/wunderkind-signals-webhook-delivery-example.json
+  href: https://artifacts.apis.io/wunderkind/examples/wunderkind-signals-webhook-delivery-example.json
   title: ''
   type: Examples
   url: examples/wunderkind-signals-webhook-delivery-example.json
@@ -320,6 +319,14 @@ examples:
 - key_count: 4
   name: Wunderkind Unsubscribe Users Example
   slug: wunderkind-unsubscribe-users-example
+finops:
+- has_sources: true
+  method: derived
+  name: Wunderkind Finops
+  primary_unit: ''
+  service_category: ''
+  slug: wunderkind-finops
+  template: true
 image: https://avatars.githubusercontent.com/u/197307309?v=4
 layout: provider
 mcp_servers:
@@ -341,30 +348,30 @@ plans:
 - name: Wunderkind Plans Pricing
   plan_count: 0
   slug: wunderkind-plans-pricing
-random_paper: 5
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Wunderkind Rate Limits
   slug: wunderkind-rate-limits
 score:
   band: strong
-  composite: 57.0
+  composite: 55.1
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 53.7
-    developer_ergonomics: 61.3
-    discoverability: 78.6
+    developer_ergonomics: 66.1
+    discoverability: 70.0
     operational_transparency: 65.8
-  previous_composite: 57.1
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -381,13 +388,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/screenshots/wunderkind-2026-08-17T082958.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wunderkind/wunderkind-2026-08-17T082958.png
 security:
 - kind: authentication
   name: Wunderkind Authentication
@@ -401,6 +409,16 @@ security:
   name: Wunderkind Trust Center
   slug: wunderkind-trust-center
   summary_line: SOC 2 Type 2, ISO 27001
+skill_count: 4
+skills:
+- name: Ingest server-side behavioral events
+  slug: wunderkind-ingest-events
+- name: Subscribe and unsubscribe users
+  slug: wunderkind-manage-subscriptions
+- name: Resolve WKND device IDs to emails
+  slug: wunderkind-resolve-identities
+- name: Send an email through Wunderkind
+  slug: wunderkind-send-email
 slug: wunderkind
 tags:
 - Company

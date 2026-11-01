@@ -14,31 +14,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitkey/refs/heads/main/hosts/bitkey-hosts.yml
+  href: https://artifacts.apis.io/bitkey/hosts/bitkey-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bitkey-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bitkey/refs/heads/main/vendors/bitkey-vendors.yml
+  href: https://artifacts.apis.io/bitkey/vendors/bitkey-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bitkey-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitkey/refs/heads/main/security/bitkey-domain-security.yml
+  href: https://artifacts.apis.io/bitkey/security/bitkey-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitkey-domain-security.yml
@@ -62,7 +64,7 @@ name: Bitkey
 nav: Providers
 network: true
 overview: Bitkey is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Wallets, Security, and Fintech.
-random_paper: 10
+random_paper: 0
 score:
   band: minimal
   composite: 2.3
@@ -90,14 +92,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 5.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bitkey/refs/heads/main/screenshots/bitkey-2026-10-11T102415.png
+screenshot: https://apis.io/screenshots/bitkey/bitkey-2026-10-11T102415.png
 security:
 - kind: domain-security
   name: Bitkey Domain Security

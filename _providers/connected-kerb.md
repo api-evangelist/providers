@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Connected Kerb operates a live Open Charge Point Interface (OCPI) CPO endpoint on its own charge point management host. The version negotiation endpoint and the 2.1.1 / 2.2 / 2.2.1 version detail endp
@@ -110,37 +112,37 @@ common:
   type: Profile
   url: https://forgeglobal.com/connected-kerb_stock/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/connected-kerb/refs/heads/main/authentication/connected-kerb-authentication.yml
+  href: https://artifacts.apis.io/connected-kerb/authentication/connected-kerb-authentication.yml
   title: ''
   type: Authentication
   url: authentication/connected-kerb-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connected-kerb/refs/heads/main/conventions/connected-kerb-conventions.yml
+  href: https://artifacts.apis.io/connected-kerb/conventions/connected-kerb-conventions.yml
   title: ''
   type: Conventions
   url: conventions/connected-kerb-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connected-kerb/refs/heads/main/conformance/connected-kerb-conformance.yml
+  href: https://artifacts.apis.io/connected-kerb/conformance/connected-kerb-conformance.yml
   title: ''
   type: Conformance
   url: conformance/connected-kerb-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connected-kerb/refs/heads/main/errors/connected-kerb-problem-types.yml
+  href: https://artifacts.apis.io/connected-kerb/errors/connected-kerb-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/connected-kerb-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/connected-kerb/refs/heads/main/lifecycle/connected-kerb-lifecycle.yml
+  href: https://artifacts.apis.io/connected-kerb/lifecycle/connected-kerb-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/connected-kerb-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/connected-kerb/refs/heads/main/security/connected-kerb-domain-security.yml
+  href: https://artifacts.apis.io/connected-kerb/security/connected-kerb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/connected-kerb-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/connected-kerb/refs/heads/main/llms/connected-kerb-llms.txt
+  href: https://artifacts.apis.io/connected-kerb/llms/connected-kerb-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/connected-kerb-llms.txt
@@ -156,10 +158,10 @@ overview: 'Connected Kerb is listed with 2 APIs on the [APIs.io](https://apis.io
 
 
   Connected Kerb''s developer surface includes engineering blog, support, pricing, authentication, and 19 more developer resources.'
-random_paper: 4
+random_paper: 20
 score:
   band: emerging
-  composite: 21.7
+  composite: 23.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -169,12 +171,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 66.1
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -183,7 +185,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 21.7
+  previous_composite: 23.3
   provenance:
     conformance: first-party
   regulatory:
@@ -192,14 +194,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/connected-kerb/refs/heads/main/screenshots/connected-kerb-2026-08-07T163755.png
+screenshot: https://apis.io/screenshots/connected-kerb/connected-kerb-2026-08-07T163755.png
 security:
 - kind: authentication
   name: Connected Kerb Authentication

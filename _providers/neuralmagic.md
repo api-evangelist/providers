@@ -20,12 +20,12 @@ common:
   type: Releases
   url: https://github.com/neuralmagic/deepsparse/releases
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/neuralmagic/refs/heads/main/packages/neuralmagic-packages.yml
+  href: https://artifacts.apis.io/neuralmagic/packages/neuralmagic-packages.yml
   title: ''
   type: Packages
   url: packages/neuralmagic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/neuralmagic/refs/heads/main/packages/neuralmagic-packages.yml
+  href: https://artifacts.apis.io/neuralmagic/packages/neuralmagic-packages.yml
   title: ''
   type: SDKs
   url: packages/neuralmagic-packages.yml
@@ -53,8 +53,8 @@ overview: 'NeuralMagic is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   NeuralMagic''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 16
-screenshot: https://raw.githubusercontent.com/api-evangelist/neuralmagic/refs/heads/main/screenshots/neuralmagic-2026-08-07T185032.png
+random_paper: 8
+screenshot: https://apis.io/screenshots/neuralmagic/neuralmagic-2026-08-07T185032.png
 slug: neuralmagic
 tags:
 - Company

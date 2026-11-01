@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Read-only REST API for exporting Cast.app campaign performance data — per-campaign engagement summaries, paged engagement events (delivered / view / play / action / feedback) with contact and device d
@@ -43,7 +45,7 @@ apis:
 - description: Server-side endpoint for minting a personalized Cast presentation permalink for one contact in one project, in play (automated presentation), ama (Ask Me Anything), information (customer center), or p
   name: Cast In-app Delivery API
   slug: cast-in-app-delivery-api
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Cast Corporation Webhooks
@@ -98,7 +100,7 @@ common:
   type: Blog
   url: https://cast.app/articles.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/security/cast-corporation-domain-security.yml
+  href: https://artifacts.apis.io/cast-corporation/security/cast-corporation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cast-corporation-domain-security.yml
@@ -111,67 +113,67 @@ common:
   type: Compliance
   url: https://school.cast.app/security-documents/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/conformance/cast-corporation-conformance.yml
+  href: https://artifacts.apis.io/cast-corporation/conformance/cast-corporation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cast-corporation-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/llms/cast-corporation-llms.txt
+  href: https://artifacts.apis.io/cast-corporation/llms/cast-corporation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cast-corporation-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/authentication/cast-corporation-authentication.yml
+  href: https://artifacts.apis.io/cast-corporation/authentication/cast-corporation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cast-corporation-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/conventions/cast-corporation-conventions.yml
+  href: https://artifacts.apis.io/cast-corporation/conventions/cast-corporation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cast-corporation-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/errors/cast-corporation-problem-types.yml
+  href: https://artifacts.apis.io/cast-corporation/errors/cast-corporation-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cast-corporation-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/lifecycle/cast-corporation-lifecycle.yml
+  href: https://artifacts.apis.io/cast-corporation/lifecycle/cast-corporation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cast-corporation-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/data-model/cast-corporation-data-model.yml
+  href: https://artifacts.apis.io/cast-corporation/data-model/cast-corporation-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cast-corporation-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/asyncapi/cast-corporation-webhooks.yml
+  href: https://artifacts.apis.io/cast-corporation/asyncapi/cast-corporation-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cast-corporation-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/components/cast-corporation-components.yml
+  href: https://artifacts.apis.io/cast-corporation/components/cast-corporation-components.yml
   title: ''
   type: Components
   url: components/cast-corporation-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/packages/cast-corporation-packages.yml
+  href: https://artifacts.apis.io/cast-corporation/packages/cast-corporation-packages.yml
   title: ''
   type: Packages
   url: packages/cast-corporation-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/packages/cast-corporation-packages.yml
+  href: https://artifacts.apis.io/cast-corporation/packages/cast-corporation-packages.yml
   title: ''
   type: SDKs
   url: packages/cast-corporation-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/plans/cast-corporation-plans-pricing.yml
+  href: https://artifacts.apis.io/cast-corporation/plans/cast-corporation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cast-corporation-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/rate-limits/cast-corporation-rate-limits.yml
+  href: https://artifacts.apis.io/cast-corporation/rate-limits/cast-corporation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cast-corporation-rate-limits.yml
@@ -182,6 +184,14 @@ common:
 created: '2026-07-17'
 description: 'Cast Corporation (Cast.app) is an AI-agent platform that automates customer success and post-sales revenue operations for B2B SaaS and technology companies. Its autonomous "digital CSM" agents deliver personalized business reviews, grounded answers, onboarding, usage adoption, churn reduction, renewal influence, and referral workflows across email, in-app, and chat in 17 languages. Cast positions itself as an autopilot layer over an existing stack, connecting natively to 60+ systems including Salesforce, HubSpot, Gainsight, Totango, and data warehouses, with customers such as Pure Storage, HPE, and Aruba Networks. Backed by Techstars, Array Ventures, Soma Capital, New York Venture Partners, Leonis Capital, and Comcast NBCUniversal LiftLabs. Cast publishes two documented REST surfaces: a Cast Analytics API for exporting campaign engagement events and summaries, and an In-app Delivery API plus embeddable loader for minting personalized presentation permalinks inside a customer''s
   own web app. Both are documented in prose only — Cast publishes no OpenAPI, AsyncAPI, GraphQL SDL, or Postman collection.'
+finops:
+- has_sources: true
+  method: derived
+  name: Cast Corporation Finops
+  primary_unit: ''
+  service_category: ''
+  slug: cast-corporation-finops
+  template: true
 image: https://uploads-ssl.webflow.com/5f3f7b0970b95a4ebfda0084/66bd8a8750ec202866f9fbeb_cast-media.gif
 layout: provider
 modified: '2026-08-13'
@@ -199,30 +209,33 @@ plans:
 - name: Cast Corporation Plans Pricing
   plan_count: 2
   slug: cast-corporation-plans-pricing
-random_paper: 0
+- name: Cast Corporation Price Estimates
+  plan_count: 0
+  slug: cast-corporation-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Cast Corporation Rate Limits
   slug: cast-corporation-rate-limits
 score:
   band: developing
-  composite: 48.5
+  composite: 48.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 61.9
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 48.4
+    developer_ergonomics: 64.3
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 48.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -236,14 +249,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 23.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cast-corporation/refs/heads/main/screenshots/cast-corporation-2026-07-25T204732.png
+screenshot: https://apis.io/screenshots/cast-corporation/cast-corporation-2026-07-25T204732.png
 security:
 - kind: authentication
   name: Cast Corporation Authentication

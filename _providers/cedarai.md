@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - baseURL: https://api-lg.arms.cedarai.com
@@ -82,15 +84,12 @@ apis:
   description: The WorkOrderService API from Cedarai — 10 operation(s) for workorderservice.
   name: Cedarai WorkOrderService API
   slug: cedarai-workorderservice-api
-artifact_total: 22
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Cedarai Webhooks
   slug: cedarai-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: protobuf/arms/charge.proto ChargeService API
   slug: open-cedarai-chargeservice-api
@@ -128,12 +127,12 @@ common:
   type: BlogRSS
   url: https://www.cedarai.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/capabilities/cedarai-capability-edges.yml
+  href: https://artifacts.apis.io/cedarai/capabilities/cedarai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cedarai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/overlays/cedarai-external-openapi-overlay.yaml
+  href: https://artifacts.apis.io/cedarai/overlays/cedarai-external-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cedarai-external-openapi-overlay.yaml
@@ -178,57 +177,57 @@ common:
   type: StatusPage
   url: https://status.cedarai.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/authentication/cedarai-authentication.yml
+  href: https://artifacts.apis.io/cedarai/authentication/cedarai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cedarai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/conventions/cedarai-conventions.yml
+  href: https://artifacts.apis.io/cedarai/conventions/cedarai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cedarai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/errors/cedarai-problem-types.yml
+  href: https://artifacts.apis.io/cedarai/errors/cedarai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cedarai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/asyncapi/cedarai-webhooks.yml
+  href: https://artifacts.apis.io/cedarai/asyncapi/cedarai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cedarai-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/lifecycle/cedarai-lifecycle.yml
+  href: https://artifacts.apis.io/cedarai/lifecycle/cedarai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cedarai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/conformance/cedarai-conformance.yml
+  href: https://artifacts.apis.io/cedarai/conformance/cedarai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cedarai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/data-model/cedarai-data-model.yml
+  href: https://artifacts.apis.io/cedarai/data-model/cedarai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cedarai-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/mcp/cedarai-mcp.yml
+  href: https://artifacts.apis.io/cedarai/mcp/cedarai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cedarai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cedarai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/llms/cedarai-llms.txt
+  href: https://artifacts.apis.io/cedarai/llms/cedarai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cedarai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/security/cedarai-domain-security.yml
+  href: https://artifacts.apis.io/cedarai/security/cedarai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cedarai-domain-security.yml
@@ -247,10 +246,10 @@ overview: 'Cedarai publishes 9 API contracts indexed on the [APIs.io](https://ap
 
 
   Cedarai''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, and 20 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
-  band: thin
-  composite: 39.1
+  band: developing
+  composite: 41.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -258,15 +257,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 58.0
     developer_ergonomics: 54.2
-    discoverability: 78.6
-    operational_transparency: 15.8
-  previous_composite: 39.0
+    discoverability: 71.4
+    operational_transparency: 23.7
+  previous_composite: 41.4
   provenance:
     conformance: derived
     contracts:
@@ -282,13 +281,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/screenshots/cedarai-2026-07-25T204839.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cedarai/cedarai-2026-07-25T204839.png
 security:
 - kind: authentication
   name: Cedarai Authentication
@@ -298,6 +298,14 @@ security:
   name: Cedarai Domain Security
   slug: cedarai-domain-security
   summary_line: TLSv1.2 · DMARC
+skill_count: 3
+skills:
+- name: Track and move railcar inventory
+  slug: cedarai-railcar-inventory
+- name: Export charges and reconcile shipper invoices
+  slug: cedarai-shipper-billing
+- name: Run a train work order
+  slug: cedarai-train-work-order
 slug: cedarai
 tags:
 - Company

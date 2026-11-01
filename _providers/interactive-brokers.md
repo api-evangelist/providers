@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.0
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -79,15 +81,12 @@ apis:
   description: Authentication and session management
   name: Interactive Brokers Sessions API
   slug: interactive-brokers-sessions-api
-artifact_total: 24
+artifact_total: 23
 asyncapis:
 - description: 'AsyncAPI definition for the Interactive Brokers (IBKR) Client Portal Web API streaming WebSocket endpoint. The Client Portal API exposes a single WebSocket endpoint at `/v1/api/ws` over which clients '
   name: Interactive Brokers Client Portal API WebSocket
   slug: interactive-brokers-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Interactive Brokers Web Accounts API
   slug: open-interactive-brokers-accounts-api
@@ -111,42 +110,42 @@ collections:
   slug: open-interactive-brokers-web-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/plans/interactive-brokers-plans-pricing.yml
+  href: https://artifacts.apis.io/interactive-brokers/plans/interactive-brokers-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/interactive-brokers-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/rate-limits/interactive-brokers-rate-limits.yml
+  href: https://artifacts.apis.io/interactive-brokers/rate-limits/interactive-brokers-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/interactive-brokers-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/finops/interactive-brokers-finops.yml
+  href: https://artifacts.apis.io/interactive-brokers/finops/interactive-brokers-finops.yml
   title: ''
   type: FinOps
   url: finops/interactive-brokers-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/capabilities/interactive-brokers-capability-edges.yml
+  href: https://artifacts.apis.io/interactive-brokers/capabilities/interactive-brokers-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/interactive-brokers-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/agentic-access/interactive-brokers-agentic-access.yml
+  href: https://artifacts.apis.io/interactive-brokers/agentic-access/interactive-brokers-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/interactive-brokers-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/security/interactive-brokers-domain-security.yml
+  href: https://artifacts.apis.io/interactive-brokers/security/interactive-brokers-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/interactive-brokers-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/authentication/interactive-brokers-authentication.yml
+  href: https://artifacts.apis.io/interactive-brokers/authentication/interactive-brokers-authentication.yml
   title: ''
   type: Authentication
   url: authentication/interactive-brokers-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/scopes/interactive-brokers-scopes.yml
+  href: https://artifacts.apis.io/interactive-brokers/scopes/interactive-brokers-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/interactive-brokers-scopes.yml
@@ -180,7 +179,7 @@ finops:
 - has_sources: false
   method: generated
   name: Interactive Brokers Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: interactive-brokers-finops
   template: true
@@ -201,7 +200,7 @@ plans:
 - name: Interactive Brokers Plans Pricing
   plan_count: 3
   slug: interactive-brokers-plans-pricing
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Interactive Brokers Rate Limits
@@ -226,7 +225,7 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: thin
-  composite: 30.5
+  composite: 32.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 42.5
@@ -234,15 +233,15 @@ score:
     catalog_gap: 72.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
-    access_clarity: 14.5
+    access_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 49.1
     developer_ergonomics: 31.0
     discoverability: 57.1
     operational_transparency: 13.2
-  previous_composite: 32.1
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -256,13 +255,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 25.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/screenshots/interactive-brokers-2026-06-20T183445.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/interactive-brokers/interactive-brokers-2026-06-20T183445.png
 security:
 - kind: authentication
   name: Interactive Brokers Authentication

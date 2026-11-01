@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.2
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,44 +59,44 @@ apis:
   description: Published price components for char.gy charging sessions.
   name: char.gy Tariffs API
   slug: chargy-tariffs-api
-artifact_total: 9
+artifact_total: 11
 collections:
 - collection_type: open
   name: char.gy Open Charge Point Data API
   slug: open-chargy-open-charge-point-data
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/overlays/chargy-open-charge-point-data-overlay.yaml
+  href: https://artifacts.apis.io/chargy/overlays/chargy-open-charge-point-data-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/chargy-open-charge-point-data-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/mcp/chargy-mcp.yml
+  href: https://artifacts.apis.io/chargy/mcp/chargy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/chargy-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/agentic-access/chargy-agentic-access.yml
+  href: https://artifacts.apis.io/chargy/agentic-access/chargy-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/chargy-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/security/chargy-domain-security.yml
+  href: https://artifacts.apis.io/chargy/security/chargy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chargy-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/authentication/chargy-authentication.yml
+  href: https://artifacts.apis.io/chargy/authentication/chargy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chargy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/conventions/chargy-conventions.yml
+  href: https://artifacts.apis.io/chargy/conventions/chargy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chargy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/conformance/chargy-conformance.yml
+  href: https://artifacts.apis.io/chargy/conformance/chargy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chargy-conformance.yml
@@ -103,22 +105,22 @@ common:
   type: Compliance
   url: https://help.char.gy/support/solutions/articles/77000576948-public-charge-point-regulations-2023
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/lifecycle/chargy-lifecycle.yml
+  href: https://artifacts.apis.io/chargy/lifecycle/chargy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chargy-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/data-model/chargy-data-model.yml
+  href: https://artifacts.apis.io/chargy/data-model/chargy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chargy-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/llms/chargy-llms.txt
+  href: https://artifacts.apis.io/chargy/llms/chargy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chargy-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/chargy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -215,10 +217,10 @@ overview: 'char.gy publishes 3 API contracts indexed on the [APIs.io](https://ap
 
 
   char.gy''s developer surface includes authentication, documentation, pricing, engineering blog, support, signup flow, and 24 more developer resources.'
-random_paper: 0
+random_paper: 14
 score:
   band: thin
-  composite: 33.1
+  composite: 33.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -233,7 +235,7 @@ score:
     contract_quality: 16.3
     developer_ergonomics: 30.4
     discoverability: 66.1
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -242,7 +244,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 33.1
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -259,14 +261,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 35.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/screenshots/chargy-2026-08-07T163259.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/chargy/chargy-2026-08-07T163259.png
 security:
 - kind: authentication
   name: Chargy Authentication
@@ -276,6 +278,12 @@ security:
   name: Chargy Domain Security
   slug: chargy-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Find char.gy charge points and what they cost
+  slug: chargy-find-charge-points-and-prices
+- name: Keep a local mirror of the char.gy open charge point dataset in sync
+  slug: chargy-sync-open-charge-data
 slug: chargy
 tags:
 - Energy

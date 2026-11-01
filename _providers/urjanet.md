@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -75,11 +77,8 @@ apis:
   description: The Webhooks API from Urjanet — 1 operation(s) for webhooks.
   name: Urjanet Webhooks API
   slug: urjanet-webhooks-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Urjanet Utility Cloud Authentication API
   slug: open-urjanet-authentication-api
@@ -107,17 +106,17 @@ common:
   type: Blog
   url: https://www.arcadia.com:443/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/agentic-access/urjanet-agentic-access.yml
+  href: https://artifacts.apis.io/urjanet/agentic-access/urjanet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/urjanet-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/security/urjanet-domain-security.yml
+  href: https://artifacts.apis.io/urjanet/security/urjanet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/urjanet-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/authentication/urjanet-authentication.yml
+  href: https://artifacts.apis.io/urjanet/authentication/urjanet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/urjanet-authentication.yml
@@ -138,17 +137,17 @@ common:
   type: Documentation
   url: https://docs.arcadia.com/v1.0-Utility-Cloud/reference/introduction
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/plans/urjanet-plans-pricing.yml
+  href: https://artifacts.apis.io/urjanet/plans/urjanet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/urjanet-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/rate-limits/urjanet-rate-limits.yml
+  href: https://artifacts.apis.io/urjanet/rate-limits/urjanet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/urjanet-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/finops/urjanet-finops.yml
+  href: https://artifacts.apis.io/urjanet/finops/urjanet-finops.yml
   title: ''
   type: FinOps
   url: finops/urjanet-finops.yml
@@ -175,14 +174,14 @@ plans:
 - name: Urjanet Plans Pricing
   plan_count: 1
   slug: urjanet-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Urjanet Rate Limits
   slug: urjanet-rate-limits
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 26.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 41.0
@@ -190,15 +189,15 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 47.8
-    developer_ergonomics: 27.4
+    developer_ergonomics: 31.0
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 30.5
+    operational_transparency: 10.5
+  previous_composite: 26.7
   provenance:
     agentic_access: derived
     contracts:
@@ -212,13 +211,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/screenshots/urjanet-2026-09-02T165214.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/urjanet/urjanet-2026-09-02T165214.png
 security:
 - kind: authentication
   name: Urjanet Authentication

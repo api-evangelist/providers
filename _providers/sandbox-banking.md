@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 23.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -79,11 +81,8 @@ apis:
   description: Value mapping table management.
   name: Sandbox Banking Value Mappings API
   slug: sandbox-banking-value-mappings-api
-artifact_total: 28
+artifact_total: 27
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sandbox Banking Glyue Integration Gateway Adapters API
   slug: open-sandbox-banking-adapters-api
@@ -107,32 +106,32 @@ collections:
   slug: open-sandbox-banking-value-mappings-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/plans/sandbox-banking-plans-pricing.yml
+  href: https://artifacts.apis.io/sandbox-banking/plans/sandbox-banking-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sandbox-banking-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/rate-limits/sandbox-banking-rate-limits.yml
+  href: https://artifacts.apis.io/sandbox-banking/rate-limits/sandbox-banking-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sandbox-banking-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/finops/sandbox-banking-finops.yml
+  href: https://artifacts.apis.io/sandbox-banking/finops/sandbox-banking-finops.yml
   title: ''
   type: FinOps
   url: finops/sandbox-banking-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/agentic-access/sandbox-banking-agentic-access.yml
+  href: https://artifacts.apis.io/sandbox-banking/agentic-access/sandbox-banking-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sandbox-banking-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/security/sandbox-banking-domain-security.yml
+  href: https://artifacts.apis.io/sandbox-banking/security/sandbox-banking-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sandbox-banking-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/authentication/sandbox-banking-authentication.yml
+  href: https://artifacts.apis.io/sandbox-banking/authentication/sandbox-banking-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sandbox-banking-authentication.yml
@@ -157,37 +156,37 @@ common:
   type: Website
   url: https://sandboxbanking.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/rules/sandbox-banking-rules.yml
+  href: https://artifacts.apis.io/sandbox-banking/rules/sandbox-banking-rules.yml
   title: Sandbox Banking API Spectral Rules
   type: SpectralRules
   url: rules/sandbox-banking-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/json-schema/sandbox-banking-integration-schema.json
+  href: https://artifacts.apis.io/sandbox-banking/json-schema/sandbox-banking-integration-schema.json
   title: Sandbox Banking Integration Schema
   type: JSONSchema
   url: json-schema/sandbox-banking-integration-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/json-structure/sandbox-banking-integration-structure.json
+  href: https://artifacts.apis.io/sandbox-banking/json-structure/sandbox-banking-integration-structure.json
   title: Sandbox Banking Integration Structure
   type: JSONStructure
   url: json-structure/sandbox-banking-integration-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/json-ld/sandbox-banking-context.jsonld
+  href: https://artifacts.apis.io/sandbox-banking/json-ld/sandbox-banking-context.jsonld
   title: Sandbox Banking JSON-LD Context
   type: JSONLDContext
   url: json-ld/sandbox-banking-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/examples/sandbox-banking-list-integrations-example.json
+  href: https://artifacts.apis.io/sandbox-banking/examples/sandbox-banking-list-integrations-example.json
   title: Sandbox Banking List Integrations Example
   type: Examples
   url: examples/sandbox-banking-list-integrations-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/examples/sandbox-banking-run-integration-example.json
+  href: https://artifacts.apis.io/sandbox-banking/examples/sandbox-banking-run-integration-example.json
   title: Sandbox Banking Run Integration Example
   type: Examples
   url: examples/sandbox-banking-run-integration-example.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/vocabulary/sandbox-banking-vocabulary.yml
+  href: https://artifacts.apis.io/sandbox-banking/vocabulary/sandbox-banking-vocabulary.yml
   title: Sandbox Banking Vocabulary
   type: Vocabulary
   url: vocabulary/sandbox-banking-vocabulary.yml
@@ -208,7 +207,7 @@ finops:
 - has_sources: false
   method: generated
   name: Sandbox Banking Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: sandbox-banking-finops
   template: true
@@ -242,7 +241,7 @@ plans:
 - name: Sandbox Banking Plans Pricing
   plan_count: 3
   slug: sandbox-banking-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Sandbox Banking Rate Limits
@@ -273,7 +272,7 @@ rules:
   slug: sandbox-banking-rules
 score:
   band: thin
-  composite: 31.2
+  composite: 31.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 55.0
@@ -281,15 +280,15 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
-    contract_quality: 62.7
+    contract_quality: 59.3
     developer_ergonomics: 21.4
     discoverability: 71.4
     operational_transparency: 7.9
-  previous_composite: 32.8
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
@@ -303,13 +302,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/screenshots/sandbox-banking-2026-06-20T193408.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sandbox-banking/sandbox-banking-2026-06-20T193408.png
 security:
 - kind: authentication
   name: Sandbox Banking Authentication

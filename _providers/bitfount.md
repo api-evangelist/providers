@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Bitfount Python SDK wraps the Bitfount REST API (hub.bitfount.com) to connect data sources as pods, run federated tasks and algorithms, and manage models and datasets across a federated data colla
@@ -86,47 +88,47 @@ common:
   type: Compliance
   url: https://trust.bitfount.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bitfount/refs/heads/main/packages/bitfount-packages.yml
+  href: https://artifacts.apis.io/bitfount/packages/bitfount-packages.yml
   title: ''
   type: Packages
   url: packages/bitfount-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bitfount/refs/heads/main/packages/bitfount-packages.yml
+  href: https://artifacts.apis.io/bitfount/packages/bitfount-packages.yml
   title: ''
   type: SDKs
   url: packages/bitfount-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitfount/refs/heads/main/authentication/bitfount-authentication.yml
+  href: https://artifacts.apis.io/bitfount/authentication/bitfount-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bitfount-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitfount/refs/heads/main/security/bitfount-domain-security.yml
+  href: https://artifacts.apis.io/bitfount/security/bitfount-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitfount-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitfount/refs/heads/main/security/bitfount-trust-center.yml
+  href: https://artifacts.apis.io/bitfount/security/bitfount-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bitfount-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitfount/refs/heads/main/conformance/bitfount-conformance.yml
+  href: https://artifacts.apis.io/bitfount/conformance/bitfount-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bitfount-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitfount/refs/heads/main/lifecycle/bitfount-lifecycle.yml
+  href: https://artifacts.apis.io/bitfount/lifecycle/bitfount-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bitfount-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bitfount/refs/heads/main/changelog/bitfount-changelog.yml
+  href: https://artifacts.apis.io/bitfount/changelog/bitfount-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bitfount-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitfount/refs/heads/main/llms/bitfount-llms.txt
+  href: https://artifacts.apis.io/bitfount/llms/bitfount-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bitfount-llms.txt
@@ -142,12 +144,12 @@ overview: 'Bitfount is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Bitfount''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, changelog, and 13 more developer resources.'
-random_paper: 17
+random_paper: 11
 score:
   band: thin
-  composite: 29.5
+  composite: 32.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -155,13 +157,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 50.0
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 29.5
+    developer_ergonomics: 59.5
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 32.4
   provenance:
     conformance: first-party
   regulatory:
@@ -174,14 +176,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bitfount/refs/heads/main/screenshots/bitfount-2026-07-25T203150.png
+screenshot: https://apis.io/screenshots/bitfount/bitfount-2026-07-25T203150.png
 security:
 - kind: authentication
   name: Bitfount Authentication

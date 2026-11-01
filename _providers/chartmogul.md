@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: unknown
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.0
-  scored_at: '2026-10-17'
+  score: 40.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -81,11 +83,8 @@ apis:
   description: The Subscriptions API from ChartMogul — 1 operation(s) for subscriptions.
   name: ChartMogul Subscriptions API
   slug: chartmogul-subscriptions-api
-artifact_total: 24
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ChartMogul REST Account API
   slug: open-chartmogul-account-api
@@ -112,32 +111,32 @@ collections:
   slug: open-chartmogul
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/capabilities/chartmogul-capability-edges.yml
+  href: https://artifacts.apis.io/chartmogul/capabilities/chartmogul-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/chartmogul-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/agentic-access/chartmogul-agentic-access.yml
+  href: https://artifacts.apis.io/chartmogul/agentic-access/chartmogul-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/chartmogul-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/security/chartmogul-trust-center.yml
+  href: https://artifacts.apis.io/chartmogul/security/chartmogul-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/chartmogul-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/security/chartmogul-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/chartmogul/security/chartmogul-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/chartmogul-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/security/chartmogul-domain-security.yml
+  href: https://artifacts.apis.io/chartmogul/security/chartmogul-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chartmogul-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/authentication/chartmogul-authentication.yml
+  href: https://artifacts.apis.io/chartmogul/authentication/chartmogul-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chartmogul-authentication.yml
@@ -192,10 +191,10 @@ overview: 'ChartMogul publishes 8 API contracts indexed on the [APIs.io](https:/
 
 
   ChartMogul''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 0
+random_paper: 22
 score:
   band: thin
-  composite: 37.0
+  composite: 35.6
   coverage:
     artifact_dirs: 12
     catalog_earned: 32.0
@@ -207,11 +206,11 @@ score:
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 56.2
+    contract_quality: 53.2
     developer_ergonomics: 35.7
-    discoverability: 60.0
-    operational_transparency: 2.6
-  previous_composite: 37.0
+    discoverability: 56.7
+    operational_transparency: 15.8
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -226,13 +225,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/screenshots/chartmogul-2026-06-20T174231.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/chartmogul/chartmogul-2026-06-20T174231.png
 security:
 - kind: authentication
   name: Chartmogul Authentication

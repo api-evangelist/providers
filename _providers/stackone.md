@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.8
-  scored_at: '2026-10-17'
+  score: 43.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -258,9 +260,6 @@ collections:
   name: Marketing Accounts Users API
   slug: postman-stackone-users-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Marketing Accounts API
   slug: open-stackone-accounts-api
 - collection_type: open
@@ -331,22 +330,22 @@ collections:
   slug: open-stackone
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/plans/stackone-plans-pricing.yml
+  href: https://artifacts.apis.io/stackone/plans/stackone-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/stackone-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/rate-limits/stackone-rate-limits.yml
+  href: https://artifacts.apis.io/stackone/rate-limits/stackone-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/stackone-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/finops/stackone-finops.yml
+  href: https://artifacts.apis.io/stackone/finops/stackone-finops.yml
   title: ''
   type: FinOps
   url: finops/stackone-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/capabilities/stackone-capability-edges.yml
+  href: https://artifacts.apis.io/stackone/capabilities/stackone-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/stackone-capability-edges.yml
@@ -355,22 +354,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/stackone/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/agentic-access/stackone-agentic-access.yml
+  href: https://artifacts.apis.io/stackone/agentic-access/stackone-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/stackone-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/security/stackone-trust-center.yml
+  href: https://artifacts.apis.io/stackone/security/stackone-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/stackone-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/security/stackone-domain-security.yml
+  href: https://artifacts.apis.io/stackone/security/stackone-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/stackone-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/authentication/stackone-authentication.yml
+  href: https://artifacts.apis.io/stackone/authentication/stackone-authentication.yml
   title: ''
   type: Authentication
   url: authentication/stackone-authentication.yml
@@ -511,7 +510,7 @@ common:
   type: LlmsText
   url: https://docs.stackone.com/llms.txt
 created: '2025-06-05'
-description: 'StackOne is a Tool Gateway that connects AI agents to business applications (550+ connectors and 34,000+ actions), exposed through an MCP gateway, A2A agents and a Platform API, with agent authentication, tool discovery, tool policies, prompt-injection defense (StackOne Defender), an agent execution engine, observability and an AI integration builder. Its earlier Unified APIs (HRIS, ATS, CRM, LMS, IAM, Documents, Marketing, Ticketing, Messaging, Screening) are legacy: no longer in active development, with existing functionality still supported.'
+description: 'StackOne is a Tool Gateway that connects AI agents to business applications, exposed through an MCP gateway, A2A agents and a Platform API, with agent authentication, tool discovery, tool policies, prompt-injection defense (StackOne Defender), an agent execution engine, observability and an AI integration builder. Its earlier Unified APIs (HRIS, ATS, CRM, LMS, IAM, Documents, Marketing, Ticketing, Messaging, Screening) are legacy: no longer in active development, with existing functionality still supported.'
 examples:
 - key_count: 4
   name: Stackone List Employees Example
@@ -523,10 +522,10 @@ features:
 - name: Authentication Links
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Stackone Finops
-  primary_unit: ''
-  service_category: Integration Platform
+  primary_unit: seat
+  service_category: ''
   slug: stackone-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stackone.png
@@ -981,9 +980,12 @@ overview: 'StackOne publishes 33 API contracts indexed on the [APIs.io](https://
   StackOne''s developer surface includes authentication, engineering blog, changelog, documentation, getting-started guide, pricing, and 37 more developer resources.'
 plans:
 - name: Stackone Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: stackone-plans-pricing
-random_paper: 20
+- name: Stackone Price Estimates
+  plan_count: 0
+  slug: stackone-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Stackone Rate Limits
@@ -1013,23 +1015,23 @@ rules:
   slug: stackone-rules
 score:
   band: developing
-  composite: 45.0
+  composite: 51.7
   coverage:
     artifact_dirs: 22
-    catalog_earned: 44.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 70.8
+    catalog_earned: 56.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.5
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 9.8
     contract_quality: 52.4
     developer_ergonomics: 54.8
-    discoverability: 58.3
+    discoverability: 55.0
     operational_transparency: 44.7
-  previous_composite: 46.6
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1044,13 +1046,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/screenshots/stackone-2026-06-20T194449.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/stackone/stackone-2026-06-20T194449.png
 security:
 - kind: authentication
   name: Stackone Authentication

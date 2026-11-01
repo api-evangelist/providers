@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.2
-  scored_at: '2026-10-17'
+  score: 40.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -77,15 +79,12 @@ apis:
   description: The Subscriptions API from Facebook Lead Ads — 1 operation(s) for subscriptions.
   name: Facebook Lead Ads Subscriptions API
   slug: facebook-lead-ads-subscriptions-api
-artifact_total: 24
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Facebook Lead Ads Webhooks
   slug: facebook-lead-ads-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Meta Marketing API - Lead Ads Bulk Leads API
   slug: open-facebook-lead-ads-bulk-leads-api
@@ -109,22 +108,22 @@ collections:
   slug: open-facebook-lead-ads
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/capabilities/facebook-lead-ads-capability-edges.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/capabilities/facebook-lead-ads-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/facebook-lead-ads-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/agentic-access/facebook-lead-ads-agentic-access.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/agentic-access/facebook-lead-ads-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/facebook-lead-ads-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/authentication/facebook-lead-ads-authentication.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/authentication/facebook-lead-ads-authentication.yml
   title: ''
   type: Authentication
   url: authentication/facebook-lead-ads-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/scopes/facebook-lead-ads-scopes.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/scopes/facebook-lead-ads-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/facebook-lead-ads-scopes.yml
@@ -161,47 +160,47 @@ common:
   type: LlmsText
   url: https://developers.facebook.com/llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/packages/facebook-lead-ads-packages.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/packages/facebook-lead-ads-packages.yml
   title: ''
   type: Packages
   url: packages/facebook-lead-ads-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/packages/facebook-lead-ads-packages.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/packages/facebook-lead-ads-packages.yml
   title: ''
   type: SDKs
   url: packages/facebook-lead-ads-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/well-known/facebook-lead-ads-well-known.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/well-known/facebook-lead-ads-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/facebook-lead-ads-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/mcp/facebook-lead-ads-mcp.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/mcp/facebook-lead-ads-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/facebook-lead-ads-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/mcp/facebook-lead-ads-tool-crosswalk.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/mcp/facebook-lead-ads-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/facebook-lead-ads-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/llms/facebook-lead-ads-llms.txt
+  href: https://artifacts.apis.io/facebook-lead-ads/llms/facebook-lead-ads-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/facebook-lead-ads-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/conformance/facebook-lead-ads-conformance.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/conformance/facebook-lead-ads-conformance.yml
   title: ''
   type: Conformance
   url: conformance/facebook-lead-ads-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/errors/facebook-lead-ads-problem-types.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/errors/facebook-lead-ads-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/facebook-lead-ads-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/lifecycle/facebook-lead-ads-lifecycle.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/lifecycle/facebook-lead-ads-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/facebook-lead-ads-lifecycle.yml
@@ -214,17 +213,17 @@ common:
   type: Deprecation
   url: https://developers.facebook.com/docs/graph-api/guides/versioning
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/changelog/facebook-lead-ads-changelog.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/changelog/facebook-lead-ads-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/facebook-lead-ads-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/security/facebook-lead-ads-domain-security.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/security/facebook-lead-ads-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/facebook-lead-ads-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/security/facebook-lead-ads-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/security/facebook-lead-ads-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/facebook-lead-ads-vulnerability-disclosure.yml
@@ -233,42 +232,42 @@ common:
   type: Security
   url: https://bugbounty.meta.com/
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/sandbox/facebook-lead-ads-sandbox.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/sandbox/facebook-lead-ads-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/facebook-lead-ads-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/conventions/facebook-lead-ads-conventions.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/conventions/facebook-lead-ads-conventions.yml
   title: ''
   type: Conventions
   url: conventions/facebook-lead-ads-conventions.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/cli/facebook-lead-ads-cli.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/cli/facebook-lead-ads-cli.yml
   title: ''
   type: CLI
   url: cli/facebook-lead-ads-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/data-model/facebook-lead-ads-data-model.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/data-model/facebook-lead-ads-data-model.yml
   title: ''
   type: DataModel
   url: data-model/facebook-lead-ads-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/asyncapi/facebook-lead-ads-webhooks.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/asyncapi/facebook-lead-ads-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/facebook-lead-ads-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/rate-limits/facebook-lead-ads-rate-limits.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/rate-limits/facebook-lead-ads-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/facebook-lead-ads-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/plans/facebook-lead-ads-plans-pricing.yml
+  href: https://artifacts.apis.io/facebook-lead-ads/plans/facebook-lead-ads-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/facebook-lead-ads-plans-pricing.yml
@@ -298,6 +297,14 @@ common:
   url: https://www.facebook.com/privacy/policy/
 created: '2026-05-11'
 description: Facebook Lead Ads (part of the Meta Marketing API) lets advertisers create instant lead-generation forms on Facebook and Instagram and programmatically retrieve the leads captured through those forms. Through the Meta Graph API developers can list lead generation forms on a Page, read submitted leads, download bulk lead exports, and subscribe to webhooks for real-time lead delivery. Authentication uses Page access tokens issued via Facebook Login / Meta Business Login with the leads_retrieval, pages_show_list, and pages_manage_ads permissions.
+finops:
+- has_sources: true
+  method: derived
+  name: Facebook Lead Ads Finops
+  primary_unit: ''
+  service_category: ''
+  slug: facebook-lead-ads-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/facebook-lead-ads.png
 layout: provider
 mcp_servers:
@@ -319,7 +326,7 @@ plans:
 - name: Facebook Lead Ads Plans Pricing
   plan_count: 0
   slug: facebook-lead-ads-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 10
   name: Facebook Lead Ads Rate Limits
@@ -330,10 +337,10 @@ scopes:
   slug: facebook-lead-ads-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: developing
-  composite: 53.7
+  band: strong
+  composite: 59.9
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 29
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -341,13 +348,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 52.8
-    developer_ergonomics: 76.8
-    discoverability: 75.0
-    operational_transparency: 76.3
-  previous_composite: 53.7
+    developer_ergonomics: 80.4
+    discoverability: 71.7
+    operational_transparency: 94.7
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -363,14 +370,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 36.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 40.2
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/screenshots/facebook-lead-ads-2026-06-20T181004.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/facebook-lead-ads/facebook-lead-ads-2026-06-20T181004.png
 security:
 - kind: authentication
   name: Facebook Lead Ads Authentication
@@ -384,6 +392,14 @@ security:
   name: Facebook Lead Ads Vulnerability Disclosure
   slug: facebook-lead-ads-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 3
+skills:
+- name: Create and inspect lead generation forms
+  slug: facebook-lead-ads-manage-leadgen-forms
+- name: Retrieve leads from a Facebook lead ad form
+  slug: facebook-lead-ads-retrieve-leads
+- name: Subscribe to real-time leadgen webhooks
+  slug: facebook-lead-ads-subscribe-leadgen-webhook
 slug: facebook-lead-ads
 tags:
 - Advertising

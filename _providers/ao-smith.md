@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: AO Smith's iCOMM connected technology platform enables remote monitoring and control of compatible AO Smith water heaters through the A. O. Smith and iCOMM Connectivity mobile apps — tracking water an
@@ -43,17 +45,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ao-smith/refs/heads/main/plans/ao-smith-plans-pricing.yml
+  href: https://artifacts.apis.io/ao-smith/plans/ao-smith-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ao-smith-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ao-smith/refs/heads/main/rate-limits/ao-smith-rate-limits.yml
+  href: https://artifacts.apis.io/ao-smith/rate-limits/ao-smith-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ao-smith-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ao-smith/refs/heads/main/finops/ao-smith-finops.yml
+  href: https://artifacts.apis.io/ao-smith/finops/ao-smith-finops.yml
   title: ''
   type: FinOps
   url: finops/ao-smith-finops.yml
@@ -62,17 +64,17 @@ common:
   type: Website
   url: https://www.aosmith.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ao-smith/refs/heads/main/security/ao-smith-domain-security.yml
+  href: https://artifacts.apis.io/ao-smith/security/ao-smith-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ao-smith-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ao-smith/refs/heads/main/packages/ao-smith-packages.yml
+  href: https://artifacts.apis.io/ao-smith/packages/ao-smith-packages.yml
   title: ''
   type: Packages
   url: packages/ao-smith-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ao-smith/refs/heads/main/llms/ao-smith-llms.txt
+  href: https://artifacts.apis.io/ao-smith/llms/ao-smith-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ao-smith-llms.txt
@@ -122,7 +124,7 @@ finops:
 - has_sources: false
   method: generated
   name: Ao Smith Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: ao-smith-finops
   template: true
@@ -165,13 +167,13 @@ score:
   band: emerging
   composite: 15.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
@@ -186,7 +188,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 17.3
+  previous_composite: 15.9
   provenance:
     mcp: derived
   regulatory:
@@ -195,14 +197,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ao-smith/refs/heads/main/screenshots/ao-smith-2026-06-20T172035.png
+screenshot: https://apis.io/screenshots/ao-smith/ao-smith-2026-06-20T172035.png
 security:
 - kind: domain-security
   name: Ao Smith Domain Security

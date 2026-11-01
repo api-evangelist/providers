@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Batch and per-security delivery of Bloomberg's reference, pricing, regulatory and alternative data for integration into proprietary applications and workflows. The REST / hypermedia entry point is htt
@@ -86,62 +88,62 @@ common:
   type: PrivacyPolicy
   url: https://www.bloomberg.com/privacy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/packages/bloomberg-data-workflows-packages.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/packages/bloomberg-data-workflows-packages.yml
   title: ''
   type: Packages
   url: packages/bloomberg-data-workflows-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/packages/bloomberg-data-workflows-packages.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/packages/bloomberg-data-workflows-packages.yml
   title: ''
   type: SDKs
   url: packages/bloomberg-data-workflows-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/cli/bloomberg-data-workflows-cli.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/cli/bloomberg-data-workflows-cli.yml
   title: ''
   type: CLI
   url: cli/bloomberg-data-workflows-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/authentication/bloomberg-data-workflows-authentication.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/authentication/bloomberg-data-workflows-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bloomberg-data-workflows-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/scopes/bloomberg-data-workflows-scopes.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/scopes/bloomberg-data-workflows-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bloomberg-data-workflows-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/errors/bloomberg-data-workflows-problem-types.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/errors/bloomberg-data-workflows-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bloomberg-data-workflows-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/conventions/bloomberg-data-workflows-conventions.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/conventions/bloomberg-data-workflows-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bloomberg-data-workflows-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/conformance/bloomberg-data-workflows-conformance.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/conformance/bloomberg-data-workflows-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bloomberg-data-workflows-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/lifecycle/bloomberg-data-workflows-lifecycle.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/lifecycle/bloomberg-data-workflows-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bloomberg-data-workflows-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/changelog/bloomberg-data-workflows-changelog.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/changelog/bloomberg-data-workflows-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/bloomberg-data-workflows-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/well-known/bloomberg-data-workflows-well-known.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/well-known/bloomberg-data-workflows-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bloomberg-data-workflows-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/well-known/bloomberg-data-workflows-security.txt
+  href: https://artifacts.apis.io/bloomberg-data-workflows/well-known/bloomberg-data-workflows-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bloomberg-data-workflows-security.txt
@@ -150,32 +152,32 @@ common:
   type: Security
   url: https://www.bloomberg.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/security/bloomberg-data-workflows-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/security/bloomberg-data-workflows-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bloomberg-data-workflows-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/security/bloomberg-data-workflows-domain-security.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/security/bloomberg-data-workflows-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bloomberg-data-workflows-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/llms/bloomberg-data-workflows-llms.txt
+  href: https://artifacts.apis.io/bloomberg-data-workflows/llms/bloomberg-data-workflows-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bloomberg-data-workflows-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/plans/bloomberg-data-workflows-plans-pricing.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/plans/bloomberg-data-workflows-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bloomberg-data-workflows-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/rate-limits/bloomberg-data-workflows-rate-limits.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/rate-limits/bloomberg-data-workflows-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bloomberg-data-workflows-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/finops/bloomberg-data-workflows-finops.yml
+  href: https://artifacts.apis.io/bloomberg-data-workflows/finops/bloomberg-data-workflows-finops.yml
   title: ''
   type: FinOps
   url: finops/bloomberg-data-workflows-finops.yml
@@ -185,7 +187,7 @@ finops:
 - has_sources: false
   method: generated
   name: Bloomberg Data Workflows Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: bloomberg-data-workflows-finops
   template: true
@@ -203,7 +205,7 @@ plans:
 - name: Bloomberg Data Workflows Plans Pricing
   plan_count: 0
   slug: bloomberg-data-workflows-plans-pricing
-random_paper: 17
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Bloomberg Data Workflows Rate Limits
@@ -215,7 +217,7 @@ scopes:
   summary_line: 3 scopes · authorization_code/refresh_token
 score:
   band: thin
-  composite: 31.4
+  composite: 33.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 32.0
@@ -223,15 +225,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
     discoverability: 57.1
-    operational_transparency: 23.7
-  previous_composite: 32.9
+    operational_transparency: 31.6
+  previous_composite: 33.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -241,14 +243,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/screenshots/bloomberg-data-workflows-2026-06-20T173412.png
+screenshot: https://apis.io/screenshots/bloomberg-data-workflows/bloomberg-data-workflows-2026-06-20T173412.png
 security:
 - kind: authentication
   name: Bloomberg Data Workflows Authentication

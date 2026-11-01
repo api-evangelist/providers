@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.0
-  scored_at: '2026-10-17'
+  score: 21.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -111,11 +113,8 @@ apis:
   description: Operations for creating, modifying, and managing storage volumes
   name: NetApp Volumes API
   slug: netapp-volumes-api
-artifact_total: 103
+artifact_total: 102
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NetApp ONTAP REST Aggregates API
   slug: open-netapp-aggregates-api
@@ -139,17 +138,17 @@ collections:
   slug: open-netapp-volumes-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/plans/netapp-plans-pricing.yml
+  href: https://artifacts.apis.io/netapp/plans/netapp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/netapp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/rate-limits/netapp-rate-limits.yml
+  href: https://artifacts.apis.io/netapp/rate-limits/netapp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/netapp-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/finops/netapp-finops.yml
+  href: https://artifacts.apis.io/netapp/finops/netapp-finops.yml
   title: ''
   type: FinOps
   url: finops/netapp-finops.yml
@@ -158,7 +157,7 @@ common:
   type: Website
   url: https://netapp.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/capabilities/netapp-capability-edges.yml
+  href: https://artifacts.apis.io/netapp/capabilities/netapp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/netapp-capability-edges.yml
@@ -175,22 +174,22 @@ common:
   type: License
   url: https://github.com/NetApp/ontap-rest-python/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/agentic-access/netapp-agentic-access.yml
+  href: https://artifacts.apis.io/netapp/agentic-access/netapp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/netapp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/security/netapp-trust-center.yml
+  href: https://artifacts.apis.io/netapp/security/netapp-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/netapp-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/security/netapp-domain-security.yml
+  href: https://artifacts.apis.io/netapp/security/netapp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/netapp-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/authentication/netapp-authentication.yml
+  href: https://artifacts.apis.io/netapp/authentication/netapp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/netapp-authentication.yml
@@ -476,7 +475,7 @@ press:
 - date: ''
   title: AI in the wild | Watts the Future
   url: https://www.netapp.com/video/tM47Foy3L_U/ai-in-the-wild-watts-the-future/
-random_paper: 10
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Netapp Rate Limits
@@ -506,8 +505,8 @@ rules:
     warn: 6
   slug: netapp-spectral-rules
 score:
-  band: thin
-  composite: 38.4
+  band: developing
+  composite: 41.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 52.9
@@ -515,18 +514,15 @@ score:
     catalog_gap: 62.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 58.2
-    developer_ergonomics: 52.4
+    contract_quality: 54.8
+    developer_ergonomics: 57.1
     discoverability: 63.3
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 39.7
+    operational_transparency: 28.9
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -540,13 +536,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/screenshots/netapp-2026-06-20T190143.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/netapp/netapp-2026-06-20T190143.png
 security:
 - kind: authentication
   name: Netapp Authentication

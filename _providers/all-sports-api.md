@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: 'The All Sports Football (Soccer) API provides real-time and historical football data including livescores, fixtures, standings, team information, player statistics, and league data for major football '
@@ -54,7 +56,7 @@ common:
   type: Blog
   url: https://allsportsapi.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/all-sports-api/refs/heads/main/security/all-sports-api-domain-security.yml
+  href: https://artifacts.apis.io/all-sports-api/security/all-sports-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/all-sports-api-domain-security.yml
@@ -75,27 +77,27 @@ common:
   type: SignUp
   url: https://allsportsapi.com/register
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/all-sports-api/refs/heads/main/packages/all-sports-api-packages.yml
+  href: https://artifacts.apis.io/all-sports-api/packages/all-sports-api-packages.yml
   title: ''
   type: Packages
   url: packages/all-sports-api-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/all-sports-api/refs/heads/main/well-known/all-sports-api-well-known.yml
+  href: https://artifacts.apis.io/all-sports-api/well-known/all-sports-api-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/all-sports-api-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/all-sports-api/refs/heads/main/llms/all-sports-api-llms.txt
+  href: https://artifacts.apis.io/all-sports-api/llms/all-sports-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/all-sports-api-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/all-sports-api/refs/heads/main/conformance/all-sports-api-conformance.yml
+  href: https://artifacts.apis.io/all-sports-api/conformance/all-sports-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/all-sports-api-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/all-sports-api/refs/heads/main/lifecycle/all-sports-api-lifecycle.yml
+  href: https://artifacts.apis.io/all-sports-api/lifecycle/all-sports-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/all-sports-api-lifecycle.yml
@@ -110,26 +112,26 @@ overview: 'All Sports API is listed with 4 APIs on the [APIs.io](https://apis.io
 
 
   All Sports API''s developer surface includes engineering blog, documentation, pricing, signup flow, and 7 more developer resources.'
-random_paper: 14
+random_paper: 8
 score:
   band: emerging
-  composite: 14.9
+  composite: 14.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 0.0
-  previous_composite: 14.3
+  previous_composite: 14.2
   provenance:
     conformance: derived
   regulatory:
@@ -138,14 +140,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/all-sports-api/refs/heads/main/screenshots/all-sports-api-2026-07-25T195637.png
+screenshot: https://apis.io/screenshots/all-sports-api/all-sports-api-2026-07-25T195637.png
 security:
 - kind: domain-security
   name: All Sports Api Domain Security

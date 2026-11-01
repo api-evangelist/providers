@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,32 +34,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yesgraph/refs/heads/main/security/yesgraph-domain-security.yml
+  href: https://artifacts.apis.io/yesgraph/security/yesgraph-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yesgraph-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yesgraph/refs/heads/main/packages/yesgraph-packages.yml
+  href: https://artifacts.apis.io/yesgraph/packages/yesgraph-packages.yml
   title: ''
   type: Packages
   url: packages/yesgraph-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/yesgraph/refs/heads/main/packages/yesgraph-packages.yml
+  href: https://artifacts.apis.io/yesgraph/packages/yesgraph-packages.yml
   title: ''
   type: SDKs
   url: packages/yesgraph-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yesgraph/refs/heads/main/lifecycle/yesgraph-lifecycle.yml
+  href: https://artifacts.apis.io/yesgraph/lifecycle/yesgraph-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/yesgraph-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yesgraph/refs/heads/main/lifecycle/yesgraph-lifecycle.yml
+  href: https://artifacts.apis.io/yesgraph/lifecycle/yesgraph-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/yesgraph-lifecycle.yml
@@ -78,12 +80,12 @@ name: YesGraph
 nav: Providers
 network: true
 overview: YesGraph is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Referrals, Recommendations, Contacts, and Social Graph.
-random_paper: 9
+random_paper: 3
 score:
   band: minimal
   composite: 0.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -105,14 +107,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/yesgraph/refs/heads/main/screenshots/yesgraph-2026-09-02T171243.png
+screenshot: https://apis.io/screenshots/yesgraph/yesgraph-2026-09-02T171243.png
 security:
 - kind: domain-security
   name: Yesgraph Domain Security

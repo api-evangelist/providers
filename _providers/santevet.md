@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.6
-  scored_at: '2026-10-17'
+  score: 23.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 64
   slug: santevet-agentic-access
   summary_line: 64 operations · 6 acting
-api_count: 4
+api_count: 2
 apis:
 - description: SantéVet's partner quote-to-subscribe funnel and rating engine. Creates and updates prospects (with a dedicated GDPR anonymisation operation), creates, searches, validates and subscribes quotations, a
   name: SantéVet Acquisition API
@@ -179,7 +181,7 @@ apis:
   description: The TypeSinistre API from SantéVet — 2 operation(s) for typesinistre.
   name: SantéVet Type Sinistre API
   slug: santevet-typesinistre-api
-artifact_total: 33
+artifact_total: 36
 common:
 - group: company
   title: ''
@@ -190,17 +192,17 @@ common:
   type: BlogRSS
   url: https://www.santevet.com/feed
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/capabilities/santevet-capability-edges.yml
+  href: https://artifacts.apis.io/santevet/capabilities/santevet-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/santevet-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/overlays/santevet-toolkit-overlay.yaml
+  href: https://artifacts.apis.io/santevet/overlays/santevet-toolkit-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/santevet-toolkit-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/overlays/santevet-reimbursement-overlay.yaml
+  href: https://artifacts.apis.io/santevet/overlays/santevet-reimbursement-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/santevet-reimbursement-overlay.yaml
@@ -229,72 +231,72 @@ common:
   type: PrivacyPolicy
   url: https://www.santevet.com/mes-donnees-personnelles
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/authentication/santevet-authentication.yml
+  href: https://artifacts.apis.io/santevet/authentication/santevet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/santevet-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/conventions/santevet-conventions.yml
+  href: https://artifacts.apis.io/santevet/conventions/santevet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/santevet-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/errors/santevet-problem-types.yml
+  href: https://artifacts.apis.io/santevet/errors/santevet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/santevet-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/data-model/santevet-data-model.yml
+  href: https://artifacts.apis.io/santevet/data-model/santevet-data-model.yml
   title: ''
   type: DataModel
   url: data-model/santevet-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/lifecycle/santevet-lifecycle.yml
+  href: https://artifacts.apis.io/santevet/lifecycle/santevet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/santevet-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/conformance/santevet-conformance.yml
+  href: https://artifacts.apis.io/santevet/conformance/santevet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/santevet-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/security/santevet-domain-security.yml
+  href: https://artifacts.apis.io/santevet/security/santevet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/santevet-domain-security.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/rate-limits/santevet-rate-limits.yml
+  href: https://artifacts.apis.io/santevet/rate-limits/santevet-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/santevet-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/plans/santevet-plans-pricing.yml
+  href: https://artifacts.apis.io/santevet/plans/santevet-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/santevet-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/packages/santevet-packages.yml
+  href: https://artifacts.apis.io/santevet/packages/santevet-packages.yml
   title: ''
   type: Packages
   url: packages/santevet-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/sandbox/santevet-sandbox.yml
+  href: https://artifacts.apis.io/santevet/sandbox/santevet-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/santevet-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/santevet/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/llms/santevet-llms.txt
+  href: https://artifacts.apis.io/santevet/llms/santevet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/santevet-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/agentic-access/santevet-agentic-access.yml
+  href: https://artifacts.apis.io/santevet/agentic-access/santevet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/santevet-agentic-access.yml
@@ -321,28 +323,28 @@ plans:
 - name: Santevet Plans Pricing
   plan_count: 0
   slug: santevet-plans-pricing
-random_paper: 16
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Santevet Rate Limits
   slug: santevet-rate-limits
 score:
   band: thin
-  composite: 35.0
+  composite: 34.4
   coverage:
     artifact_dirs: 23
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.6
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 49.3
     developer_ergonomics: 35.1
-    discoverability: 75.0
+    discoverability: 62.5
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -352,7 +354,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 34.5
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -369,13 +371,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 26.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/screenshots/santevet-2026-09-02T154405.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/santevet/santevet-2026-09-02T154405.png
 security:
 - kind: authentication
   name: Santevet Authentication
@@ -385,6 +388,14 @@ security:
   name: Santevet Domain Security
   slug: santevet-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Quote a SantéVet pet insurance policy
+  slug: santevet-quote-a-pet-policy
+- name: Read SantéVet reimbursement claims
+  slug: santevet-read-reimbursement-claims
+- name: Resolve SantéVet species and breeds
+  slug: santevet-resolve-species-and-breeds
 slug: santevet
 tags:
 - Insurance

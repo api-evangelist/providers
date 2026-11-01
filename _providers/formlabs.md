@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 23.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -72,11 +74,8 @@ apis:
   description: The Prints API from Formlabs — 2 operation(s) for prints.
   name: Formlabs Prints API
   slug: formlabs-prints-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Formlabs Web Consumables API
   slug: open-formlabs-consumables-api
@@ -97,22 +96,22 @@ collections:
   slug: open-formlabs
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/agentic-access/formlabs-agentic-access.yml
+  href: https://artifacts.apis.io/formlabs/agentic-access/formlabs-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/formlabs-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/security/formlabs-domain-security.yml
+  href: https://artifacts.apis.io/formlabs/security/formlabs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/formlabs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/authentication/formlabs-authentication.yml
+  href: https://artifacts.apis.io/formlabs/authentication/formlabs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/formlabs-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/scopes/formlabs-scopes.yml
+  href: https://artifacts.apis.io/formlabs/scopes/formlabs-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/formlabs-scopes.yml
@@ -137,17 +136,17 @@ common:
   type: Documentation
   url: https://support.formlabs.com/s/topic/Developer-Portal
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/plans/formlabs-plans-pricing.yml
+  href: https://artifacts.apis.io/formlabs/plans/formlabs-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/formlabs-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/rate-limits/formlabs-rate-limits.yml
+  href: https://artifacts.apis.io/formlabs/rate-limits/formlabs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/formlabs-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/finops/formlabs-finops.yml
+  href: https://artifacts.apis.io/formlabs/finops/formlabs-finops.yml
   title: ''
   type: FinOps
   url: finops/formlabs-finops.yml
@@ -179,7 +178,7 @@ plans:
 - name: Formlabs Plans Pricing
   plan_count: 2
   slug: formlabs-plans-pricing
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Formlabs Rate Limits
@@ -191,7 +190,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 28.6
+  composite: 28.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 36.0
@@ -199,15 +198,15 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
-    contract_quality: 50.8
+    contract_quality: 47.4
     developer_ergonomics: 39.3
     discoverability: 57.1
-    operational_transparency: 7.9
-  previous_composite: 34.6
+    operational_transparency: 10.5
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     contracts:
@@ -221,13 +220,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/screenshots/formlabs-2026-06-20T181439.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/formlabs/formlabs-2026-06-20T181439.png
 security:
 - kind: authentication
   name: Formlabs Authentication

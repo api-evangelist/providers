@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.2
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.emburse.com/v1
@@ -101,75 +103,75 @@ apis:
   description: The Transactions API from Chrome River — 2 operation(s) for transactions.
   name: Chrome River Transactions API
   slug: chrome-river-transactions-api
-artifact_total: 27
+artifact_total: 34
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/plans/chrome-river-plans-pricing.yml
+  href: https://artifacts.apis.io/chrome-river/plans/chrome-river-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chrome-river-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/rules/chrome-river-rules.yml
+  href: https://artifacts.apis.io/chrome-river/rules/chrome-river-rules.yml
   title: ''
   type: Spectral
   url: rules/chrome-river-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/json-ld/chrome-river-context.jsonld
+  href: https://artifacts.apis.io/chrome-river/json-ld/chrome-river-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/chrome-river-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/vocabulary/chrome-river-vocabulary.yml
+  href: https://artifacts.apis.io/chrome-river/vocabulary/chrome-river-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/chrome-river-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/chrome-river/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/data-model/chrome-river-data-model.yml
+  href: https://artifacts.apis.io/chrome-river/data-model/chrome-river-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chrome-river-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/errors/chrome-river-problem-types.yml
+  href: https://artifacts.apis.io/chrome-river/errors/chrome-river-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/chrome-river-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/conformance/chrome-river-conformance.yml
+  href: https://artifacts.apis.io/chrome-river/conformance/chrome-river-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chrome-river-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/llms/chrome-river-llms.txt
+  href: https://artifacts.apis.io/chrome-river/llms/chrome-river-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chrome-river-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/well-known/chrome-river-security.txt
+  href: https://artifacts.apis.io/chrome-river/well-known/chrome-river-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/chrome-river-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/well-known/chrome-river-my-security.txt
+  href: https://artifacts.apis.io/chrome-river/well-known/chrome-river-my-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/chrome-river-my-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/well-known/chrome-river-well-known.yml
+  href: https://artifacts.apis.io/chrome-river/well-known/chrome-river-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/chrome-river-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/hosts/chrome-river-hosts.yml
+  href: https://artifacts.apis.io/chrome-river/hosts/chrome-river-hosts.yml
   title: ''
   type: Hosts
   url: hosts/chrome-river-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/vendors/chrome-river-vendors.yml
+  href: https://artifacts.apis.io/chrome-river/vendors/chrome-river-vendors.yml
   title: ''
   type: Vendors
   url: vendors/chrome-river-vendors.yml
@@ -218,17 +220,17 @@ common:
   type: GitHubOrganization
   url: https://github.com/emburse
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/authentication/chrome-river-authentication.yml
+  href: https://artifacts.apis.io/chrome-river/authentication/chrome-river-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chrome-river-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/security/chrome-river-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/chrome-river/security/chrome-river-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/chrome-river-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chrome-river/refs/heads/main/security/chrome-river-domain-security.yml
+  href: https://artifacts.apis.io/chrome-river/security/chrome-river-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chrome-river-domain-security.yml
@@ -238,6 +240,14 @@ common:
   url: https://www.emburse.com/products/chrome-river-is-enterprise
 created: '2026-10-08'
 description: Chrome River provides enterprise expense and invoice management solutions, now operating as part of Emburse. The platform offers automated expense reporting, compliance controls, analytics, and integration capabilities for large organizations, helping streamline travel and spend processes across global operations. It supports multi-currency handling, policy enforcement, receipt capture via mobile, and integrates with ERP, accounting, and travel booking systems, delivering comprehensive spend visibility and control for enterprises worldwide.
+finops:
+- has_sources: true
+  method: derived
+  name: Chrome River Finops
+  primary_unit: seat
+  service_category: ''
+  slug: chrome-river-finops
+  template: false
 image: https://cdn.sanity.io/images/l5mo20ew/production/426919841ea68610738e9779779d780ee71f3dd0-138x24.svg
 json_schemas:
 - name: APIAccount
@@ -279,7 +289,10 @@ plans:
 - name: Chrome River Plans Pricing
   plan_count: 3
   slug: chrome-river-plans-pricing
-random_paper: 3
+- name: Chrome River Price Estimates
+  plan_count: 0
+  slug: chrome-river-price-estimates
+random_paper: 11
 rules:
 - authorship: generated
   effective_rule_count: 57
@@ -295,21 +308,23 @@ rules:
   slug: chrome-river-rules
 score:
   band: developing
-  composite: 49.6
+  composite: 50.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 69.8
+    artifact_dirs: 18
+    catalog_earned: 72.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 45.3
+    catalog_gap: 42.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
-    access_clarity: 73.7
+    access_clarity: 81.6
     contract_governance: 22.0
-    contract_quality: 62.2
+    contract_quality: 58.8
     developer_ergonomics: 30.4
-    discoverability: 67.9
+    discoverability: 60.7
     operational_transparency: 15.8
+  previous_composite: 48.7
   provenance:
     conformance: derived
     contracts:
@@ -325,11 +340,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Chrome River Authentication
@@ -343,6 +360,18 @@ security:
   name: Chrome River Vulnerability Disclosure
   slug: chrome-river-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 5
+skills:
+- name: chrome-river-create-and-retrieve-card
+  slug: chrome-river-create-and-retrieve-card
+- name: chrome-river-create-member
+  slug: chrome-river-create-member
+- name: chrome-river-manage-location
+  slug: chrome-river-manage-location
+- name: chrome-river-requisition-workflow
+  slug: chrome-river-requisition-workflow
+- name: chrome-river-shipping-addresses-create-and-retrieve
+  slug: chrome-river-shipping-addresses-create-and-retrieve
 slug: chrome-river
 tags:
 - Finance

@@ -4,6 +4,6 @@ layout: provider
 name: software-defined-networking
 nav: Providers
 network: true
-random_paper: 8
+random_paper: 20
 slug: software-defined-networking
 ---

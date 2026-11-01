@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.6
-  scored_at: '2026-10-17'
+  score: 51.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 92
   slug: huntress-agentic-access
   summary_line: 92 operations · 37 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.huntress.io/v1
   baseurl_source: declared
@@ -131,15 +133,12 @@ apis:
   description: Operations about Users
   name: Huntress Users API
   slug: huntress-users-api
-artifact_total: 44
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Huntress Webhooks
   slug: huntress-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Huntress API Reference Accounts API
   slug: open-huntress-accounts-api
@@ -195,12 +194,17 @@ collections:
   name: Huntress Webhooks
   slug: open-huntress-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/huntress/plans/huntress-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/huntress-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.huntress.com/blog/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/capabilities/huntress-capability-edges.yml
+  href: https://artifacts.apis.io/huntress/capabilities/huntress-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/huntress-capability-edges.yml
@@ -249,37 +253,37 @@ common:
   type: StatusPage
   url: https://status.huntress.io
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/changelog/huntress-changelog.yml
+  href: https://artifacts.apis.io/huntress/changelog/huntress-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/huntress-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/mcp/huntress-mcp.yml
+  href: https://artifacts.apis.io/huntress/mcp/huntress-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/huntress-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/well-known/huntress-well-known.yml
+  href: https://artifacts.apis.io/huntress/well-known/huntress-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/huntress-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/well-known/huntress-security.txt
+  href: https://artifacts.apis.io/huntress/well-known/huntress-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/huntress-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/llms/huntress-llms.txt
+  href: https://artifacts.apis.io/huntress/llms/huntress-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/huntress-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/overlays/huntress-rest-overlay.yaml
+  href: https://artifacts.apis.io/huntress/overlays/huntress-rest-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/huntress-rest-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/conformance/huntress-conformance.yml
+  href: https://artifacts.apis.io/huntress/conformance/huntress-conformance.yml
   title: ''
   type: Conformance
   url: conformance/huntress-conformance.yml
@@ -288,37 +292,37 @@ common:
   type: Compliance
   url: https://trust.huntress.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/errors/huntress-problem-types.yml
+  href: https://artifacts.apis.io/huntress/errors/huntress-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/huntress-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/lifecycle/huntress-lifecycle.yml
+  href: https://artifacts.apis.io/huntress/lifecycle/huntress-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/huntress-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/scopes/huntress-scopes.yml
+  href: https://artifacts.apis.io/huntress/scopes/huntress-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/huntress-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/conventions/huntress-conventions.yml
+  href: https://artifacts.apis.io/huntress/conventions/huntress-conventions.yml
   title: ''
   type: Conventions
   url: conventions/huntress-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/data-model/huntress-data-model.yml
+  href: https://artifacts.apis.io/huntress/data-model/huntress-data-model.yml
   title: ''
   type: DataModel
   url: data-model/huntress-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/asyncapi/huntress-webhooks.yml
+  href: https://artifacts.apis.io/huntress/asyncapi/huntress-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/huntress-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/huntress/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -327,27 +331,27 @@ common:
   type: Security
   url: https://support.huntress.io/hc/en-us/articles/24119617302291-Huntress-Vulnerability-Disclosure-Program-Terms-and-Conditions
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/security/huntress-trust-center.yml
+  href: https://artifacts.apis.io/huntress/security/huntress-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/huntress-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/security/huntress-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/huntress/security/huntress-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/huntress-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/security/huntress-domain-security.yml
+  href: https://artifacts.apis.io/huntress/security/huntress-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/huntress-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/agentic-access/huntress-agentic-access.yml
+  href: https://artifacts.apis.io/huntress/agentic-access/huntress-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/huntress-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/authentication/huntress-authentication.yml
+  href: https://artifacts.apis.io/huntress/authentication/huntress-authentication.yml
   title: ''
   type: Authentication
   url: authentication/huntress-authentication.yml
@@ -357,6 +361,14 @@ common:
   url: https://www.huntress.com
 created: '2026-07-17'
 description: Huntress is a managed cybersecurity platform built for small and mid-sized businesses and the MSPs/MSSPs that serve them, pairing purpose-built software with a human-powered 24/7 Security Operations Center (SOC). Its products span Managed EDR (including macOS and Managed Microsoft Defender), Managed ITDR for Microsoft 365 identities, Managed SIEM, and Managed Security Awareness Training. The Huntress REST API (api.huntress.io/v1) gives partners programmatic access to accounts, organizations, agents, incident reports, remediations, escalations, platform actions, signals, external recon, billing and reseller subscriptions, plus a SIEM ES|QL query endpoint — secured with HTTP Basic API keys, cursor-paginated, with real-time webhooks and an official remote MCP server for AI agents.
+finops:
+- has_sources: true
+  method: derived
+  name: Huntress Finops
+  primary_unit: licensed identity
+  service_category: ''
+  slug: huntress-finops
+  template: false
 image: https://huntresscdn.com/portal/assets/huntress_logo_wide_teal_small-34bc9ba6.png
 layout: provider
 mcp_servers:
@@ -373,32 +385,39 @@ overview: 'Huntress publishes 17 API contracts indexed on the [APIs.io](https://
   The Huntress catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Huntress'' developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 28 more developer resources.'
-random_paper: 12
+  Huntress'' developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 29 more developer resources.'
+plans:
+- name: Huntress Plans Pricing
+  plan_count: 5
+  slug: huntress-plans-pricing
+- name: Huntress Price Estimates
+  plan_count: 0
+  slug: huntress-price-estimates
+random_paper: 4
 scopes:
 - name: Huntress Scopes
   scope_count: 1
   slug: huntress-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 54.2
+  band: strong
+  composite: 62.3
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 60.2
+    contract_quality: 56.8
     developer_ergonomics: 47.0
-    discoverability: 75.0
-    operational_transparency: 44.7
-  previous_composite: 54.1
+    discoverability: 65.0
+    operational_transparency: 55.3
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -421,13 +440,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/screenshots/huntress-2026-07-25T221735.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/huntress/huntress-2026-07-25T221735.png
 security:
 - kind: authentication
   name: Huntress Authentication
@@ -445,6 +465,12 @@ security:
   name: Huntress Trust Center
   slug: huntress-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 2
+skills:
+- name: Isolate and release a compromised endpoint
+  slug: huntress-isolate-endpoint
+- name: Triage and resolve a Huntress incident report
+  slug: huntress-triage-incident-report
 slug: huntress
 tags:
 - Company

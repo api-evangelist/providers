@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-17'
+  score: 9.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'RESTful API for Bitsight security ratings, portfolio and company data, findings, alerts, and cyber threat intelligence. Authenticated with an API token via HTTP Basic over HTTPS; versioned in the URL '
@@ -87,7 +89,7 @@ common:
   type: PrivacyPolicy
   url: https://www.bitsight.com/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitsight/refs/heads/main/security/bitsight-trust-center.yml
+  href: https://artifacts.apis.io/bitsight/security/bitsight-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/bitsight-trust-center.yml
@@ -96,52 +98,52 @@ common:
   type: Compliance
   url: https://www.bitsight.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitsight/refs/heads/main/authentication/bitsight-authentication.yml
+  href: https://artifacts.apis.io/bitsight/authentication/bitsight-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bitsight-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitsight/refs/heads/main/conventions/bitsight-conventions.yml
+  href: https://artifacts.apis.io/bitsight/conventions/bitsight-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bitsight-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bitsight/refs/heads/main/lifecycle/bitsight-lifecycle.yml
+  href: https://artifacts.apis.io/bitsight/lifecycle/bitsight-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bitsight-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bitsight/refs/heads/main/packages/bitsight-packages.yml
+  href: https://artifacts.apis.io/bitsight/packages/bitsight-packages.yml
   title: ''
   type: Packages
   url: packages/bitsight-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitsight/refs/heads/main/well-known/bitsight-well-known.yml
+  href: https://artifacts.apis.io/bitsight/well-known/bitsight-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bitsight-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitsight/refs/heads/main/well-known/bitsight-security.txt
+  href: https://artifacts.apis.io/bitsight/well-known/bitsight-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/bitsight-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bitsight/refs/heads/main/llms/bitsight-llms.txt
+  href: https://artifacts.apis.io/bitsight/llms/bitsight-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bitsight-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitsight/refs/heads/main/security/bitsight-domain-security.yml
+  href: https://artifacts.apis.io/bitsight/security/bitsight-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitsight-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitsight/refs/heads/main/security/bitsight-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bitsight/security/bitsight-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/bitsight-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitsight/refs/heads/main/security/bitsight-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/bitsight/security/bitsight-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/bitsight-vulnerability-disclosure.yml
@@ -161,10 +163,10 @@ overview: 'BitSight is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   BitSight''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 4
+random_paper: 22
 score:
   band: thin
-  composite: 31.3
+  composite: 31.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -172,15 +174,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 75.0
+    discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 31.2
+  previous_composite: 31.7
   provenance:
     mcp: first-party
   regulatory:
@@ -189,14 +191,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bitsight/refs/heads/main/screenshots/bitsight-2026-07-25T203206.png
+screenshot: https://apis.io/screenshots/bitsight/bitsight-2026-07-25T203206.png
 security:
 - kind: authentication
   name: Bitsight Authentication

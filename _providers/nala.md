@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.2
-  scored_at: '2026-10-17'
+  score: 39.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -71,15 +73,12 @@ apis:
   description: The Wallet API from NALA — 1 operation(s) for wallet.
   name: NALA Wallet API
   slug: nala-wallet-api
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Nala Rafiki Webhooks
   slug: nala-rafiki-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Resources Bank API
   slug: open-nala-bank-api
@@ -97,12 +96,12 @@ collections:
   slug: open-nala-wallet-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/agentic-access/nala-agentic-access.yml
+  href: https://artifacts.apis.io/nala/agentic-access/nala-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nala-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/security/nala-domain-security.yml
+  href: https://artifacts.apis.io/nala/security/nala-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nala-domain-security.yml
@@ -151,92 +150,92 @@ common:
   type: PrivacyPolicy
   url: https://www.nala.com/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/llms/nala-llms.txt
+  href: https://artifacts.apis.io/nala/llms/nala-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nala-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/mcp/nala-mcp.yml
+  href: https://artifacts.apis.io/nala/mcp/nala-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nala-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/authentication/nala-authentication.yml
+  href: https://artifacts.apis.io/nala/authentication/nala-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nala-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/scopes/nala-scopes.yml
+  href: https://artifacts.apis.io/nala/scopes/nala-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/nala-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/conventions/nala-conventions.yml
+  href: https://artifacts.apis.io/nala/conventions/nala-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nala-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/conventions/nala-conventions.yml
+  href: https://artifacts.apis.io/nala/conventions/nala-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/nala-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/errors/nala-problem-types.yml
+  href: https://artifacts.apis.io/nala/errors/nala-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nala-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/errors/nala-decline-codes.yml
+  href: https://artifacts.apis.io/nala/errors/nala-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/nala-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/lifecycle/nala-lifecycle.yml
+  href: https://artifacts.apis.io/nala/lifecycle/nala-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nala-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/sandbox/nala-sandbox.yml
+  href: https://artifacts.apis.io/nala/sandbox/nala-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/nala-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/asyncapi/nala-rafiki-webhooks.yml
+  href: https://artifacts.apis.io/nala/asyncapi/nala-rafiki-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/nala-rafiki-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/conformance/nala-conformance.yml
+  href: https://artifacts.apis.io/nala/conformance/nala-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nala-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/data-model/nala-data-model.yml
+  href: https://artifacts.apis.io/nala/data-model/nala-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nala-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/packages/nala-packages.yml
+  href: https://artifacts.apis.io/nala/packages/nala-packages.yml
   title: ''
   type: Packages
   url: packages/nala-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/packages/nala-packages.yml
+  href: https://artifacts.apis.io/nala/packages/nala-packages.yml
   title: ''
   type: SDKs
   url: packages/nala-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/overlays/nala-rafiki-overlay.yaml
+  href: https://artifacts.apis.io/nala/overlays/nala-rafiki-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nala-rafiki-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/skills/nala-create-account-and-send-payout.md
+  href: https://artifacts.apis.io/nala/skills/nala-create-account-and-send-payout.md
   title: ''
   type: AgentSkill
   url: skills/nala-create-account-and-send-payout.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/skills/nala-lookup-recipient-account.md
+  href: https://artifacts.apis.io/nala/skills/nala-lookup-recipient-account.md
   title: ''
   type: AgentSkill
   url: skills/nala-lookup-recipient-account.md
@@ -267,7 +266,7 @@ overview: 'NALA publishes 5 API contracts indexed on the [APIs.io](https://apis.
 
 
   NALA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 26 more developer resources.'
-random_paper: 16
+random_paper: 4
 scopes:
 - name: Nala Scopes
   scope_count: 9
@@ -275,9 +274,9 @@ scopes:
   summary_line: 9 scopes
 score:
   band: developing
-  composite: 44.4
+  composite: 47.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -288,15 +287,15 @@ score:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 55.3
-    developer_ergonomics: 57.7
-    discoverability: 71.7
-    operational_transparency: 26.3
+    developer_ergonomics: 73.2
+    discoverability: 65.0
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 44.4
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -313,13 +312,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/screenshots/nala-2026-08-07T184612.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nala/nala-2026-08-07T184612.png
 security:
 - kind: authentication
   name: Nala Authentication
@@ -329,6 +329,12 @@ security:
   name: Nala Domain Security
   slug: nala-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Create a payment account and send a payout
+  slug: nala-create-account-and-send-payout
+- name: Look up a recipient account before paying
+  slug: nala-lookup-recipient-account
 slug: nala
 tags:
 - Company

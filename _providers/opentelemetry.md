@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The OTLP gRPC API defines Protocol Buffers service definitions for exporting traces, metrics, and logs over gRPC. It is the primary transport for OpenTelemetry data between SDK instrumentation, the Op
@@ -60,15 +62,12 @@ apis:
   description: The Traces API from OpenTelemetry — 1 operation(s) for traces.
   name: OpenTelemetry Traces API
   slug: opentelemetry-traces-api
-artifact_total: 16
+artifact_total: 15
 asyncapis:
 - description: The OpenTelemetry Protocol (OTLP) defines the event-driven telemetry export pipeline through which instrumented applications and OpenTelemetry Collectors push batches of traces, metrics, and logs to o
   name: OpenTelemetry Protocol (OTLP) Telemetry Events
   slug: opentelemetry-otlp-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OpenTelemetry Protocol (OTLP) HTTP Logs API
   slug: open-opentelemetry-logs-api
@@ -79,23 +78,27 @@ collections:
   name: OpenTelemetry Protocol (OTLP) HTTP Traces API
   slug: open-opentelemetry-traces-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/opentelemetry/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/plans/opentelemetry-plans-pricing.yml
+  href: https://artifacts.apis.io/opentelemetry/plans/opentelemetry-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/opentelemetry-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/rate-limits/opentelemetry-rate-limits.yml
+  href: https://artifacts.apis.io/opentelemetry/rate-limits/opentelemetry-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/opentelemetry-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/finops/opentelemetry-finops.yml
+  href: https://artifacts.apis.io/opentelemetry/finops/opentelemetry-finops.yml
   title: ''
   type: FinOps
   url: finops/opentelemetry-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/capabilities/opentelemetry-capability-edges.yml
+  href: https://artifacts.apis.io/opentelemetry/capabilities/opentelemetry-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/opentelemetry-capability-edges.yml
@@ -120,7 +123,7 @@ common:
   type: License
   url: https://github.com/open-telemetry/opentelemetry-proto/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/security/opentelemetry-domain-security.yml
+  href: https://artifacts.apis.io/opentelemetry/security/opentelemetry-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/opentelemetry-domain-security.yml
@@ -186,7 +189,7 @@ finops:
 - has_sources: false
   method: generated
   name: Opentelemetry Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: opentelemetry-finops
   template: true
@@ -202,12 +205,12 @@ overview: 'OpenTelemetry publishes 6 API contracts indexed on the [APIs.io](http
   The OpenTelemetry catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  OpenTelemetry''s developer surface includes documentation, getting-started guide, engineering blog, Stack Overflow tag, changelog, and 19 more developer resources.'
+  OpenTelemetry''s developer surface includes documentation, getting-started guide, engineering blog, Stack Overflow tag, changelog, and 20 more developer resources.'
 plans:
 - name: Opentelemetry Plans Pricing
   plan_count: 3
   slug: opentelemetry-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Opentelemetry Rate Limits
@@ -227,7 +230,7 @@ rules:
   slug: opentelemetry-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 38.4
+  composite: 36.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 47.9
@@ -235,18 +238,15 @@ score:
     catalog_gap: 67.1
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.2
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 57.6
-    developer_ergonomics: 42.9
+    developer_ergonomics: 44.0
     discoverability: 64.3
     operational_transparency: 39.5
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 39.7
+  previous_composite: 36.4
   provenance:
     contracts:
       callable: 0.0
@@ -259,13 +259,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/screenshots/opentelemetry-2026-06-20T191044.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/opentelemetry/opentelemetry-2026-06-20T191044.png
 security:
 - kind: domain-security
   name: Opentelemetry Domain Security

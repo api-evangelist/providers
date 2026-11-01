@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -77,11 +79,8 @@ apis:
   description: The Ally Invest Watchlists API allows programmatic creation and management of symbol watchlists associated with a member account. Supports listing all watchlists, creating new watchlists, retrieving w
   name: Ally Invest Watchlists API
   slug: ally-invest-watchlists-api
-artifact_total: 41
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Ally Invest Accounts API
   slug: open-ally-invest-accounts-api
@@ -101,27 +100,31 @@ collections:
   name: Ally Invest Accounts Watchlists API
   slug: open-ally-invest-watchlists-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/ally-invest/overview
 - group: company
   title: ''
   type: Blog
   url: https://www.ally.com/stories/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/agentic-access/ally-invest-agentic-access.yml
+  href: https://artifacts.apis.io/ally-invest/agentic-access/ally-invest-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/ally-invest-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/security/ally-invest-domain-security.yml
+  href: https://artifacts.apis.io/ally-invest/security/ally-invest-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ally-invest-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/authentication/ally-invest-authentication.yml
+  href: https://artifacts.apis.io/ally-invest/authentication/ally-invest-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ally-invest-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/openapi/_original/ally-invest-openapi.yml
+  href: https://artifacts.apis.io/ally-invest/openapi/_original/ally-invest-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/ally-invest-openapi.yml
@@ -182,17 +185,17 @@ common:
   type: SelfDirectedTrading
   url: https://www.ally.com/invest/self-directed-trading/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/plans/ally-invest-plans-pricing.yml
+  href: https://artifacts.apis.io/ally-invest/plans/ally-invest-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ally-invest-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/rate-limits/ally-invest-rate-limits.yml
+  href: https://artifacts.apis.io/ally-invest/rate-limits/ally-invest-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ally-invest-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/finops/ally-invest-finops.yml
+  href: https://artifacts.apis.io/ally-invest/finops/ally-invest-finops.yml
   title: ''
   type: FinOps
   url: finops/ally-invest-finops.yml
@@ -261,12 +264,12 @@ overview: 'Ally Invest publishes 7 API contracts indexed on the [APIs.io](https:
   The Ally Invest catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ally Invest''s developer surface includes engineering blog, authentication, documentation, getting-started guide, support, pricing, and 16 more developer resources.'
+  Ally Invest''s developer surface includes engineering blog, authentication, documentation, getting-started guide, support, pricing, and 17 more developer resources.'
 plans:
 - name: Ally Invest Plans Pricing
   plan_count: 1
   slug: ally-invest-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Ally Invest Rate Limits
@@ -285,23 +288,23 @@ rules:
   slug: ally-invest-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.5
+  composite: 41.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 56.3
     catalog_earned_first_party: 0.0
     catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.5
+  delta: 0.2
   facets:
     access_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 58.9
-    developer_ergonomics: 57.1
+    developer_ergonomics: 58.3
     discoverability: 66.1
-    operational_transparency: 10.5
-  previous_composite: 47.0
+    operational_transparency: 13.2
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -315,12 +318,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Ally Invest Authentication

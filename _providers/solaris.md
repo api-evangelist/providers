@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Solaris REST API for embedded banking, cards, payments (SEPA), KYC/KYB identity, and lending. OAuth2 client-credentials auth; HMAC-signed webhooks.
@@ -50,7 +52,7 @@ common:
   type: Blog
   url: https://www.solarisgroup.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/security/solaris-domain-security.yml
+  href: https://artifacts.apis.io/solaris/security/solaris-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/solaris-domain-security.yml
@@ -103,62 +105,62 @@ common:
   type: ChangeLog
   url: https://docs.solarisgroup.com/release-notes
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/changelog/solaris-changelog.yml
+  href: https://artifacts.apis.io/solaris/changelog/solaris-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/solaris-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/authentication/solaris-authentication.yml
+  href: https://artifacts.apis.io/solaris/authentication/solaris-authentication.yml
   title: ''
   type: Authentication
   url: authentication/solaris-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/scopes/solaris-scopes.yml
+  href: https://artifacts.apis.io/solaris/scopes/solaris-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/solaris-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/conventions/solaris-conventions.yml
+  href: https://artifacts.apis.io/solaris/conventions/solaris-conventions.yml
   title: ''
   type: Conventions
   url: conventions/solaris-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/errors/solaris-error-codes.yml
+  href: https://artifacts.apis.io/solaris/errors/solaris-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/solaris-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/lifecycle/solaris-lifecycle.yml
+  href: https://artifacts.apis.io/solaris/lifecycle/solaris-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/solaris-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/conformance/solaris-conformance.yml
+  href: https://artifacts.apis.io/solaris/conformance/solaris-conformance.yml
   title: ''
   type: Conformance
   url: conformance/solaris-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/asyncapi/solaris-webhooks.yml
+  href: https://artifacts.apis.io/solaris/asyncapi/solaris-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/solaris-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/sandbox/solaris-sandbox.yml
+  href: https://artifacts.apis.io/solaris/sandbox/solaris-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/solaris-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/mcp/solaris-mcp.yml
+  href: https://artifacts.apis.io/solaris/mcp/solaris-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/solaris-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/well-known/solaris-well-known.yml
+  href: https://artifacts.apis.io/solaris/well-known/solaris-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/solaris-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/llms/solaris-llms.txt
+  href: https://artifacts.apis.io/solaris/llms/solaris-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/solaris-llms.txt
@@ -177,7 +179,7 @@ overview: 'Solaris is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Solaris'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, changelog, authentication, and 19 more developer resources.'
-random_paper: 17
+random_paper: 21
 scopes:
 - name: Solaris Scopes
   scope_count: 1
@@ -185,22 +187,22 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 46.1
+  composite: 45.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 64.3
-    discoverability: 73.2
-    operational_transparency: 50.0
+    discoverability: 66.1
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -209,7 +211,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 45.5
+  previous_composite: 45.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -227,14 +229,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 44.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/screenshots/solaris-2026-08-17T081954.png
+screenshot: https://apis.io/screenshots/solaris/solaris-2026-08-17T081954.png
 security:
 - kind: authentication
   name: Solaris Authentication

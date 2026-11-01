@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -65,11 +67,8 @@ apis:
   description: Manage Template Spec resources for reusable Bicep templates
   name: Microsoft Bicep Template Specs API
   slug: microsoft-bicep-template-specs-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Microsoft Bicep Deployments API
   slug: open-microsoft-bicep-deployments-api
@@ -87,17 +86,17 @@ collections:
   slug: open-microsoft-bicep-template-specs
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/plans/microsoft-bicep-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-bicep/plans/microsoft-bicep-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-bicep-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/rate-limits/microsoft-bicep-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-bicep/rate-limits/microsoft-bicep-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-bicep-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/finops/microsoft-bicep-finops.yml
+  href: https://artifacts.apis.io/microsoft-bicep/finops/microsoft-bicep-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-bicep-finops.yml
@@ -114,27 +113,27 @@ common:
   type: CodeOfConduct
   url: https://github.com/Azure/bicep/blob/main/CODE_OF_CONDUCT.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/agentic-access/microsoft-bicep-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-bicep/agentic-access/microsoft-bicep-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-bicep-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/security/microsoft-bicep-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/microsoft-bicep/security/microsoft-bicep-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/microsoft-bicep-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/security/microsoft-bicep-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-bicep/security/microsoft-bicep-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-bicep-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/authentication/microsoft-bicep-authentication.yml
+  href: https://artifacts.apis.io/microsoft-bicep/authentication/microsoft-bicep-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-bicep-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/scopes/microsoft-bicep-scopes.yml
+  href: https://artifacts.apis.io/microsoft-bicep/scopes/microsoft-bicep-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-bicep-scopes.yml
@@ -171,17 +170,17 @@ common:
   type: License
   url: https://github.com/Azure/bicep/blob/main/LICENSE
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/json-ld/microsoft-bicep-context.jsonld
+  href: https://artifacts.apis.io/microsoft-bicep/json-ld/microsoft-bicep-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/microsoft-bicep-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/json-schema/microsoft-bicep-deployment-schema.json
+  href: https://artifacts.apis.io/microsoft-bicep/json-schema/microsoft-bicep-deployment-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/microsoft-bicep-deployment-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/json-schema/microsoft-bicep-template-spec-schema.json
+  href: https://artifacts.apis.io/microsoft-bicep/json-schema/microsoft-bicep-template-spec-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/microsoft-bicep-template-spec-schema.json
@@ -191,7 +190,7 @@ finops:
 - has_sources: true
   method: generated
   name: Microsoft Bicep Finops
-  primary_unit: ''
+  primary_unit: N/A
   service_category: Developer Tools / Infrastructure as Code
   slug: microsoft-bicep-finops
   template: false
@@ -224,7 +223,7 @@ plans:
 - name: Microsoft Bicep Plans Pricing
   plan_count: 3
   slug: microsoft-bicep-plans-pricing
-random_paper: 2
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Microsoft Bicep Rate Limits
@@ -248,23 +247,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 36.9
+  composite: 37.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 51.3
+    catalog_earned: 54.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.8
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.5
   facets:
-    access_clarity: 7.9
+    access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 51.8
     developer_ergonomics: 28.6
     discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 38.4
+    operational_transparency: 39.5
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -278,13 +277,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/screenshots/microsoft-bicep-2026-06-20T185444.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-bicep/microsoft-bicep-2026-06-20T185444.png
 security:
 - kind: authentication
   name: Microsoft Bicep Authentication

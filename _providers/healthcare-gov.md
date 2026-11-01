@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Educational content about the US Health Insurance Marketplace
@@ -41,7 +43,7 @@ apis:
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/healthcare-gov/refs/heads/main/security/healthcare-gov-domain-security.yml
+  href: https://artifacts.apis.io/healthcare-gov/security/healthcare-gov-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/healthcare-gov-domain-security.yml
@@ -62,7 +64,7 @@ name: Healthcare.gov
 nav: Providers
 network: true
 overview: Healthcare.gov is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 10
+random_paper: 2
 score:
   band: minimal
   composite: 5.4
@@ -88,14 +90,14 @@ score:
     regime: Health
     regime_id: health
     score: 4.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/healthcare-gov/refs/heads/main/screenshots/healthcare-gov-2026-06-20T182558.png
+screenshot: https://apis.io/screenshots/healthcare-gov/healthcare-gov-2026-06-20T182558.png
 security:
 - kind: domain-security
   name: Healthcare Gov Domain Security

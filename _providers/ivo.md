@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -65,12 +67,12 @@ common:
   type: TrustCenter
   url: https://trust.ivo.ai
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ivo/refs/heads/main/security/ivo-trust-center.yml
+  href: https://artifacts.apis.io/ivo/security/ivo-trust-center.yml
   title: ''
   type: Compliance
   url: security/ivo-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ivo/refs/heads/main/conformance/ivo-conformance.yml
+  href: https://artifacts.apis.io/ivo/conformance/ivo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ivo-conformance.yml
@@ -79,27 +81,27 @@ common:
   type: Security
   url: https://trust.ivo.ai/resources?s=a7t7bsi1jpndd9qj122kha&name=responsible-disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ivo/refs/heads/main/security/ivo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ivo/security/ivo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ivo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ivo/refs/heads/main/well-known/ivo-security.txt
+  href: https://artifacts.apis.io/ivo/well-known/ivo-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ivo-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ivo/refs/heads/main/well-known/ivo-well-known.yml
+  href: https://artifacts.apis.io/ivo/well-known/ivo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ivo-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ivo/refs/heads/main/security/ivo-domain-security.yml
+  href: https://artifacts.apis.io/ivo/security/ivo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ivo-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ivo/refs/heads/main/llms/ivo-llms.txt
+  href: https://artifacts.apis.io/ivo/llms/ivo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ivo-llms.txt
@@ -115,10 +117,10 @@ overview: 'Ivo is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Ivo''s developer surface includes engineering blog, support, and 13 more developer resources.'
-random_paper: 4
+random_paper: 22
 score:
   band: emerging
-  composite: 17.7
+  composite: 21.9
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -126,20 +128,20 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 0.0
+    discoverability: 48.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 17.6
+  previous_composite: 21.9
   provenance:
     conformance: first-party
   regulatory:
@@ -153,15 +155,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ivo/refs/heads/main/screenshots/ivo-2026-07-25T223048.png
+screenshot: https://apis.io/screenshots/ivo/ivo-2026-07-25T223048.png
 security:
 - kind: domain-security
   name: Ivo Domain Security

@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.9
-  scored_at: '2026-10-17'
+  score: 40.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 293
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 412
   slug: limble-cmms-agentic-access
   summary_line: 412 operations · 293 acting
-api_count: 4
+api_count: 2
 apis:
 - description: 'The Limble CMMS REST API V2 provides HTTPS access to maintenance management data including assets, locations, work orders, preventive maintenance tasks, parts, purchase orders, users, vendors, teams, '
   name: Limble API V2
@@ -88,9 +90,6 @@ asyncapis:
   name: Limble Cmms Webhooks
   slug: limble-cmms-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Limble API V2 Assets API
   slug: open-limble-cmms-assets-api
@@ -279,117 +278,117 @@ common:
   type: ChangeLog
   url: https://limble.com/releases
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/openapi/limble-cmms-limble-api-v2-openapi.yml
+  href: https://artifacts.apis.io/limble-cmms/openapi/limble-cmms-limble-api-v2-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/limble-cmms-limble-api-v2-openapi.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/mcp/limble-cmms-mcp.yml
+  href: https://artifacts.apis.io/limble-cmms/mcp/limble-cmms-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/limble-cmms-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/mcp/limble-cmms-tool-crosswalk.yml
+  href: https://artifacts.apis.io/limble-cmms/mcp/limble-cmms-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/limble-cmms-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/llms/limble-cmms-llms.txt
+  href: https://artifacts.apis.io/limble-cmms/llms/limble-cmms-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/limble-cmms-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/conventions/limble-cmms-conventions.yml
+  href: https://artifacts.apis.io/limble-cmms/conventions/limble-cmms-conventions.yml
   title: ''
   type: Conventions
   url: conventions/limble-cmms-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/lifecycle/limble-cmms-lifecycle.yml
+  href: https://artifacts.apis.io/limble-cmms/lifecycle/limble-cmms-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/limble-cmms-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/conformance/limble-cmms-conformance.yml
+  href: https://artifacts.apis.io/limble-cmms/conformance/limble-cmms-conformance.yml
   title: ''
   type: Conformance
   url: conformance/limble-cmms-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/security/limble-cmms-trust-center.yml
+  href: https://artifacts.apis.io/limble-cmms/security/limble-cmms-trust-center.yml
   title: ''
   type: Compliance
   url: security/limble-cmms-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/security/limble-cmms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/limble-cmms/security/limble-cmms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/limble-cmms-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/security/limble-cmms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/limble-cmms/security/limble-cmms-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/limble-cmms-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/errors/limble-cmms-problem-types.yml
+  href: https://artifacts.apis.io/limble-cmms/errors/limble-cmms-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/limble-cmms-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/rate-limits/limble-cmms-rate-limits.yml
+  href: https://artifacts.apis.io/limble-cmms/rate-limits/limble-cmms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/limble-cmms-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/plans/limble-cmms-plans-pricing.yml
+  href: https://artifacts.apis.io/limble-cmms/plans/limble-cmms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/limble-cmms-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/changelog/limble-cmms-changelog.yml
+  href: https://artifacts.apis.io/limble-cmms/changelog/limble-cmms-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/limble-cmms-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/packages/limble-cmms-packages.yml
+  href: https://artifacts.apis.io/limble-cmms/packages/limble-cmms-packages.yml
   title: ''
   type: Packages
   url: packages/limble-cmms-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/asyncapi/limble-cmms-webhooks.yml
+  href: https://artifacts.apis.io/limble-cmms/asyncapi/limble-cmms-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/limble-cmms-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/limble-cmms/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/data-model/limble-cmms-data-model.yml
+  href: https://artifacts.apis.io/limble-cmms/data-model/limble-cmms-data-model.yml
   title: ''
   type: DataModel
   url: data-model/limble-cmms-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/overlays/limble-cmms-limble-api-v2-overlay.yaml
+  href: https://artifacts.apis.io/limble-cmms/overlays/limble-cmms-limble-api-v2-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/limble-cmms-limble-api-v2-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/agentic-access/limble-cmms-agentic-access.yml
+  href: https://artifacts.apis.io/limble-cmms/agentic-access/limble-cmms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/limble-cmms-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/security/limble-cmms-trust-center.yml
+  href: https://artifacts.apis.io/limble-cmms/security/limble-cmms-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/limble-cmms-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/security/limble-cmms-domain-security.yml
+  href: https://artifacts.apis.io/limble-cmms/security/limble-cmms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/limble-cmms-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/authentication/limble-cmms-authentication.yml
+  href: https://artifacts.apis.io/limble-cmms/authentication/limble-cmms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/limble-cmms-authentication.yml
@@ -459,6 +458,14 @@ examples:
 - key_count: 2
   name: Limble Cmms List Vendors Example
   slug: limble-cmms-list-vendors-example
+finops:
+- has_sources: true
+  method: derived
+  name: Limble Cmms Finops
+  primary_unit: ''
+  service_category: ''
+  slug: limble-cmms-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/limble-cmms.png
 json_schemas:
 - name: Asset
@@ -535,7 +542,7 @@ plans:
 - name: Limble Cmms Plans Pricing
   plan_count: 3
   slug: limble-cmms-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 6
   name: Limble Cmms Rate Limits
@@ -565,23 +572,28 @@ rules:
   slug: limble-cmms-rules
 score:
   band: exemplar
-  composite: 76.0
+  composite: 70.8
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 78.3
+    artifact_dirs: 29
+    catalog_earned: 75.3
     catalog_earned_first_party: 24.0
-    catalog_gap: 36.8
+    catalog_gap: 39.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: -0.5
   facets:
     access_clarity: 92.1
     contract_governance: 14.4
-    contract_quality: 71.9
+    contract_quality: 68.5
     developer_ergonomics: 63.7
-    discoverability: 80.0
-    operational_transparency: 84.2
-  previous_composite: 75.4
+    discoverability: 65.0
+    operational_transparency: 86.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 71.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -604,13 +616,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/screenshots/limble-cmms-2026-06-20T184528.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/limble-cmms/limble-cmms-2026-06-20T184528.png
 security:
 - kind: authentication
   name: Limble Cmms Authentication

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Register and manage the exams (assessments) that will be proctored - exam name, proctoring type (automated, live, audit), duration, allowed resources, rules, and the launch URL handed back to the LMS.
@@ -58,7 +60,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/examity/refs/heads/main/security/examity-domain-security.yml
+  href: https://artifacts.apis.io/examity/security/examity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/examity-domain-security.yml
@@ -71,7 +73,7 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/examity
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/examity/refs/heads/main/plans/examity-plans-pricing.yml
+  href: https://artifacts.apis.io/examity/plans/examity-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/examity-plans-pricing.yml
@@ -93,18 +95,18 @@ plans:
 - name: Examity Plans Pricing
   plan_count: 0
   slug: examity-plans-pricing
-random_paper: 21
+random_paper: 1
 score:
   band: minimal
   composite: 4.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -112,15 +114,15 @@ score:
     developer_ergonomics: 0.0
     discoverability: 62.5
     operational_transparency: 0.0
-  previous_composite: 4.3
+  previous_composite: 4.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

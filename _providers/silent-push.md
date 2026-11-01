@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.silentpush.com/api/v1/merge-api/
@@ -47,14 +49,14 @@ apis:
 - description: SaaS-hosted Model Context Protocol server announced in Release 6.0 (2026-06-12, beta). Exposes 33 read-only investigation tools across enrichment, PADNS, reputation, live scanning and SPQL fingerprint
   name: Silent Push MCP Server
   slug: silent-push-mcp-server
-artifact_total: 10
+artifact_total: 11
 collections:
 - collection_type: postman
   name: Silent Push Web Scanner Quick Help Requests
   slug: postman-silent-push-web-scanner
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/security/silent-push-domain-security.yml
+  href: https://artifacts.apis.io/silent-push/security/silent-push-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/silent-push-domain-security.yml
@@ -103,92 +105,92 @@ common:
   type: PrivacyPolicy
   url: https://www.silentpush.com/privacy-policy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/postman/silent-push-web-scanner.postman_collection.json
+  href: https://artifacts.apis.io/silent-push/postman/silent-push-web-scanner.postman_collection.json
   title: ''
   type: Postman
   url: postman/silent-push-web-scanner.postman_collection.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/llms/silent-push-llms.txt
+  href: https://artifacts.apis.io/silent-push/llms/silent-push-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/silent-push-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/well-known/silent-push-well-known.yml
+  href: https://artifacts.apis.io/silent-push/well-known/silent-push-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/silent-push-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/mcp/silent-push-mcp.yml
+  href: https://artifacts.apis.io/silent-push/mcp/silent-push-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/silent-push-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/mcp/silent-push-tool-crosswalk.yml
+  href: https://artifacts.apis.io/silent-push/mcp/silent-push-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/silent-push-tool-crosswalk.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/packages/silent-push-packages.yml
+  href: https://artifacts.apis.io/silent-push/packages/silent-push-packages.yml
   title: ''
   type: Packages
   url: packages/silent-push-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/packages/silent-push-packages.yml
+  href: https://artifacts.apis.io/silent-push/packages/silent-push-packages.yml
   title: ''
   type: SDKs
   url: packages/silent-push-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/cli/silent-push-cli.yml
+  href: https://artifacts.apis.io/silent-push/cli/silent-push-cli.yml
   title: ''
   type: CLI
   url: cli/silent-push-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/changelog/silent-push-changelog.yml
+  href: https://artifacts.apis.io/silent-push/changelog/silent-push-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/silent-push-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/lifecycle/silent-push-lifecycle.yml
+  href: https://artifacts.apis.io/silent-push/lifecycle/silent-push-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/silent-push-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/authentication/silent-push-authentication.yml
+  href: https://artifacts.apis.io/silent-push/authentication/silent-push-authentication.yml
   title: ''
   type: Authentication
   url: authentication/silent-push-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/conventions/silent-push-conventions.yml
+  href: https://artifacts.apis.io/silent-push/conventions/silent-push-conventions.yml
   title: ''
   type: Conventions
   url: conventions/silent-push-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/errors/silent-push-problem-types.yml
+  href: https://artifacts.apis.io/silent-push/errors/silent-push-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/silent-push-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/conformance/silent-push-conformance.yml
+  href: https://artifacts.apis.io/silent-push/conformance/silent-push-conformance.yml
   title: ''
   type: Conformance
   url: conformance/silent-push-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/data-model/silent-push-data-model.yml
+  href: https://artifacts.apis.io/silent-push/data-model/silent-push-data-model.yml
   title: ''
   type: DataModel
   url: data-model/silent-push-data-model.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/plans/silent-push-plans-pricing.yml
+  href: https://artifacts.apis.io/silent-push/plans/silent-push-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/silent-push-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/rate-limits/silent-push-rate-limits.yml
+  href: https://artifacts.apis.io/silent-push/rate-limits/silent-push-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/silent-push-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/security/silent-push-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/silent-push/security/silent-push-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/silent-push-vulnerability-disclosure.yml
@@ -198,6 +200,14 @@ common:
   url: https://www.silentpush.com/responsible-disclosure/
 created: '2026-08-27'
 description: Silent Push is a preemptive cyber defense company that maps adversary infrastructure before it is weaponized, using a continuously scanned view of the global DNS, web content, certificate and WHOIS landscape. Its platform turns that data into Indicators of Future Attack (IOFA), risk scores for domains and IP addresses, and threat intelligence feeds that security teams push into SIEM, SOAR and blocking infrastructure. The developer surface is a REST API gateway at api.silentpush.com covering enrichment, Passive Active DNS (PADNS), live web scanning and screenshots, SPQL search, feed and indicator CRUD, Threat Check, TLP reports and export in CSV, JSON, TXT, RPZ and STIX formats, authenticated with an x-api-key header. Silent Push also runs a hosted Model Context Protocol server that exposes 33 read-only investigation tools to MCP-compatible AI clients over OAuth 2.1.
+finops:
+- has_sources: true
+  method: derived
+  name: Silent Push Finops
+  primary_unit: ''
+  service_category: ''
+  slug: silent-push-finops
+  template: true
 image: https://www.silentpush.com/wp-content/uploads/Silent-Push-Logo-@2x.png
 layout: provider
 mcp_servers:
@@ -216,30 +226,30 @@ plans:
 - name: Silent Push Plans Pricing
   plan_count: 2
   slug: silent-push-plans-pricing
-random_paper: 4
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Silent Push Rate Limits
   slug: silent-push-rate-limits
 score:
   band: developing
-  composite: 39.3
+  composite: 41.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 42.1
+    access_clarity: 55.3
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 75.7
-    discoverability: 75.0
-    operational_transparency: 28.9
-  previous_composite: 39.2
+    discoverability: 65.0
+    operational_transparency: 31.6
+  previous_composite: 41.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -249,14 +259,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/screenshots/silent-push-2026-09-02T155457.png
+screenshot: https://apis.io/screenshots/silent-push/silent-push-2026-09-02T155457.png
 security:
 - kind: authentication
   name: Silent Push Authentication

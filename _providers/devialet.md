@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.8
-  scored_at: '2026-10-17'
+  score: 28.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 6
@@ -74,11 +76,8 @@ apis:
   description: Sets of one or more speakers that always share playback state (solo or stereo).
   name: Devialet Systems API
   slug: devialet-systems-api
-artifact_total: 16
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Devialet IP Control Audio Settings API
   slug: open-devialet-audio-settings-api
@@ -99,12 +98,12 @@ collections:
   slug: open-devialet-systems-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/agentic-access/devialet-agentic-access.yml
+  href: https://artifacts.apis.io/devialet/agentic-access/devialet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/devialet-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/security/devialet-domain-security.yml
+  href: https://artifacts.apis.io/devialet/security/devialet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/devialet-domain-security.yml
@@ -117,7 +116,7 @@ common:
   type: Documentation
   url: https://help.devialet.com/hc/en-us/articles/4415207423378-Phantom-s-documentation-for-piloting-them-via-IP
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/_original/devialet-ip-control-r1.pdf
+  href: https://artifacts.apis.io/devialet/openapi/_original/devialet-ip-control-r1.pdf
   title: ''
   type: APIReference
   url: openapi/_original/devialet-ip-control-r1.pdf
@@ -142,77 +141,77 @@ common:
   type: Compliance
   url: https://www.devialet.com/en-eu/legal/compliance/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/llms/devialet-llms.txt
+  href: https://artifacts.apis.io/devialet/llms/devialet-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/devialet-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/authentication/devialet-authentication.yml
+  href: https://artifacts.apis.io/devialet/authentication/devialet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/devialet-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/errors/devialet-error-codes.yml
+  href: https://artifacts.apis.io/devialet/errors/devialet-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/devialet-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/conventions/devialet-conventions.yml
+  href: https://artifacts.apis.io/devialet/conventions/devialet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/devialet-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/conventions/devialet-conventions.yml
+  href: https://artifacts.apis.io/devialet/conventions/devialet-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/devialet-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/lifecycle/devialet-lifecycle.yml
+  href: https://artifacts.apis.io/devialet/lifecycle/devialet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/devialet-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/changelog/devialet-changelog.yml
+  href: https://artifacts.apis.io/devialet/changelog/devialet-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/devialet-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/conformance/devialet-conformance.yml
+  href: https://artifacts.apis.io/devialet/conformance/devialet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/devialet-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/packages/devialet-packages.yml
+  href: https://artifacts.apis.io/devialet/packages/devialet-packages.yml
   title: ''
   type: Packages
   url: packages/devialet-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/data-model/devialet-data-model.yml
+  href: https://artifacts.apis.io/devialet/data-model/devialet-data-model.yml
   title: ''
   type: DataModel
   url: data-model/devialet-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/examples/devialet-ip-control-examples.yml
+  href: https://artifacts.apis.io/devialet/examples/devialet-ip-control-examples.yml
   title: ''
   type: Examples
   url: examples/devialet-ip-control-examples.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/overlays/devialet-ip-control-overlay.yaml
+  href: https://artifacts.apis.io/devialet/overlays/devialet-ip-control-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/devialet-ip-control-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/mcp/devialet-mcp.yml
+  href: https://artifacts.apis.io/devialet/mcp/devialet-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/devialet-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/mcp/devialet-tool-crosswalk.yml
+  href: https://artifacts.apis.io/devialet/mcp/devialet-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/devialet-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/devialet/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -232,12 +231,12 @@ overview: 'Devialet publishes 6 API contracts indexed on the [APIs.io](https://a
 
 
   Devialet''s developer surface includes documentation, API reference, support, authentication, changelog, code examples, and 20 more developer resources.'
-random_paper: 10
+random_paper: 6
 score:
   band: thin
-  composite: 28.3
+  composite: 28.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -249,8 +248,8 @@ score:
     contract_governance: 4.5
     contract_quality: 15.4
     developer_ergonomics: 35.1
-    discoverability: 73.2
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -259,7 +258,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 28.3
+  previous_composite: 28.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,13 +275,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/screenshots/devialet-2026-08-07T164327.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/devialet/devialet-2026-08-07T164327.png
 security:
 - kind: authentication
   name: Devialet Authentication
@@ -292,6 +292,14 @@ security:
   name: Devialet Domain Security
   slug: devialet-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Control playback on a Devialet group
+  slug: devialet-control-playback
+- name: Discover a Devialet installation
+  slug: devialet-discover-installation
+- name: Tune sound on a Devialet system
+  slug: devialet-tune-sound
 slug: devialet
 tags:
 - Audio

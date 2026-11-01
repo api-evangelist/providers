@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 58.0
-  scored_at: '2026-10-17'
+  score: 52.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -101,11 +103,8 @@ apis:
   description: The Tasks API from Nimbleway — 6 operation(s) for tasks.
   name: Nimbleway Tasks API
   slug: nimbleway-tasks-api
-artifact_total: 29
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Nimble SDK Agents API
   slug: open-nimbleway-agents-api
@@ -140,6 +139,11 @@ collections:
   name: Nimble SDK Agents Tasks API
   slug: open-nimbleway-tasks-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/nimbleway/plans/nimbleway-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nimbleway-plans-pricing.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -157,42 +161,42 @@ common:
   type: GettingStarted
   url: https://docs.nimbleway.com/api-reference/introduction
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/openapi/_original/nimbleway-openapi.json
+  href: https://artifacts.apis.io/nimbleway/openapi/_original/nimbleway-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/nimbleway-openapi.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/authentication/nimbleway-authentication.yml
+  href: https://artifacts.apis.io/nimbleway/authentication/nimbleway-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nimbleway-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/conventions/nimbleway-conventions.yml
+  href: https://artifacts.apis.io/nimbleway/conventions/nimbleway-conventions.yml
   title: ''
   type: Conventions
   url: conventions/nimbleway-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/errors/nimbleway-problem-types.yml
+  href: https://artifacts.apis.io/nimbleway/errors/nimbleway-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/nimbleway-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/rate-limits/nimbleway-rate-limits.yml
+  href: https://artifacts.apis.io/nimbleway/rate-limits/nimbleway-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nimbleway-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/data-model/nimbleway-data-model.yml
+  href: https://artifacts.apis.io/nimbleway/data-model/nimbleway-data-model.yml
   title: ''
   type: DataModel
   url: data-model/nimbleway-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/overlays/nimbleway-openapi-overlay.yaml
+  href: https://artifacts.apis.io/nimbleway/overlays/nimbleway-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/nimbleway-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/lifecycle/nimbleway-lifecycle.yml
+  href: https://artifacts.apis.io/nimbleway/lifecycle/nimbleway-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/nimbleway-lifecycle.yml
@@ -201,12 +205,12 @@ common:
   type: StatusPage
   url: https://status.nimbleway.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/changelog/nimbleway-changelog.yml
+  href: https://artifacts.apis.io/nimbleway/changelog/nimbleway-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/nimbleway-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/conformance/nimbleway-conformance.yml
+  href: https://artifacts.apis.io/nimbleway/conformance/nimbleway-conformance.yml
   title: ''
   type: Conformance
   url: conformance/nimbleway-conformance.yml
@@ -215,47 +219,47 @@ common:
   type: Compliance
   url: https://www.nimbleway.com/trust
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/security/nimbleway-trust-center.yml
+  href: https://artifacts.apis.io/nimbleway/security/nimbleway-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nimbleway-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/security/nimbleway-domain-security.yml
+  href: https://artifacts.apis.io/nimbleway/security/nimbleway-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nimbleway-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/agentic-access/nimbleway-agentic-access.yml
+  href: https://artifacts.apis.io/nimbleway/agentic-access/nimbleway-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nimbleway-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/mcp/nimbleway-mcp.yml
+  href: https://artifacts.apis.io/nimbleway/mcp/nimbleway-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/nimbleway-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/nimbleway/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/llms/nimbleway-llms.txt
+  href: https://artifacts.apis.io/nimbleway/llms/nimbleway-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/nimbleway-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/packages/nimbleway-packages.yml
+  href: https://artifacts.apis.io/nimbleway/packages/nimbleway-packages.yml
   title: ''
   type: Packages
   url: packages/nimbleway-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/packages/nimbleway-packages.yml
+  href: https://artifacts.apis.io/nimbleway/packages/nimbleway-packages.yml
   title: ''
   type: SDKs
   url: packages/nimbleway-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/cli/nimbleway-cli.yml
+  href: https://artifacts.apis.io/nimbleway/cli/nimbleway-cli.yml
   title: ''
   type: CLI
   url: cli/nimbleway-cli.yml
@@ -297,6 +301,14 @@ common:
   url: https://nimbleway.com
 created: '2026-07-17'
 description: Nimble (Nimbleway) is a real-time web data intelligence platform that turns any public web page into structured, analysis-ready data at scale. Its AI-Native SDK exposes Search, Extract, Map, Crawl, SERP, Media Download, and Web Search Agents over a single REST API (https://sdk.nimbleway.com/v1), plus a managed Jobs layer for recurring, scheduled collection. Nimble ships first-party Python, TypeScript, Go (CLI), LangChain, Scrapy, and Vercel AI SDK libraries, an official Model Context Protocol server, and native connectors for Databricks, Snowflake, Azure, and Claude. The platform is SOC 2, GDPR, and CCPA compliant. Originally added to the API Evangelist network as a Norwest Venture Partners portfolio lead, now enriched from Nimble's public developer surface.
+finops:
+- has_sources: true
+  method: derived
+  name: Nimbleway Finops
+  primary_unit: 1k requests
+  service_category: ''
+  slug: nimbleway-finops
+  template: false
 image: https://logo.clearbit.com/nimbleway.com
 layout: provider
 mcp_servers:
@@ -310,31 +322,38 @@ network: true
 overview: 'Nimbleway publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agents API, Crawl API, Domain Knowledge API, and 8 more. Tagged areas include Company, Web Data, Web Scraping, Data Extraction, and Web Search.
 
 
-  Nimbleway''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, engineering blog, and 27 more developer resources.'
-random_paper: 0
+  Nimbleway''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, engineering blog, and 28 more developer resources.'
+plans:
+- name: Nimbleway Plans Pricing
+  plan_count: 11
+  slug: nimbleway-plans-pricing
+- name: Nimbleway Price Estimates
+  plan_count: 0
+  slug: nimbleway-price-estimates
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Nimbleway Rate Limits
   slug: nimbleway-rate-limits
 score:
   band: strong
-  composite: 55.7
+  composite: 65.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 45.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    artifact_dirs: 25
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 50.6
-    developer_ergonomics: 68.5
-    discoverability: 75.0
-    operational_transparency: 47.4
-  previous_composite: 55.7
+    contract_quality: 50.0
+    developer_ergonomics: 73.2
+    discoverability: 65.0
+    operational_transparency: 57.9
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -357,13 +376,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/screenshots/nimbleway-2026-08-07T185313.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nimbleway/nimbleway-2026-08-07T185313.png
 security:
 - kind: authentication
   name: Nimbleway Authentication
@@ -377,6 +397,14 @@ security:
   name: Nimbleway Trust Center
   slug: nimbleway-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 3
+skills:
+- name: Crawl a website and collect the results
+  slug: nimbleway-crawl-a-site
+- name: Run a Web Search Agent (async, with task polling)
+  slug: nimbleway-run-web-search-agent
+- name: Search the live web and extract a page
+  slug: nimbleway-search-and-extract
 slug: nimbleway
 tags:
 - Company

@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.3
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 20.2
+  scored_at: '2026-10-31'
+api_count: 2
 apis:
 - baseURL: https://api.refurbed.com
   baseurl_source: declared
@@ -128,11 +130,8 @@ apis:
   description: The TicketService API from Refurbed — 10 operation(s) for ticketservice.
   name: Refurbed TicketService API
   slug: refurbed-ticketservice-api
-artifact_total: 40
+artifact_total: 43
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Affiliate Partner BuybackBidService API
   slug: open-refurbed-buybackbidservice-api
@@ -189,17 +188,17 @@ collections:
   slug: open-refurbed-ticketservice-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/capabilities/refurbed-capability-edges.yml
+  href: https://artifacts.apis.io/refurbed/capabilities/refurbed-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/refurbed-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/security/refurbed-domain-security.yml
+  href: https://artifacts.apis.io/refurbed/security/refurbed-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/refurbed-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/authentication/refurbed-authentication.yml
+  href: https://artifacts.apis.io/refurbed/authentication/refurbed-authentication.yml
   title: ''
   type: Authentication
   url: authentication/refurbed-authentication.yml
@@ -232,67 +231,67 @@ common:
   type: GettingStarted
   url: https://gitlab.com/refurbed-community/public-apis/-/blob/master/refurbed_merchant_api/refb/merchant/v1/README.md
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/conventions/refurbed-conventions.yml
+  href: https://artifacts.apis.io/refurbed/conventions/refurbed-conventions.yml
   title: ''
   type: Conventions
   url: conventions/refurbed-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/errors/refurbed-error-codes.yml
+  href: https://artifacts.apis.io/refurbed/errors/refurbed-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/refurbed-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/lifecycle/refurbed-lifecycle.yml
+  href: https://artifacts.apis.io/refurbed/lifecycle/refurbed-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/refurbed-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/rate-limits/refurbed-rate-limits.yml
+  href: https://artifacts.apis.io/refurbed/rate-limits/refurbed-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/refurbed-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/conformance/refurbed-conformance.yml
+  href: https://artifacts.apis.io/refurbed/conformance/refurbed-conformance.yml
   title: ''
   type: Conformance
   url: conformance/refurbed-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/data-model/refurbed-data-model.yml
+  href: https://artifacts.apis.io/refurbed/data-model/refurbed-data-model.yml
   title: ''
   type: DataModel
   url: data-model/refurbed-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/mcp/refurbed-mcp.yml
+  href: https://artifacts.apis.io/refurbed/mcp/refurbed-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/refurbed-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/refurbed/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/llms/refurbed-llms.txt
+  href: https://artifacts.apis.io/refurbed/llms/refurbed-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/refurbed-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/packages/refurbed-packages.yml
+  href: https://artifacts.apis.io/refurbed/packages/refurbed-packages.yml
   title: ''
   type: Packages
   url: packages/refurbed-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/overlays/refurbed-merchant-overlay.yaml
+  href: https://artifacts.apis.io/refurbed/overlays/refurbed-merchant-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/refurbed-merchant-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/overlays/refurbed-affiliate-overlay.yaml
+  href: https://artifacts.apis.io/refurbed/overlays/refurbed-affiliate-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/refurbed-affiliate-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/grpc/refurbed_merchant_api/refb/merchant/v1/services
+  href: https://artifacts.apis.io/refurbed/grpc/refurbed_merchant_api/refb/merchant/v1/services
   title: ''
   type: Protobuf
   url: grpc/refurbed_merchant_api/refb/merchant/v1/services
@@ -308,29 +307,29 @@ overview: 'Refurbed publishes 18 API contracts indexed on the [APIs.io](https://
 
 
   Refurbed''s developer surface includes authentication, documentation, support, API reference, getting-started guide, and 18 more developer resources.'
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Refurbed Rate Limits
   slug: refurbed-rate-limits
 score:
   band: thin
-  composite: 28.5
+  composite: 28.3
   coverage:
     artifact_dirs: 20
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 46.9
     developer_ergonomics: 47.0
-    discoverability: 78.6
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -339,7 +338,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 28.5
+  previous_composite: 28.8
   provenance:
     conformance: derived
     contracts:
@@ -355,13 +354,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/screenshots/refurbed-2026-09-02T153236.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/refurbed/refurbed-2026-09-02T153236.png
 security:
 - kind: authentication
   name: Refurbed Authentication
@@ -371,6 +371,16 @@ security:
   name: Refurbed Domain Security
   slug: refurbed-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Browse the refurbed catalog (Affiliate Partner API)
+  slug: refurbed-browse-catalog
+- name: Fulfill a refurbed order
+  slug: refurbed-fulfill-order
+- name: Manage refurbed offers and market prices
+  slug: refurbed-manage-offers
+- name: Refund a refurbed order item
+  slug: refurbed-refund-order-item
 slug: refurbed
 tags:
 - Company

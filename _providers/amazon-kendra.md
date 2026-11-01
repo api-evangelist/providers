@@ -23,19 +23,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -85,6 +87,36 @@ apis:
   description: Operations for managing FAQ entries
   name: Amazon Kendra FA Qs API
   slug: amazon-kendra-faqs-api
+- baseURL: https://kendra.amazonaws.com
+  baseurl_source: declared
+  description: The Kendra Access Control Configuration API from Amazon Kendra — 5 operation(s) for kendra access control configuration.
+  name: Amazon Kendra Kendra Access Control Configuration API
+  slug: amazon-kendra-access-control-configuration-api
+- baseURL: https://kendra.amazonaws.com
+  baseurl_source: declared
+  description: The Kendra Data Source Sync Job API from Amazon Kendra — 3 operation(s) for kendra data source sync job.
+  name: Amazon Kendra Kendra Data Source Sync Job API
+  slug: amazon-kendra-data-source-sync-job-api
+- baseURL: https://kendra.amazonaws.com
+  baseurl_source: declared
+  description: The Kendra Featured Results Set API from Amazon Kendra — 5 operation(s) for kendra featured results set.
+  name: Amazon Kendra Kendra Featured Results Set API
+  slug: amazon-kendra-featured-results-set-api
+- baseURL: https://kendra.amazonaws.com
+  baseurl_source: declared
+  description: The Kendra Operations API from Amazon Kendra — 18 operation(s) for kendra operations.
+  name: Amazon Kendra Kendra Operations API
+  slug: amazon-kendra-operations-api
+- baseURL: https://kendra.amazonaws.com
+  baseurl_source: declared
+  description: The Kendra Principal Mapping API from Amazon Kendra — 3 operation(s) for kendra principal mapping.
+  name: Amazon Kendra Kendra Principal Mapping API
+  slug: amazon-kendra-principal-mapping-api
+- baseURL: https://kendra.amazonaws.com
+  baseurl_source: declared
+  description: The Kendra Query Suggestions Block List API from Amazon Kendra — 5 operation(s) for kendra query suggestions block list.
+  name: Amazon Kendra Kendra Query Suggestions Block List API
+  slug: amazon-kendra-query-suggestions-block-list-api
 arazzos:
 - description: Load an FAQ file from S3 into an index, wait until it is active, then query for FAQ-backed answers.
   name: Amazon Kendra Create FAQ and Query
@@ -122,14 +154,11 @@ arazzos:
 - description: Delete a data source connector, confirm it is gone, then delete the index that owned it.
   name: Amazon Kendra Teardown Data Source and Index
   slug: amazon-kendra-teardown-data-source-and-index-workflow
-artifact_total: 67
+artifact_total: 72
 collections:
 - collection_type: postman
   name: Amazon Kendra API
   slug: postman-amazon-kendra
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Kendra Data Sources API
   slug: open-amazon-kendra-data-sources-api
@@ -158,18 +187,23 @@ collections:
   name: Amazon Kendra API
   slug: open-amazon-kendra
 common:
+- group: other
+  href: https://artifacts.apis.io/amazon-kendra/capabilities/amazon-kendra-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-kendra-capability-edges.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/rate-limits/amazon-kendra-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-kendra/rate-limits/amazon-kendra-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-kendra-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/finops/amazon-kendra-finops.yml
+  href: https://artifacts.apis.io/amazon-kendra/finops/amazon-kendra-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-kendra-finops.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/plans/amazon-kendra-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-kendra/plans/amazon-kendra-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-kendra-plans-pricing.yml
@@ -178,27 +212,27 @@ common:
   type: Website
   url: https://aws.amazon.com/kendra/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/agentic-access/amazon-kendra-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-kendra/agentic-access/amazon-kendra-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-kendra-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/security/amazon-kendra-trust-center.yml
+  href: https://artifacts.apis.io/amazon-kendra/security/amazon-kendra-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-kendra-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/security/amazon-kendra-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-kendra/security/amazon-kendra-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-kendra-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/security/amazon-kendra-domain-security.yml
+  href: https://artifacts.apis.io/amazon-kendra/security/amazon-kendra-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-kendra-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/authentication/amazon-kendra-authentication.yml
+  href: https://artifacts.apis.io/amazon-kendra/authentication/amazon-kendra-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-kendra-authentication.yml
@@ -207,62 +241,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-kendra/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/arazzo/amazon-kendra-create-faq-and-query-workflow.yml
+  href: https://artifacts.apis.io/amazon-kendra/arazzo/amazon-kendra-create-faq-and-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kendra-create-faq-and-query-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/arazzo/amazon-kendra-create-search-experience-workflow.yml
+  href: https://artifacts.apis.io/amazon-kendra/arazzo/amazon-kendra-create-search-experience-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kendra-create-search-experience-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/arazzo/amazon-kendra-create-thesaurus-and-query-workflow.yml
+  href: https://artifacts.apis.io/amazon-kendra/arazzo/amazon-kendra-create-thesaurus-and-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kendra-create-thesaurus-and-query-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/arazzo/amazon-kendra-ingest-documents-and-query-workflow.yml
+  href: https://artifacts.apis.io/amazon-kendra/arazzo/amazon-kendra-ingest-documents-and-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kendra-ingest-documents-and-query-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/arazzo/amazon-kendra-provision-index-and-sync-workflow.yml
+  href: https://artifacts.apis.io/amazon-kendra/arazzo/amazon-kendra-provision-index-and-sync-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kendra-provision-index-and-sync-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/arazzo/amazon-kendra-query-suggestions-then-search-workflow.yml
+  href: https://artifacts.apis.io/amazon-kendra/arazzo/amazon-kendra-query-suggestions-then-search-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kendra-query-suggestions-then-search-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/arazzo/amazon-kendra-refresh-documents-workflow.yml
+  href: https://artifacts.apis.io/amazon-kendra/arazzo/amazon-kendra-refresh-documents-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kendra-refresh-documents-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/arazzo/amazon-kendra-reschedule-and-resync-data-source-workflow.yml
+  href: https://artifacts.apis.io/amazon-kendra/arazzo/amazon-kendra-reschedule-and-resync-data-source-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kendra-reschedule-and-resync-data-source-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/arazzo/amazon-kendra-resolve-index-and-query-workflow.yml
+  href: https://artifacts.apis.io/amazon-kendra/arazzo/amazon-kendra-resolve-index-and-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kendra-resolve-index-and-query-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/arazzo/amazon-kendra-retrieve-passages-for-rag-workflow.yml
+  href: https://artifacts.apis.io/amazon-kendra/arazzo/amazon-kendra-retrieve-passages-for-rag-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kendra-retrieve-passages-for-rag-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/arazzo/amazon-kendra-sync-data-source-and-query-workflow.yml
+  href: https://artifacts.apis.io/amazon-kendra/arazzo/amazon-kendra-sync-data-source-and-query-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kendra-sync-data-source-and-query-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/arazzo/amazon-kendra-teardown-data-source-and-index-workflow.yml
+  href: https://artifacts.apis.io/amazon-kendra/arazzo/amazon-kendra-teardown-data-source-and-index-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/amazon-kendra-teardown-data-source-and-index-workflow.yml
@@ -331,12 +365,12 @@ common:
   type: GitHubOrganization
   url: https://github.com/aws
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/rules/amazon-kendra-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-kendra/rules/amazon-kendra-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-kendra-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/vocabulary/amazon-kendra-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-kendra/vocabulary/amazon-kendra-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-kendra-vocabulary.yaml
@@ -373,13 +407,13 @@ features:
 - description: Learns from user interactions and feedback to promote preferred documents to the top of search results over time.
   name: Incremental Learning
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Kendra Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: hour
+  service_category: ''
   slug: amazon-kendra-finops
-  template: true
+  template: false
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 json_schemas:
 - name: DataSource
@@ -417,13 +451,13 @@ modified: '2026-09-16'
 name: Amazon Kendra
 nav: Providers
 network: true
-overview: 'Amazon Kendra publishes 8 API contracts indexed on the [APIs.io](https://apis.io/) network, including Data Sources API, Documents API, Experience API, and 5 more. Tagged areas include Artificial Intelligence, Enterprise Search, Knowledge Management, Machine Learning, and Natural-Language.
+overview: 'Amazon Kendra publishes 14 API contracts indexed on the [APIs.io](https://apis.io/) network, including Data Sources API, Documents API, Experience API, and 11 more. Tagged areas include Artificial Intelligence, Enterprise Search, Knowledge Management, Machine Learning, and Natural-Language.
 
 
   The Amazon Kendra catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Kendra''s developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 33 more developer resources.'
+  Amazon Kendra''s developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 34 more developer resources.'
 plans:
 - name: Amazon Kendra Plans Pricing
   plan_count: 10
@@ -458,44 +492,50 @@ rules:
     warn: 16
   slug: amazon-kendra-spectral-rules
 score:
-  band: strong
-  composite: 64.8
+  band: exemplar
+  composite: 70.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 78.0
+    artifact_dirs: 22
+    catalog_earned: 81.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 37.0
+    catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.2
+  delta: 2.0
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 27.3
-    contract_quality: 67.5
-    developer_ergonomics: 67.9
+    contract_quality: 64.8
+    developer_ergonomics: 79.8
     discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 61.6
+    operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 68.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 8
+      marker_coverage: 42.9
+      total: 14
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/screenshots/amazon-kendra-2026-06-20T171715.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-kendra/amazon-kendra-2026-06-20T171715.png
 security:
 - kind: authentication
   name: Amazon Kendra Authentication

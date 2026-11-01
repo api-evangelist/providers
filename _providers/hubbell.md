@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hubbell/refs/heads/main/security/hubbell-domain-security.yml
+  href: https://artifacts.apis.io/hubbell/security/hubbell-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hubbell-domain-security.yml
@@ -54,7 +56,7 @@ common:
   type: CustomerPortal
   url: https://www.hubbellconnect.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hubbell/refs/heads/main/rules/hubbell-rules.yml
+  href: https://artifacts.apis.io/hubbell/rules/hubbell-rules.yml
   title: ''
   type: Rules
   url: rules/hubbell-rules.yml
@@ -86,7 +88,7 @@ press:
 - date: ''
   title: 'Artificial Intelligence Part 1: The Basics for Utilities'
   url: https://blog.hubbell.com/en/aclara/artificial-intelligence-part-1-the-basics-for-utilities
-random_paper: 8
+random_paper: 14
 rules:
 - authorship: unmarked
   effective_rule_count: 0
@@ -124,14 +126,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 4.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/hubbell/refs/heads/main/screenshots/hubbell-2026-08-07T182014.png
+screenshot: https://apis.io/screenshots/hubbell/hubbell-2026-08-07T182014.png
 security:
 - kind: domain-security
   name: Hubbell Domain Security

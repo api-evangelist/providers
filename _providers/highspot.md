@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.9
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'The Highspot REST API provides programmatic access to the Highspot sales enablement platform, enabling management of content (spots and items), users, groups, pitches, domain settings, and analytics. '
@@ -44,18 +46,46 @@ apis:
   slug: highspot-mcp-server
 artifact_total: 12
 common:
+- group: operate
+  href: https://artifacts.apis.io/highspot/lifecycle/highspot-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/highspot-lifecycle.yml
+- group: other
+  href: https://artifacts.apis.io/highspot/hosts/highspot-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/highspot-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/highspot/integrations/highspot-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/highspot-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/highspot/vendors/highspot-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/highspot-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.highspot.com/news/
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.highspot.com/leadership/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/security/highspot-trust-center.yml
+  href: https://artifacts.apis.io/highspot/security/highspot-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/highspot-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/security/highspot-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/highspot/security/highspot-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/highspot-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/security/highspot-domain-security.yml
+  href: https://artifacts.apis.io/highspot/security/highspot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/highspot-domain-security.yml
@@ -108,62 +138,57 @@ common:
   type: GitHub
   url: https://github.com/highspot
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/plans/highspot-plans-pricing.yml
+  href: https://artifacts.apis.io/highspot/plans/highspot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/highspot-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/rate-limits/highspot-rate-limits.yml
+  href: https://artifacts.apis.io/highspot/rate-limits/highspot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/highspot-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/finops/highspot-finops.yml
+  href: https://artifacts.apis.io/highspot/finops/highspot-finops.yml
   title: ''
   type: FinOps
   url: finops/highspot-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/well-known/highspot-well-known.yml
+  href: https://artifacts.apis.io/highspot/well-known/highspot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/highspot-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/llms/highspot-llms.txt
+  href: https://artifacts.apis.io/highspot/llms/highspot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/highspot-llms.txt
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/packages/highspot-packages.yml
-  title: ''
-  type: Packages
-  url: packages/highspot-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/authentication/highspot-authentication.yml
+  href: https://artifacts.apis.io/highspot/authentication/highspot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/highspot-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/scopes/highspot-scopes.yml
+  href: https://artifacts.apis.io/highspot/scopes/highspot-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/highspot-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/conventions/highspot-conventions.yml
+  href: https://artifacts.apis.io/highspot/conventions/highspot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/highspot-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/conformance/highspot-conformance.yml
+  href: https://artifacts.apis.io/highspot/conformance/highspot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/highspot-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/security/highspot-trust-center.yml
+  href: https://artifacts.apis.io/highspot/security/highspot-trust-center.yml
   title: ''
   type: Compliance
   url: security/highspot-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/lifecycle/highspot-lifecycle.yml
+  href: https://artifacts.apis.io/highspot/lifecycle/highspot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/highspot-lifecycle.yml
@@ -202,8 +227,8 @@ common:
 created: '2026-06-13'
 description: Highspot is a sales enablement and go-to-market platform whose API surface splits in two. A per-tenant REST API at https://api-{instance}.highspot.com/v1.0 covers spots, items, item content, users, groups, pitches and analytics, authenticated with an API client key and secret issued from account settings; it has no public reference and no published OpenAPI. Alongside it Highspot runs a first-party remote MCP server at https://mcp.highspot.com/mcp, verified live, secured with OAuth 2.1 (dynamic client registration, PKCE, scopes mcp:read / mcp:write / offline_access) and discoverable through RFC 8414 and RFC 9728 metadata documents. The MCP server exposes content search, instant answers, deal context, content recommendations, linked pitches, Digital Room generation and Highspot Agents to OpenAI, Anthropic and Microsoft Copilot clients. Both the MCP server and the Insights Layer APIs are gated to the top "Best" subscription tier.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Highspot Finops
   primary_unit: ''
   service_category: ''
@@ -212,12 +237,12 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/highspot.png
 layout: provider
 mcp_servers:
-- description: Highspot ships a first-party REMOTE Model Context Protocol server at https://mcp.highspot.com/mcp. It is a hosted HTTP MCP endpoint — an agent POSTs JSON-RPC to it directly; there is no npx/stdio pack
-  name: Highspot MCP Server
-  slug: highspot-mcp-server
 - description: ''
   name: Highspot MCP Server
   slug: https-www-highspot-com-product-mcp-server
+- description: Highspot ships a first-party REMOTE Model Context Protocol server at https://mcp.highspot.com/mcp. It is a hosted HTTP MCP endpoint — an agent POSTs JSON-RPC to it directly; there is no npx/stdio pack
+  name: Highspot MCP Server
+  slug: highspot-mcp-server
 modified: '2026-08-14'
 name: Highspot
 nav: Providers
@@ -225,12 +250,12 @@ network: true
 overview: 'Highspot is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Enablement, Content Management, Pitch Analytics, CRM Integration, and Buyer Engagement.
 
 
-  Highspot''s developer surface includes pricing, status page, privacy policy, engineering blog, GitHub presence, authentication, support, and 28 more developer resources.'
+  Highspot''s developer surface includes pricing, status page, privacy policy, engineering blog, GitHub presence, authentication, support, and 33 more developer resources.'
 plans:
 - name: Highspot Plans Pricing
   plan_count: 3
   slug: highspot-plans-pricing
-random_paper: 12
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Highspot Rate Limits
@@ -242,23 +267,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 43.0
+  composite: 46.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 20
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 85.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.6
-    discoverability: 75.0
-    operational_transparency: 50.0
-  previous_composite: 44.5
+    developer_ergonomics: 38.1
+    discoverability: 68.3
+    operational_transparency: 60.5
+  previous_composite: 46.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -268,14 +293,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/highspot/refs/heads/main/screenshots/highspot-2026-06-20T182731.png
+screenshot: https://apis.io/screenshots/highspot/highspot-2026-06-20T182731.png
 security:
 - kind: authentication
   name: Highspot Authentication
@@ -284,7 +309,7 @@ security:
 - kind: domain-security
   name: Highspot Domain Security
   slug: highspot-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 - kind: vulnerability-disclosure
   name: Highspot Vulnerability Disclosure
   slug: highspot-vulnerability-disclosure

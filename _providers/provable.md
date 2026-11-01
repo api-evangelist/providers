@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,13 +36,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Aurora Connect (Buf) API for the SEC-registered securities-finance ATS — authentication, company/instrument reference, order management (OMS), venue order book, contract requests, contract lifecyc
   name: Aurora API
   slug: aurora-api
-artifact_total: 4
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Provable Events Webhooks
@@ -51,7 +53,7 @@ common:
   type: Website
   url: https://www.provablemarkets.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/security/provable-domain-security.yml
+  href: https://artifacts.apis.io/provable/security/provable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/provable-domain-security.yml
@@ -88,57 +90,57 @@ common:
   type: Compliance
   url: https://provablemarkets.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/llms/provable-llms.txt
+  href: https://artifacts.apis.io/provable/llms/provable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/provable-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/well-known/provable-well-known.yml
+  href: https://artifacts.apis.io/provable/well-known/provable-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/provable-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/authentication/provable-authentication.yml
+  href: https://artifacts.apis.io/provable/authentication/provable-authentication.yml
   title: ''
   type: Authentication
   url: authentication/provable-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/conventions/provable-conventions.yml
+  href: https://artifacts.apis.io/provable/conventions/provable-conventions.yml
   title: ''
   type: Conventions
   url: conventions/provable-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/asyncapi/provable-events-webhooks.yml
+  href: https://artifacts.apis.io/provable/asyncapi/provable-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/provable-events-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/mcp/provable-mcp.yml
+  href: https://artifacts.apis.io/provable/mcp/provable-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/provable-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/conformance/provable-conformance.yml
+  href: https://artifacts.apis.io/provable/conformance/provable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/provable-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/lifecycle/provable-lifecycle.yml
+  href: https://artifacts.apis.io/provable/lifecycle/provable-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/provable-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/changelog/provable-changelog.yml
+  href: https://artifacts.apis.io/provable/changelog/provable-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/provable-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/data-model/provable-data-model.yml
+  href: https://artifacts.apis.io/provable/data-model/provable-data-model.yml
   title: ''
   type: DataModel
   url: data-model/provable-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/provable/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -157,10 +159,10 @@ overview: 'Provable is listed with 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Provable''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, and 15 more developer resources.'
-random_paper: 1
+random_paper: 19
 score:
-  band: thin
-  composite: 35.2
+  band: developing
+  composite: 41.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -168,15 +170,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 24.4
-    discoverability: 73.2
+    developer_ergonomics: 58.9
+    discoverability: 66.1
     operational_transparency: 23.7
-  previous_composite: 35.1
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -187,14 +189,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 35.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/screenshots/provable-2026-08-17T081404.png
+screenshot: https://apis.io/screenshots/provable/provable-2026-08-17T081404.png
 security:
 - kind: authentication
   name: Provable Authentication
@@ -204,6 +206,12 @@ security:
   name: Provable Domain Security
   slug: provable-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Manage an Aurora securities-lending contract lifecycle
+  slug: provable-contract-lifecycle
+- name: Place and manage a securities-lending order on Aurora
+  slug: provable-place-and-manage-order
 slug: provable
 tags:
 - Company

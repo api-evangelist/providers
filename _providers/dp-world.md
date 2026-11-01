@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: DP World's APIs provide access to shipping schedules, container status, terminal operations, freight rates, and supply chain visibility data across the company's global port and logistics network. Thr
@@ -42,17 +44,17 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dp-world/refs/heads/main/plans/dp-world-plans-pricing.yml
+  href: https://artifacts.apis.io/dp-world/plans/dp-world-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/dp-world-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/dp-world/refs/heads/main/rate-limits/dp-world-rate-limits.yml
+  href: https://artifacts.apis.io/dp-world/rate-limits/dp-world-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/dp-world-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/dp-world/refs/heads/main/finops/dp-world-finops.yml
+  href: https://artifacts.apis.io/dp-world/finops/dp-world-finops.yml
   title: ''
   type: FinOps
   url: finops/dp-world-finops.yml
@@ -61,7 +63,7 @@ common:
   type: Blog
   url: https://www.dpworld.com/en/insights
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/dp-world/refs/heads/main/security/dp-world-domain-security.yml
+  href: https://artifacts.apis.io/dp-world/security/dp-world-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/dp-world-domain-security.yml
@@ -87,7 +89,7 @@ finops:
 - has_sources: false
   method: generated
   name: Dp World Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: dp-world-finops
   template: true
@@ -112,7 +114,7 @@ rate_limits:
   slug: dp-world-rate-limits
 score:
   band: minimal
-  composite: 6.5
+  composite: 8.4
   coverage:
     artifact_dirs: 8
     catalog_earned: 33.0
@@ -120,12 +122,12 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
+    developer_ergonomics: 11.9
     discoverability: 48.2
     operational_transparency: 7.9
   jurisdiction:
@@ -133,21 +135,21 @@ score:
     countries:
     - united-arab-emirates
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 7.6
+  previous_composite: 8.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/dp-world/refs/heads/main/screenshots/dp-world-2026-06-20T180227.png
+screenshot: https://apis.io/screenshots/dp-world/dp-world-2026-06-20T180227.png
 security:
 - kind: domain-security
   name: Dp World Domain Security

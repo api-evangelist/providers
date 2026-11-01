@@ -15,8 +15,9 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -28,16 +29,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 39.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -95,15 +98,12 @@ arazzos:
 - description: Create a devices user, mint a Connect Widget session token, then pull the user's activity and biometrics data from connected wearables.
   name: Metriport Wearables Connect
   slug: metriport-wearables-connect-workflow
-artifact_total: 42
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Metriport Webhooks
   slug: metriport-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Metriport Consolidated API
   slug: open-metriport-consolidated-api
@@ -130,27 +130,27 @@ collections:
   slug: open-metriport
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/rules/metriport-rules.yml
+  href: https://artifacts.apis.io/metriport/rules/metriport-rules.yml
   title: ''
   type: Spectral
   url: rules/metriport-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/json-ld/metriport-context.jsonld
+  href: https://artifacts.apis.io/metriport/json-ld/metriport-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/metriport-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/vocabulary/metriport-vocabulary.yml
+  href: https://artifacts.apis.io/metriport/vocabulary/metriport-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/metriport-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/hosts/metriport-hosts.yml
+  href: https://artifacts.apis.io/metriport/hosts/metriport-hosts.yml
   title: ''
   type: Hosts
   url: hosts/metriport-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/vendors/metriport-vendors.yml
+  href: https://artifacts.apis.io/metriport/vendors/metriport-vendors.yml
   title: ''
   type: Vendors
   url: vendors/metriport-vendors.yml
@@ -159,22 +159,22 @@ common:
   type: Newsroom
   url: https://www.metriport.com/news
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/capabilities/metriport-capability-edges.yml
+  href: https://artifacts.apis.io/metriport/capabilities/metriport-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/metriport-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/agentic-access/metriport-agentic-access.yml
+  href: https://artifacts.apis.io/metriport/agentic-access/metriport-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/metriport-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/security/metriport-domain-security.yml
+  href: https://artifacts.apis.io/metriport/security/metriport-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/metriport-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/authentication/metriport-authentication.yml
+  href: https://artifacts.apis.io/metriport/authentication/metriport-authentication.yml
   title: ''
   type: Authentication
   url: authentication/metriport-authentication.yml
@@ -195,12 +195,12 @@ common:
   type: Documentation
   url: https://docs.metriport.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/rate-limits/metriport-rate-limits.yml
+  href: https://artifacts.apis.io/metriport/rate-limits/metriport-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/metriport-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/finops/metriport-finops.yml
+  href: https://artifacts.apis.io/metriport/finops/metriport-finops.yml
   title: ''
   type: FinOps
   url: finops/metriport-finops.yml
@@ -213,102 +213,102 @@ common:
   type: Blog
   url: https://www.metriport.com/blog
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/packages/metriport-packages.yml
+  href: https://artifacts.apis.io/metriport/packages/metriport-packages.yml
   title: ''
   type: Packages
   url: packages/metriport-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/packages/metriport-packages.yml
+  href: https://artifacts.apis.io/metriport/packages/metriport-packages.yml
   title: ''
   type: SDKs
   url: packages/metriport-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/well-known/metriport-well-known.yml
+  href: https://artifacts.apis.io/metriport/well-known/metriport-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/metriport-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/mcp/metriport-mcp.yml
+  href: https://artifacts.apis.io/metriport/mcp/metriport-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/metriport-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/mcp/metriport-tool-crosswalk.yml
+  href: https://artifacts.apis.io/metriport/mcp/metriport-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/metriport-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/a2a/metriport-a2a.yml
+  href: https://artifacts.apis.io/metriport/a2a/metriport-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/metriport-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/metriport/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/llms/metriport-llms.txt
+  href: https://artifacts.apis.io/metriport/llms/metriport-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/metriport-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/conformance/metriport-conformance.yml
+  href: https://artifacts.apis.io/metriport/conformance/metriport-conformance.yml
   title: ''
   type: Conformance
   url: conformance/metriport-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/security/metriport-trust-center.yml
+  href: https://artifacts.apis.io/metriport/security/metriport-trust-center.yml
   title: ''
   type: Compliance
   url: security/metriport-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/security/metriport-trust-center.yml
+  href: https://artifacts.apis.io/metriport/security/metriport-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/metriport-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/security/metriport-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/metriport/security/metriport-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/metriport-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/security/metriport-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/metriport/security/metriport-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/metriport-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/errors/metriport-problem-types.yml
+  href: https://artifacts.apis.io/metriport/errors/metriport-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/metriport-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/lifecycle/metriport-lifecycle.yml
+  href: https://artifacts.apis.io/metriport/lifecycle/metriport-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/metriport-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/conventions/metriport-conventions.yml
+  href: https://artifacts.apis.io/metriport/conventions/metriport-conventions.yml
   title: ''
   type: Conventions
   url: conventions/metriport-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/sandbox/metriport-sandbox.yml
+  href: https://artifacts.apis.io/metriport/sandbox/metriport-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/metriport-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/components/metriport-components.yml
+  href: https://artifacts.apis.io/metriport/components/metriport-components.yml
   title: ''
   type: Components
   url: components/metriport-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/data-model/metriport-data-model.yml
+  href: https://artifacts.apis.io/metriport/data-model/metriport-data-model.yml
   title: ''
   type: DataModel
   url: data-model/metriport-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/asyncapi/metriport-webhooks.yml
+  href: https://artifacts.apis.io/metriport/asyncapi/metriport-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/metriport-webhooks.yml
@@ -419,7 +419,7 @@ plans:
 - name: Metriport Plans Pricing
   plan_count: 0
   slug: metriport-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 10
   name: Metriport Rate Limits
@@ -438,8 +438,8 @@ rules:
     warn: 1
   slug: metriport-rules
 score:
-  band: strong
-  composite: 64.0
+  band: exemplar
+  composite: 66.6
   coverage:
     artifact_dirs: 36
     catalog_earned: 74.8
@@ -447,15 +447,15 @@ score:
     catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.2
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 35.6
-    contract_quality: 69.9
-    developer_ergonomics: 71.4
-    discoverability: 76.7
-    operational_transparency: 60.5
-  previous_composite: 66.2
+    contract_quality: 67.0
+    developer_ergonomics: 83.3
+    discoverability: 66.7
+    operational_transparency: 71.1
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -476,13 +476,14 @@ score:
     regime: Health
     regime_id: health
     score: 32.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/screenshots/metriport-2026-08-07T172739.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/metriport/metriport-2026-08-07T172739.png
 security:
 - kind: authentication
   name: Metriport Authentication
@@ -500,6 +501,16 @@ security:
   name: Metriport Trust Center
   slug: metriport-trust-center
   summary_line: SOC 2 Type II, HIPAA
+skill_count: 4
+skills:
+- name: metriport-consolidated-fhir-query
+  slug: metriport-consolidated-fhir-query
+- name: metriport-medical-api-skill
+  slug: metriport-medical-api-skill
+- name: metriport-patient-document-retrieval
+  slug: metriport-patient-document-retrieval
+- name: metriport-webhook-onboarding
+  slug: metriport-webhook-onboarding
 slug: metriport
 tags:
 - Healthcare

@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-10-17'
+  score: 22.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,9 +86,6 @@ collections:
   name: Monoscope Platform Metrics Schema API
   slug: postman-apitoolkit-schema-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Monoscope Platform Metrics API
   slug: open-apitoolkit-metrics-api
 - collection_type: open
@@ -100,7 +99,7 @@ collections:
   slug: open-monoscope-platform
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/capabilities/apitoolkit-capability-edges.yml
+  href: https://artifacts.apis.io/apitoolkit/capabilities/apitoolkit-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/apitoolkit-capability-edges.yml
@@ -129,17 +128,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/apitoolkit-monoscope/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/agentic-access/apitoolkit-agentic-access.yml
+  href: https://artifacts.apis.io/apitoolkit/agentic-access/apitoolkit-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apitoolkit-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/security/apitoolkit-domain-security.yml
+  href: https://artifacts.apis.io/apitoolkit/security/apitoolkit-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apitoolkit-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/authentication/apitoolkit-authentication.yml
+  href: https://artifacts.apis.io/apitoolkit/authentication/apitoolkit-authentication.yml
   title: ''
   type: Authentication
   url: authentication/apitoolkit-authentication.yml
@@ -212,17 +211,17 @@ common:
   type: License
   url: ''
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/plans/apitoolkit-plans-pricing.yml
+  href: https://artifacts.apis.io/apitoolkit/plans/apitoolkit-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apitoolkit-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/rate-limits/apitoolkit-rate-limits.yml
+  href: https://artifacts.apis.io/apitoolkit/rate-limits/apitoolkit-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apitoolkit-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/finops/apitoolkit-finops.yml
+  href: https://artifacts.apis.io/apitoolkit/finops/apitoolkit-finops.yml
   title: ''
   type: FinOps
   url: finops/apitoolkit-finops.yml
@@ -291,13 +290,13 @@ features:
 - description: Kusto-style query language for searching events, logs, and traces with operators and aggregations.
   name: KQL Query Language
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Apitoolkit Finops
-  primary_unit: ''
-  service_category: Observability / Developer Tools
+  primary_unit: events
+  service_category: ''
   slug: apitoolkit-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apitoolkit.png
 integrations:
 - description: SDK with Express, Fastify, NestJS, Next.js, and AdonisJS framework adapters.
@@ -406,7 +405,10 @@ plans:
 - name: Apitoolkit Plans Pricing
   plan_count: 4
   slug: apitoolkit-plans-pricing
-random_paper: 10
+- name: Apitoolkit Price Estimates
+  plan_count: 0
+  slug: apitoolkit-price-estimates
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Apitoolkit Rate Limits
@@ -437,23 +439,23 @@ rules:
   slug: monoscope-platform-rules
 score:
   band: developing
-  composite: 41.3
+  composite: 49.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 55.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    artifact_dirs: 20
+    catalog_earned: 67.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 18.4
+    access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 56.9
-    developer_ergonomics: 48.8
+    developer_ergonomics: 51.2
     discoverability: 57.1
-    operational_transparency: 34.2
-  previous_composite: 42.8
+    operational_transparency: 44.7
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -467,14 +469,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/screenshots/apitoolkit-2026-06-20T172258.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apitoolkit/apitoolkit-2026-06-20T172258.png
 security:
 - kind: authentication
   name: Apitoolkit Authentication
@@ -492,7 +494,7 @@ tags:
 - API Management
 - API Monitoring
 - API Testing
-- Breaking Change Detection
+- Breaking Changes
 - CLI
 - Debugging
 - Developer Tools

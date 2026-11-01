@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.1
-  scored_at: '2026-10-17'
+  score: 28.4
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: UNSW's own SAML 2.0 identity provider — a Shibboleth IdP whose entity metadata is published as a machine-readable XML document at the entityID URL and is carried in the AAF federation aggregate, which
@@ -80,6 +82,11 @@ apis:
   slug: unsw-sydney-root-api
 artifact_total: 22
 common:
+- group: other
+  href: https://artifacts.apis.io/unsw-sydney/capabilities/unsw-sydney-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/unsw-sydney-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -145,87 +152,87 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/unsw/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/_original/unsw-sydney-unsworks-dspace-openapi.yml
+  href: https://artifacts.apis.io/unsw-sydney/openapi/_original/unsw-sydney-unsworks-dspace-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/unsw-sydney-unsworks-dspace-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/_original/unsw-sydney-unsworks-oai-pmh-openapi.yml
+  href: https://artifacts.apis.io/unsw-sydney/openapi/_original/unsw-sydney-unsworks-oai-pmh-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/unsw-sydney-unsworks-oai-pmh-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/json-schema/unsw-sydney-unsworks-dspace-schema.json
+  href: https://artifacts.apis.io/unsw-sydney/json-schema/unsw-sydney-unsworks-dspace-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/unsw-sydney-unsworks-dspace-schema.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/examples/unsw-sydney-unsworks-dspace-example.json
+  href: https://artifacts.apis.io/unsw-sydney/examples/unsw-sydney-unsworks-dspace-example.json
   title: ''
   type: Examples
   url: examples/unsw-sydney-unsworks-dspace-example.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/vocabulary/unsw-sydney-unsworks-vocabulary.yml
+  href: https://artifacts.apis.io/unsw-sydney/vocabulary/unsw-sydney-unsworks-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/unsw-sydney-unsworks-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/rules/unsw-sydney-rules.yml
+  href: https://artifacts.apis.io/unsw-sydney/rules/unsw-sydney-rules.yml
   title: ''
   type: Rules
   url: rules/unsw-sydney-rules.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/authentication/unsw-sydney-authentication.yml
+  href: https://artifacts.apis.io/unsw-sydney/authentication/unsw-sydney-authentication.yml
   title: ''
   type: Authentication
   url: authentication/unsw-sydney-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/scopes/unsw-sydney-scopes.yml
+  href: https://artifacts.apis.io/unsw-sydney/scopes/unsw-sydney-scopes.yml
   title: ''
   type: Scopes
   url: scopes/unsw-sydney-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/errors/unsw-sydney-errors.yml
+  href: https://artifacts.apis.io/unsw-sydney/errors/unsw-sydney-errors.yml
   title: ''
   type: Errors
   url: errors/unsw-sydney-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/conformance/unsw-sydney-education-standards-conformance.yml
+  href: https://artifacts.apis.io/unsw-sydney/conformance/unsw-sydney-education-standards-conformance.yml
   title: ''
   type: Conformance
   url: conformance/unsw-sydney-education-standards-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/lifecycle/unsw-sydney-lifecycle.yml
+  href: https://artifacts.apis.io/unsw-sydney/lifecycle/unsw-sydney-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/unsw-sydney-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/json-ld/unsw-sydney-context.jsonld
+  href: https://artifacts.apis.io/unsw-sydney/json-ld/unsw-sydney-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/unsw-sydney-context.jsonld
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/security/unsw-sydney-domain-security.yml
+  href: https://artifacts.apis.io/unsw-sydney/security/unsw-sydney-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/unsw-sydney-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/plans/unsw-sydney-plans-pricing.yml
+  href: https://artifacts.apis.io/unsw-sydney/plans/unsw-sydney-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/unsw-sydney-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/rate-limits/unsw-sydney-rate-limits.yml
+  href: https://artifacts.apis.io/unsw-sydney/rate-limits/unsw-sydney-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/unsw-sydney-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/finops/unsw-sydney-finops.yml
+  href: https://artifacts.apis.io/unsw-sydney/finops/unsw-sydney-finops.yml
   title: ''
   type: FinOps
   url: finops/unsw-sydney-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/unsw-sydney/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -312,12 +319,12 @@ overview: 'University of New South Wales publishes 11 API contracts indexed on t
   The University of New South Wales catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  University of New South Wales'' developer surface includes documentation, support, engineering blog, code examples, authentication, and 28 more developer resources.'
+  University of New South Wales'' developer surface includes documentation, support, engineering blog, code examples, authentication, and 29 more developer resources.'
 plans:
 - name: Unsw Sydney Plans Pricing
   plan_count: 2
   slug: unsw-sydney-plans-pricing
-random_paper: 8
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Unsw Sydney Rate Limits
@@ -341,22 +348,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 40.4
+  composite: 40.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 50.5
     catalog_earned_first_party: 5.0
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 15.2
     contract_quality: 55.8
     developer_ergonomics: 38.1
     discoverability: 57.1
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -364,7 +371,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 47.1
+  previous_composite: 40.8
   provenance:
     conformance: first-party
     contracts:
@@ -378,14 +385,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/screenshots/unsw-sydney-2026-06-20T200413.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/unsw-sydney/unsw-sydney-2026-06-20T200413.png
 security:
 - kind: authentication
   name: Unsw Sydney Authentication

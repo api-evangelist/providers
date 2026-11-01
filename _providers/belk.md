@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 15
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/belk/refs/heads/main/security/belk-domain-security.yml
+  href: https://artifacts.apis.io/belk/security/belk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/belk-domain-security.yml
@@ -70,32 +72,32 @@ common:
   type: PrivacyPolicy
   url: https://www.belk.com/customer-service/policies-guidelines/privacy-policy/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/belk/refs/heads/main/conformance/belk-conformance.yml
+  href: https://artifacts.apis.io/belk/conformance/belk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/belk-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/belk/refs/heads/main/plans/belk-plans-pricing.yml
+  href: https://artifacts.apis.io/belk/plans/belk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/belk-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/belk/refs/heads/main/rate-limits/belk-rate-limits.yml
+  href: https://artifacts.apis.io/belk/rate-limits/belk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/belk-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/belk/refs/heads/main/llms/belk-llms.txt
+  href: https://artifacts.apis.io/belk/llms/belk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/belk-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/belk/refs/heads/main/regulatory/belk-regulatory-posture.yml
+  href: https://artifacts.apis.io/belk/regulatory/belk-regulatory-posture.yml
   title: ''
   type: DataSubjectRequest
   url: regulatory/belk-regulatory-posture.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/belk/refs/heads/main/regulatory/belk-regulatory-posture.yml
+  href: https://artifacts.apis.io/belk/regulatory/belk-regulatory-posture.yml
   title: ''
   type: RegulatoryPosture
   url: regulatory/belk-regulatory-posture.yml
@@ -165,7 +167,7 @@ press:
 - date: ''
   title: BEAUTYSPACE Partners with Belk to Expand Retail and ...
   url: https://www.prnewswire.com/news-releases/beautyspace-partners-with-belk-to-expand-retail-and-digital-footprint-302730630.html
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Belk Rate Limits
@@ -180,7 +182,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
@@ -195,7 +197,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 17.0
+  previous_composite: 17.1
   provenance:
     conformance: first-party
   regulatory:
@@ -204,14 +206,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/belk/refs/heads/main/screenshots/belk-2026-06-20T173133.png
+screenshot: https://apis.io/screenshots/belk/belk-2026-06-20T173133.png
 security:
 - kind: domain-security
   name: Belk Domain Security

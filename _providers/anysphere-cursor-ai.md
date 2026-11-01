@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -38,64 +40,64 @@ apis:
   description: The OriginService API from Anysphere Cursor Ai — 77 operation(s) for originservice.
   name: Anysphere Cursor Ai Origin Service API
   slug: anysphere-cursor-ai-originservice-api
-artifact_total: 16
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Anysphere Cursor Ai Webhooks
   slug: anysphere-cursor-ai-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/capabilities/anysphere-cursor-ai-capability-edges.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/capabilities/anysphere-cursor-ai-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/anysphere-cursor-ai-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/overlays/anysphere-cursor-ai-openapi-overlay.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/overlays/anysphere-cursor-ai-openapi-overlay.yml
   title: ''
   type: Overlay
   url: overlays/anysphere-cursor-ai-openapi-overlay.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/agentic-access/anysphere-cursor-ai-agentic-access.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/agentic-access/anysphere-cursor-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/anysphere-cursor-ai-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/plans/anysphere-cursor-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/plans/anysphere-cursor-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/anysphere-cursor-ai-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/rules/anysphere-cursor-ai-rules.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/rules/anysphere-cursor-ai-rules.yml
   title: ''
   type: Spectral
   url: rules/anysphere-cursor-ai-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/json-ld/anysphere-cursor-ai-context.jsonld
+  href: https://artifacts.apis.io/anysphere-cursor-ai/json-ld/anysphere-cursor-ai-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/anysphere-cursor-ai-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/vocabulary/anysphere-cursor-ai-vocabulary.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/vocabulary/anysphere-cursor-ai-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/anysphere-cursor-ai-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/asyncapi/anysphere-cursor-ai-webhooks.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/asyncapi/anysphere-cursor-ai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/anysphere-cursor-ai-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/data-model/anysphere-cursor-ai-data-model.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/data-model/anysphere-cursor-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/anysphere-cursor-ai-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/changelog/anysphere-cursor-ai-changelog.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/changelog/anysphere-cursor-ai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/anysphere-cursor-ai-changelog.yml
@@ -104,52 +106,52 @@ common:
   type: Compliance
   url: https://cursor.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/security/anysphere-cursor-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/security/anysphere-cursor-ai-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/anysphere-cursor-ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/authentication/anysphere-cursor-ai-authentication.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/authentication/anysphere-cursor-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/anysphere-cursor-ai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/errors/anysphere-cursor-ai-problem-types.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/errors/anysphere-cursor-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/anysphere-cursor-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/conformance/anysphere-cursor-ai-conformance.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/conformance/anysphere-cursor-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/anysphere-cursor-ai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/llms/anysphere-cursor-ai-llms.txt
+  href: https://artifacts.apis.io/anysphere-cursor-ai/llms/anysphere-cursor-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/anysphere-cursor-ai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/well-known/anysphere-cursor-ai-status-security.txt
+  href: https://artifacts.apis.io/anysphere-cursor-ai/well-known/anysphere-cursor-ai-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/anysphere-cursor-ai-status-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/well-known/anysphere-cursor-ai-security.txt
+  href: https://artifacts.apis.io/anysphere-cursor-ai/well-known/anysphere-cursor-ai-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/anysphere-cursor-ai-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/well-known/anysphere-cursor-ai-well-known.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/well-known/anysphere-cursor-ai-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/anysphere-cursor-ai-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/hosts/anysphere-cursor-ai-hosts.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/hosts/anysphere-cursor-ai-hosts.yml
   title: ''
   type: Hosts
   url: hosts/anysphere-cursor-ai-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/vendors/anysphere-cursor-ai-vendors.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/vendors/anysphere-cursor-ai-vendors.yml
   title: ''
   type: Vendors
   url: vendors/anysphere-cursor-ai-vendors.yml
@@ -166,17 +168,17 @@ common:
   type: APIReference
   url: https://cursor.com/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/security/anysphere-cursor-ai-trust-center.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/security/anysphere-cursor-ai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/anysphere-cursor-ai-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/security/anysphere-cursor-ai-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/security/anysphere-cursor-ai-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/anysphere-cursor-ai-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/security/anysphere-cursor-ai-domain-security.yml
+  href: https://artifacts.apis.io/anysphere-cursor-ai/security/anysphere-cursor-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/anysphere-cursor-ai-domain-security.yml
@@ -222,6 +224,14 @@ coverage:
   state: unreadable
 created: '2026-09-25'
 description: Anysphere Cursor Ai develops advanced AI‑powered coding assistants that help developers build ambitious software faster. The platform offers a desktop IDE, a powerful CLI, and cloud‑based agents that can understand code, generate implementations, and automate repetitive tasks. It integrates with popular version‑control and CI systems, supports multiple large language models, and provides extensive documentation, tutorials, and a community forum for developers.
+finops:
+- has_sources: true
+  method: derived
+  name: Anysphere Cursor Ai Finops
+  primary_unit: user
+  service_category: ''
+  slug: anysphere-cursor-ai-finops
+  template: false
 image: https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png
 json_schemas:
 - name: CheckRunInput
@@ -261,9 +271,12 @@ overview: 'Anysphere Cursor Ai publishes 1 API contract indexed on the [APIs.io]
   Anysphere Cursor Ai''s developer surface includes changelog, authentication, API reference, documentation, engineering blog, pricing, support, and 29 more developer resources.'
 plans:
 - name: Anysphere Cursor Ai Plans Pricing
-  plan_count: 5
+  plan_count: 7
   slug: anysphere-cursor-ai-plans-pricing
-random_paper: 1
+- name: Anysphere Cursor Ai Price Estimates
+  plan_count: 0
+  slug: anysphere-cursor-ai-price-estimates
+random_paper: 17
 rules:
 - authorship: generated
   effective_rule_count: 57
@@ -279,23 +292,23 @@ rules:
   slug: anysphere-cursor-ai-rules
 score:
   band: exemplar
-  composite: 75.1
+  composite: 66.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 74.8
+    artifact_dirs: 27
+    catalog_earned: 77.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 40.3
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 22.0
     contract_quality: 73.8
     developer_ergonomics: 49.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 50.0
-  previous_composite: 75.1
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -303,7 +316,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 3
     mcp: derived
     skills: derived
   regulatory:
@@ -312,13 +325,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 32.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 100.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/anysphere-cursor-ai/refs/heads/main/screenshots/anysphere-cursor-ai-2026-10-11T095833.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/anysphere-cursor-ai/anysphere-cursor-ai-2026-10-11T095833.png
 security:
 - kind: authentication
   name: Anysphere Cursor Ai Authentication
@@ -336,6 +350,10 @@ security:
   name: Anysphere Cursor Ai Trust Center
   slug: anysphere-cursor-ai-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 1
+skills:
+- name: anysphere-cursor-ai-get-app-installation
+  slug: anysphere-cursor-ai-get-app-installation
 slug: anysphere-cursor-ai
 tags:
 - Company

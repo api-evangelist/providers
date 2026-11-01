@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: RESTful API for managing storage volumes, disk groups, and storage operations.
@@ -60,17 +62,17 @@ apis:
 artifact_total: 12
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-volume-manager/refs/heads/main/plans/veritas-volume-manager-plans-pricing.yml
+  href: https://artifacts.apis.io/veritas-volume-manager/plans/veritas-volume-manager-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/veritas-volume-manager-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-volume-manager/refs/heads/main/rate-limits/veritas-volume-manager-rate-limits.yml
+  href: https://artifacts.apis.io/veritas-volume-manager/rate-limits/veritas-volume-manager-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/veritas-volume-manager-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-volume-manager/refs/heads/main/finops/veritas-volume-manager-finops.yml
+  href: https://artifacts.apis.io/veritas-volume-manager/finops/veritas-volume-manager-finops.yml
   title: ''
   type: FinOps
   url: finops/veritas-volume-manager-finops.yml
@@ -79,12 +81,12 @@ common:
   type: Website
   url: https://veritas.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-volume-manager/refs/heads/main/security/veritas-volume-manager-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/veritas-volume-manager/security/veritas-volume-manager-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/veritas-volume-manager-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-volume-manager/refs/heads/main/security/veritas-volume-manager-domain-security.yml
+  href: https://artifacts.apis.io/veritas-volume-manager/security/veritas-volume-manager-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/veritas-volume-manager-domain-security.yml
@@ -126,7 +128,7 @@ finops:
 - has_sources: false
   method: generated
   name: Veritas Volume Manager Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: veritas-volume-manager-finops
   template: true
@@ -143,14 +145,14 @@ plans:
 - name: Veritas Volume Manager Plans Pricing
   plan_count: 3
   slug: veritas-volume-manager-plans-pricing
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Veritas Volume Manager Rate Limits
   slug: veritas-volume-manager-rate-limits
 score:
-  band: thin
-  composite: 37.6
+  band: developing
+  composite: 40.0
   coverage:
     artifact_dirs: 7
     catalog_earned: 34.0
@@ -158,29 +160,29 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 30.5
     developer_ergonomics: 64.3
     discoverability: 57.1
-    operational_transparency: 31.6
-  previous_composite: 39.1
+    operational_transparency: 50.0
+  previous_composite: 40.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-volume-manager/refs/heads/main/screenshots/veritas-volume-manager-2026-06-20T200935.png
+screenshot: https://apis.io/screenshots/veritas-volume-manager/veritas-volume-manager-2026-06-20T200935.png
 security:
 - kind: domain-security
   name: Veritas Volume Manager Domain Security

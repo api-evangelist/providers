@@ -17,7 +17,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: false
+    agent_card: flavored
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
@@ -29,17 +29,19 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.2
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 51.3
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: Managed Cloud REST surface covering OAuth auth, a Proxy API to a Core instance, Data API, Filters API, Alerts API, and the MCP endpoint. Auth via API keys or OAuth.
   name: Blnk Cloud API
@@ -157,23 +159,28 @@ apis:
     question: How do I commit a transaction that is still on hold as inflight?
   phrasing_ops: 2
   slug: blnkfinance-transactions-api
-artifact_total: 19
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Blnkfinance Webhooks
   slug: blnkfinance-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/blnkfinance/capabilities/blnkfinance-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/blnkfinance-capability-edges.yml
 - group: company
   title: ''
   type: Website
   url: https://www.blnkfinance.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/security/blnkfinance-domain-security.yml
+  href: https://artifacts.apis.io/blnkfinance/security/blnkfinance-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blnkfinance-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/authentication/blnkfinance-authentication.yml
+  href: https://artifacts.apis.io/blnkfinance/authentication/blnkfinance-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blnkfinance-authentication.yml
@@ -226,137 +233,137 @@ common:
   type: StatusPage
   url: https://status.blnkfinance.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/packages/blnkfinance-packages.yml
+  href: https://artifacts.apis.io/blnkfinance/packages/blnkfinance-packages.yml
   title: ''
   type: Packages
   url: packages/blnkfinance-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/packages/blnkfinance-packages.yml
+  href: https://artifacts.apis.io/blnkfinance/packages/blnkfinance-packages.yml
   title: ''
   type: SDKs
   url: packages/blnkfinance-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/cli/blnkfinance-cli.yml
+  href: https://artifacts.apis.io/blnkfinance/cli/blnkfinance-cli.yml
   title: ''
   type: CLI
   url: cli/blnkfinance-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/well-known/blnkfinance-well-known.yml
+  href: https://artifacts.apis.io/blnkfinance/well-known/blnkfinance-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blnkfinance-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/a2a/blnkfinance-a2a.yml
+  href: https://artifacts.apis.io/blnkfinance/a2a/blnkfinance-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/blnkfinance-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/blnkfinance/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/llms/blnkfinance-llms.txt
+  href: https://artifacts.apis.io/blnkfinance/llms/blnkfinance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blnkfinance-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/overlays/blnkfinance-core-overlay.yaml
+  href: https://artifacts.apis.io/blnkfinance/overlays/blnkfinance-core-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/blnkfinance-core-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/conformance/blnkfinance-conformance.yml
+  href: https://artifacts.apis.io/blnkfinance/conformance/blnkfinance-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blnkfinance-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/conformance/blnkfinance-conformance.yml
+  href: https://artifacts.apis.io/blnkfinance/conformance/blnkfinance-conformance.yml
   title: ''
   type: Compliance
   url: conformance/blnkfinance-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/errors/blnkfinance-error-codes.yml
+  href: https://artifacts.apis.io/blnkfinance/errors/blnkfinance-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/blnkfinance-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/lifecycle/blnkfinance-lifecycle.yml
+  href: https://artifacts.apis.io/blnkfinance/lifecycle/blnkfinance-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blnkfinance-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/lifecycle/blnkfinance-lifecycle.yml
+  href: https://artifacts.apis.io/blnkfinance/lifecycle/blnkfinance-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/blnkfinance-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/scopes/blnkfinance-scopes.yml
+  href: https://artifacts.apis.io/blnkfinance/scopes/blnkfinance-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/blnkfinance-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/security/blnkfinance-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/blnkfinance/security/blnkfinance-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/blnkfinance-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/security/blnkfinance-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/blnkfinance/security/blnkfinance-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/blnkfinance-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/security/blnkfinance-trust-center.yml
+  href: https://artifacts.apis.io/blnkfinance/security/blnkfinance-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blnkfinance-trust-center.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/sandbox/blnkfinance-sandbox.yml
+  href: https://artifacts.apis.io/blnkfinance/sandbox/blnkfinance-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/blnkfinance-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/conventions/blnkfinance-conventions.yml
+  href: https://artifacts.apis.io/blnkfinance/conventions/blnkfinance-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blnkfinance-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/conventions/blnkfinance-conventions.yml
+  href: https://artifacts.apis.io/blnkfinance/conventions/blnkfinance-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/blnkfinance-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/changelog/blnkfinance-changelog.yml
+  href: https://artifacts.apis.io/blnkfinance/changelog/blnkfinance-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/blnkfinance-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/data-model/blnkfinance-data-model.yml
+  href: https://artifacts.apis.io/blnkfinance/data-model/blnkfinance-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blnkfinance-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/asyncapi/blnkfinance-webhooks.yml
+  href: https://artifacts.apis.io/blnkfinance/asyncapi/blnkfinance-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/blnkfinance-webhooks.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/plans/blnkfinance-plans-pricing.yml
+  href: https://artifacts.apis.io/blnkfinance/plans/blnkfinance-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blnkfinance-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/rate-limits/blnkfinance-rate-limits.yml
+  href: https://artifacts.apis.io/blnkfinance/rate-limits/blnkfinance-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blnkfinance-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/mcp/blnkfinance-mcp.yml
+  href: https://artifacts.apis.io/blnkfinance/mcp/blnkfinance-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/blnkfinance-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/mcp/blnkfinance-tool-crosswalk.yml
+  href: https://artifacts.apis.io/blnkfinance/mcp/blnkfinance-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/blnkfinance-tool-crosswalk.yml
@@ -366,6 +373,14 @@ common:
   url: mailto:sales@blnkfinance.com
 created: '2026-08-26'
 description: Open-source double-entry ledger for financial products (wallets, loans, payouts, escrow, cards). Available as self-hosted Blnk Core (OSS engine) and Blnk Cloud (managed), plus Blnk Watch for transaction monitoring. Exposes REST APIs with a public OpenAPI spec, hosted MCP servers, llms.txt, and installable agent skills.
+finops:
+- has_sources: true
+  method: derived
+  name: Blnkfinance Finops
+  primary_unit: instance
+  service_category: ''
+  slug: blnkfinance-finops
+  template: false
 image: https://blnkfinance.com/_astro/og-default.4FpZOtzr.png
 layout: provider
 mcp_servers:
@@ -376,18 +391,21 @@ modified: '2026-08-27'
 name: Blnk Finance
 nav: Providers
 network: true
-overview: 'Blnk Finance publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Backup API, Balance Monitors API, and 7 more. Tagged areas include Fintech, Financial Services, Ledger, double-entry-accounting, and Payments.
+overview: 'Blnk Finance publishes 10 API contracts indexed on the [APIs.io](https://apis.io/) network, including Accounts API, Backup API, Balance Monitors API, and 7 more. Tagged areas include Fintech, Financial Services, Ledger, Double-Entry, and Payments.
 
 
   The Blnk Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Blnk Finance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 36 more developer resources.'
+  Blnk Finance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 37 more developer resources.'
 plans:
 - name: Blnkfinance Plans Pricing
-  plan_count: 4
+  plan_count: 8
   slug: blnkfinance-plans-pricing
-random_paper: 3
+- name: Blnkfinance Price Estimates
+  plan_count: 0
+  slug: blnkfinance-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Blnkfinance Rate Limits
@@ -399,23 +417,23 @@ scopes:
   summary_line: 24 scopes
 score:
   band: exemplar
-  composite: 67.4
+  composite: 71.4
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 52.0
+    artifact_dirs: 28
+    catalog_earned: 55.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 46.3
     developer_ergonomics: 85.7
-    discoverability: 60.0
-    operational_transparency: 73.7
-  previous_composite: 67.4
+    discoverability: 63.3
+    operational_transparency: 84.2
+  previous_composite: 69.8
   provenance:
     conformance: first-party
     contracts:
@@ -435,13 +453,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 41.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/screenshots/blnkfinance-2026-09-02T144933.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/blnkfinance/blnkfinance-2026-09-02T144933.png
 security:
 - kind: authentication
   name: Blnkfinance Authentication
@@ -459,12 +478,42 @@ security:
   name: Blnkfinance Trust Center
   slug: blnkfinance-trust-center
   summary_line: ISO/IEC 27001, GDPR, SOC 2, PCI DSS, HIPAA
+skill_count: 14
+skills:
+- name: blnk-core
+  slug: blnkfinance-core
+- name: blnk-documentation
+  slug: blnkfinance-documentation
+- name: blnk-fx
+  slug: blnkfinance-fx
+- name: blnk-implementation
+  slug: blnkfinance-implementation
+- name: blnk-inflight
+  slug: blnkfinance-inflight
+- name: blnk-ledger-architecture
+  slug: blnkfinance-ledger-architecture
+- name: blnk-naming-patterns
+  slug: blnkfinance-naming-patterns
+- name: blnk-precision
+  slug: blnkfinance-precision
+- name: blnk-queueing
+  slug: blnkfinance-queueing
+- name: blnk-sdks
+  slug: blnkfinance-sdks
+- name: blnk-support
+  slug: blnkfinance-support
+- name: blnk-transactions
+  slug: blnkfinance-transactions
+- name: blnk-watch
+  slug: blnkfinance-watch
+- name: blnk-webhooks
+  slug: blnkfinance-webhooks
 slug: blnkfinance
 tags:
 - Fintech
 - Financial Services
 - Ledger
-- double-entry-accounting
+- Double-Entry
 - Payments
 - Wallets
 - Lending

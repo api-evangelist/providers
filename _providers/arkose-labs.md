@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.2
-  scored_at: '2026-10-17'
+  score: 18.0
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://verify-api.arkoselabs.com
@@ -52,11 +54,8 @@ apis:
   description: Session verification
   name: Arkose Labs Verify API
   slug: arkose-labs-verify-api
-artifact_total: 12
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Arkose Labs Edge API
   slug: open-arkose-labs-edge-api
@@ -72,7 +71,7 @@ common:
   type: Website
   url: https://www.arkoselabs.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/security/arkose-labs-domain-security.yml
+  href: https://artifacts.apis.io/arkose-labs/security/arkose-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arkose-labs-domain-security.yml
@@ -125,57 +124,57 @@ common:
   type: Security
   url: https://hackerone.com/arkose_labs
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/llms/arkose-labs-llms.txt
+  href: https://artifacts.apis.io/arkose-labs/llms/arkose-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/arkose-labs-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/authentication/arkose-labs-authentication.yml
+  href: https://artifacts.apis.io/arkose-labs/authentication/arkose-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/arkose-labs-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/lifecycle/arkose-labs-lifecycle.yml
+  href: https://artifacts.apis.io/arkose-labs/lifecycle/arkose-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/arkose-labs-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/errors/arkose-labs-problem-types.yml
+  href: https://artifacts.apis.io/arkose-labs/errors/arkose-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/arkose-labs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/conventions/arkose-labs-conventions.yml
+  href: https://artifacts.apis.io/arkose-labs/conventions/arkose-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/arkose-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/conformance/arkose-labs-conformance.yml
+  href: https://artifacts.apis.io/arkose-labs/conformance/arkose-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/arkose-labs-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/data-model/arkose-labs-data-model.yml
+  href: https://artifacts.apis.io/arkose-labs/data-model/arkose-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/arkose-labs-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/mcp/arkose-labs-mcp.yml
+  href: https://artifacts.apis.io/arkose-labs/mcp/arkose-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/arkose-labs-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/well-known/arkose-labs-well-known.yml
+  href: https://artifacts.apis.io/arkose-labs/well-known/arkose-labs-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/arkose-labs-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/overlays/arkose-labs-verify-overlay.yaml
+  href: https://artifacts.apis.io/arkose-labs/overlays/arkose-labs-verify-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/arkose-labs-verify-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/security/arkose-labs-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/arkose-labs/security/arkose-labs-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/arkose-labs-vulnerability-disclosure.yml
@@ -198,10 +197,10 @@ overview: 'Arkose Labs publishes 3 API contracts indexed on the [APIs.io](https:
 
 
   Arkose Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 8
+random_paper: 4
 score:
   band: thin
-  composite: 28.3
+  composite: 32.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -209,15 +208,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 12.2
-    developer_ergonomics: 38.1
-    discoverability: 73.2
-    operational_transparency: 30.3
-  previous_composite: 28.2
+    developer_ergonomics: 57.1
+    discoverability: 66.1
+    operational_transparency: 34.2
+  previous_composite: 32.6
   provenance:
     conformance: derived
     contracts:
@@ -232,13 +231,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/screenshots/arkose-labs-2026-07-25T201203.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/arkose-labs/arkose-labs-2026-07-25T201203.png
 security:
 - kind: authentication
   name: Arkose Labs Authentication

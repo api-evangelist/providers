@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: JSON/REST API for hotels and PMS/channel-manager systems to push availability, rates and inventory (ARI), manage property, room, rate-plan and channel configuration, and exchange reservations across 5
@@ -84,57 +86,57 @@ common:
   type: TermsOfService
   url: https://www.derbysoft.com/legal/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/derbysoft/refs/heads/main/authentication/derbysoft-authentication.yml
+  href: https://artifacts.apis.io/derbysoft/authentication/derbysoft-authentication.yml
   title: ''
   type: Authentication
   url: authentication/derbysoft-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/derbysoft/refs/heads/main/errors/derbysoft-error-codes.yml
+  href: https://artifacts.apis.io/derbysoft/errors/derbysoft-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/derbysoft-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/derbysoft/refs/heads/main/conventions/derbysoft-conventions.yml
+  href: https://artifacts.apis.io/derbysoft/conventions/derbysoft-conventions.yml
   title: ''
   type: Conventions
   url: conventions/derbysoft-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/derbysoft/refs/heads/main/rate-limits/derbysoft-rate-limits.yml
+  href: https://artifacts.apis.io/derbysoft/rate-limits/derbysoft-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/derbysoft-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/derbysoft/refs/heads/main/lifecycle/derbysoft-lifecycle.yml
+  href: https://artifacts.apis.io/derbysoft/lifecycle/derbysoft-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/derbysoft-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/derbysoft/refs/heads/main/changelog/derbysoft-changelog.yml
+  href: https://artifacts.apis.io/derbysoft/changelog/derbysoft-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/derbysoft-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/derbysoft/refs/heads/main/sandbox/derbysoft-sandbox.yml
+  href: https://artifacts.apis.io/derbysoft/sandbox/derbysoft-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/derbysoft-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/derbysoft/refs/heads/main/conformance/derbysoft-conformance.yml
+  href: https://artifacts.apis.io/derbysoft/conformance/derbysoft-conformance.yml
   title: ''
   type: Conformance
   url: conformance/derbysoft-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/derbysoft/refs/heads/main/conformance/derbysoft-conformance.yml
+  href: https://artifacts.apis.io/derbysoft/conformance/derbysoft-conformance.yml
   title: ''
   type: Compliance
   url: conformance/derbysoft-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/derbysoft/refs/heads/main/security/derbysoft-domain-security.yml
+  href: https://artifacts.apis.io/derbysoft/security/derbysoft-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/derbysoft-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/derbysoft/refs/heads/main/llms/derbysoft-llms.txt
+  href: https://artifacts.apis.io/derbysoft/llms/derbysoft-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/derbysoft-llms.txt
@@ -150,14 +152,14 @@ overview: 'DerbySoft is listed with 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   DerbySoft''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 13 more developer resources.'
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Derbysoft Rate Limits
   slug: derbysoft-rate-limits
 score:
   band: thin
-  composite: 34.7
+  composite: 34.0
   coverage:
     artifact_dirs: 15
     catalog_earned: 43.0
@@ -165,15 +167,15 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 69.6
+    discoverability: 62.5
     operational_transparency: 36.8
-  previous_composite: 34.6
+  previous_composite: 34.0
   provenance:
     conformance: first-party
   regulatory:
@@ -186,14 +188,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/derbysoft/refs/heads/main/screenshots/derbysoft-2026-07-25T211736.png
+screenshot: https://apis.io/screenshots/derbysoft/derbysoft-2026-07-25T211736.png
 security:
 - kind: authentication
   name: Derbysoft Authentication

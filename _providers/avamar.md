@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Avamar REST API provides a framework to develop applications and tools that interact with a stand-alone Avamar server. It exposes backup, restore, client, domain, dataset, retention, policy, plugi
@@ -70,27 +72,27 @@ common:
   type: GitHubOrganization
   url: https://github.com/dell
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/authentication/avamar-authentication.yml
+  href: https://artifacts.apis.io/avamar/authentication/avamar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/avamar-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/scopes/avamar-scopes.yml
+  href: https://artifacts.apis.io/avamar/scopes/avamar-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/avamar-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/conventions/avamar-conventions.yml
+  href: https://artifacts.apis.io/avamar/conventions/avamar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/avamar-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/errors/avamar-error-codes.yml
+  href: https://artifacts.apis.io/avamar/errors/avamar-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/avamar-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/lifecycle/avamar-lifecycle.yml
+  href: https://artifacts.apis.io/avamar/lifecycle/avamar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/avamar-lifecycle.yml
@@ -99,22 +101,22 @@ common:
   type: Deprecation
   url: https://www.dell.com/support/kbdoc/en-us/000185734/all-dell-emc-end-of-life-documents
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/changelog/avamar-changelog.yml
+  href: https://artifacts.apis.io/avamar/changelog/avamar-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/avamar-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/cli/avamar-cli.yml
+  href: https://artifacts.apis.io/avamar/cli/avamar-cli.yml
   title: ''
   type: CLI
   url: cli/avamar-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/data-model/avamar-data-model.yml
+  href: https://artifacts.apis.io/avamar/data-model/avamar-data-model.yml
   title: ''
   type: DataModel
   url: data-model/avamar-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/conformance/avamar-conformance.yml
+  href: https://artifacts.apis.io/avamar/conformance/avamar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/avamar-conformance.yml
@@ -123,12 +125,12 @@ common:
   type: Compliance
   url: https://www.dell.com/en-us/dt/about-us/security-and-trust-center/compliance-service-organization-control-overlay.htm
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/security/avamar-trust-center.yml
+  href: https://artifacts.apis.io/avamar/security/avamar-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/avamar-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/security/avamar-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/avamar/security/avamar-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/avamar-vulnerability-disclosure.yml
@@ -137,27 +139,27 @@ common:
   type: Security
   url: https://www.dell.com/support/contents/en-us/article/product-support/self-support-knowledgebase/security-antivirus/alerts-vulnerabilities/dell-vulnerability-response-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/security/avamar-domain-security.yml
+  href: https://artifacts.apis.io/avamar/security/avamar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/avamar-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/well-known/avamar-well-known.yml
+  href: https://artifacts.apis.io/avamar/well-known/avamar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/avamar-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/well-known/avamar-security.txt
+  href: https://artifacts.apis.io/avamar/well-known/avamar-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/avamar-security.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/packages/avamar-packages.yml
+  href: https://artifacts.apis.io/avamar/packages/avamar-packages.yml
   title: ''
   type: Packages
   url: packages/avamar-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/llms/avamar-llms.txt
+  href: https://artifacts.apis.io/avamar/llms/avamar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/avamar-llms.txt
@@ -173,7 +175,7 @@ overview: 'Avamar is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Avamar''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, CLI, and 19 more developer resources.'
-random_paper: 16
+random_paper: 8
 scopes:
 - name: Avamar Scopes
   scope_count: 5
@@ -181,7 +183,7 @@ scopes:
   summary_line: 5 scopes · password/authorizationCode/clientCredentials/implicit
 score:
   band: thin
-  composite: 26.5
+  composite: 32.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -189,15 +191,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 40.5
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 26.4
+    developer_ergonomics: 61.9
+    discoverability: 66.1
+    operational_transparency: 39.5
+  previous_composite: 32.8
   provenance:
     conformance: first-party
   regulatory:
@@ -206,14 +208,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 37.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/screenshots/avamar-2026-07-25T201915.png
+screenshot: https://apis.io/screenshots/avamar/avamar-2026-07-25T201915.png
 security:
 - kind: authentication
   name: Avamar Authentication

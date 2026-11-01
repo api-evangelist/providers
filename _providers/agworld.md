@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Cloud farm-management platform for growers, agronomists, and ag retailers. Covers the Agworld Basics core, Planning, Scheduling, Precision (spray records), Insights (financial and agronomic), and Comp
@@ -48,22 +50,22 @@ apis:
 artifact_total: 7
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agworld/refs/heads/main/plans/agworld-plans-pricing.yml
+  href: https://artifacts.apis.io/agworld/plans/agworld-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/agworld-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/agworld/refs/heads/main/rate-limits/agworld-rate-limits.yml
+  href: https://artifacts.apis.io/agworld/rate-limits/agworld-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/agworld-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/agworld/refs/heads/main/finops/agworld-finops.yml
+  href: https://artifacts.apis.io/agworld/finops/agworld-finops.yml
   title: ''
   type: FinOps
   url: finops/agworld-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/agworld/refs/heads/main/security/agworld-domain-security.yml
+  href: https://artifacts.apis.io/agworld/security/agworld-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/agworld-domain-security.yml
@@ -111,7 +113,7 @@ plans:
 - name: Agworld Plans Pricing
   plan_count: 1
   slug: agworld-plans-pricing
-random_paper: 4
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Agworld Rate Limits
@@ -126,7 +128,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
@@ -134,21 +136,21 @@ score:
     developer_ergonomics: 7.1
     discoverability: 71.4
     operational_transparency: 5.3
-  previous_composite: 14.9
+  previous_composite: 8.9
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/agworld/refs/heads/main/screenshots/agworld-2026-06-20T170515.png
+screenshot: https://apis.io/screenshots/agworld/agworld-2026-06-20T170515.png
 security:
 - kind: domain-security
   name: Agworld Domain Security

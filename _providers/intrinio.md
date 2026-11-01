@@ -26,22 +26,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.8
-  scored_at: '2026-10-17'
+  score: 41.6
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Intrinio's REST API for financial data — stock prices, options, fundamentals, estimates, ETFs, indices, corporate actions, and ESG — with API-key authentication, next_page cursor pagination, and swagg
   name: Intrinio Web API v2
   slug: intrinio-web-api-v2
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Intrinio Websockets
@@ -104,77 +106,85 @@ common:
   type: PublicAPIsListing
   url: https://github.com/public-apis/public-apis
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/packages/intrinio-packages.yml
+  href: https://artifacts.apis.io/intrinio/packages/intrinio-packages.yml
   title: ''
   type: Packages
   url: packages/intrinio-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/packages/intrinio-packages.yml
+  href: https://artifacts.apis.io/intrinio/packages/intrinio-packages.yml
   title: ''
   type: SDKs
   url: packages/intrinio-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/well-known/intrinio-well-known.yml
+  href: https://artifacts.apis.io/intrinio/well-known/intrinio-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/intrinio-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/mcp/intrinio-mcp.yml
+  href: https://artifacts.apis.io/intrinio/mcp/intrinio-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/intrinio-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/llms/intrinio-llms.txt
+  href: https://artifacts.apis.io/intrinio/llms/intrinio-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/intrinio-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/conformance/intrinio-conformance.yml
+  href: https://artifacts.apis.io/intrinio/conformance/intrinio-conformance.yml
   title: ''
   type: Conformance
   url: conformance/intrinio-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/errors/intrinio-problem-types.yml
+  href: https://artifacts.apis.io/intrinio/errors/intrinio-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/intrinio-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/lifecycle/intrinio-lifecycle.yml
+  href: https://artifacts.apis.io/intrinio/lifecycle/intrinio-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/intrinio-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/scopes/intrinio-scopes.yml
+  href: https://artifacts.apis.io/intrinio/scopes/intrinio-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/intrinio-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/authentication/intrinio-authentication.yml
+  href: https://artifacts.apis.io/intrinio/authentication/intrinio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/intrinio-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/conventions/intrinio-conventions.yml
+  href: https://artifacts.apis.io/intrinio/conventions/intrinio-conventions.yml
   title: ''
   type: Conventions
   url: conventions/intrinio-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/rate-limits/intrinio-rate-limits.yml
+  href: https://artifacts.apis.io/intrinio/rate-limits/intrinio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/intrinio-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/plans/intrinio-plans.yml
+  href: https://artifacts.apis.io/intrinio/plans/intrinio-plans.yml
   title: ''
   type: Plans
   url: plans/intrinio-plans.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/security/intrinio-domain-security.yml
+  href: https://artifacts.apis.io/intrinio/security/intrinio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/intrinio-domain-security.yml
 created: '2026-05-28'
 description: Intrinio is a financial data platform delivering real-time, delayed, and historical US stock prices, options data with Greeks and implied volatility, standardized and as-reported company fundamentals, analyst estimates, ETF and mutual fund holdings, indices, corporate actions, and ESG data through a REST API, WebSocket streaming feeds, bulk files, Snowflake and S3 delivery, and an official hosted MCP server that connects Claude, ChatGPT, Cursor, and other AI assistants directly to its data catalog.
+finops:
+- has_sources: true
+  method: derived
+  name: Intrinio Finops
+  primary_unit: 1 seat license
+  service_category: ''
+  slug: intrinio-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intrinio.png
 layout: provider
 mcp_servers:
@@ -196,7 +206,10 @@ plans:
 - name: Intrinio Plans
   plan_count: 3
   slug: intrinio-plans
-random_paper: 18
+- name: Intrinio Price Estimates
+  plan_count: 0
+  slug: intrinio-price-estimates
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Intrinio Rate Limits
@@ -207,24 +220,24 @@ scopes:
   slug: intrinio-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 52.8
+  band: strong
+  composite: 58.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 61.0
+    artifact_dirs: 19
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 63.2
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 54.8
-    discoverability: 81.7
-    operational_transparency: 50.0
-  previous_composite: 52.8
+    developer_ergonomics: 64.3
+    discoverability: 71.7
+    operational_transparency: 52.6
+  previous_composite: 56.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -234,14 +247,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/screenshots/intrinio-2026-08-17T082615.png
+screenshot: https://apis.io/screenshots/intrinio/intrinio-2026-08-17T082615.png
 security:
 - kind: authentication
   name: Intrinio Authentication

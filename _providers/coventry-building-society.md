@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-10-17'
+  score: 35.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -214,44 +216,44 @@ apis:
   description: The Transactions API from Coventry Building Society — 2 operation(s) for transactions.
   name: Coventry Building Society Transactions API
   slug: coventry-building-society-transactions-api
-artifact_total: 39
+artifact_total: 42
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-opendata-swagger
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/capabilities/coventry-building-society-capability-edges.yml
+  href: https://artifacts.apis.io/coventry-building-society/capabilities/coventry-building-society-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/coventry-building-society-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/agentic-access/coventry-building-society-agentic-access.yml
+  href: https://artifacts.apis.io/coventry-building-society/agentic-access/coventry-building-society-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/coventry-building-society-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/conventions/coventry-building-society-conventions.yml
+  href: https://artifacts.apis.io/coventry-building-society/conventions/coventry-building-society-conventions.yml
   title: ''
   type: Conventions
   url: conventions/coventry-building-society-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/conventions/coventry-building-society-conventions.yml
+  href: https://artifacts.apis.io/coventry-building-society/conventions/coventry-building-society-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/coventry-building-society-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/errors/coventry-building-society-problem-types.yml
+  href: https://artifacts.apis.io/coventry-building-society/errors/coventry-building-society-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/coventry-building-society-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/lifecycle/coventry-building-society-lifecycle.yml
+  href: https://artifacts.apis.io/coventry-building-society/lifecycle/coventry-building-society-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/coventry-building-society-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/conformance/coventry-building-society-conformance.yml
+  href: https://artifacts.apis.io/coventry-building-society/conformance/coventry-building-society-conformance.yml
   title: ''
   type: Conformance
   url: conformance/coventry-building-society-conformance.yml
@@ -260,47 +262,47 @@ common:
   type: Compliance
   url: https://www.coventrybuildingsociety.co.uk/member/help/savings/open-banking.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/data-model/coventry-building-society-data-model.yml
+  href: https://artifacts.apis.io/coventry-building-society/data-model/coventry-building-society-data-model.yml
   title: ''
   type: DataModel
   url: data-model/coventry-building-society-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/llms/coventry-building-society-llms.txt
+  href: https://artifacts.apis.io/coventry-building-society/llms/coventry-building-society-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/coventry-building-society-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/mcp/coventry-building-society-mcp.yml
+  href: https://artifacts.apis.io/coventry-building-society/mcp/coventry-building-society-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/coventry-building-society-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/mcp/coventry-building-society-tool-crosswalk.yml
+  href: https://artifacts.apis.io/coventry-building-society/mcp/coventry-building-society-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/coventry-building-society-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/coventry-building-society/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/overlays/coventry-building-society-account-info-overlay.yaml
+  href: https://artifacts.apis.io/coventry-building-society/overlays/coventry-building-society-account-info-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coventry-building-society-account-info-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/overlays/coventry-building-society-payment-initiation-overlay.yaml
+  href: https://artifacts.apis.io/coventry-building-society/overlays/coventry-building-society-payment-initiation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coventry-building-society-payment-initiation-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/overlays/coventry-building-society-confirmation-funds-overlay.yaml
+  href: https://artifacts.apis.io/coventry-building-society/overlays/coventry-building-society-confirmation-funds-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coventry-building-society-confirmation-funds-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/overlays/coventry-building-society-opendata-overlay.yaml
+  href: https://artifacts.apis.io/coventry-building-society/overlays/coventry-building-society-opendata-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/coventry-building-society-opendata-overlay.yaml
@@ -313,17 +315,17 @@ common:
   type: PrivacyPolicy
   url: https://www.coventrybuildingsociety.co.uk/consumer/help/privacy-policy.html
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/security/coventry-building-society-domain-security.yml
+  href: https://artifacts.apis.io/coventry-building-society/security/coventry-building-society-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/coventry-building-society-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/scopes/coventry-building-society-scopes.yml
+  href: https://artifacts.apis.io/coventry-building-society/scopes/coventry-building-society-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/coventry-building-society-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/authentication/coventry-building-society-authentication.yml
+  href: https://artifacts.apis.io/coventry-building-society/authentication/coventry-building-society-authentication.yml
   title: ''
   type: Authentication
   url: authentication/coventry-building-society-authentication.yml
@@ -364,7 +366,7 @@ overview: 'Coventry Building Society publishes 34 API contracts indexed on the [
 
 
   Coventry Building Society''s developer surface includes authentication, documentation, support, and 25 more developer resources.'
-random_paper: 20
+random_paper: 2
 scopes:
 - name: Coventry Building Society Scopes
   scope_count: 3
@@ -372,7 +374,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 38.3
+  composite: 38.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -380,13 +382,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 4.5
     contract_quality: 46.9
     developer_ergonomics: 44.6
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -419,13 +421,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/screenshots/coventry-building-society-2026-07-25T210542.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/coventry-building-society/coventry-building-society-2026-07-25T210542.png
 security:
 - kind: authentication
   name: Coventry Building Society Authentication
@@ -435,6 +438,14 @@ security:
   name: Coventry Building Society Domain Security
   slug: coventry-building-society-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Retrieve consented account data (AIS)
+  slug: coventry-building-society-account-information
+- name: Confirm funds availability (CBPII)
+  slug: coventry-building-society-confirmation-of-funds
+- name: Initiate a domestic payment (PIS)
+  slug: coventry-building-society-domestic-payment
 slug: coventry-building-society
 tags:
 - Financial Services

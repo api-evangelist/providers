@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 69.8
-  scored_at: '2026-10-17'
+  score: 61.1
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - baseURL: https://api.mollie.com
@@ -47,14 +49,19 @@ apis:
 - description: Mollie's official hosted Model Context Protocol server at mcp.mollie.com/mcp. It exposes Mollie API capabilities to AI agents over streamable HTTP, authenticated with an OAuth 2.0 advanced access toke
   name: Mollie MCP Server
   slug: mollie-mcp
-artifact_total: 9
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Mollie Webhooks
   slug: mollie-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/mollie/plans/mollie-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mollie-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/security/mollie-domain-security.yml
+  href: https://artifacts.apis.io/mollie/security/mollie-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mollie-domain-security.yml
@@ -119,32 +126,32 @@ common:
   type: StatusPage
   url: https://status.mollie.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/lifecycle/mollie-lifecycle.yml
+  href: https://artifacts.apis.io/mollie/lifecycle/mollie-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/mollie-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/changelog/mollie-changelog.yml
+  href: https://artifacts.apis.io/mollie/changelog/mollie-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/mollie-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/packages/mollie-packages.yml
+  href: https://artifacts.apis.io/mollie/packages/mollie-packages.yml
   title: ''
   type: Packages
   url: packages/mollie-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/packages/mollie-packages.yml
+  href: https://artifacts.apis.io/mollie/packages/mollie-packages.yml
   title: ''
   type: SDKs
   url: packages/mollie-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/well-known/mollie-well-known.yml
+  href: https://artifacts.apis.io/mollie/well-known/mollie-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/mollie-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/well-known/mollie-security.txt
+  href: https://artifacts.apis.io/mollie/well-known/mollie-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/mollie-security.txt
@@ -153,12 +160,12 @@ common:
   type: Security
   url: https://www.mollie.com/legal/responsible-disclosure
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/security/mollie-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/mollie/security/mollie-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/mollie-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/security/mollie-trust-center.yml
+  href: https://artifacts.apis.io/mollie/security/mollie-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mollie-trust-center.yml
@@ -167,27 +174,27 @@ common:
   type: Compliance
   url: https://www.mollie.com/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/conformance/mollie-conformance.yml
+  href: https://artifacts.apis.io/mollie/conformance/mollie-conformance.yml
   title: ''
   type: Conformance
   url: conformance/mollie-conformance.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/sandbox/mollie-sandbox.yml
+  href: https://artifacts.apis.io/mollie/sandbox/mollie-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/mollie-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/components/mollie-components.yml
+  href: https://artifacts.apis.io/mollie/components/mollie-components.yml
   title: ''
   type: Components
   url: components/mollie-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/llms/mollie-llms.txt
+  href: https://artifacts.apis.io/mollie/llms/mollie-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/mollie-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/mollie/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -196,63 +203,71 @@ common:
   type: ChangeLog
   url: https://docs.mollie.com/changelog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/authentication/mollie-authentication.yml
+  href: https://artifacts.apis.io/mollie/authentication/mollie-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mollie-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/scopes/mollie-scopes.yml
+  href: https://artifacts.apis.io/mollie/scopes/mollie-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/mollie-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/conventions/mollie-conventions.yml
+  href: https://artifacts.apis.io/mollie/conventions/mollie-conventions.yml
   title: ''
   type: Conventions
   url: conventions/mollie-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/conventions/mollie-conventions.yml
+  href: https://artifacts.apis.io/mollie/conventions/mollie-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/mollie-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/errors/mollie-problem-types.yml
+  href: https://artifacts.apis.io/mollie/errors/mollie-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/mollie-problem-types.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/errors/mollie-decline-codes.yml
+  href: https://artifacts.apis.io/mollie/errors/mollie-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/mollie-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/asyncapi/mollie-webhooks.yml
+  href: https://artifacts.apis.io/mollie/asyncapi/mollie-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/mollie-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/data-model/mollie-data-model.yml
+  href: https://artifacts.apis.io/mollie/data-model/mollie-data-model.yml
   title: ''
   type: DataModel
   url: data-model/mollie-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/mcp/mollie-mcp.yml
+  href: https://artifacts.apis.io/mollie/mcp/mollie-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/mollie-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/mcp/mollie-tool-crosswalk.yml
+  href: https://artifacts.apis.io/mollie/mcp/mollie-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/mollie-tool-crosswalk.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/openapi/mollie-openapi-original.yml
+  href: https://artifacts.apis.io/mollie/openapi/mollie-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/mollie-openapi-original.yml
 created: '2026-08-01'
 description: Mollie B.V. is a Dutch payment service provider headquartered in Amsterdam that lets businesses across Europe accept online, point-of-sale and recurring payments through a single REST API and hosted checkout. The Mollie API is an HTTP+HAL (application/hal+json) interface at api.mollie.com covering Payments, Payment Links, Refunds, Chargebacks, Captures, Customers, Mandates, Subscriptions, Methods, Sessions, Terminals, Balances, Settlements, Payouts, Invoices, Sales Invoices, Business Accounts, Transfers, Onboarding, Capabilities, Clients, Client Links, Profiles, Organizations, Permissions, Delayed Routing, Verify Payee, Wallets, Webhooks and Webhook Events. Mollie supports European payment methods including iDEAL, Bancontact, SEPA Direct Debit, Klarna, PayPal, Apple Pay, Google Pay, BLIK, Przelewy24, TWINT, Vipps, MobilePay, Swish and cards. Mollie publishes an OpenAPI 3.1 specification, official SDKs for PHP, Node/TypeScript, Python, Ruby, Go, Java and C#/.NET, an OAuth 2.0
   Connect platform for marketplaces, next-gen webhook subscriptions, and a hosted Model Context Protocol server plus an official agent toolkit and Agent Skill for AI-driven integrations.
+finops:
+- has_sources: true
+  method: derived
+  name: Mollie Finops
+  primary_unit: hardware
+  service_category: ''
+  slug: mollie-finops
+  template: false
 image: https://www.mollie.com/favicon.ico
 layout: provider
 mcp_servers:
@@ -269,31 +284,38 @@ overview: 'Mollie is listed with 2 APIs on the [APIs.io](https://apis.io/) netwo
   The Mollie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mollie''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
-random_paper: 4
+  Mollie''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
+plans:
+- name: Mollie Plans Pricing
+  plan_count: 10
+  slug: mollie-plans-pricing
+- name: Mollie Price Estimates
+  plan_count: 0
+  slug: mollie-price-estimates
+random_paper: 18
 scopes:
 - name: Mollie Scopes
   scope_count: 61
   slug: mollie-scopes
   summary_line: 61 scopes · authorizationCode
 score:
-  band: strong
-  composite: 59.6
+  band: exemplar
+  composite: 72.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 58.1
-    developer_ergonomics: 61.9
-    discoverability: 75.0
-    operational_transparency: 44.7
+    developer_ergonomics: 83.3
+    discoverability: 65.0
+    operational_transparency: 55.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -302,7 +324,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 59.6
+  previous_composite: 64.3
   provenance:
     conformance: first-party
     contracts:
@@ -324,14 +346,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 53.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/screenshots/mollie-2026-08-07T184112.png
+screenshot: https://apis.io/screenshots/mollie/mollie-2026-08-07T184112.png
 security:
 - kind: authentication
   name: Mollie Authentication
@@ -349,6 +371,18 @@ security:
   name: Mollie Trust Center
   slug: mollie-trust-center
   summary_line: SOC 2 Type 2, PCI-DSS Level 1, ISAE 3402 Type 2, GDPR
+skill_count: 5
+skills:
+- name: mollie-accept-a-payment
+  slug: mollie-accept-a-payment
+- name: mollie-connect-onboarding
+  slug: mollie-connect-onboarding
+- name: mollie-integration
+  slug: mollie-integration
+- name: mollie-recurring-and-subscriptions
+  slug: mollie-recurring-and-subscriptions
+- name: mollie-refund-and-reconcile
+  slug: mollie-refund-and-reconcile
 slug: mollie
 tags:
 - Company

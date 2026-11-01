@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.6
-  scored_at: '2026-10-17'
+  score: 19.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: CDN media-delivery site objects
   name: Qwilt Sites API
   slug: qwilt-sites-api
-artifact_total: 17
+artifact_total: 18
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Qwilt CDN Certificate Manager Certificate Templates API
   slug: open-qwilt-certificate-templates-api
@@ -103,7 +102,7 @@ common:
   type: BlogRSS
   url: https://qwilt.com/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/overlays/qwilt-certificate-manager-overlay.yaml
+  href: https://artifacts.apis.io/qwilt/overlays/qwilt-certificate-manager-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qwilt-certificate-manager-overlay.yaml
@@ -156,87 +155,87 @@ common:
   type: Compliance
   url: https://qwilt.com/compliance/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/changelog/qwilt-changelog.yml
+  href: https://artifacts.apis.io/qwilt/changelog/qwilt-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qwilt-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/authentication/qwilt-authentication.yml
+  href: https://artifacts.apis.io/qwilt/authentication/qwilt-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qwilt-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/conventions/qwilt-conventions.yml
+  href: https://artifacts.apis.io/qwilt/conventions/qwilt-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qwilt-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/lifecycle/qwilt-lifecycle.yml
+  href: https://artifacts.apis.io/qwilt/lifecycle/qwilt-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qwilt-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/conformance/qwilt-conformance.yml
+  href: https://artifacts.apis.io/qwilt/conformance/qwilt-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qwilt-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/errors/qwilt-problem-types.yml
+  href: https://artifacts.apis.io/qwilt/errors/qwilt-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qwilt-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/data-model/qwilt-data-model.yml
+  href: https://artifacts.apis.io/qwilt/data-model/qwilt-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qwilt-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/packages/qwilt-packages.yml
+  href: https://artifacts.apis.io/qwilt/packages/qwilt-packages.yml
   title: ''
   type: Packages
   url: packages/qwilt-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/packages/qwilt-packages.yml
+  href: https://artifacts.apis.io/qwilt/packages/qwilt-packages.yml
   title: ''
   type: SDKs
   url: packages/qwilt-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/cli/qwilt-cli.yml
+  href: https://artifacts.apis.io/qwilt/cli/qwilt-cli.yml
   title: ''
   type: CLI
   url: cli/qwilt-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/mcp/qwilt-mcp.yml
+  href: https://artifacts.apis.io/qwilt/mcp/qwilt-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/qwilt-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/llms/qwilt-llms.txt
+  href: https://artifacts.apis.io/qwilt/llms/qwilt-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qwilt-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/well-known/qwilt-well-known.yml
+  href: https://artifacts.apis.io/qwilt/well-known/qwilt-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/qwilt-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/qwilt/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/agentic-access/qwilt-agentic-access.yml
+  href: https://artifacts.apis.io/qwilt/agentic-access/qwilt-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/qwilt-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/security/qwilt-trust-center.yml
+  href: https://artifacts.apis.io/qwilt/security/qwilt-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/qwilt-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/security/qwilt-domain-security.yml
+  href: https://artifacts.apis.io/qwilt/security/qwilt-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qwilt-domain-security.yml
@@ -252,26 +251,26 @@ overview: 'Qwilt publishes 6 API contracts indexed on the [APIs.io](https://apis
 
 
   Qwilt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 24 more developer resources.'
-random_paper: 11
+random_paper: 9
 score:
   band: developing
-  composite: 41.0
+  composite: 40.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 16.5
+    contract_quality: 13.1
     developer_ergonomics: 73.2
-    discoverability: 78.6
-    operational_transparency: 18.4
-  previous_composite: 40.9
+    discoverability: 71.4
+    operational_transparency: 21.1
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,13 +287,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/screenshots/qwilt-2026-09-02T152731.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/qwilt/qwilt-2026-09-02T152731.png
 security:
 - kind: authentication
   name: Qwilt Authentication
@@ -308,6 +308,12 @@ security:
   name: Qwilt Trust Center
   slug: qwilt-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018
+skill_count: 2
+skills:
+- name: Attach a TLS certificate to a Qwilt CDN site
+  slug: qwilt-attach-tls-certificate
+- name: Provision and publish a Qwilt CDN site
+  slug: qwilt-provision-and-publish-site
 slug: qwilt
 tags:
 - Company

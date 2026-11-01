@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.1
-  scored_at: '2026-10-17'
+  score: 30.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -91,11 +93,8 @@ apis:
   description: The SEO Research API API from SpyFu — 17 operation(s) for seo research api.
   name: SpyFu SEO Research API
   slug: spyfu-seo-research-api-api
-artifact_total: 47
+artifact_total: 53
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Account Account API API
   slug: open-spyfu-account-api-api
@@ -125,22 +124,22 @@ collections:
   slug: open-spyfu-seo-research-api-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/capabilities/spyfu-capability-edges.yml
+  href: https://artifacts.apis.io/spyfu/capabilities/spyfu-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/spyfu-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/agentic-access/spyfu-agentic-access.yml
+  href: https://artifacts.apis.io/spyfu/agentic-access/spyfu-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/spyfu-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/security/spyfu-domain-security.yml
+  href: https://artifacts.apis.io/spyfu/security/spyfu-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spyfu-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/authentication/spyfu-authentication.yml
+  href: https://artifacts.apis.io/spyfu/authentication/spyfu-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spyfu-authentication.yml
@@ -173,92 +172,92 @@ common:
   type: Pricing
   url: https://www.spyfu.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/plans/spyfu-plans-pricing.yml
+  href: https://artifacts.apis.io/spyfu/plans/spyfu-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spyfu-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/rate-limits/spyfu-rate-limits.yml
+  href: https://artifacts.apis.io/spyfu/rate-limits/spyfu-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/spyfu-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/finops/spyfu-finops.yml
+  href: https://artifacts.apis.io/spyfu/finops/spyfu-finops.yml
   title: ''
   type: FinOps
   url: finops/spyfu-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/llms/spyfu-llms.txt
+  href: https://artifacts.apis.io/spyfu/llms/spyfu-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spyfu-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/well-known/spyfu-well-known.yml
+  href: https://artifacts.apis.io/spyfu/well-known/spyfu-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/spyfu-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/mcp/spyfu-mcp.yml
+  href: https://artifacts.apis.io/spyfu/mcp/spyfu-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/spyfu-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/mcp/spyfu-tool-crosswalk.yml
+  href: https://artifacts.apis.io/spyfu/mcp/spyfu-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/spyfu-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/spyfu/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/packages/spyfu-packages.yml
+  href: https://artifacts.apis.io/spyfu/packages/spyfu-packages.yml
   title: ''
   type: Packages
   url: packages/spyfu-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/conventions/spyfu-conventions.yml
+  href: https://artifacts.apis.io/spyfu/conventions/spyfu-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spyfu-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/errors/spyfu-problem-types.yml
+  href: https://artifacts.apis.io/spyfu/errors/spyfu-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spyfu-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/lifecycle/spyfu-lifecycle.yml
+  href: https://artifacts.apis.io/spyfu/lifecycle/spyfu-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spyfu-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/conformance/spyfu-conformance.yml
+  href: https://artifacts.apis.io/spyfu/conformance/spyfu-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spyfu-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/data-model/spyfu-data-model.yml
+  href: https://artifacts.apis.io/spyfu/data-model/spyfu-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spyfu-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/changelog/spyfu-changelog.yml
+  href: https://artifacts.apis.io/spyfu/changelog/spyfu-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/spyfu-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/vocabulary/spyfu-vocabulary.yml
+  href: https://artifacts.apis.io/spyfu/vocabulary/spyfu-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/spyfu-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/rules/spyfu-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/spyfu/rules/spyfu-jsonschema-spectral-rules.yml
   title: ''
   type: Rules
   url: rules/spyfu-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/json-ld/spyfu-context.jsonld
+  href: https://artifacts.apis.io/spyfu/json-ld/spyfu-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/spyfu-context.jsonld
@@ -391,9 +390,12 @@ overview: 'SpyFu publishes 9 API contracts indexed on the [APIs.io](https://apis
   SpyFu''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, support, and 31 more developer resources.'
 plans:
 - name: Spyfu Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: spyfu-plans-pricing
-random_paper: 17
+- name: Spyfu Price Estimates
+  plan_count: 0
+  slug: spyfu-price-estimates
+random_paper: 15
 rate_limits:
 - limit_count: 9
   name: Spyfu Rate Limits
@@ -412,7 +414,7 @@ rules:
   slug: spyfu-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 54.3
+  composite: 58.3
   coverage:
     artifact_dirs: 29
     catalog_earned: 85.2
@@ -420,15 +422,20 @@ score:
     catalog_gap: 29.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 69.7
+    access_clarity: 76.3
     contract_governance: 28.0
     contract_quality: 60.2
-    developer_ergonomics: 33.9
-    discoverability: 80.0
-    operational_transparency: 50.0
-  previous_composite: 55.8
+    developer_ergonomics: 47.0
+    discoverability: 70.0
+    operational_transparency: 52.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -445,13 +452,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/screenshots/spyfu-2026-06-20T194429.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/spyfu/spyfu-2026-06-20T194429.png
 security:
 - kind: authentication
   name: Spyfu Authentication
@@ -461,6 +469,20 @@ security:
   name: Spyfu Domain Security
   slug: spyfu-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 6
+skills:
+- name: spyfu-api-usage-and-cost-control
+  slug: spyfu-api-usage-and-cost-control
+- name: spyfu-competitor-keyword-gap
+  slug: spyfu-competitor-keyword-gap
+- name: spyfu-domain-competitive-audit
+  slug: spyfu-domain-competitive-audit
+- name: spyfu-keyword-expansion
+  slug: spyfu-keyword-expansion
+- name: spyfu-ppc-ad-intelligence
+  slug: spyfu-ppc-ad-intelligence
+- name: read-the-docs
+  slug: spyfu-read-the-docs
 slug: spyfu
 tags:
 - SEO

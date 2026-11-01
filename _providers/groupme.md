@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST + JSON API for GroupMe groups, memberships, messages, chats, likes, blocks, users, and bots, plus a Bayeux push service and bot webhook callbacks.
@@ -82,67 +84,67 @@ common:
   type: SignUp
   url: https://web.groupme.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/authentication/groupme-authentication.yml
+  href: https://artifacts.apis.io/groupme/authentication/groupme-authentication.yml
   title: ''
   type: Authentication
   url: authentication/groupme-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/conventions/groupme-conventions.yml
+  href: https://artifacts.apis.io/groupme/conventions/groupme-conventions.yml
   title: ''
   type: Conventions
   url: conventions/groupme-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/conventions/groupme-conventions.yml
+  href: https://artifacts.apis.io/groupme/conventions/groupme-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/groupme-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/errors/groupme-problem-types.yml
+  href: https://artifacts.apis.io/groupme/errors/groupme-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/groupme-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/asyncapi/groupme-push-webhooks.yml
+  href: https://artifacts.apis.io/groupme/asyncapi/groupme-push-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/groupme-push-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/data-model/groupme-data-model.yml
+  href: https://artifacts.apis.io/groupme/data-model/groupme-data-model.yml
   title: ''
   type: DataModel
   url: data-model/groupme-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/lifecycle/groupme-lifecycle.yml
+  href: https://artifacts.apis.io/groupme/lifecycle/groupme-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/groupme-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/conformance/groupme-conformance.yml
+  href: https://artifacts.apis.io/groupme/conformance/groupme-conformance.yml
   title: ''
   type: Conformance
   url: conformance/groupme-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/packages/groupme-packages.yml
+  href: https://artifacts.apis.io/groupme/packages/groupme-packages.yml
   title: ''
   type: Packages
   url: packages/groupme-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/mcp/groupme-mcp.yml
+  href: https://artifacts.apis.io/groupme/mcp/groupme-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/groupme-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/well-known/groupme-well-known.yml
+  href: https://artifacts.apis.io/groupme/well-known/groupme-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/groupme-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/llms/groupme-llms.txt
+  href: https://artifacts.apis.io/groupme/llms/groupme-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/groupme-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/security/groupme-domain-security.yml
+  href: https://artifacts.apis.io/groupme/security/groupme-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/groupme-domain-security.yml
@@ -161,26 +163,26 @@ overview: 'GroupMe is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   GroupMe''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, authentication, and 16 more developer resources.'
-random_paper: 19
+random_paper: 23
 score:
   band: thin
-  composite: 34.7
+  composite: 36.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 39.0
     developer_ergonomics: 52.4
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 34.2
+  previous_composite: 36.7
   provenance:
     conformance: derived
     mcp: derived
@@ -190,14 +192,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/groupme/refs/heads/main/screenshots/groupme-2026-07-25T220348.png
+screenshot: https://apis.io/screenshots/groupme/groupme-2026-07-25T220348.png
 security:
 - kind: authentication
   name: Groupme Authentication

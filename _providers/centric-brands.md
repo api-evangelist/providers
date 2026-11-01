@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface Centric Brands operates across eight of its owned-brand direct-to-consumer storefronts (Hudson Jeans, Joe's Jeans, Favorite Daughter, Buffalo David Bitton, Avirex, He
@@ -45,57 +47,57 @@ common:
   type: Website
   url: https://www.centricbrands.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/centric-brands/refs/heads/main/mcp/centric-brands-mcp.yml
+  href: https://artifacts.apis.io/centric-brands/mcp/centric-brands-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/centric-brands-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/centric-brands/refs/heads/main/llms/centric-brands-llms.txt
+  href: https://artifacts.apis.io/centric-brands/llms/centric-brands-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/centric-brands-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/centric-brands/refs/heads/main/well-known/centric-brands-well-known.yml
+  href: https://artifacts.apis.io/centric-brands/well-known/centric-brands-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/centric-brands-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centric-brands/refs/heads/main/authentication/centric-brands-authentication.yml
+  href: https://artifacts.apis.io/centric-brands/authentication/centric-brands-authentication.yml
   title: ''
   type: Authentication
   url: authentication/centric-brands-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centric-brands/refs/heads/main/scopes/centric-brands-scopes.yml
+  href: https://artifacts.apis.io/centric-brands/scopes/centric-brands-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/centric-brands-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centric-brands/refs/heads/main/conformance/centric-brands-conformance.yml
+  href: https://artifacts.apis.io/centric-brands/conformance/centric-brands-conformance.yml
   title: ''
   type: Conformance
   url: conformance/centric-brands-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/centric-brands/refs/heads/main/conventions/centric-brands-conventions.yml
+  href: https://artifacts.apis.io/centric-brands/conventions/centric-brands-conventions.yml
   title: ''
   type: Conventions
   url: conventions/centric-brands-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/centric-brands/refs/heads/main/rate-limits/centric-brands-rate-limits.yml
+  href: https://artifacts.apis.io/centric-brands/rate-limits/centric-brands-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/centric-brands-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/centric-brands/refs/heads/main/plans/centric-brands-plans-pricing.yml
+  href: https://artifacts.apis.io/centric-brands/plans/centric-brands-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/centric-brands-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/centric-brands/refs/heads/main/packages/centric-brands-packages.yml
+  href: https://artifacts.apis.io/centric-brands/packages/centric-brands-packages.yml
   title: ''
   type: Packages
   url: packages/centric-brands-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/centric-brands/refs/heads/main/security/centric-brands-domain-security.yml
+  href: https://artifacts.apis.io/centric-brands/security/centric-brands-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/centric-brands-domain-security.yml
@@ -255,7 +257,7 @@ plans:
 - name: Centric Brands Plans Pricing
   plan_count: 0
   slug: centric-brands-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Centric Brands Rate Limits
@@ -267,22 +269,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.7
+  composite: 23.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 93.3
-    operational_transparency: 2.6
+    discoverability: 91.7
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -290,7 +292,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 23.6
+  previous_composite: 23.9
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -300,14 +302,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/centric-brands/refs/heads/main/screenshots/centric-brands-2026-06-20T174129.png
+screenshot: https://apis.io/screenshots/centric-brands/centric-brands-2026-06-20T174129.png
 security:
 - kind: authentication
   name: Centric Brands Authentication

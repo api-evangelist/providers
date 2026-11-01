@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -118,11 +120,8 @@ apis:
   description: The Topic API from Trieve — 1 operation(s) for topic.
   name: Trieve Topic API
   slug: trieve-topic-api
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Trieve REST Chunk API
   slug: open-trieve-chunk-api
@@ -143,17 +142,17 @@ collections:
   slug: open-trieve
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/plans/trieve-plans-pricing.yml
+  href: https://artifacts.apis.io/trieve/plans/trieve-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/trieve-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/rate-limits/trieve-rate-limits.yml
+  href: https://artifacts.apis.io/trieve/rate-limits/trieve-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/trieve-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/finops/trieve-finops.yml
+  href: https://artifacts.apis.io/trieve/finops/trieve-finops.yml
   title: ''
   type: FinOps
   url: finops/trieve-finops.yml
@@ -182,17 +181,17 @@ common:
   type: License
   url: https://github.com/devflowinc/trieve/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/agentic-access/trieve-agentic-access.yml
+  href: https://artifacts.apis.io/trieve/agentic-access/trieve-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/trieve-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/security/trieve-domain-security.yml
+  href: https://artifacts.apis.io/trieve/security/trieve-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/trieve-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/authentication/trieve-authentication.yml
+  href: https://artifacts.apis.io/trieve/authentication/trieve-authentication.yml
   title: ''
   type: Authentication
   url: authentication/trieve-authentication.yml
@@ -251,7 +250,7 @@ plans:
 - name: Trieve Plans Pricing
   plan_count: 1
   slug: trieve-plans-pricing
-random_paper: 17
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Trieve Rate Limits
@@ -270,8 +269,8 @@ rules:
     warn: 0
   slug: trieve-trieve-spectral-rules
 score:
-  band: developing
-  composite: 40.2
+  band: thin
+  composite: 33.3
   coverage:
     artifact_dirs: 14
     catalog_earned: 46.0
@@ -279,18 +278,15 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.8
+  delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 15.8
     contract_governance: 15.2
     contract_quality: 47.6
-    developer_ergonomics: 22.6
+    developer_ergonomics: 23.8
     discoverability: 73.2
     operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 44.0
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -304,13 +300,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/screenshots/trieve-2026-06-20T195811.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/trieve/trieve-2026-06-20T195811.png
 security:
 - kind: authentication
   name: Trieve Authentication

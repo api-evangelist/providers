@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-10-17'
+  score: 32.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,14 +51,11 @@ apis:
   description: Real-time email-address verification operations.
   name: Email Verifier API Verification API
   slug: email-verifier-api-verification-api
-artifact_total: 42
+artifact_total: 44
 collections:
 - collection_type: postman
   name: Email Verifier Verification API
   slug: postman-email-verifier-api-verification-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Email Verifier Verification API
   slug: open-email-verifier-api-verification-api
@@ -65,17 +64,17 @@ collections:
   slug: open-email-verifier-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/plans/email-verifier-api-plans-pricing.yml
+  href: https://artifacts.apis.io/email-verifier-api/plans/email-verifier-api-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/email-verifier-api-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/rate-limits/email-verifier-api-rate-limits.yml
+  href: https://artifacts.apis.io/email-verifier-api/rate-limits/email-verifier-api-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/email-verifier-api-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/finops/email-verifier-api-finops.yml
+  href: https://artifacts.apis.io/email-verifier-api/finops/email-verifier-api-finops.yml
   title: ''
   type: FinOps
   url: finops/email-verifier-api-finops.yml
@@ -88,17 +87,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/email-verifier-api/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/agentic-access/email-verifier-api-agentic-access.yml
+  href: https://artifacts.apis.io/email-verifier-api/agentic-access/email-verifier-api-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/email-verifier-api-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/security/email-verifier-api-domain-security.yml
+  href: https://artifacts.apis.io/email-verifier-api/security/email-verifier-api-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/email-verifier-api-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/authentication/email-verifier-api-authentication.yml
+  href: https://artifacts.apis.io/email-verifier-api/authentication/email-verifier-api-authentication.yml
   title: ''
   type: Authentication
   url: authentication/email-verifier-api-authentication.yml
@@ -159,57 +158,57 @@ common:
   type: APIReference
   url: https://emailverifierapi.com/api-docs/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/llms/email-verifier-api-llms.txt
+  href: https://artifacts.apis.io/email-verifier-api/llms/email-verifier-api-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/email-verifier-api-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/packages/email-verifier-api-packages.yml
+  href: https://artifacts.apis.io/email-verifier-api/packages/email-verifier-api-packages.yml
   title: ''
   type: Packages
   url: packages/email-verifier-api-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/conventions/email-verifier-api-conventions.yml
+  href: https://artifacts.apis.io/email-verifier-api/conventions/email-verifier-api-conventions.yml
   title: ''
   type: Conventions
   url: conventions/email-verifier-api-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/errors/email-verifier-api-problem-types.yml
+  href: https://artifacts.apis.io/email-verifier-api/errors/email-verifier-api-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/email-verifier-api-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/data-model/email-verifier-api-data-model.yml
+  href: https://artifacts.apis.io/email-verifier-api/data-model/email-verifier-api-data-model.yml
   title: ''
   type: DataModel
   url: data-model/email-verifier-api-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/lifecycle/email-verifier-api-lifecycle.yml
+  href: https://artifacts.apis.io/email-verifier-api/lifecycle/email-verifier-api-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/email-verifier-api-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/conformance/email-verifier-api-conformance.yml
+  href: https://artifacts.apis.io/email-verifier-api/conformance/email-verifier-api-conformance.yml
   title: ''
   type: Conformance
   url: conformance/email-verifier-api-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/overlays/email-verifier-api-verification-api-overlay.yaml
+  href: https://artifacts.apis.io/email-verifier-api/overlays/email-verifier-api-verification-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/email-verifier-api-verification-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/email-verifier-api/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/well-known/email-verifier-api-well-known.yml
+  href: https://artifacts.apis.io/email-verifier-api/well-known/email-verifier-api-well-known.yml
   title: ''
   type: WellKnownProbe
   url: well-known/email-verifier-api-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/mcp/email-verifier-api-mcp.yml
+  href: https://artifacts.apis.io/email-verifier-api/mcp/email-verifier-api-mcp.yml
   title: ''
   type: MCPCandidate
   url: mcp/email-verifier-api-mcp.yml
@@ -255,10 +254,10 @@ features:
   name: GET or POST
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Email Verifier Api Finops
-  primary_unit: ''
-  service_category: Email Verification
+  primary_unit: 1,000 credits
+  service_category: ''
   slug: email-verifier-api-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/email-verifier-api.png
@@ -302,7 +301,7 @@ plans:
 - name: Email Verifier Api Plans Pricing
   plan_count: 14
   slug: email-verifier-api-plans-pricing
-random_paper: 2
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Email Verifier Api Rate Limits
@@ -332,24 +331,24 @@ rules:
     warn: 3
   slug: email-verifier-api-rules
 score:
-  band: developing
-  composite: 46.5
+  band: strong
+  composite: 54.9
   coverage:
     artifact_dirs: 30
-    catalog_earned: 65.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    catalog_earned: 77.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.6
   facets:
-    access_clarity: 46.1
+    access_clarity: 84.2
     contract_governance: 31.8
     contract_quality: 61.2
     developer_ergonomics: 45.8
     discoverability: 73.2
     operational_transparency: 7.9
-  previous_composite: 54.8
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -366,13 +365,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/screenshots/email-verifier-api-2026-06-20T180621.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/email-verifier-api/email-verifier-api-2026-06-20T180621.png
 security:
 - kind: authentication
   name: Email Verifier Api Authentication
@@ -382,6 +382,14 @@ security:
   name: Email Verifier Api Domain Security
   slug: email-verifier-api-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 3
+skills:
+- name: Clean a marketing list before a send
+  slug: email-verifier-api-clean-a-list
+- name: Gate a signup form with real-time verification
+  slug: email-verifier-api-gate-signup
+- name: Verify a single email address
+  slug: email-verifier-api-verify-single-address
 slug: email-verifier-api
 tags:
 - Email Verification

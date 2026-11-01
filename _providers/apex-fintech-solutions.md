@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API platform for Apex Fintech Solutions providing wealth management services.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apex-fintech-solutions/refs/heads/main/llms/apex-fintech-solutions-llms.txt
+  href: https://artifacts.apis.io/apex-fintech-solutions/llms/apex-fintech-solutions-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/apex-fintech-solutions-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apex-fintech-solutions/refs/heads/main/well-known/apex-fintech-solutions-well-known.yml
+  href: https://artifacts.apis.io/apex-fintech-solutions/well-known/apex-fintech-solutions-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/apex-fintech-solutions-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apex-fintech-solutions/refs/heads/main/hosts/apex-fintech-solutions-hosts.yml
+  href: https://artifacts.apis.io/apex-fintech-solutions/hosts/apex-fintech-solutions-hosts.yml
   title: ''
   type: Hosts
   url: hosts/apex-fintech-solutions-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/apex-fintech-solutions/refs/heads/main/vendors/apex-fintech-solutions-vendors.yml
+  href: https://artifacts.apis.io/apex-fintech-solutions/vendors/apex-fintech-solutions-vendors.yml
   title: ''
   type: Vendors
   url: vendors/apex-fintech-solutions-vendors.yml
@@ -68,7 +70,7 @@ common:
   type: Login
   url: https://login.apexfintechsolutions.com/login/login.htm?fromURI=%2Fapp%2Fzendesk%2Fexk5dz1rztYjm4jpB5d7%2Fsso%2Fsaml%3FRelayState%3Dhttps%253A%252F%252Fsupport.apexfintechsolutions.com%252Fhc%252Fen-us%26brand_id%3D16120726935575%26SAMLRequest%3DhZFLT8MwEITv%252FRWW786rgbRWkypqhRSpINQCB26Os6ERfgSvUwq%252FHjWAVA7A%250AdXc%252BzezsYnnUihzAYWdNTuMgostiskChVc%252FLwe%252FNFl4GQE%252BOWhnk4yKngzPc%250ACuyQG6EBuZd8V15veBJEvHfWW2kVPUP%252BJgQiON9ZQ0m1zukJcKyezUC0Uc1k%250AM09ZGs1bNruIW5bV2XwGWZ1Os4aSCnGAyqAXxuc0iZJLFkcsnt4lMY9iniaP%250AlDx8X5cEESXlt9nKGhw0uB24QyfhfrvJ6d77HnkYih6OUoFwnXkK3sE0gM%252BB%250AtDoUUgJieIpIi7EmPkZwxX%252FoIjxXfzV8IzRU61urOvlGSqXs68qB8JBT7wag%250A5Mo6Lfzv7cVBPE66hrWjlIMWnSqbxgEiDYtP15%252BvLCYf%250A
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apex-fintech-solutions/refs/heads/main/security/apex-fintech-solutions-domain-security.yml
+  href: https://artifacts.apis.io/apex-fintech-solutions/security/apex-fintech-solutions-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apex-fintech-solutions-domain-security.yml
@@ -108,24 +110,26 @@ overview: 'Apex Fintech Solutions is listed with 1 API on the [APIs.io](https://
 
 
   Apex Fintech Solutions'' developer surface includes engineering blog, documentation, and 11 more developer resources.'
-random_paper: 21
+random_paper: 9
 score:
   band: emerging
-  composite: 17.5
+  composite: 16.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 0.0
+  previous_composite: 16.8
   provenance:
     mcp: derived
   regulatory:
@@ -134,8 +138,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

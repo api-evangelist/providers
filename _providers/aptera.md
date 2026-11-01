@@ -16,7 +16,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/aptera
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aptera/refs/heads/main/llms/aptera-llms.txt
+  href: https://artifacts.apis.io/aptera/llms/aptera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aptera-llms.txt
@@ -30,8 +30,8 @@ name: Aptera
 nav: Providers
 network: true
 overview: Aptera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software Development, Consulting, Application Modernization, and Microsoft.
-random_paper: 21
-screenshot: https://raw.githubusercontent.com/api-evangelist/aptera/refs/heads/main/screenshots/aptera-2026-07-25T200928.png
+random_paper: 13
+screenshot: https://apis.io/screenshots/aptera/aptera-2026-07-25T200928.png
 slug: aptera
 tags:
 - Company

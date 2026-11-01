@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'The core Ximalaya Open Platform HTTP+JSON API on api.ximalaya.com: free on-demand content (albums, tracks, categories, tags), paid on-demand content metadata, content search with hot/suggest words, re'
@@ -43,7 +45,7 @@ common:
   type: Blog
   url: https://www.ximalaya.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/security/ximalaya-domain-security.yml
+  href: https://artifacts.apis.io/ximalaya/security/ximalaya-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ximalaya-domain-security.yml
@@ -84,7 +86,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/XimalayaCloud
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/sandbox/ximalaya-sandbox.yml
+  href: https://artifacts.apis.io/ximalaya/sandbox/ximalaya-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ximalaya-sandbox.yml
@@ -93,77 +95,77 @@ common:
   type: Console
   url: https://open.ximalaya.com/doc/tool
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/authentication/ximalaya-authentication.yml
+  href: https://artifacts.apis.io/ximalaya/authentication/ximalaya-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ximalaya-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/scopes/ximalaya-scopes.yml
+  href: https://artifacts.apis.io/ximalaya/scopes/ximalaya-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ximalaya-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/errors/ximalaya-error-codes.yml
+  href: https://artifacts.apis.io/ximalaya/errors/ximalaya-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ximalaya-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/rate-limits/ximalaya-rate-limits.yml
+  href: https://artifacts.apis.io/ximalaya/rate-limits/ximalaya-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ximalaya-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/plans/ximalaya-plans-pricing.yml
+  href: https://artifacts.apis.io/ximalaya/plans/ximalaya-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ximalaya-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/conventions/ximalaya-conventions.yml
+  href: https://artifacts.apis.io/ximalaya/conventions/ximalaya-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ximalaya-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/lifecycle/ximalaya-lifecycle.yml
+  href: https://artifacts.apis.io/ximalaya/lifecycle/ximalaya-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ximalaya-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/conformance/ximalaya-conformance.yml
+  href: https://artifacts.apis.io/ximalaya/conformance/ximalaya-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ximalaya-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/data-model/ximalaya-data-model.yml
+  href: https://artifacts.apis.io/ximalaya/data-model/ximalaya-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ximalaya-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/asyncapi/ximalaya-callbacks-webhooks.yml
+  href: https://artifacts.apis.io/ximalaya/asyncapi/ximalaya-callbacks-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ximalaya-callbacks-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/packages/ximalaya-packages.yml
+  href: https://artifacts.apis.io/ximalaya/packages/ximalaya-packages.yml
   title: ''
   type: Packages
   url: packages/ximalaya-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/packages/ximalaya-packages.yml
+  href: https://artifacts.apis.io/ximalaya/packages/ximalaya-packages.yml
   title: ''
   type: SDKs
   url: packages/ximalaya-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/components/ximalaya-components.yml
+  href: https://artifacts.apis.io/ximalaya/components/ximalaya-components.yml
   title: ''
   type: Components
   url: components/ximalaya-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/llms/ximalaya-llms.txt
+  href: https://artifacts.apis.io/ximalaya/llms/ximalaya-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ximalaya-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/mcp/ximalaya-mcp.yml
+  href: https://artifacts.apis.io/ximalaya/mcp/ximalaya-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ximalaya-mcp.yml
@@ -186,7 +188,7 @@ plans:
 - name: Ximalaya Plans Pricing
   plan_count: 0
   slug: ximalaya-plans-pricing
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Ximalaya Rate Limits
@@ -197,23 +199,23 @@ scopes:
   slug: ximalaya-scopes
   summary_line: 6 scopes
 score:
-  band: thin
-  composite: 30.0
+  band: developing
+  composite: 47.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 66.7
     discoverability: 66.1
-    operational_transparency: 42.1
+    operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -221,7 +223,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 29.5
+  previous_composite: 47.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -230,15 +232,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 34.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ximalaya/refs/heads/main/screenshots/ximalaya-2026-10-11T195255.png
+screenshot: https://apis.io/screenshots/ximalaya/ximalaya-2026-10-11T195255.png
 security:
 - kind: authentication
   name: Ximalaya Authentication

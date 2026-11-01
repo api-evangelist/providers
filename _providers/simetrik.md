@@ -14,7 +14,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -28,25 +28,27 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.6
-  scored_at: '2026-10-17'
+  score: 34.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Simetrik''s hosted remote Model Context Protocol server. An MCP client adds one URL and signs in with a Simetrik account over OAuth 2.1 (authorization code + PKCE, dynamic client registration) - there '
   name: Simetrik MCP Server
   slug: simetrik-mcp-server
-artifact_total: 8
+artifact_total: 10
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/mcp/simetrik-mcp.yml
+  href: https://artifacts.apis.io/simetrik/mcp/simetrik-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/simetrik-mcp.yml
@@ -115,78 +117,86 @@ common:
   type: Security
   url: https://simetrik.com/information-security-privacy-policy/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/changelog/simetrik-changelog.yml
+  href: https://artifacts.apis.io/simetrik/changelog/simetrik-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/simetrik-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/cli/simetrik-cli.yml
+  href: https://artifacts.apis.io/simetrik/cli/simetrik-cli.yml
   title: ''
   type: CLI
   url: cli/simetrik-cli.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/packages/simetrik-packages.yml
+  href: https://artifacts.apis.io/simetrik/packages/simetrik-packages.yml
   title: ''
   type: Packages
   url: packages/simetrik-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/simetrik/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/llms/simetrik-llms.txt
+  href: https://artifacts.apis.io/simetrik/llms/simetrik-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/simetrik-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/well-known/simetrik-well-known.yml
+  href: https://artifacts.apis.io/simetrik/well-known/simetrik-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/simetrik-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/conventions/simetrik-conventions.yml
+  href: https://artifacts.apis.io/simetrik/conventions/simetrik-conventions.yml
   title: ''
   type: Conventions
   url: conventions/simetrik-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/conventions/simetrik-conventions.yml
+  href: https://artifacts.apis.io/simetrik/conventions/simetrik-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/simetrik-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/lifecycle/simetrik-lifecycle.yml
+  href: https://artifacts.apis.io/simetrik/lifecycle/simetrik-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/simetrik-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/errors/simetrik-error-codes.yml
+  href: https://artifacts.apis.io/simetrik/errors/simetrik-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/simetrik-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/conformance/simetrik-conformance.yml
+  href: https://artifacts.apis.io/simetrik/conformance/simetrik-conformance.yml
   title: ''
   type: Conformance
   url: conformance/simetrik-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/security/simetrik-domain-security.yml
+  href: https://artifacts.apis.io/simetrik/security/simetrik-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/simetrik-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/plans/simetrik-plans-pricing.yml
+  href: https://artifacts.apis.io/simetrik/plans/simetrik-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/simetrik-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/rate-limits/simetrik-rate-limits.yml
+  href: https://artifacts.apis.io/simetrik/rate-limits/simetrik-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/simetrik-rate-limits.yml
 created: '2026-08-27'
 description: 'Simetrik is an AI-powered financial control and reconciliation platform, founded in Bogota, Colombia, that sits underneath a company''s finance stack and reconciles transactions across payment gateways, banks, card networks, ERPs, internal ledgers and operational systems. The platform pairs a no-code reconciliation engine (native sources, segments, calculated columns, unions, joins, groups, standard and advanced reconciliations, sweeps, compensations, consolidations, opening records and data exports) with an Accounting Translator, an Operation Center, scheduling, alarms and approvals. Its developer surface is deliberately agent-first rather than REST-first: Simetrik publishes a cross-platform `simetrik` CLI, a versioned Claude Agent Skill bundle shipped in lockstep with that CLI, and a hosted remote MCP server at https://mcp.us.simetrik.com/mcp that an MCP client connects to with a single URL and an OAuth sign-in, with no API key to create or rotate. Customers are concentrated
   in payments and financial services: PSPs, acquirers, issuers, marketplaces, neobanks, banks and retailers.'
+finops:
+- has_sources: true
+  method: derived
+  name: Simetrik Finops
+  primary_unit: ''
+  service_category: ''
+  slug: simetrik-finops
+  template: true
 image: https://simetrik.com/wp-content/uploads/2026/07/cropped-simetrik_logo-192x192.png
 layout: provider
 mcp_servers:
@@ -205,7 +215,7 @@ plans:
 - name: Simetrik Plans Pricing
   plan_count: 0
   slug: simetrik-plans-pricing
-random_paper: 14
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Simetrik Rate Limits
@@ -217,9 +227,9 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 46.3
+  composite: 45.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -231,14 +241,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 75.0
-    operational_transparency: 76.3
+    discoverability: 65.0
+    operational_transparency: 78.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 46.3
+  previous_composite: 45.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -249,14 +259,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/screenshots/simetrik-2026-09-02T155523.png
+screenshot: https://apis.io/screenshots/simetrik/simetrik-2026-09-02T155523.png
 security:
 - kind: authentication
   name: Simetrik Authentication
@@ -270,6 +280,10 @@ security:
   name: Simetrik Trust Center
   slug: simetrik-trust-center
   summary_line: ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 27018, SOC 1 Type 2, SOC 2 Type 2, SOC 3, PCI DSS
+skill_count: 1
+skills:
+- name: simetrik-cli
+  slug: simetrik-cli-operator
 slug: simetrik
 tags:
 - Company

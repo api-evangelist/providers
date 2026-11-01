@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-17'
+  score: 33.3
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - baseURL: https://sandbox.kredivo.com
@@ -64,15 +66,12 @@ apis:
   description: Status, cancellation and reversal of transactions.
   name: Kredivo Transactions API
   slug: kredivo-transactions-api
-artifact_total: 15
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Kredivo Checkout Webhooks
   slug: kredivo-checkout-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kredivo Checkout Calculator API
   slug: open-kredivo-calculator-api
@@ -90,27 +89,27 @@ collections:
   slug: open-kredivo-transactions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/capabilities/kredivo-capability-edges.yml
+  href: https://artifacts.apis.io/kredivo/capabilities/kredivo-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/kredivo-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/overlays/kredivo-checkout-overlay.yaml
+  href: https://artifacts.apis.io/kredivo/overlays/kredivo-checkout-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/kredivo-checkout-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/security/kredivo-domain-security.yml
+  href: https://artifacts.apis.io/kredivo/security/kredivo-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kredivo-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/security/kredivo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kredivo/security/kredivo-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kredivo-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/security/kredivo-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kredivo/security/kredivo-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/kredivo-vulnerability-disclosure.yml
@@ -171,82 +170,82 @@ common:
   type: Partners
   url: https://kredivo.com/p/partners.html
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/packages/kredivo-packages.yml
+  href: https://artifacts.apis.io/kredivo/packages/kredivo-packages.yml
   title: ''
   type: Packages
   url: packages/kredivo-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/packages/kredivo-packages.yml
+  href: https://artifacts.apis.io/kredivo/packages/kredivo-packages.yml
   title: ''
   type: SDKs
   url: packages/kredivo-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/authentication/kredivo-authentication.yml
+  href: https://artifacts.apis.io/kredivo/authentication/kredivo-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kredivo-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/conventions/kredivo-conventions.yml
+  href: https://artifacts.apis.io/kredivo/conventions/kredivo-conventions.yml
   title: ''
   type: Conventions
   url: conventions/kredivo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/conventions/kredivo-conventions.yml
+  href: https://artifacts.apis.io/kredivo/conventions/kredivo-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/kredivo-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/errors/kredivo-error-codes.yml
+  href: https://artifacts.apis.io/kredivo/errors/kredivo-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/kredivo-error-codes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/errors/kredivo-decline-codes.yml
+  href: https://artifacts.apis.io/kredivo/errors/kredivo-decline-codes.yml
   title: ''
   type: DeclineCodes
   url: errors/kredivo-decline-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/lifecycle/kredivo-lifecycle.yml
+  href: https://artifacts.apis.io/kredivo/lifecycle/kredivo-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/kredivo-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/sandbox/kredivo-sandbox.yml
+  href: https://artifacts.apis.io/kredivo/sandbox/kredivo-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/kredivo-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/data-model/kredivo-data-model.yml
+  href: https://artifacts.apis.io/kredivo/data-model/kredivo-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kredivo-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/conformance/kredivo-conformance.yml
+  href: https://artifacts.apis.io/kredivo/conformance/kredivo-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kredivo-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/well-known/kredivo-well-known.yml
+  href: https://artifacts.apis.io/kredivo/well-known/kredivo-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kredivo-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/llms/kredivo-llms.txt
+  href: https://artifacts.apis.io/kredivo/llms/kredivo-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kredivo-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/mcp/kredivo-mcp.yml
+  href: https://artifacts.apis.io/kredivo/mcp/kredivo-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/kredivo-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/kredivo/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/asyncapi/kredivo-checkout-webhooks.yml
+  href: https://artifacts.apis.io/kredivo/asyncapi/kredivo-checkout-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/kredivo-checkout-webhooks.yml
@@ -265,10 +264,10 @@ overview: 'Kredivo is listed with 5 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Kredivo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 28 more developer resources.'
-random_paper: 8
+random_paper: 12
 score:
   band: developing
-  composite: 40.4
+  composite: 40.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -276,13 +275,13 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 22.0
     developer_ergonomics: 73.2
-    discoverability: 78.6
+    discoverability: 71.4
     operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -307,13 +306,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 27.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/screenshots/kredivo-2026-07-25T224258.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kredivo/kredivo-2026-07-25T224258.png
 security:
 - kind: authentication
   name: Kredivo Authentication
@@ -327,6 +327,16 @@ security:
   name: Kredivo Vulnerability Disclosure
   slug: kredivo-vulnerability-disclosure
   summary_line: Hackerone · contact published
+skill_count: 4
+skills:
+- name: kredivo-cancellations-and-refunds
+  slug: kredivo-cancellations-and-refunds
+- name: kredivo-offline-qr-edc-checkout
+  slug: kredivo-offline-qr-edc-checkout
+- name: kredivo-online-checkout
+  slug: kredivo-online-checkout
+- name: kredivo-tokenized-express-checkout
+  slug: kredivo-tokenized-express-checkout
 slug: kredivo
 tags:
 - Company

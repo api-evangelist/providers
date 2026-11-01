@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.5
-  scored_at: '2026-10-17'
+  score: 26.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 32
   slug: kronos-seshat-agentic-access
   summary_line: 32 operations · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://kronos.seshat.markets/api
   baseurl_source: declared
@@ -83,69 +85,79 @@ apis:
   description: The Verification API from Kronos Quant Signal API — 3 operation(s) for verification.
   name: Kronos Quant Signal API Verification API
   slug: kronos-seshat-verification-api
-artifact_total: 17
+artifact_total: 20
 common:
+- group: other
+  href: https://artifacts.apis.io/kronos-seshat/capabilities/kronos-seshat-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kronos-seshat-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/kronos-seshat/plans/kronos-seshat-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/kronos-seshat-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
   url: https://seshat.markets/blog/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/agentic-access/kronos-seshat-agentic-access.yml
+  href: https://artifacts.apis.io/kronos-seshat/agentic-access/kronos-seshat-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/kronos-seshat-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/rules/kronos-seshat-rules.yml
+  href: https://artifacts.apis.io/kronos-seshat/rules/kronos-seshat-rules.yml
   title: ''
   type: Spectral
   url: rules/kronos-seshat-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/json-ld/kronos-seshat-context.jsonld
+  href: https://artifacts.apis.io/kronos-seshat/json-ld/kronos-seshat-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/kronos-seshat-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/vocabulary/kronos-seshat-vocabulary.yml
+  href: https://artifacts.apis.io/kronos-seshat/vocabulary/kronos-seshat-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/kronos-seshat-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/data-model/kronos-seshat-data-model.yml
+  href: https://artifacts.apis.io/kronos-seshat/data-model/kronos-seshat-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kronos-seshat-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/errors/kronos-seshat-problem-types.yml
+  href: https://artifacts.apis.io/kronos-seshat/errors/kronos-seshat-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kronos-seshat-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/conformance/kronos-seshat-conformance.yml
+  href: https://artifacts.apis.io/kronos-seshat/conformance/kronos-seshat-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kronos-seshat-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/llms/kronos-seshat-llms.txt
+  href: https://artifacts.apis.io/kronos-seshat/llms/kronos-seshat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kronos-seshat-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/a2a/kronos-seshat-a2a.yml
+  href: https://artifacts.apis.io/kronos-seshat/a2a/kronos-seshat-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/kronos-seshat-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/well-known/kronos-seshat-well-known.yml
+  href: https://artifacts.apis.io/kronos-seshat/well-known/kronos-seshat-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/kronos-seshat-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/hosts/kronos-seshat-hosts.yml
+  href: https://artifacts.apis.io/kronos-seshat/hosts/kronos-seshat-hosts.yml
   title: ''
   type: Hosts
   url: hosts/kronos-seshat-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/vendors/kronos-seshat-vendors.yml
+  href: https://artifacts.apis.io/kronos-seshat/vendors/kronos-seshat-vendors.yml
   title: ''
   type: Vendors
   url: vendors/kronos-seshat-vendors.yml
@@ -158,17 +170,17 @@ common:
   type: Sandbox
   url: https://kronos.seshat.markets/api/playground
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/authentication/kronos-seshat-authentication.yml
+  href: https://artifacts.apis.io/kronos-seshat/authentication/kronos-seshat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/kronos-seshat-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/security/kronos-seshat-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/kronos-seshat/security/kronos-seshat-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/kronos-seshat-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/security/kronos-seshat-domain-security.yml
+  href: https://artifacts.apis.io/kronos-seshat/security/kronos-seshat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kronos-seshat-domain-security.yml
@@ -198,6 +210,14 @@ common:
   url: https://kronos.seshat.markets/contact.html
 created: '2026-09-25'
 description: Kronos Quant Signal API provides crypto, commodity, and pre‑market equity financial forecast signals via a RESTful API. It delivers multi‑timeframe OHLCV‑based predictions, audited model decisions, and risk metrics. Users can access live and delayed forecasts, risk assessments, and historical accuracy data, enabling quantitative analysis and strategy development across digital and traditional assets.
+finops:
+- has_sources: true
+  method: derived
+  name: Kronos Seshat Finops
+  primary_unit: call
+  service_category: ''
+  slug: kronos-seshat-finops
+  template: false
 image: https://kronos.seshat.markets/assets/og-kronos.webp
 json_schemas:
 - name: KronosForecastResponse
@@ -219,8 +239,15 @@ overview: 'Kronos Quant Signal API publishes 10 API contracts indexed on the [AP
   The Kronos Quant Signal API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Kronos Quant Signal API''s developer surface includes engineering blog, sandbox, authentication, documentation, pricing, support, and 18 more developer resources.'
-random_paper: 19
+  Kronos Quant Signal API''s developer surface includes engineering blog, sandbox, authentication, documentation, pricing, support, and 20 more developer resources.'
+plans:
+- name: Kronos Seshat Plans Pricing
+  plan_count: 10
+  slug: kronos-seshat-plans-pricing
+- name: Kronos Seshat Price Estimates
+  plan_count: 0
+  slug: kronos-seshat-price-estimates
+random_paper: 17
 rules:
 - authorship: generated
   effective_rule_count: 54
@@ -236,23 +263,23 @@ rules:
   slug: kronos-seshat-rules
 score:
   band: developing
-  composite: 39.6
+  composite: 48.3
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 59.2
-    catalog_earned_first_party: 0.0
-    catalog_gap: 55.9
+    artifact_dirs: 24
+    catalog_earned: 74.2
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 8.7
   facets:
-    access_clarity: 31.6
+    access_clarity: 71.1
     contract_governance: 22.0
     contract_quality: 57.2
     developer_ergonomics: 35.7
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 39.1
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,14 +294,15 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 28.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+    score: 34.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/screenshots/kronos-seshat-2026-10-11T110243.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/kronos-seshat/kronos-seshat-2026-10-11T110243.png
 security:
 - kind: authentication
   name: Kronos Seshat Authentication

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 4
 common:
@@ -71,57 +73,57 @@ common:
   type: Support
   url: https://workerbase.zendesk.com/hc/en-us
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/workerbase/refs/heads/main/packages/workerbase-packages.yml
+  href: https://artifacts.apis.io/workerbase/packages/workerbase-packages.yml
   title: ''
   type: Packages
   url: packages/workerbase-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/workerbase/refs/heads/main/packages/workerbase-packages.yml
+  href: https://artifacts.apis.io/workerbase/packages/workerbase-packages.yml
   title: ''
   type: SDKs
   url: packages/workerbase-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workerbase/refs/heads/main/mcp/workerbase-mcp.yml
+  href: https://artifacts.apis.io/workerbase/mcp/workerbase-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/workerbase-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workerbase/refs/heads/main/llms/workerbase-llms.txt
+  href: https://artifacts.apis.io/workerbase/llms/workerbase-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/workerbase-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workerbase/refs/heads/main/conformance/workerbase-conformance.yml
+  href: https://artifacts.apis.io/workerbase/conformance/workerbase-conformance.yml
   title: ''
   type: Conformance
   url: conformance/workerbase-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workerbase/refs/heads/main/authentication/workerbase-authentication.yml
+  href: https://artifacts.apis.io/workerbase/authentication/workerbase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/workerbase-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workerbase/refs/heads/main/conventions/workerbase-conventions.yml
+  href: https://artifacts.apis.io/workerbase/conventions/workerbase-conventions.yml
   title: ''
   type: Conventions
   url: conventions/workerbase-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/workerbase/refs/heads/main/data-model/workerbase-data-model.yml
+  href: https://artifacts.apis.io/workerbase/data-model/workerbase-data-model.yml
   title: ''
   type: DataModel
   url: data-model/workerbase-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workerbase/refs/heads/main/security/workerbase-trust-center.yml
+  href: https://artifacts.apis.io/workerbase/security/workerbase-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/workerbase-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workerbase/refs/heads/main/security/workerbase-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/workerbase/security/workerbase-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/workerbase-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/workerbase/refs/heads/main/security/workerbase-domain-security.yml
+  href: https://artifacts.apis.io/workerbase/security/workerbase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/workerbase-domain-security.yml
@@ -140,7 +142,7 @@ overview: 'Workerbase is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 21
 score:
   band: emerging
-  composite: 22.8
+  composite: 24.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -148,14 +150,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 26.2
     discoverability: 48.2
-    operational_transparency: 13.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -164,7 +166,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 22.7
+  previous_composite: 24.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -180,14 +182,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 31.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/workerbase/refs/heads/main/screenshots/workerbase-2026-09-02T170931.png
+screenshot: https://apis.io/screenshots/workerbase/workerbase-2026-09-02T170931.png
 security:
 - kind: authentication
   name: Workerbase Authentication

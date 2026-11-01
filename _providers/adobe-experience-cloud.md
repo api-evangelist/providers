@@ -30,16 +30,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.0
-  scored_at: '2026-10-17'
+  score: 49.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 1
@@ -658,7 +660,7 @@ arazzos:
 - description: List available offers, then fetch personalized content for a visitor session.
   name: Adobe Target Deliver Personalization
   slug: adobe-experience-cloud-target-deliver-personalization-workflow
-artifact_total: 403
+artifact_total: 413
 asyncapis:
 - description: Adobe I/O Events enables developers to receive near-real-time notifications from Adobe services via webhooks and journal polling. Events are emitted when significant changes occur across Adobe Experie
   name: Adobe I/O Events
@@ -679,9 +681,6 @@ collections:
 - collection_type: postman
   name: Adobe Experience Cloud Adobe Target API
   slug: postman-adobe-target-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Adobe Experience Cloud Adobe Analytics 2.0 API
   slug: open-adobe-analytics-api
@@ -808,27 +807,27 @@ common:
   type: Website
   url: https://www.adobe.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/capabilities/adobe-experience-cloud-capability-edges.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/capabilities/adobe-experience-cloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/adobe-experience-cloud-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/agentic-access/adobe-experience-cloud-agentic-access.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/agentic-access/adobe-experience-cloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/adobe-experience-cloud-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/security/adobe-experience-cloud-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/security/adobe-experience-cloud-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/adobe-experience-cloud-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/security/adobe-experience-cloud-domain-security.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/security/adobe-experience-cloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adobe-experience-cloud-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/authentication/adobe-experience-cloud-authentication.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/authentication/adobe-experience-cloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/adobe-experience-cloud-authentication.yml
@@ -837,87 +836,87 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adobe-experience-cloud/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-analytics-report-suite-discovery-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-analytics-report-suite-discovery-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-analytics-report-suite-discovery-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-analytics-segment-report-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-analytics-segment-report-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-analytics-segment-report-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-campaign-profile-subscription-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-campaign-profile-subscription-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-campaign-profile-subscription-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-campaign-transactional-message-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-campaign-transactional-message-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-campaign-transactional-message-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-campaign-workflow-execution-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-campaign-workflow-execution-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-campaign-workflow-execution-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-experience-platform-audience-segment-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-experience-platform-audience-segment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-experience-platform-audience-segment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-experience-platform-batch-ingestion-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-experience-platform-batch-ingestion-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-experience-platform-batch-ingestion-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-experience-platform-identity-profile-lookup-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-experience-platform-identity-profile-lookup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-experience-platform-identity-profile-lookup-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-experience-platform-query-service-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-experience-platform-query-service-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-experience-platform-query-service-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-experience-platform-schema-dataset-setup-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-experience-platform-schema-dataset-setup-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-experience-platform-schema-dataset-setup-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-journey-campaign-launch-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-journey-campaign-launch-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-journey-campaign-launch-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-journey-create-publish-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-journey-create-publish-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-journey-create-publish-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-journey-message-authoring-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-journey-message-authoring-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-journey-message-authoring-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-journey-offer-decisioning-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-journey-offer-decisioning-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-journey-offer-decisioning-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-target-ab-activity-lifecycle-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-target-ab-activity-lifecycle-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-target-ab-activity-lifecycle-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-target-audience-offer-activity-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-target-audience-offer-activity-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-target-audience-offer-activity-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/arazzo/adobe-experience-cloud-target-deliver-personalization-workflow.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/arazzo/adobe-experience-cloud-target-deliver-personalization-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/adobe-experience-cloud-target-deliver-personalization-workflow.yml
@@ -982,162 +981,162 @@ common:
   type: ChangeLog
   url: https://developer.adobe.com/events/docs/whats_new/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/rules/adobe-experience-cloud-spectral-rules.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/rules/adobe-experience-cloud-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/adobe-experience-cloud-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/vocabulary/adobe-experience-cloud-vocabulary.yaml
+  href: https://artifacts.apis.io/adobe-experience-cloud/vocabulary/adobe-experience-cloud-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/adobe-experience-cloud-vocabulary.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/json-ld/adobe-experience-cloud-analytics-api-context.jsonld
+  href: https://artifacts.apis.io/adobe-experience-cloud/json-ld/adobe-experience-cloud-analytics-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-experience-cloud-analytics-api-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/json-ld/adobe-experience-cloud-campaign-api-context.jsonld
+  href: https://artifacts.apis.io/adobe-experience-cloud/json-ld/adobe-experience-cloud-campaign-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-experience-cloud-campaign-api-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/json-ld/adobe-experience-cloud-context.jsonld
+  href: https://artifacts.apis.io/adobe-experience-cloud/json-ld/adobe-experience-cloud-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-experience-cloud-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/json-ld/adobe-experience-cloud-experience-platform-api-context.jsonld
+  href: https://artifacts.apis.io/adobe-experience-cloud/json-ld/adobe-experience-cloud-experience-platform-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-experience-cloud-experience-platform-api-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/json-ld/adobe-experience-cloud-io-events-context.jsonld
+  href: https://artifacts.apis.io/adobe-experience-cloud/json-ld/adobe-experience-cloud-io-events-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-experience-cloud-io-events-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/json-ld/adobe-experience-cloud-journey-optimizer-api-context.jsonld
+  href: https://artifacts.apis.io/adobe-experience-cloud/json-ld/adobe-experience-cloud-journey-optimizer-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-experience-cloud-journey-optimizer-api-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/json-ld/adobe-experience-cloud-target-api-context.jsonld
+  href: https://artifacts.apis.io/adobe-experience-cloud/json-ld/adobe-experience-cloud-target-api-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/adobe-experience-cloud-target-api-context.jsonld
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/well-known/adobe-experience-cloud-well-known.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/well-known/adobe-experience-cloud-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/adobe-experience-cloud-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/well-known/adobe-experience-cloud-security.txt
+  href: https://artifacts.apis.io/adobe-experience-cloud/well-known/adobe-experience-cloud-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/adobe-experience-cloud-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/security/adobe-experience-cloud-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/security/adobe-experience-cloud-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/adobe-experience-cloud-vulnerability-disclosure.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/packages/adobe-experience-cloud-packages.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/packages/adobe-experience-cloud-packages.yml
   title: ''
   type: Packages
   url: packages/adobe-experience-cloud-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/packages/adobe-experience-cloud-packages.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/packages/adobe-experience-cloud-packages.yml
   title: ''
   type: SDKs
   url: packages/adobe-experience-cloud-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/cli/adobe-experience-cloud-cli.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/cli/adobe-experience-cloud-cli.yml
   title: ''
   type: CLI
   url: cli/adobe-experience-cloud-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/mcp/adobe-experience-cloud-mcp.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/mcp/adobe-experience-cloud-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/adobe-experience-cloud-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/mcp/adobe-experience-cloud-tool-crosswalk.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/mcp/adobe-experience-cloud-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/adobe-experience-cloud-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/llms/adobe-experience-cloud-llms.txt
+  href: https://artifacts.apis.io/adobe-experience-cloud/llms/adobe-experience-cloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adobe-experience-cloud-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/conformance/adobe-experience-cloud-conformance.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/conformance/adobe-experience-cloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adobe-experience-cloud-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/errors/adobe-experience-cloud-problem-types.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/errors/adobe-experience-cloud-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/adobe-experience-cloud-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/lifecycle/adobe-experience-cloud-lifecycle.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/lifecycle/adobe-experience-cloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/adobe-experience-cloud-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/changelog/adobe-experience-cloud-changelog.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/changelog/adobe-experience-cloud-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/adobe-experience-cloud-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/scopes/adobe-experience-cloud-scopes.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/scopes/adobe-experience-cloud-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/adobe-experience-cloud-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/conventions/adobe-experience-cloud-conventions.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/conventions/adobe-experience-cloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/adobe-experience-cloud-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/sandbox/adobe-experience-cloud-sandbox.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/sandbox/adobe-experience-cloud-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/adobe-experience-cloud-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/components/adobe-experience-cloud-components.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/components/adobe-experience-cloud-components.yml
   title: ''
   type: Components
   url: components/adobe-experience-cloud-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/data-model/adobe-experience-cloud-data-model.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/data-model/adobe-experience-cloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/adobe-experience-cloud-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/asyncapi/adobe-io-events-asyncapi.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/asyncapi/adobe-io-events-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/adobe-io-events-asyncapi.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/plans/adobe-experience-cloud-plans-pricing.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/plans/adobe-experience-cloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adobe-experience-cloud-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/rate-limits/adobe-experience-cloud-rate-limits.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/rate-limits/adobe-experience-cloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adobe-experience-cloud-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/finops/adobe-experience-cloud-finops.yml
+  href: https://artifacts.apis.io/adobe-experience-cloud/finops/adobe-experience-cloud-finops.yml
   title: ''
   type: FinOps
   url: finops/adobe-experience-cloud-finops.yml
@@ -2031,7 +2030,7 @@ plans:
 - name: Adobe Experience Cloud Plans Pricing
   plan_count: 5
   slug: adobe-experience-cloud-plans-pricing
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 8
   name: Adobe Experience Cloud Rate Limits
@@ -2079,7 +2078,7 @@ scopes:
   summary_line: 16 scopes
 score:
   band: exemplar
-  composite: 67.2
+  composite: 68.1
   coverage:
     artifact_dirs: 38
     catalog_earned: 75.0
@@ -2087,15 +2086,20 @@ score:
     catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 31.8
-    contract_quality: 68.9
-    developer_ergonomics: 74.4
-    discoverability: 80.0
-    operational_transparency: 60.5
-  previous_composite: 68.7
+    contract_quality: 65.9
+    developer_ergonomics: 86.9
+    discoverability: 70.0
+    operational_transparency: 86.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 68.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2112,13 +2116,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/screenshots/adobe-experience-cloud-2026-06-20T164907.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/adobe-experience-cloud/adobe-experience-cloud-2026-06-20T164907.png
 security:
 - kind: authentication
   name: Adobe Experience Cloud Authentication
@@ -2132,6 +2137,30 @@ security:
   name: Adobe Experience Cloud Vulnerability Disclosure
   slug: adobe-experience-cloud-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 11
+skills:
+- name: aa-conversion-funnel-analysis
+  slug: adobe-experience-cloud-aa-conversion-funnel-analysis
+- name: aa-executive-briefing
+  slug: adobe-experience-cloud-aa-executive-briefing
+- name: aa-kpi-pulse
+  slug: adobe-experience-cloud-aa-kpi-pulse
+- name: aa-segment-performance-comparator
+  slug: adobe-experience-cloud-aa-segment-performance-comparator
+- name: aa-top-movers-watchlist
+  slug: adobe-experience-cloud-aa-top-movers-watchlist
+- name: cja-dimension-analysis
+  slug: adobe-experience-cloud-cja-dimension-analysis
+- name: cja-executive-briefing
+  slug: adobe-experience-cloud-cja-executive-briefing
+- name: cja-funnel-health-check
+  slug: adobe-experience-cloud-cja-funnel-health-check
+- name: cja-kpi-pulse
+  slug: adobe-experience-cloud-cja-kpi-pulse
+- name: cja-segment-performance-comparator
+  slug: adobe-experience-cloud-cja-segment-performance-comparator
+- name: cja-top-movers-watchlist
+  slug: adobe-experience-cloud-cja-top-movers-watchlist
 slug: adobe-experience-cloud
 tags:
 - Analytics

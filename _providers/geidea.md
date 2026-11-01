@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -71,11 +73,8 @@ apis:
   description: Capture, void, refund, cancel, and fetch transactions and orders.
   name: Geidea Transaction Management API
   slug: geidea-transaction-management-api
-artifact_total: 18
+artifact_total: 17
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Geidea Payment Gateway Checkout API
   slug: open-geidea-checkout-api
@@ -93,17 +92,17 @@ collections:
   slug: open-geidea
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/agentic-access/geidea-agentic-access.yml
+  href: https://artifacts.apis.io/geidea/agentic-access/geidea-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/geidea-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/security/geidea-domain-security.yml
+  href: https://artifacts.apis.io/geidea/security/geidea-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/geidea-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/authentication/geidea-authentication.yml
+  href: https://artifacts.apis.io/geidea/authentication/geidea-authentication.yml
   title: ''
   type: Authentication
   url: authentication/geidea-authentication.yml
@@ -124,17 +123,17 @@ common:
   type: Documentation
   url: https://docs.geidea.net
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/plans/geidea-plans-pricing.yml
+  href: https://artifacts.apis.io/geidea/plans/geidea-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/geidea-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/rate-limits/geidea-rate-limits.yml
+  href: https://artifacts.apis.io/geidea/rate-limits/geidea-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/geidea-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/finops/geidea-finops.yml
+  href: https://artifacts.apis.io/geidea/finops/geidea-finops.yml
   title: ''
   type: FinOps
   url: finops/geidea-finops.yml
@@ -166,29 +165,29 @@ plans:
 - name: Geidea Plans Pricing
   plan_count: 2
   slug: geidea-plans-pricing
-random_paper: 13
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Geidea Rate Limits
   slug: geidea-rate-limits
 score:
-  band: emerging
-  composite: 24.1
+  band: thin
+  composite: 26.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 50.7
-    developer_ergonomics: 23.8
+    developer_ergonomics: 32.1
     discoverability: 66.1
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -200,7 +199,7 @@ score:
     - mena
     - middle-east
     - north-africa
-  previous_composite: 30.2
+  previous_composite: 26.8
   provenance:
     agentic_access: derived
     contracts:
@@ -214,13 +213,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/screenshots/geidea-2026-07-25T215522.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/geidea/geidea-2026-07-25T215522.png
 security:
 - kind: authentication
   name: Geidea Authentication

@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Chronograph provides a developer API for portfolio monitoring and data management.
@@ -40,22 +42,22 @@ common:
   type: Compliance
   url: https://trust.chronograph.pe/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chronograph/refs/heads/main/well-known/chronograph-status-security.txt
+  href: https://artifacts.apis.io/chronograph/well-known/chronograph-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/chronograph-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chronograph/refs/heads/main/well-known/chronograph-well-known.yml
+  href: https://artifacts.apis.io/chronograph/well-known/chronograph-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/chronograph-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/chronograph/refs/heads/main/hosts/chronograph-hosts.yml
+  href: https://artifacts.apis.io/chronograph/hosts/chronograph-hosts.yml
   title: ''
   type: Hosts
   url: hosts/chronograph-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/chronograph/refs/heads/main/vendors/chronograph-vendors.yml
+  href: https://artifacts.apis.io/chronograph/vendors/chronograph-vendors.yml
   title: ''
   type: Vendors
   url: vendors/chronograph-vendors.yml
@@ -68,12 +70,12 @@ common:
   type: Newsroom
   url: https://www.chronograph.pe/category/news/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chronograph/refs/heads/main/security/chronograph-trust-center.yml
+  href: https://artifacts.apis.io/chronograph/security/chronograph-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/chronograph-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chronograph/refs/heads/main/security/chronograph-domain-security.yml
+  href: https://artifacts.apis.io/chronograph/security/chronograph-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chronograph-domain-security.yml
@@ -108,14 +110,14 @@ modified: '2026-10-08'
 name: Chronograph
 nav: Providers
 network: true
-overview: 'Chronograph is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Private Equity, Portfolio-Monitoring, Analytics, and Data-Management.
+overview: 'Chronograph is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Private Equity, Portfolio Monitoring, Analytics, and Data Management.
 
 
   Chronograph''s developer surface includes engineering blog and 13 more developer resources.'
-random_paper: 13
+random_paper: 3
 score:
   band: emerging
-  composite: 15.3
+  composite: 16.6
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -123,13 +125,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 58.9
-    operational_transparency: 21.1
+    operational_transparency: 31.6
+  previous_composite: 16.6
   provenance:
     mcp: derived
   regulatory:
@@ -138,8 +142,9 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -157,8 +162,8 @@ slug: chronograph
 tags:
 - Company
 - Private Equity
-- Portfolio-Monitoring
+- Portfolio Monitoring
 - Analytics
-- Data-Management
+- Data Management
 website: https://www.chronograph.pe/
 ---

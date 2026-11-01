@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,37 +92,37 @@ common:
   type: Accessibility
   url: https://www.aceable.com/accessibility-statement/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aceable/refs/heads/main/llms/aceable-llms.txt
+  href: https://artifacts.apis.io/aceable/llms/aceable-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aceable-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aceable/refs/heads/main/llms/aceable-agent-llms.txt
+  href: https://artifacts.apis.io/aceable/llms/aceable-agent-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aceable-agent-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aceable/refs/heads/main/llms/aceable-insurance-llms.txt
+  href: https://artifacts.apis.io/aceable/llms/aceable-insurance-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aceable-insurance-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aceable/refs/heads/main/llms/aceable-mortgage-llms.txt
+  href: https://artifacts.apis.io/aceable/llms/aceable-mortgage-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aceable-mortgage-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/aceable/refs/heads/main/llms/aceable-partnerships-llms.txt
+  href: https://artifacts.apis.io/aceable/llms/aceable-partnerships-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/aceable-partnerships-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/aceable/refs/heads/main/security/aceable-domain-security.yml
+  href: https://artifacts.apis.io/aceable/security/aceable-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/aceable-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/aceable/refs/heads/main/conformance/aceable-conformance.yml
+  href: https://artifacts.apis.io/aceable/conformance/aceable-conformance.yml
   title: ''
   type: Conformance
   url: conformance/aceable-conformance.yml
@@ -137,10 +139,10 @@ overview: 'Aceable is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Aceable''s developer surface includes engineering blog, support, and 18 more developer resources.'
-random_paper: 19
+random_paper: 5
 score:
   band: emerging
-  composite: 15.0
+  composite: 16.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -150,13 +152,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 15.0
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 16.0
   provenance:
     conformance: first-party
   regulatory:
@@ -165,14 +167,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/aceable/refs/heads/main/screenshots/aceable-2026-08-07T160815.png
+screenshot: https://apis.io/screenshots/aceable/aceable-2026-08-07T160815.png
 security:
 - kind: domain-security
   name: Aceable Domain Security

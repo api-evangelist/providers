@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.cobre.co
@@ -54,7 +56,7 @@ asyncapis:
   slug: cobre-events-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/security/cobre-domain-security.yml
+  href: https://artifacts.apis.io/cobre/security/cobre-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cobre-domain-security.yml
@@ -79,7 +81,7 @@ common:
   type: GettingStarted
   url: https://docs.cobre.com/get-started-1737317m0
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/authentication/cobre-authentication.yml
+  href: https://artifacts.apis.io/cobre/authentication/cobre-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cobre-authentication.yml
@@ -96,57 +98,57 @@ common:
   type: StatusPage
   url: https://status.cobre.co/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/llms/cobre-llms.txt
+  href: https://artifacts.apis.io/cobre/llms/cobre-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cobre-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/mcp/cobre-mcp.yml
+  href: https://artifacts.apis.io/cobre/mcp/cobre-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/cobre-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/conventions/cobre-conventions.yml
+  href: https://artifacts.apis.io/cobre/conventions/cobre-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cobre-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/conventions/cobre-conventions.yml
+  href: https://artifacts.apis.io/cobre/conventions/cobre-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/cobre-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/rate-limits/cobre-rate-limits.yml
+  href: https://artifacts.apis.io/cobre/rate-limits/cobre-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cobre-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/errors/cobre-problem-types.yml
+  href: https://artifacts.apis.io/cobre/errors/cobre-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cobre-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/asyncapi/cobre-events-webhooks.yml
+  href: https://artifacts.apis.io/cobre/asyncapi/cobre-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cobre-events-webhooks.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/asyncapi/cobre-events-asyncapi.yml
+  href: https://artifacts.apis.io/cobre/asyncapi/cobre-events-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/cobre-events-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/lifecycle/cobre-lifecycle.yml
+  href: https://artifacts.apis.io/cobre/lifecycle/cobre-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cobre-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/sandbox/cobre-sandbox.yml
+  href: https://artifacts.apis.io/cobre/sandbox/cobre-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cobre-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/conformance/cobre-conformance.yml
+  href: https://artifacts.apis.io/cobre/conformance/cobre-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cobre-conformance.yml
@@ -155,7 +157,7 @@ common:
   type: Compliance
   url: https://docs.cobre.com/security-at-cobre-1737320m0
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/data-model/cobre-data-model.yml
+  href: https://artifacts.apis.io/cobre/data-model/cobre-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cobre-data-model.yml
@@ -178,14 +180,14 @@ overview: 'Cobre is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Cobre''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, sandbox, and 16 more developer resources.'
-random_paper: 17
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Cobre Rate Limits
   slug: cobre-rate-limits
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 38.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 45.0
@@ -199,7 +201,7 @@ score:
     contract_governance: 18.2
     contract_quality: 40.6
     developer_ergonomics: 64.3
-    discoverability: 71.7
+    discoverability: 65.0
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -209,7 +211,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 39.3
+  previous_composite: 38.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -219,14 +221,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/screenshots/cobre-2026-07-25T205845.png
+screenshot: https://apis.io/screenshots/cobre/cobre-2026-07-25T205845.png
 security:
 - kind: authentication
   name: Cobre Authentication

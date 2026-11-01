@@ -32,14 +32,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.1
-  scored_at: '2026-10-17'
+  score: 43.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -47,7 +49,7 @@ agentic_access:
   operation_count: 46
   slug: authenticx-agentic-access
   summary_line: 46 operations · 16 acting
-api_count: 3
+api_count: 1
 apis:
 - baseURL: https://api.beauthenticx.com
   baseurl_source: declared
@@ -139,15 +141,17 @@ apis:
   description: The Workflows API from Authenticx — 1 operation(s) for workflows.
   name: Authenticx Workflows API
   slug: authenticx-workflows-api
-artifact_total: 45
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The (Scim) Groups API from Authenticx — 2 operation(s) for (scim) groups.
+  name: Authenticx (Scim) Groups API
+  slug: authenticx-scim-groups-api
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Authenticx Emissions Webhooks
   slug: authenticx-emissions-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: AcxApi Production Agent API
   slug: open-authenticx-agent-api
@@ -204,7 +208,7 @@ collections:
   slug: open-authenticx-workflows-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/capabilities/authenticx-capability-edges.yml
+  href: https://artifacts.apis.io/authenticx/capabilities/authenticx-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/authenticx-capability-edges.yml
@@ -253,12 +257,12 @@ common:
   type: Compliance
   url: https://authenticx.com/privacy-security
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/llms/authenticx-llms.txt
+  href: https://artifacts.apis.io/authenticx/llms/authenticx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/authenticx-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/well-known/authenticx-well-known.yml
+  href: https://artifacts.apis.io/authenticx/well-known/authenticx-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/authenticx-well-known.yml
@@ -267,72 +271,72 @@ common:
   type: OpenIDConnect
   url: https://api.beauthenticx.com/.well-known/openid-configuration
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/authentication/authenticx-authentication.yml
+  href: https://artifacts.apis.io/authenticx/authentication/authenticx-authentication.yml
   title: ''
   type: Authentication
   url: authentication/authenticx-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/scopes/authenticx-scopes.yml
+  href: https://artifacts.apis.io/authenticx/scopes/authenticx-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/authenticx-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/conventions/authenticx-conventions.yml
+  href: https://artifacts.apis.io/authenticx/conventions/authenticx-conventions.yml
   title: ''
   type: Conventions
   url: conventions/authenticx-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/errors/authenticx-problem-types.yml
+  href: https://artifacts.apis.io/authenticx/errors/authenticx-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/authenticx-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/lifecycle/authenticx-lifecycle.yml
+  href: https://artifacts.apis.io/authenticx/lifecycle/authenticx-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/authenticx-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/conformance/authenticx-conformance.yml
+  href: https://artifacts.apis.io/authenticx/conformance/authenticx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/authenticx-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/data-model/authenticx-data-model.yml
+  href: https://artifacts.apis.io/authenticx/data-model/authenticx-data-model.yml
   title: ''
   type: DataModel
   url: data-model/authenticx-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/sandbox/authenticx-sandbox.yml
+  href: https://artifacts.apis.io/authenticx/sandbox/authenticx-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/authenticx-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/packages/authenticx-packages.yml
+  href: https://artifacts.apis.io/authenticx/packages/authenticx-packages.yml
   title: ''
   type: Packages
   url: packages/authenticx-packages.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/overlays/authenticx-acxapi-overlay.yaml
+  href: https://artifacts.apis.io/authenticx/overlays/authenticx-acxapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/authenticx-acxapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/mcp/authenticx-mcp.yml
+  href: https://artifacts.apis.io/authenticx/mcp/authenticx-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/authenticx-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/authenticx/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/agentic-access/authenticx-agentic-access.yml
+  href: https://artifacts.apis.io/authenticx/agentic-access/authenticx-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/authenticx-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/security/authenticx-domain-security.yml
+  href: https://artifacts.apis.io/authenticx/security/authenticx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/authenticx-domain-security.yml
@@ -341,29 +345,37 @@ common:
   type: TrustCenter
   url: https://authenticx.com/privacy-security
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/plans/authenticx-plans-pricing.yml
+  href: https://artifacts.apis.io/authenticx/plans/authenticx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/authenticx-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/rate-limits/authenticx-rate-limits.yml
+  href: https://artifacts.apis.io/authenticx/rate-limits/authenticx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/authenticx-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/asyncapi/authenticx-emissions-webhooks.yml
+  href: https://artifacts.apis.io/authenticx/asyncapi/authenticx-emissions-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/authenticx-emissions-webhooks.yml
 created: '2026-08-06'
 description: Authenticx is a healthcare conversation intelligence platform that ingests contact-center interactions — call audio, chat transcripts, and email — and applies speech analytics and machine-learning classifiers to surface patient and member experience signals, quality-assurance scoring, and pharmacovigilance / adverse-event detection. Its AcxAPI is a REST API described by a live OpenAPI 3.0.1 definition covering conversation insights, transcriptions, model results, evaluations, metadata, workflows, audio and text media upload, agent, hierarchy and role administration, and SCIM 2.0 user provisioning. Interaction ingestion also runs through out-of-the-box connectors for Genesys Cloud, Amazon Connect, NICE CXone, Five9, Vonage Contact Center and Talkdesk, plus Salesforce/MuleSoft conversation enrichment and SFTP batch delivery. Authentication is OAuth 2.0 client credentials against an OpenID Connect provider, with separate production and experimental (staging) hosts.
+finops:
+- has_sources: true
+  method: derived
+  name: Authenticx Finops
+  primary_unit: ''
+  service_category: ''
+  slug: authenticx-finops
+  template: true
 image: https://files.readme.io/e7477e0-small-authenticx-logo-black.png
 layout: provider
 modified: '2026-08-14'
 name: Authenticx
 nav: Providers
 network: true
-overview: 'Authenticx publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Conversations API, Evaluations API, and 15 more. Tagged areas include Conversation Intelligence, Healthcare, Speech Analytics, Contact Center, and Customer Experience.
+overview: 'Authenticx publishes 19 API contracts indexed on the [APIs.io](https://apis.io/) network, including Agent API, Conversations API, Evaluations API, and 16 more. Tagged areas include Conversation Intelligence, Healthcare, Speech Analytics, Contact Center, and Customer Experience.
 
 
   The Authenticx catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -374,7 +386,7 @@ plans:
 - name: Authenticx Plans Pricing
   plan_count: 0
   slug: authenticx-plans-pricing
-random_paper: 7
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Authenticx Rate Limits
@@ -386,23 +398,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 50.8
+  composite: 51.0
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 40.0
+    artifact_dirs: 27
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.6
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 62.1
-    developer_ergonomics: 47.0
-    discoverability: 78.6
-    operational_transparency: 10.5
-  previous_composite: 50.7
+    contract_quality: 58.1
+    developer_ergonomics: 61.3
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -410,7 +422,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 18
+      total: 40
     mcp: derived
     skills: derived
   regulatory:
@@ -419,13 +431,14 @@ score:
     regime: Health
     regime_id: health
     score: 36.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/screenshots/authenticx-2026-08-07T161942.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/authenticx/authenticx-2026-08-07T161942.png
 security:
 - kind: authentication
   name: Authenticx Authentication
@@ -439,6 +452,14 @@ security:
   name: Authenticx Trust Center
   slug: authenticx-trust-center
   summary_line: SOC 2 Type I & II, HIPAA, GDPR, CCPA
+skill_count: 3
+skills:
+- name: Reconcile Authenticx pharmacovigilance and model results with a downstream safety system
+  slug: authenticx-pharmacovigilance-reconciliation
+- name: Provision Authenticx users, agents, roles and hierarchy
+  slug: authenticx-provision-users-and-hierarchy
+- name: Upload a conversation to Authenticx and retrieve its insights
+  slug: authenticx-upload-and-retrieve-insights
 slug: authenticx
 tags:
 - Conversation Intelligence

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: RPC-over-HTTP JSON API for OZON marketplace sellers to manage products, prices, stock, warehouses, orders (FBO/FBS), returns, analytics, and finances. POST-only endpoints under a per-operation version
@@ -55,42 +57,42 @@ common:
   type: Documentation
   url: https://docs.ozon.ru/api/seller/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ozonru/refs/heads/main/lifecycle/ozonru-lifecycle.yml
+  href: https://artifacts.apis.io/ozonru/lifecycle/ozonru-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/ozonru-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ozonru/refs/heads/main/lifecycle/ozonru-lifecycle.yml
+  href: https://artifacts.apis.io/ozonru/lifecycle/ozonru-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ozonru-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ozonru/refs/heads/main/security/ozonru-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ozonru/security/ozonru-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/ozonru-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ozonru/refs/heads/main/security/ozonru-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ozonru/security/ozonru-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ozonru-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ozonru/refs/heads/main/security/ozonru-domain-security.yml
+  href: https://artifacts.apis.io/ozonru/security/ozonru-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ozonru-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ozonru/refs/heads/main/well-known/ozonru-security.txt
+  href: https://artifacts.apis.io/ozonru/well-known/ozonru-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/ozonru-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ozonru/refs/heads/main/well-known/ozonru-well-known.yml
+  href: https://artifacts.apis.io/ozonru/well-known/ozonru-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ozonru-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ozonru/refs/heads/main/llms/ozonru-llms.txt
+  href: https://artifacts.apis.io/ozonru/llms/ozonru-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ozonru-llms.txt
@@ -106,10 +108,10 @@ overview: 'OZON.ru is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   OZON.ru''s developer surface includes documentation and 10 more developer resources.'
-random_paper: 3
+random_paper: 13
 score:
   band: emerging
-  composite: 15.6
+  composite: 16.9
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -122,8 +124,8 @@ score:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 73.2
+    developer_ergonomics: 31.0
+    discoverability: 66.1
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -133,7 +135,7 @@ score:
     regions:
     - cee
     - europe
-  previous_composite: 15.6
+  previous_composite: 16.9
   provenance:
     conformance: derived
   regulatory:
@@ -142,14 +144,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ozonru/refs/heads/main/screenshots/ozonru-2026-10-11T192112.png
+screenshot: https://apis.io/screenshots/ozonru/ozonru-2026-10-11T192112.png
 security:
 - kind: authentication
   name: Ozonru Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -123,11 +125,8 @@ apis:
   description: The ResolveCase API from Amazon Trusted Advisor — 1 operation(s) for resolvecase.
   name: Amazon Trusted Advisor ResolveCase API
   slug: amazon-trusted-advisor-resolvecase-api
-artifact_total: 47
+artifact_total: 46
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet API
   slug: open-amazon-trusted-advisor-addattachmentstoset-api
@@ -181,42 +180,42 @@ collections:
   slug: open-amazon-trusted-advisor
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/plans/amazon-trusted-advisor-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-trusted-advisor/plans/amazon-trusted-advisor-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-trusted-advisor-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/rate-limits/amazon-trusted-advisor-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-trusted-advisor/rate-limits/amazon-trusted-advisor-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-trusted-advisor-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/finops/amazon-trusted-advisor-finops.yml
+  href: https://artifacts.apis.io/amazon-trusted-advisor/finops/amazon-trusted-advisor-finops.yml
   title: ''
   type: FinOps
   url: finops/amazon-trusted-advisor-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/capabilities/amazon-trusted-advisor-capability-edges.yml
+  href: https://artifacts.apis.io/amazon-trusted-advisor/capabilities/amazon-trusted-advisor-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amazon-trusted-advisor-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/agentic-access/amazon-trusted-advisor-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-trusted-advisor/agentic-access/amazon-trusted-advisor-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-trusted-advisor-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/security/amazon-trusted-advisor-trust-center.yml
+  href: https://artifacts.apis.io/amazon-trusted-advisor/security/amazon-trusted-advisor-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-trusted-advisor-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/security/amazon-trusted-advisor-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-trusted-advisor/security/amazon-trusted-advisor-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-trusted-advisor-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/security/amazon-trusted-advisor-domain-security.yml
+  href: https://artifacts.apis.io/amazon-trusted-advisor/security/amazon-trusted-advisor-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-trusted-advisor-domain-security.yml
@@ -284,11 +283,11 @@ features:
 - description: Programmatic access to Amazon Trusted Advisor resources.
   name: API Access
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Amazon Trusted Advisor Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: amazon-trusted-advisor-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-trusted-advisor.png
@@ -311,9 +310,9 @@ overview: 'Amazon Trusted Advisor is listed with 16 APIs on the [APIs.io](https:
   Amazon Trusted Advisor''s developer surface includes developer portal, documentation, developer console, support, signup flow, and 16 more developer resources.'
 plans:
 - name: Amazon Trusted Advisor Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: amazon-trusted-advisor-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Amazon Trusted Advisor Rate Limits
@@ -333,23 +332,23 @@ rules:
   slug: amazon-trusted-advisor-spectral-rules
 score:
   band: developing
-  composite: 45.4
+  composite: 53.9
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 54.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.8
+    artifact_dirs: 17
+    catalog_earned: 63.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 53.9
+    access_clarity: 84.2
     contract_governance: 25.0
     contract_quality: 42.0
     developer_ergonomics: 50.0
     discoverability: 62.5
-    operational_transparency: 26.3
-  previous_composite: 46.9
+    operational_transparency: 39.5
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -363,13 +362,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/screenshots/amazon-trusted-advisor-2026-06-20T171840.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-trusted-advisor/amazon-trusted-advisor-2026-06-20T171840.png
 security:
 - kind: domain-security
   name: Amazon Trusted Advisor Domain Security

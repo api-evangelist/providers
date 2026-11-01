@@ -25,15 +25,17 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.5
-  scored_at: '2026-10-17'
+  score: 36.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 10
   slug: amazon-clean-rooms-agentic-access
   summary_line: 10 operations · 5 acting
-api_count: 4
+api_count: 17
 apis:
 - baseURL: https://cleanrooms.us-east-1.amazonaws.com
   baseurl_source: declared
@@ -63,7 +65,72 @@ apis:
   description: Operations for executing and managing protected queries
   name: Amazon Clean Rooms Protected Queries API
   slug: amazon-clean-rooms-protected-queries-api
-artifact_total: 93
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Clean Rooms Analysislogexports API from Amazon Clean Rooms — 2 operation(s) for clean rooms analysislogexports.
+  name: Amazon Clean Rooms Clean Rooms Analysislogexports API
+  slug: amazon-clean-rooms-analysislogexports-api
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Clean Rooms Analysisrule API from Amazon Clean Rooms — 7 operation(s) for clean rooms analysisrule.
+  name: Amazon Clean Rooms Clean Rooms Analysisrule API
+  slug: amazon-clean-rooms-analysisrule-api
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Clean Rooms Analysistemplates API from Amazon Clean Rooms — 4 operation(s) for clean rooms analysistemplates.
+  name: Amazon Clean Rooms Clean Rooms Analysistemplates API
+  slug: amazon-clean-rooms-analysistemplates-api
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Clean Rooms Changerequests API from Amazon Clean Rooms — 2 operation(s) for clean rooms changerequests.
+  name: Amazon Clean Rooms Clean Rooms Changerequests API
+  slug: amazon-clean-rooms-changerequests-api
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Clean Rooms Configuredaudiencemodelassociations API from Amazon Clean Rooms — 4 operation(s) for clean rooms configuredaudiencemodelassociations.
+  name: Amazon Clean Rooms Clean Rooms Configuredaudiencemodelassociations API
+  slug: amazon-clean-rooms-configuredaudiencemodelassociations-api
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Clean Rooms Configuredtableassociations API from Amazon Clean Rooms — 2 operation(s) for clean rooms configuredtableassociations.
+  name: Amazon Clean Rooms Clean Rooms Configuredtableassociations API
+  slug: amazon-clean-rooms-configuredtableassociations-api
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Clean Rooms Idmappingtables API from Amazon Clean Rooms — 2 operation(s) for clean rooms idmappingtables.
+  name: Amazon Clean Rooms Clean Rooms Idmappingtables API
+  slug: amazon-clean-rooms-idmappingtables-api
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Clean Rooms Idnamespaceassociations API from Amazon Clean Rooms — 4 operation(s) for clean rooms idnamespaceassociations.
+  name: Amazon Clean Rooms Clean Rooms Idnamespaceassociations API
+  slug: amazon-clean-rooms-idnamespaceassociations-api
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Clean Rooms Intermediatetables API from Amazon Clean Rooms — 2 operation(s) for clean rooms intermediatetables.
+  name: Amazon Clean Rooms Clean Rooms Intermediatetables API
+  slug: amazon-clean-rooms-intermediatetables-api
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Clean Rooms Operations API from Amazon Clean Rooms — 14 operation(s) for clean rooms operations.
+  name: Amazon Clean Rooms Clean Rooms Operations API
+  slug: amazon-clean-rooms-operations-api
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Clean Rooms Privacybudgettemplates API from Amazon Clean Rooms — 4 operation(s) for clean rooms privacybudgettemplates.
+  name: Amazon Clean Rooms Clean Rooms Privacybudgettemplates API
+  slug: amazon-clean-rooms-privacybudgettemplates-api
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Clean Rooms Protectedjobs API from Amazon Clean Rooms — 2 operation(s) for clean rooms protectedjobs.
+  name: Amazon Clean Rooms Clean Rooms Protectedjobs API
+  slug: amazon-clean-rooms-protectedjobs-api
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Clean Rooms Tags API from Amazon Clean Rooms — 1 operation(s) for clean rooms tags.
+  name: Amazon Clean Rooms Clean Rooms Tags API
+  slug: amazon-clean-rooms-tags-api
+artifact_total: 111
 asyncapis:
 - description: ''
   name: Amazon Clean Rooms Events
@@ -82,9 +149,6 @@ collections:
   name: Amazon Clean Rooms Collaborations Protected Queries API
   slug: postman-amazon-clean-rooms-protected-queries-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Amazon Clean Rooms Collaborations API
   slug: open-amazon-clean-rooms-collaborations-api
 - collection_type: open
@@ -98,12 +162,12 @@ collections:
   slug: open-amazon-clean-rooms-protected-queries-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/mcp/amazon-clean-rooms-mcp.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/mcp/amazon-clean-rooms-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amazon-clean-rooms-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/overlays/amazon-clean-rooms-openapi-overlay.yaml
+  href: https://artifacts.apis.io/amazon-clean-rooms/overlays/amazon-clean-rooms-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amazon-clean-rooms-openapi-overlay.yaml
@@ -112,27 +176,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-clean-rooms/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/agentic-access/amazon-clean-rooms-agentic-access.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/agentic-access/amazon-clean-rooms-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/amazon-clean-rooms-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/security/amazon-clean-rooms-trust-center.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/security/amazon-clean-rooms-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/amazon-clean-rooms-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/security/amazon-clean-rooms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/security/amazon-clean-rooms-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/amazon-clean-rooms-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/security/amazon-clean-rooms-domain-security.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/security/amazon-clean-rooms-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amazon-clean-rooms-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/authentication/amazon-clean-rooms-authentication.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/authentication/amazon-clean-rooms-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amazon-clean-rooms-authentication.yml
@@ -197,107 +261,107 @@ common:
   type: Compliance
   url: https://aws.amazon.com/compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/rules/amazon-clean-rooms-spectral-rules.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/rules/amazon-clean-rooms-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/amazon-clean-rooms-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/vocabulary/amazon-clean-rooms-vocabulary.yaml
+  href: https://artifacts.apis.io/amazon-clean-rooms/vocabulary/amazon-clean-rooms-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-clean-rooms-vocabulary.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/packages/amazon-clean-rooms-packages.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/packages/amazon-clean-rooms-packages.yml
   title: ''
   type: Packages
   url: packages/amazon-clean-rooms-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/well-known/amazon-clean-rooms-well-known.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/well-known/amazon-clean-rooms-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/amazon-clean-rooms-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/well-known/amazon-clean-rooms-security.txt
+  href: https://artifacts.apis.io/amazon-clean-rooms/well-known/amazon-clean-rooms-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/amazon-clean-rooms-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/llms/amazon-clean-rooms-llms.txt
+  href: https://artifacts.apis.io/amazon-clean-rooms/llms/amazon-clean-rooms-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amazon-clean-rooms-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/lifecycle/amazon-clean-rooms-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/lifecycle/amazon-clean-rooms-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amazon-clean-rooms-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/lifecycle/amazon-clean-rooms-lifecycle.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/lifecycle/amazon-clean-rooms-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/amazon-clean-rooms-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/packages/amazon-clean-rooms-packages.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/packages/amazon-clean-rooms-packages.yml
   title: ''
   type: SDKs
   url: packages/amazon-clean-rooms-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/security/amazon-clean-rooms-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/security/amazon-clean-rooms-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/amazon-clean-rooms-vulnerability-disclosure.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/plans/amazon-clean-rooms-plans-pricing.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/plans/amazon-clean-rooms-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/amazon-clean-rooms-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/rate-limits/amazon-clean-rooms-rate-limits.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/rate-limits/amazon-clean-rooms-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/amazon-clean-rooms-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/changelog/amazon-clean-rooms-changelog.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/changelog/amazon-clean-rooms-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/amazon-clean-rooms-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/cli/amazon-clean-rooms-cli.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/cli/amazon-clean-rooms-cli.yml
   title: ''
   type: CLI
   url: cli/amazon-clean-rooms-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/conventions/amazon-clean-rooms-conventions.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/conventions/amazon-clean-rooms-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amazon-clean-rooms-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/data-model/amazon-clean-rooms-data-model.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/data-model/amazon-clean-rooms-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amazon-clean-rooms-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/errors/amazon-clean-rooms-error-codes.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/errors/amazon-clean-rooms-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/amazon-clean-rooms-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/asyncapi/amazon-clean-rooms-events.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/asyncapi/amazon-clean-rooms-events.yml
   title: ''
   type: Webhooks
   url: asyncapi/amazon-clean-rooms-events.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/mcp/amazon-clean-rooms-tool-crosswalk.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/mcp/amazon-clean-rooms-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/amazon-clean-rooms-tool-crosswalk.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/conformance/amazon-clean-rooms-conformance.yml
+  href: https://artifacts.apis.io/amazon-clean-rooms/conformance/amazon-clean-rooms-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amazon-clean-rooms-conformance.yml
@@ -384,6 +448,14 @@ features:
   name: Analysis Logging
 - description: Match customer records across applications and channels without sharing PII.
   name: Customer Record Matching
+finops:
+- has_sources: true
+  method: derived
+  name: Amazon Clean Rooms Finops
+  primary_unit: gb-month
+  service_category: ''
+  slug: amazon-clean-rooms-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-clean-rooms.png
 integrations:
 - description: Store and retrieve collaboration data and query results in S3.
@@ -514,7 +586,7 @@ modified: '2026-08-13'
 name: Amazon Clean Rooms
 nav: Providers
 network: true
-overview: 'Amazon Clean Rooms is listed with 4 APIs on the [APIs.io](https://apis.io/) network, including Collaborations API, Configured Tables API, Memberships API, and 1 more. Tagged areas include Cleanroom, Data Collaboration, Privacy, Analytics, and Marketing.
+overview: 'Amazon Clean Rooms is listed with 17 APIs on the [APIs.io](https://apis.io/) network, including Collaborations API, Configured Tables API, Memberships API, and 14 more. Tagged areas include Cleanroom, Data Collaboration, Privacy, Analytics, and Marketing.
 
 
   The Amazon Clean Rooms catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -523,9 +595,12 @@ overview: 'Amazon Clean Rooms is listed with 4 APIs on the [APIs.io](https://api
   Amazon Clean Rooms'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 41 more developer resources.'
 plans:
 - name: Amazon Clean Rooms Plans Pricing
-  plan_count: 0
+  plan_count: 11
   slug: amazon-clean-rooms-plans-pricing
-random_paper: 7
+- name: Amazon Clean Rooms Price Estimates
+  plan_count: 0
+  slug: amazon-clean-rooms-price-estimates
+random_paper: 11
 rate_limits:
 - limit_count: 6
   name: Amazon Clean Rooms Rate Limits
@@ -555,32 +630,37 @@ rules:
     warn: 17
   slug: amazon-clean-rooms-spectral-rules
 score:
-  band: strong
-  composite: 65.3
+  band: exemplar
+  composite: 82.5
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 81.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 34.0
+    artifact_dirs: 34
+    catalog_earned: 96.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 19.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.8
   facets:
-    access_clarity: 60.5
+    access_clarity: 100.0
     contract_governance: 31.8
-    contract_quality: 39.4
+    contract_quality: 75.2
     developer_ergonomics: 86.9
-    discoverability: 78.6
-    operational_transparency: 92.1
-  previous_composite: 65.2
+    discoverability: 71.4
+    operational_transparency: 94.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 74.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 5
-      marker_coverage: 100.0
-      total: 5
+      derived: 1
+      marker_coverage: 77.8
+      total: 18
     mcp: derived
     skills: first-party
   regulatory:
@@ -589,13 +669,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/screenshots/amazon-clean-rooms-2026-07-25T195939.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amazon-clean-rooms/amazon-clean-rooms-2026-07-25T195939.png
 security:
 - kind: authentication
   name: Amazon Clean Rooms Authentication
@@ -613,6 +694,16 @@ security:
   name: Amazon Clean Rooms Trust Center
   slug: amazon-clean-rooms-trust-center
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
+skill_count: 4
+skills:
+- name: aws-cleanrooms
+  slug: amazon-clean-rooms-aws-official-SKILL
+- name: Configure a table for a Clean Rooms collaboration
+  slug: amazon-clean-rooms-configure-table-for-collaboration
+- name: Create a Clean Rooms collaboration and join it
+  slug: amazon-clean-rooms-create-collaboration-and-join
+- name: Run a protected query and collect the results
+  slug: amazon-clean-rooms-run-protected-query
 slug: amazon-clean-rooms
 tags:
 - Cleanroom

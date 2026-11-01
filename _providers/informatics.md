@@ -4,6 +4,6 @@ layout: provider
 name: informatics
 nav: Providers
 network: true
-random_paper: 17
+random_paper: 7
 slug: informatics
 ---

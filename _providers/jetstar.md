@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Jetstar API is Jetstar's direct-connect distribution channel for Registered Travel Agents and partners. It is a Navitaire New Skies (NSK) SOAP / WCF web service, not a REST product and not IATA ND
@@ -115,17 +117,17 @@ common:
   type: Blog
   url: https://newsroom.jetstar.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jetstar/refs/heads/main/authentication/jetstar-authentication.yml
+  href: https://artifacts.apis.io/jetstar/authentication/jetstar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/jetstar-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jetstar/refs/heads/main/conventions/jetstar-conventions.yml
+  href: https://artifacts.apis.io/jetstar/conventions/jetstar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/jetstar-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jetstar/refs/heads/main/lifecycle/jetstar-lifecycle.yml
+  href: https://artifacts.apis.io/jetstar/lifecycle/jetstar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/jetstar-lifecycle.yml
@@ -134,42 +136,42 @@ common:
   type: StatusPage
   url: https://apiblog.jetstar.com/category/outages/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/jetstar/refs/heads/main/changelog/jetstar-changelog.yml
+  href: https://artifacts.apis.io/jetstar/changelog/jetstar-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/jetstar-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/jetstar/refs/heads/main/sandbox/jetstar-sandbox.yml
+  href: https://artifacts.apis.io/jetstar/sandbox/jetstar-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/jetstar-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/jetstar/refs/heads/main/conformance/jetstar-conformance.yml
+  href: https://artifacts.apis.io/jetstar/conformance/jetstar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/jetstar-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/jetstar/refs/heads/main/packages/jetstar-packages.yml
+  href: https://artifacts.apis.io/jetstar/packages/jetstar-packages.yml
   title: ''
   type: Packages
   url: packages/jetstar-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jetstar/refs/heads/main/well-known/jetstar-well-known.yml
+  href: https://artifacts.apis.io/jetstar/well-known/jetstar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/jetstar-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jetstar/refs/heads/main/well-known/jetstar-qantas-group-security.txt
+  href: https://artifacts.apis.io/jetstar/well-known/jetstar-qantas-group-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/jetstar-qantas-group-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jetstar/refs/heads/main/security/jetstar-domain-security.yml
+  href: https://artifacts.apis.io/jetstar/security/jetstar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/jetstar-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/jetstar/refs/heads/main/security/jetstar-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/jetstar/security/jetstar-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/jetstar-vulnerability-disclosure.yml
@@ -178,7 +180,7 @@ common:
   type: Security
   url: https://www.qantas.com/.well-known/security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/jetstar/refs/heads/main/llms/jetstar-llms.txt
+  href: https://artifacts.apis.io/jetstar/llms/jetstar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/jetstar-llms.txt
@@ -195,10 +197,10 @@ overview: 'Jetstar is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Jetstar''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, support, FAQ, and 25 more developer resources.'
-random_paper: 17
+random_paper: 21
 score:
-  band: emerging
-  composite: 22.8
+  band: thin
+  composite: 33.8
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -208,12 +210,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 64.3
     discoverability: 66.1
-    operational_transparency: 44.7
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -221,7 +223,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 22.8
+  previous_composite: 33.8
   provenance:
     conformance: derived
   regulatory:
@@ -229,15 +231,15 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 25.8
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/jetstar/refs/heads/main/screenshots/jetstar-2026-08-07T171000.png
+screenshot: https://apis.io/screenshots/jetstar/jetstar-2026-08-07T171000.png
 security:
 - kind: authentication
   name: Jetstar Authentication

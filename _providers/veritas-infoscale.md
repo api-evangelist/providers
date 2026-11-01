@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 20.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -104,7 +106,7 @@ apis:
   description: Manage storage volumes
   name: Veritas InfoScale Volumes API
   slug: veritas-infoscale-volumes-api
-artifact_total: 82
+artifact_total: 81
 collections:
 - collection_type: postman
   name: Veritas InfoScale REST Alerts API
@@ -137,9 +139,6 @@ collections:
   name: Veritas InfoScale REST Alerts Volumes API
   slug: postman-veritas-infoscale-volumes-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Veritas InfoScale REST Alerts API
   slug: open-veritas-infoscale-alerts-api
 - collection_type: open
@@ -171,17 +170,17 @@ collections:
   slug: open-veritas-infoscale-volumes-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/plans/veritas-infoscale-plans-pricing.yml
+  href: https://artifacts.apis.io/veritas-infoscale/plans/veritas-infoscale-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/veritas-infoscale-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/rate-limits/veritas-infoscale-rate-limits.yml
+  href: https://artifacts.apis.io/veritas-infoscale/rate-limits/veritas-infoscale-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/veritas-infoscale-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/finops/veritas-infoscale-finops.yml
+  href: https://artifacts.apis.io/veritas-infoscale/finops/veritas-infoscale-finops.yml
   title: ''
   type: FinOps
   url: finops/veritas-infoscale-finops.yml
@@ -202,22 +201,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/veritas-infoscale/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/agentic-access/veritas-infoscale-agentic-access.yml
+  href: https://artifacts.apis.io/veritas-infoscale/agentic-access/veritas-infoscale-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/veritas-infoscale-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/security/veritas-infoscale-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/veritas-infoscale/security/veritas-infoscale-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/veritas-infoscale-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/security/veritas-infoscale-domain-security.yml
+  href: https://artifacts.apis.io/veritas-infoscale/security/veritas-infoscale-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/veritas-infoscale-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/authentication/veritas-infoscale-authentication.yml
+  href: https://artifacts.apis.io/veritas-infoscale/authentication/veritas-infoscale-authentication.yml
   title: ''
   type: Authentication
   url: authentication/veritas-infoscale-authentication.yml
@@ -278,12 +277,12 @@ common:
   type: ReleaseNotes
   url: https://www.veritas.com/support/en_US/doc/infoscale
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/rules/veritas-infoscale-spectral-rules.yml
+  href: https://artifacts.apis.io/veritas-infoscale/rules/veritas-infoscale-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/veritas-infoscale-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/vocabulary/veritas-infoscale-vocabulary.yaml
+  href: https://artifacts.apis.io/veritas-infoscale/vocabulary/veritas-infoscale-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/veritas-infoscale-vocabulary.yaml
@@ -404,7 +403,7 @@ plans:
 - name: Veritas Infoscale Plans Pricing
   plan_count: 1
   slug: veritas-infoscale-plans-pricing
-random_paper: 21
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Veritas Infoscale Rate Limits
@@ -434,8 +433,8 @@ rules:
     warn: 12
   slug: veritas-infoscale-spectral-rules
 score:
-  band: thin
-  composite: 38.6
+  band: developing
+  composite: 45.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 73.0
@@ -443,18 +442,15 @@ score:
     catalog_gap: 42.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 27.3
     contract_quality: 29.7
-    developer_ergonomics: 64.3
+    developer_ergonomics: 65.5
     discoverability: 71.4
-    operational_transparency: 23.7
-  open_source:
-    applies: true
-    score: 0.0
-  previous_composite: 40.0
+    operational_transparency: 36.8
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -468,13 +464,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/screenshots/veritas-infoscale-2026-06-20T200933.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/veritas-infoscale/veritas-infoscale-2026-06-20T200933.png
 security:
 - kind: authentication
   name: Veritas Infoscale Authentication

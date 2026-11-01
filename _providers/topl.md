@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The gRPC interface to the Apparatus (Topl) blockchain: NodeRpc on the Bifrost full node for submitting transactions, reading blocks and following the chain tip, and the Genus indexer''s BlockService, T'
@@ -55,67 +57,67 @@ common:
   type: Documentation
   url: https://github.com/Topl/Knowledge-Base
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/grpc/topl-protobuf.yml
+  href: https://artifacts.apis.io/topl/grpc/topl-protobuf.yml
   title: ''
   type: Protobuf
   url: grpc/topl-protobuf.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/packages/topl-packages.yml
+  href: https://artifacts.apis.io/topl/packages/topl-packages.yml
   title: ''
   type: Packages
   url: packages/topl-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/packages/topl-packages.yml
+  href: https://artifacts.apis.io/topl/packages/topl-packages.yml
   title: ''
   type: SDKs
   url: packages/topl-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/cli/topl-cli.yml
+  href: https://artifacts.apis.io/topl/cli/topl-cli.yml
   title: ''
   type: CLI
   url: cli/topl-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/authentication/topl-authentication.yml
+  href: https://artifacts.apis.io/topl/authentication/topl-authentication.yml
   title: ''
   type: Authentication
   url: authentication/topl-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/conventions/topl-conventions.yml
+  href: https://artifacts.apis.io/topl/conventions/topl-conventions.yml
   title: ''
   type: Conventions
   url: conventions/topl-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/data-model/topl-data-model.yml
+  href: https://artifacts.apis.io/topl/data-model/topl-data-model.yml
   title: ''
   type: DataModel
   url: data-model/topl-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/conformance/topl-conformance.yml
+  href: https://artifacts.apis.io/topl/conformance/topl-conformance.yml
   title: ''
   type: Conformance
   url: conformance/topl-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/lifecycle/topl-lifecycle.yml
+  href: https://artifacts.apis.io/topl/lifecycle/topl-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/topl-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/changelog/topl-changelog.yml
+  href: https://artifacts.apis.io/topl/changelog/topl-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/topl-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/plans/topl-plans-pricing.yml
+  href: https://artifacts.apis.io/topl/plans/topl-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/topl-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/rate-limits/topl-rate-limits.yml
+  href: https://artifacts.apis.io/topl/rate-limits/topl-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/topl-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/llms/topl-llms.txt
+  href: https://artifacts.apis.io/topl/llms/topl-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/topl-llms.txt
@@ -136,7 +138,7 @@ plans:
 - name: Topl Plans Pricing
   plan_count: 0
   slug: topl-plans-pricing
-random_paper: 7
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Topl Rate Limits
@@ -177,14 +179,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/screenshots/topl-2026-09-02T163927.png
+screenshot: https://apis.io/screenshots/topl/topl-2026-09-02T163927.png
 security:
 - kind: authentication
   name: Topl Authentication

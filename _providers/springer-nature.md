@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-10-17'
+  score: 23.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,11 +63,8 @@ apis:
   description: The Search API from Springer Nature — 2 operation(s) for search.
   name: Springer Nature Search API
   slug: springer-nature-search-api
-artifact_total: 22
+artifact_total: 21
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Springer Nature Meta API
   slug: open-springer-nature-meta
@@ -80,27 +79,27 @@ collections:
   slug: open-springer-nature-search-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/plans/springer-nature-plans-pricing.yml
+  href: https://artifacts.apis.io/springer-nature/plans/springer-nature-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/springer-nature-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/finops/springer-nature-finops.yml
+  href: https://artifacts.apis.io/springer-nature/finops/springer-nature-finops.yml
   title: ''
   type: FinOps
   url: finops/springer-nature-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/agentic-access/springer-nature-agentic-access.yml
+  href: https://artifacts.apis.io/springer-nature/agentic-access/springer-nature-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/springer-nature-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/security/springer-nature-domain-security.yml
+  href: https://artifacts.apis.io/springer-nature/security/springer-nature-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/springer-nature-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/authentication/springer-nature-authentication.yml
+  href: https://artifacts.apis.io/springer-nature/authentication/springer-nature-authentication.yml
   title: ''
   type: Authentication
   url: authentication/springer-nature-authentication.yml
@@ -192,7 +191,7 @@ plans:
 - name: Springer Nature Plans Pricing
   plan_count: 1
   slug: springer-nature-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Springer Nature Rate Limits
@@ -223,23 +222,23 @@ rules:
   slug: springer-nature-rules
 score:
   band: thin
-  composite: 36.3
+  composite: 36.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 56.5
     catalog_earned_first_party: 0.0
     catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 58.6
     developer_ergonomics: 45.2
     discoverability: 65.0
-    operational_transparency: 7.9
-  previous_composite: 37.8
+    operational_transparency: 10.5
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     contracts:
@@ -253,14 +252,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/screenshots/springer-nature-2026-06-20T194417.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/springer-nature/springer-nature-2026-06-20T194417.png
 security:
 - kind: authentication
   name: Springer Nature Authentication

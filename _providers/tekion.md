@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: Near real-time access to a dealership's sales and deal data - deal jackets, desking, F&I products, and sold-vehicle records - through the Automotive Partner Cloud. Concrete paths and schemas are publi
@@ -56,17 +58,50 @@ apis:
   slug: tekion-webhooks-api
 artifact_total: 11
 common:
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.tekion.com/
+- group: agent
+  href: https://artifacts.apis.io/tekion/llms/tekion-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/tekion-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/tekion/well-known/tekion-status-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/tekion-status-security.txt
+- group: agent
+  href: https://artifacts.apis.io/tekion/well-known/tekion-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/tekion-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/tekion/hosts/tekion-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/tekion-hosts.yml
+- group: other
+  href: https://artifacts.apis.io/tekion/vendors/tekion-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/tekion-vendors.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://tekion.com/trust-portal/security
 - group: company
   title: ''
   type: Blog
   url: https://tekion.com/blog
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tekion/refs/heads/main/security/tekion-trust-center.yml
+  href: https://artifacts.apis.io/tekion/security/tekion-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tekion-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tekion/refs/heads/main/security/tekion-domain-security.yml
+  href: https://artifacts.apis.io/tekion/security/tekion-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tekion-domain-security.yml
@@ -78,6 +113,22 @@ common:
   title: ''
   type: Website
   url: https://tekion.com
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.tekion.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://tekion.com/trust-portal/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://tekion.com/refer/terms
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://tekion.com/news
 - group: docs
   title: ''
   type: Documentation
@@ -91,20 +142,32 @@ common:
   type: SignUp
   url: https://apc.tekioncloud.com/user/register
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tekion/refs/heads/main/plans/tekion-plans-pricing.yml
+  href: https://artifacts.apis.io/tekion/plans/tekion-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tekion-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tekion/refs/heads/main/rate-limits/tekion-rate-limits.yml
+  href: https://artifacts.apis.io/tekion/rate-limits/tekion-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tekion-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tekion/refs/heads/main/finops/tekion-finops.yml
+  href: https://artifacts.apis.io/tekion/finops/tekion-finops.yml
   title: ''
   type: FinOps
   url: finops/tekion-finops.yml
+coverage:
+  checked: '2026-10-20'
+  detail: Tekion's Automotive Partner Cloud API reference sits behind partner registration at apc.tekioncloud.com/user/register with use-case review; no public OpenAPI is served at api.tekioncloud.com or apc.tekioncloud.com.
+  evidence:
+  - status: 200
+    url: https://apc.tekioncloud.com/user/register
+  - status: 404
+    url: https://api.tekioncloud.com/openapi.json
+  - status: 404
+    url: https://apc.tekioncloud.com/openapi.json
+  reason: partner-login
+  state: gated
 created: '2026-07-10'
 description: 'Tekion is a cloud-native, AI-native automotive retail platform whose flagship Automotive Retail Cloud (ARC) is a modern dealer management system (DMS) spanning sales, service, parts, inventory, F&I, accounting, and CRM for franchise dealerships and OEMs. Tekion exposes its data and workflows to technology partners through the Automotive Partner Cloud (APC) - an open, OpenAPI-standard partner API program with REST APIs and webhooks that give approved partners near real-time access to a dealership''s sales, service, inventory, and parts data. APC is partner-gated: developers register at the APC portal, submit a use case, and are reviewed (typically within ~48 hours) before the API documentation dashboard, credentials, and endpoints are unlocked. Access is tiered (Standard, Enterprise/Elevated, Premium/Strategic) with different API scopes, rate limits, and read/write capabilities. Because the technical reference is behind partner authentication, the APIs below are honestly modeled
   by data domain rather than transcribed from a public spec.'
@@ -125,49 +188,49 @@ network: true
 overview: 'Tekion is listed with 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Dealership, DMS, Automotive Retail Cloud, and Partner API.
 
 
-  Tekion''s developer surface includes engineering blog, documentation, developer portal, signup flow, and 7 more developer resources.'
+  Tekion''s developer surface includes engineering blog, documentation, developer portal, signup flow, and 18 more developer resources.'
 plans:
 - name: Tekion Plans Pricing
   plan_count: 3
   slug: tekion-plans-pricing
-random_paper: 12
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Tekion Rate Limits
   slug: tekion-rate-limits
 score:
-  band: emerging
-  composite: 17.6
+  band: thin
+  composite: 28.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 12
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.8
+  delta: 0.0
   facets:
-    access_clarity: 28.9
+    access_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 71.4
-    operational_transparency: 7.9
-  previous_composite: 25.4
+    discoverability: 73.2
+    operational_transparency: 34.2
+  previous_composite: 28.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 18.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/tekion/refs/heads/main/screenshots/tekion-2026-09-02T162726.png
+screenshot: https://apis.io/screenshots/tekion/tekion-2026-09-02T162726.png
 security:
 - kind: domain-security
   name: Tekion Domain Security

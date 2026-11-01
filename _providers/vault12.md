@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Open-source NaCl-based cryptographic relay operated as asynchronous "dead drops" for end-to-end-encrypted device-to-device communication. Clients establish anonymous session keys via a proof-of-work h
@@ -58,7 +60,7 @@ common:
   type: License
   url: https://github.com/vault12/zax/blob/main/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vault12/refs/heads/main/security/vault12-domain-security.yml
+  href: https://artifacts.apis.io/vault12/security/vault12-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/vault12-domain-security.yml
@@ -95,52 +97,52 @@ common:
   type: GitHubOrganization
   url: https://github.com/vault12
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vault12/refs/heads/main/packages/vault12-packages.yml
+  href: https://artifacts.apis.io/vault12/packages/vault12-packages.yml
   title: ''
   type: Packages
   url: packages/vault12-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/vault12/refs/heads/main/packages/vault12-packages.yml
+  href: https://artifacts.apis.io/vault12/packages/vault12-packages.yml
   title: ''
   type: SDKs
   url: packages/vault12-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vault12/refs/heads/main/well-known/vault12-well-known.yml
+  href: https://artifacts.apis.io/vault12/well-known/vault12-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/vault12-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vault12/refs/heads/main/scopes/vault12-scopes.yml
+  href: https://artifacts.apis.io/vault12/scopes/vault12-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/vault12-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/vault12/refs/heads/main/authentication/vault12-authentication.yml
+  href: https://artifacts.apis.io/vault12/authentication/vault12-authentication.yml
   title: ''
   type: Authentication
   url: authentication/vault12-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vault12/refs/heads/main/conformance/vault12-conformance.yml
+  href: https://artifacts.apis.io/vault12/conformance/vault12-conformance.yml
   title: ''
   type: Conformance
   url: conformance/vault12-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/vault12/refs/heads/main/llms/vault12-llms.txt
+  href: https://artifacts.apis.io/vault12/llms/vault12-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/vault12-llms.txt
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/vault12/refs/heads/main/sandbox/vault12-sandbox.yml
+  href: https://artifacts.apis.io/vault12/sandbox/vault12-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/vault12-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/vault12/refs/heads/main/lifecycle/vault12-lifecycle.yml
+  href: https://artifacts.apis.io/vault12/lifecycle/vault12-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/vault12-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/vault12/refs/heads/main/changelog/vault12-changelog.yml
+  href: https://artifacts.apis.io/vault12/changelog/vault12-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/vault12-changelog.yml
@@ -156,7 +158,7 @@ overview: 'Vault12 is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Vault12''s developer surface includes engineering blog, support, pricing, authentication, sandbox, changelog, and 17 more developer resources.'
-random_paper: 17
+random_paper: 7
 scopes:
 - name: Vault12 Scopes
   scope_count: 4
@@ -164,9 +166,9 @@ scopes:
   summary_line: 4 scopes · authorizationCode/implicit/password/refresh_token
 score:
   band: thin
-  composite: 33.1
+  composite: 31.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -178,12 +180,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 73.2
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 33.1
+    discoverability: 66.1
+    operational_transparency: 36.8
+  previous_composite: 31.7
   provenance:
     conformance: first-party
   regulatory:
@@ -192,14 +191,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/vault12/refs/heads/main/screenshots/vault12-2026-09-02T165503.png
+screenshot: https://apis.io/screenshots/vault12/vault12-2026-09-02T165503.png
 security:
 - kind: authentication
   name: Vault12 Authentication

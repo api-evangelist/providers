@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.0
-  scored_at: '2026-10-17'
+  score: 37.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -63,84 +65,84 @@ apis:
   description: App-scoped webhook endpoint configuration and delivery history
   name: Bookit N Go Webhooks API
   slug: bookit-n-go-webhooks-api
-artifact_total: 18
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Bookit N Go Webhooks
   slug: bookit-n-go-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/agentic-access/bookit-n-go-agentic-access.yml
+  href: https://artifacts.apis.io/bookit-n-go/agentic-access/bookit-n-go-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bookit-n-go-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/rules/bookit-n-go-rules.yml
+  href: https://artifacts.apis.io/bookit-n-go/rules/bookit-n-go-rules.yml
   title: ''
   type: Spectral
   url: rules/bookit-n-go-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/json-ld/bookit-n-go-context.jsonld
+  href: https://artifacts.apis.io/bookit-n-go/json-ld/bookit-n-go-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/bookit-n-go-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/vocabulary/bookit-n-go-vocabulary.yml
+  href: https://artifacts.apis.io/bookit-n-go/vocabulary/bookit-n-go-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/bookit-n-go-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bookit-n-go/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/asyncapi/bookit-n-go-webhooks.yml
+  href: https://artifacts.apis.io/bookit-n-go/asyncapi/bookit-n-go-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/bookit-n-go-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/data-model/bookit-n-go-data-model.yml
+  href: https://artifacts.apis.io/bookit-n-go/data-model/bookit-n-go-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bookit-n-go-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/conventions/bookit-n-go-conventions.yml
+  href: https://artifacts.apis.io/bookit-n-go/conventions/bookit-n-go-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bookit-n-go-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/conventions/bookit-n-go-conventions.yml
+  href: https://artifacts.apis.io/bookit-n-go/conventions/bookit-n-go-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bookit-n-go-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/errors/bookit-n-go-problem-types.yml
+  href: https://artifacts.apis.io/bookit-n-go/errors/bookit-n-go-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bookit-n-go-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/conformance/bookit-n-go-conformance.yml
+  href: https://artifacts.apis.io/bookit-n-go/conformance/bookit-n-go-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bookit-n-go-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/overlays/bookit-n-go-openapi-overlay.yaml
+  href: https://artifacts.apis.io/bookit-n-go/overlays/bookit-n-go-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bookit-n-go-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/llms/bookit-n-go-llms.txt
+  href: https://artifacts.apis.io/bookit-n-go/llms/bookit-n-go-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bookit-n-go-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/hosts/bookit-n-go-hosts.yml
+  href: https://artifacts.apis.io/bookit-n-go/hosts/bookit-n-go-hosts.yml
   title: ''
   type: Hosts
   url: hosts/bookit-n-go-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/vendors/bookit-n-go-vendors.yml
+  href: https://artifacts.apis.io/bookit-n-go/vendors/bookit-n-go-vendors.yml
   title: ''
   type: Vendors
   url: vendors/bookit-n-go-vendors.yml
@@ -149,12 +151,12 @@ common:
   type: APIReference
   url: https://developers.bookitngo.com/llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/authentication/bookit-n-go-authentication.yml
+  href: https://artifacts.apis.io/bookit-n-go/authentication/bookit-n-go-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bookit-n-go-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/refs/heads/main/security/bookit-n-go-domain-security.yml
+  href: https://artifacts.apis.io/bookit-n-go/security/bookit-n-go-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bookit-n-go-domain-security.yml
@@ -237,15 +239,15 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
     contract_quality: 64.0
     developer_ergonomics: 42.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 40.2
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -262,12 +264,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Bookit N Go Authentication
@@ -277,6 +280,16 @@ security:
   name: Bookit N Go Domain Security
   slug: bookit-n-go-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: bookit-n-go-book-trip
+  slug: bookit-n-go-book-trip
+- name: bookit-n-go-create-traveler-profile
+  slug: bookit-n-go-create-traveler-profile
+- name: bookit-n-go-flights-booking
+  slug: bookit-n-go-flights-booking
+- name: bookit-n-go-hotel-booking
+  slug: bookit-n-go-hotel-booking
 slug: bookit-n-go
 tags:
 - Travel

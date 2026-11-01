@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.2
-  scored_at: '2026-10-17'
+  score: 17.0
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: GraphQL queries for Morpho Blue lending markets — retrieve market parameters (loan asset, collateral asset, LLTV, oracle, IRM), real-time state metrics (supply, borrow, collateral assets and USD value
@@ -60,17 +62,17 @@ apis:
 artifact_total: 13
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/morpho/refs/heads/main/plans/plans.yml
+  href: https://artifacts.apis.io/morpho/plans/plans.yml
   title: ''
   type: Plans
   url: plans/plans.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/morpho/refs/heads/main/rate-limits/rate-limits.yml
+  href: https://artifacts.apis.io/morpho/rate-limits/rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/morpho/refs/heads/main/finops/finops.yml
+  href: https://artifacts.apis.io/morpho/finops/finops.yml
   title: ''
   type: FinOps
   url: finops/finops.yml
@@ -79,7 +81,7 @@ common:
   type: Website
   url: https://www.morpho.org/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/morpho/refs/heads/main/security/morpho-domain-security.yml
+  href: https://artifacts.apis.io/morpho/security/morpho-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/morpho-domain-security.yml
@@ -144,7 +146,7 @@ graphqls:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/morpho.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at mcp.morpho.org over HTTP; 18 tools listed.
+- description: Remote MCP server at mcp.morpho.org over HTTP; 81 tools listed.
   name: Morpho MCP Server
   slug: morpho
 modified: '2026-06-14'
@@ -159,14 +161,14 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Rate Limits
   slug: rate-limits
 score:
   band: emerging
-  composite: 24.3
+  composite: 25.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 45.0
@@ -174,15 +176,15 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.9
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 39.4
-    developer_ergonomics: 28.6
-    discoverability: 73.3
+    developer_ergonomics: 33.3
+    discoverability: 71.4
     operational_transparency: 13.2
-  previous_composite: 31.2
+  previous_composite: 25.0
   provenance:
     mcp: first-party
   regulatory:
@@ -191,14 +193,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/morpho/refs/heads/main/screenshots/morpho-2026-06-20T185812.png
+screenshot: https://apis.io/screenshots/morpho/morpho-2026-06-20T185812.png
 security:
 - kind: domain-security
   name: Morpho Domain Security

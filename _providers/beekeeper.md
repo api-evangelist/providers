@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,37 +25,37 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 9.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beekeeper/refs/heads/main/llms/beekeeper-llms.txt
+  href: https://artifacts.apis.io/beekeeper/llms/beekeeper-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/beekeeper-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beekeeper/refs/heads/main/well-known/beekeeper-well-known.yml
+  href: https://artifacts.apis.io/beekeeper/well-known/beekeeper-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/beekeeper-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beekeeper/refs/heads/main/hosts/beekeeper-hosts.yml
+  href: https://artifacts.apis.io/beekeeper/hosts/beekeeper-hosts.yml
   title: ''
   type: Hosts
   url: hosts/beekeeper-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beekeeper/refs/heads/main/vendors/beekeeper-vendors.yml
+  href: https://artifacts.apis.io/beekeeper/vendors/beekeeper-vendors.yml
   title: ''
   type: Vendors
   url: vendors/beekeeper-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/beekeeper/refs/heads/main/packages/beekeeper-packages.yml
+  href: https://artifacts.apis.io/beekeeper/packages/beekeeper-packages.yml
   title: ''
   type: SDKs
   url: packages/beekeeper-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/beekeeper/refs/heads/main/packages/beekeeper-packages.yml
+  href: https://artifacts.apis.io/beekeeper/packages/beekeeper-packages.yml
   title: ''
   type: Packages
   url: packages/beekeeper-packages.yml
@@ -86,7 +88,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/lumapps
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beekeeper/refs/heads/main/security/beekeeper-domain-security.yml
+  href: https://artifacts.apis.io/beekeeper/security/beekeeper-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beekeeper-domain-security.yml
@@ -114,10 +116,10 @@ overview: 'Beekeeper is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Beekeeper''s developer surface includes support, engineering blog, documentation, and 12 more developer resources.'
-random_paper: 12
+random_paper: 0
 score:
   band: emerging
-  composite: 13.9
+  composite: 13.2
   coverage:
     artifact_dirs: 8
     catalog_earned: 27.0
@@ -131,23 +133,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 57.1
+    discoverability: 50.0
     operational_transparency: 15.8
-  previous_composite: 13.9
+  previous_composite: 13.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/beekeeper/refs/heads/main/screenshots/beekeeper-2026-10-11T101730.png
+screenshot: https://apis.io/screenshots/beekeeper/beekeeper-2026-10-11T101730.png
 security:
 - kind: domain-security
   name: Beekeeper Domain Security

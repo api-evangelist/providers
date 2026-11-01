@@ -30,15 +30,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.9
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 20.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - description: The core open-source Tuva dbt package that transforms healthcare data from the Tuva Input Layer into the Tuva Core Data Model and Data Marts, including data-quality tests, normalization, claims prepro
   name: The Tuva Project (dbt package)
@@ -89,10 +91,10 @@ apis:
   description: The users API from Tuva Health — 2 operation(s) for users.
   name: Tuva Health Users API
   slug: tuva-health-users-api
-artifact_total: 15
+artifact_total: 19
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/rate-limits/tuva-health-rate-limits.yml
+  href: https://artifacts.apis.io/tuva-health/rate-limits/tuva-health-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tuva-health-rate-limits.yml
@@ -105,7 +107,7 @@ common:
   type: License
   url: https://github.com/tuva-health/tuva/blob/main/LICENSE
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/capabilities/tuva-health-capability-edges.yml
+  href: https://artifacts.apis.io/tuva-health/capabilities/tuva-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tuva-health-capability-edges.yml
@@ -118,7 +120,7 @@ common:
   type: Releases
   url: https://github.com/tuva-health/tuva/releases
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/security/tuva-health-domain-security.yml
+  href: https://artifacts.apis.io/tuva-health/security/tuva-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tuva-health-domain-security.yml
@@ -151,32 +153,32 @@ common:
   type: Package
   url: https://hub.getdbt.com/tuva-health/the_tuva_project/latest/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/packages/tuva-health-packages.yml
+  href: https://artifacts.apis.io/tuva-health/packages/tuva-health-packages.yml
   title: ''
   type: Packages
   url: packages/tuva-health-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/packages/tuva-health-packages.yml
+  href: https://artifacts.apis.io/tuva-health/packages/tuva-health-packages.yml
   title: ''
   type: SDKs
   url: packages/tuva-health-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/data-model/tuva-health-data-model.yml
+  href: https://artifacts.apis.io/tuva-health/data-model/tuva-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/tuva-health-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/conformance/tuva-health-conformance.yml
+  href: https://artifacts.apis.io/tuva-health/conformance/tuva-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/tuva-health-conformance.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/changelog/tuva-health-changelog.yml
+  href: https://artifacts.apis.io/tuva-health/changelog/tuva-health-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/tuva-health-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/llms/tuva-health-llms.txt
+  href: https://artifacts.apis.io/tuva-health/llms/tuva-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/tuva-health-llms.txt
@@ -201,17 +203,17 @@ common:
   type: APIReference
   url: https://tuva-health.github.io/tuva_empi/api-docs/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/authentication/tuva-health-authentication.yml
+  href: https://artifacts.apis.io/tuva-health/authentication/tuva-health-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tuva-health-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/conventions/tuva-health-conventions.yml
+  href: https://artifacts.apis.io/tuva-health/conventions/tuva-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/tuva-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/lifecycle/tuva-health-lifecycle.yml
+  href: https://artifacts.apis.io/tuva-health/lifecycle/tuva-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/tuva-health-lifecycle.yml
@@ -220,27 +222,27 @@ common:
   type: Deprecation
   url: https://tuva-health.github.io/tuva_empi/docs/releases
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/sandbox/tuva-health-sandbox.yml
+  href: https://artifacts.apis.io/tuva-health/sandbox/tuva-health-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/tuva-health-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/cli/tuva-health-cli.yml
+  href: https://artifacts.apis.io/tuva-health/cli/tuva-health-cli.yml
   title: ''
   type: CLI
   url: cli/tuva-health-cli.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/plans/tuva-health-plans-pricing.yml
+  href: https://artifacts.apis.io/tuva-health/plans/tuva-health-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tuva-health-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/overlays/tuva-health-empi-overlay.yaml
+  href: https://artifacts.apis.io/tuva-health/overlays/tuva-health-empi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/tuva-health-empi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/tuva-health/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -251,6 +253,14 @@ common:
 created: '2026-07-24'
 description: 'Tuva Health, Inc. is a United States healthcare data company behind The Tuva Project, an open-source, warehouse-native data-transformation platform that harmonizes, validates, normalizes, and enriches raw healthcare data - medical and pharmacy claims, EHR clinical data, ADT feeds, and HL7 FHIR sources - into an analytics-ready Core Data Model and a library of Data Marts (AHRQ measures, readmissions, quality measures, chronic conditions, CCSR, pharmacy). It is delivered primarily as a dbt package plus Python utilities (FHIR Inferno) and a family of source connectors that run inside the customer''s own cloud data warehouse - Snowflake, Databricks, Google BigQuery, Amazon Redshift, or Microsoft Fabric - rather than as a hosted service. Tuva is not a FHIR API vendor: FHIR R4 is a supported input format that Tuva flattens and maps into its Input Layer, not a live FHIR server it operates. It does ship one HTTP API - Tuva EMPI, an Apache-2.0 enterprise master patient index with a
   documented OpenAPI 3.0.3 contract - but that too is customer-deployed from OCI images, so there is no Tuva-operated API host. The company pairs the open-source project with a commercial Core Platform and named services. Home market is the United States.'
+finops:
+- has_sources: true
+  method: derived
+  name: Tuva Health Finops
+  primary_unit: ''
+  service_category: ''
+  slug: tuva-health-finops
+  template: true
 image: https://www.tuvahealth.com/img/TuvaHealthLogo-White@4x.png
 layout: provider
 modified: '2026-10-06'
@@ -265,29 +275,29 @@ plans:
 - name: Tuva Health Plans Pricing
   plan_count: 0
   slug: tuva-health-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Tuva Health Rate Limits
   slug: tuva-health-rate-limits
 score:
   band: developing
-  composite: 42.0
+  composite: 42.3
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 37.0
     developer_ergonomics: 80.4
-    discoverability: 64.3
-    operational_transparency: 26.3
+    discoverability: 57.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -295,7 +305,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 41.9
+  previous_composite: 42.3
   provenance:
     conformance: first-party
     contracts:
@@ -311,13 +321,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/screenshots/tuva-health-2026-08-17T082502.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tuva-health/tuva-health-2026-08-17T082502.png
 security:
 - kind: authentication
   name: Tuva Health Authentication
@@ -327,6 +338,14 @@ security:
   name: Tuva Health Domain Security
   slug: tuva-health-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Configure Tuva EMPI matching and import person records
+  slug: tuva-health-empi-configure-and-import
+- name: Export Tuva EMPI persons and administer users
+  slug: tuva-health-empi-export-and-administer
+- name: Review and adjudicate Tuva EMPI potential matches
+  slug: tuva-health-empi-review-potential-matches
 slug: tuva-health
 tags:
 - Healthcare

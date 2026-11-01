@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.0
-  scored_at: '2026-10-17'
+  score: 20.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -174,15 +176,12 @@ apis:
   description: Manage Spotfire users
   name: TIBCO Users API
   slug: tibco-users-api
-artifact_total: 74
+artifact_total: 73
 asyncapis:
 - description: Enterprise messaging API supporting TIBCO Enterprise Message Service (EMS) and FTL (TIBCO FTL) for reliable, high-performance messaging. Supports JMS-compatible publish-subscribe and point-to-point me
   name: TIBCO Messaging API
   slug: tibco-messaging-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: TIBCO BusinessEvents Agents API
   slug: open-tibco-agents-api
@@ -271,18 +270,22 @@ collections:
   name: TIBCO BusinessEvents Agents Users API
   slug: open-tibco-users-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tibco/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/plans/tibco-plans-pricing.yml
+  href: https://artifacts.apis.io/tibco/plans/tibco-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tibco-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/rate-limits/tibco-rate-limits.yml
+  href: https://artifacts.apis.io/tibco/rate-limits/tibco-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tibco-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/finops/tibco-finops.yml
+  href: https://artifacts.apis.io/tibco/finops/tibco-finops.yml
   title: ''
   type: FinOps
   url: finops/tibco-finops.yml
@@ -291,27 +294,27 @@ common:
   type: Website
   url: https://tibco.com
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/capabilities/tibco-capability-edges.yml
+  href: https://artifacts.apis.io/tibco/capabilities/tibco-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tibco-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/agentic-access/tibco-agentic-access.yml
+  href: https://artifacts.apis.io/tibco/agentic-access/tibco-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tibco-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/security/tibco-domain-security.yml
+  href: https://artifacts.apis.io/tibco/security/tibco-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tibco-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/authentication/tibco-authentication.yml
+  href: https://artifacts.apis.io/tibco/authentication/tibco-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tibco-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/scopes/tibco-scopes.yml
+  href: https://artifacts.apis.io/tibco/scopes/tibco-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/tibco-scopes.yml
@@ -356,27 +359,27 @@ common:
   type: PrivacyPolicy
   url: https://www.tibco.com/legal/privacy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/json-ld/tibco-context.jsonld
+  href: https://artifacts.apis.io/tibco/json-ld/tibco-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/tibco-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/json-schema/tibco-integration-app-schema.json
+  href: https://artifacts.apis.io/tibco/json-schema/tibco-integration-app-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tibco-integration-app-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/json-schema/tibco-api-service-schema.json
+  href: https://artifacts.apis.io/tibco/json-schema/tibco-api-service-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/tibco-api-service-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/rules/tibco-rules.yml
+  href: https://artifacts.apis.io/tibco/rules/tibco-rules.yml
   title: ''
   type: Spectral
   url: rules/tibco-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/vocabulary/tibco-vocabulary.yml
+  href: https://artifacts.apis.io/tibco/vocabulary/tibco-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/tibco-vocabulary.yml
@@ -432,7 +435,7 @@ overview: 'TIBCO publishes 26 API contracts indexed on the [APIs.io](https://api
   The TIBCO catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  TIBCO''s developer surface includes authentication, developer portal, documentation, support, engineering blog, GitHub presence, and 19 more developer resources.'
+  TIBCO''s developer surface includes authentication, developer portal, documentation, support, engineering blog, GitHub presence, and 20 more developer resources.'
 plans:
 - name: Tibco Plans Pricing
   plan_count: 1
@@ -485,23 +488,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.5
+  composite: 48.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.3
   facets:
     access_clarity: 26.3
     contract_governance: 27.3
-    contract_quality: 65.0
-    developer_ergonomics: 32.1
+    contract_quality: 62.1
+    developer_ergonomics: 53.6
     discoverability: 76.8
-    operational_transparency: 18.4
-  previous_composite: 45.0
+    operational_transparency: 26.3
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     contracts:
@@ -515,13 +518,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/screenshots/tibco-2026-08-17T082218.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tibco/tibco-2026-08-17T082218.png
 security:
 - kind: authentication
   name: Tibco Authentication

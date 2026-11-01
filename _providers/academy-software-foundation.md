@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.4
-  scored_at: '2026-10-17'
+  score: 35.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -93,11 +95,8 @@ apis:
   description: Manage shows (productions) in OpenCue
   name: Academy Software Foundation Shows API
   slug: academy-software-foundation-shows-api
-artifact_total: 87
+artifact_total: 89
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Academy Software Foundation - OpenCue Hosts API
   slug: open-academy-software-foundation-hosts-api
@@ -112,7 +111,7 @@ collections:
   slug: open-academy-software-foundation-shows-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/finops/academy-software-foundation-finops.yml
+  href: https://artifacts.apis.io/academy-software-foundation/finops/academy-software-foundation-finops.yml
   title: ''
   type: FinOps
   url: finops/academy-software-foundation-finops.yml
@@ -141,12 +140,12 @@ common:
   type: License
   url: https://github.com/AcademySoftwareFoundation/openexr/blob/main/LICENSE.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/agentic-access/academy-software-foundation-agentic-access.yml
+  href: https://artifacts.apis.io/academy-software-foundation/agentic-access/academy-software-foundation-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/academy-software-foundation-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/security/academy-software-foundation-domain-security.yml
+  href: https://artifacts.apis.io/academy-software-foundation/security/academy-software-foundation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/academy-software-foundation-domain-security.yml
@@ -183,117 +182,117 @@ common:
   type: PrivacyPolicy
   url: https://www.linuxfoundation.org/privacy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/rules/academy-software-foundation-spectral-rules.yml
+  href: https://artifacts.apis.io/academy-software-foundation/rules/academy-software-foundation-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/academy-software-foundation-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/vocabulary/academy-software-foundation-vocabulary.yaml
+  href: https://artifacts.apis.io/academy-software-foundation/vocabulary/academy-software-foundation-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/academy-software-foundation-vocabulary.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/packages/academy-software-foundation-packages.yml
+  href: https://artifacts.apis.io/academy-software-foundation/packages/academy-software-foundation-packages.yml
   title: ''
   type: Packages
   url: packages/academy-software-foundation-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/packages/academy-software-foundation-packages.yml
+  href: https://artifacts.apis.io/academy-software-foundation/packages/academy-software-foundation-packages.yml
   title: ''
   type: SDKs
   url: packages/academy-software-foundation-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/cli/academy-software-foundation-cli.yml
+  href: https://artifacts.apis.io/academy-software-foundation/cli/academy-software-foundation-cli.yml
   title: ''
   type: CLI
   url: cli/academy-software-foundation-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/well-known/academy-software-foundation-well-known.yml
+  href: https://artifacts.apis.io/academy-software-foundation/well-known/academy-software-foundation-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/academy-software-foundation-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/well-known/academy-software-foundation-api-catalog.json
+  href: https://artifacts.apis.io/academy-software-foundation/well-known/academy-software-foundation-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/academy-software-foundation-api-catalog.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/llms/academy-software-foundation-llms.txt
+  href: https://artifacts.apis.io/academy-software-foundation/llms/academy-software-foundation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/academy-software-foundation-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/grpc/academy-software-foundation-grpc.yml
+  href: https://artifacts.apis.io/academy-software-foundation/grpc/academy-software-foundation-grpc.yml
   title: ''
   type: Protobuf
   url: grpc/academy-software-foundation-grpc.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/conformance/academy-software-foundation-conformance.yml
+  href: https://artifacts.apis.io/academy-software-foundation/conformance/academy-software-foundation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/academy-software-foundation-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/errors/academy-software-foundation-problem-types.yml
+  href: https://artifacts.apis.io/academy-software-foundation/errors/academy-software-foundation-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/academy-software-foundation-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/lifecycle/academy-software-foundation-lifecycle.yml
+  href: https://artifacts.apis.io/academy-software-foundation/lifecycle/academy-software-foundation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/academy-software-foundation-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/lifecycle/academy-software-foundation-lifecycle.yml
+  href: https://artifacts.apis.io/academy-software-foundation/lifecycle/academy-software-foundation-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/academy-software-foundation-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/authentication/academy-software-foundation-authentication.yml
+  href: https://artifacts.apis.io/academy-software-foundation/authentication/academy-software-foundation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/academy-software-foundation-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/conventions/academy-software-foundation-conventions.yml
+  href: https://artifacts.apis.io/academy-software-foundation/conventions/academy-software-foundation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/academy-software-foundation-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/changelog/academy-software-foundation-changelog.yml
+  href: https://artifacts.apis.io/academy-software-foundation/changelog/academy-software-foundation-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/academy-software-foundation-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/sandbox/academy-software-foundation-sandbox.yml
+  href: https://artifacts.apis.io/academy-software-foundation/sandbox/academy-software-foundation-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/academy-software-foundation-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/data-model/academy-software-foundation-data-model.yml
+  href: https://artifacts.apis.io/academy-software-foundation/data-model/academy-software-foundation-data-model.yml
   title: ''
   type: DataModel
   url: data-model/academy-software-foundation-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/academy-software-foundation/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/rate-limits/academy-software-foundation-rate-limits.yml
+  href: https://artifacts.apis.io/academy-software-foundation/rate-limits/academy-software-foundation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/academy-software-foundation-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/plans/academy-software-foundation-plans-pricing.yml
+  href: https://artifacts.apis.io/academy-software-foundation/plans/academy-software-foundation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/academy-software-foundation-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/security/academy-software-foundation-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/academy-software-foundation/security/academy-software-foundation-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/academy-software-foundation-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/security/academy-software-foundation-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/academy-software-foundation/security/academy-software-foundation-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/academy-software-foundation-vulnerability-disclosure.yml
@@ -370,10 +369,10 @@ features:
   name: Standards Development
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Academy Software Foundation Finops
-  primary_unit: ''
-  service_category: Open Source Software / Standards
+  primary_unit: membership
+  service_category: ''
   slug: academy-software-foundation-finops
   template: false
 image: /assets/icons/academy-software-foundation.png
@@ -492,9 +491,9 @@ overview: 'Academy Software Foundation is listed with 14 APIs on the [APIs.io](h
   Academy Software Foundation''s developer surface includes documentation, engineering blog, getting-started guide, CLI, authentication, changelog, sandbox, and 37 more developer resources.'
 plans:
 - name: Academy Software Foundation Plans Pricing
-  plan_count: 0
+  plan_count: 10
   slug: academy-software-foundation-plans-pricing
-random_paper: 18
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Academy Software Foundation Rate Limits
@@ -525,26 +524,23 @@ rules:
   slug: academy-software-foundation-spectral-rules
 score:
   band: strong
-  composite: 55.4
+  composite: 57.7
   coverage:
     artifact_dirs: 33
-    catalog_earned: 68.4
-    catalog_earned_first_party: 8.0
-    catalog_gap: 46.6
+    catalog_earned: 83.4
+    catalog_earned_first_party: 20.0
+    catalog_gap: 31.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 31.8
     contract_quality: 26.0
     developer_ergonomics: 70.8
-    discoverability: 69.6
-    operational_transparency: 57.9
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 56.8
+    discoverability: 62.5
+    operational_transparency: 60.5
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -561,14 +557,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/screenshots/academy-software-foundation-2026-06-20T163501.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/academy-software-foundation/academy-software-foundation-2026-06-20T163501.png
 security:
 - kind: authentication
   name: Academy Software Foundation Authentication
@@ -582,6 +578,14 @@ security:
   name: Academy Software Foundation Vulnerability Disclosure
   slug: academy-software-foundation-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 3
+skills:
+- name: discover-the-gateway-surface
+  slug: academy-software-foundation-discover-the-gateway-surface
+- name: manage-farm-capacity
+  slug: academy-software-foundation-manage-farm-capacity
+- name: triage-a-stuck-render-job
+  slug: academy-software-foundation-triage-a-stuck-render-job
 slug: academy-software-foundation
 tags:
 - Animation

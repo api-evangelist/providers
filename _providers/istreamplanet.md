@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.6
-  scored_at: '2026-10-17'
+  score: 38.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 73
   slug: istreamplanet-agentic-access
   summary_line: 73 operations · 29 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.istreamplanet.com
   baseurl_source: declared
@@ -83,110 +85,110 @@ apis:
   description: The Transcoder Telemetry API from iStreamPlanet — 5 operation(s) for transcoder telemetry.
   name: iStreamPlanet Transcoder Telemetry API
   slug: istreamplanet-transcoder-telemetry-api
-artifact_total: 25
+artifact_total: 28
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/agentic-access/istreamplanet-agentic-access.yml
+  href: https://artifacts.apis.io/istreamplanet/agentic-access/istreamplanet-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/istreamplanet-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/rules/istreamplanet-rules.yml
+  href: https://artifacts.apis.io/istreamplanet/rules/istreamplanet-rules.yml
   title: ''
   type: Spectral
   url: rules/istreamplanet-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/rules/istreamplanet-rest-api-lint-spectral-rules.yml
+  href: https://artifacts.apis.io/istreamplanet/rules/istreamplanet-rest-api-lint-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/istreamplanet-rest-api-lint-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/json-ld/istreamplanet-context.jsonld
+  href: https://artifacts.apis.io/istreamplanet/json-ld/istreamplanet-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/istreamplanet-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/vocabulary/istreamplanet-vocabulary.yml
+  href: https://artifacts.apis.io/istreamplanet/vocabulary/istreamplanet-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/istreamplanet-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/istreamplanet/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/data-model/istreamplanet-data-model.yml
+  href: https://artifacts.apis.io/istreamplanet/data-model/istreamplanet-data-model.yml
   title: ''
   type: DataModel
   url: data-model/istreamplanet-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/cli/istreamplanet-cli.yml
+  href: https://artifacts.apis.io/istreamplanet/cli/istreamplanet-cli.yml
   title: ''
   type: CLI
   url: cli/istreamplanet-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/conventions/istreamplanet-conventions.yml
+  href: https://artifacts.apis.io/istreamplanet/conventions/istreamplanet-conventions.yml
   title: ''
   type: Conventions
   url: conventions/istreamplanet-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/lifecycle/istreamplanet-lifecycle.yml
+  href: https://artifacts.apis.io/istreamplanet/lifecycle/istreamplanet-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/istreamplanet-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/lifecycle/istreamplanet-lifecycle.yml
+  href: https://artifacts.apis.io/istreamplanet/lifecycle/istreamplanet-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/istreamplanet-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/errors/istreamplanet-problem-types.yml
+  href: https://artifacts.apis.io/istreamplanet/errors/istreamplanet-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/istreamplanet-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/conformance/istreamplanet-conformance.yml
+  href: https://artifacts.apis.io/istreamplanet/conformance/istreamplanet-conformance.yml
   title: ''
   type: Conformance
   url: conformance/istreamplanet-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/overlays/istreamplanet-aventus-channels-overlay.yaml
+  href: https://artifacts.apis.io/istreamplanet/overlays/istreamplanet-aventus-channels-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/istreamplanet-aventus-channels-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/hosts/istreamplanet-hosts.yml
+  href: https://artifacts.apis.io/istreamplanet/hosts/istreamplanet-hosts.yml
   title: ''
   type: Hosts
   url: hosts/istreamplanet-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/vendors/istreamplanet-vendors.yml
+  href: https://artifacts.apis.io/istreamplanet/vendors/istreamplanet-vendors.yml
   title: ''
   type: Vendors
   url: vendors/istreamplanet-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/packages/istreamplanet-packages.yml
+  href: https://artifacts.apis.io/istreamplanet/packages/istreamplanet-packages.yml
   title: ''
   type: SDKs
   url: packages/istreamplanet-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/packages/istreamplanet-packages.yml
+  href: https://artifacts.apis.io/istreamplanet/packages/istreamplanet-packages.yml
   title: ''
   type: Packages
   url: packages/istreamplanet-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/scopes/istreamplanet-scopes.yml
+  href: https://artifacts.apis.io/istreamplanet/scopes/istreamplanet-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/istreamplanet-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/authentication/istreamplanet-authentication.yml
+  href: https://artifacts.apis.io/istreamplanet/authentication/istreamplanet-authentication.yml
   title: ''
   type: Authentication
   url: authentication/istreamplanet-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/istreamplanet/refs/heads/main/security/istreamplanet-domain-security.yml
+  href: https://artifacts.apis.io/istreamplanet/security/istreamplanet-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/istreamplanet-domain-security.yml
@@ -249,7 +251,7 @@ plans:
 - name: Istreamplanet Plans Pricing
   plan_count: 0
   slug: istreamplanet-plans-pricing
-random_paper: 15
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Istreamplanet Rate Limits
@@ -286,15 +288,15 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 45.8
+  composite: 42.6
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 76.3
     catalog_earned_first_party: 18.0
     catalog_gap: 38.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 76.5
@@ -326,12 +328,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Istreamplanet Authentication
@@ -341,6 +344,14 @@ security:
   name: Istreamplanet Domain Security
   slug: istreamplanet-domain-security
   summary_line: no transport/DNS hardening detected
+skill_count: 3
+skills:
+- name: istreamplanet-ad-signaling
+  slug: istreamplanet-ad-signaling
+- name: istreamplanet-channel-lifecycle
+  slug: istreamplanet-channel-lifecycle
+- name: istreamplanet-live-to-vod-clip
+  slug: istreamplanet-live-to-vod-clip
 slug: istreamplanet
 tags:
 - Company

@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'Apollo Server GraphQL API that backs premierlacrosseleague.com and stats.premierlacrosseleague.com (teams, players, games, standings, stats). Undocumented and unadvertised: there is no developer porta'
@@ -44,10 +46,10 @@ apis:
 - description: The league's Shopify-hosted merchandise store exposes a public, unauthenticated product/collection JSON surface, a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp, an MCP endpoi
   name: Premier Lacrosse League Shop Storefront and Agent Commerce API
   slug: premier-lacrosse-league-shop-storefront-and-agent-commerce-api
-artifact_total: 6
+artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/security/premier-lacrosse-league-domain-security.yml
+  href: https://artifacts.apis.io/premier-lacrosse-league/security/premier-lacrosse-league-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/premier-lacrosse-league-domain-security.yml
@@ -84,57 +86,57 @@ common:
   type: GitHubOrganization
   url: https://github.com/Premier-Lacrosse-League
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/well-known/premier-lacrosse-league-well-known.yml
+  href: https://artifacts.apis.io/premier-lacrosse-league/well-known/premier-lacrosse-league-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/premier-lacrosse-league-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/llms/premier-lacrosse-league-llms.txt
+  href: https://artifacts.apis.io/premier-lacrosse-league/llms/premier-lacrosse-league-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/premier-lacrosse-league-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/mcp/premier-lacrosse-league-mcp.yml
+  href: https://artifacts.apis.io/premier-lacrosse-league/mcp/premier-lacrosse-league-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/premier-lacrosse-league-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/premier-lacrosse-league/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/authentication/premier-lacrosse-league-authentication.yml
+  href: https://artifacts.apis.io/premier-lacrosse-league/authentication/premier-lacrosse-league-authentication.yml
   title: ''
   type: Authentication
   url: authentication/premier-lacrosse-league-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/scopes/premier-lacrosse-league-scopes.yml
+  href: https://artifacts.apis.io/premier-lacrosse-league/scopes/premier-lacrosse-league-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/premier-lacrosse-league-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/errors/premier-lacrosse-league-problem-types.yml
+  href: https://artifacts.apis.io/premier-lacrosse-league/errors/premier-lacrosse-league-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/premier-lacrosse-league-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/conventions/premier-lacrosse-league-conventions.yml
+  href: https://artifacts.apis.io/premier-lacrosse-league/conventions/premier-lacrosse-league-conventions.yml
   title: ''
   type: Conventions
   url: conventions/premier-lacrosse-league-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/conformance/premier-lacrosse-league-conformance.yml
+  href: https://artifacts.apis.io/premier-lacrosse-league/conformance/premier-lacrosse-league-conformance.yml
   title: ''
   type: Conformance
   url: conformance/premier-lacrosse-league-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/lifecycle/premier-lacrosse-league-lifecycle.yml
+  href: https://artifacts.apis.io/premier-lacrosse-league/lifecycle/premier-lacrosse-league-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/premier-lacrosse-league-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/data-model/premier-lacrosse-league-data-model.yml
+  href: https://artifacts.apis.io/premier-lacrosse-league/data-model/premier-lacrosse-league-data-model.yml
   title: ''
   type: DataModel
   url: data-model/premier-lacrosse-league-data-model.yml
@@ -155,7 +157,7 @@ overview: 'Premier Lacrosse League is listed with 2 APIs on the [APIs.io](https:
 
 
   Premier Lacrosse League''s developer surface includes engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 1
+random_paper: 5
 scopes:
 - name: Premier Lacrosse League Scopes
   scope_count: 4
@@ -163,7 +165,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode/refreshToken/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: emerging
-  composite: 23.9
+  composite: 23.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -171,20 +173,20 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 20.8
-    discoverability: 75.0
-    operational_transparency: 2.6
+    discoverability: 65.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 23.8
+  previous_composite: 23.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -195,14 +197,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/premier-lacrosse-league/refs/heads/main/screenshots/premier-lacrosse-league-2026-09-02T151931.png
+screenshot: https://apis.io/screenshots/premier-lacrosse-league/premier-lacrosse-league-2026-09-02T151931.png
 security:
 - kind: authentication
   name: Premier Lacrosse League Authentication
@@ -212,6 +214,10 @@ security:
   name: Premier Lacrosse League Domain Security
   slug: premier-lacrosse-league-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Buy Premier Lacrosse League merchandise as an agent
+  slug: premier-lacrosse-league-shop-agent-commerce
 slug: premier-lacrosse-league
 tags:
 - Company

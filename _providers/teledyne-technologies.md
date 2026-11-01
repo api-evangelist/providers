@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-10-17'
+  score: 17.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,11 +69,8 @@ apis:
   description: The Measurements API from Teledyne Technologies — 4 operation(s) for measurements.
   name: Teledyne Technologies Measurements API
   slug: teledyne-technologies-measurements-api
-artifact_total: 25
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Teledyne FLIR Camera REST API
   slug: open-teledyne-flir-camera-rest
@@ -86,17 +85,17 @@ collections:
   slug: open-teledyne-technologies-measurements-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/plans/teledyne-technologies-plans-pricing.yml
+  href: https://artifacts.apis.io/teledyne-technologies/plans/teledyne-technologies-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/teledyne-technologies-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/rate-limits/teledyne-technologies-rate-limits.yml
+  href: https://artifacts.apis.io/teledyne-technologies/rate-limits/teledyne-technologies-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/teledyne-technologies-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/finops/teledyne-technologies-finops.yml
+  href: https://artifacts.apis.io/teledyne-technologies/finops/teledyne-technologies-finops.yml
   title: ''
   type: FinOps
   url: finops/teledyne-technologies-finops.yml
@@ -105,12 +104,12 @@ common:
   type: Blog
   url: https://www.teledyne.com/news/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/agentic-access/teledyne-technologies-agentic-access.yml
+  href: https://artifacts.apis.io/teledyne-technologies/agentic-access/teledyne-technologies-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/teledyne-technologies-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/security/teledyne-technologies-domain-security.yml
+  href: https://artifacts.apis.io/teledyne-technologies/security/teledyne-technologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/teledyne-technologies-domain-security.yml
@@ -215,7 +214,7 @@ press:
 - date: ''
   title: Teledyne to Hold Investor Meetings
   url: https://www.teledyne.com/en-us/news/Pages/teledyne-to-hold-investor-meetings-20250902.aspx
-random_paper: 9
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Teledyne Technologies Rate Limits
@@ -254,7 +253,7 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 13.6
@@ -269,7 +268,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 27.3
+  previous_composite: 28.9
   provenance:
     agentic_access: derived
     contracts:
@@ -283,14 +282,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/screenshots/teledyne-technologies-2026-06-20T195024.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/teledyne-technologies/teledyne-technologies-2026-06-20T195024.png
 security:
 - kind: domain-security
   name: Teledyne Technologies Domain Security

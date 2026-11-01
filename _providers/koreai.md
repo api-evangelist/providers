@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.3
-  scored_at: '2026-10-17'
+  score: 39.6
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The AI for Service REST estate — Automation AI (bot lifecycle, NLP training, analytics, admin, data tables), Search AI (answer generation, content and chunk management, ingestion, connectors), Contact
@@ -60,7 +62,7 @@ apis:
   description: The Workflows API from Kore.ai — 4 operation(s) for workflows.
   name: Kore.ai Workflows API
   slug: koreai-workflows-api
-artifact_total: 12
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Koreai Webhooks
@@ -71,17 +73,17 @@ common:
   type: BlogRSS
   url: https://blog.kore.ai/rss.xml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/overlays/koreai-abl-runtime-conversation-overlay.yaml
+  href: https://artifacts.apis.io/koreai/overlays/koreai-abl-runtime-conversation-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/koreai-abl-runtime-conversation-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/overlays/koreai-abl-runtime-workflows-overlay.yaml
+  href: https://artifacts.apis.io/koreai/overlays/koreai-abl-runtime-workflows-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/koreai-abl-runtime-workflows-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/overlays/koreai-abl-runtime-sessions-overlay.yaml
+  href: https://artifacts.apis.io/koreai/overlays/koreai-abl-runtime-sessions-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/koreai-abl-runtime-sessions-overlay.yaml
@@ -142,12 +144,12 @@ common:
   type: Compliance
   url: https://trust.kore.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/security/koreai-trust-center.yml
+  href: https://artifacts.apis.io/koreai/security/koreai-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/koreai-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/lifecycle/koreai-lifecycle.yml
+  href: https://artifacts.apis.io/koreai/lifecycle/koreai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/koreai-lifecycle.yml
@@ -156,103 +158,111 @@ common:
   type: Deprecation
   url: https://docs.kore.ai/ai-for-service/release-notes/deprecations
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/changelog/koreai-changelog.yml
+  href: https://artifacts.apis.io/koreai/changelog/koreai-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/koreai-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/packages/koreai-packages.yml
+  href: https://artifacts.apis.io/koreai/packages/koreai-packages.yml
   title: ''
   type: Packages
   url: packages/koreai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/packages/koreai-packages.yml
+  href: https://artifacts.apis.io/koreai/packages/koreai-packages.yml
   title: ''
   type: SDKs
   url: packages/koreai-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/mcp/koreai-mcp.yml
+  href: https://artifacts.apis.io/koreai/mcp/koreai-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/koreai-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/mcp/koreai-tool-crosswalk.yml
+  href: https://artifacts.apis.io/koreai/mcp/koreai-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/koreai-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/koreai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/llms/koreai-llms.txt
+  href: https://artifacts.apis.io/koreai/llms/koreai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/koreai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/authentication/koreai-authentication.yml
+  href: https://artifacts.apis.io/koreai/authentication/koreai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/koreai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/conventions/koreai-conventions.yml
+  href: https://artifacts.apis.io/koreai/conventions/koreai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/koreai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/conventions/koreai-conventions.yml
+  href: https://artifacts.apis.io/koreai/conventions/koreai-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/koreai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/errors/koreai-problem-types.yml
+  href: https://artifacts.apis.io/koreai/errors/koreai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/koreai-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/rate-limits/koreai-rate-limits.yml
+  href: https://artifacts.apis.io/koreai/rate-limits/koreai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/koreai-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/plans/koreai-plans-pricing.yml
+  href: https://artifacts.apis.io/koreai/plans/koreai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/koreai-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/conformance/koreai-conformance.yml
+  href: https://artifacts.apis.io/koreai/conformance/koreai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/koreai-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/security/koreai-domain-security.yml
+  href: https://artifacts.apis.io/koreai/security/koreai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/koreai-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/asyncapi/koreai-webhooks.yml
+  href: https://artifacts.apis.io/koreai/asyncapi/koreai-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/koreai-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/components/koreai-components.yml
+  href: https://artifacts.apis.io/koreai/components/koreai-components.yml
   title: ''
   type: Components
   url: components/koreai-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/data-model/koreai-data-model.yml
+  href: https://artifacts.apis.io/koreai/data-model/koreai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/koreai-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/sandbox/koreai-sandbox.yml
+  href: https://artifacts.apis.io/koreai/sandbox/koreai-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/koreai-sandbox.yml
 created: '2026-08-23'
 description: Kore.ai is an enterprise conversational and agentic AI platform used to build, deploy, govern and observe AI agents for customer experience and employee experience work — contact center automation, voice AI, IT and HR service desks, agent assist, quality assurance and no-code agent orchestration. The company ships two API estates. The newer Agent Platform ("Artemis") on agents.kore.ai exposes an ABL Runtime API for chat, streaming, workflow invocation and session usage, an Agent Blueprint Language (ABL) DSL, and a 45-tool stdio MCP server (@koreai/arch-mcp-tools) that turns the platform's own control plane into agent tooling. The longer-established AI for Service estate on platform.kore.ai exposes a large REST surface across Automation AI, Search AI, Contact Center AI, Agent AI, Quality AI and Case Management, authenticated with JWT apps and governed by an assigned API-scope model. Kore.ai is headquartered in Orlando, Florida and is recognized as a Leader in the Gartner Magic
   Quadrant for Conversational AI, the Forrester Wave for Conversational AI Platforms and the Everest Group PEAK Matrix for Agentic AI Products.
+finops:
+- has_sources: true
+  method: derived
+  name: Koreai Finops
+  primary_unit: ''
+  service_category: ''
+  slug: koreai-finops
+  template: true
 image: https://cdn.prod.website-files.com/6717a0dfaf71071a80dfce8b/68c807cb7a0e90c787610ed0_Kore.ai%20OG%20Image.jpg
 layout: provider
 mcp_servers:
@@ -274,29 +284,29 @@ plans:
 - name: Koreai Plans Pricing
   plan_count: 0
   slug: koreai-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Koreai Rate Limits
   slug: koreai-rate-limits
 score:
   band: strong
-  composite: 54.4
+  composite: 57.4
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 53.4
     developer_ergonomics: 83.3
-    discoverability: 76.7
-    operational_transparency: 50.0
+    discoverability: 70.0
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -304,7 +314,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 54.8
+  previous_composite: 57.4
   provenance:
     conformance: first-party
     contracts:
@@ -320,13 +330,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/screenshots/koreai-2026-09-02T150132.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/koreai/koreai-2026-09-02T150132.png
 security:
 - kind: authentication
   name: Koreai Authentication
@@ -340,6 +351,14 @@ security:
   name: Koreai Trust Center
   slug: koreai-trust-center
   summary_line: SOC 2 Type 2, PCI DSS, ISO/IEC 27001:2022, GDPR, CCPA, EU AI Act, DESC Cloud Service Provider
+skill_count: 3
+skills:
+- name: arch-platform
+  slug: koreai-arch-platform
+- name: koreai-invoke-deployed-agent
+  slug: koreai-invoke-deployed-agent
+- name: koreai-invoke-workflow
+  slug: koreai-invoke-workflow
 slug: koreai
 tags:
 - Company

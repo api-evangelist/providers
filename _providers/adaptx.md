@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -48,32 +50,32 @@ common:
   type: Newsroom
   url: https://www.adaptx.com/news
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptx/refs/heads/main/conformance/adaptx-conformance.yml
+  href: https://artifacts.apis.io/adaptx/conformance/adaptx-conformance.yml
   title: ''
   type: Compliance
   url: conformance/adaptx-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/adaptx/refs/heads/main/conformance/adaptx-conformance.yml
+  href: https://artifacts.apis.io/adaptx/conformance/adaptx-conformance.yml
   title: ''
   type: Conformance
   url: conformance/adaptx-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/adaptx/refs/heads/main/llms/adaptx-llms.txt
+  href: https://artifacts.apis.io/adaptx/llms/adaptx-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/adaptx-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/adaptx/refs/heads/main/security/adaptx-domain-security.yml
+  href: https://artifacts.apis.io/adaptx/security/adaptx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/adaptx-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/adaptx/refs/heads/main/plans/adaptx-plans-pricing.yml
+  href: https://artifacts.apis.io/adaptx/plans/adaptx-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/adaptx-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/adaptx/refs/heads/main/rate-limits/adaptx-rate-limits.yml
+  href: https://artifacts.apis.io/adaptx/rate-limits/adaptx-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/adaptx-rate-limits.yml
@@ -109,14 +111,14 @@ plans:
 - name: Adaptx Plans Pricing
   plan_count: 0
   slug: adaptx-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Adaptx Rate Limits
   slug: adaptx-rate-limits
 score:
   band: emerging
-  composite: 14.0
+  composite: 13.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -130,8 +132,8 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 56.3
-    operational_transparency: 2.6
+    discoverability: 50.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -139,7 +141,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 14.0
+  previous_composite: 13.7
   provenance:
     conformance: first-party
   regulatory:
@@ -148,14 +150,14 @@ score:
     regime: Health
     regime_id: health
     score: 20.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/adaptx/refs/heads/main/screenshots/adaptx-2026-10-11T092741.png
+screenshot: https://apis.io/screenshots/adaptx/adaptx-2026-10-11T092741.png
 security:
 - kind: domain-security
   name: Adaptx Domain Security

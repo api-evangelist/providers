@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 17.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 17
@@ -70,11 +72,8 @@ apis:
 - description: The System API from HashiCorp — 107 operation(s) for system.
   name: HashiCorp System API
   slug: hashicorp-system-api
-artifact_total: 21
+artifact_total: 20
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: HashiCorp Vault Auth API
   slug: open-hashicorp-auth-api
@@ -92,22 +91,22 @@ collections:
   slug: open-hashicorp-vault
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/plans/hashicorp-plans-pricing.yml
+  href: https://artifacts.apis.io/hashicorp/plans/hashicorp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/hashicorp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/rate-limits/hashicorp-rate-limits.yml
+  href: https://artifacts.apis.io/hashicorp/rate-limits/hashicorp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hashicorp-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/finops/hashicorp-finops.yml
+  href: https://artifacts.apis.io/hashicorp/finops/hashicorp-finops.yml
   title: ''
   type: FinOps
   url: finops/hashicorp-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/capabilities/hashicorp-capability-edges.yml
+  href: https://artifacts.apis.io/hashicorp/capabilities/hashicorp-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/hashicorp-capability-edges.yml
@@ -120,12 +119,12 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/ibm/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/agentic-access/hashicorp-agentic-access.yml
+  href: https://artifacts.apis.io/hashicorp/agentic-access/hashicorp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hashicorp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/security/hashicorp-domain-security.yml
+  href: https://artifacts.apis.io/hashicorp/security/hashicorp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hashicorp-domain-security.yml
@@ -175,7 +174,7 @@ finops:
 - has_sources: true
   method: generated
   name: Hashicorp Finops
-  primary_unit: ''
+  primary_unit: managed-resource
   service_category: Infrastructure / DevOps Platform
   slug: hashicorp-finops
   template: false
@@ -197,30 +196,30 @@ plans:
 - name: Hashicorp Plans Pricing
   plan_count: 6
   slug: hashicorp-plans-pricing
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Hashicorp Rate Limits
   slug: hashicorp-rate-limits
 score:
-  band: emerging
-  composite: 26.0
+  band: thin
+  composite: 31.5
   coverage:
     artifact_dirs: 16
-    catalog_earned: 33.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 82.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 18.4
+    access_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 32.7
-    developer_ergonomics: 36.9
+    contract_quality: 32.5
+    developer_ergonomics: 38.1
     discoverability: 48.2
-    operational_transparency: 26.3
-  previous_composite: 27.5
+    operational_transparency: 28.9
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     contracts:
@@ -233,14 +232,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 13.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/screenshots/hashicorp-2026-06-20T182530.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hashicorp/hashicorp-2026-06-20T182530.png
 security:
 - kind: domain-security
   name: Hashicorp Domain Security

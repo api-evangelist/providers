@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,11 +71,8 @@ apis:
   description: Common Vulnerabilities and Exposures data
   name: Red Hat Enterprise Linux CV Es API
   slug: rhel-cves-api
-artifact_total: 37
+artifact_total: 36
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Red Hat Security Data Advisories API
   slug: open-rhel-advisories-api
@@ -96,23 +95,27 @@ collections:
   name: Red Hat Security Data Advisories Systems API
   slug: open-rhel-systems-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/red-hat-enterprise-linux/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/plans/rhel-plans-pricing.yml
+  href: https://artifacts.apis.io/rhel/plans/rhel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rhel-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/rate-limits/rhel-rate-limits.yml
+  href: https://artifacts.apis.io/rhel/rate-limits/rhel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rhel-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/finops/rhel-finops.yml
+  href: https://artifacts.apis.io/rhel/finops/rhel-finops.yml
   title: ''
   type: FinOps
   url: finops/rhel-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/capabilities/rhel-capability-edges.yml
+  href: https://artifacts.apis.io/rhel/capabilities/rhel-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rhel-capability-edges.yml
@@ -129,32 +132,32 @@ common:
   type: License
   url: https://github.com/RedHatOfficial/rhsecapi/blob/master/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/agentic-access/rhel-agentic-access.yml
+  href: https://artifacts.apis.io/rhel/agentic-access/rhel-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rhel-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/security/rhel-trust-center.yml
+  href: https://artifacts.apis.io/rhel/security/rhel-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/rhel-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/security/rhel-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/rhel/security/rhel-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rhel-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/security/rhel-domain-security.yml
+  href: https://artifacts.apis.io/rhel/security/rhel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rhel-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/authentication/rhel-authentication.yml
+  href: https://artifacts.apis.io/rhel/authentication/rhel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rhel-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/scopes/rhel-scopes.yml
+  href: https://artifacts.apis.io/rhel/scopes/rhel-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/rhel-scopes.yml
@@ -296,12 +299,12 @@ overview: 'Red Hat Enterprise Linux publishes 5 API contracts indexed on the [AP
   The Red Hat Enterprise Linux catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Red Hat Enterprise Linux''s developer surface includes authentication, engineering blog, developer portal, documentation, support, and 26 more developer resources.'
+  Red Hat Enterprise Linux''s developer surface includes authentication, engineering blog, developer portal, documentation, support, and 27 more developer resources.'
 plans:
 - name: Rhel Plans Pricing
   plan_count: 7
   slug: rhel-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Rhel Rate Limits
@@ -336,7 +339,7 @@ scopes:
   summary_line: 1 scope · password
 score:
   band: developing
-  composite: 43.3
+  composite: 46.5
   coverage:
     artifact_dirs: 19
     catalog_earned: 57.8
@@ -344,18 +347,15 @@ score:
     catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.3
   facets:
     access_clarity: 36.8
     contract_governance: 23.5
     contract_quality: 50.1
-    developer_ergonomics: 38.1
+    developer_ergonomics: 39.3
     discoverability: 66.1
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 44.7
+    operational_transparency: 36.8
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     contracts:
@@ -369,14 +369,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/screenshots/rhel-2026-06-20T193105.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rhel/rhel-2026-06-20T193105.png
 security:
 - kind: authentication
   name: Rhel Authentication

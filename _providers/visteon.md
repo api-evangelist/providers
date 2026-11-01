@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -78,11 +80,8 @@ apis:
   description: Vehicle data including speed, fuel, HVAC, and door status
   name: Visteon Vehicle API
   slug: visteon-vehicle-api
-artifact_total: 29
+artifact_total: 28
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Visteon Phoenix Audio API
   slug: open-visteon-audio-api
@@ -106,32 +105,32 @@ collections:
   slug: open-visteon-vehicle-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/plans/visteon-plans-pricing.yml
+  href: https://artifacts.apis.io/visteon/plans/visteon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/visteon-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/rate-limits/visteon-rate-limits.yml
+  href: https://artifacts.apis.io/visteon/rate-limits/visteon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/visteon-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/finops/visteon-finops.yml
+  href: https://artifacts.apis.io/visteon/finops/visteon-finops.yml
   title: ''
   type: FinOps
   url: finops/visteon-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/agentic-access/visteon-agentic-access.yml
+  href: https://artifacts.apis.io/visteon/agentic-access/visteon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/visteon-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/security/visteon-domain-security.yml
+  href: https://artifacts.apis.io/visteon/security/visteon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/visteon-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/authentication/visteon-authentication.yml
+  href: https://artifacts.apis.io/visteon/authentication/visteon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/visteon-authentication.yml
@@ -152,32 +151,32 @@ common:
   type: DeveloperPortal
   url: https://developer.visteon.com/phoenix/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/openapi/_original/visteon-phoenix-openapi.yml
+  href: https://artifacts.apis.io/visteon/openapi/_original/visteon-phoenix-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/visteon-phoenix-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/json-schema/visteon-vehicle-data-schema.json
+  href: https://artifacts.apis.io/visteon/json-schema/visteon-vehicle-data-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/visteon-vehicle-data-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/json-schema/visteon-audio-schema.json
+  href: https://artifacts.apis.io/visteon/json-schema/visteon-audio-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/visteon-audio-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/json-ld/visteon-context.jsonld
+  href: https://artifacts.apis.io/visteon/json-ld/visteon-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/visteon-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/vocabulary/visteon-vocabulary.yml
+  href: https://artifacts.apis.io/visteon/vocabulary/visteon-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/visteon-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/visteon/refs/heads/main/rules/visteon-rules.yml
+  href: https://artifacts.apis.io/visteon/rules/visteon-rules.yml
   title: ''
   type: SpectralRules
   url: rules/visteon-rules.yml
@@ -247,7 +246,7 @@ press:
 - date: ''
   title: Technology
   url: https://www.visteon.com/products-technology/technology/default.aspx
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Visteon Rate Limits
@@ -278,7 +277,7 @@ rules:
   slug: visteon-rules
 score:
   band: thin
-  composite: 32.4
+  composite: 36.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 58.0
@@ -286,15 +285,15 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 56.1
-    developer_ergonomics: 34.5
+    developer_ergonomics: 50.0
     discoverability: 66.1
-    operational_transparency: 7.9
-  previous_composite: 33.9
+    operational_transparency: 10.5
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     contracts:
@@ -308,12 +307,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Visteon Authentication

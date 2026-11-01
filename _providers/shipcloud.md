@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.9
-  scored_at: '2026-10-17'
+  score: 41.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 33
   slug: shipcloud-agentic-access
   summary_line: 33 operations · 12 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.shipcloud.io/v1
   baseurl_source: declared
@@ -110,133 +112,138 @@ asyncapis:
   name: Shipcloud Webhooks
   slug: shipcloud-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/shipcloud/capabilities/shipcloud-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shipcloud-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/agentic-access/shipcloud-agentic-access.yml
+  href: https://artifacts.apis.io/shipcloud/agentic-access/shipcloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/shipcloud-agentic-access.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/rate-limits/shipcloud-rate-limits.yml
+  href: https://artifacts.apis.io/shipcloud/rate-limits/shipcloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/shipcloud-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/rules/shipcloud-shipcloud-developer-portal-spectral-rules.yml
+  href: https://artifacts.apis.io/shipcloud/rules/shipcloud-shipcloud-developer-portal-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/shipcloud-shipcloud-developer-portal-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/rules/shipcloud-rules.yml
+  href: https://artifacts.apis.io/shipcloud/rules/shipcloud-rules.yml
   title: ''
   type: Spectral
   url: rules/shipcloud-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/json-ld/shipcloud-context.jsonld
+  href: https://artifacts.apis.io/shipcloud/json-ld/shipcloud-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/shipcloud-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/vocabulary/shipcloud-vocabulary.yml
+  href: https://artifacts.apis.io/shipcloud/vocabulary/shipcloud-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/shipcloud-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/asyncapi/shipcloud-webhooks.yml
+  href: https://artifacts.apis.io/shipcloud/asyncapi/shipcloud-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/shipcloud-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/data-model/shipcloud-data-model.yml
+  href: https://artifacts.apis.io/shipcloud/data-model/shipcloud-data-model.yml
   title: ''
   type: DataModel
   url: data-model/shipcloud-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/changelog/shipcloud-changelog.yml
+  href: https://artifacts.apis.io/shipcloud/changelog/shipcloud-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/shipcloud-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/conventions/shipcloud-conventions.yml
+  href: https://artifacts.apis.io/shipcloud/conventions/shipcloud-conventions.yml
   title: ''
   type: Conventions
   url: conventions/shipcloud-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/sandbox/shipcloud-sandbox.yml
+  href: https://artifacts.apis.io/shipcloud/sandbox/shipcloud-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/shipcloud-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/lifecycle/shipcloud-lifecycle.yml
+  href: https://artifacts.apis.io/shipcloud/lifecycle/shipcloud-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/shipcloud-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/lifecycle/shipcloud-lifecycle.yml
+  href: https://artifacts.apis.io/shipcloud/lifecycle/shipcloud-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/shipcloud-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/errors/shipcloud-problem-types.yml
+  href: https://artifacts.apis.io/shipcloud/errors/shipcloud-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/shipcloud-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/conformance/shipcloud-conformance.yml
+  href: https://artifacts.apis.io/shipcloud/conformance/shipcloud-conformance.yml
   title: ''
   type: Conformance
   url: conformance/shipcloud-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/overlays/shipcloud-api-overlay.yaml
+  href: https://artifacts.apis.io/shipcloud/overlays/shipcloud-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/shipcloud-api-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/llms/shipcloud-llms.txt
+  href: https://artifacts.apis.io/shipcloud/llms/shipcloud-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/shipcloud-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/well-known/shipcloud-support-security.txt
+  href: https://artifacts.apis.io/shipcloud/well-known/shipcloud-support-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/shipcloud-support-security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/well-known/shipcloud-status-security.txt
+  href: https://artifacts.apis.io/shipcloud/well-known/shipcloud-status-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/shipcloud-status-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/well-known/shipcloud-well-known.yml
+  href: https://artifacts.apis.io/shipcloud/well-known/shipcloud-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/shipcloud-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/hosts/shipcloud-hosts.yml
+  href: https://artifacts.apis.io/shipcloud/hosts/shipcloud-hosts.yml
   title: ''
   type: Hosts
   url: hosts/shipcloud-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/vendors/shipcloud-vendors.yml
+  href: https://artifacts.apis.io/shipcloud/vendors/shipcloud-vendors.yml
   title: ''
   type: Vendors
   url: vendors/shipcloud-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/packages/shipcloud-packages.yml
+  href: https://artifacts.apis.io/shipcloud/packages/shipcloud-packages.yml
   title: ''
   type: SDKs
   url: packages/shipcloud-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/packages/shipcloud-packages.yml
+  href: https://artifacts.apis.io/shipcloud/packages/shipcloud-packages.yml
   title: ''
   type: Packages
   url: packages/shipcloud-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/authentication/shipcloud-authentication.yml
+  href: https://artifacts.apis.io/shipcloud/authentication/shipcloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/shipcloud-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/security/shipcloud-domain-security.yml
+  href: https://artifacts.apis.io/shipcloud/security/shipcloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/shipcloud-domain-security.yml
@@ -330,8 +337,8 @@ overview: 'shipcloud publishes 14 API contracts indexed on the [APIs.io](https:/
   The shipcloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  shipcloud''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, support, and 32 more developer resources.'
-random_paper: 3
+  shipcloud''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, support, and 33 more developer resources.'
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Shipcloud Rate Limits
@@ -363,28 +370,28 @@ rules:
   slug: shipcloud-shipcloud-developer-portal-spectral-rules
 score:
   band: developing
-  composite: 52.5
+  composite: 53.6
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 70.8
     catalog_earned_first_party: 8.0
     catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     contract_governance: 22.0
-    contract_quality: 72.6
+    contract_quality: 71.4
     developer_ergonomics: 69.0
-    discoverability: 73.2
-    operational_transparency: 73.7
+    discoverability: 66.1
+    operational_transparency: 84.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - germany
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 52.8
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -400,13 +407,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 14.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/shipcloud/refs/heads/main/screenshots/shipcloud-2026-10-11T125804.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/shipcloud/shipcloud-2026-10-11T125804.png
 security:
 - kind: authentication
   name: Shipcloud Authentication

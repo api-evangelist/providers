@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Computational access to Causaly's biomedical knowledge graph — 500 million relationships across biomedical concepts (targets, diseases, biomarkers, organ systems) with directional cause-and-effect rel
@@ -79,17 +81,17 @@ common:
   type: TrustCenter
   url: https://trust.causaly.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/causaly/refs/heads/main/authentication/causaly-authentication.yml
+  href: https://artifacts.apis.io/causaly/authentication/causaly-authentication.yml
   title: ''
   type: Authentication
   url: authentication/causaly-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/causaly/refs/heads/main/security/causaly-domain-security.yml
+  href: https://artifacts.apis.io/causaly/security/causaly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/causaly-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/causaly/refs/heads/main/llms/causaly-llms.txt
+  href: https://artifacts.apis.io/causaly/llms/causaly-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/causaly-llms.txt
@@ -105,10 +107,10 @@ overview: 'Causaly is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Causaly''s developer surface includes engineering blog, support, signup flow, authentication, and 8 more developer resources.'
-random_paper: 6
+random_paper: 10
 score:
   band: emerging
-  composite: 19.9
+  composite: 19.6
   coverage:
     artifact_dirs: 7
     catalog_earned: 32.0
@@ -122,23 +124,23 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 64.3
-    operational_transparency: 2.6
-  previous_composite: 19.9
+    discoverability: 57.1
+    operational_transparency: 5.3
+  previous_composite: 19.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 18.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/causaly/refs/heads/main/screenshots/causaly-2026-07-25T204815.png
+screenshot: https://apis.io/screenshots/causaly/causaly-2026-07-25T204815.png
 security:
 - kind: authentication
   name: Causaly Authentication

@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The KFC China Super App is Yum China's digital ordering and loyalty platform providing members with digital ordering, personalized recommendations, loyalty points, and an AI ordering assistant. The pl
@@ -45,7 +47,7 @@ apis:
 artifact_total: 20
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yum-china/refs/heads/main/security/yum-china-domain-security.yml
+  href: https://artifacts.apis.io/yum-china/security/yum-china-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yum-china-domain-security.yml
@@ -74,27 +76,27 @@ common:
   type: PrivacyPolicy
   url: https://www.yumchina.com/en/privacy-policy
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yum-china/refs/heads/main/plans/yum-china-plans-pricing.yml
+  href: https://artifacts.apis.io/yum-china/plans/yum-china-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/yum-china-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yum-china/refs/heads/main/rate-limits/yum-china-rate-limits.yml
+  href: https://artifacts.apis.io/yum-china/rate-limits/yum-china-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/yum-china-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yum-china/refs/heads/main/finops/yum-china-finops.yml
+  href: https://artifacts.apis.io/yum-china/finops/yum-china-finops.yml
   title: ''
   type: FinOps
   url: finops/yum-china-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yum-china/refs/heads/main/vocabulary/yum-china-vocabulary.yml
+  href: https://artifacts.apis.io/yum-china/vocabulary/yum-china-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/yum-china-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yum-china/refs/heads/main/json-ld/yum-china-context.jsonld
+  href: https://artifacts.apis.io/yum-china/json-ld/yum-china-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/yum-china-context.jsonld
@@ -114,7 +116,7 @@ finops:
 - has_sources: false
   method: generated
   name: Yum China Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: yum-china-finops
   template: true
@@ -140,14 +142,14 @@ plans:
 - name: Yum China Plans Pricing
   plan_count: 3
   slug: yum-china-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Yum China Rate Limits
   slug: yum-china-rate-limits
 score:
   band: emerging
-  composite: 14.2
+  composite: 17.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 58.5
@@ -155,14 +157,14 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 14.7
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 66.1
-    operational_transparency: 10.5
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -170,21 +172,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 15.7
+  previous_composite: 17.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 14.7
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/yum-china/refs/heads/main/screenshots/yum-china-2026-06-20T201757.png
+screenshot: https://apis.io/screenshots/yum-china/yum-china-2026-06-20T201757.png
 security:
 - kind: domain-security
   name: Yum China Domain Security

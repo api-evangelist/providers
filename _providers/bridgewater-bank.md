@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,12 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bridgewater-bank/refs/heads/main/security/bridgewater-bank-domain-security.yml
+  href: https://artifacts.apis.io/bridgewater-bank/security/bridgewater-bank-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bridgewater-bank-domain-security.yml
@@ -79,7 +81,7 @@ overview: 'Bridgewater Bank is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Bridgewater Bank''s developer surface includes developer portal, support, and 5 more developer resources.'
-random_paper: 19
+random_paper: 17
 score:
   band: minimal
   composite: 10.5
@@ -112,14 +114,14 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 11.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bridgewater-bank/refs/heads/main/screenshots/bridgewater-bank-2026-07-25T203817.png
+screenshot: https://apis.io/screenshots/bridgewater-bank/bridgewater-bank-2026-07-25T203817.png
 security:
 - kind: domain-security
   name: Bridgewater Bank Domain Security

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-10-17'
+  score: 35.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -61,15 +63,12 @@ apis:
   description: Lead create, get, and search
   name: LeadSquared Leads API
   slug: leadsquared-leads-api
-artifact_total: 16
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Leadsquared Webhooks
   slug: leadsquared-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LeadSquared REST Activities API
   slug: open-leadsquared-activities-api
@@ -81,22 +80,22 @@ collections:
   slug: open-leadsquared
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/capabilities/leadsquared-capability-edges.yml
+  href: https://artifacts.apis.io/leadsquared/capabilities/leadsquared-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/leadsquared-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/agentic-access/leadsquared-agentic-access.yml
+  href: https://artifacts.apis.io/leadsquared/agentic-access/leadsquared-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/leadsquared-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/security/leadsquared-domain-security.yml
+  href: https://artifacts.apis.io/leadsquared/security/leadsquared-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/leadsquared-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/authentication/leadsquared-authentication.yml
+  href: https://artifacts.apis.io/leadsquared/authentication/leadsquared-authentication.yml
   title: ''
   type: Authentication
   url: authentication/leadsquared-authentication.yml
@@ -161,67 +160,67 @@ common:
   type: PrivacyPolicy
   url: https://www.leadsquared.com/privacy-policy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/packages/leadsquared-packages.yml
+  href: https://artifacts.apis.io/leadsquared/packages/leadsquared-packages.yml
   title: ''
   type: Packages
   url: packages/leadsquared-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/packages/leadsquared-packages.yml
+  href: https://artifacts.apis.io/leadsquared/packages/leadsquared-packages.yml
   title: ''
   type: SDKs
   url: packages/leadsquared-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/cli/leadsquared-cli.yml
+  href: https://artifacts.apis.io/leadsquared/cli/leadsquared-cli.yml
   title: ''
   type: CLI
   url: cli/leadsquared-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/llms/leadsquared-llms.txt
+  href: https://artifacts.apis.io/leadsquared/llms/leadsquared-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/leadsquared-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/mcp/leadsquared-mcp.yml
+  href: https://artifacts.apis.io/leadsquared/mcp/leadsquared-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/leadsquared-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/leadsquared/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/conventions/leadsquared-conventions.yml
+  href: https://artifacts.apis.io/leadsquared/conventions/leadsquared-conventions.yml
   title: ''
   type: Conventions
   url: conventions/leadsquared-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/errors/leadsquared-problem-types.yml
+  href: https://artifacts.apis.io/leadsquared/errors/leadsquared-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/leadsquared-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/rate-limits/leadsquared-rate-limits.yml
+  href: https://artifacts.apis.io/leadsquared/rate-limits/leadsquared-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/leadsquared-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/plans/leadsquared-plans-pricing.yml
+  href: https://artifacts.apis.io/leadsquared/plans/leadsquared-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/leadsquared-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/data-model/leadsquared-data-model.yml
+  href: https://artifacts.apis.io/leadsquared/data-model/leadsquared-data-model.yml
   title: ''
   type: DataModel
   url: data-model/leadsquared-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/asyncapi/leadsquared-webhooks.yml
+  href: https://artifacts.apis.io/leadsquared/asyncapi/leadsquared-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/leadsquared-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/lifecycle/leadsquared-lifecycle.yml
+  href: https://artifacts.apis.io/leadsquared/lifecycle/leadsquared-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/leadsquared-lifecycle.yml
@@ -230,12 +229,12 @@ common:
   type: StatusPage
   url: https://status.leadsquared.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/changelog/leadsquared-changelog.yml
+  href: https://artifacts.apis.io/leadsquared/changelog/leadsquared-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/leadsquared-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/conformance/leadsquared-conformance.yml
+  href: https://artifacts.apis.io/leadsquared/conformance/leadsquared-conformance.yml
   title: ''
   type: Conformance
   url: conformance/leadsquared-conformance.yml
@@ -244,12 +243,12 @@ common:
   type: Compliance
   url: https://www.leadsquared.com/security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/security/leadsquared-trust-center.yml
+  href: https://artifacts.apis.io/leadsquared/security/leadsquared-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/leadsquared-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/security/leadsquared-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/leadsquared/security/leadsquared-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/leadsquared-vulnerability-disclosure.yml
@@ -259,6 +258,14 @@ common:
   url: https://www.leadsquared.com/security/
 created: '2026-05-11'
 description: LeadSquared is a marketing automation and CRM platform that helps businesses capture, manage, nurture, and convert leads across sales, marketing, and service workflows. It offers Sales CRM, Service CRM, marketing automation, field force automation, and a no-code/low-code platform for building industry-specific customer experiences. The LeadSquared REST API provides access to core platform resources like leads, opportunities, activities, tasks, and users using API key authentication.
+finops:
+- has_sources: true
+  method: derived
+  name: Leadsquared Finops
+  primary_unit: account
+  service_category: ''
+  slug: leadsquared-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leadsquared.png
 layout: provider
 modified: '2026-08-13'
@@ -274,32 +281,32 @@ overview: 'LeadSquared publishes 4 API contracts indexed on the [APIs.io](https:
   LeadSquared''s developer surface includes authentication, documentation, pricing, signup flow, API reference, getting-started guide, support, and 32 more developer resources.'
 plans:
 - name: Leadsquared Plans Pricing
-  plan_count: 4
+  plan_count: 2
   slug: leadsquared-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 10
   name: Leadsquared Rate Limits
   slug: leadsquared-rate-limits
 score:
-  band: strong
-  composite: 54.4
+  band: exemplar
+  composite: 67.6
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 61.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    artifact_dirs: 28
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: -0.6
   facets:
-    access_clarity: 46.1
+    access_clarity: 89.5
     contract_governance: 4.5
     contract_quality: 50.7
-    developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 73.7
-  previous_composite: 54.3
+    developer_ergonomics: 78.0
+    discoverability: 66.1
+    operational_transparency: 86.8
+  previous_composite: 68.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -319,14 +326,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 35.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/screenshots/leadsquared-2026-06-20T184350.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/leadsquared/leadsquared-2026-06-20T184350.png
 security:
 - kind: authentication
   name: Leadsquared Authentication
@@ -344,6 +352,12 @@ security:
   name: Leadsquared Trust Center
   slug: leadsquared-trust-center
   summary_line: ISO 27001:2022, GDPR
+skill_count: 2
+skills:
+- name: Capture a lead and log its first activity in LeadSquared
+  slug: leadsquared-capture-and-log-lead
+- name: Look up a LeadSquared lead by identifier or search term
+  slug: leadsquared-lookup-lead
 slug: leadsquared
 tags:
 - Marketing Automation

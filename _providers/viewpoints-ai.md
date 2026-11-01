@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.9
-  scored_at: '2026-10-17'
+  score: 24.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -59,11 +61,8 @@ apis:
   description: Manage recurring study schedules
   name: Viewpoints AI Study Schedules API
   slug: viewpoints-ai-study-schedules-api
-artifact_total: 10
+artifact_total: 11
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Viewpoints Study Studies API
   slug: open-viewpoints-ai-studies-api
@@ -107,62 +106,62 @@ common:
   type: Compliance
   url: https://viewpoints.ai/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/llms/viewpoints-ai-llms.txt
+  href: https://artifacts.apis.io/viewpoints-ai/llms/viewpoints-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/viewpoints-ai-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/authentication/viewpoints-ai-authentication.yml
+  href: https://artifacts.apis.io/viewpoints-ai/authentication/viewpoints-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/viewpoints-ai-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/agentic-access/viewpoints-ai-agentic-access.yml
+  href: https://artifacts.apis.io/viewpoints-ai/agentic-access/viewpoints-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/viewpoints-ai-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/errors/viewpoints-ai-problem-types.yml
+  href: https://artifacts.apis.io/viewpoints-ai/errors/viewpoints-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/viewpoints-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/conventions/viewpoints-ai-conventions.yml
+  href: https://artifacts.apis.io/viewpoints-ai/conventions/viewpoints-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/viewpoints-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/lifecycle/viewpoints-ai-lifecycle.yml
+  href: https://artifacts.apis.io/viewpoints-ai/lifecycle/viewpoints-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/viewpoints-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/data-model/viewpoints-ai-data-model.yml
+  href: https://artifacts.apis.io/viewpoints-ai/data-model/viewpoints-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/viewpoints-ai-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/mcp/viewpoints-ai-mcp.yml
+  href: https://artifacts.apis.io/viewpoints-ai/mcp/viewpoints-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/viewpoints-ai-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/overlays/viewpoints-ai-study-overlay.yaml
+  href: https://artifacts.apis.io/viewpoints-ai/overlays/viewpoints-ai-study-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/viewpoints-ai-study-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/conformance/viewpoints-ai-conformance.yml
+  href: https://artifacts.apis.io/viewpoints-ai/conformance/viewpoints-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/viewpoints-ai-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/viewpoints-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/security/viewpoints-ai-domain-security.yml
+  href: https://artifacts.apis.io/viewpoints-ai/security/viewpoints-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/viewpoints-ai-domain-security.yml
@@ -182,10 +181,10 @@ overview: 'Viewpoints AI publishes 3 API contracts indexed on the [APIs.io](http
 
 
   Viewpoints AI''s developer surface includes engineering blog, documentation, API reference, authentication, and 17 more developer resources.'
-random_paper: 17
+random_paper: 15
 score:
-  band: developing
-  composite: 40.8
+  band: thin
+  composite: 38.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -193,15 +192,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 45.3
     developer_ergonomics: 42.3
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 40.3
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -218,13 +217,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/screenshots/viewpoints-ai-2026-09-02T165900.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/viewpoints-ai/viewpoints-ai-2026-09-02T165900.png
 security:
 - kind: authentication
   name: Viewpoints Ai Authentication
@@ -234,6 +234,12 @@ security:
   name: Viewpoints Ai Domain Security
   slug: viewpoints-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Run a Viewpoints study and retrieve results
+  slug: viewpoints-ai-run-study
+- name: Schedule a recurring Viewpoints study
+  slug: viewpoints-ai-schedule-recurring-study
 slug: viewpoints-ai
 tags:
 - Company

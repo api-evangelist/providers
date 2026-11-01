@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -95,27 +97,27 @@ common:
   type: Compliance
   url: https://carbyne.com/cloud-advantage/cloud-security/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carbyne/refs/heads/main/security/carbyne-trust-center.yml
+  href: https://artifacts.apis.io/carbyne/security/carbyne-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/carbyne-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carbyne/refs/heads/main/conformance/carbyne-conformance.yml
+  href: https://artifacts.apis.io/carbyne/conformance/carbyne-conformance.yml
   title: ''
   type: Conformance
   url: conformance/carbyne-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carbyne/refs/heads/main/authentication/carbyne-authentication.yml
+  href: https://artifacts.apis.io/carbyne/authentication/carbyne-authentication.yml
   title: ''
   type: Authentication
   url: authentication/carbyne-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carbyne/refs/heads/main/security/carbyne-domain-security.yml
+  href: https://artifacts.apis.io/carbyne/security/carbyne-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carbyne-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carbyne/refs/heads/main/lifecycle/carbyne-lifecycle.yml
+  href: https://artifacts.apis.io/carbyne/lifecycle/carbyne-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/carbyne-lifecycle.yml
@@ -124,12 +126,12 @@ common:
   type: SLA
   url: https://carbyne.com/wp-content/uploads/2026/05/External-Axon911-Support-Terms-Service-Level-Agreement-Support-Terms-May-2026-v1.00-US-LATAM-EN.pdf
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/carbyne/refs/heads/main/packages/carbyne-packages.yml
+  href: https://artifacts.apis.io/carbyne/packages/carbyne-packages.yml
   title: ''
   type: Packages
   url: packages/carbyne-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/carbyne/refs/heads/main/llms/carbyne-llms.txt
+  href: https://artifacts.apis.io/carbyne/llms/carbyne-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/carbyne-llms.txt
@@ -165,10 +167,10 @@ overview: 'Carbyne is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Carbyne''s developer surface includes engineering blog, support, legal docs, authentication, and 23 more developer resources.'
-random_paper: 14
+random_paper: 20
 score:
   band: emerging
-  composite: 19.8
+  composite: 19.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -182,9 +184,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 56.3
-    operational_transparency: 2.6
-  previous_composite: 19.8
+    discoverability: 50.0
+    operational_transparency: 5.3
+  previous_composite: 19.5
   provenance:
     conformance: first-party
   regulatory:
@@ -193,14 +195,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/carbyne/refs/heads/main/screenshots/carbyne-2026-08-07T162951.png
+screenshot: https://apis.io/screenshots/carbyne/carbyne-2026-08-07T162951.png
 security:
 - kind: authentication
   name: Carbyne Authentication

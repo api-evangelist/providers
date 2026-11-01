@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 32.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -82,15 +84,12 @@ arazzos:
 - description: Authenticate and pull attributed conversions for a date range.
   name: Involve Asia Sync Conversions
   slug: involve-asia-sync-conversions-workflow
-artifact_total: 21
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Involve Asia Webhooks
   slug: involve-asia-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Involve Asia Publisher Auth API
   slug: open-involve-asia-auth-api
@@ -111,7 +110,7 @@ collections:
   slug: open-involve-asia-shopee-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/plans/involve-asia-plans-pricing.yml
+  href: https://artifacts.apis.io/involve-asia/plans/involve-asia-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/involve-asia-plans-pricing.yml
@@ -124,7 +123,7 @@ common:
   type: BlogRSS
   url: https://involve.asia/feed/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/capabilities/involve-asia-capability-edges.yml
+  href: https://artifacts.apis.io/involve-asia/capabilities/involve-asia-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/involve-asia-capability-edges.yml
@@ -177,102 +176,110 @@ common:
   type: Postman
   url: https://api.involve.asia/docs/collection.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/openapi/_original/involve-asia-publisher-openapi.yml
+  href: https://artifacts.apis.io/involve-asia/openapi/_original/involve-asia-publisher-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/involve-asia-publisher-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/overlays/involve-asia-publisher-overlay.yaml
+  href: https://artifacts.apis.io/involve-asia/overlays/involve-asia-publisher-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/involve-asia-publisher-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/authentication/involve-asia-authentication.yml
+  href: https://artifacts.apis.io/involve-asia/authentication/involve-asia-authentication.yml
   title: ''
   type: Authentication
   url: authentication/involve-asia-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/conventions/involve-asia-conventions.yml
+  href: https://artifacts.apis.io/involve-asia/conventions/involve-asia-conventions.yml
   title: ''
   type: Conventions
   url: conventions/involve-asia-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/errors/involve-asia-problem-types.yml
+  href: https://artifacts.apis.io/involve-asia/errors/involve-asia-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/involve-asia-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/lifecycle/involve-asia-lifecycle.yml
+  href: https://artifacts.apis.io/involve-asia/lifecycle/involve-asia-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/involve-asia-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/changelog/involve-asia-changelog.yml
+  href: https://artifacts.apis.io/involve-asia/changelog/involve-asia-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/involve-asia-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/conformance/involve-asia-conformance.yml
+  href: https://artifacts.apis.io/involve-asia/conformance/involve-asia-conformance.yml
   title: ''
   type: Conformance
   url: conformance/involve-asia-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/data-model/involve-asia-data-model.yml
+  href: https://artifacts.apis.io/involve-asia/data-model/involve-asia-data-model.yml
   title: ''
   type: DataModel
   url: data-model/involve-asia-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/security/involve-asia-domain-security.yml
+  href: https://artifacts.apis.io/involve-asia/security/involve-asia-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/involve-asia-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/agentic-access/involve-asia-agentic-access.yml
+  href: https://artifacts.apis.io/involve-asia/agentic-access/involve-asia-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/involve-asia-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/mcp/involve-asia-mcp.yml
+  href: https://artifacts.apis.io/involve-asia/mcp/involve-asia-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/involve-asia-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/llms/involve-asia-llms.txt
+  href: https://artifacts.apis.io/involve-asia/llms/involve-asia-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/involve-asia-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/involve-asia/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/arazzo/involve-asia-generate-deeplink-workflow.yml
+  href: https://artifacts.apis.io/involve-asia/arazzo/involve-asia-generate-deeplink-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/involve-asia-generate-deeplink-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/arazzo/involve-asia-sync-conversions-workflow.yml
+  href: https://artifacts.apis.io/involve-asia/arazzo/involve-asia-sync-conversions-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/involve-asia-sync-conversions-workflow.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/rate-limits/involve-asia-rate-limits.yml
+  href: https://artifacts.apis.io/involve-asia/rate-limits/involve-asia-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/involve-asia-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/asyncapi/involve-asia-webhooks.yml
+  href: https://artifacts.apis.io/involve-asia/asyncapi/involve-asia-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/involve-asia-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/packages/involve-asia-packages.yml
+  href: https://artifacts.apis.io/involve-asia/packages/involve-asia-packages.yml
   title: ''
   type: Packages
   url: packages/involve-asia-packages.yml
 created: '2026-07-17'
 description: 'Involve Asia (Involve Asia Technologies Sdn. Bhd.) is a leading affiliate and partnership-marketing network across Southeast Asia and Taiwan, connecting advertisers with publishers and creators to grow revenue through performance marketing. Its public Publisher API lets publishers programmatically pull conversion (commission) data, browse offers and campaigns, generate trackable affiliate deeplinks, and access Shopee Commission Xtra boosted-payout brands — without logging into the dashboard. The API is REST over HTTPS with bearer-JWT auth (2-hour token TTL), form-urlencoded requests, page-number pagination, a 60 requests/minute throttle, and a 1,000-link rolling 30-day deeplink cap. Involve Asia publishes first-party machine-readable artifacts: an OpenAPI 3.1 spec, a Claude Skill, an llms.txt, and a Postman collection.'
+finops:
+- has_sources: true
+  method: derived
+  name: Involve Asia Finops
+  primary_unit: ''
+  service_category: ''
+  slug: involve-asia-finops
+  template: true
 image: https://api.involve.asia/docs/assets/f4c704c9-e5f3-4fea-8ccd-89209c3f2451.svg
 layout: provider
 modified: '2026-10-06'
@@ -290,7 +297,7 @@ plans:
 - name: Involve Asia Plans Pricing
   plan_count: 0
   slug: involve-asia-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Involve Asia Rate Limits
@@ -299,26 +306,26 @@ score:
   band: developing
   composite: 49.1
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 56.4
     developer_ergonomics: 69.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 49.0
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -335,13 +342,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/screenshots/involve-asia-2026-07-25T222801.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/involve-asia/involve-asia-2026-07-25T222801.png
 security:
 - kind: authentication
   name: Involve Asia Authentication
@@ -351,6 +359,14 @@ security:
   name: Involve Asia Domain Security
   slug: involve-asia-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: involve-asia-generate-deeplinks
+  slug: involve-asia-generate-deeplinks
+- name: involve-asia-publisher-api
+  slug: involve-asia-publisher-api
+- name: involve-asia-sync-conversions
+  slug: involve-asia-sync-conversions
 slug: involve-asia
 tags:
 - Affiliate Marketing

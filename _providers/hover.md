@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.1
-  scored_at: '2026-10-17'
+  score: 33.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -156,39 +158,49 @@ apis:
   description: The Webhooks API from HOVER — 4 operation(s) for webhooks.
   name: HOVER Webhooks API
   slug: hover-webhooks-api
-artifact_total: 31
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Hover Webhooks
   slug: hover-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/hover/plans/hover-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/hover-plans-pricing.yml
+- group: other
+  href: https://artifacts.apis.io/hover/capabilities/hover-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hover-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/agentic-access/hover-agentic-access.yml
+  href: https://artifacts.apis.io/hover/agentic-access/hover-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/hover-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/rules/hover-rules.yml
+  href: https://artifacts.apis.io/hover/rules/hover-rules.yml
   title: ''
   type: Spectral
   url: rules/hover-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/vocabulary/hover-vocabulary.yml
+  href: https://artifacts.apis.io/hover/vocabulary/hover-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/hover-vocabulary.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/hosts/hover-hosts.yml
+  href: https://artifacts.apis.io/hover/hosts/hover-hosts.yml
   title: ''
   type: Hosts
   url: hosts/hover-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/integrations/hover-integration-edges.yml
+  href: https://artifacts.apis.io/hover/integrations/hover-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/hover-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/vendors/hover-vendors.yml
+  href: https://artifacts.apis.io/hover/vendors/hover-vendors.yml
   title: ''
   type: Vendors
   url: vendors/hover-vendors.yml
@@ -197,17 +209,17 @@ common:
   type: Newsroom
   url: https://hover.to/press/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/scopes/hover-scopes.yml
+  href: https://artifacts.apis.io/hover/scopes/hover-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/hover-scopes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/rate-limits/hover-rate-limits.yml
+  href: https://artifacts.apis.io/hover/rate-limits/hover-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/hover-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/security/hover-domain-security.yml
+  href: https://artifacts.apis.io/hover/security/hover-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/hover-domain-security.yml
@@ -272,27 +284,35 @@ common:
   type: ChangeLog
   url: https://developers.hover.to/docs/release-notes
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/mcp/hover-mcp.yml
+  href: https://artifacts.apis.io/hover/mcp/hover-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/hover-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/llms/hover-llms.txt
+  href: https://artifacts.apis.io/hover/llms/hover-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/hover-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/changelog/hover-changelog.yml
+  href: https://artifacts.apis.io/hover/changelog/hover-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/hover-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/well-known/hover-well-known.yml
+  href: https://artifacts.apis.io/hover/well-known/hover-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/hover-well-known.yml
 created: '2026-07-17'
 description: HOVER turns smartphone photos of a property into an accurate, interactive 3D model with complete exterior and interior measurements for the construction, roofing, insurance, and home-services industries. The HOVER API lets partners programmatically create and manage jobs, send capture requests that invite a homeowner or field technician to photograph a structure, receive real-time status updates via webhooks, and retrieve 3D models and measurement deliverables in JSON, PDF, XLSX, SKP, ESX, FML, and XML formats. Additional endpoints cover inspections, estimates and material lists, instant-design images and leads, blueprint reconstruction, job sharing, notes, users, wallets and payments. Authentication is OAuth 2.0 (authorization code + refresh), and a hosted MCP server exposes the same surface to AI agents. HOVER is backed by GV and Menlo Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Hover Finops
+  primary_unit: project
+  service_category: ''
+  slug: hover-finops
+  template: false
 image: https://hover.to/favicon.ico
 layout: provider
 mcp_servers:
@@ -309,7 +329,14 @@ overview: 'HOVER publishes 23 API contracts indexed on the [APIs.io](https://api
   The HOVER catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  HOVER''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  HOVER''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+plans:
+- name: Hover Plans Pricing
+  plan_count: 4
+  slug: hover-plans-pricing
+- name: Hover Price Estimates
+  plan_count: 0
+  slug: hover-price-estimates
 random_paper: 20
 rate_limits:
 - limit_count: 2
@@ -334,24 +361,24 @@ scopes:
   slug: hover-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 53.1
+  band: strong
+  composite: 65.6
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 53.8
-    catalog_earned_first_party: 8.0
-    catalog_gap: 61.3
+    artifact_dirs: 27
+    catalog_earned: 68.8
+    catalog_earned_first_party: 20.0
+    catalog_gap: 46.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 7.5
+  delta: 7.9
   facets:
-    access_clarity: 52.6
+    access_clarity: 92.1
     contract_governance: 35.6
-    contract_quality: 52.0
-    developer_ergonomics: 45.2
-    discoverability: 81.7
-    operational_transparency: 39.5
-  previous_composite: 45.6
+    contract_quality: 50.8
+    developer_ergonomics: 64.3
+    discoverability: 71.7
+    operational_transparency: 50.0
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -367,13 +394,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 41.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/screenshots/hover-2026-07-25T221536.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/hover/hover-2026-07-25T221536.png
 security:
 - kind: authentication
   name: Hover Authentication

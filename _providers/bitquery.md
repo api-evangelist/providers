@@ -11,7 +11,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.0
-  scored_at: '2026-10-17'
+  score: 36.8
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - description: Unified GraphQL endpoint for querying onchain data across 40+ supported blockchains - blocks, transactions, transfers, DEX trades, balances, holders, NFTs, prices, events, traces. Standard GraphQL POS
@@ -74,22 +75,22 @@ asyncapis:
   slug: bitquery-asyncapi
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bitquery/refs/heads/main/plans/bitquery-plans-pricing.yml
+  href: https://artifacts.apis.io/bitquery/plans/bitquery-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bitquery-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bitquery/refs/heads/main/rate-limits/bitquery-rate-limits.yml
+  href: https://artifacts.apis.io/bitquery/rate-limits/bitquery-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bitquery-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bitquery/refs/heads/main/finops/bitquery-finops.yml
+  href: https://artifacts.apis.io/bitquery/finops/bitquery-finops.yml
   title: ''
   type: FinOps
   url: finops/bitquery-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bitquery/refs/heads/main/security/bitquery-domain-security.yml
+  href: https://artifacts.apis.io/bitquery/security/bitquery-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bitquery-domain-security.yml
@@ -156,7 +157,7 @@ plans:
 - name: Bitquery Plans Pricing
   plan_count: 1
   slug: bitquery-plans-pricing
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Bitquery Rate Limits
@@ -175,8 +176,8 @@ rules:
     warn: 6
   slug: bitquery-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 26.2
+  band: emerging
+  composite: 26.1
   coverage:
     artifact_dirs: 13
     catalog_earned: 47.8
@@ -184,15 +185,15 @@ score:
     catalog_gap: 67.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 11.4
     contract_quality: 43.8
     developer_ergonomics: 23.8
-    discoverability: 73.3
+    discoverability: 71.4
     operational_transparency: 10.5
-  previous_composite: 32.3
+  previous_composite: 26.1
   provenance:
     mcp: first-party
   regulatory:
@@ -201,14 +202,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bitquery/refs/heads/main/screenshots/bitquery-2026-06-20T173319.png
+screenshot: https://apis.io/screenshots/bitquery/bitquery-2026-06-20T173319.png
 security:
 - kind: domain-security
   name: Bitquery Domain Security

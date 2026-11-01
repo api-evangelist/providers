@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.7
-  scored_at: '2026-10-17'
+  score: 30.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,7 +62,7 @@ apis:
   description: The Supported Rules API from Zally — 1 operation(s) for supported rules.
   name: Zally Supported Rules API
   slug: zally-supported-rules-api
-artifact_total: 55
+artifact_total: 54
 collections:
 - collection_type: postman
   name: Zally - Zalando's API Linter Api Violations API
@@ -72,9 +74,6 @@ collections:
   name: Zally - Zalando's API Linter Api Violations Supported Rules API
   slug: postman-zally-supported-rules-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Zally - Zalando's API Linter Api Violations API
   slug: open-zally-api-violations-api
 - collection_type: open
@@ -85,22 +84,22 @@ collections:
   slug: open-zally-supported-rules-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/plans/zally-plans-pricing.yml
+  href: https://artifacts.apis.io/zally/plans/zally-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zally-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/rate-limits/zally-rate-limits.yml
+  href: https://artifacts.apis.io/zally/rate-limits/zally-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zally-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/finops/zally-finops.yml
+  href: https://artifacts.apis.io/zally/finops/zally-finops.yml
   title: ''
   type: FinOps
   url: finops/zally-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/capabilities/zally-capability-edges.yml
+  href: https://artifacts.apis.io/zally/capabilities/zally-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/zally-capability-edges.yml
@@ -121,17 +120,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/zally/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/agentic-access/zally-agentic-access.yml
+  href: https://artifacts.apis.io/zally/agentic-access/zally-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/zally-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/security/zally-domain-security.yml
+  href: https://artifacts.apis.io/zally/security/zally-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zally-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/authentication/zally-authentication.yml
+  href: https://artifacts.apis.io/zally/authentication/zally-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zally-authentication.yml
@@ -224,7 +223,7 @@ finops:
 - has_sources: false
   method: generated
   name: Zally Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: zally-finops
   template: true
@@ -307,7 +306,7 @@ plans:
 - name: Zally Plans Pricing
   plan_count: 3
   slug: zally-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Zally Rate Limits
@@ -337,7 +336,7 @@ rules:
   slug: zally-rules
 score:
   band: developing
-  composite: 39.5
+  composite: 40.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 67.2
@@ -345,15 +344,15 @@ score:
     catalog_gap: 47.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -0.6
   facets:
     access_clarity: 7.9
     contract_governance: 23.5
     contract_quality: 61.6
     developer_ergonomics: 44.0
     discoverability: 66.1
-    operational_transparency: 36.8
-  previous_composite: 41.0
+    operational_transparency: 39.5
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -367,13 +366,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/screenshots/zally-2026-06-20T201756.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/zally/zally-2026-06-20T201756.png
 security:
 - kind: authentication
   name: Zally Authentication

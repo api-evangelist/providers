@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 60.4
-  scored_at: '2026-10-17'
+  score: 61.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,15 +57,12 @@ apis:
     question: How do I pull my meeting transcripts and summaries out of Fireflies with GraphQL?
   phrasing_ops: 1
   slug: fireflies-transcripts-api
-artifact_total: 25
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Fireflies Webhooks
   slug: fireflies-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Fireflies GraphQL AI Apps API
   slug: open-fireflies-ai-apps-api
@@ -83,28 +82,33 @@ collections:
   name: Fireflies GraphQL AI Apps Users API
   slug: open-fireflies-users-api
 common:
+- group: other
+  href: https://artifacts.apis.io/fireflies/capabilities/fireflies-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fireflies-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/agentic-access/fireflies-agentic-access.yml
+  href: https://artifacts.apis.io/fireflies/agentic-access/fireflies-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fireflies-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/security/fireflies-trust-center.yml
+  href: https://artifacts.apis.io/fireflies/security/fireflies-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fireflies-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/security/fireflies-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fireflies/security/fireflies-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fireflies-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/security/fireflies-domain-security.yml
+  href: https://artifacts.apis.io/fireflies/security/fireflies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fireflies-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/authentication/fireflies-authentication.yml
+  href: https://artifacts.apis.io/fireflies/authentication/fireflies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fireflies-authentication.yml
@@ -141,87 +145,87 @@ common:
   type: X
   url: https://twitter.com/firefliesai
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/plans/fireflies-plans-pricing.yml
+  href: https://artifacts.apis.io/fireflies/plans/fireflies-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fireflies-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/rate-limits/fireflies-rate-limits.yml
+  href: https://artifacts.apis.io/fireflies/rate-limits/fireflies-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fireflies-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/finops/fireflies-finops.yml
+  href: https://artifacts.apis.io/fireflies/finops/fireflies-finops.yml
   title: ''
   type: FinOps
   url: finops/fireflies-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/vocabulary/fireflies-vocabulary.yml
+  href: https://artifacts.apis.io/fireflies/vocabulary/fireflies-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/fireflies-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/json-ld/fireflies-context.jsonld
+  href: https://artifacts.apis.io/fireflies/json-ld/fireflies-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/fireflies-context.jsonld
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/a2a/fireflies-a2a.yml
+  href: https://artifacts.apis.io/fireflies/a2a/fireflies-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/fireflies-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/mcp/fireflies-mcp.yml
+  href: https://artifacts.apis.io/fireflies/mcp/fireflies-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/fireflies-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/mcp/fireflies-tool-crosswalk.yml
+  href: https://artifacts.apis.io/fireflies/mcp/fireflies-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/fireflies-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fireflies/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/well-known/fireflies-well-known.yml
+  href: https://artifacts.apis.io/fireflies/well-known/fireflies-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fireflies-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/llms/fireflies-llms.txt
+  href: https://artifacts.apis.io/fireflies/llms/fireflies-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fireflies-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/packages/fireflies-packages.yml
+  href: https://artifacts.apis.io/fireflies/packages/fireflies-packages.yml
   title: ''
   type: Packages
   url: packages/fireflies-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/packages/fireflies-packages.yml
+  href: https://artifacts.apis.io/fireflies/packages/fireflies-packages.yml
   title: ''
   type: SDKs
   url: packages/fireflies-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/conventions/fireflies-conventions.yml
+  href: https://artifacts.apis.io/fireflies/conventions/fireflies-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fireflies-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/errors/fireflies-error-codes.yml
+  href: https://artifacts.apis.io/fireflies/errors/fireflies-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/fireflies-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/lifecycle/fireflies-lifecycle.yml
+  href: https://artifacts.apis.io/fireflies/lifecycle/fireflies-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fireflies-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/changelog/fireflies-changelog.yml
+  href: https://artifacts.apis.io/fireflies/changelog/fireflies-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fireflies-changelog.yml
@@ -230,17 +234,17 @@ common:
   type: ChangeLog
   url: https://docs.fireflies.ai/getting-started/whats-new
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/scopes/fireflies-scopes.yml
+  href: https://artifacts.apis.io/fireflies/scopes/fireflies-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fireflies-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/asyncapi/fireflies-webhooks.yml
+  href: https://artifacts.apis.io/fireflies/asyncapi/fireflies-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/fireflies-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/conformance/fireflies-conformance.yml
+  href: https://artifacts.apis.io/fireflies/conformance/fireflies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fireflies-conformance.yml
@@ -253,42 +257,42 @@ common:
   type: Security
   url: https://fireflies.ai/bug-bounty
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/data-model/fireflies-data-model.yml
+  href: https://artifacts.apis.io/fireflies/data-model/fireflies-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fireflies-data-model.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/graphql/fireflies-schema.graphql
+  href: https://artifacts.apis.io/fireflies/graphql/fireflies-schema.graphql
   title: ''
   type: GraphQL
   url: graphql/fireflies-schema.graphql
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/overlays/fireflies-ai-apps-api-overlay.yaml
+  href: https://artifacts.apis.io/fireflies/overlays/fireflies-ai-apps-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fireflies-ai-apps-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/overlays/fireflies-audio-upload-api-overlay.yaml
+  href: https://artifacts.apis.io/fireflies/overlays/fireflies-audio-upload-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fireflies-audio-upload-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/overlays/fireflies-bites-api-overlay.yaml
+  href: https://artifacts.apis.io/fireflies/overlays/fireflies-bites-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fireflies-bites-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/overlays/fireflies-live-meetings-api-overlay.yaml
+  href: https://artifacts.apis.io/fireflies/overlays/fireflies-live-meetings-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fireflies-live-meetings-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/overlays/fireflies-transcripts-api-overlay.yaml
+  href: https://artifacts.apis.io/fireflies/overlays/fireflies-transcripts-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fireflies-transcripts-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/overlays/fireflies-users-api-overlay.yaml
+  href: https://artifacts.apis.io/fireflies/overlays/fireflies-users-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/fireflies-users-api-overlay.yaml
@@ -338,13 +342,13 @@ examples:
   name: Fireflies Upload Audio Example
   slug: fireflies-upload-audio-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Fireflies Finops
-  primary_unit: ''
+  primary_unit: seat
   service_category: ''
   slug: fireflies-finops
-  template: true
+  template: false
 graphqls:
 - description: 'The Fireflies.ai GraphQL API provides a single endpoint at `https://api.fireflies.ai/graphql` for querying and mutating all meeting intelligence data. The API exposes rich access to transcripts (with '
   name: Fireflies.ai GraphQL API
@@ -374,12 +378,15 @@ overview: 'Fireflies.ai publishes 1 API contract indexed on the [APIs.io](https:
   The Fireflies.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Fireflies.ai''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 46 more developer resources.'
+  Fireflies.ai''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 47 more developer resources.'
 plans:
 - name: Fireflies Plans Pricing
   plan_count: 4
   slug: fireflies-plans-pricing
-random_paper: 7
+- name: Fireflies Price Estimates
+  plan_count: 0
+  slug: fireflies-price-estimates
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Fireflies Rate Limits
@@ -403,23 +410,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 71.1
+  composite: 75.6
   coverage:
-    artifact_dirs: 33
-    catalog_earned: 73.2
+    artifact_dirs: 34
+    catalog_earned: 76.2
     catalog_earned_first_party: 12.0
-    catalog_gap: 41.9
+    catalog_gap: 38.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 41.7
-    contract_quality: 76.7
-    developer_ergonomics: 59.5
-    discoverability: 75.0
-    operational_transparency: 44.7
-  previous_composite: 72.6
+    contract_quality: 74.3
+    developer_ergonomics: 71.4
+    discoverability: 65.0
+    operational_transparency: 55.3
+  previous_composite: 74.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -436,13 +443,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 41.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/screenshots/fireflies-2026-06-20T181230.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fireflies/fireflies-2026-06-20T181230.png
 security:
 - kind: authentication
   name: Fireflies Authentication
@@ -460,6 +468,18 @@ security:
   name: Fireflies Trust Center
   slug: fireflies-trust-center
   summary_line: SOC 2 Type II, HIPAA, GDPR
+skill_count: 5
+skills:
+- name: Fetch Fireflies meeting intelligence
+  slug: fireflies-fetch-meeting-intelligence
+- name: Firefliesai
+  slug: fireflies-firefliesai-provider-skill
+- name: Record and stream a live Fireflies meeting
+  slug: fireflies-record-and-stream-a-live-meeting
+- name: Share and organize Fireflies meetings
+  slug: fireflies-share-and-organize-meetings
+- name: Upload audio to Fireflies and await transcription
+  slug: fireflies-upload-and-await-transcription
 slug: fireflies
 tags:
 - Artificial Intelligence

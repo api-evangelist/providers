@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: Compose new tracks from natural language prompts.
   name: Beatoven.ai Tracks API
   slug: beatoven-tracks-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Beatoven Composition API
   slug: open-beatoven-composition-api
@@ -70,6 +69,15 @@ collections:
   name: Beatoven Composition Tasks Tracks API
   slug: open-beatoven-tracks-api
 common:
+- group: other
+  href: https://artifacts.apis.io/beatoven/capabilities/beatoven-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/beatoven-capability-edges.yml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/beatovenai/overview
 - group: company
   title: ''
   type: Website
@@ -79,17 +87,17 @@ common:
   type: IssueTracker
   url: https://github.com/Beatoven/public-api/issues
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beatoven/refs/heads/main/agentic-access/beatoven-agentic-access.yml
+  href: https://artifacts.apis.io/beatoven/agentic-access/beatoven-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/beatoven-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beatoven/refs/heads/main/security/beatoven-domain-security.yml
+  href: https://artifacts.apis.io/beatoven/security/beatoven-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beatoven-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beatoven/refs/heads/main/authentication/beatoven-authentication.yml
+  href: https://artifacts.apis.io/beatoven/authentication/beatoven-authentication.yml
   title: ''
   type: Authentication
   url: authentication/beatoven-authentication.yml
@@ -138,17 +146,17 @@ common:
   type: Pricing
   url: https://www.beatoven.ai/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/beatoven/refs/heads/main/plans/beatoven-plans-pricing.yml
+  href: https://artifacts.apis.io/beatoven/plans/beatoven-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/beatoven-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/beatoven/refs/heads/main/rate-limits/beatoven-rate-limits.yml
+  href: https://artifacts.apis.io/beatoven/rate-limits/beatoven-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/beatoven-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/beatoven/refs/heads/main/finops/beatoven-finops.yml
+  href: https://artifacts.apis.io/beatoven/finops/beatoven-finops.yml
   title: ''
   type: FinOps
   url: finops/beatoven-finops.yml
@@ -233,12 +241,12 @@ overview: 'Beatoven.ai publishes 2 API contracts indexed on the [APIs.io](https:
   The Beatoven.ai catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Beatoven.ai''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, code examples, engineering blog, and 18 more developer resources.'
+  Beatoven.ai''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, code examples, engineering blog, and 20 more developer resources.'
 plans:
 - name: Beatoven Plans Pricing
   plan_count: 5
   slug: beatoven-plans-pricing
-random_paper: 16
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Beatoven Rate Limits
@@ -269,22 +277,22 @@ rules:
   slug: beatoven-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.4
+  composite: 49.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 61.5
     catalog_earned_first_party: 0.0
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.7
+  delta: 0.2
   facets:
-    access_clarity: 50.0
+    access_clarity: 60.5
     contract_governance: 13.6
     contract_quality: 64.0
-    developer_ergonomics: 48.8
+    developer_ergonomics: 58.3
     discoverability: 66.1
-    operational_transparency: 2.6
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -292,7 +300,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - india-south-asia
-  previous_composite: 53.1
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     contracts:
@@ -306,12 +314,13 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Beatoven Authentication

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.6
-  scored_at: '2026-10-17'
+  score: 25.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://router-gateway-v3-production.up.railway.app
@@ -53,9 +55,6 @@ apis:
   slug: rift-status-api
 artifact_total: 9
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rift Router Orders API
   slug: open-rift-orders-api
@@ -95,67 +94,67 @@ common:
   type: X
   url: https://x.com/RIFTHQ
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/openapi/_original/rift-openapi.yml
+  href: https://artifacts.apis.io/rift/openapi/_original/rift-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/rift-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/authentication/rift-authentication.yml
+  href: https://artifacts.apis.io/rift/authentication/rift-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rift-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/conventions/rift-conventions.yml
+  href: https://artifacts.apis.io/rift/conventions/rift-conventions.yml
   title: ''
   type: Conventions
   url: conventions/rift-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/conventions/rift-conventions.yml
+  href: https://artifacts.apis.io/rift/conventions/rift-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/rift-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/errors/rift-problem-types.yml
+  href: https://artifacts.apis.io/rift/errors/rift-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/rift-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/data-model/rift-data-model.yml
+  href: https://artifacts.apis.io/rift/data-model/rift-data-model.yml
   title: ''
   type: DataModel
   url: data-model/rift-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/conformance/rift-conformance.yml
+  href: https://artifacts.apis.io/rift/conformance/rift-conformance.yml
   title: ''
   type: Conformance
   url: conformance/rift-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/lifecycle/rift-lifecycle.yml
+  href: https://artifacts.apis.io/rift/lifecycle/rift-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/rift-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/mcp/rift-mcp.yml
+  href: https://artifacts.apis.io/rift/mcp/rift-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/rift-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/rift/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/llms/rift-llms.txt
+  href: https://artifacts.apis.io/rift/llms/rift-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/rift-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/overlays/rift-openapi-overlay.yaml
+  href: https://artifacts.apis.io/rift/overlays/rift-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/rift-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/security/rift-domain-security.yml
+  href: https://artifacts.apis.io/rift/security/rift-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rift-domain-security.yml
@@ -171,7 +170,7 @@ overview: 'Rift publishes 3 API contracts indexed on the [APIs.io](https://apis.
 
 
   Rift''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
-random_paper: 19
+random_paper: 5
 score:
   band: thin
   composite: 28.8
@@ -182,15 +181,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 46.3
     developer_ergonomics: 54.2
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 28.3
+  previous_composite: 28.8
   provenance:
     conformance: derived
     contracts:
@@ -206,13 +205,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 15.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/screenshots/rift-2026-09-02T153815.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rift/rift-2026-09-02T153815.png
 security:
 - kind: authentication
   name: Rift Authentication
@@ -222,6 +222,10 @@ security:
   name: Rift Domain Security
   slug: rift-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 1
+skills:
+- name: Swap assets with Rift
+  slug: rift-swap
 slug: rift
 tags:
 - Company

@@ -25,14 +25,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -40,7 +42,7 @@ agentic_access:
   operation_count: 173
   slug: eden-health-agentic-access
   summary_line: 173 operations · 79 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.edenhealth.com
   baseurl_source: declared
@@ -257,11 +259,8 @@ apis:
   description: Handlers for sponsor visitors
   name: Eden Health Grdn.routes.impl.visitor API
   slug: eden-health-grdn-routes-impl-visitor-api
-artifact_total: 89
+artifact_total: 88
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Grdn grdn.handler API
   slug: open-eden-health-grdn-handler-api
@@ -393,12 +392,12 @@ collections:
   slug: open-eden-health-grdn-routes-impl-visitor-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/capabilities/eden-health-capability-edges.yml
+  href: https://artifacts.apis.io/eden-health/capabilities/eden-health-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/eden-health-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/overlays/eden-health-grdn-overlay.yaml
+  href: https://artifacts.apis.io/eden-health/overlays/eden-health-grdn-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/eden-health-grdn-overlay.yaml
@@ -407,37 +406,37 @@ common:
   type: Website
   url: https://edenhealth.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/agentic-access/eden-health-agentic-access.yml
+  href: https://artifacts.apis.io/eden-health/agentic-access/eden-health-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/eden-health-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/security/eden-health-domain-security.yml
+  href: https://artifacts.apis.io/eden-health/security/eden-health-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/eden-health-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/conventions/eden-health-conventions.yml
+  href: https://artifacts.apis.io/eden-health/conventions/eden-health-conventions.yml
   title: ''
   type: Conventions
   url: conventions/eden-health-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/lifecycle/eden-health-lifecycle.yml
+  href: https://artifacts.apis.io/eden-health/lifecycle/eden-health-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/eden-health-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/data-model/eden-health-data-model.yml
+  href: https://artifacts.apis.io/eden-health/data-model/eden-health-data-model.yml
   title: ''
   type: DataModel
   url: data-model/eden-health-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/conformance/eden-health-conformance.yml
+  href: https://artifacts.apis.io/eden-health/conformance/eden-health-conformance.yml
   title: ''
   type: Conformance
   url: conformance/eden-health-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/eden-health/refs/heads/main/llms/eden-health-llms.txt
+  href: https://artifacts.apis.io/eden-health/llms/eden-health-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/eden-health-llms.txt
@@ -450,10 +449,10 @@ name: Eden Health
 nav: Providers
 network: true
 overview: Eden Health publishes 43 API contracts indexed on the [APIs.io](https://apis.io/) network, including grdn.handler API, grdn.routes.impl.addons API, Grdn.routes.impl.app API, and 40 more. Tagged areas include Company, Healthcare, Primary Care, Virtual Care, and Telehealth.
-random_paper: 9
+random_paper: 7
 score:
   band: emerging
-  composite: 15.6
+  composite: 14.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 37.0
@@ -465,11 +464,11 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 31.5
+    contract_quality: 30.2
     developer_ergonomics: 0.0
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 0.0
-  previous_composite: 15.6
+  previous_composite: 14.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -484,12 +483,13 @@ score:
     regime: Health
     regime_id: health
     score: 8.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Eden Health Domain Security

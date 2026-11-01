@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 17.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -100,11 +102,8 @@ apis:
   description: Cross-cutting utility resources such as supported languages.
   name: PokéAPI Utility API
   slug: pokeapi-utility-api
-artifact_total: 217
+artifact_total: 219
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Poké Berries API
   slug: open-pokeapi-berries-api
@@ -142,17 +141,22 @@ collections:
   name: PokéAPI
   slug: open-pokeapi
 common:
+- group: commercial
+  href: https://artifacts.apis.io/pokeapi/plans/pokeapi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/pokeapi-plans-pricing.yml
 - group: company
   title: ''
   type: Website
   url: https://pokeapi.co
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/agentic-access/pokeapi-agentic-access.yml
+  href: https://artifacts.apis.io/pokeapi/agentic-access/pokeapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pokeapi-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/security/pokeapi-domain-security.yml
+  href: https://artifacts.apis.io/pokeapi/security/pokeapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pokeapi-domain-security.yml
@@ -418,6 +422,14 @@ features:
   name: Self-Hostable
 - description: Source code, sprites, GraphQL schema, and client wrappers are open source.
   name: Open Source (BSD-3-Clause)
+finops:
+- has_sources: true
+  method: derived
+  name: Pokeapi Finops
+  primary_unit: donation
+  service_category: ''
+  slug: pokeapi-finops
+  template: false
 graphqls:
 - description: The PokéAPI GraphQL beta exposes the same Pokémon dataset as the REST API through a single endpoint with field-level selection, joins, and filtering. It is well suited to clients that want to cherry-p
   name: PokéAPI GraphQL API
@@ -782,8 +794,15 @@ overview: 'PokéAPI publishes 12 API contracts indexed on the [APIs.io](https://
   The PokéAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  PokéAPI''s developer surface includes developer portal, getting-started guide, pricing, support, Stack Overflow tag, changelog, tooling, and 14 more developer resources.'
-random_paper: 19
+  PokéAPI''s developer surface includes developer portal, getting-started guide, pricing, support, Stack Overflow tag, changelog, tooling, and 15 more developer resources.'
+plans:
+- name: Pokeapi Plans Pricing
+  plan_count: 2
+  slug: pokeapi-plans-pricing
+- name: Pokeapi Price Estimates
+  plan_count: 0
+  slug: pokeapi-price-estimates
+random_paper: 1
 rules:
 - authorship: generated
   effective_rule_count: 5
@@ -809,17 +828,17 @@ rules:
   slug: pokeapi-rules
 score:
   band: developing
-  composite: 42.4
+  composite: 48.2
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 57.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 58.0
+    artifact_dirs: 16
+    catalog_earned: 68.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.8
   facets:
-    access_clarity: 21.1
+    access_clarity: 50.0
     contract_governance: 27.3
     contract_quality: 53.7
     developer_ergonomics: 59.5
@@ -839,14 +858,14 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 14.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/screenshots/pokeapi-2026-06-20T191844.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pokeapi/pokeapi-2026-06-20T191844.png
 security:
 - kind: domain-security
   name: Pokeapi Domain Security

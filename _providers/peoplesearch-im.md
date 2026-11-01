@@ -17,6 +17,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
@@ -24,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -64,85 +66,90 @@ apis:
   description: The Tools API from PeopleSearch.im — 1 operation(s) for tools.
   name: PeopleSearch.im Tools API
   slug: peoplesearch-im-tools-api
-artifact_total: 14
+artifact_total: 15
 common:
+- group: other
+  href: https://artifacts.apis.io/peoplesearch-im/capabilities/peoplesearch-im-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/peoplesearch-im-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/agentic-access/peoplesearch-im-agentic-access.yml
+  href: https://artifacts.apis.io/peoplesearch-im/agentic-access/peoplesearch-im-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/peoplesearch-im-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/plans/peoplesearch-im-plans-pricing.yml
+  href: https://artifacts.apis.io/peoplesearch-im/plans/peoplesearch-im-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/peoplesearch-im-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/rules/peoplesearch-im-rules.yml
+  href: https://artifacts.apis.io/peoplesearch-im/rules/peoplesearch-im-rules.yml
   title: ''
   type: Spectral
   url: rules/peoplesearch-im-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/json-ld/peoplesearch-im-context.jsonld
+  href: https://artifacts.apis.io/peoplesearch-im/json-ld/peoplesearch-im-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/peoplesearch-im-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/vocabulary/peoplesearch-im-vocabulary.yml
+  href: https://artifacts.apis.io/peoplesearch-im/vocabulary/peoplesearch-im-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/peoplesearch-im-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/data-model/peoplesearch-im-data-model.yml
+  href: https://artifacts.apis.io/peoplesearch-im/data-model/peoplesearch-im-data-model.yml
   title: ''
   type: DataModel
   url: data-model/peoplesearch-im-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/errors/peoplesearch-im-problem-types.yml
+  href: https://artifacts.apis.io/peoplesearch-im/errors/peoplesearch-im-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/peoplesearch-im-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/conformance/peoplesearch-im-conformance.yml
+  href: https://artifacts.apis.io/peoplesearch-im/conformance/peoplesearch-im-conformance.yml
   title: ''
   type: Conformance
   url: conformance/peoplesearch-im-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/llms/peoplesearch-im-llms.txt
+  href: https://artifacts.apis.io/peoplesearch-im/llms/peoplesearch-im-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/peoplesearch-im-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/mcp/peoplesearch-im-tool-crosswalk.yml
+  href: https://artifacts.apis.io/peoplesearch-im/mcp/peoplesearch-im-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/peoplesearch-im-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/mcp/peoplesearch-im-mcp.yml
+  href: https://artifacts.apis.io/peoplesearch-im/mcp/peoplesearch-im-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/peoplesearch-im-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/well-known/peoplesearch-im-well-known.yml
+  href: https://artifacts.apis.io/peoplesearch-im/well-known/peoplesearch-im-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/peoplesearch-im-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/hosts/peoplesearch-im-hosts.yml
+  href: https://artifacts.apis.io/peoplesearch-im/hosts/peoplesearch-im-hosts.yml
   title: ''
   type: Hosts
   url: hosts/peoplesearch-im-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/vendors/peoplesearch-im-vendors.yml
+  href: https://artifacts.apis.io/peoplesearch-im/vendors/peoplesearch-im-vendors.yml
   title: ''
   type: Vendors
   url: vendors/peoplesearch-im-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/authentication/peoplesearch-im-authentication.yml
+  href: https://artifacts.apis.io/peoplesearch-im/authentication/peoplesearch-im-authentication.yml
   title: ''
   type: Authentication
   url: authentication/peoplesearch-im-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/peoplesearch-im/refs/heads/main/security/peoplesearch-im-domain-security.yml
+  href: https://artifacts.apis.io/peoplesearch-im/security/peoplesearch-im-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/peoplesearch-im-domain-security.yml
@@ -180,6 +187,14 @@ common:
   url: https://peoplesearch.im/login
 created: '2026-10-12'
 description: PeopleSearch.im provides AI-powered people search and verified professional email lookup. Users can describe a target person or role in natural language and receive profile details and work emails, paying per credit. The service offers tools for email verification, format checking, and reverse lookup, with a free starter credit and tiered pricing.
+finops:
+- has_sources: true
+  method: derived
+  name: Peoplesearch Im Finops
+  primary_unit: seat
+  service_category: ''
+  slug: peoplesearch-im-finops
+  template: false
 image: https://peoplesearch.im/opengraph-image
 json_schemas:
 - name: PeopleFilters
@@ -205,12 +220,12 @@ overview: 'PeopleSearch.im publishes 6 API contracts indexed on the [APIs.io](ht
   The PeopleSearch.im catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PeopleSearch.im''s developer surface includes authentication, documentation, pricing, engineering blog, signup flow, and 19 more developer resources.'
+  PeopleSearch.im''s developer surface includes authentication, documentation, pricing, engineering blog, signup flow, and 20 more developer resources.'
 plans:
 - name: Peoplesearch Im Plans Pricing
   plan_count: 3
   slug: peoplesearch-im-plans-pricing
-random_paper: 16
+random_paper: 22
 rules:
 - authorship: generated
   effective_rule_count: 57
@@ -226,21 +241,23 @@ rules:
   slug: peoplesearch-im-rules
 score:
   band: developing
-  composite: 44.4
+  composite: 45.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 63.2
+    artifact_dirs: 22
+    catalog_earned: 66.2
     catalog_earned_first_party: 12.0
-    catalog_gap: 51.9
+    catalog_gap: 48.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 22.0
     contract_quality: 58.5
     developer_ergonomics: 23.8
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,11 +273,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Peoplesearch Im Authentication

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.2
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 77
   slug: wefitter-agentic-access
   summary_line: 77 operations · 34 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.wefitter.com/api/v1.3
   baseurl_source: declared
@@ -89,15 +91,12 @@ apis:
   description: <p> Before any calls can be made to wefitter, BasicAuth is needed to verify the identity of the requesting party. This call will result into a Bearer token which has administrator privileges and is va
   name: WeFitter Token API
   slug: wefitter-token-api
-artifact_total: 23
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Wefitter Webhooks
   slug: wefitter-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WeFitter app API
   slug: open-wefitter-app-api
@@ -126,6 +125,11 @@ collections:
   name: WeFitter app token API
   slug: open-wefitter-token-api
 common:
+- group: other
+  href: https://artifacts.apis.io/wefitter/capabilities/wefitter-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wefitter-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -175,92 +179,92 @@ common:
   type: PrivacyPolicy
   url: https://www.wefitter.com/en-us/privacy-policy/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/_original/wefitter-openapi-original.json
+  href: https://artifacts.apis.io/wefitter/openapi/_original/wefitter-openapi-original.json
   title: ''
   type: OpenAPI
   url: openapi/_original/wefitter-openapi-original.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/overlays/wefitter-openapi-overlay.yaml
+  href: https://artifacts.apis.io/wefitter/overlays/wefitter-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/wefitter-openapi-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/packages/wefitter-packages.yml
+  href: https://artifacts.apis.io/wefitter/packages/wefitter-packages.yml
   title: ''
   type: Packages
   url: packages/wefitter-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/packages/wefitter-packages.yml
+  href: https://artifacts.apis.io/wefitter/packages/wefitter-packages.yml
   title: ''
   type: SDKs
   url: packages/wefitter-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/mcp/wefitter-mcp.yml
+  href: https://artifacts.apis.io/wefitter/mcp/wefitter-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/wefitter-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/llms/wefitter-llms.txt
+  href: https://artifacts.apis.io/wefitter/llms/wefitter-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/wefitter-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/conformance/wefitter-conformance.yml
+  href: https://artifacts.apis.io/wefitter/conformance/wefitter-conformance.yml
   title: ''
   type: Conformance
   url: conformance/wefitter-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/errors/wefitter-problem-types.yml
+  href: https://artifacts.apis.io/wefitter/errors/wefitter-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/wefitter-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/lifecycle/wefitter-lifecycle.yml
+  href: https://artifacts.apis.io/wefitter/lifecycle/wefitter-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/wefitter-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/changelog/wefitter-changelog.yml
+  href: https://artifacts.apis.io/wefitter/changelog/wefitter-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/wefitter-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/conventions/wefitter-conventions.yml
+  href: https://artifacts.apis.io/wefitter/conventions/wefitter-conventions.yml
   title: ''
   type: Conventions
   url: conventions/wefitter-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/data-model/wefitter-data-model.yml
+  href: https://artifacts.apis.io/wefitter/data-model/wefitter-data-model.yml
   title: ''
   type: DataModel
   url: data-model/wefitter-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/asyncapi/wefitter-webhooks.yml
+  href: https://artifacts.apis.io/wefitter/asyncapi/wefitter-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/wefitter-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/components/wefitter-components.yml
+  href: https://artifacts.apis.io/wefitter/components/wefitter-components.yml
   title: ''
   type: Components
   url: components/wefitter-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/wefitter/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/security/wefitter-domain-security.yml
+  href: https://artifacts.apis.io/wefitter/security/wefitter-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/wefitter-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/agentic-access/wefitter-agentic-access.yml
+  href: https://artifacts.apis.io/wefitter/agentic-access/wefitter-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/wefitter-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/authentication/wefitter-authentication.yml
+  href: https://artifacts.apis.io/wefitter/authentication/wefitter-authentication.yml
   title: ''
   type: Authentication
   url: authentication/wefitter-authentication.yml
@@ -282,27 +286,27 @@ overview: 'WeFitter publishes 9 API contracts indexed on the [APIs.io](https://a
   The WeFitter catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  WeFitter''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, changelog, signup flow, and 24 more developer resources.'
-random_paper: 16
+  WeFitter''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, changelog, signup flow, and 25 more developer resources.'
+random_paper: 10
 score:
   band: developing
-  composite: 45.3
+  composite: 44.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 54.1
+    contract_quality: 50.7
     developer_ergonomics: 66.1
-    discoverability: 73.2
-    operational_transparency: 26.3
-  previous_composite: 45.2
+    discoverability: 66.1
+    operational_transparency: 28.9
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -323,13 +327,14 @@ score:
     regime: Health
     regime_id: health
     score: 19.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/screenshots/wefitter-2026-08-17T082909.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/wefitter/wefitter-2026-08-17T082909.png
 security:
 - kind: authentication
   name: Wefitter Authentication
@@ -339,6 +344,14 @@ security:
   name: Wefitter Domain Security
   slug: wefitter-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Onboard a profile and connect a wearable
+  slug: wefitter-onboard-profile-and-connect-wearable
+- name: Retrieve a profile's health data
+  slug: wefitter-retrieve-health-data
+- name: Create and run a gamification challenge
+  slug: wefitter-run-a-challenge
 slug: wefitter
 tags:
 - Company

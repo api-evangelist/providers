@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -54,7 +56,7 @@ apis:
 - description: The read-only, unauthenticated product and collection JSON endpoints the store documents for agents in agents.md — /products.json, /products/{handle}.json, /collections/{handle}/products.json and /sea
   name: Voyage Foods Storefront Product JSON API
   slug: voyage-foods-storefront-json
-artifact_total: 8
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -69,87 +71,87 @@ common:
   type: Documentation
   url: https://voyagefoods.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/llms/voyage-foods-llms.txt
+  href: https://artifacts.apis.io/voyage-foods/llms/voyage-foods-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/voyage-foods-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/well-known/voyage-foods-well-known.yml
+  href: https://artifacts.apis.io/voyage-foods/well-known/voyage-foods-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/voyage-foods-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/mcp/voyage-foods-mcp.yml
+  href: https://artifacts.apis.io/voyage-foods/mcp/voyage-foods-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/voyage-foods-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/mcp/voyage-foods-tool-crosswalk.yml
+  href: https://artifacts.apis.io/voyage-foods/mcp/voyage-foods-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/voyage-foods-tool-crosswalk.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/graphql/voyage-foods-storefront.graphql
+  href: https://artifacts.apis.io/voyage-foods/graphql/voyage-foods-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/voyage-foods-storefront.graphql
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/authentication/voyage-foods-authentication.yml
+  href: https://artifacts.apis.io/voyage-foods/authentication/voyage-foods-authentication.yml
   title: ''
   type: Authentication
   url: authentication/voyage-foods-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/scopes/voyage-foods-scopes.yml
+  href: https://artifacts.apis.io/voyage-foods/scopes/voyage-foods-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/voyage-foods-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/well-known/voyage-foods-openid-configuration.json
+  href: https://artifacts.apis.io/voyage-foods/well-known/voyage-foods-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/voyage-foods-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/conventions/voyage-foods-conventions.yml
+  href: https://artifacts.apis.io/voyage-foods/conventions/voyage-foods-conventions.yml
   title: ''
   type: Conventions
   url: conventions/voyage-foods-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/conventions/voyage-foods-conventions.yml
+  href: https://artifacts.apis.io/voyage-foods/conventions/voyage-foods-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/voyage-foods-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/errors/voyage-foods-problem-types.yml
+  href: https://artifacts.apis.io/voyage-foods/errors/voyage-foods-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/voyage-foods-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/lifecycle/voyage-foods-lifecycle.yml
+  href: https://artifacts.apis.io/voyage-foods/lifecycle/voyage-foods-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/voyage-foods-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/conformance/voyage-foods-conformance.yml
+  href: https://artifacts.apis.io/voyage-foods/conformance/voyage-foods-conformance.yml
   title: ''
   type: Conformance
   url: conformance/voyage-foods-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/security/voyage-foods-domain-security.yml
+  href: https://artifacts.apis.io/voyage-foods/security/voyage-foods-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/voyage-foods-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/agentic-access/voyage-foods-agentic-access.yml
+  href: https://artifacts.apis.io/voyage-foods/agentic-access/voyage-foods-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/voyage-foods-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/voyage-foods/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/data-model/voyage-foods-data-model.yml
+  href: https://artifacts.apis.io/voyage-foods/data-model/voyage-foods-data-model.yml
   title: ''
   type: DataModel
   url: data-model/voyage-foods-data-model.yml
@@ -193,7 +195,7 @@ overview: 'Voyage Foods is listed with 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Voyage Foods'' developer surface includes documentation, authentication, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
-random_paper: 3
+random_paper: 11
 scopes:
 - name: Voyage Foods Scopes
   scope_count: 4
@@ -201,7 +203,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode/refreshToken/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: thin
-  composite: 29.0
+  composite: 28.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -215,9 +217,9 @@ score:
     contract_governance: 4.5
     contract_quality: 10.4
     developer_ergonomics: 30.4
-    discoverability: 80.0
+    discoverability: 70.0
     operational_transparency: 0.0
-  previous_composite: 29.0
+  previous_composite: 28.0
   provenance:
     agentic_access: first-party
     conformance: derived
@@ -229,14 +231,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/voyage-foods/refs/heads/main/screenshots/voyage-foods-2026-09-02T170301.png
+screenshot: https://apis.io/screenshots/voyage-foods/voyage-foods-2026-09-02T170301.png
 security:
 - kind: authentication
   name: Voyage Foods Authentication
@@ -246,6 +248,14 @@ security:
   name: Voyage Foods Domain Security
   slug: voyage-foods-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Take a Voyage Foods cart through checkout with buyer approval
+  slug: voyage-foods-cart-to-checkout
+- name: Discover the Voyage Foods catalog
+  slug: voyage-foods-discover-catalog
+- name: Read the Voyage Foods storefront with anonymous GraphQL
+  slug: voyage-foods-graphql-storefront-read
 slug: voyage-foods
 tags:
 - Company

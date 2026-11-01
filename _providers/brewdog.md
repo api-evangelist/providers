@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: BrewDog's Universal Commerce Protocol shopping service, exposed over MCP at https://brewdog.com/api/ucp/mcp and advertised by the store's own /.well-known/ucp merchant profile and /agents.md. Supports
@@ -44,14 +46,14 @@ apis:
 - description: 'The unauthenticated, read-only product and collection JSON surface of the brewdog.com Shopify storefront, documented by BrewDog for agents in /llms.txt and /agents.md: GET /products.json, GET /product'
   name: BrewDog Storefront Product JSON
   slug: brewdog-storefront-product-json
-artifact_total: 7
+artifact_total: 9
 common:
 - group: company
   title: ''
   type: BlogRSS
   url: https://brewdog.com/blogs/news.atom
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/security/brewdog-domain-security.yml
+  href: https://artifacts.apis.io/brewdog/security/brewdog-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brewdog-domain-security.yml
@@ -64,7 +66,7 @@ common:
   type: Documentation
   url: https://brewdog.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/llms/brewdog-llms.txt
+  href: https://artifacts.apis.io/brewdog/llms/brewdog-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brewdog-llms.txt
@@ -113,67 +115,67 @@ common:
   type: Instagram
   url: https://www.instagram.com/brewdogofficial
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/mcp/brewdog-mcp.yml
+  href: https://artifacts.apis.io/brewdog/mcp/brewdog-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/brewdog-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/well-known/brewdog-well-known.yml
+  href: https://artifacts.apis.io/brewdog/well-known/brewdog-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/brewdog-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/authentication/brewdog-authentication.yml
+  href: https://artifacts.apis.io/brewdog/authentication/brewdog-authentication.yml
   title: ''
   type: Authentication
   url: authentication/brewdog-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/scopes/brewdog-scopes.yml
+  href: https://artifacts.apis.io/brewdog/scopes/brewdog-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/brewdog-scopes.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/well-known/brewdog-openid-configuration.json
+  href: https://artifacts.apis.io/brewdog/well-known/brewdog-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/brewdog-openid-configuration.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/conventions/brewdog-conventions.yml
+  href: https://artifacts.apis.io/brewdog/conventions/brewdog-conventions.yml
   title: ''
   type: Conventions
   url: conventions/brewdog-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/conformance/brewdog-conformance.yml
+  href: https://artifacts.apis.io/brewdog/conformance/brewdog-conformance.yml
   title: ''
   type: Conformance
   url: conformance/brewdog-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/errors/brewdog-problem-types.yml
+  href: https://artifacts.apis.io/brewdog/errors/brewdog-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/brewdog-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/lifecycle/brewdog-lifecycle.yml
+  href: https://artifacts.apis.io/brewdog/lifecycle/brewdog-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brewdog-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/data-model/brewdog-data-model.yml
+  href: https://artifacts.apis.io/brewdog/data-model/brewdog-data-model.yml
   title: ''
   type: DataModel
   url: data-model/brewdog-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/examples/brewdog-products-json.json
+  href: https://artifacts.apis.io/brewdog/examples/brewdog-products-json.json
   title: ''
   type: Examples
   url: examples/brewdog-products-json.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/packages/brewdog-packages.yml
+  href: https://artifacts.apis.io/brewdog/packages/brewdog-packages.yml
   title: ''
   type: Packages
   url: packages/brewdog-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/brewdog/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -197,15 +199,15 @@ overview: 'BrewDog is listed with 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   BrewDog''s developer surface includes documentation, signup flow, support, engineering blog, YouTube channel, authentication, code examples, and 22 more developer resources.'
-random_paper: 20
+random_paper: 2
 scopes:
 - name: Brewdog Scopes
   scope_count: 4
   slug: brewdog-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: thin
-  composite: 26.3
+  band: emerging
+  composite: 25.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 32.0
@@ -213,15 +215,15 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 6.5
     developer_ergonomics: 30.4
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
-  previous_composite: 26.2
+  previous_composite: 25.3
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -232,14 +234,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/screenshots/brewdog-2026-08-07T162802.png
+screenshot: https://apis.io/screenshots/brewdog/brewdog-2026-08-07T162802.png
 security:
 - kind: authentication
   name: Brewdog Authentication
@@ -249,6 +251,12 @@ security:
   name: Brewdog Domain Security
   slug: brewdog-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Buy from BrewDog as an agent (UCP over MCP)
+  slug: brewdog-agentic-purchase
+- name: Read the BrewDog catalog without authentication
+  slug: brewdog-catalog-read
 slug: brewdog
 tags:
 - Company

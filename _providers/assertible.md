@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -55,11 +57,8 @@ apis:
   description: Notify Assertible of deployments and trigger tests
   name: Assertible Deployments API
   slug: assertible-deployments-api
-artifact_total: 23
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Assertible Deployments API
   slug: open-assertible-deployments-api
@@ -68,12 +67,12 @@ collections:
   slug: open-assertible
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/rate-limits/assertible-rate-limits.yml
+  href: https://artifacts.apis.io/assertible/rate-limits/assertible-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/assertible-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/finops/assertible-finops.yml
+  href: https://artifacts.apis.io/assertible/finops/assertible-finops.yml
   title: ''
   type: FinOps
   url: finops/assertible-finops.yml
@@ -82,37 +81,37 @@ common:
   type: Website
   url: https://assertible.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/agentic-access/assertible-agentic-access.yml
+  href: https://artifacts.apis.io/assertible/agentic-access/assertible-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/assertible-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/security/assertible-domain-security.yml
+  href: https://artifacts.apis.io/assertible/security/assertible-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/assertible-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/authentication/assertible-authentication.yml
+  href: https://artifacts.apis.io/assertible/authentication/assertible-authentication.yml
   title: ''
   type: Authentication
   url: authentication/assertible-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/conventions/assertible-conventions.yml
+  href: https://artifacts.apis.io/assertible/conventions/assertible-conventions.yml
   title: ''
   type: Conventions
   url: conventions/assertible-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/conventions/assertible-conventions.yml
+  href: https://artifacts.apis.io/assertible/conventions/assertible-conventions.yml
   title: Idempotency and reversibility semantics
   type: Idempotency
   url: conventions/assertible-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/errors/assertible-problem-types.yml
+  href: https://artifacts.apis.io/assertible/errors/assertible-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/assertible-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/lifecycle/assertible-lifecycle.yml
+  href: https://artifacts.apis.io/assertible/lifecycle/assertible-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/assertible-lifecycle.yml
@@ -121,37 +120,37 @@ common:
   type: StatusPage
   url: http://status.assertible.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/conformance/assertible-conformance.yml
+  href: https://artifacts.apis.io/assertible/conformance/assertible-conformance.yml
   title: ''
   type: Conformance
   url: conformance/assertible-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/data-model/assertible-data-model.yml
+  href: https://artifacts.apis.io/assertible/data-model/assertible-data-model.yml
   title: ''
   type: DataModel
   url: data-model/assertible-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/packages/assertible-packages.yml
+  href: https://artifacts.apis.io/assertible/packages/assertible-packages.yml
   title: ''
   type: Packages
   url: packages/assertible-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/llms/assertible-llms.txt
+  href: https://artifacts.apis.io/assertible/llms/assertible-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/assertible-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/assertible/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/mcp/assertible-mcp.yml
+  href: https://artifacts.apis.io/assertible/mcp/assertible-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/assertible-mcp.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/plans/assertible-plans-pricing.yml
+  href: https://artifacts.apis.io/assertible/plans/assertible-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/assertible-plans-pricing.yml
@@ -217,13 +216,13 @@ features:
 - description: Share test suites and API monitoring configurations across teams with role-based access and shared notification channels.
   name: Team Collaboration
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Assertible Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: account
+  service_category: ''
   slug: assertible-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/assertible.png
 integrations:
 - description: Integration with GitHub for triggering tests on pull requests and deployment events through GitHub Actions and webhooks.
@@ -247,6 +246,9 @@ plans:
 - name: Assertible Plans Pricing
   plan_count: 4
   slug: assertible-plans-pricing
+- name: Assertible Price Estimates
+  plan_count: 0
+  slug: assertible-price-estimates
 random_paper: 14
 rate_limits:
 - limit_count: 0
@@ -254,23 +256,23 @@ rate_limits:
   slug: assertible-rate-limits
 score:
   band: developing
-  composite: 46.7
+  composite: 47.5
   coverage:
     artifact_dirs: 23
-    catalog_earned: 44.0
+    catalog_earned: 47.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 71.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 76.3
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 27.3
     developer_ergonomics: 58.9
-    discoverability: 64.3
-    operational_transparency: 18.4
-  previous_composite: 48.2
+    discoverability: 57.1
+    operational_transparency: 21.1
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -287,13 +289,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/screenshots/assertible-2026-06-20T172506.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/assertible/assertible-2026-06-20T172506.png
 security:
 - kind: authentication
   name: Assertible Authentication
@@ -303,6 +306,14 @@ security:
   name: Assertible Domain Security
   slug: assertible-domain-security
   summary_line: TLSv1.2 · DMARC
+skill_count: 3
+skills:
+- name: assertible-deployment-test-gate
+  slug: assertible-deployment-test-gate
+- name: assertible-sync-spec-tests
+  slug: assertible-sync-spec-tests
+- name: assertible-trigger-test-run
+  slug: assertible-trigger-test-run
 slug: assertible
 tags:
 - API Testing

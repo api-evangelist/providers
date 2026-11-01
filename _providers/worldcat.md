@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.7
-  scored_at: '2026-10-17'
+  score: 34.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 4
@@ -47,12 +49,12 @@ apis:
 - description: Provides developer-level access to a library's information in the WorldCat Knowledge Base, combining data about a library's e-content with access through linking features. Supports OpenURL requests fo
   name: WorldCat Knowledge Base API
   slug: worldcat-knowledge-base-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://metadata.api.oclc.org
   baseurl_source: declared
   description: The Bibliographic Resources API from WorldCat — 6 operation(s) for bibliographic resources.
   name: WorldCat Bibliographic Resources API
   slug: worldcat-bibliographic-resources-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://metadata.api.oclc.org
   baseurl_source: declared
   description: The Local Bib Resources API from WorldCat — 2 operation(s) for local bib resources.
   name: WorldCat Local Bib Resources API
@@ -62,47 +64,47 @@ apis:
   description: The Local Holdings Resources API from WorldCat — 3 operation(s) for local holdings resources.
   name: WorldCat Local Holdings Resources API
   slug: worldcat-local-holdings-resources-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://metadata.api.oclc.org
   baseurl_source: declared
   description: The Manage Bibliographic Records API from WorldCat — 5 operation(s) for manage bibliographic records.
   name: WorldCat Manage Bibliographic Records API
   slug: worldcat-manage-bibliographic-records-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://metadata.api.oclc.org
   baseurl_source: declared
   description: The Manage Institution API from WorldCat — 9 operation(s) for manage institution.
   name: WorldCat Manage Institution API
   slug: worldcat-manage-institution-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://metadata.api.oclc.org
   baseurl_source: declared
   description: The Manage Local Bibliographic Data API from WorldCat — 2 operation(s) for manage local bibliographic data.
   name: WorldCat Manage Local Bibliographic Data API
   slug: worldcat-manage-local-bibliographic-data-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://metadata.api.oclc.org
   baseurl_source: declared
   description: The Manage Local Holdings Records API from WorldCat — 2 operation(s) for manage local holdings records.
   name: WorldCat Manage Local Holdings Records API
   slug: worldcat-manage-local-holdings-records-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://worldcat.org/webservices/kb
   baseurl_source: declared
   description: The Member Enabled Collections API from WorldCat — 2 operation(s) for member enabled collections.
   name: WorldCat Member Enabled Collections API
   slug: worldcat-member-enabled-collections-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://worldcat.org/webservices/kb
   baseurl_source: declared
   description: The Member Enabled Providers API from WorldCat — 2 operation(s) for member enabled providers.
   name: WorldCat Member Enabled Providers API
   slug: worldcat-member-enabled-providers-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://worldcat.org/webservices/kb
   baseurl_source: declared
   description: The Member Enabled Title by OpenURL API from WorldCat — 1 operation(s) for member enabled title by openurl.
   name: WorldCat Member Enabled Title by OpenURL API
   slug: worldcat-member-enabled-title-by-openurl-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://worldcat.org/webservices/kb
   baseurl_source: declared
   description: The Member Enabled Titles API from WorldCat — 2 operation(s) for member enabled titles.
   name: WorldCat Member Enabled Titles API
   slug: worldcat-member-enabled-titles-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://worldcat.org/webservices/kb
   baseurl_source: declared
   description: The Member Enabled Titles by OpenURL API from WorldCat — 1 operation(s) for member enabled titles by openurl.
   name: WorldCat Member Enabled Titles by OpenURL API
@@ -117,36 +119,33 @@ apis:
   description: The Member Shared Print Holdings API from WorldCat — 1 operation(s) for member shared print holdings.
   name: WorldCat Member Shared Print Holdings API
   slug: worldcat-member-shared-print-holdings-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://id.oclc.org/worldcat
   baseurl_source: declared
   description: The Retrieve entity API from WorldCat — 1 operation(s) for retrieve entity.
   name: WorldCat Retrieve entity API
   slug: worldcat-retrieve-entity-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://metadata.api.oclc.org
   baseurl_source: declared
   description: The Search Bibliographic Resources API from WorldCat — 4 operation(s) for search bibliographic resources.
   name: WorldCat Search Bibliographic Resources API
   slug: worldcat-search-bibliographic-resources-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://metadata.api.oclc.org
   baseurl_source: declared
   description: The Search Local Holdings Resources API from WorldCat — 4 operation(s) for search local holdings resources.
   name: WorldCat Search Local Holdings Resources API
   slug: worldcat-search-local-holdings-resources-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://metadata.api.oclc.org
   baseurl_source: declared
   description: The Search Member General Holdings API from WorldCat — 2 operation(s) for search member general holdings.
   name: WorldCat Search Member General Holdings API
   slug: worldcat-search-member-general-holdings-api
-- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+- baseURL: https://metadata.api.oclc.org
   baseurl_source: declared
   description: The Search Member Shared Print Holdings API from WorldCat — 1 operation(s) for search member shared print holdings.
   name: WorldCat Search Member Shared Print Holdings API
   slug: worldcat-search-member-shared-print-holdings-api
-artifact_total: 53
+artifact_total: 52
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: WorldCat Entity Data Bibliographic Resources API
   slug: open-worldcat-bibliographic-resources-api
@@ -206,27 +205,27 @@ collections:
   slug: open-worldcat-search-member-shared-print-holdings-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/capabilities/worldcat-capability-edges.yml
+  href: https://artifacts.apis.io/worldcat/capabilities/worldcat-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/worldcat-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/agentic-access/worldcat-agentic-access.yml
+  href: https://artifacts.apis.io/worldcat/agentic-access/worldcat-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/worldcat-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/security/worldcat-domain-security.yml
+  href: https://artifacts.apis.io/worldcat/security/worldcat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/worldcat-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/authentication/worldcat-authentication.yml
+  href: https://artifacts.apis.io/worldcat/authentication/worldcat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/worldcat-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/scopes/worldcat-scopes.yml
+  href: https://artifacts.apis.io/worldcat/scopes/worldcat-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/worldcat-scopes.yml
@@ -263,17 +262,17 @@ common:
   type: X
   url: https://x.com/oclcdevnetwork
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/plans/worldcat-plans-pricing.yml
+  href: https://artifacts.apis.io/worldcat/plans/worldcat-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/worldcat-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/rate-limits/worldcat-rate-limits.yml
+  href: https://artifacts.apis.io/worldcat/rate-limits/worldcat-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/worldcat-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/finops/worldcat-finops.yml
+  href: https://artifacts.apis.io/worldcat/finops/worldcat-finops.yml
   title: ''
   type: FinOps
   url: finops/worldcat-finops.yml
@@ -322,7 +321,7 @@ plans:
 - name: Worldcat Plans Pricing
   plan_count: 4
   slug: worldcat-plans-pricing
-random_paper: 6
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Worldcat Rate Limits
@@ -346,7 +345,7 @@ scopes:
   summary_line: 26 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 33.2
+  composite: 35.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 57.3
@@ -354,15 +353,15 @@ score:
     catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.4
+  delta: 0.0
   facets:
-    access_clarity: 7.9
+    access_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 57.2
+    contract_quality: 54.3
     developer_ergonomics: 23.8
     discoverability: 71.4
     operational_transparency: 28.9
-  previous_composite: 41.6
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -376,13 +375,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/screenshots/worldcat-2026-06-20T201621.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/worldcat/worldcat-2026-06-20T201621.png
 security:
 - kind: authentication
   name: Worldcat Authentication

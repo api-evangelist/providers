@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
-    idempotency: na
+    event_surface_described: true
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
-    spec_presence: true
+    reversibility_documented: false
+    spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 9.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,11 +65,8 @@ apis:
   description: One-time supporters (tips / coffees) and their messages.
   name: Buy Me a Coffee Supporters API
   slug: buymeacoffee-supporters-api
-artifact_total: 15
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Buy Me a Coffee Extras API
   slug: open-buymeacoffee-extras-api
@@ -90,17 +89,17 @@ common:
   type: BlogRSS
   url: https://buymeacoffee.com/blog/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/agentic-access/buymeacoffee-agentic-access.yml
+  href: https://artifacts.apis.io/buymeacoffee/agentic-access/buymeacoffee-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/buymeacoffee-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/security/buymeacoffee-domain-security.yml
+  href: https://artifacts.apis.io/buymeacoffee/security/buymeacoffee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/buymeacoffee-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/authentication/buymeacoffee-authentication.yml
+  href: https://artifacts.apis.io/buymeacoffee/authentication/buymeacoffee-authentication.yml
   title: ''
   type: Authentication
   url: authentication/buymeacoffee-authentication.yml
@@ -117,17 +116,17 @@ common:
   type: Documentation
   url: https://developers.buymeacoffee.com/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/plans/buymeacoffee-plans-pricing.yml
+  href: https://artifacts.apis.io/buymeacoffee/plans/buymeacoffee-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/buymeacoffee-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/rate-limits/buymeacoffee-rate-limits.yml
+  href: https://artifacts.apis.io/buymeacoffee/rate-limits/buymeacoffee-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/buymeacoffee-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/finops/buymeacoffee-finops.yml
+  href: https://artifacts.apis.io/buymeacoffee/finops/buymeacoffee-finops.yml
   title: ''
   type: FinOps
   url: finops/buymeacoffee-finops.yml
@@ -155,14 +154,14 @@ plans:
 - name: Buymeacoffee Plans Pricing
   plan_count: 2
   slug: buymeacoffee-plans-pricing
-random_paper: 5
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Buymeacoffee Rate Limits
   slug: buymeacoffee-rate-limits
 score:
   band: emerging
-  composite: 24.9
+  composite: 14.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 42.0
@@ -170,36 +169,36 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.5
+  delta: -11.3
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
-    contract_quality: 50.2
-    developer_ergonomics: 25.0
+    contract_quality: 6.0
+    developer_ergonomics: 28.1
     discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 31.4
+  previous_composite: 25.8
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 10.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: falling
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/screenshots/buymeacoffee-2026-07-25T204126.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/buymeacoffee/buymeacoffee-2026-07-25T204126.png
 security:
 - kind: authentication
   name: Buymeacoffee Authentication

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 22.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -111,11 +113,8 @@ apis:
   description: Collection of workload instances sharing common properties
   name: Istio WorkloadGroup API
   slug: istio-workloadgroup-api
-artifact_total: 49
+artifact_total: 48
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Istio Extensions AuthorizationPolicy API
   slug: open-istio-authorizationpolicy-api
@@ -163,37 +162,37 @@ collections:
   slug: open-istio-workloadgroup-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/plans/istio-plans-pricing.yml
+  href: https://artifacts.apis.io/istio/plans/istio-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/istio-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/rate-limits/istio-rate-limits.yml
+  href: https://artifacts.apis.io/istio/rate-limits/istio-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/istio-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/finops/istio-finops.yml
+  href: https://artifacts.apis.io/istio/finops/istio-finops.yml
   title: ''
   type: FinOps
   url: finops/istio-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/capabilities/istio-capability-edges.yml
+  href: https://artifacts.apis.io/istio/capabilities/istio-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/istio-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/agentic-access/istio-agentic-access.yml
+  href: https://artifacts.apis.io/istio/agentic-access/istio-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/istio-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/security/istio-domain-security.yml
+  href: https://artifacts.apis.io/istio/security/istio-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/istio-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/authentication/istio-authentication.yml
+  href: https://artifacts.apis.io/istio/authentication/istio-authentication.yml
   title: ''
   type: Authentication
   url: authentication/istio-authentication.yml
@@ -202,22 +201,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/istio
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/json-ld/istio-context.jsonld
+  href: https://artifacts.apis.io/istio/json-ld/istio-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/istio-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/json-schema/virtual-service.json
+  href: https://artifacts.apis.io/istio/json-schema/virtual-service.json
   title: ''
   type: JSONSchema
   url: json-schema/virtual-service.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/json-schema/destination-rule.json
+  href: https://artifacts.apis.io/istio/json-schema/destination-rule.json
   title: ''
   type: JSONSchema
   url: json-schema/destination-rule.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/json-schema/gateway.json
+  href: https://artifacts.apis.io/istio/json-schema/gateway.json
   title: ''
   type: JSONSchema
   url: json-schema/gateway.json
@@ -347,7 +346,7 @@ plans:
 - name: Istio Plans Pricing
   plan_count: 1
   slug: istio-plans-pricing
-random_paper: 2
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Istio Rate Limits
@@ -366,7 +365,7 @@ rules:
   slug: istio-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.9
+  composite: 36.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 59.3
@@ -374,14 +373,14 @@ score:
     catalog_gap: 55.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 9.8
     contract_quality: 58.4
-    developer_ergonomics: 38.1
+    developer_ergonomics: 40.5
     discoverability: 64.3
-    operational_transparency: 34.2
+    operational_transparency: 36.8
   previous_composite: 36.4
   provenance:
     agentic_access: derived
@@ -396,13 +395,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/screenshots/istio-2026-06-20T183628.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/istio/istio-2026-06-20T183628.png
 security:
 - kind: authentication
   name: Istio Authentication

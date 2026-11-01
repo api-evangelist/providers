@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -90,11 +92,8 @@ apis:
   description: Cloud resources and assignment rules
   name: OptScale Resources API
   slug: optscale-resources-api
-artifact_total: 26
+artifact_total: 25
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OptScale REST Authentication API
   slug: open-optscale-authentication-api
@@ -127,22 +126,22 @@ collections:
   slug: open-optscale
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/plans/optscale-plans-pricing.yml
+  href: https://artifacts.apis.io/optscale/plans/optscale-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/optscale-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/rate-limits/optscale-rate-limits.yml
+  href: https://artifacts.apis.io/optscale/rate-limits/optscale-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/optscale-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/finops/optscale-finops.yml
+  href: https://artifacts.apis.io/optscale/finops/optscale-finops.yml
   title: ''
   type: FinOps
   url: finops/optscale-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/capabilities/optscale-capability-edges.yml
+  href: https://artifacts.apis.io/optscale/capabilities/optscale-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/optscale-capability-edges.yml
@@ -171,17 +170,17 @@ common:
   type: License
   url: https://github.com/hystax/optscale/blob/integration/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/agentic-access/optscale-agentic-access.yml
+  href: https://artifacts.apis.io/optscale/agentic-access/optscale-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/optscale-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/security/optscale-domain-security.yml
+  href: https://artifacts.apis.io/optscale/security/optscale-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/optscale-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/authentication/optscale-authentication.yml
+  href: https://artifacts.apis.io/optscale/authentication/optscale-authentication.yml
   title: ''
   type: Authentication
   url: authentication/optscale-authentication.yml
@@ -215,7 +214,7 @@ finops:
 - has_sources: false
   method: generated
   name: Optscale Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: optscale-finops
   template: true
@@ -233,14 +232,14 @@ plans:
 - name: Optscale Plans Pricing
   plan_count: 3
   slug: optscale-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Optscale Rate Limits
   slug: optscale-rate-limits
 score:
   band: thin
-  composite: 36.2
+  composite: 30.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 38.0
@@ -248,18 +247,15 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 42.2
     developer_ergonomics: 35.7
     discoverability: 64.3
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 37.6
+    operational_transparency: 39.5
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -273,13 +269,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/screenshots/optscale-2026-06-20T191116.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/optscale/optscale-2026-06-20T191116.png
 security:
 - kind: authentication
   name: Optscale Authentication

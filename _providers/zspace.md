@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: 'The zSpace Core SDK is a native C API (documented as native_sdk_4.0) that lets an application drive a zSpace display: it loads the SDK runtime, detects connected peripherals, and exposes fourteen API '
@@ -75,72 +77,72 @@ common:
   type: InvestorRelations
   url: https://investor.zspace.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zspace/refs/heads/main/well-known/zspace-well-known.yml
+  href: https://artifacts.apis.io/zspace/well-known/zspace-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/zspace-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zspace/refs/heads/main/authentication/zspace-authentication.yml
+  href: https://artifacts.apis.io/zspace/authentication/zspace-authentication.yml
   title: ''
   type: Authentication
   url: authentication/zspace-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zspace/refs/heads/main/scopes/zspace-scopes.yml
+  href: https://artifacts.apis.io/zspace/scopes/zspace-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/zspace-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zspace/refs/heads/main/conformance/zspace-conformance.yml
+  href: https://artifacts.apis.io/zspace/conformance/zspace-conformance.yml
   title: ''
   type: Conformance
   url: conformance/zspace-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/zspace/refs/heads/main/security/zspace-domain-security.yml
+  href: https://artifacts.apis.io/zspace/security/zspace-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/zspace-domain-security.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zspace/refs/heads/main/packages/zspace-packages.yml
+  href: https://artifacts.apis.io/zspace/packages/zspace-packages.yml
   title: ''
   type: Packages
   url: packages/zspace-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/zspace/refs/heads/main/packages/zspace-packages.yml
+  href: https://artifacts.apis.io/zspace/packages/zspace-packages.yml
   title: ''
   type: SDKs
   url: packages/zspace-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/zspace/refs/heads/main/llms/zspace-llms.txt
+  href: https://artifacts.apis.io/zspace/llms/zspace-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/zspace-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zspace/refs/heads/main/lifecycle/zspace-lifecycle.yml
+  href: https://artifacts.apis.io/zspace/lifecycle/zspace-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/zspace-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zspace/refs/heads/main/conventions/zspace-conventions.yml
+  href: https://artifacts.apis.io/zspace/conventions/zspace-conventions.yml
   title: ''
   type: Conventions
   url: conventions/zspace-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/zspace/refs/heads/main/errors/zspace-problem-types.yml
+  href: https://artifacts.apis.io/zspace/errors/zspace-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/zspace-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zspace/refs/heads/main/changelog/zspace-changelog.yml
+  href: https://artifacts.apis.io/zspace/changelog/zspace-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/zspace-changelog.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/zspace/refs/heads/main/plans/zspace-plans-pricing.yml
+  href: https://artifacts.apis.io/zspace/plans/zspace-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/zspace-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/zspace/refs/heads/main/rate-limits/zspace-rate-limits.yml
+  href: https://artifacts.apis.io/zspace/rate-limits/zspace-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/zspace-rate-limits.yml
@@ -161,7 +163,7 @@ plans:
 - name: Zspace Plans Pricing
   plan_count: 0
   slug: zspace-plans-pricing
-random_paper: 8
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Zspace Rate Limits
@@ -173,7 +175,7 @@ scopes:
   summary_line: 9 scopes
 score:
   band: emerging
-  composite: 21.7
+  composite: 25.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -183,12 +185,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 42.9
-    discoverability: 73.2
-    operational_transparency: 18.4
+    developer_ergonomics: 52.4
+    discoverability: 66.1
+    operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -196,7 +198,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 21.7
+  previous_composite: 25.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -206,14 +208,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/zspace/refs/heads/main/screenshots/zspace-2026-10-11T195543.png
+screenshot: https://apis.io/screenshots/zspace/zspace-2026-10-11T195543.png
 security:
 - kind: authentication
   name: Zspace Authentication

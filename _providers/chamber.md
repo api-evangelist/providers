@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-10-17'
+  score: 21.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.usechamber.io/v1
@@ -57,11 +59,8 @@ apis:
   description: List, retrieve, and get statistics for GPU workloads
   name: Chamber Workloads API
   slug: chamber-workloads-api
-artifact_total: 12
+artifact_total: 14
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Chamber Capacity API
   slug: open-chamber-capacity-api
@@ -76,17 +75,17 @@ collections:
   slug: open-chamber-workloads-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/plans/chamber-plans-pricing.yml
+  href: https://artifacts.apis.io/chamber/plans/chamber-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/chamber-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/capabilities/chamber-capability-edges.yml
+  href: https://artifacts.apis.io/chamber/capabilities/chamber-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/chamber-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/overlays/chamber-openapi-overlay.yaml
+  href: https://artifacts.apis.io/chamber/overlays/chamber-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/chamber-openapi-overlay.yaml
@@ -139,77 +138,85 @@ common:
   type: StatusPage
   url: https://status.usechamber.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/llms/chamber-llms.txt
+  href: https://artifacts.apis.io/chamber/llms/chamber-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/chamber-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/authentication/chamber-authentication.yml
+  href: https://artifacts.apis.io/chamber/authentication/chamber-authentication.yml
   title: ''
   type: Authentication
   url: authentication/chamber-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/conventions/chamber-conventions.yml
+  href: https://artifacts.apis.io/chamber/conventions/chamber-conventions.yml
   title: ''
   type: Conventions
   url: conventions/chamber-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/errors/chamber-problem-types.yml
+  href: https://artifacts.apis.io/chamber/errors/chamber-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/chamber-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/lifecycle/chamber-lifecycle.yml
+  href: https://artifacts.apis.io/chamber/lifecycle/chamber-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/chamber-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/conformance/chamber-conformance.yml
+  href: https://artifacts.apis.io/chamber/conformance/chamber-conformance.yml
   title: ''
   type: Conformance
   url: conformance/chamber-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/data-model/chamber-data-model.yml
+  href: https://artifacts.apis.io/chamber/data-model/chamber-data-model.yml
   title: ''
   type: DataModel
   url: data-model/chamber-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/packages/chamber-packages.yml
+  href: https://artifacts.apis.io/chamber/packages/chamber-packages.yml
   title: ''
   type: Packages
   url: packages/chamber-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/packages/chamber-packages.yml
+  href: https://artifacts.apis.io/chamber/packages/chamber-packages.yml
   title: ''
   type: SDKs
   url: packages/chamber-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/cli/chamber-cli.yml
+  href: https://artifacts.apis.io/chamber/cli/chamber-cli.yml
   title: ''
   type: CLI
   url: cli/chamber-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/mcp/chamber-mcp.yml
+  href: https://artifacts.apis.io/chamber/mcp/chamber-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/chamber-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/skills/chamber-monitor-gpu-workloads.md
+  href: https://artifacts.apis.io/chamber/skills/chamber-monitor-gpu-workloads.md
   title: ''
   type: AgentSkill
   url: skills/chamber-monitor-gpu-workloads.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/skills/chamber-track-gpu-capacity.md
+  href: https://artifacts.apis.io/chamber/skills/chamber-track-gpu-capacity.md
   title: ''
   type: AgentSkill
   url: skills/chamber-track-gpu-capacity.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/security/chamber-domain-security.yml
+  href: https://artifacts.apis.io/chamber/security/chamber-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/chamber-domain-security.yml
 created: '2026-07-17'
 description: Chamber is an AIOps control plane for enterprise AI infrastructure (Y Combinator W26, Seattle). Its always-on agent — Chambie — monitors, diagnoses, and automatically resolves GPU workload failures across AWS, GCP, Azure, and on-premise Kubernetes clusters, and optimizes utilization so ML teams can run more workloads on the same GPUs without manual intervention. Chamber ships a REST API, an official Python SDK (chamber-sdk), and a `chamber` CLI for submitting GPU workloads, querying capacity budgets and GPU-hour allocations, and reading GPU utilization / memory / temperature / power metrics, plus Slack and email integrations and Terraform modules for GPU-ready EKS and GKE clusters.
+finops:
+- has_sources: true
+  method: derived
+  name: Chamber Finops
+  primary_unit: ''
+  service_category: ''
+  slug: chamber-finops
+  template: true
 image: https://usechamber.io/og-image.png
 layout: provider
 modified: '2026-07-18'
@@ -224,12 +231,12 @@ plans:
 - name: Chamber Plans Pricing
   plan_count: 0
   slug: chamber-plans-pricing
-random_paper: 18
+random_paper: 2
 score:
   band: developing
-  composite: 42.5
+  composite: 42.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -241,9 +248,9 @@ score:
     contract_governance: 4.5
     contract_quality: 51.4
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 18.4
-  previous_composite: 42.5
+    discoverability: 66.1
+    operational_transparency: 21.1
+  previous_composite: 42.2
   provenance:
     conformance: derived
     contracts:
@@ -259,14 +266,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/screenshots/chamber-2026-07-25T205029.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/chamber/chamber-2026-07-25T205029.png
 security:
 - kind: authentication
   name: Chamber Authentication
@@ -276,6 +283,12 @@ security:
   name: Chamber Domain Security
   slug: chamber-domain-security
   summary_line: TLSv1.3 · DNSSEC
+skill_count: 2
+skills:
+- name: Monitor GPU workloads
+  slug: chamber-monitor-gpu-workloads
+- name: Track GPU capacity and spend
+  slug: chamber-track-gpu-capacity
 slug: chamber
 tags:
 - GPU

@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -9,21 +9,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 41.7
-  scored_at: '2026-10-17'
+  score: 37.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +33,7 @@ agentic_access:
   operation_count: 15
   slug: 5dollarfootballapi-agentic-access
   summary_line: 15 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.5dollarfootballapi.com/v1
   baseurl_source: declared
@@ -73,80 +75,80 @@ apis:
   description: The bookmakers quoted by the odds endpoints.
   name: 5DollarFootballAPI Bookmakers API
   slug: 5dollarfootballapi-bookmakers-api
-artifact_total: 16
+artifact_total: 18
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/agentic-access/5dollarfootballapi-agentic-access.yml
+  href: https://artifacts.apis.io/5dollarfootballapi/agentic-access/5dollarfootballapi-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/5dollarfootballapi-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/plans/5dollarfootballapi-plans-pricing.yml
+  href: https://artifacts.apis.io/5dollarfootballapi/plans/5dollarfootballapi-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/5dollarfootballapi-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/rules/5dollarfootballapi-rules.yml
+  href: https://artifacts.apis.io/5dollarfootballapi/rules/5dollarfootballapi-rules.yml
   title: ''
   type: Spectral
   url: rules/5dollarfootballapi-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/json-ld/5dollarfootballapi-context.jsonld
+  href: https://artifacts.apis.io/5dollarfootballapi/json-ld/5dollarfootballapi-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/5dollarfootballapi-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/vocabulary/5dollarfootballapi-vocabulary.yml
+  href: https://artifacts.apis.io/5dollarfootballapi/vocabulary/5dollarfootballapi-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/5dollarfootballapi-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/data-model/5dollarfootballapi-data-model.yml
+  href: https://artifacts.apis.io/5dollarfootballapi/data-model/5dollarfootballapi-data-model.yml
   title: ''
   type: DataModel
   url: data-model/5dollarfootballapi-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/changelog/5dollarfootballapi-changelog.yml
+  href: https://artifacts.apis.io/5dollarfootballapi/changelog/5dollarfootballapi-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/5dollarfootballapi-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/security/5dollarfootballapi-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/5dollarfootballapi/security/5dollarfootballapi-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/5dollarfootballapi-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/errors/5dollarfootballapi-problem-types.yml
+  href: https://artifacts.apis.io/5dollarfootballapi/errors/5dollarfootballapi-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/5dollarfootballapi-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/conformance/5dollarfootballapi-conformance.yml
+  href: https://artifacts.apis.io/5dollarfootballapi/conformance/5dollarfootballapi-conformance.yml
   title: ''
   type: Conformance
   url: conformance/5dollarfootballapi-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/llms/5dollarfootballapi-llms.txt
+  href: https://artifacts.apis.io/5dollarfootballapi/llms/5dollarfootballapi-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/5dollarfootballapi-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/well-known/5dollarfootballapi-security.txt
+  href: https://artifacts.apis.io/5dollarfootballapi/well-known/5dollarfootballapi-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/5dollarfootballapi-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/well-known/5dollarfootballapi-well-known.yml
+  href: https://artifacts.apis.io/5dollarfootballapi/well-known/5dollarfootballapi-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/5dollarfootballapi-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/hosts/5dollarfootballapi-hosts.yml
+  href: https://artifacts.apis.io/5dollarfootballapi/hosts/5dollarfootballapi-hosts.yml
   title: ''
   type: Hosts
   url: hosts/5dollarfootballapi-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/vendors/5dollarfootballapi-vendors.yml
+  href: https://artifacts.apis.io/5dollarfootballapi/vendors/5dollarfootballapi-vendors.yml
   title: ''
   type: Vendors
   url: vendors/5dollarfootballapi-vendors.yml
@@ -159,17 +161,17 @@ common:
   type: StatusPage
   url: https://5dollarfootballapi.com/status
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/authentication/5dollarfootballapi-authentication.yml
+  href: https://artifacts.apis.io/5dollarfootballapi/authentication/5dollarfootballapi-authentication.yml
   title: ''
   type: Authentication
   url: authentication/5dollarfootballapi-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/security/5dollarfootballapi-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/5dollarfootballapi/security/5dollarfootballapi-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/5dollarfootballapi-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/security/5dollarfootballapi-domain-security.yml
+  href: https://artifacts.apis.io/5dollarfootballapi/security/5dollarfootballapi-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/5dollarfootballapi-domain-security.yml
@@ -227,6 +229,14 @@ common:
   url: https://5dollarfootballapi.com/privacy
 created: '2026-08-19'
 description: A read‑only REST football (soccer) data API offering comprehensive live scores, detailed fixtures, league standings, team and player statistics, match events, corner and card data, as well as bookmaker odds and a status endpoint. It provides fifteen operations across seven tags, hosted on a versioned API under bearer‑token or API‑key authentication, priced affordably at $5 per month for developers seeking reliable sports data.
+finops:
+- has_sources: true
+  method: derived
+  name: 5Dollarfootballapi Finops
+  primary_unit: ''
+  service_category: ''
+  slug: 5dollarfootballapi-finops
+  template: true
 image: https://5dollarfootballapi.com/logo.png
 json_schemas:
 - name: SuccessEnvelope
@@ -253,6 +263,9 @@ plans:
 - name: 5Dollarfootballapi Plans Pricing
   plan_count: 6
   slug: 5dollarfootballapi-plans-pricing
+- name: 5Dollarfootballapi Price Estimates
+  plan_count: 0
+  slug: 5dollarfootballapi-price-estimates
 random_paper: 8
 rules:
 - authorship: generated
@@ -271,13 +284,13 @@ score:
   band: strong
   composite: 58.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 65.2
     catalog_earned_first_party: 12.0
     catalog_gap: 49.9
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 23.7
+  delta: -0.7
   facets:
     access_clarity: 84.2
     contract_governance: 22.0
@@ -285,7 +298,7 @@ score:
     developer_ergonomics: 40.5
     discoverability: 73.2
     operational_transparency: 42.1
-  previous_composite: 34.3
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -301,14 +314,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/screenshots/5dollarfootballapi-2026-09-02T144104.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/5dollarfootballapi/5dollarfootballapi-2026-09-02T144104.png
 security:
 - kind: authentication
   name: 5Dollarfootballapi Authentication

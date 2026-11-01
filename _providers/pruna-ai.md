@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-10-17'
+  score: 35.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 4
   slug: pruna-ai-agentic-access
   summary_line: 4 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.pruna.ai
   baseurl_source: declared
@@ -60,11 +62,8 @@ apis:
   description: Core prediction workflow operations
   name: Pruna AI Predictions API
   slug: pruna-ai-predictions-api
-artifact_total: 12
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: P Content Delivery API
   slug: open-pruna-ai-content-delivery-api
@@ -75,13 +74,18 @@ collections:
   name: P Content Delivery Predictions API
   slug: open-pruna-ai-predictions-api
 common:
+- group: other
+  href: https://artifacts.apis.io/pruna-ai/capabilities/pruna-ai-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pruna-ai-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/plans/pruna-ai-plans-pricing.yml
+  href: https://artifacts.apis.io/pruna-ai/plans/pruna-ai-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pruna-ai-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/overlays/pruna-ai-openapi-overlay.yaml
+  href: https://artifacts.apis.io/pruna-ai/overlays/pruna-ai-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/pruna-ai-openapi-overlay.yaml
@@ -134,72 +138,72 @@ common:
   type: Sandbox
   url: https://demo.pruna.ai/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/authentication/pruna-ai-authentication.yml
+  href: https://artifacts.apis.io/pruna-ai/authentication/pruna-ai-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pruna-ai-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/conventions/pruna-ai-conventions.yml
+  href: https://artifacts.apis.io/pruna-ai/conventions/pruna-ai-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pruna-ai-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/errors/pruna-ai-problem-types.yml
+  href: https://artifacts.apis.io/pruna-ai/errors/pruna-ai-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/pruna-ai-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/lifecycle/pruna-ai-lifecycle.yml
+  href: https://artifacts.apis.io/pruna-ai/lifecycle/pruna-ai-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pruna-ai-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/conformance/pruna-ai-conformance.yml
+  href: https://artifacts.apis.io/pruna-ai/conformance/pruna-ai-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pruna-ai-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/data-model/pruna-ai-data-model.yml
+  href: https://artifacts.apis.io/pruna-ai/data-model/pruna-ai-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pruna-ai-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/rate-limits/pruna-ai-rate-limits.yml
+  href: https://artifacts.apis.io/pruna-ai/rate-limits/pruna-ai-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pruna-ai-rate-limits.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/packages/pruna-ai-packages.yml
+  href: https://artifacts.apis.io/pruna-ai/packages/pruna-ai-packages.yml
   title: ''
   type: Packages
   url: packages/pruna-ai-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/packages/pruna-ai-packages.yml
+  href: https://artifacts.apis.io/pruna-ai/packages/pruna-ai-packages.yml
   title: ''
   type: SDKs
   url: packages/pruna-ai-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/mcp/pruna-ai-mcp.yml
+  href: https://artifacts.apis.io/pruna-ai/mcp/pruna-ai-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/pruna-ai-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/llms/pruna-ai-llms.txt
+  href: https://artifacts.apis.io/pruna-ai/llms/pruna-ai-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pruna-ai-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pruna-ai/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/agentic-access/pruna-ai-agentic-access.yml
+  href: https://artifacts.apis.io/pruna-ai/agentic-access/pruna-ai-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pruna-ai-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/security/pruna-ai-domain-security.yml
+  href: https://artifacts.apis.io/pruna-ai/security/pruna-ai-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pruna-ai-domain-security.yml
@@ -209,6 +213,14 @@ common:
   url: https://www.pruna.ai/
 created: '2026-07-17'
 description: 'Pruna AI builds Performance Models (P-Series) — optimized image and video generation models engineered to be faster, cheaper, and smaller than standard alternatives while keeping quality high. It ships three ways: a hosted HTTP API (P-API) that exposes ~20 models (text-to-image, image editing, upscaling, virtual try-on, text/image-to-video, avatar, animation and replacement, plus LoRA trainers) behind a single endpoint selected via a request header; an open-source Python optimization framework (pruna / pruna-pro) for caching, quantization, pruning, distillation and compilation of your own models; and hosted demos. The P-API uses apikey-header auth with an async submit/poll/download workflow and an optional synchronous mode. Pruna AI is a portfolio company of EQT Ventures.'
+finops:
+- has_sources: true
+  method: derived
+  name: Pruna Ai Finops
+  primary_unit: second
+  service_category: ''
+  slug: pruna-ai-finops
+  template: false
 image: https://framerusercontent.com/images/tM3dYw39zvWf45dsZXfTkZm0jNc.png
 layout: provider
 modified: '2026-07-20'
@@ -218,7 +230,7 @@ network: true
 overview: 'Pruna AI publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network: Content Delivery API, File Management API, and Predictions API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Image Generation, and Video Generation.
 
 
-  Pruna AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 22 more developer resources.'
+  Pruna AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 23 more developer resources.'
 plans:
 - name: Pruna Ai Plans Pricing
   plan_count: 14
@@ -229,24 +241,24 @@ rate_limits:
   name: Pruna Ai Rate Limits
   slug: pruna-ai-rate-limits
 score:
-  band: developing
-  composite: 51.4
+  band: strong
+  composite: 55.9
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 57.0
+    artifact_dirs: 23
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.0
+  delta: 1.5
   facets:
-    access_clarity: 63.2
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 52.7
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 23.7
-  previous_composite: 45.4
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,13 +275,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/screenshots/pruna-ai-2026-08-17T081359.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pruna-ai/pruna-ai-2026-08-17T081359.png
 security:
 - kind: authentication
   name: Pruna Ai Authentication
@@ -279,6 +292,14 @@ security:
   name: Pruna Ai Domain Security
   slug: pruna-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Edit images with Pruna P-API
+  slug: pruna-ai-edit-image
+- name: Generate an image with Pruna P-API
+  slug: pruna-ai-generate-image
+- name: Generate a video with Pruna P-API
+  slug: pruna-ai-generate-video
 slug: pruna-ai
 tags:
 - Company

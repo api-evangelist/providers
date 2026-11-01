@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 53.2
-  scored_at: '2026-10-17'
+  score: 48.1
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Server-side ad request API. A GET against the versioned endpoint with a placement key, user id, IP and user agent returns a JSON `ad` object (creative id, campaign id, window URL and dimensions, curre
@@ -46,7 +48,7 @@ apis:
 - description: Client-side JavaScript integration for publishers embedding true[X] engagement ads on the web. Loads truex.client from static.truex.com, exposes requestAd, loadAdIntoContainer, openAdWindow, trackTrig
   name: true[X] JavaScript Ad API
   slug: truex-media-js-ad-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Truex Media Webhooks
@@ -101,108 +103,116 @@ common:
   type: CookiePolicy
   url: https://infillion.com/cookie-policy/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/packages/truex-media-packages.yml
+  href: https://artifacts.apis.io/truex-media/packages/truex-media-packages.yml
   title: ''
   type: Packages
   url: packages/truex-media-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/packages/truex-media-packages.yml
+  href: https://artifacts.apis.io/truex-media/packages/truex-media-packages.yml
   title: ''
   type: SDKs
   url: packages/truex-media-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/components/truex-media-components.yml
+  href: https://artifacts.apis.io/truex-media/components/truex-media-components.yml
   title: ''
   type: Components
   url: components/truex-media-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/mcp/truex-media-mcp.yml
+  href: https://artifacts.apis.io/truex-media/mcp/truex-media-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/truex-media-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/well-known/truex-media-well-known.yml
+  href: https://artifacts.apis.io/truex-media/well-known/truex-media-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/truex-media-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/authentication/truex-media-authentication.yml
+  href: https://artifacts.apis.io/truex-media/authentication/truex-media-authentication.yml
   title: ''
   type: Authentication
   url: authentication/truex-media-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/conventions/truex-media-conventions.yml
+  href: https://artifacts.apis.io/truex-media/conventions/truex-media-conventions.yml
   title: ''
   type: Conventions
   url: conventions/truex-media-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/conventions/truex-media-conventions.yml
+  href: https://artifacts.apis.io/truex-media/conventions/truex-media-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/truex-media-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/errors/truex-media-error-codes.yml
+  href: https://artifacts.apis.io/truex-media/errors/truex-media-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/truex-media-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/asyncapi/truex-media-webhooks.yml
+  href: https://artifacts.apis.io/truex-media/asyncapi/truex-media-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/truex-media-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/lifecycle/truex-media-lifecycle.yml
+  href: https://artifacts.apis.io/truex-media/lifecycle/truex-media-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/truex-media-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/lifecycle/truex-media-lifecycle.yml
+  href: https://artifacts.apis.io/truex-media/lifecycle/truex-media-lifecycle.yml
   title: ''
   type: Deprecation
   url: lifecycle/truex-media-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/changelog/truex-media-changelog.yml
+  href: https://artifacts.apis.io/truex-media/changelog/truex-media-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/truex-media-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/conformance/truex-media-conformance.yml
+  href: https://artifacts.apis.io/truex-media/conformance/truex-media-conformance.yml
   title: ''
   type: Conformance
   url: conformance/truex-media-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/data-model/truex-media-data-model.yml
+  href: https://artifacts.apis.io/truex-media/data-model/truex-media-data-model.yml
   title: ''
   type: DataModel
   url: data-model/truex-media-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/sandbox/truex-media-sandbox.yml
+  href: https://artifacts.apis.io/truex-media/sandbox/truex-media-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/truex-media-sandbox.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/rate-limits/truex-media-rate-limits.yml
+  href: https://artifacts.apis.io/truex-media/rate-limits/truex-media-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/truex-media-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/plans/truex-media-plans-pricing.yml
+  href: https://artifacts.apis.io/truex-media/plans/truex-media-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/truex-media-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/security/truex-media-domain-security.yml
+  href: https://artifacts.apis.io/truex-media/security/truex-media-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/truex-media-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/llms/truex-media-llms.txt
+  href: https://artifacts.apis.io/truex-media/llms/truex-media-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/truex-media-llms.txt
 created: '2026-07-17'
 description: TrueX (stylized true[X]) is an interactive, opt-in video advertising company now operating as part of Infillion. Its technology delivers "attention-based" ad experiences — Choice Cards and interactive engagement units that let viewers opt in to a single, longer branded interaction in exchange for an ad-free content break — across connected TV (CTV), over-the-top (OTT), mobile, and web. The company originated as SocialVibe (a Redpoint Ventures portfolio company), was acquired by 21st Century Fox, and is now a video advertising product within Infillion alongside MediaMath, InStadium, Gimbal, and Catalina. true[X] publishes two real HTTP APIs from its own truex.com hosts — a Web Service Ad API at get.truex.com/v2 that returns a JSON ad object for server-side ad requests, and a Reporting API at api.truex.com/v1 that returns publisher performance by placement, day and campaign — alongside a signed server-to-server engagement callback. Its primary integration surface remains the TruexAdRenderer
   (TAR) client SDK, published first-party from the "socialvibe" GitHub organization and the @truex npm scope for iOS, tvOS, Android/Fire TV, Roku, Amazon Vega OS, and CTV/HTML5 web. Parent company Infillion also operates Infillion Agent Connector, an MCP-based agent-native media execution layer at mcp.infillion.com.
+finops:
+- has_sources: true
+  method: derived
+  name: Truex Media Finops
+  primary_unit: ''
+  service_category: ''
+  slug: truex-media-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/truex-media.png
 layout: provider
 mcp_servers:
@@ -224,30 +234,30 @@ plans:
 - name: Truex Media Plans Pricing
   plan_count: 0
   slug: truex-media-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Truex Media Rate Limits
   slug: truex-media-rate-limits
 score:
   band: developing
-  composite: 46.9
+  composite: 46.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
-    discoverability: 80.0
-    operational_transparency: 34.2
-  previous_composite: 46.8
+    discoverability: 70.0
+    operational_transparency: 36.8
+  previous_composite: 46.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -257,14 +267,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/truex-media/refs/heads/main/screenshots/truex-media-2026-08-17T082454.png
+screenshot: https://apis.io/screenshots/truex-media/truex-media-2026-08-17T082454.png
 security:
 - kind: authentication
   name: Truex Media Authentication

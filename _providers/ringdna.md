@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.7
-  scored_at: '2026-10-17'
+  score: 27.6
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Programmatic entry points into the Guided Selling managed package for completing participant actions, skipping (deferring) participant actions, and creating sequence-independent quick actions. These a
@@ -45,12 +47,12 @@ apis:
 artifact_total: 10
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/security/ringdna-trust-center.yml
+  href: https://artifacts.apis.io/ringdna/security/ringdna-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/ringdna-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/security/ringdna-domain-security.yml
+  href: https://artifacts.apis.io/ringdna/security/ringdna-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ringdna-domain-security.yml
@@ -87,52 +89,52 @@ common:
   type: X
   url: https://twitter.com/revenue_io
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/plans/ringdna-plans-pricing.yml
+  href: https://artifacts.apis.io/ringdna/plans/ringdna-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ringdna-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/rate-limits/ringdna-rate-limits.yml
+  href: https://artifacts.apis.io/ringdna/rate-limits/ringdna-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ringdna-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/finops/ringdna-finops.yml
+  href: https://artifacts.apis.io/ringdna/finops/ringdna-finops.yml
   title: ''
   type: FinOps
   url: finops/ringdna-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/mcp/ringdna-mcp.yml
+  href: https://artifacts.apis.io/ringdna/mcp/ringdna-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/ringdna-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/llms/ringdna-llms.txt
+  href: https://artifacts.apis.io/ringdna/llms/ringdna-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ringdna-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/well-known/ringdna-well-known.yml
+  href: https://artifacts.apis.io/ringdna/well-known/ringdna-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ringdna-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/authentication/ringdna-authentication.yml
+  href: https://artifacts.apis.io/ringdna/authentication/ringdna-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ringdna-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/scopes/ringdna-scopes.yml
+  href: https://artifacts.apis.io/ringdna/scopes/ringdna-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ringdna-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/packages/ringdna-packages.yml
+  href: https://artifacts.apis.io/ringdna/packages/ringdna-packages.yml
   title: ''
   type: Packages
   url: packages/ringdna-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/conformance/ringdna-conformance.yml
+  href: https://artifacts.apis.io/ringdna/conformance/ringdna-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ringdna-conformance.yml
@@ -141,32 +143,32 @@ common:
   type: Compliance
   url: https://www.revenue.io/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/errors/ringdna-error-codes.yml
+  href: https://artifacts.apis.io/ringdna/errors/ringdna-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ringdna-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/lifecycle/ringdna-lifecycle.yml
+  href: https://artifacts.apis.io/ringdna/lifecycle/ringdna-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ringdna-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/changelog/ringdna-changelog.yml
+  href: https://artifacts.apis.io/ringdna/changelog/ringdna-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ringdna-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/data-model/ringdna-data-model.yml
+  href: https://artifacts.apis.io/ringdna/data-model/ringdna-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ringdna-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/conventions/ringdna-conventions.yml
+  href: https://artifacts.apis.io/ringdna/conventions/ringdna-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ringdna-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/sandbox/ringdna-sandbox.yml
+  href: https://artifacts.apis.io/ringdna/sandbox/ringdna-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ringdna-sandbox.yml
@@ -197,8 +199,8 @@ common:
 created: '2026-06-13'
 description: RingDNA (now Revenue.io) is an intelligent revenue platform providing REST APIs for sales dialing, call recording, conversation analytics, real-time coaching, and CRM integration. The platform is 100% Salesforce-native and serves revenue teams with AI-driven sales engagement, guided selling cadences, conversation intelligence, and revenue orchestration capabilities including the RingDNA Dialer, Moments real-time guidance, and Guided Selling API endpoints.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Ringdna Finops
   primary_unit: ''
   service_category: ''
@@ -222,7 +224,7 @@ plans:
 - name: Ringdna Plans Pricing
   plan_count: 3
   slug: ringdna-plans-pricing
-random_paper: 13
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Ringdna Rate Limits
@@ -234,7 +236,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.9
+  composite: 49.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 57.0
@@ -242,15 +244,15 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 78.9
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 75.0
+    developer_ergonomics: 54.8
+    discoverability: 65.0
     operational_transparency: 57.9
-  previous_composite: 42.4
+  previous_composite: 49.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -260,14 +262,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/screenshots/ringdna-2026-06-20T193122.png
+screenshot: https://apis.io/screenshots/ringdna/ringdna-2026-06-20T193122.png
 security:
 - kind: authentication
   name: Ringdna Authentication

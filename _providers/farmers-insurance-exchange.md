@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-insurance-exchange/refs/heads/main/security/farmers-insurance-exchange-domain-security.yml
+  href: https://artifacts.apis.io/farmers-insurance-exchange/security/farmers-insurance-exchange-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/farmers-insurance-exchange-domain-security.yml
@@ -78,22 +80,22 @@ common:
   type: Newsroom
   url: https://newsroom.farmers.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-insurance-exchange/refs/heads/main/packages/farmers-insurance-exchange-packages.yml
+  href: https://artifacts.apis.io/farmers-insurance-exchange/packages/farmers-insurance-exchange-packages.yml
   title: ''
   type: Packages
   url: packages/farmers-insurance-exchange-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-insurance-exchange/refs/heads/main/plans/farmers-insurance-exchange-plans-pricing.yml
+  href: https://artifacts.apis.io/farmers-insurance-exchange/plans/farmers-insurance-exchange-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/farmers-insurance-exchange-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-insurance-exchange/refs/heads/main/rate-limits/farmers-insurance-exchange-rate-limits.yml
+  href: https://artifacts.apis.io/farmers-insurance-exchange/rate-limits/farmers-insurance-exchange-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/farmers-insurance-exchange-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/farmers-insurance-exchange/refs/heads/main/llms/farmers-insurance-exchange-llms.txt
+  href: https://artifacts.apis.io/farmers-insurance-exchange/llms/farmers-insurance-exchange-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/farmers-insurance-exchange-llms.txt
@@ -154,7 +156,7 @@ rate_limits:
   slug: farmers-insurance-exchange-rate-limits
 score:
   band: emerging
-  composite: 11.5
+  composite: 14.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -164,11 +166,11 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 4.8
-    discoverability: 56.3
+    developer_ergonomics: 14.3
+    discoverability: 50.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -177,21 +179,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 11.5
+  previous_composite: 14.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 12.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/farmers-insurance-exchange/refs/heads/main/screenshots/farmers-insurance-exchange-2026-06-20T181045.png
+screenshot: https://apis.io/screenshots/farmers-insurance-exchange/farmers-insurance-exchange-2026-06-20T181045.png
 security:
 - kind: domain-security
   name: Farmers Insurance Exchange Domain Security

@@ -30,15 +30,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.2
-  scored_at: '2026-10-17'
-api_count: 8
+  score: 37.8
+  scored_at: '2026-10-31'
+api_count: 6
 apis:
 - baseURL: https://api.cdr.gov.au/cdr-register/v1
   baseurl_source: declared
@@ -125,7 +127,7 @@ apis:
   description: Register Operations endpoints
   name: Consumer Data Right (Energy) Register Operations API
   slug: cdr-energy-register-operations-api
-artifact_total: 33
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Cdr Energy Webhooks
@@ -151,37 +153,37 @@ collections:
   slug: open-cdr-register
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/capabilities/cdr-energy-capability-edges.yml
+  href: https://artifacts.apis.io/cdr-energy/capabilities/cdr-energy-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/cdr-energy-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/overlays/cdr-energy-register-overlay.yaml
+  href: https://artifacts.apis.io/cdr-energy/overlays/cdr-energy-register-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cdr-energy-register-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/overlays/cdr-energy-energy-overlay.yaml
+  href: https://artifacts.apis.io/cdr-energy/overlays/cdr-energy-energy-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cdr-energy-energy-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/overlays/cdr-energy-energy-sdh-overlay.yaml
+  href: https://artifacts.apis.io/cdr-energy/overlays/cdr-energy-energy-sdh-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cdr-energy-energy-sdh-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/overlays/cdr-energy-common-overlay.yaml
+  href: https://artifacts.apis.io/cdr-energy/overlays/cdr-energy-common-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cdr-energy-common-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/overlays/cdr-energy-dcr-overlay.yaml
+  href: https://artifacts.apis.io/cdr-energy/overlays/cdr-energy-dcr-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cdr-energy-dcr-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/overlays/cdr-energy-admin-overlay.yaml
+  href: https://artifacts.apis.io/cdr-energy/overlays/cdr-energy-admin-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/cdr-energy-admin-overlay.yaml
@@ -190,7 +192,7 @@ common:
   type: IssueTracker
   url: https://github.com/ConsumerDataStandardsAustralia/register/issues
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/security/cdr-energy-domain-security.yml
+  href: https://artifacts.apis.io/cdr-energy/security/cdr-energy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cdr-energy-domain-security.yml
@@ -243,27 +245,27 @@ common:
   type: Blog
   url: https://dsb.gov.au/news-and-announcements
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/authentication/cdr-energy-authentication.yml
+  href: https://artifacts.apis.io/cdr-energy/authentication/cdr-energy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cdr-energy-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/scopes/cdr-energy-scopes.yml
+  href: https://artifacts.apis.io/cdr-energy/scopes/cdr-energy-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cdr-energy-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/conventions/cdr-energy-conventions.yml
+  href: https://artifacts.apis.io/cdr-energy/conventions/cdr-energy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/cdr-energy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/errors/cdr-energy-problem-types.yml
+  href: https://artifacts.apis.io/cdr-energy/errors/cdr-energy-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/cdr-energy-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/lifecycle/cdr-energy-lifecycle.yml
+  href: https://artifacts.apis.io/cdr-energy/lifecycle/cdr-energy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cdr-energy-lifecycle.yml
@@ -276,7 +278,7 @@ common:
   type: Deprecation
   url: https://consumerdatastandardsaustralia.github.io/standards/#future-dated-obligations
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/changelog/cdr-energy-changelog.yml
+  href: https://artifacts.apis.io/cdr-energy/changelog/cdr-energy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cdr-energy-changelog.yml
@@ -285,12 +287,12 @@ common:
   type: ChangeLog
   url: https://github.com/ConsumerDataStandardsAustralia/standards/releases
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/rate-limits/cdr-energy-rate-limits.yml
+  href: https://artifacts.apis.io/cdr-energy/rate-limits/cdr-energy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cdr-energy-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/conformance/cdr-energy-conformance.yml
+  href: https://artifacts.apis.io/cdr-energy/conformance/cdr-energy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cdr-energy-conformance.yml
@@ -299,22 +301,22 @@ common:
   type: Compliance
   url: https://consumerdatastandardsaustralia.github.io/standards-testing/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/packages/cdr-energy-packages.yml
+  href: https://artifacts.apis.io/cdr-energy/packages/cdr-energy-packages.yml
   title: ''
   type: Packages
   url: packages/cdr-energy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/packages/cdr-energy-packages.yml
+  href: https://artifacts.apis.io/cdr-energy/packages/cdr-energy-packages.yml
   title: ''
   type: SDKs
   url: packages/cdr-energy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/cli/cdr-energy-cli.yml
+  href: https://artifacts.apis.io/cdr-energy/cli/cdr-energy-cli.yml
   title: ''
   type: CLI
   url: cli/cdr-energy-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/sandbox/cdr-energy-sandbox.yml
+  href: https://artifacts.apis.io/cdr-energy/sandbox/cdr-energy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/cdr-energy-sandbox.yml
@@ -323,37 +325,37 @@ common:
   type: Sandbox
   url: https://cdrsandbox.gov.au/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/well-known/cdr-energy-well-known.yml
+  href: https://artifacts.apis.io/cdr-energy/well-known/cdr-energy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cdr-energy-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/mcp/cdr-energy-mcp.yml
+  href: https://artifacts.apis.io/cdr-energy/mcp/cdr-energy-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cdr-energy-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/llms/cdr-energy-llms.txt
+  href: https://artifacts.apis.io/cdr-energy/llms/cdr-energy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cdr-energy-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/data-model/cdr-energy-data-model.yml
+  href: https://artifacts.apis.io/cdr-energy/data-model/cdr-energy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/cdr-energy-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/examples/_index.yml
+  href: https://artifacts.apis.io/cdr-energy/examples/_index.yml
   title: ''
   type: Examples
   url: examples/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/asyncapi/cdr-energy-webhooks.yml
+  href: https://artifacts.apis.io/cdr-energy/asyncapi/cdr-energy-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/cdr-energy-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/cdr-energy/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -409,7 +411,7 @@ overview: 'Consumer Data Right (Energy) publishes 17 API contracts indexed on th
 
 
   Consumer Data Right (Energy)''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, changelog, and 43 more developer resources.'
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 6
   name: Cdr Energy Rate Limits
@@ -421,7 +423,7 @@ scopes:
   summary_line: 15 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 57.1
+  composite: 58.6
   coverage:
     artifact_dirs: 27
     catalog_earned: 52.0
@@ -433,10 +435,10 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 18.2
-    contract_quality: 56.7
-    developer_ergonomics: 82.7
+    contract_quality: 55.7
+    developer_ergonomics: 85.1
     discoverability: 71.4
-    operational_transparency: 97.4
+    operational_transparency: 100.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -444,7 +446,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 57.1
+  previous_composite: 58.6
   provenance:
     conformance: first-party
     contracts:
@@ -459,14 +461,15 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 36.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 38.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/screenshots/cdr-energy-2026-08-07T163251.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/cdr-energy/cdr-energy-2026-08-07T163251.png
 security:
 - kind: authentication
   name: Cdr Energy Authentication
@@ -476,6 +479,14 @@ security:
   name: Cdr Energy Domain Security
   slug: cdr-energy-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: cdr-energy-discover-energy-plans
+  slug: cdr-energy-discover-energy-plans
+- name: cdr-energy-monitor-ecosystem-health
+  slug: cdr-energy-monitor-ecosystem-health
+- name: cdr-energy-onboard-as-data-recipient
+  slug: cdr-energy-onboard-as-data-recipient
 slug: cdr-energy
 tags:
 - Energy

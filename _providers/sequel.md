@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.0
-  scored_at: '2026-10-17'
+  score: 46.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.introvoke.com/api/v1
@@ -97,15 +99,12 @@ apis:
   description: The platform API from Sequel — 2 operation(s) for platform.
   name: Sequel Platform API
   slug: sequel-platform-api
-artifact_total: 33
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Sequel Webhooks
   slug: sequel-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Introvoke Analytics API
   slug: open-sequel-analytics-api
@@ -144,7 +143,7 @@ collections:
   slug: open-sequel-platform-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/overlays/sequel-openapi-overlay.yaml
+  href: https://artifacts.apis.io/sequel/overlays/sequel-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/sequel-openapi-overlay.yaml
@@ -201,97 +200,97 @@ common:
   type: StatusPage
   url: https://status.sequel.io/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/authentication/sequel-authentication.yml
+  href: https://artifacts.apis.io/sequel/authentication/sequel-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sequel-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/security/sequel-domain-security.yml
+  href: https://artifacts.apis.io/sequel/security/sequel-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sequel-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/well-known/sequel-well-known.yml
+  href: https://artifacts.apis.io/sequel/well-known/sequel-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/sequel-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/mcp/sequel-mcp.yml
+  href: https://artifacts.apis.io/sequel/mcp/sequel-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sequel-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/packages/sequel-packages.yml
+  href: https://artifacts.apis.io/sequel/packages/sequel-packages.yml
   title: ''
   type: Packages
   url: packages/sequel-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/packages/sequel-packages.yml
+  href: https://artifacts.apis.io/sequel/packages/sequel-packages.yml
   title: ''
   type: SDKs
   url: packages/sequel-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/lifecycle/sequel-lifecycle.yml
+  href: https://artifacts.apis.io/sequel/lifecycle/sequel-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sequel-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/conventions/sequel-conventions.yml
+  href: https://artifacts.apis.io/sequel/conventions/sequel-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sequel-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/errors/sequel-problem-types.yml
+  href: https://artifacts.apis.io/sequel/errors/sequel-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sequel-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/data-model/sequel-data-model.yml
+  href: https://artifacts.apis.io/sequel/data-model/sequel-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sequel-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/conformance/sequel-conformance.yml
+  href: https://artifacts.apis.io/sequel/conformance/sequel-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sequel-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/components/sequel-components.yml
+  href: https://artifacts.apis.io/sequel/components/sequel-components.yml
   title: ''
   type: Components
   url: components/sequel-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/asyncapi/sequel-webhooks.yml
+  href: https://artifacts.apis.io/sequel/asyncapi/sequel-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/sequel-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/llms/sequel-llms.txt
+  href: https://artifacts.apis.io/sequel/llms/sequel-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sequel-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/mcp/sequel-tool-crosswalk.yml
+  href: https://artifacts.apis.io/sequel/mcp/sequel-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/sequel-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/scopes/sequel-scopes.yml
+  href: https://artifacts.apis.io/sequel/scopes/sequel-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sequel-scopes.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/plans/sequel-plans-pricing.yml
+  href: https://artifacts.apis.io/sequel/plans/sequel-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sequel-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/rate-limits/sequel-rate-limits.yml
+  href: https://artifacts.apis.io/sequel/rate-limits/sequel-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sequel-rate-limits.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/changelog/sequel-changelog.yml
+  href: https://artifacts.apis.io/sequel/changelog/sequel-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sequel-changelog.yml
@@ -308,17 +307,25 @@ common:
   type: Blog
   url: https://sequel.io/blog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/skills/sequel-create-and-embed-event.md
+  href: https://artifacts.apis.io/sequel/skills/sequel-create-and-embed-event.md
   title: ''
   type: AgentSkill
   url: skills/sequel-create-and-embed-event.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/skills/sequel-networking-hub-setup.md
+  href: https://artifacts.apis.io/sequel/skills/sequel-networking-hub-setup.md
   title: ''
   type: AgentSkill
   url: skills/sequel-networking-hub-setup.md
 created: '2026-07-17'
 description: Sequel is a webinar and virtual-event platform for data-driven marketing teams. It runs live, simulive, and on-demand event experiences directly on a company's own domain, capturing unified first-party engagement data (watch time, polls, questions, CTA clicks) and syncing it to CRMs like Salesforce, HubSpot, Marketo, and Pardot. Sequel exposes a REST API (the Introvoke API) for managing companies, events, presenters, organizers, registrants, networking hubs, customization/theming, analytics, simulive video, MediaHub assets, and webhooks, plus pre-built embeddable video/networking components, a JavaScript SDK, and an official hosted MCP server that gives AI agents read access to webinar transcripts for content repurposing.
+finops:
+- has_sources: true
+  method: derived
+  name: Sequel Finops
+  primary_unit: up to 500 attendees per session
+  service_category: ''
+  slug: sequel-finops
+  template: false
 image: https://sequel.io/wp-content/themes/sequelio/assets/favicon-128x128.png
 layout: provider
 mcp_servers:
@@ -340,7 +347,10 @@ plans:
 - name: Sequel Plans Pricing
   plan_count: 3
   slug: sequel-plans-pricing
-random_paper: 17
+- name: Sequel Price Estimates
+  plan_count: 0
+  slug: sequel-price-estimates
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Sequel Rate Limits
@@ -352,23 +362,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.7
+  composite: 63.8
   coverage:
-    artifact_dirs: 26
-    catalog_earned: 49.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 56.6
-    developer_ergonomics: 53.0
-    discoverability: 75.0
-    operational_transparency: 42.1
-  previous_composite: 60.6
+    developer_ergonomics: 66.1
+    discoverability: 65.0
+    operational_transparency: 44.7
+  previous_composite: 62.3
   provenance:
     conformance: derived
     contracts:
@@ -384,13 +394,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/screenshots/sequel-2026-08-17T081812.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sequel/sequel-2026-08-17T081812.png
 security:
 - kind: authentication
   name: Sequel Authentication
@@ -404,6 +415,12 @@ security:
   name: Sequel Trust Center
   slug: sequel-trust-center
   summary_line: trust center published
+skill_count: 2
+skills:
+- name: Create and embed a Sequel webinar event
+  slug: sequel-create-and-embed-event
+- name: Set up and embed a Sequel networking hub
+  slug: sequel-networking-hub-setup
 slug: sequel
 tags:
 - Company

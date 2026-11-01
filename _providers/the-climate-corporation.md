@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 31.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +43,7 @@ agentic_access:
   operation_count: 28
   slug: the-climate-corporation-agentic-access
   summary_line: 28 operations · 5 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://platform.climate.com
   baseurl_source: declared
@@ -83,11 +85,8 @@ apis:
   description: General data upload endpoints.
   name: The Climate Corporation Uploads API
   slug: the-climate-corporation-uploads-api
-artifact_total: 21
+artifact_total: 23
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Climate FieldView Platform APIs Boundaries API
   slug: open-the-climate-corporation-boundaries-api
@@ -114,12 +113,12 @@ collections:
   slug: open-the-climate-corporation-uploads-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/capabilities/the-climate-corporation-capability-edges.yml
+  href: https://artifacts.apis.io/the-climate-corporation/capabilities/the-climate-corporation-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/the-climate-corporation-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/overlays/the-climate-corporation-platform-overlay.yaml
+  href: https://artifacts.apis.io/the-climate-corporation/overlays/the-climate-corporation-platform-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/the-climate-corporation-platform-overlay.yaml
@@ -156,67 +155,67 @@ common:
   type: PrivacyPolicy
   url: https://climate.com/legal/privacy-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/authentication/the-climate-corporation-authentication.yml
+  href: https://artifacts.apis.io/the-climate-corporation/authentication/the-climate-corporation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/the-climate-corporation-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/scopes/the-climate-corporation-scopes.yml
+  href: https://artifacts.apis.io/the-climate-corporation/scopes/the-climate-corporation-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/the-climate-corporation-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/conventions/the-climate-corporation-conventions.yml
+  href: https://artifacts.apis.io/the-climate-corporation/conventions/the-climate-corporation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/the-climate-corporation-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/errors/the-climate-corporation-problem-types.yml
+  href: https://artifacts.apis.io/the-climate-corporation/errors/the-climate-corporation-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/the-climate-corporation-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/conformance/the-climate-corporation-conformance.yml
+  href: https://artifacts.apis.io/the-climate-corporation/conformance/the-climate-corporation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/the-climate-corporation-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/lifecycle/the-climate-corporation-lifecycle.yml
+  href: https://artifacts.apis.io/the-climate-corporation/lifecycle/the-climate-corporation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/the-climate-corporation-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/data-model/the-climate-corporation-data-model.yml
+  href: https://artifacts.apis.io/the-climate-corporation/data-model/the-climate-corporation-data-model.yml
   title: ''
   type: DataModel
   url: data-model/the-climate-corporation-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/agentic-access/the-climate-corporation-agentic-access.yml
+  href: https://artifacts.apis.io/the-climate-corporation/agentic-access/the-climate-corporation-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/the-climate-corporation-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/mcp/the-climate-corporation-mcp.yml
+  href: https://artifacts.apis.io/the-climate-corporation/mcp/the-climate-corporation-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/the-climate-corporation-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/the-climate-corporation/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/sandbox/the-climate-corporation-sandbox.yml
+  href: https://artifacts.apis.io/the-climate-corporation/sandbox/the-climate-corporation-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/the-climate-corporation-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/security/the-climate-corporation-domain-security.yml
+  href: https://artifacts.apis.io/the-climate-corporation/security/the-climate-corporation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/the-climate-corporation-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/llms/the-climate-corporation-llms.txt
+  href: https://artifacts.apis.io/the-climate-corporation/llms/the-climate-corporation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/the-climate-corporation-llms.txt
@@ -232,7 +231,7 @@ overview: 'The Climate Corporation publishes 8 API contracts indexed on the [API
 
 
   The Climate Corporation''s developer surface includes documentation, API reference, signup flow, support, authentication, sandbox, and 17 more developer resources.'
-random_paper: 14
+random_paper: 18
 scopes:
 - name: The Climate Corporation Scopes
   scope_count: 24
@@ -240,7 +239,7 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.4
+  composite: 40.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -248,15 +247,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 51.4
     developer_ergonomics: 51.8
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 40.3
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -273,13 +272,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/screenshots/the-climate-corporation-2026-08-17T082334.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/the-climate-corporation/the-climate-corporation-2026-08-17T082334.png
 security:
 - kind: authentication
   name: The Climate Corporation Authentication
@@ -289,6 +289,14 @@ security:
   name: The Climate Corporation Domain Security
   slug: the-climate-corporation-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 3
+skills:
+- name: Export FieldView data
+  slug: the-climate-corporation-export-field-data
+- name: List a grower's fields and boundaries
+  slug: the-climate-corporation-list-fields-and-boundaries
+- name: Upload agronomic data to FieldView
+  slug: the-climate-corporation-upload-agronomic-data
 slug: the-climate-corporation
 tags:
 - Company

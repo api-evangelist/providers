@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Snappy's developer API suite for embedding gifting into business systems and workflows, including an embedded gift marketplace and triggered (event-based) gifting.
@@ -85,12 +87,12 @@ common:
   type: TrustCenter
   url: https://trust.snappy.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/snappy/refs/heads/main/llms/snappy-llms.txt
+  href: https://artifacts.apis.io/snappy/llms/snappy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/snappy-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/snappy/refs/heads/main/security/snappy-domain-security.yml
+  href: https://artifacts.apis.io/snappy/security/snappy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/snappy-domain-security.yml
@@ -106,10 +108,10 @@ overview: 'Snappy is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Snappy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 7 more developer resources.'
-random_paper: 7
+random_paper: 19
 score:
   band: emerging
-  composite: 15.7
+  composite: 22.6
   coverage:
     artifact_dirs: 6
     catalog_earned: 32.0
@@ -122,24 +124,24 @@ score:
     access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
-    discoverability: 64.3
+    developer_ergonomics: 45.2
+    discoverability: 57.1
     operational_transparency: 0.0
-  previous_composite: 15.7
+  previous_composite: 22.6
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 18.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/snappy/refs/heads/main/screenshots/snappy-2026-09-02T160006.png
+screenshot: https://apis.io/screenshots/snappy/snappy-2026-09-02T160006.png
 security:
 - kind: domain-security
   name: Snappy Domain Security

@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: Carrier-grade SMS API for sending and receiving A2P and P2A SMS at scale on the Rakuten Mobile network, with delivery receipts pushed to caller-configured webhooks. UTF-8 encoded, JWT-authenticated RE
@@ -47,12 +49,12 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rakuten-mobile/refs/heads/main/security/rakuten-mobile-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/rakuten-mobile/security/rakuten-mobile-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/rakuten-mobile-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rakuten-mobile/refs/heads/main/security/rakuten-mobile-domain-security.yml
+  href: https://artifacts.apis.io/rakuten-mobile/security/rakuten-mobile-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rakuten-mobile-domain-security.yml
@@ -153,12 +155,12 @@ overview: 'Rakuten Mobile is listed with 3 APIs on the [APIs.io](https://apis.io
 
 
   Rakuten Mobile''s developer surface includes developer portal, engineering blog, YouTube channel, and 20 more developer resources.'
-random_paper: 9
+random_paper: 23
 score:
-  band: minimal
-  composite: 10.0
+  band: emerging
+  composite: 11.4
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -170,8 +172,8 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 72.3
-    operational_transparency: 0.0
+    discoverability: 73.2
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -179,21 +181,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 10.0
+  previous_composite: 11.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 10.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/rakuten-mobile/refs/heads/main/screenshots/rakuten-mobile-2026-06-20T192543.png
+screenshot: https://apis.io/screenshots/rakuten-mobile/rakuten-mobile-2026-06-20T192543.png
 security:
 - kind: domain-security
   name: Rakuten Mobile Domain Security

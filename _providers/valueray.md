@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
-    mcp_server: verified
+    idempotency: false
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-10-17'
+  score: 23.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,11 +50,8 @@ apis:
   description: Aggregated technical, quantitative, and sentiment data for a single symbol.
   name: ValueRay Symbol Data API
   slug: valueray-symbol-data-api
-artifact_total: 17
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ValueRay Symbol Data API
   slug: open-valueray-symbol-data-api
@@ -61,17 +60,17 @@ collections:
   slug: open-valueray-symbol-data
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/valueray/refs/heads/main/agentic-access/valueray-agentic-access.yml
+  href: https://artifacts.apis.io/valueray/agentic-access/valueray-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/valueray-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/valueray/refs/heads/main/security/valueray-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/valueray/security/valueray-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/valueray-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/valueray/refs/heads/main/security/valueray-domain-security.yml
+  href: https://artifacts.apis.io/valueray/security/valueray-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/valueray-domain-security.yml
@@ -92,27 +91,27 @@ common:
   type: Screener
   url: https://www.valueray.com/presets/long-setups
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/valueray/refs/heads/main/plans/valueray-plans-pricing.yml
+  href: https://artifacts.apis.io/valueray/plans/valueray-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/valueray-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/valueray/refs/heads/main/rate-limits/valueray-rate-limits.yml
+  href: https://artifacts.apis.io/valueray/rate-limits/valueray-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/valueray-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/valueray/refs/heads/main/finops/valueray-finops.yml
+  href: https://artifacts.apis.io/valueray/finops/valueray-finops.yml
   title: ''
   type: FinOps
   url: finops/valueray-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/valueray/refs/heads/main/vocabulary/valueray-vocabulary.yml
+  href: https://artifacts.apis.io/valueray/vocabulary/valueray-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/valueray-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/valueray/refs/heads/main/json-ld/valueray-context.jsonld
+  href: https://artifacts.apis.io/valueray/json-ld/valueray-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/valueray-context.jsonld
@@ -168,7 +167,7 @@ plans:
 - name: Valueray Plans Pricing
   plan_count: 2
   slug: valueray-plans-pricing
-random_paper: 15
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Valueray Rate Limits
@@ -199,7 +198,7 @@ rules:
   slug: valueray-rules
 score:
   band: thin
-  composite: 28.4
+  composite: 29.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 58.0
@@ -207,15 +206,15 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 55.6
     developer_ergonomics: 9.5
-    discoverability: 75.0
-    operational_transparency: 5.3
-  previous_composite: 34.5
+    discoverability: 73.2
+    operational_transparency: 15.8
+  previous_composite: 29.6
   provenance:
     agentic_access: derived
     contracts:
@@ -230,14 +229,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/valueray/refs/heads/main/screenshots/valueray-2026-06-20T200802.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/valueray/valueray-2026-06-20T200802.png
 security:
 - kind: domain-security
   name: Valueray Domain Security

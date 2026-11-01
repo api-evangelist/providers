@@ -12,7 +12,6 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,16 +25,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.6
-  scored_at: '2026-10-17'
+  score: 37.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -43,7 +44,7 @@ agentic_access:
   operation_count: 87
   slug: moesif-agentic-access
   summary_line: 87 operations · 46 acting
-api_count: 4
+api_count: 1
 apis:
 - description: The Moesif Collector API is the high-volume ingestion endpoint that receives API event data from server, client, and gateway SDKs. It accepts HTTP API call records, user/company entity updates, and cu
   name: Moesif Collector API
@@ -123,11 +124,8 @@ apis:
   description: The Workspaces API from Moesif — 8 operation(s) for workspaces.
   name: Moesif Workspaces API
   slug: moesif-workspaces-api
-artifact_total: 75
+artifact_total: 77
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Management Applications API
   slug: open-moesif-applications-api
@@ -178,72 +176,72 @@ collections:
   slug: open-moesif
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/plans/moesif-plans-pricing.yml
+  href: https://artifacts.apis.io/moesif/plans/moesif-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/moesif-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/rate-limits/moesif-rate-limits.yml
+  href: https://artifacts.apis.io/moesif/rate-limits/moesif-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/moesif-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/finops/moesif-finops.yml
+  href: https://artifacts.apis.io/moesif/finops/moesif-finops.yml
   title: ''
   type: FinOps
   url: finops/moesif-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/rules/moesif-rules.yml
+  href: https://artifacts.apis.io/moesif/rules/moesif-rules.yml
   title: ''
   type: Spectral
   url: rules/moesif-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/json-ld/moesif-context.jsonld
+  href: https://artifacts.apis.io/moesif/json-ld/moesif-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/moesif-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/vocabulary/moesif-vocabulary.yml
+  href: https://artifacts.apis.io/moesif/vocabulary/moesif-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/moesif-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/moesif/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/data-model/moesif-data-model.yml
+  href: https://artifacts.apis.io/moesif/data-model/moesif-data-model.yml
   title: ''
   type: DataModel
   url: data-model/moesif-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/conformance/moesif-conformance.yml
+  href: https://artifacts.apis.io/moesif/conformance/moesif-conformance.yml
   title: ''
   type: Conformance
   url: conformance/moesif-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/llms/moesif-llms.txt
+  href: https://artifacts.apis.io/moesif/llms/moesif-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/moesif-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/mcp/moesif-mcp.yml
+  href: https://artifacts.apis.io/moesif/mcp/moesif-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/moesif-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/well-known/moesif-well-known.yml
+  href: https://artifacts.apis.io/moesif/well-known/moesif-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/moesif-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/hosts/moesif-hosts.yml
+  href: https://artifacts.apis.io/moesif/hosts/moesif-hosts.yml
   title: ''
   type: Hosts
   url: hosts/moesif-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/packages/moesif-packages.yml
+  href: https://artifacts.apis.io/moesif/packages/moesif-packages.yml
   title: ''
   type: Packages
   url: packages/moesif-packages.yml
@@ -264,22 +262,22 @@ common:
   type: DeveloperPortal
   url: https://api.moesif.net
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/agentic-access/moesif-agentic-access.yml
+  href: https://artifacts.apis.io/moesif/agentic-access/moesif-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/moesif-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/security/moesif-domain-security.yml
+  href: https://artifacts.apis.io/moesif/security/moesif-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/moesif-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/authentication/moesif-authentication.yml
+  href: https://artifacts.apis.io/moesif/authentication/moesif-authentication.yml
   title: ''
   type: Authentication
   url: authentication/moesif-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/scopes/moesif-scopes.yml
+  href: https://artifacts.apis.io/moesif/scopes/moesif-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/moesif-scopes.yml
@@ -432,20 +430,20 @@ common:
   type: Sample
   url: https://github.com/Moesif/moesif-developer-portal
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/capabilities/moesif-capability-edges.yml
+  href: https://artifacts.apis.io/moesif/capabilities/moesif-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/moesif-capability-edges.yml
 created: '2025-01-08'
 description: Moesif is an API analytics, monitoring, monetization, and governance platform for API and AI product teams. The platform unifies API observability (analytics, logs, metrics, traces via OpenTelemetry), usage-based monetization (billing meters, product catalog, prepaid credits, Stripe integration), quotas and governance (rate limiting, contract enforcement), and customer-experience tooling (behavioral cohorts, emails, embedded metrics, developer portal). Moesif has expanded into AI agent and LLM analytics with usage-based billing for AI apps, GenAI-powered "Ask AI" analytics queries, and content monetization for LLM training.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Moesif Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: team member
+  service_category: ''
   slug: moesif-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moesif.png
 json_schemas:
 - name: AddSubscriptionDTO
@@ -569,7 +567,10 @@ plans:
 - name: Moesif Plans Pricing
   plan_count: 3
   slug: moesif-plans-pricing
-random_paper: 5
+- name: Moesif Price Estimates
+  plan_count: 0
+  slug: moesif-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Moesif Rate Limits
@@ -594,23 +595,23 @@ scopes:
   summary_line: 71 scopes · password
 score:
   band: strong
-  composite: 62.4
+  composite: 64.5
   coverage:
     artifact_dirs: 28
-    catalog_earned: 71.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 44.0
+    catalog_earned: 80.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 35.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.4
+  delta: 1.1
   facets:
-    access_clarity: 42.1
+    access_clarity: 84.2
     contract_governance: 33.3
-    contract_quality: 58.8
+    contract_quality: 55.4
     developer_ergonomics: 75.6
-    discoverability: 81.7
-    operational_transparency: 36.8
-  previous_composite: 68.8
+    discoverability: 66.7
+    operational_transparency: 39.5
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -633,13 +634,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 50.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/screenshots/moesif-2026-06-20T185704.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/moesif/moesif-2026-06-20T185704.png
 security:
 - kind: authentication
   name: Moesif Authentication
@@ -649,6 +651,12 @@ security:
   name: Moesif Domain Security
   slug: moesif-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: moesif-create-plan-with-price
+  slug: moesif-create-plan-with-price
+- name: moesif-subscription-management
+  slug: moesif-subscription-management
 slug: moesif
 tags:
 - Analytics

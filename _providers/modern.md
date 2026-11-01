@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - baseURL: https://connect.modernis.com
@@ -77,14 +79,11 @@ apis:
   description: Service work order lifecycle
   name: Modern Work Orders API
   slug: modern-work-orders-api
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: postman
   name: MODERN Partner API - Documentation
   slug: postman-modern-partner-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: MODERN Partner Dashboards API
   slug: open-modern-dashboards-api
@@ -119,17 +118,17 @@ common:
   type: BlogRSS
   url: https://modernis.com/feed/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/mcp/modern-mcp.yml
+  href: https://artifacts.apis.io/modern/mcp/modern-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/modern-mcp.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/overlays/modern-partner-api-overlay.yaml
+  href: https://artifacts.apis.io/modern/overlays/modern-partner-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/modern-partner-api-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/security/modern-domain-security.yml
+  href: https://artifacts.apis.io/modern/security/modern-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/modern-domain-security.yml
@@ -150,7 +149,7 @@ common:
   type: APIReference
   url: https://docs.modernis.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/authentication/modern-authentication.yml
+  href: https://artifacts.apis.io/modern/authentication/modern-authentication.yml
   title: ''
   type: Authentication
   url: authentication/modern-authentication.yml
@@ -163,7 +162,7 @@ common:
   type: PrivacyPolicy
   url: https://modernis.com/privacy-policy/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/modern/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -175,14 +174,14 @@ modified: '2026-10-06'
 name: Modern
 nav: Providers
 network: true
-overview: 'Modern is listed with 8 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Events API, Federation API, and 5 more. Tagged areas include Company, Heavy Equipment, Dealership, Field Service, and Work Orders.
+overview: 'Modern is listed with 8 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Events API, Federation API, and 5 more. Tagged areas include Company, Heavy Equipment, Dealership, Field Service Management, and Work Orders.
 
 
   Modern''s developer surface includes engineering blog, documentation, API reference, authentication, and 9 more developer resources.'
-random_paper: 7
+random_paper: 21
 score:
   band: emerging
-  composite: 22.7
+  composite: 25.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -190,15 +189,15 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
-    access_clarity: 17.1
+    access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 15.8
-    developer_ergonomics: 33.9
-    discoverability: 78.6
+    contract_quality: 12.4
+    developer_ergonomics: 47.0
+    discoverability: 71.4
     operational_transparency: 0.0
-  previous_composite: 22.1
+  previous_composite: 25.7
   provenance:
     conformance: derived
     contracts:
@@ -214,13 +213,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/screenshots/modern-2026-08-07T183934.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/modern/modern-2026-08-07T183934.png
 security:
 - kind: authentication
   name: Modern Authentication
@@ -230,12 +230,18 @@ security:
   name: Modern Domain Security
   slug: modern-domain-security
   summary_line: TLSv1.3
+skill_count: 2
+skills:
+- name: Create and manage work orders
+  slug: modern-manage-work-orders
+- name: Update service status and notify the customer
+  slug: modern-update-service-status
 slug: modern
 tags:
 - Company
 - Heavy Equipment
 - Dealership
-- Field Service
+- Field Service Management
 - Work Orders
 - Customer Communication
 - Notification

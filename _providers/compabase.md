@@ -17,14 +17,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.7
-  scored_at: '2026-10-17'
+  score: 50.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,80 +61,85 @@ apis:
   description: The Watchlist API from Compabase — 2 operation(s) for watchlist.
   name: Compabase Watchlist API
   slug: compabase-watchlist-api
-artifact_total: 18
+artifact_total: 20
 common:
+- group: other
+  href: https://artifacts.apis.io/compabase/capabilities/compabase-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/compabase-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/agentic-access/compabase-agentic-access.yml
+  href: https://artifacts.apis.io/compabase/agentic-access/compabase-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/compabase-agentic-access.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/plans/compabase-plans-pricing.yml
+  href: https://artifacts.apis.io/compabase/plans/compabase-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/compabase-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/rules/compabase-rules.yml
+  href: https://artifacts.apis.io/compabase/rules/compabase-rules.yml
   title: ''
   type: Spectral
   url: rules/compabase-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/json-ld/compabase-context.jsonld
+  href: https://artifacts.apis.io/compabase/json-ld/compabase-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/compabase-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/vocabulary/compabase-vocabulary.yml
+  href: https://artifacts.apis.io/compabase/vocabulary/compabase-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/compabase-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/data-model/compabase-data-model.yml
+  href: https://artifacts.apis.io/compabase/data-model/compabase-data-model.yml
   title: ''
   type: DataModel
   url: data-model/compabase-data-model.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/security/compabase-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/compabase/security/compabase-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/compabase-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/errors/compabase-problem-types.yml
+  href: https://artifacts.apis.io/compabase/errors/compabase-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/compabase-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/conformance/compabase-conformance.yml
+  href: https://artifacts.apis.io/compabase/conformance/compabase-conformance.yml
   title: ''
   type: Conformance
   url: conformance/compabase-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/llms/compabase-llms.txt
+  href: https://artifacts.apis.io/compabase/llms/compabase-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/compabase-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/mcp/compabase-mcp.yml
+  href: https://artifacts.apis.io/compabase/mcp/compabase-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/compabase-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/well-known/compabase-security.txt
+  href: https://artifacts.apis.io/compabase/well-known/compabase-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/compabase-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/well-known/compabase-well-known.yml
+  href: https://artifacts.apis.io/compabase/well-known/compabase-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/compabase-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/hosts/compabase-hosts.yml
+  href: https://artifacts.apis.io/compabase/hosts/compabase-hosts.yml
   title: ''
   type: Hosts
   url: hosts/compabase-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/vendors/compabase-vendors.yml
+  href: https://artifacts.apis.io/compabase/vendors/compabase-vendors.yml
   title: ''
   type: Vendors
   url: vendors/compabase-vendors.yml
@@ -145,17 +152,17 @@ common:
   type: Roadmap
   url: https://compabase.com/roadmap
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/authentication/compabase-authentication.yml
+  href: https://artifacts.apis.io/compabase/authentication/compabase-authentication.yml
   title: ''
   type: Authentication
   url: authentication/compabase-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/security/compabase-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/compabase/security/compabase-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/compabase-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/compabase/refs/heads/main/security/compabase-domain-security.yml
+  href: https://artifacts.apis.io/compabase/security/compabase-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/compabase-domain-security.yml
@@ -209,6 +216,14 @@ common:
   url: https://compabase.com/privacy
 created: '2026-10-08'
 description: Compabase provides smart data on Polish companies, offering current financial and registry information sourced from public Polish registries. Users can verify business partners, mitigate risk, and discover trusted partners through searchable company databases filtered by revenue, location, industry, and more. The platform includes AI assistance, detailed company profiles, industry insights, and tools for due diligence, prospecting, market monitoring, and data automation.
+finops:
+- has_sources: true
+  method: derived
+  name: Compabase Finops
+  primary_unit: ''
+  service_category: ''
+  slug: compabase-finops
+  template: true
 image: https://compabase.com/og/home-en.png
 json_schemas:
 - name: CompanyCountResponse
@@ -246,12 +261,15 @@ overview: 'Compabase publishes 5 API contracts indexed on the [APIs.io](https://
   The Compabase catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Compabase''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
+  Compabase''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
 plans:
 - name: Compabase Plans Pricing
   plan_count: 4
   slug: compabase-plans-pricing
-random_paper: 15
+- name: Compabase Price Estimates
+  plan_count: 0
+  slug: compabase-price-estimates
+random_paper: 3
 rules:
 - authorship: generated
   effective_rule_count: 55
@@ -267,21 +285,23 @@ rules:
   slug: compabase-rules
 score:
   band: strong
-  composite: 60.1
+  composite: 59.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 69.8
     catalog_earned_first_party: 12.0
     catalog_gap: 45.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 35.6
     contract_quality: 64.5
     developer_ergonomics: 57.1
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 36.8
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -301,11 +321,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Compabase Authentication

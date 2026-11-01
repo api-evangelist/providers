@@ -3,28 +3,30 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: conformant
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 46.1
-  scored_at: '2026-10-17'
+  score: 46.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -32,7 +34,7 @@ agentic_access:
   operation_count: 10
   slug: automq-agentic-access
   summary_line: 10 operations
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://www.automq.com
   baseurl_source: spec
@@ -59,80 +61,85 @@ apis:
   description: The .well Known API from AutoMQ — 6 operation(s) for .well known.
   name: AutoMQ .well Known API
   slug: automq-well-known-api
-artifact_total: 12
+artifact_total: 14
 common:
+- group: commercial
+  href: https://artifacts.apis.io/automq/plans/automq-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/automq-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/agentic-access/automq-agentic-access.yml
+  href: https://artifacts.apis.io/automq/agentic-access/automq-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/automq-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/rules/automq-rules.yml
+  href: https://artifacts.apis.io/automq/rules/automq-rules.yml
   title: ''
   type: Spectral
   url: rules/automq-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/json-ld/automq-context.jsonld
+  href: https://artifacts.apis.io/automq/json-ld/automq-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/automq-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/vocabulary/automq-vocabulary.yml
+  href: https://artifacts.apis.io/automq/vocabulary/automq-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/automq-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/data-model/automq-data-model.yml
+  href: https://artifacts.apis.io/automq/data-model/automq-data-model.yml
   title: ''
   type: DataModel
   url: data-model/automq-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/changelog/automq-changelog.yml
+  href: https://artifacts.apis.io/automq/changelog/automq-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/automq-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/conformance/automq-conformance.yml
+  href: https://artifacts.apis.io/automq/conformance/automq-conformance.yml
   title: ''
   type: Conformance
   url: conformance/automq-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/llms/automq-llms.txt
+  href: https://artifacts.apis.io/automq/llms/automq-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/automq-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/a2a/automq-a2a.yml
+  href: https://artifacts.apis.io/automq/a2a/automq-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/automq-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/mcp/automq-mcp.yml
+  href: https://artifacts.apis.io/automq/mcp/automq-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/automq-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/well-known/automq-well-known.yml
+  href: https://artifacts.apis.io/automq/well-known/automq-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/automq-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/hosts/automq-hosts.yml
+  href: https://artifacts.apis.io/automq/hosts/automq-hosts.yml
   title: ''
   type: Hosts
   url: hosts/automq-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/vendors/automq-vendors.yml
+  href: https://artifacts.apis.io/automq/vendors/automq-vendors.yml
   title: ''
   type: Vendors
   url: vendors/automq-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/packages/automq-packages.yml
+  href: https://artifacts.apis.io/automq/packages/automq-packages.yml
   title: ''
   type: SDKs
   url: packages/automq-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/packages/automq-packages.yml
+  href: https://artifacts.apis.io/automq/packages/automq-packages.yml
   title: ''
   type: Packages
   url: packages/automq-packages.yml
@@ -141,7 +148,7 @@ common:
   type: GettingStarted
   url: https://docs.automq.com/automq/getting-started/deploy-multi-nodes-test-cluster-on-docker
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/automq/refs/heads/main/security/automq-domain-security.yml
+  href: https://artifacts.apis.io/automq/security/automq-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/automq-domain-security.yml
@@ -183,6 +190,14 @@ common:
   url: https://trust.automq.com/
 created: '2026-10-13'
 description: AutoMQ is a cloud-native, Kafka-compatible streaming platform that replaces Kafka broker local disks with shared S3-compatible object storage, offered as open source and as AutoMQ Cloud (BYOC). Developers use the Kafka protocol directly; AutoMQ Cloud resources are managed through an official Terraform provider, and the company publishes a public discovery OpenAPI, llms.txt and a documentation MCP server.
+finops:
+- has_sources: true
+  method: derived
+  name: Automq Finops
+  primary_unit: gib
+  service_category: ''
+  slug: automq-finops
+  template: false
 image: https://www.automq.com/images/automq/og-image.webp
 json_schemas:
 - name: ApiCatalog
@@ -211,8 +226,12 @@ overview: 'AutoMQ publishes 5 API contracts indexed on the [APIs.io](https://api
   The AutoMQ catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  AutoMQ''s developer surface includes changelog, getting-started guide, documentation, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 3
+  AutoMQ''s developer surface includes changelog, getting-started guide, documentation, engineering blog, pricing, and 22 more developer resources.'
+plans:
+- name: Automq Plans Pricing
+  plan_count: 5
+  slug: automq-plans-pricing
+random_paper: 15
 rules:
 - authorship: generated
   effective_rule_count: 50
@@ -228,21 +247,23 @@ rules:
   slug: automq-rules
 score:
   band: developing
-  composite: 40.3
+  composite: 47.2
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 51.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 63.3
+    artifact_dirs: 20
+    catalog_earned: 66.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 7.9
   facets:
-    access_clarity: 39.5
+    access_clarity: 78.9
     contract_governance: 22.0
     contract_quality: 48.1
     developer_ergonomics: 31.0
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 21.1
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,12 +279,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Automq Domain Security

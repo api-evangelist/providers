@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.1
-  scored_at: '2026-10-17'
+  score: 52.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,11 +52,8 @@ apis:
   description: The Book Demo API from Sitefire — 2 operation(s) for book demo.
   name: Sitefire Book Demo API
   slug: sitefire-book-demo-api
-artifact_total: 10
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Sitefire Book-a-Demo Book Demo API
   slug: open-sitefire-book-demo-api
@@ -64,32 +63,32 @@ common:
   type: BlogRSS
   url: https://sitefire.ai/feed.xml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/agentic-access/sitefire-agentic-access.yml
+  href: https://artifacts.apis.io/sitefire/agentic-access/sitefire-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sitefire-agentic-access.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/mcp/sitefire-mcp.yml
+  href: https://artifacts.apis.io/sitefire/mcp/sitefire-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/sitefire-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/sitefire/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/llms/sitefire-llms.txt
+  href: https://artifacts.apis.io/sitefire/llms/sitefire-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/sitefire-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/changelog/sitefire-changelog.yml
+  href: https://artifacts.apis.io/sitefire/changelog/sitefire-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/sitefire-changelog.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/security/sitefire-domain-security.yml
+  href: https://artifacts.apis.io/sitefire/security/sitefire-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sitefire-domain-security.yml
@@ -138,37 +137,37 @@ common:
   type: Website
   url: https://sitefire.ai
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/mcp/sitefire-tool-crosswalk.yml
+  href: https://artifacts.apis.io/sitefire/mcp/sitefire-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/sitefire-tool-crosswalk.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/authentication/sitefire-authentication.yml
+  href: https://artifacts.apis.io/sitefire/authentication/sitefire-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sitefire-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/scopes/sitefire-scopes.yml
+  href: https://artifacts.apis.io/sitefire/scopes/sitefire-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sitefire-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/conventions/sitefire-conventions.yml
+  href: https://artifacts.apis.io/sitefire/conventions/sitefire-conventions.yml
   title: ''
   type: Conventions
   url: conventions/sitefire-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/errors/sitefire-problem-types.yml
+  href: https://artifacts.apis.io/sitefire/errors/sitefire-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/sitefire-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/lifecycle/sitefire-lifecycle.yml
+  href: https://artifacts.apis.io/sitefire/lifecycle/sitefire-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/sitefire-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/conformance/sitefire-conformance.yml
+  href: https://artifacts.apis.io/sitefire/conformance/sitefire-conformance.yml
   title: ''
   type: Conformance
   url: conformance/sitefire-conformance.yml
@@ -177,32 +176,40 @@ common:
   type: Compliance
   url: https://sitefire.ai/data-privacy
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/data-model/sitefire-data-model.yml
+  href: https://artifacts.apis.io/sitefire/data-model/sitefire-data-model.yml
   title: ''
   type: DataModel
   url: data-model/sitefire-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/packages/sitefire-packages.yml
+  href: https://artifacts.apis.io/sitefire/packages/sitefire-packages.yml
   title: ''
   type: Packages
   url: packages/sitefire-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/plans/sitefire-plans-pricing.yml
+  href: https://artifacts.apis.io/sitefire/plans/sitefire-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sitefire-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/rate-limits/sitefire-rate-limits.yml
+  href: https://artifacts.apis.io/sitefire/rate-limits/sitefire-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sitefire-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/well-known/sitefire-robots.txt
+  href: https://artifacts.apis.io/sitefire/well-known/sitefire-robots.txt
   title: ''
   type: ContentSignal
   url: well-known/sitefire-robots.txt
 created: '2026-07-17'
 description: Sitefire is a Generative Engine Optimization (GEO) platform — the marketing suite for the agentic web and a self-described System of Record for AI visibility. It monitors how AI models (ChatGPT, Gemini, Perplexity, DeepSeek, Google AI Mode and AI Overviews) mention and cite a brand across tracked topics, diagnoses why content is or isn't cited using its 4C content classification, and generates actionable briefings plus AI-optimized articles that publish directly to CMS platforms such as Webflow and Framer. Sitefire connects to analytics (GA4, Cloudflare, AWS CloudFront) to measure AI referral and crawler traffic, and exposes its data and content workflows to AI agents through an official hosted MCP server (Spark) and a published Agent Skills bundle. A small public, unauthenticated REST API books product demos. Sitefire is a Y Combinator (W2026) company.
+finops:
+- has_sources: true
+  method: derived
+  name: Sitefire Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: sitefire-finops
+  template: false
 image: https://sitefire.ai/og-default.png
 layout: provider
 mcp_servers:
@@ -221,7 +228,10 @@ plans:
 - name: Sitefire Plans Pricing
   plan_count: 3
   slug: sitefire-plans-pricing
-random_paper: 1
+- name: Sitefire Price Estimates
+  plan_count: 0
+  slug: sitefire-price-estimates
+random_paper: 19
 rate_limits:
 - limit_count: 8
   name: Sitefire Rate Limits
@@ -232,24 +242,24 @@ scopes:
   slug: sitefire-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 53.5
+  band: strong
+  composite: 56.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 61.0
+    artifact_dirs: 25
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 77.6
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 45.9
     developer_ergonomics: 47.6
-    discoverability: 75.0
-    operational_transparency: 50.0
-  previous_composite: 53.5
+    discoverability: 65.0
+    operational_transparency: 52.6
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,13 +276,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 36.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/screenshots/sitefire-2026-08-17T081906.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sitefire/sitefire-2026-08-17T081906.png
 security:
 - kind: authentication
   name: Sitefire Authentication
@@ -282,6 +293,16 @@ security:
   name: Sitefire Domain Security
   slug: sitefire-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 4
+skills:
+- name: sitefire-actions
+  slug: sitefire-actions
+- name: sitefire-discover
+  slug: sitefire-discover
+- name: sitefire
+  slug: sitefire-product-knowledge
+- name: sitefire-write-all
+  slug: sitefire-write-all
 slug: sitefire
 tags:
 - Company

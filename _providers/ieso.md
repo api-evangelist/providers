@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 9
 apis:
 - description: The IESO's open market and system data surface. A flat HTTPS file repository publishing 139 report directories — hourly Ontario and market demand, HOEP and nodal/zonal prices, day-ahead and pre-dispat
@@ -66,7 +68,7 @@ apis:
 - description: A web service, specified in SPEC-113, for submitting and managing transmission and generation outage requests in IESO's Outage Coordination and Scheduling System. The design specification is public; t
   name: IESO Outage Coordination and Scheduling System (OCSS) Web Service
   slug: ieso-ocss-web-service
-artifact_total: 14
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Ieso Dispatch Notification Webhooks
@@ -137,92 +139,92 @@ common:
   type: Email
   url: mailto:customer.relations@ieso.ca
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/authentication/ieso-authentication.yml
+  href: https://artifacts.apis.io/ieso/authentication/ieso-authentication.yml
   title: ''
   type: Authentication
   url: authentication/ieso-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/scopes/ieso-scopes.yml
+  href: https://artifacts.apis.io/ieso/scopes/ieso-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/ieso-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/conventions/ieso-conventions.yml
+  href: https://artifacts.apis.io/ieso/conventions/ieso-conventions.yml
   title: ''
   type: Conventions
   url: conventions/ieso-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/errors/ieso-error-codes.yml
+  href: https://artifacts.apis.io/ieso/errors/ieso-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/ieso-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/data-model/ieso-data-model.yml
+  href: https://artifacts.apis.io/ieso/data-model/ieso-data-model.yml
   title: ''
   type: DataModel
   url: data-model/ieso-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/lifecycle/ieso-lifecycle.yml
+  href: https://artifacts.apis.io/ieso/lifecycle/ieso-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/ieso-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/changelog/ieso-changelog.yml
+  href: https://artifacts.apis.io/ieso/changelog/ieso-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/ieso-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/sandbox/ieso-sandbox.yml
+  href: https://artifacts.apis.io/ieso/sandbox/ieso-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/ieso-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/conformance/ieso-conformance.yml
+  href: https://artifacts.apis.io/ieso/conformance/ieso-conformance.yml
   title: ''
   type: Conformance
   url: conformance/ieso-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/packages/ieso-packages.yml
+  href: https://artifacts.apis.io/ieso/packages/ieso-packages.yml
   title: ''
   type: Packages
   url: packages/ieso-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/packages/ieso-packages.yml
+  href: https://artifacts.apis.io/ieso/packages/ieso-packages.yml
   title: ''
   type: SDKs
   url: packages/ieso-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/asyncapi/ieso-dispatch-notification-webhooks.yml
+  href: https://artifacts.apis.io/ieso/asyncapi/ieso-dispatch-notification-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/ieso-dispatch-notification-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/well-known/ieso-well-known.yml
+  href: https://artifacts.apis.io/ieso/well-known/ieso-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/ieso-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/mcp/ieso-mcp.yml
+  href: https://artifacts.apis.io/ieso/mcp/ieso-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/ieso-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/ieso/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/llms/ieso-llms.txt
+  href: https://artifacts.apis.io/ieso/llms/ieso-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/ieso-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/security/ieso-domain-security.yml
+  href: https://artifacts.apis.io/ieso/security/ieso-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ieso-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/security/ieso-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/ieso/security/ieso-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ieso-vulnerability-disclosure.yml
@@ -242,7 +244,7 @@ overview: 'IESO is listed with 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   IESO''s developer surface includes documentation, API reference, support, signup flow, engineering blog, authentication, changelog, and 27 more developer resources.'
-random_paper: 14
+random_paper: 0
 scopes:
 - name: Ieso Scopes
   scope_count: 7
@@ -250,7 +252,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit/password/deviceCode/refreshToken
 score:
   band: developing
-  composite: 46.8
+  composite: 47.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 35.0
@@ -263,7 +265,7 @@ score:
     access_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 45.3
-    developer_ergonomics: 58.9
+    developer_ergonomics: 61.3
     discoverability: 62.5
     operational_transparency: 47.4
   jurisdiction:
@@ -273,7 +275,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 46.8
+  previous_composite: 47.3
   provenance:
     conformance: derived
     mcp: derived
@@ -284,14 +286,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ieso/refs/heads/main/screenshots/ieso-2026-08-07T170612.png
+screenshot: https://apis.io/screenshots/ieso/ieso-2026-08-07T170612.png
 security:
 - kind: authentication
   name: Ieso Authentication
@@ -305,6 +307,14 @@ security:
   name: Ieso Vulnerability Disclosure
   slug: ieso-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+skill_count: 3
+skills:
+- name: ieso-dispatch-notification-receiver
+  slug: ieso-dispatch-notification-receiver
+- name: ieso-mim-bid-submission
+  slug: ieso-mim-bid-submission
+- name: ieso-public-market-data
+  slug: ieso-public-market-data
 slug: ieso
 tags:
 - Energy

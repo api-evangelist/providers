@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 26.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -74,11 +76,8 @@ apis:
   description: Webhook management for event notifications
   name: Blissfully Webhooks API
   slug: blissfully-webhooks-api
-artifact_total: 45
+artifact_total: 44
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Vendr Catalog Pricing API
   slug: open-blissfully-pricing-api
@@ -93,12 +92,12 @@ collections:
   slug: open-blissfully-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/plans/blissfully-plans-pricing.yml
+  href: https://artifacts.apis.io/blissfully/plans/blissfully-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/blissfully-plans-pricing.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/finops/blissfully-finops.yml
+  href: https://artifacts.apis.io/blissfully/finops/blissfully-finops.yml
   title: ''
   type: FinOps
   url: finops/blissfully-finops.yml
@@ -107,22 +106,22 @@ common:
   type: ParentCompany
   url: https://apis.io/providers/vendr/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/agentic-access/blissfully-agentic-access.yml
+  href: https://artifacts.apis.io/blissfully/agentic-access/blissfully-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/blissfully-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/security/blissfully-trust-center.yml
+  href: https://artifacts.apis.io/blissfully/security/blissfully-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/blissfully-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/security/blissfully-domain-security.yml
+  href: https://artifacts.apis.io/blissfully/security/blissfully-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blissfully-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/authentication/blissfully-authentication.yml
+  href: https://artifacts.apis.io/blissfully/authentication/blissfully-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blissfully-authentication.yml
@@ -250,7 +249,7 @@ plans:
 - name: Blissfully Plans Pricing
   plan_count: 2
   slug: blissfully-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Blissfully Rate Limits
@@ -281,7 +280,7 @@ rules:
   slug: blissfully-spectral-rules
 score:
   band: thin
-  composite: 27.5
+  composite: 31.2
   coverage:
     artifact_dirs: 17
     catalog_earned: 54.5
@@ -289,15 +288,15 @@ score:
     catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 47.4
     contract_governance: 13.6
     contract_quality: 22.4
     developer_ergonomics: 23.8
     discoverability: 62.5
-    operational_transparency: 7.9
-  previous_composite: 29.0
+    operational_transparency: 10.5
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -310,14 +309,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 29.4
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/screenshots/blissfully-2026-06-20T173353.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/blissfully/blissfully-2026-06-20T173353.png
 security:
 - kind: authentication
   name: Blissfully Authentication

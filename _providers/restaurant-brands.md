@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.0
-  scored_at: '2026-10-17'
+  score: 34.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: The Stores API from Restaurant Brands International — 3 operation(s) for stores.
   name: Restaurant Brands International Stores API
   slug: restaurant-brands-stores-api
-artifact_total: 303
+artifact_total: 302
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Burger King's Partners API
   slug: open-channel
@@ -89,22 +88,22 @@ collections:
   slug: open-restaurant-brands-stores-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/capabilities/restaurant-brands-capability-edges.yml
+  href: https://artifacts.apis.io/restaurant-brands/capabilities/restaurant-brands-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/restaurant-brands-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/agentic-access/restaurant-brands-agentic-access.yml
+  href: https://artifacts.apis.io/restaurant-brands/agentic-access/restaurant-brands-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/restaurant-brands-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/security/restaurant-brands-domain-security.yml
+  href: https://artifacts.apis.io/restaurant-brands/security/restaurant-brands-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/restaurant-brands-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/authentication/restaurant-brands-authentication.yml
+  href: https://artifacts.apis.io/restaurant-brands/authentication/restaurant-brands-authentication.yml
   title: ''
   type: Authentication
   url: authentication/restaurant-brands-authentication.yml
@@ -113,27 +112,27 @@ common:
   type: DeveloperPortal
   url: https://rbictg.atlassian.net/wiki/spaces/RDP/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/rules/restaurant-brands-spectral-rules.yml
+  href: https://artifacts.apis.io/restaurant-brands/rules/restaurant-brands-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/restaurant-brands-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/vocabulary/restaurant-brands-vocabulary.yml
+  href: https://artifacts.apis.io/restaurant-brands/vocabulary/restaurant-brands-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/restaurant-brands-vocabulary.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/plans/restaurant-brands-plans-pricing.yml
+  href: https://artifacts.apis.io/restaurant-brands/plans/restaurant-brands-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/restaurant-brands-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/rate-limits/restaurant-brands-rate-limits.yml
+  href: https://artifacts.apis.io/restaurant-brands/rate-limits/restaurant-brands-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/restaurant-brands-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/finops/restaurant-brands-finops.yml
+  href: https://artifacts.apis.io/restaurant-brands/finops/restaurant-brands-finops.yml
   title: ''
   type: FinOps
   url: finops/restaurant-brands-finops.yml
@@ -1079,7 +1078,7 @@ plans:
 - name: Restaurant Brands Plans Pricing
   plan_count: 1
   slug: restaurant-brands-plans-pricing
-random_paper: 16
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Restaurant Brands Rate Limits
@@ -1110,7 +1109,7 @@ rules:
   slug: restaurant-brands-spectral-rules
 score:
   band: thin
-  composite: 33.3
+  composite: 35.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 61.0
@@ -1118,15 +1117,15 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 60.7
-    developer_ergonomics: 31.0
-    discoverability: 67.0
+    developer_ergonomics: 38.1
+    discoverability: 67.9
     operational_transparency: 10.5
-  previous_composite: 39.3
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1140,13 +1139,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/screenshots/restaurant-brands-2026-08-17T081601.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/restaurant-brands/restaurant-brands-2026-08-17T081601.png
 security:
 - kind: authentication
   name: Restaurant Brands Authentication

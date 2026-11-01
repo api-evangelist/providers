@@ -30,14 +30,16 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -117,15 +119,12 @@ apis:
   description: Settings API
   name: listmonk Settings API
   slug: listmonk-settings-api
-artifact_total: 32
+artifact_total: 36
 asyncapis:
 - description: 'listmonk''s event surface is INGRESS, not egress: a listmonk instance receives bounce and complaint events, it does not emit webhooks to subscribers of its own. This document models the two documented '
   name: listmonk Bounce Webhooks
   slug: listmonk-bounce-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: listmonk Bounces API
   slug: open-listmonk-bounces-api
@@ -155,22 +154,22 @@ collections:
   slug: open-listmonk
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/capabilities/listmonk-capability-edges.yml
+  href: https://artifacts.apis.io/listmonk/capabilities/listmonk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/listmonk-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/agentic-access/listmonk-agentic-access.yml
+  href: https://artifacts.apis.io/listmonk/agentic-access/listmonk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/listmonk-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/security/listmonk-domain-security.yml
+  href: https://artifacts.apis.io/listmonk/security/listmonk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/listmonk-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/authentication/listmonk-authentication.yml
+  href: https://artifacts.apis.io/listmonk/authentication/listmonk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/listmonk-authentication.yml
@@ -191,102 +190,102 @@ common:
   type: Documentation
   url: https://listmonk.app/docs/apis/apis/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/plans/listmonk-plans-pricing.yml
+  href: https://artifacts.apis.io/listmonk/plans/listmonk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/listmonk-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/rate-limits/listmonk-rate-limits.yml
+  href: https://artifacts.apis.io/listmonk/rate-limits/listmonk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/listmonk-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/finops/listmonk-finops.yml
+  href: https://artifacts.apis.io/listmonk/finops/listmonk-finops.yml
   title: ''
   type: FinOps
   url: finops/listmonk-finops.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/openapi/_original/listmonk-collections-openapi.yml
+  href: https://artifacts.apis.io/listmonk/openapi/_original/listmonk-collections-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/listmonk-collections-openapi.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/overlays/listmonk-collections-overlay.yaml
+  href: https://artifacts.apis.io/listmonk/overlays/listmonk-collections-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/listmonk-collections-overlay.yaml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/packages/listmonk-packages.yml
+  href: https://artifacts.apis.io/listmonk/packages/listmonk-packages.yml
   title: ''
   type: Packages
   url: packages/listmonk-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/llms/listmonk-llms.txt
+  href: https://artifacts.apis.io/listmonk/llms/listmonk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/listmonk-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/listmonk/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/mcp/listmonk-tool-crosswalk.yml
+  href: https://artifacts.apis.io/listmonk/mcp/listmonk-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/listmonk-tool-crosswalk.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/asyncapi/listmonk-bounce-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/listmonk/asyncapi/listmonk-bounce-webhooks-asyncapi.yml
   title: ''
   type: AsyncAPI
   url: asyncapi/listmonk-bounce-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/asyncapi/listmonk-bounce-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/listmonk/asyncapi/listmonk-bounce-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/listmonk-bounce-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/conventions/listmonk-conventions.yml
+  href: https://artifacts.apis.io/listmonk/conventions/listmonk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/listmonk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/errors/listmonk-problem-types.yml
+  href: https://artifacts.apis.io/listmonk/errors/listmonk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/listmonk-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/data-model/listmonk-data-model.yml
+  href: https://artifacts.apis.io/listmonk/data-model/listmonk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/listmonk-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/conformance/listmonk-conformance.yml
+  href: https://artifacts.apis.io/listmonk/conformance/listmonk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/listmonk-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/lifecycle/listmonk-lifecycle.yml
+  href: https://artifacts.apis.io/listmonk/lifecycle/listmonk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/listmonk-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/changelog/listmonk-changelog.yml
+  href: https://artifacts.apis.io/listmonk/changelog/listmonk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/listmonk-changelog.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/cli/listmonk-cli.yml
+  href: https://artifacts.apis.io/listmonk/cli/listmonk-cli.yml
   title: ''
   type: CLI
   url: cli/listmonk-cli.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/sandbox/listmonk-sandbox.yml
+  href: https://artifacts.apis.io/listmonk/sandbox/listmonk-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/listmonk-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/security/listmonk-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/listmonk/security/listmonk-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/listmonk-vulnerability-disclosure.yml
@@ -326,12 +325,12 @@ created: '2026-06-25'
 description: listmonk is a free and open-source, self-hosted newsletter and mailing-list manager built in Go with a Vue front end. Every feature in the admin UI is backed by a documented REST API on the self-hosted instance (Basic auth with an API user and token) covering subscribers, lists, campaigns, templates, media, CSV import, transactional messages, and bounces. There is no hosted SaaS - users run their own instance.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Listmonk Finops
   primary_unit: ''
-  service_category: Email and Messaging
+  service_category: ''
   slug: listmonk-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/listmonk.png
 layout: provider
 modified: '2026-08-13'
@@ -349,14 +348,14 @@ plans:
 - name: Listmonk Plans Pricing
   plan_count: 1
   slug: listmonk-plans-pricing
-random_paper: 1
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Listmonk Rate Limits
   slug: listmonk-rate-limits
 score:
   band: developing
-  composite: 45.5
+  composite: 45.8
   coverage:
     artifact_dirs: 27
     catalog_earned: 57.0
@@ -364,15 +363,15 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 48.4
+    contract_quality: 45.0
     developer_ergonomics: 70.8
-    discoverability: 65.0
-    operational_transparency: 68.4
-  previous_composite: 47.1
+    discoverability: 66.1
+    operational_transparency: 71.1
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -389,13 +388,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 19.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/screenshots/listmonk-2026-07-25T225325.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/listmonk/listmonk-2026-07-25T225325.png
 security:
 - kind: authentication
   name: Listmonk Authentication
@@ -409,6 +409,18 @@ security:
   name: Listmonk Vulnerability Disclosure
   slug: listmonk-vulnerability-disclosure
   summary_line: no policy recorded
+skill_count: 5
+skills:
+- name: listmonk-bounce-handling
+  slug: listmonk-bounce-handling
+- name: listmonk-campaign-send
+  slug: listmonk-campaign-send
+- name: listmonk-import-and-segment
+  slug: listmonk-import-and-segment
+- name: listmonk-subscriber-onboarding
+  slug: listmonk-subscriber-onboarding
+- name: listmonk-transactional-send
+  slug: listmonk-transactional-send
 slug: listmonk
 tags:
 - Email

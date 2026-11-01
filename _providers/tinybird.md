@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-17'
+  score: 25.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -128,9 +130,6 @@ collections:
   name: Tinybird Analyze Tokens API
   slug: postman-tinybird-tokens-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Tinybird Analyze API
   slug: open-tinybird-analyze-api
 - collection_type: open
@@ -165,22 +164,22 @@ collections:
   slug: open-tinybird
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/plans/tinybird-plans-pricing.yml
+  href: https://artifacts.apis.io/tinybird/plans/tinybird-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/tinybird-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/rate-limits/tinybird-rate-limits.yml
+  href: https://artifacts.apis.io/tinybird/rate-limits/tinybird-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/tinybird-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/finops/tinybird-finops.yml
+  href: https://artifacts.apis.io/tinybird/finops/tinybird-finops.yml
   title: ''
   type: FinOps
   url: finops/tinybird-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/capabilities/tinybird-capability-edges.yml
+  href: https://artifacts.apis.io/tinybird/capabilities/tinybird-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/tinybird-capability-edges.yml
@@ -189,22 +188,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/tinybird/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/agentic-access/tinybird-agentic-access.yml
+  href: https://artifacts.apis.io/tinybird/agentic-access/tinybird-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/tinybird-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/security/tinybird-trust-center.yml
+  href: https://artifacts.apis.io/tinybird/security/tinybird-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/tinybird-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/security/tinybird-domain-security.yml
+  href: https://artifacts.apis.io/tinybird/security/tinybird-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/tinybird-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/authentication/tinybird-authentication.yml
+  href: https://artifacts.apis.io/tinybird/authentication/tinybird-authentication.yml
   title: ''
   type: Authentication
   url: authentication/tinybird-authentication.yml
@@ -273,13 +272,13 @@ examples:
   name: Tinybird List Data Sources Example
   slug: tinybird-list-data-sources-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Tinybird Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: subscription
+  service_category: ''
   slug: tinybird-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tinybird.png
 json_schemas:
 - name: Tinybird Data Source
@@ -321,9 +320,12 @@ overview: 'Tinybird publishes 10 API contracts indexed on the [APIs.io](https://
   Tinybird''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, and 17 more developer resources.'
 plans:
 - name: Tinybird Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: tinybird-plans-pricing
-random_paper: 11
+- name: Tinybird Price Estimates
+  plan_count: 0
+  slug: tinybird-price-estimates
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Tinybird Rate Limits
@@ -354,23 +356,23 @@ rules:
   slug: tinybird-rules
 score:
   band: developing
-  composite: 41.5
+  composite: 47.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 65.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.6
+    artifact_dirs: 22
+    catalog_earned: 77.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 28.9
+    access_clarity: 60.5
     contract_governance: 27.3
-    contract_quality: 61.4
+    contract_quality: 58.0
     developer_ergonomics: 43.3
-    discoverability: 68.3
-    operational_transparency: 10.5
-  previous_composite: 43.0
+    discoverability: 65.0
+    operational_transparency: 13.2
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     contracts:
@@ -385,13 +387,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/screenshots/tinybird-2026-06-20T195408.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/tinybird/tinybird-2026-06-20T195408.png
 security:
 - kind: authentication
   name: Tinybird Authentication

@@ -10,40 +10,133 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
-    protected_resource_metadata: false
+    operation_distinctiveness: na
+    pagination_ratio: na
+    protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.6
-  scored_at: '2026-10-17'
-api_count: 0
-artifact_total: 6
+  score: 22.8
+  scored_at: '2026-10-31'
+api_count: 1
+apis:
+- description: Remote Model Context Protocol endpoint on Ivalua's portal host, advertised by an OAuth 2.0 Protected Resource Metadata document; requires OAuth 2.0 authorization against portal.ivalua.com/oauth2 and r
+  name: Ivalua MCP Server
+  slug: ivalua-mcp-server
+artifact_total: 11
 common:
+- group: design
+  href: https://artifacts.apis.io/ivalua/json-ld/ivalua-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/ivalua-context.jsonld
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ivalua/refs/heads/main/security/ivalua-vulnerability-disclosure.yml
+  title: ''
+  type: Compliance
+  url: https://trust.ivalua.com/
+- group: auth
+  href: https://artifacts.apis.io/ivalua/security/ivalua-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/ivalua-trust-center.yml
+- group: auth
+  href: https://artifacts.apis.io/ivalua/security/ivalua-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/ivalua-vulnerability-disclosure.yml
+- group: auth
+  href: https://artifacts.apis.io/ivalua/authentication/ivalua-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/ivalua-authentication.yml
+- group: auth
+  href: https://artifacts.apis.io/ivalua/scopes/ivalua-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/ivalua-scopes.yml
+- group: agent
+  href: https://artifacts.apis.io/ivalua/llms/ivalua-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/ivalua-llms.txt
+- group: auth
+  href: https://artifacts.apis.io/ivalua/well-known/ivalua-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/ivalua-security.txt
+- group: auth
+  href: https://artifacts.apis.io/ivalua/well-known/ivalua-it-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/ivalua-it-security.txt
+- group: auth
+  href: https://artifacts.apis.io/ivalua/well-known/ivalua-fr-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/ivalua-fr-security.txt
+- group: auth
+  href: https://artifacts.apis.io/ivalua/well-known/ivalua-es-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/ivalua-es-security.txt
+- group: auth
+  href: https://artifacts.apis.io/ivalua/well-known/ivalua-de-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/ivalua-de-security.txt
+- group: agent
+  href: https://artifacts.apis.io/ivalua/well-known/ivalua-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/ivalua-well-known.yml
+- group: other
+  href: https://artifacts.apis.io/ivalua/hosts/ivalua-hosts.yml
+  title: ''
+  type: Hosts
+  url: hosts/ivalua-hosts.yml
+- group: build
+  href: https://artifacts.apis.io/ivalua/integrations/ivalua-integration-edges.yml
+  title: ''
+  type: IntegrationEdges
+  url: integrations/ivalua-integration-edges.yml
+- group: other
+  href: https://artifacts.apis.io/ivalua/vendors/ivalua-vendors.yml
+  title: ''
+  type: Vendors
+  url: vendors/ivalua-vendors.yml
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.ivalua.com/company/newsroom/
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.ivalua.com/company/leadership/
+- group: auth
+  href: https://artifacts.apis.io/ivalua/security/ivalua-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/ivalua-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/ivalua/refs/heads/main/security/ivalua-domain-security.yml
+  href: https://artifacts.apis.io/ivalua/security/ivalua-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/ivalua-domain-security.yml
@@ -71,29 +164,48 @@ common:
   title: ''
   type: Pricing
   url: https://www.saasworthy.com/product/ivalua-procurement-solution/pricing
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://www.ivalua.com/
 - group: other
   title: ''
   type: X
   url: https://twitter.com/ivalua
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ivalua/refs/heads/main/plans/ivalua-plans-pricing.yml
+  href: https://artifacts.apis.io/ivalua/plans/ivalua-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/ivalua-plans-pricing.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://portal.ivalua.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.ivalua.com/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.ivalua.com/legal/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.ivalua.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/ivalua/refs/heads/main/rate-limits/ivalua-rate-limits.yml
+  href: https://artifacts.apis.io/ivalua/rate-limits/ivalua-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/ivalua-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/ivalua/refs/heads/main/finops/ivalua-finops.yml
+  href: https://artifacts.apis.io/ivalua/finops/ivalua-finops.yml
   title: ''
   type: FinOps
   url: finops/ivalua-finops.yml
+coverage:
+  detail: the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - status: 200
+    url: https://www.ivalua.com/
+  reason: no-machine-readable-spec
+  state: unreadable
 created: '2026-06-13'
 description: Ivalua is an enterprise AI-powered procurement platform offering a unified source-to-pay solution that enables organizations to manage all categories of spend and suppliers. The platform exposes a REST API built on open standards, supporting JSON and XML data formats via secure web services, enabling programmatic integration for supplier onboarding, contract lifecycle management, sourcing events, purchase orders, invoice automation, and spend analytics. Ivalua's Enterprise Application Interface (EAI) module combines APIs, ETL, and query tools to orchestrate data transfer between Ivalua and external enterprise systems including SAP, Oracle, and Microsoft Dynamics. The Integration Hub supports 60+ ERP and enterprise system connectors, providing developer tooling to build and discover APIs without requiring middleware. Authentication leverages SAML-based SSO and two-factor authentication, with raw interface request/response logging available through the Integration Console for
   audit and debugging purposes.
@@ -112,68 +224,87 @@ jsonld:
   property_count: 5
   slug: ivalua-context
 layout: provider
-modified: '2026-07-25'
+mcp_servers:
+- description: Ivalua's portal host publishes an OAuth 2.0 Protected Resource Metadata document (RFC 9728) naming https://portal.ivalua.com/mcp as the protected resource, with https://portal.ivalua.com/oauth2 as its
+  name: Ivalua MCP Server (portal.ivalua.com)
+  slug: ivalua-mcp-server-portal-ivalua-com
+modified: '2026-10-20'
 name: Ivalua
 nav: Providers
 network: true
-overview: 'Ivalua is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Procurement, Source-to-Pay, Supplier Management, Contract Management, and Sourcing.
+overview: 'Ivalua is listed with 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Procurement, Source-to-Pay, Supplier Management, Contract Management, and Sourcing.
 
 
   The Ivalua catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Ivalua''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  Ivalua''s developer surface includes authentication, documentation, engineering blog, pricing, and 30 more developer resources.'
 plans:
 - name: Ivalua Plans Pricing
   plan_count: 1
   slug: ivalua-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Ivalua Rate Limits
   slug: ivalua-rate-limits
+scopes:
+- name: Ivalua Scopes
+  scope_count: 1
+  slug: ivalua-scopes
+  summary_line: 1 scope
 score:
-  band: emerging
-  composite: 17.0
+  band: thin
+  composite: 34.3
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 40.0
+    artifact_dirs: 16
+    catalog_earned: 50.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 11.9
-    discoverability: 48.2
-    operational_transparency: 28.9
-  previous_composite: 24.0
+    developer_ergonomics: 33.3
+    discoverability: 68.3
+    operational_transparency: 23.7
+  previous_composite: 34.3
+  provenance:
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 45.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/ivalua/refs/heads/main/screenshots/ivalua-2026-06-20T183638.png
+screenshot: https://apis.io/screenshots/ivalua/ivalua-2026-06-20T183638.png
 security:
+- kind: authentication
+  name: Ivalua Authentication
+  slug: ivalua-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: Ivalua Domain Security
   slug: ivalua-domain-security
-  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+  summary_line: TLSv1.3 · DNSSEC · DMARC
 - kind: vulnerability-disclosure
   name: Ivalua Vulnerability Disclosure
   slug: ivalua-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Ivalua Trust Center
+  slug: ivalua-trust-center
+  summary_line: ISO/IEC 27001:2022, SOC 2 Type II, SOC 1 Type II, HIPAA, CSA STAR, TISAX, SCF - EU GDPR, Ivalua ACSC IRAP ISM
 slug: ivalua
 tags:
 - Procurement

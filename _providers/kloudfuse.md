@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: templated
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.3
-  scored_at: '2026-10-17'
+  score: 23.5
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - baseURL: https://{instance}
@@ -79,22 +81,22 @@ apis:
 artifact_total: 15
 common:
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kloudfuse/refs/heads/main/rules/kloudfuse-rules.yml
+  href: https://artifacts.apis.io/kloudfuse/rules/kloudfuse-rules.yml
   title: ''
   type: Spectral
   url: rules/kloudfuse-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kloudfuse/refs/heads/main/json-ld/kloudfuse-context.jsonld
+  href: https://artifacts.apis.io/kloudfuse/json-ld/kloudfuse-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/kloudfuse-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kloudfuse/refs/heads/main/vocabulary/kloudfuse-vocabulary.yml
+  href: https://artifacts.apis.io/kloudfuse/vocabulary/kloudfuse-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/kloudfuse-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kloudfuse/refs/heads/main/data-model/kloudfuse-data-model.yml
+  href: https://artifacts.apis.io/kloudfuse/data-model/kloudfuse-data-model.yml
   title: ''
   type: DataModel
   url: data-model/kloudfuse-data-model.yml
@@ -103,22 +105,22 @@ common:
   type: Compliance
   url: https://www.kloudfuse.com/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kloudfuse/refs/heads/main/conformance/kloudfuse-conformance.yml
+  href: https://artifacts.apis.io/kloudfuse/conformance/kloudfuse-conformance.yml
   title: ''
   type: Conformance
   url: conformance/kloudfuse-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kloudfuse/refs/heads/main/llms/kloudfuse-llms.txt
+  href: https://artifacts.apis.io/kloudfuse/llms/kloudfuse-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/kloudfuse-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kloudfuse/refs/heads/main/hosts/kloudfuse-hosts.yml
+  href: https://artifacts.apis.io/kloudfuse/hosts/kloudfuse-hosts.yml
   title: ''
   type: Hosts
   url: hosts/kloudfuse-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/kloudfuse/refs/heads/main/vendors/kloudfuse-vendors.yml
+  href: https://artifacts.apis.io/kloudfuse/vendors/kloudfuse-vendors.yml
   title: ''
   type: Vendors
   url: vendors/kloudfuse-vendors.yml
@@ -127,12 +129,12 @@ common:
   type: GettingStarted
   url: https://docs.kloudfuse.com/platform/latest/setup/install/prequisites/index
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kloudfuse/refs/heads/main/security/kloudfuse-trust-center.yml
+  href: https://artifacts.apis.io/kloudfuse/security/kloudfuse-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/kloudfuse-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/kloudfuse/refs/heads/main/security/kloudfuse-domain-security.yml
+  href: https://artifacts.apis.io/kloudfuse/security/kloudfuse-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/kloudfuse-domain-security.yml
@@ -153,12 +155,12 @@ common:
   type: Authentication
   url: https://docs.kloudfuse.com/platform/latest/administration/authentication/ingestion-api-key/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/kloudfuse/refs/heads/main/errors/kloudfuse-problem-types.yml
+  href: https://artifacts.apis.io/kloudfuse/errors/kloudfuse-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/kloudfuse-problem-types.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/kloudfuse/refs/heads/main/mcp/kloudfuse-mcp.yml
+  href: https://artifacts.apis.io/kloudfuse/mcp/kloudfuse-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/kloudfuse-mcp.yml
@@ -241,7 +243,7 @@ overview: 'Kloudfuse is listed with 10 APIs on the [APIs.io](https://apis.io/) n
 
 
   Kloudfuse''s developer surface includes getting-started guide, documentation, API reference, authentication, changelog, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 10
+random_paper: 18
 rules:
 - authorship: generated
   effective_rule_count: 58
@@ -257,7 +259,7 @@ rules:
   slug: kloudfuse-rules
 score:
   band: thin
-  composite: 37.8
+  composite: 38.7
   coverage:
     artifact_dirs: 14
     catalog_earned: 50.8
@@ -265,13 +267,15 @@ score:
     catalog_gap: 64.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 22.0
-    contract_quality: 16.6
+    contract_quality: 16.2
     developer_ergonomics: 50.0
-    discoverability: 76.7
+    discoverability: 80.0
     operational_transparency: 39.5
+  previous_composite: 38.7
   provenance:
     conformance: derived
     contracts:
@@ -286,11 +290,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 25.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Kloudfuse Domain Security

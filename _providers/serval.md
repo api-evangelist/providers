@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: derived
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.3
-  scored_at: '2026-10-17'
+  score: 40.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://public.api.serval.com
@@ -42,25 +44,27 @@ apis:
   description: The Auth API API from Serval — 1 operation(s) for auth api.
   name: Serval Auth API
   slug: serval-auth-api-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Serval Webhooks
   slug: serval-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: API Spec Auth API API
   slug: open-serval-auth-api-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/serval/plans/serval-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/serval-plans-pricing.yml
 - group: company
   title: ''
   type: BlogRSS
   url: https://www.serval.com/feed.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/security/serval-domain-security.yml
+  href: https://artifacts.apis.io/serval/security/serval-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/serval-domain-security.yml
@@ -113,7 +117,7 @@ common:
   type: GitHubOrganization
   url: https://github.com/ServalHQ
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/changelog/serval-changelog.yml
+  href: https://artifacts.apis.io/serval/changelog/serval-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/serval-changelog.yml
@@ -126,32 +130,40 @@ common:
   type: TrustCenter
   url: https://trust.serval.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/mcp/serval-mcp.yml
+  href: https://artifacts.apis.io/serval/mcp/serval-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/serval-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/cli/serval-cli.yml
+  href: https://artifacts.apis.io/serval/cli/serval-cli.yml
   title: ''
   type: CLI
   url: cli/serval-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/llms/serval-llms.txt
+  href: https://artifacts.apis.io/serval/llms/serval-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/serval-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/well-known/serval-well-known.yml
+  href: https://artifacts.apis.io/serval/well-known/serval-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/serval-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/lifecycle/serval-lifecycle.yml
+  href: https://artifacts.apis.io/serval/lifecycle/serval-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/serval-lifecycle.yml
 created: '2026-07-17'
 description: Serval is an AI-native IT service management (ITSM) platform for modern teams. It pairs an AI help-desk agent that resolves employee requests in Slack, Microsoft Teams, email, and a web portal with a separate admin-facing automation agent (Catalyst) that turns intent into deterministic, version-controlled TypeScript workflows. Serval covers ticketing, knowledge base, journeys (onboarding/offboarding), just-in-time access management with approval flows, campaigns, SLAs, and 130+ integrations. Its public REST API (v2), hosted MCP server, CLI, and webhooks let teams manage tickets, workflows, access, users, and audit logs programmatically, with US and EU data-residency regions.
+finops:
+- has_sources: true
+  method: derived
+  name: Serval Finops
+  primary_unit: ''
+  service_category: ''
+  slug: serval-finops
+  template: true
 image: https://framerusercontent.com/images/V6k6fFCAJ2d3ZHM9P4chDQnDbY.png
 layout: provider
 mcp_servers:
@@ -168,8 +180,12 @@ overview: 'Serval publishes 1 API contract indexed on the [APIs.io](https://apis
   The Serval catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Serval''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 15 more developer resources.'
-random_paper: 15
+  Serval''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 16 more developer resources.'
+plans:
+- name: Serval Plans Pricing
+  plan_count: 0
+  slug: serval-plans-pricing
+random_paper: 5
 scopes:
 - name: Serval Scopes
   scope_count: 1
@@ -177,9 +193,9 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 49.5
+  composite: 53.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -187,13 +203,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 54.0
-    developer_ergonomics: 57.1
-    discoverability: 75.0
-    operational_transparency: 34.2
-  previous_composite: 49.5
+    developer_ergonomics: 64.3
+    discoverability: 65.0
+    operational_transparency: 44.7
+  previous_composite: 53.3
   provenance:
     conformance: derived
     contracts:
@@ -208,13 +224,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 39.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/screenshots/serval-2026-08-17T081819.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/serval/serval-2026-08-17T081819.png
 security:
 - kind: authentication
   name: Serval Authentication

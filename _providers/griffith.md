@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 8
 apis:
 - description: Griffith's SAML 2.0 Shibboleth Identity Provider, entityID https://idp1.griffith.edu.au/idp/shibboleth, registered in the Australian Access Federation on 2023-03-06 and exported to eduGAIN as entity 6
@@ -63,7 +65,7 @@ apis:
 artifact_total: 13
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/griffith/refs/heads/main/security/griffith-domain-security.yml
+  href: https://artifacts.apis.io/griffith/security/griffith-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/griffith-domain-security.yml
@@ -76,12 +78,12 @@ common:
   type: ResearchRepository
   url: https://research-repository.griffith.edu.au/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/griffith/refs/heads/main/authentication/griffith-identity-federation.yml
+  href: https://artifacts.apis.io/griffith/authentication/griffith-identity-federation.yml
   title: ''
   type: IdentityFederation
   url: authentication/griffith-identity-federation.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/griffith/refs/heads/main/conformance/griffith-domain-standards.yml
+  href: https://artifacts.apis.io/griffith/conformance/griffith-domain-standards.yml
   title: ''
   type: Conformance
   url: conformance/griffith-domain-standards.yml
@@ -98,22 +100,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/griffith-university/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/griffith/refs/heads/main/plans/griffith-plans-pricing.yml
+  href: https://artifacts.apis.io/griffith/plans/griffith-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/griffith-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/griffith/refs/heads/main/rate-limits/griffith-rate-limits.yml
+  href: https://artifacts.apis.io/griffith/rate-limits/griffith-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/griffith-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/griffith/refs/heads/main/finops/griffith-finops.yml
+  href: https://artifacts.apis.io/griffith/finops/griffith-finops.yml
   title: ''
   type: FinOps
   url: finops/griffith-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/griffith/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/griffith/review.yml
   title: ''
   type: Review
   url: review.yml
@@ -155,8 +157,8 @@ coverage:
     url: https://data.griffith.edu.au/
   - status: 0
     url: https://programs-courses.griffith.edu.au/
-  reason: tenant_only
-  state: gated
+  reason: tenant-only
+  state: none
 created: '2026-06-03'
 description: 'Griffith University is a public research university in South East Queensland, Australia, a member of the Innovative Research Universities (IRU) network and ranked #255 in the QS World University Rankings 2025. Griffith operates no public developer portal and publishes no institution-authored API contract; a 2026-09-01 operator audit found that every machine-readable surface running under a griffith.edu.au hostname is a vendor platform under a Griffith tenancy, confirmed by DNS. Griffith Research Online (research-repository.griffith.edu.au) is a DSpace 7.6 repository hosted by Atmire, serving a live REST API and a fully conformant OAI-PMH 2.0 endpoint over Griffith''s own research outputs. lms.griffith.edu.au is an Instructure Canvas tenancy exposing an LTI 1.3 keyset and an OpenID Connect discovery document, with the REST API itself behind authentication. Griffith Experts (experts.griffith.edu.au) is a Symplectic Discovery deployment. The one surface that is unambiguously Griffith''s
   own engineering identity is its SAML 2.0 Shibboleth Identity Provider, registered in the Australian Access Federation and exported to eduGAIN with REFEDS Research & Scholarship, Code of Conduct v2 and SIRTFI assertions. Griffith is additionally a registrant in DataCite, Crossref and ROR. The main website sits behind a Cloudflare managed challenge and is unreadable to non-browser clients.'
@@ -187,14 +189,14 @@ plans:
 - name: Griffith Plans Pricing
   plan_count: 2
   slug: griffith-plans-pricing
-random_paper: 15
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Griffith Rate Limits
   slug: griffith-rate-limits
 score:
   band: emerging
-  composite: 18.3
+  composite: 18.6
   coverage:
     artifact_dirs: 10
     catalog_earned: 50.0
@@ -202,14 +204,14 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 0.0
     contract_quality: 18.0
     developer_ergonomics: 28.6
     discoverability: 62.5
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -217,7 +219,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
-  previous_composite: 24.4
+  previous_composite: 18.6
   provenance:
     conformance: first-party
   regulatory:
@@ -226,14 +228,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/griffith/refs/heads/main/screenshots/griffith-2026-06-20T182409.png
+screenshot: https://apis.io/screenshots/griffith/griffith-2026-06-20T182409.png
 security:
 - kind: domain-security
   name: Griffith Domain Security

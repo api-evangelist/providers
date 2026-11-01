@@ -23,26 +23,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.6
-  scored_at: '2026-10-17'
+  score: 21.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/security/cvent-community-trust-center.yml
+  href: https://artifacts.apis.io/cvent-community/security/cvent-community-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/cvent-community-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/security/cvent-community-domain-security.yml
+  href: https://artifacts.apis.io/cvent-community/security/cvent-community-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/cvent-community-domain-security.yml
@@ -139,7 +141,7 @@ common:
   type: ChangeLog
   url: https://release.cvent.com/eventmanagement
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/changelog/cvent-community-changelog.yml
+  href: https://artifacts.apis.io/cvent-community/changelog/cvent-community-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/cvent-community-changelog.yml
@@ -148,32 +150,32 @@ common:
   type: Pricing
   url: https://www.cvent.com/en/event-management-software/cvent-pricing
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/llms/cvent-community-llms.txt
+  href: https://artifacts.apis.io/cvent-community/llms/cvent-community-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/cvent-community-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/well-known/cvent-community-well-known.yml
+  href: https://artifacts.apis.io/cvent-community/well-known/cvent-community-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/cvent-community-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/well-known/cvent-community-openid-configuration.json
+  href: https://artifacts.apis.io/cvent-community/well-known/cvent-community-openid-configuration.json
   title: ''
   type: OpenIDConnect
   url: well-known/cvent-community-openid-configuration.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/authentication/cvent-community-authentication.yml
+  href: https://artifacts.apis.io/cvent-community/authentication/cvent-community-authentication.yml
   title: ''
   type: Authentication
   url: authentication/cvent-community-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/scopes/cvent-community-scopes.yml
+  href: https://artifacts.apis.io/cvent-community/scopes/cvent-community-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/cvent-community-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/conformance/cvent-community-conformance.yml
+  href: https://artifacts.apis.io/cvent-community/conformance/cvent-community-conformance.yml
   title: ''
   type: Conformance
   url: conformance/cvent-community-conformance.yml
@@ -186,27 +188,27 @@ common:
   type: Security
   url: https://www.cvent.com/en/event-management-software/vulnerability-disclosure-program
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/security/cvent-community-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/cvent-community/security/cvent-community-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/cvent-community-vulnerability-disclosure.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/lifecycle/cvent-community-lifecycle.yml
+  href: https://artifacts.apis.io/cvent-community/lifecycle/cvent-community-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/cvent-community-lifecycle.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/plans/cvent-community-plans-pricing.yml
+  href: https://artifacts.apis.io/cvent-community/plans/cvent-community-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/cvent-community-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/rate-limits/cvent-community-rate-limits.yml
+  href: https://artifacts.apis.io/cvent-community/rate-limits/cvent-community-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/cvent-community-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/mcp/cvent-community-mcp.yml
+  href: https://artifacts.apis.io/cvent-community/mcp/cvent-community-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/cvent-community-mcp.yml
@@ -237,8 +239,8 @@ scopes:
   slug: cvent-community-scopes
   summary_line: 36 scopes · authorizationCode
 score:
-  band: thin
-  composite: 36.7
+  band: developing
+  composite: 40.7
   coverage:
     artifact_dirs: 14
     catalog_earned: 27.0
@@ -248,13 +250,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 46.1
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
     discoverability: 55.4
-    operational_transparency: 50.0
-  previous_composite: 36.7
+    operational_transparency: 52.6
+  previous_composite: 40.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -263,15 +265,15 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 40.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 45.1
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-community/refs/heads/main/screenshots/cvent-community-2026-06-20T175400.png
+screenshot: https://apis.io/screenshots/cvent-community/cvent-community-2026-06-20T175400.png
 security:
 - kind: authentication
   name: Cvent Community Authentication

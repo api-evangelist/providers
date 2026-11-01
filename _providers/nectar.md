@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nectar/refs/heads/main/security/nectar-domain-security.yml
+  href: https://artifacts.apis.io/nectar/security/nectar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nectar-domain-security.yml
@@ -77,7 +79,7 @@ overview: 'Nectar is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Nectar''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 21
+random_paper: 13
 score:
   band: emerging
   composite: 12.9
@@ -103,14 +105,14 @@ score:
     regime: Health
     regime_id: health
     score: 10.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nectar/refs/heads/main/screenshots/nectar-2026-08-07T184807.png
+screenshot: https://apis.io/screenshots/nectar/nectar-2026-08-07T184807.png
 security:
 - kind: domain-security
   name: Nectar Domain Security

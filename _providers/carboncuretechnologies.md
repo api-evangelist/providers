@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: mostly
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-10-17'
+  score: 24.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 1
@@ -256,37 +258,37 @@ apis:
 artifact_total: 56
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/carboncuretechnologies/refs/heads/main/agentic-access/carboncuretechnologies-agentic-access.yml
+  href: https://artifacts.apis.io/carboncuretechnologies/agentic-access/carboncuretechnologies-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/carboncuretechnologies-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carboncuretechnologies/refs/heads/main/rules/carboncuretechnologies-rules.yml
+  href: https://artifacts.apis.io/carboncuretechnologies/rules/carboncuretechnologies-rules.yml
   title: ''
   type: Spectral
   url: rules/carboncuretechnologies-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carboncuretechnologies/refs/heads/main/json-ld/carboncuretechnologies-context.jsonld
+  href: https://artifacts.apis.io/carboncuretechnologies/json-ld/carboncuretechnologies-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/carboncuretechnologies-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carboncuretechnologies/refs/heads/main/vocabulary/carboncuretechnologies-vocabulary.yml
+  href: https://artifacts.apis.io/carboncuretechnologies/vocabulary/carboncuretechnologies-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/carboncuretechnologies-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carboncuretechnologies/refs/heads/main/data-model/carboncuretechnologies-data-model.yml
+  href: https://artifacts.apis.io/carboncuretechnologies/data-model/carboncuretechnologies-data-model.yml
   title: ''
   type: DataModel
   url: data-model/carboncuretechnologies-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/carboncuretechnologies/refs/heads/main/conformance/carboncuretechnologies-conformance.yml
+  href: https://artifacts.apis.io/carboncuretechnologies/conformance/carboncuretechnologies-conformance.yml
   title: ''
   type: Conformance
   url: conformance/carboncuretechnologies-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/carboncuretechnologies/refs/heads/main/hosts/carboncuretechnologies-hosts.yml
+  href: https://artifacts.apis.io/carboncuretechnologies/hosts/carboncuretechnologies-hosts.yml
   title: ''
   type: Hosts
   url: hosts/carboncuretechnologies-hosts.yml
@@ -303,17 +305,17 @@ common:
   type: Leadership
   url: https://www.carboncure.com/leadership/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carboncuretechnologies/refs/heads/main/scopes/carboncuretechnologies-scopes.yml
+  href: https://artifacts.apis.io/carboncuretechnologies/scopes/carboncuretechnologies-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/carboncuretechnologies-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carboncuretechnologies/refs/heads/main/authentication/carboncuretechnologies-authentication.yml
+  href: https://artifacts.apis.io/carboncuretechnologies/authentication/carboncuretechnologies-authentication.yml
   title: ''
   type: Authentication
   url: authentication/carboncuretechnologies-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/carboncuretechnologies/refs/heads/main/security/carboncuretechnologies-domain-security.yml
+  href: https://artifacts.apis.io/carboncuretechnologies/security/carboncuretechnologies-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/carboncuretechnologies-domain-security.yml
@@ -376,7 +378,7 @@ overview: 'Carboncuretechnologies publishes 44 API contracts indexed on the [API
 
 
   Carboncuretechnologies'' developer surface includes authentication, documentation, engineering blog, and 15 more developer resources.'
-random_paper: 12
+random_paper: 16
 rules:
 - authorship: generated
   effective_rule_count: 48
@@ -397,7 +399,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 31.8
+  composite: 31.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 62.8
@@ -405,13 +407,15 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 10.5
     contract_governance: 22.0
-    contract_quality: 50.6
+    contract_quality: 49.4
     developer_ergonomics: 23.8
     discoverability: 69.6
     operational_transparency: 0.0
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -427,11 +431,13 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 30.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 11.1
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Carboncuretechnologies Authentication

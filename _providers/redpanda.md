@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: documented
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.5
-  scored_at: '2026-10-17'
+  score: 18.3
+  scored_at: '2026-10-31'
 api_count: 10
 apis:
 - description: Redpanda implements the Apache Kafka wire protocol natively, allowing existing Kafka clients (producers, consumers, AdminClient, Streams, Connect) to work unchanged against Redpanda brokers on TCP por
@@ -88,17 +90,17 @@ collections:
   slug: open-redpanda-admin-usage
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redpanda/refs/heads/main/security/redpanda-trust-center.yml
+  href: https://artifacts.apis.io/redpanda/security/redpanda-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/redpanda-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redpanda/refs/heads/main/security/redpanda-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/redpanda/security/redpanda-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/redpanda-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/redpanda/refs/heads/main/security/redpanda-domain-security.yml
+  href: https://artifacts.apis.io/redpanda/security/redpanda-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/redpanda-domain-security.yml
@@ -199,17 +201,17 @@ common:
   type: rpk CLI
   url: https://docs.redpanda.com/current/reference/rpk/
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/redpanda/refs/heads/main/plans/redpanda-plans-pricing.yml
+  href: https://artifacts.apis.io/redpanda/plans/redpanda-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/redpanda-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/redpanda/refs/heads/main/rate-limits/redpanda-rate-limits.yml
+  href: https://artifacts.apis.io/redpanda/rate-limits/redpanda-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/redpanda-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/redpanda/refs/heads/main/finops/redpanda-finops.yml
+  href: https://artifacts.apis.io/redpanda/finops/redpanda-finops.yml
   title: ''
   type: FinOps
   url: finops/redpanda-finops.yml
@@ -252,14 +254,14 @@ plans:
 - name: Redpanda Plans Pricing
   plan_count: 5
   slug: redpanda-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 6
   name: Redpanda Rate Limits
   slug: redpanda-rate-limits
 score:
   band: thin
-  composite: 31.8
+  composite: 36.6
   coverage:
     artifact_dirs: 13
     catalog_earned: 36.0
@@ -267,15 +269,15 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 30.5
     developer_ergonomics: 38.1
-    discoverability: 63.3
-    operational_transparency: 26.3
-  previous_composite: 33.3
+    discoverability: 60.0
+    operational_transparency: 55.3
+  previous_composite: 36.6
   provenance:
     mcp: first-party
   regulatory:
@@ -284,14 +286,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/redpanda/refs/heads/main/screenshots/redpanda-2026-06-20T192835.png
+screenshot: https://apis.io/screenshots/redpanda/redpanda-2026-06-20T192835.png
 security:
 - kind: domain-security
   name: Redpanda Domain Security

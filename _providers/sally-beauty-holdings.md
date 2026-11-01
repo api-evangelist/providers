@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Sally Beauty Supply's digital commerce platform powered by Salesforce Commerce Cloud, providing product catalog, shopping cart, checkout, and order management capabilities for consumer beauty supply c
@@ -45,22 +47,22 @@ apis:
 artifact_total: 10
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sally-beauty-holdings/refs/heads/main/plans/sally-beauty-holdings-plans-pricing.yml
+  href: https://artifacts.apis.io/sally-beauty-holdings/plans/sally-beauty-holdings-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sally-beauty-holdings-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sally-beauty-holdings/refs/heads/main/rate-limits/sally-beauty-holdings-rate-limits.yml
+  href: https://artifacts.apis.io/sally-beauty-holdings/rate-limits/sally-beauty-holdings-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sally-beauty-holdings-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sally-beauty-holdings/refs/heads/main/finops/sally-beauty-holdings-finops.yml
+  href: https://artifacts.apis.io/sally-beauty-holdings/finops/sally-beauty-holdings-finops.yml
   title: ''
   type: FinOps
   url: finops/sally-beauty-holdings-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sally-beauty-holdings/refs/heads/main/security/sally-beauty-holdings-domain-security.yml
+  href: https://artifacts.apis.io/sally-beauty-holdings/security/sally-beauty-holdings-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sally-beauty-holdings-domain-security.yml
@@ -110,7 +112,7 @@ finops:
 - has_sources: false
   method: generated
   name: Sally Beauty Holdings Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: sally-beauty-holdings-finops
   template: true
@@ -160,7 +162,7 @@ press:
 - date: ''
   title: 2024 Annual Report - Investor Relations - Sally Beauty Holdings
   url: http://investor.sallybeautyholdings.com/~/media/Files/S/Sally-Beauty/annual-report/2024-annual-report.pdf
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Sally Beauty Holdings Rate Limits
@@ -178,8 +180,8 @@ rules:
     warn: 4
   slug: sally-beauty-holdings-jsonschema-spectral-rules
 score:
-  band: minimal
-  composite: 10.5
+  band: emerging
+  composite: 11.0
   coverage:
     artifact_dirs: 15
     catalog_earned: 46.3
@@ -187,29 +189,29 @@ score:
     catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 9.8
     contract_quality: 6.7
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 12.0
+  previous_composite: 11.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/sally-beauty-holdings/refs/heads/main/screenshots/sally-beauty-holdings-2026-06-20T193353.png
+screenshot: https://apis.io/screenshots/sally-beauty-holdings/sally-beauty-holdings-2026-06-20T193353.png
 security:
 - kind: domain-security
   name: Sally Beauty Holdings Domain Security

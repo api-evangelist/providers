@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,12 +25,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/biddingx/refs/heads/main/hosts/biddingx-hosts.yml
+  href: https://artifacts.apis.io/biddingx/hosts/biddingx-hosts.yml
   title: ''
   type: Hosts
   url: hosts/biddingx-hosts.yml
@@ -41,7 +43,7 @@ common:
   type: Leadership
   url: https://www.biddingx.com/introduction/team
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/biddingx/refs/heads/main/security/biddingx-domain-security.yml
+  href: https://artifacts.apis.io/biddingx/security/biddingx-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/biddingx-domain-security.yml
@@ -95,7 +97,7 @@ overview: 'Biddingx is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Biddingx''s developer surface includes documentation, API reference, getting-started guide, support, and 8 more developer resources.'
-random_paper: 5
+random_paper: 1
 score:
   band: emerging
   composite: 15.3
@@ -121,14 +123,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 12.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/biddingx/refs/heads/main/screenshots/biddingx-2026-10-11T182933.png
+screenshot: https://apis.io/screenshots/biddingx/biddingx-2026-10-11T182933.png
 security:
 - kind: domain-security
   name: Biddingx Domain Security

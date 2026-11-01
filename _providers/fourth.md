@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 7
 apis:
 - description: Platform notifications API secured with OAuth 2.0 (scope NotificationService).
@@ -88,12 +90,12 @@ common:
   type: GettingStarted
   url: https://developer.fourth.com/en-gb/docs/getting-started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/authentication/fourth-authentication.yml
+  href: https://artifacts.apis.io/fourth/authentication/fourth-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fourth-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/scopes/fourth-scopes.yml
+  href: https://artifacts.apis.io/fourth/scopes/fourth-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fourth-scopes.yml
@@ -122,7 +124,7 @@ common:
   type: StatusPage
   url: https://status.fourth.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/lifecycle/fourth-lifecycle.yml
+  href: https://artifacts.apis.io/fourth/lifecycle/fourth-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fourth-lifecycle.yml
@@ -131,7 +133,7 @@ common:
   type: Deprecation
   url: https://developer.fourth.com/en-gb/docs/whats-new
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/changelog/fourth-changelog.yml
+  href: https://artifacts.apis.io/fourth/changelog/fourth-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/fourth-changelog.yml
@@ -140,7 +142,7 @@ common:
   type: Webhooks
   url: https://developer.fourth.com/en-gb/docs/notifications-api/reference
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/conformance/fourth-conformance.yml
+  href: https://artifacts.apis.io/fourth/conformance/fourth-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fourth-conformance.yml
@@ -149,7 +151,7 @@ common:
   type: Compliance
   url: https://www.fourth.com/legal/fourth-hosting-data-security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/security/fourth-trust-center.yml
+  href: https://artifacts.apis.io/fourth/security/fourth-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/fourth-trust-center.yml
@@ -158,27 +160,27 @@ common:
   type: Security
   url: https://www.fourth.com/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/security/fourth-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/fourth/security/fourth-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/fourth-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/well-known/fourth-security.txt
+  href: https://artifacts.apis.io/fourth/well-known/fourth-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/fourth-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/well-known/fourth-well-known.yml
+  href: https://artifacts.apis.io/fourth/well-known/fourth-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fourth-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/security/fourth-domain-security.yml
+  href: https://artifacts.apis.io/fourth/security/fourth-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fourth-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/llms/fourth-llms.txt
+  href: https://artifacts.apis.io/fourth/llms/fourth-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fourth-llms.txt
@@ -194,15 +196,15 @@ overview: 'Fourth is listed with 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Fourth''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, support, changelog, and 21 more developer resources.'
-random_paper: 4
+random_paper: 16
 scopes:
 - name: Fourth Scopes
   scope_count: 1
   slug: fourth-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: thin
-  composite: 37.4
+  band: developing
+  composite: 42.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 35.0
@@ -212,13 +214,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 38.1
-    discoverability: 69.6
-    operational_transparency: 52.6
-  previous_composite: 37.4
+    developer_ergonomics: 57.1
+    discoverability: 62.5
+    operational_transparency: 57.9
+  previous_composite: 42.5
   provenance:
     conformance: first-party
   regulatory:
@@ -227,14 +229,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 52.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/screenshots/fourth-2026-07-25T215048.png
+screenshot: https://apis.io/screenshots/fourth/fourth-2026-07-25T215048.png
 security:
 - kind: authentication
   name: Fourth Authentication

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: false
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.1
-  scored_at: '2026-10-17'
+  score: 16.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://app.amika.dev/api/v0beta1
@@ -96,11 +98,38 @@ apis:
   description: The Uploads API from Amika — 2 operation(s) for uploads.
   name: Amika Uploads API
   slug: amika-uploads-api
-artifact_total: 27
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The AgentSessions API from Amika — 4 operation(s) for agentsessions.
+  name: Amika Agent Sessions API
+  slug: amika-agentsessions-api
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The Hosts API from Amika — 3 operation(s) for hosts.
+  name: Amika Hosts API
+  slug: amika-hosts-api
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The Linear API from Amika — 1 operation(s) for linear.
+  name: Amika Linear API
+  slug: amika-linear-api
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The Meta API from Amika — 1 operation(s) for meta.
+  name: Amika Meta API
+  slug: amika-meta-api
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The SandboxBindings API from Amika — 3 operation(s) for sandboxbindings.
+  name: Amika Sandbox Bindings API
+  slug: amika-sandboxbindings-api
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The SandboxServices API from Amika — 2 operation(s) for sandboxservices.
+  name: Amika Sandbox Services API
+  slug: amika-sandboxservices-api
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Amika API — v0beta1 API keys API
   slug: open-amika-api-keys-api
@@ -138,17 +167,22 @@ collections:
   name: Amika API — v0beta1 API keys Uploads API
   slug: open-amika-uploads-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/amika/plans/amika-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amika-plans-pricing.yml
 - group: company
   title: ''
   type: Blog
   url: https://www.amika.dev/blog
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/capabilities/amika-capability-edges.yml
+  href: https://artifacts.apis.io/amika/capabilities/amika-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/amika-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/overlays/amika-openapi-overlay.yaml
+  href: https://artifacts.apis.io/amika/overlays/amika-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/amika-openapi-overlay.yaml
@@ -185,37 +219,37 @@ common:
   type: GettingStarted
   url: https://docs.amika.dev/quickstart
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/authentication/amika-authentication.yml
+  href: https://artifacts.apis.io/amika/authentication/amika-authentication.yml
   title: ''
   type: Authentication
   url: authentication/amika-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/packages/amika-packages.yml
+  href: https://artifacts.apis.io/amika/packages/amika-packages.yml
   title: ''
   type: SDKs
   url: packages/amika-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/packages/amika-packages.yml
+  href: https://artifacts.apis.io/amika/packages/amika-packages.yml
   title: ''
   type: Packages
   url: packages/amika-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/cli/amika-cli.yml
+  href: https://artifacts.apis.io/amika/cli/amika-cli.yml
   title: ''
   type: CLI
   url: cli/amika-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/mcp/amika-mcp.yml
+  href: https://artifacts.apis.io/amika/mcp/amika-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/amika-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/llms/amika-llms.txt
+  href: https://artifacts.apis.io/amika/llms/amika-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/amika-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/lifecycle/amika-lifecycle.yml
+  href: https://artifacts.apis.io/amika/lifecycle/amika-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/amika-lifecycle.yml
@@ -224,32 +258,32 @@ common:
   type: Roadmap
   url: https://docs.amika.dev/architecture/roadmap
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/conventions/amika-conventions.yml
+  href: https://artifacts.apis.io/amika/conventions/amika-conventions.yml
   title: ''
   type: Conventions
   url: conventions/amika-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/errors/amika-problem-types.yml
+  href: https://artifacts.apis.io/amika/errors/amika-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/amika-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/data-model/amika-data-model.yml
+  href: https://artifacts.apis.io/amika/data-model/amika-data-model.yml
   title: ''
   type: DataModel
   url: data-model/amika-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/conformance/amika-conformance.yml
+  href: https://artifacts.apis.io/amika/conformance/amika-conformance.yml
   title: ''
   type: Conformance
   url: conformance/amika-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/security/amika-domain-security.yml
+  href: https://artifacts.apis.io/amika/security/amika-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/amika-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/amika/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -291,46 +325,58 @@ common:
   url: https://www.amika.dev
 created: '2026-07-17'
 description: Amika is a Y Combinator-backed infrastructure company for running AI coding agents in isolated cloud sandboxes. Teams spawn agents from Slack, Linear, GitHub, a CLI, a TypeScript SDK, or the hosted HTTP API to understand a codebase, run in a root-access VM, execute programmable checks (tests, linters, type checkers), and open validated pull requests autonomously. The platform exposes a REST API (v0beta1) for managing repositories, sandboxes, snapshots, agent sessions, secrets, services, storage, and Slack integration, with API-key and OAuth device-flow authentication. Core primitives are shipped open source under the gofixpoint GitHub organization, including the amika CLI, the amikalog session-capture tool, and the @amika/sdk TypeScript client.
+finops:
+- has_sources: true
+  method: derived
+  name: Amika Finops
+  primary_unit: gib hour
+  service_category: ''
+  slug: amika-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amika.png
 layout: provider
 modified: '2026-10-06'
 name: Amika
 nav: Providers
 network: true
-overview: 'Amika publishes 12 API contracts indexed on the [APIs.io](https://apis.io/) network, including API keys API, Docker registries API, Downloads API, and 9 more. Tagged areas include Company, AI Agents, Coding Agents, Developer Tools, and Sandbox.
+overview: 'Amika publishes 18 API contracts indexed on the [APIs.io](https://apis.io/) network, including API keys API, Docker registries API, Downloads API, and 15 more. Tagged areas include Company, AI Agents, Coding Agents, Developer Tools, and Sandbox.
 
 
-  Amika''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, CLI, pricing, and 27 more developer resources.'
-random_paper: 9
+  Amika''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, CLI, pricing, and 28 more developer resources.'
+plans:
+- name: Amika Plans Pricing
+  plan_count: 6
+  slug: amika-plans-pricing
+- name: Amika Price Estimates
+  plan_count: 0
+  slug: amika-price-estimates
+random_paper: 11
 score:
   band: developing
-  composite: 51.3
+  composite: 53.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 7.8
   facets:
-    access_clarity: 38.2
+    access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 39.4
+    contract_quality: 41.0
     developer_ergonomics: 73.2
-    discoverability: 73.2
-    operational_transparency: 23.7
-  open_source:
-    applies: true
-    score: 85.0
-  previous_composite: 50.8
+    discoverability: 66.1
+    operational_transparency: 26.3
+  previous_composite: 45.9
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
+      total: 30
     mcp: derived
     skills: derived
   regulatory:
@@ -339,13 +385,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 33.3
-screenshot: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/screenshots/amika-2026-07-25T200103.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/amika/amika-2026-07-25T200103.png
 security:
 - kind: authentication
   name: Amika Authentication
@@ -355,6 +402,12 @@ security:
   name: Amika Domain Security
   slug: amika-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Capture a sandbox snapshot for fast boots
+  slug: amika-snapshot-for-fast-boot
+- name: Spin up a sandbox and run a coding agent
+  slug: amika-spin-up-and-run-agent
 slug: amika
 tags:
 - Company

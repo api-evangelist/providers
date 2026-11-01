@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,21 +38,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface for the Poppy Hand-Crafted Popcorn storefront, implementing the Universal Commerce Protocol (UCP) 2026-04-08 over MCP. Thirteen tools cover catalog search and lookup,
   name: Poppy Hand-Crafted Popcorn UCP Commerce API
   slug: poppy-hand-crafted-popcorn-ucp-commerce-api
-artifact_total: 7
+artifact_total: 9
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/poppy-handcrafted-popcorn/refs/heads/main/rate-limits/poppy-handcrafted-popcorn-rate-limits.yml
+  href: https://artifacts.apis.io/poppy-handcrafted-popcorn/rate-limits/poppy-handcrafted-popcorn-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/poppy-handcrafted-popcorn-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/poppy-handcrafted-popcorn/refs/heads/main/security/poppy-handcrafted-popcorn-domain-security.yml
+  href: https://artifacts.apis.io/poppy-handcrafted-popcorn/security/poppy-handcrafted-popcorn-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/poppy-handcrafted-popcorn-domain-security.yml
@@ -103,27 +105,27 @@ common:
   type: PrivacyPolicy
   url: https://poppyhandcraftedpopcorn.com/policies/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/poppy-handcrafted-popcorn/refs/heads/main/llms/poppy-handcrafted-popcorn-llms.txt
+  href: https://artifacts.apis.io/poppy-handcrafted-popcorn/llms/poppy-handcrafted-popcorn-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/poppy-handcrafted-popcorn-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/poppy-handcrafted-popcorn/refs/heads/main/well-known/poppy-handcrafted-popcorn-well-known.yml
+  href: https://artifacts.apis.io/poppy-handcrafted-popcorn/well-known/poppy-handcrafted-popcorn-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/poppy-handcrafted-popcorn-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/poppy-handcrafted-popcorn/refs/heads/main/mcp/poppy-handcrafted-popcorn-mcp.yml
+  href: https://artifacts.apis.io/poppy-handcrafted-popcorn/mcp/poppy-handcrafted-popcorn-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/poppy-handcrafted-popcorn-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/poppy-handcrafted-popcorn/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/poppy-handcrafted-popcorn/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/poppy-handcrafted-popcorn/refs/heads/main/plans/poppy-handcrafted-popcorn-plans-pricing.yml
+  href: https://artifacts.apis.io/poppy-handcrafted-popcorn/plans/poppy-handcrafted-popcorn-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/poppy-handcrafted-popcorn-plans-pricing.yml
@@ -147,7 +149,7 @@ plans:
 - name: Poppy Handcrafted Popcorn Plans Pricing
   plan_count: 0
   slug: poppy-handcrafted-popcorn-plans-pricing
-random_paper: 15
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Poppy Handcrafted Popcorn Rate Limits
@@ -159,7 +161,7 @@ scopes:
   summary_line: 4 scopes · authorization_code
 score:
   band: thin
-  composite: 31.4
+  composite: 30.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -167,15 +169,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 49.4
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 31.3
+  previous_composite: 30.4
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -186,14 +188,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/poppy-handcrafted-popcorn/refs/heads/main/screenshots/poppy-handcrafted-popcorn-2026-09-02T151753.png
+screenshot: https://apis.io/screenshots/poppy-handcrafted-popcorn/poppy-handcrafted-popcorn-2026-09-02T151753.png
 security:
 - kind: authentication
   name: Poppy Handcrafted Popcorn Authentication
@@ -203,6 +205,12 @@ security:
   name: Poppy Handcrafted Popcorn Domain Security
   slug: poppy-handcrafted-popcorn-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: poppy-browse-catalog
+  slug: poppy-handcrafted-popcorn-browse-catalog
+- name: poppy-cart-and-checkout
+  slug: poppy-handcrafted-popcorn-cart-and-checkout
 slug: poppy-handcrafted-popcorn
 tags:
 - Company

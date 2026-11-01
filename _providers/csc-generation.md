@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: derived
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.6
-  scored_at: '2026-10-17'
+  score: 11.5
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Backcountry, a CSC Generation brand, publishes a Universal Commerce Protocol merchant profile at its own /.well-known/ucp declaring UCP 2026-01-23 with both REST and MCP transports for the shopping se
@@ -43,14 +45,14 @@ apis:
 - description: Seattle Coffee Gear, a CSC Generation brand, publishes a Universal Commerce Protocol merchant profile at /.well-known/ucp declaring UCP 2026-04-08 (Shopify-native) with MCP and embedded transports, pl
   name: Seattle Coffee Gear Agent Commerce (UCP)
   slug: seattle-coffee-gear-agent-commerce-ucp
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
   type: Blog
   url: https://www.cscgeneration.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/csc-generation/refs/heads/main/security/csc-generation-domain-security.yml
+  href: https://artifacts.apis.io/csc-generation/security/csc-generation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/csc-generation-domain-security.yml
@@ -71,57 +73,57 @@ common:
   type: SecondaryMarket
   url: https://forgeglobal.com/csc-generation_stock/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/csc-generation/refs/heads/main/well-known/csc-generation-well-known.yml
+  href: https://artifacts.apis.io/csc-generation/well-known/csc-generation-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/csc-generation-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/csc-generation/refs/heads/main/mcp/csc-generation-mcp.yml
+  href: https://artifacts.apis.io/csc-generation/mcp/csc-generation-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/csc-generation-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/csc-generation/refs/heads/main/mcp/csc-generation-tool-crosswalk.yml
+  href: https://artifacts.apis.io/csc-generation/mcp/csc-generation-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/csc-generation-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/csc-generation/refs/heads/main/llms/csc-generation-llms.txt
+  href: https://artifacts.apis.io/csc-generation/llms/csc-generation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/csc-generation-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/csc-generation/refs/heads/main/conventions/csc-generation-conventions.yml
+  href: https://artifacts.apis.io/csc-generation/conventions/csc-generation-conventions.yml
   title: ''
   type: Conventions
   url: conventions/csc-generation-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/csc-generation/refs/heads/main/conventions/csc-generation-conventions.yml
+  href: https://artifacts.apis.io/csc-generation/conventions/csc-generation-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/csc-generation-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/csc-generation/refs/heads/main/authentication/csc-generation-authentication.yml
+  href: https://artifacts.apis.io/csc-generation/authentication/csc-generation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/csc-generation-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/csc-generation/refs/heads/main/errors/csc-generation-problem-types.yml
+  href: https://artifacts.apis.io/csc-generation/errors/csc-generation-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/csc-generation-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/csc-generation/refs/heads/main/conformance/csc-generation-conformance.yml
+  href: https://artifacts.apis.io/csc-generation/conformance/csc-generation-conformance.yml
   title: ''
   type: Conformance
   url: conformance/csc-generation-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/csc-generation/refs/heads/main/lifecycle/csc-generation-lifecycle.yml
+  href: https://artifacts.apis.io/csc-generation/lifecycle/csc-generation-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/csc-generation-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/csc-generation/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/csc-generation/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -142,10 +144,10 @@ overview: 'CSC Generation is listed with 2 APIs on the [APIs.io](https://apis.io
 
 
   CSC Generation''s developer surface includes engineering blog, authentication, and 15 more developer resources.'
-random_paper: 18
+random_paper: 10
 score:
   band: emerging
-  composite: 20.2
+  composite: 19.2
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -153,15 +155,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 25.6
-    discoverability: 75.0
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 19.6
+  previous_composite: 19.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -172,14 +174,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/csc-generation/refs/heads/main/screenshots/csc-generation-2026-08-07T163939.png
+screenshot: https://apis.io/screenshots/csc-generation/csc-generation-2026-08-07T163939.png
 security:
 - kind: authentication
   name: Csc Generation Authentication
@@ -189,6 +191,10 @@ security:
   name: Csc Generation Domain Security
   slug: csc-generation-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Buy from a CSC Generation brand store as an agent
+  slug: csc-generation-agent-commerce-checkout
 slug: csc-generation
 tags:
 - Company

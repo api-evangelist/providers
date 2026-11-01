@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/level-3-communications/refs/heads/main/security/level-3-communications-domain-security.yml
+  href: https://artifacts.apis.io/level-3-communications/security/level-3-communications-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/level-3-communications-domain-security.yml
@@ -78,7 +80,7 @@ press:
 - date: ''
   title: Level 3 Communications Leads Council to Define New ...
   url: https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1998/m06/level-3-communications-leads-council-to-define-new-standards-for-network-interconnection.html
-random_paper: 12
+random_paper: 6
 score:
   band: minimal
   composite: 2.5
@@ -104,14 +106,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 5.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/level-3-communications/refs/heads/main/screenshots/level-3-communications-2026-06-20T184432.png
+screenshot: https://apis.io/screenshots/level-3-communications/level-3-communications-2026-06-20T184432.png
 security:
 - kind: domain-security
   name: Level 3 Communications Domain Security

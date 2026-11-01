@@ -29,14 +29,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 20.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -89,11 +91,8 @@ apis:
   description: Protected website (application) management
   name: SafeLine Websites API
   slug: safeline-websites-api
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SafeLine Management ACL Rules API
   slug: open-safeline-acl-rules-api
@@ -123,22 +122,22 @@ collections:
   slug: open-safeline-websites-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/plans/safeline-plans-pricing.yml
+  href: https://artifacts.apis.io/safeline/plans/safeline-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/safeline-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/rate-limits/safeline-rate-limits.yml
+  href: https://artifacts.apis.io/safeline/rate-limits/safeline-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/safeline-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/finops/safeline-finops.yml
+  href: https://artifacts.apis.io/safeline/finops/safeline-finops.yml
   title: ''
   type: FinOps
   url: finops/safeline-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/capabilities/safeline-capability-edges.yml
+  href: https://artifacts.apis.io/safeline/capabilities/safeline-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/safeline-capability-edges.yml
@@ -155,17 +154,17 @@ common:
   type: License
   url: https://github.com/chaitin/SafeLine/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/agentic-access/safeline-agentic-access.yml
+  href: https://artifacts.apis.io/safeline/agentic-access/safeline-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/safeline-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/security/safeline-domain-security.yml
+  href: https://artifacts.apis.io/safeline/security/safeline-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/safeline-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/authentication/safeline-authentication.yml
+  href: https://artifacts.apis.io/safeline/authentication/safeline-authentication.yml
   title: ''
   type: Authentication
   url: authentication/safeline-authentication.yml
@@ -186,42 +185,42 @@ common:
   type: Demo
   url: https://demo.waf.chaitin.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/openapi/_original/safeline-management-openapi.yml
+  href: https://artifacts.apis.io/safeline/openapi/_original/safeline-management-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/safeline-management-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/rules/safeline-rules.yml
+  href: https://artifacts.apis.io/safeline/rules/safeline-rules.yml
   title: ''
   type: SpectralRules
   url: rules/safeline-rules.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/json-schema/safeline-website-schema.json
+  href: https://artifacts.apis.io/safeline/json-schema/safeline-website-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/safeline-website-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/json-schema/safeline-acl-rule-schema.json
+  href: https://artifacts.apis.io/safeline/json-schema/safeline-acl-rule-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/safeline-acl-rule-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/json-structure/safeline-website-structure.json
+  href: https://artifacts.apis.io/safeline/json-structure/safeline-website-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/safeline-website-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/json-structure/safeline-acl-rule-structure.json
+  href: https://artifacts.apis.io/safeline/json-structure/safeline-acl-rule-structure.json
   title: ''
   type: JSONStructure
   url: json-structure/safeline-acl-rule-structure.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/json-ld/safeline-context.jsonld
+  href: https://artifacts.apis.io/safeline/json-ld/safeline-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/safeline-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/vocabulary/safeline-vocabulary.yml
+  href: https://artifacts.apis.io/safeline/vocabulary/safeline-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/safeline-vocabulary.yml
@@ -241,7 +240,7 @@ finops:
 - has_sources: false
   method: generated
   name: Safeline Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: safeline-finops
   template: true
@@ -281,7 +280,7 @@ plans:
 - name: Safeline Plans Pricing
   plan_count: 3
   slug: safeline-plans-pricing
-random_paper: 3
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Safeline Rate Limits
@@ -312,7 +311,7 @@ rules:
   slug: safeline-rules
 score:
   band: thin
-  composite: 31.0
+  composite: 34.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 55.0
@@ -320,18 +319,15 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 27.3
-    contract_quality: 55.7
-    developer_ergonomics: 21.4
+    contract_quality: 52.6
+    developer_ergonomics: 33.3
     discoverability: 57.1
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 32.4
+    operational_transparency: 28.9
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -345,13 +341,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/screenshots/safeline-2026-06-20T193323.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/safeline/safeline-2026-06-20T193323.png
 security:
 - kind: authentication
   name: Safeline Authentication

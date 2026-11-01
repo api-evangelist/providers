@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.8
-  scored_at: '2026-10-17'
+  score: 23.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -64,11 +66,8 @@ apis:
   description: Delivery and validation status tracking
   name: Warner Bros. Discovery Status API
   slug: warner-bros-discovery-status-api
-artifact_total: 23
+artifact_total: 22
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Warner Bros. Discovery Content Partner Assets API
   slug: open-warner-bros-discovery-assets-api
@@ -86,42 +85,42 @@ collections:
   slug: open-warner-bros-discovery-status-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/plans/warner-bros-discovery-plans-pricing.yml
+  href: https://artifacts.apis.io/warner-bros-discovery/plans/warner-bros-discovery-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/warner-bros-discovery-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/rate-limits/warner-bros-discovery-rate-limits.yml
+  href: https://artifacts.apis.io/warner-bros-discovery/rate-limits/warner-bros-discovery-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/warner-bros-discovery-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/finops/warner-bros-discovery-finops.yml
+  href: https://artifacts.apis.io/warner-bros-discovery/finops/warner-bros-discovery-finops.yml
   title: ''
   type: FinOps
   url: finops/warner-bros-discovery-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/capabilities/warner-bros-discovery-capability-edges.yml
+  href: https://artifacts.apis.io/warner-bros-discovery/capabilities/warner-bros-discovery-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/warner-bros-discovery-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/agentic-access/warner-bros-discovery-agentic-access.yml
+  href: https://artifacts.apis.io/warner-bros-discovery/agentic-access/warner-bros-discovery-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/warner-bros-discovery-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/security/warner-bros-discovery-domain-security.yml
+  href: https://artifacts.apis.io/warner-bros-discovery/security/warner-bros-discovery-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/warner-bros-discovery-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/authentication/warner-bros-discovery-authentication.yml
+  href: https://artifacts.apis.io/warner-bros-discovery/authentication/warner-bros-discovery-authentication.yml
   title: ''
   type: Authentication
   url: authentication/warner-bros-discovery-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/scopes/warner-bros-discovery-scopes.yml
+  href: https://artifacts.apis.io/warner-bros-discovery/scopes/warner-bros-discovery-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/warner-bros-discovery-scopes.yml
@@ -201,7 +200,7 @@ plans:
 - name: Warner Bros Discovery Plans Pricing
   plan_count: 1
   slug: warner-bros-discovery-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Warner Bros Discovery Rate Limits
@@ -237,23 +236,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: thin
-  composite: 32.3
+  composite: 34.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 66.4
     catalog_earned_first_party: 0.0
     catalog_gap: 48.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 5.3
     contract_governance: 27.3
     contract_quality: 58.8
-    developer_ergonomics: 21.4
+    developer_ergonomics: 31.0
     discoverability: 66.1
     operational_transparency: 10.5
-  previous_composite: 33.8
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -267,13 +266,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 26.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/screenshots/warner-bros-discovery-2026-06-20T201227.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/warner-bros-discovery/warner-bros-discovery-2026-06-20T201227.png
 security:
 - kind: authentication
   name: Warner Bros Discovery Authentication

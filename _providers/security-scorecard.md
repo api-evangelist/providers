@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-10-17'
+  score: 33.5
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -202,54 +204,64 @@ apis:
   description: The vendor-detection API from SecurityScorecard — 5 operation(s) for vendor-detection.
   name: SecurityScorecard Vendor Detection API
   slug: security-scorecard-vendor-detection-api
-artifact_total: 68
+artifact_total: 70
 asyncapis:
 - description: ''
   name: Security Scorecard Webhooks
   slug: security-scorecard-webhooks
 common:
+- group: other
+  href: https://artifacts.apis.io/security-scorecard/capabilities/security-scorecard-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/security-scorecard-capability-edges.yml
+- group: commercial
+  href: https://artifacts.apis.io/security-scorecard/plans/security-scorecard-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/security-scorecard-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/agentic-access/security-scorecard-agentic-access.yml
+  href: https://artifacts.apis.io/security-scorecard/agentic-access/security-scorecard-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/security-scorecard-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/rules/security-scorecard-rules.yml
+  href: https://artifacts.apis.io/security-scorecard/rules/security-scorecard-rules.yml
   title: ''
   type: Spectral
   url: rules/security-scorecard-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/json-ld/security-scorecard-context.jsonld
+  href: https://artifacts.apis.io/security-scorecard/json-ld/security-scorecard-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/security-scorecard-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/vocabulary/security-scorecard-vocabulary.yml
+  href: https://artifacts.apis.io/security-scorecard/vocabulary/security-scorecard-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/security-scorecard-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/data-model/security-scorecard-data-model.yml
+  href: https://artifacts.apis.io/security-scorecard/data-model/security-scorecard-data-model.yml
   title: ''
   type: DataModel
   url: data-model/security-scorecard-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/conformance/security-scorecard-conformance.yml
+  href: https://artifacts.apis.io/security-scorecard/conformance/security-scorecard-conformance.yml
   title: ''
   type: Conformance
   url: conformance/security-scorecard-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/hosts/security-scorecard-hosts.yml
+  href: https://artifacts.apis.io/security-scorecard/hosts/security-scorecard-hosts.yml
   title: ''
   type: Hosts
   url: hosts/security-scorecard-hosts.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/integrations/security-scorecard-integration-edges.yml
+  href: https://artifacts.apis.io/security-scorecard/integrations/security-scorecard-integration-edges.yml
   title: ''
   type: IntegrationEdges
   url: integrations/security-scorecard-integration-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/vendors/security-scorecard-vendors.yml
+  href: https://artifacts.apis.io/security-scorecard/vendors/security-scorecard-vendors.yml
   title: ''
   type: Vendors
   url: vendors/security-scorecard-vendors.yml
@@ -326,77 +338,85 @@ common:
   type: Deprecation
   url: https://securityscorecard.readme.io/reference/backwards-compatibility
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/llms/security-scorecard-llms.txt
+  href: https://artifacts.apis.io/security-scorecard/llms/security-scorecard-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/security-scorecard-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/authentication/security-scorecard-authentication.yml
+  href: https://artifacts.apis.io/security-scorecard/authentication/security-scorecard-authentication.yml
   title: ''
   type: Authentication
   url: authentication/security-scorecard-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/conventions/security-scorecard-conventions.yml
+  href: https://artifacts.apis.io/security-scorecard/conventions/security-scorecard-conventions.yml
   title: ''
   type: Conventions
   url: conventions/security-scorecard-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/errors/security-scorecard-problem-types.yml
+  href: https://artifacts.apis.io/security-scorecard/errors/security-scorecard-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/security-scorecard-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/lifecycle/security-scorecard-lifecycle.yml
+  href: https://artifacts.apis.io/security-scorecard/lifecycle/security-scorecard-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/security-scorecard-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/asyncapi/security-scorecard-webhooks.yml
+  href: https://artifacts.apis.io/security-scorecard/asyncapi/security-scorecard-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/security-scorecard-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/well-known/security-scorecard-well-known.yml
+  href: https://artifacts.apis.io/security-scorecard/well-known/security-scorecard-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/security-scorecard-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/packages/security-scorecard-packages.yml
+  href: https://artifacts.apis.io/security-scorecard/packages/security-scorecard-packages.yml
   title: ''
   type: Packages
   url: packages/security-scorecard-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/packages/security-scorecard-packages.yml
+  href: https://artifacts.apis.io/security-scorecard/packages/security-scorecard-packages.yml
   title: ''
   type: SDKs
   url: packages/security-scorecard-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/cli/security-scorecard-cli.yml
+  href: https://artifacts.apis.io/security-scorecard/cli/security-scorecard-cli.yml
   title: ''
   type: CLI
   url: cli/security-scorecard-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/mcp/security-scorecard-mcp.yml
+  href: https://artifacts.apis.io/security-scorecard/mcp/security-scorecard-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/security-scorecard-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/security/security-scorecard-trust-center.yml
+  href: https://artifacts.apis.io/security-scorecard/security/security-scorecard-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/security-scorecard-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/security/security-scorecard-trust-center.yml
+  href: https://artifacts.apis.io/security-scorecard/security/security-scorecard-trust-center.yml
   title: ''
   type: Compliance
   url: security/security-scorecard-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/security/security-scorecard-domain-security.yml
+  href: https://artifacts.apis.io/security-scorecard/security/security-scorecard-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/security-scorecard-domain-security.yml
 created: '2026-07-17'
 description: 'SecurityScorecard is a cybersecurity ratings and third-party risk management platform that continuously rates the security posture of any company from the outside in, producing an A-F security score across ten risk factors. Its REST API (base https://api.securityscorecard.io) lets customers manage portfolios of monitored companies, pull scorecards, factor scores, historical trends, issues/findings, industry benchmarks, and generate reports, and react to changes through webhook-driven Rules. Authentication is a static API token ("Authorization: Token <key>"), and first-party npm SDK and CLI packages are published under the @securityscorecard organization. Originally surfaced as a GV (Google Ventures) portfolio company, this profile has been enriched from SecurityScorecard''s public developer documentation.'
+finops:
+- has_sources: true
+  method: derived
+  name: Security Scorecard Finops
+  primary_unit: ''
+  service_category: ''
+  slug: security-scorecard-finops
+  template: true
 image: https://securityscorecard.com/wp-content/uploads/2023/01/ssc-logo.png
 json_schemas:
 - name: ActionPlanList
@@ -503,8 +523,12 @@ overview: 'SecurityScorecard publishes 32 API contracts indexed on the [APIs.io]
   The SecurityScorecard catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  SecurityScorecard''s developer surface includes support, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 34 more developer resources.'
-random_paper: 13
+  SecurityScorecard''s developer surface includes support, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 36 more developer resources.'
+plans:
+- name: Security Scorecard Plans Pricing
+  plan_count: 5
+  slug: security-scorecard-plans-pricing
+random_paper: 11
 rules:
 - authorship: generated
   effective_rule_count: 51
@@ -519,24 +543,29 @@ rules:
     warn: 2
   slug: security-scorecard-rules
 score:
-  band: strong
-  composite: 60.3
+  band: exemplar
+  composite: 66.9
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 65.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.3
+    artifact_dirs: 28
+    catalog_earned: 77.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 16.5
+  delta: 6.3
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 22.0
-    contract_quality: 71.1
-    developer_ergonomics: 52.4
-    discoverability: 80.0
-    operational_transparency: 30.3
-  previous_composite: 43.8
+    contract_quality: 69.2
+    developer_ergonomics: 71.4
+    discoverability: 73.3
+    operational_transparency: 36.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -552,13 +581,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: rising
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/security-scorecard/refs/heads/main/screenshots/security-scorecard-2026-08-17T081750.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/security-scorecard/security-scorecard-2026-08-17T081750.png
 security:
 - kind: authentication
   name: Security Scorecard Authentication

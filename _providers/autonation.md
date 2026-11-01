@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: AutoNation operates a digital retail platform at autonation.com that enables consumers to browse new and used vehicle inventory, configure purchases, apply for financing, and schedule vehicle deliveri
@@ -45,22 +47,22 @@ apis:
 artifact_total: 18
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/finops/autonation-finops.yml
+  href: https://artifacts.apis.io/autonation/finops/autonation-finops.yml
   title: ''
   type: FinOps
   url: finops/autonation-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/llms/autonation-llms.txt
+  href: https://artifacts.apis.io/autonation/llms/autonation-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/autonation-llms.txt
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/plans/autonation-plans-pricing.yml
+  href: https://artifacts.apis.io/autonation/plans/autonation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/autonation-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/rate-limits/autonation-rate-limits.yml
+  href: https://artifacts.apis.io/autonation/rate-limits/autonation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/autonation-rate-limits.yml
@@ -77,7 +79,7 @@ common:
   type: Support
   url: https://www.autonation.com/frequently-asked-questions
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/security/autonation-domain-security.yml
+  href: https://artifacts.apis.io/autonation/security/autonation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/autonation-domain-security.yml
@@ -169,14 +171,14 @@ press:
 - date: ''
   title: 'AutoNation on Instagram: "The Stanley Cup stopped by ...'
   url: https://www.instagram.com/reel/DPfLQt8jdpz/
-random_paper: 12
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Autonation Rate Limits
   slug: autonation-rate-limits
 score:
   band: emerging
-  composite: 16.2
+  composite: 16.8
   coverage:
     artifact_dirs: 11
     catalog_earned: 48.0
@@ -184,29 +186,29 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 64.3
+    discoverability: 57.1
     operational_transparency: 21.1
-  previous_composite: 17.7
+  previous_composite: 16.8
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/screenshots/autonation-2026-06-20T172705.png
+screenshot: https://apis.io/screenshots/autonation/autonation-2026-06-20T172705.png
 security:
 - kind: domain-security
   name: Autonation Domain Security

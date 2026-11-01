@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 17.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -90,11 +92,8 @@ apis:
   description: The Ws API from OpenWallet Foundation — 1 operation(s) for ws.
   name: OpenWallet Foundation Ws API
   slug: openwallet-foundation-ws-api
-artifact_total: 25
+artifact_total: 24
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ACA-Py Admin Basicmessages API
   slug: open-openwallet-foundation-basicmessages-api
@@ -117,18 +116,23 @@ collections:
   name: ACA-Py Admin API
   slug: open-openwallet-foundation
 common:
+- group: other
+  href: https://artifacts.apis.io/openwallet-foundation/capabilities/openwallet-foundation-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/openwallet-foundation-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/plans/openwallet-foundation-plans-pricing.yml
+  href: https://artifacts.apis.io/openwallet-foundation/plans/openwallet-foundation-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/openwallet-foundation-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/rate-limits/openwallet-foundation-rate-limits.yml
+  href: https://artifacts.apis.io/openwallet-foundation/rate-limits/openwallet-foundation-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/openwallet-foundation-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/finops/openwallet-foundation-finops.yml
+  href: https://artifacts.apis.io/openwallet-foundation/finops/openwallet-foundation-finops.yml
   title: ''
   type: FinOps
   url: finops/openwallet-foundation-finops.yml
@@ -157,17 +161,17 @@ common:
   type: License
   url: https://github.com/openwallet-foundation/acapy/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/agentic-access/openwallet-foundation-agentic-access.yml
+  href: https://artifacts.apis.io/openwallet-foundation/agentic-access/openwallet-foundation-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openwallet-foundation-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/security/openwallet-foundation-domain-security.yml
+  href: https://artifacts.apis.io/openwallet-foundation/security/openwallet-foundation-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openwallet-foundation-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/authentication/openwallet-foundation-authentication.yml
+  href: https://artifacts.apis.io/openwallet-foundation/authentication/openwallet-foundation-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openwallet-foundation-authentication.yml
@@ -221,7 +225,7 @@ finops:
 - has_sources: false
   method: generated
   name: Openwallet Foundation Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: openwallet-foundation-finops
   template: true
@@ -234,27 +238,27 @@ network: true
 overview: 'OpenWallet Foundation publishes 11 API contracts indexed on the [APIs.io](https://apis.io/) network, including Basicmessages API, Connections API, Forward API, and 8 more. Tagged areas include Credentials, Digital Wallet, Identity, and Linux Foundation.
 
 
-  OpenWallet Foundation''s developer surface includes authentication, documentation, engineering blog, privacy policy, and 19 more developer resources.'
+  OpenWallet Foundation''s developer surface includes authentication, documentation, engineering blog, privacy policy, and 20 more developer resources.'
 plans:
 - name: Openwallet Foundation Plans Pricing
   plan_count: 3
   slug: openwallet-foundation-plans-pricing
-random_paper: 7
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Openwallet Foundation Rate Limits
   slug: openwallet-foundation-rate-limits
 score:
-  band: developing
-  composite: 40.6
+  band: thin
+  composite: 34.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 33.0
     catalog_earned_first_party: 0.0
     catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
@@ -262,10 +266,7 @@ score:
     developer_ergonomics: 35.7
     discoverability: 48.2
     operational_transparency: 39.5
-  open_source:
-    applies: true
-    score: 100.0
-  previous_composite: 42.0
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -279,14 +280,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/screenshots/openwallet-foundation-2026-06-20T191051.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openwallet-foundation/openwallet-foundation-2026-06-20T191051.png
 security:
 - kind: authentication
   name: Openwallet Foundation Authentication

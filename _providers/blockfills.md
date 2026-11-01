@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API connectivity for BlockFills trading platforms
@@ -32,7 +34,7 @@ apis:
 artifact_total: 2
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blockfills/refs/heads/main/hosts/blockfills-hosts.yml
+  href: https://artifacts.apis.io/blockfills/hosts/blockfills-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blockfills-hosts.yml
@@ -49,7 +51,7 @@ common:
   type: Blog
   url: https://www.blockfills.com/blog/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blockfills/refs/heads/main/security/blockfills-domain-security.yml
+  href: https://artifacts.apis.io/blockfills/security/blockfills-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blockfills-domain-security.yml
@@ -104,8 +106,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 9.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

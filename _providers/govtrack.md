@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Read-only REST API providing access to U.S. Congressional data including bills and resolutions, roll call votes, member profiles, committee information, cosponsorship records, and congressional roles.
@@ -42,7 +44,7 @@ apis:
 artifact_total: 5
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/govtrack/refs/heads/main/security/govtrack-domain-security.yml
+  href: https://artifacts.apis.io/govtrack/security/govtrack-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/govtrack-domain-security.yml
@@ -75,17 +77,17 @@ common:
   type: X
   url: https://x.com/govtrack
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/govtrack/refs/heads/main/plans/govtrack-plans-pricing.yml
+  href: https://artifacts.apis.io/govtrack/plans/govtrack-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/govtrack-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/govtrack/refs/heads/main/rate-limits/govtrack-rate-limits.yml
+  href: https://artifacts.apis.io/govtrack/rate-limits/govtrack-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/govtrack-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/govtrack/refs/heads/main/finops/govtrack-finops.yml
+  href: https://artifacts.apis.io/govtrack/finops/govtrack-finops.yml
   title: ''
   type: FinOps
   url: finops/govtrack-finops.yml
@@ -113,14 +115,14 @@ plans:
 - name: Govtrack Plans Pricing
   plan_count: 2
   slug: govtrack-plans-pricing
-random_paper: 7
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Govtrack Rate Limits
   slug: govtrack-rate-limits
 score:
   band: emerging
-  composite: 16.5
+  composite: 18.4
   coverage:
     artifact_dirs: 8
     catalog_earned: 41.0
@@ -128,12 +130,12 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 24.0
-    developer_ergonomics: 2.4
+    developer_ergonomics: 11.9
     discoverability: 66.1
     operational_transparency: 10.5
   jurisdiction:
@@ -143,21 +145,21 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 22.6
+  previous_composite: 18.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 5.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/govtrack/refs/heads/main/screenshots/govtrack-2026-06-20T182304.png
+screenshot: https://apis.io/screenshots/govtrack/govtrack-2026-06-20T182304.png
 security:
 - kind: domain-security
   name: Govtrack Domain Security

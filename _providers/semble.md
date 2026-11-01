@@ -28,6 +28,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -35,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 6
 apis:
 - description: GraphQL queries and mutations over the Semble patient record — patients, demographics, phone numbers, relationships, labels, memberships, access groups, allergy records, free-text records, patient doc
@@ -56,19 +58,19 @@ apis:
 - description: GraphQL surface for practice administration and platform integration — practice details, users, contacts, tasks, labels, patient documents, practice template documents, integration tokens and webhooks
   name: Semble Practice & Platform API
   slug: semble-practice-platform-api
-artifact_total: 11
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Semble Webhooks
   slug: semble-webhooks
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/semble/refs/heads/main/security/semble-trust-center.yml
+  href: https://artifacts.apis.io/semble/security/semble-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/semble-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/semble/refs/heads/main/security/semble-domain-security.yml
+  href: https://artifacts.apis.io/semble/security/semble-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/semble-domain-security.yml
@@ -77,47 +79,47 @@ common:
   type: Compliance
   url: https://trust.semble.io/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/semble/refs/heads/main/conformance/semble-conformance.yml
+  href: https://artifacts.apis.io/semble/conformance/semble-conformance.yml
   title: ''
   type: Conformance
   url: conformance/semble-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/semble/refs/heads/main/authentication/semble-authentication.yml
+  href: https://artifacts.apis.io/semble/authentication/semble-authentication.yml
   title: ''
   type: Authentication
   url: authentication/semble-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/semble/refs/heads/main/conventions/semble-conventions.yml
+  href: https://artifacts.apis.io/semble/conventions/semble-conventions.yml
   title: ''
   type: Conventions
   url: conventions/semble-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/semble/refs/heads/main/errors/semble-error-codes.yml
+  href: https://artifacts.apis.io/semble/errors/semble-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/semble-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/semble/refs/heads/main/rate-limits/semble-rate-limits.yml
+  href: https://artifacts.apis.io/semble/rate-limits/semble-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/semble-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/semble/refs/heads/main/lifecycle/semble-lifecycle.yml
+  href: https://artifacts.apis.io/semble/lifecycle/semble-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/semble-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/semble/refs/heads/main/asyncapi/semble-webhooks.yml
+  href: https://artifacts.apis.io/semble/asyncapi/semble-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/semble-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/semble/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/semble/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/semble/refs/heads/main/llms/semble-llms.txt
+  href: https://artifacts.apis.io/semble/llms/semble-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/semble-llms.txt
@@ -193,14 +195,14 @@ overview: 'Semble is listed with 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Semble''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 19 more developer resources.'
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Semble Rate Limits
   slug: semble-rate-limits
 score:
   band: developing
-  composite: 49.4
+  composite: 52.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 48.0
@@ -213,8 +215,8 @@ score:
     access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 39.9
-    discoverability: 78.6
+    developer_ergonomics: 58.9
+    discoverability: 71.4
     operational_transparency: 71.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -224,7 +226,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 49.4
+  previous_composite: 52.5
   provenance:
     conformance: first-party
     skills: derived
@@ -238,14 +240,14 @@ score:
     regime: Health
     regime_id: health
     score: 28.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/semble/refs/heads/main/screenshots/semble-2026-08-17T081757.png
+screenshot: https://apis.io/screenshots/semble/semble-2026-08-17T081757.png
 security:
 - kind: authentication
   name: Semble Authentication
@@ -259,6 +261,14 @@ security:
   name: Semble Trust Center
   slug: semble-trust-center
   summary_line: ISO 27001, PCI DSS, GDPR
+skill_count: 3
+skills:
+- name: Authenticate and query patients
+  slug: semble-authenticate-and-query-patients
+- name: Create a booking
+  slug: semble-create-a-booking
+- name: Subscribe to webhooks
+  slug: semble-subscribe-to-webhooks
 slug: semble
 tags:
 - Healthcare

@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 14.7
-  scored_at: '2026-10-17'
+  score: 9.6
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST API and Python SDK for programmatically managing annotation projects, datasets, ontologies, labels, and workflows within the Encord Annotate platform. Supports creating and retrieving projects an
@@ -57,12 +59,12 @@ common:
   type: License
   url: https://github.com/encord-team/encord-client-python/blob/master/LICENSE
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/encord/refs/heads/main/security/encord-trust-center.yml
+  href: https://artifacts.apis.io/encord/security/encord-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/encord-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/encord/refs/heads/main/security/encord-domain-security.yml
+  href: https://artifacts.apis.io/encord/security/encord-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/encord-domain-security.yml
@@ -154,14 +156,14 @@ plans:
 - name: Encord Plans Pricing
   plan_count: 3
   slug: encord-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Encord Rate Limits
   slug: encord-rate-limits
 score:
   band: emerging
-  composite: 21.9
+  composite: 21.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 48.0
@@ -169,18 +171,15 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 11.9
-    discoverability: 68.3
-    operational_transparency: 42.1
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 29.3
+    discoverability: 66.1
+    operational_transparency: 44.7
+  previous_composite: 21.6
   provenance:
     mcp: first-party
   regulatory:
@@ -189,14 +188,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 14.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/encord/refs/heads/main/screenshots/encord-2026-06-20T180648.png
+screenshot: https://apis.io/screenshots/encord/encord-2026-06-20T180648.png
 security:
 - kind: domain-security
   name: Encord Domain Security

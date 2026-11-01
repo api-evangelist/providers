@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,17 +76,17 @@ common:
   type: Compliance
   url: https://pequity.com/security-overview
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/getpequity/refs/heads/main/security/getpequity-domain-security.yml
+  href: https://artifacts.apis.io/getpequity/security/getpequity-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/getpequity-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/getpequity/refs/heads/main/conformance/getpequity-conformance.yml
+  href: https://artifacts.apis.io/getpequity/conformance/getpequity-conformance.yml
   title: ''
   type: Conformance
   url: conformance/getpequity-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/getpequity/refs/heads/main/llms/getpequity-llms.txt
+  href: https://artifacts.apis.io/getpequity/llms/getpequity-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/getpequity-llms.txt
@@ -100,10 +102,10 @@ overview: 'Pequity is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Pequity''s developer surface includes pricing, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 5
+random_paper: 1
 score:
   band: emerging
-  composite: 21.0
+  composite: 20.3
   coverage:
     artifact_dirs: 6
     catalog_earned: 27.0
@@ -117,9 +119,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 55.4
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 21.0
+  previous_composite: 20.3
   provenance:
     conformance: first-party
   regulatory:
@@ -132,14 +134,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 23.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/getpequity/refs/heads/main/screenshots/getpequity-2026-08-07T165804.png
+screenshot: https://apis.io/screenshots/getpequity/getpequity-2026-08-07T165804.png
 security:
 - kind: domain-security
   name: Getpequity Domain Security

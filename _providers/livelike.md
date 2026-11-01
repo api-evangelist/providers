@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.1
-  scored_at: '2026-10-17'
+  score: 43.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 239
   human_in_the_loop: 3
@@ -686,74 +688,74 @@ apis:
   description: The Wildmoka Video Alerts API from LiveLike — 2 operation(s) for wildmoka video alerts.
   name: LiveLike Wildmoka Video Alerts API
   slug: livelike-wildmoka-video-alerts-api
-artifact_total: 144
+artifact_total: 147
 asyncapis:
 - description: ''
   name: Livelike Webhooks
   slug: livelike-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/capabilities/livelike-capability-edges.yml
+  href: https://artifacts.apis.io/livelike/capabilities/livelike-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/livelike-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/agentic-access/livelike-agentic-access.yml
+  href: https://artifacts.apis.io/livelike/agentic-access/livelike-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/livelike-agentic-access.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/rules/livelike-rules.yml
+  href: https://artifacts.apis.io/livelike/rules/livelike-rules.yml
   title: ''
   type: Spectral
   url: rules/livelike-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/json-ld/livelike-context.jsonld
+  href: https://artifacts.apis.io/livelike/json-ld/livelike-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/livelike-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/vocabulary/livelike-vocabulary.yml
+  href: https://artifacts.apis.io/livelike/vocabulary/livelike-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/livelike-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/conventions/livelike-conventions.yml
+  href: https://artifacts.apis.io/livelike/conventions/livelike-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/livelike-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/conformance/livelike-conformance.yml
+  href: https://artifacts.apis.io/livelike/conformance/livelike-conformance.yml
   title: ''
   type: Conformance
   url: conformance/livelike-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/hosts/livelike-hosts.yml
+  href: https://artifacts.apis.io/livelike/hosts/livelike-hosts.yml
   title: ''
   type: Hosts
   url: hosts/livelike-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/vendors/livelike-vendors.yml
+  href: https://artifacts.apis.io/livelike/vendors/livelike-vendors.yml
   title: ''
   type: Vendors
   url: vendors/livelike-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/scopes/livelike-scopes.yml
+  href: https://artifacts.apis.io/livelike/scopes/livelike-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/livelike-scopes.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/security/livelike-trust-center.yml
+  href: https://artifacts.apis.io/livelike/security/livelike-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/livelike-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/security/livelike-trust-center.yml
+  href: https://artifacts.apis.io/livelike/security/livelike-trust-center.yml
   title: ''
   type: Compliance
   url: security/livelike-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/security/livelike-domain-security.yml
+  href: https://artifacts.apis.io/livelike/security/livelike-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/livelike-domain-security.yml
@@ -806,57 +808,57 @@ common:
   type: ChangeLog
   url: https://docs.livelike.com/changelog
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/llms/livelike-llms.txt
+  href: https://artifacts.apis.io/livelike/llms/livelike-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/livelike-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/packages/livelike-packages.yml
+  href: https://artifacts.apis.io/livelike/packages/livelike-packages.yml
   title: ''
   type: Packages
   url: packages/livelike-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/packages/livelike-packages.yml
+  href: https://artifacts.apis.io/livelike/packages/livelike-packages.yml
   title: ''
   type: SDKs
   url: packages/livelike-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/mcp/livelike-mcp.yml
+  href: https://artifacts.apis.io/livelike/mcp/livelike-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/livelike-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/asyncapi/livelike-webhooks.yml
+  href: https://artifacts.apis.io/livelike/asyncapi/livelike-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/livelike-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/conventions/livelike-conventions.yml
+  href: https://artifacts.apis.io/livelike/conventions/livelike-conventions.yml
   title: ''
   type: Conventions
   url: conventions/livelike-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/errors/livelike-problem-types.yml
+  href: https://artifacts.apis.io/livelike/errors/livelike-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/livelike-problem-types.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/authentication/livelike-authentication.yml
+  href: https://artifacts.apis.io/livelike/authentication/livelike-authentication.yml
   title: ''
   type: Authentication
   url: authentication/livelike-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/lifecycle/livelike-lifecycle.yml
+  href: https://artifacts.apis.io/livelike/lifecycle/livelike-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/livelike-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/changelog/livelike-changelog.yml
+  href: https://artifacts.apis.io/livelike/changelog/livelike-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/livelike-changelog.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/livelike/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -903,7 +905,7 @@ overview: 'LiveLike publishes 129 API contracts indexed on the [APIs.io](https:/
 
 
   LiveLike''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 29 more developer resources.'
-random_paper: 17
+random_paper: 13
 rules:
 - authorship: generated
   effective_rule_count: 52
@@ -923,8 +925,8 @@ scopes:
   slug: livelike-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 50.0
+  band: strong
+  composite: 54.4
   coverage:
     artifact_dirs: 28
     catalog_earned: 65.8
@@ -932,15 +934,15 @@ score:
     catalog_gap: 49.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 15.1
+  delta: 0.1
   facets:
-    access_clarity: 32.9
+    access_clarity: 39.5
     contract_governance: 22.0
-    contract_quality: 69.4
-    developer_ergonomics: 41.1
-    discoverability: 76.7
-    operational_transparency: 18.4
-  previous_composite: 34.9
+    contract_quality: 67.4
+    developer_ergonomics: 66.1
+    discoverability: 70.0
+    operational_transparency: 28.9
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -948,7 +950,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 128
+      total: 124
     mcp: first-party
     skills: derived
   regulatory:
@@ -957,13 +959,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 27.8
-screenshot: https://raw.githubusercontent.com/api-evangelist/livelike/refs/heads/main/screenshots/livelike-2026-07-25T225358.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/livelike/livelike-2026-07-25T225358.png
 security:
 - kind: authentication
   name: Livelike Authentication
@@ -977,6 +980,14 @@ security:
   name: Livelike Trust Center
   slug: livelike-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 3
+skills:
+- name: Manage LiveLike programs
+  slug: livelike-manage-programs
+- name: Create and authenticate a user profile
+  slug: livelike-onboard-profile
+- name: Publish an interactive poll widget to a program
+  slug: livelike-publish-poll-widget
 slug: livelike
 tags:
 - Company

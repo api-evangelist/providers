@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 0
 common:
@@ -41,17 +43,17 @@ common:
   type: Website
   url: http://fleksy.com
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fleksy/refs/heads/main/packages/fleksy-packages.yml
+  href: https://artifacts.apis.io/fleksy/packages/fleksy-packages.yml
   title: ''
   type: Packages
   url: packages/fleksy-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fleksy/refs/heads/main/packages/fleksy-packages.yml
+  href: https://artifacts.apis.io/fleksy/packages/fleksy-packages.yml
   title: ''
   type: SDKs
   url: packages/fleksy-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fleksy/refs/heads/main/llms/fleksy-llms.txt
+  href: https://artifacts.apis.io/fleksy/llms/fleksy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fleksy-llms.txt
@@ -64,7 +66,7 @@ name: Fleksy
 nav: Providers
 network: true
 overview: Fleksy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Keyboard, SDK, Mobile, and iOS.
-random_paper: 16
+random_paper: 6
 score:
   band: minimal
   composite: 0.0
@@ -91,8 +93,8 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 0.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false

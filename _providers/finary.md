@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finary/refs/heads/main/security/finary-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/finary/security/finary-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/finary-vulnerability-disclosure.yml
@@ -46,27 +48,27 @@ common:
   type: Security
   url: https://finary.com/en/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finary/refs/heads/main/security/finary-domain-security.yml
+  href: https://artifacts.apis.io/finary/security/finary-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/finary-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/finary/refs/heads/main/well-known/finary-security.txt
+  href: https://artifacts.apis.io/finary/well-known/finary-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/finary-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finary/refs/heads/main/well-known/finary-well-known.yml
+  href: https://artifacts.apis.io/finary/well-known/finary-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/finary-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/finary/refs/heads/main/packages/finary-packages.yml
+  href: https://artifacts.apis.io/finary/packages/finary-packages.yml
   title: ''
   type: Packages
   url: packages/finary-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/finary/refs/heads/main/lifecycle/finary-lifecycle.yml
+  href: https://artifacts.apis.io/finary/lifecycle/finary-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/finary-lifecycle.yml
@@ -75,7 +77,7 @@ common:
   type: StatusPage
   url: https://finary.statuspage.io
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/finary/refs/heads/main/llms/finary-llms.txt
+  href: https://artifacts.apis.io/finary/llms/finary-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/finary-llms.txt
@@ -135,10 +137,10 @@ overview: 'Finary is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Finary''s developer surface includes engineering blog, support, pricing, signup flow, and 16 more developer resources.'
-random_paper: 11
+random_paper: 1
 score:
   band: emerging
-  composite: 20.3
+  composite: 20.0
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -152,28 +154,28 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 55.4
-    operational_transparency: 28.9
+    discoverability: 48.2
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - france
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 20.3
+  previous_composite: 20.0
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/finary/refs/heads/main/screenshots/finary-2026-10-11T185721.png
+screenshot: https://apis.io/screenshots/finary/finary-2026-10-11T185721.png
 security:
 - kind: domain-security
   name: Finary Domain Security

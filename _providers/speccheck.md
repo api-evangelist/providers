@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.6
-  scored_at: '2026-10-17'
+  score: 32.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -72,11 +74,8 @@ arazzos:
 - description: Authenticate, resolve the user's lab, then page recent orders (most recent first) with cursor pagination and an optional created-date filter. Every operationId is verified against openapi/speccheck-op
   name: SpecCheck — List recent orders for a lab
   slug: speccheck-list-recent-orders
-artifact_total: 14
+artifact_total: 15
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: SpecCheck Authentication API
   slug: open-speccheck-authentication-api
@@ -119,92 +118,92 @@ common:
   type: StatusPage
   url: https://status.speccheckrx.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/openapi/_original/speccheck-openapi.yml
+  href: https://artifacts.apis.io/speccheck/openapi/_original/speccheck-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/speccheck-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/authentication/speccheck-authentication.yml
+  href: https://artifacts.apis.io/speccheck/authentication/speccheck-authentication.yml
   title: ''
   type: Authentication
   url: authentication/speccheck-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/conventions/speccheck-conventions.yml
+  href: https://artifacts.apis.io/speccheck/conventions/speccheck-conventions.yml
   title: ''
   type: Conventions
   url: conventions/speccheck-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/conventions/speccheck-conventions.yml
+  href: https://artifacts.apis.io/speccheck/conventions/speccheck-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/speccheck-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/errors/speccheck-problem-types.yml
+  href: https://artifacts.apis.io/speccheck/errors/speccheck-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/speccheck-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/lifecycle/speccheck-lifecycle.yml
+  href: https://artifacts.apis.io/speccheck/lifecycle/speccheck-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/speccheck-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/sandbox/speccheck-sandbox.yml
+  href: https://artifacts.apis.io/speccheck/sandbox/speccheck-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/speccheck-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/data-model/speccheck-data-model.yml
+  href: https://artifacts.apis.io/speccheck/data-model/speccheck-data-model.yml
   title: ''
   type: DataModel
   url: data-model/speccheck-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/conformance/speccheck-conformance.yml
+  href: https://artifacts.apis.io/speccheck/conformance/speccheck-conformance.yml
   title: ''
   type: Conformance
   url: conformance/speccheck-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/mcp/speccheck-mcp.yml
+  href: https://artifacts.apis.io/speccheck/mcp/speccheck-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/speccheck-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/llms/speccheck-llms.txt
+  href: https://artifacts.apis.io/speccheck/llms/speccheck-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/speccheck-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/overlays/speccheck-openapi-overlay.yaml
+  href: https://artifacts.apis.io/speccheck/overlays/speccheck-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/speccheck-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/well-known/speccheck-well-known.yml
+  href: https://artifacts.apis.io/speccheck/well-known/speccheck-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/speccheck-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/speccheck/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/agentic-access/speccheck-agentic-access.yml
+  href: https://artifacts.apis.io/speccheck/agentic-access/speccheck-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/speccheck-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/security/speccheck-domain-security.yml
+  href: https://artifacts.apis.io/speccheck/security/speccheck-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/speccheck-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/arazzo/speccheck-create-rx-order.yml
+  href: https://artifacts.apis.io/speccheck/arazzo/speccheck-create-rx-order.yml
   title: ''
   type: Arazzo
   url: arazzo/speccheck-create-rx-order.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/arazzo/speccheck-list-recent-orders.yml
+  href: https://artifacts.apis.io/speccheck/arazzo/speccheck-list-recent-orders.yml
   title: ''
   type: Arazzo
   url: arazzo/speccheck-list-recent-orders.yml
@@ -224,10 +223,10 @@ overview: 'SpecCheck publishes 4 API contracts indexed on the [APIs.io](https://
 
 
   SpecCheck''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, sandbox, and 20 more developer resources.'
-random_paper: 13
+random_paper: 1
 score:
   band: thin
-  composite: 34.9
+  composite: 37.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -235,15 +234,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.6
   facets:
-    access_clarity: 6.6
+    access_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 52.0
     developer_ergonomics: 61.3
-    discoverability: 73.2
-    operational_transparency: 7.9
-  previous_composite: 34.4
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,13 +259,14 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/speccheck/refs/heads/main/screenshots/speccheck-2026-09-02T160346.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/speccheck/speccheck-2026-09-02T160346.png
 security:
 - kind: authentication
   name: Speccheck Authentication
@@ -276,6 +276,12 @@ security:
   name: Speccheck Domain Security
   slug: speccheck-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Create a prescription (rx) order with SpecCheck
+  slug: speccheck-create-rx-order
+- name: List and page through SpecCheck orders
+  slug: speccheck-list-orders
 slug: speccheck
 tags:
 - Company

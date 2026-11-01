@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-10-17'
+  score: 24.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -90,11 +92,8 @@ apis:
   description: Persistent configuration store for proxies and visitors
   name: frp Store API
   slug: frp-store-api
-artifact_total: 27
+artifact_total: 26
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: frp Client Admin API
   slug: open-frp-client-admin-api
@@ -130,32 +129,32 @@ collections:
   slug: open-frp-store-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/plans/frp-plans-pricing.yml
+  href: https://artifacts.apis.io/frp/plans/frp-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/frp-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/rate-limits/frp-rate-limits.yml
+  href: https://artifacts.apis.io/frp/rate-limits/frp-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/frp-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/finops/frp-finops.yml
+  href: https://artifacts.apis.io/frp/finops/frp-finops.yml
   title: ''
   type: FinOps
   url: finops/frp-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/agentic-access/frp-agentic-access.yml
+  href: https://artifacts.apis.io/frp/agentic-access/frp-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/frp-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/security/frp-domain-security.yml
+  href: https://artifacts.apis.io/frp/security/frp-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/frp-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/authentication/frp-authentication.yml
+  href: https://artifacts.apis.io/frp/authentication/frp-authentication.yml
   title: ''
   type: Authentication
   url: authentication/frp-authentication.yml
@@ -193,7 +192,7 @@ finops:
 - has_sources: false
   method: generated
   name: Frp Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: frp-finops
   template: true
@@ -211,14 +210,14 @@ plans:
 - name: Frp Plans Pricing
   plan_count: 3
   slug: frp-plans-pricing
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Frp Rate Limits
   slug: frp-rate-limits
 score:
   band: thin
-  composite: 28.2
+  composite: 28.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 33.0
@@ -226,15 +225,15 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 50.2
+    contract_quality: 46.8
     developer_ergonomics: 33.3
     discoverability: 48.2
     operational_transparency: 28.9
-  previous_composite: 29.7
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     contracts:
@@ -248,13 +247,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/screenshots/frp-2026-06-20T181558.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/frp/frp-2026-06-20T181558.png
 security:
 - kind: authentication
   name: Frp Authentication

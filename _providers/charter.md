@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 3
 apis:
 - description: The Spectrum Enterprise Open API provides B2B REST API access for enterprise clients to integrate directly with the Spectrum Enterprise portal. It supports automated ticket creation and management, ci
@@ -48,7 +50,7 @@ apis:
 artifact_total: 7
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/charter/refs/heads/main/security/charter-domain-security.yml
+  href: https://artifacts.apis.io/charter/security/charter-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/charter-domain-security.yml
@@ -81,17 +83,17 @@ common:
   type: Blog
   url: https://corporate.charter.com/newsroom
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/charter/refs/heads/main/plans/charter-plans-pricing.yml
+  href: https://artifacts.apis.io/charter/plans/charter-plans-pricing.yml
   title: ''
   type: Pricing
   url: plans/charter-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/charter/refs/heads/main/rate-limits/charter-rate-limits.yml
+  href: https://artifacts.apis.io/charter/rate-limits/charter-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/charter-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/charter/refs/heads/main/finops/charter-finops.yml
+  href: https://artifacts.apis.io/charter/finops/charter-finops.yml
   title: ''
   type: FinOps
   url: finops/charter-finops.yml
@@ -104,7 +106,7 @@ common:
   type: X
   url: https://x.com/CharterNewsroom
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/charter/refs/heads/main/plans/charter-plans-pricing.yml
+  href: https://artifacts.apis.io/charter/plans/charter-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/charter-plans-pricing.yml
@@ -132,14 +134,14 @@ plans:
 - name: Charter Plans Pricing
   plan_count: 3
   slug: charter-plans-pricing
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Charter Rate Limits
   slug: charter-rate-limits
 score:
   band: emerging
-  composite: 14.9
+  composite: 16.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 43.0
@@ -147,29 +149,29 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.8
+  delta: 0.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 71.4
     operational_transparency: 21.1
-  previous_composite: 20.7
+  previous_composite: 16.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 6.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+    score: 8.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/charter/refs/heads/main/screenshots/charter-2026-06-20T174232.png
+screenshot: https://apis.io/screenshots/charter/charter-2026-06-20T174232.png
 security:
 - kind: domain-security
   name: Charter Domain Security

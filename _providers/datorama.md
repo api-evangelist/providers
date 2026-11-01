@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 7.9
-  scored_at: '2026-10-17'
+  score: 11.4
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: REST API to set up, manage and administer a Marketing Cloud Intelligence (Datorama) account — accounts, workspaces, users, permission sets, data streams, connectors, data source authentications, bucke
@@ -44,7 +46,7 @@ apis:
 - description: Synchronous JSON query API for reading harmonized Marketing Cloud Intelligence (Datorama) data out into any other platform, including all classifications and calculations. POST /v1/query and POST /v1/
   name: Intelligence Query API
   slug: intelligence-query-api
-artifact_total: 9
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -103,103 +105,111 @@ common:
   type: Compliance
   url: https://compliance.salesforce.com/en/services/marketing-cloud-intelligence
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/security/datorama-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/datorama/security/datorama-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/datorama-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/security/datorama-trust-center.yml
+  href: https://artifacts.apis.io/datorama/security/datorama-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/datorama-trust-center.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/plans/datorama-plans-pricing.yml
+  href: https://artifacts.apis.io/datorama/plans/datorama-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/datorama-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/rate-limits/datorama-rate-limits.yml
+  href: https://artifacts.apis.io/datorama/rate-limits/datorama-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/datorama-rate-limits.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/authentication/datorama-authentication.yml
+  href: https://artifacts.apis.io/datorama/authentication/datorama-authentication.yml
   title: ''
   type: Authentication
   url: authentication/datorama-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/conventions/datorama-conventions.yml
+  href: https://artifacts.apis.io/datorama/conventions/datorama-conventions.yml
   title: ''
   type: Conventions
   url: conventions/datorama-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/errors/datorama-problem-types.yml
+  href: https://artifacts.apis.io/datorama/errors/datorama-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/datorama-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/lifecycle/datorama-lifecycle.yml
+  href: https://artifacts.apis.io/datorama/lifecycle/datorama-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/datorama-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/changelog/datorama-changelog.yml
+  href: https://artifacts.apis.io/datorama/changelog/datorama-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/datorama-changelog.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/sandbox/datorama-sandbox.yml
+  href: https://artifacts.apis.io/datorama/sandbox/datorama-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/datorama-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/data-model/datorama-data-model.yml
+  href: https://artifacts.apis.io/datorama/data-model/datorama-data-model.yml
   title: ''
   type: DataModel
   url: data-model/datorama-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/conformance/datorama-conformance.yml
+  href: https://artifacts.apis.io/datorama/conformance/datorama-conformance.yml
   title: ''
   type: Conformance
   url: conformance/datorama-conformance.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/packages/datorama-packages.yml
+  href: https://artifacts.apis.io/datorama/packages/datorama-packages.yml
   title: ''
   type: Packages
   url: packages/datorama-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/packages/datorama-packages.yml
+  href: https://artifacts.apis.io/datorama/packages/datorama-packages.yml
   title: ''
   type: SDKs
   url: packages/datorama-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/cli/datorama-cli.yml
+  href: https://artifacts.apis.io/datorama/cli/datorama-cli.yml
   title: ''
   type: CLI
   url: cli/datorama-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/components/datorama-components.yml
+  href: https://artifacts.apis.io/datorama/components/datorama-components.yml
   title: ''
   type: Components
   url: components/datorama-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/mcp/datorama-mcp.yml
+  href: https://artifacts.apis.io/datorama/mcp/datorama-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/datorama-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/llms/datorama-llms.txt
+  href: https://artifacts.apis.io/datorama/llms/datorama-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/datorama-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/security/datorama-domain-security.yml
+  href: https://artifacts.apis.io/datorama/security/datorama-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/datorama-domain-security.yml
 created: '2026-07-17'
 description: 'Datorama was a cloud-based marketing intelligence and analytics platform founded in 2012 in Tel Aviv and New York. It unified marketing, advertising, and sales data from thousands of disparate sources into a single AI-powered reporting and dashboarding layer, using its "Genius" machine learning engine to automate data harmonization across ad, social, web, and CRM APIs. Salesforce acquired Datorama in August 2018 for a reported ~$800 million and rebranded it as Salesforce Marketing Cloud Intelligence. The marketing, pricing, legal, trust and support surfaces have moved to salesforce.com, but the developer surface is still live on the original domain: a Gatsby developer portal at developers.datorama.com documents an Intelligence Platform API and a synchronous Query API on https://api.datorama.com/v1, both authenticated with a per-user personal access token in an Authorization header, both rate limited per user (60 platform req/min, 200 query req/min, 20,000 calls/day UTC) with
   X-PlatformRateLimit-*, X-QueryRateLimit-* and X-DailyQuota-* response headers, plus an asynchronous Reporting API for large exports, a header-switched sandbox mode, an Apps JavaScript SDK and a `dato` CLI on npm, a custom-connector framework, and — new in July 2026 — a first-party MCP server (@datorama/mci-mcp-sdk) that proxies MCP JSON-RPC to a tenant /api/mcp endpoint using an OAuth2 service-account key. No OpenAPI, AsyncAPI, GraphQL SDL, llms.txt, /.well-known/ document or A2A agent card is published anywhere on the surface. This profile entered the API Evangelist network as a lightspeed-venture-partners portfolio lead.'
+finops:
+- has_sources: true
+  method: derived
+  name: Datorama Finops
+  primary_unit: org
+  service_category: ''
+  slug: datorama-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datorama.png
 layout: provider
 mcp_servers:
@@ -218,30 +228,30 @@ plans:
 - name: Datorama Plans Pricing
   plan_count: 2
   slug: datorama-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Datorama Rate Limits
   slug: datorama-rate-limits
 score:
-  band: developing
-  composite: 50.6
+  band: strong
+  composite: 54.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 57.0
+    artifact_dirs: 20
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.5
   facets:
-    access_clarity: 75.0
+    access_clarity: 89.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 76.2
-    discoverability: 66.1
-    operational_transparency: 65.8
-  previous_composite: 50.5
+    discoverability: 65.0
+    operational_transparency: 73.7
+  previous_composite: 52.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -251,14 +261,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/datorama/refs/heads/main/screenshots/datorama-2026-07-25T211413.png
+screenshot: https://apis.io/screenshots/datorama/datorama-2026-07-25T211413.png
 security:
 - kind: authentication
   name: Datorama Authentication

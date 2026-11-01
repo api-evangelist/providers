@@ -24,16 +24,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.1
-  scored_at: '2026-10-17'
+  score: 30.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -103,11 +105,8 @@ apis:
   description: The Weekend API from NASCAR — 3 operation(s) for weekend.
   name: NASCAR Weekend API
   slug: nascar-weekend-api
-artifact_total: 32
+artifact_total: 31
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: NASCAR Feed Companies API
   slug: open-nascar-companies-api
@@ -149,27 +148,27 @@ collections:
   slug: open-nascar
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/plans/nascar-plans-pricing.yml
+  href: https://artifacts.apis.io/nascar/plans/nascar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nascar-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/rate-limits/nascar-rate-limits.yml
+  href: https://artifacts.apis.io/nascar/rate-limits/nascar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nascar-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/finops/nascar-finops.yml
+  href: https://artifacts.apis.io/nascar/finops/nascar-finops.yml
   title: ''
   type: FinOps
   url: finops/nascar-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/agentic-access/nascar-agentic-access.yml
+  href: https://artifacts.apis.io/nascar/agentic-access/nascar-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nascar-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/security/nascar-domain-security.yml
+  href: https://artifacts.apis.io/nascar/security/nascar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nascar-domain-security.yml
@@ -199,7 +198,7 @@ finops:
 - has_sources: false
   method: generated
   name: Nascar Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: nascar-finops
   template: true
@@ -221,14 +220,14 @@ plans:
 - name: Nascar Plans Pricing
   plan_count: 3
   slug: nascar-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Nascar Rate Limits
   slug: nascar-rate-limits
 score:
   band: thin
-  composite: 26.9
+  composite: 27.3
   coverage:
     artifact_dirs: 11
     catalog_earned: 41.0
@@ -236,15 +235,15 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 41.0
     developer_ergonomics: 16.7
-    discoverability: 65.0
+    discoverability: 62.5
     operational_transparency: 7.9
-  previous_composite: 28.4
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     contracts:
@@ -259,13 +258,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/screenshots/nascar-2026-06-20T185957.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nascar/nascar-2026-06-20T185957.png
 security:
 - kind: domain-security
   name: Nascar Domain Security

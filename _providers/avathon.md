@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,17 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 1
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/avathon/refs/heads/main/security/avathon-domain-security.yml
+  href: https://artifacts.apis.io/avathon/security/avathon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/avathon-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/avathon/refs/heads/main/llms/avathon-llms.txt
+  href: https://artifacts.apis.io/avathon/llms/avathon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/avathon-llms.txt
@@ -126,7 +128,7 @@ overview: 'Avathon is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Avathon''s developer surface includes engineering blog, support, and 13 more developer resources.'
-random_paper: 5
+random_paper: 9
 score:
   band: minimal
   composite: 10.1
@@ -157,14 +159,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 10.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/avathon/refs/heads/main/screenshots/avathon-2026-08-07T162012.png
+screenshot: https://apis.io/screenshots/avathon/avathon-2026-08-07T162012.png
 security:
 - kind: domain-security
   name: Avathon Domain Security

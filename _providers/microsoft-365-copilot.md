@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: unknown
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.4
-  scored_at: '2026-10-17'
+  score: 29.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -73,11 +75,8 @@ apis:
   description: The User Content API from Microsoft 365 Copilot — 4 operation(s) for user content.
   name: Microsoft 365 Copilot User Content API
   slug: microsoft-365-copilot-user-content-api
-artifact_total: 44
+artifact_total: 43
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Microsoft 365 Copilot (Microsoft Graph) Connectors API
   slug: open-microsoft-365-copilot-connectors-api
@@ -95,17 +94,17 @@ collections:
   slug: open-microsoft-365-copilot
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/plans/microsoft-365-copilot-plans-pricing.yml
+  href: https://artifacts.apis.io/microsoft-365-copilot/plans/microsoft-365-copilot-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/microsoft-365-copilot-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/rate-limits/microsoft-365-copilot-rate-limits.yml
+  href: https://artifacts.apis.io/microsoft-365-copilot/rate-limits/microsoft-365-copilot-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/microsoft-365-copilot-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/finops/microsoft-365-copilot-finops.yml
+  href: https://artifacts.apis.io/microsoft-365-copilot/finops/microsoft-365-copilot-finops.yml
   title: ''
   type: FinOps
   url: finops/microsoft-365-copilot-finops.yml
@@ -114,22 +113,22 @@ common:
   type: Website
   url: https://www.microsoft.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/agentic-access/microsoft-365-copilot-agentic-access.yml
+  href: https://artifacts.apis.io/microsoft-365-copilot/agentic-access/microsoft-365-copilot-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/microsoft-365-copilot-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/security/microsoft-365-copilot-domain-security.yml
+  href: https://artifacts.apis.io/microsoft-365-copilot/security/microsoft-365-copilot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/microsoft-365-copilot-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/authentication/microsoft-365-copilot-authentication.yml
+  href: https://artifacts.apis.io/microsoft-365-copilot/authentication/microsoft-365-copilot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/microsoft-365-copilot-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/scopes/microsoft-365-copilot-scopes.yml
+  href: https://artifacts.apis.io/microsoft-365-copilot/scopes/microsoft-365-copilot-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/microsoft-365-copilot-scopes.yml
@@ -176,11 +175,11 @@ common:
 created: '2024-01-15'
 description: Microsoft 365 Copilot is an AI-powered productivity tool that combines large language models (LLMs) with Microsoft 365 apps and business data to enhance creativity, productivity, and skills across Microsoft 365 applications.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Microsoft 365 Copilot Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: microsoft-365-copilot-finops
   template: true
 image: https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-logo.png
@@ -195,9 +194,9 @@ overview: 'Microsoft 365 Copilot publishes 7 API contracts indexed on the [APIs.
   Microsoft 365 Copilot''s developer surface includes authentication, developer portal, support, engineering blog, and 14 more developer resources.'
 plans:
 - name: Microsoft 365 Copilot Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: microsoft-365-copilot-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Microsoft 365 Copilot Rate Limits
@@ -209,23 +208,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 50.3
+  composite: 47.6
   coverage:
     artifact_dirs: 14
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: -6.3
   facets:
-    access_clarity: 39.5
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 48.6
     developer_ergonomics: 70.7
     discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 51.8
+    operational_transparency: 44.7
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -239,13 +238,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: falling
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/screenshots/microsoft-365-copilot-2026-06-20T185342.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/microsoft-365-copilot/microsoft-365-copilot-2026-06-20T185342.png
 security:
 - kind: authentication
   name: Microsoft 365 Copilot Authentication

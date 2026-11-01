@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -90,57 +92,57 @@ common:
   type: StatusPage
   url: https://status.diagrid.io/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/diagrid/refs/heads/main/llms/diagrid-llms.txt
+  href: https://artifacts.apis.io/diagrid/llms/diagrid-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/diagrid-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/diagrid/refs/heads/main/packages/diagrid-packages.yml
+  href: https://artifacts.apis.io/diagrid/packages/diagrid-packages.yml
   title: ''
   type: Packages
   url: packages/diagrid-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/diagrid/refs/heads/main/packages/diagrid-packages.yml
+  href: https://artifacts.apis.io/diagrid/packages/diagrid-packages.yml
   title: ''
   type: SDKs
   url: packages/diagrid-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/diagrid/refs/heads/main/cli/diagrid-cli.yml
+  href: https://artifacts.apis.io/diagrid/cli/diagrid-cli.yml
   title: ''
   type: CLI
   url: cli/diagrid-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diagrid/refs/heads/main/authentication/diagrid-authentication.yml
+  href: https://artifacts.apis.io/diagrid/authentication/diagrid-authentication.yml
   title: ''
   type: Authentication
   url: authentication/diagrid-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diagrid/refs/heads/main/conventions/diagrid-conventions.yml
+  href: https://artifacts.apis.io/diagrid/conventions/diagrid-conventions.yml
   title: ''
   type: Conventions
   url: conventions/diagrid-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diagrid/refs/heads/main/lifecycle/diagrid-lifecycle.yml
+  href: https://artifacts.apis.io/diagrid/lifecycle/diagrid-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/diagrid-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/diagrid/refs/heads/main/conformance/diagrid-conformance.yml
+  href: https://artifacts.apis.io/diagrid/conformance/diagrid-conformance.yml
   title: ''
   type: Conformance
   url: conformance/diagrid-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diagrid/refs/heads/main/security/diagrid-trust-center.yml
+  href: https://artifacts.apis.io/diagrid/security/diagrid-trust-center.yml
   title: ''
   type: Compliance
   url: security/diagrid-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diagrid/refs/heads/main/security/diagrid-trust-center.yml
+  href: https://artifacts.apis.io/diagrid/security/diagrid-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/diagrid-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/diagrid/refs/heads/main/security/diagrid-domain-security.yml
+  href: https://artifacts.apis.io/diagrid/security/diagrid-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/diagrid-domain-security.yml
@@ -156,10 +158,10 @@ overview: 'Diagrid is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Diagrid''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 20
+random_paper: 4
 score:
   band: thin
-  composite: 35.0
+  composite: 38.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 27.0
@@ -167,15 +169,15 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 47.4
+    access_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 55.4
-    operational_transparency: 10.5
-  previous_composite: 34.9
+    discoverability: 48.2
+    operational_transparency: 21.1
+  previous_composite: 38.3
   provenance:
     conformance: first-party
   regulatory:
@@ -184,14 +186,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/diagrid/refs/heads/main/screenshots/diagrid-2026-07-25T211904.png
+screenshot: https://apis.io/screenshots/diagrid/diagrid-2026-07-25T211904.png
 security:
 - kind: authentication
   name: Diagrid Authentication

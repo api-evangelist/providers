@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: The SurrealDB HTTP REST API provides stateless access to SurrealDB instances over standard HTTP. It supports CRUD operations on tables and records, SurrealQL query execution via POST /sql, GraphQL que
@@ -45,27 +47,27 @@ apis:
 artifact_total: 10
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/surrealdb/refs/heads/main/security/surrealdb-trust-center.yml
+  href: https://artifacts.apis.io/surrealdb/security/surrealdb-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/surrealdb-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/surrealdb/refs/heads/main/security/surrealdb-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/surrealdb/security/surrealdb-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/surrealdb-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/surrealdb/refs/heads/main/security/surrealdb-domain-security.yml
+  href: https://artifacts.apis.io/surrealdb/security/surrealdb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/surrealdb-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/surrealdb/refs/heads/main/json-ld/surrealdb-context.jsonld
+  href: https://artifacts.apis.io/surrealdb/json-ld/surrealdb-context.jsonld
   title: ''
   type: JSONLDContext
   url: json-ld/surrealdb-context.jsonld
 - group: company
-  href: https://raw.githubusercontent.com/api-evangelist/surrealdb/refs/heads/main/blogs/blogs.json
+  href: https://artifacts.apis.io/surrealdb/blogs/blogs.json
   title: ''
   type: BlogFeed
   url: blogs/blogs.json
@@ -106,17 +108,17 @@ common:
   type: X
   url: https://x.com/SurrealDB
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/surrealdb/refs/heads/main/plans/surrealdb-plans-pricing.yml
+  href: https://artifacts.apis.io/surrealdb/plans/surrealdb-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/surrealdb-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/surrealdb/refs/heads/main/rate-limits/surrealdb-rate-limits.yml
+  href: https://artifacts.apis.io/surrealdb/rate-limits/surrealdb-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/surrealdb-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/surrealdb/refs/heads/main/finops/surrealdb-finops.yml
+  href: https://artifacts.apis.io/surrealdb/finops/surrealdb-finops.yml
   title: ''
   type: FinOps
   url: finops/surrealdb-finops.yml
@@ -145,7 +147,7 @@ modified: '2026-06-12'
 name: SurrealDB
 nav: Providers
 network: true
-overview: 'SurrealDB is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Multi-Model, Graph Database, Document Database, and Vector Database.
+overview: 'SurrealDB is listed with 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Multi-Model, Graph Database, Document Database, and Vector Search.
 
 
   The SurrealDB catalog on APIs.io includes 1 JSON-LD context.
@@ -156,14 +158,14 @@ plans:
 - name: Surrealdb Plans Pricing
   plan_count: 3
   slug: surrealdb-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Surrealdb Rate Limits
   slug: surrealdb-rate-limits
 score:
   band: thin
-  composite: 28.2
+  composite: 37.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 59.0
@@ -171,29 +173,29 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -2.6
+  delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 43.6
-    developer_ergonomics: 0.0
+    developer_ergonomics: 11.9
     discoverability: 66.1
-    operational_transparency: 15.8
-  previous_composite: 30.8
+    operational_transparency: 52.6
+  previous_composite: 37.5
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/surrealdb/refs/heads/main/screenshots/surrealdb-2026-06-20T194741.png
+screenshot: https://apis.io/screenshots/surrealdb/surrealdb-2026-06-20T194741.png
 security:
 - kind: domain-security
   name: Surrealdb Domain Security
@@ -213,7 +215,7 @@ tags:
 - Multi-Model
 - Graph Database
 - Document Database
-- Vector Database
+- Vector Search
 - Time Series
 - SurrealQL
 - Artificial Intelligence

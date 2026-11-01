@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: GraphQL-based public API for The Onapsis Platform. Introduced with support for Assess (vulnerability and scan results) and preliminary support for Comply, it powers third-party integrations with ticke
@@ -43,7 +45,7 @@ apis:
 artifact_total: 6
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onapsis/refs/heads/main/mcp/onapsis-mcp.yml
+  href: https://artifacts.apis.io/onapsis/mcp/onapsis-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/onapsis-mcp.yml
@@ -96,37 +98,37 @@ common:
   type: Compliance
   url: https://onapsis.com/compliance-resources/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/onapsis/refs/heads/main/llms/onapsis-llms.txt
+  href: https://artifacts.apis.io/onapsis/llms/onapsis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/onapsis-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onapsis/refs/heads/main/security/onapsis-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/onapsis/security/onapsis-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/onapsis-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onapsis/refs/heads/main/security/onapsis-trust-center.yml
+  href: https://artifacts.apis.io/onapsis/security/onapsis-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/onapsis-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onapsis/refs/heads/main/security/onapsis-domain-security.yml
+  href: https://artifacts.apis.io/onapsis/security/onapsis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/onapsis-domain-security.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/onapsis/refs/heads/main/changelog/onapsis-changelog.yml
+  href: https://artifacts.apis.io/onapsis/changelog/onapsis-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/onapsis-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/onapsis/refs/heads/main/conformance/onapsis-conformance.yml
+  href: https://artifacts.apis.io/onapsis/conformance/onapsis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/onapsis-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/onapsis/refs/heads/main/authentication/onapsis-authentication.yml
+  href: https://artifacts.apis.io/onapsis/authentication/onapsis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/onapsis-authentication.yml
@@ -147,10 +149,10 @@ overview: 'Onapsis is listed with 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Onapsis'' developer surface includes documentation, support, engineering blog, changelog, authentication, and 15 more developer resources.'
-random_paper: 17
+random_paper: 21
 score:
   band: thin
-  composite: 30.5
+  composite: 31.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 37.0
@@ -160,12 +162,12 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 71.7
-    operational_transparency: 28.9
+    discoverability: 65.0
+    operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -173,7 +175,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 30.5
+  previous_composite: 31.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -183,14 +185,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/onapsis/refs/heads/main/screenshots/onapsis-2026-08-07T190215.png
+screenshot: https://apis.io/screenshots/onapsis/onapsis-2026-08-07T190215.png
 security:
 - kind: authentication
   name: Onapsis Authentication

@@ -31,14 +31,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 51.6
-  scored_at: '2026-10-17'
+  score: 52.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +48,7 @@ agentic_access:
   operation_count: 0
   slug: photon-agentic-access
   summary_line: 0 operations
-api_count: 2
+api_count: 1
 apis:
 - description: Photon's native GraphQL Clinical API for managing patients, prescriptions, orders, pharmacies, the treatment/medication catalog, drug-drug and drug-allergy interaction screening, webhooks, and organiz
   name: Photon Clinical API
@@ -69,19 +71,19 @@ apis:
   description: First-party onboarding endpoints for prescriber, developer, clinic, enterprise, platform, and other paths.
   name: Photon Onboarding API
   slug: photon-onboarding-api
-artifact_total: 13
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Photon Order Events Webhooks
   slug: photon-order-events-webhooks
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/skills/photon-developer-sandbox-onboarding.md
+  href: https://artifacts.apis.io/photon/skills/photon-developer-sandbox-onboarding.md
   title: ''
   type: AgentSkill
   url: skills/photon-developer-sandbox-onboarding.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/security/photon-domain-security.yml
+  href: https://artifacts.apis.io/photon/security/photon-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/photon-domain-security.yml
@@ -142,117 +144,117 @@ common:
   type: TermsOfService
   url: https://photonhealth.com/terms
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/authentication/photon-authentication.yml
+  href: https://artifacts.apis.io/photon/authentication/photon-authentication.yml
   title: ''
   type: Authentication
   url: authentication/photon-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/scopes/photon-scopes.yml
+  href: https://artifacts.apis.io/photon/scopes/photon-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/photon-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/packages/photon-packages.yml
+  href: https://artifacts.apis.io/photon/packages/photon-packages.yml
   title: ''
   type: Packages
   url: packages/photon-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/packages/photon-packages.yml
+  href: https://artifacts.apis.io/photon/packages/photon-packages.yml
   title: ''
   type: SDKs
   url: packages/photon-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/well-known/photon-well-known.yml
+  href: https://artifacts.apis.io/photon/well-known/photon-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/photon-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/mcp/photon-mcp.yml
+  href: https://artifacts.apis.io/photon/mcp/photon-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/photon-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/llms/photon-llms.txt
+  href: https://artifacts.apis.io/photon/llms/photon-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/photon-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/conformance/photon-conformance.yml
+  href: https://artifacts.apis.io/photon/conformance/photon-conformance.yml
   title: ''
   type: Conformance
   url: conformance/photon-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/errors/photon-error-codes.yml
+  href: https://artifacts.apis.io/photon/errors/photon-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/photon-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/lifecycle/photon-lifecycle.yml
+  href: https://artifacts.apis.io/photon/lifecycle/photon-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/photon-lifecycle.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/sandbox/photon-sandbox.yml
+  href: https://artifacts.apis.io/photon/sandbox/photon-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/photon-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/conventions/photon-conventions.yml
+  href: https://artifacts.apis.io/photon/conventions/photon-conventions.yml
   title: ''
   type: Conventions
   url: conventions/photon-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/components/photon-components.yml
+  href: https://artifacts.apis.io/photon/components/photon-components.yml
   title: ''
   type: Components
   url: components/photon-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/data-model/photon-data-model.yml
+  href: https://artifacts.apis.io/photon/data-model/photon-data-model.yml
   title: ''
   type: DataModel
   url: data-model/photon-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/asyncapi/photon-order-events-webhooks.yml
+  href: https://artifacts.apis.io/photon/asyncapi/photon-order-events-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/photon-order-events-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/photon/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/openapi/_original/photon-website-api-openapi.json
+  href: https://artifacts.apis.io/photon/openapi/_original/photon-website-api-openapi.json
   title: ''
   type: OpenAPI
   url: openapi/_original/photon-website-api-openapi.json
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/overlays/photon-website-api-overlay.yaml
+  href: https://artifacts.apis.io/photon/overlays/photon-website-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/photon-website-api-overlay.yaml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/well-known/photon-api-catalog.json
+  href: https://artifacts.apis.io/photon/well-known/photon-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/photon-api-catalog.json
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/agentic-access/photon-agentic-access.yml
+  href: https://artifacts.apis.io/photon/agentic-access/photon-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/photon-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/security/photon-trust-center.yml
+  href: https://artifacts.apis.io/photon/security/photon-trust-center.yml
   title: ''
   type: Compliance
   url: security/photon-trust-center.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/plans/photon-plans-pricing.yml
+  href: https://artifacts.apis.io/photon/plans/photon-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/photon-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/rate-limits/photon-rate-limits.yml
+  href: https://artifacts.apis.io/photon/rate-limits/photon-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/photon-rate-limits.yml
@@ -269,12 +271,20 @@ common:
   type: FAQ
   url: https://photonhealth.com/faq
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/llms/photon-docs-llms.txt
+  href: https://artifacts.apis.io/photon/llms/photon-docs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/photon-docs-llms.txt
 created: '2026-07-24'
 description: Photon Health is a United States prescription-infrastructure and e-prescribing (eRx) platform that lets digital-health companies embed prescribing, pharmacy selection, prescription routing, and fulfillment tracking into their clinical applications. Rather than an HL7 FHIR interface, Photon exposes a native GraphQL Clinical API - a single POST /graphql endpoint covering patients, prescriptions, orders, pharmacies, the medication/treatment catalog, drug-drug and drug-allergy screening, webhooks, and organization/user administration - plus a Patient Benefits API for pharmacy benefit checks and coverage. It also ships Photon Elements, prebuilt WebComponent UI for prescribing. The API is secured with OAuth2 client-credentials (Auth0) using machine-to-machine and user access tokens and prescription/order scopes; a sandbox runs on neutron.health. Photon serves prescribers and pharmacy-innovation partners including Amazon Pharmacy, Sesame, WeightWatchers, and Found.
+finops:
+- has_sources: true
+  method: derived
+  name: Photon Finops
+  primary_unit: orders
+  service_category: ''
+  slug: photon-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-09-16'
@@ -290,9 +300,12 @@ overview: 'Photon publishes 5 API contracts indexed on the [APIs.io](https://api
   Photon''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, engineering blog, sandbox, and 36 more developer resources.'
 plans:
 - name: Photon Plans Pricing
-  plan_count: 0
+  plan_count: 5
   slug: photon-plans-pricing
-random_paper: 4
+- name: Photon Price Estimates
+  plan_count: 0
+  slug: photon-price-estimates
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Photon Rate Limits
@@ -303,23 +316,23 @@ scopes:
   slug: photon-scopes
   summary_line: 6 scopes
 score:
-  band: developing
-  composite: 52.8
+  band: strong
+  composite: 65.0
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 7.9
   facets:
-    access_clarity: 50.0
+    access_clarity: 89.5
     contract_governance: 18.2
     contract_quality: 58.4
-    developer_ergonomics: 53.0
-    discoverability: 73.2
-    operational_transparency: 26.3
+    developer_ergonomics: 73.2
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -327,7 +340,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 52.7
+  previous_composite: 57.1
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -348,13 +361,14 @@ score:
     regime: Health
     regime_id: health
     score: 47.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/screenshots/photon-2026-08-17T081212.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/photon/photon-2026-08-17T081212.png
 security:
 - kind: authentication
   name: Photon Authentication
@@ -368,6 +382,16 @@ security:
   name: Photon Trust Center
   slug: photon-trust-center
   summary_line: SOC 2, HIPAA
+skill_count: 4
+skills:
+- name: Run a patient benefit check
+  slug: photon-benefit-check
+- name: Onboard to the Photon developer sandbox
+  slug: photon-developer-sandbox-onboarding
+- name: Subscribe to Photon order events
+  slug: photon-order-events-webhooks
+- name: Sync a patient into Photon
+  slug: photon-sync-patient
 slug: photon
 tags:
 - Healthcare

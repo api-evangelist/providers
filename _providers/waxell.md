@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-10-17'
+  score: 20.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -73,7 +75,7 @@ apis:
   description: LLM calls, spans, steps, and quality scores recorded against a run
   name: Waxell Telemetry API
   slug: waxell-telemetry-api
-artifact_total: 69
+artifact_total: 68
 collections:
 - collection_type: postman
   name: Waxell Observe Cost Management API
@@ -90,9 +92,6 @@ collections:
 - collection_type: postman
   name: Waxell Observe Cost Management Telemetry API
   slug: postman-waxell-telemetry-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Waxell Observe Cost Management API
   slug: open-waxell-cost-management-api
@@ -113,7 +112,7 @@ collections:
   slug: open-waxell-telemetry-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/capabilities/waxell-capability-edges.yml
+  href: https://artifacts.apis.io/waxell/capabilities/waxell-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/waxell-capability-edges.yml
@@ -126,17 +125,17 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/waxell/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/agentic-access/waxell-agentic-access.yml
+  href: https://artifacts.apis.io/waxell/agentic-access/waxell-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/waxell-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/security/waxell-domain-security.yml
+  href: https://artifacts.apis.io/waxell/security/waxell-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/waxell-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/authentication/waxell-authentication.yml
+  href: https://artifacts.apis.io/waxell/authentication/waxell-authentication.yml
   title: ''
   type: Authentication
   url: authentication/waxell-authentication.yml
@@ -169,17 +168,17 @@ common:
   type: Pricing
   url: https://waxell.ai/get-access
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/plans/waxell-plans-pricing.yml
+  href: https://artifacts.apis.io/waxell/plans/waxell-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/waxell-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/rate-limits/waxell-rate-limits.yml
+  href: https://artifacts.apis.io/waxell/rate-limits/waxell-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/waxell-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/finops/waxell-finops.yml
+  href: https://artifacts.apis.io/waxell/finops/waxell-finops.yml
   title: ''
   type: FinOps
   url: finops/waxell-finops.yml
@@ -216,37 +215,37 @@ common:
   type: GitHubRepository
   url: https://gitlab.com/waxell/agentforge
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/rules/waxell-rules.yml
+  href: https://artifacts.apis.io/waxell/rules/waxell-rules.yml
   title: ''
   type: SpectralRules
   url: rules/waxell-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/vocabulary/waxell-vocabulary.yml
+  href: https://artifacts.apis.io/waxell/vocabulary/waxell-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/waxell-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/json-ld/waxell-context.jsonld
+  href: https://artifacts.apis.io/waxell/json-ld/waxell-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/waxell-context.jsonld
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/examples/waxell-start-run-example.json
+  href: https://artifacts.apis.io/waxell/examples/waxell-start-run-example.json
   title: ''
   type: Examples
   url: examples/waxell-start-run-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/examples/waxell-record-llm-call-example.json
+  href: https://artifacts.apis.io/waxell/examples/waxell-record-llm-call-example.json
   title: ''
   type: Examples
   url: examples/waxell-record-llm-call-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/examples/waxell-policy-check-example.json
+  href: https://artifacts.apis.io/waxell/examples/waxell-policy-check-example.json
   title: ''
   type: Examples
   url: examples/waxell-policy-check-example.json
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/examples/waxell-get-prompt-example.json
+  href: https://artifacts.apis.io/waxell/examples/waxell-get-prompt-example.json
   title: ''
   type: Examples
   url: examples/waxell-get-prompt-example.json
@@ -292,12 +291,12 @@ features:
   name: Field-Level Encryption
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Waxell Finops
   primary_unit: ''
-  service_category: AI Agent Governance and Observability
+  service_category: ''
   slug: waxell-finops
-  template: false
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/waxell.png
 integrations:
 - description: Auto-instrumented LLM provider; cost and token tracking out of the box.
@@ -365,9 +364,9 @@ overview: 'Waxell publishes 6 API contracts indexed on the [APIs.io](https://api
   Waxell''s developer surface includes authentication, documentation, getting-started guide, developer console, signup flow, pricing, engineering blog, and 25 more developer resources.'
 plans:
 - name: Waxell Plans Pricing
-  plan_count: 2
+  plan_count: 1
   slug: waxell-plans-pricing
-random_paper: 15
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Waxell Rate Limits
@@ -397,24 +396,24 @@ rules:
     warn: 9
   slug: waxell-rules
 score:
-  band: developing
-  composite: 51.0
+  band: strong
+  composite: 56.5
   coverage:
     artifact_dirs: 20
-    catalog_earned: 68.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 47.0
+    catalog_earned: 74.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 41.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -7.0
+  delta: 0.0
   facets:
-    access_clarity: 36.8
+    access_clarity: 60.5
     contract_governance: 27.3
     contract_quality: 64.1
     developer_ergonomics: 58.3
     discoverability: 73.2
     operational_transparency: 39.5
-  previous_composite: 58.0
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     contracts:
@@ -428,13 +427,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 21.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/screenshots/waxell-2026-06-20T201300.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/waxell/waxell-2026-06-20T201300.png
 security:
 - kind: authentication
   name: Waxell Authentication

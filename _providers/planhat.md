@@ -25,16 +25,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.7
-  scored_at: '2026-10-17'
+  score: 40.5
+  scored_at: '2026-10-31'
 api_count: 2
 apis:
 - description: Planhat's REST API for reading and writing every core Customer Platform object — companies, end users, licenses, conversations, notes, tasks, opportunities, deals, sales, invoices, assets, issues, tic
@@ -43,19 +45,24 @@ apis:
 - description: High-throughput tracking endpoint for pushing user activities and product usage metrics into Planhat. Addressed by tenant UUID in the URL path (open / tenant-scoped), separate from the main authentica
   name: Planhat Analytics API
   slug: planhat-analytics-api
-artifact_total: 8
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Planhat Webhooks
   slug: planhat-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/planhat/plans/planhat-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/planhat-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/security/planhat-trust-center.yml
+  href: https://artifacts.apis.io/planhat/security/planhat-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/planhat-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/security/planhat-domain-security.yml
+  href: https://artifacts.apis.io/planhat/security/planhat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/planhat-domain-security.yml
@@ -116,77 +123,85 @@ common:
   type: Compliance
   url: https://trust.planhat.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/mcp/planhat-mcp.yml
+  href: https://artifacts.apis.io/planhat/mcp/planhat-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/planhat-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/well-known/planhat-well-known.yml
+  href: https://artifacts.apis.io/planhat/well-known/planhat-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/planhat-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/authentication/planhat-authentication.yml
+  href: https://artifacts.apis.io/planhat/authentication/planhat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/planhat-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/conventions/planhat-conventions.yml
+  href: https://artifacts.apis.io/planhat/conventions/planhat-conventions.yml
   title: ''
   type: Conventions
   url: conventions/planhat-conventions.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/rate-limits/planhat-rate-limits.yml
+  href: https://artifacts.apis.io/planhat/rate-limits/planhat-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/planhat-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/errors/planhat-problem-types.yml
+  href: https://artifacts.apis.io/planhat/errors/planhat-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/planhat-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/data-model/planhat-data-model.yml
+  href: https://artifacts.apis.io/planhat/data-model/planhat-data-model.yml
   title: ''
   type: DataModel
   url: data-model/planhat-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/conformance/planhat-conformance.yml
+  href: https://artifacts.apis.io/planhat/conformance/planhat-conformance.yml
   title: ''
   type: Conformance
   url: conformance/planhat-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/lifecycle/planhat-lifecycle.yml
+  href: https://artifacts.apis.io/planhat/lifecycle/planhat-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/planhat-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/changelog/planhat-changelog.yml
+  href: https://artifacts.apis.io/planhat/changelog/planhat-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/planhat-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/asyncapi/planhat-webhooks.yml
+  href: https://artifacts.apis.io/planhat/asyncapi/planhat-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/planhat-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/packages/planhat-packages.yml
+  href: https://artifacts.apis.io/planhat/packages/planhat-packages.yml
   title: ''
   type: Packages
   url: packages/planhat-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/sandbox/planhat-sandbox.yml
+  href: https://artifacts.apis.io/planhat/sandbox/planhat-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/planhat-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/llms/planhat-llms.txt
+  href: https://artifacts.apis.io/planhat/llms/planhat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/planhat-llms.txt
 created: '2026-07-17'
 description: Planhat is a Customer Platform that unifies customer success, product usage, revenue and post-sales operations for B2B SaaS companies. It centralizes companies, end users, licenses, conversations, NPS, health scores and time-series usage metrics, then drives playbooks, automations and revenue workflows on top of that data. Planhat exposes a REST API (api.planhat.com), a separate high-throughput analytics/tracking endpoint (analytics.planhat.com), bulk upsert, an OAuth authorization server, and a remote MCP server (api.planhat.com/v1/mcp) for AI agents. Backed by Creandum and added to the API Evangelist network; this profile was enriched from Planhat's public developer surface.
+finops:
+- has_sources: true
+  method: derived
+  name: Planhat Finops
+  primary_unit: ''
+  service_category: ''
+  slug: planhat-finops
+  template: true
 image: https://www.planhat.com/
 layout: provider
 mcp_servers:
@@ -203,31 +218,35 @@ overview: 'Planhat is listed with 2 APIs on the [APIs.io](https://apis.io/) netw
   The Planhat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Planhat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 23 more developer resources.'
-random_paper: 18
+  Planhat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 24 more developer resources.'
+plans:
+- name: Planhat Plans Pricing
+  plan_count: 1
+  slug: planhat-plans-pricing
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Planhat Rate Limits
   slug: planhat-rate-limits
 score:
-  band: developing
-  composite: 53.0
+  band: strong
+  composite: 57.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 21
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 4.2
   facets:
-    access_clarity: 47.4
+    access_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 39.0
-    developer_ergonomics: 61.9
-    discoverability: 75.0
-    operational_transparency: 73.7
-  previous_composite: 52.9
+    developer_ergonomics: 64.3
+    discoverability: 65.0
+    operational_transparency: 76.3
+  previous_composite: 52.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -241,14 +260,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/planhat/refs/heads/main/screenshots/planhat-2026-08-17T081257.png
+screenshot: https://apis.io/screenshots/planhat/planhat-2026-08-17T081257.png
 security:
 - kind: authentication
   name: Planhat Authentication

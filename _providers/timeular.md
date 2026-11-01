@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-10-17'
+  score: 26.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -99,15 +101,12 @@ apis:
   description: The Webhooks API from Timeular — 3 operation(s) for webhooks.
   name: Timeular Webhooks API
   slug: timeular-webhooks-api
-artifact_total: 27
+artifact_total: 30
 asyncapis:
 - description: Event surface derived from the EARLY (Timeular) public webhook API. Consumers subscribe a publicly reachable HTTPS target URL to a named event via POST /api/v4/webhooks/subscription; EARLY delivers th
   name: EARLY (Timeular) Webhooks
   slug: timeular-early-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: EARLY (Timeular) Public Activities API
   slug: open-timeular-activities-api
@@ -143,7 +142,7 @@ collections:
   slug: open-timeular-webhooks-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/overlays/timeular-early-overlay.yaml
+  href: https://artifacts.apis.io/timeular/overlays/timeular-early-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/timeular-early-overlay.yaml
@@ -196,37 +195,37 @@ common:
   type: Website
   url: https://early.app/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/mcp/timeular-mcp.yml
+  href: https://artifacts.apis.io/timeular/mcp/timeular-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/timeular-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/llms/timeular-llms.txt
+  href: https://artifacts.apis.io/timeular/llms/timeular-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/timeular-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/lifecycle/timeular-lifecycle.yml
+  href: https://artifacts.apis.io/timeular/lifecycle/timeular-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/timeular-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/well-known/timeular-well-known.yml
+  href: https://artifacts.apis.io/timeular/well-known/timeular-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/timeular-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/security/timeular-domain-security.yml
+  href: https://artifacts.apis.io/timeular/security/timeular-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/timeular-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/timeular/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/webhooks/timeular-early-webhooks.yml
+  href: https://artifacts.apis.io/timeular/webhooks/timeular-early-webhooks.yml
   title: ''
   type: Webhooks
   url: webhooks/timeular-early-webhooks.yml
@@ -245,10 +244,10 @@ overview: 'Timeular is listed with 11 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Timeular''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 9
+random_paper: 3
 score:
   band: thin
-  composite: 34.3
+  composite: 35.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -258,13 +257,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 24.8
+    contract_quality: 22.2
     developer_ergonomics: 63.7
-    discoverability: 78.6
-    operational_transparency: 10.5
-  previous_composite: 34.3
+    discoverability: 71.4
+    operational_transparency: 13.2
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -281,13 +280,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/screenshots/timeular-2026-08-17T082357.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/timeular/timeular-2026-08-17T082357.png
 security:
 - kind: authentication
   name: Timeular Authentication
@@ -297,6 +297,16 @@ security:
   name: Timeular Domain Security
   slug: timeular-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Create and tag a time entry
+  slug: timeular-log-and-tag-entry
+- name: Report time over a date range
+  slug: timeular-report-time
+- name: Subscribe to time-tracking webhooks
+  slug: timeular-subscribe-webhook
+- name: Track time with a live session
+  slug: timeular-track-time
 slug: timeular
 tags:
 - Company

@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,11 +68,8 @@ apis:
   description: SPARQL 1.1 Update operations
   name: Apache Jena SPARQL Update API
   slug: apache-jena-sparql-update-api
-artifact_total: 51
+artifact_total: 50
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apache Jena Fuseki SPARQL Dataset Management API
   slug: open-apache-jena-dataset-management-api
@@ -85,17 +84,17 @@ collections:
   slug: open-apache-jena-sparql-update-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/plans/apache-jena-plans-pricing.yml
+  href: https://artifacts.apis.io/apache-jena/plans/apache-jena-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apache-jena-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/rate-limits/apache-jena-rate-limits.yml
+  href: https://artifacts.apis.io/apache-jena/rate-limits/apache-jena-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apache-jena-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/finops/apache-jena-finops.yml
+  href: https://artifacts.apis.io/apache-jena/finops/apache-jena-finops.yml
   title: ''
   type: FinOps
   url: finops/apache-jena-finops.yml
@@ -124,17 +123,17 @@ common:
   type: License
   url: https://github.com/apache/jena/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/agentic-access/apache-jena-agentic-access.yml
+  href: https://artifacts.apis.io/apache-jena/agentic-access/apache-jena-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apache-jena-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/security/apache-jena-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apache-jena/security/apache-jena-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apache-jena-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/security/apache-jena-domain-security.yml
+  href: https://artifacts.apis.io/apache-jena/security/apache-jena-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apache-jena-domain-security.yml
@@ -163,12 +162,12 @@ common:
   type: Versioning
   url: https://jena.apache.org/about_jena/releases.html
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/rules/apache-jena-spectral-rules.yml
+  href: https://artifacts.apis.io/apache-jena/rules/apache-jena-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apache-jena-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/vocabulary/apache-jena-vocabulary.yaml
+  href: https://artifacts.apis.io/apache-jena/vocabulary/apache-jena-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apache-jena-vocabulary.yaml
@@ -212,7 +211,7 @@ finops:
 - has_sources: false
   method: generated
   name: Apache Jena Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: apache-jena-finops
   template: true
@@ -314,26 +313,23 @@ rules:
   slug: apache-jena-spectral-rules
 score:
   band: thin
-  composite: 38.4
+  composite: 35.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     contract_governance: 27.3
     contract_quality: 49.7
     developer_ergonomics: 21.4
     discoverability: 57.1
-    operational_transparency: 36.8
-  open_source:
-    applies: true
-    score: 75.0
-  previous_composite: 39.7
+    operational_transparency: 39.5
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -347,13 +343,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/screenshots/apache-jena-2026-06-20T172111.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apache-jena/apache-jena-2026-06-20T172111.png
 security:
 - kind: domain-security
   name: Apache Jena Domain Security

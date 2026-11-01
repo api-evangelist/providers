@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.4
-  scored_at: '2026-10-17'
+  score: 22.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -72,11 +74,8 @@ apis:
   description: Presentation themes and templates
   name: Apple Keynote Themes API
   slug: apple-keynote-themes-api
-artifact_total: 48
+artifact_total: 47
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Apple Keynote iCloud Export API
   slug: open-apple-keynote-export-api
@@ -90,18 +89,22 @@ collections:
   name: Apple Keynote iCloud Export Themes API
   slug: open-apple-keynote-themes-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/apple-keynote/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/plans/apple-keynote-plans-pricing.yml
+  href: https://artifacts.apis.io/apple-keynote/plans/apple-keynote-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/apple-keynote-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/rate-limits/apple-keynote-rate-limits.yml
+  href: https://artifacts.apis.io/apple-keynote/rate-limits/apple-keynote-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/apple-keynote-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/finops/apple-keynote-finops.yml
+  href: https://artifacts.apis.io/apple-keynote/finops/apple-keynote-finops.yml
   title: ''
   type: FinOps
   url: finops/apple-keynote-finops.yml
@@ -110,17 +113,17 @@ common:
   type: Website
   url: https://www.apple.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/agentic-access/apple-keynote-agentic-access.yml
+  href: https://artifacts.apis.io/apple-keynote/agentic-access/apple-keynote-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/apple-keynote-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/security/apple-keynote-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/apple-keynote/security/apple-keynote-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/apple-keynote-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/security/apple-keynote-domain-security.yml
+  href: https://artifacts.apis.io/apple-keynote/security/apple-keynote-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apple-keynote-domain-security.yml
@@ -153,17 +156,17 @@ common:
   type: YouTube
   url: https://www.youtube.com/@AppleDeveloper
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/json-ld/apple-keynote-context.jsonld
+  href: https://artifacts.apis.io/apple-keynote/json-ld/apple-keynote-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/apple-keynote-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/rules/apple-keynote-spectral-rules.yml
+  href: https://artifacts.apis.io/apple-keynote/rules/apple-keynote-spectral-rules.yml
   title: ''
   type: SpectralRules
   url: rules/apple-keynote-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/vocabulary/apple-keynote-vocabulary.yaml
+  href: https://artifacts.apis.io/apple-keynote/vocabulary/apple-keynote-vocabulary.yaml
   title: ''
   type: Vocabulary
   url: vocabulary/apple-keynote-vocabulary.yaml
@@ -252,12 +255,12 @@ overview: 'Apple Keynote is listed with 7 APIs on the [APIs.io](https://apis.io/
   The Apple Keynote catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apple Keynote''s developer surface includes developer portal, documentation, support, Stack Overflow tag, YouTube channel, and 12 more developer resources.'
+  Apple Keynote''s developer surface includes developer portal, documentation, support, Stack Overflow tag, YouTube channel, and 13 more developer resources.'
 plans:
 - name: Apple Keynote Plans Pricing
   plan_count: 7
   slug: apple-keynote-plans-pricing
-random_paper: 0
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Apple Keynote Rate Limits
@@ -288,7 +291,7 @@ rules:
   slug: apple-keynote-spectral-rules
 score:
   band: thin
-  composite: 31.3
+  composite: 32.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 70.0
@@ -296,15 +299,15 @@ score:
     catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.2
   facets:
     access_clarity: 28.9
     contract_governance: 27.3
-    contract_quality: 29.3
-    developer_ergonomics: 31.0
+    contract_quality: 25.9
+    developer_ergonomics: 32.1
     discoverability: 69.6
-    operational_transparency: 7.9
-  previous_composite: 32.8
+    operational_transparency: 18.4
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -318,13 +321,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/screenshots/apple-keynote-2026-06-20T172318.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/apple-keynote/apple-keynote-2026-06-20T172318.png
 security:
 - kind: domain-security
   name: Apple Keynote Domain Security

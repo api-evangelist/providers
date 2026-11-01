@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-10-17'
+  score: 27.1
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -127,7 +129,7 @@ apis:
   description: REST module template management. A template defines a URI pattern within a module for routing requests.
   name: Oracle APEX Templates API
   slug: oracle-apex-templates-api
-artifact_total: 82
+artifact_total: 81
 collections:
 - collection_type: postman
   name: Oracle REST Data Services (ORDS) REST AutoREST API
@@ -159,9 +161,6 @@ collections:
 - collection_type: postman
   name: Oracle REST Data Services (ORDS) REST AutoREST Templates API
   slug: postman-oracle-apex-templates-api
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Oracle REST Data Services (ORDS) REST AutoREST API
   slug: open-oracle-apex-autorest-api
@@ -196,18 +195,23 @@ collections:
   name: Oracle REST Data Services (ORDS) REST API
   slug: open-ords-rest-api
 common:
+- group: other
+  href: https://artifacts.apis.io/oracle-apex/capabilities/oracle-apex-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/oracle-apex-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/plans/oracle-apex-plans-pricing.yml
+  href: https://artifacts.apis.io/oracle-apex/plans/oracle-apex-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/oracle-apex-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/rate-limits/oracle-apex-rate-limits.yml
+  href: https://artifacts.apis.io/oracle-apex/rate-limits/oracle-apex-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/oracle-apex-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/finops/oracle-apex-finops.yml
+  href: https://artifacts.apis.io/oracle-apex/finops/oracle-apex-finops.yml
   title: ''
   type: FinOps
   url: finops/oracle-apex-finops.yml
@@ -220,22 +224,22 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/oracle-apex/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/agentic-access/oracle-apex-agentic-access.yml
+  href: https://artifacts.apis.io/oracle-apex/agentic-access/oracle-apex-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/oracle-apex-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/security/oracle-apex-domain-security.yml
+  href: https://artifacts.apis.io/oracle-apex/security/oracle-apex-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oracle-apex-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/authentication/oracle-apex-authentication.yml
+  href: https://artifacts.apis.io/oracle-apex/authentication/oracle-apex-authentication.yml
   title: ''
   type: Authentication
   url: authentication/oracle-apex-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/scopes/oracle-apex-scopes.yml
+  href: https://artifacts.apis.io/oracle-apex/scopes/oracle-apex-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/oracle-apex-scopes.yml
@@ -312,10 +316,10 @@ features:
   name: Oracle Cloud Integration
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Oracle Apex Finops
-  primary_unit: ''
-  service_category: Application Development / Low-Code
+  primary_unit: function invocation
+  service_category: ''
   slug: oracle-apex-finops
   template: false
 image: /assets/icons/oracle-apex.png
@@ -390,12 +394,12 @@ overview: 'Oracle APEX publishes 21 API contracts indexed on the [APIs.io](https
   The Oracle APEX catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle APEX''s developer surface includes authentication, documentation, engineering blog, YouTube channel, pricing, getting-started guide, release notes, and 16 more developer resources.'
+  Oracle APEX''s developer surface includes authentication, documentation, engineering blog, YouTube channel, pricing, getting-started guide, release notes, and 17 more developer resources.'
 plans:
 - name: Oracle Apex Plans Pricing
-  plan_count: 3
+  plan_count: 7
   slug: oracle-apex-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Oracle Apex Rate Limits
@@ -419,23 +423,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.3
+  composite: 52.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 52.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 62.8
+    artifact_dirs: 20
+    catalog_earned: 64.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 50.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.9
+  delta: 1.6
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 9.8
-    contract_quality: 56.7
-    developer_ergonomics: 34.5
+    contract_quality: 53.3
+    developer_ergonomics: 48.8
     discoverability: 57.1
-    operational_transparency: 26.3
-  previous_composite: 45.2
+    operational_transparency: 28.9
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     contracts:
@@ -449,13 +453,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 31.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/screenshots/oracle-apex-2026-06-20T191118.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/oracle-apex/oracle-apex-2026-06-20T191118.png
 security:
 - kind: authentication
   name: Oracle Apex Authentication

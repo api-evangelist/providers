@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: platform
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.7
-  scored_at: '2026-10-17'
+  score: 46.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 94
   slug: sendcloud-agentic-access
   summary_line: 94 operations · 42 acting
-api_count: 30
+api_count: 20
 apis:
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
@@ -501,7 +503,7 @@ arazzos:
 - description: Validate a return payload, create the return, then retrieve its full detail.
   name: Sendcloud Validate and Create a Return
   slug: sendcloud-validate-create-return-workflow
-artifact_total: 156
+artifact_total: 155
 collections:
 - collection_type: postman
   name: Shipments
@@ -563,9 +565,6 @@ collections:
 - collection_type: postman
   name: Webhooks
   slug: postman-sendcloud-v3-webhooks
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Shipments Address API
   slug: open-sendcloud-address-api
@@ -700,37 +699,37 @@ collections:
   slug: open-sendcloud-v3-webhooks
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/capabilities/sendcloud-capability-edges.yml
+  href: https://artifacts.apis.io/sendcloud/capabilities/sendcloud-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sendcloud-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/a2a/sendcloud-a2a.yml
+  href: https://artifacts.apis.io/sendcloud/a2a/sendcloud-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/sendcloud-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/agentic-access/sendcloud-agentic-access.yml
+  href: https://artifacts.apis.io/sendcloud/agentic-access/sendcloud-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/sendcloud-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/security/sendcloud-trust-center.yml
+  href: https://artifacts.apis.io/sendcloud/security/sendcloud-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/sendcloud-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/security/sendcloud-domain-security.yml
+  href: https://artifacts.apis.io/sendcloud/security/sendcloud-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sendcloud-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/authentication/sendcloud-authentication.yml
+  href: https://artifacts.apis.io/sendcloud/authentication/sendcloud-authentication.yml
   title: ''
   type: Authentication
   url: authentication/sendcloud-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/scopes/sendcloud-scopes.yml
+  href: https://artifacts.apis.io/sendcloud/scopes/sendcloud-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/sendcloud-scopes.yml
@@ -739,62 +738,62 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/sendcloud/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/arazzo/sendcloud-announce-shipment-return-portal-workflow.yml
+  href: https://artifacts.apis.io/sendcloud/arazzo/sendcloud-announce-shipment-return-portal-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendcloud-announce-shipment-return-portal-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/arazzo/sendcloud-announce-shipment-with-label-workflow.yml
+  href: https://artifacts.apis.io/sendcloud/arazzo/sendcloud-announce-shipment-with-label-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendcloud-announce-shipment-with-label-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/arazzo/sendcloud-bulk-print-labels-workflow.yml
+  href: https://artifacts.apis.io/sendcloud/arazzo/sendcloud-bulk-print-labels-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendcloud-bulk-print-labels-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/arazzo/sendcloud-cancel-shipment-workflow.yml
+  href: https://artifacts.apis.io/sendcloud/arazzo/sendcloud-cancel-shipment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendcloud-cancel-shipment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/arazzo/sendcloud-create-parcel-fetch-label-workflow.yml
+  href: https://artifacts.apis.io/sendcloud/arazzo/sendcloud-create-parcel-fetch-label-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendcloud-create-parcel-fetch-label-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/arazzo/sendcloud-create-parcel-return-portal-workflow.yml
+  href: https://artifacts.apis.io/sendcloud/arazzo/sendcloud-create-parcel-return-portal-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendcloud-create-parcel-return-portal-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/arazzo/sendcloud-create-parcel-track-shipment-workflow.yml
+  href: https://artifacts.apis.io/sendcloud/arazzo/sendcloud-create-parcel-track-shipment-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendcloud-create-parcel-track-shipment-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/arazzo/sendcloud-create-return-cancel-if-cancellable-workflow.yml
+  href: https://artifacts.apis.io/sendcloud/arazzo/sendcloud-create-return-cancel-if-cancellable-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendcloud-create-return-cancel-if-cancellable-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/arazzo/sendcloud-register-external-parcel-track-workflow.yml
+  href: https://artifacts.apis.io/sendcloud/arazzo/sendcloud-register-external-parcel-track-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendcloud-register-external-parcel-track-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/arazzo/sendcloud-ship-order-async-poll-parcel-workflow.yml
+  href: https://artifacts.apis.io/sendcloud/arazzo/sendcloud-ship-order-async-poll-parcel-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendcloud-ship-order-async-poll-parcel-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/arazzo/sendcloud-ship-order-sync-track-workflow.yml
+  href: https://artifacts.apis.io/sendcloud/arazzo/sendcloud-ship-order-sync-track-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendcloud-ship-order-sync-track-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/arazzo/sendcloud-validate-create-return-workflow.yml
+  href: https://artifacts.apis.io/sendcloud/arazzo/sendcloud-validate-create-return-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/sendcloud-validate-create-return-workflow.yml
@@ -887,32 +886,32 @@ common:
   type: LlmsText
   url: https://sendcloud.dev/llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/rules/sendcloud-rules.yml
+  href: https://artifacts.apis.io/sendcloud/rules/sendcloud-rules.yml
   title: ''
   type: SpectralRules
   url: rules/sendcloud-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/vocabulary/sendcloud-vocabulary.yml
+  href: https://artifacts.apis.io/sendcloud/vocabulary/sendcloud-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/sendcloud-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/json-ld/sendcloud-context.jsonld
+  href: https://artifacts.apis.io/sendcloud/json-ld/sendcloud-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/sendcloud-context.jsonld
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/plans/sendcloud-plans-pricing.yml
+  href: https://artifacts.apis.io/sendcloud/plans/sendcloud-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sendcloud-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/rate-limits/sendcloud-rate-limits.yml
+  href: https://artifacts.apis.io/sendcloud/rate-limits/sendcloud-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sendcloud-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/finops/sendcloud-finops.yml
+  href: https://artifacts.apis.io/sendcloud/finops/sendcloud-finops.yml
   title: ''
   type: FinOps
   url: finops/sendcloud-finops.yml
@@ -969,10 +968,10 @@ features:
   name: Marketplace integration guidelines
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Sendcloud Finops
-  primary_unit: ''
-  service_category: Shipping API
+  primary_unit: subscription + per label
+  service_category: ''
   slug: sendcloud-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
@@ -1039,7 +1038,7 @@ plans:
 - name: Sendcloud Price Estimates
   plan_count: 0
   slug: sendcloud-price-estimates
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Sendcloud Rate Limits
@@ -1075,22 +1074,22 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 66.4
+  composite: 62.7
   coverage:
     artifact_dirs: 26
-    catalog_earned: 93.0
+    catalog_earned: 96.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 22.0
+    catalog_gap: 19.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.6
   facets:
-    access_clarity: 50.0
+    access_clarity: 57.9
     contract_governance: 27.3
-    contract_quality: 70.4
+    contract_quality: 70.2
     developer_ergonomics: 69.0
-    discoverability: 80.0
-    operational_transparency: 50.0
+    discoverability: 78.6
+    operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -1099,7 +1098,7 @@ score:
     regions:
     - benelux
     - europe
-  previous_composite: 68.0
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1114,13 +1113,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 32.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/screenshots/sendcloud-2026-06-20T193651.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sendcloud/sendcloud-2026-06-20T193651.png
 security:
 - kind: authentication
   name: Sendcloud Authentication

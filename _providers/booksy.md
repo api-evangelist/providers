@@ -30,6 +30,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -37,13 +39,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The Booksy Public API is a partner-facing REST API for managing Booksy businesses and their booking data. It is organized around resource-oriented URLs, returns JSON, uses standard HTTP verbs and stat
   name: Booksy Public API
   slug: booksy-public-api
-artifact_total: 7
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Booksy Appointment Webhooks
@@ -102,73 +104,81 @@ common:
   type: ChangeLog
   url: https://biz.booksy.com/whats-new
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/authentication/booksy-authentication.yml
+  href: https://artifacts.apis.io/booksy/authentication/booksy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/booksy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/conventions/booksy-conventions.yml
+  href: https://artifacts.apis.io/booksy/conventions/booksy-conventions.yml
   title: ''
   type: Conventions
   url: conventions/booksy-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/errors/booksy-error-codes.yml
+  href: https://artifacts.apis.io/booksy/errors/booksy-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/booksy-error-codes.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/rate-limits/booksy-rate-limits.yml
+  href: https://artifacts.apis.io/booksy/rate-limits/booksy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/booksy-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/plans/booksy-plans.yml
+  href: https://artifacts.apis.io/booksy/plans/booksy-plans.yml
   title: ''
   type: Plans
   url: plans/booksy-plans.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/lifecycle/booksy-lifecycle.yml
+  href: https://artifacts.apis.io/booksy/lifecycle/booksy-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/booksy-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/changelog/booksy-changelog.yml
+  href: https://artifacts.apis.io/booksy/changelog/booksy-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/booksy-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/asyncapi/booksy-appointment-webhooks.yml
+  href: https://artifacts.apis.io/booksy/asyncapi/booksy-appointment-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/booksy-appointment-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/data-model/booksy-data-model.yml
+  href: https://artifacts.apis.io/booksy/data-model/booksy-data-model.yml
   title: ''
   type: DataModel
   url: data-model/booksy-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/sandbox/booksy-sandbox.yml
+  href: https://artifacts.apis.io/booksy/sandbox/booksy-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/booksy-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/conformance/booksy-conformance.yml
+  href: https://artifacts.apis.io/booksy/conformance/booksy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/booksy-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/security/booksy-domain-security.yml
+  href: https://artifacts.apis.io/booksy/security/booksy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/booksy-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/llms/booksy-llms.txt
+  href: https://artifacts.apis.io/booksy/llms/booksy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/booksy-llms.txt
 created: '2026-07-31'
 description: Booksy is a beauty, wellness and health services platform that pairs a consumer appointment marketplace (booksy.com) with Booksy Biz, a subscription business-management application for salons, barbershops, spas, nail studios, tattoo artists, massage therapists and other independent service providers. The platform covers online booking, calendar and staff scheduling, client records, inventory, no-show protection, digital loyalty cards, marketing tools such as Boost, reviews, and integrated card payments including a Booksy Card Reader and Tap to Pay. Booksy also operates the Booksy Public API, a partner-facing REST API documented at docs.booksy.com that exposes businesses, business categories and amenities, business and staff schedules, resources (staff and appliances), services, service variants, service categories, service and staff photos, consent forms, customers, appointments and appointment status transitions, appointment consents, reviews and review statistics, plus an
   appointment webhook. The API is versioned through an Accept header, authenticates with partner-issued RSA key pairs exchanged for short-lived JWT access tokens, and is served per country from https://<country_code>.booksy.com/public-api/<country_code>/.
+finops:
+- has_sources: true
+  method: derived
+  name: Booksy Finops
+  primary_unit: transaction
+  service_category: ''
+  slug: booksy-finops
+  template: false
 image: https://cdn.prod.website-files.com/65ce807a7f0051db5b622a45/65dc8ce6b51696ab4e375751_Logo.svg
 layout: provider
 modified: '2026-07-31'
@@ -184,32 +194,35 @@ overview: 'Booksy is listed with 1 API on the [APIs.io](https://apis.io/) networ
   Booksy''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, changelog, and 19 more developer resources.'
 plans:
 - name: Booksy Plans
-  plan_count: 2
+  plan_count: 10
   slug: booksy-plans
-random_paper: 3
+- name: Booksy Price Estimates
+  plan_count: 0
+  slug: booksy-price-estimates
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Booksy Rate Limits
   slug: booksy-rate-limits
 score:
-  band: developing
-  composite: 49.2
+  band: strong
+  composite: 54.8
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 53.0
-    catalog_earned_first_party: 16.0
-    catalog_gap: 62.0
+    artifact_dirs: 18
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 3.7
   facets:
-    access_clarity: 73.7
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 39.3
-    discoverability: 73.2
+    developer_ergonomics: 52.4
+    discoverability: 66.1
     operational_transparency: 60.5
-  previous_composite: 49.1
+  previous_composite: 51.1
   provenance:
     conformance: derived
   regulatory:
@@ -218,14 +231,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/booksy/refs/heads/main/screenshots/booksy-2026-08-07T162726.png
+screenshot: https://apis.io/screenshots/booksy/booksy-2026-08-07T162726.png
 security:
 - kind: authentication
   name: Booksy Authentication

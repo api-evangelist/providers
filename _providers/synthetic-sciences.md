@@ -24,22 +24,24 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 9.5
-  scored_at: '2026-10-17'
+  score: 13.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: The direct HTTP API behind the Atlas CLI — the research graph, Library, runs, evidence, compute, and research surfaces. Bearer (thk_*) auth; JSON responses; Idempotency-Key on writes. Base https://app
   name: Atlas REST API
   slug: atlas-rest-api
-artifact_total: 4
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -82,72 +84,72 @@ common:
   type: ProductSite
   url: https://tryatlas.sh
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/llms/synthetic-sciences-llms.txt
+  href: https://artifacts.apis.io/synthetic-sciences/llms/synthetic-sciences-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/synthetic-sciences-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/packages/synthetic-sciences-packages.yml
+  href: https://artifacts.apis.io/synthetic-sciences/packages/synthetic-sciences-packages.yml
   title: ''
   type: Packages
   url: packages/synthetic-sciences-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/packages/synthetic-sciences-packages.yml
+  href: https://artifacts.apis.io/synthetic-sciences/packages/synthetic-sciences-packages.yml
   title: ''
   type: SDKs
   url: packages/synthetic-sciences-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/cli/synthetic-sciences-cli.yml
+  href: https://artifacts.apis.io/synthetic-sciences/cli/synthetic-sciences-cli.yml
   title: ''
   type: CLI
   url: cli/synthetic-sciences-cli.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/mcp/synthetic-sciences-mcp.yml
+  href: https://artifacts.apis.io/synthetic-sciences/mcp/synthetic-sciences-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/synthetic-sciences-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/authentication/synthetic-sciences-authentication.yml
+  href: https://artifacts.apis.io/synthetic-sciences/authentication/synthetic-sciences-authentication.yml
   title: ''
   type: Authentication
   url: authentication/synthetic-sciences-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/conventions/synthetic-sciences-conventions.yml
+  href: https://artifacts.apis.io/synthetic-sciences/conventions/synthetic-sciences-conventions.yml
   title: ''
   type: Conventions
   url: conventions/synthetic-sciences-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/conventions/synthetic-sciences-conventions.yml
+  href: https://artifacts.apis.io/synthetic-sciences/conventions/synthetic-sciences-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/synthetic-sciences-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/errors/synthetic-sciences-problem-types.yml
+  href: https://artifacts.apis.io/synthetic-sciences/errors/synthetic-sciences-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/synthetic-sciences-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/lifecycle/synthetic-sciences-lifecycle.yml
+  href: https://artifacts.apis.io/synthetic-sciences/lifecycle/synthetic-sciences-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/synthetic-sciences-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/data-model/synthetic-sciences-data-model.yml
+  href: https://artifacts.apis.io/synthetic-sciences/data-model/synthetic-sciences-data-model.yml
   title: ''
   type: DataModel
   url: data-model/synthetic-sciences-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/conformance/synthetic-sciences-conformance.yml
+  href: https://artifacts.apis.io/synthetic-sciences/conformance/synthetic-sciences-conformance.yml
   title: ''
   type: Conformance
   url: conformance/synthetic-sciences-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/synthetic-sciences/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/security/synthetic-sciences-domain-security.yml
+  href: https://artifacts.apis.io/synthetic-sciences/security/synthetic-sciences-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/synthetic-sciences-domain-security.yml
@@ -167,26 +169,26 @@ overview: 'Synthetic Sciences is listed with 1 API on the [APIs.io](https://apis
 
 
   Synthetic Sciences'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, CLI, and 17 more developer resources.'
-random_paper: 7
+random_paper: 5
 score:
-  band: emerging
-  composite: 16.3
+  band: thin
+  composite: 26.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 42.3
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 16.6
+    developer_ergonomics: 70.8
+    discoverability: 65.0
+    operational_transparency: 5.3
+  previous_composite: 26.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -197,14 +199,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/synthetic-sciences/refs/heads/main/screenshots/synthetic-sciences-2026-09-02T161636.png
+screenshot: https://apis.io/screenshots/synthetic-sciences/synthetic-sciences-2026-09-02T161636.png
 security:
 - kind: authentication
   name: Synthetic Sciences Authentication
@@ -214,6 +216,14 @@ security:
   name: Synthetic Sciences Domain Security
   slug: synthetic-sciences-domain-security
   summary_line: TLSv1.3 · HSTS
+skill_count: 3
+skills:
+- name: atlas
+  slug: synthetic-sciences-atlas
+- name: atlas-research-loop
+  slug: synthetic-sciences-research-loop
+- name: atlas-source-to-map
+  slug: synthetic-sciences-source-to-map
 slug: synthetic-sciences
 tags:
 - Company

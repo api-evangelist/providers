@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 28.7
+  scored_at: '2026-10-31'
 api_count: 5
 apis:
 - description: Brands report new orders, order updates (including partial returns), and cancellations to Button server-to-server, passing the Button Attribution Token (btn_ref) captured by the Merchant Library; docu
@@ -71,7 +73,7 @@ apis:
   description: The Transactions API from Button — 1 operation(s) for transactions.
   name: Button Transactions API
   slug: usebutton-transactions-api
-artifact_total: 25
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Usebutton Webhooks
@@ -96,9 +98,6 @@ collections:
   name: billing-api Accounts Transactions API
   slug: postman-usebutton-transactions-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: billing-api Accounts API
   slug: open-usebutton-accounts-api
 - collection_type: open
@@ -118,7 +117,12 @@ collections:
   slug: open-usebutton-transactions-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/overlays/usebutton-billing-overlay.yaml
+  href: https://artifacts.apis.io/usebutton/capabilities/usebutton-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/usebutton-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/usebutton/overlays/usebutton-billing-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/usebutton-billing-overlay.yaml
@@ -175,7 +179,7 @@ common:
   type: StatusPage
   url: https://status.usebutton.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/changelog/usebutton-changelog.yml
+  href: https://artifacts.apis.io/usebutton/changelog/usebutton-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/usebutton-changelog.yml
@@ -184,62 +188,62 @@ common:
   type: ChangeLog
   url: https://developer.usebutton.com/changelog
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/lifecycle/usebutton-lifecycle.yml
+  href: https://artifacts.apis.io/usebutton/lifecycle/usebutton-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/usebutton-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/authentication/usebutton-authentication.yml
+  href: https://artifacts.apis.io/usebutton/authentication/usebutton-authentication.yml
   title: ''
   type: Authentication
   url: authentication/usebutton-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/conventions/usebutton-conventions.yml
+  href: https://artifacts.apis.io/usebutton/conventions/usebutton-conventions.yml
   title: ''
   type: Conventions
   url: conventions/usebutton-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/errors/usebutton-problem-types.yml
+  href: https://artifacts.apis.io/usebutton/errors/usebutton-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/usebutton-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/asyncapi/usebutton-webhooks.yml
+  href: https://artifacts.apis.io/usebutton/asyncapi/usebutton-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/usebutton-webhooks.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/sandbox/usebutton-sandbox.yml
+  href: https://artifacts.apis.io/usebutton/sandbox/usebutton-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/usebutton-sandbox.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/packages/usebutton-packages.yml
+  href: https://artifacts.apis.io/usebutton/packages/usebutton-packages.yml
   title: ''
   type: Packages
   url: packages/usebutton-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/packages/usebutton-packages.yml
+  href: https://artifacts.apis.io/usebutton/packages/usebutton-packages.yml
   title: ''
   type: SDKs
   url: packages/usebutton-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/mcp/usebutton-mcp.yml
+  href: https://artifacts.apis.io/usebutton/mcp/usebutton-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/usebutton-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/llms/usebutton-llms.txt
+  href: https://artifacts.apis.io/usebutton/llms/usebutton-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/usebutton-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/well-known/usebutton-well-known.yml
+  href: https://artifacts.apis.io/usebutton/well-known/usebutton-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/usebutton-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/conformance/usebutton-conformance.yml
+  href: https://artifacts.apis.io/usebutton/conformance/usebutton-conformance.yml
   title: ''
   type: Conformance
   url: conformance/usebutton-conformance.yml
@@ -252,37 +256,37 @@ common:
   type: Security
   url: https://www.usebutton.com/support/security
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/data-model/usebutton-data-model.yml
+  href: https://artifacts.apis.io/usebutton/data-model/usebutton-data-model.yml
   title: ''
   type: DataModel
   url: data-model/usebutton-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/skills/usebutton-offers-to-link.md
+  href: https://artifacts.apis.io/usebutton/skills/usebutton-offers-to-link.md
   title: ''
   type: AgentSkill
   url: skills/usebutton-offers-to-link.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/skills/usebutton-billing-reconciliation.md
+  href: https://artifacts.apis.io/usebutton/skills/usebutton-billing-reconciliation.md
   title: ''
   type: AgentSkill
   url: skills/usebutton-billing-reconciliation.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/skills/usebutton-creator-shortlinks.md
+  href: https://artifacts.apis.io/usebutton/skills/usebutton-creator-shortlinks.md
   title: ''
   type: AgentSkill
   url: skills/usebutton-creator-shortlinks.md
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/security/usebutton-trust-center.yml
+  href: https://artifacts.apis.io/usebutton/security/usebutton-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/usebutton-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/security/usebutton-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/usebutton/security/usebutton-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/usebutton-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/security/usebutton-domain-security.yml
+  href: https://artifacts.apis.io/usebutton/security/usebutton-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/usebutton-domain-security.yml
@@ -300,27 +304,27 @@ overview: 'Button publishes 7 API contracts indexed on the [APIs.io](https://api
   The Button catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Button''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 30 more developer resources.'
-random_paper: 11
+  Button''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 31 more developer resources.'
+random_paper: 17
 score:
-  band: developing
-  composite: 50.6
+  band: strong
+  composite: 57.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 43.4
+    access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 57.1
-    developer_ergonomics: 55.4
-    discoverability: 78.6
-    operational_transparency: 44.7
-  previous_composite: 50.5
+    developer_ergonomics: 74.4
+    discoverability: 71.4
+    operational_transparency: 55.3
+  previous_composite: 57.1
   provenance:
     conformance: derived
     contracts:
@@ -336,13 +340,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/screenshots/usebutton-2026-08-17T082649.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/usebutton/usebutton-2026-08-17T082649.png
 security:
 - kind: authentication
   name: Usebutton Authentication
@@ -360,6 +365,14 @@ security:
   name: Usebutton Trust Center
   slug: usebutton-trust-center
   summary_line: SOC 2, GDPR
+skill_count: 3
+skills:
+- name: Reconcile commissions with the Billing API
+  slug: usebutton-billing-reconciliation
+- name: Create attributed creator shortlinks
+  slug: usebutton-creator-shortlinks
+- name: Fetch offers and generate an attributed link
+  slug: usebutton-offers-to-link
 slug: usebutton
 tags:
 - Commerce

@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.9
-  scored_at: '2026-10-17'
+  score: 19.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -73,11 +75,8 @@ apis:
   description: The Work Plans API from Mosaic — 3 operation(s) for work plans.
   name: Mosaic Work Plans API
   slug: mosaic-app-work-plans-api
-artifact_total: 20
+artifact_total: 19
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Mosaic Open Members API
   slug: open-mosaic-app-members-api
@@ -98,27 +97,27 @@ collections:
   slug: open-mosaic-app
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/capabilities/mosaic-app-capability-edges.yml
+  href: https://artifacts.apis.io/mosaic-app/capabilities/mosaic-app-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/mosaic-app-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/agentic-access/mosaic-app-agentic-access.yml
+  href: https://artifacts.apis.io/mosaic-app/agentic-access/mosaic-app-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mosaic-app-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/security/mosaic-app-trust-center.yml
+  href: https://artifacts.apis.io/mosaic-app/security/mosaic-app-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/mosaic-app-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/security/mosaic-app-domain-security.yml
+  href: https://artifacts.apis.io/mosaic-app/security/mosaic-app-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mosaic-app-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/authentication/mosaic-app-authentication.yml
+  href: https://artifacts.apis.io/mosaic-app/authentication/mosaic-app-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mosaic-app-authentication.yml
@@ -151,17 +150,17 @@ common:
   type: Pricing
   url: https://mosaicapp.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/plans/mosaic-app-plans-pricing.yml
+  href: https://artifacts.apis.io/mosaic-app/plans/mosaic-app-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mosaic-app-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/rate-limits/mosaic-app-rate-limits.yml
+  href: https://artifacts.apis.io/mosaic-app/rate-limits/mosaic-app-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mosaic-app-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/finops/mosaic-app-finops.yml
+  href: https://artifacts.apis.io/mosaic-app/finops/mosaic-app-finops.yml
   title: ''
   type: FinOps
   url: finops/mosaic-app-finops.yml
@@ -193,14 +192,14 @@ plans:
 - name: Mosaic App Plans Pricing
   plan_count: 1
   slug: mosaic-app-plans-pricing
-random_paper: 12
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Mosaic App Rate Limits
   slug: mosaic-app-rate-limits
 score:
   band: thin
-  composite: 29.0
+  composite: 33.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 36.0
@@ -208,15 +207,15 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 45.3
-    developer_ergonomics: 28.6
+    developer_ergonomics: 42.9
     discoverability: 64.3
-    operational_transparency: 13.2
-  previous_composite: 35.5
+    operational_transparency: 21.1
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -230,13 +229,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/screenshots/mosaic-app-2026-06-20T185820.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mosaic-app/mosaic-app-2026-06-20T185820.png
 security:
 - kind: authentication
   name: Mosaic App Authentication

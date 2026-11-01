@@ -16,6 +16,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -23,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 5
 common:
@@ -36,7 +38,7 @@ common:
   type: BlogRSS
   url: https://360privacy.io/newsroom/feed/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/360-privacy/refs/heads/main/security/360-privacy-domain-security.yml
+  href: https://artifacts.apis.io/360-privacy/security/360-privacy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/360-privacy-domain-security.yml
@@ -69,37 +71,37 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/360-privacy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/360-privacy/refs/heads/main/llms/360-privacy-llms.txt
+  href: https://artifacts.apis.io/360-privacy/llms/360-privacy-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/360-privacy-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/360-privacy/refs/heads/main/well-known/360-privacy-well-known.yml
+  href: https://artifacts.apis.io/360-privacy/well-known/360-privacy-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/360-privacy-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/360-privacy/refs/heads/main/authentication/360-privacy-authentication.yml
+  href: https://artifacts.apis.io/360-privacy/authentication/360-privacy-authentication.yml
   title: ''
   type: Authentication
   url: authentication/360-privacy-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/360-privacy/refs/heads/main/conformance/360-privacy-conformance.yml
+  href: https://artifacts.apis.io/360-privacy/conformance/360-privacy-conformance.yml
   title: ''
   type: Conformance
   url: conformance/360-privacy-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/360-privacy/refs/heads/main/security/360-privacy-trust-center.yml
+  href: https://artifacts.apis.io/360-privacy/security/360-privacy-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/360-privacy-trust-center.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/360-privacy/refs/heads/main/plans/360-privacy-plans-pricing.yml
+  href: https://artifacts.apis.io/360-privacy/plans/360-privacy-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/360-privacy-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/360-privacy/refs/heads/main/rate-limits/360-privacy-rate-limits.yml
+  href: https://artifacts.apis.io/360-privacy/rate-limits/360-privacy-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/360-privacy-rate-limits.yml
@@ -133,14 +135,14 @@ plans:
 - name: 360 Privacy Plans Pricing
   plan_count: 0
   slug: 360-privacy-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: 360 Privacy Rate Limits
   slug: 360-privacy-rate-limits
 score:
   band: emerging
-  composite: 18.8
+  composite: 18.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -154,9 +156,9 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 55.4
-    operational_transparency: 2.6
-  previous_composite: 18.8
+    discoverability: 48.2
+    operational_transparency: 5.3
+  previous_composite: 18.5
   provenance:
     conformance: first-party
   regulatory:
@@ -165,14 +167,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/360-privacy/refs/heads/main/screenshots/360-privacy-2026-10-11T092044.png
+screenshot: https://apis.io/screenshots/360-privacy/360-privacy-2026-10-11T092044.png
 security:
 - kind: authentication
   name: 360 Privacy Authentication

@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: near-conformant
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.1
-  scored_at: '2026-10-17'
+  score: 55.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,10 +55,10 @@ apis:
   description: Facts the Equals AI analyst remembers about a workspace.
   name: Equals Memories API
   slug: equals-memories-api
-artifact_total: 8
+artifact_total: 12
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/agentic-access/equals-agentic-access.yml
+  href: https://artifacts.apis.io/equals/agentic-access/equals-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/equals-agentic-access.yml
@@ -109,22 +111,22 @@ common:
   type: StatusPage
   url: https://status.equals.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/mcp/equals-mcp.yml
+  href: https://artifacts.apis.io/equals/mcp/equals-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/equals-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/llms/equals-llms.txt
+  href: https://artifacts.apis.io/equals/llms/equals-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/equals-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/lifecycle/equals-lifecycle.yml
+  href: https://artifacts.apis.io/equals/lifecycle/equals-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/equals-lifecycle.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/security/equals-domain-security.yml
+  href: https://artifacts.apis.io/equals/security/equals-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/equals-domain-security.yml
@@ -133,72 +135,72 @@ common:
   type: APIReference
   url: https://docs.equals.com/docs/memories-api
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/openapi/_original/equals-memories-openapi.yml
+  href: https://artifacts.apis.io/equals/openapi/_original/equals-memories-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/equals-memories-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/authentication/equals-authentication.yml
+  href: https://artifacts.apis.io/equals/authentication/equals-authentication.yml
   title: ''
   type: Authentication
   url: authentication/equals-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/conventions/equals-conventions.yml
+  href: https://artifacts.apis.io/equals/conventions/equals-conventions.yml
   title: ''
   type: Conventions
   url: conventions/equals-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/errors/equals-problem-types.yml
+  href: https://artifacts.apis.io/equals/errors/equals-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/equals-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/data-model/equals-data-model.yml
+  href: https://artifacts.apis.io/equals/data-model/equals-data-model.yml
   title: ''
   type: DataModel
   url: data-model/equals-data-model.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/rate-limits/equals-rate-limits.yml
+  href: https://artifacts.apis.io/equals/rate-limits/equals-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/equals-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/plans/equals-plans-pricing.yml
+  href: https://artifacts.apis.io/equals/plans/equals-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/equals-plans-pricing.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/mcp/equals-tool-crosswalk.yml
+  href: https://artifacts.apis.io/equals/mcp/equals-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/equals-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/well-known/equals-well-known.yml
+  href: https://artifacts.apis.io/equals/well-known/equals-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/equals-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/a2a/equals-a2a.yml
+  href: https://artifacts.apis.io/equals/a2a/equals-a2a.yml
   title: ''
   type: AgentCard
   url: a2a/equals-a2a.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/equals/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/packages/equals-packages.yml
+  href: https://artifacts.apis.io/equals/packages/equals-packages.yml
   title: ''
   type: Packages
   url: packages/equals-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/components/equals-components.yml
+  href: https://artifacts.apis.io/equals/components/equals-components.yml
   title: ''
   type: Components
   url: components/equals-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/conformance/equals-conformance.yml
+  href: https://artifacts.apis.io/equals/conformance/equals-conformance.yml
   title: ''
   type: Conformance
   url: conformance/equals-conformance.yml
@@ -211,7 +213,7 @@ common:
   type: ChangeLog
   url: https://equals.com/launches/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/changelog/equals-changelog.yml
+  href: https://artifacts.apis.io/equals/changelog/equals-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/equals-changelog.yml
@@ -221,6 +223,14 @@ common:
   url: mailto:help@equals.com
 created: '2026-07-17'
 description: Equals is an AI analytics platform that builds trusted spreadsheets and dashboards for revenue operations and go-to-market teams. It connects directly to databases and SaaS tools — PostgreSQL, MySQL, BigQuery, Snowflake, Redshift, Azure SQL, Supabase, Stripe, Salesforce, HubSpot, Intercom, and more — syncs data into a managed Equals Warehouse powered by Snowflake, and layers a familiar spreadsheet calculation, pivot, and charting surface with AI-powered querying on top. Teams use it to establish a single source of truth for metrics like ARR, pipeline, and retention, then auto-distribute live dashboards to Slack and email. Equals exposes a hosted Model Context Protocol (MCP) server so agents can discover workbooks, query connected datasources, and ask natural-language questions of company data.
+finops:
+- has_sources: true
+  method: derived
+  name: Equals Finops
+  primary_unit: subscription
+  service_category: ''
+  slug: equals-finops
+  template: false
 image: https://avatars.githubusercontent.com/u/16228084?v=4
 layout: provider
 mcp_servers:
@@ -239,30 +249,33 @@ plans:
 - name: Equals Plans Pricing
   plan_count: 3
   slug: equals-plans-pricing
-random_paper: 13
+- name: Equals Price Estimates
+  plan_count: 0
+  slug: equals-price-estimates
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Equals Rate Limits
   slug: equals-rate-limits
 score:
   band: developing
-  composite: 49.3
+  composite: 50.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 1.6
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 18.1
+    contract_quality: 14.7
     developer_ergonomics: 61.9
-    discoverability: 75.0
-    operational_transparency: 34.2
-  previous_composite: 49.2
+    discoverability: 65.0
+    operational_transparency: 36.8
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -279,13 +292,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/screenshots/equals-2026-07-25T213540.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/equals/equals-2026-07-25T213540.png
 security:
 - kind: authentication
   name: Equals Authentication
@@ -295,6 +309,12 @@ security:
   name: Equals Domain Security
   slug: equals-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: Equals
+  slug: equals-equals
+- name: Manage Equals analyst memories
+  slug: equals-manage-analyst-memories
 slug: equals
 tags:
 - Company

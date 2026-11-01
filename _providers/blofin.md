@@ -16,14 +16,16 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.7
-  scored_at: '2026-10-17'
+  score: 31.9
+  scored_at: '2026-10-31'
 api_count: 11
 apis:
 - description: OAuth-based broker API at oauth.blofin.com for brokers to obtain tokens and user info, create API keys on a user's behalf and query deposit addresses and status. Its operations are in the generated Bl
@@ -80,112 +82,112 @@ apis:
 artifact_total: 24
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/rate-limits/blofin-rate-limits.yml
+  href: https://artifacts.apis.io/blofin/rate-limits/blofin-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/blofin-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/rules/blofin-rules.yml
+  href: https://artifacts.apis.io/blofin/rules/blofin-rules.yml
   title: ''
   type: Spectral
   url: rules/blofin-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/json-ld/blofin-context.jsonld
+  href: https://artifacts.apis.io/blofin/json-ld/blofin-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/blofin-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/vocabulary/blofin-vocabulary.yml
+  href: https://artifacts.apis.io/blofin/vocabulary/blofin-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/blofin-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/data-model/blofin-data-model.yml
+  href: https://artifacts.apis.io/blofin/data-model/blofin-data-model.yml
   title: ''
   type: DataModel
   url: data-model/blofin-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/cli/blofin-cli.yml
+  href: https://artifacts.apis.io/blofin/cli/blofin-cli.yml
   title: ''
   type: CLI
   url: cli/blofin-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/changelog/blofin-changelog.yml
+  href: https://artifacts.apis.io/blofin/changelog/blofin-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/blofin-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/conventions/blofin-conventions.yml
+  href: https://artifacts.apis.io/blofin/conventions/blofin-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/blofin-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/conventions/blofin-conventions.yml
+  href: https://artifacts.apis.io/blofin/conventions/blofin-conventions.yml
   title: ''
   type: Conventions
   url: conventions/blofin-conventions.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/sandbox/blofin-sandbox.yml
+  href: https://artifacts.apis.io/blofin/sandbox/blofin-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/blofin-sandbox.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/authentication/blofin-authentication.yml
+  href: https://artifacts.apis.io/blofin/authentication/blofin-authentication.yml
   title: ''
   type: Authentication
   url: authentication/blofin-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/lifecycle/blofin-lifecycle.yml
+  href: https://artifacts.apis.io/blofin/lifecycle/blofin-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/blofin-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/errors/blofin-error-codes.yml
+  href: https://artifacts.apis.io/blofin/errors/blofin-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/blofin-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/conformance/blofin-conformance.yml
+  href: https://artifacts.apis.io/blofin/conformance/blofin-conformance.yml
   title: ''
   type: Conformance
   url: conformance/blofin-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/llms/blofin-llms.txt
+  href: https://artifacts.apis.io/blofin/llms/blofin-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/blofin-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/mcp/blofin-mcp.yml
+  href: https://artifacts.apis.io/blofin/mcp/blofin-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/blofin-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/well-known/blofin-well-known.yml
+  href: https://artifacts.apis.io/blofin/well-known/blofin-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/blofin-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/hosts/blofin-hosts.yml
+  href: https://artifacts.apis.io/blofin/hosts/blofin-hosts.yml
   title: ''
   type: Hosts
   url: hosts/blofin-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/vendors/blofin-vendors.yml
+  href: https://artifacts.apis.io/blofin/vendors/blofin-vendors.yml
   title: ''
   type: Vendors
   url: vendors/blofin-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/packages/blofin-packages.yml
+  href: https://artifacts.apis.io/blofin/packages/blofin-packages.yml
   title: ''
   type: SDKs
   url: packages/blofin-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/packages/blofin-packages.yml
+  href: https://artifacts.apis.io/blofin/packages/blofin-packages.yml
   title: ''
   type: Packages
   url: packages/blofin-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/blofin/refs/heads/main/security/blofin-domain-security.yml
+  href: https://artifacts.apis.io/blofin/security/blofin-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/blofin-domain-security.yml
@@ -260,7 +262,7 @@ plans:
 - name: Blofin Plans Pricing
   plan_count: 0
   slug: blofin-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Blofin Rate Limits
@@ -288,13 +290,15 @@ score:
     catalog_gap: 37.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 22.0
     contract_quality: 25.9
     developer_ergonomics: 54.8
-    discoverability: 76.7
+    discoverability: 70.0
     operational_transparency: 52.6
+  previous_composite: 34.0
   provenance:
     conformance: derived
     contracts:
@@ -309,11 +313,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Blofin Authentication

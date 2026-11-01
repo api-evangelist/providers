@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.6
-  scored_at: '2026-10-17'
+  score: 24.0
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://arpeggi.io/api/kits/v1
@@ -63,11 +65,8 @@ apis:
   description: Browse and retrieve available voice models.
   name: Arpeggi Labs Voice Models API
   slug: arpeggi-labs-voice-models-api
-artifact_total: 14
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Kits AI Stem Splitter API
   slug: open-arpeggi-labs-stem-splitter-api
@@ -85,17 +84,22 @@ collections:
   slug: open-arpeggi-labs-voice-models-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/overlays/arpeggi-labs-kits-overlay.yaml
+  href: https://artifacts.apis.io/arpeggi-labs/capabilities/arpeggi-labs-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/arpeggi-labs-capability-edges.yml
+- group: other
+  href: https://artifacts.apis.io/arpeggi-labs/overlays/arpeggi-labs-kits-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/arpeggi-labs-kits-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/security/arpeggi-labs-domain-security.yml
+  href: https://artifacts.apis.io/arpeggi-labs/security/arpeggi-labs-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arpeggi-labs-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/authentication/arpeggi-labs-authentication.yml
+  href: https://artifacts.apis.io/arpeggi-labs/authentication/arpeggi-labs-authentication.yml
   title: ''
   type: Authentication
   url: authentication/arpeggi-labs-authentication.yml
@@ -148,52 +152,52 @@ common:
   type: PrivacyPolicy
   url: https://www.kits.ai/privacy-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/llms/arpeggi-labs-llms.txt
+  href: https://artifacts.apis.io/arpeggi-labs/llms/arpeggi-labs-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/arpeggi-labs-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/rate-limits/arpeggi-labs-rate-limits.yml
+  href: https://artifacts.apis.io/arpeggi-labs/rate-limits/arpeggi-labs-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/arpeggi-labs-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/errors/arpeggi-labs-problem-types.yml
+  href: https://artifacts.apis.io/arpeggi-labs/errors/arpeggi-labs-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/arpeggi-labs-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/conventions/arpeggi-labs-conventions.yml
+  href: https://artifacts.apis.io/arpeggi-labs/conventions/arpeggi-labs-conventions.yml
   title: ''
   type: Conventions
   url: conventions/arpeggi-labs-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/lifecycle/arpeggi-labs-lifecycle.yml
+  href: https://artifacts.apis.io/arpeggi-labs/lifecycle/arpeggi-labs-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/arpeggi-labs-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/data-model/arpeggi-labs-data-model.yml
+  href: https://artifacts.apis.io/arpeggi-labs/data-model/arpeggi-labs-data-model.yml
   title: ''
   type: DataModel
   url: data-model/arpeggi-labs-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/conformance/arpeggi-labs-conformance.yml
+  href: https://artifacts.apis.io/arpeggi-labs/conformance/arpeggi-labs-conformance.yml
   title: ''
   type: Conformance
   url: conformance/arpeggi-labs-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/mcp/arpeggi-labs-mcp.yml
+  href: https://artifacts.apis.io/arpeggi-labs/mcp/arpeggi-labs-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/arpeggi-labs-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/packages/arpeggi-labs-packages.yml
+  href: https://artifacts.apis.io/arpeggi-labs/packages/arpeggi-labs-packages.yml
   title: ''
   type: Packages
   url: packages/arpeggi-labs-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/arpeggi-labs/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -208,30 +212,30 @@ network: true
 overview: 'Arpeggi Labs publishes 5 API contracts indexed on the [APIs.io](https://apis.io/) network, including Stem Splitter API, Vocal Separation API, Voice Blender API, and 2 more. Tagged areas include Company, Music, Audio, Artificial Intelligence, and Voice.
 
 
-  Arpeggi Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 18 more developer resources.'
-random_paper: 10
+  Arpeggi Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 19 more developer resources.'
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Arpeggi Labs Rate Limits
   slug: arpeggi-labs-rate-limits
 score:
   band: developing
-  composite: 44.3
+  composite: 44.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 50.6
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 23.7
+    discoverability: 66.1
+    operational_transparency: 26.3
   previous_composite: 44.7
   provenance:
     conformance: derived
@@ -248,13 +252,14 @@ score:
     regime: AI & Biometrics
     regime_id: ai_biometrics
     score: 22.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/screenshots/arpeggi-labs-2026-07-25T201241.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/arpeggi-labs/arpeggi-labs-2026-07-25T201241.png
 security:
 - kind: authentication
   name: Arpeggi Labs Authentication
@@ -264,6 +269,14 @@ security:
   name: Arpeggi Labs Domain Security
   slug: arpeggi-labs-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Blend voice models into a new voice
+  slug: arpeggi-labs-blend-voices
+- name: Convert a performance to a Kits AI voice
+  slug: arpeggi-labs-convert-voice
+- name: Separate vocals and stems from a track
+  slug: arpeggi-labs-separate-stems
 slug: arpeggi-labs
 tags:
 - Company

@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'Arena''s REST Platform API (V3) for programmatically managing engagement resources — Liveblog, Live Chat, Analytics, Account, Stream, Users, Moderation, Polls, and Q&A — mirroring the Arena Dashboard. '
@@ -99,42 +101,42 @@ common:
   type: GitHubOrganization
   url: https://github.com/stationfy
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/arena/refs/heads/main/packages/arena-packages.yml
+  href: https://artifacts.apis.io/arena/packages/arena-packages.yml
   title: ''
   type: Packages
   url: packages/arena-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/arena/refs/heads/main/packages/arena-packages.yml
+  href: https://artifacts.apis.io/arena/packages/arena-packages.yml
   title: ''
   type: SDKs
   url: packages/arena-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arena/refs/heads/main/authentication/arena-authentication.yml
+  href: https://artifacts.apis.io/arena/authentication/arena-authentication.yml
   title: ''
   type: Authentication
   url: authentication/arena-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arena/refs/heads/main/components/arena-components.yml
+  href: https://artifacts.apis.io/arena/components/arena-components.yml
   title: ''
   type: Components
   url: components/arena-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arena/refs/heads/main/conventions/arena-conventions.yml
+  href: https://artifacts.apis.io/arena/conventions/arena-conventions.yml
   title: ''
   type: Conventions
   url: conventions/arena-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/arena/refs/heads/main/asyncapi/arena-webhooks.yml
+  href: https://artifacts.apis.io/arena/asyncapi/arena-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/arena-webhooks.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/arena/refs/heads/main/security/arena-domain-security.yml
+  href: https://artifacts.apis.io/arena/security/arena-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/arena-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/arena/refs/heads/main/llms/arena-llms.txt
+  href: https://artifacts.apis.io/arena/llms/arena-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/arena-llms.txt
@@ -153,10 +155,10 @@ overview: 'Arena is listed with 1 API on the [APIs.io](https://apis.io/) network
 
 
   Arena''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 14 more developer resources.'
-random_paper: 13
+random_paper: 15
 score:
   band: thin
-  composite: 38.5
+  composite: 38.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -170,23 +172,23 @@ score:
     contract_governance: 0.0
     contract_quality: 39.0
     developer_ergonomics: 52.4
-    discoverability: 73.2
-    operational_transparency: 10.5
-  previous_composite: 38.5
+    discoverability: 66.1
+    operational_transparency: 13.2
+  previous_composite: 38.2
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/arena/refs/heads/main/screenshots/arena-2026-07-25T201123.png
+screenshot: https://apis.io/screenshots/arena/arena-2026-07-25T201123.png
 security:
 - kind: authentication
   name: Arena Authentication

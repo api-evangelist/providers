@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
@@ -41,7 +43,7 @@ common:
   type: BlogRSS
   url: https://www.guardsquare.com/blog/rss.xml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/guardsquare/refs/heads/main/security/guardsquare-trust-center.yml
+  href: https://artifacts.apis.io/guardsquare/security/guardsquare-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/guardsquare-trust-center.yml
@@ -50,7 +52,7 @@ common:
   type: Compliance
   url: https://www.guardsquare.com/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/guardsquare/refs/heads/main/security/guardsquare-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/guardsquare/security/guardsquare-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/guardsquare-vulnerability-disclosure.yml
@@ -59,7 +61,7 @@ common:
   type: Security
   url: https://www.guardsquare.com/disclosure-policy
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/guardsquare/refs/heads/main/security/guardsquare-domain-security.yml
+  href: https://artifacts.apis.io/guardsquare/security/guardsquare-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/guardsquare-domain-security.yml
@@ -108,27 +110,27 @@ common:
   type: StatusPage
   url: https://status.guardsquare.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/guardsquare/refs/heads/main/lifecycle/guardsquare-lifecycle.yml
+  href: https://artifacts.apis.io/guardsquare/lifecycle/guardsquare-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/guardsquare-lifecycle.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/guardsquare/refs/heads/main/packages/guardsquare-packages.yml
+  href: https://artifacts.apis.io/guardsquare/packages/guardsquare-packages.yml
   title: ''
   type: Packages
   url: packages/guardsquare-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/guardsquare/refs/heads/main/well-known/guardsquare-security.txt
+  href: https://artifacts.apis.io/guardsquare/well-known/guardsquare-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/guardsquare-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/guardsquare/refs/heads/main/well-known/guardsquare-well-known.yml
+  href: https://artifacts.apis.io/guardsquare/well-known/guardsquare-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/guardsquare-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/guardsquare/refs/heads/main/llms/guardsquare-llms.txt
+  href: https://artifacts.apis.io/guardsquare/llms/guardsquare-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/guardsquare-llms.txt
@@ -145,10 +147,10 @@ overview: 'GuardSquare is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   GuardSquare''s developer surface includes developer portal, documentation, engineering blog, pricing, signup flow, support, and 16 more developer resources.'
-random_paper: 0
+random_paper: 12
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 27.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 27.0
@@ -161,24 +163,24 @@ score:
     access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
-    discoverability: 55.4
-    operational_transparency: 28.9
-  previous_composite: 26.1
+    developer_ergonomics: 26.2
+    discoverability: 48.2
+    operational_transparency: 31.6
+  previous_composite: 27.7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/guardsquare/refs/heads/main/screenshots/guardsquare-2026-07-25T220418.png
+screenshot: https://apis.io/screenshots/guardsquare/guardsquare-2026-07-25T220418.png
 security:
 - kind: domain-security
   name: Guardsquare Domain Security

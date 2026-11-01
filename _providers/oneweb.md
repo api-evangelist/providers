@@ -14,16 +14,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 10.8
-  scored_at: '2026-10-17'
+  score: 13.9
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: API for OneWeb satellite broadband services.
@@ -32,22 +34,22 @@ apis:
 artifact_total: 2
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oneweb/refs/heads/main/llms/oneweb-llms.txt
+  href: https://artifacts.apis.io/oneweb/llms/oneweb-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/oneweb-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/oneweb/refs/heads/main/well-known/oneweb-well-known.yml
+  href: https://artifacts.apis.io/oneweb/well-known/oneweb-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/oneweb-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oneweb/refs/heads/main/hosts/oneweb-hosts.yml
+  href: https://artifacts.apis.io/oneweb/hosts/oneweb-hosts.yml
   title: ''
   type: Hosts
   url: hosts/oneweb-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/oneweb/refs/heads/main/vendors/oneweb-vendors.yml
+  href: https://artifacts.apis.io/oneweb/vendors/oneweb-vendors.yml
   title: ''
   type: Vendors
   url: vendors/oneweb-vendors.yml
@@ -68,7 +70,7 @@ common:
   type: Documentation
   url: https://developer.oneweb.net/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/oneweb/refs/heads/main/security/oneweb-domain-security.yml
+  href: https://artifacts.apis.io/oneweb/security/oneweb-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/oneweb-domain-security.yml
@@ -96,12 +98,12 @@ overview: 'OneWeb is listed with 1 API on the [APIs.io](https://apis.io/) networ
 
 
   OneWeb''s developer surface includes documentation and 9 more developer resources.'
-random_paper: 2
+random_paper: 16
 score:
   band: minimal
-  composite: 10.9
+  composite: 10.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -113,9 +115,9 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
-    discoverability: 66.1
+    discoverability: 58.9
     operational_transparency: 10.5
-  previous_composite: 10.9
+  previous_composite: 10.2
   provenance:
     mcp: unknown
   regulatory:
@@ -124,14 +126,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 13.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/oneweb/refs/heads/main/screenshots/oneweb-2026-10-11T111927.png
+screenshot: https://apis.io/screenshots/oneweb/oneweb-2026-10-11T111927.png
 security:
 - kind: domain-security
   name: Oneweb Domain Security

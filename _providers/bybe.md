@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: derived
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-10-17'
+  score: 28.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 16
   slug: bybe-agentic-access
   summary_line: 16 operations · 3 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://api.bybe.io
   baseurl_source: declared
@@ -80,15 +82,15 @@ apis:
   description: A store represents a specific retail location of a retailer.
   name: BYBE Stores API
   slug: bybe-stores-api
-artifact_total: 12
+artifact_total: 15
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/capabilities/bybe-capability-edges.yml
+  href: https://artifacts.apis.io/bybe/capabilities/bybe-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bybe-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/overlays/bybe-api-overlay.yaml
+  href: https://artifacts.apis.io/bybe/overlays/bybe-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/bybe-api-overlay.yaml
@@ -141,77 +143,77 @@ common:
   type: StatusPage
   url: https://status.bybe.com/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/authentication/bybe-authentication.yml
+  href: https://artifacts.apis.io/bybe/authentication/bybe-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bybe-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/agentic-access/bybe-agentic-access.yml
+  href: https://artifacts.apis.io/bybe/agentic-access/bybe-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bybe-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/security/bybe-domain-security.yml
+  href: https://artifacts.apis.io/bybe/security/bybe-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bybe-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/conventions/bybe-conventions.yml
+  href: https://artifacts.apis.io/bybe/conventions/bybe-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bybe-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/conventions/bybe-conventions.yml
+  href: https://artifacts.apis.io/bybe/conventions/bybe-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/bybe-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/errors/bybe-problem-types.yml
+  href: https://artifacts.apis.io/bybe/errors/bybe-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/bybe-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/lifecycle/bybe-lifecycle.yml
+  href: https://artifacts.apis.io/bybe/lifecycle/bybe-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/bybe-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/conformance/bybe-conformance.yml
+  href: https://artifacts.apis.io/bybe/conformance/bybe-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bybe-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/data-model/bybe-data-model.yml
+  href: https://artifacts.apis.io/bybe/data-model/bybe-data-model.yml
   title: ''
   type: DataModel
   url: data-model/bybe-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/packages/bybe-packages.yml
+  href: https://artifacts.apis.io/bybe/packages/bybe-packages.yml
   title: ''
   type: Packages
   url: packages/bybe-packages.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/plans/bybe-plans-pricing.yml
+  href: https://artifacts.apis.io/bybe/plans/bybe-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/bybe-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/rate-limits/bybe-rate-limits.yml
+  href: https://artifacts.apis.io/bybe/rate-limits/bybe-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/bybe-rate-limits.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/sandbox/bybe-sandbox.yml
+  href: https://artifacts.apis.io/bybe/sandbox/bybe-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/bybe-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bybe/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/llms/bybe-llms.txt
+  href: https://artifacts.apis.io/bybe/llms/bybe-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bybe-llms.txt
@@ -231,14 +233,14 @@ plans:
 - name: Bybe Plans Pricing
   plan_count: 2
   slug: bybe-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Bybe Rate Limits
   slug: bybe-rate-limits
 score:
-  band: thin
-  composite: 33.3
+  band: developing
+  composite: 47.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 45.0
@@ -248,13 +250,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 27.6
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 44.6
-    developer_ergonomics: 42.3
+    developer_ergonomics: 63.7
     discoverability: 66.1
-    operational_transparency: 18.4
-  previous_composite: 33.3
+    operational_transparency: 21.1
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,14 +272,15 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 22.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/screenshots/bybe-2026-07-25T204132.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bybe/bybe-2026-07-25T204132.png
 security:
 - kind: authentication
   name: Bybe Authentication
@@ -287,6 +290,14 @@ security:
   name: Bybe Domain Security
   slug: bybe-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Clip a BYBE offer for a shopper
+  slug: bybe-clip-an-offer
+- name: Submit purchases to BYBE and pay a shopper back
+  slug: bybe-submit-redemption
+- name: Sync the BYBE product and manufacturer catalog
+  slug: bybe-sync-catalog
 slug: bybe
 tags:
 - Company

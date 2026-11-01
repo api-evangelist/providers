@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: mostly
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 53.0
-  scored_at: '2026-10-17'
+  score: 51.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 1
@@ -43,7 +45,7 @@ agentic_access:
   operation_count: 187
   slug: acoustic-agentic-access
   summary_line: 187 operations · 80 acting · 1 human-in-the-loop
-api_count: 4
+api_count: 2
 apis:
 - baseURL: https://api-campaign-us-1.goacoustic.com/rest
   baseurl_source: declared
@@ -204,7 +206,7 @@ apis:
   description: 'Use the Content webhook service Rest APIs to work with webhook profiles. You can create, retrieve and update webhook profiles in a database. ### Webhook Timeouts and Retry policy Webhooks will automat'
   name: Acoustic Webhook profiles API
   slug: acoustic-webhook-profiles-api
-artifact_total: 53
+artifact_total: 57
 asyncapis:
 - description: ''
   name: Acoustic Webhooks
@@ -251,17 +253,17 @@ collections:
   slug: open-acoustic-content-openapi-original
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/capabilities/acoustic-capability-edges.yml
+  href: https://artifacts.apis.io/acoustic/capabilities/acoustic-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/acoustic-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/agentic-access/acoustic-agentic-access.yml
+  href: https://artifacts.apis.io/acoustic/agentic-access/acoustic-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/acoustic-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/security/acoustic-trust-center.yml
+  href: https://artifacts.apis.io/acoustic/security/acoustic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/acoustic-trust-center.yml
@@ -322,7 +324,7 @@ common:
   type: StatusPage
   url: https://status.goacoustic.com
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/security/acoustic-trust-center.yml
+  href: https://artifacts.apis.io/acoustic/security/acoustic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/acoustic-trust-center.yml
@@ -331,112 +333,120 @@ common:
   type: Compliance
   url: https://trust.acoustic.com
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/llms/acoustic-llms.txt
+  href: https://artifacts.apis.io/acoustic/llms/acoustic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/acoustic-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/errors/acoustic-problem-types.yml
+  href: https://artifacts.apis.io/acoustic/errors/acoustic-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/acoustic-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/conventions/acoustic-conventions.yml
+  href: https://artifacts.apis.io/acoustic/conventions/acoustic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/acoustic-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/security/acoustic-domain-security.yml
+  href: https://artifacts.apis.io/acoustic/security/acoustic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/acoustic-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/well-known/acoustic-well-known.yml
+  href: https://artifacts.apis.io/acoustic/well-known/acoustic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/acoustic-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/well-known/acoustic-api-catalog.json
+  href: https://artifacts.apis.io/acoustic/well-known/acoustic-api-catalog.json
   title: ''
   type: APICatalog
   url: well-known/acoustic-api-catalog.json
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/authentication/acoustic-authentication.yml
+  href: https://artifacts.apis.io/acoustic/authentication/acoustic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/acoustic-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/packages/acoustic-packages.yml
+  href: https://artifacts.apis.io/acoustic/packages/acoustic-packages.yml
   title: ''
   type: Packages
   url: packages/acoustic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/packages/acoustic-packages.yml
+  href: https://artifacts.apis.io/acoustic/packages/acoustic-packages.yml
   title: ''
   type: SDKs
   url: packages/acoustic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/cli/acoustic-cli.yml
+  href: https://artifacts.apis.io/acoustic/cli/acoustic-cli.yml
   title: ''
   type: CLI
   url: cli/acoustic-cli.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/components/acoustic-components.yml
+  href: https://artifacts.apis.io/acoustic/components/acoustic-components.yml
   title: ''
   type: Components
   url: components/acoustic-components.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/changelog/acoustic-changelog.yml
+  href: https://artifacts.apis.io/acoustic/changelog/acoustic-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/acoustic-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/lifecycle/acoustic-lifecycle.yml
+  href: https://artifacts.apis.io/acoustic/lifecycle/acoustic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/acoustic-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/conformance/acoustic-conformance.yml
+  href: https://artifacts.apis.io/acoustic/conformance/acoustic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/acoustic-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/plans/acoustic-plans-pricing.yml
+  href: https://artifacts.apis.io/acoustic/plans/acoustic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/acoustic-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/rate-limits/acoustic-rate-limits.yml
+  href: https://artifacts.apis.io/acoustic/rate-limits/acoustic-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/acoustic-rate-limits.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/data-model/acoustic-data-model.yml
+  href: https://artifacts.apis.io/acoustic/data-model/acoustic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/acoustic-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/asyncapi/acoustic-webhooks.yml
+  href: https://artifacts.apis.io/acoustic/asyncapi/acoustic-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/acoustic-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/acoustic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/mcp/acoustic-tool-crosswalk.yml
+  href: https://artifacts.apis.io/acoustic/mcp/acoustic-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/acoustic-tool-crosswalk.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/overlays/acoustic-content-overlay.yaml
+  href: https://artifacts.apis.io/acoustic/overlays/acoustic-content-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/acoustic-content-overlay.yaml
 created: '2026-07-17'
 description: 'Acoustic is a real-time behavioral marketing platform for B2C companies, delivering omnichannel customer engagement across email, SMS, WhatsApp, mobile push and web. Its developer portal at developer.goacoustic.com publishes an RFC 9727 api-catalog advertising six API products: Acoustic Connect (a GraphQL API for contacts, consent, audiences, product catalog and signals), Acoustic Campaign (a long-lived REST + XML API estate inherited from Silverpop, with a live Swagger service description per regional pod), Acoustic Content (a headless CMS / digital asset management REST API covering authoring, delivery, rendering, publishing and webhooks), Acoustic Personalization (a client-side library for real-time content and product recommendations), Acoustic Experience Analytics (Tealeaf) and Acoustic Exchange. Formerly IBM Watson Marketing, Acoustic was carved out as an independent martech company and is a portfolio company of Sapphire Ventures.'
+finops:
+- has_sources: true
+  method: derived
+  name: Acoustic Finops
+  primary_unit: ''
+  service_category: ''
+  slug: acoustic-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/acoustic.png
 layout: provider
 modified: '2026-08-13'
@@ -454,30 +464,30 @@ plans:
 - name: Acoustic Plans Pricing
   plan_count: 3
   slug: acoustic-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Acoustic Rate Limits
   slug: acoustic-rate-limits
 score:
   band: strong
-  composite: 65.7
+  composite: 63.1
   coverage:
-    artifact_dirs: 28
-    catalog_earned: 59.0
+    artifact_dirs: 29
+    catalog_earned: 56.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 56.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: -0.6
   facets:
-    access_clarity: 85.5
+    access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 52.4
+    contract_quality: 49.0
     developer_ergonomics: 78.0
-    discoverability: 69.6
-    operational_transparency: 65.8
-  previous_composite: 65.2
+    discoverability: 57.1
+    operational_transparency: 76.3
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -498,13 +508,14 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 38.9
-screenshot: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/screenshots/acoustic-2026-07-25T181511.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/acoustic/acoustic-2026-07-25T181511.png
 security:
 - kind: authentication
   name: Acoustic Authentication
@@ -518,6 +529,14 @@ security:
   name: Acoustic Trust Center
   slug: acoustic-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018
+skill_count: 3
+skills:
+- name: Manage consent and send a channel message in Acoustic Campaign
+  slug: acoustic-campaign-consent-and-messaging
+- name: Read and render Acoustic Content on the delivery surface
+  slug: acoustic-content-deliver-personalized-content
+- name: Publish an article in Acoustic Content
+  slug: acoustic-content-publish-an-article
 slug: acoustic
 tags:
 - Company

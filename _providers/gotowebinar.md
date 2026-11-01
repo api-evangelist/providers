@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-10-17'
+  score: 29.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -304,9 +306,6 @@ asyncapis:
   slug: gotowebinar-webhooks
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: GoToWebinar REST Attendees API
   slug: open-gotowebinar-attendees-api
 - collection_type: open
@@ -349,43 +348,47 @@ collections:
   name: GoToWebinar REST Attendees Webinars API
   slug: open-gotowebinar-webinars-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/gotowebinar/overview
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/_original/gotowebinar-openapi.yml
+  href: https://artifacts.apis.io/gotowebinar/openapi/_original/gotowebinar-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/gotowebinar-openapi.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/packages/gotowebinar-packages.yml
+  href: https://artifacts.apis.io/gotowebinar/packages/gotowebinar-packages.yml
   title: ''
   type: Packages
   url: packages/gotowebinar-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/packages/gotowebinar-packages.yml
+  href: https://artifacts.apis.io/gotowebinar/packages/gotowebinar-packages.yml
   title: ''
   type: SDKs
   url: packages/gotowebinar-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/well-known/gotowebinar-well-known.yml
+  href: https://artifacts.apis.io/gotowebinar/well-known/gotowebinar-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/gotowebinar-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/mcp/gotowebinar-mcp.yml
+  href: https://artifacts.apis.io/gotowebinar/mcp/gotowebinar-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/gotowebinar-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/llms/gotowebinar-llms.txt
+  href: https://artifacts.apis.io/gotowebinar/llms/gotowebinar-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/gotowebinar-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/overlays/gotowebinar-openapi-overlay.yaml
+  href: https://artifacts.apis.io/gotowebinar/overlays/gotowebinar-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/gotowebinar-openapi-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/conformance/gotowebinar-conformance.yml
+  href: https://artifacts.apis.io/gotowebinar/conformance/gotowebinar-conformance.yml
   title: ''
   type: Conformance
   url: conformance/gotowebinar-conformance.yml
@@ -394,12 +397,12 @@ common:
   type: Compliance
   url: https://www.goto.com/company/trust/compliance
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/security/gotowebinar-trust-center.yml
+  href: https://artifacts.apis.io/gotowebinar/security/gotowebinar-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/gotowebinar-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/security/gotowebinar-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/gotowebinar/security/gotowebinar-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/gotowebinar-vulnerability-disclosure.yml
@@ -408,37 +411,37 @@ common:
   type: Security
   url: https://www.goto.com/company/trust/security-measures
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/errors/gotowebinar-problem-types.yml
+  href: https://artifacts.apis.io/gotowebinar/errors/gotowebinar-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/gotowebinar-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/lifecycle/gotowebinar-lifecycle.yml
+  href: https://artifacts.apis.io/gotowebinar/lifecycle/gotowebinar-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/gotowebinar-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/conventions/gotowebinar-conventions.yml
+  href: https://artifacts.apis.io/gotowebinar/conventions/gotowebinar-conventions.yml
   title: ''
   type: Conventions
   url: conventions/gotowebinar-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/data-model/gotowebinar-data-model.yml
+  href: https://artifacts.apis.io/gotowebinar/data-model/gotowebinar-data-model.yml
   title: ''
   type: DataModel
   url: data-model/gotowebinar-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/asyncapi/gotowebinar-webhooks.yml
+  href: https://artifacts.apis.io/gotowebinar/asyncapi/gotowebinar-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/gotowebinar-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/gotowebinar/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/collections/gotowebinar-v2-provider.postman_collection.json
+  href: https://artifacts.apis.io/gotowebinar/collections/gotowebinar-v2-provider.postman_collection.json
   title: ''
   type: Postman
   url: collections/gotowebinar-v2-provider.postman_collection.json
@@ -475,22 +478,22 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/goto
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/agentic-access/gotowebinar-agentic-access.yml
+  href: https://artifacts.apis.io/gotowebinar/agentic-access/gotowebinar-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/gotowebinar-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/security/gotowebinar-domain-security.yml
+  href: https://artifacts.apis.io/gotowebinar/security/gotowebinar-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/gotowebinar-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/authentication/gotowebinar-authentication.yml
+  href: https://artifacts.apis.io/gotowebinar/authentication/gotowebinar-authentication.yml
   title: ''
   type: Authentication
   url: authentication/gotowebinar-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/scopes/gotowebinar-scopes.yml
+  href: https://artifacts.apis.io/gotowebinar/scopes/gotowebinar-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/gotowebinar-scopes.yml
@@ -543,27 +546,27 @@ common:
   type: Partners
   url: https://www.goto.com/partners
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/json-ld/gotowebinar-context.jsonld
+  href: https://artifacts.apis.io/gotowebinar/json-ld/gotowebinar-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/gotowebinar-context.jsonld
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/vocabulary/gotowebinar-vocabulary.yml
+  href: https://artifacts.apis.io/gotowebinar/vocabulary/gotowebinar-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/gotowebinar-vocabulary.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/plans/gotowebinar-plans-pricing.yml
+  href: https://artifacts.apis.io/gotowebinar/plans/gotowebinar-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/gotowebinar-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/rate-limits/gotowebinar-rate-limits.yml
+  href: https://artifacts.apis.io/gotowebinar/rate-limits/gotowebinar-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/gotowebinar-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/finops/gotowebinar-finops.yml
+  href: https://artifacts.apis.io/gotowebinar/finops/gotowebinar-finops.yml
   title: ''
   type: FinOps
   url: finops/gotowebinar-finops.yml
@@ -610,12 +613,12 @@ features:
 - Integrates with Salesforce, Slack, Microsoft Teams, Zoho CRM, Google Workspace via GoTo marketplace
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Gotowebinar Finops
-  primary_unit: ''
+  primary_unit: organizer seat
   service_category: ''
   slug: gotowebinar-finops
-  template: true
+  template: false
 image: https://www.goto.com/-/media/images/logos/goto-logo.svg
 integrations:
 - description: Sync GoToWebinar registrants, attendees, and engagement data into Salesforce campaigns and leads.
@@ -673,12 +676,15 @@ overview: 'GoToWebinar publishes 13 API contracts indexed on the [APIs.io](https
   The GoToWebinar catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  GoToWebinar''s developer surface includes API reference, engineering blog, signup flow, authentication, developer portal, documentation, getting-started guide, and 41 more developer resources.'
+  GoToWebinar''s developer surface includes API reference, engineering blog, signup flow, authentication, developer portal, documentation, getting-started guide, and 42 more developer resources.'
 plans:
 - name: Gotowebinar Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: gotowebinar-plans-pricing
-random_paper: 19
+- name: Gotowebinar Price Estimates
+  plan_count: 0
+  slug: gotowebinar-price-estimates
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Gotowebinar Rate Limits
@@ -725,24 +731,29 @@ scopes:
   slug: gotowebinar-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: strong
-  composite: 61.4
+  band: exemplar
+  composite: 70.4
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 60.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 55.0
+    artifact_dirs: 31
+    catalog_earned: 72.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -5.7
+  delta: 1.6
   facets:
-    access_clarity: 68.4
+    access_clarity: 100.0
     contract_governance: 31.8
-    contract_quality: 60.4
-    developer_ergonomics: 55.4
+    contract_quality: 57.0
+    developer_ergonomics: 67.3
     discoverability: 71.4
-    operational_transparency: 52.6
-  previous_composite: 67.1
+    operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 68.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -759,13 +770,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 45.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/screenshots/gotowebinar-2026-06-20T182257.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/gotowebinar/gotowebinar-2026-06-20T182257.png
 security:
 - kind: authentication
   name: Gotowebinar Authentication

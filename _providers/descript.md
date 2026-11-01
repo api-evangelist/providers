@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-10-17'
+  score: 34.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,9 +65,6 @@ apis:
 artifact_total: 32
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Descript API Endpoints API
   slug: open-descript-api-endpoints-api
 - collection_type: open
@@ -79,7 +78,7 @@ collections:
   slug: open-descript
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/finops/descript-finops.yml
+  href: https://artifacts.apis.io/descript/finops/descript-finops.yml
   title: ''
   type: FinOps
   url: finops/descript-finops.yml
@@ -88,32 +87,32 @@ common:
   type: Website
   url: https://www.descript.com/
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/capabilities/descript-capability-edges.yml
+  href: https://artifacts.apis.io/descript/capabilities/descript-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/descript-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/agentic-access/descript-agentic-access.yml
+  href: https://artifacts.apis.io/descript/agentic-access/descript-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/descript-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/security/descript-trust-center.yml
+  href: https://artifacts.apis.io/descript/security/descript-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/descript-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/security/descript-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/descript/security/descript-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/descript-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/security/descript-domain-security.yml
+  href: https://artifacts.apis.io/descript/security/descript-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/descript-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/authentication/descript-authentication.yml
+  href: https://artifacts.apis.io/descript/authentication/descript-authentication.yml
   title: ''
   type: Authentication
   url: authentication/descript-authentication.yml
@@ -146,17 +145,17 @@ common:
   type: Pricing
   url: https://www.descript.com/pricing
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/plans/descript-plans-pricing.yml
+  href: https://artifacts.apis.io/descript/plans/descript-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/descript-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/rate-limits/descript-rate-limits.yml
+  href: https://artifacts.apis.io/descript/rate-limits/descript-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/descript-rate-limits.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/finops/descript-finops.yml
+  href: https://artifacts.apis.io/descript/finops/descript-finops.yml
   title: FinOps Framework Profile
   type: Resources
   url: finops/descript-finops.yml
@@ -225,10 +224,10 @@ features:
   name: Rate-Limit Headers
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Descript Finops
-  primary_unit: ''
-  service_category: Media Editing
+  primary_unit: person / month
+  service_category: ''
   slug: descript-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/descript.png
@@ -245,50 +244,54 @@ plans:
 - name: Descript Plans Pricing
   plan_count: 5
   slug: descript-plans-pricing
-random_paper: 4
+- name: Descript Price Estimates
+  plan_count: 0
+  slug: descript-price-estimates
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Descript Rate Limits
   slug: descript-rate-limits
 score:
-  band: developing
-  composite: 45.9
+  band: strong
+  composite: 56.9
   coverage:
     artifact_dirs: 13
-    catalog_earned: 43.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -8.3
+  delta: 1.5
   facets:
-    access_clarity: 61.8
+    access_clarity: 100.0
     contract_governance: 0.0
     contract_quality: 49.7
-    developer_ergonomics: 52.4
+    developer_ergonomics: 64.3
     discoverability: 66.1
-    operational_transparency: 21.1
-  previous_composite: 54.2
+    operational_transparency: 23.7
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 7
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 28.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/screenshots/descript-2026-06-20T175933.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/descript/descript-2026-06-20T175933.png
 security:
 - kind: authentication
   name: Descript Authentication

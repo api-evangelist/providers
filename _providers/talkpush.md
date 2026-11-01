@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-10-17'
+  score: 30.4
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -114,11 +116,8 @@ apis:
   description: 'Endpoint for discovering the message tokens available for use inside Message Templates. Returns both system-level reserved tokens (e.g. `candidate_name`, `job_title`) and any custom tokens configured '
   name: TalkPush Tokens API
   slug: talkpush-tokens-api-api
-artifact_total: 32
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Talkpush Agents API API
   slug: open-talkpush-agents-api-api
@@ -163,22 +162,22 @@ collections:
   slug: open-talkpush-tokens-api-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/capabilities/talkpush-capability-edges.yml
+  href: https://artifacts.apis.io/talkpush/capabilities/talkpush-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/talkpush-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/overlays/talkpush-openapi-overlay.yaml
+  href: https://artifacts.apis.io/talkpush/overlays/talkpush-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/talkpush-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/security/talkpush-domain-security.yml
+  href: https://artifacts.apis.io/talkpush/security/talkpush-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/talkpush-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/agentic-access/talkpush-agentic-access.yml
+  href: https://artifacts.apis.io/talkpush/agentic-access/talkpush-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/talkpush-agentic-access.yml
@@ -203,7 +202,7 @@ common:
   type: GettingStarted
   url: https://docs.talkpush.com/docs/getting-started
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/llms/talkpush-llms.txt
+  href: https://artifacts.apis.io/talkpush/llms/talkpush-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/talkpush-llms.txt
@@ -236,37 +235,37 @@ common:
   type: GitHubOrganization
   url: https://github.com/talkpush
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/authentication/talkpush-authentication.yml
+  href: https://artifacts.apis.io/talkpush/authentication/talkpush-authentication.yml
   title: ''
   type: Authentication
   url: authentication/talkpush-authentication.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/mcp/talkpush-mcp.yml
+  href: https://artifacts.apis.io/talkpush/mcp/talkpush-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/talkpush-mcp.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/errors/talkpush-problem-types.yml
+  href: https://artifacts.apis.io/talkpush/errors/talkpush-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/talkpush-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/conventions/talkpush-conventions.yml
+  href: https://artifacts.apis.io/talkpush/conventions/talkpush-conventions.yml
   title: ''
   type: Conventions
   url: conventions/talkpush-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/data-model/talkpush-data-model.yml
+  href: https://artifacts.apis.io/talkpush/data-model/talkpush-data-model.yml
   title: ''
   type: DataModel
   url: data-model/talkpush-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/conformance/talkpush-conformance.yml
+  href: https://artifacts.apis.io/talkpush/conformance/talkpush-conformance.yml
   title: ''
   type: Conformance
   url: conformance/talkpush-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/talkpush/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -282,10 +281,10 @@ overview: 'TalkPush publishes 14 API contracts indexed on the [APIs.io](https://
 
 
   TalkPush''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 17 more developer resources.'
-random_paper: 18
+random_paper: 12
 score:
   band: thin
-  composite: 34.1
+  composite: 37.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -297,11 +296,11 @@ score:
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 45.8
-    developer_ergonomics: 39.9
-    discoverability: 73.2
-    operational_transparency: 2.6
-  previous_composite: 34.1
+    contract_quality: 44.5
+    developer_ergonomics: 58.9
+    discoverability: 66.1
+    operational_transparency: 5.3
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,13 +317,14 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/screenshots/talkpush-2026-09-02T162500.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/talkpush/talkpush-2026-09-02T162500.png
 security:
 - kind: authentication
   name: Talkpush Authentication
@@ -334,6 +334,14 @@ security:
   name: Talkpush Domain Security
   slug: talkpush-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 3
+skills:
+- name: Configure an AI calling agent and review its calls
+  slug: talkpush-configure-ai-agent
+- name: Create and manage a recruiting campaign
+  slug: talkpush-manage-campaign
+- name: Source and manage a recruiting lead
+  slug: talkpush-source-and-manage-lead
 slug: talkpush
 tags:
 - Company

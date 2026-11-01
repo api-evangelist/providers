@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 1
   slug: automat-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://studio.runautomat.com
   baseurl_source: declared
@@ -52,14 +54,11 @@ apis:
 artifact_total: 8
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: extract API
   slug: open-automat-extract-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/overlays/automat-extract-overlay.yaml
+  href: https://artifacts.apis.io/automat/overlays/automat-extract-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/automat-extract-overlay.yaml
@@ -84,7 +83,7 @@ common:
   type: APIReference
   url: https://docs.runautomat.com/api-reference
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/mcp/automat-mcp.yml
+  href: https://artifacts.apis.io/automat/mcp/automat-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/automat-mcp.yml
@@ -109,27 +108,27 @@ common:
   type: Compliance
   url: https://trust.runautomat.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/llms/automat-llms.txt
+  href: https://artifacts.apis.io/automat/llms/automat-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/automat-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/authentication/automat-authentication.yml
+  href: https://artifacts.apis.io/automat/authentication/automat-authentication.yml
   title: ''
   type: Authentication
   url: authentication/automat-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/security/automat-domain-security.yml
+  href: https://artifacts.apis.io/automat/security/automat-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/automat-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/conformance/automat-conformance.yml
+  href: https://artifacts.apis.io/automat/conformance/automat-conformance.yml
   title: ''
   type: Conformance
   url: conformance/automat-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/automat/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -149,10 +148,10 @@ overview: 'Automat publishes 1 API contract indexed on the [APIs.io](https://api
 
 
   Automat''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 15
+random_paper: 19
 score:
   band: thin
-  composite: 34.4
+  composite: 39.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -162,13 +161,13 @@ score:
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
-    access_clarity: 10.5
+    access_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 47.1
-    developer_ergonomics: 55.4
-    discoverability: 71.7
+    developer_ergonomics: 58.9
+    discoverability: 65.0
     operational_transparency: 0.0
-  previous_composite: 34.4
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -190,14 +189,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 20.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 25.5
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/automat/refs/heads/main/screenshots/automat-2026-07-25T201833.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/automat/automat-2026-07-25T201833.png
 security:
 - kind: authentication
   name: Automat Authentication
@@ -211,6 +211,10 @@ security:
   name: Automat Trust Center
   slug: automat-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+skill_count: 1
+skills:
+- name: Extract structured data from a document
+  slug: automat-extract-document
 slug: automat
 tags:
 - Company

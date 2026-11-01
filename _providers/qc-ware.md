@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,15 +29,17 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: documented
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-10-17'
-api_count: 4
+  score: 29.9
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://api.promethium.qcware.com
   baseurl_source: declared
@@ -49,15 +51,15 @@ apis:
   description: The Workflows API from QC Ware — 5 operation(s) for workflows.
   name: QC Ware Workflows API
   slug: qc-ware-workflows-api
-artifact_total: 9
+artifact_total: 12
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/overlays/qc-ware-promethium-overlay.yaml
+  href: https://artifacts.apis.io/qc-ware/overlays/qc-ware-promethium-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/qc-ware-promethium-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/security/qc-ware-domain-security.yml
+  href: https://artifacts.apis.io/qc-ware/security/qc-ware-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/qc-ware-domain-security.yml
@@ -110,77 +112,77 @@ common:
   type: StatusPage
   url: https://promethium-status.qcware.com/
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/packages/qc-ware-packages.yml
+  href: https://artifacts.apis.io/qc-ware/packages/qc-ware-packages.yml
   title: ''
   type: Packages
   url: packages/qc-ware-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/packages/qc-ware-packages.yml
+  href: https://artifacts.apis.io/qc-ware/packages/qc-ware-packages.yml
   title: ''
   type: SDKs
   url: packages/qc-ware-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/cli/qc-ware-cli.yml
+  href: https://artifacts.apis.io/qc-ware/cli/qc-ware-cli.yml
   title: ''
   type: CLI
   url: cli/qc-ware-cli.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/authentication/qc-ware-authentication.yml
+  href: https://artifacts.apis.io/qc-ware/authentication/qc-ware-authentication.yml
   title: ''
   type: Authentication
   url: authentication/qc-ware-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/conventions/qc-ware-conventions.yml
+  href: https://artifacts.apis.io/qc-ware/conventions/qc-ware-conventions.yml
   title: ''
   type: Conventions
   url: conventions/qc-ware-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/lifecycle/qc-ware-lifecycle.yml
+  href: https://artifacts.apis.io/qc-ware/lifecycle/qc-ware-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/qc-ware-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/changelog/qc-ware-changelog.yml
+  href: https://artifacts.apis.io/qc-ware/changelog/qc-ware-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/qc-ware-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/conformance/qc-ware-conformance.yml
+  href: https://artifacts.apis.io/qc-ware/conformance/qc-ware-conformance.yml
   title: ''
   type: Conformance
   url: conformance/qc-ware-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/conformance/qc-ware-conformance.yml
+  href: https://artifacts.apis.io/qc-ware/conformance/qc-ware-conformance.yml
   title: ''
   type: Compliance
   url: conformance/qc-ware-conformance.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/plans/qc-ware-plans-pricing.yml
+  href: https://artifacts.apis.io/qc-ware/plans/qc-ware-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/qc-ware-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/rate-limits/qc-ware-rate-limits.yml
+  href: https://artifacts.apis.io/qc-ware/rate-limits/qc-ware-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/qc-ware-rate-limits.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/llms/qc-ware-llms.txt
+  href: https://artifacts.apis.io/qc-ware/llms/qc-ware-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/qc-ware-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/qc-ware/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/data-model/qc-ware-data-model.yml
+  href: https://artifacts.apis.io/qc-ware/data-model/qc-ware-data-model.yml
   title: ''
   type: DataModel
   url: data-model/qc-ware-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/errors/qc-ware-problem-types.yml
+  href: https://artifacts.apis.io/qc-ware/errors/qc-ware-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/qc-ware-problem-types.yml
@@ -196,6 +198,14 @@ examples:
 - key_count: 5
   name: Qc Ware Single Point Calculation Request
   slug: qc-ware-single-point-calculation-request
+finops:
+- has_sources: true
+  method: derived
+  name: Qc Ware Finops
+  primary_unit: hour
+  service_category: ''
+  slug: qc-ware-finops
+  template: false
 image: https://cdn.prod.website-files.com/6422991955e15300c0604528/642fbef90d1ede08ed7eee51_openg.avif
 layout: provider
 modified: '2026-08-26'
@@ -210,29 +220,29 @@ plans:
 - name: Qc Ware Plans Pricing
   plan_count: 3
   slug: qc-ware-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Qc Ware Rate Limits
   slug: qc-ware-rate-limits
 score:
-  band: developing
-  composite: 53.5
+  band: strong
+  composite: 56.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 1.0
   facets:
-    access_clarity: 73.7
+    access_clarity: 81.6
     contract_governance: 4.5
-    contract_quality: 49.0
+    contract_quality: 45.6
     developer_ergonomics: 73.2
-    discoverability: 78.6
-    operational_transparency: 18.4
+    discoverability: 66.1
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -240,7 +250,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 52.9
+  previous_composite: 55.1
   provenance:
     conformance: derived
     contracts:
@@ -256,13 +266,14 @@ score:
     regime: Health
     regime_id: health
     score: 24.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/screenshots/qc-ware-2026-09-02T152422.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/qc-ware/qc-ware-2026-09-02T152422.png
 security:
 - kind: authentication
   name: Qc Ware Authentication
@@ -272,6 +283,12 @@ security:
   name: Qc Ware Domain Security
   slug: qc-ware-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 2
+skills:
+- name: qc-ware-manage-promethium-files
+  slug: qc-ware-manage-promethium-files
+- name: qc-ware-submit-quantum-chemistry-workflow
+  slug: qc-ware-submit-quantum-chemistry-workflow
 slug: qc-ware
 tags:
 - Company

@@ -28,15 +28,17 @@ agent_readiness:
     idempotency: false
     mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-10-17'
-api_count: 2
+  score: 28.6
+  scored_at: '2026-10-31'
+api_count: 1
 apis:
 - baseURL: https://developer-api.quadratichq.com
   baseurl_source: declared
@@ -108,11 +110,8 @@ apis:
   description: Manage cell validation rules.
   name: Quadratic Validations API
   slug: quadratic-validations-api
-artifact_total: 34
+artifact_total: 37
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Quadratic Developer Agent Connections API
   slug: open-quadratic-agent-connections-api
@@ -157,12 +156,12 @@ collections:
   slug: open-quadratic-validations-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/plans/quadratic-plans-pricing.yml
+  href: https://artifacts.apis.io/quadratic/plans/quadratic-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/quadratic-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/overlays/quadratic-openapi-overlay.yaml
+  href: https://artifacts.apis.io/quadratic/overlays/quadratic-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/quadratic-openapi-overlay.yaml
@@ -215,77 +214,85 @@ common:
   type: StatusPage
   url: https://status.quadratichq.com
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/lifecycle/quadratic-lifecycle.yml
+  href: https://artifacts.apis.io/quadratic/lifecycle/quadratic-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/quadratic-lifecycle.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/mcp/quadratic-mcp.yml
+  href: https://artifacts.apis.io/quadratic/mcp/quadratic-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/quadratic-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/llms/quadratic-llms.txt
+  href: https://artifacts.apis.io/quadratic/llms/quadratic-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/quadratic-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/packages/quadratic-packages.yml
+  href: https://artifacts.apis.io/quadratic/packages/quadratic-packages.yml
   title: ''
   type: Packages
   url: packages/quadratic-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/packages/quadratic-packages.yml
+  href: https://artifacts.apis.io/quadratic/packages/quadratic-packages.yml
   title: ''
   type: SDKs
   url: packages/quadratic-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/conventions/quadratic-conventions.yml
+  href: https://artifacts.apis.io/quadratic/conventions/quadratic-conventions.yml
   title: ''
   type: Conventions
   url: conventions/quadratic-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/data-model/quadratic-data-model.yml
+  href: https://artifacts.apis.io/quadratic/data-model/quadratic-data-model.yml
   title: ''
   type: DataModel
   url: data-model/quadratic-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/conformance/quadratic-conformance.yml
+  href: https://artifacts.apis.io/quadratic/conformance/quadratic-conformance.yml
   title: ''
   type: Conformance
   url: conformance/quadratic-conformance.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/authentication/quadratic-authentication.yml
+  href: https://artifacts.apis.io/quadratic/authentication/quadratic-authentication.yml
   title: ''
   type: Authentication
   url: authentication/quadratic-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/security/quadratic-domain-security.yml
+  href: https://artifacts.apis.io/quadratic/security/quadratic-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/quadratic-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/security/quadratic-trust-center.yml
+  href: https://artifacts.apis.io/quadratic/security/quadratic-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/quadratic-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/security/quadratic-trust-center.yml
+  href: https://artifacts.apis.io/quadratic/security/quadratic-trust-center.yml
   title: ''
   type: Compliance
   url: security/quadratic-trust-center.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/well-known/quadratic-well-known.yml
+  href: https://artifacts.apis.io/quadratic/well-known/quadratic-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/quadratic-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/quadratic/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 created: '2026-07-17'
 description: Quadratic is an AI-native infinite spreadsheet that combines Python, SQL, JavaScript, formulas, and AI agents on a single canvas, with live connections to databases like PostgreSQL, MySQL, BigQuery, and Snowflake. Its token-authenticated Developer (Spreadsheet) API and remote MCP server let agents and applications programmatically read and write cells, run code and SQL, build tables, and orchestrate spreadsheets.
+finops:
+- has_sources: true
+  method: derived
+  name: Quadratic Finops
+  primary_unit: user/month, billed annually
+  service_category: ''
+  slug: quadratic-finops
+  template: false
 image: https://www.quadratichq.com/images/og-image.png
 layout: provider
 mcp_servers:
@@ -304,26 +311,29 @@ plans:
 - name: Quadratic Plans Pricing
   plan_count: 4
   slug: quadratic-plans-pricing
-random_paper: 12
+- name: Quadratic Price Estimates
+  plan_count: 0
+  slug: quadratic-price-estimates
+random_paper: 22
 score:
   band: strong
-  composite: 54.3
+  composite: 56.2
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 49.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: 1.5
   facets:
-    access_clarity: 92.1
+    access_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 43.7
     developer_ergonomics: 68.5
-    discoverability: 71.7
-    operational_transparency: 18.4
-  previous_composite: 47.9
+    discoverability: 65.0
+    operational_transparency: 21.1
+  previous_composite: 54.7
   provenance:
     conformance: derived
     contracts:
@@ -343,13 +353,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/screenshots/quadratic-2026-08-17T081429.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/quadratic/quadratic-2026-08-17T081429.png
 security:
 - kind: authentication
   name: Quadratic Authentication
@@ -363,6 +374,12 @@ security:
   name: Quadratic Trust Center
   slug: quadratic-trust-center
   summary_line: SOC 2, HIPAA
+skill_count: 2
+skills:
+- name: read-quadratic-spreadsheet
+  slug: quadratic-read-spreadsheet
+- name: write-quadratic-cells-and-code
+  slug: quadratic-write-and-compute
 slug: quadratic
 tags:
 - Company

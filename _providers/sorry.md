@@ -26,14 +26,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.1
-  scored_at: '2026-10-17'
+  score: 17.3
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.sorryapp.com/v1
@@ -64,9 +66,6 @@ apis:
 artifact_total: 23
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Sorry Status Page Components API
   slug: open-sorry-components-api
 - collection_type: open
@@ -83,32 +82,32 @@ collections:
   slug: open-sorry-subscribers-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/plans/sorry-plans-pricing.yml
+  href: https://artifacts.apis.io/sorry/plans/sorry-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/sorry-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/rate-limits/sorry-rate-limits.yml
+  href: https://artifacts.apis.io/sorry/rate-limits/sorry-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/sorry-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/finops/sorry-finops.yml
+  href: https://artifacts.apis.io/sorry/finops/sorry-finops.yml
   title: ''
   type: FinOps
   url: finops/sorry-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/capabilities/sorry-capability-edges.yml
+  href: https://artifacts.apis.io/sorry/capabilities/sorry-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/sorry-capability-edges.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/security/sorry-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/sorry/security/sorry-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/sorry-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/security/sorry-domain-security.yml
+  href: https://artifacts.apis.io/sorry/security/sorry-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/sorry-domain-security.yml
@@ -167,13 +166,13 @@ examples:
   name: Sorry Create Notice Example
   slug: sorry-create-notice-example
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Sorry Finops
-  primary_unit: ''
-  service_category: API
+  primary_unit: status page
+  service_category: ''
   slug: sorry-finops
-  template: true
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sorry.png
 json_schemas:
 - name: Sorry Notice
@@ -207,7 +206,10 @@ plans:
 - name: Sorry Plans Pricing
   plan_count: 3
   slug: sorry-plans-pricing
-random_paper: 3
+- name: Sorry Price Estimates
+  plan_count: 0
+  slug: sorry-price-estimates
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Sorry Rate Limits
@@ -238,23 +240,23 @@ rules:
   slug: sorry-rules
 score:
   band: developing
-  composite: 40.1
+  composite: 49.2
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 58.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 56.5
+    artifact_dirs: 17
+    catalog_earned: 70.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 1.6
   facets:
-    access_clarity: 18.4
+    access_clarity: 60.5
     contract_governance: 13.6
-    contract_quality: 62.6
+    contract_quality: 59.2
     developer_ergonomics: 40.5
     discoverability: 66.1
-    operational_transparency: 28.9
-  previous_composite: 41.6
+    operational_transparency: 39.5
+  previous_composite: 47.6
   provenance:
     contracts:
       callable: 100.0
@@ -266,14 +268,15 @@ score:
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
-    score: 16.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 20.6
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 11.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/screenshots/sorry-2026-06-20T194215.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/sorry/sorry-2026-06-20T194215.png
 security:
 - kind: domain-security
   name: Sorry Domain Security

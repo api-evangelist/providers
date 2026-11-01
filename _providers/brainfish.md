@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 62.1
-  scored_at: '2026-10-17'
+  score: 59.2
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -100,11 +102,8 @@ arazzos:
 - description: Validate the token, create a knowledge-base collection, then create a document inside it.
   name: Create a collection and add a document
   slug: brainfish-create-collection-and-document
-artifact_total: 29
+artifact_total: 32
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Brainfish Public Agents API
   slug: open-brainfish-agents-api
@@ -134,22 +133,22 @@ collections:
   slug: open-brainfish-users-api
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/rate-limits/brainfish-rate-limits.yml
+  href: https://artifacts.apis.io/brainfish/rate-limits/brainfish-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/brainfish-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/plans/brainfish-plans-pricing.yml
+  href: https://artifacts.apis.io/brainfish/plans/brainfish-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/brainfish-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/capabilities/brainfish-capability-edges.yml
+  href: https://artifacts.apis.io/brainfish/capabilities/brainfish-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/brainfish-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/overlays/brainfish-public-api-overlay.yaml
+  href: https://artifacts.apis.io/brainfish/overlays/brainfish-public-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/brainfish-public-api-overlay.yaml
@@ -174,47 +173,47 @@ common:
   type: Support
   url: https://help.brainfi.sh
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/mcp/brainfish-mcp.yml
+  href: https://artifacts.apis.io/brainfish/mcp/brainfish-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/brainfish-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/brainfish/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/packages/brainfish-packages.yml
+  href: https://artifacts.apis.io/brainfish/packages/brainfish-packages.yml
   title: ''
   type: Packages
   url: packages/brainfish-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/packages/brainfish-packages.yml
+  href: https://artifacts.apis.io/brainfish/packages/brainfish-packages.yml
   title: ''
   type: SDKs
   url: packages/brainfish-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/components/brainfish-components.yml
+  href: https://artifacts.apis.io/brainfish/components/brainfish-components.yml
   title: ''
   type: Components
   url: components/brainfish-components.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/well-known/brainfish-well-known.yml
+  href: https://artifacts.apis.io/brainfish/well-known/brainfish-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/brainfish-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/llms/brainfish-llms.txt
+  href: https://artifacts.apis.io/brainfish/llms/brainfish-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/brainfish-llms.txt
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/changelog/brainfish-changelog.yml
+  href: https://artifacts.apis.io/brainfish/changelog/brainfish-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/brainfish-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/lifecycle/brainfish-lifecycle.yml
+  href: https://artifacts.apis.io/brainfish/lifecycle/brainfish-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/brainfish-lifecycle.yml
@@ -223,7 +222,7 @@ common:
   type: StatusPage
   url: https://status.brainfi.sh
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/security/brainfish-trust-center.yml
+  href: https://artifacts.apis.io/brainfish/security/brainfish-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/brainfish-trust-center.yml
@@ -232,7 +231,7 @@ common:
   type: Compliance
   url: https://trust.brainfi.sh/
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/security/brainfish-domain-security.yml
+  href: https://artifacts.apis.io/brainfish/security/brainfish-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brainfish-domain-security.yml
@@ -266,6 +265,14 @@ common:
   url: https://www.brainfishai.com
 created: '2026-07-17'
 description: Brainfish is an AI product-support platform for B2B SaaS companies, built in Sydney and deployed globally with US/EU/AU data residency. Its AI support agents resolve customer tickets across chat, email, in-product, Slack and Teams, grounding every answer in the company's real product knowledge rather than training on customer data. Brainfish exposes a REST Public API (https://api.brainfi.sh) to programmatically manage the knowledge base (collections, documents, catalogs), generate cited AI answers and follow-up questions, and pull session analytics, plus a remote Model Context Protocol (MCP) server and an embeddable browser widget suite. Backed by Prosus Ventures.
+finops:
+- has_sources: true
+  method: derived
+  name: Brainfish Finops
+  primary_unit: ''
+  service_category: ''
+  slug: brainfish-finops
+  template: true
 image: https://www.brainfishai.com/og-default.png
 layout: provider
 mcp_servers:
@@ -284,30 +291,30 @@ plans:
 - name: Brainfish Plans Pricing
   plan_count: 3
   slug: brainfish-plans-pricing
-random_paper: 4
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Brainfish Rate Limits
   slug: brainfish-rate-limits
 score:
   band: strong
-  composite: 59.1
+  composite: 62.4
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 6.4
+  delta: -0.6
   facets:
-    access_clarity: 78.9
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 52.5
+    contract_quality: 50.7
     developer_ergonomics: 66.1
-    discoverability: 75.0
-    operational_transparency: 47.4
-  previous_composite: 52.7
+    discoverability: 65.0
+    operational_transparency: 57.9
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -324,13 +331,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: rising
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/screenshots/brainfish-2026-07-25T203705.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/brainfish/brainfish-2026-07-25T203705.png
 security:
 - kind: authentication
   name: Brainfish Authentication
@@ -344,6 +352,14 @@ security:
   name: Brainfish Trust Center
   slug: brainfish-trust-center
   summary_line: SOC 2, ISO 27001
+skill_count: 3
+skills:
+- name: Generate an AI answer with Brainfish
+  slug: brainfish-generate-ai-answer
+- name: Manage a Brainfish knowledge base
+  slug: brainfish-manage-knowledge-base
+- name: Sync an API catalog into Brainfish
+  slug: brainfish-sync-api-catalog
 slug: brainfish
 tags:
 - Company

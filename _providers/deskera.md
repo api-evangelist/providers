@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: REST API for Deskera Books, the cloud ERP and accounting product — contacts, products, accounts, invoices, bills, quotations, sales and purchase orders, credit and debit notes, deposits, expenses, pay
@@ -51,14 +53,19 @@ apis:
 - description: API for Deskera People, the HR, payroll and employee-self-service product — employees, teams, shifts, attendance, leave, expenses, bank accounts, pay schedules, pay runs, payroll components and compon
   name: Deskera People API
   slug: people
-artifact_total: 8
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Deskera Webhooks
   slug: deskera-webhooks
 common:
+- group: commercial
+  href: https://artifacts.apis.io/deskera/plans/deskera-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/deskera-plans-pricing.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/security/deskera-domain-security.yml
+  href: https://artifacts.apis.io/deskera/security/deskera-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/deskera-domain-security.yml
@@ -83,12 +90,12 @@ common:
   type: GettingStarted
   url: https://deskera.github.io/Developer-Documentation/docs/books/started
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/authentication/deskera-authentication.yml
+  href: https://artifacts.apis.io/deskera/authentication/deskera-authentication.yml
   title: ''
   type: Authentication
   url: authentication/deskera-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/scopes/deskera-scopes.yml
+  href: https://artifacts.apis.io/deskera/scopes/deskera-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/deskera-scopes.yml
@@ -145,62 +152,70 @@ common:
   type: StatusPage
   url: https://status.deskera.com/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/changelog/deskera-changelog.yml
+  href: https://artifacts.apis.io/deskera/changelog/deskera-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/deskera-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/lifecycle/deskera-lifecycle.yml
+  href: https://artifacts.apis.io/deskera/lifecycle/deskera-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/deskera-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/conventions/deskera-conventions.yml
+  href: https://artifacts.apis.io/deskera/conventions/deskera-conventions.yml
   title: ''
   type: Conventions
   url: conventions/deskera-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/errors/deskera-problem-types.yml
+  href: https://artifacts.apis.io/deskera/errors/deskera-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/deskera-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/asyncapi/deskera-webhooks.yml
+  href: https://artifacts.apis.io/deskera/asyncapi/deskera-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/deskera-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/packages/deskera-packages.yml
+  href: https://artifacts.apis.io/deskera/packages/deskera-packages.yml
   title: ''
   type: Packages
   url: packages/deskera-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/packages/deskera-packages.yml
+  href: https://artifacts.apis.io/deskera/packages/deskera-packages.yml
   title: ''
   type: SDKs
   url: packages/deskera-packages.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/sandbox/deskera-sandbox.yml
+  href: https://artifacts.apis.io/deskera/sandbox/deskera-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/deskera-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/well-known/deskera-well-known.yml
+  href: https://artifacts.apis.io/deskera/well-known/deskera-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/deskera-well-known.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/conformance/deskera-conformance.yml
+  href: https://artifacts.apis.io/deskera/conformance/deskera-conformance.yml
   title: ''
   type: Conformance
   url: conformance/deskera-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/deskera/refs/heads/main/llms/deskera-llms.txt
+  href: https://artifacts.apis.io/deskera/llms/deskera-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/deskera-llms.txt
 created: '2026-08-04'
 description: Deskera is a cloud business-software suite for small and mid-sized businesses, combining ERP and accounting (Deskera Books), CRM and sales (Deskera Sales / CRM+), and HR and payroll (Deskera People) on a single platform covering purchasing, sales, stock and inventory, warehouses, manufacturing/MRP, billing, invoicing, quotations, payments, tax and financial reporting, contacts and deals, employees, attendance, leave, expenses and pay runs. Deskera publishes a public developer documentation site covering REST APIs for Books, Sales, CRM+ and People, a three-legged OAuth 2.0 authorization flow with an x-access-token bearer header, a webhook registration API with a documented event catalog, separate staging and production environments, and a Java SDK. The company operates from Singapore and the United States and also trades under the erp.ai brand for account sign-up and sign-in.
+finops:
+- has_sources: true
+  method: derived
+  name: Deskera Finops
+  primary_unit: user
+  service_category: ''
+  slug: deskera-finops
+  template: false
 image: https://deskera.github.io/Developer-Documentation/img/deskera-logo-1.png
 layout: provider
 modified: '2026-08-04'
@@ -213,32 +228,39 @@ overview: 'Deskera is listed with 4 APIs on the [APIs.io](https://apis.io/) netw
   The Deskera catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Deskera''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 25 more developer resources.'
-random_paper: 9
+  Deskera''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 26 more developer resources.'
+plans:
+- name: Deskera Plans Pricing
+  plan_count: 3
+  slug: deskera-plans-pricing
+- name: Deskera Price Estimates
+  plan_count: 0
+  slug: deskera-price-estimates
+random_paper: 15
 scopes:
 - name: Deskera Scopes
   scope_count: 3
   slug: deskera-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 50.1
+  band: strong
+  composite: 58.3
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 18
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 39.0
     developer_ergonomics: 71.4
     discoverability: 71.4
-    operational_transparency: 42.1
-  previous_composite: 50.1
+    operational_transparency: 44.7
+  previous_composite: 50.4
   provenance:
     conformance: first-party
   regulatory:
@@ -247,9 +269,9 @@ score:
     regime: Employment & Payroll
     regime_id: employment_payroll
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

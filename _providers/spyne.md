@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -34,20 +36,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: 'The Spyne Unified API accepts vehicle images and video (by SKU / VIN / stock number) and returns AI-transformed studio images, background replacement, 360-degree spins, and feature videos, plus image '
   name: Spyne Unified API
   slug: spyne-unified-api
-artifact_total: 5
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Spyne Webhooks
   slug: spyne-webhooks
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/plans/spyne-plans-pricing.yml
+  href: https://artifacts.apis.io/spyne/plans/spyne-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/spyne-plans-pricing.yml
@@ -72,67 +74,67 @@ common:
   type: GettingStarted
   url: https://docs.spyne.ai/docs/transform-your-first-vehicle-1
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/authentication/spyne-authentication.yml
+  href: https://artifacts.apis.io/spyne/authentication/spyne-authentication.yml
   title: ''
   type: Authentication
   url: authentication/spyne-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/packages/spyne-packages.yml
+  href: https://artifacts.apis.io/spyne/packages/spyne-packages.yml
   title: ''
   type: SDKs
   url: packages/spyne-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/packages/spyne-packages.yml
+  href: https://artifacts.apis.io/spyne/packages/spyne-packages.yml
   title: ''
   type: Packages
   url: packages/spyne-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/asyncapi/spyne-webhooks.yml
+  href: https://artifacts.apis.io/spyne/asyncapi/spyne-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/spyne-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/mcp/spyne-mcp.yml
+  href: https://artifacts.apis.io/spyne/mcp/spyne-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/spyne-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/llms/spyne-llms.txt
+  href: https://artifacts.apis.io/spyne/llms/spyne-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/spyne-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/errors/spyne-problem-types.yml
+  href: https://artifacts.apis.io/spyne/errors/spyne-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/spyne-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/conventions/spyne-conventions.yml
+  href: https://artifacts.apis.io/spyne/conventions/spyne-conventions.yml
   title: ''
   type: Conventions
   url: conventions/spyne-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/lifecycle/spyne-lifecycle.yml
+  href: https://artifacts.apis.io/spyne/lifecycle/spyne-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/spyne-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/data-model/spyne-data-model.yml
+  href: https://artifacts.apis.io/spyne/data-model/spyne-data-model.yml
   title: ''
   type: DataModel
   url: data-model/spyne-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/conformance/spyne-conformance.yml
+  href: https://artifacts.apis.io/spyne/conformance/spyne-conformance.yml
   title: ''
   type: Conformance
   url: conformance/spyne-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/spyne/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/security/spyne-domain-security.yml
+  href: https://artifacts.apis.io/spyne/security/spyne-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/spyne-domain-security.yml
@@ -170,6 +172,14 @@ common:
   url: https://www.spyne.ai/privacy
 created: '2026-07-17'
 description: Spyne is an AI platform for automotive retail that helps car dealerships and marketplaces produce studio-grade vehicle visuals and merchandising at scale. Its Unified API and mobile SDKs let developers submit raw vehicle images and video and receive AI-transformed studio images, background replacement, 360-degree spins, feature videos, and automated image classification and QC. Processing is asynchronous - jobs are submitted per SKU/VIN and results are delivered via polling endpoints or signed webhook callbacks. Spyne also offers conversational AI agents for dealership sourcing, listing, marketing, and selling vehicles faster.
+finops:
+- has_sources: true
+  method: derived
+  name: Spyne Finops
+  primary_unit: ''
+  service_category: ''
+  slug: spyne-finops
+  template: true
 image: https://d20uiuzezo3er4.cloudfront.net/AI-tools/ai-tools-landing-360/logo+spyne.webp
 layout: provider
 modified: '2026-07-21'
@@ -187,26 +197,26 @@ plans:
 - name: Spyne Plans Pricing
   plan_count: 2
   slug: spyne-plans-pricing
-random_paper: 9
+random_paper: 7
 score:
   band: developing
-  composite: 45.3
+  composite: 47.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.3
+  delta: 0.0
   facets:
     access_clarity: 73.7
     contract_governance: 4.5
     contract_quality: 39.0
-    developer_ergonomics: 50.6
-    discoverability: 73.2
+    developer_ergonomics: 66.1
+    discoverability: 66.1
     operational_transparency: 7.9
-  previous_composite: 41.0
+  previous_composite: 47.7
   provenance:
     conformance: derived
     mcp: derived
@@ -217,14 +227,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 27.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/spyne/refs/heads/main/screenshots/spyne-2026-08-17T082052.png
+screenshot: https://apis.io/screenshots/spyne/spyne-2026-08-17T082052.png
 security:
 - kind: authentication
   name: Spyne Authentication
@@ -234,6 +244,12 @@ security:
   name: Spyne Domain Security
   slug: spyne-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+skill_count: 2
+skills:
+- name: Classify and QC vehicle images
+  slug: spyne-classify-images
+- name: Transform a vehicle into studio-grade media
+  slug: spyne-transform-vehicle
 slug: spyne
 tags:
 - Company

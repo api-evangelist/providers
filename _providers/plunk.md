@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: false
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.3
-  scored_at: '2026-10-17'
+  score: 41.7
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +44,7 @@ agentic_access:
   operation_count: 14
   slug: plunk-agentic-access
   summary_line: 14 operations · 11 acting
-api_count: 3
+api_count: 2
 apis:
 - baseURL: https://api.useplunk.com/v1
   baseurl_source: declared
@@ -162,15 +164,12 @@ apis:
     question: How do I save a reusable email template with variable placeholders?
   phrasing_ops: 2
   slug: plunk-templates-api
-artifact_total: 20
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Plunk Webhooks
   slug: plunk-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Plunk Campaigns API
   slug: open-plunk-campaigns-api
@@ -188,7 +187,7 @@ collections:
   slug: open-plunk
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/capabilities/plunk-capability-edges.yml
+  href: https://artifacts.apis.io/plunk/capabilities/plunk-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/plunk-capability-edges.yml
@@ -197,17 +196,17 @@ common:
   type: License
   url: https://github.com/useplunk/plunk/blob/next/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/agentic-access/plunk-agentic-access.yml
+  href: https://artifacts.apis.io/plunk/agentic-access/plunk-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/plunk-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/security/plunk-domain-security.yml
+  href: https://artifacts.apis.io/plunk/security/plunk-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/plunk-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/authentication/plunk-authentication.yml
+  href: https://artifacts.apis.io/plunk/authentication/plunk-authentication.yml
   title: ''
   type: Authentication
   url: authentication/plunk-authentication.yml
@@ -228,57 +227,57 @@ common:
   type: Documentation
   url: https://docs.useplunk.com
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/plans/plunk-plans-pricing.yml
+  href: https://artifacts.apis.io/plunk/plans/plunk-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/plunk-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/rate-limits/plunk-rate-limits.yml
+  href: https://artifacts.apis.io/plunk/rate-limits/plunk-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/plunk-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/finops/plunk-finops.yml
+  href: https://artifacts.apis.io/plunk/finops/plunk-finops.yml
   title: ''
   type: FinOps
   url: finops/plunk-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/packages/plunk-packages.yml
+  href: https://artifacts.apis.io/plunk/packages/plunk-packages.yml
   title: ''
   type: Packages
   url: packages/plunk-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/packages/plunk-packages.yml
+  href: https://artifacts.apis.io/plunk/packages/plunk-packages.yml
   title: ''
   type: SDKs
   url: packages/plunk-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/llms/plunk-llms.txt
+  href: https://artifacts.apis.io/plunk/llms/plunk-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/plunk-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/overlays/plunk-api-overlay.yaml
+  href: https://artifacts.apis.io/plunk/overlays/plunk-api-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/plunk-api-overlay.yaml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/conventions/plunk-conventions.yml
+  href: https://artifacts.apis.io/plunk/conventions/plunk-conventions.yml
   title: ''
   type: Conventions
   url: conventions/plunk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/conventions/plunk-conventions.yml
+  href: https://artifacts.apis.io/plunk/conventions/plunk-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/plunk-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/errors/plunk-problem-types.yml
+  href: https://artifacts.apis.io/plunk/errors/plunk-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/plunk-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/lifecycle/plunk-lifecycle.yml
+  href: https://artifacts.apis.io/plunk/lifecycle/plunk-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/plunk-lifecycle.yml
@@ -287,27 +286,27 @@ common:
   type: StatusPage
   url: https://status.useplunk.com
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/changelog/plunk-changelog.yml
+  href: https://artifacts.apis.io/plunk/changelog/plunk-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/plunk-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/data-model/plunk-data-model.yml
+  href: https://artifacts.apis.io/plunk/data-model/plunk-data-model.yml
   title: ''
   type: DataModel
   url: data-model/plunk-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/asyncapi/plunk-webhooks.yml
+  href: https://artifacts.apis.io/plunk/asyncapi/plunk-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/plunk-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/plunk/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/conformance/plunk-conformance.yml
+  href: https://artifacts.apis.io/plunk/conformance/plunk-conformance.yml
   title: ''
   type: Conformance
   url: conformance/plunk-conformance.yml
@@ -359,10 +358,10 @@ created: '2026-06-20'
 description: Plunk is an open-source (AGPL-3.0) email platform for developers that unifies transactional email, marketing campaigns, contact segmentation and event-driven workflow automation behind a single REST API. It publishes its own OpenAPI 3.1.0 at docs.useplunk.com/openapi.json, declaring next-api.useplunk.com as the production base URL, and authenticates with a two-class Bearer API key where the prefix decides capability — sk_ for every endpoint and pk_ for the client-safe /v1/track tracking call. The API supports Idempotency-Key on both public write endpoints, cursor pagination, a structured error envelope carrying machine codes plus remediation hints, and a documented webhook event catalogue delivered as workflow steps. Every documentation page is also served as Markdown. The entire stack self-hosts with Docker Compose for full data ownership and no per-email costs.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Plunk Finops
-  primary_unit: ''
-  service_category: Email and Messaging
+  primary_unit: emails
+  service_category: ''
   slug: plunk-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plunk.png
@@ -382,14 +381,17 @@ plans:
 - name: Plunk Plans Pricing
   plan_count: 3
   slug: plunk-plans-pricing
-random_paper: 4
+- name: Plunk Price Estimates
+  plan_count: 0
+  slug: plunk-price-estimates
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Plunk Rate Limits
   slug: plunk-rate-limits
 score:
   band: exemplar
-  composite: 74.2
+  composite: 67.9
   coverage:
     artifact_dirs: 25
     catalog_earned: 64.0
@@ -397,15 +399,15 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.9
+  delta: 1.1
   facets:
-    access_clarity: 84.2
+    access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 64.2
+    contract_quality: 62.5
     developer_ergonomics: 64.9
-    discoverability: 78.6
-    operational_transparency: 73.7
-  previous_composite: 75.1
+    discoverability: 66.1
+    operational_transparency: 76.3
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -426,13 +428,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 29.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 72.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/screenshots/plunk-2026-06-20T191814.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/plunk/plunk-2026-06-20T191814.png
 security:
 - kind: authentication
   name: Plunk Authentication
@@ -442,6 +445,16 @@ security:
   name: Plunk Domain Security
   slug: plunk-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 4
+skills:
+- name: Create and send a Plunk campaign to a segment
+  slug: plunk-create-and-send-campaign
+- name: Receive Plunk webhook events in your application
+  slug: plunk-receive-webhook-events
+- name: Send a transactional email with Plunk
+  slug: plunk-send-transactional-email
+- name: Track an event and upsert a contact in Plunk
+  slug: plunk-track-event-and-upsert-contact
 slug: plunk
 tags:
 - Email

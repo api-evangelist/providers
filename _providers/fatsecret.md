@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-10-17'
+  score: 31.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -94,11 +96,8 @@ apis:
   description: User weight history
   name: fatsecret Weight Tracking API
   slug: fatsecret-weight-tracking-api
-artifact_total: 33
+artifact_total: 36
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: fatsecret Exercise Diary API
   slug: open-fatsecret-exercise-diary-api
@@ -134,97 +133,97 @@ collections:
   slug: open-fatsecret-weight-tracking-api
 common:
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/agentic-access/fatsecret-agentic-access.yml
+  href: https://artifacts.apis.io/fatsecret/agentic-access/fatsecret-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/fatsecret-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/security/fatsecret-domain-security.yml
+  href: https://artifacts.apis.io/fatsecret/security/fatsecret-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/fatsecret-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/authentication/fatsecret-authentication.yml
+  href: https://artifacts.apis.io/fatsecret/authentication/fatsecret-authentication.yml
   title: ''
   type: Authentication
   url: authentication/fatsecret-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/scopes/fatsecret-scopes.yml
+  href: https://artifacts.apis.io/fatsecret/scopes/fatsecret-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/fatsecret-scopes.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/packages/fatsecret-packages.yml
+  href: https://artifacts.apis.io/fatsecret/packages/fatsecret-packages.yml
   title: ''
   type: Packages
   url: packages/fatsecret-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/well-known/fatsecret-well-known.yml
+  href: https://artifacts.apis.io/fatsecret/well-known/fatsecret-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/fatsecret-well-known.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/mcp/fatsecret-tool-crosswalk.yml
+  href: https://artifacts.apis.io/fatsecret/mcp/fatsecret-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/fatsecret-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/llms/fatsecret-llms.txt
+  href: https://artifacts.apis.io/fatsecret/llms/fatsecret-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/fatsecret-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/conformance/fatsecret-conformance.yml
+  href: https://artifacts.apis.io/fatsecret/conformance/fatsecret-conformance.yml
   title: ''
   type: Conformance
   url: conformance/fatsecret-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/errors/fatsecret-error-codes.yml
+  href: https://artifacts.apis.io/fatsecret/errors/fatsecret-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/fatsecret-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/lifecycle/fatsecret-lifecycle.yml
+  href: https://artifacts.apis.io/fatsecret/lifecycle/fatsecret-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/fatsecret-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/conventions/fatsecret-conventions.yml
+  href: https://artifacts.apis.io/fatsecret/conventions/fatsecret-conventions.yml
   title: ''
   type: Conventions
   url: conventions/fatsecret-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/data-model/fatsecret-data-model.yml
+  href: https://artifacts.apis.io/fatsecret/data-model/fatsecret-data-model.yml
   title: ''
   type: DataModel
   url: data-model/fatsecret-data-model.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/sandbox/fatsecret-sandbox.yml
+  href: https://artifacts.apis.io/fatsecret/sandbox/fatsecret-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/fatsecret-sandbox.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/fatsecret/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/plans/fatsecret-plans-pricing.yml
+  href: https://artifacts.apis.io/fatsecret/plans/fatsecret-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/fatsecret-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/rate-limits/fatsecret-rate-limits.yml
+  href: https://artifacts.apis.io/fatsecret/rate-limits/fatsecret-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/fatsecret-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/finops/fatsecret-finops.yml
+  href: https://artifacts.apis.io/fatsecret/finops/fatsecret-finops.yml
   title: ''
   type: FinOps
   url: finops/fatsecret-finops.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/rules/fatsecret-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/fatsecret/rules/fatsecret-jsonschema-spectral-rules.yml
   title: Spectral Rules
   type: Documentation
   url: rules/fatsecret-jsonschema-spectral-rules.yml
@@ -295,11 +294,11 @@ common:
 created: '2025-03-01'
 description: fatsecret is a global nutrition and wellness platform whose Platform API exposes a verified database of more than 2.3 million foods across 58 countries and 26 languages, plus recipes, exercises, image recognition, natural language processing, and user-scoped food diary, exercise diary, and weight tracking. The API is used by more than 50,000 developers and serves over 700 million calls per month. Bootstrapped and profitable since 2006, fatsecret has never raised venture funding.
 finops:
-- has_sources: false
-  method: generated
+- has_sources: true
+  method: derived
   name: Fatsecret Finops
   primary_unit: ''
-  service_category: API
+  service_category: ''
   slug: fatsecret-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fatsecret.png
@@ -329,7 +328,7 @@ plans:
 - name: Fatsecret Plans Pricing
   plan_count: 3
   slug: fatsecret-plans-pricing
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Fatsecret Rate Limits
@@ -352,8 +351,8 @@ scopes:
   slug: fatsecret-scopes
   summary_line: 7 scopes · clientCredentials
 score:
-  band: developing
-  composite: 53.6
+  band: strong
+  composite: 55.2
   coverage:
     artifact_dirs: 28
     catalog_earned: 73.3
@@ -361,14 +360,14 @@ score:
     catalog_gap: 41.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 0.0
   facets:
     access_clarity: 76.3
     contract_governance: 14.4
     contract_quality: 45.2
-    developer_ergonomics: 56.5
+    developer_ergonomics: 58.9
     discoverability: 66.1
-    operational_transparency: 34.2
+    operational_transparency: 36.8
   previous_composite: 55.2
   provenance:
     agentic_access: derived
@@ -386,13 +385,14 @@ score:
     regime: Health
     regime_id: health
     score: 36.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/screenshots/fatsecret-2026-06-20T181056.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/fatsecret/fatsecret-2026-06-20T181056.png
 security:
 - kind: authentication
   name: Fatsecret Authentication
@@ -402,6 +402,16 @@ security:
   name: Fatsecret Domain Security
   slug: fatsecret-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 4
+skills:
+- name: Log a meal to a member's food diary
+  slug: fatsecret-log-a-meal
+- name: Look up verified nutrition for a food
+  slug: fatsecret-look-up-nutrition
+- name: Find recipes and build saved meals
+  slug: fatsecret-recipes-and-saved-meals
+- name: Track a member's weight and exercise
+  slug: fatsecret-track-weight-and-exercise
 slug: fatsecret
 tags:
 - Artificial Intelligence

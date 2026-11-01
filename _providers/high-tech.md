@@ -4,6 +4,6 @@ layout: provider
 name: high-tech
 nav: Providers
 network: true
-random_paper: 1
+random_paper: 17
 slug: high-tech
 ---

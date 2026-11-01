@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: false
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.9
-  scored_at: '2026-10-17'
+  score: 31.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -118,7 +120,7 @@ arazzos:
 - description: Split a multi-document file into ranges, then extract structured fields from the original file, reading splits and fields.
   name: Mindee Split Then Extract
   slug: mindee-split-then-extract-workflow
-artifact_total: 62
+artifact_total: 61
 collections:
 - collection_type: postman
   name: Mindee Classification API
@@ -139,9 +141,6 @@ collections:
   name: Mindee Split API
   slug: postman-mindee-split-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Mindee Classification API
   slug: open-mindee-classification-api
 - collection_type: open
@@ -160,22 +159,27 @@ collections:
   name: Mindee Classification Split API
   slug: open-mindee-split-api
 common:
+- group: other
+  href: https://artifacts.apis.io/mindee/capabilities/mindee-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mindee-capability-edges.yml
 - group: company
   title: ''
   type: Website
   url: https://www.mindee.com/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/agentic-access/mindee-agentic-access.yml
+  href: https://artifacts.apis.io/mindee/agentic-access/mindee-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/mindee-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/security/mindee-domain-security.yml
+  href: https://artifacts.apis.io/mindee/security/mindee-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/mindee-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/authentication/mindee-authentication.yml
+  href: https://artifacts.apis.io/mindee/authentication/mindee-authentication.yml
   title: ''
   type: Authentication
   url: authentication/mindee-authentication.yml
@@ -184,72 +188,72 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/mindee/overview
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/arazzo/mindee-bank-statement-extraction-workflow.yml
+  href: https://artifacts.apis.io/mindee/arazzo/mindee-bank-statement-extraction-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindee-bank-statement-extraction-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/arazzo/mindee-classify-document-type-workflow.yml
+  href: https://artifacts.apis.io/mindee/arazzo/mindee-classify-document-type-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindee-classify-document-type-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/arazzo/mindee-classify-then-extract-workflow.yml
+  href: https://artifacts.apis.io/mindee/arazzo/mindee-classify-then-extract-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindee-classify-then-extract-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/arazzo/mindee-crop-document-workflow.yml
+  href: https://artifacts.apis.io/mindee/arazzo/mindee-crop-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindee-crop-document-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/arazzo/mindee-custom-document-extraction-workflow.yml
+  href: https://artifacts.apis.io/mindee/arazzo/mindee-custom-document-extraction-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindee-custom-document-extraction-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/arazzo/mindee-extract-from-url-workflow.yml
+  href: https://artifacts.apis.io/mindee/arazzo/mindee-extract-from-url-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindee-extract-from-url-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/arazzo/mindee-invoice-extraction-workflow.yml
+  href: https://artifacts.apis.io/mindee/arazzo/mindee-invoice-extraction-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindee-invoice-extraction-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/arazzo/mindee-ocr-full-text-workflow.yml
+  href: https://artifacts.apis.io/mindee/arazzo/mindee-ocr-full-text-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindee-ocr-full-text-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/arazzo/mindee-ocr-then-extract-workflow.yml
+  href: https://artifacts.apis.io/mindee/arazzo/mindee-ocr-then-extract-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindee-ocr-then-extract-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/arazzo/mindee-passport-id-extraction-workflow.yml
+  href: https://artifacts.apis.io/mindee/arazzo/mindee-passport-id-extraction-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindee-passport-id-extraction-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/arazzo/mindee-poll-job-with-failure-branch-workflow.yml
+  href: https://artifacts.apis.io/mindee/arazzo/mindee-poll-job-with-failure-branch-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindee-poll-job-with-failure-branch-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/arazzo/mindee-receipt-extraction-workflow.yml
+  href: https://artifacts.apis.io/mindee/arazzo/mindee-receipt-extraction-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindee-receipt-extraction-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/arazzo/mindee-split-multi-document-workflow.yml
+  href: https://artifacts.apis.io/mindee/arazzo/mindee-split-multi-document-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindee-split-multi-document-workflow.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/arazzo/mindee-split-then-extract-workflow.yml
+  href: https://artifacts.apis.io/mindee/arazzo/mindee-split-then-extract-workflow.yml
   title: ''
   type: Arazzo
   url: arazzo/mindee-split-then-extract-workflow.yml
@@ -382,27 +386,27 @@ common:
   type: Documentation
   url: https://github.com/mindee/platform-docs
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/plans/mindee-plans-pricing.yml
+  href: https://artifacts.apis.io/mindee/plans/mindee-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/mindee-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/rate-limits/mindee-rate-limits.yml
+  href: https://artifacts.apis.io/mindee/rate-limits/mindee-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/mindee-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/finops/mindee-finops.yml
+  href: https://artifacts.apis.io/mindee/finops/mindee-finops.yml
   title: ''
   type: FinOps
   url: finops/mindee-finops.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/vocabulary/mindee-vocabulary.yml
+  href: https://artifacts.apis.io/mindee/vocabulary/mindee-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/mindee-vocabulary.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/rules/mindee-rules.yml
+  href: https://artifacts.apis.io/mindee/rules/mindee-rules.yml
   title: ''
   type: SpectralRules
   url: rules/mindee-rules.yml
@@ -433,10 +437,10 @@ features:
 - Credit-based pricing with monthly subscription tiers and per-credit overage
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Mindee Finops
-  primary_unit: credit
-  service_category: AI and Machine Learning
+  primary_unit: credits
+  service_category: ''
   slug: mindee-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mindee.png
@@ -467,12 +471,12 @@ overview: 'Mindee is listed with 6 APIs on the [APIs.io](https://apis.io/) netwo
   The Mindee catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Mindee''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 49 more developer resources.'
+  Mindee''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 50 more developer resources.'
 plans:
 - name: Mindee Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: mindee-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Mindee Rate Limits
@@ -502,24 +506,24 @@ rules:
     warn: 2
   slug: mindee-rules
 score:
-  band: developing
-  composite: 50.0
+  band: strong
+  composite: 55.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 66.4
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.6
+    artifact_dirs: 20
+    catalog_earned: 75.4
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.6
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -4.0
+  delta: 0.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 63.2
     contract_governance: 27.3
     contract_quality: 67.2
     developer_ergonomics: 63.1
     discoverability: 62.5
     operational_transparency: 28.9
-  previous_composite: 54.0
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     contracts:
@@ -533,13 +537,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 15.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/screenshots/mindee-2026-06-20T185555.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/mindee/mindee-2026-06-20T185555.png
 security:
 - kind: authentication
   name: Mindee Authentication

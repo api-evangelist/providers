@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.6
-  scored_at: '2026-10-17'
+  score: 34.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -110,15 +112,12 @@ apis:
   description: Skilled Nursing Facility stay verification. Labelled "(Discontinued)" by pVerify; every operation is marked deprecated in the spec.
   name: pVerify SNF API (discontinued)
   slug: pverify-snf-api
-artifact_total: 29
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Pverify Callbacks
   slug: pverify-callbacks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: pVerify Authentication API
   slug: open-pverify-authentication-api
@@ -142,7 +141,7 @@ collections:
   slug: open-pverify
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/capabilities/pverify-capability-edges.yml
+  href: https://artifacts.apis.io/pverify/capabilities/pverify-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/pverify-capability-edges.yml
@@ -207,7 +206,7 @@ common:
   type: StatusPage
   url: https://status.dosespot.com/posts/dashboard
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/security/pverify-trust-center.yml
+  href: https://artifacts.apis.io/pverify/security/pverify-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/pverify-trust-center.yml
@@ -220,97 +219,97 @@ common:
   type: SLA
   url: https://pverify.com/wp-content/uploads/2025/04/Exhibit-B-SLA.docx
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/authentication/pverify-authentication.yml
+  href: https://artifacts.apis.io/pverify/authentication/pverify-authentication.yml
   title: ''
   type: Authentication
   url: authentication/pverify-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/conventions/pverify-conventions.yml
+  href: https://artifacts.apis.io/pverify/conventions/pverify-conventions.yml
   title: ''
   type: Conventions
   url: conventions/pverify-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/errors/pverify-error-codes.yml
+  href: https://artifacts.apis.io/pverify/errors/pverify-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/pverify-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/lifecycle/pverify-lifecycle.yml
+  href: https://artifacts.apis.io/pverify/lifecycle/pverify-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/pverify-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/conformance/pverify-conformance.yml
+  href: https://artifacts.apis.io/pverify/conformance/pverify-conformance.yml
   title: ''
   type: Conformance
   url: conformance/pverify-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/data-model/pverify-data-model.yml
+  href: https://artifacts.apis.io/pverify/data-model/pverify-data-model.yml
   title: ''
   type: DataModel
   url: data-model/pverify-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/vocabulary/pverify-vocabulary.yml
+  href: https://artifacts.apis.io/pverify/vocabulary/pverify-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/pverify-vocabulary.yml
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/sandbox/pverify-sandbox.yml
+  href: https://artifacts.apis.io/pverify/sandbox/pverify-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/pverify-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/components/pverify-components.yml
+  href: https://artifacts.apis.io/pverify/components/pverify-components.yml
   title: ''
   type: Components
   url: components/pverify-components.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/packages/pverify-packages.yml
+  href: https://artifacts.apis.io/pverify/packages/pverify-packages.yml
   title: ''
   type: Packages
   url: packages/pverify-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/packages/pverify-packages.yml
+  href: https://artifacts.apis.io/pverify/packages/pverify-packages.yml
   title: ''
   type: SDKs
   url: packages/pverify-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/pverify/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/llms/pverify-llms.txt
+  href: https://artifacts.apis.io/pverify/llms/pverify-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/pverify-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/agentic-access/pverify-agentic-access.yml
+  href: https://artifacts.apis.io/pverify/agentic-access/pverify-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/pverify-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/security/pverify-domain-security.yml
+  href: https://artifacts.apis.io/pverify/security/pverify-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/pverify-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/plans/pverify-plans-pricing.yml
+  href: https://artifacts.apis.io/pverify/plans/pverify-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/pverify-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/rate-limits/pverify-rate-limits.yml
+  href: https://artifacts.apis.io/pverify/rate-limits/pverify-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/pverify-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/finops/pverify-finops.yml
+  href: https://artifacts.apis.io/pverify/finops/pverify-finops.yml
   title: ''
   type: FinOps
   url: finops/pverify-finops.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/collections/pverify-published-postman-collection.json
+  href: https://artifacts.apis.io/pverify/collections/pverify-published-postman-collection.json
   title: ''
   type: PostmanCollection
   url: collections/pverify-published-postman-collection.json
@@ -318,10 +317,10 @@ created: '2026-06-21'
 description: pVerify is a US healthcare insurance eligibility and revenue-cycle API company, part of DoseSpot (now Interra Health). Its REST API at https://api.pverify.com exchanges X12 270/271 eligibility transactions and returns parsed, practice-type-specific benefit summaries; runs 276/277 claim status inquiries; discovers unknown active coverage for self-pay patients; looks up Medicare Beneficiary Identifiers; validates patient demographics; publishes a supported-payer catalog with live per-payer up/down status; and estimates patient financial responsibility at the point of service. Authentication is an OAuth2 client-credentials bearer token plus a case-sensitive Client-API-Id header. pVerify publishes no OpenAPI — its machine-readable contract is a public Postman Collection v2.0.0 at https://postman.pverify.com/, from which the OpenAPI documents in this repository were derived operation-for-operation.
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Pverify Finops
-  primary_unit: ''
-  service_category: Healthcare and Insurance
+  primary_unit: transactions
+  service_category: ''
   slug: pverify-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pverify.png
@@ -339,32 +338,35 @@ overview: 'pVerify publishes 13 API contracts indexed on the [APIs.io](https://a
   pVerify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 31 more developer resources.'
 plans:
 - name: Pverify Plans Pricing
-  plan_count: 8
+  plan_count: 10
   slug: pverify-plans-pricing
-random_paper: 3
+- name: Pverify Price Estimates
+  plan_count: 0
+  slug: pverify-price-estimates
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Pverify Rate Limits
   slug: pverify-rate-limits
 score:
-  band: developing
-  composite: 51.2
+  band: exemplar
+  composite: 68.6
   coverage:
-    artifact_dirs: 27
-    catalog_earned: 66.0
+    artifact_dirs: 28
+    catalog_earned: 69.0
     catalog_earned_first_party: 29.0
-    catalog_gap: 49.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.6
+  delta: 1.6
   facets:
-    access_clarity: 53.9
+    access_clarity: 100.0
     contract_governance: 33.3
     contract_quality: 56.4
-    developer_ergonomics: 49.4
-    discoverability: 73.2
-    operational_transparency: 42.1
-  previous_composite: 52.8
+    developer_ergonomics: 78.0
+    discoverability: 66.1
+    operational_transparency: 52.6
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -380,14 +382,15 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 19.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 26.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/screenshots/pverify-2026-08-17T080414.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/pverify/pverify-2026-08-17T080414.png
 security:
 - kind: authentication
   name: Pverify Authentication
@@ -401,6 +404,18 @@ security:
   name: Pverify Trust Center
   slug: pverify-trust-center
   summary_line: SOC 2 Type II, HIPAA
+skill_count: 5
+skills:
+- name: Check claim status with pVerify
+  slug: pverify-check-claim-status
+- name: Discover unknown insurance coverage with pVerify
+  slug: pverify-discover-coverage
+- name: Estimate patient financial responsibility with pVerify
+  slug: pverify-estimate-patient-responsibility
+- name: Monitor payer health before spending pVerify transactions
+  slug: pverify-monitor-payer-health
+- name: Verify patient insurance eligibility with pVerify
+  slug: pverify-verify-eligibility
 slug: pverify
 tags:
 - Healthcare

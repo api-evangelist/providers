@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-10-17'
+  score: 26.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -84,11 +86,8 @@ apis:
   description: Webhook configuration and management
   name: Rutter Webhooks API
   slug: rutter-webhooks-api
-artifact_total: 35
+artifact_total: 34
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: Rutter Unified Accounting API
   slug: open-rutter-accounting-api
@@ -112,37 +111,37 @@ collections:
   slug: open-rutter-webhooks-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/plans/rutter-plans-pricing.yml
+  href: https://artifacts.apis.io/rutter/plans/rutter-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/rutter-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/rate-limits/rutter-rate-limits.yml
+  href: https://artifacts.apis.io/rutter/rate-limits/rutter-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/rutter-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/finops/rutter-finops.yml
+  href: https://artifacts.apis.io/rutter/finops/rutter-finops.yml
   title: ''
   type: FinOps
   url: finops/rutter-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/capabilities/rutter-capability-edges.yml
+  href: https://artifacts.apis.io/rutter/capabilities/rutter-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/rutter-capability-edges.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/agentic-access/rutter-agentic-access.yml
+  href: https://artifacts.apis.io/rutter/agentic-access/rutter-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/rutter-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/security/rutter-domain-security.yml
+  href: https://artifacts.apis.io/rutter/security/rutter-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/rutter-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/authentication/rutter-authentication.yml
+  href: https://artifacts.apis.io/rutter/authentication/rutter-authentication.yml
   title: ''
   type: Authentication
   url: authentication/rutter-authentication.yml
@@ -272,7 +271,7 @@ plans:
 - name: Rutter Plans Pricing
   plan_count: 1
   slug: rutter-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Rutter Rate Limits
@@ -303,7 +302,7 @@ rules:
   slug: rutter-spectral-rules
 score:
   band: thin
-  composite: 35.6
+  composite: 36.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 53.0
@@ -311,7 +310,7 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 27.3
@@ -319,7 +318,7 @@ score:
     developer_ergonomics: 31.0
     discoverability: 64.3
     operational_transparency: 10.5
-  previous_composite: 37.1
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -333,13 +332,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.2
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/screenshots/rutter-2026-06-20T193303.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/rutter/rutter-2026-06-20T193303.png
 security:
 - kind: authentication
   name: Rutter Authentication

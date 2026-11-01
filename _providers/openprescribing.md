@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-10-17'
+  score: 19.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,7 +68,7 @@ apis:
   description: Drug-tariff prices and price-per-unit / ghost-generic savings data.
   name: OpenPrescribing Tariff API
   slug: openprescribing-tariff-api
-artifact_total: 9
+artifact_total: 11
 collections:
 - collection_type: open
   name: OpenPrescribing API
@@ -85,12 +87,12 @@ common:
   type: License
   url: https://github.com/bennettoxford/openprescribing/blob/main/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/agentic-access/openprescribing-agentic-access.yml
+  href: https://artifacts.apis.io/openprescribing/agentic-access/openprescribing-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/openprescribing-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/security/openprescribing-domain-security.yml
+  href: https://artifacts.apis.io/openprescribing/security/openprescribing-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/openprescribing-domain-security.yml
@@ -135,62 +137,62 @@ common:
   type: GettingStarted
   url: https://openprescribing.net/api/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/_original/openprescribing-openapi.yml
+  href: https://artifacts.apis.io/openprescribing/openapi/_original/openprescribing-openapi.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/openprescribing-openapi.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/authentication/openprescribing-authentication.yml
+  href: https://artifacts.apis.io/openprescribing/authentication/openprescribing-authentication.yml
   title: ''
   type: Authentication
   url: authentication/openprescribing-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/conventions/openprescribing-conventions.yml
+  href: https://artifacts.apis.io/openprescribing/conventions/openprescribing-conventions.yml
   title: ''
   type: Conventions
   url: conventions/openprescribing-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/errors/openprescribing-problem-types.yml
+  href: https://artifacts.apis.io/openprescribing/errors/openprescribing-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/openprescribing-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/data-model/openprescribing-data-model.yml
+  href: https://artifacts.apis.io/openprescribing/data-model/openprescribing-data-model.yml
   title: ''
   type: DataModel
   url: data-model/openprescribing-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/lifecycle/openprescribing-lifecycle.yml
+  href: https://artifacts.apis.io/openprescribing/lifecycle/openprescribing-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/openprescribing-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/conformance/openprescribing-conformance.yml
+  href: https://artifacts.apis.io/openprescribing/conformance/openprescribing-conformance.yml
   title: ''
   type: Conformance
   url: conformance/openprescribing-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/well-known/openprescribing-well-known.yml
+  href: https://artifacts.apis.io/openprescribing/well-known/openprescribing-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/openprescribing-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/mcp/openprescribing-mcp.yml
+  href: https://artifacts.apis.io/openprescribing/mcp/openprescribing-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/openprescribing-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/llms/openprescribing-llms.txt
+  href: https://artifacts.apis.io/openprescribing/llms/openprescribing-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/openprescribing-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/overlays/openprescribing-openapi-overlay.yaml
+  href: https://artifacts.apis.io/openprescribing/overlays/openprescribing-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/openprescribing-openapi-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/openprescribing/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -206,16 +208,16 @@ overview: 'OpenPrescribing publishes 5 API contracts indexed on the [APIs.io](ht
 
 
   OpenPrescribing''s developer surface includes documentation, API reference, support, engineering blog, getting-started guide, authentication, and 21 more developer resources.'
-random_paper: 4
+random_paper: 2
 score:
   band: thin
-  composite: 30.9
+  composite: 31.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
-    catalog_max: 100.0
+    catalog_gap: 78.0
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
@@ -223,8 +225,8 @@ score:
     contract_governance: 4.5
     contract_quality: 45.6
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 2.6
+    discoverability: 66.1
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -233,10 +235,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 30.9
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,14 +252,14 @@ score:
     regime: Health
     regime_id: health
     score: 13.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/screenshots/openprescribing-2026-08-07T190634.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/openprescribing/openprescribing-2026-08-07T190634.png
 security:
 - kind: authentication
   name: Openprescribing Authentication
@@ -270,6 +269,12 @@ security:
   name: Openprescribing Domain Security
   slug: openprescribing-domain-security
   summary_line: TLSv1.3 · DMARC
+skill_count: 2
+skills:
+- name: Analyse prescribing spending for a drug
+  slug: openprescribing-analyse-drug-spending
+- name: Compare prescribing-quality measures across organisations
+  slug: openprescribing-compare-measures
 slug: openprescribing
 tags:
 - Healthcare

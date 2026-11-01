@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,12 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/morado/refs/heads/main/security/morado-domain-security.yml
+  href: https://artifacts.apis.io/morado/security/morado-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/morado-domain-security.yml
@@ -70,12 +72,12 @@ common:
   type: PrivacyPolicy
   url: https://www.moradocolombia.com/politicas-de-privacidad
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/morado/refs/heads/main/mcp/morado-mcp.yml
+  href: https://artifacts.apis.io/morado/mcp/morado-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/morado-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/morado/refs/heads/main/llms/morado-llms.txt
+  href: https://artifacts.apis.io/morado/llms/morado-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/morado-llms.txt
@@ -84,7 +86,7 @@ description: Morado is a Colombian fintech and B2B marketplace for the beauty an
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/morado.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at www.moradocolombia.com over HTTP; 7 tools listed.
+- description: Remote MCP server at www.moradocolombia.com over HTTP; 10 tools listed.
   name: Morado Wix Site MCP
   slug: morado-wix-site-mcp
 modified: '2026-07-20'
@@ -95,10 +97,10 @@ overview: 'Morado is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Morado''s developer surface includes signup flow, pricing, support, and 7 more developer resources.'
-random_paper: 4
+random_paper: 18
 score:
   band: emerging
-  composite: 14.9
+  composite: 14.5
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -106,13 +108,13 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 51.7
+    discoverability: 48.3
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -121,7 +123,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 14.8
+  previous_composite: 14.5
   provenance:
     mcp: platform-generated
   regulatory:
@@ -130,14 +132,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 13.7
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/morado/refs/heads/main/screenshots/morado-2026-08-07T184258.png
+screenshot: https://apis.io/screenshots/morado/morado-2026-08-07T184258.png
 security:
 - kind: domain-security
   name: Morado Domain Security

@@ -20,21 +20,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: derived
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-10-17'
+  score: 18.2
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://api.happy-or-not.com/v2/
@@ -149,11 +151,8 @@ arazzos:
 - description: Read alert specifications, poll triggered alerts, then read their comments.
   name: Monitor HappyOrNot alerts
   slug: happyornot-monitor-alerts
-artifact_total: 47
+artifact_total: 51
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: HappyOrNot Customer API v2 alert-comments API
   slug: open-happyornot-alert-comments-api
@@ -218,43 +217,48 @@ collections:
   name: HappyOrNot Customer API v2 alert-comments users API
   slug: open-happyornot-users-api
 common:
+- group: commercial
+  href: https://artifacts.apis.io/happyornot/plans/happyornot-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/happyornot-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/capabilities/happyornot-capability-edges.yml
+  href: https://artifacts.apis.io/happyornot/capabilities/happyornot-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/happyornot-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/openapi/_original/happyornot-openapi-original.yml
+  href: https://artifacts.apis.io/happyornot/openapi/_original/happyornot-openapi-original.yml
   title: ''
   type: OpenAPI
   url: openapi/_original/happyornot-openapi-original.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/overlays/happyornot-openapi-overlay.yaml
+  href: https://artifacts.apis.io/happyornot/overlays/happyornot-openapi-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/happyornot-openapi-overlay.yaml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/authentication/happyornot-authentication.yml
+  href: https://artifacts.apis.io/happyornot/authentication/happyornot-authentication.yml
   title: ''
   type: Authentication
   url: authentication/happyornot-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/security/happyornot-domain-security.yml
+  href: https://artifacts.apis.io/happyornot/security/happyornot-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/happyornot-domain-security.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/conventions/happyornot-conventions.yml
+  href: https://artifacts.apis.io/happyornot/conventions/happyornot-conventions.yml
   title: ''
   type: Conventions
   url: conventions/happyornot-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/errors/happyornot-problem-types.yml
+  href: https://artifacts.apis.io/happyornot/errors/happyornot-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/happyornot-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/lifecycle/happyornot-lifecycle.yml
+  href: https://artifacts.apis.io/happyornot/lifecycle/happyornot-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/happyornot-lifecycle.yml
@@ -263,52 +267,52 @@ common:
   type: Deprecation
   url: https://happyornot.github.io/docs/api-v1/
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/changelog/happyornot-changelog.yml
+  href: https://artifacts.apis.io/happyornot/changelog/happyornot-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/happyornot-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/data-model/happyornot-data-model.yml
+  href: https://artifacts.apis.io/happyornot/data-model/happyornot-data-model.yml
   title: ''
   type: DataModel
   url: data-model/happyornot-data-model.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/conformance/happyornot-conformance.yml
+  href: https://artifacts.apis.io/happyornot/conformance/happyornot-conformance.yml
   title: ''
   type: Conformance
   url: conformance/happyornot-conformance.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/mcp/happyornot-mcp.yml
+  href: https://artifacts.apis.io/happyornot/mcp/happyornot-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/happyornot-mcp.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/packages/happyornot-packages.yml
+  href: https://artifacts.apis.io/happyornot/packages/happyornot-packages.yml
   title: ''
   type: Packages
   url: packages/happyornot-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/llms/happyornot-llms.txt
+  href: https://artifacts.apis.io/happyornot/llms/happyornot-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/happyornot-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/happyornot/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/arazzo/happyornot-fetch-feedback.yml
+  href: https://artifacts.apis.io/happyornot/arazzo/happyornot-fetch-feedback.yml
   title: ''
   type: Arazzo
   url: arazzo/happyornot-fetch-feedback.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/arazzo/happyornot-monitor-alerts.yml
+  href: https://artifacts.apis.io/happyornot/arazzo/happyornot-monitor-alerts.yml
   title: ''
   type: Arazzo
   url: arazzo/happyornot-monitor-alerts.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/well-known/happyornot-well-known.yml
+  href: https://artifacts.apis.io/happyornot/well-known/happyornot-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/happyornot-well-known.yml
@@ -362,6 +366,14 @@ common:
   url: https://www.happy-or-not.com
 created: '2026-07-17'
 description: HappyOrNot is a Finnish customer-experience feedback company known for its Smiley Terminal, Smiley Touch and Smiley Digital feedback devices used across retail, airports, healthcare, public sector and workplaces. Its read-only Customer API v2 lets applications and BI tools pull raw feedback data — button (smiley/NPS) ratings, follow-up selections, freeform text, AI demographics, contact-request details and metadata — together with the experience points, groups, surveys, questions, smileys, users and alerts that produce it. Authentication is a package-scoped API token (X-HON-API-Token header or auth query parameter); responses are JSON or CSV, paged with offset/limit and an X-More-Available header. The API is documented with an OpenAPI 3.1 specification and integrates with Power BI, Tableau, Salesforce, Medallia, Qualtrics and Zapier.
+finops:
+- has_sources: true
+  method: derived
+  name: Happyornot Finops
+  primary_unit: ''
+  service_category: ''
+  slug: happyornot-finops
+  template: true
 image: https://www.happy-or-not.com/wp-content/uploads/2021/03/HappyOrNot-logo.png
 layout: provider
 modified: '2026-07-19'
@@ -371,32 +383,36 @@ network: true
 overview: 'HappyOrNot publishes 21 API contracts indexed on the [APIs.io](https://apis.io/) network, including Alert Comments API, Alert Specifications API, Alerts API, and 18 more. Tagged areas include Company, Enterprise, Customer Experience, Customer Feedback, and Surveys.
 
 
-  HappyOrNot''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
-random_paper: 8
+  HappyOrNot''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 25 more developer resources.'
+plans:
+- name: Happyornot Plans Pricing
+  plan_count: 3
+  slug: happyornot-plans-pricing
+random_paper: 4
 score:
   band: developing
-  composite: 43.2
+  composite: 51.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 6.4
   facets:
-    access_clarity: 31.6
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 49.6
     developer_ergonomics: 58.9
-    discoverability: 73.2
-    operational_transparency: 26.3
+    discoverability: 66.1
+    operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - finland
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 43.1
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -412,14 +428,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/screenshots/happyornot-2026-07-25T220655.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/happyornot/happyornot-2026-07-25T220655.png
 security:
 - kind: authentication
   name: Happyornot Authentication
@@ -429,6 +445,14 @@ security:
   name: Happyornot Domain Security
   slug: happyornot-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Export a full HappyOrNot feedback dataset
+  slug: happyornot-export-feedback-dataset
+- name: Fetch HappyOrNot button feedback for a location
+  slug: happyornot-fetch-button-feedback
+- name: Monitor HappyOrNot alerts
+  slug: happyornot-monitor-alerts
 slug: happyornot
 tags:
 - Company

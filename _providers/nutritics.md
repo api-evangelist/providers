@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.6
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: REST API providing access to over one million foods including generic, branded, and recipe items, with up to 258 nutrient parameters, allergen information, and regional compliance datasets. JSON respo
@@ -42,22 +44,22 @@ apis:
 artifact_total: 5
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nutritics/refs/heads/main/plans/nutritics-plans-pricing.yml
+  href: https://artifacts.apis.io/nutritics/plans/nutritics-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nutritics-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nutritics/refs/heads/main/rate-limits/nutritics-rate-limits.yml
+  href: https://artifacts.apis.io/nutritics/rate-limits/nutritics-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nutritics-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nutritics/refs/heads/main/finops/nutritics-finops.yml
+  href: https://artifacts.apis.io/nutritics/finops/nutritics-finops.yml
   title: ''
   type: FinOps
   url: finops/nutritics-finops.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nutritics/refs/heads/main/security/nutritics-domain-security.yml
+  href: https://artifacts.apis.io/nutritics/security/nutritics-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nutritics-domain-security.yml
@@ -107,7 +109,7 @@ finops:
 - has_sources: false
   method: generated
   name: Nutritics Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: nutritics-finops
   template: true
@@ -125,14 +127,14 @@ plans:
 - name: Nutritics Plans Pricing
   plan_count: 3
   slug: nutritics-plans-pricing
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Nutritics Rate Limits
   slug: nutritics-rate-limits
 score:
   band: emerging
-  composite: 15.6
+  composite: 19.5
   coverage:
     artifact_dirs: 7
     catalog_earned: 38.0
@@ -140,29 +142,29 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
     discoverability: 57.1
     operational_transparency: 7.9
-  previous_composite: 17.1
+  previous_composite: 19.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 7.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 10.9
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/nutritics/refs/heads/main/screenshots/nutritics-2026-06-20T190532.png
+screenshot: https://apis.io/screenshots/nutritics/nutritics-2026-06-20T190532.png
 security:
 - kind: domain-security
   name: Nutritics Domain Security

@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: verified
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.3
-  scored_at: '2026-10-17'
+  score: 29.1
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://{supplier_endpoint}/octo
@@ -57,15 +59,12 @@ apis:
   description: The Supplier API from Klook — 1 operation(s) for supplier.
   name: Klook Supplier API
   slug: klook-supplier-api
-artifact_total: 12
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Klook Notifications Webhooks
   slug: klook-notifications-webhooks
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: OCTO API Specification Availability API
   slug: open-klook-availability-api
@@ -80,7 +79,7 @@ collections:
   slug: open-klook-supplier-api
 common:
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/capabilities/klook-capability-edges.yml
+  href: https://artifacts.apis.io/klook/capabilities/klook-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/klook-capability-edges.yml
@@ -141,72 +140,72 @@ common:
   type: About
   url: https://www.klook.com/en-US/about/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/llms/klook-llms.txt
+  href: https://artifacts.apis.io/klook/llms/klook-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/klook-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/authentication/klook-authentication.yml
+  href: https://artifacts.apis.io/klook/authentication/klook-authentication.yml
   title: ''
   type: Authentication
   url: authentication/klook-authentication.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/conventions/klook-conventions.yml
+  href: https://artifacts.apis.io/klook/conventions/klook-conventions.yml
   title: ''
   type: Conventions
   url: conventions/klook-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/errors/klook-error-codes.yml
+  href: https://artifacts.apis.io/klook/errors/klook-error-codes.yml
   title: ''
   type: ErrorCatalog
   url: errors/klook-error-codes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/conformance/klook-conformance.yml
+  href: https://artifacts.apis.io/klook/conformance/klook-conformance.yml
   title: ''
   type: Conformance
   url: conformance/klook-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/lifecycle/klook-lifecycle.yml
+  href: https://artifacts.apis.io/klook/lifecycle/klook-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/klook-lifecycle.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/changelog/klook-changelog.yml
+  href: https://artifacts.apis.io/klook/changelog/klook-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/klook-changelog.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/data-model/klook-data-model.yml
+  href: https://artifacts.apis.io/klook/data-model/klook-data-model.yml
   title: ''
   type: DataModel
   url: data-model/klook-data-model.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/overlays/klook-octo-overlay.yaml
+  href: https://artifacts.apis.io/klook/overlays/klook-octo-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/klook-octo-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/mcp/klook-mcp.yml
+  href: https://artifacts.apis.io/klook/mcp/klook-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/klook-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/klook/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/asyncapi/klook-notifications-webhooks.yml
+  href: https://artifacts.apis.io/klook/asyncapi/klook-notifications-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/klook-notifications-webhooks.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/packages/klook-packages.yml
+  href: https://artifacts.apis.io/klook/packages/klook-packages.yml
   title: ''
   type: Packages
   url: packages/klook-packages.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/security/klook-domain-security.yml
+  href: https://artifacts.apis.io/klook/security/klook-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/klook-domain-security.yml
@@ -228,7 +227,7 @@ overview: 'Klook publishes 4 API contracts indexed on the [APIs.io](https://apis
 random_paper: 16
 score:
   band: developing
-  composite: 42.7
+  composite: 45.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -236,20 +235,20 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
-    access_clarity: 21.1
+    access_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 55.6
     developer_ergonomics: 56.5
-    discoverability: 73.2
+    discoverability: 66.1
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - greater-china
-  previous_composite: 42.6
+  previous_composite: 45.3
   provenance:
     conformance: first-party
     contracts:
@@ -265,13 +264,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 24.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/screenshots/klook-2026-08-17T123946.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/klook/klook-2026-08-17T123946.png
 security:
 - kind: authentication
   name: Klook Authentication
@@ -281,6 +281,14 @@ security:
   name: Klook Domain Security
   slug: klook-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: Cancel or amend a Klook booking
+  slug: klook-cancel-and-amend-booking
+- name: Reserve and confirm a Klook booking
+  slug: klook-reserve-and-confirm-booking
+- name: Sync a Klook supplier product catalog and pricing
+  slug: klook-sync-product-catalog
 slug: klook
 tags:
 - Company

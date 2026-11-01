@@ -18,21 +18,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.0
-  scored_at: '2026-10-17'
+  score: 13.4
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - baseURL: https://v2-api.mav.xyz
@@ -43,9 +45,6 @@ apis:
 artifact_total: 5
 collections:
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: Maverick V2 Data Latest API
   slug: open-maverick-protocol-latest-api
 common:
@@ -54,37 +53,37 @@ common:
   type: Blog
   url: https://www.mav.xyz/blog/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/skills/maverick-protocol-market-tickers.md
+  href: https://artifacts.apis.io/maverick-protocol/skills/maverick-protocol-market-tickers.md
   title: ''
   type: AgentSkill
   url: skills/maverick-protocol-market-tickers.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/mcp/maverick-protocol-mcp.yml
+  href: https://artifacts.apis.io/maverick-protocol/mcp/maverick-protocol-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/maverick-protocol-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/llms/maverick-protocol-llms.txt
+  href: https://artifacts.apis.io/maverick-protocol/llms/maverick-protocol-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/maverick-protocol-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/well-known/maverick-protocol-well-known.yml
+  href: https://artifacts.apis.io/maverick-protocol/well-known/maverick-protocol-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/maverick-protocol-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/security/maverick-protocol-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/maverick-protocol/security/maverick-protocol-vulnerability-disclosure.yml
   title: ''
   type: Security
   url: security/maverick-protocol-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/security/maverick-protocol-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/maverick-protocol/security/maverick-protocol-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/maverick-protocol-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/security/maverick-protocol-domain-security.yml
+  href: https://artifacts.apis.io/maverick-protocol/security/maverick-protocol-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/maverick-protocol-domain-security.yml
@@ -124,10 +123,10 @@ overview: 'Maverick Protocol publishes 1 API contract indexed on the [APIs.io](h
 
 
   Maverick Protocol''s developer surface includes engineering blog, documentation, API reference, getting-started guide, signup flow, and 9 more developer resources.'
-random_paper: 17
+random_paper: 1
 score:
-  band: emerging
-  composite: 25.3
+  band: thin
+  composite: 27.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 37.0
@@ -135,15 +134,15 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.5
+  delta: 0.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 44.7
     developer_ergonomics: 32.7
-    discoverability: 73.2
-    operational_transparency: 13.2
-  previous_composite: 24.8
+    discoverability: 66.1
+    operational_transparency: 15.8
+  previous_composite: 27.6
   provenance:
     contracts:
       callable: 100.0
@@ -158,14 +157,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 11.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/screenshots/maverick-protocol-2026-08-07T172331.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/maverick-protocol/maverick-protocol-2026-08-07T172331.png
 security:
 - kind: domain-security
   name: Maverick Protocol Domain Security
@@ -175,6 +174,10 @@ security:
   name: Maverick Protocol Vulnerability Disclosure
   slug: maverick-protocol-vulnerability-disclosure
   summary_line: Hackerone
+skill_count: 1
+skills:
+- name: maverick-market-tickers
+  slug: maverick-protocol-market-tickers
 slug: maverick-protocol
 tags:
 - Company

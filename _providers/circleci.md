@@ -27,16 +27,18 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: verified
     rate_limit_signal: derived
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 55.4
-  scored_at: '2026-10-17'
+  score: 49.6
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -44,7 +46,7 @@ agentic_access:
   operation_count: 74
   slug: circleci-agentic-access
   summary_line: 74 operations · 30 acting
-api_count: 2
+api_count: 3
 apis:
 - baseURL: https://runner.circleci.com
   baseurl_source: declared
@@ -134,7 +136,7 @@ apis:
   description: Endpoints for retrieving workflow details, managing workflow status, and rerunning workflows.
   name: CircleCI Workflow API
   slug: circleci-workflow-api
-artifact_total: 168
+artifact_total: 171
 asyncapis:
 - description: CircleCI Webhooks allow developers to receive real-time notifications about events in their CI/CD pipelines by configuring HTTP callbacks. Webhooks can be set up through project settings or the API to
   name: CircleCI Webhooks
@@ -192,9 +194,6 @@ collections:
   name: CircleCI REST API v1 Artifact Workflow API
   slug: postman-circleci-workflow-api
 - collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
   name: CircleCI REST API v1 Artifact API
   slug: open-circleci-artifact-api
 - collection_type: open
@@ -250,62 +249,62 @@ collections:
   slug: open-circleci-workflow-api
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/finops/circleci-finops.yml
+  href: https://artifacts.apis.io/circleci/finops/circleci-finops.yml
   title: ''
   type: FinOps
   url: finops/circleci-finops.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/rate-limits/circleci-rate-limits.yml
+  href: https://artifacts.apis.io/circleci/rate-limits/circleci-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/circleci-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/plans/circleci-plans-pricing.yml
+  href: https://artifacts.apis.io/circleci/plans/circleci-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/circleci-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/rules/circleci-jsonschema-spectral-rules.yml
+  href: https://artifacts.apis.io/circleci/rules/circleci-jsonschema-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/circleci-jsonschema-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/rules/circleci-asyncapi-spectral-rules.yml
+  href: https://artifacts.apis.io/circleci/rules/circleci-asyncapi-spectral-rules.yml
   title: ''
   type: Spectral
   url: rules/circleci-asyncapi-spectral-rules.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/vocabulary/circleci-vocabulary.yml
+  href: https://artifacts.apis.io/circleci/vocabulary/circleci-vocabulary.yml
   title: ''
   type: Vocabulary
   url: vocabulary/circleci-vocabulary.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/circleci/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/asyncapi/circleci-webhooks.yml
+  href: https://artifacts.apis.io/circleci/asyncapi/circleci-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/circleci-webhooks.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/asyncapi/circleci-webhooks-asyncapi.yml
+  href: https://artifacts.apis.io/circleci/asyncapi/circleci-webhooks-asyncapi.yml
   title: ''
   type: Webhooks
   url: asyncapi/circleci-webhooks-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/data-model/circleci-data-model.yml
+  href: https://artifacts.apis.io/circleci/data-model/circleci-data-model.yml
   title: ''
   type: DataModel
   url: data-model/circleci-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/cli/circleci-cli.yml
+  href: https://artifacts.apis.io/circleci/cli/circleci-cli.yml
   title: ''
   type: CLI
   url: cli/circleci-cli.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/changelog/circleci-changelog.yml
+  href: https://artifacts.apis.io/circleci/changelog/circleci-changelog.yml
   title: ''
   type: ChangeLog
   url: changelog/circleci-changelog.yml
@@ -314,52 +313,52 @@ common:
   type: Compliance
   url: https://trust.circleci.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/errors/circleci-problem-types.yml
+  href: https://artifacts.apis.io/circleci/errors/circleci-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/circleci-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/conformance/circleci-conformance.yml
+  href: https://artifacts.apis.io/circleci/conformance/circleci-conformance.yml
   title: ''
   type: Conformance
   url: conformance/circleci-conformance.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/overlays/circleci-artifact-api-overlay.yml
+  href: https://artifacts.apis.io/circleci/overlays/circleci-artifact-api-overlay.yml
   title: ''
   type: Overlay
   url: overlays/circleci-artifact-api-overlay.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/llms/circleci-llms.txt
+  href: https://artifacts.apis.io/circleci/llms/circleci-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/circleci-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/mcp/circleci-mcp.yml
+  href: https://artifacts.apis.io/circleci/mcp/circleci-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/circleci-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/well-known/circleci-well-known.yml
+  href: https://artifacts.apis.io/circleci/well-known/circleci-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/circleci-well-known.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/hosts/circleci-hosts.yml
+  href: https://artifacts.apis.io/circleci/hosts/circleci-hosts.yml
   title: ''
   type: Hosts
   url: hosts/circleci-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/vendors/circleci-vendors.yml
+  href: https://artifacts.apis.io/circleci/vendors/circleci-vendors.yml
   title: ''
   type: Vendors
   url: vendors/circleci-vendors.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/packages/circleci-packages.yml
+  href: https://artifacts.apis.io/circleci/packages/circleci-packages.yml
   title: ''
   type: SDKs
   url: packages/circleci-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/packages/circleci-packages.yml
+  href: https://artifacts.apis.io/circleci/packages/circleci-packages.yml
   title: ''
   type: Packages
   url: packages/circleci-packages.yml
@@ -388,27 +387,27 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/circleci/overview
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/agentic-access/circleci-agentic-access.yml
+  href: https://artifacts.apis.io/circleci/agentic-access/circleci-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/circleci-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/security/circleci-trust-center.yml
+  href: https://artifacts.apis.io/circleci/security/circleci-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/circleci-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/security/circleci-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/circleci/security/circleci-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/circleci-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/security/circleci-domain-security.yml
+  href: https://artifacts.apis.io/circleci/security/circleci-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/circleci-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/authentication/circleci-authentication.yml
+  href: https://artifacts.apis.io/circleci/authentication/circleci-authentication.yml
   title: ''
   type: Authentication
   url: authentication/circleci-authentication.yml
@@ -457,27 +456,27 @@ common:
   type: Login
   url: https://app.circleci.com/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/json-ld/circleci-context.jsonld
+  href: https://artifacts.apis.io/circleci/json-ld/circleci-context.jsonld
   title: ''
   type: JSONLD
   url: json-ld/circleci-context.jsonld
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/json-schema/circleci-pipeline-schema.json
+  href: https://artifacts.apis.io/circleci/json-schema/circleci-pipeline-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/circleci-pipeline-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/json-schema/circleci-workflow-schema.json
+  href: https://artifacts.apis.io/circleci/json-schema/circleci-workflow-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/circleci-workflow-schema.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/json-schema/circleci-webhook-event-schema.json
+  href: https://artifacts.apis.io/circleci/json-schema/circleci-webhook-event-schema.json
   title: ''
   type: JSONSchema
   url: json-schema/circleci-webhook-event-schema.json
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/rules/circleci-rules.yml
+  href: https://artifacts.apis.io/circleci/rules/circleci-rules.yml
   title: ''
   type: Spectral
   url: rules/circleci-rules.yml
@@ -486,7 +485,7 @@ common:
   type: LlmsText
   url: https://circleci.com/llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/capabilities/circleci-capability-edges.yml
+  href: https://artifacts.apis.io/circleci/capabilities/circleci-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/circleci-capability-edges.yml
@@ -511,10 +510,10 @@ features:
 - SOC 2, FedRAMP Moderate (Scale)
 finops:
 - has_sources: true
-  method: generated
+  method: derived
   name: Circleci Finops
-  primary_unit: ''
-  service_category: CI/CD
+  primary_unit: subscription
+  service_category: ''
   slug: circleci-finops
   template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/circleci.png
@@ -797,7 +796,10 @@ plans:
 - name: Circleci Plans Pricing
   plan_count: 3
   slug: circleci-plans-pricing
-random_paper: 16
+- name: Circleci Price Estimates
+  plan_count: 0
+  slug: circleci-price-estimates
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Circleci Rate Limits
@@ -839,24 +841,29 @@ rules:
     warn: 5
   slug: circleci-rules
 score:
-  band: strong
-  composite: 66.1
+  band: exemplar
+  composite: 72.6
   coverage:
     artifact_dirs: 34
-    catalog_earned: 69.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    catalog_earned: 84.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 31.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.9
+  delta: 2.1
   facets:
-    access_clarity: 61.8
+    access_clarity: 100.0
     contract_governance: 31.8
-    contract_quality: 69.5
+    contract_quality: 68.8
     developer_ergonomics: 62.5
-    discoverability: 76.7
-    operational_transparency: 60.5
-  previous_composite: 70.0
+    discoverability: 78.3
+    operational_transparency: 63.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+  previous_composite: 70.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -864,7 +871,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 16
+      total: 63
     mcp: first-party
     skills: derived
   regulatory:
@@ -873,13 +880,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 35.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 22.2
-screenshot: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/screenshots/circleci-2026-06-20T174349.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/circleci/circleci-2026-06-20T174349.png
 security:
 - kind: authentication
   name: Circleci Authentication
@@ -897,6 +905,14 @@ security:
   name: Circleci Trust Center
   slug: circleci-trust-center
   summary_line: SOC 2, FedRAMP, GDPR, CSA STAR
+skill_count: 3
+skills:
+- name: circleci-job-management
+  slug: circleci-job-management
+- name: circleci-manage-workflow
+  slug: circleci-manage-workflow
+- name: circleci-webhook-management
+  slug: circleci-webhook-management
 slug: circleci
 tags:
 - CI/CD

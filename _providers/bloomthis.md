@@ -26,6 +26,8 @@ agent_readiness:
     idempotency: false
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 1
 apis:
 - description: Agent-facing commerce surface of the BloomThis Shopify store — a hosted UCP MCP endpoint for search-to-buyer-approved-checkout, the Shopify Customer Account OIDC/OAuth API, and the read-only storefron
   name: BloomThis Agent Commerce (UCP / Storefront)
   slug: bloomthis-agent-commerce-ucp-storefront
-artifact_total: 5
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -58,47 +60,47 @@ common:
   type: TermsOfService
   url: https://bloomthis.co/policies/terms-of-service
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloomthis/refs/heads/main/llms/bloomthis-llms.txt
+  href: https://artifacts.apis.io/bloomthis/llms/bloomthis-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bloomthis-llms.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloomthis/refs/heads/main/well-known/bloomthis-well-known.yml
+  href: https://artifacts.apis.io/bloomthis/well-known/bloomthis-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/bloomthis-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloomthis/refs/heads/main/mcp/bloomthis-mcp.yml
+  href: https://artifacts.apis.io/bloomthis/mcp/bloomthis-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/bloomthis-mcp.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bloomthis/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/bloomthis/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomthis/refs/heads/main/authentication/bloomthis-authentication.yml
+  href: https://artifacts.apis.io/bloomthis/authentication/bloomthis-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bloomthis-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomthis/refs/heads/main/scopes/bloomthis-scopes.yml
+  href: https://artifacts.apis.io/bloomthis/scopes/bloomthis-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/bloomthis-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomthis/refs/heads/main/conformance/bloomthis-conformance.yml
+  href: https://artifacts.apis.io/bloomthis/conformance/bloomthis-conformance.yml
   title: ''
   type: Conformance
   url: conformance/bloomthis-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bloomthis/refs/heads/main/conventions/bloomthis-conventions.yml
+  href: https://artifacts.apis.io/bloomthis/conventions/bloomthis-conventions.yml
   title: ''
   type: Conventions
   url: conventions/bloomthis-conventions.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bloomthis/refs/heads/main/security/bloomthis-domain-security.yml
+  href: https://artifacts.apis.io/bloomthis/security/bloomthis-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bloomthis-domain-security.yml
@@ -118,7 +120,7 @@ overview: 'BloomThis is listed with 1 API on the [APIs.io](https://apis.io/) net
 
 
   BloomThis'' developer surface includes engineering blog, authentication, and 11 more developer resources.'
-random_paper: 9
+random_paper: 17
 scopes:
 - name: Bloomthis Scopes
   scope_count: 4
@@ -126,7 +128,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 19.2
+  composite: 18.2
   coverage:
     artifact_dirs: 13
     catalog_earned: 32.0
@@ -134,13 +136,13 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.1
-    discoverability: 66.7
+    discoverability: 56.7
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -149,7 +151,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
-  previous_composite: 19.1
+  previous_composite: 18.2
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -160,14 +162,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 34.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/bloomthis/refs/heads/main/screenshots/bloomthis-2026-08-07T162638.png
+screenshot: https://apis.io/screenshots/bloomthis/bloomthis-2026-08-07T162638.png
 security:
 - kind: authentication
   name: Bloomthis Authentication
@@ -177,6 +179,10 @@ security:
   name: Bloomthis Domain Security
   slug: bloomthis-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 1
+skills:
+- name: Shop BloomThis via UCP agent commerce
+  slug: bloomthis-agent-commerce
 slug: bloomthis
 tags:
 - Company

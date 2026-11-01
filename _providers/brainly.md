@@ -25,6 +25,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
@@ -32,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
@@ -61,22 +63,22 @@ common:
   type: GitHubOrganization
   url: https://github.com/brainly
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brainly/refs/heads/main/well-known/brainly-security.txt
+  href: https://artifacts.apis.io/brainly/well-known/brainly-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/brainly-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/brainly/refs/heads/main/well-known/brainly-well-known.yml
+  href: https://artifacts.apis.io/brainly/well-known/brainly-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/brainly-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brainly/refs/heads/main/security/brainly-domain-security.yml
+  href: https://artifacts.apis.io/brainly/security/brainly-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/brainly-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/brainly/refs/heads/main/security/brainly-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/brainly/security/brainly-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/brainly-vulnerability-disclosure.yml
@@ -96,10 +98,10 @@ overview: 'Brainly is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Brainly''s developer surface includes pricing and 10 more developer resources.'
-random_paper: 5
+random_paper: 9
 score:
   band: emerging
-  composite: 13.0
+  composite: 14.3
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -112,29 +114,29 @@ score:
     access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 4.8
     discoverability: 48.2
-    operational_transparency: 13.2
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - united-states
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-  previous_composite: 13.0
+  previous_composite: 14.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 19.6
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/brainly/refs/heads/main/screenshots/brainly-2026-10-11T183613.png
+screenshot: https://apis.io/screenshots/brainly/brainly-2026-10-11T183613.png
 security:
 - kind: domain-security
   name: Brainly Domain Security

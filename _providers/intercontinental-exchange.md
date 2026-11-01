@@ -21,21 +21,23 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-10-17'
+  score: 18.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,11 +58,8 @@ apis:
 - description: The ICE Mortgage Technology Developer Portal is a self-service solution providing developers with resources and documentation to build and deploy mortgage lending applications. It includes a comprehen
   name: ICE Mortgage Technology Developer Portal
   slug: mortgage-technology-api
-artifact_total: 15
+artifact_total: 16
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: ICE Consolidated Feed API
   slug: open-ice-consolidated-feed-api
@@ -74,58 +73,63 @@ collections:
   name: ICE Consolidated Feed Instruments Reference Data API
   slug: open-intercontinental-exchange-reference-data-api
 common:
+- group: other
+  href: https://artifacts.apis.io/intercontinental-exchange/capabilities/intercontinental-exchange-capability-edges.yml
+  title: ''
+  type: CapabilityMap
+  url: capabilities/intercontinental-exchange-capability-edges.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/plans/intercontinental-exchange-plans-pricing.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/plans/intercontinental-exchange-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/intercontinental-exchange-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/rate-limits/intercontinental-exchange-rate-limits.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/rate-limits/intercontinental-exchange-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/intercontinental-exchange-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/finops/intercontinental-exchange-finops.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/finops/intercontinental-exchange-finops.yml
   title: ''
   type: FinOps
   url: finops/intercontinental-exchange-finops.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/agentic-access/intercontinental-exchange-agentic-access.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/agentic-access/intercontinental-exchange-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/intercontinental-exchange-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/security/intercontinental-exchange-domain-security.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/security/intercontinental-exchange-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/intercontinental-exchange-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/authentication/intercontinental-exchange-authentication.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/authentication/intercontinental-exchange-authentication.yml
   title: ''
   type: Authentication
   url: authentication/intercontinental-exchange-authentication.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/packages/intercontinental-exchange-packages.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/packages/intercontinental-exchange-packages.yml
   title: ''
   type: Packages
   url: packages/intercontinental-exchange-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/packages/intercontinental-exchange-packages.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/packages/intercontinental-exchange-packages.yml
   title: ''
   type: SDKs
   url: packages/intercontinental-exchange-packages.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/well-known/intercontinental-exchange-well-known.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/well-known/intercontinental-exchange-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/intercontinental-exchange-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/llms/intercontinental-exchange-llms.txt
+  href: https://artifacts.apis.io/intercontinental-exchange/llms/intercontinental-exchange-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/intercontinental-exchange-llms.txt
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/conformance/intercontinental-exchange-conformance.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/conformance/intercontinental-exchange-conformance.yml
   title: ''
   type: Conformance
   url: conformance/intercontinental-exchange-conformance.yml
@@ -134,12 +138,12 @@ common:
   type: Compliance
   url: https://www.ice.com/privacy-security-center/security
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/security/intercontinental-exchange-trust-center.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/security/intercontinental-exchange-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/intercontinental-exchange-trust-center.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/lifecycle/intercontinental-exchange-lifecycle.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/lifecycle/intercontinental-exchange-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/intercontinental-exchange-lifecycle.yml
@@ -148,22 +152,22 @@ common:
   type: StatusPage
   url: https://www.ice.com/status
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/conventions/intercontinental-exchange-conventions.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/conventions/intercontinental-exchange-conventions.yml
   title: ''
   type: Conventions
   url: conventions/intercontinental-exchange-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/components/intercontinental-exchange-components.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/components/intercontinental-exchange-components.yml
   title: ''
   type: Components
   url: components/intercontinental-exchange-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/data-model/intercontinental-exchange-data-model.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/data-model/intercontinental-exchange-data-model.yml
   title: ''
   type: DataModel
   url: data-model/intercontinental-exchange-data-model.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/intercontinental-exchange/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -222,7 +226,7 @@ network: true
 overview: 'Intercontinental Exchange publishes 3 API contracts indexed on the [APIs.io](https://apis.io/) network, including ICE Consolidated Feed API, and 2 more. Tagged areas include Commodities, Financial Exchanges, Market Data, NYSE, and Trading.
 
 
-  Intercontinental Exchange''s developer surface includes authentication, engineering blog, support, developer portal, and 24 more developer resources.'
+  Intercontinental Exchange''s developer surface includes authentication, engineering blog, support, developer portal, and 25 more developer resources.'
 plans:
 - name: Intercontinental Exchange Plans Pricing
   plan_count: 1
@@ -243,30 +247,30 @@ press:
 - date: ''
   title: National Housing Conference and ICE host industry ...
   url: https://nhc.org/press-release/national-housing-conference-and-ice-host-industry-leaders-and-experts-to-explore-technologys-transformative-impact-on-housing-finance/
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Intercontinental Exchange Rate Limits
   slug: intercontinental-exchange-rate-limits
 score:
   band: developing
-  composite: 41.4
+  composite: 41.7
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 48.2
     discoverability: 66.1
-    operational_transparency: 23.7
-  previous_composite: 42.9
+    operational_transparency: 26.3
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,14 +291,14 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/screenshots/intercontinental-exchange-2026-06-20T183442.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/intercontinental-exchange/intercontinental-exchange-2026-06-20T183442.png
 security:
 - kind: authentication
   name: Intercontinental Exchange Authentication
@@ -308,6 +312,12 @@ security:
   name: Intercontinental Exchange Trust Center
   slug: intercontinental-exchange-trust-center
   summary_line: SOC 1, SOC 2
+skill_count: 2
+skills:
+- name: Pull historical market data
+  slug: intercontinental-exchange-pull-market-history
+- name: Quote an ICE instrument
+  slug: intercontinental-exchange-quote-an-instrument
 slug: intercontinental-exchange
 tags:
 - Commodities

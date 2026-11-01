@@ -28,14 +28,16 @@ agent_readiness:
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.9
-  scored_at: '2026-10-17'
+  score: 35.9
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -95,49 +97,53 @@ apis:
   description: Operations related to trusted accounts.
   name: Volt Trusted accounts API
   slug: volt-io-trusted-accounts-api
-artifact_total: 18
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Volt Io Webhooks
   slug: volt-io-webhooks
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/volt/overview
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/plans/volt-io-plans-pricing.yml
+  href: https://artifacts.apis.io/volt-io/plans/volt-io-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/volt-io-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/capabilities/volt-io-capability-edges.yml
+  href: https://artifacts.apis.io/volt-io/capabilities/volt-io-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/volt-io-capability-edges.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/overlays/volt-io-accounts-overlay.yaml
+  href: https://artifacts.apis.io/volt-io/overlays/volt-io-accounts-overlay.yaml
   title: ''
   type: Overlay
   url: overlays/volt-io-accounts-overlay.yaml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/mcp/volt-io-mcp.yml
+  href: https://artifacts.apis.io/volt-io/mcp/volt-io-mcp.yml
   title: ''
   type: X-MCPServerCandidate
   url: mcp/volt-io-mcp.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/security/volt-io-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/volt-io/security/volt-io-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/volt-io-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/security/volt-io-domain-security.yml
+  href: https://artifacts.apis.io/volt-io/security/volt-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/volt-io-domain-security.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/agentic-access/volt-io-agentic-access.yml
+  href: https://artifacts.apis.io/volt-io/agentic-access/volt-io-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/volt-io-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/authentication/volt-io-authentication.yml
+  href: https://artifacts.apis.io/volt-io/authentication/volt-io-authentication.yml
   title: ''
   type: Authentication
   url: authentication/volt-io-authentication.yml
@@ -146,47 +152,47 @@ common:
   type: Security
   url: https://www.volt.io/.well-known/security.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/well-known/volt-io-security.txt
+  href: https://artifacts.apis.io/volt-io/well-known/volt-io-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/volt-io-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/well-known/volt-io-well-known.yml
+  href: https://artifacts.apis.io/volt-io/well-known/volt-io-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/volt-io-well-known.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/llms/volt-io-llms.txt
+  href: https://artifacts.apis.io/volt-io/llms/volt-io-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/volt-io-llms.txt
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/packages/volt-io-packages.yml
+  href: https://artifacts.apis.io/volt-io/packages/volt-io-packages.yml
   title: ''
   type: Packages
   url: packages/volt-io-packages.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/packages/volt-io-packages.yml
+  href: https://artifacts.apis.io/volt-io/packages/volt-io-packages.yml
   title: ''
   type: SDKs
   url: packages/volt-io-packages.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/conventions/volt-io-conventions.yml
+  href: https://artifacts.apis.io/volt-io/conventions/volt-io-conventions.yml
   title: ''
   type: Conventions
   url: conventions/volt-io-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/conventions/volt-io-conventions.yml
+  href: https://artifacts.apis.io/volt-io/conventions/volt-io-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/volt-io-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/errors/volt-io-problem-types.yml
+  href: https://artifacts.apis.io/volt-io/errors/volt-io-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/volt-io-problem-types.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/conformance/volt-io-conformance.yml
+  href: https://artifacts.apis.io/volt-io/conformance/volt-io-conformance.yml
   title: ''
   type: Conformance
   url: conformance/volt-io-conformance.yml
@@ -195,7 +201,7 @@ common:
   type: Compliance
   url: https://volt.io/compliance/
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/lifecycle/volt-io-lifecycle.yml
+  href: https://artifacts.apis.io/volt-io/lifecycle/volt-io-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/volt-io-lifecycle.yml
@@ -204,22 +210,22 @@ common:
   type: Deprecation
   url: https://docs.volt.io/implementation/payments/migration-guide
 - group: start
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/sandbox/volt-io-sandbox.yml
+  href: https://artifacts.apis.io/volt-io/sandbox/volt-io-sandbox.yml
   title: ''
   type: Sandbox
   url: sandbox/volt-io-sandbox.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/components/volt-io-components.yml
+  href: https://artifacts.apis.io/volt-io/components/volt-io-components.yml
   title: ''
   type: Components
   url: components/volt-io-components.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/asyncapi/volt-io-webhooks.yml
+  href: https://artifacts.apis.io/volt-io/asyncapi/volt-io-webhooks.yml
   title: ''
   type: Webhooks
   url: asyncapi/volt-io-webhooks.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/volt-io/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
@@ -290,6 +296,14 @@ common:
 created: '2026-07-24'
 description: 'Volt is a London-headquartered real-time payments company that operates a global account-to-account (A2A) "pay by bank" network built on open banking rails. Founded in 2019, Volt connects merchants to bank-initiated payments across the UK (Faster Payments / Open Banking under PSD2), Europe (SEPA), Brazil (Pix), Australia (PayTo), and other real-time schemes through a single API, so shoppers pay directly from their bank account without cards. Its platform spans payment initiation, refunds, payouts, recurring payments (mandates / variable recurring payments), Volt Accounts and virtual IBANs for settlement and collections, account verification (confirmation of payee), and reconciliation reporting. Volt sells to merchants and PSPs across ecommerce, travel, gaming, iGaming and financial services, and is FCA-authorised in its home market of the United Kingdom. Volt ships a genuine, API-native developer surface: a public developer portal and OpenAPI-backed API reference at docs.volt.io,
   a single production gateway host (gateway.volt.io) with a sandbox, OAuth2 authentication, and webhooks for asynchronous payment events. The docs.volt.io API reference renders schemas server-side, but Volt publishes a real OpenAPI 3.0.1 definition for its Accounts API (virtual IBANs, named accounts, settlement) in the github.com/volt-io/volt-io-accounts repository, and ships first-party mobile checkout SDKs (iOS/Android) plus e-commerce plugins in the same GitHub organization.'
+finops:
+- has_sources: true
+  method: derived
+  name: Volt Io Finops
+  primary_unit: ''
+  service_category: ''
+  slug: volt-io-finops
+  template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
 modified: '2026-07-24'
@@ -302,30 +316,30 @@ overview: 'Volt publishes 12 API contracts indexed on the [APIs.io](https://apis
   The Volt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Volt''s developer surface includes authentication, sandbox, pricing, signup flow, documentation, API reference, getting-started guide, and 34 more developer resources.'
+  Volt''s developer surface includes authentication, sandbox, pricing, signup flow, documentation, API reference, getting-started guide, and 35 more developer resources.'
 plans:
 - name: Volt Io Plans Pricing
   plan_count: 0
   slug: volt-io-plans-pricing
-random_paper: 10
+random_paper: 18
 score:
-  band: developing
-  composite: 40.2
+  band: strong
+  composite: 54.9
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
-    access_clarity: 13.2
+    access_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 57.0
-    developer_ergonomics: 56.5
-    discoverability: 74.1
-    operational_transparency: 39.5
+    developer_ergonomics: 77.5
+    discoverability: 67.9
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -334,7 +348,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 40.2
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -350,14 +364,15 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 18.1
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+    score: 28.3
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/screenshots/volt-io-2026-08-17T082816.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/volt-io/volt-io-2026-08-17T082816.png
 security:
 - kind: authentication
   name: Volt Io Authentication
@@ -371,6 +386,14 @@ security:
   name: Volt Io Vulnerability Disclosure
   slug: volt-io-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 3
+skills:
+- name: Create a payout from a Volt Account
+  slug: volt-io-create-payout
+- name: Order and activate Volt Account aliases
+  slug: volt-io-order-account-aliases
+- name: Verify a beneficiary account before payout
+  slug: volt-io-verify-beneficiary
 slug: volt-io
 tags:
 - Payments

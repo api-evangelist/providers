@@ -27,6 +27,8 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
@@ -34,12 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 3
 common:
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/provusinc/refs/heads/main/rate-limits/provusinc-rate-limits.yml
+  href: https://artifacts.apis.io/provusinc/rate-limits/provusinc-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/provusinc-rate-limits.yml
@@ -76,22 +78,22 @@ common:
   type: TermsOfService
   url: https://provus.ai/terms-of-service/
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/provusinc/refs/heads/main/llms/provusinc-llms.txt
+  href: https://artifacts.apis.io/provusinc/llms/provusinc-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/provusinc-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/provusinc/refs/heads/main/security/provusinc-domain-security.yml
+  href: https://artifacts.apis.io/provusinc/security/provusinc-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/provusinc-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/provusinc/refs/heads/main/plans/provusinc-plans-pricing.yml
+  href: https://artifacts.apis.io/provusinc/plans/provusinc-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/provusinc-plans-pricing.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/provusinc/refs/heads/main/lifecycle/provusinc-lifecycle.yml
+  href: https://artifacts.apis.io/provusinc/lifecycle/provusinc-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/provusinc-lifecycle.yml
@@ -128,14 +130,14 @@ plans:
 - name: Provusinc Plans Pricing
   plan_count: 2
   slug: provusinc-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Provusinc Rate Limits
   slug: provusinc-rate-limits
 score:
   band: emerging
-  composite: 17.2
+  composite: 18.4
   coverage:
     artifact_dirs: 9
     catalog_earned: 35.0
@@ -148,24 +150,24 @@ score:
     access_clarity: 55.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 7.1
-    discoverability: 55.4
+    developer_ergonomics: 16.7
+    discoverability: 48.2
     operational_transparency: 0.0
-  previous_composite: 17.2
+  previous_composite: 18.4
   regulatory:
     applies: true
     matched_via: fallback
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 9.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/provusinc/refs/heads/main/screenshots/provusinc-2026-09-02T152244.png
+screenshot: https://apis.io/screenshots/provusinc/provusinc-2026-09-02T152244.png
 security:
 - kind: domain-security
   name: Provusinc Domain Security

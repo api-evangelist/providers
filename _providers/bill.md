@@ -27,14 +27,16 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
+    operation_distinctiveness: distinct
+    pagination_ratio: paginated
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.1
-  scored_at: '2026-10-17'
+  score: 22.8
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -95,15 +97,12 @@ apis:
   description: The Webhooks API from BILL — 2 operation(s) for webhooks.
   name: BILL Webhooks API
   slug: bill-webhooks-api
-artifact_total: 27
+artifact_total: 29
 asyncapis:
 - description: Outbound webhook event notifications delivered by the BILL v3 API Platform to subscriber `notificationUrl` endpoints. Subscribers register through the BILL v3 webhook subscription endpoints; BILL POST
   name: BILL Webhooks
   slug: bill-webhooks-asyncapi
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: BILL v3 Authentication API
   slug: open-bill-authentication-api
@@ -135,8 +134,13 @@ collections:
   name: BILL v3 API
   slug: open-bill
 common:
+- group: commercial
+  href: https://artifacts.apis.io/bill/plans/bill-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bill-plans-pricing.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/bill/refs/heads/main/capabilities/bill-capability-edges.yml
+  href: https://artifacts.apis.io/bill/capabilities/bill-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/bill-capability-edges.yml
@@ -169,17 +173,17 @@ common:
   type: GettingStarted
   url: https://developer.bill.com/docs/get-started-in-production
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bill/refs/heads/main/agentic-access/bill-agentic-access.yml
+  href: https://artifacts.apis.io/bill/agentic-access/bill-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/bill-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bill/refs/heads/main/security/bill-domain-security.yml
+  href: https://artifacts.apis.io/bill/security/bill-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/bill-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bill/refs/heads/main/authentication/bill-authentication.yml
+  href: https://artifacts.apis.io/bill/authentication/bill-authentication.yml
   title: ''
   type: Authentication
   url: authentication/bill-authentication.yml
@@ -221,6 +225,14 @@ common:
   url: https://developer.bill.com/llms.txt
 created: '2026-05-11'
 description: BILL (formerly Bill.com) is a cloud-based financial operations platform for small and midsize businesses that automates accounts payable, accounts receivable, and spend & expense management. The BILL API Platform exposes these workflows through the BILL v3 REST API and embeddable BILL Elements UI components, enabling partners and ERPs to integrate bill capture, approvals, payments, and real-time event notifications via webhooks. The API uses session-based authentication with API keys and developer keys against production and sandbox gateways.
+finops:
+- has_sources: true
+  method: derived
+  name: Bill Finops
+  primary_unit: user
+  service_category: ''
+  slug: bill-finops
+  template: false
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bill.png
 layout: provider
 modified: '2026-05-30'
@@ -233,8 +245,15 @@ overview: 'BILL publishes 11 API contracts indexed on the [APIs.io](https://apis
   The BILL catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  BILL''s developer surface includes engineering blog, sandbox, changelog, getting-started guide, authentication, documentation, API reference, and 13 more developer resources.'
-random_paper: 1
+  BILL''s developer surface includes engineering blog, sandbox, changelog, getting-started guide, authentication, documentation, API reference, and 14 more developer resources.'
+plans:
+- name: Bill Plans Pricing
+  plan_count: 7
+  slug: bill-plans-pricing
+- name: Bill Price Estimates
+  plan_count: 0
+  slug: bill-price-estimates
+random_paper: 11
 rules:
 - authorship: generated
   effective_rule_count: 35
@@ -249,24 +268,24 @@ rules:
     warn: 6
   slug: bill-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 39.9
+  band: strong
+  composite: 54.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 36.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.5
+    artifact_dirs: 15
+    catalog_earned: 51.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 44.7
+    access_clarity: 84.2
     contract_governance: 13.6
     contract_quality: 52.1
-    developer_ergonomics: 46.4
+    developer_ergonomics: 69.0
     discoverability: 64.3
-    operational_transparency: 11.8
-  previous_composite: 39.9
+    operational_transparency: 23.7
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -280,13 +299,14 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.9
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: flat
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: rising
   upsert:
-    applies: true
-    score: 0.0
-screenshot: https://raw.githubusercontent.com/api-evangelist/bill/refs/heads/main/screenshots/bill-2026-06-20T173240.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/bill/bill-2026-06-20T173240.png
 security:
 - kind: authentication
   name: Bill Authentication

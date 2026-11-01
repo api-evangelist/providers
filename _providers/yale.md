@@ -19,21 +19,23 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: false
     protected_resource_metadata: false
     rate_limit_signal: derived
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 20.7
-  scored_at: '2026-10-17'
+  score: 19.0
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -98,11 +100,8 @@ apis:
   description: Deployment identity, version and metrics
   name: Yale University Info API
   slug: yale-info-api
-artifact_total: 41
+artifact_total: 40
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: LUX Yale Collections Discovery Configuration API
   slug: open-yale-configuration-api
@@ -124,7 +123,7 @@ common:
   type: License
   url: https://github.com/project-lux/lux-middletier/blob/main/LICENSE
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/capabilities/yale-capability-edges.yml
+  href: https://artifacts.apis.io/yale/capabilities/yale-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/yale-capability-edges.yml
@@ -205,57 +204,57 @@ common:
   type: Blog
   url: https://news.yale.edu/news-rss
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/agentic-access/yale-agentic-access.yml
+  href: https://artifacts.apis.io/yale/agentic-access/yale-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/yale-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/security/yale-domain-security.yml
+  href: https://artifacts.apis.io/yale/security/yale-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/yale-domain-security.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/plans/yale-plans-pricing.yml
+  href: https://artifacts.apis.io/yale/plans/yale-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/yale-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/rate-limits/yale-rate-limits.yml
+  href: https://artifacts.apis.io/yale/rate-limits/yale-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/yale-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/finops/yale-finops.yml
+  href: https://artifacts.apis.io/yale/finops/yale-finops.yml
   title: ''
   type: FinOps
   url: finops/yale-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/review.yml
+  href: https://artifacts.apis.io/yale/review.yml
   title: ''
   type: Review
   url: review.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/authentication/yale-authentication.yml
+  href: https://artifacts.apis.io/yale/authentication/yale-authentication.yml
   title: ''
   type: x-authentication
   url: authentication/yale-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/scopes/yale-scopes.yml
+  href: https://artifacts.apis.io/yale/scopes/yale-scopes.yml
   title: ''
   type: x-scopes
   url: scopes/yale-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/errors/yale-errors.yml
+  href: https://artifacts.apis.io/yale/errors/yale-errors.yml
   title: ''
   type: x-errors
   url: errors/yale-errors.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/lifecycle/yale-lifecycle.yml
+  href: https://artifacts.apis.io/yale/lifecycle/yale-lifecycle.yml
   title: ''
   type: x-lifecycle
   url: lifecycle/yale-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/conformance/yale-domain-standards.yml
+  href: https://artifacts.apis.io/yale/conformance/yale-domain-standards.yml
   title: ''
   type: x-conformance
   url: conformance/yale-domain-standards.yml
@@ -332,7 +331,7 @@ plans:
 - name: Yale Plans Pricing
   plan_count: 2
   slug: yale-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Yale Rate Limits
@@ -367,7 +366,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 37.8
+  composite: 38.1
   coverage:
     artifact_dirs: 23
     catalog_earned: 53.3
@@ -375,14 +374,14 @@ score:
     catalog_gap: 61.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -6.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 53.1
     developer_ergonomics: 33.3
     discoverability: 62.5
-    operational_transparency: 7.9
+    operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -390,7 +389,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 43.9
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -405,14 +404,14 @@ score:
     regime: Education & Research
     regime_id: education
     score: 28.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
-  trend: falling
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
+  trend: flat
   upsert:
     applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
-screenshot: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/screenshots/yale-2026-06-20T201720.png
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/yale/yale-2026-06-20T201720.png
 security:
 - kind: authentication
   name: Yale Authentication

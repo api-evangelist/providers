@@ -29,6 +29,8 @@ agent_readiness:
     idempotency: derived
     mcp_server: platform
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
@@ -36,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-10-17'
+  scored_at: '2026-10-31'
 api_count: 4
 apis:
 - description: Universal Commerce Protocol (UCP) shopping service, exposed over MCP at https://offgridstores.com/api/ucp/mcp. The server identifies itself as "universal-commerce" 0.1.0 speaking MCP protocol 2025-06-
@@ -51,7 +53,7 @@ apis:
 - description: 'Anonymous read-only JSON over the storefront: /products.json and /collections.json for the catalog, /products/{handle}.json and /collections/{handle}/products.json for single resources, and /cart.js f'
   name: Off Grid Stores Storefront JSON Endpoints
   slug: offgridstores-storefront-json
-artifact_total: 10
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -62,12 +64,12 @@ common:
   type: Documentation
   url: https://offgridstores.com/agents.md
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/llms/offgridstores-llms.txt
+  href: https://artifacts.apis.io/offgridstores/llms/offgridstores-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/offgridstores-llms.txt
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/llms/offgridstores-agents.md
+  href: https://artifacts.apis.io/offgridstores/llms/offgridstores-agents.md
   title: ''
   type: AgentInstructions
   url: llms/offgridstores-agents.md
@@ -104,82 +106,82 @@ common:
   type: ShippingPolicy
   url: https://offgridstores.com/policies/shipping-policy
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/well-known/offgridstores-well-known.yml
+  href: https://artifacts.apis.io/offgridstores/well-known/offgridstores-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/offgridstores-well-known.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/authentication/offgridstores-authentication.yml
+  href: https://artifacts.apis.io/offgridstores/authentication/offgridstores-authentication.yml
   title: ''
   type: Authentication
   url: authentication/offgridstores-authentication.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/scopes/offgridstores-scopes.yml
+  href: https://artifacts.apis.io/offgridstores/scopes/offgridstores-scopes.yml
   title: ''
   type: OAuthScopes
   url: scopes/offgridstores-scopes.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/conformance/offgridstores-conformance.yml
+  href: https://artifacts.apis.io/offgridstores/conformance/offgridstores-conformance.yml
   title: ''
   type: Conformance
   url: conformance/offgridstores-conformance.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/lifecycle/offgridstores-lifecycle.yml
+  href: https://artifacts.apis.io/offgridstores/lifecycle/offgridstores-lifecycle.yml
   title: ''
   type: Lifecycle
   url: lifecycle/offgridstores-lifecycle.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/conventions/offgridstores-conventions.yml
+  href: https://artifacts.apis.io/offgridstores/conventions/offgridstores-conventions.yml
   title: ''
   type: Conventions
   url: conventions/offgridstores-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/conventions/offgridstores-conventions.yml
+  href: https://artifacts.apis.io/offgridstores/conventions/offgridstores-conventions.yml
   title: ''
   type: Idempotency
   url: conventions/offgridstores-conventions.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/errors/offgridstores-problem-types.yml
+  href: https://artifacts.apis.io/offgridstores/errors/offgridstores-problem-types.yml
   title: ''
   type: ErrorCatalog
   url: errors/offgridstores-problem-types.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/rate-limits/offgridstores-rate-limits.yml
+  href: https://artifacts.apis.io/offgridstores/rate-limits/offgridstores-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/offgridstores-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/plans/offgridstores-plans-pricing.yml
+  href: https://artifacts.apis.io/offgridstores/plans/offgridstores-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/offgridstores-plans-pricing.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/skills/_index.yml
+  href: https://artifacts.apis.io/offgridstores/skills/_index.yml
   title: ''
   type: AgentSkill
   url: skills/_index.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/data-model/offgridstores-data-model.yml
+  href: https://artifacts.apis.io/offgridstores/data-model/offgridstores-data-model.yml
   title: ''
   type: DataModel
   url: data-model/offgridstores-data-model.yml
 - group: build
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/mcp/offgridstores-tool-crosswalk.yml
+  href: https://artifacts.apis.io/offgridstores/mcp/offgridstores-tool-crosswalk.yml
   title: ''
   type: ToolCrosswalk
   url: mcp/offgridstores-tool-crosswalk.yml
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/mcp/offgridstores-mcp.yml
+  href: https://artifacts.apis.io/offgridstores/mcp/offgridstores-mcp.yml
   title: ''
   type: MCPServer
   url: mcp/offgridstores-mcp.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/graphql/offgridstores-storefront.graphql
+  href: https://artifacts.apis.io/offgridstores/graphql/offgridstores-storefront.graphql
   title: ''
   type: GraphQL
   url: graphql/offgridstores-storefront.graphql
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/security/offgridstores-domain-security.yml
+  href: https://artifacts.apis.io/offgridstores/security/offgridstores-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/offgridstores-domain-security.yml
@@ -203,7 +205,7 @@ plans:
 - name: Offgridstores Plans Pricing
   plan_count: 0
   slug: offgridstores-plans-pricing
-random_paper: 1
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Offgridstores Rate Limits
@@ -215,7 +217,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 27.8
+  composite: 26.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 35.0
@@ -229,9 +231,9 @@ score:
     contract_governance: 18.2
     contract_quality: 9.3
     developer_ergonomics: 30.4
-    discoverability: 71.7
+    discoverability: 61.7
     operational_transparency: 0.0
-  previous_composite: 27.8
+  previous_composite: 26.8
   provenance:
     conformance: first-party
     mcp: platform-generated
@@ -242,14 +244,14 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 34.4
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/offgridstores/refs/heads/main/screenshots/offgridstores-2026-09-02T150831.png
+screenshot: https://apis.io/screenshots/offgridstores/offgridstores-2026-09-02T150831.png
 security:
 - kind: authentication
   name: Offgridstores Authentication
@@ -259,6 +261,14 @@ security:
   name: Offgridstores Domain Security
   slug: offgridstores-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 3
+skills:
+- name: offgridstores-agent-checkout
+  slug: offgridstores-agent-checkout
+- name: offgridstores-browse-catalog
+  slug: offgridstores-browse-catalog
+- name: offgridstores-build-cart
+  slug: offgridstores-build-cart
 slug: offgridstores
 tags:
 - Company

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +26,18 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: partial
+    operation_distinctiveness: distinct
+    pagination_ratio: partial
     protected_resource_metadata: false
     rate_limit_signal: derived
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-10-17'
+  score: 26.3
+  scored_at: '2026-10-31'
 agentic_access:
 - acting_count: 123
   human_in_the_loop: 4
@@ -223,11 +225,8 @@ apis:
   description: The oauth API from Nuclei — 5 operation(s) for oauth.
   name: Nuclei OAUTH API
   slug: nuclei-oauth-api
-artifact_total: 82
+artifact_total: 81
 collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
 - collection_type: open
   name: PDCP agents API
   slug: open-nuclei-agents-api
@@ -338,22 +337,22 @@ collections:
   slug: open-nuclei
 common:
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/plans/nuclei-plans-pricing.yml
+  href: https://artifacts.apis.io/nuclei/plans/nuclei-plans-pricing.yml
   title: ''
   type: Plans
   url: plans/nuclei-plans-pricing.yml
 - group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/rate-limits/nuclei-rate-limits.yml
+  href: https://artifacts.apis.io/nuclei/rate-limits/nuclei-rate-limits.yml
   title: ''
   type: RateLimits
   url: rate-limits/nuclei-rate-limits.yml
 - group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/finops/nuclei-finops.yml
+  href: https://artifacts.apis.io/nuclei/finops/nuclei-finops.yml
   title: ''
   type: FinOps
   url: finops/nuclei-finops.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/capabilities/nuclei-capability-edges.yml
+  href: https://artifacts.apis.io/nuclei/capabilities/nuclei-capability-edges.yml
   title: ''
   type: CapabilityMap
   url: capabilities/nuclei-capability-edges.yml
@@ -370,27 +369,27 @@ common:
   type: License
   url: https://github.com/projectdiscovery/nuclei/blob/dev/LICENSE
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/agentic-access/nuclei-agentic-access.yml
+  href: https://artifacts.apis.io/nuclei/agentic-access/nuclei-agentic-access.yml
   title: ''
   type: AgenticAccess
   url: agentic-access/nuclei-agentic-access.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/security/nuclei-trust-center.yml
+  href: https://artifacts.apis.io/nuclei/security/nuclei-trust-center.yml
   title: ''
   type: TrustCenter
   url: security/nuclei-trust-center.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/security/nuclei-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/nuclei/security/nuclei-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/nuclei-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/security/nuclei-domain-security.yml
+  href: https://artifacts.apis.io/nuclei/security/nuclei-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/nuclei-domain-security.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/authentication/nuclei-authentication.yml
+  href: https://artifacts.apis.io/nuclei/authentication/nuclei-authentication.yml
   title: ''
   type: Authentication
   url: authentication/nuclei-authentication.yml
@@ -432,14 +431,14 @@ finops:
 - has_sources: false
   method: generated
   name: Nuclei Finops
-  primary_unit: ''
+  primary_unit: request
   service_category: API
   slug: nuclei-finops
   template: true
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nuclei.png
 layout: provider
 mcp_servers:
-- description: Remote MCP server at mcp.projectdiscovery.io over HTTP; 7 tools listed.
+- description: Remote MCP server at mcp.projectdiscovery.io over HTTP; 32 tools listed.
   name: Nuclei MCP Server
   slug: nuclei
 modified: '2026-05-19'
@@ -454,14 +453,14 @@ plans:
 - name: Nuclei Plans Pricing
   plan_count: 3
   slug: nuclei-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Nuclei Rate Limits
   slug: nuclei-rate-limits
 score:
-  band: developing
-  composite: 40.5
+  band: thin
+  composite: 32.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 38.0
@@ -469,18 +468,15 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 47.6
+    contract_quality: 45.3
     developer_ergonomics: 40.5
-    discoverability: 60.0
-    operational_transparency: 10.5
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 41.8
+    discoverability: 57.1
+    operational_transparency: 23.7
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -495,13 +491,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 22.5
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
-    applies: true
-    score: 61.1
-screenshot: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/screenshots/nuclei-2026-06-20T190508.png
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+screenshot: https://apis.io/screenshots/nuclei/nuclei-2026-06-20T190508.png
 security:
 - kind: authentication
   name: Nuclei Authentication

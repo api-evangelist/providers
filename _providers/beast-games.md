@@ -14,26 +14,28 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
+    operation_distinctiveness: na
+    pagination_ratio: na
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-10-17'
+  score: 3.1
+  scored_at: '2026-10-31'
 api_count: 0
 artifact_total: 2
 common:
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beast-games/refs/heads/main/well-known/beast-games-clarity-security.txt
+  href: https://artifacts.apis.io/beast-games/well-known/beast-games-clarity-security.txt
   title: ''
   type: SecurityTxt
   url: well-known/beast-games-clarity-security.txt
 - group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/beast-games/refs/heads/main/well-known/beast-games-well-known.yml
+  href: https://artifacts.apis.io/beast-games/well-known/beast-games-well-known.yml
   title: ''
   type: WellKnown
   url: well-known/beast-games-well-known.yml
@@ -42,22 +44,22 @@ common:
   type: Security
   url: https://clarity.com/vdp
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beast-games/refs/heads/main/hosts/beast-games-hosts.yml
+  href: https://artifacts.apis.io/beast-games/hosts/beast-games-hosts.yml
   title: ''
   type: Hosts
   url: hosts/beast-games-hosts.yml
 - group: other
-  href: https://raw.githubusercontent.com/api-evangelist/beast-games/refs/heads/main/vendors/beast-games-vendors.yml
+  href: https://artifacts.apis.io/beast-games/vendors/beast-games-vendors.yml
   title: ''
   type: Vendors
   url: vendors/beast-games-vendors.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beast-games/refs/heads/main/security/beast-games-vulnerability-disclosure.yml
+  href: https://artifacts.apis.io/beast-games/security/beast-games-vulnerability-disclosure.yml
   title: ''
   type: VulnerabilityDisclosure
   url: security/beast-games-vulnerability-disclosure.yml
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/beast-games/refs/heads/main/security/beast-games-domain-security.yml
+  href: https://artifacts.apis.io/beast-games/security/beast-games-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beast-games-domain-security.yml
@@ -81,7 +83,7 @@ name: Beast Games
 nav: Providers
 network: true
 overview: Beast Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Entertainment, Competitions, Gaming, and Streaming.
-random_paper: 19
+random_paper: 17
 score:
   band: minimal
   composite: 5.3
@@ -109,14 +111,14 @@ score:
     regime: Horizontal (data, software, accessibility, platform)
     regime_id: horizontal
     score: 11.8
-  schema_version: 0.24.0
-  scored_at: '2026-10-17'
+  schema_version: 0.25.0
+  scored_at: '2026-10-31'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
-screenshot: https://raw.githubusercontent.com/api-evangelist/beast-games/refs/heads/main/screenshots/beast-games-2026-10-11T101712.png
+screenshot: https://apis.io/screenshots/beast-games/beast-games-2026-10-11T101712.png
 security:
 - kind: domain-security
   name: Beast Games Domain Security
